@@ -538,6 +538,30 @@
   ecosystem, CHANGELOG, README.
 - notes.md §51; sources.json; findings.md batch #35. No wrapper.
 
+## 2026-09-18 22:56 UTC — GLiNER2 Ultrafast observe→score→act (~16:56 Boise)
+
+- Folded into open PR #2 (`cursor/augustus-store-envelope-00b4`).
+  Docs-only. Not a competing PR. Archer 27B drop still **WATCH**.
+  **Not Jev. Not GLiNER2.5. Not multimodal.** No invented metrics.
+- HIGH: [sahibzada-allahyar/gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
+  (MIT, created 2026-09-18). Local GLiNER2
+  `fastino/gliner2-multi-v1` scores observed a11y/DOM controls.
+  No screenshots; no generated selectors; code owns actuators.
+  Hybrid local decide + remote Mercury 2.5 fill. `DONE` ≠ verified
+  success. Same *job* as jev-ultrafast / solari-reflex; encoder
+  backend. Fastino sibling class with gliner25-compaction (different
+  hole, GLiNER2.5) and GLiGuard (safety schema). Contrast
+  blackwood-rlcd screenshot→Choice; laya-mind2web is DOM-index Laya
+  (same observed-candidate family).
+- Demo (theirs, not re-run): Flights 12.20 s visible / 13.785 s loop /
+  ~$0.0001 API. Not a bake-off. Do not merge with atlas 7.1 s.
+- Cards: SKILL.md, judgment-class (primary), mixed-architecture
+  (primary), applied-mappings §2, mappings §9/§12, faq,
+  mental-models, validation, methods-catalog, toolbox,
+  agent-self-assessment, composition-algebra, ecosystem, CHANGELOG,
+  README.
+- notes.md §52; sources.json; findings.md batch #36. No wrapper.
+
 
 
 

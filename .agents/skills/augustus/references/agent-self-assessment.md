@@ -28,6 +28,10 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    session**; keyword retriever, not semantic; below `JEV_FIRM` 0.6
    never blocks; true-but-unread still flags unsupported
    (`notes.md` §51). Anti-hallucinated-done, not a test runner.
+   Computer-use cousin of the same honesty:
+   [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
+   — loop `DONE` is termination, not verified success; apps inspect
+   the actual result (`notes.md` §52).
 4. **Stuck-detector**: three failures with the same strategy → ask for a
    new hypothesis, not another retry.
 5. **Supervision during long runs** (foreman): separate concurrent loop
@@ -45,6 +49,10 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    **no screenshots**; model output never becomes a selector. Harbor-style
    task score (Stripe API / answer key). Author table vs Codex on Solari:
    60.2 s vs 194.9 s; 66 s vs 460 s; 24.2 s vs 98.4 s (`notes.md` §48).
+   Encoder backend of the same hole:
+   [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
+   — local GLiNER2 scores observed controls; `DONE` ≠ verified success
+   (`notes.md` §52).
    Productized Kahneman cascade for *any* cheap-decide / expensive-write
    loop (business/life, not only SWE):
    [dual-process-ai](https://github.com/taro1985/dual-process-ai) —

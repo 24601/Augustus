@@ -115,7 +115,16 @@ code copies those bytes; a generator summary is the rejected species
 (`notes.md` §50). Computer-use cousin:
 [solari-reflex](https://github.com/hitakshiA/solari-reflex) — structured
 observation → typed decision → verified act; **no screenshots**; model
-output never becomes a selector (`notes.md` §48).
+output never becomes a selector (`notes.md` §48). Encoder-backend
+cousin of the same hole:
+[gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
+— local GLiNER2 (`fastino/gliner2-multi-v1`) scores observed a11y/DOM
+controls; code clicks; remote text helper only for TYPE; `DONE` ≠
+verified success (`notes.md` §52). Open-head cousin:
+[laya-mind2web](https://huggingface.co/ShaunSpark/laya-mind2web-browser-agent)
+— Laya operation + target index over interactive DOM elements (not
+screenshot multimodal). Contrast blackwood-rlcd (letters on a
+screenshot).
 **DOM-as-text + fan-out (Empirical as atlas browser-use *shape*):** a
 screenshot task translated into a structured DOM snapshot as `state`,
 then speculative questions over numbered candidates — not vision

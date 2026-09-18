@@ -36,7 +36,9 @@ never launder a Noul as a proof.
   contract-compatible local `/v1/systemone` (stub until hf scorer; also kev pointer / von tiny SAN — not replicas),
   GLiNER/GLiClass species (locate vs categorize vs local multi-head;
   GLiNER2.5 extractive compaction as a named job, not a new species;
-  GLiNER code-graph indexer + escalate-S2, 10–50× unfilled),
+  GLiNER code-graph indexer + escalate-S2, 10–50× unfilled;
+  GLiNER2 observe→score-among-candidates computer-use as a *different*
+  named job, not GLiNER2.5),
   listwise vs decision objectives, vision scoring, when-to-use axes
   (including decision-model vs constrained LLM),
   agent-architecture portents
@@ -53,12 +55,13 @@ never launder a Noul as a proof.
   placement: judgment-class model + LLM + code; preference lint; provider
   (Jev default / other family with self-eval); dual-process S1 decide / S2
   generate; component node; DOM-as-text + fan-out; shadow-mode compaction rollout;
-  fail-open wake vs fail-closed merge-gate; Harbor on/off routing
+  fail-open wake vs fail-closed merge-gate; Harbor on/off routing;
+  hybrid local decide + remote fill; `DONE` ≠ verified success
 - `.agents/skills/augustus/references/applied-mappings.md` — context sieve,
-  exact-text keep/drop (extractive / pointer-not-generator; char-offset compaction), env triage (OpenSmoke + latch merge-gate), moderation/ranking, skill routing (route ≠ memory)
+  exact-text keep/drop (extractive / pointer-not-generator; char-offset compaction; observed a11y/DOM controls), env triage (OpenSmoke + latch merge-gate), moderation/ranking, skill routing (route ≠ memory)
 - `.agents/skills/augustus/references/faq.md` — "just classification",
   stack replacement, Jev vs open head vs encoder vs LoRA vs constrained AR vs kev vs blackwood,
-  wait-for-Archer, missing-other confident-wrong, soft project rules vs linter (Abide), extractive/pointer-not-generator, compaction summarize vs pointer, encoder vs Jev compaction, fail-closed keep_full, shadow-mode rollout, fail-open vs fail-closed wake vs CI gate, local drop-in vs stub scorer, route ≠ memory, when-it-holds / extractable-from-state, decision-model vs constrained LLM, dual-process S1/S2, combinatorial grid ≠ extractive, GLiNER vs GLiClass vs CLIP, LLM-as-judge, in-engine vs CLI store,
+  wait-for-Archer, missing-other confident-wrong, soft project rules vs linter (Abide), extractive/pointer-not-generator, compaction summarize vs pointer, encoder vs Jev compaction, fail-closed keep_full, shadow-mode rollout, fail-open vs fail-closed wake vs CI gate, observe→score→act backend-agnostic, hybrid local decide + remote fill, DONE ≠ verified success, local drop-in vs stub scorer, route ≠ memory, when-it-holds / extractable-from-state, decision-model vs constrained LLM, dual-process S1/S2, combinatorial grid ≠ extractive, GLiNER vs GLiClass vs CLIP, LLM-as-judge, in-engine vs CLI store,
   hard envelope (bitrate / planner), not-another-how-to
 - `.agents/skills/augustus/references/mappings.md` — classical-method
   mappings with boundaries, counterexamples, acceptance tests (including
@@ -70,7 +73,8 @@ never launder a Noul as a proof.
   Harbor-style frozen protocol vs constrained LLMs; jevals-data as
   CC-BY-4.0 recompute-from-logs feedstock; Abide replay as
   Harbor-adjacent soft-rule measurement; solari-reflex Harbor-style
-  computer-use; jev-testbench collab arms; ARC-AGI Direct Jev as
+  computer-use; gliner2-ultrafast encoder-backend cousin (`DONE` ≠
+  success; demo is not a bake-off); jev-testbench collab arms; ARC-AGI Direct Jev as
   combinatorial-≠-extractive negative; jev-gateway-bench Harbor on/off
   routing one-run signal)
 - `.agents/skills/augustus/references/boundary-audit.md` — existing-system

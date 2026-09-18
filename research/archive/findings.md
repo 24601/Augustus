@@ -917,8 +917,6 @@ compaction job is backend-agnostic (Jev Score/Noul vs GLiNER
 encoder); (bx) shadow-mode default is the rollout for memory
 mutation.
 
-
-
 ## Batch #35 (2026-09-18 ~16:48 Boise) — CI merge-gate, fail-open wake, S1 indexer, claim-evidence
 
 Note: `research/notes.md` §51. Docs-only. Folded into PR #2. Not a
@@ -966,6 +964,39 @@ picking fail polarity (wake skip vs merge PASS vs compaction drop);
 + escalate-S2 is not a measured 10–50× until the table is filled;
 (cc) claim/evidence Stop is anti-hallucinated-done, not a test
 runner; (cd) description-only greenfield is not a product receipt.
+
+## Batch #36 (2026-09-18 ~16:56 Boise) — GLiNER2 Ultrafast observe→score→act
+
+Note: `research/notes.md` §52. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. **Not Jev. Not GLiNER2.5. Not
+multimodal.** No invented metrics. Do not re-fold §48 solari, §50
+compaction, §51 CI merge-gate / wake, GLiGuard species, or jev-ultrafast 7.1 s as this demo.
+
+- **sahibzada-allahyar/gliner2-ultrafast (Empirical as README /
+  architecture behavior).** MIT. Created 2026-09-18T19:35:23Z; 12★
+  at capture. Adaptation of browser-use/jev-ultrafast. Local
+  GLiNER2 (`fastino/gliner2-multi-v1`) extracts requirements and
+  scores observed a11y/DOM controls. No screenshots. No generated
+  selectors or JS. Code owns order, dates, freshness, clicks.
+  Hybrid: local decide; Mercury 2.5 via OpenRouter for TYPE.
+  `DONE` is loop termination; apps must verify outcomes
+  independently. Inspector scores are not calibrated P(success).
+  Demo (theirs, not re-run): NYC→SFO Flights 12.20 s visible /
+  13.785 s loop / ~$0.0001 API. Demonstration, not a bake-off.
+- **Mental models:** (1) observe→score-among-candidates→code-acts
+  is backend-agnostic (Jev Ultrafast ↔ GLiNER Ultrafast; same
+  lesson as compaction); (2) observed DOM/a11y candidates vs
+  screenshot multimodal (solari / laya-mind2web DOM-index Laya vs
+  blackwood-rlcd); (3) hybrid local decide + remote fill; (4)
+  composition + independent outcome check.
+- **rh-guard:** light note only (do not trust `DONE`). Not
+  reward-hack detection.
+
+Cross-repo addition: (ce) computer-use selection is
+backend-agnostic on the same observed-candidate hole; (cf)
+screenshot multimodal is a different input from DOM-as-text;
+(cg) local decide + remote TYPE is mixed-architecture economics,
+not dual-process-ai; (ch) `DONE` ≠ Harbor-verified success.
 
 
 

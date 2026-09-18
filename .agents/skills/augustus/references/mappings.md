@@ -431,6 +431,17 @@ immediate win missed once reversed; Fool's-mate confidence 31%/37% so a
 hole on the constrained-AR surface. Not a strength rating.
 `notes.md` §42; `validation.md`.
 
+**Computer-use observe → score → act (Empirical as README /
+architecture behavior, 2026-09-18 ~16:56):**
+[gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
+— the *algorithm* is the browser loop; the substituted classifier
+step is scoring among observed a11y/DOM controls. Local GLiNER2 is
+one backend; Jev Ultrafast / solari-reflex are the Jev backends of
+the same hole. Code owns actuators, dates, freshness. `DONE` is not
+the probe — application verifiers are. Contrast blackwood-rlcd
+(screenshot input). Hybrid remote TYPE is generation, not the
+classifier step (`notes.md` §52).
+
 **Structure induction over a bag (Empirical as a *shape*, 2026-09-18):**
 [`Joymfl/dag-jev`](https://github.com/Joymfl/dag-jev) — unordered items
 in, pairwise "does i depend on j?" judgments, DAG in `petgraph`. Code
@@ -537,6 +548,15 @@ or be more conservative; low-confidence / invalid evidence fail closed
 to `keep_full`. Soft judgment inside a hard envelope, encoder backend
 — not a Jev Score and not a summarizer (`notes.md` §50). Same sandwich
 shape as bitrate-advisor; different family.
+
+**Named computer-use envelope (Empirical as README / architecture,
+2026-09-18 ~16:56):**
+[gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
+— the monitor is **code** (resolve to an observed node; freshness /
+visibility / disabled / occlusion; no generated selectors or JS).
+GLiNER2 may only pick among candidates the snapshot already holds.
+`DONE` is not the monitor. Soft judgment inside a hard envelope,
+encoder backend — not a screenshot VLM (`notes.md` §52).
 
 ## 13. DST multiverse triage (Hypothesis)
 

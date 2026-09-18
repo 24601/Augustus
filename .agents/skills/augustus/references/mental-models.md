@@ -150,8 +150,10 @@ reliability on *your* labels before you threshold.
 **Browser-use is this axis, not vision.** Strength = DOM-as-text +
 speculative fan-out over candidates code already numbered — a visual
 task translated into extractive text. Not screenshots. Same
-component-node placement as lizard-agent / solari-reflex
-(`applied-mappings.md` §2; `mixed-architecture.md`).
+component-node placement as lizard-agent / solari-reflex /
+gliner2-ultrafast (GLiNER2 encoder backend of the same hole;
+`notes.md` §52). Contrast blackwood-rlcd (screenshot + marked
+letters). (`applied-mappings.md` §2; `mixed-architecture.md`).
 
 **Does not:** merge Banking77 87% (atlas/jev-benchmarks) with DMB
 76.3% or jevals.com 79.67% into one ranking — protocol / n / split
@@ -465,13 +467,13 @@ Use these as *existence proofs of a position*. Write your own card.
 | Knowledge work | extract a quote / a cited fact | per-sentence or per-line-id Noul/Choice (**Empirical**: testimonial-miner, jev-reviewer) | verbatim join; place; human publish permission |
 | Agent context | compact completed tool results without inventing prose | retention Choice + char-offset locate (**Empirical**: gliner25-compaction; same *job* as fast-jev-compaction / pi-jev-compaction) | mutation/shell envelope → keep_full; fail-closed keep_full; shadowMode before replace; copy exact bytes |
 | Dataframe labeling | classify / score rows | Noul/Choice/Score + full `p__` (**Empirical** as jevframe / jevpandas *shape*) | pandas/Polars, thresholds in code |
-| Computer-use speed | one verified act per step | operation + target Choice on numbered controls (**Empirical**: solari-reflex) | Guard check; deny-list absence; no screenshots |
+| Computer-use speed | one verified act per step | score / Choice among numbered a11y/DOM controls (**Empirical**: solari-reflex Jev; gliner2-ultrafast GLiNER2; laya-mind2web Laya DOM indices) | Guard check; deny-list absence; no screenshots; `DONE` ≠ success |
 | Agent turn | skip memory tour on easy intent | intent Choice (**Empirical**: jev-hermes) | Memory still writes; complex still searches |
 | Document / lab routing | which pages need the expensive observation | Noul on remainder after a text layer / recipe | local extract, merge order (**Empirical** as OCR-router *shape*) |
 | Shell / tool allowlist | unlisted remainder after a **proof** | five Nouls on unknown verbs | Proven/Refused in code; cannot block (**Empirical**: jevgate) |
 | SWE | residual AGENTS.md / CLAUDE.md rules | one Score per named instruction-file rule | linter owns hard rules; bands + fail-open (**Empirical**: Abide replay, `notes.md` §47) |
 | Screenshot candidates → act | lettered elements code already marked | Choice over those letters | Click in code (**Empirical** as blackwood-rlcd *shape*; CC BY-NC) |
-| Browser / DOM candidates → act | numbered elements from a **text** snapshot | Choice / Nouls over those ids (**Empirical** as atlas browser-use *shape*: DOM-as-text + fan-out, not vision) | Click in code; no screenshots |
+| Browser / DOM candidates → act | numbered elements from a **text** snapshot | score among those ids (**Empirical**: atlas browser-use / jev-ultrafast / gliner2-ultrafast *shape*: DOM-as-text, not vision) | Click in code; no screenshots; hybrid remote TYPE optional |
 | Knowledge / recall | fact that is not in the document | **Do not ask.** Retrieve the passage first; then a self-contained Choice (**Empirical**: history suite A wrong@0.90 → C right@0.97) | Index, citation, the passage in `state` |
 | Dual-process cascade | cheap classify / route vs write | S1 typed decision + τ; S2 generates only on low conf (**Empirical as a productized metaphor**; routing accuracy **unmeasured** — dual-process-ai) | Safety still fail-closed in code |
 | CI merge-gate | ignore infra noise without merging a real bug | cause Choice per cluster (**Empirical**: latch demo PASS vs BLOCK) | Cluster + fingerprint + `--gate` table; reporter never fails the runner |

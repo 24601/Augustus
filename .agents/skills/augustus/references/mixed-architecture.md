@@ -89,7 +89,12 @@ vision.** Translate a screenshot task into a structured DOM snapshot
 as `state`; fan out over candidate elements in one call. Text-only
 models then sit in their strong zone (extractable from fed state).
 Same placement as lizard-agent / solari-reflex; not blackwood
-screenshot-in.
+screenshot-in. **Backend-agnostic this hour:**
+[gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
+is that hole with local GLiNER2 instead of Jev — observe → score
+among a11y/DOM candidates → code acts (`notes.md` §52). Hybrid:
+local decide; remote fill only for TYPE. `DONE` is not verified
+success.
 
 **Dual-process cascade (Kahneman productized; routing accuracy
 unmeasured).**
@@ -183,6 +188,7 @@ not a global virtue:
 | Merge a red CI run | **Fail closed** on `--gate` (`latch`); reporter stays fail-open | False PASS merges a real bug. Missing key never fails Playwright; the gate is a separate step. Judge never says ignore alone |
 | Plain-English PR check | **Fail closed** on error / empty / low confidence (`if-ai`) | A skipped or timed-out check is not a pass. Threshold is policy, not measured correctness |
 | Route to a tool / start a side effect | **Fail closed** (don't call) | A wrong tool is an action |
+| Actuate an observed browser control | **Fail closed** (code validates the node) | Freshness / visibility / disabled / occlusion in code; model never emits selectors (`gliner2-ultrafast`, jev-ultrafast, solari-reflex). `DONE` does not authorize "success" |
 | Rerank a retrieved list | Fail open: keep retrieval order (`WiktorB2004/llama-index-jev`, **Empirical recipe** on BEIR nfcorpus: MiniLM 0.340 nDCG@5 → MiniLM+Jev 0.396; rerank fails open, *select* fails closed). Listwise/cross-encoder scores belong here, not on the row above. | Ranking errors are quality; selection errors are control-flow |
 
 Worked placements (2026-09-18 topic:jev hour + prior archive):
@@ -448,7 +454,8 @@ decision-design card. Do not clone APIs from READMEs.
 | Decision-as-business-tool | Named judgment; gate is part of the result | Registry, arithmetic, hard guards | jev-decision-layer (unofficial) |
 | NL cases → checked e2e | Jev selects observed controls | Playwright expectations; PASS/FAIL/BLOCKED | jev-e2e (alpha) |
 | Extractive quotes / pointer evidence | Per-sentence, per-line-id, or char-offset Noul/Choice | Verbatim join; place; `redecide` / CSV; model never writes the excerpt | testimonial-miner; jev-reviewer; gliner25-compaction |
-| Structured observe → decide → act | Operation + target Choice on numbered controls | Guard check; deny-list absence; no screenshots; TYPE is the only generation | solari-reflex |
+| Structured observe → decide → act | Score / Choice among numbered a11y/DOM controls | Guard check; deny-list absence; no screenshots; no generated selectors; TYPE is the only generation; `DONE` ≠ verified success | solari-reflex (Jev); jev-ultrafast (Jev); gliner2-ultrafast (GLiNER2); laya-mind2web (Laya, DOM indices) |
+| Hybrid local decide + remote fill | Local encoder scores observed controls | Code owns actuators; remote OpenAI-compat helper writes field text only | gliner2-ultrafast (GLiNER2 local + Mercury 2.5 default) |
 | Dataframe semantic columns | Noul / Choice / Score per row; full `p__` | pandas/Polars, indexes, never silent renormalize | jevpandas; jevframe (PyPI + Polars) |
 | Route ≠ memory | Intent Choice before a turn | Config + flat tools on easy routes; memory stays on for hard ones | jev-hermes |
 | Advisory sidecar receipts | Typed answers as `no_action` evidence | Host routing / executor / policy unchanged | agent-workflow-typesafe-ai |
@@ -506,7 +513,8 @@ not the class monopoly. **Local contract drop-in this hour:**
 [`Mattepiu/laya-onnx`](https://huggingface.co/Mattepiu/laya-onnx) — do
 not copy the inherited vs-Jev table. GLiNER (locate) / GLiClass (categorize) /
 GLiNER2.5 (local multi-head; extractive compaction is a named *job* on
-that family, `notes.md` §50), listwise, and vision families:
+that family, `notes.md` §50; computer-use selection is a *different*
+named job on GLiNER2 `gliner2-multi-v1`, `notes.md` §52), listwise, and vision families:
 `judgment-class.md`.
 
 ## Design-card extras for mixed systems

@@ -154,6 +154,11 @@ Hole first, logo last. These are **species**, not aliases
   on the ambiguous tail **if the backend loaded**. GitHub one-liner
   10–50× is a **target, not a measured speedup** — table TBD
   (`notes.md` §51). Not a Noul.
+  Computer-use receipt:
+  [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
+  uses GLiNER2 (`fastino/gliner2-multi-v1`, not 2.5) to **score among
+  observed** a11y/DOM controls; code acts; not a screenshot model
+  (`notes.md` §52). Same observe→score→act hole as Jev Ultrafast.
 - **GLiClass (categorize):** one forward pass over text + *all* labels;
   sigmoid multi-label or softmax single-label. Use for large or changing
   tag sets. Scores are class affinities, not automatically a gateable
@@ -195,7 +200,9 @@ A GLiGuard score is not a proof. LLM I/O safety is not a coding-agent
 tool gate (rh-guard for reward-hacking; jevgate shape for allowlist
 ∩ remainder; Abide for project soft rules on diffs;
 gliner25-compaction for extractive context compaction — Fastino
-sibling class, not GLiGuard). `judgment-class.md`.
+sibling class, not GLiGuard;
+gliner2-ultrafast for scoring observed browser controls — GLiNER2,
+not 2.5, not a safety schema). `judgment-class.md`.
 
 ## Can I threshold CLIP / SigLIP as a safety gate?
 
@@ -391,7 +398,10 @@ Choice). Soft judgment over pixel candidates inside deterministic
 code. Jev still leads general *text* (0.850 vs 0.786 on their 8,456-item
 table). Specialist composition (SAM / OCR → text → Jev) remains valid.
 Do not wait, and do not treat screenshot-vs-Jev-text as the same input.
-`judgment-class.md`; `notes.md` §46.
+Pixel-free computer-use (DOM/a11y candidates → score → code acts) does
+not wait either: [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
+is that hole with a local encoder (`notes.md` §52).
+`judgment-class.md`; `notes.md` §46, §52.
 
 ## When does a decision model hold?
 
@@ -463,9 +473,12 @@ copies exact source spans; a prose summary of the tool result is
 generation, not keep/drop (`notes.md` §50). Claim/evidence Stop:
 [clear-head](https://github.com/VladyslavHontar/clear-head) judges
 against retrieved session lines, not generated prose (`notes.md`
-§51). Generation is only for
+§51). Computer-use encoder
+cousin: [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
+scores observed controls; code clicks; no generated selectors
+(`notes.md` §52). Generation is only for
 TYPE/prose when something must be written. `applied-mappings.md` §2;
-`notes.md` §48, §50.
+`notes.md` §48, §50, §52.
 
 ## Should compaction summarize?
 
@@ -492,6 +505,23 @@ stays fail-open. [if-ai](https://github.com/Victor-Casado/if-ai)
 fails the Action on error / empty / low confidence. jevgate cannot
 block; pi-jev-approver fails closed without a key; Abide is fail-open
 on diffs. Same sandwich, opposite authorized act. `notes.md` §50, §51.
+
+## Is observe→score→act Jev-only?
+
+No. The hole is backend-agnostic: observe controls, score among those
+candidates, code acts. [jev-ultrafast](https://github.com/browser-use/jev-ultrafast)
+and [solari-reflex](https://github.com/hitakshiA/solari-reflex) use
+TypeSafe Jev; [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
+uses local GLiNER2 (`fastino/gliner2-multi-v1`);
+[laya-mind2web](https://huggingface.co/ShaunSpark/laya-mind2web-browser-agent)
+uses a Laya head over DOM element indices. Same lesson as compaction
+(Jev Noul/Score vs GLiNER2.5). Screenshot multimodal (blackwood-rlcd:
+letters on an image) is a **different input**, not a better version of
+this hole. Hybrid local decide + remote fill is mixed-architecture
+economics, not dual-process-ai. `DONE` is loop termination, not
+verified success. Not GLiNER2.5. Not a bake-off against the Flights
+demo clock. `judgment-class.md`; `mixed-architecture.md`;
+`notes.md` §52.
 
 ## Is routing the same as memory?
 

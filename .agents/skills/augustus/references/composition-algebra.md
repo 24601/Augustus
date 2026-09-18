@@ -143,7 +143,9 @@ Reusable shapes when generating applications:
    meeting action items ~150 ms after each utterance.
 7. **Formula embedding**: JUDGE/SCORE/CHOOSE as first-class spreadsheet formulas.
 8. **Pixel-free computer use**: accessibility tree → compact actionable-JSON → one
-   batched question set per step → execute via AX actions.
+   batched question set per step → execute via AX actions. Encoder-backend
+   cousin: gliner2-ultrafast scores observed a11y/DOM controls with
+   local GLiNER2; code clicks; `DONE` ≠ success (`notes.md` §52).
 9. **Shadow-mode harness** (jev-harness): policy + confidence gate + shadow mode +
    offline eval CLI replaying fixtures, asserting on actions; 24-row filter 48.9 s
    (Claude CLI) vs 1.3 s Jev at concurrency 8. Compaction rollout:

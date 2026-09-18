@@ -324,7 +324,7 @@ Rules:
 | LM-program knobs only | DSPy/Ax (narrow) | never primary System One calibration score |
 | Reward-hack / eval gaming | [rh-guard](https://github.com/24601/rh-guard) | structural deny + System One sidecar |
 | Project soft-rule lint | [Abide](https://github.com/coldteadotai/abide) | Score per rule on the diff; bands; fail-open; replay + independent review |
-| Collab / computer-use product loop | [jev-testbench](https://github.com/ufx7/jev-testbench); [solari-reflex](https://github.com/hitakshiA/solari-reflex) | Wilson/McNemar arms; independently checked task time |
+| Collab / computer-use product loop | [jev-testbench](https://github.com/ufx7/jev-testbench); [solari-reflex](https://github.com/hitakshiA/solari-reflex); [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast) | Wilson/McNemar arms; independently checked task time; `DONE` ≠ success |
 | Agent routing on vs off | [jev-gateway-bench](https://github.com/vinilana/jev-gateway-bench) | Hidden perft; cost/quality; one-run signal this pass |
 
 rh-guard is a reward-hack hook, a different surface from jevgate and
@@ -343,7 +343,12 @@ in the rubric. Text/diff only.
 the *task* (Stripe API / answer key), not a paragraph judge. Observe
 → decide → verified act; no screenshots. Author table vs Codex on
 the same Solari machines: 60.2 s vs 194.9 s; 66 s vs 460 s; 24.2 s
-vs 98.4 s (`notes.md` §48). **Collab-arm curriculum:**
+vs 98.4 s (`notes.md` §48). Encoder-backend cousin:
+[gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
+— same hole, local GLiNER2; their Flights demo (12.20 s visible /
+13.785 s loop / ~$0.0001 API) is a **demonstration**, not a bake-off
+or a vs-Jev-Ultrafast table; `DONE` is not the Harbor score
+(`notes.md` §52). **Collab-arm curriculum:**
 [jev-testbench](https://github.com/ufx7/jev-testbench) —
 `llm_autonomous` vs `scripted_plus_jev` vs `llm_plus_jev`; Wilson +
 McNemar; Jev is not a peer arm. Bake into jevals/Harbor hygiene, do

@@ -3709,3 +3709,168 @@ Not multimodal. Usage: merge-gate / wake / claim-evidence as
 text-state decisions **before** a generative turn. Archive +
 landscape pointer. Archer still Watch.
 
+## 52. GLiNER2 Ultrafast — encoder backend of observe→score-among-candidates→code-acts (2026-09-18 ~16:56 Boise)
+
+America/Boise ~16:56 = 22:56 UTC. Docs-only fold into open PR #2
+(`cursor/augustus-store-envelope-00b4`). Not a competing PR. Archer
+27B drop still **WATCH**. Identity lock vs `typesafe-ai` / `tenbin` /
+`decision-first` holds. No wrapper, no `uv` / `.env` / Browser Harness
+doctor how-to, no copied ports or Hub download scripts. No invented
+metrics. **Not Jev. Not GLiNER2.5. Not multimodal.** Do not re-fold
+§48 solari-reflex as a new product, §50 compaction as a species
+rewrite, §51 CI merge-gate / wake / Harbor on/off, GLiGuard as a
+safety clone, or jev-ultrafast's 7.1 s Flights
+row as this demo.
+
+Backend-agnostic: this is an **observe → score among observed
+candidates → code acts** placement (pointer/selection among a11y/DOM
+controls; hybrid local decide + remote fill; `DONE` is loop
+termination, not verified success). TypeSafe Jev is one backend for
+that *job* (`browser-use/jev-ultrafast`, `hitakshiA/solari-reflex`);
+local Fastino GLiNER2 is another. Same instinct as §50 compaction
+(Jev Noul/Score vs GLiNER2.5 encoder): Augustus stays family-first.
+
+### HIGH
+
+1. **[`sahibzada-allahyar/gliner2-ultrafast`](https://github.com/sahibzada-allahyar/gliner2-ultrafast)**
+   (MIT; Python; created 2026-09-18T19:35:23Z; 12★ at capture). Fork /
+   adaptation of [`browser-use/jev-ultrafast`](https://github.com/browser-use/jev-ultrafast)
+   that swaps TypeSafe Jev for **local Fastino GLiNER2**
+   ([`fastino/gliner2-multi-v1`](https://huggingface.co/fastino/gliner2-multi-v1);
+   Apache-2.0 weights, 307M extractor, GLiNER2 not GLiNER2.5). Real
+   browser automation. **Work in progress.** **Not a prose planner.
+   Not a screenshot VLM. Not a hosted decision-model API.**
+
+   Load-bearing loop (README + `docs/architecture.md`):
+
+   ```text
+   goal → local GLiNER2 → requirements
+   page → observed controls → local matching + controller → browser action
+                            → text helper (API) if typing needed
+   ```
+
+   GLiNER extracts requirement spans and **scores observed controls**.
+   Candidates come from DOM / accessible labels (`snapshot.js`); the
+   model chooses among them. It does **not** use screenshots. It does
+   **not** generate selectors or executable JavaScript. Code owns
+   requirement order, progress, calendar matching (English month
+   names, ISO, US-style numeric), form submit, freshness / visibility
+   / disabled / occlusion checks, and execution. Browser mutations
+   are not automatically retried after uncertain execution. The
+   inspector's scores are **not calibrated probabilities of task
+   success**.
+
+   Default hybrid, not fully offline: local GLiNER2 for decide;
+   Mercury 2.5 via OpenRouter for typed field text (OpenAI-compatible
+   endpoint configurable). Websites and the text-model service need
+   the network. The browser uses an owned tab in an existing Chrome
+   profile.
+
+   **`DONE` ≠ verified success.** Termination is heuristic. Loop
+   `DONE` reports that the agent stopped; applications must
+   independently inspect the actual result. Example verifiers run
+   *after* the loop and do not choose actions. Same Harbor-style
+   honesty as solari-reflex (`notes.md` §48).
+
+   **Demo claims (theirs; not re-run; not a bake-off).** Live Google
+   Flights, one-way NYC→SFO on 9 Oct 2026; no ticket selected or
+   purchased. README / `docs/demo.md`: **12.20 s** to visible results
+   (12.201 s frame); complete action loop **13.785 s**; API usage
+   **~$0.0001** ($0.00010623 across three text-helper calls). Clock
+   starts after model loading, goal parsing, initial navigation, and
+   first page observation. Independent outcome verification is
+   *outside* that clock. Local compute and electricity excluded.
+   Their measurement doc: a demonstration, not a controlled
+   performance comparison or general reliability benchmark. Do not
+   invent a vs-Jev-Ultrafast table; do not merge with the atlas
+   7.1 s / 9.5 s Flights figures (`notes.md` §49).
+
+   **Four load-bearing mental models (architecture, not a plugin
+   catalog):**
+
+   1. **Same job, encoder backend.** Jev Ultrafast scores among
+      observed controls with TypeSafe Jev; this repo scores among
+      observed controls with local GLiNER2. The *hole* is
+      observe → score-among-candidates → code acts. Compaction
+      (`notes.md` §50) already taught that keep/drop is
+      backend-agnostic (Jev Noul/Score vs GLiNER2.5). Computer-use
+      selection is the same lesson on a different hole. Augustus
+      does not pick a vendor for the hole.
+
+   2. **Candidates from observation, not generation; not
+      screenshot multimodal.** Control set is a11y/DOM-derived.
+      Pointer/selection species with
+      [solari-reflex](https://github.com/hitakshiA/solari-reflex)
+      (structured obs, Jev, no screenshots; `notes.md` §48) and
+      [laya-mind2web-browser-agent](https://huggingface.co/ShaunSpark/laya-mind2web-browser-agent)
+      (Laya open head; operation + target index over a list of
+      interactive DOM elements; author-reported 74.3% on 68
+      held-out — small n, not a ranking; Apache-2.0). Contrast
+      [blackwood-rlcd](https://huggingface.co/BlackwoodAI/blackwood-rlcd)
+      (screenshot + letters code already marked → Choice; CC BY-NC;
+      `notes.md` §46). Pixel-free / DOM-as-text is the preferred
+      computer-use placement when the environment is already
+      structured (`judgment-class.md` vision pattern 1;
+      `mental-models.md` §boundary).
+
+   3. **Hybrid local decide + remote fill.** Economics: tiny API
+      for TYPE text; local encoder for control scoring. Mixed
+      architecture, not dual-process-ai (that product is S1/S2 with
+      a confidence τ; routing accuracy unmeasured — `notes.md`
+      §49). Here the *split* is where compute lives: judgment on
+      the laptop, generation only where a string must be typed.
+      Code still owns actuators. A loop with nothing to type stays
+      local.
+
+   4. **Composition + independent outcome check.** Perception
+      (Browser Harness / DOM snapshot) → decision (GLiNER2) →
+      verified act (code). The post-run verifier is not the
+      decision policy. Same Harbor instinct as solari / jev-e2e:
+      score the *task*, not a self-report.
+
+   **Limits (theirs, README + architecture; experimental).** Common
+   HTML and ARIA patterns; behavior varies with page structure and
+   goal wording. Date parsing is English-oriented. Not fully
+   offline. Optional traces can include page content. No published
+   Harbor taskset or calibration of control scores as P(success) —
+   do not invent them.
+
+   **Siblings — complementary, do not merge.**
+
+   - **`browser-use/jev-ultrafast`:** same job, Jev backend. Credit
+     in their README. Do not treat this demo clock as a head-to-head.
+   - **`hitakshiA/solari-reflex`:** same observe → decide → verified
+     act; Jev; Harbor-style table vs Codex on Solari (`notes.md` §48).
+   - **`m-newhauser/gliner25-compaction`:** Fastino encoder sibling
+     *class*, GLiNER2.5 (`fastino/gliner2.5-base-v1`), compaction /
+     keep-drop hole — not this checkpoint and not browser CU
+     (`notes.md` §50).
+   - **GLiGuard:** Fastino encoder sibling (safety-schema classify).
+     Not control scoring.
+   - **blackwood-rlcd:** screenshot multimodal decide. Different
+     input. Not this placement.
+   - **`24601/rh-guard`:** light note only — independent outcome
+     verification vs trusting `DONE`. Not reward-hack detection.
+
+   **Placement.** Exact-text keep/drop among observed controls
+   (`applied-mappings.md` §2) + mixed architecture (code acts; LLM
+   writes TYPE only). Pillar: search/control (one substituted
+   classifier step) + runtime-assurance sandwich (freshness /
+   visibility / no generated selectors in code). Hole: perceive /
+   keep-drop / replace-one-classifier-step. Family: GLi\* encoder
+   (GLiNER2 local, `gliner2-multi-v1`). Fail-closed on actuation
+   (code validates the observed node). Eval path: their Flights
+   demonstration + post-run verifier; no class bake-off this pass.
+   **Empirical** as README / architecture behavior. **Hypothesis**
+   that the same envelope transfers to *your* sites. Cards:
+   `judgment-class.md` (primary); `mixed-architecture.md` (primary);
+   `applied-mappings.md` §2; `mappings.md` §9 / §12; `faq.md`;
+   `mental-models.md`; `validation.md`; `methods-catalog.md`;
+   `toolbox-mapping.md`; `agent-self-assessment.md`. No wrapper.
+
+### Omni / Jev-omni
+
+Not multimodal pixels. Strong **composition / open-weights decide**
+exemplar for browser computer-use (local encoder + remote fill).
+Archive + landscape. Harbor-style independent verify is already in
+their framing.

@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-18T22:48Z",
+  "retrieved": "2026-09-18T22:56Z",
   "sources": [
     {
       "kind": "docs",
@@ -148,7 +148,7 @@
     },
     {
       "kind": "repo",
-      "note": "Operation+target heads, 7.1s Flights; ~2100 stars",
+      "note": "Operation+target heads, 7.1s Flights; ~2100 stars. Same observe\u2192score\u2192act *job* as sahibzada-allahyar/gliner2-ultrafast (GLiNER2 backend, notes.md \u00a752); do not merge demo clocks.",
       "title": "browser-use/jev-ultrafast",
       "url": "https://github.com/browser-use/jev-ultrafast"
     },
@@ -1486,6 +1486,7 @@
     },
     {
       "kind": "github",
+      "kind": "github",
       "title": "CaseReed/latch",
       "url": "https://github.com/CaseReed/latch",
       "note": "MIT. Merge-gate: cluster in code, Jev labels cause, policy Gate PASS vs BLOCK. Judge never says ignore alone. Pair Harbor + rh-guard. notes.md \u00a751."
@@ -1573,6 +1574,24 @@
       "title": "flaviomartil/herdr-jev",
       "url": "https://github.com/flaviomartil/herdr-jev",
       "note": "Jev triage ~260ms + triad orchestration. No-key local heuristic. Do not copy install.sh. License not stated this pass. notes.md \u00a751."
+    },
+    {
+      "kind": "github",
+      "title": "sahibzada-allahyar/gliner2-ultrafast",
+      "url": "https://github.com/sahibzada-allahyar/gliner2-ultrafast",
+      "note": "MIT. Created 2026-09-18T19:35:23Z; 12 stars at capture. Adaptation of browser-use/jev-ultrafast: local Fastino GLiNER2 (fastino/gliner2-multi-v1) scores observed a11y/DOM controls; no screenshots; no generated selectors; code owns actuators. Hybrid local decide + remote Mercury 2.5 fill. DONE is loop termination, not verified success. Demo (theirs, not re-run): NYC\u2192SFO Flights 12.20s visible / 13.785s loop / ~$0.0001 API. Not GLiNER2.5, not multimodal. notes.md \u00a752."
+    },
+    {
+      "kind": "huggingface",
+      "title": "fastino/gliner2-multi-v1",
+      "url": "https://huggingface.co/fastino/gliner2-multi-v1",
+      "note": "Apache-2.0 GLiNER2 multilingual extractor (~307M). Default local checkpoint for sahibzada-allahyar/gliner2-ultrafast. Distinct from fastino/gliner2.5-base-v1 (compaction, notes.md \u00a750). Do not copy Hub download into Augustus. notes.md \u00a752."
+    },
+    {
+      "kind": "huggingface",
+      "title": "ShaunSpark/laya-mind2web-browser-agent",
+      "url": "https://huggingface.co/ShaunSpark/laya-mind2web-browser-agent",
+      "note": "Apache-2.0. Laya (convaiinnovations/laya) fine-tune: operation + target index over interactive DOM elements (Mind2Web). Observed-candidate family with gliner2-ultrafast / solari-reflex / jev-ultrafast; not screenshot multimodal (contrast blackwood-rlcd). Author-reported 74.3% on 68 held-out \u2014 small n, not a ranking. Cousin pointer only. notes.md \u00a752."
     }
   ]
 }

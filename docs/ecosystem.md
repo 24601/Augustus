@@ -50,7 +50,7 @@ Per-keystroke launchers (104ms median, sequence-tagged staleness), firehose mode
 - **jeiel85/jevscope** — local-first visual debugger + JSONL regression for Choice/Score/Noul; compare two definitions; policy buckets are JevScope-derived. Sits next to jevals. Pointer: `research/notes.md` §25.
 
 ### Local / open heads & GLi\* species
-- **GLiNER / GLiNER2.5 / GLiClass** — species map: locate spans vs categorize the sequence vs local multi-head (fastino-ai GLiNER2.5 CPU-first). Peer of Jev, not a footnote. `references/judgment-class.md`. Author primary source: GLiNER2 "like jev" is schema-conditioned categorize (GLiGuard), not a Noul (`notes.md` §28). 36× Browser Use claim is a tweet (`notes.md` §25). Named job: [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction) — extractive retention Choice + char-offset copies; not a summarizer; not Jev (`notes.md` §50).
+- **GLiNER / GLiNER2.5 / GLiClass** — species map: locate spans vs categorize the sequence vs local multi-head (fastino-ai GLiNER2.5 CPU-first). Peer of Jev, not a footnote. `references/judgment-class.md`. Author primary source: GLiNER2 "like jev" is schema-conditioned categorize (GLiGuard), not a Noul (`notes.md` §28). 36× Browser Use claim is a tweet (`notes.md` §25). Named jobs: [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction) — extractive retention Choice + char-offset copies; not a summarizer; not Jev (`notes.md` §50). [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast) — GLiNER2 `fastino/gliner2-multi-v1` scores observed a11y/DOM controls; not GLiNER2.5; not multimodal (`notes.md` §52).
 - **GLiGuard** (fastino-ai) — 0.3B GLiNER2 encoder, checkpoint `fastino/gliguard-LLMGuardrails-300M`. One bidirectional pass over a safety schema. Same interface shape as batched questions; different objective. Not a Jev weight clone. `judgment-class.md`; `notes.md` §30.
 - **DECRUX9812/openjev-lm** — Qwen2.5-0.5B+LoRA distilled from hosted Jev answers; 65/70 = 92.9% on 70 hand-labelled rows (one annotator, one domain, one seed) overnight on 6 vCPU, $0/call. Its 98.1% on fresh rows is teacher *agreement*, not gold. Receipts pattern: `notes.md` §25, §44.
 - **convaiinnovations/laya** — open Choice/Score/Noul head, text-only, 512 tok. Companion packaging this hour: [`laya-typed-decisions`](https://huggingface.co/convaiinnovations/laya-typed-decisions) (421.3M, acc 0.766 / Brier 0.066 unverified). Shared bake-off: [`pngwn/open-jev-laya-bench`](https://huggingface.co/datasets/pngwn/open-jev-laya-bench) (26+9 tasks, 11959 items; ECE/NLL/Brier; not TypeSafe Jev vs Laya). ONNX replica: [`Mattepiu/laya-onnx`](https://huggingface.co/Mattepiu/laya-onnx) (~15 ms CPU; do not copy vs-Jev table). `notes.md` §18, §42, §46, §48.
@@ -127,7 +127,7 @@ the READMEs, not a monopoly.
 - **AppitStudio/testimonial-miner** — extractive selection + multi-question broadcast + offline `redecide`. Model never writes the quote.
 - **choxos/jev-reviewer** — pointer-not-generator: line ids; verbatim copy with place; *not found* is an answer.
 - **us/jev-local** — contract-compatible `POST /v1/systemone`. Default scorer is a **stub** until `JEVLOCAL_SCORER=hf`.
-- **hitakshiA/solari-reflex** — observe → decide → verified act; no screenshots. Author table vs Codex on Solari ~3–7× wall.
+- **hitakshiA/solari-reflex** — observe → decide → verified act; no screenshots. Author table vs Codex on Solari ~3–7× wall. Encoder-backend cousin: gliner2-ultrafast (`notes.md` §52).
 - **ktaletsk/jevframe** — pandas/Polars `.jev` accessor; full `p__`; sibling of jevpandas.
 - **de-niji/jev-hermes** — route ≠ memory: cheap intent gate skips memory tours.
 - **ngallodev-software/agent-workflow-typesafe-ai** — advisory sidecar receipts; never changes host routing (Apache-2.0).
@@ -172,6 +172,12 @@ Architecture notes, not a plugin catalog. `notes.md` §51. TypeSafe Jev is the e
 - **LightningK0ala/jev-marshal** — Watch / empty repo. Policy-as-judgment PR cousin of Abide / if-ai.
 - **LilDojd/jevons** — bounded Pi supervisor; shadow recovery; never generates commands. MIT.
 - MED: if-ai (plain-English PR checks, fail-closed on error); omp-auto-mode (safe/unsafe/ask); jev-downloads-sorter (device-loop Choice); jev-label-desk (description-only); herdr-jev (~260 ms triage + triad; no-key heuristic).
+
+### Hourly ~16:56 Boise (GLiNER2 Ultrafast observe→score→act)
+
+Architecture notes, not a browser-agent catalog. `notes.md` §52. TypeSafe Jev is the exemplar, not a monopoly. **Not Jev. Not GLiNER2.5. Not multimodal.** Archer still Watch.
+
+- **sahibzada-allahyar/gliner2-ultrafast** — local GLiNER2 (`fastino/gliner2-multi-v1`) scores observed a11y/DOM controls. Adaptation of jev-ultrafast. No screenshots; no generated selectors; code owns actuators. Hybrid local decide + remote Mercury 2.5 fill. `DONE` ≠ verified success. Same *job* as jev-ultrafast / solari-reflex; encoder backend. Contrast blackwood-rlcd (screenshot + marked letters). Cousin: ShaunSpark/laya-mind2web-browser-agent (Laya over DOM indices). Fastino sibling class with gliner25-compaction (different hole) and GLiGuard (safety schema). Demo (theirs, not re-run): Flights 12.20 s visible / 13.785 s loop / ~$0.0001 API — demonstration, not a bake-off. MIT.
 
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs

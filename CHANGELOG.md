@@ -226,6 +226,19 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   jev-marshal Watch/empty; jevons bounded Pi supervisor (shadow
   recovery). MED: if-ai, omp-auto-mode, downloads-sorter, label-desk,
   herdr-jev. Archer still Watch. No invented metrics. No wrapper.
+- GLiNER2 Ultrafast observe→score→act (`research/notes.md` §52,
+  [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast),
+  MIT): architecture notes, not a browser-agent how-to. Same
+  observe→score-among-candidates→code-acts *job* as jev-ultrafast /
+  solari-reflex; local GLiNER2 (`fastino/gliner2-multi-v1`) backend,
+  not GLiNER2.5. No screenshots; no generated selectors; code owns
+  actuators. Hybrid local decide + remote fill (Mercury 2.5 default
+  for TYPE). `DONE` ≠ verified success. Contrast blackwood-rlcd
+  screenshot multimodal; laya-mind2web is DOM-index Laya (same
+  observed-candidate family). Fastino sibling class with
+  gliner25-compaction (different hole) and GLiGuard (safety schema).
+  Demo (theirs, not re-run): Flights 12.20 s / 13.785 s / ~$0.0001
+  API — demonstration, not a bake-off. No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

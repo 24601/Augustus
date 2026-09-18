@@ -111,6 +111,25 @@ below, next to the when-to-use table.
   one-liner 10–50× is **unfilled** — not Empirical (`notes.md` §51).
   Same locate family as compaction; different hole (index vs
   keep/drop). License not on GitHub this pass.
+  **Computer-use selection (Empirical as README / architecture
+  behavior, 2026-09-18 ~16:56):**
+  [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
+  (MIT) is a *different named job* on the GLi\* encoder family, not
+  a new species and **not GLiNER2.5**. Checkpoint
+  `fastino/gliner2-multi-v1`. Adaptation of
+  [jev-ultrafast](https://github.com/browser-use/jev-ultrafast):
+  local GLiNER2 extracts requirements and **scores observed**
+  a11y/DOM controls; code clicks. **No screenshots. No generated
+  selectors.** Same observe→score-among-candidates→code-acts hole
+  as jev-ultrafast / solari-reflex (Jev backends) and
+  [laya-mind2web](https://huggingface.co/ShaunSpark/laya-mind2web-browser-agent)
+  (Laya over DOM element indices). Contrast blackwood-rlcd
+  (screenshot + marked letters → Choice). Hybrid: local decide;
+  remote text helper only for TYPE. `DONE` is loop termination, not
+  verified success. Inspector scores are not calibrated P(task
+  success). Their Flights demo (12.20 s / 13.785 s / ~$0.0001 API)
+  is a demonstration, not a bake-off (`notes.md` §52). Do not copy
+  `uv` / `.env`.
 - **Decide.** Typed Choice/Score/Noul with a decision/proper-scoring
   objective. That is Jev's product claim. Open heads copy the *shape*;
   distillation copies the *teacher* (openjev-lm, jev-gate-student-b).
@@ -155,8 +174,11 @@ below, next to the when-to-use table.
   [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
   is extractive context compaction (locate + categorize on tool
   transcripts; Fastino sibling class, not a GLiGuard clone)
-  (`notes.md` §50). Different holes.
-  Do not point one model at both, and do not copy a hook install here.
+  (`notes.md` §50).
+  [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
+  is browser computer-use scoring among observed controls (GLiNER2
+  `gliner2-multi-v1`, not 2.5; `notes.md` §52). Different holes.
+  Do not point one model at every hole, and do not copy a hook install here.
 
   **Aggregation is policy-in-code, already taught.** The README's
   benchmark rule ORs unsafe / non-benign prompt labels and lets refusal
@@ -241,7 +263,10 @@ parser.
    RAM / AX tree / object JSON → closed action or region set → Choice.
    Prices and dates stay in code. Launch-week recipes: typesafe-mario,
    jev-drone (classical CV → symbols, Jev advisory), lizard-agent
-   (visible elements only). The model never sees a screenshot.
+   (visible elements only). Encoder-backend cousin:
+   [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
+   scores observed a11y/DOM controls with local GLiNER2; code clicks
+   (`notes.md` §52). The model never sees a screenshot.
 
 2. **Region / label Choice over extracted boxes.** Perception (detector,
    grid, SAM, OCR boxes) proposes candidates; a scorer picks. `hr98w/jev-visual`:
