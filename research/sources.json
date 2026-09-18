@@ -637,6 +637,78 @@
       "title": "dayhaysoos/jevals",
       "url": "https://github.com/dayhaysoos/jevals",
       "note": "Local MIT Jev eval workbench (Noul/Choice/Score labeled cases, compare runs, WebMCP + agent skill). Empirical acceptance-test surface for Hypothesis mapping cards; complements evaluate_decisions.py. Not affiliated with TypeSafe. notes.md §24."
+    },
+    {
+      "kind": "paper",
+      "title": "GLiNER: Generalist Model for Named Entity Recognition (arXiv 2311.08526)",
+      "url": "https://arxiv.org/abs/2311.08526",
+      "note": "Span locator; Jev-class species 'locate'. Peer of GLiClass categorize and Jev decide. notes.md §25."
+    },
+    {
+      "kind": "repo",
+      "title": "fastino-ai/gliner2 (GLiNER2.5)",
+      "url": "https://github.com/fastino-ai/gliner2",
+      "note": "Local multi-head (entities/classification/records/relations); CPU-first 74–287M. Discourse: laptop agentic decisions. 36× claim is a tweet. notes.md §25."
+    },
+    {
+      "kind": "docs",
+      "title": "fastino/gliner2.5-base-v1",
+      "url": "https://huggingface.co/fastino/gliner2.5-base-v1",
+      "note": "English 194M boundary checkpoint. Do not copy AutoExtractor into Augustus."
+    },
+    {
+      "kind": "repo",
+      "title": "DECRUX9812/openjev-lm",
+      "url": "https://github.com/DECRUX9812/openjev-lm",
+      "note": "Qwen2.5-0.5B+LoRA distill of hosted Jev answers; 65/70=92.9% gold; 6 vCPU 89 min. Teacher-copy, not independent gold."
+    },
+    {
+      "kind": "repo",
+      "title": "thevibeworks/jevgate",
+      "url": "https://github.com/thevibeworks/jevgate",
+      "note": "Proven/Refused/Unknown sandwich; cannot block; 0/59 unsafe unasked held-out. mappings.md §18."
+    },
+    {
+      "kind": "repo",
+      "title": "misbahsy/doc-router",
+      "url": "https://github.com/misbahsy/doc-router",
+      "note": "Page OCR router; 155→87 billed; 1.74× $ on 19 docs/155 pages. Same composition as jevgate."
+    },
+    {
+      "kind": "repo",
+      "title": "kevinpita/pi-jev-context",
+      "url": "https://github.com/kevinpita/pi-jev-context",
+      "note": "Reversible Pi context sieve; hide not delete. applied-mappings §1 cousin."
+    },
+    {
+      "kind": "repo",
+      "title": "jeiel85/jevscope",
+      "url": "https://github.com/jeiel85/jevscope",
+      "note": "Local-first visual decision debugger + JSONL regression. Next to jevals. Pointer only."
+    },
+    {
+      "kind": "social",
+      "title": "singularity_sah: GLiNER local agentic decisions like Jev",
+      "url": "https://x.com/singularity_sah/status/2100980051550306418",
+      "note": "10:07 Boise hour. Peer claim; 36× parent tweet is Hypothesis as a number."
+    },
+    {
+      "kind": "social",
+      "title": "brandonjcarl: Jev input brittleness",
+      "url": "https://x.com/brandonjcarl/status/2100976725660192989",
+      "note": "Paraphrase swings p. mappings.md §17."
+    },
+    {
+      "kind": "social",
+      "title": "langfuse: Jev as LLM-as-judge alternative",
+      "url": "https://x.com/langfuse/status/2100980004678971491",
+      "note": "Cannot write sentences. FAQ placement, not a Langfuse how-to."
+    },
+    {
+      "kind": "social",
+      "title": "MisbahSy: OCR router 1.74× $",
+      "url": "https://x.com/MisbahSy/status/2100979973905592387",
+      "note": "Measured 19 docs / 155 pages. doc-router."
     }
   ]
 }

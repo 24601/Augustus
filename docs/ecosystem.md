@@ -2,8 +2,8 @@
 
 Snapshot of **187 repositories** built on TypeSafe Jev (jev-1.13) during launch
 week (Sep 15–18, 2026), all cloned and indexed with per-repo evidence, plus
-class-level neighbors (open heads, GLiClass-adjacent, listwise rankers,
-vision scorers). Maintained by the Augustus skill; refreshed hourly on
+class-level neighbors (open heads, GLiNER/GLiClass encoder family,
+listwise rankers, vision scorers). Maintained by the Augustus skill; refreshed hourly on
 weekdays. Jev is the densest public corpus, not the class monopoly.
 
 - `archive/evidence.csv` — 169-row per-repo table: README size, languages, primitive usage (Noul/Choice/Score/API), tests, threshold histograms.
@@ -39,6 +39,18 @@ Per-keystroke launchers (104ms median, sequence-tagged staleness), firehose mode
 - **stephanj/parallelConstraintDecoding** — whole JSON schema of booleans/enums in two forward passes (prefill → parallel masked fields).
 - **Foadsf/jev-for-engineers**, **AbdelStark/jev-benchmarks**, **BrendanH18/jev-lab** — measurement discipline and cost/latency visibility.
 - **dayhaysoos/jevals** — local MIT workbench: labeled cases (Noul / Choice / Score), compare runs, WebMCP + agent skill. Empirical acceptance-test surface for Hypothesis mapping cards; complements `evaluate_decisions.py`. Not affiliated with TypeSafe. Pointer: `research/notes.md` §24.
+- **jeiel85/jevscope** — local-first visual debugger + JSONL regression for Choice/Score/Noul; compare two definitions; policy buckets are JevScope-derived. Sits next to jevals. Pointer: `research/notes.md` §25.
+
+### Local / open heads & GLi\* species
+- **GLiNER / GLiNER2.5 / GLiClass** — species map: locate spans vs categorize the sequence vs local multi-head (fastino-ai GLiNER2.5 CPU-first). Peer of Jev, not a footnote. `references/judgment-class.md`. 36× Browser Use claim is a tweet (`notes.md` §25).
+- **DECRUX9812/openjev-lm** — Qwen2.5-0.5B+LoRA distilled from hosted Jev answers; 65/70 = 92.9% gold overnight on 6 vCPU. Teacher-copy, not independent gold.
+
+### Structural prove ∩ remainder
+- **thevibeworks/jevgate** — Proven / Refused / Unknown; cannot block; 0/59 unsafe unasked held-out. Allowlist ∩ System One.
+- **misbahsy/doc-router** — page OCR router: 155→87 billed, 1.74× $ on 19 docs / 155 pages. Same sandwich.
+
+### Agent harnesses extras (this hour)
+- **kevinpita/pi-jev-context** — reversible Pi context sieve: hide, do not delete; `/jev off` restores. Cousin of winnow/jevprune.
 
 ### Skills & tooling
 - **typesafe-ai/skills** — official skill (contracts/patterns).
@@ -63,7 +75,7 @@ choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs
 Apalache; DST trio Antithesis / Resonate HQ / PufferLib):
 `references/formal-methods.md` (one-screen: `formal-semi-formal.md`).
 Cross-domain frames (not SWE-only): `references/mental-models.md`.
-Hypothesis cards: `references/mappings.md` §6–§16.
+Hypothesis cards: `references/mappings.md` §6–§18.
 
 ## The skill that owns this analysis
 

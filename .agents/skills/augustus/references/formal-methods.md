@@ -448,6 +448,6 @@ Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 hybrid "verified by Noul" API.
 
 Related: `formal-semi-formal.md` (one screen); `mental-models.md`;
-`mappings.md` §6–§16; `methods-catalog.md` verification rows;
+`mappings.md` §6–§18; `methods-catalog.md` verification rows;
 `composition-algebra.md` positions 3 and 9; `mixed-architecture.md`
 preference lint; `faq.md`; `boundary-audit.md`.

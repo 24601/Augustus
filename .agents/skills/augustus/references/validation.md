@@ -15,7 +15,9 @@
 ## Behavioral tests (measure; Jev promises no invariances)
 
 Candidate removal (drop the winner — does probability spread sensibly?);
-option-order shuffle; irrelevant distractor injection in state; no-match and
+option-order shuffle; **paraphrase pairs** (semantically equivalent
+wording — does p swing enough to change the *act*? `mappings.md` §17);
+irrelevant distractor injection in state; no-match and
 empty-evidence cases; policy-boundary cases just above/below thresholds;
 contradictory-output handling (operation says X, target says Y).
 
@@ -33,7 +35,11 @@ runs is [dayhaysoos/jevals](https://github.com/dayhaysoos/jevals) (MIT,
 local; WebMCP + agent skill; not affiliated with TypeSafe) — the empirical
 acceptance-test *surface* for Hypothesis mapping cards; this script remains
 the offline Brier / reliability / cost evaluator. Pointer only
-(`research/notes.md` §24); Augustus is not a jevals how-to.
+(`research/notes.md` §24); Augustus is not a jevals how-to. Same
+acceptance-test *surface*, different UI:
+[jeiel85/jevscope](https://github.com/jeiel85/jevscope) (local-first
+visual debugger + JSONL regression; policy buckets are JevScope-derived,
+not Jev answers). Pointer only; do not copy ports or env into skill cards.
 
 ## Jev for agents and skills (dogfooding)
 

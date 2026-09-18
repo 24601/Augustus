@@ -115,6 +115,9 @@ an acceptance test that ran.
   gates inside Resonate steps (`mappings.md` §10–§14). Hypothesis
   until an acceptance test runs. Do not promote from the curriculum
   note alone.
+- **Paraphrase stability as a numeric law:** wording-invariant p.
+  Placement (abstain when paraphrases disagree) is `mappings.md` §17;
+  a universal jitter bound is Hypothesis.
 
 ## Verified application families (Empirical, dabit3/jev-experiments + archive corpus)
 
@@ -155,3 +158,7 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     (project-defined rules as criteria). Fail-open vs fail-closed is per
     action — LlamaIndex Jev rerank fails open (keep retrieval order), select
     fails closed. Full card: `references/mixed-architecture.md`.
+11. **Structural prove ∩ remainder judge** (jevgate, doc-router): code
+    (allowlist, text layer) decides the easy cases; typed questions only
+    on leftovers; fail-open unless a real sandbox sits under. Full card:
+    `mappings.md` §18.

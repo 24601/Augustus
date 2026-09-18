@@ -2,15 +2,17 @@
 
 Each card: what transfers, what does NOT, a composition sketch, a non-ticket
 example, a counterexample, an acceptance test. Jev is the documented
-exemplar in the sketches; family choice (open head / GLiClass-adjacent /
+exemplar in the sketches; family choice (open head / GLi\* encoder /
 listwise / vision) is `judgment-class.md`. Status words: **Contract**
 (documented), **Empirical recipe** (dated observation), **Hypothesis** (test
 before relying). Cross-domain frames: `mental-models.md`. Formal /
 semi-formal ownership: `formal-methods.md` / `formal-semi-formal.md`.
-Cards §6–§16 are **Hypothesis** until an acceptance test runs; do not
+Cards §6–§18 are **Hypothesis** until an acceptance test runs; do not
 promote them from analogy. Curriculum cards §10–§16 (spec pipeline,
 Alloy loop, RV sandwich, DST triage, durable agents, assignment hybrid,
-situated density) are the same rule.
+situated density) are the same rule. §17–§18 add paraphrase-stability
+and structural-prove ∩ remainder (jevgate / OCR-router *shapes* are
+Empirical; the cross-domain reading is Hypothesis).
 
 ## 1. Semantic judgments → features and explicit utility
 
@@ -450,3 +452,65 @@ outside: retrieval, law, public metrics, FM where wrongness is intolerable
 **Test:** the same τ on a second population; if cost/coverage moves,
 the card was situated and must stay labeled. **Hypothesis.** Links:
 `formal-methods.md` Shirky; `mental-models.md` harm "scale mismatch."
+
+## 17. Input brittleness → sensitivity, calibration, selective abstention (Hypothesis)
+
+**Method**: Chow reject-option / selective classification plus a
+*stability* test. The model is a noisy sensor; question wording is part
+of the stimulus. **Transfers**: semantically equivalent paraphrases that
+swing p are a reason to **abstain** or to fix the question, not a reason
+to ship the first number. Behavioral evals must include paraphrase pairs
+(`validation.md`). **Does not transfer**: a single p as invariant to
+wording; "the model is calibrated" as a license to skip sensitivity;
+treating jitter as a vendor defect you can ignore (it is a *design*
+constraint — [@brandonjcarl, 2026-09-18](https://x.com/brandonjcarl/status/2100976725660192989)).
+
+```text
+ask φ and paraphrase(φ) on the same state
+if |p − p′| large → abstain / rewrite the question / raise t
+threshold width ≥ observed jitter (jevgate: identical requests differ ≤0.18;
+  a comment moved git checkout -- . from 0.91 → 0.37)
+```
+
+**Example (Empirical as published cautions, not a constant):** identity
+match Noul ("Is this the same person as X?" vs "Same person as X?");
+jevgate comment-injection. **Beyond SWE (Hypothesis):** "is this the
+same invoice?" vs "same invoice?"; "does this look done?" vs "done?";
+hiring "same candidate as the referral?" **Counterexample**: averaging
+ten paraphrases and calling the mean Contract. **Test**: a labeled
+paraphrase set where the *act* must not change when the wording is
+synonymous; if it does, abstain. Until that set exists on *your*
+questions, **Hypothesis**. Links: `mental-models.md` §thresholds;
+`question-design.md` diagnosis; `validation.md` behavioral tests.
+
+## 18. Structural prove ∩ soft remainder (Hypothesis as domain-general; Empirical as named shapes)
+
+**Method**: code (or a recipe, a law, a text layer) **proves** the easy
+cases; a System One model judges only what the structure cannot decide.
+Composition-algebra position 3 *after* a constraint, not instead of one.
+**Transfers**: allowlist / refused-in-code / unknown→judge
+([jevgate](https://github.com/thevibeworks/jevgate): Proven / Refused /
+Unknown; cannot block; Jev alone leaks). Same sandwich as page OCR
+([doc-router](https://github.com/misbahsy/doc-router): pdf-inspector
+first, "needs OCR?" Noul on the remainder — 155→87 pages billed, **1.74×**
+$ on 19 docs / 155 pages). **Does not:** putting the model first so a
+comment or a watermark talks it into a write; treating 0 unsafe-unasked
+on 59 held-out rows as a sandbox; copying 0.2 or 1.74×.
+
+```text
+if structure proves safe     → allow (no model)
+if structure proves unsafe   → refuse / ask (no model)
+else                         → typed questions on the remainder
+fail open unless a real sandbox/interlock sits underneath
+```
+
+**Example (Empirical as shapes):** jevgate 249 labelled, worst-of-three,
+held-out unsafe unasked 0/59, safe-unasked 30/35 vs allowlist 15/35;
+doc-router 9 OCR-misses vs 28 for rules-only. **Beyond SWE (Hypothesis):**
+recipe book ∩ "does this leftover look done?"; labor-law allowlist ∩
+hiring-fit Noul; SPF/DKIM pass ∩ phishing Noul on the body. **Counterexample:**
+Jev on `/bin/ls` as the first tier. **Test:** planted writers never
+reach the model; planted remainder cases *do*; removing the model must
+not admit anything the allowlist forbade. Domain examples stay
+**Hypothesis** until labeled. Links: `formal-methods.md` sensor≠constraint;
+`mental-models.md` §Leveson; composition-algebra gate after a constraint.

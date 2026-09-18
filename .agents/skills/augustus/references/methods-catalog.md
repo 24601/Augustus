@@ -54,8 +54,10 @@ judgment component is new).
 | Method | Judgment-shaped component | Jev substitution | Stays in code | Status |
 |---|---|---|---|---|
 | Entropy as uncertainty signal | Measuring "how spread is this belief" | Entropy of returned distributions across repeats or options — computed in code from returned probabilities | All arithmetic | **Empirical recipe** (cookbook pattern) |
-| Detector / Neyman filter (context) | Is this artifact relevant to the current task? | One relevance Noul per block before it enters context; stub + recall key | Cache, recall, safety keeps | **Empirical recipe** (winnow ≤0.22 hide; compaction 2-noul rule) |
+| Detector / Neyman filter (context) | Is this artifact relevant to the current task? | One relevance Noul per block before it enters context; stub + recall key | Cache, recall, safety keeps | **Empirical recipe** (winnow ≤0.22 hide; compaction 2-noul rule; pi-jev-context hide-not-delete) |
 | Anomaly detection | Does this deviate from expected shape? | Guard nouls + harm Score over {input, output, tool trace} | Baselines, alert thresholds | **Empirical recipe** (guardrails cookbook; pi-jev output judge) |
+| Allowlist ∩ remainder (code-then-model) | Unlisted / unstructured leftovers after a proof | Typed questions only on the unknown tier; admit iff every p < τ | Proven/refused in code; cannot block unless a sandbox sits under | **Empirical recipe** (jevgate 0/59 unsafe unasked held-out; doc-router 1.74× $). Domain-general: `mappings.md` §18 |
+| Teacher distill of judgments | Copy a hosted decision API onto a small local head | LoRA / frozen-encoder heads trained on teacher answers | Independent gold labels; ECE on *your* cases | **Empirical recipe** as one 70-row run (openjev-lm 92.9%); **Hypothesis** as a general recipe |
 
 ## Verification & logic
 

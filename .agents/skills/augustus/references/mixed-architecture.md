@@ -2,7 +2,7 @@
 
 This card is the default *placement* for the judgment-model class, not a
 product catalog and not an API guide. TypeSafe Jev is the documented
-exemplar; families (open heads, GLiClass-adjacent, listwise rankers,
+exemplar; families (open heads, GLiNER/GLiClass species, listwise rankers,
 vision scorers) live on `judgment-class.md`. Integration contracts for
 Jev live in the official `typesafe-ai` skill and the live docs
 (`https://docs.typesafe.ai/llms.txt`). Re-read those before writing a
@@ -287,8 +287,9 @@ transferable part — not a request to implement a backbone or a second API
 skill. Laya: self-hostable, text-only, 512 tokens/question; vendor benches
 vs Jev are **claims**. Closed calibrated API vs open weights is a
 self-eval tradeoff (`research/notes.md` §18). TypeSafe remains the
-documented *exemplar*, not the class monopoly. GLiClass-adjacent,
-listwise, and vision families: `judgment-class.md`.
+documented *exemplar*, not the class monopoly. GLiNER (locate) /
+GLiClass (categorize) / GLiNER2.5 (local multi-head), listwise, and
+vision families: `judgment-class.md`.
 
 ## Design-card extras for mixed systems
 

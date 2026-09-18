@@ -665,6 +665,130 @@ plus a card-level test that ran. Augustus is not a jevals how-to — do not
 copy CLI, env, or ports into skill cards. One-sentence cite:
 `references/validation.md` (offline-eval section).
 
+## 25. Hourly 10:07 Boise fold (2026-09-18T16:07Z)
+
+Standing fold of the 10:07 America/Boise hour (16:07 UTC) into PR #1.
+Discourse from named X posts (fetched live); GitHub READMEs HTTP 200.
+Skill impact is **species map + Hypothesis cards**, not how-tos. Domain-
+general mission unchanged. Identity lock vs `typesafe-ai` / `tenbin` /
+`decision-first` holds. No invented APIs.
+
+### GLiNER as a Jev-class *peer* (not a GLiClass footnote)
+
+[GLiNER](https://arxiv.org/abs/2311.08526) (Zaratiana et al., NAACL 2024)
+is a bidirectional encoder that **locates spans** matching open type
+labels in one forward pass. [GLiClass](https://arxiv.org/abs/2508.07662)
+is the sequence-classification sibling (Knowledgator): **categorize the
+text**, not the spans. [GLiNER2.5](https://github.com/fastino-ai/gliner2)
+(fastino-ai; HF `fastino/gliner2.5-{small,base,multi}-v1`) is a later
+**local multi-head**: entities, classification, records, relations in one
+schema; CPU-first (74M / 194M / 287M). Discourse this hour
+([@singularity_sah](https://x.com/singularity_sah/status/2100980051550306418)
+replying to the prior
+[36×-cheaper Browser Use claim](https://x.com/singularity_sah/status/2100667967499386976)):
+GLiNER can do the same *agentic decision* jobs as Jev, local / free /
+laptop. **36× is a tweet, not a re-run** — Hypothesis as a number;
+Empirical as family existence (paper + public checkpoints).
+
+Species map (skill card `judgment-class.md`):
+
+```text
+locate      GLiNER / span extractors     what's *in* the text
+categorize  GLiClass / sequence labels   what *is* the text
+decide      Jev / Laya / openjev         Choice / Score / Noul over a state
+rank        listwise                     order a retrieved shortlist
+perceive    CLIP/SigLIP / region Choice  score candidates you extracted
+```
+
+A span-locator is not a drop-in Noul. Using GLiNER2.5 classification
+heads as a local decision API still needs *your* ECE and fail policy.
+Do not copy `AutoExtractor` into skill cards.
+
+### openjev-lm — CPU distill of a hosted teacher
+
+[DECRUX9812/openjev-lm](https://github.com/DECRUX9812/openjev-lm) (MIT):
+Qwen2.5-0.5B-Instruct + LoRA (2.16M trainable), 2,591 rows of **Jev's
+own API answers**, 400 steps, **6 vCPU, no GPU, 89 minutes**. Gold:
+**65/70 = 92.9%** bucket accuracy on 70 hand-labelled Regina job
+postings (two independent harnesses agree). Hosted Jev 68/70 = 97.1%;
+classifier arm (frozen bge-small) 66/70 = 94.3% and 99.39% agreement on
+a 2,631-posting stream. Fresh 106 postings: LM 104/106 = 98.1% *teacher
+agreement* (ECE 0.004, Brier 0.031) — that is agreement with Jev, not
+independent gold. Honest limits in the README: 2 `service_lead` rows;
+one seed, one domain, one annotator; labels from a hosted API;
+unaffiliated with TypeSafe. **Empirical** as a named receipted run;
+**Hypothesis** as "overnight-CPU-distill any Jev workflow."
+
+### Input brittleness → calibration / sensitivity / abstention
+
+[@brandonjcarl](https://x.com/brandonjcarl/status/2100976725660192989):
+semantically equivalent question wording ("Is this the same person as
+X?" vs "Same person as X?") can swing probabilities a lot. Not a
+blocker; a design constraint. Independently,
+[jevgate](https://github.com/thevibeworks/jevgate) README: a comment
+moved `git checkout -- .` from 0.91 to 0.37; identical requests differ
+by up to 0.18; threshold leaves about one such width to the nearest
+unsafe command. Fuel for `mappings.md` §17: paraphrase pairs as a
+behavioral test; Chow abstain when paraphrase-disagreement is large;
+do not treat a single p as invariant to wording. **Hypothesis** as a
+law; **Empirical** as published cautions.
+
+### Allowlist ∩ System One (jevgate)
+
+[thevibeworks/jevgate](https://github.com/thevibeworks/jevgate): three
+tiers — **Proven** (every verb is a listed read-only tool, 4 µs, nothing
+sent) → **Refused** (code can prove a write/network/wrapper/credential
+shape; model never asked) → **Unknown** (unlisted verb only, five Nouls,
+admit iff every p < 0.2). It can say allow or say nothing; it **cannot
+block**. Jev alone leaks (`/bin/ls` at 0.04) — that is why it is the
+third tier. 249 labelled commands, worst-of-three: held-out unsafe
+unasked **0/59** (allowlist alone also 0; jevgate lifts safe-unasked
+15/35 → 30/35). Real traffic 116,979 Bash calls: 26.4% proven; 16.2%
+reach Jev. Credits pi-warden for code-then-model. Mapping `mappings.md`
+§18. Domain-general: recipes / law / text-layer first; judge leftovers.
+
+### Langfuse LLM-as-judge framing
+
+[@langfuse](https://x.com/langfuse/status/2100980004678971491): Jev
+cannot write sentences and is framed as a **direct alternative to
+LLM-as-a-judge** (Choice / Score / Noul + certainty). Placement, not a
+Langfuse how-to: when the eval output is a typed decision, a judgment-
+class model is the judge; when you need a paragraph rationale or a
+trace UI, generation / Langfuse still own those seats. Verbal LLM
+scores remain uncalibrated (`judgment-class.md` VLM-as-judge). FAQ
+row. **Hypothesis** as "replace every LLM judge"; **Contract** as
+"cannot write."
+
+### OCR router measured econ
+
+[@MisbahSy](https://x.com/MisbahSy/status/2100979973905592387) /
+[misbahsy/doc-router](https://github.com/misbahsy/doc-router): page-by-
+page "needs OCR?" — structural pdf-inspector first, Jev on the remainder,
+merge. 19 docs / 155 pages, `mistral-ocr-latest` via LiteLLM, 3 runs:
+155 → 87 pages billed; 35.6s → 20.7s (**1.72×**); $0.3100 → $0.1783
+(**1.74×**). 9 pages that needed OCR and didn't get it vs **28** for a
+rules-only judge. Same composition as jevgate (hard prove ∩ soft
+remainder). VOI: do not buy an observation the text layer already has.
+**Empirical** as this corpus; re-measure on yours. Not an OCR-vendor
+tutorial.
+
+### Pointers (next to jevals; not how-tos)
+
+- [kevinpita/pi-jev-context](https://github.com/kevinpita/pi-jev-context)
+  — reversible context sieve for Pi: hide, do not delete; always-keep
+  user/system/todos; default τ=0.8 (aggressive); `/jev off` restores.
+  Applied-mappings §1 cousin of winnow/jevprune. Independent, not
+  official Pi/TypeSafe.
+- [jeiel85/jevscope](https://github.com/jeiel85/jevscope) — local-first
+  visual decision debugger + JSONL regression (Choice/Score/Noul,
+  compare two definitions, expectations). Sits **next to**
+  `dayhaysoos/jevals` (already §24) as an acceptance-test surface.
+  Policy buckets are JevScope-derived, not Jev answers. Do not copy
+  ports/env into skill cards.
+
+HTTP 200 this pass: all seven GitHub URLs, GLiNER arXiv 2311.08526,
+GLiClass 2508.07662, HF `fastino/gliner2.5-base-v1`, four named X posts.
+
 
 
 

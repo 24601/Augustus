@@ -36,13 +36,50 @@ taxonomy with enough of *your* data (XGBoost still wins there —
 | Family | What it optimizes | Typical output | Use when | Watch |
 |---|---|---|---|---|
 | **Closed decision API** (TypeSafe Jev) | Calibrated decision (proper-scoring / RLCD lineage) | Choice / Score / Noul + distributions | Default when you need act/abstain, fan-out, documented envelope | Cloud, pin version, re-measure on your data |
-| **Open System-1 head** (Laya, openjev, LightJev) | Same *shape* as Jev, you host it | Same primitives or logits-as-options | Air-gap, $0/token, inspectable weights | Self-eval duty; Laya text-only, 512 tok; vendor vs-Jev tables are claims (`notes.md` §18) |
-| **GLiClass-adjacent encoder classifier** | Zero/few-shot sequence classification; labels in one forward pass | Per-label sigmoid (multi-label) or softmax (single-label) | Large or changing label sets; one-pass vs cross-encoder pairs | Scores are class affinities, not automatically a gateable probability. Paper: [GLiClass](https://arxiv.org/html/2508.07662); [Knowledgator intro](https://docs.knowledgator.com/docs/frameworks/gliclass/intro/). Cousins: GLiNER (spans), NLI zero-shot, SetFit, ModernBERT heads |
+| **Open System-1 head** (Laya, openjev, LightJev, openjev-lm) | Same *shape* as Jev, you host it | Same primitives or logits-as-options | Air-gap, $0/token, inspectable weights | Self-eval duty; Laya text-only, 512 tok; vendor vs-Jev tables are claims (`notes.md` §18). Distill of a *teacher* (openjev-lm 92.9% on 70 gold) is not independent gold (`notes.md` §25) |
+| **GLi\* encoder family** (GLiNER locate / GLiClass categorize / GLiNER2.5 local multi-head) | One-pass labels-in-encoder; spans, sequence labels, or both | Spans + types; per-label sigmoid/softmax; optional relations/records | Laptop/local; large or changing label sets; "what's *in* the text" vs "what *is* the text" | Affinities are not automatically a gateable P(permit). Species map below. Not a Jev how-to and not a GLiNER install |
 | **Listwise / pairwise discriminative ranker** | Order of a list (nDCG, softmax-over-list) | Relevance scores, not P(relevant) | Rerank a retrieved shortlist | Translation-invariant listwise losses are **not** calibrated for thresholds ([listwise vs pointwise](https://doi.org/10.48550/arxiv.2208.06164); [RCR](https://arxiv.org/html/2211.01494v2)). Fail **open** (keep retrieval order) |
 | **Vision scorer** | Image–text affinity or region Choice | Cosine/sigmoid affinity, or a closed region/label pick | Perception as classification over *candidates you extracted* | CLIP softmax = competition in the offered set; SigLIP sigmoid = pairwise affinity, not class-conditional p ([SigLIP](https://huggingface.co/docs/transformers/v4.39.2/en/model_doc/siglip)). Not a VLM captioner |
 
 Pick the family from the **hole**, then pick a vendor. Do not start from a
 logo.
+
+## Species map (GLiNER is a peer, not a footnote)
+
+The class is several *species* that share "fast cheap bounded answer,
+code owns side effects." They are not aliases.
+
+```text
+locate      GLiNER (span NER)              what's *in* the text
+categorize  GLiClass (sequence labels)     what *is* the text
+decide      Jev / Laya / openjev           Choice / Score / Noul over a state
+rank        listwise / cross-encoder       order a retrieved shortlist
+perceive    CLIP / SigLIP / region Choice  score candidates you extracted
+```
+
+- **Locate.** [GLiNER](https://arxiv.org/abs/2311.08526) (Zaratiana et al.,
+  NAACL 2024): bidirectional encoder; open entity types in one forward
+  pass; output is *spans*. Mental model: keep/drop over candidates the
+  encoder proposed (`applied-mappings.md` §2), not a Noul over the
+  document. Downstream code still owns policy.
+- **Categorize.** [GLiClass](https://arxiv.org/abs/2508.07662)
+  (Knowledgator): GLiNER's architecture adapted to sequence
+  classification. Labels interact in one pass (not sequential
+  cross-encoder pairs). Good for large/changing tag sets. Cousins:
+  NLI zero-shot, SetFit, ModernBERT heads.
+- **Local multi-head.** [GLiNER2.5](https://github.com/fastino-ai/gliner2)
+  (fastino-ai; 74M/194M/287M, CPU-first): entities + classification +
+  records + relations in one schema. Discourse (2026-09-18): same
+  *agentic decision* jobs as Jev, local / free / laptop; a 36× Browser
+  Use cost claim is a tweet, not a re-run (`notes.md` §25).
+- **Decide.** Typed Choice/Score/Noul with a decision/proper-scoring
+  objective. That is Jev's product claim. Open heads copy the *shape*;
+  distillation copies the *teacher* (openjev-lm).
+
+A GLiNER span is not a drop-in Noul. A GLiNER2.5 classification head can
+*sit in* the decide hole on a laptop only after *your* ECE and a fail
+policy. Spans that authorize an irreversible act are the rejected design
+(same as CLIP-as-gate). Do not copy extract APIs into this skill.
 
 ## Listwise discriminative vs decision objectives
 
@@ -62,12 +99,14 @@ make sense here. Jev's product claim lives on this side. Open heads that
 copy Choice/Score/Noul without a proper-scoring train loop may *look*
 like Jev and still be uncalibrated — measure.
 
-**GLiClass sits in between.** One forward pass over text + *all* labels
-(labels interact; not a sequential cross-encoder). Output is
-classification (sigmoid/softmax), which *can* be used as a cheap
-multi-label sieve. It is not, without your calibration plot, a decision
-API. Treat it as a high-throughput encoder classifier: great for "which
-of these 80 tags fire," not as a silent fail-closed authorize.
+**GLi\* sits beside decide, not inside it by default.** Locate (GLiNER)
+proposes spans; categorize (GLiClass) fires document labels; local
+multi-head (GLiNER2.5) can do both plus relations. Classification
+sigmoid/softmax *can* be a cheap multi-label sieve. It is not, without
+your calibration plot, a decision API. Great for "which of these 80
+tags fire" or "which spans are the allergy / the amount / the verb";
+not a silent fail-closed authorize. The 255-option Choice limit is
+Jev's, not the class's — this family is why.
 
 Rule of composition (`applied-mappings.md` §4):
 
@@ -124,9 +163,9 @@ capability shift, independent of vendor:
    still LLM-judge 2% of traces are leaving the economics on the table.
 2. **Skills and tools become a catalog + decision**, not a stuffed
    system prompt. Rank-then-verify, reject-all first-class
-   (`applied-mappings.md` §5). Large label sets may prefer a GLiClass-
-   adjacent one-pass over a 255-option Choice — that limit is Jev's, not
-   the class's.
+   (`applied-mappings.md` §5). Large label sets may prefer a GLi\*
+   one-pass (GLiClass tags, GLiNER spans) over a 255-option Choice —
+   that limit is Jev's, not the class's.
 3. **Two numbers, two jobs.** Ranking scores order context. Decision
    scores authorize. Harnesses that collapse them will either stall
    (fail-closed on a listwise number) or leak (fail-open on a gate).
@@ -134,13 +173,16 @@ capability shift, independent of vendor:
    caption the world then plan in prose are on the wrong side of the
    class. Extract candidates, score, act; generate text only when
    something must be typed.
-5. **Open heads make the control plane local.** Air-gap / on-device /
-   Home Assistant become newly feasible *if* you accept self-eval and
-   envelope limits. They do not make calibration optional.
-6. **Cross-modal is still thin.** Discourse and GLiClass/Laya are
-   text-first. Vision is a scoring pattern (above), not a shipped omni
-   decision API. Treat "Jev but for images" as a hole to fill with the
-   vision-scorer family, not as a slogan.
+5. **Open heads and GLi\* make the control plane local.** Air-gap /
+   on-device / laptop (GLiNER2.5 74M–287M CPU-first; openjev-lm 0.5B
+   LoRA overnight on 6 vCPU) become newly feasible *if* you accept
+   self-eval and envelope limits. They do not make calibration optional.
+   Distilling a hosted teacher is not independent gold.
+6. **Cross-modal is still thin.** Discourse, GLiNER/GLiClass, and Laya
+   are text-first. Vision is a scoring pattern (above), not a shipped
+   omni decision API. Treat "Jev but for images" as a hole to fill with
+   the vision-scorer family, not as a slogan. Locate (spans on a
+   screenshot OCR) is still locate, not perceive.
 7. **The agent that only has a generator is incomplete.** The missing
    organ is a judgment-class model plus policy in code — not another
    prompt. The agent that only has a ranker is also incomplete: it can
@@ -152,7 +194,7 @@ your labels.
 
 ## Decision-design extras for class choice
 
-When the request is "Jev vs GLiClass vs CLIP vs a cross-encoder":
+When the request is "Jev vs GLiNER vs GLiClass vs CLIP vs a cross-encoder":
 
 ```text
 Hole (sieve / keep-drop / triage / rank / route / gate / perceive):

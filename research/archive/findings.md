@@ -265,4 +265,32 @@ Pointer only. Note: `research/notes.md` §24. Cite:
 Cross-repo addition: (z) labeled-case workbench as the acceptance-test
 surface for Hypothesis cards, beside the offline JSONL evaluator.
 
+## Batch #13 (2026-09-18T16:07Z, 10:07 Boise hour)
+
+Standing fold. Note: `research/notes.md` §25. Cards: `judgment-class.md`
+species map; `mappings.md` §17–§18; FAQ GLiNER / LLM-as-judge /
+allowlist-then-judge.
+
+- **GLiNER species (Contract as papers; Hypothesis as Jev drop-in):**
+  locate = GLiNER spans ([2311.08526](https://arxiv.org/abs/2311.08526));
+  categorize = GLiClass ([2508.07662](https://arxiv.org/abs/2508.07662));
+  local multi-head = GLiNER2.5 ([fastino-ai/gliner2](https://github.com/fastino-ai/gliner2)).
+  Discourse: laptop agentic decisions
+  ([tweet](https://x.com/singularity_sah/status/2100980051550306418));
+  36× is a tweet. Not a how-to.
+- **openjev-lm (Empirical as named receipts):** 65/70 = 92.9% gold,
+  6 vCPU overnight, teacher = hosted Jev. Independent gold still owed.
+- **Brittleness (Empirical as published cautions):** brandonjcarl
+  paraphrase swings; jevgate 0.91→0.37 on a comment, ±0.18 jitter.
+  Mapping §17 Hypothesis as a law.
+- **jevgate (Empirical):** Proven/Refused/Unknown; 0/59 unsafe unasked
+  held-out; cannot block. Mapping §18.
+- **doc-router (Empirical, this corpus):** 1.74× $; 9 vs 28 OCR misses.
+- **Langfuse framing:** typed judge vs paragraph; not a Langfuse skill.
+- **Pointers:** kevinpita/pi-jev-context (hide-not-delete sieve);
+  jeiel85/jevscope next to dayhaysoos/jevals.
+
+Cross-repo addition: (aa) GLiNER locate as a class *peer*; (ab) code
+proves easy cases, model judges leftovers.
+
 

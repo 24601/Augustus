@@ -4,9 +4,9 @@ These cards are *where a judgment-class model sits* in running software.
 They are family-agnostic: the **typed judgment provider** is TypeSafe Jev
 by default (live docs / `typesafe-ai`); an open Choice/Score/Noul head
 (e.g. Laya) is a substitute you must self-eval (`research/notes.md` §18);
-GLiClass-adjacent, listwise rankers, and vision scorers are cousins
-with different objectives (`judgment-class.md`). Do not copy request
-fields from this file.
+GLiNER (locate) / GLiClass (categorize) / listwise rankers / vision scorers
+are cousin species with different objectives (`judgment-class.md`). Do not
+copy request fields from this file.
 
 Same card grammar as `mappings.md`: what transfers, what does not, sketch,
 example, counterexample, test. Status words: **Contract**, **Empirical
@@ -39,7 +39,9 @@ fail open on missing verdict → keep
 **Example**: winnow hides at relevance ≤0.22; fast-jev-compaction asks two
 Nouls (should the *call* stay? should the *result* stay verbatim?);
 `ibrahemid/jevprune` keeps last-N + error signatures in code, then judges
-the rest per line. Official cousin: classifying RAG passages cookbook
+the rest per line; `kevinpita/pi-jev-context` hides (does not delete)
+older Pi history, always-keep user/system/todos, `/jev off` restores.
+Official cousin: classifying RAG passages cookbook
 (**Contract**). **Counterexample**: one Noul "is this log useful?" over
 3k lines — that is nine judgments pretending to be one. **Test**: recall
 of must-keep lines (failures, the current instruction); tokens saved;
@@ -140,7 +142,7 @@ engines, models), not "the model chooses its next tool in a loop."
 (reject-all is first-class); rank-then-verify (cheap pass over
 descriptions, second request over a shortlist with full bodies); suggest
 at most one skill per turn. Large or changing catalogs may prefer a
-GLiClass-adjacent one-pass over a 255-option Choice — that limit is
+GLi\* one-pass (GLiClass tags or GLiNER spans) over a 255-option Choice — that limit is
 Jev's, not the class's (`judgment-class.md`). **Does not transfer**: an
 open-ended "what should I do?"; dispatch, auth, or argument validation
 delegated to the provider; routing ROI copied from another dataset.
@@ -161,3 +163,26 @@ the agent looping "pick a tool, call it, pick again" with the provider as
 the planner. **Test**: callability (literal / paraphrase / near-miss
 neighbor); reject-all when nothing fits; calibre reminder — thresholds
 do not transfer (`validation.md`).
+
+## 6. Expensive observation router
+
+**Method**: do not buy a costly observation (OCR, lab test, LLM autopsy,
+full PDF) when structure already has the answer. **Transfers**:
+structural prove ∩ remainder judge (`mappings.md` §18). pdf-inspector
+(or a text layer, a recipe, a law) first; Noul only on leftovers; merge
+in code. **Does not:** OCR-every-page because the model is cheap enough;
+copying 1.74×; skipping pages the structure said needed OCR.
+
+```text
+for page in document:
+  if text_layer usable → extract locally
+  else Noul(needs_OCR) → send only those pages
+merge in page order; never drop a page
+```
+
+**Example (Empirical, this corpus):** `misbahsy/doc-router` — 19 docs /
+155 pages, 155→87 billed, 1.72× wall, **1.74× $**; 9 false-skips vs 28
+for rules-only. **Counterexample:** Jev as the first OCR, so a watermark
+talks a scan into "has text." **Test**: planted scans are sent; planted
+born-digital pages are not billed; page order preserved. Re-measure on
+*your* documents. Same sandwich as jevgate (Proven / Refused / Unknown).

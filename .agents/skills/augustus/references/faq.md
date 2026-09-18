@@ -44,12 +44,12 @@ needs a paragraph, the generator re-enters.
 No. Augustus designs for the whole class of fast/cheap
 categorization-classification-scoring models. TypeSafe Jev is the
 documented exemplar (typed Choice / Score / Noul, live docs). Neighbors
-in the class — open System-1 heads (Laya), GLiClass-adjacent encoder
-classifiers, listwise/pairwise rankers, vision scorers — are substitutes
-or cousins. Pick the family from the hole, then the vendor
-(`judgment-class.md`). `typesafe-ai` still owns *Jev* contracts; other
-families own their own cards/READMEs. This skill does not become their
-install guide.
+in the class — open System-1 heads (Laya, openjev-lm), GLiNER/GLiClass
+encoder family (locate vs categorize vs local multi-head), listwise/pairwise
+rankers, vision scorers — are substitutes or cousins. Pick the family
+from the hole, then the vendor (`judgment-class.md` species map).
+`typesafe-ai` still owns *Jev* contracts; other families own their own
+cards/READMEs. This skill does not become their install guide.
 
 ## Jev or Laya (or some other open head)?
 
@@ -60,25 +60,36 @@ and transfer calibration/eval duty to you. Laya is text-only, 512 tokens
 per question; vendor vs-Jev tables are claims. Their own zero-shot ECE
 jump is the warning that matters (`research/notes.md` §18). Name the
 provider on the decision-design card and falsify on *your* labels.
+A CPU-distilled clone of Jev's *answers* (openjev-lm 92.9% on 70 gold)
+is still a teacher-copy — self-eval on independent labels before you
+treat it as a decision API (`notes.md` §25).
 
-## GLiClass vs Jev vs a cross-encoder?
+## GLiNER vs GLiClass vs Jev vs a cross-encoder?
 
-Hole first, logo last.
+Hole first, logo last. These are **species**, not aliases
+(`judgment-class.md`).
 
-- **GLiClass-adjacent**: one forward pass over text + *all* labels;
+- **GLiNER (locate):** span/entity extraction. Answers "what's *in* the
+  text?" Output is spans + types. Keep/drop over those candidates in
+  code. Paper: [GLiNER](https://arxiv.org/abs/2311.08526). Local
+  multi-head GLiNER2.5 (fastino-ai) can also classify and extract
+  relations on a laptop — discourse, not a measured 36× (`notes.md` §25).
+- **GLiClass (categorize):** one forward pass over text + *all* labels;
   sigmoid multi-label or softmax single-label. Use for large or changing
   tag sets. Scores are class affinities, not automatically a gateable
   P(permit). Paper: [GLiClass](https://arxiv.org/abs/2508.07662).
-- **Jev / open decision head**: calibrated Choice/Score/Noul when you
-  need act/abstain, fan-out, and a documented envelope. Option limits
-  (e.g. 255-way Choice) are Jev's, not the class's.
-- **Cross-encoder / listwise ranker**: order of a retrieved shortlist.
+- **Jev / open decision head (decide):** calibrated Choice/Score/Noul
+  when you need act/abstain, fan-out, and a documented envelope. Option
+  limits (e.g. 255-way Choice) are Jev's, not the class's. Distilled
+  open heads (openjev-lm) copy the *teacher*, not independent gold.
+- **Cross-encoder / listwise ranker:** order of a retrieved shortlist.
   Fail **open** (keep retrieval order). Translation-invariant listwise
   losses are not calibrated for thresholds
   ([listwise vs pointwise](https://arxiv.org/abs/2208.06164)).
 
 A listwise reranker *plus* a decision gate is a valid mixed stack. A
-listwise reranker *as* the gate is the rejected design.
+listwise reranker *as* the gate is the rejected design. A GLiNER span
+that *authorizes* an irreversible act is the same rejected design.
 
 ## Can I threshold CLIP / SigLIP as a safety gate?
 
@@ -103,7 +114,8 @@ search/control, and Leveson org/safety are the others
 the code of a practice that has no repository. Hypothesis cards for
 VOI, ROC, Leveson, search/control outside SWE, spec pipelines, Alloy
 loops, RV sandwiches, DST triage, durable agents, assignment hybrids,
-and situated density: `mappings.md` §6–§16 — promote only with an
+and situated density, paraphrase stability, and allowlist ∩ remainder:
+`mappings.md` §6–§18 — promote only with an
 acceptance test that ran.
 
 ## Alloy Analyzer or Apalache?
@@ -163,3 +175,23 @@ the request is a curl body or an SDK snippet, stop and load the family's
 own skill/docs (`typesafe-ai` for Jev). If it is "replace TLA+ with Jev",
 load `formal-methods.md` (one-screen: `formal-semi-formal.md`). If it is
 hiring, inbox, reading list, or org safety, load `mental-models.md`.
+
+## Is Jev a drop-in for LLM-as-judge (Langfuse etc.)?
+
+When the eval output is a **typed decision** (Choice / Score / Noul), a
+judgment-class model is the right *species* of judge — it cannot write
+sentences, and that is the point
+([Langfuse framing, 2026-09-18](https://x.com/langfuse/status/2100980004678971491)).
+When you need a paragraph rationale, a trace UI, or an annotation
+workflow, generation and the eval platform still own those seats.
+Verbal LLM scores are uncalibrated. Do not thin this skill into a
+Langfuse how-to. Mixed architecture: traces stay; the judge step can
+be a System One model.
+
+## Allowlist first, then Jev?
+
+Yes, when code (or a recipe, a law, a text layer) can *prove* the easy
+cases. jevgate's Proven / Refused / Unknown sandwich is the SWE shape;
+OCR page-routing is the same composition with dollars attached
+(`mappings.md` §18). The model judges leftovers. Putting the model
+first so a comment can talk it into a write is the rejected design.

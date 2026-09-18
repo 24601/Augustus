@@ -57,4 +57,8 @@ FM. It must not mint fake strength.
 
 Depth, tables, mapping cards: `formal-methods.md`. Cross-domain frames:
 `mental-models.md`. Hypothesis cards (do not promote without a test):
-`mappings.md` §6–§14. Audit: `boundary-audit.md`.
+`mappings.md` §6–§18. Audit: `boundary-audit.md`.
+
+Allowlist / text-layer / law **prove** easy cases; System One judges
+leftovers (`mappings.md` §18). Putting the Noul first is the rejected
+design.

@@ -58,6 +58,7 @@ asking well-formed questions; this is how you get there.
 | Errors on nested/negated questions | Too much indirection | Direct question, named path, split + combine in code |
 | Answer follows state text | Content steers the model | Tighten criteria; adversarial tests; confidence-gate the action |
 | Rewording trades one error for another | One question, several properties | Split into atomic questions |
+| Synonymous wording swings p / the act | Stimulus includes question text; no invariance promised | Paraphrase-pair eval; abstain or raise t; rewrite (`mappings.md` §17) |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

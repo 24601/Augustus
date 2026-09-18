@@ -51,7 +51,7 @@ until you label *your* cases.
 | Org / safety (Leveson) | Sensor ≠ constraint | This file §Leveson; `formal-methods.md` |
 | Crossover metaphors | NATM, snap-fit, Norman, Kent, Shirky | This file §crossover |
 | Formal / semi-formal | Proof vs DST vs judgment | `formal-methods.md`, `formal-semi-formal.md` |
-| Class / family / objective | Decision API vs ranker vs vision | `judgment-class.md` |
+| Class / family / objective | Decide vs locate vs categorize vs rank vs perceive | `judgment-class.md` species map |
 
 Pick the pillar from the hole, then the family, then the vendor.
 
@@ -116,6 +116,13 @@ hours, or harm, *then* pick t. Do not copy 0.7 from a blog.
 **Satisficing vs optimizing:** Choice for "good enough" menus; Score for
 graded quality. Do not run MCTS theater when satisficing is the real
 goal (leave-or-stay, send-or-edit, hire / more-interviews).
+
+**Wording is part of the stimulus.** Semantically equivalent paraphrases
+can swing p ("Is this the same person as X?" vs "Same person as X?" —
+`notes.md` §25). That is Chow fuel: abstain or rewrite when
+paraphrase-disagreement is large; set threshold width ≥ observed jitter.
+Do not average ten wordings and call the mean Contract. Mapping:
+`mappings.md` §17.
 
 **Base-rate neglect:** force priors in code for rare incidents/fraud.
 Soft models amplify vividness. **Conformal prediction** (distribution-free
@@ -348,6 +355,8 @@ Use these as *existence proofs of a position*. Write your own card.
 | Knowledge work | what to read next | on-question Noul + quality Score | library you hold |
 | Hiring | interview / reject / hold | evidence Nouls; veto rules in policy | labor law, scorecards you wrote |
 | Inbox | reply / snooze / archive | urgency Noul + aboutness Choice | send, calendar |
+| Document / lab routing | which pages need the expensive observation | Noul on remainder after a text layer / recipe | local extract, merge order (**Empirical** as OCR-router *shape*) |
+| Shell / tool allowlist | unlisted remainder after a proof | five Nouls on unknown verbs | Proven/Refused in code (**Empirical**: jevgate) |
 | Moderation | hold before publish | hazard Nouls (**Empirical** as family) | block/review policy |
 | Phishing / fraud screen | hold vs deliver | SDT criterion on a Noul | blocklist, SPF/DKIM exact (**Hypothesis**) |
 | Personal ops | cook done / not | "looks done" Noul | thermometer probe |
@@ -380,6 +389,6 @@ For open-ended requests propose three *placements* (not three vendors).
 If the asker is not writing software, still name the exact work — a
 spreadsheet, a checklist, a two-person rule. Do not invent an API.
 
-Related: `mappings.md` §1–§16, `methods-catalog.md`, `toolbox-mapping.md`,
+Related: `mappings.md` §1–§18, `methods-catalog.md`, `toolbox-mapping.md`,
 `composition-algebra.md`, `formal-methods.md`, `formal-semi-formal.md`,
 `faq.md`.

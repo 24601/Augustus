@@ -157,6 +157,19 @@
   SKILL.md; Augustus is not a jevals how-to.
 - notes.md §24; sources.json appended; findings.md batch #12.
 
+## 2026-09-18 16:07 UTC — 10:07 Boise hourly fold
+- Window: America/Boise 10:07 = 16:07 UTC. Named X posts + GitHub
+  READMEs fetched (all HTTP 200).
+- GLiNER promoted from cousin footnote to species-map peer (locate vs
+  GLiClass categorize vs Jev decide vs GLiNER2.5 local multi-head).
+  36× Browser Use claim labeled tweet/Hypothesis.
+- openjev-lm: 92.9% / 6 vCPU teacher-distill; not independent gold.
+- mappings.md §17 paraphrase brittleness; §18 allowlist ∩ remainder
+  (jevgate + doc-router 1.74× $). FAQ: LLM-as-judge, allowlist-then-judge.
+- Pointers: pi-jev-context, jevscope next to jevals. No thin how-tos.
+  Domain-general mission unchanged. Identity lock holds.
+- notes.md §25; sources.json appended; findings.md batch #13.
+
 
 
 

@@ -36,10 +36,12 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
 - Judgment-class card: Augustus covers the whole class of fast/cheap
   categorization-classification-scoring models (Jev is exemplar, not
   monopoly). Families: closed decision API, open System-1 heads (Laya),
-  GLiClass-adjacent encoders, listwise/pairwise rankers, vision scorers.
+  GLiNER/GLiClass encoder family (locate vs categorize vs local
+  multi-head), listwise/pairwise rankers, vision scorers.
+  Species map in `judgment-class.md`; GLiNER is a peer, not a footnote.
   Fork of listwise discriminative vs decision/proper-scoring objectives;
   four vision scoring patterns; seven portents for agent architecture.
-  FAQ rows for family choice, GLiClass vs Jev vs cross-encoder, and
+  FAQ rows for family choice, GLiNER vs GLiClass vs Jev vs cross-encoder, and
   CLIP/SigLIP gating. No invented APIs.
 - Formal-methods card: judgment vs proof ownership (sensor / constraint /
   searchlight); Alloy Analyzer vs Apalache (model finder ≠ SMT BMC ≠
@@ -57,6 +59,14 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   outside SWE; spec property pipeline; Alloy instance loop; runtime
   assurance sandwich; DST multiverse triage; durable agent control;
   assignment hybrid; situated density (`mappings.md` §6–§16)
+- Input-brittleness and structural-prove ∩ remainder cards
+  (`mappings.md` §17–§18): paraphrase pairs → Chow abstain; allowlist /
+  text-layer first, judge leftovers (jevgate / doc-router *shapes*
+  Empirical; domain-general reading Hypothesis). FAQ: GLiNER vs Jev,
+  LLM-as-judge (Langfuse framing), allowlist-then-judge
+- Hourly 10:07 Boise fold (`research/notes.md` §25): GLiNER2.5 local
+  peer; openjev-lm 92.9% / 6 vCPU teacher-distill; jevgate; doc-router
+  1.74× $; pi-jev-context; jevscope next to jevals
 - Boundary-audit stop conditions for TOCTOU-of-Noul and vacuous specs;
   FAQ rows for Alloy vs Apalache and PufferLib-as-DST-trio
 - Research pointer to [dayhaysoos/jevals](https://github.com/dayhaysoos/jevals):
@@ -76,7 +86,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
 
 - Skill description rewritten as trigger conditions (mixed architecture,
   prefilter, routing, preference lint, classification skepticism, family
-  choice including GLiClass/listwise/vision) plus an explicit `not_for`
+  choice including GLiNER/GLiClass/listwise/vision) plus an explicit `not_for`
   against the official `typesafe-ai` skill
 - Identity lock vs neighbor skills (`typesafe-ai`, `tenbin`, `decision-first`)
   so Augustus stays the design-judgment layer — class-wide, not TypeSafe-only
@@ -91,7 +101,8 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   knowledge work / life); FAQ "is this only for software?"; mappings.md
   beyond-SWE examples labeled Hypothesis; boundary-audit red flags for
   TOCTOU-of-Noul and vacuous specs; formal-methods expanded with Alloy vs
-  Apalache and the DST trio including PufferLib
+  Apalache and the DST trio including PufferLib; GLiNER promoted from
+  cousin footnote to species-map peer
 
 ## [0.2.0] - 2026-09-18
 
