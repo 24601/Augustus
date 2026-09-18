@@ -17,7 +17,12 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    `leaks_secret` (noul ≥0.90) and `failure_class` (Choice ~6 options).
    The gate sees intent; only the output judge sees what the command printed.
 3. **Done-check on the final reply**: "done" claimed after code changes
-   with no test/build/lint result → block. One Noul, one threshold.
+   with no test/build/lint result → block. Structure first: whether a
+   test/build/lint result exists in the trace is countable, so code
+   answers it — one Noul only for the semantic remainder ("does this
+   reply claim the work is finished?"), one threshold. Spending the model
+   on the countable half is the `/bin/ls`-as-first-tier pattern
+   (`mappings.md` §18).
 4. **Stuck-detector**: three failures with the same strategy → ask for a
    new hypothesis, not another retry.
 5. **Supervision during long runs** (foreman): separate concurrent loop
@@ -40,8 +45,12 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
 - A Jev probability is evidence about context, never an action permit.
   Operation+target pairs are validated in code; "confidence high" does not
   authorize.
-- Every error path fails open (missing key, timeout, 429, malformed
-  response → no verdict, tool call proceeds, error reported once/minute).
+- Error paths fail **per action**. These supervision gates are advisory,
+  so they fail open (missing key, timeout, 429, malformed response → no
+  verdict, tool call proceeds, error reported once/minute) — and that is
+  only safe because a hard interlock or sandbox sits underneath. A gate
+  that *selects* or *authorizes* a side effect fails closed instead
+  (`mixed-architecture.md` prefilter table; `mappings.md` §18).
 - Cache identical judgments (~120s) and deduplicate sibling calls into one
   in-flight request.
 - pi-warden measured cost makes continuous guarding viable: ~$0.00004 and
