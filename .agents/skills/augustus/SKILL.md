@@ -51,6 +51,7 @@ classical method you already trust, substitute it, classify the win
 | Context economy / compaction | One relevance Noul per tool result, stub + recall key | `references/agent-self-assessment.md` |
 | Optimizer/program frameworks (Ax, DSPy) | Typed fields → one Jev request; judge metrics; threshold discipline | `references/optimizer-integration.md` |
 | (meta) Finding new mappings & applications | Toolbox sweep: judgment-shaped component of a known method, substituted + falsified | `references/toolbox-mapping.md` |
+| Named methods / operators / theorems | Substitution tiers: operand-judgments, preconditioned theorems, non-substitutable | `references/methods-catalog.md` |
 | Heuristic search over a taxonomy | Parallel beam over Choice distributions | `references/mappings.md#5-hierarchy--bounded-heuristic-search` |
 
 Each card carries its boundary, counterexample, and acceptance test, plus

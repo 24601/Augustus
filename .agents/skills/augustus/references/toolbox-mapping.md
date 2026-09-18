@@ -49,7 +49,11 @@ component; keep the rest of the method in code.
      sieving, per-claim citation checks, 10 Hz-ish game judgment).
    - *Invalid* — violates a boundary (see below). Record it as a rejection,
      not a failure to imagine.
-5. **Compose and falsify**: build the decision card, define the falsifying
+5. **Check the named-methods catalog** (`references/methods-catalog.md`)
+   for prior art on the specific operator/theorem/algorithm before assuming
+   the mapping is new — including the operators-and-theorems tier with its
+   precondition rule (no named precondition = metaphor, not mapping).
+6. **Compose and falsify**: build the decision card, define the falsifying
    experiment (mappings.md format), test on labeled data.
 
 ## Substitution patterns per family (seeded from launch-week evidence)

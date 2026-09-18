@@ -43,3 +43,8 @@
   applications procedure (judgment-shaped-hole substitution, newly-feasible
   classification via economics inversion, standing rejections list); wired
   into SKILL.md central model + index row.
+
+## 2026-09-18 (pass 6 — named-methods + operators/theorems tier)
+- references/methods-catalog.md: ~20 named algorithms (CatBoost row is
+  Empirical via autoresearch cookbook) + operators/theorems tier with
+  precondition-carrying rule; wired into SKILL.md index and toolbox sweep.

@@ -217,3 +217,16 @@ economics inversion ("what would I do at $0.0004/100ms per judgment?") is the
 application-finder. Standing rejections recorded so they aren't rediscovered:
 parallel-nouls-as-independent-evidence, Jev-as-p-value, cross-question Score
 comparability, calibration-certifies-individual-answers.
+
+## 11. Methods catalog + operators/theorems tier (2026-09-18)
+New references/methods-catalog.md. Tier 1: named methods (CatBoost features
+→ empirical recipe; judge qualification; screening; conformance checking...).
+Tier 2: operators & theorems in three classes — substitutable operators
+(argmax→Choice, expectation→Score, indicator→Noul), system-level theorems
+with their governing preconditions (Bayes/independence, LLN/repeats-not-
+parallel, Jensen/utility-from-distribution, Goodhart/probes-concede,
+Simpson/per-population calibration, "re-ask-until-agrees" convergence
+rejected), and non-substitutable constructs (arithmetic, gradients, CLT-on-
+outputs, metric-space claims on Scores). Governing rule: every theorem's
+preconditions become code-level checks; no named precondition = metaphor,
+not mapping.
