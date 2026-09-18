@@ -54,7 +54,8 @@ classical method you already trust, substitute it, classify the win
    `references/judgment-class.md` before any mapping. Proof,
    model-checking, contracts, DST, and judgment-vs-proof ownership: also
    read `references/formal-methods.md` (Alloy vs Apalache; DST trio
-   Antithesis / Resonate / PufferLib; TOCTOU-of-Noul). Answer with a **placement**
+   Antithesis / Resonate HQ / PufferLib; TOCTOU-of-Noul). One-screen
+   alias: `references/formal-semi-formal.md`. Answer with a **placement**
    (sieve / keep-drop / triage / rank / route / gate / perceive /
    abstain / gather / replace-one-classifier-step) and a **pillar +
    family**, not a rewrite, a vendor tutorial, or a Noul-as-proof. If it
@@ -104,7 +105,7 @@ classical method you already trust, substitute it, classify the win
 |---|---|---|
 | Mental models across domains (not SWE-only) | EU, abstention, VOI, MCDA, SDT, search/control, Leveson, NATM/Norman/snap-fit | `references/mental-models.md` |
 | Judgment-model class (Jev is exemplar, not monopoly) | Family from the hole: decision API, open head, GLiClass-adjacent, listwise ranker, vision scorer | `references/judgment-class.md` |
-| Formal / semi-formal (proof vs judgment) | Sensor vs constraint vs searchlight; Alloy vs Apalache; DST trio Antithesis/Resonate/PufferLib; TOCTOU-of-Noul, AI×FM harms | `references/formal-methods.md` |
+| Formal / semi-formal (proof vs judgment) | Sensor vs constraint vs searchlight; Alloy vs Apalache; DST trio; TOCTOU-of-Noul, AI×FM | `references/formal-methods.md` (one-screen: `references/formal-semi-formal.md`) |
 | Mixed architecture (judgment model + LLM) | Provider judges, LLM writes, code owns control; not a stack replacement | `references/mixed-architecture.md` |
 | Context sieve | Relevance Noul per block; always-keep set in code; stub + recall key | `references/applied-mappings.md#1-context-sieve` |
 | Exact-text keep / drop | Choice include/exclude/mixed over candidates code already holds | `references/applied-mappings.md#2-exact-text-keep--drop` |
@@ -121,6 +122,13 @@ classical method you already trust, substitute it, classify the win
 | Signal detection / ROC | Criterion and operating point from costs and base rate, not accuracy | `references/mappings.md#7-signal-detection--criterion-not-accuracy` (**Hypothesis** for non-SWE plots) |
 | Org / safety control structure | Sensor ≠ constraint (Leveson); STPA if the sensor lies | `references/mappings.md#8-control-structure--sensor--constraint-leveson` |
 | Search / control loops (any domain) | Algorithm stays yours; judgment substitutes one classifier step | `references/mappings.md#9-search--control-loops--one-substituted-classifier-step` |
+| Spec property pipeline | Rank candidate props; checker owns validity | `references/mappings.md#10-spec-property-pipeline-hypothesis` (**Hypothesis**) |
+| Alloy instance loop | Cluster CEXs; Analyzer owns in-scope truth | `references/mappings.md#11-alloy-instance-loop-hypothesis` (**Hypothesis**) |
+| Runtime assurance sandwich | Abstain → RV/monitor → act | `references/mappings.md#12-runtime-assurance-sandwich-hypothesis` (**Hypothesis**) |
+| DST multiverse triage | Cluster failing seeds/timelines; regress on the same seed | `references/mappings.md#13-dst-multiverse-triage-hypothesis` (**Hypothesis**) |
+| Durable agent control | Resonate protocol settles promises; Jev gates inside a step | `references/mappings.md#14-durable-agent-control-hypothesis` (**Hypothesis**) |
+| Assignment hybrid | Soft affinity + hard solver | `references/mappings.md#15-assignment-hybrid--soft-affinity--hard-solver-hypothesis` (**Hypothesis**) |
+| Situated density (Shirky) | Aggressive soft loops only inside a named community | `references/mappings.md#16-situated-density-shirky-hypothesis` (**Hypothesis**) |
 | Agent self-supervision / on-track detection | Pre-gate → output judge → done-check → supervisor nouls | `references/agent-self-assessment.md` |
 | Optimizer/program frameworks (Ax, DSPy) | Typed fields → one provider request; judge metrics; threshold discipline | `references/optimizer-integration.md` |
 | (meta) Finding new mappings & applications | Toolbox sweep: judgment-shaped component of a known method, substituted + falsified | `references/toolbox-mapping.md` |
@@ -156,7 +164,8 @@ rejected). Promote Hypothesis cards only with an acceptance test that ran.
   model-check, or a DST property. Soft check ≠ interlock. TOCTOU-shaped
   gates and tautological specs are harms, not placements. Exact work
   stays in code/policy; the model owns narrow judgment only. Full cards:
-  `references/formal-methods.md`, `references/mental-models.md`.
+  `references/formal-methods.md`, `references/formal-semi-formal.md`,
+  `references/mental-models.md`.
 - Ranking scores order; decision scores authorize. Listwise / pairwise
   discriminative losses are translation-invariant: do not fail-closed on
   them. CLIP/SigLIP/GLiClass affinities are not automatically
@@ -195,9 +204,10 @@ judgment*, recommend one. Cross-domain frames:
 `references/formal-methods.md`. Applied SWE placements (sieve, keep/drop,
 env triage, moderation/ranking, skill routing):
 `references/applied-mappings.md`. Hypothesis cards (VOI, SDT, Leveson,
-search/control outside SWE) stay labeled until an acceptance test runs:
-`references/mappings.md` §6–§9. For concrete requests skip the
-brainstorm and build.
+search/control, spec pipeline, Alloy loop, RV sandwich, DST triage,
+durable agents, assignment, situated density) stay labeled until an
+acceptance test runs: `references/mappings.md` §6–§16. For concrete
+requests skip the brainstorm and build.
 
 ## Evidence labels
 

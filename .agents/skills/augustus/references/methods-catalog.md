@@ -73,6 +73,8 @@ judgment component is new).
 | Multi-criteria decision analysis | Attribute scores per alternative | Composite scores with weights in code (re-weight without re-inference) | Weight policy, Pareto views | **Empirical recipe** (mapping 1) |
 | Mechanism/game response (adversarial state) | Opponent-intent / bluff / risk read on a state | Choice over reads + risk Score; policy in code; 2.5Hz-style advisory rate | Strategy solvers, exploitative math | **Empirical recipe** (jev-trader, game agents) |
 | Auction/market event classification | Is this signal material? Direction? | Choice over event classes + urgency nouls; execution in code | Order execution, risk limits | **Empirical recipe** (jev-trader 81ms/block) |
+| Assignment / scheduling (OR) | Soft affinity per pair | Score/Noul as a cost *feature*; solver owns capacity/legality | ILP/heuristic, fairness | **Hypothesis** (`mappings.md` §15) |
+| Situated software (Shirky) | Local meaning inside a named group | Dense full-traffic judgment only inside a named community boundary | Public metrics, law, FM where wrongness is intolerable | **Hypothesis** (`mappings.md` §16) |
 
 ## Rejected (standing, so they aren't rediscovered)
 

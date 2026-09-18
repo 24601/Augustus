@@ -621,9 +621,34 @@ Hypothesis.
 
 **Non-negotiable unchanged:** code/policy owns exact work; model owns
 narrow judgment; never launder a soft Noul as proof. Identity lock vs
-`typesafe-ai` / `tenbin` / `decision-first`. No invented APIs. Still
-one FM file (`formal-methods.md`), not a duplicate
-`formal-semi-formal.md`.
+`typesafe-ai` / `tenbin` / `decision-first`. No invented APIs.
+
+## 23. Curriculum fold (2026-09-18)
+
+Attached research docs landed under
+`research/archive/curriculum/` (`FORMAL-METHODS-SYSTEM-ONE.md`,
+1-pager, source list, `MENTAL-MODELS-ACROSS-DOMAINS.md`, seed table).
+Named rows folded into the skill; the archive is provenance, not a
+second doctrine.
+
+**FM.** One-screen alias `references/formal-semi-formal.md`. Depth stays
+on `formal-methods.md`: Amazon TLA+ PDF; mCRL2 / KeYmaera X; Alloy
+composition-algebra table; semi-formal artifacts (UML/SysML/ArchiMate/
+GWT/BPMN/ADRs); Lean/ITP/PBT + DafnyPro "propose, verifier decides";
+Resonate HQ = Distributed Async Await (not "Resonate AI"); Cauli ∩
+Hillel; Kent / Shirky / Vanderburg / Agans; help/harm checklist.
+
+**Mental models.** Master rule; satisficing; conformal; A* inadmissible;
+hysteresis/deadbands; alert fatigue; mechanism design; OR; epistemology;
+ten harm patterns.
+
+**Hypothesis cards** `mappings.md` §10–§16: spec pipeline, Alloy loop,
+RV sandwich, DST triage, durable agent control, assignment hybrid,
+situated density. Still do not promote without an acceptance test.
+
+HTTP 200 this pass: Amazon FM PDF, Cauli, Shirky, Hillel dreidel,
+Resonate why+tested, mCRL2, KeYmaera X, arXiv 2502.15441, Lamport Agent.
+
 
 
 

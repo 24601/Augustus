@@ -59,10 +59,10 @@ clones — they own lint/eval and try-Jev-first habit.
 
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs
-Apalache; DST trio Antithesis / Resonate / PufferLib):
-`references/formal-methods.md`. Cross-domain frames (not SWE-only):
-`references/mental-models.md`. Hypothesis cards for VOI, ROC, Leveson,
-and search/control outside SWE: `references/mappings.md` §6–§9.
+Apalache; DST trio Antithesis / Resonate HQ / PufferLib):
+`references/formal-methods.md` (one-screen: `formal-semi-formal.md`).
+Cross-domain frames (not SWE-only): `references/mental-models.md`.
+Hypothesis cards: `references/mappings.md` §6–§16.
 
 ## The skill that owns this analysis
 

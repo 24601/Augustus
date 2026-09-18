@@ -6,8 +6,11 @@ exemplar in the sketches; family choice (open head / GLiClass-adjacent /
 listwise / vision) is `judgment-class.md`. Status words: **Contract**
 (documented), **Empirical recipe** (dated observation), **Hypothesis** (test
 before relying). Cross-domain frames: `mental-models.md`. Formal /
-semi-formal ownership: `formal-methods.md`. Cards §6–§9 are **Hypothesis**
-until an acceptance test runs; do not promote them from analogy.
+semi-formal ownership: `formal-methods.md` / `formal-semi-formal.md`.
+Cards §6–§16 are **Hypothesis** until an acceptance test runs; do not
+promote them from analogy. Curriculum cards §10–§16 (spec pipeline,
+Alloy loop, RV sandwich, DST triage, durable agents, assignment hybrid,
+situated density) are the same rule.
 
 ## 1. Semantic judgments → features and explicit utility
 
@@ -311,3 +314,139 @@ opp?" — amount and close date stay exact); cook/rest/check ("looks done?"
 opposite of NATM). **Test**: greedy vs looped baseline on realistic cases;
 inspect pruning failures; the probe, not the estimate, concedes. Links:
 `mental-models.md` §search; `formal-methods.md` PufferLib row.
+
+## 10. Spec property pipeline (Hypothesis)
+
+**Method**: NL/ADR → candidate properties → human strengthens →
+MC/ITP/DST → CEX triage → repair. **Transfers**: Choice/Score to *rank*
+which candidate props to spend checker budget on; Noul/Choice to
+cluster CEXs after the tool ran. **Does not transfer**: ranking ≠
+validity. An LLM-written TLA+/Alloy sketch plus a Noul "looks good" is
+double theater (`formal-methods.md` §5).
+
+```text
+candidates = LLM or human drafts from NL/ADR     # generation or a person
+rank       = Choice/Score over the candidate set  # judgment
+strengthen = human                                # exact values
+check      = TLC / Apalache / Alloy Analyzer / DST / Dafny
+triage     = cluster+severity of CEXs             # judgment, evidence only
+```
+
+**Example (Hypothesis):** Lamport-Agent drafts TLA+ from a codebase; a
+human validates; the checker is source of truth in-model. **Counterexample:**
+Hillel tautology (`canImport = P ∨ Q` then "prove" the definition).
+**Test:** a property that fails on a planted concurrency bug; ranking
+must not mark the tautology as "strong." Status: **Hypothesis**.
+Links: `formal-methods.md` Alloy composition table; Amazon TLA+ PDF.
+
+## 11. Alloy instance loop (Hypothesis)
+
+**Method**: `run`/`check` → instances/CEXs → cluster+severity → edit
+spec or scope → re-analyze. **Transfers**: post-judge and comparator
+positions around the Analyzer. **Does not:** a Noul closing the check;
+scope-blind "verified."
+
+```text
+Analyzer finds instances | CEXs in this scope
+Jev clusters / scores novelty and severity
+code or human edits the spec, the scope, or the scenario library
+re-run — Analyzer is source of truth for the bounded claim
+```
+
+**Boundary:** Analyzer owns in-scope truth. **Test:** planted CEX is
+not dropped by the triage Noul. **Hypothesis.** Links:
+`formal-methods.md` §2.
+
+## 12. Runtime assurance sandwich (Hypothesis)
+
+**Method**: conformal / System One abstain → symbolic monitor / RV →
+act. Curriculum names GUARDIAN / TemporalGuard / Perceive-with-Confidence
+as *shapes*, not recipes. **Transfers:** judgment as the statistical
+layer *around* a monitor. **Does not:** conformal sets as a proof of
+the protocol; skipping exchangeability assumptions.
+
+```text
+estimate  = Noul / Score / conformal set     # statistical safety around learning
+monitor   = RV / ptLTL / named invariant     # exact, compiled
+act       = code, only if monitor admits
+```
+
+**Counterexample:** "the model was confident" as the monitor.
+**Test:** inject a monitor-violating trace the Noul would have admitted;
+the sandwich must refuse. **Hypothesis.** Links: `mental-models.md`
+conformal; `formal-methods.md` help list.
+
+## 13. DST multiverse triage (Hypothesis)
+
+**Method**: Antithesis / Resonate DST artifacts → failure taxonomy →
+patch → regress under the **same seed/timeline**. **Transfers:**
+cluster failing timelines; Choice over root-cause hypotheses *after*
+replay artifacts exist. **Does not:** guided-exploration coverage as
+proof; Noul instead of an assert in-harness.
+
+```text
+harness states properties; DST searches; seed reproduces
+judgment clusters novelty / suspected component
+patch; re-run the same seed
+```
+
+**Test:** two failing timelines that share a symptom collapse to one
+cluster; a distinct bug does not. **Hypothesis.** Links:
+`formal-methods.md` §4.
+
+## 14. Durable agent control (Hypothesis)
+
+**Method**: Resonate HQ checkpoints own durability; Jev-class owns
+semantic gates *inside* a step; the protocol oracle owns correctness of
+promise state. **Transfers:** Choice/Score for human-in-the-loop resume
+priority; Noul gates inside `ctx.run`. **Does not:** "agent-native" as
+"judgment replaces Lean/oracle"; a done-Noul settling a promise.
+
+```text
+Resonate  = crash-resume, promise settlement     # protocol
+Jev-class = semantic gate / route inside a step  # estimate
+oracle    = differential disagreement            # probe
+```
+
+**Counterexample:** `if noul(done) > τ: complete_workflow()`.
+**Test:** kill the process mid-step; the promise is still protocol-true
+without consulting the Noul. **Hypothesis.** Links:
+`formal-methods.md` Resonate row.
+
+## 15. Assignment hybrid — soft affinity + hard solver (Hypothesis)
+
+**Method**: operations-research assignment / scheduling. **Transfers:**
+Score affinity or risk as a *cost feature*; ILP/heuristic owns
+capacity, legality, fairness. **Does not:** replacing a VRP/assignment
+solver with a Choice; soft costs violating a hard constraint.
+
+```text
+affinity = Score/Noul per pair (reviewer↔paper, agent↔incident)
+solver   = code (capacity, skills, hours, law)
+policy   = starvation/fairness rules in code
+```
+
+**Example (Hypothesis):** incident-commander assignment; grant-panel
+paper allocation; GPU scheduling. **Counterexample:** Choice over
+assignees that ignores load. **Test:** a feasible assignment the solver
+finds that the Score alone would skip because it "felt" worse; hard
+constraints never yield. Links: `mental-models.md` §OR.
+
+## 16. Situated density (Shirky) (Hypothesis)
+
+**Method**: [Situated software](https://gwern.net/doc/technology/2004-03-30-shirky-situatedsoftware.html)
+— form-fit to a named group; refuse false scale. **Transfers:** dense
+full-traffic judgment *inside* a named community (one team, one
+product, one agent). Local Choice sets, local τ. **Does not:**
+copying those thresholds to another population (calibre:
+thresholds don't transfer); enterprise ArchiMate theater for N=30.
+
+```text
+community boundary named (team / product / practice)
+aggressive soft loops allowed only inside it
+outside: retrieval, law, public metrics, FM where wrongness is intolerable
+```
+
+**Test:** the same τ on a second population; if cost/coverage moves,
+the card was situated and must stay labeled. **Hypothesis.** Links:
+`formal-methods.md` Shirky; `mental-models.md` harm "scale mismatch."

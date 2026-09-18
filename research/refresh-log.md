@@ -132,6 +132,20 @@
   Promote Hypothesis only with an acceptance test that ran.
 - notes.md §22; sources.json appended; findings.md batch #10.
 
+## 2026-09-18 15:50 UTC — fold attached curriculum
+- Archived five research docs under `research/archive/curriculum/`.
+- Skill: `formal-semi-formal.md` one-screen alias; named rows folded into
+  `formal-methods.md` (Amazon TLA+, mCRL2/KeYmaera, Alloy composition
+  table, semi-formal artifacts, ITP/PBT, Resonate HQ identity, Cauli,
+  Kent/Shirky/Vanderburg/Agans, help/harm checklist). mental-models
+  master rule, conformal, OR, epistemology, harms. mappings.md §10–§16
+  Hypothesis. boundary-audit checklist. Identity lock holds. No
+  invented APIs. Promote Hypothesis only with an acceptance test.
+- HTTP 200: Amazon FM PDF, Cauli, Shirky, dreidel, Resonate why/tested,
+  mCRL2, KeYmaera X, arXiv 2502.15441, Lamport Agent.
+- notes.md §23; sources.json appended; findings.md batch #11.
+
+
 
 
 

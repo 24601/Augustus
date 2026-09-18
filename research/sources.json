@@ -589,6 +589,48 @@
       "title": "Hillel Wayne: How to find bugs in systems that don't exist (QCon 2026)",
       "url": "https://www.hillelwayne.com/talks/informal-methods/qcon26/",
       "note": "Spec / environment / properties as three views. Informal-methods companion to vibing-specs."
+    },
+    {
+      "kind": "docs",
+      "title": "Use of Formal Methods at Amazon Web Services (Newcombe et al., 2014)",
+      "url": "https://lamport.azurewebsites.net/tla/formal-methods-amazon.pdf",
+      "note": "TLA+ as exhaustively testable pseudo-code; code ≠ spec. notes.md §23."
+    },
+    {
+      "kind": "docs",
+      "title": "Cauli: My EuroSys 2026 paper is obsolete",
+      "url": "https://claudiacauli.com/2026/03/08/my-eurosys-2026-paper-is-obsolete",
+      "note": "Cost of typechecking collapsed; cost of strong properties + non-vacuous models did not."
+    },
+    {
+      "kind": "docs",
+      "title": "Shirky: Situated Software (2004)",
+      "url": "https://gwern.net/doc/technology/2004-03-30-shirky-situatedsoftware.html",
+      "note": "Form-fit to a social group; refuse false scale. mappings.md §16."
+    },
+    {
+      "kind": "docs",
+      "title": "Why Resonate",
+      "url": "https://docs.resonatehq.io/evaluate/why-resonate",
+      "note": "Resonate HQ = Distributed Async Await / durable execution, not an unrelated AI brand."
+    },
+    {
+      "kind": "docs",
+      "title": "Hillel: I formally modeled dreidel",
+      "url": "https://buttondown.com/hillelwayne/archive/i-formally-modeled-dreidel-for-no-good-reason",
+      "note": "Right-tool joy; PRISM vs System One p."
+    },
+    {
+      "kind": "docs",
+      "title": "Lamport Agent",
+      "url": "https://zfhuang99.github.io/github%20copilot/formal%20verification/tla+/2025/11/14/lamport-agent.html",
+      "note": "Agents draft TLA+ from codebases; human validates. mappings.md §10."
+    },
+    {
+      "kind": "paper",
+      "title": "Effectiveness of LLMs in writing Alloy (arXiv 2502.15441)",
+      "url": "https://arxiv.org/html/2502.15441",
+      "note": "Frontier; do not promote as a recipe. Analyzer remains source of truth in-scope."
     }
   ]
 }

@@ -110,6 +110,11 @@ an acceptance test that ran.
 - **Jev as VOI calculator**: numeric EVPI/EVSI from returned
   distributions. Placement (gather as an act) is the method; the
   calculator is Hypothesis until act/outcome logs exist (`mappings.md` §6).
+- **Alloy/DST/RV as open product rows**: instance-loop triage, DST
+  multiverse clustering, runtime-assurance sandwich, durable-agent
+  gates inside Resonate steps (`mappings.md` §10–§14). Hypothesis
+  until an acceptance test runs. Do not promote from the curriculum
+  note alone.
 
 ## Verified application families (Empirical, dabit3/jev-experiments + archive corpus)
 

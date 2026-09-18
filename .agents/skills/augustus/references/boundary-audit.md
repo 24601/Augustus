@@ -173,6 +173,10 @@ Stop and redesign when you see:
 - Apalache random-exec or Quint `run` cited as unbounded safety
 - PufferLib Ocean scores as a comparative capability claim
 - Alloy vs Apalache collapsed into "we model-checked it"
+- Resonate HQ confused with an unrelated "Resonate AI" brand; a done-Noul settling a promise
+- independence fiction (multiplying Nouls) or Score unit fiction
+- Web-scale τ copied onto a situated N=30 loop (Shirky)
+- silent base-code edits to satisfy Dafny/Lean
 
 ### TOCTOU-of-Noul (stop condition)
 
@@ -189,7 +193,25 @@ If the property is a restatement of a definition (`canImport = P ∨ Q`
 then "prove" `¬P ∧ ¬Q ⇒ ¬canImport`), the checker passing is not a
 result. Do not add a Noul "does this spec look good?" on top. Demand a
 subtle property (concurrency, liveness, multi-step) and a run of the
-real tool (`formal-methods.md` §5 AI×FM).
+real tool (`formal-methods.md` §5 AI×FM). Cauli: a model that
+typechecks is not a validated model.
+
+### Harmful-uses checklist
+
+Copy into the insertion's PR/decision card (`formal-methods.md` §5):
+
+- [ ] Probabilistic gate on an irreversible act without a hard interlock?
+- [ ] "Verified" only of a model the team has not broken?
+- [ ] Properties strong, or tautological?
+- [ ] Choice/Score rubrics versioned with the consumer?
+- [ ] Abstention defined per-action with costs?
+- [ ] CEX/triage stored as evidence, not enforcement?
+- [ ] Alloy vs Apalache vs TLC named correctly?
+- [ ] Resonate protocol settlement vs agent "done" Noul separated?
+- [ ] Antithesis properties as harness asserts, not chat opinions?
+- [ ] Speculative MCTS/RL depth capped without a real simulator?
+- [ ] Sequence diagram of check-then-act missing an atomicity note?
+- [ ] Silent code edits to make Dafny/Lean pass?
 
 ## Completion
 

@@ -224,3 +224,24 @@ Curriculum `FORMAL-METHODS-SYSTEM-ONE.md` still not found.
 Cross-repo addition: (x) three DST seats (hypervisor / in-product
 harness / env-as-sim) around the same sensor/constraint split.
 
+## Batch #11 (2026-09-18, curriculum fold)
+
+Attached docs archived under `research/archive/curriculum/`. Skill
+cards: `formal-semi-formal.md` (alias), expanded `formal-methods.md` +
+`mental-models.md`, `mappings.md` §10–§16. Note: `research/notes.md` §23.
+
+- **Resonate HQ (Contract from product docs):** durable async
+  (Distributed Async Await), not an unrelated AI brand; promises settle
+  in protocol.
+- **Cauli ∩ Hillel:** typecheck-cost collapsed; strong-property cost did
+  not. Vacuous models are a harm.
+- **Kent / Shirky / Vanderburg / Agans:** ontology, situated density,
+  measurement-under-load, debug sequence — portable, not SWE-only.
+- **Hypothesis cards B–F + OR + situated:** spec pipeline, Alloy loop,
+  RV sandwich, DST triage, durable agent, assignment hybrid, Shirky
+  density. Promote only with an acceptance test.
+
+Cross-repo addition: (y) semi-formal diagrams as *vocabulary* for
+questions, compiled to a monitor before they enforce.
+
+

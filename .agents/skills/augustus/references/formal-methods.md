@@ -8,10 +8,10 @@ on the vendor. Portable frames for EU, VOI, MCDA, SDT, and org/safety
 live on `mental-models.md`. Formal methods are **one pillar**, not the
 skill.
 
-A curriculum list may later land as `FORMAL-METHODS-SYSTEM-ONE.md`. When
-it does, fold named rows into the tables below. Until then this file is
-the working map from the 2026-09-18 brief plus the Alloy-vs-Apalache /
-DST-trio expansion.
+Curriculum landed 2026-09-18
+(`research/archive/curriculum/FORMAL-METHODS-SYSTEM-ONE.md` plus
+1-pager, source list). Named rows are folded here. The one-screen
+alias is `formal-semi-formal.md`. Do not duplicate doctrine.
 
 Status: **Contract** only for TypeSafe docs you re-read live. Tool
 characterizations here are **Empirical recipe** (named docs) or
@@ -73,12 +73,19 @@ do not judge production text. Docs, not this card, own syntax.
 | [NuSMV](https://nusmv.fbk.eu/) | Symbolic SMV; CTL/LTL on finite-state models | The finite Kripke structure you encoded | Encoding choices; which property to add after a miss | Model, engines |
 | [PRISM](https://www.prismmodelchecker.org/) | Probabilistic model checking (DTMC/CTMC/MDP) | The Markov *model*. Model-p is not a Noul | Interpreting model probabilities vs a judgment-class p; which rewards | Model, engines |
 | [Event-B](https://wiki.event-b.org/index.php/Main_Page) / Rodin | Set-theoretic modeling + refinement; proof obligations between levels | Discharged POs for the refinement you wrote | Which PO is "prover timeout" vs "spec too weak" vs "real bug" (**Hypothesis** until labeled) | Rodin, provers |
+| [mCRL2](https://mcrl2.org/web/index.html) | Process algebra | Same triage pattern as TLA+ (**Hypothesis**) | mCRL2 tools |
+| [KeYmaera X](https://keymaerax.org/) | Hybrid systems (discrete + continuous) | Scenario labeling only; domain experts own the model (**Hypothesis**) | KeYmaera kernel |
 
 Rule: a System One model may sit *around* these tools (triage, route,
 explain a counterexample to a human). It may not sit *instead*. Quint's
 own split is the teaching example: simulator finds bugs faster; model
 checker is what lets you claim the invariant on that model
 ([What does Quint do?](https://quint.sh/docs/what-does-quint-do)).
+Industrial north star for "precise design before code": Amazon's
+[Use of Formal Methods at AWS](https://lamport.azurewebsites.net/tla/formal-methods-amazon.pdf)
+(Newcombe et al., 2014) — TLA+/PlusCal as exhaustively testable
+pseudo-code; finds deep bugs reviews miss; **does not** prove code
+implements spec.
 
 ### Alloy Analyzer vs Apalache (do not collapse)
 
@@ -113,6 +120,36 @@ then "prove" `¬P ∧ ¬Q ⇒ ¬canImport`) vs subtle (concurrency, liveness,
 multi-step). Out of class: a Noul "this Alloy looks right" or "Apalache
 would agree."
 
+Alloy × Jev composition (all **Hypothesis** as product; Analyzer remains
+source of truth in-scope). Positions from `composition-algebra.md`:
+
+| Position | Pattern | Ownership |
+|---|---|---|
+| Prior / selector | Choice over candidate predicates from NL | Analyzer accepts/rejects; human strengthens |
+| Post-judge | Score/Choice: severity and novelty of each instance/CEX | Soft triage only |
+| Gate | Noul "is this CEX spurious wrt informal intent?" | **Never** closes the check |
+| Comparator | Rank which `check`/`run` to spend SAT budget on | Budget in code |
+| Verifier (evidence) | Noul "does instance match a stakeholder scenario?" | Scenario library in tests |
+| Operand | Features from instance graphs → a downstream model | Version features with the consumer |
+
+Frontier (do not promote as recipes): LLMs writing Alloy
+([arXiv 2502.15441](https://arxiv.org/html/2502.15441)); Anvil
+synthesis/repair (MODELS 2026); *foundry* concept design verified in
+Alloy 6 BMC. Help: cluster CEXs, narrate instances, rank which conjunct
+to edit. Harm unchanged: vibe-specs are often tautological and unrun
+(Hillel).
+
+### Semi-formal artifacts (shared vocabulary, not enforcement)
+
+UML/SysML state machines, Harel statecharts, ArchiMate, structured
+English / GWT / EARS, decision tables, BPMN, ADRs-with-invariants,
+SysML v2 pipelines. **Transfers:** System One classifies observations
+into the diagram's vocabulary (Choice sets = states/events; Nouls =
+guard suspicions; Scores = risk). **Does not:** a sequence diagram as
+a runtime enforcer unless compiled to a monitor / Quint / TLA / Alloy.
+Agents must not treat the picture as the interlock. Mapping cards:
+`mappings.md` §3 (circuits) and §10–§12.
+
 ## 3. Deductive and contract languages
 
 These prove **code against annotations**, not vibes against a README.
@@ -123,11 +160,17 @@ These prove **code against annotations**, not vibes against a README.
 | [OpenJML](https://www.openjml.org/) / JML | Design-by-contract for Java | Same shape: rank hot methods; never "this Java looks safe" | ESC, runtime assertions |
 | [Frama-C](https://frama-c.com/) / ACSL | C static analysis plugins; WP, value analysis | Which alarm is a true overflow vs a precision miss (**Hypothesis**) | Kernel, plugins, ACSL |
 | [SPARK](https://www.adacore.com/about-spark) / GNATprove | Ada subset; flow + proof of contracts | Same as Dafny, at higher assurance | GNATprove, SPARK subset |
+| Lean 4 / Rocq / Agda / HOL4 / PVS / ACL2 | Interactive theorem provers | Lemma ranking, proof-step *proposals* | The kernel decides |
+| SMT (Z3, CVC5) | Backend to many of the rows above | Soft models must not rewrite goals unchecked | Solver, encoding |
+| PBT / contracts / oracles (Hypothesis, QuickCheck) | Property tests on implementations | Shrink/triage failures; oracle *candidates* (**Hypothesis**) | The oracle, the runner |
+| seL4, CompCert | Landmark verified stacks | Out of band — inspiration for "proof owns safety" | The proof |
 
 A failed verification condition is a *structured* object (goal,
 hypotheses, location). Ranking those is in-class. A Noul "the lemma
 holds" is out of class — that is a proof obligation with the prover
-deleted.
+deleted. Rule from the curriculum (DafnyPro-shaped): **LLM/Jev propose;
+the verifier refutes or accepts.** Forbid silent base-code edits that
+"make the proof pass."
 
 ## 4. Deterministic simulation testing (semi-formal trio)
 
@@ -142,25 +185,27 @@ Three different ways to search. None is a proof. None is a Noul.
 
 | System | How it searches | What a seed means | Judgment-shaped hole |
 |---|---|---|---|
-| [Antithesis](https://antithesis.com/docs/introduction/how_antithesis_works/) | Whole-system **deterministic hypervisor** around software you did not rewrite; faults + inputs; you state properties; reproducible timelines | The SUT under the hypervisor, that timeline | Cluster failing timelines; is this the same incident; which property to add after a miss |
-| [Resonate](https://docs.resonatehq.io/evaluate/how-resonate-is-tested) | **In-product three layers**: executable Lean 4 protocol spec, differential testing vs an in-memory oracle, DST of the TypeScript SDK (seeded faults; CI replays the seed twice to catch nondeterminism) | SDK + faults + seed. Lean still owns the protocol claim | Same as Antithesis for the DST layer; the Lean spec is still a spec |
-| [PufferLib](https://puffer.ai/docs.html) | The **environment is already a simulator**. Serial vectorization + explicit seeds for contract debugging; Ocean sanity envs fail if the *trainer* is wrong ([arXiv 2406.12905](https://arxiv.org/abs/2406.12905); authors: never report Ocean as a comparative RL baseline). A seed does **not** make GPU training or third-party simulators bitwise deterministic | Replay of env + seed (seed action-sampling separately). Ocean pass = trainer contract, not policy optimality | Cluster failing episodes; "does this look like Password / Stochastic / Memory?"; never "the policy is correct" |
+| [Antithesis](https://antithesis.com/docs/introduction/how_antithesis_works/) | Whole-system **deterministic hypervisor** around software you did not rewrite; faults + inputs; you state properties; RL-guided exploration of timelines; reproducible | The SUT under the hypervisor, that timeline | Cluster failing timelines; novelty vs duplicate; which property to add; **never** "pass" a property |
+| [Resonate HQ](https://docs.resonatehq.io/evaluate/how-resonate-is-tested) | **Durable async execution** (Distributed Async Await) — **not** an unrelated "Resonate AI" brand. Three layers: executable [Lean 4 protocol spec](https://github.com/resonatehq/resonate-specification), differential testing vs an in-memory oracle, DST of the TypeScript SDK (seeded faults; CI replays the seed twice). [Why](https://docs.resonatehq.io/evaluate/why-resonate) | SDK + faults + seed. Lean still owns the protocol claim. Promises **settle in protocol**, not via Noul | Same as Antithesis for the DST layer; cluster oracle disagreements; semantic gates *inside* a step (`ctx.run`) |
+| [PufferLib](https://puffer.ai/docs.html) | The **environment is already a simulator**. Serial vectorization + explicit seeds for contract debugging; Ocean sanity envs fail if the *trainer* is wrong ([arXiv 2406.12905](https://arxiv.org/abs/2406.12905); authors: never report Ocean as a comparative RL baseline). A seed does **not** make GPU training or third-party simulators bitwise deterministic | Replay of env + seed (seed action-sampling separately). Ocean pass = trainer contract, not policy optimality | Cluster failing episodes; curriculum Choice over a bounded env set; Score as a *feature* into a learned reward model (**Hypothesis**, composition-algebra open "reward shaper"); never "the policy is correct" |
 
 Teaching split:
 
 ```text
 Antithesis   wrap existing software; you did not rewrite the scheduler
-Resonate     you built the harness *and* a real spec (Lean) *and* DST
+Resonate HQ  durable async + Lean spec + oracle + DST; promises settle in protocol
 PufferLib    the world is a sim; DST-shaped testing is seeded serial env
              + Ocean contracts; RL value still needs observed rewards
 ```
 
 Resonate is the ownership split in one product: Lean owns the protocol
-claim; DST owns "this SDK, these faults, this seed"; unit tests own the
-rest. PufferLib is the search/control cousin: the loop is yours; a
-judgment-class model may score traces, not replace the env contract.
-Standing rejection unchanged: bandits / RL value from Jev with no
-observed rewards (`methods-catalog.md`).
+claim; DST owns "this SDK, these faults, this seed"; the runtime owns
+crash-resume. A judgment-class model may gate *inside* a durable step;
+it does not settle a promise. PufferLib is the search/control cousin:
+the loop is yours; a judgment-class model may score traces, not replace
+the env contract. Standing rejection unchanged: bandits / RL value from
+Jev with no observed rewards (`methods-catalog.md`). Mapping cards:
+`mappings.md` §13 (DST triage), §14 (durable agent control).
 
 A judgment-class model is not a fourth way to skip any of those layers.
 It can sit where OpenSmoke already sits: cheap flags over every failing
@@ -191,12 +236,16 @@ check.
 | Formal | Noul "this spec looks good" | merge; the checker never ran (also vibing specs) |
 
 Fix, in order: make the real interlock in code or policy (types, auth,
-sandbox, compare-and-swap, two-person rule, thermometer, ledger);
-re-probe after the world can have moved (composition: irreversible acts
-concede only to a post-execution probe); treat the t0 judgment as
-advisory routing, not permission. Fail-closed authorize cannot be a
-stale Noul. Policy is the code of a practice that has no repository
-(`mental-models.md`).
+sandbox, compare-and-swap, capability tokens, two-person rule,
+thermometer, ledger); **EAFP** — attempt the privileged op with OS/DB
+enforcement and handle failure; bind check to use (`O_NOFOLLOW`,
+transactions); re-probe after the world can have moved (composition:
+irreversible acts concede only to a post-execution probe); hysteresis /
+time-bounded certificates; treat the t0 judgment as advisory routing,
+not permission. Fail-closed authorize cannot be a stale Noul. Policy is
+the code of a practice that has no repository (`mental-models.md`).
+Semi-formal: a sequence diagram that shows a check message then a later
+act message *without an atomicity note* is a TOCTOU diagram.
 
 ### Soundness theater
 
@@ -247,6 +296,44 @@ Additional AI×FM harms (same family, not a new owner):
    unbounded safety.
 4. **Sensor as constraint.** Leveson: a 99% Noul is a sensor. Unsafe
    control action: the agent proceeds *because the model was confident*.
+5. **Vacuous models (Cauli).** [My EuroSys 2026 paper is
+   obsolete](https://claudiacauli.com/2026/03/08/my-eurosys-2026-paper-is-obsolete):
+   the cost of producing *something that typechecks* collapsed; the cost
+   of **strong properties + validated models** did not. Domain
+   understanding must not go to zero.
+6. **Silent code changes** to satisfy Dafny/Lean.
+7. **PRISM/MC p confused with a Noul.**
+8. **DST coverage mistaken for verification of unstated properties.**
+9. **Reward laundering** in PufferLib-class loops.
+
+**Cauli ∩ Hillel:** System One helps the *workflow around* FM (triage,
+ranking, UI, monitors) and must not mint fake strength. [Lamport
+Agent](https://zfhuang99.github.io/github%20copilot/formal%20verification/tla+/2025/11/14/lamport-agent.html)
+drafts TLA+ from codebases; a human still validates. Hillel on tool
+choice: [dreidel / PRISM](https://buttondown.com/hillelwayne/archive/i-formally-modeled-dreidel-for-no-good-reason).
+
+### Help vs harm (keep this list short)
+
+**Help:** candidate properties (always run MC/ITP/DST); filter before
+expensive SAT; CEX/timeline/instance triage; lemma/repair ranking; UI
+for specs; runtime monitors + conformal abstention; ADR/decision-table
+hygiene.
+
+**Harm checklist** (copy into a PR template; also `boundary-audit.md`):
+
+- [ ] Does a probabilistic gate authorize an irreversible act without a
+      hard interlock?
+- [ ] Is any "verified" claim only about a model the team has not
+      validated by breaking it?
+- [ ] Are properties strong (concurrency, multi-step) or tautological?
+- [ ] Are Choice options / Score rubrics versioned with the consumer?
+- [ ] Is abstention defined per-action with costs?
+- [ ] Are CEX/triage judgments stored as evidence, not enforcement?
+- [ ] Alloy vs Apalache vs TLC named correctly?
+- [ ] Resonate protocol settlement vs agent "done" Noul separated?
+- [ ] Antithesis properties written as harness asserts, not chat
+      opinions?
+- [ ] Speculative MCTS/RL depth capped without a real simulator?
 
 Augustus implication: answer "formally verify with Jev" with a
 **placement** (triage failing seeds / rank VCs / NATM-instrument the
@@ -298,11 +385,47 @@ is wrong, delayed, spoofed, or TOCTOU. Org/safety placement: judgment
 informs operators and cheap gates; it does not replace the constraint
 in the control structure. Mapping card: `mappings.md` §8.
 
+**Kent — Data and Reality.** Models are approximations; **naming is
+load-bearing**. Question text, Choice sets, and Score rubrics *are* the
+ontology. Wrong predicates → proof of the wrong world. Spec languages
+force naming; System One makes naming cheap to *apply* at scale — both
+can encode a bad ontology.
+
+**Shirky — situated software.**
+[Situated Software](https://gwern.net/doc/technology/2004-03-30-shirky-situatedsoftware.html):
+form-fit to a social group; refuse false scale. Dense judgment *inside*
+a named community (team, product, agent) is in-class. Do not
+universalize thresholds across populations. Semi-formal ADRs + local
+invariants beat enterprise ArchiMate theater when N is small. Mapping:
+`mappings.md` §16.
+
+**Vanderburg / Real SE.** Engineering = models under uncertainty +
+measurement closing the loop
+([series](https://vanderburg.org/blog/series/real-software-engineering)).
+Traverse composition positions × constructs; each cell needs a named
+caveat and a falsifier. FM and System One both fail as decoration.
+Crossover Project (Hillel Wayne) is the same argument: copy
+**measurement + feedback under load**, not slogans.
+
+**Agans — Debugging.** See → stabilize → find evidence → fix → verify.
+Judgment helps *see/classify*; probes verify. Mapping intuition only.
+
+| Metaphor | Soft judgment owns | Hard / FM / code owns |
+|---|---|---|
+| NATM gauges | ground class, urgency | lining thickness, invert close, stop-work |
+| Snap-fit | "feels seated" Score | geometry, go/no-go gauge |
+| Norman | evaluation of state | executable actions and affordances |
+| STAMP | estimate of process variable | enforced constraint / interlock |
+| Kent | proposed names / features | schema + integrity constraints |
+| Shirky | local meaning | community contracts and reputation outsides |
+
 ```text
 NATM        instrument often; adapt support in code
 snap-fit    designed give only where a miss is reversible
 Norman      judgment evaluates candidates; forcing functions execute safely
 Leveson     judgment senses; constraints live in the control structure
+Kent        naming is the ontology; both FM and Jev can encode a bad one
+Shirky      dense loops inside a named community; don't fake public scale
 ```
 
 ## Decision-design extras (proof × judgment)
@@ -324,6 +447,7 @@ Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a
 hybrid "verified by Noul" API.
 
-Related: `mental-models.md`; `mappings.md` §6–§9; `methods-catalog.md`
-verification rows; `composition-algebra.md` positions 3 and 9;
-`mixed-architecture.md` preference lint; `faq.md`; `boundary-audit.md`.
+Related: `formal-semi-formal.md` (one screen); `mental-models.md`;
+`mappings.md` §6–§16; `methods-catalog.md` verification rows;
+`composition-algebra.md` positions 3 and 9; `mixed-architecture.md`
+preference lint; `faq.md`; `boundary-audit.md`.

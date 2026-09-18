@@ -24,6 +24,12 @@ proof / types  →  a checker, a contract, a forcing function — never a Noul
 Never launder a soft Noul as a proof, a model-check, or a safety case.
 Policy *is* the code of a practice that has no repository.
 
+**Master rule (curriculum):** judgment estimates; policy decides; the
+world confirms. Irreversible concession belongs to a **probe**
+(measurement, receipt, test, signed commit) — not to a Noul. TOCTOU is
+the universal name for "checked with a soft estimate, then acted as if
+the check were still true."
+
 Status: frames below are **Contract** where they restate a named method's
 preconditions; **Empirical recipe** where a launch-week artifact measured
 them in software; **Hypothesis** where the domain example is analogical
@@ -39,9 +45,12 @@ until you label *your* cases.
 | MCDA | Named criteria; weights in policy | This file §MCDA; `mappings.md` §1 |
 | Search / control | Judgment as heuristic or sensor in a loop you own | This file §search; `methods-catalog.md` |
 | Signal detection | Hits, false alarms, criterion — not "accuracy" | This file §SDT |
+| Control / hysteresis | Dual thresholds; model never actuates | This file §search; `mappings.md` §9 |
+| Mechanism / OR | Soft affinity; hard solver | This file §OR; `mappings.md` §15 |
+| Epistemology | Evidence strength ≠ truth | This file §epistemology |
 | Org / safety (Leveson) | Sensor ≠ constraint | This file §Leveson; `formal-methods.md` |
-| Crossover metaphors | NATM, snap-fit, Norman as *intuition* | This file §crossover |
-| Formal / semi-formal | Proof vs DST vs judgment | `formal-methods.md` |
+| Crossover metaphors | NATM, snap-fit, Norman, Kent, Shirky | This file §crossover |
+| Formal / semi-formal | Proof vs DST vs judgment | `formal-methods.md`, `formal-semi-formal.md` |
 | Class / family / objective | Decision API vs ranker vs vision | `judgment-class.md` |
 
 Pick the pillar from the hole, then the family, then the vendor.
@@ -104,6 +113,15 @@ quality; selection/auth is control.
 
 Life/business reading of the same math: write the two costs in dollars,
 hours, or harm, *then* pick t. Do not copy 0.7 from a blog.
+**Satisficing vs optimizing:** Choice for "good enough" menus; Score for
+graded quality. Do not run MCTS theater when satisficing is the real
+goal (leave-or-stay, send-or-edit, hire / more-interviews).
+
+**Base-rate neglect:** force priors in code for rare incidents/fraud.
+Soft models amplify vividness. **Conformal prediction** (distribution-free
+sets around System One outputs) is the statistical sibling of "the
+model checker didn't explore that; don't claim it" — say the
+exchangeability assumption. Mapping sandwich: `mappings.md` §12.
 
 ## Value of information
 
@@ -168,11 +186,15 @@ literature snowball). The judgment-shaped hole is a prior, a prune, a
 leaf value, or a "does this branch still look live?" Noul
 (`methods-catalog.md` search rows; `mappings.md` §5). Economics
 inversion: per-node judgments were known and too expensive; they are
-now default.
+now default. **A\***: a Score heuristic is *inadmissible* unless you
+prove it — treat it as informal guidance, not an optimality certificate.
 
 Control: hysteresis, continue / stop / retry / verify (foreman shape).
 The model estimates named probabilities; the controller is a table with
-memory. Estimate ≠ measure — irreversible milestones concede only to a
+memory. **Setpoint vs estimate:** Jev estimates the process variable;
+policy owns the actuator. **Deadbands / dual thresholds:** separate
+enter vs exit bars so alarms do not flap (ops *and* relationships).
+Estimate ≠ measure — irreversible milestones concede only to a
 probe.
 
 | Domain | Search/control loop | Judgment hole | Exact / probe |
@@ -219,6 +241,9 @@ variable (`judgment-class.md`).
 **Hypothesis** for non-SWE plots; **Empirical** for firehose/moderation
 families in the archive (Near Here / jev-experiments) as a *shape*, not
 as a number to copy. Mapping card: `mappings.md` §7.
+**Alert fatigue:** Score severity, then rate-limit in code. Pure Noul
+gates without a budget destroy recall. Leadership often moves the
+*criterion* while blaming the model — name which one changed.
 
 ## Org and safety (Leveson)
 
@@ -240,6 +265,28 @@ Org placement: cheap judgment over every incident step (OpenSmoke
 shape) so humans only autopsy flags. That is NATM instrumentation of
 the control structure, not a safety case. Mapping card: `mappings.md`
 §8. TOCTOU-of-Noul: `formal-methods.md` §5.
+
+## Mechanism design and operations research
+
+**Lite mechanism design:** Score as a reported belief; without
+incentives, expect gaming. Allocation Choice assigns scarce resources
+(GPU, reviewer time, seats) — strategy-proofness is not free. Separate
+the *value estimate* (judgment) from the *payment/assignment rule*
+(code). Don't let the estimator set both.
+
+**OR:** soft affinity Score + hard feasibility (ILP/heuristic). Soft
+costs cannot violate capacity or legality. Do not replace a VRP solver
+with a Choice. Priority queues: Score urgency; FIFO/fairness in code;
+starvation is a policy bug. Mapping: `mappings.md` §15.
+
+## Epistemology and evidence
+
+Score strength-of-evidence; Noul "is this an RCT?" — ontology errors
+(Kent) dominate. Soft denial ≠ disproof. Citation Nouls check
+*support*, not truth. An empty Choice shortlist is not "no good
+option" (retrieval recall ≠ rerank). Amazon's split still applies
+outside SWE: write "what must go right?" as positive invariants; soft
+brainstorming of failures is incomplete by construction.
 
 ## Crossover metaphors (general design intuition)
 
@@ -268,11 +315,24 @@ shrink execution for irreversible acts. Knowledge in the world (the
 diff, the CRM row, the labeled bins) beats knowledge in the head
 (a paragraph you asked an LLM to "summarize how I should feel").
 
+**Kent — naming is the ontology.** Choice sets and Score rubrics *are*
+the model of the world. Wrong names → proof of the wrong world, in
+business scorecards as in Alloy signatures.
+
+**Shirky — situated.** Dense judgment inside a named group (30 people,
+one product). Do not fake public scale. Mapping: `mappings.md` §16.
+
+**Agans — debugging.** See → stabilize → find evidence → fix → verify.
+Judgment classifies; probes verify. Incidents and personal stuckness
+use the same sequence.
+
 ```text
 NATM      instrument often; adapt the support you actually control
 snap-fit  designed slop only where a miss is reversible
 Norman    evaluate candidates; force the irreversible acts
 Leveson   sense with judgment; constrain with policy
+Kent      naming is the ontology
+Shirky    dense loops only inside a named community
 ```
 
 ## Domain gallery (exposure, not a product catalog)
@@ -297,6 +357,12 @@ Rejected in every domain: replacing the ledger with a vibe; replacing
 the interlock with confidence; replacing the essay with a Noul;
 TOCTOU-of-Noul as authorize; tautological spec + "looks good."
 
+Harm patterns that recur (curriculum §14): laundering estimate as
+measurement; TOCTOU; Score unit fiction; independence fiction;
+threshold cargo-cult; ontology capture (Choice set smuggles the
+conclusion); Goodhart on the judge; coverage theater; scale mismatch
+(Web metrics on situated problems); vacuous assurance.
+
 ## Decision-design extras (any domain)
 
 ```text
@@ -314,5 +380,6 @@ For open-ended requests propose three *placements* (not three vendors).
 If the asker is not writing software, still name the exact work — a
 spreadsheet, a checklist, a two-person rule. Do not invent an API.
 
-Related: `mappings.md`, `methods-catalog.md`, `toolbox-mapping.md`,
-`composition-algebra.md`, `formal-methods.md`, `faq.md`.
+Related: `mappings.md` §1–§16, `methods-catalog.md`, `toolbox-mapping.md`,
+`composition-algebra.md`, `formal-methods.md`, `formal-semi-formal.md`,
+`faq.md`.

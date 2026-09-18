@@ -33,10 +33,13 @@ never launder a Noul as a proof.
   decision objectives, vision scoring, agent-architecture portents
 - `.agents/skills/augustus/references/formal-methods.md` — judgment vs
   proof ownership; Alloy Analyzer vs Apalache (finder ≠ BMC ≠
-  inductiveness); TLA+/Quint/P/NuSMV/PRISM/Event-B;
-  Dafny/JML/Frama-C/SPARK; DST trio (Antithesis hypervisor, Resonate
-  Lean+oracle+SDK, PufferLib env+seed); TOCTOU-of-Noul, soundness
-  theater, AI×FM harms (Hillel vibing specs); NATM/snap-fit/Norman/Leveson
+  inductiveness); TLA+/Quint/P/NuSMV/PRISM/Event-B/mCRL2/KeYmaera;
+  Dafny/JML/Frama-C/SPARK/ITP; DST trio (Antithesis hypervisor, Resonate
+  HQ durable-async Lean+oracle+SDK, PufferLib env+seed); TOCTOU-of-Noul,
+  soundness theater, AI×FM harms (Hillel, Cauli); NATM/snap-fit/Norman/
+  Leveson/Kent/Shirky
+- `.agents/skills/augustus/references/formal-semi-formal.md` — one-screen
+  alias of the FM pillar
 - `.agents/skills/augustus/references/mixed-architecture.md` — default
   placement: judgment-class model + LLM + code; preference lint; provider
   (Jev default / other family with self-eval)
@@ -46,8 +49,7 @@ never launder a Noul as a proof.
   stack replacement, Jev vs open head vs GLiClass vs CLIP, not-another-how-to
 - `.agents/skills/augustus/references/mappings.md` — classical-method
   mappings with boundaries, counterexamples, acceptance tests (including
-  Hypothesis cards for VOI, SDT/ROC, Leveson control structure, and
-  search/control outside SWE — promote only with a test that ran)
+  Hypothesis cards §6–§16 — promote only with a test that ran)
 - `.agents/skills/augustus/references/validation.md` — design gate, eval
   recipes, Jev-for-skills (routing, self-monitoring, testing, modularity,
   frontmatter)

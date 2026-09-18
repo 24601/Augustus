@@ -101,8 +101,10 @@ pillar. Expected utility, abstention, VOI, MCDA, signal detection,
 search/control, and Leveson org/safety are the others
 (`mental-models.md`). Policy (checklist, ledger, two-person rule) is
 the code of a practice that has no repository. Hypothesis cards for
-VOI, ROC, Leveson, and search/control outside SWE:
-`mappings.md` §6–§9 — promote only with an acceptance test that ran.
+VOI, ROC, Leveson, search/control outside SWE, spec pipelines, Alloy
+loops, RV sandwiches, DST triage, durable agents, assignment hybrids,
+and situated density: `mappings.md` §6–§16 — promote only with an
+acceptance test that ran.
 
 ## Alloy Analyzer or Apalache?
 
@@ -118,13 +120,15 @@ counterexamples. Full split: `formal-methods.md` §2.
 
 It is the third member of the DST *trio on this card*, not a fourth
 owner and not Antithesis. Antithesis wraps existing software in a
-deterministic hypervisor. Resonate ships Lean spec + oracle + DST of an
-SDK. PufferLib's world is already a simulator: seeded serial
+deterministic hypervisor. Resonate HQ is **durable async execution**
+(Distributed Async Await) with Lean spec + oracle + DST of an SDK —
+not an unrelated "Resonate AI" brand; promises settle in protocol.
+PufferLib's world is already a simulator: seeded serial
 vectorization and Ocean sanity envs test the *trainer contract*; a seed
 does not make GPU training bitwise deterministic; Ocean scores are not
 a comparative baseline (authors). Judgment may cluster failing
 episodes. It may not vote that the policy is correct.
-`formal-methods.md` §4.
+`formal-methods.md` §4. One-screen: `formal-semi-formal.md`.
 
 ## Can a System One model replace TLA+ / Dafny / DST?
 
@@ -157,5 +161,5 @@ which *pillar* and *family* map, what that does to a control loop, where
 proof/DST still own the claim, and what would prove the design wrong. If
 the request is a curl body or an SDK snippet, stop and load the family's
 own skill/docs (`typesafe-ai` for Jev). If it is "replace TLA+ with Jev",
-load `formal-methods.md`. If it is hiring, inbox, reading list, or org
-safety, load `mental-models.md`.
+load `formal-methods.md` (one-screen: `formal-semi-formal.md`). If it is
+hiring, inbox, reading list, or org safety, load `mental-models.md`.
