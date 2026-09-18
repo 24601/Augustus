@@ -112,6 +112,11 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   (27B dense, AU healthcare residency, prefers "decision models"; still
   no Hub weights). `research/notes.md` §31, §33; `judgment-class.md`
   when-to-use table; FAQ confidence / surfaces questions.
+- Entropy as allocator (**Hypothesis**, `judgment-class.md`): Atallah's
+  low / medium / high buckets place System One on typed decisions and a
+  frontier decoder on high-entropy synthesis — same axis as marginals
+  vs joint and as VOI. "Review this PR" as medium is still partly
+  generative; "first model ever" is a claim. `research/notes.md` §38
 - Marginals, not a probabilistic program (`judgment-class.md`, FAQ):
   Erik Meijer — Jev is a cool API and not a PPL; Kleisli qualifications
   exaggerate; "Jev gives you the marginals; a decoder gives you the

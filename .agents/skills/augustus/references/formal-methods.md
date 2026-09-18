@@ -36,6 +36,11 @@ judgment-class model          →  belief about a given state; never exhaustive
 code / policy / interlock     →  side effects, authorization, stop-criteria
 ```
 
+Low- and medium-entropy decisions are where contracts, property tests,
+and gates attach; high-entropy writing is where specs stay soft —
+Atallah's buckets are product rhetoric, not an entropy meter
+(`judgment-class.md`).
+
 Judgment is a **sensor**. Proof and types are **constraints**. DST is a
 **searchlight**. Code is the **actuator**. A Noul is allowed to inform
 the controller; it is not allowed to *be* the constraint.

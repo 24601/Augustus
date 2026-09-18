@@ -480,4 +480,31 @@ Cross-repo addition: (al) open contrastive recipe as a decision-head
 data pattern beside RLCD; (am) diffusion structured reads as a third
 Jev-shaped compute graph.
 
+## Batch #21 (2026-09-18, Atallah entropy buckets)
+
+Note: `research/notes.md` §38. Card: `judgment-class.md` (entropy as
+allocator, next to marginals; when-to-use pointer). One sentence each
+in `mental-models.md` and `formal-methods.md`. Not a mappings §N. Not
+a Jev how-to.
+
+- **Alex Atallah (claim / rhetoric):** decompose AI tasks into low,
+  medium, and high entropy. Examples: who should review a PR; review
+  the PR; write a PR. He thinks frontier models are needed only for
+  the third.
+  [Buckets](https://x.com/alexatallah/status/2099511056989147147)
+  (2026-09-14). Later post claims Jev is the first model to truly
+  optimize for the first two — a **claim**, not a result.
+  [Quote](https://x.com/alexatallah/status/2100962947711295557)
+  (2026-09-18). fxtwitter 200; x.com 403.
+- **Placement (Hypothesis):** typed low/medium decisions are Meijer's
+  factorized marginals (System One). High-entropy synthesis is the
+  joint a decoder writes. Same axis as VOI / compute. Agent loop: many
+  cheap scorers, rare writes. "Review this PR" as medium is still
+  partly generative — decision-versus-generation cut, not an entropy
+  meter. Charts are the same rhetoric, not a benchmark.
+
+Cross-repo addition: (an) entropy buckets allocate a decision surface
+versus a generator; they do not measure entropy and they do not make
+Jev a probabilistic program.
+
 

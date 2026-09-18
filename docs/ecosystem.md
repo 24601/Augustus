@@ -84,7 +84,10 @@ Choice), `jevprune` (per-line relevance with an always-keep set),
 (AGENTS.md as criteria), `lizard-agent` (no LLM when nothing needs writing),
 `jevql` (judgment as SQL `WHERE`), OpenSmoke (Jev over every step, LLM only
 on flags). Neighbor skills `tenbin` and `decision-first` are *not* Augustus
-clones — they own lint/eval and try-Jev-first habit.
+clones — they own lint/eval and try-Jev-first habit. Entropy allocator
+(**Hypothesis**): cheap typed scorers for low- and medium-entropy
+decisions; a frontier write only for high-entropy synthesis
+(`judgment-class.md`; `research/notes.md` §38).
 
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs

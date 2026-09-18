@@ -288,6 +288,47 @@ contracts (`formal-methods.md`). When you need a fast calibrated factor
 over one typed predicate, reach for System One. That is a placement,
 not a new formal-methods doctrine. A Noul is still not a proof.
 
+## Entropy as allocator (Hypothesis)
+
+Alex Atallah (OpenRouter), 2026-09-14
+([buckets](https://x.com/alexatallah/status/2099511056989147147))
+and 2026-09-18
+([quoting that post](https://x.com/alexatallah/status/2100962947711295557)).
+He tells customers to split AI work into three buckets — low entropy
+(who should review a PR), medium (review the PR), high (write a PR) —
+and that today a frontier model is needed only for the third. The later
+post claims Jev is the first model to truly optimize for the first two.
+Both URLs verified (`notes.md` §38). The priority claim is his, not a
+measurement.
+
+**Place the work, then the surface.** A low- or medium-entropy step
+that is a *typed decision* belongs on System One / Jev-class:
+factorized marginals, the card above. High entropy that must
+*synthesize* a joint — a diff, a paragraph, a plan that was not already
+a candidate — stays on a generative frontier decoder. Same axis as
+Meijer (marginals vs joint; Jev is still not a probabilistic program
+and not Kleisli) and as value of information / compute budget
+(`mental-models.md`): do not buy the joint when a cheap marginal would
+authorize the next act. Then pick a row in the when-to-use table. This
+is not a sixth surface and not an entropy meter.
+
+**Agent loop.** Many cheap low-entropy scorers per turn. A
+high-entropy write is rare, and it sits downstream of those scores.
+Code still fuses the marginals and owns the side effect.
+
+**Caveat (load-bearing).** "Review this PR" as medium entropy is still
+partly generative. Treat Atallah's buckets as product rhetoric that
+needs a decision-versus-generation cut, not a literal entropy meter.
+"First model ever" is a claim, not an Empirical fact.
+
+Contracts, property tests, and gates attach to those low- and
+medium-entropy *decisions*; high-entropy writing is where specs stay
+soft (one sentence in `formal-methods.md`). **Hypothesis** until a
+labeled log shows the cut beats sending every bucket to a frontier
+model on your costs. The examples are rhetoric, not a dataset. Attached
+OpenRouter charts (deterministic / semi-variable / variable) are the
+same rhetoric; they are not a benchmark.
+
 ## Compute graph: readout vs constrained AR vs diffusion reads
 
 [Archer Hume, *Jev's Architecture Unmasked*](https://archerhume.com/posts/jevs-architecture-unmasked/)
@@ -339,6 +380,9 @@ axes; do not start from a logo. Hume prefers the class name **decision
 models** over "system one"
 ([tweet](https://x.com/4rcherhume/status/2100604161821979134)). This
 skill keeps TypeSafe's "System One" when quoting the exemplar.
+Bucket the task first (entropy as allocator, above; **Hypothesis**,
+`notes.md` §38). These rows are typed decisions. High-entropy synthesis
+is the generator, not a sixth surface.
 
 | Surface | Calibration | VOI / gather | Latency / $ | Deployment control | Multimodal | Enum size |
 |---|---|---|---|---|---|---|
@@ -359,8 +403,9 @@ ONNX distill is still categorize / score. Nimble's holdout is not a
 universal ranking. Diffusion beating a decision head is Hypothesis.
 
 Detail: `research/notes.md` §33 (surfaces), §34 (marginals), §35
-(Nimble), §36 (diffusion). FAQ: open weights vs Jev vs TypeAR vs
-encoder vs LoRA; is Jev probabilistic programming?
+(Nimble), §36 (diffusion), §38 (entropy allocator, Hypothesis). FAQ:
+open weights vs Jev vs TypeAR vs encoder vs LoRA; is Jev probabilistic
+programming?
 
 **Diffusion structured reads (third graph).**
 [djev-spark](https://github.com/mmastrac/djev-spark) serves DiffusionGemma

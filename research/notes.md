@@ -1636,3 +1636,46 @@ the whole post): "when they said it was a classification model it
 suddenly all made sense. welcome back ResNet-50." Cultural landing of
 "it's just classification." Not a design card. The FAQ already answers
 that question and was not expanded.
+
+## 38. Alex Atallah — entropy buckets as an allocator (2026-09-18)
+
+Two posts, Alex Atallah (`alexatallah`, OpenRouter CEO). Direct X fetch
+was HTTP 403. Both verified via `api.fxtwitter.com` (`code` 200), and
+the later post's `quote` object is the earlier post.
+
+- [Buckets](https://x.com/alexatallah/status/2099511056989147147)
+  (2026-09-14T14:50:17Z). He tells customers to decompose AI tasks into
+  three buckets: low entropy, example "who should review this PR";
+  medium, example "review this PR"; high, example "write a PR". He
+  thinks today you only need frontier models for the third. Two photos
+  attached (OpenRouter "Log Cost vs Log Usage by Category"). Bands are
+  labeled Deterministic / Semi-variable / Variable. One overlay points
+  programming at code scanning, code review, and code writing. Axis
+  figures and the other category dots were not transcribed. Not a
+  benchmark. Not copied into the card.
+- [Quote](https://x.com/alexatallah/status/2100962947711295557)
+  (2026-09-18T14:59:35Z), quoting the first. Claim, his words in short:
+  Jev by TypeSafe is the first model ever to truly optimize for low-
+  and medium-entropy tasks. **Claim**, not an Empirical fact. No
+  `note_tweet`.
+
+**Design card** (`judgment-class.md`, entropy as allocator;
+when-to-use pointer). Map the work before the model. Typed low- and
+medium-entropy *decisions* → System One / Jev-class, factorized
+marginals (Meijer, §34: not a probabilistic program, not Kleisli).
+High-entropy *synthesis* → a generative frontier decoder, the joint.
+Same axis as VOI / compute budget (`mental-models.md`). Agent loop:
+many cheap low-entropy scorers per turn; a high-entropy write is rare
+and downstream. Code fuses the marginals.
+
+**Caveat (load-bearing).** "Review this PR" as medium entropy is still
+partly generative. Treat Atallah's buckets as product rhetoric that
+needs a decision-versus-generation cut, not a literal entropy meter.
+"First model ever" is a claim, not an Empirical fact.
+
+Formal methods, one sentence: low- and medium-entropy decisions are
+where contracts, property tests, and gates attach; high-entropy
+writing is where specs stay soft. Not a new mappings §N (§19 stays
+Ward). **Hypothesis** until a labeled act/outcome log shows the cut
+beats a frontier model on every bucket, on your costs. No API, port,
+env, or CLI.

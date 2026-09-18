@@ -79,7 +79,10 @@ parallel Nouls into a joint. A Jev-class call is factorized **marginals**
 over isolated questions, not a probabilistic program: the joint lives in
 code, a sequential decode, or a generative decoder, and Kleisli talk is
 the exaggeration ([Meijer, 2026-09-18](https://x.com/headinthebox/status/2100984170004824221);
-`judgment-class.md`).
+`judgment-class.md`). The same split allocates models: typed low- and
+medium-entropy decisions are those marginals, and high-entropy
+synthesis is the joint you pay a decoder to write — Atallah's buckets,
+a **Hypothesis**, not a meter (`judgment-class.md`).
 
 | Domain | Belief | Acts policy owns | Exact work |
 |---|---|---|---|

@@ -271,3 +271,19 @@
 - tenderizzation "welcome back ResNet-50": one sentence, notes.md §37.
   Classification FAQ not expanded.
 - Identity lock holds. No CLI, env, ports, or install in SKILL.md.
+
+## 2026-09-18 17:35 UTC — Atallah entropy buckets
+
+- x.com fetch 403 on both status URLs. `api.fxtwitter.com` code 200
+  for both. Later post quotes the earlier one.
+- 2026-09-14T14:50:17Z: three buckets (who reviews / review / write a
+  PR); frontier models only for the third, his view.
+- 2026-09-18T14:59:35Z: "first model ever" for low- and medium-entropy
+  tasks. Claim, not Empirical.
+- Photos: OpenRouter cost-vs-usage bands (deterministic / semi-variable
+  / variable) and a programming overlay (scan / review / write). Not
+  transcribed as a dataset. Not a benchmark.
+- Card in `judgment-class.md` (composes with Meijer; agent-loop shape;
+  load-bearing caveat). When-to-use pointer only. One mental-models
+  sentence. One formal-methods sentence. No mappings §20. notes.md §38.
+  Hypothesis. No CLI.

@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-18T17:20Z",
+  "retrieved": "2026-09-18T17:35Z",
   "sources": [
     {
       "kind": "docs",
@@ -979,6 +979,18 @@
       "title": "tenderizzation: welcome back ResNet-50",
       "url": "https://x.com/tenderizzation/status/2100766765043343689",
       "note": "2026-09-18T02:00:01Z. Classification framing. Discourse only. notes.md \u00a737."
+    },
+    {
+      "kind": "social",
+      "title": "Alex Atallah: three entropy buckets",
+      "url": "https://x.com/alexatallah/status/2099511056989147147",
+      "note": "2026-09-14T14:50:17Z. Low / medium / high (who reviews, review, write a PR). Frontier only for the third, his view. fxtwitter 200; x.com 403. Photos not a benchmark. notes.md \u00a738."
+    },
+    {
+      "kind": "social",
+      "title": "Alex Atallah: Jev for low- and medium-entropy tasks",
+      "url": "https://x.com/alexatallah/status/2100962947711295557",
+      "note": "2026-09-18T14:59:35Z. Quotes the buckets post. 'First model ever' is a claim, not Empirical. fxtwitter 200. notes.md \u00a738."
     }
   ]
 }
