@@ -205,3 +205,15 @@ not cheaper LLM". No verified independent benchmarks yet.
   abstention, canonical request hashes, confirmatory gate chosen pre-run
   (never report best sweep row).
 - Skill: added references/optimizer-integration.md + index row.
+
+## 10. Toolbox-mapping meta-method added to skill (2026-09-18)
+New references/toolbox-mapping.md: the repeatable procedure for finding
+approaches/applications for an out-of-distribution primitive — inventory a
+classical toolbox family, locate its judgment-shaped component (answer in a
+second, closed answer space, no derivation), substitute Jev, classify the win
+(marginal substitute / newly-feasible via the 100-150x economics / invalid),
+then falsify. Seeded table maps ~11 families to launch-week evidence; the
+economics inversion ("what would I do at $0.0004/100ms per judgment?") is the
+application-finder. Standing rejections recorded so they aren't rediscovered:
+parallel-nouls-as-independent-evidence, Jev-as-p-value, cross-question Score
+comparability, calibration-certifies-individual-answers.

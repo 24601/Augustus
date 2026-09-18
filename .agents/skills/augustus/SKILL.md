@@ -18,6 +18,11 @@ Central model: **evidence → semantic judgments → explicit policy → checked
 action → observed outcome.** Every design must name what Jev estimates, what
 code guarantees, and what experiment could prove the idea wrong.
 
+For genuinely new problem shapes, use the toolbox sweep
+(`references/toolbox-mapping.md`): find the judgment-shaped component of a
+classical method you already trust, substitute it, classify the win
+(marginal / newly-feasible / invalid), and falsify.
+
 ## Protocol
 
 1. Start from the desired behavior: what the software shows, selects,
@@ -45,6 +50,7 @@ code guarantees, and what experiment could prove the idea wrong.
 | Agent self-supervision / on-track detection | Pre-gate → output judge → done-check → supervisor nouls | `references/agent-self-assessment.md` |
 | Context economy / compaction | One relevance Noul per tool result, stub + recall key | `references/agent-self-assessment.md` |
 | Optimizer/program frameworks (Ax, DSPy) | Typed fields → one Jev request; judge metrics; threshold discipline | `references/optimizer-integration.md` |
+| (meta) Finding new mappings & applications | Toolbox sweep: judgment-shaped component of a known method, substituted + falsified | `references/toolbox-mapping.md` |
 | Heuristic search over a taxonomy | Parallel beam over Choice distributions | `references/mappings.md#5-hierarchy--bounded-heuristic-search` |
 
 Each card carries its boundary, counterexample, and acceptance test, plus

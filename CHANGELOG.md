@@ -37,3 +37,9 @@
 - typesafeainate/dspy-typesafeify cloned; official typesafe-ai/skills already
   archived and layered-on (never duplicated).
 - Clone audit: repos.txt deduped (185 unique), 0 missing on disk, no failures.
+
+## 2026-09-18 (pass 5 — toolbox sweep meta-method)
+- New references/toolbox-mapping.md: the how-to-find-approaches-and-
+  applications procedure (judgment-shaped-hole substitution, newly-feasible
+  classification via economics inversion, standing rejections list); wired
+  into SKILL.md central model + index row.
