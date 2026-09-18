@@ -7,9 +7,10 @@ Manual steps (need human accounts/OAuth; everything technical is ready).
 1. Push this repo to GitHub (public).
 2. Set description: "Augustus — design judgment-assisted systems with
    TypeSafe Jev System One models (Choice/Score/Noul). Named for De Morgan."
-3. Set topics: `jev typesafe system-one-models structured-output
-   calibrated-confidence ai-agents agent-skills decision-systems reranking
-   beam-search`
+3. Set topics: `jev typesafe typesafe-ai system-one system-one-models
+   structured-output calibrated-confidence ai-agents agent-skills
+   decision-systems reranking beam-search claude-code python llm
+   decision-theory semantic-search agent-workflows`
 4. Confirm the skills.sh badge resolves once indexed.
 
 ## skills.sh + other directories
@@ -22,14 +23,14 @@ Manual steps (need human accounts/OAuth; everything technical is ready).
 ## Claude (ready — user runs)
 
 ```bash
-claude plugin marketplace add <github-url>
+claude plugin marketplace add 24601/Augustus
 claude plugin install augustus@augustus
 ```
 
 ## Cursor (user runs)
 
 ```bash
-npx skills add <owner>/<repo> --skill augustus
+npx skills add 24601/Augustus --skill augustus
 ```
 
 then select Cursor when prompted. ChatGPT: paste `SKILL.md` + `references/`

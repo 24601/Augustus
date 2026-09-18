@@ -36,14 +36,14 @@ hourly (see `research/README.md`).
 **Claude Code** (plugin marketplace, mirrors the official TypeSafe layout):
 
 ```bash
-claude plugin marketplace add <this-repo-url>
+claude plugin marketplace add 24601/Augustus
 claude plugin install augustus@augustus
 ```
 
 **Any skills-compatible agent** (Amp, Codex, Cursor, …):
 
 ```bash
-npx skills add <owner>/<repo> --skill augustus
+npx skills add 24601/Augustus --skill augustus
 ```
 
 **ChatGPT**: skills are not a native ChatGPT primitive — paste
@@ -52,11 +52,12 @@ GPT's instructions or a Project's knowledge and it will follow the protocol.
 
 **Amp**: repo-local `.agents/skills/` are discovered automatically.
 
-## Suggested GitHub topics
+## GitHub topics
 
-`jev` `typesafe` `system-one-models` `structured-output`
-`calibrated-confidence` `ai-agents` `agent-skills` `decision-systems`
-`reranking` `beam-search`
+`jev` `typesafe` `typesafe-ai` `system-one` `system-one-models`
+`structured-output` `calibrated-confidence` `ai-agents` `agent-skills`
+`decision-systems` `reranking` `beam-search` `claude-code` `python` `llm`
+`decision-theory` `semantic-search` `agent-workflows`
 
 ## Versioning
 
