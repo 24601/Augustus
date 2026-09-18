@@ -118,6 +118,14 @@ selection/auth → control  → fail closed, needs a decision-shaped number
 A listwise reranker plus a decision gate is a valid mixed stack. A
 listwise reranker *as* the gate is the rejected design.
 
+**Empirical recipe (Han Xiao trolley, 2026-09-18).** Wrapping
+[jina-reranker-v3.5](https://x.com/hxiao/status/2100973209114075330) in a
+Jev-style API and asking the trolley problem: it **always pulls the
+lever**, whether one person dies or one billion. Relevancy ≠ decision
+rationality. I/O compatibility ("it returns a Choice") is not an
+objective match. Never treat a listwise retrieval scorer as an
+ethics/value Choice without a policy that is *not* the ranker.
+
 ## Vision scoring patterns
 
 Perception is candidate generation plus scoring — the same keep/drop card

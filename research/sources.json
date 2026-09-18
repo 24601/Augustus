@@ -709,6 +709,24 @@
       "title": "MisbahSy: OCR router 1.74× $",
       "url": "https://x.com/MisbahSy/status/2100979973905592387",
       "note": "Measured 19 docs / 155 pages. doc-router."
+    },
+    {
+      "kind": "social",
+      "title": "Han Xiao: jina-reranker-v3.5 trolley / Jev-style API",
+      "url": "https://x.com/hxiao/status/2100973209114075330",
+      "note": "Always pulls lever, 1 death or 1B. Listwise relevancy ≠ decision rationality. Empirical rejection. notes.md §26."
+    },
+    {
+      "kind": "social",
+      "title": "James Ward: dual Jev/LLM/MCP orchestration",
+      "url": "https://x.com/JamesWard/status/2100976393546772628",
+      "note": "Jev-as-tool vs Jev-as-outer-loop; MCP output schemas for planning. mixed-architecture.md."
+    },
+    {
+      "kind": "repo",
+      "title": "huntedman/JevLint",
+      "url": "https://github.com/huntedman/JevLint",
+      "note": "File-level convention Nouls; write→check→fix; sibling of jev-pref. Independent. notes.md §26."
     }
   ]
 }

@@ -57,6 +57,7 @@ Per-keystroke launchers (104ms median, sequence-tagged staleness), firehose mode
 - **dbreunig/building-with-jev-skill** — doc-grounded question design + symptom→cause→fix diagnosis table (distilled into our `question-design.md`).
 - **ax-llm/ax** — native `typesafe` provider; **typesafeainate/dspy-typesafeify** — DSPy decorator PoC.
 - **riff (scale-venture-partners)** — hybrid static+semantic linter with ruff-style JEV codes and per-finding calibrated p; 14 calls ≈ $0.0004.
+- **huntedman/JevLint** — file-level convention Nouls (magic-strings, descriptive-names); write→check→fix; no line-level/auto-fix. Sibling of jev-pref. Independent. Pointer: `notes.md` §26.
 - **super-jev / probably / jev-search** above — see their cards in `archive/findings.md`.
 
 ### Mixed architecture (2026-09-18T14 discourse + topic:jev)

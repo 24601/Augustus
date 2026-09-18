@@ -293,4 +293,22 @@ allowlist-then-judge.
 Cross-repo addition: (aa) GLiNER locate as a class *peer*; (ab) code
 proves easy cases, model judges leftovers.
 
+## Batch #14 (2026-09-18, trolley / dual orchestration / JevLint)
+
+Same Boise morning. Note: `research/notes.md` §26.
+
+- **Han Xiao trolley (Empirical as a demonstration):** Jev-style API on
+  jina-reranker-v3.5 always pulls the lever, 1 or 1B.
+  [Tweet](https://x.com/hxiao/status/2100973209114075330). Listwise
+  relevancy ≠ decision rationality. Reinforces the standing rejection.
+- **James Ward (Empirical as topologies, Hypothesis as AST planner):**
+  Jev-as-LLM-tool vs Jev-as-outer-loop; MCP output schemas as plan state.
+  [Tweet](https://x.com/JamesWard/status/2100976393546772628).
+- **huntedman/JevLint (Contract from README):** file-level Noul ≥ 0.8;
+  write→check→fix; no line-level/auto-fix. Sibling of jev-pref.
+  Independent. [Source](https://github.com/huntedman/JevLint).
+
+Cross-repo addition: (ac) listwise I/O can *look* like System One and
+still fail the trolley; (ad) two mixed-architecture loops, not one.
+
 

@@ -181,8 +181,10 @@ merge in page order; never drop a page
 ```
 
 **Example (Empirical, this corpus):** `misbahsy/doc-router` — 19 docs /
-155 pages, 155→87 billed, 1.72× wall, **1.74× $**; 9 false-skips vs 28
-for rules-only. **Counterexample:** Jev as the first OCR, so a watermark
-talks a scan into "has text." **Test**: planted scans are sent; planted
-born-digital pages are not billed; page order preserved. Re-measure on
-*your* documents. Same sandwich as jevgate (Proven / Refused / Unknown).
+155 pages, 155→87 billed, 1.72× wall, **1.74× $**; judge is **2.5% of
+the OCR bill it authorises**; 9 false-skips vs 28 for rules-only
+(heuristic cheaper, misses 3× more). **Counterexample:** Jev as the first
+OCR, so a watermark talks a scan into "has text." **Test**: planted scans
+are sent; planted born-digital pages are not billed; page order preserved.
+Re-measure on *your* documents. Same sandwich as jevgate (Proven / Refused /
+Unknown).

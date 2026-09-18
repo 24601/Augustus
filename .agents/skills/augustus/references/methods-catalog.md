@@ -98,6 +98,9 @@ judgment component is new).
 - Tautological / vacuous spec plus "the model said it looks good"
   (Hillel vibing specs; receipt theater).
 - PufferLib Ocean scores as a comparative RL or judgment-class baseline.
+- A listwise / retrieval scorer (jina-reranker-v3.5 trolley: always pull
+  the lever, 1 death or 1B) as an ethics/value Choice. Relevancy ≠
+  decision rationality (`judgment-class.md`).
 
 ## Operators and theorems (third tier)
 

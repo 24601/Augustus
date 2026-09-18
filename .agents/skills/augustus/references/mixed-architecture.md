@@ -213,6 +213,26 @@ Routing ROI does not transfer across datasets (`validation.md`, calibre).
 your data, then route — that measurement loop is the design, not a
 universal gate.
 
+## Dual orchestration (Jev ∩ LLM ∩ MCP)
+
+Two topologies, same ownership split
+([James Ward, 2026-09-18](https://x.com/JamesWard/status/2100976393546772628)):
+
+```text
+A. LLM outer loop; Jev is a *tool* that selects / plans MCP calls
+B. Jev outer loop; LLM is a *tool* that writes
+MCP output schemas are the state a decision model can plan over
+```
+
+**Transfers:** schemas as exact structure; judgment among a closed tool
+catalog; code dispatches. Topology B is mixed architecture with the
+generator as a callee (`applied-mappings.md` §5). Topology A is an LLM
+agent that *asks* a decision model instead of stuffing a system prompt.
+**Does not:** Jev as the planner that invents tools; skipping schemas so
+the model "just knows"; treating a workflow AST as a proof. **Hypothesis**
+as "Jev builds the AST"; **Empirical** as named topologies. Not an MCP
+how-to.
+
 ## Preference lint and gates
 
 Verifier position (`composition-algebra.md` #9) over **rules the project
@@ -248,9 +268,10 @@ Related placements:
 - **Rubric-then-prose review** — `frostney/clean-code-review`: Jev against a
   named rubric (Clean Code), then an LLM writes the review. Mixed
   architecture, not "Jev is the reviewer."
-- **Semantic smell gates** — `Eliran-Turgeman/repear` (silent failures,
-  weakened tests, scope creep); `scale-venture-partners/riff` (static codes
-  + per-finding p). Decompose the opaque "quality" score into named Nouls.
+- **Convention lint (file-level)** — `huntedman/JevLint`: plain-English
+  rules → file-level Noul ≥ 0.8; write→check→fix; no line-level, no
+  generated names, no auto-fix. Sibling of jev-pref. Independent, not
+  TypeSafe. Pointer: `notes.md` §26.
 - **Malicious-before-run** — `luantak/is-malicious`. High-stakes gate:
   fail closed, shadow first, never treat a Jev yes as authorization to
   execute untrusted code. Code still sandboxes.
@@ -267,7 +288,7 @@ decision-design card. Do not clone APIs from READMEs.
 |---|---|---|---|
 | Hold-before-publish moderation | Hazard Nouls + harm Score | Block/review/pass policy | Near Here / firehose family |
 | Tool / engine / skill select | Choice + fits-Noul | Dispatch, auth, reject-all | skillranker, LlamaIndex selectors, Toolrouter |
-| Preference lint | Per-rule Noul/Choice on a diff | Rule text, outcome map | jev-pref |
+| Preference lint | Per-rule Noul/Choice on a diff | Rule text, outcome map | jev-pref, JevLint |
 | Context / log prune | Per-line or per-block relevance | Always-keep set, recall keys | jevprune, winnow |
 | Exact hunk staging | Per-hunk include/exclude/mixed | `git diff`, atomic apply | git-jev-stage |
 | Semantic `WHERE` | Noul/`jev_prob` over a row | SQL, indexes, LIMIT | `kylemclaren/jevql` (CLI rewrites; DB sees ordinary SQL) |

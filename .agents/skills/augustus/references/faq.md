@@ -91,6 +91,11 @@ A listwise reranker *plus* a decision gate is a valid mixed stack. A
 listwise reranker *as* the gate is the rejected design. A GLiNER span
 that *authorizes* an irreversible act is the same rejected design.
 
+**Trolley test (Empirical, Han Xiao 2026-09-18):** a Jev-shaped API on
+jina-reranker-v3.5 always pulls the lever, 1 death or 1B
+([tweet](https://x.com/hxiao/status/2100973209114075330)). Retrieval
+relevance is not decision rationality. Do not ship that as System One.
+
 ## Can I threshold CLIP / SigLIP as a safety gate?
 
 Not without calibration on *your* labels. CLIP-family softmax is

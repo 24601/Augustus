@@ -789,6 +789,52 @@ tutorial.
 HTTP 200 this pass: all seven GitHub URLs, GLiNER arXiv 2311.08526,
 GLiClass 2508.07662, HF `fastino/gliner2.5-base-v1`, four named X posts.
 
+## 26. Same window — trolley, dual orchestration, JevLint (2026-09-18)
+
+Standing-order extras from the same Boise morning. HTTP 200 on named
+posts/READMEs. doc-router already in §25 (add: judge is **2.5% of the OCR
+bill it authorises**; heuristic is cheaper still and misses 3× more).
+
+### Listwise I/O ≠ decision rationality (Han Xiao trolley)
+
+[@hxiao](https://x.com/hxiao/status/2100973209114075330): a Jev-style
+API on **jina-reranker-v3.5** as a "System 1" decision engine. It
+**always pulls the lever** in the trolley problem, whether one person
+dies or one billion. The model was trained to maximize retrieval
+relevance, not decision rationality. I/O works: a listwise reranker can
+be *dropped in* as a "decision maker." That is the rejected design made
+visible. **Empirical recipe** for Augustus: never treat a listwise
+retrieval scorer as an ethics/value Choice without a separate policy.
+No public repo found this pass; cite the tweet. Skill: `judgment-class.md`
+listwise fork; FAQ; mappings §4 / non-negotiable.
+
+### Dual orchestration (James Ward)
+
+[@JamesWard](https://x.com/JamesWard/status/2100976393546772628): two
+topologies, same ownership split:
+
+```text
+A. LLM outer loop; Jev is a *tool* that selects/plans MCP calls
+B. Jev outer loop; LLM is a *tool* that writes
+MCP output schemas are the state Jev can plan over
+```
+
+He then has Jev build a workflow AST. **Hypothesis** as a product
+("Jev is the planner"); **Empirical** as named topologies. MCP schemas
+are exact structure; Jev judges among tools those schemas describe;
+code still dispatches. Do not thin into an MCP how-to. Card:
+`mixed-architecture.md`.
+
+### JevLint — convention lint as write→check→fix
+
+[huntedman/JevLint](https://github.com/huntedman/JevLint) (MIT,
+independent, not TypeSafe): plain-English conventions → file-level Noul
+≥ 0.8 findings. Built-ins: `magic-strings`, `descriptive-names`. Custom
+plugin = a yes/no question. **No** line-level diagnostics, generated
+names, or auto-fixes — the agent/CI owns when to run and how to fix.
+Sibling of `doeixd/jev-pref` (YOU define the rule / Jev classifies /
+code maps outcome). Pointer only; do not copy CLI/env into skill cards.
+
 
 
 

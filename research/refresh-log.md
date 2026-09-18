@@ -170,6 +170,14 @@
   Domain-general mission unchanged. Identity lock holds.
 - notes.md §25; sources.json appended; findings.md batch #13.
 
+## 2026-09-18 16:20 UTC — trolley / dual orchestration / JevLint
+- Han Xiao trolley: jina-reranker-v3.5 Jev-style API always pulls the
+  lever (1 or 1B). Empirical rejection of listwise-as-decide.
+- James Ward: Jev-as-tool vs Jev-as-outer-loop; MCP schemas as state.
+- huntedman/JevLint: file-level convention Nouls; jev-pref sibling.
+  doc-router already in §25 (judge = 2.5% of OCR bill).
+- notes.md §26; no CLI/how-tos. Identity lock holds.
+
 
 
 

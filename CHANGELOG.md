@@ -64,9 +64,10 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   text-layer first, judge leftovers (jevgate / doc-router *shapes*
   Empirical; domain-general reading Hypothesis). FAQ: GLiNER vs Jev,
   LLM-as-judge (Langfuse framing), allowlist-then-judge
-- Hourly 10:07 Boise fold (`research/notes.md` §25): GLiNER2.5 local
+- Hourly 10:07 Boise fold (`research/notes.md` §25–§26): GLiNER2.5 local
   peer; openjev-lm 92.9% / 6 vCPU teacher-distill; jevgate; doc-router
-  1.74× $; pi-jev-context; jevscope next to jevals
+  1.74× $; pi-jev-context; jevscope next to jevals; Han Xiao trolley
+  (listwise ≠ decide); James Ward dual orchestration; JevLint
 - Boundary-audit stop conditions for TOCTOU-of-Noul and vacuous specs;
   FAQ rows for Alloy vs Apalache and PufferLib-as-DST-trio
 - Research pointer to [dayhaysoos/jevals](https://github.com/dayhaysoos/jevals):

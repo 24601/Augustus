@@ -117,6 +117,7 @@ classical method you already trust, substitute it, classify the win
 | Skill / tool routing | Choice over a closed catalog + whether-anything-fits; code dispatches | `references/applied-mappings.md#5-skill--tool-routing` |
 | Expensive observation router | Structural prove (text layer) ∩ remainder Noul (needs OCR?) | `references/applied-mappings.md#6-expensive-observation-router` |
 | Agent preference lint / semantic gates | Project-defined rules as criteria; provider classifies evidence; code maps outcome | `references/mixed-architecture.md#preference-lint-and-gates` |
+| Dual orchestration (Jev ∩ LLM ∩ MCP) | Jev-as-tool vs Jev-as-outer-loop; schemas are exact state | `references/mixed-architecture.md#dual-orchestration-jev--llm--mcp` |
 | "It's just classification" / stack-replacement FAQ | Typed judgment is a software primitive, not a new task; Jev is not the only model | `references/faq.md` |
 | Feature engineering / multi-criteria analysis | Nouls + Score distributions as named features, weights in code | `references/mappings.md#1-semantic-judgments--features-and-explicit-utility` |
 | Selective classification / decision theory | Thresholds from action costs, abstention paths | `references/mappings.md#2-probabilistic-judgments--cost-sensitive-decisions` |
