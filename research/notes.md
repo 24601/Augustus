@@ -190,3 +190,18 @@ not cheaper LLM". No verified independent benchmarks yet.
   decision loop (inspect → evaluate → compose → gate → record → calibrate)
   and an explicit "what Jev is not" list. Already mirrored in skill; new
   only as: record-the-version step belongs in every decision card.
+
+## 9. Optimizer/framework support (2026-09-18)
+- ax-llm/ax: native `ai({name:'typesafe'})` signature adapter (boolean->Noul
+  w/ trueThreshold local policy; class->Choice) + `typesafe().systemOne()`
+  native client. TS-only (AxIR backlog). Adapter fails closed pre-network on
+  optional/array/nested/numeric/freeform outputs; no streaming/temp/samples.
+- DSPy: typesafeainate/dspy-typesafeify — @typesafeify(score_fields=...) reads
+  signature output annotations (bool/Literal/score) and builds a hybrid plan:
+  one Typesafe request for typed fields, generative LM after for freeform.
+  PoC only; optimizer-aware tuning of thresholds NOT built.
+- jev-dspy-lab: the measurement discipline for any such integration —
+  dataset calibration w/ bootstrap CIs, selective-risk sweep, fail-closed
+  abstention, canonical request hashes, confirmatory gate chosen pre-run
+  (never report best sweep row).
+- Skill: added references/optimizer-integration.md + index row.

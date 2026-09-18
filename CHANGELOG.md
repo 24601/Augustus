@@ -29,3 +29,11 @@
   speculative fidelity in types; probes-only concession; measured 24/24 vs
   1/24 greedy); agent-self-assessment.md gains the judge-variance recipe
   (Jev judge 224-279x more consistent than LLM judge over 100 reps).
+
+## 2026-09-18 (pass 4 — optimizers + official skills + clone audit)
+- ax Jev support documented from source (native adapter details, trueThreshold
+  semantics, fail-closed mapping validation); new reference
+  optimizer-integration.md covering Ax + DSPy typesafeify + jev-dspy-lab.
+- typesafeainate/dspy-typesafeify cloned; official typesafe-ai/skills already
+  archived and layered-on (never duplicated).
+- Clone audit: repos.txt deduped (185 unique), 0 missing on disk, no failures.
