@@ -416,5 +416,39 @@ present; not rewritten.
 Cross-repo addition: (ai) safety-schema encoder is a categorize peer,
 not a decide clone.
 
+## Batch #19 (2026-09-18 ~11:02 Boise — decision surfaces / HF / harness)
+
+Note: `research/notes.md` §33. Card: `judgment-class.md` when-to-use
+table. FAQ expanded. No Hub weights under `archerhume` / `4rcherhume`.
+No Jev wrapper.
+
+- **Archer still Watch.** Specs unchanged (Qwen3.8 27B, 265k,
+  multimodal, no audio). New replies: 27B **dense** for one-forward-pass
+  local speed once AR is removed, MoE next then shrink; multimodal base
+  + text PT reportedly generalizes to images; driver is AU healthcare
+  data-residency, not anti-TypeSafe; prefers "decision models" over
+  "system one." Essay unchanged. Expected ~19 Sep Boise from the 18 Sep
+  07:26Z hedge.
+- **When-to-use (five surfaces):** proprietary Jev vs Archer Watch vs
+  TypeAR vs encoder open-jev (DeBERTa-v3-large 434M, public gold, ECE
+  0.022 / OOD 0.690) vs tiny LoRA distill (jev-gate-student-b,
+  148,160-row corpus, yes/no logits). Axes: calibration, VOI, latency/$,
+  deployment control, multimodal, enum size.
+- **HF novel (HTTP 200):** jev-gate-student-b + jev-distill-corpus;
+  jp-sns-jev7-estimator (not calibrated; threat F1@0.5 = 0);
+  open-jev-deberta-v3-large; mini-jev-runs 27.9k (no token generated);
+  jev-tree-choice-cap (truncate 0/90 on tail; keyword also 180/180).
+- **Device / harness:** jev-mobile (Mobile MCP, candidate-only);
+  jev-macos-loop (local perception, text-only Jev); jev-harness
+  (already analyzed; selective abstention); routeKit (Jev estimates
+  requirements, policy selects the model).
+- **HacksonClark SREGym-Lite:** 20/50→24/50, 2 regressions. Jev ranks
+  tests/evidence; does not diagnose. Coppe: keep tests closed; inspect
+  regressions as calibration failures. Blog HTTP 200.
+
+Cross-repo addition: (aj) decision-surface choice is an axis table, not
+a sixth species; (ak) rank-next-test is VOI, not diagnosis.
+
+
 
 

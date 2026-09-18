@@ -205,6 +205,9 @@ Live ecosystem (examples of the *shape*, not SDKs to copy):
   query; fail closed or a declared default.
 - Toolrouter (product, X 2026-09-18) / open JevRouter harnesses — request →
   tool. Treat as **Hypothesis** until you measure on your catalog.
+- `rajdhakad9826/routeKit` — Jev estimates requirements; a deterministic
+  policy picks the model. Jev does not choose the LLM. **Hypothesis**
+  until your catalog (`notes.md` §33).
 - Function-calling cookbook (**Contract**): function *names* and closed-set
   args as questions; code still validates the call.
 
@@ -228,7 +231,8 @@ MCP output schemas are the exact state a decision model judges over
 catalog; code dispatches. Topology B is mixed architecture with the
 generator as a callee (`applied-mappings.md` §5). Topology A is an LLM
 agent that *asks* a decision model instead of stuffing a system prompt.
-**Does not:** the decision model as the planner — neither inventing tools
+SREGym-Lite is topology A: Jev ranks next tests/evidence; the agent
+still runs them and still diagnoses (`notes.md` §33). **Does not:** the decision model as the planner — neither inventing tools
 nor picking its own next tool in a loop (standing red flag, above and in
 `boundary-audit.md`); skipping schemas so the model "just knows";
 treating a workflow AST as a proof. The outer loop stays with the LLM or
@@ -273,7 +277,10 @@ Related placements:
 - **AGENTS.md / project prefs as criteria** — jev-pref; pi-warden rule
   breaks 6→0 on 150 paired runs (`agent-self-assessment.md`).
 - **Confidence gates + shadow mode** — `AntonioCoppe/jev-harness` (48.9s
-  Claude CLI vs 1.3s Jev on a 24-row filter). Log would-do until evals pass.
+  Claude CLI vs 1.3s Jev on a 24-row filter). Log would-do until evals
+  pass. Selective abstention (`mappings.md` §2): low confidence is
+  `review`, not a guess. Coppe on SREGym regressions: inspect whether
+  confidence was high on the wrong Choice (`notes.md` §33).
 - **Hybrid countable + judgment rules** — `DanRWilloughby/snifftest`:
   deterministic tells score 1.00; judgment rules flag only outside the
   unsure band. Explicit: a reading near 0.5 is *no judgment*, never a pass.
@@ -307,23 +314,34 @@ decision-design card. Do not clone APIs from READMEs.
 | Semantic `WHERE` | Noul/`jev_prob` over a row | SQL, indexes, LIMIT | `kylemclaren/jevql` (CLI rewrites; DB sees ordinary SQL) |
 | Home automation read | Choice/Score/Noul as an entity | Automations, device I/O | `AboveColin/HA-Jev` |
 | Browser loop without generation | Action Choice over visible elements | Perception, constraints, click | lizard-agent |
+| Android / macOS computer-use | Choice over prevalidated candidates | UI tree / AX / OmniParser; no generated coordinates | jev-mobile, jev-macos-loop |
+| Model router | Requirement Scores; policy in code | Eligibility, cost/quality/latency objective | routeKit |
 | Analyst attention cascade | Step-level silent-failure Nouls | Grouping, LLM autopsy | OpenSmoke |
 | Formula / query embedding | JUDGE as a function | Spreadsheet/SQL engine | judge-sheets, jevql |
 
-On-device / Home Assistant / mobile remain **thin evidence** this hour (2 X
-samples; `Friedjof/jev-mobile`, HA-Jev). Treat as newly-feasible candidates
-via the economics inversion, not as proven ports.
+On-device / Home Assistant / mobile are newly-feasible via the economics
+inversion, not proven ports of every app. Named placements this hour
+(`notes.md` §33): `Friedjof/jev-mobile` (USB Android, Mobile MCP task
+delegation, Jev sees only prevalidated candidates); `jcpsimmons/jev-macos-loop`
+(local OmniParser/OCR/AX; text-only Jev; pixels stay on the Mac; Finder
+demo independently verified). HA-Jev unchanged. Do not copy env, MCP
+URLs, or install steps.
 
 Reproduce/open heads (`rongxinzy/LightJev`, openjev family,
-[`convaiinnovations/laya`](https://huggingface.co/convaiinnovations/laya))
-are evidence that the *interface* (Choice/Score/Noul, no generation) is the
-transferable part — not a request to implement a backbone or a second API
-skill. Laya: self-hostable, text-only, 512 tokens/question; vendor benches
-vs Jev are **claims**. Closed calibrated API vs open weights is a
-self-eval tradeoff (`research/notes.md` §18). TypeSafe remains the
-documented *exemplar*, not the class monopoly. GLiNER (locate) /
-GLiClass (categorize) / GLiNER2.5 (local multi-head), listwise, and
-vision families: `judgment-class.md`.
+[`convaiinnovations/laya`](https://huggingface.co/convaiinnovations/laya),
+encoder [`open-jev-deberta-v3-large`](https://huggingface.co/com-kotobalabs/open-jev-deberta-v3-large),
+LoRA [`jev-gate-student-b`](https://huggingface.co/SargeDev/jev-gate-student-b))
+are evidence that the *interface* (Choice/Score/Noul, or yes/no logits
+as P(relevant)) is the transferable part — not a request to implement a
+backbone or a second API skill. Laya: self-hostable, text-only, 512
+tokens/question; vendor benches vs Jev are **claims**. Encoder open-jev:
+public gold, OOD drop. LoRA student: teacher-copy. Hume's 27B
+decision-model drop is **Watch**. Closed calibrated API vs open weights
+is a self-eval tradeoff (`research/notes.md` §18, §33). When-to-use
+axes: `judgment-class.md`. TypeSafe remains the documented *exemplar*,
+not the class monopoly. GLiNER (locate) / GLiClass (categorize) /
+GLiNER2.5 (local multi-head), listwise, and vision families:
+`judgment-class.md`.
 
 ## Design-card extras for mixed systems
 

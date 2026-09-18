@@ -35,9 +35,10 @@ taxonomy with enough of *your* data (XGBoost still wins there —
 
 | Family | What it optimizes | Typical output | Use when | Watch |
 |---|---|---|---|---|
-| **Closed decision API** (TypeSafe Jev) | Calibrated decision (proper-scoring / RLCD lineage) | Choice / Score / Noul + distributions | Default when you need act/abstain, fan-out, documented envelope | Cloud, pin version, re-measure on your data |
-| **Open System-1 head** (Laya, openjev, LightJev, openjev-lm) | Same *shape* as Jev, you host it | Same primitives or logits-as-options | Air-gap, $0/token, inspectable weights | Self-eval duty; Laya text-only, 512 tok; vendor vs-Jev tables are claims (`notes.md` §18). A distill learns the *teacher's* answers: openjev-lm's 92.9% is against 70 hand-labelled rows — one annotator, one domain, one seed — and its 98.1% on fresh rows is teacher *agreement*, not gold (`notes.md` §25) |
-| **Constrained-AR surface** (TypeAR; not a species) | Next-token constraint on a pretrained generator | Distribution over allowed values | Typed fields without retraining; later fields must see earlier answers | Different objective from a proper-scoring head. Enum cap and no abstention. Compute-graph card below (`notes.md` §31, §32) |
+| **Closed decision API** (TypeSafe Jev) | Calibrated decision (proper-scoring / RLCD lineage) | Choice / Score / Noul + distributions | Default when you need act/abstain, fan-out, documented envelope | Cloud, pin version, re-measure on your data. AU health data-residency is a reason *not* to pick this family (`notes.md` §33) |
+| **Open System-1 / decision-model head** (Laya, openjev, LightJev, openjev-lm, Hume **Watch**) | Same *shape* as Jev, you host it | Same primitives or logits-as-options | Air-gap, $0/token, inspectable weights, deployment control | Self-eval duty; Laya text-only, 512 tok; vendor vs-Jev tables are claims (`notes.md` §18). A distill learns the *teacher's* answers: openjev-lm and jev-gate-student-b (`notes.md` §25, §33). Hume's 27B dense drop is **Watch**, not a Hub checkpoint. He prefers the class name **decision models** over "system one" |
+| **Encoder open-jev** (DeBERTa-v3-large) | Same *shape*, bidirectional encoder, public gold (not a Jev teacher) | Choice / Score / Noul from one pass | Self-host decide without a decoder; 512 tok | In-domain ECE 0.022; OOD acc 0.854→0.690. English / three public domains. `notes.md` §33 |
+| **Constrained-AR surface** (TypeAR; not a species) | Next-token constraint on a pretrained generator | Distribution over allowed values | Typed fields without retraining; later fields must see earlier answers | Different objective from a proper-scoring head. Enum cap and no abstention. Compute-graph card below (`notes.md` §31, §32). Public logit dump: mini-jev-runs |
 | **GLi\* encoder family** (GLiNER locate / GLiClass categorize / GLiNER2.5 local multi-head / GLiGuard safety schema) | One-pass labels-in-encoder; spans, sequence labels, a safety schema, or both | Spans + types; per-label sigmoid/softmax; optional relations/records | Laptop/local; large or changing label sets; "what's *in* the text" vs "what *is* the text" vs "which safety labels fire" | Affinities are not automatically a gateable P(permit). GLiGuard is not a Jev weight clone. Species map below. Not a Jev how-to and not a GLiNER or GLiGuard install |
 | **Listwise / pairwise discriminative ranker** | Order of a list (nDCG, softmax-over-list) | Relevance scores, not P(relevant) | Rerank a retrieved shortlist | Translation-invariant listwise losses are **not** calibrated for thresholds ([listwise vs pointwise](https://doi.org/10.48550/arxiv.2208.06164); [RCR](https://arxiv.org/html/2211.01494v2)). Fail **open** (keep retrieval order) |
 | **Vision scorer** | Image–text affinity or region Choice | Cosine/sigmoid affinity, or a closed region/label pick | Perception as classification over *candidates you extracted* | CLIP softmax = competition in the offered set; SigLIP sigmoid = pairwise affinity, not class-conditional p ([SigLIP](https://huggingface.co/docs/transformers/v4.39.2/en/model_doc/siglip)). Not a VLM captioner |
@@ -75,9 +76,11 @@ perceive    CLIP / SigLIP / region Choice  score candidates you extracted
   Use cost claim is a tweet, not a re-run (`notes.md` §25).
 - **Decide.** Typed Choice/Score/Noul with a decision/proper-scoring
   objective. That is Jev's product claim. Open heads copy the *shape*;
-  distillation copies the *teacher* (openjev-lm). A constrained
-  autoregressive decode can emit a label and still not be this
-  species — compute-graph card below.
+  distillation copies the *teacher* (openjev-lm, jev-gate-student-b).
+  Encoder open-jev (DeBERTa) copies the shape on public gold and still
+  owes OOD self-eval. A constrained autoregressive decode can emit a
+  label and still not be this species — compute-graph card below.
+  Hume's announced 27B dense drop is Watch.
 - **Categorize (safety schema).** [GLiGuard](https://github.com/fastino-ai/GLiGuard)
   ([arXiv 2605.07982](https://arxiv.org/abs/2605.07982); Zaratiana,
   Newhauser, Hurn-Maloney, Lewis, Fastino): a GLiNER2 encoder that
@@ -226,14 +229,22 @@ capability shift, independent of vendor:
    something must be typed.
 5. **Open heads and GLi\* make the control plane local.** Air-gap /
    on-device / laptop (GLiNER2.5 74M–287M CPU-first; openjev-lm 0.5B
-   LoRA overnight on 6 vCPU) become newly feasible *if* you accept
-   self-eval and envelope limits. They do not make calibration optional.
-   Distilling a hosted teacher is not independent gold.
-6. **Cross-modal is still thin.** Discourse, GLiNER/GLiClass, and Laya
-   are text-first. Vision is a scoring pattern (above), not a shipped
-   omni decision API. Treat "Jev but for images" as a hole to fill with
-   the vision-scorer family, not as a slogan. Locate (spans on a
-   screenshot OCR) is still locate, not perceive.
+   LoRA overnight on 6 vCPU; encoder open-jev DeBERTa-v3-large 434M;
+   jev-gate-student-b 0.5B LoRA memory gate) become newly feasible *if*
+   you accept self-eval and envelope limits. They do not make
+   calibration optional. Distilling a hosted teacher is not independent
+   gold. Hume's 27B dense drop is the large-local Watch, not a third
+   how-to.
+6. **Cross-modal is still thin.** Discourse, GLiNER/GLiClass, Laya, and
+   the encoder open-jev are text-first. Vision is a scoring pattern
+   (above), not a shipped omni decision API. Hume reports that a
+   multimodal *base* plus text post-training generalizes to images with
+   little intentional multimodal training — a Watch claim, not a
+   recipe (`notes.md` §33). Treat "Jev but for images" as a hole to fill
+   with the vision-scorer family or with that drop *when it ships*.
+   Locate (spans on a screenshot OCR) is still locate, not perceive.
+   Pixel-free computer-use (jev-macos-loop, jev-mobile) keeps pixels on
+   the device and sends text-only decisions.
 7. **The agent that only has a generator is incomplete.** The missing
    organ is a judgment-class model plus policy in code — not another
    prompt. The agent that only has a ranker is also incomplete: it can
@@ -275,9 +286,35 @@ how-to.
 
 | Need | Place | Do not |
 |---|---|---|
-| Calibrated p(y\|x) over a closed set | Trained decision-only head (Jev, or an open head you have proper-scored and measured on your labels) | Threshold a generated "90%", or an affinity you have not calibrated |
+| Calibrated p(y\|x) over a closed set | Trained decision-only head (Jev, or an open head you have proper-scored and measured on your labels) | Threshold a generated "90%", an affinity you have not calibrated, TypeAR constrained scores, or a LoRA student's agreement with the teacher |
 | Dependent sequential decisions | Constrained AR that conditions later steps on earlier answers (TypeAR sequential), or code-owned transitions and a new request per stage | Treat sibling questions on one request as if they attend each other |
-| Open multimodal self-host | Hume's announced drop **when it ships** (18 Sep tweet: Qwen3.8 27b-based, 265k, multimodal, no audio; "seemingly quantises pretty well") | Ship on "smarter than Jev." That is his early claim, against his own order-sensitivity and in-distribution calibration warnings. **WATCH.** Laya remains text-only. jev-visual is region Choice, not this drop |
+| Open multimodal self-host / data-residency | Hume's announced **decision-model** drop **when it ships** (Qwen3.8 27B **dense**, 265k, multimodal, no audio; one forward pass locally once AR is removed; MoE next then shrink). Driver: healthcare AU residency, not anti-TypeSafe | Ship on "smarter than Jev." That is his early claim, against his own order-sensitivity and in-distribution calibration warnings. **WATCH** — no Hub weights this pass. Laya remains text-only. jev-visual is region Choice, not this drop |
+
+### When to use which decision surface
+
+Five *surfaces*, not five species. Pick from the hole and these axes;
+do not start from a logo. Hume prefers the class name **decision
+models** over "system one"
+([tweet](https://x.com/4rcherhume/status/2100604161821979134)). This
+skill keeps TypeSafe's "System One" when quoting the exemplar.
+
+| Surface | Calibration | VOI / gather | Latency / $ | Deployment control | Multimodal | Enum size |
+|---|---|---|---|---|---|---|
+| **Proprietary Jev** | Decision objective; in-dist ECE 0.0313, OOD collapse (`notes.md` §7). Choice `confidence` is arithmetic on the distribution (§31) | Independent questions cheap; sequential gather is a new request | Cloud envelope; ~$0.042/MTok input | No weights. AU health data cannot ride this API if residency forbids it | Text. jev-visual is region Choice | ≤255 Choice |
+| **Archer open decision-model** | **Watch.** No Hub weights this pass. "Smarter than Jev" is a claim against *his* calibration/order warnings | Same *hole* as Jev when it ships | 27B dense for one-forward-pass local speed once AR is removed; MoE next, then shrink. Quant-friendly is a claim | Healthcare AU data-residency / deployment control, **not** anti-TypeSafe | Multimodal, no audio. Text post-training reportedly generalizes to images with little intentional multimodal training | Unknown until the drop |
+| **TypeAR** (constrained AR; README names SGLang) | Next-token constraint ≠ Noul. No abstention primitive. Public logit dump: [`Mikhail/mini-jev-runs`](https://huggingface.co/datasets/Mikhail/mini-jev-runs) (27.9k; scores "deliberately *not* calibrated") | Sequential mode conditions later fields; that is not gather-as-act | 5.8× is *their* K=16 boolean example | Self-host the generator | Whatever the base model has | Enums ≤16 |
+| **Encoder open-jev** (DeBERTa-v3-large 434M) | Public gold, CE+Brier, val temperature. In-domain ECE 0.022 / acc 0.854; OOD acc 0.690 / ECE 0.035. **Not** a Jev teacher-copy | One pass over state + all questions; 512 tok | Author: 28 ms / 10 questions H100; 1.8 s / 4q M1 Max CPU | apache-2.0, self-host | Text | Jev-shaped 255 / Score 2–10 / Noul; 512 ctx |
+| **Tiny LoRA distill** (jev-gate-student-b) | Teacher-copy. P(relevant) from yes/no logits. Held-out n=60 vs vanilla 0.5B; 148,160-row corpus | Memory-gating / context sieve; **fail-open** on errors | Qwen2.5-0.5B LoRA; ~59 ms RTX 3060 | Local, apache-2.0 | Text | Binary relevance |
+
+Reject: TypeAR scores as fail-closed P(permit); a LoRA student's
+agreement with Jev as independent gold; shipping on "smarter than Jev";
+thresholding [`jp-sns-jev7-estimator`](https://huggingface.co/kokuren/jp-sns-jev7-estimator)
+teacher scores as P(toxic) — the card says they are **not** calibrated,
+and `threat` F1@0.5 is 0.0000 on their table (`notes.md` §33). Domain-local
+ONNX distill is still categorize / score.
+
+Detail: `research/notes.md` §33. FAQ: open weights vs Jev vs TypeAR vs
+encoder vs LoRA.
 
 ### Constrained-AR surface (not `decide`)
 
@@ -313,7 +350,11 @@ Do not copy the hook install.
 **Hypothesis, not a stack.** TypeAR's example names the same Qwen3.8-27B
 family as Hume's announced weights. Running that surface on those
 weights versus stock Qwen is a composition to test after the weights
-exist. Until then, **Watch** (`notes.md` §31, §32).
+exist. Until then, **Watch** (`notes.md` §31, §32, §33).
+[`Mikhail/mini-jev-runs`](https://huggingface.co/datasets/Mikhail/mini-jev-runs)
+is the public read-the-letter logit dump (frozen Qwen3-4B, 27.9k
+decisions, no token generated) for calibration / gap-abstention /
+rotated-option tests — not a TypeAR how-to and not a Noul.
 
 Option order and an irrelevant extra option are properties to test, not
 a proof (`formal-methods.md`).

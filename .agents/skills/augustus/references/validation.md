@@ -18,6 +18,9 @@ Candidate removal (drop the winner — does probability spread sensibly?);
 option-order shuffle; **irrelevant-option / IIA** (append an option that
 should not move odds among the rest — Hume's reconstruction,
 `research/notes.md` §31, not a new invariance the API promises);
+public cousin for the read-the-letter graph:
+[`Mikhail/mini-jev-runs`](https://huggingface.co/datasets/Mikhail/mini-jev-runs)
+`read_letters_rotated_options` (scores not calibrated; `notes.md` §33);
 **paraphrase pairs** (semantically equivalent
 wording — does p swing enough to change the *act*? `mappings.md` §17);
 irrelevant distractor injection in state; no-match and

@@ -29,9 +29,11 @@ never launder a Noul as a proof.
   frames (EU, abstention, VOI, MCDA, SDT, search/control, Leveson,
   NATM/snap-fit/Norman); not SWE-only
 - `.agents/skills/augustus/references/judgment-class.md` — the class (Jev
-  exemplar, not monopoly): open heads, GLiNER/GLiClass species
-  (locate vs categorize vs local multi-head), listwise vs
-  decision objectives, vision scoring, agent-architecture portents
+  exemplar, not monopoly): open heads (Laya, encoder DeBERTa, LoRA
+  distill), constrained-AR (TypeAR), announced decision-model (Watch),
+  GLiNER/GLiClass species (locate vs categorize vs local multi-head),
+  listwise vs decision objectives, vision scoring, when-to-use axes,
+  agent-architecture portents
 - `.agents/skills/augustus/references/formal-methods.md` — judgment vs
   proof ownership; Alloy Analyzer vs Apalache (finder ≠ BMC ≠
   inductiveness); TLA+/Quint/P/NuSMV/PRISM/Event-B/mCRL2/KeYmaera;
@@ -47,7 +49,8 @@ never launder a Noul as a proof.
 - `.agents/skills/augustus/references/applied-mappings.md` — context sieve,
   exact-text keep/drop, env triage, moderation/ranking, skill routing
 - `.agents/skills/augustus/references/faq.md` — "just classification",
-  stack replacement, Jev vs open head vs GLiNER vs GLiClass vs CLIP, LLM-as-judge, not-another-how-to
+  stack replacement, Jev vs open head vs encoder vs LoRA vs constrained AR,
+  GLiNER vs GLiClass vs CLIP, LLM-as-judge, not-another-how-to
 - `.agents/skills/augustus/references/mappings.md` — classical-method
   mappings with boundaries, counterexamples, acceptance tests (including
   Hypothesis cards §6–§19 — promote only with a test that ran)

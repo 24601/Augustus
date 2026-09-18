@@ -48,8 +48,10 @@ disk. A proprietary decision API does not hand you that artifact;
 probes stay black-box. Either result is still a sensor: a boundary
 that moved is evidence about the model, not a discharged proof
 obligation. An announced open-weight drop is **Watch**, not a shipped
-checker (`research/notes.md` §31, §32; placement card in
-`judgment-class.md`).
+checker (`research/notes.md` §31, §32, §33; placement card in
+`judgment-class.md`). Hume's driver is healthcare AU data-residency /
+deployment control, not a feud with TypeSafe. Holding those weights,
+when they exist, still does not discharge a proof.
 
 Existing grammar: composition-algebra position 9 (verifier) — verdicts
 are evidence, not enforcement. Position 3 (gate) — a filter is not
@@ -188,7 +190,10 @@ One decision surface, not proofs. Property-test them: shuffle option
 order; append an option the policy should ignore and check that odds
 among the originals do not move enough to change the act (Hume's
 `jev-1.13.0` probes — reconstruction, `notes.md` §31, not a new
-invariance contract). A passing suite is coverage of those generators.
+invariance contract). A public logit dump for the *read-the-letter*
+cousin is [`Mikhail/mini-jev-runs`](https://huggingface.co/datasets/Mikhail/mini-jev-runs)
+(rotated-options split; scores not calibrated — `notes.md` §33). A
+passing suite is coverage of those generators.
 A Noul is still not a proof that the property holds, and a clean PBT run
 is not one either.
 

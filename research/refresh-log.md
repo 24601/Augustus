@@ -234,3 +234,18 @@
 - notes.md §32; judgment-class card; one FAQ row; one formal-methods
   paragraph. No serving-stack snippets in skill cards.
 
+## 2026-09-18 17:02 UTC — ~11:02 Boise hourly fold
+
+- America/Boise ~11:02. Docs-only. Archer drop still **WATCH** (Hub
+  authors `archerhume` / `4rcherhume` empty). HTTP 200 on cited HF
+  cards, GitHub READMEs, essay, X URLs, SREGym blog.
+- Archer clarifications folded (dense 27B one-forward-pass; multimodal
+  generalization report; AU healthcare residency; "decision models"
+  name). When-to-use table in `judgment-class.md`.
+- HF: jev-gate-student-b (148,160-row corpus), jp-sns-jev7-estimator,
+  open-jev-deberta-v3-large, mini-jev-runs 27.9k, jev-tree-choice-cap.
+- Device/harness: jev-mobile, jev-macos-loop, jev-harness (existing),
+  routeKit. HacksonClark SREGym-Lite 20/50→24/50; Coppe placement
+  sentence. No wrapper, no install copy.
+- notes.md §33; sources.json; findings.md batch #19.
+

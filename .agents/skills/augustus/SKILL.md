@@ -1,6 +1,6 @@
 ---
 name: augustus
-description: "Use when placing typed probabilistic judgment (Jev-class System One models) with mathematical, logical, or algorithmic mental models — in AI, software, business, knowledge work, or life, not only SWE; deciding where a fast cheap categorization/classification/scoring model belongs versus generation, exact policy/code, or proof; applying expected utility, selective classification/abstention, calibration, cost-sensitive thresholds, value of information, MCDA, signal detection, search/control substitutions, or Leveson-style org/safety; using NATM/snap-fit/Norman as design intuition; designing mixed architecture (decision model + LLM writing); auditing an existing system, PR, workflow, or non-software practice for judgment-shaped holes and code smells; debugging a question that hovers near 0.5, clusters mid-scale, or hides two judgments; placing agent self-supervision gates (pre-action, output judge, done-check, stuck-detector, context sieve); coupling a typed judge as an optimizer metric (Ax, DSPy); choosing among TypeSafe Jev, open heads (Laya, openjev-lm), GLiNER/GLiClass/GLiGuard encoder family (locate vs categorize vs safety-schema classify vs local multi-head), listwise rankers, or vision scorers; placing judgment beside TLA+/Alloy/Apalache/Dafny/DST (Antithesis, Resonate, PufferLib) without laundering a Noul as a proof; answering \"it's just classification\", \"is this only for software?\", Alloy vs Apalache, GLiNER vs Jev, \"is GLiGuard Jev?\", LLM-as-judge, paraphrase brittleness, allowlist then judge, TOCTOU-of-Noul, vacuous specs, open weights vs constrained decoding, or \"formally verify with Jev\" with a placement, not a stack replacement or a vendor how-to. Formal methods are one pillar. Not a substitute for the official typesafe-ai skill (live Jev API contracts)."
+description: "Use when placing typed probabilistic judgment (Jev-class System One / decision models) with mathematical, logical, or algorithmic mental models — in AI, software, business, knowledge work, or life, not only SWE; deciding where a fast cheap categorization/classification/scoring model belongs versus generation, exact policy/code, or proof; applying expected utility, selective classification/abstention, calibration, cost-sensitive thresholds, value of information, MCDA, signal detection, search/control substitutions, or Leveson-style org/safety; using NATM/snap-fit/Norman as design intuition; designing mixed architecture (decision model + LLM writing); auditing an existing system, PR, workflow, or non-software practice for judgment-shaped holes and code smells; debugging a question that hovers near 0.5, clusters mid-scale, or hides two judgments; placing agent self-supervision gates (pre-action, output judge, done-check, stuck-detector, context sieve); coupling a typed judge as an optimizer metric (Ax, DSPy); choosing among TypeSafe Jev, open heads (Laya, openjev-lm, encoder DeBERTa, LoRA distill), announced open decision-model (Watch), constrained-AR (TypeAR), GLiNER/GLiClass/GLiGuard encoder family (locate vs categorize vs safety-schema classify vs local multi-head), listwise rankers, or vision scorers; placing judgment beside TLA+/Alloy/Apalache/Dafny/DST (Antithesis, Resonate, PufferLib) without laundering a Noul as a proof; answering \"it's just classification\", \"is this only for software?\", Alloy vs Apalache, GLiNER vs Jev, \"is GLiGuard Jev?\", LLM-as-judge, paraphrase brittleness, allowlist then judge, TOCTOU-of-Noul, vacuous specs, open weights vs constrained decoding vs encoder vs LoRA, or \"formally verify with Jev\" with a placement, not a stack replacement or a vendor how-to. Formal methods are one pillar. Not a substitute for the official typesafe-ai skill (live Jev API contracts)."
 license: MIT
 metadata:
   version: 0.3.0
@@ -12,7 +12,7 @@ metadata:
 # Augustus
 
 Design-judgment skill for **placing typed probabilistic judgment** (the
-Jev-class of System One models) using mathematical, logical, and
+Jev-class of System One / decision models) using mathematical, logical, and
 algorithmic mental models — across **AI, software, business, knowledge
 work, and life**. Not limited to software engineering. Formal methods
 are one pillar (`references/formal-methods.md`); the portable frames
@@ -108,8 +108,8 @@ classical method you already trust, substitute it, classify the win
 | Familiar method | Judgment shape | Detail |
 |---|---|---|
 | Mental models across domains (not SWE-only) | EU, abstention, VOI, MCDA, SDT, search/control, Leveson, NATM/Norman/snap-fit | `references/mental-models.md` |
-| Judgment-model class (Jev is exemplar, not monopoly) | Species: decide / locate (GLiNER) / categorize (GLiClass) / rank / perceive; open heads include openjev-lm | `references/judgment-class.md` |
-| Open weights vs constrained decoding vs proprietary API | Trained decision head ≠ next-token constraint; announced open weights are Watch | `references/judgment-class.md` |
+| Judgment-model class (Jev is exemplar, not monopoly) | Species: decide / locate (GLiNER) / categorize (GLiClass) / rank / perceive; open heads include encoder DeBERTa, LoRA distill, openjev-lm | `references/judgment-class.md` |
+| Open weights vs constrained decoding vs proprietary API | Trained decision head ≠ next-token constraint; encoder open-jev and LoRA distill are different self-eval duties; announced 27B decision-model is Watch | `references/judgment-class.md` (when-to-use table) |
 | Formal / semi-formal (proof vs judgment) | Sensor vs constraint vs searchlight; Alloy vs Apalache; DST trio; TOCTOU-of-Noul, AI×FM | `references/formal-methods.md` (one-screen: `references/formal-semi-formal.md`) |
 | Mixed architecture (judgment model + LLM) | Provider judges, LLM writes, code owns control; not a stack replacement | `references/mixed-architecture.md` |
 | Context sieve | Relevance Noul per block; always-keep set in code; stub + recall key | `references/applied-mappings.md#1-context-sieve` |
@@ -196,7 +196,7 @@ Desired behavior and non-judgment baseline:
 Semantic judgment(s) and what each output means:
 Pillar (EU / VOI / MCDA / SDT / search / safety / formal):
 Hole (sieve / keep-drop / triage / rank / route / gate / perceive / abstain / gather):
-Family (closed decision API / open head / constrained-AR surface / GLiNER locate / GLiClass categorize / listwise ranker / vision scorer):
+Family (closed decision API / open head / encoder open-jev / constrained-AR surface / GLiNER locate / GLiClass categorize / listwise ranker / vision scorer):
 Evidence/candidate source and known coverage gaps:
 Deterministic policy, constraints, and action ownership:
 Batchable vs genuinely dependent steps:

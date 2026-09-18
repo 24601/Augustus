@@ -77,6 +77,15 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   TypeAR puts a typed interface on a pretrained generator (next-token
   constraint ≠ proper-scoring head). Archer Hume's open-weight drop
   stays **Watch** (`research/notes.md` §31, §32)
+- Hourly ~11:02 Boise fold (`research/notes.md` §33): Archer
+  clarifications still Watch (27B dense one-forward-pass, multimodal
+  generalization report, AU healthcare residency not anti-TypeSafe,
+  prefers "decision models"); when-to-use table (proprietary Jev vs
+  Archer vs TypeAR vs encoder DeBERTa vs LoRA distill); HF novel
+  (jev-gate-student-b 148k corpus, jp-sns-jev7 ONNX, open-jev-deberta,
+  mini-jev-runs 27.9k logits, jev-tree-choice-cap); device/harness
+  (jev-mobile MCP, jev-macos-loop, jev-harness, routeKit); HacksonClark
+  SREGym-Lite 20/50→24/50 — rank tests, do not diagnose
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard
@@ -99,8 +108,10 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   probes of `jev-1.13.0`): direct readout vs generated confidence,
   isolated questions, listwise IIA and order sensitivity, confidence as
   arithmetic on the distribution. Independent envelope probe; does not
-  override live TypeSafe docs. Announced open-weight drop is **WATCH**.
-  `research/notes.md` §31; `judgment-class.md`; FAQ confidence question.
+  override live TypeSafe docs. Announced open-weight drop is **WATCH**
+  (27B dense, AU healthcare residency, prefers "decision models"; still
+  no Hub weights). `research/notes.md` §31, §33; `judgment-class.md`
+  when-to-use table; FAQ confidence / surfaces questions.
 
 ### Changed
 

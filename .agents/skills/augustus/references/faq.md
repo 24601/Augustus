@@ -44,10 +44,12 @@ needs a paragraph, the generator re-enters.
 No. Augustus designs for the whole class of fast/cheap
 categorization-classification-scoring models. TypeSafe Jev is the
 documented exemplar (typed Choice / Score / Noul, live docs). Neighbors
-in the class — open System-1 heads (Laya, openjev-lm), GLiNER/GLiClass
-encoder family (locate vs categorize vs local multi-head), listwise/pairwise
-rankers, vision scorers — are substitutes or cousins. Pick the family
-from the hole, then the vendor (`judgment-class.md` species map).
+in the class — open System-1 / decision-model heads (Laya, openjev-lm,
+encoder DeBERTa, LoRA distill; Hume's 27B drop is Watch), constrained-AR
+(TypeAR), GLiNER/GLiClass encoder family (locate vs categorize vs local
+multi-head), listwise/pairwise rankers, vision scorers — are substitutes
+or cousins. Pick the family from the hole, then the vendor
+(`judgment-class.md` species map and when-to-use table).
 `typesafe-ai` still owns *Jev* contracts; other families own their own
 cards/READMEs. This skill does not become their install guide.
 
@@ -67,20 +69,30 @@ on fresh rows measures *agreement with the teacher*, not gold. Self-eval
 on your own independent labels before you treat it as a decision API
 (`notes.md` §25).
 
-## Open weights vs Jev vs constrained decoding?
+## Open weights vs Jev vs constrained decoding vs encoder vs LoRA?
 
-Three surfaces, not one family (`judgment-class.md`). Proprietary Jev
-is the documented decision API; you do not hold the weights, so checks
-around the boundary stay black-box (`formal-methods.md`). A trained
-decision-only open head (Laya, openjev-lm) copies the Choice / Score /
-Noul shape and moves eval onto you. Constrained autoregressive decoding
-masks a pretrained generator so the next token stays in a declared set
-— a different objective from a proper-scoring head, so do not threshold
-that distribution as a Noul. A short enum and a missing abstain option
-are brittleness; compose with abstention and an allowlist gate
-(`mappings.md` §2, §17, §18). Hume's announced open-weight model is
-**Watch** until weights, license, and evals exist (`notes.md` §31). Constrained decoding is §32.
-"Smarter than Jev" is a claim.
+Five surfaces, not one family (`judgment-class.md` when-to-use table).
+Proprietary Jev is the documented decision API; you do not hold the
+weights, so checks around the boundary stay black-box
+(`formal-methods.md`). A trained decision-only open head (Laya,
+openjev-lm, encoder DeBERTa, a LoRA student) copies the Choice / Score /
+Noul *shape* and moves eval onto you. Distills trained on Jev's
+*answers* (openjev-lm, jev-gate-student-b) are teacher-copies — read
+agreement separately from gold. Encoder open-jev
+([DeBERTa-v3-large](https://huggingface.co/com-kotobalabs/open-jev-deberta-v3-large))
+was trained on public gold, not Jev; in-domain ECE 0.022, OOD acc
+0.854→0.690. Constrained autoregressive decoding (TypeAR; README names
+SGLang) masks a pretrained generator so the next token stays in a
+declared set — a different objective, so do not threshold that
+distribution as a Noul. A short enum and a missing abstain option are
+brittleness; compose with abstention and an allowlist gate
+(`mappings.md` §2, §17, §18). Hume's announced open **decision-model**
+(27B dense, multimodal, AU healthcare residency — not anti-TypeSafe)
+is **Watch** until weights, license, and evals exist (`notes.md` §31,
+§33). Constrained decoding is §32. Public logit dump for the
+read-the-letter graph: mini-jev-runs. "Smarter than Jev" is a claim.
+He prefers "decision models" over "system one"; this skill still quotes
+TypeSafe's name for the exemplar.
 
 ## GLiNER vs GLiClass vs Jev vs a cross-encoder?
 
@@ -99,7 +111,10 @@ Hole first, logo last. These are **species**, not aliases
 - **Jev / open decision head (decide):** calibrated Choice/Score/Noul
   when you need act/abstain, fan-out, and a documented envelope. Option
   limits (e.g. 255-way Choice) are Jev's, not the class's. Distilled
-  open heads (openjev-lm) copy the *teacher*, not independent gold.
+  open heads (openjev-lm, jev-gate-student-b) copy the *teacher*, not
+  independent gold. Encoder open-jev (DeBERTa) is the same *shape* on
+  public gold — still self-eval, especially OOD. Hume's 27B drop is
+  Watch. When-to-use axes: `judgment-class.md`.
 - **Cross-encoder / listwise ranker:** order of a retrieved shortlist.
   Fail **open** (keep retrieval order). Translation-invariant listwise
   losses are not calibrated for thresholds

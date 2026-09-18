@@ -1284,3 +1284,209 @@ was requested on both posts and was absent; the full text is in `text`.
 Card: `judgment-class.md` constrained-AR surface. One FAQ row. One
 formal-methods paragraph (open weights vs API; sensor still isn't a
 proof).
+
+## 33. Hourly fold ~11:02 America/Boise (2026-09-18) — decision surfaces, HF novel, device/harness
+
+Window: America/Boise ~11:02 ≈ 17:02 UTC. Docs-only. No Jev wrapper, no
+serving-stack how-to, no copied `predict()` / env / install. HTTP 200
+this pass on every cited Hub card, GitHub README, essay, and X URL
+below. Hub authors `archerhume` / `4rcherhume` still have **no** model
+repos (empty `?author=` lists). Drop remains **WATCH**, expected ~19 Sep
+Boise from the 18 Sep 07:26Z hedge ("will probably release tomorrow").
+
+### Archer Hume — clarifications, still not landed
+
+Status tweet already in §32:
+[2100848840643612729](https://x.com/4rcherhume/status/2100848840643612729)
+(2026-09-18T07:26:10Z). Specs unchanged: Qwen3.8 27B-based, 265k,
+multimodal, no audio, "seemingly quantises pretty well"; "smarter than
+Jev" is an early claim against *his* order-sensitivity and in-distribution
+calibration warnings (§7, §31). Essay still a reconstruction, not a
+TypeSafe contract:
+[Jev's Architecture Unmasked](https://archerhume.com/posts/jevs-architecture-unmasked/).
+
+New replies (all `note_tweet` absent; full text in `text`):
+
+1. **Not anti-TypeSafe.** Immediate self-reply
+   [2100849091504980126](https://x.com/4rcherhume/status/2100849091504980126):
+   "I have nothing against TypeSafe, it's a great idea. I just run a
+   healthcare startup which means we need control over deployments, so
+   we can't use Jev." Follow-up
+   [2100955652025893086](https://x.com/4rcherhume/status/2100955652025893086):
+   Australia; "very specific laws about where you can send private data
+   (especially health)"; vendors exist, they just have AU infra.
+   Deployment control / data-residency, not a product feud.
+2. **27B dense for one-forward-pass local speed.**
+   [2100856685153935699](https://x.com/4rcherhume/status/2100856685153935699):
+   "Chose 27b dense because it has a decent balance of base intelligence
+   and small-ish footprint (when you remove AR decoding it's actually
+   really fast locally since it's one forward pass). Next step would be
+   getting it done with an MoE base, then it's seeing how small I can
+   get it." Dense-now, MoE-next, then shrink. Matches the essay's
+   inferred readout (item 1) as a *design intent*, still not a shipped
+   checkpoint.
+3. **Multimodal generalization is a report, not a recipe.**
+   [2100950467245387937](https://x.com/4rcherhume/status/2100950467245387937):
+   "Weirdly it seems like as long as the base model is multimodal the
+   text post training generalises to images pretty well. Doesn't need
+   that much intentional training (I think)." Hedge ("I think") stays.
+   Laya remains text-only (§18). jev-visual remains region Choice.
+4. **Class name.**
+   [2100604161821979134](https://x.com/4rcherhume/status/2100604161821979134)
+   (17 Sep): "I desperately don't want to call this new paradigm
+   'system one models' so if I manage to get an open weight one released
+   tomorrow can we all agree to call them decision models?" Follow-up
+   "God I hope decision model catches on"
+   ([2100616134328459574](https://x.com/4rcherhume/status/2100616134328459574)).
+   Augustus keeps TypeSafe's "System One" when quoting the exemplar and
+   uses **decision model** / judgment-class for the family. Not a rename
+   of this skill.
+
+When-to-use axes (calibration, VOI, latency/$, deployment control,
+multimodal, enum size): `judgment-class.md`. FAQ row expanded. Still
+Watch until weights, license, and evals exist.
+
+### HF novel (verified this pass)
+
+1. **Local memory-gating LoRA (teacher-copy).**
+   [`SargeDev/jev-gate-student-b`](https://huggingface.co/SargeDev/jev-gate-student-b)
+   (created 2026-09-18T16:52:35Z, apache-2.0): LoRA r=16 α=32 on
+   `Qwen/Qwen2.5-0.5B-Instruct`; P(relevant) from softmax over final-token
+   `yes`/`no` logits; no token generated. Card: MAE 0.187 / Pearson 0.791 /
+   agreement 90.0% on held-out n=60 vs vanilla 0.5B 0.536 / −0.067 / 38.3%;
+   ~59 ms RTX 3060. Corpus
+   [`SargeDev/jev-distill-corpus`](https://huggingface.co/datasets/SargeDev/jev-distill-corpus)
+   (created 02:14Z, lastModified 16:52Z): datasets-server this pass
+   **148,160** train rows; tags `100K<n<1M`. The dataset *card* currently
+   duplicates the model card (incl. a 5,605-row test table); row count is
+   from the Hub size API, not from that README. Same teacher-copy caution
+   as openjev-lm (§25): agreement with Jev labels is not independent gold.
+   Card says gate at 0.5 and **fail-open on errors**. Placement: context
+   sieve (`applied-mappings.md` §1) beside `kevinpita/pi-jev-context` and
+   the Pi compaction family (`tamaratran/fast-jev-compaction`;
+   `vava-nessa/pi-jev-compaction` as a named Pi cousin). Do not copy the
+   usage snippet into skill cards.
+
+2. **Domain-local categorize (JP SNS).**
+   [`kokuren/jp-sns-jev7-estimator`](https://huggingface.co/kokuren/jp-sns-jev7-estimator)
+   (created 14:48Z, apache-2.0, ONNX INT8 DistilBERT Japanese): seven
+   sigmoid scores (insult, threat, obscene, identity_attack,
+   sexual_explicit, targetedness, indirect_hostility). Card's own
+   sentence: "continuous distilled teacher scores, **not calibrated
+   probabilities**." `threat` F1@0.5 = 0.0000 on their held-out table
+   (rare-class; accuracy@0.5 is the wrong summary — `mappings.md` §7).
+   Mean Pearson 0.75. Domain-local System One *shape*, still categorize /
+   score, not a Noul. Threshold on *your* labels.
+
+3. **Encoder open-jev (not a Jev teacher-copy).**
+   [`com-kotobalabs/open-jev-deberta-v3-large`](https://huggingface.co/com-kotobalabs/open-jev-deberta-v3-large)
+   (created 10:01Z, apache-2.0, `microsoft/deberta-v3-large` ≈434M):
+   Choice ≤255 / Score 2–10 / Noul from **one bidirectional pass**;
+   softmax within each question's option group; CE + Brier; post-hoc
+   temperature on a validation split. Public gold only (Banking77, SST-5,
+   BoolQ) — "no synthetic answers, no teacher model." In-domain 0.854 acc
+   / Brier 0.213 / ECE 0.022 (1,500 states / 3,508 questions); OOD 0.690 /
+   0.399 / 0.035 (new instructions and option sets). 512 tok total (state
+   cut to 256). Author latency: 1.8 s / 4 questions M1 Max CPU fp32;
+   28 ms e2e / 10 questions H100 bf16. Code:
+   [kotoba-lang/typed-decisions](https://github.com/kotoba-lang/typed-decisions).
+   Independent of TypeSafe. Self-eval duty unchanged. Do not copy the
+   client signature.
+
+4. **Constrained-decoding / calibration gold (no token generated).**
+   [`Mikhail/mini-jev-runs`](https://huggingface.co/datasets/Mikhail/mini-jev-runs)
+   (created 12:05Z, MIT): **27,900** schema-driven decisions on frozen
+   `Qwen/Qwen3-4B-Instruct-2507`; lettered options; **one forward pass**;
+   answer read from next-token logits over option letters; full candidate
+   logits kept. Write-up [r-ms/mini-jev](https://github.com/r-ms/mini-jev)
+   (20★ this pass). Headline from the card: unconstrained argmax is an
+   option letter 13,600/13,600; vs grammar-constrained JSON Δ −0.22 pp
+   (CI covers 0); scores "deliberately *not* calibrated." Rotated-options
+   split is an IIA / position-prior test surface (`validation.md`,
+   `formal-methods.md`). Out-of-scope + "none of the above": 41/50
+   reading vs 47/50 generating. Compose with TypeAR (`notes.md` §32):
+   same *read-the-letter* graph, different serving claim. Not a how-to.
+
+5. **Hierarchy vs Jev's 255 cap (search / taxonomy / MCDA).**
+   [`reachjalil/jev-tree-choice-cap`](https://huggingface.co/datasets/reachjalil/jev-tree-choice-cap)
+   (created 01:17Z, MIT): synthetic 320-leaf region→service→mode catalog,
+   n=180, seed 20260917, live `typesafe-ai/jev` on Vercel AI Gateway.
+   Code [reachjalil/jev-tree](https://github.com/reachjalil/jev-tree).
+   Headline: keyword 180/180 (0 calls); authored tree **180/180** (3
+   calls); flat+partition 179/180; truncate-to-255 **90/180** and
+   **0/90 on the tail** (Cape Town `af-south-1` is past index 255).
+   Spend estimate $0.142 at $0.042/M input — author. **Empirical** as
+   "truncation silently drops the tail"; **not** a quality win over
+   keyword on this invented catalog (keyword also 180/180). Tournament
+   brackets stay rejected (`mappings.md` §5). Prefer an authored
+   taxonomy or retrieval.
+
+### Device + harness patterns
+
+- [`Friedjof/jev-mobile`](https://github.com/Friedjof/jev-mobile) (MIT,
+  Python, 0★ this pass; pushed 16:59Z): durable Android worker, USB
+  Portal ADB, **stdio Mobile MCP** for task delegation (`start_task` /
+  `get_task` / …). Jev sees prevalidated candidates; it never generates
+  coordinates, MCP calls, or code. Perception in code (UI tree /
+  companion AccessibilityService). Escalation always available.
+  Sensitive/external-effect classes are not autonomous. Previously "thin
+  evidence" in `mixed-architecture.md` — the *placement* (pixel-free
+  candidates + closed Choice) is now a named recipe; app coverage is
+  still Keep/fixture-scoped. Do not copy `.env` or MCP URLs.
+- [`jcpsimmons/jev-macos-loop`](https://github.com/jcpsimmons/jev-macos-loop)
+  (AGPL-3.0, Apple silicon; created 05:17Z, pushed 16:57Z): OmniParser
+  CoreML + Vision OCR + accessibility locally; **text-only** Jev
+  decisions; pixels/coordinates stay on the Mac. Finder demo: 9 files →
+  3 group moves in 7.39 s, independently verified. 6/6 native GUI tasks
+  on Vercel and OpenRouter (small sample, warmup excluded). DONE is a
+  model decision; benchmarks check the app. Vision portent 1
+  (`judgment-class.md`). Not a how-to.
+- [`AntonioCoppe/jev-harness`](https://github.com/AntonioCoppe/jev-harness)
+  (already §7 / findings): policy + **confidence gate** + **shadow mode**
+  + eval CLI asserting on *actions*. Selective abstention
+  (`mappings.md` §2). 24-row filter 48.9 s Claude CLI vs 1.3 s Jev.
+  README this pass still that contract. Not a compact-transcript
+  replacement (their own "what this is not").
+- [`rajdhakad9826/routeKit`](https://github.com/rajdhakad9826/routeKit)
+  (MIT, TypeScript, created 15:25Z, 2★): Jev estimates task
+  *requirements* (difficulty / reasoningNeed / ambiguity /
+  toolComplexity); **code** applies hard constraints (context, tools,
+  vision, structured output) and a deterministic policy (cost / quality /
+  latency / balanced). Jev does not pick the model. Fallback is
+  configured. Early development. Placement: selector + policy
+  (`applied-mappings.md` §5). Hypothesis until measured on *your*
+  catalog. Do not copy the client signature.
+
+### HacksonClark discourse (SREGym-Lite) — rank tests, do not diagnose
+
+[@HacksonClark](https://x.com/HacksonClark/status/2100993319878721665)
+(2026-09-18T17:00:16Z) + blog
+[sregym.com/blog/jev-sregym-lite](https://sregym.com/blog/jev-sregym-lite)
+(HTTP 200). Codex harness, `gpt-5.6-luna`, 10 SREGym-Lite problems × 5
+attempts: **20/50 → 24/50** (40% → 48%). 4 faults improved, **2
+regressed**, 4 unchanged. Authors: not a universal 8-point gain.
+Biggest lift: internal traffic policy 0/5 → 3/5. Tools: `jev_plan`
+ranks 3–5 proposed tests (does not run them, does not reveal the
+benchmark answer); `jev_submit` reviews evidence at 0.70 on every
+required question before diagnosis/mitigation. **Jev did not diagnose.**
+Finding 3: it can only rank hypotheses it receives; a high score cannot
+compensate for missing evidence. Finding 2: "healthy now" ≠ durable
+repair (quota left in place; unsafe rollout strategy). Future work
+(untested): action-loop votes, prospective mitigation-safety.
+
+Placement sentence, same thread
+([@Antoniocoppe](https://x.com/Antoniocoppe/status/2100993869680615552)):
+"Jev ranks next tests/evidence; it shouldn't diagnose. Keep tests
+closed and inspect 2 regressions as calibration failures (was
+confidence high on the wrong Choice?). Low-confidence rankings can go
+back to the agent instead of silently steering mitigation."
+
+That is VOI / gather (`mappings.md` §6) + selective abstention (§2) +
+harness triage (`applied-mappings.md` §3) + dual-orchestration topology
+A (Jev-as-tool). Closed candidate set is already a non-negotiable
+(`SKILL.md`). Not an SREGym how-to; not a 0.70 to copy.
+
+Cards: `judgment-class.md` when-to-use; FAQ; `applied-mappings.md` §1 /
+§3 / §5; `mappings.md` §5 (tree) and §6 (next-test as gather);
+`mixed-architecture.md` on-device + routeKit; `validation.md` mini-jev
+IIA surface; `formal-methods.md` logit dump still isn't a proof.

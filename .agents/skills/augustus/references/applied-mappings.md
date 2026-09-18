@@ -41,7 +41,14 @@ Nouls (should the *call* stay? should the *result* stay verbatim?);
 `ibrahemid/jevprune` keeps last-N + error signatures in code, then judges
 the rest per line; `kevinpita/pi-jev-context` hides (does not delete)
 older Pi history, always-keep user/system/todos, `/jev off` restores.
-Official cousin: classifying RAG passages cookbook
+Pi compaction cousins (`tamaratran/fast-jev-compaction`,
+`vava-nessa/pi-jev-compaction`) keep verbatim drop, never summarize.
+Local teacher-copy for the same hole:
+[`SargeDev/jev-gate-student-b`](https://huggingface.co/SargeDev/jev-gate-student-b)
+(Qwen2.5-0.5B LoRA; P(relevant) from yes/no logits; 148,160-row
+[`jev-distill-corpus`](https://huggingface.co/datasets/SargeDev/jev-distill-corpus);
+card: fail-open on errors). Agreement with Jev labels is not independent
+gold (`notes.md` §33). Official cousin: classifying RAG passages cookbook
 (**Contract**). **Counterexample**: one Noul "is this log useful?" over
 3k lines — that is nine judgments pretending to be one. **Test**: recall
 of must-keep lines (failures, the current instruction); tokens saved;
@@ -97,7 +104,17 @@ LLM: root-cause prose on the cluster, not on every step
 
 **Example**: `aaravriyer193/OpenSmoke` — Jev over every step; LLM autopsy
 on flags; the motivating failure is an agent that hit `KeyError` and said
-"Done." **Counterexample**: sampling 2% of production with an LLM judge —
+"Done." **SREGym-Lite (Empirical as a *shape*, 2026-09-18):**
+[@HacksonClark](https://x.com/HacksonClark/status/2100993319878721665)
+/ [blog](https://sregym.com/blog/jev-sregym-lite) — Jev as a *tool* that
+ranks proposed diagnostic tests and reviews evidence (20/50 → 24/50;
+4 improved, **2 regressed**). It did not diagnose; it cannot recover a
+hypothesis the agent never offered. Placement (same thread,
+[@Antoniocoppe](https://x.com/Antoniocoppe/status/2100993869680615552)):
+rank next tests/evidence; keep tests closed; inspect regressions as
+calibration failures (was confidence high on the wrong Choice?); low
+confidence goes back to the agent, not into silent mitigation.
+`notes.md` §33. **Counterexample**: sampling 2% of production with an LLM judge —
 the economics inversion is the point. **Test**: planted harness bugs
 recovered; false-flag rate on known-clean runs; LLM never runs on the
 clean majority. High-stakes cousin: `luantak/is-malicious` is a *pre-run*
@@ -159,8 +176,13 @@ fail closed on side effects; no-match option when coverage is open
 
 **Example**: skill_suggestion cookbook (**Contract**); GodsBoy 94.4% vs
 70.8% lexical; `Dicklesworthstone/skillranker` from live session context;
-LlamaIndex selectors fail closed or a declared default. Toolrouter / open
-JevRouter: **Hypothesis** until measured on *your* catalog. **Counterexample**:
+LlamaIndex selectors fail closed or a declared default.
+[`rajdhakad9826/routeKit`](https://github.com/rajdhakad9826/routeKit):
+Jev estimates task *requirements*; code applies hard constraints and a
+deterministic cost/quality/latency policy — Jev does not pick the model
+(**Hypothesis** until measured on *your* catalog; `notes.md` §33).
+Toolrouter / open JevRouter: **Hypothesis** until measured on *your*
+catalog. **Counterexample**:
 the agent looping "pick a tool, call it, pick again" with the provider as
 the planner. **Test**: callability (literal / paraphrase / near-miss
 neighbor); reject-all when nothing fits; calibre reminder — thresholds

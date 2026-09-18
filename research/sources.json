@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-18T14:42Z",
+  "retrieved": "2026-09-18T17:06Z",
   "sources": [
     {
       "kind": "docs",
@@ -799,6 +799,138 @@
       "title": "24601/rh-guard",
       "url": "https://github.com/24601/rh-guard",
       "note": "README HTTP 200. Coding-agent reward-hack / eval-integrity hooks. Different surface from GLiGuard LLM I/O safety and from jevgate. Do not copy install into Augustus."
+    },
+    {
+      "kind": "social",
+      "title": "Archer Hume: not anti-TypeSafe; healthcare deployment control",
+      "url": "https://x.com/4rcherhume/status/2100849091504980126",
+      "note": "Immediate self-reply to the Watch tweet. Healthcare startup needs deployment control, cannot use Jev. notes.md \u00a733."
+    },
+    {
+      "kind": "social",
+      "title": "Archer Hume: 27B dense for one-forward-pass local speed",
+      "url": "https://x.com/4rcherhume/status/2100856685153935699",
+      "note": "Chose 27b dense; remove AR and it is one forward pass locally. MoE next, then shrink. notes.md \u00a733."
+    },
+    {
+      "kind": "social",
+      "title": "Archer Hume: multimodal base + text PT generalizes to images",
+      "url": "https://x.com/4rcherhume/status/2100950467245387937",
+      "note": "Report with 'I think' hedge. Not a recipe. notes.md \u00a733."
+    },
+    {
+      "kind": "social",
+      "title": "Archer Hume: AU health data-residency",
+      "url": "https://x.com/4rcherhume/status/2100955652025893086",
+      "note": "Australia; private/health data location laws; vendors with AU infra. notes.md \u00a733."
+    },
+    {
+      "kind": "social",
+      "title": "Archer Hume: call them decision models, not system one",
+      "url": "https://x.com/4rcherhume/status/2100604161821979134",
+      "note": "17 Sep. Prefers class name decision models over system one. notes.md \u00a733."
+    },
+    {
+      "kind": "model",
+      "title": "SargeDev/jev-gate-student-b",
+      "url": "https://huggingface.co/SargeDev/jev-gate-student-b",
+      "note": "LoRA Qwen2.5-0.5B memory-relevance judge; P(relevant) from yes/no logits; apache-2.0; created 2026-09-18T16:52Z. Teacher-copy. HTTP 200. notes.md \u00a733."
+    },
+    {
+      "kind": "dataset",
+      "title": "SargeDev/jev-distill-corpus",
+      "url": "https://huggingface.co/datasets/SargeDev/jev-distill-corpus",
+      "note": "148,160 train rows (datasets-server this pass). Dataset card currently duplicates the model card. HTTP 200. notes.md \u00a733."
+    },
+    {
+      "kind": "model",
+      "title": "kokuren/jp-sns-jev7-estimator",
+      "url": "https://huggingface.co/kokuren/jp-sns-jev7-estimator",
+      "note": "JP SNS 7-axis INT8 ONNX DistilBERT. Card: not calibrated probabilities. threat F1@0.5=0. HTTP 200. notes.md \u00a733."
+    },
+    {
+      "kind": "model",
+      "title": "com-kotobalabs/open-jev-deberta-v3-large",
+      "url": "https://huggingface.co/com-kotobalabs/open-jev-deberta-v3-large",
+      "note": "Encoder open-jev, DeBERTa-v3-large ~434M, apache-2.0, public gold not Jev teacher. In-domain ECE 0.022; OOD acc 0.690. HTTP 200. notes.md \u00a733."
+    },
+    {
+      "kind": "repo",
+      "title": "kotoba-lang/typed-decisions",
+      "url": "https://github.com/kotoba-lang/typed-decisions",
+      "note": "Code/ADRs for open-jev-deberta. Independent of TypeSafe. Do not copy client signature."
+    },
+    {
+      "kind": "dataset",
+      "title": "Mikhail/mini-jev-runs",
+      "url": "https://huggingface.co/datasets/Mikhail/mini-jev-runs",
+      "note": "27,900 schema-driven decisions; one forward pass; answer from next-token logits; no token generated; full candidate logits. MIT. HTTP 200. notes.md \u00a733."
+    },
+    {
+      "kind": "repo",
+      "title": "r-ms/mini-jev",
+      "url": "https://github.com/r-ms/mini-jev",
+      "note": "Write-up for mini-jev-runs. Frozen Qwen3-4B read-the-letter vs grammar JSON. 20 stars this pass."
+    },
+    {
+      "kind": "dataset",
+      "title": "reachjalil/jev-tree-choice-cap",
+      "url": "https://huggingface.co/datasets/reachjalil/jev-tree-choice-cap",
+      "note": "Synthetic 320-leaf catalog vs Jev 255 cap. Truncate 0/90 on tail; authored tree 180/180; keyword also 180/180. HTTP 200. notes.md \u00a733."
+    },
+    {
+      "kind": "repo",
+      "title": "reachjalil/jev-tree",
+      "url": "https://github.com/reachjalil/jev-tree",
+      "note": "Recursive Choice over an authored taxonomy so each call stays under 255. MIT."
+    },
+    {
+      "kind": "repo",
+      "title": "Friedjof/jev-mobile",
+      "url": "https://github.com/Friedjof/jev-mobile",
+      "note": "Durable Android worker + Mobile MCP. Jev sees prevalidated candidates; never generates coordinates. MIT. HTTP 200. notes.md \u00a733."
+    },
+    {
+      "kind": "repo",
+      "title": "jcpsimmons/jev-macos-loop",
+      "url": "https://github.com/jcpsimmons/jev-macos-loop",
+      "note": "Apple-silicon computer-use. Local OmniParser/OCR/AX; text-only Jev; pixels stay on the Mac. AGPL-3.0. HTTP 200. notes.md \u00a733."
+    },
+    {
+      "kind": "repo",
+      "title": "AntonioCoppe/jev-harness",
+      "url": "https://github.com/AntonioCoppe/jev-harness",
+      "note": "Policy + confidence gate + shadow mode + eval CLI on actions. 48.9s vs 1.3s. Selective abstention. Already in findings; re-fetched HTTP 200."
+    },
+    {
+      "kind": "repo",
+      "title": "rajdhakad9826/routeKit",
+      "url": "https://github.com/rajdhakad9826/routeKit",
+      "note": "Jev estimates task requirements; deterministic policy selects the model. Jev does not pick the LLM. MIT. Created 2026-09-18T15:25Z. HTTP 200. notes.md \u00a733."
+    },
+    {
+      "kind": "repo",
+      "title": "vava-nessa/pi-jev-compaction",
+      "url": "https://github.com/vava-nessa/pi-jev-compaction",
+      "note": "Pi cousin of fast-jev-compaction: verbatim drop, never summarize. Pointer family, not a how-to."
+    },
+    {
+      "kind": "social",
+      "title": "HacksonClark: SREGym-Lite Jev thread",
+      "url": "https://x.com/HacksonClark/status/2100993319878721665",
+      "note": "2026-09-18T17:00Z. 10 SREGym-Lite problems, Codex + Luna. 20/50 \u2192 24/50; 2 regressions. Jev did not diagnose. notes.md \u00a733."
+    },
+    {
+      "kind": "docs",
+      "title": "Can Jev Make SRE Agents More Reliable? (SREGym blog)",
+      "url": "https://sregym.com/blog/jev-sregym-lite",
+      "note": "HTTP 200. jev_plan ranks tests; jev_submit reviews evidence at 0.70. Not a 0.70 to copy. notes.md \u00a733."
+    },
+    {
+      "kind": "social",
+      "title": "Antoniocoppe: rank tests, do not diagnose, keep tests closed",
+      "url": "https://x.com/Antoniocoppe/status/2100993869680615552",
+      "note": "Reply in the HacksonClark thread. Placement sentence for VOI + abstention + calibration-on-regressions. notes.md \u00a733."
     }
   ]
 }

@@ -95,7 +95,11 @@ automatically correct). `mappings.md` §2.
 A number you can threshold is a *decision* number only after you check
 that it means P(event) on **your** population. In-distribution ECE can
 look excellent and collapse OOD (Archer Hume — `notes.md` §7). Open
-heads transfer this duty to you (`notes.md` §18).
+heads transfer this duty to you (`notes.md` §18). Encoder open-jev
+reports in-domain ECE 0.022 and an OOD accuracy drop 0.854→0.690;
+LoRA students report agreement with the teacher (`notes.md` §33). Hume
+prefers the class name **decision models** over "system one"
+(`notes.md` §33); this file still says System One when quoting TypeSafe.
 
 **Readout versus a token; IIA is a property.** A direct probability and a
 generated "91%" are different objects; the format calibrates neither

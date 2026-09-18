@@ -153,7 +153,16 @@ conditional structure; pruned branches never recover.
 
 **Example**: patent/retail/biomedical/code hierarchies (cookbook,
 **Empirical recipe** jev-1.12, 4 labeled cases: beam K=3 fixed 2 greedy
-failures). **Counterexample**: an arbitrary 255-way tournament bracket over
+failures). **Empirical beside this card (255 cap, synthetic n=180,
+2026-09-18):** [`reachjalil/jev-tree-choice-cap`](https://huggingface.co/datasets/reachjalil/jev-tree-choice-cap)
+walks an authored region→service→mode tree so each Choice stays under
+Jev's 255. Truncate-to-255 is **90/180** and **0/90 on the tail** (Cape
+Town sits past index 255). Authored tree **180/180** (3 calls). Keyword
+also 180/180 on this invented catalog — do not sell the tree as beating
+lexical lookup; sell it as *not silently dropping the tail*. Flat
+auto-partition 179/180. Tournament brackets stay rejected. Code:
+[jev-tree](https://github.com/reachjalil/jev-tree). `notes.md` §33.
+**Counterexample**: an arbitrary 255-way tournament bracket over
 an unstructured shortlist — grouping changes judgments, early elimination
 discards global top-k, log rounds ≠ sublinear work. Prefer retrieval or a
 real hierarchy; tournaments are benchmarks, not defaults. **Test**: greedy vs
@@ -220,7 +229,12 @@ pay iff E[loss | now] − E[loss | after paying] > cost
 
 **Example (Empirical as a *shape*, OpenSmoke / env triage):** LLM autopsy
 only on flags — a negative flag has no VOI in the autopsy
-(`applied-mappings.md` §3). **Beyond SWE (Hypothesis until you log
+(`applied-mappings.md` §3). **SREGym-Lite (Empirical as a *shape*):**
+Jev ranks the *next diagnostic test* among candidates the agent already
+holds; it does not run the test and does not diagnose
+(`notes.md` §33). Pay for the next kubectl/log only if EV(decision)
+improves — a high review score cannot buy missing evidence.
+**Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs
 wait. **Counterexample**: gathering until p = 0.99 on an irreversible
@@ -250,7 +264,12 @@ report hits / false alarms at the operating point, not accuracy
 ```
 
 **Example (Empirical as family shape):** firehose / Near Here moderation
-— judge once, re-policy in code. **Beyond SWE (Hypothesis until plotted):**
+— judge once, re-policy in code.
+[`jp-sns-jev7-estimator`](https://huggingface.co/kokuren/jp-sns-jev7-estimator)
+is the rare-class warning in one table: seven distilled teacher scores
+that the card says are **not** calibrated probabilities, and `threat`
+F1@0.5 = 0.0000 while mean accuracy@0.5 looks fine. Criterion, not
+accuracy (`notes.md` §33). **Beyond SWE (Hypothesis until plotted):**
 phishing screen; "is this a real deadline?"; hiring screen (base rate of
 qualified applicants is the thing that moves). **Counterexample**:
 retrain the model because last week's incident made you "want fewer
