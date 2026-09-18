@@ -193,7 +193,7 @@
   validation.md IIA clause. No SGLang snippets, no new script.
 - Open-weight drop status: WATCH (tweet: ~65% done). "Smarter than Jev"
   weighed against his own order-sensitivity and calibration warnings.
-- notes.md §32; sources.json; findings.md batch #15.
+- notes.md §31; sources.json; findings.md batch #15.
 
 ## 2026-09-18 16:45 UTC — effect-oriented loops + GLiNER author
 
@@ -224,7 +224,7 @@
 - README HTTP 200 (blob 43f456ae, repo a49c320). Python, created
   2026-09-17, updated 2026-09-18, no license file. X posts for the
   Archer drop re-fetched (`note_tweet` absent; text complete). Essay
-  reconstruction is notes §32.
+  reconstruction is notes §31.
 - TypeAR is a next-token constraint surface, not a sixth decide
   species. Enum ≤16, no abstention primitive. 5.8× is their K=16
   boolean example only. Sequential conditioning compared to Jev

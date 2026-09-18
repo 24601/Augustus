@@ -313,7 +313,7 @@ still fail the trolley; (ad) two mixed-architecture loops, not one.
 
 ## Batch #15 (2026-09-18, Hume architecture reconstruction)
 
-Note: `research/notes.md` §32. Cards: `judgment-class.md` compute graph;
+Note: `research/notes.md` §31. Cards: `judgment-class.md` compute graph;
 `mental-models.md` calibration; `faq.md`; `formal-methods.md`;
 `validation.md` IIA clause. Not a TypeSafe contract.
 
@@ -364,7 +364,7 @@ Cross-repo addition: (ag) effectful FSM — soft Choice, host effect;
 
 ## Batch #17 (2026-09-18, TypeAR constrained-AR surface)
 
-Note: `research/notes.md` §31. Hume reconstruction is §32. Card:
+Note: `research/notes.md` §32. Hume reconstruction is §31. Card:
 `judgment-class.md` constrained-AR surface (not a species). Ward
 `mappings.md` §19 already existed; cross-linked, not rewritten.
 

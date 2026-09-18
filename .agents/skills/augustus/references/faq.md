@@ -240,4 +240,4 @@ leading probability sits above a uniform `1/K`. It is not a second learned
 estimate that the answer is correct. A peaked distribution can be
 confidently wrong. Threshold a p you have checked on your labels.
 [Essay](https://archerhume.com/posts/jevs-architecture-unmasked/),
-`notes.md` §32, `mental-models.md` calibration.
+`notes.md` §31, `mental-models.md` calibration.

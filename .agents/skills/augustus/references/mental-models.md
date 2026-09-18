@@ -97,6 +97,17 @@ that it means P(event) on **your** population. In-distribution ECE can
 look excellent and collapse OOD (Archer Hume — `notes.md` §7). Open
 heads transfer this duty to you (`notes.md` §18).
 
+**Readout versus a token; IIA is a property.** A direct probability and a
+generated "91%" are different objects; the format calibrates neither
+(Hume reconstruction, `notes.md` §31 — not a TypeSafe contract). On his
+reading of the official adapter, Choice `confidence` is arithmetic on the
+distribution (how far the leader sits above uniform), not a second trained
+correctness score. Choice probabilities are already conditional on the
+offered set. His probes: an irrelevant extra option moved log-odds between
+two existing options in every block, and reversing order moved a
+probability across a ~0.9 threshold. Property-test both (`validation.md`).
+Stimulus design, not a proof.
+
 For a calibrated binary p and unequal error costs, the Bayes threshold
 is `t = C_FP / (C_FP + C_FN)` when you act vs not
 ([Elkan, *Foundations of Cost-Sensitive Learning*](https://cseweb.ucsd.edu/~elkan/rescale.pdf);

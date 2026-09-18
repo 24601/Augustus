@@ -100,7 +100,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   isolated questions, listwise IIA and order sensitivity, confidence as
   arithmetic on the distribution. Independent envelope probe; does not
   override live TypeSafe docs. Announced open-weight drop is **WATCH**.
-  `research/notes.md` §32; `judgment-class.md`; FAQ confidence question.
+  `research/notes.md` §31; `judgment-class.md`; FAQ confidence question.
 
 ### Changed
 

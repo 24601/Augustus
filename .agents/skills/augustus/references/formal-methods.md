@@ -40,6 +40,17 @@ Judgment is a **sensor**. Proof and types are **constraints**. DST is a
 **searchlight**. Code is the **actuator**. A Noul is allowed to inform
 the controller; it is not allowed to *be* the constraint.
 
+**Open weights vs a proprietary API (one check, not a doctrine).**
+Holding the weights lets you run local differential tests and DST
+around the decision boundary — same inputs, quant versus full
+precision, candidate-set perturbations — because the artifact is on
+disk. A proprietary decision API does not hand you that artifact;
+probes stay black-box. Either result is still a sensor: a boundary
+that moved is evidence about the model, not a discharged proof
+obligation. An announced open-weight drop is **Watch**, not a shipped
+checker (`research/notes.md` §31, §32; placement card in
+`judgment-class.md`).
+
 Existing grammar: composition-algebra position 9 (verifier) — verdicts
 are evidence, not enforcement. Position 3 (gate) — a filter is not
 authorization. Estimate ≠ measure: irreversible acts concede only to a
@@ -171,6 +182,15 @@ holds" is out of class — that is a proof obligation with the prover
 deleted. Rule from the curriculum (DafnyPro-shaped): **LLM/Jev propose;
 the verifier refutes or accepts.** Forbid silent base-code edits that
 "make the proof pass."
+
+Option order and an irrelevant extra option are properties of a System
+One decision surface, not proofs. Property-test them: shuffle option
+order; append an option the policy should ignore and check that odds
+among the originals do not move enough to change the act (Hume's
+`jev-1.13.0` probes — reconstruction, `notes.md` §31, not a new
+invariance contract). A passing suite is coverage of those generators.
+A Noul is still not a proof that the property holds, and a clean PBT run
+is not one either.
 
 ## 4. Deterministic simulation testing (semi-formal trio)
 
@@ -448,6 +468,6 @@ Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 hybrid "verified by Noul" API.
 
 Related: `formal-semi-formal.md` (one screen); `mental-models.md`;
-`mappings.md` §6–§18; `methods-catalog.md` verification rows;
+`mappings.md` §6–§19; `methods-catalog.md` verification rows;
 `composition-algebra.md` positions 3 and 9; `mixed-architecture.md`
 preference lint; `faq.md`; `boundary-audit.md`.

@@ -52,7 +52,7 @@
     },
     {
       "kind": "docs",
-      "note": "Pattern index: fan-out, confidence routing, composite, intent. Live mixed-architecture contracts — do not duplicate request fields in Augustus; point here + typesafe-ai skill.",
+      "note": "Pattern index: fan-out, confidence routing, composite, intent. Live mixed-architecture contracts \u2014 do not duplicate request fields in Augustus; point here + typesafe-ai skill.",
       "title": "Patterns",
       "url": "https://docs.typesafe.ai/patterns.md"
     },
@@ -250,13 +250,13 @@
     },
     {
       "kind": "repo",
-      "note": "2026-09-18 late pass (missed by star-sorted limit-40 search — see method note): paulobueno164/jev-mcts + lhemerly/mcts-agent are the MCTS artifacts; 12 more low-star repos added to jev-archive (open-jev x2, jevbetter, jev-experiments, jev-benchmarks, mario-jev, Jev-Moderation-Bot, typesafe-mcp, 2 Go clients, jev-on-a-laptop, jev-me). Search fix: paginate ALL results, never sort-by-stars with a low limit.",
+      "note": "2026-09-18 late pass (missed by star-sorted limit-40 search \u2014 see method note): paulobueno164/jev-mcts + lhemerly/mcts-agent are the MCTS artifacts; 12 more low-star repos added to jev-archive (open-jev x2, jevbetter, jev-experiments, jev-benchmarks, mario-jev, Jev-Moderation-Bot, typesafe-mcp, 2 Go clients, jev-on-a-laptop, jev-me). Search fix: paginate ALL results, never sort-by-stars with a low limit.",
       "title": "MCTS+Jev repos and search-method fix",
       "url": "https://github.com/paulobueno164/jev-mcts"
     },
     {
       "kind": "index",
-      "note": "2026-09-18: topic index crawl added ~80 repos (archive=184 clones). Key additions: jev-as-a-judge (judge variance 224-279x lower than GPT judge over 100 reps), ndolinschi gate family, jev-dsl, qwen-rlcd reproduction, awesome-jev-by-typesafe 18-usecase map. | Window 2026-09-18T13:39Z–14:39Z, 34 repos. Snapshot: research/archive/hourly/2026-09-18T14/github-topic-jev-last-hour.json",
+      "note": "2026-09-18: topic index crawl added ~80 repos (archive=184 clones). Key additions: jev-as-a-judge (judge variance 224-279x lower than GPT judge over 100 reps), ndolinschi gate family, jev-dsl, qwen-rlcd reproduction, awesome-jev-by-typesafe 18-usecase map. | Window 2026-09-18T13:39Z\u201314:39Z, 34 repos. Snapshot: research/archive/hourly/2026-09-18T14/github-topic-jev-last-hour.json",
       "title": "topics/jev + awesome-jev-by-typesafe",
       "url": "https://github.com/topics/jev"
     },
@@ -270,7 +270,7 @@
       "kind": "archive",
       "title": "Hourly X+GH scan 2026-09-18T14",
       "url": "research/archive/hourly/2026-09-18T14/USAGE-DIGEST.md",
-      "note": "2026-09-18 13:39–14:39 UTC: X theme digest (~400 posts) + topic:jev movers (34). Design signal: mixed architecture default; classification skepticism → placement. Raw JSON alongside this digest."
+      "note": "2026-09-18 13:39\u201314:39 UTC: X theme digest (~400 posts) + topic:jev movers (34). Design signal: mixed architecture default; classification skepticism \u2192 placement. Raw JSON alongside this digest."
     },
     {
       "kind": "social",
@@ -282,7 +282,7 @@
       "kind": "social",
       "title": "X: classification skepticism (dt_sqr)",
       "url": "https://x.com/i/status/2100957356389511173",
-      "note": "Jev is classification / oldest AI task — answered in mixed-architecture.md, not claimed as novelty."
+      "note": "Jev is classification / oldest AI task \u2014 answered in mixed-architecture.md, not claimed as novelty."
     },
     {
       "kind": "social",
@@ -312,13 +312,13 @@
       "kind": "repo",
       "title": "WiktorB2004/llama-index-jev",
       "url": "https://github.com/WiktorB2004/llama-index-jev",
-      "note": "Rerank fails open (BEIR nfcorpus MiniLM 0.340→0.396 nDCG@5); select fails closed. Per-action fail policy."
+      "note": "Rerank fails open (BEIR nfcorpus MiniLM 0.340\u21920.396 nDCG@5); select fails closed. Per-action fail policy."
     },
     {
       "kind": "repo",
       "title": "doeixd/jev-pref",
       "url": "https://github.com/doeixd/jev-pref",
-      "note": "AGENTS.md → Jev linter. Contract: YOU define the rule; JEV classifies evidence; CODE maps outcome."
+      "note": "AGENTS.md \u2192 Jev linter. Contract: YOU define the rule; JEV classifies evidence; CODE maps outcome."
     },
     {
       "kind": "repo",
@@ -366,13 +366,13 @@
       "kind": "model",
       "title": "convaiinnovations/laya (Hugging Face)",
       "url": "https://huggingface.co/convaiinnovations/laya",
-      "note": "2026-09-18: open System-1 decision head with Choice/Score/Noul; self-hostable; text-only; 512 tok/question. Vendor vs-Jev benches are claims. Design implication: typed judgment provider; TypeSafe remains default. See notes.md §18."
+      "note": "2026-09-18: open System-1 decision head with Choice/Score/Noul; self-hostable; text-only; 512 tok/question. Vendor vs-Jev benches are claims. Design implication: typed judgment provider; TypeSafe remains default. See notes.md \u00a718."
     },
     {
       "kind": "paper",
       "title": "GLiClass: Generalist Lightweight Model for Sequence Classification Tasks",
       "url": "https://arxiv.org/abs/2508.07662",
-      "note": "2026-09-18 class-scope: one-pass text+all-labels encoder classifier; sigmoid multi-label / softmax single-label. Affinities, not automatically a gateable decision API. notes.md §19."
+      "note": "2026-09-18 class-scope: one-pass text+all-labels encoder classifier; sigmoid multi-label / softmax single-label. Affinities, not automatically a gateable decision API. notes.md \u00a719."
     },
     {
       "kind": "docs",
@@ -384,7 +384,7 @@
       "kind": "paper",
       "title": "Joint Optimization of Ranking and Calibration with Contextualized Hybrid Model",
       "url": "https://arxiv.org/abs/2208.06164",
-      "note": "Listwise losses (ListNet) can be translation-invariant: ranking ≠ calibrated P(relevant). Fork for fail-open vs fail-closed. notes.md §19."
+      "note": "Listwise losses (ListNet) can be translation-invariant: ranking \u2260 calibrated P(relevant). Fork for fail-open vs fail-closed. notes.md \u00a719."
     },
     {
       "kind": "paper",
@@ -396,7 +396,7 @@
       "kind": "docs",
       "title": "Hugging Face SigLIP",
       "url": "https://huggingface.co/docs/transformers/v4.39.2/en/model_doc/siglip",
-      "note": "Pairwise sigmoid image-text affinity vs CLIP-family softmax competition. Vision scoring family. notes.md §19."
+      "note": "Pairwise sigmoid image-text affinity vs CLIP-family softmax competition. Vision scoring family. notes.md \u00a719."
     },
     {
       "kind": "paper",
@@ -414,7 +414,7 @@
       "kind": "essay",
       "title": "LLMs are bad at vibing specifications (Hillel Wayne)",
       "url": "https://buttondown.com/hillelwayne/archive/llms-are-bad-at-vibing-specifications/",
-      "note": "2026-03-10: 4% of GitHub TLA+ mentions Claude; unrun/tautological specs; obvious vs subtle properties. notes.md §20."
+      "note": "2026-03-10: 4% of GitHub TLA+ mentions Claude; unrun/tautological specs; obvious vs subtle properties. notes.md \u00a720."
     },
     {
       "kind": "docs",
@@ -516,7 +516,7 @@
       "kind": "paper",
       "title": "The Foundations of Cost-Sensitive Learning (Elkan)",
       "url": "https://cseweb.ucsd.edu/~elkan/rescale.pdf",
-      "note": "Bayes threshold t = C_FP/(C_FP+C_FN) from probabilities; do not rebalance as a substitute. notes.md §21."
+      "note": "Bayes threshold t = C_FP/(C_FP+C_FN) from probabilities; do not rebalance as a substitute. notes.md \u00a721."
     },
     {
       "kind": "docs",
@@ -534,13 +534,13 @@
       "kind": "docs",
       "title": "Detection theory (Wikipedia)",
       "url": "https://en.wikipedia.org/wiki/Detection_theory",
-      "note": "Hits/FA/criterion/d′. Accuracy is the wrong summary when classes are rare."
+      "note": "Hits/FA/criterion/d\u2032. Accuracy is the wrong summary when classes are rare."
     },
     {
       "kind": "docs",
       "title": "Multiple-criteria decision analysis (Wikipedia)",
       "url": "https://en.wikipedia.org/wiki/Multiple-criteria_decision_analysis",
-      "note": "Named criteria; weights in policy. mappings.md §1."
+      "note": "Named criteria; weights in policy. mappings.md \u00a71."
     },
     {
       "kind": "docs",
@@ -558,13 +558,13 @@
       "kind": "docs",
       "title": "Alloy FAQ: Analyzer vs model checkers",
       "url": "https://alloytools.org/faq/how_does_the_alloy_analyzer_differ_from_model_checkers.html",
-      "note": "Analyzer is a model finder (SAT, finite scope), not a temporal model checker. notes.md §22."
+      "note": "Analyzer is a model finder (SAT, finite scope), not a temporal model checker. notes.md \u00a722."
     },
     {
       "kind": "docs",
-      "title": "Apalache — symbolic model checker for TLA+",
+      "title": "Apalache \u2014 symbolic model checker for TLA+",
       "url": "https://apalache-mc.org/",
-      "note": "SMT (Z3); modes: random symbolic exec / BMC ≤k / inductiveness. Quint verify backend."
+      "note": "SMT (Z3); modes: random symbolic exec / BMC \u2264k / inductiveness. Quint verify backend."
     },
     {
       "kind": "docs",
@@ -576,7 +576,7 @@
       "kind": "docs",
       "title": "PufferLib docs",
       "url": "https://puffer.ai/docs.html",
-      "note": "Env-as-simulator; Ocean sanity envs. DST-trio third seat. Serial+seed ≠ GPU bitwise determinism."
+      "note": "Env-as-simulator; Ocean sanity envs. DST-trio third seat. Serial+seed \u2260 GPU bitwise determinism."
     },
     {
       "kind": "paper",
@@ -594,7 +594,7 @@
       "kind": "docs",
       "title": "Use of Formal Methods at Amazon Web Services (Newcombe et al., 2014)",
       "url": "https://lamport.azurewebsites.net/tla/formal-methods-amazon.pdf",
-      "note": "TLA+ as exhaustively testable pseudo-code; code ≠ spec. notes.md §23."
+      "note": "TLA+ as exhaustively testable pseudo-code; code \u2260 spec. notes.md \u00a723."
     },
     {
       "kind": "docs",
@@ -606,7 +606,7 @@
       "kind": "docs",
       "title": "Shirky: Situated Software (2004)",
       "url": "https://gwern.net/doc/technology/2004-03-30-shirky-situatedsoftware.html",
-      "note": "Form-fit to a social group; refuse false scale. mappings.md §16."
+      "note": "Form-fit to a social group; refuse false scale. mappings.md \u00a716."
     },
     {
       "kind": "docs",
@@ -624,7 +624,7 @@
       "kind": "docs",
       "title": "Lamport Agent",
       "url": "https://zfhuang99.github.io/github%20copilot/formal%20verification/tla+/2025/11/14/lamport-agent.html",
-      "note": "Agents draft TLA+ from codebases; human validates. mappings.md §10."
+      "note": "Agents draft TLA+ from codebases; human validates. mappings.md \u00a710."
     },
     {
       "kind": "paper",
@@ -636,19 +636,19 @@
       "kind": "repo",
       "title": "dayhaysoos/jevals",
       "url": "https://github.com/dayhaysoos/jevals",
-      "note": "Local MIT Jev eval workbench (Noul/Choice/Score labeled cases, compare runs, WebMCP + agent skill). Empirical acceptance-test surface for Hypothesis mapping cards; complements evaluate_decisions.py. Not affiliated with TypeSafe. notes.md §24."
+      "note": "Local MIT Jev eval workbench (Noul/Choice/Score labeled cases, compare runs, WebMCP + agent skill). Empirical acceptance-test surface for Hypothesis mapping cards; complements evaluate_decisions.py. Not affiliated with TypeSafe. notes.md \u00a724."
     },
     {
       "kind": "paper",
       "title": "GLiNER: Generalist Model for Named Entity Recognition (arXiv 2311.08526)",
       "url": "https://arxiv.org/abs/2311.08526",
-      "note": "Span locator; Jev-class species 'locate'. Peer of GLiClass categorize and Jev decide. notes.md §25."
+      "note": "Span locator; Jev-class species 'locate'. Peer of GLiClass categorize and Jev decide. notes.md \u00a725."
     },
     {
       "kind": "repo",
       "title": "fastino-ai/gliner2 (GLiNER2.5)",
       "url": "https://github.com/fastino-ai/gliner2",
-      "note": "Local multi-head (entities/classification/records/relations); CPU-first 74–287M. Discourse: laptop agentic decisions. 36× claim is a tweet. notes.md §25."
+      "note": "Local multi-head (entities/classification/records/relations); CPU-first 74\u2013287M. Discourse: laptop agentic decisions. 36\u00d7 claim is a tweet. notes.md \u00a725."
     },
     {
       "kind": "docs",
@@ -666,19 +666,19 @@
       "kind": "repo",
       "title": "thevibeworks/jevgate",
       "url": "https://github.com/thevibeworks/jevgate",
-      "note": "Proven/Refused/Unknown sandwich; cannot block; 0/59 unsafe unasked held-out. mappings.md §18."
+      "note": "Proven/Refused/Unknown sandwich; cannot block; 0/59 unsafe unasked held-out. mappings.md \u00a718."
     },
     {
       "kind": "repo",
       "title": "misbahsy/doc-router",
       "url": "https://github.com/misbahsy/doc-router",
-      "note": "Page OCR router; 155→87 billed; 1.74× $ on 19 docs/155 pages. Same composition as jevgate."
+      "note": "Page OCR router; 155\u219287 billed; 1.74\u00d7 $ on 19 docs/155 pages. Same composition as jevgate."
     },
     {
       "kind": "repo",
       "title": "kevinpita/pi-jev-context",
       "url": "https://github.com/kevinpita/pi-jev-context",
-      "note": "Reversible Pi context sieve; hide not delete. applied-mappings §1 cousin."
+      "note": "Reversible Pi context sieve; hide not delete. applied-mappings \u00a71 cousin."
     },
     {
       "kind": "repo",
@@ -690,13 +690,13 @@
       "kind": "social",
       "title": "singularity_sah: GLiNER local agentic decisions like Jev",
       "url": "https://x.com/singularity_sah/status/2100980051550306418",
-      "note": "10:07 Boise hour. Peer claim; 36× parent tweet is Hypothesis as a number."
+      "note": "10:07 Boise hour. Peer claim; 36\u00d7 parent tweet is Hypothesis as a number."
     },
     {
       "kind": "social",
       "title": "brandonjcarl: Jev input brittleness",
       "url": "https://x.com/brandonjcarl/status/2100976725660192989",
-      "note": "Paraphrase swings p. mappings.md §17."
+      "note": "Paraphrase swings p. mappings.md \u00a717."
     },
     {
       "kind": "social",
@@ -706,7 +706,7 @@
     },
     {
       "kind": "social",
-      "title": "MisbahSy: OCR router 1.74× $",
+      "title": "MisbahSy: OCR router 1.74\u00d7 $",
       "url": "https://x.com/MisbahSy/status/2100979973905592387",
       "note": "Measured 19 docs / 155 pages. doc-router."
     },
@@ -714,7 +714,7 @@
       "kind": "social",
       "title": "Han Xiao: jina-reranker-v3.5 trolley / Jev-style API",
       "url": "https://x.com/hxiao/status/2100973209114075330",
-      "note": "Always pulls lever, 1 death or 1B. Listwise relevancy ≠ decision rationality. Empirical rejection. notes.md §26."
+      "note": "Always pulls lever, 1 death or 1B. Listwise relevancy \u2260 decision rationality. Empirical rejection. notes.md \u00a726."
     },
     {
       "kind": "social",
@@ -726,13 +726,13 @@
       "kind": "repo",
       "title": "huntedman/JevLint",
       "url": "https://github.com/huntedman/JevLint",
-      "note": "File-level convention Nouls; write→check→fix; sibling of jev-pref. Independent. notes.md §26."
+      "note": "File-level convention Nouls; write\u2192check\u2192fix; sibling of jev-pref. Independent. notes.md \u00a726."
     },
     {
       "kind": "social",
       "title": "James Ward: Effect-oriented Jev-driven state-machine loops",
       "url": "https://x.com/JamesWard/status/2100981305009664299",
-      "note": "Image post, no note_tweet. ZIO handler runs effects; Jev stays the outer loop. Not Effect.ts. mappings.md §19. notes.md §28."
+      "note": "Image post, no note_tweet. ZIO handler runs effects; Jev stays the outer loop. Not Effect.ts. mappings.md \u00a719. notes.md \u00a728."
     },
     {
       "kind": "repo",
@@ -750,7 +750,7 @@
       "kind": "social",
       "title": "urchade: GLiNER2 multi-task classification like jev",
       "url": "https://x.com/urchadeDS/status/2100929613857804379",
-      "note": "GLiNER author, primary source. Image is GLiGuard Figure 3. Categorize beside decide. notes.md §28."
+      "note": "GLiNER author, primary source. Image is GLiGuard Figure 3. Categorize beside decide. notes.md \u00a728."
     },
     {
       "kind": "paper",
@@ -762,7 +762,7 @@
       "kind": "repo",
       "title": "fastino-ai/GLiGuard",
       "url": "https://github.com/fastino-ai/GLiGuard",
-      "note": "Paper's code/models link. README decision rules are policy-in-code, not a new doctrine. Do not copy an install or extractor API into Augustus. notes.md §30."
+      "note": "Paper's code/models link. README decision rules are policy-in-code, not a new doctrine. Do not copy an install or extractor API into Augustus. notes.md \u00a730."
     },
     {
       "kind": "model",
@@ -774,25 +774,25 @@
       "kind": "social",
       "title": "Archer Hume: open-weight Jev-class drop status",
       "url": "https://x.com/4rcherhume/status/2100848840643612729",
-      "note": "2026-09-18T07:26Z. ~65% done. Qwen3.8 27b-based, 265k, multimodal, no audio. Smarter-than-Jev is a claim. WATCH. notes.md §31, §32."
+      "note": "2026-09-18T07:26Z. Probably ~65% done, release tomorrow. Qwen3.8 27b-based, 265k, multimodal no audio, seemingly quantises well. Smarter-than-Jev is a claim. WATCH. notes.md \u00a731, \u00a732."
     },
     {
       "kind": "social",
       "title": "Archer Hume: open-weight intent + architecture essay",
       "url": "https://x.com/4rcherhume/status/2100555442061820286",
-      "note": "2026-09-17. Open-weight intent; the essay is the writeup while training. notes.md §31, §32."
+      "note": "2026-09-17T12:00Z. Will release an open-weight version; training takes time; essay is the sauce. notes.md \u00a731."
     },
     {
       "kind": "docs",
-      "title": "Jev's Architecture Unmasked — archerhume",
+      "title": "Jev's Architecture Unmasked \u2014 archerhume",
       "url": "https://archerhume.com/posts/jevs-architecture-unmasked/",
-      "note": "17 Sep 2026, ~28 min, HTTP 200. Reconstruction from ~10k probes of jev-1.13.0, not a TypeSafe contract. notes.md §32."
+      "note": "17 Sep 2026. Black-box reconstruction, not a TypeSafe contract. HTTP 200. notes.md \u00a731."
     },
     {
       "kind": "repo",
       "title": "zmtomorrow/TypeAR",
       "url": "https://github.com/zmtomorrow/TypeAR",
-      "note": "Constrained-AR surface, not a decision head. README HTTP 200. No license file. notes.md §31. Essay reconstruction is §32."
+      "note": "Type-Safe Decoding for Autoregressive LLMs. Python. Created 2026-09-17, README updated 2026-09-18. Constrained-AR surface, not a decision head. No license file. notes.md \u00a732."
     },
     {
       "kind": "repo",

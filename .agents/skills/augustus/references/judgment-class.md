@@ -247,7 +247,7 @@ your labels.
 
 [Archer Hume, *Jev's Architecture Unmasked*](https://archerhume.com/posts/jevs-architecture-unmasked/)
 (17 Sep 2026, `jev-1.13.0`). **Reconstruction from ~10k API probes, not a
-TypeSafe contract.** Observed vs inferred: `research/notes.md` §32. The
+TypeSafe contract.** Observed vs inferred: `research/notes.md` §31. The
 ~32k / ~65k / 255 envelope he re-measured matches the live docs; the
 essay does not override them.
 

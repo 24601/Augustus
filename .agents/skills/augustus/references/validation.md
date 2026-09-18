@@ -15,7 +15,10 @@
 ## Behavioral tests (measure; Jev promises no invariances)
 
 Candidate removal (drop the winner — does probability spread sensibly?);
-option-order shuffle; **paraphrase pairs** (semantically equivalent
+option-order shuffle; **irrelevant-option / IIA** (append an option that
+should not move odds among the rest — Hume's reconstruction,
+`research/notes.md` §31, not a new invariance the API promises);
+**paraphrase pairs** (semantically equivalent
 wording — does p swing enough to change the *act*? `mappings.md` §17);
 irrelevant distractor injection in state; no-match and
 empty-evidence cases; policy-boundary cases just above/below thresholds;

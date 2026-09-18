@@ -160,7 +160,7 @@ not cheaper LLM". No verified independent benchmarks yet.
 - Modularity conclusion stands: full roster of small skills + cheap Jev rank-then-verify front door; frontmatter description IS the routing payload — write it for a 700-character excerpt and one-second judgment.
 
 ### Statistical discipline numbers
-- Calibration holds near-distribution (ECE 0.0313, Archer Hume) but collapses out of distribution: 32% accuracy + 0.30 mean top-prob on novel 2-step word problems → Jev flags uncertainty instead of reasoning through it. Rule: never use Jev where the judgment requires a derivation; decompose until each question is observational. Architecture reconstruction (readout, isolation, IIA, confidence-as-arithmetic): §32. Not a new contract.
+- Calibration holds near-distribution (ECE 0.0313, Archer Hume) but collapses out of distribution: 32% accuracy + 0.30 mean top-prob on novel 2-step word problems → Jev flags uncertainty instead of reasoning through it. Rule: never use Jev where the judgment requires a derivation; decompose until each question is observational. Architecture reconstruction (readout, isolation, IIA, confidence-as-arithmetic): §31. Not a new contract.
 - Same Score ≠ same quality: [0,1,0] vs [0.5,0,0.5] both 1.0 (§1) — always read probabilities + confidence together.
 - Open-model reverse engineering (openjev, openjev-sglang, jevmlx, NanoJev, reflex): consensus that the pattern is prefill-once + read typed option logits directly, no generation. Consistent with parallel fan-out behavior; treat as hypothesis about the closed model.
 
@@ -1210,14 +1210,14 @@ abstention type. Enum ≤16 plus "must pick" is brittleness: compose with
 hook, a different hole from jevgate; this card does not cite it.
 
 **Versus Jev fan-out and Ward.** Questions on one Jev request do not
-see each other's answers (`question-design.md`; §32 item 7).
+see each other's answers (`question-design.md`; §31 item 7).
 TypeAR sequential mode does the opposite. `mappings.md` §19
 (effect-oriented state-machine loops) already existed at this write:
 code owns transitions. Sequential conditioning is not that machine.
 Batch mode is the isolation pattern.
 
 **Composition hypothesis.** TypeAR's example and Hume's announced drop
-(§32) both name Qwen3.8 27B. Running this surface on those weights
+(§31) both name Qwen3.8 27B. Running this surface on those weights
 versus stock Qwen is **Hypothesis** until the weights, license, and
 evals exist. Hub search this pass: no model repos under authors
 `archerhume` or `4rcherhume`, and none for query "archer hume jev".
