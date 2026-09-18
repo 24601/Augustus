@@ -133,9 +133,11 @@ Canonical measurement home. Jevals falsifies the **decision stage**.
 Harbor, read with Will Brown's taskset × harness × runtime split, is
 the ideal substrate for the **product loop**. This is design-judgment
 hygiene, not a Jev wrapper, not a jevals tutorial, and not a Harbor
-install guide. One line, verified in the workbench README at `af6fecc`:
-the documented local entry is `npx jevals`. Flags, keys, and ports stay
-in that README.
+install guide. The workbench is external
+([dayhaysoos/jevals](https://github.com/dayhaysoos/jevals), pin `af6fecc`).
+Flags, keys, and ports stay in that README. PRODUCT.md at that pin says
+no npm publication has been performed, so do not treat a package name
+as an install path.
 
 **Order.** Taskset first → stage contracts → stage metrics + e2e → HoH
 hill-climb; DSPy/Ax only on the LM-program slice; jevals/calibration

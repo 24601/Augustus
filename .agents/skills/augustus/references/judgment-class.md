@@ -59,8 +59,11 @@ rank        listwise / cross-encoder       order a retrieved shortlist
 perceive    CLIP / SigLIP / region Choice  score candidates you extracted
 ```
 
-SAM 3.1 (masks and tracks) and an ASR transcript are **perceive**.
-Jev is **decide**. Stacking them is composition, not one model — card
+SAM 3.1 (masks and tracks) and an ASR transcript are upstream
+perception *producers*. They emit masks or text, not a score over
+candidates you already extracted, so they are not the **perceive**
+species (CLIP / SigLIP / region Choice). Jev on that serialized state
+is **decide**. Stacking them is composition, not one model — card
 below, next to the when-to-use table.
 
 - **Locate.** [GLiNER](https://arxiv.org/abs/2311.08526) (Zaratiana et al.,
@@ -391,7 +394,7 @@ is the generator, not a sixth surface.
 
 | Surface | Calibration | VOI / gather | Latency / $ | Deployment control | Multimodal | Enum size |
 |---|---|---|---|---|---|---|
-| **Proprietary Jev** | Decision objective; in-dist ECE 0.0313, OOD collapse (`notes.md` §7). Choice `confidence` is arithmetic on the distribution (§31) | Independent questions cheap; sequential gather is a new request | Cloud envelope; ~$0.042/MTok input | No weights. AU health data cannot ride this API if residency forbids it | Text. jev-visual is region Choice | ≤255 Choice |
+| **Proprietary Jev** | Decision objective; in-dist ECE 0.0313, OOD collapse (`notes.md` §7). Choice `confidence` is arithmetic on the distribution (§31) | Independent questions cheap; sequential gather is a new request | Cloud envelope; ~$0.042/MTok input (their figure, unreproduced; `/pricing` 404 on 2026-09-18, `notes.md` §1, §42) | No weights. AU health data cannot ride this API if residency forbids it | Text. jev-visual is region Choice | ≤255 Choice |
 | **Archer open decision-model** | **Watch.** No Hub weights this pass. "Smarter than Jev" is a claim against *his* calibration/order warnings | Same *hole* as Jev when it ships | 27B dense for one-forward-pass local speed once AR is removed; MoE next, then shrink. Quant-friendly is a claim | Healthcare AU data-residency / deployment control, **not** anti-TypeSafe | Multimodal, no audio. Text post-training reportedly generalizes to images with little intentional multimodal training | Unknown until the drop |
 | **TypeAR / pcdServer** (constrained AR) | Next-token constraint ≠ Noul. No abstention primitive. Public logit dump: [`Mikhail/mini-jev-runs`](https://huggingface.co/datasets/Mikhail/mini-jev-runs) (27.9k; scores "deliberately *not* calibrated") | TypeAR sequential conditions later fields; pcdServer batches independent fields after one prefix. Neither is gather-as-act | TypeAR 5.8× is *their* K=16 boolean example. pcdServer: native llama.cpp, Apple+Linux | Self-host the generator / GGUF | Whatever the base model has | TypeAR enums ≤16; pcdServer 2–256 strings, 1–63 fields |
 | **Encoder open-jev** (DeBERTa-v3-large 434M) | Public gold, CE+Brier, val temperature. In-domain ECE 0.022 / acc 0.854; OOD acc 0.690 / ECE 0.035. **Not** a Jev teacher-copy | One pass over state + all questions; 512 tok | Author: 28 ms / 10 questions H100; 1.8 s / 4q M1 Max CPU | apache-2.0, self-host | Text | Jev-shaped 255 / Score 2–10 / Noul; 512 ctx |
@@ -447,9 +450,11 @@ omni System One.
 [SAM 3.1](https://huggingface.co/facebook/sam3.1) is Meta Segment
 Anything 3.1 ([release](https://github.com/facebookresearch/sam3/blob/main/RELEASE_SAM3p1.md),
 [blog](https://ai.meta.com/blog/segment-anything-model-3/)): promptable
-masks and tracks (Object Multiplex). That is **perceive**. An ASR
-transcript is **perceive**. System One on the serialized objects or
-utterances is **decide**. Composition ≠ one model. A public instance
+masks and tracks (Object Multiplex). SAM and ASR are upstream
+perception producers, not the perceive species: their output is a
+mask, a track, or a transcript, not a score over candidates you
+extracted. System One on the serialized objects or utterances is
+**decide**. Composition ≠ one model. A public instance
 of transcript-then-Jev, not the source of this ask:
 [Moritz Kremb](https://x.com/moritzkremb/status/2100577979021832365)
 (2026-09-17). His latency and price are his receipt, not a class

@@ -89,7 +89,7 @@ program interface.** The program's signature/prediction API does not change.
 - **Teacher/student split fits the primitives**: teacher (frontier model)
   proposes candidates or distills criteria; student (Jev) executes the typed
   path cheaply. In Ax terms: strong `teacherAI`, cheap `studentAI`
-  (`ai({name:'typesafe'})`), `maxMetricCalls` bounded.
+  (seat names `teacherAI` and `studentAI`), `maxMetricCalls` bounded.
 - **Do not let the optimizer tune thresholds off the sweep it runs.** The
   jev-dspy-lab rule: threshold sweep is exploratory; the confirmatory gate
   is chosen before the run and reported from the same run, never the best
@@ -124,8 +124,10 @@ PAW (programasweights, pre-dates Jev — Python SDK 0.4.6, Mar 2026 repo, MIT)
 compiles a natural-language spec into a **tiny neural program** — a `.paw`
 bundle of KV-cache prefix + optional LoRA adapter over a fixed interpreter
 (Qwen3-0.6B ~22 MB or GPT-2 ~5 MB, WebAssembly-capable) that then runs locally,
-deterministic, no API at runtime: `paw.compile("Classify…")`, `fn(x) → label`
-in ~0.03–0.5 s. Fuzzy text tasks: classify, extract, repair, triage, route.
+deterministic, no API at runtime, on the order of 0.03–0.5 s. The
+compile step and the resulting local function are seat names in the
+PAW docs, not a call to copy. Fuzzy text tasks: classify, extract,
+repair, triage, route.
 
 **Why it pairs with Jev** — complementary, not overlapping. Jev is the
 calibrated semantic oracle (state → typed decision, network, per-call); PAW is

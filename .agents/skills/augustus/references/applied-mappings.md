@@ -180,7 +180,7 @@ fail closed on side effects; no-match option when coverage is open
 ```
 
 **Example**: skill_suggestion cookbook (**Contract**); GodsBoy 94.4% vs
-70.8% lexical; `Dicklesworthstone/skillranker` from live session context;
+70.8% lexical (exploratory: questions revised after the first full run); `Dicklesworthstone/skillranker` from live session context;
 LlamaIndex selectors fail closed or a declared default.
 [`rajdhakad9826/routeKit`](https://github.com/rajdhakad9826/routeKit):
 Jev estimates task *requirements*; code applies hard constraints and a

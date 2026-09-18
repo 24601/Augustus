@@ -352,4 +352,14 @@
 - X discourse archived in notes §42. No wrapper, no install copy.
 - notes.md §42; sources.json; findings.md batch #25.
 
+## 2026-09-18 — second adversarial pass
+
+- Whole skill at `7b3a0c3`. Zero blockers. §27 fixes still held.
+- Patched five kept defects (`notes.md` §43): unpublished jevals
+  entry removed from `validation.md`; SAM/ASR out of the perceive
+  species; two call shapes out of `optimizer-integration.md`;
+  $0.042/MTok tagged; GodsBoy 94.4% marked exploratory.
+- Dropped: Harbor wording matches the verifiers v1 post; mini-jev-runs
+  dual use; translation-invariant claim; SREGym arithmetic.
+
 

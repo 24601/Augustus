@@ -210,6 +210,12 @@ Adversarial review of the whole skill against its own non-negotiables
   constant; all Hypothesis-range references aligned to §6–§19
 - Ownership split labeled Contract in `toolbox-mapping.md`, matching
   `mappings.md` §8; done-check splits structure from the Noul
+
+Second pass on `7b3a0c3` (`research/notes.md` §43). Zero blockers.
+Dropped the unpublished `npx jevals` line; SAM and ASR are upstream
+producers, not the perceive species; removed two call shapes from
+`optimizer-integration.md`; tagged the $0.042/MTok cell as a vendor
+figure; marked GodsBoy 94.4% exploratory.
 - Skill description gained trigger terms for boundary audit, question
   diagnosis, agent self-supervision, and optimizer placement
 

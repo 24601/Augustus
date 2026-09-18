@@ -1722,8 +1722,9 @@ audio. The handoff is a contract surface — one sentence in
 `formal-methods.md`. Code owns the schema and the act.
 
 Card: `judgment-class.md`. One composition sentence:
-`mental-models.md`. Species: SAM perceive, ASR perceive, Jev decide.
-Composition ≠ one model.
+`mental-models.md`. SAM and ASR are upstream producers, not the
+perceive species; Jev on that state is decide. Composition ≠ one model.
+Corrected in §43; the first draft of this section called them perceive.
 
 ## 40. Eval & hill-climb — jevals practices + Harbor substrate (2026-09-18)
 
@@ -2086,3 +2087,37 @@ row; FAQ; `applied-mappings.md` §3 / §5; `mappings.md` §4 / §6 / §9 /
 §18; `mixed-architecture.md` gallery + topology B; `mental-models.md`
 VOI; `validation.md` games + openevals; `formal-methods.md` softmax
 still isn't a proof.
+
+## 43. Second adversarial pass (2026-09-18) — review findings, not doctrine
+
+Read-only pass on HEAD `7b3a0c3` (whole skill, not only the diff).
+Prior memo is §27 at `31c8914`. §27 fixes still held: per-action fail
+policy, Nimble license split, openjev-lm 92.9 vs 98.1, Archer Watch,
+Ward as ZIO, jevgate constants not universal, Noul is not a proof.
+Zero blockers. Four candidates dropped after a second read (Harbor
+"first fully supported" is verbatim in the verifiers v1 post;
+`mini-jev-runs` has two legitimate uses; SKILL.md "translation-invariant"
+names the discriminative family; SREGym 20/50→24/50 is attempt-level,
+improved/regressed is over 10 faults).
+
+Kept, and patched in the cards:
+
+1. `validation.md` named `npx jevals` as a verified entry. PRODUCT.md at
+   `af6fecc` says no npm publication. The command is gone from the card.
+   Flags, keys, and ports stay in that README.
+2. SAM 3.1 and ASR were called the **perceive** species. Perceive scores
+   candidates you already extracted (CLIP / SigLIP / region Choice).
+   Masks and transcripts are upstream producers. `judgment-class.md`,
+   `docs/ecosystem.md`. §39's species sentence corrected above.
+3. `optimizer-integration.md` said "no call shape" and then showed
+   `ai({name:'typesafe'})` and `paw.compile(...)`. Those two forms are
+   gone. Seat names stay. `paw.compile` had no symbol in the archive.
+4. Proprietary Jev latency cell now tags ~$0.042/MTok as their figure;
+   `/pricing` 404 on this day (§42).
+5. GodsBoy 94.4% in `applied-mappings.md` §5 now says exploratory
+   (questions revised after the first full run). §7 already had the
+   leakage note.
+
+Not patched, standing risk: doctrine is copied across cards and the
+next fold is where copies drift; `notes.md` §1 is a one-day pin, not a
+live contract.

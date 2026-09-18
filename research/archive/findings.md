@@ -640,5 +640,13 @@ Note: `research/notes.md` §42. Docs-only. Archer still Watch.
 Cross-repo addition: (ar) three open paths — encoder / constrained AR
 serving / trained decision-only — plus a VOI gate *before* any of them.
 
+## Batch #26 — second adversarial pass (2026-09-18)
+
+Review of the whole skill at `7b3a0c3`. Zero blockers. Patched: no
+install command on the jevals card (PRODUCT says unpublished); SAM/ASR
+are producers not perceive; two call shapes removed from the optimizer
+card; $0.042/MTok tagged vendor-stated; GodsBoy 94.4% tagged
+exploratory. `notes.md` §43.
+
 
 
