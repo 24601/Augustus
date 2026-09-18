@@ -80,3 +80,38 @@ hashes. PoC benchmarks on 3 cases without caching are a lead, not a result.
   optimizable inside DSPy."
 - Nothing yet covers optimizing *against* Jev as the metric model
   end-to-end; if you build it, measure judge variance first (see above).
+
+## ProgramAsWeights: materializing a Jev judgment locally (Hypothesis)
+
+PAW (programasweights, pre-dates Jev — Python SDK 0.4.6, Mar 2026 repo, MIT)
+compiles a natural-language spec into a **tiny neural program** — a `.paw`
+bundle of KV-cache prefix + optional LoRA adapter over a fixed interpreter
+(Qwen3-0.6B ~22 MB or GPT-2 ~5 MB, WebAssembly-capable) that then runs locally,
+deterministic, no API at runtime: `paw.compile("Classify…")`, `fn(x) → label`
+in ~0.03–0.5 s. Fuzzy text tasks: classify, extract, repair, triage, route.
+
+**Why it pairs with Jev** — complementary, not overlapping. Jev is the
+calibrated semantic oracle (state → typed decision, network, per-call); PAW is
+a *materialized judgment*: once a decision surface is stable, compile it into
+a local artifact for high-volume/offline/zero-latency paths. No measured Jev+
+PAW integration exists in the wild (checked the full 187-repo archive), so
+this is Hypothesis-grade. Two candidate couplings:
+
+1. **Jev as the labeling teacher.** Use Jev fan-outs to score a labeled set
+   (its calibration is the reason to trust the labels), pass `examples=[…]`
+   into the PAW compile/finetune compiler (`paw-ft-bs48`), then serve locally.
+   Jev = oracle, PAW = distilled student. This is ordinary distillation with
+   an unusually cheap teacher.
+2. **Jev as the calibration gate on PAW.** Shadow both on live traffic;
+   a calibrated Jev judgment arbitrates disagreements and the disagreement
+   rate is the drift signal for when to recompile the PAW program. Threshold
+   obligations apply (per-dataset calibration; see validation.md).
+
+**When NOT to pair:** if the decision surface still changes daily, or inputs
+need long-tail reasoning beyond the fuzzy-task classes PAW is sized for,
+keep calling Jev — premature compilation freezes a moving judgment. The
+stability gate is the same shadow-mode behavioral-eval gate in validation.md.
+
+**Test** (any claimed integration must show): labeled-set agreement Jev vs
+PAW output on held-out data, per-class cost/latency comparison, and a drift
+measurement over a week of live inputs.
