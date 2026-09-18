@@ -128,8 +128,38 @@ beam vs flat-shortlist baseline on realistic cases; inspect pruning failures;
 judge finalists under one common leaf criterion.
 Links: hierarchical_classification, skill_suggestion cookbooks.
 
-**Experimental beside this card**: "Jev Score as MCTS value function." A
-rubric position is not expected future return. Credible MCTS needs real
-transitions/rollouts, a reward definition, and proof the evaluator predicts
-that return. Test Jev as policy prior or leaf heuristic only — no MCTS+Jev
-artifact exists in the wild yet (checked 2026-09-18).
+**Empirical recipe beside this card (MCTS+Jev, launch week — verified in the
+archive, not yet independently reproduced):** two implementations now exist.
+`lhemerly/mcts-agent` splits roles: a generator proposes candidate actions
+(once per expansion), then **one batched call** does all Jev work — Noul
+prunes invalid actions (all candidates in parallel, keep ≥0.8) and gates
+early stop (≥0.85); Choice supplies PUCT policy priors P(s,a) and picks the
+branching factor from primes by uncertainty; Score (1–10 rubric) is the leaf
+value V(s), replacing random rollouts. Q normalized /10; unvisited children
+inherit the parent's value (first-play urgency) so one lucky child doesn't
+starve siblings. `paulobueno164/jev-mcts` is the correction that makes the
+pattern defensible:
+
+1. **Fidelity is typed, not commented.** `grounded` environments (a real
+   simulator exists) get depth up to 24; `speculative` ones (no simulator —
+   every `apply()` is a guess) are hard-capped at depth 2, and `rollout()`
+   throws. A tree built on guessed transitions scored by another model
+   composes error instead of reducing it; the cap lives in code, not prose.
+2. **Only probes concede.** Agent claims ("it worked") go to the journal and
+   decide nothing; exit-code probes measured after execution are the sole
+   source of granted milestones. "The tree supposes; the probe measures; only
+   the probe concedes."
+3. **Calibrate before thresholding.** Raw cutoffs (0.8/0.85) are replaced by
+   a confidence curve calibrated against exact-search ground truth.
+4. **Debias position.** Candidate order is shuffled with a seeded RNG and a
+   second debias pass averages judgments with reversed order.
+5. **Measured result** (24 scenarios, known ground truth, evaluator-prior
+   arm): MCTS 24/24 vs greedy 1/24 — the win comes from a delayed-reward
+   trap a 1-ply heuristic cannot see; evaluator-supplied priors changed cost,
+   not outcome: 5893→2743 calls, 8.0→7.0 turns, $0.101→$0.047. First-call
+   latency ~2s (handshake), then ~0.5s/judgment on a hobby key.
+
+Still true, and sharpened: the Score value heuristic is the weakest link —
+trust it only where the environment validates outcomes, and keep the
+grounded/speculative split in types. Any depth beyond a simulator is
+estimation wearing a measurement costume.

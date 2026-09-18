@@ -162,3 +162,31 @@ not cheaper LLM". No verified independent benchmarks yet.
 - Calibration holds near-distribution (ECE 0.0313, Archer Hume) but collapses out of distribution: 32% accuracy + 0.30 mean top-prob on novel 2-step word problems → Jev flags uncertainty instead of reasoning through it. Rule: never use Jev where the judgment requires a derivation; decompose until each question is observational.
 - Same Score ≠ same quality: [0,1,0] vs [0.5,0,0.5] both 1.0 (§1) — always read probabilities + confidence together.
 - Open-model reverse engineering (openjev, openjev-sglang, jevmlx, NanoJev, reflex): consensus that the pattern is prefill-once + read typed option logits directly, no generation. Consistent with parallel fan-out behavior; treat as hypothesis about the closed model.
+
+## 8. Topic-index pass (2026-09-18, ~80 more repos; archive = 184 clones)
+
+- **Jev-as-a-judge, judge variance (danielgshea/jev-as-a-judge)**: 100 judge
+  repetitions over 5 frozen agent outputs. Jev judge's ratings varied 224x
+  LESS (quality metric) and 279x LESS (rubric) than a GPT judge's; outcome
+  disagreement 0% vs 0.2%. Recipe: before trusting any judge (Jev or LLM),
+  run repeated judgments over frozen outputs and compare spread, not just
+  agreement. This is the measured basis for using Jev to test skills.
+- **ndolinschi family (toolgate, harnessjudge, trustgate, swarmrouter,
+  mcpmatch...)**: allow/ask_human/deny for planned tool calls; ok/retry/
+  escalate/stop for agent steps — same gate vocabulary as pi-jev/pi-warden;
+  a whole suite built on one judgment shape.
+- **inanna-malick/jev-dsl (Haskell)**: questions written as typed packets,
+  type-inferred, answers returned under the same labels as records; every
+  answer consumed through a handler per alternative. Good reference for
+  "callability": the branch that runs is always one the program wrote.
+- **shamazharikh/qwen-rlcd (Qwen3.5-0.8B reproduction)**: mechanism =
+  prefill state once, copy cache per branch, run every question+answer
+  branch as one padded batch, read hidden state at last real token.
+  Branches isolated by construction in both linear-attention and full
+  attention layers → results cannot depend on question/option order.
+  Confirms the openjev prefill-only hypothesis; hybrid-layer detail
+  (18 DeltaNet + 6 attention) explains why naive tree masks fail.
+- **awesome-jev-by-typesafe (410★)**: 18-case use-case map + production
+  decision loop (inspect → evaluate → compose → gate → record → calibrate)
+  and an explicit "what Jev is not" list. Already mirrored in skill; new
+  only as: record-the-version step belongs in every decision card.

@@ -72,3 +72,14 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
 - Distinct descriptions are a retrieval feature — lookalike descriptions
   were the top failure source in the official skill_suggestion cookbook.
   Rewrite frontmatter like Choice criteria (what / not_for / examples).
+- **Judge variance before judge trust** (danielgshea/jev-as-a-judge, 100
+  repetitions over frozen outputs, jev-1.13.0): a Jev judge's repeated
+  ratings varied 224× less on a quality metric and 279× less on a rubric
+  than a generative LLM judge's, with 0% outcome disagreement. A judge that
+  is consistent is one you can threshold; a judge that moves between runs
+  is noise you cannot gate. Any grader used to test a skill — Jev or LLM —
+  gets this variance check first, over frozen outputs, before its numbers
+  mean anything.
+- Gate vocabulary is converging across implementations; reuse it rather
+  than inventing: allow / ask_human / deny (toolgate), ok / retry /
+  escalate / stop (harnessjudge). Same shape as the lifecycle gates above.

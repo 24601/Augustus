@@ -19,3 +19,13 @@
 - Baseline research archive (sources.json, notes.md), augustus skill with
   mappings + validation references, evaluator script, hourly refresh script,
   Claude plugin marketplace manifest.
+
+## 2026-09-18 (topic-index pass 3)
+- Fixed census method: exact GitHub search paginated (700 repos created since
+  09-14 captured; 700-result cap noted) + topics/jev crawl → ~80 additional
+  repos; archive now 184 clones. Miss-cause documented: earlier star-sorted
+  limit-40 search cut the low-star tail (incl. both MCTS repos).
+- Skill: MCTS mapping promoted experimental → empirical recipe (grounded vs
+  speculative fidelity in types; probes-only concession; measured 24/24 vs
+  1/24 greedy); agent-self-assessment.md gains the judge-variance recipe
+  (Jev judge 224-279x more consistent than LLM judge over 100 reps).

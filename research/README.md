@@ -18,3 +18,8 @@ Retry the provider APIs from `scripts/refresh-jev-research.sh` once fixed.
 Freshness rule: Jev launched 2026-09-15/16. Anything about Jev older than
 ~2026-09-11 is a miss. Re-verify prices, limits, model aliases, and star
 counts every pass — they move without notice while GPU capacity lands.
+
+Method fix (2026-09-18): the first census sorted `gh search repos` by stars
+with --limit 40, which silently cut the 1-star tail — including two MCTS+Jev
+implementations with "jev" in the name. Rule going forward: paginate all
+result pages, sort by updated/created, never by stars alone.
