@@ -67,7 +67,7 @@ from the page; Jev picks among visible elements; code enforces prices/dates;
 answers are *located*, never composed. The day the task needs a paragraph,
 an LLM re-enters — that is mixed architecture, not a different religion.
 
-## "It's just classification"
+## It's just classification
 
 Classification *is* the oldest AI task. Agree with the skeptic
 ([@dt_sqr](https://x.com/i/status/2100957356389511173)) on that fact, then
