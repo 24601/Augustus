@@ -4,6 +4,8 @@ description: "Augustus designs judgment-assisted systems with TypeSafe Jev Syste
 license: MIT
 metadata:
   version: 0.1.0
+  typesafe_skill: v0.5.7
+  typesafe_skill_commit: 65a39f3
   tribute: "Named for Augustus De Morgan (1806-1871), mentor of William Stanley Jevons."
 ---
 

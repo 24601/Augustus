@@ -46,7 +46,7 @@ Per-keystroke launchers (104ms median, sequence-tagged staleness), firehose mode
 
 ## The skill that owns this analysis
 
-[Amp repo](https://ampcode.com/@basit/Augustus) — `SKILL.md` + 9 reference cards
+[GitHub](https://github.com/24601/Augustus) — `SKILL.md` + 9 reference cards
 covering mental model, method substitution (toolbox sweep), composition algebra
 (11 positions), question-design mechanics, validation gates, and optimizer
 coupling (Ax/DSPy/ProgramAsWeights).

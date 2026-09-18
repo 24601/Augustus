@@ -1,7 +1,7 @@
 # Augustus
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/github/v/release/24601/Augustus)](https://github.com/24601/Augustus/releases)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-marketplace-purple.svg)](.claude-plugin/marketplace.json)
 [![Skills.sh](https://img.shields.io/badge/skills.sh-compatible-green.svg)](https://www.skills.sh/)
 
@@ -61,7 +61,11 @@ GPT's instructions or a Project's knowledge and it will follow the protocol.
 
 ## Versioning
 
-See [CHANGELOG.md](CHANGELOG.md). Current: **0.1.0**.
+See [CHANGELOG.md](CHANGELOG.md) and
+[releases](https://github.com/24601/Augustus/releases). Current: **0.1.0**,
+written against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skills/tree/v0.5.7)
+(`65a39f3`). Re-read live TypeSafe docs before treating that pin as current
+API behavior.
 
 ## License
 
