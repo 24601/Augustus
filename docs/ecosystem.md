@@ -46,7 +46,7 @@ Per-keystroke launchers (104ms median, sequence-tagged staleness), firehose mode
 - **arnabgho/rlcd-lite** — GRPO + Brier proper-scoring-rule reward → calibrated decisions; binary reward doesn't calibrate.
 - **stephanj/parallelConstraintDecoding** — whole JSON schema of booleans/enums in two forward passes (prefill → parallel masked fields).
 - **Foadsf/jev-for-engineers**, **AbdelStark/jev-benchmarks**, **BrendanH18/jev-lab** — measurement discipline and cost/latency visibility.
-- **dayhaysoos/jevals** — local MIT workbench: labeled cases (Noul / Choice / Score), compare runs, WebMCP + agent skill. Empirical acceptance-test surface for Hypothesis mapping cards; complements `evaluate_decisions.py`. Not affiliated with TypeSafe. Pointer: `research/notes.md` §24. Hygiene and the Harbor substrate: `validation.md` Eval & hill-climb (`notes.md` §40). Shared bake-off exemplar this hour: [`pngwn/open-jev-laya-bench`](https://huggingface.co/datasets/pngwn/open-jev-laya-bench) (ECE/NLL/Brier; LLM-as-judge is not the score; `notes.md` §46).
+- **dayhaysoos/jevals** — local MIT workbench: labeled cases (Noul / Choice / Score), compare runs, WebMCP + agent skill. Empirical acceptance-test surface for Hypothesis mapping cards; complements `evaluate_decisions.py`. Not affiliated with TypeSafe. Pointer: `research/notes.md` §24. Hygiene and the Harbor substrate: `validation.md` Eval & hill-climb (`notes.md` §40). Shared bake-off exemplar: [`pngwn/open-jev-laya-bench`](https://huggingface.co/datasets/pngwn/open-jev-laya-bench) (ECE/NLL/Brier; LLM-as-judge is not the score; `notes.md` §46). Harbor-style frozen protocol vs constrained LLMs: [`nibzard/decision-model-benchmark`](https://github.com/nibzard/decision-model-benchmark) (DMB v2; jev banking 76.3% / spam 93.0% / 256+ cap; p50 264–276 ms; $0.07/1k; `notes.md` §49). Feedstock: [`Jevals/jevals-data`](https://github.com/Jevals/jevals-data) (CC-BY-4.0 boards + JSONL; recompute-from-logs; 2026-09-18 board). Boundary map (not a leaderboard): [`Zaious/jev-capability-atlas`](https://github.com/Zaious/jev-capability-atlas). Combinatorial negative: [`simonmesmith/jev-arc-agi-v1-experiment`](https://github.com/simonmesmith/jev-arc-agi-v1-experiment) (Direct Jev 4/400).
 - **jeiel85/jevscope** — local-first visual debugger + JSONL regression for Choice/Score/Noul; compare two definitions; policy buckets are JevScope-derived. Sits next to jevals. Pointer: `research/notes.md` §25.
 
 ### Local / open heads & GLi\* species
@@ -54,7 +54,9 @@ Per-keystroke launchers (104ms median, sequence-tagged staleness), firehose mode
 - **GLiGuard** (fastino-ai) — 0.3B GLiNER2 encoder, checkpoint `fastino/gliguard-LLMGuardrails-300M`. One bidirectional pass over a safety schema. Same interface shape as batched questions; different objective. Not a Jev weight clone. `judgment-class.md`; `notes.md` §30.
 - **DECRUX9812/openjev-lm** — Qwen2.5-0.5B+LoRA distilled from hosted Jev answers; 65/70 = 92.9% on 70 hand-labelled rows (one annotator, one domain, one seed) overnight on 6 vCPU, $0/call. Its 98.1% on fresh rows is teacher *agreement*, not gold. Receipts pattern: `notes.md` §25, §44.
 - **convaiinnovations/laya** — open Choice/Score/Noul head, text-only, 512 tok. Companion packaging this hour: [`laya-typed-decisions`](https://huggingface.co/convaiinnovations/laya-typed-decisions) (421.3M, acc 0.766 / Brier 0.066 unverified). Shared bake-off: [`pngwn/open-jev-laya-bench`](https://huggingface.co/datasets/pngwn/open-jev-laya-bench) (26+9 tasks, 11959 items; ECE/NLL/Brier; not TypeSafe Jev vs Laya). ONNX replica: [`Mattepiu/laya-onnx`](https://huggingface.co/Mattepiu/laya-onnx) (~15 ms CPU; do not copy vs-Jev table). `notes.md` §18, §42, §46, §48.
-- **jaredpalmer/kev** — Qwen2.5-0.5B LoRA + pointer readout; Apache-2.0; Hub [`jaredpalmer/kev-0.5b`](https://huggingface.co/jaredpalmer/kev-0.5b) plus GitHub release tarball. Runnable Archer reconstruction (`POST /v1/systemone`). Public gold, not a Jev teacher. Isolation exact; ID ECE 0.065 (0.031 after T); acc 0.799 / 1,350. NOTA training must confront `"other"` as a wrong alternative (`notes.md` §45 delta). Not a knowledge/frontier substitute.
+- **jaredpalmer/kev** — Qwen2.5-0.5B LoRA + pointer readout; Apache-2.0; Hub [`jaredpalmer/kev-0.5b`](https://huggingface.co/jaredpalmer/kev-0.5b) plus GitHub release tarball. Runnable Archer reconstruction (`POST /v1/systemone`). Public gold, not a Jev teacher. Isolation exact; ID ECE 0.065 (0.031 after T); acc 0.799 / 1,350. NOTA training must confront `"other"` as a wrong alternative (`notes.md` §45 delta). **100★** this pass (light activity delta; `notes.md` §49). Not a knowledge/frontier substitute.
+- **ikermoel/open-alternative-jev** — packed one-forward logprob System One on open LLMs (HF + vLLM). Apache-2.0. **Not a Jev reproduction.** RACE-H 92.9% @ 4.55 q/s on Qwen3.6-27B 8-bit; interference 6–9%. Space demo. `notes.md` §49.
+- **wfzyx/von** — 14 MB Needle SAN; local `POST /v1/systemone`; sub-15 ms CPU claim / ~38 ms embed. authored144 needle 52.6% — **not a calibrated Jev replica**. Distinguish from jev-local stub and kev pointer. Do not copy vs-Jev table. `notes.md` §49.
 - **BlackwoodAI/blackwood-rlcd** — open multimodal RLCD (image-text-to-text), Jev-compatible shim, CC BY-NC 4.0. Screenshot + marked candidates → Choice. Card: web acc 0.907 vs Jev 1.13 text-only 0.480; letter-shuffle 0.133 vs 0.587; ECE 0.037; ~200 ms H100. Jev still leads general text 0.850 vs 0.786. Not Archer Watch. `notes.md` §46.
 - **Foodoo1/Qwen3-14B-RLCD-Decision-LoRA** — decision-token QLoRA on Qwen3-14B under parallel constrained decoding. Held-out 200-case / 4-field: fraud_risk 64→95%, overall 85.2→98.8% at ~234 ms. Synthetic; not a financial product. `notes.md` §46.
 - **zmtomorrow/TypeAR** — constrained autoregressive decoding surface: typed fields on a pretrained open model, no retraining. Not a proper-scoring decision head. `research/notes.md` §32.
@@ -137,6 +139,19 @@ the READMEs, not a monopoly.
 - **Mattepiu/laya-onnx** — Laya ONNX port (~15 ms CPU). Do not copy the vs-Jev table.
 
 Spotcheck this pass (not a fold): SemIf **1551★** (+60 vs awesome claim 1491); jevlike **866★**. Awesomejev 488/21644 not re-derived (public snapshot still 410 / 10,093). Tracker lastModified **2026-09-18T20:12:57Z**; Laya listed; Blackwood not. Archer still Watch.
+
+### Hourly ~15:52 Boise (boundary map / Harbor bake-off / dual-process)
+
+Patterns, not a catalog. `notes.md` §49. TypeSafe Jev is the exemplar, not a monopoly. Archer still Watch. X discourse blocked this hour.
+
+- **Zaious/jev-capability-atlas** — when-it-holds map with API receipts. Axis: extractable from fed state vs needs outside knowledge. History suite table (A wrong@0.90 / B near-flat 0.07 / C right@0.97). Component node ≠ internals-as-FSM. Dangerous-high ECE (DAIR Emotion). Browser-use = DOM-as-text + fan-out, not vision.
+- **nibzard/decision-model-benchmark (DMB)** — frozen protocol: jev vs 8 constrained LLMs vs baselines. v2 report of record. jev banking 76.3% / spam 93.0% / 256+ cap; p50 264–276 ms; $0.07/1k. No class wins on quality.
+- **Jevals/jevals-data** — CC-BY-4.0 boards + JSONL. Recompute-from-logs. 2026-09-18 board (do not merge Banking77 with DMB/atlas).
+- **taro1985/dual-process-ai** — Kahneman S1 decide / S2 generate. Routing accuracy unmeasured. Keyword fallback ≠ S1.
+- **simonmesmith/jev-arc-agi-v1-experiment** — Direct Jev 4/400 (1%). Combinatorial ≠ extractive.
+- **ikermoel/open-alternative-jev** — packed one-forward; RACE-H 92.9% @ 4.55 q/s. Not a Jev reproduction.
+- **wfzyx/von** — 14 MB SAN local drop-in. Distinguishes from jev-local stub / kev pointer. Do not copy vs-Jev table.
+- **jaredpalmer/kev** — light delta: **100★** this pass. No species rewrite.
 
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs

@@ -447,12 +447,45 @@ smoke test on the stub is not a local decision model (`notes.md` §48).
 [`Mattepiu/laya-onnx`](https://huggingface.co/Mattepiu/laya-onnx)
 (~15 ms CPU for one Noul, their card). Do not copy the inherited
 vs-Jev accuracy table (`notes.md` §18).
+**Packed one-forward on an open LLM (constrained-AR / logprob path,
+not a Jev reproduction):**
+[`ikermoel/open-alternative-jev`](https://github.com/ikermoel/open-alternative-jev)
+(Apache-2.0). RACE-H packed **92.9% @ 4.55 q/s** on Qwen3.6-27B
+8-bit; interference 6–9%; temperature scaling on *your* labels.
+Space demo. Economics of packing a shared state, not trained
+decision-only (`notes.md` §49).
+**Tiny SAN local surface (extreme speed/econ class, not a replica):**
+[`wfzyx/von`](https://github.com/wfzyx/von) — 14 MB Needle; `POST
+/v1/systemone`; sub-15 ms CPU *claim* / ~38 ms embed in their table;
+authored144 needle **52.6%**. Distinguish from jev-local's **stub**
+and kev's trained pointer. **Do not copy the vs-Jev ranking table.**
+
+**When to use a decision model vs a constrained LLM (Harbor-style
+bake-off, not a quality ranking).**
+[`nibzard/decision-model-benchmark`](https://github.com/nibzard/decision-model-benchmark)
+v2 (`notes.md` §49): no class wins on *accuracy*. Pick from axes
+you actually need:
+
+| Need | Lean decision-model (Jev-class) | Lean constrained LLM |
+|---|---|---|
+| Latency / $ at schema-valid enums | p50 ~264–276 ms; S1 ~$0.07/1k; 0% malformed this run | Thinking-mode seconds and $0.19–$2.48/1k; some malformed |
+| Choice sets ≤255 | Flat latency 2→255; **fails at 256+** (`400 Too many choices`) | Handles 512 |
+| Honesty / abstain on no-good items | S5 admits 49.7%; ECE 0.246 — measure, do not assume | Most 97.3–100% (gpt-5.4-mini 64.7%) |
+| Position stability | S4 flip 13% this run | Up to 37% |
+| Mid-pack banking accuracy | 76.3% this protocol (atlas/jev-benchmarks 87%; jevals.com 79.67% — **do not merge**) | gpt-oss-120b 81.3%; glm-5.3 80.4% |
+
+Quality is not the reason to skip System One. Speed, cost, schema,
+and the Choice cap are. Always re-run on *your* labels. Feedstock
+for recomputing named boards: [`Jevals/jevals-data`](https://github.com/Jevals/jevals-data)
+(CC-BY-4.0; `validation.md`).
 
 Reject: TypeAR or pcdServer scores as fail-closed P(permit); a LoRA student's
 agreement with Jev as independent gold; kev's ID ECE as a license to skip
 a held-out test on *your* workflow; shipping on "smarter than Jev";
 a green `/v1/systemone` smoke test on jev-local's stub as a bake-off;
-copying laya-onnx vs-Jev rows as independent gold;
+copying laya-onnx or von vs-Jev rows as independent gold; treating von's
+14 MB needle (52.6% authored144) or open-alternative-jev as a Jev
+reproduction;
 thresholding [`jp-sns-jev7-estimator`](https://huggingface.co/kokuren/jp-sns-jev7-estimator)
 teacher scores as P(toxic) — the card says they are **not** calibrated,
 and `threat` F1@0.5 is 0.0000 on their table (`notes.md` §33). Domain-local
@@ -462,7 +495,8 @@ universal ranking. Diffusion beating a decision head is Hypothesis.
 Detail: `research/notes.md` §33 (surfaces), §34 (marginals), §35
 (Nimble), §36 (diffusion), §38 (entropy allocator, Hypothesis),
 §42 (pcdServer serving, meta-VOI, games), §45 (kev), §46 (blackwood,
-laya-bench, decision-token LoRA), §48 (jev-local stub, laya-onnx). Before
+laya-bench, decision-token LoRA), §48 (jev-local stub, laya-onnx),
+§49 (boundary map; DMB vs constrained LLMs; von; open-alternative-jev). Before
 adopting a surface, the bake-off is a jevals-shaped suite and, for a
 product loop, a Harbor taskset (`validation.md`, Eval & hill-climb).
 The stage pipeline into that decision is the same file

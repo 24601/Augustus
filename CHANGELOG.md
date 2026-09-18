@@ -180,6 +180,25 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   ([laya-onnx](https://huggingface.co/Mattepiu/laya-onnx); do not copy
   vs-Jev table). Spotcheck: SemIf 1551★; jevlike 866★; tracker
   20:12:57Z still lists Laya, not Blackwood. No wrapper.
+- Hourly ~15:52 Boise fold (`research/notes.md` §49): Archer still
+  Watch. X discourse blocked. Boundary map / extractable-from-state
+  ([jev-capability-atlas](https://github.com/Zaious/jev-capability-atlas);
+  history suite A wrong@0.90 / B 0.07 / C right@0.97; component node;
+  dangerous-high ECE; DOM-as-text + fan-out). Harbor-style bake-off vs
+  constrained LLMs
+  ([DMB](https://github.com/nibzard/decision-model-benchmark) v2: jev
+  banking 76.3% / spam 93.0% / 256+ cap; p50 264–276 ms; $0.07/1k; no
+  class wins on quality). Feedstock
+  ([jevals-data](https://github.com/Jevals/jevals-data) CC-BY-4.0;
+  recompute-from-logs; 2026-09-18 board). Dual-process S1 decide / S2
+  generate ([dual-process-ai](https://github.com/taro1985/dual-process-ai);
+  routing accuracy unmeasured). Combinatorial ≠ extractive (ARC-AGI
+  Direct Jev 4/400). Packed one-forward open LLM
+  ([open-alternative-jev](https://github.com/ikermoel/open-alternative-jev)
+  RACE-H 92.9% @ 4.55 q/s; not a Jev reproduction). Tiny SAN local
+  surface ([von](https://github.com/wfzyx/von) 14 MB; not a replica).
+  kev light delta **100★**. Do not merge Banking77 87% / 76.3% /
+  79.67%. No wrapper.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

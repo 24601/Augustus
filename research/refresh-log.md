@@ -464,6 +464,31 @@
   ecosystem, CHANGELOG, README.
 - notes.md §48; sources.json; findings.md batch #32. No wrapper.
 
+## 2026-09-18 21:52 UTC — boundary map / Harbor bake-off / dual-process (~15:52 Boise)
+
+- Folded into open PR #2 (`cursor/augustus-store-envelope-00b4`).
+  Docs-only. Not a competing PR. Archer 27B drop still **WATCH**.
+  X MCP flap blocked discourse this hour — no tweets invented.
+- HIGH: jev-capability-atlas (extractable-from-state axis; history
+  suite A/B/C table; component node; dangerous-high ECE; DOM-as-text);
+  DMB v2 (frozen protocol vs constrained LLMs; 76.3/93.0/256+;
+  264–276 ms; $0.07/1k); jevals-data CC-BY-4.0 feedstock;
+  dual-process-ai (S1 decide / S2 generate; routing accuracy
+  unmeasured).
+- MED: ARC-AGI Direct Jev 4/400; open-alternative-jev RACE-H 92.9%
+  @ 4.55 q/s (not a reproduction); von 14 MB SAN (not a replica);
+  kev 100★ light delta.
+- Do not merge Banking77 87% / 76.3% / 79.67%. Do not copy vs-Jev
+  tables or uv/von-serve how-tos.
+- Cards: SKILL.md, mental-models (primary boundary map),
+  judgment-class (vs constrained LLM; von; open-alternative-jev),
+  validation (DMB + jevals-data + ARC), mixed-architecture
+  (dual-process; component node; DOM-as-text), faq, mappings
+  §2/§3/§6/§9, applied-mappings, question-design, methods-catalog,
+  toolbox, agent-self-assessment, ecosystem, CHANGELOG, README.
+- notes.md §49; sources.json; findings.md batch #33. No wrapper.
+
+
 
 
 

@@ -91,6 +91,12 @@ on-question?"; "call this lead / nurture / drop" — same act/abstain/
 gather table, costs written in hours or dollars, threshold per *action*.
 VOI: pay for the full PDF or the customer call only if expected decision
 change beats the cost (`mental-models.md` §VOI, §decision).
+**Dual-process cascade (Empirical as a productized metaphor, routing
+accuracy unmeasured):**
+[dual-process-ai](https://github.com/taro1985/dual-process-ai) —
+`confidence ≥ τ` → S1 decides; else escalate to S2 (generate). Routing
+fails open; safety fails closed. Keyword fallback without a key is not
+equivalent S1. Tune τ on *your* escalation log (`notes.md` §49).
 **Counterexample**: a flat Choice over three fine categories may still
 name a harmless best pick — low confidence need not veto a low-stakes
 preference. **Test**: cost/coverage curve on held-out slices; score the
@@ -115,6 +121,9 @@ NOT `P(A∧B)`; operation+target head pairs can be invalid (browser-use asks
 both heads per request but executes only the matching target after
 validation); relational judgments ("does passage support claim?") must stay
 one question, not two split classifications; exact computation stays in code.
+**Internals are not a state machine; placement is a component node**
+(atlas: paraphrase vs reversed-meaning are LM understanding; "a node in
+your state machine" is the architectural instinct — `notes.md` §49).
 
 **Example**: game director — Jev judges whether player dialogue is
 conciliatory or threatening; code enforces inventory, prerequisites,
@@ -276,6 +285,12 @@ prose → frontier. Same 149 business rows: Jev 79.9% vs Haiku 4.5 83.2%;
 Jev 1.6× faster, not 20–200×; Jev confidence monotonic, Haiku inverts
 in 0.80–0.95. If you do not *branch on confidence*, use whatever you
 already have (`notes.md` §42).
+**Retrieve-then-state (Empirical as an axis proof, not a knowledge
+estimate):** if the answer is not in `state`, **buy the passage first**,
+then ask. Atlas history suite: wrong @ 0.90 without context → right @
+0.97 with the passage (`notes.md` §49; `mental-models.md` §boundary).
+That observation is VOI with a named receipt. Do not rely on bare
+recall.
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs
@@ -399,6 +414,14 @@ in, pairwise "does i depend on j?" judgments, DAG in `petgraph`. Code
 owns topology; the model does not emit edges. Experiment; empty README;
 no metrics this pass (`notes.md` §48). Same hole as taxonomy beam (§5):
 judgment is a pairwise (or Choice) classifier step, not the scheduler.
+
+**Combinatorial grid assembly ≠ extractive keep/drop (Empirical as a
+negative):**
+[`simonmesmith/jev-arc-agi-v1-experiment`](https://github.com/simonmesmith/jev-arc-agi-v1-experiment)
+— Direct Jev cell-wise Choice on ARC-AGI-1: **4/400 (1%)**. Dimensions
+~90%; complete grids rarely. Many small extractive decisions do not
+add up to a consistent transformation. Search / a program / a
+simulator stay in code (`notes.md` §49).
 
 **Query planner as the envelope (author-reported, 2026-09-18):**
 [@mmalisper](https://x.com/mmalisper/status/2101001041903009987) on the

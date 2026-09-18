@@ -376,6 +376,44 @@ table). Specialist composition (SAM / OCR → text → Jev) remains valid.
 Do not wait, and do not treat screenshot-vs-Jev-text as the same input.
 `judgment-class.md`; `notes.md` §46.
 
+## When does a decision model hold?
+
+When the answer is **extractable from the state you feed it**
+(classification, citation/paraphrase/reversed-meaning with claim +
+quote both given, sarcasm whose trigger is in the text, DOM-as-text
+fan-out). It **fails, often confidently**, on recall without a
+supporting passage. Atlas history suite (`notes.md` §49): Case A
+wrong @ 0.90 with no context; Case B near-flat 0.07 (correct by luck);
+Case C — same item as B — right @ 0.97 once the passage is in
+`state`. Retrieve first. Overlapping categories can still be
+**dangerous-high** (DAIR Emotion 48% acc / mean conf 0.819). Not a
+leaderboard; one axis. `mental-models.md` §boundary.
+
+## Are the internals a state machine?
+
+No. Distributed LM understanding, not hand-written transitions
+(paraphrase vs reversed-meaning contrast). **Placement** is a
+component node in *your* code — that instinct is right; "it *is* a
+state machine" is not. `mappings.md` §3; `mixed-architecture.md`.
+
+## Decision model or a constrained LLM?
+
+Neither class won on quality in DMB v2 (`notes.md` §49). Decision
+models win the *axes you actually buy*: p50 ~264–276 ms, ~$0.07/1k
+on banking, schema-valid, flat to 255 options — and **fail at 256+**.
+Constrained LLMs handle 512 and (most of them) admit ignorance on
+no-good items; they are slower and cost more. Spam: two OpenAI models
+sat *below* the majority baseline. Re-run on *your* labels. Do not
+merge Banking77 87% / 76.3% / 79.67% across protocols.
+`judgment-class.md`; `validation.md`.
+
+## Can many cell-wise Choices solve a combinatorial grid?
+
+Not in the Direct Jev ARC-AGI-1 experiment: **4/400 (1%)**, ~$2.32.
+Dimensions ~90%; complete grids rarely. Combinatorial assembly ≠
+extractive keep/drop. Search or a program stays in code.
+`mappings.md` §9; `notes.md` §49.
+
 ## Is a local `/v1/systemone` the same as Jev?
 
 No — not until you know **which scorer** is behind the socket.
@@ -384,8 +422,14 @@ drop-in (`base_url`). The **default scorer is a deterministic stub**
 and carries no intelligence. `JEVLOCAL_SCORER=hf` turns on a frozen-model
 logprob scorer. Their README: an interface-compatible baseline, not a
 reproduction of Jev's undisclosed model. kev is the other local
-drop-in (trained pointer head, public gold). A green smoke test on the
-stub is not a bake-off. `judgment-class.md`; `notes.md` §48.
+drop-in (trained pointer head, public gold). [von](https://github.com/wfzyx/von)
+is a **tiny SAN** (14 MB needle; authored144 52.6%) at the extreme of
+the speed/econ class — not the stub, not kev, **not a calibrated Jev
+replica**. Do not copy its vs-Jev table.
+[open-alternative-jev](https://github.com/ikermoel/open-alternative-jev)
+packs one-forward logprobs on an open LLM you already have (RACE-H
+92.9% @ 4.55 q/s); **not a Jev reproduction**. A green smoke test on
+the stub is not a bake-off. `judgment-class.md`; `notes.md` §48, §49.
 
 ## Should the model write the quote / the citation / the click?
 

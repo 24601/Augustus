@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-18T20:52Z",
+  "retrieved": "2026-09-18T21:52Z",
   "sources": [
     {
       "kind": "docs",
@@ -1423,6 +1423,60 @@
       "title": "vinnylarouge/jevlike (star spotcheck)",
       "url": "https://github.com/vinnylarouge/jevlike",
       "note": "866 stars this pass. notes.md \u00a748."
+    },
+    {
+      "kind": "github",
+      "title": "Zaious/jev-capability-atlas",
+      "url": "https://github.com/Zaious/jev-capability-atlas",
+      "note": "Independent when-it-holds map with API receipts, not a leaderboard. README MIT / GitHub SPDX NOASSERTION. History suite A wrong@0.90 / B 0.07 / C right@0.97. notes.md \u00a749."
+    },
+    {
+      "kind": "github",
+      "title": "nibzard/decision-model-benchmark",
+      "url": "https://github.com/nibzard/decision-model-benchmark",
+      "note": "DMB. Frozen protocol jev vs 8 constrained LLMs vs baselines. v2 report of record. LICENSE absent this pass. notes.md \u00a749."
+    },
+    {
+      "kind": "github",
+      "title": "Jevals/jevals-data",
+      "url": "https://github.com/Jevals/jevals-data",
+      "note": "CC-BY-4.0 release boards + per-decision JSONL + suites for jevals.com. 2026-09-18 board. Recompute-from-logs. notes.md \u00a749."
+    },
+    {
+      "kind": "github",
+      "title": "taro1985/dual-process-ai",
+      "url": "https://github.com/taro1985/dual-process-ai",
+      "note": "MIT. Kahneman S1 (Jev) / S2 (Gemini). Routing accuracy unmeasured. Keyword fallback not equivalent S1. notes.md \u00a749."
+    },
+    {
+      "kind": "github",
+      "title": "simonmesmith/jev-arc-agi-v1-experiment",
+      "url": "https://github.com/simonmesmith/jev-arc-agi-v1-experiment",
+      "note": "Direct Jev ARC-AGI-1 4/400 (1%), ~$2.32. LICENSE absent this pass. Combinatorial \u2260 extractive. notes.md \u00a749."
+    },
+    {
+      "kind": "github",
+      "title": "ikermoel/open-alternative-jev",
+      "url": "https://github.com/ikermoel/open-alternative-jev",
+      "note": "Apache-2.0. Packed one-forward on open LLMs. RACE-H 92.9% @ 4.55 q/s. Not a Jev reproduction. notes.md \u00a749."
+    },
+    {
+      "kind": "huggingface",
+      "title": "IkerMoel/open-alternative-jev (Space)",
+      "url": "https://huggingface.co/spaces/IkerMoel/open-alternative-jev",
+      "note": "Live demo for open-alternative-jev. notes.md \u00a749."
+    },
+    {
+      "kind": "github",
+      "title": "wfzyx/von",
+      "url": "https://github.com/wfzyx/von",
+      "note": "Apache-2.0. 14MB Needle SAN local /v1/systemone. authored144 52.6%. Not a Jev replica. Do not copy vs-Jev table. notes.md \u00a749."
+    },
+    {
+      "kind": "github",
+      "title": "jaredpalmer/kev (star delta)",
+      "url": "https://github.com/jaredpalmer/kev",
+      "note": "100 stars this pass (user cited 97). Light activity delta only. notes.md \u00a749."
     }
   ]
 }

@@ -833,6 +833,58 @@ integrity; (bi) `/v1/systemone` drop-in is a surface — stub ≠ scorer;
 memory; (bl) advisory sidecar never changes host routing; (bm) collab
 arms belong in the measurement curriculum.
 
+## Batch #33 (2026-09-18 ~15:52 Boise) — boundary map / Harbor bake-off / dual-process
+
+Note: `research/notes.md` §49. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. X discourse blocked this hour. No
+invented metrics. Do not re-fold §48 items.
+
+- **Zaious/jev-capability-atlas (Empirical as an axis, not a
+  knowledge-breadth estimate).** README MIT / GitHub SPDX
+  NOASSERTION. Unofficial. Extractable-from-state vs needs-outside
+  knowledge. History suite table: A wrong@0.90 (Yongzheng; Kangxi by
+  popular convention; GT contested); B near-flat 0.07 (luck);
+  C right@0.97 with passage. N=3, single annotator. Internals ≠ FSM;
+  placement is a component node. Confidence is a distribution
+  statistic (RLCD). Dangerous-high ECE: DAIR Emotion 48% / 0.819 /
+  16% p(correct)=0. Browser-use = DOM-as-text + speculative fan-out,
+  not vision.
+- **nibzard/decision-model-benchmark (Empirical as Harbor/jevals
+  practice).** LICENSE absent this pass. Frozen protocol; v2 report
+  of record; $28.34. jev banking 76.3%, spam 93.0%, S3 100%* at
+  72.7% valid coverage (256+ cap), S4 flip 13%, S5 admits 49.7% /
+  ECE 0.246; p50 264–276 ms; S1 $0.07/1k. No class wins on quality.
+  Do not merge Banking77 87% / 76.3% / 79.67%.
+- **Jevals/jevals-data (Contract as feedstock).** CC-BY-4.0. Boards +
+  JSONL + suites. 2026-09-18 board, suite 0.1.0, 8 systems. Jev
+  banking77 acc 0.7967 / ECE 0.0981 / p50 467 ms / $0.043/1k on
+  *this* board. Recompute-from-logs; not a ranking.
+- **taro1985/dual-process-ai (Empirical as a productized metaphor).**
+  MIT. Kahneman S1 decide / S2 generate. Routing fails open; safety
+  fails closed. Routing accuracy **unmeasured**. Keyword fallback ≠
+  S1.
+- **simonmesmith/jev-arc-agi-v1-experiment (Empirical as a
+  negative).** LICENSE absent. Direct Jev 4/400 (1%), 1.125%, ~$2.32,
+  10 min. Cell-wise Choice. Combinatorial ≠ extractive.
+- **ikermoel/open-alternative-jev (Empirical as packed-logprob
+  economics).** Apache-2.0. Not a Jev reproduction. RACE-H 92.9% @
+  4.55 q/s; interference 6–9%.
+- **wfzyx/von (Empirical as extreme speed/econ surface).**
+  Apache-2.0. 14 MB SAN; authored144 52.6%. Not jev-local stub, not
+  kev, not a Jev replica. Do not copy vs-Jev table.
+- **jaredpalmer/kev (light delta).** 100★ this pass. No species
+  rewrite.
+
+Cross-repo addition: (bn) extractable-from-state is the placement
+axis; (bo) retrieve-then-state is VOI with a named receipt; (bp)
+Harbor-style class bake-off includes constrained LLMs and
+baselines; (bq) public JSONL boards are feedstock, not rankings;
+(br) dual-process is S1 decide / S2 generate with unmeasured
+routing accuracy; (bs) combinatorial assembly is not extractive
+keep/drop; (bt) local `/v1/systemone` has three surfaces (stub /
+pointer / tiny SAN).
+
+
 
 
 

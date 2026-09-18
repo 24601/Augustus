@@ -3043,3 +3043,230 @@ Cards: `judgment-class.md`; `validation.md`; `applied-mappings.md`
 §2 / §5; `mappings.md` §4 / §9; `mixed-architecture.md`; `faq.md`;
 `mental-models.md`; `methods-catalog.md`; `toolbox-mapping.md`;
 `agent-self-assessment.md`. No wrapper.
+
+## 49. Boundary map, Harbor bake-off vs constrained LLMs, dual-process (2026-09-18 ~15:52 Boise)
+
+America/Boise ~15:52 = 21:52 UTC (archive 214908). Docs-only fold into
+open PR #2 (`cursor/augustus-store-envelope-00b4`). Not a competing
+PR. Archer 27B drop still **WATCH** (still ~2026-09-19; not landed).
+X MCP flap blocked discourse this hour — no tweets invented. Identity
+lock vs `typesafe-ai` / `tenbin` / `decision-first` holds. No wrapper,
+no install.sh, no copied `uv` / `von serve` / pip how-tos. No invented
+metrics. Do not re-fold §48 items, blackwood-rlcd, open-jev-laya-bench,
+decision-token LoRA, jevgate, wellposed, jev-reflex-autonomy-lab, Abide,
+kev species, jevpandas, bitrate-advisor.
+
+Backend-agnostic: these are **placement / measurement** cards
+(extractable-from-state axis; Harbor-style frozen-protocol bake-off;
+recompute-from-logs feedstock; Kahneman S1 decide / S2 generate;
+combinatorial assembly ≠ extractive keep/drop; packed one-forward open
+LLM economics; tiny non-AR local surface). TypeSafe Jev is the
+exemplar in the READMEs, not a monopoly. kev is a **star/activity
+delta only** this hour (100★ this pass; user cited 97).
+
+### HIGH
+
+1. **[`Zaious/jev-capability-atlas`](https://github.com/Zaious/jev-capability-atlas)**
+   (README claims MIT; GitHub SPDX **NOASSERTION** this pass; Python;
+   created 2026-09-18T21:30:40Z; 0★; unofficial, not TypeSafe).
+   Independent **when-it-holds map with real API receipts**, not a
+   leaderboard. They cite [jev-benchmarks](https://github.com/AbdelStark/jev-benchmarks)
+   and thaiexam charts; they do not redo them. Primary mental model
+   this hour: **place the task on one axis** —
+
+   > Is the correct answer fully recoverable from the `state` you hand
+   > the model, or does it require outside knowledge that is not in
+   > `state`?
+
+   **Self-contained (strong):** classification they cite from
+   jev-benchmarks (AG News 91%, Banking77 **87%** — a *different*
+   protocol from DMB 76.3% and jevals.com 79.67%; do not merge);
+   citation support-checking with claim + quote both given
+   (`paraphrase_support` and `reversed_meaning_high_overlap` both
+   correctly judged); sarcasm when the trigger is in the given text.
+   **Not self-contained (fails, often confidently):** pure recall
+   without a supporting passage; scoring that needs a whole-field
+   comparison; genuinely overlapping categories.
+
+   **History suite** (`suites/history-recall-context/`, receipt
+   `runs/2026-09-19.json`; N=3, single annotator, Chinese history
+   only — qualitative axis proof, **not** a knowledge-breadth
+   estimate). Cite the table, not the README's 30-second slogan:
+
+   | Case | Question | Context? | Pick | Conf | Dist | Correct? |
+   |---|---|---|---|---|---|---|
+   | A | 2nd Qing emperor | No | Yongzheng | 0.90 | 0.04 / 0.93 / 0.03 | ✗ (Kangxi by popular convention; ground truth itself contested) |
+   | B | 7th Qing (obscure) | No | Xianfeng | 0.07 | 0.25 / 0.37 / 0.38 | ✓ by luck (near-flat) |
+   | C | Same as B | Passage in state | Xianfeng | 0.97 | 0.00 / 0.02 / 0.98 | ✓ |
+
+   Informal unsaved B rerun picked Daoguang at 0.08 — both near-flat.
+   Teaching: **bare memory is unreliable; reading comprehension over
+   supplied text is reliable.** Conflating the two misjudges the risk.
+   Retrieve first; put the passage in `state`.
+
+   **Not a state machine internally** (distributed LM understanding —
+   paraphrase vs reversed-meaning contrast). **Correctly placed as a
+   component node** in *your* code ("a node in your state machine" is
+   the architectural instinct; "its internals are a state machine" is
+   not). Confidence is a **statistic from the distribution** (RLCD
+   trains the distribution; `confidence` is arithmetic on how peaked
+   it is), not a second trained correctness score. Calibration is
+   **population-level** and can fail **dangerous-high**: DAIR Emotion
+   via jev-benchmarks — 48% acc, mean conf **0.819**, 16% of items
+   p(correct)=0. That is the "blind guessing" concern that actually
+   lands: overlapping blurred categories, overconfident.
+
+   **Browser-use strength is placement, not vision.** Third-party
+   `jev-ultrafast` (Browser Use): Google Flights 9.5s → 7.1s; 12-task
+   vs Playwright MCP 1.5× faster / 1.6× cheaper, comparable accuracy;
+   standalone loop ~1.8s / $0.0005 / 97% (their figures, not
+   re-run). Jev is text-only. What held: **DOM snapshot as `state`**
+   (a visual task translated into extractive text) + **speculative
+   fan-out** over candidate elements. Not screenshots. Same
+   component-node placement as lizard-agent / solari-reflex.
+
+   Pattern: **boundary map / placement judgment.** Cards:
+   `mental-models.md` (primary); `faq.md`; `question-design.md`;
+   `applied-mappings.md` §2 / §6; `mappings.md` §3 / §6; `mixed-architecture.md`.
+
+2. **[`nibzard/decision-model-benchmark`](https://github.com/nibzard/decision-model-benchmark)
+   (DMB)** (LICENSE **absent** this pass; Python; created
+   2026-09-18T21:48:07Z; 0★; no vendor sponsorship). Independent
+   **frozen protocol**: typesafe:jev vs **8 constrained LLMs** vs
+   **3 deterministic baselines** (keyword / majority / random). Five
+   suites, 60 cells, **$28.34** measured spend; every raw log
+   published. **`results/v2/v2.md` is the report of record** (v1
+   majority-prior defect corrected; mixed protocol versions merged
+   by explicit `--allow-protocol-mix`). Harbor-style measurement
+   exemplar: protocol frozen before the run; negative results ship;
+   recompute from logs; unknown usage is never a measured zero; later
+   runs replace cells whole. Do not copy `uv` how-to.
+
+   **jev (v2, named receipt, not a ranking):**
+
+   | Suite | Acc | Notes |
+   |---|---|---|
+   | S1 banking77 77-way | **76.3%** | ECE 0.083; cost/1k **$0.07**; p50 **274 ms** |
+   | S2 SMS spam | **93.0%** | ECE 0.249 (overconfident vs GLM 0.042) |
+   | S3 cardinality | **100%*** | valid coverage **72.7%** (225 failed = **256+ Choice cap**, `400 Too many choices`); 254–255 still 100% |
+   | S4 order permute | **76.7%** | flip **13%** (worst LLM 37%) |
+   | S5 honesty | **14.3%** | admits-ignorance **49.7%** vs most LLMs 97.3–100% (gpt-5.4-mini **64.7%**); ECE **0.246**; mean conf on no-good **0.543** |
+
+   p50 across jev cells **264–276 ms**, flat 2→255 options. Fastest
+   *measured* vs thinking-mode LLMs is **10–16×**, **1.2×** vs
+   gpt-oss-120b on Cerebras — **not** the vendor 40–200× claim
+   against LLMs left in their slowest default. gpt-oss-120b banking
+   **81.3%**; glm-5.3 **80.4%** / spam **94.9%**. **No class wins on
+   quality.** Axes that *do* separate: latency, cost, schema-validity
+   (jev 0% malformed), Choice cap, honesty. Two OpenAI models sit
+   *below* the 87.7% majority baseline on spam.
+
+   **Do not collapse Banking77:** atlas/jev-benchmarks **87%**, DMB
+   **76.3%**, jevals.com 2026-09-18 **79.67%** — n / split / protocol.
+   Cite named receipts. Pattern: **Harbor/jevals practice +
+   when-to-use-vs-constrained-LLM table.** Cards: `validation.md`;
+   `judgment-class.md`.
+
+3. **[`Jevals/jevals-data`](https://github.com/Jevals/jevals-data)**
+   (CC-BY-4.0; created 2026-09-18T21:36:00Z; 0★). Release boards +
+   per-decision JSONL run logs + suite files behind
+   [jevals.com](https://jevals.com). Cite "Jevals (jevals.com),
+   release \<release\>". **2026-09-18** board: suite **0.1.0**, **8
+   systems**, tasks banking77 / helpsteer2 / pubmedqa. Formulas at
+   https://jevals.com/methodology/. **Recompute-from-logs pattern**,
+   not a third ranking to merge with DMB or atlas.
+
+   Jev on *this* board (native probabilities; n=300 × 5 repeats;
+   **not** DMB n): banking77 acc **0.7967**, ECE **0.0981**, p50
+   **467 ms**, cost/1k **$0.043**; helpsteer2 Score acc **0.4127**
+   (label-prior 0.4167 — barely above chance on that primitive);
+   pubmedqa Noul acc **0.9127**, ECE **0.0504**, p50 **438 ms**. Do
+   not dump the board as a ranking. Feedstock for Harbor/jevals:
+   frozen suite files, item ids pointing at public datasets (item
+   text not republished), run header + per-decision rows
+   (`item_id`, `epoch`, `target`, `order_seed`, `output`,
+   `usage`, `cost_usd`, `seconds`, `malformed`, `refusal`,
+   `retries`). Cards: `validation.md`.
+
+4. **[`taro1985/dual-process-ai`](https://github.com/taro1985/dual-process-ai)**
+   (MIT; Python; created 2026-09-18T20:55:08Z; 0★). Explicit
+   **Kahneman S1 (Jev) / S2 (Gemini)** design pattern. S1: typed
+   decision + confidence, ~70–500 ms. S2: free-form text. Mechanism:
+   `confidence ≥ τ → S1 decides; else escalate to S2`. **Routing
+   fails open** (low conf → S2; the router never refuses). **Safety
+   fails closed** (unparseable denied). **Routing accuracy is not
+   measured yet** (misroute rate / escalation rate / Brier on
+   held-out — the numbers this project needs and does not have).
+   Without a key it runs **degraded keyword mode** — **not an
+   equivalent S1** (no calibrated confidence; anything not on the
+   allowlist escalates). Do not copy hooks / Discord / pip. Crossover
+   metaphor for **business/life**, not only SWE: cheap classify /
+   route / gate on S1; write / reason / generate on S2. Same split as
+   jev-reflex-autonomy-lab (S1 keeps control) and jev-hermes (route ≠
+   memory), productized as a cascade. Cards:
+   `mixed-architecture.md`; `toolbox-mapping.md`; `mappings.md` §2;
+   `agent-self-assessment.md`; `faq.md`.
+
+### MED (brief)
+
+5. **[`simonmesmith/jev-arc-agi-v1-experiment`](https://github.com/simonmesmith/jev-arc-agi-v1-experiment)**
+   (LICENSE **absent** this pass; Python; created 2026-09-18T21:32:19Z;
+   0★). Direct Jev on ARC-AGI-1 public eval: **4/400 (1%)** fully
+   solved; **1.125%** task-weighted (4 + 0.5 / 400); **5/419** exact
+   grids; **~$2.32**; **10 minutes**; `jev-1.13.0`; two guesses per
+   grid. **Cell-wise Choice assembly:** height/width 1–30, then one
+   of ten colours per cell; cells do not see one another; transpose
+   for the second guess. Dimensions ~**90%** on first attempt; rarely
+   a complete grid. No partial credit for cells. Teaching:
+   **combinatorial grid tasks ≠ extractive keep/drop.** A program
+   library with no competing candidates **never called Jev** (6
+   tasks / 1.5%). Combined policy 2.375% includes hand-written
+   programs — tells you less about Jev. Frozen protocol, traces,
+   `PROTOCOL.md`. Not a ceiling claim. Cards: `validation.md`;
+   `mappings.md` §9; `faq.md`.
+
+6. **[`ikermoel/open-alternative-jev`](https://github.com/ikermoel/open-alternative-jev)**
+   (Apache-2.0; Python; 3★; Space
+   [`IkerMoel/open-alternative-jev`](https://huggingface.co/spaces/IkerMoel/open-alternative-jev)).
+   Packed **one-forward** System One on **any open-weights LLM**
+   (HF + vLLM). **Not a Jev reproduction** — packages a capability
+   chat APIs hide; no claim about how Jev works. RACE-H (250
+   passages × 4 questions, n=1000) on Qwen3.6-27B 8-bit: packed
+   **92.9% @ 4.55 q/s** vs one-at-a-time 92.6% @ 1.66; 2.5× fewer
+   tokens. Interference **6–9%** of answers move vs a 2.7% numeric
+   noise floor; order rotation 8% MMLU / 2.4% RACE-H. Temperature
+   scaling ECE 5.4%→2.1% MMLU, 2.8%→1.1% RACE-H. Small 4B packing
+   costs 2.8 points — use `separate` when accuracy at stake. On
+   vLLM, prefix-cache `separate` is fastest. Economics/architecture
+   of **open replicas on the constrained-AR / logprob path**, not
+   trained decision-only. Cards: `judgment-class.md`.
+
+7. **[`wfzyx/von`](https://github.com/wfzyx/von)** (Apache-2.0;
+   Python; 3★). **14 MB** Needle 3 SAN; non-AR local `POST
+   /v1/systemone` drop-in; sub-15 ms CPU *claim* / ~**38 ms** embed
+   in their table; ~28 MB RAM. Default needle **52.6%** balanced acc
+   on OpenJev `authored144` — **not a calibrated Jev replica**. Other
+   backends (berta-v3 / modern / laya) are optional heavier heads.
+   **Do not copy the vs-Jev ranking table** (includes a speculative
+   Jev weight estimate). Distinguish: jev-local **stub until hf**;
+   kev **trained pointer** on Qwen2.5-0.5B; von **tiny SAN** at the
+   extreme of the speed/econ class. Cards: `judgment-class.md`;
+   `faq.md`.
+
+8. **[`jaredpalmer/kev`](https://github.com/jaredpalmer/kev) delta**
+   — still active this hour; **100★** this pass (user cited 97;
+   prior fold 61★). Pushed through 2026-09-18T21:51Z. **Light note
+   only.** No species rewrite. Hub weights + NOTA training remain
+   §45.
+
+### Not this hour
+
+Archer drop **not landed**. X discourse **blocked** (MCP flap) — no
+invented tweets. Do not re-fold §48.
+
+Cards: `mental-models.md` (boundary map); `validation.md` (DMB +
+jevals-data + ARC); `judgment-class.md` (vs constrained LLM; von;
+open-alternative-jev); `mixed-architecture.md` (dual-process;
+component node; DOM-as-text); `faq.md`; `mappings.md` §2 / §3 / §6 /
+§9; `applied-mappings.md`; `question-design.md`; `methods-catalog.md`;
+`toolbox-mapping.md`; `agent-self-assessment.md`. No wrapper.

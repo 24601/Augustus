@@ -40,6 +40,12 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    **no screenshots**; model output never becomes a selector. Harbor-style
    task score (Stripe API / answer key). Author table vs Codex on Solari:
    60.2 s vs 194.9 s; 66 s vs 460 s; 24.2 s vs 98.4 s (`notes.md` §48).
+   Productized Kahneman cascade for *any* cheap-decide / expensive-write
+   loop (business/life, not only SWE):
+   [dual-process-ai](https://github.com/taro1985/dual-process-ai) —
+   `conf ≥ τ` S1 decides else S2 generates; routing fails open; safety
+   fails closed; **routing accuracy not measured**; keyword fallback is
+   not S1 (`notes.md` §49). Tune τ on your escalation log.
 6. **Context economy**: the context-sieve card
    (`references/applied-mappings.md#1-context-sieve`). Judge every large
    tool result with one relevance Noul before it enters context. Hide

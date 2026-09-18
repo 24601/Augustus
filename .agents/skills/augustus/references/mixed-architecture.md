@@ -78,6 +78,30 @@ from the page; Jev picks among visible elements; code enforces prices/dates;
 answers are *located*, never composed. The day the task needs a paragraph,
 an LLM re-enters — that is mixed architecture, not a different religion.
 
+**Component node, not internals-as-FSM.** Place the judgment model as a
+node in *your* state machine; do not describe its internals as one.
+Atlas teaching (`notes.md` §49): paraphrase_support and
+reversed_meaning_high_overlap are distributed LM understanding, not
+keyword rules. Code still owns transitions (`mappings.md` §3).
+
+**Browser-use strength is DOM-as-text + speculative fan-out, not
+vision.** Translate a screenshot task into a structured DOM snapshot
+as `state`; fan out over candidate elements in one call. Text-only
+models then sit in their strong zone (extractable from fed state).
+Same placement as lizard-agent / solari-reflex; not blackwood
+screenshot-in.
+
+**Dual-process cascade (Kahneman productized; routing accuracy
+unmeasured).**
+[`taro1985/dual-process-ai`](https://github.com/taro1985/dual-process-ai)
+(MIT): S1 typed decision + confidence; S2 generates only when
+`confidence < τ`. Routing **fails open**; safety **fails closed**.
+Degraded keyword mode without a key is **not** equivalent S1. Crossover
+for business/life, not only SWE: cheap classify/route/gate on S1;
+write/reason on S2. Same split as jev-reflex-autonomy-lab (S1 keeps
+control) and jev-hermes (route ≠ memory). Do not copy hooks. Tune τ
+on *your* escalation log.
+
 ## It's just classification
 
 Canonical answer: `references/faq.md`. Short form: classification is not
@@ -278,6 +302,10 @@ calendar/mail/status off the memory tour; complex keeps Honcho
 (`notes.md` §48). **Advisory sidecar:**
 [agent-workflow-typesafe-ai](https://github.com/ngallodev-software/agent-workflow-typesafe-ai)
 emits `no_action` receipts and **never** changes host routing.
+**Productized Kahneman cascade:**
+[dual-process-ai](https://github.com/taro1985/dual-process-ai) — S1
+decides, S2 writes; routing accuracy **not measured**; keyword
+fallback is not S1 (`notes.md` §49).
 
 **Effect-oriented loop (same author, later post).** Topology B inside
 an effect system

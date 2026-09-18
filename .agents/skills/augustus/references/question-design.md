@@ -54,6 +54,8 @@ request, and treat a stale pin as a prior, never a setting.
 | Symptom | Likely cause | Fix |
 | --- | --- | --- |
 | Wrong answers, high confidence | Instruction read literally | State exact condition; put boundary cases in criteria |
+| Wrong answers, high confidence, **nothing in state that could answer** | Bare recall / missing evidence | **Retrieve first**; put the passage in `state`. Atlas history: wrong@0.90 without context → right@0.97 with passage. Confidence gating on recall is not enough (Case A was 0.90 *and wrong*). `notes.md` §49 |
+| Wrong answers, **dangerous-high** ECE on overlapping labels | Population calibration failed (blurred categories) | Do not threshold. DAIR Emotion: 48% acc / mean conf 0.819 / 16% p(correct)=0. Plot reliability on *your* labels |
 | Wrong answers, **confidence ~1.00**, no `other` | Forced pick: the offered set does not cover the input; the model *must* choose | Add `other` / none-of-the-above. **Confidence gating cannot catch this** ([wellposed](https://github.com/suraj-phanindra/wellposed) live probe: unsubscribe email → `"support issue"` at 1.00 without `other`, `"other"` at 0.93 with it). Overlapping options collapse confidence (loud). `notes.md` §46. `tenbin` owns the lint skill |
 | Residual `"other"` always picked (or never) | Training saw none-of-the-above only as the true label — a wording shortcut | Confront the hatch as a *wrong* alternative too; vary wording; eval present-vs-removed ([kev](https://github.com/jaredpalmer/kev) `none_of_the_above`; `notes.md` §45 delta). wellposed still owns request-shape lint |
 | Question names a state path that does not exist | Dead reference; the API still answers | Lint the request (walk JSON). Structural, not semantic. wellposed recipe; do not copy the CLI |

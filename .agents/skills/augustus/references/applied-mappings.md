@@ -96,6 +96,13 @@ found* is an answer. Computer-use cousin:
 [solari-reflex](https://github.com/hitakshiA/solari-reflex) — structured
 observation → typed decision → verified act; **no screenshots**; model
 output never becomes a selector (`notes.md` §48).
+**DOM-as-text + fan-out (Empirical as atlas browser-use *shape*):** a
+screenshot task translated into a structured DOM snapshot as `state`,
+then speculative questions over numbered candidates — not vision
+(`notes.md` §49; `mental-models.md` §boundary).
+**Axis check:** if the kept byte / cited fact / click target is not
+already in the candidates you numbered, this card does not apply —
+retrieve or parse first; do not ask recall.
 **Counterexample**: "write the patch that matches this sentence" — that is
 generation. **Test**: every kept byte occurs in the input; mixed never
 auto-included; snapshot stale → abort, don't guess.
@@ -248,4 +255,6 @@ the OCR bill it authorises**; 9 false-skips vs 28 for rules-only
 OCR, so a watermark talks a scan into "has text." **Test**: planted scans
 are sent; planted born-digital pages are not billed; page order preserved.
 Re-measure on *your* documents. Same sandwich as jevgate (Proven / Refused /
-Unknown).
+Unknown). Same VOI as retrieve-then-state: if the answer is not in the
+cheap text layer, **pay for the passage / OCR**, then judge
+(`mental-models.md` §boundary; atlas history suite).

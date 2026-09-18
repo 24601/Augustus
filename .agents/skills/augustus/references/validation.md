@@ -309,7 +309,10 @@ Rules:
   LLM-as-judge is not the primary score for a
   calibrated System One. Shared bake-off exemplar:
   [open-jev-laya-bench](https://huggingface.co/datasets/pngwn/open-jev-laya-bench)
-  (ECE/NLL/Brier).
+  (ECE/NLL/Brier). Harbor-style class bake-off:
+  [DMB](https://github.com/nibzard/decision-model-benchmark) (v2).
+  Public log feedstock:
+  [jevals-data](https://github.com/Jevals/jevals-data) (CC-BY-4.0).
 
 ### Composition
 
@@ -345,14 +348,49 @@ vs 98.4 s (`notes.md` §48). **Collab-arm curriculum:**
 McNemar; Jev is not a peer arm. Bake into jevals/Harbor hygiene, do
 not copy the harness.
 
+**Harbor-style frozen protocol vs constrained LLMs (Empirical as that
+named receipt, not a ranking).**
+[`nibzard/decision-model-benchmark`](https://github.com/nibzard/decision-model-benchmark)
+(DMB): jev vs 8 constrained LLMs vs keyword/majority/random; five
+suites; **$28.34**; raw logs. **`results/v2/v2.md` is the report of
+record.** Protocol frozen before the run; negative results ship;
+unknown usage is never a measured zero; later runs replace cells
+whole. jev S1 banking **76.3%**, S2 spam **93.0%**, S3 **100%*** at
+valid coverage **72.7%** (225 failed = 256+ Choice cap), S4 flip
+**13%**, S5 admits-ignorance **49.7%** / ECE **0.246**; p50
+**264–276 ms**; S1 cost/1k **$0.07**. No class wins on quality.
+Do not copy `uv`. Do not merge this Banking77 with atlas 87% or
+jevals.com 79.67% (`notes.md` §49).
+
+**Feedstock / recompute-from-logs (not a third ranking).**
+[`Jevals/jevals-data`](https://github.com/Jevals/jevals-data)
+(CC-BY-4.0): release boards + per-decision JSONL + suite files for
+[jevals.com](https://jevals.com). 2026-09-18 board, suite 0.1.0, 8
+systems (banking77 / helpsteer2 / pubmedqa). Formulas:
+https://jevals.com/methodology/. Jev on *this* board (n=300×5):
+banking77 acc **0.7967**, ECE **0.0981**, p50 **467 ms**, cost/1k
+**$0.043**. Cite the release; recompute from logs; do not dump the
+board as a ranking.
+
+**Negative: combinatorial assembly ≠ extractive keep/drop.**
+[`simonmesmith/jev-arc-agi-v1-experiment`](https://github.com/simonmesmith/jev-arc-agi-v1-experiment)
+— Direct Jev on ARC-AGI-1 public eval **4/400 (1%)**, 1.125%
+task-weighted, ~$2.32, 10 min. Cell-wise Choice; dimensions ~90%;
+rarely a complete grid. A frozen Harbor-shaped protocol that
+falsifies "many small decisions add up to a puzzle."
+
 ### Bake-off mandate
 
 Before adopting proprietary Jev vs Laya vs TypeAR vs Nimble vs kev vs
-blackwood-rlcd vs Archer vs openjev-lm, run a jevals-shaped labeled suite (or an equivalent
+blackwood-rlcd vs Archer vs openjev-lm vs a constrained LLM vs von vs
+open-alternative-jev, run a jevals-shaped labeled suite (or an equivalent
 with this hygiene) and, for a product loop, a Harbor taskset. A design
 card with no eval path is incomplete. A green smoke test on
 [jev-local](https://github.com/us/jev-local)'s **default stub** is not
-that bake-off (`notes.md` §48).
+that bake-off (`notes.md` §48). von's 14 MB needle at 52.6% authored144
+is not that bake-off either (`notes.md` §49). DMB is the frozen-protocol
+exemplar for decision-model vs constrained-LLM vs baselines; jevals-data
+is the public log feedstock. Do not promote a vendor table into a ranking.
 
 **Shared bake-off exemplar (Empirical as that named receipt, not a
 ranking).** [`pngwn/open-jev-laya-bench`](https://huggingface.co/datasets/pngwn/open-jev-laya-bench)

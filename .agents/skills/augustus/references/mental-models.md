@@ -52,6 +52,7 @@ until you label *your* cases.
 | Crossover metaphors | NATM, snap-fit, Norman, Kent, Shirky | This file §crossover |
 | Formal / semi-formal | Proof vs DST vs judgment | `formal-methods.md`, `formal-semi-formal.md` |
 | Class / family / objective | Decide vs locate vs categorize vs rank vs perceive | `judgment-class.md` species map |
+| Boundary map / extractable-from-state | Self-contained in fed state vs needs outside knowledge | This file §boundary; atlas receipts `notes.md` §49 |
 
 Pick the pillar from the hole, then the family, then the vendor.
 
@@ -105,6 +106,59 @@ SWE examples are **Empirical** (git-jev-stage, OpenSmoke). The others are
 curve on held-out *your* cases; score the fallback (escalation is not
 automatically correct). `mappings.md` §2.
 
+## Boundary map: extractable from state (placement judgment)
+
+Primary mental model this hour
+([jev-capability-atlas](https://github.com/Zaious/jev-capability-atlas);
+independent unofficial receipts, not a leaderboard; `notes.md` §49).
+Before picking a family or a vendor, place the *task*:
+
+> Is the correct answer fully recoverable from the `state` you hand
+> the model, or does it require outside knowledge that is not in
+> `state`?
+
+| Self-contained (in the state) | Not self-contained (needs outside knowledge) |
+|---|---|
+| Classify / route / gate over text you already hold | Trivia / recall with no supporting passage |
+| Citation / paraphrase / reversed-meaning given claim + quote | Score that needs comparison against a whole field |
+| Sarcasm / entailment whose trigger is in the given text | Overlapping blurred categories (dangerous-high ECE) |
+| DOM snapshot / numbered candidates → Choice | Combinatorial assembly (grid cells that must agree) |
+
+**Empirical as that named axis, not as a knowledge-breadth estimate.**
+History suite (N=3, single annotator, Chinese history; Case A ground
+truth itself contested): common-knowledge item **wrong @ 0.90** with
+no context (Yongzheng; Kangxi by popular convention); obscure item
+near-flat **0.07** without a passage (correct by luck; informal rerun
+wrong @ 0.08) → **right @ 0.97** with the passage in `state`
+(Xianfeng, 0.98 mass). Teaching: **bare memory is unreliable; reading
+comprehension over supplied text is reliable.** Retrieve first; put
+the passage in `state`. Do not treat the atlas 30-second slogan as
+the table.
+
+**Placement, not internals.** The model is not a state machine under
+the hood (distributed LM understanding: `paraphrase_support` and
+`reversed_meaning_high_overlap` both judged correctly). It *is*
+correctly used as a **component node** in *your* program — code owns
+transitions (`mappings.md` §3). Confidence is a **statistic from the
+distribution** (RLCD trains the distribution; Choice `confidence` is
+how peaked it is), not a second trained correctness score.
+Calibration is **population-level** and can fail **dangerous-high**:
+DAIR Emotion via jev-benchmarks — 48% acc, mean conf **0.819**, 16%
+of items p(correct)=0. Overlapping categories, overconfident. Plot
+reliability on *your* labels before you threshold.
+
+**Browser-use is this axis, not vision.** Strength = DOM-as-text +
+speculative fan-out over candidates code already numbered — a visual
+task translated into extractive text. Not screenshots. Same
+component-node placement as lizard-agent / solari-reflex
+(`applied-mappings.md` §2; `mixed-architecture.md`).
+
+**Does not:** merge Banking77 87% (atlas/jev-benchmarks) with DMB
+76.3% or jevals.com 79.67% into one ranking — protocol / n / split
+(`validation.md`, `notes.md` §49). Combinatorial grids are not
+extractive keep/drop (ARC-AGI Direct Jev 4/400). FAQ: when-it-holds;
+state-machine; retrieve-first.
+
 ## Calibration and cost-sensitive thresholds
 
 A number you can threshold is a *decision* number only after you check
@@ -132,6 +186,11 @@ two existing options in every block, and reversing order moved a
 probability across a ~0.9 threshold. Property-test both (`validation.md`).
 Correctness is not that confidence field: report both, on held-out
 cases (`validation.md`, Eval & hill-climb). Stimulus design, not a proof.
+Atlas receipt of the same arithmetic: DAIR Emotion mean conf 0.819 at
+48% acc (`notes.md` §49) — population calibration can fail
+dangerous-high on overlapping labels. DMB S5: jev admits-ignorance
+49.7% vs most constrained LLMs 97.3–100% (ECE 0.246). Do not skip
+the honesty suite because in-distribution ECE looked fine.
 
 For a calibrated binary p and unequal error costs, the Bayes threshold
 is `t = C_FP / (C_FP + C_FN)` when you act vs not
@@ -408,6 +467,10 @@ Use these as *existence proofs of a position*. Write your own card.
 | Shell / tool allowlist | unlisted remainder after a **proof** | five Nouls on unknown verbs | Proven/Refused in code; cannot block (**Empirical**: jevgate) |
 | SWE | residual AGENTS.md / CLAUDE.md rules | one Score per named instruction-file rule | linter owns hard rules; bands + fail-open (**Empirical**: Abide replay, `notes.md` §47) |
 | Screenshot candidates → act | lettered elements code already marked | Choice over those letters | Click in code (**Empirical** as blackwood-rlcd *shape*; CC BY-NC) |
+| Browser / DOM candidates → act | numbered elements from a **text** snapshot | Choice / Nouls over those ids (**Empirical** as atlas browser-use *shape*: DOM-as-text + fan-out, not vision) | Click in code; no screenshots |
+| Knowledge / recall | fact that is not in the document | **Do not ask.** Retrieve the passage first; then a self-contained Choice (**Empirical**: history suite A wrong@0.90 → C right@0.97) | Index, citation, the passage in `state` |
+| Dual-process cascade | cheap classify / route vs write | S1 typed decision + τ; S2 generates only on low conf (**Empirical as a productized metaphor**; routing accuracy **unmeasured** — dual-process-ai) | Safety still fail-closed in code |
+| Combinatorial puzzle | whole grid / program that must be consistent | **Rejected as extractive.** Cell-wise Choice assembly is not keep/drop (ARC-AGI Direct Jev 4/400) | Search, a program, a simulator |
 | Moderation | hold before publish | hazard Nouls (**Empirical** as family) | block/review policy |
 | Phishing / fraud screen | hold vs deliver | SDT criterion on a Noul | blocklist, SPF/DKIM exact (**Hypothesis**) |
 | Personal ops | cook done / not | "looks done" Noul | thermometer probe |

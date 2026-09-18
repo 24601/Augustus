@@ -27,14 +27,16 @@ never launder a Noul as a proof.
 - `.agents/skills/augustus/SKILL.md` — working protocol + decision-design card
 - `.agents/skills/augustus/references/mental-models.md` — cross-domain
   frames (EU, abstention, VOI, MCDA, SDT, search/control, Leveson,
-  NATM/snap-fit/Norman); not SWE-only
+  NATM/snap-fit/Norman); not SWE-only. Extractable-from-state boundary
+  map (self-contained vs needs outside knowledge)
 - `.agents/skills/augustus/references/judgment-class.md` — the class (Jev
   exemplar, not monopoly): open heads (Laya, kev, encoder DeBERTa, LoRA
   distill), constrained-AR (TypeAR, pcdServer), announced decision-model (Watch),
   open multimodal RLCD (blackwood-rlcd; not Archer), Laya ONNX port,
-  contract-compatible local `/v1/systemone` (stub until hf scorer),
+  contract-compatible local `/v1/systemone` (stub until hf scorer; also kev pointer / von tiny SAN — not replicas),
   GLiNER/GLiClass species (locate vs categorize vs local multi-head),
-  listwise vs decision objectives, vision scoring, when-to-use axes,
+  listwise vs decision objectives, vision scoring, when-to-use axes
+  (including decision-model vs constrained LLM),
   agent-architecture portents
 - `.agents/skills/augustus/references/formal-methods.md` — judgment vs
   proof ownership; Alloy Analyzer vs Apalache (finder ≠ BMC ≠
@@ -47,12 +49,13 @@ never launder a Noul as a proof.
   alias of the FM pillar
 - `.agents/skills/augustus/references/mixed-architecture.md` — default
   placement: judgment-class model + LLM + code; preference lint; provider
-  (Jev default / other family with self-eval)
+  (Jev default / other family with self-eval); dual-process S1 decide / S2
+  generate; component node; DOM-as-text + fan-out
 - `.agents/skills/augustus/references/applied-mappings.md` — context sieve,
   exact-text keep/drop (extractive / pointer-not-generator), env triage, moderation/ranking, skill routing (route ≠ memory)
 - `.agents/skills/augustus/references/faq.md` — "just classification",
   stack replacement, Jev vs open head vs encoder vs LoRA vs constrained AR vs kev vs blackwood,
-  wait-for-Archer, missing-other confident-wrong, soft project rules vs linter (Abide), extractive/pointer-not-generator, local drop-in vs stub scorer, route ≠ memory, GLiNER vs GLiClass vs CLIP, LLM-as-judge, in-engine vs CLI store,
+  wait-for-Archer, missing-other confident-wrong, soft project rules vs linter (Abide), extractive/pointer-not-generator, local drop-in vs stub scorer, route ≠ memory, when-it-holds / extractable-from-state, decision-model vs constrained LLM, dual-process S1/S2, combinatorial grid ≠ extractive, GLiNER vs GLiClass vs CLIP, LLM-as-judge, in-engine vs CLI store,
   hard envelope (bitrate / planner), not-another-how-to
 - `.agents/skills/augustus/references/mappings.md` — classical-method
   mappings with boundaries, counterexamples, acceptance tests (including
@@ -60,9 +63,12 @@ never launder a Noul as a proof.
 - `.agents/skills/augustus/references/validation.md` — design gate, eval
   recipes, Jev-for-skills (routing, self-monitoring, testing, modularity,
   frontmatter), and Eval & hill-climb (jevals hygiene + Harbor taskset;
-  open-jev-laya-bench as ECE/NLL/Brier bake-off exemplar; Abide replay as
+  open-jev-laya-bench as ECE/NLL/Brier bake-off exemplar; DMB as
+  Harbor-style frozen protocol vs constrained LLMs; jevals-data as
+  CC-BY-4.0 recompute-from-logs feedstock; Abide replay as
   Harbor-adjacent soft-rule measurement; solari-reflex Harbor-style
-  computer-use; jev-testbench collab arms)
+  computer-use; jev-testbench collab arms; ARC-AGI Direct Jev as
+  combinatorial-≠-extractive negative)
 - `.agents/skills/augustus/references/boundary-audit.md` — existing-system
   insertion: fit test, opportunity map, smallest boundary, red flags
 - `.agents/skills/augustus/scripts/evaluate_decisions.py` — offline evaluator
