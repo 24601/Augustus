@@ -313,7 +313,7 @@ still fail the trolley; (ad) two mixed-architecture loops, not one.
 
 ## Batch #15 (2026-09-18, Hume architecture reconstruction)
 
-Note: `research/notes.md` §27. Cards: `judgment-class.md` compute graph;
+Note: `research/notes.md` §32. Cards: `judgment-class.md` compute graph;
 `mental-models.md` calibration; `faq.md`; `formal-methods.md`;
 `validation.md` IIA clause. Not a TypeSafe contract.
 
@@ -361,5 +361,60 @@ not move locate.
 
 Cross-repo addition: (ag) effectful FSM — soft Choice, host effect;
 (ah) GLiNER author's own "like jev" is still categorize.
+
+## Batch #17 (2026-09-18, TypeAR constrained-AR surface)
+
+Note: `research/notes.md` §31. Hume reconstruction is §32. Card:
+`judgment-class.md` constrained-AR surface (not a species). Ward
+`mappings.md` §19 already existed; cross-linked, not rewritten.
+
+- **TypeAR (Contract as README, HTTP 200):** typed decisions on a
+  pretrained open autoregressive model; no proprietary API, no
+  retraining. Enums ≤16; string/int/number/boolean; open integer/number
+  added 2026-09-18. Sequential conditions on prior values; batch forks
+  after shared prefill. One output token per closed decision. Prefix
+  reuse O(C + D·S). Argmax default; sample mode temperatures constrained
+  scores. [Repo](https://github.com/zmtomorrow/TypeAR). No license file.
+- **5.8× (Empirical only as their receipt):** Qwen3.8-27B, K=16
+  booleans, batch vs sequential. Not re-run. Not a class benchmark.
+- **WATCH:** Archer status tweet already in batch #15. Quantize-well
+  and smarter-than-Jev stay claims. Hub authors `archerhume` /
+  `4rcherhume` had no model repos this pass. Composition with TypeAR is
+  Hypothesis until weights land.
+- **rh-guard:** not a mapping in this fold. `24601/rh-guard` README
+  is recorded under GLiGuard notes (§30) as a reward-hack hook, a
+  different hole from jevgate. Cards still say abstention /
+  jevgate-shaped gates.
+
+Cross-repo addition: (ai) constrained AR decoding is a surface with a
+next-token objective, not a decide species.
+
+
+## Batch #18 (2026-09-18, GLiGuard README / paper)
+
+Note: `research/notes.md` §30. Card: `judgment-class.md` categorize
+row. FAQ: "Is GLiGuard Jev?" Ward card (`mappings.md` §19) already
+present; not rewritten.
+
+- **GLiGuard (Empirical as published architecture and author numbers):**
+  0.3B schema-conditioned GLiNER2 encoder,
+  `fastino/gliguard-LLMGuardrails-300M`. One bidirectional pass over
+  prompt/response safety, toxicity, jailbreak, refusal. README: 23–90×
+  smaller than 7–27B decoder guards; up to 16.2× throughput and 16.6×
+  lower latency. Paper abstract says 17× lower latency; Table 3 matches
+  the README. Not re-run. Not a Jev weight clone (WildGuardTrain, not
+  Jev answers).
+  [README](https://github.com/fastino-ai/GLiGuard);
+  [arXiv:2605.07982](https://arxiv.org/abs/2605.07982).
+- **Aggregation (their eval script, not new doctrine):** OR of unsafe /
+  non-benign prompt labels; refusal overrides an unsafe response.
+  Policy-in-code already taught. Not generalized.
+- **"like jev" (discourse):** urchadeDS tweet, already §28. Same
+  interface shape, different objective. A GLiGuard score is not a proof.
+  LLM I/O safety ≠ coding-agent tool gates (jevgate shape).
+
+Cross-repo addition: (ai) safety-schema encoder is a categorize peer,
+not a decide clone.
+
 
 

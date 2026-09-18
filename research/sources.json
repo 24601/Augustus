@@ -250,13 +250,13 @@
     },
     {
       "kind": "repo",
-      "note": "2026-09-18 late pass (missed by star-sorted limit-40 search \u2014 see method note): paulobueno164/jev-mcts + lhemerly/mcts-agent are the MCTS artifacts; 12 more low-star repos added to jev-archive (open-jev x2, jevbetter, jev-experiments, jev-benchmarks, mario-jev, Jev-Moderation-Bot, typesafe-mcp, 2 Go clients, jev-on-a-laptop, jev-me). Search fix: paginate ALL results, never sort-by-stars with a low limit.",
+      "note": "2026-09-18 late pass (missed by star-sorted limit-40 search — see method note): paulobueno164/jev-mcts + lhemerly/mcts-agent are the MCTS artifacts; 12 more low-star repos added to jev-archive (open-jev x2, jevbetter, jev-experiments, jev-benchmarks, mario-jev, Jev-Moderation-Bot, typesafe-mcp, 2 Go clients, jev-on-a-laptop, jev-me). Search fix: paginate ALL results, never sort-by-stars with a low limit.",
       "title": "MCTS+Jev repos and search-method fix",
       "url": "https://github.com/paulobueno164/jev-mcts"
     },
     {
       "kind": "index",
-      "note": "2026-09-18: topic index crawl added ~80 repos (archive=184 clones). Key additions: jev-as-a-judge (judge variance 224-279x lower than GPT judge over 100 reps), ndolinschi gate family, jev-dsl, qwen-rlcd reproduction, awesome-jev-by-typesafe 18-usecase map. | Window 2026-09-18T13:39Z\u201314:39Z, 34 repos. Snapshot: research/archive/hourly/2026-09-18T14/github-topic-jev-last-hour.json",
+      "note": "2026-09-18: topic index crawl added ~80 repos (archive=184 clones). Key additions: jev-as-a-judge (judge variance 224-279x lower than GPT judge over 100 reps), ndolinschi gate family, jev-dsl, qwen-rlcd reproduction, awesome-jev-by-typesafe 18-usecase map. | Window 2026-09-18T13:39Z–14:39Z, 34 repos. Snapshot: research/archive/hourly/2026-09-18T14/github-topic-jev-last-hour.json",
       "title": "topics/jev + awesome-jev-by-typesafe",
       "url": "https://github.com/topics/jev"
     },
@@ -270,7 +270,7 @@
       "kind": "archive",
       "title": "Hourly X+GH scan 2026-09-18T14",
       "url": "research/archive/hourly/2026-09-18T14/USAGE-DIGEST.md",
-      "note": "2026-09-18 13:39\u201314:39 UTC: X theme digest (~400 posts) + topic:jev movers (34). Design signal: mixed architecture default; classification skepticism \u2192 placement. Raw JSON alongside this digest."
+      "note": "2026-09-18 13:39–14:39 UTC: X theme digest (~400 posts) + topic:jev movers (34). Design signal: mixed architecture default; classification skepticism → placement. Raw JSON alongside this digest."
     },
     {
       "kind": "social",
@@ -282,7 +282,7 @@
       "kind": "social",
       "title": "X: classification skepticism (dt_sqr)",
       "url": "https://x.com/i/status/2100957356389511173",
-      "note": "Jev is classification / oldest AI task \u2014 answered in mixed-architecture.md, not claimed as novelty."
+      "note": "Jev is classification / oldest AI task — answered in mixed-architecture.md, not claimed as novelty."
     },
     {
       "kind": "social",
@@ -312,13 +312,13 @@
       "kind": "repo",
       "title": "WiktorB2004/llama-index-jev",
       "url": "https://github.com/WiktorB2004/llama-index-jev",
-      "note": "Rerank fails open (BEIR nfcorpus MiniLM 0.340\u21920.396 nDCG@5); select fails closed. Per-action fail policy."
+      "note": "Rerank fails open (BEIR nfcorpus MiniLM 0.340→0.396 nDCG@5); select fails closed. Per-action fail policy."
     },
     {
       "kind": "repo",
       "title": "doeixd/jev-pref",
       "url": "https://github.com/doeixd/jev-pref",
-      "note": "AGENTS.md \u2192 Jev linter. Contract: YOU define the rule; JEV classifies evidence; CODE maps outcome."
+      "note": "AGENTS.md → Jev linter. Contract: YOU define the rule; JEV classifies evidence; CODE maps outcome."
     },
     {
       "kind": "repo",
@@ -762,13 +762,43 @@
       "kind": "repo",
       "title": "fastino-ai/GLiGuard",
       "url": "https://github.com/fastino-ai/GLiGuard",
-      "note": "Paper's code/models link. README decision rules are policy-in-code, not a new doctrine. Do not copy an install or extractor API into Augustus. notes.md §29."
+      "note": "Paper's code/models link. README decision rules are policy-in-code, not a new doctrine. Do not copy an install or extractor API into Augustus. notes.md §30."
     },
     {
       "kind": "model",
       "title": "fastino/gliguard-LLMGuardrails-300M",
       "url": "https://huggingface.co/fastino/gliguard-LLMGuardrails-300M",
       "note": "0.3B checkpoint named in the GLiGuard README. HTTP 200 this pass. Not a Jev weight clone."
+    },
+    {
+      "kind": "social",
+      "title": "Archer Hume: open-weight Jev-class drop status",
+      "url": "https://x.com/4rcherhume/status/2100848840643612729",
+      "note": "2026-09-18T07:26Z. ~65% done. Qwen3.8 27b-based, 265k, multimodal, no audio. Smarter-than-Jev is a claim. WATCH. notes.md §31, §32."
+    },
+    {
+      "kind": "social",
+      "title": "Archer Hume: open-weight intent + architecture essay",
+      "url": "https://x.com/4rcherhume/status/2100555442061820286",
+      "note": "2026-09-17. Open-weight intent; the essay is the writeup while training. notes.md §31, §32."
+    },
+    {
+      "kind": "docs",
+      "title": "Jev's Architecture Unmasked — archerhume",
+      "url": "https://archerhume.com/posts/jevs-architecture-unmasked/",
+      "note": "17 Sep 2026, ~28 min, HTTP 200. Reconstruction from ~10k probes of jev-1.13.0, not a TypeSafe contract. notes.md §32."
+    },
+    {
+      "kind": "repo",
+      "title": "zmtomorrow/TypeAR",
+      "url": "https://github.com/zmtomorrow/TypeAR",
+      "note": "Constrained-AR surface, not a decision head. README HTTP 200. No license file. notes.md §31. Essay reconstruction is §32."
+    },
+    {
+      "kind": "repo",
+      "title": "24601/rh-guard",
+      "url": "https://github.com/24601/rh-guard",
+      "note": "README HTTP 200. Coding-agent reward-hack / eval-integrity hooks. Different surface from GLiGuard LLM I/O safety and from jevgate. Do not copy install into Augustus."
     }
   ]
 }

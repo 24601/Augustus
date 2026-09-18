@@ -67,6 +67,21 @@ on fresh rows measures *agreement with the teacher*, not gold. Self-eval
 on your own independent labels before you treat it as a decision API
 (`notes.md` §25).
 
+## Open weights vs Jev vs constrained decoding?
+
+Three surfaces, not one family (`judgment-class.md`). Proprietary Jev
+is the documented decision API; you do not hold the weights, so checks
+around the boundary stay black-box (`formal-methods.md`). A trained
+decision-only open head (Laya, openjev-lm) copies the Choice / Score /
+Noul shape and moves eval onto you. Constrained autoregressive decoding
+masks a pretrained generator so the next token stays in a declared set
+— a different objective from a proper-scoring head, so do not threshold
+that distribution as a Noul. A short enum and a missing abstain option
+are brittleness; compose with abstention and an allowlist gate
+(`mappings.md` §2, §17, §18). Hume's announced open-weight model is
+**Watch** until weights, license, and evals exist (`notes.md` §31). Constrained decoding is §32.
+"Smarter than Jev" is a claim.
+
 ## GLiNER vs GLiClass vs Jev vs a cross-encoder?
 
 Hole first, logo last. These are **species**, not aliases
@@ -105,8 +120,9 @@ No. One forward pass over a safety schema is the same *interface shape*
 as batched System One questions and a different objective (moderation
 labels on a GLiNER2 encoder, not Choice / Score / Noul). Empirical open
 encoder next to GLiClass; not a weight clone. "like jev" is discourse.
-A GLiGuard score is not a proof. LLM I/O safety is not coding-agent
-tool gates (jevgate shape). `judgment-class.md`.
+A GLiGuard score is not a proof. LLM I/O safety is not a coding-agent
+tool gate (rh-guard for reward-hacking; jevgate shape for allowlist
+∩ remainder). `judgment-class.md`.
 
 ## Can I threshold CLIP / SigLIP as a safety gate?
 
@@ -131,8 +147,8 @@ search/control, and Leveson org/safety are the others
 the code of a practice that has no repository. Hypothesis cards for
 VOI, ROC, Leveson, search/control outside SWE, spec pipelines, Alloy
 loops, RV sandwiches, DST triage, durable agents, assignment hybrids,
-and situated density, paraphrase stability, and allowlist ∩ remainder:
-`mappings.md` §6–§18 — promote only with an
+situated density, paraphrase stability, allowlist ∩ remainder, and
+effect-oriented loops: `mappings.md` §6–§19 — promote only with an
 acceptance test that ran.
 
 ## Alloy Analyzer or Apalache?
@@ -224,4 +240,4 @@ leading probability sits above a uniform `1/K`. It is not a second learned
 estimate that the answer is correct. A peaked distribution can be
 confidently wrong. Threshold a p you have checked on your labels.
 [Essay](https://archerhume.com/posts/jevs-architecture-unmasked/),
-`notes.md` §27, `mental-models.md` calibration.
+`notes.md` §32, `mental-models.md` calibration.

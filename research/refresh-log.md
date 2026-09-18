@@ -193,7 +193,7 @@
   validation.md IIA clause. No SGLang snippets, no new script.
 - Open-weight drop status: WATCH (tweet: ~65% done). "Smarter than Jev"
   weighed against his own order-sensitivity and calibration warnings.
-- notes.md §27; sources.json; findings.md batch #15.
+- notes.md §32; sources.json; findings.md batch #15.
 
 ## 2026-09-18 16:45 UTC — effect-oriented loops + GLiNER author
 
@@ -207,7 +207,30 @@
 - notes.md §28. HTTP 200 on both posts, arXiv, both GitHub URLs.
   `note_tweet` absent on both.
 
+## 2026-09-18 17:05 UTC — GLiGuard README / paper claims
+
+- HTTP 200: `fastino-ai/GLiGuard` README, arXiv abs 2605.07982, HF
+  `fastino/gliguard-LLMGuardrails-300M`.
+- Recorded only what those sources say: 0.3B GLiNER2 encoder; one
+  bidirectional pass; 23–90× vs 7–27B; README 16.2× / 16.6× (abstract
+  says 17× latency; table matches README). Not a Jev weight clone.
+- README OR / refusal rule left as existing policy-in-code. "like jev"
+  stays the §28 tweet (discourse). FAQ one row. No install copy.
+- notes.md §30. Ward card already in `mappings.md` §19; not rewritten.
 
 
+## 2026-09-18 16:55 UTC — TypeAR constrained-AR surface
 
+- README HTTP 200 (blob 43f456ae, repo a49c320). Python, created
+  2026-09-17, updated 2026-09-18, no license file. X posts for the
+  Archer drop re-fetched (`note_tweet` absent; text complete). Essay
+  reconstruction is notes §32.
+- TypeAR is a next-token constraint surface, not a sixth decide
+  species. Enum ≤16, no abstention primitive. 5.8× is their K=16
+  boolean example only. Sequential conditioning compared to Jev
+  fan-out and to mappings §19 (already present; not rewritten).
+- Archer drop remains WATCH. Hub search found no archerhume /
+  4rcherhume weights. rh-guard not confirmed in this tree.
+- notes.md §32; judgment-class card; one FAQ row; one formal-methods
+  paragraph. No serving-stack snippets in skill cards.
 

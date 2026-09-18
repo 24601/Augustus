@@ -160,7 +160,7 @@ not cheaper LLM". No verified independent benchmarks yet.
 - Modularity conclusion stands: full roster of small skills + cheap Jev rank-then-verify front door; frontmatter description IS the routing payload — write it for a 700-character excerpt and one-second judgment.
 
 ### Statistical discipline numbers
-- Calibration holds near-distribution (ECE 0.0313, Archer Hume) but collapses out of distribution: 32% accuracy + 0.30 mean top-prob on novel 2-step word problems → Jev flags uncertainty instead of reasoning through it. Rule: never use Jev where the judgment requires a derivation; decompose until each question is observational. Architecture reconstruction (readout, isolation, IIA, confidence-as-arithmetic): §27. Not a new contract.
+- Calibration holds near-distribution (ECE 0.0313, Archer Hume) but collapses out of distribution: 32% accuracy + 0.30 mean top-prob on novel 2-step word problems → Jev flags uncertainty instead of reasoning through it. Rule: never use Jev where the judgment requires a derivation; decompose until each question is observational. Architecture reconstruction (readout, isolation, IIA, confidence-as-arithmetic): §32. Not a new contract.
 - Same Score ≠ same quality: [0,1,0] vs [0.5,0,0.5] both 1.0 (§1) — always read probabilities + confidence together.
 - Open-model reverse engineering (openjev, openjev-sglang, jevmlx, NanoJev, reflex): consensus that the pattern is prefill-once + read typed option logits directly, no generation. Consistent with parallel fan-out behavior; treat as hypothesis about the closed model.
 
@@ -835,81 +835,6 @@ names, or auto-fixes — the agent/CI owns when to run and how to fix.
   Sibling of `doeixd/jev-pref` (YOU define the rule / Jev classifies /
   code maps outcome). Pointer only; do not copy CLI/env into skill cards.
 
-## 27. Archer Hume — architecture reconstruction (2026-09-17)
-
-[Jev's Architecture Unmasked](https://archerhume.com/posts/jevs-architecture-unmasked/)
-(17 Sep 2026, ~28 min; HTTP 200 this pass). Probe of `jev-1.13.0`, one
-early-access account, one region. Headline is ~10,000 API calls; the
-methods section itemizes probe, benchmark, and follow-up requests (shared
-benchmark items — not 10k independent problems). **Reconstruction, not a
-TypeSafe contract.** Live shapes and the ~32k/~64k envelope stay in §1
-and the docs. Labels are his: published by TypeSafe, observed in probes,
-inferred from them.
-
-1. **End with a readout, not AR text.** Published: probabilities in
-   parallel, not token-by-token generation. Observed: `output_tokens` is
-   a billing figure from the serialized response, not a decode trace (the
-   question id is not sent to the model, yet the count moves with it;
-   `0.0` costs the same as `0.01`; latency tracks input length). Inferred:
-   the head (slot softmax, reserved vocab rows, or a pointer). Reserved
-   label tokens remain possible.
-2. **Share state, isolate questions.** Observed: a secret in a sibling
-   question is invisible (0.00); the same text in state is visible
-   (~0.90–0.92). Accounting is additive; up to ~100 questions, server time
-   barely moves. Inferred, not measured: prefix KV plus causal suffixes.
-   Hydragen/DeFT are prior art he cites, not a library claim. The mask
-   itself is not exposed.
-3. **Causal backbone — inferred.** Probes cannot separate a causal decoder
-   from a bidirectional encoder. He assumes a pretrained causal decoder
-   (MMLU-Pro 84.6%; RLCD described as post-training) and says bidirectional
-   cannot be ruled out. Tokenizer is observed: none of 192 public
-   tokenizers matched; closest public agreement is Qwen (348/415), not an
-   exact match; o200k is close and ruled out by digit splitting. Closest
-   tokenizer is not an identified base model.
-4. **Options interact before the choice — behavior observed.** Appending
-   an irrelevant option moved log-odds of two existing options in all ten
-   blocks (~+0.38 → ~+0.11; mean change −0.28). That breaks IIA for fixed
-   independent logits plus a fixed softmax. Mechanism is not unique (a
-   set-dependent temperature can do it). Order sensitivity, separate
-   probe: reversing options moved a probability from roughly 0.84–0.89 to
-   0.93–0.96, so a threshold near 0.9 can change the act.
-5. **Train the distribution; confidence is arithmetic.** Published name:
-   RLCD. Which loss is unpublished — log or Brier is his proposed proper
-   scoring recipe, not a disclosed objective. Observed in the adapter he
-   cites (`confidence_metrics.py`, rev `fb52b103`): for K>1, Choice
-   confidence is `(p_max − 1/K) / (1 − 1/K)` — distance from uniform, not
-   a second learned correctness score. A peaked distribution can still be
-   wrong. MMLU ECE 0.0313 and the fresh-math collapse are already §7.
-   Properness is not a deployment guarantee.
-6. **Sparse MoE — inferred, not observed.** He expects sparse experts and
-   says a dense swap would leave the interface, shared state, isolation,
-   and readout unchanged. Nothing else depends on it.
-7. **Batch branches, not a conversation.** Observed: no dependency chain
-   between answers; duplicate questions in one request still differ, so
-   do not assume API determinism. That noise does not prove text sampling.
-   Inferred: suffixes packed against a shared prefix. A later question
-   that needs an earlier answer requires another stage. Code owns that
-   transition.
-
-Limits he re-measured — same envelope as §1, **independent probe, not a
-new contract**: ~32,768 tokens per branch; ~65,536 per request with state
-counted once; at most 255 options, request validation not a measured
-256-slot head; non-determinism across duplicates.
-
-**WATCH, not shipped.** Tweets, not the essay:
-[intent](https://x.com/4rcherhume/status/2100555442061820286) (17 Sep)
-and [status](https://x.com/4rcherhume/status/2100848840643612729)
-(18 Sep 07:26Z, ~65% done, "probably release tomorrow"): Qwen3.8 27b-based,
-265k context, multimodal, no audio. "Smarter than Jev" is his early
-claim. Weigh it against *his* order-sensitivity and calibration warnings
-above. The public Qwen3.8-27B checkpoint is a base model; this
-decision-model drop is not that checkpoint. Laya stays the text-only open
-head already on the card.
-
-Design card and the TypeAR comparison (constrained AR vs this readout;
-not a how-to): `judgment-class.md`. IIA / order as a property test:
-`formal-methods.md`, `validation.md`. Confidence question: `faq.md`.
-
 ## 27. Adversarial review of the whole skill (2026-09-18) — review findings, not doctrine
 
 Hostile read of `SKILL.md` + all 16 reference cards + README / CHANGELOG /
@@ -1128,9 +1053,184 @@ calibrated Choice / Score / Noul. That is **categorize** beside
 is a different checkpoint; do not collapse GLiGuard into it. 36×
 Browser Use stays a tweet/Hypothesis, not a re-run. Species map:
 categorize row, not a new species (`judgment-class.md`). Author-reported
-scale, the README aggregation rule, and the FAQ row: §29.
+scale, the README aggregation rule, and the FAQ row: §30.
 
+## 30. GLiGuard — README and paper claims (2026-09-18)
 
+Extends §28 (tweet / Figure 3). Does not replace the Ward card there
+or in `mappings.md` §19. HTTP 200 this pass: GitHub README (HTML and
+raw), [arXiv:2605.07982](https://arxiv.org/abs/2605.07982), Hugging Face
+`fastino/gliguard-LLMGuardrails-300M`.
 
+**Author-reported, not re-run.** Fastino; Urchade Zaratiana, Mary
+Newhauser, George Hurn-Maloney, Ash Lewis. Schema-conditioned encoder
+guardrail on the GLiNER2 interface. One non-autoregressive bidirectional
+pass. Named tasks: prompt safety, response safety, toxicity / harm,
+jailbreak, refusal. Paper: 14 fine-grained harm categories and 11
+jailbreak strategies, composed as task and label blocks in the input
+schema. README checkpoint: `fastino/gliguard-LLMGuardrails-300M` (0.3B).
 
+Scale, do not collapse the two wordings: README says 23× to 90× smaller
+than comparable 7B–27B decoder guards, and up to 16.2× throughput and
+16.6× lower latency. Paper abstract says up to 16× throughput and 17×
+lower latency; paper body (Table 3) matches the README (16.2× / 16.6×).
+README benchmark averages: 87.7 prompt F1, 82.7 response F1.
 
+Training: adapted from GLiNER2; WildGuardTrain for safety and refusal;
+auxiliary harm and jailbreak labels are automatic and, in the paper,
+weakly supervised (GPT-4.1 on unsafe samples). **Not a Jev weight
+clone.**
+
+**Aggregation** is the README's benchmark script, not new doctrine. A
+prompt is unsafe if safety says unsafe **or** toxicity / jailbreak is
+any non-benign label. A response is unsafe only if safety says unsafe
+**and** refusal does not fire — refusal overrides. Paper §3.6 is the
+same monotonic override. Point at existing policy-in-code (`mappings.md`
+§3; judge-once / re-policy; explicit policy in `mixed-architecture.md`).
+Not generalized past that script, so not a Hypothesis. Their script's
+default operating point is 0.5; do not copy it.
+
+**Placement.** Same interface shape as batched System One questions;
+different objective (safety schema vs Choice / Score / Noul).
+**Empirical** open encoder class next to Laya and GLiClass. "like jev"
+stays discourse (§28). A GLiGuard score is not a proof. LLM I/O safety
+is not coding-agent tool gates. rh-guard README (HTTP 200) is the
+reward-hack / eval-integrity hook; jevgate is the allowlist shape.
+Different holes. Do not copy either install.
+
+## 31. Archer Hume — architecture reconstruction (2026-09-17)
+
+[Jev's Architecture Unmasked](https://archerhume.com/posts/jevs-architecture-unmasked/)
+(17 Sep 2026, ~28 min; HTTP 200 this pass). Probe of `jev-1.13.0`, one
+early-access account, one region. Headline is ~10,000 API calls; the
+methods section itemizes probe, benchmark, and follow-up requests (shared
+benchmark items — not 10k independent problems). **Reconstruction, not a
+TypeSafe contract.** Live shapes and the ~32k/~64k envelope stay in §1
+and the docs. Labels are his: published by TypeSafe, observed in probes,
+inferred from them.
+
+1. **End with a readout, not AR text.** Published: probabilities in
+   parallel, not token-by-token generation. Observed: `output_tokens` is
+   a billing figure from the serialized response, not a decode trace (the
+   question id is not sent to the model, yet the count moves with it;
+   `0.0` costs the same as `0.01`; latency tracks input length). Inferred:
+   the head (slot softmax, reserved vocab rows, or a pointer). Reserved
+   label tokens remain possible.
+2. **Share state, isolate questions.** Observed: a secret in a sibling
+   question is invisible (0.00); the same text in state is visible
+   (~0.90–0.92). Accounting is additive; up to ~100 questions, server time
+   barely moves. Inferred, not measured: prefix KV plus causal suffixes.
+   Hydragen/DeFT are prior art he cites, not a library claim. The mask
+   itself is not exposed.
+3. **Causal backbone — inferred.** Probes cannot separate a causal decoder
+   from a bidirectional encoder. He assumes a pretrained causal decoder
+   (MMLU-Pro 84.6%; RLCD described as post-training) and says bidirectional
+   cannot be ruled out. Tokenizer is observed: none of 192 public
+   tokenizers matched; closest public agreement is Qwen (348/415), not an
+   exact match; o200k is close and ruled out by digit splitting. Closest
+   tokenizer is not an identified base model.
+4. **Options interact before the choice — behavior observed.** Appending
+   an irrelevant option moved log-odds of two existing options in all ten
+   blocks (~+0.38 → ~+0.11; mean change −0.28). That breaks IIA for fixed
+   independent logits plus a fixed softmax. Mechanism is not unique (a
+   set-dependent temperature can do it). Order sensitivity, separate
+   probe: reversing options moved a probability from roughly 0.84–0.89 to
+   0.93–0.96, so a threshold near 0.9 can change the act.
+5. **Train the distribution; confidence is arithmetic.** Published name:
+   RLCD. Which loss is unpublished — log or Brier is his proposed proper
+   scoring recipe, not a disclosed objective. Observed in the adapter he
+   cites (`confidence_metrics.py`, rev `fb52b103`): for K>1, Choice
+   confidence is `(p_max − 1/K) / (1 − 1/K)` — distance from uniform, not
+   a second learned correctness score. A peaked distribution can still be
+   wrong. MMLU ECE 0.0313 and the fresh-math collapse are already §7.
+   Properness is not a deployment guarantee.
+6. **Sparse MoE — inferred, not observed.** He expects sparse experts and
+   says a dense swap would leave the interface, shared state, isolation,
+   and readout unchanged. Nothing else depends on it.
+7. **Batch branches, not a conversation.** Observed: no dependency chain
+   between answers; duplicate questions in one request still differ, so
+   do not assume API determinism. That noise does not prove text sampling.
+   Inferred: suffixes packed against a shared prefix. A later question
+   that needs an earlier answer requires another stage. Code owns that
+   transition.
+
+Limits he re-measured — same envelope as §1, **independent probe, not a
+new contract**: ~32,768 tokens per branch; ~65,536 per request with state
+counted once; at most 255 options, request validation not a measured
+256-slot head; non-determinism across duplicates.
+
+**WATCH, not shipped.** Tweet hedges and the hub search are §32.
+Weigh "smarter than Jev" against *this* essay: order can cross a ~0.9
+threshold, and calibration is in-distribution (§7), not a leaderboard.
+The public Qwen3.8-27B checkpoint is a base; the decision-model drop is
+not that checkpoint. Laya stays text-only (§18).
+
+Design card and the TypeAR comparison (constrained AR vs this readout;
+not a how-to): `judgment-class.md`. IIA / order as a property test:
+`formal-methods.md`, `validation.md`. Confidence question: `faq.md`.
+
+## 32. TypeAR — constrained-AR surface (2026-09-18)
+
+[zmtomorrow/TypeAR](https://github.com/zmtomorrow/TypeAR). GitHub API
+this pass: description "Type-Safe Decoding for Autoregressive LLMs";
+language Python; created 2026-09-17T12:41:27Z; updated
+2026-09-18T12:32:37Z; default branch `main` at `a49c320`; README blob
+`43f456ae`. `license` null; no LICENSE file in the root listing. HTTP
+200 on the repo and on the raw README. **Contract** as that README.
+Not a how-to: no install, ports, or client signatures in skill cards.
+README names SGLang as the serving stack for a compatible open model;
+that name stays in this note.
+
+**What the README actually says.** A typed-decision interface on a
+compatible pretrained open autoregressive model, without a proprietary
+model API, retraining, or manual KV management. Their serving stack is
+named in the README; skill cards do not repeat it. Finite enums at most
+16 values. Fields: string / integer / number enums, open integer, open
+number (tokenizer-native constrained decoding, update dated 2026/09/18),
+boolean. Sequential mode is the default: each later field is conditioned
+on earlier selected values. Batch mode forks independent fields after a
+shared prefill; the two modes compute different conditionals. Closed
+decisions generate one token. With prefix reuse, newly processed input
+is O(C + D·S); without it, O(D·C + D²·S); output is O(D + N) where N is
+open-numeric tokenizer steps. Probabilities over allowed values; argmax
+default; sample mode applies temperature to constrained scores.
+
+**Their throughput number.** One local run: Qwen3.8-27B, K=16 one-token
+booleans, sequential 9.35 s vs batch 1.61 s, relative throughput 5.8×.
+They call it a single example, not a portable benchmark. **Empirical
+only as that self-reported receipt.** Not re-run here.
+
+**Not a sixth species.** Next-token constraint is a different objective
+from a proper-scoring decision head (Jev, Laya, openjev-lm). A
+constrained distribution is not a Noul. The README schema has no
+abstention type. Enum ≤16 plus "must pick" is brittleness: compose with
+`mappings.md` §2 and §17, and with a jevgate-shaped structural gate
+(§18) before the model is asked. `rh-guard` is not a mapping here.
+§30 already records `24601/rh-guard` (README HTTP 200) as a reward-hack
+hook, a different hole from jevgate; this card does not cite it.
+
+**Versus Jev fan-out and Ward.** Questions on one Jev request do not
+see each other's answers (`question-design.md`; §32 item 7).
+TypeAR sequential mode does the opposite. `mappings.md` §19
+(effect-oriented state-machine loops) already existed at this write:
+code owns transitions. Sequential conditioning is not that machine.
+Batch mode is the isolation pattern.
+
+**Composition hypothesis.** TypeAR's example and Hume's announced drop
+(§32) both name Qwen3.8 27B. Running this surface on those weights
+versus stock Qwen is **Hypothesis** until the weights, license, and
+evals exist. Hub search this pass: no model repos under authors
+`archerhume` or `4rcherhume`, and none for query "archer hume jev".
+Watch list, do not pretend they exist: weights drop, license, eval
+claims vs Jev, whether a Noul or abstention exists, candidate-set size
+limits. Tweet hedges to keep: "probably like 65% done", "will probably
+release tomorrow" (posted 2026-09-18T07:26:10Z — **WATCH**, not
+shipped), "seemingly quantises pretty well", "from early experiments
+seems to be smarter than Jev (surprisingly)" — a **claim**, not
+Empirical gold. Compare, when it exists, to Laya (text-only, §18),
+this surface, and jev-visual (region Choice, findings). `note_tweet`
+was requested on both posts and was absent; the full text is in `text`.
+
+Card: `judgment-class.md` constrained-AR surface. One FAQ row. One
+formal-methods paragraph (open weights vs API; sensor still isn't a
+proof).

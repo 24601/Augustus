@@ -65,7 +65,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   Empirical; domain-general reading Hypothesis). FAQ: GLiNER vs Jev,
   LLM-as-judge (Langfuse framing), allowlist-then-judge
 - GLiGuard as an Empirical encoder peer (`judgment-class.md`,
-  `notes.md` §29): one-pass safety-schema classify on GLiNER2, not a
+  `notes.md` §30): one-pass safety-schema classify on GLiNER2, not a
   Jev weight clone; FAQ "is GLiGuard Jev?"; README OR/refusal
   aggregation left as existing policy-in-code. LLM I/O safety is not
   a coding-agent tool gate
@@ -73,11 +73,10 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   peer; openjev-lm 92.9% / 6 vCPU teacher-distill; jevgate; doc-router
   1.74× $; pi-jev-context; jevscope next to jevals; Han Xiao trolley
   (listwise ≠ decide); James Ward dual orchestration; JevLint
-- Architecture placement: trained decision-only vs constrained
-  autoregressive decoding vs proprietary Jev (`judgment-class.md`).
-  TypeAR is that constrained-decoding surface, not a sixth species.
-  Archer Hume's open-weight drop is **Watch**, not shipped
-  (`research/notes.md` §27)
+- Constrained-AR surface, not a sixth species (`judgment-class.md`):
+  TypeAR puts a typed interface on a pretrained generator (next-token
+  constraint ≠ proper-scoring head). Archer Hume's open-weight drop
+  stays **Watch** (`research/notes.md` §31, §32)
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard
@@ -101,7 +100,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   isolated questions, listwise IIA and order sensitivity, confidence as
   arithmetic on the distribution. Independent envelope probe; does not
   override live TypeSafe docs. Announced open-weight drop is **WATCH**.
-  `research/notes.md` §27; `judgment-class.md`; FAQ confidence question.
+  `research/notes.md` §32; `judgment-class.md`; FAQ confidence question.
 
 ### Changed
 
