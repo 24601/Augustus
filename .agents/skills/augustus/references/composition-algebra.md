@@ -155,10 +155,11 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     Jev as gate/selector/verifier *around* a generator, never instead of one.
     Cost-sensitive prefilter (drop chunks/lines/hunks before the LLM);
     tool/skill routing (Choice + fits-Noul, code dispatches); preference lint
-    (project-defined rules as criteria). Fail-open vs fail-closed is per
+    (project-defined *soft* rules as criteria; linter owns hard rules;
+    Abide is the productized path, `notes.md` §47). Fail-open vs fail-closed is per
     action — LlamaIndex Jev rerank fails open (keep retrieval order), select
     fails closed. Full card: `references/mixed-architecture.md`.
-11. **Structural prove ∩ remainder judge** (jevgate, doc-router): code
-    (allowlist, text layer) decides the easy cases; typed questions only
+11. **Structural prove ∩ remainder judge** (jevgate, doc-router, Abide): code
+    (allowlist, text layer, linter) decides the easy cases; typed questions only
     on leftovers; fail-open unless a real sandbox sits under. Full card:
     `mappings.md` §18.

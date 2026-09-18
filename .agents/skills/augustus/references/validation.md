@@ -316,9 +316,18 @@ Rules:
 | End-to-end product / agent loop | Harbor taskset | behavioral assertions, cost/perf bounds |
 | LM-program knobs only | DSPy/Ax (narrow) | never primary System One calibration score |
 | Reward-hack / eval gaming | [rh-guard](https://github.com/24601/rh-guard) | structural deny + System One sidecar |
+| Project soft-rule lint | [Abide](https://github.com/coldteadotai/abide) | Score per rule on the diff; bands; fail-open; replay + independent review |
 
-rh-guard is a reward-hack hook, a different surface from jevgate. One
-row is enough. ECE above is wanted, not a Nimble result.
+rh-guard is a reward-hack hook, a different surface from jevgate and
+from Abide (eval-integrity vs allowlist-remainder vs project soft
+rules). One row each. ECE above is wanted, not a Nimble result.
+Abide replay (author-reported, not re-run; `notes.md` §47): 93
+sessions, 1,256 edits / 147 turns; independent-reviewer precision
+**edit ~26% / turn ~73%** before calibrate/tune. Harbor-adjacent
+measurement (frozen transcripts, phase split, independent
+confirmation), not a Harbor taskset and not a jevals substitute.
+Turn-phase soft rules held up better; false positives mostly fixable
+in the rubric. Text/diff only.
 
 ### Bake-off mandate
 

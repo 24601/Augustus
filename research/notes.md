@@ -2618,3 +2618,128 @@ Cards: `judgment-class.md`; `validation.md`; `question-design.md`;
 `agent-self-assessment.md`; `mental-models.md`; `formal-methods.md`;
 `applied-mappings.md` §2; `methods-catalog.md`; `toolbox-mapping.md`.
 No wrapper.
+
+## 47. Abide — productized soft-rule preference lint (2026-09-18)
+
+America/Boise ~14:34 = 20:34 UTC. Docs-only fold into open PR #2
+(`cursor/augustus-store-envelope-00b4`). Not a competing PR. Archer
+27B drop still **WATCH**. Identity lock vs `typesafe-ai` / `tenbin` /
+`decision-first` holds. No wrapper, no hook how-to, no copied `npx` /
+init / ports. Text/diff only — **not multimodal**. Do not invent
+metrics.
+
+HTTP 200 this pass: GitHub README for
+[`coldteadotai/abide`](https://github.com/coldteadotai/abide)
+(MIT, TypeScript, created 2026-09-18, npm `@coldtea/abide`, 4★ this
+pass); replay method in-repo at `benchmarks/replay/README.md`.
+Attached SIGNAL + replay README + repo.json as primary placement
+guidance.
+
+### HIGH
+
+1. **[`coldteadotai/abide`](https://github.com/coldteadotai/abide)**
+   — productized Jev hooks for Claude Code / Codex / OpenCode that
+   enforce **soft project rules** (AGENTS.md / CLAUDE.md / instruction
+   files) no linter can check. On every edit (or turn) it asks Jev
+   **one Score / probability per rule against the diff only**, never
+   the conversation. A break names the rule and asks the agent to
+   repair in-session. jev-pref already stated the contract (YOU define
+   the rule / Jev classifies / code maps outcome). Abide is the
+   fuller productized path: compile / calibrate / tune / replay /
+   audit + multi-host. Do not clone the CLI.
+
+   **Architecture (load-bearing; not a hit list).**
+
+   1. **Soft rules → soft judgment; hard rules → linter.** Rules a
+      linter can check are handed to the linter. Same layering family
+      as jevgate's hard envelope (`mappings.md` §18): structure
+      **proves** what it can; typed judgment only on the residual.
+      jevgate's remainder is unlisted shell verbs; Abide's remainder
+      is project-instruction soft rules. Different holes; same
+      sandwich. Soft judgment is never the sole hard veto.
+   2. **Edit-phase vs turn-phase is an observation-window question.**
+      Each compiled rule runs at `edit` (this hunk) or `turn` (the
+      whole turn diff). "Did this add more than was asked?" has no
+      answer after edit 1 of 12. Question design must name when the
+      evidence exists (`question-design.md`).
+   3. **Banded confidence + fail-open.** Their product bands: ≥0.8
+      repair in-session; 0.5–0.8 human note, agent silent; <0.5
+      silence. That 0.8 is **their** operating point, not a universal
+      threshold (`mappings.md` §2 already forbids magic 0.8). Hooks
+      always exit 0, hard deadline; no key / no network → the edit
+      proceeds and the miss is logged. Soft judgment never sole hard
+      veto.
+   4. **Rubric as editable artifact.** `.abide/rubric.json` quotes the
+      source instruction line. A wrong verdict is a rule rewrite.
+      `calibrate` scores rules against recent git history; `tune`
+      rewrites dead rules. False positives live in the question
+      (scope, criteria), not in the model.
+   5. **Eval honesty / Harbor-adjacent.** Replay of 93 real Claude
+      Code sessions against each repo's own AGENTS.md (two private
+      repos + public `pr-lens`; hunks unpublished). Nothing is
+      re-run: diffs come from transcripts. Independent reviewer
+      (Claude, reading each rule's own text strictly; owner
+      spot-checked four first-pass comment flags and agreed). Replay
+      does **not** measure whether the agent repairs when told.
+      Harbor/jevals practice in the wild: frozen transcripts, phase
+      split, independent confirmation — not a Harbor taskset and not
+      a second jevals (`validation.md`).
+
+   **Evidence (README + `benchmarks/replay/README.md`; not re-run;
+   Empirical as that named receipt).** 93 sessions with edits; 1,256
+   edits judged; 147 turns judged; Jev cost **$0.22**; wall **~2
+   min**. Edits flagged at 0.8+: **39 (3.1%)**. Turns flagged at
+   0.8+: **15 (10%)**. After independent review: edits **10/39 =
+   26%** precision; turns **11/15 = 73%**; all **21/54 = 39%**.
+   Author's gloss: 8 confirmed violations per 1,000 edits; 1 turn in
+   13 ends with a confirmed violation of a rule no linter could
+   express; 11 of 93 sessions contained at least one. Recall probe
+   from 20 cleared hunks closest to the line (0.31–0.48): one real
+   miss (props-ordering). Most false positives from two edit-phase
+   rules (`plain-error-for-expected-failure`, `comment-volume`) —
+   fixable with `scope` and criteria, which is what calibrate / tune
+   exist for; the table is **before** either ran on the tightened
+   rubric. No turn-number drift: pr-lens-app flat ~2.5% through early
+   / mid / late turns; coldtea falls 5.8% → 1.3% because big
+   new-file writes happen early. Agents break these rules from the
+   first edit at a steady rate. Economics (README, author-measured
+   2026-09-18, direct to TypeSafe): a check was ~2,500 tokens with an
+   ordinary LLM (cent+, seconds, prose to parse); Jev ~300 ms,
+   **$0.00004–0.00007** per check on this repo's 13 rules (1,000–1,600
+   input tokens). Do not promote those $ / ms figures as class
+   constants.
+
+   **Siblings — complementary, do not merge.**
+
+   - **`doeixd/jev-pref`:** earlier watch; the contract Abide
+     productizes. Keep the contract quote; point here for compile /
+     calibrate / tune / replay / multi-host.
+   - **`24601/rh-guard`:** reward-hacking / eval-integrity on agent
+     tool use. Abide: project-instruction soft rules on diffs. Same
+     hook-host surface, different judgment class. Shared fail-open /
+     host-adapter lessons; no code dependency.
+   - **`suraj-phanindra/wellposed`:** request-shape lint still
+     upstream of any Score call (`tenbin` owns the skill).
+   - **`thevibeworks/jevgate`:** hard envelope owns safety; Abide is
+     soft residual judgment on residual soft rules.
+   - **`huntedman/JevLint`:** file-level convention Nouls; sibling,
+     not a substitute.
+
+   **Placement.** Verifier over rules the project already wrote
+   (`mixed-architecture.md` preference lint; composition-algebra #9).
+   Pillar: selective classification / abstention + structural-prove ∩
+   remainder. Hole: gate. Family: closed decision API (typed Score
+   per rule). Fail-open, banded. Eval path: replay + independent
+   review (named receipt above); not a substitute for jevals/Harbor
+   on *your* rubric. **Empirical** as README + dated replay. **Hypothesis**
+   that the same bands / precision transfer to *your* AGENTS.md.
+   Cards: `mixed-architecture.md`; `question-design.md`;
+   `validation.md`; `mappings.md` §2 / §18; `faq.md`;
+   `agent-self-assessment.md`; `toolbox-mapping.md`;
+   `methods-catalog.md`; `mental-models.md`. No wrapper.
+
+### Omni / Jev-omni
+
+Text/diff only today. Usage + measurement exemplar (replay harness,
+precision by phase). Not a multimodal substrate and not a reason to
+wait on Archer.

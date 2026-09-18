@@ -71,7 +71,8 @@ TOCTOU-of-Noul (§5), not a discharged obligation.
 **What transfers** into a mixed stack: triage which counterexample,
 property, or failing seed a human looks at first; score whether a
 production trace resembles a spec behavior; lint an artifact against a
-*named, project-written* rule (`mixed-architecture.md` preference lint).
+*named, project-written* rule (`mixed-architecture.md` preference lint;
+Abide is the productized path of that hole, `notes.md` §47).
 **What does not:** closing a proof obligation, replacing TLC/Apalache/
 GNATprove, or treating "DST hasn't failed this week" as a safety case.
 

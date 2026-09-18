@@ -119,7 +119,9 @@ below, next to the when-to-use table.
   **Surfaces.** GLiGuard is for LLM input/output safety.
   [rh-guard](https://github.com/24601/rh-guard) is a coding-agent
   reward-hack gate (README fetched this pass); jevgate is the
-  allowlist-then-judge shape (`mappings.md` §18). Different holes.
+  allowlist-then-judge shape (`mappings.md` §18);
+  [Abide](https://github.com/coldteadotai/abide) is project-instruction
+  soft rules on diffs (`mixed-architecture.md`). Different holes.
   Do not point one model at both, and do not copy a hook install here.
 
   **Aggregation is policy-in-code, already taught.** The README's
@@ -644,7 +646,8 @@ the isolation pattern. Enum width and no abstention primitive are
 brittleness — compose with cost-sensitive abstention (`mappings.md`
 §2), paraphrase abstain (`mappings.md` §17), and a jevgate-shaped gate
 (`mappings.md` §18). rh-guard's README (HTTP 200) is a coding-agent
-reward-hack gate, a different surface from this one and from GLiGuard.
+reward-hack gate, a different surface from this one, from GLiGuard,
+and from Abide's project soft-rule Scores (`notes.md` §47).
 Do not copy the hook install.
 
 [pcdServer](https://github.com/stephanj/pcdServer) (MIT, C++20, created

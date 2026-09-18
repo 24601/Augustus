@@ -741,6 +741,32 @@ Watch-only hole; (ax) bake-off substrate with ECE/NLL/Brier in the
 wild; (ay) decision-token LoRA is how you train constrained-AR, not a
 new species; (az) confidence gating cannot catch a forced Choice.
 
+## Batch #30 (2026-09-18) — Abide productized preference lint
+
+Note: `research/notes.md` §47. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Text/diff only.
+
+- **coldteadotai/abide (Empirical as README + dated replay; Hypothesis
+  on your AGENTS.md).** MIT, created 2026-09-18, TypeScript, npm
+  `@coldtea/abide`. Productized Jev hooks: one Score per soft project
+  rule on the diff, never the conversation. Linter owns hard rules
+  (jevgate-family sandwich, different remainder). Edit vs turn is an
+  observation window. Bands ≥0.8 / 0.5–0.8 / <0.5 are their operating
+  point, not a universal 0.8. Fail-open hooks. Rubric quotes source
+  lines; calibrate/tune rewrite dead rules. Replay 93 sessions, 1,256
+  edits / 147 turns, $0.22: independent-reviewer precision edit 26% /
+  turn 73% before tune. Turn-phase soft rules held up better. No
+  turn-number drift. Replay does not measure in-session repair.
+- **Siblings:** jev-pref (contract Abide productizes); rh-guard
+  (eval-integrity, not project soft rules); wellposed (request lint
+  upstream); jevgate (hard envelope); JevLint (file-level conventions).
+  Do not merge products. Do not copy hooks.
+
+Cross-repo addition: (ba) preference lint has a productized compile /
+calibrate / tune / replay path; (bb) observation window (edit vs turn)
+is question design; (bc) banded fail-open means soft judgment is never
+the sole hard veto; (bd) false positives in the rubric, not the model.
+
 
 
 

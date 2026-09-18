@@ -410,6 +410,25 @@
   formal-methods, applied-mappings, methods-catalog, toolbox.
 - notes.md §46; sources.json; findings.md batch #29. No wrapper.
 
+## 2026-09-18 20:34 UTC — Abide soft-rule preference lint
+
+- Folded into open PR #2 (`cursor/augustus-store-envelope-00b4`).
+  Docs-only. Not a competing PR. Archer 27B drop still **WATCH**.
+- HIGH: [`coldteadotai/abide`](https://github.com/coldteadotai/abide)
+  (MIT, created 2026-09-18). Productized Jev preference lint for
+  Claude Code / Codex / OpenCode. Soft AGENTS.md / CLAUDE.md rules →
+  one Score per rule on the diff (never the conversation); hard rules
+  stay with the linter (jevgate-family layering). Edit- vs turn-phase
+  observation window; banded confidence + fail-open; rubric as
+  artifact (calibrate/tune). Replay 93 sessions / 1,256 edits / 147
+  turns; independent-reviewer precision edit ~26% / turn ~73%
+  (author-reported, before tune). Fuller path of jev-pref;
+  complementary to rh-guard. Text/diff only — not multimodal.
+- Cards: mixed-architecture, question-design, validation, mappings
+  §2 / §18, faq, agent-self-assessment, toolbox, methods-catalog,
+  mental-models, formal-methods, composition-algebra, SKILL.md.
+- notes.md §47; sources.json; findings.md batch #30. No wrapper.
+
 
 
 

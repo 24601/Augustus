@@ -402,6 +402,7 @@ Use these as *existence proofs of a position*. Write your own card.
 | Inbox | reply / snooze / archive | urgency Noul + aboutness Choice | send, calendar |
 | Document / lab routing | which pages need the expensive observation | Noul on remainder after a text layer / recipe | local extract, merge order (**Empirical** as OCR-router *shape*) |
 | Shell / tool allowlist | unlisted remainder after a **proof** | five Nouls on unknown verbs | Proven/Refused in code; cannot block (**Empirical**: jevgate) |
+| SWE | residual AGENTS.md / CLAUDE.md rules | one Score per named instruction-file rule | linter owns hard rules; bands + fail-open (**Empirical**: Abide replay, `notes.md` §47) |
 | Screenshot candidates → act | lettered elements code already marked | Choice over those letters | Click in code (**Empirical** as blackwood-rlcd *shape*; CC BY-NC) |
 | Moderation | hold before publish | hazard Nouls (**Empirical** as family) | block/review policy |
 | Phishing / fraud screen | hold vs deliver | SDT criterion on a Noul | blocklist, SPF/DKIM exact (**Hypothesis**) |

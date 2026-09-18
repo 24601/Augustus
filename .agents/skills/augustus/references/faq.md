@@ -179,7 +179,7 @@ labels on a GLiNER2 encoder, not Choice / Score / Noul). Empirical open
 encoder next to GLiClass; not a weight clone. "like jev" is discourse.
 A GLiGuard score is not a proof. LLM I/O safety is not a coding-agent
 tool gate (rh-guard for reward-hacking; jevgate shape for allowlist
-∩ remainder). `judgment-class.md`.
+∩ remainder; Abide for project soft rules on diffs). `judgment-class.md`.
 
 ## Can I threshold CLIP / SigLIP as a safety gate?
 
@@ -295,7 +295,24 @@ database query already answers, **do not call a model**
 (`wotai-dev/typesafe-jev-tools`, `notes.md` §42). That is meta-VOI, not
 a hook tutorial. This hour's wording of the same sandwich: the allowlist
 **proves** read-only verbs; Jev judges only unlisted leftovers;
-fail-open (cannot block) (`notes.md` §46).
+fail-open (cannot block) (`notes.md` §46). Same family, different
+remainder: a **linter proves** lintable rules; [Abide](https://github.com/coldteadotai/abide)
+Scores residual soft AGENTS.md / CLAUDE.md rules; fail-open, banded
+(`notes.md` §47). Soft judgment is never the sole hard veto.
+
+## Soft project rules — Jev or the linter?
+
+The linter owns what it can prove. Soft instruction-file rules
+("no helper with one caller", "don't add what wasn't asked") are
+residual judgment. Same layering as jevgate: structure first, typed
+Score only on the remainder; **fail-open**. Name the observation
+window (edit vs turn). Fix false positives in the rubric, not the
+model. Productized path: [Abide](https://github.com/coldteadotai/abide);
+earlier contract pointer: jev-pref. Complementary, not the same
+product: [rh-guard](https://github.com/24601/rh-guard) (reward-hacking /
+eval integrity). Request-shape lint still sits upstream (wellposed /
+`tenbin`). `mixed-architecture.md`; `question-design.md`; `notes.md`
+§47.
 
 ## Can confidence gating catch a forced wrong Choice?
 

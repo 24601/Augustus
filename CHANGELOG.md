@@ -141,6 +141,19 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   wrong; gating cannot catch it (`tenbin` owns the lint skill).
   S1 reflex keeps control (jev-reflex-autonomy-lab). MED:
   jev-decision-layer, jev-e2e, jevpandas. No wrapper.
+- Abide (`coldteadotai/abide`, `research/notes.md` §47): productized
+  Jev preference lint for Claude Code / Codex / OpenCode. Soft
+  AGENTS.md / CLAUDE.md rules → one Score per rule on the diff (never
+  the conversation); hard rules stay with the linter (same layering
+  family as jevgate). Edit- vs turn-phase observation window; banded
+  confidence (≥0.8 repair / 0.5–0.8 note / <0.5 silence — their
+  operating point) + fail-open hooks; rubric.json quotes source
+  lines; calibrate/tune fix false positives in the question. Replay
+  of 93 sessions (1,256 edits / 147 turns) with independent review:
+  edit precision ~26%, turn ~73% (author-reported, before tune).
+  Fuller productized path of the jev-pref contract. Complementary to
+  rh-guard (eval-integrity vs project soft rules). Text/diff only —
+  not multimodal. No hook how-to.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

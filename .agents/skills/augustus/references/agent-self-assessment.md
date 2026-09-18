@@ -79,8 +79,13 @@ When the "judge" is really "does this change violate a rule we already
 wrote?", do not ask Jev whether the code is good. Load
 `references/mixed-architecture.md#preference-lint-and-gates`. The transferable
 contract (`doeixd/jev-pref`): the project defines the rule, Jev classifies
-visible evidence, code maps the outcome, the agent acts. Shadow-mode the gate
-first; permit remains a separate axis from confidence.
+visible evidence, code maps the outcome, the agent acts.
+[`coldteadotai/abide`](https://github.com/coldteadotai/abide) is the
+fuller productized path of that contract (compile / calibrate / tune /
+replay; one Score per rule on the diff; bands + fail-open). Soft
+rules → soft judgment; the linter owns hard rules. Shadow-mode the
+gate first; permit remains a separate axis from confidence.
+`notes.md` §47.
 
 ## Using Jev to test and optimize the skill suite itself
 

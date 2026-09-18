@@ -60,7 +60,9 @@ Links: Score docs, composite-scoring pattern, autoresearch cookbook.
 choosing among act / decline / gather-evidence / escalate from the
 distribution, with thresholds owned by each action's consequences. For a
 calibrated binary probability with FP/FN costs: `t = C_FP/(C_FP+C_FN)`.
-**Does not transfer**: universal thresholds (no magic 0.8); model probability
+**Does not transfer**: universal thresholds (no magic 0.8 — a product
+band such as Abide's ≥0.8 repair is *their* operating point, still
+re-measured on your labels); model probability
 is not auto-calibrated on YOUR population — plot confidence vs accuracy on
 your data (**Contract**: confidence summarizes distribution shape, nothing
 more); Noul 0.5 ≠ medium-anything; top-Choice probability ≠ probability the
@@ -73,7 +75,12 @@ else: act only if confidence > high bar, else confirm
 ```
 
 **Example**: trading bot acts on high-confidence reads, stands down when the
-book state is ambiguous (jev-trader `late → hold`). **Beyond SWE
+book state is ambiguous (jev-trader `late → hold`). **Banded fail-open
+(Empirical as a named product receipt):**
+[Abide](https://github.com/coldteadotai/abide) on project soft rules:
+≥0.8 repair in-session, 0.5–0.8 human note, <0.5 silence; hooks exit 0;
+no key → the edit proceeds (`notes.md` §47). Soft judgment is never the
+sole hard veto. **Beyond SWE
 (Hypothesis until labeled):** inbox reply/snooze/archive; "is this paper
 on-question?"; "call this lead / nurture / drop" — same act/abstain/
 gather table, costs written in hours or dollars, threshold per *action*.
@@ -606,7 +613,13 @@ one Jev call on the remainder. Empty state was self-contradictory —
 that is why the refuse-empty rule exists.
 [`affirmitv/bitrate-advisor`](https://github.com/affirmitv/bitrate-advisor)
 is the same sandwich on a live encoder: policy proves the cap; Jev
-judges only inside it (`notes.md` §44). **Beyond SWE (Hypothesis):**
+judges only inside it (`notes.md` §44).
+[`coldteadotai/abide`](https://github.com/coldteadotai/abide) is the
+same *family* on project instructions: the **linter proves** lintable
+rules; Jev Scores only residual soft AGENTS.md rules; fail-open, banded
+(`notes.md` §47). Different remainder from jevgate's unlisted verbs
+and from rh-guard's eval-integrity hole — do not merge products.
+**Beyond SWE (Hypothesis):**
 recipe book ∩ "does this leftover look done?"; labor-law allowlist ∩
 hiring-fit Noul; SPF/DKIM pass ∩ phishing Noul on the body. **Counterexample:**
 Jev on `/bin/ls` as the first tier. **Test:** planted writers never

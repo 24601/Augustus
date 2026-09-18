@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-18T20:03Z",
+  "retrieved": "2026-09-18T20:34Z",
   "sources": [
     {
       "kind": "docs",
@@ -318,7 +318,7 @@
       "kind": "repo",
       "title": "doeixd/jev-pref",
       "url": "https://github.com/doeixd/jev-pref",
-      "note": "AGENTS.md \u2192 Jev linter. Contract: YOU define the rule; JEV classifies evidence; CODE maps outcome."
+      "note": "AGENTS.md \u2192 Jev linter. Contract: YOU define the rule; JEV classifies evidence; CODE maps outcome. Abide is the fuller productized path (notes.md \u00a747)."
     },
     {
       "kind": "repo",
@@ -798,7 +798,7 @@
       "kind": "repo",
       "title": "24601/rh-guard",
       "url": "https://github.com/24601/rh-guard",
-      "note": "README HTTP 200. Coding-agent reward-hack / eval-integrity hooks. Different surface from GLiGuard LLM I/O safety and from jevgate. Do not copy install into Augustus."
+      "note": "README HTTP 200. Coding-agent reward-hack / eval-integrity hooks. Different surface from GLiGuard LLM I/O safety, jevgate, and Abide (project soft rules). Complementary fail-open / hook-host lessons; do not merge. Do not copy install into Augustus. notes.md \u00a747."
     },
     {
       "kind": "social",
@@ -1303,6 +1303,18 @@
       "title": "yalindogusahin/jevpandas",
       "url": "https://github.com/yalindogusahin/jevpandas",
       "note": "pandas semantic index; noul/choice/score; LICENSE 404 this pass. notes.md \u00a746."
+    },
+    {
+      "kind": "github",
+      "title": "coldteadotai/abide",
+      "url": "https://github.com/coldteadotai/abide",
+      "note": "MIT, created 2026-09-18, TypeScript, npm @coldtea/abide. Productized Jev preference lint (Claude Code / Codex / OpenCode). Soft AGENTS.md rules as one Score per rule on the diff; linter owns hard rules; bands + fail-open; compile/calibrate/tune/replay. Text/diff only. notes.md \u00a747."
+    },
+    {
+      "kind": "github",
+      "title": "coldteadotai/abide benchmarks/replay",
+      "url": "https://github.com/coldteadotai/abide/blob/HEAD/benchmarks/replay/README.md",
+      "note": "Replay 93 Claude Code sessions, 1256 edits / 147 turns. Independent reviewer precision edit 26% / turn 73% before calibrate/tune. Author-reported; hunks unpublished. Harbor-adjacent, not a Harbor taskset. notes.md \u00a747."
     }
   ]
 }

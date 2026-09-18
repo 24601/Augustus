@@ -307,10 +307,31 @@ ask Jev to own the standard of quality. Good checks: "does this diff
 introduce new mutable module-level state?", "API impact: none / additive /
 behavioral / breaking?"
 
+[`coldteadotai/abide`](https://github.com/coldteadotai/abide) is the
+fuller **productized** path of that contract (compile / calibrate /
+tune / replay / audit; Claude Code / Codex / OpenCode). Soft
+AGENTS.md / CLAUDE.md rules → one Score per rule on the **diff**,
+never the conversation; hard, linter-checkable rules stay with the
+linter — same layering family as jevgate's hard envelope (`mappings.md`
+§18). Edit-phase vs turn-phase is an observation-window question
+("added more than asked" has no answer after edit 1 of 12;
+`question-design.md`). Product bands: ≥0.8 repair, 0.5–0.8 note, <0.5
+silence — **their** operating point, not a universal 0.8 (`mappings.md`
+§2). Fail-open: no key / no network → the edit proceeds; hooks exit 0.
+`.abide/rubric.json` quotes source lines; false positives are rule
+rewrites, not a model swap. Replay of 93 sessions with an independent
+reviewer: edit precision ~26%, turn ~73% (`notes.md` §47;
+`validation.md`). Text/diff only — not multimodal. Complementary to
+[`24601/rh-guard`](https://github.com/24601/rh-guard) (eval-integrity /
+reward-hacking on tool use vs project soft rules on diffs): same
+hook-host lessons, different judgment class; do not merge products.
+Do not copy hooks.
+
 Related placements:
 
-- **AGENTS.md / project prefs as criteria** — jev-pref; pi-warden rule
-  breaks 6→0 on 150 paired runs (`agent-self-assessment.md`).
+- **AGENTS.md / project prefs as criteria** — jev-pref states the
+  contract; Abide productizes it; pi-warden rule breaks 6→0 on 150
+  paired runs (`agent-self-assessment.md`; `notes.md` §47).
 - **Confidence gates + shadow mode** — `AntonioCoppe/jev-harness` (48.9s
   Claude CLI vs 1.3s Jev on a 24-row filter). Log would-do until evals
   pass. Selective abstention (`mappings.md` §2): low confidence is
@@ -353,7 +374,7 @@ decision-design card. Do not clone APIs from READMEs.
 |---|---|---|---|
 | Hold-before-publish moderation | Hazard Nouls + harm Score | Block/review/pass policy | Near Here / firehose family |
 | Tool / engine / skill select | Choice + fits-Noul | Dispatch, auth, reject-all | skillranker, LlamaIndex selectors, Toolrouter |
-| Preference lint | Per-rule Noul/Choice on a diff | Rule text, outcome map | jev-pref, JevLint |
+| Preference lint | Per-rule Score/Noul on a diff | Rule text, linter for hard rules, bands + fail-open | jev-pref (contract), Abide (productized), JevLint |
 | Context / log prune | Per-line or per-block relevance | Always-keep set, recall keys | jevprune, winnow |
 | Exact hunk staging | Per-hunk include/exclude/mixed | `git diff`, atomic apply | git-jev-stage |
 | Semantic `WHERE` | Noul/`jev_prob` over a row | SQL, indexes, LIMIT | jevql (CLI; DB sees ordinary SQL); sqlite-jev (in-engine extension) |

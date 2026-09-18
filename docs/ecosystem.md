@@ -69,6 +69,7 @@ Per-keystroke launchers (104ms median, sequence-tagged staleness), firehose mode
 
 ### Structural prove ∩ remainder
 - **thevibeworks/jevgate** — Proven / Refused / Unknown; cannot block; 0/59 unsafe unasked held-out. Allowlist **proves** read-only verbs; Jev judges only unlisted. Allowlist ∩ System One.
+- **coldteadotai/abide** — same family, different remainder: linter proves lintable rules; Jev Scores residual soft AGENTS.md rules; fail-open, banded. `notes.md` §47.
 - **suraj-phanindra/wellposed** — lint the Jev request before it comes back confidently wrong. Missing `other` → confidence 1.00 on a wrong Choice; gating cannot catch it. `tenbin` owns the lint skill. `notes.md` §46.
 - **misbahsy/doc-router** — page OCR router: 155→87 billed, 1.74× $ on 19 docs / 155 pages. Same sandwich.
 
@@ -98,6 +99,7 @@ Per-keystroke launchers (104ms median, sequence-tagged staleness), firehose mode
 - **ax-llm/ax** — native `typesafe` provider; **typesafeainate/dspy-typesafeify** — DSPy decorator PoC.
 - **riff (scale-venture-partners)** — hybrid static+semantic linter with ruff-style JEV codes and per-finding calibrated p; 14 calls ≈ $0.0004.
 - **huntedman/JevLint** — file-level convention Nouls (magic-strings, descriptive-names); write→check→fix; no line-level/auto-fix. Sibling of jev-pref. Independent. Pointer: `notes.md` §26.
+- **coldteadotai/abide** — productized Jev preference lint (Claude Code / Codex / OpenCode). Soft instruction-file rules as one Score per rule on the diff; linter owns hard rules; bands + fail-open; compile/calibrate/tune/replay. Replay 93 sessions: edit precision ~26% / turn ~73% (independent review, before tune). Fuller path of jev-pref; complementary to rh-guard. Text/diff only. `notes.md` §47.
 - **super-jev / probably / jev-search** above — see their cards in `archive/findings.md`.
 
 ### Mixed architecture (2026-09-18T14 discourse + topic:jev)
@@ -106,7 +108,7 @@ Default placement, not a new product class: Jev judges, an LLM writes, code
 owns control. Movers that sharpened the card: `git-jev-stage` (exact hunk
 Choice), `jevprune` (per-line relevance with an always-keep set),
 `llama-index-jev` (rerank fails open / select fails closed), `jev-pref`
-(AGENTS.md as criteria), `lizard-agent` (no LLM when nothing needs writing),
+(AGENTS.md as criteria; Abide is the productized path, `notes.md` §47), `lizard-agent` (no LLM when nothing needs writing),
 `jevql` (judgment as SQL `WHERE`; CLI so Postgres never sees `jev()`),
 `sqlite-jev` (in-engine SQLite extension; same hole), OpenSmoke (Jev over every step, LLM only
 on flags). Neighbor skills `tenbin` and `decision-first` are *not* Augustus

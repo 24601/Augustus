@@ -67,6 +67,7 @@ request, and treat a stale pin as a prior, never a setting.
 | Answer follows state text | Content steers the model | Tighten criteria; adversarial tests; confidence-gate the action |
 | Rewording trades one error for another | One question, several properties | Split into atomic questions |
 | Synonymous wording swings p / the act | Stimulus includes question text; no invariance promised | Paraphrase-pair eval; abstain or raise t; rewrite (`mappings.md` §17) |
+| Question has no answer yet (edit 1 of 12) | Observation window is wrong: a turn-level property asked at edit time | Name when the evidence exists. Edit-phase vs turn-phase is a question-design cut, not a hook detail ([Abide](https://github.com/coldteadotai/abide): "added more than asked" is a turn rule). `notes.md` §47 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline
