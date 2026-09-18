@@ -87,7 +87,10 @@ a **Hypothesis**, not a meter (`judgment-class.md`).
 Specialist perception then judgment — masks, tracks, or a transcript,
 then System One on that state — is composition, not a shared
 multimodal model: information dies at the interface
-(`judgment-class.md`).
+(`judgment-class.md`). Taskset first → stage contracts → stage metrics
++ e2e → HoH hill-climb; DSPy/Ax only on the LM-program slice;
+jevals/calibration for the decision slice; Harbor for product e2e
+(`validation.md`, **Hypothesis**).
 
 | Domain | Belief | Acts policy owns | Exact work |
 |---|---|---|---|
@@ -122,7 +125,8 @@ correctness score. Choice probabilities are already conditional on the
 offered set. His probes: an irrelevant extra option moved log-odds between
 two existing options in every block, and reversing order moved a
 probability across a ~0.9 threshold. Property-test both (`validation.md`).
-Stimulus design, not a proof.
+Correctness is not that confidence field: report both, on held-out
+cases (`validation.md`, Eval & hill-climb). Stimulus design, not a proof.
 
 For a calibrated binary p and unequal error costs, the Bayes threshold
 is `t = C_FP / (C_FP + C_FN)` when you act vs not

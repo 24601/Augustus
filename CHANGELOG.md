@@ -138,6 +138,16 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   a shared multimodal decision model when the joint matters (Archer
   Watch, not Empirical; djev-spark images; future audio). Basit ask,
   primary post not retrieved. `research/notes.md` §39
+- Perception→decision pipeline, measure, and hill-climb
+  (**Hypothesis**, `validation.md`): stages with a versioned state
+  contract; stage metrics plus a frozen taskset; HoH changes one stage
+  or one interface. DSPy/Ax only on LM-program knobs; jevals and
+  calibration for the decision slice; Harbor names product
+  end-to-end, not a tutorial. `research/notes.md` §41
+- Eval & hill-climb (`validation.md`): jevals decision-stage hygiene
+  (independent keys, correctness is not confidence, held-out, immutable
+  runs) and Harbor as the product taskset substrate; one composition
+  table. `research/notes.md` §40
 
 ### Changed
 

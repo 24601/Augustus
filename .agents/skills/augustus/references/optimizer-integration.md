@@ -10,7 +10,37 @@ optimizer loop — which seat it takes, which it must not, and what you owe
 before trusting its numbers. Option names below are named so you can find
 them, not transcribed as a call shape: the frameworks' own docs own their
 signatures, and `typesafe-ai` plus the live docs own Jev's request body.
-Do not write either from this page.
+Do not write either from this page. DSPy and Ax tune the LM-program
+slice only. They are never the primary System One calibration score;
+that seat is a jevals-shaped labeled suite, and a product loop is a
+Harbor taskset (`validation.md`, Eval & hill-climb).
+
+## Judgment: what these optimizers may climb (Hypothesis)
+
+DSPy is the Python LM-program optimizer. Ax is the DSPy-style
+TypeScript one
+([ax-llm/ax](https://github.com/ax-llm/ax); the README calls it DSPy
+for TypeScript). Both climb **LM program knobs** — prompts,
+demonstrations, module graphs, sometimes which model. That is a narrow
+yes. It is not a perception pipeline and not a calibration loop.
+`validation.md`; `research/notes.md` §41.
+
+Use them for criteria and instruction text, and for few-shot
+demonstrations, on a generative or constrained-AR decision head
+(TypeAR, a schema-prompted LLM), and for an optional LLM rewrite of a
+perception-to-state summary.
+
+Do not expect them to climb SAM multiplex, which objects to keep, ASR
+decoding or diarization, Jev API calibration, or the choice between a
+staged pair and a native multimodal System One. Proprietary Jev has no
+prompt loop: schema, criteria, and policy thresholds, scored on labeled
+eval (jevals) — not a search over a decoder. Open recipes such as
+Nimble: climb data curation and LoRA, measured on holdout ECE and
+agreement. Nimble's published holdout is agreement on synthetic
+labels, not a measured ECE (`judgment-class.md`).
+
+No call shape in this paragraph. The adapter notes below stay names of
+seats, not a request you copy.
 
 ## The converging integration pattern
 

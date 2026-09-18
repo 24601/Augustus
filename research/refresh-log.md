@@ -306,3 +306,35 @@
   sentence (PBT the schema; Noul is not over raw pixels or raw audio).
   notes.md §39. Entropy allocator §38 not rewritten.
 - Identity lock holds. No CLI, env, ports, or install.
+
+## 2026-09-18 17:50 UTC — eval & hill-climb
+
+- Basit post not found (X search empty). No tweet id. HoH, Room driver,
+  live Room, and video-as-judge-last labeled "Basit ask, primary post
+  not retrieved."
+- jevals `af6fecc`: README, PRODUCT.md, DESIGN.md, skills/jevals/SKILL.md.
+  `npx jevals` verified as the README entry. No flags, keys, or ports
+  in skill cards. Score taught as enabled (later PRODUCT + DESIGN +
+  README), not the earlier "Score deferred" sentence. "No built-in
+  split" and "no unknown label" are the agent skill; PRODUCT/DESIGN/README
+  do not document a split and do not say "unknown."
+- Harbor README + task docs HTTP 200. Separate verifier env documented;
+  default shares the agent container. No Harbor CLI.
+- verifiers v1 blog (2026-07-10, Will Brown et al.): taskset / harness /
+  runtime. Harbor is their taskset format, not a second product.
+- Canonical section `validation.md` Eval & hill-climb. One composition
+  table. notes.md §40. Perception §39 and Atallah §38 not rewritten.
+  Identity lock holds.
+
+## 2026-09-18 17:55 UTC — perception-decision pipeline
+
+- Basit post still not retrieved. No tweet id. Card is Hypothesis.
+- Ax README re-read: DSPy for TypeScript. Existing sources.json URL
+  `https://github.com/ax-llm/ax`. No second URL. No call shape added.
+- Pipeline card in `validation.md`. Points at §40 for Harbor /
+  Verifiers / jevals hygiene instead of restating it. §39 composition
+  card and §38 allocator left in place. Formal-methods contract
+  sentence not rewritten; one hill-climb pointer only.
+- notes.md §41. Nimble ECE not claimed. openjev-lm spelling kept.
+  No CLI.
+

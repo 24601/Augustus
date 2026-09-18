@@ -1724,3 +1724,139 @@ audio. The handoff is a contract surface — one sentence in
 Card: `judgment-class.md`. One composition sentence:
 `mental-models.md`. Species: SAM perceive, ASR perceive, Jev decide.
 Composition ≠ one model.
+
+## 40. Eval & hill-climb — jevals practices + Harbor substrate (2026-09-18)
+
+**Attribution.** Basit standing order: imbue jevals practices and Harbor
+as the ideal measurement / hill-climb substrate, while Augustus stays
+design judgment. Primary post not retrieved. X search for Basit +
+jevals/Harbor returned nothing. No tweet id invented. Clauses the
+fetched docs do not state are labeled "Basit ask, primary post not
+retrieved."
+
+**Jevals files fetched** at commit `af6fecc` (GitHub contents API):
+
+- [README](https://github.com/dayhaysoos/jevals/blob/af6fecc0776dd5d97d5dc89fc0a72cae5e3e2580/README.md)
+  — local MIT workbench; Noul / Choice / Score and combinations;
+  documented entry is `npx jevals`. Not copied beyond that one fact.
+- [PRODUCT.md](https://github.com/dayhaysoos/jevals/blob/af6fecc0776dd5d97d5dc89fc0a72cae5e3e2580/PRODUCT.md)
+  — correctness separate from model probability; compare only equivalent
+  case sets; editable cases and immutable runs; only fully successful
+  runs qualify as best. An earlier sentence says Score execution is
+  future work; a later sentence says Noul, Choice, and Score are
+  enabled, and README/DESIGN treat Score as present. Taught as enabled.
+  PRODUCT also says no npm publication; the README is what documents
+  the entry command. Not reconciled further.
+- [DESIGN.md](https://github.com/dayhaysoos/jevals/blob/af6fecc0776dd5d97d5dc89fc0a72cae5e3e2580/DESIGN.md)
+  — stable question IDs; best-run labels only for complete runs on the
+  same case set; no blended accuracy across evaluations; question-scoped
+  ranking; confidence describes the distribution rather than establishing
+  correctness; Choice multiclass Brier; Score MAE and within-tolerance;
+  unset expectation blocks a run; runs open immutable snapshots.
+- [skills/jevals/SKILL.md](https://github.com/dayhaysoos/jevals/blob/af6fecc0776dd5d97d5dc89fc0a72cae5e3e2580/skills/jevals/SKILL.md)
+  — paraphrased, not copied. WebMCP order: discover → define → author
+  independent keys → save/verify → run → inspect. No dedicated split
+  control (separate held-out Jeval). Do not encode unsupported
+  `unknown` labels. README, PRODUCT, and DESIGN do not themselves say
+  "no built-in split"; the skill does, and those three files do not
+  document one.
+
+**Dropped or narrowed.** Did not paste flags, env, or ports. Did not
+claim PRODUCT/DESIGN/README contain the words "no built-in split" or
+"unknown" — those limits are the agent skill, plus DESIGN's unset
+expectation. Did not invent a Harbor CLI.
+
+**Harbor / verifiers (verified, not previously named in this repo).**
+
+- [harbor-framework/harbor](https://github.com/harbor-framework/harbor)
+  README: Terminal-Bench creators; evaluate and optimize agents;
+  shared benchmarks; parallel environments; rollouts for RL.
+- [Task structure](https://www.harborframework.com/docs/tasks): default
+  verifier shares the agent container. Separate verifier environment
+  when grading must not be visible; sidecar evidence from a filesystem
+  the agent container cannot write.
+- [PrimeIntellect-ai/verifiers](https://github.com/PrimeIntellect-ai/verifiers)
+  (Will Brown) and
+  [verifiers v1](https://www.primeintellect.ai/blog/verifiers-v1)
+  (Will Brown, Mika Senghaas, Florian Brand, 2026-07-10): taskset =
+  data, tools, scoring; harness = rollout program; runtime = where it
+  runs. Harbor is a taskset format inside verifiers, not a second
+  product.
+
+**Basit ask, not in those docs.** Write the score before picking a
+model (the blog does put scoring on the taskset). Room driver and live
+Room as harness/runtime examples. If only one harness passes, you
+measured the harness. HoH: Planner (no code) → Developer (single
+writer) → QA (read-only, evidence E); next loop from (A, E). Room/omni:
+structural gates first, video-as-judge last. Composes with §39
+(information dies at the interface; Noul is not over raw pixels) and
+with `mappings.md` §18.
+
+**Does not contradict.** Meijer: marginals, not a PPL, not Kleisli.
+Nimble: not a Jev distill; model card Apache-2.0; repo LICENSE 404;
+holdout is agreement, not ECE. djev-spark stays a third graph. TypeAR
+is constrained AR. openjev-lm keeps that name. Atallah buckets stay
+rhetoric; "first model ever" stays a claim. Archer stays Watch (no Hub
+weights as of 2026-09-18). "9B LoRA enough vs Jev" stays Hypothesis.
+LLM-as-judge is not the primary System One score. rh-guard is one
+composition-table row, not a jevgate rewrite.
+
+**Shorter hill-climb card, upgraded, not deleted.** A concurrent fold
+had a pipeline / measure / hill-climb card. Its one-liner is the Order
+line of `validation.md` Eval & hill-climb. Kept from that card, not
+restated as a second essay: stages (perceive → optional fusion →
+typed marginals → policy in code); versioned handoff contract; stage
+metrics IoU, track IDF1, WER, plus decision Brier/ECE and policy
+regret; frozen taskset; falsifiers (contrastive pair, garbage-in,
+TOCTOU); HoH changes one stage or one interface; climb axes include
+collapsing to a shared multimodal model only when interface loss
+stalls end-to-end. DSPy/Ax remain the LM-program slice only.
+
+**Skill.** One section: `validation.md` Eval & hill-climb. Pointers in
+SKILL.md (triggers, index, card field), when-to-use, mental-models
+calibration, optimizer-integration (no API shapes). No second table.
+
+Card is **Contract** as the fetched workbench and Harbor/verifiers
+docs, **Hypothesis** as the Basit loop (HoH, Room, video-last) until
+the post is retrieved. Not a how-to.
+
+## 41. Pipeline, measure, hill-climb perception into a decision (2026-09-18)
+
+**Attribution.** Same Basit ask as §39 and §40, a different question:
+how to pipeline, measure, and hill-climb perception into a decision,
+and the narrow Ax versus DSPy answer. Primary post not retrieved.
+Searched X (`Basit` + SAM/Jev; `SAM` + Jev) and the web on 2026-09-18.
+No tweet id invented. Do not treat §40's HoH paraphrase (Planner writes
+no code) as replaced. This note's hill-climb is the stage reading:
+Planner writes a bounded change from evidence; Developer changes one
+stage or one interface; QA is read-only on a frozen taskset and emits
+the next evidence.
+
+**Ax identity (verified).** [ax-llm/ax](https://github.com/ax-llm/ax)
+README, fetched 2026-09-18: "DSPy for TypeScript." Already listed in
+`sources.json` (typesafe-provider note). Not a second URL. Not a call
+shape. DSPy is the Python counterpart. Both climb LM-program knobs
+only: prompts, demonstrations, module graphs, sometimes model choice.
+Use on a generative or constrained-AR head (TypeAR, schema-prompted
+LLM) and on an optional rewrite of a perception-to-state summary. Do
+not expect them to climb SAM multiplex, ASR decoding or diarization,
+Jev calibration, or pair-versus-native-omni. Proprietary Jev: schema,
+criteria, and thresholds on labeled eval (jevals), not a search over a
+decoder. Nimble: data curation and LoRA; published holdout is agreement
+on synthetic labels, not a measured ECE (§35).
+
+**Card.** `validation.md` pipeline section. Cross-links: perception
+card (`judgment-class.md`, §39), entropy allocator (§38, not a meter),
+Eval & hill-climb (§40 — Harbor / Verifiers / jevals hygiene, not
+restated). One-liner in `mental-models.md`. One hill-climb pointer in
+`formal-methods.md`; the versioned-contract sentence was already there
+and was not rewritten. Judgment paragraph in
+`optimizer-integration.md` with no new call shape. Mapping-index row
+and description triggers only.
+
+**Does not contradict.** Meijer: marginals at the decision stage;
+joints across stages live in code. Atallah: rhetoric, not a meter;
+"review this PR" is partly generative; "first model ever" is a claim.
+openjev-lm keeps that spelling. Fail-open is not universal. A Noul is
+not a proof and is not over raw pixels. **Hypothesis.** No CLI, env,
+port, or install.

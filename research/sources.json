@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-18T17:39Z",
+  "retrieved": "2026-09-18T17:55Z",
   "sources": [
     {
       "kind": "docs",
@@ -1015,6 +1015,54 @@
       "title": "Moritz Kremb: transcript then Jev",
       "url": "https://x.com/moritzkremb/status/2100577979021832365",
       "note": "2026-09-17T13:29:51Z. note_tweet present. Public instance of ASR then Jev, not the Basit ask. His latency and price are his. notes.md \u00a739."
+    },
+    {
+      "kind": "docs",
+      "title": "dayhaysoos/jevals README (af6fecc)",
+      "url": "https://github.com/dayhaysoos/jevals/blob/af6fecc0776dd5d97d5dc89fc0a72cae5e3e2580/README.md",
+      "note": "Fetched this pass. Documents npx jevals. Noul/Choice/Score. Flags and ports not copied. notes.md \u00a740."
+    },
+    {
+      "kind": "docs",
+      "title": "dayhaysoos/jevals PRODUCT.md",
+      "url": "https://github.com/dayhaysoos/jevals/blob/af6fecc0776dd5d97d5dc89fc0a72cae5e3e2580/PRODUCT.md",
+      "note": "Fetched af6fecc. Correctness separate from probability; equivalent case sets; immutable runs; fully successful runs only. notes.md \u00a740."
+    },
+    {
+      "kind": "docs",
+      "title": "dayhaysoos/jevals DESIGN.md",
+      "url": "https://github.com/dayhaysoos/jevals/blob/af6fecc0776dd5d97d5dc89fc0a72cae5e3e2580/DESIGN.md",
+      "note": "Fetched af6fecc. Question-scoped ranking; confidence describes the distribution; unset expectation blocks a run. notes.md \u00a740."
+    },
+    {
+      "kind": "docs",
+      "title": "dayhaysoos/jevals skills/jevals/SKILL.md",
+      "url": "https://github.com/dayhaysoos/jevals/blob/af6fecc0776dd5d97d5dc89fc0a72cae5e3e2580/skills/jevals/SKILL.md",
+      "note": "Paraphrased. Discover, define, author keys, save/verify, run, inspect. No dedicated split; no unknown label. notes.md \u00a740."
+    },
+    {
+      "kind": "repo",
+      "title": "harbor-framework/harbor",
+      "url": "https://github.com/harbor-framework/harbor",
+      "note": "README fetched. Terminal-Bench creators; evaluate and optimize agents. No CLI copied. notes.md \u00a740."
+    },
+    {
+      "kind": "docs",
+      "title": "Harbor task structure",
+      "url": "https://www.harborframework.com/docs/tasks",
+      "note": "Default verifier shares the agent container. Separate verifier environment when grading must not be visible. notes.md \u00a740."
+    },
+    {
+      "kind": "repo",
+      "title": "PrimeIntellect-ai/verifiers",
+      "url": "https://github.com/PrimeIntellect-ai/verifiers",
+      "note": "Will Brown. Harbor is a taskset format here, not a second product. notes.md \u00a740."
+    },
+    {
+      "kind": "docs",
+      "title": "verifiers v1 blog",
+      "url": "https://www.primeintellect.ai/blog/verifiers-v1",
+      "note": "2026-07-10. Will Brown, Mika Senghaas, Florian Brand. Taskset = data, tools, scoring; harness and runtime swappable. notes.md \u00a740."
     }
   ]
 }

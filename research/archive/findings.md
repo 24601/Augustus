@@ -542,4 +542,73 @@ djev-spark / Archer Watch / when-to-use). One composition sentence in
 Cross-repo addition: (ao) perception-then-judgment is composition of
 two species, not one omni decision model.
 
+## Batch #23 (2026-09-18, eval & hill-climb)
+
+Note: `research/notes.md` §40. Canonical section:
+`references/validation.md` (Eval & hill-climb). One table, not five.
+Cross-links only: SKILL.md, when-to-use, mental-models, optimizer
+integration. Perception §39 and Atallah §38 left in place.
+
+- **dayhaysoos/jevals** at `af6fecc`: README, PRODUCT.md, DESIGN.md,
+  `skills/jevals/SKILL.md`. Independent keys; Noul/Choice/Score sharing
+  state; correctness ≠ confidence (Brier / MAE / within-tolerance);
+  immutable runs; compare only equivalent fully successful runs;
+  question-scoped ranking. Agent skill: no dedicated split control;
+  no `unknown` label. README/PRODUCT/DESIGN do not use those two
+  phrases; they also do not document a split. Entry `npx jevals`
+  verified; flags, keys, and ports not copied.
+- **Harbor** ([repo](https://github.com/harbor-framework/harbor),
+  [tasks](https://www.harborframework.com/docs/tasks)): not previously
+  named here. Separate verifier environment is documented; default is
+  a shared container. No CLI copied.
+- **verifiers v1**
+  ([post](https://www.primeintellect.ai/blog/verifiers-v1), Will Brown
+  with Mika Senghaas and Florian Brand, 2026-07-10): taskset × harness
+  × runtime. Harbor is a taskset format inside verifiers, not a second
+  product.
+- **Basit ask, primary post not retrieved:** score before the model;
+  HoH planner/developer/QA; Room driver; video-as-judge last. No tweet
+  id.
+- **Bake-off:** jevals-shaped suite before Jev vs Laya vs TypeAR vs
+  Nimble vs Archer vs openjev-lm; Harbor taskset for product loops.
+  Archer still Watch. 9B-enough stays Hypothesis. ECE in the table is
+  wanted, not Nimble's published number (agreement on synthetic labels).
+- **rh-guard:** one composition row. Different surface from jevgate.
+
+Cross-repo addition: (ap) measurement has two seats — labeled decision
+cases, and a product taskset — and LLM-as-judge is neither primary
+score.
+
+## Batch #24 (2026-09-18, perception-decision pipeline)
+
+Note: `research/notes.md` §41. Card: `validation.md` (pipeline,
+measure, hill-climb). Does not replace §40's Eval & hill-climb, §39's
+composition card, or §38's entropy allocator.
+
+- **Basit ask, primary post not retrieved.** No tweet id. Pipeline is
+  stages with a versioned state contract: perceive → optional fusion
+  in code → typed marginals → policy in code. Joints across stages
+  live in code (Meijer).
+- **Measure before optimizers.** Stage metrics (IoU / track IDF1 /
+  WER; accuracy + ECE/Brier + option-order; policy regret). Frozen
+  taskset for end-to-end. Harbor and Verifiers names stay in §40.
+  Falsifiers: flip one fact (Nimble pattern, not a tutorial);
+  garbage-in must not look confidently correct; TOCTOU between
+  perceive and act. jevals for the decision stage. LLM-as-judge is
+  not the primary score for calibrated System One.
+- **Hill-climb.** One stage or one interface per change. Latency and
+  cost climb apart from quality. Axes: perception, schema, backend
+  (Jev vs TypeAR vs Nimble vs openjev-lm), thresholds, or collapse to
+  native multimodal System One when interface loss stalls end-to-end
+  gains.
+- **Ax vs DSPy (narrow yes).** Ax README verified: DSPy for
+  TypeScript, [ax-llm/ax](https://github.com/ax-llm/ax), already in
+  sources.json. LM-program knobs only. Not SAM, not ASR, not Jev
+  calibration, not the architecture choice. Nimble holdout is
+  agreement, not ECE.
+
+Cross-repo addition: (aq) a perception-decision stack is climbed as
+contracts and stage metrics; DSPy/Ax do not climb the perceiver or
+the calibration.
+
 

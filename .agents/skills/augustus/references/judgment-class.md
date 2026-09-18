@@ -408,9 +408,12 @@ ONNX distill is still categorize / score. Nimble's holdout is not a
 universal ranking. Diffusion beating a decision head is Hypothesis.
 
 Detail: `research/notes.md` §33 (surfaces), §34 (marginals), §35
-(Nimble), §36 (diffusion), §38 (entropy allocator, Hypothesis). FAQ:
-open weights vs Jev vs TypeAR vs encoder vs LoRA; is Jev probabilistic
-programming?
+(Nimble), §36 (diffusion), §38 (entropy allocator, Hypothesis). Before
+adopting a surface, the bake-off is a jevals-shaped suite and, for a
+product loop, a Harbor taskset (`validation.md`, Eval & hill-climb).
+The stage pipeline into that decision is the same file
+(**Hypothesis**, `notes.md` §41). FAQ: open weights vs Jev vs TypeAR
+vs encoder vs LoRA; is Jev probabilistic programming?
 
 **Diffusion structured reads (third graph).**
 [djev-spark](https://github.com/mmastrac/djev-spark) serves DiffusionGemma
@@ -457,7 +460,8 @@ typed decisions. Buckets are product rhetoric, not a meter, and
 factorized **marginals** (Meijer); the joint of the raw signal and the
 decision lives outside the call. The handoff is a contract surface —
 one sentence in `formal-methods.md`. Code owns the schema and the act.
-`notes.md` §39.
+`notes.md` §39. Measure and hill-climb that composition in
+`validation.md` (**Hypothesis**, `notes.md` §41).
 
 ### Open recipe (Bespoke Nimble) — not a distill
 
@@ -480,8 +484,9 @@ The GitHub repo has no license file — do not call the repo Apache-2.0.
   (302/324), untuned Qwen3.8-27B 84.88% (275/324), base Qwen3.5-9B
   66.36% (215/324). **Empirical** as that named receipt, not a ranking.
   Synthetic labels, six source families, 162 pairs.
-- **Bake-off candidate** beside Laya, openjev-lm, and TypeAR
-  (`validation.md`). Not a jevals how-to.
+- **Bake-off candidate** beside Laya, openjev-lm, and TypeAR.
+  Adoption still requires the eval path (`validation.md`, Eval &
+  hill-climb). Archer stays Watch. Not a jevals how-to.
 
 Serving, not copied: candidate logits, then softmax; one path shares
 context across fields, another rescores each field; fields are

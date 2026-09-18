@@ -41,7 +41,9 @@ runs is [dayhaysoos/jevals](https://github.com/dayhaysoos/jevals) (MIT,
 local; WebMCP + agent skill; not affiliated with TypeSafe) — the empirical
 acceptance-test *surface* for Hypothesis mapping cards; this script remains
 the offline Brier / reliability / cost evaluator. Pointer only
-(`research/notes.md` §24); Augustus is not a jevals how-to. A bake-off
+(`research/notes.md` §24); Augustus is not a jevals how-to. Hygiene,
+the Harbor substrate, and the one composition table are **Eval &
+hill-climb** below — do not restate them here. A bake-off
 candidate on that same labeled-case surface, beside Laya, openjev-lm,
 and TypeAR, is [Bespoke Nimble](https://github.com/bespokelabsai/nimble)
 — an open LoRA recipe, not a Jev distill; their 324-example holdout is
@@ -104,3 +106,197 @@ confidence gate added to an existing pipeline.
   neighbor, examples of triggering requests. Distinct descriptions are a
   retrieval feature — the skill_suggestion cookbook shows lookalike
   descriptions are the top failure source.
+
+## Perception → decision: pipeline, measure, hill-climb (Hypothesis)
+
+Upgraded into **Eval & hill-climb** below — one section, not two essays.
+The one-liner is kept there: Taskset first → stage contracts → stage
+metrics + e2e → HoH hill-climb; DSPy/Ax only on the LM-program slice;
+jevals/calibration for the decision slice; Harbor for product e2e.
+Stages, IDF1, frozen taskset, and the climb axes live in that section.
+Pipeline note: `notes.md` §41. Harbor and jevals hygiene: `notes.md` §40.
+
+## Eval & hill-climb
+
+Canonical measurement home. Jevals falsifies the **decision stage**.
+Harbor, read with Will Brown's taskset × harness × runtime split, is
+the ideal substrate for the **product loop**. This is design-judgment
+hygiene, not a Jev wrapper, not a jevals tutorial, and not a Harbor
+install guide. One line, verified in the workbench README at `af6fecc`:
+the documented local entry is `npx jevals`. Flags, keys, and ports stay
+in that README.
+
+**Order.** Taskset first → stage contracts → stage metrics + e2e → HoH
+hill-climb; DSPy/Ax only on the LM-program slice; jevals/calibration
+for the decision slice; Harbor for product e2e.
+
+### Pipeline (upgraded from the shorter hill-climb card)
+
+**Hypothesis.** Basit ask, primary post not retrieved. This is how you
+measure the perception-then-judgment composition
+(`judgment-class.md`, `notes.md` §39), not a second composition
+doctrine and not a SAM, ASR, DSPy, or Ax how-to.
+
+Stages, not one blob: (1) perception (SAM 3.1 / ASR / OCR) → schema'd
+objects, tracks, utterances; (2) optional fusion in code; (3) decision
+(Choice / Noul / Score) → typed marginals; (4) policy — thresholds,
+abstention, escalate — in code, never inside the scorer. The handoff
+from (1) to (3) is a **versioned contract**. Property-test it
+(`formal-methods.md`). Meijer: marginals at (3); joints across stages
+live in code. Atallah's low and medium buckets are those typed
+decisions when they really are decisions — product rhetoric, not a
+meter. "Review this PR" is still partly generative. "First model ever"
+is a claim. A Noul is not over raw pixels. Fail-open is not universal.
+
+Measure before any optimizer. Stage metrics: IoU, track IDF1, word
+error rate; decision accuracy plus Brier or ECE plus option-order
+sensitivity; policy regret under a cost matrix you wrote. End-to-end
+is task success on a **frozen taskset**. Falsifiers: contrastive pairs
+(Nimble-style, a falsifier not a training tutorial); garbage-in (a bad
+mask or transcript must not look confidently correct); TOCTOU between
+perceive and act.
+
+Hill-climb axes, apart from each other: perception quality; the state
+schema; the decision backend (Jev vs TypeAR vs Nimble vs `openjev-lm`);
+thresholds and abstention; and, only when end-to-end gains stall on
+interface loss, a native multimodal System One. Climb latency and cost
+separately from quality. The loop: the Planner writes a bounded change
+from evidence; the Developer changes one stage or one interface; QA is
+read-only and black-box on the frozen taskset and emits the next
+evidence (`notes.md` §41). The HoH line later in this section (Planner
+writes no code) is the same ask's other paraphrase — keep both.
+DSPy/Ax stay on the LM-program slice
+(`optimizer-integration.md`) — narrow yes, not a call shape.
+
+### Jevals practices (decision-stage falsification)
+
+[dayhaysoos/jevals](https://github.com/dayhaysoos/jevals) (MIT, local,
+not affiliated with TypeSafe) sits next to a design card as the
+acceptance surface. Complements `scripts/evaluate_decisions.py`. Files
+fetched at `af6fecc`: README, PRODUCT.md, DESIGN.md, and
+[`skills/jevals/SKILL.md`](https://github.com/dayhaysoos/jevals/blob/af6fecc0776dd5d97d5dc89fc0a72cae5e3e2580/skills/jevals/SKILL.md).
+Paraphrase only. `notes.md` §40.
+
+1. **Independent answer keys.** Derive each expected answer from the
+   criteria and the case evidence *before* a run. Never copy a model
+   prediction into a label to raise accuracy. Model-generated keys are
+   proposals until a person reviews them. Say who reviewed them.
+2. **Primitives.** Noul, Choice, Score, and mixed questions share case
+   state. Stable question IDs connect the definition, the case
+   expectations, and the results.
+3. **Correctness is not confidence.** Confidence describes the
+   distribution; it does not establish correctness. Report both.
+   Choice: accuracy and multiclass Brier. Score: mean absolute error
+   and a within-tolerance rate. This composes with the existing
+   readout: Choice `confidence` `(p_max−1/K)/(1−1/K)` is a transform
+   of the distribution, not a second learned score (`notes.md` §31,
+   FAQ). A peaked distribution can be wrong. ECE in the table below is
+   a metric this skill wants, not a number Nimble published — their
+   holdout was agreement on synthetic labels (`notes.md` §35).
+4. **Held-out discipline.** Reserve independently reviewed held-out
+   cases before looking at predictions. The agent skill states there
+   is no dedicated split control: use a separate held-out Jeval with
+   equivalent questions, and do not tune against it. README,
+   PRODUCT.md, and DESIGN.md do not document a built-in train/held-out
+   split either. Development examples are not held-out reliability.
+5. **Compare only compatible datasets.** Same case set, and only fully
+   successful runs. Ranking is question-scoped. Do not blend accuracy
+   across unrelated questions or Jevals.
+6. **Immutable runs.** Inspect the exact run ID and the definition
+   snapshot that executed. A current draft may differ. Do not tune
+   against held-out.
+7. **Ambiguity.** If the evidence or the criteria cannot determine an
+   answer, surface it for review. The agent skill forbids an
+   unsupported `unknown` label; DESIGN.md: an unset expectation blocks
+   a run. Do not invent an abstain label.
+8. **Agent workflow.** The workbench skill's WebMCP loop, in order:
+   discover the workspace → define the judgment → author independent
+   keys → save and verify the saved revision → run only inside the
+   authorization already given → inspect that exact run. One pointer
+   to the skill above. Do not copy it, and do not copy its tool names
+   into this card.
+
+### Harbor as the ideal substrate
+
+Harbor was not named in this repo before this section. **Basit ask,
+primary post not retrieved** (no tweet id). The bullets that the
+fetched docs do not state are labeled as that ask. Do not invent a
+second Harbor, and do not invent a Harbor CLI.
+
+Verified:
+
+- [harbor-framework/harbor](https://github.com/harbor-framework/harbor)
+  README: a framework from the Terminal-Bench creators for evaluating
+  and optimizing agents and models — arbitrary agents, shared
+  benchmarks, parallel environments, rollouts for RL.
+  [Task docs](https://www.harborframework.com/docs/tasks): by default
+  the verifier runs in the same container as the agent. A separate
+  verifier environment exists when grading code must not be visible
+  to the agent; sidecar evidence can be pulled from a filesystem the
+  agent container cannot write.
+- [PrimeIntellect-ai/verifiers](https://github.com/PrimeIntellect-ai/verifiers),
+  originally Will Brown. The
+  [v1 post](https://www.primeintellect.ai/blog/verifiers-v1)
+  (Will Brown, Mika Senghaas, Florian Brand, 2026-07-10) splits an
+  environment into a **taskset** (data, tools, and scoring), a
+  **harness** (the program that rolls out: a loop, a coding-agent CLI,
+  or your own), and a **runtime** (local process, container, or a
+  sandbox). A taskset runs under compatible harnesses. Harbor is the
+  first fully supported third-party *taskset format* inside verifiers
+  — one substrate, not two products.
+
+Rules:
+
+- **Taskset = what to do + tools + how to score** (the product claim).
+  Write the score before picking a model. Scoring lives on the task;
+  the harness only rolls out. The "before the model" clause is the
+  Basit ask; the blog is what puts scoring on the taskset.
+- **Harness is swappable.** Blog examples are a loop or a coding-agent
+  CLI. A Room driver is the Basit ask, not a Harbor agent this pass
+  verified. Same taskset under more than one harness. If only one
+  harness passes, you measured the harness.
+- **Runtime is swappable** (local, container, sandbox). A live Room is
+  the Basit ask for the third seat, not a runtime name in the v1 post.
+- **Independent validator.** Use Harbor's separate verifier environment
+  when the worker must not see or rewrite the grade. The default
+  shared container is not that guarantee.
+- **HoH loop** (Basit ask, primary post not retrieved): Planner writes
+  no code, only a bounded change from evidence E → Developer is the
+  single writer and changes one stage or one interface → QA is
+  read-only and black-box on the frozen taskset and returns the next
+  evidence. The next loop starts from (A, E).
+- **Room / omni products** (same ask): structural gates first;
+  video-as-judge last. Same sandwich as allowlist-then-remainder
+  (`mappings.md` §18). Perception-then-judgment is composition;
+  information dies at the interface, and a Noul is not over raw pixels
+  (`notes.md` §39). LLM-as-judge is not the primary score for a
+  calibrated System One.
+
+### Composition
+
+| Layer | Tool | Scores |
+|---|---|---|
+| Decision stage (typed marginals) | jevals (+ contrastive pairs / Nimble-style) | accuracy, Brier/ECE, latency/$, traces |
+| Perception→state contracts | schema PBT + stage metrics (IoU/WER) | interface falsifiers |
+| End-to-end product / agent loop | Harbor taskset | behavioral assertions, cost/perf bounds |
+| LM-program knobs only | DSPy/Ax (narrow) | never primary System One calibration score |
+| Reward-hack / eval gaming | [rh-guard](https://github.com/24601/rh-guard) | structural deny + System One sidecar |
+
+rh-guard is a reward-hack hook, a different surface from jevgate. One
+row is enough. ECE above is wanted, not a Nimble result.
+
+### Bake-off mandate
+
+Before adopting proprietary Jev vs Laya vs TypeAR vs Nimble vs Archer
+vs openjev-lm, run a jevals-shaped labeled suite (or an equivalent
+with this hygiene) and, for a product loop, a Harbor taskset. A design
+card with no eval path is incomplete.
+
+Archer weights are still a **Watch** — not on the Hub as of 2026-09-18
+(`notes.md` §31–§33). That bake-off is future, not Empirical. "A 9B
+LoRA is enough versus Jev" stays **Hypothesis** (`notes.md` §35).
+openjev-lm is the name of that distill. Nimble is not a Jev distill
+(model card Apache-2.0; GitHub LICENSE was 404). Meijer: marginals,
+not a PPL, not Kleisli (`notes.md` §34). djev-spark is a third compute
+graph, not the winner of this bake-off (`notes.md` §36). Do not
+promote a vendor table into a ranking.

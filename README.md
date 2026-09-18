@@ -56,7 +56,7 @@ never launder a Noul as a proof.
   Hypothesis cards §6–§19 — promote only with a test that ran)
 - `.agents/skills/augustus/references/validation.md` — design gate, eval
   recipes, Jev-for-skills (routing, self-monitoring, testing, modularity,
-  frontmatter)
+  frontmatter), and Eval & hill-climb (jevals hygiene + Harbor taskset)
 - `.agents/skills/augustus/references/boundary-audit.md` — existing-system
   insertion: fit test, opportunity map, smallest boundary, red flags
 - `.agents/skills/augustus/scripts/evaluate_decisions.py` — offline evaluator
