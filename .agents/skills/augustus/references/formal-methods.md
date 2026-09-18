@@ -200,7 +200,10 @@ cousin is [`Mikhail/mini-jev-runs`](https://huggingface.co/datasets/Mikhail/mini
 (rotated-options split; scores not calibrated — `notes.md` §33). A
 passing suite is coverage of those generators.
 A Noul is still not a proof that the property holds, and a clean PBT run
-is not one either.
+is not one either. A perception-to-decision handoff is a contract
+surface — the schema of objects or utterances, not the pixels or the
+waveform: property-test that interface, and do not pretend the Noul is
+over raw pixels or raw audio.
 
 ## 4. Deterministic simulation testing (semi-formal trio)
 

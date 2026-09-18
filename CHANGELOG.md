@@ -131,6 +131,13 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   Jev-shaped I/O, image-in). Empirical as the public interface;
   Hypothesis that it beats a decision head on your task. Archer's
   multimodal drop stays WATCH. `research/notes.md` §36
+- Perception specialist then judgment specialist vs shared multimodal
+  System One (**Hypothesis**): SAM 3.1 (masks and tracks) or an ASR
+  transcript, then typed decisions on that state, is an application
+  pattern, not native omni. Information dies at the interface. Prefer
+  a shared multimodal decision model when the joint matters (Archer
+  Watch, not Empirical; djev-spark images; future audio). Basit ask,
+  primary post not retrieved. `research/notes.md` §39
 
 ### Changed
 

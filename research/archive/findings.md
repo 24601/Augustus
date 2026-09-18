@@ -507,4 +507,39 @@ Cross-repo addition: (an) entropy buckets allocate a decision surface
 versus a generator; they do not measure entropy and they do not make
 Jev a probabilistic program.
 
+## Batch #22 (2026-09-18, perception then judgment)
+
+Note: `research/notes.md` §39. Card: `judgment-class.md` (next to
+djev-spark / Archer Watch / when-to-use). One composition sentence in
+`mental-models.md`. One contract-surface sentence in
+`formal-methods.md`. Does not restate the entropy allocator (§38).
+
+- **Basit ask (Hypothesis):** primary post not retrieved. No tweet id.
+  SAM 3.1 + Jev and ASR + Jev are application patterns for omni-ish
+  products: specialist perceive, then System One on the resulting
+  state. They are not native omni System One. Information dies at the
+  interface.
+- **SAM 3.1 (name verified):** Meta Segment Anything 3.1. Masks and
+  tracks. Object Multiplex.
+  [Hub](https://huggingface.co/facebook/sam3.1) HTTP 200 (raw README
+  gated 401).
+  [Release](https://github.com/facebookresearch/sam3/blob/main/RELEASE_SAM3p1.md)
+  HTTP 200.
+  [Blog](https://ai.meta.com/blog/segment-anything-model-3/) HTTP 200.
+  Perceive, not decide. No API copied.
+- **ASR instance, not the ask:** Moritz Kremb transcript → Jev
+  (2026-09-17).
+  [Post](https://x.com/moritzkremb/status/2100577979021832365). His
+  latency and price stay his.
+- **When the joint matters:** Archer Watch (no Hub weights; no audio;
+  not Empirical), djev-spark images (think/sequential reject images),
+  future audio-capable shared models.
+- **Does not contradict:** Meijer marginals vs joint; Atallah buckets
+  are rhetoric not a meter; "review this PR" is partly generative;
+  "first model ever" is a claim. Noul is not a proof. Code owns the
+  schema.
+
+Cross-repo addition: (ao) perception-then-judgment is composition of
+two species, not one omni decision model.
+
 

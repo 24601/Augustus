@@ -84,6 +84,11 @@ medium-entropy decisions are those marginals, and high-entropy
 synthesis is the joint you pay a decoder to write — Atallah's buckets,
 a **Hypothesis**, not a meter (`judgment-class.md`).
 
+Specialist perception then judgment — masks, tracks, or a transcript,
+then System One on that state — is composition, not a shared
+multimodal model: information dies at the interface
+(`judgment-class.md`).
+
 | Domain | Belief | Acts policy owns | Exact work |
 |---|---|---|---|
 | SWE | "this hunk matches the request" | stage / skip / ask | `git diff`, apply patch |

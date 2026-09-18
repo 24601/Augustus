@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-18T17:35Z",
+  "retrieved": "2026-09-18T17:39Z",
   "sources": [
     {
       "kind": "docs",
@@ -991,6 +991,30 @@
       "title": "Alex Atallah: Jev for low- and medium-entropy tasks",
       "url": "https://x.com/alexatallah/status/2100962947711295557",
       "note": "2026-09-18T14:59:35Z. Quotes the buckets post. 'First model ever' is a claim, not Empirical. fxtwitter 200. notes.md \u00a738."
+    },
+    {
+      "kind": "model",
+      "title": "facebook/sam3.1",
+      "url": "https://huggingface.co/facebook/sam3.1",
+      "note": "HTTP 200. Meta Segment Anything 3.1 checkpoint card. Raw README 401 (gated). Masks and tracks. Perceive, not decide. notes.md \u00a739."
+    },
+    {
+      "kind": "docs",
+      "title": "SAM 3.1 release note",
+      "url": "https://github.com/facebookresearch/sam3/blob/main/RELEASE_SAM3p1.md",
+      "note": "HTTP 200. Object Multiplex, 27 Mar 2026. No API copied. notes.md \u00a739."
+    },
+    {
+      "kind": "docs",
+      "title": "Meta SAM 3.1 blog",
+      "url": "https://ai.meta.com/blog/segment-anything-model-3/",
+      "note": "HTTP 200. Object multiplexing; masks and tracks. notes.md \u00a739."
+    },
+    {
+      "kind": "social",
+      "title": "Moritz Kremb: transcript then Jev",
+      "url": "https://x.com/moritzkremb/status/2100577979021832365",
+      "note": "2026-09-17T13:29:51Z. note_tweet present. Public instance of ASR then Jev, not the Basit ask. His latency and price are his. notes.md \u00a739."
     }
   ]
 }

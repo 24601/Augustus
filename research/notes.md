@@ -1679,3 +1679,48 @@ writing is where specs stay soft. Not a new mappings §N (§19 stays
 Ward). **Hypothesis** until a labeled act/outcome log shows the cut
 beats a frontier model on every bucket, on your costs. No API, port,
 env, or CLI.
+
+## 39. Perception specialist then judgment specialist (2026-09-18)
+
+**Attribution.** Basit ask, primary post not retrieved. Searched X
+(`Basit` + Jev/SAM; `SAM 3.1` + Jev) and the web on 2026-09-18. The
+token "basit" mostly hit Turkish "simple," not a person. No tweet id
+invented. The design card is **Hypothesis** from that ask, not from a
+verified post.
+
+**SAM 3.1 is Meta Segment Anything 3.1 (verified name, not a copied
+API).** [facebook/sam3.1](https://huggingface.co/facebook/sam3.1) HTTP
+200 (gated raw README 401). [RELEASE_SAM3p1.md](https://github.com/facebookresearch/sam3/blob/main/RELEASE_SAM3p1.md)
+HTTP 200: Object Multiplex, shared-memory joint multi-object tracking,
+checkpoints on that Hub repo, 27 Mar 2026. [Meta blog](https://ai.meta.com/blog/segment-anything-model-3/)
+HTTP 200. Output of the species is masks and tracks. **Perceive.**
+Not a SAM tutorial. No routes, ports, or install copied.
+
+**ASR + Jev** is the same composition: a transcript is perceive;
+System One decides on utterances. Independent public instance, not
+Basit: [Moritz Kremb](https://x.com/moritzkremb/status/2100577979021832365)
+(2026-09-17T13:29:51Z, `note_tweet` present). Talk → transcript → Jev
+probabilities → browser click. His ~300 ms and $0.0002 are his
+receipt, not a class number.
+
+**Not native omni System One.** Information dies at the interface: the
+decision call sees the schema you serialized, not the pixels or the
+waveform. Prefer a shared multimodal decision model when the joint
+signal matters. Archer Hume stays **Watch** (no Hub weights this pass;
+multimodal, no audio; do not promote to Empirical). djev-spark images
+are the third compute graph (§36): multipart or JSON; think and
+sequential reject images. Future audio-capable shared models are the
+same hole.
+
+**Fits the allocator, does not restate it.** Low/medium entropy (§38)
+is product rhetoric for "specialist state, then a typed decision," not
+a meter. "Review this PR" stays partly generative. One Jev call is
+still Meijer's factorized marginals (§34); the joint of the raw signal
+and the decision lives outside the call. Not a probabilistic program.
+Not Kleisli. A Noul is not a proof and is not over raw pixels or raw
+audio. The handoff is a contract surface — one sentence in
+`formal-methods.md`. Code owns the schema and the act.
+
+Card: `judgment-class.md`. One composition sentence:
+`mental-models.md`. Species: SAM perceive, ASR perceive, Jev decide.
+Composition ≠ one model.

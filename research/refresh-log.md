@@ -287,3 +287,22 @@
   load-bearing caveat). When-to-use pointer only. One mental-models
   sentence. One formal-methods sentence. No mappings §20. notes.md §38.
   Hypothesis. No CLI.
+
+## 2026-09-18 17:39 UTC — perception then judgment
+
+- Basit post not found. X search for Basit + Jev/SAM returned Turkish
+  "basit," not a handle. No tweet id invented. Card stays Hypothesis.
+- SAM 3.1 name verified: Hub HTTP 200 (raw README 401, gated);
+  RELEASE_SAM3p1.md HTTP 200; Meta blog HTTP 200. Masks and tracks.
+  Object Multiplex. Perceive. No install or API copied.
+- Moritz Kremb post fetched (note_tweet present): transcript then Jev.
+  Instance of the pattern, not the Basit source. His ~300 ms and
+  $0.0002 not promoted.
+- Card in `judgment-class.md` beside djev-spark / Watch. Species line:
+  SAM and ASR perceive, Jev decides. Information dies at the interface.
+  Archer stays Watch (no audio, no Hub weights). djev-spark images
+  unchanged (think/sequential reject images).
+- One mental-models sentence. One formal-methods contract-surface
+  sentence (PBT the schema; Noul is not over raw pixels or raw audio).
+  notes.md §39. Entropy allocator §38 not rewritten.
+- Identity lock holds. No CLI, env, ports, or install.

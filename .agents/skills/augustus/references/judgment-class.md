@@ -59,6 +59,10 @@ rank        listwise / cross-encoder       order a retrieved shortlist
 perceive    CLIP / SigLIP / region Choice  score candidates you extracted
 ```
 
+SAM 3.1 (masks and tracks) and an ASR transcript are **perceive**.
+Jev is **decide**. Stacking them is composition, not one model — card
+below, next to the when-to-use table.
+
 - **Locate.** [GLiNER](https://arxiv.org/abs/2311.08526) (Zaratiana et al.,
   NAACL 2024): bidirectional encoder; open entity types in one forward
   pass; output is *spans*. Mental model: keep/drop over candidates the
@@ -252,7 +256,8 @@ capability shift, independent of vendor:
    with the vision-scorer family or with that drop *when it ships*.
    Locate (spans on a screenshot OCR) is still locate, not perceive.
    Pixel-free computer-use (jev-macos-loop, jev-mobile) keeps pixels on
-   the device and sends text-only decisions.
+   the device and sends text-only decisions. SAM 3.1 or ASR then Jev
+   is specialist composition, not the Watch drop (`notes.md` §39).
 7. **The agent that only has a generator is incomplete.** The missing
    organ is a judgment-class model plus policy in code — not another
    prompt. The agent that only has a ranker is also incomplete: it can
@@ -418,6 +423,41 @@ plus images together reject sequential conditioning and the think step.
 **Hypothesis** that diffusion beats a trained decision head on your
 task. Archer's audio-less multimodal drop stays **WATCH**. Do not copy
 the route or the patches. `notes.md` §36.
+
+### "Perception specialist then judgment specialist" vs "Shared multimodal System One"
+
+**Hypothesis.** Basit ask, primary post not retrieved (X and web,
+2026-09-18; no tweet id). Useful *application* patterns for omni-ish
+products. Not a SAM tutorial, not an ASR tutorial, and not a native
+omni System One.
+
+[SAM 3.1](https://huggingface.co/facebook/sam3.1) is Meta Segment
+Anything 3.1 ([release](https://github.com/facebookresearch/sam3/blob/main/RELEASE_SAM3p1.md),
+[blog](https://ai.meta.com/blog/segment-anything-model-3/)): promptable
+masks and tracks (Object Multiplex). That is **perceive**. An ASR
+transcript is **perceive**. System One on the serialized objects or
+utterances is **decide**. Composition ≠ one model. A public instance
+of transcript-then-Jev, not the source of this ask:
+[Moritz Kremb](https://x.com/moritzkremb/status/2100577979021832365)
+(2026-09-17). His latency and price are his receipt, not a class
+number.
+
+**Information dies at the interface.** The decision call sees the
+schema you serialized, not the pixels or the waveform. Prefer a shared
+multimodal decision model when that joint signal matters. Archer
+Hume's drop stays **Watch** (no Hub weights as of 2026-09-18;
+multimodal, no audio; do not promote to Empirical). djev-spark already
+accepts images (multipart or JSON; think and sequential reject
+images). A future audio-capable shared model is the same hole, not
+this stack.
+
+Same cut as a low/medium-entropy allocator: specialist state, then
+typed decisions. Buckets are product rhetoric, not a meter, and
+"review this PR" is still partly generative. One Jev call is still
+factorized **marginals** (Meijer); the joint of the raw signal and the
+decision lives outside the call. The handoff is a contract surface —
+one sentence in `formal-methods.md`. Code owns the schema and the act.
+`notes.md` §39.
 
 ### Open recipe (Bespoke Nimble) — not a distill
 
