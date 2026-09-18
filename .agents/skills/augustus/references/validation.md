@@ -53,7 +53,26 @@ real application justifies executable support.
   router (rank-then-verify) over hundreds of micro-skills AND over one fat
   skill. Merge two skills when their design cards are identical except nouns.
 
-## Frontmatter that gets chosen (by agents and by Jev rankers)
+## Threshold non-transfer (Empirical, FirasSX914/calibre)
+
+Calibration and routing thresholds measured on one dataset do **not** transfer to
+another — and neither does routing's ROI. calibre: Banking77 Jev→DeepSeek route @0.67
+gives 80.2% at $0.103 vs Jev alone 77.8%@$0.051; on Web of Science the same routing
+ties Jev alone (52.8% both) for 46% more money. The optimal threshold, the sign of
+the model gap, and whether routing pays at all all flipped. Rule: every gate/threshold
+is a per-dataset measurement, not a constant. Re-measure on your data before shipping
+and re-measure when the distribution shifts; treat any borrowed threshold as a prior,
+never a setting.
+
+## Shadow mode before gating
+
+Adoption pattern (AntonioCoppe/jev-harness): run the Jev judgment in parallel with
+the live system and only **log what you would have done** (policy + gate applied)
+until behavioral evals over replayed fixtures pass; then flip to enforcement. Assert
+on the *action* (block/warn/pass), not on free text. This is the safe path for any
+confidence gate added to an existing pipeline.
+
+ (by agents and by Jev rankers)
 
 - `name`: gerund, hyphenated, matches directory; specific over clever.
 - `description`: third person, what + when, with the trigger terms users

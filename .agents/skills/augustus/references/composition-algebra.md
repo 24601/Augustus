@@ -102,3 +102,35 @@ an acceptance test that ran.
 - **Jev as spec-inference**: deriving the criteria set itself from labeled
   failures (optimizer-coupled criteria search). Untested; the honest
   current claim is "criteria are designed, not yet learned."
+
+## Verified application families (Empirical, dabit3/jev-experiments + archive corpus)
+
+Reusable shapes when generating applications:
+
+1. **Streaming judge** (moderation, log triage, inbox): one fan-out request per item
+   (6–7 Nouls + 1 Choice); hold-and-release at chat speed; ~95 judgments/s via ~96
+   concurrent requests. **Judge once, re-policy in code**: store raw probabilities,
+   move thresholds client-side, re-filter thousands of already-judged items with
+   zero new requests.
+2. **Keystroke-loop re-rank** (launcher, semantic lint, instant search): no debounce,
+   one request per keystroke with sequence tags, apply newest-first, discard stale;
+   lexical (BM25) retrieves top-30, Jev re-ranks to top-1 (measured 50%→100%).
+3. **Pre-execution guards** (shell/commit/send): judge every action before it runs;
+   three-tier policy — pass silently / warn / block — driven by question type +
+   confidence; hooks (zsh accept-line, pre-commit, composer pause).
+4. **Agents-in-the-loop**: skill/tool routing (94.4% vs 70.8% lexical), agent
+   self-assessment, control-loop position: code predicts conflicts, Jev picks the
+   instruction, code validates and executes.
+5. **Swarm/game policies**: local perception (~1k tokens) → move/boost/pursue per
+   ~400 ms tick; 32 agents, 65 decisions/s, ~$10/h.
+6. **Realtime human flows**: turn-taking/barge-in decisions on partial transcripts;
+   meeting action items ~150 ms after each utterance.
+7. **Formula embedding**: JUDGE/SCORE/CHOOSE as first-class spreadsheet formulas.
+8. **Pixel-free computer use**: accessibility tree → compact actionable-JSON → one
+   batched question set per step → execute via AX actions.
+9. **Shadow-mode harness** (jev-harness): policy + confidence gate + shadow mode +
+   offline eval CLI replaying fixtures, asserting on actions; 24-row filter 48.9 s
+   (Claude CLI) vs 1.3 s Jev at concurrency 8.
+
+Calibration warning (calibre): routing thresholds and ROI do **not** transfer across
+datasets — every gate is a per-dataset measurement (see validation.md).
