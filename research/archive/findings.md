@@ -105,8 +105,17 @@ Design distillation only — no clone audit this hour. Raw files:
   placement/method/falsification.
 - **rongxinzy/LightJev**: train lightweight decision backbones. Reproduce/
   open — not an Augustus implementation.
+- **convaiinnovations/laya** (Hypothesis, vendor card 2026-09-18): first
+  shipped open *product* with the Jev-shaped interface (Choice/Score/Noul,
+  no generation, Apache 2.0, ~421M, text-only, 512 tok/question). Not a
+  TypeSafe drop-in. Vs-Jev latency/accuracy table is a claim; their own
+  zero-shot ECE 0.207 vs in-task 0.060 is the transferable warning. Design:
+  typed judgment provider, self-eval duty on open weights. Full note:
+  `research/notes.md` §18.
 
 Cross-repo addition to the taxonomy: (m) mixed-architecture cascade around a
 generator, (n) exact-candidate selection (hunks/lines/elements) where Jev
 never invents the candidate, (o) spec-as-rubric preference lint, (p)
-fail-open retrieval vs fail-closed dispatch as a pair of policies.
+fail-open retrieval vs fail-closed dispatch as a pair of policies,
+(q) open vs closed typed-judgment provider (same primitives, different
+eval/hosting duty).

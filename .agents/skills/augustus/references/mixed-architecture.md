@@ -254,10 +254,14 @@ On-device / Home Assistant / mobile remain **thin evidence** this hour (2 X
 samples; `Friedjof/jev-mobile`, HA-Jev). Treat as newly-feasible candidates
 via the economics inversion, not as proven ports.
 
-Reproduce/open heads (`rongxinzy/LightJev`, openjev family) are training
-signals for a different skill. Augustus records them as evidence that the
-*interface* (prefill, typed logits, no generation) is the transferable part
-— not as a request to implement a backbone.
+Reproduce/open heads (`rongxinzy/LightJev`, openjev family,
+[`convaiinnovations/laya`](https://huggingface.co/convaiinnovations/laya))
+are evidence that the *interface* (Choice/Score/Noul, no generation) is the
+transferable part — not a request to implement a backbone or a second API
+skill. Laya: self-hostable, text-only, 512 tokens/question; vendor benches
+vs Jev are **claims**. Closed calibrated API vs open weights is a
+self-eval tradeoff (`research/notes.md` §18). TypeSafe remains the
+documented default.
 
 ## Design-card extras for mixed systems
 

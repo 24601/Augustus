@@ -26,6 +26,9 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   software primitive placed beside generation
 - Hourly research archive for this pass (X theme digest + `topic:jev` movers)
   under `research/archive/hourly/2026-09-18T14/`
+- Research note on Laya (`convaiinnovations/laya`): open Choice/Score/Noul
+  head as a self-hosted *typed judgment provider*; vendor benches labeled
+  claims; TypeSafe remains the default path
 
 ### Changed
 
@@ -34,6 +37,8 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   explicit `not_for` against the official `typesafe-ai` skill
 - Identity lock vs neighbor skills (`typesafe-ai`, `tenbin`, `decision-first`)
   so Augustus stays the design-judgment layer
+- Design cards name a typed judgment provider (Jev default; open head only
+  with self-eval) so mappings stay backend-agnostic without a second how-to
 
 ## [0.2.0] - 2026-09-18
 

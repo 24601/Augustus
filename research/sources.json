@@ -361,6 +361,12 @@
       "title": "rongxinzy/LightJev",
       "url": "https://github.com/rongxinzy/LightJev",
       "note": "Train lightweight decision backbones. Reproduce/open; not an Augustus implementation."
+    },
+    {
+      "kind": "model",
+      "title": "convaiinnovations/laya (Hugging Face)",
+      "url": "https://huggingface.co/convaiinnovations/laya",
+      "note": "2026-09-18: open System-1 decision head with Choice/Score/Noul; self-hostable; text-only; 512 tok/question. Vendor vs-Jev benches are claims. Design implication: typed judgment provider; TypeSafe remains default. See notes.md §18."
     }
   ]
 }

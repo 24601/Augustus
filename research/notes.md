@@ -349,3 +349,52 @@ placement/method/falsification; `typesafe-ai` / `tenbin` / `decision-first`
 keep contracts, measurement, and habit. No API fields invented this pass —
 docs.typesafe.ai/llms.txt re-fetched HTTP 200; cookbook list unchanged
 enough that sources.json docs rows stand.
+
+## 18. Laya — open Choice/Score/Noul head (2026-09-18)
+
+Source: [convaiinnovations/laya](https://huggingface.co/convaiinnovations/laya)
+(Apache 2.0; PyPI `laya`; demo Space `convaiinnovations/laya-demo`).
+Companion writeup on DEV is advocacy, not an independent bench.
+
+**What it is (vendor card, Hypothesis until you measure):** a
+self-hostable, non-autoregressive System-1 decision model with the same
+three question types as TypeSafe Jev — Choice (winner + per-option
+probabilities + confidence), Score (expected level + distribution +
+confidence), Noul (P(true) in [0,1]). Text (or JSON-as-text) in; typed
+answers out; no generation. Backbone: ModernBERT-large + a small decision
+head (~421M). Multi-question in one forward pass. Claims RLCD-style
+training with a proper scoring-rule reward.
+
+**What it is not:** a TypeSafe API drop-in, a multimodal/omni model, or a
+reason to fork Augustus into an install guide. Do not copy `laya.predict`
+shapes into this skill — their package owns that contract; `typesafe-ai`
+owns Jev's.
+
+**Limits the card itself states:** text-only, English, **512 tokens per
+question** (question + options + state; longer state truncated);
+arithmetic / counting / date compare / multi-hop stay in code; evaluate
+calibration on *your* distribution before automating.
+
+**Tradeoff vs TypeSafe Jev (design, not a bake-off):**
+
+| Axis | TypeSafe Jev (primary) | Open head (Laya as the example) |
+|---|---|---|
+| Mission fit | Documented API, 64k/32k envelope, live docs | Self-host, no egress, $0 inference after GPU |
+| Calibration | Closed model; still re-measure on your data | You own eval end-to-end; weights are inspectable |
+| Context | ~64k shared / 32k longest question (**Contract**) | 512 tok/question — prefilter state harder |
+| Modality | See live docs; not assumed here | Text-only |
+| Benches | TypeSafe self-run workflows (lead, not fact) | Vendor table vs Jev (latency/acc) — **claims** |
+
+Their own eval split is the useful number, not the vs-Jev table: in-task
+macro acc 0.838 / ECE 0.060 vs **zero-shot** acc 0.651 / ECE 0.207. Same
+lesson as Archer Hume (§7): in-distribution calibration is not a license
+to skip a held-out test.
+
+**Augustus implication:** mappings, boundaries, and decision-design cards
+name a *typed judgment provider*, not a vendor. Default provider remains
+TypeSafe Jev (`typesafe-ai` + live docs). An open head is in play when
+self-hosting or air-gap is the constraint *and* the 512-tok / text-only
+envelope still fits the state — then the falsifying experiment is on that
+head, on your labels, not on the vendor plot. LightJev / openjev stay the
+"train or reproduce a backbone" bucket; Laya is the first shipped open
+*product* with the Jev-shaped interface.

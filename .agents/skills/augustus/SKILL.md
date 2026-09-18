@@ -16,7 +16,9 @@ semantic judgments. This skill owns the **design judgment**; the official
 `typesafe-ai` skill plus the live docs own integration contracts — read them
 before writing API code. Neighbor skills `tenbin` (lint/measure) and
 `decision-first` (try-Jev-first habit) own their jobs; do not collapse into
-another Jev how-to.
+another Jev how-to. Mappings stay backend-agnostic: the *typed judgment
+provider* is TypeSafe Jev by default; an open Choice/Score/Noul head is a
+substitute you must self-eval, not a second how-to (`research/notes.md` §18).
 
 Central model: **evidence → semantic judgments → explicit policy → checked
 action → observed outcome.** Default placement is **mixed architecture**
@@ -115,6 +117,7 @@ Deterministic policy, constraints, and action ownership:
 Batchable vs genuinely dependent steps:
 Failure/abstention behavior:
 Smallest experiment that could reject this design:
+Typed judgment provider (TypeSafe Jev default; open head only with self-eval):
 Live references + versions (model, rubric, policy):
 ```
 

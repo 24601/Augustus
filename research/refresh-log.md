@@ -50,3 +50,15 @@
   tenbin / decision-first. Version 0.3.0.
 - Next pass: re-check awesome-typesafe since `6eef30ba8c3f`, evals page,
   whether LlamaIndex nDCG numbers get a second dataset, ECE claims on X.
+
+## 2026-09-18 14:55 UTC — Laya open-head note
+- Source: https://huggingface.co/convaiinnovations/laya (HF card HTTP
+  fetched this pass). Open System-1 head, Choice/Score/Noul, self-hostable,
+  text-only, 512 tok/question. Vendor vs-Jev table recorded as **claims**.
+- Design implication only: decision-design cards stay backend-agnostic
+  (typed judgment provider); TypeSafe Jev remains the documented default;
+  open weights transfer calibration/eval duty to the operator.
+- Skill: one-liner in SKILL.md + provider slot on the design card +
+  mixed-architecture reproduce/open paragraph. No Laya how-to, no copied
+  `predict()` contract.
+- notes.md §18; sources.json + findings.md updated.
