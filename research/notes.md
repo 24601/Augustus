@@ -133,10 +133,11 @@ not cheaper LLM". No verified independent benchmarks yet.
 
 ## 6. Coverage gaps / unknowns
 
-- No independent reproduction of speed/cost/quality claims; no MCTS+Jev
-  project found yet (closest: beam-search cookbook, jev-trader per-step
-  decisions, StarCraft run). The user's MCTS example is direction, not yet
-  an observed artifact — treat MCTS-as-value-function as EXPERIMENTAL.
+- No independent reproduction of TypeSafe's own speed/cost/quality claims.
+  MCTS+Jev now FOUND and analyzed: paulobueno164/jev-mcts + lhemerly/mcts-agent
+  (see §8 and mappings.md empirical recipe); supersedes the earlier
+  "not yet observed" note — MCTS-as-value-function is EMPIRICAL, pending
+  third-party reproduction.
 - 255-option Choice at scale (>255 candidates) has no canonical public
   recipe; tournament-bracket decomposition is UNPROVEN (see skill warnings).
 - Score cross-question comparability and calibration on deployment
