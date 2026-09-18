@@ -265,3 +265,9 @@ a candidate is promoted only after falsification.
 - open-typesafe-camoufox: $0.0002/step browser agent; 11-way action Choice; free text only when needed.
 - hr98w/jev-visual: open Jev-like VLM direct-logit scoring; Breakout reduced to region classification (decomposition discipline).
 - skillranker + jev-harness: previously analyzed (§7, findings.md).
+
+## 16. Batch #5 (2026-09-18)
+
+- probably-lang: Jev as control-flow primitive in a programming language (feeling-conditions as loop guards); judgment recordings + deterministic replay (record once, replay forever without credentials). New composition-algebra position: Jev as conditional operator / loop predicate.
+- jev-search: Jev as both query-understanding head and result-ranking tail of a federated multi-engine search (speculative start, lane failures isolated, merge on URL+agreement+rank).
+- super-jev: harness with permit() layer independent of confidence; idempotency keys; JSONL replay. Pattern: permission ≠ confidence — domain rules veto regardless of model certainty.
