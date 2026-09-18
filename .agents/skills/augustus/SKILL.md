@@ -1,6 +1,6 @@
 ---
 name: augustus
-description: "Use when deciding where a fast cheap categorization/classification/scoring model belongs versus generation or exact code; designing mixed architecture (decision model, encoder classifier, listwise ranker, or vision scorer + LLM writing); choosing among TypeSafe Jev, open heads (Laya), GLiClass-adjacent encoders, listwise/pairwise rankers, or CLIP/SigLIP vision scoring; replacing prompt-to-JSON classifiers, brittle parsers, or unbounded agent loops that are really bounded judgments; planning context sieves, exact-text keep/drop, env triage, moderation/ranking, tool/skill routing, cost-sensitive prefilters, or AGENTS.md preference lint; answering \"it's just classification\" or \"is Jev the only model\" with a placement and a family, not a stack replacement or a vendor how-to; decomposing a task into typed Choice, Score, or Noul questions; or evaluating agent outputs with a judgment-class model. Not a substitute for the official typesafe-ai skill (live Jev API contracts)."
+description: "Use when deciding where a fast cheap categorization/classification/scoring model belongs versus generation, exact code, or proof; designing mixed architecture (decision model, encoder classifier, listwise ranker, or vision scorer + LLM writing); choosing among TypeSafe Jev, open heads (Laya), GLiClass-adjacent encoders, listwise/pairwise rankers, or CLIP/SigLIP vision scoring; placing typed judgment beside TLA+/Alloy/Quint/P/NuSMV/PRISM/Event-B, Dafny/JML/Frama-C/SPARK, or DST (Antithesis/Resonate) without laundering a Noul as a proof; replacing prompt-to-JSON classifiers, brittle parsers, or unbounded agent loops that are really bounded judgments; planning context sieves, exact-text keep/drop, env triage, moderation/ranking, tool/skill routing, cost-sensitive prefilters, or AGENTS.md preference lint; answering \"it's just classification\", \"is Jev the only model\", or \"formally verify with Jev\" with a placement and a family, not a stack replacement or a vendor how-to; decomposing a task into typed Choice, Score, or Noul questions; or evaluating agent outputs with a judgment-class model. Not a substitute for the official typesafe-ai skill (live Jev API contracts)."
 license: MIT
 metadata:
   version: 0.3.0
@@ -40,13 +40,16 @@ classical method you already trust, substitute it, classify the win
 ## Protocol
 
 1. If the request is "replace the LLM/stack with Jev", "isn't this just
-   classification?", or "is Jev the only model?": read
-   `references/faq.md`, then `references/mixed-architecture.md`, then
-   `references/judgment-class.md` before any mapping. Answer with a
-   **placement** (sieve / keep-drop / triage / rank / route / gate /
-   perceive / replace-one-classifier-step) and a **family**, not a
-   rewrite or a vendor tutorial. If it is an existing system, PR, or
-   running workflow: also run the boundary audit
+   classification?", "is Jev the only model?", or "formally verify with
+   Jev / replace TLA+ / Dafny / DST": read `references/faq.md`, then
+   `references/mixed-architecture.md`, then `references/judgment-class.md`
+   before any mapping. Proof, model-checking, contracts, DST, and
+   judgment-vs-proof ownership: also read
+   `references/formal-methods.md`. Answer with a **placement** (sieve /
+   keep-drop / triage / rank / route / gate / perceive /
+   replace-one-classifier-step) and a **family**, not a rewrite, a
+   vendor tutorial, or a Noul-as-proof. If it is an existing system, PR,
+   or running workflow: also run the boundary audit
    (`references/boundary-audit.md`). Classify each step as exact /
    bounded judgment / generation; recommend the smallest insertion, not
    a redesign. Greenfield with no replacement framing: start at step 2.
@@ -59,7 +62,9 @@ classical method you already trust, substitute it, classify the win
    authorization, safety interlocks, control flow, side effects. Keep
    open-ended writing, explanation, and code generation on a generative
    model; a judgment-class model may gate, route, or verify around that
-   call.
+   call. Proof, model-checking, contracts, and DST stay with their
+   tools — a Noul is a sensor, not a discharged proof obligation
+   (`references/formal-methods.md`).
 4. Give the provider one narrow judgment per question (a knowledgeable
    person could answer in a second given the state). Split multi-factor
    judgments; fuse in code with visible weights. Jev's option/envelope
@@ -86,6 +91,7 @@ classical method you already trust, substitute it, classify the win
 | Familiar method | Judgment shape | Detail |
 |---|---|---|
 | Judgment-model class (Jev is exemplar, not monopoly) | Family from the hole: decision API, open head, GLiClass-adjacent, listwise ranker, vision scorer | `references/judgment-class.md` |
+| Formal / semi-formal / crossover (proof vs judgment) | Sensor vs constraint vs searchlight; TLA+/Alloy/DST/Dafny; TOCTOU, soundness theater, vibing specs | `references/formal-methods.md` |
 | Mixed architecture (judgment model + LLM) | Provider judges, LLM writes, code owns control; not a stack replacement | `references/mixed-architecture.md` |
 | Context sieve | Relevance Noul per block; always-keep set in code; stub + recall key | `references/applied-mappings.md#1-context-sieve` |
 | Exact-text keep / drop | Choice include/exclude/mixed over candidates code already holds | `references/applied-mappings.md#2-exact-text-keep--drop` |
@@ -112,7 +118,7 @@ explicit rejections beside the mapping they tempt (MCTS-as-value-function:
 experimental; bandits: rejected without observed rewards; 255-way tournament
 brackets: rejected as default; rerank-huge-sets: budget-only; correlated
 "independent" checks: rejected; listwise ranker *as* a fail-closed gate:
-rejected).
+rejected; Noul *as* a proof / model-check / DST property: rejected).
 
 ## Non-negotiable boundaries
 
@@ -130,6 +136,10 @@ rejected).
   them. CLIP/SigLIP/GLiClass affinities are not automatically
   class-conditional P(permit). Full class card:
   `references/judgment-class.md`.
+- Never launder a Noul (or any judgment-class score) as a proof, a
+  model-check, or a DST property. Soft check ≠ interlock. TOCTOU-shaped
+  gates and tautological specs are harms, not placements. Full card:
+  `references/formal-methods.md`.
 - Classification is not the product. The claim is a software primitive:
   typed, (when trained for it) calibrated, batched, schema-valid judgments
   that code can threshold — placed beside generation, not instead of it.
@@ -157,10 +167,11 @@ For open-ended requests propose three materially different *placements of
 judgment*, recommend one. For mixed-architecture requests also fill the
 extras on `references/mixed-architecture.md` (what the LLM is still for,
 cascade costs, fail-open vs fail-closed). For family-choice requests also
-fill the extras on `references/judgment-class.md`. Applied placements
-(sieve, keep/drop, env triage, moderation/ranking, skill routing):
-`references/applied-mappings.md`. For concrete requests skip the
-brainstorm and build.
+fill the extras on `references/judgment-class.md`. Formal / proof /
+DST mixed with judgment: `references/formal-methods.md`. Applied
+placements (sieve, keep/drop, env triage, moderation/ranking, skill
+routing): `references/applied-mappings.md`. For concrete requests skip
+the brainstorm and build.
 
 ## Evidence labels
 

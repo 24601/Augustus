@@ -41,6 +41,13 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   four vision scoring patterns; seven portents for agent architecture.
   FAQ rows for family choice, GLiClass vs Jev vs cross-encoder, and
   CLIP/SigLIP gating. No invented APIs.
+- Formal-methods card: judgment vs proof ownership (sensor / constraint /
+  searchlight); Alloy/TLA+/Quint/P/NuSMV/PRISM/Event-B; Dafny/JML/
+  Frama-C/SPARK; DST (Antithesis, Resonate); harms (TOCTOU-shaped soft
+  checks, soundness theater, Hillel vibing specs); crossover metaphors
+  (NATM, snap-fit, Norman gulfs, Leveson STAMP/STPA). Curriculum file
+  `FORMAL-METHODS-SYSTEM-ONE.md` had not landed; card is from the brief
+  plus cited docs. Non-negotiable: never launder a Noul as a proof.
 
 ### Changed
 
@@ -55,6 +62,8 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
 - Protocol fan-out step is family-aware (Jev batch, GLiClass one-pass,
   dual-encoder prompt scoring); ranking vs decision fail policy is a
   non-negotiable
+- Protocol and FAQ branch for "formally verify with Jev"; methods-catalog
+  and composition-algebra verifier position point at the ownership split
 
 ## [0.2.0] - 2026-09-18
 

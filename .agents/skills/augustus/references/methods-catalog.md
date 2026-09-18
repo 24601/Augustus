@@ -58,7 +58,7 @@ judgment component is new).
 | Method | Judgment-shaped component | Jev substitution | Stays in code | Status |
 |---|---|---|---|---|
 | Claim–evidence entailment (NLI) | supports / contradicts / not-established per claim–source pair | One Choice per pair + review flag; judge against the cited source text only | Quote extraction, citation graph, audit log | **Empirical recipe** (citation_check cookbook) |
-| Spec vs artifact conformance (model checking mindset) | Property holds / violated / unverifiable for a named requirement | One Noul per requirement, batched; violated → named rule back into agent context (pi-warden shape) | Requirement enumeration, enforcement, logging | **Empirical recipe** (pi-warden: 6→0 rule breaks, 150 paired runs; jev-pref: YOU define the rule) |
+| Spec vs artifact conformance (model checking *mindset*) | Property holds / violated / unverifiable for a named requirement | One Noul per requirement, batched; violated → named rule back into context (pi-warden shape). This is **not** TLC/Apalache/GNATprove | Requirement enumeration, enforcement, logging; the real checker if you have one | **Empirical recipe** (pi-warden: 6→0 rule breaks, 150 paired runs; jev-pref: YOU define the rule). Ownership split: `formal-methods.md` |
 | Type-checking analog | Does this planned call match the schema/operation/target? | Decomposed nouls over {request, schema, trace}; never trust a Jev pass as authorization | Real validation of operation+target in code | **Empirical recipe** (validation.md self-monitoring) |
 
 ## Economics & game theory
@@ -82,6 +82,9 @@ judgment component is new).
   (`references/mixed-architecture.md`); generation, derivation, and exact
   work stay off Jev. Classification-skepticism is answered with placement,
   not a claim that classification is new.
+- A Noul (or any judgment-class score) as a proof, a model-check, or a
+  DST property. Judgment is a sensor; proof/types are constraints; DST
+  is a searchlight (`references/formal-methods.md`).
 
 ## Operators and theorems (third tier)
 

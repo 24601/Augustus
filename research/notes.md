@@ -494,3 +494,60 @@ and applied-mappings intros point at the class. Identity lock holds:
 still not `typesafe-ai` / `tenbin` / `decision-first`, and not a Laya or
 GLiClass how-to. No API fields invented.
 
+## 20. Formal / semi-formal / crossover (2026-09-18, from brief)
+
+Curriculum file `FORMAL-METHODS-SYSTEM-ONE.md` had **not** landed in the
+repo or on GitHub search. Card written from the brief + fetched docs
+(HTTP 200 unless noted). Skill: `references/formal-methods.md`.
+
+**Ownership split (the load-bearing claim).** Proof/MC/contracts exhaust
+a model or fragment. DST searches executions; a clean run is not a
+proof. A judgment-class model estimates a *state*. Code owns
+authorization. Judgment = sensor; proof/types = constraint; DST =
+searchlight. Existing grammar already said this (composition-algebra
+positions 3 and 9; estimate ≠ measure); this card names the tools.
+
+**Design-time finders/checkers.** Alloy (scoped SAT instances), TLA+
+(TLC/Apalache), Quint (TLA fragment; simulator ≠ proof; no TLAPS —
+[FAQ](https://quint.sh/faq)), P, NuSMV, PRISM (model-p is not a Noul),
+Event-B/Rodin ([wiki](https://wiki.event-b.org/index.php/Main_Page);
+event-b.org itself failed HEAD this pass). Hole: triage
+counterexamples / properties / POs. Not: close the obligation.
+
+**Deductive.** Dafny, OpenJML, Frama-C, SPARK/GNATprove. Ranking failed
+VCs is in-class; "the lemma holds" as a Noul is out.
+
+**DST.** [Antithesis](https://antithesis.com/docs/introduction/how_antithesis_works/)
+(deterministic hypervisor, properties, reproducible timelines).
+[Resonate](https://docs.resonatehq.io/evaluate/how-resonate-is-tested):
+Lean 4 protocol spec + differential oracle + DST of the TS SDK (CI
+replays each seed twice to catch nondeterminism). Three owners in one
+product.
+
+**Harms.** TOCTOU-shaped soft checks (judge at t0, act at t1). Soundness
+theater (toy bounds; tautological properties; Noul-as-safety-case).
+[Hillel Wayne, 10 Mar 2026, "LLMs are bad at vibing
+specifications"](https://buttondown.com/hillelwayne/archive/llms-are-bad-at-vibing-specifications/):
+4% of GitHub TLA+ files mention Claude; example Alloy spec did not
+compile and asserted tautologies; LLMs write "obvious" invariants, not
+subtle concurrency/liveness. Force multiplier for experts who *run the
+checker*. LLM spec + System One "does this spec look good?" = double
+theater.
+
+**Crossover (placement intuition, not SWE-only, not a mapping until a
+precondition survives).** NATM observational method: instrument often,
+adapt support in code. Snap-fit: designed give only where a miss is
+reversible. Norman gulfs: judgment evaluates candidates; forcing
+functions execute safely
+([NN/g](https://www.nngroup.com/articles/two-ux-gulfs-evaluation-execution/)).
+Leveson STAMP: safety is a control problem; a 99% Noul is a sensor, not
+a constraint
+([STAMP intro PDF](https://psas.scripts.mit.edu/home/wp-content/uploads/2016/04/STAMP-Intro-2016.pdf)).
+
+**Skill impact.** New card; SKILL.md protocol/index/non-negotiable/FAQ
+("replace TLA+?" / "Noul ≈ proof?"); methods-catalog rejected row;
+composition-algebra position 9; toolbox family row. Identity lock
+holds. No invented APIs. When `FORMAL-METHODS-SYSTEM-ONE.md` lands,
+fold named rows — do not wait on it.
+
+

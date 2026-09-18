@@ -83,3 +83,20 @@
   tenbin / decision-first unchanged. No invented API contracts.
 - notes.md §19; sources.json papers appended; findings.md batch #7.
 
+## 2026-09-18 15:20 UTC — formal / semi-formal / crossover card
+- Curriculum `FORMAL-METHODS-SYSTEM-ONE.md` not in repo; GitHub code
+  search returned 0. Card from the brief + fetched docs.
+- HTTP 200: Hillel vibing-specs (2026-03-10), Quint, Antithesis,
+  Resonate DST, Alloy, TLA+, P, NuSMV, PRISM, Event-B wiki, Dafny,
+  OpenJML, Frama-C, SPARK, NN/g gulfs, NATM Wikipedia, Leveson STAMP
+  intro PDF. event-b.org and mitpress book page failed HEAD; cited
+  wiki/PDF instead.
+- Skill: `references/formal-methods.md` (ownership; model-finders;
+  deductive; DST; TOCTOU / soundness theater / vibing specs; NATM /
+  snap-fit / Norman / Leveson). SKILL.md protocol + index +
+  non-negotiable. FAQ: replace TLA+? / Noul ≈ proof? methods-catalog
+  rejected row; composition-algebra #9; toolbox family. No invented
+  APIs. Identity lock holds.
+- notes.md §20; sources.json appended; findings.md batch #8.
+
+

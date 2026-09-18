@@ -409,6 +409,108 @@
       "title": "Does Marginal Coverage Guarantee Class-Conditional Safety for Zero-Shot VLMs Under Shift?",
       "url": "https://arxiv.org/abs/2608.19376",
       "note": "Class-conditional coverage can collapse under shift even when marginal coverage looks fine. Do not gate fail-closed on raw VLM affinities."
+    },
+    {
+      "kind": "essay",
+      "title": "LLMs are bad at vibing specifications (Hillel Wayne)",
+      "url": "https://buttondown.com/hillelwayne/archive/llms-are-bad-at-vibing-specifications/",
+      "note": "2026-03-10: 4% of GitHub TLA+ mentions Claude; unrun/tautological specs; obvious vs subtle properties. notes.md §20."
+    },
+    {
+      "kind": "docs",
+      "title": "Alloy Analyzer",
+      "url": "https://alloytools.org/",
+      "note": "Relational model finder; green check is no counterexample in the bound."
+    },
+    {
+      "kind": "docs",
+      "title": "TLA+ (Lamport)",
+      "url": "https://lamport.azurewebsites.net/tla/tla.html",
+      "note": "Temporal logic of actions. Design-time model, not a production judge."
+    },
+    {
+      "kind": "docs",
+      "title": "What does Quint do?",
+      "url": "https://quint.sh/docs/what-does-quint-do",
+      "note": "Executable TLA fragment. Simulator finds bugs; model checker is the invariant claim. FAQ: no TLAPS."
+    },
+    {
+      "kind": "repo",
+      "title": "p-org/P",
+      "url": "https://github.com/p-org/P",
+      "note": "Async event-driven state machines; systematic testing of P programs."
+    },
+    {
+      "kind": "docs",
+      "title": "NuSMV",
+      "url": "https://nusmv.fbk.eu/",
+      "note": "Symbolic SMV model checker."
+    },
+    {
+      "kind": "docs",
+      "title": "PRISM probabilistic model checker",
+      "url": "https://www.prismmodelchecker.org/",
+      "note": "Model-p is not a Noul."
+    },
+    {
+      "kind": "docs",
+      "title": "Event-B / Rodin wiki",
+      "url": "https://wiki.event-b.org/index.php/Main_Page",
+      "note": "Refinement + proof obligations. event-b.org HEAD failed 2026-09-18; wiki 200."
+    },
+    {
+      "kind": "docs",
+      "title": "Dafny",
+      "url": "https://dafny.org/",
+      "note": "Verification-aware language. Noul does not discharge a VC."
+    },
+    {
+      "kind": "docs",
+      "title": "OpenJML",
+      "url": "https://www.openjml.org/",
+      "note": "JML design-by-contract for Java."
+    },
+    {
+      "kind": "docs",
+      "title": "Frama-C",
+      "url": "https://frama-c.com/",
+      "note": "C static analysis / ACSL."
+    },
+    {
+      "kind": "docs",
+      "title": "SPARK (AdaCore)",
+      "url": "https://www.adacore.com/about-spark",
+      "note": "Ada subset + GNATprove."
+    },
+    {
+      "kind": "docs",
+      "title": "How Antithesis works",
+      "url": "https://antithesis.com/docs/introduction/how_antithesis_works/",
+      "note": "Deterministic hypervisor DST; properties; reproducible timelines."
+    },
+    {
+      "kind": "docs",
+      "title": "How Resonate is tested",
+      "url": "https://docs.resonatehq.io/evaluate/how-resonate-is-tested",
+      "note": "Lean 4 spec + differential oracle + DST of TS SDK; CI replays seeds twice."
+    },
+    {
+      "kind": "docs",
+      "title": "NN/g: Two UX gulfs (evaluation and execution)",
+      "url": "https://www.nngroup.com/articles/two-ux-gulfs-evaluation-execution/",
+      "note": "Norman/Hutchins/Hollan gulfs. Crossover metaphor for judgment vs forcing functions."
+    },
+    {
+      "kind": "docs",
+      "title": "Leveson STAMP intro (2016 PDF)",
+      "url": "https://psas.scripts.mit.edu/home/wp-content/uploads/2016/04/STAMP-Intro-2016.pdf",
+      "note": "Safety as control problem vs component failure. Judgment is a sensor, not a constraint."
+    },
+    {
+      "kind": "docs",
+      "title": "New Austrian tunnelling method (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/New_Austrian_tunnelling_method",
+      "note": "Observational method metaphor: instrument often; support stays in code."
     }
   ]
 }

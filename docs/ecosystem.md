@@ -59,12 +59,15 @@ clones — they own lint/eval and try-Jev-first habit.
 
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice (open heads, GLiClass, listwise vs decision, vision scoring,
-agent-architecture portents): `references/judgment-class.md`.
+agent-architecture portents): `references/judgment-class.md`. Proof vs
+judgment (TLA+/Alloy/DST/Dafny; TOCTOU; vibing specs):
+`references/formal-methods.md`.
 
 ## The skill that owns this analysis
 
 [GitHub](https://github.com/24601/Augustus) — `SKILL.md` + reference cards
 covering mental model, the judgment-model class (Jev exemplar, not
-monopoly), mixed architecture, applied placements (sieve / keep-drop /
-env triage / rank / route), method substitution, composition algebra,
-question-design, validation, and optimizer coupling.
+monopoly), mixed architecture, formal/semi-formal placement, applied
+placements (sieve / keep-drop / env triage / rank / route), method
+substitution, composition algebra, question-design, validation, and
+optimizer coupling.

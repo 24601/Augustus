@@ -158,3 +158,28 @@ Cross-repo addition to the taxonomy: (r) encoder-classifier one-pass over
 a large label set, (s) listwise ranker as a *cousin* not a decision API,
 (t) vision as candidate-generation plus scoring, (u) judgment-class model
 as agent control plane independent of TypeSafe.
+
+## Batch #8 (2026-09-18, formal/semi-formal/crossover — from brief)
+
+Curriculum `FORMAL-METHODS-SYSTEM-ONE.md` not found. Design
+distillation only. Skill card: `references/formal-methods.md`. Note:
+`research/notes.md` §20.
+
+- **Ownership:** proof/MC exhaust a model; DST searches executions;
+  judgment estimates a state; code authorizes. Sensor ≠ constraint ≠
+  searchlight. Noul-as-proof is rejected (also SKILL.md non-negotiable).
+- **Hillel (Empirical as a published case, 10 Mar 2026):** 4% of GitHub
+  TLA+ mentions Claude; example Alloy spec did not compile and checked
+  tautologies; LLMs write obvious invariants, not subtle
+  concurrency/liveness.
+  [Source](https://buttondown.com/hillelwayne/archive/llms-are-bad-at-vibing-specifications/).
+- **Resonate (Contract from their test docs):** Lean 4 spec +
+  differential oracle + DST of the TS SDK — three layers, three owners.
+- **Antithesis (Contract from intro docs):** deterministic hypervisor;
+  you state properties; it searches; bugs reproduce from a seed.
+- **Crossover metaphors (Hypothesis as mappings, Contract as
+  intuition):** NATM / snap-fit / Norman gulfs / Leveson STAMP. Place
+  judgment; do not substitute until a precondition survives.
+
+Cross-repo addition: (v) judgment as sensor around a real checker/DST
+harness, never instead.

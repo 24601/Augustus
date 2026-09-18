@@ -27,6 +27,10 @@ supplies bounded answers software can act on.
 - `.agents/skills/augustus/references/judgment-class.md` — the class (Jev
   exemplar, not monopoly): open heads, GLiClass-adjacent, listwise vs
   decision objectives, vision scoring, agent-architecture portents
+- `.agents/skills/augustus/references/formal-methods.md` — judgment vs
+  proof ownership; Alloy/TLA+/Quint/P/NuSMV/PRISM/Event-B;
+  Dafny/JML/Frama-C/SPARK; DST (Antithesis/Resonate); TOCTOU, soundness
+  theater, vibing specs (Hillel); NATM/snap-fit/Norman/Leveson
 - `.agents/skills/augustus/references/mixed-architecture.md` — default
   placement: judgment-class model + LLM + code; preference lint; provider
   (Jev default / other family with self-eval)
@@ -75,7 +79,8 @@ GPT's instructions or a Project's knowledge and it will follow the protocol.
 `decision-systems` `reranking` `beam-search` `claude-code` `python` `llm`
 `decision-theory` `semantic-search` `agent-workflows` `mixed-architecture`
 `tool-routing` `skill-routing` `semantic-lint` `classification` `gliclass`
-`listwise-ranking` `vision-scoring` `open-weights`
+`listwise-ranking` `vision-scoring` `open-weights` `formal-methods`
+`model-checking` `deterministic-simulation`
 
 ## Versioning
 

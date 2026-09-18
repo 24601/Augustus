@@ -1,10 +1,11 @@
 # FAQ (design judgment, not an API)
 
 Load this when the request is skepticism, stack replacement, family
-choice ("Jev vs GLiClass vs CLIP"), or "isn't Augustus just another Jev
-skill?" Integration contracts for TypeSafe Jev still live in
-`typesafe-ai` and the live docs. The *class* of providers is
-`judgment-class.md`: Jev is the exemplar, not the monopoly.
+choice ("Jev vs GLiClass vs CLIP"), "formally verify with Jev", or
+"isn't Augustus just another Jev skill?" Integration contracts for
+TypeSafe Jev still live in `typesafe-ai` and the live docs. The *class*
+of providers is `judgment-class.md`: Jev is the exemplar, not the
+monopoly. Proof vs judgment ownership: `formal-methods.md`.
 
 ## Isn't this just classification?
 
@@ -90,11 +91,32 @@ closed region/label Choice, or treat vision as the vision-scorer family on
 `judgment-class.md`. Do not caption the world and then "run Laya on the
 caption."
 
+## Can a System One model replace TLA+ / Dafny / DST?
+
+No. Model-checkers and provers exhaust a *model* or a *fragment*.
+DST searches executions under a deterministic scheduler. A
+judgment-class model estimates a *state*. Those are three owners
+(`formal-methods.md`). Valid mixed stacks: TLA+ on the protocol + DST
+on the SDK + judgment triaging failing seeds. Invalid: "formally verify
+this agent with Jev." If removing the judgment call would change what
+the system is allowed to do, the design is wrong.
+
+## Isn't a high-confidence Noul basically a proof?
+
+No. That is soundness theater. Calibration describes groups,
+in-distribution. A stale Noul is a TOCTOU-shaped soft check, not an
+interlock. An LLM-written spec plus "does this spec look good?" is
+double theater ([Hillel Wayne, vibing
+specs](https://buttondown.com/hillelwayne/archive/llms-are-bad-at-vibing-specifications/)).
+The checker, DST harness, or prover ran, or it did not.
+
 ## Is Augustus another Jev how-to?
 
 No. `typesafe-ai` owns Jev API contracts. `tenbin` owns design-time
 lint/measure. `decision-first` owns try-a-typed-decision-first habit.
 Augustus owns **where judgment belongs**, which *family* and classical
-method map, what that does to agent architecture, and what would prove
-the design wrong. If the request is a curl body or an SDK snippet, stop
-and load the family's own skill/docs (`typesafe-ai` for Jev).
+method map, what that does to agent architecture, where proof/DST still
+own the claim, and what would prove the design wrong. If the request is
+a curl body or an SDK snippet, stop and load the family's own
+skill/docs (`typesafe-ai` for Jev). If it is "replace TLA+ with Jev",
+load `formal-methods.md`.
