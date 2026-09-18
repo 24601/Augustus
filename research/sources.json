@@ -367,6 +367,48 @@
       "title": "convaiinnovations/laya (Hugging Face)",
       "url": "https://huggingface.co/convaiinnovations/laya",
       "note": "2026-09-18: open System-1 decision head with Choice/Score/Noul; self-hostable; text-only; 512 tok/question. Vendor vs-Jev benches are claims. Design implication: typed judgment provider; TypeSafe remains default. See notes.md §18."
+    },
+    {
+      "kind": "paper",
+      "title": "GLiClass: Generalist Lightweight Model for Sequence Classification Tasks",
+      "url": "https://arxiv.org/abs/2508.07662",
+      "note": "2026-09-18 class-scope: one-pass text+all-labels encoder classifier; sigmoid multi-label / softmax single-label. Affinities, not automatically a gateable decision API. notes.md §19."
+    },
+    {
+      "kind": "docs",
+      "title": "Knowledgator GLiClass intro",
+      "url": "https://docs.knowledgator.com/docs/frameworks/gliclass/intro/",
+      "note": "Vendor docs for GLiClass family. Do not copy request fields into Augustus."
+    },
+    {
+      "kind": "paper",
+      "title": "Joint Optimization of Ranking and Calibration with Contextualized Hybrid Model",
+      "url": "https://arxiv.org/abs/2208.06164",
+      "note": "Listwise losses (ListNet) can be translation-invariant: ranking ≠ calibrated P(relevant). Fork for fail-open vs fail-closed. notes.md §19."
+    },
+    {
+      "kind": "paper",
+      "title": "Regression Compatible Listwise Objectives for Calibrated Ranking with Binary Relevance",
+      "url": "https://arxiv.org/abs/2211.01494",
+      "note": "RCR: calibrated ranking is a special objective, not a property of off-the-shelf cross-encoders."
+    },
+    {
+      "kind": "docs",
+      "title": "Hugging Face SigLIP",
+      "url": "https://huggingface.co/docs/transformers/v4.39.2/en/model_doc/siglip",
+      "note": "Pairwise sigmoid image-text affinity vs CLIP-family softmax competition. Vision scoring family. notes.md §19."
+    },
+    {
+      "kind": "paper",
+      "title": "Language as a Label: Zero-Shot Multimodal Classification of Everyday Postures under Data Scarcity",
+      "url": "https://arxiv.org/abs/2510.13364",
+      "note": "CLIP softmax vs SigLIP sigmoid margins in closed-set zero-shot classification."
+    },
+    {
+      "kind": "paper",
+      "title": "Does Marginal Coverage Guarantee Class-Conditional Safety for Zero-Shot VLMs Under Shift?",
+      "url": "https://arxiv.org/abs/2608.19376",
+      "note": "Class-conditional coverage can collapse under shift even when marginal coverage looks fine. Do not gate fail-closed on raw VLM affinities."
     }
   ]
 }

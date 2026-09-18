@@ -6,27 +6,34 @@
 [![Skills.sh](https://img.shields.io/badge/skills.sh-compatible-green.svg)](https://www.skills.sh/)
 
 **Augustus** — named for Augustus De Morgan (1806–1871), mentor and professor
-of William Stanley Jevons — is an agent skill for designing judgment-assisted
-systems with [TypeSafe](https://docs.typesafe.ai/) Jev System One models. Code
-stays in control; Jev supplies narrow, typed semantic judgments (Choice,
-Score, Noul) that software can act on directly.
+of William Stanley Jevons — is an agent skill for designing systems around
+the class of **fast, cheap categorization / classification / scoring
+models**. [TypeSafe](https://docs.typesafe.ai/) Jev is the documented
+exemplar (Choice, Score, Noul), not the monopoly: open heads (Laya),
+GLiClass-adjacent encoders, listwise rankers, and vision scorers sit in
+the same design space. Code stays in control; the judgment-class model
+supplies bounded answers software can act on.
 
 > Companion, not replacement, to the official
 > [`typesafe-ai` skill](https://github.com/typesafe-ai/skills). That skill
-> owns integration contracts; Augustus owns the **design judgment**: which
-> classical methods map onto Jev primitives, what breaks in translation, and
-> what experiment would prove a design wrong.
+> owns Jev integration contracts; Augustus owns the **design judgment**:
+> which *family* and classical methods map, what the objective implies for
+> fail-open vs fail-closed, what that does to agent architecture, and
+> what experiment would prove a design wrong. Not a TypeSafe-only how-to.
 
 ## The skill
 
 - `.agents/skills/augustus/SKILL.md` — working protocol + decision-design card
+- `.agents/skills/augustus/references/judgment-class.md` — the class (Jev
+  exemplar, not monopoly): open heads, GLiClass-adjacent, listwise vs
+  decision objectives, vision scoring, agent-architecture portents
 - `.agents/skills/augustus/references/mixed-architecture.md` — default
-  placement: decision model + LLM + code; preference lint; provider
-  (Jev default / open head with self-eval)
+  placement: judgment-class model + LLM + code; preference lint; provider
+  (Jev default / other family with self-eval)
 - `.agents/skills/augustus/references/applied-mappings.md` — context sieve,
   exact-text keep/drop, env triage, moderation/ranking, skill routing
 - `.agents/skills/augustus/references/faq.md` — "just classification",
-  stack replacement, Jev vs open head, not-another-how-to
+  stack replacement, Jev vs open head vs GLiClass vs CLIP, not-another-how-to
 - `.agents/skills/augustus/references/mappings.md` — 5 classical-method
   mappings with boundaries, counterexamples, acceptance tests
 - `.agents/skills/augustus/references/validation.md` — design gate, eval
@@ -67,7 +74,8 @@ GPT's instructions or a Project's knowledge and it will follow the protocol.
 `structured-output` `calibrated-confidence` `ai-agents` `agent-skills`
 `decision-systems` `reranking` `beam-search` `claude-code` `python` `llm`
 `decision-theory` `semantic-search` `agent-workflows` `mixed-architecture`
-`tool-routing` `skill-routing` `semantic-lint` `classification`
+`tool-routing` `skill-routing` `semantic-lint` `classification` `gliclass`
+`listwise-ranking` `vision-scoring` `open-weights`
 
 ## Versioning
 

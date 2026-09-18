@@ -16,11 +16,11 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
 
 ### Added
 
-- Mixed-architecture card: default placement is decision model + generator +
-  code, not stack replacement. Covers cost-sensitive prefilter (fail-open vs
-  fail-closed per action), tool/skill routing, AGENTS.md preference lint, a
-  placement gallery from the 2026-09-18 X+GH hour, and an explicit answer to
-  "Jev is just classification"
+- Mixed-architecture card: default placement is judgment-class model +
+  generator + code, not stack replacement. Covers cost-sensitive prefilter
+  (fail-open vs fail-closed per action), tool/skill routing, AGENTS.md
+  preference lint, a placement gallery from the 2026-09-18 X+GH hour, and
+  an explicit answer to "Jev is just classification"
 - Protocol branch and mapping-index rows for those four placements
 - Non-negotiable: classification is not the product; typed judgment is a
   software primitive placed beside generation
@@ -33,16 +33,28 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   triage, moderation/ranking, skill/tool routing (`applied-mappings.md`)
 - FAQ card for "it's just classification", stack replacement, Jev vs open
   head, and Augustus vs neighbor how-to skills
+- Judgment-class card: Augustus covers the whole class of fast/cheap
+  categorization-classification-scoring models (Jev is exemplar, not
+  monopoly). Families: closed decision API, open System-1 heads (Laya),
+  GLiClass-adjacent encoders, listwise/pairwise rankers, vision scorers.
+  Fork of listwise discriminative vs decision/proper-scoring objectives;
+  four vision scoring patterns; seven portents for agent architecture.
+  FAQ rows for family choice, GLiClass vs Jev vs cross-encoder, and
+  CLIP/SigLIP gating. No invented APIs.
 
 ### Changed
 
 - Skill description rewritten as trigger conditions (mixed architecture,
-  prefilter, routing, preference lint, classification skepticism) plus an
-  explicit `not_for` against the official `typesafe-ai` skill
+  prefilter, routing, preference lint, classification skepticism, family
+  choice including GLiClass/listwise/vision) plus an explicit `not_for`
+  against the official `typesafe-ai` skill
 - Identity lock vs neighbor skills (`typesafe-ai`, `tenbin`, `decision-first`)
-  so Augustus stays the design-judgment layer
-- Design cards name a typed judgment provider (Jev default; open head only
-  with self-eval) so mappings stay backend-agnostic without a second how-to
+  so Augustus stays the design-judgment layer — class-wide, not TypeSafe-only
+- Design cards name hole, family, and typed judgment provider (Jev default;
+  other family only with self-eval)
+- Protocol fan-out step is family-aware (Jev batch, GLiClass one-pass,
+  dual-encoder prompt scoring); ranking vs decision fail policy is a
+  non-negotiable
 
 ## [0.2.0] - 2026-09-18
 

@@ -119,3 +119,42 @@ never invents the candidate, (o) spec-as-rubric preference lint, (p)
 fail-open retrieval vs fail-closed dispatch as a pair of policies,
 (q) open vs closed typed-judgment provider (same primitives, different
 eval/hosting duty).
+
+## Batch #7 (2026-09-18, class-scope literature — Jev exemplar, not monopoly)
+
+Not a clone audit. Design distillation for the *class* of fast/cheap
+categorization-classification-scoring models. Skill card:
+`references/judgment-class.md`. Full note: `research/notes.md` §19.
+
+- **GLiClass** ([2508.07662](https://arxiv.org/abs/2508.07662), Knowledgator
+  intro HTTP 200): joint encode text + all labels, one forward pass;
+  sigmoid multi-label / softmax single-label. Cousin of GLiNER/NLI/SetFit.
+  **Empirical** as an architecture; **Hypothesis** as a Jev substitute.
+  Use for large/changing tag sets. Scores are affinities — not a silent
+  fail-closed authorize. This is why Jev's 255-option Choice limit is not
+  the class's limit.
+- **Listwise vs decision** ([2208.06164](https://arxiv.org/abs/2208.06164),
+  [2211.01494](https://arxiv.org/abs/2211.01494)): translation-invariant
+  listwise losses improve order and destroy P(relevant). Cross-encoders
+  that emit a "score" are usually this family. Proper-scoring / RLCD
+  (archive: `arnabgho/rlcd-lite`) is the decision family Jev claims.
+  Composition rule already observed in LlamaIndex Jev (batch #6) is now
+  class-general: rerank fail-open, select fail-closed.
+- **Vision scoring**: pixel-free (AX/JSON) preferred; region Choice over
+  extracted boxes (`hr98w/jev-visual`); CLIP softmax = competition in the
+  offered set; SigLIP sigmoid = pairwise affinity
+  ([docs](https://huggingface.co/docs/transformers/v4.39.2/en/model_doc/siglip),
+  [2510.13364](https://arxiv.org/abs/2510.13364)); VLM-as-judge is
+  generation. Class-conditional coverage can collapse under shift
+  ([2608.19376](https://arxiv.org/abs/2608.19376)). Laya is text-only —
+  do not caption then score.
+- **Agent-architecture portents** (Hypothesis as products, Contract as
+  design pressure from batch #6 economics): full-traffic judgment;
+  catalog+decision not stuffed prompts; two numbers two jobs; perception
+  ≠ narration; open heads make the control plane local; cross-modal still
+  thin; generator-only (and ranker-only) agents are incomplete.
+
+Cross-repo addition to the taxonomy: (r) encoder-classifier one-pass over
+a large label set, (s) listwise ranker as a *cousin* not a decision API,
+(t) vision as candidate-generation plus scoring, (u) judgment-class model
+as agent control plane independent of TypeSafe.

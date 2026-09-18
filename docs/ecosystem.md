@@ -1,8 +1,10 @@
-# The Jev ecosystem, analyzed
+# The judgment-model class, analyzed (Jev is exemplar)
 
 Snapshot of **187 repositories** built on TypeSafe Jev (jev-1.13) during launch
-week (Sep 15–18, 2026), all cloned and indexed with per-repo evidence.
-Maintained by the Augustus skill; refreshed hourly on weekdays.
+week (Sep 15–18, 2026), all cloned and indexed with per-repo evidence, plus
+class-level neighbors (open heads, GLiClass-adjacent, listwise rankers,
+vision scorers). Maintained by the Augustus skill; refreshed hourly on
+weekdays. Jev is the densest public corpus, not the class monopoly.
 
 - `archive/evidence.csv` — 169-row per-repo table: README size, languages, primitive usage (Noul/Choice/Score/API), tests, threshold histograms.
 - `archive/findings.md` — deep-read distillation with status labels (Contract / Empirical / Hypothesis).
@@ -55,11 +57,14 @@ Choice), `jevprune` (per-line relevance with an always-keep set),
 on flags). Neighbor skills `tenbin` and `decision-first` are *not* Augustus
 clones — they own lint/eval and try-Jev-first habit.
 
-See `references/mixed-architecture.md` in the skill.
+See `references/mixed-architecture.md` in the skill. Class-level family
+choice (open heads, GLiClass, listwise vs decision, vision scoring,
+agent-architecture portents): `references/judgment-class.md`.
 
 ## The skill that owns this analysis
 
 [GitHub](https://github.com/24601/Augustus) — `SKILL.md` + reference cards
-covering mental model, mixed architecture, applied placements (sieve /
-keep-drop / env triage / rank / route), method substitution, composition
-algebra, question-design, validation, and optimizer coupling.
+covering mental model, the judgment-model class (Jev exemplar, not
+monopoly), mixed architecture, applied placements (sieve / keep-drop /
+env triage / rank / route), method substitution, composition algebra,
+question-design, validation, and optimizer coupling.

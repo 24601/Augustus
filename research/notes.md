@@ -398,3 +398,99 @@ envelope still fits the state — then the falsifying experiment is on that
 head, on your labels, not on the vendor plot. LightJev / openjev stay the
 "train or reproduce a backbone" bucket; Laya is the first shipped open
 *product* with the Jev-shaped interface.
+
+## 19. The judgment-model class (2026-09-18, literature + skill-scope)
+
+Augustus's design surface is the **class** of fast/cheap
+categorization-classification-scoring models, not TypeSafe Jev alone. Jev
+remains the documented exemplar. This pass is literature + identity, not a
+new X+GH hour (hourly method unchanged; last scan still
+`archive/hourly/2026-09-18T14/`).
+
+**In-class test.** Language or structured text (or image + closed
+label/region set) in; score / distribution / label out; latency in the
+per-chunk / per-hunk / per-frame band; code owns side effects. Out of
+class: prompt→JSON LLMs, working regexes, trained heads on a frozen
+taxonomy with enough of *your* data.
+
+**Families (skill card `references/judgment-class.md`):**
+
+| Family | Objective | Gate? |
+|---|---|---|
+| Closed decision API (Jev) | Proper-scoring / RLCD; Choice/Score/Noul | Yes, after your thresholds |
+| Open System-1 head (Laya, openjev, LightJev) | Same *shape*; you host | Yes, after *your* ECE |
+| GLiClass-adjacent | One-pass text+all-labels; sigmoid/softmax affinities | Sieve yes; silent authorize no |
+| Listwise / pairwise ranker | Order (nDCG, ListNet); often translation-invariant | Fail open only |
+| Vision scorer | CLIP/SigLIP affinity or region Choice | Calibrate; not VLM-as-judge |
+
+**GLiClass (Empirical recipe as a paper, Hypothesis as a drop-in).**
+[GLiClass: Generalist Lightweight Model for Sequence Classification
+Tasks](https://arxiv.org/abs/2508.07662) (2508.07662). Joint encode of
+text + all labels in one forward pass (labels interact; not sequential
+cross-encoder pairs). Docs:
+[Knowledgator intro](https://docs.knowledgator.com/docs/frameworks/gliclass/intro/).
+Cousins: GLiNER (spans), NLI zero-shot, SetFit, ModernBERT heads. Design
+use: large or changing tag sets, multi-label sieves. Not a gateable
+decision API without a calibration plot on your labels. Jev's 255-option
+Choice limit is Jev's, not the class's — this family is why.
+
+**Listwise discriminative vs decision objectives.** The fail-open /
+fail-closed fork. [Joint Optimization of Ranking and Calibration with
+Contextualized Hybrid Model](https://arxiv.org/abs/2208.06164)
+(2208.06164): many listwise losses (ListNet softmax-over-list) are
+translation-invariant — adding a constant does not change ranking and
+destroys any reading as P(click)/P(relevant). [Regression Compatible
+Listwise Objectives for Calibrated Ranking with Binary
+Relevance](https://arxiv.org/abs/2211.01494) (2211.01494, RCR) is the
+patch *inside* ranking, not a reason to treat an off-the-shelf
+cross-encoder as a decision API. Jev's product claim (act/abstain) lives
+on proper scoring (log/Brier/spherical; RLCD — `arnabgho/rlcd-lite` in
+the archive). Open heads that copy Choice/Score/Noul without that train
+loop may *look* like Jev and still be uncalibrated. Rule already in
+applied-mappings §4, now class-general: ranking error → quality → fail
+open; selection/auth → control → fail closed, needs a decision-shaped
+number. A listwise reranker *as* the gate is the rejected design.
+
+**Vision scoring patterns.** Perception = candidate generation + scoring
+(keep/drop card with pixels or an AX tree as the parser). Four postures:
+
+1. Pixel-free (preferred when the environment is structured): RAM / AX /
+   object JSON → closed action or region set → Choice. Launch-week:
+   typesafe-mario, jev-drone, lizard-agent. The model never sees a
+   screenshot.
+2. Region/label Choice over extracted boxes. `hr98w/jev-visual`: Breakout
+   only after reducing control to "which region holds the ball."
+3. Dual-encoder affinity. CLIP softmax = competition in the offered set;
+   SigLIP pairwise sigmoid = affinity, flatter closed-set margins
+   ([SigLIP docs](https://huggingface.co/docs/transformers/v4.39.2/en/model_doc/siglip);
+   posture note [2510.13364](https://arxiv.org/abs/2510.13364)). Class-
+   conditional coverage can collapse under shift even when marginal
+   coverage looks fine ([2608.19376](https://arxiv.org/abs/2608.19376)).
+4. VLM-as-judge is *generation*. Verbal scores are not calibrated.
+
+Laya is text-only / 512 tok: a vision hole is not "run Laya on a
+caption."
+
+**Portents for agent architecture** (independent of vendor — Hypothesis
+as a product roadmap, Contract as a design pressure from the economics
+already in the archive):
+
+1. Full-traffic, not sampled (OpenSmoke, jevprune, git-jev-stage, firehose).
+2. Skills/tools = catalog + decision, not a stuffed system prompt.
+   Large catalogs may prefer GLiClass-adjacent one-pass.
+3. Two numbers, two jobs: ranking orders context; decision authorizes.
+4. Perception is not narration: extract candidates, score, act.
+5. Open heads make the control plane local (air-gap / HA) *if* self-eval
+   is accepted.
+6. Cross-modal is still thin; "Jev but for images" is a hole, not a
+   shipped omni API.
+7. Generator-only agents are incomplete; ranker-only agents can sort
+   and cannot abstain.
+
+**Skill impact.** New reference `references/judgment-class.md`; SKILL.md
+opening/protocol/index/design-card/family slot; FAQ rows for family
+choice, GLiClass vs Jev vs cross-encoder, CLIP gating; mixed-architecture
+and applied-mappings intros point at the class. Identity lock holds:
+still not `typesafe-ai` / `tenbin` / `decision-first`, and not a Laya or
+GLiClass how-to. No API fields invented.
+

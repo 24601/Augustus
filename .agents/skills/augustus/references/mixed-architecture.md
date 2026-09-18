@@ -1,14 +1,19 @@
-# Mixed architecture: decision model + generator + code
+# Mixed architecture: judgment-class model + generator + code
 
-This card is the default *placement* for Jev, not a product catalog and not
-an API guide. Integration contracts live in the official `typesafe-ai` skill
-and the live docs (`https://docs.typesafe.ai/llms.txt`). Re-read those
-before writing a request body.
+This card is the default *placement* for the judgment-model class, not a
+product catalog and not an API guide. TypeSafe Jev is the documented
+exemplar; families (open heads, GLiClass-adjacent, listwise rankers,
+vision scorers) live on `judgment-class.md`. Integration contracts for
+Jev live in the official `typesafe-ai` skill and the live docs
+(`https://docs.typesafe.ai/llms.txt`). Re-read those before writing a
+Jev request body. Other families own their own cards/READMEs.
 
-Central claim: **Jev is not a cheaper LLM and not a new kind of
-classification.** It is a software primitive for *narrow, typed, calibrated
-judgments* that code can threshold. Generation, exact computation, and
-authorization stay where they already belong.
+Central claim: **a judgment-class model is not a cheaper LLM and not a
+new kind of classification.** It is a software primitive for *narrow,
+typed, (when trained for it) calibrated judgments* that code can
+threshold. Generation, exact computation, and authorization stay where
+they already belong. Pick the family from the hole; do not start from a
+vendor.
 
 Status words follow `mappings.md`: **Contract** (docs), **Empirical recipe**
 (dated artifact), **Hypothesis** (discourse or unmeasured).
@@ -20,18 +25,19 @@ Status words follow `mappings.md`: **Contract** (docs), **Empirical recipe**
 | `typesafe-ai` | Live API/SDK contracts, primitives, cookbooks | Classical-method mapping |
 | `tenbin` | Design-time question lint, eval, threshold files | Where judgment *belongs* |
 | `decision-first` | Try-a-typed-decision-before-a-regex habit + lab log | Method substitution / falsification |
-| **Augustus** | Placement, method mapping, what would prove the design wrong | Curl snippets, field names, SDK versions |
+| **Augustus** | Placement, *family* choice, method mapping, what would prove the design wrong | Curl snippets, field names, SDK versions |
 
-If the request is "how do I call Jev?", stop and load `typesafe-ai`. If it is
-"should this step be Jev, an LLM, a regex, or a trained classifier?", stay
-here.
+If the request is "how do I call Jev?", stop and load `typesafe-ai`. If it
+is "should this step be a judgment-class model, an LLM, a regex, or a
+trained classifier — and which family?", stay here. Family table:
+`judgment-class.md`.
 
 ## Default architecture
 
 ```text
 evidence (filtered, structured, current)
     → exact work in code
-    → Jev: bounded semantic judgments (typed answers + distributions)
+    → judgment-class model: bounded semantic judgments (typed answers + distributions, or affinities/ranks — see family)
     → explicit policy in code (thresholds, weights, abstain, permit)
     → LLM only where text must be written or candidates invented
     → checked action (code validates operation+target)
@@ -42,11 +48,12 @@ Three layers, one owner each:
 
 - **Code** — control flow, arithmetic, dates, auth, side effects, candidate
   generation (regex, index, UI tree, git hunks, SQL).
-- **Jev** — one-second judgments over a closed answer space given that
-  state: route, gate, score, select, verify.
-- **LLM** — writing, explanation, code generation, open synthesis. Jev may
-  sit *before* (prefilter/route), *after* (verify/cite), or *around* (both).
-  It does not sit *instead*.
+- **Judgment-class model** — one-second judgments over a closed answer
+  space given that state: route, gate, score, select, verify. Default
+  exemplar is Jev; family from `judgment-class.md`.
+- **LLM** — writing, explanation, code generation, open synthesis. The
+  judgment model may sit *before* (prefilter/route), *after*
+  (verify/cite), or *around* (both). It does not sit *instead*.
 
 **Stack replacement is the rejected design.** Discourse on 2026-09-18
 converged here without us asking: "too early to treat as a stack
@@ -70,11 +77,14 @@ an LLM re-enters — that is mixed architecture, not a different religion.
 ## It's just classification
 
 Canonical answer: `references/faq.md`. Short form: classification is not
-new; typed, calibrated, batched judgment as a software primitive *is* the
+new; typed, batched judgment as a software primitive *is* the
 placement question. Wins vs ad-hoc LLM-classify when you need schema-valid
 outputs you can threshold and re-policy; loses to working regexes, trained
-heads on stable taxonomies, and generation. Discourse citations and the
-longer win/lose list stay below as evidence, not as a second FAQ.
+heads on stable taxonomies, and generation. Which *family* supplies that
+primitive is a second question (`judgment-class.md`): a listwise ranker
+and a decision API are both "classifiers" and they are not interchangeable
+at a fail-closed gate. Discourse citations and the longer win/lose list
+stay below as evidence, not as a second FAQ.
 
 Classification *is* the oldest AI task. Agree with the skeptic
 ([@dt_sqr](https://x.com/i/status/2100957356389511173)) on that fact, then
@@ -114,8 +124,9 @@ Typed Jev judgment **loses** to:
   (Archer Hume: 32% on novel two-step word problems — `notes.md` §7).
 
 The product is not "we invented classification." The product is **placing a
-calibrated decision primitive inside software that already has a generator
-and a control loop.**
+fast scoring primitive inside software that already has a generator and a
+control loop**, with the family's objective matched to the fail policy
+(`judgment-class.md`).
 
 ## Cost-sensitive prefilter
 
@@ -127,12 +138,12 @@ A cascade, not a chatbot with a cheaper first word:
 
 ```text
 retrieve / emit a large set
-    → Jev relevance (Noul) or graded Score on a shortlist
+    → judgment-class relevance (Noul / Score / encoder affinity / listwise score)
     → drop / stub / hold the confident-no
     → expensive LLM or human sees only what survived
 ```
 
-Code still owns recall: Jev cannot recover a candidate you never retrieved
+Code still owns recall: the scorer cannot recover a candidate you never retrieved
 (`mappings.md` §4). Prefilter **fail-open vs fail-closed is per action**,
 not a global virtue:
 
@@ -140,7 +151,7 @@ not a global virtue:
 |---|---|---|
 | Drop a RAG chunk or log line | **Fail open** (keep on error) | A false drop loses evidence; a false keep costs tokens |
 | Route to a tool / start a side effect | **Fail closed** (don't call) | A wrong tool is an action |
-| Rerank a retrieved list | Fail open: keep retrieval order (`WiktorB2004/llama-index-jev`, **Empirical recipe** on BEIR nfcorpus: MiniLM 0.340 nDCG@5 → MiniLM+Jev 0.396; rerank fails open, *select* fails closed) | Ranking errors are quality; selection errors are control-flow |
+| Rerank a retrieved list | Fail open: keep retrieval order (`WiktorB2004/llama-index-jev`, **Empirical recipe** on BEIR nfcorpus: MiniLM 0.340 nDCG@5 → MiniLM+Jev 0.396; rerank fails open, *select* fails closed). Listwise/cross-encoder scores belong here, not on the row above. | Ranking errors are quality; selection errors are control-flow |
 
 Worked placements (2026-09-18 topic:jev hour + prior archive):
 
@@ -275,20 +286,22 @@ transferable part — not a request to implement a backbone or a second API
 skill. Laya: self-hostable, text-only, 512 tokens/question; vendor benches
 vs Jev are **claims**. Closed calibrated API vs open weights is a
 self-eval tradeoff (`research/notes.md` §18). TypeSafe remains the
-documented default.
+documented *exemplar*, not the class monopoly. GLiClass-adjacent,
+listwise, and vision families: `judgment-class.md`.
 
 ## Design-card extras for mixed systems
 
 When the request is mixed-architecture, fill the usual card plus:
 
 ```text
-What Jev estimates (and which primitive):
+Family (from judgment-class.md) and why the objective matches the fail policy:
+What the judgment model estimates (and which primitive / score type):
 What the LLM is still for (or why this loop has no LLM):
-What code guarantees even if Jev is wrong:
+What code guarantees even if the judgment model is wrong:
 Cascade costs: false drop vs false keep vs wrong route:
 Fail-open or fail-closed, per action:
-Classical alternative that might still win (regex, XGBoost, human):
-Live docs + typesafe-ai skill revision actually used:
+Classical alternative that might still win (regex, XGBoost, cross-encoder, human):
+Live docs + typesafe-ai skill revision actually used (when the family is Jev):
 ```
 
 Propose three *placements* (prefilter vs post-verify vs replace-this-one-

@@ -1,10 +1,14 @@
-# Composition algebra: where Jev sits relative to any method, operator, or algorithm
+# Composition algebra: where a judgment-class model sits relative to any method, operator, or algorithm
 
-The catalog substitutes Jev *into* constructs. This card enumerates the
-**positions** a Jev judgment can occupy relative to any function/operator/
-algorithm F — the full grammar of "Jev as X". Same rule as everywhere else:
-the position determines what the judgment may be trusted for, and each
-carries its governing caveat. Statuses per mappings.md conventions.
+The catalog substitutes a judgment-class model *into* constructs (Jev is
+the notation because it is the documented exemplar). This card enumerates
+the **positions** a typed judgment can occupy relative to any
+function/operator/algorithm F — the full grammar of "judgment as X". Same
+rule as everywhere else: the position determines what the judgment may be
+trusted for, and each carries its governing caveat. Family choice (decision
+API vs listwise ranker vs vision scorer) is `judgment-class.md` — a listwise
+number in a verifier position is the rejected design. Statuses per
+mappings.md conventions.
 
 ## The positions
 

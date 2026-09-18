@@ -1,7 +1,9 @@
-# Mappings: classical methods → Jev designs
+# Mappings: classical methods → judgment-class designs
 
 Each card: what transfers, what does NOT, a composition sketch, a non-ticket
-example, a counterexample, an acceptance test. Status words: **Contract**
+example, a counterexample, an acceptance test. Jev is the documented
+exemplar in the sketches; family choice (open head / GLiClass-adjacent /
+listwise / vision) is `judgment-class.md`. Status words: **Contract**
 (documented), **Empirical recipe** (dated observation), **Hypothesis** (test
 before relying).
 

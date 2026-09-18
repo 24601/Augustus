@@ -1,17 +1,20 @@
 # Applied placements: sieves, keep/drop, triage, rank, route
 
-These cards are *where a typed judgment sits* in running software. They
-are backend-agnostic: the **typed judgment provider** is TypeSafe Jev by
-default (live docs / `typesafe-ai`); an open Choice/Score/Noul head (e.g.
-Laya) is a substitute you must self-eval (`research/notes.md` §18). Do not
-copy request fields from this file.
+These cards are *where a judgment-class model sits* in running software.
+They are family-agnostic: the **typed judgment provider** is TypeSafe Jev
+by default (live docs / `typesafe-ai`); an open Choice/Score/Noul head
+(e.g. Laya) is a substitute you must self-eval (`research/notes.md` §18);
+GLiClass-adjacent, listwise rankers, and vision scorers are cousins
+with different objectives (`judgment-class.md`). Do not copy request
+fields from this file.
 
 Same card grammar as `mappings.md`: what transfers, what does not, sketch,
 example, counterexample, test. Status words: **Contract**, **Empirical
 recipe**, **Hypothesis**.
 
 Umbrella placement: `mixed-architecture.md`. Classification skepticism:
-`faq.md`.
+`faq.md`. Family / objective / vision / agent-architecture portents:
+`judgment-class.md`.
 
 ## 1. Context sieve
 
@@ -106,7 +109,8 @@ rubric (or per-pair Noul) for rerank of a **retrieved shortlist**; store
 raw probabilities and re-policy in code (judge once). **Does not
 transfer**: ranking as selection (wrong tool is an action); exhaustive
 pointwise scoring as an index; a universal 0.8; Choice probabilities
-compared across different candidate pools.
+compared across different candidate pools; treating a listwise or
+CLIP/GLiClass affinity as a fail-closed authorize (`judgment-class.md`).
 
 ```text
 moderation: Nouls(jailbreak, hate, …) + Score(harm)
@@ -134,9 +138,11 @@ engines, models), not "the model chooses its next tool in a loop."
 **Transfers**: Choice over the offered set + a whether-anything-fits Noul
 (reject-all is first-class); rank-then-verify (cheap pass over
 descriptions, second request over a shortlist with full bodies); suggest
-at most one skill per turn. **Does not transfer**: an open-ended "what
-should I do?"; dispatch, auth, or argument validation delegated to the
-provider; routing ROI copied from another dataset.
+at most one skill per turn. Large or changing catalogs may prefer a
+GLiClass-adjacent one-pass over a 255-option Choice — that limit is
+Jev's, not the class's (`judgment-class.md`). **Does not transfer**: an
+open-ended "what should I do?"; dispatch, auth, or argument validation
+delegated to the provider; routing ROI copied from another dataset.
 
 ```text
 catalog = skills | tools | engines          # code owns membership

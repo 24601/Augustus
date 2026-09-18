@@ -62,3 +62,24 @@
   mixed-architecture reproduce/open paragraph. No Laya how-to, no copied
   `predict()` contract.
 - notes.md §18; sources.json + findings.md updated.
+
+## 2026-09-18 15:10 UTC — class-scope (Jev exemplar, not monopoly)
+- Not a new X+GH hour. Last hourly scan remains
+  `research/archive/hourly/2026-09-18T14/`. This pass is literature +
+  skill identity: Augustus designs for the whole class of fast/cheap
+  categorization-classification-scoring models.
+- Sources fetched HTTP 200: GLiClass arXiv 2508.07662; Knowledgator
+  GLiClass intro; listwise/calibration 2208.06164 and 2211.01494; SigLIP
+  HF docs; vision notes 2510.13364 and 2608.19376; Laya HF card already
+  in sources.
+- Skill: `references/judgment-class.md` (families, listwise vs decision,
+  vision patterns, agent-architecture portents); SKILL.md opening,
+  description triggers, protocol (family from hole; family-aware fan-out;
+  ranking vs decision fail policy), mapping-index row, design-card hole
+  + family fields, non-negotiable on affinities. FAQ: "is Jev the only
+  model?", GLiClass vs Jev vs cross-encoder, CLIP/SigLIP gating.
+  mixed-architecture + applied-mappings intros class-wide. README /
+  marketplace / CHANGELOG / ecosystem. Identity lock vs typesafe-ai /
+  tenbin / decision-first unchanged. No invented API contracts.
+- notes.md §19; sources.json papers appended; findings.md batch #7.
+
