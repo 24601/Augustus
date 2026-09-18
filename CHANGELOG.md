@@ -239,6 +239,19 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   gliner25-compaction (different hole) and GLiGuard (safety schema).
   Demo (theirs, not re-run): Flights 12.20 s / 13.785 s / ~$0.0001
   API — demonstration, not a bake-off. No invented metrics.
+- jev-pruner evidence-preserving Bash stdout prune (`research/notes.md`
+  §53, [jev-pruner](https://github.com/tamaratran/jev-pruner), MIT):
+  architecture notes, not a plugin how-to. After Bash, Jev Noul-prunes
+  stdout chunks before the main LLM sees them — no summary. Hard
+  envelope (≤10k estimated tokens / JSON-diff-whole-doc untouched)
+  then soft Noul; fail-safe keep original; full archive. Marketplace
+  id still `fast-jev-output`. Codex is opt-in wrapper, not automatic
+  interception. Same evidence-preserving *family* as
+  fast-jev-compaction and gliner25-compaction; different *job*
+  (command output vs session memory) and Jev backend vs GLiNER2.5.
+  Manual sweep (theirs): needles 24/24; mean reduction 83% on trim
+  scenarios. Harbor plugin-eval cannot reach Jev. Terminal-Bench
+  paired pilot is integration, not a full bench. No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

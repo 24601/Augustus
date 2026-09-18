@@ -184,6 +184,7 @@ not a global virtue:
 |---|---|---|
 | Drop a RAG chunk or log line | **Fail open** (keep on error) | A false drop loses evidence; a false keep costs tokens |
 | Compact / drop a completed tool result | **Fail closed** to keep-full (`gliner25-compaction`) | Compaction is a destructive edit of memory. Uncertain *looks* like keep-on-error from the evidence side; name the *reduction* as the act. Contrast Abide / jevgate fail-open |
+| Prune Bash stdout before the LLM | **Fail closed** to original (`jev-pruner`) | Dropping the log is irreversible. ≤10k / JSON-diff-whole-doc prove pass-through; archive/Jev/incomplete-score failure keeps the result. Harbor plugin-eval cannot reach Jev → cannot prune |
 | Skip waking a sleeping agent | **Fail open** (wake on error / unsure / no key) (`wakegate`) | Skip is the irreversible act. User-message, skip-limit, nothing-to-judge, and p in 0.2–0.5 all wake. Contrast pi-jev-approver fail-closed without a key |
 | Merge a red CI run | **Fail closed** on `--gate` (`latch`); reporter stays fail-open | False PASS merges a real bug. Missing key never fails Playwright; the gate is a separate step. Judge never says ignore alone |
 | Plain-English PR check | **Fail closed** on error / empty / low confidence (`if-ai`) | A skipped or timed-out check is not a pass. Threshold is policy, not measured correctness |
@@ -203,6 +204,11 @@ Worked placements (2026-09-18 topic:jev hour + prior archive):
   [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
   — GLiNER2.5 retention Choice + exact spans; fail closed to
   `keep_full`; `shadowMode` default true (`notes.md` §50). Not Jev.
+  Stdout-prune cousin, same family, different job:
+  [jev-pruner](https://github.com/tamaratran/jev-pruner) — Jev Noul on
+  residual noisy Bash after a hard ≤10k/format envelope; fail-safe
+  original; archive for recovery (`notes.md` §53). Marketplace id
+  still `fast-jev-output`.
 - **Diff hunks before `git add`** — `ibrahemid/git-jev-stage`: one Choice
   per hunk (`include` / `exclude` / `mixed`); mixed and low-confidence stay
   unstaged; lines never split; staging is an exact patch after confirm.
@@ -437,7 +443,7 @@ decision-design card. Do not clone APIs from READMEs.
 | Hold-before-publish moderation | Hazard Nouls + harm Score | Block/review/pass policy | Near Here / firehose family |
 | Tool / engine / skill select | Choice + fits-Noul | Dispatch, auth, reject-all | skillranker, LlamaIndex selectors, Toolrouter |
 | Preference lint | Per-rule Score/Noul on a diff | Rule text, linter for hard rules, bands + fail-open | jev-pref (contract), Abide (productized), JevLint; if-ai (plain-English PR check, fail-closed on error); jev-marshal (Watch / empty repo) |
-| Context / log prune | Per-line or per-block relevance; or a retention Choice + spans | Always-keep set, recall keys; mutation envelope in code; shadow before replace | jevprune, winnow; fast-jev-compaction / pi-jev-compaction (Jev); gliner25-compaction (GLiNER2.5) |
+| Context / log prune | Per-line or per-block relevance; or a retention Choice + spans; or a Noul per stdout chunk | Always-keep set, recall keys; mutation envelope in code; shadow before replace; size/format envelope then Noul; archive dropped spans | jevprune, winnow; fast-jev-compaction / pi-jev-compaction (Jev session); gliner25-compaction (GLiNER2.5 session); jev-pruner (Jev Bash stdout) |
 | Exact hunk staging | Per-hunk include/exclude/mixed | `git diff`, atomic apply | git-jev-stage |
 | Semantic `WHERE` | Noul/`jev_prob` over a row | SQL, indexes, LIMIT | jevql (CLI; DB sees ordinary SQL); sqlite-jev (in-engine extension) |
 | Formula / query embedding | JUDGE as a function | Spreadsheet/SQL engine | judge-sheets, jevql, sqlite-jev |

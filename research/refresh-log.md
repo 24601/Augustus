@@ -562,6 +562,27 @@
   README.
 - notes.md §52; sources.json; findings.md batch #36. No wrapper.
 
+## 2026-09-18 23:15 UTC — jev-pruner evidence-preserving Bash stdout prune (~17:15 Boise)
+
+- Folded into open PR #2 (`cursor/augustus-store-envelope-00b4`).
+  Docs-only. Not a competing PR. Archer 27B drop still **WATCH**.
+  **Not a summarizer. Not session compaction. Not GLiNER.** No
+  invented metrics. No wrapper.
+- HIGH: [tamaratran/jev-pruner](https://github.com/tamaratran/jev-pruner)
+  (MIT, created 2026-09-18). After Bash, Jev Noul-prunes stdout
+  chunks before the main LLM sees them. Hard ≤10k / JSON-diff
+  envelope then soft Noul. Fail-safe keep original. Full archive.
+  Marketplace id still `fast-jev-output`. Codex opt-in wrapper.
+  Same *family* as fast-jev-compaction / gliner25-compaction;
+  different *job*. Manual sweep (theirs): needles 24/24; mean
+  reduction 83% on trim scenarios. Harbor plugin-eval cannot reach
+  Jev. Terminal-Bench paired pilot is integration, not a full bench.
+- Cards: SKILL.md, applied-mappings §1 (primary), mixed-architecture,
+  mappings §12/§18, faq, validation, judgment-class, mental-models,
+  methods-catalog, toolbox, agent-self-assessment, composition-algebra,
+  ecosystem, CHANGELOG, README.
+- notes.md §53; sources.json; findings.md batch #37. No wrapper.
+
 
 
 

@@ -55,6 +55,17 @@ irreversible act; from the evidence side this *looks* like keep-on-error).
 `shadowMode` defaults true. Characters, not tokens; no published
 retention-quality rates (`notes.md` §50). Family:
 `judgment-class.md`. Do not copy the plugin.
+**Stdout prune, same family, different job (Empirical as README /
+evals README, 2026-09-18 ~17:15):**
+[jev-pruner](https://github.com/tamaratran/jev-pruner) — after Bash
+runs, Jev Noul-prunes stdout chunks **before** the main LLM sees
+them; no summary. Hard envelope first (≤10k estimated tokens;
+JSON/XML/YAML/diff/binary; whole-document commands untouched), then
+soft Noul. Fail-safe keep original on any failure; full archive for
+recovery. Marketplace id still `fast-jev-output`. Codex is opt-in
+wrapper, not automatic interception. Same author as
+fast-jev-compaction; complementary, not a duplicate. Do not copy
+the plugin (`notes.md` §53).
 Local teacher-copy for the same hole:
 [`SargeDev/jev-gate-student-b`](https://huggingface.co/SargeDev/jev-gate-student-b)
 (Qwen2.5-0.5B LoRA; P(relevant) from yes/no logits; 148,160-row
@@ -112,7 +123,10 @@ not against another model's prose; `JEV_FIRM` below 0.6 never blocks
 ([gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction),
 ~16:22): the model points at **character offsets** in a tool result;
 code copies those bytes; a generator summary is the rejected species
-(`notes.md` §50). Computer-use cousin:
+(`notes.md` §50). Stdout-prune cousin:
+[jev-pruner](https://github.com/tamaratran/jev-pruner) — the model
+scores chunks of observed Bash stdout; code keeps verbatim lines and
+archives the rest (`notes.md` §53). Computer-use cousin:
 [solari-reflex](https://github.com/hitakshiA/solari-reflex) — structured
 observation → typed decision → verified act; **no screenshots**; model
 output never becomes a selector (`notes.md` §48). Encoder-backend

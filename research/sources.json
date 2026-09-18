@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-18T22:56Z",
+  "retrieved": "2026-09-18T23:15Z",
   "sources": [
     {
       "kind": "docs",
@@ -1592,6 +1592,12 @@
       "title": "ShaunSpark/laya-mind2web-browser-agent",
       "url": "https://huggingface.co/ShaunSpark/laya-mind2web-browser-agent",
       "note": "Apache-2.0. Laya (convaiinnovations/laya) fine-tune: operation + target index over interactive DOM elements (Mind2Web). Observed-candidate family with gliner2-ultrafast / solari-reflex / jev-ultrafast; not screenshot multimodal (contrast blackwood-rlcd). Author-reported 74.3% on 68 held-out \u2014 small n, not a ranking. Cousin pointer only. notes.md \u00a752."
+    },
+    {
+      "kind": "github",
+      "title": "tamaratran/jev-pruner",
+      "url": "https://github.com/tamaratran/jev-pruner",
+      "note": "MIT. Created 2026-09-18T03:00:58Z; 5 stars at attached capture, 7 live this pass. Claude Code plugin (marketplace id still fast-jev-output): after Bash, Jev Noul-prunes stdout chunks before the main LLM sees them \u2014 no summary. Hard envelope (\u226410k estimated tokens / JSON-diff-whole-doc untouched) then soft Noul; fail-safe keep original; full archive. Codex is opt-in wrapper. Same evidence-preserving family as fast-jev-compaction / gliner25-compaction; different job (command output vs session memory). Manual sweep (theirs): needles 24/24; mean reduction 83% on trim scenarios. Harbor plugin-eval cannot reach Jev. Terminal-Bench paired pilot is integration, not a full bench. notes.md \u00a753."
     }
   ]
 }

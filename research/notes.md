@@ -3874,3 +3874,144 @@ Not multimodal pixels. Strong **composition / open-weights decide**
 exemplar for browser computer-use (local encoder + remote fill).
 Archive + landscape. Harbor-style independent verify is already in
 their framing.
+
+## 53. jev-pruner — evidence-preserving Bash stdout prune (2026-09-18 ~17:15 Boise)
+
+America/Boise ~17:15 = 23:15 UTC. Docs-only fold into open PR #2
+(`cursor/augustus-store-envelope-00b4`). Not a competing PR. Archer
+27B drop still **WATCH**. Identity lock vs `typesafe-ai` / `tenbin` /
+`decision-first` holds. No wrapper, no marketplace / Codex install
+how-to, no copied `keepThreshold` as a class constant. No invented
+metrics. **Not a summarizer. Not session compaction. Not GLiNER.**
+Do not re-fold §50 gliner25-compaction as this product, §52
+observe→score-act, §48 jevprune/winnow as a new species, or
+fast-jev-compaction as a duplicate.
+
+Family: **evidence-preserving reduce** (pointer/extractive, dropped
+bytes recoverable). Same instinct as
+[`tamaratran/fast-jev-compaction`](https://github.com/tamaratran/fast-jev-compaction)
+and [`m-newhauser/gliner25-compaction`](https://github.com/m-newhauser/gliner25-compaction)
+(`notes.md` §50). **Different job:** prune a just-run Bash result
+*before* the main LLM sees it, not compact completed tool pairs
+already in session history. **Different backend vs GLiNER2.5:**
+TypeSafe Jev Noul, not an encoder retention Choice. Same author as
+fast-jev-compaction; the READMEs say the two are independent and can
+be installed together. Marketplace / Claude plugin id is still
+`fast-jev-output` — name ≠ id.
+
+### HIGH
+
+1. **[`tamaratran/jev-pruner`](https://github.com/tamaratran/jev-pruner)**
+   (MIT; TypeScript; created 2026-09-18T03:00:58Z; 5★ at attached
+   capture, 7★ live this pass). Claude Code plugin: after Bash runs,
+   **before** the result is sent back to the main LLM, Jev
+   Noul-prunes stdout **without generating a summary**. Codex is an
+   **opt-in wrapper/skill**, not automatic `PostToolUse`
+   interception — the host cannot replace native shell output that
+   way. **Work in progress / measurement-native.** **Not a prose
+   compressor. Not a screenshot VLM. Not a GLiNER backend.**
+
+   Load-bearing loop (README):
+
+   ```text
+   Claude requests Bash → command runs → Jev prunes stdout → Claude receives result
+                          (+ archive path for dropped spans)
+   ```
+
+   One Noul per chunk: “does any line in this chunk need to remain
+   available?” A single needed line protects the chunk. Chunks of
+   `chunkLines` lines (default 20), capped at 200 chunks. Categories
+   (build/test, search/excerpt) add guidance only — they never mark
+   a whole command disposable or change the keep threshold.
+
+   **Four load-bearing mental models (architecture, not a plugin
+   catalog):**
+
+   1. **Evidence-preserving prune, not summarize.** Same extractive
+      honesty as gliner25-compaction / jev-reviewer / testimonial-miner:
+      the model **selects**; code **keeps verbatim chunks**. Dropped
+      text is archived under `.claude/fast-jev-output/` (Claude) or
+      `.jev-pruner/` (Codex) *before* the first scoring request;
+      markers point at the recovery path. A generator summary of
+      stdout is a different species. Credential-like commands/output
+      are **not** archived; markers tell the agent to re-run. That
+      check only skips local archive — it does **not** redact
+      secrets from Jev (`notes.md` this section).
+
+   2. **Hard envelope, then soft Noul.** Code proves pass-through
+      *before* Jev runs: ≤10,000 estimated tokens (`estimateTokens`
+      on raw stdout; `minTokens` can raise this, not lower it);
+      errors; JSON/XML/YAML/diff/binary; whole-document commands
+      (`cat`, `jq`, `git diff`, `git show`, `base64`, `openssl`).
+      Format detection beats a build/search category. Jev only
+      scores the residual noisy log. Same sandwich as
+      bitrate-advisor / jevgate / gliner25 mutation monitor
+      (`mappings.md` §12 / §18): structure first, remainder judged.
+
+   3. **Fail-safe keep original.** Archive write failure, Jev
+      failure, unfit state, incomplete scoring against every history
+      segment, first/last chunks, error/warning patterns → original
+      stdout untouched. The *reduction* is the irreversible act, so
+      uncertainty fails closed to keep-full — same polarity as
+      gliner25 `keep_full`, opposite slogan from Abide / jevgate
+      fail-open. Plugin-eval receipt of that envelope: Harbor's
+      `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC` refuses the Jev
+      fetch, the hook falls back to original output, and the suite
+      **cannot exercise pruning** (evals README). That is the
+      fail-safe working, not a missing metric.
+
+   4. **Host capability shapes the product.** Claude: automatic
+      `tool.call` wrap of Bash `next()`. Codex CLI 0.152.1 cannot
+      replace native shell output from `PostToolUse`, so the product
+      is a wrapper + skill. Same judgment engine; different
+      insertion. Do not copy the wrapper.
+
+   **Eval (theirs, not re-run; 2026-09-18).** Manual `trimOutput`
+   sweep, 3 runs/scenario, `jev-latest`: needles kept **24/24**;
+   mean reduction **83% (71–92%)** on scenarios meant to trim;
+   wrongly trimmed **0/12** pass-through; mean latency **240 ms**.
+   Wider sweeps: standard 8/8 / 83%; accuracy 36/36 / 87%; real
+   captures 10/10 / 54% (three correctly left whole); needle matrix
+   9/9. README demonstration: a 76,379-char log whose 2,227-char
+   preview missed the error line became 4,013 chars of pruned
+   output that kept it — illustration, not a bake-off. Harbor
+   Terminal-Bench 2.0 adapter + six-run paired pilot is
+   **integration, not a full benchmark or significance test** (full
+   set is 89 tasks / 178 trials; no published full-run scores this
+   pass). Plugin `claude plugin eval` cases predate the 10k gate
+   and cannot reach Jev. Do not merge those tables. `keepThreshold`
+   default 0.5 is **their** knob.
+
+   **Siblings — complementary, do not merge.**
+
+   - **`tamaratran/fast-jev-compaction`:** same author; session
+     compaction of completed tool pairs (two Nouls). Different job.
+   - **`m-newhauser/gliner25-compaction`:** same evidence-preserving
+     *family*; GLiNER2.5 encoder backend; session compaction;
+     `shadowMode` default true (`notes.md` §50).
+   - **`ibrahemid/jevprune` / winnow:** per-line / per-block
+     relevance before context. Same *sieve* hole; this product adds
+     the 10k/format envelope + archive + Harbor harness.
+   - **`24601/rh-guard`:** light note only (fail-safe / envelope).
+     Not reward-hack detection.
+
+   **Placement.** Context sieve + exact-text keep/drop
+   (`applied-mappings.md` §1–§2) + mixed architecture (code owns
+   envelope and archive; Jev scores residual chunks; LLM never
+   writes the kept bytes). Pillar: selective classification / SDT
+   (false drop >> false keep) + runtime-assurance sandwich. Hole:
+   sieve / keep-drop. Family: TypeSafe Jev (Noul). Fail-closed on
+   the reduction. Eval path: their manual sweep + in-repo Harbor
+   adapter (pilot ≠ full bench). **Empirical** as README / evals
+   README behavior. **Hypothesis** that the envelope transfers to
+   *your* command mix. Cards: `applied-mappings.md` §1 (primary);
+   `mixed-architecture.md`; `mappings.md` §12 / §18; `faq.md`;
+   `validation.md`; `judgment-class.md`; `mental-models.md`;
+   `methods-catalog.md`; `toolbox-mapping.md`;
+   `agent-self-assessment.md`. No wrapper.
+
+### Omni / Jev-omni
+
+Not multimodal. Usage: command-output sieve as a perception/memory
+hygiene stage **before** the generative turn. Harbor-adjacent
+eval harness in-repo. Archive + landscape pointer.

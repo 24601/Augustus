@@ -77,7 +77,7 @@ Per-keystroke launchers (104ms median, sequence-tagged staleness), firehose mode
 
 ### Agent harnesses extras (this hour)
 - **kevinpita/pi-jev-context** — reversible Pi context sieve: hide, do not delete; `/jev off` restores. Cousin of winnow/jevprune.
-- **vava-nessa/pi-jev-compaction** (and `tamaratran/fast-jev-compaction`) — verbatim drop, never summarize. Pair with jev-gate-student-b for local memory-gating. Same *job* as [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction) (GLiNER2.5 encoder backend; `notes.md` §50).
+- **vava-nessa/pi-jev-compaction** (and `tamaratran/fast-jev-compaction`) — verbatim drop, never summarize. Pair with jev-gate-student-b for local memory-gating. Same *job* as [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction) (GLiNER2.5 encoder backend; `notes.md` §50). Stdout cousin [jev-pruner](https://github.com/tamaratran/jev-pruner) — same family, prune Bash before the LLM, not session memory (`notes.md` §53).
 - **reachjalil/jev-tree** — authored taxonomy so each Choice stays under 255; truncate silently drops the tail (`jev-tree-choice-cap`).
 - **HacksonClark / SREGym-Lite** — Jev ranks next tests/evidence; does not diagnose; 20/50→24/50 with 2 regressions. `notes.md` §33.
 - **ddfeyes/jev-mode** — bulk triage/tag/route off frontier context; synthetic 1,000: −77.8% tokens; accuracy is parity. `notes.md` §42.
@@ -178,6 +178,12 @@ Architecture notes, not a plugin catalog. `notes.md` §51. TypeSafe Jev is the e
 Architecture notes, not a browser-agent catalog. `notes.md` §52. TypeSafe Jev is the exemplar, not a monopoly. **Not Jev. Not GLiNER2.5. Not multimodal.** Archer still Watch.
 
 - **sahibzada-allahyar/gliner2-ultrafast** — local GLiNER2 (`fastino/gliner2-multi-v1`) scores observed a11y/DOM controls. Adaptation of jev-ultrafast. No screenshots; no generated selectors; code owns actuators. Hybrid local decide + remote Mercury 2.5 fill. `DONE` ≠ verified success. Same *job* as jev-ultrafast / solari-reflex; encoder backend. Contrast blackwood-rlcd (screenshot + marked letters). Cousin: ShaunSpark/laya-mind2web-browser-agent (Laya over DOM indices). Fastino sibling class with gliner25-compaction (different hole) and GLiGuard (safety schema). Demo (theirs, not re-run): Flights 12.20 s visible / 13.785 s loop / ~$0.0001 API — demonstration, not a bake-off. MIT.
+
+### Hourly ~17:15 Boise (jev-pruner evidence-preserving Bash stdout prune)
+
+Architecture notes, not a plugin catalog. `notes.md` §53. TypeSafe Jev is the exemplar, not the monopoly. **Not a summarizer. Not session compaction. Not GLiNER.** Archer still Watch.
+
+- **tamaratran/jev-pruner** — after Bash, Jev Noul-prunes stdout chunks before the main LLM sees them. No summary. Hard envelope (≤10k estimated tokens; JSON/XML/YAML/diff/binary; whole-document commands) then soft Noul. Fail-safe keep original; full archive. Marketplace id still `fast-jev-output`. Codex is opt-in wrapper, not automatic interception. Same evidence-preserving *family* as fast-jev-compaction / gliner25-compaction; different *job* (command output vs session memory). Manual sweep (theirs): needles 24/24; mean reduction 83% on trim scenarios. Harbor plugin-eval cannot reach Jev. Terminal-Bench paired pilot is integration, not a full bench. MIT.
 
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs

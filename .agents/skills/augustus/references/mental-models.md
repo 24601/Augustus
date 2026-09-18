@@ -324,7 +324,9 @@ inside a hard envelope: bitrate-advisor (ABR) and mmalisper's JOB
 hybrid (Postgres plans first) — `notes.md` §44. Compaction envelope
 (encoder, not Jev): gliner25-compaction — mutating tools / shell
 operators prove `keep_full`; the model may only match that or be more
-conservative (`notes.md` §50).
+conservative (`notes.md` §50). Stdout-prune envelope (Jev):
+jev-pruner — ≤10k / JSON-diff-whole-doc prove pass-through; Noul on
+the remainder; fail-safe keep original (`notes.md` §53).
 
 ## Signal detection
 
@@ -466,6 +468,7 @@ Use these as *existence proofs of a position*. Write your own card.
 | Inbox | reply / snooze / archive | urgency Noul + aboutness Choice | send, calendar |
 | Knowledge work | extract a quote / a cited fact | per-sentence or per-line-id Noul/Choice (**Empirical**: testimonial-miner, jev-reviewer) | verbatim join; place; human publish permission |
 | Agent context | compact completed tool results without inventing prose | retention Choice + char-offset locate (**Empirical**: gliner25-compaction; same *job* as fast-jev-compaction / pi-jev-compaction) | mutation/shell envelope → keep_full; fail-closed keep_full; shadowMode before replace; copy exact bytes |
+| Agent context | prune Bash stdout before the LLM without inventing prose | Noul per chunk after a hard size/format envelope (**Empirical**: jev-pruner) | ≤10k / JSON-diff-whole-doc untouched; fail-safe original; archive dropped spans |
 | Dataframe labeling | classify / score rows | Noul/Choice/Score + full `p__` (**Empirical** as jevframe / jevpandas *shape*) | pandas/Polars, thresholds in code |
 | Computer-use speed | one verified act per step | score / Choice among numbered a11y/DOM controls (**Empirical**: solari-reflex Jev; gliner2-ultrafast GLiNER2; laya-mind2web Laya DOM indices) | Guard check; deny-list absence; no screenshots; `DONE` ≠ success |
 | Agent turn | skip memory tour on easy intent | intent Choice (**Empirical**: jev-hermes) | Memory still writes; complex still searches |

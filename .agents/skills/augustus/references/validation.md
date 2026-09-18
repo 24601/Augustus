@@ -326,6 +326,7 @@ Rules:
 | Project soft-rule lint | [Abide](https://github.com/coldteadotai/abide) | Score per rule on the diff; bands; fail-open; replay + independent review |
 | Collab / computer-use product loop | [jev-testbench](https://github.com/ufx7/jev-testbench); [solari-reflex](https://github.com/hitakshiA/solari-reflex); [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast) | Wilson/McNemar arms; independently checked task time; `DONE` ≠ success |
 | Agent routing on vs off | [jev-gateway-bench](https://github.com/vinilana/jev-gateway-bench) | Hidden perft; cost/quality; one-run signal this pass |
+| Command-output prune (needle/noise) | [jev-pruner](https://github.com/tamaratran/jev-pruner) | Manual `trimOutput` sweep (theirs); plugin eval cannot reach Jev (fail-safe original); Terminal-Bench paired pilot is integration, not a full bench |
 
 rh-guard is a reward-hack hook, a different surface from jevgate and
 from Abide (eval-integrity vs allowlist-remainder vs project soft
@@ -369,6 +370,20 @@ Jev is down. Pair CI merge-gate
 ([latch](https://github.com/CaseReed/latch)) with this substrate
 (frozen JUnit artifacts × PASS/BLOCK) and rh-guard (eval-integrity).
 Do not copy npm/ports (`notes.md` §51).
+
+**Harbor-adjacent stdout prune (Empirical as README / evals README
+behavior, not a full Terminal-Bench ranking; 2026-09-18 ~17:15).**
+[jev-pruner](https://github.com/tamaratran/jev-pruner) ships
+needle/noise graders and a Harbor Terminal-Bench 2.0 adapter in-repo.
+Manual `trimOutput` sweep (theirs, 2026-09-18, 3 runs, `jev-latest`):
+needles **24/24**; mean reduction **83% (71–92%)** on trim scenarios;
+wrongly trimmed **0/12**; mean latency **240 ms**. Wider: standard
+8/8 / 83%; accuracy 36/36 / 87%; real captures 10/10 / 54%; needle
+matrix 9/9. `claude plugin eval` **cannot exercise pruning** (Jev
+fetch refused → fail-safe original). Six-run paired Terminal-Bench
+pilot is **integration, not a significance test** (full set 89 tasks
+/ 178 trials; no published full-run scores this pass). Do not merge
+those tables. Do not copy the Harbor launcher (`notes.md` §53).
 
 **Harbor-style frozen protocol vs constrained LLMs (Empirical as that
 named receipt, not a ranking).**

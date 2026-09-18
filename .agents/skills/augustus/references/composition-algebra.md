@@ -151,6 +151,9 @@ Reusable shapes when generating applications:
    (Claude CLI) vs 1.3 s Jev at concurrency 8. Compaction rollout:
    gliner25-compaction public default `shadowMode: true` (log proposed
    reduction; do not replace history) (`notes.md` §50).
+   Stdout-prune cousin: [jev-pruner](https://github.com/tamaratran/jev-pruner)
+   archives full stdout before scoring; fail-safe keep original
+   (`notes.md` §53). Marketplace id still `fast-jev-output`.
    Recovery cousin: [jevons](https://github.com/LilDojd/jevons) default
    recovery **shadow** (record, do not interrupt); steering never
    generates commands (`notes.md` §51).

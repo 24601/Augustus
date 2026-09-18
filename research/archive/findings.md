@@ -998,6 +998,39 @@ screenshot multimodal is a different input from DOM-as-text;
 (cg) local decide + remote TYPE is mixed-architecture economics,
 not dual-process-ai; (ch) `DONE` ≠ Harbor-verified success.
 
+## Batch #37 (2026-09-18 ~17:15 Boise) — jev-pruner evidence-preserving Bash stdout prune
+
+Note: `research/notes.md` §53. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. **Not a summarizer. Not session
+compaction. Not GLiNER.** No invented metrics. Do not re-fold §50
+gliner25-compaction as this product, §52 observe→score-act, or
+fast-jev-compaction as a duplicate.
+
+- **tamaratran/jev-pruner (Empirical as README / evals README
+  behavior).** MIT. Created 2026-09-18T03:00:58Z; 5★ attached
+  capture, 7★ live this pass. After Bash, Jev Noul-prunes stdout
+  chunks before the main LLM sees them. No summary. Hard envelope
+  (≤10k estimated tokens; JSON/XML/YAML/diff/binary; whole-document
+  commands) then soft Noul. Fail-safe keep original; full archive.
+  Marketplace id still `fast-jev-output`. Codex is opt-in wrapper.
+  Manual sweep (theirs, 2026-09-18): needles 24/24; mean reduction
+  83% (71–92%) on trim scenarios; wrongly trimmed 0/12; 240 ms.
+  Harbor plugin-eval cannot reach Jev (fail-safe). Terminal-Bench
+  paired pilot is integration, not a full bench.
+- **Mental models:** (1) evidence-preserving prune ≠ summarizer
+  (family with gliner25-compaction / jev-reviewer); (2) hard
+  size/format envelope then soft Noul; (3) fail-safe keep original
+  (reduction is the irreversible act); (4) stdout prune vs session
+  compaction are different jobs; host capability shapes the product.
+- **rh-guard:** sibling note only (fail-safe / envelope). Not
+  reward-hack detection.
+
+Cross-repo addition: (ci) command-output sieve and session compaction
+share extractive honesty, not a product; (cj) structure-first
+pass-through (≤10k / JSON-diff) is the sandwich, Jev is the remainder;
+(ck) Harbor plugin-eval refusing Jev is a fail-safe receipt, not a
+missing metric; (cl) marketplace id may lag the repo name.
+
 
 
 

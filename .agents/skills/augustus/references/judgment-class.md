@@ -99,6 +99,16 @@ below, next to the when-to-use table.
   tokens; no published retention-quality rates (`notes.md` §50).
   Fastino/GLiGuard sibling *class*, not a GLiGuard safety-schema
   clone. Do not copy the plugin install.
+  **Stdout prune (Empirical as README / evals README, 2026-09-18
+  ~17:15):**
+  [jev-pruner](https://github.com/tamaratran/jev-pruner) (MIT) is the
+  same evidence-preserving *family* on a **different job** and the
+  **Jev** backend: Noul-prune Bash stdout after a hard ≤10k /
+  JSON-diff-whole-doc envelope, before the main LLM sees it. Not a
+  summarizer. Fail-safe keep original. Archive for recovery.
+  Marketplace id still `fast-jev-output`. Codex is opt-in wrapper.
+  Same author as fast-jev-compaction; complementary (`notes.md`
+  §53). Do not copy the plugin.
   **Code-graph indexer (Empirical as README behavior; 10–50× is a
   target, 2026-09-18 ~16:48):**
   [s1-graphify-indexer](https://github.com/GreyssonEnterprises/s1-graphify-indexer)

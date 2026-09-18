@@ -470,7 +470,10 @@ ids; *not found* is an answer. [solari-reflex](https://github.com/hitakshiA/sola
 never lets model output become a selector. Compaction is the same
 species: [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
 copies exact source spans; a prose summary of the tool result is
-generation, not keep/drop (`notes.md` §50). Claim/evidence Stop:
+generation, not keep/drop (`notes.md` §50). Command-output cousin:
+[jev-pruner](https://github.com/tamaratran/jev-pruner) keeps verbatim
+chunks of Bash stdout; dropped spans live in an archive, not a
+summary (`notes.md` §53). Claim/evidence Stop:
 [clear-head](https://github.com/VladyslavHontar/clear-head) judges
 against retrieved session lines, not generated prose (`notes.md`
 §51). Computer-use encoder
@@ -478,7 +481,7 @@ cousin: [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultraf
 scores observed controls; code clicks; no generated selectors
 (`notes.md` §52). Generation is only for
 TYPE/prose when something must be written. `applied-mappings.md` §2;
-`notes.md` §48, §50, §52.
+`notes.md` §48, §50, §52, §53.
 
 ## Should compaction summarize?
 
@@ -491,12 +494,34 @@ stay `keep_full` in **code**. Low-confidence / invalid evidence fail
 **closed to `keep_full`** — the *reduction* is the irreversible act,
 unlike Abide / jevgate fail-open. Ship `shadowMode` first (default
 true: log, do not replace history). Not Jev. Not multimodal.
-`judgment-class.md`; `notes.md` §50.
+Stdout prune is the same *family* (evidence-preserving reduce) on a
+**different job**: [jev-pruner](https://github.com/tamaratran/jev-pruner)
+Noul-prunes a just-run Bash result before the main LLM sees it;
+fast-jev-compaction / gliner25-compaction compact completed tool
+pairs already in history. Hard ≤10k / JSON-diff-whole-doc envelope
+in code; fail-safe keep original; archive for recovery. Marketplace
+id still `fast-jev-output`. `judgment-class.md`; `notes.md` §50, §53.
+
+## Is pruning Bash stdout the same as compacting session memory?
+
+No. Same family (pointer, not summarizer; dropped bytes recoverable).
+Different job. [jev-pruner](https://github.com/tamaratran/jev-pruner)
+scores chunks of a command that just ran, *before* they enter the
+generative turn. [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction)
+and [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
+reduce completed tool pairs already in session history (Jev Noul vs
+GLiNER2.5 encoder). Host capability shapes the product: Claude wraps
+Bash automatically; Codex is an opt-in wrapper because it cannot
+replace native shell output from `PostToolUse`. `applied-mappings.md`
+§1; `notes.md` §50, §53.
 
 ## Fail-open or fail-closed — which?
 
 Name the **irreversible act**, then pick polarity. Compaction *drop*
-fails closed to `keep_full`. Wake *skip* fails open (wake on error /
+fails closed to `keep_full`. Stdout *prune* fails closed to original
+output ([jev-pruner](https://github.com/tamaratran/jev-pruner):
+archive/Jev/incomplete-score failure keeps the log; Harbor plugin-eval
+cannot reach Jev and therefore cannot prune). Wake *skip* fails open (wake on error /
 unsure): [wakegate](https://github.com/shitianfang/wakegate) skips
 only if Jev answers and p(wake) < 0.2. Merge *PASS* on a red run
 fails closed at the gate: [latch](https://github.com/CaseReed/latch)
@@ -504,7 +529,7 @@ fails closed at the gate: [latch](https://github.com/CaseReed/latch)
 stays fail-open. [if-ai](https://github.com/Victor-Casado/if-ai)
 fails the Action on error / empty / low confidence. jevgate cannot
 block; pi-jev-approver fails closed without a key; Abide is fail-open
-on diffs. Same sandwich, opposite authorized act. `notes.md` §50, §51.
+on diffs. Same sandwich, opposite authorized act. `notes.md` §50, §51, §53.
 
 ## Is observe→score→act Jev-only?
 

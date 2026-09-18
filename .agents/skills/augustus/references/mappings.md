@@ -549,6 +549,16 @@ to `keep_full`. Soft judgment inside a hard envelope, encoder backend
 — not a Jev Score and not a summarizer (`notes.md` §50). Same sandwich
 shape as bitrate-advisor; different family.
 
+**Named stdout-prune envelope (Empirical as README / evals README,
+2026-09-18 ~17:15):**
+[jev-pruner](https://github.com/tamaratran/jev-pruner)
+— the monitor is **code** (≤10k estimated tokens; errors;
+JSON/XML/YAML/diff/binary; whole-document commands). Jev Noul may
+only score residual noisy chunks. Archive/Jev/incomplete-score
+failure keeps the original. Soft judgment inside a hard envelope,
+Jev backend — same family as gliner25-compaction, different *job*
+(command output vs session memory) (`notes.md` §53).
+
 **Named computer-use envelope (Empirical as README / architecture,
 2026-09-18 ~16:56):**
 [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
@@ -725,6 +735,12 @@ judges only the remainder; uncertain **fails closed to `keep_full`**
 (`notes.md` §50). Same sandwich, opposite fail policy from jevgate
 (cannot block) and Abide (fail-open on diffs): the authorized act is
 a destructive reduction of memory.
+**Stdout prune is the same polarity, different job (2026-09-18
+~17:15).** [jev-pruner](https://github.com/tamaratran/jev-pruner) —
+code proves ≤10k / JSON-diff-whole-doc pass-through; Jev scores the
+remainder; uncertain **fails closed to original stdout** plus an
+archive (`notes.md` §53). Harbor plugin-eval cannot reach Jev and
+therefore cannot prune — fail-safe, not a missing score.
 **Name the irreversible act (2026-09-18 ~16:48).** Wake *skip* is
 irreversible (the agent stays asleep) →
 [wakegate](https://github.com/shitianfang/wakegate) authorizes skip
