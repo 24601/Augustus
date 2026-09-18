@@ -845,6 +845,11 @@ concrete defect, the fix landed in the skill and is noted inline; where
 the skill was already right, it is recorded as cleared so the next pass
 does not re-litigate it.
 
+Scope note: the read started from the tree at §26 (commit `55b1379`).
+Folds §28, §30, §31, and §32 landed *while* this review was running; they
+are re-checked in the addendum at the end of this section. §29 is an
+unused number left by that concurrent fold — not a missing note.
+
 ### Defects found and fixed
 
 **S1 (high) — "every error path fails open" stated as a universal gate
@@ -919,14 +924,18 @@ symptom→cause→fix table — are legitimately Augustus and stay. Fixed:
 the key enumeration is replaced by a pointer, and the dated
 contract surface is marked as a pin to re-read live.
 
-**S8 (medium) — `mappings.md`'s preamble overclaimed uniformity.** It
-read "Cards §6–§18 are **Hypothesis** until an acceptance test runs",
-which the cards' own bodies contradict: §8's ownership split is
-Contract, §9's example is Empirical (jev-mcts), §18's named shapes are
-Empirical. `SKILL.md`'s index was *more* precise than the file it points
-at. A blanket claim the body contradicts teaches the reader to skim the
-labels. Fixed: Hypothesis **as domain-general products**, with the
-exceptions named.
+**S8 (medium) — `mappings.md`'s preamble overclaimed uniformity, and the
+range reference went stale.** The preamble read "Cards §6–§18 [now §19]
+are **Hypothesis** until an acceptance test runs", which the cards' own
+bodies contradict: §8's ownership split is Contract, §9's example is
+Empirical (jev-mcts), §18's named shapes are Empirical. `SKILL.md`'s
+index was *more* precise than the file it points at. A blanket claim the
+body contradicts teaches the reader to skim the labels. Separately, when
+§19 was added mid-review, four files kept pointing at §6–§18
+(`faq.md`, `formal-methods.md`, `formal-semi-formal.md`, `README.md`)
+while `SKILL.md`, `mappings.md`, and `docs/ecosystem.md` moved to §6–§19.
+Fixed both: Hypothesis **as domain-general products** with the exceptions
+named, and all seven range references aligned.
 
 **S9 (low-medium) — §17 quoted jevgate's ≤0.18 jitter without forbidding
 its reuse as a constant.** §18 explicitly forbids copying 0.2 and 1.74×;
@@ -958,7 +967,7 @@ check is split — structure first, Noul on the remainder.
 ### Cleared (checked, no change needed)
 
 - `GLiClass-adjacent` no longer appears in any skill card; it survives
-  only in §19 above, as provenance.
+  only in notes §19 above, as provenance.
 - Resonate HQ is correctly identified as durable async execution (not the
   unrelated "Resonate AI" brand) in all five places it appears, and
   promise settlement is never delegated to a Noul.
@@ -989,6 +998,47 @@ check is split — structure first, Noul on the remainder.
 - Card count is 16 and several cards now cross-reference four or more
   others. The duplication guard ("do not duplicate doctrine") is holding
   but is the thing most likely to break next.
+
+### Addendum — re-check of the folds that landed mid-review (§28, §30–§32)
+
+Those four folds (effect-oriented loops, GLiGuard, Archer Hume,
+TypeAR) were written into the same tree while this review ran, so they
+got the same hostile read. **No new defects.** Specifically checked:
+
+- **Species map held under pressure.** GLiGuard is placed on the
+  *categorize* row and explicitly not as a sixth species or a Jev weight
+  clone; TypeAR is placed as a **surface** on a generator, not as
+  `decide`. Both are the discriminations §25's species map exists to
+  force, and both landed on the right side.
+- **Evidence labels held.** The Hume essay is labeled a *reconstruction*,
+  not a TypeSafe contract, with his own published / observed / inferred
+  split preserved; the announced open-weight drop is **Watch, not
+  shipped**; TypeAR's ~5.8× is marked "their example, not a portable
+  benchmark"; GLiNER2's "like jev" is read as naming the *job*, not the
+  objective. None of these is copied as a constant.
+- **Non-negotiables held.** `mappings.md` §19 keeps transitions and the
+  side effect in the host, fails closed on an unknown option id, and
+  refuses to multiply edge predicates. The new IIA / option-order
+  material is added as a *property test* in `validation.md` with the
+  explicit rider that a clean PBT run is not a proof — sensor, not
+  constraint.
+- **Identity lock held.** §19 refuses the Effect.ts misreading and says
+  the ZIO client's combinator is neither the Jev HTTP contract nor an
+  Augustus API; the GLiGuard and TypeAR cards say "do not invent a call
+  shape." No CLI, env, port, or `AutoExtractor` leak arrived with them.
+- **Cross-references resolve.** Every `notes.md §N` pointer in the skill
+  and in `docs/ecosystem.md` was validated against the section titles
+  actually present; none dangles. The Hypothesis range was left stale at
+  §6–§18 in `faq.md`, `formal-methods.md`, `formal-semi-formal.md`, and
+  `README.md` after §19 was added — repaired here (see S8), which is the
+  recurring failure mode of range references and an argument for citing
+  card names rather than ranges next time.
+
+Process note, not a skill finding: two agents wrote this working tree
+concurrently during this pass. That is how the §29 gap and a transient
+duplicate `mappings.md` §19 appeared (the duplicate resolved itself
+before commit and was never a defect in the skill). Worth avoiding, not
+worth documenting in a card.
 
 ## 28. Effect-oriented loops + GLiNER2 "like jev" (2026-09-18)
 

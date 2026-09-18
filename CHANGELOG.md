@@ -124,6 +124,35 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   Apalache and the DST trio including PufferLib; GLiNER promoted from
   cousin footnote to species-map peer
 
+### Fixed
+
+Adversarial review of the whole skill against its own non-negotiables
+(findings in `research/notes.md` §27).
+
+- Gate fail policy is per action, not universally open
+  (`composition-algebra.md` position 3, `agent-self-assessment.md`):
+  advisory guards fail open *because* an interlock sits underneath;
+  selection and authorization gates fail closed
+- Dual-orchestration topology A selects from a closed catalog instead of
+  "planning" MCP calls, which contradicted the standing planner rejection
+- Species map applied to the skill's own advice: GLiClass (categorize) is
+  the large-catalog substitute for a 255-option Choice; GLiNER spans are
+  not (`SKILL.md`, `judgment-class.md`, `applied-mappings.md`)
+- Han Xiao trolley relabeled an Empirical **rejection** (one tweet, no
+  repo), not a recipe
+- openjev-lm caveat moved to the figure it belongs to: 92.9% is against 70
+  hand-labelled gold, 98.1% is teacher *agreement*
+- Contract surface removed from design cards: the Ax constructor call and
+  the `instructions` key enumeration point at live docs instead
+  (`optimizer-integration.md`, `question-design.md`)
+- `mappings.md` preamble no longer claims uniform Hypothesis where card
+  bodies say Contract/Empirical; §17 forbids reusing jevgate's ≤0.18 as a
+  constant; all Hypothesis-range references aligned to §6–§19
+- Ownership split labeled Contract in `toolbox-mapping.md`, matching
+  `mappings.md` §8; done-check splits structure from the Noul
+- Skill description gained trigger terms for boundary audit, question
+  diagnosis, agent self-supervision, and optimizer placement
+
 ## [0.2.0] - 2026-09-18
 
 Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skills/tree/v0.5.7)
