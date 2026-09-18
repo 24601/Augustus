@@ -55,3 +55,58 @@ Compile-once local neural functions from NL specs (KV-prefix+LoRA .paw bundles o
 - **probably-lang (southpolesteve/probably)** (Contract): an entire **programming language whose control flow runs on Jev judgments** — `while draft feels "like a LinkedIn influencer post" { … }`. Real parser + async interpreter (Bun/TypeScript); Jev supplies judgments, a text model supplies strings, interpreter owns variables/loops/budgets/replay. Judgment-state **recordings** enable exact deterministic replay (hosted demo = cached recordings, zero inference). Novel position: Jev as the *conditional operator* of a DSL.
 - **superagents-lab/jev-search** (Contract): retrieval pipeline where Jev is both head and tail: understand (typed questions → query + sources + time range) → concurrent multi-engine lanes (site-restricted Google/DDG + vertical engines, one failed lane doesn't discard others) → per-result relevance Score → merge by URL + engine agreement + original rank, streaming NDJSON; speculative Google start while Jev interprets. Budgets: 15s per engine, 30s overall.
 - **Kevthetech143/super-jev** (Contract): domain-independent harness = evidence → batched typed questions → decide → **permit (independent of model confidence!)** → execute one tool with idempotency key + cancellation → verify → JSONL trace/replay. Domain hooks: observe/questions/decide/permit/tools.validate/execute/reduce/success. Policy insight: the permission layer enforces domain rules regardless of what the model says — separate axis from confidence gating.
+
+## Batch #6 (2026-09-18T14, X theme digest + topic:jev hour)
+
+Design distillation only — no clone audit this hour. Raw files:
+`archive/hourly/2026-09-18T14/`. Skill card: `references/mixed-architecture.md`.
+
+- **Discourse (Hypothesis as social evidence, Empirical as placement pressure):**
+  cost/prefilter 48, tool routing 33, agent gate/linter 27, mixed architecture
+  16, skepticism 11. Stack replacement is the rejected reading; "just
+  classification" is answered with *where typed judgment beats ad-hoc LLM
+  classify* (schema-valid + calibrated + batched + cheap enough for per-item
+  gates), not with novelty of classification.
+- **ibrahemid/git-jev-stage** (Contract from README): candidates from `git
+  diff`; one Choice per hunk (`include`/`exclude`/`mixed`); mixed and
+  low-confidence stay unstaged; lines never split; atomic exact-patch apply;
+  working tree never written.
+- **ibrahemid/jevprune** (Contract from README): per-line relevance vs the
+  task; last-N lines + error signatures kept in *code* before Jev; dropped
+  ranges recoverable by run id. Context-economy family with winnow.
+- **WiktorB2004/llama-index-jev** (Empirical, self-reported BEIR nfcorpus):
+  MiniLM 0.340 nDCG@5 → MiniLM+Jev 0.396. **Rerank fails open** (keep
+  retrieval order); **select fails closed** (or a declared default). First
+  clean public per-action fail-policy split.
+- **doeixd/jev-pref** (Contract, principles.md): YOU define the rule / JEV
+  classifies evidence / CODE maps outcome / AGENT acts. Poor checks invent
+  taste ("is this clean?"); good checks name visible evidence.
+- **yousudip/lizard-agent** (Contract as decomposition): no LLM in the loop;
+  closed action space from the page; extractive answers; prices/dates never
+  touch the model. Mixed architecture with the generator omitted because
+  nothing needs writing.
+- **kylemclaren/jevql** (Contract): `jev()` / `jev_prob()` in SQL; CLI
+  evaluates; database sees ordinary SQL. Judgment as a WHERE primitive.
+- **aaravriyer193/OpenSmoke** (Contract as cascade): Jev over every agent
+  step; LLM only on flagged runs for root cause. Prefilter of analyst
+  attention, not of RAG chunks.
+- **DanRWilloughby/snifftest** (Contract): countable rules score 1.00;
+  judgment rules do not flag inside the unsure band (~0.4–0.6) because Noul
+  0.5 on unreadable input would look like a clean draft.
+- **frostney/clean-code-review** / **Eliran-Turgeman/repear**: rubric-then-
+  prose (Jev against named rules, LLM writes review) and semantic smell
+  gates (silent failures, weakened tests, scope creep).
+- **luantak/is-malicious**: high-stakes pre-run gate — fail closed, sandbox
+  still required; Jev yes is not authorization.
+- **FirasSX914/Janus**: measure Jev vs other models on your data, then route
+  (calibre's non-transfer result as a product).
+- **Neighbor skills, do not absorb:** `harrymunro/decision-first` (try Jev
+  first + lab log), `simota/tenbin` (design-time lint/eval). Augustus stays
+  placement/method/falsification.
+- **rongxinzy/LightJev**: train lightweight decision backbones. Reproduce/
+  open — not an Augustus implementation.
+
+Cross-repo addition to the taxonomy: (m) mixed-architecture cascade around a
+generator, (n) exact-candidate selection (hunks/lines/elements) where Jev
+never invents the candidate, (o) spec-as-rubric preference lint, (p)
+fail-open retrieval vs fail-closed dispatch as a pair of policies.

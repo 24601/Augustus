@@ -58,6 +58,15 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   descriptions (never bare degrees or "worse than previous"), independent
   dimensions as separate Scores, and read probabilities beside every score.
 
+## Preference lint (project rules, not taste)
+
+When the "judge" is really "does this change violate a rule we already
+wrote?", do not ask Jev whether the code is good. Load
+`references/mixed-architecture.md#preference-lint-and-gates`. The transferable
+contract (`doeixd/jev-pref`): the project defines the rule, Jev classifies
+visible evidence, code maps the outcome, the agent acts. Shadow-mode the gate
+first; permit remains a separate axis from confidence.
+
 ## Using Jev to test and optimize the skill suite itself
 
 - Treat the skill directory as a routing problem: rank all frontmatter

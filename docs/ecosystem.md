@@ -44,9 +44,23 @@ Per-keystroke launchers (104ms median, sequence-tagged staleness), firehose mode
 - **riff (scale-venture-partners)** — hybrid static+semantic linter with ruff-style JEV codes and per-finding calibrated p; 14 calls ≈ $0.0004.
 - **super-jev / probably / jev-search** above — see their cards in `archive/findings.md`.
 
+### Mixed architecture (2026-09-18T14 discourse + topic:jev)
+
+Default placement, not a new product class: Jev judges, an LLM writes, code
+owns control. Movers that sharpened the card: `git-jev-stage` (exact hunk
+Choice), `jevprune` (per-line relevance with an always-keep set),
+`llama-index-jev` (rerank fails open / select fails closed), `jev-pref`
+(AGENTS.md as criteria), `lizard-agent` (no LLM when nothing needs writing),
+`jevql` (judgment as SQL `WHERE`), OpenSmoke (Jev over every step, LLM only
+on flags). Neighbor skills `tenbin` and `decision-first` are *not* Augustus
+clones — they own lint/eval and try-Jev-first habit.
+
+See `references/mixed-architecture.md` in the skill.
+
 ## The skill that owns this analysis
 
-[GitHub](https://github.com/24601/Augustus) — `SKILL.md` + 9 reference cards
-covering mental model, method substitution (toolbox sweep), composition algebra
-(11 positions), question-design mechanics, validation gates, and optimizer
-coupling (Ax/DSPy/ProgramAsWeights).
+[GitHub](https://github.com/24601/Augustus) — `SKILL.md` + 10 reference cards
+covering mental model, mixed architecture (decision model + LLM), method
+substitution (toolbox sweep), composition algebra (11 positions),
+question-design mechanics, validation gates, and optimizer coupling
+(Ax/DSPy/ProgramAsWeights).

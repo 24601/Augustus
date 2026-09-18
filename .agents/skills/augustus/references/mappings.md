@@ -60,6 +60,14 @@ low confidence need not veto a low-stakes preference. **Test**: cost/coverage
 curve on held-out slices; score the fallback too (escalation is not
 automatically correct). Links: Confidence docs, confidence-routing pattern.
 
+**Cascade / prefilter beside this card**: the same cost model, applied *before*
+an expensive generator rather than after a decision. Drop or stub confident-
+irrelevant chunks, log lines, or tool results so the LLM never sees them;
+fail-open on retrieval (false drop loses evidence), fail-closed on dispatch
+(wrong tool is an action). Placement, fail-open table, and 2026-09-18
+ecosystem examples: `references/mixed-architecture.md`. Do not invent request
+fields here — live docs own the call shape.
+
 ## 3. Semantic predicates → decision circuits
 
 **Method**: decision tables, Boolean circuits, DAGs, finite-state machines.

@@ -26,3 +26,27 @@
 - https://evals.typesafe.ai/ -> HTTP 200
 - https://openrouter.ai/typesafe/jev-1.13 -> HTTP 200
 - action: diff index/cookbook list vs research/sources.json; update notes.md + log.
+
+## 2026-09-18 14:42 UTC — X+GH hourly discourse pass
+- Method: provided live scan (USAGE-DIGEST + theme-digest.json +
+  github-topic-jev-last-hour.json, window 13:39–14:39 UTC) archived under
+  `research/archive/hourly/2026-09-18T14/`. X API still not used; theme
+  digest is the X source for this hour. GitHub = `topic:jev` movers (34).
+- Live checks: awesome-typesafe HEAD `6eef30ba8c3f` (was `8b9e8aa3c44f`);
+  https://docs.typesafe.ai/llms.txt -> HTTP 200;
+  https://evals.typesafe.ai/ -> HTTP 200;
+  https://openrouter.ai/typesafe/jev-1.13 -> HTTP 200.
+- Docs index: cookbook list unchanged vs sources.json (still the same
+  primitives/patterns/cookbooks). No API contract edits.
+- Discourse: cost/prefilter 48, tool routing 33, agent gate/linter 27,
+  mixed architecture 16, skepticism 11. Design signal: mixed architecture
+  is the default; "just classification" is answered with placement.
+- Novel GH shapes recorded in notes.md §17 and findings.md: git-jev-stage,
+  jevprune, llama-index-jev (fail-open rerank / fail-closed select),
+  jev-pref, lizard-agent, jevql, OpenSmoke, decision-first, tenbin, Janus,
+  LightJev, snifftest/repear/clean-code-review, is-malicious.
+- Skill: added `references/mixed-architecture.md`; SKILL.md protocol +
+  index + classification non-negotiable; identity lock vs typesafe-ai /
+  tenbin / decision-first. Version 0.3.0.
+- Next pass: re-check awesome-typesafe since `6eef30ba8c3f`, evals page,
+  whether LlamaIndex nDCG numbers get a second dataset, ECE claims on X.

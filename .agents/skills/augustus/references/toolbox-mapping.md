@@ -69,7 +69,9 @@ component; keep the rest of the method in code.
 | Measurement theory: probe vs estimate | Only post-execution probes concede milestones; model estimates never do — "estimation wearing a measurement costume" is the rejection template | **Empirical recipe** (jev-mcts, pi-warden done-check) |
 | Experimental design: perturbation | Behavioral tests as the stats layer: candidate removal, option-order shuffle, distractor injection, boundary cases | **Contract-level** (validation.md) |
 | Discrete math: width vs depth | Fan out in width (parallel ≈ free), pay depth linearly; two-stage only when next options depend on an earlier answer | **Empirical recipe** (fan-out: 12.2× cheaper, 10× faster) |
-| Psychology: Kahneman | System 2 generates/proposes (LLM), System 1 discriminates (Jev); never the reverse | **Empirical recipe** (mcts-agent role split) |
+| Psychology: Kahneman | System 2 generates/proposes (LLM), System 1 discriminates (Jev); never the reverse | **Empirical recipe** (mcts-agent role split; 2026-09-18 mixed-architecture discourse) |
+| IR / cascades | Cheap relevance / irrelevance before an expensive ranker or generator | **Empirical recipe** (RAG cookbook; jevprune; git-jev-stage; LlamaIndex Jev rerank) |
+| Spec / lint | Project-defined semantic rules as predicates over a diff | **Empirical recipe** (jev-pref contract; pi-warden; snifftest unsure-band) |
 | Bandits / RL | Value from observed rewards only — Jev provides none; rejected without an environment | **Rejected** (standing boundary) |
 
 Invalid-but-tempting (record these so they don't get rediscovered): treating
@@ -77,7 +79,9 @@ parallel Noul answers as independent evidence and multiplying them into a
 joint probability (they share the state); Jev as p-value (Noul is a belief,
 not a test statistic); cross-question Score comparability without a shared,
 versioned rubric; using calibration to certify an individual answer
-(calibration describes groups, not cases).
+(calibration describes groups, not cases); treating Jev as a stack
+replacement for an LLM (mixed architecture is the default —
+`references/mixed-architecture.md`).
 
 ## The application-finding procedure (top-down, domain-first)
 

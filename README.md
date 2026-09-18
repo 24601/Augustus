@@ -20,6 +20,9 @@ Score, Noul) that software can act on directly.
 ## The skill
 
 - `.agents/skills/augustus/SKILL.md` — working protocol + decision-design card
+- `.agents/skills/augustus/references/mixed-architecture.md` — default
+  placement: decision model + LLM + code; cost-sensitive prefilter;
+  tool/skill routing; preference lint; "just classification" answer
 - `.agents/skills/augustus/references/mappings.md` — 5 classical-method
   mappings with boundaries, counterexamples, acceptance tests
 - `.agents/skills/augustus/references/validation.md` — design gate, eval
@@ -59,12 +62,13 @@ GPT's instructions or a Project's knowledge and it will follow the protocol.
 `jev` `typesafe` `typesafe-ai` `system-one` `system-one-models`
 `structured-output` `calibrated-confidence` `ai-agents` `agent-skills`
 `decision-systems` `reranking` `beam-search` `claude-code` `python` `llm`
-`decision-theory` `semantic-search` `agent-workflows`
+`decision-theory` `semantic-search` `agent-workflows` `mixed-architecture`
+`tool-routing` `skill-routing` `semantic-lint` `classification`
 
 ## Versioning
 
 See [CHANGELOG.md](CHANGELOG.md) and
-[releases](https://github.com/24601/Augustus/releases). Current: **0.2.0**,
+[releases](https://github.com/24601/Augustus/releases). Current: **0.3.0**,
 written against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skills/tree/v0.5.7)
 (`65a39f3`). Re-read live TypeSafe docs before treating that pin as current
 API behavior.

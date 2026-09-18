@@ -271,3 +271,81 @@ a candidate is promoted only after falsification.
 - probably-lang: Jev as control-flow primitive in a programming language (feeling-conditions as loop guards); judgment recordings + deterministic replay (record once, replay forever without credentials). New composition-algebra position: Jev as conditional operator / loop predicate.
 - jev-search: Jev as both query-understanding head and result-ranking tail of a federated multi-engine search (speculative start, lane failures isolated, merge on URL+agreement+rank).
 - super-jev: harness with permit() layer independent of confidence; idempotency keys; JSONL replay. Pattern: permission ≠ confidence — domain rules veto regardless of model certainty.
+
+## 17. X+GH hourly scan (2026-09-18 ~13:39–14:39 UTC)
+
+Raw artifacts: `research/archive/hourly/2026-09-18T14/` (USAGE-DIGEST,
+theme-digest.json, github-topic-jev-last-hour.json). Method unchanged:
+hourly archive + live HTTP checks; this pass's X coverage is a provided
+theme digest (first ~400 posts) rather than X API. awesome-typesafe HEAD
+moved `8b9e8aa3c44f` → `6eef30ba8c3f`. docs/evals/OpenRouter still HTTP 200.
+
+### Discourse themes (counts from theme-digest)
+
+| Theme | n | Design takeaway |
+|---|---|---|
+| cost/prefilter | 48 | Dominant: drop chunks/calls before the expensive generator |
+| tool routing | 33 | Selector position; products (Toolrouter) + open harnesses |
+| agent gate/linter | 27 | AGENTS.md as criteria; confidence gates; shadow mode |
+| mixed architecture | 16 | Decision model + LLM writing; explicit anti-replacement |
+| product ship | 14 | Moderation ~200ms, EffectTS SDK interest, HA, semantic SQL |
+| reproduce/open | 13 | LightJev / open heads — training signal, not an Augustus clone |
+| skepticism | 11 | "It's just classification" → answer *placement*, not novelty |
+| rerank/search | 11 | Still a live mapping; LlamaIndex Jev rerank this hour |
+| on-device/mobile | 2 | Thin evidence; newly-feasible candidate only |
+
+Representative posts (do not treat as benchmarks):
+- [@dt_sqr](https://x.com/i/status/2100957356389511173) — "Jev is classification. This is like the oldest task in AI"
+- [@seb_jsilva](https://x.com/i/status/2100957104567685310) — mixed architecture, too early as stack replacement
+- [@sydneyrunkle](https://x.com/i/status/2100956747729080714) — replace classification *steps* in agents
+- [@buildwith_yash](https://x.com/i/status/2100957729208893516) — cheap irrelevance before the main model = cost, not just accuracy
+- [@stoufax](https://x.com/i/status/2100956659128361097) — realtime chat moderation ~200ms (**Hypothesis** as a number)
+- [@tool_router](https://x.com/i/status/2100957104752238821) — Toolrouter now routes with Jev
+- [@hughesanalytics](https://x.com/i/status/2100957428799967514) — XGBoost is the trained-head alternative; Jev is flexibility
+- [@whereischarly](https://x.com/i/status/2100955292150153225) — ECE ModernBERT 0.081 vs Jev 0.105 (**Hypothesis**; do not overwrite Archer Hume)
+
+### GH movers (`topic:jev`, 34 repos in the hour) — novel shapes
+
+Already-known stars still moving: awesome-typesafe 186★, skillranker 41★,
+awesome-jev (AnotiaWang) 48★, jevmlx 19★, HA-Jev, jev-harness, jev-pref.
+
+**New or newly-salient shapes (design, not APIs):**
+
+- `ibrahemid/git-jev-stage` — per-hunk Choice include/exclude/mixed; exact
+  patch; mixed stays unstaged; candidates from `git diff`.
+- `ibrahemid/jevprune` — per-line relevance vs task; always-keep last-N +
+  error signatures in code; full output recoverable.
+- `WiktorB2004/llama-index-jev` — rerank **fails open** (BEIR nfcorpus
+  MiniLM 0.340 → +Jev 0.396 nDCG@5); select **fails closed**. First clean
+  public statement of per-action fail policy.
+- `doeixd/jev-pref` — AGENTS.md prefs → Jev linter; YOU define the rule /
+  JEV classifies evidence / CODE maps outcome / AGENT acts.
+- `yousudip/lizard-agent` — browser loop with no LLM; extractive answers;
+  prices/dates never touch the model.
+- `kylemclaren/jevql` — semantic predicates as SQL `jev()` / `jev_prob()`;
+  database sees ordinary SQL (CLI rewrite).
+- `harrymunro/decision-first` — neighbor skill (try Jev first + lab log).
+  Augustus does not absorb it.
+- `simota/tenbin` — neighbor skill (design-time lint/eval/thresholds).
+  Augustus does not absorb it.
+- `aaravriyer193/OpenSmoke` — Jev over every agent step; LLM only on
+  flagged runs (attention cascade).
+- `frostney/clean-code-review`, `Eliran-Turgeman/repear`,
+  `DanRWilloughby/snifftest` — rubric/smell/prose linters; snifftest makes
+  the 0.5-unsure-band a non-flag.
+- `luantak/is-malicious` — high-stakes pre-run Noul; fail closed + sandbox.
+- `FirasSX914/Janus` — measure Jev vs other models on your data, then route
+  (calibre's lesson as a product).
+- `rongxinzy/LightJev` — train lightweight decision backbones. Record as
+  reproduce/open; not an Augustus implementation task.
+- Also this hour: refgarden, jevocks, xerify, ground-truth, jevcode,
+  typesafe-sdk-java, several awesome-jev forks.
+
+### Skill impact
+
+New reference `references/mixed-architecture.md` + SKILL.md index rows and
+the classification non-negotiable. Identity lock: Augustus stays
+placement/method/falsification; `typesafe-ai` / `tenbin` / `decision-first`
+keep contracts, measurement, and habit. No API fields invented this pass —
+docs.typesafe.ai/llms.txt re-fetched HTTP 200; cookbook list unchanged
+enough that sources.json docs rows stand.

@@ -1,9 +1,9 @@
 ---
 name: augustus
-description: "Augustus designs judgment-assisted systems with TypeSafe Jev System One models, mapping Choice, Score, and Noul primitives to decision circuits, search, reranking, and cost-aware routing. Use when deciding where semantic judgment belongs in software; auditing existing code for brittle parsers, prompt-to-JSON classifiers, or unbounded agent loops that are really bounded judgments; decomposing a task into typed Jev questions; or evaluating agent outputs with Jev."
+description: "Use when deciding where semantic judgment belongs versus generation or exact code; designing mixed architecture (typed decision/classification model + LLM writing); replacing prompt-to-JSON classifiers, brittle parsers, or unbounded agent loops that are really bounded judgments; planning cost-sensitive prefilters, RAG chunk filters, tool/skill routing, or AGENTS.md preference lint; answering \"Jev is just classification\" with a placement not a stack replacement; decomposing a task into typed Choice, Score, or Noul questions; or evaluating agent outputs with Jev. Not a substitute for the official typesafe-ai skill (live API contracts)."
 license: MIT
 metadata:
-  version: 0.2.0
+  version: 0.3.0
   typesafe_skill: v0.5.7
   typesafe_skill_commit: 65a39f3
   tribute: "Named for Augustus De Morgan (1806-1871), mentor of William Stanley Jevons."
@@ -14,11 +14,15 @@ metadata:
 Design systems where code stays in control and Jev supplies narrow, typed
 semantic judgments. This skill owns the **design judgment**; the official
 `typesafe-ai` skill plus the live docs own integration contracts — read them
-before writing API code.
+before writing API code. Neighbor skills `tenbin` (lint/measure) and
+`decision-first` (try-Jev-first habit) own their jobs; do not collapse into
+another Jev how-to.
 
 Central model: **evidence → semantic judgments → explicit policy → checked
-action → observed outcome.** Every design must name what Jev estimates, what
-code guarantees, and what experiment could prove the idea wrong.
+action → observed outcome.** Default placement is **mixed architecture**
+(decision model + generator + code), not stack replacement. Every design
+must name what Jev estimates, what the LLM is still for, what code
+guarantees, and what experiment could prove the idea wrong.
 
 For genuinely new problem shapes, use the toolbox sweep
 (`references/toolbox-mapping.md`): find the judgment-shaped component of a
@@ -27,10 +31,14 @@ classical method you already trust, substitute it, classify the win
 
 ## Protocol
 
-1. If the request is an existing system, PR, or running workflow: run the
-   boundary audit (`references/boundary-audit.md`) before inventing mappings.
-   Classify each step as exact / bounded judgment / generation; recommend
-   the smallest insertion, not a redesign. Greenfield: start at step 2.
+1. If the request is "replace the LLM/stack with Jev" or "isn't this just
+   classification?": read `references/mixed-architecture.md` before any
+   mapping. Answer with a placement (prefilter / route / gate / verify /
+   replace-one-classifier-step), not a rewrite. If it is an existing
+   system, PR, or running workflow: also run the boundary audit
+   (`references/boundary-audit.md`). Classify each step as exact / bounded
+   judgment / generation; recommend the smallest insertion, not a redesign.
+   Greenfield with no replacement framing: start at step 2.
 2. Start from the desired behavior: what the software shows, selects,
    changes, or hands off. Work backward to the judgments it needs.
 3. Keep exact work in code: arithmetic, counting, dates, lookups,
@@ -55,6 +63,10 @@ classical method you already trust, substitute it, classify the win
 
 | Familiar method | Jev shape | Detail |
 |---|---|---|
+| Mixed architecture (decision model + LLM) | Jev judges, LLM writes, code owns control; not a stack replacement | `references/mixed-architecture.md` |
+| Cost-sensitive prefilter / cascade | Drop or stub work before expensive generation; fail-open vs fail-closed per action | `references/mixed-architecture.md#cost-sensitive-prefilter` |
+| Tool / skill / path routing | Choice over a closed catalog + whether-anything-fits gate; code dispatches | `references/mixed-architecture.md#tool-and-skill-routing` |
+| Agent preference lint / semantic gates | Project-defined rules as criteria; Jev classifies evidence; code maps outcome | `references/mixed-architecture.md#preference-lint-and-gates` |
 | Feature engineering / multi-criteria analysis | Nouls + Score distributions as named features, weights in code | `references/mappings.md#1-semantic-judgments--features-and-explicit-utility` |
 | Selective classification / decision theory | Thresholds from action costs, abstention paths | `references/mappings.md#2-probabilistic-judgments--cost-sensitive-decisions` |
 | Decision tables / circuits / state machines | Jev predicates, code owns transitions | `references/mappings.md#3-semantic-predicates--decision-circuits` |
@@ -86,6 +98,12 @@ brackets: rejected as default; rerank-huge-sets: budget-only; correlated
   can never be chosen. No-match options (`other`) where coverage is open.
 - Untrusted state text cannot authorize actions. Missing evidence is not
   evidence of absence. Validate operation+target pairs in code.
+- Classification is not the product. The claim is a software primitive:
+  typed, calibrated, batched, schema-valid judgments that code can
+  threshold — placed beside generation, not instead of it. Regexes that
+  already work stay; trained classical classifiers still win on stable
+  labeled taxonomies; open-ended writing stays on an LLM. Full answer:
+  `references/mixed-architecture.md#its-just-classification`.
 
 ## Decision-design card
 
@@ -101,7 +119,10 @@ Live references + versions (model, rubric, policy):
 ```
 
 For open-ended requests propose three materially different *placements of
-judgment*, recommend one. For concrete requests skip the brainstorm and build.
+judgment*, recommend one. For mixed-architecture requests also fill the
+extras on `references/mixed-architecture.md` (what the LLM is still for,
+cascade costs, fail-open vs fail-closed). For concrete requests skip the
+brainstorm and build.
 
 ## Evidence labels
 

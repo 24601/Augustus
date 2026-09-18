@@ -41,7 +41,8 @@ judgment component is new).
 | MCTS / PUCT | Prune invalid actions; priors P(s,a); leaf value V(s) | Batched Noul pruning + Choice priors + Score value — depth-capped where no simulator | Tree, budget, backprop, probes | **Empirical recipe** (jev-mcts: 24/24 vs 1/24 greedy; speculative depth 2) |
 | Beam search over taxonomies | Which branches deserve expansion | Choice distributions as branch priority; keep K paths where ambiguity is early | Frontier, budget, final selection | **Empirical recipe** (beam K=3 cookbook) |
 | Screening / Wald sequential tests | Pass / fail / keep-looking per candidate | One Noul gate per candidate in one batched request; budget in code | Sequential rule, stop boundaries | **Hypothesis** |
-| Routing / dispatch (OR) | Which queue/agent owns this item | Choice + confidence-gated escalation; code owns capacity | Cost matrix, capacity constraints | **Empirical recipe** (intent-routing) |
+| Routing / dispatch (OR) | Which queue/agent owns this item | Choice + confidence-gated escalation; code owns capacity | Cost matrix, capacity constraints | **Empirical recipe** (intent-routing; LlamaIndex Jev selectors; skillranker) |
+| Cascade / prefilter (IR) | Cheap reject before an expensive scorer or LLM | Per-candidate Noul/Score; fail-open on drop, fail-closed on dispatch | Candidate generation, always-keep set, recall keys | **Empirical recipe** (classifying RAG passages; jevprune; git-jev-stage) |
 | Knapsack / portfolio selection | Per-item feature vector from text | Fan-out nouls/scores as features; optimizer in code | Constraint solver, weights | **Hypothesis** (mapping 1 shape) |
 
 ## Information theory & signals
@@ -57,7 +58,7 @@ judgment component is new).
 | Method | Judgment-shaped component | Jev substitution | Stays in code | Status |
 |---|---|---|---|---|
 | Claim–evidence entailment (NLI) | supports / contradicts / not-established per claim–source pair | One Choice per pair + review flag; judge against the cited source text only | Quote extraction, citation graph, audit log | **Empirical recipe** (citation_check cookbook) |
-| Spec vs artifact conformance (model checking mindset) | Property holds / violated / unverifiable for a named requirement | One Noul per requirement, batched; violated → named rule back into agent context (pi-warden shape) | Requirement enumeration, enforcement, logging | **Empirical recipe** (pi-warden: 6→0 rule breaks, 150 paired runs) |
+| Spec vs artifact conformance (model checking mindset) | Property holds / violated / unverifiable for a named requirement | One Noul per requirement, batched; violated → named rule back into agent context (pi-warden shape) | Requirement enumeration, enforcement, logging | **Empirical recipe** (pi-warden: 6→0 rule breaks, 150 paired runs; jev-pref: YOU define the rule) |
 | Type-checking analog | Does this planned call match the schema/operation/target? | Decomposed nouls over {request, schema, trace}; never trust a Jev pass as authorization | Real validation of operation+target in code | **Empirical recipe** (validation.md self-monitoring) |
 
 ## Economics & game theory
@@ -77,6 +78,10 @@ judgment component is new).
 - Cross-question Score comparability without a shared, versioned rubric.
 - Calibration certifying an individual answer — it describes groups.
 - Bandit value from Jev with no observed-reward environment.
+- Jev as a stack replacement for an LLM. Mixed architecture is the default
+  (`references/mixed-architecture.md`); generation, derivation, and exact
+  work stay off Jev. Classification-skepticism is answered with placement,
+  not a claim that classification is new.
 
 ## Operators and theorems (third tier)
 

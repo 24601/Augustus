@@ -134,3 +134,11 @@ Reusable shapes when generating applications:
 
 Calibration warning (calibre): routing thresholds and ROI do **not** transfer across
 datasets — every gate is a per-dataset measurement (see validation.md).
+
+10. **Mixed-architecture cascade** (2026-09-18 discourse + topic:jev movers):
+    Jev as gate/selector/verifier *around* a generator, never instead of one.
+    Cost-sensitive prefilter (drop chunks/lines/hunks before the LLM);
+    tool/skill routing (Choice + fits-Noul, code dispatches); preference lint
+    (project-defined rules as criteria). Fail-open vs fail-closed is per
+    action — LlamaIndex Jev rerank fails open (keep retrieval order), select
+    fails closed. Full card: `references/mixed-architecture.md`.

@@ -115,7 +115,8 @@ falsifying experiment fails to reject it; then enforce.
 
 ## Around a generative model
 
-Jev is often the control layer around an LLM, not a replacement:
+Jev is often the control layer around an LLM, not a replacement
+(`references/mixed-architecture.md` is the full placement card):
 
 - input → guardrail Nouls → LLM → citation/quality verification → code
   decides whether to return

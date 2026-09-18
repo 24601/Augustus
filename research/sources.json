@@ -1,1 +1,366 @@
-{"refresh_cadence": "hourly", "retrieved": "2026-09-18", "sources": [{"kind": "docs", "note": "Master index; start every refresh here", "title": "TypeSafe docs llms.txt", "url": "https://docs.typesafe.ai/llms.txt"}, {"kind": "docs", "note": "Core design guide; decomposition + composition rules", "title": "How to build with System One", "url": "https://docs.typesafe.ai/concepts/how-to-build-with-system-one.md"}, {"kind": "docs", "note": "Choice/Score/Noul shapes, parallel calls, 255-option limit", "title": "Primitives", "url": "https://docs.typesafe.ai/primitives.md"}, {"kind": "docs", "note": "Choice details, speculative questions, structured criteria", "title": "Choice", "url": "https://docs.typesafe.ai/primitives/choice.md"}, {"kind": "docs", "note": "Score reading, level writing, composite splitting; confirms score-ambiguity counterexample", "title": "Score", "url": "https://docs.typesafe.ai/primitives/score.md"}, {"kind": "docs", "note": "Confidence derivation + per-action thresholds", "title": "Confidence", "url": "https://docs.typesafe.ai/confidence.md"}, {"kind": "docs", "note": "Official failure modes for jev-1.13; re-read every refresh", "title": "Jev 1.13 jaggedness", "url": "https://docs.typesafe.ai/model-jaggedness/jev-1.13.md"}, {"kind": "docs", "note": "Decision-shape to use-case mapping", "title": "Use-case map", "url": "https://docs.typesafe.ai/concepts/use-case-map.md"}, {"kind": "docs", "note": "Pattern index: fan-out, confidence routing, composite, intent", "title": "Patterns", "url": "https://docs.typesafe.ai/patterns.md"}, {"kind": "docs", "note": "12.2x cheaper / 10x faster batching proof", "title": "Cookbook: parallel questions", "url": "https://docs.typesafe.ai/cookbooks/parallel_questions.md"}, {"kind": "docs", "note": "Beam K=3 vs greedy over CPC/Shopify/MeSH/codebase", "title": "Cookbook: hierarchical classification", "url": "https://docs.typesafe.ai/cookbooks/hierarchical_classification.md"}, {"kind": "docs", "note": "Rank-182 then rerank top-3; skill-modularity canonical recipe", "title": "Cookbook: skill suggestion", "url": "https://docs.typesafe.ai/cookbooks/skill_suggestion.md"}, {"kind": "docs", "note": "Two-stage retrieve-then-judge for RAG passages", "title": "Cookbook: classifying RAG passages", "url": "https://docs.typesafe.ai/cookbooks/classifying_rag_passages.md"}, {"kind": "docs", "note": "Citation support Choice + confidence review flag", "title": "Cookbook: citation check", "url": "https://docs.typesafe.ai/cookbooks/citation_check.md"}, {"kind": "docs", "note": "Screen LLM traffic both directions with threshold policy", "title": "Cookbook: LLM guardrails", "url": "https://docs.typesafe.ai/cookbooks/llm_guardrails.md"}, {"kind": "docs", "note": "Jev probabilities as CatBoost features; label-discipline reference", "title": "Cookbook: autoresearch feature discovery", "url": "https://docs.typesafe.ai/cookbooks/autoresearch_feature_discovery.md"}, {"kind": "docs", "note": "Install + usage for agent environments", "title": "Agent skill page", "url": "https://docs.typesafe.ai/agent-skill.md"}, {"kind": "docs", "note": "cURL + SDK minimal calls; response shapes", "title": "Quickstart", "url": "https://docs.typesafe.ai/introduction/quickstart.md"}, {"kind": "official", "note": "Launch post: RLCD, System One thesis, Doom demo, limits", "title": "Introducing System One Models & Jev (blog)", "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev"}, {"kind": "official", "note": "Our skill layers on top; never duplicate", "title": "Official typesafe-ai agent skill", "url": "https://github.com/typesafe-ai/skills/blob/main/skills/typesafe-ai/SKILL.md"}, {"kind": "official", "note": "Published workflows + methodology; check hourly", "title": "TypeSafe workflow evals", "url": "https://evals.typesafe.ai/"}, {"kind": "official", "note": "Pricing/latency/availability snapshot 2026-09-18", "title": "OpenRouter jev-1.13 page", "url": "https://openrouter.ai/typesafe/jev-1.13"}, {"kind": "index", "note": "Curated ecosystem index; last reviewed 2026-09-17; diff hourly", "title": "awesome-typesafe", "url": "https://github.com/AbdelStark/awesome-typesafe"}, {"kind": "repo", "note": "Per-block trading Choice, 81ms; 453 stars 2026-09-18", "title": "jarrodwatts/jev-trader", "url": "https://github.com/jarrodwatts/jev-trader"}, {"kind": "repo", "note": "Operation+target heads, 7.1s Flights; ~2100 stars", "title": "browser-use/jev-ultrafast", "url": "https://github.com/browser-use/jev-ultrafast"}, {"kind": "repo", "note": "Staged review workflow + dashboard", "title": "devagrawal09/jev-review", "url": "https://github.com/devagrawal09/jev-review"}, {"kind": "repo", "note": "Open-model interface-pattern baseline, not the model", "title": "TheoLeeCJ/openjev", "url": "https://github.com/TheoLeeCJ/openjev"}, {"kind": "repo", "note": "Jev-like one-pass probabilities + Doom/chess demos", "title": "vinnylarouge/jevlike", "url": "https://github.com/vinnylarouge/jevlike"}, {"kind": "repo", "note": "$0.0002/step + deterministic-state caveat", "title": "awlevin/typesafe-computer-use", "url": "https://github.com/awlevin/typesafe-computer-use"}, {"kind": "repo", "note": "500/50Hz code, Jev advisory 2.5Hz", "title": "RomanSlack/jev-drone", "url": "https://github.com/RomanSlack/jev-drone"}, {"kind": "repo", "note": "Emulator RAM to JSON to action Choice", "title": "fhshaik/typesafe-mario", "url": "https://github.com/fhshaik/typesafe-mario"}, {"kind": "repo", "note": "421 decisions through StarCraft campaign + verification", "title": "phyous/tsai-sc", "url": "https://github.com/phyous/tsai-sc"}, {"kind": "guide", "note": "Setup, 5 patterns, failure modes, 48h ships, honest scorecard", "title": "How to Use Jev (dev.to, Valyu)", "url": "https://dev.to/valyuai/how-to-use-jev-a-practical-guide-to-typesafes-system-one-model-g5e"}, {"kind": "guide", "note": "System One explainer with function-call framing", "title": "DataCamp: Jev System One Model", "url": "https://www.datacamp.com/blog/system-one-models-jev"}, {"kind": "press", "note": "$40M, Doom demo 0.114s vs 8.566s Terra, hallucination nuance", "title": "The Register: TypeSafe debuts", "url": "https://www.theregister.com/ai-and-ml/2026/09/16/typesafe-ai-debuts-model-for-machines-that-plays-doom/5296711"}, {"kind": "guide", "note": "Architecture/pricing/limits FAQ, honest-limits framing", "title": "Truescho: Jev millisecond decisions", "url": "https://truescho.com/en/blog/typesafe-jev-system-one-models-2026"}, {"kind": "social", "note": "Founder launch thread (RLCD, 20-200x, 40-400x)", "title": "X: @CompleteSkeptic launch", "url": "https://x.com/typesafeai/status/2099944756931596454"}, {"kind": "social", "note": "Flights demo + dynamic action space", "title": "X: Browser Use + Jev demo", "url": "https://x.com/gregpr07/status/2100411066966749359"}, {"kind": "social", "note": "1018-paper pipeline ($3.99 + $0.08)", "title": "X: 1kpapers thread", "url": "https://x.com/nutlope/status/2100426999546184123"}, {"kind": "commentary", "note": "Substack: RLCD explainer", "title": "Anthony Maio: model that won't talk", "url": "https://anthonymaio.substack.com/p/jev-the-language-model-that-wont"}, {"kind": "commentary", "note": "Independent claims-vs-evidence walkthrough", "title": "warmersun.com: Typed Decisions, Not Chat", "url": "https://warmersun.com/jev/"}, null, {"kind": "repo", "note": "2026-09-18 late pass (missed by star-sorted limit-40 search \u2014 see method note): paulobueno164/jev-mcts + lhemerly/mcts-agent are the MCTS artifacts; 12 more low-star repos added to jev-archive (open-jev x2, jevbetter, jev-experiments, jev-benchmarks, mario-jev, Jev-Moderation-Bot, typesafe-mcp, 2 Go clients, jev-on-a-laptop, jev-me). Search fix: paginate ALL results, never sort-by-stars with a low limit.", "title": "MCTS+Jev repos and search-method fix", "url": "https://github.com/paulobueno164/jev-mcts"}, {"kind": "index", "note": "2026-09-18: topic index crawl added ~80 repos (archive=184 clones). Key additions: jev-as-a-judge (judge variance 224-279x lower than GPT judge over 100 reps), ndolinschi gate family, jev-dsl, qwen-rlcd reproduction, awesome-jev-by-typesafe 18-usecase map.", "title": "topics/jev + awesome-jev-by-typesafe", "url": "https://github.com/topics/jev"}, {"kind": "repo", "note": "2026-09-18: ax-llm/ax added native typesafe provider (ai({name:'typesafe', trueThreshold}) + typesafe().systemOne(), TS-only). DSPy via typesafeainate/dspy-typesafeify decorator PoC + jmanhype/jev-dspy-lab measurement lab (calibration, selective risk, threshold sweep discipline). Skill gains references/optimizer-integration.md.", "title": "ax-llm/ax + dspy-typesafeify", "url": "https://github.com/ax-llm/ax"}]}
+{
+  "refresh_cadence": "hourly",
+  "retrieved": "2026-09-18T14:42Z",
+  "sources": [
+    {
+      "kind": "docs",
+      "note": "Master index; start every refresh here",
+      "title": "TypeSafe docs llms.txt",
+      "url": "https://docs.typesafe.ai/llms.txt"
+    },
+    {
+      "kind": "docs",
+      "note": "Core design guide; decomposition + composition rules",
+      "title": "How to build with System One",
+      "url": "https://docs.typesafe.ai/concepts/how-to-build-with-system-one.md"
+    },
+    {
+      "kind": "docs",
+      "note": "Choice/Score/Noul shapes, parallel calls, 255-option limit",
+      "title": "Primitives",
+      "url": "https://docs.typesafe.ai/primitives.md"
+    },
+    {
+      "kind": "docs",
+      "note": "Choice details, speculative questions, structured criteria",
+      "title": "Choice",
+      "url": "https://docs.typesafe.ai/primitives/choice.md"
+    },
+    {
+      "kind": "docs",
+      "note": "Score reading, level writing, composite splitting; confirms score-ambiguity counterexample",
+      "title": "Score",
+      "url": "https://docs.typesafe.ai/primitives/score.md"
+    },
+    {
+      "kind": "docs",
+      "note": "Confidence derivation + per-action thresholds",
+      "title": "Confidence",
+      "url": "https://docs.typesafe.ai/confidence.md"
+    },
+    {
+      "kind": "docs",
+      "note": "Official failure modes for jev-1.13; re-read every refresh",
+      "title": "Jev 1.13 jaggedness",
+      "url": "https://docs.typesafe.ai/model-jaggedness/jev-1.13.md"
+    },
+    {
+      "kind": "docs",
+      "note": "Decision-shape to use-case mapping",
+      "title": "Use-case map",
+      "url": "https://docs.typesafe.ai/concepts/use-case-map.md"
+    },
+    {
+      "kind": "docs",
+      "note": "Pattern index: fan-out, confidence routing, composite, intent. Live mixed-architecture contracts — do not duplicate request fields in Augustus; point here + typesafe-ai skill.",
+      "title": "Patterns",
+      "url": "https://docs.typesafe.ai/patterns.md"
+    },
+    {
+      "kind": "docs",
+      "note": "12.2x cheaper / 10x faster batching proof",
+      "title": "Cookbook: parallel questions",
+      "url": "https://docs.typesafe.ai/cookbooks/parallel_questions.md"
+    },
+    {
+      "kind": "docs",
+      "note": "Beam K=3 vs greedy over CPC/Shopify/MeSH/codebase",
+      "title": "Cookbook: hierarchical classification",
+      "url": "https://docs.typesafe.ai/cookbooks/hierarchical_classification.md"
+    },
+    {
+      "kind": "docs",
+      "note": "Rank-182 then rerank top-3; skill-modularity canonical recipe",
+      "title": "Cookbook: skill suggestion",
+      "url": "https://docs.typesafe.ai/cookbooks/skill_suggestion.md"
+    },
+    {
+      "kind": "docs",
+      "note": "Two-stage retrieve-then-judge for RAG passages",
+      "title": "Cookbook: classifying RAG passages",
+      "url": "https://docs.typesafe.ai/cookbooks/classifying_rag_passages.md"
+    },
+    {
+      "kind": "docs",
+      "note": "Citation support Choice + confidence review flag",
+      "title": "Cookbook: citation check",
+      "url": "https://docs.typesafe.ai/cookbooks/citation_check.md"
+    },
+    {
+      "kind": "docs",
+      "note": "Screen LLM traffic both directions with threshold policy",
+      "title": "Cookbook: LLM guardrails",
+      "url": "https://docs.typesafe.ai/cookbooks/llm_guardrails.md"
+    },
+    {
+      "kind": "docs",
+      "note": "Jev probabilities as CatBoost features; label-discipline reference",
+      "title": "Cookbook: autoresearch feature discovery",
+      "url": "https://docs.typesafe.ai/cookbooks/autoresearch_feature_discovery.md"
+    },
+    {
+      "kind": "docs",
+      "note": "Install + usage for agent environments",
+      "title": "Agent skill page",
+      "url": "https://docs.typesafe.ai/agent-skill.md"
+    },
+    {
+      "kind": "docs",
+      "note": "cURL + SDK minimal calls; response shapes",
+      "title": "Quickstart",
+      "url": "https://docs.typesafe.ai/introduction/quickstart.md"
+    },
+    {
+      "kind": "official",
+      "note": "Launch post: RLCD, System One thesis, Doom demo, limits",
+      "title": "Introducing System One Models & Jev (blog)",
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
+    },
+    {
+      "kind": "official",
+      "note": "Our skill layers on top; never duplicate",
+      "title": "Official typesafe-ai agent skill",
+      "url": "https://github.com/typesafe-ai/skills/blob/main/skills/typesafe-ai/SKILL.md"
+    },
+    {
+      "kind": "official",
+      "note": "Published workflows + methodology; check hourly",
+      "title": "TypeSafe workflow evals",
+      "url": "https://evals.typesafe.ai/"
+    },
+    {
+      "kind": "official",
+      "note": "Pricing/latency/availability snapshot 2026-09-18",
+      "title": "OpenRouter jev-1.13 page",
+      "url": "https://openrouter.ai/typesafe/jev-1.13"
+    },
+    {
+      "kind": "index",
+      "note": "Curated ecosystem index; last reviewed 2026-09-17; diff hourly",
+      "title": "awesome-typesafe",
+      "url": "https://github.com/AbdelStark/awesome-typesafe"
+    },
+    {
+      "kind": "repo",
+      "note": "Per-block trading Choice, 81ms; 453 stars 2026-09-18",
+      "title": "jarrodwatts/jev-trader",
+      "url": "https://github.com/jarrodwatts/jev-trader"
+    },
+    {
+      "kind": "repo",
+      "note": "Operation+target heads, 7.1s Flights; ~2100 stars",
+      "title": "browser-use/jev-ultrafast",
+      "url": "https://github.com/browser-use/jev-ultrafast"
+    },
+    {
+      "kind": "repo",
+      "note": "Staged review workflow + dashboard",
+      "title": "devagrawal09/jev-review",
+      "url": "https://github.com/devagrawal09/jev-review"
+    },
+    {
+      "kind": "repo",
+      "note": "Open-model interface-pattern baseline, not the model",
+      "title": "TheoLeeCJ/openjev",
+      "url": "https://github.com/TheoLeeCJ/openjev"
+    },
+    {
+      "kind": "repo",
+      "note": "Jev-like one-pass probabilities + Doom/chess demos",
+      "title": "vinnylarouge/jevlike",
+      "url": "https://github.com/vinnylarouge/jevlike"
+    },
+    {
+      "kind": "repo",
+      "note": "$0.0002/step + deterministic-state caveat",
+      "title": "awlevin/typesafe-computer-use",
+      "url": "https://github.com/awlevin/typesafe-computer-use"
+    },
+    {
+      "kind": "repo",
+      "note": "500/50Hz code, Jev advisory 2.5Hz",
+      "title": "RomanSlack/jev-drone",
+      "url": "https://github.com/RomanSlack/jev-drone"
+    },
+    {
+      "kind": "repo",
+      "note": "Emulator RAM to JSON to action Choice",
+      "title": "fhshaik/typesafe-mario",
+      "url": "https://github.com/fhshaik/typesafe-mario"
+    },
+    {
+      "kind": "repo",
+      "note": "421 decisions through StarCraft campaign + verification",
+      "title": "phyous/tsai-sc",
+      "url": "https://github.com/phyous/tsai-sc"
+    },
+    {
+      "kind": "guide",
+      "note": "Setup, 5 patterns, failure modes, 48h ships, honest scorecard",
+      "title": "How to Use Jev (dev.to, Valyu)",
+      "url": "https://dev.to/valyuai/how-to-use-jev-a-practical-guide-to-typesafes-system-one-model-g5e"
+    },
+    {
+      "kind": "guide",
+      "note": "System One explainer with function-call framing",
+      "title": "DataCamp: Jev System One Model",
+      "url": "https://www.datacamp.com/blog/system-one-models-jev"
+    },
+    {
+      "kind": "press",
+      "note": "$40M, Doom demo 0.114s vs 8.566s Terra, hallucination nuance",
+      "title": "The Register: TypeSafe debuts",
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/16/typesafe-ai-debuts-model-for-machines-that-plays-doom/5296711"
+    },
+    {
+      "kind": "guide",
+      "note": "Architecture/pricing/limits FAQ, honest-limits framing",
+      "title": "Truescho: Jev millisecond decisions",
+      "url": "https://truescho.com/en/blog/typesafe-jev-system-one-models-2026"
+    },
+    {
+      "kind": "social",
+      "note": "Founder launch thread (RLCD, 20-200x, 40-400x)",
+      "title": "X: @CompleteSkeptic launch",
+      "url": "https://x.com/typesafeai/status/2099944756931596454"
+    },
+    {
+      "kind": "social",
+      "note": "Flights demo + dynamic action space",
+      "title": "X: Browser Use + Jev demo",
+      "url": "https://x.com/gregpr07/status/2100411066966749359"
+    },
+    {
+      "kind": "social",
+      "note": "1018-paper pipeline ($3.99 + $0.08)",
+      "title": "X: 1kpapers thread",
+      "url": "https://x.com/nutlope/status/2100426999546184123"
+    },
+    {
+      "kind": "commentary",
+      "note": "Substack: RLCD explainer",
+      "title": "Anthony Maio: model that won't talk",
+      "url": "https://anthonymaio.substack.com/p/jev-the-language-model-that-wont"
+    },
+    {
+      "kind": "commentary",
+      "note": "Independent claims-vs-evidence walkthrough",
+      "title": "warmersun.com: Typed Decisions, Not Chat",
+      "url": "https://warmersun.com/jev/"
+    },
+    {
+      "kind": "repo",
+      "note": "2026-09-18 late pass (missed by star-sorted limit-40 search \u2014 see method note): paulobueno164/jev-mcts + lhemerly/mcts-agent are the MCTS artifacts; 12 more low-star repos added to jev-archive (open-jev x2, jevbetter, jev-experiments, jev-benchmarks, mario-jev, Jev-Moderation-Bot, typesafe-mcp, 2 Go clients, jev-on-a-laptop, jev-me). Search fix: paginate ALL results, never sort-by-stars with a low limit.",
+      "title": "MCTS+Jev repos and search-method fix",
+      "url": "https://github.com/paulobueno164/jev-mcts"
+    },
+    {
+      "kind": "index",
+      "note": "2026-09-18: topic index crawl added ~80 repos (archive=184 clones). Key additions: jev-as-a-judge (judge variance 224-279x lower than GPT judge over 100 reps), ndolinschi gate family, jev-dsl, qwen-rlcd reproduction, awesome-jev-by-typesafe 18-usecase map. | Window 2026-09-18T13:39Z\u201314:39Z, 34 repos. Snapshot: research/archive/hourly/2026-09-18T14/github-topic-jev-last-hour.json",
+      "title": "topics/jev + awesome-jev-by-typesafe",
+      "url": "https://github.com/topics/jev"
+    },
+    {
+      "kind": "repo",
+      "note": "2026-09-18: ax-llm/ax added native typesafe provider (ai({name:'typesafe', trueThreshold}) + typesafe().systemOne(), TS-only). DSPy via typesafeainate/dspy-typesafeify decorator PoC + jmanhype/jev-dspy-lab measurement lab (calibration, selective risk, threshold sweep discipline). Skill gains references/optimizer-integration.md.",
+      "title": "ax-llm/ax + dspy-typesafeify",
+      "url": "https://github.com/ax-llm/ax"
+    },
+    {
+      "kind": "archive",
+      "title": "Hourly X+GH scan 2026-09-18T14",
+      "url": "research/archive/hourly/2026-09-18T14/USAGE-DIGEST.md",
+      "note": "2026-09-18 13:39\u201314:39 UTC: X theme digest (~400 posts) + topic:jev movers (34). Design signal: mixed architecture default; classification skepticism \u2192 placement. Raw JSON alongside this digest."
+    },
+    {
+      "kind": "social",
+      "title": "X: mixed-architecture default (seb_jsilva)",
+      "url": "https://x.com/i/status/2100957104567685310",
+      "note": "Decision model for classification + LLM for writing; too early as stack replacement."
+    },
+    {
+      "kind": "social",
+      "title": "X: classification skepticism (dt_sqr)",
+      "url": "https://x.com/i/status/2100957356389511173",
+      "note": "Jev is classification / oldest AI task \u2014 answered in mixed-architecture.md, not claimed as novelty."
+    },
+    {
+      "kind": "social",
+      "title": "X: cost/prefilter (buildwith_yash)",
+      "url": "https://x.com/i/status/2100957729208893516",
+      "note": "Cheap irrelevance judgments before the main model as a cost lever."
+    },
+    {
+      "kind": "social",
+      "title": "X: Toolrouter ships Jev routing",
+      "url": "https://x.com/i/status/2100957104752238821",
+      "note": "Product example of selector position; Hypothesis until measured on your catalog."
+    },
+    {
+      "kind": "repo",
+      "title": "ibrahemid/git-jev-stage",
+      "url": "https://github.com/ibrahemid/git-jev-stage",
+      "note": "Per-hunk Choice include/exclude/mixed; exact patch; mixed unstaged. Candidates from git diff."
+    },
+    {
+      "kind": "repo",
+      "title": "ibrahemid/jevprune",
+      "url": "https://github.com/ibrahemid/jevprune",
+      "note": "Per-line relevance vs task; always-keep last-N + error signatures in code; full output recoverable."
+    },
+    {
+      "kind": "repo",
+      "title": "WiktorB2004/llama-index-jev",
+      "url": "https://github.com/WiktorB2004/llama-index-jev",
+      "note": "Rerank fails open (BEIR nfcorpus MiniLM 0.340\u21920.396 nDCG@5); select fails closed. Per-action fail policy."
+    },
+    {
+      "kind": "repo",
+      "title": "doeixd/jev-pref",
+      "url": "https://github.com/doeixd/jev-pref",
+      "note": "AGENTS.md \u2192 Jev linter. Contract: YOU define the rule; JEV classifies evidence; CODE maps outcome."
+    },
+    {
+      "kind": "repo",
+      "title": "yousudip/lizard-agent",
+      "url": "https://github.com/yousudip/lizard-agent",
+      "note": "Browser agent, no LLM in the loop; extractive answers; prices/dates in code."
+    },
+    {
+      "kind": "repo",
+      "title": "kylemclaren/jevql",
+      "url": "https://github.com/kylemclaren/jevql",
+      "note": "Semantic SQL jev()/jev_prob(); DB sees ordinary SQL (CLI rewrite)."
+    },
+    {
+      "kind": "repo",
+      "title": "aaravriyer193/OpenSmoke",
+      "url": "https://github.com/aaravriyer193/OpenSmoke",
+      "note": "Jev over every agent step; LLM autopsy only on flagged runs. Attention cascade."
+    },
+    {
+      "kind": "repo",
+      "title": "harrymunro/decision-first",
+      "url": "https://github.com/harrymunro/decision-first",
+      "note": "Neighbor skill: try typed decision before regex + lab log. Do not absorb."
+    },
+    {
+      "kind": "repo",
+      "title": "simota/tenbin",
+      "url": "https://github.com/simota/tenbin",
+      "note": "Neighbor skill: design-time lint/eval/thresholds. Do not absorb."
+    },
+    {
+      "kind": "repo",
+      "title": "FirasSX914/Janus",
+      "url": "https://github.com/FirasSX914/Janus",
+      "note": "Measure when Jev vs other models win on your data, then route."
+    },
+    {
+      "kind": "repo",
+      "title": "rongxinzy/LightJev",
+      "url": "https://github.com/rongxinzy/LightJev",
+      "note": "Train lightweight decision backbones. Reproduce/open; not an Augustus implementation."
+    }
+  ]
+}

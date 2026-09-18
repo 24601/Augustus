@@ -9,6 +9,32 @@ revision it was written against. That skill owns integration contracts;
 Augustus owns design judgment. Re-read live TypeSafe docs before treating a
 pin as current API behavior.
 
+## [0.3.0] - 2026-09-18
+
+Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skills/tree/v0.5.7)
+(`65a39f3`, 2026-09-12).
+
+### Added
+
+- Mixed-architecture card: default placement is decision model + generator +
+  code, not stack replacement. Covers cost-sensitive prefilter (fail-open vs
+  fail-closed per action), tool/skill routing, AGENTS.md preference lint, a
+  placement gallery from the 2026-09-18 X+GH hour, and an explicit answer to
+  "Jev is just classification"
+- Protocol branch and mapping-index rows for those four placements
+- Non-negotiable: classification is not the product; typed judgment is a
+  software primitive placed beside generation
+- Hourly research archive for this pass (X theme digest + `topic:jev` movers)
+  under `research/archive/hourly/2026-09-18T14/`
+
+### Changed
+
+- Skill description rewritten as trigger conditions (mixed architecture,
+  prefilter, routing, preference lint, classification skepticism) plus an
+  explicit `not_for` against the official `typesafe-ai` skill
+- Identity lock vs neighbor skills (`typesafe-ai`, `tenbin`, `decision-first`)
+  so Augustus stays the design-judgment layer
+
 ## [0.2.0] - 2026-09-18
 
 Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skills/tree/v0.5.7)

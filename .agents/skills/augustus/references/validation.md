@@ -72,7 +72,7 @@ until behavioral evals over replayed fixtures pass; then flip to enforcement. As
 on the *action* (block/warn/pass), not on free text. This is the safe path for any
 confidence gate added to an existing pipeline.
 
- (by agents and by Jev rankers)
+## Frontmatter (by agents and by Jev rankers)
 
 - `name`: gerund, hyphenated, matches directory; specific over clever.
 - `description`: third person, what + when, with the trigger terms users
