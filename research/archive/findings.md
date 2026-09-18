@@ -449,6 +449,35 @@ No Jev wrapper.
 Cross-repo addition: (aj) decision-surface choice is an axis table, not
 a sixth species; (ak) rank-next-test is VOI, not diagnosis.
 
+## Batch #20 (2026-09-18, marginals / Nimble / djev-spark)
 
+Notes: `research/notes.md` §34–§37. Cards: `judgment-class.md`
+(marginals; holes table extended; Nimble subsection); FAQ; one
+mental-models sentence; one `validation.md` sentence. Not a PPL
+tutorial and not a serving how-to.
+
+- **Erik Meijer (claim, his correction):** Jev is a cool API and not
+  probabilistic programming. Kleisli qualifications exaggerate. Gloss
+  he endorses: marginals vs joint.
+  [Post](https://x.com/headinthebox/status/2100984170004824221).
+  Matches §31 isolation; does not restate the essay. Joints and
+  invariants stay with TLA+ / Alloy / contracts.
+- **Bespoke Nimble (Empirical as their README receipt):** contrastive
+  hard labels, not a Jev distill. 2,676 train / 324 holdout. Agreement
+  90.12% / Jev 1.13.0 93.21% / untuned Qwen3.8-27B 84.88% / base 9B
+  66.36%. Model card Apache-2.0 LoRA on Qwen3.5-9B; repo license
+  absent. 9B-enough is **Hypothesis**. Tweet 100ms dropped.
+  [README](https://github.com/bespokelabsai/nimble).
+- **djev-spark (Empirical as interface; Hypothesis as a win):**
+  DiffusionGemma 26B-A4B NVFP4, Jev-shaped I/O, images beyond stock
+  Jev. Third compute graph beside a decision head and TypeAR.
+  [README](https://github.com/mmastrac/djev-spark). Archer drop stays
+  WATCH.
+- **tenderizzation:** "welcome back ResNet-50." Discourse only. FAQ
+  not expanded.
+
+Cross-repo addition: (al) open contrastive recipe as a decision-head
+data pattern beside RLCD; (am) diffusion structured reads as a third
+Jev-shaped compute graph.
 
 

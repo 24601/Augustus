@@ -248,4 +248,26 @@
   routeKit. HacksonClark SREGym-Lite 20/50→24/50; Coppe placement
   sentence. No wrapper, no install copy.
 - notes.md §33; sources.json; findings.md batch #19.
+## 2026-09-18 17:20 UTC — marginals, Nimble, djev-spark
 
+- Meijer post HTTP 200, `note_tweet` present. Jev is not probabilistic
+  programming; Kleisli qualifications exaggerate; endorsed gloss is
+  marginals vs joint. Card in `judgment-class.md`; FAQ row; one
+  decision-theory sentence. No category-theory tutorial. Joints stay
+  with TLA+/Alloy/contracts. notes.md §34.
+- Nimble README + HF card + announcement, all HTTP 200. Did not distill
+  from Jev. Hard synthetic labels; 2,676 used to train / 324 holdout.
+  Table: Nimble 90.12%, Jev 1.13.0 93.21%, untuned Qwen3.8-27B 84.88%,
+  base 9B 66.36%. Named receipt, not a ranking. Model card Apache-2.0
+  LoRA on Qwen3.5-9B; repo LICENSE 404. Tweet "100ms" and rounded
+  percents not promoted. 9B-vs-Jev on your labels is Hypothesis.
+  notes.md §35. One `validation.md` sentence. No serving snippets in
+  skill cards.
+- djev-spark README HTTP 200. DiffusionGemma 26B-A4B NVFP4; Jev-shaped
+  API; images are an extension; sequential / think / entropy-triggered
+  samples in the README. vLLM PR 57250 HTTP 200, patch not reviewed.
+  Empirical as interface; Hypothesis as a win over a decision head.
+  Holes table extended; essay not rewritten. License null. notes.md §36.
+- tenderizzation "welcome back ResNet-50": one sentence, notes.md §37.
+  Classification FAQ not expanded.
+- Identity lock holds. No CLI, env, ports, or install in SKILL.md.

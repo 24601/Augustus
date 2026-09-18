@@ -75,7 +75,11 @@ pick    = argmin_act  E[loss | belief]                       # arithmetic in cod
 **Transfers:** act / decline / gather / escalate from the distribution;
 one threshold per *action*, not per model. **Does not:** a universal 0.8;
 treating top-Choice mass as P(the world will cooperate); multiplying
-parallel Nouls into a joint.
+parallel Nouls into a joint. A Jev-class call is factorized **marginals**
+over isolated questions, not a probabilistic program: the joint lives in
+code, a sequential decode, or a generative decoder, and Kleisli talk is
+the exaggeration ([Meijer, 2026-09-18](https://x.com/headinthebox/status/2100984170004824221);
+`judgment-class.md`).
 
 | Domain | Belief | Acts policy owns | Exact work |
 |---|---|---|---|

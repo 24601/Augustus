@@ -31,6 +31,22 @@ matching the model's *objective* to the action's fail policy. Frames:
 `mental-models.md`. Placement: `mixed-architecture.md`. Families:
 `judgment-class.md`.
 
+## Is Jev probabilistic programming?
+
+No. It is a cool typed-decision API, not a probabilistic programming
+language, and Kleisli-arrow qualifications are an exaggeration
+([Erik Meijer, 2026-09-18](https://x.com/headinthebox/status/2100984170004824221)).
+The gloss he endorses: **Jev gives you the marginals; a decoder gives
+you the joint.** One call is factorized marginals over isolated
+questions on shared state — the same isolation as the architecture
+reconstruction (`notes.md` §31), not a second essay. The joint lives
+in application code, sequential TypeAR, or a generative decoder. Teach
+decision theory, calibration, and value of information
+(`mental-models.md`), not category theory. Joints and invariants:
+TLA+ / Alloy / contracts (`formal-methods.md`). Fast calibrated
+factors: System One. A Noul is still not a proof.
+`judgment-class.md`.
+
 ## Should we replace the LLM / the stack?
 
 No. Default is mixed architecture: code owns control, the judgment provider

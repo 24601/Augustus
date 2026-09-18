@@ -1490,3 +1490,149 @@ Cards: `judgment-class.md` when-to-use; FAQ; `applied-mappings.md` §1 /
 §3 / §5; `mappings.md` §5 (tree) and §6 (next-test as gather);
 `mixed-architecture.md` on-device + routeKit; `validation.md` mini-jev
 IIA surface; `formal-methods.md` logit dump still isn't a proof.
+## 34. Erik Meijer — not probabilistic programming (2026-09-18)
+
+[Post](https://x.com/headinthebox/status/2100984170004824221) (Erik
+Meijer, `headinthebox`, 2026-09-18T16:23:55Z). HTTP 200. X API
+`note_tweet` is the full text. It quotes
+[jamespearce](https://x.com/jamespearce/status/2100859300038234473)
+asking for a take given Meijer's Facebook probabilistic-programming
+history. **Claim** as his correction, not a TypeSafe contract.
+
+**What he says.** "I think Jev is a cool API, but it is not
+probabilistic programming; qualifying it as a Kleisli arrow that I
+have seen people do here is exaggerating." He endorses the gloss:
+**"Jev gives you the marginals; a decoder gives you the joint."** In
+ordinary words from the note, not a category-theory lesson: N questions
+about one fixed state are a fan-out. You get N marginals, not a
+distribution over the tuple. The jointly best answer need not be the
+tuple of marginally best answers. A later question is read off the
+same state, never off an earlier answer, and there is no conditioning
+update. He says Jev emits a fixed readout.
+
+**Design card** (`judgment-class.md`). System One / Jev-class =
+factorized marginals over typed questions given shared state. That is
+§31 item 7 and the compute-graph card, cited, not copied. The joint
+lives in application code, sequential TypeAR, or a generative decoder,
+not inside one Jev call. Do not market or teach Jev as a probabilistic
+programming language or as Kleisli sugar. Frames: decision theory,
+calibration, value of information (`mental-models.md`). Joints and
+invariants: TLA+ / Alloy / contracts. Fast calibrated factors: System
+One. One paragraph there, not a new formal-methods doctrine. A Noul is
+still not a proof.
+
+FAQ row. One mental-models sentence. One SKILL.md trigger.
+
+## 35. Bespoke Nimble — open recipe, not a distill (2026-09-18)
+
+HTTP 200 this pass:
+[bespokelabsai/nimble](https://github.com/bespokelabsai/nimble) README
+(raw `main`),
+[bespokelabs/Bespoke-Nimble-9B](https://huggingface.co/bespokelabs/Bespoke-Nimble-9B),
+[announcement](https://x.com/madiator/status/2100990591215783946)
+(Mahesh Sathiamoorthy, `madiator`, 2026-09-18T16:49:26Z; `note_tweet`
+present).
+
+**License.** Model-card frontmatter: `apache-2.0`, `library_name:
+peft`, `base_model: Qwen/Qwen3.5-9B`, `base_model_relation: adapter`,
+tag `lora`. **Contract** as that card. GitHub API `license` is null;
+raw `LICENSE` is HTTP 404. The repository is not Apache-2.0 on the
+evidence in hand.
+
+**Recipe (Contract as the README).** They did not distill from Jev.
+LoRA on Qwen3.5-9B (rank 16, lr 5e-5, effective batch 8, seed 17, one
+epoch, BF16, 2,048-token limit), cross-entropy over allowed candidate
+logits, hard reference labels not derived from Jev. Saved Jev
+probabilities are described as available for a future soft-target run,
+not used in the published objective. Contrastive curation: two examples
+differ in one focus fact (at most eight words in one evidence
+sentence) so the correct answer flips; question and policy stay.
+Labels are synthetic; a model checked them; no person has reviewed
+them. `data/train.jsonl` has 2,826 rows; 2,676 trained the published
+model, across 10 categories. Holdout `data/eval.jsonl` is 324 examples
+(162 pairs, six source families). The tweet adds "No RL yet" and
+"calibration is implicit." The README says temperature was not tuned
+so probabilities match how often answers are right. Implicit
+calibration is a **claim**, not a measured ECE.
+
+**Holdout agreement (Empirical as their named receipt, not a
+ranking).** Same 324 synthetic labels. Not re-run here.
+
+| Model | Matches | Agreement |
+|---|---:|---:|
+| Jev 1.13.0 | 302/324 | 93.21% |
+| Bespoke-Nimble-9B | 292/324 | 90.12% |
+| Qwen3.8-27B (untuned, their word) | 275/324 | 84.88% |
+| Qwen3.5-9B base | 215/324 | 66.36% |
+
+The announcement rounds these to about 93 / 90 / 66. The infographic
+rounds to 93.2 / 90.1 / 66.4. The table is the receipt. They call the
+test narrow. Jev figures are a reused API run; Nimble figures a reused
+earlier H100 run. **Hypothesis:** a 9B open LoRA is enough versus
+proprietary Jev on your labels. The 3.09-point gap on this set is an
+existence proof that the gap can be small, not an ordering.
+
+**Serving (README; not copied into skill cards).** Candidate codes are
+one token; logits become probabilities by softmax. On Mac,
+`ParallelScorer` processes the shared context once, then scores
+fields. The CUDA scorer repeats the full prompt per field. Fields
+cannot see each other. Text only, even though the base model has a
+vision part. An enum has 1 to 26 choices. Prompts over 2,048 tokens
+are rejected, not truncated. Probabilities sum to 1 over the supplied
+candidates and are not a correctness guarantee; add an answer that
+means "no match" if none may fit. That is the standing
+Choice-conditional-on-offered-set boundary, pointed at, not restated.
+The tweet's "100ms on H100" is not the table: Nimble median 106.0 ms
+on 120 H100 examples, and 444.0 ms median on an M5 Pro for all 324.
+"Parallel constrained decoding" is the announcement's name for the
+serving idea; the README mechanism is candidate-logit scoring. Do not
+promote 100ms.
+
+**Placement.** (a) open training recipe for the class; (b) contrastive
+curation beside RLCD, not a replacement; (c) Hypothesis until your
+labels; (d) jevals bake-off candidate beside Laya / openjev-lm /
+TypeAR. Not a how-to. Card: `judgment-class.md`. One sentence:
+`validation.md`.
+
+## 36. djev-spark — diffusion backbone, Jev-shaped I/O (2026-09-18)
+
+[mmastrac/djev-spark](https://github.com/mmastrac/djev-spark) README
+HTTP 200. GitHub API license null. Description: "DiffusionGemma NVFP4
+structured decisions on a DGX Spark: container recipe." Pushed
+2026-09-18T17:03:19Z.
+
+**What the README says (Contract as that file).** DiffusionGemma
+26B-A4B (NVFP4) on a DGX Spark, or another GB10 box. A container runs
+an engine with structured-reads patches and a server that speaks Jev's
+`POST /v1/systemone`. Patches cited as
+[vllm-project/vllm#57250](https://github.com/vllm-project/vllm/pull/57250)
+(HTTP 200; patch body not reviewed) on fork branch
+`structured-reads-spark` (HTTP 200). `model` is ignored. No API key
+unless one is set. Images are an extension: the README says Jev's API
+has no images; this server takes multipart or JSON base64, ahead of
+the state. `think` and `sequential` need a text-only state and return
+422 with images. `sequential` (default false) runs chunks so later
+answers condition on earlier ones. `think` (default 0) allows tokens
+before the read. `samples` defaults to `"auto"`: one read, then more
+if entropy is above `auto_threshold` (default 0.1), up to `auto_max`
+(default 4). Latency tables on one GX10, dated 2026-09-18, are
+**their** receipt — not re-run, not a class benchmark. Do not copy
+routes, ports, env, or patches into skill cards.
+
+**Status.** **Empirical** as a public repo and interface claim.
+**Hypothesis** that diffusion structured reads beat a trained decision
+head on your task. Third compute graph for Jev-shaped I/O: trained
+decision-only transformer, constrained AR (TypeAR, §32), this.
+Image-in System One without waiting on Hume's audio-less drop, which
+stays **WATCH** (§31). Not a new species. The holes table in
+`judgment-class.md` is extended with this graph; the seven-point essay
+is not rewritten.
+
+## 37. Light discourse — "welcome back ResNet-50" (2026-09-18)
+
+[tenderizzation](https://x.com/tenderizzation/status/2100766765043343689)
+(2026-09-18T02:00:01Z, HTTP 200, no `note_tweet`; the `text` field is
+the whole post): "when they said it was a classification model it
+suddenly all made sense. welcome back ResNet-50." Cultural landing of
+"it's just classification." Not a design card. The FAQ already answers
+that question and was not expanded.

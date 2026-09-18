@@ -36,7 +36,7 @@ taxonomy with enough of *your* data (XGBoost still wins there —
 | Family | What it optimizes | Typical output | Use when | Watch |
 |---|---|---|---|---|
 | **Closed decision API** (TypeSafe Jev) | Calibrated decision (proper-scoring / RLCD lineage) | Choice / Score / Noul + distributions | Default when you need act/abstain, fan-out, documented envelope | Cloud, pin version, re-measure on your data. AU health data-residency is a reason *not* to pick this family (`notes.md` §33) |
-| **Open System-1 / decision-model head** (Laya, openjev, LightJev, openjev-lm, Hume **Watch**) | Same *shape* as Jev, you host it | Same primitives or logits-as-options | Air-gap, $0/token, inspectable weights, deployment control | Self-eval duty; Laya text-only, 512 tok; vendor vs-Jev tables are claims (`notes.md` §18). A distill learns the *teacher's* answers: openjev-lm and jev-gate-student-b (`notes.md` §25, §33). Hume's 27B dense drop is **Watch**, not a Hub checkpoint. He prefers the class name **decision models** over "system one" |
+| **Open System-1 / decision-model head** (Laya, openjev, LightJev, openjev-lm, Nimble, Hume **Watch**) | Same *shape* as Jev, you host it | Same primitives or logits-as-options | Air-gap, $0/token, inspectable weights, deployment control | Self-eval duty; Laya text-only, 512 tok; vendor vs-Jev tables are claims (`notes.md` §18). A distill learns the *teacher's* answers: openjev-lm and jev-gate-student-b (`notes.md` §25, §33). Nimble is an open LoRA recipe on hard labels, not a Jev distill (`notes.md` §35). Hume's 27B dense drop is **Watch**, not a Hub checkpoint. He prefers the class name **decision models** over "system one" |
 | **Encoder open-jev** (DeBERTa-v3-large) | Same *shape*, bidirectional encoder, public gold (not a Jev teacher) | Choice / Score / Noul from one pass | Self-host decide without a decoder; 512 tok | In-domain ECE 0.022; OOD acc 0.854→0.690. English / three public domains. `notes.md` §33 |
 | **Constrained-AR surface** (TypeAR; not a species) | Next-token constraint on a pretrained generator | Distribution over allowed values | Typed fields without retraining; later fields must see earlier answers | Different objective from a proper-scoring head. Enum cap and no abstention. Compute-graph card below (`notes.md` §31, §32). Public logit dump: mini-jev-runs |
 | **GLi\* encoder family** (GLiNER locate / GLiClass categorize / GLiNER2.5 local multi-head / GLiGuard safety schema) | One-pass labels-in-encoder; spans, sequence labels, a safety schema, or both | Spans + types; per-label sigmoid/softmax; optional relations/records | Laptop/local; large or changing label sets; "what's *in* the text" vs "what *is* the text" vs "which safety labels fire" | Affinities are not automatically a gateable P(permit). GLiGuard is not a Jev weight clone. Species map below. Not a Jev how-to and not a GLiNER or GLiGuard install |
@@ -141,6 +141,14 @@ threshold. Abstention, per-action bars, and "permit ≠ confidence" only
 make sense here. Jev's product claim lives on this side. Open heads that
 copy Choice/Score/Noul without a proper-scoring train loop may *look*
 like Jev and still be uncalibrated — measure.
+
+**Contrastive curation sits next to RLCD, not in its place.**
+[Bespoke Nimble](https://github.com/bespokelabsai/nimble) builds pairs
+that differ by one focus fact so a hard label flips, then trains on
+those labels. The README says the published run did not distill from
+Jev and did not use teacher soft targets. That is a data pattern for
+a decision head, not a replacement for a proper-scoring objective, and
+not a measured ECE. `notes.md` §35.
 
 **GLi\* sits beside decide, not inside it by default.** Locate (GLiNER)
 proposes spans; categorize (GLiClass) fires document labels; local
@@ -254,7 +262,33 @@ None of these portents require TypeSafe. They require picking a family
 whose *objective* matches the action's fail policy, then falsifying on
 your labels.
 
-## Compute graph: readout vs constrained AR
+## Marginals, not a probabilistic program
+
+Erik Meijer, 2026-09-18
+([post](https://x.com/headinthebox/status/2100984170004824221)): Jev is
+a cool API, and it is **not** probabilistic programming. Kleisli-arrow
+qualifications are an exaggeration. The gloss he endorses: **Jev gives
+you the marginals; a decoder gives you the joint.**
+
+System One / Jev-class is factorized **marginals** over typed questions
+given shared state — isolated branches. That is the same fact as the
+architecture reconstruction: questions on one request do not attend
+each other (`notes.md` §31, item 7; compute-graph card below). Do not
+restate that essay here. The jointly best tuple need not be the tuple
+of marginally best answers.
+
+The joint, and any dependence between answers, lives in application
+code, in sequential TypeAR, or in a generative decoder. It does not
+live inside one Jev call. Do not market or teach Jev as a probabilistic
+programming language or as Kleisli sugar. The frames are decision
+theory, calibration, and value of information (`mental-models.md`).
+
+When you need a joint or an invariant, reach for TLA+, Alloy, or
+contracts (`formal-methods.md`). When you need a fast calibrated factor
+over one typed predicate, reach for System One. That is a placement,
+not a new formal-methods doctrine. A Noul is still not a proof.
+
+## Compute graph: readout vs constrained AR vs diffusion reads
 
 [Archer Hume, *Jev's Architecture Unmasked*](https://archerhume.com/posts/jevs-architecture-unmasked/)
 (17 Sep 2026, `jev-1.13.0`). **Reconstruction from ~10k API probes, not a
@@ -282,18 +316,26 @@ state machine where **code owns transitions**, when a later decision must
 see an earlier answer. Questions on one Jev request do not. Not a TypeAR
 how-to.
 
-### Three holes
+Three compute graphs speak Jev-shaped I/O. A trained decision-only
+readout (Jev, or an open head you have measured). Constrained
+autoregression (TypeAR, above). Diffusion structured reads (below).
+They are not three species, and none of them is a probabilistic
+program.
+
+### Holes
 
 | Need | Place | Do not |
 |---|---|---|
 | Calibrated p(y\|x) over a closed set | Trained decision-only head (Jev, or an open head you have proper-scored and measured on your labels) | Threshold a generated "90%", an affinity you have not calibrated, TypeAR constrained scores, or a LoRA student's agreement with the teacher |
 | Dependent sequential decisions | Constrained AR that conditions later steps on earlier answers (TypeAR sequential), or code-owned transitions and a new request per stage | Treat sibling questions on one request as if they attend each other |
 | Open multimodal self-host / data-residency | Hume's announced **decision-model** drop **when it ships** (Qwen3.8 27B **dense**, 265k, multimodal, no audio; one forward pass locally once AR is removed; MoE next then shrink). Driver: healthcare AU residency, not anti-TypeSafe | Ship on "smarter than Jev." That is his early claim, against his own order-sensitivity and in-distribution calibration warnings. **WATCH** — no Hub weights this pass. Laya remains text-only. jev-visual is region Choice, not this drop |
+| Image-in now, different graph | Diffusion structured reads that already accept images on a Jev-shaped interface ([djev-spark](https://github.com/mmastrac/djev-spark)) | Wait on the row above for image-in, or treat this graph as a proof it beats a decision head |
 
 ### When to use which decision surface
 
-Five *surfaces*, not five species. Pick from the hole and these axes;
-do not start from a logo. Hume prefers the class name **decision
+Five *surfaces*, not five species — plus an open recipe and a diffusion
+graph that are not extra species either. Pick from the hole and these
+axes; do not start from a logo. Hume prefers the class name **decision
 models** over "system one"
 ([tweet](https://x.com/4rcherhume/status/2100604161821979134)). This
 skill keeps TypeSafe's "System One" when quoting the exemplar.
@@ -305,16 +347,64 @@ skill keeps TypeSafe's "System One" when quoting the exemplar.
 | **TypeAR** (constrained AR; README names SGLang) | Next-token constraint ≠ Noul. No abstention primitive. Public logit dump: [`Mikhail/mini-jev-runs`](https://huggingface.co/datasets/Mikhail/mini-jev-runs) (27.9k; scores "deliberately *not* calibrated") | Sequential mode conditions later fields; that is not gather-as-act | 5.8× is *their* K=16 boolean example | Self-host the generator | Whatever the base model has | Enums ≤16 |
 | **Encoder open-jev** (DeBERTa-v3-large 434M) | Public gold, CE+Brier, val temperature. In-domain ECE 0.022 / acc 0.854; OOD acc 0.690 / ECE 0.035. **Not** a Jev teacher-copy | One pass over state + all questions; 512 tok | Author: 28 ms / 10 questions H100; 1.8 s / 4q M1 Max CPU | apache-2.0, self-host | Text | Jev-shaped 255 / Score 2–10 / Noul; 512 ctx |
 | **Tiny LoRA distill** (jev-gate-student-b) | Teacher-copy. P(relevant) from yes/no logits. Held-out n=60 vs vanilla 0.5B; 148,160-row corpus | Memory-gating / context sieve; **fail-open** on errors | Qwen2.5-0.5B LoRA; ~59 ms RTX 3060 | Local, apache-2.0 | Text | Binary relevance |
+| **Nimble** (open LoRA recipe, not a distill) | Hard synthetic labels. They say temperature was not tuned to correctness rates. 324-row agreement is their receipt, not an ECE (`notes.md` §35) | Not a gather primitive | Their latency table, not re-run | Self-host the adapter. Model card Apache-2.0; repo license absent | Text only | Enum ≤26; 2,048 tokens |
+| **Diffusion structured reads** (djev-spark) | Interface claim only. **Hypothesis** it beats a decision head on your labels (`notes.md` §36) | Optional sequential chunks, text-only | Their GX10 tables, not a class benchmark | DGX Spark container. Do not copy the route | Images are an extension; think and sequential reject images | README criteria, not copied here |
 
 Reject: TypeAR scores as fail-closed P(permit); a LoRA student's
 agreement with Jev as independent gold; shipping on "smarter than Jev";
 thresholding [`jp-sns-jev7-estimator`](https://huggingface.co/kokuren/jp-sns-jev7-estimator)
 teacher scores as P(toxic) — the card says they are **not** calibrated,
 and `threat` F1@0.5 is 0.0000 on their table (`notes.md` §33). Domain-local
-ONNX distill is still categorize / score.
+ONNX distill is still categorize / score. Nimble's holdout is not a
+universal ranking. Diffusion beating a decision head is Hypothesis.
 
-Detail: `research/notes.md` §33. FAQ: open weights vs Jev vs TypeAR vs
-encoder vs LoRA.
+Detail: `research/notes.md` §33 (surfaces), §34 (marginals), §35
+(Nimble), §36 (diffusion). FAQ: open weights vs Jev vs TypeAR vs
+encoder vs LoRA; is Jev probabilistic programming?
+
+**Diffusion structured reads (third graph).**
+[djev-spark](https://github.com/mmastrac/djev-spark) serves DiffusionGemma
+26B-A4B (NVFP4) on a DGX Spark and speaks a Jev-shaped decision API.
+README: structured-reads patches on the engine; images via multipart or
+JSON, which stock Jev does not have; optional sequential chunk
+conditioning, a think step, and entropy-triggered extra samples. Text
+plus images together reject sequential conditioning and the think step.
+**Empirical** as that public interface (HTTP 200, 2026-09-18).
+**Hypothesis** that diffusion beats a trained decision head on your
+task. Archer's audio-less multimodal drop stays **WATCH**. Do not copy
+the route or the patches. `notes.md` §36.
+
+### Open recipe (Bespoke Nimble) — not a distill
+
+[bespokelabsai/nimble](https://github.com/bespokelabsai/nimble) and
+[Bespoke-Nimble-9B](https://huggingface.co/bespokelabs/Bespoke-Nimble-9B)
+(both HTTP 200). Model card: Apache-2.0 LoRA on `Qwen/Qwen3.5-9B`.
+The GitHub repo has no license file — do not call the repo Apache-2.0.
+
+- **Open training recipe.** Contrastive curation: change one focus fact
+  so the hard label flips; train the decision head on those labels.
+  README: not distilled from Jev. `notes.md` §35.
+- **Data pattern beside RLCD, not a replacement.** Hard synthetic
+  labels, no teacher soft targets in the published objective. RLCD
+  remains the named proper-scoring lineage. "Implicit calibration" is
+  their claim; they also say temperature was not tuned to correctness
+  rates.
+- **9B vs proprietary Jev is Hypothesis** until you measure on your
+  labels. Their holdout is the existence proof the gap can be small,
+  on their set only: Nimble 90.12% (292/324), Jev 1.13.0 93.21%
+  (302/324), untuned Qwen3.8-27B 84.88% (275/324), base Qwen3.5-9B
+  66.36% (215/324). **Empirical** as that named receipt, not a ranking.
+  Synthetic labels, six source families, 162 pairs.
+- **Bake-off candidate** beside Laya, openjev-lm, and TypeAR
+  (`validation.md`). Not a jevals how-to.
+
+Serving, not copied: candidate logits, then softmax; one path shares
+context across fields, another rescores each field; fields are
+independent; text only; enum at most 26; prompts over 2,048 tokens
+rejected. Probabilities normalize over the candidates you supplied —
+the standing Choice-conditional-on-offered-set boundary (`SKILL.md`).
+Add "no match" when coverage is open. A high probability is not a
+correctness guarantee (their sentence).
 
 ### Constrained-AR surface (not `decide`)
 

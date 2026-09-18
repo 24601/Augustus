@@ -41,7 +41,11 @@ runs is [dayhaysoos/jevals](https://github.com/dayhaysoos/jevals) (MIT,
 local; WebMCP + agent skill; not affiliated with TypeSafe) — the empirical
 acceptance-test *surface* for Hypothesis mapping cards; this script remains
 the offline Brier / reliability / cost evaluator. Pointer only
-(`research/notes.md` §24); Augustus is not a jevals how-to. Same
+(`research/notes.md` §24); Augustus is not a jevals how-to. A bake-off
+candidate on that same labeled-case surface, beside Laya, openjev-lm,
+and TypeAR, is [Bespoke Nimble](https://github.com/bespokelabsai/nimble)
+— an open LoRA recipe, not a Jev distill; their 324-example holdout is
+a named receipt, not a ranking (`research/notes.md` §35). Same
 acceptance-test *surface*, different UI:
 [jeiel85/jevscope](https://github.com/jeiel85/jevscope) (local-first
 visual debugger + JSONL regression; policy buckets are JevScope-derived,

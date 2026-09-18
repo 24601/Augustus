@@ -112,6 +112,20 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   (27B dense, AU healthcare residency, prefers "decision models"; still
   no Hub weights). `research/notes.md` §31, §33; `judgment-class.md`
   when-to-use table; FAQ confidence / surfaces questions.
+- Marginals, not a probabilistic program (`judgment-class.md`, FAQ):
+  Erik Meijer — Jev is a cool API and not a PPL; Kleisli qualifications
+  exaggerate; "Jev gives you the marginals; a decoder gives you the
+  joint." Joints and invariants stay with TLA+ / Alloy / contracts.
+  `research/notes.md` §34
+- Bespoke Nimble: open contrastive recipe, not a Jev distill. Model
+  card Apache-2.0 LoRA on Qwen3.5-9B (repo license absent). Their
+  324-example holdout is a named receipt (Nimble 90.12%, Jev 1.13.0
+  93.21%), not a ranking. 9B-vs-Jev on your labels stays Hypothesis.
+  `research/notes.md` §35; one sentence in `validation.md`
+- djev-spark: third compute graph (diffusion structured reads,
+  Jev-shaped I/O, image-in). Empirical as the public interface;
+  Hypothesis that it beats a decision head on your task. Archer's
+  multimodal drop stays WATCH. `research/notes.md` §36
 
 ### Changed
 
