@@ -1,11 +1,11 @@
 # FAQ (design judgment, not an API)
 
 Load this when the request is skepticism, stack replacement, family
-choice ("Jev vs GLiClass vs CLIP"), "formally verify with Jev", or
+choice, "is this only for software?", "formally verify with Jev", or
 "isn't Augustus just another Jev skill?" Integration contracts for
 TypeSafe Jev still live in `typesafe-ai` and the live docs. The *class*
-of providers is `judgment-class.md`: Jev is the exemplar, not the
-monopoly. Proof vs judgment ownership: `formal-methods.md`.
+of providers is `judgment-class.md`. Cross-domain frames:
+`mental-models.md`. Proof vs judgment: `formal-methods.md`.
 
 ## Isn't this just classification?
 
@@ -13,21 +13,22 @@ Yes. Classification is the oldest AI task. Agree, then answer the design
 question: **where does a typed judgment beat ad-hoc LLM-classify, and
 where does it lose?**
 
-It wins when software needs a schema-valid enum/bool/level; when you will
-threshold, abstain, or re-policy from a distribution; when many independent
-questions share one state; when per-line / per-hunk / per-message judgments
-were known methods that were too expensive; when policy must be reviewable
-in code.
+It wins when a practice needs a schema-valid enum/bool/level; when you
+will threshold, abstain, or re-policy from a distribution; when many
+independent questions share one state; when per-item judgments were
+known methods that were too expensive (per email, per paper, per hunk,
+per incident); when policy must be reviewable (code, checklist, ledger).
 
-It loses to a regex or lookup that already works; to a trained classical
-classifier on a stable labeled taxonomy with enough of *your* data; to
-open-ended writing, counting, date math, and multi-hop derivation; to
-treating in-distribution ECE as a license to skip a held-out test.
+It loses to a regex, lookup, recipe, or law that already works; to a
+trained classical classifier on a stable labeled taxonomy with enough
+of *your* data; to open-ended writing, counting, date math, and
+multi-hop derivation; to treating in-distribution ECE as a license to
+skip a held-out test.
 
-The product is not "we invented classification." The product is placing a
-fast, cheap scoring primitive inside software that already has a generator
-and a control loop — and matching the model's *objective* to the action's
-fail policy. Full placement: `mixed-architecture.md`. Families:
+The product is not "we invented classification." The product is placing
+a fast scoring primitive beside exact work and beside generation —
+matching the model's *objective* to the action's fail policy. Frames:
+`mental-models.md`. Placement: `mixed-architecture.md`. Families:
 `judgment-class.md`.
 
 ## Should we replace the LLM / the stack?
@@ -91,6 +92,16 @@ closed region/label Choice, or treat vision as the vision-scorer family on
 `judgment-class.md`. Do not caption the world and then "run Laya on the
 caption."
 
+## Is this skill only for software engineering?
+
+No. The placement question is the same in AI, SWE, business, knowledge
+work, and life: what is exact, what is a narrow judgment, what is
+generation, what is a proof-shaped constraint. Formal methods are one
+pillar. Expected utility, abstention, VOI, MCDA, signal detection,
+search/control, and Leveson org/safety are the others
+(`mental-models.md`). Policy (checklist, ledger, two-person rule) is
+the code of a practice that has no repository.
+
 ## Can a System One model replace TLA+ / Dafny / DST?
 
 No. Model-checkers and provers exhaust a *model* or a *fragment*.
@@ -114,9 +125,10 @@ The checker, DST harness, or prover ran, or it did not.
 
 No. `typesafe-ai` owns Jev API contracts. `tenbin` owns design-time
 lint/measure. `decision-first` owns try-a-typed-decision-first habit.
-Augustus owns **where judgment belongs**, which *family* and classical
-method map, what that does to agent architecture, where proof/DST still
-own the claim, and what would prove the design wrong. If the request is
-a curl body or an SDK snippet, stop and load the family's own
-skill/docs (`typesafe-ai` for Jev). If it is "replace TLA+ with Jev",
-load `formal-methods.md`.
+Augustus owns **where judgment belongs** — in software *and* outside it —
+which *pillar* and *family* map, what that does to a control loop, where
+proof/DST still own the claim, and what would prove the design wrong. If
+the request is a curl body or an SDK snippet, stop and load the family's
+own skill/docs (`typesafe-ai` for Jev). If it is "replace TLA+ with Jev",
+load `formal-methods.md`. If it is hiring, inbox, reading list, or org
+safety, load `mental-models.md`.

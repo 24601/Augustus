@@ -11,15 +11,17 @@ mappings.md).
 ## Why toolbox substitution instead of brainstorming
 
 A "be creative with the docs" prompt fails the same way for humans and
-models: the concept is new, meaning hasn't been built. But every engineer
-owns a deep toolbox of methods that ARE in distribution — statistics,
-decision theory, discrete math, operations research, signal processing,
-psychology, game theory, logic. Jev's three primitives (a calibrated
-probability for a proposition; a distribution over a fixed option set; an
-expectation over an ordered rubric; all evaluated in parallel over one
-state) are narrow, so the productive question is the inverse of "what can
-Jev do": **"which component of a method I already trust is exactly a fast
-semantic judgment over a fixed answer space, given a state?"** Swap that
+models: the concept is new, meaning hasn't been built. But every
+practitioner owns a deep toolbox of methods that ARE in distribution —
+statistics, decision theory, discrete math, operations research, signal
+detection, psychology, game theory, logic, safety engineering. Software
+is one place those methods live, not the only one (`mental-models.md`).
+Jev's three primitives (a calibrated probability for a proposition; a
+distribution over a fixed option set; an expectation over an ordered
+rubric; all evaluated in parallel over one state) are narrow, so the
+productive question is the inverse of "what can Jev do": **"which
+component of a method I already trust is exactly a fast semantic
+judgment over a fixed answer space, given a state?"** Swap that
 component; keep the rest of the method in code.
 
 ## The sweep procedure

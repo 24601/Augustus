@@ -6,24 +6,28 @@
 [![Skills.sh](https://img.shields.io/badge/skills.sh-compatible-green.svg)](https://www.skills.sh/)
 
 **Augustus** — named for Augustus De Morgan (1806–1871), mentor and professor
-of William Stanley Jevons — is an agent skill for designing systems around
-the class of **fast, cheap categorization / classification / scoring
-models**. [TypeSafe](https://docs.typesafe.ai/) Jev is the documented
-exemplar (Choice, Score, Noul), not the monopoly: open heads (Laya),
-GLiClass-adjacent encoders, listwise rankers, and vision scorers sit in
-the same design space. Code stays in control; the judgment-class model
-supplies bounded answers software can act on.
+of William Stanley Jevons — is an agent skill for **placing typed
+probabilistic judgment** (the Jev-class of System One models) using
+mathematical, logical, and algorithmic mental models. It applies across
+**AI, software, business, knowledge work, and life** — not only SWE.
+[TypeSafe](https://docs.typesafe.ai/) Jev is the documented exemplar
+(Choice, Score, Noul), not the monopoly. Formal methods are one pillar.
+Exact work stays in code or policy; the model owns narrow judgment;
+never launder a Noul as a proof.
 
 > Companion, not replacement, to the official
 > [`typesafe-ai` skill](https://github.com/typesafe-ai/skills). That skill
 > owns Jev integration contracts; Augustus owns the **design judgment**:
-> which *family* and classical methods map, what the objective implies for
-> fail-open vs fail-closed, what that does to agent architecture, and
-> what experiment would prove a design wrong. Not a TypeSafe-only how-to.
+> which *pillar*, *family*, and classical method map, what the objective
+> implies for fail-open vs fail-closed, and what experiment would prove a
+> design wrong. Not a TypeSafe-only how-to.
 
 ## The skill
 
 - `.agents/skills/augustus/SKILL.md` — working protocol + decision-design card
+- `.agents/skills/augustus/references/mental-models.md` — cross-domain
+  frames (EU, abstention, VOI, MCDA, SDT, search/control, Leveson,
+  NATM/snap-fit/Norman); not SWE-only
 - `.agents/skills/augustus/references/judgment-class.md` — the class (Jev
   exemplar, not monopoly): open heads, GLiClass-adjacent, listwise vs
   decision objectives, vision scoring, agent-architecture portents
@@ -80,7 +84,8 @@ GPT's instructions or a Project's knowledge and it will follow the protocol.
 `decision-theory` `semantic-search` `agent-workflows` `mixed-architecture`
 `tool-routing` `skill-routing` `semantic-lint` `classification` `gliclass`
 `listwise-ranking` `vision-scoring` `open-weights` `formal-methods`
-`model-checking` `deterministic-simulation`
+`model-checking` `deterministic-simulation` `decision-theory`
+`value-of-information` `signal-detection` `mcda` `calibration`
 
 ## Versioning
 

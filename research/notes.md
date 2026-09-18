@@ -550,4 +550,38 @@ composition-algebra position 9; toolbox family row. Identity lock
 holds. No invented APIs. When `FORMAL-METHODS-SYSTEM-ONE.md` lands,
 fold named rows — do not wait on it.
 
+## 21. Cross-domain mental models (2026-09-18, critical scope)
+
+Augustus is **not SWE-only**. Design judgment for placing typed
+probabilistic judgment using math/logic/algorithmic frames across AI,
+SWE, business, knowledge work, and life. Formal methods remain one
+pillar. Skill card: `references/mental-models.md`.
+
+**Pillars (method, not vendor):** expected utility + Chow-style
+abstention; calibration and Elkan cost-sensitive `t = C_FP/(C_FP+C_FN)`
+([Elkan PDF](https://cseweb.ucsd.edu/~elkan/rescale.pdf), [sklearn
+walkthrough](https://scikit-learn.org/stable/auto_examples/model_selection/plot_cost_sensitive_learning.html));
+[VOI](https://en.wikipedia.org/wiki/Value_of_information) (gather as an
+act); [MCDA](https://en.wikipedia.org/wiki/Multiple-criteria_decision_analysis)
+(weights in policy); search/control substitutions; [signal
+detection](https://en.wikipedia.org/wiki/Detection_theory) (criterion ≠
+accuracy); Leveson sensor≠constraint; NATM/snap-fit/Norman as portable
+intuition.
+
+**Non-negotiable restated for any domain:** exact work in code *or
+policy* (checklist, ledger, law, recipe); model owns narrow judgment;
+never launder a Noul as proof.
+
+**Status discipline:** SWE rows that already have launch-week artifacts
+stay Empirical; inbox/hiring/apartment/bid-no-bid/cooking are
+**Hypothesis** until labeled logs exist. Promote only with acceptance
+tests.
+
+**Skill impact.** SKILL.md opening/description/protocol/design-card
+domain+pillar fields; FAQ "only for software?"; mappings.md beyond-SWE
+paragraphs; boundary-audit practice-not-just-code + TOCTOU/vacuous-spec
+red flags; marketplace/README exposure. Identity lock holds. No APIs
+invented.
+
+
 

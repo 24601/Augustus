@@ -48,6 +48,12 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   (NATM, snap-fit, Norman gulfs, Leveson STAMP/STPA). Curriculum file
   `FORMAL-METHODS-SYSTEM-ONE.md` had not landed; card is from the brief
   plus cited docs. Non-negotiable: never launder a Noul as a proof.
+- Mental-models card: Augustus is design judgment across AI, SWE,
+  business, knowledge work, and life — not SWE-only. Pillars: expected
+  utility / selective classification, calibration and cost-sensitive
+  thresholds, VOI, MCDA, search/control substitutions, signal detection,
+  Leveson org/safety, NATM/snap-fit/Norman as general intuition. Domain
+  gallery labeled Hypothesis except launch-week Empirical SWE rows.
 
 ### Changed
 
@@ -64,6 +70,10 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   non-negotiable
 - Protocol and FAQ branch for "formally verify with Jev"; methods-catalog
   and composition-algebra verifier position point at the ownership split
+- Skill mission and description are domain-general (AI / SWE / business /
+  knowledge work / life); FAQ "is this only for software?"; mappings.md
+  beyond-SWE examples labeled Hypothesis; boundary-audit red flags for
+  TOCTOU and vacuous specs
 
 ## [0.2.0] - 2026-09-18
 

@@ -99,4 +99,21 @@
   APIs. Identity lock holds.
 - notes.md §20; sources.json appended; findings.md batch #8.
 
+## 2026-09-18 15:25 UTC — cross-domain mental models (not SWE-only)
+- Critical scope: Augustus is design judgment across AI, SWE, business,
+  knowledge work, and life. Formal methods are one pillar.
+- HTTP 200: Elkan rescale.pdf, sklearn cost-sensitive threshold, VOI /
+  detection theory / MCDA / expected-utility Wikipedia, NIPS 2008
+  reject-option paper.
+- Skill: `references/mental-models.md` (EU, abstention, calibration,
+  VOI, MCDA, search/control, SDT, Leveson, NATM/snap-fit/Norman, domain
+  gallery). SKILL.md mission/description/protocol/design-card
+  domain+pillar. FAQ "only for software?". mappings.md Hypothesis
+  beyond-SWE examples. boundary-audit TOCTOU/vacuous-spec red flags.
+  README/marketplace exposure. Non-negotiable unchanged: exact work in
+  code/policy; model owns narrow judgment; never launder Noul as proof.
+  No invented APIs.
+- notes.md §21; sources.json appended; findings.md batch #9.
+
+
 

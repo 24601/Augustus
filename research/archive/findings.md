@@ -183,3 +183,23 @@ distillation only. Skill card: `references/formal-methods.md`. Note:
 
 Cross-repo addition: (v) judgment as sensor around a real checker/DST
 harness, never instead.
+
+## Batch #9 (2026-09-18, cross-domain mental models — not SWE-only)
+
+Design distillation. Skill card: `references/mental-models.md`. Note:
+`research/notes.md` §21.
+
+- **Mission:** place typed probabilistic judgment with math/logic/
+  algorithmic frames in AI, SWE, business, knowledge work, and life.
+  Formal methods are one pillar, not the skill.
+- **Frames:** EU + Chow abstention; Elkan cost-sensitive threshold;
+  VOI; MCDA; search/control substitution; SDT criterion; Leveson
+  sensor≠constraint; NATM/snap-fit/Norman as portable intuition.
+- **Status:** non-SWE gallery is **Hypothesis** until labeled logs.
+  Promote only with acceptance tests.
+- **Non-negotiable:** code/policy owns exact work; model owns narrow
+  judgment; never launder a Noul as proof.
+
+Cross-repo addition: (w) judgment as a sensor in any control loop that
+already has a policy — CRM, inbox, reading list, kitchen probe, not
+only git.

@@ -30,11 +30,16 @@ code: shortlist, rank, filter — weights adjustable without re-inference
 ```
 
 **Example**: research-reading map — extract reusability dimensions once, let
-researchers re-rank and re-filter interactively. **Counterexample** (from
-**Contract** Score docs): levels 0,1,2 with distributions `[0,1,0]` vs
-`[0.5,0,0.5]` both score 1.0 with radically different extreme-outcome risk —
-always read probabilities beside the score. **Test**: beat a simple baseline
-and survive reasonable weight/wording perturbations.
+researchers re-rank and re-filter interactively. **Beyond SWE
+(Hypothesis until labeled):** vendor bid/no-bid (fit, urgency, risk
+Nouls; price and deadline exact); apartment shortlist (commute/light/
+noise Scores; rent exact); hiring scorecard (evidence Nouls; labor-law
+vetoes in policy). Full gallery: `mental-models.md` §MCDA.
+**Counterexample** (from **Contract** Score docs): levels 0,1,2 with
+distributions `[0,1,0]` vs `[0.5,0,0.5]` both score 1.0 with radically
+different extreme-outcome risk — always read probabilities beside the
+score. **Test**: beat a simple baseline and survive reasonable
+weight/wording perturbations.
 Links: Score docs, composite-scoring pattern, autoresearch cookbook.
 
 ## 2. Probabilistic judgments → cost-sensitive decisions
@@ -56,11 +61,17 @@ else: act only if confidence > high bar, else confirm
 ```
 
 **Example**: trading bot acts on high-confidence reads, stands down when the
-book state is ambiguous (jev-trader `late → hold`). **Counterexample**: a
-flat Choice over three fine categories may still name a harmless best pick —
-low confidence need not veto a low-stakes preference. **Test**: cost/coverage
-curve on held-out slices; score the fallback too (escalation is not
-automatically correct). Links: Confidence docs, confidence-routing pattern.
+book state is ambiguous (jev-trader `late → hold`). **Beyond SWE
+(Hypothesis until labeled):** inbox reply/snooze/archive; "is this paper
+on-question?"; "call this lead / nurture / drop" — same act/abstain/
+gather table, costs written in hours or dollars, threshold per *action*.
+VOI: pay for the full PDF or the customer call only if expected decision
+change beats the cost (`mental-models.md` §VOI, §decision).
+**Counterexample**: a flat Choice over three fine categories may still
+name a harmless best pick — low confidence need not veto a low-stakes
+preference. **Test**: cost/coverage curve on held-out slices; score the
+fallback too (escalation is not automatically correct). Links:
+Confidence docs, confidence-routing pattern.
 
 **Cascade / prefilter beside this card**: the same cost model, applied *before*
 an expensive generator rather than after a decision. Drop or stub confident-

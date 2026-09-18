@@ -511,6 +511,48 @@
       "title": "New Austrian tunnelling method (Wikipedia)",
       "url": "https://en.wikipedia.org/wiki/New_Austrian_tunnelling_method",
       "note": "Observational method metaphor: instrument often; support stays in code."
+    },
+    {
+      "kind": "paper",
+      "title": "The Foundations of Cost-Sensitive Learning (Elkan)",
+      "url": "https://cseweb.ucsd.edu/~elkan/rescale.pdf",
+      "note": "Bayes threshold t = C_FP/(C_FP+C_FN) from probabilities; do not rebalance as a substitute. notes.md §21."
+    },
+    {
+      "kind": "docs",
+      "title": "scikit-learn: post-tune decision threshold for cost-sensitive learning",
+      "url": "https://scikit-learn.org/stable/auto_examples/model_selection/plot_cost_sensitive_learning.html",
+      "note": "Worked Elkan threshold vs tuned business metric."
+    },
+    {
+      "kind": "docs",
+      "title": "Value of information (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Value_of_information",
+      "note": "Gather-evidence is an act; VOI is improvement in the decision, not in the probability."
+    },
+    {
+      "kind": "docs",
+      "title": "Detection theory (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Detection_theory",
+      "note": "Hits/FA/criterion/d′. Accuracy is the wrong summary when classes are rare."
+    },
+    {
+      "kind": "docs",
+      "title": "Multiple-criteria decision analysis (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Multiple-criteria_decision_analysis",
+      "note": "Named criteria; weights in policy. mappings.md §1."
+    },
+    {
+      "kind": "docs",
+      "title": "Expected utility hypothesis (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Expected_utility_hypothesis",
+      "note": "Belief from the model; loss table and argmin in policy."
+    },
+    {
+      "kind": "paper",
+      "title": "Support Vector Machines with a Reject Option (Bartlett & Wegkamp lineage / NIPS 2008)",
+      "url": "https://papers.nips.cc/paper_files/paper/2008/file/3df1d4b96d8976ff5986393e8767f5b2-Paper.pdf",
+      "note": "Chow reject option in modern cost-based form. Abstention is an act."
     }
   ]
 }

@@ -165,9 +165,9 @@ tools. It may not certify the spec.
 
 ## 6. Crossover metaphors (placement intuition)
 
-These are **not** SWE-only and **not** substitutions until you name a
-precondition. They answer *where judgment belongs* in any designed
-control loop.
+Portable, not SWE-only. The general design-intuition card is
+`mental-models.md` §crossover. Repeated here only as they apply to
+**proof vs judgment**.
 
 **NATM / observational method.**
 [New Austrian tunnelling method](https://en.wikipedia.org/wiki/New_Austrian_tunnelling_method):

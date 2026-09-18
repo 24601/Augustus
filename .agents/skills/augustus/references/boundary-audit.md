@@ -1,9 +1,11 @@
-# Boundary audit: inserting judgment into existing software
+# Boundary audit: inserting judgment into an existing practice
 
-When the request is a codebase, PR, or running workflow — not a greenfield
-design — hunt for judgment-shaped holes that are already being filled badly.
-Do not start by wrapping the API. Prefer the smallest insertion that lets
-code own the rest.
+When the request is a codebase, PR, running workflow, *or a non-software
+practice* (inbox, hiring loop, reading list, incident command) — not a
+greenfield design — hunt for judgment-shaped holes that are already
+being filled badly. Do not start by wrapping an API. Prefer the smallest
+insertion that lets policy own the rest. Cross-domain frames:
+`mental-models.md`.
 
 This card is an **operational recipe** (Hypothesis as a procedure). Each
 insertion still earns its own Contract / Empirical recipe / Hypothesis
@@ -154,6 +156,9 @@ Stop and redesign when you see:
 - Noul 0.5 read as "medium"
 - typed output described as hallucination-proof
 - SDK fields written from memory instead of live docs
+- a Noul used as a proof, model-check, or DST property
+- TOCTOU: judged at t0, acted at t1, no re-probe (`formal-methods.md`)
+- vacuous / tautological spec (Hillel vibing specs) plus "the model said it looks good"
 
 ## Completion
 

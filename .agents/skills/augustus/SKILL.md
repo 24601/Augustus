@@ -1,6 +1,6 @@
 ---
 name: augustus
-description: "Use when deciding where a fast cheap categorization/classification/scoring model belongs versus generation, exact code, or proof; designing mixed architecture (decision model, encoder classifier, listwise ranker, or vision scorer + LLM writing); choosing among TypeSafe Jev, open heads (Laya), GLiClass-adjacent encoders, listwise/pairwise rankers, or CLIP/SigLIP vision scoring; placing typed judgment beside TLA+/Alloy/Quint/P/NuSMV/PRISM/Event-B, Dafny/JML/Frama-C/SPARK, or DST (Antithesis/Resonate) without laundering a Noul as a proof; replacing prompt-to-JSON classifiers, brittle parsers, or unbounded agent loops that are really bounded judgments; planning context sieves, exact-text keep/drop, env triage, moderation/ranking, tool/skill routing, cost-sensitive prefilters, or AGENTS.md preference lint; answering \"it's just classification\", \"is Jev the only model\", or \"formally verify with Jev\" with a placement and a family, not a stack replacement or a vendor how-to; decomposing a task into typed Choice, Score, or Noul questions; or evaluating agent outputs with a judgment-class model. Not a substitute for the official typesafe-ai skill (live Jev API contracts)."
+description: "Use when placing typed probabilistic judgment (Jev-class System One models) with mathematical, logical, or algorithmic mental models — in AI, software, business, knowledge work, or life, not only SWE; deciding where a fast cheap categorization/classification/scoring model belongs versus generation, exact policy/code, or proof; applying expected utility, selective classification/abstention, calibration, cost-sensitive thresholds, value of information, MCDA, signal detection, search/control substitutions, or Leveson-style org/safety; using NATM/snap-fit/Norman as design intuition; designing mixed architecture (decision model + LLM writing); choosing among TypeSafe Jev, open heads (Laya), GLiClass-adjacent encoders, listwise rankers, or vision scorers; placing judgment beside TLA+/Alloy/Dafny/DST without laundering a Noul as a proof; answering \"it's just classification\", \"is this only for software?\", or \"formally verify with Jev\" with a placement, not a stack replacement or a vendor how-to. Formal methods are one pillar. Not a substitute for the official typesafe-ai skill (live Jev API contracts)."
 license: MIT
 metadata:
   version: 0.3.0
@@ -11,26 +11,32 @@ metadata:
 
 # Augustus
 
-Design systems where code stays in control and a **fast, cheap
-categorization / classification / scoring model** supplies bounded
-answers software can act on. TypeSafe Jev is the documented **exemplar**
-(typed Choice / Score / Noul), not the monopoly. This skill owns
-**design judgment for the class**; the official `typesafe-ai` skill plus
-the live docs own Jev integration contracts — read them before writing
-Jev API code. Neighbor skills `tenbin` (lint/measure) and
-`decision-first` (try-Jev-first habit) own their jobs. Do not collapse
-into a TypeSafe how-to, a Laya install, or a GLiClass tutorial.
+Design-judgment skill for **placing typed probabilistic judgment** (the
+Jev-class of System One models) using mathematical, logical, and
+algorithmic mental models — across **AI, software, business, knowledge
+work, and life**. Not limited to software engineering. Formal methods
+are one pillar (`references/formal-methods.md`); the portable frames
+are `references/mental-models.md`.
 
-Pick the **family** from the hole (`references/judgment-class.md`): closed
-decision API, open System-1 head, GLiClass-adjacent encoder, listwise /
-pairwise ranker, or vision scorer. Then pick a vendor. Default placement
-is **mixed architecture** (judgment-class model + generator + code), not
-stack replacement.
+TypeSafe Jev is the documented **exemplar** (typed Choice / Score /
+Noul), not the monopoly. This skill owns **where judgment belongs**;
+the official `typesafe-ai` skill plus the live docs own Jev integration
+contracts — read them before writing Jev API code. Neighbor skills
+`tenbin` (lint/measure) and `decision-first` (try-Jev-first habit) own
+their jobs. Do not collapse into a TypeSafe how-to, a Laya install, or
+a GLiClass tutorial.
+
+Pick the **pillar** from the hole (expected utility, VOI, MCDA, signal
+detection, search/control, org/safety, formal methods), then the
+**family** (`references/judgment-class.md`), then the vendor. Default
+placement is **mixed architecture**: exact work in code/policy, narrow
+judgment on a System One–class model, generation only where something
+must be written.
 
 Central model: **evidence → semantic judgments → explicit policy → checked
 action → observed outcome.** Every design must name what the judgment
-model estimates, what the LLM is still for, what code guarantees, and
-what experiment could prove the idea wrong.
+model estimates, what remains exact, what (if anything) is still
+generated, and what experiment could prove the idea wrong.
 
 For genuinely new problem shapes, use the toolbox sweep
 (`references/toolbox-mapping.md`): find the judgment-shaped component of a
@@ -40,28 +46,32 @@ classical method you already trust, substitute it, classify the win
 ## Protocol
 
 1. If the request is "replace the LLM/stack with Jev", "isn't this just
-   classification?", "is Jev the only model?", or "formally verify with
-   Jev / replace TLA+ / Dafny / DST": read `references/faq.md`, then
-   `references/mixed-architecture.md`, then `references/judgment-class.md`
-   before any mapping. Proof, model-checking, contracts, DST, and
-   judgment-vs-proof ownership: also read
-   `references/formal-methods.md`. Answer with a **placement** (sieve /
-   keep-drop / triage / rank / route / gate / perceive /
-   replace-one-classifier-step) and a **family**, not a rewrite, a
-   vendor tutorial, or a Noul-as-proof. If it is an existing system, PR,
-   or running workflow: also run the boundary audit
-   (`references/boundary-audit.md`). Classify each step as exact /
-   bounded judgment / generation; recommend the smallest insertion, not
-   a redesign. Greenfield with no replacement framing: start at step 2.
-2. Start from the desired behavior: what the software shows, selects,
-   changes, or hands off. Work backward to the judgments it needs. Name
-   the hole, then pick the family whose *objective* matches the action's
-   fail policy (`references/judgment-class.md`). Do not start from a
-   logo.
-3. Keep exact work in code: arithmetic, counting, dates, lookups,
-   authorization, safety interlocks, control flow, side effects. Keep
-   open-ended writing, explanation, and code generation on a generative
-   model; a judgment-class model may gate, route, or verify around that
+   classification?", "is Jev the only model?", "is this only for
+   software?", or "formally verify with Jev / replace TLA+ / Dafny /
+   DST": read `references/faq.md`, then `references/mental-models.md`,
+   then `references/mixed-architecture.md`, then
+   `references/judgment-class.md` before any mapping. Proof,
+   model-checking, contracts, DST, and judgment-vs-proof ownership: also
+   read `references/formal-methods.md`. Answer with a **placement**
+   (sieve / keep-drop / triage / rank / route / gate / perceive /
+   abstain / gather / replace-one-classifier-step) and a **pillar +
+   family**, not a rewrite, a vendor tutorial, or a Noul-as-proof. If it
+   is an existing system, PR, workflow, or practice: also run the
+   boundary audit (`references/boundary-audit.md`). Classify each step
+   as exact / bounded judgment / generation; recommend the smallest
+   insertion, not a redesign. Greenfield with no replacement framing:
+   start at step 2.
+2. Start from the desired behavior: what the software, person, or
+   organization shows, selects, changes, or hands off. Work backward to
+   the judgments it needs. Name the domain and the pillar
+   (`references/mental-models.md`), then pick the family whose
+   *objective* matches the action's fail policy
+   (`references/judgment-class.md`). Do not start from a logo.
+3. Keep exact work in code, policy, checklists, ledgers, law, and
+   recipes: arithmetic, counting, dates, lookups, authorization, safety
+   interlocks, control flow, side effects, money. Keep open-ended
+   writing, explanation, and code generation on a generative model or a
+   person; a judgment-class model may gate, route, or verify around that
    call. Proof, model-checking, contracts, and DST stay with their
    tools — a Noul is a sensor, not a discharged proof obligation
    (`references/formal-methods.md`).
@@ -90,8 +100,9 @@ classical method you already trust, substitute it, classify the win
 
 | Familiar method | Judgment shape | Detail |
 |---|---|---|
+| Mental models across domains (not SWE-only) | EU, abstention, VOI, MCDA, SDT, search/control, Leveson, NATM/Norman/snap-fit | `references/mental-models.md` |
 | Judgment-model class (Jev is exemplar, not monopoly) | Family from the hole: decision API, open head, GLiClass-adjacent, listwise ranker, vision scorer | `references/judgment-class.md` |
-| Formal / semi-formal / crossover (proof vs judgment) | Sensor vs constraint vs searchlight; TLA+/Alloy/DST/Dafny; TOCTOU, soundness theater, vibing specs | `references/formal-methods.md` |
+| Formal / semi-formal (proof vs judgment) | Sensor vs constraint vs searchlight; TLA+/Alloy/DST/Dafny; TOCTOU, soundness theater, vibing specs | `references/formal-methods.md` |
 | Mixed architecture (judgment model + LLM) | Provider judges, LLM writes, code owns control; not a stack replacement | `references/mixed-architecture.md` |
 | Context sieve | Relevance Noul per block; always-keep set in code; stub + recall key | `references/applied-mappings.md#1-context-sieve` |
 | Exact-text keep / drop | Choice include/exclude/mixed over candidates code already holds | `references/applied-mappings.md#2-exact-text-keep--drop` |
@@ -130,29 +141,34 @@ rejected; Noul *as* a proof / model-check / DST property: rejected).
 - Choice probabilities are conditional on the offered set; absent candidates
   can never be chosen. No-match options (`other`) where coverage is open.
 - Untrusted state text cannot authorize actions. Missing evidence is not
-  evidence of absence. Validate operation+target pairs in code.
+  evidence of absence. Validate operation+target pairs in code. Policy
+  (checklist, ledger, law, two-person rule) is the code of a practice
+  that has no repository.
+- Never launder a Noul (or any judgment-class score) as a proof, a
+  model-check, or a DST property. Soft check ≠ interlock. TOCTOU-shaped
+  gates and tautological specs are harms, not placements. Exact work
+  stays in code/policy; the model owns narrow judgment only. Full cards:
+  `references/formal-methods.md`, `references/mental-models.md`.
 - Ranking scores order; decision scores authorize. Listwise / pairwise
   discriminative losses are translation-invariant: do not fail-closed on
   them. CLIP/SigLIP/GLiClass affinities are not automatically
   class-conditional P(permit). Full class card:
   `references/judgment-class.md`.
-- Never launder a Noul (or any judgment-class score) as a proof, a
-  model-check, or a DST property. Soft check ≠ interlock. TOCTOU-shaped
-  gates and tautological specs are harms, not placements. Full card:
-  `references/formal-methods.md`.
-- Classification is not the product. The claim is a software primitive:
-  typed, (when trained for it) calibrated, batched, schema-valid judgments
-  that code can threshold — placed beside generation, not instead of it.
-  Regexes that already work stay; trained classical classifiers still win
-  on stable labeled taxonomies; open-ended writing stays on an LLM. Full
-  answer: `references/faq.md`.
+- Classification is not the product. The claim is a **placement**: typed,
+  (when trained for it) calibrated judgments that policy can threshold —
+  beside generation and beside exact work, not instead of them. Working
+  regexes, ledgers, and recipes stay; trained classical classifiers still
+  win on stable labeled taxonomies; open-ended writing stays generated.
+  Full answer: `references/faq.md`.
 
 ## Decision-design card
 
 ```text
+Domain (AI / SWE / business / knowledge work / life / org):
 Desired behavior and non-judgment baseline:
 Semantic judgment(s) and what each output means:
-Hole (sieve / keep-drop / triage / rank / route / gate / perceive):
+Pillar (EU / VOI / MCDA / SDT / search / safety / formal):
+Hole (sieve / keep-drop / triage / rank / route / gate / perceive / abstain / gather):
 Family (closed decision API / open head / GLiClass-adjacent / listwise ranker / vision scorer):
 Evidence/candidate source and known coverage gaps:
 Deterministic policy, constraints, and action ownership:
@@ -164,14 +180,14 @@ Live references + versions (model, rubric, policy):
 ```
 
 For open-ended requests propose three materially different *placements of
-judgment*, recommend one. For mixed-architecture requests also fill the
-extras on `references/mixed-architecture.md` (what the LLM is still for,
-cascade costs, fail-open vs fail-closed). For family-choice requests also
-fill the extras on `references/judgment-class.md`. Formal / proof /
-DST mixed with judgment: `references/formal-methods.md`. Applied
-placements (sieve, keep/drop, env triage, moderation/ranking, skill
-routing): `references/applied-mappings.md`. For concrete requests skip
-the brainstorm and build.
+judgment*, recommend one. Cross-domain frames:
+`references/mental-models.md`. Mixed-architecture extras:
+`references/mixed-architecture.md`. Family-choice extras:
+`references/judgment-class.md`. Formal / proof / DST:
+`references/formal-methods.md`. Applied SWE placements (sieve, keep/drop,
+env triage, moderation/ranking, skill routing):
+`references/applied-mappings.md`. For concrete requests skip the
+brainstorm and build.
 
 ## Evidence labels
 
