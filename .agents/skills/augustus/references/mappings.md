@@ -7,8 +7,12 @@ listwise / vision) is `judgment-class.md`. Status words: **Contract**
 (documented), **Empirical recipe** (dated observation), **Hypothesis** (test
 before relying). Cross-domain frames: `mental-models.md`. Formal /
 semi-formal ownership: `formal-methods.md` / `formal-semi-formal.md`.
-Cards §6–§19 are **Hypothesis** until an acceptance test runs; do not
-promote them from analogy. Curriculum cards §10–§16 (spec pipeline,
+Cards §6–§19 are **Hypothesis as domain-general products** until an
+acceptance test runs; do not promote them from analogy. Read each card's
+own labels rather than the range: §8's ownership split (sensor ≠
+constraint) is **Contract** as a rule and §9's jev-mcts example is
+**Empirical**, and what those cards claim *beyond* those components is
+Hypothesis like the rest. Curriculum cards §10–§16 (spec pipeline,
 Alloy loop, RV sandwich, DST triage, durable agents, assignment hybrid,
 situated density) are the same rule. §17–§18 add paraphrase-stability
 and structural-prove ∩ remainder (jevgate / OCR-router *shapes* are
@@ -464,7 +468,11 @@ to ship the first number. Behavioral evals must include paraphrase pairs
 (`validation.md`). **Does not transfer**: a single p as invariant to
 wording; "the model is calibrated" as a license to skip sensitivity;
 treating jitter as a vendor defect you can ignore (it is a *design*
-constraint — [@brandonjcarl, 2026-09-18](https://x.com/brandonjcarl/status/2100976725660192989)).
+constraint — [@brandonjcarl, 2026-09-18](https://x.com/brandonjcarl/status/2100976725660192989));
+copying the ≤0.18 below as a jitter constant — that is jevgate's
+measurement on jevgate's command set, a universal jitter bound stays
+Hypothesis (`composition-algebra.md` open positions), and the number you
+owe is your own observed spread.
 
 ```text
 ask φ and paraphrase(φ) on the same state

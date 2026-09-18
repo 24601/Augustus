@@ -50,7 +50,7 @@ never launder a Noul as a proof.
   stack replacement, Jev vs open head vs GLiNER vs GLiClass vs CLIP, LLM-as-judge, not-another-how-to
 - `.agents/skills/augustus/references/mappings.md` — classical-method
   mappings with boundaries, counterexamples, acceptance tests (including
-  Hypothesis cards §6–§18 — promote only with a test that ran)
+  Hypothesis cards §6–§19 — promote only with a test that ran)
 - `.agents/skills/augustus/references/validation.md` — design gate, eval
   recipes, Jev-for-skills (routing, self-monitoring, testing, modularity,
   frontmatter)
