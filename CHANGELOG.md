@@ -59,6 +59,11 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   assignment hybrid; situated density (`mappings.md` §6–§16)
 - Boundary-audit stop conditions for TOCTOU-of-Noul and vacuous specs;
   FAQ rows for Alloy vs Apalache and PufferLib-as-DST-trio
+- Research pointer to [dayhaysoos/jevals](https://github.com/dayhaysoos/jevals):
+  local MIT workbench for Jev questions vs labeled Noul/Choice/Score cases
+  (compare runs, WebMCP + agent skill). Empirical acceptance-test surface
+  for Hypothesis mapping cards; complements `evaluate_decisions.py`. Not a
+  jevals how-to (`research/notes.md` §24; one sentence in `validation.md`)
 - Mental-models card: Augustus is design judgment across AI, SWE,
   business, knowledge work, and life — not SWE-only. Pillars: expected
   utility / selective classification, calibration and cost-sensitive

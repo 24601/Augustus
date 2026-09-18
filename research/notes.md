@@ -649,6 +649,22 @@ situated density. Still do not promote without an acceptance test.
 HTTP 200 this pass: Amazon FM PDF, Cauli, Shirky, Hillel dreidel,
 Resonate why+tested, mCRL2, KeYmaera X, arXiv 2502.15441, Lamport Agent.
 
+## 24. jevals — labeled-case workbench (2026-09-18)
+
+[dayhaysoos/jevals](https://github.com/dayhaysoos/jevals) is a local MIT
+workbench for running Jev questions against labeled cases (Noul / Choice /
+Score, and combinations), comparing saved runs, with WebMCP plus an agent
+skill. Not affiliated with TypeSafe. README fetched this pass (HTTP 200).
+
+**Role for Augustus:** empirical acceptance-test *surface* for Hypothesis
+mapping cards (`mappings.md` §6–§16). Complements
+`scripts/evaluate_decisions.py` (offline Brier / reliability / cost on
+exported JSONL). The workbench's existence is Empirical (public repo +
+README); promoting a Hypothesis card still requires *your* labeled cases
+plus a card-level test that ran. Augustus is not a jevals how-to — do not
+copy CLI, env, or ports into skill cards. One-sentence cite:
+`references/validation.md` (offline-eval section).
+
 
 
 

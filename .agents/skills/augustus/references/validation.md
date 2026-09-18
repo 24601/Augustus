@@ -27,7 +27,13 @@ score, reliability bins with counts, and coverage/FP/FN/cost across
 thresholds. Rules: select thresholds on split A, report final numbers on
 split B; no universal pass mark; missing labels/costs → stated limitation,
 never invented defaults. Ranking/search metrics stay checklist-level until a
-real application justifies executable support.
+real application justifies executable support. A complementary labeled-case
+workbench for running Jev questions (Noul / Choice / Score) and comparing
+runs is [dayhaysoos/jevals](https://github.com/dayhaysoos/jevals) (MIT,
+local; WebMCP + agent skill; not affiliated with TypeSafe) — the empirical
+acceptance-test *surface* for Hypothesis mapping cards; this script remains
+the offline Brier / reliability / cost evaluator. Pointer only
+(`research/notes.md` §24); Augustus is not a jevals how-to.
 
 ## Jev for agents and skills (dogfooding)
 

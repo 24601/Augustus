@@ -244,4 +244,25 @@ cards: `formal-semi-formal.md` (alias), expanded `formal-methods.md` +
 Cross-repo addition: (y) semi-formal diagrams as *vocabulary* for
 questions, compiled to a monitor before they enforce.
 
+## Batch #12 (2026-09-18, jevals workbench)
+
+Pointer only. Note: `research/notes.md` §24. Cite:
+`references/validation.md` (offline-eval). Catalog: `docs/ecosystem.md`.
+
+- **dayhaysoos/jevals** (Contract from README; Empirical as workbench
+  existence): local MIT workbench for Jev questions against labeled
+  cases (Noul / Choice / Score, combinations); compare saved runs;
+  WebMCP + agent skill. Complements `scripts/evaluate_decisions.py`
+  (Brier / reliability / cost on exported JSONL). Not affiliated with
+  TypeSafe. [Source](https://github.com/dayhaysoos/jevals).
+- **Status split:** the tool exists (Empirical). Hypothesis mapping
+  cards (`mappings.md` §6–§16) stay Hypothesis until *your* labeled
+  cases plus a card-level acceptance test pass. Do not promote from
+  the workbench's example seeds.
+- **Skill identity:** Augustus is not a jevals how-to. No CLI, env, or
+  ports copied into skill cards.
+
+Cross-repo addition: (z) labeled-case workbench as the acceptance-test
+surface for Hypothesis cards, beside the offline JSONL evaluator.
+
 

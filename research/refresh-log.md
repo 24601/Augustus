@@ -145,6 +145,18 @@
   mCRL2, KeYmaera X, arXiv 2502.15441, Lamport Agent.
 - notes.md §23; sources.json appended; findings.md batch #11.
 
+## 2026-09-18 16:00 UTC — jevals ecosystem pointer
+- Source: https://github.com/dayhaysoos/jevals (README HTTP 200 this pass).
+  Local MIT workbench: labeled Noul/Choice/Score cases, compare runs,
+  WebMCP + agent skill. Not affiliated with TypeSafe.
+- Role: empirical acceptance-test *surface* for Hypothesis mapping cards;
+  complements `scripts/evaluate_decisions.py`. Workbench existence is
+  Empirical; cards stay Hypothesis until *your* labeled cases + test run.
+- Skill: one sentence in `references/validation.md` next to the offline
+  evaluator. Catalog bullet in `docs/ecosystem.md`. No CLI/env/ports in
+  SKILL.md; Augustus is not a jevals how-to.
+- notes.md §24; sources.json appended; findings.md batch #12.
+
 
 
 
