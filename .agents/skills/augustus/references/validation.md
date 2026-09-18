@@ -44,7 +44,11 @@ Open reconstruction cousin: [`jaredpalmer/kev`](https://github.com/jaredpalmer/k
 — isolation packed vs separate max Δ 3.7e-6; secret-in-sibling p=0.03
 vs in-state 0.99; permute argmax flips 7.4%; IIA log-odds shift mean
 0.13; boundary forgery held. Those tests mirror Archer probes; they do
-not prove kev = Jev (`notes.md` §45).
+not prove kev = Jev (`notes.md` §45). Hub fetch path this pass:
+[`jaredpalmer/kev-0.5b`](https://huggingface.co/jaredpalmer/kev-0.5b)
+(`--run` accepts Hub ids). Dedicated `none_of_the_above` eval (true
+option present vs removed) is the training-side cousin of wellposed's
+request hatch; **no published rates this pass** (`notes.md` §45 delta).
 
 ## Offline eval: selective binary decisions
 

@@ -154,6 +154,14 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   Fuller productized path of the jev-pref contract. Complementary to
   rh-guard (eval-integrity vs project soft rules). Text/diff only —
   not multimodal. No hook how-to.
+- kev delta (`research/notes.md` §45): Hub weights
+  [`jaredpalmer/kev-0.5b`](https://huggingface.co/jaredpalmer/kev-0.5b);
+  `--run` accepts Hub ids; PEFT `task_type=FEATURE_EXTRACTION` (publish
+  patches legacy adapters). HIGH question-design: confront Choice
+  `"other"` / none-of-the-above as a wrong alternative too, vary
+  wording, dedicated `none_of_the_above` eval (no published rates).
+  Cross-link wellposed request-shape lint. No species change. No
+  wrapper.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

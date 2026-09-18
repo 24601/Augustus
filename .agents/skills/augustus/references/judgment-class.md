@@ -558,8 +558,14 @@ README, MODEL_CARD, LICENSE, and release
 questions under a block-causal mask, one prefill, no decode.
 Architecture follows [Archer Hume's reconstruction](https://archerhume.com/posts/jevs-architecture-unmasked).
 Speaks TypeSafe `POST /v1/systemone`; official `typesafe-sdk` works
-with a `base_url` change. Weights `kev-0.5b` (38 MB) on that release.
-Not a how-to: do not copy serve flags, ports, or train commands.
+with a `base_url` change. Weights `kev-0.5b` (38 MB) on that release
+**and** on the Hub as [`jaredpalmer/kev-0.5b`](https://huggingface.co/jaredpalmer/kev-0.5b)
+(`kev.publish`; `--run` accepts Hub ids; base still downloads on first
+load). PEFT `task_type=FEATURE_EXTRACTION`; publish patches legacy
+adapters. Not a how-to: do not copy serve flags, ports, or train
+commands. **NOTA:** training must confront Choice `"other"` as a wrong
+alternative too, with varied wording (`notes.md` §45 delta;
+`question-design.md`).
 
 **Place it on the trained decision-only open path** next to Laya /
 Nimble / Archer Watch. It is the cleanest *runnable* productization of

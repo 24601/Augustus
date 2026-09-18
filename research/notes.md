@@ -2398,6 +2398,40 @@ labels. Cards: `judgment-class.md`; FAQ; `validation.md`;
 (pointer-softmax is still a sensor); `optimizer-integration.md`.
 No wrapper.
 
+### Delta (~14:35 Boise) — Hub weights, PEFT task_type, NOTA training
+
+Not a rewrite of §45. No architecture species change. HTTP 200 this
+pass: Hub [`jaredpalmer/kev-0.5b`](https://huggingface.co/jaredpalmer/kev-0.5b)
+(Apache-2.0 adapter; `peft` / `text-classification` card); GitHub
+README now names that Hub id as the fetch path; release tarball
+remains. GitHub this pass: **61★**, pushed ~20:29Z (signal had 53★).
+Do not copy `--run` / publish flags into skill cards.
+
+1. **Hub weights.** `kev.publish` uploads the adapter; `--run` accepts
+   Hub ids (`jaredpalmer/kev-0.5b`); the Qwen2.5-0.5B base still
+   downloads on first load. Bake-off fetch path for jevals/Harbor
+   (`validation.md`).
+2. **PEFT.** `LoraConfig(task_type="FEATURE_EXTRACTION")` (`kev/model.py`).
+   Publish patches legacy adapters that saved `task_type` null (Hub
+   warns; PEFT treats both the same on a bare backbone). Docs mention
+   only kev-0.5b. Pointer readout, not a new species.
+3. **HIGH — `none_of_the_above` is a training question, not only a
+   request hatch.** First training run learned "this wording ⇒ pick
+   it" when NOTA appeared only as the correct answer (`kev/data.py`
+   comment). Fix: add NOTA as a **wrong alternative** too
+   (`p_none_distract`); vary wording (`NONE_OPTIONS`: "None of the
+   above" / "Something else" / "Not listed here" / …); dedicated
+   `test_none_of_the_above` (true option still present → little mass
+   on none; true option removed → pick none; a shortcut model picks
+   it in both cases). **No published rates this pass — do not
+   invent them.** Model card already augments with p=0.10
+   true→`other: None of the above`; the *delta* is confronting the
+   hatch as a distractor as well. Cross-link wellposed / Choice
+   `"other"`: request-shape lint puts the residual option on the
+   offered set; **training must confront that option** or the hatch
+   becomes a wording shortcut. Cards: `question-design.md`; FAQ
+   forced Choice; `validation.md`.
+
 ## 46. 14:03 Boise hourly — open multimodal RLCD, bake-off substrate, decision-token LoRA (2026-09-18)
 
 America/Boise 14:03 = 20:03 UTC. Docs-only fold into PR #2

@@ -89,7 +89,8 @@ on your own independent labels before you treat it as a decision API
 [jaredpalmer/kev](https://github.com/jaredpalmer/kev) is the laptop-local
 System One **API drop-in** on that same open path: Qwen2.5-0.5B LoRA +
 pointer, public gold not a Jev teacher, official SDK with a `base_url`
-change. Use it for development and eval. Do not use 0.5B ID ECE as a
+change. Hub weights: [`jaredpalmer/kev-0.5b`](https://huggingface.co/jaredpalmer/kev-0.5b)
+(`notes.md` §45 delta). Use it for development and eval. Do not use 0.5B ID ECE as a
 knowledge or frontier substitute (`notes.md` §45).
 
 ## Open weights vs Jev vs constrained decoding vs encoder vs LoRA?
@@ -325,7 +326,12 @@ escape hatch, broken state paths) before you trust the number. Recipe:
 email → `"support issue"` at 1.00 without `other`; overlapping options
 collapse to 0.19 — that failure is loud). `tenbin` still owns the
 design-time lint *skill*; Augustus owns the placement.
-`question-design.md`; `notes.md` §46.
+`question-design.md`; `notes.md` §46. Putting `"other"` on the request
+is necessary and not sufficient for an open head you train: the
+residual option must also appear as a **wrong** alternative, with
+varied wording, or the hatch becomes a shortcut
+([kev](https://github.com/jaredpalmer/kev) first-run lesson;
+`none_of_the_above` eval; `notes.md` §45 delta).
 
 ## Should Jev live inside the database?
 

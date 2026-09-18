@@ -420,7 +420,9 @@ backbone or a second API skill. Laya: self-hostable, text-only, 512
 tokens/question; vendor benches vs Jev are **claims**. Encoder open-jev:
 public gold, OOD drop. LoRA student: teacher-copy. **kev**: public gold,
 pointer readout, System One API drop-in; ID ECE only; not a teacher-copy
-(`notes.md` §45). **blackwood-rlcd**: open multimodal RLCD, Jev-compatible
+(`notes.md` §45). Hub fetch:
+[`jaredpalmer/kev-0.5b`](https://huggingface.co/jaredpalmer/kev-0.5b).
+**blackwood-rlcd**: open multimodal RLCD, Jev-compatible
 shim, CC BY-NC; Jev still leads general text; not Archer Watch
 (`notes.md` §46). Hume's 27B
 decision-model drop is **Watch**. Closed calibrated API vs open weights

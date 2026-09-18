@@ -429,6 +429,20 @@
   mental-models, formal-methods, composition-algebra, SKILL.md.
 - notes.md §47; sources.json; findings.md batch #30. No wrapper.
 
+## 2026-09-18 20:43 UTC — kev delta (Hub weights, NOTA training)
+
+- Folded into open PR #2 (`cursor/augustus-store-envelope-00b4`).
+  Docs-only. Not a rewrite of §45. No species change.
+- Hub: [`jaredpalmer/kev-0.5b`](https://huggingface.co/jaredpalmer/kev-0.5b)
+  HTTP 200; `--run` accepts Hub ids; GitHub release tarball remains.
+  PEFT `task_type=FEATURE_EXTRACTION`; publish patches null task_type.
+  GitHub 61★ this pass.
+- HIGH question-design: none-of-the-above must appear as a wrong
+  alternative too, varied wording; dedicated `none_of_the_above` eval
+  (no published rates). Cross-link wellposed / Choice `"other"`.
+- Cards: question-design, faq, judgment-class, validation, ecosystem.
+- notes.md §45 delta; sources.json; findings.md batch #31. No wrapper.
+
 
 
 

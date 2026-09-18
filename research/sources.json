@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-18T20:34Z",
+  "retrieved": "2026-09-18T20:43Z",
   "sources": [
     {
       "kind": "docs",
@@ -1236,7 +1236,7 @@
       "kind": "github",
       "title": "jaredpalmer/kev",
       "url": "https://github.com/jaredpalmer/kev",
-      "note": "Runnable Archer reconstruction: Qwen2.5-0.5B LoRA + pointer, POST /v1/systemone, Apache-2.0. Public gold, not a Jev teacher. notes.md \u00a745."
+      "note": "Runnable Archer reconstruction: Qwen2.5-0.5B LoRA + pointer, POST /v1/systemone, Apache-2.0. Public gold, not a Jev teacher. Hub weights jaredpalmer/kev-0.5b this pass. notes.md \u00a745 delta."
     },
     {
       "kind": "github",
@@ -1315,6 +1315,12 @@
       "title": "coldteadotai/abide benchmarks/replay",
       "url": "https://github.com/coldteadotai/abide/blob/HEAD/benchmarks/replay/README.md",
       "note": "Replay 93 Claude Code sessions, 1256 edits / 147 turns. Independent reviewer precision edit 26% / turn 73% before calibrate/tune. Author-reported; hunks unpublished. Harbor-adjacent, not a Harbor taskset. notes.md \u00a747."
+    },
+    {
+      "kind": "huggingface",
+      "title": "jaredpalmer/kev-0.5b",
+      "url": "https://huggingface.co/jaredpalmer/kev-0.5b",
+      "note": "Hub weights for kev. kev.publish; --run accepts Hub ids; base downloads on first load. PEFT FEATURE_EXTRACTION. Apache-2.0 adapter. notes.md \u00a745 delta."
     }
   ]
 }

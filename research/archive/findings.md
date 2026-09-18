@@ -767,6 +767,27 @@ calibrate / tune / replay path; (bb) observation window (edit vs turn)
 is question design; (bc) banded fail-open means soft judgment is never
 the sole hard veto; (bd) false positives in the rubric, not the model.
 
+## Batch #31 (2026-09-18) — kev delta (Hub + NOTA)
+
+Note: `research/notes.md` §45 delta. Docs-only. Folded into PR #2.
+Not a rewrite of §45. No species change. No invented metrics.
+
+- **Hub weights.** [`jaredpalmer/kev-0.5b`](https://huggingface.co/jaredpalmer/kev-0.5b)
+  HTTP 200. `kev.publish`; `--run` accepts Hub ids; base still
+  downloads on first load. GitHub release tarball remains. 61★ this
+  pass (signal had 53★).
+- **PEFT.** `task_type=FEATURE_EXTRACTION`; publish patches legacy
+  adapters with null task_type. Docs mention only kev-0.5b.
+- **NOTA training (HIGH question-design).** First run learned "this
+  wording ⇒ pick it". Fix: add none-of-the-above as a wrong
+  alternative too; vary wording; dedicated `none_of_the_above` eval
+  (present vs removed). **No published rates.** wellposed still
+  owns request-shape lint; training must confront the residual
+  option.
+
+Cross-repo addition: (be) bake-off fetch path is a Hub id; (bf)
+Choice `"other"` is a training confrontation, not only a request hatch.
+
 
 
 
