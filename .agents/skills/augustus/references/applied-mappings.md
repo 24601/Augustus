@@ -142,8 +142,10 @@ engines, models), not "the model chooses its next tool in a loop."
 (reject-all is first-class); rank-then-verify (cheap pass over
 descriptions, second request over a shortlist with full bodies); suggest
 at most one skill per turn. Large or changing catalogs may prefer a
-GLi\* one-pass (GLiClass tags or GLiNER spans) over a 255-option Choice — that limit is
-Jev's, not the class's (`judgment-class.md`). **Does not transfer**: an
+GLiClass one-pass (categorize over all catalog labels at once) over a
+255-option Choice — that limit is Jev's, not the class's
+(`judgment-class.md`). GLiNER spans are the wrong species for this hole:
+picking a catalog member locates nothing. **Does not transfer**: an
 open-ended "what should I do?"; dispatch, auth, or argument validation
 delegated to the provider; routing ROI copied from another dataset.
 

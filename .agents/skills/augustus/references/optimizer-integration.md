@@ -5,6 +5,13 @@ provider, TypeScript-only), `typesafeainate/dspy-typesafeify` (Python DSPy
 decorator PoC) + `jmanhype/jev-dspy-lab` (its measurement lab). Re-verify
 against the archive before relying; both are young.
 
+This card is the **placement** of a judgment-class model inside an
+optimizer loop — which seat it takes, which it must not, and what you owe
+before trusting its numbers. Option names below are named so you can find
+them, not transcribed as a call shape: the frameworks' own docs own their
+signatures, and `typesafe-ai` plus the live docs own Jev's request body.
+Do not write either from this page.
+
 ## The converging integration pattern
 
 Every framework lands on the same shape: **typed outputs → one Jev request;
@@ -13,8 +20,8 @@ program interface.** The program's signature/prediction API does not change.
 
 | Framework | Mechanism | Typed outputs | Freeform outputs |
 |---|---|---|---|
-| Ax (`ai({name:'typesafe'})`) | signature adapter: field descriptions become Noul/Choice/Score criteria | `boolean` (Noul + `trueThreshold`, default 0.5), `class` (Choice) | unsupported — second generative program |
-| Ax native | `typesafe({apiKey}).systemOne({state, questions})` | Noul/Choice/Score with structured criteria | — |
+| Ax (typesafe provider) | signature adapter: field descriptions become Noul/Choice/Score criteria | `boolean` (Noul + `trueThreshold`, default 0.5), `class` (Choice) | unsupported — second generative program |
+| Ax native client | one request carrying the shared state plus all typed questions | Noul/Choice/Score with structured criteria | — |
 | DSPy (`@typesafeify`) | signature-output annotation → hybrid execution plan | `bool` (thresholded Noul), `Literal` (Choice), configured score field (Score) | generative LM **after** typed results known |
 
 ## Design rules that transfer (from the adapter source, not vibes)
