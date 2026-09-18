@@ -1,6 +1,6 @@
 ---
 name: augustus
-description: "Use when deciding where semantic judgment belongs versus generation or exact code; designing mixed architecture (typed decision/classification model + LLM writing); replacing prompt-to-JSON classifiers, brittle parsers, or unbounded agent loops that are really bounded judgments; planning cost-sensitive prefilters, RAG chunk filters, tool/skill routing, or AGENTS.md preference lint; answering \"Jev is just classification\" with a placement not a stack replacement; decomposing a task into typed Choice, Score, or Noul questions; or evaluating agent outputs with Jev. Not a substitute for the official typesafe-ai skill (live API contracts)."
+description: "Use when deciding where semantic judgment belongs versus generation or exact code; designing mixed architecture (typed decision/classification model + LLM writing); replacing prompt-to-JSON classifiers, brittle parsers, or unbounded agent loops that are really bounded judgments; planning context sieves, exact-text keep/drop, env triage, moderation/ranking, tool/skill routing, cost-sensitive prefilters, or AGENTS.md preference lint; answering \"Jev is just classification\" with a placement not a stack replacement; decomposing a task into typed Choice, Score, or Noul questions; or evaluating agent outputs with Jev. Not a substitute for the official typesafe-ai skill (live API contracts)."
 license: MIT
 metadata:
   version: 0.3.0
@@ -34,10 +34,11 @@ classical method you already trust, substitute it, classify the win
 ## Protocol
 
 1. If the request is "replace the LLM/stack with Jev" or "isn't this just
-   classification?": read `references/mixed-architecture.md` before any
-   mapping. Answer with a placement (prefilter / route / gate / verify /
-   replace-one-classifier-step), not a rewrite. If it is an existing
-   system, PR, or running workflow: also run the boundary audit
+   classification?": read `references/faq.md` then
+   `references/mixed-architecture.md` before any mapping. Answer with a
+   placement (sieve / keep-drop / triage / rank / route / gate / replace-
+   one-classifier-step), not a rewrite. If it is an existing system, PR,
+   or running workflow: also run the boundary audit
    (`references/boundary-audit.md`). Classify each step as exact / bounded
    judgment / generation; recommend the smallest insertion, not a redesign.
    Greenfield with no replacement framing: start at step 2.
@@ -63,18 +64,21 @@ classical method you already trust, substitute it, classify the win
 
 ## Mapping index
 
-| Familiar method | Jev shape | Detail |
+| Familiar method | Judgment shape | Detail |
 |---|---|---|
-| Mixed architecture (decision model + LLM) | Jev judges, LLM writes, code owns control; not a stack replacement | `references/mixed-architecture.md` |
-| Cost-sensitive prefilter / cascade | Drop or stub work before expensive generation; fail-open vs fail-closed per action | `references/mixed-architecture.md#cost-sensitive-prefilter` |
-| Tool / skill / path routing | Choice over a closed catalog + whether-anything-fits gate; code dispatches | `references/mixed-architecture.md#tool-and-skill-routing` |
-| Agent preference lint / semantic gates | Project-defined rules as criteria; Jev classifies evidence; code maps outcome | `references/mixed-architecture.md#preference-lint-and-gates` |
+| Mixed architecture (decision model + LLM) | Provider judges, LLM writes, code owns control; not a stack replacement | `references/mixed-architecture.md` |
+| Context sieve | Relevance Noul per block; always-keep set in code; stub + recall key | `references/applied-mappings.md#1-context-sieve` |
+| Exact-text keep / drop | Choice include/exclude/mixed over candidates code already holds | `references/applied-mappings.md#2-exact-text-keep--drop` |
+| Environment / harness triage | Scan every step for env failure; LLM autopsy only on flags | `references/applied-mappings.md#3-environment--harness-triage` |
+| Moderation and ranking | Hold-before-publish vs graded rerank; fail policy per action | `references/applied-mappings.md#4-moderation-and-ranking` |
+| Skill / tool routing | Choice over a closed catalog + whether-anything-fits; code dispatches | `references/applied-mappings.md#5-skill--tool-routing` |
+| Agent preference lint / semantic gates | Project-defined rules as criteria; provider classifies evidence; code maps outcome | `references/mixed-architecture.md#preference-lint-and-gates` |
+| "It's just classification" / stack-replacement FAQ | Typed judgment is a software primitive, not a new task | `references/faq.md` |
 | Feature engineering / multi-criteria analysis | Nouls + Score distributions as named features, weights in code | `references/mappings.md#1-semantic-judgments--features-and-explicit-utility` |
 | Selective classification / decision theory | Thresholds from action costs, abstention paths | `references/mappings.md#2-probabilistic-judgments--cost-sensitive-decisions` |
 | Decision tables / circuits / state machines | Jev predicates, code owns transitions | `references/mappings.md#3-semantic-predicates--decision-circuits` |
 | Retrieve + expensive relevance fn | Bounded rerank of a retrieved shortlist | `references/mappings.md#4-retrieval--bounded-semantic-reranking` (independent TREC DL2019 benchmark: Jev zero-shot best MAP 0.4748, nDCG@10 0.683 vs tuned monoBERT 0.718 — competitive, not dominant) |
 | Agent self-supervision / on-track detection | Pre-gate → output judge → done-check → supervisor nouls | `references/agent-self-assessment.md` |
-| Context economy / compaction | One relevance Noul per tool result, stub + recall key | `references/agent-self-assessment.md` |
 | Optimizer/program frameworks (Ax, DSPy) | Typed fields → one Jev request; judge metrics; threshold discipline | `references/optimizer-integration.md` |
 | (meta) Finding new mappings & applications | Toolbox sweep: judgment-shaped component of a known method, substituted + falsified | `references/toolbox-mapping.md` |
 | Named methods / operators / theorems | Substitution tiers: operand-judgments, preconditioned theorems, non-substitutable | `references/methods-catalog.md` |
@@ -105,7 +109,7 @@ brackets: rejected as default; rerank-huge-sets: budget-only; correlated
   threshold — placed beside generation, not instead of it. Regexes that
   already work stay; trained classical classifiers still win on stable
   labeled taxonomies; open-ended writing stays on an LLM. Full answer:
-  `references/mixed-architecture.md#its-just-classification`.
+  `references/faq.md`.
 
 ## Decision-design card
 
@@ -124,7 +128,9 @@ Live references + versions (model, rubric, policy):
 For open-ended requests propose three materially different *placements of
 judgment*, recommend one. For mixed-architecture requests also fill the
 extras on `references/mixed-architecture.md` (what the LLM is still for,
-cascade costs, fail-open vs fail-closed). For concrete requests skip the
+cascade costs, fail-open vs fail-closed). Applied placements (sieve,
+keep/drop, env triage, moderation/ranking, skill routing):
+`references/applied-mappings.md`. For concrete requests skip the
 brainstorm and build.
 
 ## Evidence labels

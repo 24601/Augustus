@@ -26,12 +26,14 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    `ready_to_finish`; deterministic policy with hysteresis (retry counts,
    verification history) gates continue/stop/retry/verify. The model never
    commands; it estimates named probabilities.
-6. **Context economy**: judge every large tool result with one relevance
-   Noul before it enters context. Hide confident-no blocks behind a stub +
-   recall key; always keep current instruction, recent turns, errors, and
-   opaque blocks (thinking/signatures/media). winnow hides at relevance
-   ≤0.22; fast-jev-compaction asks two nouls per tool call (should the call
-   stay knowing it was made? should the result stay verbatim?).
+6. **Context economy**: the context-sieve card
+   (`references/applied-mappings.md#1-context-sieve`). Judge every large
+   tool result with one relevance Noul before it enters context. Hide
+   confident-no blocks behind a stub + recall key; always keep current
+   instruction, recent turns, errors, and opaque blocks. winnow hides at
+   relevance ≤0.22; fast-jev-compaction asks two nouls per tool call
+   (should the call stay knowing it was made? should the result stay
+   verbatim?).
 
 ## Non-negotiable boundaries
 

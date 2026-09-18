@@ -64,9 +64,9 @@ automatically correct). Links: Confidence docs, confidence-routing pattern.
 an expensive generator rather than after a decision. Drop or stub confident-
 irrelevant chunks, log lines, or tool results so the LLM never sees them;
 fail-open on retrieval (false drop loses evidence), fail-closed on dispatch
-(wrong tool is an action). Placement, fail-open table, and 2026-09-18
-ecosystem examples: `references/mixed-architecture.md`. Do not invent request
-fields here — live docs own the call shape.
+(wrong tool is an action). Detail cards: `references/applied-mappings.md`
+(context sieve, keep/drop, ranking). Do not invent request fields here —
+live docs own the call shape.
 
 ## 3. Semantic predicates → decision circuits
 

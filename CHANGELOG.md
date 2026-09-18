@@ -29,6 +29,10 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
 - Research note on Laya (`convaiinnovations/laya`): open Choice/Score/Noul
   head as a self-hosted *typed judgment provider*; vendor benches labeled
   claims; TypeSafe remains the default path
+- Applied-mapping cards: context sieve, exact-text keep/drop, env/harness
+  triage, moderation/ranking, skill/tool routing (`applied-mappings.md`)
+- FAQ card for "it's just classification", stack replacement, Jev vs open
+  head, and Augustus vs neighbor how-to skills
 
 ### Changed
 

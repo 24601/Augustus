@@ -21,8 +21,12 @@ Score, Noul) that software can act on directly.
 
 - `.agents/skills/augustus/SKILL.md` — working protocol + decision-design card
 - `.agents/skills/augustus/references/mixed-architecture.md` — default
-  placement: decision model + LLM + code; cost-sensitive prefilter;
-  tool/skill routing; preference lint; "just classification" answer
+  placement: decision model + LLM + code; preference lint; provider
+  (Jev default / open head with self-eval)
+- `.agents/skills/augustus/references/applied-mappings.md` — context sieve,
+  exact-text keep/drop, env triage, moderation/ranking, skill routing
+- `.agents/skills/augustus/references/faq.md` — "just classification",
+  stack replacement, Jev vs open head, not-another-how-to
 - `.agents/skills/augustus/references/mappings.md` — 5 classical-method
   mappings with boundaries, counterexamples, acceptance tests
 - `.agents/skills/augustus/references/validation.md` — design gate, eval

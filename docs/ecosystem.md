@@ -59,8 +59,7 @@ See `references/mixed-architecture.md` in the skill.
 
 ## The skill that owns this analysis
 
-[GitHub](https://github.com/24601/Augustus) — `SKILL.md` + 10 reference cards
-covering mental model, mixed architecture (decision model + LLM), method
-substitution (toolbox sweep), composition algebra (11 positions),
-question-design mechanics, validation gates, and optimizer coupling
-(Ax/DSPy/ProgramAsWeights).
+[GitHub](https://github.com/24601/Augustus) — `SKILL.md` + reference cards
+covering mental model, mixed architecture, applied placements (sieve /
+keep-drop / env triage / rank / route), method substitution, composition
+algebra, question-design, validation, and optimizer coupling.

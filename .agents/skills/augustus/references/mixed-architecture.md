@@ -69,6 +69,13 @@ an LLM re-enters — that is mixed architecture, not a different religion.
 
 ## It's just classification
 
+Canonical answer: `references/faq.md`. Short form: classification is not
+new; typed, calibrated, batched judgment as a software primitive *is* the
+placement question. Wins vs ad-hoc LLM-classify when you need schema-valid
+outputs you can threshold and re-policy; loses to working regexes, trained
+heads on stable taxonomies, and generation. Discourse citations and the
+longer win/lose list stay below as evidence, not as a second FAQ.
+
 Classification *is* the oldest AI task. Agree with the skeptic
 ([@dt_sqr](https://x.com/i/status/2100957356389511173)) on that fact, then
 answer the design question they actually asked: **where does a typed
@@ -112,6 +119,10 @@ and a control loop.**
 
 ## Cost-sensitive prefilter
 
+Detail cards: context sieve, exact-text keep/drop, env triage, and
+moderation/ranking in `references/applied-mappings.md`. This section is the
+cascade thesis only.
+
 A cascade, not a chatbot with a cheaper first word:
 
 ```text
@@ -154,6 +165,9 @@ Falsify a prefilter with: recall of must-keep items, cost/tokens saved,
 fail-open behavior on timeout, and a cost curve for false-drop vs false-keep.
 
 ## Tool and skill routing
+
+Detail card: `references/applied-mappings.md#5-skill--tool-routing`. This
+section is the selector thesis only.
 
 Selector position (`composition-algebra.md` #4), not "the model chooses its
 next tool in a loop" (that remains a red flag in `boundary-audit.md`).
