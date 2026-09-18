@@ -99,6 +99,18 @@ below, next to the when-to-use table.
   tokens; no published retention-quality rates (`notes.md` §50).
   Fastino/GLiGuard sibling *class*, not a GLiGuard safety-schema
   clone. Do not copy the plugin install.
+  **Code-graph indexer (Empirical as README behavior; 10–50× is a
+  target, 2026-09-18 ~16:48):**
+  [s1-graphify-indexer](https://github.com/GreyssonEnterprises/s1-graphify-indexer)
+  (+ sibling `s1-indexer`) uses GLiNER2 as the default System-1
+  backend to build a semantic code graph and escalates an LLM only
+  on the ambiguous tail **and only if the backend loaded**. Jev /
+  Needle stubs `available=False` until implemented. If GLiNER2
+  cannot load: degraded file-node graph, exit nonzero, do not dump
+  the repo to `S1_LLM_CMD`. Query does not invent edges. GitHub
+  one-liner 10–50× is **unfilled** — not Empirical (`notes.md` §51).
+  Same locate family as compaction; different hole (index vs
+  keep/drop). License not on GitHub this pass.
 - **Decide.** Typed Choice/Score/Noul with a decision/proper-scoring
   objective. That is Jev's product claim. Open heads copy the *shape*;
   distillation copies the *teacher* (openjev-lm, jev-gate-student-b).

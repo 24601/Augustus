@@ -919,6 +919,56 @@ mutation.
 
 
 
+## Batch #35 (2026-09-18 ~16:48 Boise) — CI merge-gate, fail-open wake, S1 indexer, claim-evidence
+
+Note: `research/notes.md` §51. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Do not re-fold
+§50 compaction, §49 bake-off, Abide, kev, pi-jev-approver, jevgate,
+rh-guard species.
+
+- **CaseReed/latch (Empirical as README / offline demo).** MIT.
+  Created 2026-09-18T22:09:12Z; 0★. Cluster in code; Jev labels
+  cause; policy owns Gate PASS vs BLOCK. Judge never says ignore
+  alone. Reporter never fails Playwright; `--gate` is a separate
+  step. Demo: 8 connection errors → PASS; 5 assertions → BLOCK.
+  Message-based grouping fragments (`pallets/click` 13→10). Pair
+  Harbor + rh-guard.
+- **shitianfang/wakegate (Empirical as safety table; 21/21 smoke).**
+  MIT. Skip only if Jev answers and p(wake)<0.2. Same author wrote
+  scenarios+question. Savings unmeasured. Contrast fail-closed
+  pi-jev-approver / cannot-block jevgate / fail-closed compaction.
+- **GreyssonEnterprises/s1-graphify-indexer (+ s1-indexer).** GLiNER2
+  default; escalate LLM only if backend loaded. 10–50× **unfilled**.
+  Degraded file-node graph if GLiNER cannot load; query does not
+  invent edges. License not on GitHub this pass.
+- **VladyslavHontar/clear-head (Empirical as README).** MIT. 1★.
+  Stop hook: claims vs session lines. Keyword retriever; JEV_FIRM
+  0.6 never blocks below.
+- **reification-labs/foreman.** Description-only Phoenix scaffold.
+  No Jev dep. Distinguish from super-jev "foreman" loop.
+- **vinilana/jev-gateway-bench (Empirical as *shape* + one-run
+  signal).** MIT. Chess perft hidden verifier; on vs off. Both
+  36/36; 4 vs 6 LLM req. Author: not a measurement. Sibling
+  jev-gateway fail-open if Jev down.
+- **LightningK0ala/jev-marshal.** Empty repo. Watch / description.
+- **LilDojd/jevons (Empirical as README policy).** MIT. Bounded Pi
+  supervisor; shadow recovery; never generates commands.
+- **MED:** Victor-Casado/if-ai (plain-English PR checks, fail-closed
+  on error); alexsatch/omp-auto-mode (one-line README); jolehuit/
+  jev-downloads-sorter (device-loop Choice); LakshyaChaudhry/
+  jev-label-desk (empty README); flaviomartil/herdr-jev (~260 ms
+  triage + triad; no-key heuristic).
+
+Cross-repo addition: (by) cluster in code / judge labels / policy
+decides (CI flaky-vs-real); (bz) name the irreversible act before
+picking fail polarity (wake skip vs merge PASS vs compaction drop);
+(ca) Harbor on/off routing with a hidden verifier; (cb) S1 extract
++ escalate-S2 is not a measured 10–50× until the table is filled;
+(cc) claim/evidence Stop is anti-hallucinated-done, not a test
+runner; (cd) description-only greenfield is not a product receipt.
+
+
+
 
 
 

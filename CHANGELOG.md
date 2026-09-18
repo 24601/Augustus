@@ -210,6 +210,22 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   *job* as fast-jev-compaction / pi-jev-compaction; GLiNER encoder
   backend; Fastino/GLiGuard sibling class. `shadowMode` default true.
   Not Jev. Not multimodal. No invented metrics.
+- CI merge-gate / fail-open wake VOI / S1 indexer / claim-evidence
+  (`research/notes.md` §51): architecture notes, not a plugin how-to.
+  [latch](https://github.com/CaseReed/latch) cluster-then-policy
+  PASS/BLOCK (pair Harbor + rh-guard).
+  [wakegate](https://github.com/shitianfang/wakegate) skip only if
+  p(wake)<0.2 (21/21 smoke). s1-graphify-indexer GLiNER extract +
+  escalate-S2 (10–50× unfilled).
+  [clear-head](https://github.com/VladyslavHontar/clear-head)
+  claims vs session evidence.
+  reification-labs/foreman description-only Phoenix scaffold (not the
+  super-jev loop).
+  [jev-gateway-bench](https://github.com/vinilana/jev-gateway-bench)
+  Harbor on/off one-run signal.
+  jev-marshal Watch/empty; jevons bounded Pi supervisor (shadow
+  recovery). MED: if-ai, omp-auto-mode, downloads-sorter, label-desk,
+  herdr-jev. Archer still Watch. No invented metrics. No wrapper.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

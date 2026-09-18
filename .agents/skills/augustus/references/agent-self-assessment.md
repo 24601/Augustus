@@ -22,7 +22,12 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    answers it — one Noul only for the semantic remainder ("does this
    reply claim the work is finished?"), one threshold. Spending the model
    on the countable half is the `/bin/ls`-as-first-tier pattern
-   (`mappings.md` §18).
+   (`mappings.md` §18). Claim/evidence cousin
+   ([clear-head](https://github.com/VladyslavHontar/clear-head),
+   ~16:48): check factual claims against **what was actually read this
+   session**; keyword retriever, not semantic; below `JEV_FIRM` 0.6
+   never blocks; true-but-unread still flags unsupported
+   (`notes.md` §51). Anti-hallucinated-done, not a test runner.
 4. **Stuck-detector**: three failures with the same strategy → ask for a
    new hypothesis, not another retry.
 5. **Supervision during long runs** (foreman): separate concurrent loop
@@ -46,6 +51,18 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    `conf ≥ τ` S1 decides else S2 generates; routing fails open; safety
    fails closed; **routing accuracy not measured**; keyword fallback is
    not S1 (`notes.md` §49). Tune τ on your escalation log.
+   **Distinguish names:** the existing "foreman" *shape* here is the
+   Kevthetech143/super-jev loop (named probabilities → hysteresis
+   table). [`reification-labs/foreman`](https://github.com/reification-labs/foreman)
+   (~16:48) is a **description-only** Elixir/Phoenix scaffold claiming
+   parallel S1 specialists + one S2 coordinator with typed
+   `{value, probability}` — README is stock Phoenix; `mix.exs` has no
+   Jev dep. Do not invent an Elixir API (`notes.md` §51).
+   Bounded Pi supervisor of the same lifecycle:
+   [jevons](https://github.com/LilDojd/jevons) — not a second agent;
+   default recovery **shadow**; steering never generates commands.
+   Distinguish from pi-jev-approver (fail-closed remainder) and
+   pi-jev-context (sieve).
 6. **Context economy**: the context-sieve card
    (`references/applied-mappings.md#1-context-sieve`). Judge every large
    tool result with one relevance Noul before it enters context. Hide
@@ -89,7 +106,10 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   ([jev-reviewer](https://github.com/choxos/jev-reviewer); `notes.md` §48).
   Compaction: point at character offsets in the tool result
   ([gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction);
-  `notes.md` §50).
+  `notes.md` §50). Session-evidence Stop
+  ([clear-head](https://github.com/VladyslavHontar/clear-head)): claims
+  vs **what the assistant actually read**; keyword retriever; below
+  firm-confidence never blocks (`notes.md` §51).
 - Self-report fidelity: compare the agent's claimed action with its actual
   trace via decomposed Nouls (right tool? args match schema? result matches
   call?). Escalate on low confidence; never auto-retry.
@@ -109,7 +129,11 @@ fuller productized path of that contract (compile / calibrate / tune /
 replay; one Score per rule on the diff; bands + fail-open). Soft
 rules → soft judgment; the linter owns hard rules. Shadow-mode the
 gate first; permit remains a separate axis from confidence.
-`notes.md` §47.
+`notes.md` §47. Plain-English PR-check cousin
+([if-ai](https://github.com/Victor-Casado/if-ai)): one condition +
+required min-confidence; fail-closed on error / empty / low
+confidence. [jev-marshal](https://github.com/LightningK0ala/jev-marshal)
+is Watch / empty repo this pass (`notes.md` §51).
 
 ## Using Jev to test and optimize the skill suite itself
 

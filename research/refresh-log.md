@@ -510,6 +510,34 @@
   CHANGELOG, README.
 - notes.md §50; sources.json; findings.md batch #34. No wrapper.
 
+## 2026-09-18 22:48 UTC — CI merge-gate / fail-open wake / S1 indexer / claim-evidence (~16:48 Boise)
+
+- Folded into open PR #2 (`cursor/augustus-store-envelope-00b4`).
+  Docs-only. Not a competing PR. Archer 27B drop still **WATCH**.
+  No invented metrics. No wrapper.
+- HIGH: [CaseReed/latch](https://github.com/CaseReed/latch) (MIT) —
+  cluster in code, Jev labels, policy PASS/BLOCK; pair Harbor +
+  rh-guard. [shitianfang/wakegate](https://github.com/shitianfang/wakegate)
+  (MIT) — fail-open VOI wake; 21/21 smoke.
+  [s1-graphify-indexer](https://github.com/GreyssonEnterprises/s1-graphify-indexer)
+  (+ s1-indexer) — GLiNER extract + escalate-S2; 10–50× unfilled.
+  [clear-head](https://github.com/VladyslavHontar/clear-head) (MIT,
+  1★) — claims vs session evidence.
+  [reification-labs/foreman](https://github.com/reification-labs/foreman)
+  — description-only Phoenix scaffold.
+  [jev-gateway-bench](https://github.com/vinilana/jev-gateway-bench)
+  (MIT) — Harbor on/off one-run signal.
+  [jev-marshal](https://github.com/LightningK0ala/jev-marshal) —
+  empty / Watch. [jevons](https://github.com/LilDojd/jevons) (MIT)
+  — bounded Pi supervisor, shadow recovery.
+- MED: if-ai, omp-auto-mode, jev-downloads-sorter, jev-label-desk,
+  herdr-jev, jev-gateway sibling.
+- Cards: SKILL.md, applied-mappings §3, mappings §3/§6/§9/§18,
+  mixed-architecture, validation, faq, judgment-class, mental-models,
+  methods-catalog, toolbox, agent-self-assessment, composition-algebra,
+  ecosystem, CHANGELOG, README.
+- notes.md §51; sources.json; findings.md batch #35. No wrapper.
+
 
 
 

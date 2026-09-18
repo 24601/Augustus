@@ -179,6 +179,9 @@ not a global virtue:
 |---|---|---|
 | Drop a RAG chunk or log line | **Fail open** (keep on error) | A false drop loses evidence; a false keep costs tokens |
 | Compact / drop a completed tool result | **Fail closed** to keep-full (`gliner25-compaction`) | Compaction is a destructive edit of memory. Uncertain *looks* like keep-on-error from the evidence side; name the *reduction* as the act. Contrast Abide / jevgate fail-open |
+| Skip waking a sleeping agent | **Fail open** (wake on error / unsure / no key) (`wakegate`) | Skip is the irreversible act. User-message, skip-limit, nothing-to-judge, and p in 0.2–0.5 all wake. Contrast pi-jev-approver fail-closed without a key |
+| Merge a red CI run | **Fail closed** on `--gate` (`latch`); reporter stays fail-open | False PASS merges a real bug. Missing key never fails Playwright; the gate is a separate step. Judge never says ignore alone |
+| Plain-English PR check | **Fail closed** on error / empty / low confidence (`if-ai`) | A skipped or timed-out check is not a pass. Threshold is policy, not measured correctness |
 | Route to a tool / start a side effect | **Fail closed** (don't call) | A wrong tool is an action |
 | Rerank a retrieved list | Fail open: keep retrieval order (`WiktorB2004/llama-index-jev`, **Empirical recipe** on BEIR nfcorpus: MiniLM 0.340 nDCG@5 → MiniLM+Jev 0.396; rerank fails open, *select* fails closed). Listwise/cross-encoder scores belong here, not on the row above. | Ranking errors are quality; selection errors are control-flow |
 
@@ -203,7 +206,9 @@ Worked placements (2026-09-18 topic:jev hour + prior archive):
   runs for root cause. Prefilter of *analyst attention*. The named cut
   this hour: Noul `env_broken` *as opposed to* the agent's own bug;
   silent vs disclosed vs recovered vs clean. Pre-mortem of a new
-  sandbox *before* users meet it (`notes.md` §42).
+  sandbox *before* users meet it (`notes.md` §42). Merge-gate of the
+  same split: [latch](https://github.com/CaseReed/latch) clusters in
+  code, labels with Jev, policy owns PASS/BLOCK (`notes.md` §51).
 - **Realtime hold-before-publish** — community moderation claims ~200ms
   (**Hypothesis** as a number; **Empirical** as a family via Near Here /
   jev-experiments firehose in the archive). Thresholds stay yours.
@@ -258,6 +263,11 @@ Live ecosystem (examples of the *shape*, not SDKs to copy):
   receipt.
 - Function-calling cookbook (**Contract**): function *names* and closed-set
   args as questions; code still validates the call.
+- [jev-gateway](https://github.com/vinilana/jev-gateway) (~16:48) — host
+  adapter: Jev picks the tool (and closed-set args); LLM fills open
+  args or is skipped (`direct`). Fail-open passthrough if Jev is down.
+  Harbor on/off measurement: [jev-gateway-bench](https://github.com/vinilana/jev-gateway-bench)
+  (one-run signal, not a measurement; `notes.md` §51). Do not copy ports.
 
 Routing ROI does not transfer across datasets (`validation.md`, calibre).
 `FirasSX914/Janus` exists to *measure* when Jev vs another model wins on
@@ -370,6 +380,10 @@ Related placements:
 - **AGENTS.md / project prefs as criteria** — jev-pref states the
   contract; Abide productizes it; pi-warden rule breaks 6→0 on 150
   paired runs (`agent-self-assessment.md`; `notes.md` §47).
+  [if-ai](https://github.com/Victor-Casado/if-ai): one plain-English
+  condition + required min-confidence; fail-closed on error
+  (`notes.md` §51). [jev-marshal](https://github.com/LightningK0ala/jev-marshal)
+  is Watch / empty.
 - **Confidence gates + shadow mode** — `AntonioCoppe/jev-harness` (48.9s
   Claude CLI vs 1.3s Jev on a 24-row filter). Log would-do until evals
   pass. Selective abstention (`mappings.md` §2): low confidence is
@@ -416,7 +430,7 @@ decision-design card. Do not clone APIs from READMEs.
 |---|---|---|---|
 | Hold-before-publish moderation | Hazard Nouls + harm Score | Block/review/pass policy | Near Here / firehose family |
 | Tool / engine / skill select | Choice + fits-Noul | Dispatch, auth, reject-all | skillranker, LlamaIndex selectors, Toolrouter |
-| Preference lint | Per-rule Score/Noul on a diff | Rule text, linter for hard rules, bands + fail-open | jev-pref (contract), Abide (productized), JevLint |
+| Preference lint | Per-rule Score/Noul on a diff | Rule text, linter for hard rules, bands + fail-open | jev-pref (contract), Abide (productized), JevLint; if-ai (plain-English PR check, fail-closed on error); jev-marshal (Watch / empty repo) |
 | Context / log prune | Per-line or per-block relevance; or a retention Choice + spans | Always-keep set, recall keys; mutation envelope in code; shadow before replace | jevprune, winnow; fast-jev-compaction / pi-jev-compaction (Jev); gliner25-compaction (GLiNER2.5) |
 | Exact hunk staging | Per-hunk include/exclude/mixed | `git diff`, atomic apply | git-jev-stage |
 | Semantic `WHERE` | Noul/`jev_prob` over a row | SQL, indexes, LIMIT | jevql (CLI; DB sees ordinary SQL); sqlite-jev (in-engine extension) |
@@ -447,6 +461,14 @@ decision-design card. Do not clone APIs from READMEs.
 | Jump-by-description | Noul relevance on a local shortlist | zoxide index, local paths only | joxide |
 | Game move | Choice over legal actions | Rules, legality, win check | jev-plays-games |
 | Analyst attention cascade | Step-level silent-failure Nouls | Grouping, LLM autopsy | OpenSmoke |
+| CI merge-gate (flaky vs real) | Cause Choice per clustered signature | Cluster + fingerprint + PASS/BLOCK table; reporter never fails the runner | latch (`notes.md` §51) |
+| Fail-open wake / resume | p(wake) on waitingFor × event | Sleep duration, skip-limit, user-message always wakes | wakegate |
+| Claim/evidence Stop | supports / contradicts / not-addressed per claim | Keyword retrieve session lines; firm-confidence floor never blocks | clear-head |
+| Harbor on/off routing | Tool Choice per turn | Hidden verifier; fail-open if Jev down | jev-gateway + jev-gateway-bench (one-run signal) |
+| Device-loop Choice | Folder among a closed catalog | Never invent folders; extension-map fallback | jev-downloads-sorter |
+| S1 extract + escalate-S2 index | GLiNER spans / relations on the bulk | Graph in code; LLM only if backend loaded and low conf; query does not invent edges | s1-graphify-indexer (10–50× unfilled) |
+| S1 specialists + S2 coordinator | Typed {value, probability} | Coordinator / hysteresis in code | reification-labs/foreman (**description-only** Phoenix scaffold; not the super-jev loop) |
+| Bounded Pi supervisor | Skills / recovery / review / verify | Shadow default; never generates commands | jevons |
 
 On-device / Home Assistant / mobile are newly-feasible via the economics
 inversion, not proven ports of every app. Named placements this hour

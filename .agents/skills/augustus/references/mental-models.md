@@ -474,6 +474,10 @@ Use these as *existence proofs of a position*. Write your own card.
 | Browser / DOM candidates → act | numbered elements from a **text** snapshot | Choice / Nouls over those ids (**Empirical** as atlas browser-use *shape*: DOM-as-text + fan-out, not vision) | Click in code; no screenshots |
 | Knowledge / recall | fact that is not in the document | **Do not ask.** Retrieve the passage first; then a self-contained Choice (**Empirical**: history suite A wrong@0.90 → C right@0.97) | Index, citation, the passage in `state` |
 | Dual-process cascade | cheap classify / route vs write | S1 typed decision + τ; S2 generates only on low conf (**Empirical as a productized metaphor**; routing accuracy **unmeasured** — dual-process-ai) | Safety still fail-closed in code |
+| CI merge-gate | ignore infra noise without merging a real bug | cause Choice per cluster (**Empirical**: latch demo PASS vs BLOCK) | Cluster + fingerprint + `--gate` table; reporter never fails the runner |
+| Sleeping-agent resume | skip a worthless LLM turn | p(wake) (**Empirical** as safety table; 21/21 smoke — wakegate) | User-message / skip-limit / error always wake |
+| Claim integrity at Stop | do not ship hallucinated-done | supports/contradicts vs session evidence (**Empirical**: clear-head) | Keyword retrieve; firm-confidence floor never blocks |
+| Code-graph index | cheap S1 extract, S2 only on the tail | GLiNER locate + confidence escalate (**Hypothesis** as 10–50×; **Empirical** as degraded-load / no-invent-edges) | Graph in code; do not dump repo if S1 failed to load |
 | Combinatorial puzzle | whole grid / program that must be consistent | **Rejected as extractive.** Cell-wise Choice assembly is not keep/drop (ARC-AGI Direct Jev 4/400) | Search, a program, a simulator |
 | Moderation | hold before publish | hazard Nouls (**Empirical** as family) | block/review policy |
 | Phishing / fraud screen | hold vs deliver | SDT criterion on a Noul | blocklist, SPF/DKIM exact (**Hypothesis**) |

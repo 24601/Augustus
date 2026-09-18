@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-18T22:22Z",
+  "retrieved": "2026-09-18T22:48Z",
   "sources": [
     {
       "kind": "docs",
@@ -1483,6 +1483,96 @@
       "title": "m-newhauser/gliner25-compaction",
       "url": "https://github.com/m-newhauser/gliner25-compaction",
       "note": "Apache-2.0. Local GLiNER2.5 (fastino/gliner2.5-base-v1) extractive compaction for Claude Code. Retention Choice keep_full|keep_evidence|keep_call_only|drop; exact char-offset copies; mutating tools keep_full; fail-closed to keep_full; shadowMode default true. Not Jev, not a summarizer, not multimodal. notes.md \u00a750."
+    },
+    {
+      "kind": "github",
+      "title": "CaseReed/latch",
+      "url": "https://github.com/CaseReed/latch",
+      "note": "MIT. Merge-gate: cluster in code, Jev labels cause, policy Gate PASS vs BLOCK. Judge never says ignore alone. Pair Harbor + rh-guard. notes.md \u00a751."
+    },
+    {
+      "kind": "github",
+      "title": "shitianfang/wakegate",
+      "url": "https://github.com/shitianfang/wakegate",
+      "note": "MIT. Fail-open VOI wake/resume. Skip only if Jev answers and p(wake)<0.2. 21/21 smoke (same author wrote scenarios+question). notes.md \u00a751."
+    },
+    {
+      "kind": "github",
+      "title": "GreyssonEnterprises/s1-graphify-indexer",
+      "url": "https://github.com/GreyssonEnterprises/s1-graphify-indexer",
+      "note": "GLiNER2 default code-graph; escalate LLM only if backend loaded. 10-50x unfilled. License not on GitHub this pass. notes.md \u00a751."
+    },
+    {
+      "kind": "github",
+      "title": "GreyssonEnterprises/s1-indexer",
+      "url": "https://github.com/GreyssonEnterprises/s1-indexer",
+      "note": "Sibling of s1-graphify-indexer; same README claims. notes.md \u00a751."
+    },
+    {
+      "kind": "github",
+      "title": "VladyslavHontar/clear-head",
+      "url": "https://github.com/VladyslavHontar/clear-head",
+      "note": "MIT. 1 star. Claude Code Stop hook: claims vs session evidence. Keyword retriever; JEV_FIRM 0.6 never blocks below. notes.md \u00a751."
+    },
+    {
+      "kind": "github",
+      "title": "reification-labs/foreman",
+      "url": "https://github.com/reification-labs/foreman",
+      "note": "Description-only Phoenix scaffold claiming S1 specialists + S2 coordinator. mix.exs has no Jev dep. No license field. Distinguish from super-jev foreman loop. notes.md \u00a751."
+    },
+    {
+      "kind": "github",
+      "title": "vinilana/jev-gateway-bench",
+      "url": "https://github.com/vinilana/jev-gateway-bench",
+      "note": "MIT. Harbor-shaped on/off routing bench; hidden chess perft. One-run signal (36/36 both; 4 vs 6 LLM req). Not a measurement. notes.md \u00a751."
+    },
+    {
+      "kind": "github",
+      "title": "vinilana/jev-gateway",
+      "url": "https://github.com/vinilana/jev-gateway",
+      "note": "MIT. Product sibling of jev-gateway-bench. Fail-open if Jev down. Do not copy ports. notes.md \u00a751."
+    },
+    {
+      "kind": "github",
+      "title": "LightningK0ala/jev-marshal",
+      "url": "https://github.com/LightningK0ala/jev-marshal",
+      "note": "Empty git repo this pass. Description: PR rules enforced by Jev. Watch. notes.md \u00a751."
+    },
+    {
+      "kind": "github",
+      "title": "LilDojd/jevons",
+      "url": "https://github.com/LilDojd/jevons",
+      "note": "MIT. Bounded Pi execution supervisor. Shadow recovery default; never generates commands. Not a second agent. notes.md \u00a751."
+    },
+    {
+      "kind": "github",
+      "title": "Victor-Casado/if-ai",
+      "url": "https://github.com/Victor-Casado/if-ai",
+      "note": "MIT. Plain-English PR checks: one condition, required min-confidence, one Action. Fail-closed on error/empty/low conf. notes.md \u00a751."
+    },
+    {
+      "kind": "github",
+      "title": "alexsatch/omp-auto-mode",
+      "url": "https://github.com/alexsatch/omp-auto-mode",
+      "note": "MIT. oh-my-pi plugin. README one line: classify tool calls safe/unsafe/ask. notes.md \u00a751."
+    },
+    {
+      "kind": "github",
+      "title": "jolehuit/jev-downloads-sorter",
+      "url": "https://github.com/jolehuit/jev-downloads-sorter",
+      "note": "MIT. Device-loop Choice on ~/Downloads. Never invents folders; extension-map fallback. notes.md \u00a751."
+    },
+    {
+      "kind": "github",
+      "title": "LakshyaChaudhry/jev-label-desk",
+      "url": "https://github.com/LakshyaChaudhry/jev-label-desk",
+      "note": "Description-only weekend trace labeling. README empty this pass. notes.md \u00a751."
+    },
+    {
+      "kind": "github",
+      "title": "flaviomartil/herdr-jev",
+      "url": "https://github.com/flaviomartil/herdr-jev",
+      "note": "Jev triage ~260ms + triad orchestration. No-key local heuristic. Do not copy install.sh. License not stated this pass. notes.md \u00a751."
     }
   ]
 }

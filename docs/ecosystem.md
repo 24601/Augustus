@@ -159,6 +159,20 @@ Architecture notes, not a plugin catalog. `notes.md` §50. TypeSafe Jev is the e
 
 - **m-newhauser/gliner25-compaction** — local GLiNER2.5 (`fastino/gliner2.5-base-v1`) retention Choice (`keep_full` / `keep_evidence` / `keep_call_only` / `drop`) + exact character-offset copies. Pointer family with testimonial-miner / jev-reviewer. Mutating tools / shell operators → `keep_full` in code. Fail-closed to `keep_full` (contrast many fail-open Jev gates). Same compaction *job* as fast-jev-compaction / pi-jev-compaction; encoder backend; Fastino/GLiGuard sibling class. `shadowMode` default true. Experimental; characters not tokens; no published retention-quality rates. Apache-2.0.
 
+### Hourly ~16:48 Boise (CI merge-gate / fail-open wake / S1 indexer / claim-evidence)
+
+Architecture notes, not a plugin catalog. `notes.md` §51. TypeSafe Jev is the exemplar, not a monopoly. Archer still Watch.
+
+- **CaseReed/latch** — merge-gate: cluster in code, Jev labels cause, policy owns Gate PASS (infra) vs BLOCK (real). Judge never says ignore alone. Playwright reporter fail-open; `--gate` is a separate step. Pair Harbor + rh-guard. MIT.
+- **shitianfang/wakegate** — fail-open VOI wake/resume (Horvitz). Skip only if Jev answers and p(wake)<0.2. 21/21 smoke (same author wrote scenarios+question). Contrast pi-jev-approver fail-closed / jevgate cannot-block. MIT.
+- **GreyssonEnterprises/s1-graphify-indexer** (+ `s1-indexer`) — GLiNER default code-graph; escalate LLM only if backend loaded and low conf. 10–50× **unfilled**. Query does not invent edges. License not on GitHub this pass.
+- **VladyslavHontar/clear-head** — Stop hook: claims vs session evidence. Keyword retriever; `JEV_FIRM` 0.6 never blocks below. MIT. 1★.
+- **reification-labs/foreman** — description-only Phoenix scaffold (S1 specialists + S2 coordinator). Not the super-jev "foreman" loop. No Jev dep. Do not invent an Elixir API.
+- **vinilana/jev-gateway-bench** — Harbor on/off routing; hidden chess perft; one-run signal (36/36 both; 4 vs 6 LLM req). Product sibling `jev-gateway` fail-open if Jev down. MIT.
+- **LightningK0ala/jev-marshal** — Watch / empty repo. Policy-as-judgment PR cousin of Abide / if-ai.
+- **LilDojd/jevons** — bounded Pi supervisor; shadow recovery; never generates commands. MIT.
+- MED: if-ai (plain-English PR checks, fail-closed on error); omp-auto-mode (safe/unsafe/ask); jev-downloads-sorter (device-loop Choice); jev-label-desk (description-only); herdr-jev (~260 ms triage + triad; no-key heuristic).
+
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs
 Apalache; DST trio Antithesis / Resonate HQ / PufferLib):

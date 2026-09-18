@@ -3403,3 +3403,309 @@ GLiNER2.5 is another. Augustus stays family-first.
 Not multimodal. Usage: extractive context management as a
 perception/memory hygiene stage **before** decide. Archive +
 landscape pointer.
+
+## 51. CI merge-gate, fail-open wake VOI, S1 indexer, claim-evidence Stop (2026-09-18 ~16:48 Boise)
+
+America/Boise ~16:48 = 22:48 UTC. Docs-only fold into open PR #2
+(`cursor/augustus-store-envelope-00b4`). Not a competing PR. Archer
+27B drop still **WATCH**. Identity lock vs `typesafe-ai` / `tenbin` /
+`decision-first` holds. No wrapper, no npm/wrangler/install.sh/devenv
+how-to, no copied ports, thresholds as class constants, or invented
+metrics. Do not re-fold §50 GLiNER2.5 compaction, §49 bake-off, Abide,
+kev, pi-jev-approver, jevgate, or rh-guard as a species rewrite.
+
+Backend-agnostic: this hour is **decision-model as classifier /
+gate / coordinator** (flaky-vs-real CI, VOI resume, S1 extract +
+escalate-S2, claim/evidence integrity, Harbor on/off routing,
+policy-as-judgment). TypeSafe Jev is the documented exemplar, not
+the monopoly. Augustus stays family-first.
+
+### HIGH
+
+1. **[`CaseReed/latch`](https://github.com/CaseReed/latch)**
+   (MIT; TypeScript; created 2026-09-18T22:09:12Z; 0★ at capture).
+   Merge-gate triage for a **finished** red test run (Playwright /
+   Jest / pytest / JUnit XML): cluster failures by signature in
+   **code**, TypeSafe Jev labels each cause (one call per cluster, at
+   most 8; cached free), **code owns** Gate: PASS (infra noise) vs
+   Gate: BLOCK (real failure). The judge never gets to say "ignore"
+   alone. `ignore_as_infra` needs `env_cascade` + an infra
+   fingerprint. Missing key still prints clusters (`needs_human` /
+   `no_key`) and **never fails Playwright** — the reporter is
+   fail-open; `--gate` is a **separate** CI step.
+
+   Demo (offline, README): 8 identical connection errors → 1 cause →
+   Gate PASS; 5 failing assertions → Gate BLOCK. Policy (theirs, not
+   class constants): no key / API error / `cause.confidence < 0.55` /
+   `same_root < 0.5` → `needs_human`; `env_cascade` + `same_root >=
+   0.7` + fingerprint → `ignore_as_infra`; flake / locator_drift →
+   `fix_test`; `assertion_bug` and (`blocks_merge >= 0.55` or Jev
+   `action = fix_product`) → `fix_product`. `blocks_merge` sits in a
+   noise band ~±0.03; 0.55 is in the empty gap (their calibrate
+   claim).
+
+   **Limits (theirs).** Grouping is message-based; a logic regression
+   fragments. Measured on `pallets/click`: 2 real regressions → 13
+   failures → **10 clusters**. The "70 → 1" figure is an infra-cascade
+   property, not a general one. Signature = `apiName` + first 80 chars
+   of the normalized error. Error text is redacted in every output.
+
+   **Four load-bearing mental models:**
+
+   1. **Cluster in code, judge labels, policy decides.** Same split as
+      OpenSmoke (scan every step; LLM autopsy only on flags): the
+      model estimates a *cause class*; the merge act is a table.
+      Internals are not a state machine; placement is a component
+      node (`notes.md` §49).
+   2. **Decision-model as CI flaky-vs-real classifier.** The hole is
+      SDT criterion (false PASS on a real bug >> false BLOCK on
+      infra), not "make CI smarter." Pair with Harbor (frozen
+      artifacts × PASS/BLOCK labels; independent verifier) and
+      rh-guard (eval-integrity — do not let the agent game the tests
+      latch is classifying). Different holes; shared notes only.
+   3. **Fail polarity is per surface.** Reporter never fails
+      Playwright (false block of the *run* loses evidence). `--gate`
+      fails closed on merge when a cluster is not confirmed infra.
+      Name the *act*.
+   4. **Do not copy the reporter.** Thresholds, ledger path, and npm
+      wiring stay theirs.
+
+   **Placement.** Environment / harness triage
+   (`applied-mappings.md` §3) + decision circuits (`mappings.md` §3)
+   + SDT (`mappings.md` §7). Pillar: SDT + Leveson sensor≠constraint.
+   Hole: triage / gate. Family: closed decision API. Eval path: none
+   published as Harbor this pass (demo + unit goldens). **Empirical**
+   as README behavior / demo. **Hypothesis** that the same cluster →
+   label → policy transfers to *your* runner. Cards:
+   `applied-mappings.md` §3; `mappings.md` §3 / §7 / §18;
+   `mixed-architecture.md`; `validation.md`; `faq.md`. No wrapper.
+
+2. **[`shitianfang/wakegate`](https://github.com/shitianfang/wakegate)**
+   (MIT; TypeScript; created 2026-09-18T22:13:11Z; 0★). Fail-open
+   **wake gate** before resuming a sleeping agent (Workers / Durable
+   Objects / Node). One typed question: given `waitingFor` plus an
+   optional event/observation, is this worth a full LLM turn? Code
+   owns sleep duration, skip counters, and force-wake. Skip only if
+   Jev answers **and** p(wake) < 0.2. Every other path wakes:
+   `fromUser`, nothing-to-judge, skip-limit (default 10), error / no
+   key / timeout (5 s), unsure band 0.2–0.5, p ≥ 0.5.
+
+   **Eval (theirs; discount).** 21/21 on 21 hand-written scenarios
+   (11 wake / 10 sleep); p50 253 ms, p95 519 ms (n=21). Two of the
+   11 correct wakes came only from the unsure band (calendar invite
+   0.38; sold out 0.48). Same person wrote the scenarios and the
+   question. First yes/no wording scored 16/21 on this set. Current
+   three-way Choice picked on a separate 16-scenario **dev** set
+   (not in repo). **Smoke, not a benchmark.** Savings unmeasured.
+
+   **Contrast (fail polarity, not products).**
+   [`phin-tech/pi-jev-approver`](https://github.com/phin-tech/pi-jev-approver)
+   fails **closed** without a key (tool remainder). jevgate **cannot
+   block** (allowlist proves; remainder fail-open). Compaction
+   (`notes.md` §50) fails closed to `keep_full` because *drop* is
+   irreversible. Wake *skip* is the irreversible act here (the agent
+   stays asleep), so the authorized skip is the rare, high-confidence
+   path; everything else wakes. Horvitz mixed-initiative / VOI: pay
+   for the LLM turn only if EV(decision) beats the token cost; a
+   regex / user-message / skip-limit already answers without a model
+   (meta-VOI). Event/observation are untrusted; `maxSkips` bounds
+   sleep, "neither is a security boundary" (their README).
+
+   **Placement.** VOI / gather (`mappings.md` §6) + durable-agent
+   control (`mappings.md` §14, Hypothesis) + mixed-architecture
+   per-action fail table. Hole: gate / abstain. Family: closed
+   decision API. **Empirical** as README safety table. **Hypothesis**
+   as production savings. Do not copy wrangler/npm. Cards:
+   `mappings.md` §6 / §18; `mixed-architecture.md`; `faq.md`.
+
+3. **[`GreyssonEnterprises/s1-graphify-indexer`](https://github.com/GreyssonEnterprises/s1-graphify-indexer)**
+   (+ sibling [`s1-indexer`](https://github.com/GreyssonEnterprises/s1-indexer);
+   created 2026-09-18T22:23:04Z / 22:21:15Z; 0★; **license not on
+   GitHub this pass — do not invent**). Local-first semantic
+   indexer: small zero-shot System-1 models build a knowledge graph
+   of a repo; an LLM is used only on the ambiguous tail, and **only
+   when the System-1 backend actually loaded**. Default backend
+   `gliner2`. Stubs `jev` and `needle` ship `available=False` until
+   implemented. GitHub one-liner "10–50× faster than LLM-based
+   indexing" is a **target, not a measured speedup**. README: do not
+   treat it as a benchmark until the table is filled from one repo,
+   both backends, same machine. Table is TBD.
+
+   If GLiNER2 cannot load: artifacts still written (file nodes from
+   the chunker, `run_status: degraded`), process exits nonzero, repo
+   is **not** dumped to `S1_LLM_CMD`. `query` tokenizes, matches node
+   names, walks two hops; no match prints `Insufficient evidence`;
+   **it does not invent edges**. `gliner2[local]` extra is heavier
+   than declared deps and is not pulled by default.
+
+   **Mental model.** S1 zero-shot **locate/extract** (GLiNER spans /
+   relations) on the bulk; escalate-to-S2 only on low-confidence
+   remainder — same sandwich as allowlist ∩ remainder and as
+   dual-process `conf ≥ τ` → S1 else S2, here the expensive act is
+   *indexing tokens* not a chat reply. GLiNER-as-Jev-class cousin
+   (`judgment-class.md` locate vs decide): the indexer is not a Noul.
+   Same *family* as gliner25-compaction (encoder on code/text) with a
+   different hole (graph construction vs memory keep/drop). Do not
+   copy pip extras.
+
+   **Placement.** Locate species + escalate-S2. Hole: perceive /
+   gather. **Hypothesis** as 10–50×. **Empirical** as degraded-load
+   and no-invent-edges README behavior. Cards: `judgment-class.md`;
+   `mixed-architecture.md`; `faq.md`.
+
+4. **[`VladyslavHontar/clear-head`](https://github.com/VladyslavHontar/clear-head)**
+   (MIT; Python; created 2026-09-18T22:15:08Z; 1★). Claude Code
+   **Stop** hook: Jev checks factual claims in the assistant's answer
+   against **what it actually read this session**. Anti-hallucinated-
+   done. Per claim, keyword-and-frequency retriever (not semantic)
+   sends matching tool-output *lines* — not whole files. Classifies
+   sentences as factual / proposal / recap / neither; then
+   supports / contradicts / doesn't-address. Blocks on contradicted,
+   or unsupported with **no** relevant evidence. Coverage below
+   `JEV_EVIDENCE_FLOOR` (default 0.3) is "nothing relevant found";
+   above the floor, "Jev can't confirm a specific derived fact" is
+   usually their documented limit, not a block. `JEV_FIRM` default
+   0.6: below that, logged, **never blocks**.
+
+   **Limits (theirs).** Keyword retriever misses paraphrases and can
+   match stale session evidence on generic overlap (no recency /
+   topic-boundary). A true claim unread this session still flags
+   unsupported. Excerpts leave the machine. Do not copy `install.sh`.
+
+   **Placement.** Done-check / claim–evidence entailment
+   (`agent-self-assessment.md`; `methods-catalog.md` NLI row).
+   Pointer family with jev-reviewer: the model judges against
+   retrieved lines, never against another model's prose. Hole: gate.
+   **Empirical** as README behavior. **Hypothesis** as transfer to
+   *your* transcript domain. Cards: `agent-self-assessment.md`;
+   `applied-mappings.md` §2; `faq.md`.
+
+5. **[`reification-labs/foreman`](https://github.com/reification-labs/foreman)**
+   (created 2026-09-18T22:46:57Z; 0★; **no license field in
+   `mix.exs` — do not invent**). GitHub description: "Parallel
+   specialist agents returning typed, calibrated answers behind a
+   single System Two foreman. Elixir/Phoenix, Jev/TypeSafe-native —
+   `{value, probability}` everywhere." **The checkout is a stock
+   Phoenix 1.8 scaffold.** README is the Phoenix generator starter;
+   `AGENTS.md` is Phoenix guidelines; `mix.exs` has Phoenix/Ecto/
+   Bandit/Req — **no typesafe / jev dependency**. Fold as
+   **description-only greenfield**, not a measured product. Do not
+   invent an Elixir Jev API.
+
+   **Distinguish** from the existing "foreman" *shape* in
+   `agent-self-assessment.md` (Kevthetech143/super-jev loop:
+   progress/stuck/complete → continue/stop/retry/verify; the model
+   estimates named probabilities; code owns hysteresis). Dual-process
+   cousin of [dual-process-ai](https://github.com/taro1985/dual-process-ai)
+   (`notes.md` §49): S1 specialists decide; S2 coordinates / writes.
+   Typed probability everywhere is the *class* claim, not a receipt
+   this pass.
+
+   **Placement.** Mixed architecture / dual-process. **Watch /
+   description-only.** Cards: `mixed-architecture.md`;
+   `agent-self-assessment.md`; `mental-models.md`.
+
+6. **[`vinilana/jev-gateway-bench`](https://github.com/vinilana/jev-gateway-bench)**
+   (MIT; created 2026-09-18T22:29:58Z; 0★). Harbor-shaped bench for
+   sibling [`vinilana/jev-gateway`](https://github.com/vinilana/jev-gateway)
+   (MIT; product; fail-open if Jev down/slow/wrong key; never fails
+   the LLM request). Real coding agents (Codex / Claude Code) on
+   chess-engine tasks with Jev routing **on vs off**. Hidden verifier
+   (perft + targeted checks) the agent never sees. Chess chosen
+   because perft counts are published and one wrong rule changes
+   them. Tasks: `chess-engine` (build), `chess-bugfix` (five injected
+   bugs), `chess-san` (notation feature). Modes alternate; order
+   swaps between reps.
+
+   **Preliminary one-run (author: first signal, not a measurement;
+   2026-09-18; Codex 0.154 / `gpt-6-astra` / `jev-latest`;
+   `chess-bugfix`):** both 36/36 hidden checks; routing on 4 LLM req /
+   76,678 in / 1,313 out / 35 s vs off 6 / 118,709 / 3,231 / 88 s;
+   Jev 4 calls ~$0.0008. Jev forced `exec` three times (p 0.91 / 0.99
+   / 0.94) then switched tools off to answer (0.98). An earlier pair
+   the same day (pre token-metering fix) showed the same *shape* (4
+   vs 6 requests; 40 s vs 69 s). With fewer than five runs per mode
+   the summary says so. A cheaper unsolved run is not a saving. A
+   wrongly forced tool can derail a turn. Do not copy npm/ports.
+   Public repo caveat: an agent with web access could find the
+   reference; tasks give no reason to look.
+
+   **Placement.** Harbor/jevals practice (`validation.md`): taskset
+   (chess + hidden verifier) × harness (Codex/Claude) × runtime
+   (fresh gateway per run) × on/off treatment. Sibling of DMB
+   (class bake-off) and jev-testbench (collab arms). **Empirical** as
+   a *shape* and as one-run signal. **Hypothesis** as a cost/quality
+   claim. Cards: `validation.md`; `methods-catalog.md`;
+   `toolbox-mapping.md`.
+
+7. **[`LightningK0ala/jev-marshal`](https://github.com/LightningK0ala/jev-marshal)**
+   (created 2026-09-18T22:42:24Z). Description: "Repository rules for
+   pull requests, enforced by Jev." **Empty git repo** this pass
+   (default-branch 409). Fold as **Watch / description-only**. Cousin
+   of Abide / jev-pref / if-ai (policy-as-judgment on a PR). No
+   metrics, no fail polarity, no license to invent.
+
+8. **[`LilDojd/jevons`](https://github.com/LilDojd/jevons)**
+   (MIT; TypeScript; created 2026-09-18T22:43:34Z; 0★). Bounded **Pi**
+   execution supervisor. README 100% slop badge. **Not a second
+   coding agent:** Jev interprets evidence; ordinary code controls
+   freshness, limits, and permitted responses. Skill selection (≤3
+   or none), failure recovery (actual completed tool outcomes; exact
+   repeats in code), review (chunk × rule), optional investigation,
+   verification (select among configured commands; never generates
+   them). Default recovery **shadow**. Steering (opt-in) delivers
+   fixed replan/ask-user guidance, **never generated commands**.
+   Optional pre-tool feedback is off by default. Distinguish from
+   `phin-tech/pi-jev-approver` (fail-closed remainder) and
+   `kevinpita/pi-jev-context` (sieve). Do not copy devenv/bun.
+
+   **Placement.** Agent self-supervision lifecycle
+   (`agent-self-assessment.md`) as a bounded supervisor, not a
+   planner. Hole: gate / route. **Empirical** as README policy
+   (shadow default). **Hypothesis** as improved task completion —
+   "small fixture experiments are useful smoke tests, not evidence"
+   (theirs). Cards: `agent-self-assessment.md`; `mappings.md` §9;
+   `mixed-architecture.md`.
+
+### MED (brief)
+
+- **[`Victor-Casado/if-ai`](https://github.com/Victor-Casado/if-ai)**
+  (MIT; created 2026-09-18T22:09:14Z; 0★). Plain-English PR checks:
+  one condition, a required `min-confidence`, one GitHub Action.
+  Modes `pr-body` / `diff` / `per-file`. Pass only when true **and**
+  confidence ≥ threshold. Empty body/diff, timeout, API error →
+  **fail** (fail-closed on the Action). Two-option Choice (Noul has
+  no native confidence). PR text is data, not a security boundary.
+  Cousin of Abide / jev-pref / jev-marshal. Do not copy the Action
+  YAML.
+- **[`alexsatch/omp-auto-mode`](https://github.com/alexsatch/omp-auto-mode)**
+  (MIT; created 2026-09-18T22:05:41Z; 0★). oh-my-pi plugin. README
+  is one line: classify tool calls `safe` / `unsafe` / `ask`.
+  Pre-action gate cousin. Description-thin.
+- **[`jolehuit/jev-downloads-sorter`](https://github.com/jolehuit/jev-downloads-sorter)**
+  (MIT; created 2026-09-18T22:25:30Z; 0★). Device-loop Choice:
+  launchd `WatchPaths` on `~/Downloads`; one decision per file;
+  ~400 ms README examples. Closed folder catalog; never invents
+  folders; never overwrites; OpenRouter unreachable → extension-map
+  fallback. Do not copy `install.sh`.
+- **[`LakshyaChaudhry/jev-label-desk`](https://github.com/LakshyaChaudhry/jev-label-desk)**
+  (created 2026-09-18T22:49:49Z; 0★). Description: weekend project
+  using Jev to automate trace/data labeling for a provided taxonomy.
+  README empty this pass. **Watch / description-only.**
+- **[`flaviomartil/herdr-jev`](https://github.com/flaviomartil/herdr-jev)**
+  (created 2026-09-18T22:23:53Z; 0★; license not stated this pass).
+  Jev triage ~260 ms + triad orchestration (advisor / implementer /
+  reviewer). No key → local heuristic, 0 ms. Do not copy
+  `install.sh` or the model matrix.
+- **jev-gateway siblings.** Product
+  [`vinilana/jev-gateway`](https://github.com/vinilana/jev-gateway)
+  (fail-open passthrough) + bench above. Claude Code is `hint` mode
+  (cannot force `tool_choice` with thinking / cache). Do not copy
+  ports.
+
+### Omni / Jev-omni
+
+Not multimodal. Usage: merge-gate / wake / claim-evidence as
+text-state decisions **before** a generative turn. Archive +
+landscape pointer. Archer still Watch.
+

@@ -128,7 +128,12 @@ your state machine" is the architectural instinct — `notes.md` §49).
 **Example**: game director — Jev judges whether player dialogue is
 conciliatory or threatening; code enforces inventory, prerequisites,
 chronology, reachable scenes (cf. HEIST//ONE: six guards batched, simulation
-validates every proposal). **Counterexample**: decomposing tool-trace
+validates every proposal). **Merge-gate circuit (Empirical as README
+behavior, 2026-09-18 ~16:48):**
+[latch](https://github.com/CaseReed/latch) — Jev labels a clustered
+cause; a **table** maps cause × confidence × fingerprint → PASS /
+BLOCK / needs_human. The judge is a sensor, not the merge act
+(`notes.md` §51). **Counterexample**: decomposing tool-trace
 verification into per-call schema nouls works; asking "is the trace correct"
 as one Noul hides nine judgments. **Test**: full truth table / transition
 cases incl. contradictory outputs, stale observations, invalid combos.
@@ -291,6 +296,15 @@ then ask. Atlas history suite: wrong @ 0.90 without context → right @
 0.97 with the passage (`notes.md` §49; `mental-models.md` §boundary).
 That observation is VOI with a named receipt. Do not rely on bare
 recall.
+**Fail-open wake/resume (Empirical as README safety table; 21/21 is
+smoke, 2026-09-18 ~16:48):**
+[wakegate](https://github.com/shitianfang/wakegate) — skip a sleeping
+agent's LLM turn only if Jev answers **and** p(wake) < 0.2; user
+message / nothing-to-judge / skip-limit / error / unsure all **wake**.
+Horvitz mixed-initiative: pay for the turn iff EV(decision) beats
+the token cost. Savings unmeasured. Same-author scenarios+question;
+not a benchmark (`notes.md` §51). Contrast pi-jev-approver
+fail-closed without a key and jevgate cannot-block.
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs
@@ -322,6 +336,10 @@ report hits / false alarms at the operating point, not accuracy
 
 **Example (Empirical as family shape):** firehose / Near Here moderation
 — judge once, re-policy in code.
+**CI merge-gate (Empirical as README / demo, 2026-09-18 ~16:48):**
+[latch](https://github.com/CaseReed/latch) — false PASS on a real bug
+>> false BLOCK on infra; criterion lives in the policy table, not in
+the cause label (`notes.md` §51).
 [`jp-sns-jev7-estimator`](https://huggingface.co/kokuren/jp-sns-jev7-estimator)
 is the rare-class warning in one table: seven distilled teacher scores
 that the card says are **not** calibrated probabilities, and `threat`
@@ -376,6 +394,11 @@ mapping §5 is the taxonomy-beam special case). Economics inversion:
 per-node judgments were known and too expensive; they are now default.
 Control: hysteresis, continue / stop / retry / verify — the model
 estimates named probabilities; the controller is a table with memory.
+**Bounded Pi supervisor (Empirical as README policy, 2026-09-18
+~16:48):** [jevons](https://github.com/LilDojd/jevons) — not a second
+agent; Jev interprets evidence; code owns freshness/limits; default
+recovery **shadow**; steering never generates commands
+(`notes.md` §51). Distinguish from pi-jev-approver / pi-jev-context.
 **Does not transfer**: Jev as the planner that picks its next tool in a
 loop; bandits without observed rewards; speculative depth without a
 simulator; PufferLib Ocean scores as a capability claim
@@ -682,6 +705,16 @@ judges only the remainder; uncertain **fails closed to `keep_full`**
 (`notes.md` §50). Same sandwich, opposite fail policy from jevgate
 (cannot block) and Abide (fail-open on diffs): the authorized act is
 a destructive reduction of memory.
+**Name the irreversible act (2026-09-18 ~16:48).** Wake *skip* is
+irreversible (the agent stays asleep) →
+[wakegate](https://github.com/shitianfang/wakegate) authorizes skip
+only at p < 0.2 and otherwise **wakes** (fail-open on the skip).
+Merge *PASS* is irreversible if the bug was real →
+[latch](https://github.com/CaseReed/latch) `--gate` BLOCKs unless
+infra is confirmed; the Playwright reporter stays fail-open.
+[if-ai](https://github.com/Victor-Casado/if-ai) fails the Action on
+error / empty / low confidence (fail-closed on the check).
+`notes.md` §51.
 **Beyond SWE (Hypothesis):**
 recipe book ∩ "does this leftover look done?"; labor-law allowlist ∩
 hiring-fit Noul; SPF/DKIM pass ∩ phishing Noul on the body. **Counterexample:**

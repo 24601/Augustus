@@ -325,6 +325,7 @@ Rules:
 | Reward-hack / eval gaming | [rh-guard](https://github.com/24601/rh-guard) | structural deny + System One sidecar |
 | Project soft-rule lint | [Abide](https://github.com/coldteadotai/abide) | Score per rule on the diff; bands; fail-open; replay + independent review |
 | Collab / computer-use product loop | [jev-testbench](https://github.com/ufx7/jev-testbench); [solari-reflex](https://github.com/hitakshiA/solari-reflex) | Wilson/McNemar arms; independently checked task time |
+| Agent routing on vs off | [jev-gateway-bench](https://github.com/vinilana/jev-gateway-bench) | Hidden perft; cost/quality; one-run signal this pass |
 
 rh-guard is a reward-hack hook, a different surface from jevgate and
 from Abide (eval-integrity vs allowlist-remainder vs project soft
@@ -347,6 +348,22 @@ vs 98.4 s (`notes.md` §48). **Collab-arm curriculum:**
 `llm_autonomous` vs `scripted_plus_jev` vs `llm_plus_jev`; Wilson +
 McNemar; Jev is not a peer arm. Bake into jevals/Harbor hygiene, do
 not copy the harness.
+
+**Harbor on/off routing (Empirical as a *shape* and as a one-run
+signal, not a measurement; 2026-09-18 ~16:48).**
+[jev-gateway-bench](https://github.com/vinilana/jev-gateway-bench)
+(MIT): real coding agents on chess-engine tasks; Jev routing on vs
+off; hidden perft verifier the agent never sees; fresh gateway per
+run. Author: first signal, not a measurement; <5 runs/mode the
+summary says so. Preliminary `chess-bugfix` Codex: both 36/36
+checks; on 4 LLM req / 76,678 in / 35 s vs off 6 / 118,709 / 88 s;
+Jev 4 calls ~$0.0008. A cheaper unsolved run is not a saving. A
+wrongly forced tool can derail a turn. Product sibling
+[jev-gateway](https://github.com/vinilana/jev-gateway) fails open if
+Jev is down. Pair CI merge-gate
+([latch](https://github.com/CaseReed/latch)) with this substrate
+(frozen JUnit artifacts × PASS/BLOCK) and rh-guard (eval-integrity).
+Do not copy npm/ports (`notes.md` §51).
 
 **Harbor-style frozen protocol vs constrained LLMs (Empirical as that
 named receipt, not a ranking).**

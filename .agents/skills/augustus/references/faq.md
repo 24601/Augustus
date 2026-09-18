@@ -149,6 +149,11 @@ Hole first, logo last. These are **species**, not aliases
   uses that local multi-head as **categorize** (retention action) plus
   **locate** (character-offset spans); code copies; not a summarizer
   (`notes.md` §50).
+  Indexer cousin: [s1-graphify-indexer](https://github.com/GreyssonEnterprises/s1-graphify-indexer)
+  uses GLiNER2 on the bulk of a repo graph and escalates an LLM only
+  on the ambiguous tail **if the backend loaded**. GitHub one-liner
+  10–50× is a **target, not a measured speedup** — table TBD
+  (`notes.md` §51). Not a Noul.
 - **GLiClass (categorize):** one forward pass over text + *all* labels;
   sigmoid multi-label or softmax single-label. Use for large or changing
   tag sets. Scores are class affinities, not automatically a gateable
@@ -321,9 +326,12 @@ window (edit vs turn). Fix false positives in the rubric, not the
 model. Productized path: [Abide](https://github.com/coldteadotai/abide);
 earlier contract pointer: jev-pref. Complementary, not the same
 product: [rh-guard](https://github.com/24601/rh-guard) (reward-hacking /
-eval integrity). Request-shape lint still sits upstream (wellposed /
+eval integrity). Plain-English PR check:
+[if-ai](https://github.com/Victor-Casado/if-ai) (one condition +
+required min-confidence; fail-closed on error). [jev-marshal](https://github.com/LightningK0ala/jev-marshal)
+is Watch / empty this pass. Request-shape lint still sits upstream (wellposed /
 `tenbin`). `mixed-architecture.md`; `question-design.md`; `notes.md`
-§47.
+§47, §51.
 
 ## Can confidence gating catch a forced wrong Choice?
 
@@ -452,7 +460,10 @@ ids; *not found* is an answer. [solari-reflex](https://github.com/hitakshiA/sola
 never lets model output become a selector. Compaction is the same
 species: [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
 copies exact source spans; a prose summary of the tool result is
-generation, not keep/drop (`notes.md` §50). Generation is only for
+generation, not keep/drop (`notes.md` §50). Claim/evidence Stop:
+[clear-head](https://github.com/VladyslavHontar/clear-head) judges
+against retrieved session lines, not generated prose (`notes.md`
+§51). Generation is only for
 TYPE/prose when something must be written. `applied-mappings.md` §2;
 `notes.md` §48, §50.
 
@@ -468,6 +479,19 @@ stay `keep_full` in **code**. Low-confidence / invalid evidence fail
 unlike Abide / jevgate fail-open. Ship `shadowMode` first (default
 true: log, do not replace history). Not Jev. Not multimodal.
 `judgment-class.md`; `notes.md` §50.
+
+## Fail-open or fail-closed — which?
+
+Name the **irreversible act**, then pick polarity. Compaction *drop*
+fails closed to `keep_full`. Wake *skip* fails open (wake on error /
+unsure): [wakegate](https://github.com/shitianfang/wakegate) skips
+only if Jev answers and p(wake) < 0.2. Merge *PASS* on a red run
+fails closed at the gate: [latch](https://github.com/CaseReed/latch)
+`--gate` BLOCKs unless infra is confirmed; the Playwright reporter
+stays fail-open. [if-ai](https://github.com/Victor-Casado/if-ai)
+fails the Action on error / empty / low confidence. jevgate cannot
+block; pi-jev-approver fails closed without a key; Abide is fail-open
+on diffs. Same sandwich, opposite authorized act. `notes.md` §50, §51.
 
 ## Is routing the same as memory?
 

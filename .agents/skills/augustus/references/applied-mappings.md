@@ -104,7 +104,11 @@ code numbers sentences; one broadcast (Choice/Noul/Score + per-sentence
 Nouls); the model never writes; `redecide` retunes thresholds on the
 log. [jev-reviewer](https://github.com/choxos/jev-reviewer) — the model
 **points at line ids**; code copies verbatim quotes with place; *not
-found* is an answer. Compaction cousin
+found* is an answer. Claim/evidence Stop cousin
+([clear-head](https://github.com/VladyslavHontar/clear-head), ~16:48):
+the model judges claims against **keyword-retrieved session lines**,
+not against another model's prose; `JEV_FIRM` below 0.6 never blocks
+(`notes.md` §51). Compaction cousin
 ([gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction),
 ~16:22): the model points at **character offsets** in a tool result;
 code copies those bytes; a generator summary is the rejected species
@@ -159,7 +163,22 @@ confidence goes back to the agent, not into silent mitigation.
 Noul workaround; run status silent / disclosed / recovered / clean.
 Heuristic fixture 12 traces: P=R=0.86; Jev on that fixture not yet
 measured. Pre-mortem: scan a new sandbox *before* users meet it, fail
-the build on *silent* env-breaks — a shape, not a CLI. **Counterexample**: sampling 2% of production with an LLM judge —
+the build on *silent* env-breaks — a shape, not a CLI.
+**Merge-gate cousin (Empirical as README behavior / offline demo,
+2026-09-18 ~16:48):**
+[latch](https://github.com/CaseReed/latch) — cluster a finished red
+run (Playwright / Jest / pytest / JUnit) **in code**; Jev labels each
+cause (≤8 calls; cached free); **policy** returns Gate: PASS (infra
+noise) vs Gate: BLOCK (real failure). The judge never says "ignore"
+alone; `ignore_as_infra` needs `env_cascade` + an infra fingerprint.
+Reporter never fails Playwright (missing key → `needs_human`);
+`--gate` is a separate CI step. Demo: 8 connection errors → PASS; 5
+assertions → BLOCK. Message-based grouping fragments logic
+regressions (`pallets/click`: 13 failures → 10 clusters). Pair with
+Harbor (frozen CI artifacts × PASS/BLOCK) and rh-guard
+(eval-integrity). Their policy thresholds are not class constants
+(`notes.md` §51). Do not copy the reporter.
+**Counterexample**: sampling 2% of production with an LLM judge —
 the economics inversion is the point. **Test**: planted harness bugs
 recovered; false-flag rate on known-clean runs; LLM never runs on the
 clean majority. High-stakes cousin: `luantak/is-malicious` is a *pre-run*
