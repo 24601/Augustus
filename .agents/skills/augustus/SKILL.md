@@ -1,9 +1,13 @@
 ---
-name: reasoning-with-jev
-description: "Designs judgment-assisted systems with TypeSafe Jev System One models: maps Choice, Score, and Noul primitives to decision circuits, search, reranking, and cost-aware routing. Use when deciding where semantic judgment belongs in software, decomposing a task into typed Jev questions, or evaluating agent outputs with Jev."
+name: augustus
+description: "Augustus designs judgment-assisted systems with TypeSafe Jev System One models, mapping Choice, Score, and Noul primitives to decision circuits, search, reranking, and cost-aware routing. Use when deciding where semantic judgment belongs in software, decomposing a task into typed Jev questions, or evaluating agent outputs with Jev."
+license: MIT
+metadata:
+  version: 0.1.0
+  tribute: "Named for Augustus De Morgan (1806-1871), mentor of William Stanley Jevons."
 ---
 
-# Reasoning with Jev
+# Augustus
 
 Design systems where code stays in control and Jev supplies narrow, typed
 semantic judgments. This skill owns the **design judgment**; the official
