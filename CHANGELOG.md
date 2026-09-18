@@ -86,6 +86,19 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   mini-jev-runs 27.9k logits, jev-tree-choice-cap); device/harness
   (jev-mobile MCP, jev-macos-loop, jev-harness, routeKit); HacksonClark
   SREGym-Lite 20/50→24/50 — rank tests, do not diagnose
+- Hourly ~11:59 Boise fold (`research/notes.md` §42): Archer still
+  Watch. Three open paths (encoder / AR constrained decode / trained
+  decision-only). Native constrained serving
+  ([pcdServer](https://github.com/stephanj/pcdServer), TypeAR-class,
+  2–256 enums, Apple+Linux GGUF). Meta-VOI hook
+  (typesafe-jev-tools 149-row: Haiku more accurate, Jev confidence
+  monotonic). jev-mode latency-class split (token ratio durable;
+  accuracy is parity). OpenSmoke env-break vs policy-break +
+  pre-mortem. jevql store-as-decision-surface. jot topology B with a
+  closed catalog. openevals online full-traffic. hermes north-star
+  two-layer finish gate. pi-jev (not pi-jev-context). jev-plays-games
+  option-order probe. joxide jump-by-description. laya-typed-decisions
+  companion packaging. No wrapper.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

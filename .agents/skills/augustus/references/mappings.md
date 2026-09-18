@@ -141,6 +141,15 @@ Links: rerank, semantic_find, entity_alignment cookbooks.
 is not intrinsically wrong (offline, modest corpora) but it is not an index —
 per-query work still scales with candidates. Low latency ≠ no retrieval.
 
+**Store as the index (Empirical as a *shape*, 2026-09-18):**
+[`kylemclaren/jevql`](https://github.com/kylemclaren/jevql) judges
+schema-conditioned row objects; vanilla Postgres never sees `jev()`.
+Cheap SQL first; the remainder is a typed Choice/Noul/Score over rows.
+Row contents leave the database (same residency warning as AU health).
+[`ant4g0nist/joxide`](https://github.com/ant4g0nist/joxide): zoxide owns
+the directory index; Jev scores a shortlist; destinations are existing
+local paths only; fail-open. `notes.md` §42.
+
 ## 5. Hierarchy → bounded heuristic search
 
 **Method**: beam search over a meaningful taxonomy or candidate graph.
@@ -234,6 +243,14 @@ Jev ranks the *next diagnostic test* among candidates the agent already
 holds; it does not run the test and does not diagnose
 (`notes.md` §33). Pay for the next kubectl/log only if EV(decision)
 improves — a high review score cannot buy missing evidence.
+**Meta-VOI (Empirical as a 149-row receipt, 2026-09-18):**
+[`wotai-dev/typesafe-jev-tools`](https://github.com/wotai-dev/typesafe-jev-tools)
+asks whether the decision needs a model at all: regex/DNS/query → no
+model; one-second human from shown text → System One; multi-step or
+prose → frontier. Same 149 business rows: Jev 79.9% vs Haiku 4.5 83.2%;
+Jev 1.6× faster, not 20–200×; Jev confidence monotonic, Haiku inverts
+in 0.80–0.95. If you do not *branch on confidence*, use whatever you
+already have (`notes.md` §42).
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs
@@ -340,6 +357,16 @@ opp?" — amount and close date stay exact); cook/rest/check ("looks done?"
 opposite of NATM). **Test**: greedy vs looped baseline on realistic cases;
 inspect pruning failures; the probe, not the estimate, concedes. Links:
 `mental-models.md` §search; `formal-methods.md` PufferLib row.
+
+**Game loops as a calibration substrate (Empirical as a *shape*):**
+[`vtrivedy/jev-plays-games`](https://github.com/vtrivedy/jev-plays-games)
+— legal moves from code, one Choice over that set, text state, no
+screenshot. Choice probabilities are **not** win odds. Author probe (12
+calls, both option orders): both chess mates found; Connect Four
+immediate win missed once reversed; Fool's-mate confidence 31%/37% so a
+0.50 gate would reject correct mates. pcdServer Tetris is the same
+hole on the constrained-AR surface. Not a strength rating.
+`notes.md` §42; `validation.md`.
 
 ## 10. Spec property pipeline (Hypothesis)
 
@@ -534,7 +561,11 @@ fail open unless a real sandbox/interlock sits underneath
 
 **Example (Empirical as shapes):** jevgate 249 labelled, worst-of-three,
 held-out unsafe unasked 0/59, safe-unasked 30/35 vs allowlist 15/35;
-doc-router 9 OCR-misses vs 28 for rules-only. **Beyond SWE (Hypothesis):**
+doc-router 9 OCR-misses vs 28 for rules-only.
+[`poponline63/hermes-jev-north-star`](https://github.com/poponline63/hermes-jev-north-star):
+deterministic shell checks first; empty evidence refuses to judge; then
+one Jev call on the remainder. Empty state was self-contradictory —
+that is why the refuse-empty rule exists. **Beyond SWE (Hypothesis):**
 recipe book ∩ "does this leftover look done?"; labor-law allowlist ∩
 hiring-fit Noul; SPF/DKIM pass ∩ phishing Noul on the body. **Counterexample:**
 Jev on `/bin/ls` as the first tier. **Test:** planted writers never

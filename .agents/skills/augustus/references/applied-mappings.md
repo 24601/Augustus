@@ -114,7 +114,12 @@ hypothesis the agent never offered. Placement (same thread,
 rank next tests/evidence; keep tests closed; inspect regressions as
 calibration failures (was confidence high on the wrong Choice?); low
 confidence goes back to the agent, not into silent mitigation.
-`notes.md` §33. **Counterexample**: sampling 2% of production with an LLM judge —
+`notes.md` §33. The named cut this hour (`notes.md` §42): Noul
+`env_broken` *as opposed to* the agent's own bug; Choice category;
+Noul workaround; run status silent / disclosed / recovered / clean.
+Heuristic fixture 12 traces: P=R=0.86; Jev on that fixture not yet
+measured. Pre-mortem: scan a new sandbox *before* users meet it, fail
+the build on *silent* env-breaks — a shape, not a CLI. **Counterexample**: sampling 2% of production with an LLM judge —
 the economics inversion is the point. **Test**: planted harness bugs
 recovered; false-flag rate on known-clean runs; LLM never runs on the
 clean majority. High-stakes cousin: `luantak/is-malicious` is a *pre-run*
@@ -181,6 +186,12 @@ LlamaIndex selectors fail closed or a declared default.
 Jev estimates task *requirements*; code applies hard constraints and a
 deterministic cost/quality/latency policy — Jev does not pick the model
 (**Hypothesis** until measured on *your* catalog; `notes.md` §33).
+[`TheoOliveira/pi-jev`](https://github.com/TheoOliveira/pi-jev) is the
+same selector hole inside Pi (tools + skills); fail-open to a keyword
+shortlist; **not** `kevinpita/pi-jev-context` (sieve).
+[`ddfeyes/jev-mode`](https://github.com/ddfeyes/jev-mode) is the
+latency-class split: bulk triage/tag/route off the frontier context
+(synthetic 1,000: −77.8% tokens; accuracy claim is **parity**).
 Toolrouter / open JevRouter: **Hypothesis** until measured on *your*
 catalog. **Counterexample**:
 the agent looping "pick a tool, call it, pick again" with the provider as

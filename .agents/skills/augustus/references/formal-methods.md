@@ -57,6 +57,9 @@ checker (`research/notes.md` §31, §32, §33; placement card in
 `judgment-class.md`). Hume's driver is healthcare AU data-residency /
 deployment control, not a feud with TypeSafe. Holding those weights,
 when they exist, still does not discharge a proof.
+A constrained-AR softmax (TypeAR, pcdServer) is still a sensor: it is
+not a discharged proof because the next token stayed in a declared set
+(`notes.md` §42).
 
 Existing grammar: composition-algebra position 9 (verifier) — verdicts
 are evidence, not enforcement. Position 3 (gate) — a filter is not

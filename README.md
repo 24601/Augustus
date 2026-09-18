@@ -30,7 +30,7 @@ never launder a Noul as a proof.
   NATM/snap-fit/Norman); not SWE-only
 - `.agents/skills/augustus/references/judgment-class.md` — the class (Jev
   exemplar, not monopoly): open heads (Laya, encoder DeBERTa, LoRA
-  distill), constrained-AR (TypeAR), announced decision-model (Watch),
+  distill), constrained-AR (TypeAR, pcdServer), announced decision-model (Watch),
   GLiNER/GLiClass species (locate vs categorize vs local multi-head),
   listwise vs decision objectives, vision scoring, when-to-use axes,
   agent-architecture portents

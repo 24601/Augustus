@@ -1063,6 +1063,120 @@
       "title": "verifiers v1 blog",
       "url": "https://www.primeintellect.ai/blog/verifiers-v1",
       "note": "2026-07-10. Will Brown, Mika Senghaas, Florian Brand. Taskset = data, tools, scoring; harness and runtime swappable. notes.md \u00a740."
+    },
+    {
+      "kind": "repo",
+      "title": "stephanj/pcdServer",
+      "url": "https://github.com/stephanj/pcdServer",
+      "note": "Native Parallel Constrained Decoder. MIT C++20 llama.cpp GGUF Apple+Linux. 2-256 enums, 1-63 fields. Softmax over allowed \u2260 Noul. notes.md \u00a742."
+    },
+    {
+      "kind": "repo",
+      "title": "ddfeyes/jev-mode",
+      "url": "https://github.com/ddfeyes/jev-mode",
+      "note": "Bulk judgments off frontier context. Synthetic 1000: -77.8% tokens; accuracy is parity. notes.md \u00a742."
+    },
+    {
+      "kind": "repo",
+      "title": "runta-dev/jot",
+      "url": "https://github.com/runta-dev/jot",
+      "note": "Closed-catalog System One shell, topology B. License file absent. 'First general-purpose' is a claim. notes.md \u00a742."
+    },
+    {
+      "kind": "repo",
+      "title": "wotai-dev/typesafe-jev-tools",
+      "url": "https://github.com/wotai-dev/typesafe-jev-tools",
+      "note": "Meta-VOI hook. 149-row Jev 79.9% vs Haiku 4.5 83.2%; Jev confidence monotonic. Do not copy hook. notes.md \u00a742."
+    },
+    {
+      "kind": "docs",
+      "title": "wotai.co writeup",
+      "url": "https://wotai.co",
+      "note": "Author writeup linked from typesafe-jev-tools README. notes.md \u00a742."
+    },
+    {
+      "kind": "repo",
+      "title": "memovai/openevals",
+      "url": "https://github.com/memovai/openevals",
+      "note": "Online every-step eval into Langfuse. Code graders first. Beside Harbor. notes.md \u00a742."
+    },
+    {
+      "kind": "repo",
+      "title": "poponline63/hermes-jev-north-star",
+      "url": "https://github.com/poponline63/hermes-jev-north-star",
+      "note": "Deterministic checks then Jev finish gate; empty evidence refuses. notes.md \u00a742."
+    },
+    {
+      "kind": "repo",
+      "title": "TheoOliveira/pi-jev",
+      "url": "https://github.com/TheoOliveira/pi-jev",
+      "note": "Pi semantic tool/skill routing. Not kevinpita/pi-jev-context. notes.md \u00a742."
+    },
+    {
+      "kind": "repo",
+      "title": "vtrivedy/jev-plays-games",
+      "url": "https://github.com/vtrivedy/jev-plays-games",
+      "note": "Chess/C4 Choice over legal moves. Probabilities \u2260 win odds. License file absent. notes.md \u00a742."
+    },
+    {
+      "kind": "repo",
+      "title": "ant4g0nist/joxide",
+      "url": "https://github.com/ant4g0nist/joxide",
+      "note": "zoxide index + Jev shortlist; local paths only; fail-open. License file absent. notes.md \u00a742."
+    },
+    {
+      "kind": "model",
+      "title": "convaiinnovations/laya-typed-decisions",
+      "url": "https://huggingface.co/convaiinnovations/laya-typed-decisions",
+      "note": "Companion packaging of Laya 421.3M. Acc 0.766 / Brier 0.066 unverified. Do not overwrite \u00a718. notes.md \u00a742."
+    },
+    {
+      "kind": "social",
+      "title": "jsmagoon: runtime-derived output schemas",
+      "url": "https://x.com/jsmagoon/status/2101008113952567316",
+      "note": "2026-09-18T17:59:03Z. Closed set at request time. notes.md \u00a742."
+    },
+    {
+      "kind": "social",
+      "title": "yoheinakajima: live typing sieve",
+      "url": "https://x.com/yoheinakajima/status/2101008182521037242",
+      "note": "2026-09-18T17:59:20Z. Chat/beep sees typing live. notes.md \u00a742."
+    },
+    {
+      "kind": "social",
+      "title": "IAmMattGreen: 60% cost-cut use-case",
+      "url": "https://x.com/IAmMattGreen/status/2101008081962614823",
+      "note": "2026-09-18T17:58:56Z. Claim, not a labeled receipt. notes.md \u00a742."
+    },
+    {
+      "kind": "social",
+      "title": "mrluiscalderon: Coach ~20x faster",
+      "url": "https://x.com/mrluiscalderon/status/2101007751098851382",
+      "note": "2026-09-18T17:57:37Z. Quality still needs verification. notes.md \u00a742."
+    },
+    {
+      "kind": "social",
+      "title": "thePartyPartyUS: jump on GLiNER",
+      "url": "https://x.com/thePartyPartyUS/status/2101007875313205573",
+      "note": "2026-09-18T17:58:06Z. Species-map lesson; do not adopt discard-Jev. notes.md \u00a742."
+    },
+    {
+      "kind": "social",
+      "title": "Yash_Bhadange07: FunctionGemma for Android tool calling",
+      "url": "https://x.com/Yash_Bhadange07/status/2101007720195498235",
+      "note": "2026-09-18T17:57:29Z. Closed Jev \u2192 open on-device. notes.md \u00a742."
+    },
+    {
+      "kind": "social",
+      "title": "linfluence: fintech/market-structure on Jev",
+      "url": "https://x.com/linfluence/status/2101008235385794628",
+      "note": "2026-09-18T17:59:32Z. Software-native unit is a decision, not a paragraph. notes.md \u00a742."
+    },
+    {
+      "kind": "social",
+      "title": "brunoqgalvao: Pareto cost/perf takeaway",
+      "url": "https://x.com/brunoqgalvao/status/2101008125356626019",
+      "note": "2026-09-18T17:59:06Z. Closes earlier 4-task ~1200-item thread. Author-reported. notes.md \u00a742."
     }
   ]
 }

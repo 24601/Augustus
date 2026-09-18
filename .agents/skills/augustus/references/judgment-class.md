@@ -38,7 +38,7 @@ taxonomy with enough of *your* data (XGBoost still wins there —
 | **Closed decision API** (TypeSafe Jev) | Calibrated decision (proper-scoring / RLCD lineage) | Choice / Score / Noul + distributions | Default when you need act/abstain, fan-out, documented envelope | Cloud, pin version, re-measure on your data. AU health data-residency is a reason *not* to pick this family (`notes.md` §33) |
 | **Open System-1 / decision-model head** (Laya, openjev, LightJev, openjev-lm, Nimble, Hume **Watch**) | Same *shape* as Jev, you host it | Same primitives or logits-as-options | Air-gap, $0/token, inspectable weights, deployment control | Self-eval duty; Laya text-only, 512 tok; vendor vs-Jev tables are claims (`notes.md` §18). A distill learns the *teacher's* answers: openjev-lm and jev-gate-student-b (`notes.md` §25, §33). Nimble is an open LoRA recipe on hard labels, not a Jev distill (`notes.md` §35). Hume's 27B dense drop is **Watch**, not a Hub checkpoint. He prefers the class name **decision models** over "system one" |
 | **Encoder open-jev** (DeBERTa-v3-large) | Same *shape*, bidirectional encoder, public gold (not a Jev teacher) | Choice / Score / Noul from one pass | Self-host decide without a decoder; 512 tok | In-domain ECE 0.022; OOD acc 0.854→0.690. English / three public domains. `notes.md` §33 |
-| **Constrained-AR surface** (TypeAR; not a species) | Next-token constraint on a pretrained generator | Distribution over allowed values | Typed fields without retraining; later fields must see earlier answers | Different objective from a proper-scoring head. Enum cap and no abstention. Compute-graph card below (`notes.md` §31, §32). Public logit dump: mini-jev-runs |
+| **Constrained-AR surface** (TypeAR, **pcdServer**; not a species) | Next-token constraint on a pretrained generator | Distribution over allowed values | Typed fields without retraining; later fields must see earlier answers; local GGUF serving | Different objective from a proper-scoring head. TypeAR README enums ≤16; pcdServer 2–256 / 1–63 parallel fields. No abstention primitive. Compute-graph card below (`notes.md` §31, §32, §42). Public logit dump: mini-jev-runs |
 | **GLi\* encoder family** (GLiNER locate / GLiClass categorize / GLiNER2.5 local multi-head / GLiGuard safety schema) | One-pass labels-in-encoder; spans, sequence labels, a safety schema, or both | Spans + types; per-label sigmoid/softmax; optional relations/records | Laptop/local; large or changing label sets; "what's *in* the text" vs "what *is* the text" vs "which safety labels fire" | Affinities are not automatically a gateable P(permit). GLiGuard is not a Jev weight clone. Species map below. Not a Jev how-to and not a GLiNER or GLiGuard install |
 | **Listwise / pairwise discriminative ranker** | Order of a list (nDCG, softmax-over-list) | Relevance scores, not P(relevant) | Rerank a retrieved shortlist | Translation-invariant listwise losses are **not** calibrated for thresholds ([listwise vs pointwise](https://doi.org/10.48550/arxiv.2208.06164); [RCR](https://arxiv.org/html/2211.01494v2)). Fail **open** (keep retrieval order) |
 | **Vision scorer** | Image–text affinity or region Choice | Cosine/sigmoid affinity, or a closed region/label pick | Perception as classification over *candidates you extracted* | CLIP softmax = competition in the offered set; SigLIP sigmoid = pairwise affinity, not class-conditional p ([SigLIP](https://huggingface.co/docs/transformers/v4.39.2/en/model_doc/siglip)). Not a VLM captioner |
@@ -393,13 +393,22 @@ is the generator, not a sixth surface.
 |---|---|---|---|---|---|---|
 | **Proprietary Jev** | Decision objective; in-dist ECE 0.0313, OOD collapse (`notes.md` §7). Choice `confidence` is arithmetic on the distribution (§31) | Independent questions cheap; sequential gather is a new request | Cloud envelope; ~$0.042/MTok input | No weights. AU health data cannot ride this API if residency forbids it | Text. jev-visual is region Choice | ≤255 Choice |
 | **Archer open decision-model** | **Watch.** No Hub weights this pass. "Smarter than Jev" is a claim against *his* calibration/order warnings | Same *hole* as Jev when it ships | 27B dense for one-forward-pass local speed once AR is removed; MoE next, then shrink. Quant-friendly is a claim | Healthcare AU data-residency / deployment control, **not** anti-TypeSafe | Multimodal, no audio. Text post-training reportedly generalizes to images with little intentional multimodal training | Unknown until the drop |
-| **TypeAR** (constrained AR; README names SGLang) | Next-token constraint ≠ Noul. No abstention primitive. Public logit dump: [`Mikhail/mini-jev-runs`](https://huggingface.co/datasets/Mikhail/mini-jev-runs) (27.9k; scores "deliberately *not* calibrated") | Sequential mode conditions later fields; that is not gather-as-act | 5.8× is *their* K=16 boolean example | Self-host the generator | Whatever the base model has | Enums ≤16 |
+| **TypeAR / pcdServer** (constrained AR) | Next-token constraint ≠ Noul. No abstention primitive. Public logit dump: [`Mikhail/mini-jev-runs`](https://huggingface.co/datasets/Mikhail/mini-jev-runs) (27.9k; scores "deliberately *not* calibrated") | TypeAR sequential conditions later fields; pcdServer batches independent fields after one prefix. Neither is gather-as-act | TypeAR 5.8× is *their* K=16 boolean example. pcdServer: native llama.cpp, Apple+Linux | Self-host the generator / GGUF | Whatever the base model has | TypeAR enums ≤16; pcdServer 2–256 strings, 1–63 fields |
 | **Encoder open-jev** (DeBERTa-v3-large 434M) | Public gold, CE+Brier, val temperature. In-domain ECE 0.022 / acc 0.854; OOD acc 0.690 / ECE 0.035. **Not** a Jev teacher-copy | One pass over state + all questions; 512 tok | Author: 28 ms / 10 questions H100; 1.8 s / 4q M1 Max CPU | apache-2.0, self-host | Text | Jev-shaped 255 / Score 2–10 / Noul; 512 ctx |
 | **Tiny LoRA distill** (jev-gate-student-b) | Teacher-copy. P(relevant) from yes/no logits. Held-out n=60 vs vanilla 0.5B; 148,160-row corpus | Memory-gating / context sieve; **fail-open** on errors | Qwen2.5-0.5B LoRA; ~59 ms RTX 3060 | Local, apache-2.0 | Text | Binary relevance |
 | **Nimble** (open LoRA recipe, not a distill) | Hard synthetic labels. They say temperature was not tuned to correctness rates. 324-row agreement is their receipt, not an ECE (`notes.md` §35) | Not a gather primitive | Their latency table, not re-run | Self-host the adapter. Model card Apache-2.0; repo license absent | Text only | Enum ≤26; 2,048 tokens |
 | **Diffusion structured reads** (djev-spark) | Interface claim only. **Hypothesis** it beats a decision head on your labels (`notes.md` §36) | Optional sequential chunks, text-only | Their GX10 tables, not a class benchmark | DGX Spark container. Do not copy the route | Images are an extension; think and sequential reject images | README criteria, not copied here |
 
-Reject: TypeAR scores as fail-closed P(permit); a LoRA student's
+**Three open paths** (not three species, not extra when-to-use rows):
+encoder open-jev (DeBERTa, public gold); AR constrained decode (TypeAR
+Python/SGLang, pcdServer native GGUF); trained decision-only (Laya /
+Nimble / Archer **Watch**). Pick from the hole. A constrained softmax
+is still not a Noul. Laya companion packaging this hour:
+[`laya-typed-decisions`](https://huggingface.co/convaiinnovations/laya-typed-decisions)
+(same 421.3M; acc 0.766 / Brier 0.066 on `LocalLLaMA/typed-decisions`,
+unverified — do not overwrite `notes.md` §18).
+
+Reject: TypeAR or pcdServer scores as fail-closed P(permit); a LoRA student's
 agreement with Jev as independent gold; shipping on "smarter than Jev";
 thresholding [`jp-sns-jev7-estimator`](https://huggingface.co/kokuren/jp-sns-jev7-estimator)
 teacher scores as P(toxic) — the card says they are **not** calibrated,
@@ -408,7 +417,8 @@ ONNX distill is still categorize / score. Nimble's holdout is not a
 universal ranking. Diffusion beating a decision head is Hypothesis.
 
 Detail: `research/notes.md` §33 (surfaces), §34 (marginals), §35
-(Nimble), §36 (diffusion), §38 (entropy allocator, Hypothesis). Before
+(Nimble), §36 (diffusion), §38 (entropy allocator, Hypothesis),
+§42 (pcdServer serving, meta-VOI, games). Before
 adopting a surface, the bake-off is a jevals-shaped suite and, for a
 product loop, a Harbor taskset (`validation.md`, Eval & hill-climb).
 The stage pipeline into that decision is the same file
@@ -527,10 +537,25 @@ brittleness — compose with cost-sensitive abstention (`mappings.md`
 reward-hack gate, a different surface from this one and from GLiGuard.
 Do not copy the hook install.
 
+[pcdServer](https://github.com/stephanj/pcdServer) (MIT, C++20, created
+2026-09-18T17:06Z) is **native serving for the same surface**: llama.cpp
+GGUF on Apple Silicon and Linux; the model never writes JSON; the server
+assembles allowed booleans and 2–256-wide string enums across 1–63
+parallel fields after one prefix checkpoint. Softmax over allowed values
+is still not a Noul. Collision trees resolve shared prefixes. Full
+sequence checkpoints exist because Qwen3.5 hybrid recurrent state cannot
+be partially rewound — an implementation fact, not a new species. Tetris
+in the binary is a game-loop demo of the decode, not a strength claim.
+No auth; default bind is loopback. Do not copy OpenAPI, flags, or
+install. Same author's earlier `parallelConstraintDecoding` is the
+two-forward-pass cousin already in the ecosystem snapshot.
+`notes.md` §42.
+
 **Hypothesis, not a stack.** TypeAR's example names the same Qwen3.8-27B
-family as Hume's announced weights. Running that surface on those
-weights versus stock Qwen is a composition to test after the weights
-exist. Until then, **Watch** (`notes.md` §31, §32, §33).
+family as Hume's announced weights. Running that surface (TypeAR or
+pcdServer) on those weights versus stock Qwen is a composition to test
+after the weights exist. Until then, **Watch** (`notes.md` §31, §32, §33,
+§42).
 [`Mikhail/mini-jev-runs`](https://huggingface.co/datasets/Mikhail/mini-jev-runs)
 is the public read-the-letter logit dump (frozen Qwen3-4B, 27.9k
 decisions, no token generated) for calibration / gap-abstention /

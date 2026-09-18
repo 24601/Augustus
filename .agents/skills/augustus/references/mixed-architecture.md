@@ -168,7 +168,10 @@ Worked placements (2026-09-18 topic:jev hour + prior archive):
   Candidates come from `git diff`, not from Jev.
 - **Every agent-step before an LLM autopsy** — `aaravriyer193/OpenSmoke`:
   Jev over all steps (cheap enough to skip sampling); LLM only on flagged
-  runs for root cause. Prefilter of *analyst attention*.
+  runs for root cause. Prefilter of *analyst attention*. The named cut
+  this hour: Noul `env_broken` *as opposed to* the agent's own bug;
+  silent vs disclosed vs recovered vs clean. Pre-mortem of a new
+  sandbox *before* users meet it (`notes.md` §42).
 - **Realtime hold-before-publish** — community moderation claims ~200ms
   (**Hypothesis** as a number; **Empirical** as a family via Near Here /
   jev-experiments firehose in the archive). Thresholds stay yours.
@@ -232,7 +235,10 @@ catalog; code dispatches. Topology B is mixed architecture with the
 generator as a callee (`applied-mappings.md` §5). Topology A is an LLM
 agent that *asks* a decision model instead of stuffing a system prompt.
 SREGym-Lite is topology A: Jev ranks next tests/evidence; the agent
-still runs them and still diagnoses (`notes.md` §33). **Does not:** the decision model as the planner — neither inventing tools
+still runs them and still diagnoses (`notes.md` §33).
+[`runta-dev/jot`](https://github.com/runta-dev/jot) is topology B with
+a *closed* tool catalog (the host executes; the calculator does the
+math). "First general-purpose System One agent" is a claim. **Does not:** the decision model as the planner — neither inventing tools
 nor picking its own next tool in a loop (standing red flag, above and in
 `boundary-audit.md`); skipping schemas so the model "just knows";
 treating a workflow AST as a proof. The outer loop stays with the LLM or
@@ -295,6 +301,12 @@ Related placements:
 - **Malicious-before-run** — `luantak/is-malicious`. High-stakes gate:
   fail closed, shadow first, never treat a Jev yes as authorization to
   execute untrusted code. Code still sandboxes.
+- **Meta-VOI / "does this need a model?"** —
+  [`wotai-dev/typesafe-jev-tools`](https://github.com/wotai-dev/typesafe-jev-tools):
+  three-way test (regex vs System One vs frontier); never blocks.
+  149-row receipt: Haiku was more accurate; Jev's confidence was the
+  monotonic one. If you do not branch on confidence, use whatever you
+  already have (`notes.md` §42). Do not copy the hook.
 
 Permit is independent of confidence (`Kevthetech143/super-jev`): domain
 rules veto regardless of model certainty.
@@ -316,6 +328,11 @@ decision-design card. Do not clone APIs from READMEs.
 | Browser loop without generation | Action Choice over visible elements | Perception, constraints, click | lizard-agent |
 | Android / macOS computer-use | Choice over prevalidated candidates | UI tree / AX / OmniParser; no generated coordinates | jev-mobile, jev-macos-loop |
 | Model router | Requirement Scores; policy in code | Eligibility, cost/quality/latency objective | routeKit |
+| Bulk-judgment coprocessor | Choice/Noul off the frontier context | Counts, policy, fail-open gate | jev-mode |
+| Closed-catalog System One shell | Choice over host tools | Execute, arithmetic, credentials | jot |
+| Jump-by-description | Noul relevance on a local shortlist | zoxide index, local paths only | joxide |
+| Game move | Choice over legal actions | Rules, legality, win check | jev-plays-games |
+| Finish-line gate | Noul/Score/Choice on evidence | Deterministic shell checks first | hermes-jev-north-star |
 | Analyst attention cascade | Step-level silent-failure Nouls | Grouping, LLM autopsy | OpenSmoke |
 | Formula / query embedding | JUDGE as a function | Spreadsheet/SQL engine | judge-sheets, jevql |
 
@@ -330,7 +347,8 @@ URLs, or install steps.
 Reproduce/open heads (`rongxinzy/LightJev`, openjev family,
 [`convaiinnovations/laya`](https://huggingface.co/convaiinnovations/laya),
 encoder [`open-jev-deberta-v3-large`](https://huggingface.co/com-kotobalabs/open-jev-deberta-v3-large),
-LoRA [`jev-gate-student-b`](https://huggingface.co/SargeDev/jev-gate-student-b))
+LoRA [`jev-gate-student-b`](https://huggingface.co/SargeDev/jev-gate-student-b),
+companion packaging [`laya-typed-decisions`](https://huggingface.co/convaiinnovations/laya-typed-decisions))
 are evidence that the *interface* (Choice/Score/Noul, or yes/no logits
 as P(relevant)) is the transferable part — not a request to implement a
 backbone or a second API skill. Laya: self-hostable, text-only, 512

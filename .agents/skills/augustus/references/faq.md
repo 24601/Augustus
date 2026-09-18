@@ -88,7 +88,10 @@ on your own independent labels before you treat it as a decision API
 ## Open weights vs Jev vs constrained decoding vs encoder vs LoRA?
 
 Five surfaces, not one family (`judgment-class.md` when-to-use table).
-Proprietary Jev is the documented decision API; you do not hold the
+Three *open* paths sit beside proprietary Jev: **encoder** open-jev
+(DeBERTa, public gold), **AR constrained decode** (TypeAR; native
+[pcdServer](https://github.com/stephanj/pcdServer) GGUF serving),
+**trained decision-only** (Laya / Nimble / Archer Watch). Proprietary Jev is the documented decision API; you do not hold the
 weights, so checks around the boundary stay black-box
 (`formal-methods.md`). A trained decision-only open head (Laya,
 openjev-lm, encoder DeBERTa, a LoRA student) copies the Choice / Score /
@@ -98,17 +101,19 @@ agreement separately from gold. Encoder open-jev
 ([DeBERTa-v3-large](https://huggingface.co/com-kotobalabs/open-jev-deberta-v3-large))
 was trained on public gold, not Jev; in-domain ECE 0.022, OOD acc
 0.854→0.690. Constrained autoregressive decoding (TypeAR; README names
-SGLang) masks a pretrained generator so the next token stays in a
+SGLang; pcdServer is the native llama.cpp server for the same
+objective) masks a pretrained generator so the next token stays in a
 declared set — a different objective, so do not threshold that
 distribution as a Noul. A short enum and a missing abstain option are
 brittleness; compose with abstention and an allowlist gate
 (`mappings.md` §2, §17, §18). Hume's announced open **decision-model**
 (27B dense, multimodal, AU healthcare residency — not anti-TypeSafe)
-is **Watch** until weights, license, and evals exist (`notes.md` §31,
-§33). Constrained decoding is §32. Public logit dump for the
+is **WATCH** until weights, license, and evals exist (`notes.md` §31,
+§33). Constrained decoding is §32; native serving is §42. Public logit dump for the
 read-the-letter graph: mini-jev-runs. "Smarter than Jev" is a claim.
 He prefers "decision models" over "system one"; this skill still quotes
-TypeSafe's name for the exemplar.
+TypeSafe's name for the exemplar. Before you pick any of those paths,
+ask whether the decision needs a model at all (`mappings.md` §6).
 
 ## GLiNER vs GLiClass vs Jev vs a cross-encoder?
 
@@ -139,6 +144,9 @@ Hole first, logo last. These are **species**, not aliases
 A listwise reranker *plus* a decision gate is a valid mixed stack. A
 listwise reranker *as* the gate is the rejected design. A GLiNER span
 that *authorizes* an irreversible act is the same rejected design.
+Discourse this hour ("classifiers are cheap — jump on GLiNER") is the
+species map, not a stack replacement and not "discard Jev"
+(`notes.md` §42).
 
 **Trolley test (Empirical, Han Xiao 2026-09-18):** a Jev-shaped API on
 jina-reranker-v3.5 always pulls the lever, 1 death or 1B
@@ -259,6 +267,10 @@ cases. jevgate's Proven / Refused / Unknown sandwich is the SWE shape;
 OCR page-routing is the same composition with dollars attached
 (`mappings.md` §18). The model judges leftovers. Putting the model
 first so a comment can talk it into a write is the rejected design.
+The same three-way test, one hour later: if a regex, a DNS lookup, or a
+database query already answers, **do not call a model**
+(`wotai-dev/typesafe-jev-tools`, `notes.md` §42). That is meta-VOI, not
+a hook tutorial.
 
 ## Is confidence a trained score?
 

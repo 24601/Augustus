@@ -611,4 +611,34 @@ Cross-repo addition: (aq) a perception-decision stack is climbed as
 contracts and stage metrics; DSPy/Ax do not climb the perceiver or
 the calibration.
 
+## Batch #25 (2026-09-18, ~11:59 Boise hourly)
+
+Note: `research/notes.md` §42. Docs-only. Archer still Watch.
+
+- **pcdServer (Contract as README):** native TypeAR-class serving.
+  MIT C++20 llama.cpp. 2–256 enums, 1–63 fields. Softmax over allowed
+  ≠ Noul. Apple+Linux. No OpenAPI copied.
+- **typesafe-jev-tools (Empirical as 149-row receipt):** Jev 79.9% vs
+  Haiku 4.5 83.2%; Jev 1.6× faster not 20–200×; Jev confidence
+  monotonic, Haiku inverts 0.80–0.95. Meta-VOI three-way test.
+- **jev-mode:** synthetic 1,000; −77.8% tokens; accuracy is parity.
+- **OpenSmoke:** env_broken vs agent's own bug; heuristic P=R=0.86 on
+  12 traces; Jev on that fixture not measured.
+- **jevql / joxide:** store or index in code; judge a shortlist.
+- **jot:** topology B, closed catalog. Claim: first general-purpose.
+- **openevals:** online full-traffic; beside Harbor.
+- **hermes-jev-north-star:** deterministic then Jev; refuse empty.
+- **pi-jev:** not pi-jev-context.
+- **jev-plays-games:** legal moves from code; p ≠ win odds; 12-call
+  option-order probe.
+- **laya-typed-decisions:** companion packaging; unverified 0.766 /
+  0.066. Do not overwrite §18.
+- **X:** runtime schemas still closed per request; live typing sieve;
+  60% / 20× claims; GLiNER lesson already taught; FunctionGemma
+  on-device; fintech unit is a decision; Pareto takeaway.
+
+Cross-repo addition: (ar) three open paths — encoder / constrained AR
+serving / trained decision-only — plus a VOI gate *before* any of them.
+
+
 

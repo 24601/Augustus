@@ -26,6 +26,13 @@ wording — does p swing enough to change the *act*? `mappings.md` §17);
 irrelevant distractor injection in state; no-match and
 empty-evidence cases; policy-boundary cases just above/below thresholds;
 contradictory-output handling (operation says X, target says Y).
+Game-loop cousin this hour: [`jev-plays-games`](https://github.com/vtrivedy/jev-plays-games)
+`research/FINDINGS.md` — both option orders on six positions; Choice
+probabilities are not win odds; a 0.50 confidence gate would have
+rejected two correct mates (`notes.md` §42).
+149-row cousin: [`typesafe-jev-tools`](https://github.com/wotai-dev/typesafe-jev-tools)
+— Jev confidence monotonic vs Haiku invert in 0.80–0.95; do not copy
+the hook.
 
 ## Offline eval: selective binary decisions
 
@@ -52,6 +59,10 @@ acceptance-test *surface*, different UI:
 [jeiel85/jevscope](https://github.com/jeiel85/jevscope) (local-first
 visual debugger + JSONL regression; policy buckets are JevScope-derived,
 not Jev answers). Pointer only; do not copy ports or env into skill cards.
+Online, full-traffic cousin (not a Harbor replacement):
+[`memovai/openevals`](https://github.com/memovai/openevals) grades every
+step then writes scores back to Langfuse; code graders first.
+`notes.md` §42.
 
 ## Jev for agents and skills (dogfooding)
 

@@ -115,6 +115,9 @@ reports in-domain ECE 0.022 and an OOD accuracy drop 0.854→0.690;
 LoRA students report agreement with the teacher (`notes.md` §33). Hume
 prefers the class name **decision models** over "system one"
 (`notes.md` §33); this file still says System One when quoting TypeSafe.
+Three open paths, not three species: encoder open-jev, AR constrained
+decode (TypeAR + pcdServer), trained decision-only (Laya / Nimble /
+Archer Watch). A constrained softmax is still not a Noul (`notes.md` §42).
 
 **Readout versus a token; IIA is a property.** A direct probability and a
 generated "91%" are different objects; the format calibrates neither
@@ -179,7 +182,9 @@ pay iff that difference > cost of the observation
 Do not compute a numeric EVPI from uncalibrated scores and call it
 Contract. The *placement* (gather as an enumerated act) is the method;
 the calculator is **Hypothesis** until you log act/outcome pairs.
-Mapping card: `mappings.md` §6.
+Mapping card: `mappings.md` §6. Paying *zero* because a regex already
+answers is also VOI — abstain from calling any model
+(`typesafe-jev-tools`, `notes.md` §42).
 
 **Transfers:** "ask a second question" / "retrieve one more candidate" /
 "run the expensive LLM" only when VOI clears the cost. Cheap fan-out

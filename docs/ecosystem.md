@@ -49,7 +49,9 @@ Per-keystroke launchers (104ms median, sequence-tagged staleness), firehose mode
 - **GLiNER / GLiNER2.5 / GLiClass** — species map: locate spans vs categorize the sequence vs local multi-head (fastino-ai GLiNER2.5 CPU-first). Peer of Jev, not a footnote. `references/judgment-class.md`. Author primary source: GLiNER2 "like jev" is schema-conditioned categorize (GLiGuard), not a Noul (`notes.md` §28). 36× Browser Use claim is a tweet (`notes.md` §25).
 - **GLiGuard** (fastino-ai) — 0.3B GLiNER2 encoder, checkpoint `fastino/gliguard-LLMGuardrails-300M`. One bidirectional pass over a safety schema. Same interface shape as batched questions; different objective. Not a Jev weight clone. `judgment-class.md`; `notes.md` §30.
 - **DECRUX9812/openjev-lm** — Qwen2.5-0.5B+LoRA distilled from hosted Jev answers; 65/70 = 92.9% on 70 hand-labelled rows (one annotator, one domain, one seed) overnight on 6 vCPU. Its 98.1% on fresh rows is teacher *agreement*, not gold.
+- **convaiinnovations/laya** — open Choice/Score/Noul head, text-only, 512 tok. Companion packaging this hour: [`laya-typed-decisions`](https://huggingface.co/convaiinnovations/laya-typed-decisions) (421.3M, acc 0.766 / Brier 0.066 unverified). `notes.md` §18, §42.
 - **zmtomorrow/TypeAR** — constrained autoregressive decoding surface: typed fields on a pretrained open model, no retraining. Not a proper-scoring decision head. `research/notes.md` §32.
+- **stephanj/pcdServer** — native Parallel Constrained Decoder (C++20, llama.cpp GGUF, Apple+Linux). TypeAR-class serving: 2–256 enums, 1–63 parallel fields; softmax over allowed values is not a Noul. `notes.md` §42.
 - **com-kotobalabs/open-jev-deberta-v3-large** — encoder open-jev, DeBERTa-v3-large 434M, apache-2.0, public gold (not a Jev teacher). In-domain ECE 0.022; OOD acc 0.854→0.690. `notes.md` §33.
 - **Mikhail/mini-jev-runs** — 27.9k schema-driven decisions; one forward pass; answer from next-token logits; no token generated. Calibration / constrained-decoding gold. `notes.md` §33.
 - **kokuren/jp-sns-jev7-estimator** — JP SNS seven-axis ONNX distill; teacher scores, not calibrated probabilities; `threat` F1@0.5 = 0. Domain-local categorize.
@@ -67,6 +69,14 @@ Per-keystroke launchers (104ms median, sequence-tagged staleness), firehose mode
 - **vava-nessa/pi-jev-compaction** (and `tamaratran/fast-jev-compaction`) — verbatim drop, never summarize. Pair with jev-gate-student-b for local memory-gating.
 - **reachjalil/jev-tree** — authored taxonomy so each Choice stays under 255; truncate silently drops the tail (`jev-tree-choice-cap`).
 - **HacksonClark / SREGym-Lite** — Jev ranks next tests/evidence; does not diagnose; 20/50→24/50 with 2 regressions. `notes.md` §33.
+- **ddfeyes/jev-mode** — bulk triage/tag/route off frontier context; synthetic 1,000: −77.8% tokens; accuracy is parity. `notes.md` §42.
+- **runta-dev/jot** — closed-catalog System One shell (topology B). "First general-purpose" is a claim.
+- **wotai-dev/typesafe-jev-tools** — meta-VOI: does this decision need a model? 149-row Jev vs Haiku 4.5.
+- **memovai/openevals** — online every-step eval into Langfuse; code graders first. Beside Harbor, not instead of it.
+- **poponline63/hermes-jev-north-star** — deterministic checks then Jev finish gate; empty evidence refuses.
+- **TheoOliveira/pi-jev** — Pi semantic tool/skill routing. Not kevinpita/pi-jev-context.
+- **vtrivedy/jev-plays-games** — Choice over legal moves; probabilities ≠ win odds.
+- **ant4g0nist/joxide** — zoxide index, Jev shortlist, local paths only.
 
 ### Skills & tooling
 - **typesafe-ai/skills** — official skill (contracts/patterns).

@@ -1860,3 +1860,229 @@ joints across stages live in code. Atallah: rhetoric, not a meter;
 openjev-lm keeps that spelling. Fail-open is not universal. A Noul is
 not a proof and is not over raw pixels. **Hypothesis.** No CLI, env,
 port, or install.
+
+## 42. Hourly fold ~11:59 America/Boise (2026-09-18) — serving, meta-VOI, env vs policy, store, games
+
+Window: America/Boise ~11:59 ≈ 17:59 UTC. Novel versus §33 (~11:02).
+Docs-only. No Jev wrapper, no serving-stack how-to, no copied
+`predict()` / env / hook regex / OpenAPI. Local path
+`/workspace/jev-archive/2026-09-18/175905` was not present this pass;
+GitHub READMEs, Hub cards, and X posts fetched live. HTTP 200 on every
+cited URL below. Archer drop still **WATCH**: Hub `archerhume` /
+`4rcherhume` empty; latest `@4rcherhume` posts this calendar day are
+replies (newest 14:39Z "I realise that now…"). Expected ~19 Sep Boise.
+
+Five frames, then the artifacts.
+
+**(a) Three open paths, not three species.** Encoder open-jev
+(DeBERTa), AR constrained decode (TypeAR + native serving), trained
+decision-only (Laya / Nimble / Archer Watch). Constrained softmax over
+allowed tokens is still not a Noul.
+
+**(b) Meta-VOI.** Abstain from calling *any* model when a regex, DNS
+lookup, or query already answers. The System One band is "a sensible
+person answers in under a second from text you can show them."
+
+**(c) Env-break vs policy-break.** OpenSmoke's cut is already the
+harness-triage card; this hour the README names it: `env_broken` as
+opposed to the agent's own bug; pre-mortem of a new sandbox *before*
+users meet it.
+
+**(d) Store as decision surface.** Vanilla Postgres never learns
+`jev()`; the CLI judges schema-conditioned row objects. Cheap SQL
+first; row contents leave the database.
+
+**(e) Game loops as calibration / hill-climb substrate.** Legal moves
+from code; Choice over that set; option-order and confidence-vs-correct
+are the tests. Probabilities are not win odds.
+
+### HIGH
+
+1. **[`stephanj/pcdServer`](https://github.com/stephanj/pcdServer)**
+   (created 17:06Z, MIT, C++20, 0★ this pass). Native Parallel
+   Constrained Decoder REST for Apple Silicon (Metal) and Linux
+   (llama.cpp GGUF). Same *family* as TypeAR (§32): next-token
+   constraint, not a proper-scoring head. Differences that matter for
+   placement: 2–256 string choices per field (TypeAR README enums
+   ≤16); 1–63 parallel fields sharing one prefix checkpoint; booleans
+   as `[false, true]`; collision-tree for shared prefixes; full
+   sequence checkpoints because Qwen3.5 hybrid recurrent state cannot
+   be partially rewound. Default demo GGUF is Qwen3.5-0.8B-Q8_0. The
+   model never writes JSON syntax; the server assembles values from
+   allowed scalars and returns a softmax over those scalars. That
+   distribution is still not a Noul. Tetris view: every piece is one
+   decode — game loop as a constrained-decode demo, not a strength
+   claim. No auth; default bind is loopback. Cousin of the same
+   author's `parallelConstraintDecoding` (already in the ecosystem
+   snapshot). Do not copy OpenAPI, flags, or install. Card:
+   `judgment-class.md` constrained-AR row.
+
+2. **[`kylemclaren/jevql`](https://github.com/kylemclaren/jevql)**
+   (already in the gallery; this hour the *store* frame). Semantic SQL
+   over vanilla Postgres: `jev` / `jev_prob` / `jev_choice` /
+   `jev_score` as schema-conditioned typed questions on row objects.
+   The database only ever sees ordinary SQL. Full scan of the
+   post-SQL-filter row set — indexed predicates first; `--explain`
+   counts before you pay. Row contents go to TypeSafe: same residency
+   warning as AU health (§33). Not a Postgres extension. Do not copy
+   connection strings. `mixed-architecture.md` gallery; `mappings.md`
+   §4.
+
+3. **[`aaravriyer193/OpenSmoke`](https://github.com/aaravriyer193/OpenSmoke)**
+   (already §3; this hour the cut is explicit). Per step, one request:
+   Noul `env_broken` *as opposed to* the agent's own bug; Choice
+   category (`missing_credential`, `broken_tool`, `network`, …);
+   Noul `workaround`. Run status silent / disclosed / recovered /
+   clean. Heuristic judge on 12 labeled traces: precision = recall =
+   0.86; `jev-1.13` "not yet measured" on that fixture — do not invent
+   a number. Pre-mortem shape: scan an eval suite against a new
+   sandbox image and fail the build on *silent* env-breaks. Motivating
+   case unchanged (KeyError then "Done!"). `applied-mappings.md` §3.
+
+4. **[`ddfeyes/jev-mode`](https://github.com/ddfeyes/jev-mode)**
+   (created 14:51Z, MIT, Python, 0★). Move bulk semantic judgments out
+   of frontier context (triage 400 tickets, tag files, six-way route)
+   onto a typed decision model. Measured on 1,000 synthetic triage
+   judgments vs a Jev-free control: −77.8% tokens, 16× less
+   work-attributable input, 40→14 round trips; department accuracy
+   96.1% vs 93.7%. Author's own hedges: control ranged 93.4–98.2% so
+   the honest claim is **parity**, not superiority; corpus is
+   synthetic so the **token ratio** is the durable result. Question
+   design moved 5–12 points (one terse Choice beats nine atomic
+   Nouls; one record per call). Step gate: fail-open; consecutive
+   denial budget (lifetime budget was wrong); `unsafe` recorded not
+   enforced. Latency-class split: leaving those 400 tickets in the
+   frontier loop **stalls** later turns (re-read tax); moving them
+   off **degrades the frontier to render/write**. Same axis as
+   Atallah (§38), not a new meter. Do not copy the client. Cards:
+   `mixed-architecture.md`; `applied-mappings.md` §5.
+
+5. **[`runta-dev/jot`](https://github.com/runta-dev/jot)** (created
+   10:46Z, license file absent, 1★). "First general-purpose System One
+   agent" is a **claim**. Loop: closed tool catalog → Jev picks a
+   call → host executes → result back into state. Calculator does the
+   arithmetic. That is dual-orchestration topology B with a *closed*
+   catalog (`mixed-architecture.md`), not a license to invent tools.
+   Hypothesis as a shell; standing red flag if the catalog is open.
+   Do not copy `.env`.
+
+6. **[`wotai-dev/typesafe-jev-tools`](https://github.com/wotai-dev/typesafe-jev-tools)**
+   (created 17:04Z, MIT, 0★). Claude Code hook that asks whether the
+   decision *being written* needs a model at all. Three-way test:
+   (1) regex / DNS / query → write the code; (2) multi-step reasoning
+   or generated prose → frontier; (3) one-second human from shown text
+   → System One. Never blocks; recommends plain code at least as
+   often. **Empirical as a 149-row receipt, 2026-09-18, same business
+   rows:** Jev `jev-1.13.0` 79.9% / p50 432 ms / p95 620 ms / 507 in +
+   84 out tok; Claude Haiku 4.5 **83.2%** / 702 / 1,244 / 422 + 19.
+   Agreed 143/149. Jev 1.6× faster, **not** the 20–200× landing-page
+   band. Jev accuracy climbs monotonically with stated confidence
+   (0.00–0.60: 28.6%; 0.95–1.00: 93.9%). Haiku **inverts** in
+   0.80–0.95 (55.2%). Haiku produced 10 distinct confidence values and
+   put 0.95 on 98/149; Jev 32. TypeSafe `/pricing` and `/limits` both
+   404 this day, so "40 to 1,000× cheaper" is not checkable. Punchline
+   the hook exists for: if your code does not *branch on confidence*,
+   use whatever you already have. Do not copy the hook matcher. Cards:
+   `mappings.md` §6; `mental-models.md` VOI; FAQ.
+
+### MED
+
+7. **[`memovai/openevals`](https://github.com/memovai/openevals)**
+   (created 07:43Z, MIT, 1★). Online, every trace, every step, written
+   back to Langfuse. Code graders first (free, crisp); Jev per-step
+   four questions (progress / on_task / redundant / corrective);
+   low-confidence / Noul≈0.5 escalates. Calibration vs human
+   ANNOTATION scores (κ, MAE, false-pass). Adjacent to jevals/Harbor
+   (§40): Harbor is an offline product taskset; this is production
+   full-traffic measurement. Same full-traffic portent already in
+   `judgment-class.md`. Do not copy env. `validation.md` one sentence.
+
+8. **[`poponline63/hermes-jev-north-star`](https://github.com/poponline63/hermes-jev-north-star)**
+   (created 10:37Z, MIT, 1★). Intention → checkable finish line.
+   Two-layer gate: deterministic shell checks first (failure
+   short-circuits); empty evidence **refuses to judge**; then one Jev
+   call (Noul every-requirement, Score progress, Choice weakest).
+   Empty state was self-contradictory (0.14 done beside "nothing
+   met") — that is why the refuse-empty rule exists. Numbers move
+   between calls on the same state: treat the threshold as coarse;
+   deterministic checks are load-bearing. `mappings.md` §18 / §12.
+
+9. **[`TheoOliveira/pi-jev`](https://github.com/TheoOliveira/pi-jev)**
+   (created 17 Sep, MIT, 6★). Semantic tool/skill routing + typed
+   `jev_evaluate` for the Pi coding agent. **Not**
+   `kevinpita/pi-jev-context` (sieve). Fail-open to local keyword
+   shortlists. Auto-mode / compaction / auto-model are opt-in.
+   `applied-mappings.md` §5.
+
+10. **`rajdhakad9826/routeKit`** — already §33. Still Hypothesis until
+    *your* catalog. No rewrite.
+
+11. **[`vtrivedy/jev-plays-games`](https://github.com/vtrivedy/jev-plays-games)**
+    (created 17:57Z, license file absent, 0★). Chess / Connect Four.
+    Board → legal moves from code → one Choice over that set →
+    validate. Text state, no screenshot. Choice probabilities **are
+    not win odds**. Probe (author, 12 paid calls, both option orders):
+    both chess mates found; Connect Four immediate win missed once
+    under reversed order; Fool's-mate confidence 31% and 37% — a 0.50
+    gate would reject both correct mates. Self-play chess hung a queen
+    on move 2 and drew by repetition; Connect Four filled columns then
+    won the bottom row. Small selected sample; reversing options is a
+    new call, so it does not isolate IIA from request noise. Hill-climb
+    substrate: option-order, confidence-vs-correct, state-format
+    ablations. `mappings.md` §9; `validation.md`.
+
+12. **[`ant4g0nist/joxide`](https://github.com/ant4g0nist/joxide)**
+    (created 17:36Z, license file absent, 0★). zoxide owns the index;
+    Jev scores a shortlist of known directories by description.
+    Destinations come only from existing local paths. Fail-open (API
+    error leaves you where you were). Thresholds are initial policy,
+    not calibrated guarantees. `mappings.md` §4.
+
+13. **[`convaiinnovations/laya-typed-decisions`](https://huggingface.co/convaiinnovations/laya-typed-decisions)**
+    (created 17:45Z, apache-2.0, 421.3M — same parameter count as
+    `convaiinnovations/laya`). Companion packaging: Hub tags
+    `typed-decisions` / `system-one` / `rlcd`; model-index on
+    `LocalLLaMA/typed-decisions` acc **0.766** / Brier **0.066**,
+    `verified: false`. Not a new architecture. Do not overwrite §18
+    ECE claims. Point at Laya as the trained decision-only open path.
+
+### X discourse this hour (verified)
+
+- [@jsmagoon](https://x.com/jsmagoon/status/2101008113952567316)
+  (17:59:03Z): "dynamic classifiers based on user input" / "derive the
+  output schema at runtime." Still a **closed set at request time**.
+  Not generation. IIA/envelope still apply.
+- [@yoheinakajima](https://x.com/yoheinakajima/status/2101008182521037242)
+  (17:59:20Z): chat/beep sees typing live; Enter clears. Live
+  keystroke sieve — judge on partial state; sequence-tagged staleness
+  already in the latency-first archive. Hypothesis as a number.
+- [@IAmMattGreen](https://x.com/IAmMattGreen/status/2101008081962614823)
+  (17:58:56Z): a use-case "could immediately cut our costs by 60%."
+  **Claim**, not a labeled receipt.
+- [@mrluiscalderon](https://x.com/mrluiscalderon/status/2101007751098851382)
+  (17:57:37Z): Coach testing "~20× faster"; "quality still needs
+  verification."
+- [@thePartyPartyUS](https://x.com/thePartyPartyUS/status/2101007875313205573)
+  (17:58:06Z): "classifiers are cheap… jump on GLiNER." Species-map
+  lesson already taught; do not adopt "Jev will be discarded."
+- [@Yash_Bhadange07](https://x.com/Yash_Bhadange07/status/2101007720195498235)
+  (17:57:29Z): closed Jev → FunctionGemma for Android tool calling.
+  Same hole as jev-mobile / AU residency: deployment control, not a
+  FunctionGemma tutorial.
+- [@linfluence](https://x.com/linfluence/status/2101008235385794628)
+  (17:59:32Z): fintech / market-structure; LLMs price on a paragraph a
+  user reads; software-native unit is a decision.
+- [@brunoqgalvao](https://x.com/brunoqgalvao/status/2101008125356626019)
+  (17:59:06Z): takeaway — new Pareto of performance/cost will drive
+  many use cases, especially latency. The numbered receipt he is
+  closing (16:53Z, ~1,200 items, four classification tasks): Jev
+  91–96% vs flash 96–99%; 23× faster and 39× cheaper than flash at
+  1–5 accuracy points; yes/no ECE 8–15% over-hedge vs flash 0.5–2%.
+  **Author-reported**, not re-run. Ranking "is good though." Do not
+  overwrite in-dist ECE 0.0313 (§7) with this phishing-set ECE.
+
+Cards: `judgment-class.md` three open paths + pcdServer on the TypeAR
+row; FAQ; `applied-mappings.md` §3 / §5; `mappings.md` §4 / §6 / §9 /
+§18; `mixed-architecture.md` gallery + topology B; `mental-models.md`
+VOI; `validation.md` games + openevals; `formal-methods.md` softmax
+still isn't a proof.

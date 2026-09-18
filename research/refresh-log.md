@@ -338,3 +338,18 @@
 - notes.md §41. Nimble ECE not claimed. openjev-lm spelling kept.
   No CLI.
 
+## 2026-09-18 17:59 UTC — ~11:59 Boise hourly fold
+
+- America/Boise ~11:59. Docs-only. Archer still **WATCH** (Hub empty;
+  latest @4rcherhume posts are replies). Local jev-archive path absent;
+  READMEs and X fetched live. HTTP 200 on cited URLs.
+- Three open paths named on the when-to-use card: encoder / AR
+  constrained decode (TypeAR + pcdServer) / trained decision-only.
+- HIGH: pcdServer, jevql store-frame, OpenSmoke env vs policy,
+  jev-mode, jot, typesafe-jev-tools 149-row.
+- MED: openevals, hermes-jev-north-star, TheoOliveira/pi-jev,
+  jev-plays-games, joxide, laya-typed-decisions. routeKit already §33.
+- X discourse archived in notes §42. No wrapper, no install copy.
+- notes.md §42; sources.json; findings.md batch #25.
+
+
