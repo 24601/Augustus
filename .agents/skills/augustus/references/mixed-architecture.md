@@ -219,19 +219,32 @@ Two topologies, same ownership split
 ([James Ward, 2026-09-18](https://x.com/JamesWard/status/2100976393546772628)):
 
 ```text
-A. LLM outer loop; Jev is a *tool* that selects / plans MCP calls
+A. LLM outer loop; Jev is a *tool* that selects among the MCP calls offered
 B. Jev outer loop; LLM is a *tool* that writes
-MCP output schemas are the state a decision model can plan over
+MCP output schemas are the exact state a decision model judges over
 ```
 
 **Transfers:** schemas as exact structure; judgment among a closed tool
 catalog; code dispatches. Topology B is mixed architecture with the
 generator as a callee (`applied-mappings.md` §5). Topology A is an LLM
 agent that *asks* a decision model instead of stuffing a system prompt.
-**Does not:** Jev as the planner that invents tools; skipping schemas so
-the model "just knows"; treating a workflow AST as a proof. **Hypothesis**
-as "Jev builds the AST"; **Empirical** as named topologies. Not an MCP
-how-to.
+**Does not:** the decision model as the planner — neither inventing tools
+nor picking its own next tool in a loop (standing red flag, above and in
+`boundary-audit.md`); skipping schemas so the model "just knows";
+treating a workflow AST as a proof. The outer loop stays with the LLM or
+with code. **Hypothesis** as "Jev builds the AST"; **Empirical** as named
+topologies. Not an MCP how-to.
+
+**Effect-oriented loop (same author, later post).** Topology B inside
+an effect system
+([tweet](https://x.com/JamesWard/status/2100981305009664299)): the host
+offers the finite legal actions; one Choice picks the transition; the
+handler runs the effect and returns continue or done. "An action
+handler may run arbitrary ZIO effects—MCP calls, database operations,
+or a no-tool generative model call—while Jev remains the outer decision
+loop." Code owns transitions (§3). **Hypothesis** card:
+`mappings.md` §19. The pixels are that ZIO client, not an Effect.ts
+snippet and not the Jev HTTP contract.
 
 ## Preference lint and gates
 

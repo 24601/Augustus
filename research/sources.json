@@ -727,6 +727,48 @@
       "title": "huntedman/JevLint",
       "url": "https://github.com/huntedman/JevLint",
       "note": "File-level convention Nouls; write→check→fix; sibling of jev-pref. Independent. notes.md §26."
+    },
+    {
+      "kind": "social",
+      "title": "James Ward: Effect-oriented Jev-driven state-machine loops",
+      "url": "https://x.com/JamesWard/status/2100981305009664299",
+      "note": "Image post, no note_tweet. ZIO handler runs effects; Jev stays the outer loop. Not Effect.ts. mappings.md §19. notes.md §28."
+    },
+    {
+      "kind": "repo",
+      "title": "jamesward/zio-typesafe-ai",
+      "url": "https://github.com/jamesward/zio-typesafe-ai",
+      "note": "Scala/ZIO client. Loop section matches the 2026-09-18 image. Client combinator, not the Jev HTTP contract."
+    },
+    {
+      "kind": "docs",
+      "title": "zio-typesafe-ai loop architecture",
+      "url": "https://github.com/jamesward/zio-typesafe-ai/blob/38082e8712b49ce239ae628557619347909165dc/docs/loop-architecture.md",
+      "note": "Host mints the finite action set; Jev answers one Choice. Do not copy into SKILL.md."
+    },
+    {
+      "kind": "social",
+      "title": "urchade: GLiNER2 multi-task classification like jev",
+      "url": "https://x.com/urchadeDS/status/2100929613857804379",
+      "note": "GLiNER author, primary source. Image is GLiGuard Figure 3. Categorize beside decide. notes.md §28."
+    },
+    {
+      "kind": "paper",
+      "title": "GLiGuard: Schema-Conditioned Classification for LLM Safeguard (arXiv 2605.07982)",
+      "url": "https://arxiv.org/abs/2605.07982",
+      "note": "Zaratiana et al. 0.3B encoder adapted from GLiNER2. Figure 3 caption is the load-bearing architecture sentence."
+    },
+    {
+      "kind": "repo",
+      "title": "fastino-ai/GLiGuard",
+      "url": "https://github.com/fastino-ai/GLiGuard",
+      "note": "Paper's code/models link. README decision rules are policy-in-code, not a new doctrine. Do not copy an install or extractor API into Augustus. notes.md §29."
+    },
+    {
+      "kind": "model",
+      "title": "fastino/gliguard-LLMGuardrails-300M",
+      "url": "https://huggingface.co/fastino/gliguard-LLMGuardrails-300M",
+      "note": "0.3B checkpoint named in the GLiGuard README. HTTP 200 this pass. Not a Jev weight clone."
     }
   ]
 }

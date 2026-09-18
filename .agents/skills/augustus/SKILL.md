@@ -1,6 +1,6 @@
 ---
 name: augustus
-description: "Use when placing typed probabilistic judgment (Jev-class System One models) with mathematical, logical, or algorithmic mental models — in AI, software, business, knowledge work, or life, not only SWE; deciding where a fast cheap categorization/classification/scoring model belongs versus generation, exact policy/code, or proof; applying expected utility, selective classification/abstention, calibration, cost-sensitive thresholds, value of information, MCDA, signal detection, search/control substitutions, or Leveson-style org/safety; using NATM/snap-fit/Norman as design intuition; designing mixed architecture (decision model + LLM writing); choosing among TypeSafe Jev, open heads (Laya, openjev-lm), GLiNER/GLiClass encoder family (locate vs categorize vs local multi-head), listwise rankers, or vision scorers; placing judgment beside TLA+/Alloy/Apalache/Dafny/DST (Antithesis, Resonate, PufferLib) without laundering a Noul as a proof; answering \"it's just classification\", \"is this only for software?\", Alloy vs Apalache, GLiNER vs Jev, LLM-as-judge, paraphrase brittleness, allowlist then judge, TOCTOU-of-Noul, vacuous specs, or \"formally verify with Jev\" with a placement, not a stack replacement or a vendor how-to. Formal methods are one pillar. Not a substitute for the official typesafe-ai skill (live Jev API contracts)."
+description: "Use when placing typed probabilistic judgment (Jev-class System One models) with mathematical, logical, or algorithmic mental models — in AI, software, business, knowledge work, or life, not only SWE; deciding where a fast cheap categorization/classification/scoring model belongs versus generation, exact policy/code, or proof; applying expected utility, selective classification/abstention, calibration, cost-sensitive thresholds, value of information, MCDA, signal detection, search/control substitutions, or Leveson-style org/safety; using NATM/snap-fit/Norman as design intuition; designing mixed architecture (decision model + LLM writing); choosing among TypeSafe Jev, open heads (Laya, openjev-lm), GLiNER/GLiClass/GLiGuard encoder family (locate vs categorize vs safety-schema classify vs local multi-head), listwise rankers, or vision scorers; placing judgment beside TLA+/Alloy/Apalache/Dafny/DST (Antithesis, Resonate, PufferLib) without laundering a Noul as a proof; answering \"it's just classification\", \"is this only for software?\", Alloy vs Apalache, GLiNER vs Jev, \"is GLiGuard Jev?\", LLM-as-judge, paraphrase brittleness, allowlist then judge, TOCTOU-of-Noul, vacuous specs, or \"formally verify with Jev\" with a placement, not a stack replacement or a vendor how-to. Formal methods are one pillar. Not a substitute for the official typesafe-ai skill (live Jev API contracts)."
 license: MIT
 metadata:
   version: 0.3.0
@@ -84,7 +84,8 @@ classical method you already trust, substitute it, classify the win
    person could answer in a second given the state). Split multi-factor
    judgments; fuse in code with visible weights. Jev's option/envelope
    limits are Jev's, not the class's — large or changing label sets may
-   prefer a GLi\* one-pass — GLiClass tags or GLiNER spans
+   prefer a GLiClass one-pass (categorize). GLiNER (locate) substitutes
+   only where the answer *is* a span in the text
    (`judgment-class.md` species map).
 5. Exploit the family's cheap fan-out: batch independent questions in
    one request when the provider supports it; encode text + all labels
@@ -107,7 +108,8 @@ classical method you already trust, substitute it, classify the win
 | Familiar method | Judgment shape | Detail |
 |---|---|---|
 | Mental models across domains (not SWE-only) | EU, abstention, VOI, MCDA, SDT, search/control, Leveson, NATM/Norman/snap-fit | `references/mental-models.md` |
-| Judgment-model class (Jev is exemplar, not monopoly) | Species: decide / locate (GLiNER) / categorize (GLiClass) / rank / perceive; open heads include openjev-lm | `references/judgment-class.md` |
+| Judgment-model class (Jev is exemplar, not monopoly) | Species: decide / locate (GLiNER) / categorize (GLiClass) / rank / perceive; open heads include openjev-lm; readout vs constrained AR (Hume) | `references/judgment-class.md` |
+| Open weights vs constrained decoding vs proprietary API | Trained decision head ≠ next-token constraint; announced open weights are Watch | `references/judgment-class.md` |
 | Formal / semi-formal (proof vs judgment) | Sensor vs constraint vs searchlight; Alloy vs Apalache; DST trio; TOCTOU-of-Noul, AI×FM | `references/formal-methods.md` (one-screen: `references/formal-semi-formal.md`) |
 | Mixed architecture (judgment model + LLM) | Provider judges, LLM writes, code owns control; not a stack replacement | `references/mixed-architecture.md` |
 | Context sieve | Relevance Noul per block; always-keep set in code; stub + recall key | `references/applied-mappings.md#1-context-sieve` |
@@ -136,6 +138,7 @@ classical method you already trust, substitute it, classify the win
 | Situated density (Shirky) | Aggressive soft loops only inside a named community | `references/mappings.md#16-situated-density-shirky-hypothesis` (**Hypothesis**) |
 | Input brittleness / paraphrase stability | Synonymous wording that swings p → abstain or rewrite | `references/mappings.md#17-input-brittleness--sensitivity-calibration-selective-abstention-hypothesis` (**Hypothesis**) |
 | Structural prove ∩ soft remainder | Allowlist/text-layer/law first; judge only leftovers | `references/mappings.md#18-structural-prove--soft-remainder-hypothesis-as-domain-general-empirical-as-named-shapes` (**Hypothesis**; jevgate/OCR shapes Empirical) |
+| Effect-oriented state-machine loops | Soft predicates on transitions; code owns the transition | `references/mappings.md#19-effect-oriented-state-machine-loops-hypothesis` (**Hypothesis**; ZIO client, not Effect.ts) |
 | Agent self-supervision / on-track detection | Pre-gate → output judge → done-check → supervisor nouls | `references/agent-self-assessment.md` |
 | Optimizer/program frameworks (Ax, DSPy) | Typed fields → one provider request; judge metrics; threshold discipline | `references/optimizer-integration.md` |
 | (meta) Finding new mappings & applications | Toolbox sweep: judgment-shaped component of a known method, substituted + falsified | `references/toolbox-mapping.md` |
@@ -193,7 +196,7 @@ Desired behavior and non-judgment baseline:
 Semantic judgment(s) and what each output means:
 Pillar (EU / VOI / MCDA / SDT / search / safety / formal):
 Hole (sieve / keep-drop / triage / rank / route / gate / perceive / abstain / gather):
-Family (closed decision API / open head / GLiNER locate / GLiClass categorize / listwise ranker / vision scorer):
+Family (closed decision API / open head / constrained-AR surface / GLiNER locate / GLiClass categorize / listwise ranker / vision scorer):
 Evidence/candidate source and known coverage gaps:
 Deterministic policy, constraints, and action ownership:
 Batchable vs genuinely dependent steps:
@@ -213,8 +216,9 @@ env triage, moderation/ranking, skill routing):
 `references/applied-mappings.md`. Hypothesis cards (VOI, SDT, Leveson,
 search/control, spec pipeline, Alloy loop, RV sandwich, DST triage,
 durable agents, assignment, situated density, paraphrase stability,
-structural-prove ∩ remainder) stay labeled until an acceptance test
-runs: `references/mappings.md` §6–§18. For concrete
+structural-prove ∩ remainder, effect-oriented state-machine loops)
+stay labeled until an acceptance test
+runs: `references/mappings.md` §6–§19. For concrete
 requests skip the brainstorm and build.
 
 ## Evidence labels

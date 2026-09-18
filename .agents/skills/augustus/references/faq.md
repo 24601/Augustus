@@ -60,9 +60,12 @@ and transfer calibration/eval duty to you. Laya is text-only, 512 tokens
 per question; vendor vs-Jev tables are claims. Their own zero-shot ECE
 jump is the warning that matters (`research/notes.md` §18). Name the
 provider on the decision-design card and falsify on *your* labels.
-A CPU-distilled clone of Jev's *answers* (openjev-lm 92.9% on 70 gold)
-is still a teacher-copy — self-eval on independent labels before you
-treat it as a decision API (`notes.md` §25).
+A CPU-distilled clone trained on Jev's *answers* (openjev-lm) is still a
+teacher-copy. Read its two numbers separately: 92.9% is against 70
+hand-labelled rows (one annotator, one domain, one seed), while the 98.1%
+on fresh rows measures *agreement with the teacher*, not gold. Self-eval
+on your own independent labels before you treat it as a decision API
+(`notes.md` §25).
 
 ## GLiNER vs GLiClass vs Jev vs a cross-encoder?
 
@@ -95,6 +98,15 @@ that *authorizes* an irreversible act is the same rejected design.
 jina-reranker-v3.5 always pulls the lever, 1 death or 1B
 ([tweet](https://x.com/hxiao/status/2100973209114075330)). Retrieval
 relevance is not decision rationality. Do not ship that as System One.
+
+## Is GLiGuard Jev?
+
+No. One forward pass over a safety schema is the same *interface shape*
+as batched System One questions and a different objective (moderation
+labels on a GLiNER2 encoder, not Choice / Score / Noul). Empirical open
+encoder next to GLiClass; not a weight clone. "like jev" is discourse.
+A GLiGuard score is not a proof. LLM I/O safety is not coding-agent
+tool gates (jevgate shape). `judgment-class.md`.
 
 ## Can I threshold CLIP / SigLIP as a safety gate?
 
@@ -200,3 +212,16 @@ cases. jevgate's Proven / Refused / Unknown sandwich is the SWE shape;
 OCR page-routing is the same composition with dollars attached
 (`mappings.md` §18). The model judges leftovers. Putting the model
 first so a comment can talk it into a write is the rejected design.
+
+## Is confidence a trained score?
+
+No — not on Hume's reconstruction, and not as a new contract. Re-read
+live TypeSafe confidence docs before you code a threshold. Training
+(published name: RLCD) is aimed at the predictive distribution; which
+proper scoring rule he did not observe. The Choice `confidence` field, in
+the adapter revision he cites, is then ordinary arithmetic: how far the
+leading probability sits above a uniform `1/K`. It is not a second learned
+estimate that the answer is correct. A peaked distribution can be
+confidently wrong. Threshold a p you have checked on your labels.
+[Essay](https://archerhume.com/posts/jevs-architecture-unmasked/),
+`notes.md` §27, `mental-models.md` calibration.

@@ -311,4 +311,55 @@ Same Boise morning. Note: `research/notes.md` §26.
 Cross-repo addition: (ac) listwise I/O can *look* like System One and
 still fail the trolley; (ad) two mixed-architecture loops, not one.
 
+## Batch #15 (2026-09-18, Hume architecture reconstruction)
+
+Note: `research/notes.md` §27. Cards: `judgment-class.md` compute graph;
+`mental-models.md` calibration; `faq.md`; `formal-methods.md`;
+`validation.md` IIA clause. Not a TypeSafe contract.
+
+- **Archer Hume essay (reconstruction):** [Jev's Architecture
+  Unmasked](https://archerhume.com/posts/jevs-architecture-unmasked/),
+  17 Sep 2026, HTTP 200, `jev-1.13.0`, ~10k API calls. Direct readout
+  (`output_tokens` is billing, observed); question isolation observed,
+  prefix KV inferred; causal decoder inferred, Qwen-closest tokenizer
+  observed but not exact; IIA-style odds shift and order sensitivity
+  observed; RLCD name published, loss identity inferred, confidence
+  arithmetic observed; sparse MoE inferred not observed; batch not
+  conversation, duplicate non-determinism observed.
+- **Envelope:** ~32,768 / ~65,536 / 255 options re-measured. Independent
+  probe of the existing contract, not a replacement.
+- **WATCH:** [status tweet](https://x.com/4rcherhume/status/2100848840643612729)
+  — Qwen3.8 27b-based, 265k, multimodal, no audio, ~65% done. "Smarter
+  than Jev" is his claim against his own calibration and order warnings.
+  Not shipped. Laya remains text-only.
+- **TypeAR:** comparison sentence only (constrained AR vs readout). No
+  how-to. The public Qwen3.8-27B checkpoint is a base, not this drop.
+
+Cross-repo addition: (ae) black-box probe of a decision API is a
+reconstruction with explicit inferred rows, not a second contract.
+
+## Batch #16 (2026-09-18, effect-oriented loops + GLiNER author)
+
+Note: `research/notes.md` §28. Cards: `mappings.md` §19;
+`judgment-class.md` species map (GLiGuard on the categorize row);
+dual-orchestration paragraph. FAQ "Is GLiGuard Jev?" confirms, does
+not move locate.
+
+- **James Ward (Hypothesis as a placement; Contract as that client's
+  README):** "Effect Oriented Jev-driven state-machine loops." Image
+  sentence: the handler may run arbitrary ZIO effects while Jev remains
+  the outer decision loop.
+  [Tweet](https://x.com/JamesWard/status/2100981305009664299);
+  [zio-typesafe-ai](https://github.com/jamesward/zio-typesafe-ai).
+  Not Effect.ts. Not the Jev HTTP contract. Code owns transitions.
+- **urchade (primary source, confirms species map):** GLiNER2
+  multi-task classification "like jev" is GLiGuard Figure 3 —
+  linearized schema, shared MLP, softmax or sigmoid, one pass.
+  [Tweet](https://x.com/urchadeDS/status/2100929613857804379);
+  [arXiv:2605.07982](https://arxiv.org/abs/2605.07982). Categorize
+  beside decide. 36× Browser Use unchanged (tweet/Hypothesis).
+
+Cross-repo addition: (ag) effectful FSM — soft Choice, host effect;
+(ah) GLiNER author's own "like jev" is still categorize.
+
 

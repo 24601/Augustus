@@ -36,8 +36,8 @@ taxonomy with enough of *your* data (XGBoost still wins there —
 | Family | What it optimizes | Typical output | Use when | Watch |
 |---|---|---|---|---|
 | **Closed decision API** (TypeSafe Jev) | Calibrated decision (proper-scoring / RLCD lineage) | Choice / Score / Noul + distributions | Default when you need act/abstain, fan-out, documented envelope | Cloud, pin version, re-measure on your data |
-| **Open System-1 head** (Laya, openjev, LightJev, openjev-lm) | Same *shape* as Jev, you host it | Same primitives or logits-as-options | Air-gap, $0/token, inspectable weights | Self-eval duty; Laya text-only, 512 tok; vendor vs-Jev tables are claims (`notes.md` §18). Distill of a *teacher* (openjev-lm 92.9% on 70 gold) is not independent gold (`notes.md` §25) |
-| **GLi\* encoder family** (GLiNER locate / GLiClass categorize / GLiNER2.5 local multi-head) | One-pass labels-in-encoder; spans, sequence labels, or both | Spans + types; per-label sigmoid/softmax; optional relations/records | Laptop/local; large or changing label sets; "what's *in* the text" vs "what *is* the text" | Affinities are not automatically a gateable P(permit). Species map below. Not a Jev how-to and not a GLiNER install |
+| **Open System-1 head** (Laya, openjev, LightJev, openjev-lm) | Same *shape* as Jev, you host it | Same primitives or logits-as-options | Air-gap, $0/token, inspectable weights | Self-eval duty; Laya text-only, 512 tok; vendor vs-Jev tables are claims (`notes.md` §18). A distill learns the *teacher's* answers: openjev-lm's 92.9% is against 70 hand-labelled rows — one annotator, one domain, one seed — and its 98.1% on fresh rows is teacher *agreement*, not gold (`notes.md` §25) |
+| **GLi\* encoder family** (GLiNER locate / GLiClass categorize / GLiNER2.5 local multi-head / GLiGuard safety schema) | One-pass labels-in-encoder; spans, sequence labels, a safety schema, or both | Spans + types; per-label sigmoid/softmax; optional relations/records | Laptop/local; large or changing label sets; "what's *in* the text" vs "what *is* the text" vs "which safety labels fire" | Affinities are not automatically a gateable P(permit). GLiGuard is not a Jev weight clone. Species map below. Not a Jev how-to and not a GLiNER or GLiGuard install |
 | **Listwise / pairwise discriminative ranker** | Order of a list (nDCG, softmax-over-list) | Relevance scores, not P(relevant) | Rerank a retrieved shortlist | Translation-invariant listwise losses are **not** calibrated for thresholds ([listwise vs pointwise](https://doi.org/10.48550/arxiv.2208.06164); [RCR](https://arxiv.org/html/2211.01494v2)). Fail **open** (keep retrieval order) |
 | **Vision scorer** | Image–text affinity or region Choice | Cosine/sigmoid affinity, or a closed region/label pick | Perception as classification over *candidates you extracted* | CLIP softmax = competition in the offered set; SigLIP sigmoid = pairwise affinity, not class-conditional p ([SigLIP](https://huggingface.co/docs/transformers/v4.39.2/en/model_doc/siglip)). Not a VLM captioner |
 
@@ -51,7 +51,7 @@ code owns side effects." They are not aliases.
 
 ```text
 locate      GLiNER (span NER)              what's *in* the text
-categorize  GLiClass (sequence labels)     what *is* the text
+categorize  GLiClass / GLiGuard            what the text is; which schema labels fire
 decide      Jev / Laya / openjev           Choice / Score / Noul over a state
 rank        listwise / cross-encoder       order a retrieved shortlist
 perceive    CLIP / SigLIP / region Choice  score candidates you extracted
@@ -74,12 +74,49 @@ perceive    CLIP / SigLIP / region Choice  score candidates you extracted
   Use cost claim is a tweet, not a re-run (`notes.md` §25).
 - **Decide.** Typed Choice/Score/Noul with a decision/proper-scoring
   objective. That is Jev's product claim. Open heads copy the *shape*;
-  distillation copies the *teacher* (openjev-lm).
+  distillation copies the *teacher* (openjev-lm). Constrained
+  autoregressive decoding can emit a label and still is not this
+  species — architecture card below.
+- **Categorize (safety schema).** [GLiGuard](https://github.com/fastino-ai/GLiGuard)
+  ([arXiv 2605.07982](https://arxiv.org/abs/2605.07982); Zaratiana,
+  Newhauser, Hurn-Maloney, Lewis, Fastino): a GLiNER2 encoder that
+  scores a safety schema — prompt/response safety, toxicity, jailbreak,
+  refusal — in **one bidirectional pass**. Same *interface shape* as
+  batched System One questions (text + labels once). **Different
+  training objective**: a moderation schema, not general Choice / Score
+  / Noul. Released checkpoint `fastino/gliguard-LLMGuardrails-300M`
+  (0.3B). Author-reported, not re-run: 23–90× smaller than 7–27B
+  decoder guards; README up to 16.2× throughput and 16.6× lower latency
+  (paper abstract says up to 16× throughput and 17× lower latency;
+  paper body matches the README). **Empirical** as an open encoder
+  class, next to Laya and GLiClass. **Not a Jev weight clone** —
+  adapted from GLiNER2 and trained on WildGuardTrain (paper), not
+  distilled from Jev answers. "like jev" is discourse
+  ([@urchadeDS](https://x.com/urchadeDS/status/2100929613857804379)),
+  not an objective match. Figure 3's own caption: it jointly encodes a
+  linearized task-label schema with the input text, then scores each
+  label with a shared MLP (softmax single-label, sigmoid multi-label)
+  in one pass. That is categorize beside decide, not a Noul. A GLiGuard
+  score is not a proof.
 
-A GLiNER span is not a drop-in Noul. A GLiNER2.5 classification head can
-*sit in* the decide hole on a laptop only after *your* ECE and a fail
-policy. Spans that authorize an irreversible act are the rejected design
-(same as CLIP-as-gate). Do not copy extract APIs into this skill.
+  **Surfaces.** GLiGuard is for LLM input/output safety. Coding-agent
+  tool gates (jevgate shape, `mappings.md` §18) are a different hole.
+  Do not point one model at both.
+
+  **Aggregation is policy-in-code, already taught.** The README's
+  benchmark rule ORs unsafe / non-benign prompt labels and lets refusal
+  override an unsafe response. That is their eval script, not new
+  doctrine — fuse in code
+  (`mappings.md` §3; judge-once / re-policy in
+  `composition-algebra.md`; explicit policy in `mixed-architecture.md`).
+  Not generalized past that script, so not a Hypothesis.
+
+A GLiNER span is not a drop-in Noul. A GLiGuard label is not a Noul and
+not a discharged proof. A GLiNER2.5 classification head can *sit in*
+the decide hole on a laptop only after *your* ECE and a fail policy.
+Spans or safety affinities that authorize an irreversible act are the
+rejected design (same as CLIP-as-gate). Do not copy extract or
+guardrail install APIs into this skill.
 
 ## Listwise discriminative vs decision objectives
 
@@ -118,7 +155,8 @@ selection/auth → control  → fail closed, needs a decision-shaped number
 A listwise reranker plus a decision gate is a valid mixed stack. A
 listwise reranker *as* the gate is the rejected design.
 
-**Empirical recipe (Han Xiao trolley, 2026-09-18).** Wrapping
+**Empirical rejection (Han Xiao trolley, 2026-09-18 — one tweet, no
+public repo; a rejection to remember, not a recipe to reuse).** Wrapping
 [jina-reranker-v3.5](https://x.com/hxiao/status/2100973209114075330) in a
 Jev-style API and asking the trolley problem: it **always pulls the
 lever**, whether one person dies or one billion. Relevancy ≠ decision
@@ -171,9 +209,11 @@ capability shift, independent of vendor:
    still LLM-judge 2% of traces are leaving the economics on the table.
 2. **Skills and tools become a catalog + decision**, not a stuffed
    system prompt. Rank-then-verify, reject-all first-class
-   (`applied-mappings.md` §5). Large label sets may prefer a GLi\*
-   one-pass (GLiClass tags, GLiNER spans) over a 255-option Choice —
-   that limit is Jev's, not the class's.
+   (`applied-mappings.md` §5). Large label sets may prefer a GLiClass
+   one-pass (categorize: text + all labels together) over a 255-option
+   Choice — that limit is Jev's, not the class's. GLiNER is *not* the
+   substitute here: selecting a catalog member locates nothing (species
+   map above).
 3. **Two numbers, two jobs.** Ranking scores order context. Decision
    scores authorize. Harnesses that collapse them will either stall
    (fail-closed on a listwise number) or leak (fail-open on a gate).
@@ -199,6 +239,45 @@ capability shift, independent of vendor:
 None of these portents require TypeSafe. They require picking a family
 whose *objective* matches the action's fail policy, then falsifying on
 your labels.
+
+## Compute graph: readout vs constrained AR
+
+[Archer Hume, *Jev's Architecture Unmasked*](https://archerhume.com/posts/jevs-architecture-unmasked/)
+(17 Sep 2026, `jev-1.13.0`). **Reconstruction from ~10k API probes, not a
+TypeSafe contract.** Observed vs inferred: `research/notes.md` §27. The
+~32k / ~65k / 255 envelope he re-measured matches the live docs; the
+essay does not override them.
+
+Labeled in one line: (1) direct readout, not AR text — published;
+`output_tokens` is a billing figure, not a decode trace (**observed**);
+(2) shared state, questions isolated — isolation **observed**, prefix KV
+**inferred**; (3) causal pretrained decoder — **inferred**; tokenizer
+closest to Qwen among publics, not an exact match — **observed**; (4)
+options interact before the choice — irrelevant-option odds shift and
+order sensitivity **observed**, mechanism not unique; (5) train the
+distribution (RLCD name published; which proper scoring rule **inferred**),
+confidence is then arithmetic (**observed** in the adapter he cites) —
+confidence ≠ learned correctness; (6) sparse MoE — **inferred, not
+observed**; (7) batch the branches, not a conversation — no cross-answer
+dependency, and duplicates are non-deterministic (**observed**).
+
+[TypeAR](https://github.com/zmtomorrow/TypeAR) is the constrained-AR
+alternative to (1) and (7): same typed interface shape, different compute
+graph (still emits one constrained token, or numeric steps). Use it, or a
+state machine where **code owns transitions**, when a later decision must
+see an earlier answer. Questions on one Jev request do not. Not a TypeAR
+how-to.
+
+### Three holes
+
+| Need | Place | Do not |
+|---|---|---|
+| Calibrated p(y\|x) over a closed set | Trained decision-only head (Jev, or an open head you have proper-scored and measured on your labels) | Threshold a generated "90%", or an affinity you have not calibrated |
+| Dependent sequential decisions | Constrained AR that conditions later steps on earlier answers (TypeAR sequential), or code-owned transitions and a new request per stage | Treat sibling questions on one request as if they attend each other |
+| Open multimodal self-host | Hume's announced drop **when it ships** (18 Sep tweet: Qwen3.8 27b-based, 265k, multimodal, no audio) | Ship on "smarter than Jev." That is his early claim, against his own order-sensitivity and in-distribution calibration warnings. **WATCH.** Laya remains text-only |
+
+Option order and an irrelevant extra option are properties to test, not
+a proof (`formal-methods.md`).
 
 ## Decision-design extras for class choice
 

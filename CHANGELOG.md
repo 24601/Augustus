@@ -64,10 +64,24 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   text-layer first, judge leftovers (jevgate / doc-router *shapes*
   Empirical; domain-general reading Hypothesis). FAQ: GLiNER vs Jev,
   LLM-as-judge (Langfuse framing), allowlist-then-judge
+- GLiGuard as an Empirical encoder peer (`judgment-class.md`,
+  `notes.md` §29): one-pass safety-schema classify on GLiNER2, not a
+  Jev weight clone; FAQ "is GLiGuard Jev?"; README OR/refusal
+  aggregation left as existing policy-in-code. LLM I/O safety is not
+  a coding-agent tool gate
 - Hourly 10:07 Boise fold (`research/notes.md` §25–§26): GLiNER2.5 local
   peer; openjev-lm 92.9% / 6 vCPU teacher-distill; jevgate; doc-router
   1.74× $; pi-jev-context; jevscope next to jevals; Han Xiao trolley
   (listwise ≠ decide); James Ward dual orchestration; JevLint
+- Architecture placement: trained decision-only vs constrained
+  autoregressive decoding vs proprietary Jev (`judgment-class.md`).
+  TypeAR is that constrained-decoding surface, not a sixth species.
+  Archer Hume's open-weight drop is **Watch**, not shipped
+  (`research/notes.md` §27)
+- Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
+  ZIO client keeps Jev as the outer Choice and the handler as the
+  effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard
+  schema-conditioned categorize, not a Noul.
 - Boundary-audit stop conditions for TOCTOU-of-Noul and vacuous specs;
   FAQ rows for Alloy vs Apalache and PufferLib-as-DST-trio
 - Research pointer to [dayhaysoos/jevals](https://github.com/dayhaysoos/jevals):
@@ -82,6 +96,12 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   Leveson org/safety, NATM/snap-fit/Norman/Kent/Shirky as general
   intuition. Domain gallery labeled Hypothesis except launch-week
   Empirical SWE rows.
+- Archer Hume architecture reconstruction (17 Sep 2026 essay, ~10k
+  probes of `jev-1.13.0`): direct readout vs generated confidence,
+  isolated questions, listwise IIA and order sensitivity, confidence as
+  arithmetic on the distribution. Independent envelope probe; does not
+  override live TypeSafe docs. Announced open-weight drop is **WATCH**.
+  `research/notes.md` §27; `judgment-class.md`; FAQ confidence question.
 
 ### Changed
 

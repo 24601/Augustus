@@ -160,7 +160,7 @@ not cheaper LLM". No verified independent benchmarks yet.
 - Modularity conclusion stands: full roster of small skills + cheap Jev rank-then-verify front door; frontmatter description IS the routing payload — write it for a 700-character excerpt and one-second judgment.
 
 ### Statistical discipline numbers
-- Calibration holds near-distribution (ECE 0.0313, Archer Hume) but collapses out of distribution: 32% accuracy + 0.30 mean top-prob on novel 2-step word problems → Jev flags uncertainty instead of reasoning through it. Rule: never use Jev where the judgment requires a derivation; decompose until each question is observational.
+- Calibration holds near-distribution (ECE 0.0313, Archer Hume) but collapses out of distribution: 32% accuracy + 0.30 mean top-prob on novel 2-step word problems → Jev flags uncertainty instead of reasoning through it. Rule: never use Jev where the judgment requires a derivation; decompose until each question is observational. Architecture reconstruction (readout, isolation, IIA, confidence-as-arithmetic): §27. Not a new contract.
 - Same Score ≠ same quality: [0,1,0] vs [0.5,0,0.5] both 1.0 (§1) — always read probabilities + confidence together.
 - Open-model reverse engineering (openjev, openjev-sglang, jevmlx, NanoJev, reflex): consensus that the pattern is prefill-once + read typed option logits directly, no generation. Consistent with parallel fan-out behavior; treat as hypothesis about the closed model.
 
@@ -832,8 +832,303 @@ independent, not TypeSafe): plain-English conventions → file-level Noul
 ≥ 0.8 findings. Built-ins: `magic-strings`, `descriptive-names`. Custom
 plugin = a yes/no question. **No** line-level diagnostics, generated
 names, or auto-fixes — the agent/CI owns when to run and how to fix.
-Sibling of `doeixd/jev-pref` (YOU define the rule / Jev classifies /
-code maps outcome). Pointer only; do not copy CLI/env into skill cards.
+  Sibling of `doeixd/jev-pref` (YOU define the rule / Jev classifies /
+  code maps outcome). Pointer only; do not copy CLI/env into skill cards.
+
+## 27. Archer Hume — architecture reconstruction (2026-09-17)
+
+[Jev's Architecture Unmasked](https://archerhume.com/posts/jevs-architecture-unmasked/)
+(17 Sep 2026, ~28 min; HTTP 200 this pass). Probe of `jev-1.13.0`, one
+early-access account, one region. Headline is ~10,000 API calls; the
+methods section itemizes probe, benchmark, and follow-up requests (shared
+benchmark items — not 10k independent problems). **Reconstruction, not a
+TypeSafe contract.** Live shapes and the ~32k/~64k envelope stay in §1
+and the docs. Labels are his: published by TypeSafe, observed in probes,
+inferred from them.
+
+1. **End with a readout, not AR text.** Published: probabilities in
+   parallel, not token-by-token generation. Observed: `output_tokens` is
+   a billing figure from the serialized response, not a decode trace (the
+   question id is not sent to the model, yet the count moves with it;
+   `0.0` costs the same as `0.01`; latency tracks input length). Inferred:
+   the head (slot softmax, reserved vocab rows, or a pointer). Reserved
+   label tokens remain possible.
+2. **Share state, isolate questions.** Observed: a secret in a sibling
+   question is invisible (0.00); the same text in state is visible
+   (~0.90–0.92). Accounting is additive; up to ~100 questions, server time
+   barely moves. Inferred, not measured: prefix KV plus causal suffixes.
+   Hydragen/DeFT are prior art he cites, not a library claim. The mask
+   itself is not exposed.
+3. **Causal backbone — inferred.** Probes cannot separate a causal decoder
+   from a bidirectional encoder. He assumes a pretrained causal decoder
+   (MMLU-Pro 84.6%; RLCD described as post-training) and says bidirectional
+   cannot be ruled out. Tokenizer is observed: none of 192 public
+   tokenizers matched; closest public agreement is Qwen (348/415), not an
+   exact match; o200k is close and ruled out by digit splitting. Closest
+   tokenizer is not an identified base model.
+4. **Options interact before the choice — behavior observed.** Appending
+   an irrelevant option moved log-odds of two existing options in all ten
+   blocks (~+0.38 → ~+0.11; mean change −0.28). That breaks IIA for fixed
+   independent logits plus a fixed softmax. Mechanism is not unique (a
+   set-dependent temperature can do it). Order sensitivity, separate
+   probe: reversing options moved a probability from roughly 0.84–0.89 to
+   0.93–0.96, so a threshold near 0.9 can change the act.
+5. **Train the distribution; confidence is arithmetic.** Published name:
+   RLCD. Which loss is unpublished — log or Brier is his proposed proper
+   scoring recipe, not a disclosed objective. Observed in the adapter he
+   cites (`confidence_metrics.py`, rev `fb52b103`): for K>1, Choice
+   confidence is `(p_max − 1/K) / (1 − 1/K)` — distance from uniform, not
+   a second learned correctness score. A peaked distribution can still be
+   wrong. MMLU ECE 0.0313 and the fresh-math collapse are already §7.
+   Properness is not a deployment guarantee.
+6. **Sparse MoE — inferred, not observed.** He expects sparse experts and
+   says a dense swap would leave the interface, shared state, isolation,
+   and readout unchanged. Nothing else depends on it.
+7. **Batch branches, not a conversation.** Observed: no dependency chain
+   between answers; duplicate questions in one request still differ, so
+   do not assume API determinism. That noise does not prove text sampling.
+   Inferred: suffixes packed against a shared prefix. A later question
+   that needs an earlier answer requires another stage. Code owns that
+   transition.
+
+Limits he re-measured — same envelope as §1, **independent probe, not a
+new contract**: ~32,768 tokens per branch; ~65,536 per request with state
+counted once; at most 255 options, request validation not a measured
+256-slot head; non-determinism across duplicates.
+
+**WATCH, not shipped.** Tweets, not the essay:
+[intent](https://x.com/4rcherhume/status/2100555442061820286) (17 Sep)
+and [status](https://x.com/4rcherhume/status/2100848840643612729)
+(18 Sep 07:26Z, ~65% done, "probably release tomorrow"): Qwen3.8 27b-based,
+265k context, multimodal, no audio. "Smarter than Jev" is his early
+claim. Weigh it against *his* order-sensitivity and calibration warnings
+above. The public Qwen3.8-27B checkpoint is a base model; this
+decision-model drop is not that checkpoint. Laya stays the text-only open
+head already on the card.
+
+Design card and the TypeAR comparison (constrained AR vs this readout;
+not a how-to): `judgment-class.md`. IIA / order as a property test:
+`formal-methods.md`, `validation.md`. Confidence question: `faq.md`.
+
+## 27. Adversarial review of the whole skill (2026-09-18) — review findings, not doctrine
+
+Hostile read of `SKILL.md` + all 16 reference cards + README / CHANGELOG /
+marketplace / `docs/ecosystem.md`, against the skill's own non-negotiables.
+**This section is a defect list, not a card.** Nothing here is a new
+mapping, a new pillar, or a new status label. Where a finding names a
+concrete defect, the fix landed in the skill and is noted inline; where
+the skill was already right, it is recorded as cleared so the next pass
+does not re-litigate it.
+
+### Defects found and fixed
+
+**S1 (high) — "every error path fails open" stated as a universal gate
+rule, in the one position where side effects live.**
+`composition-algebra.md` position 3 (Gate) carried the governing rule
+"every error path fails open", and its own example column is a
+*pre-action destructive gate* (destructive .90 / exfil .70).
+`agent-self-assessment.md` stated the same rule as a non-negotiable
+boundary. Read literally, a timeout on a destructive-action gate admits
+the destructive act. Every other card says the opposite: fail policy is
+**per action**, and dispatch / side-effect gates fail **closed**
+(`SKILL.md` protocol 6, `mixed-architecture.md` prefilter table,
+`judgment-class.md` composition rule, `applied-mappings.md` §4–§5,
+`methods-catalog.md` cascade row). `mappings.md` §18 already words the
+precondition correctly ("fail open unless a real sandbox/interlock sits
+underneath"). Fixed: both places now carry that precondition — advisory
+guards fail open *because* a hard interlock/sandbox is underneath;
+selection and authorization gates fail closed.
+
+**S2 (high) — dual-orchestration topology A said the decision model
+"plans" MCP calls.** `mixed-architecture.md` transcribed the James Ward
+topology (§26) as "Jev is a *tool* that selects / plans MCP calls" while
+the same file, 40 lines earlier, calls "the model chooses its next tool
+in a loop" a standing red flag — as do `mappings.md` §9,
+`mental-models.md`, and `boundary-audit.md`. The section's "Does not"
+line only forbade the narrower "planner that invents tools". Fixed:
+topology A selects from a closed catalog and code dispatches; the
+planner rejection is restated in place. "Jev builds the AST" stays
+Hypothesis.
+
+**S3 (medium-high) — the trolley result was labeled "Empirical
+recipe".** `judgment-class.md`'s own legend reserves that label for a
+named paper or repo; §26 records no public repo, only a tweet. Worse,
+the label invites reuse of what is a **rejection**. Fixed: relabeled an
+Empirical *rejection* (one tweet, no repo), content unchanged.
+`faq.md` and `methods-catalog.md` already had it right.
+
+**S4 (medium) — the skill's own advice violated its species map.**
+Three places (`SKILL.md` protocol 4, `judgment-class.md` portent 2,
+`applied-mappings.md` §5) offered "GLiClass tags **or GLiNER spans**" as
+the one-pass alternative when a label set or tool catalog outgrows Jev's
+255 options. Routing over a closed catalog is *categorize* / *decide*;
+nothing is located, and `judgment-class.md` itself says a GLiNER span is
+not a drop-in Noul. Fixed: GLiClass (categorize) is the substitute for
+large/changing label sets; GLiNER (locate) applies only where the answer
+*is* a span in the text.
+
+**S5 (medium) — the openjev-lm caveat was attached to the wrong
+number.** `judgment-class.md` and `faq.md` both read "92.9% on 70 gold …
+is not independent gold". Per §25 the 92.9% *is* measured against 70
+hand-labelled postings; the figure that is teacher-agreement rather than
+gold is the 98.1% on 106 fresh postings. The real limits are: training
+labels came from the hosted teacher, n=70, one annotator, one domain,
+one seed. A caution that misreads its own source is worse than none —
+a reader who checks stops trusting the label. Fixed in both cards.
+
+**S6 (medium) — one live API constructor leaked into a skill card.**
+`optimizer-integration.md` carried
+`typesafe({apiKey}).systemOne({state, questions})` — request shape plus a
+credential argument. `mixed-architecture.md`'s neighbor table says
+Augustus is not for "curl snippets, field names, SDK versions" and
+`boundary-audit.md` red-flags "SDK fields written from memory instead of
+live docs". Fixed: the call form is gone, the placement rule stays, and
+the card points at the framework's own docs and `typesafe-ai`.
+
+**S7 (medium) — `question-design.md` enumerated request-body field
+names.** The accepted `instructions` object keys are contract surface
+owned by `typesafe-ai` + live docs, and were listed from a dated
+snapshot with no re-read hedge (the envelope numbers likewise). The
+card's mechanics — one property per question, crisp conditions, the
+symptom→cause→fix table — are legitimately Augustus and stay. Fixed:
+the key enumeration is replaced by a pointer, and the dated
+contract surface is marked as a pin to re-read live.
+
+**S8 (medium) — `mappings.md`'s preamble overclaimed uniformity.** It
+read "Cards §6–§18 are **Hypothesis** until an acceptance test runs",
+which the cards' own bodies contradict: §8's ownership split is
+Contract, §9's example is Empirical (jev-mcts), §18's named shapes are
+Empirical. `SKILL.md`'s index was *more* precise than the file it points
+at. A blanket claim the body contradicts teaches the reader to skim the
+labels. Fixed: Hypothesis **as domain-general products**, with the
+exceptions named.
+
+**S9 (low-medium) — §17 quoted jevgate's ≤0.18 jitter without forbidding
+its reuse as a constant.** §18 explicitly forbids copying 0.2 and 1.74×;
+`composition-algebra.md` open positions already say a universal jitter
+bound is Hypothesis. Fixed: one clause in §17's "does not transfer".
+
+**S10 (low-medium) — four cards had no trigger term in the SKILL.md
+description.** `boundary-audit.md` (which protocol step 1 *requires* for
+any existing system, PR, or workflow), `question-design.md` (the
+diagnosis table — "my Noul sits at 0.5" matched nothing),
+`agent-self-assessment.md`, and `optimizer-integration.md`.
+`validation.md`'s own frontmatter rule says to name the jobs and warns
+that trigger-term gaps are the top routing failure. Fixed: one compact
+clause naming those four jobs.
+
+**S11 (low) — evidence label disagreement on the ownership split.**
+`toolbox-mapping.md` labeled proof-vs-judgment ownership **Empirical**;
+`mappings.md` §8, `methods-catalog.md`, and `formal-methods.md` call it
+Contract. Fixed to Contract.
+
+**S12 (low) — the done-check spent a Noul on a countable fact.**
+`agent-self-assessment.md` gate 3 asked one Noul for "'done' claimed
+after code changes with no test/build/lint result". Whether a
+test/build/lint result exists in the trace is structural; only the
+*claim* is semantic. Spending the model on the countable half is the
+"Jev on `/bin/ls` as the first tier" pattern §18 rejects. Fixed: the
+check is split — structure first, Noul on the remainder.
+
+### Cleared (checked, no change needed)
+
+- `GLiClass-adjacent` no longer appears in any skill card; it survives
+  only in §19 above, as provenance.
+- Resonate HQ is correctly identified as durable async execution (not the
+  unrelated "Resonate AI" brand) in all five places it appears, and
+  promise settlement is never delegated to a Noul.
+- Alloy model-finder vs Apalache modes vs TLC explicit-state are never
+  collapsed; the Apalache mode list is intact in both FM cards.
+- The 36× Browser Use figure is labeled a tweet everywhere it appears.
+- jevgate 0/59, doc-router 1.74×, and openjev-lm's numbers are never
+  offered as universal constants; §18 and `applied-mappings.md` §6
+  forbid copying them.
+- No `npx`, `AutoExtractor`, `TYPESAFE_API_KEY`, port, or install-command
+  leaks in any skill card (S6 was the only API-shape hit).
+- Domain-general mission holds: `mental-models.md` carries all five
+  domains with SWE rows marked Empirical and the rest Hypothesis;
+  SWE-scoped cards say so in their titles and in `SKILL.md`'s index.
+- Non-negotiables are stated in `SKILL.md` and repeated, not weakened, in
+  `mental-models.md`, `formal-methods.md`, `formal-semi-formal.md`, and
+  `methods-catalog.md`'s standing-rejections list.
+- CHANGELOG's "§6–§16" is historically accurate for the order 0.3.0 was
+  assembled in (§17–§18 arrived in the hourly fold, on the next line) —
+  not a stale cross-reference.
+
+### Standing risks (not defects; watch, do not fix by adding text)
+
+- `optimizer-integration.md` and `agent-self-assessment.md` remain the
+  most vendor-shaped cards in the skill. They earn their place as
+  placement cards; they are the first place to look if Augustus starts
+  drifting back into a how-to.
+- Card count is 16 and several cards now cross-reference four or more
+  others. The duplication guard ("do not duplicate doctrine") is holding
+  but is the thing most likely to break next.
+
+## 28. Effect-oriented loops + GLiNER2 "like jev" (2026-09-18)
+
+Two posts, both image-primary. `note_tweet` was requested and absent.
+HTTP 200: both X URLs, GLiGuard arXiv 2605.07982, `fastino-ai/GLiGuard`,
+`jamesward/zio-typesafe-ai` (README loop section matches the image).
+
+### Effect-oriented state-machine loops (James Ward)
+
+[@JamesWard](https://x.com/JamesWard/status/2100981305009664299)
+(2026-09-18T16:12Z): "Effect Oriented Jev-driven state-machine loops!"
+The image is titled "Jev-driven state-machine loops." Load-bearing
+sentence, same wording as the
+[client README](https://github.com/jamesward/zio-typesafe-ai):
+
+> An action handler may run arbitrary ZIO effects—MCP calls, database
+> operations, or a no-tool generative model call—while Jev remains the
+> outer decision loop.
+
+Architecture note in that repo, not a second claim: "Jev never generates
+an action; on every iteration the host generates the *entire* finite set
+of legal actions and Jev answers one `Question.Choice`."
+
+**Not Effect.ts.** "Effect Oriented" is Ward's name for effect systems
+(*Effect Oriented Programming*, Scala 3 / ZIO). The diagram is
+`TypeSafeAI.loop` in that ZIO client. Do not transcribe it as an
+Effect.ts snippet, and do not treat the client's combinator as the Jev
+HTTP contract or as an Augustus API. Identity lock holds: `typesafe-ai`
+owns integration contracts; this skill owns placement.
+
+**What transfers (Hypothesis, `mappings.md` §19):** §3 decision circuits
+with the effect made explicit. Soft Choice on the transition; code owns
+continue/done and the side effect. Extends §26 dual orchestration
+topology B (Jev outer loop; generator is a callee; MCP schemas are
+state). Unknown option id fails closed before the effect. **Does not:**
+Jev inventing tools; handler latency counted as model cost; 1–255 as a
+class law.
+
+### GLiNER2 multi-task classification (urchade, primary source)
+
+[@urchadeDS](https://x.com/urchadeDS/status/2100929613857804379)
+(2026-09-18T12:47Z), GLiNER author: "how does GLiNER2 performs multi-task
+classification (like jev)" — from their GLiGuard paper
+([arXiv:2605.07982](https://arxiv.org/abs/2605.07982)). The image is
+Figure 3. Load-bearing caption:
+
+> It jointly encodes a linearized task-label schema with the input text,
+> then scores each label via a shared MLP classifier to perform
+> multi-task safety classification in a single pass.
+
+Figure mechanics (not an API): linearized `[P]` task / `[L]` label
+schema, bidirectional encoder, shared MLP, **softmax** for single-label
+tasks and **sigmoid** for multi-label, all tasks in one pass. Paper:
+0.3B encoder adapted from GLiNER2; task and label blocks composed in
+the input schema. Code/models: `fastino-ai/GLiGuard`. Do not invent a
+GLiNER call shape.
+
+**Confirms the species map; does not move it.** "Like jev" names the
+*job* — multi-task classification in one forward pass — not a
+calibrated Choice / Score / Noul. That is **categorize** beside
+**decide**. Locate stays GLiNER spans. GLiNER2.5 local multi-head (§25)
+is a different checkpoint; do not collapse GLiGuard into it. 36×
+Browser Use stays a tweet/Hypothesis, not a re-run. Species map:
+categorize row, not a new species (`judgment-class.md`). Author-reported
+scale, the README aggregation rule, and the FAQ row: §29.
 
 
 

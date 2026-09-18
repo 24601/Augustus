@@ -7,12 +7,13 @@ listwise / vision) is `judgment-class.md`. Status words: **Contract**
 (documented), **Empirical recipe** (dated observation), **Hypothesis** (test
 before relying). Cross-domain frames: `mental-models.md`. Formal /
 semi-formal ownership: `formal-methods.md` / `formal-semi-formal.md`.
-Cards §6–§18 are **Hypothesis** until an acceptance test runs; do not
+Cards §6–§19 are **Hypothesis** until an acceptance test runs; do not
 promote them from analogy. Curriculum cards §10–§16 (spec pipeline,
 Alloy loop, RV sandwich, DST triage, durable agents, assignment hybrid,
 situated density) are the same rule. §17–§18 add paraphrase-stability
 and structural-prove ∩ remainder (jevgate / OCR-router *shapes* are
-Empirical; the cross-domain reading is Hypothesis).
+Empirical; the cross-domain reading is Hypothesis). §19 is the
+effect-oriented loop: soft Choice on the transition, host owns the effect.
 
 ## 1. Semantic judgments → features and explicit utility
 
@@ -514,3 +515,60 @@ reach the model; planted remainder cases *do*; removing the model must
 not admit anything the allowlist forbade. Domain examples stay
 **Hypothesis** until labeled. Links: `formal-methods.md` sensor≠constraint;
 `mental-models.md` §Leveson; composition-algebra gate after a constraint.
+
+## 19. Effect-oriented state-machine loops (Hypothesis)
+
+**Method**: decision circuits / FSMs (§3) inside an effect system.
+Soft predicate on the transition; **code owns the transition** and
+whatever effect it runs. Extends dual orchestration topology B
+(`mixed-architecture.md`): the decision model answers the edge; a
+generator, if any, is a callee; the host still executes.
+
+**Transfers**: each turn the host mints the finite set of actions legal
+in *this* state. One Choice asks which of these advances the state, or
+a Noul asks a fuzzy edge the rules cannot name ("does this look
+finished?"). The handler runs the effect (MCP, store, no-tool writing)
+and returns continue-with-new-state or done. Only a compact view and
+the option descriptions cross to the model; the action value stays
+typed in the host. Unknown ids fail closed before the effect. Exact
+edges (inventory, chronology, a hard iteration cap) never leave the
+host.
+
+**Does not transfer**: reading the tweet title "Effect Oriented" as the
+TypeScript Effect library, or as a tutorial in either system. The image
+is a ZIO loop in
+[jamesward/zio-typesafe-ai](https://github.com/jamesward/zio-typesafe-ai)
+(Ward's *Effect Oriented Programming* is Scala/ZIO). That client's
+combinator is not the Jev HTTP contract and not an Augustus API. The
+model does not invent the next state or the side effect. An id outside
+the offered set is a protocol violation, not a branch. A Noul or an
+encoder score is not a discharged invariant. Do not multiply edge
+predicates into a joint probability. Handler time and a generative
+callee's tokens are not model cost. The 1–255 option cap is Jev's, not
+the class's.
+
+```text
+options(state) → finite legal actions the host minted
+Choice / Noul  → which action, or is this fuzzy edge true?
+handler        → effect, then continue(next) | done
+unknown id     → fail closed; do not run the effect
+exact edge     → host only; the model is not called
+```
+
+**Example (illustration, not a recipe):** the posted counter, where
+"increment" continues and "finish" returns the state
+([James Ward, 2026-09-18](https://x.com/JamesWard/status/2100981305009664299)).
+Load-bearing sentence on the image: an action handler may run arbitrary
+ZIO effects — MCP calls, database operations, or a no-tool generative
+model call — while Jev remains the outer decision loop. **Beyond that
+client (Hypothesis):** clinic intake — Choice picks the next question,
+the chart write is the effect; hiring — advance / hold / stop is the
+Choice, the letter is written inside the handler; a kitchen — "is this
+step done?" is the predicate, the timer and the knife stay in the
+recipe. **Counterexample:** free-text "what state next?", or a
+generator emitting a tool name it might hallucinate. **Test:** a
+planted illegal action is never offered; a planted unknown id does not
+run; a deterministic edge never calls the model; a handler failure
+still leaves that turn's distribution in the log. Until that labeled
+trace exists, **Hypothesis**. Links: §3; `mixed-architecture.md` dual
+orchestration; `notes.md` §28.

@@ -178,6 +178,35 @@
   doc-router already in §25 (judge = 2.5% of OCR bill).
 - notes.md §26; no CLI/how-tos. Identity lock holds.
 
+## 2026-09-18 16:45 UTC — Hume architecture reconstruction
+- Fetched https://archerhume.com/posts/jevs-architecture-unmasked/ HTTP 200
+  (17 Sep 2026, ~28 min). Tweets HTTP 200:
+  https://x.com/4rcherhume/status/2100555442061820286 and
+  https://x.com/4rcherhume/status/2100848840643612729 (text via X API).
+- Recorded as reconstruction from ~10k probes of jev-1.13.0, labeled
+  published / observed / inferred. Not a TypeSafe contract. Envelope
+  (~32k branch, ~65k request, 255 options) cited as an independent probe
+  of the existing notes, not an override.
+- Skill: short compute-graph card in judgment-class.md (three holes;
+  TypeAR comparison sentence only, no how-to); calibration paragraph in
+  mental-models.md; one FAQ; one formal-methods PBT paragraph; one
+  validation.md IIA clause. No SGLang snippets, no new script.
+- Open-weight drop status: WATCH (tweet: ~65% done). "Smarter than Jev"
+  weighed against his own order-sensitivity and calibration warnings.
+- notes.md §27; sources.json; findings.md batch #15.
+
+## 2026-09-18 16:45 UTC — effect-oriented loops + GLiNER author
+
+- James Ward image post: "Effect Oriented" is ZIO (his effect-oriented
+  client), not Effect.ts. Load-bearing: handler runs ZIO effects while
+  Jev stays the outer decision loop. Hypothesis `mappings.md` §19;
+  extends dual orchestration. No client signature in SKILL.md.
+- urchade (GLiNER author): GLiNER2 multi-task classification "like jev"
+  is GLiGuard Figure 3 — schema-conditioned softmax/sigmoid, one pass.
+  Confirms categorize beside decide. 36× still a tweet.
+- notes.md §28. HTTP 200 on both posts, arXiv, both GitHub URLs.
+  `note_tweet` absent on both.
+
 
 
 
