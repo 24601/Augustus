@@ -1,9 +1,9 @@
 ---
 name: augustus
-description: "Augustus designs judgment-assisted systems with TypeSafe Jev System One models, mapping Choice, Score, and Noul primitives to decision circuits, search, reranking, and cost-aware routing. Use when deciding where semantic judgment belongs in software, decomposing a task into typed Jev questions, or evaluating agent outputs with Jev."
+description: "Augustus designs judgment-assisted systems with TypeSafe Jev System One models, mapping Choice, Score, and Noul primitives to decision circuits, search, reranking, and cost-aware routing. Use when deciding where semantic judgment belongs in software; auditing existing code for brittle parsers, prompt-to-JSON classifiers, or unbounded agent loops that are really bounded judgments; decomposing a task into typed Jev questions; or evaluating agent outputs with Jev."
 license: MIT
 metadata:
-  version: 0.1.0
+  version: 0.2.0
   typesafe_skill: v0.5.7
   typesafe_skill_commit: 65a39f3
   tribute: "Named for Augustus De Morgan (1806-1871), mentor of William Stanley Jevons."
@@ -27,19 +27,29 @@ classical method you already trust, substitute it, classify the win
 
 ## Protocol
 
-1. Start from the desired behavior: what the software shows, selects,
+1. If the request is an existing system, PR, or running workflow: run the
+   boundary audit (`references/boundary-audit.md`) before inventing mappings.
+   Classify each step as exact / bounded judgment / generation; recommend
+   the smallest insertion, not a redesign. Greenfield: start at step 2.
+2. Start from the desired behavior: what the software shows, selects,
    changes, or hands off. Work backward to the judgments it needs.
-2. Keep exact work in code: arithmetic, counting, dates, lookups,
-   authorization, safety interlocks, control flow, side effects.
-3. Give Jev one narrow judgment per question (a knowledgeable person could
+3. Keep exact work in code: arithmetic, counting, dates, lookups,
+   authorization, safety interlocks, control flow, side effects. Keep
+   open-ended writing, explanation, and code generation on a generative
+   model; Jev may gate, route, or verify around that call.
+4. Give Jev one narrow judgment per question (a knowledgeable person could
    answer in a second given the state). Split multi-factor judgments; fuse
    in code with visible weights.
-4. Batch independent questions (including speculative ones) in one request.
+5. Batch independent questions (including speculative ones) in one request.
    Sequence a second request only when its state or options depend on an
    earlier answer.
-5. Route on uncertainty with per-action thresholds tuned on your own data.
-6. Ship a decision-design card (below) and the smallest falsifying
+6. Route on uncertainty with per-action thresholds tuned on your own data.
+   The same judgment can authorize a reversible path and must not authorize
+   an irreversible one.
+7. Ship a decision-design card (below) and the smallest falsifying
    experiment. Record model, rubric, candidate-source, and policy versions.
+   Keep questions, criteria, and thresholds in one reviewable module; store
+   raw judgments separately from derived actions.
 
 ## Mapping index
 
@@ -57,6 +67,7 @@ classical method you already trust, substitute it, classify the win
 | (meta) Where Jev sits relative to any construct | 11 positions + logical-operator rules + position×construct traversal as the application generator | `references/composition-algebra.md` |
 | Question mechanics & debugging | Instruction/criteria/state shape, budgets, diagnosis table, revision discipline | `references/question-design.md` |
 | Heuristic search over a taxonomy | Parallel beam over Choice distributions | `references/mappings.md#5-hierarchy--bounded-heuristic-search` |
+| Existing-system insertion / code-smell audit | Opportunity map, fit test, smallest boundary, policy centralization | `references/boundary-audit.md` |
 
 Each card carries its boundary, counterexample, and acceptance test, plus
 explicit rejections beside the mapping they tempt (MCTS-as-value-function:

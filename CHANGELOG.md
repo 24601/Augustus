@@ -9,6 +9,22 @@ revision it was written against. That skill owns integration contracts;
 Augustus owns design judgment. Re-read live TypeSafe docs before treating a
 pin as current API behavior.
 
+## [0.2.0] - 2026-09-18
+
+Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skills/tree/v0.5.7)
+(`65a39f3`, 2026-09-12).
+
+### Added
+
+- Boundary-audit card for existing systems: three-way split (exact /
+  bounded judgment / generation), code-smell catalog, fit test, opportunity
+  map, smallest-viable-boundary rule, Jev-around-LLM sandwich, centralized
+  policy + raw-judgment retention, red flags, completion questions
+- Protocol branch: audit a codebase/PR before inventing mappings; per-action
+  risk gates; keep questions/thresholds in one reviewable module
+- Skill description trigger terms for brittle parsers, prompt-to-JSON
+  classifiers, and agent loops that are really bounded decisions
+
 ## [0.1.0] - 2026-09-18
 
 Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skills/tree/v0.5.7)

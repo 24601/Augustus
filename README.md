@@ -25,6 +25,8 @@ Score, Noul) that software can act on directly.
 - `.agents/skills/augustus/references/validation.md` — design gate, eval
   recipes, Jev-for-skills (routing, self-monitoring, testing, modularity,
   frontmatter)
+- `.agents/skills/augustus/references/boundary-audit.md` — existing-system
+  insertion: fit test, opportunity map, smallest boundary, red flags
 - `.agents/skills/augustus/scripts/evaluate_decisions.py` — offline evaluator
   for selective binary decisions (Brier, reliability, threshold/cost sweep)
 
@@ -47,7 +49,7 @@ npx skills add 24601/Augustus --skill augustus
 ```
 
 **ChatGPT**: skills are not a native ChatGPT primitive — paste
-`.agents/skills/augustus/SKILL.md` plus the two `references/` files into a
+`.agents/skills/augustus/SKILL.md` plus the `references/` files into a
 GPT's instructions or a Project's knowledge and it will follow the protocol.
 
 **Amp**: repo-local `.agents/skills/` are discovered automatically.
@@ -62,7 +64,7 @@ GPT's instructions or a Project's knowledge and it will follow the protocol.
 ## Versioning
 
 See [CHANGELOG.md](CHANGELOG.md) and
-[releases](https://github.com/24601/Augustus/releases). Current: **0.1.0**,
+[releases](https://github.com/24601/Augustus/releases). Current: **0.2.0**,
 written against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skills/tree/v0.5.7)
 (`65a39f3`). Re-read live TypeSafe docs before treating that pin as current
 API behavior.
