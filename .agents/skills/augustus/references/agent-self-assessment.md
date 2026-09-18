@@ -30,7 +30,11 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    `tests_sufficient`, `worker_stuck`, `work_off_track`,
    `ready_to_finish`; deterministic policy with hysteresis (retry counts,
    verification history) gates continue/stop/retry/verify. The model never
-   commands; it estimates named probabilities.
+   commands; it estimates named probabilities. Same split as
+   [jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab):
+   **S1 keeps control**; optional S2 is one-use advice on low confidence
+   and does not fly the drone (`notes.md` §46). Experimental viz, not a
+   production supervisor.
 6. **Context economy**: the context-sieve card
    (`references/applied-mappings.md#1-context-sieve`). Judge every large
    tool result with one relevance Noul before it enters context. Hide

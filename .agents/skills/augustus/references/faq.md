@@ -61,7 +61,7 @@ No. Augustus designs for the whole class of fast/cheap
 categorization-classification-scoring models. TypeSafe Jev is the
 documented exemplar (typed Choice / Score / Noul, live docs). Neighbors
 in the class — open System-1 / decision-model heads (Laya, kev,
-openjev-lm, encoder DeBERTa, LoRA distill; Hume's 27B drop is Watch),
+blackwood-rlcd, openjev-lm, encoder DeBERTa, LoRA distill; Hume's 27B drop is Watch),
 constrained-AR (TypeAR), GLiNER/GLiClass encoder family (locate vs
 categorize vs local multi-head), listwise/pairwise rankers, vision
 scorers — are substitutes
@@ -98,10 +98,11 @@ Five surfaces, not one family (`judgment-class.md` when-to-use table).
 Three *open* paths sit beside proprietary Jev: **encoder** open-jev
 (DeBERTa, public gold), **AR constrained decode** (TypeAR; native
 [pcdServer](https://github.com/stephanj/pcdServer) GGUF serving),
-**trained decision-only** (Laya / Nimble / **kev** / Archer Watch). Proprietary Jev is the documented decision API; you do not hold the
+**trained decision-only** (Laya / Nimble / **kev** / **blackwood-rlcd** /
+Archer Watch). Proprietary Jev is the documented decision API; you do not hold the
 weights, so checks around the boundary stay black-box
 (`formal-methods.md`). A trained decision-only open head (Laya, kev,
-openjev-lm, encoder DeBERTa, a LoRA student) copies the Choice / Score /
+openjev-lm, encoder DeBERTa, a LoRA student, **blackwood-rlcd**) copies the Choice / Score /
 Noul *shape* and moves eval onto you. Distills trained on Jev's
 *answers* (openjev-lm, jev-gate-student-b) are teacher-copies — read
 agreement separately from gold. **kev** is not that distill: CE on
@@ -119,7 +120,11 @@ brittleness; compose with abstention and an allowlist gate
 (`mappings.md` §2, §17, §18). Hume's announced open **decision-model**
 (27B dense, multimodal, AU healthcare residency — not anti-TypeSafe)
 is **WATCH** until weights, license, and evals exist (`notes.md` §31,
-§33). Constrained decoding is §32; native serving is §42. Public logit dump for the
+§33). Open multimodal *decide* that already shipped:
+[blackwood-rlcd](https://huggingface.co/BlackwoodAI/blackwood-rlcd)
+(CC BY-NC; not that drop; `notes.md` §46). Constrained decoding is §32; native serving is §42. Decision-token QLoRA on that graph:
+[Foodoo1/Qwen3-14B-RLCD-Decision-LoRA](https://huggingface.co/Foodoo1/Qwen3-14B-RLCD-Decision-LoRA)
+(train the decision token, not prose; synthetic fraud receipt). Public logit dump for the
 read-the-letter graph: mini-jev-runs. "Smarter than Jev" is a claim.
 He prefers "decision models" over "system one"; this skill still quotes
 TypeSafe's name for the exemplar. Before you pick any of those paths,
@@ -146,7 +151,8 @@ Hole first, logo last. These are **species**, not aliases
   independent gold. Encoder open-jev (DeBERTa) is the same *shape* on
   public gold — still self-eval, especially OOD. **kev** is the
   causal-decoder + pointer productization of Archer's reconstruction on
-  public gold (API-compatible; not a teacher-copy). Hume's 27B drop is
+  public gold (API-compatible; not a teacher-copy). **blackwood-rlcd** is
+  the open multimodal decide head (CC BY-NC; not Archer Watch). Hume's 27B drop is
   Watch. When-to-use axes: `judgment-class.md`.
 - **Cross-encoder / listwise ranker:** order of a retrieved shortlist.
   Fail **open** (keep retrieval order). Translation-invariant listwise
@@ -270,7 +276,10 @@ When you need a paragraph rationale, a trace UI, or an annotation
 workflow, generation and the eval platform still own those seats.
 Verbal LLM scores are uncalibrated. The Harbor/jevals-adjacent
 practice is: shadow mode + fixtures that assert on the **action**,
-not on prose (`jev-harness`, `validation.md`; `notes.md` §44). Do not
+not on prose (`jev-harness`, `validation.md`; `notes.md` §44). Shared
+bake-off this hour scores **ECE / NLL / Brier**, not an LLM paragraph
+([open-jev-laya-bench](https://huggingface.co/datasets/pngwn/open-jev-laya-bench);
+`notes.md` §46). Do not
 thin this skill into a Langfuse how-to. Mixed architecture: traces stay; the judge step can
 be a System One model.
 
@@ -284,7 +293,22 @@ first so a comment can talk it into a write is the rejected design.
 The same three-way test, one hour later: if a regex, a DNS lookup, or a
 database query already answers, **do not call a model**
 (`wotai-dev/typesafe-jev-tools`, `notes.md` §42). That is meta-VOI, not
-a hook tutorial.
+a hook tutorial. This hour's wording of the same sandwich: the allowlist
+**proves** read-only verbs; Jev judges only unlisted leftovers;
+fail-open (cannot block) (`notes.md` §46).
+
+## Can confidence gating catch a forced wrong Choice?
+
+No. Choice probabilities are conditional on the offered set. If coverage
+is open and you omit `other`, the model must pick a listed option — and
+the distribution can peak at **1.00 on the wrong label**. Downstream
+confidence gates see a healthy answer. Lint the *request* (missing
+escape hatch, broken state paths) before you trust the number. Recipe:
+[wellposed](https://github.com/suraj-phanindra/wellposed) (unsubscribe
+email → `"support issue"` at 1.00 without `other`; overlapping options
+collapse to 0.19 — that failure is loud). `tenbin` still owns the
+design-time lint *skill*; Augustus owns the placement.
+`question-design.md`; `notes.md` §46.
 
 ## Should Jev live inside the database?
 
@@ -312,6 +336,18 @@ confident (+12% geomean author-reported; join-order Choice alone was
 2× slower). routeKit / jev-claw / Higgsfield: classify requirements;
 code picks the generator. The envelope is load-bearing
 (`mappings.md` §12, §15, §18).
+
+## Wait for Archer to ship omni System One?
+
+No. Archer's 27B dense drop is still **Watch** (no Hub weights this
+pass; user watch ~2026-09-19). Omni perception→decision already has an
+open model: [`BlackwoodAI/blackwood-rlcd`](https://huggingface.co/BlackwoodAI/blackwood-rlcd)
+(CC BY-NC; Jev-compatible shim; screenshot + marked candidates →
+Choice). Soft judgment over pixel candidates inside deterministic
+code. Jev still leads general *text* (0.850 vs 0.786 on their 8,456-item
+table). Specialist composition (SAM / OCR → text → Jev) remains valid.
+Do not wait, and do not treat screenshot-vs-Jev-text as the same input.
+`judgment-class.md`; `notes.md` §46.
 
 ## Is confidence a trained score?
 

@@ -1,6 +1,6 @@
 ---
 name: augustus
-description: "Use when placing typed probabilistic judgment (Jev-class System One / decision models) with mathematical, logical, or algorithmic mental models — in AI, software, business, knowledge work, or life, not only SWE; deciding where a fast cheap categorization/classification/scoring model belongs versus generation, exact policy/code, or proof; applying expected utility, selective classification/abstention, calibration, cost-sensitive thresholds, value of information, MCDA, signal detection, search/control substitutions, or Leveson-style org/safety; using NATM/snap-fit/Norman as design intuition; designing mixed architecture (decision model + LLM writing); auditing an existing system, PR, workflow, or non-software practice for judgment-shaped holes and code smells; debugging a question that hovers near 0.5, clusters mid-scale, or hides two judgments; placing agent self-supervision gates (pre-action, output judge, done-check, stuck-detector, context sieve); coupling a typed judge as an optimizer metric (Ax, DSPy); choosing among TypeSafe Jev, open heads (Laya, kev, openjev-lm, Nimble, encoder DeBERTa, LoRA distill), announced open decision-model (Watch), constrained-AR (TypeAR, pcdServer), diffusion structured reads, GLiNER/GLiClass/GLiGuard encoder family (locate vs categorize vs safety-schema classify vs local multi-head), listwise rankers, or vision scorers; placing judgment beside TLA+/Alloy/Apalache/Dafny/DST (Antithesis, Resonate, PufferLib) without laundering a Noul as a proof; answering \"it's just classification\", \"is Jev probabilistic programming\" (marginals vs joint, not a PPL), \"low/medium/high entropy\" (allocator, not a meter), \"perception specialist then judgment vs shared multimodal System One\", \"eval path\", \"jevals\", \"Harbor taskset\", \"pipeline / measure / hill-climb perception into a decision\", \"Ax vs DSPy\", \"held-out\", \"correctness is not confidence\", \"is this only for software?\", Alloy vs Apalache, GLiNER vs Jev, \"is GLiGuard Jev?\", LLM-as-judge, paraphrase brittleness, allowlist then judge, TOCTOU-of-Noul, vacuous specs, open weights vs constrained decoding vs encoder vs LoRA vs kev, whether a decision needs a model at all (meta-VOI), env-break vs policy-break, sqlite-jev / in-engine vs CLI store index, hard safety envelope (Jev proposes, code clamps), host-adapter routing (not MCP), distill-to-device memory gate, or \"formally verify with Jev\" with a placement, not a stack replacement or a vendor how-to. Formal methods are one pillar. Not a substitute for the official typesafe-ai skill (live Jev API contracts)."
+description: "Use when placing typed probabilistic judgment (Jev-class System One / decision models) with mathematical, logical, or algorithmic mental models — in AI, software, business, knowledge work, or life, not only SWE; deciding where a fast cheap categorization/classification/scoring model belongs versus generation, exact policy/code, or proof; applying expected utility, selective classification/abstention, calibration, cost-sensitive thresholds, value of information, MCDA, signal detection, search/control substitutions, or Leveson-style org/safety; using NATM/snap-fit/Norman as design intuition; designing mixed architecture (decision model + LLM writing); auditing an existing system, PR, workflow, or non-software practice for judgment-shaped holes and code smells; debugging a question that hovers near 0.5, clusters mid-scale, or hides two judgments; placing agent self-supervision gates (pre-action, output judge, done-check, stuck-detector, context sieve); coupling a typed judge as an optimizer metric (Ax, DSPy); choosing among TypeSafe Jev, open heads (Laya, kev, openjev-lm, Nimble, encoder DeBERTa, LoRA distill, open multimodal RLCD / blackwood), announced open decision-model (Watch — still not landed), constrained-AR (TypeAR, pcdServer, decision-token LoRA), diffusion structured reads, GLiNER/GLiClass/GLiGuard encoder family (locate vs categorize vs safety-schema classify vs local multi-head), listwise rankers, or vision scorers; placing judgment beside TLA+/Alloy/Apalache/Dafny/DST (Antithesis, Resonate, PufferLib) without laundering a Noul as a proof; answering \"it's just classification\", \"is Jev probabilistic programming\" (marginals vs joint, not a PPL), \"low/medium/high entropy\" (allocator, not a meter), \"perception specialist then judgment vs shared multimodal System One\", \"wait for Archer vs open multimodal RLCD\", \"screenshot/DOM candidates → typed Choice\", \"eval path\", \"jevals\", \"Harbor taskset\", \"shared bake-off ECE/NLL/Brier\", \"LLM-as-judge is not the System One score\", \"pipeline / measure / hill-climb perception into a decision\", \"Ax vs DSPy\", \"held-out\", \"correctness is not confidence\", \"is this only for software?\", Alloy vs Apalache, GLiNER vs Jev, \"is GLiGuard Jev?\", LLM-as-judge, paraphrase brittleness, allowlist then judge (allowlist *proves*; fail-open cannot block), \"missing other → confident wrong Choice\", \"lint the Jev request\", \"S1 reflex keeps control / optional S2 one-use advice\", TOCTOU-of-Noul, vacuous specs, open weights vs constrained decoding vs encoder vs LoRA vs kev, whether a decision needs a model at all (meta-VOI), env-break vs policy-break, sqlite-jev / in-engine vs CLI store index, hard safety envelope (Jev proposes, code clamps), host-adapter routing (not MCP), distill-to-device memory gate, or \"formally verify with Jev\" with a placement, not a stack replacement or a vendor how-to. Formal methods are one pillar. Not a substitute for the official typesafe-ai skill (live Jev API contracts)."
 license: MIT
 metadata:
   version: 0.3.0
@@ -24,7 +24,7 @@ the official `typesafe-ai` skill plus the live docs own Jev integration
 contracts — read them before writing Jev API code. Neighbor skills
 `tenbin` (lint/measure) and `decision-first` (try-Jev-first habit) own
 their jobs. Do not collapse into a TypeSafe how-to, a Laya install, a kev
-serve, or a GLiClass or GLiNER tutorial.
+serve, a blackwood vLLM how-to, or a GLiClass or GLiNER tutorial.
 
 Pick the **pillar** from the hole (expected utility, VOI, MCDA, signal
 detection, search/control, org/safety, formal methods), then the
@@ -52,8 +52,9 @@ classical method you already trust, substitute it, classify the win
    software?", "formally verify with Jev / replace TLA+ / Dafny /
    DST", "Alloy vs Apalache", "GLiNER vs Jev", "LLM-as-judge",
    "paraphrase brittleness", "allowlist then judge", "TOCTOU-of-Noul",
-   "Jev inside the database / sqlite-jev", or "Jev picks bitrate / join
-   order / the model":
+   "Jev inside the database / sqlite-jev", "Jev picks bitrate / join
+   order / the model", "wait for Archer", "lint the request / missing
+   other", or "screenshot Choice / omni System One":
    read `references/faq.md`,
    then `references/mental-models.md`, then
    `references/mixed-architecture.md`, then
@@ -114,7 +115,7 @@ classical method you already trust, substitute it, classify the win
 |---|---|---|
 | Mental models across domains (not SWE-only) | EU, abstention, VOI, MCDA, SDT, search/control, Leveson, NATM/Norman/snap-fit | `references/mental-models.md` |
 | Judgment-model class (Jev is exemplar, not monopoly) | Species: decide / locate (GLiNER) / categorize (GLiClass) / rank / perceive; open heads include encoder DeBERTa, LoRA distill, openjev-lm, kev | `references/judgment-class.md` |
-| Open weights vs constrained decoding vs proprietary API | Three open paths: encoder open-jev / AR constrained decode (TypeAR + pcdServer) / trained decision-only (Laya, Nimble, kev, Archer Watch). Softmax over allowed tokens ≠ Noul | `references/judgment-class.md` (when-to-use table) |
+| Open weights vs constrained decoding vs proprietary API | Three open paths: encoder open-jev / AR constrained decode (TypeAR + pcdServer; decision-token LoRA) / trained decision-only (Laya, Nimble, kev, **blackwood-rlcd** multimodal now, Archer Watch still Watch). Softmax over allowed tokens ≠ Noul | `references/judgment-class.md` (when-to-use table) |
 | Entropy as allocator (low / medium / high) | Typed low+medium decisions → System One marginals; high-entropy synthesis → frontier decoder. Product rhetoric, not a meter. **Hypothesis** | `references/judgment-class.md` |
 | Formal / semi-formal (proof vs judgment) | Sensor vs constraint vs searchlight; Alloy vs Apalache; DST trio; TOCTOU-of-Noul, AI×FM | `references/formal-methods.md` (one-screen: `references/formal-semi-formal.md`) |
 | Mixed architecture (judgment model + LLM) | Provider judges, LLM writes, code owns control; not a stack replacement | `references/mixed-architecture.md` |
@@ -145,16 +146,16 @@ classical method you already trust, substitute it, classify the win
 | Assignment hybrid | Soft affinity + hard solver | `references/mappings.md#15-assignment-hybrid--soft-affinity--hard-solver-hypothesis` (**Hypothesis**) |
 | Situated density (Shirky) | Aggressive soft loops only inside a named community | `references/mappings.md#16-situated-density-shirky-hypothesis` (**Hypothesis**) |
 | Input brittleness / paraphrase stability | Synonymous wording that swings p → abstain or rewrite | `references/mappings.md#17-input-brittleness--sensitivity-calibration-selective-abstention-hypothesis` (**Hypothesis**) |
-| Structural prove ∩ soft remainder | Allowlist/text-layer/law first; judge only leftovers | `references/mappings.md#18-structural-prove--soft-remainder-hypothesis-as-domain-general-empirical-as-named-shapes` (**Hypothesis**; jevgate/OCR shapes Empirical) |
+| Structural prove ∩ soft remainder | Allowlist *proves* the easy verbs; judge only unlisted leftovers; fail-open (cannot block) | `references/mappings.md#18-structural-prove--soft-remainder-hypothesis-as-domain-general-empirical-as-named-shapes` (**Hypothesis**; jevgate/OCR shapes Empirical) |
 | Effect-oriented state-machine loops | Soft predicates on transitions; code owns the transition | `references/mappings.md#19-effect-oriented-state-machine-loops-hypothesis` (**Hypothesis**; ZIO client, not Effect.ts) |
-| Agent self-supervision / on-track detection | Pre-gate → output judge → done-check → supervisor nouls | `references/agent-self-assessment.md` |
+| Agent self-supervision / on-track detection | Pre-gate → output judge → done-check → supervisor nouls. S1 reflex keeps control; optional S2 is one-use advice | `references/agent-self-assessment.md` |
 | Optimizer/program frameworks (Ax, DSPy) | Typed fields → one provider request; judge metrics; threshold discipline. Ax and DSPy climb LM-program knobs only | `references/optimizer-integration.md` |
-| Perception → decision pipeline / measure / hill-climb | Stages with a versioned state contract; frozen taskset; DSPy/Ax only on the LM-program slice. **Hypothesis**. Same section as the row below | `references/validation.md#eval--hill-climb` |
-| Eval & hill-climb | Decision-stage jevals hygiene; Harbor taskset × harness × runtime; one score-composition table | `references/validation.md#eval--hill-climb` |
+| Perception → decision pipeline / measure / hill-climb | Stages with a versioned state contract; frozen taskset; DSPy/Ax only on the LM-program slice. Specialist composition stays **Hypothesis**; open multimodal decide (blackwood-rlcd) is a named receipt. Same section as the row below | `references/validation.md#eval--hill-climb` |
+| Eval & hill-climb | Decision-stage jevals hygiene; Harbor taskset × harness × runtime; one score-composition table. Shared bake-off exemplar: open-jev-laya-bench (ECE/NLL/Brier; LLM-as-judge is not the score) | `references/validation.md#eval--hill-climb` |
 | (meta) Finding new mappings & applications | Toolbox sweep: judgment-shaped component of a known method, substituted + falsified | `references/toolbox-mapping.md` |
 | Named methods / operators / theorems | Substitution tiers: operand-judgments, preconditioned theorems, non-substitutable | `references/methods-catalog.md` |
 | (meta) Where a judgment model sits relative to any construct | 11 positions + logical-operator rules + position×construct traversal as the application generator | `references/composition-algebra.md` |
-| Question mechanics & debugging | Instruction/criteria/state shape, budgets, diagnosis table, revision discipline | `references/question-design.md` |
+| Question mechanics & debugging | Instruction/criteria/state shape, budgets, diagnosis table, revision discipline. Missing `other` → confident wrong Choice (confidence gating cannot catch); lint the request (`wellposed` recipe; `tenbin` owns the skill) | `references/question-design.md` |
 | Heuristic search over a taxonomy | Parallel beam over Choice distributions | `references/mappings.md#5-hierarchy--bounded-heuristic-search` |
 | Existing-system insertion / code-smell audit | Opportunity map, fit test, smallest boundary, policy centralization | `references/boundary-audit.md` |
 
@@ -206,7 +207,7 @@ Desired behavior and non-judgment baseline:
 Semantic judgment(s) and what each output means:
 Pillar (EU / VOI / MCDA / SDT / search / safety / formal):
 Hole (sieve / keep-drop / triage / rank / route / gate / perceive / abstain / gather):
-Family (closed decision API / open head / encoder open-jev / constrained-AR surface / GLiNER locate / GLiClass categorize / listwise ranker / vision scorer):
+Family (closed decision API / open head / open multimodal RLCD / encoder open-jev / constrained-AR surface / GLiNER locate / GLiClass categorize / listwise ranker / vision scorer):
 Evidence/candidate source and known coverage gaps:
 Deterministic policy, constraints, and action ownership:
 Batchable vs genuinely dependent steps:

@@ -31,7 +31,10 @@ If the request is "how do I call Jev?", stop and load `typesafe-ai`. If it
 is "should this step be a judgment-class model, an LLM, a regex, or a
 trained classifier — and which family?", stay here. Family table:
 `judgment-class.md`. Cross-domain frames: `mental-models.md`. Proof vs
-judgment: `formal-methods.md`.
+judgment: `formal-methods.md`. [wellposed](https://github.com/suraj-phanindra/wellposed)
+is an Empirical *recipe* of tenbin's lint hole (missing `other` →
+confidence 1.00 wrong); it is not a second Augustus skill
+(`notes.md` §46).
 
 ## Default architecture
 
@@ -261,6 +264,16 @@ treating a workflow AST as a proof. The outer loop stays with the LLM or
 with code. **Hypothesis** as "Jev builds the AST"; **Empirical** as named
 topologies. Not an MCP how-to.
 
+**S1 keeps control; S2 is one-use advice.** Topology B under latency:
+the reflex (typed Choice over legal actions) never hands the stick to
+the planner. Optional System 2 is *advice* on low confidence, one-use,
+asynchronous — the reflex does not pause
+([jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab);
+experimental drone viz, not a flight controller; GitHub license null
+this pass). Same Kahneman split as the toolbox row (S2 proposes, S1
+discriminates; never the reverse). `notes.md` §46.
+`agent-self-assessment.md`.
+
 **Effect-oriented loop (same author, later post).** Topology B inside
 an effect system
 ([tweet](https://x.com/JamesWard/status/2100981305009664299)): the host
@@ -352,7 +365,12 @@ decision-design card. Do not clone APIs from READMEs.
 | Finish-line gate | Noul/Score/Choice on evidence | Deterministic shell checks first | hermes-jev-north-star |
 | Home automation read | Choice/Score/Noul as an entity | Automations, device I/O | `AboveColin/HA-Jev` |
 | Browser loop without generation | Action Choice over visible elements | Perception, constraints, click | lizard-agent |
+| Screenshot / DOM candidates → Choice | Omni decide over letters code marked | Click/act in code; fail-open to specialist OCR | blackwood-rlcd (CC BY-NC; not Archer) |
 | Android / macOS computer-use | Choice over prevalidated candidates | UI tree / AX / OmniParser; no generated coordinates | jev-mobile, jev-macos-loop |
+| S1 reflex + optional S2 advice | Typed action Choice; planner one-use on low p | Collision, legality, the stick stays with S1 | jev-reflex-autonomy-lab (experimental) |
+| Decision-as-business-tool | Named judgment; gate is part of the result | Registry, arithmetic, hard guards | jev-decision-layer (unofficial) |
+| NL cases → checked e2e | Jev selects observed controls | Playwright expectations; PASS/FAIL/BLOCKED | jev-e2e (alpha) |
+| Dataframe semantic index | Noul / Choice / Score per row | pandas, thresholds, never invent negatives | jevpandas |
 | Model router | Requirement Scores; policy in code | Eligibility, cost/quality/latency objective | routeKit |
 | Bulk-judgment coprocessor | Choice/Noul off the frontier context | Counts, policy, fail-open gate | jev-mode |
 | Closed-catalog System One shell | Choice over host tools | Execute, arithmetic, credentials | jot |
@@ -373,14 +391,17 @@ Reproduce/open heads (`rongxinzy/LightJev`, openjev family,
 encoder [`open-jev-deberta-v3-large`](https://huggingface.co/com-kotobalabs/open-jev-deberta-v3-large),
 LoRA [`jev-gate-student-b`](https://huggingface.co/SargeDev/jev-gate-student-b),
 companion packaging [`laya-typed-decisions`](https://huggingface.co/convaiinnovations/laya-typed-decisions),
-[`jaredpalmer/kev`](https://github.com/jaredpalmer/kev))
+[`jaredpalmer/kev`](https://github.com/jaredpalmer/kev),
+[`BlackwoodAI/blackwood-rlcd`](https://huggingface.co/BlackwoodAI/blackwood-rlcd))
 are evidence that the *interface* (Choice/Score/Noul, or yes/no logits
 as P(relevant)) is the transferable part — not a request to implement a
 backbone or a second API skill. Laya: self-hostable, text-only, 512
 tokens/question; vendor benches vs Jev are **claims**. Encoder open-jev:
 public gold, OOD drop. LoRA student: teacher-copy. **kev**: public gold,
 pointer readout, System One API drop-in; ID ECE only; not a teacher-copy
-(`notes.md` §45). Hume's 27B
+(`notes.md` §45). **blackwood-rlcd**: open multimodal RLCD, Jev-compatible
+shim, CC BY-NC; Jev still leads general text; not Archer Watch
+(`notes.md` §46). Hume's 27B
 decision-model drop is **Watch**. Closed calibrated API vs open weights
 is a self-eval tradeoff (`research/notes.md` §18, §33, §45). When-to-use
 axes: `judgment-class.md`. TypeSafe remains the documented *exemplar*,

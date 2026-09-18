@@ -391,5 +391,25 @@
   `optimizer-integration.md`; SKILL.md path + identity lock.
 - notes.md §45; sources.json; findings.md batch #28. No wrapper.
 
+## 2026-09-18 20:03 UTC — ~14:03 Boise hourly fold
+
+- Folded into open PR #2 (`cursor/augustus-store-envelope-00b4`).
+  Docs-only. Archer 27B drop still **WATCH** (Hub empty; user watch
+  ~2026-09-19).
+- HIGH: blackwood-rlcd (open multimodal RLCD, CC BY-NC, Jev-compatible
+  shim; web 0.907 vs Jev text-only 0.480; letter-shuffle 0.133 vs
+  0.587; ECE 0.037; ~200 ms H100; Jev still leads general text 0.850
+  vs 0.786). open-jev-laya-bench (26+9, 11959 items; ECE/NLL/Brier;
+  Δ +0.023 / +0.229; LLM-as-judge is not the score). Foodoo1
+  decision-token QLoRA (64→95% / 85.2→98.8% at ~234 ms; synthetic).
+  jevgate frame (allowlist proves; fail-open). wellposed (missing
+  other → confident wrong). jev-reflex-autonomy-lab (S1 keeps control).
+- MED: jev-decision-layer, jev-e2e, jevpandas.
+- Cards: judgment-class, validation, question-design, mappings §18/§4,
+  mixed-architecture, faq, agent-self-assessment, mental-models,
+  formal-methods, applied-mappings, methods-catalog, toolbox.
+- notes.md §46; sources.json; findings.md batch #29. No wrapper.
+
+
 
 

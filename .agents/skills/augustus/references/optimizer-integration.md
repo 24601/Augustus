@@ -13,7 +13,9 @@ signatures, and `typesafe-ai` plus the live docs own Jev's request body.
 Do not write either from this page. DSPy and Ax tune the LM-program
 slice only. They are never the primary System One calibration score;
 that seat is a jevals-shaped labeled suite, and a product loop is a
-Harbor taskset (`validation.md`, Eval & hill-climb).
+Harbor taskset (`validation.md`, Eval & hill-climb). Shared bake-off
+exemplar this hour: [`pngwn/open-jev-laya-bench`](https://huggingface.co/datasets/pngwn/open-jev-laya-bench)
+scores ECE/NLL/Brier — not an LLM-as-judge paragraph (`notes.md` §46).
 
 ## Judgment: what these optimizers may climb (Hypothesis)
 

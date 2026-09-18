@@ -705,6 +705,43 @@ Cross-repo addition: (av) the trained decision-only path now has a
 shipped API-compatible reconstruction (kev); Watch remains the 27B
 announcement.
 
+## Batch #29 (2026-09-18, ~14:03 Boise hourly)
+
+Note: `research/notes.md` §46. Docs-only. Folded into PR #2. Archer
+27B drop still Watch (Hub empty). No invented metrics.
+
+- **blackwood-rlcd (Empirical as named vendor receipt; Hypothesis on
+  your labels).** Open multimodal RLCD, CC BY-NC, Jev-compatible shim.
+  Web 0.907 vs Jev 1.13 text-only 0.480; letter-shuffle 0.133 vs 0.587;
+  ECE 0.037; ~200 ms H100. Jev still leads general text 0.850 vs 0.786.
+  Screenshot vs Jev-text is not the same input. Omni decide can ship
+  without waiting for Archer. Soft judgment over marked pixel
+  candidates; code clicks.
+- **open-jev-laya-bench (Empirical as that named receipt; not a Jev
+  ranking).** 26+9 tasks, 11959 test / 3269 cal. Macro acc Δ +0.023
+  [+0.013,+0.032] neutral, +0.229 [+0.198,+0.262] home. ECE/NLL/Brier.
+  LLM-as-judge is not the score. Harbor/jevals practice in the wild.
+- **Foodoo1 decision-token QLoRA (Empirical as 200-case receipt).**
+  Train the single decision token under parallel constrained decode.
+  fraud_risk 64→95%, overall 85.2→98.8% at ~234 ms/4-field. Synthetic;
+  not a financial product. Softmax ≠ Noul.
+- **jevgate frame (already §25):** allowlist *proves*; Jev judges only
+  unlisted; fail-open (cannot block).
+- **wellposed (Empirical as request-lint recipe):** missing `other` →
+  confidence 1.00 wrong; gating cannot catch it. Broken state paths.
+  `tenbin` owns the lint skill.
+- **jev-reflex-autonomy-lab:** S1 keeps control; optional S2 one-use
+  advice. No metrics. License null this pass.
+- **MED:** jev-decision-layer (gate is part of the result); jev-e2e
+  (Playwright checks; confident model cannot substitute); jevpandas
+  (dataframe semantic index; LICENSE 404).
+
+Cross-repo addition: (aw) omni decide is a shipped open head, not a
+Watch-only hole; (ax) bake-off substrate with ECE/NLL/Brier in the
+wild; (ay) decision-token LoRA is how you train constrained-AR, not a
+new species; (az) confidence gating cannot catch a forced Choice.
+
+
 
 
 

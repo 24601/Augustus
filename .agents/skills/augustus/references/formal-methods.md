@@ -207,7 +207,9 @@ A Noul is still not a proof that the property holds, and a clean PBT run
 is not one either. A perception-to-decision handoff is a contract
 surface — the schema of objects or utterances, not the pixels or the
 waveform: property-test that interface, and do not pretend the Noul is
-over raw pixels or raw audio. Hill-climb of that handoff:
+over raw pixels or raw audio. A shared multimodal *decide* head
+(blackwood-rlcd) still judges **marked candidates**, not an open click;
+the act stays in code (`notes.md` §46). Hill-climb of that handoff:
 `validation.md`.
 
 ## 4. Deterministic simulation testing (semi-formal trio)

@@ -2397,3 +2397,224 @@ labels. Cards: `judgment-class.md`; FAQ; `validation.md`;
 `mental-models.md`; `mixed-architecture.md`; `formal-methods.md`
 (pointer-softmax is still a sensor); `optimizer-integration.md`.
 No wrapper.
+
+## 46. 14:03 Boise hourly — open multimodal RLCD, bake-off substrate, decision-token LoRA (2026-09-18)
+
+America/Boise 14:03 = 20:03 UTC. Docs-only fold into PR #2
+(`cursor/augustus-store-envelope-00b4`). Archer Hume 27B drop still
+**WATCH** (Hub authors `archerhume` / `4rcherhume` empty this pass;
+user watch still ~2026-09-19). No invented metrics. Frames first,
+not a hit list. Identity lock vs `typesafe-ai` / `tenbin` /
+`decision-first` holds. No wrapper, no serve how-to.
+
+HTTP 200 / Hub fetch this pass:
+[`BlackwoodAI/blackwood-rlcd`](https://huggingface.co/BlackwoodAI/blackwood-rlcd)
+README; [`pngwn/open-jev-laya-bench`](https://huggingface.co/datasets/pngwn/open-jev-laya-bench)
+`RESULTS.md` (no dataset README); [`Foodoo1/Qwen3-14B-RLCD-Decision-LoRA`](https://huggingface.co/Foodoo1/Qwen3-14B-RLCD-Decision-LoRA)
+README; GitHub READMEs for
+[`thevibeworks/jevgate`](https://github.com/thevibeworks/jevgate),
+[`suraj-phanindra/wellposed`](https://github.com/suraj-phanindra/wellposed),
+[`khordoo/jev-reflex-autonomy-lab`](https://github.com/khordoo/jev-reflex-autonomy-lab),
+[`Wany-i/jev-decision-layer`](https://github.com/Wany-i/jev-decision-layer),
+[`perixtar/jev-e2e`](https://github.com/perixtar/jev-e2e),
+[`yalindogusahin/jevpandas`](https://github.com/yalindogusahin/jevpandas).
+
+### HIGH
+
+1. **[`BlackwoodAI/blackwood-rlcd`](https://huggingface.co/BlackwoodAI/blackwood-rlcd)**
+   (Hub, 2026-09-18 v1; `pipeline_tag: image-text-to-text`; CC BY-NC 4.0;
+   likes=1 this pass). **Open multimodal RLCD decision model.**
+   Screenshot or text in; Choice / Score / Boolean out in one prefill;
+   Jev-compatible `/v1/systemone` shim. Options listed as letters;
+   answer from option-letter logits at the last position; temperature-
+   calibrated; no sampling; `output_tokens` always 0. Not Archer's 27B
+   drop. Not CLIP/SigLIP (those are vision *scorers*). Same *decide*
+   species as Jev / Laya / kev, with image-in.
+
+   **Architecture (load-bearing).** Omni perception→decision can ship
+   **without waiting for Archer**. Soft judgment over **pixel
+   candidates code already marked** (letters drawn on the screenshot;
+   criteria keyed by those letters) inside a deterministic click/act.
+   Specialist composition (SAM / OCR / AX → text → Jev) still exists
+   (`§39`); this is the shared multimodal System One that card was
+   waiting for. Information still dies at the *act*: the model picks a
+   letter; code clicks. A Noul is still not a proof. CC BY-NC: research
+   / personal, not a commercial drop-in. Do not copy vLLM flags, the
+   shim, or curl bodies into skill cards.
+
+   **Evidence (model card; paired per item; not re-run; Empirical as
+   their named receipt).** Web element choice, 300 held-out steps:
+   acc **0.907** vs Jev 1.13 text-only **0.480**; letter-shuffle flip
+   **0.133** vs **0.587** (lower better); ECE **0.037** vs **0.091**;
+   latency **~200 ms** (1×H100) vs 441 ms (Jev via OpenRouter).
+   4-lettering (four orderings averaged, 4× compute) acc **0.953**.
+   Desktop held-out acc **0.76** vs **0.654**. NL predicates over
+   records **0.973** vs **0.965**. Tetris lines / 60 pieces **14.2** vs
+   **13.6**. General text, 85 public sets / 8,456 items: blackwood
+   **0.786**, Jev **0.850** — Jev still leads. Domain sets 27 / 12,746:
+   **0.710** vs **0.703**. Pixel rows use a randomized viewport crop.
+   Jev is text-only by design: screenshot rows compare screenshot
+   input with Jev's *text* input on the same steps. **Hypothesis** that
+   it substitutes for Jev on *your* labels. Boolean questions on skewed
+   sets can be over-confident (their limit). Cards: `judgment-class.md`
+   (family, holes, when-to-use, dedicated card, perception rewrite);
+   FAQ wait-for-Archer; `validation.md` letter-shuffle; `formal-methods.md`
+   one sentence; `mixed-architecture.md` gallery; `applied-mappings.md` §2.
+
+2. **[`pngwn/open-jev-laya-bench`](https://huggingface.co/datasets/pngwn/open-jev-laya-bench)**
+   (`RESULTS.md` this pass; no dataset README). Shared bake-off:
+   [`pngwn/system-one-qwen3.5-4b-scorer`](https://huggingface.co/pngwn/system-one-qwen3.5-4b-scorer)
+   `@ e6464dce` vs [`convaiinnovations/laya`](https://huggingface.co/convaiinnovations/laya)
+   `@ 7c76b622`. **26 neutral + 9 home** tasks, **11,959** test items,
+   **3,269** cal items. Hardware: NVIDIA A100-SXM4-80GB. Config chosen
+   on `cal` (scorer vs `laya_text`). **Not TypeSafe Jev vs Laya** — do
+   not launder this table into a proprietary-Jev ranking. Laya's
+   published in-task acc/ECE sit on unpublished sets and are context,
+   not like-for-like.
+
+   **Harbor / jevals practice in the wild.** Measurement substrate
+   exemplar: accuracy + **ECE / NLL / Brier** (and acc@50% coverage),
+   held-out `test`, temperature chosen on `cal`, leave-one-task-out,
+   prompted-base / prompted-instruct arms on the same 4B, per-task T
+   vs shipped T. **LLM-as-judge is not the primary System One score.**
+   That is the eval path the skill already wanted (`validation.md`
+   Eval & hill-climb; `notes.md` §40). Do not copy the scoring scripts.
+
+   **Evidence (`RESULTS.md`; not re-run; Empirical as that named
+   receipt).** Neutral, shipped T: System One 4B macro acc **0.760**,
+   Laya **0.737**, Δ **+0.023 [+0.013, +0.032] \*** (interval excludes
+   0). Neutral ECE-10 **0.074** vs **0.122**; macro NLL **0.569** vs
+   **1.272**; macro Brier **0.324** vs **0.392**. Home (the 4B's own
+   held-out split): **0.715** vs **0.486**, Δ **+0.229 [+0.198, +0.262]
+   \***. Home ECE-10 **0.072** vs **0.272**; NLL **0.697** vs **3.836**;
+   Brier **0.363** vs **0.759**. Ahead on 13/26 neutral and 8/9 home.
+   Neutral prompted-instruct (same 4B, ≤26 options) macro acc **0.763**
+   vs fine-tune **0.760**, Δ **+0.003 [-0.004, +0.011]** — interval
+   includes 0; do not slogan "fine-tune always wins zero-shot." Home
+   prompted arms drop banking77 / ticket-queue (enum >26). Latency
+   one-question p50 on the same GPU: tweet_emotion Laya 27.9 ms vs
+   scorer 76.7 ms; home_banking77 (K=77) 30.0 vs 382.8 ms. **Hypothesis**
+   as a ranking of *your* head. Cards: `validation.md` bake-off; FAQ
+   LLM-as-judge; `judgment-class.md` Laya companion.
+
+3. **[`Foodoo1/Qwen3-14B-RLCD-Decision-LoRA`](https://huggingface.co/Foodoo1/Qwen3-14B-RLCD-Decision-LoRA)**
+   (Apache-2.0 adapter; base `Qwen/Qwen3-14B`; PEFT). **Decision-token
+   QLoRA** under **parallel constrained decoding**: one prefill, KV
+   broadcast across fields, logit slice over candidate first tokens —
+   the TypeAR / pcdServer / `stephanj/parallelConstraintDecoding`
+   inference pattern (`findings.md` batch #1). Loss computed **only on
+   the single decision token** of each field. The base already hits
+   easy fields (language/sentiment 100%); reasoning-heavy fields fail
+   because the decision happens at one token with no room to think.
+   Pattern, not a fraud product: train the decision token, do not
+   fine-tune generated prose. Evaluated with
+   [`harshatheg/Qwen-2.5-1B-RLCD`](https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD)
+   inference code (that Hub repo still has no weights — stock Qwen +
+   custom code; already archived). Synthetic fraud-triage schema;
+   **do not use for real financial decisions** (their limit). Do not
+   copy the prompt or LoRA flags into skill cards.
+
+   **Evidence (card; held-out 200-case, 4 fields, 4-bit NF4, RTX 3090;
+   not re-run).** fraud_risk (4-way) **64.0% → 95.0%**; block_account
+   **77.0% → 100%**; language and sentiment stay **100%**; overall
+   (800 decisions) **85.2% → 98.8%**. Mean latency **~234 ms** per
+   case (all 4 fields in one broadcast). Remaining errors all
+   LOW→ELEVATED (conservative); zero high-risk judged low. Train:
+   16,608 single-token examples from 4,152 synthetic cases (648
+   templates × 72 messages EN/ZH/ES/JA), 1 epoch, ~97 min on one 3090.
+   **Empirical** as that named receipt. **Hypothesis** as a general
+   recipe on *your* schema. Cards: `judgment-class.md` constrained-AR;
+   `methods-catalog.md`; FAQ open-weights vs constrained decode.
+
+4. **[`thevibeworks/jevgate`](https://github.com/thevibeworks/jevgate)**
+   — already §25 / `mappings.md` §18. This hour the *mental model*,
+   matching the GitHub description: **an allowlist proves** every verb
+   is a listed read-only tool; **Jev judges only unlisted** leftovers;
+   **fail-open (cannot block)**. Hard envelope in code + soft judgment
+   only on the residual. Proven runs in 4 µs and never leaves the box;
+   Refused never asks the model (so a comment cannot talk a writer
+   through); Unknown is five Nouls, admit iff every p < 0.2. Jev on
+   `/bin/ls` alone leaks (0.04) — that is why it is the third tier.
+   Real-traffic counts already on the README (116,979 Bash calls:
+   26.4% proven; 16.2% reach Jev; 47 admitted, all read-only by hand)
+   stay author-reported; do not re-promote 0/59 as if new. MIT. 0★
+   this pass. No rewrite of the 0.2 threshold as a constant. Cards:
+   `mappings.md` §18 "proves"; FAQ allowlist-then-judge; methods-catalog.
+
+5. **[`suraj-phanindra/wellposed`](https://github.com/suraj-phanindra/wellposed)**
+   (MIT, JS, 0★, created 2026-09-17). **Lint the request before it
+   comes back confidently wrong.** Neighbor-skill identity: `tenbin`
+   still owns design-time lint/measure; this is an Empirical *recipe*
+   of that hole, not a second Augustus skill and not a wellposed
+   how-to. Standing Choice contract (`SKILL.md`): probabilities are
+   conditional on the offered set; absent candidates can never be
+   chosen; add `other` where coverage is open. wellposed is the
+   receipt that **violating that contract is silent**.
+
+   **Evidence (README; not re-run).** 40 generated requests: **0/40**
+   syntax errors (API validation already covers that); **16/40 (40%)**
+   asked something that did not make sense; **0/11** list-questions
+   included a none-of-the-above. Live probe: unsubscribe email, four
+   department options, no `other` → `"support issue"` **confidence
+   1.00**; with `other` → `"other"` confidence 0.93. Overlapping
+   `angry`/`furious` collapsed confidence to **0.19** — loud; ordinary
+   gates catch it. Forced wrong Choice is quiet. Structural lint (35
+   rules, offline) then optional jev-on-jev semantic layer. Labeled
+   corpus: recall **22/26 = 85%**, precision **22/24 = 92%** (computed
+   live from the corpus). Honest limits: one-model labels, so 40% is a
+   floor; 2026-09-18 adversarial audit added 36 items because the
+   metric could not see ordinary-English false positives. Broken state
+   paths (`ticket.assigned_agent.name` with no such path) are
+   *provably* wrong. Confidence gating **cannot** catch a forced
+   Choice. Cards: `question-design.md` diagnosis; validation gate #2;
+   FAQ; tenbin identity lock.
+
+6. **[`khordoo/jev-reflex-autonomy-lab`](https://github.com/khordoo/jev-reflex-autonomy-lab)**
+   (TypeScript, 0★, created 2026-09-18T19:46Z; GitHub license null this
+   pass). Interactive multi-drone lab. **S1 Jev reflex keeps control**;
+   optional S2 planner (OpenRouter / GLM 5.3) is **one-use advice** on
+   low confidence. Jev does not pause while the planner responds. S2
+   does not fly the drone. Kahneman row already taught the split
+   (`toolbox-mapping.md`: S2 proposes, S1 discriminates; never the
+   reverse) — this is that split as a control loop, not a flight
+   controller. Experimental visualization; mock mode without keys;
+   live fleet success varies. No metrics to promote. Do not copy the
+   adapter, `.dev.vars`, or ports. Cards: `mixed-architecture.md` dual
+   orchestration; `agent-self-assessment.md`; toolbox Kahneman row.
+
+### MED (pointers, not cards of their own)
+
+7. **[`Wany-i/jev-decision-layer`](https://github.com/Wany-i/jev-decision-layer)**
+   (MIT, Python stdlib, 0★). Wrap the decision model as a **business
+   decision tool**: caller names the *judgment*, not the model.
+   `decide(name, fields)` → outcome + confidence + **`gate` (part of
+   the result)**. Registry JSON; hard guards in code; `other` required
+   on Choice. OpenRouter `POST /api/alpha/decisions` (not
+   `chat/completions` — that 400s). Text-only: screenshots must be
+   textualized — contrast with blackwood. 28 offline tests, no key.
+   Unofficial. Do not copy the registry or MCP install.
+
+8. **[`perixtar/jev-e2e`](https://github.com/perixtar/jev-e2e)**
+   (MIT, TypeScript, alpha, 0★). Natural-language cases; Jev selects
+   observed controls; **Playwright executes and independently checks
+   expectations**. Verdicts PASS / FAIL / BLOCKED. A completed
+   navigation or a confident model response **cannot substitute for
+   checked expectations**. Harbor/jevals practice on a browser taskset
+   (score on the task; harness rolls out). Alpha: controlled demo does
+   not establish reliability across arbitrary sites. Do not copy CLI
+   flags or ports.
+
+9. **[`yalindogusahin/jevpandas`](https://github.com/yalindogusahin/jevpandas)**
+   (Python; GitHub LICENSE 404 this pass). pandas frame as the store:
+   `evaluate` / `filter` / `classify` / `score` / batched `ask`.
+   Classify example includes `other`. Failures never become negative
+   predictions. No generative chat, no joins, no training on review
+   labels. Store-as-semantic-index cousin of jevql / sqlite-jev
+   (`mappings.md` §4) over a dataframe instead of SQL. Samples in
+   `data/` are synthetic. Do not copy the client.
+
+Cards: `judgment-class.md`; `validation.md`; `question-design.md`;
+`mappings.md` §18 / §4; `mixed-architecture.md`; `faq.md`;
+`agent-self-assessment.md`; `mental-models.md`; `formal-methods.md`;
+`applied-mappings.md` §2; `methods-catalog.md`; `toolbox-mapping.md`.
+No wrapper.

@@ -4,7 +4,12 @@
 
 1. Exact computation, semantic judgment, or both? Exact parts stay in code.
 2. Can the right answer be represented? (candidate present? level exists?
-   `other` option where coverage is open?)
+   `other` option where coverage is open?) Missing `other` on an open
+   coverage set forces a wrong Choice at confidence 1.00 — **confidence
+   gating cannot catch it**. Lint the *request* (broken state paths,
+   bundled judgments) before you trust the answer
+   ([wellposed](https://github.com/suraj-phanindra/wellposed) recipe;
+   `tenbin` owns the skill; `question-design.md`; `notes.md` §46).
 3. Missing / contradictory / malicious / stale evidence — what happens?
 4. Which constraints must code enforce regardless of model output?
 5. What does each number mean — and which reading would be invalid?
@@ -15,7 +20,9 @@
 ## Behavioral tests (measure; Jev promises no invariances)
 
 Candidate removal (drop the winner — does probability spread sensibly?);
-option-order shuffle; **irrelevant-option / IIA** (append an option that
+option-order shuffle; **letter-shuffle on screenshot Choice**
+(blackwood-rlcd card: flip **0.133** vs Jev 1.13 text-only **0.587** on
+300 web steps — vendor receipt, not re-run; `notes.md` §46); **irrelevant-option / IIA** (append an option that
 should not move odds among the rest — Hume's reconstruction,
 `research/notes.md` §31, not a new invariance the API promises);
 public cousin for the read-the-letter graph:
@@ -293,9 +300,12 @@ Rules:
 - **Room / omni products** (same ask): structural gates first;
   video-as-judge last. Same sandwich as allowlist-then-remainder
   (`mappings.md` §18). Perception-then-judgment is composition;
-  information dies at the interface, and a Noul is not over raw pixels
-  (`notes.md` §39). LLM-as-judge is not the primary score for a
-  calibrated System One.
+  information dies at the act. A shared multimodal decide head still
+  judges marked candidates, not an open click (`notes.md` §39, §46).
+  LLM-as-judge is not the primary score for a
+  calibrated System One. Shared bake-off exemplar:
+  [open-jev-laya-bench](https://huggingface.co/datasets/pngwn/open-jev-laya-bench)
+  (ECE/NLL/Brier).
 
 ### Composition
 
@@ -312,15 +322,30 @@ row is enough. ECE above is wanted, not a Nimble result.
 
 ### Bake-off mandate
 
-Before adopting proprietary Jev vs Laya vs TypeAR vs Nimble vs kev vs Archer
-vs openjev-lm, run a jevals-shaped labeled suite (or an equivalent
+Before adopting proprietary Jev vs Laya vs TypeAR vs Nimble vs kev vs
+blackwood-rlcd vs Archer vs openjev-lm, run a jevals-shaped labeled suite (or an equivalent
 with this hygiene) and, for a product loop, a Harbor taskset. A design
 card with no eval path is incomplete.
+
+**Shared bake-off exemplar (Empirical as that named receipt, not a
+ranking).** [`pngwn/open-jev-laya-bench`](https://huggingface.co/datasets/pngwn/open-jev-laya-bench)
+(`RESULTS.md` this pass): System One Qwen3.5-4B scorer vs Laya 421M,
+**26 neutral + 9 home**, **11,959** test / **3,269** cal. Scores are
+accuracy + **ECE / NLL / Brier** (acc@50% coverage too). Neutral macro
+acc Δ **+0.023 [+0.013, +0.032]**; home Δ **+0.229 [+0.198, +0.262]**
+(intervals exclude 0). **Not TypeSafe Jev vs Laya.** Neutral prompted-
+instruct on the same 4B is statistically tied with the fine-tune
+(+0.003, interval includes 0). **LLM-as-judge is not the primary
+System One score.** Harbor/jevals practice in the wild: held-out
+`test`, temperature on `cal`, leave-one-task-out, prompted arms.
+`notes.md` §46. Do not copy the scoring scripts.
 
 Archer weights are still a **Watch** — not on the Hub as of 2026-09-18
 (`notes.md` §31–§33). That bake-off is future, not Empirical. kev is
 the shipped 0.5B reconstruction on the trained decision-only path, not
-that drop (`notes.md` §45). "A 9B
+that drop (`notes.md` §45). blackwood-rlcd is the open multimodal
+decide head on that path **now** (CC BY-NC; Jev still leads general
+text; `notes.md` §46). "A 9B
 LoRA is enough versus Jev" stays **Hypothesis** (`notes.md` §35).
 openjev-lm is the name of that distill. kev is not a Jev distill.
 Nimble is not a Jev distill

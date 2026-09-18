@@ -116,9 +116,10 @@ LoRA students report agreement with the teacher (`notes.md` §33). Hume
 prefers the class name **decision models** over "system one"
 (`notes.md` §33); this file still says System One when quoting TypeSafe.
 Three open paths, not three species: encoder open-jev, AR constrained
-decode (TypeAR + pcdServer), trained decision-only (Laya / Nimble /
-kev / Archer Watch). kev is the runnable Archer reconstruction on that
-third path; Watch stays Watch. A constrained softmax is still not a Noul (`notes.md` §42, §45).
+decode (TypeAR + pcdServer; decision-token LoRA), trained decision-only (Laya / Nimble /
+kev / **blackwood-rlcd** / Archer Watch). kev is the runnable Archer reconstruction on that
+third path (text-only); blackwood-rlcd is that path with **image-in now** (CC BY-NC);
+Watch stays Watch. A constrained softmax is still not a Noul (`notes.md` §42, §45, §46).
 
 **Readout versus a token; IIA is a property.** A direct probability and a
 generated "91%" are different objects; the format calibrates neither
@@ -400,7 +401,8 @@ Use these as *existence proofs of a position*. Write your own card.
 | Hiring | interview / reject / hold | evidence Nouls; veto rules in policy | labor law, scorecards you wrote |
 | Inbox | reply / snooze / archive | urgency Noul + aboutness Choice | send, calendar |
 | Document / lab routing | which pages need the expensive observation | Noul on remainder after a text layer / recipe | local extract, merge order (**Empirical** as OCR-router *shape*) |
-| Shell / tool allowlist | unlisted remainder after a proof | five Nouls on unknown verbs | Proven/Refused in code (**Empirical**: jevgate) |
+| Shell / tool allowlist | unlisted remainder after a **proof** | five Nouls on unknown verbs | Proven/Refused in code; cannot block (**Empirical**: jevgate) |
+| Screenshot candidates → act | lettered elements code already marked | Choice over those letters | Click in code (**Empirical** as blackwood-rlcd *shape*; CC BY-NC) |
 | Moderation | hold before publish | hazard Nouls (**Empirical** as family) | block/review policy |
 | Phishing / fraud screen | hold vs deliver | SDT criterion on a Noul | blocklist, SPF/DKIM exact (**Hypothesis**) |
 | Personal ops | cook done / not | "looks done" Noul | thermometer probe |

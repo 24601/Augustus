@@ -81,6 +81,11 @@ the subset operation you already had
 hunks unstaged; lines never split; atomic apply after confirm. Line-by-line
 search cookbook (**Contract**): score existing line ids, do not generate
 ids. lizard-agent: pick among visible elements; answers are *located*.
+Omni cousin this hour: [blackwood-rlcd](https://huggingface.co/BlackwoodAI/blackwood-rlcd)
+picks among **letters drawn on the screenshot**; code still clicks
+(`notes.md` §46). Text-only cousin: [jev-e2e](https://github.com/perixtar/jev-e2e)
+— Jev selects observed controls; Playwright independently checks;
+a confident model cannot substitute for checked expectations.
 **Counterexample**: "write the patch that matches this sentence" — that is
 generation. **Test**: every kept byte occurs in the input; mixed never
 auto-included; snapshot stale → abort, don't guess.

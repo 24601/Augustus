@@ -151,9 +151,13 @@ vs **out-of-process CLI** ([`kylemclaren/jevql`](https://github.com/kylemclaren/
 scan, not an index; `max_rows` is a spend guard; thresholds stay in SQL.
 [`ant4g0nist/joxide`](https://github.com/ant4g0nist/joxide): zoxide owns
 the directory index; Jev scores a shortlist; destinations are existing
-local paths only; fail-open. Row contents leave the store (same
-residency warning as AU health). Do not copy SQL, env, or CLI flags.
-`notes.md` §42, §44.
+local paths only; fail-open. Dataframe cousin this hour:
+[`yalindogusahin/jevpandas`](https://github.com/yalindogusahin/jevpandas)
+— `evaluate` / `filter` / `classify` / `score` / batched `ask` over a
+pandas frame; classify example includes `other`; failures never become
+negative predictions; LICENSE absent this pass. Row contents leave the
+store (same residency warning as AU health). Do not copy SQL, env, or CLI flags.
+`notes.md` §42, §44, §46.
 
 ## 5. Hierarchy → bounded heuristic search
 
@@ -573,9 +577,13 @@ questions, **Hypothesis**. Links: `mental-models.md` §thresholds;
 **Method**: code (or a recipe, a law, a text layer) **proves** the easy
 cases; a System One model judges only what the structure cannot decide.
 Composition-algebra position 3 *after* a constraint, not instead of one.
-**Transfers**: allowlist / refused-in-code / unknown→judge
+**Transfers**: allowlist / refused-in-code / unknown→judge. The
+allowlist **proves** every verb is a listed read-only tool; the model
+judges **only unlisted** leftovers; the gate **cannot block** (fail-open
+unless a sandbox sits under)
 ([jevgate](https://github.com/thevibeworks/jevgate): Proven / Refused /
-Unknown; cannot block; Jev alone leaks). Same sandwich as page OCR
+Unknown; Jev alone leaks — `/bin/ls` at 0.04 is why it is the third
+tier). Same sandwich as page OCR
 ([doc-router](https://github.com/misbahsy/doc-router): pdf-inspector
 first, "needs OCR?" Noul on the remainder — 155→87 pages billed, **1.74×**
 $ on 19 docs / 155 pages). **Does not:** putting the model first so a

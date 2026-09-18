@@ -36,9 +36,9 @@ taxonomy with enough of *your* data (XGBoost still wins there —
 | Family | What it optimizes | Typical output | Use when | Watch |
 |---|---|---|---|---|
 | **Closed decision API** (TypeSafe Jev) | Calibrated decision (proper-scoring / RLCD lineage) | Choice / Score / Noul + distributions | Default when you need act/abstain, fan-out, documented envelope | Cloud, pin version, re-measure on your data. AU health data-residency is a reason *not* to pick this family (`notes.md` §33) |
-| **Open System-1 / decision-model head** (Laya, openjev, LightJev, openjev-lm, Nimble, **kev**, Hume **Watch**) | Same *shape* as Jev, you host it | Same primitives or logits-as-options | Air-gap, $0/token, inspectable weights, deployment control | Self-eval duty; Laya text-only, 512 tok; vendor vs-Jev tables are claims (`notes.md` §18). A distill learns the *teacher's* answers: openjev-lm and jev-gate-student-b (`notes.md` §25, §33). Nimble is an open LoRA recipe on hard labels, not a Jev distill (`notes.md` §35). **kev** is a shipped Qwen2.5-0.5B LoRA + pointer readout of Archer's reconstruction — public gold, not a Jev teacher; ID ECE only (`notes.md` §45). Hume's 27B dense drop is **Watch**, not a Hub checkpoint. He prefers the class name **decision models** over "system one" |
+| **Open System-1 / decision-model head** (Laya, openjev, LightJev, openjev-lm, Nimble, **kev**, **blackwood-rlcd**, Hume **Watch**) | Same *shape* as Jev, you host it | Same primitives or logits-as-options | Air-gap, $0/token, inspectable weights, deployment control; **image-in now** (blackwood) without waiting for Archer | Self-eval duty; Laya text-only, 512 tok; vendor vs-Jev tables are claims (`notes.md` §18). A distill learns the *teacher's* answers: openjev-lm and jev-gate-student-b (`notes.md` §25, §33). Nimble is an open LoRA recipe on hard labels, not a Jev distill (`notes.md` §35). **kev** is a shipped Qwen2.5-0.5B LoRA + pointer readout of Archer's reconstruction — public gold, not a Jev teacher; ID ECE only (`notes.md` §45). **blackwood-rlcd** is open multimodal RLCD (CC BY-NC), Jev-compatible shim; Jev still leads general text (`notes.md` §46). Hume's 27B dense drop is **Watch**, not a Hub checkpoint. He prefers the class name **decision models** over "system one" |
 | **Encoder open-jev** (DeBERTa-v3-large) | Same *shape*, bidirectional encoder, public gold (not a Jev teacher) | Choice / Score / Noul from one pass | Self-host decide without a decoder; 512 tok | In-domain ECE 0.022; OOD acc 0.854→0.690. English / three public domains. `notes.md` §33 |
-| **Constrained-AR surface** (TypeAR, **pcdServer**; not a species) | Next-token constraint on a pretrained generator | Distribution over allowed values | Typed fields without retraining; later fields must see earlier answers; local GGUF serving | Different objective from a proper-scoring head. TypeAR README enums ≤16; pcdServer 2–256 / 1–63 parallel fields. No abstention primitive. Compute-graph card below (`notes.md` §31, §32, §42). Public logit dump: mini-jev-runs |
+| **Constrained-AR surface** (TypeAR, **pcdServer**; decision-token LoRA; not a species) | Next-token constraint on a pretrained generator | Distribution over allowed values | Typed fields without retraining; later fields must see earlier answers; local GGUF serving; train the *decision token* if you LoRA | Different objective from a proper-scoring head. TypeAR README enums ≤16; pcdServer 2–256 / 1–63 parallel fields. No abstention primitive. Decision-token QLoRA: `Foodoo1/Qwen3-14B-RLCD-Decision-LoRA` (`notes.md` §46). Compute-graph card below (`notes.md` §31, §32, §42). Public logit dump: mini-jev-runs |
 | **GLi\* encoder family** (GLiNER locate / GLiClass categorize / GLiNER2.5 local multi-head / GLiGuard safety schema) | One-pass labels-in-encoder; spans, sequence labels, a safety schema, or both | Spans + types; per-label sigmoid/softmax; optional relations/records | Laptop/local; large or changing label sets; "what's *in* the text" vs "what *is* the text" vs "which safety labels fire" | Affinities are not automatically a gateable P(permit). GLiGuard is not a Jev weight clone. Species map below. Not a Jev how-to and not a GLiNER or GLiGuard install |
 | **Listwise / pairwise discriminative ranker** | Order of a list (nDCG, softmax-over-list) | Relevance scores, not P(relevant) | Rerank a retrieved shortlist | Translation-invariant listwise losses are **not** calibrated for thresholds ([listwise vs pointwise](https://doi.org/10.48550/arxiv.2208.06164); [RCR](https://arxiv.org/html/2211.01494v2)). Fail **open** (keep retrieval order) |
 | **Vision scorer** | Image–text affinity or region Choice | Cosine/sigmoid affinity, or a closed region/label pick | Perception as classification over *candidates you extracted* | CLIP softmax = competition in the offered set; SigLIP sigmoid = pairwise affinity, not class-conditional p ([SigLIP](https://huggingface.co/docs/transformers/v4.39.2/en/model_doc/siglip)). Not a VLM captioner |
@@ -54,7 +54,7 @@ code owns side effects." They are not aliases.
 ```text
 locate      GLiNER (span NER)              what's *in* the text
 categorize  GLiClass / GLiGuard            what the text is; which schema labels fire
-decide      Jev / Laya / openjev / kev     Choice / Score / Noul over a state
+decide      Jev / Laya / openjev / kev / blackwood   Choice / Score / Noul over a state (blackwood: image-in)
 rank        listwise / cross-encoder       order a retrieved shortlist
 perceive    CLIP / SigLIP / region Choice  score candidates you extracted
 ```
@@ -90,6 +90,10 @@ below, next to the when-to-use table.
   *your* ECE — ID numbers are not OOD. A constrained autoregressive
   decode can emit a label and still not be this species — compute-graph
   card below. Hume's announced 27B dense drop is Watch.
+  **blackwood-rlcd** is the open multimodal *decide* head that ships now
+  (screenshot + marked candidates → Choice; CC BY-NC; Jev still leads
+  general text; `notes.md` §46) — not that drop, and not a vision-scorer
+  affinity.
 - **Categorize (safety schema).** [GLiGuard](https://github.com/fastino-ai/GLiGuard)
   ([arXiv 2605.07982](https://arxiv.org/abs/2605.07982); Zaratiana,
   Newhauser, Hurn-Maloney, Lewis, Fastino): a GLiNER2 encoder that
@@ -253,17 +257,19 @@ capability shift, independent of vendor:
    calibration optional. Distilling a hosted teacher is not independent
    gold. Hume's 27B dense drop is the large-local Watch, not a third
    how-to.
-6. **Cross-modal is still thin.** Discourse, GLiNER/GLiClass, Laya, kev,
-   and the encoder open-jev are text-first. Vision is a scoring pattern
-   (above), not a shipped omni decision API. Hume reports that a
-   multimodal *base* plus text post-training generalizes to images with
-   little intentional multimodal training — a Watch claim, not a
-   recipe (`notes.md` §33). Treat "Jev but for images" as a hole to fill
-   with the vision-scorer family or with that drop *when it ships*.
-   Locate (spans on a screenshot OCR) is still locate, not perceive.
-   Pixel-free computer-use (jev-macos-loop, jev-mobile) keeps pixels on
-   the device and sends text-only decisions. SAM 3.1 or ASR then Jev
-   is specialist composition, not the Watch drop (`notes.md` §39).
+6. **Cross-modal has an open decide head now; Archer is still Watch.**
+   Discourse, GLiNER/GLiClass, Laya, kev, and the encoder open-jev are
+   text-first. Vision scorers (CLIP/SigLIP) remain a scoring pattern,
+   not a decision API. [`BlackwoodAI/blackwood-rlcd`](https://huggingface.co/BlackwoodAI/blackwood-rlcd)
+   is the shipped omni *decide* model: screenshot or text in, typed
+   Choice out, Jev-compatible shim (`notes.md` §46). Hume's 27B dense
+   drop stays **Watch** (no Hub weights this pass; multimodal, no audio).
+   Prefer specialist composition (SAM / ASR / OCR → schema → System One)
+   when you already have the producer; prefer a shared multimodal
+   decision model when the joint of pixels and options matters. Pixel-free
+   computer-use (jev-macos-loop, jev-mobile) still keeps pixels on the
+   device and sends text-only decisions. Locate (spans on a screenshot
+   OCR) is still locate, not perceive.
 7. **The agent that only has a generator is incomplete.** The missing
    organ is a judgment-class model plus policy in code — not another
    prompt. The agent that only has a ranker is also incomplete: it can
@@ -381,7 +387,8 @@ program.
 | Calibrated p(y\|x) over a closed set | Trained decision-only head (Jev, or an open head you have proper-scored and measured on your labels) | Threshold a generated "90%", an affinity you have not calibrated, TypeAR constrained scores, or a LoRA student's agreement with the teacher |
 | Laptop-local System One API for development / eval | **kev** — trained decision-only readout; official SDK with a `base_url` change (`notes.md` §45) | Treat 0.5B ID ECE as a knowledge or frontier substitute, or as OOD calibration |
 | Dependent sequential decisions | Constrained AR that conditions later steps on earlier answers (TypeAR sequential), or code-owned transitions and a new request per stage | Treat sibling questions on one request as if they attend each other |
-| Open multimodal self-host / data-residency | Hume's announced **decision-model** drop **when it ships** (Qwen3.8 27B **dense**, 265k, multimodal, no audio; one forward pass locally once AR is removed; MoE next then shrink). Driver: healthcare AU residency, not anti-TypeSafe | Ship on "smarter than Jev." That is his early claim, against his own order-sensitivity and in-distribution calibration warnings. **WATCH** — no Hub weights this pass. Laya remains text-only. kev is text-only. jev-visual is region Choice, not this drop |
+| Open multimodal self-host / data-residency *now* | **blackwood-rlcd** — trained decision-only readout with image-in; Jev-compatible shim; CC BY-NC (`notes.md` §46) | Wait for Archer's 27B. Treat screenshot-vs-Jev-text as the same input. Threshold a commercial workflow on a non-commercial license. Skip self-eval because web-element acc is 0.907 |
+| Open multimodal self-host / data-residency *when it ships* | Hume's announced **decision-model** drop **when it ships** (Qwen3.8 27B **dense**, 265k, multimodal, no audio; one forward pass locally once AR is removed; MoE next then shrink). Driver: healthcare AU residency, not anti-TypeSafe | Ship on "smarter than Jev." That is his early claim, against his own order-sensitivity and in-distribution calibration warnings. **WATCH** — no Hub weights this pass. Laya remains text-only. kev is text-only. jev-visual is region Choice, not this drop |
 | Image-in now, different graph | Diffusion structured reads that already accept images on a Jev-shaped interface ([djev-spark](https://github.com/mmastrac/djev-spark)) | Wait on the row above for image-in, or treat this graph as a proof it beats a decision head |
 
 ### When to use which decision surface
@@ -400,8 +407,9 @@ is the generator, not a sixth surface.
 | Surface | Calibration | VOI / gather | Latency / $ | Deployment control | Multimodal | Enum size |
 |---|---|---|---|---|---|---|
 | **Proprietary Jev** | Decision objective; in-dist ECE 0.0313, OOD collapse (`notes.md` §7). Choice `confidence` is arithmetic on the distribution (§31) | Independent questions cheap; sequential gather is a new request | Cloud envelope; ~$0.042/MTok input (their figure, unreproduced; `/pricing` 404 on 2026-09-18, `notes.md` §1, §42) | No weights. AU health data cannot ride this API if residency forbids it | Text. jev-visual is region Choice | ≤255 Choice |
+| **blackwood-rlcd** (open multimodal RLCD; CC BY-NC) | Decision objective; temp-calibrated. Card ECE **0.037** on 300 web steps; letter-shuffle flip **0.133** vs Jev 1.13 **0.587**. Jev still leads general text **0.850** vs **0.786** (`notes.md` §46) | Screenshot/DOM candidates code already marked → Choice. Not gather-as-act | ~200 ms / decision 1×H100 (their figure) | Self-host; non-commercial license | **Image-in now.** Not Archer Watch. Not CLIP | Lettered candidates; Jev-shaped Choice |
 | **Archer open decision-model** | **Watch.** No Hub weights this pass. "Smarter than Jev" is a claim against *his* calibration/order warnings | Same *hole* as Jev when it ships | 27B dense for one-forward-pass local speed once AR is removed; MoE next, then shrink. Quant-friendly is a claim | Healthcare AU data-residency / deployment control, **not** anti-TypeSafe | Multimodal, no audio. Text post-training reportedly generalizes to images with little intentional multimodal training | Unknown until the drop |
-| **TypeAR / pcdServer** (constrained AR) | Next-token constraint ≠ Noul. No abstention primitive. Public logit dump: [`Mikhail/mini-jev-runs`](https://huggingface.co/datasets/Mikhail/mini-jev-runs) (27.9k; scores "deliberately *not* calibrated") | TypeAR sequential conditions later fields; pcdServer batches independent fields after one prefix. Neither is gather-as-act | TypeAR 5.8× is *their* K=16 boolean example. pcdServer: native llama.cpp, Apple+Linux | Self-host the generator / GGUF | Whatever the base model has | TypeAR enums ≤16; pcdServer 2–256 strings, 1–63 fields |
+| **TypeAR / pcdServer** (constrained AR) | Next-token constraint ≠ Noul. No abstention primitive. Public logit dump: [`Mikhail/mini-jev-runs`](https://huggingface.co/datasets/Mikhail/mini-jev-runs) (27.9k; scores "deliberately *not* calibrated"). Decision-token QLoRA trains *that* token under parallel constrained decode (`Foodoo1/Qwen3-14B-RLCD-Decision-LoRA`; synthetic fraud receipt, not a financial product; `notes.md` §46) | TypeAR sequential conditions later fields; pcdServer batches independent fields after one prefix. Neither is gather-as-act | TypeAR 5.8× is *their* K=16 boolean example. pcdServer: native llama.cpp, Apple+Linux. Foodoo1: ~234 ms / 4-field broadcast on RTX 3090 4-bit (their figure) | Self-host the generator / GGUF / adapter | Whatever the base model has | TypeAR enums ≤16; pcdServer 2–256 strings, 1–63 fields |
 | **Encoder open-jev** (DeBERTa-v3-large 434M) | Public gold, CE+Brier, val temperature. In-domain ECE 0.022 / acc 0.854; OOD acc 0.690 / ECE 0.035. **Not** a Jev teacher-copy | One pass over state + all questions; 512 tok | Author: 28 ms / 10 questions H100; 1.8 s / 4q M1 Max CPU | apache-2.0, self-host | Text | Jev-shaped 255 / Score 2–10 / Noul; 512 ctx |
 | **Tiny LoRA distill** (jev-gate-student-b) | Teacher-copy. P(relevant) from yes/no logits. Held-out n=60 vs vanilla 0.5B; 148,160-row corpus | Memory-gating / context sieve; **fail-open** on errors | Qwen2.5-0.5B LoRA; ~59 ms RTX 3060 | Local, apache-2.0 | Text | Binary relevance |
 | **Nimble** (open LoRA recipe, not a distill) | Hard synthetic labels. They say temperature was not tuned to correctness rates. 324-row agreement is their receipt, not an ECE (`notes.md` §35) | Not a gather primitive | Their latency table, not re-run | Self-host the adapter. Model card Apache-2.0; repo license absent | Text only | Enum ≤26; 2,048 tokens |
@@ -410,11 +418,13 @@ is the generator, not a sixth surface.
 
 **Three open paths** (not three species, not extra when-to-use rows):
 encoder open-jev (DeBERTa, public gold); AR constrained decode (TypeAR
-Python/SGLang, pcdServer native GGUF); trained decision-only (Laya /
-Nimble / **kev** / Archer **Watch**). **kev** is the cleanest *runnable*
-productization of Archer's reconstruction on that third path
-(API-compatible; `notes.md` §45). Watch stays Watch. Encoder vs decoder
-**replicas** of that third path: DeBERTa is public gold with an OOD
+Python/SGLang, pcdServer native GGUF; decision-token LoRA on that graph);
+trained decision-only (Laya / Nimble / **kev** / **blackwood-rlcd** /
+Archer **Watch**). **kev** is the cleanest *runnable* productization of
+Archer's reconstruction on that third path (API-compatible; text-only;
+`notes.md` §45). **blackwood-rlcd** is the third path with **image-in
+now** (CC BY-NC; Jev-compatible shim; `notes.md` §46). Watch stays Watch.
+Encoder vs decoder **replicas** of that third path: DeBERTa is public gold with an OOD
 drop; openjev-lm / jev-gate LoRAs are teacher-copies with named receipts
 (overnight 6-vCPU, $0/call — economics, not a new species; `notes.md`
 §25, §44). kev is public gold on the same 0.5B backbone as openjev-lm,
@@ -422,7 +432,10 @@ not a teacher-copy. Pick from the hole. A constrained softmax
 is still not a Noul. Laya companion packaging this hour:
 [`laya-typed-decisions`](https://huggingface.co/convaiinnovations/laya-typed-decisions)
 (same 421.3M; acc 0.766 / Brier 0.066 on `LocalLLaMA/typed-decisions`,
-unverified — do not overwrite `notes.md` §18).
+unverified — do not overwrite `notes.md` §18). Shared bake-off this
+hour: [`pngwn/open-jev-laya-bench`](https://huggingface.co/datasets/pngwn/open-jev-laya-bench)
+(26 + 9 tasks, 11,959 items; ECE/NLL/Brier; **not** TypeSafe Jev vs
+Laya; LLM-as-judge is not the score — `notes.md` §46, `validation.md`).
 
 Reject: TypeAR or pcdServer scores as fail-closed P(permit); a LoRA student's
 agreement with Jev as independent gold; kev's ID ECE as a license to skip
@@ -435,7 +448,8 @@ universal ranking. Diffusion beating a decision head is Hypothesis.
 
 Detail: `research/notes.md` §33 (surfaces), §34 (marginals), §35
 (Nimble), §36 (diffusion), §38 (entropy allocator, Hypothesis),
-§42 (pcdServer serving, meta-VOI, games), §45 (kev). Before
+§42 (pcdServer serving, meta-VOI, games), §45 (kev), §46 (blackwood,
+laya-bench, decision-token LoRA). Before
 adopting a surface, the bake-off is a jevals-shaped suite and, for a
 product loop, a Harbor taskset (`validation.md`, Eval & hill-climb).
 The stage pipeline into that decision is the same file
@@ -456,10 +470,13 @@ the route or the patches. `notes.md` §36.
 
 ### "Perception specialist then judgment specialist" vs "Shared multimodal System One"
 
-**Hypothesis.** Basit ask, primary post not retrieved (X and web,
-2026-09-18; no tweet id). Useful *application* patterns for omni-ish
-products. Not a SAM tutorial, not an ASR tutorial, and not a native
-omni System One.
+Two placements, not a slogan. Specialist composition stays **Hypothesis**
+as a general recipe (Basit ask, primary post not retrieved; `notes.md`
+§39). Shared multimodal *decide* now has a named open model:
+[`BlackwoodAI/blackwood-rlcd`](https://huggingface.co/BlackwoodAI/blackwood-rlcd)
+(**Empirical** as that vendor receipt, not re-run; **Hypothesis** on
+*your* labels; `notes.md` §46). Not a SAM tutorial, not an ASR tutorial,
+and not Archer's 27B drop (**Watch**).
 
 [SAM 3.1](https://huggingface.co/facebook/sam3.1) is Meta Segment
 Anything 3.1 ([release](https://github.com/facebookresearch/sam3/blob/main/RELEASE_SAM3p1.md),
@@ -474,23 +491,28 @@ of transcript-then-Jev, not the source of this ask:
 (2026-09-17). His latency and price are his receipt, not a class
 number.
 
-**Information dies at the interface.** The decision call sees the
-schema you serialized, not the pixels or the waveform. Prefer a shared
-multimodal decision model when that joint signal matters. Archer
-Hume's drop stays **Watch** (no Hub weights as of 2026-09-18;
-multimodal, no audio; do not promote to Empirical). djev-spark already
-accepts images (multipart or JSON; think and sequential reject
-images). A future audio-capable shared model is the same hole, not
-this stack.
+**Information dies at the act.** Specialist composition: the decision
+call sees the schema you serialized, not the pixels or the waveform.
+Shared multimodal decide (blackwood): the call sees the screenshot
+*and* the candidates **code already marked** (letters on the image);
+it still does not invent a click. Prefer specialist composition when
+you already have the producer; prefer a shared multimodal decision
+model when the joint of pixels and options matters — you no longer
+have to wait for Archer to place that hole. Archer Hume's drop stays
+**Watch** (no Hub weights as of 2026-09-18; multimodal, no audio).
+djev-spark already accepts images (multipart or JSON; think and
+sequential reject images) on a *different* compute graph. A future
+audio-capable shared model is the same hole, not this stack.
 
 Same cut as a low/medium-entropy allocator: specialist state, then
 typed decisions. Buckets are product rhetoric, not a meter, and
 "review this PR" is still partly generative. One Jev call is still
-factorized **marginals** (Meijer); the joint of the raw signal and the
-decision lives outside the call. The handoff is a contract surface —
-one sentence in `formal-methods.md`. Code owns the schema and the act.
-`notes.md` §39. Measure and hill-climb that composition in
-`validation.md` (**Hypothesis**, `notes.md` §41).
+factorized **marginals** (Meijer); blackwood's one prefill is still
+not a joint over the raw waveform. The handoff is a contract surface
+— one sentence in `formal-methods.md`. Code owns the schema and the
+act. `notes.md` §39, §46. Measure and hill-climb in `validation.md`
+(`notes.md` §41). Jev still leads blackwood on general *text* (0.850
+vs 0.786 on their 8,456-item table) — omni is not a text free lunch.
 
 ### Open recipe (Bespoke Nimble) — not a distill
 
@@ -574,6 +596,26 @@ tests (isolation, permute, IIA, boundary forgery) mirror Archer probes
 — they falsify the reconstruction, they do not prove kev = Jev.
 `notes.md` §45.
 
+### blackwood-rlcd — open multimodal RLCD (not Archer, not CLIP)
+
+[`BlackwoodAI/blackwood-rlcd`](https://huggingface.co/BlackwoodAI/blackwood-rlcd)
+(Hub README this pass; CC BY-NC 4.0; `image-text-to-text`). Trained
+decision-only readout with **image-in**. One prefill; option-letter
+logits; temperature-calibrated; Jev-compatible `/v1/systemone` shim.
+Screenshot + candidates **code already marked** → typed Choice; code
+clicks. Not Archer's 27B drop. Not a vision-scorer affinity. Not a
+commercial drop-in. Do not copy serve flags.
+
+**Evidence (card; paired per item; not re-run).** Web element, 300
+held-out: acc **0.907** vs Jev 1.13 text-only **0.480**; letter-shuffle
+flip **0.133** vs **0.587**; ECE **0.037** vs **0.091**; ~**200 ms**
+1×H100 vs 441 ms OpenRouter. General text, 85 sets / 8,456 items:
+**0.786** vs Jev **0.850** — Jev still leads. Screenshot rows compare
+screenshot input with Jev's text input on the same steps. Randomized
+viewport crop. **Empirical** as that named receipt. **Hypothesis** on
+*your* labels. Bake-off candidate beside kev / Laya (`validation.md`).
+`notes.md` §46.
+
 ### Constrained-AR surface (not `decide`)
 
 [TypeAR](https://github.com/zmtomorrow/TypeAR) ("Type-Safe Decoding for
@@ -618,6 +660,17 @@ No auth; default bind is loopback. Do not copy OpenAPI, flags, or
 install. Same author's earlier `parallelConstraintDecoding` is the
 two-forward-pass cousin already in the ecosystem snapshot.
 `notes.md` §42.
+
+**Decision-token LoRA (same graph, trained).** If you specialize a
+pretrained generator for this surface, train **the single decision
+token** under parallel constrained decoding — not generated prose.
+[`Foodoo1/Qwen3-14B-RLCD-Decision-LoRA`](https://huggingface.co/Foodoo1/Qwen3-14B-RLCD-Decision-LoRA)
+(Apache-2.0 adapter on Qwen3-14B): loss only on that token; one
+prefill + KV broadcast across fields. Their held-out 200-case / 4-field
+receipt: fraud_risk **64.0% → 95.0%**, overall **85.2% → 98.8%** at
+**~234 ms** / broadcast on RTX 3090 4-bit. Synthetic fraud-triage;
+do not use for real financial decisions. Softmax over allowed tokens
+is still not a Noul. `notes.md` §46.
 
 **Hypothesis, not a stack.** TypeAR's example names the same Qwen3.8-27B
 family as Hume's announced weights. Running that surface (TypeAR or

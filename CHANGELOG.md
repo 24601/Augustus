@@ -124,6 +124,23 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   knowledge/frontier substitute; not a Jev teacher-copy. Contrast vs
   TypeAR, encoder DeBERTa, proprietary Jev. jevals/Harbor bake-off
   candidate. No serve how-to.
+- Hourly ~14:03 Boise fold (`research/notes.md` §46): Archer still
+  Watch. Open multimodal RLCD
+  ([blackwood-rlcd](https://huggingface.co/BlackwoodAI/blackwood-rlcd),
+  CC BY-NC): screenshot + marked candidates → Choice; web acc 0.907 vs
+  Jev 1.13 text-only 0.480; letter-shuffle 0.133 vs 0.587; ECE 0.037;
+  ~200 ms H100; Jev still leads general text 0.850 vs 0.786. Shared
+  bake-off ([open-jev-laya-bench](https://huggingface.co/datasets/pngwn/open-jev-laya-bench)):
+  26+9 tasks, 11959 items; ECE/NLL/Brier; macro acc Δ +0.023
+  neutral / +0.229 home; LLM-as-judge is not the score. Decision-token
+  QLoRA
+  ([Foodoo1/Qwen3-14B-RLCD-Decision-LoRA](https://huggingface.co/Foodoo1/Qwen3-14B-RLCD-Decision-LoRA)):
+  fraud_risk 64→95%, overall 85.2→98.8% at ~234 ms/4-field broadcast;
+  synthetic. jevgate frame: allowlist *proves*, Jev judges only
+  unlisted, fail-open. wellposed: missing `other` → confidence 1.00
+  wrong; gating cannot catch it (`tenbin` owns the lint skill).
+  S1 reflex keeps control (jev-reflex-autonomy-lab). MED:
+  jev-decision-layer, jev-e2e, jevpandas. No wrapper.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

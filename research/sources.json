@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-18T19:54Z",
+  "retrieved": "2026-09-18T20:03Z",
   "sources": [
     {
       "kind": "docs",
@@ -1249,6 +1249,60 @@
       "title": "jaredpalmer/kev MODEL_CARD.md",
       "url": "https://github.com/jaredpalmer/kev/blob/main/MODEL_CARD.md",
       "note": "Research prototype; ID ECE 0.065 / 0.031 after T=1.47; isolation probes. notes.md \u00a745."
+    },
+    {
+      "kind": "huggingface",
+      "title": "BlackwoodAI/blackwood-rlcd",
+      "url": "https://huggingface.co/BlackwoodAI/blackwood-rlcd",
+      "note": "Open multimodal RLCD; CC BY-NC; Jev-compatible shim. Web acc 0.907 vs Jev 1.13 text-only 0.480; letter-shuffle 0.133 vs 0.587; ECE 0.037; ~200ms H100. Jev still leads general text 0.850 vs 0.786. Not Archer. notes.md \u00a746."
+    },
+    {
+      "kind": "huggingface",
+      "title": "pngwn/open-jev-laya-bench",
+      "url": "https://huggingface.co/datasets/pngwn/open-jev-laya-bench",
+      "note": "Shared bake-off Qwen3.5-4B scorer vs Laya 421M. 26+9 tasks, 11959 test items. ECE/NLL/Brier. Macro acc \u0394 +0.023 neutral, +0.229 home. Not TypeSafe Jev vs Laya. notes.md \u00a746."
+    },
+    {
+      "kind": "huggingface",
+      "title": "Foodoo1/Qwen3-14B-RLCD-Decision-LoRA",
+      "url": "https://huggingface.co/Foodoo1/Qwen3-14B-RLCD-Decision-LoRA",
+      "note": "Decision-token QLoRA under parallel constrained decoding. fraud_risk 64\u219295%, overall 85.2\u219298.8% at ~234ms/4-field. Synthetic. Apache-2.0 adapter. notes.md \u00a746."
+    },
+    {
+      "kind": "github",
+      "title": "thevibeworks/jevgate (14:03 Boise frame)",
+      "url": "https://github.com/thevibeworks/jevgate",
+      "note": "Allowlist proves read-only verbs; Jev judges only unlisted; fail-open cannot block. Already \u00a725; frame this hour. MIT. notes.md \u00a746."
+    },
+    {
+      "kind": "github",
+      "title": "suraj-phanindra/wellposed",
+      "url": "https://github.com/suraj-phanindra/wellposed",
+      "note": "Lint Jev requests. Missing other \u2192 confidence 1.00 wrong; gating cannot catch. MIT. tenbin owns the lint skill. notes.md \u00a746."
+    },
+    {
+      "kind": "github",
+      "title": "khordoo/jev-reflex-autonomy-lab",
+      "url": "https://github.com/khordoo/jev-reflex-autonomy-lab",
+      "note": "S1 Jev reflex keeps control; optional S2 one-use advice. Experimental. License null this pass. notes.md \u00a746."
+    },
+    {
+      "kind": "github",
+      "title": "Wany-i/jev-decision-layer",
+      "url": "https://github.com/Wany-i/jev-decision-layer",
+      "note": "Business decision tool; gate is part of the result; other required. MIT. Unofficial. notes.md \u00a746."
+    },
+    {
+      "kind": "github",
+      "title": "perixtar/jev-e2e",
+      "url": "https://github.com/perixtar/jev-e2e",
+      "note": "Jev selects observed controls; Playwright independently checks. PASS/FAIL/BLOCKED. MIT. Alpha. notes.md \u00a746."
+    },
+    {
+      "kind": "github",
+      "title": "yalindogusahin/jevpandas",
+      "url": "https://github.com/yalindogusahin/jevpandas",
+      "note": "pandas semantic index; noul/choice/score; LICENSE 404 this pass. notes.md \u00a746."
     }
   ]
 }
