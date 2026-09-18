@@ -33,6 +33,11 @@ rejected two correct mates (`notes.md` §42).
 149-row cousin: [`typesafe-jev-tools`](https://github.com/wotai-dev/typesafe-jev-tools)
 — Jev confidence monotonic vs Haiku invert in 0.80–0.95; do not copy
 the hook.
+Open reconstruction cousin: [`jaredpalmer/kev`](https://github.com/jaredpalmer/kev)
+— isolation packed vs separate max Δ 3.7e-6; secret-in-sibling p=0.03
+vs in-state 0.99; permute argmax flips 7.4%; IIA log-odds shift mean
+0.13; boundary forgery held. Those tests mirror Archer probes; they do
+not prove kev = Jev (`notes.md` §45).
 
 ## Offline eval: selective binary decisions
 
@@ -52,9 +57,12 @@ the offline Brier / reliability / cost evaluator. Pointer only
 the Harbor substrate, and the one composition table are **Eval &
 hill-climb** below — do not restate them here. A bake-off
 candidate on that same labeled-case surface, beside Laya, openjev-lm,
-and TypeAR, is [Bespoke Nimble](https://github.com/bespokelabsai/nimble)
+TypeAR, and [kev](https://github.com/jaredpalmer/kev), is
+[Bespoke Nimble](https://github.com/bespokelabsai/nimble)
 — an open LoRA recipe, not a Jev distill; their 324-example holdout is
-a named receipt, not a ranking (`research/notes.md` §35). Same
+a named receipt, not a ranking (`research/notes.md` §35). kev is the
+runnable Archer-reconstruction candidate on the same surface (public
+gold, measured ID ECE, not a teacher-copy; `notes.md` §45). Same
 acceptance-test *surface*, different UI:
 [jeiel85/jevscope](https://github.com/jeiel85/jevscope) (local-first
 visual debugger + JSONL regression; policy buckets are JevScope-derived,
@@ -304,15 +312,18 @@ row is enough. ECE above is wanted, not a Nimble result.
 
 ### Bake-off mandate
 
-Before adopting proprietary Jev vs Laya vs TypeAR vs Nimble vs Archer
+Before adopting proprietary Jev vs Laya vs TypeAR vs Nimble vs kev vs Archer
 vs openjev-lm, run a jevals-shaped labeled suite (or an equivalent
 with this hygiene) and, for a product loop, a Harbor taskset. A design
 card with no eval path is incomplete.
 
 Archer weights are still a **Watch** — not on the Hub as of 2026-09-18
-(`notes.md` §31–§33). That bake-off is future, not Empirical. "A 9B
+(`notes.md` §31–§33). That bake-off is future, not Empirical. kev is
+the shipped 0.5B reconstruction on the trained decision-only path, not
+that drop (`notes.md` §45). "A 9B
 LoRA is enough versus Jev" stays **Hypothesis** (`notes.md` §35).
-openjev-lm is the name of that distill. Nimble is not a Jev distill
+openjev-lm is the name of that distill. kev is not a Jev distill.
+Nimble is not a Jev distill
 (model card Apache-2.0; GitHub LICENSE was 404). Meijer: marginals,
 not a PPL, not Kleisli (`notes.md` §34). djev-spark is a third compute
 graph, not the winner of this bake-off (`notes.md` §36). Do not

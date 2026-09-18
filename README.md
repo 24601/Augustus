@@ -29,7 +29,7 @@ never launder a Noul as a proof.
   frames (EU, abstention, VOI, MCDA, SDT, search/control, Leveson,
   NATM/snap-fit/Norman); not SWE-only
 - `.agents/skills/augustus/references/judgment-class.md` — the class (Jev
-  exemplar, not monopoly): open heads (Laya, encoder DeBERTa, LoRA
+  exemplar, not monopoly): open heads (Laya, kev, encoder DeBERTa, LoRA
   distill), constrained-AR (TypeAR, pcdServer), announced decision-model (Watch),
   GLiNER/GLiClass species (locate vs categorize vs local multi-head),
   listwise vs decision objectives, vision scoring, when-to-use axes,
@@ -49,7 +49,7 @@ never launder a Noul as a proof.
 - `.agents/skills/augustus/references/applied-mappings.md` — context sieve,
   exact-text keep/drop, env triage, moderation/ranking, skill routing
 - `.agents/skills/augustus/references/faq.md` — "just classification",
-  stack replacement, Jev vs open head vs encoder vs LoRA vs constrained AR,
+  stack replacement, Jev vs open head vs encoder vs LoRA vs constrained AR vs kev,
   GLiNER vs GLiClass vs CLIP, LLM-as-judge, in-engine vs CLI store,
   hard envelope (bitrate / planner), not-another-how-to
 - `.agents/skills/augustus/references/mappings.md` — classical-method

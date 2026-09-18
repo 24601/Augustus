@@ -372,14 +372,17 @@ Reproduce/open heads (`rongxinzy/LightJev`, openjev family,
 [`convaiinnovations/laya`](https://huggingface.co/convaiinnovations/laya),
 encoder [`open-jev-deberta-v3-large`](https://huggingface.co/com-kotobalabs/open-jev-deberta-v3-large),
 LoRA [`jev-gate-student-b`](https://huggingface.co/SargeDev/jev-gate-student-b),
-companion packaging [`laya-typed-decisions`](https://huggingface.co/convaiinnovations/laya-typed-decisions))
+companion packaging [`laya-typed-decisions`](https://huggingface.co/convaiinnovations/laya-typed-decisions),
+[`jaredpalmer/kev`](https://github.com/jaredpalmer/kev))
 are evidence that the *interface* (Choice/Score/Noul, or yes/no logits
 as P(relevant)) is the transferable part — not a request to implement a
 backbone or a second API skill. Laya: self-hostable, text-only, 512
 tokens/question; vendor benches vs Jev are **claims**. Encoder open-jev:
-public gold, OOD drop. LoRA student: teacher-copy. Hume's 27B
+public gold, OOD drop. LoRA student: teacher-copy. **kev**: public gold,
+pointer readout, System One API drop-in; ID ECE only; not a teacher-copy
+(`notes.md` §45). Hume's 27B
 decision-model drop is **Watch**. Closed calibrated API vs open weights
-is a self-eval tradeoff (`research/notes.md` §18, §33). When-to-use
+is a self-eval tradeoff (`research/notes.md` §18, §33, §45). When-to-use
 axes: `judgment-class.md`. TypeSafe remains the documented *exemplar*,
 not the class monopoly. GLiNER (locate) / GLiClass (categorize) /
 GLiNER2.5 (local multi-head), listwise, and vision families:

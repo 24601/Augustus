@@ -3,7 +3,7 @@
 These cards are *where a judgment-class model sits* in running software.
 They are family-agnostic: the **typed judgment provider** is TypeSafe Jev
 by default (live docs / `typesafe-ai`); an open Choice/Score/Noul head
-(e.g. Laya) is a substitute you must self-eval (`research/notes.md` §18);
+(e.g. Laya, kev) is a substitute you must self-eval (`research/notes.md` §18, §45);
 GLiNER (locate) / GLiClass (categorize) / listwise rankers / vision scorers
 are cousin species with different objectives (`judgment-class.md`). Do not
 copy request fields from this file.

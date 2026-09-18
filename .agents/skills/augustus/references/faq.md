@@ -60,10 +60,11 @@ needs a paragraph, the generator re-enters.
 No. Augustus designs for the whole class of fast/cheap
 categorization-classification-scoring models. TypeSafe Jev is the
 documented exemplar (typed Choice / Score / Noul, live docs). Neighbors
-in the class — open System-1 / decision-model heads (Laya, openjev-lm,
-encoder DeBERTa, LoRA distill; Hume's 27B drop is Watch), constrained-AR
-(TypeAR), GLiNER/GLiClass encoder family (locate vs categorize vs local
-multi-head), listwise/pairwise rankers, vision scorers — are substitutes
+in the class — open System-1 / decision-model heads (Laya, kev,
+openjev-lm, encoder DeBERTa, LoRA distill; Hume's 27B drop is Watch),
+constrained-AR (TypeAR), GLiNER/GLiClass encoder family (locate vs
+categorize vs local multi-head), listwise/pairwise rankers, vision
+scorers — are substitutes
 or cousins. Pick the family from the hole, then the vendor
 (`judgment-class.md` species map and when-to-use table).
 `typesafe-ai` still owns *Jev* contracts; other families own their own
@@ -85,19 +86,28 @@ on fresh rows measures *agreement with the teacher*, not gold. Self-eval
 on your own independent labels before you treat it as a decision API
 (`notes.md` §25).
 
+[jaredpalmer/kev](https://github.com/jaredpalmer/kev) is the laptop-local
+System One **API drop-in** on that same open path: Qwen2.5-0.5B LoRA +
+pointer, public gold not a Jev teacher, official SDK with a `base_url`
+change. Use it for development and eval. Do not use 0.5B ID ECE as a
+knowledge or frontier substitute (`notes.md` §45).
+
 ## Open weights vs Jev vs constrained decoding vs encoder vs LoRA?
 
 Five surfaces, not one family (`judgment-class.md` when-to-use table).
 Three *open* paths sit beside proprietary Jev: **encoder** open-jev
 (DeBERTa, public gold), **AR constrained decode** (TypeAR; native
 [pcdServer](https://github.com/stephanj/pcdServer) GGUF serving),
-**trained decision-only** (Laya / Nimble / Archer Watch). Proprietary Jev is the documented decision API; you do not hold the
+**trained decision-only** (Laya / Nimble / **kev** / Archer Watch). Proprietary Jev is the documented decision API; you do not hold the
 weights, so checks around the boundary stay black-box
-(`formal-methods.md`). A trained decision-only open head (Laya,
+(`formal-methods.md`). A trained decision-only open head (Laya, kev,
 openjev-lm, encoder DeBERTa, a LoRA student) copies the Choice / Score /
 Noul *shape* and moves eval onto you. Distills trained on Jev's
 *answers* (openjev-lm, jev-gate-student-b) are teacher-copies — read
-agreement separately from gold. Encoder open-jev
+agreement separately from gold. **kev** is not that distill: CE on
+public labelled outcomes, pointer readout, isolation probes, ID ECE
+0.065 (0.031 after temperature scaling) on 1,350 questions — still
+self-eval, still not OOD (`notes.md` §45). Encoder open-jev
 ([DeBERTa-v3-large](https://huggingface.co/com-kotobalabs/open-jev-deberta-v3-large))
 was trained on public gold, not Jev; in-domain ECE 0.022, OOD acc
 0.854→0.690. Constrained autoregressive decoding (TypeAR; README names
@@ -134,7 +144,9 @@ Hole first, logo last. These are **species**, not aliases
   limits (e.g. 255-way Choice) are Jev's, not the class's. Distilled
   open heads (openjev-lm, jev-gate-student-b) copy the *teacher*, not
   independent gold. Encoder open-jev (DeBERTa) is the same *shape* on
-  public gold — still self-eval, especially OOD. Hume's 27B drop is
+  public gold — still self-eval, especially OOD. **kev** is the
+  causal-decoder + pointer productization of Archer's reconstruction on
+  public gold (API-compatible; not a teacher-copy). Hume's 27B drop is
   Watch. When-to-use axes: `judgment-class.md`.
 - **Cross-encoder / listwise ranker:** order of a retrieved shortlist.
   Fail **open** (keep retrieval order). Translation-invariant listwise

@@ -37,7 +37,9 @@ prompt loop: schema, criteria, and policy thresholds, scored on labeled
 eval (jevals) — not a search over a decoder. Open recipes such as
 Nimble: climb data curation and LoRA, measured on holdout ECE and
 agreement. Nimble's published holdout is agreement on synthetic
-labels, not a measured ECE (`judgment-class.md`).
+labels, not a measured ECE (`judgment-class.md`). kev: climb LoRA /
+public-gold labels; the published ID ECE is a receipt, not your
+workflow (`notes.md` §45).
 
 No call shape in this paragraph. The adapter notes below stay names of
 seats, not a request you copy.

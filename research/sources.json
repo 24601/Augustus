@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-18T18:58Z",
+  "retrieved": "2026-09-18T19:54Z",
   "sources": [
     {
       "kind": "docs",
@@ -1231,6 +1231,24 @@
       "title": "higgsfield_ai: GenAI model auto-routing",
       "url": "https://x.com/higgsfield_ai/status/2101022473248727177",
       "note": "2026-09-18T18:56:07Z. Claim, no labeled catalog. Same hole as routeKit. notes.md \u00a744."
+    },
+    {
+      "kind": "github",
+      "title": "jaredpalmer/kev",
+      "url": "https://github.com/jaredpalmer/kev",
+      "note": "Runnable Archer reconstruction: Qwen2.5-0.5B LoRA + pointer, POST /v1/systemone, Apache-2.0. Public gold, not a Jev teacher. notes.md \u00a745."
+    },
+    {
+      "kind": "github",
+      "title": "jaredpalmer/kev release v0.1.0 (kev-0.5b)",
+      "url": "https://github.com/jaredpalmer/kev/releases/tag/v0.1.0",
+      "note": "38 MB LoRA + pointer head weights. Held-out acc 0.799 / ECE 0.065. notes.md \u00a745."
+    },
+    {
+      "kind": "github",
+      "title": "jaredpalmer/kev MODEL_CARD.md",
+      "url": "https://github.com/jaredpalmer/kev/blob/main/MODEL_CARD.md",
+      "note": "Research prototype; ID ECE 0.065 / 0.031 after T=1.47; isolation probes. notes.md \u00a745."
     }
   ]
 }

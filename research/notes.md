@@ -2316,3 +2316,84 @@ gallery + host-adapter note; `applied-mappings.md` §1 / §5;
 `validation.md` harness practice; `mental-models.md` envelope +
 planner; FAQ in-engine vs CLI; `judgment-class.md` encoder vs decoder
 replica (no new species). No wrapper.
+
+## 45. kev — runnable Archer reconstruction, not a distill (2026-09-18)
+
+HTTP 200 this pass:
+[jaredpalmer/kev](https://github.com/jaredpalmer/kev) README (raw
+`main`), [MODEL_CARD.md](https://github.com/jaredpalmer/kev/blob/main/MODEL_CARD.md),
+[LICENSE](https://github.com/jaredpalmer/kev/blob/main/LICENSE)
+(Apache-2.0; GitHub API `license.key` apache-2.0),
+[release v0.1.0](https://github.com/jaredpalmer/kev/releases/tag/v0.1.0),
+[Archer Hume, *Jev's Architecture Unmasked*](https://archerhume.com/posts/jevs-architecture-unmasked)
+(with and without trailing slash), TypeSafe
+[System One API](https://docs.typesafe.ai/api).
+
+GitHub API this pass: created 2026-09-17T20:49:39Z; pushed
+2026-09-18T19:50:58Z; 24★; language TypeScript (playground); default
+branch `main`. Description: "tiny Jev-like model built on top of
+Qwen2.5-0.5B you can train and run on your MacBook." Not
+`Kevthetech143/super-jev`.
+
+**What it is (Contract as README + model card).** Jared Palmer, Apache-2.0
+adapter/head (Qwen2.5-0.5B under the Qwen license). LoRA (r=16) + a
+pointer readout on that 0.5B causal backbone. Typed questions in,
+calibrated probabilities out, one prefill pass, no decode. State and
+questions packed into one sequence; a block-causal mask lets each
+question see the document and never a sibling. The pointer head scores
+each option against the question's `<decide>` token and softmaxes.
+Trained with cross-entropy against labelled outcomes. Architecture
+explicitly follows Hume's reconstruction (§31): shared state, isolated
+questions, pointer head, CE vs labelled outcomes. API follows TypeSafe
+`POST /v1/systemone`; official `typesafe-sdk` works with a `base_url`
+change. Weights `kev-0.5b` (38 MB: LoRA adapter, readout head,
+tokenizer) on GitHub release v0.1.0; base model from the Hub on first
+load. Trains ~1h45m on an Apple M5; ~160 ms for a six-question
+request. Model card: research prototype, not production, not Jev.
+Do not copy serve flags, ports, or train commands into skill cards.
+
+**Not a distill.** Six public datasets converted to TypeSafe-shaped
+requests (Banking77, AG News, MNLI, BoolQ, SST-5, Yelp): 9,000 records,
+13,500 questions, two epochs. No LLM-generated data. Distinct from
+openjev-lm / jev-gate on the *same* 0.5B backbone: those copy a hosted
+Jev teacher. Distinct from Nimble: 9B contrastive synthetic labels, no
+measured ECE. Distinct from encoder open-jev: bidirectional DeBERTa,
+OOD drop measured. Distinct from TypeAR / pcdServer: those decode a
+constrained next token. Distinct from proprietary Jev: closed weights,
+~32k envelope. Distinct from Archer Watch: 27B announced, multimodal,
+no Hub weights this pass.
+
+**Evidence (README / model card; not re-run; Empirical as their named
+receipt).** Isolation exact: packed vs separate max Δ **3.7e-6**;
+secret-in-sibling / absent / in-state **p = 0.03 / 0.03 / 0.99**.
+Held-out ECE **0.065** (10 bins) on 1,350 ID questions; **0.031** after
+one-parameter temperature scaling (T=1.47). Overall acc **0.799**.
+Permute (4 orders, Choice K ≥ 3): argmax flips **7.4%**. IIA: log-odds
+shift from one irrelevant option **mean 0.13**, p90 0.34. Boundary
+forgery: option count unchanged, forged option p ≤ 0.09. Per-source
+cells (acc / ECE) stay in the model card; do not promote them into a
+ranking against Jev.
+
+**Honest limits (their words).** 0.5B knowledge (on the TypeSafe docs'
+structured-criteria example kev picks `return_policy` where Jev picks
+`return_status`). Calibration is in-distribution; ECE on the training
+datasets says nothing about a new workflow. Not multimodal. Trained at
+384 state / 1,024 branch tokens; serving caps at 8,192 vs Jev ~32k.
+Score confidence is a stand-in; TypeSafe has not published theirs.
+Choice `confidence` uses `(p_max − 1/K) / (1 − 1/K)` — the same
+arithmetic Hume reconstructed in the official adapter (§31), as *their*
+API derivation, not a TypeSafe contract.
+
+**Placement.** (a) trained decision-only open path next to Laya / Nimble
+/ Archer Watch; (b) cleanest *runnable* productization of Archer's
+reconstruction (API-compatible); (c) contrast vs TypeAR (constrained
+AR decode) vs encoder open-jev vs proprietary Jev; (d) jevals/Harbor
+bake-off candidate; mechanism tests mirror Archer probes — they
+falsify the reconstruction, they do not prove kev = Jev; (e) when to
+use: laptop-local System One API drop-in for development/eval; not a
+knowledge/frontier substitute. **Empirical** as a public repo + named
+ID receipt. **Hypothesis** that it substitutes for Jev on *your*
+labels. Cards: `judgment-class.md`; FAQ; `validation.md`;
+`mental-models.md`; `mixed-architecture.md`; `formal-methods.md`
+(pointer-softmax is still a sensor); `optimizer-integration.md`.
+No wrapper.

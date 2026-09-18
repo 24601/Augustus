@@ -36,7 +36,7 @@ taxonomy with enough of *your* data (XGBoost still wins there —
 | Family | What it optimizes | Typical output | Use when | Watch |
 |---|---|---|---|---|
 | **Closed decision API** (TypeSafe Jev) | Calibrated decision (proper-scoring / RLCD lineage) | Choice / Score / Noul + distributions | Default when you need act/abstain, fan-out, documented envelope | Cloud, pin version, re-measure on your data. AU health data-residency is a reason *not* to pick this family (`notes.md` §33) |
-| **Open System-1 / decision-model head** (Laya, openjev, LightJev, openjev-lm, Nimble, Hume **Watch**) | Same *shape* as Jev, you host it | Same primitives or logits-as-options | Air-gap, $0/token, inspectable weights, deployment control | Self-eval duty; Laya text-only, 512 tok; vendor vs-Jev tables are claims (`notes.md` §18). A distill learns the *teacher's* answers: openjev-lm and jev-gate-student-b (`notes.md` §25, §33). Nimble is an open LoRA recipe on hard labels, not a Jev distill (`notes.md` §35). Hume's 27B dense drop is **Watch**, not a Hub checkpoint. He prefers the class name **decision models** over "system one" |
+| **Open System-1 / decision-model head** (Laya, openjev, LightJev, openjev-lm, Nimble, **kev**, Hume **Watch**) | Same *shape* as Jev, you host it | Same primitives or logits-as-options | Air-gap, $0/token, inspectable weights, deployment control | Self-eval duty; Laya text-only, 512 tok; vendor vs-Jev tables are claims (`notes.md` §18). A distill learns the *teacher's* answers: openjev-lm and jev-gate-student-b (`notes.md` §25, §33). Nimble is an open LoRA recipe on hard labels, not a Jev distill (`notes.md` §35). **kev** is a shipped Qwen2.5-0.5B LoRA + pointer readout of Archer's reconstruction — public gold, not a Jev teacher; ID ECE only (`notes.md` §45). Hume's 27B dense drop is **Watch**, not a Hub checkpoint. He prefers the class name **decision models** over "system one" |
 | **Encoder open-jev** (DeBERTa-v3-large) | Same *shape*, bidirectional encoder, public gold (not a Jev teacher) | Choice / Score / Noul from one pass | Self-host decide without a decoder; 512 tok | In-domain ECE 0.022; OOD acc 0.854→0.690. English / three public domains. `notes.md` §33 |
 | **Constrained-AR surface** (TypeAR, **pcdServer**; not a species) | Next-token constraint on a pretrained generator | Distribution over allowed values | Typed fields without retraining; later fields must see earlier answers; local GGUF serving | Different objective from a proper-scoring head. TypeAR README enums ≤16; pcdServer 2–256 / 1–63 parallel fields. No abstention primitive. Compute-graph card below (`notes.md` §31, §32, §42). Public logit dump: mini-jev-runs |
 | **GLi\* encoder family** (GLiNER locate / GLiClass categorize / GLiNER2.5 local multi-head / GLiGuard safety schema) | One-pass labels-in-encoder; spans, sequence labels, a safety schema, or both | Spans + types; per-label sigmoid/softmax; optional relations/records | Laptop/local; large or changing label sets; "what's *in* the text" vs "what *is* the text" vs "which safety labels fire" | Affinities are not automatically a gateable P(permit). GLiGuard is not a Jev weight clone. Species map below. Not a Jev how-to and not a GLiNER or GLiGuard install |
@@ -54,7 +54,7 @@ code owns side effects." They are not aliases.
 ```text
 locate      GLiNER (span NER)              what's *in* the text
 categorize  GLiClass / GLiGuard            what the text is; which schema labels fire
-decide      Jev / Laya / openjev           Choice / Score / Noul over a state
+decide      Jev / Laya / openjev / kev     Choice / Score / Noul over a state
 rank        listwise / cross-encoder       order a retrieved shortlist
 perceive    CLIP / SigLIP / region Choice  score candidates you extracted
 ```
@@ -85,9 +85,11 @@ below, next to the when-to-use table.
   objective. That is Jev's product claim. Open heads copy the *shape*;
   distillation copies the *teacher* (openjev-lm, jev-gate-student-b).
   Encoder open-jev (DeBERTa) copies the shape on public gold and still
-  owes OOD self-eval. A constrained autoregressive decode can emit a
-  label and still not be this species — compute-graph card below.
-  Hume's announced 27B dense drop is Watch.
+  owes OOD self-eval. **kev** copies the Archer readout (block-causal
+  isolation, pointer head, CE vs labelled public gold) and still owes
+  *your* ECE — ID numbers are not OOD. A constrained autoregressive
+  decode can emit a label and still not be this species — compute-graph
+  card below. Hume's announced 27B dense drop is Watch.
 - **Categorize (safety schema).** [GLiGuard](https://github.com/fastino-ai/GLiGuard)
   ([arXiv 2605.07982](https://arxiv.org/abs/2605.07982); Zaratiana,
   Newhauser, Hurn-Maloney, Lewis, Fastino): a GLiNER2 encoder that
@@ -245,13 +247,14 @@ capability shift, independent of vendor:
 5. **Open heads and GLi\* make the control plane local.** Air-gap /
    on-device / laptop (GLiNER2.5 74M–287M CPU-first; openjev-lm 0.5B
    LoRA overnight on 6 vCPU; encoder open-jev DeBERTa-v3-large 434M;
-   jev-gate-student-b 0.5B LoRA memory gate) become newly feasible *if*
+   jev-gate-student-b 0.5B LoRA memory gate; **kev** 0.5B LoRA + pointer,
+   ~160 ms / 6 questions on an M5) become newly feasible *if*
    you accept self-eval and envelope limits. They do not make
    calibration optional. Distilling a hosted teacher is not independent
    gold. Hume's 27B dense drop is the large-local Watch, not a third
    how-to.
-6. **Cross-modal is still thin.** Discourse, GLiNER/GLiClass, Laya, and
-   the encoder open-jev are text-first. Vision is a scoring pattern
+6. **Cross-modal is still thin.** Discourse, GLiNER/GLiClass, Laya, kev,
+   and the encoder open-jev are text-first. Vision is a scoring pattern
    (above), not a shipped omni decision API. Hume reports that a
    multimodal *base* plus text post-training generalizes to images with
    little intentional multimodal training — a Watch claim, not a
@@ -376,14 +379,16 @@ program.
 | Need | Place | Do not |
 |---|---|---|
 | Calibrated p(y\|x) over a closed set | Trained decision-only head (Jev, or an open head you have proper-scored and measured on your labels) | Threshold a generated "90%", an affinity you have not calibrated, TypeAR constrained scores, or a LoRA student's agreement with the teacher |
+| Laptop-local System One API for development / eval | **kev** — trained decision-only readout; official SDK with a `base_url` change (`notes.md` §45) | Treat 0.5B ID ECE as a knowledge or frontier substitute, or as OOD calibration |
 | Dependent sequential decisions | Constrained AR that conditions later steps on earlier answers (TypeAR sequential), or code-owned transitions and a new request per stage | Treat sibling questions on one request as if they attend each other |
-| Open multimodal self-host / data-residency | Hume's announced **decision-model** drop **when it ships** (Qwen3.8 27B **dense**, 265k, multimodal, no audio; one forward pass locally once AR is removed; MoE next then shrink). Driver: healthcare AU residency, not anti-TypeSafe | Ship on "smarter than Jev." That is his early claim, against his own order-sensitivity and in-distribution calibration warnings. **WATCH** — no Hub weights this pass. Laya remains text-only. jev-visual is region Choice, not this drop |
+| Open multimodal self-host / data-residency | Hume's announced **decision-model** drop **when it ships** (Qwen3.8 27B **dense**, 265k, multimodal, no audio; one forward pass locally once AR is removed; MoE next then shrink). Driver: healthcare AU residency, not anti-TypeSafe | Ship on "smarter than Jev." That is his early claim, against his own order-sensitivity and in-distribution calibration warnings. **WATCH** — no Hub weights this pass. Laya remains text-only. kev is text-only. jev-visual is region Choice, not this drop |
 | Image-in now, different graph | Diffusion structured reads that already accept images on a Jev-shaped interface ([djev-spark](https://github.com/mmastrac/djev-spark)) | Wait on the row above for image-in, or treat this graph as a proof it beats a decision head |
 
 ### When to use which decision surface
 
-Five *surfaces*, not five species — plus an open recipe and a diffusion
-graph that are not extra species either. Pick from the hole and these
+Five *surfaces*, not five species — plus open recipes (Nimble; **kev**
+as the runnable Archer reconstruction) and a diffusion graph that are
+not extra species either. Pick from the hole and these
 axes; do not start from a logo. Hume prefers the class name **decision
 models** over "system one"
 ([tweet](https://x.com/4rcherhume/status/2100604161821979134)). This
@@ -400,23 +405,28 @@ is the generator, not a sixth surface.
 | **Encoder open-jev** (DeBERTa-v3-large 434M) | Public gold, CE+Brier, val temperature. In-domain ECE 0.022 / acc 0.854; OOD acc 0.690 / ECE 0.035. **Not** a Jev teacher-copy | One pass over state + all questions; 512 tok | Author: 28 ms / 10 questions H100; 1.8 s / 4q M1 Max CPU | apache-2.0, self-host | Text | Jev-shaped 255 / Score 2–10 / Noul; 512 ctx |
 | **Tiny LoRA distill** (jev-gate-student-b) | Teacher-copy. P(relevant) from yes/no logits. Held-out n=60 vs vanilla 0.5B; 148,160-row corpus | Memory-gating / context sieve; **fail-open** on errors | Qwen2.5-0.5B LoRA; ~59 ms RTX 3060 | Local, apache-2.0 | Text | Binary relevance |
 | **Nimble** (open LoRA recipe, not a distill) | Hard synthetic labels. They say temperature was not tuned to correctness rates. 324-row agreement is their receipt, not an ECE (`notes.md` §35) | Not a gather primitive | Their latency table, not re-run | Self-host the adapter. Model card Apache-2.0; repo license absent | Text only | Enum ≤26; 2,048 tokens |
+| **kev** (Qwen2.5-0.5B LoRA + pointer; Apache-2.0) | Public gold, CE. Held-out ECE 0.065 (0.031 after T=1.47); acc 0.799 on 1,350 ID questions. Isolation exact. **Not** a Jev teacher-copy (`notes.md` §45) | Laptop-local System One drop-in for development/eval; independent questions, one prefill | ~160 ms / 6 questions; ~1h45m train on M5; 38 MB adapter | Self-host; official `typesafe-sdk` with `base_url` | Text. Not multimodal. 0.5B knowledge | noul / choice 2–255 / score |
 | **Diffusion structured reads** (djev-spark) | Interface claim only. **Hypothesis** it beats a decision head on your labels (`notes.md` §36) | Optional sequential chunks, text-only | Their GX10 tables, not a class benchmark | DGX Spark container. Do not copy the route | Images are an extension; think and sequential reject images | README criteria, not copied here |
 
 **Three open paths** (not three species, not extra when-to-use rows):
 encoder open-jev (DeBERTa, public gold); AR constrained decode (TypeAR
 Python/SGLang, pcdServer native GGUF); trained decision-only (Laya /
-Nimble / Archer **Watch**). Encoder vs decoder **replicas** of that
-third path: DeBERTa is public gold with an OOD drop; openjev-lm /
-jev-gate LoRAs are teacher-copies with named receipts (overnight
-6-vCPU, $0/call — economics, not a new species; `notes.md` §25, §44).
-Pick from the hole. A constrained softmax
+Nimble / **kev** / Archer **Watch**). **kev** is the cleanest *runnable*
+productization of Archer's reconstruction on that third path
+(API-compatible; `notes.md` §45). Watch stays Watch. Encoder vs decoder
+**replicas** of that third path: DeBERTa is public gold with an OOD
+drop; openjev-lm / jev-gate LoRAs are teacher-copies with named receipts
+(overnight 6-vCPU, $0/call — economics, not a new species; `notes.md`
+§25, §44). kev is public gold on the same 0.5B backbone as openjev-lm,
+not a teacher-copy. Pick from the hole. A constrained softmax
 is still not a Noul. Laya companion packaging this hour:
 [`laya-typed-decisions`](https://huggingface.co/convaiinnovations/laya-typed-decisions)
 (same 421.3M; acc 0.766 / Brier 0.066 on `LocalLLaMA/typed-decisions`,
 unverified — do not overwrite `notes.md` §18).
 
 Reject: TypeAR or pcdServer scores as fail-closed P(permit); a LoRA student's
-agreement with Jev as independent gold; shipping on "smarter than Jev";
+agreement with Jev as independent gold; kev's ID ECE as a license to skip
+a held-out test on *your* workflow; shipping on "smarter than Jev";
 thresholding [`jp-sns-jev7-estimator`](https://huggingface.co/kokuren/jp-sns-jev7-estimator)
 teacher scores as P(toxic) — the card says they are **not** calibrated,
 and `threat` F1@0.5 is 0.0000 on their table (`notes.md` §33). Domain-local
@@ -425,7 +435,7 @@ universal ranking. Diffusion beating a decision head is Hypothesis.
 
 Detail: `research/notes.md` §33 (surfaces), §34 (marginals), §35
 (Nimble), §36 (diffusion), §38 (entropy allocator, Hypothesis),
-§42 (pcdServer serving, meta-VOI, games). Before
+§42 (pcdServer serving, meta-VOI, games), §45 (kev). Before
 adopting a surface, the bake-off is a jevals-shaped suite and, for a
 product loop, a Harbor taskset (`validation.md`, Eval & hill-climb).
 The stage pipeline into that decision is the same file
@@ -503,7 +513,7 @@ The GitHub repo has no license file — do not call the repo Apache-2.0.
   (302/324), untuned Qwen3.8-27B 84.88% (275/324), base Qwen3.5-9B
   66.36% (215/324). **Empirical** as that named receipt, not a ranking.
   Synthetic labels, six source families, 162 pairs.
-- **Bake-off candidate** beside Laya, openjev-lm, and TypeAR.
+- **Bake-off candidate** beside Laya, openjev-lm, TypeAR, and kev.
   Adoption still requires the eval path (`validation.md`, Eval &
   hill-climb). Archer stays Watch. Not a jevals how-to.
 
@@ -514,6 +524,55 @@ rejected. Probabilities normalize over the candidates you supplied —
 the standing Choice-conditional-on-offered-set boundary (`SKILL.md`).
 Add "no match" when coverage is open. A high probability is not a
 correctness guarantee (their sentence).
+
+### kev — runnable Archer reconstruction (not a distill)
+
+[jaredpalmer/kev](https://github.com/jaredpalmer/kev) (Apache-2.0;
+README, MODEL_CARD, LICENSE, and release
+[v0.1.0](https://github.com/jaredpalmer/kev/releases/tag/v0.1.0) HTTP
+200). LoRA + pointer readout on Qwen2.5-0.5B. Shared state, isolated
+questions under a block-causal mask, one prefill, no decode.
+Architecture follows [Archer Hume's reconstruction](https://archerhume.com/posts/jevs-architecture-unmasked).
+Speaks TypeSafe `POST /v1/systemone`; official `typesafe-sdk` works
+with a `base_url` change. Weights `kev-0.5b` (38 MB) on that release.
+Not a how-to: do not copy serve flags, ports, or train commands.
+
+**Place it on the trained decision-only open path** next to Laya /
+Nimble / Archer Watch. It is the cleanest *runnable* productization of
+that reconstruction (API-compatible). Watch stays Watch: 27B,
+multimodal, no Hub weights this pass. Not `Kevthetech143/super-jev`.
+
+**Contrast** (same I/O shape, different graph / objective / duty):
+
+- **vs TypeAR / pcdServer.** Constrained AR decode; softmax over
+  allowed tokens is not a Noul. kev does not decode. Use TypeAR when a
+  later field must see an earlier answer.
+- **vs encoder open-jev (DeBERTa).** Bidirectional encoder, public
+  gold, OOD drop measured (acc 0.854→0.690). kev is a causal decoder +
+  pointer; OOD is unmeasured for this checkpoint.
+- **vs proprietary Jev.** Documented cloud decision API, ~32k envelope,
+  in-dist ECE 0.0313 with OOD collapse. kev is laptop-local, 0.5B
+  knowledge, ID calibration only.
+- **vs openjev-lm / jev-gate.** Those LoRAs copy a Jev *teacher*. kev
+  trains CE on public labelled outcomes. Same 0.5B backbone, different
+  gold.
+- **vs Nimble.** 9B contrastive hard labels, no measured ECE, enum
+  ≤26. kev publishes ECE and isolation probes.
+
+**Evidence (README; not re-run).** Isolation exact: packed vs separate
+max Δ 3.7e-6; secret-in-sibling p=0.03 vs in-state 0.99. Held-out ECE
+0.065 (0.031 after temperature scaling); overall acc 0.799 on 1,350 ID
+questions. Permute argmax flips 7.4%; IIA log-odds shift mean 0.13;
+boundary forgery held. Honest limits: 0.5B knowledge; ID calibration
+only; not multimodal. Model card: research prototype, not production,
+not Jev.
+
+**When to use.** Laptop-local System One API drop-in for development
+and eval. Not a knowledge or frontier substitute. **Bake-off
+candidate** on the jevals/Harbor path (`validation.md`); mechanism
+tests (isolation, permute, IIA, boundary forgery) mirror Archer probes
+— they falsify the reconstruction, they do not prove kev = Jev.
+`notes.md` §45.
 
 ### Constrained-AR surface (not `decide`)
 

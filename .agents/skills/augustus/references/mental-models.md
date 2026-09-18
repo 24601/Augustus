@@ -117,7 +117,8 @@ prefers the class name **decision models** over "system one"
 (`notes.md` §33); this file still says System One when quoting TypeSafe.
 Three open paths, not three species: encoder open-jev, AR constrained
 decode (TypeAR + pcdServer), trained decision-only (Laya / Nimble /
-Archer Watch). A constrained softmax is still not a Noul (`notes.md` §42).
+kev / Archer Watch). kev is the runnable Archer reconstruction on that
+third path; Watch stays Watch. A constrained softmax is still not a Noul (`notes.md` §42, §45).
 
 **Readout versus a token; IIA is a property.** A direct probability and a
 generated "91%" are different objects; the format calibrates neither

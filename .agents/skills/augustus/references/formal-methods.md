@@ -59,7 +59,8 @@ deployment control, not a feud with TypeSafe. Holding those weights,
 when they exist, still does not discharge a proof.
 A constrained-AR softmax (TypeAR, pcdServer) is still a sensor: it is
 not a discharged proof because the next token stayed in a declared set
-(`notes.md` §42).
+(`notes.md` §42). A local kev pointer-softmax is the same sensor on the
+trained decision-only path (`notes.md` §45).
 
 Existing grammar: composition-algebra position 9 (verifier) — verdicts
 are evidence, not enforcement. Position 3 (gate) — a filter is not

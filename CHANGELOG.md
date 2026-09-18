@@ -113,6 +113,17 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   OpenClaw typed routing ([jev-claw](https://github.com/trietphan/jev-claw)).
   Voice-control and JevML are README stubs. Higgsfield auto-routing is
   a claim. No wrapper.
+- kev (`jaredpalmer/kev`, `research/notes.md` §45): runnable Archer
+  reconstruction on the trained decision-only open path next to Laya /
+  Nimble / Watch. Qwen2.5-0.5B LoRA + pointer, Apache-2.0, `POST
+  /v1/systemone` drop-in. Isolation exact (packed vs separate max Δ
+  3.7e-6; secret-in-sibling p=0.03 vs in-state 0.99). Held-out ECE
+  0.065 (0.031 after temp scale); acc 0.799 on 1,350 ID questions.
+  Permute argmax flips 7.4%; IIA log-odds shift mean 0.13; boundary
+  forgery held. Laptop-local System One for development/eval; not a
+  knowledge/frontier substitute; not a Jev teacher-copy. Contrast vs
+  TypeAR, encoder DeBERTa, proprietary Jev. jevals/Harbor bake-off
+  candidate. No serve how-to.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

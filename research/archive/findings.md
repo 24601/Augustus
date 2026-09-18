@@ -680,6 +680,31 @@ in-engine vs CLI fork; (at) soft judgment inside a hard envelope
 (ABR, planner); (au) distill-to-device as a context sieve, not only
 an action gate.
 
+## Batch #28 (2026-09-18) — kev runnable Archer reconstruction
+
+Note: `research/notes.md` §45. Docs-only. Folded into PR #2, not a
+second PR. Archer 27B drop still Watch.
+
+- **kev (Empirical as named ID receipt; Contract as README/API).**
+  `jaredpalmer/kev`, Apache-2.0, 24★ this pass. Qwen2.5-0.5B LoRA +
+  pointer; `POST /v1/systemone`; typesafe-sdk `base_url`. Public gold,
+  not a Jev teacher. Isolation exact (Δ 3.7e-6; sibling p=0.03 vs
+  state 0.99). ECE 0.065 / 0.031 after T; acc 0.799 / 1,350 ID.
+  Permute 7.4%; IIA mean 0.13; boundary forgery held. 0.5B knowledge;
+  ID calibration only; not multimodal.
+- **Place:** trained decision-only open path next to Laya / Nimble /
+  Watch. Cleanest *runnable* productization of Archer's reconstruction.
+- **Contrast:** TypeAR (constrained AR ≠ Noul) vs encoder DeBERTa
+  (OOD measured) vs proprietary Jev vs openjev-lm (teacher-copy).
+- **Eval:** jevals/Harbor bake-off candidate; mechanism tests mirror
+  Archer probes.
+- **When-to-use:** laptop-local System One for development/eval; not a
+  knowledge/frontier substitute. No serve how-to.
+
+Cross-repo addition: (av) the trained decision-only path now has a
+shipped API-compatible reconstruction (kev); Watch remains the 27B
+announcement.
+
 
 
 

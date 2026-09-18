@@ -377,5 +377,19 @@
   mini-jev-runs, jev-tree-choice-cap.
 - notes.md §44; sources.json; findings.md batch #27. No wrapper.
 
+## 2026-09-18 19:54 UTC — kev (runnable Archer reconstruction)
+
+- Folded into open PR #2 (`cursor/augustus-store-envelope-00b4`); no
+  duplicate PR. Docs-only. Archer 27B drop still **WATCH**.
+- Source: [`jaredpalmer/kev`](https://github.com/jaredpalmer/kev)
+  README + MODEL_CARD + LICENSE Apache-2.0 + release v0.1.0, all HTTP
+  200. 24★. Isolation / ECE / acc / permute / IIA / forgery cited from
+  README; not re-run. Not a Jev distill (public gold CE).
+- Cards: `judgment-class.md` (family, holes, when-to-use, dedicated
+  card); FAQ; `validation.md` bake-off + mechanism tests;
+  `mental-models.md`; `mixed-architecture.md`; `formal-methods.md`;
+  `optimizer-integration.md`; SKILL.md path + identity lock.
+- notes.md §45; sources.json; findings.md batch #28. No wrapper.
+
 
 
