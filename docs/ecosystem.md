@@ -127,7 +127,7 @@ the READMEs, not a monopoly.
 - **AppitStudio/testimonial-miner** — extractive selection + multi-question broadcast + offline `redecide`. Model never writes the quote.
 - **choxos/jev-reviewer** — pointer-not-generator: line ids; verbatim copy with place; *not found* is an answer.
 - **us/jev-local** — contract-compatible `POST /v1/systemone`. Default scorer is a **stub** until `JEVLOCAL_SCORER=hf`.
-- **hitakshiA/solari-reflex** — observe → decide → verified act; no screenshots. Author table vs Codex on Solari ~3–7× wall. Encoder-backend cousin: gliner2-ultrafast (`notes.md` §52).
+- **hitakshiA/solari-reflex** — observe → decide → verified act; no screenshots. Author table vs Codex on Solari ~3–7× wall. Encoder-backend cousin: gliner2-ultrafast (`notes.md` §52). Specialist-form cousin: cua-s1 (`notes.md` §54).
 - **ktaletsk/jevframe** — pandas/Polars `.jev` accessor; full `p__`; sibling of jevpandas.
 - **de-niji/jev-hermes** — route ≠ memory: cheap intent gate skips memory tours.
 - **ngallodev-software/agent-workflow-typesafe-ai** — advisory sidecar receipts; never changes host routing (Apache-2.0).
@@ -184,6 +184,12 @@ Architecture notes, not a browser-agent catalog. `notes.md` §52. TypeSafe Jev i
 Architecture notes, not a plugin catalog. `notes.md` §53. TypeSafe Jev is the exemplar, not the monopoly. **Not a summarizer. Not session compaction. Not GLiNER.** Archer still Watch.
 
 - **tamaratran/jev-pruner** — after Bash, Jev Noul-prunes stdout chunks before the main LLM sees them. No summary. Hard envelope (≤10k estimated tokens; JSON/XML/YAML/diff/binary; whole-document commands) then soft Noul. Fail-safe keep original; full archive. Marketplace id still `fast-jev-output`. Codex is opt-in wrapper, not automatic interception. Same evidence-preserving *family* as fast-jev-compaction / gliner25-compaction; different *job* (command output vs session memory). Manual sweep (theirs): needles 24/24; mean reduction 83% on trim scenarios. Harbor plugin-eval cannot reach Jev. Terminal-Bench paired pilot is integration, not a full bench. MIT.
+
+### Hourly ~17:21 Boise (Cua-S1 specialist form System One, source-only)
+
+Architecture notes, not a Driver / MCP catalog. `notes.md` §54. TypeSafe Jev is the exemplar, not the monopoly. **Not TypeSafe Jev. Not GLiNER. Not a general CUA. Not multimodal pixels-in.** Archer still Watch. Weights Watch.
+
+- **trycua/cua `libs/cua-s1`** — specialist System One computer-use research. Profile `cua-s1-form-v0` (form-oriented UI). Parent MIT; ~23.3k★ this pass. Byte-level `tinyx` encoder + option-attention head: per observed element fill (from extracted `Label: value`) / check / click / skip. Does not generate values or selectors. Code owns execution order. Plan ≠ execute; dry-run default; `execute` and `submit` independent opt-ins; submit at most one high-confidence Button labeled exactly `Submit` / `Submit Form`; fail-closed on missing checkbox state; fill execution fails closed unless the runtime advertises token-based `set_value`. Source-only: no weights, no checkpoint scores. Offline metric *names* only (accuracy, abstention, coverage, wrong actions/targets, unsafe when should abstain). Tests exercise implementation, not checkpoint quality. Same observe→score-among-candidates→code-acts *job* as jev-ultrafast / gliner2-ultrafast / solari-reflex / laya-mind2web; parallel "System One" name in CUA, not a TypeSafe contract. Watch for a `cua-s1-form-v0` artifact drop.
 
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs

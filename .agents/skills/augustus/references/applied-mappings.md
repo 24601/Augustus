@@ -138,7 +138,11 @@ verified success (`notes.md` §52). Open-head cousin:
 [laya-mind2web](https://huggingface.co/ShaunSpark/laya-mind2web-browser-agent)
 — Laya operation + target index over interactive DOM elements (not
 screenshot multimodal). Contrast blackwood-rlcd (letters on a
-screenshot).
+screenshot). Specialist-form cousin, **not TypeSafe Jev:**
+[Cua-S1](https://github.com/trycua/cua/tree/main/libs/cua-s1) —
+option-attention among observed elements (fill/check/click/skip);
+code owns execution order; dry-run default; source-only
+(`notes.md` §54).
 **DOM-as-text + fan-out (Empirical as atlas browser-use *shape*):** a
 screenshot task translated into a structured DOM snapshot as `state`,
 then speculative questions over numbered candidates — not vision

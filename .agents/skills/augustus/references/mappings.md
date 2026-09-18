@@ -441,6 +441,10 @@ the same hole. Code owns actuators, dates, freshness. `DONE` is not
 the probe — application verifiers are. Contrast blackwood-rlcd
 (screenshot input). Hybrid remote TYPE is generation, not the
 classifier step (`notes.md` §52).
+[Cua-S1](https://github.com/trycua/cua/tree/main/libs/cua-s1) is the
+same substituted-classifier *job* on a specialist form contract
+(option-attention; plan ≠ execute; not TypeSafe Jev; source-only,
+`notes.md` §54).
 
 **Structure induction over a bag (Empirical as a *shape*, 2026-09-18):**
 [`Joymfl/dag-jev`](https://github.com/Joymfl/dag-jev) — unordered items
@@ -567,6 +571,16 @@ visibility / disabled / occlusion; no generated selectors or JS).
 GLiNER2 may only pick among candidates the snapshot already holds.
 `DONE` is not the monitor. Soft judgment inside a hard envelope,
 encoder backend — not a screenshot VLM (`notes.md` §52).
+
+**Named specialist-form envelope (Empirical as README / MODEL_CARD,
+2026-09-18 ~17:21; weights Watch):**
+[Cua-S1](https://github.com/trycua/cua/tree/main/libs/cua-s1)
+— the monitor is **code** (plan ≠ execute; dry-run default; one
+window; snapshot-bound tokens; reobserve; `execute`/`submit`
+opt-ins; fail-closed unknown checkbox; fill execution fails closed
+without advertised token `set_value`). The option-attention head may
+only pick among observed elements and extracted `Label: value`
+entities. Not TypeSafe Jev. No checkpoint scores (`notes.md` §54).
 
 ## 13. DST multiverse triage (Hypothesis)
 

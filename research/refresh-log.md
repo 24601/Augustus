@@ -583,6 +583,29 @@
   ecosystem, CHANGELOG, README.
 - notes.md §53; sources.json; findings.md batch #37. No wrapper.
 
+## 2026-09-18 23:21 UTC — Cua-S1 specialist form System One (~17:21 Boise)
+
+- Folded into open PR #2 (`cursor/augustus-store-envelope-00b4`).
+  Docs-only. Not a competing PR. Archer 27B drop still **WATCH**.
+  **Not TypeSafe Jev. Not GLiNER. Not a general CUA. Not multimodal
+  pixels-in.** Source-only — no weights, no checkpoint scores. No
+  invented metrics. No wrapper. No `uv` / MCP / Driver how-to.
+- HIGH: [trycua/cua `libs/cua-s1`](https://github.com/trycua/cua/tree/main/libs/cua-s1)
+  (parent MIT; ~23.3k★ this pass). Specialist computer-use research.
+  Profile `cua-s1-form-v0`. Byte encoder + option-attention:
+  fill/check/click/skip per observed element. Fill values selected
+  from extracted `Label: value` pairs. Plan ≠ execute; dry-run
+  default; fail-closed checkbox/fill. Parallel "System One" naming
+  in CUA, not a TypeSafe contract. Same observe→score→act *job* as
+  jev-ultrafast / gliner2-ultrafast / solari-reflex / laya-mind2web.
+  Offline metric *names* only. Watch for `cua-s1-form-v0` artifact.
+- Cards: SKILL.md, judgment-class (primary), mixed-architecture
+  (primary), applied-mappings §2, mappings §9/§12, faq,
+  mental-models, validation, methods-catalog, toolbox,
+  agent-self-assessment, composition-algebra, ecosystem, CHANGELOG,
+  README.
+- notes.md §54; sources.json; findings.md batch #38. No wrapper.
+
 
 
 

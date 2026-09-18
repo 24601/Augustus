@@ -53,6 +53,10 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
    — local GLiNER2 scores observed controls; `DONE` ≠ verified success
    (`notes.md` §52).
+   Specialist-form cousin, **not TypeSafe Jev:**
+   [Cua-S1](https://github.com/trycua/cua/tree/main/libs/cua-s1) —
+   option-attention among observed elements; plan ≠ execute; dry-run
+   default; source-only (`notes.md` §54).
    Productized Kahneman cascade for *any* cheap-decide / expensive-write
    loop (business/life, not only SWE):
    [dual-process-ai](https://github.com/taro1985/dual-process-ai) —

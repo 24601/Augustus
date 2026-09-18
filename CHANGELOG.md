@@ -252,6 +252,22 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   Manual sweep (theirs): needles 24/24; mean reduction 83% on trim
   scenarios. Harbor plugin-eval cannot reach Jev. Terminal-Bench
   paired pilot is integration, not a full bench. No invented metrics.
+- Cua-S1 specialist System One computer-use (`research/notes.md` §54,
+  [cua-s1](https://github.com/trycua/cua/tree/main/libs/cua-s1),
+  parent MIT, ~23.3k★ this pass): architecture notes, not a Driver /
+  MCP / `uv` how-to. Form-oriented profile `cua-s1-form-v0`. Byte
+  encoder + option-attention head chooses fill/check/click/skip per
+  observed element; does not generate values or selectors. Plan ≠
+  execute; dry-run default; `execute`/`submit` independent opt-ins;
+  fail-closed on unknown checkbox / fill without advertised token
+  `set_value`. **Not TypeSafe Jev** — parallel "System One" naming in
+  CUA research. Same observe→score-among-candidates→code-acts *job*
+  as jev-ultrafast / gliner2-ultrafast / solari-reflex / laya-mind2web;
+  specialist form contract, source-only this pass (no weights, no
+  checkpoint scores). Offline metric *names* only (accuracy,
+  abstention, coverage, wrong actions/targets, unsafe when should
+  abstain). Tests exercise implementation, not checkpoint quality.
+  Watch for a `cua-s1-form-v0` artifact drop. No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

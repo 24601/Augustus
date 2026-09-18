@@ -140,6 +140,17 @@ below, next to the when-to-use table.
   success). Their Flights demo (12.20 s / 13.785 s / ~$0.0001 API)
   is a demonstration, not a bake-off (`notes.md` §52). Do not copy
   `uv` / `.env`.
+  **Specialist computer-use S1 (Empirical as README / MODEL_CARD
+  behavior, 2026-09-18 ~17:21; weights Watch):**
+  [Cua-S1](https://github.com/trycua/cua/tree/main/libs/cua-s1)
+  (`trycua/cua`, MIT source) is a **parallel "System One" name**, not
+  TypeSafe Jev and not GLiNER. Reference `tinyx`: byte encoder +
+  option-attention head. Per observed element: fill (from extracted
+  `Label: value`) / check / click / skip. Does not generate values
+  or selectors. Plan ≠ execute; dry-run default; `execute` and
+  `submit` independent opt-ins; fail-closed on unknown checkbox
+  state. Profile `cua-s1-form-v0` is source-only — no weights, no
+  checkpoint scores (`notes.md` §54). Do not copy `uv` / MCP.
 - **Decide.** Typed Choice/Score/Noul with a decision/proper-scoring
   objective. That is Jev's product claim. Open heads copy the *shape*;
   distillation copies the *teacher* (openjev-lm, jev-gate-student-b).

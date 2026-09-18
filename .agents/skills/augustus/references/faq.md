@@ -479,9 +479,12 @@ against retrieved session lines, not generated prose (`notes.md`
 §51). Computer-use encoder
 cousin: [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
 scores observed controls; code clicks; no generated selectors
-(`notes.md` §52). Generation is only for
+(`notes.md` §52). Specialist-form cousin:
+[Cua-S1](https://github.com/trycua/cua/tree/main/libs/cua-s1) selects
+fill/check/click/skip among observed elements; does not generate
+values or selectors (`notes.md` §54). Generation is only for
 TYPE/prose when something must be written. `applied-mappings.md` §2;
-`notes.md` §48, §50, §52, §53.
+`notes.md` §48, §50, §52, §53, §54.
 
 ## Should compaction summarize?
 
@@ -539,14 +542,28 @@ and [solari-reflex](https://github.com/hitakshiA/solari-reflex) use
 TypeSafe Jev; [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
 uses local GLiNER2 (`fastino/gliner2-multi-v1`);
 [laya-mind2web](https://huggingface.co/ShaunSpark/laya-mind2web-browser-agent)
-uses a Laya head over DOM element indices. Same lesson as compaction
+uses a Laya head over DOM element indices;
+[Cua-S1](https://github.com/trycua/cua/tree/main/libs/cua-s1) uses a
+byte encoder + option-attention head (fill/check/click/skip) — **not
+TypeSafe Jev**, source-only this pass. Same lesson as compaction
 (Jev Noul/Score vs GLiNER2.5). Screenshot multimodal (blackwood-rlcd:
 letters on an image) is a **different input**, not a better version of
 this hole. Hybrid local decide + remote fill is mixed-architecture
 economics, not dual-process-ai. `DONE` is loop termination, not
-verified success. Not GLiNER2.5. Not a bake-off against the Flights
-demo clock. `judgment-class.md`; `mixed-architecture.md`;
-`notes.md` §52.
+verified success. Plan ≠ execute; dry-run default on Cua-S1. Not
+GLiNER2.5. Not a bake-off against the Flights demo clock.
+`judgment-class.md`; `mixed-architecture.md`; `notes.md` §52, §54.
+
+## Is Cua-S1 TypeSafe Jev?
+
+No. [Cua-S1](https://github.com/trycua/cua/tree/main/libs/cua-s1)
+uses "System One" as a computer-use research label for a small
+specialist decide head. It does not ship Choice/Score/Noul, a
+`/v1/systemone` drop-in, or TypeSafe contracts. Augustus places the
+*hole* (observe candidates → select among a closed option set → code
+acts under a hard envelope), not the logo. Same lesson as GLiNER2
+Ultrafast vs Jev Ultrafast. Source-only; no checkpoint scores.
+`judgment-class.md`; `notes.md` §54.
 
 ## Is routing the same as memory?
 

@@ -57,12 +57,13 @@ never launder a Noul as a proof.
   generate; component node; DOM-as-text + fan-out; shadow-mode compaction rollout;
   fail-open wake vs fail-closed merge-gate; Harbor on/off routing;
   hybrid local decide + remote fill; `DONE` ≠ verified success;
-  evidence-preserving stdout prune (hard envelope then Noul)
+  evidence-preserving stdout prune (hard envelope then Noul);
+  specialist S1 computer-use (Cua-S1 form-v0; plan ≠ execute; not TypeSafe Jev)
 - `.agents/skills/augustus/references/applied-mappings.md` — context sieve,
   exact-text keep/drop (extractive / pointer-not-generator; char-offset compaction; observed a11y/DOM controls; Bash stdout prune), env triage (OpenSmoke + latch merge-gate), moderation/ranking, skill routing (route ≠ memory)
 - `.agents/skills/augustus/references/faq.md` — "just classification",
   stack replacement, Jev vs open head vs encoder vs LoRA vs constrained AR vs kev vs blackwood,
-  wait-for-Archer, missing-other confident-wrong, soft project rules vs linter (Abide), extractive/pointer-not-generator, compaction summarize vs pointer, encoder vs Jev compaction, fail-closed keep_full, shadow-mode rollout, fail-open vs fail-closed wake vs CI gate, observe→score→act backend-agnostic, hybrid local decide + remote fill, DONE ≠ verified success, stdout prune vs session compaction, local drop-in vs stub scorer, route ≠ memory, when-it-holds / extractable-from-state, decision-model vs constrained LLM, dual-process S1/S2, combinatorial grid ≠ extractive, GLiNER vs GLiClass vs CLIP, LLM-as-judge, in-engine vs CLI store,
+  wait-for-Archer, missing-other confident-wrong, soft project rules vs linter (Abide), extractive/pointer-not-generator, compaction summarize vs pointer, encoder vs Jev compaction, fail-closed keep_full, shadow-mode rollout, fail-open vs fail-closed wake vs CI gate, observe→score→act backend-agnostic, hybrid local decide + remote fill, DONE ≠ verified success, stdout prune vs session compaction, Cua-S1 vs TypeSafe Jev, plan ≠ execute / dry-run, local drop-in vs stub scorer, route ≠ memory, when-it-holds / extractable-from-state, decision-model vs constrained LLM, dual-process S1/S2, combinatorial grid ≠ extractive, GLiNER vs GLiClass vs CLIP, LLM-as-judge, in-engine vs CLI store,
   hard envelope (bitrate / planner), not-another-how-to
 - `.agents/skills/augustus/references/mappings.md` — classical-method
   mappings with boundaries, counterexamples, acceptance tests (including
@@ -75,7 +76,8 @@ never launder a Noul as a proof.
   CC-BY-4.0 recompute-from-logs feedstock; Abide replay as
   Harbor-adjacent soft-rule measurement; solari-reflex Harbor-style
   computer-use; gliner2-ultrafast encoder-backend cousin (`DONE` ≠
-  success; demo is not a bake-off); jev-testbench collab arms; ARC-AGI Direct Jev as
+  success; demo is not a bake-off); Cua-S1 specialist form source-only
+  (metric names, no checkpoint scores; not TypeSafe Jev); jev-testbench collab arms; ARC-AGI Direct Jev as
   combinatorial-≠-extractive negative; jev-gateway-bench Harbor on/off
   routing one-run signal; jev-pruner Harbor needle/noise + Terminal-Bench
   integration pilot, not a full bench)

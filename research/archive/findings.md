@@ -1031,6 +1031,43 @@ pass-through (≤10k / JSON-diff) is the sandwich, Jev is the remainder;
 (ck) Harbor plugin-eval refusing Jev is a fail-safe receipt, not a
 missing metric; (cl) marketplace id may lag the repo name.
 
+## Batch #38 (2026-09-18 ~17:21 Boise) — Cua-S1 specialist form System One (source-only)
+
+Note: `research/notes.md` §54. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. **Not TypeSafe Jev. Not GLiNER. Not a
+general CUA. Not multimodal pixels-in.** No invented metrics. Do not
+re-fold §52 gliner2-ultrafast as this product, §48 solari-reflex,
+§53 jev-pruner, blackwood-rlcd as a screenshot cousin, or
+laya-mind2web as a Laya DOM-index cousin.
+
+- **trycua/cua `libs/cua-s1` (Empirical as README / MODEL_CARD
+  behavior; weights Watch).** Parent MIT; ~23.3k★ this pass
+  (updated 2026-09-18T23:21:08Z). Research family of small specialist
+  computer-use models. Profile `cua-s1-form-v0`. Source-only: no
+  weights, datasets, or checkpoint scores. `tinyx` byte encoder +
+  option-attention: per observed element fill / check / click /
+  skip. Fill values selected from extracted `Label: value` pairs,
+  not generated. Code owns execution order. Plan ≠ execute; dry-run
+  default; `execute`/`submit` opt-in; fail-closed unknown checkbox /
+  fill without advertised token `set_value`. Tests exercise
+  implementation, not checkpoint quality. Offline metric *names*
+  only.
+- **Mental models:** (1) specialist S1 vs general agent (narrow task
+  contract; membership ≠ general CUA); (2) Choice among observed
+  elements / fixed actions (same hole as jev-ultrafast /
+  gliner2-ultrafast / solari / laya-mind2web; contrast blackwood
+  screenshot); (3) plan ≠ execute, dry-run default, fail-closed
+  envelope; (4) parallel "System One" naming, not TypeSafe Jev.
+- **rh-guard:** light note only (dry-run / submit opt-in /
+  fail-closed state). Not reward-hack detection.
+
+Cross-repo addition: (cm) observe→score-among-candidates→code-acts
+is backend-agnostic including a specialist CUA head; (cn) "System
+One" in CUA research is a parallel name, not a TypeSafe contract;
+(co) plan ≠ execute / dry-run is the sandwich around a soft
+specialist; (cp) source-only drops publish metric *names*, not
+checkpoint scores — Watch for `cua-s1-form-v0`.
+
 
 
 

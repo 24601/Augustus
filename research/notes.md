@@ -4015,3 +4015,146 @@ be installed together. Marketplace / Claude plugin id is still
 Not multimodal. Usage: command-output sieve as a perception/memory
 hygiene stage **before** the generative turn. Harbor-adjacent
 eval harness in-repo. Archive + landscape pointer.
+
+## 54. Cua-S1 — specialist System One computer-use (form-v0 profile, source-only) (2026-09-18 ~17:21 Boise)
+
+America/Boise ~17:21 = 23:21 UTC. Docs-only fold into open PR #2
+(`cursor/augustus-store-envelope-00b4`). Not a competing PR. Archer
+27B drop still **WATCH**. Identity lock vs `typesafe-ai` / `tenbin` /
+`decision-first` holds. No wrapper, no `uv` / MCP / Driver how-to, no
+copied factory env vars. No invented metrics. **Not TypeSafe Jev.
+Not GLiNER. Not a general CUA. Not multimodal pixels-in. Source-only
+— no weights, no checkpoint scores.** Do not re-fold §52
+gliner2-ultrafast as this product, §48 solari-reflex, §53
+jev-pruner, blackwood-rlcd as a screenshot cousin, or laya-mind2web
+as a Laya DOM-index cousin.
+
+Family: **observe → score-among-candidates → code acts** (selection
+head over observed elements; code owns execution order). Same hole
+as jev-ultrafast / solari-reflex (Jev), gliner2-ultrafast (GLiNER2),
+laya-mind2web (Laya). **Different naming:** CUA's "System One" is a
+parallel research label, not a TypeSafe Jev contract. **Different
+scope:** specialist form-oriented checkpoint profile
+(`cua-s1-form-v0`), not a general computer-use agent. Weights
+**Watch**.
+
+### HIGH
+
+1. **[`trycua/cua` `libs/cua-s1`](https://github.com/trycua/cua/tree/main/libs/cua-s1)**
+   (parent MIT; Python package `cua-s1` / `cua_s1`; ~23.3k★ parent
+   this pass). Research project for **small, specialist computer-use
+   models** with a defined task class. First checkpoint profile:
+   `cua-s1-form-v0` (form-oriented UI). This component ships model,
+   synth data, training, eval utilities, and optional Cua Driver +
+   MCP server **source**. It does **not** include or download
+   weights, datasets, demo binaries, or recordings. **No checkpoint
+   performance claim.** Future official weights may use separate
+   terms. **Not a TypeSafe Jev drop-in. Not a screenshot VLM. Not a
+   generator of selectors or field values.**
+
+   Load-bearing loop (README + MODEL_CARD):
+
+   ```text
+   snapshot / a11y elements + Label:value entities
+        → tinyx byte encoder + option-attention
+        → per element: fill | check | click | skip
+        → code orders execution (plan ≠ execute; dry-run default)
+   ```
+
+   Reference `tinyx`: byte-level transformer encoder +
+   **option-attention classification head**. Per observed interface
+   element, one option from a **fixed set**: fill with an entity
+   extracted from the source document, check, click, or skip. The
+   prototype scores elements independently. Document parser only
+   extracts `Label: value` pairs. **Code** turns selected options
+   into an execution order. Fill values are **selected**, not
+   generated.
+
+   **Four load-bearing mental models (architecture, not a Driver
+   how-to):**
+
+   1. **Specialist S1 vs general agent.** Membership in the Cua-S1
+      family does not imply general computer-use capability. A
+      checkpoint has a narrow task contract and checkpoint-specific
+      eval. Same philosophy as "Jev-class for a job," not omnimodal
+      AGI. Do not treat `form-v0` as evidence outside its evaluated
+      boundaries — and there is **no evaluated checkpoint** in this
+      source-only drop.
+
+   2. **Choice among observed elements / fixed actions.** Selection
+      head, not a generator of selectors or values. Family with
+      gliner2-ultrafast (score observed controls), solari-reflex
+      (structured observe → typed act), jev-ultrafast, laya-mind2web
+      (DOM indices). Contrast blackwood-rlcd (screenshot + marked
+      letters). If the fill entity is not already a `Label: value`
+      pair the parser holds, this card does not apply.
+
+   3. **Plan ≠ execute; dry-run default; fail-closed.** Planning and
+      execution are separate. Optional runtime defaults to dry run.
+      One unambiguous target window; snapshot-bound element tokens;
+      reobserve after each mutation. `execute` and `submit` are
+      independent opt-ins. Submit is narrow: at most one
+      high-confidence Button / AXButton whose normalized label is
+      exactly `Submit` or `Submit Form`. Fail-closed on missing
+      checkbox role/checked state; already-checked boxes skipped;
+      checked postcondition verified. PDF confined to allowed roots
+      (cwd default; production should use a dedicated directory).
+      Portable Cua Driver contract does not currently expose
+      `set_value` — fill **execution** fails closed unless the
+      connected runtime advertises token-based value mutation;
+      planning remains available. Inspect the dry-run plan before
+      enabling both execution flags.
+
+   4. **Not TypeSafe Jev.** Parallel "System One" naming in
+      computer-use research. No Choice/Score/Noul contract, no
+      `/v1/systemone` drop-in. Augustus stays family-first: the
+      *hole* is specialist decide among observed candidates under a
+      hard envelope. Backend-agnostic judgment class still applies.
+
+   **Eval honesty (theirs; no scores this pass).** Included tests
+   exercise **implementation behavior, not checkpoint quality**.
+   Offline utilities *report* abstention, coverage, selective
+   accuracy, wrong actions, wrong targets, and unsafe actions when
+   the expected behavior was to abstain. Synthetic splits are
+   disjoint by form signature; model selection uses validation
+   rather than test. A future checkpoint **must** report exact
+   revisions, task set, environment, action space, independent
+   outcome verification, and failure categories. Responsible-use
+   text: do not treat model output or apparent task completion as
+   proof the action was correct. **Watch** for a `cua-s1-form-v0`
+   artifact drop. Do not invent metrics.
+
+   **Siblings — complementary, do not merge.**
+
+   - **gliner2-ultrafast / solari-reflex / jev-ultrafast /
+     laya-mind2web:** same observe→act *job*; Jev, GLiNER2, or Laya
+     backends with shipped loops. This is a source-only specialist
+     head.
+   - **blackwood-rlcd:** screenshot multimodal decide. Different
+     input.
+   - **`24601/rh-guard`:** light note only (dry-run / submit opt-in /
+     fail-closed state checks). Not reward-hack detection.
+
+   **Placement.** Exact-text keep/drop among observed elements
+   (`applied-mappings.md` §2) + mixed architecture (code owns
+   envelope, dry-run, submit gate; model selects among candidates).
+   Pillar: search/control (one substituted classifier step) +
+   runtime-assurance sandwich (plan≠execute, fail-closed checkbox /
+   fill). Hole: perceive / keep-drop / replace-one-classifier-step.
+   Family: specialist encoder decide head (`tinyx` option-attention)
+   — **not** TypeSafe Jev, **not** GLiNER. Fail-closed on actuation.
+   Eval path: none published (source-only); metric *names* are
+   specified. **Empirical** as README / MODEL_CARD behavior.
+   **Hypothesis** that a future `form-v0` checkpoint fills the
+   profile. Cards: `judgment-class.md` (primary);
+   `mixed-architecture.md` (primary); `applied-mappings.md` §2;
+   `mappings.md` §9 / §12; `faq.md`; `mental-models.md`;
+   `validation.md`; `methods-catalog.md`; `toolbox-mapping.md`;
+   `agent-self-assessment.md`. No wrapper.
+
+### Omni / Jev-omni
+
+Not multimodal pixels. Strong **computer-use composition** signal:
+perception (a11y/snapshots) → specialist decide → verified act.
+Form specialist, not pixels-in. Weights TBD — Watch for
+`cua-s1-form-v0`. Archive + landscape pointer.

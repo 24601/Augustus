@@ -324,7 +324,7 @@ Rules:
 | LM-program knobs only | DSPy/Ax (narrow) | never primary System One calibration score |
 | Reward-hack / eval gaming | [rh-guard](https://github.com/24601/rh-guard) | structural deny + System One sidecar |
 | Project soft-rule lint | [Abide](https://github.com/coldteadotai/abide) | Score per rule on the diff; bands; fail-open; replay + independent review |
-| Collab / computer-use product loop | [jev-testbench](https://github.com/ufx7/jev-testbench); [solari-reflex](https://github.com/hitakshiA/solari-reflex); [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast) | Wilson/McNemar arms; independently checked task time; `DONE` ≠ success |
+| Collab / computer-use product loop | [jev-testbench](https://github.com/ufx7/jev-testbench); [solari-reflex](https://github.com/hitakshiA/solari-reflex); [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast); [cua-s1](https://github.com/trycua/cua/tree/main/libs/cua-s1) | Wilson/McNemar arms; independently checked task time; `DONE` ≠ success; Cua-S1 source-only (metric names, no checkpoint scores) |
 | Agent routing on vs off | [jev-gateway-bench](https://github.com/vinilana/jev-gateway-bench) | Hidden perft; cost/quality; one-run signal this pass |
 | Command-output prune (needle/noise) | [jev-pruner](https://github.com/tamaratran/jev-pruner) | Manual `trimOutput` sweep (theirs); plugin eval cannot reach Jev (fail-safe original); Terminal-Bench paired pilot is integration, not a full bench |
 
@@ -349,7 +349,14 @@ vs 98.4 s (`notes.md` §48). Encoder-backend cousin:
 — same hole, local GLiNER2; their Flights demo (12.20 s visible /
 13.785 s loop / ~$0.0001 API) is a **demonstration**, not a bake-off
 or a vs-Jev-Ultrafast table; `DONE` is not the Harbor score
-(`notes.md` §52). **Collab-arm curriculum:**
+(`notes.md` §52). Specialist-form cousin, **not TypeSafe Jev:**
+[Cua-S1](https://github.com/trycua/cua/tree/main/libs/cua-s1) —
+option-attention among observed elements; plan ≠ execute; dry-run
+default; source-only this pass. Offline utilities *name* accuracy,
+abstention, coverage, wrong actions/targets, and unsafe-when-should-
+abstain; **no checkpoint scores**. Tests exercise implementation, not
+quality. Do not invent a vs-Jev table. Watch for `cua-s1-form-v0`
+(`notes.md` §54). **Collab-arm curriculum:**
 [jev-testbench](https://github.com/ufx7/jev-testbench) —
 `llm_autonomous` vs `scripted_plus_jev` vs `llm_plus_jev`; Wilson +
 McNemar; Jev is not a peer arm. Bake into jevals/Harbor hygiene, do

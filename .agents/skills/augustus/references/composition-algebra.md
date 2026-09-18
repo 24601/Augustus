@@ -146,6 +146,8 @@ Reusable shapes when generating applications:
    batched question set per step → execute via AX actions. Encoder-backend
    cousin: gliner2-ultrafast scores observed a11y/DOM controls with
    local GLiNER2; code clicks; `DONE` ≠ success (`notes.md` §52).
+   Specialist-form cousin: Cua-S1 option-attention (fill/check/click/skip);
+   not TypeSafe Jev; plan ≠ execute; source-only (`notes.md` §54).
 9. **Shadow-mode harness** (jev-harness): policy + confidence gate + shadow mode +
    offline eval CLI replaying fixtures, asserting on actions; 24-row filter 48.9 s
    (Claude CLI) vs 1.3 s Jev at concurrency 8. Compaction rollout:

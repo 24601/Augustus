@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-18T23:15Z",
+  "retrieved": "2026-09-18T23:21Z",
   "sources": [
     {
       "kind": "docs",
@@ -1598,6 +1598,12 @@
       "title": "tamaratran/jev-pruner",
       "url": "https://github.com/tamaratran/jev-pruner",
       "note": "MIT. Created 2026-09-18T03:00:58Z; 5 stars at attached capture, 7 live this pass. Claude Code plugin (marketplace id still fast-jev-output): after Bash, Jev Noul-prunes stdout chunks before the main LLM sees them \u2014 no summary. Hard envelope (\u226410k estimated tokens / JSON-diff-whole-doc untouched) then soft Noul; fail-safe keep original; full archive. Codex is opt-in wrapper. Same evidence-preserving family as fast-jev-compaction / gliner25-compaction; different job (command output vs session memory). Manual sweep (theirs): needles 24/24; mean reduction 83% on trim scenarios. Harbor plugin-eval cannot reach Jev. Terminal-Bench paired pilot is integration, not a full bench. notes.md \u00a753."
+    },
+    {
+      "kind": "github",
+      "title": "trycua/cua libs/cua-s1",
+      "url": "https://github.com/trycua/cua/tree/main/libs/cua-s1",
+      "note": "Parent MIT; ~23.3k stars this pass (23339 live; updated 2026-09-18T23:21:08Z). Specialist System One computer-use research (form-v0 profile). Source-only: no weights, no checkpoint scores. tinyx byte encoder + option-attention head chooses fill/check/click/skip per observed element; does not generate values or selectors. Plan \u2260 execute; dry-run default; execute/submit independent opt-ins; fail-closed unknown checkbox / fill without advertised token set_value. Not TypeSafe Jev \u2014 parallel System One naming in CUA. Same observe\u2192score-among-candidates\u2192code-acts job as jev-ultrafast / gliner2-ultrafast / solari-reflex / laya-mind2web. Watch for cua-s1-form-v0 artifact. notes.md \u00a754."
     }
   ]
 }
