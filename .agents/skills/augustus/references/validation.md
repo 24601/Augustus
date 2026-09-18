@@ -105,7 +105,11 @@ Adoption pattern (AntonioCoppe/jev-harness): run the Jev judgment in parallel wi
 the live system and only **log what you would have done** (policy + gate applied)
 until behavioral evals over replayed fixtures pass; then flip to enforcement. Assert
 on the *action* (block/warn/pass), not on free text. This is the safe path for any
-confidence gate added to an existing pipeline.
+confidence gate added to an existing pipeline. Harbor/jevals-adjacent
+practice, not a second eval product: LLM-as-judge is not the primary
+System One score (`faq.md`). Recipes in that repo (alerts, RTB, sports-bet,
+prediction-markets) are existence proofs of the same substrate across
+business and life, not SWE-only (`notes.md` §44). Do not copy the client.
 
 ## Frontmatter (by agents and by Jev rankers)
 

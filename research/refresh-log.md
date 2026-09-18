@@ -362,4 +362,20 @@
 - Dropped: Harbor wording matches the verifiers v1 post; mini-jev-runs
   dual use; translation-invariant claim; SREGym arithmetic.
 
+## 2026-09-18 18:58 UTC — ~12:58 Boise hourly fold
+
+- America/Boise ~12:58. Watch run 185349. Docs-only. Archer still
+  **WATCH** (no architecture rewrite; ~65% done is user watch, not a
+  retrieved status tweet this pass). Local jev-archive path absent;
+  READMEs and X fetched live.
+- Novel vs §42: sqlite-jev in-engine store fork; bitrate-advisor hard
+  envelope; jev-routing host adapter; jev-claw OpenClaw routing;
+  mmalisper JOB planner thread; Higgsfield auto-route claim.
+- Frames only (already folded): jev-harness practice, openjev-lm
+  receipts, jev-gate as memory sieve, encoder vs decoder replica.
+  README stubs: jev-voice-control, JevML. Skip rewrite: jev-pref,
+  mini-jev-runs, jev-tree-choice-cap.
+- notes.md §44; sources.json; findings.md batch #27. No wrapper.
+
+
 

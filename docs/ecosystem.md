@@ -25,7 +25,7 @@ weekdays. Jev is the densest public corpus, not the class monopoly.
 
 ### Agent harnesses & self-supervision
 - **Kevthetech143/super-jev** — domain-independent loop: observe → questions → decide → **permit (independent of confidence)** → execute (idempotency key) → verify → JSONL replay.
-- **AntonioCoppe/jev-harness** — policy + confidence gate + shadow mode + offline eval CLI; 24-row filter 48.9s (Claude CLI) vs 1.3s Jev. Selective abstention.
+- **AntonioCoppe/jev-harness** — policy + confidence gate + shadow mode + offline eval CLI asserting on the **action**; 24-row filter 48.9s (Claude CLI) vs 1.3s Jev. Harbor/jevals-adjacent practice. `notes.md` §33, §44.
 - **Friedjof/jev-mobile** — durable Android worker + Mobile MCP; Jev sees prevalidated candidates only. `notes.md` §33.
 - **jcpsimmons/jev-macos-loop** — Apple-silicon computer-use; local OmniParser/OCR/AX; text-only Jev. Finder demo independently verified.
 - **rajdhakad9826/routeKit** — Jev estimates task requirements; policy engine selects the LLM. Jev does not pick the model.
@@ -48,7 +48,7 @@ Per-keystroke launchers (104ms median, sequence-tagged staleness), firehose mode
 ### Local / open heads & GLi\* species
 - **GLiNER / GLiNER2.5 / GLiClass** — species map: locate spans vs categorize the sequence vs local multi-head (fastino-ai GLiNER2.5 CPU-first). Peer of Jev, not a footnote. `references/judgment-class.md`. Author primary source: GLiNER2 "like jev" is schema-conditioned categorize (GLiGuard), not a Noul (`notes.md` §28). 36× Browser Use claim is a tweet (`notes.md` §25).
 - **GLiGuard** (fastino-ai) — 0.3B GLiNER2 encoder, checkpoint `fastino/gliguard-LLMGuardrails-300M`. One bidirectional pass over a safety schema. Same interface shape as batched questions; different objective. Not a Jev weight clone. `judgment-class.md`; `notes.md` §30.
-- **DECRUX9812/openjev-lm** — Qwen2.5-0.5B+LoRA distilled from hosted Jev answers; 65/70 = 92.9% on 70 hand-labelled rows (one annotator, one domain, one seed) overnight on 6 vCPU. Its 98.1% on fresh rows is teacher *agreement*, not gold.
+- **DECRUX9812/openjev-lm** — Qwen2.5-0.5B+LoRA distilled from hosted Jev answers; 65/70 = 92.9% on 70 hand-labelled rows (one annotator, one domain, one seed) overnight on 6 vCPU, $0/call. Its 98.1% on fresh rows is teacher *agreement*, not gold. Receipts pattern: `notes.md` §25, §44.
 - **convaiinnovations/laya** — open Choice/Score/Noul head, text-only, 512 tok. Companion packaging this hour: [`laya-typed-decisions`](https://huggingface.co/convaiinnovations/laya-typed-decisions) (421.3M, acc 0.766 / Brier 0.066 unverified). `notes.md` §18, §42.
 - **zmtomorrow/TypeAR** — constrained autoregressive decoding surface: typed fields on a pretrained open model, no retraining. Not a proper-scoring decision head. `research/notes.md` §32.
 - **stephanj/pcdServer** — native Parallel Constrained Decoder (C++20, llama.cpp GGUF, Apple+Linux). TypeAR-class serving: 2–256 enums, 1–63 parallel fields; softmax over allowed values is not a Noul. `notes.md` §42.
@@ -77,6 +77,12 @@ Per-keystroke launchers (104ms median, sequence-tagged staleness), firehose mode
 - **TheoOliveira/pi-jev** — Pi semantic tool/skill routing. Not kevinpita/pi-jev-context.
 - **vtrivedy/jev-plays-games** — Choice over legal moves; probabilities ≠ win odds.
 - **ant4g0nist/joxide** — zoxide index, Jev shortlist, local paths only.
+- **mgaitan/sqlite-jev** — batched NL judgments as a SQLite loadable extension (`jev_rows`). In-engine sibling of jevql's CLI rewrite; inspired by pg-jev. Semantic full scan, not an index. `notes.md` §44.
+- **affirmitv/bitrate-advisor** — live ABR: Jev proposes, deterministic policy clamps (never bolder). Missing the model returns policy. `notes.md` §44.
+- **nekowasabi/jev-routing** — Go host adapter for Claude Code / Codex / Grok Build. Not MCP, not npx. `notes.md` §44.
+- **trietphan/jev-claw** — OpenClaw typed routing: Jev classifies, `decide()` in code. `notes.md` §44.
+- **chris-wozniczek/jev-voice-control** — Speech → Jev → macOS actions. README-only this pass. Hypothesis. `notes.md` §44.
+- **gamesonrblx/JevML** — claimed PCA/MCMC/diffusion/NCA primitives + a picker. README-only. Hypothesis. `notes.md` §44.
 
 ### Skills & tooling
 - **typesafe-ai/skills** — official skill (contracts/patterns).
@@ -93,7 +99,8 @@ owns control. Movers that sharpened the card: `git-jev-stage` (exact hunk
 Choice), `jevprune` (per-line relevance with an always-keep set),
 `llama-index-jev` (rerank fails open / select fails closed), `jev-pref`
 (AGENTS.md as criteria), `lizard-agent` (no LLM when nothing needs writing),
-`jevql` (judgment as SQL `WHERE`), OpenSmoke (Jev over every step, LLM only
+`jevql` (judgment as SQL `WHERE`; CLI so Postgres never sees `jev()`),
+`sqlite-jev` (in-engine SQLite extension; same hole), OpenSmoke (Jev over every step, LLM only
 on flags). Neighbor skills `tenbin` and `decision-first` are *not* Augustus
 clones — they own lint/eval and try-Jev-first habit. Entropy allocator
 (**Hypothesis**): cheap typed scorers for low- and medium-entropy

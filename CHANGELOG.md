@@ -99,6 +99,20 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   two-layer finish gate. pi-jev (not pi-jev-context). jev-plays-games
   option-order probe. joxide jump-by-description. laya-typed-decisions
   companion packaging. No wrapper.
+- Hourly ~12:58 Boise fold (`research/notes.md` §44): Archer still
+  Watch (no architecture rewrite). Store-index fork: in-engine
+  ([sqlite-jev](https://github.com/mgaitan/sqlite-jev), pg-jev cousin)
+  vs CLI rewrite (jevql). Soft judgment inside a hard envelope
+  ([bitrate-advisor](https://github.com/affirmitv/bitrate-advisor);
+  mmalisper JOB planner +12% geomean, author-reported; join-order
+  Choice alone was 2× slower). Distill-to-device as a *memory* gate
+  (jev-gate, already §33). Encoder vs decoder open-replica receipts
+  (openjev-lm $0/call overnight CPU). jev-harness as Harbor-adjacent
+  practice (assert on action). Host adapter
+  ([jev-routing](https://github.com/nekowasabi/jev-routing), not MCP);
+  OpenClaw typed routing ([jev-claw](https://github.com/trietphan/jev-claw)).
+  Voice-control and JevML are README stubs. Higgsfield auto-routing is
+  a claim. No wrapper.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

@@ -648,5 +648,38 @@ are producers not perceive; two call shapes removed from the optimizer
 card; $0.042/MTok tagged vendor-stated; GodsBoy 94.4% tagged
 exploratory. `notes.md` §43.
 
+## Batch #27 (2026-09-18, ~12:58 Boise hourly)
+
+Note: `research/notes.md` §44. Docs-only. Archer still Watch (no
+architecture rewrite). Do not rehash §42 HIGH.
+
+- **sqlite-jev (Contract as README):** in-engine SQLite extension;
+  batched `jev_rows`; sibling *pattern* to jevql, different serving
+  (DB sees `jev()`). Inspired by pg-jev. Semantic full scan, not an
+  index. License file absent. 0★.
+- **bitrate-advisor (Empirical as a shape):** Jev proposes ABR; policy
+  is the envelope; never bolder. Missing model → policy answer.
+  Three-state receipt author-reported.
+- **jev-routing (Contract as README):** Go host adapter, not MCP, for
+  Claude/Codex/Grok. Compact then one Choice + done.
+- **jev-claw (Empirical as author's 10/10 + 11 offline tests):** Jev
+  classifies; `decide()` maps; path regex floors risk; confidence is
+  min.
+- **jev-harness practice:** already §33; this hour assert-on-action
+  as Harbor-adjacent substrate; recipes across business/life.
+- **openjev-lm / jev-gate / DeBERTa / mini-jev-runs / tree-cap /
+  jev-pref:** frames only (receipts economics; memory gate; encoder vs
+  decoder replica). No rewrite.
+- **jev-voice-control / JevML:** README-only stubs. Hypothesis.
+- **X:** mmalisper JOB hybrid +12% geomean, join-order 2× slower,
+  fail-open to Postgres (author-reported). Higgsfield GenAI auto-route
+  is a claim.
+
+Cross-repo addition: (as) structured-store semantic index has an
+in-engine vs CLI fork; (at) soft judgment inside a hard envelope
+(ABR, planner); (au) distill-to-device as a context sieve, not only
+an action gate.
+
+
 
 

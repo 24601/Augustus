@@ -142,13 +142,18 @@ is not intrinsically wrong (offline, modest corpora) but it is not an index —
 per-query work still scales with candidates. Low latency ≠ no retrieval.
 
 **Store as the index (Empirical as a *shape*, 2026-09-18):**
-[`kylemclaren/jevql`](https://github.com/kylemclaren/jevql) judges
-schema-conditioned row objects; vanilla Postgres never sees `jev()`.
-Cheap SQL first; the remainder is a typed Choice/Noul/Score over rows.
-Row contents leave the database (same residency warning as AU health).
+Cheap exact predicates first; typed questions on the remainder. Two
+forks of the same hole: **in-engine extension**
+([`mgaitan/sqlite-jev`](https://github.com/mgaitan/sqlite-jev), loadable
+SQLite `jev_rows`; inspired by [`realZachi/pg-jev`](https://github.com/realZachi/pg-jev))
+vs **out-of-process CLI** ([`kylemclaren/jevql`](https://github.com/kylemclaren/jevql)
+— vanilla Postgres never sees `jev()`). sqlite-jev is a semantic full
+scan, not an index; `max_rows` is a spend guard; thresholds stay in SQL.
 [`ant4g0nist/joxide`](https://github.com/ant4g0nist/joxide): zoxide owns
 the directory index; Jev scores a shortlist; destinations are existing
-local paths only; fail-open. `notes.md` §42.
+local paths only; fail-open. Row contents leave the store (same
+residency warning as AU health). Do not copy SQL, env, or CLI flags.
+`notes.md` §42, §44.
 
 ## 5. Hierarchy → bounded heuristic search
 
@@ -368,6 +373,17 @@ immediate win missed once reversed; Fool's-mate confidence 31%/37% so a
 hole on the constrained-AR surface. Not a strength rating.
 `notes.md` §42; `validation.md`.
 
+**Query planner as the envelope (author-reported, 2026-09-18):**
+[@mmalisper](https://x.com/mmalisper/status/2101001041903009987) on the
+Join Order Benchmark. Jev picking join order was **2× slower**.
+Cardinality estimates helped when outside context informed the plan;
+when Jev was wrong, one query was ~10× slower. Hybrid: Postgres plans
+first; Jev overrides **only when confident** → **+12% geomean**, no
+dramatic slowdowns. A Jev call is 100s of ms, not yet practical on
+every plan. The planner is the hard envelope; confidence is the gate;
+fail-open to Postgres. **Hypothesis** until reproduced on *your*
+workload. `notes.md` §44.
+
 ## 10. Spec property pipeline (Hypothesis)
 
 **Method**: NL/ADR → candidate properties → human strengthens →
@@ -424,9 +440,19 @@ monitor   = RV / ptLTL / named invariant     # exact, compiled
 act       = code, only if monitor admits
 ```
 
+**Named live-stream shape (Empirical as a *shape*, 2026-09-18):**
+[`affirmitv/bitrate-advisor`](https://github.com/affirmitv/bitrate-advisor)
+— Jev proposes ABR rungs; deterministic policy (probe × headroom,
+history percentiles, loss/queue/thermal/battery) is the monitor. Jev
+may only match that envelope or be more conservative. Missing the
+model returns the policy's answer. Author-measured three states
+(~$0.00004, 0.25–0.39 s) are a receipt for the *shape*, not a codec
+benchmark. `notes.md` §44.
+
 **Counterexample:** "the model was confident" as the monitor.
 **Test:** inject a monitor-violating trace the Noul would have admitted;
-the sandwich must refuse. **Hypothesis.** Links: `mental-models.md`
+the sandwich must refuse. **Hypothesis** as domain-general; bitrate is
+Empirical as the named envelope. Links: `mental-models.md`
 conformal; `formal-methods.md` help list.
 
 ## 13. DST multiverse triage (Hypothesis)
@@ -480,7 +506,11 @@ policy   = starvation/fairness rules in code
 ```
 
 **Example (Hypothesis):** incident-commander assignment; grant-panel
-paper allocation; GPU scheduling. **Counterexample:** Choice over
+paper allocation; GPU scheduling. **Empirical as a *shape*:**
+[`affirmitv/bitrate-advisor`](https://github.com/affirmitv/bitrate-advisor)
+— Jev's rung is the soft affinity; probe/history/thermal caps are the
+solver; the model cannot violate them (`notes.md` §44).
+**Counterexample:** Choice over
 assignees that ignores load. **Test:** a feasible assignment the solver
 finds that the Score alone would skip because it "felt" worse; hard
 constraints never yield. Links: `mental-models.md` §OR.
@@ -565,7 +595,10 @@ doc-router 9 OCR-misses vs 28 for rules-only.
 [`poponline63/hermes-jev-north-star`](https://github.com/poponline63/hermes-jev-north-star):
 deterministic shell checks first; empty evidence refuses to judge; then
 one Jev call on the remainder. Empty state was self-contradictory —
-that is why the refuse-empty rule exists. **Beyond SWE (Hypothesis):**
+that is why the refuse-empty rule exists.
+[`affirmitv/bitrate-advisor`](https://github.com/affirmitv/bitrate-advisor)
+is the same sandwich on a live encoder: policy proves the cap; Jev
+judges only inside it (`notes.md` §44). **Beyond SWE (Hypothesis):**
 recipe book ∩ "does this leftover look done?"; labor-law allowlist ∩
 hiring-fit Noul; SPF/DKIM pass ∩ phishing Noul on the body. **Counterexample:**
 Jev on `/bin/ls` as the first tier. **Test:** planted writers never

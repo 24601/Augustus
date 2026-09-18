@@ -50,7 +50,8 @@ never launder a Noul as a proof.
   exact-text keep/drop, env triage, moderation/ranking, skill routing
 - `.agents/skills/augustus/references/faq.md` — "just classification",
   stack replacement, Jev vs open head vs encoder vs LoRA vs constrained AR,
-  GLiNER vs GLiClass vs CLIP, LLM-as-judge, not-another-how-to
+  GLiNER vs GLiClass vs CLIP, LLM-as-judge, in-engine vs CLI store,
+  hard envelope (bitrate / planner), not-another-how-to
 - `.agents/skills/augustus/references/mappings.md` — classical-method
   mappings with boundaries, counterexamples, acceptance tests (including
   Hypothesis cards §6–§19 — promote only with a test that ran)

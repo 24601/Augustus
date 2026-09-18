@@ -256,8 +256,10 @@ sentences, and that is the point
 ([Langfuse framing, 2026-09-18](https://x.com/langfuse/status/2100980004678971491)).
 When you need a paragraph rationale, a trace UI, or an annotation
 workflow, generation and the eval platform still own those seats.
-Verbal LLM scores are uncalibrated. Do not thin this skill into a
-Langfuse how-to. Mixed architecture: traces stay; the judge step can
+Verbal LLM scores are uncalibrated. The Harbor/jevals-adjacent
+practice is: shadow mode + fixtures that assert on the **action**,
+not on prose (`jev-harness`, `validation.md`; `notes.md` §44). Do not
+thin this skill into a Langfuse how-to. Mixed architecture: traces stay; the judge step can
 be a System One model.
 
 ## Allowlist first, then Jev?
@@ -271,6 +273,33 @@ The same three-way test, one hour later: if a regex, a DNS lookup, or a
 database query already answers, **do not call a model**
 (`wotai-dev/typesafe-jev-tools`, `notes.md` §42). That is meta-VOI, not
 a hook tutorial.
+
+## Should Jev live inside the database?
+
+The *hole* is a semantic index over a structured store: cheap exact
+predicates first, typed questions on the remainder. Two serving
+choices, same hole (`mappings.md` §4; `notes.md` §44):
+
+- **In-engine extension** (`sqlite-jev`; cousin `pg-jev`): SQL sees
+  `jev()` / `jev_rows`. Convenient. The database process now has an
+  API key, a spend guard, and a residency problem.
+- **Out-of-process CLI** (`jevql`): vanilla Postgres never sees
+  `jev()`. The rewrite layer owns the call.
+
+Neither is an index. Full-scan the post-filter remainder. Row contents
+leave the store. zoxide/`joxide` is the same hole over paths. Do not
+copy SQL.
+
+## Can Jev pick the bitrate, the join order, the model?
+
+Yes as a **proposal inside a hard envelope**, no as the actuator.
+bitrate-advisor: Jev may only match the deterministic cap or be more
+conservative; missing the model returns the policy's answer.
+mmalisper's JOB planner: Postgres plans first; Jev overrides only when
+confident (+12% geomean author-reported; join-order Choice alone was
+2× slower). routeKit / jev-claw / Higgsfield: classify requirements;
+code picks the generator. The envelope is load-bearing
+(`mappings.md` §12, §15, §18).
 
 ## Is confidence a trained score?
 

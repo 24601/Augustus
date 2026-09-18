@@ -47,7 +47,9 @@ Local teacher-copy for the same hole:
 [`SargeDev/jev-gate-student-b`](https://huggingface.co/SargeDev/jev-gate-student-b)
 (Qwen2.5-0.5B LoRA; P(relevant) from yes/no logits; 148,160-row
 [`jev-distill-corpus`](https://huggingface.co/datasets/SargeDev/jev-distill-corpus);
-card: fail-open on errors). Agreement with Jev labels is not independent
+card: fail-open on errors). That is System One as a **memory/context
+gate**, not an action permit: vector recall → local yes/no → inject or
+stub (`notes.md` §33, §44). Agreement with Jev labels is not independent
 gold (`notes.md` §33). Official cousin: classifying RAG passages cookbook
 (**Contract**). **Counterexample**: one Noul "is this log useful?" over
 3k lines — that is nine judgments pretending to be one. **Test**: recall
@@ -186,6 +188,11 @@ LlamaIndex selectors fail closed or a declared default.
 Jev estimates task *requirements*; code applies hard constraints and a
 deterministic cost/quality/latency policy — Jev does not pick the model
 (**Hypothesis** until measured on *your* catalog; `notes.md` §33).
+[`trietphan/jev-claw`](https://github.com/trietphan/jev-claw) is the
+same split for OpenClaw (classify axes; `decide()` maps the route; path
+regex floors risk). [`nekowasabi/jev-routing`](https://github.com/nekowasabi/jev-routing)
+is a host adapter, not an MCP plugin: compact, then one Choice + done,
+then one schema (`notes.md` §44).
 [`TheoOliveira/pi-jev`](https://github.com/TheoOliveira/pi-jev) is the
 same selector hole inside Pi (tools + skills); fail-open to a keyword
 shortlist; **not** `kevinpita/pi-jev-context` (sieve).

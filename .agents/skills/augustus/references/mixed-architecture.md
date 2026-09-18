@@ -211,6 +211,19 @@ Live ecosystem (examples of the *shape*, not SDKs to copy):
 - `rajdhakad9826/routeKit` — Jev estimates requirements; a deterministic
   policy picks the model. Jev does not choose the LLM. **Hypothesis**
   until your catalog (`notes.md` §33).
+- [`trietphan/jev-claw`](https://github.com/trietphan/jev-claw) — same
+  hole for OpenClaw: Jev classifies task/complexity/risk; `decide()` in
+  code maps to a route; a sensitive-path regex floors risk. Confidence
+  is the **min** across heads. 11 offline policy tests; live 10/10 is
+  the author's 10 samples (`notes.md` §44).
+- [`nekowasabi/jev-routing`](https://github.com/nekowasabi/jev-routing)
+  — host **adapter** (Go binary), not an MCP server, in front of
+  Claude Code / Codex / Grok Build. Compacts tool results, then one
+  Choice + done-Noul, then one schema. Adding it via `mcp add` makes
+  the catalog worse. No key → on-device classifier. Do not copy ports.
+- Higgsfield API auto-routing ([tweet](https://x.com/higgsfield_ai/status/2101022473248727177))
+  is the same hole on a video/image catalog. **Claim**, no labeled
+  receipt.
 - Function-calling cookbook (**Contract**): function *names* and closed-set
   args as questions; code still validates the call.
 
@@ -238,7 +251,10 @@ SREGym-Lite is topology A: Jev ranks next tests/evidence; the agent
 still runs them and still diagnoses (`notes.md` §33).
 [`runta-dev/jot`](https://github.com/runta-dev/jot) is topology B with
 a *closed* tool catalog (the host executes; the calculator does the
-math). "First general-purpose System One agent" is a claim. **Does not:** the decision model as the planner — neither inventing tools
+math). "First general-purpose System One agent" is a claim.
+[`nekowasabi/jev-routing`](https://github.com/nekowasabi/jev-routing) is
+a host adapter in front of an existing coding CLI (not topology B, not
+MCP): it peels the catalog *before* the generator sees it. **Does not:** the decision model as the planner — neither inventing tools
 nor picking its own next tool in a loop (standing red flag, above and in
 `boundary-audit.md`); skipping schemas so the model "just knows";
 treating a workflow AST as a proof. The outer loop stays with the LLM or
@@ -286,7 +302,11 @@ Related placements:
   Claude CLI vs 1.3s Jev on a 24-row filter). Log would-do until evals
   pass. Selective abstention (`mappings.md` §2): low confidence is
   `review`, not a guess. Coppe on SREGym regressions: inspect whether
-  confidence was high on the wrong Choice (`notes.md` §33).
+  confidence was high on the wrong Choice (`notes.md` §33). This hour
+  the *practice* is first-class: eval CLI asserts on the **action**,
+  not on prose; recipes span alerts / RTB / sports-bet / prediction
+  markets (`notes.md` §44). LLM-as-judge is not the primary System One
+  score (`faq.md`). Do not copy the client.
 - **Hybrid countable + judgment rules** — `DanRWilloughby/snifftest`:
   deterministic tells score 1.00; judgment rules flag only outside the
   unsure band. Explicit: a reading near 0.5 is *no judgment*, never a pass.
@@ -323,7 +343,13 @@ decision-design card. Do not clone APIs from READMEs.
 | Preference lint | Per-rule Noul/Choice on a diff | Rule text, outcome map | jev-pref, JevLint |
 | Context / log prune | Per-line or per-block relevance | Always-keep set, recall keys | jevprune, winnow |
 | Exact hunk staging | Per-hunk include/exclude/mixed | `git diff`, atomic apply | git-jev-stage |
-| Semantic `WHERE` | Noul/`jev_prob` over a row | SQL, indexes, LIMIT | `kylemclaren/jevql` (CLI rewrites; DB sees ordinary SQL) |
+| Semantic `WHERE` | Noul/`jev_prob` over a row | SQL, indexes, LIMIT | jevql (CLI; DB sees ordinary SQL); sqlite-jev (in-engine extension) |
+| Formula / query embedding | JUDGE as a function | Spreadsheet/SQL engine | judge-sheets, jevql, sqlite-jev |
+| Soft ABR / live encoder | Choice over a ladder | Probe × headroom, thermal, battery | bitrate-advisor |
+| Voice → typed act | Choice/Noul on a transcript | ASR producer; macOS actions | jev-voice-control (README stub) |
+| Host-adapter routing | Choice next-tool + done-Noul | Shrink `tools[]`; compaction | jev-routing (not MCP) |
+| Multi-model route | Classify axes; policy maps | Escalation `if`, path regex | jev-claw, routeKit |
+| Finish-line gate | Noul/Score/Choice on evidence | Deterministic shell checks first | hermes-jev-north-star |
 | Home automation read | Choice/Score/Noul as an entity | Automations, device I/O | `AboveColin/HA-Jev` |
 | Browser loop without generation | Action Choice over visible elements | Perception, constraints, click | lizard-agent |
 | Android / macOS computer-use | Choice over prevalidated candidates | UI tree / AX / OmniParser; no generated coordinates | jev-mobile, jev-macos-loop |
@@ -332,9 +358,7 @@ decision-design card. Do not clone APIs from READMEs.
 | Closed-catalog System One shell | Choice over host tools | Execute, arithmetic, credentials | jot |
 | Jump-by-description | Noul relevance on a local shortlist | zoxide index, local paths only | joxide |
 | Game move | Choice over legal actions | Rules, legality, win check | jev-plays-games |
-| Finish-line gate | Noul/Score/Choice on evidence | Deterministic shell checks first | hermes-jev-north-star |
 | Analyst attention cascade | Step-level silent-failure Nouls | Grouping, LLM autopsy | OpenSmoke |
-| Formula / query embedding | JUDGE as a function | Spreadsheet/SQL engine | judge-sheets, jevql |
 
 On-device / Home Assistant / mobile are newly-feasible via the economics
 inversion, not proven ports of every app. Named placements this hour

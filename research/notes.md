@@ -2121,3 +2121,198 @@ Kept, and patched in the cards:
 Not patched, standing risk: doctrine is copied across cards and the
 next fold is where copies drift; `notes.md` §1 is a one-day pin, not a
 live contract.
+
+## 44. Hourly fold ~12:58 America/Boise (2026-09-18) — store siblings, hard envelopes, distill-to-device, harness practice
+
+Window: America/Boise ~12:58 ≈ 18:58 UTC. Watch run 185349. Novel
+versus §42 (~11:59). Docs-only. No Jev wrapper, no serving-stack
+how-to, no copied SQL/`advise()`/proxy ports/`predict()`. Local
+`/workspace/jev-archive` path for this run was not present; GitHub
+READMEs, Hub cards, and X posts fetched live. HTTP 200 on cited URLs.
+**Archer drop still WATCH** — no architecture rewrite this hour. User
+watch says ~65% done, Qwen3.8-27B multimodal no-audio still expected
+~19 Sep Boise. This pass did not retrieve a new Archer status tweet
+(rate-limit / query constraint); Hub was not treated as a landing.
+
+Do **not** rehash pcdServer, jevql's already-folded CLI frame,
+OpenSmoke, jev-mode, jot, typesafe-jev-tools, openevals,
+hermes-north-star. Already-folded HIGH from §33 (jev-harness,
+openjev-lm, jev-gate-student-b, open-jev-deberta, mini-jev-runs,
+jev-tree-choice-cap, jev-pref) get a *frame*, not a second card.
+
+Six frames, then the artifacts.
+
+**(a) Structured-store semantic index.** Cheap exact predicates first;
+typed questions on the remainder. Two *forks* of the same hole:
+**in-engine extension** (`mgaitan/sqlite-jev`; inspired by
+`realZachi/pg-jev`) vs **out-of-process CLI** (`kylemclaren/jevql` —
+vanilla Postgres never sees `jev()`). zoxide (`joxide`, §42) is the
+same hole over a path index. A semantic full scan is not an index.
+Row contents leave the store: same residency warning as AU health
+(§33).
+
+**(b) Distill-to-device memory/context gates.** System One as a
+**sieve**, not only an action permit. Already §33 / `applied-mappings.md`
+§1: `jev-gate-student-b` P(relevant) from yes/no logits. This hour the
+meta is: vector recall → local yes/no gate → inject or stub. Fail-open
+on errors. Teacher-copy ≠ gold.
+
+**(c) Encoder vs AR open replicas.** Already the three-open-paths cut
+(§42). Encoder DeBERTa = public gold, OOD drop; decoder LoRA
+(openjev-lm, jev-gate) = teacher-copy; constrained AR (TypeAR /
+pcdServer) = softmax over allowed tokens, not a Noul. Do not pick a
+path until meta-VOI says a model is needed at all.
+
+**(d) Soft judgment inside a hard safety envelope.** The model may
+only **match the envelope or be more conservative**. Deterministic
+policy is load-bearing; missing the model must still be safe.
+bitrate-advisor is the named live-stream shape. mmalisper's JOB
+planner is the named search/control shape (Postgres plans first; Jev
+overrides only when confident).
+
+**(e) Perception → decision.** ASR / vision produce schema'd state;
+System One decides; code acts. SAM and ASR are **producers**, not the
+perceive species (§43). `jev-voice-control` is a README-only stub of
+that pipeline.
+
+**(f) Harbor/jevals-style harness + shadow + confidence.** Assert on
+the **action**, not on free text. LLM-as-judge is not the primary
+System One score (`faq.md`). jev-harness already named this; this hour
+the practice is first-class: recipes across alerts / RTB / sports-bet /
+prediction-markets, offline fixtures, shadow until evals pass.
+
+### HIGH
+
+1. **[`mgaitan/sqlite-jev`](https://github.com/mgaitan/sqlite-jev)**
+   (created 18:25Z, C, license file absent, 0★). Loadable SQLite
+   extension: batched NL Noul/Choice/Score over row objects
+   (`jev_rows` virtual table; up to 40 rows per shared state).
+   Inspired by [`realZachi/pg-jev`](https://github.com/realZachi/pg-jev)
+   (in-engine Postgres, 152★ this pass — pointer, not a second card).
+   Sibling *pattern* to jevql, **not** the same serving choice: here
+   the database *does* see `jev()` as SQL. README limits: semantic
+   full scan, not an index; deterministic SQLite filters first;
+   `max_rows` is a spend guard; row contents go to TypeSafe. Thresholds
+   stay in SQL so they can rise with false-positive cost. Mock-server
+   tests never call TypeSafe. Do not copy `.load`, env, or SQL
+   signatures. Card: `mappings.md` §4.
+
+2. **[`AntonioCoppe/jev-harness`](https://github.com/AntonioCoppe/jev-harness)**
+   — already §33 (policy, confidence gate, shadow, 24-row 48.9s Claude
+   CLI → 1.3s Jev). This hour the *practice*: Harbor/jevals-adjacent
+   measurement substrate. Eval CLI asserts on the **action**, not on
+   prose. Recipes span alerts, NL row-filter, high-freq reflex (order /
+   RTB / fraud), prediction-market and sports-bet gates — business and
+   life, not SWE-only. Explicitly **not** a `/compact` replacement.
+   Do not copy the client. `validation.md`; gallery.
+
+3. **[`DECRUX9812/openjev-lm`](https://github.com/DECRUX9812/openjev-lm)**
+   — already §25. This hour the *receipts pattern*: overnight 6-vCPU,
+   $0/call, two independently written harnesses both 65/70 = 92.9% on
+   the same 70 hand-gold rows; 98.1% on 106 later postings is teacher
+   **agreement**, not gold; rare-class cells are one-row wide. Encoder
+   vs this decoder LoRA is the (c) fork, not a new architecture. Do
+   not copy train commands.
+
+4. **`SargeDev/jev-gate-student-b` + `jev-distill-corpus`** — already
+   §33. This hour the meta: **context sieve / memory gate**, not only
+   an action gate. Vector recall → P(relevant) yes/no logits → inject
+   or stub. Fail-open. Teacher-copy. `applied-mappings.md` §1.
+
+5. **`com-kotobalabs/open-jev-deberta-v3-large`** — already §33
+   (434M, Banking77/SST5/BoolQ, in-domain ECE 0.022, OOD acc 0.690).
+   This hour: the **encoder** arm of open-replica, as opposed to
+   decoder LoRA (openjev-lm / jev-gate) and constrained AR. Public
+   gold, not a Jev teacher. Do not overwrite those numbers.
+
+### MED
+
+6. **[`affirmitv/bitrate-advisor`](https://github.com/affirmitv/bitrate-advisor)**
+   (created 15:27Z, MIT, TypeScript, 0★). Live-stream ABR: Jev
+   proposes initial rung / ceiling / resolution / next step from
+   telemetry + venue/carrier history; **deterministic policy fences
+   it in**. Jev may be as bold as the measured network allows and as
+   cautious as it likes, **never bolder**. Without an API key the same
+   call returns the policy's answer (`source: "policy"`). Power plan
+   (finish-the-game battery/thermal) is deterministic; Jev may only
+   make it more conservative. Author-measured 2026-09-18, three
+   states, OpenRouter billed ~$0.000041–0.000044, 0.25–0.39 s; ~$0.015
+   per hour of stream at one decision / 10 s — **author-reported**,
+   not re-run. Domain: youth-sports phone streams (life / business),
+   not a codec tutorial. Empirical as a *shape* for §12 / §15 / §18.
+   Do not copy `advise()` or keys.
+
+7. **[`chris-wozniczek/jev-voice-control`](https://github.com/chris-wozniczek/jev-voice-control)**
+   (created 18:47Z, license absent, README-only this pass, 0★).
+   Speech → Jev typed decisions → macOS actions. Menu-bar Swift
+   **claim**. Hypothesis as a product; useful as the perception→decision
+   pipeline with ASR as producer (§39 / §43). Do not invent a Swift
+   API.
+
+8. **`doeixd/jev-pref`** — already the preference-lint contract
+   (YOU define the rule / Jev classifies / code maps outcome). No
+   rewrite. This hour it sits next to bitrate's envelope: policy-as-
+   prefs is the same ownership split on a diff instead of a live
+   stream.
+
+9. **[`nekowasabi/jev-routing`](https://github.com/nekowasabi/jev-routing)**
+   (created 08:13Z, MIT, Go, 0★). Host **adapter**, not an MCP
+   server: one Go binary in front of Claude Code / Codex / Grok
+   Build. Compacts tool results (verbatim drop/truncate, same
+   contract as fast-jev-compaction), then one Choice (next tool) +
+   Noul (done), then shrinks `tools[]` to **one schema**. README:
+   adding this via `mcp add` makes the catalog *worse*. No key →
+   on-device classifier. Do not copy ports, env, or install.
+   Host-adapter breadth, not a new species. `applied-mappings.md` §5.
+
+10. **[`trietphan/jev-claw`](https://github.com/trietphan/jev-claw)**
+    (created 18:44Z, MIT, JS, 0★). Typed routing for OpenClaw
+    agents. **Jev classifies** (task_type / complexity / risk /
+    second-opinion); **`decide()` in code** maps to a route.
+    Sensitive-path regex floors risk even if Jev underrates a
+    migration. Confidence is the **minimum** across classifications,
+    not the average. 11 offline policy tests (no network). Live eval
+    10/10 on the author's 10 samples — **author-reported**, tiny.
+    Same hole as routeKit (§33): Jev does not get to skip the
+    escalation `if`. Do not copy the eight route names as doctrine.
+
+11. **[`gamesonrblx/JevML`](https://github.com/gamesonrblx/JevML)**
+    (created 18:47Z, license absent, README-only, 0★). "PCA / MCMC /
+    text-diffusion / NCA primitives + a harness that picks the right
+    tool." Meta-VOI adjacent: which primitive, if any. Hypothesis.
+    Do not invent those APIs.
+
+12. **`Mikhail/mini-jev-runs`** — already §33 (27.9k option-logit
+    runs, frozen Qwen3-4B, no token generated). Calibration /
+    constrained-decode corpus. No rewrite.
+
+13. **`reachjalil/jev-tree-choice-cap`** — already §33 / mappings §5.
+    Hierarchical Choice under the 255 cap. No rewrite.
+
+### X discourse this hour (verified)
+
+- [@mmalisper](https://x.com/mmalisper/status/2101001041903009987)
+  (17:30:57Z) and thread: Jev-assisted Postgres query planner on the
+  Join Order Benchmark. Join-order Choice **2× slower** (defaulted to
+  smallest table). Cardinality estimates helped when outside context
+  informed the plan; when Jev was wrong, one query was an **order of
+  magnitude slower**. Hybrid: Postgres plans first; Jev overrides
+  **only when confident** → **+12% geomean**, no dramatic slowdowns.
+  Downside: a Jev call is 100s of ms, not yet practical on every
+  plan. **Author-reported**, not re-run. Frame (d) + search/control
+  (§9): the planner is the envelope; confidence is the gate.
+  Fail-open to Postgres.
+
+- [@higgsfield_ai](https://x.com/higgsfield_ai/status/2101022473248727177)
+  (18:56:07Z) and [demo](https://x.com/higgsfield_ai/status/2101022133753430365)
+  (18:54:46Z): "perfect use case" — Jev auto-routes GenAI (video/image)
+  models for cost/speed/quality on the Higgsfield API. **Claim**, no
+  labeled catalog receipt. Same hole as routeKit / jev-claw:
+  classify requirements, policy picks the generator. Hypothesis
+  until *your* catalog.
+
+Cards: `mappings.md` §4 / §9 / §12 / §15 / §18; `mixed-architecture.md`
+gallery + host-adapter note; `applied-mappings.md` §1 / §5;
+`validation.md` harness practice; `mental-models.md` envelope +
+planner; FAQ in-engine vs CLI; `judgment-class.md` encoder vs decoder
+replica (no new species). No wrapper.

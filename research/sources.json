@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-18T17:55Z",
+  "retrieved": "2026-09-18T18:58Z",
   "sources": [
     {
       "kind": "docs",
@@ -1177,6 +1177,60 @@
       "title": "brunoqgalvao: Pareto cost/perf takeaway",
       "url": "https://x.com/brunoqgalvao/status/2101008125356626019",
       "note": "2026-09-18T17:59:06Z. Closes earlier 4-task ~1200-item thread. Author-reported. notes.md \u00a742."
+    },
+    {
+      "kind": "github",
+      "title": "mgaitan/sqlite-jev",
+      "url": "https://github.com/mgaitan/sqlite-jev",
+      "note": "In-engine SQLite extension; batched jev_rows. Sibling pattern to jevql, not the CLI rewrite. License absent. notes.md \u00a744."
+    },
+    {
+      "kind": "github",
+      "title": "realZachi/pg-jev",
+      "url": "https://github.com/realZachi/pg-jev",
+      "note": "In-engine Postgres cousin sqlite-jev is inspired by. Pointer only. notes.md \u00a744."
+    },
+    {
+      "kind": "github",
+      "title": "affirmitv/bitrate-advisor",
+      "url": "https://github.com/affirmitv/bitrate-advisor",
+      "note": "Live ABR: Jev proposes, deterministic envelope clamps. MIT. notes.md \u00a744."
+    },
+    {
+      "kind": "github",
+      "title": "chris-wozniczek/jev-voice-control",
+      "url": "https://github.com/chris-wozniczek/jev-voice-control",
+      "note": "Speech \u2192 Jev \u2192 macOS. README-only this pass. Hypothesis. notes.md \u00a744."
+    },
+    {
+      "kind": "github",
+      "title": "nekowasabi/jev-routing",
+      "url": "https://github.com/nekowasabi/jev-routing",
+      "note": "Go host adapter for Claude/Codex/Grok. Not MCP. MIT. notes.md \u00a744."
+    },
+    {
+      "kind": "github",
+      "title": "trietphan/jev-claw",
+      "url": "https://github.com/trietphan/jev-claw",
+      "note": "OpenClaw typed routing: classify then decide() in code. MIT. notes.md \u00a744."
+    },
+    {
+      "kind": "github",
+      "title": "gamesonrblx/JevML",
+      "url": "https://github.com/gamesonrblx/JevML",
+      "note": "Claimed PCA/MCMC/diffusion/NCA + picker. README-only. Hypothesis. notes.md \u00a744."
+    },
+    {
+      "kind": "social",
+      "title": "mmalisper: Jev-assisted Postgres query planner +12% JOB",
+      "url": "https://x.com/mmalisper/status/2101001041903009987",
+      "note": "2026-09-18T17:30:57Z. Hybrid: PG plans first; Jev overrides when confident. Join-order Choice 2x slower. Author-reported. notes.md \u00a744."
+    },
+    {
+      "kind": "social",
+      "title": "higgsfield_ai: GenAI model auto-routing",
+      "url": "https://x.com/higgsfield_ai/status/2101022473248727177",
+      "note": "2026-09-18T18:56:07Z. Claim, no labeled catalog. Same hole as routeKit. notes.md \u00a744."
     }
   ]
 }

@@ -405,7 +405,11 @@ is the generator, not a sixth surface.
 **Three open paths** (not three species, not extra when-to-use rows):
 encoder open-jev (DeBERTa, public gold); AR constrained decode (TypeAR
 Python/SGLang, pcdServer native GGUF); trained decision-only (Laya /
-Nimble / Archer **Watch**). Pick from the hole. A constrained softmax
+Nimble / Archer **Watch**). Encoder vs decoder **replicas** of that
+third path: DeBERTa is public gold with an OOD drop; openjev-lm /
+jev-gate LoRAs are teacher-copies with named receipts (overnight
+6-vCPU, $0/call — economics, not a new species; `notes.md` §25, §44).
+Pick from the hole. A constrained softmax
 is still not a Noul. Laya companion packaging this hour:
 [`laya-typed-decisions`](https://huggingface.co/convaiinnovations/laya-typed-decisions)
 (same 421.3M; acc 0.766 / Brier 0.066 on `LocalLLaMA/typed-decisions`,

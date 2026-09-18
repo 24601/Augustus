@@ -184,7 +184,10 @@ Contract. The *placement* (gather as an enumerated act) is the method;
 the calculator is **Hypothesis** until you log act/outcome pairs.
 Mapping card: `mappings.md` §6. Paying *zero* because a regex already
 answers is also VOI — abstain from calling any model
-(`typesafe-jev-tools`, `notes.md` §42).
+(`typesafe-jev-tools`, `notes.md` §42). A harness that *picks which
+primitive to run* (JevML's claim: PCA / MCMC / diffusion / NCA) is the
+same gate one layer down: maybe none of them (`notes.md` §44).
+Hypothesis until that picker has a labeled log.
 
 **Transfers:** "ask a second question" / "retrieve one more candidate" /
 "run the expensive LLM" only when VOI clears the cost. Cheap fan-out
@@ -247,11 +250,15 @@ probe.
 | Business | sales stages | "is this still a real opp?" | amount, close date in CRM |
 | Life | cook / rest / check | "does this look done?" | thermometer (probe) |
 | Org | incident command | "is this still contained?" | head-count, location |
+| Infra | Postgres query planner | override join/card when confident | the stock planner (fail-open) |
+| Live media | ABR rung / resolution | "which ladder step?" | probe × headroom, thermal, battery |
 
 Rejected: bandits without observed rewards; Jev as the planner that
 picks its next tool in a loop (`boundary-audit.md`); PufferLib Ocean
 scores as a capability claim (`formal-methods.md` DST trio). Mapping
-card for the cross-domain loop: `mappings.md` §9.
+card for the cross-domain loop: `mappings.md` §9. Soft judgment
+inside a hard envelope: bitrate-advisor (ABR) and mmalisper's JOB
+hybrid (Postgres plans first) — `notes.md` §44.
 
 ## Signal detection
 
