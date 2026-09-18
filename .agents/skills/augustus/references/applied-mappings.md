@@ -14,7 +14,8 @@ recipe**, **Hypothesis**.
 
 Umbrella placement: `mixed-architecture.md`. Classification skepticism:
 `faq.md`. Family / objective / vision / agent-architecture portents:
-`judgment-class.md`.
+`judgment-class.md`. Cross-domain (not SWE-only): `mental-models.md`.
+Proof vs judgment: `formal-methods.md`.
 
 ## 1. Context sieve
 

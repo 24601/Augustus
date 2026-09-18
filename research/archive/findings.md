@@ -203,3 +203,24 @@ Design distillation. Skill card: `references/mental-models.md`. Note:
 Cross-repo addition: (w) judgment as a sensor in any control loop that
 already has a policy — CRM, inbox, reading list, kitchen probe, not
 only git.
+
+## Batch #10 (2026-09-18, FM expansion + Hypothesis cards)
+
+Design distillation. Cards: `references/formal-methods.md` (expanded),
+`references/mappings.md` §6–§9. Note: `research/notes.md` §22.
+Curriculum `FORMAL-METHODS-SYSTEM-ONE.md` still not found.
+
+- **Alloy vs Apalache (Contract from named docs):** Analyzer is a model
+  finder (SAT, scope). Apalache is SMT TLA+ with three analysis modes
+  plus scripts. TLC is explicit-state. Bounded green ≠ proof.
+- **DST trio:** Antithesis hypervisor; Resonate Lean+oracle+SDK;
+  PufferLib env+seed / Ocean trainer contract (authors: not a
+  comparative baseline). Judgment clusters failures; does not vote on P.
+- **TOCTOU-of-Noul / AI×FM:** t0 judgment is not t1 authorize; vibing
+  specs + receipt theater + mode laundering.
+- **Hypothesis cards:** VOI/gather, SDT/ROC, Leveson control structure,
+  search/control outside SWE. Promote only with an acceptance test.
+
+Cross-repo addition: (x) three DST seats (hypervisor / in-product
+harness / env-as-sim) around the same sensor/constraint split.
+

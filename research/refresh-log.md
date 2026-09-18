@@ -115,5 +115,23 @@
   No invented APIs.
 - notes.md §21; sources.json appended; findings.md batch #9.
 
+## 2026-09-18 15:40 UTC — FM expansion + Hypothesis mapping cards
+- Curriculum `FORMAL-METHODS-SYSTEM-ONE.md` still absent (GitHub code
+  search 0). Expand `formal-methods.md` in place (no duplicate
+  `formal-semi-formal.md`).
+- HTTP 200: Apalache, Alloy-vs-model-checkers FAQ, Antithesis DST
+  explainer, PufferLib docs, arXiv 2406.12905, Hillel vibing specs,
+  Hillel QCon 2026 informal-methods talk, Resonate DST, Antithesis intro.
+- Skill: Alloy Analyzer vs Apalache teaching split; DST trio
+  (Antithesis / Resonate / PufferLib Ocean); TOCTOU-of-Noul named;
+  AI×FM harms (receipt theater, mode laundering). mappings.md §6–§9
+  Hypothesis cards (VOI, SDT/ROC, Leveson, search/control).
+  boundary-audit stop conditions. FAQ Alloy vs Apalache / PufferLib.
+  methods-catalog + toolbox + composition-algebra wiring. SKILL.md
+  index + description triggers. Identity lock holds. No invented APIs.
+  Promote Hypothesis only with an acceptance test that ran.
+- notes.md §22; sources.json appended; findings.md batch #10.
+
+
 
 

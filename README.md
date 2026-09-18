@@ -32,9 +32,11 @@ never launder a Noul as a proof.
   exemplar, not monopoly): open heads, GLiClass-adjacent, listwise vs
   decision objectives, vision scoring, agent-architecture portents
 - `.agents/skills/augustus/references/formal-methods.md` — judgment vs
-  proof ownership; Alloy/TLA+/Quint/P/NuSMV/PRISM/Event-B;
-  Dafny/JML/Frama-C/SPARK; DST (Antithesis/Resonate); TOCTOU, soundness
-  theater, vibing specs (Hillel); NATM/snap-fit/Norman/Leveson
+  proof ownership; Alloy Analyzer vs Apalache (finder ≠ BMC ≠
+  inductiveness); TLA+/Quint/P/NuSMV/PRISM/Event-B;
+  Dafny/JML/Frama-C/SPARK; DST trio (Antithesis hypervisor, Resonate
+  Lean+oracle+SDK, PufferLib env+seed); TOCTOU-of-Noul, soundness
+  theater, AI×FM harms (Hillel vibing specs); NATM/snap-fit/Norman/Leveson
 - `.agents/skills/augustus/references/mixed-architecture.md` — default
   placement: judgment-class model + LLM + code; preference lint; provider
   (Jev default / other family with self-eval)
@@ -42,8 +44,10 @@ never launder a Noul as a proof.
   exact-text keep/drop, env triage, moderation/ranking, skill routing
 - `.agents/skills/augustus/references/faq.md` — "just classification",
   stack replacement, Jev vs open head vs GLiClass vs CLIP, not-another-how-to
-- `.agents/skills/augustus/references/mappings.md` — 5 classical-method
-  mappings with boundaries, counterexamples, acceptance tests
+- `.agents/skills/augustus/references/mappings.md` — classical-method
+  mappings with boundaries, counterexamples, acceptance tests (including
+  Hypothesis cards for VOI, SDT/ROC, Leveson control structure, and
+  search/control outside SWE — promote only with a test that ran)
 - `.agents/skills/augustus/references/validation.md` — design gate, eval
   recipes, Jev-for-skills (routing, self-monitoring, testing, modularity,
   frontmatter)
@@ -86,6 +90,7 @@ GPT's instructions or a Project's knowledge and it will follow the protocol.
 `listwise-ranking` `vision-scoring` `open-weights` `formal-methods`
 `model-checking` `deterministic-simulation` `decision-theory`
 `value-of-information` `signal-detection` `mcda` `calibration`
+`alloy` `apalache` `pufferlib` `stamp-stpa`
 
 ## Versioning
 

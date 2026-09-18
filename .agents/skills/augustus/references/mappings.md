@@ -5,7 +5,9 @@ example, a counterexample, an acceptance test. Jev is the documented
 exemplar in the sketches; family choice (open head / GLiClass-adjacent /
 listwise / vision) is `judgment-class.md`. Status words: **Contract**
 (documented), **Empirical recipe** (dated observation), **Hypothesis** (test
-before relying).
+before relying). Cross-domain frames: `mental-models.md`. Formal /
+semi-formal ownership: `formal-methods.md`. Cards §6–§9 are **Hypothesis**
+until an acceptance test runs; do not promote them from analogy.
 
 ## 1. Semantic judgments → features and explicit utility
 
@@ -184,3 +186,128 @@ Still true, and sharpened: the Score value heuristic is the weakest link —
 trust it only where the environment validates outcomes, and keep the
 grounded/speculative split in types. Any depth beyond a simulator is
 estimation wearing a measurement costume.
+
+## 6. Value of information → gather as an enumerated act
+
+**Method**: Raiffa-line decision analysis, EVPI / EVSI. **Transfers**:
+another observation is an *act* whose cost you know (a test, a search, a
+human, another batch of Nouls, an LLM autopsy). Pay iff expected
+reduction in *decision loss* beats that cost — improvement in the
+probability is not the quantity
+(`mental-models.md` §VOI). Cheap fan-out of independent questions is
+often +VOI because the second question is nearly free (composition:
+width is cheap). **Does not transfer**: infinite clarifying questions;
+paying for a paragraph when a Noul would do; treating another LLM call
+as free information; a numeric EVPI computed from uncalibrated scores
+and labeled Contract.
+
+```text
+belief  = current Noul / Choice / Score
+acts    = {decide now, buy observation, abstain, escalate}   # you enumerate
+loss    = table you wrote
+pay iff E[loss | now] − E[loss | after paying] > cost
+```
+
+**Example (Empirical as a *shape*, OpenSmoke / env triage):** LLM autopsy
+only on flags — a negative flag has no VOI in the autopsy
+(`applied-mappings.md` §3). **Beyond SWE (Hypothesis until you log
+act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
+that already fail a hard rule (credit limit is exact); blood test vs
+wait. **Counterexample**: gathering until p = 0.99 on an irreversible
+act that needed a probe, not another Noul. **Test**: a labeled log
+where the extra observation changed the *act* often enough to pay;
+score the cost of the observation too. Until that log exists, this card
+stays **Hypothesis**. Links: `mental-models.md` §VOI, §decision.
+
+## 7. Signal detection → criterion, not accuracy
+
+**Method**: Green & Swets detection theory; ROC / PR operating points.
+**Transfers**: a yes/no Noul is a noisy evidence variable; **d′** is
+separability on *your* population; the **criterion** t is where policy
+places the bar given base rates and costs. Shift t when the base rate
+shifts (incident week, flu season, inbox after a launch) without
+retraining "to be more careful." Fail-open vs fail-closed is a criterion
+choice. **Does not transfer**: accuracy as the summary when the class is
+rare; copying 0.7 from a blog; treating d′ as a vendor property;
+thresholding a listwise or CLIP affinity as if it were P(signal)
+(`judgment-class.md`).
+
+```text
+Noul ≈ evidence variable (noisy)
+criterion t from costs and base rate     # policy
+ROC / PR on YOUR labeled cases           # you owe this plot
+report hits / false alarms at the operating point, not accuracy
+```
+
+**Example (Empirical as family shape):** firehose / Near Here moderation
+— judge once, re-policy in code. **Beyond SWE (Hypothesis until plotted):**
+phishing screen; "is this a real deadline?"; hiring screen (base rate of
+qualified applicants is the thing that moves). **Counterexample**:
+retrain the model because last week's incident made you "want fewer
+misses" — that was a criterion shift. **Test**: ROC/PR on held-out *your*
+cases; report the operating point you actually ship. **Hypothesis** for
+non-SWE plots. Links: `mental-models.md` §SDT; evaluator script for
+threshold/cost sweep.
+
+## 8. Control structure → sensor ≠ constraint (Leveson)
+
+**Method**: STAMP / STPA — safety is a control problem, not a
+component-accuracy problem
+([Leveson STAMP intro](https://psas.scripts.mit.edu/home/wp-content/uploads/2016/04/STAMP-Intro-2016.pdf)).
+**Transfers**: judgment as a *sensor* in a loop you own; constraints in
+code, policy, checklist, two-person rule, physical interlock. STPA asks
+what happens when the sensor is wrong, delayed, spoofed, or TOCTOU.
+**Does not transfer**: a 99% Noul as the safety constraint; "the model
+was confident" as the excuse for an unsafe control action; deleting the
+interlock because ECE looked excellent in-distribution.
+
+```text
+constraint  = "do not give the drug without the allergy list"   # policy
+sensor      = Noul("does this note mention an allergy?")        # model
+actuator    = the person, the agent, the pump                   # not the model
+STPA        = table of unsafe control actions if the sensor lies
+```
+
+**Example (Empirical as instrumentation shape):** OpenSmoke — cheap
+judgment over every step so humans only autopsy flags. That is NATM
+instrumentation of the control structure, not a safety case.
+**Beyond SWE (Hypothesis):** hospital allergy list vs note-mentions-allergy;
+kitchen thermometer vs "looks done"; two-person wire rule vs "this
+invoice looks right"; incident command head-count vs "still contained?"
+**Counterexample**: the agent proceeds because Noul 0.99. **Test**: name
+the constraint that remains when the sensor is deleted; fill the unsafe-
+control-action table. Ownership split is **Contract** as a rule
+(`formal-methods.md`); the domain examples are **Hypothesis** until
+labeled. Links: `mental-models.md` §Leveson; `boundary-audit.md` TOCTOU.
+
+## 9. Search / control loops → one substituted classifier step
+
+**Method**: beam, A*, MCTS, hiring funnel, literature snowball, sales
+stages, cook/rest/check. **Transfers**: the *algorithm* stays yours. The
+judgment-shaped hole is a prior, a prune, a leaf value, or a "does this
+branch still look live?" Noul (`methods-catalog.md` search rows;
+mapping §5 is the taxonomy-beam special case). Economics inversion:
+per-node judgments were known and too expensive; they are now default.
+Control: hysteresis, continue / stop / retry / verify — the model
+estimates named probabilities; the controller is a table with memory.
+**Does not transfer**: Jev as the planner that picks its next tool in a
+loop; bandits without observed rewards; speculative depth without a
+simulator; PufferLib Ocean scores as a capability claim
+(`formal-methods.md` DST trio).
+
+```text
+loop     = yours (beam / funnel / stages / MCTS / incident command)
+hole     = prior | prune | leaf | "still live?"
+probe    = simulator / thermometer / CRM amount / exit code
+estimate ≠ measure — irreversible milestones concede only to the probe
+```
+
+**Example (Empirical):** jev-mcts grounded vs speculative fidelity in
+types; probes-only concession (mapping §5). **Beyond SWE (Hypothesis):**
+snowball citations ("still on-question?"); sales stages ("still a real
+opp?" — amount and close date stay exact); cook/rest/check ("looks done?"
+— thermometer is the probe). **Counterexample**: a weekly LLM summary of
+"how the project feels" instead of per-item instrumentation (the rejected
+opposite of NATM). **Test**: greedy vs looped baseline on realistic cases;
+inspect pruning failures; the probe, not the estimate, concedes. Links:
+`mental-models.md` §search; `formal-methods.md` PufferLib row.

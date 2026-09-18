@@ -42,12 +42,21 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   FAQ rows for family choice, GLiClass vs Jev vs cross-encoder, and
   CLIP/SigLIP gating. No invented APIs.
 - Formal-methods card: judgment vs proof ownership (sensor / constraint /
-  searchlight); Alloy/TLA+/Quint/P/NuSMV/PRISM/Event-B; Dafny/JML/
-  Frama-C/SPARK; DST (Antithesis, Resonate); harms (TOCTOU-shaped soft
-  checks, soundness theater, Hillel vibing specs); crossover metaphors
-  (NATM, snap-fit, Norman gulfs, Leveson STAMP/STPA). Curriculum file
-  `FORMAL-METHODS-SYSTEM-ONE.md` had not landed; card is from the brief
-  plus cited docs. Non-negotiable: never launder a Noul as a proof.
+  searchlight); Alloy Analyzer vs Apalache (model finder ≠ SMT BMC ≠
+  inductiveness); TLA+/Quint/P/NuSMV/PRISM/Event-B; Dafny/JML/
+  Frama-C/SPARK; DST trio (Antithesis hypervisor, Resonate Lean+oracle+
+  SDK, PufferLib env+seed / Ocean trainer contracts); harms
+  (TOCTOU-of-Noul, soundness theater, AI×FM / Hillel vibing specs);
+  crossover metaphors (NATM, snap-fit, Norman gulfs, Leveson STAMP/STPA).
+  Curriculum file `FORMAL-METHODS-SYSTEM-ONE.md` had not landed; card is
+  from the brief plus cited docs. Non-negotiable: never launder a Noul
+  as a proof.
+- Hypothesis mapping cards (do not promote without an acceptance test):
+  VOI / gather as an act; signal detection / ROC criterion; Leveson
+  sensor≠constraint; search/control loops outside SWE
+  (`mappings.md` §6–§9)
+- Boundary-audit stop conditions for TOCTOU-of-Noul and vacuous specs;
+  FAQ rows for Alloy vs Apalache and PufferLib-as-DST-trio
 - Mental-models card: Augustus is design judgment across AI, SWE,
   business, knowledge work, and life — not SWE-only. Pillars: expected
   utility / selective classification, calibration and cost-sensitive
@@ -73,7 +82,8 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
 - Skill mission and description are domain-general (AI / SWE / business /
   knowledge work / life); FAQ "is this only for software?"; mappings.md
   beyond-SWE examples labeled Hypothesis; boundary-audit red flags for
-  TOCTOU and vacuous specs
+  TOCTOU-of-Noul and vacuous specs; formal-methods expanded with Alloy vs
+  Apalache and the DST trio including PufferLib
 
 ## [0.2.0] - 2026-09-18
 

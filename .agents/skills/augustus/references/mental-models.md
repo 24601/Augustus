@@ -114,9 +114,16 @@ in the *probability*. Gather-evidence is an act whose cost you know
 (another test, another search, another human, another batch of Nouls).
 
 ```text
-EVPI / EVSI ≈  E[loss | current belief] − E[loss | belief after paying]
+EVPI  = value of *perfect* information (clairvoyant) — an upper bound
+EVSI  = value of *sample* information (the test you can actually buy)
+both ≈  E[loss | current belief] − E[loss | belief after paying]
 pay iff that difference > cost of the observation
 ```
+
+Do not compute a numeric EVPI from uncalibrated scores and call it
+Contract. The *placement* (gather as an enumerated act) is the method;
+the calculator is **Hypothesis** until you log act/outcome pairs.
+Mapping card: `mappings.md` §6.
 
 **Transfers:** "ask a second question" / "retrieve one more candidate" /
 "run the expensive LLM" only when VOI clears the cost. Cheap fan-out
@@ -132,10 +139,6 @@ treating another LLM call as free information.
 | Life | Blood test vs wait | Base rate + cost says wait |
 | SWE | LLM autopsy vs OpenSmoke flag | Flag is negative — no VOI in the autopsy |
 | Search | Deep rerank vs BM25 | Shortlist already size 1 |
-
-**Hypothesis** as a numeric VOI calculator on Jev-class outputs until you
-log act/outcome pairs. The *placement* (gather as an enumerated act) is
-the method.
 
 ## MCDA
 
@@ -181,7 +184,9 @@ probe.
 | Org | incident command | "is this still contained?" | head-count, location |
 
 Rejected: bandits without observed rewards; Jev as the planner that
-picks its next tool in a loop (`boundary-audit.md`).
+picks its next tool in a loop (`boundary-audit.md`); PufferLib Ocean
+scores as a capability claim (`formal-methods.md` DST trio). Mapping
+card for the cross-domain loop: `mappings.md` §9.
 
 ## Signal detection
 
@@ -199,16 +204,21 @@ deadline?"
 ```text
 Noul ≈ evidence variable (noisy)
 criterion t from costs and base rate   # policy
-ROC / PR curve on YOUR labeled cases   # you owe this plot
+ROC curve  = hit rate vs false-alarm rate as t moves
+PR curve   = precision vs recall — prefer this when the class is rare
+you owe the plot on YOUR labeled cases
+report the operating point you ship, not "accuracy"
 ```
 
 Shift the criterion when the base rate shifts (flu season, incident
 week, inbox after a launch). Do not retrain to "be more careful" when
 you meant "raise t." Fail-open vs fail-closed is a criterion choice.
+A listwise or CLIP affinity is not automatically this evidence
+variable (`judgment-class.md`).
 
 **Hypothesis** for non-SWE plots; **Empirical** for firehose/moderation
 families in the archive (Near Here / jev-experiments) as a *shape*, not
-as a number to copy.
+as a number to copy. Mapping card: `mappings.md` §7.
 
 ## Org and safety (Leveson)
 
@@ -228,7 +238,8 @@ This is hospital, aviation, kitchen, boardroom, and agent harness alike:
 
 Org placement: cheap judgment over every incident step (OpenSmoke
 shape) so humans only autopsy flags. That is NATM instrumentation of
-the control structure, not a safety case.
+the control structure, not a safety case. Mapping card: `mappings.md`
+§8. TOCTOU-of-Noul: `formal-methods.md` §5.
 
 ## Crossover metaphors (general design intuition)
 
@@ -278,11 +289,13 @@ Use these as *existence proofs of a position*. Write your own card.
 | Hiring | interview / reject / hold | evidence Nouls; veto rules in policy | labor law, scorecards you wrote |
 | Inbox | reply / snooze / archive | urgency Noul + aboutness Choice | send, calendar |
 | Moderation | hold before publish | hazard Nouls (**Empirical** as family) | block/review policy |
+| Phishing / fraud screen | hold vs deliver | SDT criterion on a Noul | blocklist, SPF/DKIM exact (**Hypothesis**) |
 | Personal ops | cook done / not | "looks done" Noul | thermometer probe |
 | Org safety | stop the line | sensor Noul | interlock, two-person rule |
 
 Rejected in every domain: replacing the ledger with a vibe; replacing
-the interlock with confidence; replacing the essay with a Noul.
+the interlock with confidence; replacing the essay with a Noul;
+TOCTOU-of-Noul as authorize; tautological spec + "looks good."
 
 ## Decision-design extras (any domain)
 

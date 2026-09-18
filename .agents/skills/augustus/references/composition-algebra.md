@@ -22,7 +22,7 @@ mappings.md conventions.
 | 6 | **Prior / initializer** | Jev distribution seeds a deterministic method that refines it | MCTS PUCT priors; beam-search branch priority | It's a heuristic prior, not a posterior; refine with real observations | **Empirical recipe** |
 | 7 | **State estimator, F = controller** | Jev estimates named probabilities; deterministic policy with hysteresis acts | foreman (progress/stuck/complete → continue/stop/retry/verify) | The model never commands; interventions enumerated in code | **Empirical recipe** |
 | 8 | **Metric / loss** | Jev as the judge inside an optimizer loop (GEPA, DSPy teleprompters) | Judge-variance recipe before trusting any optimizer metric | Optimizer metrics must be repeatable; Jev judge spread 224–279× lower than GPT judge — still verify on your data | **Empirical recipe** |
-| 9 | **Verifier / constraint source** | Jev judges spec-conformance: property holds/violated/unverifiable | pi-warden (violated rule named back into context); citation checks | Verdicts are evidence, not enforcement; the checker enumerates requirements in code. A Noul does not discharge a proof obligation (`formal-methods.md`) | **Empirical recipe** |
+| 9 | **Verifier / constraint source** | Jev judges spec-conformance: property holds/violated/unverifiable | pi-warden (violated rule named back into context); citation checks | Verdicts are evidence, not enforcement; the checker enumerates requirements in code. A Noul does not discharge a proof obligation. TOCTOU-of-Noul is not a constraint (`formal-methods.md`) | **Empirical recipe** |
 | 10 | **Discretizer / encoder** | Unstructured state → typed values downstream code requires (enum, level, boolean) | jev-browser element selection; pre-parsed value extraction | Jev selects from candidates you produce; it never generates | **Empirical recipe** |
 | 11 | **Bounds / budget holder** | Jev decides how far to continue (early stop, keep-looking) | Early-stop noul ≥0.85 (mcts-agent); winnow hide threshold | Termination conditions stay conservative and code-owned | **Empirical recipe** |
 
@@ -51,7 +51,8 @@ mappings.md conventions.
 2. **Estimate ≠ measure**: in every position, a Jev output is an estimate
    over the state as given. Anything irreversible concedes only to a
    post-execution probe (position 2), never to a Jev estimate in any other
-   position.
+   position. A Noul at t0 that authorizes an act at t1 is TOCTOU-of-Noul,
+   not a discharged obligation.
 3. **Calibration is positional**: thresholds are per-position and
    per-action (gate thresholds ≠ judge thresholds ≠ hide thresholds).
    Tune each on split A, report on split B.
@@ -106,6 +107,9 @@ an acceptance test that ran.
 - **Jev as spec-inference**: deriving the criteria set itself from labeled
   failures (optimizer-coupled criteria search). Untested; the honest
   current claim is "criteria are designed, not yet learned."
+- **Jev as VOI calculator**: numeric EVPI/EVSI from returned
+  distributions. Placement (gather as an act) is the method; the
+  calculator is Hypothesis until act/outcome logs exist (`mappings.md` §6).
 
 ## Verified application families (Empirical, dabit3/jev-experiments + archive corpus)
 

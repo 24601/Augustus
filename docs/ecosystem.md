@@ -58,9 +58,11 @@ on flags). Neighbor skills `tenbin` and `decision-first` are *not* Augustus
 clones — they own lint/eval and try-Jev-first habit.
 
 See `references/mixed-architecture.md` in the skill. Class-level family
-choice: `references/judgment-class.md`. Proof vs judgment:
+choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs
+Apalache; DST trio Antithesis / Resonate / PufferLib):
 `references/formal-methods.md`. Cross-domain frames (not SWE-only):
-`references/mental-models.md`.
+`references/mental-models.md`. Hypothesis cards for VOI, ROC, Leveson,
+and search/control outside SWE: `references/mappings.md` §6–§9.
 
 ## The skill that owns this analysis
 

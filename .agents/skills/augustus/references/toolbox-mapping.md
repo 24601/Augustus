@@ -74,8 +74,11 @@ component; keep the rest of the method in code.
 | Psychology: Kahneman | System 2 generates/proposes (LLM), System 1 discriminates (Jev); never the reverse | **Empirical recipe** (mcts-agent role split; 2026-09-18 mixed-architecture discourse) |
 | IR / cascades | Cheap relevance / irrelevance before an expensive ranker or generator | **Empirical recipe** (RAG cookbook; jevprune; git-jev-stage; LlamaIndex Jev rerank) |
 | Spec / lint | Project-defined semantic rules as predicates over a diff | **Empirical recipe** (jev-pref contract; pi-warden; snifftest unsure-band) |
-| Formal methods / DST / safety | Judgment triages counterexamples, failing seeds, and named-rule conformance; proof/MC/DST stay with their tools. Noul is a sensor, not a discharged PO | **Hypothesis as product**, **Empirical** as ownership (pi-warden; `formal-methods.md`) |
-| Bandits / RL | Value from observed rewards only — Jev provides none; rejected without an environment | **Rejected** (standing boundary) |
+| Formal methods / DST / safety | Judgment triages counterexamples, failing seeds, and named-rule conformance; proof/MC/DST stay with their tools. Alloy finder ≠ Apalache BMC ≠ Quint run. DST trio: Antithesis hypervisor / Resonate Lean+oracle+SDK / PufferLib env+seed. Noul is a sensor, not a discharged PO | **Hypothesis as product**, **Empirical** as ownership (pi-warden; `formal-methods.md`) |
+| Decision analysis: VOI | Gather as an enumerated act; pay iff expected decision-loss drop > cost | **Hypothesis** as calculator (`mappings.md` §6; `mental-models.md`) |
+| Signal detection | Noul as evidence variable; criterion from costs and base rate; ROC/PR on your labels | **Hypothesis** for non-SWE plots (`mappings.md` §7) |
+| Safety engineering: STPA | Sensor ≠ constraint; table of unsafe control actions if the sensor lies | **Contract** as ownership (`mappings.md` §8; Leveson) |
+| Bandits / RL | Value from observed rewards only — Jev provides none; rejected without an environment. PufferLib Ocean is a trainer contract, not a baseline | **Rejected** (standing boundary) |
 
 Invalid-but-tempting (record these so they don't get rediscovered): treating
 parallel Noul answers as independent evidence and multiplying them into a
@@ -85,7 +88,9 @@ versioned rubric; using calibration to certify an individual answer
 (calibration describes groups, not cases); treating Jev as a stack
 replacement for an LLM (mixed architecture is the default —
 `references/mixed-architecture.md`); treating a Noul as a proof, a
-model-check, or a DST property (`references/formal-methods.md`).
+model-check, or a DST property (`references/formal-methods.md`);
+TOCTOU-of-Noul as authorize; tautological spec + "looks good";
+PufferLib Ocean scores as a comparative baseline.
 
 ## The application-finding procedure (top-down, domain-first)
 

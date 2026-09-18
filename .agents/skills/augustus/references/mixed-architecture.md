@@ -30,7 +30,8 @@ Status words follow `mappings.md`: **Contract** (docs), **Empirical recipe**
 If the request is "how do I call Jev?", stop and load `typesafe-ai`. If it
 is "should this step be a judgment-class model, an LLM, a regex, or a
 trained classifier — and which family?", stay here. Family table:
-`judgment-class.md`.
+`judgment-class.md`. Cross-domain frames: `mental-models.md`. Proof vs
+judgment: `formal-methods.md`.
 
 ## Default architecture
 

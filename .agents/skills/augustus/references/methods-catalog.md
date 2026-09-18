@@ -31,6 +31,8 @@ judgment component is new).
 | Self-consistency / ensembling of judges | Repeated independent ratings of the same object | N repeats over one state (output tokens free); entropy/disagreement across repeats as the review signal | Aggregation, escalation policy | **Empirical recipe** (self-consistency: nouls cookbook) |
 | Judge qualification (interrater reliability) | A judge worth gating must be repeatable | Repeated judgments over frozen outputs before trusting either Jev or LLM as judge | Variance stats, agreement metrics | **Empirical recipe** (jev-as-a-judge: 224–279× tighter than GPT judge) |
 | Neyman–Pearson / selective classification | Decision threshold under error costs | One threshold per action, set on split A, reported on split B; abstention path | Loss model, ROC analysis | **Contract + empirical** (confidence-routing; evaluator script) |
+| Value of information (EVPI / EVSI) | Whether another observation is worth its cost | Gather as an enumerated act; pay iff expected decision-loss drop > cost | Cost of the observation; the loss table | **Hypothesis** as a numeric calculator; **Contract** as the placement (`mappings.md` §6) |
+| Signal detection (Green & Swets) | Evidence variable + criterion | Noul as noisy evidence; t from costs and base rate; ROC/PR on your labels | Operating point, base-rate tracking | **Hypothesis** for non-SWE plots; **Empirical** as moderation *shape* (`mappings.md` §7) |
 | Reliability calibration (Platt/temperature) | Raw scores → calibrated probabilities | Noul is natively calibrated **in-distribution only**; verify with reliability bins on your own population; re-fit a correction out-of-distribution | Calibration fitting, binning | **Empirical recipe** (ECE 0.0313 in-distribution; 32% OOD collapse — Archer Hume) |
 | Survey scoring / psychometrics | Rubric level judgment with defined anchors | Score with concrete level descriptions; probabilities read beside every score | Weighted aggregation, reliability analysis | **Contract** (score docs: split composite judgments) |
 
@@ -41,6 +43,8 @@ judgment component is new).
 | MCTS / PUCT | Prune invalid actions; priors P(s,a); leaf value V(s) | Batched Noul pruning + Choice priors + Score value — depth-capped where no simulator | Tree, budget, backprop, probes | **Empirical recipe** (jev-mcts: 24/24 vs 1/24 greedy; speculative depth 2) |
 | Beam search over taxonomies | Which branches deserve expansion | Choice distributions as branch priority; keep K paths where ambiguity is early | Frontier, budget, final selection | **Empirical recipe** (beam K=3 cookbook) |
 | Screening / Wald sequential tests | Pass / fail / keep-looking per candidate | One Noul gate per candidate in one batched request; budget in code | Sequential rule, stop boundaries | **Hypothesis** |
+| STPA / STAMP control structure | Sensor reading vs enforced constraint | Judgment as sensor; constraints in policy/code/interlock; STPA table if the sensor lies | The constraint, the actuator, the probe | **Contract** as ownership; **Hypothesis** as domain product (`mappings.md` §8) |
+| PufferLib / Ocean env contracts | Does this episode look like a known trainer-bug mode? | Cluster failing episodes; never "the policy is correct" | Seeded serial env, Ocean sanity, observed rewards | **Hypothesis** as placement; **Contract** that Ocean is not a comparative baseline (`formal-methods.md` DST trio) |
 | Routing / dispatch (OR) | Which queue/agent owns this item | Choice + confidence-gated escalation; code owns capacity | Cost matrix, capacity constraints | **Empirical recipe** (intent-routing; LlamaIndex Jev selectors; skillranker) |
 | Cascade / prefilter (IR) | Cheap reject before an expensive scorer or LLM | Per-candidate Noul/Score; fail-open on drop, fail-closed on dispatch | Candidate generation, always-keep set, recall keys | **Empirical recipe** (classifying RAG passages; jevprune; git-jev-stage) |
 | Knapsack / portfolio selection | Per-item feature vector from text | Fan-out nouls/scores as features; optimizer in code | Constraint solver, weights | **Hypothesis** (mapping 1 shape) |
@@ -59,6 +63,7 @@ judgment component is new).
 |---|---|---|---|---|
 | Claim–evidence entailment (NLI) | supports / contradicts / not-established per claim–source pair | One Choice per pair + review flag; judge against the cited source text only | Quote extraction, citation graph, audit log | **Empirical recipe** (citation_check cookbook) |
 | Spec vs artifact conformance (model checking *mindset*) | Property holds / violated / unverifiable for a named requirement | One Noul per requirement, batched; violated → named rule back into context (pi-warden shape). This is **not** TLC/Apalache/GNATprove | Requirement enumeration, enforcement, logging; the real checker if you have one | **Empirical recipe** (pi-warden: 6→0 rule breaks, 150 paired runs; jev-pref: YOU define the rule). Ownership split: `formal-methods.md` |
+| Alloy finder vs Apalache / TLC | Which bound, which counterexample, is the property tautological? | Triage instances/CEs; never "this spec looks right" | Analyzer / SMT / explicit-state engine | **Hypothesis** as product; **Contract** as ownership (`formal-methods.md` §2) |
 | Type-checking analog | Does this planned call match the schema/operation/target? | Decomposed nouls over {request, schema, trace}; never trust a Jev pass as authorization | Real validation of operation+target in code | **Empirical recipe** (validation.md self-monitoring) |
 
 ## Economics & game theory
@@ -85,6 +90,10 @@ judgment component is new).
 - A Noul (or any judgment-class score) as a proof, a model-check, or a
   DST property. Judgment is a sensor; proof/types are constraints; DST
   is a searchlight (`references/formal-methods.md`).
+- TOCTOU-of-Noul as fail-closed authorize (judge at t0, act at t1).
+- Tautological / vacuous spec plus "the model said it looks good"
+  (Hillel vibing specs; receipt theater).
+- PufferLib Ocean scores as a comparative RL or judgment-class baseline.
 
 ## Operators and theorems (third tier)
 

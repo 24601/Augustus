@@ -15,15 +15,18 @@ status on a decision-design card.
 
 At each workflow step, classify before proposing Jev:
 
-- **Exact** → code: arithmetic, dates, lookups, authorization, schema
-  validation, cryptography, known transforms, parsers that already work.
-- **Bounded semantic judgment** → Jev candidate (fit test below).
-- **Open-ended generation** → an LLM: writing, explanation, code
-  generation, long-form synthesis, open-ended research. Jev may gate,
-  route, or verify *around* that call; it does not generate.
+- **Exact** → code *or policy*: arithmetic, dates, lookups, authorization,
+  schema validation, cryptography, known transforms, parsers that already
+  work, ledgers, law, recipes, two-person rules, thermometers, credit
+  limits. Policy is the code of a practice that has no repository.
+- **Bounded semantic judgment** → Jev-class candidate (fit test below).
+- **Open-ended generation** → an LLM or a person writing: explanation,
+  code generation, long-form synthesis, open-ended research. A
+  judgment-class model may gate, route, or verify *around* that call;
+  it does not generate.
 
-Do not use Jev by default. A regex or lookup that already solves the
-problem stays.
+Do not use a judgment model by default. A regex, lookup, checklist, or
+recipe that already solves the problem stays.
 
 ## Symptoms (look here first)
 
@@ -36,6 +39,11 @@ Insertion points often look like:
 - an expensive reasoning model used for a trivial classification
 - the same semantic classifier duplicated across handlers
 - humans reviewing obvious cases because the machine has no abstain path
+- a weekly LLM summary of "how the project feels" instead of per-item
+  instrumentation (rejected opposite of NATM)
+- a hiring / bid / paper Score that hides vetoes in one "how good"
+- a safety case that is a confidence number
+- judged at t0, acted at t1, no re-probe (TOCTOU-of-Noul)
 
 The shape of a real hole:
 
@@ -157,8 +165,31 @@ Stop and redesign when you see:
 - typed output described as hallucination-proof
 - SDK fields written from memory instead of live docs
 - a Noul used as a proof, model-check, or DST property
-- TOCTOU: judged at t0, acted at t1, no re-probe (`formal-methods.md`)
-- vacuous / tautological spec (Hillel vibing specs) plus "the model said it looks good"
+- TOCTOU-of-Noul: judged at t0, acted at t1, no re-probe
+  (`formal-methods.md` §5) — includes credit-then-wire, "looks done"
+  then serve, "spec looks good" then merge
+- vacuous / tautological spec (Hillel vibing specs) plus "the model said
+  it looks good"; MCP "ran the checker" on a tautology (receipt theater)
+- Apalache random-exec or Quint `run` cited as unbounded safety
+- PufferLib Ocean scores as a comparative capability claim
+- Alloy vs Apalache collapsed into "we model-checked it"
+
+### TOCTOU-of-Noul (stop condition)
+
+The check was never atomic because it was never a check. If the
+insertion authorizes an irreversible act from a Noul taken before the
+world can have moved, redesign: interlock in code/policy; re-probe;
+treat t0 as advisory routing. Fail-closed authorize cannot be a stale
+Noul. Same shape in inbox, hiring, kitchen, and incident command as in
+agents.
+
+### Vacuous spec (stop condition)
+
+If the property is a restatement of a definition (`canImport = P ∨ Q`
+then "prove" `¬P ∧ ¬Q ⇒ ¬canImport`), the checker passing is not a
+result. Do not add a Noul "does this spec look good?" on top. Demand a
+subtle property (concurrency, liveness, multi-step) and a run of the
+real tool (`formal-methods.md` §5 AI×FM).
 
 ## Completion
 

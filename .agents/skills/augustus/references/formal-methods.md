@@ -4,11 +4,14 @@ This card is **where a System One judgment sits relative to proof,
 model-checking, contracts, and simulation** — not a TLA+/Dafny tutorial
 and not a TypeSafe API guide. Jev is the documented exemplar of the
 judgment-class (`judgment-class.md`); the ownership split does not depend
-on the vendor.
+on the vendor. Portable frames for EU, VOI, MCDA, SDT, and org/safety
+live on `mental-models.md`. Formal methods are **one pillar**, not the
+skill.
 
 A curriculum list may later land as `FORMAL-METHODS-SYSTEM-ONE.md`. When
 it does, fold named rows into the tables below. Until then this file is
-the working map from the 2026-09-18 brief.
+the working map from the 2026-09-18 brief plus the Alloy-vs-Apalache /
+DST-trio expansion.
 
 Status: **Contract** only for TypeSafe docs you re-read live. Tool
 characterizations here are **Empirical recipe** (named docs) or
@@ -40,7 +43,8 @@ the controller; it is not allowed to *be* the constraint.
 Existing grammar: composition-algebra position 9 (verifier) — verdicts
 are evidence, not enforcement. Position 3 (gate) — a filter is not
 authorization. Estimate ≠ measure: irreversible acts concede only to a
-post-execution probe.
+post-execution probe. A Noul at t0 that authorizes an act at t1 is
+TOCTOU-of-Noul (§5), not a discharged obligation.
 
 **What transfers** into a mixed stack: triage which counterexample,
 property, or failing seed a human looks at first; score whether a
@@ -61,8 +65,9 @@ do not judge production text. Docs, not this card, own syntax.
 
 | Tool | What it actually does | Exhausts | Judgment-shaped hole | Stays in the tool |
 |---|---|---|---|---|
-| [Alloy](https://alloytools.org/) | Relational modeling; SAT/SMT *finds* instances and counterexamples in a finite scope | Small scopes. A green check is "no counterexample in this bound" | Which scope; is this instance interesting; cluster counterexamples | Analyzer, facts, scopes |
-| [TLA+](https://lamport.azurewebsites.net/tla/tla.html) / TLC / Apalache | Temporal logic of actions; check invariants and (some) liveness on a state machine | Finite instances / symbolic unrolling of *the spec* | Which property is "obvious" vs "subtle"; map logs to behaviors | Spec, checker, refinement mapping |
+| [Alloy](https://alloytools.org/) | Relational modeling; SAT/SMT *finds* instances and counterexamples in a finite scope | Small scopes. A green check is "no counterexample in this bound" | Which scope; is this instance interesting; cluster counterexamples; is the property tautological (Hillel) | Analyzer, facts, scopes |
+| [TLA+](https://lamport.azurewebsites.net/tla/tla.html) / [TLC](https://lamport.azurewebsites.net/tla/tools.html) | Temporal logic of actions; *explicit-state* check of invariants and (some) liveness | Finite instances of *the spec* (not the C you forgot to model) | Which property is "obvious" vs "subtle"; map logs to behaviors | Spec, checker, refinement mapping |
+| [Apalache](https://apalache-mc.org/) | Symbolic SMT checker for TLA+ (Z3); Quint's verify backend | Traces ≤ k, or all lengths *if* an inductive invariant holds | Same as TLA+; plus: was this BMC, random symbolic exec, or inductiveness? | Spec, SMT encoding, k / invariant |
 | [Quint](https://quint.sh/docs/what-does-quint-do) | Executable fragment of TLA with programming-style syntax; simulator + Apalache/TLC | Same as TLA+ when you *verify*; `quint run` is a simulator, **not** a proof ([Quint FAQ](https://quint.sh/faq): no TLAPS) | Same as TLA+; simulator traces are DST-adjacent | Spec, types/effects, checker |
 | [P](https://p-org.github.io/P/) | Async event-driven state machines; systematic testing of P programs | Explored schedules of the P program, not the handwritten C# you forgot to model | Which monitor; which failing schedule to inspect | P checker, runtime |
 | [NuSMV](https://nusmv.fbk.eu/) | Symbolic SMV; CTL/LTL on finite-state models | The finite Kripke structure you encoded | Encoding choices; which property to add after a miss | Model, engines |
@@ -74,6 +79,39 @@ explain a counterexample to a human). It may not sit *instead*. Quint's
 own split is the teaching example: simulator finds bugs faster; model
 checker is what lets you claim the invariant on that model
 ([What does Quint do?](https://quint.sh/docs/what-does-quint-do)).
+
+### Alloy Analyzer vs Apalache (do not collapse)
+
+They are both bounded constraint engines. They are **not** the same
+tool, not the same language, and a green check is not the same claim.
+Alloy's own FAQ: the Analyzer is a **model finder**, not a model
+checker — given a formula, it finds an instance
+([Alloy FAQ: vs model checkers](https://alloytools.org/faq/how_does_the_alloy_analyzer_differ_from_model_checkers.html)).
+Apalache is a **symbolic model checker** for TLA+
+([apalache-mc.org](https://apalache-mc.org/)).
+
+| | Alloy Analyzer | Apalache |
+|---|---|---|
+| Input | Relational first-order (sets, relations, traces *if you encode them*) | TLA+ actions / Quint |
+| Engine | SAT (Kodkod) in a user *scope* (atoms per sig) | SMT (typically Z3) |
+| What "green" means | No counterexample in this finite scope | Depends on the *mode* (below) |
+| Built-in idiom | None — structure is the point; partial/declarative models are allowed | State-machine idiom of TLA+ (same assumptions as TLC) |
+| Strength | Trees, tables, commuting operations, rich structure without array-encoding | Native TLA+; integers without enumerating every TLC value; Quint / Atomkraft / Solarkraft backend |
+| Shared harm | Bounded green ≠ proof of the implementation. TLC enumerates spec states; Apalache unrolls them symbolically; Alloy finds instances of a *different* language. |
+
+Apalache modes — mixing them is soundness theater:
+
+1. Randomized symbolic execution — *some* executions up to length `k`.
+2. Bounded model checking — *all* executions up to length `k`.
+3. Inductiveness checking — all lengths, **if** the inductive invariant
+   actually holds.
+4. Custom exploration (JSON-RPC) — a script, not a certificate.
+
+Judgment-shaped hole (same for both): which bound/scope; cluster
+counterexamples; is this property tautological (Hillel: `canImport = P ∨ Q`
+then "prove" `¬P ∧ ¬Q ⇒ ¬canImport`) vs subtle (concurrency, liveness,
+multi-step). Out of class: a Noul "this Alloy looks right" or "Apalache
+would agree."
 
 ## 3. Deductive and contract languages
 
@@ -91,49 +129,82 @@ hypotheses, location). Ranking those is in-class. A Noul "the lemma
 holds" is out of class — that is a proof obligation with the prover
 deleted.
 
-## 4. Deterministic simulation testing (semi-formal)
+## 4. Deterministic simulation testing (semi-formal trio)
 
 DST is the missing middle: not a proof, not a unit test, not a
 judgment. It **searches executions** under a deterministic scheduler
 and asks whether *stated properties* held. A found bug is a
 reproducible seed. A clean run is coverage of that search, not
-correctness of the program.
+correctness of the program. Antithesis's own explainer:
+[how DST works](https://antithesis.com/docs/resources/deterministic_simulation_testing/).
 
-| System | What it actually does | Judgment-shaped hole |
-|---|---|---|
-| [Antithesis](https://antithesis.com/docs/introduction/how_antithesis_works/) | Whole-system deterministic hypervisor; faults + inputs; property-based exploration; reproducible timelines | Cluster failing timelines; is this the same incident; which property to add after a miss |
-| [Resonate](https://docs.resonatehq.io/evaluate/how-resonate-is-tested) | Three layers: executable Lean 4 protocol spec, differential testing vs an in-memory oracle, DST of the TypeScript SDK (seeded faults, CI replays the seed twice to catch nondeterminism) | Same as Antithesis for the DST layer; the Lean spec is still a spec |
+Three different ways to search. None is a proof. None is a Noul.
+
+| System | How it searches | What a seed means | Judgment-shaped hole |
+|---|---|---|---|
+| [Antithesis](https://antithesis.com/docs/introduction/how_antithesis_works/) | Whole-system **deterministic hypervisor** around software you did not rewrite; faults + inputs; you state properties; reproducible timelines | The SUT under the hypervisor, that timeline | Cluster failing timelines; is this the same incident; which property to add after a miss |
+| [Resonate](https://docs.resonatehq.io/evaluate/how-resonate-is-tested) | **In-product three layers**: executable Lean 4 protocol spec, differential testing vs an in-memory oracle, DST of the TypeScript SDK (seeded faults; CI replays the seed twice to catch nondeterminism) | SDK + faults + seed. Lean still owns the protocol claim | Same as Antithesis for the DST layer; the Lean spec is still a spec |
+| [PufferLib](https://puffer.ai/docs.html) | The **environment is already a simulator**. Serial vectorization + explicit seeds for contract debugging; Ocean sanity envs fail if the *trainer* is wrong ([arXiv 2406.12905](https://arxiv.org/abs/2406.12905); authors: never report Ocean as a comparative RL baseline). A seed does **not** make GPU training or third-party simulators bitwise deterministic | Replay of env + seed (seed action-sampling separately). Ocean pass = trainer contract, not policy optimality | Cluster failing episodes; "does this look like Password / Stochastic / Memory?"; never "the policy is correct" |
+
+Teaching split:
+
+```text
+Antithesis   wrap existing software; you did not rewrite the scheduler
+Resonate     you built the harness *and* a real spec (Lean) *and* DST
+PufferLib    the world is a sim; DST-shaped testing is seeded serial env
+             + Ocean contracts; RL value still needs observed rewards
+```
 
 Resonate is the ownership split in one product: Lean owns the protocol
 claim; DST owns "this SDK, these faults, this seed"; unit tests own the
-rest. A judgment-class model is not a fourth way to skip any of those
-layers. It can sit where OpenSmoke already sits: cheap flags over every
-failing seed so a human (or an LLM autopsy) only sees the cluster.
+rest. PufferLib is the search/control cousin: the loop is yours; a
+judgment-class model may score traces, not replace the env contract.
+Standing rejection unchanged: bandits / RL value from Jev with no
+observed rewards (`methods-catalog.md`).
+
+A judgment-class model is not a fourth way to skip any of those layers.
+It can sit where OpenSmoke already sits: cheap flags over every failing
+seed so a human (or an LLM autopsy) only sees the cluster.
 
 Rejected: "we ran DST, then Jev said the traces look healthy, ship it."
 The property ran or it did not. Judgment does not get a vote on P.
+Rejected: reporting Ocean scores as a capability claim for a
+judgment-class model.
 
 ## 5. Harms
 
-### TOCTOU-shaped soft checks
+### TOCTOU-of-Noul
 
 Time-of-check-time-of-use: you judged state at t0 and acted on it at
-t1. The world moved. Classic: `stat` then `open`. Agent-shaped: Noul
-"this plan is safe" → tools run → files, prices, and permissions
-change → execute. Also: using a Noul *as* the lock — the check was
-never atomic because it was never a check.
+t1. The world moved. The check was never atomic because it was never a
+check.
 
-Fix, in order: make the real interlock in code (types, auth, sandbox,
-compare-and-swap); re-probe after the world can have moved
-(composition: irreversible acts concede only to a post-execution
-probe); treat the t0 judgment as advisory routing, not permission.
-Fail-closed authorize cannot be a stale Noul.
+| Shape | t0 | t1 (the miss) |
+|---|---|---|
+| Classic | `stat` | `open` — the file changed |
+| Agent | Noul "this plan is safe" | tools ran; files, prices, permissions changed; execute |
+| Lock-shaped | Noul *as* the mutex | concurrent actor never saw a lock |
+| Business | "this invoice looks right" / credit Noul | wire after the account emptied |
+| Life | "this looks done" / "this looks edible" | eat / serve after a different specimen or a cold center |
+| Inbox | "needs a reply today" | send yesterday's draft to the wrong thread |
+| Hiring | "transcript shows skill" | offer after answers were about a different job |
+| Formal | Noul "this spec looks good" | merge; the checker never ran (also vibing specs) |
+
+Fix, in order: make the real interlock in code or policy (types, auth,
+sandbox, compare-and-swap, two-person rule, thermometer, ledger);
+re-probe after the world can have moved (composition: irreversible acts
+concede only to a post-execution probe); treat the t0 judgment as
+advisory routing, not permission. Fail-closed authorize cannot be a
+stale Noul. Policy is the code of a practice that has no repository
+(`mental-models.md`).
 
 ### Soundness theater
 
 Claiming a proof-shaped conclusion from a non-proof:
 
 - Bounded check with a toy scope, sold as "verified."
+- Apalache *randomized* symbolic exec sold as BMC; BMC at `k=3` sold as
+  "all traces"; Quint `run` cited as Quint `verify`.
 - Tautological properties that only restated the definition ([Hillel
   Wayne, March 2026](https://buttondown.com/hillelwayne/archive/llms-are-bad-at-vibing-specifications/):
   `canImport = P ∨ Q` then "prove" `¬P ∧ ¬Q ⇒ ¬canImport`).
@@ -141,27 +212,45 @@ Claiming a proof-shaped conclusion from a non-proof:
 - Noul 0.95 presented as a safety case. Calibration describes *groups*,
   in-distribution (`faq.md`; Archer Hume OOD collapse).
 - "DST hasn't failed" as correctness.
+- PufferLib Ocean scores as a comparative baseline (authors forbid this).
 - A listwise or CLIP affinity as fail-closed authorize
   (`judgment-class.md`).
 
 If the artifact would still say "verified" after you delete the
 checker, it was theater.
 
-### Vibing specs (Hillel)
+### AI × formal methods (vibing specs and cousins)
 
 [LLMs are bad at vibing specifications](https://buttondown.com/hillelwayne/archive/llms-are-bad-at-vibing-specifications/)
 (10 Mar 2026): a growing share of public TLA+ (he clocked **4% of
 GitHub TLA+ files mentioning Claude**) is unrun, non-compiling, or
 only "obvious" invariants (forgot a guard) — not the *subtle*
 concurrency, nondeterminism, and liveness properties that are why you
-bothered. Experts can use LLMs as a force multiplier *because they run
-the checker and can demand a strong property*. Beginners get green
-syntax and tautologies.
+bothered. The Alloy example did not compile (`open util/boolean`
+omitted) and asserted tautologies. Experts can use LLMs as a force
+multiplier *because they run the checker and can demand a strong
+property*. Beginners get green syntax and tautologies. Related talk:
+[How to find bugs in systems that don't exist](https://www.hillelwayne.com/talks/informal-methods/qcon26/)
+(QCon London 2026) — spec, environment, and properties are three views;
+judgment may score whether a log resembles a spec behavior; it does not
+write the environment assumption.
 
-Augustus implication: an LLM-written spec plus a System One Noul "does
-this spec look good?" is **double theater**. The checker, DST harness,
-or prover ran, or it did not. Judgment may triage *outputs of* those
-tools. It may not certify the spec.
+Additional AI×FM harms (same family, not a new owner):
+
+1. **Receipt theater.** An MCP "ran the checker" on a tautology. The run
+   is real; the property is vacuous.
+2. **Double theater.** LLM-written spec plus a System One Noul "does
+   this spec look good?" The checker, DST harness, or prover ran, or it
+   did not. Judgment may triage *outputs of* those tools. It may not
+   certify the spec.
+3. **Mode laundering.** Apalache random-exec or Quint simulator cited as
+   unbounded safety.
+4. **Sensor as constraint.** Leveson: a 99% Noul is a sensor. Unsafe
+   control action: the agent proceeds *because the model was confident*.
+
+Augustus implication: answer "formally verify with Jev" with a
+**placement** (triage failing seeds / rank VCs / NATM-instrument the
+control loop), not a hybrid "verified by Noul" API.
 
 ## 6. Crossover metaphors (placement intuition)
 
@@ -207,7 +296,7 @@ Hazards are missing enforcement of safety constraints. A 99% Noul is a
 because the model was confident. STPA asks what happens when the sensor
 is wrong, delayed, spoofed, or TOCTOU. Org/safety placement: judgment
 informs operators and cheap gates; it does not replace the constraint
-in the control structure.
+in the control structure. Mapping card: `mappings.md` §8.
 
 ```text
 NATM        instrument often; adapt support in code
@@ -222,6 +311,8 @@ When the request mixes formal methods with a System One model:
 
 ```text
 What must remain exhaustive (proof / MC / types / DST property):
+Which bounded engine (Alloy finder vs TLC vs Apalache mode vs Quint run vs verify):
+Which DST layer (Antithesis hypervisor / Resonate Lean+oracle+SDK / PufferLib env+seed):
 What is a sensor (judgment-class family + hole):
 What is a control constraint in code/policy (Leveson):
 TOCTOU: is check atomic with use, or is there a re-probe?
@@ -233,5 +324,6 @@ Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a
 hybrid "verified by Noul" API.
 
-Related: `methods-catalog.md` verification rows; `composition-algebra.md`
-positions 3 and 9; `mixed-architecture.md` preference lint; `faq.md`.
+Related: `mental-models.md`; `mappings.md` §6–§9; `methods-catalog.md`
+verification rows; `composition-algebra.md` positions 3 and 9;
+`mixed-architecture.md` preference lint; `faq.md`; `boundary-audit.md`.

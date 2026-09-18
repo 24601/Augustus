@@ -583,5 +583,48 @@ paragraphs; boundary-audit practice-not-just-code + TOCTOU/vacuous-spec
 red flags; marketplace/README exposure. Identity lock holds. No APIs
 invented.
 
+## 22. Formal-methods expansion + Hypothesis mapping cards (2026-09-18)
+
+Queued follow-up after the mental-models hub: expand the FM pillar
+without waiting on `FORMAL-METHODS-SYSTEM-ONE.md` (still 0 GitHub
+hits), and add Hypothesis cards so exposure is not SWE-only.
+
+**Alloy Analyzer vs Apalache.** Alloy is a model *finder* (SAT, finite
+scope, relational; [FAQ](https://alloytools.org/faq/how_does_the_alloy_analyzer_differ_from_model_checkers.html)).
+Apalache is a symbolic model *checker* for TLA+ (SMT; modes: some
+traces ≤k, all traces ≤k, inductiveness if the invariant holds —
+[apalache-mc.org](https://apalache-mc.org/)). TLC enumerates TLA+
+explicitly. Same harm: bounded green ≠ proof. Judgment triages
+counterexamples; a Noul does not sit in either seat.
+
+**DST trio.** Antithesis = deterministic hypervisor around existing
+software. Resonate = Lean 4 spec + differential oracle + DST of the TS
+SDK (CI replays seeds twice). PufferLib = the env is already a
+simulator; Serial + seeds for contract debugging; Ocean sanity envs are
+trainer contracts, **not** comparative RL baselines
+([arXiv 2406.12905](https://arxiv.org/abs/2406.12905);
+[puffer.ai/docs](https://puffer.ai/docs.html)). A seed does not make
+GPU training bitwise deterministic. Judgment clusters failing
+episodes; it does not vote that the policy is correct.
+
+**TOCTOU-of-Noul / AI×FM.** Judge at t0, act at t1 — the check was never
+atomic. Same shape in agents, credit-then-wire, kitchen, hiring, and
+"spec looks good" then merge. Hillel vibing specs (10 Mar 2026) plus
+receipt theater (MCP ran a tautology) and mode laundering (Quint `run`
+as `verify`; Apalache random-exec as BMC). QCon 2026 informal-methods
+talk: spec / environment / properties are three views.
+
+**Hypothesis cards** (`mappings.md` §6–§9): VOI/gather; SDT/ROC
+criterion; Leveson sensor≠constraint; search/control loops outside SWE.
+Promote only with an acceptance test that ran. Non-SWE gallery stays
+Hypothesis.
+
+**Non-negotiable unchanged:** code/policy owns exact work; model owns
+narrow judgment; never launder a soft Noul as proof. Identity lock vs
+`typesafe-ai` / `tenbin` / `decision-first`. No invented APIs. Still
+one FM file (`formal-methods.md`), not a duplicate
+`formal-semi-formal.md`.
+
+
 
 

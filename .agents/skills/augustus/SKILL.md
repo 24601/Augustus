@@ -1,6 +1,6 @@
 ---
 name: augustus
-description: "Use when placing typed probabilistic judgment (Jev-class System One models) with mathematical, logical, or algorithmic mental models — in AI, software, business, knowledge work, or life, not only SWE; deciding where a fast cheap categorization/classification/scoring model belongs versus generation, exact policy/code, or proof; applying expected utility, selective classification/abstention, calibration, cost-sensitive thresholds, value of information, MCDA, signal detection, search/control substitutions, or Leveson-style org/safety; using NATM/snap-fit/Norman as design intuition; designing mixed architecture (decision model + LLM writing); choosing among TypeSafe Jev, open heads (Laya), GLiClass-adjacent encoders, listwise rankers, or vision scorers; placing judgment beside TLA+/Alloy/Dafny/DST without laundering a Noul as a proof; answering \"it's just classification\", \"is this only for software?\", or \"formally verify with Jev\" with a placement, not a stack replacement or a vendor how-to. Formal methods are one pillar. Not a substitute for the official typesafe-ai skill (live Jev API contracts)."
+description: "Use when placing typed probabilistic judgment (Jev-class System One models) with mathematical, logical, or algorithmic mental models — in AI, software, business, knowledge work, or life, not only SWE; deciding where a fast cheap categorization/classification/scoring model belongs versus generation, exact policy/code, or proof; applying expected utility, selective classification/abstention, calibration, cost-sensitive thresholds, value of information, MCDA, signal detection, search/control substitutions, or Leveson-style org/safety; using NATM/snap-fit/Norman as design intuition; designing mixed architecture (decision model + LLM writing); choosing among TypeSafe Jev, open heads (Laya), GLiClass-adjacent encoders, listwise rankers, or vision scorers; placing judgment beside TLA+/Alloy/Apalache/Dafny/DST (Antithesis, Resonate, PufferLib) without laundering a Noul as a proof; answering \"it's just classification\", \"is this only for software?\", Alloy vs Apalache, TOCTOU-of-Noul, vacuous specs, or \"formally verify with Jev\" with a placement, not a stack replacement or a vendor how-to. Formal methods are one pillar. Not a substitute for the official typesafe-ai skill (live Jev API contracts)."
 license: MIT
 metadata:
   version: 0.3.0
@@ -47,12 +47,14 @@ classical method you already trust, substitute it, classify the win
 
 1. If the request is "replace the LLM/stack with Jev", "isn't this just
    classification?", "is Jev the only model?", "is this only for
-   software?", or "formally verify with Jev / replace TLA+ / Dafny /
-   DST": read `references/faq.md`, then `references/mental-models.md`,
-   then `references/mixed-architecture.md`, then
+   software?", "formally verify with Jev / replace TLA+ / Dafny /
+   DST", "Alloy vs Apalache", or "TOCTOU-of-Noul": read `references/faq.md`,
+   then `references/mental-models.md`, then
+   `references/mixed-architecture.md`, then
    `references/judgment-class.md` before any mapping. Proof,
    model-checking, contracts, DST, and judgment-vs-proof ownership: also
-   read `references/formal-methods.md`. Answer with a **placement**
+   read `references/formal-methods.md` (Alloy vs Apalache; DST trio
+   Antithesis / Resonate / PufferLib; TOCTOU-of-Noul). Answer with a **placement**
    (sieve / keep-drop / triage / rank / route / gate / perceive /
    abstain / gather / replace-one-classifier-step) and a **pillar +
    family**, not a rewrite, a vendor tutorial, or a Noul-as-proof. If it
@@ -102,7 +104,7 @@ classical method you already trust, substitute it, classify the win
 |---|---|---|
 | Mental models across domains (not SWE-only) | EU, abstention, VOI, MCDA, SDT, search/control, Leveson, NATM/Norman/snap-fit | `references/mental-models.md` |
 | Judgment-model class (Jev is exemplar, not monopoly) | Family from the hole: decision API, open head, GLiClass-adjacent, listwise ranker, vision scorer | `references/judgment-class.md` |
-| Formal / semi-formal (proof vs judgment) | Sensor vs constraint vs searchlight; TLA+/Alloy/DST/Dafny; TOCTOU, soundness theater, vibing specs | `references/formal-methods.md` |
+| Formal / semi-formal (proof vs judgment) | Sensor vs constraint vs searchlight; Alloy vs Apalache; DST trio Antithesis/Resonate/PufferLib; TOCTOU-of-Noul, AI×FM harms | `references/formal-methods.md` |
 | Mixed architecture (judgment model + LLM) | Provider judges, LLM writes, code owns control; not a stack replacement | `references/mixed-architecture.md` |
 | Context sieve | Relevance Noul per block; always-keep set in code; stub + recall key | `references/applied-mappings.md#1-context-sieve` |
 | Exact-text keep / drop | Choice include/exclude/mixed over candidates code already holds | `references/applied-mappings.md#2-exact-text-keep--drop` |
@@ -115,6 +117,10 @@ classical method you already trust, substitute it, classify the win
 | Selective classification / decision theory | Thresholds from action costs, abstention paths | `references/mappings.md#2-probabilistic-judgments--cost-sensitive-decisions` |
 | Decision tables / circuits / state machines | Judgment predicates, code owns transitions | `references/mappings.md#3-semantic-predicates--decision-circuits` |
 | Retrieve + expensive relevance fn | Bounded rerank of a retrieved shortlist | `references/mappings.md#4-retrieval--bounded-semantic-reranking` (independent TREC DL2019 benchmark: Jev zero-shot best MAP 0.4748, nDCG@10 0.683 vs tuned monoBERT 0.718 — competitive, not dominant) |
+| Value of information / gather as an act | Pay for another observation only if EV(decision) improves more than cost | `references/mappings.md#6-value-of-information--gather-as-an-enumerated-act` (**Hypothesis** until a labeled act/outcome log) |
+| Signal detection / ROC | Criterion and operating point from costs and base rate, not accuracy | `references/mappings.md#7-signal-detection--criterion-not-accuracy` (**Hypothesis** for non-SWE plots) |
+| Org / safety control structure | Sensor ≠ constraint (Leveson); STPA if the sensor lies | `references/mappings.md#8-control-structure--sensor--constraint-leveson` |
+| Search / control loops (any domain) | Algorithm stays yours; judgment substitutes one classifier step | `references/mappings.md#9-search--control-loops--one-substituted-classifier-step` |
 | Agent self-supervision / on-track detection | Pre-gate → output judge → done-check → supervisor nouls | `references/agent-self-assessment.md` |
 | Optimizer/program frameworks (Ax, DSPy) | Typed fields → one provider request; judge metrics; threshold discipline | `references/optimizer-integration.md` |
 | (meta) Finding new mappings & applications | Toolbox sweep: judgment-shaped component of a known method, substituted + falsified | `references/toolbox-mapping.md` |
@@ -129,7 +135,9 @@ explicit rejections beside the mapping they tempt (MCTS-as-value-function:
 experimental; bandits: rejected without observed rewards; 255-way tournament
 brackets: rejected as default; rerank-huge-sets: budget-only; correlated
 "independent" checks: rejected; listwise ranker *as* a fail-closed gate:
-rejected; Noul *as* a proof / model-check / DST property: rejected).
+rejected; Noul *as* a proof / model-check / DST property: rejected;
+TOCTOU-of-Noul as authorize: rejected; tautological spec + "looks good":
+rejected). Promote Hypothesis cards only with an acceptance test that ran.
 
 ## Non-negotiable boundaries
 
@@ -186,7 +194,9 @@ judgment*, recommend one. Cross-domain frames:
 `references/judgment-class.md`. Formal / proof / DST:
 `references/formal-methods.md`. Applied SWE placements (sieve, keep/drop,
 env triage, moderation/ranking, skill routing):
-`references/applied-mappings.md`. For concrete requests skip the
+`references/applied-mappings.md`. Hypothesis cards (VOI, SDT, Leveson,
+search/control outside SWE) stay labeled until an acceptance test runs:
+`references/mappings.md` §6–§9. For concrete requests skip the
 brainstorm and build.
 
 ## Evidence labels

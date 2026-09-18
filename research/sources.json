@@ -553,6 +553,42 @@
       "title": "Support Vector Machines with a Reject Option (Bartlett & Wegkamp lineage / NIPS 2008)",
       "url": "https://papers.nips.cc/paper_files/paper/2008/file/3df1d4b96d8976ff5986393e8767f5b2-Paper.pdf",
       "note": "Chow reject option in modern cost-based form. Abstention is an act."
+    },
+    {
+      "kind": "docs",
+      "title": "Alloy FAQ: Analyzer vs model checkers",
+      "url": "https://alloytools.org/faq/how_does_the_alloy_analyzer_differ_from_model_checkers.html",
+      "note": "Analyzer is a model finder (SAT, finite scope), not a temporal model checker. notes.md §22."
+    },
+    {
+      "kind": "docs",
+      "title": "Apalache — symbolic model checker for TLA+",
+      "url": "https://apalache-mc.org/",
+      "note": "SMT (Z3); modes: random symbolic exec / BMC ≤k / inductiveness. Quint verify backend."
+    },
+    {
+      "kind": "docs",
+      "title": "Antithesis: deterministic simulation testing",
+      "url": "https://antithesis.com/docs/resources/deterministic_simulation_testing/",
+      "note": "DST definition: deterministic scheduler, faults, reproducible seeds. Not a proof."
+    },
+    {
+      "kind": "docs",
+      "title": "PufferLib docs",
+      "url": "https://puffer.ai/docs.html",
+      "note": "Env-as-simulator; Ocean sanity envs. DST-trio third seat. Serial+seed ≠ GPU bitwise determinism."
+    },
+    {
+      "kind": "paper",
+      "title": "PufferLib: Making Reinforcement Learning Libraries and Environments Play Nice",
+      "url": "https://arxiv.org/abs/2406.12905",
+      "note": "Ocean is a trainer sanity suite; authors: never report Ocean as a comparative baseline."
+    },
+    {
+      "kind": "docs",
+      "title": "Hillel Wayne: How to find bugs in systems that don't exist (QCon 2026)",
+      "url": "https://www.hillelwayne.com/talks/informal-methods/qcon26/",
+      "note": "Spec / environment / properties as three views. Informal-methods companion to vibing-specs."
     }
   ]
 }

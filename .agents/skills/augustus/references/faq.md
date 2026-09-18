@@ -100,7 +100,31 @@ generation, what is a proof-shaped constraint. Formal methods are one
 pillar. Expected utility, abstention, VOI, MCDA, signal detection,
 search/control, and Leveson org/safety are the others
 (`mental-models.md`). Policy (checklist, ledger, two-person rule) is
-the code of a practice that has no repository.
+the code of a practice that has no repository. Hypothesis cards for
+VOI, ROC, Leveson, and search/control outside SWE:
+`mappings.md` §6–§9 — promote only with an acceptance test that ran.
+
+## Alloy Analyzer or Apalache?
+
+Different languages, different claims, same harm if you launder a bound.
+Alloy's Analyzer is a **model finder** (SAT, finite *scope*, relational
+structure). Apalache is a **symbolic model checker** for TLA+ (SMT;
+modes: some traces ≤ k, all traces ≤ k, or inductiveness for unbounded
+safety *if* the invariant holds). TLC enumerates TLA+ states explicitly.
+A System One Noul does not sit in any of those seats. It may triage
+counterexamples. Full split: `formal-methods.md` §2.
+
+## Is PufferLib "real DST"?
+
+It is the third member of the DST *trio on this card*, not a fourth
+owner and not Antithesis. Antithesis wraps existing software in a
+deterministic hypervisor. Resonate ships Lean spec + oracle + DST of an
+SDK. PufferLib's world is already a simulator: seeded serial
+vectorization and Ocean sanity envs test the *trainer contract*; a seed
+does not make GPU training bitwise deterministic; Ocean scores are not
+a comparative baseline (authors). Judgment may cluster failing
+episodes. It may not vote that the policy is correct.
+`formal-methods.md` §4.
 
 ## Can a System One model replace TLA+ / Dafny / DST?
 
@@ -115,11 +139,14 @@ the system is allowed to do, the design is wrong.
 ## Isn't a high-confidence Noul basically a proof?
 
 No. That is soundness theater. Calibration describes groups,
-in-distribution. A stale Noul is a TOCTOU-shaped soft check, not an
-interlock. An LLM-written spec plus "does this spec look good?" is
-double theater ([Hillel Wayne, vibing
+in-distribution. A stale Noul is **TOCTOU-of-Noul**, not an interlock
+(judge at t0, act at t1; the check was never atomic because it was
+never a check). An LLM-written spec plus "does this spec look good?" is
+double theater; an MCP that "ran the checker" on a tautology is receipt
+theater ([Hillel Wayne, vibing
 specs](https://buttondown.com/hillelwayne/archive/llms-are-bad-at-vibing-specifications/)).
-The checker, DST harness, or prover ran, or it did not.
+The checker, DST harness, or prover ran *a non-vacuous property*, or it
+did not.
 
 ## Is Augustus another Jev how-to?
 
