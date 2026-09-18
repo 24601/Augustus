@@ -51,9 +51,13 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    tool result with one relevance Noul before it enters context. Hide
    confident-no blocks behind a stub + recall key; always keep current
    instruction, recent turns, errors, and opaque blocks. winnow hides at
-   relevance ≤0.22; fast-jev-compaction asks two nouls per tool call
-   (should the call stay knowing it was made? should the result stay
-   verbatim?).
+  relevance ≤0.22; fast-jev-compaction asks two nouls per tool call
+  (should the call stay knowing it was made? should the result stay
+  verbatim?). Encoder-backend cousin:
+  [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
+  — GLiNER2.5 retention Choice + exact character-offset copies; mutating
+  tools stay `keep_full`; low-confidence fails closed to `keep_full`;
+  `shadowMode` default true. Not a summarizer. Not Jev (`notes.md` §50).
 
 ## Non-negotiable boundaries
 
@@ -66,6 +70,9 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   only safe because a hard interlock or sandbox sits underneath. A gate
   that *selects* or *authorizes* a side effect fails closed instead
   (`mixed-architecture.md` prefilter table; `mappings.md` §18).
+  Compaction *drop* is that second kind:
+  [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
+  fails closed to `keep_full` (`notes.md` §50).
 - Cache identical judgments (~120s) and deduplicate sibling calls into one
   in-flight request.
 - pi-warden measured cost makes continuous guarding viable: ~$0.00004 and
@@ -80,6 +87,9 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   Pointer-not-generator: the model points at line ids; code copies
   verbatim with place; *not found* is an answer
   ([jev-reviewer](https://github.com/choxos/jev-reviewer); `notes.md` §48).
+  Compaction: point at character offsets in the tool result
+  ([gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction);
+  `notes.md` §50).
 - Self-report fidelity: compare the agent's claimed action with its actual
   trace via decomposed Nouls (right tool? args match schema? result matches
   call?). Escalate on low confidence; never auto-retry.

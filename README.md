@@ -34,7 +34,8 @@ never launder a Noul as a proof.
   distill), constrained-AR (TypeAR, pcdServer), announced decision-model (Watch),
   open multimodal RLCD (blackwood-rlcd; not Archer), Laya ONNX port,
   contract-compatible local `/v1/systemone` (stub until hf scorer; also kev pointer / von tiny SAN — not replicas),
-  GLiNER/GLiClass species (locate vs categorize vs local multi-head),
+  GLiNER/GLiClass species (locate vs categorize vs local multi-head;
+  GLiNER2.5 extractive compaction as a named job, not a new species),
   listwise vs decision objectives, vision scoring, when-to-use axes
   (including decision-model vs constrained LLM),
   agent-architecture portents
@@ -50,12 +51,12 @@ never launder a Noul as a proof.
 - `.agents/skills/augustus/references/mixed-architecture.md` — default
   placement: judgment-class model + LLM + code; preference lint; provider
   (Jev default / other family with self-eval); dual-process S1 decide / S2
-  generate; component node; DOM-as-text + fan-out
+  generate; component node; DOM-as-text + fan-out; shadow-mode compaction rollout
 - `.agents/skills/augustus/references/applied-mappings.md` — context sieve,
-  exact-text keep/drop (extractive / pointer-not-generator), env triage, moderation/ranking, skill routing (route ≠ memory)
+  exact-text keep/drop (extractive / pointer-not-generator; char-offset compaction), env triage, moderation/ranking, skill routing (route ≠ memory)
 - `.agents/skills/augustus/references/faq.md` — "just classification",
   stack replacement, Jev vs open head vs encoder vs LoRA vs constrained AR vs kev vs blackwood,
-  wait-for-Archer, missing-other confident-wrong, soft project rules vs linter (Abide), extractive/pointer-not-generator, local drop-in vs stub scorer, route ≠ memory, when-it-holds / extractable-from-state, decision-model vs constrained LLM, dual-process S1/S2, combinatorial grid ≠ extractive, GLiNER vs GLiClass vs CLIP, LLM-as-judge, in-engine vs CLI store,
+  wait-for-Archer, missing-other confident-wrong, soft project rules vs linter (Abide), extractive/pointer-not-generator, compaction summarize vs pointer, encoder vs Jev compaction, fail-closed keep_full, shadow-mode rollout, local drop-in vs stub scorer, route ≠ memory, when-it-holds / extractable-from-state, decision-model vs constrained LLM, dual-process S1/S2, combinatorial grid ≠ extractive, GLiNER vs GLiClass vs CLIP, LLM-as-judge, in-engine vs CLI store,
   hard envelope (bitrate / planner), not-another-how-to
 - `.agents/skills/augustus/references/mappings.md` — classical-method
   mappings with boundaries, counterexamples, acceptance tests (including

@@ -319,7 +319,10 @@ picks its next tool in a loop (`boundary-audit.md`); PufferLib Ocean
 scores as a capability claim (`formal-methods.md` DST trio). Mapping
 card for the cross-domain loop: `mappings.md` §9. Soft judgment
 inside a hard envelope: bitrate-advisor (ABR) and mmalisper's JOB
-hybrid (Postgres plans first) — `notes.md` §44.
+hybrid (Postgres plans first) — `notes.md` §44. Compaction envelope
+(encoder, not Jev): gliner25-compaction — mutating tools / shell
+operators prove `keep_full`; the model may only match that or be more
+conservative (`notes.md` §50).
 
 ## Signal detection
 
@@ -460,6 +463,7 @@ Use these as *existence proofs of a position*. Write your own card.
 | Hiring | interview / reject / hold | evidence Nouls; veto rules in policy | labor law, scorecards you wrote |
 | Inbox | reply / snooze / archive | urgency Noul + aboutness Choice | send, calendar |
 | Knowledge work | extract a quote / a cited fact | per-sentence or per-line-id Noul/Choice (**Empirical**: testimonial-miner, jev-reviewer) | verbatim join; place; human publish permission |
+| Agent context | compact completed tool results without inventing prose | retention Choice + char-offset locate (**Empirical**: gliner25-compaction; same *job* as fast-jev-compaction / pi-jev-compaction) | mutation/shell envelope → keep_full; fail-closed keep_full; shadowMode before replace; copy exact bytes |
 | Dataframe labeling | classify / score rows | Noul/Choice/Score + full `p__` (**Empirical** as jevframe / jevpandas *shape*) | pandas/Polars, thresholds in code |
 | Computer-use speed | one verified act per step | operation + target Choice on numbered controls (**Empirical**: solari-reflex) | Guard check; deny-list absence; no screenshots |
 | Agent turn | skip memory tour on easy intent | intent Choice (**Empirical**: jev-hermes) | Memory still writes; complex still searches |

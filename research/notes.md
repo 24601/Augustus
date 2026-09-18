@@ -3270,3 +3270,136 @@ open-alternative-jev); `mixed-architecture.md` (dual-process;
 component node; DOM-as-text); `faq.md`; `mappings.md` §2 / §3 / §6 /
 §9; `applied-mappings.md`; `question-design.md`; `methods-catalog.md`;
 `toolbox-mapping.md`; `agent-self-assessment.md`. No wrapper.
+
+## 50. GLiNER2.5 extractive compaction — encoder backend, same keep/drop job (2026-09-18 ~16:22 Boise)
+
+America/Boise ~16:22 = 22:22 UTC. Docs-only fold into open PR #2
+(`cursor/augustus-store-envelope-00b4`). Not a competing PR. Archer
+27B drop still **WATCH**. Identity lock vs `typesafe-ai` / `tenbin` /
+`decision-first` holds. No wrapper, no `--plugin-dir` / `uv` how-to,
+no copied timeouts or Hub download scripts. No invented metrics.
+**Not Jev. Not multimodal.** Do not re-fold §48 extractive recipes,
+§49 bake-off, Abide, kev, GLiGuard as a species rewrite, or
+pi-jev-compaction as a new product.
+
+Backend-agnostic: this is a **compaction / context-sieve placement**
+(pointer keep-drop, soft Choice under a hard mutation envelope,
+shadow-mode rollout). TypeSafe Jev is one backend for that *job*
+(`tamaratran/fast-jev-compaction`, `vava-nessa/pi-jev-compaction`);
+GLiNER2.5 is another. Augustus stays family-first.
+
+### HIGH
+
+1. **[`m-newhauser/gliner25-compaction`](https://github.com/m-newhauser/gliner25-compaction)**
+   (Apache-2.0; Python + Claude Code plugin; created
+   2026-09-18T17:22:34Z; 1★ at capture). Local, **evidence-first**
+   context compaction. Default checkpoint
+   [`fastino/gliner2.5-base-v1`](https://huggingface.co/fastino/gliner2.5-base-v1)
+   (checkpoint model card Apache-2.0 per their README) chooses a
+   retention action for **completed** eligible tool interactions and
+   extracts **exact source spans** when the full result is unnecessary.
+   **Not a prose summarizer.** User and assistant text unchanged.
+   Retained evidence is copied from original **character offsets**.
+   Mutating tool interactions are preserved in full. Inference runs in
+   a local Python worker after Hub download; transcript analysis does
+   not require a remote inference API.
+
+   Per completed pair, one retention action (closed set):
+
+   - `keep_full` — complete call and result
+   - `keep_evidence` — exact excerpts from the result
+   - `keep_call_only` — call stays; result replaced with a rerun notice
+   - `drop` — paired call and result removed
+
+   Inputs: current goal, nearby conversation, tool name and input,
+   original tool result. Deterministic safeguards override uncertain
+   predictions, protect validated diagnostic spans, preserve recent
+   messages and mutations, validate exact offsets, and reject orphaned
+   tool results.
+
+   **Four load-bearing mental models (architecture, not a plugin
+   catalog):**
+
+   1. **Pointer / extractive, not generator.** Same family as
+      [testimonial-miner](https://github.com/AppitStudio/testimonial-miner)
+      and [jev-reviewer](https://github.com/choxos/jev-reviewer)
+      (`notes.md` §48): the model **selects**; code **copies
+      verbatim**. Compaction that invents a prose summary is a
+      different (worse) species for auditability. GLiNER locate is not
+      a footnote here — character offsets *are* the keep/drop
+      candidates. One local multi-head does **categorize** (which
+      retention action) and **locate** (which spans) in the same job
+      (`judgment-class.md` species map).
+
+   2. **Soft retention Choice under a hard envelope.** Code owns the
+      mutation monitor: mutating tools, unknown shell, and shell
+      control operators / pipelines / substitutions / redirections are
+      treated as mutating → `keep_full`. Missing or invalid evidence
+      **fails closed to `keep_full`**. Low-confidence retention
+      predictions likewise fail closed to `keep_full`. Contrast: many
+      Jev *preference / remainder* gates fail-open (Abide; jevgate
+      cannot block). Compaction *drop* (and lossy `keep_evidence`) is
+      the irreversible act, so the authorized reduction fails closed.
+      From the evidence-preservation view the outcome looks like
+      context-sieve "keep on error" (`applied-mappings.md` §1) — name
+      the *act*, not the slogan. Conservative shell over-retention is
+      their documented limit, not a bug to "fix" by failing open.
+
+   3. **Same compaction job, encoder backend.**
+      [`tamaratran/fast-jev-compaction`](https://github.com/tamaratran/fast-jev-compaction)
+      asks two Nouls (should the *call* stay? should the *result* stay
+      verbatim?). [`vava-nessa/pi-jev-compaction`](https://github.com/vava-nessa/pi-jev-compaction)
+      is the Pi cousin: verbatim drop, never summarize. Here GLiNER2.5
+      chooses discrete retention actions + evidence spans. Fastino /
+      GLiGuard sibling *class* (schema-in-encoder, local) — not a
+      GLiGuard safety-schema clone, not a Jev Score, not a Noul.
+      Augustus does not pick a vendor for the hole.
+
+   4. **Shadow mode as safe rollout.** Public default `shadowMode:
+      true`: local analysis logs the proposed reduction **without
+      replacing session history** until explicitly set false. Same
+      rollout instinct as jev-harness / is-malicious (log would-do
+      first). Compaction mutates memory; shadow is the default because
+      a bad drop is not a reversible token cost.
+
+   **Limits (theirs, README; experimental).** Reduction measured in
+   **characters, not tokens**. Conservative shell policy may retain
+   commands that are actually read-only. Only completed
+   tool-call/result pairs are candidates. Domain-specific tuning and
+   broad production evaluation remain future work. No published
+   token-reduction or retention-quality rates this pass — do not
+   invent them. Their config defaults (`minimumConfidence` 0.7,
+   `minimumEvidenceConfidence` 0.5, `minReductionRatio` 0.25,
+   `preserveRecentMessages` 6) are *their* knobs, not class constants.
+
+   **Siblings — complementary, do not merge.**
+
+   - **`24601/rh-guard`:** reward-hack / eval-integrity on tool use.
+     Shared notes only: fail-closed retention, hard shell mutation
+     policy, shadow-mode rollout. Different hole. This is not
+     reward-hack detection.
+   - **GLiGuard:** Fastino encoder sibling (safety-schema classify).
+     Compaction is locate+categorize on tool transcripts, not LLM I/O
+     moderation.
+   - **Abide:** same Claude Code hook-host surface; Abide is fail-open
+     Score on diffs; this is fail-closed `keep_full` on compaction.
+
+   **Placement.** Context sieve + exact-text keep/drop
+   (`applied-mappings.md` §1–§2). Pillar: selective classification /
+   SDT criterion (false drop >> false keep) + runtime-assurance
+   sandwich (mutation monitor in code). Hole: sieve / keep-drop.
+   Family: GLi\* encoder (GLiNER2.5 local multi-head). Fail-closed on
+   the reduction. Eval path: none published this pass (experimental);
+   characters≠tokens is the honesty constraint. **Empirical** as
+   README behavior. **Hypothesis** that the same envelope transfers to
+   *your* transcript domain. Cards: `judgment-class.md` (primary);
+   `applied-mappings.md` §1–§2; `mappings.md` §12 / §18;
+   `mixed-architecture.md`; `faq.md`; `mental-models.md`;
+   `methods-catalog.md`; `toolbox-mapping.md`;
+   `agent-self-assessment.md`. No wrapper.
+
+### Omni / Jev-omni
+
+Not multimodal. Usage: extractive context management as a
+perception/memory hygiene stage **before** decide. Archive +
+landscape pointer.

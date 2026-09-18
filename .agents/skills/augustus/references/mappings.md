@@ -505,6 +505,16 @@ the sandwich must refuse. **Hypothesis** as domain-general; bitrate is
 Empirical as the named envelope. Links: `mental-models.md`
 conformal; `formal-methods.md` help list.
 
+**Named compaction envelope (Empirical as README behavior, 2026-09-18
+~16:22):** [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
+— the mutation monitor is **code** (mutating tools, unknown shell,
+control operators / pipelines / substitutions / redirections →
+`keep_full`). GLiNER2.5 may only propose a reduction on the remainder
+or be more conservative; low-confidence / invalid evidence fail closed
+to `keep_full`. Soft judgment inside a hard envelope, encoder backend
+— not a Jev Score and not a summarizer (`notes.md` §50). Same sandwich
+shape as bitrate-advisor; different family.
+
 ## 13. DST multiverse triage (Hypothesis)
 
 **Method**: Antithesis / Resonate DST artifacts → failure taxonomy →
@@ -665,6 +675,13 @@ same *family* on project instructions: the **linter proves** lintable
 rules; Jev Scores only residual soft AGENTS.md rules; fail-open, banded
 (`notes.md` §47). Different remainder from jevgate's unlisted verbs
 and from rh-guard's eval-integrity hole — do not merge products.
+Compaction polarity is the other way:
+[gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
+— code proves mutating / dangerous shell → `keep_full`; the encoder
+judges only the remainder; uncertain **fails closed to `keep_full`**
+(`notes.md` §50). Same sandwich, opposite fail policy from jevgate
+(cannot block) and Abide (fail-open on diffs): the authorized act is
+a destructive reduction of memory.
 **Beyond SWE (Hypothesis):**
 recipe book ∩ "does this leftover look done?"; labor-law allowlist ∩
 hiring-fit Noul; SPF/DKIM pass ∩ phishing Noul on the body. **Counterexample:**

@@ -178,6 +178,7 @@ not a global virtue:
 | Action | Typical failure policy | Why |
 |---|---|---|
 | Drop a RAG chunk or log line | **Fail open** (keep on error) | A false drop loses evidence; a false keep costs tokens |
+| Compact / drop a completed tool result | **Fail closed** to keep-full (`gliner25-compaction`) | Compaction is a destructive edit of memory. Uncertain *looks* like keep-on-error from the evidence side; name the *reduction* as the act. Contrast Abide / jevgate fail-open |
 | Route to a tool / start a side effect | **Fail closed** (don't call) | A wrong tool is an action |
 | Rerank a retrieved list | Fail open: keep retrieval order (`WiktorB2004/llama-index-jev`, **Empirical recipe** on BEIR nfcorpus: MiniLM 0.340 nDCG@5 → MiniLM+Jev 0.396; rerank fails open, *select* fails closed). Listwise/cross-encoder scores belong here, not on the row above. | Ranking errors are quality; selection errors are control-flow |
 
@@ -189,6 +190,10 @@ Worked placements (2026-09-18 topic:jev hour + prior archive):
   relevance against the task; last-N lines and error signatures kept in
   *code* before Jev sees anything; full output recoverable by id. Same
   shape as winnow/fast-jev-compaction (`agent-self-assessment.md`).
+  Encoder-backend cousin:
+  [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
+  — GLiNER2.5 retention Choice + exact spans; fail closed to
+  `keep_full`; `shadowMode` default true (`notes.md` §50). Not Jev.
 - **Diff hunks before `git add`** — `ibrahemid/git-jev-stage`: one Choice
   per hunk (`include` / `exclude` / `mixed`); mixed and low-confidence stay
   unstaged; lines never split; staging is an exact patch after confirm.
@@ -373,7 +378,11 @@ Related placements:
   the *practice* is first-class: eval CLI asserts on the **action**,
   not on prose; recipes span alerts / RTB / sports-bet / prediction
   markets (`notes.md` §44). LLM-as-judge is not the primary System One
-  score (`faq.md`). Do not copy the client.
+  score (`faq.md`). Compaction rollout of the same instinct:
+  [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
+  public default `shadowMode: true` (analyze + log; do not replace
+  history until explicitly enabled) (`notes.md` §50). Do not copy the
+  client.
 - **Hybrid countable + judgment rules** — `DanRWilloughby/snifftest`:
   deterministic tells score 1.00; judgment rules flag only outside the
   unsure band. Explicit: a reading near 0.5 is *no judgment*, never a pass.
@@ -408,7 +417,7 @@ decision-design card. Do not clone APIs from READMEs.
 | Hold-before-publish moderation | Hazard Nouls + harm Score | Block/review/pass policy | Near Here / firehose family |
 | Tool / engine / skill select | Choice + fits-Noul | Dispatch, auth, reject-all | skillranker, LlamaIndex selectors, Toolrouter |
 | Preference lint | Per-rule Score/Noul on a diff | Rule text, linter for hard rules, bands + fail-open | jev-pref (contract), Abide (productized), JevLint |
-| Context / log prune | Per-line or per-block relevance | Always-keep set, recall keys | jevprune, winnow |
+| Context / log prune | Per-line or per-block relevance; or a retention Choice + spans | Always-keep set, recall keys; mutation envelope in code; shadow before replace | jevprune, winnow; fast-jev-compaction / pi-jev-compaction (Jev); gliner25-compaction (GLiNER2.5) |
 | Exact hunk staging | Per-hunk include/exclude/mixed | `git diff`, atomic apply | git-jev-stage |
 | Semantic `WHERE` | Noul/`jev_prob` over a row | SQL, indexes, LIMIT | jevql (CLI; DB sees ordinary SQL); sqlite-jev (in-engine extension) |
 | Formula / query embedding | JUDGE as a function | Spreadsheet/SQL engine | judge-sheets, jevql, sqlite-jev |
@@ -424,7 +433,7 @@ decision-design card. Do not clone APIs from READMEs.
 | S1 reflex + optional S2 advice | Typed action Choice; planner one-use on low p | Collision, legality, the stick stays with S1 | jev-reflex-autonomy-lab (experimental) |
 | Decision-as-business-tool | Named judgment; gate is part of the result | Registry, arithmetic, hard guards | jev-decision-layer (unofficial) |
 | NL cases → checked e2e | Jev selects observed controls | Playwright expectations; PASS/FAIL/BLOCKED | jev-e2e (alpha) |
-| Extractive quotes / pointer evidence | Per-sentence or per-line-id Noul/Choice | Verbatim join; place; `redecide` / CSV; model never writes the excerpt | testimonial-miner; jev-reviewer |
+| Extractive quotes / pointer evidence | Per-sentence, per-line-id, or char-offset Noul/Choice | Verbatim join; place; `redecide` / CSV; model never writes the excerpt | testimonial-miner; jev-reviewer; gliner25-compaction |
 | Structured observe → decide → act | Operation + target Choice on numbered controls | Guard check; deny-list absence; no screenshots; TYPE is the only generation | solari-reflex |
 | Dataframe semantic columns | Noul / Choice / Score per row; full `p__` | pandas/Polars, indexes, never silent renormalize | jevpandas; jevframe (PyPI + Polars) |
 | Route ≠ memory | Intent Choice before a turn | Config + flat tools on easy routes; memory stays on for hard ones | jev-hermes |
@@ -474,7 +483,8 @@ not the class monopoly. **Local contract drop-in this hour:**
 (`notes.md` §48). **ONNX replica path:**
 [`Mattepiu/laya-onnx`](https://huggingface.co/Mattepiu/laya-onnx) — do
 not copy the inherited vs-Jev table. GLiNER (locate) / GLiClass (categorize) /
-GLiNER2.5 (local multi-head), listwise, and vision families:
+GLiNER2.5 (local multi-head; extractive compaction is a named *job* on
+that family, `notes.md` §50), listwise, and vision families:
 `judgment-class.md`.
 
 ## Design-card extras for mixed systems

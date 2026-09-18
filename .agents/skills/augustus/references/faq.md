@@ -145,6 +145,10 @@ Hole first, logo last. These are **species**, not aliases
   code. Paper: [GLiNER](https://arxiv.org/abs/2311.08526). Local
   multi-head GLiNER2.5 (fastino-ai) can also classify and extract
   relations on a laptop — discourse, not a measured 36× (`notes.md` §25).
+  Compaction receipt: [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
+  uses that local multi-head as **categorize** (retention action) plus
+  **locate** (character-offset spans); code copies; not a summarizer
+  (`notes.md` §50).
 - **GLiClass (categorize):** one forward pass over text + *all* labels;
   sigmoid multi-label or softmax single-label. Use for large or changing
   tag sets. Scores are class affinities, not automatically a gateable
@@ -184,7 +188,9 @@ labels on a GLiNER2 encoder, not Choice / Score / Noul). Empirical open
 encoder next to GLiClass; not a weight clone. "like jev" is discourse.
 A GLiGuard score is not a proof. LLM I/O safety is not a coding-agent
 tool gate (rh-guard for reward-hacking; jevgate shape for allowlist
-∩ remainder; Abide for project soft rules on diffs). `judgment-class.md`.
+∩ remainder; Abide for project soft rules on diffs;
+gliner25-compaction for extractive context compaction — Fastino
+sibling class, not GLiGuard). `judgment-class.md`.
 
 ## Can I threshold CLIP / SigLIP as a safety gate?
 
@@ -361,8 +367,11 @@ conservative; missing the model returns the policy's answer.
 mmalisper's JOB planner: Postgres plans first; Jev overrides only when
 confident (+12% geomean author-reported; join-order Choice alone was
 2× slower). routeKit / jev-claw / Higgsfield: classify requirements;
-code picks the generator. The envelope is load-bearing
-(`mappings.md` §12, §15, §18).
+code picks the generator. Compaction cousin (encoder, not Jev):
+gliner25-compaction — mutating tools / shell operators prove
+`keep_full`; the model may only match that or be more conservative;
+uncertain fails closed to `keep_full`. The envelope is load-bearing
+(`mappings.md` §12, §15, §18; `notes.md` §50).
 
 ## Wait for Archer to ship omni System One?
 
@@ -434,14 +443,31 @@ the stub is not a bake-off. `judgment-class.md`; `notes.md` §48, §49.
 ## Should the model write the quote / the citation / the click?
 
 No. Extractive keep/drop: code already holds the sentences, line ids,
-or numbered controls; the model **selects**; code **copies or clicks**.
+character offsets, or numbered controls; the model **selects**; code
+**copies or clicks**.
 [testimonial-miner](https://github.com/AppitStudio/testimonial-miner)
 assembles quotes from per-sentence Nouls and `redecide`s without new
 calls. [jev-reviewer](https://github.com/choxos/jev-reviewer) points at
 ids; *not found* is an answer. [solari-reflex](https://github.com/hitakshiA/solari-reflex)
-never lets model output become a selector. Generation is only for
+never lets model output become a selector. Compaction is the same
+species: [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
+copies exact source spans; a prose summary of the tool result is
+generation, not keep/drop (`notes.md` §50). Generation is only for
 TYPE/prose when something must be written. `applied-mappings.md` §2;
-`notes.md` §48.
+`notes.md` §48, §50.
+
+## Should compaction summarize?
+
+No. Pointer/extractive compaction and generator summarizers are
+different species. The former is auditable (every kept byte occurs in
+the input). The latter can invent. Same job as
+fast-jev-compaction / pi-jev-compaction (Jev Noul/Score backends);
+GLiNER2.5 is an encoder backend. Mutating tools and shell operators
+stay `keep_full` in **code**. Low-confidence / invalid evidence fail
+**closed to `keep_full`** — the *reduction* is the irreversible act,
+unlike Abide / jevgate fail-open. Ship `shadowMode` first (default
+true: log, do not replace history). Not Jev. Not multimodal.
+`judgment-class.md`; `notes.md` §50.
 
 ## Is routing the same as memory?
 

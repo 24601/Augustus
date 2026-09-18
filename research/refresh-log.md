@@ -488,6 +488,28 @@
   toolbox, agent-self-assessment, ecosystem, CHANGELOG, README.
 - notes.md §49; sources.json; findings.md batch #33. No wrapper.
 
+## 2026-09-18 22:22 UTC — GLiNER2.5 extractive compaction (~16:22 Boise)
+
+- Folded into open PR #2 (`cursor/augustus-store-envelope-00b4`).
+  Docs-only. Not a competing PR. Archer 27B drop still **WATCH**.
+  **Not Jev. Not multimodal.** No invented metrics.
+- HIGH: [m-newhauser/gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
+  (Apache-2.0, created 2026-09-18). GLiNER2.5
+  `fastino/gliner2.5-base-v1` retention Choice + exact char-offset
+  copies. Mutating tools / shell operators → `keep_full`. Fail-closed
+  to `keep_full`. `shadowMode` default true. Same *job* as
+  fast-jev-compaction / pi-jev-compaction; encoder backend.
+  Fastino/GLiGuard sibling class. Pointer family with
+  testimonial-miner / jev-reviewer.
+- Limits (theirs): experimental; characters not tokens; conservative
+  shell over-retains; completed pairs only. No published
+  retention-quality rates.
+- Cards: SKILL.md, judgment-class (primary), applied-mappings §1–§2,
+  mappings §12/§18, mixed-architecture, faq, mental-models,
+  methods-catalog, toolbox, agent-self-assessment, ecosystem,
+  CHANGELOG, README.
+- notes.md §50; sources.json; findings.md batch #34. No wrapper.
+
 
 
 

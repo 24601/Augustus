@@ -43,6 +43,18 @@ the rest per line; `kevinpita/pi-jev-context` hides (does not delete)
 older Pi history, always-keep user/system/todos, `/jev off` restores.
 Pi compaction cousins (`tamaratran/fast-jev-compaction`,
 `vava-nessa/pi-jev-compaction`) keep verbatim drop, never summarize.
+**Encoder backend, same job (Empirical as README behavior, 2026-09-18
+~16:22):**
+[gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
+— GLiNER2.5 (`fastino/gliner2.5-base-v1`) chooses
+`keep_full` / `keep_evidence` / `keep_call_only` / `drop` and copies
+exact character-offset spans. Not a summarizer. Mutating tools / unknown
+shell / control operators → `keep_full`. Low-confidence or invalid
+evidence **fails closed to `keep_full`** (the reduction is the
+irreversible act; from the evidence side this *looks* like keep-on-error).
+`shadowMode` defaults true. Characters, not tokens; no published
+retention-quality rates (`notes.md` §50). Family:
+`judgment-class.md`. Do not copy the plugin.
 Local teacher-copy for the same hole:
 [`SargeDev/jev-gate-student-b`](https://huggingface.co/SargeDev/jev-gate-student-b)
 (Qwen2.5-0.5B LoRA; P(relevant) from yes/no logits; 148,160-row
@@ -92,7 +104,11 @@ code numbers sentences; one broadcast (Choice/Noul/Score + per-sentence
 Nouls); the model never writes; `redecide` retunes thresholds on the
 log. [jev-reviewer](https://github.com/choxos/jev-reviewer) — the model
 **points at line ids**; code copies verbatim quotes with place; *not
-found* is an answer. Computer-use cousin:
+found* is an answer. Compaction cousin
+([gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction),
+~16:22): the model points at **character offsets** in a tool result;
+code copies those bytes; a generator summary is the rejected species
+(`notes.md` §50). Computer-use cousin:
 [solari-reflex](https://github.com/hitakshiA/solari-reflex) — structured
 observation → typed decision → verified act; **no screenshots**; model
 output never becomes a selector (`notes.md` §48).

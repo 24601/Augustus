@@ -81,6 +81,24 @@ below, next to the when-to-use table.
   records + relations in one schema. Discourse (2026-09-18): same
   *agentic decision* jobs as Jev, local / free / laptop; a 36× Browser
   Use cost claim is a tweet, not a re-run (`notes.md` §25).
+  **Extractive compaction (Empirical as README behavior, 2026-09-18
+  ~16:22):**
+  [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
+  (Apache-2.0) is the named *job* on this family, not a new species.
+  Default checkpoint `fastino/gliner2.5-base-v1`. One encoder does
+  **categorize** (retention Choice: `keep_full` / `keep_evidence` /
+  `keep_call_only` / `drop`) and **locate** (character-offset spans);
+  code copies verbatim. **Not Jev, not a Noul, not a prose
+  summarizer, not multimodal.** Same compaction hole as
+  fast-jev-compaction / pi-jev-compaction (Jev Noul/Score backends);
+  Augustus stays backend-agnostic. Mutating tools and shell operators
+  are a hard `keep_full` envelope; low-confidence / invalid evidence
+  fail closed to `keep_full` (the *reduction* is the irreversible
+  act — contrast many fail-open Jev preference gates). Public default
+  `shadowMode: true`. Reduction is measured in characters, not
+  tokens; no published retention-quality rates (`notes.md` §50).
+  Fastino/GLiGuard sibling *class*, not a GLiGuard safety-schema
+  clone. Do not copy the plugin install.
 - **Decide.** Typed Choice/Score/Noul with a decision/proper-scoring
   objective. That is Jev's product claim. Open heads copy the *shape*;
   distillation copies the *teacher* (openjev-lm, jev-gate-student-b).
@@ -121,7 +139,11 @@ below, next to the when-to-use table.
   reward-hack gate (README fetched this pass); jevgate is the
   allowlist-then-judge shape (`mappings.md` §18);
   [Abide](https://github.com/coldteadotai/abide) is project-instruction
-  soft rules on diffs (`mixed-architecture.md`). Different holes.
+  soft rules on diffs (`mixed-architecture.md`).
+  [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
+  is extractive context compaction (locate + categorize on tool
+  transcripts; Fastino sibling class, not a GLiGuard clone)
+  (`notes.md` §50). Different holes.
   Do not point one model at both, and do not copy a hook install here.
 
   **Aggregation is policy-in-code, already taught.** The README's
@@ -171,7 +193,11 @@ multi-head (GLiNER2.5) can do both plus relations. Classification
 sigmoid/softmax *can* be a cheap multi-label sieve. It is not, without
 your calibration plot, a decision API. Great for "which of these 80
 tags fire" or "which spans are the allergy / the amount / the verb";
-not a silent fail-closed authorize. The 255-option Choice limit is
+not a silent fail-closed authorize. Named compaction job
+([gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)):
+locate + categorize, then code copies exact offsets; fail-closed
+`keep_full` is the *reduction* policy, not a Noul (`notes.md` §50).
+The 255-option Choice limit is
 Jev's, not the class's — this family is why.
 
 Rule of composition (`applied-mappings.md` §4):

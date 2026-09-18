@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-18T21:52Z",
+  "retrieved": "2026-09-18T22:22Z",
   "sources": [
     {
       "kind": "docs",
@@ -654,7 +654,7 @@
       "kind": "docs",
       "title": "fastino/gliner2.5-base-v1",
       "url": "https://huggingface.co/fastino/gliner2.5-base-v1",
-      "note": "English 194M boundary checkpoint. Do not copy AutoExtractor into Augustus."
+      "note": "English 194M boundary checkpoint. Default for m-newhauser/gliner25-compaction (notes.md \u00a750). Do not copy AutoExtractor into Augustus."
     },
     {
       "kind": "repo",
@@ -912,7 +912,7 @@
       "kind": "repo",
       "title": "vava-nessa/pi-jev-compaction",
       "url": "https://github.com/vava-nessa/pi-jev-compaction",
-      "note": "Pi cousin of fast-jev-compaction: verbatim drop, never summarize. Pointer family, not a how-to."
+      "note": "Pi cousin of fast-jev-compaction: verbatim drop, never summarize. Pointer family, not a how-to. Same *job* as gliner25-compaction (GLiNER encoder backend); notes.md \u00a750."
     },
     {
       "kind": "social",
@@ -1477,6 +1477,12 @@
       "title": "jaredpalmer/kev (star delta)",
       "url": "https://github.com/jaredpalmer/kev",
       "note": "100 stars this pass (user cited 97). Light activity delta only. notes.md \u00a749."
+    },
+    {
+      "kind": "github",
+      "title": "m-newhauser/gliner25-compaction",
+      "url": "https://github.com/m-newhauser/gliner25-compaction",
+      "note": "Apache-2.0. Local GLiNER2.5 (fastino/gliner2.5-base-v1) extractive compaction for Claude Code. Retention Choice keep_full|keep_evidence|keep_call_only|drop; exact char-offset copies; mutating tools keep_full; fail-closed to keep_full; shadowMode default true. Not Jev, not a summarizer, not multimodal. notes.md \u00a750."
     }
   ]
 }

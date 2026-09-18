@@ -884,6 +884,39 @@ routing accuracy; (bs) combinatorial assembly is not extractive
 keep/drop; (bt) local `/v1/systemone` has three surfaces (stub /
 pointer / tiny SAN).
 
+## Batch #34 (2026-09-18 ~16:22 Boise) — GLiNER2.5 extractive compaction
+
+Note: `research/notes.md` §50. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. **Not Jev. Not multimodal.** No
+invented metrics. Do not re-fold §48 extractive recipes, §49
+bake-off, Abide, kev, GLiGuard species.
+
+- **m-newhauser/gliner25-compaction (Empirical as README
+  behavior).** Apache-2.0. Created 2026-09-18T17:22:34Z; 1★ at
+  capture. Local GLiNER2.5 (`fastino/gliner2.5-base-v1`) chooses
+  `keep_full` | `keep_evidence` | `keep_call_only` | `drop` for
+  completed tool pairs and copies **exact character-offset** spans.
+  Not a prose summarizer. Mutating tools / unknown shell / control
+  operators → `keep_full`. Low-confidence / invalid evidence fail
+  closed to `keep_full`. `shadowMode` default true (log, do not
+  replace history). Reduction in characters, not tokens. No
+  published retention-quality rates.
+- **Mental models:** (1) pointer/extractive vs generator summarizers
+  (family with testimonial-miner / jev-reviewer); (2) soft retention
+  Choice under a hard mutation envelope — fail-closed contrast vs
+  many fail-open Jev gates; (3) same compaction *job* as
+  fast-jev-compaction / pi-jev-compaction, GLiNER encoder backend,
+  Fastino/GLiGuard sibling class; (4) shadow mode as safe rollout.
+- **rh-guard:** sibling note only (fail-closed retention, hard shell
+  mutation, shadow). Not reward-hack detection.
+
+Cross-repo addition: (bu) compaction that writes prose is a
+different species from pointer keep/drop; (bv) fail-closed
+`keep_full` names the *reduction* as the irreversible act; (bw)
+compaction job is backend-agnostic (Jev Score/Noul vs GLiNER
+encoder); (bx) shadow-mode default is the rollout for memory
+mutation.
+
 
 
 

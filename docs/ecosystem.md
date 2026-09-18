@@ -50,7 +50,7 @@ Per-keystroke launchers (104ms median, sequence-tagged staleness), firehose mode
 - **jeiel85/jevscope** — local-first visual debugger + JSONL regression for Choice/Score/Noul; compare two definitions; policy buckets are JevScope-derived. Sits next to jevals. Pointer: `research/notes.md` §25.
 
 ### Local / open heads & GLi\* species
-- **GLiNER / GLiNER2.5 / GLiClass** — species map: locate spans vs categorize the sequence vs local multi-head (fastino-ai GLiNER2.5 CPU-first). Peer of Jev, not a footnote. `references/judgment-class.md`. Author primary source: GLiNER2 "like jev" is schema-conditioned categorize (GLiGuard), not a Noul (`notes.md` §28). 36× Browser Use claim is a tweet (`notes.md` §25).
+- **GLiNER / GLiNER2.5 / GLiClass** — species map: locate spans vs categorize the sequence vs local multi-head (fastino-ai GLiNER2.5 CPU-first). Peer of Jev, not a footnote. `references/judgment-class.md`. Author primary source: GLiNER2 "like jev" is schema-conditioned categorize (GLiGuard), not a Noul (`notes.md` §28). 36× Browser Use claim is a tweet (`notes.md` §25). Named job: [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction) — extractive retention Choice + char-offset copies; not a summarizer; not Jev (`notes.md` §50).
 - **GLiGuard** (fastino-ai) — 0.3B GLiNER2 encoder, checkpoint `fastino/gliguard-LLMGuardrails-300M`. One bidirectional pass over a safety schema. Same interface shape as batched questions; different objective. Not a Jev weight clone. `judgment-class.md`; `notes.md` §30.
 - **DECRUX9812/openjev-lm** — Qwen2.5-0.5B+LoRA distilled from hosted Jev answers; 65/70 = 92.9% on 70 hand-labelled rows (one annotator, one domain, one seed) overnight on 6 vCPU, $0/call. Its 98.1% on fresh rows is teacher *agreement*, not gold. Receipts pattern: `notes.md` §25, §44.
 - **convaiinnovations/laya** — open Choice/Score/Noul head, text-only, 512 tok. Companion packaging this hour: [`laya-typed-decisions`](https://huggingface.co/convaiinnovations/laya-typed-decisions) (421.3M, acc 0.766 / Brier 0.066 unverified). Shared bake-off: [`pngwn/open-jev-laya-bench`](https://huggingface.co/datasets/pngwn/open-jev-laya-bench) (26+9 tasks, 11959 items; ECE/NLL/Brier; not TypeSafe Jev vs Laya). ONNX replica: [`Mattepiu/laya-onnx`](https://huggingface.co/Mattepiu/laya-onnx) (~15 ms CPU; do not copy vs-Jev table). `notes.md` §18, §42, §46, §48.
@@ -77,7 +77,7 @@ Per-keystroke launchers (104ms median, sequence-tagged staleness), firehose mode
 
 ### Agent harnesses extras (this hour)
 - **kevinpita/pi-jev-context** — reversible Pi context sieve: hide, do not delete; `/jev off` restores. Cousin of winnow/jevprune.
-- **vava-nessa/pi-jev-compaction** (and `tamaratran/fast-jev-compaction`) — verbatim drop, never summarize. Pair with jev-gate-student-b for local memory-gating.
+- **vava-nessa/pi-jev-compaction** (and `tamaratran/fast-jev-compaction`) — verbatim drop, never summarize. Pair with jev-gate-student-b for local memory-gating. Same *job* as [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction) (GLiNER2.5 encoder backend; `notes.md` §50).
 - **reachjalil/jev-tree** — authored taxonomy so each Choice stays under 255; truncate silently drops the tail (`jev-tree-choice-cap`).
 - **HacksonClark / SREGym-Lite** — Jev ranks next tests/evidence; does not diagnose; 20/50→24/50 with 2 regressions. `notes.md` §33.
 - **ddfeyes/jev-mode** — bulk triage/tag/route off frontier context; synthetic 1,000: −77.8% tokens; accuracy is parity. `notes.md` §42.
@@ -152,6 +152,12 @@ Patterns, not a catalog. `notes.md` §49. TypeSafe Jev is the exemplar, not a mo
 - **ikermoel/open-alternative-jev** — packed one-forward; RACE-H 92.9% @ 4.55 q/s. Not a Jev reproduction.
 - **wfzyx/von** — 14 MB SAN local drop-in. Distinguishes from jev-local stub / kev pointer. Do not copy vs-Jev table.
 - **jaredpalmer/kev** — light delta: **100★** this pass. No species rewrite.
+
+### Hourly ~16:22 Boise (GLiNER2.5 extractive compaction)
+
+Architecture notes, not a plugin catalog. `notes.md` §50. TypeSafe Jev is the exemplar, not a monopoly. **Not Jev. Not multimodal.** Archer still Watch.
+
+- **m-newhauser/gliner25-compaction** — local GLiNER2.5 (`fastino/gliner2.5-base-v1`) retention Choice (`keep_full` / `keep_evidence` / `keep_call_only` / `drop`) + exact character-offset copies. Pointer family with testimonial-miner / jev-reviewer. Mutating tools / shell operators → `keep_full` in code. Fail-closed to `keep_full` (contrast many fail-open Jev gates). Same compaction *job* as fast-jev-compaction / pi-jev-compaction; encoder backend; Fastino/GLiGuard sibling class. `shadowMode` default true. Experimental; characters not tokens; no published retention-quality rates. Apache-2.0.
 
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs

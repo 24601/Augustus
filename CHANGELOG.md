@@ -199,6 +199,17 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   surface ([von](https://github.com/wfzyx/von) 14 MB; not a replica).
   kev light delta **100★**. Do not merge Banking77 87% / 76.3% /
   79.67%. No wrapper.
+- GLiNER2.5 extractive compaction (`research/notes.md` §50,
+  [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction),
+  Apache-2.0): architecture notes, not a plugin how-to. Pointer
+  keep-drop (character-offset copies) vs generator summarizers;
+  family with testimonial-miner / jev-reviewer. Soft retention Choice
+  under a hard mutation envelope (mutating tools / shell operators →
+  `keep_full`); low-confidence / invalid evidence fail closed to
+  `keep_full` — contrast many fail-open Jev gates. Same compaction
+  *job* as fast-jev-compaction / pi-jev-compaction; GLiNER encoder
+  backend; Fastino/GLiGuard sibling class. `shadowMode` default true.
+  Not Jev. Not multimodal. No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard
