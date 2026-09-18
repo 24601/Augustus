@@ -46,7 +46,7 @@ classical method you already trust, substitute it, classify the win
 | Feature engineering / multi-criteria analysis | Nouls + Score distributions as named features, weights in code | `references/mappings.md#1-semantic-judgments--features-and-explicit-utility` |
 | Selective classification / decision theory | Thresholds from action costs, abstention paths | `references/mappings.md#2-probabilistic-judgments--cost-sensitive-decisions` |
 | Decision tables / circuits / state machines | Jev predicates, code owns transitions | `references/mappings.md#3-semantic-predicates--decision-circuits` |
-| Retrieve + expensive relevance fn | Bounded rerank of a retrieved shortlist | `references/mappings.md#4-retrieval--bounded-semantic-reranking` |
+| Retrieve + expensive relevance fn | Bounded rerank of a retrieved shortlist | `references/mappings.md#4-retrieval--bounded-semantic-reranking` (independent TREC DL2019 benchmark: Jev zero-shot best MAP 0.4748, nDCG@10 0.683 vs tuned monoBERT 0.718 — competitive, not dominant) |
 | Agent self-supervision / on-track detection | Pre-gate → output judge → done-check → supervisor nouls | `references/agent-self-assessment.md` |
 | Context economy / compaction | One relevance Noul per tool result, stub + recall key | `references/agent-self-assessment.md` |
 | Optimizer/program frameworks (Ax, DSPy) | Typed fields → one Jev request; judge metrics; threshold discipline | `references/optimizer-integration.md` |
