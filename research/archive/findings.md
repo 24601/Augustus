@@ -1,0 +1,57 @@
+# Deep-read findings (evidence for research/notes.md)
+
+Derived from `analysis/evidence.csv` (169 repos, README-lines / langs / noul / choice / score / api / tests / threshold histogram) plus full deep reads. Status labels: **Contract** = verified from source/docs, **Empirical** = repo-published measurement, **Hypothesis**.
+
+## dabit3/jev-experiments — 21 latency-first applications (Empirical, self-reported)
+
+The densest public corpus of Jev application patterns. Recurring, transferable mechanisms:
+
+1. **Latency is the product.** Every app's thesis: ~100–170 ms median round-trip unlocks a UX/product class previously impossible (per-keystroke, per-message, per-tick, hold-before-publish). With a 2 s "typical LLM" toggle, every pipeline visibly collapses (backlog, stale decisions, agent collisions).
+2. **Judge once, re-policy in code.** jev-firehose stores raw probabilities; moving a threshold slider re-filters thousands of already-judged messages with **zero new requests**. Policy (thresholds) is client-side; judgment is precomputed. (Related: inbox-blitz re-ranks 3,500 judgments in 5.3 s when policy sliders change.)
+3. **Per-keystroke fan-out with staleness control.** jev-launcher/jev-lint/jev-instant-search fire one request per keystroke with **no debounce**, tag requests with sequence numbers, apply newest-first, discard stale (57 requests, median 104 ms, 3 stale discarded, $0.0034). Lexical retrieval (BM25/MiniSearch) narrows to top-30; Jev re-ranks → hybrid retrieve-then-judge.
+4. **One request, many independent questions.** Standard shape: 6–7 Nouls + 1–2 Choices per item (intent, churn, severity, category, flags). agent-assist: intent + churn risk + frustration + 5 yes/no flags + confidence-gated macro suggestion in one call, ~100 ms.
+5. **Confidence-gated action tiers.** commit-sentry / send-guard / shell-guard: judge → **block / warn / pass** tiers driven by question type + confidence; safe commands run silently, risky confirm, catastrophic refuse. Pre-execution guard rails for agent actions (shell `accept-line` hook, pre-commit hook).
+6. **Fan-out judge streams at scale.** inbox-blitz: 3,500 judgments / 5.3 s ≈ 95 judgments/s with ~96 concurrent requests. Scale lever = concurrency, not model size.
+7. **Game/swarm agents.** jev-swarm: 32 agents, each ~400 ms tick sends local perception (~1k tokens) → move/boost/pursue; ~$10/h at 65 decisions/s. joshbla 2048 + mizchi gomoku (MoonBit) same pattern: board state + move candidates → Choice.
+8. **Realtime human-flow integration.** jev-voice-turn: turn-taking/barge-in decisions on every partial transcript (has-speaker-finished / intent / interrupting). live-minutes: action items appear ~150 ms after each utterance. jev-tower: code predicts conflicts 120 s ahead, Jev picks instruction, code validates — **Jev decides inside a validated control loop**, physics/prediction/validation in code.
+9. **Spreadsheets-that-think.** judge-sheets: custom formulas `=JUDGE(text,"yes/no")` (Noul→probability cell), score, choice — semantic judgment as a first-class spreadsheet formula.
+10. **Pixel-free computer use.** jev-ax-pilot: Accessibility tree → compact JSON of actionable elements → one batched question set per step → execute via AX actions. No screenshots.
+11. **turbo-rerank / nl-palette numbers:** top-1 accuracy 50%→100% on 40-query benchmark; nl-palette 100% vs 20% fuzzy on 30 cases.
+
+## Other deep-read repos
+
+- **AntonioCoppe/jev-harness** (Contract): TypeScript production-harness library — policy (map answer→action), confidence gate, **shadow mode** (log would-do without changing behavior), recipes, offline eval CLI replaying fixtures and asserting on actions not text. Measured: 24-row filter 48.9 s via `claude -p` vs **1.3 s** Jev (concurrency 8). Pattern: shadow-mode rollout is the safe adoption path for any guardrail.
+- **FirasSX914/calibre** (Empirical, key negative result): Jev confidence calibration study, 500 ex/dataset. Banking77: Jev alone 77.8%@$0.051; DeepSeek alone 78.8%@$0.221; **Jev→DeepSeek route @0.67 → 80.2%@$0.103** (DeepSeek on 11.6%). Web of Science: Jev 52.8%, routing **ties Jev alone for 46% more cost**. **No routing parameter (optimal threshold, sign of accuracy gap, routing ROI) transferred across datasets** → thresholds/anchors must be re-measured per dataset; never port gates across domains.
+- **stephanj/parallelConstraintDecoding** (Contract): fills a whole JSON schema of booleans/enums in **two forward passes** (prefill once → one masked step per field, batched). Java/llama.cpp via FFM; MLX port referencing HF `harshatheg/Qwen-2.5-1B-RLCD` which contains **no weights** — stock Qwen2.5-1.5B + custom code. Confirms the prefill-then-parallel-field inference architecture attributed to Jev.
+- **arnabgho/rlcd-lite** (Empirical): reproducible RLCD reconstruction: GRPO + **Brier (proper scoring rule) reward** → calibrated decisions; claims binary reward does not yield calibration. Independently supports "proper-scoring-rule training is why Jev confidence is calibrated."
+- **gamesonrblx/Jevbridge** (Contract): ACP-compatible adapter so Jev's typed decisions sit alongside Codex/Claude/Grok/OpenCode as a co-model in agent harnesses.
+- **BrendanH18/jev-lab** (Contract): six demo apps + workbench; every call's latency/cost shown live, nothing canned.
+- **BunsDev/clarity-judge** (Contract): multi-check writing judge — separate **named checks** (hedging, em dash overuse, clarity, filler, tone, passive, actionability), each with verdict + confidence + supporting sentence; demo mode with deterministic local mocks. Pattern: decompose one opaque score into N named Noul checks with per-check evidence.
+- **mizchi/jev-gomoku** (Contract): MoonBit client + CLI + Jev-vs-Jev gomoku with per-move latency logging → GIF replay. Jev-vs-Jev self-play as a test harness.
+- **joshbla/jev-plays-2048** (Contract): Jev picks moves for visible 2048; exports full request/response JSON per move.
+- **GodsBoy/jev-agent-skill-router** (Empirical, prior notes): 94.4% vs 70.8% lexical routing; gates 0.30/0.40; shortlist 3.
+
+## Cross-repo taxonomy (application generator input)
+
+Application families observed across the archive: (a) streaming judge (moderation/log/inbox/triage), (b) keystroke-loop re-rank/launcher, (c) pre-execution guards (shell/commit/send), (d) agent self-assessment & routing, (e) policy loops over cached judgments, (f) game/swarm policies, (g) voice/meeting realtime flows, (h) computer use via accessibility trees, (i) formula/DSL embedding (spreadsheets), (j) retrieval re-rank (BM25→Jev→top-1), (k) multi-check judge dashboards, (l) shadow-mode adoption harnesses.
+
+## programasweights/programasweights-python (Contract + Hypothesis coupling)
+
+Compile-once local neural functions from NL specs (KV-prefix+LoRA .paw bundles over Qwen3-0.6B/GPT-2; llama.cpp; WASM browser runtime; offline fails closed). No Jev+PAW integration found across the 187-repo archive. Hypothesis couplings: Jev as calibration-teacher for PAW example sets (distillation), or Jev as shadow arbitrator/gate with disagreement rate as recompile trigger. Added to optimizer-integration.md with test obligations.
+
+## Batch #4 deep reads (2026-09-18, user-named repos)
+
+- **dbreunig/building-with-jev-skill** (Contract): 213-line doc-grounded skill (jev-1.13): workflow, primitive table, instruction keys (question/focus/inspect/note/compare/field), contrastive criteria, Score-level rules, state hygiene, speculative fan-out, confidence routing, taxonomy walk, counting via per-item Nouls, symptom→cause→fix diagnosis table, revision discipline. Distilled into skill reference `question-design.md`. Its sources list docs pages incl. `model-jaggedness/jev-1.13` and `llms.txt`.
+- **dannote/jev** (Contract): Elixir/OTP — Jev as a **peer GenServer**; answers are messages pattern-matched; "clause order is the routing, thresholds are guards"; 100 calls in flight; tests call `handle_answer` with literal maps (no network). Pattern: decision policy as pure guard functions = maximal testability.
+- **carlaiau/jev-reranking** (Empirical, honest benchmark): TREC DL2019 passage rerank, 41,042 pairs/43 queries: JEV nDCG@10 0.682–0.684 vs local monoBERT 0.718 (IDST 0.738); **JEV highest MAP 0.4748**; $0.76/41k pairs, ~37 s/query median. Conclusion: zero-shot Jev rerank competitive with tuned cross-encoders on MAP, behind on nDCG@10 — beats every zero-shot baseline in the paper row set except IDST. No marketing spin in the writeup.
+- **scale-venture-partners/riff** (Contract): prose linter with ruff-style codes; static rules ms-fast, semantic rules one Jev call each with `p=0.92`-style calibrated output; 14 calls ≈ $0.0004. Pattern: hybrid static+semantic rule codes with per-finding probabilities.
+- **matthewdonsemail-lab/open-typesafe-camoufox** (Contract): browser agent ~$0.0002/step, headed Camoufox, deterministic perception → 11 mutually-exclusive action kinds via Jev Choice; free-text writing model only when a text field genuinely needs it; full audit run folder. Shaped after awlevin/typesafe-computer-use.
+- **hr98w/jev-visual** (Empirical): open Jev-like pattern on Apple Silicon (MLX Qwen3.5-0.8B): shared multimodal context reused, candidates scored directly from logits (no autoregressive generation); honest limits — Breakout works only after reducing control to "which region holds the ball" (region Choice, paddle code targets region center); 80 decisions → 9 bricks/6 returns. Insight: game control reduced to visual classification = the decomposition discipline in miniature.
+- **Dicklesworthstone/skillranker** (already analyzed, §7): hook ranks skills from live context, calibration loop, fail-closed.
+- **AntonioCoppe/jev-harness** (already analyzed, findings above): policy/gate/shadow-mode/eval-CLI.
+
+## Batch #5 (2026-09-18, user-named)
+
+- **probably-lang (southpolesteve/probably)** (Contract): an entire **programming language whose control flow runs on Jev judgments** — `while draft feels "like a LinkedIn influencer post" { … }`. Real parser + async interpreter (Bun/TypeScript); Jev supplies judgments, a text model supplies strings, interpreter owns variables/loops/budgets/replay. Judgment-state **recordings** enable exact deterministic replay (hosted demo = cached recordings, zero inference). Novel position: Jev as the *conditional operator* of a DSL.
+- **superagents-lab/jev-search** (Contract): retrieval pipeline where Jev is both head and tail: understand (typed questions → query + sources + time range) → concurrent multi-engine lanes (site-restricted Google/DDG + vertical engines, one failed lane doesn't discard others) → per-result relevance Score → merge by URL + engine agreement + original rank, streaming NDJSON; speculative Google start while Jev interprets. Budgets: 15s per engine, 30s overall.
+- **Kevthetech143/super-jev** (Contract): domain-independent harness = evidence → batched typed questions → decide → **permit (independent of model confidence!)** → execute one tool with idempotency key + cancellation → verify → JSONL trace/replay. Domain hooks: observe/questions/decide/permit/tools.validate/execute/reduce/success. Policy insight: the permission layer enforces domain rules regardless of what the model says — separate axis from confidence gating.
