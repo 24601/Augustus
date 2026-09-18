@@ -788,6 +788,52 @@ Not a rewrite of §45. No species change. No invented metrics.
 Cross-repo addition: (be) bake-off fetch path is a Hub id; (bf)
 Choice `"other"` is a training confrontation, not only a request hatch.
 
+## Batch #32 (2026-09-18 ~14:52 Boise) — extractive / local surface / speed layer
+
+Note: `research/notes.md` §48. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Do not re-fold
+blackwood-rlcd, open-jev-laya-bench, decision-token LoRA, jevgate,
+wellposed, jev-reflex-autonomy-lab, Abide, kev, jevpandas,
+bitrate-advisor.
+
+- **AppitStudio/testimonial-miner (Empirical as README fixture).** MIT.
+  Gmail → numbered sentences in code → one broadcast (Choice/Noul/Score
+  + per-sentence Nouls). Model never writes. `redecide` retunes
+  thresholds on the log. 8-request fixture: 5 candidates / 3 rejected
+  / 3 header skips. Offline tests use fakes.
+- **choxos/jev-reviewer (Empirical as sample study).** MIT. Pointer at
+  line ids; code copies verbatim with place. *Not found* is an answer.
+  712-line article: 1q 10 req / 1.2–2 s; 9q 17 / 2.3 s. Spot checks,
+  not a validation study.
+- **us/jev-local (Contract as surface; Hypothesis on your labels).**
+  `POST /v1/systemone` drop-in. Default scorer is a **deterministic
+  stub** until `JEVLOCAL_SCORER=hf`. LICENSE absent this pass. Not a
+  Jev reproduction.
+- **hitakshiA/solari-reflex (Empirical as named table).** MIT.
+  Observe → decide → verified act; no screenshots. Vs Codex on Solari:
+  60.2 s vs 194.9 s; 66 s vs 460 s; 24.2 s vs 98.4 s (~3–7×).
+- **ktaletsk/jevframe (Empirical as shape).** MIT, PyPI. pandas and
+  Polars `.jev`; full `p__`; no silent renormalize. Sibling of
+  jevpandas, not a re-fold.
+- **MED:** jev-hermes (route ≠ memory); agent-workflow-typesafe-ai
+  (advisory sidecar, Apache-2.0); dag-jev (structure induction;
+  experiment; no metrics); jev-agentworld-web-simulator (decision
+  control / generator content); jev-testbench (collab arms; LICENSE
+  absent); jevscan (AST ∩ semantic; `tenbin` owns lint); pi-jev-approver
+  (fail-closed without key; light note); Mattepiu/laya-onnx (~15 ms
+  CPU; do not copy vs-Jev table).
+- **Spotcheck:** SemIf 1551★; jevlike 866★; Awesomejev 488/21644 not
+  re-derived; tracker lastModified 2026-09-18T20:12:57Z; Laya listed;
+  Blackwood not.
+
+Cross-repo addition: (bg) extractive keep/drop + offline re-threshold
+is judge-once/re-policy; (bh) pointer-not-generator is citation
+integrity; (bi) `/v1/systemone` drop-in is a surface — stub ≠ scorer;
+(bj) observe→decide→verified-act needs no screenshots; (bk) route ≠
+memory; (bl) advisory sidecar never changes host routing; (bm) collab
+arms belong in the measurement curriculum.
+
+
 
 
 

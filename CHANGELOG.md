@@ -162,6 +162,24 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   wording, dedicated `none_of_the_above` eval (no published rates).
   Cross-link wellposed request-shape lint. No species change. No
   wrapper.
+- Hourly ~14:52 Boise fold (`research/notes.md` §48): Archer still
+  Watch. Extractive selection + offline `redecide`
+  ([testimonial-miner](https://github.com/AppitStudio/testimonial-miner));
+  pointer-not-generator
+  ([jev-reviewer](https://github.com/choxos/jev-reviewer)). Local
+  `/v1/systemone` drop-in ([jev-local](https://github.com/us/jev-local);
+  default scorer is a stub until `hf`). Observe→decide→verified-act,
+  no screenshots ([solari-reflex](https://github.com/hitakshiA/solari-reflex);
+  60.2/194.9, 66/460, 24.2/98.4 s vs Codex on Solari). Dataframe
+  accessor sibling ([jevframe](https://github.com/ktaletsk/jevframe);
+  note jevpandas). Route ≠ memory (jev-hermes). Advisory sidecar
+  (agent-workflow-typesafe-ai). Structure induction (dag-jev experiment).
+  Decision-for-control / generator-for-content (jev-agentworld-web-simulator).
+  Collab arms + Wilson/McNemar (jev-testbench). AST ∩ semantic (jevscan;
+  `tenbin` owns lint). Light Pi gate (pi-jev-approver). Laya ONNX port
+  ([laya-onnx](https://huggingface.co/Mattepiu/laya-onnx); do not copy
+  vs-Jev table). Spotcheck: SemIf 1551★; jevlike 866★; tracker
+  20:12:57Z still lists Laya, not Blackwood. No wrapper.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

@@ -272,7 +272,12 @@ asynchronous — the reflex does not pause
 experimental drone viz, not a flight controller; GitHub license null
 this pass). Same Kahneman split as the toolbox row (S2 proposes, S1
 discriminates; never the reverse). `notes.md` §46.
-`agent-self-assessment.md`.
+`agent-self-assessment.md`. **Route ≠ memory** is the same split on a
+turn: [jev-hermes](https://github.com/de-niji/jev-hermes) cheap-gates
+calendar/mail/status off the memory tour; complex keeps Honcho
+(`notes.md` §48). **Advisory sidecar:**
+[agent-workflow-typesafe-ai](https://github.com/ngallodev-software/agent-workflow-typesafe-ai)
+emits `no_action` receipts and **never** changes host routing.
 
 **Effect-oriented loop (same author, later post).** Topology B inside
 an effect system
@@ -391,7 +396,14 @@ decision-design card. Do not clone APIs from READMEs.
 | S1 reflex + optional S2 advice | Typed action Choice; planner one-use on low p | Collision, legality, the stick stays with S1 | jev-reflex-autonomy-lab (experimental) |
 | Decision-as-business-tool | Named judgment; gate is part of the result | Registry, arithmetic, hard guards | jev-decision-layer (unofficial) |
 | NL cases → checked e2e | Jev selects observed controls | Playwright expectations; PASS/FAIL/BLOCKED | jev-e2e (alpha) |
-| Dataframe semantic index | Noul / Choice / Score per row | pandas, thresholds, never invent negatives | jevpandas |
+| Extractive quotes / pointer evidence | Per-sentence or per-line-id Noul/Choice | Verbatim join; place; `redecide` / CSV; model never writes the excerpt | testimonial-miner; jev-reviewer |
+| Structured observe → decide → act | Operation + target Choice on numbered controls | Guard check; deny-list absence; no screenshots; TYPE is the only generation | solari-reflex |
+| Dataframe semantic columns | Noul / Choice / Score per row; full `p__` | pandas/Polars, indexes, never silent renormalize | jevpandas; jevframe (PyPI + Polars) |
+| Route ≠ memory | Intent Choice before a turn | Config + flat tools on easy routes; memory stays on for hard ones | jev-hermes |
+| Advisory sidecar receipts | Typed answers as `no_action` evidence | Host routing / executor / policy unchanged | agent-workflow-typesafe-ai |
+| Structure induction over a bag | Pairwise dependency Noul/Choice | DAG / scheduler in code | dag-jev (experiment) |
+| Simulated world control vs content | Intent / page-type Choice | Generator writes documents; Zod + deterministic compiler; SQLite world | jev-agentworld-web-simulator |
+| AST ∩ semantic lint | Typed questions on Tree-sitter units | Parser, selection, fail-on; does not execute scanned code | jevscan (`tenbin` owns the lint skill) |
 | Model router | Requirement Scores; policy in code | Eligibility, cost/quality/latency objective | routeKit |
 | Bulk-judgment coprocessor | Choice/Noul off the frontier context | Counts, policy, fail-open gate | jev-mode |
 | Closed-catalog System One shell | Choice over host tools | Execute, arithmetic, credentials | jot |
@@ -428,7 +440,12 @@ shim, CC BY-NC; Jev still leads general text; not Archer Watch
 decision-model drop is **Watch**. Closed calibrated API vs open weights
 is a self-eval tradeoff (`research/notes.md` §18, §33, §45). When-to-use
 axes: `judgment-class.md`. TypeSafe remains the documented *exemplar*,
-not the class monopoly. GLiNER (locate) / GLiClass (categorize) /
+not the class monopoly. **Local contract drop-in this hour:**
+[`us/jev-local`](https://github.com/us/jev-local) speaks `/v1/systemone`;
+**default scorer is a deterministic stub** until `JEVLOCAL_SCORER=hf`
+(`notes.md` §48). **ONNX replica path:**
+[`Mattepiu/laya-onnx`](https://huggingface.co/Mattepiu/laya-onnx) — do
+not copy the inherited vs-Jev table. GLiNER (locate) / GLiClass (categorize) /
 GLiNER2.5 (local multi-head), listwise, and vision families:
 `judgment-class.md`.
 

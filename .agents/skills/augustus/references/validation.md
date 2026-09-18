@@ -321,6 +321,7 @@ Rules:
 | LM-program knobs only | DSPy/Ax (narrow) | never primary System One calibration score |
 | Reward-hack / eval gaming | [rh-guard](https://github.com/24601/rh-guard) | structural deny + System One sidecar |
 | Project soft-rule lint | [Abide](https://github.com/coldteadotai/abide) | Score per rule on the diff; bands; fail-open; replay + independent review |
+| Collab / computer-use product loop | [jev-testbench](https://github.com/ufx7/jev-testbench); [solari-reflex](https://github.com/hitakshiA/solari-reflex) | Wilson/McNemar arms; independently checked task time |
 
 rh-guard is a reward-hack hook, a different surface from jevgate and
 from Abide (eval-integrity vs allowlist-remainder vs project soft
@@ -333,12 +334,25 @@ confirmation), not a Harbor taskset and not a jevals substitute.
 Turn-phase soft rules held up better; false positives mostly fixable
 in the rubric. Text/diff only.
 
+**Harbor-style computer-use receipt this hour:**
+[solari-reflex](https://github.com/hitakshiA/solari-reflex) scores
+the *task* (Stripe API / answer key), not a paragraph judge. Observe
+→ decide → verified act; no screenshots. Author table vs Codex on
+the same Solari machines: 60.2 s vs 194.9 s; 66 s vs 460 s; 24.2 s
+vs 98.4 s (`notes.md` §48). **Collab-arm curriculum:**
+[jev-testbench](https://github.com/ufx7/jev-testbench) —
+`llm_autonomous` vs `scripted_plus_jev` vs `llm_plus_jev`; Wilson +
+McNemar; Jev is not a peer arm. Bake into jevals/Harbor hygiene, do
+not copy the harness.
+
 ### Bake-off mandate
 
 Before adopting proprietary Jev vs Laya vs TypeAR vs Nimble vs kev vs
 blackwood-rlcd vs Archer vs openjev-lm, run a jevals-shaped labeled suite (or an equivalent
 with this hygiene) and, for a product loop, a Harbor taskset. A design
-card with no eval path is incomplete.
+card with no eval path is incomplete. A green smoke test on
+[jev-local](https://github.com/us/jev-local)'s **default stub** is not
+that bake-off (`notes.md` §48).
 
 **Shared bake-off exemplar (Empirical as that named receipt, not a
 ranking).** [`pngwn/open-jev-laya-bench`](https://huggingface.co/datasets/pngwn/open-jev-laya-bench)

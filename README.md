@@ -31,7 +31,8 @@ never launder a Noul as a proof.
 - `.agents/skills/augustus/references/judgment-class.md` — the class (Jev
   exemplar, not monopoly): open heads (Laya, kev, encoder DeBERTa, LoRA
   distill), constrained-AR (TypeAR, pcdServer), announced decision-model (Watch),
-  open multimodal RLCD (blackwood-rlcd; not Archer),
+  open multimodal RLCD (blackwood-rlcd; not Archer), Laya ONNX port,
+  contract-compatible local `/v1/systemone` (stub until hf scorer),
   GLiNER/GLiClass species (locate vs categorize vs local multi-head),
   listwise vs decision objectives, vision scoring, when-to-use axes,
   agent-architecture portents
@@ -48,10 +49,10 @@ never launder a Noul as a proof.
   placement: judgment-class model + LLM + code; preference lint; provider
   (Jev default / other family with self-eval)
 - `.agents/skills/augustus/references/applied-mappings.md` — context sieve,
-  exact-text keep/drop, env triage, moderation/ranking, skill routing
+  exact-text keep/drop (extractive / pointer-not-generator), env triage, moderation/ranking, skill routing (route ≠ memory)
 - `.agents/skills/augustus/references/faq.md` — "just classification",
   stack replacement, Jev vs open head vs encoder vs LoRA vs constrained AR vs kev vs blackwood,
-  wait-for-Archer, missing-other confident-wrong, soft project rules vs linter (Abide), GLiNER vs GLiClass vs CLIP, LLM-as-judge, in-engine vs CLI store,
+  wait-for-Archer, missing-other confident-wrong, soft project rules vs linter (Abide), extractive/pointer-not-generator, local drop-in vs stub scorer, route ≠ memory, GLiNER vs GLiClass vs CLIP, LLM-as-judge, in-engine vs CLI store,
   hard envelope (bitrate / planner), not-another-how-to
 - `.agents/skills/augustus/references/mappings.md` — classical-method
   mappings with boundaries, counterexamples, acceptance tests (including
@@ -60,7 +61,8 @@ never launder a Noul as a proof.
   recipes, Jev-for-skills (routing, self-monitoring, testing, modularity,
   frontmatter), and Eval & hill-climb (jevals hygiene + Harbor taskset;
   open-jev-laya-bench as ECE/NLL/Brier bake-off exemplar; Abide replay as
-  Harbor-adjacent soft-rule measurement)
+  Harbor-adjacent soft-rule measurement; solari-reflex Harbor-style
+  computer-use; jev-testbench collab arms)
 - `.agents/skills/augustus/references/boundary-audit.md` — existing-system
   insertion: fit test, opportunity map, smallest boundary, red flags
 - `.agents/skills/augustus/scripts/evaluate_decisions.py` — offline evaluator

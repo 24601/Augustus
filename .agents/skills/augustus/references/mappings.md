@@ -42,7 +42,12 @@ code: shortlist, rank, filter — weights adjustable without re-inference
 ```
 
 **Example**: research-reading map — extract reusability dimensions once, let
-researchers re-rank and re-filter interactively. **Beyond SWE
+researchers re-rank and re-filter interactively.
+**Offline re-threshold (Empirical as named receipts):**
+[testimonial-miner](https://github.com/AppitStudio/testimonial-miner)
+`redecide` reapplies `Thresholds` to logged answers with **no new model
+calls** — judge once, explore policy in code (`notes.md` §48). Same family
+as firehose sliders. **Beyond SWE
 (Hypothesis until labeled):** vendor bid/no-bid (fit, urgency, risk
 Nouls; price and deadline exact); apartment shortlist (commute/light/
 noise Scores; rent exact); hiring scorecard (evidence Nouls; labor-law
@@ -162,9 +167,13 @@ local paths only; fail-open. Dataframe cousin this hour:
 [`yalindogusahin/jevpandas`](https://github.com/yalindogusahin/jevpandas)
 — `evaluate` / `filter` / `classify` / `score` / batched `ask` over a
 pandas frame; classify example includes `other`; failures never become
-negative predictions; LICENSE absent this pass. Row contents leave the
-store (same residency warning as AU health). Do not copy SQL, env, or CLI flags.
-`notes.md` §42, §44, §46.
+negative predictions; LICENSE absent this pass. Accessor sibling this
+hour: [`ktaletsk/jevframe`](https://github.com/ktaletsk/jevframe) (MIT,
+PyPI; pandas **and** Polars `.jev`; full `p__` columns; no silent
+renormalize; one row per request). Same hole, two surfaces. Row
+contents leave the store (same residency warning as AU health). Do not
+copy SQL, env, or CLI flags.
+`notes.md` §42, §44, §46, §48.
 
 ## 5. Hierarchy → bounded heuristic search
 
@@ -383,6 +392,13 @@ immediate win missed once reversed; Fool's-mate confidence 31%/37% so a
 0.50 gate would reject correct mates. pcdServer Tetris is the same
 hole on the constrained-AR surface. Not a strength rating.
 `notes.md` §42; `validation.md`.
+
+**Structure induction over a bag (Empirical as a *shape*, 2026-09-18):**
+[`Joymfl/dag-jev`](https://github.com/Joymfl/dag-jev) — unordered items
+in, pairwise "does i depend on j?" judgments, DAG in `petgraph`. Code
+owns topology; the model does not emit edges. Experiment; empty README;
+no metrics this pass (`notes.md` §48). Same hole as taxonomy beam (§5):
+judgment is a pairwise (or Choice) classifier step, not the scheduler.
 
 **Query planner as the envelope (author-reported, 2026-09-18):**
 [@mmalisper](https://x.com/mmalisper/status/2101001041903009987) on the
@@ -613,7 +629,14 @@ one Jev call on the remainder. Empty state was self-contradictory —
 that is why the refuse-empty rule exists.
 [`affirmitv/bitrate-advisor`](https://github.com/affirmitv/bitrate-advisor)
 is the same sandwich on a live encoder: policy proves the cap; Jev
-judges only inside it (`notes.md` §44).
+may only match it or be more conservative; missing the model returns
+the policy's answer. Jev judges only inside it (`notes.md` §44).
+Light sibling:
+[`phin-tech/pi-jev-approver`](https://github.com/phin-tech/pi-jev-approver)
+— regex `commandRules` prove allow/deny (a `deny` is a hard block);
+typed Score/Nouls on the remainder; **fail-closed** without a key
+(different polarity from jevgate). rh-guard-adjacent; light note only
+(`notes.md` §48).
 [`coldteadotai/abide`](https://github.com/coldteadotai/abide) is the
 same *family* on project instructions: the **linter proves** lintable
 rules; Jev Scores only residual soft AGENTS.md rules; fail-open, banded

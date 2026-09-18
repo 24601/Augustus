@@ -400,6 +400,10 @@ Use these as *existence proofs of a position*. Write your own card.
 | Knowledge work | what to read next | on-question Noul + quality Score | library you hold |
 | Hiring | interview / reject / hold | evidence Nouls; veto rules in policy | labor law, scorecards you wrote |
 | Inbox | reply / snooze / archive | urgency Noul + aboutness Choice | send, calendar |
+| Knowledge work | extract a quote / a cited fact | per-sentence or per-line-id Noul/Choice (**Empirical**: testimonial-miner, jev-reviewer) | verbatim join; place; human publish permission |
+| Dataframe labeling | classify / score rows | Noul/Choice/Score + full `p__` (**Empirical** as jevframe / jevpandas *shape*) | pandas/Polars, thresholds in code |
+| Computer-use speed | one verified act per step | operation + target Choice on numbered controls (**Empirical**: solari-reflex) | Guard check; deny-list absence; no screenshots |
+| Agent turn | skip memory tour on easy intent | intent Choice (**Empirical**: jev-hermes) | Memory still writes; complex still searches |
 | Document / lab routing | which pages need the expensive observation | Noul on remainder after a text layer / recipe | local extract, merge order (**Empirical** as OCR-router *shape*) |
 | Shell / tool allowlist | unlisted remainder after a **proof** | five Nouls on unknown verbs | Proven/Refused in code; cannot block (**Empirical**: jevgate) |
 | SWE | residual AGENTS.md / CLAUDE.md rules | one Score per named instruction-file rule | linter owns hard rules; bands + fail-open (**Empirical**: Abide replay, `notes.md` §47) |

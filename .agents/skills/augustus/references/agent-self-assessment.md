@@ -34,7 +34,12 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    [jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab):
    **S1 keeps control**; optional S2 is one-use advice on low confidence
    and does not fly the drone (`notes.md` §46). Experimental viz, not a
-   production supervisor.
+   production supervisor. Computer-use speed layer of the same split:
+   [solari-reflex](https://github.com/hitakshiA/solari-reflex) — one
+   structured observation → one typed decision → one verified action;
+   **no screenshots**; model output never becomes a selector. Harbor-style
+   task score (Stripe API / answer key). Author table vs Codex on Solari:
+   60.2 s vs 194.9 s; 66 s vs 460 s; 24.2 s vs 98.4 s (`notes.md` §48).
 6. **Context economy**: the context-sieve card
    (`references/applied-mappings.md#1-context-sieve`). Judge every large
    tool result with one relevance Noul before it enters context. Hide
@@ -66,6 +71,9 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
 - Grounding of a generated claim: one Choice per claim–evidence pair
   (supports / contradicts / unrelated) + a confidence review flag; judge
   against the cited source text, never against another model's prose.
+  Pointer-not-generator: the model points at line ids; code copies
+  verbatim with place; *not found* is an answer
+  ([jev-reviewer](https://github.com/choxos/jev-reviewer); `notes.md` §48).
 - Self-report fidelity: compare the agent's claimed action with its actual
   trace via decomposed Nouls (right tool? args match schema? result matches
   call?). Escalate on low confidence; never auto-retry.

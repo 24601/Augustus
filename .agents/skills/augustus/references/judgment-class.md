@@ -438,10 +438,21 @@ unverified — do not overwrite `notes.md` §18). Shared bake-off this
 hour: [`pngwn/open-jev-laya-bench`](https://huggingface.co/datasets/pngwn/open-jev-laya-bench)
 (26 + 9 tasks, 11,959 items; ECE/NLL/Brier; **not** TypeSafe Jev vs
 Laya; LLM-as-judge is not the score — `notes.md` §46, `validation.md`).
+**Contract-compatible local surface, not a fourth path:**
+[`us/jev-local`](https://github.com/us/jev-local) speaks `POST
+/v1/systemone` so an SDK `base_url` drop-in works offline. **Default
+scorer is a deterministic stub** until `JEVLOCAL_SCORER=hf`. A green
+smoke test on the stub is not a local decision model (`notes.md` §48).
+**ONNX replica of Laya:**
+[`Mattepiu/laya-onnx`](https://huggingface.co/Mattepiu/laya-onnx)
+(~15 ms CPU for one Noul, their card). Do not copy the inherited
+vs-Jev accuracy table (`notes.md` §18).
 
 Reject: TypeAR or pcdServer scores as fail-closed P(permit); a LoRA student's
 agreement with Jev as independent gold; kev's ID ECE as a license to skip
 a held-out test on *your* workflow; shipping on "smarter than Jev";
+a green `/v1/systemone` smoke test on jev-local's stub as a bake-off;
+copying laya-onnx vs-Jev rows as independent gold;
 thresholding [`jp-sns-jev7-estimator`](https://huggingface.co/kokuren/jp-sns-jev7-estimator)
 teacher scores as P(toxic) — the card says they are **not** calibrated,
 and `threat` F1@0.5 is 0.0000 on their table (`notes.md` §33). Domain-local
@@ -451,7 +462,7 @@ universal ranking. Diffusion beating a decision head is Hypothesis.
 Detail: `research/notes.md` §33 (surfaces), §34 (marginals), §35
 (Nimble), §36 (diffusion), §38 (entropy allocator, Hypothesis),
 §42 (pcdServer serving, meta-VOI, games), §45 (kev), §46 (blackwood,
-laya-bench, decision-token LoRA). Before
+laya-bench, decision-token LoRA), §48 (jev-local stub, laya-onnx). Before
 adopting a surface, the bake-off is a jevals-shaped suite and, for a
 product loop, a Harbor taskset (`validation.md`, Eval & hill-climb).
 The stage pipeline into that decision is the same file

@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-18T20:43Z",
+  "retrieved": "2026-09-18T20:52Z",
   "sources": [
     {
       "kind": "docs",
@@ -1321,6 +1321,108 @@
       "title": "jaredpalmer/kev-0.5b",
       "url": "https://huggingface.co/jaredpalmer/kev-0.5b",
       "note": "Hub weights for kev. kev.publish; --run accepts Hub ids; base downloads on first load. PEFT FEATURE_EXTRACTION. Apache-2.0 adapter. notes.md \u00a745 delta."
+    },
+    {
+      "kind": "github",
+      "title": "AppitStudio/testimonial-miner",
+      "url": "https://github.com/AppitStudio/testimonial-miner",
+      "note": "MIT. Extractive quotes: numbered sentences in code; one broadcast; model never writes; redecide without new calls. notes.md \u00a748."
+    },
+    {
+      "kind": "github",
+      "title": "choxos/jev-reviewer",
+      "url": "https://github.com/choxos/jev-reviewer",
+      "note": "MIT. Pointer-not-generator: line ids; verbatim copy with place; not found is an answer. notes.md \u00a748."
+    },
+    {
+      "kind": "github",
+      "title": "us/jev-local",
+      "url": "https://github.com/us/jev-local",
+      "note": "POST /v1/systemone drop-in. Default scorer is a deterministic stub until JEVLOCAL_SCORER=hf. LICENSE absent this pass. notes.md \u00a748."
+    },
+    {
+      "kind": "github",
+      "title": "hitakshiA/solari-reflex",
+      "url": "https://github.com/hitakshiA/solari-reflex",
+      "note": "MIT. Observe\u2192decide\u2192verified act; no screenshots. Vs Codex on Solari: 60.2/194.9, 66/460, 24.2/98.4 s. notes.md \u00a748."
+    },
+    {
+      "kind": "github",
+      "title": "hitakshiA/solari-fast-showcase",
+      "url": "https://github.com/hitakshiA/solari-fast-showcase",
+      "note": "Companion table for solari-reflex vs Codex on Solari. notes.md \u00a748."
+    },
+    {
+      "kind": "github",
+      "title": "ktaletsk/jevframe",
+      "url": "https://github.com/ktaletsk/jevframe",
+      "note": "MIT, PyPI. pandas and Polars .jev accessor; full p__ columns; no silent renormalize. Sibling of jevpandas. notes.md \u00a748."
+    },
+    {
+      "kind": "github",
+      "title": "de-niji/jev-hermes",
+      "url": "https://github.com/de-niji/jev-hermes",
+      "note": "MIT. Route \u2260 memory: cheap intent gate skips memory tours on calendar/mail/status. notes.md \u00a748."
+    },
+    {
+      "kind": "github",
+      "title": "ngallodev-software/agent-workflow-typesafe-ai",
+      "url": "https://github.com/ngallodev-software/agent-workflow-typesafe-ai",
+      "note": "Apache-2.0. Advisory sidecar receipts; never changes host routing. notes.md \u00a748."
+    },
+    {
+      "kind": "github",
+      "title": "Joymfl/dag-jev",
+      "url": "https://github.com/Joymfl/dag-jev",
+      "note": "Structure induction over a bag; pairwise dependency; petgraph. README empty; experiment; no metrics. notes.md \u00a748."
+    },
+    {
+      "kind": "github",
+      "title": "knowlet/jev-agentworld-web-simulator",
+      "url": "https://github.com/knowlet/jev-agentworld-web-simulator",
+      "note": "MIT. Decision for control, generator for content; SQLite world. CI #2 passed. notes.md \u00a748."
+    },
+    {
+      "kind": "github",
+      "title": "ufx7/jev-testbench",
+      "url": "https://github.com/ufx7/jev-testbench",
+      "note": "Collab arms llm_autonomous / scripted_plus_jev / llm_plus_jev; Wilson/McNemar. LICENSE absent this pass. notes.md \u00a748."
+    },
+    {
+      "kind": "github",
+      "title": "alexykn/jevscan",
+      "url": "https://github.com/alexykn/jevscan",
+      "note": "MIT. Tree-sitter \u2229 typed questions; 0.2.0rc4; does not execute scanned code. tenbin owns the lint skill. notes.md \u00a748."
+    },
+    {
+      "kind": "github",
+      "title": "phin-tech/pi-jev-approver",
+      "url": "https://github.com/phin-tech/pi-jev-approver",
+      "note": "Pi shell safety gate; regex commandRules prove allow/deny; fail-closed without a key. Light rh-guard-adjacent note. notes.md \u00a748."
+    },
+    {
+      "kind": "huggingface",
+      "title": "Mattepiu/laya-onnx",
+      "url": "https://huggingface.co/Mattepiu/laya-onnx",
+      "note": "Apache-2.0 ONNX export of convaiinnovations/laya. ~15 ms CPU for one Noul (their card). Do not copy inherited vs-Jev table. notes.md \u00a748."
+    },
+    {
+      "kind": "huggingface",
+      "title": "multimodalart/jev-reproductions-tracker",
+      "url": "https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker",
+      "note": "Hub lastModified 2026-09-18T20:12:57Z this pass. models[] still lists convaiinnovations/laya; BlackwoodAI/blackwood-rlcd absent. notes.md \u00a748."
+    },
+    {
+      "kind": "github",
+      "title": "TheoLeeCJ/SemIf (star spotcheck)",
+      "url": "https://github.com/TheoLeeCJ/SemIf",
+      "note": "1551 stars this pass (2026-09-18T20:51Z); +60 vs awesome claim 1491. Independent. notes.md \u00a748."
+    },
+    {
+      "kind": "github",
+      "title": "vinnylarouge/jevlike (star spotcheck)",
+      "url": "https://github.com/vinnylarouge/jevlike",
+      "note": "866 stars this pass. notes.md \u00a748."
     }
   ]
 }

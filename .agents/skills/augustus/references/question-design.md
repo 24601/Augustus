@@ -17,7 +17,7 @@ request, and treat a stale pin as a prior, never a setting.
 2. One question per judgment. Split any question that weighs two properties.
 3. Pick the primitive whose answer code acts on directly.
 4. Build the smallest state that answers every question; compute in code whatever code can compute.
-5. Put every question sharing the state into **one request** (speculative fan-out — parallel questions cost little latency; code ignores unneeded answers). Second requests only when later data depends on an earlier answer.
+5. Put every question sharing the state into **one request** (speculative fan-out — parallel questions cost little latency; code ignores unneeded answers). Second requests only when later data depends on an earlier answer. Extractive / pointer: number the candidates in **code**; ask per-id Noul/Choice; copy verbatim. "Not found" is an option. The model never writes the quote (`applied-mappings.md` §2; `notes.md` §48).
 6. Combine in code: branches, weights, confidence gates.
 7. Test on labeled examples; read `probabilities` on the misses; revise one or two questions at a time.
 

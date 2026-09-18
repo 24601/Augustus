@@ -443,6 +443,28 @@
 - Cards: question-design, faq, judgment-class, validation, ecosystem.
 - notes.md §45 delta; sources.json; findings.md batch #31. No wrapper.
 
+## 2026-09-18 20:52 UTC — extractive / local surface / speed layer (~14:52 Boise)
+
+- Folded into open PR #2 (`cursor/augustus-store-envelope-00b4`).
+  Docs-only. Not a competing PR. Archer 27B drop still **WATCH**.
+- HIGH: testimonial-miner (extractive + `redecide`); jev-reviewer
+  (pointer-not-generator); jev-local (`/v1/systemone`; stub until hf);
+  solari-reflex (observe→act, no screenshots; 60.2/194.9, 66/460,
+  24.2/98.4 s); jevframe (pandas/Polars accessor; sibling of jevpandas).
+- MED: jev-hermes (route ≠ memory); agent-workflow-typesafe-ai
+  (advisory sidecar); dag-jev (structure induction, experiment);
+  jev-agentworld-web-simulator; jev-testbench (collab arms);
+  jevscan (AST ∩ semantic); pi-jev-approver (light); laya-onnx
+  (do not copy vs-Jev table).
+- Spotcheck: SemIf 1551★; jevlike 866★; tracker 20:12:57Z lists Laya,
+  not Blackwood. Awesomejev 488/21644 not re-derived.
+- Cards: SKILL.md, applied-mappings §2/§5, mappings §1/§4/§9/§18,
+  mixed-architecture, mental-models, validation, faq, judgment-class,
+  methods-catalog, toolbox, agent-self-assessment, question-design,
+  ecosystem, CHANGELOG, README.
+- notes.md §48; sources.json; findings.md batch #32. No wrapper.
+
+
 
 
 

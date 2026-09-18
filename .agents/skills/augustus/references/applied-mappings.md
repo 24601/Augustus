@@ -86,6 +86,16 @@ picks among **letters drawn on the screenshot**; code still clicks
 (`notes.md` §46). Text-only cousin: [jev-e2e](https://github.com/perixtar/jev-e2e)
 — Jev selects observed controls; Playwright independently checks;
 a confident model cannot substitute for checked expectations.
+**Extractive quotes (Empirical as named receipts, 2026-09-18 ~14:52):**
+[testimonial-miner](https://github.com/AppitStudio/testimonial-miner) —
+code numbers sentences; one broadcast (Choice/Noul/Score + per-sentence
+Nouls); the model never writes; `redecide` retunes thresholds on the
+log. [jev-reviewer](https://github.com/choxos/jev-reviewer) — the model
+**points at line ids**; code copies verbatim quotes with place; *not
+found* is an answer. Computer-use cousin:
+[solari-reflex](https://github.com/hitakshiA/solari-reflex) — structured
+observation → typed decision → verified act; **no screenshots**; model
+output never becomes a selector (`notes.md` §48).
 **Counterexample**: "write the patch that matches this sentence" — that is
 generation. **Test**: every kept byte occurs in the input; mixed never
 auto-included; snapshot stale → abort, don't guess.
@@ -204,6 +214,10 @@ shortlist; **not** `kevinpita/pi-jev-context` (sieve).
 [`ddfeyes/jev-mode`](https://github.com/ddfeyes/jev-mode) is the
 latency-class split: bulk triage/tag/route off the frontier context
 (synthetic 1,000: −77.8% tokens; accuracy claim is **parity**).
+**Route ≠ memory** ([jev-hermes](https://github.com/de-niji/jev-hermes)):
+a cheap intent Choice skips memory/tool *tours* on `calendar` / `mail` /
+`status`; `complex` keeps memory. Savings are skipped tours, not
+turning memory off (`notes.md` §48).
 Toolrouter / open JevRouter: **Hypothesis** until measured on *your*
 catalog. **Counterexample**:
 the agent looping "pick a tool, call it, pick again" with the provider as

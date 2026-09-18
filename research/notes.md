@@ -2777,3 +2777,269 @@ guidance.
 Text/diff only today. Usage + measurement exemplar (replay harness,
 precision by phase). Not a multimodal substrate and not a reason to
 wait on Archer.
+
+## 48. Extractive selection, pointer-not-generator, local contract drop-in (2026-09-18 ~14:52 Boise)
+
+America/Boise ~14:52 = 20:52 UTC (run 205210). Docs-only fold into
+open PR #2 (`cursor/augustus-store-envelope-00b4`). Not a competing
+PR. Archer 27B drop still **WATCH**. Identity lock vs `typesafe-ai` /
+`tenbin` / `decision-first` holds. No wrapper, no install.sh, no
+copied ports / Docker / PyPI how-tos. No invented metrics. Do not
+re-fold blackwood-rlcd, open-jev-laya-bench, decision-token LoRA,
+jevgate, wellposed, jev-reflex-autonomy-lab, Abide, kev, jevpandas,
+bitrate-advisor.
+
+Backend-agnostic: these are categorization / scoring *placements*
+(extractive keep/drop, pointer evidence, contract-compatible local
+scorer, structured observe→decide→act, dataframe columns, route≠memory,
+advisory sidecar, structure induction, AST∩semantic). TypeSafe Jev is
+the exemplar in the READMEs, not a monopoly.
+
+### HIGH
+
+1. **[`AppitStudio/testimonial-miner`](https://github.com/AppitStudio/testimonial-miner)**
+   (MIT, Python, created 2026-09-18T20:42Z, 0★ this pass). Gmail/IMAP
+   → numbered sentences in **code** → **one** typed request per email
+   (Choice kind + app, Nouls for user/praise/problem/English, Score
+   quotability, **one Noul per sentence**). **The model never writes
+   text.** The stored quote is the sender's sentences, selected by
+   those Nouls and joined in order. All thresholds live in
+   `Thresholds` and `redecide` reapplies them to logged answers
+   **without new model calls**. Header rules skip newsletters /
+   outbound / quoted replies before any call. Pattern: **extractive
+   selection + multi-question broadcast + offline re-thresholding.**
+   Cousin of exact-text keep/drop (`applied-mappings.md` §2), not a
+   testimonial product and not a Gmail how-to.
+
+   **Evidence (README; not re-run; Empirical as that named receipt).**
+   Developed against `typesafe-sdk` 0.7.0 / `jev-1.13.0`. Their
+   *product* bars (not class constants): candidate if user ≥0.5,
+   praise ≥0.6, quality ≥1.5 on 0–3; borderline praise ≥0.35 /
+   quality ≥1.0; quote sentences ≥0.6. Live fixtures (8 requests,
+   ~22k input tokens): **5** candidates, **3** rejected, **3** header
+   skips. Offline tests use fakes and say nothing about model
+   accuracy. Author cost gloss: ~$0.042 / M input; typical email
+   2–3k tokens; 10k judged emails ~$1. Do not copy IMAP setup.
+   Cards: `applied-mappings.md` §2; `mappings.md` §2; `methods-catalog.md`.
+
+2. **[`choxos/jev-reviewer`](https://github.com/choxos/jev-reviewer)**
+   (MIT, JavaScript, 1★, created 2026-09-18T14:47Z). Systematic-review
+   data extraction: PDF/Office/HTML/CSV stay in the **browser**;
+   segmenter assigns line ids (`A001`…); the decision model **points
+   at ids**; **code copies verbatim quotes with file and place**.
+   Nothing is paraphrased, so nothing can be invented. Two-pass:
+   screening Choice "which line answers q?" (+ none) over chunks,
+   then verifying Nouls "does this line itself answer q?". **Not
+   found is an answer.** Speculative fan-out: every question against
+   the same text. Pattern: **pointer-not-generator** for evidence
+   synthesis / citation integrity. Same species as keep/drop over
+   candidates code already holds; GLiNER locate is the cousin when
+   the answer *is* a span the encoder proposes.
+
+   **Evidence (README; sample study, Sep 2026; not a validation
+   study).** 17-page article + 12-page analysis plan + CONSORT,
+   712 lines: 1 question 10 req / 1.2–2 s / $0.0016; 9 questions
+   17 / 2.3 s / $0.0052; 18-question template 27 / 4.6 s / $0.0101.
+   Chunks of 12k characters matched 7k with a third fewer requests.
+   Treat as spot checks. Scanned PDFs need OCR first (their limit).
+   Do not copy the relay. Cards: `applied-mappings.md` §2;
+   `methods-catalog.md` claim–evidence; `mental-models.md`.
+
+3. **[`us/jev-local`](https://github.com/us/jev-local)**
+   (LICENSE absent this pass; Python; 0★; created 2026-09-18T19:28Z).
+   Local `POST /v1/systemone` drop-in (Docker / `pip` / SDK
+   `base_url`). Open-weights *path*, no waitlist. **Default scorer is
+   a deterministic stub and carries no intelligence** until
+   `JEVLOCAL_SCORER=hf`. That flag is load-bearing: a green smoke
+   test on the stub is not a local Jev. Pattern: **contract-compatible
+   local scorer for offline/dev**, beside kev's Hub drop-in and
+   Laya's native head — not a fourth species. Their README: interface-
+   compatible baseline, **not a reproduction of Jev's undisclosed
+   model or training**. Softmax ignores level ordering; option order
+   can shift logits. Do not copy `install.sh`, ports, or model ids
+   into skill cards.
+
+   **Evidence (README; Empirical as *their* named tables, Hypothesis
+   on *your* labels).** Official `typesafe-sdk==0.6.0` with only
+   `base_url` pointed at the server (4B backend) is the drop-in
+   proof. When `hf` is on they publish Wilson-CI / ECE / NLL tables
+   on templated sets (set1 / set2 / set3); do not re-promote those
+   rows as a ranking of TypeSafe Jev. Head-to-head vs published
+   jev-1.13.0 on 5 questions: 4/5 top-answer agree; payout
+   billing-vs-technical is an ambiguous prior, not a prompt bug.
+   Cards: `judgment-class.md`; `faq.md`; `validation.md`.
+
+4. **[`hitakshiA/solari-reflex`](https://github.com/hitakshiA/solari-reflex)**
+   (MIT, TypeScript, 0★, created 2026-09-18T15:24Z). Computer-use
+   **speed layer** on Solari (browser + Linux desktop): **one
+   structured observation → one typed decision → one verified
+   action**. **No screenshots in the loop.** Observation is
+   numbered controls / a11y tree / visible text (Calc: used visible
+   rows, never 2³¹ cells). Decision: which operation, which target
+   (speculative, same request), done/blocked. Write: a small model
+   only for TYPE as strict JSON. Act: guard check, refuse covered
+   controls, pipeline input; model output **never** becomes a
+   selector, coordinate, or script. Deny lists are **absent from the
+   question**, not merely disfavoured. Sibling of
+   `browser-use/jev-ultrafast` / jev-use / typesafe-computer-use.
+   Pattern: **perception → decision → act** with Harbor-style
+   measurement (score the task; independently checked by the app /
+   Stripe API / answer key).
+
+   **Evidence (README + [solari-fast-showcase](https://github.com/hitakshiA/solari-fast-showcase);
+   vs Codex CLI GPT-6 Astra on the same Solari machines; not re-run).**
+   Stripe Checkout (qty 2, promo, card): **60.2 s**, $0.011 vs
+   **194.9 s**, 34 tool calls. Six different Stripe checkouts:
+   **66 s**, $0.064 vs **460 s**, 86 tool calls. 30 Calc expenses:
+   **24.2 s**, $0.0008 vs **98.4 s**, 77 tool calls. Ratios on that
+   table sit in ~3–7×. Their step table: decide ~400 ms / ~$0.0001;
+   TYPE write ~600 ms. **0.6** is *their* Advisor handoff, not a
+   universal threshold. Do not copy npm git-install. Cards:
+   `mixed-architecture.md`; `validation.md`; `applied-mappings.md` §2;
+   `agent-self-assessment.md`.
+
+5. **[`ktaletsk/jevframe`](https://github.com/ktaletsk/jevframe)**
+   (MIT, Python 3.10+, PyPI `jevframe`, pandas **and** Polars,
+   created 2026-09-18T17:06Z, 0★). `.jev` accessor: `noul` / `choice`
+   / `score` / `evaluate` with **full probability columns** (`p__…`),
+   preserved row order/indexes, one input row per request, questions
+   about a row share the request, default `max_concurrency` 16.
+   **No result is thresholded or silently renormalized.** `score` is
+   the expected zero-based level, not a probability. Sibling of
+   [`yalindogusahin/jevpandas`](https://github.com/yalindogusahin/jevpandas)
+   (`notes.md` §46): both are dataframe-native semantic columns;
+   jevpandas is the store-as-index cousin (`evaluate`/`filter`/
+   `classify`/`score`); jevframe is the accessor + Polars + packed
+   struct layout. Neither is SQL `jev()`. Pattern: **dataframe-native
+   semantic columns** (class, not vendor). v0: no chat, no generated
+   records, no custom dtypes. Do not copy the client. Cards:
+   `mappings.md` §4; `mixed-architecture.md` gallery.
+
+### MED (pointers, not cards of their own)
+
+6. **[`de-niji/jev-hermes`](https://github.com/de-niji/jev-hermes)**
+   (MIT, Python, 0★). Intent **gate before a Hermes turn**:
+   `calendar` / `mail` / `status` → config + flat tools, **no memory
+   search spam that turn**; `complex` / people / prefs / "what did
+   we…" → memory + normal agent. Memory providers still **write** in
+   the background. Token savings come from skipping long tool/memory
+   *tours*, **not from turning memory off**. Pattern: **route ≠
+   memory**; S1 gate preserves S2+memory for hard routes. OpenRouter
+   `POST /api/alpha/decisions` (same surface as jev-decision-layer).
+   Do not copy `docker cp`. Cards: `applied-mappings.md` §5;
+   `mixed-architecture.md` dual orchestration.
+
+7. **[`ngallodev-software/agent-workflow-typesafe-ai`](https://github.com/ngallodev-software/agent-workflow-typesafe-ai)**
+   (Apache-2.0, Python, 0★). Advisory-only host plugin. Projects
+   bounded redacted evidence into typed questions; normalizes answers
+   into versioned secret-free **semantic receipts**. **Never changes
+   host routing**, executor, model policy, lifecycle, evaluation,
+   review, or acceptance. Missing credentials / SDK / uncertain
+   answers / failures → distinct `no_action` outcomes. Pattern:
+   **soft sidecar receipts** (fail-open evidence). Complementary to
+   Abide (Abide is in-session Score on a diff; this is advisory
+   metadata the host may ignore). Do not copy the TOML.
+
+8. **[`Joymfl/dag-jev`](https://github.com/Joymfl/dag-jev)**
+   (Rust + petgraph; README empty this pass; 0★; created
+   2026-09-18T20:42Z). GitHub description: DAG from unordered items
+   via Jev. Source: pairwise "does task i depend on j?" over a bag
+   of numbered steps (reads/writes in `input.txt`); answers intended
+   to build a `petgraph`. Experiment; graph wiring incomplete in
+   `main.rs` this pass; **no metrics**. Pattern: **structure
+   induction over bags** — code owns the DAG; the model only answers
+   pairwise (or Choice) dependency questions. Do not clone the
+   request builder. Cards: `mappings.md` §9 / §5.
+
+9. **[`knowlet/jev-agentworld-web-simulator`](https://github.com/knowlet/jev-agentworld-web-simulator)**
+   (MIT, TypeScript, 0★). Fictional web: Jev Choice for **search
+   intent** and (same request) **layout / palette**; an
+   OpenAI-compatible generator writes `SearchDocument` /
+   `PageDocument`; Zod validates; a **deterministic** compiler emits
+   json-render spec; SQLite is the world. Model cannot add
+   components or handlers. Mock mode does **not** silent-fallback
+   to live. Pattern: **decision for control, generator for content**
+   in a simulated world. Live smoke (when run) is an integration
+   test (budget **3 Jev + 3 generator**), **not** calibration or
+   world-consistency. Offline CI: 27 unit/contract + 2 Chromium
+   browse tests; [CI #2](https://github.com/knowlet/jev-agentworld-web-simulator/actions/runs/35391369860)
+   on `b1dd6d7` passed. Do not copy `.env`. Cards:
+   `mixed-architecture.md`.
+
+10. **[`ufx7/jev-testbench`](https://github.com/ufx7/jev-testbench)**
+    (LICENSE absent this pass; TypeScript; 0★). Two tools: black-box
+    **determinism / latency / context / concurrency** (`src/bench/`);
+    collaboration harness (`src/collab/`) with three arms —
+    `llm_autonomous` (unconstrained; illegal actions tracked),
+    `scripted_plus_jev` (code enumerates legal actions; Choice
+    picks; **no LLM**), `llm_plus_jev` (LLM proposes; Choice
+    arbitrates on the legal set; low p escalates then **stops**
+    rather than guessing). **Jev is not a peer arm.** Reports
+    Wilson intervals, exact McNemar per level (p < 0.05 **and** ≥5
+    discordant pairs), ceiling-effect flags, cost/latency **per
+    model**. Pattern: bake this into the jevals/Harbor **measurement
+    curriculum**, not a second product. Grid-task demo uses a mock
+    LLM to prove the harness; swap before trusting a real model.
+    Cards: `validation.md`.
+
+11. **[`alexykn/jevscan`](https://github.com/alexykn/jevscan)**
+    (MIT, Python 3.12+, `0.2.0rc4`, 0★). Tree-sitter extracts
+    lexical units (Python/Rust/Perl/TS/JS); typed questions on
+    those targets; **does not execute or import the scanned code**.
+    Release candidate: **not a claim of calibrated semantic
+    accuracy.** Pattern: **structural AST + semantic judgment
+    compose** (sibling of riff / JevLint / Abide). `tenbin` still
+    owns the lint *skill*; this is a recipe of AST∩remainder, not
+    a second Augustus skill. Do not copy YAML. Cards:
+    `toolbox-mapping.md` spec/lint; `mixed-architecture.md`.
+
+12. **[`phin-tech/pi-jev-approver`](https://github.com/phin-tech/pi-jev-approver)**
+    (LICENSE present this pass; TypeScript; 0★). Pi **shell safety
+    gate**. Facts (git branch, path scope, registry-publish regex)
+    computed in code; typed Score `risk_level` + Nouls + Choice
+    `primary_concern` on the remainder. `commandRules` regex
+    **short-circuits** allow/deny — a `deny` rule is a hard block
+    no LLM or human prompt can overturn. **No key → fail closed.**
+    Optional LLM escalation can only reduce how often you are
+    asked, never replace the human as last resort. Author
+    side-by-side (their `jev-test` project): classification
+    **~500 ms** vs **~2.5–3.5 s** chat-model. Live-tested: `aws s3
+    rm` 1.72/2, `ec2 terminate-instances` 1.80/2 in the ask band;
+    read verbs matching `action: allow` never called the model.
+    **Light note only** — rh-guard-adjacent (coding-agent tool
+    gate), different remainder from jevgate (unlisted verbs) and
+    Abide (soft project rules). Do not copy the Pi install.
+
+13. **[`Mattepiu/laya-onnx`](https://huggingface.co/Mattepiu/laya-onnx)**
+    (Apache-2.0 ONNX export of [`convaiinnovations/laya`](https://huggingface.co/convaiinnovations/laya);
+    Hub likes **1** this pass; updated 2026-09-18T10:45Z). Open
+    **replica deployment path**: non-autoregressive marker-token
+    head in onnxruntime. Card example: **~15 ms on CPU** for one
+    Noul. **Do not copy the inherited vs-Jev accuracy table** —
+    those rows remain vendor claims (`notes.md` §18,
+    `judgment-class.md`). Pattern: ONNX/runtime port of a trained
+    decision-only head, beside Laya native and kev Hub. Not Archer.
+
+### Spotcheck (not a fold)
+
+- **[`TheoLeeCJ/SemIf`](https://github.com/TheoLeeCJ/SemIf):** **1551★**
+  this pass (2026-09-18T20:51Z). Watch cited awesome claim **1491**
+  → **+60**. Independent; not affiliated with Jev/TypeSafe.
+- **[`vinnylarouge/jevlike`](https://github.com/vinnylarouge/jevlike):**
+  **866★** this pass.
+- **Awesomejev 488 / 21644:** watch cited "unchanged." This pass did
+  **not** independently re-derive 488/21644.
+  [awesomejev.com](https://awesomejev.com/) still showed **410
+  entries / 10,093 stars** (refreshed 2026-09-17) in the public
+  snapshot fetched here. Do not invent a new count.
+- **Tracker** [`multimodalart/jev-reproductions-tracker`](https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker):
+  Hub `lastModified` **2026-09-18T20:12:57Z**. Space `models[]`
+  still lists **`convaiinnovations/laya`**. **`BlackwoodAI/blackwood-rlcd`
+  is not in that array.** Archer remains a *promised* trained-head
+  card. Omni decide that shipped (blackwood) is still off the
+  tracker this pass.
+
+Cards: `judgment-class.md`; `validation.md`; `applied-mappings.md`
+§2 / §5; `mappings.md` §4 / §9; `mixed-architecture.md`; `faq.md`;
+`mental-models.md`; `methods-catalog.md`; `toolbox-mapping.md`;
+`agent-self-assessment.md`. No wrapper.

@@ -123,7 +123,11 @@ brittleness; compose with abstention and an allowlist gate
 is **WATCH** until weights, license, and evals exist (`notes.md` §31,
 §33). Open multimodal *decide* that already shipped:
 [blackwood-rlcd](https://huggingface.co/BlackwoodAI/blackwood-rlcd)
-(CC BY-NC; not that drop; `notes.md` §46). Constrained decoding is §32; native serving is §42. Decision-token QLoRA on that graph:
+(CC BY-NC; not that drop; `notes.md` §46). A local `POST /v1/systemone`
+drop-in ([jev-local](https://github.com/us/jev-local)) is a **surface**,
+not a fourth path — default scorer is a stub until `hf` (`notes.md` §48).
+Laya ONNX port: [laya-onnx](https://huggingface.co/Mattepiu/laya-onnx)
+(do not copy the inherited vs-Jev table). Constrained decoding is §32; native serving is §42. Decision-token QLoRA on that graph:
 [Foodoo1/Qwen3-14B-RLCD-Decision-LoRA](https://huggingface.co/Foodoo1/Qwen3-14B-RLCD-Decision-LoRA)
 (train the decision token, not prose; synthetic fraud receipt). Public logit dump for the
 read-the-letter graph: mini-jev-runs. "Smarter than Jev" is a claim.
@@ -371,6 +375,37 @@ code. Jev still leads general *text* (0.850 vs 0.786 on their 8,456-item
 table). Specialist composition (SAM / OCR → text → Jev) remains valid.
 Do not wait, and do not treat screenshot-vs-Jev-text as the same input.
 `judgment-class.md`; `notes.md` §46.
+
+## Is a local `/v1/systemone` the same as Jev?
+
+No — not until you know **which scorer** is behind the socket.
+[jev-local](https://github.com/us/jev-local) is a **contract-compatible**
+drop-in (`base_url`). The **default scorer is a deterministic stub**
+and carries no intelligence. `JEVLOCAL_SCORER=hf` turns on a frozen-model
+logprob scorer. Their README: an interface-compatible baseline, not a
+reproduction of Jev's undisclosed model. kev is the other local
+drop-in (trained pointer head, public gold). A green smoke test on the
+stub is not a bake-off. `judgment-class.md`; `notes.md` §48.
+
+## Should the model write the quote / the citation / the click?
+
+No. Extractive keep/drop: code already holds the sentences, line ids,
+or numbered controls; the model **selects**; code **copies or clicks**.
+[testimonial-miner](https://github.com/AppitStudio/testimonial-miner)
+assembles quotes from per-sentence Nouls and `redecide`s without new
+calls. [jev-reviewer](https://github.com/choxos/jev-reviewer) points at
+ids; *not found* is an answer. [solari-reflex](https://github.com/hitakshiA/solari-reflex)
+never lets model output become a selector. Generation is only for
+TYPE/prose when something must be written. `applied-mappings.md` §2;
+`notes.md` §48.
+
+## Is routing the same as memory?
+
+No. A cheap intent gate can skip a memory/tool *tour* on
+`calendar` / `mail` / `status` without turning memory off.
+[jev-hermes](https://github.com/de-niji/jev-hermes): memory still
+**writes**; `complex` still searches. Route ≠ memory.
+`applied-mappings.md` §5; `notes.md` §48.
 
 ## Is confidence a trained score?
 
