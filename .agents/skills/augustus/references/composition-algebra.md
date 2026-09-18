@@ -1,0 +1,104 @@
+# Composition algebra: where Jev sits relative to any method, operator, or algorithm
+
+The catalog substitutes Jev *into* constructs. This card enumerates the
+**positions** a Jev judgment can occupy relative to any function/operator/
+algorithm F — the full grammar of "Jev as X". Same rule as everywhere else:
+the position determines what the judgment may be trusted for, and each
+carries its governing caveat. Statuses per mappings.md conventions.
+
+## The positions
+
+| # | Position | Form | Launch-week example | Governing rule | Status |
+|---|---|---|---|---|---|
+| 1 | **Operand** | F(Jev(...)) — judgment's number feeds the function | Nouls as CatBoost features; Score as PUCT leaf value | It's a calibrated belief in your rubric's units, not a natural quantity; version feature/question defs with the consumer | **Empirical recipe** |
+| 2 | **Post-judge** | F(x) → Jev judges the result | Output judge (leaks_secret, failure_class); citation check on generated text | Only the post-judge sees what the call printed; the pre-gate cannot | **Empirical recipe** |
+| 3 | **Gate** | if Jev(x): apply F — Jev decides *whether* F runs, or whether F's result is admitted | Pre-action gates (destructive .90/exfil .70); winnow context sieve | A gate is a filter, not authorization — validate operation+target in code; every error path fails open | **Empirical recipe** |
+| 4 | **Selector (of F or its parameters)** | Jev picks which F runs: Choice over functions/models/effort levels | jev-router (cheapest model), jev-codex-router (model+effort), DiffJury review_depth | Dispatch stays in code; per-option consequences are your cost model; confidence-gate the selection | **Empirical recipe** |
+| 5 | **Comparator** | Replace a semantic comparator inside sort/rank: "more relevant / more severe" as a key | Rerank; skillranker; order statistics over semantic keys | Comparability needs a shared rubric; measure recall separately from rerank quality | **Empirical recipe** |
+| 6 | **Prior / initializer** | Jev distribution seeds a deterministic method that refines it | MCTS PUCT priors; beam-search branch priority | It's a heuristic prior, not a posterior; refine with real observations | **Empirical recipe** |
+| 7 | **State estimator, F = controller** | Jev estimates named probabilities; deterministic policy with hysteresis acts | foreman (progress/stuck/complete → continue/stop/retry/verify) | The model never commands; interventions enumerated in code | **Empirical recipe** |
+| 8 | **Metric / loss** | Jev as the judge inside an optimizer loop (GEPA, DSPy teleprompters) | Judge-variance recipe before trusting any optimizer metric | Optimizer metrics must be repeatable; Jev judge spread 224–279× lower than GPT judge — still verify on your data | **Empirical recipe** |
+| 9 | **Verifier / constraint source** | Jev judges spec-conformance: property holds/violated/unverifiable | pi-warden (violated rule named back into context); citation checks | Verdicts are evidence, not enforcement; the checker enumerates requirements in code | **Empirical recipe** |
+| 10 | **Discretizer / encoder** | Unstructured state → typed values downstream code requires (enum, level, boolean) | jev-browser element selection; pre-parsed value extraction | Jev selects from candidates you produce; it never generates | **Empirical recipe** |
+| 11 | **Bounds / budget holder** | Jev decides how far to continue (early stop, keep-looking) | Early-stop noul ≥0.85 (mcts-agent); winnow hide threshold | Termination conditions stay conservative and code-owned | **Empirical recipe** |
+
+## Logical operators over Jev outputs
+
+- **¬**: `p(¬φ) = 1 − p(φ)` — valid, it's a probability. But ask the
+  question in the form you'll branch on; double negatives in the *question
+  text* cost accuracy (jaggedness).
+- **∧ / ∨ over parallel nouls**: do NOT multiply — same-state answers are
+  not independent. Either ask the compound question directly (one question,
+  one distribution) or combine in code with an explicit, labeled policy.
+- **∀ over a candidate set**: batch one Noul per item in ONE request
+  (parallel, cheap), then aggregate in code (min = AND, max = ∃) with an
+  explicit escalation rule — the quantifier's aggregation policy is code,
+  never the model.
+- **→ (implication) / chains**: decompose into gate → act → post-judge;
+  never encode multi-hop logic in one question (indirection costs accuracy).
+
+## Rules that hold across every position
+
+1. **Width is cheap, depth is linear** — batch everything that shares a
+   state; add a second call only when next options depend on an earlier
+   answer. The composition grammar is where the dependency tree gets
+   decided: positions 1, 3, 4, 10 fan out; positions 2, 5, 7 usually
+   depend on an executed state and must wait.
+2. **Estimate ≠ measure**: in every position, a Jev output is an estimate
+   over the state as given. Anything irreversible concedes only to a
+   post-execution probe (position 2), never to a Jev estimate in any other
+   position.
+3. **Calibration is positional**: thresholds are per-position and
+   per-action (gate thresholds ≠ judge thresholds ≠ hide thresholds).
+   Tune each on split A, report on split B.
+4. **The oracle has no side effects.** Whatever the position, Jev never
+   performs the action — F does. If removing Jev would change what the
+   system is allowed to do, the design is wrong.
+
+## The application generator (traversal, not brainstorming)
+
+Novel applications come from crossing the two axes instead of free-
+associating: **positions (1–11 above) × constructs (the toolbox/methods
+catalog)**. Each cell asks one question — "what does it mean for F and a
+Jev judgment to stand in THIS position?" — and the economics inversion
+filters the results.
+
+Traversal procedure:
+
+1. **Pick a construct** whose math you actually know (a specific operator,
+   theorem, algorithm, or a workflow step from a domain you know).
+2. **Walk the positions** (1→11), asking for each: is there a judgment-
+   shaped hole at this position? Most are trivially no; a few will light up.
+3. **For each lit cell, apply the economics inversion**: was this step
+   previously impossible because a judgment cost seconds and cents? If yes
+   → newly-feasible candidate (high yield). If it replaces an LLM call or
+   hand rule → marginal. If it violates a governing rule → record as
+   rejected, move on.
+4. **Name the caveat that governs the position** (from the table) and make
+   it a code-level check. No nameable caveat = metaphor.
+5. **Falsify**: labeled cases, split A/B, judge-variance if a judge is in
+   the loop, behavioral perturbations. A candidate that survives becomes a
+   row in the methods catalog with a status.
+
+Why this generates rather than brainstorms: brainstorming samples the
+("domain × idea") space through whatever the model associates; the
+traversal enumerates the actual product space — ~11 positions per known
+construct — and every cell is checkable against a boundary. The creativity
+lives in knowing more constructs (math, algorithms, domain workflows),
+not in prompting harder. The limit is your toolbox inventory, which is
+exactly why knowing CatBoost, Bayes, Neyman–Pearson, or foreman's
+supervision pattern is the resource: each known construct × the grammar
+generates its candidate list mechanically.
+
+Escalation rule stands: a candidate becomes a mappings.md card only with
+an acceptance test that ran.
+
+## Open positions (candidates, not yet evidenced)
+
+- **Jev as reward shaper inside RL** — needs observed rewards; current
+  evidence only supports Jev-as-feature for reward MODELING. Hypothesis.
+- **Jev as grammar/sampling constraint provider** (which productions are
+  semantically valid next) — inverse of its selection role; untested.
+- **Jev as spec-inference**: deriving the criteria set itself from labeled
+  failures (optimizer-coupled criteria search). Untested; the honest
+  current claim is "criteria are designed, not yet learned."

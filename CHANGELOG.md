@@ -48,3 +48,9 @@
 - references/methods-catalog.md: ~20 named algorithms (CatBoost row is
   Empirical via autoresearch cookbook) + operators/theorems tier with
   precondition-carrying rule; wired into SKILL.md index and toolbox sweep.
+
+## 2026-09-18 (pass 7 — composition algebra as application generator)
+- references/composition-algebra.md: 11-position grammar of Jev-vs-construct
+  relations, logical-operator combination rules, and the position×construct
+  traversal as the systematic application generator; wired into SKILL.md
+  index + toolbox sweep.

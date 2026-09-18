@@ -100,6 +100,14 @@ versioned rubric; using calibration to certify an individual answer
    behavioral perturbation tests. A use-case passes when its falsifying
    experiment fails to reject it.
 
+## The second generator: the composition algebra
+(`references/composition-algebra.md`) crosses positions (operand, gate,
+post-judge, selector, comparator, prior, estimator/controller, metric,
+verifier, discretizer, terminator) × known constructs — each cell checkable
+against a governing rule, filtered by the economics inversion, falsified
+before promotion. Use it with the sweep: the sweep asks "is there a
+judgment-shaped hole?"; the algebra asks "where could one sit?"
+
 ## Escalation for very new problem shapes
 
 When the shape doesn't match any worked mapping (e.g. a 10k-candidate

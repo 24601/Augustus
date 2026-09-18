@@ -230,3 +230,15 @@ rejected), and non-substitutable constructs (arithmetic, gradients, CLT-on-
 outputs, metric-space claims on Scores). Governing rule: every theorem's
 preconditions become code-level checks; no named precondition = metaphor,
 not mapping.
+
+## 12. Composition algebra + application generator (2026-09-18)
+New references/composition-algebra.md: 11 positions Jev can occupy relative
+to any function/operator/algorithm (operand, post-judge, gate, selector,
+comparator, prior, state-estimator/controller, optimizer metric, verifier,
+discretizer, terminator) with per-position governing rules; logical
+operators over Jev outputs (NOT multiplication for AND — ask the compound
+question; ∀/∃ as batched-noul + code aggregation); cross-position invariants
+(width-cheap/depth-linear, estimate≠measure, positional thresholds, oracle-
+without-side-effects). The application generator = positions × constructs
+traversal + economics inversion as the filter, replacing brainstorming;
+a candidate is promoted only after falsification.
