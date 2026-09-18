@@ -6,6 +6,11 @@ refreshes diff against a known baseline instead of re-discovering the world.
 - `sources.json` — every source pulled, with type + retrieval date + note.
 - `notes.md` — distilled findings (contracts, recipes, ecosystem, gaps).
 - `refresh-log.md` — dated log of each refresh pass and what changed.
+- `archive/hourly/YYYY-MM-DDTHH/` — raw scan dumps for that UTC hour
+  (X theme digest + `topic:jev` JSON when a live scan lands).
+- `archive/curriculum/` — attached research briefs folded into the skill
+  (formal-methods × System One, mental-models across domains, source
+  list). Provenance; the skill cards are the doctrine.
 
 Method (2026-09-18, UTC): built-in web search + direct docs reads
 (docs.typesafe.ai via llms.txt, GitHub READMEs, launch coverage, X posts via
@@ -23,3 +28,7 @@ Method fix (2026-09-18): the first census sorted `gh search repos` by stars
 with --limit 40, which silently cut the 1-star tail — including two MCTS+Jev
 implementations with "jev" in the name. Rule going forward: paginate all
 result pages, sort by updated/created, never by stars alone.
+
+Hourly dumps (2026-09-18T14): when a live X+GH scan is provided, archive it
+verbatim under `archive/hourly/` before distilling into notes.md. Do not
+treat X ECE/latency claims as Contract until reproduced.

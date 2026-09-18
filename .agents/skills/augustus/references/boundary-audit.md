@@ -1,9 +1,11 @@
-# Boundary audit: inserting judgment into existing software
+# Boundary audit: inserting judgment into an existing practice
 
-When the request is a codebase, PR, or running workflow — not a greenfield
-design — hunt for judgment-shaped holes that are already being filled badly.
-Do not start by wrapping the API. Prefer the smallest insertion that lets
-code own the rest.
+When the request is a codebase, PR, running workflow, *or a non-software
+practice* (inbox, hiring loop, reading list, incident command) — not a
+greenfield design — hunt for judgment-shaped holes that are already
+being filled badly. Do not start by wrapping an API. Prefer the smallest
+insertion that lets policy own the rest. Cross-domain frames:
+`mental-models.md`.
 
 This card is an **operational recipe** (Hypothesis as a procedure). Each
 insertion still earns its own Contract / Empirical recipe / Hypothesis
@@ -13,15 +15,18 @@ status on a decision-design card.
 
 At each workflow step, classify before proposing Jev:
 
-- **Exact** → code: arithmetic, dates, lookups, authorization, schema
-  validation, cryptography, known transforms, parsers that already work.
-- **Bounded semantic judgment** → Jev candidate (fit test below).
-- **Open-ended generation** → an LLM: writing, explanation, code
-  generation, long-form synthesis, open-ended research. Jev may gate,
-  route, or verify *around* that call; it does not generate.
+- **Exact** → code *or policy*: arithmetic, dates, lookups, authorization,
+  schema validation, cryptography, known transforms, parsers that already
+  work, ledgers, law, recipes, two-person rules, thermometers, credit
+  limits. Policy is the code of a practice that has no repository.
+- **Bounded semantic judgment** → Jev-class candidate (fit test below).
+- **Open-ended generation** → an LLM or a person writing: explanation,
+  code generation, long-form synthesis, open-ended research. A
+  judgment-class model may gate, route, or verify *around* that call;
+  it does not generate.
 
-Do not use Jev by default. A regex or lookup that already solves the
-problem stays.
+Do not use a judgment model by default. A regex, lookup, checklist, or
+recipe that already solves the problem stays.
 
 ## Symptoms (look here first)
 
@@ -34,6 +39,11 @@ Insertion points often look like:
 - an expensive reasoning model used for a trivial classification
 - the same semantic classifier duplicated across handlers
 - humans reviewing obvious cases because the machine has no abstain path
+- a weekly LLM summary of "how the project feels" instead of per-item
+  instrumentation (rejected opposite of NATM)
+- a hiring / bid / paper Score that hides vetoes in one "how good"
+- a safety case that is a confidence number
+- judged at t0, acted at t1, no re-probe (TOCTOU-of-Noul)
 
 The shape of a real hole:
 
@@ -115,7 +125,8 @@ falsifying experiment fails to reject it; then enforce.
 
 ## Around a generative model
 
-Jev is often the control layer around an LLM, not a replacement:
+Jev is often the control layer around an LLM, not a replacement
+(`references/mixed-architecture.md` is the full placement card):
 
 - input → guardrail Nouls → LLM → citation/quality verification → code
   decides whether to return
@@ -153,6 +164,54 @@ Stop and redesign when you see:
 - Noul 0.5 read as "medium"
 - typed output described as hallucination-proof
 - SDK fields written from memory instead of live docs
+- a Noul used as a proof, model-check, or DST property
+- TOCTOU-of-Noul: judged at t0, acted at t1, no re-probe
+  (`formal-methods.md` §5) — includes credit-then-wire, "looks done"
+  then serve, "spec looks good" then merge
+- vacuous / tautological spec (Hillel vibing specs) plus "the model said
+  it looks good"; MCP "ran the checker" on a tautology (receipt theater)
+- Apalache random-exec or Quint `run` cited as unbounded safety
+- PufferLib Ocean scores as a comparative capability claim
+- Alloy vs Apalache collapsed into "we model-checked it"
+- Resonate HQ confused with an unrelated "Resonate AI" brand; a done-Noul settling a promise
+- independence fiction (multiplying Nouls) or Score unit fiction
+- Web-scale τ copied onto a situated N=30 loop (Shirky)
+- silent base-code edits to satisfy Dafny/Lean
+
+### TOCTOU-of-Noul (stop condition)
+
+The check was never atomic because it was never a check. If the
+insertion authorizes an irreversible act from a Noul taken before the
+world can have moved, redesign: interlock in code/policy; re-probe;
+treat t0 as advisory routing. Fail-closed authorize cannot be a stale
+Noul. Same shape in inbox, hiring, kitchen, and incident command as in
+agents.
+
+### Vacuous spec (stop condition)
+
+If the property is a restatement of a definition (`canImport = P ∨ Q`
+then "prove" `¬P ∧ ¬Q ⇒ ¬canImport`), the checker passing is not a
+result. Do not add a Noul "does this spec look good?" on top. Demand a
+subtle property (concurrency, liveness, multi-step) and a run of the
+real tool (`formal-methods.md` §5 AI×FM). Cauli: a model that
+typechecks is not a validated model.
+
+### Harmful-uses checklist
+
+Copy into the insertion's PR/decision card (`formal-methods.md` §5):
+
+- [ ] Probabilistic gate on an irreversible act without a hard interlock?
+- [ ] "Verified" only of a model the team has not broken?
+- [ ] Properties strong, or tautological?
+- [ ] Choice/Score rubrics versioned with the consumer?
+- [ ] Abstention defined per-action with costs?
+- [ ] CEX/triage stored as evidence, not enforcement?
+- [ ] Alloy vs Apalache vs TLC named correctly?
+- [ ] Resonate protocol settlement vs agent "done" Noul separated?
+- [ ] Antithesis properties as harness asserts, not chat opinions?
+- [ ] Speculative MCTS/RL depth capped without a real simulator?
+- [ ] Sequence diagram of check-then-act missing an atomicity note?
+- [ ] Silent code edits to make Dafny/Lean pass?
 
 ## Completion
 

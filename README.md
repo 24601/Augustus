@@ -6,25 +6,57 @@
 [![Skills.sh](https://img.shields.io/badge/skills.sh-compatible-green.svg)](https://www.skills.sh/)
 
 **Augustus** — named for Augustus De Morgan (1806–1871), mentor and professor
-of William Stanley Jevons — is an agent skill for designing judgment-assisted
-systems with [TypeSafe](https://docs.typesafe.ai/) Jev System One models. Code
-stays in control; Jev supplies narrow, typed semantic judgments (Choice,
-Score, Noul) that software can act on directly.
+of William Stanley Jevons — is an agent skill for **placing typed
+probabilistic judgment** (the Jev-class of System One models) using
+mathematical, logical, and algorithmic mental models. It applies across
+**AI, software, business, knowledge work, and life** — not only SWE.
+[TypeSafe](https://docs.typesafe.ai/) Jev is the documented exemplar
+(Choice, Score, Noul), not the monopoly. Formal methods are one pillar.
+Exact work stays in code or policy; the model owns narrow judgment;
+never launder a Noul as a proof.
 
 > Companion, not replacement, to the official
 > [`typesafe-ai` skill](https://github.com/typesafe-ai/skills). That skill
-> owns integration contracts; Augustus owns the **design judgment**: which
-> classical methods map onto Jev primitives, what breaks in translation, and
-> what experiment would prove a design wrong.
+> owns Jev integration contracts; Augustus owns the **design judgment**:
+> which *pillar*, *family*, and classical method map, what the objective
+> implies for fail-open vs fail-closed, and what experiment would prove a
+> design wrong. Not a TypeSafe-only how-to.
 
 ## The skill
 
 - `.agents/skills/augustus/SKILL.md` — working protocol + decision-design card
-- `.agents/skills/augustus/references/mappings.md` — 5 classical-method
-  mappings with boundaries, counterexamples, acceptance tests
+- `.agents/skills/augustus/references/mental-models.md` — cross-domain
+  frames (EU, abstention, VOI, MCDA, SDT, search/control, Leveson,
+  NATM/snap-fit/Norman); not SWE-only
+- `.agents/skills/augustus/references/judgment-class.md` — the class (Jev
+  exemplar, not monopoly): open heads (Laya, encoder DeBERTa, LoRA
+  distill), constrained-AR (TypeAR, pcdServer), announced decision-model (Watch),
+  GLiNER/GLiClass species (locate vs categorize vs local multi-head),
+  listwise vs decision objectives, vision scoring, when-to-use axes,
+  agent-architecture portents
+- `.agents/skills/augustus/references/formal-methods.md` — judgment vs
+  proof ownership; Alloy Analyzer vs Apalache (finder ≠ BMC ≠
+  inductiveness); TLA+/Quint/P/NuSMV/PRISM/Event-B/mCRL2/KeYmaera;
+  Dafny/JML/Frama-C/SPARK/ITP; DST trio (Antithesis hypervisor, Resonate
+  HQ durable-async Lean+oracle+SDK, PufferLib env+seed); TOCTOU-of-Noul,
+  soundness theater, AI×FM harms (Hillel, Cauli); NATM/snap-fit/Norman/
+  Leveson/Kent/Shirky
+- `.agents/skills/augustus/references/formal-semi-formal.md` — one-screen
+  alias of the FM pillar
+- `.agents/skills/augustus/references/mixed-architecture.md` — default
+  placement: judgment-class model + LLM + code; preference lint; provider
+  (Jev default / other family with self-eval)
+- `.agents/skills/augustus/references/applied-mappings.md` — context sieve,
+  exact-text keep/drop, env triage, moderation/ranking, skill routing
+- `.agents/skills/augustus/references/faq.md` — "just classification",
+  stack replacement, Jev vs open head vs encoder vs LoRA vs constrained AR,
+  GLiNER vs GLiClass vs CLIP, LLM-as-judge, not-another-how-to
+- `.agents/skills/augustus/references/mappings.md` — classical-method
+  mappings with boundaries, counterexamples, acceptance tests (including
+  Hypothesis cards §6–§19 — promote only with a test that ran)
 - `.agents/skills/augustus/references/validation.md` — design gate, eval
   recipes, Jev-for-skills (routing, self-monitoring, testing, modularity,
-  frontmatter)
+  frontmatter), and Eval & hill-climb (jevals hygiene + Harbor taskset)
 - `.agents/skills/augustus/references/boundary-audit.md` — existing-system
   insertion: fit test, opportunity map, smallest boundary, red flags
 - `.agents/skills/augustus/scripts/evaluate_decisions.py` — offline evaluator
@@ -59,12 +91,17 @@ GPT's instructions or a Project's knowledge and it will follow the protocol.
 `jev` `typesafe` `typesafe-ai` `system-one` `system-one-models`
 `structured-output` `calibrated-confidence` `ai-agents` `agent-skills`
 `decision-systems` `reranking` `beam-search` `claude-code` `python` `llm`
-`decision-theory` `semantic-search` `agent-workflows`
+`decision-theory` `semantic-search` `agent-workflows` `mixed-architecture`
+`tool-routing` `skill-routing` `semantic-lint` `classification` `gliclass`
+`listwise-ranking` `vision-scoring` `open-weights` `formal-methods`
+`model-checking` `deterministic-simulation` `decision-theory`
+`value-of-information` `signal-detection` `mcda` `calibration`
+`alloy` `apalache` `pufferlib` `stamp-stpa`
 
 ## Versioning
 
 See [CHANGELOG.md](CHANGELOG.md) and
-[releases](https://github.com/24601/Augustus/releases). Current: **0.2.0**,
+[releases](https://github.com/24601/Augustus/releases). Current: **0.3.0**,
 written against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skills/tree/v0.5.7)
 (`65a39f3`). Re-read live TypeSafe docs before treating that pin as current
 API behavior.

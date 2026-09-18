@@ -1,10 +1,14 @@
-# Composition algebra: where Jev sits relative to any method, operator, or algorithm
+# Composition algebra: where a judgment-class model sits relative to any method, operator, or algorithm
 
-The catalog substitutes Jev *into* constructs. This card enumerates the
-**positions** a Jev judgment can occupy relative to any function/operator/
-algorithm F — the full grammar of "Jev as X". Same rule as everywhere else:
-the position determines what the judgment may be trusted for, and each
-carries its governing caveat. Statuses per mappings.md conventions.
+The catalog substitutes a judgment-class model *into* constructs (Jev is
+the notation because it is the documented exemplar). This card enumerates
+the **positions** a typed judgment can occupy relative to any
+function/operator/algorithm F — the full grammar of "judgment as X". Same
+rule as everywhere else: the position determines what the judgment may be
+trusted for, and each carries its governing caveat. Family choice (decision
+API vs listwise ranker vs vision scorer) is `judgment-class.md` — a listwise
+number in a verifier position is the rejected design. Statuses per
+mappings.md conventions.
 
 ## The positions
 
@@ -12,13 +16,13 @@ carries its governing caveat. Statuses per mappings.md conventions.
 |---|---|---|---|---|---|
 | 1 | **Operand** | F(Jev(...)) — judgment's number feeds the function | Nouls as CatBoost features; Score as PUCT leaf value | It's a calibrated belief in your rubric's units, not a natural quantity; version feature/question defs with the consumer | **Empirical recipe** |
 | 2 | **Post-judge** | F(x) → Jev judges the result | Output judge (leaks_secret, failure_class); citation check on generated text | Only the post-judge sees what the call printed; the pre-gate cannot | **Empirical recipe** |
-| 3 | **Gate** | if Jev(x): apply F — Jev decides *whether* F runs, or whether F's result is admitted | Pre-action gates (destructive .90/exfil .70); winnow context sieve | A gate is a filter, not authorization — validate operation+target in code; every error path fails open | **Empirical recipe** |
+| 3 | **Gate** | if Jev(x): apply F — Jev decides *whether* F runs, or whether F's result is admitted | Pre-action gates (destructive .90/exfil .70); winnow context sieve | A gate is a filter, not authorization — validate operation+target in code. Error paths fail **per action**, not always open: an advisory guard fails open *because* a hard interlock or sandbox sits underneath; a gate that selects or authorizes a side effect fails closed (`mixed-architecture.md` prefilter table; `mappings.md` §18) | **Empirical recipe** |
 | 4 | **Selector (of F or its parameters)** | Jev picks which F runs: Choice over functions/models/effort levels | jev-router (cheapest model), jev-codex-router (model+effort), DiffJury review_depth | Dispatch stays in code; per-option consequences are your cost model; confidence-gate the selection | **Empirical recipe** |
 | 5 | **Comparator** | Replace a semantic comparator inside sort/rank: "more relevant / more severe" as a key | Rerank; skillranker; order statistics over semantic keys | Comparability needs a shared rubric; measure recall separately from rerank quality | **Empirical recipe** |
 | 6 | **Prior / initializer** | Jev distribution seeds a deterministic method that refines it | MCTS PUCT priors; beam-search branch priority | It's a heuristic prior, not a posterior; refine with real observations | **Empirical recipe** |
 | 7 | **State estimator, F = controller** | Jev estimates named probabilities; deterministic policy with hysteresis acts | foreman (progress/stuck/complete → continue/stop/retry/verify) | The model never commands; interventions enumerated in code | **Empirical recipe** |
 | 8 | **Metric / loss** | Jev as the judge inside an optimizer loop (GEPA, DSPy teleprompters) | Judge-variance recipe before trusting any optimizer metric | Optimizer metrics must be repeatable; Jev judge spread 224–279× lower than GPT judge — still verify on your data | **Empirical recipe** |
-| 9 | **Verifier / constraint source** | Jev judges spec-conformance: property holds/violated/unverifiable | pi-warden (violated rule named back into context); citation checks | Verdicts are evidence, not enforcement; the checker enumerates requirements in code | **Empirical recipe** |
+| 9 | **Verifier / constraint source** | Jev judges spec-conformance: property holds/violated/unverifiable | pi-warden (violated rule named back into context); citation checks | Verdicts are evidence, not enforcement; the checker enumerates requirements in code. A Noul does not discharge a proof obligation. TOCTOU-of-Noul is not a constraint (`formal-methods.md`) | **Empirical recipe** |
 | 10 | **Discretizer / encoder** | Unstructured state → typed values downstream code requires (enum, level, boolean) | jev-browser element selection; pre-parsed value extraction | Jev selects from candidates you produce; it never generates | **Empirical recipe** |
 | 11 | **Bounds / budget holder** | Jev decides how far to continue (early stop, keep-looking) | Early-stop noul ≥0.85 (mcts-agent); winnow hide threshold | Termination conditions stay conservative and code-owned | **Empirical recipe** |
 
@@ -47,7 +51,8 @@ carries its governing caveat. Statuses per mappings.md conventions.
 2. **Estimate ≠ measure**: in every position, a Jev output is an estimate
    over the state as given. Anything irreversible concedes only to a
    post-execution probe (position 2), never to a Jev estimate in any other
-   position.
+   position. A Noul at t0 that authorizes an act at t1 is TOCTOU-of-Noul,
+   not a discharged obligation.
 3. **Calibration is positional**: thresholds are per-position and
    per-action (gate thresholds ≠ judge thresholds ≠ hide thresholds).
    Tune each on split A, report on split B.
@@ -102,6 +107,17 @@ an acceptance test that ran.
 - **Jev as spec-inference**: deriving the criteria set itself from labeled
   failures (optimizer-coupled criteria search). Untested; the honest
   current claim is "criteria are designed, not yet learned."
+- **Jev as VOI calculator**: numeric EVPI/EVSI from returned
+  distributions. Placement (gather as an act) is the method; the
+  calculator is Hypothesis until act/outcome logs exist (`mappings.md` §6).
+- **Alloy/DST/RV as open product rows**: instance-loop triage, DST
+  multiverse clustering, runtime-assurance sandwich, durable-agent
+  gates inside Resonate steps (`mappings.md` §10–§14). Hypothesis
+  until an acceptance test runs. Do not promote from the curriculum
+  note alone.
+- **Paraphrase stability as a numeric law:** wording-invariant p.
+  Placement (abstain when paraphrases disagree) is `mappings.md` §17;
+  a universal jitter bound is Hypothesis.
 
 ## Verified application families (Empirical, dabit3/jev-experiments + archive corpus)
 
@@ -134,3 +150,15 @@ Reusable shapes when generating applications:
 
 Calibration warning (calibre): routing thresholds and ROI do **not** transfer across
 datasets — every gate is a per-dataset measurement (see validation.md).
+
+10. **Mixed-architecture cascade** (2026-09-18 discourse + topic:jev movers):
+    Jev as gate/selector/verifier *around* a generator, never instead of one.
+    Cost-sensitive prefilter (drop chunks/lines/hunks before the LLM);
+    tool/skill routing (Choice + fits-Noul, code dispatches); preference lint
+    (project-defined rules as criteria). Fail-open vs fail-closed is per
+    action — LlamaIndex Jev rerank fails open (keep retrieval order), select
+    fails closed. Full card: `references/mixed-architecture.md`.
+11. **Structural prove ∩ remainder judge** (jevgate, doc-router): code
+    (allowlist, text layer) decides the easy cases; typed questions only
+    on leftovers; fail-open unless a real sandbox sits under. Full card:
+    `mappings.md` §18.

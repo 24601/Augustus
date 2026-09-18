@@ -1,0 +1,777 @@
+{
+  "window_start": "2026-09-18T13:39:36.224707+00:00",
+  "window_end": "2026-09-18T14:39:36.224707+00:00",
+  "query": "topic:jev",
+  "total_in_window": 34,
+  "repos": [
+    {
+      "full_name": "aaravriyer193/OpenSmoke",
+      "html_url": "https://github.com/aaravriyer193/OpenSmoke",
+      "description": "Find the AI agent runs that broke because their environment did: missing keys, tools, files, permissions, network, or context. Powered by TypeSafe Jev.",
+      "created_at": "2026-09-18T14:38:49Z",
+      "updated_at": "2026-09-18T14:38:59Z",
+      "pushed_at": "2026-09-18T14:38:54Z",
+      "stargazers_count": 0,
+      "topics": [
+        "ai-agents",
+        "jev",
+        "llm",
+        "monitoring",
+        "observability",
+        "typesafe"
+      ],
+      "activity": [
+        "created",
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "Dicklesworthstone/skillranker",
+      "html_url": "https://github.com/Dicklesworthstone/skillranker",
+      "description": "Rust CLI powered by Jev from TypeSafe.ai that ranks agent skills for the next step using live session context. Includes Claude Code hooks, structured JSON, abstention, and local feedback. Requires a T",
+      "created_at": "2026-09-17T06:58:19Z",
+      "updated_at": "2026-09-18T14:38:54Z",
+      "pushed_at": "2026-09-18T14:38:51Z",
+      "stargazers_count": 41,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "asupersync",
+        "claude-code",
+        "cli",
+        "developer-tools",
+        "frankentui",
+        "jev",
+        "rust",
+        "skill-selection",
+        "typesafe-ai"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "AlbionaHoti/refgarden",
+      "html_url": "https://github.com/AlbionaHoti/refgarden",
+      "description": "A spatial reference explorer for creators. Local Jev query choices, metadata highlights and source-linked collections.",
+      "created_at": "2026-09-18T10:40:25Z",
+      "updated_at": "2026-09-18T14:38:42Z",
+      "pushed_at": "2026-09-18T14:38:38Z",
+      "stargazers_count": 0,
+      "topics": [
+        "creative-tools",
+        "jev",
+        "moodboard",
+        "typesafe",
+        "typescript",
+        "visual-search"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "fatwang2/awesome-jev",
+      "html_url": "https://github.com/fatwang2/awesome-jev",
+      "description": "A source-backed Jev project directory with a reusable Jev-only GitHub review workflow.",
+      "created_at": "2026-09-18T02:45:39Z",
+      "updated_at": "2026-09-18T14:38:24Z",
+      "pushed_at": "2026-09-18T14:38:13Z",
+      "stargazers_count": 28,
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "github-actions",
+        "jev",
+        "open-source",
+        "typesafe"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "daftAI2026/awesome-jev",
+      "html_url": "https://github.com/daftAI2026/awesome-jev",
+      "description": "TypeSafe System One / Jev community directory \u2014 GitHub projects & posts around typed decisions (typesafe.ai)",
+      "created_at": "2026-09-18T09:19:53Z",
+      "updated_at": "2026-09-18T14:36:03Z",
+      "pushed_at": "2026-09-18T14:35:59Z",
+      "stargazers_count": 1,
+      "topics": [
+        "awesome-list",
+        "cloudflare-workers",
+        "directory",
+        "jev",
+        "system-one",
+        "typesafe"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "AnotiaWang/awesome-jev",
+      "html_url": "https://github.com/AnotiaWang/awesome-jev",
+      "description": "A curated list of awesome Jev / TypeSafe System One applications, libraries, and resources.",
+      "created_at": "2026-09-17T12:30:31Z",
+      "updated_at": "2026-09-18T14:35:29Z",
+      "pushed_at": "2026-09-18T14:35:24Z",
+      "stargazers_count": 48,
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "jev",
+        "system-one",
+        "typesafe"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "unicodeveloper/jevocks",
+      "html_url": "https://github.com/unicodeveloper/jevocks",
+      "description": "Everyday Stocks Status with Jev",
+      "created_at": "2026-09-18T12:17:44Z",
+      "updated_at": "2026-09-18T14:31:31Z",
+      "pushed_at": "2026-09-18T14:31:27Z",
+      "stargazers_count": 1,
+      "topics": [
+        "jev",
+        "stocks",
+        "valyu"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "doeixd/jev-pref",
+      "html_url": "https://github.com/doeixd/jev-pref",
+      "description": "Turn your AGENTS.md preferences into a fast, Jev-powered AI linter.",
+      "created_at": "2026-09-17T18:01:44Z",
+      "updated_at": "2026-09-18T14:31:17Z",
+      "pushed_at": "2026-09-18T14:31:12Z",
+      "stargazers_count": 0,
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "code-review",
+        "jev",
+        "skills-sh",
+        "typesafe"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "ibrahemid/git-jev-stage",
+      "html_url": "https://github.com/ibrahemid/git-jev-stage",
+      "description": "Stage the git hunks that match a sentence. Exact patch, preview first, staging only, decided per hunk by Jev.",
+      "created_at": "2026-09-18T14:31:01Z",
+      "updated_at": "2026-09-18T14:31:14Z",
+      "pushed_at": "2026-09-18T14:31:51Z",
+      "stargazers_count": 0,
+      "topics": [
+        "claude-code",
+        "cli",
+        "coding-agents",
+        "git",
+        "jev",
+        "typesafe"
+      ],
+      "activity": [
+        "created",
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "WiktorB2004/llama-index-jev",
+      "html_url": "https://github.com/WiktorB2004/llama-index-jev",
+      "description": "LlamaIndex reranker + router powered by TypeSafe Jev \u2014 typed scores/choices, cheaper than LLM-as-judge.",
+      "created_at": "2026-09-18T08:19:34Z",
+      "updated_at": "2026-09-18T14:28:23Z",
+      "pushed_at": "2026-09-18T14:28:31Z",
+      "stargazers_count": 2,
+      "topics": [
+        "jev",
+        "llamaindex",
+        "postprocessor",
+        "python",
+        "rag",
+        "reranker",
+        "selector",
+        "typesafe"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "Nasrallah-AL/jev-cli",
+      "html_url": "https://github.com/Nasrallah-AL/jev-cli",
+      "description": "Command-line tool for TypeSafe's Jev AI model",
+      "created_at": "2026-09-18T08:16:41Z",
+      "updated_at": "2026-09-18T14:27:56Z",
+      "pushed_at": "2026-09-18T14:27:55Z",
+      "stargazers_count": 0,
+      "topics": [
+        "ai",
+        "cli",
+        "fact-checking",
+        "guardrails",
+        "jev",
+        "llm-tools",
+        "nodejs",
+        "prompt-injection",
+        "semantic-search",
+        "typesafe",
+        "typescript"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "ibrahemid/jevprune",
+      "html_url": "https://github.com/ibrahemid/jevprune",
+      "description": "Keeps the lines of a command's output that matter for the task. Exact text, full output recoverable, decided per line by Jev.",
+      "created_at": "2026-09-18T14:24:10Z",
+      "updated_at": "2026-09-18T14:24:58Z",
+      "pushed_at": "2026-09-18T14:27:19Z",
+      "stargazers_count": 0,
+      "topics": [
+        "claude-code",
+        "cli",
+        "coding-agents",
+        "jev",
+        "typesafe"
+      ],
+      "activity": [
+        "created",
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "AbdelStark/awesome-typesafe",
+      "html_url": "https://github.com/AbdelStark/awesome-typesafe",
+      "description": "A curated list of official resources and community projects for TypeSafe, System One models, and Jev.",
+      "created_at": "2026-09-17T06:56:37Z",
+      "updated_at": "2026-09-18T14:38:50Z",
+      "pushed_at": "2026-09-18T14:23:51Z",
+      "stargazers_count": 186,
+      "topics": [
+        "ai-agents",
+        "awesome-list",
+        "jev",
+        "llm",
+        "machine-learning",
+        "structured-output",
+        "system-one-models",
+        "typesafe"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "simota/tenbin",
+      "html_url": "https://github.com/simota/tenbin",
+      "description": "MCP server and agent skill for the TypeSafe AI System One API (Jev): decompose a judgment into Choice / Score / Noul questions, lint them, measure on labelled data, and put calibrated thresholds in co",
+      "created_at": "2026-09-18T06:35:25Z",
+      "updated_at": "2026-09-18T14:23:21Z",
+      "pushed_at": "2026-09-18T14:23:18Z",
+      "stargazers_count": 1,
+      "topics": [
+        "agent-skill",
+        "calibration",
+        "classification",
+        "claude-code",
+        "confidence",
+        "jev",
+        "llm",
+        "mcp",
+        "mcp-server",
+        "python",
+        "system-one",
+        "typesafe-ai",
+        "typescript"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "Verhex/xerify",
+      "html_url": "https://github.com/Verhex/xerify",
+      "description": "Verify before you trust. Cross-provider verification with LLMs and Jev. CLI, library & MCP.",
+      "created_at": "2026-08-18T13:34:13Z",
+      "updated_at": "2026-09-18T14:20:44Z",
+      "pushed_at": "2026-09-18T14:24:55Z",
+      "stargazers_count": 0,
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-verification",
+        "cli",
+        "cross-provider",
+        "jev",
+        "llm-tools",
+        "mcp",
+        "model-context-protocol",
+        "structured-output",
+        "structured-outputs",
+        "typesafe",
+        "verification"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "jagenaujagenau/ground-truth",
+      "html_url": "https://github.com/jagenaujagenau/ground-truth",
+      "description": "Ground News style bias check for the article in your current tab.",
+      "created_at": "2026-09-17T15:59:03Z",
+      "updated_at": "2026-09-18T14:20:13Z",
+      "pushed_at": "2026-09-18T14:20:33Z",
+      "stargazers_count": 0,
+      "topics": [
+        "ai",
+        "jev",
+        "news"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "AboveColin/HA-Jev",
+      "html_url": "https://github.com/AboveColin/HA-Jev",
+      "description": "Home Assistant integration for TypeSafe Jev. Ask a question about your house and get a probability, a choice or a score as an entity.",
+      "created_at": "2026-09-17T11:01:48Z",
+      "updated_at": "2026-09-18T14:19:40Z",
+      "pushed_at": "2026-09-18T14:22:04Z",
+      "stargazers_count": 6,
+      "topics": [
+        "ai",
+        "custom-components",
+        "hacs",
+        "home-assistant",
+        "home-automation",
+        "homeassistant",
+        "jev",
+        "typesafe"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "rongxinzy/LightJev",
+      "html_url": "https://github.com/rongxinzy/LightJev",
+      "description": "Train lightweight language backbones for typed decisions and candidate probabilities. CE/Brier training, evaluation, and an offline end-to-end demo.",
+      "created_at": "2026-09-18T12:58:23Z",
+      "updated_at": "2026-09-18T14:24:32Z",
+      "pushed_at": "2026-09-18T14:18:36Z",
+      "stargazers_count": 1,
+      "topics": [
+        "decision-models",
+        "jev",
+        "machine-learning",
+        "probability-calibration",
+        "pytorch",
+        "structured-prediction"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "wh000wh000/awesome-jev-live",
+      "html_url": "https://github.com/wh000wh000/awesome-jev-live",
+      "description": "Evidence-graded index of the Jev / TypeSafe System One ecosystem. Rebuilt every 2 hours in 20 languages.",
+      "created_at": "2026-09-18T13:37:03Z",
+      "updated_at": "2026-09-18T14:18:25Z",
+      "pushed_at": "2026-09-18T14:18:21Z",
+      "stargazers_count": 0,
+      "topics": [
+        "ai",
+        "awesome",
+        "awesome-list",
+        "curated-list",
+        "decisions",
+        "jev",
+        "llm",
+        "system-one",
+        "typesafe"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "rhc98/awesome-jev",
+      "html_url": "https://github.com/rhc98/awesome-jev",
+      "description": "Projects built on Jev (TypeSafe AI's System One model), curated by Jev itself.",
+      "created_at": "2026-09-17T16:28:55Z",
+      "updated_at": "2026-09-18T14:14:39Z",
+      "pushed_at": "2026-09-18T14:33:03Z",
+      "stargazers_count": 1,
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "jev",
+        "system-one",
+        "typesafe-ai"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "AntonioCoppe/jev-harness",
+      "html_url": "https://github.com/AntonioCoppe/jev-harness",
+      "description": "Decision harness for TypeSafe Jev \u2014 confidence gates, shadow mode, recipes, and evals. Claude CLI 48.9s \u2192 Jev 1.3s on the same row-filter job.",
+      "created_at": "2026-09-18T01:09:44Z",
+      "updated_at": "2026-09-18T14:14:18Z",
+      "pushed_at": "2026-09-18T14:14:14Z",
+      "stargazers_count": 2,
+      "topics": [
+        "agents",
+        "confidence",
+        "decision",
+        "evals",
+        "harness",
+        "jev",
+        "llm",
+        "system-one",
+        "typesafe",
+        "typescript"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "ozers/jevsome-projects",
+      "html_url": "https://github.com/ozers/jevsome-projects",
+      "description": "Open-source projects that provably call Jev, TypeSafe AI's System One model. Every entry links to the line of code that proves it. Refreshed daily.",
+      "created_at": "2026-09-18T11:15:13Z",
+      "updated_at": "2026-09-18T14:14:16Z",
+      "pushed_at": "2026-09-18T14:14:13Z",
+      "stargazers_count": 1,
+      "topics": [
+        "ai",
+        "awesome",
+        "awesome-list",
+        "directory",
+        "jev",
+        "system-one",
+        "typed-decisions",
+        "typesafe-ai"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "frostney/clean-code-review",
+      "html_url": "https://github.com/frostney/clean-code-review",
+      "description": "Every code file in a pull request, judged against Uncle Bob's Clean Code by TypeSafe's Jev, then reviewed by Luna. Built on eve and Next.js.",
+      "created_at": "2026-09-17T15:51:14Z",
+      "updated_at": "2026-09-18T14:14:05Z",
+      "pushed_at": "2026-09-18T14:14:01Z",
+      "stargazers_count": 3,
+      "topics": [
+        "agents",
+        "ai",
+        "ai-gateway",
+        "ai-sdk",
+        "clean-code",
+        "code-quality",
+        "code-review",
+        "developer-tools",
+        "eve",
+        "jev",
+        "llm",
+        "nextjs",
+        "pull-request",
+        "static-analysis",
+        "typescript",
+        "vercel"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "kylemclaren/jevql",
+      "html_url": "https://github.com/kylemclaren/jevql",
+      "description": "Semantic SQL for vanilla Postgres. Powered by Jev",
+      "created_at": "2026-09-18T11:57:33Z",
+      "updated_at": "2026-09-18T14:11:07Z",
+      "pushed_at": "2026-09-18T14:11:03Z",
+      "stargazers_count": 0,
+      "topics": [
+        "jev"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "Friedjof/jev-mobile",
+      "html_url": "https://github.com/Friedjof/jev-mobile",
+      "description": "Fast structured Android control loops with TypeSafe Jev and Mobile MCP",
+      "created_at": "2026-09-17T03:45:35Z",
+      "updated_at": "2026-09-18T14:07:47Z",
+      "pushed_at": "2026-09-18T14:07:43Z",
+      "stargazers_count": 0,
+      "topics": [
+        "agents",
+        "android",
+        "automation",
+        "jev",
+        "mcp",
+        "mobile",
+        "python",
+        "typesafe"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "luantak/is-malicious",
+      "html_url": "https://github.com/luantak/is-malicious",
+      "description": "A codebase scanner that answers is this obviously malicous before running",
+      "created_at": "2026-09-18T11:40:17Z",
+      "updated_at": "2026-09-18T14:32:32Z",
+      "pushed_at": "2026-09-18T14:07:39Z",
+      "stargazers_count": 1,
+      "topics": [
+        "jev",
+        "security-scanner",
+        "typesafe-ai"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "DanRWilloughby/snifftest",
+      "html_url": "https://github.com/DanRWilloughby/snifftest",
+      "description": "A prose linter that sniffs out AI writing tells. Zero dependencies, countable rules plus one judgment model.",
+      "created_at": "2026-09-17T22:37:52Z",
+      "updated_at": "2026-09-18T14:39:14Z",
+      "pushed_at": "2026-09-18T14:07:13Z",
+      "stargazers_count": 0,
+      "topics": [
+        "ai-writing",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "github-action",
+        "jev",
+        "linter",
+        "markdown",
+        "pre-commit",
+        "prose",
+        "typesafe",
+        "writing"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "yousudip/lizard-agent",
+      "html_url": "https://github.com/yousudip/lizard-agent",
+      "description": "A browser agent with no LLM in the loop \u2014 deterministic code plus Jev, a System One model. ~118ms per decision, typed and auditable.",
+      "created_at": "2026-09-18T11:01:23Z",
+      "updated_at": "2026-09-18T14:06:17Z",
+      "pushed_at": "2026-09-18T14:06:13Z",
+      "stargazers_count": 0,
+      "topics": [
+        "ai-agents",
+        "browser-automation",
+        "jev",
+        "playwright",
+        "python",
+        "system-one",
+        "typesafe",
+        "web-automation"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "harrymunro/decision-first",
+      "html_url": "https://github.com/harrymunro/decision-first",
+      "description": "Agent skill that spots bounded-judgment steps, tries a typed decision model (TypeSafe's Jev) first, and documents every attempt",
+      "created_at": "2026-09-18T13:15:01Z",
+      "updated_at": "2026-09-18T14:00:01Z",
+      "pushed_at": "2026-09-18T13:59:56Z",
+      "stargazers_count": 1,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude-code",
+        "coding-agents",
+        "jev",
+        "system-one",
+        "typesafe"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "FirasSX914/Janus",
+      "html_url": "https://github.com/FirasSX914/Janus",
+      "description": "Measure when to use Jev and other models on your data, then route accordingly.",
+      "created_at": "2026-09-17T12:44:54Z",
+      "updated_at": "2026-09-18T13:54:42Z",
+      "pushed_at": "2026-09-18T13:57:37Z",
+      "stargazers_count": 2,
+      "topics": [
+        "benchmark",
+        "calibration",
+        "confidence",
+        "deepseek",
+        "jev",
+        "llm",
+        "routing",
+        "typesafe"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "bnsd55/jevmlx",
+      "html_url": "https://github.com/bnsd55/jevmlx",
+      "description": "Jev-style parallel constrained decisions for any MLX model on Apple Silicon. Typed, schema-valid JSON in one forward pass.",
+      "created_at": "2026-09-17T10:20:12Z",
+      "updated_at": "2026-09-18T13:54:03Z",
+      "pushed_at": "2026-09-18T14:30:54Z",
+      "stargazers_count": 19,
+      "topics": [
+        "apple-silicon",
+        "jev",
+        "local-llm",
+        "local-models",
+        "mlx"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "Eliran-Turgeman/repear",
+      "html_url": "https://github.com/Eliran-Turgeman/repear",
+      "description": "Semantic linter for AI coding agents and CI code review. Detects silent failures, weakened tests, scope creep, unnecessary abstractions, and other semantic code smells.",
+      "created_at": "2026-09-18T10:23:12Z",
+      "updated_at": "2026-09-18T13:53:29Z",
+      "pushed_at": "2026-09-18T13:51:58Z",
+      "stargazers_count": 0,
+      "topics": [
+        "ai-code-review",
+        "ai-coding-agents",
+        "cli",
+        "code-quality",
+        "code-review",
+        "coding-agents",
+        "continuous-integration",
+        "developer-tools",
+        "golang",
+        "jev",
+        "llm",
+        "semantic-linting",
+        "static-analysis"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "miounet11/jevcode",
+      "html_url": "https://github.com/miounet11/jevcode",
+      "description": "JevCode \u2014 Jev (TypeSafe System One) \u6280\u672f\u89e3\u51b3\u65b9\u6848\u4e0e\u6700\u4f73\u5b9e\u8df5 \u00b7 https://www.jevcode.ai",
+      "created_at": "2026-09-18T10:49:12Z",
+      "updated_at": "2026-09-18T13:50:40Z",
+      "pushed_at": "2026-09-18T13:50:35Z",
+      "stargazers_count": 0,
+      "topics": [
+        "astro",
+        "decision-model",
+        "documentation",
+        "jev",
+        "system-one",
+        "typesafe"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    },
+    {
+      "full_name": "Premo-Cloud/typesafe-sdk-java",
+      "html_url": "https://github.com/Premo-Cloud/typesafe-sdk-java",
+      "description": "Community Java client for the TypeSafe System One API (unofficial)",
+      "created_at": "2026-09-18T12:35:22Z",
+      "updated_at": "2026-09-18T14:20:23Z",
+      "pushed_at": "2026-09-18T13:40:38Z",
+      "stargazers_count": 2,
+      "topics": [
+        "java",
+        "jev",
+        "sdk",
+        "spring-boot",
+        "system-one",
+        "system-one-models",
+        "typesafe"
+      ],
+      "activity": [
+        "updated",
+        "pushed"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "themes": [
+    [
+      "cost/prefilter",
+      48
+    ],
+    [
+      "tool routing",
+      33
+    ],
+    [
+      "agent gate/linter",
+      27
+    ],
+    [
+      "mixed architecture",
+      16
+    ],
+    [
+      "product ship",
+      14
+    ],
+    [
+      "reproduce/open",
+      13
+    ],
+    [
+      "skepticism",
+      11
+    ],
+    [
+      "rerank/search",
+      11
+    ],
+    [
+      "on-device/mobile",
+      2
+    ]
+  ],
+  "samples": [
+    {
+      "user": "CalebPanza",
+      "flags": [
+        "on-device/mobile"
+      ],
+      "text": "Jev seems incredibly relevant to on-device assistants and I wonder if Siri AI is doing a similar approach https://t.co/MBq1cZa49c",
+      "url": "https://x.com/i/status/2100957848511390079"
+    },
+    {
+      "user": "brad__kelly",
+      "flags": [
+        "cost/prefilter",
+        "tool routing"
+      ],
+      "text": "I think I know exactly where I'm going to be able to use Jev.\n\nEvery time I use AI to build an automation, I end up asking \"how can we make this deterministic?\"\n\nYou use far fewer tokens when you build the tooling and th",
+      "url": "https://x.com/i/status/2100957751388107250"
+    },
+    {
+      "user": "buildwith_yash",
+      "flags": [
+        "cost/prefilter"
+      ],
+      "text": "@kushbhuwalka @typesafeai This could be a bigger deal for cost than accuracy.\n\nIf Jev can cheaply remove irrelevant chunks before they reach the main model, you're saving context tokens on every query.",
+      "url": "https://x.com/i/status/2100957729208893516"
+    },
+    {
+      "user": "hughesanalytics",
+      "flags": [
+        "tool routing",
+        "reproduce/open"
+      ],
+      "text": "@aixsystematic That is it. There are traditional ML ways to do this with tools like XGBoost. You train a model on your data. Jev is automated so you can apply it with more flexibility.",
+      "url": "https://x.com/i/status/2100957428799967514"
+    },
+    {
+      "user": "dt_sqr",
+      "flags": [
+        "mixed architecture",
+        "skepticism"
+      ],
+      "text": "@MatijaSosic WHY IS EVERYONE HYPING JEV??? Jev is classification. This is like the oldest task in AI - This is not NEW!",
+      "url": "https://x.com/i/status/2100957356389511173"
+    },
+    {
+      "user": "mruef",
+      "flags": [
+        "product ship"
+      ],
+      "text": "Introducing System One Models and Jev - TypeSafe AI Blog #ai https://t.co/reVbYN4RuT",
+      "url": "https://x.com/i/status/2100957236193550546"
+    },
+    {
+      "user": "maxwellbrown",
+      "flags": [
+        "product ship"
+      ],
+      "text": "Asked the team if I should spend the weekend adding Jev support to the @EffectTS_ AI SDK\n\n@tim_smart replied with this five minutes later\n\nGuess I'm free this weekend https://t.co/o6RnkAS8Ld",
+      "url": "https://x.com/i/status/2100957109634449440"
+    },
+    {
+      "user": "tool_router",
+      "flags": [
+        "tool routing",
+        "product ship"
+      ],
+      "text": "Excited to say, Toolrouter now uses @typesafeai Jev to route your request to the best tool for the job!\n\nYour agent asks and you find the perfect tool to solve your problem!",
+      "url": "https://x.com/i/status/2100957104752238821"
+    },
+    {
+      "user": "seb_jsilva",
+      "flags": [
+        "mixed architecture",
+        "skepticism"
+      ],
+      "text": "Jev is too early to treat as a stack replacement. Think mixed architecture: a decision model for classification, an LLM for writing.\n\nWrote up how I'm thinking about it while it's still early, including where this unlock",
+      "url": "https://x.com/i/status/2100957104567685310"
+    },
+    {
+      "user": "xillionsbobby",
+      "flags": [
+        "tool routing",
+        "agent gate/linter"
+      ],
+      "text": "\u505a\u4e86\u4e2a https://t.co/eSCgKaq7tk \u4e00\u952e\u5728\u81ea\u5df1\u7684 Agent \u4e2d\u4f53\u9a8c Jev \u6a21\u578b\u80fd\u529b\uff0c\u65e0\u9700\u7f16\u6392\u3002\n\nJevRouter \u6301\u7eed\u4f18\u5316\u4e2d\uff0c\u5b8c\u5168\u5f00\u6e90\uff0c\u6b22\u8fce\u5927\u5bb6\u8d21\u732e\u3002\u4e00\u8d77\u6253\u9020\u6700\u597d\u7684 Jev Harness\u27a1\ufe0f GitHub\uff1ahttps://t.co/5vnUlKx3pd\n\n\u4f7f\u7528\u53ea\u9700 3 \u6b65\uff1a\n1\ufe0f\u20e3 \u83b7\u53d6 Jev API Key\u3002\u5b98\u7f51\u4ecd\u9700\u6392\u961f\uff0cOpenRouter \u76ee\u524d\u53ef\u76f4\u63a5\u4f7f\u7528\u3002\n2\ufe0f\u20e3 \u8bbf\u95ee",
+      "url": "https://x.com/i/status/2100957033419956695"
+    },
+    {
+      "user": "sydneyrunkle",
+      "flags": [
+        "cost/prefilter",
+        "mixed architecture",
+        "skepticism"
+      ],
+      "text": "right now, a lot of agents perform classification tasks / steps\n\nif you can replace those steps with a model that's optimized for classification, you can massively reduce latency and cost\n\ni think jev is re-kindling the ",
+      "url": "https://x.com/i/status/2100956747729080714"
+    },
+    {
+      "user": "stoufax",
+      "flags": [
+        "cost/prefilter"
+      ],
+      "text": "\"AI moderation is too slow for real-time chat.\"\n\nNot anymore.\n\n@typesafeai Jev judges every message in ~200ms, before anyone else sees it,for a fraction of what an LLM call costs.\nhttps://t.co/uTxhhKaVJE https://t.co/65l",
+      "url": "https://x.com/i/status/2100956659128361097"
+    },
+    {
+      "user": "GeekCatX",
+      "flags": [
+        "tool routing"
+      ],
+      "text": "Jev\u592a\u706b\u4e86\uff0c\u4eca\u5929\u65f6\u95f4\u7ebf\u4e0a\u5168\u662f\u8fd9\u4e1c\u897f\uff0c\u8d76\u7d27\u7ed9\u4f60\u7684 Claude Code \u548c Codex \u52a0\u4e00\u4e2a AI \u88c1\u5224\u5427\u3002\n\u76ee\u524d\u5b98\u65b9\u6709\u767d\u540d\u5355\u53ef\u80fd\u5ba1\u6838\u6709\u70b9\u6162\u4e86\uff0c\u5efa\u8bae\u5927\u5bb6\u76f4\u63a5openrouter\u4e0a\u4f53\u9a8c\u3002\n\n\u53d1\u5e03\u4ecb\u7ecd\nhttps://t.co/c41auv1VLx\n\n\u4e0b\u9762\u987a\u5e26\u5217\u4e3e\u4e86\u4e00\u4e9bX\u4e0a28\u79cd\u70ed\u95e8\u73a9\u6cd5\uff1a\n\n1\u3001\u6a21\u578b\u8def\u7531\nhttps://t.co/5Hrs6tBCSW https://t.co/92E166ApTH",
+      "url": "https://x.com/i/status/2100956459580395585"
+    },
+    {
+      "user": "anuhas0x",
+      "flags": [
+        "cost/prefilter"
+      ],
+      "text": "Jev from TypeSafe AI is a model that doesn't generate text. You send it state plus typed questions and it returns probabilities, roughly 100ms a call, $0.042 per 1M input tokens, output free.\n\nSaving it for the weekend. ",
+      "url": "https://x.com/i/status/2100956379339186452"
+    },
+    {
+      "user": "thenightshipper",
+      "flags": [
+        "mixed architecture",
+        "skepticism"
+      ],
+      "text": "@trevin @typesafeai yeah this is fucking true, as of llm evolution, we only think of a conversation as a medium to interact with ai.\n\nbut JEV had busted it and its for good actually, now atleast quantification/classifica",
+      "url": "https://x.com/i/status/2100956211768426507"
+    },
+    {
+      "user": "kurtbuhler",
+      "flags": [
+        "cost/prefilter",
+        "mixed architecture",
+        "tool routing",
+        "skepticism"
+      ],
+      "text": "Jev makes it possible to use much less expensive and faster agents a lot more effectively by allowing you to route certain decisions beforehand, afterward, or altogether. \n\nhope it'll also make auto mode classifications ",
+      "url": "https://x.com/i/status/2100956205065597266"
+    },
+    {
+      "user": "ArchanPsioppen",
+      "flags": [
+        "agent gate/linter"
+      ],
+      "text": "Since I have been building an Inference System for Open weight models - I've actually got a crazy idea ......\n\nwhat if I Integrate Jev (@typesafeai ) into the Intelligent model routing part of the Inference System ??\n\n I",
+      "url": "https://x.com/i/status/2100956085222048247"
+    },
+    {
+      "user": "verysmallwoods",
+      "flags": [
+        "tool routing"
+      ],
+      "text": "\u8981\u73a9 Jev \u7684\u670b\u53cb\u4e0d\u9700\u8981\u7b49 waiting list\uff0cOpenRouter \u4e5f\u4e0a\u67b6\u4e86\u3002\n\ncurl https://t.co/Lsl6v74Thz \\-H \"Content-Type: application/json\" \\-H \"Authorization: Bearer $OPENROUTER_API_KEY\" \\-d '{\n    \"model\": \"typesafe/jev-1.13\",\n    \"state\": \"Help!",
+      "url": "https://x.com/i/status/2100955970604056919"
+    },
+    {
+      "user": "AgbedeSamuelD",
+      "flags": [
+        "cost/prefilter"
+      ],
+      "text": "ah right I think I get it now. Jev is a general-purpose classifier model which runs at a fraction of the cost of LLMs, so you could use it for things like model routing and selecting options based on state. Sounds intere",
+      "url": "https://x.com/i/status/2100955875082944516"
+    },
+    {
+      "user": "GeekCatX",
+      "flags": [
+        "tool routing"
+      ],
+      "text": "Jev\u592a\u706b\u4e86\uff0c\u4eca\u5929\u65f6\u95f4\u7ebf\u4e0a\u5168\u662f\u8fd9\u4e1c\u897f\uff0c\u8d76\u7d27\u7ed9\u4f60\u7684 Claude Code \u548c Codex \u52a0\u4e00\u4e2a AI \u88c1\u5224\u5427\u3002\n\u76ee\u524d\u5b98\u65b9\u6709\u767d\u540d\u5355\u53ef\u80fd\u5ba1\u6838\u6709\u70b9\u6162\u4e86\uff0c\u5efa\u8bae\u5927\u5bb6\u76f4\u63a5openrouter\u4e0a\u4f53\u9a8c\u3002\n\n\u4e0b\u9762\u987a\u5e26\u5217\u4e3e\u4e86\u4e00\u4e9bX\u4e0a\u70ed\u95e8\u73a9\u6cd5\uff1a\n\n\u53d1\u5e03\u4ecb\u7ecd\nhttps://t.co/c41auv1VLx\n\n1\u3001\u6a21\u578b\u8def\u7531\nhttps://t.co/5Hrs6tBCSW\nhttps://t.co/UPCojpcgLQ https://t.co/92E166Ap",
+      "url": "https://x.com/i/status/2100955717067039085"
+    },
+    {
+      "user": "drbeefsupreme",
+      "flags": [
+        "tool routing"
+      ],
+      "text": "woke up excited to play with ai tools for the first time in awhile this morning thanks to jev",
+      "url": "https://x.com/i/status/2100955610074448380"
+    },
+    {
+      "user": "whereischarly",
+      "flags": [
+        "reproduce/open"
+      ],
+      "text": "Now, the part nobody is testing.\n\nJev is trained with RLCD (\"Reinforcement Learning for Calibrated Decisions\"), calibration is literally in the name.\n\nECE (lower is better):\n- ModernBERT \u2014 0.081\n- Jev \u2014 0.105\n\nThe open e",
+      "url": "https://x.com/i/status/2100955292150153225"
+    },
+    {
+      "user": "Just_Jude_It",
+      "flags": [
+        "cost/prefilter"
+      ],
+      "text": "@thekitze What if you gave it access to a low cost model that extracts what you ate through images? And then JEV parses",
+      "url": "https://x.com/i/status/2100955237229969511"
+    },
+    {
+      "user": "wenhsu_",
+      "flags": [
+        "cost/prefilter",
+        "tool routing"
+      ],
+      "text": "I think I have been using LLMs for the wrong 80%.\n\nJust applied for JEV from https://t.co/Gd9HWmTmoy. \n\nIt is a decision / tool-use model, not a text generator. \n- Pick tools. \n- Drive a computer. \n- Make the call. \n- 40",
+      "url": "https://x.com/i/status/2100955074130247905"
+    },
+    {
+      "user": "xillionsbobby",
+      "flags": [
+        "tool routing",
+        "agent gate/linter",
+        "reproduce/open"
+      ],
+      "text": "Stop watching Jev from the sidelines. Just BYOK \u27a1\ufe0f https://t.co/eSCgKaq7tk\n\nExperience Jev models in your own agent with one click, no orchestration required.\n\nJevRouter is continuously improving and fully open source. C",
+      "url": "https://x.com/i/status/2100955062776586647"
+    }
+  ]
+}

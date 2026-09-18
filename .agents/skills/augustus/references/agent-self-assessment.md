@@ -17,7 +17,12 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    `leaks_secret` (noul ≥0.90) and `failure_class` (Choice ~6 options).
    The gate sees intent; only the output judge sees what the command printed.
 3. **Done-check on the final reply**: "done" claimed after code changes
-   with no test/build/lint result → block. One Noul, one threshold.
+   with no test/build/lint result → block. Structure first: whether a
+   test/build/lint result exists in the trace is countable, so code
+   answers it — one Noul only for the semantic remainder ("does this
+   reply claim the work is finished?"), one threshold. Spending the model
+   on the countable half is the `/bin/ls`-as-first-tier pattern
+   (`mappings.md` §18).
 4. **Stuck-detector**: three failures with the same strategy → ask for a
    new hypothesis, not another retry.
 5. **Supervision during long runs** (foreman): separate concurrent loop
@@ -26,20 +31,26 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    `ready_to_finish`; deterministic policy with hysteresis (retry counts,
    verification history) gates continue/stop/retry/verify. The model never
    commands; it estimates named probabilities.
-6. **Context economy**: judge every large tool result with one relevance
-   Noul before it enters context. Hide confident-no blocks behind a stub +
-   recall key; always keep current instruction, recent turns, errors, and
-   opaque blocks (thinking/signatures/media). winnow hides at relevance
-   ≤0.22; fast-jev-compaction asks two nouls per tool call (should the call
-   stay knowing it was made? should the result stay verbatim?).
+6. **Context economy**: the context-sieve card
+   (`references/applied-mappings.md#1-context-sieve`). Judge every large
+   tool result with one relevance Noul before it enters context. Hide
+   confident-no blocks behind a stub + recall key; always keep current
+   instruction, recent turns, errors, and opaque blocks. winnow hides at
+   relevance ≤0.22; fast-jev-compaction asks two nouls per tool call
+   (should the call stay knowing it was made? should the result stay
+   verbatim?).
 
 ## Non-negotiable boundaries
 
 - A Jev probability is evidence about context, never an action permit.
   Operation+target pairs are validated in code; "confidence high" does not
   authorize.
-- Every error path fails open (missing key, timeout, 429, malformed
-  response → no verdict, tool call proceeds, error reported once/minute).
+- Error paths fail **per action**. These supervision gates are advisory,
+  so they fail open (missing key, timeout, 429, malformed response → no
+  verdict, tool call proceeds, error reported once/minute) — and that is
+  only safe because a hard interlock or sandbox sits underneath. A gate
+  that *selects* or *authorizes* a side effect fails closed instead
+  (`mixed-architecture.md` prefilter table; `mappings.md` §18).
 - Cache identical judgments (~120s) and deduplicate sibling calls into one
   in-flight request.
 - pi-warden measured cost makes continuous guarding viable: ~$0.00004 and
@@ -57,6 +68,15 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
 - Rubric quality: if scores are the data type, use concrete level
   descriptions (never bare degrees or "worse than previous"), independent
   dimensions as separate Scores, and read probabilities beside every score.
+
+## Preference lint (project rules, not taste)
+
+When the "judge" is really "does this change violate a rule we already
+wrote?", do not ask Jev whether the code is good. Load
+`references/mixed-architecture.md#preference-lint-and-gates`. The transferable
+contract (`doeixd/jev-pref`): the project defines the rule, Jev classifies
+visible evidence, code maps the outcome, the agent acts. Shadow-mode the gate
+first; permit remains a separate axis from confidence.
 
 ## Using Jev to test and optimize the skill suite itself
 

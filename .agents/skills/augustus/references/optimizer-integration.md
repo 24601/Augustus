@@ -5,6 +5,43 @@ provider, TypeScript-only), `typesafeainate/dspy-typesafeify` (Python DSPy
 decorator PoC) + `jmanhype/jev-dspy-lab` (its measurement lab). Re-verify
 against the archive before relying; both are young.
 
+This card is the **placement** of a judgment-class model inside an
+optimizer loop — which seat it takes, which it must not, and what you owe
+before trusting its numbers. Option names below are named so you can find
+them, not transcribed as a call shape: the frameworks' own docs own their
+signatures, and `typesafe-ai` plus the live docs own Jev's request body.
+Do not write either from this page. DSPy and Ax tune the LM-program
+slice only. They are never the primary System One calibration score;
+that seat is a jevals-shaped labeled suite, and a product loop is a
+Harbor taskset (`validation.md`, Eval & hill-climb).
+
+## Judgment: what these optimizers may climb (Hypothesis)
+
+DSPy is the Python LM-program optimizer. Ax is the DSPy-style
+TypeScript one
+([ax-llm/ax](https://github.com/ax-llm/ax); the README calls it DSPy
+for TypeScript). Both climb **LM program knobs** — prompts,
+demonstrations, module graphs, sometimes which model. That is a narrow
+yes. It is not a perception pipeline and not a calibration loop.
+`validation.md`; `research/notes.md` §41.
+
+Use them for criteria and instruction text, and for few-shot
+demonstrations, on a generative or constrained-AR decision head
+(TypeAR, a schema-prompted LLM), and for an optional LLM rewrite of a
+perception-to-state summary.
+
+Do not expect them to climb SAM multiplex, which objects to keep, ASR
+decoding or diarization, Jev API calibration, or the choice between a
+staged pair and a native multimodal System One. Proprietary Jev has no
+prompt loop: schema, criteria, and policy thresholds, scored on labeled
+eval (jevals) — not a search over a decoder. Open recipes such as
+Nimble: climb data curation and LoRA, measured on holdout ECE and
+agreement. Nimble's published holdout is agreement on synthetic
+labels, not a measured ECE (`judgment-class.md`).
+
+No call shape in this paragraph. The adapter notes below stay names of
+seats, not a request you copy.
+
 ## The converging integration pattern
 
 Every framework lands on the same shape: **typed outputs → one Jev request;
@@ -13,8 +50,8 @@ program interface.** The program's signature/prediction API does not change.
 
 | Framework | Mechanism | Typed outputs | Freeform outputs |
 |---|---|---|---|
-| Ax (`ai({name:'typesafe'})`) | signature adapter: field descriptions become Noul/Choice/Score criteria | `boolean` (Noul + `trueThreshold`, default 0.5), `class` (Choice) | unsupported — second generative program |
-| Ax native | `typesafe({apiKey}).systemOne({state, questions})` | Noul/Choice/Score with structured criteria | — |
+| Ax (typesafe provider) | signature adapter: field descriptions become Noul/Choice/Score criteria | `boolean` (Noul + `trueThreshold`, default 0.5), `class` (Choice) | unsupported — second generative program |
+| Ax native client | one request carrying the shared state plus all typed questions | Noul/Choice/Score with structured criteria | — |
 | DSPy (`@typesafeify`) | signature-output annotation → hybrid execution plan | `bool` (thresholded Noul), `Literal` (Choice), configured score field (Score) | generative LM **after** typed results known |
 
 ## Design rules that transfer (from the adapter source, not vibes)
@@ -52,7 +89,7 @@ program interface.** The program's signature/prediction API does not change.
 - **Teacher/student split fits the primitives**: teacher (frontier model)
   proposes candidates or distills criteria; student (Jev) executes the typed
   path cheaply. In Ax terms: strong `teacherAI`, cheap `studentAI`
-  (`ai({name:'typesafe'})`), `maxMetricCalls` bounded.
+  (seat names `teacherAI` and `studentAI`), `maxMetricCalls` bounded.
 - **Do not let the optimizer tune thresholds off the sweep it runs.** The
   jev-dspy-lab rule: threshold sweep is exploratory; the confirmatory gate
   is chosen before the run and reported from the same run, never the best
@@ -87,8 +124,10 @@ PAW (programasweights, pre-dates Jev — Python SDK 0.4.6, Mar 2026 repo, MIT)
 compiles a natural-language spec into a **tiny neural program** — a `.paw`
 bundle of KV-cache prefix + optional LoRA adapter over a fixed interpreter
 (Qwen3-0.6B ~22 MB or GPT-2 ~5 MB, WebAssembly-capable) that then runs locally,
-deterministic, no API at runtime: `paw.compile("Classify…")`, `fn(x) → label`
-in ~0.03–0.5 s. Fuzzy text tasks: classify, extract, repair, triage, route.
+deterministic, no API at runtime, on the order of 0.03–0.5 s. The
+compile step and the resulting local function are seat names in the
+PAW docs, not a call to copy. Fuzzy text tasks: classify, extract,
+repair, triage, route.
 
 **Why it pairs with Jev** — complementary, not overlapping. Jev is the
 calibrated semantic oracle (state → typed decision, network, per-call); PAW is

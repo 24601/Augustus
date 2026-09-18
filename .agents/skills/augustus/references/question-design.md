@@ -5,6 +5,12 @@ composition, and how to diagnose a failing question. The mental-model and
 substitution cards (mappings.md, toolbox-mapping.md) assume you are already
 asking well-formed questions; this is how you get there.
 
+The design rules here are portable. The **numbers and field names are not
+this card's to own**: envelope sizes, option/level limits, and the accepted
+shape of a request body are contract surface, pinned below to jev-1.13 as
+of 2026-09. Re-read the live docs (or `typesafe-ai`) before you write a
+request, and treat a stale pin as a prior, never a setting.
+
 ## The workflow (doc-grounded)
 
 1. List the decisions your code must make; write each as a branch, threshold, or ranking.
@@ -32,7 +38,7 @@ asking well-formed questions; this is how you get there.
 - Name the judged state path in backticks (`` `ticket.messages[0].text` ``).
 - One property per question — hidden second judgments lower accuracy and confidence.
 - Keep numerals-for-levels out of instructions ("Rate from 0 to 2" gives nothing to match); write the full question in `instructions` (the question ID never reaches the model); keep decision policy out of questions (policy lives in code).
-- Instructions accept string, object, or array. Object keys from the docs: `question`, `focus`, `inspect`, `note`, `compare` (state-path list), `field` (shared `name`/`type`/`unit`/`description` record). Pass schemas/taxonomies as JSON, not serialized strings.
+- Instructions accept prose or a structured form (the live docs own which keys that form accepts — do not write them from this page). The design rule is what transfers: name the sub-parts of the judgment explicitly instead of packing them into one sentence, and pass schemas/taxonomies as JSON, not as serialized strings.
 - When you catch yourself explaining what you meant after a wrong answer — that explanation is the missing half of the instruction. Add it.
 
 ## Criteria shape
@@ -58,6 +64,7 @@ asking well-formed questions; this is how you get there.
 | Errors on nested/negated questions | Too much indirection | Direct question, named path, split + combine in code |
 | Answer follows state text | Content steers the model | Tighten criteria; adversarial tests; confidence-gate the action |
 | Rewording trades one error for another | One question, several properties | Split into atomic questions |
+| Synonymous wording swings p / the act | Stimulus includes question text; no invariance promised | Paraphrase-pair eval; abstain or raise t; rewrite (`mappings.md` §17) |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline
