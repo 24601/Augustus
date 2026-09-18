@@ -42,6 +42,8 @@ code guarantees, and what experiment could prove the idea wrong.
 | Selective classification / decision theory | Thresholds from action costs, abstention paths | `references/mappings.md#2-probabilistic-judgments--cost-sensitive-decisions` |
 | Decision tables / circuits / state machines | Jev predicates, code owns transitions | `references/mappings.md#3-semantic-predicates--decision-circuits` |
 | Retrieve + expensive relevance fn | Bounded rerank of a retrieved shortlist | `references/mappings.md#4-retrieval--bounded-semantic-reranking` |
+| Agent self-supervision / on-track detection | Pre-gate → output judge → done-check → supervisor nouls | `references/agent-self-assessment.md` |
+| Context economy / compaction | One relevance Noul per tool result, stub + recall key | `references/agent-self-assessment.md` |
 | Heuristic search over a taxonomy | Parallel beam over Choice distributions | `references/mappings.md#5-hierarchy--bounded-heuristic-search` |
 
 Each card carries its boundary, counterexample, and acceptance test, plus
