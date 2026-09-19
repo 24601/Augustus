@@ -52,6 +52,11 @@ until you label *your* cases.
 | Crossover metaphors | NATM, snap-fit, Norman, Kent, Shirky | This file §crossover |
 | Formal / semi-formal | Proof vs DST vs judgment | `formal-methods.md`, `formal-semi-formal.md` |
 | Class / family / objective | Decide vs locate vs categorize vs rank vs perceive | `judgment-class.md` species map |
+| Boundary map / extractable-from-state | Self-contained in fed state vs needs outside knowledge | This file §boundary; atlas receipts `notes.md` §49 |
+| Control-plane combinators | Then/Gate/Vote/Cascade/Weighted + Router/Loop/Retry/Fallback/Memory; digital-design metaphor ≠ literal AND/OR | `composition-algebra.md`; `notes.md` §66, §69 |
+| Conflict ≠ ignorance | Noul collapses both; named Choice escape separates; binary Choice without escape is lexically biased | `question-design.md`; `notes.md` §69 |
+| VOI cache / attention admit | Same-intent skip LLM; worth-your-attention before click; skip the narrating second call | jevcache / ThinkyMiner Winnow / hermes-jev-router; `notes.md` §69 |
+| Eval integrity (receipts not leaderboard) | Hold/break map + budget-attached bake-off + OOD ECE with sign | atlas / frontier-100 / ood-calibration; `validation.md`; `notes.md` §66 |
 
 Pick the pillar from the hole, then the family, then the vendor.
 
@@ -105,6 +110,61 @@ SWE examples are **Empirical** (git-jev-stage, OpenSmoke). The others are
 curve on held-out *your* cases; score the fallback (escalation is not
 automatically correct). `mappings.md` §2.
 
+## Boundary map: extractable from state (placement judgment)
+
+Primary mental model this hour
+([jev-capability-atlas](https://github.com/Zaious/jev-capability-atlas);
+independent unofficial receipts, not a leaderboard; `notes.md` §49).
+Before picking a family or a vendor, place the *task*:
+
+> Is the correct answer fully recoverable from the `state` you hand
+> the model, or does it require outside knowledge that is not in
+> `state`?
+
+| Self-contained (in the state) | Not self-contained (needs outside knowledge) |
+|---|---|
+| Classify / route / gate over text you already hold | Trivia / recall with no supporting passage |
+| Citation / paraphrase / reversed-meaning given claim + quote | Score that needs comparison against a whole field |
+| Sarcasm / entailment whose trigger is in the given text | Overlapping blurred categories (dangerous-high ECE) |
+| DOM snapshot / numbered candidates → Choice | Combinatorial assembly (grid cells that must agree) |
+
+**Empirical as that named axis, not as a knowledge-breadth estimate.**
+History suite (N=3, single annotator, Chinese history; Case A ground
+truth itself contested): common-knowledge item **wrong @ 0.90** with
+no context (Yongzheng; Kangxi by popular convention); obscure item
+near-flat **0.07** without a passage (correct by luck; informal rerun
+wrong @ 0.08) → **right @ 0.97** with the passage in `state`
+(Xianfeng, 0.98 mass). Teaching: **bare memory is unreliable; reading
+comprehension over supplied text is reliable.** Retrieve first; put
+the passage in `state`. Do not treat the atlas 30-second slogan as
+the table.
+
+**Placement, not internals.** The model is not a state machine under
+the hood (distributed LM understanding: `paraphrase_support` and
+`reversed_meaning_high_overlap` both judged correctly). It *is*
+correctly used as a **component node** in *your* program — code owns
+transitions (`mappings.md` §3). Confidence is a **statistic from the
+distribution** (RLCD trains the distribution; Choice `confidence` is
+how peaked it is), not a second trained correctness score.
+Calibration is **population-level** and can fail **dangerous-high**:
+DAIR Emotion via jev-benchmarks — 48% acc, mean conf **0.819**, 16%
+of items p(correct)=0. Overlapping categories, overconfident. Plot
+reliability on *your* labels before you threshold.
+
+**Browser-use is this axis, not vision.** Strength = DOM-as-text +
+speculative fan-out over candidates code already numbered — a visual
+task translated into extractive text. Not screenshots. Same
+component-node placement as lizard-agent / solari-reflex /
+gliner2-ultrafast (GLiNER2 encoder backend of the same hole;
+`notes.md` §52). Contrast blackwood-rlcd (screenshot + marked
+letters). (`applied-mappings.md` §2; `mixed-architecture.md`).
+
+**Does not:** merge Banking77 87% (atlas/jev-benchmarks) with DMB
+76.3% or jevals.com 79.67% into one ranking — protocol / n / split
+(`validation.md`, `notes.md` §49). Combinatorial grids are not
+extractive keep/drop (ARC-AGI Direct Jev 4/400). FAQ: when-it-holds;
+state-machine; retrieve-first.
+
 ## Calibration and cost-sensitive thresholds
 
 A number you can threshold is a *decision* number only after you check
@@ -116,8 +176,10 @@ LoRA students report agreement with the teacher (`notes.md` §33). Hume
 prefers the class name **decision models** over "system one"
 (`notes.md` §33); this file still says System One when quoting TypeSafe.
 Three open paths, not three species: encoder open-jev, AR constrained
-decode (TypeAR + pcdServer), trained decision-only (Laya / Nimble /
-Archer Watch). A constrained softmax is still not a Noul (`notes.md` §42).
+decode (TypeAR + pcdServer; decision-token LoRA), trained decision-only (Laya / Nimble /
+kev / **blackwood-rlcd** / Archer Watch). kev is the runnable Archer reconstruction on that
+third path (text-only); blackwood-rlcd is that path with **image-in now** (CC BY-NC);
+Watch stays Watch. A constrained softmax is still not a Noul (`notes.md` §42, §45, §46).
 
 **Readout versus a token; IIA is a property.** A direct probability and a
 generated "91%" are different objects; the format calibrates neither
@@ -130,6 +192,11 @@ two existing options in every block, and reversing order moved a
 probability across a ~0.9 threshold. Property-test both (`validation.md`).
 Correctness is not that confidence field: report both, on held-out
 cases (`validation.md`, Eval & hill-climb). Stimulus design, not a proof.
+Atlas receipt of the same arithmetic: DAIR Emotion mean conf 0.819 at
+48% acc (`notes.md` §49) — population calibration can fail
+dangerous-high on overlapping labels. DMB S5: jev admits-ignorance
+49.7% vs most constrained LLMs 97.3–100% (ECE 0.246). Do not skip
+the honesty suite because in-distribution ECE looked fine.
 
 For a calibrated binary p and unequal error costs, the Bayes threshold
 is `t = C_FP / (C_FP + C_FN)` when you act vs not
@@ -184,7 +251,10 @@ Contract. The *placement* (gather as an enumerated act) is the method;
 the calculator is **Hypothesis** until you log act/outcome pairs.
 Mapping card: `mappings.md` §6. Paying *zero* because a regex already
 answers is also VOI — abstain from calling any model
-(`typesafe-jev-tools`, `notes.md` §42).
+(`typesafe-jev-tools`, `notes.md` §42). A harness that *picks which
+primitive to run* (JevML's claim: PCA / MCMC / diffusion / NCA) is the
+same gate one layer down: maybe none of them (`notes.md` §44).
+Hypothesis until that picker has a labeled log.
 
 **Transfers:** "ask a second question" / "retrieve one more candidate" /
 "run the expensive LLM" only when VOI clears the cost. Cheap fan-out
@@ -247,11 +317,20 @@ probe.
 | Business | sales stages | "is this still a real opp?" | amount, close date in CRM |
 | Life | cook / rest / check | "does this look done?" | thermometer (probe) |
 | Org | incident command | "is this still contained?" | head-count, location |
+| Infra | Postgres query planner | override join/card when confident | the stock planner (fail-open) |
+| Live media | ABR rung / resolution | "which ladder step?" | probe × headroom, thermal, battery |
 
 Rejected: bandits without observed rewards; Jev as the planner that
 picks its next tool in a loop (`boundary-audit.md`); PufferLib Ocean
 scores as a capability claim (`formal-methods.md` DST trio). Mapping
-card for the cross-domain loop: `mappings.md` §9.
+card for the cross-domain loop: `mappings.md` §9. Soft judgment
+inside a hard envelope: bitrate-advisor (ABR) and mmalisper's JOB
+hybrid (Postgres plans first) — `notes.md` §44. Compaction envelope
+(encoder, not Jev): gliner25-compaction — mutating tools / shell
+operators prove `keep_full`; the model may only match that or be more
+conservative (`notes.md` §50). Stdout-prune envelope (Jev):
+jev-pruner — ≤10k / JSON-diff-whole-doc prove pass-through; Noul on
+the remainder; fail-safe keep original (`notes.md` §53).
 
 ## Signal detection
 
@@ -303,6 +382,12 @@ This is hospital, aviation, kitchen, boardroom, and agent harness alike:
   in policy / code / physical interlock.
 - The sensor ("does this note mention an allergy?") may be a Noul.
 - Confidence does not waive the constraint.
+
+**Capability kernel (Empirical as architecture, `notes.md` §59):**
+[interlock](https://github.com/somoore/interlock) — the sensor is a
+parallel Noul battery; the constraint is `policy.py` plus a closed
+action space and canaries. Type-safe ≠ correct. Distinct from
+asking "dangerous?" after the LLM already held the secret.
 
 Org placement: cheap judgment over every incident step (OpenSmoke
 shape) so humans only autopsy flags. That is NATM instrumentation of
@@ -391,12 +476,141 @@ Use these as *existence proofs of a position*. Write your own card.
 | Knowledge work | what to read next | on-question Noul + quality Score | library you hold |
 | Hiring | interview / reject / hold | evidence Nouls; veto rules in policy | labor law, scorecards you wrote |
 | Inbox | reply / snooze / archive | urgency Noul + aboutness Choice | send, calendar |
+| Knowledge work | extract a quote / a cited fact | per-sentence or per-line-id Noul/Choice (**Empirical**: testimonial-miner, jev-reviewer) | verbatim join; place; human publish permission |
+| Agent context | compact completed tool results without inventing prose | retention Choice + char-offset locate (**Empirical**: gliner25-compaction; same *job* as fast-jev-compaction / pi-jev-compaction) | mutation/shell envelope → keep_full; fail-closed keep_full; shadowMode before replace; copy exact bytes |
+| Agent context | prune Bash stdout before the LLM without inventing prose | Noul per chunk after a hard size/format envelope (**Empirical**: jev-pruner) | ≤10k / JSON-diff-whole-doc untouched; fail-safe original; archive dropped spans |
+| Dataframe labeling | classify / score rows | Noul/Choice/Score + full `p__` (**Empirical** as jevframe / jevpandas *shape*) | pandas/Polars, thresholds in code |
+| Computer-use speed | one verified act per step | score / Choice among numbered a11y/DOM/OCR+AX/ASR-transcript controls (**Empirical**: solari-reflex Jev; gliner2-ultrafast GLiNER2; laya-mind2web Laya DOM indices; cua-s1 option-attention, source-only, not TypeSafe Jev; Stagehand experimental Jev harness, draft; **closed-vote no planner:** JevOnly; **host-owned:** waymode; **hot-click ego-lite:** ego-jev; **OCR+AX desktop:** typesafe-computer-use hosted Jev, **427★**; **ASR voice-browser:** jev-voice-browser hosted Jev, **103★**) | Guard check; deny-list absence; no screenshots **on the decision**; no waveform to Jev; `DONE` ≠ success; plan ≠ execute; LLM fallback; pick ≠ replacement; type without generation; host handlers/permissions; `--until` beats Jev `done`; exclusive action set; spoken confirm ≠ auth |
+| Agent turn | skip memory tour on easy intent | intent Choice (**Empirical**: jev-hermes) | Memory still writes; complex still searches |
 | Document / lab routing | which pages need the expensive observation | Noul on remainder after a text layer / recipe | local extract, merge order (**Empirical** as OCR-router *shape*) |
-| Shell / tool allowlist | unlisted remainder after a proof | five Nouls on unknown verbs | Proven/Refused in code (**Empirical**: jevgate) |
+| Shell / tool allowlist | unlisted remainder after a **proof** | five Nouls on unknown verbs | Proven/Refused in code; cannot block (**Empirical**: jevgate) |
+| SWE | residual AGENTS.md / CLAUDE.md rules | one Score per named instruction-file rule | linter owns hard rules; bands + fail-open (**Empirical**: Abide replay, `notes.md` §47) |
+| Screenshot candidates → act | lettered elements code already marked | Choice over those letters | Click in code (**Empirical** as blackwood-rlcd *shape*; CC BY-NC) |
+| Browser / DOM candidates → act | numbered elements from a **text** snapshot | score among those ids (**Empirical**: atlas browser-use / jev-ultrafast / gliner2-ultrafast *shape*: DOM-as-text, not vision; cua-s1 specialist form, source-only; Stagehand a11y + editable-id side channel; **Empirical as README**: typesafe-computer-use OCR+AX macOS, **427★**) | Click / copy in code; no screenshots **on the decision**; hybrid remote TYPE optional; plan ≠ execute; schema/gate else LLM; overlapping options = doubt |
+| Extract from a page | values already in element text | pick elements; copy bytes (**Empirical** as Stagehand #2955: 37/75 no-LLM ~0.5s vs 4.37s *their* card) | Schema plan; completion gate; screenshot → LLM; 36/75 LLM-off honesty |
+| Knowledge / recall | fact that is not in the document | **Do not ask.** Retrieve the passage first; then a self-contained Choice (**Empirical**: history suite A wrong@0.90 → C right@0.97) | Index, citation, the passage in `state` |
+| Dual-process cascade | cheap classify / route vs write | S1 typed decision + τ; S2 generates only on low conf (**Empirical as a productized metaphor**; routing accuracy **unmeasured** — dual-process-ai). **Harbor-shaped cousin:** decide→policy→LLM leftover on labelled emails (**Empirical**: jav-email-cascade; Noul 0.5 never rounded; mock gen-json flat-confidence is *their mock*) | Safety still fail-closed in code |
+| Domain specialist vs few-shot | when policy reads p vs when only argmax | Train local LoRA on independent gold if downstream uses the distribution; hosted+examples if argmax (**Empirical**: Domain-jev-maker KL 0.168 vs 0.580; McNemar n.s. on few-shot determinate) | Threshold / EU in code |
+| Semantic `ORDER BY` | put rows in a defensible order | Measure pairwise inversion / Score ordinality / ties; do not treat ECE as the sort certificate (**Empirical**: jev-orderby-bench six gates; Score 0.143 weak link; 53-way 0.99 tie) | Secondary key; measure request shape |
+| CI merge-gate | ignore infra noise without merging a real bug | cause Choice per cluster (**Empirical**: latch demo PASS vs BLOCK) | Cluster + fingerprint + `--gate` table; reporter never fails the runner |
+| Sleeping-agent resume | skip a worthless LLM turn | p(wake) (**Empirical** as safety table; 21/21 smoke — wakegate) | User-message / skip-limit / error always wake |
+| Claim integrity at Stop | do not ship hallucinated-done | supports/contradicts vs session evidence (**Empirical**: clear-head) | Keyword retrieve; firm-confidence floor never blocks |
+| Code-graph index | cheap S1 extract, S2 only on the tail | GLiNER locate + confidence escalate (**Hypothesis** as 10–50×; **Empirical** as degraded-load / no-invent-edges) | Graph in code; do not dump repo if S1 failed to load |
+| Combinatorial puzzle | whole grid / program that must be consistent | **Rejected as extractive.** Cell-wise Choice assembly is not keep/drop (ARC-AGI Direct Jev 4/400) | Search, a program, a simulator |
 | Moderation | hold before publish | hazard Nouls (**Empirical** as family) | block/review policy |
 | Phishing / fraud screen | hold vs deliver | SDT criterion on a Noul | blocklist, SPF/DKIM exact (**Hypothesis**) |
 | Personal ops | cook done / not | "looks done" Noul | thermometer probe |
 | Org safety | stop the line | sensor Noul | interlock, two-person rule |
+| Knowledge / RAG | reason only over kept evidence | retrieve wide → decide → evidence set (**Empirical** as architecture: decision-native-rag-skills; classify-first MCP cousin: jev-sift; **Hypothesis** as a measured win) | Conflict/temporal/provenance in code; embeddings / file lists generate candidates; errors/truncation ≠ irrelevant |
+| Agent I/O | classify first, read selectively | batch path/url/text → relevance or typed questions (**Empirical** as README: jev-sift; topology A MCP) | Hard envelope (50 / 60k / 2MB / public-IP); main LLM opens survivors |
+| Spreadsheet / catalog | named semantic columns | heading scores each row (**Empirical** as *shape*: jevpandas / jevframe; jevable intent columns). Snack MCDA clocks are **claims** | Weights, vetoes, exact fields in code |
+| Robotics / control | observe → decide → act on a body | Choice on **geometry-as-text**, not pixels (**Empirical** as showcase: MuJoCo / MOSS; cousins jev-drone, Doom JSON; **Empirical as README delta**: khordoo/jev-reflex-autonomy-lab — S1 keeps flying, S2 one-use, no graphical input) | Kinematics / Hz / physics in code; two-call split; do not replace A*. Drawing-pixel claim ≠ Archer. S2 never grants. 20% still soft |
+| Draft quality gate | kill drafts that break rules | quality Noul/Score (**Empirical** as fail *mode*: silence treated as safer) | Fail-open / heartbeat on missing verdict; contrast Abide `<0.5` (edit proceeds) |
+| Session memory | next task sees last session's facts | scored recall over a verbatim ledger (**Empirical**: carryforward; 9×3 hint; **0/4** recall) | Constraints always-keep; fail-open dump; SessionStart > hoping |
+| Application control flow | `if` / `case` on a judgment | `chance`/`pick`/`rate` as language primitives (**Empirical**: hunch; English-as-config) | Fail polarity per action; stub backend |
+| Healthcare huddle / recon / inbox | escalate / hold / route | S1 remainder after NEWS2/code (**Empirical** as synthetic report: explore-typesafe-ai; **not clinically validated**) | NEWS2, recon, routing in code; S2 blinded review |
+| Intent cascade vs nano/encoder | escalate when unsure | pre-registered kill/go (**Empirical as practice**: jev-baselines-eval **AMBIGUOUS**; cascade sign-flip; encoder-with-labels wins) | Thresholds, serving-path honesty, ECE if you claim calibration |
+| Public primitive / wall | typed answers on a sentence | six parallel questions (**Empirical** as README: ask-jev-ai; cost-to-1M from tokens) | Policy-in-code; no-key allowlist; safety threshold in code |
+| Codebase meaning-search | relevant file/chunk without knowing names | packed parallel relevance (**Empirical**: jevgrep 79% top-5 vs BM25 40% / grep 20% on stripped repos). **Line meaning-grep** AND/OR/NOT after threshold (**Empirical**: jev-semgrep 0.94/0.98 *theirs*; proposition ≠ embedding; contrast-set refund; Semgrep.dev collision; not a gate; `notes.md` §86). **Evidence packets** index-once (**Empirical**: jevex 1/8→6/8 n=8 *theirs*) | Keyword still wins exact strings; packet HitFile 0.233 is diagnostic; Japanese noisier near threshold; do not multiply parallel p |
+| PR review attention | where a human should look | P0/P1/P2 (**Empirical** as README: egma-ai/jev-reviewer). **Not** correctness; **not** choxos pointer-not-generator | alwaysReviewPaths P0; incomplete never P2; generator writes deltas |
+| Skill-derived lint | remainder after AST/precheck | Noul/Choice on guidance in state (**Empirical** as Phoenix: jev-oxlint) | Parser/precheck in code; not a hard gate; `tenbin` owns lint skill |
+| Session model route | which model for this thread | first-prompt Choice, then lock (**Empirical** as README: jev-adaptive-thinking) | Fail-closed declared fallback; never reclassify later turns |
+| RAG vs generative rerank | which passages to keep | pointwise relevance (**Empirical** as one-run: Jev-RAG ≥70%/72% vs Spark rerank; full-context Spark still faster) | Embeddings generate candidates; name the no-RAG arm |
+| Untrusted agent / secrets | never hold the real key | hazard Nouls as **sensor** (**Empirical** as architecture: interlock) | Closed action space; canaries; `policy.py` BLOCK/ASK/ALLOW; type-safe ≠ correct |
+| Live chess coaching | speak only when it matters | severity / interrupt / error-class (**Empirical** as Wave 0 PRD: game-coach) | Stockfish owns eval; templates + capped writing model own words |
+| Kill a listening port | stop stale listeners without murdering the wrong PID | Stop/Keep/Review Choice (**Empirical**: port-cleanup) | Human confirm; identity re-check; shields override; mapped explanations |
+| Calibration measurement | honesty of native probabilities | Brier/ECE/reliability on analytic worlds (**Empirical**: jev-arena live Brier 0.0059 / ECE 0.0620 *theirs*) | Oracle stub; fan-out batches; not verbalized confidence |
+| Ranking vs calibration | does `ORDER BY` put rows right | Pairwise inversion / Score ordinality / two-decimal ties (**Empirical**: jev-orderby-bench) | Secondary key; do not quote ECE as sortable |
+| Training-data VOI | which unlabeled rows are worth an expensive label | Confidence routes accept / teacher / human; log full distributions (**Empirical**: jev-triage) | Real outcome labels stay the targets; do **not** distill Jev as teacher (~68% ceiling) |
+| Constrained-AR speed vs calibration | O(1) structured decode vs a Noul | Measure Brier/ECE, not only latency (**Empirical**: system-one-benchmark n=50; PCD Brier 0.3884 vs Jev 0.1096) | Schema-valid is not calibrated |
+| Closed-vote CU | task with no planner LLM | Code builds options; model only picks (**Empirical**: JevOnly; waymode host-owned) | Type without generation; `completed` ≠ server-state success |
+| OMP/pi gate | done-check / subagent topology | Choice, not boolean; fail-open missing Jev (**Empirical**: omp-jev-extensions) | Contrast pi-jev-approver fail-closed |
+| Permission vs probability | auto-approve a gated tool call | Operator-owned criterion; plugin never self-tunes the bar (**Empirical**: omp-greenlight 40.9% / 0 of 94 *theirs*) | Not a sandbox; host deny stays above; live traffic unlabelled |
+| Judgment ≠ permission | which specialised skills to inject | Jev scores relevance; code owns grants (**Hypothesis / outline**: skill-broker) | Never broaden access on Jev failure; not a production recipe |
+| Eval integrity / instrument | is this eval's score trustworthy | Audit data/scorer/runs/claims; test a Jev question like an if (**Empirical**: dinostomp; ECE 0.062 *theirs* on 24) | 99 of 189 findings against itself; not a Harbor taskset |
+| Constrained optimizer + S1 features | which backend meets quality + SLO at min cost | Judgment as a *feature*; solver owns floors (**Empirical as shape / negative**: slo-router p95 77.93→490.38 same routes *theirs*) | Never the sole hot-path gate; fail-open local features; eight-row demo is not a benchmark |
+| Privilege ≠ verdict | is this shell command safe | Effect semantics + independent risk Nouls (**Empirical**: construct-auto-classifier; Jev 0 dangerous / 975; chat leaked) | Fast-allow/deny prove; landed-script trust; headless ≠ auto-approve; fail-closed |
+| Attention filter / human-review VOI | do I need to look at what the agent did | Per-file Nouls; never blocks the agent (**Empirical as README**: rashedInt32/jev-lens; never green unless sure) | Not a permission gate; distinct from dizk/jev-lens pre-send views |
+| Measurement owns endorsement | is this question pack shippable | Evidence-gated accuracy/ECE/cost/latency on a pinned version (**Empirical**: jev-packs nine verified *theirs*; **jevassert landed** record/replay CI) | No numbers → `provisional`; `unknown` mandatory; `check` offline |
+| Jev supplies evidence, code owns authority | may this tool call run | Deterministic policy ALLOW/REVIEW/BLOCK; Jev is the sensor (**Empirical as slogan**: actiongate-jev) | Positive p never overrides a hard fail; fail-closed on irreversible classes if Jev is down |
+| Ranking ≠ calibration | can I threshold raw p as a frequency | AUC vs ECE/Brier vs human rates (**Empirical**: 8,000 judgments; stated ~75% vs human ~10%; ~96% ECE removed) | Recalibrate on *your* labels (`jevcal` ~100 rows); vendor "calibrated" often means rank-correlation |
+| Hot-click CU | next click / type from a viewport | Indexed element table → operation+target (**Empirical**: ego-jev; ~2× vs per-step LLM, n=3, not a bench) | Code owns observe/execute/`--until`; generator only for type; Jev `done` ≠ success |
+| Compact without paraphrasing | drop irrelevant history, keep bytes | Keep/drop per message; pins + regex floor in code (**Empirical**: jev-compactor later **73%** / 350 ms / 4 of 4 vs shipped summarizers; §65 vs-Sonnet 64.5%/366ms) | Never rewrite; compaction fail-open if Jev down; safety fail-closed |
+| Hold-before-show social | collapse junk replies | Local rules prove easy junk; remainder Nouls (**Empirical**: x-reply-filter) | Collapse not delete; never auto-train on the model's own hides |
+| Never confidently wrong | protocol verdict under noisy evidence | TLA+ quorum + stability; Jev is the oracle (**Empirical**: jev-labs 1,080 golden 0 wrong *theirs*; escalate 5%→18% under severe) | Escalate is allowed; not a proof of zero; synthetic ≠ clinical |
+| Advance / coverage | whether the world may change | Seal + coverage.path ledger (**Empirical as README**: seal; Jev answers questions, SEAL answers advance) | Exception queue visible; mint ≠ product brain; code seals first |
+| Sureness of a distribution | act / escalate / abstain | max_prob/margin/entropy/gini (**Empirical**: how-sure-is-jev; Choice confidence = max_prob) | Bands are policy; pair with OOD; max_prob is generous |
+| Cheap review triage | auto-approve / human-review / block | Four typed questions before expensive review (**Empirical**: ci-gatekeeper 504–629 ms *theirs*) | Operator owns thresholds; distinct from latch flaky-vs-real |
+| Attention redirect (agent Stop) | one more look vs finish | Eight risk Nouls (**Empirical**: jev-preflight; fail-open; 0.85 uncalibrated) | Not a merge blocker; not rashedInt32/jev-lens |
+| Pre-send perception | which lines enter the prompt | Code-built views; Jev picks (**Empirical**: dizk/jev-lens 79% fewer tokens / 500 trajectories) | Compress before first send; code full unless confident |
+| tools≠use | will the agent call memory? | SessionStart injects; tools sitting there are not VOI (**Empirical**: carryforward 0/4) | Hook > hoping |
+| Observational memory | what to keep, what kind | Keep/kind; verbatim ledger; model-free compact (**Empirical as README**: pi-om) | Failed Jev does not drain buffer; not a summary |
+| Physical-world S1 | typed house questions | Sensors + automations (**Empirical**: HA-Jev 17★) | Not for locks/heaters/smoke; arithmetic in templates |
+| Open-Jev class | finite choice + prob without TypeSafe | LM/vision/voice; JevPick; `/v1/systemone` wire (**Empirical**: openvons) | NOTA; execute/confirm/reject; not a replica |
+| Judgment outside the store | semantic SQL over vanilla Postgres | CLI judges; DB sees ordinary SQL (**Empirical**: jevql) | Contrast pg-jev in-engine; cheap SQL first |
+| Record/replay eval | can CI gate accuracy+calibration+cost | Record once; replay offline (**Empirical**: jevassert) | Live calls belong in `record`, not in PR CI |
+| Failure-finding vs leaderboard | where does the judge fail | Reviewed atlas, not a winner crown (**Empirical as README**: chenmingtang830/jevarena; harness not findings) | Qualify vs meetr1912/jev-arena |
+| Stereotype / uncertainty / cost | does missing evidence leak a stereotype | Typed Choice + unknown option; report bias **and** accuracy (**Empirical**: BBQ 97.28% / 0.04 / 0.34 / $0.3429 *theirs*) | Not a general bias cert; 12/13 amb errors stereotype-aligned |
+| Decider ≠ executor | who picks the next act vs who writes args | Jev next-tool/progress/risk/done; LLM fills (**Empirical as README**: jeffrey) | Risk≥0.5 pause; stuck ladder; not a planner-writer |
+| Decider ≠ executor across timescales | who flies vs who advises | S1 typed action every tick; S2 one-use strategy (**Empirical as README**: khordoo/jev-reflex-autonomy-lab) | S1 never stalls; S2 never grants; jeffrey is the SWE cousin |
+| Escalate without stalling | pay S2 only under threshold, keep the loop | Async planner; reflex keeps steering (**Empirical as README**: khordoo; cousin classifier.dev smart *does* wait) | 20% starting gate *theirs* still soft; not Harbor τ |
+| Mixed-initiative consumption | was the advice actually used? | Purple confidence = consumed; purple S2 bar = arrival; red = fail (**Contract as telemetry**: khordoo) | Arrival ≠ used. Green = local context |
+| Local controller ≠ localjev | which reflex backend? | Rule-based built-in vs hosted `jev-latest` vs prompted-JSON Bun vs ONNX (**Contract**: khordoo Local/Live; **≠** githubnext/localjev **≠** kunchenguid/local-jev) | Same physics/seed; not a scored bake-off |
+| Split kind/item/site | one 255-way soup vs three questions | Parallel Choices; used-only-for-matching-kind (**Empirical as README**: typesafe-computer-use) | Off-screen is a fourth question, not mixed into items |
+| Exclusive CU actions | overlapping labels as false doubt | Confidence is concentration (**Contract as README**: typesafe-computer-use; wellposed cousin) | Missing `other` is the quiet 1.00 failure |
+| Perception rebuild | what frontier reads from pixels for free | OCR crop/tile, AX walk, dates.py, clock, URL (**Empirical as README**: typesafe-computer-use) | AX never sole (Spotify 0). Decision ≠ answer-reader capture |
+| ASR as perception | waveform vs transcript | Web Speech producer; Jev on text-state (**Empirical as README**: jev-voice-browser; compose with OCR §81) | Audio never enters the Choice. Skip Archer |
+| Partial-speech VOI | act now vs wait for the rest | `complete` Noul + silence; closed-set may fire; free-text waits (**Empirical as README**: jev-voice-browser) | Truncating "search for alan" is the cheap failure |
+| Spoken confirm ≠ auth | destructive click | Second Noul path; convenience not guarantee (**Contract as README**: jev-voice-browser) | Control-port reach is the real grant |
+| Overlay disambiguate | which of 2–3 targets | Numbered badges; spoken digit; no second model (**Empirical as README**: jev-voice-browser) | The id is already in code |
+| Wrap-as-execution | can the model skip the judge? | The wrap *is* the tool function (**Empirical as README**: AgentGhost; ASK throws; fail-closed) | Advisory sidecar is theater. rh-guard owns the gate cousin |
+| Rules first then remainder | which verbs skip the model | allow-list proves; Jev on leftovers (**Empirical as README**: AgentGhost `allow` skips judge) | Contrast fail-open allowlist that cannot block |
+| ASK throws | can HITL be silently skipped? | Default errors; wire `approveWith` (**Contract as README**: AgentGhost) | `AUTO_APPROVE` is a demo hatch, not a grant |
+| Genre atlas ≠ bake-off | is this a rank? | Apps by hole; stars research-time (**Empirical as tweet**: [@studio_yebisu](https://x.com/studio_yebisu/status/2101065176069886152)) | ≠ class census §77 ≠ v1.2 board. Likes ephemeral |
+| LLM hammer for bounded decisions | does this call need generation? | Typed answers when code already knows the options (**Empirical as article**: [@akshay_pachaar](https://x.com/akshay_pachaar/status/2101037514945597645)) | Mixed architecture, not stack replacement |
+| schema-safe ≠ correct | can it still be wrong? | Cannot invent out of schema; can pick the wrong valid option (**Empirical as article**: Akshay; safer *theirs*: schema holds, judgment can fail) | Cousin of type-safe ≠ correct / jaggedness |
+| Questions-as-code / shadow rollout | may this branch go live? | Rubric first; shadow beside current; plot accuracy vs confidence; pin questions (**Empirical as article**: Akshay) | Do not rebuild the agent first. 200×/400× are TypeSafe ceiling |
+| Sentence-as-rule | does this named artifact contradict itself | Structural matcher × one sentence scored (**Empirical**: mizchi/jevlint 13/15 1.00/1.00 *theirs*) | Mechanical defects stay with the compiler; qualify vs huntedman/JevLint |
+| VOI admission (expensive review) | which hunks are worth a generative look | Typed per-hunk probabilities; safety keep-set in code (**Empirical as pilot**: prune-review 1.18% with 305% outlier *theirs*) | Cost ≠ quality; ~20% is a target not a result |
+| Whole-repo intent | does unchanged code still violate the ask | VERIFIED/VIOLATION/UNKNOWN (**Empirical as CLI**: jev-intent-review) | Empty search ≠ proof; observation window ≠ the diff |
+| Persist constraints | will "don't touch that" survive compaction | Structured policy + replay; Jev classifies meaning (**Empirical**: pi-heed 98.5%/0 false block *theirs*) | Jev never writes policy; fail-open |
+| Open replica substrates | same contract, different engine | Isolation / byte-parity / agreement tests (**Empirical**: grande JGLUE; laya-jolt golden; local-jev 30%/57%; JEV-CPU PoC) | Softmax ≠ Noul; spec ≠ product; Meanblock 404; Archer Watch |
+| Harbor SGR-judge contract | does evaluation need generation? | Frozen protocol vs schema-guided LLM judges; invalid = FN; cost/latency first-class (**Empirical as contract**: jev-judge-bench; **no quality headline yet**) | Canaries ≠ F1; incomplete cohort ≠ replacement claim; qualify vs jevarena/jevbench |
+| Hand no-text steps | which loop steps need no writing | Plugin/control plane; writing stays generated (**Empirical**: jev-use 220 ms p50 / 12/12 gate *theirs*) | Vercel drops confidence → margin ≠ vendor head; fail-open gate never grants |
+| Control plane, not a second agent | router / gate / retry / sieve / review / click | Named sensors; fail polarity per act (**Empirical as README**: pi-jev-control) | GUI never force-click; compaction never writes the session |
+| Generation as a tree of Choices | next word without free generation | One typed question per choice over a closed lexicon (**Empirical as README**: jev-gpt ~400 calls / 75 s / 2¢ *theirs*) | Architecture demo; not a product writer; still pick ≠ fill |
+| Recipe atlas (code prepares) | which narrow questions fit this job | Samples show technique; policy in code (**Empirical as recipes**: jev-cookbook; 16–36 not benches) | Thresholds are a dial; numbers/dates stay exact |
+| Personal history without a social graph | what to show next from *your* trail | Rank outbound links; distribution *is* ranking (**Empirical as README**: jevfeed) | Generating the next look converges on a mirror; history never uploaded |
+| Dual-channel ECE / claim-audit | is this NAR "better calibrated"? | Like-for-like channels; n and CI before SOTA (**Hypothesis until independent run**; openJev-verdict-2.0 + PR #1) | Throughput ≠ latency; correctness-head ≠ distribution ECE; ≠ IamBusy/OpenJev |
+| 1-token logprob ≠ Noul | can a generic LLM's next-token mass be the judge? | Constrained decode over caller-enumerated labels; coverage is format-mass (**Empirical as 336-case GUI**: chakuho 27B 95%/92% vs Jev 89%/82% *theirs*) | Softmax ≠ Noul; 8B coverage 1.00 while `__none__` collapses; arithmetic in code |
+| Open replica runtime | same wire, faster forwards | Prefix reuse + family adapters; argmax-parity is the honesty check (**Empirical as README**: jevinf 2.57×/2.27× 100% argmax *theirs*) | MPS only; not ECE; not TypeSafe |
+| Files-to-read VOI | which ranges change the next Read | Index-once, BM25, Jev packet (**Empirical as n=16**: jevex 160s→69s / $8.74→$3.13 / 16/16 *theirs*; keep n=8 finish 1/8→6/8) | Not a patcher; HitFile diagnostic; rename of jev-semantic-explorer |
+| Commit attention ≠ verdict | is this commit worth a human look? | Typed Nouls + middle "review" band; regex proves literals (**Empirical as 13 labelled**: commitjev; 0 false on 5 clean *theirs*) | Small control; never round the middle; Nouls decide, Choice headlines |
+| Decision-native queue | where should limited attention go next? | Atomic signals × deterministic policy (**Empirical as README**: mailordinal 100-point; humans own ambiguity) | Do not ask "how urgent"; arrival time is a poor proxy |
+| Language OOD / confident-wrong | will p drop when the checkpoint cannot read? | Route by script **before** the forward pass (**Empirical as MASSIVE**: laya-multilingual; Khmer 0.000@0.952 *theirs*) | English checkpoint mean conf never < 0.885; gating cannot catch; ships uncalibrated |
+| Schema-conditioned ranking | new labels without retraining | Scalar head per candidate; code softmaxes (**Empirical as Hub eval**: schema-scorer v2 Choice 0.841 *theirs*) | Peaked one-hot training ≠ calibration; GitHub 404 this pass |
+| Branding ≠ backend | is this actually System One? | Read the client, not the badge (**Contract**: hermes-plugin-jev is Agnes chat-completions) | Distinct from hermes-jev-router |
+| Productized System One HTTP | label + calibrated p as a public contract | Batch `{id,text}[]`; LLM fallback only (**Empirical as README**: classifier-dev **185★**; 400 headlines 650 ms *theirs*) | Distinct from ask-jev-ai wall; policy stays in code; not omni |
+| Escalate-under-threshold | pay S2 only where p might change the act | Smart re-asks single-label <0.7; multi-label ignores (**Empirical**: classifier-dev ≥0.9→82% / <0.5→29%; gemini 87.5→90.0 / 61.8→63.7 *theirs*) | 0.7 is *theirs*; re-judge that made it worse is not VOI |
+| Silent-fallback honesty | which model actually answered? | Named `FALLBACK` marker; alerts on a quiet chain (**Empirical**: granite F1 **0.546** vs advertised ~**0.800** *theirs*) | rh-guard owns the gate; dinostomp owns the instrument |
+| Evidence-synthesis pointer | which line in the paper is the quote? | Jev picks ids; code copies verbatim (**Empirical as README**: choxos/jev-reviewer **12★**; 18-q **4.6 s / $0.0101** *theirs*) | **≠** egma-ai attention. *Not found* is an answer. Spot check ≠ validation |
+| Two-pass relative + absolute | which line, and does that line itself answer? | Choice (+ none) then per-line Noul (**Empirical**: choxos; quotes Noul ≥ 0.5 *theirs*) | Multi-row tables need both; 0.5 is *theirs* |
+| Human check as productized judgment | may this quote enter the review? | Tick/edit; checked never overwritten (**Empirical as README**: choxos) | Jev SENSOR; reviewer constraint. Not optional chrome |
+| Wire-compat ≠ logit-equiv | does `/v1/systemone` mean the same p? | Prompted JSON + entropy-conf vs structured logit read (**Contract**: githubnext/localjev vs razorback16/openjev) | SDK drop-in is the wire. JSON-valid ≠ picked-right. **≠** kunchenguid/local-jev |
+| Institutional open-replica | who ships the interchange? | GitHub Next local Bun bridge (**Empirical as product**: githubnext/localjev **261★**) | Legitimacy ≠ quality headline. Softmax / generated JSON ≠ Noul |
+| Prompted-JSON bake-off | which local backbone on this *pipeline*? | Frozen AG News/BoolQ/SST-5; 1,200 req; caveats first (**Empirical as eval**: Qwen3.6 76.7% / Gemma 26B 75.0% / DiffusionGemma 74.2% short *theirs*) | No definitive winner (2/120). Not logits. Not calibrated. Not a Harbor taskset |
+| Packaging ≠ new species | is this a new head or the same Laya? | GitHub/PyPI + Router over Hub ckpts (**Empirical as README**: NandhaKishorM/laya **710★**) | Weights stay convaiinnovations/*. **≠** TypeSafe drop-in. **≠** localjev |
+| Token-budget cardinality | why does Jev win >20 options? | Options share `head_max_len`; ~3–4 tok/label at Banking77 (**Empirical as README**: 0.425 vs Jev 0.870 *theirs*) | Jev 255 options. Hierarchical Choice, not a silent cfg copy |
+| Post-T ECE ≠ raw ECE | which ECE is on the badge? | Temperature per (type, K) on held-out (**Empirical**: 0.466→0.081 / 0.314→0.106 *theirs*) | vs-Jev 0.081 is post-T. Raw typed-decisions 0.213 vs Jev 0.144. Multilingual ships uncalibrated |
+| Soft 0.85 gate | may I auto-act? | RLCD makes p *meaningful*, not Harbor-calibrated (**Contract**: README snippet) | Khmer 0.000@0.952. 0.85 is *theirs*. Route before p |
+| External census ≠ scored bake-off | is this a rank? | Named list + a promised board (**Empirical as tweet**: [@airesearch12](https://x.com/airesearch12/status/2101259522933186879); watch [jev-models](https://benchmarkheaven.com/jev-models)) | ≠ jevbench v1.1 §67. Do not paste live ranks here. Likes ephemeral |
+| Class-boundary (what belongs) | is GLiNER2 / a router an openjev? | Locate/categorize encoder + catalog routers counted beside NAR wires (**Contract as their list**) | Same job family ≠ replica. Needle 3 already not Jev-class §67. Qualify namesakes |
+| Incomplete census vs watch | are missing names out of class? | Laya / localjev / kev / TypeAR / openvons / chakuho / jevinf / grande / laya-jolt / blackwood / classifier-dev absent | Lag, not a dunk. Completeness is a board watch item |
+| Harbor honesty watch | what must a public openjev board disclose? | Calibration on/off the rank; cost/latency assumptions; silent fallback; partial runs (**Empirical as v1.2 board**: `notes.md` §78) | Soft-score-as-hard-rank is a design. Mixed class needs a class column |
+| Geometric-mean product | can accuracy buy back a weak axis? | I/C/S/K 25% each; `exp(sum 0.25 ln max(axis,1))` (**Empirical as board**: Jev **75.3** / SemIf **74.6**; Luna I=96.8 rank #7 *theirs*) | Weights are a choice. Do not mix with v1.1 87.6. ≠ tweet census |
+| Weight sensitivity | does the rank survive a different product? | Same axes, other views, still geo-mean (**Empirical**: no-cal SemIf #1; cost system-one-open #1 / Jev #5 *theirs*) | Official Score is 25:25:25:25. Other buttons are not the Score |
+| Option-order brittleness | does A/B order change the act? | Reverse yes/no labels (**Empirical**: open-alternative-jev 72% → 21% *theirs*) | Cousin of paraphrase-brittleness. Ranked row uses author's order |
+| Instruction models in a System One table | is the class the task or the architecture? | JSON-schema instruction models beside NAR rebuilds (**Contract as their legend**) | Luna/Gemini/DeepSeek/Qwen3.8. Needle 3 label-only. OpenJev = razorback16 ≠ IamBusy |
 
 Rejected in every domain: replacing the ledger with a vibe; replacing
 the interlock with confidence; replacing the essay with a Noul;
@@ -407,6 +621,31 @@ measurement; TOCTOU; Score unit fiction; independence fiction;
 threshold cargo-cult; ontology capture (Choice set smuggles the
 conclusion); Goodhart on the judge; coverage theater; scale mismatch
 (Web metrics on situated problems); vacuous assurance.
+
+## Apply this hour's class (already folded — do not re-card)
+
+When the hourly named HIGHs are already on the branch, extract
+**how to apply**, not a dump (`notes.md` §79):
+
+1. **Wire-compat ≠ logit-equiv** — same `/v1/systemone` SDK can
+   sit on prompted JSON (entropy-as-confidence) or on structured
+   logit read. Calibrate before consequential use.
+2. **Productize label + *p*; mark FALLBACK** — escalate-under-
+   threshold is policy in code; a silent head-swap is a lie
+   about the instrument.
+3. **Packaging ≠ new species** — a Router is a face. Route by
+   script before *p* when gating cannot catch OOD overconfidence.
+   0.85 is still soft.
+4. **Pointer-not-generator** — point at ids, copy verbatim,
+   *Not found* is an answer, human tick never overwritten.
+   Works at Cochrane/PRISMA scale, not only SWE.
+5. **External list ≠ scored bake-off** — census VOI is
+   completeness/class-boundary; a board VOI is the score
+   function, cal on/off, and named cost/latency assumptions.
+
+A Noul may attend or escalate. Hard-gating it as a PR/quality
+seal is soundness theater unless an exact envelope already
+proved the irreversible act.
 
 ## Decision-design extras (any domain)
 

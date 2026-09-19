@@ -13,7 +13,9 @@ signatures, and `typesafe-ai` plus the live docs own Jev's request body.
 Do not write either from this page. DSPy and Ax tune the LM-program
 slice only. They are never the primary System One calibration score;
 that seat is a jevals-shaped labeled suite, and a product loop is a
-Harbor taskset (`validation.md`, Eval & hill-climb).
+Harbor taskset (`validation.md`, Eval & hill-climb). Shared bake-off
+exemplar this hour: [`pngwn/open-jev-laya-bench`](https://huggingface.co/datasets/pngwn/open-jev-laya-bench)
+scores ECE/NLL/Brier — not an LLM-as-judge paragraph (`notes.md` §46).
 
 ## Judgment: what these optimizers may climb (Hypothesis)
 
@@ -37,7 +39,9 @@ prompt loop: schema, criteria, and policy thresholds, scored on labeled
 eval (jevals) — not a search over a decoder. Open recipes such as
 Nimble: climb data curation and LoRA, measured on holdout ECE and
 agreement. Nimble's published holdout is agreement on synthetic
-labels, not a measured ECE (`judgment-class.md`).
+labels, not a measured ECE (`judgment-class.md`). kev: climb LoRA /
+public-gold labels; the published ID ECE is a receipt, not your
+workflow (`notes.md` §45).
 
 No call shape in this paragraph. The adapter notes below stay names of
 seats, not a request you copy.
@@ -118,6 +122,46 @@ hashes. PoC benchmarks on 3 cases without caching are a lead, not a result.
 - Nothing yet covers optimizing *against* Jev as the metric model
   end-to-end; if you build it, measure judge variance first (see above).
 
+## Typed control plane around DSPy (not more knobs)
+
+Ax and DSPy remain LM-program climbers. A **typed control plane**
+is deterministic code *around* that program:
+classifier → ontology validation → security override →
+confidence thresholds → state-machine transition → tool
+allow-list. The LM may draft wording **after** route and action
+are fixed; it cannot add a route, change the action, or invoke
+an unapproved tool.
+[jev-dspy-control-plane](https://github.com/manikanda-kumar/jev-dspy-control-plane)
+is the Harbor-shaped bake-off of that split (OpenJEV / DSPy /
+JSON Schema share ontology, dataset, metrics). Offline smoke
+uses a heuristic + labelled contract stubs — a high score is
+plumbing, not quality. Metrics named: intent/sub-intent
+accuracy, invalid-output/policy-violation, abstention/coverage/
+selective accuracy, Brier/ECE, consistency, p50/p95, per-category
+stress. Accuracy alone is not enough; a negative result is
+valuable. Do not copy venv / `.env`. `notes.md` §59;
+`validation.md`.
+
+## Specialist as metric vs few-shot as classifier
+
+A typed judge used as an optimizer metric **reads the
+probability** (Brier/ECE, risk-coverage, expected cost). That
+is the Domain-jev-maker placement: train a specialist when the
+downstream consumer is the distribution; few-shot hosted is
+enough when the program only takes argmax. Do not substitute a
+verbalized `"confidence"` (jav-email-cascade gen-json mock) for
+a native Noul. `notes.md` §60.
+
+**Do not distill Jev as teacher of record.**
+[jev-triage](https://github.com/ThyFriendlyFox/jev-triage)
+logs full distributions as a *bootstrap* for a local student;
+**real outcome labels** stay the training targets. Author
+~68% ceiling compounds errors. Soft labels are features, not
+the gold. Distinct from Domain-jev-maker (independent gold)
+and from PAW coupling (1) below — if you use Jev as a labeling
+teacher, measure the student against real outcomes and cut
+the cord when it wins. `notes.md` §61.
+
 ## ProgramAsWeights: materializing a Jev judgment locally (Hypothesis)
 
 PAW (programasweights, pre-dates Jev — Python SDK 0.4.6, Mar 2026 repo, MIT)
@@ -136,11 +180,13 @@ a local artifact for high-volume/offline/zero-latency paths. No measured Jev+
 PAW integration exists in the wild (checked the full 187-repo archive), so
 this is Hypothesis-grade. Two candidate couplings:
 
-1. **Jev as the labeling teacher.** Use Jev fan-outs to score a labeled set
-   (its calibration is the reason to trust the labels), pass `examples=[…]`
-   into the PAW compile/finetune compiler (`paw-ft-bs48`), then serve locally.
-   Jev = oracle, PAW = distilled student. This is ordinary distillation with
-   an unusually cheap teacher.
+1. **Jev as the labeling teacher — with teeth.** Use Jev fan-outs to
+   score a labeled set, then train a local student on the *full
+   distributions*. **Do not** treat those labels as teacher-of-record
+   gold (jev-triage ~68% ceiling). Real outcome labels remain the
+   target; cut the cord when the student wins on held-out outcomes.
+   This is ordinary distillation with an unusually cheap *filter*,
+   not a substitute for independent gold (Domain-jev-maker).
 2. **Jev as the calibration gate on PAW.** Shadow both on live traffic;
    a calibrated Jev judgment arbitrates disagreements and the disagreement
    rate is the drift signal for when to recompile the PAW program. Threshold

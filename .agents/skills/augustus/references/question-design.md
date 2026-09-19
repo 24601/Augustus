@@ -17,7 +17,7 @@ request, and treat a stale pin as a prior, never a setting.
 2. One question per judgment. Split any question that weighs two properties.
 3. Pick the primitive whose answer code acts on directly.
 4. Build the smallest state that answers every question; compute in code whatever code can compute.
-5. Put every question sharing the state into **one request** (speculative fan-out — parallel questions cost little latency; code ignores unneeded answers). Second requests only when later data depends on an earlier answer.
+5. Put every question sharing the state into **one request** (speculative fan-out — parallel questions cost little latency; code ignores unneeded answers). Second requests only when later data depends on an earlier answer. Extractive / pointer: number the candidates in **code**; ask per-id Noul/Choice; copy verbatim. "Not found" is an option. The model never writes the quote. **Evidence-synthesis scale ([choxos/jev-reviewer](https://github.com/choxos/jev-reviewer), ≠ egma-ai):** fan-out every question over shared chunks, then a **second** absolute Noul ("does this line itself answer?") for multi-row tables; human tick never overwritten (`applied-mappings.md` §2; `notes.md` §48, §74).
 6. Combine in code: branches, weights, confidence gates.
 7. Test on labeled examples; read `probabilities` on the misses; revise one or two questions at a time.
 
@@ -28,7 +28,7 @@ request, and treat a stale pin as a prior, never a setting.
 - `confidence` measures how **peaked** the distribution is — a property of the model's answer, not a correctness guarantee.
 - `score` is the probability-weighted mean of level numbers; 1.0 can mean certainty at level 1 or a split. Levels are weakly calibrated as numbers: threshold, rank, or round — **do not interpolate quantities** from a Score.
 - Jev does not count or do arithmetic or date math. Ask per-item Nouls in one request and sum in code; extract date parts with Choices (with a "not stated" option) and compare in code.
-- Every answer stays inside the supplied options — code never parses prose.
+- Every answer stays inside the supplied options — code never parses prose. **Conflict ≠ ignorance:** a Noul has nowhere to put "both and neither." Name those states as Choice options or the model will collapse them (typed-evaluation-collapse; `notes.md` §69). Same family as missing `other` → confident wrong.
 - Questions on one request never see each other's answers.
 - Text in the state can steer the answer; Jev does not treat state as hostile. State in criteria what counts; test injected and self-describing content before deployment.
 
@@ -40,11 +40,12 @@ request, and treat a stale pin as a prior, never a setting.
 - Keep numerals-for-levels out of instructions ("Rate from 0 to 2" gives nothing to match); write the full question in `instructions` (the question ID never reaches the model); keep decision policy out of questions (policy lives in code).
 - Instructions accept prose or a structured form (the live docs own which keys that form accepts — do not write them from this page). The design rule is what transfers: name the sub-parts of the judgment explicitly instead of packing them into one sentence, and pass schemas/taxonomies as JSON, not as serialized strings.
 - When you catch yourself explaining what you meant after a wrong answer — that explanation is the missing half of the instruction. Add it.
+- **Sentence as rule:** a natural-language sentence can *be* the criterion when a matcher already extracted the subject ([jevlint](https://github.com/mizchi/jevlint) ast-grep `rule:` × Jev `ask:`). Do not pack two properties into the sentence. Mechanical defects stay with the compiler; contradiction of a declared contract is the System One hole. Not SWE-only: any artifact that names itself (policy, checklist, form, recipe) can be a subject × a sentence. Qualify vs huntedman/JevLint. `notes.md` §70.
 
 ## Criteria shape
 
 - Criteria are an extension of the instruction and must ask the same thing, in the same direction (a Noul whose `true` side describes "no" performs worse).
-- Choice options: contrastive `what` / `not_for` / short concrete `examples` (instances, not descriptions of instances). Add an `other` / `none-of-the-above` when the list may not cover inputs.
+- Choice options: contrastive `what` / `not_for` / short concrete `examples` (instances, not descriptions of instances). Add an `other` / `none-of-the-above` when the list may not cover inputs. Skipping that hatch is not a style nit: the model will pick a listed option at confidence 1.00, and no downstream gate will see a problem (`notes.md` §46). Request-shape lint (wellposed / `tenbin`) puts the hatch on the offered set; **training must confront it as a wrong alternative too**, with varied wording, or the model learns "this wording ⇒ pick it" ([kev](https://github.com/jaredpalmer/kev) first-run shortcut; dedicated `none_of_the_above` eval; `notes.md` §45 delta). Corpus-scale cousin (maker claim, not re-run): SEO internal-link audit **584** placed / **139** refused because nothing honestly fit — Choice-with-`other` at catalog scale (`notes.md` §45–§46, §56). Computer-use cousin: Stagehand pick asks `best` (no none) **and** `strict` (with none; vetoes above 0.9); ambiguity **stops rather than guesses** (`notes.md` §57).
 - Score levels (2–10): describe **situations**, one dimension each, each standing alone (Jev sees neither the level's number nor its neighbors — "worse than previous" means nothing). No numerals. Levels may be objects `{"summary", "signals"}`. Give a rare extreme its own level when code treats it differently.
 - Composite scoring: one Score per dimension, normalize by `len(criteria)-1`, weight and combine in code. Change policy by changing weights — never by rewriting questions.
 - Taxonomy walk: one Choice per tree level, walk in code; each option's value is its subtree (direct children + sample leaves); follow several branches when probabilities are close.
@@ -54,6 +55,11 @@ request, and treat a stale pin as a prior, never a setting.
 | Symptom | Likely cause | Fix |
 | --- | --- | --- |
 | Wrong answers, high confidence | Instruction read literally | State exact condition; put boundary cases in criteria |
+| Wrong answers, high confidence, **nothing in state that could answer** | Bare recall / missing evidence | **Retrieve first**; put the passage in `state`. Atlas history: wrong@0.90 without context → right@0.97 with passage. Confidence gating on recall is not enough (Case A was 0.90 *and wrong*). `notes.md` §49 |
+| Wrong answers, **dangerous-high** ECE on overlapping labels | Population calibration failed (blurred categories) | Do not threshold. DAIR Emotion: 48% acc / mean conf 0.819 / 16% p(correct)=0. Plot reliability on *your* labels |
+| Wrong answers, **confidence ~1.00**, no `other` | Forced pick: the offered set does not cover the input; the model *must* choose | Add `other` / none-of-the-above. **Confidence gating cannot catch this** ([wellposed](https://github.com/suraj-phanindra/wellposed) live probe: unsubscribe email → `"support issue"` at 1.00 without `other`, `"other"` at 0.93 with it). Overlapping options collapse confidence (loud). `notes.md` §46. `tenbin` owns the lint skill |
+| Residual `"other"` always picked (or never) | Training saw none-of-the-above only as the true label — a wording shortcut | Confront the hatch as a *wrong* alternative too; vary wording; eval present-vs-removed ([kev](https://github.com/jaredpalmer/kev) `none_of_the_above`; `notes.md` §45 delta). wellposed still owns request-shape lint |
+| Question names a state path that does not exist | Dead reference; the API still answers | Lint the request (walk JSON). Structural, not semantic. wellposed recipe; do not copy the CLI |
 | Low-confidence Choice | Options overlap / none fits | `what`/`not_for`/`examples`; add `other` |
 | Low-confidence Score | Overlapping levels, two dimensions, thin state | Distinct-situation levels; split question; add state field |
 | Scores cluster mid-scale | Levels are degrees/numbers | One concrete situation per level; remove numerals |
@@ -65,6 +71,62 @@ request, and treat a stale pin as a prior, never a setting.
 | Answer follows state text | Content steers the model | Tighten criteria; adversarial tests; confidence-gate the action |
 | Rewording trades one error for another | One question, several properties | Split into atomic questions |
 | Synonymous wording swings p / the act | Stimulus includes question text; no invariance promised | Paraphrase-pair eval; abstain or raise t; rewrite (`mappings.md` §17) |
+| Question has no answer yet (edit 1 of 12) | Observation window is wrong: a turn-level property asked at edit time | Name when the evidence exists. Edit-phase vs turn-phase is a question-design cut, not a hook detail ([Abide](https://github.com/coldteadotai/abide): "added more than asked" is a turn rule). `notes.md` §47 |
+| Review is green on the diff; the rest of the repo violates the stated intent | Observation window is the *diff*, not the places the intent applies | Search the whole repo after the change; one small question per place; **UNKNOWN** is cheaper than a false VERIFIED. Empty search ≠ proof ([jev-intent-review](https://github.com/yottayoshida/jev-intent-review)). `notes.md` §70 |
+| Naming/comment "rule" as a paragraph the linter cannot prove | The sentence is the criterion; AST/ast-grep already extracted the subject | Put the sentence in `ask:`; matcher silent-fail vs Jev loud; fail-open if no verdict ([mizchi/jevlint](https://github.com/mizchi/jevlint); ≠ huntedman/JevLint). `notes.md` §70 |
+| Catalog tagged "because it mentioned AI" | Criteria omitted what *doesn't* count | Add one exclusion sentence; 36/100 → 6/100 *theirs* ([jev-cookbook](https://github.com/nexibeo/jev-cookbook) TemplatesGrokBot). `notes.md` §71 |
+| One severity Score bunches in the middle | "How bad" hides several yes/no properties | Split into concrete Nouls (cookbook log triage 4/7 → 7/7 *theirs*). `notes.md` §71 |
+| Gateway returns no `confidence` | The statistic is missing, not "uncalibrated" | Reconstruct margin; lower the bar on *that* backend; tune on your traffic ([jev-use](https://github.com/shitianfang/jev-use) 17/20 → 0/20). `notes.md` §71 |
+| README badge ECE vs a different channel | Like-for-like channels; n and CI | Dual-channel ECE is a design fork; do not put correctness-head 1.44% beside distribution 21.40% ([openJev-verdict-2.0](https://github.com/Heman10x-NGU/openJev-verdict-2.0) PR #1). `notes.md` §71 |
+| Coverage 1.00, wrong `__none__` | Format-mass ≠ correctness; small-n theater | Measure `__none__` gold and shuffle/mix; do not threshold coverage ([chakuho](https://github.com/taku-me/chakuho) 8B 3/30 vs 27B 29/30). `notes.md` §72 |
+| English checkpoint on Khmer/Hebrew | Confident-wrong OOD; p never drops | Route by **script before** the forward pass; do not wait for gating ([laya-multilingual](https://huggingface.co/convaiinnovations/laya-multilingual)). `notes.md` §72 |
+| Commit "0.4, so pass" | Middle band is not a verdict | Report `"review"`; Nouls decide, Choice headlines ([commitjev](https://github.com/yodablocks/commitjev)). `notes.md` §72 |
+| Plugin named Jev, key is Agnes | Branding ≠ backend | Read the client ([hermes-plugin-jev](https://github.com/Mrmimee/hermes-plugin-jev) is chat-completions). `notes.md` §72 |
+| Quoted F1 without eval/README | `/benchmark` is tracked JSON; n=7 train-on-test | Read eval/README first; ~0.03 is a coin flip ([classifier-dev](https://github.com/mrmps/classifier-dev)). `notes.md` §73 |
+| Docs say 0.800, serving 0.546 | Silent fallback is a lie about the instrument | Mark `FALLBACK`; rh-guard owns the gate ([classifier-dev](https://github.com/mrmps/classifier-dev) granite *theirs*). `notes.md` §73 |
+| Escalate every multi-label on smart | Re-judge made it worse (23 s) | Smart is single-label <0.7 only; 0.7 is *theirs*. `notes.md` §73 |
+| Paraphrased "quote" from a paper | Generator invented the excerpt | Point at line ids; copy verbatim; *Not found* is an answer ([choxos/jev-reviewer](https://github.com/choxos/jev-reviewer), ≠ egma-ai). `notes.md` §74 |
+| One pass on a table with two Age rows | Relative Choice is not an absolute check | Two-pass: which-line Choice, then "does this line itself answer?" Noul. `notes.md` §74 |
+| Unchecked extraction entered the review | Human tick skipped as chrome | Checked answers never overwritten; tick is the product. `notes.md` §74 |
+| LocalJev JSON p used as a Noul | Self-reported vector ≠ logit read | Calibrate on *your* labels; wire-compat ≠ logit-equiv ([githubnext/localjev](https://github.com/githubnext/localjev), ≠ kunchenguid/local-jev). `notes.md` §75 |
+| "localjev" without the owner | Namesake collision | Always **githubnext/localjev** (Bun Chat Completions) vs **kunchenguid/local-jev** (ONNX ModernBERT). `notes.md` §75 |
+| 77-option Choice at default Laya head budget | ~3–4 tokens/label; labels collide | Hierarchical Choice, or a head that owns 255 options (Jev). Quote the token-budget fact; do not copy `head_max_len` ([NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)). `notes.md` §76 |
+| Auto-act because Laya conf ≥ 0.85 | Recipe ≠ Harbor cal; gating misses script OOD | Route by script first; fit T; pick τ on *your* labels. 0.85 is *theirs*. `notes.md` §76 |
+| Treat 0.766 / 0.081 as zero-shot / raw ECE | Fine-tune on that split; post-T | Base ckpts below majority. Name the temperature. Jev rows unpublished-here. `notes.md` §76 |
+| Rank openjevs from the census tweet | A list is not a bake-off | Use the scored sibling §78; still ≠ v1.1. Watch [jev-models](https://benchmarkheaven.com/jev-models). `notes.md` §77, §78 |
+| Collapse GLiNER2 / routers into NAR clones because they are on the list | Class-boundary | Locate/categorize and route are placements, not replicas. Needle 3 already not Jev-class. `notes.md` §77 |
+| Treat missing Laya/localjev/kev as out of class | Census lag | Incomplete ≠ our watch wrong. Completeness is a board watch item. `notes.md` §77 |
+| Quote 15 likes as quality | Engagement is ephemeral | SIGNAL ~417/9; this pass 564/15. Do not copy Stripe. `notes.md` §77 |
+| Mix v1.1 87.6 with v1.2 75.3 | Different tiers and scoring | Cal now ON the composite. Hard 220 new. `notes.md` §67, §78 |
+| Treat Luna I=97 as rank #1 | Weak Cost axis (28.2) | Geo-mean product; rank #7 *theirs*. `notes.md` §78 |
+| Ignore ×2 latency / est. costs | Assumption, not measurement | Harbor honesty; ranks are configuration-specific. `notes.md` §78 |
+| Treat Qwen3.8 27B as Archer | Official Qwen / Chutes TEE | Partial; Cost 0 from price. Archer still Watch. `notes.md` §78 |
+| Read Laya absence as quality | Gap, not a named exclusion | Absent from table **and** exclusion list. `notes.md` §78 |
+| Reverse A/B on a small yes/no rebuild and quote one number | Option-order 72%→21% | Rank with author's order; keep both runs. Cousin of paraphrase brittleness. `notes.md` §78 |
+| Re-card localjev / classifier.dev / Laya / choxos / census because they reappear on the hourly | Already folded | Apply the five as a recipe; skip thin noise. `notes.md` §79 |
+| Fail CI / stamp quality from a Noul | Soft sensor as a hard seal | Attend or escalate; exact envelope proves the irreversible act. Qualify [totally-tim/jev-gate](https://github.com/totally-tim/jev-gate) ≠ jev-gateway / MongLong0214/jev-gate. `notes.md` §79 |
+| Stall the reflex waiting for S2 / let S2 fly | Planner as executor | S1 keeps the stick; S2 is one-use advice. [khordoo/jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab). `notes.md` §80 |
+| Treat S2 arrival as consumed guidance | Telemetry conflates bar with decision | Purple confidence = used; purple S2 bar = arrived; red = fail. `notes.md` §80 |
+| Call the lab's Local controller "localjev" | Namesake collision | Rule-based built-in **≠** githubnext/localjev **≠** kunchenguid/local-jev. `notes.md` §80 |
+| Hard-act at the 20% starting gate / treat seed as replay | Soft slider as interlock; geometry as DST | 20% *theirs* still soft; schema-safe ≠ correct. Seed repeats layout, not timing. `notes.md` §80 |
+| Send pixels or planner prose into the reflex | Omni / stale bearings | No graphical input; code never labels safest; physics owns collisions. Skip Archer. `notes.md` §80 |
+| Assume confidence = selected probability | SDK field smuggled as the app contract | Application contracts ≠ TypeSafe methods. `notes.md` §80 |
+| Overlapping CU actions / one 255-way soup | Confidence collapse; noise in the kind | Exclusive set; split kind/item/site ([typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use)). `notes.md` §81 |
+| Ship pixels to Jev for the click | Omni CU | OCR+AX text-state; answer-reader capture ≠ the Choice. Skip Archer. `notes.md` §81 |
+| Quote 155× as a Harbor score / 0.4 as τ | One screenshot; product copy | Re-measure. schema-safe ≠ correct. `notes.md` §81 |
+| Ship audio to Jev / treat 27/27 as Harbor | Omni voice; fixtures as a board | Transcript text-state; integration on captured pages *theirs*. [jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser). `notes.md` §82 |
+| Truncate free-text on a partial / spoken confirm as auth | Wait-policy collapse; soft Noul as interlock | Closed-set may fire; search/type wait. Confirm is convenience. `notes.md` §82 |
+| Call a second model for "two" / collapse into jev-voice-control | Extra generation; namesake | Numbered overlay is exact. **≠** chris-wozniczek **≠** nikolas-j **≠** OCR §81. `notes.md` §82 |
+| Let the model skip the wrap / silent ASK | Advisory sidecar; HITL skipped | Wrap *is* execution; ASK throws. [AgentGhost](https://github.com/reddpy/AgentGhost). `notes.md` §83 |
+| Treat AUTO_APPROVE as auth / wrap hosted tools | Demo hatch; out-of-reach actuators | Provider tools stay unwrapped. rh-guard owns the gate. `notes.md` §83 |
+| Collapse AgentGhost into actiongate / toolgate / jev-use / namesakes | Slogan mix; fail polarity | Wrap ≠ evidence-only; fail-closed ≠ jev-use fail-open. **≠** jwen5419807 **≠** vventirozos. `notes.md` §83 |
+| Paste JP atlas ★ as a bake-off | Research-time stars as scores | Genre list, not verified evals. [@studio_yebisu](https://x.com/studio_yebisu/status/2101065176069886152). **≠** §77 **≠** §78. `notes.md` §84 |
+| Quote 200× / 400× as Harbor / “cannot hallucinate” | Marketing multiples; schema as correctness | TypeSafe ceiling *theirs*. schema-safe ≠ correct. [@akshay_pachaar](https://x.com/akshay_pachaar/status/2101037514945597645). `notes.md` §85 |
+| Copy the explainer’s Python / collapse into a wrap how-to | Recipe dump; product mix | Independent pedagogy. **≠** official docs **≠** Flavio **≠** AgentGhost §83. `notes.md` §85 |
+| Treat topical cosine as “customer is asking” | Embedding as proposition | Contrast-set: all six about refund; only asking pass. [jev-semgrep](https://github.com/uehaj/jev-semgrep). `notes.md` §86 |
+| Multiply parallel meaning Nouls / negative-query tricks | Independence; set-diff theater | Threshold each Noul, boolean-compose bits in code. ≠ jev-combinators metaphor. `notes.md` §86 |
+| Call jev-semgrep Semgrep.dev / a merge gate | Namesake; soundness theater | **≠** [semgrep.dev](https://semgrep.dev). Ranking fail-open; not a gate. `notes.md` §86 |
+| Paste 0.94/0.98 or ★42/51 as Harbor | LLM-as-judge / ephemeral stars | 10 cases × 51-line corpus *theirs*. Stars research-time. `notes.md` §86 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

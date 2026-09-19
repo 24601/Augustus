@@ -99,6 +99,910 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   two-layer finish gate. pi-jev (not pi-jev-context). jev-plays-games
   option-order probe. joxide jump-by-description. laya-typed-decisions
   companion packaging. No wrapper.
+- Hourly ~12:58 Boise fold (`research/notes.md` §44): Archer still
+  Watch (no architecture rewrite). Store-index fork: in-engine
+  ([sqlite-jev](https://github.com/mgaitan/sqlite-jev), pg-jev cousin)
+  vs CLI rewrite (jevql). Soft judgment inside a hard envelope
+  ([bitrate-advisor](https://github.com/affirmitv/bitrate-advisor);
+  mmalisper JOB planner +12% geomean, author-reported; join-order
+  Choice alone was 2× slower). Distill-to-device as a *memory* gate
+  (jev-gate, already §33). Encoder vs decoder open-replica receipts
+  (openjev-lm $0/call overnight CPU). jev-harness as Harbor-adjacent
+  practice (assert on action). Host adapter
+  ([jev-routing](https://github.com/nekowasabi/jev-routing), not MCP);
+  OpenClaw typed routing ([jev-claw](https://github.com/trietphan/jev-claw)).
+  Voice-control and JevML are README stubs. Higgsfield auto-routing is
+  a claim. No wrapper.
+- kev (`jaredpalmer/kev`, `research/notes.md` §45): runnable Archer
+  reconstruction on the trained decision-only open path next to Laya /
+  Nimble / Watch. Qwen2.5-0.5B LoRA + pointer, Apache-2.0, `POST
+  /v1/systemone` drop-in. Isolation exact (packed vs separate max Δ
+  3.7e-6; secret-in-sibling p=0.03 vs in-state 0.99). Held-out ECE
+  0.065 (0.031 after temp scale); acc 0.799 on 1,350 ID questions.
+  Permute argmax flips 7.4%; IIA log-odds shift mean 0.13; boundary
+  forgery held. Laptop-local System One for development/eval; not a
+  knowledge/frontier substitute; not a Jev teacher-copy. Contrast vs
+  TypeAR, encoder DeBERTa, proprietary Jev. jevals/Harbor bake-off
+  candidate. No serve how-to.
+- Hourly ~14:03 Boise fold (`research/notes.md` §46): Archer still
+  Watch. Open multimodal RLCD
+  ([blackwood-rlcd](https://huggingface.co/BlackwoodAI/blackwood-rlcd),
+  CC BY-NC): screenshot + marked candidates → Choice; web acc 0.907 vs
+  Jev 1.13 text-only 0.480; letter-shuffle 0.133 vs 0.587; ECE 0.037;
+  ~200 ms H100; Jev still leads general text 0.850 vs 0.786. Shared
+  bake-off ([open-jev-laya-bench](https://huggingface.co/datasets/pngwn/open-jev-laya-bench)):
+  26+9 tasks, 11959 items; ECE/NLL/Brier; macro acc Δ +0.023
+  neutral / +0.229 home; LLM-as-judge is not the score. Decision-token
+  QLoRA
+  ([Foodoo1/Qwen3-14B-RLCD-Decision-LoRA](https://huggingface.co/Foodoo1/Qwen3-14B-RLCD-Decision-LoRA)):
+  fraud_risk 64→95%, overall 85.2→98.8% at ~234 ms/4-field broadcast;
+  synthetic. jevgate frame: allowlist *proves*, Jev judges only
+  unlisted, fail-open. wellposed: missing `other` → confidence 1.00
+  wrong; gating cannot catch it (`tenbin` owns the lint skill).
+  S1 reflex keeps control (jev-reflex-autonomy-lab). MED:
+  jev-decision-layer, jev-e2e, jevpandas. No wrapper.
+- Abide (`coldteadotai/abide`, `research/notes.md` §47): productized
+  Jev preference lint for Claude Code / Codex / OpenCode. Soft
+  AGENTS.md / CLAUDE.md rules → one Score per rule on the diff (never
+  the conversation); hard rules stay with the linter (same layering
+  family as jevgate). Edit- vs turn-phase observation window; banded
+  confidence (≥0.8 repair / 0.5–0.8 note / <0.5 silence — their
+  operating point) + fail-open hooks; rubric.json quotes source
+  lines; calibrate/tune fix false positives in the question. Replay
+  of 93 sessions (1,256 edits / 147 turns) with independent review:
+  edit precision ~26%, turn ~73% (author-reported, before tune).
+  Fuller productized path of the jev-pref contract. Complementary to
+  rh-guard (eval-integrity vs project soft rules). Text/diff only —
+  not multimodal. No hook how-to.
+- kev delta (`research/notes.md` §45): Hub weights
+  [`jaredpalmer/kev-0.5b`](https://huggingface.co/jaredpalmer/kev-0.5b);
+  `--run` accepts Hub ids; PEFT `task_type=FEATURE_EXTRACTION` (publish
+  patches legacy adapters). HIGH question-design: confront Choice
+  `"other"` / none-of-the-above as a wrong alternative too, vary
+  wording, dedicated `none_of_the_above` eval (no published rates).
+  Cross-link wellposed request-shape lint. No species change. No
+  wrapper.
+- Hourly ~14:52 Boise fold (`research/notes.md` §48): Archer still
+  Watch. Extractive selection + offline `redecide`
+  ([testimonial-miner](https://github.com/AppitStudio/testimonial-miner));
+  pointer-not-generator
+  ([jev-reviewer](https://github.com/choxos/jev-reviewer)). Local
+  `/v1/systemone` drop-in ([jev-local](https://github.com/us/jev-local);
+  default scorer is a stub until `hf`). Observe→decide→verified-act,
+  no screenshots ([solari-reflex](https://github.com/hitakshiA/solari-reflex);
+  60.2/194.9, 66/460, 24.2/98.4 s vs Codex on Solari). Dataframe
+  accessor sibling ([jevframe](https://github.com/ktaletsk/jevframe);
+  note jevpandas). Route ≠ memory (jev-hermes). Advisory sidecar
+  (agent-workflow-typesafe-ai). Structure induction (dag-jev experiment).
+  Decision-for-control / generator-for-content (jev-agentworld-web-simulator).
+  Collab arms + Wilson/McNemar (jev-testbench). AST ∩ semantic (jevscan;
+  `tenbin` owns lint). Light Pi gate (pi-jev-approver). Laya ONNX port
+  ([laya-onnx](https://huggingface.co/Mattepiu/laya-onnx); do not copy
+  vs-Jev table). Spotcheck: SemIf 1551★; jevlike 866★; tracker
+  20:12:57Z still lists Laya, not Blackwood. No wrapper.
+- Hourly ~15:52 Boise fold (`research/notes.md` §49): Archer still
+  Watch. X discourse blocked. Boundary map / extractable-from-state
+  ([jev-capability-atlas](https://github.com/Zaious/jev-capability-atlas);
+  history suite A wrong@0.90 / B 0.07 / C right@0.97; component node;
+  dangerous-high ECE; DOM-as-text + fan-out). Harbor-style bake-off vs
+  constrained LLMs
+  ([DMB](https://github.com/nibzard/decision-model-benchmark) v2: jev
+  banking 76.3% / spam 93.0% / 256+ cap; p50 264–276 ms; $0.07/1k; no
+  class wins on quality). Feedstock
+  ([jevals-data](https://github.com/Jevals/jevals-data) CC-BY-4.0;
+  recompute-from-logs; 2026-09-18 board). Dual-process S1 decide / S2
+  generate ([dual-process-ai](https://github.com/taro1985/dual-process-ai);
+  routing accuracy unmeasured). Combinatorial ≠ extractive (ARC-AGI
+  Direct Jev 4/400). Packed one-forward open LLM
+  ([open-alternative-jev](https://github.com/ikermoel/open-alternative-jev)
+  RACE-H 92.9% @ 4.55 q/s; not a Jev reproduction). Tiny SAN local
+  surface ([von](https://github.com/wfzyx/von) 14 MB; not a replica).
+  kev light delta **100★**. Do not merge Banking77 87% / 76.3% /
+  79.67%. No wrapper.
+- GLiNER2.5 extractive compaction (`research/notes.md` §50,
+  [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction),
+  Apache-2.0): architecture notes, not a plugin how-to. Pointer
+  keep-drop (character-offset copies) vs generator summarizers;
+  family with testimonial-miner / jev-reviewer. Soft retention Choice
+  under a hard mutation envelope (mutating tools / shell operators →
+  `keep_full`); low-confidence / invalid evidence fail closed to
+  `keep_full` — contrast many fail-open Jev gates. Same compaction
+  *job* as fast-jev-compaction / pi-jev-compaction; GLiNER encoder
+  backend; Fastino/GLiGuard sibling class. `shadowMode` default true.
+  Not Jev. Not multimodal. No invented metrics.
+- CI merge-gate / fail-open wake VOI / S1 indexer / claim-evidence
+  (`research/notes.md` §51): architecture notes, not a plugin how-to.
+  [latch](https://github.com/CaseReed/latch) cluster-then-policy
+  PASS/BLOCK (pair Harbor + rh-guard).
+  [wakegate](https://github.com/shitianfang/wakegate) skip only if
+  p(wake)<0.2 (21/21 smoke). s1-graphify-indexer GLiNER extract +
+  escalate-S2 (10–50× unfilled).
+  [clear-head](https://github.com/VladyslavHontar/clear-head)
+  claims vs session evidence.
+  reification-labs/foreman description-only Phoenix scaffold (not the
+  super-jev loop).
+  [jev-gateway-bench](https://github.com/vinilana/jev-gateway-bench)
+  Harbor on/off one-run signal.
+  jev-marshal Watch/empty; jevons bounded Pi supervisor (shadow
+  recovery). MED: if-ai, omp-auto-mode, downloads-sorter, label-desk,
+  herdr-jev. Archer still Watch. No invented metrics. No wrapper.
+- GLiNER2 Ultrafast observe→score→act (`research/notes.md` §52,
+  [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast),
+  MIT): architecture notes, not a browser-agent how-to. Same
+  observe→score-among-candidates→code-acts *job* as jev-ultrafast /
+  solari-reflex; local GLiNER2 (`fastino/gliner2-multi-v1`) backend,
+  not GLiNER2.5. No screenshots; no generated selectors; code owns
+  actuators. Hybrid local decide + remote fill (Mercury 2.5 default
+  for TYPE). `DONE` ≠ verified success. Contrast blackwood-rlcd
+  screenshot multimodal; laya-mind2web is DOM-index Laya (same
+  observed-candidate family). Fastino sibling class with
+  gliner25-compaction (different hole) and GLiGuard (safety schema).
+  Demo (theirs, not re-run): Flights 12.20 s / 13.785 s / ~$0.0001
+  API — demonstration, not a bake-off. No invented metrics.
+- jev-pruner evidence-preserving Bash stdout prune (`research/notes.md`
+  §53, [jev-pruner](https://github.com/tamaratran/jev-pruner), MIT):
+  architecture notes, not a plugin how-to. After Bash, Jev Noul-prunes
+  stdout chunks before the main LLM sees them — no summary. Hard
+  envelope (≤10k estimated tokens / JSON-diff-whole-doc untouched)
+  then soft Noul; fail-safe keep original; full archive. Marketplace
+  id still `fast-jev-output`. Codex is opt-in wrapper, not automatic
+  interception. Same evidence-preserving *family* as
+  fast-jev-compaction and gliner25-compaction; different *job*
+  (command output vs session memory) and Jev backend vs GLiNER2.5.
+  Manual sweep (theirs): needles 24/24; mean reduction 83% on trim
+  scenarios. Harbor plugin-eval cannot reach Jev. Terminal-Bench
+  paired pilot is integration, not a full bench. No invented metrics.
+- Cua-S1 specialist System One computer-use (`research/notes.md` §54,
+  [cua-s1](https://github.com/trycua/cua/tree/main/libs/cua-s1),
+  parent MIT, ~23.3k★ this pass): architecture notes, not a Driver /
+  MCP / `uv` how-to. Form-oriented profile `cua-s1-form-v0`. Byte
+  encoder + option-attention head chooses fill/check/click/skip per
+  observed element; does not generate values or selectors. Plan ≠
+  execute; dry-run default; `execute`/`submit` independent opt-ins;
+  fail-closed on unknown checkbox / fill without advertised token
+  `set_value`. **Not TypeSafe Jev** — parallel "System One" naming in
+  CUA research. Same observe→score-among-candidates→code-acts *job*
+  as jev-ultrafast / gliner2-ultrafast / solari-reflex / laya-mind2web;
+  specialist form contract, source-only this pass (no weights, no
+  checkpoint scores). Offline metric *names* only (accuracy,
+  abstention, coverage, wrong actions/targets, unsafe when should
+  abstain). Tests exercise implementation, not checkpoint quality.
+  Watch for a `cua-s1-form-v0` artifact drop. No invented metrics.
+- Hourly ~17:48 Boise fold (`research/notes.md` §55): Archer still
+  Watch. X MCP flap; `since_id` not advanced. Architecture notes, not
+  a how-to. Local CUDA/PyTorch Choice/Score/Noul replica
+  ([jevify](https://github.com/Mintzs/jevify); uncalibrated
+  likelihoods ≠ Noul; no LICENSE this pass; independent of
+  Distillation). Decision-native RAG
+  ([decision-native-rag-skills](https://github.com/emergency-lee/decision-native-rag-skills);
+  retrieve wide → decide → evidence set; no bundled harness; no
+  universal benchmark). Verbatim session ledger + scored recall
+  ([carryforward](https://github.com/Dharundp6/jev-carryforward);
+  rules never judged; fail-open dump; 9×3 hint). Judgment as a
+  Ruby language primitive ([hunch](https://github.com/carldaws/hunch);
+  English-as-config; `rescue nil` fail-open at save). Healthcare
+  Harbor-shaped S1+S2
+  ([explore-typesafe-ai](https://github.com/si618/explore-typesafe-ai);
+  synthetic FHIR; not clinically validated). Pre-registered
+  independent eval
+  ([jev-baselines-eval](https://github.com/ickma2311/jev-baselines-eval);
+  **both AMBIGUOUS**; cascade sign-flip at exact parity;
+  confidence=1.0 theater; encoder-with-labels wins; serving-path ≠
+  model-speed; same-day errata ×3). Student-b light delta only (HF
+  card unchanged). MED: toolgate (pre-exec allow/block/review; Jev
+  not authorization), typesafe-screening-mcp (PubMed screening aid),
+  databricks-jev-pdf-lab (**honest negative**; no OSS license),
+  yannip1234/codex-jev (extractive compression family; equal
+  accuracy/lower cost not established), kazuhideoki/jev-search
+  (recursive *file* search + fzf; **not** superagents-lab web
+  search). No wrapper. No invented metrics.
+- Hourly ~18:38 Boise 2026-09-18 / 00:38 UTC 2026-09-19 fold
+  (`research/notes.md` §56): Archer still Watch. Architecture
+  notes, not a plugin / showcase catalog. Classify-first MCP
+  ([jev-sift](https://github.com/kbhuw/jev-sift); batch path/url/text
+  → Jev without entering main agent context first; 50 / 60k / 2MB /
+  public-IP envelope; mocks ≠ accuracy; no LICENSE this pass;
+  topology A MCP, not jev-routing). Living applied-mappings atlas
+  ([jevable.com](https://jevable.com/); claimed 342 vs JSON-LD first
+  page 36; class patterns — intent columns, score-among-observed,
+  VOI gates, generative UI decide, robotics text-state, draft-gate
+  silence ≠ safer — not a 342-title hit list). Maker clocks stay
+  claims unless already a named receipt. No wrapper. No invented
+  metrics.
+- Stagehand experimental Jev stack (`research/notes.md` §57,
+  [#2955](https://github.com/browserbase/stagehand/pull/2955) 5/5 of
+  #2951–#2955, all OPEN draft): architecture notes, not an SDK
+  how-to. Major harness productization of
+  observe→score-among-candidates→code-acts (cousins jev-ultrafast /
+  gliner2-ultrafast / cua-s1 / solari). Jev picks a11y elements;
+  code copies text. extract `"off"` | `"judge"` | `"pick"`. Their
+  card (gemini-3.8-flash, 25×3): **37/75** no-LLM ~0.5 s vs baseline
+  **4.37 s**; 69/75 vs 23/25 (92% both); LLM-off **36/75** — pick is
+  a fast path, not a replacement. Screenshot extract always LLM.
+  Cache-check errors never block replay. Do not merge clocks. No
+  invented metrics.
+- Hourly ~18:46 Boise 2026-09-18 / 00:46 UTC 2026-09-19 fold
+  (`research/notes.md` §58): Archer still Watch. Architecture
+  notes, not a Convex / uv / pnpm catalog. Public judgment wall
+  ([ask-jev-ai](https://github.com/waynesutton/ask-jev-ai); 6
+  parallel questions; policy-in-code; cost-to-1M from tokens;
+  license null). Meaning-search without embeddings
+  ([jevgrep](https://github.com/Bentlybro/jevgrep); 79% top-5 vs
+  BM25 40% / grep 20% on stripped repos; keyword still wins exact
+  strings). PR attention ≠ correctness
+  ([egma-ai/jev-reviewer](https://github.com/egma-ai/jev-reviewer);
+  **not** choxos pointer-not-generator). Skills→oxlint
+  ([jev-oxlint](https://github.com/cephalization/jev-oxlint);
+  AST prove ∩ remainder; Phoenix fixtures; not a hard gate;
+  `tenbin` owns lint). Session-sticky first-prompt routing
+  ([jev-adaptive-thinking](https://github.com/jxu-dev-c/jev-adaptive-thinking);
+  fail-closed fallback). Measured RAG rerank
+  ([Jev-RAG](https://github.com/Max-sm-yc/Jev-RAG); one-run ≥70%
+  cost / 72% latency vs Spark *rerank*; full-context Spark still
+  faster). MED: safe-sh, jev-loan-triage, TurboGuo arenas, jevbox;
+  hermes/mcp packs not found this pass. No wrapper. No invented
+  metrics.
+- Hourly ~19:48 Boise 2026-09-18 / 01:48 UTC 2026-09-19 fold
+  (`research/notes.md` §59): Archer still Watch. Architecture
+  notes, not a pip / venv / Cloudflare catalog. Capability kernel
+  ([interlock](https://github.com/somoore/interlock); LLM ring 3 /
+  kernel ring 0; secrets never in the agent; Jev SENSOR;
+  `policy.py` BLOCK/ASK/ALLOW; type-safe ≠ correct; distinct from
+  toolgate). Typed control plane around DSPy
+  ([jev-dspy-control-plane](https://github.com/manikanda-kumar/jev-dspy-control-plane);
+  DSPy drafts AFTER route+action; OpenJEV / DSPy / JSON Schema
+  share ontology; offline heuristic ≠ quality). Native-probability
+  calibration arena
+  ([jev-arena](https://github.com/meetr1912/jev-arena); live 145
+  noul Brier 0.0059 / ECE 0.0620 *theirs*; overconfident in low
+  bins; 2-request fan-out) plus sonar (heatmap-as-policy) /
+  vickrey (Jev never bids) / bracket (Brier vs Elo; live trailed
+  Elo). Engine owns truth / Jev owns judgment
+  ([game-coach](https://github.com/JoelLewis/game-coach); Wave 0
+  PRD; Stockfish WASM; GPL-3.0; anti-soundness-theater with egma).
+  Human-confirmed port cleanup
+  ([port-cleanup](https://github.com/epiphany-dynamics/port-cleanup);
+  Jev recommends; human is the only kill trigger; identity
+  re-check; shields; mapped explanations). MED toolbelt:
+  jev-pr-labeler, jevcumber, typedecide, jevon, dsh-jev,
+  fast-jev-compaction-pi, jev-tetris-benchmark, modelsystem,
+  opencode-system-one, browser-ai, semantic-bookmark. Skip
+  jef-mcp (parody) and jevregist (account farming). Star spike:
+  SemIf 1491→1606 (this pass 1607); jevlike 851→896 (this pass
+  897). No wrapper. No invented metrics.
+- Hourly ~20:43 Boise 2026-09-18 / 02:43 UTC 2026-09-19 fold
+  (`research/notes.md` §60): Archer still Watch. Architecture
+  notes, not a uv / bun / Modal catalog. Domain LoRA specialist
+  vs few-shot hosted
+  ([Domain-jev-maker](https://github.com/help-er/Domain-jev-maker);
+  independent CLINC gold, not a Jev teacher-copy;
+  matched-precision KL 0.168 vs 0.580 banking; few-shot
+  determinate McNemar n.s.; train when downstream reads p).
+  Decide→policy→LLM leftover cascade
+  ([jav-email-cascade](https://github.com/skiingfalcon/jav-email-cascade);
+  jev vs gen-json vs gen-logprob; Noul 0.5 never rounded;
+  license null; mock gen-json flat-confidence is *their mock*).
+  ORDER BY ranking family
+  ([jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench);
+  six gates pass; Score ordinal 0.143 weak link; 53-way 0.99
+  tie; calibration ≠ sortable; recodelabs batch-40 fails
+  ranking). Wire-compat GLiFormer backend
+  ([jeff](https://github.com/logan-markewich/jeff); typesafe-sdk
+  drop-in; ~$2.6 vs $15.6 L4 HTTP ~6×; A10G direct ~$0.65 ~24×;
+  AG News 75.5% vs 90.5%; CPU more expensive; license null; not
+  a Jev replica). MED: loopback gateway
+  ([sysone](https://github.com/hraness/sysone); hosted + local
+  OpenJev/NanoJev/Mini-Jev; no weights; credential from env).
+  No wrapper. No invented metrics.
+- Hourly ~21:39 Boise 2026-09-18 / 03:39 UTC 2026-09-19 fold
+  (`research/notes.md` §61): Archer still Watch. Architecture
+  notes, not a pip / npm / bun catalog. Active-learning triage
+  ([jev-triage](https://github.com/ThyFriendlyFox/jev-triage);
+  accept / expensive teacher / human; log full distributions;
+  **do not distill Jev as teacher of record**, ~68% ceiling).
+  Evidence-packet explorer
+  ([jev-semantic-explorer](https://github.com/jimmyhealer/jev-semantic-explorer)
+  / jevex; index-once ask-many; 1/8→6/8 SWE-bench Verified
+  finish n=8 *theirs*; packet HitFile 0.233 diagnostic).
+  Meaning-grep
+  ([jev-semgrep](https://github.com/uehaj/jev-semgrep); AND/OR/NOT
+  line Nouls; JP↔EN; MIT LICENSE / GitHub NOASSERTION; 0.94/0.98
+  *theirs*). Closed-vote CU
+  ([JevOnly](https://github.com/buluoray/JevOnly); no planner LLM;
+  11 steps / 43 calls / ~$0.014 / 17 s *theirs*). Harbor Jev vs
+  local MLX PCD vs AR JSON
+  ([system-one-benchmark](https://github.com/mallahyari/system-one-benchmark);
+  toxic-chat n=50; Jev 84.0% / Brier 0.1096 vs PCD 52% / 0.3884;
+  O(1) ≠ calibrated Noul; license null). Host-owned product
+  ([waymode](https://github.com/mossburgh/waymode); app retains
+  handlers/permissions; 24/26 + 34/36 *theirs*; not a
+  self-driving proof). OMP/pi fail-open gates
+  ([omp-jev-extensions](https://github.com/luw2007/omp-jev-extensions);
+  `jev_acceptance_gate` + `jev_route`; contrast pi-jev-approver
+  fail-closed). Skip empty jev-compactor / laya-jolt. No wrapper.
+  No invented metrics.
+- Hourly ~22:38 Boise 2026-09-18 / 04:38 UTC 2026-09-19 fold
+  (`research/notes.md` §62): Archer still Watch. Architecture
+  notes, not an `omp plugin` / pip catalog. Watch archive path
+  missing on this VM; receipts from live GitHub. Permission vs
+  probability
+  ([omp-greenlight](https://github.com/SemetricLabs/omp-greenlight);
+  1,013 calls / 10 sessions; default **40.9%** prompts removed /
+  **0 of 94** unsafe auto-approvals on labelled corpus; operator
+  owns thresholds; plugin never self-tunes; not a sandbox; host
+  deny stays above). Judgment ≠ permission
+  ([skill-broker](https://github.com/adamjralph/skill-broker);
+  Hermes pre-agent outline; code owns grants; Jev never grants
+  access; **not a production recipe**). Eval integrity /
+  instrument-not-score
+  ([dinostomp](https://github.com/collapseindex/dinostomp);
+  FINDINGS 189 / 99 against itself; `dinostomp jev` if-statement
+  hygiene; ECE 0.062 *theirs* on 24 examples; beside jevals, not
+  a Harbor taskset). MED: fast-jev-opencode, jev-desktop,
+  jev-agent-integration, sift, JevExplore. Census: Awesomejev
+  488/21644; SemIf 1641 (+13); jevlike 905 (+4); tracker likes
+  41 (+1); Laya yes; Blackwood ABSENT; X MCP flapping
+  (`pages_archived` 0). No wrapper. No invented metrics.
+- Hourly ~23:40 Boise 2026-09-18 / 05:40 UTC 2026-09-19 fold
+  (`research/notes.md` §63): Archer still Watch. Architecture
+  notes, not a uvicorn / bun / marketplace catalog. Watch
+  archive path missing on this VM; receipts from live GitHub +
+  HF. Hunches labeled. Constrained optimizer + S1 features
+  ([slo-router](https://github.com/zeeshan8281/slo-router);
+  license null; Jev task/exactness/evidence as features, never
+  the sole hot-path gate; fail-open local features; same
+  routes/accuracy; p95 **77.93 → 490.38 ms** *theirs*; eight-row
+  demo is not a benchmark). Privilege ≠ verdict
+  ([construct-auto-classifier](https://github.com/godspede/construct-auto-classifier);
+  Apache-2.0; effect-based shell gate; fast-allow/deny then Jev
+  Choice + independent risk Nouls; fail-closed; Jev **0**
+  dangerous / 975; every chat model leaked 16–104; operator-owned
+  dials). Attention filter / VOI for human review
+  ([jev-lens](https://github.com/rashedInt32/jev-lens) +
+  [jev-lens.nvim](https://github.com/rashedInt32/jev-lens.nvim);
+  never blocks the agent; never edits; never green unless sure).
+  MED: [sysone-help/sysone](https://github.com/sysone-help/sysone)
+  (evaluation-model-first TS SDK; **not** hraness/sysone gateway);
+  [INSTRUCT_JEV](https://huggingface.co/datasets/ctaxnagomi/INSTRUCT_JEV)
+  (119 rows; 47/51/21; jevals seed);
+  [swift-jev](https://github.com/ckaik/swift-jev) (LICENSE-only
+  this pass; not a CLI product). Census: Awesomejev 488/21644;
+  SemIf **1652** (+11); tracker likes **42** (+1); lastModified
+  unchanged; Laya yes; Blackwood ABSENT; X MCP flapping. No
+  wrapper. No invented metrics.
+- Hourly ~00:39 Boise 2026-09-19 / 06:39 UTC fold
+  (`research/notes.md` §64): Archer still Watch. Architecture
+  notes, not a uvx / pnpm / marketplace catalog. Watch
+  archive path missing on this VM; receipts from live GitHub.
+  Hunches labeled. Measurement owns endorsement
+  ([jev-packs](https://github.com/dtduc-git/jev-packs);
+  CC0; nine packs `verified` *theirs* on pinned
+  `jev-1.13.0`; accuracy/ECE/cost/latency; `unknown`
+  mandatory; named runner jevassert **not released** / 404;
+  packs without evidence stay `provisional`). Jev supplies
+  evidence, code owns authority
+  ([actiongate-jev](https://github.com/omkarghugarkar007/actiongate-jev);
+  Apache-2.0; deterministic policy owns ALLOW|REVIEW|BLOCK;
+  positive score never overrides a hard security fail;
+  fail-closed financial/destructive/credential if Jev is
+  down; 500-case is label-baseline, not accuracy). Ranking ≠
+  calibration
+  ([does-jev-confidence-mean-anything](https://github.com/Adilmp/does-jev-confidence-mean-anything)
+  + [jevcal](https://github.com/Adilmp/jevcal); 8,000
+  human-annotated judgments; AUC **~0.91**; stated **~75%**
+  vs human **~10%**; two-parameter recalibration removes
+  **~96% ECE** without changing rank; never hard-threshold
+  raw p as a frequency; vendor "calibrated" often means
+  rank-correlation). MED:
+  [gqgs/laya-onnx](https://github.com/gqgs/laya-onnx)
+  (complete Laya→browser int8; distinct from Mattepiu);
+  [kunchenguid/local-jev](https://github.com/kunchenguid/local-jev)
+  (ModernBERT local approximation — not equivalence). Do
+  not re-fold sysone-help/sysone. Census: Awesomejev
+  488/21644; SemIf **1660** (+8); jevlike **910** (+5);
+  TypeAR 9; tracker likes 42; lastModified unchanged; Laya
+  yes; Blackwood ABSENT; X MCP flapping. No wrapper. No
+  invented metrics.
+- Same-hour remainder ~00:39 Boise 2026-09-19 (`research/notes.md`
+  §65): Archer still Watch. Do not re-fold actiongate / jev-packs
+  / sysone-help. Hot-click CU
+  ([ego-jev](https://github.com/jiangkoumo/ego-jev); MIT; indexed
+  viewport table → operation+target; code owns observe/execute/
+  `--until`; text model only for type; HN 4.9 s vs 9.7 s / wiki
+  5.4 s vs 10.1 s *theirs* n=3, high variance, not a bench).
+  Jev judges relevance, code decides structure
+  ([jev-compactor](https://github.com/edwardyen724-g/jev-compactor);
+  MIT; was empty skip §61; never rewrite; regex floor; compaction
+  fail-open if Jev down, safety fail-closed; 64.5% / 366 ms /
+  $0.0004 / 0 invented paths / 4 of 4 facts vs Sonnet summary
+  96.2% / 1 invented path, one session). Local rules first,
+  never auto-train on the model's own hides
+  ([x-reply-filter](https://github.com/zhuyansen/x-reply-filter);
+  MIT; `rules.js` then batched Nouls; confirm-queue). OpenCode
+  port already §62: fast-jev-opencode. Census as §64. No wrapper.
+  No invented metrics.
+- Hourly ~01:47 Boise 2026-09-19 (`research/notes.md` §66): Archer
+  still Watch. Three clusters: **control-plane combinators**
+  ([decision-combinators](https://github.com/voidning/decision-combinators);
+  Then/Gate/Vote/Cascade/Weighted; not literal AND/OR; not chat
+  turns) + **skill VOI**
+  ([skillranker](https://github.com/Dicklesworthstone/skillranker);
+  52★; two-pass + none-of-these; hook **fail-open** — corrects
+  §7 fail-closed); **eval integrity without leaderboard theater**
+  ([jev-capability-atlas](https://github.com/Zaious/jev-capability-atlas)
+  10★ receipts, type-safe ≠ correct, axis already §49;
+  [jev-frontier-100](https://github.com/softpudding/jev-frontier-100)
+  Jev 77.0% vs Qwen3.5 4B/2048 96.7% / 4B off 56.0%, exploratory;
+  [jev-ood-calibration](https://github.com/scienthoon/jev-ood-calibration)
+  900 tickets ECE 0.107 = 4.4× floor, Choice/Score T~3.3 vs
+  boolean T 0.66, unknowable priority mean p 0.74); **gate
+  doctrine clone**
+  ([turnstile](https://github.com/zyphr-labs/turnstile); Apache-2.0;
+  policy first, Jev remainder, replay; missing Jev → Review);
+  **MLX one-pass replica economics**
+  ([jevmlx](https://github.com/bnsd55/jevmlx); 28★; softmax ≠
+  Noul; no local leaderboard yet). MED: invalidate (0 of 157
+  false invalidations), jev-intent-review (under construction),
+  prune-review (22-run cost 1.18% with 305% outlier). Census not
+  re-derived. No wrapper. No invented metrics.
+- Hourly ~02:38 Boise 2026-09-19 (`research/notes.md` §67): Archer
+  still Watch. Do not re-fold the 01:47 list except sibling
+  contrast. **TLA+ compose with judgment**
+  ([jev-labs](https://github.com/copyleftdev/jev-labs); MIT;
+  never confidently wrong; 1,080 golden 0 wrong *theirs* under
+  chaos, escalate 5%→18% severe; TLC 1,049,750 states / 0
+  errors; synthetic, not clinical). **Advance/coverage ledger**
+  ([seal](https://github.com/Reasonofmoon/seal); MIT; no seal,
+  no advance; coverage.path auto|code|human|escalate; mint ≠
+  product brain). **skill-broker sibling** (outline already
+  §62; grants in code vs turnstile runtime vs skillranker
+  advisory). **Sureness**
+  ([how-sure-is-jev](https://github.com/adarc8/how-sure-is-jev);
+  MIT; Choice confidence = max_prob; 75/25 → 0.5 vs entropy
+  0.19). **JevBench v1.1**
+  ([jevbench](https://github.com/fstandhartinger/jevbench);
+  MIT; unofficial; Main Score 0.6/0.2/0.2; Jev 1.13.0 **87.6**;
+  calibration reported not scored). **CI typed gate**
+  ([ci-gatekeeper-bot-jev](https://github.com/NemanjaManic/ci-gatekeeper-bot-jev);
+  package.json MIT / GitHub SPDX null; 504–629 ms *theirs*).
+  **Codex MCP adapter**
+  ([jev-in-codex](https://github.com/teempai/jev-in-codex);
+  MIT; ranking unbenchmarked; lexical fallback). Census:
+  SemIf **1683** (+11); jevlike **923** (+5); tracker likes
+  **43** (+1); Awesomejev 488/21644 unchanged. No wrapper. No
+  invented metrics.
+- Hourly ~03:38 Boise 2026-09-19 (`research/notes.md` §68): Archer
+  still Watch. Do not re-fold the 02:38 list except sibling
+  contrast. **Judgment as attention redirect, not a merge
+  blocker**
+  ([jev-preflight](https://github.com/muse0509/jev-preflight);
+  Go MIT; eight risk axes; assist=one reinspect; fail-open;
+  uncalibrated 0.85; owner-run Claude Code 2.1.267: no-key
+  fail-open PASS, key-enabled exactly one continuation).
+  **Landed-script trust / headless≠auto-approve**
+  ([construct-auto-classifier](https://github.com/godspede/construct-auto-classifier)
+  delta; cert still Jev **0** dangerous / 975; $0.047/1k).
+  **Jev judges relevance; code decides structure**
+  ([jev-compactor](https://github.com/edwardyen724-g/jev-compactor)
+  product-arm **73%** / 350 ms / 4 of 4 *theirs*; 30–250×
+  cheaper than shipped summarizers; §65 64.5% is vs-Sonnet).
+  **Compress-before-first-send**
+  ([dizk/jev-lens](https://github.com/dizk/jev-lens); MIT;
+  79% fewer tokens / 500 SWE-rebench; post-send prune +17%
+  cost; distinct from rashedInt32/jev-lens). **tools≠use**
+  ([jev-carryforward](https://github.com/Dharundp6/jev-carryforward)
+  0/4 recall; SessionStart > hoping). **Observational
+  memory**
+  ([pi-observational-memory-jev](https://github.com/willfish/pi-observational-memory-jev);
+  keep/kind verbatim; model-free compact). **Independent
+  open-Jev class**
+  ([openvons](https://github.com/genai-craft/openvons);
+  Apache-2.0 LICENSE / GitHub SPDX NOASSERTION; 7★; JevPick
+  3.2–4.8×; `/v1/systemone` wire-compat ≠ replica).
+  **Physical-world S1**
+  ([HA-Jev](https://github.com/AboveColin/HA-Jev); MIT;
+  **17★**; sensors from typed answers; not for
+  locks/heaters). **Judgment outside the store**
+  ([jevql](https://github.com/kylemclaren/jevql); CLI
+  judges; vanilla Postgres never sees `jev()`). Short
+  consumer bullet: [sift](https://github.com/bohutang/sift)
+  ~$0.00003/post. Census: Awesomejev **561** (+73, agent
+  tooling 87→107); SemIf **1704**. No wrapper. No invented
+  metrics.
+- Hourly ~04:39 Boise 2026-09-19 (`research/notes.md` §69): Archer
+  still Watch. Do not re-fold the 03:38 list except sibling
+  contrast / combinators rename. **Digital-design combinators**
+  ([jev-combinators](https://github.com/voidning/jev-combinators)
+  is the rename of decision-combinators; extended Router /
+  Loop / Retry / Fallback / Memory; metaphor ≠ literal AND/OR).
+  **VOI cache admission**
+  ([jevcache](https://github.com/kushals256/jevcache); MIT;
+  same-intent skip LLM; n=100 *theirs* 0 FP / precision 1 /
+  recall 0.38 / fpr 0 vs Jaccard@0.35 fpr 0.48; fail-open).
+  **Harbor skill-routing harness**
+  ([pi-jev-skill-bench](https://github.com/iamdin/pi-jev-skill-bench)
+  + [pi-jev-skill-suggestion](https://github.com/iamdin/pi-jev-skill-suggestion);
+  BM25 vs Jev at roster 50–500; 43 gold; no live numbers this
+  pass; no-key no-op; tool mode is tools≠use cousin).
+  **Zeroshot vs BERT displacement**
+  ([jev-zeroshot-vs-bert](https://github.com/zhuyansen/jev-zeroshot-vs-bert);
+  +0.05–+0.13 vs DeBERTa-c; contamination 0.901 vs `-c` 0.763;
+  ≈230 / >2048 labels; DiD 0.035 vs 0.112 *theirs*).
+  **Typed escalate/continue/abort baton**
+  ([jev-handoff](https://github.com/shitianfang/jev-handoff);
+  MIT; inverted loop; gate never grants; fail-open; Vercel
+  drops confidence). **Worth-your-attention VOI**
+  ([ThinkyMiner/Winnow](https://github.com/ThinkyMiner/Winnow);
+  MIT; 80%/90% *theirs*; **≠** kevinpita/winnow).
+  **Jev WHETHER / Python HOW / LLM WHAT**
+  ([hermes-jev-router](https://github.com/rsdkrasen/hermes-jev-router);
+  license null; community plugin; skip-next needs core patch).
+  **Conflict ≠ ignorance**
+  ([jev-typed-evaluation-collapse](https://github.com/mleyvaz/jev-typed-evaluation-collapse);
+  Noul collapses; named Choice p=1.0; binary red 0.67–0.85
+  *theirs*). **Playwright executes, Jev chooses**
+  ([browser-jev](https://github.com/DowLucas/browser-jev);
+  license null; sample-from-distribution). **Local class**
+  ([OpenJev](https://github.com/IamBusy/OpenJev) Apache-2.0
+  `/v1/decide` 45/60 *theirs*, not TypeSafe drop-in, ≠
+  hraness/sysone runners;
+  [semif-serve](https://github.com/dddanielliu/semif-serve)
+  1164 vs 178 ms; runoff ≠ softmax; wire-compat ≠ replica).
+  Toolbelt notes: jev-security-scan / jev-decisions / TeoMastro
+  (summary.md 404 this pass); **rh-guard owns reward-hack**.
+  Flywheel:
+  [DGUI_HYPERMEM-JEV](https://huggingface.co/datasets/ctaxnagomi/DGUI_HYPERMEM-JEV)
+  6-row schema. Census: Awesomejev **flat 561/27007**; tracker
+  likes **43→45**; SemIf **1714** (+10); jevlike **926** (+3).
+  No wrapper. No invented metrics.
+- Hourly ~05:46 Boise 2026-09-19 (`research/notes.md` §70): Archer
+  still Watch. Do not re-fold §50–§69 HIGH except sibling
+  contrast / jevassert landing / prune-review, intent-review,
+  laya-jolt, local-jev deltas. **Record/replay CI LANDED**
+  ([jevassert](https://github.com/dtduc-git/jevassert);
+  Apache-2.0; accuracy/ECE/Brier/cost/latency offline from
+  recordings; exit 0/1/2; McNemar; Action `@v0`).
+  **Evidence-gated packs now have a runner**
+  ([jev-packs](https://github.com/dtduc-git/jev-packs);
+  size 0→458; 2,990-case matrix *theirs*: Jev/Sonnet 5
+  accuracy tie Δ≤0.018, Jev better calibrated 7/9, ~250×
+  cheaper; sms-spam this-pass 0.953/ECE 0.040).
+  **Failure-finding arena**
+  ([jevarena](https://github.com/chenmingtang830/jevarena);
+  Apache-2.0; **≠** meetr1912/jev-arena; harness not findings).
+  **BBQ stereotype/uncertainty/cost**
+  ([jev-bbq-experiment](https://github.com/simonmesmith/jev-bbq-experiment);
+  license null; 58,492; 97.28%; bias 0.04/0.34; $0.3429 /
+  7.75 min *theirs*; not a general bias cert).
+  **Decider ≠ executor**
+  ([jeffrey](https://github.com/thomasbrueggemann/jeffrey);
+  MIT; Jev next-tool/progress/risk/done; LLM fills args;
+  pick ≠ fill). **Sentence-as-rule lint**
+  ([jevlint](https://github.com/mizchi/jevlint); MIT;
+  ast-grep × `ask:`; 13/15 1.00/1.00 *theirs*; **≠**
+  huntedman/JevLint). **VOI hunk prune**
+  ([prune-review](https://github.com/shubhangi013/prune-review);
+  22-run 1.18% with 305% outlier; ~20% target; cost not
+  quality). **Whole-repo intent**
+  ([jev-intent-review](https://github.com/yottayoshida/jev-intent-review);
+  VERIFIED/VIOLATION/UNKNOWN; empty search ≠ proof).
+  **GLiNER2 System One spec**
+  ([Jev_from_GLiNER2](https://github.com/Eran-BA/Jev_from_GLiNER2);
+  spec-only; ≠ jeff). **Open replica substrates**
+  ([grande](https://github.com/bokuweb/grande) JGLUE 0.614/
+  0.853 + 270M 0.710/0.710 *theirs*;
+  [laya-jolt](https://github.com/jlt-commons/laya-jolt)
+  byte parity; [JEV-CPU](https://github.com/leesk212/JEV-CPU)
+  PoC, Meanblock 404; [local-jev](https://github.com/kunchenguid/local-jev)
+  done 30%/shape 57%). **Persist constraints**
+  ([pi-heed](https://github.com/Nyarlathoteppppp/pi-heed);
+  98.5%/0 false block *theirs*). Toolbelt note:
+  actiongate slogan already §64. MED:
+  [system-one-responsible-ai](https://github.com/david-j-lustig/system-one-responsible-ai)
+  size-0 framing stub. Census not re-derived. No wrapper.
+  No invented metrics.
+- Hourly ~06:43 Boise 2026-09-19 (`research/notes.md` §71): Archer
+  still Watch. Do not re-fold §50–§70 HIGH except sibling
+  contrast. **Harbor SGR-judge contract**
+  ([jev-judge-bench](https://github.com/slavadubrov/jev-judge-bench);
+  README MIT / GitHub SPDX NOASSERTION; frozen SLA-150; Jev vs
+  Luna / DeepSeek-flash / glm-5.3-flash; invalid = FN;
+  21 offline tests; canaries ≠ quality; **no quality headline
+  yet**; **≠** jevarena / jevbench). **Empty skip**
+  ([jev-context-pruner](https://github.com/IPECTER/jev-context-pruner);
+  409 empty). **Hand no-text steps**
+  ([jev-use](https://github.com/shitianfang/jev-use); MIT
+  v0.4.1; p50 220 ms; 186 vs 2,672 ms; gate 12/12; Vercel
+  drops confidence → margin 0.4; first loop 17/20 then 0/20
+  *theirs*; **≠** jev-ultrafast). **Pi System-One control
+  plane** ([pi-jev-control](https://github.com/goodruizhan/pi-jev-control);
+  license null; v0.3.0 private; GUI never force-click;
+  compaction never writes session). **Never free-generates**
+  ([jev-gpt](https://github.com/florian-hoenicke/jev-gpt);
+  license null; ~400 calls / 75 s / 2¢ *theirs*).
+  **OpenRouter recipe atlas**
+  ([jev-cookbook](https://github.com/nexibeo/jev-cookbook);
+  MIT; 1★; 16–36 samples not benches; 425 calls / $0.015;
+  browser 5/6 *theirs*). **Personal-history feed**
+  ([jevfeed](https://github.com/fengyiqicoder/jevfeed); MIT;
+  no social graph; one request per batch of ten).
+  **Competing NAR claim-audit, not endorsement**
+  ([openJev-verdict-2.0](https://github.com/Heman10x-NGU/openJev-verdict-2.0);
+  README Apache-2.0 / GitHub SPDX NOASSERTION; 77.10%/0.0636/
+  0.0144 *theirs* unverified; **open PR #1**: throughput≠
+  latency, Laya parity, like-for-like ECE; **≠**
+  IamBusy/OpenJev). Census not re-derived. No wrapper. No
+  invented metrics.
+- Hourly ~07:49 Boise 2026-09-19 (`research/notes.md` §72): Archer
+  still Watch. Do not re-fold §50–§71 HIGH except sibling
+  contrast. **1-token logprob endpoint ≠ Noul**
+  ([chakuho](https://github.com/taku-me/chakuho); MIT;
+  coverage ≠ correctness; GUI 336 *theirs* 27B 95%/92%
+  vs Jev 89%/82%; `__none__` 97% vs 8B 10%). **Open
+  replica engine** ([jevinf](https://github.com/zerodegress/jevinf);
+  MIT; 2.57×/2.27× 100% argmax; MPS only). **Unofficial
+  Elixir SDK ≠ OTP peer**
+  ([typesafe-elixir-sdk](https://github.com/phiat/typesafe-elixir-sdk);
+  MIT; 1★; ≠ dannote/jev). **jevex rename + n=16 VOI**
+  ([jevex](https://github.com/jimmyhealer/jevex); 160s→69s
+  / $8.74→$3.13 / 16/16 *theirs*; keep n=8 1/8→6/8).
+  **Commit attention≠verdict**
+  ([commitjev](https://github.com/yodablocks/commitjev);
+  MIT; middle band never rounded; 0 false on 5 clean
+  *theirs*). **Hermes plugin is Agnes not TypeSafe**
+  ([hermes-plugin-jev](https://github.com/Mrmimee/hermes-plugin-jev)).
+  **Pi compact ≠ compaction**
+  ([pi-jev-compact](https://github.com/dev-willbird1936/pi-jev-compact);
+  MIT). **Empty skip**
+  ([jev-runway](https://github.com/IPECTER/jev-runway);
+  LICENSE-only). **Decision-native inbox**
+  ([mailordinal](https://github.com/Milo318/mailordinal);
+  MIT). **Unofficial jev-cli not ready**
+  ([jev-cli](https://github.com/shaharia-lab/jev-cli);
+  0.0.0; ≠ jevql). **Laya multilingual**
+  ([laya-multilingual](https://huggingface.co/convaiinnovations/laya-multilingual);
+  MASSIVE 0.366/0.387; Khmer 0.000@0.952; ships
+  uncalibrated). **Schema-scorer Hub** (GitHub 404; v2
+  Choice 0.841; peaked ranking). HF 401 this pass on
+  open-jev-laya-bench / jev-tree-choice-cap /
+  INSTRUCT_JEV; jevlogs 404+401. Census not re-derived.
+  No wrapper. No invented metrics.
+- User-provided signal ~08:37 Boise 2026-09-19
+  (`research/notes.md` §73): **Skip Archer.**
+  **Productized System One HTTP**
+  ([classifier-dev](https://github.com/mrmps/classifier-dev);
+  MIT; **185★**; https://classifier.dev). Label +
+  calibrated confidence as the public contract; batch
+  `{id,text}[]` ~1000; Jev primary, LLM fallback only.
+  400 headlines **650 ms** *theirs*. **Escalate-under-
+  threshold:** smart re-asks single-label <0.7;
+  multi-label ignores (re-judge worse, 23 s). Emotion
+  ≥0.9 → 82% / <0.5 → 29%; gemini-3.8-flash 87.5→90.0 /
+  61.8→63.7 *theirs*. Multi-label F1 **0.887** / **230 ms**
+  vs cascade **0.799** / 1.5 s (eval 232 ms; AG News
+  **87.7%** vs 82.0%). **Measurement-first:** `/benchmark`
+  from tracked JSON; read eval/README (n=7 train-on-test;
+  ~0.03 coin flip). **Silent FALLBACK:** granite F1
+  **0.546** vs advertised ~**0.800** *theirs*; rh-guard
+  owns the gate. Life/business (spam/inbox/feedback),
+  not SWE-only. Distinct from ask-jev-ai wall. No wrapper.
+  No invented metrics.
+- User-provided signal ~08:48 Boise 2026-09-19
+  (`research/notes.md` §74): **Skip Archer.** **Delta of
+  §48.** Pointer-not-generator at evidence-synthesis
+  scale
+  ([choxos/jev-reviewer](https://github.com/choxos/jev-reviewer);
+  MIT; **12★**; https://jevreviewer.xera.ac). **≠**
+  [egma-ai/jev-reviewer](https://github.com/egma-ai/jev-reviewer).
+  Two-pass Choice (which line) + Noul (does this line
+  itself answer); quotes = Noul ≥ 0.5 *theirs*. *Not
+  found* / *Unclear* first-class. Human tick is the
+  product (checked never overwritten). 18-q template
+  **4.6 s / $0.0101** *theirs* (spot check, not a
+  validation study). Cochrane / PRISMA / RoB, not
+  SWE-only. No wrapper. No invented metrics.
+- User-provided signal ~08:56 Boise 2026-09-19
+  (`research/notes.md` §75): **Skip Archer.**
+  **Wire-compat ≠ logit-equiv**
+  ([githubnext/localjev](https://github.com/githubnext/localjev);
+  MIT; **261★**; GitHub Next). **≠**
+  [kunchenguid/local-jev](https://github.com/kunchenguid/local-jev).
+  Bun `POST /v1/systemone` on DiffusionGemma via Chat
+  Completions; TypeSafe SDK drop-in. Prompted JSON →
+  validate/retry → normalize + entropy confidence — not
+  razorback16 structured-read logits. Harbor-shaped
+  bake-off *theirs*: 1,200 req; Qwen3.6 short macro
+  **76.7%**; Gemma 4 26B-A4B **75.0%**; DiffusionGemma
+  **74.2%**; no definitive winner (2/120); do not treat
+  as calibrated. LM Studio still cannot load
+  DiffusionGemma. Do not copy bun / `.env`. No wrapper.
+  No invented metrics.
+- User-provided signal ~09:07 Boise 2026-09-19
+  (`research/notes.md` §76): **Skip Archer.** **Laya
+  packaging, not a new species**
+  ([NandhaKishorM/laya](https://github.com/NandhaKishorM/laya);
+  Apache-2.0; **710★**). PyPI + `Router` over Hub
+  [`laya`](https://huggingface.co/convaiinnovations/laya) /
+  [`laya-multilingual`](https://huggingface.co/convaiinnovations/laya-multilingual) /
+  [`laya-typed-decisions`](https://huggingface.co/convaiinnovations/laya-typed-decisions).
+  **≠** TypeSafe `/v1/systemone`. **≠** githubnext/localjev.
+  T4 *theirs*: 1q **32.8 ms** (~7.8× vs Jev p50
+  236–276 ms). Post-T ECE **0.081** vs Jev **0.246**;
+  raw ECE still trails (0.213 vs 0.144). Banking77
+  **0.425** vs Jev **0.870** (77 vs 72; ~3–4 tok/label).
+  typed-decisions **0.766** is a fine-tune (base
+  0.362/0.342 vs majority 0.461). Soft-acc 0.471 vs
+  0.580. Khmer **0.000@0.952** — Router because gating
+  cannot catch. 0.85 still soft. Jev rows third-party
+  unpublished-here. Do not copy pip / preload. No
+  wrapper. No invented metrics.
+- User-provided signal ~09:14 Boise 2026-09-19
+  (`research/notes.md` §77): **Skip Archer.** **External
+  openjev census ≠ scored bake-off**
+  ([@airesearch12](https://x.com/airesearch12/status/2101259522933186879);
+  Florian S / Benchmark Heaven). Named ~18 (system-one-open,
+  openjev-sglang, DeBERTa open-jev, Needle 3,
+  open-alternative-jev, Nimble 9B, SemIf, open-jev Dasein /
+  JoshuaSP, OpenJev razorback16, mini-jev, system-one,
+  system-one-gemma, jevlike, AlexWortega/openjev, GLiNER2,
+  Succinct Router 14M, jev-model-router/Director/Loki).
+  GLiNER2 + routers are **class-boundary**. Incomplete vs
+  Laya / localjev / kev / TypeAR / openvons. Engagement
+  **ephemeral** (SIGNAL ~417/9/3; this pass 564/15/5). **≠**
+  jevbench v1.1. Watch
+  [jev-models](https://benchmarkheaven.com/jev-models); do
+  not paste live ranks. Do not copy Stripe. No wrapper. No
+  invented metrics.
+- User-provided signal ~09:24 Boise 2026-09-19
+  (`research/notes.md` §78): **Skip Archer.** **JevBench v1.2
+  scored board**
+  ([benchmarkheaven.com/jev-models](https://benchmarkheaven.com/jev-models);
+  harness [fstandhartinger/jevbench](https://github.com/fstandhartinger/jevbench)
+  MIT; 0★; HEAD `27ed3d6c`). Protocol `jevbench::v1.2`; scored
+  19 Sept 2026; 534 decisions (hard 220 = 30% of Intelligence).
+  Official Score = geometric mean of I/C/S/K at 25% each. Jev
+  1.13.0 **75.3**; SemIf (Qwen3.5-4B) **74.6** (−0.7); OpenJev
+  DiffusionGemma (razorback16) 67.6 *theirs*. Luna Intelligence
+  **96.8** rank **#7** on cost. Calibration **on** the rank
+  (delta from v1.1). Weighting is a product design. Option-order
+  72%→21%. Self-host latency ×2 is an assumption; many costs
+  est. Laya absent (gap, not named-excluded). GLiNER2 mapping
+  issues; apps out. Qwen3.8 27B Chutes TEE **≠** Archer. **≠**
+  tweet census §77 **≠** v1.1 87.6. Do not copy Stripe / CLI.
+  No wrapper. No invented metrics.
+- Hourly System One watch ~08:42 Boise 2026-09-19
+  (`research/notes.md` §79): **Skip Archer.** Named HIGHs
+  **already folded** (§73–§78) — extract **how-to-apply**,
+  not a hit list: wire-compat ≠ logit-equiv (prompted JSON
+  ≠ structured logit); productize label+p and mark
+  `FALLBACK`; packaging ≠ new species / script-before-p /
+  0.85 still soft; pointer-not-generator (two-pass; *Not
+  found*; human tick); external census ≠ scored bake-off /
+  geo-mean weights are a design. **Skip thin noise**
+  (JEValuate / jevspeak / fable-jev; jev-semgrep already
+  §61). Hard-gating a Noul as a PR/quality gate is
+  soundness theater
+  ([totally-tim/jev-gate](https://github.com/totally-tim/jev-gate)
+  0★ ≠ jev-gateway; [claude-jev-warden](https://github.com/connectedGraph/claude-jev-warden)
+  1★).   Qwen3.8 27B ≠ Archer. No wrapper. No invented
+  metrics.
+- User-provided HIGH ~09:50 Boise 2026-09-19
+  (`research/notes.md` §80): **Skip Archer.** Delta of
+  §46, not a new species.
+  [khordoo/jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab)
+  (TypeScript; **7★**; license null; README SHA
+  `130987c9`; ARCHITECTURE SHA `48da0769`; HEAD
+  `e3297ebe`). S1 never stalls waiting; S2 is one-use
+  advisory and never flies. Purple confidence =
+  **consumed** S2 (purple bar = arrival; red = fail).
+  Local controller is rule-based **≠**
+  githubnext/localjev **≠** kunchenguid/local-jev.
+  Live API `POST /v1/systemone` `jev-latest`; 20%
+  starting gate *theirs* still soft and does not start
+  a mission. Seed = geometry ≠ async replay. No pixels
+  to either provider; confidence ≠ selected
+  probability; S2 never grants. README GLM 5.3 vs
+  ARCHITECTURE muse-spark-1.3-contributor — quote both
+  *theirs*. Experimental viz, not a flight controller.
+  Do not copy npm / `.dev.vars`. No wrapper. No
+  invented metrics.
+- User-provided HIGH ~09:51 Boise 2026-09-19
+  (`research/notes.md` §81): **Skip Archer.** Productized
+  observe→score-among-candidates→code-acts on a Mac,
+  not a new species.
+  [awlevin/typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use)
+  (Python; MIT; **427★**; README SHA `369f4a6a`; HEAD
+  `cc7b5066`). OCR+AX → numbered items → TypeSafe
+  Choices (`kind`/`item`/`site`/`offscreen`) →
+  deterministic click/type. **Never ships a screenshot
+  to frontier for the *decision***; the one-shot
+  **answer** writer may receive the capture (reader
+  packet, not the Choice). Writer only for free text.
+  Overlapping options = false low confidence. AX bonus
+  never sole (Spotify 0 *theirs*). Post-type Noul 0.5
+  and `--min-confidence` 0.4 still soft. $0.0002 vs
+  Opus $0.032 (155×) *theirs* on **one screenshot**,
+  not a Harbor taskset. Honest caveat: dates.py rebuilds
+  pixel-free reasoning. **≠** jev-ultrafast **≠**
+  cua-s1 **≠** jev-macos-loop **≠** camoufox. Do not
+  copy `uv sync` / `.env`. No wrapper. No invented
+  metrics.
+- User-provided HIGH ~10:01 Boise 2026-09-19
+  (`research/notes.md` §82): **Skip Archer.** Productized
+  ASR observe→score-among-candidates→code-acts in
+  headed Chromium, not a new species and not omni.
+  [moritzkremb/jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser)
+  (JavaScript; MIT; **103★**; README SHA `fa033303`;
+  HEAD `054db0f3`). Web Speech partials → one 9–11-
+  question Jev request (~250–350 ms *theirs*) →
+  policy. Pointer-not-generator for spans. Closed-set
+  may act on a partial; free-text waits. Spoken
+  confirm is convenience, not auth. Numbered overlay,
+  no second model. Integration 27/27 / ~$0.0002/call
+  *theirs* fixtures, not a Harbor taskset. 0.5 / 0.55
+  / 0.6 still soft. **≠** jev-voice-control **≠**
+  nikolas-j **≠** Aj1905 **≠** typesafe-computer-use
+  OCR. Do not copy `npm` / `.env` / `run.sh`. No
+  wrapper. No invented metrics. Expand the §39 tweet;
+  do not re-card it.
+- User-provided HIGH ~10:20 Boise 2026-09-19
+  (`research/notes.md` §83–§84): **Skip Archer.** Two
+  signals, one fold.
+  [reddpy/AgentGhost](https://github.com/reddpy/AgentGhost)
+  (TypeScript; MIT; **2★**; README SHA `44145fa9`;
+  HEAD `ac04e4fb`). Intent-aware ALLOW/ASK/DENY
+  wrap-as-execution: the wrap *is* the tool function;
+  rules first; ASK throws; `failMode: closed`. Judge
+  is a slot. Provider-hosted tools out of reach.
+  **≠** jwen5419807/agentghost **≠** vventirozos
+  **≠** actiongate **≠** toolgate **≠** jev-use.
+  rh-guard owns the gate cousin. Do not copy `npm` /
+  `.env` / `AUTO_APPROVE`. [@studio_yebisu JP genre
+  atlas](https://x.com/studio_yebisu/status/2101065176069886152)
+  (2026-09-18T21:45:48Z). Apps by hole, not a scored
+  bake-off. Stars research-time (typesafe-computer-use
+  203→**427**; jev-voice-browser 40→**103**). Not
+  verified evals. Engagement ephemeral (this pass
+  131,234 / 1,934 / 192). SAM 3.1 already §39.
+  OpenRouter Jev no-waitlist is WATCH, not a recipe.
+  **≠** @airesearch12 class census **≠** v1.2 board.
+  Do not dump the 30 repos. No wrapper. No invented
+  metrics.
+- User-provided HIGH ~10:25 Boise 2026-09-19
+  (`research/notes.md` §85): **Skip Archer.** External
+  pedagogy / how-to-apply, not a new species.
+  [@akshay_pachaar “Jev Clearly Explained”](https://x.com/akshay_pachaar/status/2101037514945597645)
+  (article https://x.com/i/article/2100940576741093376;
+  2026-09-18T19:55:53Z). LLM hammer for bounded
+  decisions; code owns branches; parallel questions;
+  thresholds in code; **schema-safe ≠ correct**;
+  placements = routing / tool-risk / verify with LLM;
+  shadow-mode; questions-as-code. **200× / 400×** and
+  70–500 ms / $0.042/MTok are TypeSafe **ceiling**
+  claims *theirs*, not Harbor. Text-only; not looking
+  at the screen. **≠** official docs **≠** Flavio
+  Copes **≠** LangChain harness **≠** AgentGhost.
+  Engagement ephemeral (this pass 233,495 / 2,280 /
+  235). Do not copy the Python samples. No wrapper.
+  No invented metrics.
+- User-provided HIGH ~10:30 Boise 2026-09-19
+  (`research/notes.md` §86): **Skip Archer.** Dedicated
+  fold of [uehaj/jev-semgrep](https://github.com/uehaj/jev-semgrep)
+  (light-noted §61). Grep by meaning via Jev Noul;
+  proposition ≠ embedding; contrast-set (all six
+  about a refund; only customer-*asking* pass);
+  AND/OR/NOT are boolean ops on *thresholded* bits
+  (do not multiply p; ≠ jev-combinators metaphor).
+  Cross-lingual; no index; EN safer near threshold.
+  Semgrep.dev SAST name collision. **Not a gate**
+  (ranking fail-open; rh-guard skip). LICENSE MIT /
+  GitHub NOASSERTION. HEAD `21120e9`; README SHA
+  `923e6a5`. Stars ephemeral (0 → SIGNAL ★42 → **51**
+  this pass). 0.94/0.98 LLM-as-judge 10×51 *theirs*,
+  not Harbor. **≠** jevgrep **≠** jev-sift **≠**
+  jevex **≠** semgrep.dev. Do not copy npm / `npx` /
+  `.env` / marketplace. No wrapper. No invented
+  metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

@@ -59,7 +59,8 @@ deployment control, not a feud with TypeSafe. Holding those weights,
 when they exist, still does not discharge a proof.
 A constrained-AR softmax (TypeAR, pcdServer) is still a sensor: it is
 not a discharged proof because the next token stayed in a declared set
-(`notes.md` §42).
+(`notes.md` §42). A local kev pointer-softmax is the same sensor on the
+trained decision-only path (`notes.md` §45).
 
 Existing grammar: composition-algebra position 9 (verifier) — verdicts
 are evidence, not enforcement. Position 3 (gate) — a filter is not
@@ -70,7 +71,15 @@ TOCTOU-of-Noul (§5), not a discharged obligation.
 **What transfers** into a mixed stack: triage which counterexample,
 property, or failing seed a human looks at first; score whether a
 production trace resembles a spec behavior; lint an artifact against a
-*named, project-written* rule (`mixed-architecture.md` preference lint).
+*named, project-written* rule (`mixed-architecture.md` preference lint;
+Abide is the productized path of that hole, `notes.md` §47).
+Skills→oxlint is the same ownership split on a linter runtime: AST /
+precheck *prove* what they can; Jev scores the remainder; do not
+hard-gate CI on an uncalibrated Noul
+([jev-oxlint](https://github.com/cephalization/jev-oxlint) Phoenix
+experiment, `notes.md` §58). PR **attention** is not correctness
+([egma-ai/jev-reviewer](https://github.com/egma-ai/jev-reviewer) —
+anti-soundness-theater; **not** choxos pointer-not-generator).
 **What does not:** closing a proof obligation, replacing TLC/Apalache/
 GNATprove, or treating "DST hasn't failed this week" as a safety case.
 
@@ -206,7 +215,9 @@ A Noul is still not a proof that the property holds, and a clean PBT run
 is not one either. A perception-to-decision handoff is a contract
 surface — the schema of objects or utterances, not the pixels or the
 waveform: property-test that interface, and do not pretend the Noul is
-over raw pixels or raw audio. Hill-climb of that handoff:
+over raw pixels or raw audio. A shared multimodal *decide* head
+(blackwood-rlcd) still judges **marked candidates**, not an open click;
+the act stays in code (`notes.md` §46). Hill-climb of that handoff:
 `validation.md`.
 
 ## 4. Deterministic simulation testing (semi-formal trio)
@@ -301,6 +312,82 @@ Claiming a proof-shaped conclusion from a non-proof:
 - PufferLib Ocean scores as a comparative baseline (authors forbid this).
 - A listwise or CLIP affinity as fail-closed authorize
   (`judgment-class.md`).
+- Engine eval / attention score sold as the *verdict*
+  ([game-coach](https://github.com/JoelLewis/game-coach) Wave 0:
+  Stockfish owns truth, Jev owns judgment; [egma-ai/jev-reviewer](https://github.com/egma-ai/jev-reviewer):
+  attention ≠ correctness). A Noul is not a proof the move was a
+  blunder or the PR is good (`notes.md` §58, §59).
+- A Jev (or any judge) **score sold as eval truth** without
+  auditing data, scorer, runs, or claims
+  ([dinostomp](https://github.com/collapseindex/dinostomp):
+  checks the instrument, not just the score; `dinostomp jev`
+  tests a question like an if-statement; 99 of 189 findings
+  against itself; `notes.md` §62).
+- Keyword privilege sold as a safety case
+  ([construct-auto-classifier](https://github.com/godspede/construct-auto-classifier):
+  `sudo status` can be a safe read; contracts on effects, not
+  tokens; `notes.md` §63).
+- A stop-hook “green” sold as permission to skip review
+  ([jev-lens](https://github.com/rashedInt32/jev-lens): never
+  says green unless sure; never blocks the agent;
+  `notes.md` §63).
+- Sync “Jev routing” sold without measuring decision-model
+  latency ([slo-router](https://github.com/zeeshan8281/slo-router):
+  same routes, p95 77.93→490.38 ms *theirs*; `notes.md` §63).
+- A cookbook question set sold as verified without numbers
+  ([jev-packs](https://github.com/dtduc-git/jev-packs):
+  measurement owns endorsement; `notes.md` §64).
+- A positive decision-model score sold as authorization
+  ([actiongate-jev](https://github.com/omkarghugarkar007/actiongate-jev):
+  Jev supplies evidence, code owns authority; `notes.md` §64).
+- Vendor "calibrated" sold as frequency units you can
+  hard-threshold
+  ([does-jev-confidence-mean-anything](https://github.com/Adilmp/does-jev-confidence-mean-anything):
+  ranking ≠ calibration; stated ~75% vs human ~10%;
+  `notes.md` §64).
+- Jev `done` sold as the browser task succeeded
+  ([ego-jev](https://github.com/jiangkoumo/ego-jev): `--until`
+  in code; `notes.md` §65).
+- LLM summary sold as compaction
+  ([jev-compactor](https://github.com/edwardyen724-g/jev-compactor):
+  summarizer invented a path; pointer cannot; `notes.md` §65).
+- The model's own hides sold as training labels
+  ([x-reply-filter](https://github.com/zhuyansen/x-reply-filter):
+  confirm-queue; never self-reinforce; `notes.md` §65).
+- A leaderboard sold as a capability map
+  ([jev-capability-atlas](https://github.com/Zaious/jev-capability-atlas):
+  receipts, not a ranking; type-safe ≠ correct; `notes.md` §66).
+- "Jev is weaker than 4B" sold without the thinking budget
+  ([jev-frontier-100](https://github.com/softpudding/jev-frontier-100):
+  4B off 56.0% vs 2048 96.7%; `notes.md` §66).
+- In-domain ECE sold as OOD honesty
+  ([jev-ood-calibration](https://github.com/scienthoon/jev-ood-calibration):
+  sign flips by type; unknowable policy still gets mean p 0.74;
+  `notes.md` §66).
+- A local one-pass softmax sold as a Noul
+  ([jevmlx](https://github.com/bnsd55/jevmlx): schema-valid ≠
+  calibrated; `notes.md` §66).
+- A TLA+ run sold as "Jev is never wrong"
+  ([jev-labs](https://github.com/copyleftdev/jev-labs): the
+  invariant is never *confidently* wrong; escalate is
+  allowed; 0 of 1,080 golden is not a proof of zero;
+  synthetic, not clinical; `notes.md` §67).
+- A Main Score sold as calibration, or a partial run sold
+  as a rank
+  ([jevbench](https://github.com/fstandhartinger/jevbench):
+  Brier/ECE reported **not scored**; native ≠ verbalized;
+  `notes.md` §67).
+- A typed answer sold as permission to advance
+  ([seal](https://github.com/Reasonofmoon/seal): no seal, no
+  advance; coverage.path visible; mint ≠ product brain;
+  `notes.md` §67).
+- Jev `confidence` sold as the strictest reading of the
+  vector
+  ([how-sure-is-jev](https://github.com/adarc8/how-sure-is-jev):
+  Choice confidence = max_prob, the most generous metric;
+  `notes.md` §67).
+- "Type-safe" sold as "correct" ([interlock](https://github.com/somoore/interlock):
+  irreversible stays behind a threshold **and** a human).
 
 If the artifact would still say "verified" after you delete the
 checker, it was theater.
@@ -421,6 +508,58 @@ because the model was confident. STPA asks what happens when the sensor
 is wrong, delayed, spoofed, or TOCTOU. Org/safety placement: judgment
 informs operators and cheap gates; it does not replace the constraint
 in the control structure. Mapping card: `mappings.md` §8.
+**Capability kernel receipt (Empirical as architecture):**
+[interlock](https://github.com/somoore/interlock) — LLM ring 3;
+kernel ring 0; Jev SENSOR; `policy.py` constraint; secrets never
+in the agent (`notes.md` §59). **Engine ∩ judgment (Empirical as
+PRD):** [game-coach](https://github.com/JoelLewis/game-coach) —
+Stockfish is the probe; Jev is the coaching sensor; Wave 0.
+**Eval-instrument (Empirical as FINDINGS ledger):**
+[dinostomp](https://github.com/collapseindex/dinostomp) —
+the score is not the evidence; `dinostomp jev` is question
+hygiene beside jevals, not a Harbor taskset (`notes.md` §62).
+**Permission vs probability (Empirical as measured
+suppression):** [omp-greenlight](https://github.com/SemetricLabs/omp-greenlight)
+— host deny is the constraint; Jev is the sensor; operator
+owns the criterion (`notes.md` §62).
+**Contracts on effects, not tokens (Empirical as
+certification; hunch as FM angle):**
+[construct-auto-classifier](https://github.com/godspede/construct-auto-classifier)
+— the named constraint is blast radius / reversibility, not
+a privilege keyword. Independent risk Nouls are sensors;
+`minConfidence` ∩ `riskThreshold` ∩ fast-deny is policy.
+Fail-closed when the sensor is missing. Privilege ≠ verdict
+(`notes.md` §63).
+**Attention filter ≠ permission (Empirical as README):**
+[jev-lens](https://github.com/rashedInt32/jev-lens) — never
+blocks the agent; never authorizes a write. Complements
+skill-broker and omp-greenlight (`notes.md` §63).
+**Jev supplies evidence, code owns authority (Empirical
+as slogan):**
+[actiongate-jev](https://github.com/omkarghugarkar007/actiongate-jev)
+— deterministic policy is the hard gate; Jev is soft
+evidence. A positive score never overrides RBAC/schema/limit
+(`notes.md` §64).
+**Turnstile clone (Empirical as README):**
+[turnstile](https://github.com/zyphr-labs/turnstile) —
+policy first; Jev remainder; receipts + replay; missing
+Jev → Review (`notes.md` §66).
+**TLA+ compose with a Jev-class oracle (Empirical as spec
++ chaos table; 2026-09-19 ~02:38):**
+[jev-labs](https://github.com/copyleftdev/jev-labs)
+— TLC owns the protocol invariant; Jev is the noisy
+sensor; **escalate** is the actuator when quorum is
+unstable. Inverse of sensor-as-constraint: the kernel
+**must not** return a confident wrong, and **may** hand
+off to a human. 1,080 golden 0 wrong *theirs*;
+underdetermined 34/120 still decided both ways.
+Synthetic, not clinical (`notes.md` §67).
+**Advance/coverage ledger (Empirical as README +
+BEYOND-JEV.md):**
+[seal](https://github.com/Reasonofmoon/seal)
+— Strike/Jev is the sensor; Seal + coverage.path is the
+constraint; Effects are the actuator. Exception queue
+visible. Mint ≠ product brain (`notes.md` §67).
 
 **Kent — Data and Reality.** Models are approximations; **naming is
 load-bearing**. Question text, Choice sets, and Score rubrics *are* the

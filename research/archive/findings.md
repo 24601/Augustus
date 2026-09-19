@@ -648,5 +648,1690 @@ are producers not perceive; two call shapes removed from the optimizer
 card; $0.042/MTok tagged vendor-stated; GodsBoy 94.4% tagged
 exploratory. `notes.md` §43.
 
+## Batch #27 (2026-09-18, ~12:58 Boise hourly)
+
+Note: `research/notes.md` §44. Docs-only. Archer still Watch (no
+architecture rewrite). Do not rehash §42 HIGH.
+
+- **sqlite-jev (Contract as README):** in-engine SQLite extension;
+  batched `jev_rows`; sibling *pattern* to jevql, different serving
+  (DB sees `jev()`). Inspired by pg-jev. Semantic full scan, not an
+  index. License file absent. 0★.
+- **bitrate-advisor (Empirical as a shape):** Jev proposes ABR; policy
+  is the envelope; never bolder. Missing model → policy answer.
+  Three-state receipt author-reported.
+- **jev-routing (Contract as README):** Go host adapter, not MCP, for
+  Claude/Codex/Grok. Compact then one Choice + done.
+- **jev-claw (Empirical as author's 10/10 + 11 offline tests):** Jev
+  classifies; `decide()` maps; path regex floors risk; confidence is
+  min.
+- **jev-harness practice:** already §33; this hour assert-on-action
+  as Harbor-adjacent substrate; recipes across business/life.
+- **openjev-lm / jev-gate / DeBERTa / mini-jev-runs / tree-cap /
+  jev-pref:** frames only (receipts economics; memory gate; encoder vs
+  decoder replica). No rewrite.
+- **jev-voice-control / JevML:** README-only stubs. Hypothesis.
+- **X:** mmalisper JOB hybrid +12% geomean, join-order 2× slower,
+  fail-open to Postgres (author-reported). Higgsfield GenAI auto-route
+  is a claim.
+
+Cross-repo addition: (as) structured-store semantic index has an
+in-engine vs CLI fork; (at) soft judgment inside a hard envelope
+(ABR, planner); (au) distill-to-device as a context sieve, not only
+an action gate.
+
+## Batch #28 (2026-09-18) — kev runnable Archer reconstruction
+
+Note: `research/notes.md` §45. Docs-only. Folded into PR #2, not a
+second PR. Archer 27B drop still Watch.
+
+- **kev (Empirical as named ID receipt; Contract as README/API).**
+  `jaredpalmer/kev`, Apache-2.0, 24★ this pass. Qwen2.5-0.5B LoRA +
+  pointer; `POST /v1/systemone`; typesafe-sdk `base_url`. Public gold,
+  not a Jev teacher. Isolation exact (Δ 3.7e-6; sibling p=0.03 vs
+  state 0.99). ECE 0.065 / 0.031 after T; acc 0.799 / 1,350 ID.
+  Permute 7.4%; IIA mean 0.13; boundary forgery held. 0.5B knowledge;
+  ID calibration only; not multimodal.
+- **Place:** trained decision-only open path next to Laya / Nimble /
+  Watch. Cleanest *runnable* productization of Archer's reconstruction.
+- **Contrast:** TypeAR (constrained AR ≠ Noul) vs encoder DeBERTa
+  (OOD measured) vs proprietary Jev vs openjev-lm (teacher-copy).
+- **Eval:** jevals/Harbor bake-off candidate; mechanism tests mirror
+  Archer probes.
+- **When-to-use:** laptop-local System One for development/eval; not a
+  knowledge/frontier substitute. No serve how-to.
+
+Cross-repo addition: (av) the trained decision-only path now has a
+shipped API-compatible reconstruction (kev); Watch remains the 27B
+announcement.
+
+## Batch #29 (2026-09-18, ~14:03 Boise hourly)
+
+Note: `research/notes.md` §46. Docs-only. Folded into PR #2. Archer
+27B drop still Watch (Hub empty). No invented metrics.
+
+- **blackwood-rlcd (Empirical as named vendor receipt; Hypothesis on
+  your labels).** Open multimodal RLCD, CC BY-NC, Jev-compatible shim.
+  Web 0.907 vs Jev 1.13 text-only 0.480; letter-shuffle 0.133 vs 0.587;
+  ECE 0.037; ~200 ms H100. Jev still leads general text 0.850 vs 0.786.
+  Screenshot vs Jev-text is not the same input. Omni decide can ship
+  without waiting for Archer. Soft judgment over marked pixel
+  candidates; code clicks.
+- **open-jev-laya-bench (Empirical as that named receipt; not a Jev
+  ranking).** 26+9 tasks, 11959 test / 3269 cal. Macro acc Δ +0.023
+  [+0.013,+0.032] neutral, +0.229 [+0.198,+0.262] home. ECE/NLL/Brier.
+  LLM-as-judge is not the score. Harbor/jevals practice in the wild.
+- **Foodoo1 decision-token QLoRA (Empirical as 200-case receipt).**
+  Train the single decision token under parallel constrained decode.
+  fraud_risk 64→95%, overall 85.2→98.8% at ~234 ms/4-field. Synthetic;
+  not a financial product. Softmax ≠ Noul.
+- **jevgate frame (already §25):** allowlist *proves*; Jev judges only
+  unlisted; fail-open (cannot block).
+- **wellposed (Empirical as request-lint recipe):** missing `other` →
+  confidence 1.00 wrong; gating cannot catch it. Broken state paths.
+  `tenbin` owns the lint skill.
+- **jev-reflex-autonomy-lab:** S1 keeps control; optional S2 one-use
+  advice. No metrics. License null this pass.
+- **MED:** jev-decision-layer (gate is part of the result); jev-e2e
+  (Playwright checks; confident model cannot substitute); jevpandas
+  (dataframe semantic index; LICENSE 404).
+
+Cross-repo addition: (aw) omni decide is a shipped open head, not a
+Watch-only hole; (ax) bake-off substrate with ECE/NLL/Brier in the
+wild; (ay) decision-token LoRA is how you train constrained-AR, not a
+new species; (az) confidence gating cannot catch a forced Choice.
+
+## Batch #30 (2026-09-18) — Abide productized preference lint
+
+Note: `research/notes.md` §47. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Text/diff only.
+
+- **coldteadotai/abide (Empirical as README + dated replay; Hypothesis
+  on your AGENTS.md).** MIT, created 2026-09-18, TypeScript, npm
+  `@coldtea/abide`. Productized Jev hooks: one Score per soft project
+  rule on the diff, never the conversation. Linter owns hard rules
+  (jevgate-family sandwich, different remainder). Edit vs turn is an
+  observation window. Bands ≥0.8 / 0.5–0.8 / <0.5 are their operating
+  point, not a universal 0.8. Fail-open hooks. Rubric quotes source
+  lines; calibrate/tune rewrite dead rules. Replay 93 sessions, 1,256
+  edits / 147 turns, $0.22: independent-reviewer precision edit 26% /
+  turn 73% before tune. Turn-phase soft rules held up better. No
+  turn-number drift. Replay does not measure in-session repair.
+- **Siblings:** jev-pref (contract Abide productizes); rh-guard
+  (eval-integrity, not project soft rules); wellposed (request lint
+  upstream); jevgate (hard envelope); JevLint (file-level conventions).
+  Do not merge products. Do not copy hooks.
+
+Cross-repo addition: (ba) preference lint has a productized compile /
+calibrate / tune / replay path; (bb) observation window (edit vs turn)
+is question design; (bc) banded fail-open means soft judgment is never
+the sole hard veto; (bd) false positives in the rubric, not the model.
+
+## Batch #31 (2026-09-18) — kev delta (Hub + NOTA)
+
+Note: `research/notes.md` §45 delta. Docs-only. Folded into PR #2.
+Not a rewrite of §45. No species change. No invented metrics.
+
+- **Hub weights.** [`jaredpalmer/kev-0.5b`](https://huggingface.co/jaredpalmer/kev-0.5b)
+  HTTP 200. `kev.publish`; `--run` accepts Hub ids; base still
+  downloads on first load. GitHub release tarball remains. 61★ this
+  pass (signal had 53★).
+- **PEFT.** `task_type=FEATURE_EXTRACTION`; publish patches legacy
+  adapters with null task_type. Docs mention only kev-0.5b.
+- **NOTA training (HIGH question-design).** First run learned "this
+  wording ⇒ pick it". Fix: add none-of-the-above as a wrong
+  alternative too; vary wording; dedicated `none_of_the_above` eval
+  (present vs removed). **No published rates.** wellposed still
+  owns request-shape lint; training must confront the residual
+  option.
+
+Cross-repo addition: (be) bake-off fetch path is a Hub id; (bf)
+Choice `"other"` is a training confrontation, not only a request hatch.
+
+## Batch #32 (2026-09-18 ~14:52 Boise) — extractive / local surface / speed layer
+
+Note: `research/notes.md` §48. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Do not re-fold
+blackwood-rlcd, open-jev-laya-bench, decision-token LoRA, jevgate,
+wellposed, jev-reflex-autonomy-lab, Abide, kev, jevpandas,
+bitrate-advisor.
+
+- **AppitStudio/testimonial-miner (Empirical as README fixture).** MIT.
+  Gmail → numbered sentences in code → one broadcast (Choice/Noul/Score
+  + per-sentence Nouls). Model never writes. `redecide` retunes
+  thresholds on the log. 8-request fixture: 5 candidates / 3 rejected
+  / 3 header skips. Offline tests use fakes.
+- **choxos/jev-reviewer (Empirical as sample study).** MIT. Pointer at
+  line ids; code copies verbatim with place. *Not found* is an answer.
+  712-line article: 1q 10 req / 1.2–2 s; 9q 17 / 2.3 s. Spot checks,
+  not a validation study.
+- **us/jev-local (Contract as surface; Hypothesis on your labels).**
+  `POST /v1/systemone` drop-in. Default scorer is a **deterministic
+  stub** until `JEVLOCAL_SCORER=hf`. LICENSE absent this pass. Not a
+  Jev reproduction.
+- **hitakshiA/solari-reflex (Empirical as named table).** MIT.
+  Observe → decide → verified act; no screenshots. Vs Codex on Solari:
+  60.2 s vs 194.9 s; 66 s vs 460 s; 24.2 s vs 98.4 s (~3–7×).
+- **ktaletsk/jevframe (Empirical as shape).** MIT, PyPI. pandas and
+  Polars `.jev`; full `p__`; no silent renormalize. Sibling of
+  jevpandas, not a re-fold.
+- **MED:** jev-hermes (route ≠ memory); agent-workflow-typesafe-ai
+  (advisory sidecar, Apache-2.0); dag-jev (structure induction;
+  experiment; no metrics); jev-agentworld-web-simulator (decision
+  control / generator content); jev-testbench (collab arms; LICENSE
+  absent); jevscan (AST ∩ semantic; `tenbin` owns lint); pi-jev-approver
+  (fail-closed without key; light note); Mattepiu/laya-onnx (~15 ms
+  CPU; do not copy vs-Jev table).
+- **Spotcheck:** SemIf 1551★; jevlike 866★; Awesomejev 488/21644 not
+  re-derived; tracker lastModified 2026-09-18T20:12:57Z; Laya listed;
+  Blackwood not.
+
+Cross-repo addition: (bg) extractive keep/drop + offline re-threshold
+is judge-once/re-policy; (bh) pointer-not-generator is citation
+integrity; (bi) `/v1/systemone` drop-in is a surface — stub ≠ scorer;
+(bj) observe→decide→verified-act needs no screenshots; (bk) route ≠
+memory; (bl) advisory sidecar never changes host routing; (bm) collab
+arms belong in the measurement curriculum.
+
+## Batch #33 (2026-09-18 ~15:52 Boise) — boundary map / Harbor bake-off / dual-process
+
+Note: `research/notes.md` §49. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. X discourse blocked this hour. No
+invented metrics. Do not re-fold §48 items.
+
+- **Zaious/jev-capability-atlas (Empirical as an axis, not a
+  knowledge-breadth estimate).** README MIT / GitHub SPDX
+  NOASSERTION. Unofficial. Extractable-from-state vs needs-outside
+  knowledge. History suite table: A wrong@0.90 (Yongzheng; Kangxi by
+  popular convention; GT contested); B near-flat 0.07 (luck);
+  C right@0.97 with passage. N=3, single annotator. Internals ≠ FSM;
+  placement is a component node. Confidence is a distribution
+  statistic (RLCD). Dangerous-high ECE: DAIR Emotion 48% / 0.819 /
+  16% p(correct)=0. Browser-use = DOM-as-text + speculative fan-out,
+  not vision.
+- **nibzard/decision-model-benchmark (Empirical as Harbor/jevals
+  practice).** LICENSE absent this pass. Frozen protocol; v2 report
+  of record; $28.34. jev banking 76.3%, spam 93.0%, S3 100%* at
+  72.7% valid coverage (256+ cap), S4 flip 13%, S5 admits 49.7% /
+  ECE 0.246; p50 264–276 ms; S1 $0.07/1k. No class wins on quality.
+  Do not merge Banking77 87% / 76.3% / 79.67%.
+- **Jevals/jevals-data (Contract as feedstock).** CC-BY-4.0. Boards +
+  JSONL + suites. 2026-09-18 board, suite 0.1.0, 8 systems. Jev
+  banking77 acc 0.7967 / ECE 0.0981 / p50 467 ms / $0.043/1k on
+  *this* board. Recompute-from-logs; not a ranking.
+- **taro1985/dual-process-ai (Empirical as a productized metaphor).**
+  MIT. Kahneman S1 decide / S2 generate. Routing fails open; safety
+  fails closed. Routing accuracy **unmeasured**. Keyword fallback ≠
+  S1.
+- **simonmesmith/jev-arc-agi-v1-experiment (Empirical as a
+  negative).** LICENSE absent. Direct Jev 4/400 (1%), 1.125%, ~$2.32,
+  10 min. Cell-wise Choice. Combinatorial ≠ extractive.
+- **ikermoel/open-alternative-jev (Empirical as packed-logprob
+  economics).** Apache-2.0. Not a Jev reproduction. RACE-H 92.9% @
+  4.55 q/s; interference 6–9%.
+- **wfzyx/von (Empirical as extreme speed/econ surface).**
+  Apache-2.0. 14 MB SAN; authored144 52.6%. Not jev-local stub, not
+  kev, not a Jev replica. Do not copy vs-Jev table.
+- **jaredpalmer/kev (light delta).** 100★ this pass. No species
+  rewrite.
+
+Cross-repo addition: (bn) extractable-from-state is the placement
+axis; (bo) retrieve-then-state is VOI with a named receipt; (bp)
+Harbor-style class bake-off includes constrained LLMs and
+baselines; (bq) public JSONL boards are feedstock, not rankings;
+(br) dual-process is S1 decide / S2 generate with unmeasured
+routing accuracy; (bs) combinatorial assembly is not extractive
+keep/drop; (bt) local `/v1/systemone` has three surfaces (stub /
+pointer / tiny SAN).
+
+## Batch #34 (2026-09-18 ~16:22 Boise) — GLiNER2.5 extractive compaction
+
+Note: `research/notes.md` §50. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. **Not Jev. Not multimodal.** No
+invented metrics. Do not re-fold §48 extractive recipes, §49
+bake-off, Abide, kev, GLiGuard species.
+
+- **m-newhauser/gliner25-compaction (Empirical as README
+  behavior).** Apache-2.0. Created 2026-09-18T17:22:34Z; 1★ at
+  capture. Local GLiNER2.5 (`fastino/gliner2.5-base-v1`) chooses
+  `keep_full` | `keep_evidence` | `keep_call_only` | `drop` for
+  completed tool pairs and copies **exact character-offset** spans.
+  Not a prose summarizer. Mutating tools / unknown shell / control
+  operators → `keep_full`. Low-confidence / invalid evidence fail
+  closed to `keep_full`. `shadowMode` default true (log, do not
+  replace history). Reduction in characters, not tokens. No
+  published retention-quality rates.
+- **Mental models:** (1) pointer/extractive vs generator summarizers
+  (family with testimonial-miner / jev-reviewer); (2) soft retention
+  Choice under a hard mutation envelope — fail-closed contrast vs
+  many fail-open Jev gates; (3) same compaction *job* as
+  fast-jev-compaction / pi-jev-compaction, GLiNER encoder backend,
+  Fastino/GLiGuard sibling class; (4) shadow mode as safe rollout.
+- **rh-guard:** sibling note only (fail-closed retention, hard shell
+  mutation, shadow). Not reward-hack detection.
+
+Cross-repo addition: (bu) compaction that writes prose is a
+different species from pointer keep/drop; (bv) fail-closed
+`keep_full` names the *reduction* as the irreversible act; (bw)
+compaction job is backend-agnostic (Jev Score/Noul vs GLiNER
+encoder); (bx) shadow-mode default is the rollout for memory
+mutation.
+
+## Batch #35 (2026-09-18 ~16:48 Boise) — CI merge-gate, fail-open wake, S1 indexer, claim-evidence
+
+Note: `research/notes.md` §51. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Do not re-fold
+§50 compaction, §49 bake-off, Abide, kev, pi-jev-approver, jevgate,
+rh-guard species.
+
+- **CaseReed/latch (Empirical as README / offline demo).** MIT.
+  Created 2026-09-18T22:09:12Z; 0★. Cluster in code; Jev labels
+  cause; policy owns Gate PASS vs BLOCK. Judge never says ignore
+  alone. Reporter never fails Playwright; `--gate` is a separate
+  step. Demo: 8 connection errors → PASS; 5 assertions → BLOCK.
+  Message-based grouping fragments (`pallets/click` 13→10). Pair
+  Harbor + rh-guard.
+- **shitianfang/wakegate (Empirical as safety table; 21/21 smoke).**
+  MIT. Skip only if Jev answers and p(wake)<0.2. Same author wrote
+  scenarios+question. Savings unmeasured. Contrast fail-closed
+  pi-jev-approver / cannot-block jevgate / fail-closed compaction.
+- **GreyssonEnterprises/s1-graphify-indexer (+ s1-indexer).** GLiNER2
+  default; escalate LLM only if backend loaded. 10–50× **unfilled**.
+  Degraded file-node graph if GLiNER cannot load; query does not
+  invent edges. License not on GitHub this pass.
+- **VladyslavHontar/clear-head (Empirical as README).** MIT. 1★.
+  Stop hook: claims vs session lines. Keyword retriever; JEV_FIRM
+  0.6 never blocks below.
+- **reification-labs/foreman.** Description-only Phoenix scaffold.
+  No Jev dep. Distinguish from super-jev "foreman" loop.
+- **vinilana/jev-gateway-bench (Empirical as *shape* + one-run
+  signal).** MIT. Chess perft hidden verifier; on vs off. Both
+  36/36; 4 vs 6 LLM req. Author: not a measurement. Sibling
+  jev-gateway fail-open if Jev down.
+- **LightningK0ala/jev-marshal.** Empty repo. Watch / description.
+- **LilDojd/jevons (Empirical as README policy).** MIT. Bounded Pi
+  supervisor; shadow recovery; never generates commands.
+- **MED:** Victor-Casado/if-ai (plain-English PR checks, fail-closed
+  on error); alexsatch/omp-auto-mode (one-line README); jolehuit/
+  jev-downloads-sorter (device-loop Choice); LakshyaChaudhry/
+  jev-label-desk (empty README); flaviomartil/herdr-jev (~260 ms
+  triage + triad; no-key heuristic).
+
+Cross-repo addition: (by) cluster in code / judge labels / policy
+decides (CI flaky-vs-real); (bz) name the irreversible act before
+picking fail polarity (wake skip vs merge PASS vs compaction drop);
+(ca) Harbor on/off routing with a hidden verifier; (cb) S1 extract
++ escalate-S2 is not a measured 10–50× until the table is filled;
+(cc) claim/evidence Stop is anti-hallucinated-done, not a test
+runner; (cd) description-only greenfield is not a product receipt.
+
+## Batch #36 (2026-09-18 ~16:56 Boise) — GLiNER2 Ultrafast observe→score→act
+
+Note: `research/notes.md` §52. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. **Not Jev. Not GLiNER2.5. Not
+multimodal.** No invented metrics. Do not re-fold §48 solari, §50
+compaction, §51 CI merge-gate / wake, GLiGuard species, or jev-ultrafast 7.1 s as this demo.
+
+- **sahibzada-allahyar/gliner2-ultrafast (Empirical as README /
+  architecture behavior).** MIT. Created 2026-09-18T19:35:23Z; 12★
+  at capture. Adaptation of browser-use/jev-ultrafast. Local
+  GLiNER2 (`fastino/gliner2-multi-v1`) extracts requirements and
+  scores observed a11y/DOM controls. No screenshots. No generated
+  selectors or JS. Code owns order, dates, freshness, clicks.
+  Hybrid: local decide; Mercury 2.5 via OpenRouter for TYPE.
+  `DONE` is loop termination; apps must verify outcomes
+  independently. Inspector scores are not calibrated P(success).
+  Demo (theirs, not re-run): NYC→SFO Flights 12.20 s visible /
+  13.785 s loop / ~$0.0001 API. Demonstration, not a bake-off.
+- **Mental models:** (1) observe→score-among-candidates→code-acts
+  is backend-agnostic (Jev Ultrafast ↔ GLiNER Ultrafast; same
+  lesson as compaction); (2) observed DOM/a11y candidates vs
+  screenshot multimodal (solari / laya-mind2web DOM-index Laya vs
+  blackwood-rlcd); (3) hybrid local decide + remote fill; (4)
+  composition + independent outcome check.
+- **rh-guard:** light note only (do not trust `DONE`). Not
+  reward-hack detection.
+
+Cross-repo addition: (ce) computer-use selection is
+backend-agnostic on the same observed-candidate hole; (cf)
+screenshot multimodal is a different input from DOM-as-text;
+(cg) local decide + remote TYPE is mixed-architecture economics,
+not dual-process-ai; (ch) `DONE` ≠ Harbor-verified success.
+
+## Batch #37 (2026-09-18 ~17:15 Boise) — jev-pruner evidence-preserving Bash stdout prune
+
+Note: `research/notes.md` §53. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. **Not a summarizer. Not session
+compaction. Not GLiNER.** No invented metrics. Do not re-fold §50
+gliner25-compaction as this product, §52 observe→score-act, or
+fast-jev-compaction as a duplicate.
+
+- **tamaratran/jev-pruner (Empirical as README / evals README
+  behavior).** MIT. Created 2026-09-18T03:00:58Z; 5★ attached
+  capture, 7★ live this pass. After Bash, Jev Noul-prunes stdout
+  chunks before the main LLM sees them. No summary. Hard envelope
+  (≤10k estimated tokens; JSON/XML/YAML/diff/binary; whole-document
+  commands) then soft Noul. Fail-safe keep original; full archive.
+  Marketplace id still `fast-jev-output`. Codex is opt-in wrapper.
+  Manual sweep (theirs, 2026-09-18): needles 24/24; mean reduction
+  83% (71–92%) on trim scenarios; wrongly trimmed 0/12; 240 ms.
+  Harbor plugin-eval cannot reach Jev (fail-safe). Terminal-Bench
+  paired pilot is integration, not a full bench.
+- **Mental models:** (1) evidence-preserving prune ≠ summarizer
+  (family with gliner25-compaction / jev-reviewer); (2) hard
+  size/format envelope then soft Noul; (3) fail-safe keep original
+  (reduction is the irreversible act); (4) stdout prune vs session
+  compaction are different jobs; host capability shapes the product.
+- **rh-guard:** sibling note only (fail-safe / envelope). Not
+  reward-hack detection.
+
+Cross-repo addition: (ci) command-output sieve and session compaction
+share extractive honesty, not a product; (cj) structure-first
+pass-through (≤10k / JSON-diff) is the sandwich, Jev is the remainder;
+(ck) Harbor plugin-eval refusing Jev is a fail-safe receipt, not a
+missing metric; (cl) marketplace id may lag the repo name.
+
+## Batch #38 (2026-09-18 ~17:21 Boise) — Cua-S1 specialist form System One (source-only)
+
+Note: `research/notes.md` §54. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. **Not TypeSafe Jev. Not GLiNER. Not a
+general CUA. Not multimodal pixels-in.** No invented metrics. Do not
+re-fold §52 gliner2-ultrafast as this product, §48 solari-reflex,
+§53 jev-pruner, blackwood-rlcd as a screenshot cousin, or
+laya-mind2web as a Laya DOM-index cousin.
+
+- **trycua/cua `libs/cua-s1` (Empirical as README / MODEL_CARD
+  behavior; weights Watch).** Parent MIT; ~23.3k★ this pass
+  (updated 2026-09-18T23:21:08Z). Research family of small specialist
+  computer-use models. Profile `cua-s1-form-v0`. Source-only: no
+  weights, datasets, or checkpoint scores. `tinyx` byte encoder +
+  option-attention: per observed element fill / check / click /
+  skip. Fill values selected from extracted `Label: value` pairs,
+  not generated. Code owns execution order. Plan ≠ execute; dry-run
+  default; `execute`/`submit` opt-in; fail-closed unknown checkbox /
+  fill without advertised token `set_value`. Tests exercise
+  implementation, not checkpoint quality. Offline metric *names*
+  only.
+- **Mental models:** (1) specialist S1 vs general agent (narrow task
+  contract; membership ≠ general CUA); (2) Choice among observed
+  elements / fixed actions (same hole as jev-ultrafast /
+  gliner2-ultrafast / solari / laya-mind2web; contrast blackwood
+  screenshot); (3) plan ≠ execute, dry-run default, fail-closed
+  envelope; (4) parallel "System One" naming, not TypeSafe Jev.
+- **rh-guard:** light note only (dry-run / submit opt-in /
+  fail-closed state). Not reward-hack detection.
+
+Cross-repo addition: (cm) observe→score-among-candidates→code-acts
+is backend-agnostic including a specialist CUA head; (cn) "System
+One" in CUA research is a parallel name, not a TypeSafe contract;
+(co) plan ≠ execute / dry-run is the sandwich around a soft
+specialist; (cp) source-only drops publish metric *names*, not
+checkpoint scores — Watch for `cua-s1-form-v0`.
+
+## Batch #39 (2026-09-18 ~17:48 Boise) — CUDA replica, decision-native RAG, verbatim recall, Ruby primitive, FHIR Harbor, AMBIGUOUS baselines
+
+Note: `research/notes.md` §55. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. X MCP flap; `since_id` not advanced.
+Archive `234740` not present locally. No invented metrics. Do not
+re-fold §50–§54. Student-b species already §33 — light delta only.
+
+- **Mintzs/jevify (Empirical as README behavior).** Python. Created
+  2026-09-18T23:41:21Z; 0★. CUDA/PyTorch parallel Choice/Score/Noul
+  *shape* on Qwen2.5-1.5B (`ora_decision_engine` / `ora-decision`).
+  CUDA graphs, branch kernels, literal-label scoring. Independent of
+  Distillation. **Uncalibrated model likelihoods, not measured
+  correctness.** Default refund workflow is not a validated policy.
+  Default `--answer-encoding letters`. **No LICENSE file this pass.**
+- **emergency-lee/decision-native-rag-skills (Empirical as
+  architecture; Hypothesis as a measured win).** MIT. Created
+  2026-09-18T23:29:20Z; 0★. Retrieve wide → decide → evidence set →
+  conflict resolve → reason only over kept evidence. Provider-
+  agnostic. No bundled Python harness. No universal benchmark.
+  Offline replay → shadow → canary → A/B.
+- **Dharundp6/jev-carryforward (Empirical as README behavior).** MIT,
+  1★. npm `carryforward`. Verbatim JSONL ledger; Jev scores recall;
+  constraints/corrections never judged; fail-open dump. 9×3 hint, not
+  proof.
+- **carldaws/hunch (Empirical as README / example suite).** MIT. Ruby
+  `chance`/`pick`/`rate`; English-as-config; validations `rescue nil`
+  fail-open at save. Stub backend. Cousin of probably-lang (library,
+  not a new language).
+- **si618/explore-typesafe-ai (Empirical as named report; not
+  clinical validation).** Created 2026-09-18T23:48:44Z; 0★; license
+  not in API. 100 synthetic Synthea; labels first; 60 requests / 403
+  judgments to jev-1.13.0. Report: NEWS2 10/20 → 1/20 under-triage;
+  98% of 143 med statuses; 7/20 inbox auto-dispatch all correct;
+  p50 329 ms; $0.0038. Claude wrote labels. 20 cases/scenario.
+- **ickma2311/jev-baselines-eval (Empirical as Harbor/jevals
+  practice, including the honest negative).** MIT. Created
+  2026-09-18T22:57:35Z. Pre-registered vs nano/frontier/encoder.
+  **Both AMBIGUOUS.** CLINC150 Jev 0.870 vs nano 0.795 vs Terra
+  0.915. Banking77 encoder **0.933 / 9 ms**. Cascade Δ +0.265 at
+  1pp; **sign flips at exact parity** (R_jev=1.000) because
+  confidence=1.0 on 102/200 incl. 6 wrong. AUROC neither direction;
+  no ECE. Latency ~2.2× serving-path, not 40–200×. Errata ×3.
+- **SargeDev/jev-gate-student-b (light delta).** HF card unchanged:
+  MAE 0.187 / Pearson 0.791 / 90% n=60; ~59 ms; fail-open; teacher-
+  copy.
+- **MED:** fdemir/toolgate (MIT; allow/block/review; Jev not
+  authorization; 72-case synthetic); masa-med-ai/typesafe-screening-mcp
+  (MIT; 326 hits ~17s ~$0.014; screening aid); laurentfabre/
+  databricks-jev-pdf-lab (honest negative; no OSS license);
+  yannip1234/codex-jev (Apache-2.0; 185→44 estimated tokens
+  integration demo; equal accuracy/lower cost not established);
+  kazuhideoki/jev-search (file+fzf; **not** superagents-lab web
+  search; no LICENSE).
+
+Cross-repo addition: (cq) uncalibrated local likelihoods ≠ Noul;
+(cr) retrieve-wide → decide → evidence set is the RAG sandwich;
+(cs) verbatim ledger + scored recall, rules never judged; (ct)
+judgment as a language primitive (English-as-config); (cu)
+confidence=1.0 theater flips cascade sign at exact parity; (cv)
+encoder-with-labels still wins; (cw) serving-path ≠ model-speed;
+(cx) kazuhideoki/jev-search ≠ superagents-lab/jev-search; (cy)
+toolgate product ≠ ndolinschi vocab; (cz) Precision PDF honest
+negative is a result.
+
+## Batch #40 (2026-09-19 ~00:38 UTC / ~18:38 Boise 2026-09-18) — classify-first MCP + living applied-mappings atlas
+
+Note: `research/notes.md` §56. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Do not re-fold
+§50–§55.
+
+- **kbhuw/jev-sift (Empirical as README / schema; Hypothesis as a
+  measured win).** JavaScript. Created 2026-09-18T00:13:31Z; 10★
+  this pass; **no LICENSE file this pass.** Plugin
+  `0.2.0+codex.20260918200547`; package 0.2.0; author Kush
+  Bhuwalka. Classify first, read selectively: batch path / public
+  URL / inline text → Jev relevance or 1–8 typed questions. Direct
+  `POST /v1/systemone` `jev-latest`. Envelope (theirs): 50 items,
+  60k char, 2 MB / 20 s, public-IP only, 3 redirects, no
+  JS/cookies/login, PDFs unsupported. Uncertain/errors/truncation ≠
+  irrelevant. Transport tests (mocks) ≠ accuracy. Same
+  retrieve-wide → decide → evidence-set family as
+  decision-native-rag-skills. Topology A MCP; not jev-routing
+  (host adapter). Cousins: typesafe-screening-mcp,
+  kazuhideoki/jev-search, jev-pruner, carryforward.
+- **jevable.com (Empirical as public showcase; 342 is *their*
+  count).** Independent curated atlas (Nikunj / `@nikunj` in
+  JSON-LD). HTTP 200 Railway. Claimed **342**; JSON-LD first page
+  **36**; `pageSize` 36. Categories: Agents, Browser extensions,
+  Creative tools, Data & research, Developer tools, Experiments,
+  Finance, Games, Marketing, Productivity, Robotics. No public API
+  this pass. Class patterns, not a 342-title dump: (1) intent
+  columns → jevpandas/jevframe / dabit3 formulas; (2)
+  score-among-observed → jev-ultrafast / gliner2-ultrafast /
+  solari / cua-s1 + Your Signal/Near Here (do not merge 7s/$0.0039
+  with 12.20s; 100× is a claim); (3) VOI gates → tamara
+  compaction / jev-pruner / gliner25 / routeKit / Gmail embeddings-
+  first / jev-sift; (4) generative UI decide → json-render +
+  jev-agentworld-web-simulator; (5) robotics text-state MuJoCo
+  geometry-as-text / MOSS / jev-drone / Doom JSON (drawing-pixel
+  claim ≠ Archer); (6) draft-gate silence-as-safer needs fail-open
+  / heartbeat vs Abide `<0.5` (edit proceeds). Confirm-don't-
+  invent: Higgsfield claim, jev-trader, Cambium, SEO 584/139
+  `other`, snacks 3000/28s/$0.11 claim, ai-cli/hunch, Manhattan/
+  Sudoku ≠ replace A*.
+
+Cross-repo addition: (da) classify-first MCP is retrieve-wide →
+decide → evidence-set on agent I/O; (db) errors/truncation ≠
+irrelevant; (dc) topology A MCP ≠ host-adapter routing; (dd)
+living atlas extracts class patterns, not a 342-row dump; (de)
+draft-gate silence ≠ safer (heartbeat); (df) robotics text-state ≠
+pixels; (dg) 342 is their count / JSON-LD 36 is page 1.
+
+## Batch #41 (2026-09-19 ~00:48 UTC / ~18:48 Boise 2026-09-18) — Stagehand experimental Jev pick-and-copy
+
+Note: `research/notes.md` §57. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Do not re-fold
+§50–§56. Draft stack — Watch merge.
+
+- **browserbase/stagehand #2951–#2955 (Empirical as PR-body
+  architecture + their local eval).** Parent MIT. All OPEN draft.
+  Author miguelg719. Created 2026-09-17T06:40Z. User link **#2955
+  (5/5)**: extract completion **judge** + **pick-and-copy**. Jev
+  picks a11y elements; code copies text. `extract` `"off"` |
+  `"judge"` | `"pick"`. Both modes send page/extracted content to
+  TypeSafe. Schema leftovers / screenshot extract / failed gate →
+  LLM. Their card (gemini-3.8-flash, Browserbase, local, 25×3):
+  69/75 vs 23/25 (92% both); **37/75** no-LLM ~0.5 s vs baseline
+  **4.37 s** / two LLM calls; LLM-off **36/75** — pick is a fast
+  path, not a replacement. Stack: #2951 editable ids (outline
+  unchanged); #2952 client + pick (`best`+`strict`; ambiguity
+  stops); #2953 act tree (LLM fallback); #2954 observe + cache-check
+  (errors never block replay). Same observe→score-among-candidates→
+  code-acts *job* as jev-ultrafast / gliner2-ultrafast / cua-s1 /
+  solari, inside a major harness. Do not merge clocks.
+
+Cross-repo addition: (dh) harness pick-and-copy is pointer-not-
+generator at product scale; (di) pick is a fast path, not a
+replacement (36/75 LLM-off honesty); (dj) cache-check errors fail
+open (never block replay); (dk) best+strict is NOTA at pick time;
+(dl) draft stack #2951–#2955 Watch merge.
+
+## Batch #42 (2026-09-19 ~00:46 UTC / ~18:46 Boise 2026-09-18) — public wall, meaning-search, attention≠correctness, skills→oxlint, session-sticky route, measured RAG rerank
+
+Note: `research/notes.md` §58. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Do not re-fold
+§50–§57 (Stagehand is already §57).
+
+- **waynesutton/ask-jev-ai (Empirical as README / live wall).**
+  JavaScript. Created 2026-09-19T00:23:46Z; 0★; **license null.**
+  Public realtime judgment wall; 6 parallel questions/ask; policy
+  in `convex/questions.ts`; safety p≥0.6 blocked; no-key allowlist
+  (UI says Jev offline). Cost $0.000032–$0.000041/ask from TypeSafe
+  token counts → $32–$41/1M. Live askjev.ai. Productized System
+  One primitive surface.
+- **Bentlybro/jevgrep (Empirical as stripped-repo card).** Python
+  MIT. Created 2026-09-19T00:09:47Z; 0★. Meaning-search CLI+MCP
+  without embeddings. 228 questions on docstring-stripped
+  Flask/httpx/Django/AutoGPT: **79% top-5** vs BM25 40% / grep 20%.
+  Keyword still wins exact (BM25 top-10 96% vs 85%). Packed+parallel
+  0.9 s vs serial ~23 min AutoGPT 4,329 files. Distinct from
+  kazuhideoki / superagents-lab / jev-sift.
+- **egma-ai/jev-reviewer (Empirical as README architecture).**
+  JavaScript MIT. Created 2026-09-19T00:38:48Z; 0★. Jev assigns
+  attention P0/P1/P2; OpenAI writes behavior deltas. Attention ≠
+  correctness. **Not** choxos/jev-reviewer. Incomplete never P2.
+  Demo: real Jev + labeled prepared explanation copy; live OpenAI
+  pending funded API.
+- **cephalization/jev-oxlint (Empirical as Phoenix experiment).**
+  TypeScript. Created 2026-09-19T00:34:49Z; 0★; license null.
+  Experiment; nothing published. AST/precheck prove; guidance
+  whole-file in state; remainder judged; not a hard gate. Phoenix:
+  answer-key agree on every fixture; flush-only-on-success noul
+  0.07; routing 0.80–0.94 vs <0.50; coarse hint not. `tenbin` owns
+  the lint skill.
+- **jxu-dev-c/jev-adaptive-thinking (Empirical as README session
+  machine).** Go. Created 2026-09-19T00:35:37Z; 0★; license null.
+  Session-sticky first-prompt classification; later never
+  reclassify; fail-closed lock to `gpt-5.6-sol`. Same family as
+  routeKit. Live testing left to the deployer.
+- **Max-sm-yc/Jev-RAG (Empirical as one-run).** Python. Created
+  2026-09-19T00:33:02Z; 0★; license null. ≥70% cost / 72% latency
+  vs Muse Spark *rerank*; full-context Spark still 10.60 s. Costs
+  include embeddings.
+- MED: EpicEric/safe-sh (AGPL-3.0; static shell analysis);
+  ravikadam/jev-loan-triage (17 questions; policy in code);
+  TurboGuo/jev-fedspeech + jev-dating (Jev vs chat arenas; prior
+  empty search was a query miss); g-h-miles/jevbox (MIT; drums).
+  hermes/mcp packs: **no new pack this pass.**
+
+Cross-repo addition: (dm) productized public primitive surface
+(six parallel questions; policy-in-code; cost-to-1M from tokens);
+(dn) meaning-search without embeddings (packed parallel; keyword
+still wins exact strings); (do) attention ≠ correctness on a PR
+(anti-soundness-theater; not choxos pointer); (dp) skills→oxlint
+AST prove ∩ remainder without hard-gating; (dq) session-sticky
+first-prompt route fail-closed to a declared fallback; (dr)
+measured RAG rerank vs generative rerank must keep the no-RAG
+latency arm visible.
+
+## Batch #43 (2026-09-19 ~01:48 UTC / ~19:48 Boise 2026-09-18) — capability kernel, typed DSPy control plane, calibration arena + fan-out suite, engine-owns-truth, human-confirmed port cleanup
+
+Note: `research/notes.md` §59. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Do not re-fold
+§50–§58. Skip SPFreedom/jef-mcp (parody) and rayelzz/jevregist
+(account farming).
+
+- **somoore/interlock (Empirical as README architecture).** Python
+  MIT. Created 2026-09-19T01:41:58Z; 0★. Capability kernel: LLM
+  ring 3 / Interlock ring 0. Secrets never in the agent. Closed
+  action space. Jev SENSOR; `policy.py` BLOCK/ASK/ALLOW. Type-safe
+  ≠ correct. Distinct from toolgate. 38-case local-judge set, not
+  a blind paper.
+- **manikanda-kumar/jev-dspy-control-plane (Empirical as README
+  architecture + metric list).** Python MIT. Created
+  2026-09-19T01:36:58Z; 0★. DSPy drafts AFTER route+action. OpenJEV
+  / DSPy / JSON Schema share ontology. Offline heuristic ≠ quality.
+- **meetr1912/jev-arena (Empirical as their live card).** Python
+  MIT. Created 2026-09-19T01:28:11Z; 0★. 145 noul, Brier 0.0059,
+  ECE 0.0620, 2 requests / 710 ms; overconfident in low bins.
+  Siblings: jev-sonar (heatmap-as-policy), jev-vickrey (Jev never
+  bids), jev-bracket (live Brier 0.2853 vs Elo 0.2322 — trailed
+  Elo; honest).
+- **JoelLewis/game-coach (Empirical as PRD; Hypothesis as shipped
+  product).** TypeScript GPL-3.0. Created 2026-09-19T01:08:53Z;
+  0★. Wave 0. Stockfish owns truth; Jev owns judgment.
+- **epiphany-dynamics/port-cleanup (Empirical as README safety
+  model).** Swift MIT. Created 2026-09-19T00:58:50Z; 0★. Human is
+  the only kill trigger; identity re-check; shields; mapped
+  explanations.
+- MED: jev-pr-labeler, jevcumber, typedecide (not on npm), jevon,
+  dsh-jev (not on npm), fast-jev-compaction-pi, jev-tetris-benchmark
+  (not a rigorous eval), modelsystem (1★), opencode-system-one
+  (license null; 1★), browser-ai (design done), semantic-bookmark.
+  Star spike: SemIf 1607★ this pass; jevlike 897★.
+
+Cross-repo addition: (ds) capability kernel vs post-decision
+firewall (secrets never in agent; Jev SENSOR; type-safe ≠
+correct); (dt) typed control plane around DSPy, not more LM knobs;
+(du) native-probability calibration + fan-out as measurement
+economics; (dv) engine owns truth / Jev owns judgment (anti-
+soundness-theater with attention≠correctness); (dw) human-
+confirmed kill + mapped explanations + identity re-check.
+
+## Batch #44 (2026-09-19 ~02:43 UTC / ~20:43 Boise 2026-09-18) — domain specialist vs few-shot hosted, decide→policy leftover cascade, ORDER BY calibration≠sortable, GLiFormer wire-compat backend
+
+Note: `research/notes.md` §60. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Do not re-fold
+§50–§59.
+
+- **help-er/Domain-jev-maker (Empirical as their RESULTS.md).**
+  Python MIT. Created 2026-09-19T02:17:54Z; 0★. Independent
+  CLINC gold, not a Jev teacher-copy. KL 0.168 vs 0.580
+  banking; few-shot determinate McNemar n.s. Train specialist
+  when policy reads p.
+- **skiingfalcon/jav-email-cascade (Empirical as README
+  architecture).** Python; license null. Created
+  2026-09-19T02:28:24Z; 0★. Decide→policy→LLM leftover. Noul
+  0.5 never rounded. Mock gen-json flat-confidence is *their
+  mock*. Distinct from dual-process-ai.
+- **yodablocks/jev-orderby-bench (Empirical as independent
+  measurement).** Python MIT. Created 2026-09-19T01:31:53Z;
+  0★. Six gates pass. Score ordinal 0.143 weak link; 53-way
+  0.99 tie; recodelabs batch-40 fails ranking. Calibration ≠
+  sortable.
+- **logan-markewich/jeff (Empirical as their RESULTS.md).**
+  Python; license null. Created 2026-09-19T02:17:25Z; 0★.
+  GLiFormer-400M `/v1/systemone`. ~6× L4 HTTP / ~24× A10G
+  direct; AG News 75.5% vs 90.5%. Not a Jev replica.
+- MED: hraness/sysone (MIT, TypeScript; loopback gateway; no
+  weights).
+
+Cross-repo addition: (dx) specialist vs few-shot as a function
+of whether downstream reads p; (dy) Harbor-shaped
+decide/policy/LLM leftover with native vs verbalized vs
+logprob arms; (dz) ranking family vs calibration family
+(ORDER BY; request shape); (ea) wire-compat encoder backend
+as a product economics decision, not a quality clone.
+
+## Batch #45 (2026-09-19 ~03:39 UTC / ~21:39 Boise 2026-09-18) — active-learning triage / don't distill Jev as teacher, evidence-packet explorer, meaning-grep, closed-vote CU, Jev vs MLX PCD Harbor, host-owned waymode, OMP/pi fail-open gates
+
+Note: `research/notes.md` §61. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Do not re-fold
+§50–§60. Skip empty jev-compactor / laya-jolt.
+
+- **ThyFriendlyFox/jev-triage (Empirical as README architecture).**
+  Python MIT. Created 2026-09-19T03:37:23Z; 0★. Accept / teacher /
+  human. Log full distributions. Do not distill Jev as teacher
+  (~68% ceiling). Real outcomes stay the targets.
+- **jimmyhealer/jev-semantic-explorer (Empirical as their
+  performance.md, author-run).** Python MIT. Created
+  2026-09-19T03:21:01Z; 0★. jevex. 1/8→6/8 SWE-bench Verified
+  finish n=8 (empty = miss). Packet HitFile 0.233 vs BM25 0.159
+  diagnostic, not product KPI.
+- **uehaj/jev-semgrep (Empirical as README + judge test).**
+  JavaScript; LICENSE MIT (GitHub NOASSERTION). Created
+  2026-09-19T03:18:28Z; 0★ then. AND/OR/NOT line Nouls; JP↔EN.
+  Precision 0.94 / recall 0.98 *theirs*. Dedicated fold §86.
+- **buluoray/JevOnly (Empirical as README architecture).** Python
+  Apache-2.0. Created 2026-09-19T03:24:36Z; 0★. Closed-vote; no
+  planner LLM. 11/43/~$0.014/17s *theirs*.
+- **mallahyari/system-one-benchmark (Empirical as their n=50
+  table).** Python; license null. Created 2026-09-19T03:35:00Z;
+  0★. Jev 84.0% / Brier 0.1096 vs PCD 52% / 0.3884. O(1) ≠ Noul.
+- **mossburgh/waymode (Empirical as README + eval suite).**
+  TypeScript MIT. Created 2026-09-19T02:43:12Z; 0★. Host-owned
+  handlers. 24/26 + 34/36 *theirs*. Not a self-driving proof.
+- **luw2007/omp-jev-extensions (Empirical as README fail
+  polarity).** TypeScript MIT. Created 2026-09-19T02:55:18Z; 0★.
+  Fail-open acceptance + route (`confidence: 0`). Contrast
+  pi-jev-approver fail-closed.
+
+Cross-repo addition: (eb) training-data VOI / don't distill Jev
+as teacher of record; (ec) index-once evidence packets vs grep;
+(ed) line meaning-grep AND/OR/NOT; (ee) closed-vote CU with no
+planner LLM vs host-owned product surface; (ef) Harbor Jev vs
+PCD: O(1) speed ≠ calibrated Noul; (eg) OMP/pi fail-open vs
+fail-closed remainder gates.
+
+## Batch #46 (2026-09-19 ~04:38 UTC / ~22:38 Boise 2026-09-18) — permission vs probability (greenlight), judgment ≠ permission (skill-broker outline), eval integrity / instrument-not-score (dinostomp)
+
+Note: `research/notes.md` §62. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Do not re-fold
+§50–§61. Watch archive `/workspace/jev-archive/2026-09-18/223856`
+absent this VM; live GitHub receipts. Do not treat skill-broker as
+a production recipe.
+
+- **SemetricLabs/omp-greenlight (Empirical as measured traffic +
+  labelled corpus).** Python MIT. Created 2026-09-19T04:06:43Z; 0★.
+  1,013 calls / 10 sessions. Default 40.9% prompts removed; 0 of 94
+  unsafe auto-approvals on 140-row corpus. Operator owns thresholds;
+  plugin never self-tunes. Not a sandbox.
+- **adamjralph/skill-broker (Hypothesis / outline only).** Language
+  null; license null. Created 2026-09-19T04:35:59Z; 0★.
+  PROJECT-OUTLINE.md authoritative. Code owns grants; Jev never
+  grants access. Not a production recipe.
+- **collapseindex/dinostomp (Empirical as FINDINGS.md + demo card).**
+  Python; README Apache-2.0 / GitHub NOASSERTION. Created
+  2026-08-09T07:59:32Z; 5★. Checks the instrument, not just the
+  score. 189 findings / 99 against itself. `dinostomp jev` 24-example
+  demo ECE 0.062 *theirs*. Beside jevals, not a Harbor taskset.
+- MED: nrdz-labs/fast-jev-opencode (MIT TS; fail-open OpenCode V2
+  port); yikangy873-gif/jev-desktop; MrDiamondBallz/jev-agent-integration;
+  bohutang/sift; CorieW/JevExplore.
+
+Census: Awesomejev 488/21644; SemIf 1641 (+13); jevlike 905 (+4);
+tracker likes 41 (+1); lastModified unchanged; Laya yes; Blackwood
+ABSENT; X MCP flapping (`pages_archived` 0).
+
+Cross-repo addition: (eh) permission vs probability / operator-owned
+safety bar; (ei) judgment ≠ permission (Jev never grants access);
+(ej) eval integrity / instrument-not-score (`dinostomp jev` as
+if-statement hygiene).
+
+## Batch #47 (2026-09-19 ~05:40 UTC / ~23:40 Boise 2026-09-18) — constrained optimizer + S1 features (slo-router), privilege ≠ verdict (construct-auto-classifier), attention/VOI never-block (jev-lens)
+
+Note: `research/notes.md` §63. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Do not re-fold
+§50–§62. Watch archive `/workspace/jev-archive/2026-09-18/234027`
+absent this VM; live GitHub + HF receipts. Hunches labeled. Do not
+treat the eight-row slo-router demo as a benchmark. Do not treat
+swift-jev LICENSE-only as a CLI product. Do not merge
+sysone-help/sysone with hraness/sysone.
+
+- **zeeshan8281/slo-router (Empirical as live analysis *shape* /
+  negative for sync Jev).** Python; license null. Created
+  2026-09-19T05:32:45Z; 0★. Jev features, constrained controller.
+  Same routes/accuracy; p95 77.93→490.38 ms *theirs*. Fail-open
+  local features. Exactness raises floor, never overrides
+  capability.
+- **godspede/construct-auto-classifier (Empirical as
+  certification).** TypeScript Apache-2.0. Created
+  2026-09-18T22:27:03Z; 0★. Effect-based shell gate. Jev 0
+  dangerous / 975; every chat model leaked 16–104. Privilege ≠
+  verdict. Fail-closed. Operator-owned dials.
+- **rashedInt32/jev-lens + jev-lens.nvim (Empirical as README
+  architecture).** JS MIT created 2026-09-19T04:46:01Z; Lua MIT
+  created 2026-09-19T04:47:11Z; 0★. Never blocks; never edits;
+  never green unless sure. Attention filter / VOI, not a
+  permission gate.
+- MED: sysone-help/sysone (MIT TS; evaluation-model-first SDK;
+  not hraness/sysone); ctaxnagomi/INSTRUCT_JEV (HF MIT; 119 rows
+  47/51/21; jevals seed); ckaik/swift-jev (MIT; LICENSE-only).
+
+Census: Awesomejev 488/21644; SemIf 1652 (+11); tracker likes
+42 (+1); lastModified unchanged; Laya yes; Blackwood ABSENT;
+X MCP flapping.
+
+Cross-repo addition: (ek) constrained optimizer + S1 features /
+never sole hot-path gate (Harbor-style latency cost); (el)
+privilege ≠ verdict / effect contracts not tokens; (em)
+attention filter / VOI for human review / never blocks / never
+green unless sure.
+
+## Batch #48 (2026-09-19 ~06:39 UTC / ~00:39 Boise) — measurement owns endorsement (jev-packs), Jev supplies evidence / code owns authority (actiongate-jev), ranking ≠ calibration (does-jev-confidence)
+
+Note: `research/notes.md` §64. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Do not re-fold
+§50–§63. Watch archive `/workspace/jev-archive/2026-09-19/0039`
+absent this VM; live GitHub receipts. Hunches labeled. Do not treat
+jevassert as a shipped product (404). Do not re-fold
+sysone-help/sysone. Do not cite `threat` (n=1). Do not merge
+gqgs/laya-onnx with Mattepiu/laya-onnx or local-jev with
+us/jev-local.
+
+- **dtduc-git/jev-packs (Empirical as registry tables /
+  Harbor-jevals practice).** Python CC0-1.0. Created
+  2026-09-19T06:35:36Z; 0★; GitHub size 0. Evidence-gated
+  `pack.yaml` + `cases.jsonl` + `evidence.md`. Nine packs
+  `verified` *theirs* on pinned `jev-1.13.0` (citation-support
+  800 / 0.919 / 0.022 through banking-intent 150 / 0.840 /
+  0.090). `unknown` mandatory. Named runner jevassert **not
+  released** (404). Measurement owns endorsement.
+- **omkarghugarkar007/actiongate-jev (Empirical as README
+  slogan).** TypeScript Apache-2.0. Created
+  2026-09-19T06:20:33Z; 0★; size 0. Deterministic policy owns
+  ALLOW|REVIEW|BLOCK; Jev is semantic evidence only. Slogan:
+  "Jev supplies evidence. Code owns authority." Positive
+  score never overrides a hard fail. Fail-closed
+  financial/destructive/credential if Jev is down. 500-case
+  is label-baseline, not accuracy.
+- **Adilmp/does-jev-confidence-mean-anything + jevcal
+  (Empirical as 8,000-judgment audit).** Python; license
+  null / MIT. Created 2026-09-19T04:51:58Z / 05:44:21Z; 0★ /
+  1★. AUC ~0.91; stated ~75% vs human ~10%; ~96% ECE
+  removed without rank change. Vendor "calibrated" =
+  rank-correlation, not frequency units. jevcal ~100 labelled
+  rows. One domain (`civil_comments`).
+- MED: gqgs/laya-onnx (complete Laya→browser int8; conversion
+  smoke; distinct from Mattepiu); kunchenguid/local-jev
+  (ModernBERT approximation — not equivalence; distinct from
+  jev-local stub and jeff).
+
+Census: Awesomejev 488/21644; SemIf **1660** (+8); jevlike
+**910** (+5); TypeAR 9; tracker likes 42; lastModified
+unchanged; Laya yes; Blackwood ABSENT; X MCP flapping.
+
+Cross-repo addition: (en) measurement owns endorsement /
+evidence-gated question packs; (eo) Jev supplies evidence /
+code owns authority (positive p never overrides a
+deterministic security failure); (ep) ranking ≠ calibration
+/ never hard-threshold raw p as a frequency.
+
+## Batch #49 (2026-09-19 ~06:50 UTC / ~00:39 Boise remainder) — hot-click CU (ego-jev), Jev judges relevance / code decides structure (jev-compactor), local-rules-then-remainder + anti-self-train (x-reply-filter)
+
+Note: `research/notes.md` §65. Same hour as §64. Docs-only.
+Folded into PR #2. Archer still Watch. No invented metrics. Do
+not re-fold actiongate / jev-packs / sysone-help. jev-compactor
+was empty skip in §61; content landed. Hunches labeled.
+
+- **jiangkoumo/ego-jev (Empirical as n=3 medians / README
+  architecture).** JavaScript MIT. Created
+  2026-09-19T06:33:03Z; 0★. Indexed viewport table →
+  operation+target. Code owns observe/execute/`--until`.
+  Text model only for type. HN 4.9 s vs 9.7 s; wiki 5.4 s vs
+  10.1 s *theirs*. High variance. Not a benchmark.
+- **edwardyen724-g/jev-compactor (Empirical as one-session
+  bench).** TypeScript MIT. Created 2026-09-19T03:31:54Z;
+  1★. Was empty skip. Jev judges relevance; code decides
+  structure; never rewrite. 64.5% / 366 ms / $0.0004 / 0
+  hallucinated / 4 of 4 vs Sonnet 96.2% / 1 invented path.
+  Dual fail polarity. Regex floor independent of Jev.
+- **zhuyansen/x-reply-filter (Empirical as README + small
+  e2e).** JavaScript MIT. Created 2026-09-19T06:07:18Z; 0★.
+  Local rules first; remainder Nouls; never auto-train on
+  the model's own hides. 3-sample e2e 0.90/0.93 vs 0.08/0.10.
+
+Census: same as batch #48 (Awesomejev 488/21644; SemIf 1660;
+jevlike 910; tracker likes 42).
+
+Cross-repo addition: (eq) hot-click CU / indexed element
+table / S1 on click path; (er) Jev judges relevance, code
+decides structure / never rewrite; (es) local rules first
+then remainder / never auto-train on the model's own hides.
+
+## Batch #50 (2026-09-19 ~07:53 UTC / ~01:47 Boise) — control-plane combinators, receipts-not-leaderboard, skill VOI, OOD/AUC≠ECE, frontier-100, turnstile, jevmlx
+
+Note: `research/notes.md` §66. Docs-only. Folded into PR #2.
+Archer still Watch. No invented metrics. Atlas axis already
+§49; skillranker existence already §7 (hook polarity
+**corrected** to fail-open); jevmlx reconstruction already
+§1. Hunches labeled.
+
+- **voidning/decision-combinators (Empirical as README
+  architecture).** TypeScript. README MIT / GitHub license
+  null. Created 2026-09-19T07:25:16Z; 0★. Then / Gate /
+  Vote / Cascade / Weighted. Not literal AND/OR. No
+  measurements.
+- **Zaious/jev-capability-atlas (delta: eval-integrity
+  cluster).** 10★ this pass (was 0). Receipts not
+  leaderboard; type-safe ≠ correct. Do not rehash history
+  suite.
+- **Dicklesworthstone/skillranker (Empirical as README;
+  correction).** Rust; 52★. Two-pass + none-of-these.
+  Claude hook fail-open (quiet exit 0). VOI over skill
+  library.
+- **scienthoon/jev-ood-calibration (Empirical as 900-ticket
+  + 3 public benches).** MIT. Created 2026-09-19T07:33:22Z.
+  Synthetic ECE 0.107 = 4.4× floor; priority 44.7% / mean p
+  0.74 / T 3.40; boolean T 0.66. AUC ≠ ECE.
+- **softpudding/jev-frontier-100 (Empirical as exploratory
+  100×3).** MIT. Jev 77.0%; Qwen3.5 4B/2048 96.7%; 4B off
+  56.0%. Not preregistered. Not a ceiling.
+- **zyphr-labs/turnstile (Empirical as README
+  architecture).** Apache-2.0. Experimental alpha. Policy
+  first; Jev remainder; replay. Missing Jev → Review.
+  Actiongate-class.
+- **bnsd55/jevmlx (Empirical as README library).** MIT;
+  28★. One-pass schema→JSON+probs. Softmax ≠ Noul. No
+  local leaderboard yet.
+- MED: chopratejas/invalidate (5★; 0 of 157 false
+  invalidations); yottayoshida/jev-intent-review (under
+  construction); shubhangi013/prune-review (22-run cost
+  1.18% with 305% outlier).
+
+Census: not re-derived this hour (last §64/§65: Awesomejev
+488/21644; SemIf 1660; jevlike 910; tracker likes 42).
+
+Cross-repo addition: (et) combinators / System One as
+control plane; (eu) receipts not leaderboard / type-safe ≠
+correct jaggedness; (ev) skill-library VOI / abstention;
+(ew) OOD / AUC ≠ ECE / sign by type; (ex) thinking-budget
+bake-off; (ey) turnstile evidence≠authority + replay;
+(ez) MLX one-pass replica economics.
 
 
+## Batch #51 (2026-09-19 ~08:45 UTC / ~02:38 Boise) — TLA+ compose, SEAL coverage ledger, skill-broker sibling, sureness, JevBench v1.1, CI typed gate, Codex MCP
+
+Note: `research/notes.md` §67. Docs-only. Folded into PR #2.
+Archer still Watch. No invented metrics. Do not re-fold §66
+HIGH except sibling contrast. skill-broker outline already
+§62. Hunches labeled.
+
+- **copyleftdev/jev-labs (Empirical as TLA+ + 1,080 golden
+  chaos table).** Python MIT. Created 2026-09-19T08:07:12Z;
+  0★. Never confidently wrong. 0 wrong golden; severe 46
+  escalate. TLC 1,049,750 / 0 errors. Synthetic, not
+  clinical.
+- **Reasonofmoon/seal (Empirical as README + BEYOND-JEV.md).**
+  Python MIT. Created 2026-09-19T08:10:05Z; 0★. No seal, no
+  advance. coverage.path auto|code|human|escalate. Mint ≠
+  product brain.
+- **adamjralph/skill-broker (delta: sibling table).** Still
+  outline; README restates grants-in-code. Contrast
+  turnstile / skillranker.
+- **adarc8/how-sure-is-jev (Empirical as 60-q library).**
+  Python MIT. Choice confidence = max_prob. Most generous
+  metric.
+- **fstandhartinger/jevbench (Empirical as v1.1 artifact).**
+  Python MIT. Unofficial. Main Score 0.6/0.2/0.2. Jev
+  1.13.0 87.6. Calibration not scored.
+- **NemanjaManic/ci-gatekeeper-bot-jev (Empirical as
+  own-repo latencies).** package.json MIT / GitHub SPDX
+  null. 504–629 ms. Conservative default.
+- **teempai/jev-in-codex (Empirical as README).** TypeScript
+  MIT. Codex MCP. Ranking unbenchmarked. Lexical fallback.
+
+Census this hour (user-provided): Awesomejev 488/21644;
+SemIf 1683 (+11); jevlike 923 (+5); tracker likes 43 (+1).
+Archer still NOT landed. X MCP flap continues.
+
+Cross-repo addition: (fa) never confidently wrong / TLA+
+compose; (fb) no seal no advance / coverage ledger;
+(fc) sureness / max_prob is generous; (fd) JevBench
+calibration not in Main Score; (fe) CI typed gate before
+expensive review; (ff) Codex MCP host adapter.
+
+## Batch #52 (2026-09-19 ~09:55 UTC / ~03:38 Boise) — attention redirect, pre-send views, tools≠use, observational memory, open-Jev class, physical-world S1
+
+Note: `research/notes.md` §68. Docs-only. Folded into PR #2.
+Archer still Watch. No invented metrics. Do not re-fold §67
+HIGH except sibling contrast. Hunches labeled.
+
+- **muse0509/jev-preflight (Empirical as owner-run hook
+  smoke).** Go MIT. Created 2026-09-18T13:54:37Z; 1★;
+  v0.1.0 Public Beta. Eight risk axes; assist=one
+  reinspect; fail-open; 0.85 uncalibrated. Claude Code
+  2.1.267: no-key fail-open PASS; key-enabled exactly one
+  continuation. Not a merge blocker.
+- **godspede/construct-auto-classifier (delta).** Cert
+  unchanged: Jev 0 dangerous / 975; $0.047/1k. Landed-
+  script trust; headless ≠ auto-approve.
+- **edwardyen724-g/jev-compactor (Empirical as product-arm
+  table).** Later bench 73% / 350 ms / 4 of 4 *theirs*.
+  30–250× cheaper. §65 64.5% is vs-Sonnet.
+- **dizk/jev-lens (Empirical as 500-trajectory).**
+  TypeScript MIT. Created 2026-09-18T08:16:12Z; 0★. 79%
+  fewer tokens (11.6M→2.4M). Post-send prune +17% cost.
+  Distinct from rashedInt32/jev-lens.
+- **Dharundp6/jev-carryforward (delta).** recall 0/4.
+  tools≠use. SessionStart > hoping.
+- **willfish/pi-observational-memory-jev (Empirical as
+  README).** TypeScript MIT. Created 2026-09-18T06:42:35Z;
+  0★. Keep/kind verbatim; model-free compact.
+- **genai-craft/openvons (Empirical as their docs).**
+  Python Apache-2.0 LICENSE / GitHub SPDX NOASSERTION; 7★.
+  Independent open-Jev class. JevPick 3.2–4.8×. Wire-compat
+  ≠ replica.
+- **AboveColin/HA-Jev (Empirical as README + measurements).**
+  Python MIT; 17★. First real card. Not for locks/heaters.
+- **kylemclaren/jevql (architecture note).** Judgment
+  outside the store. CLI; DB never sees jev().
+- **bohutang/sift (short bullet).** ~$0.00003/post.
+
+Census this hour (user-provided): Awesomejev 488→561
+(+73, agent tooling 87→107); SemIf 1683→1704. Archer
+still NOT landed.
+
+Cross-repo addition: (fg) attention redirect not merge
+blocker; (fh) compress-before-first-send; (fi) tools≠use
+/ SessionStart; (fj) observational keep/kind; (fk)
+open-Jev class / wire-compat ≠ replica; (fl) physical-
+world S1 / not for locks; (fm) judgment outside the store;
+(fn) landed-script / headless≠auto-approve.
+
+## Batch #53 (2026-09-19 ~10:55 UTC / ~04:39 Boise) — digital-design combinators, VOI cache, skill-routing Harbor, zeroshot displacement, typed handoff
+
+Note: `research/notes.md` §69. Docs-only. Folded into PR #2.
+Archer still Watch. No invented metrics. Do not re-fold §68
+HIGH except sibling contrast / combinators rename. Hunches
+labeled.
+
+- **voidning/jev-combinators (delta: rename + extended five).**
+  Same repo as decision-combinators (§66). Package MIT /
+  GitHub SPDX null. Router / Loop / Retry / Fallback /
+  Memory. Digital-design metaphor ≠ literal AND/OR. No
+  measurements.
+- **kushals256/jevcache (Empirical as n=100 live eval).**
+  TypeScript MIT. Created 2026-09-19T09:40:18Z; 0★. Jev
+  0 FP / precision 1 / recall 0.38 / fpr 0 vs Jaccard@0.35
+  fpr 0.48; $0.00174 *theirs*. Fail-open.
+- **iamdin/pi-jev-skill-bench + pi-jev-skill-suggestion
+  (Empirical as README harness; no live Jev numbers).**
+  TypeScript MIT. 43 gold; roster 50–500. No-key no-op.
+- **zhuyansen/jev-zeroshot-vs-bert (Empirical as 7-set
+  table).** Python MIT. +0.05–+0.13 vs DeBERTa-c;
+  contamination 0.901 vs `-c` 0.763; ≈230 / >2048 labels;
+  DiD 0.035 vs 0.112 *theirs*.
+- **shitianfang/jev-handoff (Empirical as README + 40 tests).**
+  TypeScript MIT. Alpha v0.1. Gate never grants. Fail-open.
+  Vercel drops confidence.
+- **ThinkyMiner/Winnow (Empirical as unreviewed goldens).**
+  TypeScript MIT. 80%/90% *theirs*. Distinct from
+  kevinpita/winnow.
+- **rsdkrasen/hermes-jev-router (Empirical as README +
+  offline pytest).** Python; license null. WHETHER/HOW/WHAT.
+  Community plugin, not vendor.
+- **mleyvaz/jev-typed-evaluation-collapse (Empirical as
+  NCML field note v0.3).** License null. Noul collapse vs
+  named Choice p=1.0 vs binary red 0.67–0.85 *theirs*.
+- **DowLucas/browser-jev (Empirical as README).** TypeScript;
+  license null. Sample-from-distribution. Playwright
+  executes, Jev chooses.
+- **IamBusy/OpenJev (Empirical as RESULTS.md).** Apache-2.0.
+  45/60 vs v0.2 39/60. `/v1/decide` ≠ TypeSafe drop-in.
+  Distinct from hraness/sysone runners.
+- **dddanielliu/semif-serve (Empirical as latency table).**
+  pyproject MIT / GitHub SPDX null. 1164 vs 178 ms *theirs*.
+  Wire-compat ≠ replica.
+- Toolbelt notes: win4r/jev-security-scan (MIT; not a cert);
+  bojansandhaus/jev-decisions (MIT; 1★; advice never stops
+  commands); TeoMastro (license null; summary.md 404).
+  rh-guard owns reward-hack.
+- **ctaxnagomi/DGUI_HYPERMEM-JEV (feedstock schema).** HF MIT;
+  6 rows. Sibling INSTRUCT_JEV.
+
+Census this hour (user-provided): Awesomejev flat 561/27007;
+tracker likes 43→45; SemIf 1714 (+10); jevlike 926 (+3).
+Archer still NOT landed.
+
+Cross-repo addition: (fo) digital-design combinators /
+extended five; (fp) VOI cache admission / 0 FP; (fq)
+Harbor skill-routing roster-size; (fr) zeroshot vs BERT
+displacement / contamination DiD; (fs) typed baton never
+grants / inverted loop; (ft) worth-your-attention VOI /
+qualify Winnow owner; (fu) WHETHER/HOW/WHAT; (fv) conflict
+≠ ignorance / named Choice escape; (fw) Playwright
+executes Jev chooses; (fx) OpenJev `/v1/decide` ≠ drop-in;
+(fy) SemIf runoff wire; (fz) decision-as-memory flywheel.
+
+## Batch #54 (2026-09-19 ~11:55 UTC / ~05:46 Boise) — record/replay CI, BBQ, decider≠executor, sentence-as-rule lint, open replica substrates
+
+Note: `research/notes.md` §70. Docs-only. Folded into PR #2.
+Archer still Watch. No invented metrics. Do not re-fold
+§50–§69 HIGH except sibling contrast / jevassert landing /
+prune-review, intent-review, laya-jolt, local-jev deltas.
+Hunches labeled. Meanblock/JEV-CPU **404**.
+
+- **dtduc-git/jevassert (Empirical as README + Action @v0).**
+  Python Apache-2.0. Created 2026-09-19T06:48:15Z; 0★; size
+  64. **LANDED** (was 404 §64). Record/replay CI:
+  accuracy/ECE/Brier/cost/latency offline from recordings.
+  Exit 0/1/2. McNemar. Backend-neutral.
+- **dtduc-git/jev-packs (delta: runner pairing + 2,990
+  matrix).** CC0-1.0; size 0→458. Jev/Sonnet 5 accuracy
+  tie Δ≤0.018; Jev better calibrated 7/9; ~250× cheaper
+  *theirs*. sms-spam this-pass 0.953 / ECE 0.040.
+- **chenmingtang830/jevarena (Empirical as runnable
+  harness; not findings).** TypeScript Apache-2.0; size
+  724. Failure-finding not a leaderboard. **≠**
+  meetr1912/jev-arena. Always qualify owner.
+- **simonmesmith/jev-bbq-experiment (Empirical as full
+  58,492).** R; license null; size 5365. 97.28%; bias
+  0.04/0.34; $0.3429 / 7.75 min *theirs*. Not a general
+  bias cert.
+- **thomasbrueggemann/jeffrey (Empirical as README).**
+  TypeScript MIT; size 71. Decider ≠ executor. Pick ≠
+  fill. Risk≥0.5 pause. Stuck ladder 2 Jev / 0 steps.
+- **mizchi/jevlint (Empirical as 13/15 corpus).**
+  TypeScript MIT; size 338. ast-grep × `ask:`. 13/15
+  1.00/1.00 *theirs*. **≠** huntedman/JevLint. Always
+  qualify owner.
+- **shubhangi013/prune-review (delta: size/star).**
+  22-run numbers unchanged 1.18% with 305% outlier
+  *theirs*. ~20% cost target. Cost not quality.
+- **yottayoshida/jev-intent-review (delta: CLI).** Dual
+  MIT/Apache-2.0; size 81. VERIFIED/VIOLATION/UNKNOWN.
+  Empty search ≠ proof. Action not written.
+- **Eran-BA/Jev_from_GLiNER2 (spec-only).** Size 0.
+  Interface ≠ replica. Distinct from jeff GLiFormer.
+- **bokuweb/grande (Empirical as JGLUE + isolation).**
+  Rust; license null; 1★; size 583. JNLI 0.614 ECE
+  0.088 T=2.81; JCQA 0.853; 270M 0.710/0.710 *theirs*.
+  Softmax ≠ Noul until T.
+- **jlt-commons/laya-jolt (delta: content landed).**
+  Clojure Apache-2.0; size 5112. Byte parity vs Python
+  system_one. ~1e-7 last-digit drift.
+- **leesk212/JEV-CPU (Empirical as PoC).** Python MIT;
+  1★. SemIf CPU + UI. Meanblock/JEV-CPU 404.
+- **kunchenguid/local-jev (delta: measured).** 136
+  checkpoints *theirs*: done 30% / shape 57% / r −0.06.
+  Not equivalence.
+- Toolbelt notes: actiongate-jev slogan already §64.
+  **Nyarlathoteppppp/pi-heed (Empirical as 79-session
+  bench).** TypeScript MIT; 3★; size 621. Recall 98.5%
+  / false block 0.0% / $0.000058 *theirs*. Jev never
+  writes policy.
+- MED: david-j-lustig/system-one-responsible-ai size 0
+  framing stub.
+
+Census not re-derived this hour (last §69). Archer still
+NOT landed.
+
+Cross-repo addition: (ga) record/replay CI / calibration+
+cost first-class; (gb) evidence-gated packs have a
+runner / 2,990 matrix; (gc) failure-finding arena ≠
+leaderboard / qualify jevarena owner; (gd) BBQ
+stereotype/uncertainty/cost not a bias cert; (ge)
+decider≠executor / pick ≠ fill; (gf) sentence-as-rule
+lint / qualify jevlint owner; (gg) VOI hunk prune /
+safety escarpment; (gh) whole-repo intent UNKNOWN;
+(gi) GLiNER2 spec ≠ replica; (gj) open replica
+substrates (grande / laya-jolt / JEV-CPU / local-jev);
+(gk) persist constraints across compaction.
+
+## Batch #55 (2026-09-19 ~12:50 UTC / ~06:43 Boise) — SGR-judge Harbor contract, control-plane productization, never-generates, recipes+life feed, NAR claim-audit
+
+Note: `research/notes.md` §71. Docs-only. Folded into PR #2.
+Archer still Watch. No invented metrics. Do not re-fold
+§50–§70 HIGH except sibling contrast. Hunches labeled.
+IPECTER/jev-context-pruner **empty**.
+
+- **slavadubrov/jev-judge-bench (Empirical as frozen
+  contract; not a quality score).** Python; README MIT /
+  GitHub SPDX NOASSERTION. Created 2026-09-19T12:20:43Z;
+  0★; size 0 lag. SLA-150. Invalid = FN. 21 offline tests.
+  Canaries ≠ quality. **No headline yet.** ≠ jevarena /
+  jevbench. Always qualify owner.
+- **IPECTER/jev-context-pruner (empty skip).** Description
+  only; contents 409 empty. Sibling contrast vs
+  fast-jev-compaction / jev-compactor / dizk/jev-lens.
+- **shitianfang/jev-use (Empirical as 95-call card).**
+  TypeScript MIT v0.4.1; size 196. p50 220 ms; 186 vs
+  2,672 ms; gate 12/12; Vercel margin 0.4; 17/20 then
+  0/20 *theirs*. Fail-open. ≠ jev-ultrafast. Same author
+  as jev-handoff.
+- **goodruizhan/pi-jev-control (Empirical as README).**
+  TypeScript; license null; v0.3.0 private. Control plane.
+  GUI never force-click; compaction never writes session.
+  No live quality numbers.
+- **florian-hoenicke/jev-gpt (Empirical as README demo).**
+  Python; license null. Never free-generates. ~400 calls /
+  75 s / 2¢ *theirs*. Distinct from jeffrey.
+- **nexibeo/jev-cookbook (Empirical as recipe samples, not
+  benches).** JavaScript MIT; 1★; size 165. 425 calls /
+  $0.015; browser 5/6 *theirs*. 16–36 handmade.
+- **fengyiqicoder/jevfeed (Empirical as README + 17
+  tests).** JavaScript MIT. No social graph. One request
+  per batch of ten. Distinct from both Winnow products.
+- **Heman10x-NGU/openJev-verdict-2.0 (claim-audit, not
+  endorsement).** Python; README Apache-2.0 / GitHub SPDX
+  NOASSERTION. 77.10%/0.0636/0.0144 *theirs* unverified.
+  Open PR #1: throughput≠latency; Laya parity; like-for-like
+  ECE. ≠ IamBusy/OpenJev.
+
+Census not re-derived this hour (last §69). Archer still
+NOT landed.
+
+Cross-repo addition: (gl) Harbor SGR-judge contract /
+canaries ≠ quality / no headline yet; (gm) hand no-text
+steps / gateway drops confidence; (gn) Pi control plane /
+GUI never force-click; (go) generation as tree of Choices;
+(gp) recipe atlas / samples not benches; (gq)
+personal-history ranking without a social graph; (gr)
+competing NAR dual-channel ECE as claim-verification;
+(gs) empty compaction-proxy skip.
+
+## Batch #56 (2026-09-19 ~13:52 UTC / ~07:49 Boise) — 1-token logprob ≠ Noul, replica engine, Elixir SDK, commit/jevex VOI, inbox, laya-multilingual
+
+Note: `research/notes.md` §72. Docs-only. Folded into PR #2.
+Archer still Watch. No invented metrics. Do not re-fold
+§50–§71 HIGH except sibling contrast. Hunches labeled.
+Local archive `/workspace/jev-archive/2026-09-19/0747/`
+missing; live GitHub + HF ~13:52 UTC. IPECTER/jev-runway
+**LICENSE-only empty**. GitHub `size: 0` lags on repos
+that have files.
+
+- **taku-me/chakuho (Empirical as 336-case GUI).** Python
+  MIT. 1-token logprob `/v1/systemone`. Softmax ≠ Noul.
+  Coverage ≠ correctness. 27B 95%/92% vs Jev 89%/82%
+  *theirs*. `__none__` 97% vs 8B 10%. Cousin jevify /
+  TypeAR / pcdServer / jevmlx.
+- **zerodegress/jevinf (Empirical as README speedup).**
+  Python MIT; ≥3.14. 2.57×/2.27× 100% argmax *theirs*.
+  MPS only. Wire-compat ≠ replica.
+- **phiat/typesafe-elixir-sdk (Contract).** Elixir MIT;
+  1★. Unofficial HTTP client. ≠ dannote/jev OTP peer.
+- **jimmyhealer/jevex (delta of §61).** Rename of
+  jev-semantic-explorer. n=16 160s→69s / $8.74→$3.13 /
+  16/16 *theirs*. Keep n=8 1/8→6/8.
+- **yodablocks/commitjev (Empirical as 13 labelled).**
+  Python MIT. Middle band never rounded. 0 false on 5
+  clean *theirs* (small control). Same owner as
+  jev-orderby-bench.
+- **Mrmimee/hermes-plugin-jev (identity lock).** README
+  MIT / GitHub SPDX null. Agnes 3.0 Flash branded as
+  Jev. ≠ hermes-jev-router.
+- **dev-willbird1936/pi-jev-compact (Empirical as README
+  + latency).** TypeScript MIT. ≠ vava-nessa/pi-jev-
+  compaction. Fail-open if <25% saved.
+- **IPECTER/jev-runway (empty skip).** LICENSE only.
+- **Milo318/mailordinal (Empirical as README).**
+  TypeScript MIT. Decision-native inbox. Humans own
+  ambiguity.
+- **aarora79/jev-samples (toolbelt).** License null. One
+  sample. Not a bench.
+- **shaharia-lab/jev-cli (not ready).** Rust Apache-2.0
+  OR MIT; 0.0.0; 17 issues. ≠ jevql.
+- **convaiinnovations/laya-multilingual (Empirical as
+  Hub card).** Apache-2.0; 322M; 9 likes. MASSIVE
+  0.366/0.387 vs 0.227/0.733. Khmer 0.000@0.952. Ships
+  uncalibrated.
+- **mobarmg/jev-schema-scorer-deberta-v3-large (Hub;
+  GitHub 404).** MIT. v2 Choice 0.841. Peaked ranking ≠
+  calibration.
+- Skip: jev-routing host-surface delta (Cursor/Devin);
+  laya-typed-decisions; open-jev-laya-bench /
+  jev-tree-choice-cap / INSTRUCT_JEV HF 401; jevlogs
+  GitHub 404 + HF 401.
+
+Census not re-derived this hour (last §69). Archer still
+NOT landed.
+
+Cross-repo addition: (gt) 1-token logprob ≠ Noul /
+coverage ≠ correctness; (gu) open replica engine
+argmax-parity; (gv) unofficial Elixir SDK ≠ OTP peer;
+(gw) jevex n=16 files-to-read VOI; (gx) commit
+attention≠verdict / middle band; (gy) branding ≠
+backend (Agnes as Jev); (gz) Pi compact ≠ compaction;
+(ha) decision-native inbox; (hb) unofficial CLI not
+ready; (hc) multilingual Laya confident-wrong OOD;
+(hd) schema-conditioned peaked ranking; (he) second
+IPECTER empty skip.
+
+## Batch #57 (2026-09-19 ~14:37 UTC / ~08:37 Boise) — productized System One HTTP, escalate-under-threshold, silent FALLBACK
+
+Note: `research/notes.md` §73. Docs-only. Folded into PR #2.
+Skip Archer. No invented metrics. Hunches labeled.
+User-provided SIGNAL + live README `6ae8bda` /
+eval/README `2009d1f`.
+
+- **mrmps/classifier-dev (Empirical as README +
+  eval/README).** MIT; **185★**; https://classifier.dev.
+  Public zero-shot HTTP; no key. Jev primary
+  (`src/jev.ts`); LLM fallback only. 400 headlines
+  **650 ms** *theirs*; packing 100 = one-at-a-time.
+  Smart: single-label <0.7; multi-label ignores.
+  Emotion ≥0.9 → 82% / <0.5 → 29%. gemini-3.8-flash
+  87.5→90.0 / 61.8→63.7. Multi-label F1 **0.887** /
+  **230 ms** vs cascade **0.799** / 1.5 s (eval 232 ms;
+  AG News **87.7%** vs 82.0%; emotion **60.5%** vs
+  57.0%). n=7 train-on-test; ~0.03 coin flip.
+  granite-4.0-h-micro F1 **0.546** vs advertised
+  ~**0.800**; digest marks `FALLBACK`. Distinct from
+  ask-jev-ai. rh-guard owns the gate card. Life/business
+  (spam/inbox/feedback).
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (hf) productized System One HTTP /
+label+p public contract; (hg) escalate-under-threshold /
+multi-label ignores tier; (hh) vs_jev tracked JSON not
+transcription; (hi) silent FALLBACK / granite 0.546 vs
+advertised 0.800; (hj) classification API for
+spam/inbox/feedback.
+
+## Batch #58 (2026-09-19 ~14:48 UTC / ~08:48 Boise) — choxos/jev-reviewer systematic-review pointer (delta of §48)
+
+Note: `research/notes.md` §74. Docs-only. Folded into PR #2.
+Skip Archer. **≠** egma-ai/jev-reviewer. No invented metrics.
+Hunches labeled. User-provided SIGNAL + live README `d0220a1`.
+
+- **choxos/jev-reviewer (Empirical as README; delta of
+  §48).** MIT; **12★**; https://jevreviewer.xera.ac.
+  Pointer-not-generator at Cochrane/PRISMA scale. Jev
+  picks line ids; code copies verbatim. Two-pass Choice
+  + Noul (quotes ≥ 0.5 *theirs*). *Not found* is an
+  answer. Human tick never overwritten. 18-q template
+  **4.6 s / $0.0101** *theirs* (spot check, not a
+  validation study).
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (hk) two-pass relative Choice +
+absolute Noul; (hl) *Not found* first-class; (hm) human
+check as productized judgment; (hn) evidence-synthesis
+as class application beyond SWE; (ho) name lock vs
+egma-ai.
+
+## Batch #59 (2026-09-19 ~14:56 UTC / ~08:56 Boise) — githubnext/localjev wire-compat ≠ logit-equiv
+
+Note: `research/notes.md` §75. Docs-only. Folded into PR #2.
+Skip Archer. **≠** kunchenguid/local-jev. No invented metrics.
+Hunches labeled. User-provided SIGNAL + live README `39939e6`
+/ eval `418cae7`.
+
+- **githubnext/localjev (Empirical as README +
+  evaluation-results-2026-09-18).** MIT; **261★**;
+  GitHub Next. Bun `POST /v1/systemone` on DiffusionGemma
+  via Chat Completions; TypeSafe SDK drop-in. Prompted
+  JSON → validate/retry → normalize + entropy confidence.
+  **Not** razorback16 structured-read logits. **Not**
+  IamBusy/OpenJev `/v1/decide`. Bake-off *theirs*: 1,200
+  req / ~23.5 min / M5 Max. Short macro Qwen3.6 **76.7%**
+  / Gemma 4 26B-A4B **75.0%** (SST-5 MAE **0.533**) /
+  DiffusionGemma **74.2%**. Qwen vs Gemma 26B = 2/120.
+  Do not treat as calibrated. LM Studio cannot load
+  DiffusionGemma (18 Sep 2026).
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (hp) wire-compat ≠ logit-equiv /
+prompted JSON ≠ structured read; (hq) GitHub Next
+institutional local `/v1/systemone`; (hr) Harbor-shaped
+1,200-req bake-off with caveats; (hs) LM Studio runner
+gap / structured-read primitives for OpenJev parity;
+(ht) name lock vs kunchenguid/local-jev.
+
+## Batch #60 (2026-09-19 ~15:07 UTC / ~09:07 Boise) — NandhaKishorM/laya packaging, not a new species
+
+Note: `research/notes.md` §76. Docs-only. Folded into PR #2.
+Skip Archer. No invented metrics. Hunches labeled.
+User-provided SIGNAL + live README `f12882b`.
+**≠** TypeSafe `/v1/systemone`. **≠** githubnext/localjev.
+
+- **NandhaKishorM/laya (Empirical as README; delta of
+  Hub Laya §18 / §42 / §46 / §72).** Apache-2.0;
+  **710★**; 62 forks; Python. PyPI + `Router` over
+  convaiinnovations/{laya, laya-multilingual,
+  laya-typed-decisions}. T4 *theirs*: 1q **32.8 ms** /
+  10q **72.3 ms** (~7.8× vs Jev p50 236–276 ms cited
+  third-party). Post-T ECE **0.081** vs Jev **0.246**;
+  raw 0.213 vs 0.144. Banking77 **0.425** vs **0.870**
+  (77 vs 72; ~3–4 tok/label). typed-decisions **0.766**
+  fine-tune (base 0.362/0.342 vs majority 0.461).
+  Soft-acc 0.471 vs 0.580. Khmer **0.000@0.952** —
+  Router because gating cannot catch. 0.85 still soft.
+  Jev rows unpublished-here.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (hu) packaging ≠ new species /
+Router script-before-p; (hv) where Jev leads
+(Banking77 / soft-acc / raw ECE); (hw) post-T ECE ≠
+raw ECE / latency; (hx) 0.85 still soft / Khmer OOD
+productized; (hy) vs-Jev third-party unpublished-here.
+
+## Batch #61 (2026-09-19 ~15:14 UTC / ~09:14 Boise) — @airesearch12 Benchmark Heaven openjev census (tweet, not scores)
+
+Note: `research/notes.md` §77. Docs-only. Folded into PR #2.
+Skip Archer. No invented metrics. Hunches labeled.
+User-provided SIGNAL_4b0c + live X MCP this pass.
+**≠** fstandhartinger/jevbench v1.1. Do **not** paste
+live board ranks.
+
+- **@airesearch12 status/2101259522933186879
+  (Empirical as tweet).** Florian S / Benchmark Heaven.
+  Named ~18 openjevs including GLiNER2 and routers
+  (class-boundary). Engagement ephemeral (SIGNAL
+  ~417/9/3; this pass 564/15/5). Incomplete vs Laya /
+  githubnext/localjev / kev / TypeAR / openvons /
+  chakuho / jevinf / grande / laya-jolt / blackwood /
+  classifier-dev. Watch
+  https://benchmarkheaven.com/jev-models. Do not copy
+  Stripe.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (hz) external census ≠ scored
+bake-off; (ia) GLiNER2+routers class-boundary; (ib)
+incomplete census vs watch; (ic) Harbor honesty watch
+(cal / cost / latency / silent fallback).
+
+## Batch #62 (2026-09-19 ~15:24 UTC / ~09:24 Boise) — JevBench v1.2 scored board (measurement, not a hit list)
+
+Note: `research/notes.md` §78. Docs-only. Folded into PR #2.
+Skip Archer. No invented metrics. Hunches labeled.
+User-provided SIGNAL_988e + live board + GitHub README
+`bf1e79ba` / RESULTS-v1.2 `fdfab1a2` / HEAD `27ed3d6c`.
+**≠** tweet census §77 **≠** v1.1 87.6.
+
+- **JevBench v1.2 (Empirical as board).** Protocol
+  `jevbench::v1.2`; 534 decisions; geo-mean I/C/S/K
+  25% each. Jev 1.13.0 **75.3**; SemIf **74.6** (−0.7);
+  OpenJev razorback16 67.6 *theirs*. Luna I **96.8**
+  rank **#7**. Cal **ON** rank. Option-order 72%→21%.
+  Self-host ×2 assumption; many costs est. Laya
+  absent (gap). GLiNER2 mapping-excluded. Qwen3.8 27B
+  Chutes TEE **≠** Archer. Do not copy Stripe / CLI.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (id) geometric-mean product /
+weak axis dominates; (ie) cal now ON rank (delta
+from v1.1); (if) weight sensitivity; (ig)
+option-order 72→21; (ih) instruction models
+class-boundary; (ii) Harbor honesty ×2/est.; (ij)
+Laya absent gap / Qwen3.8 27B ≠ Archer.
+
+## Batch #63 (2026-09-19 ~15:37 UTC / ~09:37 Boise) — hourly 0842 already-folded watch (apply, don’t dump)
+
+Note: `research/notes.md` §79. Docs-only. Folded into PR #2.
+Skip Archer. No invented metrics. Hunches labeled.
+**Do not re-card** §73–§78. Leftover thin is skip.
+**≠** a hit list.
+
+- **Apply-the-five (recipe).** Wire-compat ≠ logit-equiv
+  (githubnext/localjev §75); productize label+p + mark
+  FALLBACK (classifier-dev §73; granite 0.546 vs 0.800
+  *theirs*); packaging ≠ new species / script-before-p
+  (NandhaKishorM/laya §76); pointer-not-generator
+  two-pass (choxos/jev-reviewer §74 ≠ egma-ai); external
+  census ≠ scored bake-off / geo-mean I/C/S/K (§77+§78).
+- **Skip thin.** uehaj/jev-semgrep already §61 (dedicated now §86); JEValuate
+  0★ ≠ ElshinQ/jevaluate; jevspeak 1★ (jev-gpt cousin);
+  fable-jev 1★; jev-model-router already §77.
+- **Soundness-theater skip.** totally-tim/jev-gate 0★
+  MIT; connectedGraph/claude-jev-warden 1★ MIT. Soft
+  Noul ≠ merge seal. **≠** jev-gateway / MongLong0214/jev-gate
+  / jev-gate-student-b.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (ik) already-folded hourly as a
+recipe not a dump; (il) hard-gate Noul as PR/quality
+is soundness theater.
+
+## Batch #64 (2026-09-19 ~15:50 UTC / ~09:50 Boise) — khordoo/jev-reflex-autonomy-lab delta of §46
+
+Note: `research/notes.md` §80. Docs-only. Folded into PR #2.
+Skip Archer. No invented metrics. Hunches labeled.
+Quote README. Not a hit list. **Do not re-card** the
+§46 one-liner. User SIGNAL_2f18 (~08:48 Boise; ★6)
++ live this pass **7★** / 1 fork; license null;
+README SHA `130987c9`; ARCHITECTURE SHA `48da0769`;
+HEAD `e3297ebe`. Demo watch-demo.html.
+
+- **S1 never stalls / S2 one-use advisory.** Jev keeps
+  steering; S2 does not fly and does not grant.
+- **Consumption telemetry.** Purple confidence =
+  that decision used returned S2; purple S2 bar =
+  arrival; red = fail. Arrival ≠ used.
+- **Local controller ≠ localjev.** Rule-based built-in
+  vs hosted `jev-latest`. 20% starting gate *theirs*
+  still soft; does not start a mission. Seed =
+  geometry ≠ async replay.
+- **No pixels.** Application contracts ≠ TypeSafe SDK;
+  confidence ≠ selected probability; physics owns
+  collisions. README GLM 5.3 vs ARCHITECTURE
+  muse-spark-1.3-contributor — quote both *theirs*.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (im) escalate-without-stall;
+(in) mixed-initiative consumption mark;
+(io) Local-vs-Live reflex A/B / Local ≠ localjev;
+(ip) seed≠replay / 20% still soft / no-pixels
+class discipline.
+
+## Batch #65 (2026-09-19 ~16:05 UTC / ~10:05 Boise) — awlevin/typesafe-computer-use productized OCR+AX CU
+
+Note: `research/notes.md` §81. Docs-only. Folded into PR #2.
+Skip Archer. No invented metrics. Hunches labeled.
+Quote README. Not a hit list. **Do not re-card** the
+census one-liner ($0.0002/step; rebuild pixel-free
+reasoning). User SIGNAL_0e9d (~08:49 Boise; MIT;
+★419) + live this pass **427★** / 24 forks / 7 issues;
+README SHA `369f4a6a`; HEAD `cc7b5066`.
+
+- **Productized observe→score→act.** OCR+AX → numbered
+  items → hosted TypeSafe Choices → code clicks/types.
+  Same hole as jev-ultrafast / gliner2-ultrafast /
+  cua-s1 / Stagehand / ego-jev. Backend here is hosted
+  Jev, **not** GLiNER2 and **not** Cua-S1.
+- **Mutually exclusive action set.** Overlapping
+  options read as doubt (confidence is concentration).
+  Split `kind`/`item`/`site`/`offscreen` as VOI / noise
+  control.
+- **Decision ≠ answer-reader.** Never ships a screenshot
+  to frontier for the *decision*. The one-shot **answer**
+  writer may receive the capture. Not omni. Skip Archer.
+- **Writer/decider + soft Noul.** Writer only for free
+  text. Post-type 0.5 and `--min-confidence` 0.4 still
+  soft. AX bonus never sole (Spotify 0 *theirs*).
+  `done` ≠ verified success.
+- **Harbor-shaped one-screenshot table.** $0.0002 vs
+  Opus $0.032 (155×) *theirs*; dates.py caveat. Not a
+  taskset. **≠** jev-ultrafast **≠** cua-s1 **≠**
+  jev-macos-loop **≠** camoufox.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (iq) OCR+AX desktop CU family;
+(ir) exclusive CU options / split questions;
+(is) screenshot-to-frontier fail-closed on the
+decision; (it) 155× one-screenshot ≠ Harbor score.
+
+## Batch #66 (2026-09-19 ~16:10 UTC / ~10:10 Boise) — moritzkremb/jev-voice-browser productized ASR CU
+
+Note: `research/notes.md` §82. Docs-only. Folded into PR #2.
+Skip Archer. No invented metrics. Hunches labeled.
+Quote README. Not a hit list. **Do not re-card** the
+§39 tweet (~300 ms / $0.0002 *theirs*). User
+SIGNAL_89ca (~08:50 Boise; MIT; ★100) + live this
+pass **103★** / 12 forks / 0 issues; README SHA
+`fa033303`; HEAD `054db0f3`.
+
+- **Productized ASR observe→score→act.** Web Speech
+  partials → Playwright snapshot ≤100 → one 9–11-
+  question hosted Jev request → policy. Same CU hole
+  as typesafe-computer-use OCR, different producer
+  (waveform → transcript, not screenshot → OCR).
+  Jev never hears audio. Skip Archer.
+- **Partial-speech VOI.** Closed-set may fire on a
+  partial; free-text waits for final or 600 ms
+  silence. `complete` Noul + 900 ms silence *theirs*.
+- **Pointer-not-generator.** Regex spans; Jev picks;
+  code copies. Numbered overlay, no second model.
+- **Spoken confirm ≠ auth.** `destructive ≥ 0.5` →
+  say "confirm". README *theirs*: convenience, not a
+  guarantee. Control-port reach is the grant.
+  rh-guard owns the gate cousin. 0.5 / 0.55 / 0.6
+  still soft.
+- **27/27 fixtures ≠ Harbor.** ~$0.0002/call; p50
+  ≈ 300 ms *theirs*. **≠** jev-voice-control **≠**
+  nikolas-j **≠** Aj1905 **≠** typesafe-computer-use.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (iu) ASR perception front-end;
+(iv) partial-speech wait policy / free-text VOI;
+(iw) spoken confirm ≠ auth; (ix) overlay
+disambiguate without another model.
+
+## Batch #67 (2026-09-19 ~16:20 UTC / ~10:20 Boise) — AgentGhost wrap-as-execution + studio_yebisu JP genre atlas
+
+Note: `research/notes.md` §83–§84. Docs-only. Folded into PR #2.
+Skip Archer. No invented metrics. Hunches labeled.
+Quote README and tweet. Not a hit list. Dual-signal
+turn. User SIGNAL_7c0f + SIGNAL_a92b (~08:50 Boise)
++ live this pass.
+
+- **Wrap-as-execution ALLOW/ASK/DENY.**
+  [reddpy/AgentGhost](https://github.com/reddpy/AgentGhost)
+  TypeScript; MIT; **2★** / 0 forks / 0 issues;
+  created 2026-09-18T21:16:55Z; HEAD `ac04e4fb`;
+  README SHA `44145fa9`. The wrap *is* the tool's
+  execution function. Rules first; ASK/DENY throw;
+  `failMode: closed`. Judge is a slot. Hosted
+  provider tools out of reach. `AUTO_APPROVE` is a
+  demo hatch, not a grant. **≠** jwen5419807/agentghost
+  **≠** vventirozos **≠** actiongate **≠** toolgate
+  **≠** jev-use. rh-guard owns the gate cousin.
+- **JP genre atlas, not a bake-off.**
+  [@studio_yebisu](https://x.com/studio_yebisu/status/2101065176069886152)
+  2026-09-18T21:45:48Z. Apps by hole. Stars
+  research-time (typesafe-computer-use 203→**427**;
+  jev-voice-browser 40→**103**). Not verified evals.
+  Engagement ephemeral (this pass 131,234 / 1,934 /
+  192). SAM 3.1 already §39. OpenRouter Jev
+  no-waitlist is WATCH. **≠** @airesearch12 **≠**
+  v1.2. Do not dump the 30 repos.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (iy) wrap-as-execution / ASK
+throws / fail-closed; (iz) application genre atlas
+≠ class census ≠ scored board; (ja) star-count
+drift as pedagogy.
+
+## Batch #68 (2026-09-19 ~16:25 UTC / ~10:25 Boise) — Akshay Pachaar “Jev Clearly Explained”
+
+Note: `research/notes.md` §85. Docs-only. Folded into PR #2.
+Skip Archer. No invented metrics. Hunches labeled.
+Quote ARTICLE.md. Not a hit list. User SIGNAL_55e5
+(~08:51 Boise; ~183k views) + live this pass
+**233,495** / **2,280** / **235** / **3,652**.
+
+- **External pedagogy / how-to-apply.** Independent
+  of TypeSafe docs. LLM hammer for bounded
+  decisions; code owns branches; parallel
+  questions; thresholds in code; schema-safe ≠
+  correct; three placements with an LLM (routing /
+  tool-risk / verify); shadow-mode; questions-as-code.
+- **200× / 400× are TypeSafe ceiling claims.**
+  Article *theirs*: 70–500 ms, $0.042/MTok input,
+  output free; treat multiples as a ceiling, not a
+  promise. Not Harbor.
+- **Text-only.** Convert environment to text/JSON
+  first. Not looking at the screen. Skip Archer.
+- **Name locks.** ≠ official docs ≠ Flavio Copes
+  (cited further reading) ≠ LangChain harness
+  (cited; not a wrap card) ≠ AgentGhost §83.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (jb) public pedagogy receipt
+for mixed architecture; (jc) schema-safe ≠ correct
+as the safer hallucination sentence; (jd) marketing
+multiples as ceiling, not Harbor.
+
+## Batch #69 (2026-09-19 ~16:30 UTC / ~10:30 Boise) — uehaj/jev-semgrep dedicated
+
+Note: `research/notes.md` §86. Docs-only. Folded into PR #2.
+Skip Archer. No invented metrics. Hunches labeled.
+Quote README. Not a hit list. User SIGNAL_9afa
+(~08:54 Boise; ★42) + live GitHub this pass **51★**
+(ephemeral). HEAD `21120e9`; README SHA `923e6a5`.
+
+- **Proposition ≠ embedding.** Cross-encoder
+  line+question → does the proposition hold, not
+  topical cosine. Contrast-set: all six about a
+  refund; only customer-*asking* pass. Angry agent
+  vs angry customer cosine ~1.
+- **Boolean composition of soft Nouls.** AND/OR/NOT
+  after threshold in code; do not multiply p.
+  ≠ jev-combinators metaphor.
+- **Semgrep.dev name collision.** Rename if both
+  installed. **≠** SAST. **Not a gate** (ranking
+  fail-open; rh-guard skip).
+- **0.94/0.98 *theirs*.** LLM-as-judge 10 cases ×
+  51-line corpus. Not Harbor. Stars research-time.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (je) proposition ≠ embedding /
+contrast-set; (jf) boolean composition of thresholded
+Nouls; (jg) Semgrep.dev namesake + not-a-gate.

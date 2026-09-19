@@ -42,11 +42,24 @@ code: shortlist, rank, filter — weights adjustable without re-inference
 ```
 
 **Example**: research-reading map — extract reusability dimensions once, let
-researchers re-rank and re-filter interactively. **Beyond SWE
+researchers re-rank and re-filter interactively.
+**Offline re-threshold (Empirical as named receipts):**
+[testimonial-miner](https://github.com/AppitStudio/testimonial-miner)
+`redecide` reapplies `Thresholds` to logged answers with **no new model
+calls** — judge once, explore policy in code (`notes.md` §48). Same family
+as firehose sliders. **Beyond SWE
 (Hypothesis until labeled):** vendor bid/no-bid (fit, urgency, risk
 Nouls; price and deadline exact); apartment shortlist (commute/light/
 noise Scores; rent exact); hiring scorecard (evidence Nouls; labor-law
 vetoes in policy). Full gallery: `mental-models.md` §MCDA.
+**Intent columns / catalog MCDA (Empirical as *shape*; clocks are
+claims, 2026-09-19 ~00:38):**
+[jevable.com](https://jevable.com/) class pattern: a heading
+("Urgency") scores each row. Same hole as jevpandas / jevframe
+(`mappings.md` §4) and dabit3 spreadsheet JUDGE/SCORE/CHOOSE.
+Snack multi-criteria at catalog scale is a **maker claim** (3,000 /
+28 s / $0.11) unless independently re-run. Weights and vetoes stay
+in code (`notes.md` §56).
 **Counterexample** (from **Contract** Score docs): levels 0,1,2 with
 distributions `[0,1,0]` vs `[0.5,0,0.5]` both score 1.0 with radically
 different extreme-outcome risk — always read probabilities beside the
@@ -60,7 +73,9 @@ Links: Score docs, composite-scoring pattern, autoresearch cookbook.
 choosing among act / decline / gather-evidence / escalate from the
 distribution, with thresholds owned by each action's consequences. For a
 calibrated binary probability with FP/FN costs: `t = C_FP/(C_FP+C_FN)`.
-**Does not transfer**: universal thresholds (no magic 0.8); model probability
+**Does not transfer**: universal thresholds (no magic 0.8 — a product
+band such as Abide's ≥0.8 repair is *their* operating point, still
+re-measured on your labels); model probability
 is not auto-calibrated on YOUR population — plot confidence vs accuracy on
 your data (**Contract**: confidence summarizes distribution shape, nothing
 more); Noul 0.5 ≠ medium-anything; top-Choice probability ≠ probability the
@@ -72,14 +87,62 @@ elif action low-stakes: act
 else: act only if confidence > high bar, else confirm
 ```
 
+**Public pedagogy receipt (Empirical as article; 2026-09-19 ~10:25):**
+[@akshay_pachaar “Jev Clearly Explained”](https://x.com/akshay_pachaar/status/2101037514945597645)
+— high / medium / low confidence → auto / escalate / human;
+thresholds in code; schema-safe ≠ correct. **200× / 400×**
+are TypeSafe ceiling claims *theirs*, not Harbor. Shadow
+first; questions-as-code. Do not copy the Python samples
+(`notes.md` §85).
+
 **Example**: trading bot acts on high-confidence reads, stands down when the
-book state is ambiguous (jev-trader `late → hold`). **Beyond SWE
+book state is ambiguous (jev-trader `late → hold`). **Banded fail-open
+(Empirical as a named product receipt):**
+[Abide](https://github.com/coldteadotai/abide) on project soft rules:
+≥0.8 repair in-session, 0.5–0.8 human note, <0.5 silence; hooks exit 0;
+no key → the edit proceeds (`notes.md` §47). Soft judgment is never the
+sole hard veto. **Beyond SWE
 (Hypothesis until labeled):** inbox reply/snooze/archive; "is this paper
 on-question?"; "call this lead / nurture / drop" — same act/abstain/
 gather table, costs written in hours or dollars, threshold per *action*.
 VOI: pay for the full PDF or the customer call only if expected decision
 change beats the cost (`mental-models.md` §VOI, §decision).
-**Counterexample**: a flat Choice over three fine categories may still
+**Dual-process cascade (Empirical as a productized metaphor, routing
+accuracy unmeasured):**
+[dual-process-ai](https://github.com/taro1985/dual-process-ai) —
+`confidence ≥ τ` → S1 decides; else escalate to S2 (generate). Routing
+fails open; safety fails closed. Keyword fallback without a key is not
+equivalent S1. Tune τ on *your* escalation log (`notes.md` §49).
+**Domain specialist vs few-shot hosted (Empirical as their
+RESULTS.md, 2026-09-18 ~20:43):**
+[Domain-jev-maker](https://github.com/help-er/Domain-jev-maker) —
+independent CLINC-150 labels, **not** a Jev teacher-copy.
+Matched-precision KL (both systems rounded to two decimals,
+zeros → 0.0025): local 1.5B KL 0.168 vs hosted zero-shot 0.580
+banking (r +0.933 vs +0.343). Few-shot hosted (one example per
+intent in `state`) matches or beats local determinate accuracy
+(McNemar p=0.134 / p=1.000); calibration barely moves (KL still
+2.5–3.8× higher). **Train the specialist when downstream code
+reads the probability; use few-shot hosted when only argmax
+matters.** Do not copy train how-to (`notes.md` §60).
+**Active-learning triage / don't distill Jev as teacher
+(Empirical as README architecture, 2026-09-18 ~21:39):**
+[jev-triage](https://github.com/ThyFriendlyFox/jev-triage) —
+high conf accept; middling expensive teacher; low or
+near-boundary human. Logs full distributions to
+`soft_labels.jsonl`. **Do not distill Jev as teacher of
+record** — author ~68% ceiling compounds errors. Real
+outcome labels remain the training targets. Noul belief
+`|p−0.5|×2`; Choice top-two within 0.15 → human.
+Distinguish Domain-jev-maker (independent gold specialist)
+from openjev-lm (teacher-copy). Do not copy pip how-to
+(`notes.md` §61).
+**Harbor-shaped decide→policy leftover (Empirical as README
+architecture):** [jav-email-cascade](https://github.com/skiingfalcon/jav-email-cascade)
+— 8 typed questions; policy auto/review/llm; Noul 0.5 never
+rounded; Score conf 0.0 never acted on. Mock gen-json
+flat-confidence is *their mock*, not a live bake-off
+(`notes.md` §60). **Counterexample**: a flat Choice over three fine categories may still
 name a harmless best pick — low confidence need not veto a low-stakes
 preference. **Test**: cost/coverage curve on held-out slices; score the
 fallback too (escalation is not automatically correct). Links:
@@ -103,11 +166,57 @@ NOT `P(A∧B)`; operation+target head pairs can be invalid (browser-use asks
 both heads per request but executes only the matching target after
 validation); relational judgments ("does passage support claim?") must stay
 one question, not two split classifications; exact computation stays in code.
+**Internals are not a state machine; placement is a component node**
+(atlas: paraphrase vs reversed-meaning are LM understanding; "a node in
+your state machine" is the architectural instinct — `notes.md` §49).
 
 **Example**: game director — Jev judges whether player dialogue is
 conciliatory or threatening; code enforces inventory, prerequisites,
 chronology, reachable scenes (cf. HEIST//ONE: six guards batched, simulation
-validates every proposal). **Counterexample**: decomposing tool-trace
+validates every proposal). **Merge-gate circuit (Empirical as README
+behavior, 2026-09-18 ~16:48):**
+[latch](https://github.com/CaseReed/latch) — Jev labels a clustered
+cause; a **table** maps cause × confidence × fingerprint → PASS /
+BLOCK / needs_human. The judge is a sensor, not the merge act
+(`notes.md` §51). **Language primitive (Empirical as README /
+example suite, 2026-09-18 ~17:48):**
+[hunch](https://github.com/carldaws/hunch) — Ruby `chance` /
+`pick` / `rate` map to Noul / Choice / Score; English is the
+configuration; `Hunch.decide` batches over one `given:`.
+Validations `rescue nil` = fail-open at save; spam gates should
+fail closed. Stub backend for tests. Same interface ≠ same
+guarantees for a future LLM backend. Cousin of probably-lang
+(a language whose loop conditions are feelings) — this is a
+library, not a new language. Do not copy gem/Rails
+(`notes.md` §55). **Named circuit combinators (Empirical
+as README architecture, 2026-09-19 ~01:47):**
+[decision-combinators](https://github.com/voidning/decision-combinators)
+— Then / Gate / Vote / Cascade / Weighted over
+Choice/Score/Noul. README analogizes them as logic
+gates; they are **not** literal Boolean AND/OR (those
+aggregations stay in code — do not multiply parallel
+Nouls). Vote is majority or mean; confidence discounted
+by agreement. No measurements. GitHub SPDX null; package
+MIT. **Hunch:** System One as a control plane, not chat
+turns. Compose with skillranker. Do not copy npm
+(`notes.md` §66). **Rename + extended five (2026-09-19
+~04:39):** now
+[jev-combinators](https://github.com/voidning/jev-combinators)
+(same `created_at`; npm `jev-combinators` 0.1.0).
+Digital-design slogan: primitives are transistors,
+combinators are logic gates, you design the chip.
+**Extended:** Router / Loop / Retry / Fallback / Memory.
+Fallback is the fail-closed node. Still not literal
+AND/OR. `notes.md` §69. **TLA+ consensus circuit (Empirical as
+spec + chaos table; 2026-09-19 ~02:38):**
+[jev-labs](https://github.com/copyleftdev/jev-labs)
+— five paraphrased agents; stability gate; quorum 3 of 5
+stable votes; escalate when budget spent. Code/TLA+ own
+transitions (`Consulting → Decided | Escalated`). The
+model never is the constraint. 1,080 golden: 0 wrong
+*theirs*; underdetermined records still decided 34/120
+split both ways (stability ≠ answerability). MIT.
+`notes.md` §67. **Counterexample**: decomposing tool-trace
 verification into per-call schema nouls works; asking "is the trace correct"
 as one Noul hides nine judgments. **Test**: full truth table / transition
 cases incl. contradictory outputs, stale observations, invalid combos.
@@ -142,13 +251,106 @@ is not intrinsically wrong (offline, modest corpora) but it is not an index —
 per-query work still scales with candidates. Low latency ≠ no retrieval.
 
 **Store as the index (Empirical as a *shape*, 2026-09-18):**
-[`kylemclaren/jevql`](https://github.com/kylemclaren/jevql) judges
-schema-conditioned row objects; vanilla Postgres never sees `jev()`.
-Cheap SQL first; the remainder is a typed Choice/Noul/Score over rows.
-Row contents leave the database (same residency warning as AU health).
+Cheap exact predicates first; typed questions on the remainder. Two
+forks of the same hole: **in-engine extension**
+([`mgaitan/sqlite-jev`](https://github.com/mgaitan/sqlite-jev), loadable
+SQLite `jev_rows`; inspired by [`realZachi/pg-jev`](https://github.com/realZachi/pg-jev))
+vs **out-of-process CLI** ([`kylemclaren/jevql`](https://github.com/kylemclaren/jevql)
+— **judgment outside the store**: vanilla Postgres never
+sees `jev()`; the CLI/serve/MCP/SDKs judge). sqlite-jev is a semantic full
+scan, not an index; `max_rows` is a spend guard; thresholds stay in SQL.
 [`ant4g0nist/joxide`](https://github.com/ant4g0nist/joxide): zoxide owns
 the directory index; Jev scores a shortlist; destinations are existing
-local paths only; fail-open. `notes.md` §42.
+local paths only; fail-open. Dataframe cousin this hour:
+[`yalindogusahin/jevpandas`](https://github.com/yalindogusahin/jevpandas)
+— `evaluate` / `filter` / `classify` / `score` / batched `ask` over a
+pandas frame; classify example includes `other`; failures never become
+negative predictions; LICENSE absent this pass. Accessor sibling this
+hour: [`ktaletsk/jevframe`](https://github.com/ktaletsk/jevframe) (MIT,
+PyPI; pandas **and** Polars `.jev`; full `p__` columns; no silent
+renormalize; one row per request). Same hole, two surfaces. Row
+contents leave the store (same residency warning as AU health). Do not
+copy SQL, env, or CLI flags.
+`notes.md` §42, §44, §46, §48. Intent-column / snack MCDA *shape*:
+`mappings.md` §1; `notes.md` §56.
+
+**ORDER BY over probs is a ranking job, not a calibration
+certificate (Empirical as independent measurement, 2026-09-18
+~20:43):**
+[jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench)
+— `jev-1.13.0` passes all six pre-registered gates on 360
+human-labeled 20 Newsgroups rows. Boolean inversion 0.036;
+Score ordinal inversion **0.143** vs 0.15 (weak link / the
+sort key); 53 rows tie at 0.99 so `LIMIT 20` is
+engine-dependent; two-decimal quantization. Calibration
+(ECE 0.0453 / Brier 0.0524) ≠ sortable. recodelabs default
+40-row batching **fails** the ranking gate (inversion 0.171)
+that one-row-per-request passes — request shape is part of
+the measurement. Not a fourth DuckDB extension. Vendor 67.8%
+agreement ≠ calibration. `udf.register()` refuses SQL unless
+results pass. Do not copy curl / key how-to (`notes.md` §60).
+
+**Decision-native evidence set (Empirical as architecture;
+Hypothesis as a measured win, 2026-09-18 ~17:48):**
+[decision-native-rag-skills](https://github.com/emergency-lee/decision-native-rag-skills)
+promotes this card from "rerank a shortlist" to **retrieve wide →
+decide → build an evidence set → resolve conflicts → generate only
+over kept evidence**. Embeddings remain candidate generators; they
+do not settle relevance, sufficiency, redundancy, conflict, time,
+or authority. No bundled harness; no universal benchmark; default
+migration gates are starting targets (`notes.md` §55). PubMed
+title/abstract screening is the same *shape* on literature
+([typesafe-screening-mcp](https://github.com/masa-med-ai/typesafe-screening-mcp):
+include/maybe/exclude in code; 326 hits ~17 s ~$0.014 one run;
+thresholds not calibrated; screening aid, not an SR replacement).
+Local-file cousin:
+[kazuhideoki/jev-search](https://github.com/kazuhideoki/jev-search)
+(recursive files + fzf) — **not** superagents-lab/jev-search
+(federated web). Max-over-chunks ≠ calibrated whole-file p.
+**Classify-first MCP (Empirical as README / schema, 2026-09-19
+~00:38):**
+[jev-sift](https://github.com/kbhuw/jev-sift) is the same sandwich
+on agent I/O: retrieve-wide (paths / public URLs / inline text) →
+decide (relevance or 1–8 typed questions) → the main LLM opens
+only the evidence set. Content never enters main agent context
+first (paths/URLs). Hard envelope in code. Transport tests ≠
+accuracy. No LICENSE this pass. Cousin of typesafe-screening-mcp
+(abstracts never enter the LLM conversation). Not jev-routing
+(host adapter). `notes.md` §56.
+**Meaning-search without embeddings (Empirical as a named
+stripped-repo card, 2026-09-18 ~18:46):**
+[jevgrep](https://github.com/Bentlybro/jevgrep) — packed parallel
+Jev relevance; two-stage outline → zoom top 30; no index. 228
+questions, docstring-stripped repos: **79% top-5** vs BM25 40% /
+grep 20%. Keyword still wins exact strings (BM25 top-10 96% vs
+85%). Harbor-shaped: frozen copies + labeled questions +
+comparable harnesses; not a Harbor taskset. Distinct from
+kazuhideoki / superagents-lab / jev-sift (`notes.md` §58).
+**Meaning-grep over line Nouls (Empirical as README + their
+judge test, 2026-09-18 ~21:39; dedicated 2026-09-19 ~16:30):**
+[jev-semgrep](https://github.com/uehaj/jev-semgrep) — AND/OR/NOT
+on *thresholded* per-line Nouls (do not multiply p);
+proposition ≠ embedding; contrast-set refund; no index;
+cross-lingual; Semgrep.dev collision; **not a gate**.
+Distinct from jevgrep (file/chunk) and jev-combinators
+(metaphor). Precision 0.94 / recall 0.98 *theirs* (not
+Harbor). **51★** ephemeral. LICENSE MIT (GitHub
+NOASSERTION). `notes.md` §61, §86.
+**Evidence-packet explorer (Empirical as their performance.md,
+author-run):**
+[jev-semantic-explorer](https://github.com/jimmyhealer/jev-semantic-explorer)
+— index once, BM25 shortlist, Jev ranks, citable packet.
+SWE-bench Verified n=8: 1/8 → 6/8 finish (empty = miss).
+Packet n=50 HitFile 0.233 vs BM25 0.159 is **not** the
+product KPI. Distinct from jevgrep / jev-sift. `notes.md`
+§61.
+**Measured RAG rerank vs generative rerank (Empirical as one-run;
+Hypothesis as a transfer):**
+[Jev-RAG](https://github.com/Max-sm-yc/Jev-RAG) — ≥70% cost / 72%
+latency vs Muse Spark *rerank* on ~30k tokens (costs include
+embeddings). Full-context Spark is still **faster** (10.60 s).
+Do not overclaim vs no-RAG. License null this pass
+(`notes.md` §58).
 
 ## 5. Hierarchy → bounded heuristic search
 
@@ -251,6 +453,210 @@ prose → frontier. Same 149 business rows: Jev 79.9% vs Haiku 4.5 83.2%;
 Jev 1.6× faster, not 20–200×; Jev confidence monotonic, Haiku inverts
 in 0.80–0.95. If you do not *branch on confidence*, use whatever you
 already have (`notes.md` §42).
+**Training-data VOI (Empirical as README architecture,
+2026-09-18 ~21:39):**
+[jev-triage](https://github.com/ThyFriendlyFox/jev-triage) —
+pay for an expensive teacher or a human only where
+confidence says the label will change the outcome. High-conf
+accept is nearly free. Soft-label full distributions for a
+local student; **real outcomes** stay the training targets.
+Do not distill Jev as teacher of record (~68% ceiling).
+Cost sketch *theirs*: ~$21 vs ~$8,400 LLM judge for 1M ×
+500-tok. `notes.md` §61.
+**Retrieve-then-state (Empirical as an axis proof, not a knowledge
+estimate):** if the answer is not in `state`, **buy the passage first**,
+then ask. Atlas history suite: wrong @ 0.90 without context → right @
+0.97 with the passage (`notes.md` §49; `mental-models.md` §boundary).
+That observation is VOI with a named receipt. Do not rely on bare
+recall.
+**Fail-open wake/resume (Empirical as README safety table; 21/21 is
+smoke, 2026-09-18 ~16:48):**
+[wakegate](https://github.com/shitianfang/wakegate) — skip a sleeping
+agent's LLM turn only if Jev answers **and** p(wake) < 0.2; user
+message / nothing-to-judge / skip-limit / error / unsure all **wake**.
+Horvitz mixed-initiative: pay for the turn iff EV(decision) beats
+the token cost. Savings unmeasured. Same-author scenarios+question;
+not a benchmark (`notes.md` §51). Contrast pi-jev-approver
+fail-closed without a key and jevgate cannot-block.
+**Selective memory / scored recall (Empirical as README behavior;
+9×3 is a hint, 2026-09-18 ~17:48):**
+[carryforward](https://github.com/Dharundp6/jev-carryforward) —
+verbatim ledger; Jev scores which facts are still live for the
+task; constraints/corrections always return (never judged). Fail-
+open dump if the scorer is down. Pay for a scored brief iff it
+beats dumping the whole file. No accuracy claim until a proper
+test (`notes.md` §55). Eval finding *theirs*: `recall`
+**0/4** with tools available — SessionStart hook >
+hoping. tools≠use (`notes.md` §68). Do not copy mcp add.
+**Classify-first read (Empirical as README; Hypothesis as a
+measured win, 2026-09-19 ~00:38):**
+[jev-sift](https://github.com/kbhuw/jev-sift) — pay for a full
+agent open iff the relevance (or typed question) says it might
+change the act. Uncertain → closer look. Errors and truncation are
+**not** evidence of irrelevance. Webpage fetch still costs
+bandwidth; this saves the *agent's* read, not the download.
+Mocks ≠ accuracy (`notes.md` §56).
+**Decision-model latency cost (Empirical as a *negative*
+on sync Jev; 2026-09-18 ~23:40):**
+[slo-router](https://github.com/zeeshan8281/slo-router) —
+pay for live Jev features on the routing hot path iff
+expected decision quality beats **hundreds of ms** tail.
+On their fixture, same routes/accuracy as local features;
+p95 **77.93 → 490.38 ms**. Author: keep Jev off the
+synchronous path for this workload. **Hunch:** Harbor-style
+measurement of decision-model latency is mandatory before
+claiming “Jev routing.” Eight-row demo is not a benchmark
+(`notes.md` §63).
+**Human-review VOI (Empirical as README architecture;
+hunch as a placement):**
+[jev-lens](https://github.com/rashedInt32/jev-lens) —
+calibrated “do I need to look / which files / strip
+debris?” Never blocks the agent; never says green unless
+sure (`JEV_LENS_GREEN` 0.9). Minimize expected human cost
+under **false-green** risk. Attention filter, not a
+permission gate. Companion
+[jev-lens.nvim](https://github.com/rashedInt32/jev-lens.nvim)
+is display only. Distinct from jev-gates (stops writes)
+and egma attention≠correctness (PR surface)
+(`notes.md` §63). Distinct from
+[dizk/jev-lens](https://github.com/dizk/jev-lens)
+(pre-send views; 79% fewer tokens *theirs*;
+`notes.md` §68).
+**Pre-send token-econ (Empirical as 500-trajectory
+bench; 2026-09-19 ~03:38):**
+[jev-lens](https://github.com/dizk/jev-lens) — pay to
+send a line iff it changes the next edit. Compress
+**before** first send; post-send prune cost 17% more
+because it broke the prompt cache. Code sent in full
+unless Jev is confident. Harm: 2/26 later edits missed
+their block. Distinct from rashedInt32/jev-lens.
+Do not copy npm (`notes.md` §68).
+**Skill-library VOI (Empirical as README architecture;
+2026-09-19 ~01:47):**
+[skillranker](https://github.com/Dicklesworthstone/skillranker)
+— pay to load a skill iff it changes the next step.
+Abstention ("none of these") is first-class. Failed hook
+recommendation is quiet fail-open. Distinct from
+skill-broker (grants). Compose with combinators
+(`notes.md` §66).
+**Same-intent cache admit (Empirical as n=100 live eval;
+2026-09-19 ~04:39):**
+[jevcache](https://github.com/kushals256/jevcache) — pay
+for the LLM iff Jev says the intent is **not** the same.
+Exact SHA-256 first; fail-open to upstream. 0 FP / recall
+0.38 *theirs*. Stream/tools/multimodal bypass. Do not copy
+npx (`notes.md` §69).
+**Human-feed VOI (Empirical as unreviewed goldens;
+qualify the owner; 2026-09-19 ~04:39):**
+[ThinkyMiner/Winnow](https://github.com/ThinkyMiner/Winnow)
+— pay for a click iff the card says read/skim. Distinct
+from kevinpita/winnow (context sieve). 80%/90% *theirs*.
+Do not copy unpacked-extension how-to (`notes.md` §69).
+**Second-call VOI (Empirical as README + offline pytest;
+license null; 2026-09-19 ~04:39):**
+[hermes-jev-router](https://github.com/rsdkrasen/hermes-jev-router)
+— pay for the *next* main-model call iff Jev says
+generation is still required (WHETHER/HOW/WHAT). Skip-next
+needs a core patch. Fail-open. Do not copy plugin how-to
+(`notes.md` §69).
+**Hunk-review VOI (Empirical as 22-run cost table;
+2026-09-19 ~05:46):**
+[prune-review](https://github.com/shubhangi013/prune-review)
+— pay for generative review of a hunk iff Jev says it is
+worth looking at (and the safety escarpment does not force
+keep). Target ~20%; measured 1.18% with a 305% outlier
+*theirs*. Cost not quality. Do not copy pnpm
+(`notes.md` §70).
+**Intent-search VOI (Empirical as CLI; under
+construction):**
+[jev-intent-review](https://github.com/yottayoshida/jev-intent-review)
+— pay to judge a place the diff did not touch iff the
+stated intent applies there. UNKNOWN is cheaper than a
+false VERIFIED. Empty search ≠ proof (`notes.md` §70).
+**Empty compact-proxy skip (description only; 2026-09-19
+~06:43):**
+[jev-context-pruner](https://github.com/IPECTER/jev-context-pruner)
+— Codex compression-proxy slogan; repo empty. Not VOI
+until there is a keep-set and a fail polarity
+(`notes.md` §71).
+**Batch ranking VOI (Empirical as README; 2026-09-19
+~06:43):**
+[jevfeed](https://github.com/fengyiqicoder/jevfeed)
+— one Jev request per batch of ten; the distribution *is*
+the ranking. Pay per *batch*, not per item (`notes.md`
+§71).
+**No-text-step VOI (Empirical as 95-call card):**
+[jev-use](https://github.com/shitianfang/jev-use)
+— pay the LLM only when writing is the job; 12 questions
+in one call 186 vs 2,672 ms *theirs* (`notes.md` §71).
+**Files-to-read VOI (Empirical as n=16 SWE; 2026-09-19
+~07:49):**
+[jevex](https://github.com/jimmyhealer/jevex) — pay for
+Reads of cited ranges only. n=16 160s → 69s / $8.74 →
+$3.13 / 16/16 both arms *theirs*. Keep n=8 finish 1/8 →
+6/8. Rename of jev-semantic-explorer (`notes.md` §72).
+**Commit-attention VOI (Empirical as 13 labelled):**
+[commitjev](https://github.com/yodablocks/commitjev) —
+pay a human iff a Noul clears 0.65 on the bad side;
+middle band is review not a skip. Regex already settled
+the literals (`notes.md` §72).
+**Pi compact VOI (Empirical as latency table):**
+[pi-jev-compact](https://github.com/dev-willbird1936/pi-jev-compact)
+— pay Jev to keep/drop tool calls instead of an LLM
+summary; fall back if savings <25%. 0.6 s replay vs 26 s
+first spinner is host cost (`notes.md` §72).
+**Empty compact-proxy skip (IPECTER runway too):**
+[jev-runway](https://github.com/IPECTER/jev-runway) —
+LICENSE-only Codex-proxy slogan; not VOI until there is
+a keep-set (`notes.md` §72).
+**Escalate-under-threshold VOI (Empirical as README;
+life/business; 2026-09-19 ~08:37):**
+[classifier-dev](https://github.com/mrmps/classifier-dev)
+— pay a reasoning model **only** on single-label
+answers below 0.7. Multi-label re-judge made it worse
+(23 s) so the tier is ignored. gemini-3.8-flash helped;
+other flashes did not. 0.7 is *theirs*. Cousin jev-use
+(`notes.md` §73).
+**Escalate-without-stall cousin (Empirical as README
+delta; autonomy; 2026-09-19 ~09:50):**
+[khordoo/jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab)
+— pay S2 only under the confidence threshold, but
+**never pause the reflex**. Log whether the returned
+strategy was **consumed** (purple confidence), not
+only that it arrived. 20% starting gate *theirs*
+still soft. Local vs Live is an A/B of backends, not
+a scored bake-off (`notes.md` §80).
+**Split-question CU VOI (Empirical as README; desktop;
+2026-09-19 ~09:51):**
+[typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use)
+— pay three/four Choices in **one** request
+(`kind`/`item`/`site`/`offscreen`) instead of one
+255-way soup. Perception (crop+tile OCR, dates.py, AX
+walk) is the expensive gather that rebuilds what
+frontier reads from pixels for free. Exclusive
+actions: overlap is loud doubt, not silent 1.00.
+155× / $0.0002 is *theirs* on one screenshot, not a
+taskset. Writer only when free text is the job
+(`notes.md` §81).
+**Partial-speech VOI (Empirical as README; voice;
+2026-09-19 ~10:01):**
+[jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser)
+— pay 9–11 questions on every partial (~300 ms
+*theirs*). Closed-set may act before the sentence
+ends; free-text waits for final or 600 ms silence so
+"search for alan" is not truncated. Numbered overlay
+is cheaper than a second model. Spoken confirm is
+not a gather. 27/27 fixtures *theirs*, not a taskset
+(`notes.md` §82).
+**Evidence-synthesis two-pass VOI (Empirical as README;
+medicine/Cochrane; 2026-09-19 ~08:48):**
+[choxos/jev-reviewer](https://github.com/choxos/jev-reviewer)
+— fan-out every question over shared chunks (18-q
+**4.6 s / $0.0101** *theirs*), then pay a second
+**absolute** Noul only on the surviving lines. *Not
+found* is cheaper than a paraphrase. Human tick is the
+act that enters the review. **≠** egma-ai
+(`notes.md` §74).
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs
@@ -282,6 +688,21 @@ report hits / false alarms at the operating point, not accuracy
 
 **Example (Empirical as family shape):** firehose / Near Here moderation
 — judge once, re-policy in code.
+**CI merge-gate (Empirical as README / demo, 2026-09-18 ~16:48):**
+[latch](https://github.com/CaseReed/latch) — false PASS on a real bug
+>> false BLOCK on infra; criterion lives in the policy table, not in
+the cause label (`notes.md` §51).
+**Physical-world criterion (Empirical as README +
+measurements; 2026-09-19 ~03:38):**
+[HA-Jev](https://github.com/AboveColin/HA-Jev) —
+confidence gating on typed sensors; **not** for locks /
+heaters / smoke. `background:` on the question triples
+laundry separation *theirs*. Treat 0.9 as higher than
+0.6, not as right nine times in ten (`notes.md` §68).
+**Stop-hook attention (Empirical as owner-run smoke):**
+[jev-preflight](https://github.com/muse0509/jev-preflight)
+— 0.85 uncalibrated; fail-open; one reinspect. Criterion
+for *redirect*, not for *block* (`notes.md` §68).
 [`jp-sns-jev7-estimator`](https://huggingface.co/kokuren/jp-sns-jev7-estimator)
 is the rare-class warning in one table: seven distilled teacher scores
 that the card says are **not** calibrated probabilities, and `threat`
@@ -294,6 +715,168 @@ misses" — that was a criterion shift. **Test**: ROC/PR on held-out *your*
 cases; report the operating point you actually ship. **Hypothesis** for
 non-SWE plots. Links: `mental-models.md` §SDT; evaluator script for
 threshold/cost sweep.
+**Operator owns the criterion (Empirical as measured OMP
+suppression, 2026-09-18 ~22:38):**
+[omp-greenlight](https://github.com/SemetricLabs/omp-greenlight)
+— four presets, each measured for prompts removed *and*
+unsafe auto-approvals. Default **40.9%** / **0 of 94** on
+the 140-row corpus. The plugin **never self-tunes** the
+safety bar: a self-adjusting bar cannot be audited by the
+person accepting the risk. Live traffic has no labels.
+Not a sandbox. `notes.md` §62.
+**Exactness raises a floor, does not override capability
+(Empirical as live analysis; 2026-09-18 ~23:40):**
+[slo-router](https://github.com/zeeshan8281/slo-router) —
+the exactness feature lifts the quality floor; it never
+bypasses health/context/tool checks. 3/8 task-label
+disagreements still did not change routes. **Hunch:**
+signal-detection framing — a quality cue is a criterion
+shift, not a capability override (`notes.md` §63).
+**Privilege ≠ verdict (Empirical as certification):**
+[construct-auto-classifier](https://github.com/godspede/construct-auto-classifier)
+— `sudo` changes blast radius, not whether the act is
+benign. Operator owns `minConfidence` / `riskThreshold`.
+Jev 0 dangerous / 975; chat models leaked. **Hunch:** do
+not threshold a privilege token as P(unsafe)
+(`notes.md` §63).
+**Ranking ≠ calibration (Empirical as 8,000-judgment
+audit; 2026-09-19 ~00:39):**
+[does-jev-confidence-mean-anything](https://github.com/Adilmp/does-jev-confidence-mean-anything)
+— AUC **~0.91** (ranking works) while stated p is shifted
+toward "yes": when Jev said **~75%**, humans flagged
+**~10%**. Two-parameter recalibration removes **~96% of
+ECE** without changing rank. Vendor "calibrated" here is
+**rank-correlation**, not frequency units. Never
+hard-threshold raw p as if it were P(event) without
+**domain** recalibration (`jevcal`; ~100 labelled rows).
+One dataset (`civil_comments`); do not cite `threat` (n=1).
+License null. `notes.md` §64.
+**OOD / AUC ≠ ECE (Empirical as 900-ticket + 3 public
+benches; 2026-09-19 ~01:47):**
+[jev-ood-calibration](https://github.com/scienthoon/jev-ood-calibration)
+— in-domain public benches look almost honest (OpenBookQA
+ECE 0.024 / T 0.96). On an **unknowable** org-policy
+priority label absent from the text: 44.7% acc, mean
+stated p **0.74**, ECE 0.325, refit T **3.40**. Sign
+**flips by type** on the same tickets: Choice/Score
+overconfident (T ~3.3), boolean underconfident (T 0.66).
+Do not threshold the TypeSafe `confidence` field (worse
+than max-p here). Complements does-jev-confidence
+(in-domain humans) and dinostomp (instrument).
+Gateway exposes no model version. `notes.md` §66.
+**Sureness over the vector (Empirical as 60-q reverse-
+engineer + library; 2026-09-19 ~02:38):**
+[how-sure-is-jev](https://github.com/adarc8/how-sure-is-jev)
+— max_prob / margin / entropy / gini / perplexity (plus
+Score `spread` and Kass–Raftery `log_odds`) → one
+`[0,1]` consensus and bands CERTAIN | CONFIDENT |
+LEANING | TORN | CLUELESS. Choice `confidence ==
+max_prob` to 3 decimals *theirs*; max_prob is the
+**most generous** metric (75/25 → 0.5 vs entropy 0.19).
+Thresholds are opinions. Pair with this OOD card: do not
+threshold TypeSafe `confidence`. Zero-dep MIT.
+`notes.md` §67.
+**Conflict ≠ ignorance (Empirical as NCML field note v0.3
+*theirs*; 2026-09-19 ~04:39):**
+[jev-typed-evaluation-collapse](https://github.com/mleyvaz/jev-typed-evaluation-collapse)
+— same evidence, three schemas. Noul/boolean collapses
+conflict 0.50–0.57 vs ignorance 0.46–0.48; Choice with
+named `conflicting_evidence` / `insufficient_evidence`
+separates p=1.0; binary Choice without an escape is
+lexically biased (red 0.67–0.85). Score exploratory
+(severe conflict 2.04 vs no-evidence 3.95). Schema is
+the interface. License null. `notes.md` §69.
+**BBQ stereotype / uncertainty as SDT (Empirical as
+full 58,492 *theirs*; 2026-09-19 ~05:46):**
+[jev-bbq-experiment](https://github.com/simonmesmith/jev-bbq-experiment)
+— Jev 1.13.0 **56,900 / 97.28%**; amb 99.96% / inf
+94.60%; BBQ bias **0.04 / 0.34**; **$0.3429 / 7.75 min**.
+12 of 13 ambiguous errors stereotype-aligned;
+informative misses mostly `unknown` (1,487 / 1,579).
+Order diagnostic 1/484 (0.21%). Dataset CC BY 4.0 BBQ.
+License null. **Not a general bias cert** — English/U.S.
+QA template does not certify hiring/lending/healthcare.
+Always-unknown would score 50%; 97.28% is not abstention
+theater. Pair with
+[system-one-responsible-ai](https://github.com/david-j-lustig/system-one-responsible-ai)
+(size-0 framing stub). `notes.md` §70.
+**Cookbook moderation as a cost-sensitive dial (Empirical
+as small samples, not a bench; 2026-09-19 ~06:43):**
+[jev-cookbook](https://github.com/nexibeo/jev-cookbook)
+recipe 12 — five hazard Nouls; act when sure, hold the
+middle, escalate self-harm early. 16–36 handmade items;
+authors say not benchmarks (`notes.md` §71).
+**Dual-channel ECE / like-for-like (claim-audit, not
+endorsement; 2026-09-19 ~06:43):**
+[openJev-verdict-2.0](https://github.com/Heman10x-NGU/openJev-verdict-2.0)
+— correctness-head ECE is not distribution ECE. Open PR
+#1: like-for-like dist 15.13% vs Laya 21.40%; Jev 14.40%
+slightly lower on that channel; do not put 1.44% beside
+21.40% as a 15× win. Throughput ≠ latency. **≠**
+IamBusy/OpenJev (`notes.md` §71).
+**Commit middle band (Empirical as 13 labelled;
+2026-09-19 ~07:49):**
+[commitjev](https://github.com/yodablocks/commitjev) —
+the operating point is a **three-way** criterion
+(pass / review / warn), not a rounded yes. 0.65 is
+theirs, not a universal t. Five clean is a small
+control (`notes.md` §72).
+**English-checkpoint confident-wrong OOD (Empirical as
+MASSIVE; 2026-09-19 ~07:49):**
+[laya-multilingual](https://huggingface.co/convaiinnovations/laya-multilingual)
+— Khmer 0.000 acc at 0.952 confidence; mean conf never
+< 0.885. **Gating cannot catch it.** Route by script
+before the forward pass. Ships uncalibrated
+(`notes.md` §72).
+**Coverage ≠ correctness (Empirical as GUI 336):**
+[chakuho](https://github.com/taku-me/chakuho) — 8B
+coverage 1.00 while `__none__` hits 3/30. Coverage is
+format-mass (`notes.md` §72).
+**Peaked schema-scorer (Empirical as Hub eval):**
+Hub schema-scorer v2 Choice 0.841 *theirs*; treat p as
+ranking. GitHub 404 (`notes.md` §72).
+**Escalate-under-threshold criterion (Empirical as
+README; 2026-09-19 ~08:37):**
+[classifier-dev](https://github.com/mrmps/classifier-dev)
+— 0.7 is an operating point on *their* labels (emotion
+≥0.9 → 82% / <0.5 → 29% *theirs*). Multi-label does
+**not** share it. Do not copy 0.7. `notes.md` §73.
+**Self-reported JSON ≠ calibrated Noul (Empirical as
+eval caveats; 2026-09-19 ~08:56):**
+[githubnext/localjev](https://github.com/githubnext/localjev)
+— entropy confidence is computed from a generated
+vector. Bake-off: do not treat outputs as calibrated
+(wrong-BoolQ high conf → large NLL; 40 samples/task
+*theirs*). Wire-compat ≠ logit-equiv. `notes.md` §75.
+**Laya 0.85 still soft / post-T ≠ raw ECE (Empirical
+as README; 2026-09-19 ~09:07):**
+[NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)
+— README `conf >= 0.85` is *theirs*, not Harbor-
+calibrated. Khmer 0.000@0.952. vs-Jev ECE **0.081** is
+post-temperature (raw 0.213 vs Jev 0.144). Banking77
+token-budget, not a Jev loss. `notes.md` §76.
+**External census ≠ scored bake-off (Empirical as
+tweet; 2026-09-19 ~09:14):**
+[@airesearch12](https://x.com/airesearch12/status/2101259522933186879)
+— named ~18 openjevs + first leaderboard promised
+"today." **≠** jevbench v1.1. Watch
+[jev-models](https://benchmarkheaven.com/jev-models);
+do not paste live ranks here. GLiNER2 and routers on
+the list are **class-boundary**, not identity. Likes
+ephemeral. Incomplete vs Laya/localjev/kev is lag.
+Harbor still wants cal / cost / latency / silent
+fallback named. `notes.md` §77.
+**JevBench v1.2 scored board (Empirical as board +
+RESULTS; 2026-09-19 ~09:24):**
+[jev-models](https://benchmarkheaven.com/jev-models)
+protocol `jevbench::v1.2`. Score = geometric mean of
+I/C/S/K at 25% each. Jev 1.13.0 **75.3** / SemIf
+**74.6** *theirs*. Calibration **on** the rank (delta
+from §67). Luna I=96.8 rank #7. Self-host latency
+×2 is an assumption; many costs est. Option-order
+72%→21%. Laya absent (gap, not named-excluded).
+Qwen3.8 27B Chutes TEE **≠** Archer. **≠** tweet
+census **≠** v1.1 87.6. `notes.md` §78.
 
 ## 8. Control structure → sensor ≠ constraint (Leveson)
 
@@ -325,6 +908,144 @@ the constraint that remains when the sensor is deleted; fill the unsafe-
 control-action table. Ownership split is **Contract** as a rule
 (`formal-methods.md`); the domain examples are **Hypothesis** until
 labeled. Links: `mental-models.md` §Leveson; `boundary-audit.md` TOCTOU.
+**Capability kernel (Empirical as README architecture, 2026-09-18
+~19:48):** [interlock](https://github.com/somoore/interlock) — LLM
+ring 3; kernel ring 0; secrets never enter the agent; closed action
+space; Jev (or stand-in) is the sensor; `policy.py` decides
+BLOCK/ASK/ALLOW. Type-safe ≠ correct; irreversible behind a
+threshold **and** a human. Anti-pattern: launch-week firewalls that
+ask "dangerous?" after the LLM already decided with real secrets in
+scope. Distinct from toolgate (pre-exec of a proposed call). 38-case
+set tunes the local judge, not a blind paper. `notes.md` §59.
+**Host deny stays above the sensor (Empirical as README
+safety model, 2026-09-18 ~22:38):**
+[omp-greenlight](https://github.com/SemetricLabs/omp-greenlight)
+— `bash.patterns: deny` is the constraint and fires ahead
+of Jev prompt-suppression. Jev is permission-*probability*,
+not permission. Agent prose withheld after 0→3 corpus
+misses. Never shadows a built-in tool (would bypass deny).
+`notes.md` §62.
+**Spoken confirm ≠ constraint (Empirical as README;
+2026-09-19 ~10:01):**
+[jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser)
+— destructive Noul is a sensor; spoken "confirm" is
+not an interlock. Control-port reach grants. rh-guard
+owns the gate cousin (`notes.md` §82).
+**Wrap-as-execution is the constraint (Empirical as
+README; 2026-09-19 ~10:20):**
+[AgentGhost](https://github.com/reddpy/AgentGhost)
+— the wrap *is* the actuator path; Jev is the sensor
+on leftovers after rules. ASK throws; fail-closed on
+judge error. `AUTO_APPROVE` is not a constraint.
+rh-guard owns the gate cousin (`notes.md` §83).
+**Judgment ≠ permission (Hypothesis / outline only):**
+[skill-broker](https://github.com/adamjralph/skill-broker)
+— code owns grants; Jev scores relevance and **never
+grants access**. Jev down never broadens the catalog.
+Not a production recipe. `notes.md` §62.
+**Contracts on effects, not tokens (Empirical as
+certification; hunch as FM angle):**
+[construct-auto-classifier](https://github.com/godspede/construct-auto-classifier)
+— the constraint is reversibility / blast radius, not a
+`sudo` allowlist. Independent risk Nouls are sensors;
+policy (minConfidence ∩ riskThreshold ∩ fast-deny) is the
+constraint. Fail-closed when the sensor is missing.
+**Landed-script** is a merge-gate receipt, not a name.
+**Headless** escalation is deny-and-report, not
+auto-approve (`notes.md` §63, §68).
+**Attention filter ≠ permission (Empirical as README;
+hunch as placement):**
+[jev-lens](https://github.com/rashedInt32/jev-lens) —
+never blocks the agent; never grants or withholds a
+write. Complements skill-broker (Jev never grants access)
+and omp-greenlight (operator owns the bar)
+(`notes.md` §63).
+**Jev supplies evidence, code owns authority (Empirical
+as README slogan; 2026-09-19 ~00:39):**
+[actiongate-jev](https://github.com/omkarghugarkar007/actiongate-jev)
+— deterministic policy is the constraint; Jev is the
+sensor. A positive score never overrides RBAC / schema /
+limit failure. Financial / destructive / credential fail
+closed if Jev is down. Distinct from construct (shell
+effects) and interlock (secrets never in agent)
+(`notes.md` §64).
+**Wrap-as-execution cousin (Empirical as README;
+2026-09-19 ~10:20):**
+[AgentGhost](https://github.com/reddpy/AgentGhost)
+— the wrap *is* execution; rules prove allow/deny/ask
+before Jev; ASK throws. Distinct from actiongate
+(policy/RBAC is the hard gate, Jev only evidence).
+`notes.md` §83.
+**Turnstile clone (Empirical as README architecture;
+2026-09-19 ~01:47):**
+[turnstile](https://github.com/zyphr-labs/turnstile) —
+same doctrine (policy first; Jev remainder; evidence ≠
+authority) with receipts and **threshold replay**. Missing
+Jev → Review, not a silent allow. Starting 0.85/0.35 are
+not calibrated. Experimental alpha. `notes.md` §66.
+**Advance gate / coverage ledger (Empirical as README +
+BEYOND-JEV.md; 2026-09-19 ~02:38):**
+[seal](https://github.com/Reasonofmoon/seal)
+— sensor (Strike / Jev / code) ≠ constraint (Seal +
+coverage.path). Exception queue must be visible. Mint ≠
+product brain. Effects locked while escalations open.
+`notes.md` §67.
+**Never confidently wrong (Empirical as TLA+ + chaos
+table):** [jev-labs](https://github.com/copyleftdev/jev-labs)
+— the constraint is "may escalate; must not return a
+confident wrong." Hard-gating without that path is
+soundness theater's inverse. Synthetic pharmacy, not
+clinical. `notes.md` §67.
+**Skill-broker sibling (Hypothesis / outline; delta
+§67):** grants stay in code beside turnstile (runtime)
+and skillranker (advisory). Same doctrine, different
+hole. `notes.md` §62, §67.
+**Conversational constraint sensor (Empirical as
+79-session bench; 2026-09-19 ~05:46):**
+[pi-heed](https://github.com/Nyarlathoteppppp/pi-heed)
+— user constraints persist as structured state across
+compaction; replayed **without** calling Jev again.
+Jev classifies KEEP/LIFT/…; **never writes policy**.
+Side-effecting calls checked before they run. Fail-open.
+Shadow default. *Theirs:* recall **98.5%** / false
+block **0.0%** / lifecycle 100% / task success 98.7% /
+**$0.000058**; mid-session rule change 8/13 off vs
+0/13 on. Distinct from actiongate (RBAC/schema
+authority) — this is *what the user meant* surviving
+the context window. Do not copy `pi install`
+(`notes.md` §70).
+**Pi control-plane sensors (Empirical as README; license
+null; 2026-09-19 ~06:43):**
+[pi-jev-control](https://github.com/goodruizhan/pi-jev-control)
+— router / tool gate / retry / sieve / review / GUI are
+named sensors; code owns model switch, session bytes,
+and click. GUI never force-clicks. Distinct from pi-heed
+(constraint ledger) (`notes.md` §71).
+**jev-use gate never grants (Empirical as 12/12
+fail-open):**
+[jev-use](https://github.com/shitianfang/jev-use)
+— PreToolUse deny/ask; missing Jev does not deny
+(`notes.md` §71).
+**Inbox policy is the constraint (Empirical as README;
+2026-09-19 ~07:49):**
+[mailordinal](https://github.com/Milo318/mailordinal)
+— typed signals are sensors; the 100-point policy and
+the review lane are constraints. The model never sets
+queue order. Humans own ambiguity (`notes.md` §72).
+**Agnes branded as Jev is not a sensor (identity lock):**
+[hermes-plugin-jev](https://github.com/Mrmimee/hermes-plugin-jev)
+— chat-completions path wearing Choice/Noul/Score
+vocabulary. Distinct from hermes-jev-router
+(`notes.md` §72).
+**Silent fallback is an unsafe control action
+(Empirical as eval/README; 2026-09-19 ~08:37):**
+[classifier-dev](https://github.com/mrmps/classifier-dev)
+— delisted primary left granite serving F1 **0.546**
+vs advertised ~**0.800** for weeks (*theirs*). Digest
+now marks `FALLBACK`. The constraint is honesty about
+which model answered, not a better softmax.
+**rh-guard owns the eval-integrity gate**; this is the
+lived product cousin (`notes.md` §73).
 
 ## 9. Search / control loops → one substituted classifier step
 
@@ -336,10 +1057,45 @@ mapping §5 is the taxonomy-beam special case). Economics inversion:
 per-node judgments were known and too expensive; they are now default.
 Control: hysteresis, continue / stop / retry / verify — the model
 estimates named probabilities; the controller is a table with memory.
-**Does not transfer**: Jev as the planner that picks its next tool in a
-loop; bandits without observed rewards; speculative depth without a
-simulator; PufferLib Ocean scores as a capability claim
-(`formal-methods.md` DST trio).
+**Bounded Pi supervisor (Empirical as README policy, 2026-09-18
+~16:48):** [jevons](https://github.com/LilDojd/jevons) — not a second
+agent; Jev interprets evidence; code owns freshness/limits; default
+recovery **shadow**; steering never generates commands
+(`notes.md` §51). Distinguish from pi-jev-approver / pi-jev-context.
+**Does not transfer**: Jev as the planner-writer that picks its next
+tool *and writes* the call; bandits without observed rewards;
+speculative depth without a simulator; PufferLib Ocean scores as a
+capability claim (`formal-methods.md` DST trio). **Does transfer as a
+split** ([jeffrey](https://github.com/thomasbrueggemann/jeffrey)): Jev
+owns next-tool / progress / risk / done; the LLM **only fills args**;
+the loop is Jev→tool→Jev. Pick ≠ fill. Mapping §9 still rejects the
+fused planner.
+**Continuous-control cousin (Empirical as README delta;
+2026-09-19 ~09:50):**
+[khordoo/jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab)
+— the *algorithm* is the physics loop; the substituted
+classifier step is typed flight Choice every tick.
+Optional S2 is one-use strategy, not the next act.
+Escalate **without stalling**. Local rule-based vs
+Live `jev-latest` is an A/B of backends (**≠**
+githubnext/localjev). Seed = geometry ≠ replay. No
+pixels. 20% still soft. S2 never grants. Do not copy
+npm / `.dev.vars` (`notes.md` §46, §80).
+**OCR+AX desktop cousin (Empirical as README;
+2026-09-19 ~09:51):**
+[typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use)
+— the *algorithm* is the capture→OCR+AX→Choice→act
+loop; the substituted classifier step is exclusive
+kind/item/site. Perception stays in code. Writer is
+leftover generation. Decision never ships pixels; the
+answer reader may. Do not copy `uv` (`notes.md` §81).
+**ASR voice-browser cousin (Empirical as README;
+2026-09-19 ~10:01):**
+[jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser)
+— the *algorithm* is debounce→snapshot→Choice→Playwright;
+the substituted classifier is 9–11 questions on a
+partial transcript. ASR stays off-model. Confirm is
+not a grant. Do not copy `npm` (`notes.md` §82).
 
 ```text
 loop     = yours (beam / funnel / stages / MCTS / incident command)
@@ -349,7 +1105,34 @@ estimate ≠ measure — irreversible milestones concede only to the probe
 ```
 
 **Example (Empirical):** jev-mcts grounded vs speculative fidelity in
-types; probes-only concession (mapping §5). **Beyond SWE (Hypothesis):**
+types; probes-only concession (mapping §5).
+**Decider ≠ executor (Empirical as README; 2026-09-19 ~05:46):**
+[jeffrey](https://github.com/thomasbrueggemann/jeffrey) — the
+*algorithm* is the agent loop; the substituted classifier step is
+next-tool / progress / risk / done. Arg fill is generation, not the
+classifier. Risk Score ≥ 0.5 pauses mutating tools. Stuck ladder:
+withhold the looping tool, re-ask Jev (2 Jev / 0 steps). Distinct
+from jev-handoff (typed baton around an existing host) and
+browser-jev (Playwright executes). Do not copy npm (`notes.md` §70).
+**Tree-of-Choices writer (Empirical as README demo;
+2026-09-19 ~06:43):**
+[jev-gpt](https://github.com/florian-hoenicke/jev-gpt)
+— the substituted classifier step is *which word next*;
+the model never free-generates. ~400 calls / 75 s / 2¢
+*theirs*. Architecture demo. Distinct from jeffrey (pick
+next-tool). License null (`notes.md` §71).
+**Pick≠write plugin (Empirical as 95-call card):**
+[jev-use](https://github.com/shitianfang/jev-use)
+— judgment steps to Jev; writing stays generated
+(`notes.md` §71).
+**1-token selector (Empirical as GUI 336 + mario;
+2026-09-19 ~07:49):**
+[chakuho](https://github.com/taku-me/chakuho)
+— the substituted classifier step is *which declared
+label*; the generic LLM never writes. Numeric rules stay
+in code (mario loss is misapplied "< 6 tiles"). Softmax
+≠ Noul (`notes.md` §72).
+**Beyond SWE (Hypothesis):**
 snowball citations ("still on-question?"); sales stages ("still a real
 opp?" — amount and close date stay exact); cook/rest/check ("looks done?"
 — thermometer is the probe). **Counterexample**: a weekly LLM summary of
@@ -367,6 +1150,67 @@ immediate win missed once reversed; Fool's-mate confidence 31%/37% so a
 0.50 gate would reject correct mates. pcdServer Tetris is the same
 hole on the constrained-AR surface. Not a strength rating.
 `notes.md` §42; `validation.md`.
+
+**Computer-use observe → score → act (Empirical as README /
+architecture behavior, 2026-09-18 ~16:56):**
+[gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
+— the *algorithm* is the browser loop; the substituted classifier
+step is scoring among observed a11y/DOM controls. Local GLiNER2 is
+one backend; Jev Ultrafast / solari-reflex are the Jev backends of
+the same hole. Code owns actuators, dates, freshness. `DONE` is not
+the probe — application verifiers are. Contrast blackwood-rlcd
+(screenshot input). Hybrid remote TYPE is generation, not the
+classifier step (`notes.md` §52).
+[Cua-S1](https://github.com/trycua/cua/tree/main/libs/cua-s1) is the
+same substituted-classifier *job* on a specialist form contract
+(option-attention; plan ≠ execute; not TypeSafe Jev; source-only,
+`notes.md` §54).
+**Harness productization of the same job (Empirical as PR body,
+2026-09-19 ~00:48; draft):**
+[Stagehand #2951–#2955](https://github.com/browserbase/stagehand/pull/2955)
+— the *algorithm* is Stagehand's act/observe/extract loop; the
+substituted classifier step is Jev pick among a11y candidates, then
+code copies or acts. LLM fallback when the pick/gate/schema fails.
+Extract 37/75 no-LLM ~0.5 s vs 4.37 s is *their* card; pick ≠
+replacement. Cache-check errors never block replay. Do not merge
+with demo-loop clocks (`notes.md` §57).
+
+**Robotics text-state, same job different body (Empirical as
+showcase class pattern, 2026-09-19 ~00:38):**
+MuJoCo robot-arm on [jevable.com](https://jevable.com/): Jev does
+not accept images; simplified geometry and contacts **as text**;
+two-call split (what to do, then how to move). MOSS: Jev picks the
+target; the robot picks up. Cousins: [jev-drone](https://github.com/RomanSlack/jev-drone)
+(code at 500/50 Hz, Jev advisory 2.5 Hz); Doom JSON, not pixels.
+Drawing-pixel-parallel is a **claim** — contrast MuJoCo honesty.
+Do not replace A* or a Sudoku solver with a Noul. Archer still
+Watch (`notes.md` §56).
+
+**Structure induction over a bag (Empirical as a *shape*, 2026-09-18):**
+[`Joymfl/dag-jev`](https://github.com/Joymfl/dag-jev) — unordered items
+in, pairwise "does i depend on j?" judgments, DAG in `petgraph`. Code
+owns topology; the model does not emit edges. Experiment; empty README;
+no metrics this pass (`notes.md` §48). Same hole as taxonomy beam (§5):
+judgment is a pairwise (or Choice) classifier step, not the scheduler.
+
+**Combinatorial grid assembly ≠ extractive keep/drop (Empirical as a
+negative):**
+[`simonmesmith/jev-arc-agi-v1-experiment`](https://github.com/simonmesmith/jev-arc-agi-v1-experiment)
+— Direct Jev cell-wise Choice on ARC-AGI-1: **4/400 (1%)**. Dimensions
+~90%; complete grids rarely. Many small extractive decisions do not
+add up to a consistent transformation. Search / a program / a
+simulator stay in code (`notes.md` §49).
+
+**Query planner as the envelope (author-reported, 2026-09-18):**
+[@mmalisper](https://x.com/mmalisper/status/2101001041903009987) on the
+Join Order Benchmark. Jev picking join order was **2× slower**.
+Cardinality estimates helped when outside context informed the plan;
+when Jev was wrong, one query was ~10× slower. Hybrid: Postgres plans
+first; Jev overrides **only when confident** → **+12% geomean**, no
+dramatic slowdowns. A Jev call is 100s of ms, not yet practical on
+every plan. The planner is the hard envelope; confidence is the gate;
+fail-open to Postgres. **Hypothesis** until reproduced on *your*
+workload. `notes.md` §44.
 
 ## 10. Spec property pipeline (Hypothesis)
 
@@ -424,10 +1268,68 @@ monitor   = RV / ptLTL / named invariant     # exact, compiled
 act       = code, only if monitor admits
 ```
 
+**Named live-stream shape (Empirical as a *shape*, 2026-09-18):**
+[`affirmitv/bitrate-advisor`](https://github.com/affirmitv/bitrate-advisor)
+— Jev proposes ABR rungs; deterministic policy (probe × headroom,
+history percentiles, loss/queue/thermal/battery) is the monitor. Jev
+may only match that envelope or be more conservative. Missing the
+model returns the policy's answer. Author-measured three states
+(~$0.00004, 0.25–0.39 s) are a receipt for the *shape*, not a codec
+benchmark. `notes.md` §44.
+
 **Counterexample:** "the model was confident" as the monitor.
 **Test:** inject a monitor-violating trace the Noul would have admitted;
-the sandwich must refuse. **Hypothesis.** Links: `mental-models.md`
+the sandwich must refuse. **Hypothesis** as domain-general; bitrate is
+Empirical as the named envelope. Links: `mental-models.md`
 conformal; `formal-methods.md` help list.
+
+**Named compaction envelope (Empirical as README behavior, 2026-09-18
+~16:22):** [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
+— the mutation monitor is **code** (mutating tools, unknown shell,
+control operators / pipelines / substitutions / redirections →
+`keep_full`). GLiNER2.5 may only propose a reduction on the remainder
+or be more conservative; low-confidence / invalid evidence fail closed
+to `keep_full`. Soft judgment inside a hard envelope, encoder backend
+— not a Jev Score and not a summarizer (`notes.md` §50). Same sandwich
+shape as bitrate-advisor; different family.
+
+**Named stdout-prune envelope (Empirical as README / evals README,
+2026-09-18 ~17:15):**
+[jev-pruner](https://github.com/tamaratran/jev-pruner)
+— the monitor is **code** (≤10k estimated tokens; errors;
+JSON/XML/YAML/diff/binary; whole-document commands). Jev Noul may
+only score residual noisy chunks. Archive/Jev/incomplete-score
+failure keeps the original. Soft judgment inside a hard envelope,
+Jev backend — same family as gliner25-compaction, different *job*
+(command output vs session memory) (`notes.md` §53).
+
+**Named computer-use envelope (Empirical as README / architecture,
+2026-09-18 ~16:56):**
+[gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
+— the monitor is **code** (resolve to an observed node; freshness /
+visibility / disabled / occlusion; no generated selectors or JS).
+GLiNER2 may only pick among candidates the snapshot already holds.
+`DONE` is not the monitor. Soft judgment inside a hard envelope,
+encoder backend — not a screenshot VLM (`notes.md` §52).
+
+**Named specialist-form envelope (Empirical as README / MODEL_CARD,
+2026-09-18 ~17:21; weights Watch):**
+[Cua-S1](https://github.com/trycua/cua/tree/main/libs/cua-s1)
+— the monitor is **code** (plan ≠ execute; dry-run default; one
+window; snapshot-bound tokens; reobserve; `execute`/`submit`
+opt-ins; fail-closed unknown checkbox; fill execution fails closed
+without advertised token `set_value`). The option-attention head may
+only pick among observed elements and extracted `Label: value`
+entities. Not TypeSafe Jev. No checkpoint scores (`notes.md` §54).
+
+**Named harness extract envelope (Empirical as PR body, 2026-09-19
+~00:48; draft Watch):**
+[Stagehand #2955](https://github.com/browserbase/stagehand/pull/2955)
+— the monitor is **code** (schema plan: scalars / bools-enums /
+lists of flat objects else LLM; completion gate; screenshot extract
+always LLM). Jev may only pick among a11y candidates; code copies
+text. Invalid / abstain → LLM. Pick is a fast path, not a
+replacement (`notes.md` §57).
 
 ## 13. DST multiverse triage (Hypothesis)
 
@@ -480,7 +1382,20 @@ policy   = starvation/fairness rules in code
 ```
 
 **Example (Hypothesis):** incident-commander assignment; grant-panel
-paper allocation; GPU scheduling. **Counterexample:** Choice over
+paper allocation; GPU scheduling. **Empirical as a *shape*:**
+[`affirmitv/bitrate-advisor`](https://github.com/affirmitv/bitrate-advisor)
+— Jev's rung is the soft affinity; probe/history/thermal caps are the
+solver; the model cannot violate them (`notes.md` §44).
+**Empirical as a *shape* (2026-09-18 ~23:40):**
+[slo-router](https://github.com/zeeshan8281/slo-router) —
+Jev's task/exactness/evidence scores are soft features;
+the controller is min expected cost s.t. health, context,
+tools, quality floor, and SLO-success probability.
+Fail-open to local features. Measured negative for *sync*
+Jev on the fixture (same routes; p95 77.93→490.38 ms).
+**Hunch:** never let the decision model be the sole hard
+gate on the hot path (`notes.md` §63).
+**Counterexample:** Choice over
 assignees that ignores load. **Test:** a feasible assignment the solver
 finds that the Score alone would skip because it "felt" worse; hard
 constraints never yield. Links: `mental-models.md` §OR.
@@ -537,15 +1452,25 @@ paraphrase set where the *act* must not change when the wording is
 synonymous; if it does, abstain. Until that set exists on *your*
 questions, **Hypothesis**. Links: `mental-models.md` §thresholds;
 `question-design.md` diagnosis; `validation.md` behavioral tests.
+**Option-order cousin (Empirical as v1.2 footnote; 2026-09-19):**
+[open-alternative-jev](https://github.com/ikermoel/open-alternative-jev)
+scored **72% → 21%** on yes/no answer-judging when A/B were reversed
+*theirs* (JevBench v1.2). Same act, swapped labels. Ranked row uses
+the author's `A. yes, B. no`. Do not quote one order as the model.
+`notes.md` §78.
 
 ## 18. Structural prove ∩ soft remainder (Hypothesis as domain-general; Empirical as named shapes)
 
 **Method**: code (or a recipe, a law, a text layer) **proves** the easy
 cases; a System One model judges only what the structure cannot decide.
 Composition-algebra position 3 *after* a constraint, not instead of one.
-**Transfers**: allowlist / refused-in-code / unknown→judge
+**Transfers**: allowlist / refused-in-code / unknown→judge. The
+allowlist **proves** every verb is a listed read-only tool; the model
+judges **only unlisted** leftovers; the gate **cannot block** (fail-open
+unless a sandbox sits under)
 ([jevgate](https://github.com/thevibeworks/jevgate): Proven / Refused /
-Unknown; cannot block; Jev alone leaks). Same sandwich as page OCR
+Unknown; Jev alone leaks — `/bin/ls` at 0.04 is why it is the third
+tier). Same sandwich as page OCR
 ([doc-router](https://github.com/misbahsy/doc-router): pdf-inspector
 first, "needs OCR?" Noul on the remainder — 155→87 pages billed, **1.74×**
 $ on 19 docs / 155 pages). **Does not:** putting the model first so a
@@ -565,7 +1490,130 @@ doc-router 9 OCR-misses vs 28 for rules-only.
 [`poponline63/hermes-jev-north-star`](https://github.com/poponline63/hermes-jev-north-star):
 deterministic shell checks first; empty evidence refuses to judge; then
 one Jev call on the remainder. Empty state was self-contradictory —
-that is why the refuse-empty rule exists. **Beyond SWE (Hypothesis):**
+that is why the refuse-empty rule exists.
+[`affirmitv/bitrate-advisor`](https://github.com/affirmitv/bitrate-advisor)
+is the same sandwich on a live encoder: policy proves the cap; Jev
+may only match it or be more conservative; missing the model returns
+the policy's answer. Jev judges only inside it (`notes.md` §44).
+Light sibling:
+[`phin-tech/pi-jev-approver`](https://github.com/phin-tech/pi-jev-approver)
+— regex `commandRules` prove allow/deny (a `deny` is a hard block);
+typed Score/Nouls on the remainder; **fail-closed** without a key
+(different polarity from jevgate). rh-guard-adjacent; light note only
+(`notes.md` §48).
+**Regex floor then remainder compact (Empirical as README +
+one-session bench; 2026-09-19 ~00:39):**
+[jev-compactor](https://github.com/edwardyen724-g/jev-compactor)
+— code proves pins, dedup, and `rm -rf` / force-push / `DROP
+TABLE` / `curl | sh` regardless of Jev; Jev keep/drop +
+Foreman on the remainder. Compaction fail-open if Jev is
+down; safety fail-closed on pending destructive/exfil
+(`notes.md` §65).
+**Local rules then remainder hide (Empirical as README +
+small e2e):**
+[x-reply-filter](https://github.com/zhuyansen/x-reply-filter)
+— `rules.js` proves easy junk at zero cost; four Nouls on
+the rest. Auto-hides are not examples until a human
+confirms (`notes.md` §65).
+**Pre-exec tool product (Empirical as README wiring, not as
+accuracy; 2026-09-18 ~17:48):**
+[toolgate](https://github.com/fdemir/toolgate) — `allow` / `block` /
+`review` before execution; guard error or timeout **stops** (fail-
+closed on the execution act). Jev is a probabilistic check, **not
+authorization**. 72-case synthetic set is not independently
+annotated. Distinct from the ndolinschi *vocabulary* (allow /
+ask_human / deny) already in `agent-self-assessment.md`.
+`onReview` must obtain authenticated human approval
+(`notes.md` §55). Do not copy pnpm.
+**Wrap-as-execution then remainder (Empirical as README;
+fail-closed; 2026-09-19 ~10:20):**
+[AgentGhost](https://github.com/reddpy/AgentGhost)
+— `allow`/`ask`/`deny`/`matchArg` prove first; Jev on
+leftovers; ASK/DENY throw; judge error → DENY. Distinct
+from jevgate (fail-open, cannot block) and from toolgate
+(proposed-call pre-exec). rh-guard owns the gate cousin.
+Do not copy `npm` (`notes.md` §83).
+**Tool-risk as a placement, not a wrap (Empirical as
+article; 2026-09-19 ~10:25):**
+[@akshay_pachaar](https://x.com/akshay_pachaar/status/2101037514945597645)
+cites LangChain middleware as tool-risk gating. That is
+the *placement*, not a product card. AgentGhost owns
+wrap-as-execution; rh-guard owns the gate cousin. Do not
+steal Flavio Copes (`notes.md` §85).
+**OMP prompt suppression, host deny proves (Empirical as
+measured traffic, 2026-09-18 ~22:38):**
+[omp-greenlight](https://github.com/SemetricLabs/omp-greenlight)
+— OMP `bash.patterns: deny` **proves** the floor; Jev may
+only suppress remaining approval prompts above an
+operator-owned bar. Plugin never self-tunes. Not a sandbox.
+Default 40.9% / 0 of 94 *theirs*. Distinct from toolgate
+(pre-exec of a proposed call) and omp-jev-extensions
+(fail-open route). `notes.md` §62.
+**Effect-based fast-path then remainder (Empirical as
+certification; 2026-09-18 ~23:40):**
+[construct-auto-classifier](https://github.com/godspede/construct-auto-classifier)
+— fast-deny / fast-allow **prove** catastrophic and
+read-only verbs in <1 ms; Jev judges blast radius /
+reversibility on the remainder. Fail-closed on the
+*execution* act (contrast jevgate cannot-block). Privilege
+stripped before the allow rule, not used as the verdict.
+Jev 0 dangerous / 975 *theirs*. Landed-script trust /
+headless ≠ auto-approve (`notes.md` §68). **Hunch:** contracts on
+effects, not tokens (`notes.md` §63).
+**Capability kernel, different trust boundary (Empirical as README
+architecture, 2026-09-18 ~19:48):**
+[interlock](https://github.com/somoore/interlock) — the LLM never
+saw the secret and cannot emit an unlisted action; Jev is SENSOR;
+policy is the prove/constraint layer. Do not merge with toolgate.
+**Human-confirmed kill (Empirical as README safety model):**
+[port-cleanup](https://github.com/epiphany-dynamics/port-cleanup)
+— Jev recommends; human confirm + identity re-check + shields are
+the prove layer for SIGTERM; mapped explanations, not raw model
+prose (`notes.md` §59).
+[`coldteadotai/abide`](https://github.com/coldteadotai/abide) is the
+same *family* on project instructions: the **linter proves** lintable
+rules; Jev Scores only residual soft AGENTS.md rules; fail-open, banded
+(`notes.md` §47). Different remainder from jevgate's unlisted verbs
+and from rh-guard's eval-integrity hole — do not merge products.
+**Skills → oxlint (Empirical as a named Phoenix experiment,
+2026-09-18 ~18:46):**
+[jev-oxlint](https://github.com/cephalization/jev-oxlint) — AST
+facts and prechecks in **code**; guidance files copied whole into
+`state`; one remaining request of atomic questions;
+survey / calibrate / propose. Status: experiment, nothing
+published. Phoenix: jev agrees with the human answer key on every
+fixture; found a real flush-only-on-success bug (noul 0.07);
+routing 0.80–0.94 vs <0.50 across 41 files; coarse hint is not;
+~$0.002 fixtures / ~$0.015 41 files; second run zero requests.
+Formal methods compose with soft judgment **without hard-gating**
+a Noul as a proof. `tenbin` owns the lint skill. License null
+this pass. MED cousin: [safe-sh](https://github.com/EpicEric/safe-sh)
+(AGPL-3.0) static shell-script analysis — not pre-exec
+authorization (`notes.md` §58). Do not copy pnpm.
+Compaction polarity is the other way:
+[gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
+— code proves mutating / dangerous shell → `keep_full`; the encoder
+judges only the remainder; uncertain **fails closed to `keep_full`**
+(`notes.md` §50). Same sandwich, opposite fail policy from jevgate
+(cannot block) and Abide (fail-open on diffs): the authorized act is
+a destructive reduction of memory.
+**Stdout prune is the same polarity, different job (2026-09-18
+~17:15).** [jev-pruner](https://github.com/tamaratran/jev-pruner) —
+code proves ≤10k / JSON-diff-whole-doc pass-through; Jev scores the
+remainder; uncertain **fails closed to original stdout** plus an
+archive (`notes.md` §53). Harbor plugin-eval cannot reach Jev and
+therefore cannot prune — fail-safe, not a missing score.
+**Name the irreversible act (2026-09-18 ~16:48).** Wake *skip* is
+irreversible (the agent stays asleep) →
+[wakegate](https://github.com/shitianfang/wakegate) authorizes skip
+only at p < 0.2 and otherwise **wakes** (fail-open on the skip).
+Merge *PASS* is irreversible if the bug was real →
+[latch](https://github.com/CaseReed/latch) `--gate` BLOCKs unless
+infra is confirmed; the Playwright reporter stays fail-open.
+[if-ai](https://github.com/Victor-Casado/if-ai) fails the Action on
+error / empty / low confidence (fail-closed on the check).
+`notes.md` §51.
+**Beyond SWE (Hypothesis):**
 recipe book ∩ "does this leftover look done?"; labor-law allowlist ∩
 hiring-fit Noul; SPF/DKIM pass ∩ phishing Noul on the body. **Counterexample:**
 Jev on `/bin/ls` as the first tier. **Test:** planted writers never
