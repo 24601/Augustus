@@ -1062,7 +1062,10 @@ default threshold 0.1 still soft.
    on-device ANE economics.
    honesty locks.
    Locate species; Fastino owns the checkpoint.
-   Code owns policy. Soft Noul ≠ hard safety:
+   Code owns policy. Position 10 discretizer/encoder
+   (schema+text → labeled spans), **not** position 4
+   Selector of F, **not** keep/drop of held candidates.
+   Soft Noul ≠ hard safety:
    0.1 / null >0.5 / README 0.99 are sensors.
 
 Soft Noul ≠ hard safety. Spans + confidence are

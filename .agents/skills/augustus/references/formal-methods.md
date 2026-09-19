@@ -798,8 +798,9 @@ honesty locks; shershah1024/gliner-native-runtime ≠ Fastino;
 default threshold 0.1 still soft.
 Soft Noul ≠ hard safety: 0.1 / null >0.5 / README 0.99
 are **sensors**. Hard-gating 0.1 as NER quality, treating
-spans as Choice/Score/Noul, or inventing ANE Harbor is
-the same theater.
+spans as Choice/Score/Noul, filing it as keep/drop of
+held candidates or as position 4 Selector, or inventing
+ANE Harbor is the same theater.
 
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a

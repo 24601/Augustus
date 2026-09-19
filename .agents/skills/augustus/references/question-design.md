@@ -236,6 +236,7 @@ request, and treat a stale pin as a prior, never a setting.
 | Treat gliner-native-runtime as TypeSafe / Fastino / a Noul | Locate; unofficial | GLiNER2 native Apple path. not Choice/Score/Noul. not TypeSafe. shershah1024/gliner-native-runtime ≠ Fastino. `notes.md` §97 |
 | Collapse it into compaction / ultrafast / Eran-BA / JevSwiftSDK / jevmlx | Namesake lock | ≠ gliner25-compaction ≠ gliner2-ultrafast ≠ Eran-BA/Jev_from_GLiNER2 ≠ NSStudent/JevSwiftSDK ≠ jevmlx. honesty locks. `notes.md` §97 |
 | Paste README 0.99 as Harbor / hard-gate 0.1 | Fixture; sensor | default threshold 0.1 still soft. `notes.md` §97 |
+| File it as keep/drop / position 4 Selector | Locate; position 10 | schema→spans. Not keep/drop of held candidates. Not Selector of F. `notes.md` §97 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

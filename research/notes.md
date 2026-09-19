@@ -16897,8 +16897,9 @@ default threshold 0.1 still soft.
      the combined label schema and text; this checkout
      supports inputs up to 192 encoded tokens. Fixed
      shapes “avoid dynamic relative-position indexing in
-     the ANE graph.” Code (not README): default
-     `GlinerLabel` threshold **0.1**; skip a query if
+     the ANE graph.” Code default `GlinerLabel`
+     threshold **0.1** (README CLI example uses the
+     same 0.1; still a sensor); skip a *label query* if
      trained-null sigmoid **> 0.5**;
      `computeUnits = .cpuAndNeuralEngine`; one extractor
      is serial (“Core ML and the 1 MB head share one
@@ -16948,8 +16949,11 @@ default threshold 0.1 still soft.
 Treat this as TypeSafe Jev / Choice/Score/Noul /
 `/v1/systemone`; collapse into Fastino official;
 collapse into gliner25-compaction / gliner2-ultrafast /
-Eran-BA spec / jeff / JevSwiftSDK / jevmlx; paste
-README 0.99 as Harbor τ; invent ANE latency or ECE;
+Eran-BA spec / jeff / JevSwiftSDK / jevmlx; file it as
+extractive keep/drop of held candidates or as
+composition position 4 Selector of F (it is position 10
+discretizer/encoder: schema+text → labeled spans);
+paste README 0.99 as Harbor τ; invent ANE latency or ECE;
 hard-gate default 0.1 as a quality proof; copy Hub
 weights into this archive; treat classification /
 relations APIs as shipped.

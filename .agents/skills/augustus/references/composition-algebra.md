@@ -738,8 +738,11 @@ default threshold 0.1 still soft.
 
 93. **GLiNER2 native Apple path**
     (shershah1024/gliner-native-runtime):
-    position 4 (locate spans the encoder proposed) ×
-    on-device remainder. unofficial Swift/Core ML
+    position 10 (Discretizer/encoder: schema+text
+    → labeled spans) × on-device remainder.
+    Not position 4 Selector of F. Spans are
+    encoder-proposed; not keep/drop over offsets
+    code already holds. unofficial Swift/Core ML
     GLiNER 2.5-small. entity spans + confidence.
     not Choice/Score/Noul. not TypeSafe.
     label descriptions as schema.

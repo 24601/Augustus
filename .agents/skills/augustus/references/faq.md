@@ -2810,3 +2810,7 @@ No. ≠ gliner25-compaction ≠ gliner2-ultrafast ≠ Eran-BA/Jev_from_GLiNER2 �
 ## Paste README 0.99 as Harbor? Hard-gate default 0.1 as NER quality? Invent ANE latency?
 
 No, no, and no. default threshold 0.1 still soft. README fixture is a demo. No published Harbor / ECE / ANE ms. Soft Noul ≠ hard safety. label descriptions as schema. on-device ANE economics. `notes.md` §97.
+
+## File it as extractive keep/drop of held candidates? Call it composition position 4 Selector?
+
+No, and no. schema→spans locate. Position 10 discretizer/encoder, not position 4 Selector of F, not keep/drop of offsets code already holds. `notes.md` §97.
