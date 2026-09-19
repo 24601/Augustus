@@ -520,6 +520,25 @@ Architecture / mental models / Harbor-jevals, not an `uv` / npm / cargo / market
 - **marc2332/findme** — Rust; license null; **4★**; README SHA `f2a2ca71`. NL memory → beam FS. **≠** JevFind.
 - **leftspace89/jevsubrouter** — MIT; **4★**; README SHA `317996d0`. Price workers, not the conversation. Fail-open. Counts ≠ dollars.
 
+### Hourly ~11:49 Boise 2026-09-19 / 17:49 UTC (1144 HIGH)
+
+Architecture / mental models / Harbor-jevals, not an unpublished-npm / `uv` / `baml` / Gateway catalog. `notes.md` §89. Skip Archer. Quote READMEs. Soft Noul ≠ hard safety. Do **not** re-fold 1047 / §87 / §88. Sibling jev-decisions already in corpus — pointer only. jev-desktop already MED — pointer only.
+
+- **BoundaryML/feelings** — BAML; license null; **0★**; README SHA `a03170d1`. `.feels()` / `.how()` / `.matches<T>()` / `.fill<T>()` / `.ask()`. Default 0.5 is Noul-0.5-never-rounded. **≠** hunch **≠** Probably.
+- **AiPersonacademy/apa-agent-harness** — MIT; **0★**; README SHA `6213f8c2`. Policy + 0.85 gate + shadow. Unpublished npm. **≠** AntonioCoppe/jev-harness.
+- **AiPersonacademy/apa-persona-engine** — MIT; **0★**; README SHA `266beb8c`. SM then leftover LLM. <250 ms ≠ microsecond. Unpublished npm.
+- **Bodila51/grok-bot-jev** — MIT; **1★**; README SHA `a03a16c9`. Skill honor. A/B proxies ≠ tokens. 13.0× is a top-five cap.
+- **JacquesGariepy/Essentiel-Jev** — license null; **0★**; README SHA `48ac00e1`. Never authority. 0.75 provisional. **≠** jevmail **≠** mailjay.
+- **mahawi1992/enzo-mcp** — MIT; **0★**; README SHA `9a213c9e`. Independently falsifiable claims. UNKNOWN useful. **≠** jev-sift.
+- **noripto/pigeonhole** — MIT; **0★**; README SHA `43675c4e`. OTHER skip. 0.6 still soft. **≠** jev-semgrep.
+- **bojansandhaus/jev-agent-decision-playground** — HF Space MIT; **0 likes**; sha `1fab381e`. Static no-network. **≠** classifier.dev. Sibling jev-decisions pointer only.
+- **vcjdeboer/jev-reliability** — SPDX NOASSERTION / LICENSE.md MIT+CC BY 4.0; **0★**; README SHA `eaad87f7`. Nothing about accuracy. noul-gate 0.0%/12.5%/3.6% *theirs*. **≠** dinostomp.
+- **clduab11/jev-test** — MIT; **0★**; README SHA `59115535`. “Nothing runs yet.” Bars ≠ scores. **≠** realZachi/jevtest.
+- **erendikmenn/jev-rag-benchmark** — MIT; **0★**; README SHA `ea54bbe0`. “Jev wins” is not an assumption. **≠** Max-sm-yc/Jev-RAG.
+- **dairui1/jev-lab** — license null (README claims MIT); **0★**; README SHA `4c006b68`. urgent 91% vs Haiku 79% *theirs* synthetic. **≠** BrendanH18/jev-lab. Do not re-card jev-desktop.
+- **fazlerocks/jevmail** — MIT; **3★**; README SHA `9b1ea8b0`. `gmail.readonly`. ~3¢/1k *theirs*. **≠** mailordinal.
+- **secondfret/mailjay** — license null; **0★**; README SHA `fd52c7b9`. Archive/trash after review. **≠** jevmail readonly.
+
 Census **not re-derived**. Archer still NOT landed.
 
 See `references/mixed-architecture.md` in the skill. Class-level family

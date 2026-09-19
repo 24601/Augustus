@@ -399,3 +399,36 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     prompt-cache as the exact envelope. Binding ≠
     advice. Fail-open. Counts ≠ dollars. Full cards:
     `applied-mappings.md` §5, `faq.md`.
+41. **Typed if** (feelings): position 2 (language
+    primitive). `.feels()` default 0.5 is
+    Noul-0.5-never-rounded. Exhaustive `match` is
+    the exact envelope. **≠** hunch **≠** Probably.
+    Full cards: `mappings.md` §3, `faq.md`.
+42. **Shadow then honor** (apa-agent-harness /
+    grok-bot-jev): position 9 (shadow harness) with
+    skill honor. Unpublished npm. A/B proxies ≠
+    tokens. **≠** AntonioCoppe/jev-harness. Full
+    cards: `mixed-architecture.md`, `faq.md`.
+43. **Persona state-machine** (apa-persona-engine):
+    position 19 (effect-oriented SM). <250 ms ≠
+    microsecond. Full cards: `mappings.md` §3.
+44. **Human every action** (Essentiel-Jev): position
+    1 (sensor) × human actuator. Never authority.
+    Full cards: `mappings.md` §8, `applied-mappings.md`
+    §7.
+45. **Atom then sense** (enzo-mcp): position 3 after
+    deterministic evidence. UNKNOWN useful. **≠**
+    jev-sift. Full cards: `applied-mappings.md` §1.
+46. **File by Choice** (pigeonhole): position 2
+    (keep/drop among folders). `OTHER` skip. Full
+    cards: `applied-mappings.md` §2.
+47. **Question preflight** (jev-reliability /
+    clduab11/jev-test / jev-rag-benchmark /
+    dairui1/jev-lab): measurement owns endorsement.
+    Nothing about accuracy. Bars ≠ scores. “Jev
+    wins” is not an assumption. Full cards:
+    `validation.md`, `question-design.md`.
+48. **Inbox read-only vs write** (jevmail / mailjay):
+    ranking trays vs proposed archive/trash.
+    **≠** mailordinal. Full cards:
+    `applied-mappings.md` §4, §8.

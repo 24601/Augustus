@@ -1082,6 +1082,65 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   hard safety. Do not copy `uv` / npm / cargo /
   marketplace / `TYPESAFE_API_KEY` / `JEVSUB_API_KEY`.
   No wrapper. No invented metrics.
+- Hourly 1144 HIGH (`research/notes.md` §89): **Skip
+  Archer.** Docs-only on PR #3. Do **not** re-fold
+  1047 / §87 / §88. How-to-apply / mental models /
+  architecture / Harbor-jevals — not a thin Jev skill
+  dump. Backend-agnostic categorization/scoring/
+  decision class. Formal methods compose with scoring;
+  a Noul is a SENSOR; hard-gating a default 0.5 bool,
+  quoting apa “mathematically fulfilled,” treating A/B
+  proxies as token savings, letting Jev send mail, or
+  pasting jev-test bars as results is soundness theater.
+  Seven clusters: **Typed if**
+  ([feelings](https://github.com/BoundaryML/feelings)
+  `.feels()` default 0.5 is Noul-0.5-never-rounded;
+  exhaustive BAML `match`; **≠** hunch **≠** Probably;
+  license null; **0★**);
+  **Shadow then honor**
+  ([apa-agent-harness](https://github.com/AiPersonacademy/apa-agent-harness)
+  **≠** AntonioCoppe/jev-harness; unpublished npm;
+  0.85 still soft;
+  [apa-persona-engine](https://github.com/AiPersonacademy/apa-persona-engine)
+  SM then leftover LLM; <250 ms ≠ microsecond;
+  [grok-bot-jev](https://github.com/Bodila51/grok-bot-jev)
+  skill honor; A/B proxies ≠ tokens; 13.0× is a
+  top-five cap);
+  **Human every action**
+  ([Essentiel-Jev](https://github.com/JacquesGariepy/Essentiel-Jev)
+  never authority; 0.75 provisional; license null);
+  **Atom then sense**
+  ([enzo-mcp](https://github.com/mahawi1992/enzo-mcp)
+  independently falsifiable claims; UNKNOWN useful;
+  **≠** jev-sift);
+  **File by Choice**
+  ([pigeonhole](https://github.com/noripto/pigeonhole)
+  OTHER skip; 0.6 still soft; **≠** jev-semgrep;
+  client-side playground
+  [jev-agent-decision-playground](https://huggingface.co/spaces/bojansandhaus/jev-agent-decision-playground)
+  static no-network; **≠** classifier.dev; sibling
+  jev-decisions pointer only);
+  **Question preflight**
+  ([jev-reliability](https://github.com/vcjdeboer/jev-reliability)
+  Nothing about accuracy; noul-gate 0.0%/12.5%/3.6%
+  *theirs*; **≠** dinostomp;
+  [clduab11/jev-test](https://github.com/clduab11/jev-test)
+  bars ≠ scores; **≠** realZachi/jevtest;
+  [jev-rag-benchmark](https://github.com/erendikmenn/jev-rag-benchmark)
+  “Jev wins” is not an assumption; **≠** Jev-RAG;
+  [dairui1/jev-lab](https://github.com/dairui1/jev-lab)
+  urgent 91% vs Haiku 79% *theirs* synthetic; **≠**
+  BrendanH18/jev-lab; do not re-card jev-desktop);
+  **Inbox read-only vs write**
+  ([jevmail](https://github.com/fazlerocks/jevmail)
+  `gmail.readonly` ~3¢/1k *theirs*; **3★**;
+  [mailjay](https://github.com/secondfret/mailjay)
+  archive/trash after review; license null; **≠**
+  mailordinal). Soft Noul ≠ hard safety. 0★ HIGHs
+  still get real cards. Do not copy unpublished npm
+  `@aipersona/…` / `uv` / `baml toolchain` / Gateway
+  keys / `TYPESAFE_API_KEY`. No wrapper. No invented
+  metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

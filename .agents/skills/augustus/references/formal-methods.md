@@ -636,6 +636,19 @@ pinned Agent model + conversation prompt-cache
 stanley 0.6/0.55/0.15, findme beam scores, jevsubrouter
 balanced-on-low-conf. Empty findings as approval, or auto-promoting an agent-written workflow, is the same theater.
 
+1144 envelopes (`notes.md` §89), still outside the extras
+template: BAML exhaustive `match` / `"something else"`
+(feelings `.feels()`); grok-bot-jev kill switch + skill
+honor; Essentiel-Jev never authority + read-back;
+enzo-mcp UNKNOWN + `allow_external_jev`; pigeonhole OTHER skip
++ missing-folder off; static no-network playground;
+`gmail.readonly` (jevmail); Trash not delete (mailjay).
+Soft Noul ≠ hard safety: `.feels()` 0.5, apa 0.85,
+Essentiel 0.75, pigeonhole 0.6, jev-lab 0.65/0.70.
+Hard-gating a default 0.5 bool, quoting “mathematically
+fulfilled,” or pasting jev-test bars as results is the
+same theater.
+
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a
 hybrid "verified by Noul" API.

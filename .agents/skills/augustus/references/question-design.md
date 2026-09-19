@@ -146,6 +146,18 @@ request, and treat a stale pin as a prior, never a setting.
 | Empty stanley findings as approval / auto-promote | Coverage ledger; human actuator | `notChecked`. 0.6/0.55/0.15 still soft. `notes.md` §88 |
 | findme beam as identity / collapse into JevFind | Ranking ≠ proof; species | NL memory → listed names. **≠** path-then-window. `notes.md` §88 |
 | Swap conversation model / quote jevsubrouter $ | Cache envelope; unmeasured | Price workers. Fail-open. Counts ≠ dollars. `notes.md` §88 |
+| Treat `.feels()` 0.5 as a bool if / new language | Noul-0.5-never-rounded; namesake | Keep p with `.how()`. **≠** hunch **≠** Probably. `notes.md` §89 |
+| Collapse apa-harness into jev-harness / copy `@aipersona` | Namesake; unpublished npm | “Mathematically fulfilled” overclaim. 0.85 still soft. `notes.md` §89 |
+| Quote grok-bot-jev 13.0× as tokens / skill forces the bot | Proxies; honor | Not a token-savings claim. Top-five cap. `notes.md` §89 |
+| Let Essentiel Jev send / skip human | Never authority | 0.75 provisional. **≠** jevmail **≠** mailjay. `notes.md` §89 |
+| Collapse enzo-mcp into jev-sift / skip UNKNOWN | Atomize ≠ filter | Deterministic evidence first. Prior sensor never fed back. `notes.md` §89 |
+| Treat pigeonhole OTHER as a move / 0.6 as Harbor τ | Named escape; still soft | Skip. autoOnSave off. **≠** jev-semgrep. `notes.md` §89 |
+| Treat HF playground as live Jev / classifier.dev | Static sandbox | No network. Sibling jev-decisions pointer only. `notes.md` §89 |
+| Quote jev-reliability as accuracy | Consistency ≠ correctness | Nothing about accuracy. noul-gate 0.0%/12.5%/3.6% *theirs*. **≠** dinostomp. `notes.md` §89 |
+| Collapse clduab11/jev-test into jevtest / paste bars | Namesake; bars ≠ scores | “Nothing runs yet.” **≠** realZachi/jevtest. `notes.md` §89 |
+| Paste “Jev wins” from jev-rag-benchmark | Assumption forbidden | Plumbing. `max_budget_usd` 0. **≠** Jev-RAG. `notes.md` §89 |
+| Collapse dairui1/jev-lab into BrendanH18 / re-card jev-desktop | Namesake; already MED | 91% vs 79% *theirs* synthetic. Fan-out vs `CLICK:3`. `notes.md` §89 |
+| Treat jevmail as mailordinal / mailjay as read-only | Inbox species | `gmail.readonly` vs archive/trash after review. `notes.md` §89 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

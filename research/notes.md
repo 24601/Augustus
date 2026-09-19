@@ -13712,3 +13712,488 @@ items 37–40; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
+
+## 89. Hourly 1144 HIGH (2026-09-19 ~11:49 Boise / ~17:49 UTC)
+
+Docs-only on PR #3 (`cursor/augustus-1047-watch-e5c9`).
+**Do not re-fold 1047 / §87 / §88.** Skip Archer.
+Quote READMEs. Mark *theirs*. No invented metrics.
+Hunches labeled. No wrappers, npm / `npx` / `uv` /
+`cargo` / `.env` / `TYPESAFE_API_KEY` / plugin
+marketplace as recipes.
+
+Lane is Augustus: **mental models / architecture /
+Harbor-jevals**. Backend-agnostic
+categorization/scoring/decision class. Soft Noul ≠
+hard safety. 0★ HIGHs still get real cards.
+
+### How-to-apply (seven clusters)
+
+1. **Typed if** — the AI if-statement is a real typed
+   method, not a new language. Keep p; exhaustive
+   `match`; class fan-out one request. Default 0.5
+   bool is Noul-0.5-never-rounded. **≠** hunch **≠**
+   Probably.
+2. **Shadow then honor** — confidence-gated policy +
+   shadow mode, then a skill that *honors* the
+   action. A pasted skill cannot force a bot that
+   ignores it. Trajectory “mathematically fulfilled”
+   without numbers is overclaim. **≠**
+   AntonioCoppe/jev-harness. Unpublished npm is not
+   an install recipe.
+3. **Human every action** — Jev judges; LLM drafts;
+   the person approves every write. Never authority.
+   Provisional 0.75 is not calibrated.
+4. **Atom then sense** — decompose into independently
+   falsifiable claims; deterministic evidence
+   outranks Jev; UNKNOWN is useful; prior sensor
+   output never fed back. **≠** jev-sift.
+5. **File by Choice** — classify then move by
+   attribute. Named `OTHER` skip. Default 0.6 still
+   soft. **≠** jev-semgrep.
+6. **Question preflight** — measure
+   repeatability/framing/answerability *before* an
+   `if`. Nothing about accuracy. Preregister bars
+   before runs. “Jev wins” is not an assumption.
+7. **Inbox read-only vs write** — tray/urgency as
+   ranking (gmail.readonly) vs proposed archive/trash
+   with human review. **≠** mailordinal.
+
+### Cards
+
+1. **[`BoundaryML/feelings`](https://github.com/BoundaryML/feelings)**
+   (BAML; GitHub license **null** / no LICENSE file;
+   **0★**; created 2026-09-19T16:15Z; HEAD `368ded8`;
+   README SHA `a03170d1`). `.feels()` on anything —
+   the AI if-statement as a real typed method. Jev +
+   BAML. README *theirs*: “Jev makes the decisions, an
+   LLM does the writing, and BAML ties it together.”
+   Reply to southpolesteve Probably: you do not need
+   a new language; `feels` is ~20 lines of BAML with
+   a blanket impl.
+
+   Methods:
+
+   - `.feels(quality)` → `bool` (Jev p **thresholded
+     at 0.5**).
+   - `.how(quality)` → keep the probability; pick τ
+     in code (`else if`).
+   - `.matches<T>()` / `.judge<T>(…)` → Choice; BAML
+     `match` is exhaustive (forgotten branch is a
+     compile error). Named escape via `"something
+     else"` / `Team | "hold"`.
+   - `.fill<T>()` → class fan-out, **one request**.
+   - `.ask()` → LLM writes.
+
+   **Mental model:** decision-as-typed-control-flow.
+   Language primitive cousin of hunch (`chance` /
+   `pick` / `rate`) and probably-lang (loop
+   conditions are feelings) — this is **BAML
+   methods**, not a new language and not Ruby.
+   Exhaustive match is the exact envelope; the Noul
+   is the sensor. Soft Noul ≠ hard safety: default
+   `.feels()` 0.5 is **Noul-0.5-never-rounded**
+   anti-pattern — use `.how()` and cost-sensitive τ.
+   `while … feels` still needs a bound in code.
+
+   **Name lock:** always write
+   **BoundaryML/feelings**. **≠**
+   [carldaws/hunch](https://github.com/carldaws/hunch)
+   **≠** probably-lang. Do not invent a LICENSE. Do
+   not copy `baml toolchain` / `.env`.
+
+2. **[`AiPersonacademy/apa-agent-harness`](https://github.com/AiPersonacademy/apa-agent-harness)**
+   (TypeScript MIT; **0★**; created
+   2026-09-19T17:41Z; HEAD `49a2b9b`; README SHA
+   `6213f8c2`). Confidence-gated policy routing,
+   shadow mode, trajectory verification, offline
+   evals. Maps typed verdicts to `execute` /
+   `suppress` / `notify` / `escalate`. Default
+   `confidenceThreshold: 0.85` still soft.
+
+   README *theirs* claims trajectory verification
+   asserts goals are “mathematically and semantically
+   fulfilled.” **No numbers this pass** — overclaim
+   until a labeled suite. README advertises npm
+   `@aipersona/agent-harness`; **unpublished this
+   pass** — do not copy an install.
+
+   **Mental model:** mixed-architecture harness
+   (policy + gate + shadow). Same hole as
+   AntonioCoppe/jev-harness (shadow then honor). Soft
+   Noul ≠ hard safety: 0.85 is not a merge seal;
+   “mathematically fulfilled” is not a proof.
+
+   **Name lock:** **≠**
+   [AntonioCoppe/jev-harness](https://github.com/AntonioCoppe/jev-harness).
+   Do not copy npm / `TYPESAFE_API_KEY`.
+
+3. **[`AiPersonacademy/apa-persona-engine`](https://github.com/AiPersonacademy/apa-persona-engine)**
+   (TypeScript MIT; **0★**; created
+   2026-09-19T17:42Z; HEAD `45db67e`; README SHA
+   `266beb8c`). Persona runtime / state-machine:
+   Jev evaluates discrete transitions (`Choice` /
+   `Score`) then LLM writes copy. Claimed **< 250 ms**
+   for the control plane. Marketing also says
+   “microsecond deterministic state routing” —
+   **contradiction**; quote the 250 ms number, not
+   microseconds. Transition `minConfidence` 0.75 /
+   0.80 / 0.85 still soft. Same unpublished npm
+   (`@aipersona/persona-engine`) — do not copy.
+
+   **Mental model:** effect-oriented state-machine
+   (mappings §3 / §19). Code owns the graph; Jev is
+   the transition sensor; generation is leftover.
+   Soft Noul ≠ hard safety: a high-p transition is
+   not a closed sale.
+
+   **Name lock:** APA pair **≠** jev-harness. Do not
+   copy npm.
+
+4. **[`Bodila51/grok-bot-jev`](https://github.com/Bodila51/grok-bot-jev)**
+   (Python MIT; **1★**; created 2026-09-19T17:15Z;
+   HEAD `e82c03e`; README SHA `a03a16c9`). Cheap
+   decision layer in front of Grok Bot research /
+   browser / retry / subagent. Actions:
+   `reuse_cache` / `stop_retry` / `run_deterministic`
+   / `chat_only` / `research_capped` / `allow_subagent`
+   / `ask_human`. `shadow` then `active`. Kill switch:
+   `enabled: false` or `bypass jev`. Never sends /
+   publishes / pays / deletes / changes permissions
+   without a human path.
+
+   README *theirs*: “The router is not a hidden
+   interceptor and cannot force a bot that ignores
+   the skill to stop.” A/B *theirs* (one local run,
+   proxies not tokens): browser opens 1→0; retries
+   3→0; skills 6→3; pages 10→4. Usage meter 37% →
+   38% / 39%. “Exact per-task Grok tokens were
+   unavailable, so this is not a token-savings
+   claim.” Separate 24-candidate timing: uncapped
+   53.803 s / 14 pages vs top-five 4.125 s / 5 pages
+   — reported **13.0×** wall-time; fewer hits **by
+   design** because of the cap. Two Jev calls;
+   estimated $0.000405 Jev. “These are one local
+   run's proxy measurements, not a benchmark or
+   guarantee.”
+
+   **Mental model:** VOI + skill honor. Shadow then
+   honor. Soft Noul ≠ hard safety: kill-switch /
+   bypass stay in code; A/B proxies ≠ dollars.
+
+   **Name lock:** **≠** jevsubrouter (conversation
+   cache) **≠** jev-gateway. Do not copy skill paste
+   / `TYPESAFE_API_KEY`.
+
+5. **[`JacquesGariepy/Essentiel-Jev`](https://github.com/JacquesGariepy/Essentiel-Jev)**
+   (HTML/Node; GitHub license **null** / no LICENSE
+   file; **0★**; created 2026-09-19T16:54Z; HEAD
+   `16b8e6f`; README SHA `48ac00e1`; release 0.3.2).
+   Email / calendar / tasks / documents. Jev typed
+   judgments; LLMs draft; **you approve every
+   action**; server writes then reads back. README
+   *theirs*: “Never authority. A high probability is
+   never a mandate to act. Jev cannot send, create or
+   approve anything.” Thresholds (0.75 by default)
+   “are provisional and not calibrated on your data.”
+   “This build's tests use synthetic providers. No
+   live TypeSafe inference and no real-message
+   drafting were performed.” Local validator refuses
+   malformed contracts (count/type/sum-to-1 / Choice
+   = argmax / Score = weighted mean). Consent per
+   transmission. Loopback only.
+
+   **Mental model:** Leveson. Jev SENSOR; human is
+   the actuator; provider APIs are the plant;
+   read-back is the probe. Soft Noul ≠ hard safety:
+   0.75 is not calibrated; synthetic tests ≠ live
+   mail.
+
+   **Name lock:** **≠** jevmail **≠** mailjay **≠**
+   mailordinal. Do not invent a LICENSE. Do not copy
+   `.env` / OAuth.
+
+6. **[`mahawi1992/enzo-mcp`](https://github.com/mahawi1992/enzo-mcp)**
+   (Python MIT; **0★**; created 2026-09-19T16:45Z;
+   HEAD `dcd9e20`; README SHA `9a213c9e`). Atomic
+   reasoning MCP: large question → independently
+   falsifiable claims. Three tools: `enzo_atomize` /
+   `enzo_observe` / `enzo_state`. Atomicity:
+   `ATOMIC` / `DECOMPOSE` / `NEEDS_REFINEMENT`.
+   Observation: `VERIFIED` / `CONTRADICTED` /
+   `UNKNOWN` / `INSUFFICIENT_EVIDENCE`. README
+   *theirs*: “Enzo is not another autonomous-agent
+   framework.” “UNKNOWN is a useful result: it tells
+   the LLM what must be learned next.” “Deterministic
+   evidence remains authoritative.” “Prior sensor
+   output is never sent back into a later Jev
+   request, preventing semantic feedback loops.”
+   Consent: `allow_external_jev=true` per send.
+   BOOLEAN→Noul, CHOICE→Choice, SCORE→Score. **55
+   tests** *theirs* (contracts, atomicity, consent,
+   replay). Jev optional.
+
+   **Mental model:** claim/evidence Stop + classify-
+   first cousin that **atomizes** rather than
+   relevance-filters. Deterministic instruments
+   first. Soft Noul ≠ hard safety: Jev never
+   overrides a schema/AST/test.
+
+   **Name lock:** **≠**
+   [kbhuw/jev-sift](https://github.com/kbhuw/jev-sift)
+   (classify-first relevance). Do not copy `uv` /
+   `mcp_servers`.
+
+7. **[`noripto/pigeonhole`](https://github.com/noripto/pigeonhole)**
+   (TypeScript MIT; **0★**; created
+   2026-09-19T17:27Z; HEAD `2325142`; README SHA
+   `43675c4e`; README 88 chars Japanese). Obsidian
+   plugin: Jev Choice over user attributes → move
+   note to the matching folder. `classify.ts` named
+   escape `OTHER = "__other__"` → **skip**, not
+   move. Default `confidenceThreshold` **0.6** still
+   soft. `autoOnSave` **off**; `createMissingFolder`
+   **off**. Same-name collision aborts. Settings UI
+   *theirs*: API key “data.json に平文で保存されます”
+   (plaintext in `data.json`).
+
+   **Mental model:** decision-as-filing. Choice over
+   a closed attribute set; code owns the rename.
+   Knowledge-work, not only SWE. Soft Noul ≠ hard
+   safety: 0.6 is not a vault proof; OTHER skip is
+   the exact envelope.
+
+   **Name lock:** **≠** jev-semgrep (line
+   propositions) **≠** jev-downloads-sorter. Do not
+   copy plugin marketplace / API keys.
+
+8. **[`bojansandhaus/jev-agent-decision-playground`](https://huggingface.co/spaces/bojansandhaus/jev-agent-decision-playground)**
+   (HF Space; MIT; **0 likes**; sdk **static**;
+   created 2026-09-19T16:03Z; sha `1fab381e`).
+   Client-side lab: act / ask / verify. README
+   *theirs*: “without making network requests or
+   performing external actions.” Sibling
+   [bojansandhaus/jev-decisions](https://github.com/bojansandhaus/jev-decisions)
+   (MIT; **2★** this pass; already in corpus as
+   toolbelt — **pointer only, do not re-card**).
+
+   **Mental model:** teaching sandbox for typed
+   decisions. Not a live Jev call. Soft Noul ≠ hard
+   safety: a static demo is not a calibrated gate.
+
+   **Name lock:** **≠** classifier.dev (live HTTP
+   product). Do not copy Space embed as a backend.
+
+9. **[`vcjdeboer/jev-reliability`](https://github.com/vcjdeboer/jev-reliability)**
+   (TypeScript; GitHub SPDX **NOASSERTION** /
+   LICENSE.md MIT + CC BY 4.0; **0★**; created
+   2026-09-19T17:29Z; HEAD `f4e5f2c`; README SHA
+   `eaad87f7`). Swamp extension: is this question
+   **safe to build on**? Repeatability, framing,
+   resolution, answerability. README *theirs*:
+   “Nothing about accuracy. It measures whether a
+   question is *consistent*, never whether it is
+   *right*.” Preregistered in
+   `docs/preregistration.md`. Real studies vs
+   `jev-1.13.0`:
+
+   | study | calls | what *theirs* |
+   | `tier0` | 100 | not deterministic — only off-saturation |
+   | `tier12` | 480 | paraphrase ≫ perturbation ≫ repeat |
+   | `answerability` | 80 | separate presence question catches what confidence cannot |
+   | `noul` | 112 | same machinery on a gate |
+
+   `studies/example-report.txt` *theirs*
+   (**noul-gate**, 8 items × 7 framings × 2 = 112
+   calls): same-request **0.0%** / reworded
+   **12.5%** / overall **3.6%**. Noul-gate paraphrase
+   moves p **5.1×** a null change. **tier12-framing-fixed**:
+   decision flip reworded **0.0%**;
+   paraphrase still **1.7×** null (continuous p can
+   move when the *decision* does not). Confidence
+   straddling a cut-off on **identical** input flips
+   run to run. Byte-identical “perturbations”
+   measured nothing (deviation **D9**). Gibbs
+   sampler withholds posterior if R̂ / ESS fail.
+
+   **Mental model:** question-design preflight +
+   paraphrase brittleness as a **measurement**, not
+   a vibe. Harbor honesty: consistency ≠
+   correctness. Soft Noul ≠ hard safety: a 0.0%
+   same-request flip is not a proof the gate is
+   right.
+
+   **Name lock:** **≠** dinostomp (instrument
+   hygiene) **≠** jev-baselines-eval (AMBIGUOUS
+   cascade). Do not copy `swamp` CLI.
+
+10. **[`clduab11/jev-test`](https://github.com/clduab11/jev-test)**
+    (Python MIT; **0★**; created 2026-09-19T17:00Z;
+    HEAD `735bdd6`; README SHA `59115535`).
+    Preregistered hallu bench: Gemma 4 E2B writes;
+    Jev decides; SearXNG retrieves; MemPalace
+    verbatim. Seven arms (A none / B naive / C-laya
+    / C-classical / C-self / D Jev / E larger
+    Gemma). README *theirs*: “Nothing runs yet.”
+    Status table: “Results | none yet.” Thresholds
+    committed first. Bars for **D** on web
+    questions *theirs* (not results): attempt ≥50%;
+    wrong among attempted ≤10%; +0.15 vs B; kept-
+    sentence support ≥90%. HEAD added HTTP judge +
+    smoke (cache/retry) — **not a quality run**. Jev
+    never grades its own work. Frontier grader is
+    test equipment.
+
+    **Mental model:** Harbor/jevals practice.
+    Writing was never the problem; decisions were.
+    Soft Noul ≠ hard safety: bars are commitments,
+    not scores.
+
+    **Name lock:** **≠**
+    [realZachi/jevtest](https://github.com/realZachi/jevtest)
+    (decision-as-assert). Do not paste bars as
+    results. Do not copy `uv`.
+
+11. **[`erendikmenn/jev-rag-benchmark`](https://github.com/erendikmenn/jev-rag-benchmark)**
+    (Python MIT; **0★**; created 2026-09-19T17:00Z;
+    HEAD `2ff8df7`; README SHA `ea54bbe0`).
+    LlamaIndex-shaped RAG: quality / latency / cost.
+    README *theirs*: ““Jev wins” is not an
+    assumption.” OpenRouter Decisions, **not**
+    TypeSafe direct. Default `max_budget_usd` **0**
+    blocks paid calls. First smoke is plumbing.
+    SciFact retrieval vs XQuAD EN/TR EM/F1.
+    Languages reported separately. No quality
+    headline this pass.
+
+    **Mental model:** measured RAG rerank (cousin of
+    Max-sm-yc/Jev-RAG). Harbor honesty: fixture
+    `run_kind` must not be cited as a bench. Soft
+    Noul ≠ hard safety.
+
+    **Name lock:** **≠**
+    [Max-sm-yc/Jev-RAG](https://github.com/Max-sm-yc/Jev-RAG).
+    Do not copy `uv` / OpenRouter keys.
+
+12. **[`dairui1/jev-lab`](https://github.com/dairui1/jev-lab)**
+    (HTML/Python; GitHub license **null** / no
+    LICENSE file — README claims MIT; **0★**;
+    created 2026-09-19T17:36Z; HEAD `7d41ce0`;
+    README SHA `4c006b68`). Two studies:
+
+    - **Triage vs LLM** — 120 synthetic tickets
+      *theirs* (Sonnet-generated, Opus-labeled):
+      urgent acc Jev **91%** vs Haiku 4.5 **79%**;
+      frustration **79%** vs **65%**; department
+      **tie**; API latency ~**431** vs ~**1536** ms;
+      p(urgent) buckets **0 / 21 / 41 / 75 / 100%**.
+      Route 0.35–0.65 to `human_review`.
+    - **CU source study** — ultrafast speculative
+      fan-out (`operation` + per-op `*_target`) vs
+      Cline flattened `CLICK:3`. Shared DNA: Jev
+      chooses among observed IDs; small LLM only
+      for `TYPE_TEXT`; DOM not screenshots; `DONE`
+      never trusted in **jev-desktop** (already
+      MED — **pointer, do not re-card as a new
+      species**). jev-desktop hard gates ≥ **0.65**
+      conf and ≥ **0.70** p still soft.
+
+    **Mental model:** Harbor-shaped triage +
+    observe-score-act fork (what one request asks).
+    Soft Noul ≠ hard safety: 0.65/0.70 still soft;
+    synthetic gold; README MIT vs SPDX null.
+
+    **Name lock:** always write **dairui1/jev-lab**.
+    **≠** BrendanH18/jev-lab (workbench). Do not
+    invent a LICENSE. Do not re-card jev-desktop /
+    jev-ultrafast.
+
+13. **[`fazlerocks/jevmail`](https://github.com/fazlerocks/jevmail)**
+    (TypeScript MIT; **3★**; created
+    2026-09-19T17:07Z; HEAD `f6f20af`; README SHA
+    `9b1ea8b0`). Gmail triage via Jev / Vercel AI
+    Gateway. Five trays + 1–5 urgency. README
+    *theirs*: “1,000 emails sort in about a minute
+    for around 3 cents.” Scope **`gmail.readonly`**
+    — cannot mark read, label, archive, spam, or
+    send. Independent; not affiliated with TypeSafe
+    / Vercel / Google. Three questions per message
+    (tray / urgency / human-wrote). Corrections
+    stored next to the original answer.
+
+    **Mental model:** decide→policy leftover without
+    a write actuator. Ranking fail-open. Soft Noul
+    ≠ hard safety: ~3¢ is *theirs* economics, not a
+    quality score.
+
+    **Name lock:** **≠** mailordinal **≠** mailjay
+    **≠** Essentiel-Jev. Do not copy Gateway keys.
+
+14. **[`secondfret/mailjay`](https://github.com/secondfret/mailjay)**
+    (Swift; GitHub license **null** / no LICENSE
+    file; **0★**; created 2026-09-19T17:39Z; HEAD
+    `346725c`; README SHA `fd52c7b9`). macOS inbox
+    triage (Gmail API + TypeSafe Jev). Batch default
+    300. README *theirs*: “presents every proposed
+    action for review.” “It never permanently
+    deletes mail: delete moves messages to Gmail
+    Trash. Archive removes Inbox (and may apply a
+    `Jev/…` label).” **Not read-only** — writes
+    after review. Confidence threshold in Settings.
+
+    **Mental model:** human-every-action inbox
+    (cousin of Essentiel; contrast jevmail
+    readonly). Soft Noul ≠ hard safety: a proposed
+    archive is not a proof the mail was noise.
+
+    **Name lock:** **≠** jevmail **≠** mailordinal
+    **≠** Essentiel-Jev. Do not invent a LICENSE.
+
+### Formal compose / anti-patterns
+
+Exact envelopes this hour: BAML exhaustive `match` /
+named `"something else"` (feelings); kill switch +
+skill honor (grok-bot-jev); human approve +
+read-back (Essentiel); deterministic evidence +
+`allow_external_jev` (enzo-mcp); `OTHER` skip +
+missing-folder off (pigeonhole); static no-network
+(playground); swamp vault rather than shell history
+(reliability); frozen search snapshots (jev-test);
+`max_budget_usd` 0 (rag-benchmark); `gmail.readonly`
+(jevmail); Trash not delete (mailjay). Soft Noul ≠
+hard safety: `.feels()` 0.5, apa 0.85, Essentiel
+0.75, pigeonhole 0.6, jev-lab 0.65/0.70 are
+**sensors**. Hard-gating a default 0.5 bool, quoting
+apa “mathematically fulfilled,” treating A/B
+proxies as token savings, letting Jev send mail,
+or pasting jev-test bars as results is **soundness
+theater**.
+
+### Not
+
+Not a TypeSafe how-to. Not a Jev skill dump. Not
+wrappers. Do not copy npm `@aipersona/…` (unpublished)
+/ `uv` / `baml toolchain` / `swamp` / Gateway keys /
+OAuth / `TYPESAFE_API_KEY`. Do not re-fold 1047. Do
+not re-card jev-decisions / jev-desktop. Do not
+endorse unpublished npm. rh-guard still owns the
+gate cousin (Jev-as-send / empty-OTHER-as-move /
+bars-as-results as a CI gate).
+
+### Curated status
+
+1144 HIGH **folded** (14). 1047 / §87 / §88 **not
+re-carded**. Archer still **NOT landed**. Census
+not re-derived.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`judgment-class.md`; `validation.md`;
+`applied-mappings.md`; `mappings.md`;
+`toolbox-mapping.md`; `composition-algebra.md`
+items 41–48; `question-design.md`;
+`methods-catalog.md`; `formal-methods.md`;
+`agent-self-assessment.md`. Hunches labeled.
+No wrapper.
