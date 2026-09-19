@@ -623,6 +623,16 @@ priority. Demo labelled `demo`; live Jev optional and
 server-side. Cousin jav-email-cascade. Independent, not
 affiliated with TypeSafe. Do not copy `npm run dev`
 (`notes.md` §72).
+**Public classification API (Empirical as README +
+eval/README; life/business; 2026-09-19 ~08:37):**
+[classifier-dev](https://github.com/mrmps/classifier-dev)
+(MIT; **185★**; https://classifier.dev) — the
+categorization *product* those inbox apps would call.
+Caller labels in, label + calibrated confidence out;
+batch `{id, text}[]` ~1000. Jev primary (`src/jev.ts`);
+LLM fallback only. Distinct from ask-jev-ai's
+six-question wall. Do not copy wrangler / `npm i -g`
+(`notes.md` §73).
 **Test**: moderation
 cost/coverage + false-hold vs false-publish; ranking recall *separate*
 from nDCG; select misroute rate; required-evidence recall vs Top-K.
@@ -1085,6 +1095,13 @@ fixtures never auto.
 signals → 100-point policy → ranked queue. Humans own
 the review lane. Life/business. Independent of TypeSafe
 (`notes.md` §72).
+**Public decide-backend cousin (Empirical as README;
+2026-09-19 ~08:37):**
+[classifier-dev](https://github.com/mrmps/classifier-dev)
+— spam/inbox/feedback over HTTP; leftover LLM is
+*fallback when Jev is down*, not the product. Policy
+(hold / route / act) still lives in the caller.
+`notes.md` §73.
 
 ## 9. Closed-vote computer-use
 

@@ -274,6 +274,10 @@ not a global virtue:
 | Collapse conflict and ignorance into one Noul | **Fail closed** to a named Choice escape (`jev-typed-evaluation-collapse`) | Noul 0.50–0.57 vs 0.46–0.48 *theirs*. Binary Choice without escape is lexically biased |
 | Treat a security-scan / prepared review / guardrail demo as policy | **Fail closed** (they are sensors) | rh-guard owns reward-hack. Reviews never stop commands. TeoMastro numbers unpublished this pass |
 | Drop a meaning-grep line | **Fail open** as ranking (`jev-semgrep`); keyword still wins exact strings | AND/OR/NOT over line Nouls. Japanese meanings noisier near threshold |
+| Treat classifier.dev as a chatbot / agent hook | **Fail closed** (it is a classification API) (`classifier-dev`) | Public contract is label + calibrated confidence; batch `{id,text}[]` ~1000. Distinct from ask-jev-ai's six-question wall |
+| Escalate every multi-label answer on `tier: smart` | **Fail closed** (do not) | Re-judging made it worse (23 s). Smart re-asks **single-label <0.7** only. 0.7 is *theirs*, not a class constant |
+| Quote classifier.dev numbers without `eval/README` | **Fail closed** (do not) | `/benchmark` is tracked `vs-jev.json`, not transcription. n=7 train-on-test; ~0.03 is a coin flip |
+| Serve a silent fallback as the advertised model | **Fail closed** (mark `FALLBACK`) | granite-4.0-h-micro F1 **0.546** vs advertised ~**0.800** *theirs* for weeks. rh-guard owns the eval-integrity gate; this is the lived cousin |
 
 Worked placements (2026-09-18 topic:jev hour + prior archive):
 
@@ -719,6 +723,10 @@ decision-design card. Do not clone APIs from READMEs.
 | Multilingual Laya class expansion | Choice/Noul/Score, mmBERT-base | Route by script before the forward pass; refit T | laya-multilingual (Apache-2.0; 322M; MASSIVE 0.366/0.387 vs English 0.227/0.733 *theirs*; ships uncalibrated) |
 | Schema-conditioned encoder scorer | scalar logit per (state, candidate); code softmaxes | Peaked p = ranking | mobarmg/jev-schema-scorer-deberta-v3-large (Hub MIT; GitHub 404; v2 Choice 0.841 *theirs*) |
 | Host-adapter surface delta | Choice next-tool + done-Noul | Same binary; more hosts | jev-routing now lists Cursor Agent CLI / Devin CLI (still not MCP; already §44) |
+| Productized System One HTTP | caller labels → label + calibrated p; batch `{id,text}[]` | LLM chains are fallback only; policy stays in code | classifier-dev (MIT; **185★**; https://classifier.dev). 400 headlines **650 ms** *theirs*; packing 100 = one-at-a-time. Distinct from ask-jev-ai wall |
+| Escalate-under-threshold (smart tier) | re-ask single-label p<0.7; mark `escalated` | Multi-label **ignores** tier (re-judge worse, 23 s) | classifier-dev. Emotion ≥0.9 → 82% / <0.5 → 29% *theirs*. gemini-3.8-flash 87.5→90.0 / 61.8→63.7; other flashes no better. Cousin jev-use |
+| Measurement-first public bench | vs_jev / single / escalate / multi-label | Site table = tracked JSON; read eval/README first | classifier-dev. Multi-label F1 **0.887** / **230 ms** vs cascade **0.799** / 1.5 s *theirs* (eval 232 ms). n=7 train-on-test; ~0.03 coin flip. Not a Harbor taskset |
+| Silent-fallback honesty | digest names the model that answered | `FALLBACK` marker; alerts on quiet chain | granite-4.0-h-micro F1 **0.546** vs advertised ~**0.800** *theirs*. rh-guard owns the gate; dinostomp owns instrument-not-score |
 
 On-device / Home Assistant / mobile are newly-feasible via the economics
 inversion, not proven ports of every app. Named placements this hour

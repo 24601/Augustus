@@ -597,6 +597,14 @@ first spinner is host cost (`notes.md` §72).
 [jev-runway](https://github.com/IPECTER/jev-runway) —
 LICENSE-only Codex-proxy slogan; not VOI until there is
 a keep-set (`notes.md` §72).
+**Escalate-under-threshold VOI (Empirical as README;
+life/business; 2026-09-19 ~08:37):**
+[classifier-dev](https://github.com/mrmps/classifier-dev)
+— pay a reasoning model **only** on single-label
+answers below 0.7. Multi-label re-judge made it worse
+(23 s) so the tier is ignored. gemini-3.8-flash helped;
+other flashes did not. 0.7 is *theirs*. Cousin jev-use
+(`notes.md` §73).
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs
@@ -775,6 +783,12 @@ format-mass (`notes.md` §72).
 **Peaked schema-scorer (Empirical as Hub eval):**
 Hub schema-scorer v2 Choice 0.841 *theirs*; treat p as
 ranking. GitHub 404 (`notes.md` §72).
+**Escalate-under-threshold criterion (Empirical as
+README; 2026-09-19 ~08:37):**
+[classifier-dev](https://github.com/mrmps/classifier-dev)
+— 0.7 is an operating point on *their* labels (emotion
+≥0.9 → 82% / <0.5 → 29% *theirs*). Multi-label does
+**not** share it. Do not copy 0.7. `notes.md` §73.
 
 ## 8. Control structure → sensor ≠ constraint (Leveson)
 
@@ -915,6 +929,15 @@ queue order. Humans own ambiguity (`notes.md` §72).
 — chat-completions path wearing Choice/Noul/Score
 vocabulary. Distinct from hermes-jev-router
 (`notes.md` §72).
+**Silent fallback is an unsafe control action
+(Empirical as eval/README; 2026-09-19 ~08:37):**
+[classifier-dev](https://github.com/mrmps/classifier-dev)
+— delisted primary left granite serving F1 **0.546**
+vs advertised ~**0.800** for weeks (*theirs*). Digest
+now marks `FALLBACK`. The constraint is honesty about
+which model answered, not a better softmax.
+**rh-guard owns the eval-integrity gate**; this is the
+lived product cousin (`notes.md` §73).
 
 ## 9. Search / control loops → one substituted classifier step
 

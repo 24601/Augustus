@@ -424,6 +424,14 @@ Architecture notes, not an npm / uvx / plugin catalog. `notes.md` §72. TypeSafe
 
 Census **not re-derived** this hour (last §69). Archer still NOT landed.
 
+### User-provided ~08:37 Boise 2026-09-19 / 14:37 UTC (classifier.dev — productized System One HTTP)
+
+Architecture notes, not an npm / wrangler catalog. `notes.md` §73. Skip Archer. No invented metrics. Hunches labeled. Mental models: selective classification, calibration, VOI, signal detection, anti-soundness-theater. Not SWE-only.
+
+- **mrmps/classifier-dev** — MIT; **185★**; https://classifier.dev. Public zero-shot HTTP; no key. Jev primary; LLM fallback only. Distinct from ask-jev-ai wall. 400 headlines **650 ms** *theirs*. Smart re-asks single-label <0.7; multi-label **ignores** (re-judge worse, 23 s). Emotion ≥0.9 → **82%** / <0.5 → **29%**; gemini-3.8-flash **87.5→90.0** / **61.8→63.7**. Multi-label F1 **0.887** / **230 ms** vs cascade **0.799** / 1.5 s (eval 232 ms; AG News **87.7%** vs 82.0%). `/benchmark` = tracked JSON; read eval/README (n=7 train-on-test). Silent **FALLBACK**: granite F1 **0.546** vs advertised ~**0.800**. rh-guard owns the gate. Life/business (spam/inbox/feedback). Do not copy wrangler.
+
+Census **not re-derived**. Archer still NOT landed.
+
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs
 Apalache; DST trio Antithesis / Resonate HQ / PufferLib):

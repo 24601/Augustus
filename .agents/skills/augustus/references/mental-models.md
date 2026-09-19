@@ -572,6 +572,9 @@ Use these as *existence proofs of a position*. Write your own card.
 | Language OOD / confident-wrong | will p drop when the checkpoint cannot read? | Route by script **before** the forward pass (**Empirical as MASSIVE**: laya-multilingual; Khmer 0.000@0.952 *theirs*) | English checkpoint mean conf never < 0.885; gating cannot catch; ships uncalibrated |
 | Schema-conditioned ranking | new labels without retraining | Scalar head per candidate; code softmaxes (**Empirical as Hub eval**: schema-scorer v2 Choice 0.841 *theirs*) | Peaked one-hot training ≠ calibration; GitHub 404 this pass |
 | Branding ≠ backend | is this actually System One? | Read the client, not the badge (**Contract**: hermes-plugin-jev is Agnes chat-completions) | Distinct from hermes-jev-router |
+| Productized System One HTTP | label + calibrated p as a public contract | Batch `{id,text}[]`; LLM fallback only (**Empirical as README**: classifier-dev **185★**; 400 headlines 650 ms *theirs*) | Distinct from ask-jev-ai wall; policy stays in code; not omni |
+| Escalate-under-threshold | pay S2 only where p might change the act | Smart re-asks single-label <0.7; multi-label ignores (**Empirical**: classifier-dev ≥0.9→82% / <0.5→29%; gemini 87.5→90.0 / 61.8→63.7 *theirs*) | 0.7 is *theirs*; re-judge that made it worse is not VOI |
+| Silent-fallback honesty | which model actually answered? | Named `FALLBACK` marker; alerts on a quiet chain (**Empirical**: granite F1 **0.546** vs advertised ~**0.800** *theirs*) | rh-guard owns the gate; dinostomp owns the instrument |
 
 Rejected in every domain: replacing the ledger with a vibe; replacing
 the interlock with confidence; replacing the essay with a Noul;

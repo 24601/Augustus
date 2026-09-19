@@ -82,6 +82,9 @@ request, and treat a stale pin as a prior, never a setting.
 | English checkpoint on Khmer/Hebrew | Confident-wrong OOD; p never drops | Route by **script before** the forward pass; do not wait for gating ([laya-multilingual](https://huggingface.co/convaiinnovations/laya-multilingual)). `notes.md` §72 |
 | Commit "0.4, so pass" | Middle band is not a verdict | Report `"review"`; Nouls decide, Choice headlines ([commitjev](https://github.com/yodablocks/commitjev)). `notes.md` §72 |
 | Plugin named Jev, key is Agnes | Branding ≠ backend | Read the client ([hermes-plugin-jev](https://github.com/Mrmimee/hermes-plugin-jev) is chat-completions). `notes.md` §72 |
+| Quoted F1 without eval/README | `/benchmark` is tracked JSON; n=7 train-on-test | Read eval/README first; ~0.03 is a coin flip ([classifier-dev](https://github.com/mrmps/classifier-dev)). `notes.md` §73 |
+| Docs say 0.800, serving 0.546 | Silent fallback is a lie about the instrument | Mark `FALLBACK`; rh-guard owns the gate ([classifier-dev](https://github.com/mrmps/classifier-dev) granite *theirs*). `notes.md` §73 |
+| Escalate every multi-label on smart | Re-judge made it worse (23 s) | Smart is single-label <0.7 only; 0.7 is *theirs*. `notes.md` §73 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

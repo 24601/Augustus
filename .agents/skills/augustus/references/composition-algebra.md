@@ -207,3 +207,7 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     generator is reduced to a next-label or next-word Choice. Softmax
     over declared labels is not a Noul. Numeric rules and writing stay
     exact. Full cards: `judgment-class.md`, `mixed-architecture.md`.
+13. **Productized System One HTTP** (classifier-dev): the public
+    contract is label + calibrated confidence, not a paragraph. Batch
+    state, escalate-under-threshold, and a `FALLBACK` marker are
+    *code*. Full cards: `mixed-architecture.md`, `validation.md`.

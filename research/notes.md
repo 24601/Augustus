@@ -9871,3 +9871,210 @@ assessment.md`; `question-design.md` (coverage ≠
 correctness; `__none__`; script-route before p);
 `composition-algebra.md`; `toolbox-mapping.md`;
 `methods-catalog.md`. Hunches labeled. No wrapper.
+
+## 73. User-provided signal — mrmps/classifier-dev (2026-09-19 ~08:37 Boise / ~14:37 UTC)
+
+Docs-only fold into PR #2. **Skip Archer.** Do **not**
+re-fold §50–§72 HIGH except sibling contrast
+(ask-jev-ai public wall; mailordinal / jav-email-cascade
+inbox; dinostomp / rh-guard eval integrity; jev-use
+escalate-under-threshold). Hunches labeled. No wrappers,
+install.sh, wrangler, secrets, DNS, or invented metrics.
+TypeSafe Jev remains the exemplar, not the monopoly —
+this signal is **mental models** (selective
+classification, calibration, VOI, signal detection,
+anti-soundness-theater) plus a **productized System One
+surface**, not a thin Jev skill and not SWE-only.
+
+Receipts: user-provided SIGNAL + eval/README (fetched
+~08:37 Boise) plus live GitHub README SHA
+`6ae8bda` and eval/README SHA `2009d1f` this pass.
+Repo.json: MIT, **185★**, 17 forks, 4 issues; created
+2026-08-13T03:19:57Z; pushed 2026-09-19T14:36:06Z;
+homepage https://classifier.dev. Topics: api,
+classification, cli, cloudflare-workers, llm, mcp,
+text-classification, zero-shot.
+
+Meaning: **(1)** public zero-shot classification over
+plain HTTP (no key) whose contract is **label +
+calibrated confidence**, with batch state `{id, text}[]`
+up to ~1000/request — a product, not an agent hook;
+**(2)** **escalate-under-threshold** (`tier: smart`
+re-asks single-label answers below 0.7; multi-label
+**ignores** tier because re-judge made it worse);
+**(3)** **measurement-first product** (`eval/` vs_jev /
+single / escalate / multi-label; site `/benchmark` from
+tracked `src/vs-jev.json`, not hand transcription; "read
+eval/README before quoting"); **(4)** **silent-fallback
+anti-pattern** (delisted primary left granite serving F1
+**0.546** vs advertised ~**0.800** for weeks; digest now
+marks `FALLBACK`) — eval-integrity / soundness-theater
+cousin; **rh-guard owns the gate card**; **(5)**
+life/business (spam / inbox / feedback), not agent-SWE.
+
+### HIGH
+
+1. **[`mrmps/classifier-dev`](https://github.com/mrmps/classifier-dev)**
+   ([classifier.dev](https://classifier.dev)) — NEW HIGH.
+   MIT; **185★**. Public zero-shot text classification
+   over plain HTTP: no API key, no signup. One Cloudflare
+   Worker + CLI (`classifier-dev` / `classify`) +
+   MCP/plugin pack. Primary backend is **TypeSafe Jev**
+   (`src/jev.ts`); LLM chains remain as **fallback** when
+   TypeSafe is unavailable (capped at twenty inputs
+   because they are one call per input). Canonical demo
+   shape (not a how-to):
+   `GET /spam,not+spam/Win+a+free+iPhone`.
+
+   **Productized System One surface (Empirical as
+   README).** Not another agent hook. The public contract
+   is a label and a calibrated confidence. Batch state is
+   `{id, text}[]`; documented envelope 64k tokens;
+   packing + 8-way concurrency. README *theirs*: **400**
+   news headlines classified in **650 ms** end to end;
+   packing **100** items scored the same as sending them
+   one at a time. That batch shape is only cheap because
+   the backend is a decision model, not a free generator.
+   Distinct from [ask-jev-ai](https://github.com/waynesutton/ask-jev-ai)
+   (public *wall*: six parallel questions on one
+   sentence; no-key UI says Jev offline). classifier.dev
+   is a **classification API** (caller-supplied labels,
+   batch, multi-label, dimensions). Not omni / not
+   multimodal / not an open-weight replica.
+
+   **Escalate-under-threshold (Empirical as README).**
+   On 400 six-way emotion items *theirs*: answers at
+   **≥0.9** confidence were right **82%**; answers
+   **below 0.5** were right **29%**. The previous model's
+   logprob "confidence" put **87%** of news items above
+   0.9 and was right on **68%** of those. So
+   `tier: "smart"` **re-asks the single-label answers
+   below 0.7** of a fast reasoning model and replaces
+   them, marked `escalated: true`. Nothing else changes.
+   Which model matters: on the items Jev is unsure about,
+   deepseek-v4-flash, qwen3.7-flash and mercury-2.5 were
+   **no better than Jev**; gemini-3.8-flash took news
+   **87.5% → 90.0%** and emotion **61.8% → 63.7%**, so
+   that is the chain. A frontier model (claude-fable-5.1)
+   gets **72.3% / 90.7%** at **~3×** the price; numbers
+   live on `/benchmark`. Cousin of jev-use
+   escalate-under-threshold (Vercel drops confidence →
+   margin fallback) — different product, same SDT move:
+   pay S2 only where p says it might change the act.
+
+   **Multi-label ignores the tier.** One yes/no per
+   label; labels at ≥0.7 returned most-likely-first with
+   the full score map. README *theirs*: F1 **0.887** on
+   the seven-case set against **0.799** for the
+   sweep-and-verify LLM cascade it replaced, in **230 ms**
+   instead of **1.5 s**. eval/README *theirs* (2026-09-17):
+   F1 **0.887** in **232 ms**; single-label public sets
+   **87.7%** AG News / **60.5%** emotion against
+   **82.0% / 57.0%** for ling-3.0-flash. Re-judging
+   multi-label candidates with the reasoning model
+   **made it worse** (and took **23 s**), so multi-label
+   **ignores** `tier`. **Hunch:** VOI is per-act; a
+   second call that cannot beat the first is not a
+   smarter product, it is a slower one.
+
+   **Measurement-first / Harbor-jevals practice
+   (Empirical as eval/README).** Four harnesses:
+   `vs_jev.py` (deployed worker vs Jev-direct on AG News
+   + emotion, 400 each, fast + smart); `single.py`
+   (accuracy / latency / cost / calibration table);
+   `escalate.py` (what replacing low-confidence answers
+   buys); multi-label `eval` (deployed) vs `bench`
+   (one model at a time, offline). `vs-jev` writes
+   `src/vs-jev.json` (tracked; imported by the site), so
+   the `/benchmark` table **is the measurement, not a
+   transcription**. Explicit rule: **read eval/README
+   before quoting a number.** Caveats *theirs* (worth
+   more than the third decimal): **tuned on the set it
+   reports** (chunk size + second-pass chosen on the
+   same seven cases; no held-out split); **one person**
+   wrote inputs and gold (no IAA; 50-tag case, two-label
+   disagreement moves F1 by ~**0.08**); **n=7**, no CIs,
+   invented taxonomies; **run-to-run variance** (same
+   config 0.73 and 0.60; fast tier silently falls back
+   on ~**one call in twelve**). What it *does* support:
+   gaps far larger than the noise floor (single call
+   0.686 vs sweep+second-pass 0.777 vs smart second pass
+   0.868; rejected per-label binary 0.612 / strict
+   pruning 0.556). Anything within ~0.03 is a coin flip.
+   This is jevals/Harbor *practice* (tracked JSON, named
+   weaknesses, do-not-quote-without-the-caveats), not a
+   Harbor taskset.
+
+   **Silent-fallback anti-pattern (Empirical as
+   eval/README + README).** `inclusionai/ling-2.6-flash`
+   was delisted upstream; every fast request 404'd and
+   was answered by the next model in the chain
+   (`ibm-granite/granite-4.0-h-micro`), which scored
+   F1 **0.546** against the **0.800** the docs
+   advertised. Nothing in the deployed numbers said so.
+   Measured 2026-09-17, 7 cases × 3 runs *theirs*:
+   ling-3.0-flash 0.799 / 1538 ms; mercury-2.5 0.797 /
+   945 ms; granite-4.0-h-micro **0.546 / 1575 ms**
+   (was serving). Digest now reports which model
+   actually answered, with a **`FALLBACK` marker**.
+   Alerts watch "Jev not answering (the fallback chain
+   serving quietly, which has happened)." This is
+   **eval integrity / soundness theater**: a silent
+   model swap is a lie about the instrument, not a
+   calibration footnote. **rh-guard owns the reward-hack
+   / eval-integrity gate card**; dinostomp owns
+   instrument-not-score. classifier.dev is the *lived
+   product cousin*, not a new hook. Do not copy alert
+   cron / REPORT_KEY.
+
+   **Life/business, not SWE-only.** README/CLI shape is
+   spam / not-spam, bug/feature/praise over feedback,
+   multi-dimension team/urgency/kind on a checkout
+   complaint. Cousin of mailordinal (decision-native
+   inbox; humans own ambiguity) and jav-email-cascade
+   (decide→policy→LLM leftover). classifier.dev is the
+   **categorization API** those products would call;
+   policy still lives in code. Agent-feedback protocol
+   (`feedback.now`) is operational (reports land when
+   the classifier is broken), **not** a hard agent gate.
+
+   **Not.** Not an open-weight replica. Not omni /
+   multimodal. Not a hard agent gate. Not a TypeSafe
+   how-to. Do not copy `npm i -g`, wrangler, secrets,
+   DNS, or curl as a recipe.
+
+### Skip / already folded / access notes
+
+- **ask-jev-ai** — already §58. Public no-key *wall*
+  (six parallel questions). Sibling contrast only.
+- **mailordinal / jav-email-cascade** — already §72 /
+  §60. Inbox policy cousins; this hour is the public
+  classification *API*.
+- **dinostomp / rh-guard** — already §62 / skill.
+  Silent-fallback is the lived anti-pattern; rh-guard
+  still owns the gate card.
+- **jev-use** — already §71. Escalate-under-threshold
+  cousin (Vercel drops confidence). Qualify products.
+- Archer Hume open decision-model: still Watch. **Skip
+  Archer** this fold.
+
+### Curated status
+
+Census **not re-derived**. Archer still **NOT landed**.
+
+### Cross-links
+
+Cards: `validation.md` (vs_jev tracked JSON; eval
+caveats; granite 0.546 vs advertised 0.800; AG News /
+emotion; smart-tier gemini deltas); `mixed-
+architecture.md` (fail table + gallery: productized
+HTTP; escalate-under-threshold; multi-label ignores
+tier; silent FALLBACK); `faq.md`; `mental-models.md`;
+`applied-mappings.md` §4 (public classification API) +
+§8 (inbox/cascade cousin); `mappings.md` §6 (second-call
+VOI), §7 (0.7 criterion; multi-label no-escalate), §8
+(silent fallback as unsafe control action);
+`judgment-class.md` (closed decision API as a public
+product); `question-design.md` (read eval/README; FALLBACK
+honesty); `toolbox-mapping.md`; `methods-catalog.md`;
+`composition-algebra.md`. Hunches labeled. No wrapper.

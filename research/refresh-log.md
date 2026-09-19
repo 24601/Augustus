@@ -1073,3 +1073,29 @@
 - notes.md §72; sources.json (435 sources, 432 unique URLs,
   retrieved 2026-09-19T13:52Z); findings.md batch #56.
   No wrapper.
+
+## 2026-09-19 ~14:37 UTC — user-provided classifier.dev (~08:37 Boise)
+- Docs-only fold into PR #2. `notes.md` §73. Skip Archer.
+  Hunches labeled. No wrapper. No invented metrics.
+  Not a thin Jev skill. Life/business (spam/inbox/feedback).
+- Receipts: user SIGNAL + live GitHub README `6ae8bda` /
+  eval/README `2009d1f` ~14:37 UTC. MIT; **185★**.
+- Folded: productized System One HTTP (label+calibrated p;
+  batch `{id,text}[]` ~1000; Jev primary / LLM fallback);
+  400 headlines 650 ms *theirs*; escalate-under-threshold
+  (smart single-label <0.7; multi-label ignores);
+  emotion ≥0.9→82% / <0.5→29%; gemini-3.8-flash
+  87.5→90.0 / 61.8→63.7; F1 0.887 / 230 ms vs cascade
+  0.799 / 1.5 s (eval 232 ms; AG News 87.7% vs 82.0%);
+  vs_jev tracked JSON; read eval/README (n=7 train-on-test);
+  silent FALLBACK granite 0.546 vs advertised ~0.800;
+  rh-guard owns the gate. Distinct from ask-jev-ai.
+- Census not re-derived. Archer still NOT landed.
+- Cards: SKILL.md, applied-mappings §4/§8, mappings
+  §6/§7/§8, mixed-architecture, validation, faq,
+  judgment-class, mental-models, methods-catalog,
+  toolbox, composition-algebra, question-design,
+  ecosystem, CHANGELOG, README.
+- notes.md §73; sources.json (437 sources, 434 unique URLs,
+  retrieved 2026-09-19T14:37Z); findings.md batch #57.
+  No wrapper.

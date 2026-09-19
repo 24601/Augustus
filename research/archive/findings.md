@@ -1940,3 +1940,35 @@ backend (Agnes as Jev); (gz) Pi compact ≠ compaction;
 ready; (hc) multilingual Laya confident-wrong OOD;
 (hd) schema-conditioned peaked ranking; (he) second
 IPECTER empty skip.
+
+## Batch #57 (2026-09-19 ~14:37 UTC / ~08:37 Boise) — productized System One HTTP, escalate-under-threshold, silent FALLBACK
+
+Note: `research/notes.md` §73. Docs-only. Folded into PR #2.
+Skip Archer. No invented metrics. Hunches labeled.
+User-provided SIGNAL + live README `6ae8bda` /
+eval/README `2009d1f`.
+
+- **mrmps/classifier-dev (Empirical as README +
+  eval/README).** MIT; **185★**; https://classifier.dev.
+  Public zero-shot HTTP; no key. Jev primary
+  (`src/jev.ts`); LLM fallback only. 400 headlines
+  **650 ms** *theirs*; packing 100 = one-at-a-time.
+  Smart: single-label <0.7; multi-label ignores.
+  Emotion ≥0.9 → 82% / <0.5 → 29%. gemini-3.8-flash
+  87.5→90.0 / 61.8→63.7. Multi-label F1 **0.887** /
+  **230 ms** vs cascade **0.799** / 1.5 s (eval 232 ms;
+  AG News **87.7%** vs 82.0%; emotion **60.5%** vs
+  57.0%). n=7 train-on-test; ~0.03 coin flip.
+  granite-4.0-h-micro F1 **0.546** vs advertised
+  ~**0.800**; digest marks `FALLBACK`. Distinct from
+  ask-jev-ai. rh-guard owns the gate card. Life/business
+  (spam/inbox/feedback).
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (hf) productized System One HTTP /
+label+p public contract; (hg) escalate-under-threshold /
+multi-label ignores tier; (hh) vs_jev tracked JSON not
+transcription; (hi) silent FALLBACK / granite 0.546 vs
+advertised 0.800; (hj) classification API for
+spam/inbox/feedback.

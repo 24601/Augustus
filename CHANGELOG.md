@@ -767,6 +767,26 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   open-jev-laya-bench / jev-tree-choice-cap /
   INSTRUCT_JEV; jevlogs 404+401. Census not re-derived.
   No wrapper. No invented metrics.
+- User-provided signal ~08:37 Boise 2026-09-19
+  (`research/notes.md` §73): **Skip Archer.**
+  **Productized System One HTTP**
+  ([classifier-dev](https://github.com/mrmps/classifier-dev);
+  MIT; **185★**; https://classifier.dev). Label +
+  calibrated confidence as the public contract; batch
+  `{id,text}[]` ~1000; Jev primary, LLM fallback only.
+  400 headlines **650 ms** *theirs*. **Escalate-under-
+  threshold:** smart re-asks single-label <0.7;
+  multi-label ignores (re-judge worse, 23 s). Emotion
+  ≥0.9 → 82% / <0.5 → 29%; gemini-3.8-flash 87.5→90.0 /
+  61.8→63.7 *theirs*. Multi-label F1 **0.887** / **230 ms**
+  vs cascade **0.799** / 1.5 s (eval 232 ms; AG News
+  **87.7%** vs 82.0%). **Measurement-first:** `/benchmark`
+  from tracked JSON; read eval/README (n=7 train-on-test;
+  ~0.03 coin flip). **Silent FALLBACK:** granite F1
+  **0.546** vs advertised ~**0.800** *theirs*; rh-guard
+  owns the gate. Life/business (spam/inbox/feedback),
+  not SWE-only. Distinct from ask-jev-ai wall. No wrapper.
+  No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

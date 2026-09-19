@@ -70,6 +70,7 @@ judgment component is new).
 | Domain specialist LoRA (independent gold) | Calibrated local head when policy *reads* p | Soft-target LoRA + pointer; matched-precision KL vs hosted few-shot | Argmax-only routing can stay hosted+examples; EU/thresholds in code | **Empirical as their RESULTS.md** (Domain-jev-maker; KL 0.168 vs 0.580 banking; few-shot determinate McNemar n.s.; not a teacher-copy; `notes.md` §60) |
 | Active-learning triage (don't distill Jev) | Which unlabeled rows are worth an expensive label | Confidence routes accept / teacher / human; log full distributions | Real outcome labels as training targets; ECE on the student vs those labels | **Empirical as README architecture** (jev-triage; ~68% ceiling anti-pattern; `notes.md` §61) |
 | Decide→policy→LLM leftover | Typed decide; leftover text only | Shared Answer schema; three Harbor arms (native / verbalized / logprob) | Policy auto/review/llm; Noul 0.5 never rounded; Score conf 0.0 never acted | **Empirical as README architecture** (jav-email-cascade; mock gen-json flat is *their mock*; `notes.md` §60) |
+| Productized System One HTTP | Label + calibrated p as a public contract | Batch `{id,text}[]`; Jev primary; LLM fallback | Policy in the caller; `FALLBACK` honesty; read eval/README | **Empirical as README + eval** (classifier-dev **185★**; 400/650 ms; F1 0.887; granite 0.546 vs 0.800 *theirs*; `notes.md` §73) |
 
 ## Verification & logic
 

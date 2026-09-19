@@ -1585,3 +1585,47 @@ Access change this pass (historically 200). Do not
 invent new numbers; do not re-fold. jevlogs-log-triage-
 benchmark is GitHub 404 **and** HF 401 — skip.
 `notes.md` §72.
+
+## Is classifier.dev just another public Jev wall?
+
+No. [classifier-dev](https://github.com/mrmps/classifier-dev)
+(MIT; **185★**; https://classifier.dev) is a **zero-shot
+classification API**: caller-supplied labels, batch
+`{id, text}[]` up to ~1000, multi-label, dimensions.
+Primary backend is TypeSafe Jev (`src/jev.ts`); LLM
+chains are fallback only. Distinct from
+[ask-jev-ai](https://github.com/waynesutton/ask-jev-ai)
+(six parallel questions on one sentence). Life/business
+(spam / inbox / feedback), not an agent hook. Do not
+copy wrangler / `npm i -g`. `notes.md` §73.
+
+## Should every low-confidence answer escalate?
+
+No. `tier: smart` re-asks **single-label** answers
+below 0.7. Multi-label **ignores** the tier: re-judging
+made it worse (23 s *theirs*). 0.7 is *their* operating
+point, not a class constant. Cousin of jev-use
+escalate-under-threshold (different product; Vercel
+drops `confidence`). `notes.md` §73.
+
+## Can I quote classifier.dev F1 0.887 / 87.7% AG News?
+
+Only with `eval/README`. `/benchmark` is generated from
+tracked `src/vs-jev.json`, not hand transcription.
+Multi-label n=7 is **train-on-test**, one annotator, no
+CIs; ~0.03 is a coin flip. README *theirs*: F1 **0.887**
+in **230 ms** vs cascade **0.799** / 1.5 s; eval *theirs*
+232 ms, AG News **87.7%** vs ling-3.0-flash **82.0%**,
+emotion **60.5%** vs **57.0%**. Calibration anecdote:
+≥0.9 → 82% correct; <0.5 → 29%. `notes.md` §73.
+
+## What is the silent-fallback anti-pattern? Does rh-guard own it?
+
+A delisted primary left `granite-4.0-h-micro` serving
+F1 **0.546** while docs advertised ~**0.800** for weeks
+(*theirs*; eval/README). Nothing in the deployed numbers
+said so. Digest now marks `FALLBACK`. That is **eval
+integrity / soundness theater** (lying about the
+instrument). **rh-guard owns the gate card**; dinostomp
+owns instrument-not-score. classifier.dev is the lived
+product cousin, not a new hook. `notes.md` §73.

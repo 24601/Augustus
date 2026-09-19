@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T13:52Z",
+  "retrieved": "2026-09-19T14:37Z",
   "sources": [
     {
       "kind": "docs",
@@ -2611,6 +2611,18 @@
       "title": "mobarmg/jev-schema-scorer",
       "url": "https://huggingface.co/spaces/mobarmg/jev-schema-scorer",
       "note": "Hub Space for jev-schema-scorer-deberta-v3-large. Companion to Hub model; GitHub repo 404. notes.md \u00a772."
+    },
+    {
+      "kind": "github",
+      "title": "mrmps/classifier-dev",
+      "url": "https://github.com/mrmps/classifier-dev",
+      "note": "MIT; 185 stars; 17 forks; 4 issues. Created 2026-08-13T03:19:57Z; pushed 2026-09-19T14:36:06Z. Public zero-shot HTTP classification; no key. Jev primary (src/jev.ts); LLM fallback. README theirs: 400 headlines 650 ms; packing 100 = one-at-a-time; emotion >=0.9 -> 82% / <0.5 -> 29%; multi-label F1 0.887 / 230 ms vs cascade 0.799 / 1.5 s; smart single-label <0.7; multi-label ignores. eval theirs: 232 ms; AG News 87.7% vs ling-3.0-flash 82.0%; emotion 60.5% vs 57.0%; granite-4.0-h-micro F1 0.546 vs advertised ~0.800; FALLBACK marker. n=7 train-on-test. Distinct from ask-jev-ai. notes.md \u00a773."
+    },
+    {
+      "kind": "web",
+      "title": "classifier.dev",
+      "url": "https://classifier.dev",
+      "note": "Homepage for mrmps/classifier-dev. Public no-key classification API. /benchmark generated from tracked src/vs-jev.json. notes.md \u00a773."
     }
   ]
 }
