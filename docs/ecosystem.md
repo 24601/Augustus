@@ -388,6 +388,21 @@ Architecture notes, not an npm / uvx / cargo / plugin catalog. `notes.md` §70. 
 
 Census **not re-derived** this hour (last §69). Archer still NOT landed.
 
+### Hourly ~06:43 Boise 2026-09-19 / 12:50 UTC (SGR-judge Harbor contract, control-plane productization, never-generates, recipes+life feed, NAR claim-audit)
+
+Architecture notes, not an npm / uvx / plugin catalog. `notes.md` §71. TypeSafe Jev is the exemplar, not the monopoly. Archer still Watch. No invented metrics. Do not re-fold §50–§70 HIGH except sibling contrast. Hunches labeled. Harbor-shaped **contract** before a quality headline. Control plane productization. Generation as a tree of Choices. Competing NAR claims are an **audit object**, not an endorsement.
+
+- **slavadubrov/jev-judge-bench** — Python; README MIT / GitHub SPDX NOASSERTION. Frozen SLA-150: Jev vs cheap schema-guided LLM judges (Luna / DeepSeek-flash / glm-5.3-flash). Human labels; invalid = FN; cost/latency first-class. **No quality headline yet.** 21 offline tests. Canaries *theirs* not quality: Jev OpenRouter 5/5; Luna 10/10; DeepSeek GA 10/10; DeepSeek beta 8/10; GLM 5.3 10/10; GLM 4.7 4/10 overload. $10 Berlin live in progress. Direct TypeSafe untested. Five-field/H5 untested. **≠** chenmingtang830/jevarena **≠** fstandhartinger/jevbench. Always qualify the owner.
+- **IPECTER/jev-context-pruner** — **EMPTY SKIP.** Description-only Codex compression-proxy slogan; contents 409 empty. Sibling of fast-jev-compaction / jev-compactor / dizk/jev-lens. Do not invent files.
+- **shitianfang/jev-use** — TypeScript MIT v0.4.1. Claude/Codex/pi plugin: hand no-text steps to Jev; writing stays with the LLM. Same author as jev-handoff. Vercel `typesafe-ai/jev` 95 calls *theirs*: p50 **220 ms** / p95 423; 12q **186 vs 2,672 ms**; 20-step 4.3 s / 0 escalated; gate **12/12** / p50 199 ms. Vercel drops confidence → margin default **0.4**; first loop 17/20 then 0/20. Fail-open gate. **≠** jev-ultrafast. Do not copy `npx`.
+- **goodruizhan/pi-jev-control** — TypeScript; license null; v0.3.0 private. Pi System-One control plane (router/gate/retry/sieve/review/GUI). Compaction never modifies on-disk session. GUI < threshold → unknown, never force-click. No live quality numbers. Distinct from omp-jev-extensions / jevons / pi-heed / pi-om. Do not copy `pi install`.
+- **florian-hoenicke/jev-gpt** — Python; license null. Extreme decider≠executor: never free-generates; one typed question per WordNet/jina tree choice, then rank texts. ~**400** calls / **75 s** / **2 cents** *theirs*. Architecture demo, not a product. Distinct from jeffrey.
+- **nexibeo/jev-cookbook** — JavaScript MIT; 1★. 15 OpenRouter recipes. Samples 16–36, **not benchmarks**. Recipes 01–13: **425** calls / **$0.015**; median 0.34–0.45 s; browser **5/6**. Pattern: code prepares, Jev answers. Do not copy OpenRouter tilde-id.
+- **fengyiqicoder/jevfeed** — JavaScript MIT. Personal browser-history feed. No likes/follows/accounts. Last 200 pages local; one Jev request per batch of ten (distribution *is* ranking). 17 tests, no network. Distinct from ThinkyMiner/Winnow and kevinpita/winnow.
+- **Heman10x-NGU/openJev-verdict-2.0** — **claim-verification, not endorsement.** Python; README Apache-2.0 / GitHub SPDX NOASSERTION. Hub heman10x/openJev-verdict-2.0 HTTP 200. README *theirs* N=2000: acc **77.10%** / Brier **0.0636** / ECE corr **0.0144**. Jev table row is a Laya-catalogued vendor baseline, not independent. **Open PR #1** audits: throughput 24.7/s misread as 25 ms (actual 40.5 ms; 3.5× not 28×); Laya 76.60% inside 95% CI (parity); like-for-like dist ECE 15.13% vs 21.40%, Jev 14.40% slightly lower. **≠** IamBusy/OpenJev `/v1/decide`.
+
+Census **not re-derived** this hour (last §69). Archer still NOT landed.
+
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs
 Apalache; DST trio Antithesis / Resonate HQ / PufferLib):

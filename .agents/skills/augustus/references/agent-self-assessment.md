@@ -57,6 +57,16 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    Shadow default. *Theirs:* recall 98.5% / false block
    0.0% / $0.000058. Distinct from actiongate (RBAC/schema)
    (`notes.md` §70).
+   **jev-use PreToolUse gate (2026-09-19 ~06:43):**
+   [jev-use](https://github.com/shitianfang/jev-use)
+   — deny/ask; **fail-open**; 12/12 *theirs*; Vercel
+   reconstructs confidence as margin (default 0.4). Gate
+   never grants (`notes.md` §71).
+   **Pi control-plane gates (2026-09-19 ~06:43):**
+   [pi-jev-control](https://github.com/goodruizhan/pi-jev-control)
+   — deterministic fast-path then Jev; GUI < threshold
+   → unknown, never force-click. License null
+   (`notes.md` §71).
    **Turnstile clone (2026-09-19 ~01:47):**
    [turnstile](https://github.com/zyphr-labs/turnstile) —
    policy first; Jev remainder; receipts + replay; missing
@@ -260,6 +270,14 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   [pi-heed](https://github.com/Nyarlathoteppppp/pi-heed)
   — user constraints survive compaction; Jev never
   writes policy (`notes.md` §70).
+  Plugin no-text cousin (2026-09-19 ~06:43):
+  [jev-use](https://github.com/shitianfang/jev-use)
+  — fail-open PreToolUse gate; Vercel margin fallback
+  (`notes.md` §71).
+  Pi control-plane cousin:
+  [pi-jev-control](https://github.com/goodruizhan/pi-jev-control)
+  — named sensors; GUI unknown never force-click
+  (`notes.md` §71).
 
 ## Non-negotiable boundaries
 

@@ -561,6 +561,22 @@ construction):**
 — pay to judge a place the diff did not touch iff the
 stated intent applies there. UNKNOWN is cheaper than a
 false VERIFIED. Empty search ≠ proof (`notes.md` §70).
+**Empty compact-proxy skip (description only; 2026-09-19
+~06:43):**
+[jev-context-pruner](https://github.com/IPECTER/jev-context-pruner)
+— Codex compression-proxy slogan; repo empty. Not VOI
+until there is a keep-set and a fail polarity
+(`notes.md` §71).
+**Batch ranking VOI (Empirical as README; 2026-09-19
+~06:43):**
+[jevfeed](https://github.com/fengyiqicoder/jevfeed)
+— one Jev request per batch of ten; the distribution *is*
+the ranking. Pay per *batch*, not per item (`notes.md`
+§71).
+**No-text-step VOI (Empirical as 95-call card):**
+[jev-use](https://github.com/shitianfang/jev-use)
+— pay the LLM only when writing is the job; 12 questions
+in one call 186 vs 2,672 ms *theirs* (`notes.md` §71).
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs
@@ -704,6 +720,20 @@ Always-unknown would score 50%; 97.28% is not abstention
 theater. Pair with
 [system-one-responsible-ai](https://github.com/david-j-lustig/system-one-responsible-ai)
 (size-0 framing stub). `notes.md` §70.
+**Cookbook moderation as a cost-sensitive dial (Empirical
+as small samples, not a bench; 2026-09-19 ~06:43):**
+[jev-cookbook](https://github.com/nexibeo/jev-cookbook)
+recipe 12 — five hazard Nouls; act when sure, hold the
+middle, escalate self-harm early. 16–36 handmade items;
+authors say not benchmarks (`notes.md` §71).
+**Dual-channel ECE / like-for-like (claim-audit, not
+endorsement; 2026-09-19 ~06:43):**
+[openJev-verdict-2.0](https://github.com/Heman10x-NGU/openJev-verdict-2.0)
+— correctness-head ECE is not distribution ECE. Open PR
+#1: like-for-like dist 15.13% vs Laya 21.40%; Jev 14.40%
+slightly lower on that channel; do not put 1.44% beside
+21.40% as a 15× win. Throughput ≠ latency. **≠**
+IamBusy/OpenJev (`notes.md` §71).
 
 ## 8. Control structure → sensor ≠ constraint (Leveson)
 
@@ -821,6 +851,18 @@ block **0.0%** / lifecycle 100% / task success 98.7% /
 authority) — this is *what the user meant* surviving
 the context window. Do not copy `pi install`
 (`notes.md` §70).
+**Pi control-plane sensors (Empirical as README; license
+null; 2026-09-19 ~06:43):**
+[pi-jev-control](https://github.com/goodruizhan/pi-jev-control)
+— router / tool gate / retry / sieve / review / GUI are
+named sensors; code owns model switch, session bytes,
+and click. GUI never force-clicks. Distinct from pi-heed
+(constraint ledger) (`notes.md` §71).
+**jev-use gate never grants (Empirical as 12/12
+fail-open):**
+[jev-use](https://github.com/shitianfang/jev-use)
+— PreToolUse deny/ask; missing Jev does not deny
+(`notes.md` §71).
 
 ## 9. Search / control loops → one substituted classifier step
 
@@ -863,6 +905,17 @@ classifier. Risk Score ≥ 0.5 pauses mutating tools. Stuck ladder:
 withhold the looping tool, re-ask Jev (2 Jev / 0 steps). Distinct
 from jev-handoff (typed baton around an existing host) and
 browser-jev (Playwright executes). Do not copy npm (`notes.md` §70).
+**Tree-of-Choices writer (Empirical as README demo;
+2026-09-19 ~06:43):**
+[jev-gpt](https://github.com/florian-hoenicke/jev-gpt)
+— the substituted classifier step is *which word next*;
+the model never free-generates. ~400 calls / 75 s / 2¢
+*theirs*. Architecture demo. Distinct from jeffrey (pick
+next-tool). License null (`notes.md` §71).
+**Pick≠write plugin (Empirical as 95-call card):**
+[jev-use](https://github.com/shitianfang/jev-use)
+— judgment steps to Jev; writing stays generated
+(`notes.md` §71).
 **Beyond SWE (Hypothesis):**
 snowball citations ("still on-question?"); sales stages ("still a real
 opp?" — amount and close date stay exact); cook/rest/check ("looks done?"

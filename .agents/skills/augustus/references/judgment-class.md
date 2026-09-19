@@ -591,6 +591,24 @@ product, not a single softmax; `output_tokens` always 0.
 MiniCPM5-2B unusable. `--stub` needs no GPU. Same warning
 as jeff / openvons / jev-local. Do not copy CUDA how-to
 (`notes.md` §69).
+**Competing NAR claims as an audit object, not a
+swap (2026-09-19 ~06:43):**
+[openJev-verdict-2.0](https://github.com/Heman10x-NGU/openJev-verdict-2.0)
+(README Apache-2.0 / GitHub SPDX NOASSERTION) is a
+149.6M ModernBERT-base NAR with Choice/Score/Noul and a
+WebGPU demo. README *theirs* on
+`LocalLLaMA/typed-decisions` N=2000: acc **77.10%** /
+Brier **0.0636** / ECE corr **0.0144** / dist
+**0.1513**. The TypeSafe Jev table row is a
+Laya-catalogued vendor baseline, **not** an independent
+run. Dual-channel ECE is a real design fork — and
+**like-for-like is the rule**. Open PR #1 already
+audits the launch write-up (throughput≠latency; Laya
+gap inside CI → parity; Jev 14.40% slightly lower on
+distribution ECE). **Do not endorse.** Distinct from
+IamBusy/OpenJev `/v1/decide`, openvons, grande, and
+openjev-lm. Do not copy train/serve how-to
+(`notes.md` §71).
 **ONNX replica of Laya:**
 [`Mattepiu/laya-onnx`](https://huggingface.co/Mattepiu/laya-onnx)
 (~15 ms CPU for one Noul, their card). Do not copy the inherited
@@ -740,6 +758,8 @@ laya-bench, decision-token LoRA), §48 (jev-local stub, laya-onnx),
 §64 (gqgs complete Laya ONNX; local-jev not equivalence),
 §70 (grande / laya-jolt / JEV-CPU / local-jev measured /
 GLiNER2 spec),
+§71 (openJev-verdict-2.0 competing NAR as claim-audit ≠
+IamBusy/OpenJev),
 §49 (boundary map; DMB vs constrained LLMs; von; open-alternative-jev). Before
 adopting a surface, the bake-off is a jevals-shaped suite and, for a
 product loop, a Harbor taskset (`validation.md`, Eval & hill-climb).

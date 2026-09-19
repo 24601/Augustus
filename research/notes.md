@@ -9047,3 +9047,342 @@ admission), §7 (BBQ / stereotype as SDT), §8
 diff); `composition-algebra.md` (decider selector +
 executor fill); `toolbox-mapping.md`;
 `methods-catalog.md`. Hunches labeled. No wrapper.
+
+## 71. SGR-judge Harbor contract, control-plane productization, never-generates, recipes+life feed, NAR claim-audit (2026-09-19 ~06:43 Boise)
+
+Hourly System One watch **2026-09-19 06:43 America/Boise**
+(≈ 12:43 UTC). Docs-only fold into PR #2. Watch archive
+absent this VM; receipts from live GitHub READMEs + `gh
+api` (~12:50 UTC). Hunches labeled. No wrapper. No
+invented metrics. TypeSafe Jev is the exemplar, not the
+monopoly. Archer still **NOT landed**. Do **not** treat
+as SWE-only.
+
+Do **not** re-fold §50–§70 HIGH except sibling contrast
+/ material delta (IPECTER empty vs
+fast-jev-compaction / jev-compactor / dizk/jev-lens;
+jev-use vs jev-handoff / jev-ultrafast; pi-jev-control
+vs omp-jev-extensions / jevons / pi-heed / pi-om;
+jev-gpt vs jeffrey; cookbook vs dabit3 demos;
+jevfeed vs ThinkyMiner/Winnow; openJev-verdict vs
+IamBusy/OpenJev; jev-judge-bench vs jevarena /
+jevbench). **Always qualify** those owners.
+
+Five meaning-clusters, not a hit list: **(1)**
+Harbor-shaped Jev vs schema-guided LLM-as-judge
+**contract** — frozen SLA-150, human labels,
+failure-aware metrics, cost/latency; **no quality
+headline yet** (jev-judge-bench); **(2)** mixed-arch
+control-plane productization (jev-use hands no-text
+steps; pi-jev-control is a Pi System-One plane);
+**(3)** extreme decider≠executor — generation as a
+tree of Choices, the model never free-generates
+(jev-gpt); **(4)** applied recipes + a personal-history
+feed without a social graph (jev-cookbook; jevfeed);
+**(5)** competing open NAR **claims as an audit
+object**, not an endorsement (openJev-verdict-2.0 +
+open PR #1). Empty skip: IPECTER/jev-context-pruner.
+
+### HIGH
+
+1. **[`slavadubrov/jev-judge-bench`](https://github.com/slavadubrov/jev-judge-bench)**
+   — NEW. Python; README **MIT** / GitHub SPDX
+   **NOASSERTION**; created 2026-09-19T12:20:43Z;
+   pushed 12:45Z; size **0** (lag; tree has
+   src/tests/docs/results/uv.lock); 0★. Frozen
+   **SLA-150** contract: Jev vs cheap schema-guided
+   LLM judges (OpenAI Luna / DeepSeek-flash GA+beta /
+   glm-5.3-flash / glm-4.7-flash availability).
+   Human labels. Primary F1 treats invalid
+   predictions as **false negatives**. Cost/latency
+   first-class. Slogan: "Does evaluation need
+   generation?" — it does **not** presume Jev wins.
+   **No measured model-quality result is shipped
+   yet.** 21 offline tests pass (mocked HTTP).
+   Live run: **$10** total incl. $0.002378496
+   canaries, Berlin home Wi-Fi, in progress.
+
+   Canaries *theirs* (**not quality**): Jev
+   OpenRouter `typesafe/jev-1.13` →
+   `jev-1.13-20260917` **5/5**; Luna 10/10; DeepSeek
+   GA 10/10; DeepSeek beta **8/10** (unquoted `yes`,
+   nested object); GLM 5.3 10/10; GLM 4.7 **4/10**
+   overload (excluded from the full experiment after
+   the paid-GLM amendment). Frozen data: RAGTruth QA
+   **900** / ANLI R1 **1k** R2 **1k** R3 **1.2k**.
+   Direct TypeSafe untested (OpenRouter at the user's
+   request). Five-field / H5 untested without two
+   blinded humans + adjudication. Native Jev
+   confidence and ordinal Score are **not** treated
+   as p(correct). Incomplete cohorts cannot establish
+   a headline. Distinct from
+   [`chenmingtang830/jevarena`](https://github.com/chenmingtang830/jevarena)
+   (JevJudge-Bench harness; failure-finding; §70) and
+   [`fstandhartinger/jevbench`](https://github.com/fstandhartinger/jevbench)
+   (Capability/Speed/Cost Main Score; §67). **Always
+   qualify the owner.** Do **not** copy `uvx`.
+
+   **Hunch:** Harbor/jevals-shaped **practice**. The
+   contract is the product until stages finish.
+   Shipping canaries as F1 is eval-integrity failure.
+   A Jev loss would not prove generation is causally
+   necessary.
+
+2. **[`IPECTER/jev-context-pruner`](https://github.com/IPECTER/jev-context-pruner)**
+   — **EMPTY SKIP**. Created 2026-09-19T12:36:58Z;
+   size 0; license null; language null; description
+   only: "Jev-powered context compression proxy for
+   Codex. Keep what matters. Send fewer tokens."
+   `contents/` **409 empty** this pass. Sibling
+   contrast vs fast-jev-compaction / jev-compactor /
+   dizk/jev-lens / jev-pruner — same *job family*
+   (compress-before-send / pointer not summarizer),
+   **no files**. Do not invent a product card.
+
+   **Hunch:** a slogan is not a placement. Empty
+   compaction proxies stay Watch until there is a
+   fail polarity and a keep-set in code.
+
+3. **[`shitianfang/jev-use`](https://github.com/shitianfang/jev-use)**
+   — NEW. TypeScript **MIT**; created
+   2026-09-19T10:13:56Z; size **196**; 0★; npm
+   `jev-use` **v0.4.1**. Same author as jev-handoff
+   (§69). Claude Code / Codex / pi plugin: hand every
+   step that needs **no text output** (did it work,
+   which next, how severe, is it safe) to Jev;
+   writing stays with the LLM. `jev_judge` batches
+   questions about one state; `jev_gate` is PreToolUse
+   deny/ask, **fail-open**. Distinct from
+   [`browser-use/jev-ultrafast`](https://github.com/browser-use/jev-ultrafast)
+   (observe→score-act browser loop). Do **not** copy
+   `npx -y jev-use install`.
+
+   Measured *theirs* 2026-09-19 Vercel AI Gateway
+   `typesafe-ai/jev`, 95 live calls: sequential p50
+   **220 ms** / p95 423; 12q batched **186 vs 2,672
+   ms**; 20-step triage **4.3 s / 0 escalated**; gate
+   **12/12** / p50 199 ms. ~26k in / ~2.6k out.
+   **Vercel drops `confidence`** (same as
+   jev-handoff): reconstruct as distribution margin
+   (top − runner-up); default threshold **0.4**
+   (vendor 0.75 over-escalates). First loop **17/20
+   escalate**, then **0/20** after the threshold.
+   Calibration probe: 8 "clear" vs 8 "borderline" did
+   **not** separate — Jev answers decisively on
+   states a human labels borderline. Treat margin
+   fallback as coarse; tune on *your* traffic.
+
+   **Hunch:** mixed-architecture as a *host plugin*,
+   not a new model. The interesting receipt is the
+   **gateway-drops-confidence** failure: a missing
+   field is not "uncalibrated," it is a different
+   statistic. Fail-open gate never grants.
+
+4. **[`goodruizhan/pi-jev-control`](https://github.com/goodruizhan/pi-jev-control)**
+   — NEW. TypeScript; license **null** (no LICENSE);
+   created 2026-09-19T11:52:37Z; size **0** lag
+   (src/test/extensions exist); 0★; `package.json`
+   **v0.3.0 private**. System-One **control plane**
+   for Pi: task/model router, tool gate (deterministic
+   fast-path then Jev), failure+retry, context/skill/
+   memory gates, compaction epoch, review gate, GUI
+   action router. Compaction **never modifies the
+   on-disk session**. GUI confidence < threshold →
+   **unknown, never force-click**. Cache-aware prune
+   only when savings ≥ 8000 chars AND drop ratio ≥
+   15%. Unresolved failures always KEEP. Recent 8
+   messages always kept. No live quality numbers in
+   README. npm tests: control / context / pruning /
+   i18n. Distinct from omp-jev-extensions, LilDojd/
+   jevons, pi-heed, pi-om. Do **not** copy `pi
+   install`.
+
+   **Hunch:** the control plane *is* the mixed
+   architecture. One product that names router / gate
+   / retry / sieve / review / click as separate
+   sensors. Fail polarity is per act (GUI never
+   force-clicks; compaction fail-open-shaped keep
+   rules in code). Not a second agent.
+
+5. **[`florian-hoenicke/jev-gpt`](https://github.com/florian-hoenicke/jev-gpt)**
+   — NEW. Python; license **null**; created
+   2026-09-19T12:14:11Z; size **0** lag
+   (build_tree.py / generate.py / data / video);
+   0★. Extreme **decider ≠ executor**: the model
+   **never free-generates**. One typed question per
+   choice over a jina-embeddings-v5 WordNet tree
+   (word type → category → ~200-word group → the
+   word), then one more question to rank candidate
+   texts. README *theirs*: ~**400** Jev calls, **75
+   s**, **2 cents** per prompt. Architecture demo,
+   not a product. Distinct from jeffrey (pick next
+   tool, LLM fills args) — here even the *words* are
+   Choices. Do **not** copy `TYPESAFE_API_KEY`
+   how-to.
+
+   **Hunch:** generation as a search over a closed
+   lexicon. The interesting claim is architectural,
+   not literary quality. Mapping §9's "Jev is not
+   the planner-writer" still holds — this is the
+   writer reduced to a selector. Cost is the
+   demonstration: 400 decisions for two cents.
+
+6. **[`nexibeo/jev-cookbook`](https://github.com/nexibeo/jev-cookbook)**
+   — NEW. JavaScript **MIT**; created
+   2026-09-19T10:10:45Z; size **165**; **1★**. 15
+   OpenRouter recipes (triage, indexing, files,
+   tagging, taxonomy, dedupe, PII, bank, invoice
+   pick, rerank, logs, moderation, leads, browser,
+   Gmail). Live 2026-09-19 `~typesafe/jev-latest`
+   answering as `jev-1.13-20260917` *theirs*.
+   Samples **16–36 items, not benchmarks** (they
+   say so). Recipes 01–13: **425** calls /
+   **$0.015**; median **0.34–0.45 s**; typical
+   **$0.00002–0.00008**. Banner 364 ms / $0.000024.
+   Browser **5/6** / $0.0005–0.003. Pattern: **code
+   prepares, Jev answers narrow questions.** Pick
+   don't extract; split "how bad" into Nouls; leave
+   a review band; numbers/dates stay in code. One
+   sentence of "what doesn't count" moved a catalog
+   tag 36/100 → 6/100 *theirs* (TemplatesGrokBot
+   case study). Do **not** copy OpenRouter tilde-id
+   / clone how-to.
+
+   **Hunch:** this is the **toolbelt atlas**, not a
+   bake-off. Small handmade samples show technique
+   behaviour. Thresholds are a dial (tagging
+   precision 80%/recall 94% at 0.3 vs 97%/64% at
+   0.9). Business/life jobs (PII, invoices, Gmail)
+   sit beside SWE. A confident near-miss still
+   needs a host probe (browser opened "Cold
+   Outreach" for "Cold Email").
+
+7. **[`fengyiqicoder/jevfeed`](https://github.com/fengyiqicoder/jevfeed)**
+   — NEW. JavaScript **MIT**; created
+   2026-09-19T12:33:27Z; size **0** lag; 0★.
+   Personal browser-history feed ranked by Jev. **No
+   likes, no follows, no accounts.** Seeds last
+   **200** history pages **locally** (never
+   uploaded); Jina Reader pulls outbound links; a
+   cheap LLM summarizes/filters; **one Jev request
+   per batch of ten** — the distribution *is* the
+   ranking. Dwell/scroll feedback last **150**.
+   Dwell credited only to the post nearest screen
+   middle. Near-identical titles collapse; one
+   domain ≤ 3 slots per batch. 17 tests, no
+   network. Distinct from ThinkyMiner/Winnow
+   (worth-your-attention VOI on an existing feed)
+   and kevinpita/winnow (context sieve). Do **not**
+   copy `npm start` how-to.
+
+   **Hunch:** ranking ≠ social graph. Life/knowledge
+   work: choose among links real pages already
+   contained, so the feed can leave the user's
+   habit loop and every item has an author+URL.
+   Generating the next thing you will look at
+   converges on a mirror. Batch-of-ten is fan-out
+   as product UX, not a bench.
+
+8. **[`Heman10x-NGU/openJev-verdict-2.0`](https://github.com/Heman10x-NGU/openJev-verdict-2.0)**
+   — NEW HIGH as **claim-verification, not
+   endorsement**. Python; README **Apache-2.0** /
+   GitHub SPDX **NOASSERTION**; created
+   2026-09-19T12:14:46Z; size **0** lag (large
+   tree); 0★; Hub
+   [`heman10x/openJev-verdict-2.0`](https://huggingface.co/heman10x/openJev-verdict-2.0)
+   HTTP 200. Open NAR on ModernBERT-base 149.6M;
+   Choice/Score/Noul; WebGPU demo. Distinct from
+   [`IamBusy/OpenJev`](https://github.com/IamBusy/OpenJev)
+   (`/v1/decide`; §69), openvons, openjev-lm,
+   grande. Do **not** copy train/serve how-to.
+
+   README claims *theirs* on
+   `LocalLLaMA/typed-decisions` N=2000: acc
+   **77.10%** / Brier **0.0636** / ECE correctness
+   **0.0144** / dist ECE **0.1513** / ~20–25 ms /
+   flip **4.76%** (N=2918). Table cites TypeSafe Jev
+   72.70%/0.1480/0.1440/~140 ms as "vendor baseline
+   cataloged in Laya's published evaluation suite"
+   — **not an independent Jev run**. Dual-channel
+   story: distribution head vs correctness head.
+
+   **Open PR #1** (also issue #1, owner-authored,
+   2026-09-19T12:25:47Z) already audits the launch
+   write-up: throughput **24.7 decisions/s** was
+   read as 25 ms (actual **40.5 ms/decision**,
+   **202 ms** per five-question case → **3.5×** vs
+   cited 710 ms Jev, not 28×); acc vs Laya 77.10 vs
+   76.60 is **+0.5 pp**, n=2000 SE 0.94 pp, p=0.71,
+   Laya inside 95% CI [75.3, 78.9] — supportable
+   claim is **parity at 2.8× fewer parameters**;
+   "fused questions" is **batching**, not fusion;
+   AUROC 0.7861 and 80%/60% coverage appear in
+   README with **no JSON receipt**; like-for-like
+   dist ECE **15.13% vs Laya 21.40%**; Jev's
+   **14.40% is slightly lower** than 15.13% on that
+   channel. Do not treat the badge table as
+   verified.
+
+   **Hunch:** calibration/claim-verification mental
+   model. Dual-channel ECE is a real design fork
+   (soft-label trap vs correctness head) — and
+   **like-for-like is the rule**. Throughput ≠
+   latency. A 0.5 pp "SOTA" inside sampling error
+   is parity. Competing NAR claims are an eval
+   object, not a vendor swap.
+
+### Skip / already folded
+
+- §70 jevarena / jevbench qualify (sibling contrast
+  only).
+- §69 IamBusy/OpenJev `/v1/decide` (always qualify
+  vs openJev-verdict-2.0).
+- §69 jev-handoff Vercel-drops-confidence (jev-use
+  is the same author + measured loop).
+- §68 dizk/jev-lens / jev-compactor / pi-om
+  (IPECTER is empty, not a delta).
+- §69 ThinkyMiner/Winnow (jevfeed is a different
+  hole: generate a feed from history, not grade an
+  existing one).
+- §70 jeffrey pick≠fill (jev-gpt is the writer
+  reduced to a selector, not a re-fold of the agent
+  loop).
+- Archer Hume open decision-model: still Watch.
+
+### Curated status
+
+Census **not re-derived** this hour (last §69:
+Awesomejev flat 561/27007; tracker likes 43→45;
+SemIf 1714; jevlike 926). Archer still **NOT
+landed**.
+
+### Omni / Jev-omni / Archer
+
+Still **WATCH**. A competing NAR README, a WordNet
+tree of Choices, and a Pi control plane are **not**
+that drop.
+
+### Cross-links
+
+Cards: `validation.md` (jev-judge-bench frozen
+contract / canaries ≠ quality; cookbook samples not
+benches; openJev-verdict claims + PR #1 audit);
+`mixed-architecture.md` (fail table + gallery:
+SGR-judge contract; jev-use no-text handoff;
+pi-jev-control plane; jev-gpt never-generates;
+cookbook atlas; jevfeed; NAR claim-audit; IPECTER
+empty skip); `judgment-class.md` (openJev-verdict
+as audit object ≠ IamBusy/OpenJev); `faq.md`;
+`mental-models.md`; `applied-mappings.md` §1
+(empty compaction-proxy skip), §4 (cookbook
+moderation/rank + jevfeed), §5 (pi-jev-control
+router/skill), §7 (tool gate / GUI never
+force-click), §9 (jev-use / jev-gpt); `mappings.md`
+§6 (VOI compact proxy empty; batch-of-ten ranking),
+§7 (cookbook moderation; dual-channel ECE), §8
+(pi-jev-control sensors), §9 (tree-of-Choices +
+pick≠write); `agent-self-assessment.md`;
+`question-design.md` (code prepares, Jev answers;
+what-doesn't-count sentence); `composition-algebra.md`
+(selector of next word); `toolbox-mapping.md`;
+`methods-catalog.md`. Hunches labeled. No wrapper.

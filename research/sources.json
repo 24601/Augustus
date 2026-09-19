@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T11:55Z",
+  "retrieved": "2026-09-19T12:50Z",
   "sources": [
     {
       "kind": "docs",
@@ -2467,6 +2467,66 @@
       "title": "david-j-lustig/system-one-responsible-ai",
       "url": "https://github.com/david-j-lustig/system-one-responsible-ai",
       "note": "MIT. Created 2026-09-19T11:39:19Z; size 0. README+LICENSE framing stub. Pair with BBQ. MED. notes.md \u00a770."
+    },
+    {
+      "kind": "github",
+      "title": "slavadubrov/jev-judge-bench",
+      "url": "https://github.com/slavadubrov/jev-judge-bench",
+      "note": "Python; README MIT / GitHub SPDX NOASSERTION. Created 2026-09-19T12:20:43Z; 0 stars; size 0 lag. Frozen SLA-150 Jev vs SGR LLM judges. Invalid=FN. 21 offline tests. Canaries not quality. No quality headline yet. Distinct from chenmingtang830/jevarena and fstandhartinger/jevbench. notes.md \u00a771."
+    },
+    {
+      "kind": "github",
+      "title": "IPECTER/jev-context-pruner",
+      "url": "https://github.com/IPECTER/jev-context-pruner",
+      "note": "EMPTY SKIP. Created 2026-09-19T12:36:58Z; size 0; license null. Description-only Codex compression-proxy slogan. contents/ 409 empty. Sibling of fast-jev-compaction / jev-compactor / dizk/jev-lens. notes.md \u00a771."
+    },
+    {
+      "kind": "github",
+      "title": "shitianfang/jev-use",
+      "url": "https://github.com/shitianfang/jev-use",
+      "note": "TypeScript MIT v0.4.1. Created 2026-09-19T10:13:56Z; 0 stars; size 196. Claude/Codex/pi plugin hands no-text steps to Jev. Vercel 95 calls: p50 220 ms; 12q 186 vs 2672 ms; gate 12/12; margin default 0.4; first loop 17/20 then 0/20 theirs. Distinct from jev-ultrafast. Same author as jev-handoff. notes.md \u00a771."
+    },
+    {
+      "kind": "github",
+      "title": "goodruizhan/pi-jev-control",
+      "url": "https://github.com/goodruizhan/pi-jev-control",
+      "note": "TypeScript; license null; v0.3.0 private. Created 2026-09-19T11:52:37Z; 0 stars; size 0 lag. Pi System-One control plane. Compaction never writes session. GUI never force-click. No live quality numbers. notes.md \u00a771."
+    },
+    {
+      "kind": "github",
+      "title": "florian-hoenicke/jev-gpt",
+      "url": "https://github.com/florian-hoenicke/jev-gpt",
+      "note": "Python; license null. Created 2026-09-19T12:14:11Z; 0 stars. Never free-generates; WordNet/jina tree of Choices. ~400 calls / 75 s / 2 cents theirs. Architecture demo. Distinct from jeffrey. notes.md \u00a771."
+    },
+    {
+      "kind": "github",
+      "title": "nexibeo/jev-cookbook",
+      "url": "https://github.com/nexibeo/jev-cookbook",
+      "note": "JavaScript MIT; 1 star; size 165. Created 2026-09-19T10:10:45Z. 15 OpenRouter recipes. Samples 16-36 not benches. 425 calls / $0.015; browser 5/6 theirs. notes.md \u00a771."
+    },
+    {
+      "kind": "github",
+      "title": "fengyiqicoder/jevfeed",
+      "url": "https://github.com/fengyiqicoder/jevfeed",
+      "note": "JavaScript MIT. Created 2026-09-19T12:33:27Z; 0 stars. Personal history feed; no social graph. One Jev request per batch of ten. 17 tests no network. Distinct from ThinkyMiner/Winnow and kevinpita/winnow. notes.md \u00a771."
+    },
+    {
+      "kind": "github",
+      "title": "Heman10x-NGU/openJev-verdict-2.0",
+      "url": "https://github.com/Heman10x-NGU/openJev-verdict-2.0",
+      "note": "Python; README Apache-2.0 / GitHub SPDX NOASSERTION. Created 2026-09-19T12:14:46Z; 0 stars. Competing NAR claims as audit object not endorsement. 77.10%/0.0636/0.0144 theirs unverified. Open PR #1 claim-audit. Distinct from IamBusy/OpenJev. notes.md \u00a771."
+    },
+    {
+      "kind": "hf",
+      "title": "heman10x/openJev-verdict-2.0",
+      "url": "https://huggingface.co/heman10x/openJev-verdict-2.0",
+      "note": "Hub card HTTP 200 this pass. Companion to Heman10x-NGU/openJev-verdict-2.0. Claim-audit, not endorsement. notes.md \u00a771."
+    },
+    {
+      "kind": "hf",
+      "title": "LocalLLaMA/typed-decisions",
+      "url": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions",
+      "note": "Dataset cited by openJev-verdict-2.0 N=2000 table. Not independently re-run this pass. notes.md \u00a771."
     }
   ]
 }

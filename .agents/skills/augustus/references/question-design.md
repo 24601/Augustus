@@ -74,6 +74,10 @@ request, and treat a stale pin as a prior, never a setting.
 | Question has no answer yet (edit 1 of 12) | Observation window is wrong: a turn-level property asked at edit time | Name when the evidence exists. Edit-phase vs turn-phase is a question-design cut, not a hook detail ([Abide](https://github.com/coldteadotai/abide): "added more than asked" is a turn rule). `notes.md` §47 |
 | Review is green on the diff; the rest of the repo violates the stated intent | Observation window is the *diff*, not the places the intent applies | Search the whole repo after the change; one small question per place; **UNKNOWN** is cheaper than a false VERIFIED. Empty search ≠ proof ([jev-intent-review](https://github.com/yottayoshida/jev-intent-review)). `notes.md` §70 |
 | Naming/comment "rule" as a paragraph the linter cannot prove | The sentence is the criterion; AST/ast-grep already extracted the subject | Put the sentence in `ask:`; matcher silent-fail vs Jev loud; fail-open if no verdict ([mizchi/jevlint](https://github.com/mizchi/jevlint); ≠ huntedman/JevLint). `notes.md` §70 |
+| Catalog tagged "because it mentioned AI" | Criteria omitted what *doesn't* count | Add one exclusion sentence; 36/100 → 6/100 *theirs* ([jev-cookbook](https://github.com/nexibeo/jev-cookbook) TemplatesGrokBot). `notes.md` §71 |
+| One severity Score bunches in the middle | "How bad" hides several yes/no properties | Split into concrete Nouls (cookbook log triage 4/7 → 7/7 *theirs*). `notes.md` §71 |
+| Gateway returns no `confidence` | The statistic is missing, not "uncalibrated" | Reconstruct margin; lower the bar on *that* backend; tune on your traffic ([jev-use](https://github.com/shitianfang/jev-use) 17/20 → 0/20). `notes.md` §71 |
+| README badge ECE vs a different channel | Like-for-like channels; n and CI | Dual-channel ECE is a design fork; do not put correctness-head 1.44% beside distribution 21.40% ([openJev-verdict-2.0](https://github.com/Heman10x-NGU/openJev-verdict-2.0) PR #1). `notes.md` §71 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

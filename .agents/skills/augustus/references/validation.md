@@ -381,6 +381,10 @@ Rules:
 | Clojure Laya byte parity | [laya-jolt](https://github.com/jlt-commons/laya-jolt) | Byte-identical to Python `system_one` on README quickstart *theirs*. ~1e-7 last-digit drift. Apache-2.0. Was empty skip §61 |
 | ONNX ModernBERT vs live Jev | [local-jev](https://github.com/kunchenguid/local-jev) | 136 checkpoints *theirs*: done **30%** / shape **57%** / r **−0.06**; gold done 26% vs Jev 87%; 112 min vs 21 s. Confidence omitted. Not equivalence |
 | Persist constraints (pi) | [pi-heed](https://github.com/Nyarlathoteppppp/pi-heed) | 79 sessions / 261 labelled: v0.8.0+Jev recall **98.5%** / false block **0.0%** / $0.000058 *theirs*. Mid-session rule change 8/13 off vs 0/13 on. Fail-open |
+| Harbor SGR-judge contract (no quality headline yet) | [jev-judge-bench](https://github.com/slavadubrov/jev-judge-bench) | Frozen SLA-150. Jev vs Luna / DeepSeek-flash / glm-5.3-flash. Invalid = FN. 21 offline tests. Canaries *theirs* **not quality**: Jev OpenRouter 5/5; Luna 10/10; DeepSeek GA 10/10; DeepSeek beta 8/10; GLM 5.3 10/10; GLM 4.7 4/10 overload. $10 live Berlin in progress. Direct TypeSafe untested. Five-field/H5 untested. README MIT / GitHub SPDX NOASSERTION. **≠** chenmingtang830/jevarena **≠** fstandhartinger/jevbench |
+| OpenRouter recipe samples (not benches) | [jev-cookbook](https://github.com/nexibeo/jev-cookbook) | 15 recipes; samples 16–36 handmade. Live 2026-09-19 `jev-1.13-20260917`. Recipes 01–13: 425 calls / **$0.015**; median 0.34–0.45 s; browser 5/6 *theirs*. Authors: scores show technique, **not benchmarks** |
+| Hand-no-text plugin loop | [jev-use](https://github.com/shitianfang/jev-use) | Vercel `typesafe-ai/jev`, 95 calls *theirs*: p50 **220 ms** / p95 423; 12q **186 vs 2,672 ms**; 20-step 4.3 s / 0 escalated; gate **12/12** / p50 199 ms. First loop 17/20 escalate then 0/20 at margin 0.4. MIT v0.4.1. **≠** jev-ultrafast |
+| Competing NAR claims (audit, not endorsement) | [openJev-verdict-2.0](https://github.com/Heman10x-NGU/openJev-verdict-2.0) | README *theirs* N=2000: acc **77.10%** / Brier **0.0636** / ECE corr **0.0144** / dist **0.1513**. Jev row is Laya-catalogued vendor baseline, not independent. **Open PR #1**: 24.7 dec/s misread as 25 ms (actual 40.5 ms; 3.5× not 28×); Laya 76.60% inside 95% CI (parity); like-for-like dist ECE 15.13% vs 21.40%, Jev 14.40% slightly lower. **≠** IamBusy/OpenJev |
 | Never-confidently-wrong protocol (TLA+ + chaos) | [jev-labs](https://github.com/copyleftdev/jev-labs) | 1,080 golden: 0 wrong under none/realistic/severe *theirs* (severe 314/46 escalate). Rule of three <0.28% at 95% — not a proof of zero. TLC 1,049,750 states / 0 errors. 1,490 calls `jev-1.13.0`. Synthetic, not clinical. MIT |
 | Sureness metrics vs Jev `confidence` | [how-sure-is-jev](https://github.com/adarc8/how-sure-is-jev) | 60 live answers: Choice confidence = max_prob to 3 decimals. 75/25 → 0.5 vs entropy 0.19. Bands are policy. Zero-dep MIT |
 | Jev-class bake-off v1.1 | [jevbench](https://github.com/fstandhartinger/jevbench) | 314 decisions. Main Score 0.6/0.2/0.2. Jev 1.13.0 **87.6** / Cap 97.8 / $0.0259/1k *theirs*. Calibration **reported, not scored**. Native vs verbalized. Partial runs not ranked. Unofficial MIT |
@@ -635,6 +639,22 @@ Jev better calibrated 7/9; ~250× cheaper *theirs*.
 `unknown` mandatory. CC0. Distinct from INSTRUCT_JEV
 (no evidence gate) and dinostomp (instrument). Do not
 copy uvx (`notes.md` §64, §70).
+**Harbor SGR-judge contract (Empirical as frozen protocol,
+not a quality score; 2026-09-19 ~06:43).**
+[jev-judge-bench](https://github.com/slavadubrov/jev-judge-bench):
+SLA-150; Jev vs schema-guided LLM judges; invalid = FN;
+cost/latency first-class. 21 offline tests. Canaries *theirs*
+are availability, **not** F1. **No quality headline yet.**
+Distinct from jevarena (failure-finding) and jevbench (Main
+Score). README MIT / GitHub SPDX NOASSERTION. Do not copy
+`uvx` (`notes.md` §71).
+**Competing NAR claim-audit (not endorsement; 2026-09-19
+~06:43).**
+[openJev-verdict-2.0](https://github.com/Heman10x-NGU/openJev-verdict-2.0):
+README *theirs* 77.10%/0.0636/0.0144. Open PR #1 already
+corrects throughput≠latency and Laya-parity. Like-for-like
+distribution ECE vs Jev is not a win. **≠** IamBusy/OpenJev
+(`notes.md` §71).
 **Ranking ≠ calibration (Empirical as human-annotated
 audit + tool).**
 [does-jev-confidence-mean-anything](https://github.com/Adilmp/does-jev-confidence-mean-anything):

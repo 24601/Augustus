@@ -1373,3 +1373,88 @@ persists them as structured state and checks
 side-effecting calls before they run. Jev **never writes
 policy**. Fail-open. Distinct from actiongate (RBAC/schema
 authority). `notes.md` §70.
+
+## Is jev-judge-bench the same as jevarena or jevbench?
+
+No. **Always qualify the owner.**
+[slavadubrov/jev-judge-bench](https://github.com/slavadubrov/jev-judge-bench)
+is a frozen SLA-150 Harbor-shaped **contract**: Jev vs
+cheap schema-guided LLM judges, human labels, invalid = FN,
+cost/latency. **No quality headline yet** (21 offline tests;
+canaries are availability).
+[chenmingtang830/jevarena](https://github.com/chenmingtang830/jevarena)
+is a failure-finding playground (JevJudge-Bench harness;
+§70). [fstandhartinger/jevbench](https://github.com/fstandhartinger/jevbench)
+is Capability/Speed/Cost Main Score (calibration reported,
+not scored; §67). `notes.md` §71.
+
+## Is jev-use the same as jev-ultrafast? Does Vercel Jev return confidence?
+
+No, and often no. [jev-use](https://github.com/shitianfang/jev-use)
+hands **no-text** steps (did it work / which next / safe) to
+Jev and leaves writing with the LLM. Distinct from
+browser-use/jev-ultrafast (observe→score-act browser loop).
+Through the Vercel gateway there is **no confidence field**
+— jev-use reconstructs margin and defaults that backend to
+**0.4**. First loop 17/20 escalate, then 0/20. Same author
+as jev-handoff. Gate is fail-open. `notes.md` §71.
+
+## What is pi-jev-control?
+
+A System-One **control plane** for Pi (router, tool gate,
+failure+retry, context/skill/memory, compaction epoch,
+review, GUI), not a second agent.
+[pi-jev-control](https://github.com/goodruizhan/pi-jev-control)
+compaction never modifies the on-disk session; GUI
+confidence below threshold → `unknown`, never force-click.
+License null; no live quality numbers in the README.
+Distinct from omp-jev-extensions / jevons / pi-heed / pi-om.
+`notes.md` §71.
+
+## Can Jev generate text (jev-gpt)?
+
+It never free-generates.
+[jev-gpt](https://github.com/florian-hoenicke/jev-gpt)
+asks one typed question per choice over a WordNet /
+jina-embeddings tree, then ranks candidate texts. README
+*theirs*: ~400 calls, 75 s, 2 cents per prompt.
+Architecture demo of **decider ≠ executor** taken to the
+word. Distinct from jeffrey (pick next-tool, LLM fills
+args). License null. `notes.md` §71.
+
+## Are jev-cookbook numbers a benchmark?
+
+No. [jev-cookbook](https://github.com/nexibeo/jev-cookbook)
+samples are 16–36 handmade items; the authors say the
+scores show technique, not benches. Recipes 01–13: 425
+calls / $0.015; browser 5/6 *theirs*. Pattern: code
+prepares, Jev answers narrow questions. MIT. `notes.md` §71.
+
+## Is jevfeed a social product?
+
+No. [jevfeed](https://github.com/fengyiqicoder/jevfeed)
+ranks links found in **your** last 200 history pages. No
+likes, follows, or accounts. History stays local; one Jev
+request per batch of ten (the distribution *is* ranking).
+Distinct from ThinkyMiner/Winnow (grade an existing feed)
+and kevinpita/winnow (context sieve). `notes.md` §71.
+
+## Did openJev-verdict-2.0 beat Jev? Is it OpenJev?
+
+Treat it as a **claim-audit**, not an endorsement, and no
+it is not IamBusy/OpenJev.
+[openJev-verdict-2.0](https://github.com/Heman10x-NGU/openJev-verdict-2.0)
+README *theirs*: 77.10% / Brier 0.0636 / ECE 0.0144 on
+LocalLLaMA/typed-decisions. The Jev table row is a
+Laya-catalogued vendor baseline, not an independent run.
+**Open PR #1** already flags: throughput misread as
+latency; Laya gap inside the 95% CI (parity, not SOTA);
+correctness-head ECE is not distribution ECE (Jev 14.40%
+slightly lower like-for-like). Distinct from
+IamBusy/OpenJev `/v1/decide`. `notes.md` §71.
+
+## Is IPECTER/jev-context-pruner a compaction product?
+
+Not this pass. The repo is **empty** (409). Slogan only.
+Sibling of fast-jev-compaction / jev-compactor /
+dizk/jev-lens. Do not invent files. `notes.md` §71.

@@ -701,6 +701,38 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   [system-one-responsible-ai](https://github.com/david-j-lustig/system-one-responsible-ai)
   size-0 framing stub. Census not re-derived. No wrapper.
   No invented metrics.
+- Hourly ~06:43 Boise 2026-09-19 (`research/notes.md` §71): Archer
+  still Watch. Do not re-fold §50–§70 HIGH except sibling
+  contrast. **Harbor SGR-judge contract**
+  ([jev-judge-bench](https://github.com/slavadubrov/jev-judge-bench);
+  README MIT / GitHub SPDX NOASSERTION; frozen SLA-150; Jev vs
+  Luna / DeepSeek-flash / glm-5.3-flash; invalid = FN;
+  21 offline tests; canaries ≠ quality; **no quality headline
+  yet**; **≠** jevarena / jevbench). **Empty skip**
+  ([jev-context-pruner](https://github.com/IPECTER/jev-context-pruner);
+  409 empty). **Hand no-text steps**
+  ([jev-use](https://github.com/shitianfang/jev-use); MIT
+  v0.4.1; p50 220 ms; 186 vs 2,672 ms; gate 12/12; Vercel
+  drops confidence → margin 0.4; first loop 17/20 then 0/20
+  *theirs*; **≠** jev-ultrafast). **Pi System-One control
+  plane** ([pi-jev-control](https://github.com/goodruizhan/pi-jev-control);
+  license null; v0.3.0 private; GUI never force-click;
+  compaction never writes session). **Never free-generates**
+  ([jev-gpt](https://github.com/florian-hoenicke/jev-gpt);
+  license null; ~400 calls / 75 s / 2¢ *theirs*).
+  **OpenRouter recipe atlas**
+  ([jev-cookbook](https://github.com/nexibeo/jev-cookbook);
+  MIT; 1★; 16–36 samples not benches; 425 calls / $0.015;
+  browser 5/6 *theirs*). **Personal-history feed**
+  ([jevfeed](https://github.com/fengyiqicoder/jevfeed); MIT;
+  no social graph; one request per batch of ten).
+  **Competing NAR claim-audit, not endorsement**
+  ([openJev-verdict-2.0](https://github.com/Heman10x-NGU/openJev-verdict-2.0);
+  README Apache-2.0 / GitHub SPDX NOASSERTION; 77.10%/0.0636/
+  0.0144 *theirs* unverified; **open PR #1**: throughput≠
+  latency, Laya parity, like-for-like ECE; **≠**
+  IamBusy/OpenJev). Census not re-derived. No wrapper. No
+  invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

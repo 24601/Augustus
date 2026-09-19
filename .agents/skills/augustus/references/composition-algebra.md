@@ -55,6 +55,16 @@ mappings.md conventions.
   generation, not a Jev position. The loop is Jev→tool→Jev.
   Pick ≠ fill. Mapping §9 still rejects the fused
   planner-writer. `notes.md` §70.
+- **Selector of the next word** ([jev-gpt](https://github.com/florian-hoenicke/jev-gpt)):
+  position 4 applied to generation itself. Each token is a
+  Choice over a closed lexicon; the model never
+  free-generates. Architecture demo (~400 calls / 75 s /
+  2¢ *theirs*). Distinct from jeffrey (selector of next
+  *tool*). `notes.md` §71.
+- **Hand no-text steps** ([jev-use](https://github.com/shitianfang/jev-use)):
+  selector + gate; writing stays generation. Vercel drops
+  confidence so margin is a different statistic.
+  `notes.md` §71.
 - **TLA+ kernel around votes** ([jev-labs](https://github.com/copyleftdev/jev-labs)):
   aggregation (quorum, stability, escalate) is the spec,
   not a multiplied joint of five Nouls. `notes.md` §67.

@@ -1821,3 +1821,55 @@ safety escarpment; (gh) whole-repo intent UNKNOWN;
 (gi) GLiNER2 spec ≠ replica; (gj) open replica
 substrates (grande / laya-jolt / JEV-CPU / local-jev);
 (gk) persist constraints across compaction.
+
+## Batch #55 (2026-09-19 ~12:50 UTC / ~06:43 Boise) — SGR-judge Harbor contract, control-plane productization, never-generates, recipes+life feed, NAR claim-audit
+
+Note: `research/notes.md` §71. Docs-only. Folded into PR #2.
+Archer still Watch. No invented metrics. Do not re-fold
+§50–§70 HIGH except sibling contrast. Hunches labeled.
+IPECTER/jev-context-pruner **empty**.
+
+- **slavadubrov/jev-judge-bench (Empirical as frozen
+  contract; not a quality score).** Python; README MIT /
+  GitHub SPDX NOASSERTION. Created 2026-09-19T12:20:43Z;
+  0★; size 0 lag. SLA-150. Invalid = FN. 21 offline tests.
+  Canaries ≠ quality. **No headline yet.** ≠ jevarena /
+  jevbench. Always qualify owner.
+- **IPECTER/jev-context-pruner (empty skip).** Description
+  only; contents 409 empty. Sibling contrast vs
+  fast-jev-compaction / jev-compactor / dizk/jev-lens.
+- **shitianfang/jev-use (Empirical as 95-call card).**
+  TypeScript MIT v0.4.1; size 196. p50 220 ms; 186 vs
+  2,672 ms; gate 12/12; Vercel margin 0.4; 17/20 then
+  0/20 *theirs*. Fail-open. ≠ jev-ultrafast. Same author
+  as jev-handoff.
+- **goodruizhan/pi-jev-control (Empirical as README).**
+  TypeScript; license null; v0.3.0 private. Control plane.
+  GUI never force-click; compaction never writes session.
+  No live quality numbers.
+- **florian-hoenicke/jev-gpt (Empirical as README demo).**
+  Python; license null. Never free-generates. ~400 calls /
+  75 s / 2¢ *theirs*. Distinct from jeffrey.
+- **nexibeo/jev-cookbook (Empirical as recipe samples, not
+  benches).** JavaScript MIT; 1★; size 165. 425 calls /
+  $0.015; browser 5/6 *theirs*. 16–36 handmade.
+- **fengyiqicoder/jevfeed (Empirical as README + 17
+  tests).** JavaScript MIT. No social graph. One request
+  per batch of ten. Distinct from both Winnow products.
+- **Heman10x-NGU/openJev-verdict-2.0 (claim-audit, not
+  endorsement).** Python; README Apache-2.0 / GitHub SPDX
+  NOASSERTION. 77.10%/0.0636/0.0144 *theirs* unverified.
+  Open PR #1: throughput≠latency; Laya parity; like-for-like
+  ECE. ≠ IamBusy/OpenJev.
+
+Census not re-derived this hour (last §69). Archer still
+NOT landed.
+
+Cross-repo addition: (gl) Harbor SGR-judge contract /
+canaries ≠ quality / no headline yet; (gm) hand no-text
+steps / gateway drops confidence; (gn) Pi control plane /
+GUI never force-click; (go) generation as tree of Choices;
+(gp) recipe atlas / samples not benches; (gq)
+personal-history ranking without a social graph; (gr)
+competing NAR dual-channel ECE as claim-verification;
+(gs) empty compaction-proxy skip.

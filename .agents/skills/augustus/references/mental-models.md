@@ -557,6 +557,13 @@ Use these as *existence proofs of a position*. Write your own card.
 | Whole-repo intent | does unchanged code still violate the ask | VERIFIED/VIOLATION/UNKNOWN (**Empirical as CLI**: jev-intent-review) | Empty search ≠ proof; observation window ≠ the diff |
 | Persist constraints | will "don't touch that" survive compaction | Structured policy + replay; Jev classifies meaning (**Empirical**: pi-heed 98.5%/0 false block *theirs*) | Jev never writes policy; fail-open |
 | Open replica substrates | same contract, different engine | Isolation / byte-parity / agreement tests (**Empirical**: grande JGLUE; laya-jolt golden; local-jev 30%/57%; JEV-CPU PoC) | Softmax ≠ Noul; spec ≠ product; Meanblock 404; Archer Watch |
+| Harbor SGR-judge contract | does evaluation need generation? | Frozen protocol vs schema-guided LLM judges; invalid = FN; cost/latency first-class (**Empirical as contract**: jev-judge-bench; **no quality headline yet**) | Canaries ≠ F1; incomplete cohort ≠ replacement claim; qualify vs jevarena/jevbench |
+| Hand no-text steps | which loop steps need no writing | Plugin/control plane; writing stays generated (**Empirical**: jev-use 220 ms p50 / 12/12 gate *theirs*) | Vercel drops confidence → margin ≠ vendor head; fail-open gate never grants |
+| Control plane, not a second agent | router / gate / retry / sieve / review / click | Named sensors; fail polarity per act (**Empirical as README**: pi-jev-control) | GUI never force-click; compaction never writes the session |
+| Generation as a tree of Choices | next word without free generation | One typed question per choice over a closed lexicon (**Empirical as README**: jev-gpt ~400 calls / 75 s / 2¢ *theirs*) | Architecture demo; not a product writer; still pick ≠ fill |
+| Recipe atlas (code prepares) | which narrow questions fit this job | Samples show technique; policy in code (**Empirical as recipes**: jev-cookbook; 16–36 not benches) | Thresholds are a dial; numbers/dates stay exact |
+| Personal history without a social graph | what to show next from *your* trail | Rank outbound links; distribution *is* ranking (**Empirical as README**: jevfeed) | Generating the next look converges on a mirror; history never uploaded |
+| Dual-channel ECE / claim-audit | is this NAR "better calibrated"? | Like-for-like channels; n and CI before SOTA (**Hypothesis until independent run**; openJev-verdict-2.0 + PR #1) | Throughput ≠ latency; correctness-head ≠ distribution ECE; ≠ IamBusy/OpenJev |
 
 Rejected in every domain: replacing the ledger with a vibe; replacing
 the interlock with confidence; replacing the essay with a Noul;

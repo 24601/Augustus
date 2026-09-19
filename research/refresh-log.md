@@ -1017,3 +1017,29 @@
 - notes.md §70; sources.json (411 sources, 408 unique URLs,
   retrieved 2026-09-19T11:55Z); findings.md batch #54. No
   wrapper.
+
+## 2026-09-19 ~12:50 UTC — hourly ~06:43 Boise (SGR-judge contract, control planes, never-generates, recipes+feed, NAR claim-audit)
+- Docs-only fold into PR #2. `notes.md` §71. Archer still
+  Watch. Do not re-fold §50–§70 HIGH except sibling
+  contrast. Hunches labeled. No wrapper. No invented
+  metrics.
+- Live receipts: GitHub READMEs + `gh api` ~12:50 UTC.
+  IPECTER/jev-context-pruner **409 empty**.
+- Folded: jev-judge-bench SLA-150 (21 offline tests;
+  canaries ≠ quality; no headline yet; ≠ jevarena/jevbench);
+  jev-use 220 ms p50 / 12/12 / Vercel 0.4 *theirs*
+  (≠ jev-ultrafast); pi-jev-control license null (GUI never
+  force-click); jev-gpt ~400 calls / 75 s / 2¢; jev-cookbook
+  425/$0.015 samples not benches; jevfeed no social graph;
+  openJev-verdict-2.0 77.10%/0.0636/0.0144 *theirs*
+  unverified + PR #1 (throughput≠latency; Laya parity;
+  like-for-like ECE; ≠ IamBusy/OpenJev).
+- Census not re-derived. Archer still NOT landed.
+- Cards: SKILL.md, applied-mappings §1/§4/§5/§7/§9,
+  mappings §6/§7/§8/§9, mixed-architecture, validation,
+  faq, judgment-class, mental-models, methods-catalog,
+  toolbox, composition-algebra, agent-self-assessment,
+  question-design, ecosystem, CHANGELOG, README.
+- notes.md §71; sources.json (421 sources, 418 unique URLs,
+  retrieved 2026-09-19T12:50Z); findings.md batch #55.
+  No wrapper.

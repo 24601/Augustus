@@ -170,6 +170,12 @@ eval finding; 2026-09-19 ~03:38):**
 `recall` **0/4**. SessionStart hook injects rules
 unconditionally; an MCP tool sitting there is not enough
 (`notes.md` §68). 9×3 remains a hint.
+**Empty compaction-proxy skip (2026-09-19 ~06:43):**
+[jev-context-pruner](https://github.com/IPECTER/jev-context-pruner)
+— description-only Codex compression-proxy slogan;
+`contents/` 409 empty. Sibling of fast-jev-compaction /
+jev-compactor / dizk/jev-lens / jev-pruner. Do not invent
+files (`notes.md` §71).
 
 ## 2. Exact-text keep / drop
 
@@ -551,6 +557,23 @@ Unreviewed goldens *theirs*: **80%** verdict / **90%**
 content-type. HN 30 links ~$0.0015. Not on the Chrome Web
 Store. Do not copy unpacked-extension how-to
 (`notes.md` §69).
+**Personal-history feed without a social graph (Empirical as
+README + 17 offline tests; 2026-09-19 ~06:43):**
+[jevfeed](https://github.com/fengyiqicoder/jevfeed)
+(MIT) — last 200 history pages stay local; outbound links
+via Jina Reader; cheap LLM summarizes/filters; **one Jev
+request per batch of ten** (the distribution *is* ranking).
+No likes/follows/accounts. Distinct from ThinkyMiner/Winnow
+(grade an existing feed) and kevinpita/winnow (sieve). Do
+not copy `npm start` (`notes.md` §71).
+**OpenRouter recipe atlas (Empirical as 15 small samples,
+not benches; 2026-09-19 ~06:43):**
+[jev-cookbook](https://github.com/nexibeo/jev-cookbook)
+(MIT; 1★) — triage / PII / rerank / moderation / browser /
+Gmail. Code prepares, Jev answers narrow questions. Samples
+16–36 handmade; authors say **not benchmarks**. Recipes
+01–13: 425 calls / $0.015; browser 5/6 *theirs*. Do not
+copy OpenRouter tilde-id (`notes.md` §71).
 **Test**: moderation
 cost/coverage + false-hold vs false-publish; ranking recall *separate*
 from nDCG; select misroute rate; required-evidence recall vs Top-K.
@@ -730,6 +753,15 @@ the agent looping "pick a tool, call it, pick again" with the provider as
 the planner. **Test**: callability (literal / paraphrase / near-miss
 neighbor); reject-all when nothing fits; calibre reminder — thresholds
 do not transfer (`validation.md`).
+**Pi System-One control plane (Empirical as README + npm
+tests, no live quality numbers; 2026-09-19 ~06:43):**
+[pi-jev-control](https://github.com/goodruizhan/pi-jev-control)
+— task/model router, skill/memory/context gates, review
+gate, GUI action router in one Pi extension. License null;
+v0.3.0 private. Compaction never modifies the on-disk
+session; GUI < threshold → unknown, never force-click.
+Distinct from omp-jev-extensions / jevons / pi-heed / pi-om.
+Do not copy `pi install` (`notes.md` §71).
 
 ## 6. Expensive observation router
 
@@ -882,6 +914,19 @@ Shadow default. *Theirs:* v0.8.0+Jev recall 98.5% /
 false block 0.0% / $0.000058; mid-session rule change
 8/13 off vs 0/13 on. Distinct from actiongate
 (RBAC/schema). Do not copy `pi install` (`notes.md` §70).
+**Pi control-plane tool/GUI gates (Empirical as README;
+license null; 2026-09-19 ~06:43):**
+[pi-jev-control](https://github.com/goodruizhan/pi-jev-control)
+— deterministic fast-path then Jev on uncertain tools;
+GUI confidence below threshold → `unknown`, **never
+force-click**. Distinct from pi-heed (constraint ledger)
+(`notes.md` §71).
+**jev-use PreToolUse gate (Empirical as 12/12 + Vercel
+margin; 2026-09-19 ~06:43):**
+[jev-use](https://github.com/shitianfang/jev-use)
+— deny/ask only; **fail-open**; 12/12 *theirs*; Vercel
+drops confidence so margin default 0.4. Same author as
+jev-handoff. Gate never grants (`notes.md` §71).
 **Turnstile clone (Empirical as README architecture;
 2026-09-19 ~01:47):**
 [turnstile](https://github.com/zyphr-labs/turnstile)
@@ -1027,6 +1072,21 @@ Score ≥ 0.5 pauses mutating tools. Stuck ladder withholds
 the looping tool (2 Jev / 0 steps). Distinct from this
 card's no-LLM extreme and from jev-handoff (host baton).
 Do not copy npm (`notes.md` §70).
+**Hand no-text steps (Empirical as 95-call card; 2026-09-19
+~06:43):**
+[jev-use](https://github.com/shitianfang/jev-use)
+(MIT v0.4.1) — plugin hands did-it-work / which-next /
+severity / safe to Jev; writing stays with the LLM. p50
+220 ms; batched 186 vs 2,672 ms; gate 12/12 *theirs*.
+**≠** jev-ultrafast. Do not copy `npx` (`notes.md` §71).
+**Never free-generates (Empirical as README demo;
+2026-09-19 ~06:43):**
+[jev-gpt](https://github.com/florian-hoenicke/jev-gpt)
+(license null) — one typed question per word over a
+WordNet / jina tree, then rank texts. ~400 calls / 75 s /
+2¢ *theirs*. Architecture demo, not a product. Distinct
+from jeffrey (pick next-tool). Do not copy API-key how-to
+(`notes.md` §71).
 **Counterexample**: Stagehand extract `"pick"` with LLM
 fallback sold as "no LLM" — pick is a fast path, not this
 card. **Test**: every typed character exists in goal, facts,
