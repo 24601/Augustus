@@ -585,6 +585,10 @@ Use these as *existence proofs of a position*. Write your own card.
 | Token-budget cardinality | why does Jev win >20 options? | Options share `head_max_len`; ~3–4 tok/label at Banking77 (**Empirical as README**: 0.425 vs Jev 0.870 *theirs*) | Jev 255 options. Hierarchical Choice, not a silent cfg copy |
 | Post-T ECE ≠ raw ECE | which ECE is on the badge? | Temperature per (type, K) on held-out (**Empirical**: 0.466→0.081 / 0.314→0.106 *theirs*) | vs-Jev 0.081 is post-T. Raw typed-decisions 0.213 vs Jev 0.144. Multilingual ships uncalibrated |
 | Soft 0.85 gate | may I auto-act? | RLCD makes p *meaningful*, not Harbor-calibrated (**Contract**: README snippet) | Khmer 0.000@0.952. 0.85 is *theirs*. Route before p |
+| External census ≠ scored bake-off | is this a rank? | Named list + a promised board (**Empirical as tweet**: [@airesearch12](https://x.com/airesearch12/status/2101259522933186879); watch [jev-models](https://benchmarkheaven.com/jev-models)) | ≠ jevbench v1.1 §67. Do not paste live ranks here. Likes ephemeral |
+| Class-boundary (what belongs) | is GLiNER2 / a router an openjev? | Locate/categorize encoder + catalog routers counted beside NAR wires (**Contract as their list**) | Same job family ≠ replica. Needle 3 already not Jev-class §67. Qualify namesakes |
+| Incomplete census vs watch | are missing names out of class? | Laya / localjev / kev / TypeAR / openvons / chakuho / jevinf / grande / laya-jolt / blackwood / classifier-dev absent | Lag, not a dunk. Completeness is a board watch item |
+| Harbor honesty watch | what must a public openjev board disclose? | Calibration on/off the rank; cost/latency assumptions; silent fallback; partial runs (**Hypothesis until the sibling scored card**) | Soft-score-as-hard-rank is a design. Mixed class needs a class column |
 
 Rejected in every domain: replacing the ledger with a vibe; replacing
 the interlock with confidence; replacing the essay with a Noul;

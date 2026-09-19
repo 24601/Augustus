@@ -227,3 +227,10 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     0.000@0.952). Post-T ECE is not raw ECE; 0.85 is still soft.
     Full cards: `judgment-class.md`, `mixed-architecture.md`,
     `faq.md`, `validation.md`.
+17. **External class census** (@airesearch12 / Benchmark
+    Heaven): a named list is not a rank; GLiNER2 and
+    routers on the list are a class-boundary, not
+    identity; incompleteness is lag. Watch the board
+    URL; do not paste live scores into the census card.
+    Full cards: `mixed-architecture.md`, `faq.md`,
+    `validation.md`, `toolbox-mapping.md`.

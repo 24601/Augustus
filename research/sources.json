@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T15:07Z",
+  "retrieved": "2026-09-19T15:14Z",
   "sources": [
     {
       "kind": "docs",
@@ -2659,6 +2659,30 @@
       "title": "convaiinnovations/laya-demo",
       "url": "https://huggingface.co/spaces/convaiinnovations/laya-demo",
       "note": "Interactive Space for Hub Laya / NandhaKishorM/laya packaging. notes.md \u00a776."
+    },
+    {
+      "kind": "x",
+      "title": "@airesearch12 openjev census tweet",
+      "url": "https://x.com/airesearch12/status/2101259522933186879",
+      "note": "Florian S / Benchmark Heaven. Named ~18 openjevs; first leaderboard promised today. Engagement ephemeral (SIGNAL ~417/9/3; this pass 564/15/5). Class-boundary: GLiNER2 + routers. Incomplete vs Laya/localjev/kev. != jevbench v1.1. Do not copy Stripe. notes.md \u00a777."
+    },
+    {
+      "kind": "web",
+      "title": "Benchmark Heaven",
+      "url": "https://benchmarkheaven.com",
+      "note": "Hobbyist independent bake-off site (Florian S). Census tweet watch. notes.md \u00a777."
+    },
+    {
+      "kind": "web",
+      "title": "Benchmark Heaven jev-models (watch URL)",
+      "url": "https://benchmarkheaven.com/jev-models",
+      "note": "Watch surface for the first openjev leaderboard promised in the census tweet. Do not quote live ranks from the census card; scored methodology is a sibling fold. notes.md \u00a777."
+    },
+    {
+      "kind": "x",
+      "title": "@airesearch12",
+      "url": "https://x.com/airesearch12",
+      "note": "Florian S. benchmarkheaven.com. Census author. notes.md \u00a777."
     }
   ]
 }

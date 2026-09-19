@@ -10643,3 +10643,228 @@ raw ECE); `methods-catalog.md`; `toolbox-mapping.md`;
 `mappings.md` §7 (0.85 *theirs*; post-T ≠ raw ECE);
 `applied-mappings.md` §4 (open NAR product vs
 classifier.dev HTTP). Hunches labeled. No wrapper.
+
+## 77. User-provided HIGH — @airesearch12 Benchmark Heaven openjev census (2026-09-19 ~09:14 Boise / ~15:14 UTC)
+
+Docs-only into PR #2. **Skip Archer.** Quote the
+tweet; mark engagement **ephemeral**. Do **not**
+re-fold §50–§76 HIGH except sibling contrast (already-
+named heads on the list). Hunches labeled. No
+wrappers, Stripe coffee URL, copied ports, or
+invented metrics. TypeSafe Jev remains the exemplar —
+this signal is **measurement politics of the open
+System One class**, not a new model species.
+
+**THIS FOLD IS THE CENSUS TWEET ONLY.** Do **not**
+dump live board ranks, I/C/S/K numbers, or geometric-
+mean methodology as scores. The tweet promised "first
+leaderboard today";
+[benchmarkheaven.com/jev-models](https://benchmarkheaven.com/jev-models)
+is the **watch URL**. Scored methodology is a sibling
+card. Qualify three surfaces that are **not** the
+same artifact:
+
+1. This tweet (a named census + a promise).
+2. [`fstandhartinger/jevbench`](https://github.com/fstandhartinger/jevbench)
+   **v1.1** already §67 (314 decisions; Main Score
+   0.6/0.2/0.2; Jev 1.13.0 **87.6** *theirs*;
+   calibration **reported, not scored**).
+3. Live Benchmark Heaven board (watch; do not quote
+   ranks here). Also **≠**
+   [jev-judge-bench](https://github.com/slavadubrov/jev-judge-bench)
+   **≠** [chenmingtang830/jevarena](https://github.com/chenmingtang830/jevarena)
+   **≠** [meetr1912/jev-arena](https://github.com/meetr1912/jev-arena).
+
+Receipts: user SIGNAL_4b0c (~08:41 Boise via
+fxtwitter) + uploaded raw JSON + live X MCP
+`get_posts_by_id` this pass (~15:14 UTC).
+
+- URL:
+  [https://x.com/airesearch12/status/2101259522933186879](https://x.com/airesearch12/status/2101259522933186879)
+- Author: Florian S ([@airesearch12](https://x.com/airesearch12));
+  bio current: benchmarkheaven.com; fxtwitter snapshot
+  verified; X API `verified: false` this pass — do not
+  treat the badge as the lesson.
+- Created Sat Sep 19 10:38:04 +0000 2026
+  (`2026-09-19T10:38:04.000Z`).
+- Engagement **ephemeral** — SIGNAL fetch ~08:41
+  Boise: ~417 views, 9 likes, 3 replies, 1 quote, 6
+  bookmarks, 0 retweets. This pass X MCP: 564
+  impressions, 15 likes, 5 replies, 1 quote, 11
+  bookmarks, 0 retweets. Followers 5419. **Do not
+  quote likes as quality.**
+
+**Verbatim list** (tweet; last line is three
+products — ~18 named as the user said):
+
+- system-one-open
+- openjev-sglang
+- open-jev-deberta-v3-large
+- Needle 3
+- open-alternative-jev
+- Bespoke Nimble 9B
+- SemIf / openjev
+- open-jev (Dasein Labs)
+- open-jev (JoshuaSP)
+- OpenJev (razorback16 / Codiv)
+- mini-jev (Mikhail Rakutko (r-ms))
+- system-one (Sean Goedecke)
+- system-one-gemma (Akash Kamat)
+- jevlike (Vincent Wang-Maścianica)
+- AlexWortega/openjev (Alex Wortega)
+- GLiNER2 (Fastino)
+- Succinct Router 14M (Pedro Marques)
+- jev-model-router, Director, Loki
+
+Do **not** copy the coffee/Stripe line as a recipe.
+
+Meaning: **(1)** independent hobbyist census of the
+open categorization / System One class — an external
+bake-off *surface*, not our hourly watch and not a
+Harbor taskset; **(2)** class-boundary — GLiNER2 and
+routers are counted as openjevs, so "what belongs?"
+is now a public question; **(3)** incomplete vs our
+watch is a **lesson about census lag**, not a dunk on
+Florian; **(4)** watch whatever board drops against
+Harbor/jevals honesty (calibration, cost, latency,
+silent fallback, soft-score-as-hard-rank).
+
+### Already-folded namesakes on the list (sibling only)
+
+Do **not** re-card. Qualify collisions:
+
+- `open-jev-deberta-v3-large` — encoder DeBERTa §33.
+- Needle 3 — von/Needle family §49; §67 already
+  called Needle 3 a **function-calling model, not
+  Jev-class** (label only; no manufactured Brier).
+- open-alternative-jev — §49.
+- Bespoke Nimble 9B — §35.
+- SemIf / openjev — §69 (semif-serve runoff ≠
+  softmax; wire-compat ≠ replica).
+- OpenJev (razorback16 / Codiv) — structured-read
+  OpenJev / djev-spark §36 / §75. **≠**
+  [IamBusy/OpenJev](https://github.com/IamBusy/OpenJev)
+  `/v1/decide`.
+- mini-jev — §33.
+- GLiNER2 — locate/categorize encoder throughout
+  (GLiNER vs Jev; GLiNER2 spec ≠ replica; gliner2-
+  ultrafast). **Not** a NAR / TypeSafe clone.
+- jevlike — census tracker, not a quality headline.
+- jev-model-router — thin hourly product.
+- `open-jev` **Dasein Labs** vs **JoshuaSP** — two
+  owners, same hyphenated name. Always qualify.
+
+### Class-boundary (GLiNER2 + routers)
+
+The tweet treats wire-compat, encoder locate/categorize,
+and **routing products** as one competitive set.
+That is broader than TypeSafe API clones and broader
+than NAR Choice/Score/Noul heads.
+
+- **GLiNER2 (Fastino)** locates/categorizes spans.
+  Same *job family* as a System One (fast cheap
+  bounded judgment) — **not** a Jev replica and not
+  a Noul. Counting it as an "openjev" is a **class
+  claim**, not an identity claim. Fail closed if a
+  reader collapses it into `open-jev-deberta` or
+  razorback16 logits.
+- **Succinct Router 14M**, **jev-model-router**,
+  **Director**, **Loki** route among models. Routing
+  is a **Choice over a catalog** (applied-mappings
+  §5) — a placement of the class, not a second
+  decision-head species. Do not treat a router
+  leaderboard row as a Noul ECE.
+
+**Hunch:** a public "openjev" table that mixes
+replicas, encoders, routers, and function-calling
+models is useful as a **census** and dangerous as a
+**rank**. Harbor/jevals still wants: frozen taskset,
+native vs verbalized labelled, calibration on or
+honestly off the composite, cost/latency assumptions
+named, partial runs not ranked, silent fallback
+marked.
+
+### Incomplete vs our watch (lesson, not a dunk)
+
+The list does **not** yet name, among others we
+already folded:
+
+- [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)
+  / Hub Laya (§18 / §76)
+- [githubnext/localjev](https://github.com/githubnext/localjev)
+  (§75)
+- [jaredpalmer/kev](https://github.com/jaredpalmer/kev)
+- TypeAR / pcdServer / constrained-AR
+- [openvons](https://github.com/genai-craft/openvons)
+  (§68)
+- [chakuho](https://github.com/taku-me/chakuho)
+  (§72)
+- [jevinf](https://github.com/zerodegress/jevinf)
+  (§72)
+- [grande](https://github.com/bokuweb/grande) /
+  [laya-jolt](https://github.com/jlt-commons/laya-jolt)
+  / blackwood-rlcd
+- [mrmps/classifier-dev](https://github.com/mrmps/classifier-dev)
+  (§73) — hosted Jev HTTP, not an open weight
+- JevForge / OpenJev-Vision (watch)
+
+Absence from a hobbyist census is **not** evidence
+those heads are out of class. Completeness is a
+watch item for the board, not a quality score of
+the tweet.
+
+### Harbor / jevals honesty watch
+
+When the board is folded, ask (do not invent answers
+from this tweet):
+
+- Is **calibration** in the rank, reported beside it,
+  or missing? (§67 v1.1 kept it **off** Main Score
+  because label-only systems have no distribution.)
+- Are **cost** and **latency** measured, estimated,
+  or assumed (self-host ×N, non-production endpoints)?
+- Is **silent fallback** possible (classifier-dev
+  granite 0.546 vs advertised 0.800 *theirs*)?
+- Is a **soft score treated as a hard rank**
+  (geometric mean / weak-axis product is a *design*,
+  not a fact — sibling card)?
+- Are GLiNER2 / routers / Needle 3 / instruction
+  models in the **same table** as NAR replicas
+  without a class column?
+
+### Not
+
+Not Archer. Not a TypeSafe how-to. Not a scored
+bake-off. Not v1.1 GitHub jevbench. Not a dunk on
+an incomplete list. Do not copy Stripe. Do not
+quote ephemeral likes. Do not paste live I/C/S/K
+ranks into this card.
+
+### Skip / already folded / access notes
+
+- **fstandhartinger/jevbench v1.1** — already §67.
+  Sibling: same author's hobbyist surface; this hour
+  is the **census tweet**, not the v1.1 artifact.
+- **Needle 3 as Jev-class** — already rejected in
+  §67 (function-calling / label only).
+- **GLiNER2 family** — already throughout. This hour
+  is the **class-boundary** of counting it as an
+  openjev.
+- **Routers / jev-model-router** — thin hourly;
+  this hour is "counted as openjev."
+- Archer Hume open decision-model: still Watch.
+  **Skip Archer** this fold.
+
+### Curated status
+
+Census **not re-derived**. Archer still **NOT landed**.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table + gallery);
+`faq.md`; `mental-models.md`; `validation.md` (census,
+not scores); `methods-catalog.md`; `toolbox-mapping.md`;
+`composition-algebra.md`; `question-design.md`;
+`mappings.md` §7 (class-boundary; do not rank from a
+tweet); `judgment-class.md` (what belongs). Hunches
+labeled. No wrapper.

@@ -290,6 +290,10 @@ not a global virtue:
 | Hard-act at Laya conf 0.85 | **Fail closed** until Harbor cal on *your* labels | README recipe. Khmer 0.000@0.952 already proves gating cannot catch script OOD. 0.85 is *theirs* |
 | Quote the vs-Jev table as independently measured here | **Fail closed** (third-party unpublished-here) | No TypeSafe API access; sample sizes/prompts differ; Banking77 72 vs 77 labels |
 | Treat post-T ECE 0.081 as raw ECE | **Fail closed** (name the temperature) | Raw typed-decisions ECE 0.213 vs Jev 0.144. 0.081 is after domain T fit |
+| Treat the @airesearch12 census tweet as a scored bake-off | **Fail closed** (it is a list + a promise) | ≠ [jevbench](https://github.com/fstandhartinger/jevbench) v1.1. Watch [jev-models](https://benchmarkheaven.com/jev-models); do not paste live ranks into the census card. **≠** jev-judge-bench / jevarena |
+| Collapse GLiNER2 or routers into NAR / TypeSafe clones | **Fail closed** (class-boundary) | GLiNER2 locates/categorizes; Succinct 14M / jev-model-router / Director / Loki route. Same job family ≠ replica. Needle 3 is function-calling (already §67) |
+| Treat an incomplete openjev list as our watch being wrong | **Fail closed** (census lag) | Laya, githubnext/localjev, kev, TypeAR, openvons, chakuho, jevinf, grande, laya-jolt, blackwood, classifier-dev missing. Lesson, not a dunk |
+| Quote tweet likes/views as quality | **Fail closed** (ephemeral) | SIGNAL ~417/9/3; this pass 564/15/5. Do not copy Stripe |
 
 Worked placements (2026-09-18 topic:jev hour + prior archive):
 
@@ -747,6 +751,10 @@ decision-design card. Do not clone APIs from READMEs.
 | Laya packaging (not a new species) | Choice/Score/Noul NAR + Router over three Hub ckpts | Script-before-p; auto_task_detection off | NandhaKishorM/laya (Apache-2.0; **710★**; PyPI). Weights: convaiinnovations/{laya, laya-multilingual, laya-typed-decisions}. **≠** TypeSafe `/v1/systemone`. Do not copy pip |
 | Where Jev still leads | High-cardinality Choice; soft-acc; raw ECE | Token budget `head_max_len`; 255 options | Banking77 Jev **0.870** (72) vs Laya **0.425** (77, ~3–4 tok/label); soft-acc 0.580 vs 0.471; raw ECE 0.144 vs 0.213 *theirs* (third-party Jev rows unpublished-here) |
 | Where Laya leads on *their* T4 card | Latency; post-T ECE; multilingual router | Route by script before p | 1q **32.8 ms** vs Jev p50 236–276 ms (~7.8×); post-T ECE **0.081** vs 0.246; Khmer 0.000@0.952 is why Router exists |
+| External openjev census (tweet, not scores) | Named list of ~18; first leaderboard promised "today" | Class-boundary + completeness watch; likes ephemeral | [@airesearch12](https://x.com/airesearch12/status/2101259522933186879) (Florian S / Benchmark Heaven). **≠** jevbench v1.1. Watch [jev-models](https://benchmarkheaven.com/jev-models); scored card is sibling. Do not copy Stripe |
+| Class-boundary on a public list | GLiNER2 + routers counted as openjevs | Locate/categorize ≠ Noul; route ≠ replica ECE | GLiNER2 (Fastino); Succinct Router 14M; jev-model-router, Director, Loki. Qualify open-jev Dasein vs JoshuaSP; OpenJev razorback16 vs IamBusy |
+| Incomplete census vs watch | Absence ≠ out of class | Completeness is a board watch item | Laya / localjev / kev / TypeAR / openvons / chakuho / jevinf / grande / laya-jolt / blackwood / classifier-dev |
+| Harbor honesty watch (pre-score) | What the board must disclose | Calibration on/off rank; cost/latency assumptions; silent fallback; partial runs | Kinship with §67 v1.1 (cal off Main Score) and classifier-dev FALLBACK. Soft-score-as-hard-rank is a *design* |
 
 On-device / Home Assistant / mobile are newly-feasible via the economics
 inversion, not proven ports of every app. Named placements this hour

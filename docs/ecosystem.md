@@ -448,6 +448,12 @@ Architecture notes, not a pip / Colab catalog. `notes.md` §76. Skip Archer. Alw
 
 - **NandhaKishorM/laya** — Apache-2.0; **710★**; PyPI `laya`. Router over [`laya`](https://huggingface.co/convaiinnovations/laya) / [`laya-multilingual`](https://huggingface.co/convaiinnovations/laya-multilingual) / [`laya-typed-decisions`](https://huggingface.co/convaiinnovations/laya-typed-decisions). T4 *theirs*: 1q **32.8 ms** / 10q **72.3 ms**. Post-T ECE **0.081** vs Jev **0.246** (raw 0.213 vs 0.144). Banking77 **0.425** vs Jev **0.870**. typed-decisions **0.766** fine-tune (base below majority). Khmer **0.000@0.952**. 0.85 still soft. Jev rows third-party unpublished-here. Do not copy pip / preload.
 
+### User-provided ~09:14 Boise 2026-09-19 / 15:14 UTC (@airesearch12 Benchmark Heaven census — tweet, not scores)
+
+Architecture notes, not a leaderboard dump. `notes.md` §77. Skip Archer. Quote the tweet; mark likes **ephemeral**. **≠** [fstandhartinger/jevbench](https://github.com/fstandhartinger/jevbench) v1.1. Watch [benchmarkheaven.com/jev-models](https://benchmarkheaven.com/jev-models); do **not** paste live ranks here.
+
+- **@airesearch12** — [status/2101259522933186879](https://x.com/airesearch12/status/2101259522933186879) (Florian S). Named ~18 openjevs (system-one-open, openjev-sglang, DeBERTa open-jev, Needle 3, open-alternative-jev, Nimble 9B, SemIf, open-jev Dasein / JoshuaSP, OpenJev razorback16, mini-jev, system-one, system-one-gemma, jevlike, AlexWortega/openjev, **GLiNER2**, Succinct Router 14M, jev-model-router/Director/Loki). GLiNER2 + routers = **class-boundary**. Incomplete vs Laya / githubnext/localjev / kev / TypeAR / openvons. Engagement ephemeral (SIGNAL ~417/9/3; this pass 564/15/5). Do not copy Stripe.
+
 Census **not re-derived**. Archer still NOT landed.
 
 See `references/mixed-architecture.md` in the skill. Class-level family

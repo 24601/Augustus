@@ -1165,3 +1165,24 @@
 - notes.md §76; sources.json (443 sources, 440 unique URLs,
   retrieved 2026-09-19T15:07Z); findings.md batch #60.
   No wrapper.
+## 2026-09-19 ~15:14 UTC — user-provided @airesearch12 census (~09:14 Boise)
+- Docs-only into PR #2. `notes.md` §77. Skip Archer.
+  Hunches labeled. No wrapper. No invented metrics.
+  Quote tweet; mark likes ephemeral. **≠** jevbench
+  v1.1. Do not paste live board ranks. Do not copy
+  Stripe.
+- Receipts: user SIGNAL_4b0c (~08:41 Boise) + live X
+  MCP get_posts_by_id this pass (564 impressions / 15
+  likes / 5 replies / 1 quote / 11 bookmarks — ephemeral).
+- Folded: external census ≠ scored bake-off; GLiNER2 +
+  routers class-boundary; incomplete vs Laya / localjev /
+  kev / TypeAR / openvons; Harbor honesty watch
+  (calibration, cost, latency, silent fallback).
+- Census not re-derived. Archer still NOT landed.
+- Cards: SKILL.md, judgment-class, mixed-architecture,
+  faq, mental-models, validation, methods-catalog,
+  toolbox, composition-algebra, question-design,
+  mappings §7, ecosystem, CHANGELOG, README.
+- notes.md §77; sources.json (447 sources, 444 unique URLs,
+  retrieved 2026-09-19T15:14Z); findings.md batch #61.
+  No wrapper.

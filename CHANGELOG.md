@@ -836,6 +836,23 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   cannot catch. 0.85 still soft. Jev rows third-party
   unpublished-here. Do not copy pip / preload. No
   wrapper. No invented metrics.
+- User-provided signal ~09:14 Boise 2026-09-19
+  (`research/notes.md` §77): **Skip Archer.** **External
+  openjev census ≠ scored bake-off**
+  ([@airesearch12](https://x.com/airesearch12/status/2101259522933186879);
+  Florian S / Benchmark Heaven). Named ~18 (system-one-open,
+  openjev-sglang, DeBERTa open-jev, Needle 3,
+  open-alternative-jev, Nimble 9B, SemIf, open-jev Dasein /
+  JoshuaSP, OpenJev razorback16, mini-jev, system-one,
+  system-one-gemma, jevlike, AlexWortega/openjev, GLiNER2,
+  Succinct Router 14M, jev-model-router/Director/Loki).
+  GLiNER2 + routers are **class-boundary**. Incomplete vs
+  Laya / localjev / kev / TypeAR / openvons. Engagement
+  **ephemeral** (SIGNAL ~417/9/3; this pass 564/15/5). **≠**
+  jevbench v1.1. Watch
+  [jev-models](https://benchmarkheaven.com/jev-models); do
+  not paste live ranks. Do not copy Stripe. No wrapper. No
+  invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

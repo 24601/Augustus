@@ -812,6 +812,17 @@ as README; 2026-09-19 ~09:07):**
 calibrated. Khmer 0.000@0.952. vs-Jev ECE **0.081** is
 post-temperature (raw 0.213 vs Jev 0.144). Banking77
 token-budget, not a Jev loss. `notes.md` §76.
+**External census ≠ scored bake-off (Empirical as
+tweet; 2026-09-19 ~09:14):**
+[@airesearch12](https://x.com/airesearch12/status/2101259522933186879)
+— named ~18 openjevs + first leaderboard promised
+"today." **≠** jevbench v1.1. Watch
+[jev-models](https://benchmarkheaven.com/jev-models);
+do not paste live ranks here. GLiNER2 and routers on
+the list are **class-boundary**, not identity. Likes
+ephemeral. Incomplete vs Laya/localjev/kev is lag.
+Harbor still wants cal / cost / latency / silent
+fallback named. `notes.md` §77.
 
 ## 8. Control structure → sensor ≠ constraint (Leveson)
 

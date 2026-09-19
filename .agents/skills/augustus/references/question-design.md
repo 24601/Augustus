@@ -93,6 +93,10 @@ request, and treat a stale pin as a prior, never a setting.
 | 77-option Choice at default Laya head budget | ~3–4 tokens/label; labels collide | Hierarchical Choice, or a head that owns 255 options (Jev). Quote the token-budget fact; do not copy `head_max_len` ([NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)). `notes.md` §76 |
 | Auto-act because Laya conf ≥ 0.85 | Recipe ≠ Harbor cal; gating misses script OOD | Route by script first; fit T; pick τ on *your* labels. 0.85 is *theirs*. `notes.md` §76 |
 | Treat 0.766 / 0.081 as zero-shot / raw ECE | Fine-tune on that split; post-T | Base ckpts below majority. Name the temperature. Jev rows unpublished-here. `notes.md` §76 |
+| Rank openjevs from the census tweet | A list is not a bake-off | Wait for the scored sibling; watch [jev-models](https://benchmarkheaven.com/jev-models). ≠ v1.1. `notes.md` §77 |
+| Collapse GLiNER2 / routers into NAR clones because they are on the list | Class-boundary | Locate/categorize and route are placements, not replicas. Needle 3 already not Jev-class. `notes.md` §77 |
+| Treat missing Laya/localjev/kev as out of class | Census lag | Incomplete ≠ our watch wrong. Completeness is a board watch item. `notes.md` §77 |
+| Quote 15 likes as quality | Engagement is ephemeral | SIGNAL ~417/9; this pass 564/15. Do not copy Stripe. `notes.md` §77 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

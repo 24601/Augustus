@@ -1754,3 +1754,50 @@ Laya leads *theirs*: T4 **32.8 ms** vs Jev p50
 router. typed-decisions **0.766** is a fine-tune on
 that split (base ckpts below majority 0.461). `notes.md`
 §76.
+
+## Is the @airesearch12 tweet JevBench v1.1? Can I quote the live board from it?
+
+No, and no. The tweet is a **named census + a promise**
+of a first leaderboard "today"
+([status/2101259522933186879](https://x.com/airesearch12/status/2101259522933186879)).
+[`fstandhartinger/jevbench`](https://github.com/fstandhartinger/jevbench)
+**v1.1** is already §67 (314 decisions; Main 0.6/0.2/0.2;
+calibration **reported, not scored**). The watch URL is
+[benchmarkheaven.com/jev-models](https://benchmarkheaven.com/jev-models).
+Do **not** paste live ranks into the census card — scored
+methodology is a sibling fold. Also **≠** jev-judge-bench
+**≠** jevarena **≠** jev-arena. `notes.md` §67, §77.
+
+## Does GLiNER2 count as an openjev? Do routers?
+
+As a **class-boundary claim**, not as identity.
+GLiNER2 ([fastino-ai/gliner2](https://github.com/fastino-ai/gliner2))
+locates/categorizes;
+Succinct Router 14M / jev-model-router / Director / Loki
+**route**. The tweet lists them beside NAR replicas and
+TypeSafe-shaped wires. Same *job family* (fast cheap
+bounded judgment) ≠ a Jev replica and ≠ a Noul ECE row.
+Needle 3 is already **not Jev-class** in §67
+(function-calling / label only). Qualify `open-jev`
+Dasein vs JoshuaSP; OpenJev razorback16 vs IamBusy
+`/v1/decide`. `notes.md` §77.
+
+## Is the census complete? Are the missing names out of class?
+
+No, and no. Gaps vs our watch include Laya /
+[NandhaKishorM/laya](https://github.com/NandhaKishorM/laya),
+[githubnext/localjev](https://github.com/githubnext/localjev),
+kev, TypeAR, openvons, chakuho, jevinf, grande,
+laya-jolt, blackwood, classifier-dev. Incomplete census
+is **lag**, not a dunk and not evidence those heads left
+the class. Completeness is a board watch item. `notes.md`
+§77.
+
+## Can I rank openjevs from the tweet? Are 15 likes a quality signal?
+
+No, and no. A list is not a bake-off. Likes/views/quotes
+are **ephemeral** (SIGNAL ~417/9/3; this pass 564/15/5 —
+do not quote as quality). Harbor/jevals still wants a
+frozen taskset, calibration on or honestly off the
+composite, named cost/latency assumptions, partial runs
+not ranked, silent fallback marked. `notes.md` §77.

@@ -2053,3 +2053,29 @@ Router script-before-p; (hv) where Jev leads
 (Banking77 / soft-acc / raw ECE); (hw) post-T ECE ≠
 raw ECE / latency; (hx) 0.85 still soft / Khmer OOD
 productized; (hy) vs-Jev third-party unpublished-here.
+
+## Batch #61 (2026-09-19 ~15:14 UTC / ~09:14 Boise) — @airesearch12 Benchmark Heaven openjev census (tweet, not scores)
+
+Note: `research/notes.md` §77. Docs-only. Folded into PR #2.
+Skip Archer. No invented metrics. Hunches labeled.
+User-provided SIGNAL_4b0c + live X MCP this pass.
+**≠** fstandhartinger/jevbench v1.1. Do **not** paste
+live board ranks.
+
+- **@airesearch12 status/2101259522933186879
+  (Empirical as tweet).** Florian S / Benchmark Heaven.
+  Named ~18 openjevs including GLiNER2 and routers
+  (class-boundary). Engagement ephemeral (SIGNAL
+  ~417/9/3; this pass 564/15/5). Incomplete vs Laya /
+  githubnext/localjev / kev / TypeAR / openvons /
+  chakuho / jevinf / grande / laya-jolt / blackwood /
+  classifier-dev. Watch
+  https://benchmarkheaven.com/jev-models. Do not copy
+  Stripe.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (hz) external census ≠ scored
+bake-off; (ia) GLiNER2+routers class-boundary; (ib)
+incomplete census vs watch; (ic) Harbor honesty watch
+(cal / cost / latency / silent fallback).

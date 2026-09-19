@@ -655,6 +655,15 @@ rows third-party unpublished-here. 0.85 gating is
 *theirs*, still soft. **≠** TypeSafe `/v1/systemone`.
 **≠** githubnext/localjev. Do not copy pip / preload /
 `head_max_len` (`notes.md` §76).
+**External openjev census (tweet, not a new species;
+2026-09-19 ~09:14):**
+[@airesearch12](https://x.com/airesearch12/status/2101259522933186879)
+lists ~18 named openjevs including GLiNER2 and
+routers. That is a **class-boundary**, not identity.
+Incomplete vs Laya / githubnext/localjev / kev /
+TypeAR / openvons. **≠** jevbench v1.1. Watch
+[jev-models](https://benchmarkheaven.com/jev-models);
+do not paste live ranks (`notes.md` §77).
 **Schema-conditioned DeBERTa scorer (Hub; GitHub 404;
 2026-09-19 ~07:49):**
 [`jev-schema-scorer-deberta-v3-large`](https://huggingface.co/mobarmg/jev-schema-scorer-deberta-v3-large)
@@ -836,6 +845,9 @@ GLiNER2 spec),
 logit read; ≠ kunchenguid/local-jev),
 §76 (NandhaKishorM/laya packaging ≠ new species;
 Router script-before-p; vs-Jev unpublished-here),
+§77 (@airesearch12 census ≠ scored bake-off;
+GLiNER2+routers class-boundary; incomplete vs watch;
+≠ jevbench v1.1),
 §71 (openJev-verdict-2.0 competing NAR as claim-audit ≠
 IamBusy/OpenJev),
 §49 (boundary map; DMB vs constrained LLMs; von; open-alternative-jev). Before
