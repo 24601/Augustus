@@ -981,6 +981,7 @@ not endorsement; laya-grounded not drop-in / phishing
 regress / Platt not temperature; anima3 Qwen logprob
 default, jeff confidently flat, do not invent Laya),
 §88 (GestaltLabs/Jeff-1 LoRA Qwen3-4B ≠ logan-markewich/jeff GLiFormer; acc/ECE tradeoff n=9730 *theirs*; set reused),
+§89 (feelings / apa / grok-bot-jev / Essentiel / enzo-mcp / pigeonhole / playground / jev-reliability / clduab11/jev-test / jev-rag-benchmark / dairui1/jev-lab / jevmail / mailjay — placements, not new species),
 §49 (boundary map; DMB vs constrained LLMs; von; open-alternative-jev). Before
 adopting a surface, the bake-off is a jevals-shaped suite and, for a
 product loop, a Harbor taskset (`validation.md`, Eval & hill-climb).

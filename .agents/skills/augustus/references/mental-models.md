@@ -708,6 +708,38 @@ Cerebellum stay §87 — do not re-card.
 
 Soft Noul ≠ hard safety on every cluster.
 
+## Apply 1144 (`notes.md` §89)
+
+Same pillars, seven more placements. Do **not** re-fold
+1047 / §87 / §88.
+
+1. **Typed if** — `.feels()` is a typed method, not a
+   new language. Keep p with `.how()`. Exhaustive
+   `match`. Default 0.5 is Noul-0.5-never-rounded.
+   **≠** hunch **≠** Probably.
+2. **Shadow then honor** — policy + confidence gate +
+   shadow, then a skill that honors the action. A
+   pasted skill cannot force a bot that ignores it.
+   “Mathematically fulfilled” without numbers is
+   overclaim. **≠** AntonioCoppe/jev-harness.
+3. **Human every action** — Jev SENSOR; LLM drafts;
+   the person is the actuator. Never authority.
+   0.75 is provisional.
+4. **Atom then sense** — independently falsifiable
+   claims; deterministic evidence outranks Jev;
+   UNKNOWN useful; no sensor-output feedback.
+   **≠** jev-sift.
+5. **File by Choice** — classify then move.
+   `OTHER` skip. 0.6 still soft. **≠** jev-semgrep.
+6. **Question preflight** — Nothing about accuracy.
+   Preregister bars before runs. “Jev wins” is not
+   an assumption.
+7. **Inbox read-only vs write** — `gmail.readonly`
+   trays vs proposed archive/trash with review.
+   **≠** mailordinal.
+
+Soft Noul ≠ hard safety on every cluster.
+
 Formal methods **compose** with scoring. A Noul is a
 SENSOR. Hard-gating it as CI pass / HA write / authorship
 seal is the same theater as jev-gate §79.

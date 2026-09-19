@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T17:25Z",
+  "retrieved": "2026-09-19T17:55Z",
   "sources": [
     {
       "kind": "docs",
@@ -2941,6 +2941,90 @@
       "title": "leftspace89/jevsubrouter",
       "url": "https://github.com/leftspace89/jevsubrouter",
       "note": "MIT; 4 stars. Price workers not conversation. Fail-open. Counts != dollars. README SHA 317996d0. HEAD ca0050f. Deferred 0945 HIGH. notes.md §88."
+    },
+    {
+      "kind": "github",
+      "title": "BoundaryML/feelings",
+      "url": "https://github.com/BoundaryML/feelings",
+      "note": "BAML typed if. License null; 0 stars. HEAD 368ded8. README SHA a03170d1. .feels() default 0.5 is Noul-0.5-never-rounded. != hunch != Probably. notes.md §89."
+    },
+    {
+      "kind": "github",
+      "title": "AiPersonacademy/apa-agent-harness",
+      "url": "https://github.com/AiPersonacademy/apa-agent-harness",
+      "note": "MIT; 0 stars. README SHA 6213f8c2. Confidence-gated policy + shadow. Unpublished npm @aipersona/agent-harness. != AntonioCoppe/jev-harness. notes.md §89."
+    },
+    {
+      "kind": "github",
+      "title": "AiPersonacademy/apa-persona-engine",
+      "url": "https://github.com/AiPersonacademy/apa-persona-engine",
+      "note": "MIT; 0 stars. README SHA 266beb8c. Persona SM then leftover LLM. Unpublished npm @aipersona/persona-engine. <250ms != microsecond. notes.md §89."
+    },
+    {
+      "kind": "github",
+      "title": "Bodila51/grok-bot-jev",
+      "url": "https://github.com/Bodila51/grok-bot-jev",
+      "note": "MIT; 1 star. HEAD e82c03e. README SHA a03a16c9. Skill honor; A/B proxies != tokens; 13.0x is a top-five cap. notes.md §89."
+    },
+    {
+      "kind": "github",
+      "title": "JacquesGariepy/Essentiel-Jev",
+      "url": "https://github.com/JacquesGariepy/Essentiel-Jev",
+      "note": "License null; 0 stars. HEAD 16b8e6f. README SHA 48ac00e1. Human every action; never authority; 0.75 provisional. != jevmail != mailjay. notes.md §89."
+    },
+    {
+      "kind": "github",
+      "title": "mahawi1992/enzo-mcp",
+      "url": "https://github.com/mahawi1992/enzo-mcp",
+      "note": "MIT; 0 stars. HEAD dcd9e20. README SHA 9a213c9e. Independently falsifiable claims; UNKNOWN useful. != jev-sift. notes.md §89."
+    },
+    {
+      "kind": "github",
+      "title": "noripto/pigeonhole",
+      "url": "https://github.com/noripto/pigeonhole",
+      "note": "MIT; 0 stars. HEAD 2325142. README SHA 43675c4e. Decision-as-filing; OTHER skip; 0.6 still soft. != jev-semgrep. notes.md §89."
+    },
+    {
+      "kind": "hf",
+      "title": "bojansandhaus/jev-agent-decision-playground",
+      "url": "https://huggingface.co/spaces/bojansandhaus/jev-agent-decision-playground",
+      "note": "MIT; 0 likes; sdk static; sha 1fab381e. Client-side playground; no network. != classifier.dev. Sibling jev-decisions pointer only. notes.md §89."
+    },
+    {
+      "kind": "github",
+      "title": "vcjdeboer/jev-reliability",
+      "url": "https://github.com/vcjdeboer/jev-reliability",
+      "note": "SPDX NOASSERTION; LICENSE.md MIT+CC BY 4.0; 0 stars. HEAD f4e5f2c. README SHA eaad87f7. Nothing about accuracy. noul-gate 0.0%/12.5%/3.6% *theirs*. != dinostomp. notes.md §89."
+    },
+    {
+      "kind": "github",
+      "title": "clduab11/jev-test",
+      "url": "https://github.com/clduab11/jev-test",
+      "note": "MIT; 0 stars. HEAD 735bdd6. README SHA 59115535. Preregistered hallu bench. Nothing runs yet. Bars != scores. != realZachi/jevtest. notes.md §89."
+    },
+    {
+      "kind": "github",
+      "title": "erendikmenn/jev-rag-benchmark",
+      "url": "https://github.com/erendikmenn/jev-rag-benchmark",
+      "note": "MIT; 0 stars. HEAD 2ff8df7. README SHA ea54bbe0. RAG quality/latency/cost. Jev wins is not an assumption. != Max-sm-yc/Jev-RAG. notes.md §89."
+    },
+    {
+      "kind": "github",
+      "title": "dairui1/jev-lab",
+      "url": "https://github.com/dairui1/jev-lab",
+      "note": "License null (README claims MIT); 0 stars. HEAD 7d41ce0. README SHA 4c006b68. 120 synthetic tickets urgent 91% vs Haiku 79% *theirs*. != BrendanH18/jev-lab. Do not re-card jev-desktop. notes.md §89."
+    },
+    {
+      "kind": "github",
+      "title": "fazlerocks/jevmail",
+      "url": "https://github.com/fazlerocks/jevmail",
+      "note": "MIT; 3 stars. HEAD f6f20af. README SHA 9b1ea8b0. Gmail readonly triage via Jev/Vercel Gateway. ~3 cents / ~1 min per 1k *theirs*. != mailordinal != mailjay. notes.md §89."
+    },
+    {
+      "kind": "github",
+      "title": "secondfret/mailjay",
+      "url": "https://github.com/secondfret/mailjay",
+      "note": "License null; 0 stars. HEAD 346725c. README SHA fd52c7b9. macOS inbox writes after review (archive/trash). != jevmail readonly != mailordinal. notes.md §89."
     }
   ]
 }

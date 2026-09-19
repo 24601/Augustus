@@ -1466,3 +1466,53 @@
 - notes.md §88; sources.json (490 sources, 487 unique URLs,
   retrieved 2026-09-19T17:25Z); findings.md batch #71.
   No wrapper.
+
+## 2026-09-19 ~17:55 UTC — hourly 1144 HIGH (~11:49 Boise)
+- Docs-only on PR #3. `notes.md` §89. Skip Archer.
+  Do **not** re-fold 1047 / §87 / §88. Hunches labeled.
+  No wrapper. No invented metrics. Quote READMEs.
+  Soft Noul ≠ hard safety. 0★ HIGHs still get real
+  cards. Not a Jev skill dump.
+- Folded how-to-apply clusters: Typed if (feelings
+  `.feels()` default 0.5 is Noul-0.5-never-rounded;
+  exhaustive BAML `match`; **≠** hunch **≠** Probably);
+  Shadow then honor (apa-agent-harness **≠**
+  AntonioCoppe/jev-harness; unpublished npm; grok-bot-jev
+  skill honor; A/B proxies ≠ tokens; 13.0× is a top-five
+  cap; apa-persona-engine SM then leftover LLM);
+  Human every action (Essentiel-Jev never authority;
+  0.75 provisional);
+  Atom then sense (enzo-mcp independently falsifiable
+  claims; UNKNOWN useful; **≠** jev-sift);
+  File by Choice (pigeonhole OTHER skip; 0.6 still
+  soft; HF playground static no-network; **≠**
+  classifier.dev; sibling jev-decisions pointer only);
+  Question preflight (jev-reliability Nothing about
+  accuracy; noul-gate 0.0%/12.5%/3.6% *theirs*;
+  clduab11/jev-test bars ≠ scores; jev-rag-benchmark
+  “Jev wins” is not an assumption; dairui1/jev-lab
+  91% vs 79% *theirs* synthetic; **≠** BrendanH18;
+  do not re-card jev-desktop);
+  Inbox read-only vs write (jevmail `gmail.readonly`
+  ~3¢/1k *theirs*; mailjay archive/trash after review;
+  **≠** mailordinal).
+- Formal compose: BAML exhaustive `match`; kill switch
+  + skill honor; human approve + read-back;
+  deterministic evidence + `allow_external_jev`;
+  `OTHER` skip; static no-network; `gmail.readonly`;
+  Trash not delete. Soft Noul ≠ hard safety:
+  `.feels()` 0.5, apa 0.85, Essentiel 0.75, pigeonhole
+  0.6, jev-lab 0.65/0.70. Hard-gating a default 0.5
+  bool / quoting “mathematically fulfilled” / treating
+  A/B as token savings / letting Jev send / pasting
+  bars as results is soundness theater.
+- Census not re-derived. Archer still NOT landed.
+- Cards: SKILL.md, mixed-architecture fail table +
+  gallery, faq, mental-models, judgment-class,
+  validation, applied-mappings, mappings, toolbox,
+  composition-algebra items 41–48, question-design,
+  methods-catalog, formal-methods, agent-self-assessment,
+  ecosystem, CHANGELOG, README.
+- notes.md §89; sources.json (504 sources, 501 unique URLs,
+  retrieved 2026-09-19T17:55Z); findings.md batch #72.
+  No wrapper.
