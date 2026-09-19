@@ -17,7 +17,7 @@ request, and treat a stale pin as a prior, never a setting.
 2. One question per judgment. Split any question that weighs two properties.
 3. Pick the primitive whose answer code acts on directly.
 4. Build the smallest state that answers every question; compute in code whatever code can compute.
-5. Put every question sharing the state into **one request** (speculative fan-out — parallel questions cost little latency; code ignores unneeded answers). Second requests only when later data depends on an earlier answer. Extractive / pointer: number the candidates in **code**; ask per-id Noul/Choice; copy verbatim. "Not found" is an option. The model never writes the quote (`applied-mappings.md` §2; `notes.md` §48).
+5. Put every question sharing the state into **one request** (speculative fan-out — parallel questions cost little latency; code ignores unneeded answers). Second requests only when later data depends on an earlier answer. Extractive / pointer: number the candidates in **code**; ask per-id Noul/Choice; copy verbatim. "Not found" is an option. The model never writes the quote. **Evidence-synthesis scale ([choxos/jev-reviewer](https://github.com/choxos/jev-reviewer), ≠ egma-ai):** fan-out every question over shared chunks, then a **second** absolute Noul ("does this line itself answer?") for multi-row tables; human tick never overwritten (`applied-mappings.md` §2; `notes.md` §48, §74).
 6. Combine in code: branches, weights, confidence gates.
 7. Test on labeled examples; read `probabilities` on the misses; revise one or two questions at a time.
 
@@ -85,6 +85,9 @@ request, and treat a stale pin as a prior, never a setting.
 | Quoted F1 without eval/README | `/benchmark` is tracked JSON; n=7 train-on-test | Read eval/README first; ~0.03 is a coin flip ([classifier-dev](https://github.com/mrmps/classifier-dev)). `notes.md` §73 |
 | Docs say 0.800, serving 0.546 | Silent fallback is a lie about the instrument | Mark `FALLBACK`; rh-guard owns the gate ([classifier-dev](https://github.com/mrmps/classifier-dev) granite *theirs*). `notes.md` §73 |
 | Escalate every multi-label on smart | Re-judge made it worse (23 s) | Smart is single-label <0.7 only; 0.7 is *theirs*. `notes.md` §73 |
+| Paraphrased "quote" from a paper | Generator invented the excerpt | Point at line ids; copy verbatim; *Not found* is an answer ([choxos/jev-reviewer](https://github.com/choxos/jev-reviewer), ≠ egma-ai). `notes.md` §74 |
+| One pass on a table with two Age rows | Relative Choice is not an absolute check | Two-pass: which-line Choice, then "does this line itself answer?" Noul. `notes.md` §74 |
+| Unchecked extraction entered the review | Human tick skipped as chrome | Checked answers never overwritten; tick is the product. `notes.md` §74 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

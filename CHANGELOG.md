@@ -787,6 +787,20 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   owns the gate. Life/business (spam/inbox/feedback),
   not SWE-only. Distinct from ask-jev-ai wall. No wrapper.
   No invented metrics.
+- User-provided signal ~08:48 Boise 2026-09-19
+  (`research/notes.md` §74): **Skip Archer.** **Delta of
+  §48.** Pointer-not-generator at evidence-synthesis
+  scale
+  ([choxos/jev-reviewer](https://github.com/choxos/jev-reviewer);
+  MIT; **12★**; https://jevreviewer.xera.ac). **≠**
+  [egma-ai/jev-reviewer](https://github.com/egma-ai/jev-reviewer).
+  Two-pass Choice (which line) + Noul (does this line
+  itself answer); quotes = Noul ≥ 0.5 *theirs*. *Not
+  found* / *Unclear* first-class. Human tick is the
+  product (checked never overwritten). 18-q template
+  **4.6 s / $0.0101** *theirs* (spot check, not a
+  validation study). Cochrane / PRISMA / RoB, not
+  SWE-only. No wrapper. No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

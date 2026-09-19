@@ -575,6 +575,9 @@ Use these as *existence proofs of a position*. Write your own card.
 | Productized System One HTTP | label + calibrated p as a public contract | Batch `{id,text}[]`; LLM fallback only (**Empirical as README**: classifier-dev **185★**; 400 headlines 650 ms *theirs*) | Distinct from ask-jev-ai wall; policy stays in code; not omni |
 | Escalate-under-threshold | pay S2 only where p might change the act | Smart re-asks single-label <0.7; multi-label ignores (**Empirical**: classifier-dev ≥0.9→82% / <0.5→29%; gemini 87.5→90.0 / 61.8→63.7 *theirs*) | 0.7 is *theirs*; re-judge that made it worse is not VOI |
 | Silent-fallback honesty | which model actually answered? | Named `FALLBACK` marker; alerts on a quiet chain (**Empirical**: granite F1 **0.546** vs advertised ~**0.800** *theirs*) | rh-guard owns the gate; dinostomp owns the instrument |
+| Evidence-synthesis pointer | which line in the paper is the quote? | Jev picks ids; code copies verbatim (**Empirical as README**: choxos/jev-reviewer **12★**; 18-q **4.6 s / $0.0101** *theirs*) | **≠** egma-ai attention. *Not found* is an answer. Spot check ≠ validation |
+| Two-pass relative + absolute | which line, and does that line itself answer? | Choice (+ none) then per-line Noul (**Empirical**: choxos; quotes Noul ≥ 0.5 *theirs*) | Multi-row tables need both; 0.5 is *theirs* |
+| Human check as productized judgment | may this quote enter the review? | Tick/edit; checked never overwritten (**Empirical as README**: choxos) | Jev SENSOR; reviewer constraint. Not optional chrome |
 
 Rejected in every domain: replacing the ledger with a vibe; replacing
 the interlock with confidence; replacing the essay with a Noul;

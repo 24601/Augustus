@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T14:37Z",
+  "retrieved": "2026-09-19T14:48Z",
   "sources": [
     {
       "kind": "docs",
@@ -1332,7 +1332,7 @@
       "kind": "github",
       "title": "choxos/jev-reviewer",
       "url": "https://github.com/choxos/jev-reviewer",
-      "note": "MIT. Pointer-not-generator: line ids; verbatim copy with place; not found is an answer. notes.md \u00a748."
+      "note": "MIT; 12 stars; created 2026-09-18T14:47:00Z; pushed 2026-09-19T14:28:03Z. Systematic-review pointer-not-generator (delta of notes.md \u00a748). Jev picks line ids; code copies verbatim. Two-pass Choice+Noul; quotes Noul >= 0.5 theirs. Not found is an answer. Human tick never overwritten. 18-q template 4.6 s / $0.0101 theirs (spot check, not a validation study). Distinct from egma-ai/jev-reviewer. notes.md \u00a774."
     },
     {
       "kind": "github",
@@ -2623,6 +2623,12 @@
       "title": "classifier.dev",
       "url": "https://classifier.dev",
       "note": "Homepage for mrmps/classifier-dev. Public no-key classification API. /benchmark generated from tracked src/vs-jev.json. notes.md \u00a773."
+    },
+    {
+      "kind": "web",
+      "title": "jevreviewer.xera.ac",
+      "url": "https://jevreviewer.xera.ac",
+      "note": "Hosted local-first systematic-review extractor for choxos/jev-reviewer. No key, no install. Files stay in the browser. notes.md \u00a774."
     }
   ]
 }

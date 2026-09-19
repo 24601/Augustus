@@ -278,6 +278,9 @@ not a global virtue:
 | Escalate every multi-label answer on `tier: smart` | **Fail closed** (do not) | Re-judging made it worse (23 s). Smart re-asks **single-label <0.7** only. 0.7 is *theirs*, not a class constant |
 | Quote classifier.dev numbers without `eval/README` | **Fail closed** (do not) | `/benchmark` is tracked `vs-jev.json`, not transcription. n=7 train-on-test; ~0.03 is a coin flip |
 | Serve a silent fallback as the advertised model | **Fail closed** (mark `FALLBACK`) | granite-4.0-h-micro F1 **0.546** vs advertised ~**0.800** *theirs* for weeks. rh-guard owns the eval-integrity gate; this is the lived cousin |
+| Treat choxos/jev-reviewer as egma-ai PR attention | **Fail closed** (different products) | Systematic-review pointer ≠ code-diff attention. Always write **choxos/jev-reviewer** or “systematic-review Jev Reviewer” |
+| Let Jev write the quote / skip *Not found* | **Fail closed** (copy verbatim; *Not found* is an answer) (`choxos/jev-reviewer`) | Pointer-not-generator. Noul ≥ 0.5 *theirs*. Unclear keeps closest lines. No paraphrase invent |
+| Auto-accept an unchecked extraction quote | **Fail closed** (human tick is the product) | Checked answers are never overwritten by a reworded question. Jev is SENSOR; the reviewer is the constraint |
 
 Worked placements (2026-09-18 topic:jev hour + prior archive):
 
@@ -727,6 +730,8 @@ decision-design card. Do not clone APIs from READMEs.
 | Escalate-under-threshold (smart tier) | re-ask single-label p<0.7; mark `escalated` | Multi-label **ignores** tier (re-judge worse, 23 s) | classifier-dev. Emotion ≥0.9 → 82% / <0.5 → 29% *theirs*. gemini-3.8-flash 87.5→90.0 / 61.8→63.7; other flashes no better. Cousin jev-use |
 | Measurement-first public bench | vs_jev / single / escalate / multi-label | Site table = tracked JSON; read eval/README first | classifier-dev. Multi-label F1 **0.887** / **230 ms** vs cascade **0.799** / 1.5 s *theirs* (eval 232 ms). n=7 train-on-test; ~0.03 coin flip. Not a Harbor taskset |
 | Silent-fallback honesty | digest names the model that answered | `FALLBACK` marker; alerts on quiet chain | granite-4.0-h-micro F1 **0.546** vs advertised ~**0.800** *theirs*. rh-guard owns the gate; dinostomp owns instrument-not-score |
+| Evidence-synthesis pointer (choxos) | Jev picks line ids; code copies verbatim | *Not found* / *Unclear* first-class; human tick never overwritten | choxos/jev-reviewer (MIT; **12★**; https://jevreviewer.xera.ac). **≠** egma-ai. 18-q template **4.6 s / $0.0101** *theirs* (spot check, not a validation study) |
+| Two-pass Choice + Noul | relative “which line?” then absolute “does this line itself answer?” | Multi-row tables (Mean SD vs Median IQR) need both | choxos/jev-reviewer. Quotes = Noul ≥ 0.5 *theirs*. Cousin Stagehand extract / jev-sift |
 
 On-device / Home Assistant / mobile are newly-feasible via the economics
 inversion, not proven ports of every app. Named placements this hour

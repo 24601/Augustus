@@ -225,9 +225,15 @@ a confident model cannot substitute for checked expectations.
 [testimonial-miner](https://github.com/AppitStudio/testimonial-miner) —
 code numbers sentences; one broadcast (Choice/Noul/Score + per-sentence
 Nouls); the model never writes; `redecide` retunes thresholds on the
-log. [jev-reviewer](https://github.com/choxos/jev-reviewer) — the model
-**points at line ids**; code copies verbatim quotes with place; *not
-found* is an answer. Claim/evidence Stop cousin
+log. **[choxos/jev-reviewer](https://github.com/choxos/jev-reviewer)**
+(systematic-review Jev Reviewer; MIT; **12★**;
+https://jevreviewer.xera.ac; **≠** egma-ai) — the model
+**points at line ids**; code copies verbatim quotes with
+file/page/row; *Not found* / *Unclear* are answers. Two-pass:
+relative Choice (which line?) then absolute Noul (does this line
+itself answer?); quotes = Noul ≥ 0.5 *theirs*. Human tick is the
+product: checked answers never overwritten (`notes.md` §48, §74).
+Claim/evidence Stop cousin
 ([clear-head](https://github.com/VladyslavHontar/clear-head), ~16:48):
 the model judges claims against **keyword-retrieved session lines**,
 not against another model's prose; `JEV_FIRM` below 0.6 never blocks

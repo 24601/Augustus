@@ -10078,3 +10078,152 @@ VOI), §7 (0.7 criterion; multi-label no-escalate), §8
 product); `question-design.md` (read eval/README; FALLBACK
 honesty); `toolbox-mapping.md`; `methods-catalog.md`;
 `composition-algebra.md`. Hunches labeled. No wrapper.
+
+## 74. User-provided signal — choxos/jev-reviewer (2026-09-19 ~08:48 Boise / ~14:48 UTC)
+
+Docs-only **delta** of §48 into PR #2. **Skip Archer.**
+Do **not** re-fold §50–§73 HIGH except sibling contrast
+(Stagehand extract / jev-sift pointer family;
+egma-ai/jev-reviewer name lock; classifier-dev as a
+*different* productized surface). Hunches labeled. No
+wrappers, `npm start`, `.env`, relay, or invented
+metrics. TypeSafe Jev remains the exemplar — this
+signal is **pointer-not-generator at evidence-synthesis
+scale**, not a thin Jev skill and not SWE-only.
+
+**CRITICAL NAME LOCK.** Always write
+**`choxos/jev-reviewer`** or **systematic-review Jev
+Reviewer**. This is **not**
+[egma-ai/jev-reviewer](https://github.com/egma-ai/jev-reviewer)
+(code-diff attention P0/P1/P2; OpenAI writes deltas;
+`notes.md` §58).
+
+Receipts: user-provided SIGNAL + live GitHub README SHA
+`d0220a1` this pass. Repo.json: MIT, **12★**; created
+2026-09-18T14:47:00Z; pushed 2026-09-19T14:28:03Z;
+homepage https://jevreviewer.xera.ac. Topics: clinical-trials,
+cochrane, data-extraction, evidence-synthesis, jev,
+local-first, meta-analysis, pdf, prisma, rob2,
+systematic-review, typesafe. §48 had **1★** and the
+architecture; this hour is the **productized**
+Cochrane/PRISMA surface (templates, human check, live
+site).
+
+Meaning: **(1)** pointer-not-generator at domain scale
+(Jev picks line ids; code copies verbatim quotes with
+file/page/row — Stagehand extract / jev-sift family);
+**(2)** two-pass **relative Choice** (which line answers
+q? + none) then **absolute Noul** (does this line
+itself answer?) — needed for multi-row table answers
+such as Mean (SD) vs Median (IQR); **(3)** *Not found*
+/ *Unclear* as first-class answers (no paraphrase
+invent); **(4)** speculative fan-out of every question
+over shared chunks; **(5)** medicine / Cochrane /
+PRISMA / RoB — class application beyond SWE; **(6)**
+**human check as productized judgment**, not optional
+UI chrome (checked answers never overwritten by a
+reworded question).
+
+### HIGH
+
+1. **[`choxos/jev-reviewer`](https://github.com/choxos/jev-reviewer)**
+   ([jevreviewer.xera.ac](https://jevreviewer.xera.ac);
+   [Pages](https://choxos.github.io/jev-reviewer/)) —
+   **DELTA of §48.** MIT; **12★**. Local-first
+   systematic-review data extraction in the browser.
+   Open a trial PDF plus supplements (Word, Excel, PPT,
+   HTML, …); ask extraction-form questions or RoB 2 /
+   ROBINS-I / QUADAS-2 / TIDieR templates. Model is
+   TypeSafe Jev `jev-1.13.0`. Jev **never writes text**:
+   it only points at line ids; code copies the quote
+   out of the file. Nothing is paraphrased, so nothing
+   can be invented. Files stay in the browser; nothing
+   uploaded. Hosted copies: no key, no install (do
+   **not** copy the relay / `DAILY_TOKEN_BUDGET` /
+   localhost `8787`).
+
+   **Two-pass (Empirical as README).** Pass 1, screen:
+   one request per chunk of 2–3 pages of one file, all
+   questions — Choice "which line answers q?" (+ none)
+   and a passage Noul. Pass 2, verify: per question,
+   the best lines and neighbors, one Noul each: "does
+   line B129 **itself** answer q?". Code: quotes =
+   lines with Noul **≥ 0.5** (*theirs*, not a class
+   constant), adjacent lines merged, table label added.
+   **Hunch:** relative Choice ranks among candidates;
+   absolute Noul is the independent check that a
+   multi-row table needs. One pass is not enough when
+   two rows under "Age" both look like an answer.
+
+   **Speculative fan-out (Empirical as sample study,
+   Sep 2026; not a validation study).** 17-page article
+   + 12-page analysis plan + CONSORT, **712** lines
+   *theirs*: 1 question 10 req / 1.2–2 s / **$0.0016**;
+   9 questions 17 / 2.3 s / **$0.0052**; 18-question
+   template 27 / **4.6 s** / **$0.0101**. Chunks of
+   12k characters matched 7k with a third fewer
+   requests. "dose of metformin" came back *Not found*.
+   Treat as spot checks; check quotes against the files
+   before they enter a review.
+
+   **Not found is an answer.** When no line passes, the
+   card says *Not found* (or *Unclear*, with the closest
+   lines) instead of guessing. *Not applicable* is a
+   checked n/a. The model is not asked to invent a
+   number that is not in the paper.
+
+   **Human check is the product.** Every quote has tick /
+   pencil / copy. An answer you have checked or annotated
+   is **never overwritten** by a reworded question: it
+   stays, under a new id, beside the new one. The
+   extraction table is green only once ticked. **Hunch:**
+   this is judgment as a *checked* act (Leveson: the
+   human is the constraint; Jev is the sensor), not a
+   prettier loading spinner. Distinct from egma-ai
+   attention≠verdict (where the human looks on a PR).
+
+   **Life/science, not SWE-only.** Cochrane / PRISMA /
+   RoB 2 / ROBINS-I / QUADAS-2 / TIDieR / meta-analysis
+   outcome grids (`meta::pairwise()` long layout).
+   Cousin of Stagehand extract (Jev picks; code copies)
+   and jev-sift (classify-first; uncertain ≠ irrelevant)
+   — same species, different domain. classifier-dev is
+   a **categorization API**; this is an **evidence
+   extractor**. Do not collapse the two.
+
+   **Not.** Not egma-ai/jev-reviewer. Not an open-weight
+   replica. Not omni / multimodal (document *text*, not
+   pixels). Not a hard agent PreToolUse gate. Scanned
+   PDFs need OCR first (their limit). Do not copy
+   `npm start`, `.env`, or the TypeSafe relay.
+
+### Skip / already folded / access notes
+
+- **§48 architecture** — already folded (1★ then). This
+  hour is the **12★** productization delta only.
+- **egma-ai/jev-reviewer** — already §58. Name lock
+  only. Attention ≠ correctness.
+- **Stagehand extract / jev-sift / gliner2-ultrafast /
+  testimonial-miner** — already pointer family. Sibling
+  contrast only.
+- **classifier-dev** — already §73. Different public
+  product (HTTP labels vs local-first quotes).
+- Archer Hume open decision-model: still Watch. **Skip
+  Archer** this fold.
+
+### Curated status
+
+Census **not re-derived**. Archer still **NOT landed**.
+
+### Cross-links
+
+Cards: `applied-mappings.md` §2 (evidence-synthesis
+pointer; two-pass; human check); `mixed-architecture.md`
+(fail table + gallery); `faq.md` (name lock; two-pass;
+human tick; not-found); `mental-models.md`;
+`question-design.md`; `methods-catalog.md` (claim–
+evidence + extractive); `toolbox-mapping.md` IR
+extractive; `validation.md` (spot-check table);
+`composition-algebra.md`; `agent-self-assessment.md`
+(checked quotes never overwritten). Hunches labeled.
+No wrapper.

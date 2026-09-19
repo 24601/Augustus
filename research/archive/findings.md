@@ -1972,3 +1972,26 @@ multi-label ignores tier; (hh) vs_jev tracked JSON not
 transcription; (hi) silent FALLBACK / granite 0.546 vs
 advertised 0.800; (hj) classification API for
 spam/inbox/feedback.
+
+## Batch #58 (2026-09-19 ~14:48 UTC / ~08:48 Boise) — choxos/jev-reviewer systematic-review pointer (delta of §48)
+
+Note: `research/notes.md` §74. Docs-only. Folded into PR #2.
+Skip Archer. **≠** egma-ai/jev-reviewer. No invented metrics.
+Hunches labeled. User-provided SIGNAL + live README `d0220a1`.
+
+- **choxos/jev-reviewer (Empirical as README; delta of
+  §48).** MIT; **12★**; https://jevreviewer.xera.ac.
+  Pointer-not-generator at Cochrane/PRISMA scale. Jev
+  picks line ids; code copies verbatim. Two-pass Choice
+  + Noul (quotes ≥ 0.5 *theirs*). *Not found* is an
+  answer. Human tick never overwritten. 18-q template
+  **4.6 s / $0.0101** *theirs* (spot check, not a
+  validation study).
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (hk) two-pass relative Choice +
+absolute Noul; (hl) *Not found* first-class; (hm) human
+check as productized judgment; (hn) evidence-synthesis
+as class application beyond SWE; (ho) name lock vs
+egma-ai.

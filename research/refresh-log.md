@@ -1099,3 +1099,24 @@
 - notes.md §73; sources.json (437 sources, 434 unique URLs,
   retrieved 2026-09-19T14:37Z); findings.md batch #57.
   No wrapper.
+
+## 2026-09-19 ~14:48 UTC — user-provided choxos/jev-reviewer (~08:48 Boise)
+- Docs-only **delta of §48** into PR #2. `notes.md` §74.
+  Skip Archer. Hunches labeled. No wrapper. No invented
+  metrics. Always **choxos/jev-reviewer** or
+  “systematic-review Jev Reviewer.” **≠** egma-ai.
+- Receipts: user SIGNAL + live README `d0220a1` ~14:48
+  UTC. MIT; **12★**; https://jevreviewer.xera.ac.
+- Folded: pointer-not-generator at evidence-synthesis
+  scale; two-pass Choice+Noul (quotes ≥ 0.5 *theirs*);
+  *Not found* / *Unclear*; speculative fan-out; 18-q
+  **4.6 s / $0.0101** *theirs* (spot check); human tick
+  never overwritten; Cochrane/PRISMA/RoB, not SWE-only.
+- Census not re-derived. Archer still NOT landed.
+- Cards: SKILL.md, applied-mappings §2, mixed-architecture,
+  faq, mental-models, methods-catalog, toolbox, validation,
+  composition-algebra, question-design, agent-self-assessment,
+  ecosystem, CHANGELOG, README.
+- notes.md §74; sources.json (438 sources, 435 unique URLs,
+  retrieved 2026-09-19T14:48Z); findings.md batch #58.
+  No wrapper.

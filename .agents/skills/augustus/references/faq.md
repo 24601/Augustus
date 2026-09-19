@@ -580,8 +580,9 @@ character offsets, or numbered controls; the model **selects**; code
 **copies or clicks**.
 [testimonial-miner](https://github.com/AppitStudio/testimonial-miner)
 assembles quotes from per-sentence Nouls and `redecide`s without new
-calls. [jev-reviewer](https://github.com/choxos/jev-reviewer) points at
-ids; *not found* is an answer. [solari-reflex](https://github.com/hitakshiA/solari-reflex)
+calls. **[choxos/jev-reviewer](https://github.com/choxos/jev-reviewer)**
+(systematic-review Jev Reviewer; **≠** egma-ai) points at ids; *Not
+found* is an answer; human tick never overwritten. [solari-reflex](https://github.com/hitakshiA/solari-reflex)
 never lets model output become a selector. Compaction is the same
 species: [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
 copies exact source spans; a prose summary of the tool result is
@@ -1629,3 +1630,36 @@ integrity / soundness theater** (lying about the
 instrument). **rh-guard owns the gate card**; dinostomp
 owns instrument-not-score. classifier.dev is the lived
 product cousin, not a new hook. `notes.md` §73.
+
+## Is choxos/jev-reviewer the same as egma-ai/jev-reviewer?
+
+No. Always write **[choxos/jev-reviewer](https://github.com/choxos/jev-reviewer)**
+or **systematic-review Jev Reviewer**. It is local-first evidence
+extraction: Jev points at line ids, code copies verbatim quotes,
+human checks every answer (https://jevreviewer.xera.ac; MIT;
+**12★**). [egma-ai/jev-reviewer](https://github.com/egma-ai/jev-reviewer)
+assigns PR **attention** P0/P1/P2; OpenAI writes behavior deltas.
+Attention ≠ correctness. `notes.md` §48, §58, §74.
+
+## Why two passes (Choice then Noul) on a paper?
+
+Relative Choice answers "which line, if any?" Absolute Noul answers
+"does this line **itself** answer q?" Multi-row table answers
+(Mean (SD) vs Median (IQR) under Age) need both. Quotes = Noul
+≥ 0.5 *theirs*, not a class constant. Same species as Stagehand
+extract / jev-sift; different domain (Cochrane / PRISMA). `notes.md`
+§74.
+
+## Can I skip the human tick if Noul ≥ 0.5?
+
+No. The tick **is** the product. Checked or annotated answers are
+never overwritten by a reworded question. Jev is SENSOR; the
+reviewer is the constraint. Spot checks on the sample study are
+**not** a validation study. `notes.md` §74.
+
+## Is *Not found* a failure of the extractor?
+
+No. When no line passes, the card says *Not found* (or *Unclear*,
+with the closest lines) instead of guessing. Paraphrase invent is
+the rejected species. *Not applicable* is a checked n/a. `notes.md`
+§74.

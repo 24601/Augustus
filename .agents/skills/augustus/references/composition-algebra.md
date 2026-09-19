@@ -211,3 +211,8 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     contract is label + calibrated confidence, not a paragraph. Batch
     state, escalate-under-threshold, and a `FALLBACK` marker are
     *code*. Full cards: `mixed-architecture.md`, `validation.md`.
+14. **Evidence-synthesis pointer** (choxos/jev-reviewer, ≠ egma-ai):
+    Jev picks line ids; code copies verbatim; a second absolute Noul
+    checks "does this line itself answer?"; *Not found* is an answer;
+    the human tick is the product. Full cards: `applied-mappings.md`
+    §2, `mixed-architecture.md`.

@@ -605,6 +605,15 @@ answers below 0.7. Multi-label re-judge made it worse
 (23 s) so the tier is ignored. gemini-3.8-flash helped;
 other flashes did not. 0.7 is *theirs*. Cousin jev-use
 (`notes.md` §73).
+**Evidence-synthesis two-pass VOI (Empirical as README;
+medicine/Cochrane; 2026-09-19 ~08:48):**
+[choxos/jev-reviewer](https://github.com/choxos/jev-reviewer)
+— fan-out every question over shared chunks (18-q
+**4.6 s / $0.0101** *theirs*), then pay a second
+**absolute** Noul only on the surviving lines. *Not
+found* is cheaper than a paraphrase. Human tick is the
+act that enters the review. **≠** egma-ai
+(`notes.md` §74).
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs

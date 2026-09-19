@@ -325,7 +325,9 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   against the cited source text, never against another model's prose.
   Pointer-not-generator: the model points at line ids; code copies
   verbatim with place; *not found* is an answer
-  ([jev-reviewer](https://github.com/choxos/jev-reviewer); `notes.md` §48).
+  ([choxos/jev-reviewer](https://github.com/choxos/jev-reviewer);
+  systematic-review Jev Reviewer; **12★**; human tick never
+  overwritten; `notes.md` §48, §74).
   Distinct: [egma-ai/jev-reviewer](https://github.com/egma-ai/jev-reviewer)
   assigns **attention** P0/P1/P2, not correctness; OpenAI writes
   deltas (`notes.md` §58).

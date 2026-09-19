@@ -132,7 +132,7 @@ Patterns, not a catalog. `notes.md` §48. TypeSafe Jev is the exemplar in
 the READMEs, not a monopoly.
 
 - **AppitStudio/testimonial-miner** — extractive selection + multi-question broadcast + offline `redecide`. Model never writes the quote.
-- **choxos/jev-reviewer** — pointer-not-generator: line ids; verbatim copy with place; *not found* is an answer.
+- **choxos/jev-reviewer** — pointer-not-generator: line ids; verbatim copy with place; *not found* is an answer. **Delta §74:** **12★**; two-pass Choice+Noul; human tick never overwritten; https://jevreviewer.xera.ac. **≠** egma-ai.
 - **egma-ai/jev-reviewer** — Jev assigns PR **attention** P0/P1/P2; OpenAI writes behavior deltas. Attention ≠ correctness. Not the choxos pointer product. `notes.md` §58.
 - **us/jev-local** — contract-compatible `POST /v1/systemone`. Default scorer is a **stub** until `JEVLOCAL_SCORER=hf`.
 - **hitakshiA/solari-reflex** — observe → decide → verified act; no screenshots. Author table vs Codex on Solari ~3–7× wall. Encoder-backend cousin: gliner2-ultrafast (`notes.md` §52). Specialist-form cousin: cua-s1 (`notes.md` §54). Harness cousin: Stagehand experimental Jev stack (`notes.md` §57).
@@ -429,6 +429,12 @@ Census **not re-derived** this hour (last §69). Archer still NOT landed.
 Architecture notes, not an npm / wrangler catalog. `notes.md` §73. Skip Archer. No invented metrics. Hunches labeled. Mental models: selective classification, calibration, VOI, signal detection, anti-soundness-theater. Not SWE-only.
 
 - **mrmps/classifier-dev** — MIT; **185★**; https://classifier.dev. Public zero-shot HTTP; no key. Jev primary; LLM fallback only. Distinct from ask-jev-ai wall. 400 headlines **650 ms** *theirs*. Smart re-asks single-label <0.7; multi-label **ignores** (re-judge worse, 23 s). Emotion ≥0.9 → **82%** / <0.5 → **29%**; gemini-3.8-flash **87.5→90.0** / **61.8→63.7**. Multi-label F1 **0.887** / **230 ms** vs cascade **0.799** / 1.5 s (eval 232 ms; AG News **87.7%** vs 82.0%). `/benchmark` = tracked JSON; read eval/README (n=7 train-on-test). Silent **FALLBACK**: granite F1 **0.546** vs advertised ~**0.800**. rh-guard owns the gate. Life/business (spam/inbox/feedback). Do not copy wrangler.
+
+### User-provided ~08:48 Boise 2026-09-19 / 14:48 UTC (choxos/jev-reviewer — systematic-review pointer)
+
+Architecture notes, not an npm / relay catalog. `notes.md` §74. **Delta of §48.** Skip Archer. Always write **choxos/jev-reviewer** or “systematic-review Jev Reviewer.” **≠** egma-ai/jev-reviewer.
+
+- **choxos/jev-reviewer** — MIT; **12★**; https://jevreviewer.xera.ac. Local-first Cochrane/PRISMA extraction. Jev picks line ids; code copies verbatim. Two-pass Choice + Noul (quotes ≥ 0.5 *theirs*). *Not found* is an answer. Human tick never overwritten. 18-q **4.6 s / $0.0101** *theirs* (spot check, not a validation study). Do not copy `npm start` / `.env`.
 
 Census **not re-derived**. Archer still NOT landed.
 
