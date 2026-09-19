@@ -2623,3 +2623,32 @@ calibrated decision space; (kw) enterprise reflexes;
 (kx) screenshot-free / CU; (ky) hybrid S1/S2; (kz)
 Harbor-jevals / SRE; (la) Laya densifies; (lb) demos
 / unofficial toolbelt.
+
+## Batch #76 (2026-09-19 ~21:23 UTC / ~15:23 Boise) — SIGNAL jevcache + jev-align
+
+Note: `research/notes.md` §93. Docs-only on a fresh PR
+off main after #9 merge `059f3670`. Never reopen merged
+#3 / #4 / #5 / #7 / #8 / **#9**. Skip Archer. Do **not**
+re-fold 1441 / §92. No invented metrics. Hunches
+labeled. Quote READMEs. Soft Noul ≠ hard safety.
+rh-guard owns HIT-as-truth and training-score
+auto-accept; Augustus owns placement.
+
+- **Decision ledger / memoization.**
+  hyperspaceai/jevcache (**8★** this pass, SIGNAL ★6;
+  HEAD `a211d13`; README SHA `7c2abe99`). fingerprint
+  after redact; recall vs decide; publish
+  fingerprints+answers; CI replay as Harbor cousin.
+  Cache hit ≠ correctness. hyperspaceai/jevcache ≠
+  kushals256/jevcache.
+- **GEPA alignment loop.** sutro-sh/jev-align
+  (**60★** this pass, SIGNAL ★56; forks **7**; HEAD
+  `49753df`; README SHA `363fccb7`). human labels
+  only; score never auto-accepts; production capture
+  flywheel. sutro-sh/jev-align ≠
+  caiovicentino/jev-align.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (lc) decision ledger /
+memoization; (ld) GEPA alignment loop.

@@ -863,6 +863,35 @@ placement. Skip Archer.
 Soft Noul ≠ hard safety on every cluster.
 soft Noul ≠ hard safety.
 
+## Apply SIGNAL jevcache/jev-align (`notes.md` §93)
+
+Same pillars, two placements. Do **not** re-fold
+1441 / §92. Fresh PR; never reopen merged #3–#9.
+rh-guard owns HIT-as-truth and training-score
+auto-accept as gate cousins; Augustus owns
+placement. Skip Archer.
+
+Unique fragments (consecutive): fingerprint after redact; recall vs decide; publish fingerprints+answers; CI replay as Harbor cousin; Cache hit ≠ correctness; hyperspaceai/jevcache ≠ kushals256/jevcache; human labels only; score never auto-accepts; production capture flywheel; sutro-sh/jev-align ≠ caiovicentino/jev-align
+
+1. **Decision ledger / memoization** —
+   fingerprint after redact.
+   recall vs decide.
+   publish fingerprints+answers.
+   CI replay as Harbor cousin.
+   Cache hit ≠ correctness.
+   hyperspaceai/jevcache ≠ kushals256/jevcache.
+   memoize typed decisions; VOI of cache hit.
+2. **GEPA alignment loop** —
+   human labels only.
+   score never auto-accepts.
+   production capture flywheel.
+   sutro-sh/jev-align ≠ caiovicentino/jev-align.
+   GEPA + System One.
+
+Soft Noul ≠ hard safety on every cluster.
+A HIT is a sensor, not a proof. A training score
+is a sensor, not an accept.
+
 Formal methods **compose** with scoring. A Noul is a
 SENSOR. Hard-gating it as CI pass / HA write / authorship
 seal is the same theater as jev-gate §79.

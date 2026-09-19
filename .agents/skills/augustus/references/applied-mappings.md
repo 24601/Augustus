@@ -1179,6 +1179,14 @@ jev-drive sim not AV. story-arc Jev never authors.
 jev-hs-assistant HS6. golergka/jev-plays-starcraft-2 UI-verified ≠ API Victory.
 awesome-jev-use-cases catalog. Nibir1/typesafe-go ≠ official.
 rh-guard owns the gate cousins (`notes.md` §92).
+**Decision ledger / GEPA HITL (Empirical as README; 2026-09-19 ~21:23):**
+fingerprint after redact. recall vs decide.
+publish fingerprints+answers. CI replay as Harbor cousin.
+Cache hit ≠ correctness. hyperspaceai/jevcache ≠ kushals256/jevcache.
+human labels only. score never auto-accepts.
+production capture flywheel. sutro-sh/jev-align ≠ caiovicentino/jev-align.
+rh-guard owns HIT-as-truth and training-score auto-accept
+(`notes.md` §93).
 
 ## 6. Expensive observation router
 

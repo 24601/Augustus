@@ -618,6 +618,25 @@ for the LLM iff Jev says the intent is **not** the same.
 Exact SHA-256 first; fail-open to upstream. 0 FP / recall
 0.38 *theirs*. Stream/tools/multimodal bypass. Do not copy
 npx (`notes.md` §69).
+**Decision-ledger memoization (Empirical as README;
+2026-09-19 ~21:23):**
+[hyperspaceai/jevcache](https://github.com/hyperspaceai/jevcache)
+— pay for a backend decide iff the ledger misses.
+fingerprint after redact; recall vs decide; publish
+fingerprints+answers; CI replay as Harbor cousin.
+VOI of cache hit is spend/latency saved *if* the
+HIT is still the right answer. Cache hit ≠
+correctness. hyperspaceai/jevcache ≠
+kushals256/jevcache. Do not copy `curl | sh`
+(`notes.md` §93).
+**Uncertainty-acquisition labels (Empirical as README;
+2026-09-19 ~21:23):**
+[sutro-sh/jev-align](https://github.com/sutro-sh/jev-align)
+— pay for a human label iff the row is ambiguous
+(+ audit sample). human labels only; score never
+auto-accepts; production capture flywheel.
+sutro-sh/jev-align ≠ caiovicentino/jev-align.
+Do not copy `uv` / keys (`notes.md` §93).
 **Human-feed VOI (Empirical as unreviewed goldens;
 qualify the owner; 2026-09-19 ~04:39):**
 [ThinkyMiner/Winnow](https://github.com/ThinkyMiner/Winnow)

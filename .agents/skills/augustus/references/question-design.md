@@ -212,6 +212,8 @@ request, and treat a stale pin as a prior, never a setting.
 | Quote akpsahan vs-Jev as a new measure / treat as Archer | Hub copy | akpsahan/laya ≠ Archer. meldltd/meldecision laya-go ONNX. laya-doom never pixels. logixism/laya-api empty README. `notes.md` §92 |
 | Let Jev own chess / AV / customs Post / API Victory | Engine / sim / taxonomy | choxos/jevchess engine owns truth. jev-drive sim not AV. story-arc Jev never authors. jev-hs-assistant HS6. golergka/jev-plays-starcraft-2 UI-verified ≠ API Victory. `notes.md` §92 |
 | Treat typesafe-go as official / likes as eval | Unofficial; catalog | Nibir1/typesafe-go ≠ official. awesome-jev-use-cases catalog. `notes.md` §92 |
+| Treat a ledger HIT as correctness / collapse into kushals256 | HIT ≠ truth; namesake | fingerprint after redact; recall vs decide. Cache hit ≠ correctness. hyperspaceai/jevcache ≠ kushals256/jevcache. `notes.md` §93 |
+| Auto-accept GEPA on a rising training score / collapse into caiovicentino | Human taste gate; namesake | human labels only; score never auto-accepts; production capture flywheel. sutro-sh/jev-align ≠ caiovicentino/jev-align. `notes.md` §93 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

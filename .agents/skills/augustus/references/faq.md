@@ -2617,3 +2617,42 @@ No, and no. awesome-jev-use-cases catalog. Unofficial. **≠** awesomejev.com ce
 ## Is typesafe-go official TypeSafe? A new species?
 
 No, and no. Nibir1/typesafe-go ≠ official. Analyzers catch bad questions at build time. **≠** rust community SDK. soft Noul ≠ hard safety. `notes.md` §92.
+
+## Treat a ledger HIT as correctness?
+
+No. Cache hit ≠ correctness. A HIT is a sensor
+(same schema+state saw this answer), not a proof
+the answer is right. Sharing foreign fingerprints
+as calibrated truth is trust theater. rh-guard
+owns the HIT-as-truth gate cousin; Augustus owns
+placement. Unique fragments (consecutive): fingerprint after redact; recall vs decide; publish fingerprints+answers; CI replay as Harbor cousin; Cache hit ≠ correctness; hyperspaceai/jevcache ≠ kushals256/jevcache; human labels only; score never auto-accepts; production capture flywheel; sutro-sh/jev-align ≠ caiovicentino/jev-align
+`notes.md` §93.
+
+## Collapse hyperspaceai/jevcache into kushals256/jevcache?
+
+No. hyperspaceai/jevcache ≠ kushals256/jevcache.
+Hyperspace is decision-space memoization
+(fingerprint after redact; recall vs decide;
+publish fingerprints+answers; CI replay as Harbor
+cousin). kushals256 is same-intent LLM-completion
+admit (0 FP/100 *theirs*). Not Hyperspace KV
+attention cache. Do not copy `curl | sh`.
+`notes.md` §93.
+
+## Auto-accept a GEPA proposal because the training score rose?
+
+No. score never auto-accepts. human labels only.
+A higher training score is a sensor, not an
+accept. Soft Noul ≠ hard safety. rh-guard owns
+the training-score auto-accept gate cousin
+(Sutro already refuses). `notes.md` §93.
+
+## Is sutro-sh/jev-align caiovicentino/jev-align?
+
+No. sutro-sh/jev-align ≠ caiovicentino/jev-align.
+Sutro is a GEPA definition-optimizer with a human
+taste gate and a production capture flywheel.
+caiovicentino (MIT JS) is a calibrated alignment
+*verifier* (pass/flag/block heads). Not Archer.
+Not a PreToolUse hard gate. Do not copy `uv` /
+keys. `notes.md` §93.
