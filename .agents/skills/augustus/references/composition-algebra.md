@@ -708,7 +708,8 @@ re-fold 1441 items 71–79. soft Noul ≠ hard safety.
     jev-zen / jev-1.13-free. zen-chat ≠ Noul.
     fail-open original. keepScore >0.1 floor.
     host port of tamaratran/jev-pruner.
-    **≠** nrdz-labs/fast-jev-opencode. Full cards:
+    indiejoseph/opencode-jev-pruner ≠ nrdz-labs/fast-jev-opencode.
+    Full cards:
     `applied-mappings.md` §1, `faq.md`.
 92. **Schema/SDK adapters + empty bench**
     (watch / tooling): packaging ≠ new species.

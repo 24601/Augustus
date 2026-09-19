@@ -80,15 +80,18 @@ the plugin (`notes.md` §53).
 **OpenCode host-port, same job, different insertion (Empirical as
 README + source, 2026-09-19 ~16:39):**
 [indiejoseph/opencode-jev-pruner](https://github.com/indiejoseph/opencode-jev-pruner)
-— OpenCode `tool.execute.after` on `bash`. Loop *theirs*:
-bash runs → 10k-token gate → archive full output → chunk →
+— OpenCode jev-pruner context sieve.
+host port of tamaratran/jev-pruner.
+OpenCode `tool.execute.after` on
+`bash`. Loop *theirs*: observe→score-candidates→prune
+(bash runs → 10k-token gate → archive full output → chunk →
 Jev noul per chunk vs history → rewrite with markers +
-recovery footer. Default scorer `jev-zen` (Zen System One,
-exact id `jev-1.13-free`, keyless). `zen-chat` is an LLM
-approximation, **not** a Noul. Hook fail-open; reduction
-fail-closed to original. keepScore >0.1 floor. Archive
-`.opencode/fast-jev-output/`. **≠** tamaratran/jev-pruner
-**≠** nrdz-labs/fast-jev-opencode (session compaction, §62).
+recovery footer). Default scorer jev-zen / jev-1.13-free
+(Zen System One, exact id, keyless). zen-chat ≠ Noul
+(`zen-chat` is an LLM approximation). fail-open original.
+keepScore >0.1 floor. Archive `.opencode/fast-jev-output/`.
+indiejoseph/opencode-jev-pruner ≠ nrdz-labs/fast-jev-opencode
+(session compaction, §62). **≠** tamaratran/jev-pruner.
 Do not copy tamaratran 24/24 / 83%. Do not copy the plugin
 (`notes.md` §96).
 **Session-ledger cousin, same family, different job (Empirical as
