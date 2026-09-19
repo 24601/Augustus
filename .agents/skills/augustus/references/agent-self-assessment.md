@@ -239,6 +239,13 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    Foq ~25ms/2.2GB local; pastepilot Confirm before act;
    typesafe_agent_gates 27/27 / 31/31; dsh-jev can only gate;
    ha-conversation-jev Jev→Grok (`notes.md` §92).
+   Decision-ledger HIT is not a self-check:
+   [hyperspaceai/jevcache](https://github.com/hyperspaceai/jevcache)
+   Cache hit ≠ correctness (`notes.md` §93).
+   Production capture still needs a human accept:
+   [sutro-sh/jev-align](https://github.com/sutro-sh/jev-align)
+   human labels only; score never auto-accepts;
+   production capture flywheel (`notes.md` §93).
    Closed-vote extreme (no planner LLM):
    [JevOnly](https://github.com/buluoray/JevOnly) (`notes.md` §61).
    Host-owned product:

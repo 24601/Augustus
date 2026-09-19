@@ -1179,6 +1179,14 @@ jev-drive sim not AV. story-arc Jev never authors.
 jev-hs-assistant HS6. golergka/jev-plays-starcraft-2 UI-verified ≠ API Victory.
 awesome-jev-use-cases catalog. Nibir1/typesafe-go ≠ official.
 rh-guard owns the gate cousins (`notes.md` §92).
+**Decision ledger / GEPA HITL (Empirical as README; 2026-09-19 ~21:23):**
+fingerprint after redact. recall vs decide.
+publish fingerprints+answers. CI replay as Harbor cousin.
+Cache hit ≠ correctness. hyperspaceai/jevcache ≠ kushals256/jevcache.
+human labels only. score never auto-accepts.
+production capture flywheel. sutro-sh/jev-align ≠ caiovicentino/jev-align.
+rh-guard owns HIT-as-truth and training-score auto-accept
+(`notes.md` §93).
 
 ## 6. Expensive observation router
 
@@ -1451,6 +1459,19 @@ missing key. [safe-sh](https://github.com/EpicEric/safe-sh)
 [typesafe_agent_gates](https://github.com/ThiagaoBR/typesafe_agent_gates)
 (Apache-2.0; **0★**) — typesafe_agent_gates 27/27 / 31/31.
 rh-guard owns. `notes.md` §92.
+**HIT-as-truth / training-score auto-accept (Empirical as README;
+cross-ref rh-guard; 2026-09-19 ~21:23):**
+[hyperspaceai/jevcache](https://github.com/hyperspaceai/jevcache)
+— Cache hit ≠ correctness. A HIT is a sensor, not a
+proof. Sharing foreign fingerprints as calibrated truth
+is trust theater.
+[sutro-sh/jev-align](https://github.com/sutro-sh/jev-align)
+— human labels only; score never auto-accepts;
+production capture flywheel. A training score is a
+sensor, not an accept. **≠** caiovicentino/jev-align.
+rh-guard owns HIT-as-truth and training-score
+auto-accept as gate cousins; Augustus owns placement.
+Soft Noul ≠ hard safety. `notes.md` §93.
 
 ## 8. Decide → policy → LLM leftover cascade
 

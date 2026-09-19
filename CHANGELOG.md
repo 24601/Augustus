@@ -1374,6 +1374,39 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   Do not copy `TYPESAFE_API_KEY` / OAuth `client_id` /
   `uv` / `npx` / `.env`. No wrapper. No invented
   metrics.
+- SIGNAL fold jevcache + jev-align (`research/notes.md`
+  §93): **Skip Archer.** Docs-only on a **fresh PR
+  off main** after #9 merge `059f3670`. **Never
+  reopen** merged #3 / #4 / #5 / #7 / #8 / **#9**.
+  Do **not** re-fold 1441 / §92. How-to-apply /
+  mental models / architecture / Harbor-jevals /
+  toolbelt — not a thin Jev skill dump.
+  Backend-agnostic categorization/scoring/decision
+  class (Jev-like speed/econ). rh-guard owns
+  HIT-as-truth and training-score auto-accept as
+  gate cousins; Augustus owns placement. Formal
+  methods compose with scoring; a HIT and a
+  training score are SENSOR. Two clusters:
+  **Decision ledger / memoization**
+  ([hyperspaceai/jevcache](https://github.com/hyperspaceai/jevcache);
+  license **null**; **8★** this pass, SIGNAL ★6;
+  HEAD `a211d13`; README SHA `7c2abe99`;
+  fingerprint after redact; recall vs decide;
+  publish fingerprints+answers; CI replay as Harbor
+  cousin; Cache hit ≠ correctness;
+  hyperspaceai/jevcache ≠ kushals256/jevcache;
+  memoize typed decisions; VOI of cache hit);
+  **GEPA alignment loop**
+  ([sutro-sh/jev-align](https://github.com/sutro-sh/jev-align);
+  Apache-2.0; **60★** this pass, SIGNAL ★56; forks
+  **7**; HEAD `49753df`; README SHA `363fccb7`;
+  human labels only; score never auto-accepts;
+  production capture flywheel; sutro-sh/jev-align ≠
+  caiovicentino/jev-align; GEPA + System One). Soft
+  Noul ≠ hard safety. Census (user-provided; not
+  re-derived): Archer still NOT landed. Do not copy
+  `TYPESAFE_API_KEY` / `uv` / `npx` / `curl | sh` /
+  `.env`. No wrapper. No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

@@ -1697,3 +1697,39 @@
 - notes.md §92; sources.json (570 sources, 567 unique URLs,
   retrieved 2026-09-19T20:41Z); findings.md batch #75.
   No wrapper.
+
+## 2026-09-19 ~21:23 UTC — SIGNAL jevcache + jev-align (~15:23 Boise)
+- Docs-only on a **fresh PR off main** after #9 merge
+  `059f3670`. Never reopen merged #3 / #4 / #5 / #7 /
+  #8 / **#9**. `notes.md` §93. Skip Archer. Do **not**
+  re-fold 1441 / §92. Hunches labeled. No wrapper.
+  No invented metrics. Quote READMEs. Soft Noul ≠
+  hard safety. Not a Jev skill dump. Backend-agnostic
+  categorization/scoring/decision class. rh-guard
+  owns HIT-as-truth and training-score auto-accept;
+  Augustus owns placement. Archive tarball SIGNAL.md
+  for both (fetched ~15:13 Boise).
+- Folded how-to-apply clusters: Decision ledger /
+  memoization (hyperspaceai/jevcache; fingerprint
+  after redact; recall vs decide; publish
+  fingerprints+answers; CI replay as Harbor cousin;
+  Cache hit ≠ correctness; hyperspaceai/jevcache ≠
+  kushals256/jevcache; memoize typed decisions; VOI
+  of cache hit); GEPA alignment loop
+  (sutro-sh/jev-align; human labels only; score never
+  auto-accepts; production capture flywheel;
+  sutro-sh/jev-align ≠ caiovicentino/jev-align;
+  GEPA + System One).
+- Formal compose: a HIT is a sensor not a proof; a
+  training score is a sensor not an accept. Soft
+  Noul ≠ hard safety.
+- Census not re-derived. Archer still NOT landed.
+- Cards: SKILL.md, mixed-architecture fail table +
+  gallery, faq, mental-models, judgment-class,
+  validation, applied-mappings, mappings, toolbox,
+  composition-algebra items 80–81, question-design,
+  methods-catalog, formal-methods, optimizer-integration,
+  agent-self-assessment, ecosystem, CHANGELOG, README.
+- notes.md §93; sources.json (572 sources, 569 unique
+  URLs, retrieved 2026-09-19T21:23Z); findings.md
+  batch #76. No wrapper.

@@ -719,6 +719,19 @@ Hard-gating Confirm as optional, pasting Foq 100%/ECE 0.2% /
 Reranker 0.1667 / 400 ms / akpsahan vs-Jev as class ceilings,
 or treating Qwen3.8-27B as Archer is the same theater.
 
+SIGNAL §93 envelopes (`notes.md` §93), still outside
+the extras template: fingerprint after redact;
+recall vs decide; publish fingerprints+answers;
+CI replay as Harbor cousin; Cache hit ≠ correctness;
+hyperspaceai/jevcache ≠ kushals256/jevcache;
+human labels only; score never auto-accepts;
+production capture flywheel; sutro-sh/jev-align ≠
+caiovicentino/jev-align.
+Soft Noul ≠ hard safety: a HIT and a training
+score are **sensors**. Treating a ledger HIT as
+correctness or auto-accepting GEPA because the
+score rose is the same theater.
+
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a
 hybrid "verified by Noul" API.

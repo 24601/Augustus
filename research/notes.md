@@ -15554,3 +15554,186 @@ items 71–79; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
+
+## 93. SIGNAL fold: jevcache + jev-align (2026-09-19 ~15:23 Boise / ~21:23 UTC)
+
+Docs-only on a **fresh PR off main**
+(`cursor/jevcache-jevalign-fold-01c2`) after #9 merge
+`059f3670`. **Never reopen merged** Augustus PR #3 /
+#4 / #5 / #7 / #8 / **#9**. Skip Archer. Quote
+READMEs. Mark *theirs*. No invented metrics. Hunches
+labeled. No wrappers, npm / `npx` / `uv` / `cargo` /
+`.env` / `TYPESAFE_API_KEY` / `OPENROUTER_API_KEY` /
+`JEV_API_KEY` / `curl | sh` / OAuth `client_id` as
+recipes. Archive: uploads tarball SIGNAL.md for both
+(fetched ~15:13 Boise).
+
+Lane is Augustus: **how-to-apply / mental models /
+architecture / Harbor-jevals / toolbelt**. Backend-
+agnostic categorization/scoring/decision class
+(Jev-like speed/econ), **not** a thin Jev-only dump.
+Soft Noul ≠ hard safety. rh-guard owns the thin gate
+cousins (HIT-as-truth; training-score auto-accept);
+Augustus **owns placement**. Do **not** re-fold 1441
+/ §92.
+
+### How-to-apply (two clusters)
+
+Unique fragments (consecutive): fingerprint after redact; recall vs decide; publish fingerprints+answers; CI replay as Harbor cousin; Cache hit ≠ correctness; hyperspaceai/jevcache ≠ kushals256/jevcache; human labels only; score never auto-accepts; production capture flywheel; sutro-sh/jev-align ≠ caiovicentino/jev-align
+
+1. **Decision ledger / memoization** —
+   fingerprint after redact. recall vs decide.
+   publish fingerprints+answers. CI replay as Harbor
+   cousin. Cache hit ≠ correctness.
+   hyperspaceai/jevcache ≠ kushals256/jevcache.
+   memoize typed decisions. VOI of cache hit.
+2. **GEPA alignment loop** — human labels only.
+   score never auto-accepts. production capture
+   flywheel. sutro-sh/jev-align ≠ caiovicentino/jev-align.
+   GEPA + System One.
+
+### Cards
+
+1. **Decision ledger / memoization**
+
+   - **[`hyperspaceai/jevcache`](https://github.com/hyperspaceai/jevcache)**
+     (distribution README + og.png + Releases; GitHub
+     license **null**; **8★** this pass, SIGNAL
+     snapshot ★6; created 2026-09-18T11:22Z; HEAD
+     `a211d13`; README SHA `7c2abe99`; GitHub `size`
+     232; homepage https://jevcache.sh; topics cache /
+     jev / llm / memoization / rust / typesafe).
+     **Decision ledger / memoization** for Jev-class
+     models. Thesis: a decision is (approx.) a pure
+     function of `(model, schema, state)` →
+     memoizable. Local-first embedded store
+     (in-memory map + append-only log). Backend-
+     agnostic: `local` | `jev` (TypeSafe
+     `/v1/systemone`) | `mock`. Never proxies/resells
+     inference; key stays on machine. CLI is Rust; TS
+     core claimed byte-identical fingerprints.
+     Release v0.1.0 (2026-09-19) static binaries
+     ~2–3 MB *theirs*.
+     **fingerprint after redact** — PII + volatile
+     fields (ids, timestamps) never enter the key;
+     optional per-schema `salt`.
+     **recall vs decide** — recall is ledger-only
+     (exit 3 on miss); decide recalls then backend
+     on miss.
+     **publish fingerprints+answers** — `publish`
+     bundles fingerprints+answers only; `add`
+     merges; hosted index at jevcache.sh/api (reads
+     keyless; writes mint free key).
+     **CI replay as Harbor cousin** — `replay`
+     fixtures catch model drift / determinism.
+     **Cache hit ≠ correctness.** Sharing foreign
+     fingerprints is trust theater if treated as
+     calibrated truth.
+     **hyperspaceai/jevcache ≠ kushals256/jevcache**
+     — Hyperspace is decision-space memoization, not
+     the same-intent LLM-completion admit (0 FP/100
+     *theirs*). Not Hyperspace KV attention cache
+     (related org, different product). Not an
+     open-weight replica. Not a PreToolUse gate.
+     Do not copy `curl | sh` / env how-to.
+
+   **Mental model:** memoize typed decisions; VOI of
+   cache hit; Harbor drift replay. Soft Noul ≠ hard
+   safety: a HIT is a sensor, not a proof.
+
+   **Name lock:** always write
+   **hyperspaceai/jevcache**. **≠**
+   kushals256/jevcache.
+
+2. **GEPA alignment loop**
+
+   - **[`sutro-sh/jev-align`](https://github.com/sutro-sh/jev-align)**
+     (Python Apache-2.0; **60★** this pass, SIGNAL
+     snapshot ★56; forks **7**; created
+     2026-09-19T02:12Z; HEAD `49753df`; README SHA
+     `363fccb7`; GitHub `size` 3296; PyPI/CLI
+     `jev-align` → `jeva` / `jev-align`; org
+     https://sutro.sh/). Experimental CLI to **align
+     TypeSafe Jev with human judgment** using
+     [GEPA](https://gepa-ai.github.io/gepa/). Loop:
+     evaluate uncertainty → human labels ambiguous +
+     audit sample → GEPA proposes definition diffs →
+     human accept/reject/rewind. **human labels
+     only.** **score never auto-accepts.** Higher
+     training score **never** auto-accepts a
+     proposal. **production capture flywheel** —
+     resume labeling from captured runtime examples.
+     Task types: Binary / Multiclass / Multilabel /
+     Score (ordered rubric). Jev via TypeSafe,
+     Vercel AI Gateway, or Cloudflare Workers AI.
+     GEPA reflection model separate
+     (OpenAI/Anthropic/Gemini/LiteLLM/local vLLM).
+     **sutro-sh/jev-align ≠
+     caiovicentino/jev-align** — Sutro is a GEPA
+     definition-optimizer with a human taste gate;
+     caiovicentino (MIT; **4★**; JS) is a calibrated
+     alignment *verifier* (sycophancy/deception/
+     overreach heads → pass/flag/block). Not Archer.
+     Not a hard agent PreToolUse gate. Not an
+     open-weight replica. Sutro is not affiliated
+     with TypeSafe. Do not copy `uv` / keys /
+     capture snippets as install how-to.
+
+   **Mental model:** GEPA + System One;
+   uncertainty acquisition is training-data VOI;
+   definition-as-artifact; Harbor-shaped accept
+   discipline. Soft Noul ≠ hard safety: a training
+   score is a sensor, not an accept.
+
+   **Name lock:** always write
+   **sutro-sh/jev-align**. **≠**
+   caiovicentino/jev-align.
+
+### Theater (do not)
+
+Treat a ledger HIT as correctness; share foreign
+fingerprints as calibrated truth; auto-accept a
+GEPA proposal because the training score rose;
+collapse hyperspaceai/jevcache into
+kushals256/jevcache; collapse sutro-sh/jev-align
+into caiovicentino/jev-align; treat jevcache as
+Hyperspace KV attention cache; treat either as a
+PreToolUse hard gate.
+
+### Census (user-provided; not re-derived)
+
+Archer Hume open-weight still **NOT landed**.
+Census not re-derived this SIGNAL pass.
+
+### Not
+
+Not a TypeSafe how-to. Not a Jev skill dump. Not
+wrappers. Do not copy `TYPESAFE_API_KEY` /
+`OPENROUTER_API_KEY` / `JEV_API_KEY` / `uv` /
+`npx` / `cargo` / `curl | sh` / plugin-marketplace
+install / `.env` / OAuth `client_id`. Do not
+re-fold 1441 / §92. Do not re-card
+kushals256/jevcache / jevassert /
+DGUI_HYPERMEM-JEV / jev-triage. rh-guard still
+owns HIT-as-truth and training-score auto-accept
+as gate cousins — Augustus only cross-refs
+placement.
+
+### Curated status
+
+SIGNAL jevcache/jev-align **folded** (two PRIMARY
+Augustus clusters). 1441 / §92 **not re-carded**.
+Archer still **NOT landed**. Census not re-derived.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`judgment-class.md`; `validation.md`;
+`applied-mappings.md`; `mappings.md`;
+`toolbox-mapping.md`; `composition-algebra.md`
+items 80–81; `question-design.md`;
+`methods-catalog.md`; `formal-methods.md`;
+`optimizer-integration.md`;
+`agent-self-assessment.md`. Hunches labeled.
+No wrapper.

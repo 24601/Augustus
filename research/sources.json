@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T20:41Z",
+  "retrieved": "2026-09-19T21:23Z",
   "sources": [
     {
       "kind": "docs",
@@ -3421,6 +3421,18 @@
       "title": "Nibir1/typesafe-go",
       "url": "https://github.com/Nibir1/typesafe-go",
       "note": "Go Apache-2.0; 0 stars. HEAD 91126ff. README SHA 0b6cc51f. Nibir1/typesafe-go ≠ official. Analyzers atomicquestion/jaggededge/confidencecheck. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "hyperspaceai/jevcache",
+      "url": "https://github.com/hyperspaceai/jevcache",
+      "note": "Distribution README + og.png + Releases; license null; 8 stars this pass, SIGNAL ★6. HEAD a211d13. README SHA 7c2abe99. size 232. homepage jevcache.sh. fingerprint after redact; recall vs decide; publish fingerprints+answers; CI replay as Harbor cousin. Cache hit ≠ correctness. hyperspaceai/jevcache ≠ kushals256/jevcache. Not Hyperspace KV attention cache. notes.md §93."
+    },
+    {
+      "kind": "github",
+      "title": "sutro-sh/jev-align",
+      "url": "https://github.com/sutro-sh/jev-align",
+      "note": "Python Apache-2.0; 60 stars this pass, SIGNAL ★56; forks 7. HEAD 49753df. README SHA 363fccb7. size 3296. human labels only; score never auto-accepts; production capture flywheel. sutro-sh/jev-align ≠ caiovicentino/jev-align. notes.md §93."
     }
   ]
 }

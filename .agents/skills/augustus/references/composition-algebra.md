@@ -597,3 +597,23 @@ datasets — every gate is a per-dataset measurement (see validation.md).
 
 Hourly 1441 items 71–79 (`notes.md` §92). Do **not**
 re-fold 1347 items 62–70. soft Noul ≠ hard safety.
+80. **Decision ledger / memoization**
+    (hyperspaceai/jevcache): memoize typed
+    decisions. fingerprint after redact.
+    recall vs decide. publish fingerprints+answers.
+    CI replay as Harbor cousin. Cache hit ≠
+    correctness. hyperspaceai/jevcache ≠
+    kushals256/jevcache. Not Hyperspace KV
+    attention cache. Full cards: `mappings.md` §6,
+    `faq.md`.
+81. **GEPA alignment loop** (sutro-sh/jev-align):
+    GEPA + System One; inverse of Jev-as-metric.
+    human labels only. score never auto-accepts.
+    production capture flywheel. sutro-sh/jev-align ≠
+    caiovicentino/jev-align. Full cards:
+    `optimizer-integration.md`, `faq.md`.
+
+SIGNAL §93 items 80–81 (`notes.md` §93). Do **not**
+re-fold 1441 items 71–79. Unique fragments
+(consecutive): fingerprint after redact; recall vs decide; publish fingerprints+answers; CI replay as Harbor cousin; Cache hit ≠ correctness; hyperspaceai/jevcache ≠ kushals256/jevcache; human labels only; score never auto-accepts; production capture flywheel; sutro-sh/jev-align ≠ caiovicentino/jev-align.
+soft Noul ≠ hard safety.
