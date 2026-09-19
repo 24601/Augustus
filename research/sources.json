@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T06:55Z",
+  "retrieved": "2026-09-19T07:55Z",
   "sources": [
     {
       "kind": "docs",
@@ -2167,6 +2167,60 @@
       "title": "zhuyansen/x-reply-filter",
       "url": "https://github.com/zhuyansen/x-reply-filter",
       "note": "JavaScript MIT. Created 2026-09-19T06:07:18Z; 0 stars. Local rules first then batched Nouls. Never auto-train on model's own hides. notes.md \u00a765."
+    },
+    {
+      "kind": "github",
+      "title": "voidning/decision-combinators",
+      "url": "https://github.com/voidning/decision-combinators",
+      "note": "TypeScript; README MIT / GitHub license null. Created 2026-09-19T07:25:16Z; 0 stars; size 0. Then/Gate/Vote/Cascade/Weighted. Not literal AND/OR. notes.md \u00a766."
+    },
+    {
+      "kind": "github",
+      "title": "Dicklesworthstone/skillranker",
+      "url": "https://github.com/Dicklesworthstone/skillranker",
+      "note": "Rust; MIT + rider / GitHub NOASSERTION. Created 2026-09-17T06:58:19Z; 52 stars. Two-pass + none-of-these. Claude hook fail-open. VOI over skill library. notes.md \u00a766."
+    },
+    {
+      "kind": "github",
+      "title": "scienthoon/jev-ood-calibration",
+      "url": "https://github.com/scienthoon/jev-ood-calibration",
+      "note": "Python MIT. Created 2026-09-19T07:33:22Z; 0 stars; size 0. 900 synthetic + 3721 public. ECE 0.107 = 4.4x floor; priority 44.7% mean p 0.74 T 3.40; boolean T 0.66. notes.md \u00a766."
+    },
+    {
+      "kind": "github",
+      "title": "softpudding/jev-frontier-100",
+      "url": "https://github.com/softpudding/jev-frontier-100",
+      "note": "Python MIT. Created 2026-09-19T07:12:41Z; 0 stars; size 0. 100x3. Jev 77.0% vs Qwen3.5 4B/2048 96.7% / 4B off 56.0%. Exploratory not preregistered. notes.md \u00a766."
+    },
+    {
+      "kind": "github",
+      "title": "zyphr-labs/turnstile",
+      "url": "https://github.com/zyphr-labs/turnstile",
+      "note": "TypeScript Apache-2.0. Created 2026-09-19T07:16:52Z; 0 stars; size 0. Experimental alpha. Policy first, Jev remainder, replay. Missing Jev -> Review. notes.md \u00a766."
+    },
+    {
+      "kind": "github",
+      "title": "bnsd55/jevmlx",
+      "url": "https://github.com/bnsd55/jevmlx",
+      "note": "Python MIT. Created 2026-09-17T10:20:12Z; 28 stars. MLX one-pass schema to JSON+probs. Softmax != Noul. No local leaderboard yet. notes.md \u00a766."
+    },
+    {
+      "kind": "github",
+      "title": "chopratejas/invalidate",
+      "url": "https://github.com/chopratejas/invalidate",
+      "note": "Python Apache-2.0. Created 2026-09-19T04:26:59Z; 5 stars. Memory leases. 157 cases 89.2%/97.5%/0 false invalidations. MED. notes.md \u00a766."
+    },
+    {
+      "kind": "github",
+      "title": "yottayoshida/jev-intent-review",
+      "url": "https://github.com/yottayoshida/jev-intent-review",
+      "note": "MIT. Created 2026-09-19T07:45:28Z; 0 stars; language null. Under construction. Empty search != proof. MED. notes.md \u00a766."
+    },
+    {
+      "kind": "github",
+      "title": "shubhangi013/prune-review",
+      "url": "https://github.com/shubhangi013/prune-review",
+      "note": "TypeScript; README Apache-2.0 / GitHub NOASSERTION. Created 2026-09-19T07:48:06Z; 0 stars. 22-run cost 1.18% with 305% outlier. Cost not quality. MED. notes.md \u00a766."
     }
   ]
 }

@@ -521,6 +521,30 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   MIT; `rules.js` then batched Nouls; confirm-queue). OpenCode
   port already §62: fast-jev-opencode. Census as §64. No wrapper.
   No invented metrics.
+- Hourly ~01:47 Boise 2026-09-19 (`research/notes.md` §66): Archer
+  still Watch. Three clusters: **control-plane combinators**
+  ([decision-combinators](https://github.com/voidning/decision-combinators);
+  Then/Gate/Vote/Cascade/Weighted; not literal AND/OR; not chat
+  turns) + **skill VOI**
+  ([skillranker](https://github.com/Dicklesworthstone/skillranker);
+  52★; two-pass + none-of-these; hook **fail-open** — corrects
+  §7 fail-closed); **eval integrity without leaderboard theater**
+  ([jev-capability-atlas](https://github.com/Zaious/jev-capability-atlas)
+  10★ receipts, type-safe ≠ correct, axis already §49;
+  [jev-frontier-100](https://github.com/softpudding/jev-frontier-100)
+  Jev 77.0% vs Qwen3.5 4B/2048 96.7% / 4B off 56.0%, exploratory;
+  [jev-ood-calibration](https://github.com/scienthoon/jev-ood-calibration)
+  900 tickets ECE 0.107 = 4.4× floor, Choice/Score T~3.3 vs
+  boolean T 0.66, unknowable priority mean p 0.74); **gate
+  doctrine clone**
+  ([turnstile](https://github.com/zyphr-labs/turnstile); Apache-2.0;
+  policy first, Jev remainder, replay; missing Jev → Review);
+  **MLX one-pass replica economics**
+  ([jevmlx](https://github.com/bnsd55/jevmlx); 28★; softmax ≠
+  Noul; no local leaderboard yet). MED: invalidate (0 of 157
+  false invalidations), jev-intent-review (under construction),
+  prune-review (22-run cost 1.18% with 305% outlier). Census not
+  re-derived. No wrapper. No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

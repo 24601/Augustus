@@ -40,6 +40,11 @@ mappings.md conventions.
   never the model.
 - **→ (implication) / chains**: decompose into gate → act → post-judge;
   never encode multi-hop logic in one question (indirection costs accuracy).
+- **Named combinators** ([decision-combinators](https://github.com/voidning/decision-combinators)):
+  Then / Gate / Vote / Cascade / Weighted are **control-plane**
+  wiring, not a license to treat parallel Nouls as independent.
+  The library analogizes them as logic gates; ∧/∨ aggregation
+  still follows the rule above. `notes.md` §66.
 
 ## Rules that hold across every position
 

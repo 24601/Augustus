@@ -354,6 +354,19 @@ Claiming a proof-shaped conclusion from a non-proof:
 - The model's own hides sold as training labels
   ([x-reply-filter](https://github.com/zhuyansen/x-reply-filter):
   confirm-queue; never self-reinforce; `notes.md` §65).
+- A leaderboard sold as a capability map
+  ([jev-capability-atlas](https://github.com/Zaious/jev-capability-atlas):
+  receipts, not a ranking; type-safe ≠ correct; `notes.md` §66).
+- "Jev is weaker than 4B" sold without the thinking budget
+  ([jev-frontier-100](https://github.com/softpudding/jev-frontier-100):
+  4B off 56.0% vs 2048 96.7%; `notes.md` §66).
+- In-domain ECE sold as OOD honesty
+  ([jev-ood-calibration](https://github.com/scienthoon/jev-ood-calibration):
+  sign flips by type; unknowable policy still gets mean p 0.74;
+  `notes.md` §66).
+- A local one-pass softmax sold as a Noul
+  ([jevmlx](https://github.com/bnsd55/jevmlx): schema-valid ≠
+  calibrated; `notes.md` §66).
 - "Type-safe" sold as "correct" ([interlock](https://github.com/somoore/interlock):
   irreversible stays behind a threshold **and** a human).
 
@@ -508,6 +521,10 @@ as slogan):**
 — deterministic policy is the hard gate; Jev is soft
 evidence. A positive score never overrides RBAC/schema/limit
 (`notes.md` §64).
+**Turnstile clone (Empirical as README):**
+[turnstile](https://github.com/zyphr-labs/turnstile) —
+policy first; Jev remainder; receipts + replay; missing
+Jev → Review (`notes.md` §66).
 
 **Kent — Data and Reality.** Models are approximations; **naming is
 load-bearing**. Question text, Choice sets, and Score rubrics *are* the

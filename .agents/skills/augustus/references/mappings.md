@@ -180,7 +180,18 @@ fail closed. Stub backend for tests. Same interface ≠ same
 guarantees for a future LLM backend. Cousin of probably-lang
 (a language whose loop conditions are feelings) — this is a
 library, not a new language. Do not copy gem/Rails
-(`notes.md` §55). **Counterexample**: decomposing tool-trace
+(`notes.md` §55). **Named circuit combinators (Empirical
+as README architecture, 2026-09-19 ~01:47):**
+[decision-combinators](https://github.com/voidning/decision-combinators)
+— Then / Gate / Vote / Cascade / Weighted over
+Choice/Score/Noul. README analogizes them as logic
+gates; they are **not** literal Boolean AND/OR (those
+aggregations stay in code — do not multiply parallel
+Nouls). Vote is majority or mean; confidence discounted
+by agreement. No measurements. GitHub SPDX null; package
+MIT. **Hunch:** System One as a control plane, not chat
+turns. Compose with skillranker. Do not copy npm
+(`notes.md` §66). **Counterexample**: decomposing tool-trace
 verification into per-call schema nouls works; asking "is the trace correct"
 as one Noul hides nine judgments. **Test**: full truth table / transition
 cases incl. contradictory outputs, stale observations, invalid combos.
@@ -476,6 +487,14 @@ permission gate. Companion
 is display only. Distinct from jev-gates (stops writes)
 and egma attention≠correctness (PR surface)
 (`notes.md` §63).
+**Skill-library VOI (Empirical as README architecture;
+2026-09-19 ~01:47):**
+[skillranker](https://github.com/Dicklesworthstone/skillranker)
+— pay to load a skill iff it changes the next step.
+Abstention ("none of these") is first-class. Failed hook
+recommendation is quiet fail-open. Distinct from
+skill-broker (grants). Compose with combinators
+(`notes.md` §66).
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs
@@ -559,6 +578,19 @@ hard-threshold raw p as if it were P(event) without
 **domain** recalibration (`jevcal`; ~100 labelled rows).
 One dataset (`civil_comments`); do not cite `threat` (n=1).
 License null. `notes.md` §64.
+**OOD / AUC ≠ ECE (Empirical as 900-ticket + 3 public
+benches; 2026-09-19 ~01:47):**
+[jev-ood-calibration](https://github.com/scienthoon/jev-ood-calibration)
+— in-domain public benches look almost honest (OpenBookQA
+ECE 0.024 / T 0.96). On an **unknowable** org-policy
+priority label absent from the text: 44.7% acc, mean
+stated p **0.74**, ECE 0.325, refit T **3.40**. Sign
+**flips by type** on the same tickets: Choice/Score
+overconfident (T ~3.3), boolean underconfident (T 0.66).
+Do not threshold the TypeSafe `confidence` field (worse
+than max-p here). Complements does-jev-confidence
+(in-domain humans) and dinostomp (instrument).
+Gateway exposes no model version. `notes.md` §66.
 
 ## 8. Control structure → sensor ≠ constraint (Leveson)
 
@@ -636,6 +668,13 @@ limit failure. Financial / destructive / credential fail
 closed if Jev is down. Distinct from construct (shell
 effects) and interlock (secrets never in agent)
 (`notes.md` §64).
+**Turnstile clone (Empirical as README architecture;
+2026-09-19 ~01:47):**
+[turnstile](https://github.com/zyphr-labs/turnstile) —
+same doctrine (policy first; Jev remainder; evidence ≠
+authority) with receipts and **threshold replay**. Missing
+Jev → Review, not a silent allow. Starting 0.85/0.35 are
+not calibrated. Experimental alpha. `notes.md` §66.
 
 ## 9. Search / control loops → one substituted classifier step
 

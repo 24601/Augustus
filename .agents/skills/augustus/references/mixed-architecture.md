@@ -225,6 +225,10 @@ not a global virtue:
 | Compact a long agent history (middleware) | **Fail open** to uncompacted history if Jev is down (`jev-compactor`); **fail closed** on pending destructive/exfil | Dual polarity in one product. Regex floor always local. Contrast gliner25-compaction fail-closed `keep_full`. Never rewrite kept bytes |
 | Click / type from an indexed viewport | **Fail closed** to code-owned `--until` / stuck / no-guess fill (`ego-jev`) | Jev `done` is not business success. Malformed text-model JSON does not guess a value. Stale refs aborted |
 | Collapse a social reply | **Fail open** as hide-not-delete (`x-reply-filter`); local rules first | Auto-hides are not training labels until a human confirms. Never self-reinforce on the model's own negatives |
+| Rank the next skill from live context | **Fail open** on the Claude hook (`skillranker`); CLI keeps real exit codes | Advisory ranking; none-of-these is first-class. A failed recommendation must not block the agent. Distinct from skill-broker (grants) |
+| Authorize a proposed tool after policy permit | **Fail closed** on explicit deny; **Review** if Jev is missing (`turnstile`) | Jev never grants what policy denied. Replay thresholds on saved scores; starting 0.85/0.35 are not calibrated. Observe mode is not enforcement |
+| Endorse a capability claim / bake-off slogan | **Fail closed** until receipts (`jev-capability-atlas`); attach thinking budget (`jev-frontier-100`) | Not a leaderboard. Schema-valid ≠ correct. "Weaker than 4B" needs the thinking condition |
+| Threshold raw p on an unseen rule | **Fail closed** until type-specific recalibration (`jev-ood-calibration`) | AUC ≠ ECE. Choice/Score overconfident (T~3.3); boolean underconfident (T 0.66) on the same tickets. Unknowable policy labels still get mean p 0.74 |
 | Drop a meaning-grep line | **Fail open** as ranking (`jev-semgrep`); keyword still wins exact strings | AND/OR/NOT over line Nouls. Japanese meanings noisier near threshold |
 
 Worked placements (2026-09-18 topic:jev hour + prior archive):
@@ -301,7 +305,8 @@ Live ecosystem (examples of the *shape*, not SDKs to copy):
 
 - Official skill_suggestion cookbook; GodsBoy router 94.4% vs 70.8% lexical.
 - `Dicklesworthstone/skillranker` — next-step skill rank from live session
-  context; fail-closed; calibration loop.
+  context; two-pass + none-of-these; Claude hook **fail-open** (quiet
+  exit 0); CLI keeps real exit codes; local calibration/replay. 52★.
 - `WiktorB2004/llama-index-jev` selectors — which query engine handles the
   query; fail closed or a declared default.
 - Toolrouter (product, X 2026-09-18) / open JevRouter harnesses — request →
@@ -607,6 +612,13 @@ decision-design card. Do not clone APIs from READMEs.
 | Hot-click CU (indexed viewport) | operation + per-op target in one request | Code owns observe/execute/stale-ref/loop/`--until`; text model only for type; never guess fill | ego-jev (MIT; HN 4.9s vs 9.7s / wiki 5.4s vs 10.1s *theirs* n=3; not a bench). Cousin of jev-ultrafast |
 | Framework-agnostic compact + gate | keep/drop per message + Foreman Nouls | Pins/dedup/regex floor in code; never rewrite; compaction fail-open if Jev down; safety fail-closed | jev-compactor (MIT; 64.5% / 366ms / $0.0004 / 0 hallucinated / 4 of 4 *theirs*, one session). Claude Code: fast-jev-compaction; OpenCode: fast-jev-opencode |
 | Local-rules-then-remainder feed | four remainder Nouls after `rules.js` | Collapse not delete; auto-hides need human confirm before they become examples | x-reply-filter (MIT; 3-sample e2e 0.90/0.93 vs 0.08/0.10). Cousin of bohutang/sift |
+| Control-plane combinators | Then / Gate / Vote / Cascade / Weighted over Choice/Score/Noul | AND/OR aggregation stays in code (do not multiply); trace is the oscilloscope | decision-combinators (TS; README MIT / GitHub license null; no measurements). Not a new Jev API |
+| Skill-library VOI | two-pass Choice then fit Nouls; none-of-these | Hook fail-open; Quill prefilter >254; advisory; local replay | skillranker (Rust; 52★; MIT + rider / GitHub NOASSERTION). Correction vs §7: hook is not fail-closed |
+| Receipts-not-leaderboard map | hold vs break with API receipts | Schema-valid ≠ correct; retrieve first | jev-capability-atlas (10★ this pass; axis already §49; this hour is the eval-integrity cluster) |
+| Jev vs thinking-budget small models | 100 four-choice tasks × 3; freeze questions | Attach the thinking condition; exploratory not preregistered | jev-frontier-100 (MIT; Jev 77.0% vs Qwen3.5 4B/2048 96.7%; 4B off 56.0%). Not a ceiling |
+| OOD calibration / AUC ≠ ECE | ECE with noise floor; refit T by type | Calibrate per question; do not threshold `confidence` | jev-ood-calibration (MIT; 900 tickets; ECE 0.107 = 4.4× floor; priority 44.7% / mean p 0.74 / T 3.40) |
+| Replayable evidence≠authority gate | policy first; Jev remainder; allow/review/deny | Missing Jev → Review; hard denials stay hard on replay | turnstile (Apache-2.0; experimental alpha; no npm). Actiongate-class clone |
+| MLX one-pass schema→JSON | per-field probs in one forward pass | Softmax ≠ Noul; no local leaderboard yet | jevmlx (MIT; 28★; Apple Silicon replica economics). Distinct from system-one-benchmark Harbor table |
 
 On-device / Home Assistant / mobile are newly-feasible via the economics
 inversion, not proven ports of every app. Named placements this hour

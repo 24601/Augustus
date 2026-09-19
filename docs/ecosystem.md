@@ -307,6 +307,19 @@ Architecture notes, not an install.sh / pnpm / wrangler catalog. `notes.md` §65
 - **edwardyen724-g/jev-compactor** — TypeScript MIT; **1★**. Was empty skip §61. **"Jev judges relevance. Code decides structure."** Never rewrite. Regex floor in code. Compaction fail-open if Jev down; safety fail-closed on pending destructive/exfil. One synthetic 12.7k-token session *theirs*: **64.5%** / **366 ms** / **$0.0004** / **0** hallucinated paths / **4 of 4** facts vs truncate 53%/1 of 4 vs Sonnet summary 96.2%/6.1 s/1 invented path. Claude Code shorter path: fast-jev-compaction. OpenCode fail-open port already §62: fast-jev-opencode.
 - **zhuyansen/x-reply-filter** — JavaScript MIT. Chrome MV3. Local `rules.js` first, then batched four Nouls. Collapse not delete. Auto-hides sit in a confirm queue — **never auto-train on the model's own hides**. E2E *theirs*: 3 samples → 0.90/0.93 vs 0.08/0.10. Cousin of bohutang/sift. Cheap hold-before-show cookbook.
 
+### Hourly ~01:47 Boise 2026-09-19 / 07:47 UTC (control-plane combinators, receipts-not-leaderboard, skill VOI, OOD/AUC≠ECE, frontier-100, turnstile, jevmlx)
+
+Architecture notes, not an npm / cargo / pip / bun catalog. `notes.md` §66. TypeSafe Jev is the exemplar, not the monopoly. Archer still Watch. No invented metrics. Do not re-fold §50–§65 HIGH except one-line. Atlas axis already §49; skillranker existence already §7; jevmlx reconstruction already §1. Hunches labeled.
+
+- **voidning/decision-combinators** — TypeScript; README MIT / GitHub license null. Then / Gate / Vote / Cascade / Weighted over Choice/Score/Noul. Analogized as logic gates; **not** literal AND/OR (those stay in code). No measurements. **Hunch:** System One as a control plane, not chat turns.
+- **Zaious/jev-capability-atlas** — **10★** this pass. Receipts-not-leaderboard hold/break map. Type-safe ≠ correct (schema-valid ≠ picked-right). Extractable-from-state axis already §49 — do not rehash the history suite. Unofficial.
+- **Dicklesworthstone/skillranker** — Rust; **52★**. Two-pass + none-of-these. Claude hook **fail-open** (quiet exit 0) — corrects §7 fail-closed. VOI over a skill library. Distinct from skill-broker (grants).
+- **scienthoon/jev-ood-calibration** — MIT. 900 synthetic tickets + 3 public benches; ~$0.06. Public OpenBookQA ECE 0.024 / T 0.96. Synthetic ECE **0.107 = 4.4×** floor; priority (unknowable org rule) 44.7% / mean p **0.74** / T **3.40**; boolean T **0.66**. Sign flips by type. Do not threshold `confidence`. Complements does-jev-confidence.
+- **softpudding/jev-frontier-100** — MIT. 100×3. Jev **77.0%**; Qwen3.5 4B off **56.0%** / 512 **78.3%** / 2048 **96.7%**. Exploratory, not preregistered. Attach the thinking budget. Not a ceiling.
+- **zyphr-labs/turnstile** — Apache-2.0; experimental alpha; no npm. Deterministic policy first; Jev remainder; receipts + replay. Missing Jev → Review. Jev never grants what policy denied. Actiongate-class clone.
+- **bnsd55/jevmlx** — MIT; **28★**. MLX one-pass schema→JSON+probs. Softmax ≠ Noul. No local leaderboard yet. Distinct from system-one-benchmark Harbor table.
+- MED: **chopratejas/invalidate** (Apache-2.0; 5★; 157 cases 89.2%/97.5%/0 false invalidations; memory leases); **yottayoshida/jev-intent-review** (under construction; empty search ≠ proof); **shubhangi013/prune-review** (source preview; 22-run cost 1.18% with 305% outlier).
+
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs
 Apalache; DST trio Antithesis / Resonate HQ / PufferLib):

@@ -1542,3 +1542,54 @@ table / S1 on click path; (er) Jev judges relevance, code
 decides structure / never rewrite; (es) local rules first
 then remainder / never auto-train on the model's own hides.
 
+## Batch #50 (2026-09-19 ~07:53 UTC / ~01:47 Boise) — control-plane combinators, receipts-not-leaderboard, skill VOI, OOD/AUC≠ECE, frontier-100, turnstile, jevmlx
+
+Note: `research/notes.md` §66. Docs-only. Folded into PR #2.
+Archer still Watch. No invented metrics. Atlas axis already
+§49; skillranker existence already §7 (hook polarity
+**corrected** to fail-open); jevmlx reconstruction already
+§1. Hunches labeled.
+
+- **voidning/decision-combinators (Empirical as README
+  architecture).** TypeScript. README MIT / GitHub license
+  null. Created 2026-09-19T07:25:16Z; 0★. Then / Gate /
+  Vote / Cascade / Weighted. Not literal AND/OR. No
+  measurements.
+- **Zaious/jev-capability-atlas (delta: eval-integrity
+  cluster).** 10★ this pass (was 0). Receipts not
+  leaderboard; type-safe ≠ correct. Do not rehash history
+  suite.
+- **Dicklesworthstone/skillranker (Empirical as README;
+  correction).** Rust; 52★. Two-pass + none-of-these.
+  Claude hook fail-open (quiet exit 0). VOI over skill
+  library.
+- **scienthoon/jev-ood-calibration (Empirical as 900-ticket
+  + 3 public benches).** MIT. Created 2026-09-19T07:33:22Z.
+  Synthetic ECE 0.107 = 4.4× floor; priority 44.7% / mean p
+  0.74 / T 3.40; boolean T 0.66. AUC ≠ ECE.
+- **softpudding/jev-frontier-100 (Empirical as exploratory
+  100×3).** MIT. Jev 77.0%; Qwen3.5 4B/2048 96.7%; 4B off
+  56.0%. Not preregistered. Not a ceiling.
+- **zyphr-labs/turnstile (Empirical as README
+  architecture).** Apache-2.0. Experimental alpha. Policy
+  first; Jev remainder; replay. Missing Jev → Review.
+  Actiongate-class.
+- **bnsd55/jevmlx (Empirical as README library).** MIT;
+  28★. One-pass schema→JSON+probs. Softmax ≠ Noul. No
+  local leaderboard yet.
+- MED: chopratejas/invalidate (5★; 0 of 157 false
+  invalidations); yottayoshida/jev-intent-review (under
+  construction); shubhangi013/prune-review (22-run cost
+  1.18% with 305% outlier).
+
+Census: not re-derived this hour (last §64/§65: Awesomejev
+488/21644; SemIf 1660; jevlike 910; tracker likes 42).
+
+Cross-repo addition: (et) combinators / System One as
+control plane; (eu) receipts not leaderboard / type-safe ≠
+correct jaggedness; (ev) skill-library VOI / abstention;
+(ew) OOD / AUC ≠ ECE / sign by type; (ex) thinking-budget
+bake-off; (ey) turnstile evidence≠authority + replay;
+(ez) MLX one-pass replica economics.
+
+

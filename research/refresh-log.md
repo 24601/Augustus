@@ -885,3 +885,27 @@
   ecosystem, CHANGELOG, README.
 - notes.md §65; sources.json (361 sources, 358 unique URLs,
   retrieved 2026-09-19T06:55Z); findings.md batch #49. No wrapper.
+
+## 2026-09-19 ~07:55 UTC — hourly ~01:47 Boise fold (§66)
+- Docs-only into PR #2. Archer still Watch. Live GitHub
+  READMEs + `gh api`. Hunches labeled.
+- HIGH: decision-combinators (control-plane Then/Gate/Vote/
+  Cascade/Weighted); jev-capability-atlas 10★ receipts-not-
+  leaderboard (axis already §49); skillranker 52★ VOI /
+  hook fail-open (corrects §7); jev-ood-calibration 900
+  tickets ECE 0.107 = 4.4× floor, sign flips by type;
+  jev-frontier-100 Jev 77.0% vs 4B/2048 96.7% (exploratory);
+  turnstile evidence≠authority + replay; jevmlx 28★ one-pass
+  softmax ≠ Noul.
+- MED: invalidate, jev-intent-review (under construction),
+  prune-review (cost outlier).
+- Census: not re-derived (last SemIf 1660 / jevlike 910 /
+  Awesomejev 488/21644).
+- Cards: SKILL.md, applied-mappings §5/§7, mappings §3/§6/§7/§8,
+  mixed-architecture, validation, faq, judgment-class,
+  mental-models, methods-catalog, toolbox, composition-algebra,
+  agent-self-assessment, formal-methods, ecosystem, CHANGELOG,
+  README.
+- notes.md §66; sources.json (370 sources, 367 unique URLs,
+  retrieved 2026-09-19T07:55Z); findings.md batch #50. No wrapper.
+

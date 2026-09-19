@@ -673,8 +673,11 @@ decides BLOCK/ASK/ALLOW. A launch-week firewall that asks
 "dangerous?" after the LLM already decided, with real secrets in
 scope, is the named anti-pattern. Distinct from
 [toolgate](https://github.com/fdemir/toolgate) (pre-exec of a
-proposed call). `mappings.md` §8; `applied-mappings.md` §7;
-`notes.md` §59.
+proposed call). Atlas receipts make the same split a
+**measurement** claim: schema-valid (cannot emit off-list)
+≠ picked-right (DAIR Emotion 48% at mean conf 0.819).
+`mappings.md` §8; `applied-mappings.md` §7;
+`notes.md` §59, §49, §66.
 
 ## Is Jev the policy?
 
@@ -814,6 +817,49 @@ rows). Never `if p > 0.9` without domain recalibration.
 One dataset; do not cite `threat`. `mappings.md` §7;
 `notes.md` §64.
 
+## Does AUC mean the probabilities are honest?
+
+No. Ranking can be strong while units are wrong — and the
+**sign of the error can flip by question type**.
+[jev-ood-calibration](https://github.com/scienthoon/jev-ood-calibration):
+on 900 synthetic tickets Jev cannot have seen, Choice/Score
+are overconfident (refit T ~3.3) while the boolean on the
+**same** tickets is underconfident (T 0.66). The priority
+label is an org rule **not in the text** (44.7% acc, mean
+stated p 0.74). In-domain OpenBookQA looks almost honest
+(ECE 0.024). Do not threshold the TypeSafe `confidence`
+field. Complements does-jev-confidence. `notes.md` §66.
+
+## Are combinators a new judgment model?
+
+No. They are **control-plane primitives** over typed
+judgments: Then / Gate / Vote / Cascade / Weighted.
+[decision-combinators](https://github.com/voidning/decision-combinators)
+analogizes them as logic gates; AND/OR aggregation of
+parallel Nouls still lives in code (do not multiply).
+Compose with [skillranker](https://github.com/Dicklesworthstone/skillranker)
+(VOI over a skill library; abstention; hook fail-open).
+Not chat turns. `composition-algebra.md`; `notes.md` §66.
+
+## Is Jev weaker than a 4B model?
+
+Only with the **thinking budget** attached, on this set.
+[jev-frontier-100](https://github.com/softpudding/jev-frontier-100):
+Jev **77.0%**; Qwen3.5 4B with thinking off **56.0%**; at
+512 **78.3%**; at 2048 **96.7%** (+12.7 to +26.7 pp).
+Exploratory, not preregistered. Similar totals ≠ similar
+skills. Not a ceiling. `notes.md` §66.
+
+## Does a local MLX one-pass replica give Nouls?
+
+No. [jevmlx](https://github.com/bnsd55/jevmlx) assembles
+schema-valid JSON with a probability per field in one
+forward pass on Apple Silicon. Softmax over allowed tokens
+≠ a calibrated Noul. No local leaderboard yet. Distinct
+from system-one-benchmark's Harbor Brier table
+(PCD 0.3884 vs Jev 0.1096). `judgment-class.md`; `notes.md`
+§61, §66.
+
 ## Does Jev `done` mean the browser task succeeded?
 
 No. Code owns observe / execute / verify / exit.
@@ -924,8 +970,11 @@ forward pass / p50 227.2 ms / 52% acc / Brier **0.3884**;
 Jev-1.13.0 is 84.0% / Brier **0.1096** / p50 356.5 ms
 HTTPS. AR JSON ~30.8 passes and 98% schema errors. Softmax
 over allowed tokens is not a Noul. Same honesty as jevify
-(uncalibrated CUDA likelihoods). Small n — *their* card.
-`judgment-class.md`; `notes.md` §61.
+(uncalibrated CUDA likelihoods). Productized cousin:
+[jevmlx](https://github.com/bnsd55/jevmlx) (28★) — schema→JSON
++ per-field probs in one MLX pass; **no local leaderboard
+yet**. Small n — *their* card.
+`judgment-class.md`; `notes.md` §61, §66.
 
 ## Closed-vote computer-use, or Stagehand pick?
 

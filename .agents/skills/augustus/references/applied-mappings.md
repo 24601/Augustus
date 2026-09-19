@@ -470,7 +470,9 @@ fail closed on side effects; no-match option when coverage is open
 ```
 
 **Example**: skill_suggestion cookbook (**Contract**); GodsBoy 94.4% vs
-70.8% lexical (exploratory: questions revised after the first full run); `Dicklesworthstone/skillranker` from live session context;
+70.8% lexical (exploratory: questions revised after the first full run);
+`Dicklesworthstone/skillranker` from live session context
+(**VOI / abstention; 52★; hook fail-open** — see below);
 LlamaIndex selectors fail closed or a declared default.
 [`rajdhakad9826/routeKit`](https://github.com/rajdhakad9826/routeKit):
 Jev estimates task *requirements*; code applies hard constraints and a
@@ -516,6 +518,21 @@ built-in tool. Distinct from specpi-jev-guard (single danger
 score; static fast-path miss), toolgate, interlock, and
 omp-jev-extensions (fail-open *route*). Composes with
 waymode. Do not copy `omp plugin` / YAML (`notes.md` §62).
+**Skill-library VOI (Empirical as README architecture;
+correction vs §7 fail-closed; 2026-09-19 ~01:47):**
+[skillranker](https://github.com/Dicklesworthstone/skillranker)
+— Jev two-pass (wide Choice then fit Nouls) from live
+session context; both passes include **"none of these"**.
+Advisory: the agent follows user instructions. Claude
+prompt-hook maps recommendation failures to **quiet
+exit-zero** (never blocks the agent). CLI keeps meaningful
+exit codes. Libraries >254: Quill lexical prefilter admits
+≤254 + none. Explicit requests resolve locally first.
+Local feedback / replay without a new Jev call. **Hunch:**
+pay to load a skill iff it changes the next step.
+Compose with decision-combinators (control plane, not chat).
+Distinct from skill-broker (grants). Do not copy cargo
+(`notes.md` §66).
 **Hermes pre-agent skill intervention (Hypothesis / outline
 only — not a production recipe):**
 [skill-broker](https://github.com/adamjralph/skill-broker)
@@ -678,6 +695,18 @@ label-baseline integrity, **not** model accuracy. Early MVP.
 Distinct from toolgate / interlock / construct / greenlight.
 **Hunch:** canonical sensor≠constraint slogan for the
 class. Do not copy pnpm (`notes.md` §64).
+**Turnstile clone (Empirical as README architecture;
+2026-09-19 ~01:47):**
+[turnstile](https://github.com/zyphr-labs/turnstile)
+— deterministic policy first; Jev semantic remainder
+only after permit; allow/review/deny; receipts +
+threshold replay with no new model calls. Jev **never
+grants** authority policy denied. Missing Jev / timeout
+→ **Review**. Starting 0.85 deny / 0.35 review are **not
+calibrated**. Experimental alpha; no npm; Claude adapter
+defaults observe + Jev off. Demo uses fixed judgments
+(enforcement, not accuracy). Same doctrine as actiongate;
+different product. Do not copy bun (`notes.md` §66).
 **Counterexample**: post-decision "is this dangerous?" with AWS
 keys still in the prompt. **Test**: delete the sensor — the
 constraint and the closed action space still hold; a canary use

@@ -355,6 +355,11 @@ Rules:
 | Ranking ≠ calibration (human annotations) | [does-jev-confidence-mean-anything](https://github.com/Adilmp/does-jev-confidence-mean-anything); [jevcal](https://github.com/Adilmp/jevcal) | 8,000 judgments, `jev-1.13.0`, $0.05. AUC **~0.91**; stated **~75%** vs human **~10%**. Recalibration removes **~96% ECE**, AUC unchanged. `natural`/tightened ECE 0.156 → 0.006. jevcal: ~100 rows (94% of error). ECE gameable (constant base-rate ECE 0). License null / MIT. One domain; do not cite `threat` (n=1) |
 | Hot-click CU vs per-step LLM | [ego-jev](https://github.com/jiangkoumo/ego-jev) | Alternate 3-round medians *theirs*: HN 4.9 s vs 9.7 s; wiki 5.4 s vs 10.1 s (~2×). n=3; high variance (control 7.3–22 s). **Not a benchmark.** MIT |
 | Verbatim compact vs truncate vs summarize | [jev-compactor](https://github.com/edwardyen724-g/jev-compactor) | One synthetic 64-msg / 12.7k-token session, 6k budget, `jev-1.13.0`. 64.5% / 366 ms / $0.0004 / 0 hallucinated paths / 4 of 4 facts vs truncate 53% / 1 of 4 vs Sonnet 96.2% / 6.1 s / $0.0305 / 1 invented path. MIT. Not a survey |
+| Receipts-not-leaderboard capability map | [jev-capability-atlas](https://github.com/Zaious/jev-capability-atlas) | Hold vs break with API receipts; not a ranking. Type-safe ≠ correct (DAIR Emotion 48% / mean conf 0.819). Axis already §49; 10★ this pass. README MIT / GitHub NOASSERTION |
+| Jev vs thinking-budget Qwen3.5 | [jev-frontier-100](https://github.com/softpudding/jev-frontier-100) | 100×3; Jev **77.0%**; 4B off 56.0% / 512 78.3% / 2048 **96.7%** (+12.7 to +26.7). 2B/2048 82.0% (−2.3 to +12.3). Exploratory, not preregistered. MIT. Not a ceiling |
+| OOD calibration / sign by type | [jev-ood-calibration](https://github.com/scienthoon/jev-ood-calibration) | 900 synthetic + 3,721 public; ~$0.06. Public OpenBookQA ECE 0.024 / T 0.96. Synthetic all ECE **0.107 = 4.4×** floor; priority 44.7% / mean p 0.74 / T **3.40**; boolean T **0.66**. MIT. Gateway has no model version |
+| Memory-lease invalidation | [invalidate](https://github.com/chopratejas/invalidate) | 157 labeled cases *theirs*: 89.2% strict / 97.5% lenient / **0 of 157** false invalidations. Six Nouls then code. Apache-2.0. MED |
+| Cost-aware PR prune (pilot) | [prune-review](https://github.com/shubhangi013/prune-review) | 22 paired runs: winning-only 27.9% (post hoc); all 22 incl. 305% outlier **1.18%**; excl. outlier 15.9%. Cost not quality. Source preview |
 
 rh-guard is a reward-hack hook, a different surface from jevgate and
 from Abide (eval-integrity vs allowlist-remainder vs project soft
@@ -621,6 +626,18 @@ session).**
 64.5% / 366 ms / $0.0004 / 0 invented paths / 4 of 4 facts
 vs Sonnet summary 96.2% / 6.1 s / 1 invented path. Not a
 survey. Was empty skip §61. Do not copy npm (`notes.md` §65).
+**Eval integrity cluster (Empirical as their tables;
+2026-09-19 ~01:47; not leaderboard theater).**
+[jev-capability-atlas](https://github.com/Zaious/jev-capability-atlas)
+receipts, not a ranking; type-safe ≠ correct (axis already
+§49; 10★ this pass).
+[jev-frontier-100](https://github.com/softpudding/jev-frontier-100):
+Jev 77.0% vs Qwen3.5 4B/2048 96.7% (4B off 56.0%);
+exploratory, attach the thinking budget.
+[jev-ood-calibration](https://github.com/scienthoon/jev-ood-calibration):
+900 tickets ECE 0.107 = 4.4× floor; priority unknowable
+(44.7% / mean p 0.74 / T 3.40); sign flips by type.
+Do not copy npm / Ollama (`notes.md` §66).
 
 **Harbor-adjacent stdout prune (Empirical as README / evals README
 behavior, not a full Terminal-Bench ranking; 2026-09-18 ~17:15).**

@@ -7200,3 +7200,356 @@ own hides; compaction still must not summarize);
 `mental-models.md`; `methods-catalog.md`;
 `toolbox-mapping.md`; `agent-self-assessment.md`.
 Hunches labeled. No wrapper.
+
+## 66. Hourly 01:47 Boise: control-plane combinators, receipts-not-leaderboard, skill VOI, OOD/AUC≠ECE, frontier-100 Harbor, turnstile evidence≠authority, MLX one-pass economics (2026-09-19)
+
+America/Boise 01:47 = 2026-09-19T07:47Z. Docs-only fold into open
+PR #2 (`cursor/augustus-store-envelope-00b4`). Not a competing PR.
+Archer 27B drop still **WATCH**. Identity lock vs `typesafe-ai` /
+`tenbin` / `decision-first` holds. No wrapper, no npm / cargo /
+pip / bun how-to. No invented metrics. Do **not** re-fold
+§50–§65 HIGH except one-line. Atlas extractable-from-state axis
+already §49 — this hour is the **eval-integrity cluster**, not a
+rehash of the history suite. Skillranker was a §7 deep-read
+(findings said fail-closed) — this hour folds the **control-plane
+/ VOI** reading and corrects the hook polarity. jevmlx was a
+§1 reverse-engineering mention — this hour is the **productized
+Apple Silicon one-pass** card. TypeSafe Jev is the documented
+exemplar, not the monopoly. Augustus stays how-to-apply / mental
+model / architecture / toolbelt + jevals/Harbor practice.
+
+Watch archive path `/workspace/jev-archive/2026-09-19/0147`
+is **not present** on this VM. Receipts this pass are live
+GitHub READMEs + `gh api` metadata (2026-09-19 ~07:53Z).
+Causes below are **hunches** unless labeled Empirical.
+
+Three clusters, not a hit list:
+
+- **(a) Gate doctrine clones.** Turnstile joins actiongate:
+  deterministic policy first; Jev is semantic evidence;
+  evidence ≠ authority; receipts + replay.
+- **(b) Composition primitives.** Combinators + skillranker =
+  System One as a **control plane**, not chat turns: named
+  circuit combinators over typed judgments; VOI over a live
+  skill library with abstention.
+- **(c) Eval integrity without leaderboard theater.** Atlas
+  (receipts, not a ranking) + frontier-100 (Harbor-shaped
+  Jev vs thinking-budget small models) + OOD calibration
+  (AUC ≠ ECE; sign of miscalibration by type).
+
+Plus local replica economics: jevmlx one-pass schema→JSON+probs
+on Apple Silicon (softmax ≠ Noul).
+
+### HIGH
+
+1. **[`voidning/decision-combinators`](https://github.com/voidning/decision-combinators)**
+   (TypeScript; README/package.json **MIT**; GitHub SPDX **null**
+   this pass; created 2026-09-19T07:25:16Z; 0★; GitHub `size` 0
+   — `src/` and README are live). Composable decision circuits
+   for Jev **and other judgment primitives**. Slogan: primitives
+   = transistors; combinators = logic gates; decision graph =
+   chip; confidence = current; trace = oscilloscope. The five
+   combinators are **Then / Gate / Vote / Cascade / Weighted**
+   — not a new Jev API and **not** literal Boolean AND/OR
+   operators. AND/OR aggregation of parallel Nouls still lives
+   in code (`composition-algebra.md`: do not multiply). Vote
+   is majority or mean with confidence discounted by agreement.
+   Cascade is cheap→expensive, stop when confident. Gate is
+   confidence routing. Optional `@typesafe-ai/sdk` peer.
+   No published measurements. Do not copy `npm install` /
+   `pnpm dev`.
+
+   **Hunch / Augustus takeaway:** System One decisions compose
+   as **control-plane primitives**, not chat turns. The library
+   is a named algebra over Choice/Score/Noul; policy, fail
+   polarity, and independence caveats stay yours.
+
+2. **[`Zaious/jev-capability-atlas`](https://github.com/Zaious/jev-capability-atlas)**
+   (Python; README MIT / GitHub SPDX **NOASSERTION**; created
+   2026-09-18T21:30:40Z; **10★** this pass, was 0★ at §49;
+   pushed 2026-09-19T07:23:02Z). Already folded as the
+   extractable-from-state **boundary map** (`notes.md` §49;
+   history suite N=3). **Do not rehash that table.** This
+   hour's job is the **eval-integrity** reading: an independent
+   hold-vs-break map with **API receipts**, not a leaderboard
+   (they cite jev-benchmarks / thaiexam, they do not redo them).
+   Jaggedness slogan now explicit in the README: schema-valid
+   (cannot emit off-list) **≠** correct (DAIR Emotion 48% acc
+   at mean conf 0.819). Same type-safe ≠ correct as interlock,
+   now as a **measurement** claim rather than a kernel claim.
+   Receipts-first CONTRIBUTING. Unofficial, not TypeSafe.
+
+   **Hunch / Augustus takeaway:** capability claims need
+   receipts. A leaderboard without a hold/break axis is
+   theater. Compose with frontier-100 and ood-calibration
+   as one eval-integrity cluster.
+
+3. **[`Dicklesworthstone/skillranker`](https://github.com/Dicklesworthstone/skillranker)**
+   (Rust; README MIT + OpenAI/Anthropic rider / GitHub SPDX
+   **NOASSERTION**; created 2026-09-17T06:58:19Z; **52★**;
+   pushed 2026-09-19T07:48:57Z). Previously analyzed §7 /
+   findings #4 as "hook ranks skills, calibration loop,
+   fail-closed." **Correction this pass:** the Claude
+   **prompt-hook maps recommendation failures to quiet
+   exit-zero** — it **never blocks the agent** (fail-open
+   for the hook). CLI keeps meaningful exit codes. Jev
+   two-pass: wide Choice over candidates then fit Nouls on
+   a shortlist; both include a real **"none of these"**.
+   Advisory: the agent follows user instructions. Libraries
+   >254 eligible skills: **Quill** lexical prefilter
+   (FrankenSearch) admits ≤254 + none to each Choice.
+   Explicit skill requests resolve locally first. Local
+   feedback / replay without a new Jev call. Builds on the
+   official skill_suggestion cookbook; adds session identity,
+   harness visibility, bounded execution. Do not copy cargo /
+   TypeSafe key paths.
+
+   **Hunch / Augustus takeaway:** VOI over a skill library —
+   pay to load a skill iff it changes the next step; abstention
+   is first-class. Compose with combinators: rank/select is a
+   control-plane act, not a chat turn. Distinct from
+   skill-broker (outline; Jev never grants access).
+
+4. **[`scienthoon/jev-ood-calibration`](https://github.com/scienthoon/jev-ood-calibration)**
+   (Python; MIT; created 2026-09-19T07:33:22Z; 0★; GitHub
+   `size` 0 — README + scripts live). Independent calibration
+   on a task Jev cannot have seen, plus three public
+   benchmarks it probably has. Vercel AI Gateway
+   `typesafe-ai/jev` (Gateway does not expose a model
+   version; `jev-latest` id returned "Model not found");
+   AI SDK 7.0.107; `zeroDataRetention: true`; 2026-09-19;
+   3,721 public + 900 synthetic; 0 failed calls; ~$0.06.
+   ECE at T=1, 15 equal-width bins on max-probability.
+   **Refit T** is diagnostic (T>1 overconfident; T<1
+   underconfident) and carries a **sign that scalar ECE
+   does not**.
+
+   **Public (likely in-domain; contamination unknowable):**
+
+   | Dataset | n | Acc | NLL | ECE | ECE/floor | Refit T |
+   |---|---:|---:|---:|---:|---:|---:|
+   | OpenBookQA val | 500 | 94.2% | 0.172 | 0.024 | 1.0× | 0.96 |
+   | CommonsenseQA val | 1,221 | 88.1% | 0.395 | 0.032 | 1.7× | 1.35 |
+   | HellaSwag val 2k | 2,000 | 86.1% | 0.420 | 0.029 | 1.6× | 1.00 |
+
+   **Synthetic support tickets (rule-generated 2026-09-19;
+   5% labels randomly corrupted; cannot be in training):**
+
+   | Question | Type | n | Acc | ECE | Refit T | Reading |
+   |---|---|---:|---:|---:|---:|---|
+   | Which queue? | choice (4) | 300 | 89.0% | 0.082 | **3.29** | Right, but wrong answers also get 1.00 |
+   | Customer angry? | boolean | 300 | 91.7% | 0.079 | **0.66** | Underconfident |
+   | Priority (org rule) | score (4) | 300 | 44.7% | 0.325 | **3.40** | Cannot know; mean stated p **0.74** |
+   | All | | 900 | 75.1% | 0.107 | **2.74** | 4.4× noise floor 0.024 |
+
+   Priority = template urgency + angry + gold/enterprise tier
+   **clipped** — the tier bump is organisational policy **absent
+   from the text**. 44.7% is chance plus common sense. The
+   question is whether probabilities *reflect* that it cannot
+   know. They do not. TypeSafe `confidence` ECE is **worse**
+   than max-probability on these sets (0.18 synthetic) — do
+   not threshold on it. Probabilities quantised to 0.01;
+   OpenBookQA: 1,051 of 2,000 option p exactly 0; one item
+   assigned 0.00 to the correct answer (counterexample to
+   "no misses at confidence 1.000"). **Sign of miscalibration
+   differs by type** on the same tickets: Choice/Score
+   overconfident, boolean underconfident. Calibrate per
+   question, not per model. Complements does-jev-confidence
+   (ranking ≠ calibration on in-domain humans) and dinostomp
+   (instrument). One synthetic family; Gateway slug may move.
+   Do not copy npm / Gateway key.
+
+   **Hunch / Augustus takeaway:** AUC ≠ ECE. In-domain honesty
+   does not license OOD thresholds. An unknowable policy
+   label is the human-routing case the product actually
+   depends on.
+
+5. **[`softpudding/jev-frontier-100`](https://github.com/softpudding/jev-frontier-100)**
+   (Python; MIT; created 2026-09-19T07:12:41Z; 0★; GitHub
+   `size` 0 — questions, protocol, results live). 100 original
+   four-choice tasks (10 domains; 50 counterfactual pairs;
+   60 executable-oracle; 30/40/30 easy/medium/hard —
+   difficulty **not independently calibrated**; no independent
+   expert review). Jev vs Qwen3.5 0.8B / 2B / 4B across
+   thinking **off / 512 / 2048**. 100×3 trials; all 3,000
+   retained responses valid; no majority vote. Exploratory
+   release: published conditions **selected after observing
+   results**, not a blind preregistration. Measured *theirs*
+   (Apple M5 Max, Q8_0, `jev-1.13.0`):
+
+   | Thinking budget | 0.8B | 2B | 4B |
+   |---|---:|---:|---:|
+   | Off | 38.0% | 48.0% | 56.0% |
+   | 512 | 39.0% | 59.7% | 78.3% |
+   | 2,048 | 54.0% | 82.0% | **96.7%** |
+
+   **Jev 77.0%.** 4B/2048 exceeds Jev by 19.7 pp (95% paired-
+   template bootstrap **+12.7 to +26.7**). 2B/2048 +5.0
+   (−2.3 to +12.3) — descriptive, not a proof of equivalence.
+   **Budget matters:** 4B with thinking off is 56.0%; at 512
+   it is 78.3%. "Jev is weaker than a 4B model" needs the
+   thinking condition attached. Similar totals ≠ similar
+   skills (Jev stronger on short code semantics / formal
+   logic; 2B/2048 on relationship tracking / algorithms).
+   Qwen score is raw probability of the emitted letter
+   token — **not** normalized over four choices, not
+   automatically P(correct). Jev confidence is a different
+   definition. Does **not** establish a universal
+   intelligence ceiling. Harbor/jevals-shaped: frozen
+   questions, published protocol, recompute-from-logs,
+   honest limits. Do not copy Ollama / llama-server /
+   `JEV_KEY`.
+
+   **Hunch / Augustus takeaway:** a Harbor comparison without
+   the compute-budget axis is a slogan. Attach the thinking
+   condition. Not a leaderboard.
+
+6. **[`zyphr-labs/turnstile`](https://github.com/zyphr-labs/turnstile)**
+   (TypeScript; Apache-2.0; created 2026-09-19T07:16:52Z;
+   0★; GitHub `size` 0 — engine + docs live). Guardrails for
+   an agent's next action: deterministic policy + Jev
+   semantic checks + replayable receipts. Returns
+   `allow` / `review` / `deny`. **Experimental alpha**;
+   runs from source with Bun; **no published npm package**.
+   First integration: Claude Code (observe mode + Jev
+   disabled by default). Not an endpoint sandbox; not OS
+   permissions. Decision path: match tool + argument
+   constraints → if policy permits, require a nonempty
+   goal and Jev → compare each risk probability to
+   thresholds → receipt. **Jev never grants authority that
+   policy denied.** Explicit review stays review. Model
+   checks run only after deterministic permission succeeds.
+   Starting thresholds *theirs* (not calibrated): any
+   semantic score ≥0.85 deny; ≥0.35 review; all <0.35
+   allow; missing goal / disabled Jev / timeout / invalid
+   → **Review**. Replay recomputes thresholds on saved
+   scores with **no new model calls**; hard denials stay
+   hard. Demo uses **fixed judgments** (no API key) —
+   demonstrates enforcement, not accuracy. Distinct from
+   actiongate-jev (OpenRouter; six Nouls; fail-closed
+   financial if Jev down) — same doctrine, different
+   product (Claude adapter, observe/enforce, replay CLI).
+   Distinct from construct / toolgate / greenlight /
+   interlock. Do not copy bun / `.turnstile/` how-to.
+   Enabling Jev sends goal/tool/args to TypeSafe.
+
+   **Hunch / Augustus takeaway:** gate-doctrine clone of
+   actiongate. Evidence ≠ authority. Receipts make
+   threshold policy inspectable without re-judging
+   content.
+
+7. **[`bnsd55/jevmlx`](https://github.com/bnsd55/jevmlx)**
+   (Python; MIT; created 2026-09-17T10:20:12Z; **28★**;
+   pushed 2026-09-19T07:47:10Z). Mentioned in §1 as
+   reverse-engineering (prefill-once + typed option
+   logits). This hour is the **productized** card: typed
+   decisions from any MLX instruct model on Apple Silicon;
+   schema of booleans / enums / multi-selects → JSON
+   **valid by construction**, probability per field, **one
+   batched forward pass**. Started from
+   rorshopping/jev-on-a-laptop; descends from
+   harshatheg/Qwen-2.5-1B-RLCD (demo, no weights).
+   Default alias `quality` =
+   `mlx-community/Qwen2.5-7B-Instruct-4bit`. Optional
+   OpenAI-compat backend: **one request per field**,
+   top-k truncated. Calibration CLI (ECE), abstention /
+   none-of-above, constrained MAP. **Not TypeSafe Jev.**
+   Softmax over allowed tokens ≠ Noul. Leaderboard cites
+   TypeSafe official 67.8%; **no local results yet**.
+   Distinct from system-one-benchmark (Harbor n=50 Jev vs
+   MLX PCD Brier table) — this is a library, that is a
+   bake-off. Distinct from pcdServer / TypeAR / jevify.
+   Do not copy `pip install git+` / `./setup.sh`.
+
+   **Hunch / Augustus takeaway:** Apple Silicon System One
+   *replica economics* — schema-valid one-pass is newly
+   feasible locally; calibration is still your job. Do not
+   launder a field probability as a hosted Noul.
+
+### MED (brief)
+
+- **[`chopratejas/invalidate`](https://github.com/chopratejas/invalidate)**
+  (Python; Apache-2.0; created 2026-09-19T04:26:59Z; **5★**).
+  Memory leases: every fact is stored verbatim; new evidence
+  can end it; questions/plans/directives are not evidence;
+  unsure → review queue. Six named Nouls per fact×event,
+  then **fixed rules in code**. Eval *theirs* 157 labeled
+  cases: **89.2%** strict / **97.5%** lenient / **0 of 157**
+  false invalidations; ~$0.00006 per fact×event. Adapter
+  in front of Mem0/Chroma/LangGraph/Markdown — host keeps
+  the store. **Hunch:** VOI/selective-memory cousin of
+  carryforward; leases are code; Jev is the sensor that
+  a new event might retire a fact. Do not copy pip.
+
+- **[`yottayoshida/jev-intent-review`](https://github.com/yottayoshida/jev-intent-review)**
+  (license MIT; created 2026-09-19T07:45:28Z; 0★; language
+  **null**; **under construction**, v0.1 in progress,
+  nothing released). Diff-only review misses places the
+  PR did not touch. Starts from stated intent, searches
+  the repo after the change, one small Jev question per
+  place → VERIFIED / VIOLATION / UNKNOWN / NOT_APPLICABLE.
+  **Never claims that finding nothing means the code is
+  correct.** Design in `docs/SPEC.md`. **Hunch:**
+  intent-vs-whole-repo is a placement (∀ over found
+  sites; aggregation in code); empty search ≠ proof.
+
+- **[`shubhangi013/prune-review`](https://github.com/shubhangi013/prune-review)**
+  (TypeScript; README Apache-2.0 / GitHub SPDX
+  **NOASSERTION**; created 2026-09-19T07:48:06Z; 0★;
+  source preview, packages/Action not published).
+  Cost-aware PR review: Jev per hunk → drop trivial +
+  **safety escarpment** always-keep → smaller packet to
+  a generative reviewer. Jev does not generate comments.
+  Target ~20% generative-cost cut. Bounded pilot *theirs*:
+  15 of 22 paired runs saved; winning-only **27.9%**
+  (post hoc); all 22 including one **305%** cost outlier
+  **1.18%**; excluding that outlier **15.9%**. Cost
+  results, **not quality claims**. Jev $0.00255 across
+  22 runs. ONNX-local fallback. **Hunch:** same sieve as
+  context compaction, on a review packet; report the
+  outlier, not only the winners.
+
+### Skip / already folded
+
+- Atlas **axis** (history suite / extractable-from-state):
+  §49. This hour adds the receipts-not-leaderboard /
+  type-safe ≠ correct cluster reading only.
+- Skillranker **existence**: §7. This hour adds VOI /
+  abstention / hook fail-open correction.
+- jevmlx **architecture reconstruction**: §1. This hour
+  adds the productized one-pass economics card.
+- actiongate-jev: §64. Turnstile is the clone, not a
+  re-fold.
+- does-jev-confidence: §64. OOD is the out-of-domain
+  complement (AUC ≠ ECE already named; this hour adds
+  **sign by type** and an unknowable policy label).
+- system-one-benchmark MLX PCD: §61. jevmlx is the
+  library; that row stays the Harbor Brier table.
+
+### Curated status
+
+Census **not re-derived** this hour. Last recorded §64/§65:
+Awesomejev 488/21644; SemIf 1660 (+8); jevlike 910 (+5);
+TypeAR 9; tracker likes 42. Archer still **NOT landed**.
+No X discourse archived this pass.
+
+### Omni / Jev-omni / Archer
+
+Still **WATCH**. Combinators, a capability atlas, a skill
+ranker, OOD ECE, a 100-task bake-off, a turnstile, and an
+MLX library are **not** that drop.
+
+### Cross-links
+
+Cards: `applied-mappings.md` §5 (skillranker VOI), §7
+(turnstile joins actiongate); `mappings.md` §3
+(combinators as circuits), §6 (skill VOI), §7 (OOD sign
+by type), §8 (evidence ≠ authority); `mixed-architecture.md`
+(fail table + gallery); `validation.md` (ood tables;
+frontier-100; atlas receipts); `faq.md` (control plane
+not chat; AUC ≠ ECE; type-safe ≠ correct; thinking-budget
+axis; local one-pass ≠ Noul); `judgment-class.md` (jevmlx);
+`composition-algebra.md` (combinators sit on ∧/∨-in-code);
+`mental-models.md`; `methods-catalog.md`;
+`toolbox-mapping.md`; `agent-self-assessment.md`;
+`formal-methods.md`. Hunches labeled. No wrapper.

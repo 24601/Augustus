@@ -46,6 +46,11 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    Positive score never overrides a deterministic security
    failure. Fail-closed on financial/destructive/credential
    if Jev is down (`notes.md` §64).
+   **Turnstile clone (2026-09-19 ~01:47):**
+   [turnstile](https://github.com/zyphr-labs/turnstile) —
+   policy first; Jev remainder; receipts + replay; missing
+   Jev → Review. Experimental alpha. Same doctrine as
+   actiongate (`notes.md` §66).
    **Email / ticket leftover cascade (2026-09-18 ~20:43):**
    [jav-email-cascade](https://github.com/skiingfalcon/jav-email-cascade)
    — typed decide, policy auto/review/llm, generator only on

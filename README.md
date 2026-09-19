@@ -80,9 +80,14 @@ never launder a Noul as a proof.
   ranking ≠ calibration (never hard-threshold raw p as frequency);
   hot-click CU (ego-jev; indexed table; S1 on click path);
   Jev judges relevance / code decides structure (jev-compactor);
-  local rules first / never auto-train on own hides (x-reply-filter)
+  local rules first / never auto-train on own hides (x-reply-filter);
+  control-plane combinators (not chat turns); skill VOI / abstention
+  (skillranker hook fail-open); receipts not leaderboard (atlas);
+  OOD / AUC ≠ ECE (sign flips by type); thinking-budget bake-off
+  (frontier-100); turnstile evidence≠authority + replay; MLX
+  one-pass replica economics (jevmlx; softmax ≠ Noul)
 - `.agents/skills/augustus/references/applied-mappings.md` — context sieve,
-  exact-text keep/drop (extractive / pointer-not-generator; char-offset compaction; observed a11y/DOM controls; Bash stdout prune; verbatim session ledger / carryforward; classify-first MCP / jev-sift; Stagehand extract pick-and-copy; jevcumber meaning-as-spec; closed-vote JevOnly; host-owned waymode; jev-compactor framework-agnostic compact+gate), env triage (OpenSmoke + latch merge-gate), moderation/ranking (decision-native RAG evidence set; living class-pattern atlas; meaning-search without embeddings / jevgrep; meaning-grep jev-semgrep; evidence-packet jevex; measured RAG rerank vs generative rerank), skill routing (route ≠ memory; session-sticky first-prompt lock; OMP/pi fail-open jev_route; OMP prompt suppression / omp-greenlight; skill-broker outline — Jev never grants access; slo-router constrained optimizer + S1 features), capability kernel / human-confirmed gate (interlock vs toolgate; port-cleanup; permission vs probability; construct-auto-classifier privilege ≠ verdict; actiongate-jev — Jev supplies evidence, code owns authority), decide→policy→LLM leftover cascade (jav-email-cascade), closed-vote computer-use (applied-mappings §9; ego-jev hot-click cousin)
+  exact-text keep/drop (extractive / pointer-not-generator; char-offset compaction; observed a11y/DOM controls; Bash stdout prune; verbatim session ledger / carryforward; classify-first MCP / jev-sift; Stagehand extract pick-and-copy; jevcumber meaning-as-spec; closed-vote JevOnly; host-owned waymode; jev-compactor framework-agnostic compact+gate), env triage (OpenSmoke + latch merge-gate), moderation/ranking (decision-native RAG evidence set; living class-pattern atlas; meaning-search without embeddings / jevgrep; meaning-grep jev-semgrep; evidence-packet jevex; measured RAG rerank vs generative rerank), skill routing (route ≠ memory; session-sticky first-prompt lock; OMP/pi fail-open jev_route; OMP prompt suppression / omp-greenlight; skill-broker outline — Jev never grants access; slo-router constrained optimizer + S1 features; skillranker VOI / hook fail-open), capability kernel / human-confirmed gate (interlock vs toolgate; port-cleanup; permission vs probability; construct-auto-classifier privilege ≠ verdict; actiongate-jev — Jev supplies evidence, code owns authority; turnstile — policy first, replay), decide→policy→LLM leftover cascade (jav-email-cascade), closed-vote computer-use (applied-mappings §9; ego-jev hot-click cousin)
 - `.agents/skills/augustus/references/faq.md` — "just classification",
   stack replacement, Jev vs open head vs encoder vs LoRA vs constrained AR vs kev vs blackwood,
   wait-for-Archer, missing-other confident-wrong, soft project rules vs linter (Abide), extractive/pointer-not-generator, compaction summarize vs pointer, encoder vs Jev compaction, fail-closed keep_full, shadow-mode rollout, fail-open vs fail-closed wake vs CI gate, observe→score→act backend-agnostic, hybrid local decide + remote fill, DONE ≠ verified success, stdout prune vs session compaction, Cua-S1 vs TypeSafe Jev, plan ≠ execute / dry-run, local drop-in vs stub scorer, route ≠ memory, when-it-holds / extractable-from-state, decision-model vs constrained LLM, dual-process S1/S2, combinatorial grid ≠ extractive, GLiNER vs GLiClass vs CLIP, LLM-as-judge, in-engine vs CLI store,
@@ -104,7 +109,9 @@ never launder a Noul as a proof.
   evidence / code owns authority, ranking ≠ calibration / never
   hard-threshold raw p as frequency, Jev `done` ≠ browser success,
   never auto-train on the model's own hides, pointer compact ≠
-  LLM summarize
+  LLM summarize, combinators not a new model, AUC ≠ ECE / sign
+  by type, thinking-budget bake-off, local MLX one-pass ≠ Noul
+
 - `.agents/skills/augustus/references/mappings.md` — classical-method
   mappings with boundaries, counterexamples, acceptance tests (including
   Hypothesis cards §6–§19 — promote only with a test that ran)
@@ -142,7 +149,10 @@ never launder a Noul as a proof.
   jev-1.13 (jevassert unreleased); does-jev-confidence 8,000 judgments
   AUC ~0.91 / stated ~75% vs human ~10% / ~96% ECE removed;
   ego-jev n=3 medians ~2× vs per-step LLM; jev-compactor 64.5%/
-  366ms/0 invented paths vs Sonnet summary, one session)
+  366ms/0 invented paths vs Sonnet summary, one session;
+  jev-frontier-100 Jev 77.0% vs Qwen3.5 4B/2048 96.7%
+  (exploratory); jev-ood-calibration 900 tickets ECE 0.107 =
+  4.4× floor / sign flips by type)
 - `.agents/skills/augustus/references/boundary-audit.md` — existing-system
   insertion: fit test, opportunity map, smallest boundary, red flags
 - `.agents/skills/augustus/scripts/evaluate_decisions.py` — offline evaluator

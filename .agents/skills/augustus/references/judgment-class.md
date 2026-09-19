@@ -625,6 +625,16 @@ hraness loopback gateway. Do not copy npm (`notes.md` §63).
 (Brier 0.3884 vs Jev 0.1096; acc 52% vs 84.0%). Softmax over
 allowed tokens ≠ Noul. License null. Small n. Do not copy
 pip (`notes.md` §61).
+**Productized Apple Silicon one-pass (Empirical as README
+library, not a bake-off; 2026-09-19 ~01:47):**
+[`bnsd55/jevmlx`](https://github.com/bnsd55/jevmlx) — MIT;
+**28★**. Schema of booleans/enums/multi-selects → JSON
+valid by construction, probability per field, one batched
+MLX forward pass. Not TypeSafe Jev. Softmax ≠ Noul. No
+local leaderboard yet (official 67.8% cited). OpenAI-compat
+backend is one request per field. Distinct from
+system-one-benchmark's n=50 Brier table. Do not copy pip
+(`notes.md` §66).
 
 **When to use a decision model vs a constrained LLM (Harbor-style
 bake-off, not a quality ranking).**
