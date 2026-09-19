@@ -240,7 +240,8 @@ forks of the same hole: **in-engine extension**
 ([`mgaitan/sqlite-jev`](https://github.com/mgaitan/sqlite-jev), loadable
 SQLite `jev_rows`; inspired by [`realZachi/pg-jev`](https://github.com/realZachi/pg-jev))
 vs **out-of-process CLI** ([`kylemclaren/jevql`](https://github.com/kylemclaren/jevql)
-— vanilla Postgres never sees `jev()`). sqlite-jev is a semantic full
+— **judgment outside the store**: vanilla Postgres never
+sees `jev()`; the CLI/serve/MCP/SDKs judge). sqlite-jev is a semantic full
 scan, not an index; `max_rows` is a spend guard; thresholds stay in SQL.
 [`ant4g0nist/joxide`](https://github.com/ant4g0nist/joxide): zoxide owns
 the directory index; Jev scores a shortlist; destinations are existing
@@ -464,7 +465,9 @@ verbatim ledger; Jev scores which facts are still live for the
 task; constraints/corrections always return (never judged). Fail-
 open dump if the scorer is down. Pay for a scored brief iff it
 beats dumping the whole file. No accuracy claim until a proper
-test (`notes.md` §55). Do not copy mcp add.
+test (`notes.md` §55). Eval finding *theirs*: `recall`
+**0/4** with tools available — SessionStart hook >
+hoping. tools≠use (`notes.md` §68). Do not copy mcp add.
 **Classify-first read (Empirical as README; Hypothesis as a
 measured win, 2026-09-19 ~00:38):**
 [jev-sift](https://github.com/kbhuw/jev-sift) — pay for a full
@@ -495,7 +498,19 @@ permission gate. Companion
 [jev-lens.nvim](https://github.com/rashedInt32/jev-lens.nvim)
 is display only. Distinct from jev-gates (stops writes)
 and egma attention≠correctness (PR surface)
-(`notes.md` §63).
+(`notes.md` §63). Distinct from
+[dizk/jev-lens](https://github.com/dizk/jev-lens)
+(pre-send views; 79% fewer tokens *theirs*;
+`notes.md` §68).
+**Pre-send token-econ (Empirical as 500-trajectory
+bench; 2026-09-19 ~03:38):**
+[jev-lens](https://github.com/dizk/jev-lens) — pay to
+send a line iff it changes the next edit. Compress
+**before** first send; post-send prune cost 17% more
+because it broke the prompt cache. Code sent in full
+unless Jev is confident. Harm: 2/26 later edits missed
+their block. Distinct from rashedInt32/jev-lens.
+Do not copy npm (`notes.md` §68).
 **Skill-library VOI (Empirical as README architecture;
 2026-09-19 ~01:47):**
 [skillranker](https://github.com/Dicklesworthstone/skillranker)
@@ -539,6 +554,17 @@ report hits / false alarms at the operating point, not accuracy
 [latch](https://github.com/CaseReed/latch) — false PASS on a real bug
 >> false BLOCK on infra; criterion lives in the policy table, not in
 the cause label (`notes.md` §51).
+**Physical-world criterion (Empirical as README +
+measurements; 2026-09-19 ~03:38):**
+[HA-Jev](https://github.com/AboveColin/HA-Jev) —
+confidence gating on typed sensors; **not** for locks /
+heaters / smoke. `background:` on the question triples
+laundry separation *theirs*. Treat 0.9 as higher than
+0.6, not as right nine times in ten (`notes.md` §68).
+**Stop-hook attention (Empirical as owner-run smoke):**
+[jev-preflight](https://github.com/muse0509/jev-preflight)
+— 0.85 uncalibrated; fail-open; one reinspect. Criterion
+for *redirect*, not for *block* (`notes.md` §68).
 [`jp-sns-jev7-estimator`](https://huggingface.co/kokuren/jp-sns-jev7-estimator)
 is the rare-class warning in one table: seven distilled teacher scores
 that the card says are **not** calibrated probabilities, and `threat`
@@ -671,8 +697,10 @@ certification; hunch as FM angle):**
 — the constraint is reversibility / blast radius, not a
 `sudo` allowlist. Independent risk Nouls are sensors;
 policy (minConfidence ∩ riskThreshold ∩ fast-deny) is the
-constraint. Fail-closed when the sensor is missing
-(`notes.md` §63).
+constraint. Fail-closed when the sensor is missing.
+**Landed-script** is a merge-gate receipt, not a name.
+**Headless** escalation is deny-and-report, not
+auto-approve (`notes.md` §63, §68).
 **Attention filter ≠ permission (Empirical as README;
 hunch as placement):**
 [jev-lens](https://github.com/rashedInt32/jev-lens) —
@@ -1146,7 +1174,8 @@ read-only verbs in <1 ms; Jev judges blast radius /
 reversibility on the remainder. Fail-closed on the
 *execution* act (contrast jevgate cannot-block). Privilege
 stripped before the allow rule, not used as the verdict.
-Jev 0 dangerous / 975 *theirs*. **Hunch:** contracts on
+Jev 0 dangerous / 975 *theirs*. Landed-script trust /
+headless ≠ auto-approve (`notes.md` §68). **Hunch:** contracts on
 effects, not tokens (`notes.md` §63).
 **Capability kernel, different trust boundary (Empirical as README
 architecture, 2026-09-18 ~19:48):**

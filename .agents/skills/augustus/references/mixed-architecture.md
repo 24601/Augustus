@@ -217,8 +217,8 @@ not a global virtue:
 | Grant a specialised skill pack | **Fail closed** to foundation-only; never broaden access (`skill-broker` outline) | Jev scores relevance; code owns grants. Candidates ≠ grants. **Hypothesis / outline — not a production recipe** |
 | Treat a Jev score as eval truth | **Fail closed** until the instrument is audited (`dinostomp`) | Check data/scorer/runs/claims, not just the number. `dinostomp jev` tests a question like an if-statement |
 | Pick an LLM backend with live Jev on the hot path | **Fail open** to local deterministic features (`slo-router`) | Jev is a feature, not the sole gate. Same routes/accuracy on their fixture; p95 **77.93 → 490.38 ms**. Exactness raises the quality floor; never overrides capability. Eight-row demo is not a benchmark |
-| Allow a proposed shell command | **Fail closed** on missing / low-conf / high-risk / failed call (`construct-auto-classifier`) | Privilege ≠ verdict (`sudo status` can be safe). Fast-allow/deny prove; Jev Choice + independent risk Nouls on the remainder. 0 dangerous / 975 *theirs*; chat models leaked |
-| Tell a human the agent work is green / skip | **Fail closed** to "look" unless sure (`jev-lens`); **never block** the agent | Attention filter / VOI, not a permission gate. Never edits files. `JEV_LENS_GREEN` 0.9. Distinct from jev-gates (stops writes) |
+| Allow a proposed shell command | **Fail closed** on missing / low-conf / high-risk / failed call (`construct-auto-classifier`) | Privilege ≠ verdict. Landed-script trust is a merge-gate receipt, not a name. Headless escalation is deny-and-report, not auto-approve. 0 dangerous / 975 *theirs* |
+| Tell a human the agent work is green / skip | **Fail closed** to "look" unless sure ([rashedInt32/jev-lens](https://github.com/rashedInt32/jev-lens)); **never block** the agent | Attention filter / VOI, not a permission gate. Never edits files. Distinct from dizk/jev-lens (pre-send views) and from jev-gates (stops writes) |
 | Endorse a question pack | **Fail closed** until recorded evidence (`jev-packs`) | No numbers, no `verified`. Pin model version. Abstention/`unknown` mandatory. Runner named, not shipped this pass |
 | Authorize a proposed tool call | **Fail closed** on a deterministic security failure (`actiongate-jev`) | Jev supplies evidence; code owns authority. Positive score never overrides RBAC/schema/limit. Financial/destructive/credential fail closed if Jev is down |
 | Auto-act on a raw decision-model p | **Fail closed** until domain recalibration (`does-jev-confidence` / `jevcal`) | Ranking ≠ calibration. Vendor "calibrated" often means rank-correlation. Stated ~75% vs human ~10% *theirs* |
@@ -234,6 +234,11 @@ not a global virtue:
 | Return a confident pharmacy/protocol verdict under chaos | **Fail closed** to escalate (`jev-labs`) | Never confidently wrong. 1,080 golden 0 wrong *theirs* is not a proof of zero. Stability ≠ answerability |
 | Auto-approve a PR from four typed questions | **Fail closed** to human-review unless operator bar says so (`ci-gatekeeper-bot-jev`) | Conservative default escalated trivial diffs. Distinct from latch (finished red run) |
 | Rank Codex capabilities / excerpts | **Fail open** to lexical overlap (`jev-in-codex`) | Ranking unbenchmarked. Rec ≥ 0.5 is a heuristic. Caller supplies the catalog |
+| Reinspect a turn's risk from a Stop hook | **Fail open** (Claude finishes anyway) (`jev-preflight`) | Attention redirect, not a merge blocker. assist = one reinspect. 0.85 uncalibrated. Distinct from rashedInt32/jev-lens |
+| Shrink a tool result before first send | **Fail closed** to full text for *code* unless confident (`dizk/jev-lens`) | Compress-before-first-send. Post-send prune cost 17% more *theirs*. Distinct from rashedInt32/jev-lens |
+| Depend on the agent calling `recall` | **Fail closed** to a SessionStart hook (`carryforward`) | tools≠use. 0/4 *theirs*. MCP sitting there is not enough |
+| Compact observational history | **Fail open** (failed Jev does not drain the buffer) (`pi-observational-memory-jev`) | Keep/kind only; verbatim ledger; model-free compact. Do not install beside Alvar `/om` |
+| Actuate a lock / heater / smoke alarm from a Noul | **Fail closed** (do not) (`HA-Jev`) | Physical-world S1. Sensors and automations yes; safety actuators no |
 | Drop a meaning-grep line | **Fail open** as ranking (`jev-semgrep`); keyword still wins exact strings | AND/OR/NOT over line Nouls. Japanese meanings noisier near threshold |
 
 Worked placements (2026-09-18 topic:jev hour + prior archive):
@@ -529,16 +534,16 @@ decision-design card. Do not clone APIs from READMEs.
 | Hold-before-publish moderation | Hazard Nouls + harm Score | Block/review/pass policy | Near Here / firehose family; **x-reply-filter** (local rules first; never auto-train on own hides) |
 | Tool / engine / skill select | Choice + fits-Noul | Dispatch, auth, reject-all | skillranker, LlamaIndex selectors, Toolrouter |
 | Preference lint | Per-rule Score/Noul on a diff | Rule text, linter for hard rules, bands + fail-open | jev-pref (contract), Abide (productized), JevLint; if-ai (plain-English PR check, fail-closed on error); jev-marshal (Watch / empty repo) |
-| Context / log prune | Per-line or per-block relevance; or a retention Choice + spans; or a Noul per stdout chunk | Always-keep set, recall keys; mutation envelope in code; shadow before replace; size/format envelope then Noul; archive dropped spans | jevprune, winnow; fast-jev-compaction / pi-jev-compaction / fast-jev-compaction-pi (Jev session; pi host port); gliner25-compaction (GLiNER2.5 session); jev-pruner (Jev Bash stdout); **jev-compactor** (framework-agnostic middleware + regex floor + Foreman; fail-open if Jev down) |
+| Context / log prune | Per-line or per-block relevance; or a retention Choice + spans; or a Noul per stdout chunk; or keep/kind on a verbatim ledger; or pre-send views of a tool result | Always-keep set, recall keys; mutation envelope in code; shadow before replace; size/format envelope then Noul; archive dropped spans; kind-keyed topic files | jevprune, winnow; fast-jev-compaction / pi-jev-compaction / fast-jev-compaction-pi; gliner25-compaction; jev-pruner; **jev-compactor** (73% / 350 ms product-arm *theirs*); **dizk/jev-lens** (pre-send; 79% fewer tokens); **pi-observational-memory-jev** (keep/kind verbatim) |
 | Exact hunk staging | Per-hunk include/exclude/mixed | `git diff`, atomic apply | git-jev-stage |
-| Semantic `WHERE` | Noul/`jev_prob` over a row | SQL, indexes, LIMIT | jevql (CLI; DB sees ordinary SQL); sqlite-jev (in-engine extension) |
+| Semantic `WHERE` | Noul/`jev_prob` over a row | SQL, indexes, LIMIT | **jevql** (CLI judges; vanilla Postgres never sees `jev()` — judgment outside the store); sqlite-jev / pg-jev (in-engine) |
 | Formula / query embedding | JUDGE as a function | Spreadsheet/SQL engine | judge-sheets, jevql, sqlite-jev |
 | Soft ABR / live encoder | Choice over a ladder | Probe × headroom, thermal, battery | bitrate-advisor |
 | Voice → typed act | Choice/Noul on a transcript | ASR producer; macOS actions | jev-voice-control (README stub) |
 | Host-adapter routing | Choice next-tool + done-Noul | Shrink `tools[]`; compaction | jev-routing (not MCP); **jev-in-codex** (Codex MCP; ranking unbenchmarked; lexical fallback) |
 | Multi-model route | Classify axes; policy maps | Escalation `if`, path regex | jev-claw, routeKit |
 | Finish-line gate | Noul/Score/Choice on evidence | Deterministic shell checks first | hermes-jev-north-star |
-| Home automation read | Choice/Score/Noul as an entity | Automations, device I/O | `AboveColin/HA-Jev` |
+| Home automation read | Choice/Score/Noul as a sensor | Automations, device I/O, daily budget; **not** locks/heaters/smoke | [HA-Jev](https://github.com/AboveColin/HA-Jev) (MIT; **17★**; confidence gating; Jev-gates-LLM examples) |
 | Browser loop without generation | Action Choice over visible elements | Perception, constraints, click | lizard-agent |
 | Screenshot / DOM candidates → Choice | Omni decide over letters code marked | Click/act in code; fail-open to specialist OCR | blackwood-rlcd (CC BY-NC; not Archer) |
 | Android / macOS computer-use | Choice over prevalidated candidates | UI tree / AX / OmniParser; no generated coordinates | jev-mobile, jev-macos-loop |
@@ -577,7 +582,7 @@ decision-design card. Do not clone APIs from READMEs.
 | Robotics text-state | Choice on geometry-as-text | Code owns kinematics / Hz; two-call split; not pixels | MuJoCo showcase; jev-drone; Doom JSON. Drawing-pixel claim is not Archer |
 | Draft-gate heartbeat | Quality Noul / Score | Fail-open / heartbeat on silence; missing verdict ≠ hold forever | jevable draft-gate fail mode; contrast Abide `<0.5` (edit proceeds) |
 | Living class-pattern atlas | (not a model) | Cross-link exemplars; do not dump 342 titles | jevable.com (342 is *their* count; JSON-LD first page 36) |
-| Verbatim session recall | Noul "still live for this task?" | JSONL ledger; constraints/corrections always-keep; fail-open dump | carryforward (9×3 hint, not proof) |
+| Verbatim session recall | Noul "still live for this task?" | JSONL ledger; constraints/corrections always-keep; fail-open dump; **SessionStart hook** (tools≠use) | carryforward (9×3 hint; **0/4** recall *theirs*) |
 | Pre-exec tool gate | allow / block / review | Permissions, arg validation, transaction limits in code; timeout stops | toolgate (72-case synthetic, not independently annotated; Jev ≠ authorization) |
 | Capability kernel | parallel hazard Nouls (sensor) | Closed action space; canaries/placeholders; BLOCK/ASK/ALLOW in `policy.py`; secrets never in the agent | interlock (ring 0 vs LLM ring 3; type-safe ≠ correct; 38-case local-judge set, not a blind paper). Distinct from toolgate |
 | Typed control plane around an LM program | classifier over a closed ontology | Ontology validation, security override, confidence, state machine, tool allow-list in code; DSPy drafts AFTER route+action | jev-dspy-control-plane (OpenJEV / DSPy / JSON Schema share ontology; offline heuristic ≠ quality) |
@@ -605,8 +610,8 @@ decision-design card. Do not clone APIs from READMEs.
 | Pre-agent skill intervention | Relevance/confidence over authorised candidates | Code owns catalog/policy/grants; Jev never grants access; foundation-only on failure | skill-broker (**Hypothesis / outline**; not a production recipe) |
 | Eval-instrument audit | Accuracy / ECE / blank lean / rewording of a Jev question | Check data/scorer/claims; 99 of 189 findings against itself | dinostomp (README Apache-2.0 / GitHub NOASSERTION; `dinostomp jev`; ECE 0.062 *theirs* on 24 examples) |
 | Constrained optimizer + S1 features | task / exactness / external-evidence | Controller owns SLO/quality floors; fail-open local features; exactness never overrides capability | slo-router (license null; p95 **77.93 → 490.38 ms** same routes *theirs*; 3/8 label disagreements did not change routes; eight-row demo is not a benchmark) |
-| Effect-based shell gate | Choice allow/deny + nine independent risk Nouls | Fast-allow/deny <1 ms; operator-owned minConfidence/riskThreshold; fail-closed | construct-auto-classifier (Apache-2.0; Jev **0** dangerous / 975; every chat model leaked 16–104; privilege ≠ verdict) |
-| Attention filter / human-review VOI | Per-file need-a-look / kind / debris Nouls | Never blocks the agent; never edits; never green unless sure | jev-lens (MIT; `JEV_LENS_GREEN` 0.9) + jev-lens.nvim (MIT; popup only, no key). Distinct from jev-gates |
+| Effect-based shell gate | Choice allow/deny + nine independent risk Nouls | Fast-allow/deny <1 ms; landed-script trust; headless ≠ auto-approve; fail-closed | construct-auto-classifier (Apache-2.0; Jev **0** dangerous / 975; $0.047/1k; privilege ≠ verdict) |
+| Attention filter / human-review VOI | Per-file need-a-look / kind / debris Nouls | Never blocks the agent; never edits; never green unless sure | [rashedInt32/jev-lens](https://github.com/rashedInt32/jev-lens) + nvim. Distinct from [dizk/jev-lens](https://github.com/dizk/jev-lens) (pre-send views) and from jev-gates |
 | Evidence-packet explorer | Rank BM25 shortlist; packet source_of_truth / tests / callers | Index once; agent still reads cited files; read-only | jev-semantic-explorer / jevex (1/8→6/8 n=8 *theirs*; HitFile 0.233 diagnostic) |
 | Meaning-grep | Per-line Noul; AND/OR/NOT in code | Thresholds / `--level`; JP↔EN; name collision with Semgrep SAST | jev-semgrep (MIT LICENSE; 0.94/0.98 *theirs*) |
 | Active-learning triage | Confidence routes accept / teacher / human | Soft-label full distributions; real outcomes stay training targets; do **not** distill Jev as teacher | jev-triage (MIT; ~68% ceiling anti-pattern) |
@@ -615,7 +620,7 @@ decision-design card. Do not clone APIs from READMEs.
 | Runtime authorize (evidence ≠ authority) | Six narrow semantic Nouls | RBAC/schema/limits in code; positive p never overrides a hard fail | actiongate-jev (Apache-2.0; slogan: Jev supplies evidence, code owns authority; 500-case is label-baseline, not accuracy) |
 | Ranking ≠ calibration | AUC vs ECE/Brier vs human rates | Recalibrate on labelled domain data; do not threshold raw p | does-jev-confidence (8,000 judgments; stated ~75% vs human ~10%; ~96% ECE removed) + jevcal (~100 rows) |
 | Hot-click CU (indexed viewport) | operation + per-op target in one request | Code owns observe/execute/stale-ref/loop/`--until`; text model only for type; never guess fill | ego-jev (MIT; HN 4.9s vs 9.7s / wiki 5.4s vs 10.1s *theirs* n=3; not a bench). Cousin of jev-ultrafast |
-| Framework-agnostic compact + gate | keep/drop per message + Foreman Nouls | Pins/dedup/regex floor in code; never rewrite; compaction fail-open if Jev down; safety fail-closed | jev-compactor (MIT; 64.5% / 366ms / $0.0004 / 0 hallucinated / 4 of 4 *theirs*, one session). Claude Code: fast-jev-compaction; OpenCode: fast-jev-opencode |
+| Framework-agnostic compact + gate | keep/drop per message + Foreman Nouls | Pins/dedup/regex floor in code; never rewrite; compaction fail-open if Jev down; safety fail-closed | jev-compactor (MIT; later product-arm **73%** / 350 ms / 4 of 4 *theirs*; 30–250× cheaper than shipped summarizers). Claude Code: fast-jev-compaction; OpenCode: fast-jev-opencode |
 | Local-rules-then-remainder feed | four remainder Nouls after `rules.js` | Collapse not delete; auto-hides need human confirm before they become examples | x-reply-filter (MIT; 3-sample e2e 0.90/0.93 vs 0.08/0.10). Cousin of bohutang/sift |
 | Control-plane combinators | Then / Gate / Vote / Cascade / Weighted over Choice/Score/Noul | AND/OR aggregation stays in code (do not multiply); trace is the oscilloscope | decision-combinators (TS; README MIT / GitHub license null; no measurements). Not a new Jev API |
 | Skill-library VOI | two-pass Choice then fit Nouls; none-of-these | Hook fail-open; Quill prefilter >254; advisory; local replay | skillranker (Rust; 52★; MIT + rider / GitHub NOASSERTION). Correction vs §7: hook is not fail-closed |
@@ -630,13 +635,18 @@ decision-design card. Do not clone APIs from READMEs.
 | Scored Jev-class bake-off | Capability / Speed / Cost → Main Score | Calibration reported, **not scored**; native vs verbalized; partial runs not ranked | jevbench v1.1 (MIT; unofficial; Jev 1.13.0 Main 87.6 *theirs*) |
 | Pre-review typed PR gate | should_review / risk / route / touches_secrets | Operator-owned thresholds; secondary LLM only on human-review + elevated risk | ci-gatekeeper-bot-jev (`package.json` MIT / GitHub SPDX null; 504–629 ms *theirs*) |
 | Codex MCP host adapter | select_capability / search / triage Nouls | Caller supplies catalog; lexical fallback; scores advisory; ranking unbenchmarked | jev-in-codex (MIT; experimental MVP). Distinct from jev-routing (not MCP) |
+| Stop-hook attention redirect | eight risk Nouls on a redacted turn diff | Fail-open; assist = one reinspect; 0.85 uncalibrated; not a merge blocker | jev-preflight (Go MIT; 1★; Claude Code 2.1.267 owner-run) |
+| Pre-send tool-result views | smallest view that still serves the next step | Code builds outline/focus/testlog/…; recall restores lines; code full unless confident | dizk/jev-lens (MIT; 79% fewer tokens / 500 SWE-rebench *theirs*). Distinct from rashedInt32/jev-lens |
+| Observational memory | keep / kind Choice | Verbatim ledger; kind-keyed files; model-free compact; failed Jev does not drain buffer | pi-observational-memory-jev (MIT). Sibling of fast-jev-compaction / jev-compactor |
+| Independent open-Jev class | LM / vision / voice finite-choice+prob; JevPick menu decode | NOTA; execute/confirm/reject; `/v1/systemone` wire-compat ≠ replica | openvons (Apache-2.0 LICENSE / GitHub SPDX NOASSERTION; 7★; JevPick 3.2–4.8× *theirs*) |
 
 On-device / Home Assistant / mobile are newly-feasible via the economics
 inversion, not proven ports of every app. Named placements this hour
 (`notes.md` §33): `Friedjof/jev-mobile` (USB Android, Mobile MCP task
 delegation, Jev sees only prevalidated candidates); `jcpsimmons/jev-macos-loop`
 (local OmniParser/OCR/AX; text-only Jev; pixels stay on the Mac; Finder
-demo independently verified). HA-Jev unchanged. Do not copy env, MCP
+demo independently verified). HA-Jev is now a real card
+(`notes.md` §68; **17★**; not for locks/heaters). Do not copy env, MCP
 URLs, or install steps.
 
 Reproduce/open heads (`rongxinzy/LightJev`, openjev family,

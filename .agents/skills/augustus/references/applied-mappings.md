@@ -82,7 +82,9 @@ the current task. Nothing summarised or deleted. Constraints and
 corrections **always return in full** (Jev never votes on a rule).
 Fail-open: no key → whole list. Thresholds 0.60 full / 0.30–0.60
 one line are *theirs*. Nine entries × three tasks is a **hint, not
-proof** (`notes.md` §55). Do not copy `mcp add`.
+proof** (`notes.md` §55). Eval finding *theirs*: agent
+called `recall` **0/4** with tools available — SessionStart
+hook > hoping (`notes.md` §68). Do not copy `mcp add`.
 **Classify-first MCP, same family, different job (Empirical as
 README / schema, 2026-09-19 ~00:38):**
 [jev-sift](https://github.com/kbhuw/jev-sift) — batch path / public
@@ -123,13 +125,37 @@ TABLE` / `curl | sh`) independent of Jev. Dual fail
 polarity: compaction **fails open** if Jev is down
 (history unchanged) unless `failClosed`; pending-action
 destructive/exfil **fails closed**. One synthetic 12.7k-
-token session *theirs*: **64.5%** saved / **366 ms** /
-**$0.0004** / **0** hallucinated paths / **4 of 4** early
-facts vs truncate 53% / 1 of 4 vs Sonnet summary 96.2% /
-6.1 s / $0.0305 / 1 invented path. Not a survey. Claude
-Code shorter path remains fast-jev-compaction. OpenCode
-fail-open port: fast-jev-opencode (§62 MED). Do not copy
-npm (`notes.md` §65).
+token session *theirs*: earlier vs-Sonnet card **64.5%** /
+**366 ms** (`notes.md` §65); later product-arm table
+**73%** (53–76%) / **350 ms** / **$0.0004** / **4 of 4**
+facts vs shipped summarizers (30–250× cheaper) — two
+synthetic sessions, not a survey. Foreman safety in the
+same ~300 ms pass. Claude Code shorter path remains
+fast-jev-compaction. OpenCode fail-open port:
+fast-jev-opencode (§62 MED). Observational-memory sibling:
+[pi-observational-memory-jev](https://github.com/willfish/pi-observational-memory-jev)
+— keep/kind only; verbatim ledger; model-free compact
+(`notes.md` §68). Do not copy npm (`notes.md` §65, §68).
+**Pre-send view selection (Empirical as 500-trajectory
+bench; 2026-09-19 ~03:38):**
+[jev-lens](https://github.com/dizk/jev-lens) — **not**
+[rashedInt32/jev-lens](https://github.com/rashedInt32/jev-lens)
+(§63 human Stop filter). Code builds outline/focus/
+testlog/… views from the tool result's own lines; Jev
+picks the smallest view that still serves the next step;
+`recall` restores dropped lines. 500 SWE-rebench
+trajectories *theirs*: **79%** fewer tokens (11.6M →
+2.4M); 88% command / 31% code. Compress **before** first
+send — post-send prune broke cache and cost **17% more**.
+Claude plugin unmeasured. Do not copy npm (`notes.md`
+§68).
+**tools≠use / SessionStart over hoping (Empirical as
+eval finding; 2026-09-19 ~03:38):**
+[carryforward](https://github.com/Dharundp6/jev-carryforward)
+— with tools + skill installed, the agent called
+`recall` **0/4**. SessionStart hook injects rules
+unconditionally; an MCP tool sitting there is not enough
+(`notes.md` §68). 9×3 remains a hint.
 
 ## 2. Exact-text keep / drop
 
@@ -340,6 +366,19 @@ includes raw diff. `package.json` MIT / GitHub SPDX
 *finished* red run). Distinct from egma attention ≠
 correctness. Do not copy `action.yml` / secrets
 (`notes.md` §67).
+**Stop-hook attention redirect, not a merge blocker
+(Empirical as owner-run hook smoke; 2026-09-19 ~03:38):**
+[jev-preflight](https://github.com/muse0509/jev-preflight)
+— eight risk axes in one request on a redacted turn
+diff; `assist` = at most one reinspect then finish;
+**fail-open**; default 0.85 **uncalibrated**. Not an
+autofix, not a merge blocker, not a replacement for
+tests/SAST. Distinct from latch / ci-gatekeeper
+(authorize-or-block) and from rashedInt32/jev-lens
+(human attention filter). Owner-run Claude Code 2.1.267:
+no-key fail-open PASS; key-enabled exactly one
+continuation *theirs*. Do not copy marketplace / key
+(`notes.md` §68).
 **Counterexample**: sampling 2% of production with an LLM judge —
 the economics inversion is the point. **Test**: planted harness bugs
 recovered; false-flag rate on known-clean runs; LLM never runs on the
@@ -455,7 +494,8 @@ delete). Auto-hides sit in a confirm queue; only
 user-confirmed examples become few-shot (10/10) plus a
 "same class as marked junk" Noul. E2E *theirs*: three
 samples → 0.90 / 0.93 vs 0.08 / 0.10. Cousin of
-bohutang/sift (§62 MED). Cheap hold-before-show cookbook.
+[bohutang/sift](https://github.com/bohutang/sift)
+(§62 MED; ~$0.00003/post *theirs* — Substance/Humor/Chit-chat/Promo/Junk + AI-written). Cheap hold-before-show cookbook.
 Do not copy wrangler (`notes.md` §65).
 **Test**: moderation
 cost/coverage + false-hold vs false-publish; ranking recall *separate*
@@ -719,7 +759,12 @@ every chat model leaked (16–104). Pair with dinostomp
 (audit the instrument) and omp-greenlight (operator-owned
 dial). Distinct from toolgate / greenlight / jevgate /
 interlock. **Hunch:** contracts on effects, not surface
-tokens. Do not copy bun / agy (`notes.md` §63).
+tokens. **Landed-script trust** (byte-identical to the
+remote default branch; default on; trusts whoever
+controls that remote). **Headless ≠ auto-approve:**
+escalation becomes deny-and-report, not a pending prompt
+and not an allow (`notes.md` §68). Do not copy bun / agy
+(`notes.md` §63).
 **Jev supplies evidence, code owns authority (Empirical as
 README slogan; 2026-09-19 ~00:39):**
 [actiongate-jev](https://github.com/omkarghugarkar007/actiongate-jev)

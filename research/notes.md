@@ -7877,3 +7877,400 @@ jevbench v1.1; how-sure 60-q); `faq.md`; `mental-models.md`;
 `methods-catalog.md`; `toolbox-mapping.md`;
 `agent-self-assessment.md`; `composition-algebra.md`.
 Hunches labeled. No wrapper.
+## 68. Attention redirect not merge-blocker, pre-send views, tools≠use, observational memory, open-Jev class, physical-world S1 (2026-09-19 ~03:38 Boise)
+
+Hourly System One watch **2026-09-19 03:38 America/Boise**
+(≈ 09:38 UTC). Docs-only fold into PR #2. Watch archive
+absent this VM; receipts from live GitHub READMEs + `gh api`
+(~09:50 UTC). Hunches labeled. No wrapper. No invented
+metrics. TypeSafe Jev is the exemplar, not the monopoly.
+Archer still **NOT landed**.
+
+Do **not** re-fold §67 HIGH (jev-labs, seal, skill-broker,
+how-sure-is-jev, jevbench, ci-gatekeeper-bot-jev,
+jev-in-codex) except one-line contrast.
+
+Several titles on this hour's list already have cards.
+This fold is **novel + material deltas only**:
+
+| Repo | Prior | This hour |
+|---|---|---|
+| muse0509/jev-preflight | none | **new** Stop-hook attention redirect |
+| dizk/jev-lens | none (rashedInt32/jev-lens is a *different* product, §63) | **new** pre-send view selection |
+| willfish/pi-observational-memory-jev | none | **new** observational memory |
+| genai-craft/openvons | none | **new** independent open-Jev class |
+| AboveColin/HA-Jev | gallery row only | **first card**; ★17 physical-world S1 |
+| godspede/construct-auto-classifier | §63 full cert | **delta:** landed-script trust; headless ≠ auto-approve |
+| edwardyen724-g/jev-compactor | §65 64.5%/366ms vs Sonnet | **delta:** product-arm bench **73%** / 350 ms / 4 of 4; 30–250× cheaper |
+| Dharundp6/jev-carryforward | §55 9×3 hint | **delta:** eval 0/4 recall; SessionStart > tools |
+| kylemclaren/jevql | §42 store frame | **delta:** judgment *outside* the store (CLI; DB never sees extension) |
+| bohutang/sift | §62 MED | **short bullet only** (~$0.00003/post) |
+
+Four clusters, not a hit list: **(a)** judgment as
+attention redirect, not a merge blocker; **(b)**
+perception→decision token-econ (compress *before* first
+send); **(c)** tools≠use / observational anti-summary
+family; **(d)** backend-agnostic class + physical-world
+crossover.
+
+### HIGH
+
+1. **[`muse0509/jev-preflight`](https://github.com/muse0509/jev-preflight)**
+   (Go; **MIT**; created 2026-09-18T13:54:37Z; **1★**;
+   size 84; v0.1.0 Public Beta). Claude Code **Stop-hook**
+   risk preflight. `UserPromptSubmit` takes a private Git
+   baseline; `Stop` sends a selected, redacted turn diff;
+   **eight risk axes in one Jev request** (behavior
+   regression, authorization, input validation, data
+   integrity, error handling, compatibility, lifecycle,
+   regression tests). Default `riskThreshold` **0.85 is
+   uncalibrated**. Mode `assist`: at/above threshold,
+   Claude gets **at most one** additional investigation,
+   then finishes. Mode `report`: evaluate and finish.
+   The plugin is **not an autofix or merge blocker** and
+   does not replace tests, linters, SAST, or secret
+   scanning. **Fails open**: network/timeout/invalid/
+   oversized/missing key do not prevent Claude from
+   finishing. At most one API request per Stop; empty or
+   fully excluded diffs make zero requests. Redaction is
+   best-effort, not DLP. Data leaves the machine to
+   TypeSafe. Do not copy marketplace / plugin-option /
+   `TYPESAFE_API_KEY`.
+
+   Owner-run evidence *theirs* (`docs/verification.md`;
+   Claude Code **2.1.267**; synthetic fixtures): no-key
+   hook `no_key_fail_open=PASS`; key-enabled
+   `continuation_check=PASS` with **exactly one** Jev
+   feedback continuation then completion. Live API smoke
+   (synthetic diff only): `jev-1.13.0`; eight Nouls
+   present; 898 in / 151 out tokens; GET 1 / POST 1.
+   Single-fixture axis values are diagnostics, **not**
+   threshold calibration. Several hook fields remain
+   UNOBSERVED (wire request counts, baseline, git
+   cleanup). CI for the finalization commit had been
+   pending at README freeze — do not invent a green
+   marketplace pin.
+
+   Contrast hard gates: latch / ci-gatekeeper / construct
+   *authorize or block*; rashedInt32/jev-lens is a
+   never-block **human** attention filter at Stop. This
+   one redirects the **agent's** attention for one
+   reinspect. Same polarity as skillranker hook fail-open
+   (advisory) vs construct fail-closed (execution).
+
+   **Hunch:** judgment as attention redirect, not a merge
+   blocker. Uncalibrated 0.85 is an opinion until you
+   measure your own false-continue vs false-reinspect
+   costs.
+
+2. **[`godspede/construct-auto-classifier`](https://github.com/godspede/construct-auto-classifier)**
+   — **delta only** (full card §63). TypeScript;
+   Apache-2.0; pushed 2026-09-19T09:05:15Z. Certification
+   table **unchanged**: Jev **0** dangerous / 975;
+   **$0.047/1k**; every chat model leaked 16–104 *theirs*.
+   New load-bearing doctrine this hour:
+
+   - **Landed-script trust.** A script byte-identical to
+     the repo's remote default branch (`origin/main` or
+     whichever remote has `HEAD`) may be allowed with
+     **no model call** (`policy.trustLandedScripts`,
+     default true). Comparison is against the *local*
+     remote-tracking ref — it trusts whoever controls
+     that remote, and anyone who can `git update-ref`.
+     Turn it off when you do not control the remote.
+     Unreviewed / modified / unpushed content still goes
+     to the model with a provenance line.
+   - **Headless ≠ auto-approve.** `policy.headless: true`
+     (or `AUTO_CLASSIFIER_HEADLESS=1`) turns an
+     escalation into a **denial that tells the agent to
+     stop and report**, not a pending prompt and not an
+     auto-approve. A prompt on a box with no operator is
+     a prompt nobody answers. Two gates cannot share one
+     OpenCode permission prompt.
+
+   Harbor metaphor unchanged: certify the *whole gate*
+   (fast rules + provenance + model), not the model
+   alone. Do not copy bun / agy / opencode how-to.
+
+   **Hunch:** privilege ≠ verdict still; landed-script is
+   a *merge-gate receipt*, not a name. Headless fail-
+   closed to deny, never to allow.
+
+3. **[`edwardyen724-g/jev-compactor`](https://github.com/edwardyen724-g/jev-compactor)**
+   — **delta** on the bench (architecture slogan already
+   §65). TypeScript MIT; **1★**; pushed
+   2026-09-19T09:27:52Z. **"Jev judges relevance. Code
+   decides structure."** Foreman safety (`rm -rf`,
+   force-push, `DROP TABLE`, `curl | sh`, leaked keys)
+   in the **same ~300 ms pass** as keep/drop; regex floor
+   still local. Dual polarity unchanged: compaction
+   fail-open if Jev down; pending destructive/exfil
+   fail-closed.
+
+   Later product-arm bench *theirs* (same synthetic
+   64-message / 12.7k-token session, 6k budget,
+   `docs/BENCHMARK.md`):
+
+   | arm | saved | latency | cost | facts |
+   |---|---:|---:|---:|---|
+   | **jev-compactor** | **73%** (53–76%) | **350 ms** | **$0.0004** | **4 of 4** |
+   | Anthropic compaction API | 86% | 16.8 s | $0.043 | 3 of 4 |
+   | Codex CLI `/compact` | 85% | 1.0 s | $0.049 | 3 of 4 |
+   | OpenCode `/compact` | 85% | 17.4 s | $0.038 | 3 of 4 |
+   | Gemini CLI `/compress` | 61% | 16.8 s | $0.083 | 4 of 4 |
+   | Grok Build `/compact` | 74% | 0.5 s | $0.020 | 4 of 4 |
+   | LangChain SummarizationMiddleware | 66% | 10.4 s | $0.013 | 1 of 4 |
+   | Vercel `pruneMessages` (no model) | 88% | 1 ms | $0 | 3 of 4 |
+   | oldest-first truncate | 53% | 1 ms | $0 | 1 of 4 |
+
+   Summaries compress harder; that is the trade.
+   jev-compactor kept every fact verbatim, **30–250×
+   cheaper** and 1.4–170× faster than the model-based
+   mechanisms *theirs*. 289-message / 61k-token session:
+   95.4% / 593 ms / $0.0014 / 4 of 4 vs Anthropic API
+   97.6% / 14.6 s / $0.145 / 3 of 4. Two synthetic
+   sessions, not a survey. Earlier §65 vs-Sonnet card
+   (64.5% / 366 ms) is the same session against a
+   different control set — cite the product-arm table
+   when comparing to shipped compactors. Do not copy
+   npm / `.env`.
+
+   **Hunch:** pointer-not-summarizer as middleware, now
+   with a same-pass safety sensor and a Harbor-shaped
+   *product* bake-off (not a TypeSafe leaderboard).
+
+4. **[`dizk/jev-lens`](https://github.com/dizk/jev-lens)**
+   (TypeScript; **MIT**; created 2026-09-18T08:16:12Z;
+   0★; size 1876). **Not**
+   [rashedInt32/jev-lens](https://github.com/rashedInt32/jev-lens)
+   (§63: Stop-hook human attention filter). This one is
+   **pre-send view selection of tool results**. Code
+   builds candidate views from the output's own lines
+   (outline / focus / signals / testlog / matches /
+   tree / log / sample / sections / head / tail). Jev
+   picks the smallest view that still serves the next
+   step; nothing is generated or summarized. Agent can
+   `recall` dropped lines. Three packages share one
+   core: npm `jev-lens`, `pi-jev-lens`, Claude Code
+   PostToolUse plugin.
+
+   Measured *theirs* (STATUS.md; 500 OpenHands
+   SWE-rebench trajectories; 3,300 large tool results;
+   11.6M tokens): **79% fewer tokens** sent (11.6M →
+   2.4M). Per kind: **88%** command output, 58% docs,
+   47% listings, **31%** code. Own pi sessions with
+   gpt-6-astra: 31% (reads code with `cat`, few tests).
+   Harm side, same 500: **2 of 26** later edits missed
+   their block; **0.3%** of results had a dropped line
+   quoted; **2.2%** had a dropped identifier used. Three
+   design results: (1) compress **before the first
+   send** — post-send prune broke the prompt cache and
+   cost **17% more** money; post-send pruning exists on
+   pi but is off by default; (2) code is different —
+   test logs can lose 90%; edits fail when old text is a
+   line the model never saw, so code views keep retained
+   lines byte-for-byte and code is sent in full unless
+   Jev is confident; (3) new code-built views moved the
+   numbers, prompt wording did not. Claude Code plugin
+   runs the same core **unmeasured** on Claude sessions.
+   Do not copy npm / marketplace / `.env`.
+
+   **Hunch:** perception→decision token-econ. The
+   irreversible act is *first send into the prompt
+   cache*, not later prune. Distinct hole from rashed
+   jev-lens (human VOI) and from jev-pruner (stdout after
+   Bash, before the generative turn).
+
+5. **[`Dharundp6/jev-carryforward`](https://github.com/Dharundp6/jev-carryforward)**
+   — **delta** (verbatim ledger + scored recall already
+   §55). TypeScript MIT; **1★**; npm `carryforward`.
+   Constraints never scored. New eval finding *theirs*
+   (`evals/` Claude plugin eval): payoff case needs a
+   recorded "never force-push" rule; **with the tools
+   available and the skill installed, the agent called
+   `recall` 0 times out of 4 runs.** Not blocked, not
+   erroring — never reached for. It proposed a force
+   push. **An MCP tool sitting there is not enough.**
+   SessionStart hook injects rules unconditionally at
+   startup and after compact; that matters more than the
+   tools. 9×3 table remains a hint, not proof. No
+   accuracy claim until a proper use-test. Do not copy
+   `claude mcp add` / hook JSON.
+
+   **Hunch:** tools≠use. VOI of *installing* a memory
+   tool is not VOI of *calling* it. Fail-open dump still
+   the safe scoring polarity; the new failure mode is
+   the model never asking.
+
+6. **[`willfish/pi-observational-memory-jev`](https://github.com/willfish/pi-observational-memory-jev)**
+   (TypeScript; **MIT**; created 2026-09-18T06:42:35Z;
+   0★; size 104). Pi `/om`: Jev answers **keep/kind
+   only**; compaction never rewrites the transcript.
+   Model-free compact is a deterministic render of the
+   verbatim ledger plus kind-keyed durable topics
+   (`facts.md`, `decisions.md`, `constraints.md`,
+   `questions.md`, `corrections.md`, `hypotheses.md`,
+   `JOURNEY.md`). Jev cannot invent topic names.
+   Tombstones land only after those files land, so a
+   failed Jev call does not drain the buffer. Follows
+   [amosblomqvist/pi-observational-memory](https://github.com/amosblomqvist/pi-observational-memory)
+   ergonomics (do **not** install alongside — commands
+   collide) and
+   [tamaratran/fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction)
+   keep/drop. Default `keepThreshold` 0.5. Package
+   default **off**. Same anti-summary thesis as
+   fast-jev-compaction / jev-compactor / carryforward.
+   Do not copy `pi install` / `TYPESAFE_API_KEY` /
+   settings.json.
+
+   **Hunch:** observational memory is a *ledger +
+   kind-keyed files*, not a summary paragraph. Jev is
+   the observer, not a chat model in `models.json`.
+
+7. **[`genai-craft/openvons`](https://github.com/genai-craft/openvons)**
+   (Python; **Apache-2.0** in LICENSE / GitHub SPDX
+   **NOASSERTION**; created 2026-09-17T09:13:00Z; **7★**;
+   size 2044). Independent **open-Jev class**: finite
+   choice + probability for LM / vision / voice. "None
+   of the above" is always an option; calibrated mass
+   splits execute / confirm / reject. Unrelated to
+   TypeSafe; no TypeSafe API output is used. Speaks
+   `POST /v1/systemone` (typesafe-sdk `base_url`
+   drop-in) — **wire-compat, not a Jev replica**
+   (same warning as jeff / jev-local / local-jev).
+
+   Measured *theirs* (`docs/`):
+
+   - LM: 4B frozen + trained head **0.916** vs 27B
+     zero-shot **0.875**; 8 questions in **22.6 ms**.
+   - Vision: frozen 407M encoder + ~25k-parameter head;
+     beats 27B zero-shot at **1/34 VRAM** and **36×**
+     speed.
+   - Voice: batch candidate scoring + none-calibration;
+     **50 ms**; 99–100% after calibration; **100%**
+     rejection of phone chatter.
+   - **JevPick** (menu decode, not a draft model): true
+     continuation in the menu 90%; picker 88% vs 64%
+     frequency rule; **3.2–4.8×** faster decode with
+     **byte-identical** output (Qwen3-4B / Qwen3.8-27B).
+   - Flutter on-device (Nothing Phone 3, NNAPI int8):
+     **2.0–2.2 s** per utterance; **260–290 ms** to
+     embed an image; **11 ms** to answer 9 questions.
+     Audio/image stay on the phone.
+
+   Contrast: jeff (GLiFormer encoder wire-compat);
+   von (tiny SAN, not a replica); jevmlx (MLX softmax ≠
+   Noul); Archer still Watch. Do not copy `uv` / demo
+   URLs / APK as a vendor how-to.
+
+   **Hunch:** Augustus scope is the *class* (finite
+   choice + prob, NOTA, execute/confirm/reject), not
+   TypeSafe's API. JevPick is a decode-speed
+   application of the same menu idea, not a Noul.
+
+8. **[`AboveColin/HA-Jev`](https://github.com/AboveColin/HA-Jev)**
+   (Python; **MIT**; created 2026-09-17T11:01:48Z;
+   **17★**; size 2521). First real card (was a gallery
+   stub). Home Assistant: typed answers become sensors;
+   four actions (`jev.noul` / `jev.choice` / `jev.score`
+   / `jev.ask`); conversation agent for Assist;
+   confidence gating; daily token budget. Fifteen
+   examples; four pair Jev with an LLM (cheap typed
+   gate → expensive call; low-conf cascade; LLM writes,
+   Jev checks; extract then verify). **Not for locks,
+   heaters, or smoke alarms** — a probability with no
+   explanation should not hold a safety actuator.
+   Jev judges, does not calculate: brightness comes
+   from a regex. `background:` on the *question* triples
+   laundry idle/running separation (+0.21 readings-only
+   → +0.60) *theirs*; putting the same sentence in
+   state is about half as useful. Batching: 3 questions
+   712 ms vs 100 questions 714 ms (97 more cost 2 ms).
+   NL warm 250–580 ms (published 70–500 ms is nearer
+   their service). 30 live commands on a 5-entity
+   fixture: **$0.0017** total / **$0.000057** each;
+   ~1,300 tokens of question text dominate a small
+   house. Confidence has **no published calibration
+   evidence** — treat 0.9 as higher than 0.6, not as
+   right nine times in ten. 192 tests mock the API.
+   Do not copy HACS / API-key / configuration.yaml.
+
+   **Hunch:** physical-world System One. Sensors from
+   typed answers; automations and device I/O stay in
+   Home Assistant. Same mixed-architecture split as
+   Jev-gates-LLM at the desk, now on a washing machine.
+
+9. **[`kylemclaren/jevql`](https://github.com/kylemclaren/jevql)**
+   — **architecture note**, not a re-read of §42. Go;
+   **MIT**; **4★**. Semantic SQL over **vanilla
+   Postgres**: `jev()` / `jev_prob` / `jev_choice` /
+   `jev_score` in WHERE/SELECT. **The database only ever
+   sees ordinary SQL.** CLI (or `jevql serve` / MCP /
+   Go·TS·Python SDKs) judges; no `CREATE EXTENSION`, no
+   superuser, no wire-protocol proxy. Contrast
+   [`realZachi/pg-jev`](https://github.com/realZachi/pg-jev)
+   (in-engine). Full scan of the post-SQL-filter row
+   set; cheap indexed predicates first; `--explain`
+   counts before you pay. Row contents go to TypeSafe.
+   Do not copy `DATABASE_URL` / API keys.
+
+   **Hunch:** judgment outside the store. The data plane
+   for a decision model can be a rewriter in front of a
+   dumb database; putting `jev()` *inside* Postgres is a
+   different trust and ops story (sqlite-jev / pg-jev).
+
+10. **[`bohutang/sift`](https://github.com/bohutang/sift)**
+    — **short use-case only** (already §62 MED).
+    JavaScript MIT; **2★**; 4 forks. Chrome extension:
+    every X post/reply gets Substance · Humor ·
+    Chit-chat · Promo · Junk plus AI-written and
+    Off-topic flags; hide the ones you don't want.
+    **~$0.00003/post** *theirs*. Minimal consumer
+    categorization surface. Cousin of x-reply-filter
+    (that one is local-rules-then-remainder + anti-self-
+    train). Do not copy unpacked-extension how-to.
+
+### Skip / already folded
+
+- §67 HIGH: jev-labs / seal / skill-broker / how-sure /
+  jevbench / ci-gatekeeper / jev-in-codex. Contrast only:
+  preflight is fail-open attention, not a typed CI gate;
+  construct landed-script is not a Seal.
+- rashedInt32/jev-lens + nvim: §63. dizk/jev-lens is a
+  different product (pre-send views vs human Stop
+  filter). Always qualify the owner.
+- fast-jev-compaction / pi-jev-compaction /
+  fast-jev-compaction-pi / gliner25-compaction /
+  jev-pruner: anti-summary family already mapped; pi-om
+  is the observational-memory sibling.
+- jevql store frame / sqlite-jev / pg-jev: §42. This
+  hour is the outside-the-store slogan.
+
+### Curated status
+
+Census **this hour** (user-provided; not re-derived):
+Awesomejev **488 → 561** (+73, especially agent tooling
+**87 → 107**); SemIf **1683 → 1704**. Archer still
+**NOT landed**.
+
+### Omni / Jev-omni / Archer
+
+Still **WATCH**. An open-Jev class with voice/vision
+heads, a Home Assistant integration, and a Flutter
+on-device pipeline are **not** that drop.
+
+### Cross-links
+
+Cards: `applied-mappings.md` §1 (dizk/jev-lens pre-send;
+pi-om; carryforward 0/4; jev-compactor 73%), §3
+(jev-preflight), §4 (sift bullet), §7 (construct
+landed-script / headless); `mappings.md` §4 (jevql
+outside the store), §6 (tools≠use), §7 (HA-Jev SDT),
+§8 (headless ≠ auto-approve); `mixed-architecture.md`
+(fail table + gallery); `judgment-class.md` (openvons
+wire-compat class); `mental-models.md` (physical-world
+S1; tools≠use; attention redirect); `validation.md`
+(dizk 79%; jev-compactor product arms; construct
+deltas); `faq.md`; `agent-self-assessment.md`;
+`toolbox-mapping.md`; `methods-catalog.md`. Hunches
+labeled. No wrapper.

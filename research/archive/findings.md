@@ -1633,3 +1633,51 @@ compose; (fb) no seal no advance / coverage ledger;
 (fc) sureness / max_prob is generous; (fd) JevBench
 calibration not in Main Score; (fe) CI typed gate before
 expensive review; (ff) Codex MCP host adapter.
+
+## Batch #52 (2026-09-19 ~09:55 UTC / ~03:38 Boise) — attention redirect, pre-send views, tools≠use, observational memory, open-Jev class, physical-world S1
+
+Note: `research/notes.md` §68. Docs-only. Folded into PR #2.
+Archer still Watch. No invented metrics. Do not re-fold §67
+HIGH except sibling contrast. Hunches labeled.
+
+- **muse0509/jev-preflight (Empirical as owner-run hook
+  smoke).** Go MIT. Created 2026-09-18T13:54:37Z; 1★;
+  v0.1.0 Public Beta. Eight risk axes; assist=one
+  reinspect; fail-open; 0.85 uncalibrated. Claude Code
+  2.1.267: no-key fail-open PASS; key-enabled exactly one
+  continuation. Not a merge blocker.
+- **godspede/construct-auto-classifier (delta).** Cert
+  unchanged: Jev 0 dangerous / 975; $0.047/1k. Landed-
+  script trust; headless ≠ auto-approve.
+- **edwardyen724-g/jev-compactor (Empirical as product-arm
+  table).** Later bench 73% / 350 ms / 4 of 4 *theirs*.
+  30–250× cheaper. §65 64.5% is vs-Sonnet.
+- **dizk/jev-lens (Empirical as 500-trajectory).**
+  TypeScript MIT. Created 2026-09-18T08:16:12Z; 0★. 79%
+  fewer tokens (11.6M→2.4M). Post-send prune +17% cost.
+  Distinct from rashedInt32/jev-lens.
+- **Dharundp6/jev-carryforward (delta).** recall 0/4.
+  tools≠use. SessionStart > hoping.
+- **willfish/pi-observational-memory-jev (Empirical as
+  README).** TypeScript MIT. Created 2026-09-18T06:42:35Z;
+  0★. Keep/kind verbatim; model-free compact.
+- **genai-craft/openvons (Empirical as their docs).**
+  Python Apache-2.0 LICENSE / GitHub SPDX NOASSERTION; 7★.
+  Independent open-Jev class. JevPick 3.2–4.8×. Wire-compat
+  ≠ replica.
+- **AboveColin/HA-Jev (Empirical as README + measurements).**
+  Python MIT; 17★. First real card. Not for locks/heaters.
+- **kylemclaren/jevql (architecture note).** Judgment
+  outside the store. CLI; DB never sees jev().
+- **bohutang/sift (short bullet).** ~$0.00003/post.
+
+Census this hour (user-provided): Awesomejev 488→561
+(+73, agent tooling 87→107); SemIf 1683→1704. Archer
+still NOT landed.
+
+Cross-repo addition: (fg) attention redirect not merge
+blocker; (fh) compress-before-first-send; (fi) tools≠use
+/ SessionStart; (fj) observational keep/kind; (fk)
+open-Jev class / wire-compat ≠ replica; (fl) physical-
+world S1 / not for locks; (fm) judgment outside the store;
+(fn) landed-script / headless≠auto-approve.

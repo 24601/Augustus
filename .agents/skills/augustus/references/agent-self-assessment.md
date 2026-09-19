@@ -38,7 +38,8 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    Nouls. Privilege ≠ verdict. Fail-closed on missing /
    low-conf / high-risk. Jev 0 dangerous / 975 *theirs*.
    Distinct from toolgate / greenlight / interlock
-   (`notes.md` §63).
+   (`notes.md` §63). Landed-script trust / headless ≠
+   auto-approve (`notes.md` §68).
    **Runtime authorize — evidence ≠ authority
    (2026-09-19 ~00:39):**
    [actiongate-jev](https://github.com/omkarghugarkar007/actiongate-jev)
@@ -94,7 +95,12 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    Stop hook returns at once. Never edits files; never says
    green unless sure. **Hunch:** VOI for human review, not a
    permission gate. Distinct from jev-gates (stops writes)
-   (`notes.md` §63).
+   (`notes.md` §63). Distinct from
+   [dizk/jev-lens](https://github.com/dizk/jev-lens)
+   (pre-send views; 79% fewer tokens *theirs*) and from
+   [jev-preflight](https://github.com/muse0509/jev-preflight)
+   (agent attention redirect; fail-open; not a merge
+   blocker) (`notes.md` §68).
    Computer-use cousin of the same honesty:
    [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
    — loop `DONE` is termination, not verified success; apps inspect
@@ -190,7 +196,16 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   verbatim JSONL; Jev scores which facts are still live; constraints
   and corrections always return; fail-open dump if the scorer is
   down. Nine entries × three tasks is a hint, not proof
-  (`notes.md` §55). Do not copy mcp add.
+  (`notes.md` §55). Eval: `recall` **0/4** — SessionStart
+  hook > hoping (`notes.md` §68). Do not copy mcp add.
+  Observational-memory sibling:
+  [pi-observational-memory-jev](https://github.com/willfish/pi-observational-memory-jev)
+  — keep/kind verbatim; model-free compact (`notes.md`
+  §68).
+  Pre-send cousin:
+  [jev-lens](https://github.com/dizk/jev-lens) — views
+  before first send; 79% fewer tokens *theirs*
+  (`notes.md` §68).
   Classify-first cousin:
   [jev-sift](https://github.com/kbhuw/jev-sift) — batch path/url/text
   → Jev **before** the main agent reads; uncertain/errors/truncation
@@ -203,6 +218,8 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   regex floor independent of Jev. Compaction fail-open if Jev
   down; safety fail-closed on pending destructive. OpenCode
   fail-open port already §62: fast-jev-opencode (`notes.md` §65).
+  Later product-arm bench **73%** / 350 ms / 4 of 4
+  (`notes.md` §68).
 
 ## Non-negotiable boundaries
 

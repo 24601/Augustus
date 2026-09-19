@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T08:50Z",
+  "retrieved": "2026-09-19T09:55Z",
   "sources": [
     {
       "kind": "docs",
@@ -2263,6 +2263,36 @@
       "title": "teempai/jev-in-codex",
       "url": "https://github.com/teempai/jev-in-codex",
       "note": "TypeScript MIT. Created 2026-09-19T08:32:15Z; 0 stars; size 0. Codex MCP adapter. Ranking unbenchmarked. Lexical fallback. notes.md \u00a767."
+    },
+    {
+      "kind": "github",
+      "title": "muse0509/jev-preflight",
+      "url": "https://github.com/muse0509/jev-preflight",
+      "note": "Go MIT. Created 2026-09-18T13:54:37Z; 1 star; v0.1.0 Public Beta. Stop-hook attention redirect; eight risk axes; assist=one reinspect; fail-open; uncalibrated 0.85. notes.md \u00a768."
+    },
+    {
+      "kind": "github",
+      "title": "dizk/jev-lens",
+      "url": "https://github.com/dizk/jev-lens",
+      "note": "TypeScript MIT. Created 2026-09-18T08:16:12Z; 0 stars. Pre-send view selection. 79% fewer tokens on 500 SWE-rebench trajectories *theirs*. Distinct from rashedInt32/jev-lens. notes.md \u00a768."
+    },
+    {
+      "kind": "github",
+      "title": "willfish/pi-observational-memory-jev",
+      "url": "https://github.com/willfish/pi-observational-memory-jev",
+      "note": "TypeScript MIT. Created 2026-09-18T06:42:35Z; 0 stars. Pi /om keep/kind verbatim; model-free compact. notes.md \u00a768."
+    },
+    {
+      "kind": "github",
+      "title": "genai-craft/openvons",
+      "url": "https://github.com/genai-craft/openvons",
+      "note": "Python Apache-2.0 LICENSE / GitHub SPDX NOASSERTION. Created 2026-09-17T09:13:00Z; 7 stars. Independent open-Jev class. JevPick 3.2-4.8x. /v1/systemone wire-compat not a replica. notes.md \u00a768."
+    },
+    {
+      "kind": "github",
+      "title": "AboveColin/HA-Jev",
+      "url": "https://github.com/AboveColin/HA-Jev",
+      "note": "Python MIT. Created 2026-09-17T11:01:48Z; 17 stars. Physical-world S1. Sensors from typed answers. Not for locks/heaters. notes.md \u00a768."
     }
   ]
 }

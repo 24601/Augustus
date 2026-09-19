@@ -930,3 +930,29 @@
   README.
 - notes.md §67; sources.json (377 sources, 374 unique URLs,
   retrieved 2026-09-19T08:50Z); findings.md batch #51. No wrapper.
+
+## 2026-09-19 ~09:55 UTC — hourly ~03:38 Boise fold (§68)
+- Docs-only into PR #2. Archer still Watch. Live GitHub
+  READMEs + `gh api`. Hunches labeled. Do not re-fold §67
+  HIGH except sibling contrast.
+- HIGH: jev-preflight (Stop-hook attention redirect;
+  fail-open; eight axes; uncalibrated 0.85; 2.1.267 one
+  continuation); construct delta (landed-script;
+  headless≠auto-approve; 0/975 stands); jev-compactor
+  product-arm 73%/350ms/4 of 4 (64.5% is vs-Sonnet);
+  dizk/jev-lens (79%/500 trajectories; +17% post-send;
+  distinct from rashedInt32); carryforward 0/4 tools≠use;
+  pi-observational-memory-jev (keep/kind verbatim);
+  openvons (independent open-Jev class; JevPick 3.2–4.8×;
+  wire-compat ≠ replica); HA-Jev 17★ (not for locks);
+  jevql outside-the-store; sift ~$0.00003/post short
+  bullet.
+- Census this hour: Awesomejev 488→561 (+73, agent
+  tooling 87→107); SemIf 1683→1704. Archer still NOT
+  landed.
+- Cards: SKILL.md, applied-mappings §1/§3/§4/§7, mappings
+  §4/§6/§7/§8, mixed-architecture, validation, faq,
+  judgment-class, mental-models, methods-catalog, toolbox,
+  agent-self-assessment, ecosystem, CHANGELOG, README.
+- notes.md §68; sources.json (382 sources, 379 unique URLs,
+  retrieved 2026-09-19T09:55Z); findings.md batch #52. No wrapper.

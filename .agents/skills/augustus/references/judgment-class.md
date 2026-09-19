@@ -554,6 +554,20 @@ Laya; LLM-as-judge is not the score — `notes.md` §46, `validation.md`).
 /v1/systemone` so an SDK `base_url` drop-in works offline. **Default
 scorer is a deterministic stub** until `JEVLOCAL_SCORER=hf`. A green
 smoke test on the stub is not a local decision model (`notes.md` §48).
+**Independent open-Jev class (Empirical as their docs;
+2026-09-19 ~03:38):**
+[openvons](https://github.com/genai-craft/openvons)
+(Apache-2.0 LICENSE; GitHub SPDX NOASSERTION; **7★**)
+implements finite-choice+prob for LM / vision / voice
+with a mandatory none-of-the-above and
+execute/confirm/reject policy. Speaks
+`POST /v1/systemone` so an SDK `base_url` drop-in works —
+**wire-compat, not a TypeSafe replica** (same duty as
+jeff / jev-local). JevPick is menu decode (3.2–4.8×
+byte-identical *theirs*), not a Noul. Flutter on-device:
+audio/image stay on the phone. Unrelated to TypeSafe; no
+TypeSafe API output used. Archer still Watch
+(`notes.md` §68). Do not copy `uv` / APK.
 **ONNX replica of Laya:**
 [`Mattepiu/laya-onnx`](https://huggingface.co/Mattepiu/laya-onnx)
 (~15 ms CPU for one Noul, their card). Do not copy the inherited

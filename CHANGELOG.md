@@ -571,6 +571,44 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   SemIf **1683** (+11); jevlike **923** (+5); tracker likes
   **43** (+1); Awesomejev 488/21644 unchanged. No wrapper. No
   invented metrics.
+- Hourly ~03:38 Boise 2026-09-19 (`research/notes.md` §68): Archer
+  still Watch. Do not re-fold the 02:38 list except sibling
+  contrast. **Judgment as attention redirect, not a merge
+  blocker**
+  ([jev-preflight](https://github.com/muse0509/jev-preflight);
+  Go MIT; eight risk axes; assist=one reinspect; fail-open;
+  uncalibrated 0.85; owner-run Claude Code 2.1.267: no-key
+  fail-open PASS, key-enabled exactly one continuation).
+  **Landed-script trust / headless≠auto-approve**
+  ([construct-auto-classifier](https://github.com/godspede/construct-auto-classifier)
+  delta; cert still Jev **0** dangerous / 975; $0.047/1k).
+  **Jev judges relevance; code decides structure**
+  ([jev-compactor](https://github.com/edwardyen724-g/jev-compactor)
+  product-arm **73%** / 350 ms / 4 of 4 *theirs*; 30–250×
+  cheaper than shipped summarizers; §65 64.5% is vs-Sonnet).
+  **Compress-before-first-send**
+  ([dizk/jev-lens](https://github.com/dizk/jev-lens); MIT;
+  79% fewer tokens / 500 SWE-rebench; post-send prune +17%
+  cost; distinct from rashedInt32/jev-lens). **tools≠use**
+  ([jev-carryforward](https://github.com/Dharundp6/jev-carryforward)
+  0/4 recall; SessionStart > hoping). **Observational
+  memory**
+  ([pi-observational-memory-jev](https://github.com/willfish/pi-observational-memory-jev);
+  keep/kind verbatim; model-free compact). **Independent
+  open-Jev class**
+  ([openvons](https://github.com/genai-craft/openvons);
+  Apache-2.0 LICENSE / GitHub SPDX NOASSERTION; 7★; JevPick
+  3.2–4.8×; `/v1/systemone` wire-compat ≠ replica).
+  **Physical-world S1**
+  ([HA-Jev](https://github.com/AboveColin/HA-Jev); MIT;
+  **17★**; sensors from typed answers; not for
+  locks/heaters). **Judgment outside the store**
+  ([jevql](https://github.com/kylemclaren/jevql); CLI
+  judges; vanilla Postgres never sees `jev()`). Short
+  consumer bullet: [sift](https://github.com/bohutang/sift)
+  ~$0.00003/post. Census: Awesomejev **561** (+73, agent
+  tooling 87→107); SemIf **1704**. No wrapper. No invented
+  metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

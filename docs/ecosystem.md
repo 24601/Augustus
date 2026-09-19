@@ -332,6 +332,21 @@ Architecture notes, not a cargo / pip / npm / action.yml catalog. `notes.md` §6
 - **NemanjaManic/ci-gatekeeper-bot-jev** — package.json MIT / GitHub SPDX null. Four typed questions → auto-approve|human-review|block before expensive review. Own-repo Jev **504–629 ms**. Conservative default escalated trivial diffs. Cousin of latch, not flaky-vs-real.
 - **teempai/jev-in-codex** — TypeScript MIT. Codex MCP: jev_select_capability / jev_search / jev_triage. Ranking unbenchmarked. Lexical fallback. Distinct from jev-routing (not MCP).
 
+### Hourly ~03:38 Boise 2026-09-19 / 09:38 UTC (attention redirect, pre-send views, tools≠use, observational memory, open-Jev class, physical-world S1)
+
+Architecture notes, not a cargo / pip / npm / plugin catalog. `notes.md` §68. TypeSafe Jev is the exemplar, not the monopoly. Archer still Watch. No invented metrics. Do not re-fold the 02:38 list except sibling contrast. Hunches labeled.
+
+- **muse0509/jev-preflight** — Go MIT; 1★; v0.1.0 Public Beta. Claude Code Stop-hook: eight risk axes in one request; assist = one reinspect then finish; **fail-open**; uncalibrated 0.85. Not a merge blocker (contrast latch / ci-gatekeeper / construct). Owner-run Claude Code 2.1.267: no-key fail-open PASS; key-enabled exactly one continuation *theirs*. Distinct from rashedInt32/jev-lens (human Stop filter).
+- **godspede/construct-auto-classifier** — delta. Cert unchanged: Jev **0** dangerous / 975; $0.047/1k; chat leaked. **Landed-script trust** (byte-identical to remote default branch; trusts whoever controls that remote). **Headless ≠ auto-approve** (deny-and-report, not pending/auto-approve). Two gates cannot share one OpenCode prompt.
+- **edwardyen724-g/jev-compactor** — product-arm bench *theirs*: **73%** (53–76%) / **350 ms** / $0.0004 / **4 of 4** vs Anthropic 86%/16.8s/3 of 4, Codex 85%, OpenCode 85%, Gemini 61%/4 of 4. 30–250× cheaper. Foreman safety in the same ~300 ms pass. §65 64.5%/366ms is vs-Sonnet on the same session. "Jev judges relevance. Code decides structure."
+- **dizk/jev-lens** — TypeScript MIT. Pre-send view selection (outline/focus/testlog/…). 500 SWE-rebench trajectories: **79%** fewer tokens (11.6M → 2.4M). Compress **before** first send — post-send prune +17% cost (cache). **Not** rashedInt32/jev-lens. Claude plugin unmeasured.
+- **Dharundp6/jev-carryforward** — delta. Plugin eval: `recall` **0/4** with tools+skill. **tools≠use.** SessionStart hook > hoping the model reaches for memory. 9×3 remains a hint.
+- **willfish/pi-observational-memory-jev** — TypeScript MIT. Pi `/om`: Jev keep/kind only; verbatim ledger; model-free compact; kind-keyed durable topics. Failed Jev does not drain the buffer. Same anti-summary thesis as fast-jev-compaction / jev-compactor. Do not install beside amosblomqvist `/om`.
+- **genai-craft/openvons** — Python; Apache-2.0 LICENSE / GitHub SPDX NOASSERTION; **7★**. Independent open-Jev class (LM/vision/voice finite-choice+prob; NOTA; execute/confirm/reject). Unrelated to TypeSafe. `/v1/systemone` **wire-compat, not a replica**. JevPick 3.2–4.8× byte-identical *theirs*. Flutter on-device.
+- **AboveColin/HA-Jev** — Python MIT; **17★**. First real card (was a gallery stub). Sensors from typed answers; confidence gating; Jev-gates-LLM examples. **Not for locks/heaters/smoke.** `background:` triples laundry separation *theirs*. Confidence uncalibrated. Physical-world System One.
+- **kylemclaren/jevql** — architecture note. CLI judges; vanilla Postgres never sees `jev()`. **Judgment outside the store** vs pg-jev / sqlite-jev in-engine.
+- **bohutang/sift** — short use-case only. ~$0.00003/post *theirs*. Substance/Humor/Chit-chat/Promo/Junk + AI-written. Minimal consumer categorization surface.
+
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs
 Apalache; DST trio Antithesis / Resonate HQ / PufferLib):

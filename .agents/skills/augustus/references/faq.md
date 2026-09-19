@@ -615,10 +615,11 @@ id still `fast-jev-output`. Framework-agnostic middleware cousin:
 — **Jev judges relevance. Code decides structure.** Never rewrite.
 Regex floor in code. Compaction fails open if Jev is down; safety
 gate fails closed on pending destructive/exfil. One-session
-*theirs*: 64.5% / 366 ms / $0.0004 / 0 invented paths vs Sonnet
-summary 96.2% / 6.1 s / 1 invented path. Claude Code shorter path
-remains fast-jev-compaction. `judgment-class.md`; `notes.md` §50,
-§53, §65.
+*theirs*: later product-arm table **73%** / 350 ms /
+$0.0004 / 4 of 4 vs shipped summarizers (30–250× cheaper);
+earlier vs-Sonnet card 64.5% / 366 ms (`notes.md` §65).
+Claude Code shorter path remains fast-jev-compaction.
+`judgment-class.md`; `notes.md` §50, §53, §65, §68.
 
 ## Is pruning Bash stdout the same as compacting session memory?
 
@@ -757,8 +758,9 @@ benign.
 then Jev Choice + independent risk Nouls. Operator owns
 `minConfidence` / `riskThreshold`. Fail-closed.
 Certification *theirs*: Jev **0** dangerous / 975; every
-chat model leaked. **Hunch:** contracts on effects, not
-surface tokens. Pair with dinostomp and omp-greenlight.
+chat model leaked. **Landed-script trust** (byte-identical
+to the remote default branch) is a merge-gate receipt, not
+a name. **Headless ≠ auto-approve.** Pair with dinostomp and omp-greenlight.
 `applied-mappings.md` §7; `mappings.md` §18; `notes.md` §63.
 
 ## Is System One a permission gate for human review?
@@ -775,6 +777,53 @@ bar). Distinct from
 [jev-gates](https://github.com/rashedInt32/jev-gates)
 (stops writes). **Hunch:** minimize expected human cost
 under false-green risk. `notes.md` §63.
+
+## Are the two `jev-lens` repos the same product?
+
+No. Qualify the owner.
+[rashedInt32/jev-lens](https://github.com/rashedInt32/jev-lens)
+is a Stop-hook **human** attention filter (never blocks
+the agent). [dizk/jev-lens](https://github.com/dizk/jev-lens)
+is **pre-send view selection** of tool results (79% fewer
+tokens on 500 SWE-rebench trajectories *theirs*).
+Compress-before-first-send beat post-send prune (cache
+cost +17%). `notes.md` §63, §68.
+
+## Is a Stop-hook risk score a merge blocker?
+
+No. [jev-preflight](https://github.com/muse0509/jev-preflight)
+redirects the agent's attention for at most one
+reinspect, then finishes. Fail-open. Uncalibrated 0.85.
+Not tests, not SAST, not latch / ci-gatekeeper.
+`notes.md` §68.
+
+## Does exposing MCP tools mean the agent will recall?
+
+No. **tools≠use.**
+[carryforward](https://github.com/Dharundp6/jev-carryforward)
+eval: `recall` **0/4** with tools + skill installed.
+SessionStart hook injects rules; hoping the model reaches
+for memory is not a design. `notes.md` §68.
+
+## Is openvons TypeSafe Jev?
+
+No. [openvons](https://github.com/genai-craft/openvons)
+is an independent open-Jev *class* (LM/vision/voice;
+NOTA; execute/confirm/reject). Apache-2.0 code; GitHub
+SPDX NOASSERTION. Speaks `/v1/systemone` as
+**wire-compat**, not a replica (same warning as jeff /
+jev-local). JevPick is menu decode (3.2–4.8×
+byte-identical *theirs*), not a Noul. Unrelated to
+TypeSafe; no TypeSafe API output used. `notes.md` §68.
+
+## Can I put a Noul on a lock or a heater?
+
+No. [HA-Jev](https://github.com/AboveColin/HA-Jev)
+explicitly: a probability with no explanation should not
+hold a lock, a heater, or a smoke alarm. Typed answers
+as sensors, confidence gating, Jev-gates-LLM cascades —
+yes. Safety actuators stay in Home Assistant interlocks.
+`notes.md` §68.
 
 ## Does measurement own endorsement?
 
