@@ -294,6 +294,14 @@ not a global virtue:
 | Collapse GLiNER2 or routers into NAR / TypeSafe clones | **Fail closed** (class-boundary) | GLiNER2 locates/categorizes; Succinct 14M / jev-model-router / Director / Loki route. Same job family ≠ replica. Needle 3 is function-calling (already §67) |
 | Treat an incomplete openjev list as our watch being wrong | **Fail closed** (census lag) | Laya, githubnext/localjev, kev, TypeAR, openvons, chakuho, jevinf, grande, laya-jolt, blackwood, classifier-dev missing. Lesson, not a dunk |
 | Quote tweet likes/views as quality | **Fail closed** (ephemeral) | SIGNAL ~417/9/3; this pass 564/15/5. Do not copy Stripe |
+| Mix v1.1 Main 87.6 with v1.2 Score 75.3 as a drop | **Fail closed** (not comparable) | Different tiers and scoring *theirs*. Cal now ON the composite. Keep v1.1 as historical (`notes.md` §67, §78) |
+| Treat 75.3 as a class ceiling without the four axes | **Fail closed** (geo-mean product) | I/C/S/K 25% each. Weak axis dominates. SemIf −0.7. Weighting views reorder ranks |
+| Treat Luna I=96.8 as rank #1 | **Fail closed** (Cost 28.2 → rank #7) | Accuracy cannot buy back a weak axis. DeepSeek C=96.7 is rank #11 |
+| Ignore the ×2 latency assumption / est. costs | **Fail closed** (Harbor honesty) | Self-host/demo ×2 (+0.15 s) is an **assumption, not a measurement**. Many costs est. from OpenRouter/DeepInfra size-class. Production APIs unadjusted |
+| Treat Qwen3.8 27B as Archer | **Fail closed** (official Qwen / Chutes TEE) | Partial, Cost 0 from price, hard 21.4%. Archer still Watch |
+| Treat Laya absence as a quality verdict | **Fail closed** (gap, not a named exclusion) | Absent from the scored table **and** from the named exclusion list. Completeness ≠ dunk. GLiNER2 is mapping-excluded *theirs* |
+| Collapse instruction models into NAR clones because they share the table | **Fail closed** (class-boundary) | Luna/Gemini/DeepSeek/Qwen3.8 are JSON-schema instruction models. Needle 3 is function-calling (C none → 0). OpenJev on board = razorback16 ≠ IamBusy `/v1/decide` |
+| Treat the geometric mean as a natural law | **Fail closed** (weights are a choice) | Limits *theirs*. Balanced no-cal puts SemIf #1; Emphasis Cost puts system-one-open #1 / Jev #5 |
 
 Worked placements (2026-09-18 topic:jev hour + prior archive):
 
@@ -754,7 +762,13 @@ decision-design card. Do not clone APIs from READMEs.
 | External openjev census (tweet, not scores) | Named list of ~18; first leaderboard promised "today" | Class-boundary + completeness watch; likes ephemeral | [@airesearch12](https://x.com/airesearch12/status/2101259522933186879) (Florian S / Benchmark Heaven). **≠** jevbench v1.1. Watch [jev-models](https://benchmarkheaven.com/jev-models); scored card is sibling. Do not copy Stripe |
 | Class-boundary on a public list | GLiNER2 + routers counted as openjevs | Locate/categorize ≠ Noul; route ≠ replica ECE | GLiNER2 (Fastino); Succinct Router 14M; jev-model-router, Director, Loki. Qualify open-jev Dasein vs JoshuaSP; OpenJev razorback16 vs IamBusy |
 | Incomplete census vs watch | Absence ≠ out of class | Completeness is a board watch item | Laya / localjev / kev / TypeAR / openvons / chakuho / jevinf / grande / laya-jolt / blackwood / classifier-dev |
-| Harbor honesty watch (pre-score) | What the board must disclose | Calibration on/off rank; cost/latency assumptions; silent fallback; partial runs | Kinship with §67 v1.1 (cal off Main Score) and classifier-dev FALLBACK. Soft-score-as-hard-rank is a *design* |
+| Harbor honesty watch (pre-score) | What the board must disclose | Calibration on/off rank; cost/latency assumptions; silent fallback; partial runs | Kinship with §67 v1.1 (cal off Main Score) and classifier-dev FALLBACK. Soft-score-as-hard-rank is a *design*. **Promoted:** answers are now Empirical as §78 |
+| JevBench v1.2 geometric-mean product | Intelligence × Calibration × Speed × Cost, 25% each | Weak axis cannot be bought back; other views reorder ranks | Live [jev-models](https://benchmarkheaven.com/jev-models) scored 19 Sept 2026. Jev **75.3** / SemIf **74.6** (−0.7) *theirs*. Cal **ON** rank (delta from §67). **≠** tweet census **≠** v1.1 87.6. `notes.md` §78 |
+| Weight sensitivity (same axes, not the Score) | Balanced no-cal / Emphasis Accuracy / Speed / Cost | SemIf #1 without cal; system-one-open #1 on cost; Jev #5 on cost | *Theirs*. Limits: "The weights are a choice." Do not treat geo-mean as physics |
+| Option-order fragility | yes/no answer-judging 72% → 21% when A/B reversed | Small models are very sensitive to option order *theirs* | open-alternative-jev ranked on author's `A. yes, B. no`. Cousin of paraphrase-brittleness. Both runs in `results/v1.2/runs/open-alternative-jev/` |
+| Instruction models in the class table | Typed decision task, not architecture purity | Luna/Gemini/DeepSeek/Qwen3.8 JSON-schema; Needle 3 tool-calling | Luna I **96.8** rank **#7**. Needle 3 C none → 0. OpenJev = razorback16 DiffusionGemma ≠ IamBusy |
+| Harbor honesty (×2 / est.) | Name assumptions; ranks are configuration-specific | Self-host latency ×2 (+0.15 s) is an assumption; many costs est. | Production APIs unadjusted. Partial not ranked. Kinship classifier-dev FALLBACK |
+| Laya / GLiNER2 / apps gaps | Absence ≠ quality; mapping ≠ scored | Laya absent (not named-excluded); GLiNER2 needs normalization; apps out | Completeness vs watch. Qwen3.8 27B Chutes TEE **≠** Archer |
 
 On-device / Home Assistant / mobile are newly-feasible via the economics
 inversion, not proven ports of every app. Named placements this hour

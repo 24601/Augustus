@@ -452,7 +452,13 @@ Architecture notes, not a pip / Colab catalog. `notes.md` §76. Skip Archer. Alw
 
 Architecture notes, not a leaderboard dump. `notes.md` §77. Skip Archer. Quote the tweet; mark likes **ephemeral**. **≠** [fstandhartinger/jevbench](https://github.com/fstandhartinger/jevbench) v1.1. Watch [benchmarkheaven.com/jev-models](https://benchmarkheaven.com/jev-models); do **not** paste live ranks here.
 
-- **@airesearch12** — [status/2101259522933186879](https://x.com/airesearch12/status/2101259522933186879) (Florian S). Named ~18 openjevs (system-one-open, openjev-sglang, DeBERTa open-jev, Needle 3, open-alternative-jev, Nimble 9B, SemIf, open-jev Dasein / JoshuaSP, OpenJev razorback16, mini-jev, system-one, system-one-gemma, jevlike, AlexWortega/openjev, **GLiNER2**, Succinct Router 14M, jev-model-router/Director/Loki). GLiNER2 + routers = **class-boundary**. Incomplete vs Laya / githubnext/localjev / kev / TypeAR / openvons. Engagement ephemeral (SIGNAL ~417/9/3; this pass 564/15/5). Do not copy Stripe.
+- **@airesearch12** — [status/2101259522933186879](https://x.com/airesearch12/status/2101259522933186879) (Florian S). Named ~18 openjevs (system-one-open, openjev-sglang, DeBERTa open-jev, Needle 3, open-alternative-jev, Nimble 9B, SemIf, open-jev Dasein / JoshuaSP, OpenJev razorback16, mini-jev, system-one, system-one-gemma, jevlike, AlexWortega/openjev, **GLiNER2**, Succinct Router 14M, jev-model-router/Director/Loki). GLiNER2 + routers = **class-boundary**. Incomplete vs Laya / githubnext/localjev / kev / TypeAR / openvons. Engagement ephemeral (SIGNAL ~417/9/3; this pass 564/15/5). Do not copy Stripe. Scored sibling §78.
+
+### User-provided ~09:24 Boise 2026-09-19 / 15:24 UTC (JevBench v1.2 scored board)
+
+Architecture notes, not a hit list. `notes.md` §78. Skip Archer. Quote the board; mark numbers *theirs*. **≠** tweet census §77 **≠** jevbench v1.1 87.6 **≠** jev-judge-bench **≠** jevarena.
+
+- **JevBench v1.2** — [benchmarkheaven.com/jev-models](https://benchmarkheaven.com/jev-models); harness [fstandhartinger/jevbench](https://github.com/fstandhartinger/jevbench) (MIT; 0★; HEAD `27ed3d6c`; README SHA `bf1e79ba`; RESULTS SHA `fdfab1a2`). Protocol `jevbench::v1.2`; scored 19 Sept 2026; 15 × 534 (hard 220). Official Score = geometric mean I/C/S/K 25% each. Jev 1.13.0 **75.3**; SemIf **74.6** (−0.7); OpenJev razorback16 67.6. Luna I **96.8** rank **#7**. Cal **ON** rank. Option-order 72%→21%. Self-host latency ×2 assumption; many costs est. Laya absent (gap, not named-excluded). GLiNER2 mapping-excluded; apps out. Qwen3.8 27B Chutes TEE **≠** Archer. Do not copy Stripe / CLI.
 
 Census **not re-derived**. Archer still NOT landed.
 

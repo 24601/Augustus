@@ -664,6 +664,18 @@ Incomplete vs Laya / githubnext/localjev / kev /
 TypeAR / openvons. **≠** jevbench v1.1. Watch
 [jev-models](https://benchmarkheaven.com/jev-models);
 do not paste live ranks (`notes.md` §77).
+**JevBench v1.2 scored class table (live board;
+2026-09-19 ~09:24):**
+[jev-models](https://benchmarkheaven.com/jev-models)
++ [`RESULTS-v1.2.md`](https://github.com/fstandhartinger/jevbench/blob/main/RESULTS-v1.2.md)
+(SHA `fdfab1a2`). 15 systems × 534 decisions. Geo-mean
+I/C/S/K; Jev **75.3** / SemIf **74.6** *theirs*.
+Instruction models (Luna/Gemini/DeepSeek/Qwen3.8) sit
+in the same table as NAR rebuilds — class-boundary is
+the typed task. OpenJev on the board = razorback16
+DiffusionGemma **≠** IamBusy `/v1/decide`. Laya
+absent (gap). GLiNER2 mapping-excluded. Qwen3.8 27B
+**≠** Archer. **≠** v1.1 87.6 (`notes.md` §78).
 **Schema-conditioned DeBERTa scorer (Hub; GitHub 404;
 2026-09-19 ~07:49):**
 [`jev-schema-scorer-deberta-v3-large`](https://huggingface.co/mobarmg/jev-schema-scorer-deberta-v3-large)
@@ -848,6 +860,9 @@ Router script-before-p; vs-Jev unpublished-here),
 §77 (@airesearch12 census ≠ scored bake-off;
 GLiNER2+routers class-boundary; incomplete vs watch;
 ≠ jevbench v1.1),
+§78 (JevBench v1.2 geo-mean I/C/S/K; cal ON rank;
+Jev 75.3 / SemIf 74.6 *theirs*; instruction models
+in the table; Laya absent gap; ≠ v1.1 87.6),
 §71 (openJev-verdict-2.0 competing NAR as claim-audit ≠
 IamBusy/OpenJev),
 §49 (boundary map; DMB vs constrained LLMs; von; open-alternative-jev). Before

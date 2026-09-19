@@ -2079,3 +2079,29 @@ Cross-repo addition: (hz) external census ≠ scored
 bake-off; (ia) GLiNER2+routers class-boundary; (ib)
 incomplete census vs watch; (ic) Harbor honesty watch
 (cal / cost / latency / silent fallback).
+
+## Batch #62 (2026-09-19 ~15:24 UTC / ~09:24 Boise) — JevBench v1.2 scored board (measurement, not a hit list)
+
+Note: `research/notes.md` §78. Docs-only. Folded into PR #2.
+Skip Archer. No invented metrics. Hunches labeled.
+User-provided SIGNAL_988e + live board + GitHub README
+`bf1e79ba` / RESULTS-v1.2 `fdfab1a2` / HEAD `27ed3d6c`.
+**≠** tweet census §77 **≠** v1.1 87.6.
+
+- **JevBench v1.2 (Empirical as board).** Protocol
+  `jevbench::v1.2`; 534 decisions; geo-mean I/C/S/K
+  25% each. Jev 1.13.0 **75.3**; SemIf **74.6** (−0.7);
+  OpenJev razorback16 67.6 *theirs*. Luna I **96.8**
+  rank **#7**. Cal **ON** rank. Option-order 72%→21%.
+  Self-host ×2 assumption; many costs est. Laya
+  absent (gap). GLiNER2 mapping-excluded. Qwen3.8 27B
+  Chutes TEE **≠** Archer. Do not copy Stripe / CLI.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (id) geometric-mean product /
+weak axis dominates; (ie) cal now ON rank (delta
+from v1.1); (if) weight sensitivity; (ig)
+option-order 72→21; (ih) instruction models
+class-boundary; (ii) Harbor honesty ×2/est.; (ij)
+Laya absent gap / Qwen3.8 27B ≠ Archer.

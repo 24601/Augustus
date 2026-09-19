@@ -823,6 +823,17 @@ the list are **class-boundary**, not identity. Likes
 ephemeral. Incomplete vs Laya/localjev/kev is lag.
 Harbor still wants cal / cost / latency / silent
 fallback named. `notes.md` §77.
+**JevBench v1.2 scored board (Empirical as board +
+RESULTS; 2026-09-19 ~09:24):**
+[jev-models](https://benchmarkheaven.com/jev-models)
+protocol `jevbench::v1.2`. Score = geometric mean of
+I/C/S/K at 25% each. Jev 1.13.0 **75.3** / SemIf
+**74.6** *theirs*. Calibration **on** the rank (delta
+from §67). Luna I=96.8 rank #7. Self-host latency
+×2 is an assumption; many costs est. Option-order
+72%→21%. Laya absent (gap, not named-excluded).
+Qwen3.8 27B Chutes TEE **≠** Archer. **≠** tweet
+census **≠** v1.1 87.6. `notes.md` §78.
 
 ## 8. Control structure → sensor ≠ constraint (Leveson)
 
@@ -1352,6 +1363,12 @@ paraphrase set where the *act* must not change when the wording is
 synonymous; if it does, abstain. Until that set exists on *your*
 questions, **Hypothesis**. Links: `mental-models.md` §thresholds;
 `question-design.md` diagnosis; `validation.md` behavioral tests.
+**Option-order cousin (Empirical as v1.2 footnote; 2026-09-19):**
+[open-alternative-jev](https://github.com/ikermoel/open-alternative-jev)
+scored **72% → 21%** on yes/no answer-judging when A/B were reversed
+*theirs* (JevBench v1.2). Same act, swapped labels. Ranked row uses
+the author's `A. yes, B. no`. Do not quote one order as the model.
+`notes.md` §78.
 
 ## 18. Structural prove ∩ soft remainder (Hypothesis as domain-general; Empirical as named shapes)
 

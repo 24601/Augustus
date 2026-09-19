@@ -853,6 +853,23 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   [jev-models](https://benchmarkheaven.com/jev-models); do
   not paste live ranks. Do not copy Stripe. No wrapper. No
   invented metrics.
+- User-provided signal ~09:24 Boise 2026-09-19
+  (`research/notes.md` §78): **Skip Archer.** **JevBench v1.2
+  scored board**
+  ([benchmarkheaven.com/jev-models](https://benchmarkheaven.com/jev-models);
+  harness [fstandhartinger/jevbench](https://github.com/fstandhartinger/jevbench)
+  MIT; 0★; HEAD `27ed3d6c`). Protocol `jevbench::v1.2`; scored
+  19 Sept 2026; 534 decisions (hard 220 = 30% of Intelligence).
+  Official Score = geometric mean of I/C/S/K at 25% each. Jev
+  1.13.0 **75.3**; SemIf (Qwen3.5-4B) **74.6** (−0.7); OpenJev
+  DiffusionGemma (razorback16) 67.6 *theirs*. Luna Intelligence
+  **96.8** rank **#7** on cost. Calibration **on** the rank
+  (delta from v1.1). Weighting is a product design. Option-order
+  72%→21%. Self-host latency ×2 is an assumption; many costs
+  est. Laya absent (gap, not named-excluded). GLiNER2 mapping
+  issues; apps out. Qwen3.8 27B Chutes TEE **≠** Archer. **≠**
+  tweet census §77 **≠** v1.1 87.6. Do not copy Stripe / CLI.
+  No wrapper. No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

@@ -2250,7 +2250,7 @@
       "kind": "github",
       "title": "fstandhartinger/jevbench",
       "url": "https://github.com/fstandhartinger/jevbench",
-      "note": "Python MIT. Created 2026-09-19T07:07:36Z; 0 stars. JevBench v1.1 unofficial. Main Score 0.6/0.2/0.2. Jev 1.13.0 87.6. Calibration reported not scored. notes.md \u00a767."
+      "note": "Python MIT. Created 2026-09-19T07:07:36Z; 0 stars; 0 forks; pushed 2026-09-19T13:27:30Z; HEAD 27ed3d6c. JevBench v1.1 unofficial (Main 0.6/0.2/0.2; Jev 87.6; cal reported not scored; notes.md \u00a767). v1.2 live board (geo-mean I/C/S/K; Jev 75.3 / SemIf 74.6; cal ON rank; notes.md \u00a778). README SHA bf1e79ba this pass. Unofficial, not TypeSafe-endorsed."
     },
     {
       "kind": "github",
@@ -2670,19 +2670,31 @@
       "kind": "web",
       "title": "Benchmark Heaven",
       "url": "https://benchmarkheaven.com",
-      "note": "Hobbyist independent bake-off site (Florian S). Census tweet watch. notes.md \u00a777."
+      "note": "Hobbyist independent bake-off site (Florian S). Census tweet \u00a777; JevBench v1.2 board \u00a778."
     },
     {
       "kind": "web",
-      "title": "Benchmark Heaven jev-models (watch URL)",
+      "title": "Benchmark Heaven jev-models (JevBench v1.2 board)",
       "url": "https://benchmarkheaven.com/jev-models",
-      "note": "Watch surface for the first openjev leaderboard promised in the census tweet. Do not quote live ranks from the census card; scored methodology is a sibling fold. notes.md \u00a777."
+      "note": "Live JevBench v1.2 scored 19 Sept 2026. Protocol jevbench::v1.2. 15 systems x 534 decisions. Geo-mean I/C/S/K 25% each. Jev 75.3 / SemIf 74.6 *theirs*. Results JSON sha256 prefix d2b9d6fe88eb. Census tweet watch is notes.md \u00a777; scored methodology is \u00a778. Do not mix with v1.1 87.6."
     },
     {
       "kind": "x",
       "title": "@airesearch12",
       "url": "https://x.com/airesearch12",
       "note": "Florian S. benchmarkheaven.com. Census author. notes.md \u00a777."
+    },
+    {
+      "kind": "github",
+      "title": "fstandhartinger/jevbench RESULTS-v1.2.md",
+      "url": "https://github.com/fstandhartinger/jevbench/blob/main/RESULTS-v1.2.md",
+      "note": "JevBench v1.2 results. SHA fdfab1a2 this pass. Official ranking Jev 75.3 / SemIf 74.6. Weighting views. Option-order 72->21 footnote. Hard-tier table. Latency x2 assumption. notes.md \u00a778."
+    },
+    {
+      "kind": "github",
+      "title": "fstandhartinger/jevbench jevbench-v1.2-results.json",
+      "url": "https://github.com/fstandhartinger/jevbench/blob/main/results/v1.2/jevbench-v1.2-results.json",
+      "note": "Frozen v1.2 artifact. Board sha256 prefix d2b9d6fe88eb. notes.md \u00a778."
     }
   ]
 }

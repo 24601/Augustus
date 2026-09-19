@@ -1765,8 +1765,8 @@ of a first leaderboard "today"
 calibration **reported, not scored**). The watch URL is
 [benchmarkheaven.com/jev-models](https://benchmarkheaven.com/jev-models).
 Do **not** paste live ranks into the census card — scored
-methodology is a sibling fold. Also **≠** jev-judge-bench
-**≠** jevarena **≠** jev-arena. `notes.md` §67, §77.
+methodology is now §78 (JevBench v1.2 board). Also **≠** jev-judge-bench
+**≠** jevarena **≠** jev-arena. `notes.md` §67, §77, §78.
 
 ## Does GLiNER2 count as an openjev? Do routers?
 
@@ -1797,7 +1797,44 @@ the class. Completeness is a board watch item. `notes.md`
 
 No, and no. A list is not a bake-off. Likes/views/quotes
 are **ephemeral** (SIGNAL ~417/9/3; this pass 564/15/5 —
-do not quote as quality). Harbor/jevals still wants a
-frozen taskset, calibration on or honestly off the
-composite, named cost/latency assumptions, partial runs
-not ranked, silent fallback marked. `notes.md` §77.
+do not quote as quality). The scored sibling is §78
+(geometric-mean I/C/S/K; Jev 75.3 / SemIf 74.6 *theirs*).
+Harbor/jevals still wants a frozen taskset, calibration
+on or honestly off the composite, named cost/latency
+assumptions, partial runs not ranked, silent fallback
+marked. `notes.md` §77, §78.
+
+## Did Jev win JevBench v1.2? Is 75.3 vs 87.6 a drop?
+
+Jev 1.13.0 is **#1 at 75.3** *theirs* (I 90.4 C 82.7 S 83.3
+K 51.7; $0.041 production). SemIf is **#2 at 74.6** (−0.7).
+**75.3 is not a drop from v1.1 87.6** — different tiers
+(hard 220 new; 534 vs 314) and scoring (geo-mean I/C/S/K
+with calibration **on** the rank vs weighted sum with
+calibration **off**). Do not mix versions. Unofficial,
+not TypeSafe-endorsed. `notes.md` §67, §78.
+
+## Is Luna better than Jev? Can I hard-rank from the geometric mean?
+
+Luna has the highest Intelligence (**96.8**) and ranks
+**#7** because Cost is **28.2** ($0.247/1k). DeepSeek
+wins Calibration (**96.7**) and ranks **#11**. The
+geometric mean does not let a strong axis buy back a
+weak one — *theirs*. That formula is a **product
+design**. Other views: Balanced no-cal SemIf #1 75.2 /
+Jev #3 73.0; Emphasis Cost system-one-open #1 69.4 /
+Jev #5 63.6. Limits: "The weights are a choice."
+`notes.md` §78.
+
+## Is Qwen3.8 27B Archer? Why is Laya missing?
+
+No, and not as a quality verdict. Qwen3.8 27B is a
+**partial** official-Qwen run via Chutes TEE (I 74.6
+C 92.1 S 61.3 K **0** ~$2.711 est.; hard 21.4%) — **≠**
+Archer Hume (still Watch). Laya is **absent from the
+scored table and also not in the named exclusion list**
+— a gap vs our watch (§76), never a quoted "excluded."
+GLiNER2 is mapping-excluded *theirs* (normalization
+would drive calibration). Apps (Director/Loki) out.
+OpenJev on the board = razorback16 DiffusionGemma **≠**
+IamBusy `/v1/decide`. `notes.md` §78.

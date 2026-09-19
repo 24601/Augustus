@@ -234,3 +234,11 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     URL; do not paste live scores into the census card.
     Full cards: `mixed-architecture.md`, `faq.md`,
     `validation.md`, `toolbox-mapping.md`.
+18. **Geometric-mean product** (JevBench v1.2): four
+    axes at 25% each; a weak axis cannot be bought
+    back; weighting is a product design, not a law;
+    calibration on the rank is a choice (v1.1 kept it
+    off); instruction models in the same table as NAR
+    rebuilds; ×2 latency and est. costs are assumptions
+    to name. Full cards: `mixed-architecture.md`,
+    `validation.md`, `faq.md`, `mental-models.md`.

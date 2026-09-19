@@ -588,7 +588,11 @@ Use these as *existence proofs of a position*. Write your own card.
 | External census ≠ scored bake-off | is this a rank? | Named list + a promised board (**Empirical as tweet**: [@airesearch12](https://x.com/airesearch12/status/2101259522933186879); watch [jev-models](https://benchmarkheaven.com/jev-models)) | ≠ jevbench v1.1 §67. Do not paste live ranks here. Likes ephemeral |
 | Class-boundary (what belongs) | is GLiNER2 / a router an openjev? | Locate/categorize encoder + catalog routers counted beside NAR wires (**Contract as their list**) | Same job family ≠ replica. Needle 3 already not Jev-class §67. Qualify namesakes |
 | Incomplete census vs watch | are missing names out of class? | Laya / localjev / kev / TypeAR / openvons / chakuho / jevinf / grande / laya-jolt / blackwood / classifier-dev absent | Lag, not a dunk. Completeness is a board watch item |
-| Harbor honesty watch | what must a public openjev board disclose? | Calibration on/off the rank; cost/latency assumptions; silent fallback; partial runs (**Hypothesis until the sibling scored card**) | Soft-score-as-hard-rank is a design. Mixed class needs a class column |
+| Harbor honesty watch | what must a public openjev board disclose? | Calibration on/off the rank; cost/latency assumptions; silent fallback; partial runs (**Empirical as v1.2 board**: `notes.md` §78) | Soft-score-as-hard-rank is a design. Mixed class needs a class column |
+| Geometric-mean product | can accuracy buy back a weak axis? | I/C/S/K 25% each; `exp(sum 0.25 ln max(axis,1))` (**Empirical as board**: Jev **75.3** / SemIf **74.6**; Luna I=96.8 rank #7 *theirs*) | Weights are a choice. Do not mix with v1.1 87.6. ≠ tweet census |
+| Weight sensitivity | does the rank survive a different product? | Same axes, other views, still geo-mean (**Empirical**: no-cal SemIf #1; cost system-one-open #1 / Jev #5 *theirs*) | Official Score is 25:25:25:25. Other buttons are not the Score |
+| Option-order brittleness | does A/B order change the act? | Reverse yes/no labels (**Empirical**: open-alternative-jev 72% → 21% *theirs*) | Cousin of paraphrase-brittleness. Ranked row uses author's order |
+| Instruction models in a System One table | is the class the task or the architecture? | JSON-schema instruction models beside NAR rebuilds (**Contract as their legend**) | Luna/Gemini/DeepSeek/Qwen3.8. Needle 3 label-only. OpenJev = razorback16 ≠ IamBusy |
 
 Rejected in every domain: replacing the ledger with a vibe; replacing
 the interlock with confidence; replacing the essay with a Noul;

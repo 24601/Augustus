@@ -10867,4 +10867,294 @@ not scores); `methods-catalog.md`; `toolbox-mapping.md`;
 `composition-algebra.md`; `question-design.md`;
 `mappings.md` §7 (class-boundary; do not rank from a
 tweet); `judgment-class.md` (what belongs). Hunches
-labeled. No wrapper.
+labeled. No wrapper. **Scored sibling is now §78**
+(JevBench v1.2 live board; do not paste those ranks
+back into this census card).
+
+## 78. User-provided HIGH — JevBench v1.2 scored board (2026-09-19 ~09:24 Boise / ~15:24 UTC)
+
+Docs-only into PR #2. **Skip Archer.** Quote the
+board and GitHub RESULTS; mark numbers **theirs**.
+Do **not** re-fold §50–§77 HIGH except sibling
+contrast (§77 census tweet; §67 v1.1 artifact).
+Hunches labeled. No wrappers, Stripe coffee URL,
+copied ports, CLI / `--key-env`, or invented
+metrics. TypeSafe Jev remains the exemplar — this
+signal is **measurement / Harbor-adjacent practice
+of a public class table**, not a hit list and not
+a new model species.
+
+**THIS FOLD IS THE SCORED BOARD.** Qualify three
+surfaces that are **not** the same artifact:
+
+1. [@airesearch12 census tweet](https://x.com/airesearch12/status/2101259522933186879)
+   already §77 (named list + a promise; likes
+   ephemeral; ranks withheld).
+2. [`fstandhartinger/jevbench`](https://github.com/fstandhartinger/jevbench)
+   **v1.1** already §67 (314 decisions; Main Score
+   0.6/0.2/0.2 then Balanced 33:33:33 in v1.1.2;
+   Jev 1.13.0 **87.6** *theirs*; calibration
+   **reported, not scored**). Keep as historical.
+3. **This card:** live
+   [benchmarkheaven.com/jev-models](https://benchmarkheaven.com/jev-models)
+   protocol `jevbench::v1.2`, scored 19 Sept 2026.
+   Also **≠**
+   [jev-judge-bench](https://github.com/slavadubrov/jev-judge-bench)
+   **≠** [chenmingtang830/jevarena](https://github.com/chenmingtang830/jevarena)
+   **≠** [meetr1912/jev-arena](https://github.com/meetr1912/jev-arena).
+   **v1.2 numbers are not comparable with v1.1 or
+   v1.0** (different tiers and scoring) — *theirs*.
+
+Receipts this pass (~15:24 UTC): user SIGNAL_988e
+(~08:44 Boise) + live board fetch + GitHub README
+SHA `bf1e79ba` + RESULTS-v1.2.md SHA `fdfab1a2` +
+repo HEAD `27ed3d6c` (pushed 2026-09-19T13:27:30Z).
+Python MIT; 0★; 0 forks; created 2026-09-19T07:07:36Z.
+Unofficial, not TypeSafe-endorsed. Results JSON
+sha256 prefix `d2b9d6fe88eb…` (board). Do **not**
+copy Stripe donate URL or CLI recipes.
+
+### What it is (quote the board)
+
+Independent Jev-class bake-off: **15 systems × 534
+decisions** (72 easy / 96 standard / 146 judge /
+**220 hard** = 30% of Intelligence). One request at
+a time from a server in Germany. Official
+**JevBench Score** = geometric mean of Intelligence /
+Calibration / Speed / Cost at **25% each**:
+
+```text
+exp(sum 0.25 * ln(max(axis, 1)))
+```
+
+*Theirs:* "A weak axis pulls the score down hard; a
+strong axis cannot buy it back." That formula is a
+**product design**, not a natural law. Limits:
+"The weights are a choice." Other views reorder
+ranks (below). Intelligence = weighted accuracy
+(hard 30% / easy 14% / standard 28% / judge 28%).
+Calibration = hard-tier ECE + probability fidelity
+(label-only counts as **0**). Speed = mean of
+score(p50)/score(p95); 0.1 s = 100, −20 per decade.
+Cost = log $ per 1k; $0.001 = 100, −30 per decade.
+Native vs verbalized still labelled; token logprobs
+unused. Partial runs shown, **not ranked** (≥95% of
+every tier). Do not mix **75.3** with v1.1 **87.6**.
+
+### Official ranking *theirs* (complete runs)
+
+Board rounded I/C/S/K; decimals from RESULTS-v1.2.md.
+
+| # | System | Score | I · C · S · K | $/1k |
+|---|---|---:|---|---|
+| 1 | Jev 1.13.0 (TypeSafe) | **75.3** | 90.4 · 82.7 · 83.3 · 51.7 | $0.041 production |
+| 2 | SemIf Qwen3.5-4B (TheoLeeCJ; formerly OpenJev) | **74.6** (−0.7) | 85.9 · 72.6 · 83.7 · 59.2 | ~$0.023 est. RunPod |
+| 3 | open-alternative-jev Qwen3.5-4B | 69.8 | 75.6 · 63.2 · 83.5 · 59.6 | ~$0.022 est. |
+| 4 | system-one-open Gemma 4 E2B LoRA | 68.7 | 79.5 · 56.7 · 77.0 · 64.1 | ~$0.016 est. |
+| 5 | OpenJev DiffusionGemma 26B-A4B (razorback16) | 67.6 | 86.0 · 64.8 · 83.2 · 45.2 | ~$0.067 est. |
+| 6 | openjev-sglang Qwen3.6-35B-A3B | 66.2 | 88.9 · 77.4 · 77.1 · 36.1 | ~$0.135 est. |
+| 7 | GPT-5.6 Luna (low) | 66.0 | **96.8** · 89.8 · 77.5 · **28.2** | $0.247 |
+| 8 | open-jev-deberta-v3-large | 64.4 | 53.6 · 66.4 · 66.0 · 73.3 | ~$0.0077 est. |
+| 9 | Bespoke Nimble 9B | 63.5 | 78.6 · 64.5 · 82.5 · 38.9 | ~$0.109 est. |
+| 10 | Gemini 3.1 Flash-Lite | 60.8 | 90.3 · 68.1 · 81.8 · 27.1 | $0.268 |
+| 11 | DeepSeek V4.1 Flash | 58.1 | 96.1 · **96.7** · 71.6 · 17.1 | $0.579 |
+| 12 | system-one Qwen3-8B | 56.5 | 80.1 · 36.8 · 84.4 · 41.2 | ~$0.092 est. |
+
+Partial, **not ranked**: Qwen3.8 27B **25.5** (I 74.6
+C 92.1 S 61.3 K **0** ~$2.711 est., Chutes TEE);
+Needle 3 options-as-tools **19.1** (label-only C
+none); Needle 3 **16.7** (label-only).
+
+Hard-tier accuracy *theirs*: Jev 74.1%; Luna 94.5%;
+DeepSeek 95.0%; SemIf 59.5%; OpenJev 65.5%. Easy
+~100% except DeepSeek 98.6% and Needle partials.
+
+**Hunch / Augustus takeaway:** closed Jev still #1,
+but SemIf is **0.7** behind on equal-weight geometric
+mean. Open 4B rebuild is competitive on speed/cost.
+Treat **75.3 as a class ceiling** only after naming
+the four axes and the ×2/est. assumptions. Luna
+Intelligence **96.8** at rank **#7** is the teaching
+example: a weak Cost axis cannot be bought back.
+
+### Weighting is a product design *theirs*
+
+Other buttons recompute the same four axes the same
+way (geometric mean) and **are not the JevBench
+Score**. Ranked systems only:
+
+| View (I:C:S:K) | #1 | Jev |
+|---|---|---|
+| Official 25:25:25:25 | Jev **75.3** | #1 |
+| Balanced no-cal 33:0:33:33 | SemIf **75.2** | #3 **73.0** |
+| Emphasis Accuracy 60:0:20:20 | Jev **79.5** | #1 |
+| Emphasis Speed 20:0:60:20 | SemIf **78.5** | #2 77.0 |
+| Emphasis Cost 20:0:20:60 | system-one-open **69.4** | #5 **63.6** |
+
+Fail closed if a reader treats the geometric mean as
+physics, or mixes v1.1 87.6 with v1.2 75.3 as a
+"drop." Calibration is **on** this composite (the
+delta from §67). Dropping it puts SemIf first.
+
+### Option-order fragility *theirs*
+
+open-alternative-jev is ranked with the author's
+order `A. yes, B. no`. Reverse `A. no, B. yes`
+scored **21% instead of 72%** on yes/no
+answer-judging. Both runs live under
+`results/v1.2/runs/open-alternative-jev/`. RESULTS
+footnote: the reversed-order run was the adapter's
+mistake and is kept as raw files. Cousin of
+paraphrase-brittleness (`mappings.md` §17) and
+eval-integrity (dinostomp jev-as-if). Small models
+are very sensitive to option order — *theirs*.
+
+### Class-boundary: instruction models in the same table
+
+The board mixes NAR / open rebuilds with **instruction
+models, JSON schema** (Luna, Gemini, DeepSeek, Qwen3.8)
+and a **small tool-calling** row (Needle 3). Class
+boundary is the **typed decision task**, not
+architecture purity. Same lesson as §77 counting
+GLiNER2 and routers as openjevs — now measured, not
+only listed. Fail closed if a reader collapses Luna
+into a NAR clone, or treats Needle 3 as Jev-class
+(already rejected §67: label-only; C none → 0 in the
+geo mean). OpenJev on this board =
+**razorback16 DiffusionGemma**, **≠**
+[IamBusy/OpenJev](https://github.com/IamBusy/OpenJev)
+`/v1/decide`. SemIf formerly branded OpenJev
+(TheoLeeCJ; already §69 runoff).
+
+### Harbor honesty (promoted from §77 watch)
+
+§77 asked what the board must disclose. Answers
+*theirs*, now Empirical as this page:
+
+- **Calibration is ON the rank** (hard-tier ECE +
+  fidelity; label-only = 0). v1.1 kept it **off**
+  Main Score. That is a design change, not a
+  regression of Jev.
+- **Latency ×2 (+0.15 s)** on self-hosted and demo
+  endpoints "to approximate production load — an
+  **assumption, not a measurement**." Production APIs
+  (Jev, OpenAI, Google, DeepSeek, Chutes) unadjusted.
+  Raw p50/p95 stay in the table.
+- **Many costs est.** from OpenRouter / DeepInfra
+  size-class list prices, "what a large inference
+  provider would charge … not what the author pays."
+  Jev / Luna / Gemini / DeepSeek use public tariffs.
+- **Partial runs not ranked.** Qwen3.8 27B Cost **0**
+  from price (clip); Needle 3 C none.
+- **Native vs verbalized** labelled; token logprobs
+  unused (same as v1.1).
+- **Held-out sent to APIs** — not-public ≠ not-seen.
+- **One origin, one time of day** (Germany).
+- English-only pilot; 534 ≠ census.
+
+Kinship: classifier-dev **FALLBACK** (name the model
+that answered); dinostomp instrument-not-score.
+Treat ranks as **configuration-specific**.
+
+### Exclusions (availability, never quality) *theirs*
+
+Named on the page: SemIf listed with a GPU note but
+**was measured**; open-jev Dasein (MLX Apple-only);
+open-jev JoshuaSP (no public endpoint); mini-jev
+memory; system-one-gemma gated Gemma licence; jevlike
+vision-only Doom/chess; AlexWortega NLI mapping;
+**GLiNER2** needs a normalization mapping (would
+drive calibration) — kept as a later-version
+candidate; Succinct Router 14M / jev-model-router /
+Director / Loki = **apps not models** (MARKET.md).
+
+**Laya is absent from the scored table and also not
+in this named exclusion list.** Treat as a **gap vs
+watch** (§76 NandhaKishorM/laya; Hub Laya), not a
+dunk and not a quoted "excluded." Same for
+githubnext/localjev, kev, TypeAR, openvons, chakuho,
+jevinf, grande, laya-jolt, blackwood, classifier-dev
+— still incomplete vs our watch. Completeness is
+not a quality score of the board.
+
+### Not Archer
+
+Qwen3.8 27B partial is **official Qwen via Chutes
+TEE**, Cost 0 from list price, hard-tier 21.4%.
+**≠** Archer Hume. Archer 27B drop still **WATCH**.
+Skip Archer this fold.
+
+### Delta vs §67 v1.1 (same harness, different score)
+
+| | v1.1 (§67) | v1.2 (this card) |
+|---|---|---|
+| Decisions | 314 | **534** (hard 220 new) |
+| Composite | weighted sum Cap/Speed/Cost | **geo-mean I/C/S/K** |
+| Calibration | reported, **not scored** | **on** the rank |
+| Jev 1.13.0 | Main **87.6** | Score **75.3** |
+| Rank rule | ≥ attempted | ≥95% every tier |
+
+Do **not** read 87.6 → 75.3 as Jev got worse. The
+hard tier is new (30% of Intelligence); Cost/Speed
+scales changed; geo-mean punishes the weak axis.
+v1.1.3 GPU round fed hard-tier runs into v1.2; keep
+v1.1 as a historical artifact.
+
+### Already-folded namesakes (sibling only)
+
+Do **not** re-card. Qualify collisions:
+
+- SemIf / openjev — §69 (semif-serve runoff ≠
+  softmax; wire-compat ≠ replica). Formerly branded
+  OpenJev.
+- OpenJev razorback16 — structured-read / djev-spark
+  §36 / §75. **≠** IamBusy `/v1/decide`.
+- open-alternative-jev — §49; option-order is **new
+  as a measured 72→21**.
+- open-jev-deberta-v3-large — encoder DeBERTa §33.
+- Needle 3 — von/Needle §49; §67 already
+  function-calling / label-only.
+- Bespoke Nimble 9B — §35.
+- GLiNER2 — still mapping-excluded, not scored.
+- Laya — **absent**, not named-excluded; packaging
+  already §76.
+- githubnext/localjev — **absent**; prompted-JSON
+  bake-off already §75 (1,200-req; not this suite).
+
+### Not
+
+Not Archer. Not a TypeSafe how-to. Not a dunk on
+Laya's absence. Not a hit list. Do not copy Stripe
+or CLI. Do not mix v1.1 87.6 with v1.2 75.3. Do not
+treat the geometric mean as a law. Do not treat
+Luna I=96.8 as rank #1. Do not treat Qwen3.8 27B as
+Archer. Do not treat OpenJev-on-the-board as
+IamBusy `/v1/decide`. Do not quote §77 likes here.
+
+### Skip / already folded / access notes
+
+- **fstandhartinger/jevbench v1.1** — already §67.
+  This hour is the **v1.2 scored board**, same
+  author's hobbyist surface, different protocol.
+- **@airesearch12 census** — already §77. Sibling:
+  the promise is now a page.
+- **Needle 3 as Jev-class** — already rejected §67.
+- Archer Hume open decision-model: still Watch.
+  **Skip Archer** this fold.
+
+### Curated status
+
+Board **quoted, not re-run**. Archer still **NOT
+landed**. Census tweet **not re-derived**.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`validation.md` (v1.2 row; v1.1 historical);
+`methods-catalog.md`; `toolbox-mapping.md` (Harbor
+honesty watch → Empirical); `composition-algebra.md`
+item 18; `question-design.md`; `mappings.md` §7
+eval-integrity + §17 option-order cousin;
+`judgment-class.md` (instruction models in the class
+table). Hunches labeled. No wrapper.

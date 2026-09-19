@@ -1186,3 +1186,25 @@
 - notes.md §77; sources.json (447 sources, 444 unique URLs,
   retrieved 2026-09-19T15:14Z); findings.md batch #61.
   No wrapper.
+## 2026-09-19 ~15:24 UTC — user-provided JevBench v1.2 board (~09:24 Boise)
+- Docs-only into PR #2. `notes.md` §78. Skip Archer.
+  Hunches labeled. No wrapper. No invented metrics.
+  Quote board *theirs*. **≠** tweet census §77 **≠**
+  jevbench v1.1 87.6. Do not copy Stripe / CLI.
+- Receipts: user SIGNAL_988e (~08:44 Boise) + live
+  board fetch this pass + GitHub README SHA `bf1e79ba`
+  + RESULTS-v1.2.md SHA `fdfab1a2` + HEAD `27ed3d6c`
+  (pushed 2026-09-19T13:27:30Z; MIT; 0★).
+- Folded: geo-mean I/C/S/K product; cal ON rank;
+  weight sensitivity; option-order 72→21; instruction
+  models class-boundary; ×2/est. Harbor honesty; Laya
+  absent as gap; GLiNER2 mapping exclusion; Qwen3.8
+  27B ≠ Archer.
+- Census not re-derived. Archer still NOT landed.
+- Cards: SKILL.md, judgment-class, mixed-architecture,
+  faq, mental-models, validation, methods-catalog,
+  toolbox, composition-algebra, question-design,
+  mappings §7/§17, ecosystem, CHANGELOG, README.
+- notes.md §78; sources.json (449 sources, 446 unique URLs,
+  retrieved 2026-09-19T15:24Z); findings.md batch #62.
+  No wrapper.
