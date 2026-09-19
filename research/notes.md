@@ -13923,7 +13923,7 @@ hard safety. 0★ HIGHs still get real cards.
    Observation: `VERIFIED` / `CONTRADICTED` /
    `UNKNOWN` / `INSUFFICIENT_EVIDENCE`. README
    *theirs*: “Enzo is not another autonomous-agent
-   framework.” “UNKNOWN is a useful result: it tells
+   framework.” “`UNKNOWN` is a useful result: it tells
    the LLM what must be learned next.” “Deterministic
    evidence remains authoritative.” “Prior sensor
    output is never sent back into a later Jev
@@ -14058,8 +14058,9 @@ hard safety. 0★ HIGHs still get real cards.
     (Python MIT; **0★**; created 2026-09-19T17:00Z;
     HEAD `2ff8df7`; README SHA `ea54bbe0`).
     LlamaIndex-shaped RAG: quality / latency / cost.
-    README *theirs*: ““Jev wins” is not an
-    assumption.” OpenRouter Decisions, **not**
+    README *theirs*: “Jev wins” is not an assumption:
+    quality, latency, and cost can improve, stay
+    flat, or get worse. OpenRouter Decisions, **not**
     TypeSafe direct. Default `max_budget_usd` **0**
     blocks paid calls. First smoke is plumbing.
     SciFact retrieval vs XQuAD EN/TR EM/F1.
