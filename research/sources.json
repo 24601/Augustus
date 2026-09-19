@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T19:47Z",
+  "retrieved": "2026-09-19T20:41Z",
   "sources": [
     {
       "kind": "docs",
@@ -1782,7 +1782,7 @@
       "kind": "github",
       "title": "EpicEric/safe-sh",
       "url": "https://github.com/EpicEric/safe-sh",
-      "note": "Python AGPL-3.0. Created 2026-09-18T23:53:50Z; 0 stars. Static shell script analysis with Jev. Not pre-exec authorization. notes.md §58."
+      "note": "Nix AGPL-3.0; 1 star. HEAD 51b1b0c. README SHA e80a9650. size 30. EpicEric/safe-sh static remainder. Not pre-exec authorization. HIGH delta of MED notes.md §58; folded as HIGH notes.md §92."
     },
     {
       "kind": "github",
@@ -1884,7 +1884,7 @@
       "kind": "github",
       "title": "buberlo/dsh-jev",
       "url": "https://github.com/buberlo/dsh-jev",
-      "note": "TypeScript MIT. Created 2026-09-19T00:49:47Z; 0 stars. DeepSeek Harness decision layer. Can only gate, never widen. Not on npm. notes.md §59."
+      "note": "TypeScript MIT; 2 stars. HEAD 6e907bd. README SHA bcb7a907. dsh-jev can only gate (never widen). 120 tests. Default mock+shadow. HIGH delta of MED notes.md §59; folded as HIGH notes.md §92."
     },
     {
       "kind": "github",
@@ -3259,6 +3259,168 @@
       "title": "fivethirty/pi-jev-gate",
       "url": "https://github.com/fivethirty/pi-jev-gate",
       "note": "MIT; 0 stars. HEAD 902f4e6. README SHA 62482af1. size 0. pi-jev-gate fail-closed; choice is the verdict. notes.md §91."
+    },
+    {
+      "kind": "github",
+      "title": "yohanargentina-oss/Foq",
+      "url": "https://github.com/yohanargentina-oss/Foq",
+      "note": "Python MIT; 1 star. HEAD 950304f. README SHA fbe55c7a. size 1170. Foq ~25ms/2.2GB local. *theirs* 25 ms P50 / ECE 0.2% / 100% 150-case exam. Do not paste as class ceiling. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "jaswanthsanjay88/rev",
+      "url": "https://github.com/jaswanthsanjay88/rev",
+      "note": "TypeScript; LICENSE Apache-2.0 / SPDX NOASSERTION; 0 stars. HEAD c435382. README SHA bc68be74. size 0. rev prefill-only + HF jev-0.5b. Sample latency_ms 32.4 not a bench. notes.md §92."
+    },
+    {
+      "kind": "huggingface",
+      "title": "jaswanthsanjay88/jev-0.5b",
+      "url": "https://huggingface.co/jaswanthsanjay88/jev-0.5b",
+      "note": "PEFT LoRA on Qwen2.5-0.5B; sha 1044b44b; 0 likes. Card titles itself rev-0.5b. Companion of jaswanthsanjay88/rev. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "robfrase/jev",
+      "url": "https://github.com/robfrase/jev",
+      "note": "LICENSE Apache / SPDX NOASSERTION; 0 stars. HEAD 9808965 branch quattro. README SHA 8d92fd16. size 0. robfrase/jev planning memo. No app code. != dannote/jev != hari007sh/jev. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "ThiagaoBR/typesafe_agent_gates",
+      "url": "https://github.com/ThiagaoBR/typesafe_agent_gates",
+      "note": "Python Apache-2.0; 0 stars. HEAD 04a4bc9. README SHA b2f0bb4d. size 0. typesafe_agent_gates 27/27 / 31/31 *theirs* jev-1.13.0. rh-guard owns. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "buberlo/jev-pastepilot",
+      "url": "https://github.com/buberlo/jev-pastepilot",
+      "note": "TypeScript MIT; 0 stars. HEAD 46ec47e. README SHA 5676992d. pastepilot Confirm before act. Fail-open missing key. No clipboard spyware. rh-guard owns. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "uspraveen/Jev-Reranker",
+      "url": "https://github.com/uspraveen/Jev-Reranker",
+      "note": "Python MIT; 0 stars. HEAD f0ceaaf. README SHA f3fc6f64. Jev-Reranker live Jev not yet measured. Offline n=300 r@1 0.1667 *theirs*. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "Nasrallah-AL/sessionwise",
+      "url": "https://github.com/Nasrallah-AL/sessionwise",
+      "note": "TypeScript MIT; 0 stars. HEAD 2b5e45c. README SHA b280e0d2. size 0. sessionwise opt-in relevance. Fail-open if Jev is down. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "savka777/jev-search",
+      "url": "https://github.com/savka777/jev-search",
+      "note": "TypeScript MIT; 0 stars. HEAD 77137f8. README SHA b25d72c1. jev-search pointer sieve. *theirs* 24p $0.01/7.4s. Score != truth. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "furuCRM-Inc/400ms-agentic-sf",
+      "url": "https://github.com/furuCRM-Inc/400ms-agentic-sf",
+      "note": "CSS; license null; 0 stars. HEAD e0ee16f. README SHA 8bf5e49b. size 0. 400ms Salesforce WebMCP. Demo 50ms Jev + 350ms WebMCP. Timestamps != Harbor. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "thevilledev/typesafe-scheduler-diagnostics",
+      "url": "https://github.com/thevilledev/typesafe-scheduler-diagnostics",
+      "note": "Go Apache-2.0; 0 stars. HEAD 3165e80. README SHA 5fbeaeaf. typesafe-scheduler-diagnostics advisory. Does not place Pods. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "mkruglikov/droidjev",
+      "url": "https://github.com/mkruglikov/droidjev",
+      "note": "JavaScript MIT; 0 stars. HEAD 6d6f423. README SHA 213ab849. droidjev screenshot-free. AX -> typed pick -> adb. != jev-ultrafast. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "Tewoto1/Computer-use-and-control-with-Jev",
+      "url": "https://github.com/Tewoto1/Computer-use-and-control-with-Jev",
+      "note": "Python; license null; 0 stars. HEAD 84e3f71. README SHA 9822e26c. size 0. Tewoto1 jevcu planner still writes. Preview default. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "luxus/ha-conversation-jev",
+      "url": "https://github.com/luxus/ha-conversation-jev",
+      "note": "Python; license null; 1 star. HEAD 07b6b87. README SHA 5426b3dd. ha-conversation-jev Jev→Grok. FAST_MIN 0.80 *theirs*. != HA-Jev. Do not copy OAuth client_id. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "rachit-srivastava-devx/jev-classification-benchmark",
+      "url": "https://github.com/rachit-srivastava-devx/jev-classification-benchmark",
+      "note": "Python; license null; 0 stars. HEAD 0391891. README SHA dac5ad85. size 0. jev-classification-benchmark specified not run. Probe $0.0000166 *theirs*. notes.md §92."
+    },
+    {
+      "kind": "huggingface",
+      "title": "reachjalil/jev-luna-pagerduty-trigger",
+      "url": "https://huggingface.co/datasets/reachjalil/jev-luna-pagerduty-trigger",
+      "note": "HF dataset MIT; 0 likes; 92 downloads; sha ff09d859. jev-luna-pagerduty p≥0.50. Synthetic n=3000 seed 20260917 *theirs*. ≠ Loghub. rh-guard owns paging. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "meldltd/meldecision",
+      "url": "https://github.com/meldltd/meldecision",
+      "note": "Go; SPDX NOASSERTION; 0 stars. HEAD 980fb30. README SHA 4180ce08. meldltd/meldecision laya-go ONNX. Goldens 4-decimal / byte-identical *theirs*. ≠ NandhaKishorM/laya. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "shantanugoel/laya-doom",
+      "url": "https://github.com/shantanugoel/laya-doom",
+      "note": "Python; license null; 0 stars. HEAD 23877f6. README SHA 2f14f7c8. laya-doom never pixels. ≠ blackwood ≠ Archer. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "logixism/laya-api",
+      "url": "https://github.com/logixism/laya-api",
+      "note": "Python; license null; 0 stars. HEAD d73ec25. README SHA e69de29b 0 bytes. size 0. logixism/laya-api empty README. Wrap convaiinnovations/laya. notes.md §92."
+    },
+    {
+      "kind": "huggingface",
+      "title": "akpsahan/laya",
+      "url": "https://huggingface.co/akpsahan/laya",
+      "note": "HF; 0 likes; sha d96df164; card license apache-2.0 / API None. akpsahan/laya ≠ Archer. Card copies convaiinnovations/laya; do not re-paste Nandha vs-Jev. ≠ Qwen3.8-27B. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "choxos/jevchess",
+      "url": "https://github.com/choxos/jevchess",
+      "note": "JavaScript MIT; 1 star. HEAD 1172d36. README SHA 7a94657f. size 8190. choxos/jevchess engine owns truth. ~300 ms / game <1¢ *theirs*. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "vedssharma/jev-drive",
+      "url": "https://github.com/vedssharma/jev-drive",
+      "note": "JavaScript; license null; 0 stars. HEAD 11c3888. README SHA ddbcbcf1. size 0. jev-drive sim not AV. Jev fail pauses. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "amali-s/story-arc",
+      "url": "https://github.com/amali-s/story-arc",
+      "note": "Python; license null; 0 stars. HEAD 8cec95c. README SHA 1fcd56f1. story-arc Jev never authors. Compose 0.7/0.5/0.6 sensors. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "newbie1668/jev-hs-assistant",
+      "url": "https://github.com/newbie1668/jev-hs-assistant",
+      "note": "TypeScript; license null; 0 stars. HEAD 7acba2c. README SHA 48c887f3. size 0. jev-hs-assistant HS6. Post always blocked. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "golergka/jev-plays-starcraft-2",
+      "url": "https://github.com/golergka/jev-plays-starcraft-2",
+      "note": "Python; license null; 1 star. HEAD 42579ce. README SHA 62186feb. golergka/jev-plays-starcraft-2 UI-verified ≠ API Victory. Liberation Day 3:44 / Outlaws 27:57 *theirs*. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "walidboulanouar/awesome-jev-use-cases",
+      "url": "https://github.com/walidboulanouar/awesome-jev-use-cases",
+      "note": "CC0; 2 stars. HEAD 975bbaf. README SHA 0d774bba. awesome-jev-use-cases catalog. Unofficial. likes ≠ eval. ≠ awesomejev.com census. notes.md §92."
+    },
+    {
+      "kind": "github",
+      "title": "Nibir1/typesafe-go",
+      "url": "https://github.com/Nibir1/typesafe-go",
+      "note": "Go Apache-2.0; 0 stars. HEAD 91126ff. README SHA 0b6cc51f. Nibir1/typesafe-go ≠ official. Analyzers atomicquestion/jaggededge/confidencecheck. notes.md §92."
     }
   ]
 }

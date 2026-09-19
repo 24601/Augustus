@@ -413,6 +413,14 @@ implicit_true included in yes. **≠** jev-judge-bench.
 — nanoprune 2.8MB ECE 2.58%. Distill ≠ hosted Noul.
 Do not Noul-rerank already-good retrieval
 (typed-judge-kit 14/15→13/15). `notes.md` §91.
+**Calibrated rerank / pointer sieve (Empirical as README;
+2026-09-19 ~20:41):**
+[Jev-Reranker](https://github.com/uspraveen/Jev-Reranker)
+— Jev-Reranker live Jev not yet measured. r@1 0.1667
+is offline-judge. [jev-search](https://github.com/savka777/jev-search)
+— jev-search pointer sieve. Score ≠ truth.
+[sessionwise](https://github.com/Nasrallah-AL/sessionwise)
+— sessionwise opt-in relevance. `notes.md` §92.
 
 ## 5. Hierarchy → bounded heuristic search
 
@@ -789,6 +797,12 @@ in copy. `notes.md` §90.
 — alsoleg89/decide packing VOI. Keep bulk decisions
 on disk; agent sees summary + review. 0.8 ≠ 80%
 accuracy. **≠** jev-sift. `notes.md` §91.
+**Screenshot-free / packing / HA fast-path VOI (Empirical as README;
+2026-09-19 ~20:41):**
+droidjev screenshot-free (~0.6 s/iter *theirs*).
+Tewoto1 jevcu planner still writes (324–380 ms *theirs*).
+ha-conversation-jev Jev→Grok. dsh-jev can only gate.
+400ms Salesforce WebMCP. `notes.md` §92.
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs

@@ -819,6 +819,50 @@ Same pillars, nine more placements. Do **not** re-fold
 
 Soft Noul ≠ hard safety on every cluster.
 
+## Apply 1441 (`notes.md` §92)
+
+Same pillars, nine more placements. Do **not** re-fold
+1347 / §91. Fresh PR; never reopen merged #3–#8.
+rh-guard owns the gate cousins; Augustus owns
+placement. Skip Archer.
+
+1. **Self-hosted econ** — Foq ~25ms/2.2GB local.
+   rev prefill-only + HF jev-0.5b.
+   robfrase/jev planning memo.
+   Sample `latency_ms` 32.4 is not a bench.
+2. **Soft-judgment gate integrity** —
+   typesafe_agent_gates 27/27 / 31/31.
+   EpicEric/safe-sh static remainder.
+   pastepilot Confirm before act.
+3. **Retrieval as calibrated decision space** —
+   Jev-Reranker live Jev not yet measured.
+   sessionwise opt-in relevance.
+   jev-search pointer sieve.
+4. **Enterprise reflexes** — 400ms Salesforce WebMCP.
+   typesafe-scheduler-diagnostics advisory.
+5. **Screenshot-free / CU** — droidjev screenshot-free.
+   Tewoto1 jevcu planner still writes.
+6. **Hybrid S1/S2** — ha-conversation-jev Jev→Grok.
+   dsh-jev can only gate.
+7. **Harbor-jevals / SRE** —
+   jev-classification-benchmark specified not run.
+   jev-luna-pagerduty p≥0.50.
+8. **Laya densifies** — meldltd/meldecision laya-go ONNX.
+   laya-doom never pixels.
+   logixism/laya-api empty README.
+   akpsahan/laya ≠ Archer.
+9. **Demos / unofficial toolbelt** —
+   choxos/jevchess engine owns truth.
+   jev-drive sim not AV.
+   story-arc Jev never authors.
+   jev-hs-assistant HS6.
+   golergka/jev-plays-starcraft-2 UI-verified ≠ API Victory.
+   awesome-jev-use-cases catalog.
+   Nibir1/typesafe-go ≠ official.
+
+Soft Noul ≠ hard safety on every cluster.
+soft Noul ≠ hard safety.
+
 Formal methods **compose** with scoring. A Noul is a
 SENSOR. Hard-gating it as CI pass / HA write / authorship
 seal is the same theater as jev-gate §79.

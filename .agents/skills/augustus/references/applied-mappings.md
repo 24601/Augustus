@@ -1161,6 +1161,22 @@ pedroknigge/mcp_jev packs not ask_jev.
 cyrusasco/typesafe-mcp noul deadband 0.35–0.65.
 codaaiteam/jev-skill jevtypesafeai.com ≠ TypeSafe.
 Do not copy `npx` / keys (`notes.md` §91).
+**Self-hosted econ / retrieval / enterprise / CU / hybrid / Laya / demos (Empirical as README; 2026-09-19 ~20:41):**
+Foq ~25ms/2.2GB local. rev prefill-only + HF jev-0.5b.
+robfrase/jev planning memo. typesafe_agent_gates 27/27 / 31/31.
+EpicEric/safe-sh static remainder. pastepilot Confirm before act.
+Jev-Reranker live Jev not yet measured. sessionwise opt-in relevance.
+jev-search pointer sieve. 400ms Salesforce WebMCP.
+typesafe-scheduler-diagnostics advisory. droidjev screenshot-free.
+Tewoto1 jevcu planner still writes. ha-conversation-jev Jev→Grok.
+dsh-jev can only gate. jev-classification-benchmark specified not run.
+jev-luna-pagerduty p≥0.50. meldltd/meldecision laya-go ONNX.
+laya-doom never pixels. logixism/laya-api empty README.
+akpsahan/laya ≠ Archer. choxos/jevchess engine owns truth.
+jev-drive sim not AV. story-arc Jev never authors.
+jev-hs-assistant HS6. golergka/jev-plays-starcraft-2 UI-verified ≠ API Victory.
+awesome-jev-use-cases catalog. Nibir1/typesafe-go ≠ official.
+rh-guard owns the gate cousins (`notes.md` §92).
 
 ## 6. Expensive observation router
 
@@ -1424,6 +1440,15 @@ rh-guard owns the gate cousin.
 [pi-jev-gate](https://github.com/fivethirty/pi-jev-gate)
 (MIT; **0★**) — pi-jev-gate fail-closed; choice is the verdict.
 Ask band removed. **≠** pi-jev-approver. `notes.md` §91.
+**Confirm-before-act / static remainder (Empirical as README;
+cross-ref rh-guard; 2026-09-19 ~20:41):**
+[jev-pastepilot](https://github.com/buberlo/jev-pastepilot)
+(MIT; **0★**) — pastepilot Confirm before act. Fail-open
+missing key. [safe-sh](https://github.com/EpicEric/safe-sh)
+(AGPL-3.0; **1★**) — EpicEric/safe-sh static remainder.
+[typesafe_agent_gates](https://github.com/ThiagaoBR/typesafe_agent_gates)
+(Apache-2.0; **0★**) — typesafe_agent_gates 27/27 / 31/31.
+rh-guard owns. `notes.md` §92.
 
 ## 8. Decide → policy → LLM leftover cascade
 

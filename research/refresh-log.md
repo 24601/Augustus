@@ -1633,3 +1633,67 @@
 - notes.md §91; sources.json (543 sources, 540 unique URLs,
   retrieved 2026-09-19T19:47Z); findings.md batch #74.
   No wrapper.
+
+## 2026-09-19 ~20:41 UTC — hourly 1441 HIGH (~14:41 Boise)
+- Docs-only on a **fresh PR off main**. Never reopen
+  merged #3 / #4 / #5 / #7 / **#8**. `notes.md` §92.
+  Skip Archer. Do **not** re-fold 1347 / §91. Hunches
+  labeled. No wrapper. No invented metrics. Quote
+  READMEs. Soft Noul ≠ hard safety. 0★ HIGHs still
+  get real cards. Not a Jev skill dump.
+  Backend-agnostic categorization/scoring/decision
+  class. rh-guard owns the gate cousins; Augustus
+  owns placement.
+- Folded how-to-apply clusters: Self-hosted econ
+  (Foq ~25ms/2.2GB local; rev prefill-only + HF
+  jev-0.5b; robfrase/jev planning memo);
+  Soft-judgment gate integrity
+  (typesafe_agent_gates 27/27 / 31/31;
+  EpicEric/safe-sh static remainder; pastepilot
+  Confirm before act; rh-guard owns);
+  Retrieval as calibrated decision space
+  (Jev-Reranker live Jev not yet measured;
+  sessionwise opt-in relevance; jev-search pointer
+  sieve);
+  Enterprise reflexes (400ms Salesforce WebMCP;
+  typesafe-scheduler-diagnostics advisory);
+  Screenshot-free / CU (droidjev screenshot-free;
+  Tewoto1 jevcu planner still writes);
+  Hybrid S1/S2 (ha-conversation-jev Jev→Grok;
+  dsh-jev can only gate);
+  Harbor-jevals / SRE
+  (jev-classification-benchmark specified not run;
+  jev-luna-pagerduty p≥0.50);
+  Laya densifies (meldltd/meldecision laya-go ONNX;
+  laya-doom never pixels; logixism/laya-api empty
+  README; akpsahan/laya ≠ Archer);
+  Demos / unofficial toolbelt (choxos/jevchess
+  engine owns truth; jev-drive sim not AV;
+  story-arc Jev never authors; jev-hs-assistant HS6;
+  golergka/jev-plays-starcraft-2 UI-verified ≠ API
+  Victory; awesome-jev-use-cases catalog;
+  Nibir1/typesafe-go ≠ official).
+- Formal compose: local class-backend economics;
+  remainder after exact rules; retrieve then decide;
+  advisory diagnoses never place Pods; screenshot-free
+  observe→score→act; S1 decide / S2 leftover;
+  Harbor-jevals for ops; packaging ≠ new species;
+  engine owns truth. Soft Noul ≠ hard safety.
+  Pasting Foq 100%/ECE 0.2% / Reranker 0.1667 /
+  400 ms / akpsahan vs-Jev as class ceilings, or
+  treating Qwen3.8-27B as Archer, is soundness
+  theater.
+- Census not re-derived. Archer still NOT landed;
+  tracker likes **50** lastModified UNCHANGED
+  2026-09-19T18:37:18Z; SemIf 1873 (+7); jevlike
+  969 (+2); TypeAR 10 flat; Awesomejev 561/27007
+  flat.
+- Cards: SKILL.md, mixed-architecture fail table +
+  gallery, faq, mental-models, judgment-class,
+  validation, applied-mappings, mappings, toolbox,
+  composition-algebra items 71–79, question-design,
+  methods-catalog, formal-methods, agent-self-assessment,
+  ecosystem, CHANGELOG, README.
+- notes.md §92; sources.json (570 sources, 567 unique URLs,
+  retrieved 2026-09-19T20:41Z); findings.md batch #75.
+  No wrapper.

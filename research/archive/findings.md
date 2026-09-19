@@ -2569,3 +2569,57 @@ Cross-repo addition: (kk) judge harness as control API;
 select; (kp) tiny local econ pruner; (kq) observe→score→act
 cousins; (kr) deterministic verify ≠ System One; (ks)
 soft-score vs hard-argmax.
+
+## Batch #75 (2026-09-19 ~20:41 UTC / ~14:41 Boise) — hourly 1441 HIGH
+
+Note: `research/notes.md` §92. Docs-only on a fresh PR
+off main. Never reopen merged #3 / #4 / #5 / #7 / **#8**.
+Skip Archer. Do **not** re-fold 1347 / §91. No invented
+metrics. Hunches labeled. Quote READMEs. Soft Noul ≠
+hard safety. 0★ HIGHs still get real cards. rh-guard
+owns the gate cousins; Augustus owns placement.
+
+- **Self-hosted econ.** Foq ~25ms/2.2GB local (**1★**).
+  rev prefill-only + HF jev-0.5b (**0★**).
+  robfrase/jev planning memo. Sample 32.4 ms is not
+  a bench.
+- **Soft-judgment gate integrity.**
+  typesafe_agent_gates 27/27 / 31/31. EpicEric/safe-sh
+  static remainder (**1★**; HIGH delta of MED §58).
+  pastepilot Confirm before act. rh-guard owns.
+- **Retrieval as calibrated decision space.**
+  Jev-Reranker live Jev not yet measured. sessionwise
+  opt-in relevance. jev-search pointer sieve. Score ≠
+  truth.
+- **Enterprise reflexes.** 400ms Salesforce WebMCP
+  (timestamps ≠ Harbor). typesafe-scheduler-diagnostics
+  advisory (does not place Pods).
+- **Screenshot-free / CU.** droidjev screenshot-free.
+  Tewoto1 jevcu planner still writes. **≠** closed-vote.
+- **Hybrid S1/S2.** ha-conversation-jev Jev→Grok
+  (**1★**). dsh-jev can only gate (**2★**; HIGH delta of
+  MED §59).
+- **Harbor-jevals / SRE.** jev-classification-benchmark
+  specified not run. jev-luna-pagerduty p≥0.50
+  (synthetic n=3000 *theirs*; ≠ Loghub).
+- **Laya densifies.** meldltd/meldecision laya-go ONNX.
+  laya-doom never pixels. logixism/laya-api empty README.
+  akpsahan/laya ≠ Archer. **≠** Qwen3.8-27B.
+- **Demos / unofficial toolbelt.** choxos/jevchess
+  engine owns truth (**1★**). jev-drive sim not AV.
+  story-arc Jev never authors. jev-hs-assistant HS6.
+  golergka/jev-plays-starcraft-2 UI-verified ≠ API
+  Victory (**1★**). awesome-jev-use-cases catalog
+  (**2★**). Nibir1/typesafe-go ≠ official.
+
+Census not re-derived. Archer still NOT landed;
+tracker likes **50** lastModified UNCHANGED
+2026-09-19T18:37:18Z; SemIf 1873 (+7); jevlike 969
+(+2); TypeAR 10 flat; Awesomejev 561/27007 flat.
+
+Cross-repo addition: (kt) self-hosted econ; (ku)
+soft-judgment gate integrity; (kv) retrieval as
+calibrated decision space; (kw) enterprise reflexes;
+(kx) screenshot-free / CU; (ky) hybrid S1/S2; (kz)
+Harbor-jevals / SRE; (la) Laya densifies; (lb) demos
+/ unofficial toolbelt.
