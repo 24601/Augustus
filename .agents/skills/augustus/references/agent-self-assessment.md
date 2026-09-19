@@ -27,6 +27,11 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    [port-cleanup](https://github.com/epiphany-dynamics/port-cleanup)
    — Jev recommends; human is the only kill trigger; identity
    re-check; shields override; mapped explanations (`notes.md` §59).
+   **Email / ticket leftover cascade (2026-09-18 ~20:43):**
+   [jav-email-cascade](https://github.com/skiingfalcon/jav-email-cascade)
+   — typed decide, policy auto/review/llm, generator only on
+   leftover text. Noul 0.5 never rounded into auto. Distinct
+   from dual-process-ai (routing unmeasured). `notes.md` §60.
 2. **Post-action output judge** (after the tool result exists, not before):
    `leaks_secret` (noul ≥0.90) and `failure_class` (Choice ~6 options).
    The gate sees intent; only the output judge sees what the command printed.

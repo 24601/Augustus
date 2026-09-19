@@ -209,6 +209,8 @@ not a global virtue:
 | Pick a session model | **Fail closed** to a declared standard (`jev-adaptive-thinking`) | Timeout / no session / missing first-round text locks `gpt-5.6-sol`. Contrast jev-gateway fail-open passthrough if Jev is down |
 | Drop a meaning-search hit | **Fail open** as ranking (`jevgrep`) | False drop loses the file. Keyword tools still win exact strings |
 | Rerank a retrieved list | Fail open: keep retrieval order (`WiktorB2004/llama-index-jev`, **Empirical recipe** on BEIR nfcorpus: MiniLM 0.340 nDCG@5 → MiniLM+Jev 0.396; rerank fails open, *select* fails closed). Listwise/cross-encoder scores belong here, not on the row above. One-run cousin: Jev-RAG vs Spark *rerank* (full-context Spark still faster) | Ranking errors are quality; selection errors are control-flow |
+| Auto-act an email / ticket | **Fail closed** to review when Noul ≈ 0.5, Score conf = 0.0, or a hard flag fires (`jav-email-cascade`) | Noul 0.5 is cannot-tell, never rounded. Injection always review. LLM leftover is optional |
+| `ORDER BY prob LIMIT k` | **Fail open** as ranking; ties need a secondary key (`jev-orderby-bench`) | Two-decimal quantization; 53-way 0.99 tie is engine-dependent. Calibration ≠ sortable |
 
 Worked placements (2026-09-18 topic:jev hour + prior archive):
 
@@ -373,6 +375,13 @@ emits `no_action` receipts and **never** changes host routing.
 [dual-process-ai](https://github.com/taro1985/dual-process-ai) — S1
 decides, S2 writes; routing accuracy **not measured**; keyword
 fallback is not S1 (`notes.md` §49).
+**Harbor-shaped decide→policy leftover (measured compare arms,
+2026-09-18 ~20:43):**
+[jav-email-cascade](https://github.com/skiingfalcon/jav-email-cascade)
+— shared Answer schema; jev / gen-json / gen-logprob; policy
+auto/review/llm; Noul 0.5 never rounded. Mock gen-json
+flat-confidence is *their mock*. License null this pass
+(`notes.md` §60).
 
 **Effect-oriented loop (same author, later post).** Topology B inside
 an effect system
@@ -547,6 +556,11 @@ decision-design card. Do not clone APIs from READMEs.
 | Skills → oxlint | Remainder Noul/Choice after AST/precheck | Guidance whole-file in state; survey/calibrate/propose; not a hard gate | jev-oxlint (Phoenix fixtures; experiment; tenbin owns lint skill) |
 | Session-sticky model route | First-prompt Choice | Lock for session; fail-closed declared fallback | jev-adaptive-thinking (license null; same family as routeKit) |
 | Measured RAG rerank | Relevance vs a generative reranker | Evidence set / retrieval order on error; name the no-RAG arm | Jev-RAG (one-run ≥70%/72% vs Spark rerank; full-context Spark still faster) |
+| Decide→policy→LLM leftover | 8 typed questions; shared Answer schema | auto / review / llm in code; Noul 0.5 never rounded; Score conf 0.0 never acted on; injection always review | jav-email-cascade (license null; mock gen-json flat-confidence is *their mock*; ~$0.034/1k *theirs*) |
+| Domain specialist LoRA | soft-target Choice on independent gold | Threshold/deferral/EU in code; hosted few-shot when only argmax | Domain-jev-maker (CLINC labels, not Jev teacher-copy; KL 0.168 vs 0.580 banking *theirs*) |
+| Wire-compat encoder backend | choice / score / noul on GLiFormer-400M | typesafe-sdk `base_url`; T=3.2; isolate nouls; tokens ≠ Jev billing | jeff (license null; ~$2.6 vs $15.6 L4 HTTP ~6×; A10G direct ~$0.65 ~24×; AG News 75.5% vs 90.5% *theirs*; not a Jev replica) |
+| Loopback System One gateway | pass-through of whoever answers | Policy auto / prefer-local / prefer-hosted / local-only / hosted-only; credential from env never config; no weights | sysone (MIT; early; not a model) |
+| ORDER BY ranking measurement | pairwise inversion / Score ordinality / ties | Gate SQL on results.json; secondary key on two-decimal ties; measure request shape | jev-orderby-bench (six gates pass; Score 0.143 weak link; 53-way 0.99 tie; recodelabs batch-40 fails ranking) |
 
 On-device / Home Assistant / mobile are newly-feasible via the economics
 inversion, not proven ports of every app. Named placements this hour

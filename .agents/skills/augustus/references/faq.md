@@ -106,7 +106,9 @@ weights, so checks around the boundary stay black-box
 openjev-lm, encoder DeBERTa, a LoRA student, **blackwood-rlcd**) copies the Choice / Score /
 Noul *shape* and moves eval onto you. Distills trained on Jev's
 *answers* (openjev-lm, jev-gate-student-b) are teacher-copies — read
-agreement separately from gold. **kev** is not that distill: CE on
+agreement separately from gold. **Domain-jev-maker** is also not that
+distill: independent CLINC gold, soft targets; pick it when downstream
+*reads* p, few-shot hosted when only argmax (`notes.md` §60). **kev** is not that distill: CE on
 public labelled outcomes, pointer readout, isolation probes, ID ECE
 0.065 (0.031 after temperature scaling) on 1,350 questions — still
 self-eval, still not OOD (`notes.md` §45). Encoder open-jev
@@ -126,6 +128,10 @@ is **WATCH** until weights, license, and evals exist (`notes.md` §31,
 (CC BY-NC; not that drop; `notes.md` §46). A local `POST /v1/systemone`
 drop-in ([jev-local](https://github.com/us/jev-local)) is a **surface**,
 not a fourth path — default scorer is a stub until `hf` (`notes.md` §48).
+[jeff](https://github.com/logan-markewich/jeff) is a GLiFormer encoder
+behind the same wire (not a Jev replica; `notes.md` §60).
+[sysone](https://github.com/hraness/sysone) is a loopback **router**,
+not a scorer.
 Laya ONNX port: [laya-onnx](https://huggingface.co/Mattepiu/laya-onnx)
 (do not copy the inherited vs-Jev table). Constrained decoding is §32; native serving is §42. Decision-token QLoRA on that graph:
 [Foodoo1/Qwen3-14B-RLCD-Decision-LoRA](https://huggingface.co/Foodoo1/Qwen3-14B-RLCD-Decision-LoRA)
@@ -159,6 +165,13 @@ Hole first, logo last. These are **species**, not aliases
   uses GLiNER2 (`fastino/gliner2-multi-v1`, not 2.5) to **score among
   observed** a11y/DOM controls; code acts; not a screenshot model
   (`notes.md` §52). Same observe→score→act hole as Jev Ultrafast.
+- **GLiFormer (encoder serving the System One *wire*):**
+  [jeff](https://github.com/logan-markewich/jeff) on
+  gliformer-large-v1 (400M) answers choice/score/noul at
+  `/v1/systemone`. Related Knowledgator encoder lineage, **not**
+  GLiNER locate and **not** a Jev replica. Cheaper on GPU,
+  less accurate on reasoning-heavy; CPU is *more* expensive.
+  `notes.md` §60.
 - **GLiClass (categorize):** one forward pass over text + *all* labels;
   sigmoid multi-label or softmax single-label. Use for large or changing
   tag sets. Scores are class affinities, not automatically a gateable
@@ -170,7 +183,10 @@ Hole first, logo last. These are **species**, not aliases
   independent gold. Encoder open-jev (DeBERTa) is the same *shape* on
   public gold — still self-eval, especially OOD. **kev** is the
   causal-decoder + pointer productization of Archer's reconstruction on
-  public gold (API-compatible; not a teacher-copy). **blackwood-rlcd** is
+  public gold (API-compatible; not a teacher-copy). **Domain-jev-maker**
+  is a domain LoRA on independent CLINC gold (not a teacher-copy) —
+  train when downstream reads p; few-shot hosted when only argmax.
+  **blackwood-rlcd** is
   the open multimodal decide head (CC BY-NC; not Archer Watch). Hume's 27B drop is
   Watch. When-to-use axes: `judgment-class.md`.
 - **Cross-encoder / listwise ranker:** order of a retrieved shortlist.
@@ -464,6 +480,18 @@ of Distillation. No LICENSE this pass. Default refund workflow is
 not a validated policy. A green smoke test on
 the stub is not a bake-off. `judgment-class.md`; `notes.md` §48, §49, §55.
 
+**Wire-compat encoder cousin (2026-09-18 ~20:43):**
+[jeff](https://github.com/logan-markewich/jeff) serves
+`/v1/systemone` on GLiFormer-400M; `typesafe-sdk` drop-in via
+base URL. **Not a Jev replica** — normalized sigmoids, T=3.2,
+noul isolation default, DeBERTa token counts. Their card: L4
+HTTP ~$2.6 vs jev ~$15.6 per 1M requests (~6×); A10G direct
+~$0.65 (~24×); AG News 75.5% vs 90.5%. CPU arm is *more*
+expensive. License null this pass. A loopback **router**
+([sysone](https://github.com/hraness/sysone)) is not a scorer
+either — it routes hosted + local OpenJev/NanoJev/Mini-Jev
+and does not run weights. `notes.md` §60.
+
 ## Are local CUDA likelihoods a Noul?
 
 No. [jevify](https://github.com/Mintzs/jevify) (and packed-logprob
@@ -666,6 +694,47 @@ card (`jev-1.13.0`, 145 noul, 2 requests): Brier **0.0059**, ECE
 economics, not a demo flourish. Siblings: sonar (heatmap-as-policy),
 vickrey (Jev never bids), bracket (Brier vs Elo; live trailed Elo —
 honest). `validation.md`; `notes.md` §59.
+
+## Train a specialist, or few-shot the hosted API?
+
+Depends on **what consumes the output**, not on a vs-hosted
+accuracy table.
+[Domain-jev-maker](https://github.com/help-er/Domain-jev-maker)
+trains a domain LoRA on **independent** CLINC-150 labels (not
+a Jev teacher-copy). Their RESULTS.md: local 1.5B KL 0.168 vs
+hosted zero-shot 0.580 banking (r +0.933 vs +0.343). Few-shot
+hosted (one example per intent in `state`) matches or beats
+local determinate accuracy (McNemar p=0.134 / p=1.000);
+calibration barely moves. **Argmax routing → hosted +
+examples. Threshold / deferral / expected-cost that reads
+p → specialist.** Matched-precision KL (both systems rounded
+to two decimals, zeros → 0.0025) is the Harbor hygiene.
+`mappings.md` §2; `notes.md` §60.
+
+## Is Noul 0.5 "maybe / medium"?
+
+No. Noul 0.5 is **cannot-tell** — uncertainty about a
+predicate, never medium intensity, **never rounded** into an
+act. [jav-email-cascade](https://github.com/skiingfalcon/jav-email-cascade)
+treats the band between mirrored thresholds as review, not
+auto. Score confidence 0.0 is a flat distribution and is
+never acted on. Same non-negotiable as the skill card.
+`applied-mappings.md` §8; `notes.md` §60.
+
+## Does a passing ECE mean `ORDER BY` is safe?
+
+No. **Calibration ≠ sortable.** ECE/Brier ask whether a
+stated 0.7 is 70%; pairwise inversion / Score ordinality ask
+whether sorting by the number puts rows in a defensible
+order. They come apart in both directions.
+[jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench):
+`jev-1.13.0` passes six pre-registered gates; Score ordinal
+inversion 0.143 vs 0.15 is the weak link **and the sort
+key**; 53 rows tie at 0.99 so `LIMIT 20` is
+engine-dependent; two-decimal quantization. recodelabs
+40-row batching fails the ranking gate that one-row-per-
+request passes. Vendor 67.8% agreement is not calibration.
+`mappings.md` §4; `notes.md` §60.
 
 ## Engine eval or coaching verdict?
 

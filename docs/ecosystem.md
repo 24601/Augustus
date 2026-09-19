@@ -249,6 +249,16 @@ Architecture notes, not a pip / venv / Cloudflare catalog. `notes.md` §59. Type
 - **epiphany-dynamics/port-cleanup** — MIT, Swift. Jev recommends; human is the only kill trigger; identity re-check; shields override; mapped explanations not raw model prose. conf ≥ 0.8 for kill recs. Gate UX + rh-guard cousin.
 - MED toolbelt: **1jehuang/jev-pr-labeler** (conceptual scope, not line counts); **RubyBrewsday/jevcumber** (.feature only; pointer among observed controls); **shkumbinhasani/typedecide** (class SDK; not on npm); **douglance/jevon** (CLI+MCP; key not in agent config); **buberlo/dsh-jev** (DSH plugin; can only gate, never widen); **zaycruz/fast-jev-compaction-pi** (pi port of fast-jev-compaction); **planstack-ai/jev-tetris-benchmark** (legal set in code; not a rigorous eval); **fabricioctelles/modelsystem** (modelsystem.one catalog; 1★; not affiliated); **emirbartu/opencode-system-one** (fail-open plugin; license null; 1★); **phanngoc/browser-ai** (Go CDP; design done, implementation tracked); **acorn181/semantic-bookmark** (user-authored semantic rules).
 
+### Hourly ~20:43 Boise 2026-09-18 / 02:43 UTC 2026-09-19 (domain specialist vs few-shot hosted, decide→policy leftover cascade, ORDER BY calibration≠sortable, GLiFormer wire-compat backend)
+
+Architecture notes, not a uv / bun / Modal catalog. `notes.md` §60. TypeSafe Jev is the exemplar, not the monopoly. Archer still Watch. No invented metrics. Do not re-fold §50–§59.
+
+- **help-er/Domain-jev-maker** — MIT, Python. Domain LoRA on independent CLINC-150 gold (not a Jev teacher-copy). Matched-precision KL: local 0.168 vs hosted zero-shot 0.580 banking; r +0.933 vs +0.343. Few-shot hosted determinate McNemar n.s. Train specialist when downstream reads p; hosted+examples when only argmax.
+- **skiingfalcon/jav-email-cascade** — Python; license null. Decide→policy→LLM leftover. jev vs gen-json vs gen-logprob on one Answer schema. Noul 0.5 never rounded. Mock gen-json confidence flat is *their mock*. Distinct from dual-process-ai (routing unmeasured).
+- **yodablocks/jev-orderby-bench** — MIT, Python. Independent ORDER BY measurement. Six gates pass. Score ordinal 0.143 weak link; 53-way 0.99 tie; calibration ≠ sortable. recodelabs batch-40 fails ranking. Not a fourth DuckDB extension.
+- **logan-markewich/jeff** — Python; license null. GLiFormer-400M `/v1/systemone` typesafe-sdk drop-in. ~$2.6 vs $15.6 L4 HTTP (~6×); A10G direct ~$0.65 (~24×); AG News 75.5% vs 90.5%. CPU more expensive. Encoder ≠ Jev replica.
+- MED: **hraness/sysone** — MIT, TypeScript. Loopback gateway; routes hosted Jev + local OpenJev/NanoJev/Mini-Jev; does not run weights; credential from env never config.
+
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs
 Apalache; DST trio Antithesis / Resonate HQ / PufferLib):

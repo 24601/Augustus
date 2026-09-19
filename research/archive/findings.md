@@ -1311,6 +1311,43 @@ economics; (dv) engine owns truth / Jev owns judgment (anti-
 soundness-theater with attention≠correctness); (dw) human-
 confirmed kill + mapped explanations + identity re-check.
 
+## Batch #44 (2026-09-19 ~02:43 UTC / ~20:43 Boise 2026-09-18) — domain specialist vs few-shot hosted, decide→policy leftover cascade, ORDER BY calibration≠sortable, GLiFormer wire-compat backend
+
+Note: `research/notes.md` §60. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Do not re-fold
+§50–§59.
+
+- **help-er/Domain-jev-maker (Empirical as their RESULTS.md).**
+  Python MIT. Created 2026-09-19T02:17:54Z; 0★. Independent
+  CLINC gold, not a Jev teacher-copy. KL 0.168 vs 0.580
+  banking; few-shot determinate McNemar n.s. Train specialist
+  when policy reads p.
+- **skiingfalcon/jav-email-cascade (Empirical as README
+  architecture).** Python; license null. Created
+  2026-09-19T02:28:24Z; 0★. Decide→policy→LLM leftover. Noul
+  0.5 never rounded. Mock gen-json flat-confidence is *their
+  mock*. Distinct from dual-process-ai.
+- **yodablocks/jev-orderby-bench (Empirical as independent
+  measurement).** Python MIT. Created 2026-09-19T01:31:53Z;
+  0★. Six gates pass. Score ordinal 0.143 weak link; 53-way
+  0.99 tie; recodelabs batch-40 fails ranking. Calibration ≠
+  sortable.
+- **logan-markewich/jeff (Empirical as their RESULTS.md).**
+  Python; license null. Created 2026-09-19T02:17:25Z; 0★.
+  GLiFormer-400M `/v1/systemone`. ~6× L4 HTTP / ~24× A10G
+  direct; AG News 75.5% vs 90.5%. Not a Jev replica.
+- MED: hraness/sysone (MIT, TypeScript; loopback gateway; no
+  weights).
+
+Cross-repo addition: (dx) specialist vs few-shot as a function
+of whether downstream reads p; (dy) Harbor-shaped
+decide/policy/LLM leftover with native vs verbalized vs
+logprob arms; (dz) ranking family vs calibration family
+(ORDER BY; request shape); (ea) wire-compat encoder backend
+as a product economics decision, not a quality clone.
+
+
+
 
 
 

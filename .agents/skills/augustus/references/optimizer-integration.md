@@ -142,6 +142,16 @@ stress. Accuracy alone is not enough; a negative result is
 valuable. Do not copy venv / `.env`. `notes.md` §59;
 `validation.md`.
 
+## Specialist as metric vs few-shot as classifier
+
+A typed judge used as an optimizer metric **reads the
+probability** (Brier/ECE, risk-coverage, expected cost). That
+is the Domain-jev-maker placement: train a specialist when the
+downstream consumer is the distribution; few-shot hosted is
+enough when the program only takes argmax. Do not substitute a
+verbalized `"confidence"` (jav-email-cascade gen-json mock) for
+a native Noul. `notes.md` §60.
+
 ## ProgramAsWeights: materializing a Jev judgment locally (Hypothesis)
 
 PAW (programasweights, pre-dates Jev — Python SDK 0.4.6, Mar 2026 repo, MIT)

@@ -337,6 +337,10 @@ Rules:
 | Fan-out suite (heatmap / CDF / bracket) | [jev-sonar](https://github.com/meetr1912/jev-sonar); [jev-vickrey](https://github.com/meetr1912/jev-vickrey); [jev-bracket](https://github.com/meetr1912/jev-bracket) | Sonar: heatmap-as-policy; offline 75% win / Brier 0.1615; live 1-game Brier 0.1092. Vickrey: Jev never bids; live Brier 0.1391 / ECE 0.1321; oracle regret 0. Vickrey live second-price profit −163.4. Bracket: live Brier 0.2853 vs Elo 0.2322 (trailed Elo; honest) |
 | Typed control plane vs DSPy / JSON Schema | [jev-dspy-control-plane](https://github.com/manikanda-kumar/jev-dspy-control-plane) | Same ontology/dataset/state/allow-list/metrics; intent/sub-intent, invalid/policy-violation, abstention/coverage, Brier/ECE, consistency, p50/p95. Offline heuristic ≠ quality |
 | Tetris legal-set Choice vs Haiku | [jev-tetris-benchmark](https://github.com/planstack-ai/jev-tetris-benchmark) | Use-case demo; code enumerates ≤12 legal placements; **not a rigorous eval** |
+| Domain specialist vs few-shot hosted | [Domain-jev-maker](https://github.com/help-er/Domain-jev-maker) | Independent CLINC gold (not Jev teacher). Matched-precision KL (2-decimal, zeros→0.0025): local 0.168 vs hosted 0.580 banking; r +0.933 vs +0.343. Few-shot hosted determinate McNemar n.s. (p=0.134 / 1.000). Train specialist when policy reads p |
+| Cascade compare arms (native vs verbalized vs logprob) | [jav-email-cascade](https://github.com/skiingfalcon/jav-email-cascade) | 74 labelled emails; jev / gen-json / gen-logprob; shared Answer schema. Mock: gen-json confidence flat. Noul 0.5 never rounded. License null. **Not** a live Jev vs Haiku bake-off |
+| ORDER BY ranking vs calibration | [jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench) | `jev-1.13.0` six gates pass. Boolean inversion 0.036; Score ordinal **0.143** vs 0.15; 53-way 0.99 tie; ECE 0.0453 / Brier 0.0524. recodelabs batch-40 inversion 0.171 **fail**. Calibration ≠ sortable |
+| Class-backend economics (GLiFormer `/v1/systemone`) | [jeff](https://github.com/logan-markewich/jeff) | 1,600 items. L4 HTTP ~$2.6 vs jev ~$15.6 (~6×); A10G direct ~$0.65 (~24×); AG News 75.5% vs 90.5%; p50 151 vs 129 ms. CPU 6–20× *more* expensive. Encoder ≠ Jev replica. License null |
 
 rh-guard is a reward-hack hook, a different surface from jevgate and
 from Abide (eval-integrity vs allowlist-remainder vs project soft
@@ -479,6 +483,38 @@ enough (`notes.md` §59).
 [jev-tetris-benchmark](https://github.com/planstack-ai/jev-tetris-benchmark)
 — code enumerates ≤12 legal placements; Jev Choice vs Haiku.
 Same hole as jev-plays-games (`notes.md` §59).
+
+**Domain specialist vs few-shot hosted (Empirical as their
+RESULTS.md; 2026-09-18 ~20:43).**
+[Domain-jev-maker](https://github.com/help-er/Domain-jev-maker):
+independent CLINC-150 labels, not a Jev teacher-copy.
+Matched-precision KL (both rounded to two decimals, zeros →
+0.0025): local 1.5B 0.168 vs hosted zero-shot 0.580 banking
+(r +0.933 vs +0.343). Few-shot hosted determinate McNemar
+n.s. (p=0.134 banking / p=1.000 travel). Train the specialist
+when policy reads p; hosted+examples when only argmax. Do not
+copy train how-to (`notes.md` §60).
+**Cascade compare arms (Empirical as README + mock; not a live
+Jev vs Haiku bake-off):**
+[jav-email-cascade](https://github.com/skiingfalcon/jav-email-cascade)
+— 74 labelled emails; jev vs gen-json vs gen-logprob on one
+Answer schema. Mock: gen-json confidence essentially flat.
+Noul 0.5 never rounded. License null this pass (`notes.md` §60).
+**ORDER BY ranking family (Empirical as independent
+measurement):**
+[jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench)
+— `jev-1.13.0` passes six pre-registered gates. Boolean
+inversion 0.036; Score ordinal **0.143** vs 0.15 (weak link /
+sort key); 53-way 0.99 tie; ECE 0.0453 / Brier 0.0524.
+recodelabs batch-40 **fails** ranking (inversion 0.171).
+Calibration ≠ sortable. Request shape is part of the
+measurement (`notes.md` §60).
+**Class-backend economics (Empirical as their RESULTS.md):**
+[jeff](https://github.com/logan-markewich/jeff) — GLiFormer-400M
+`/v1/systemone`. 1,600 items: L4 HTTP ~$2.6 vs jev ~$15.6
+(~6×); A10G direct ~$0.65 (~24×); AG News 75.5% vs 90.5%; p50
+151 vs 129 ms. CPU 6–20× *more* expensive. Encoder ≠ Jev
+replica. License null this pass (`notes.md` §60).
 
 **Harbor-adjacent stdout prune (Empirical as README / evals README
 behavior, not a full Terminal-Bench ranking; 2026-09-18 ~17:15).**

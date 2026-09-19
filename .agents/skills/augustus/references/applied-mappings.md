@@ -506,3 +506,47 @@ Do not copy Keychain how-to.
 keys still in the prompt. **Test**: delete the sensor — the
 constraint and the closed action space still hold; a canary use
 is a catch; a human still confirms the irreversible act.
+
+## 8. Decide → policy → LLM leftover cascade
+
+**Method**: one typed decide contract, ordinary code as the
+router, a generator only where leftover *text* must be written.
+Three Harbor-shaped compare arms share the contract so the
+policy never knows the backend: native-probability decide (one
+call), verbalized JSON confidence (one call), constrained
+single-token logprobs (one call per question). **Transfers**:
+Noul 0.5 is cannot-tell and is **never rounded** into auto;
+Score confidence 0.0 is a flat distribution and is **never
+acted on**; hard flags (injection) always review even with an
+LLM configured. LLM hook optional — unset degrades to human
+review, the run still completes. **Does not transfer**: treating
+self-reported `"confidence"` as a Noul; multiplying eight
+parallel answers into a joint; hosted Jev as a default for
+real customer mail (compliance first; the `DecisionBackend`
+seam is the local-head answer). Distinct from dual-process-ai
+(S1/S2 metaphor; routing accuracy unmeasured).
+
+```text
+prepare = strip quoted history / signature / cap          # code
+decide  = 8 typed questions, one shared Answer schema     # model (any backend)
+policy  = auto | review | llm                             # code, thresholds
+leftover = draft category/priority/summary JSON           # LLM only if policy says so
+```
+
+**Example (Empirical as README architecture + mock compare,
+2026-09-18 ~20:43):**
+[jav-email-cascade](https://github.com/skiingfalcon/jav-email-cascade)
+— 74 labelled synthetic emails; jev / gen-json / gen-logprob
+arms; ~$0.034/1k emails *theirs*. Mock finding: gen-json
+confidence essentially flat → almost none cleared the acting
+threshold; gen-logprob works at 8× calls. A live jev vs
+generative comparison is the point of running it, not a table
+to invent here. License null this pass. Do not copy uv /
+`.env`. `notes.md` §60.
+**Counterexample**: rounding Noul 0.49/0.51 into auto-act;
+asking a chat model the eight questions and treating the
+JSON `"confidence"` as calibrated. **Test**: the same emails
+through all three backends; report raw accuracy, acted
+accuracy, and mean confidence on wrong answers; injection
+fixtures never auto.
+

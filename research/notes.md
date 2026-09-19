@@ -5835,3 +5835,262 @@ knobs vs control plane; native vs verbalized confidence);
 truth / Jev judgment; anti-soundness-theater); `mental-models.md`;
 `methods-catalog.md`; `toolbox-mapping.md`;
 `agent-self-assessment.md`. No wrapper.
+
+## 60. Domain LoRA specialist vs few-shot hosted, decide→policy→LLM leftover cascade, ORDER BY calibration≠sortable, GLiFormer wire-compat backend, sysone gateway (2026-09-18 ~20:43 Boise)
+
+America/Boise ~20:43 = 2026-09-19T02:43Z. Docs-only fold into
+open PR #2 (`cursor/augustus-store-envelope-00b4`). Not a
+competing PR. Archer 27B drop still **WATCH**. Identity lock vs
+`typesafe-ai` / `tenbin` / `decision-first` holds. No wrapper,
+no pip/hook/venv/.env/uv/npm/bun/Modal how-to, no copied
+ports or key-file paths. No invented metrics. Do not re-fold
+§50–§59. TypeSafe Jev is the documented exemplar, not the
+monopoly. Augustus stays how-to-apply / mental model /
+architecture / toolbelt + jevals/Harbor practice — **not** a
+thin Jev skill.
+
+Four HIGH **usage / architecture / measurement** signals plus
+one MED gateway: a domain LoRA specialist trained on
+independent gold (train when downstream code reads the
+probability distribution; few-shot hosted API when only
+argmax matters — calibration/VOI gold); a Harbor-shaped
+decide→policy→LLM leftover cascade with three compare arms
+(jev vs gen-json vs gen-logprob) and Noul 0.5 = cannot-tell
+never rounded; independent measurement of ORDER BY over Jev
+probs (pairwise inversion, Score ordinality, tie coarseness —
+passes gates, sort-key is the weak link, calibration ≠
+sortable); a wire-compat self-hosted `/v1/systemone` on
+GLiFormer-400M as a class-backend economics exemplar; a
+loopback gateway that routes hosted Jev + local OpenJev /
+NanoJev / Mini-Jev. Backend-agnostic
+categorization/scoring/decision-only class.
+
+### HIGH
+
+1. **[`help-er/Domain-jev-maker`](https://github.com/help-er/Domain-jev-maker)**
+   (Python; MIT; created 2026-09-19T02:17:54Z; 0★ this pass).
+   Agent recipe to train a **jev-like custom local model**
+   tuned to a domain. One LoRA over Qwen2.5-1.5B-Instruct,
+   pointer readout over an order-invariant option layout,
+   cross-entropy to **soft targets** (not one-hot). Serves
+   `POST /v1/systemone`. Do not copy train flags / GPU how-to.
+
+   **Labels are independent.** Banking and travel from
+   CLINC-150 human annotations. Hosted `jev-latest` is a
+   **benchmark only** — neither model was trained on Jev
+   outputs. Distinguish
+   [`openjev-lm`](https://huggingface.co/openjev/openjev-lm)
+   / [`jev-gate-student-b`](https://huggingface.co/SargeDev/jev-gate-student-b)
+   (teacher-copy distill of Jev answers). This is a
+   specialist on **public gold**, not a clone of the hosted
+   API.
+
+   **Their RESULTS.md (matched-precision KL).** Hosted API
+   rounds probabilities to two decimals; 94.4% of 22,537
+   returned entries are exactly `0.0`. A KL against a
+   rounded zero is floor-determined. They round **both**
+   systems to two decimals, replace zeros with 0.0025
+   (midpoint of `[0, 0.005)`), renormalise. Held-out n=1,173
+   each domain; 0 train/test verbatim overlap; soft-target
+   fraction 45%.
+
+   Zero-shot hosted vs local 1.5B (banking / travel):
+
+   - KL 0.580 / 0.168 banking; 0.573 / 0.124 travel
+   - r(H_true, H_pred) +0.343 / +0.933 banking; +0.428 /
+     +0.950 travel
+   - determinate acc 0.952 / 0.966 banking; 0.936 / 0.974
+     travel
+
+   Few-shot hosted (one labelled example per intent in
+   `state`, 300 items): determinate acc **0.982** banking /
+   **0.976** travel — matching or beating local (McNemar
+   p=0.134 / p=1.000). Calibration barely moves: KL still
+   2.5–3.8× higher; r ~half of local.
+
+   **Their conclusion (fold this, not the train script):**
+   the specialist's advantage is **calibration**, not
+   accuracy. Choose on what consumes the output. **Argmax
+   routing: hosted API with examples. Threshold, deferral,
+   or expected-cost logic that reads the probability: the
+   specialist.** That is VOI / cost-sensitive placement
+   (`mappings.md` §2, §6): pay for a local head iff
+   downstream *uses* the distribution. Do not invent a
+   vs-Jev bake-off beyond their card.
+
+2. **[`skiingfalcon/jav-email-cascade`](https://github.com/skiingfalcon/jav-email-cascade)**
+   (Python; **license null this pass**; created
+   2026-09-19T02:28:24Z; 0★). Repo name is `jav-`; README
+   title is `jev-email-cascade`. Proof of a specific
+   cascade: **typed decide → ordinary policy → generative
+   leftover.** 74 synthetic labelled business emails.
+   Harbor-shaped compare arms on the **same** 8-question
+   contract:
+
+   ```
+   email → prepare (strip quoted history/signature, cap)
+        → DECIDE: one backend, 8 typed questions
+             jev         1 call, native p
+             gen-json    1 call, self-reported confidence
+             gen-logprob 8 constrained tokens, top_logprobs
+        → POLICY: auto / review / llm  (plain Python)
+        → REPORT: accuracy, calibration, routes, cost
+   ```
+
+   Shared `Answer` schema so policy, LLM hook, and report
+   never know the backend. **Noul 0.5 = cannot-tell, never
+   rounded.** Score confidence 0.0 = flat distribution,
+   never acted on. `injection_suspected` always forces
+   review. LLM hook optional: unset → review, run still
+   completes. Cost *theirs*: ~$0.034 / 1k emails at
+   $0.042/M input.
+
+   **Mock finding (theirs, not a live Jev vs Haiku
+   bake-off):** gen-json self-reported confidence came back
+   essentially flat → almost none cleared the acting
+   threshold; gen-logprob works but 8× calls. A real
+   jev vs gen-json vs gen-logprob comparison will differ
+   and is the point of running it live. Do not invent
+   that table.
+
+   **Data-hosting caveat (theirs):** hosted Jev is a
+   compliance decision for real customer email. The cascade
+   shape does not change: `DecisionBackend` is the seam for
+   a local head. Distinct from
+   [`dual-process-ai`](https://github.com/taro1985/dual-process-ai)
+   (S1/S2 metaphor; routing accuracy **unmeasured**). This
+   repo ships labeled emails, three decide backends, and a
+   compare report. Do not copy uv / `.env` how-to.
+
+3. **[`yodablocks/jev-orderby-bench`](https://github.com/yodablocks/jev-orderby-bench)**
+   (Python; MIT; created 2026-09-19T01:31:53Z; 0★).
+   Independent measurement: does `ORDER BY` over a Jev
+   probability put rows in a defensible order? **Not a
+   fourth DuckDB extension** — colliber / recodelabs /
+   Query-farm / pg-jev already ship `ORDER BY`; none
+   measured whether the order is defensible. Vendor 67.8%
+   agreement with averaged frontier judgments is **not
+   calibration**. Corpus is 20 Newsgroups human labels;
+   **corpus text is not committed**.
+
+   **Headline (theirs, 2026-09-18):** `jev-1.13.0` **passes
+   all six pre-registered gates** on 360 rows. Boolean
+   inversion **0.036**; Score ordinal inversion **0.143**
+   vs 0.15 threshold — the **weak link and the sort key**;
+   negation asymmetry 0.016 but = paraphrase 0.016 (not
+   about negation); underconfident in 8/10 bins (mean
+   signed gap +0.042). Brier 0.0524; ECE 0.0453.
+
+   **Calibration ≠ sortable.** Two families come apart:
+   ECE/Brier ask "is a stated 0.7 really 70%?"; pairwise
+   inversion / Spearman / Kendall ask "does sorting by this
+   put rows in the right order?" A model squashed into
+   [0.48, 0.52] can have ECE 0.485 and zero inversions;
+   a well-calibrated model can still invert pairs a sorted
+   page shows. `ORDER BY` depends on the ranking family.
+   Score ordinality is the number to re-measure before
+   production sorting; the binary inversion 0.037 cannot
+   see mis-ordering within positives.
+
+   **Sort key is coarse.** Two-decimal probs; 360 rows →
+   45 distinct values; **53 rows tie at 0.99** so
+   `ORDER BY prob DESC LIMIT 20` is an engine-dependent
+   sample of that tie, not a ranking. Score: 54 rows tied
+   at 3.0. Mitigations (theirs, architecture not SQL
+   how-to): treat LIMIT k as a filter on the whole tie
+   group; break ties with a second question or Score
+   confidence; at minimum a deterministic secondary key.
+   `udf.register()` refuses SQL unless `results.json`
+   records a passing gate.
+
+   **Request shape changes the numbers.** Same 360 rows:
+   recodelabs default 40-row batching **fails the ranking
+   gate** (inversion 0.171 vs 0.15) that one-row-per-
+   request passes. Position effect, not wording: slots
+   24–39 move ~0.42. `jev_batch_size = 1` tracks the
+   baseline. Integration is part of the measurement.
+   7/360 ambiguous negatives excluded from gated ECE, kept
+   for ranking. Do not copy curl / key how-to.
+
+4. **[`logan-markewich/jeff`](https://github.com/logan-markewich/jeff)**
+   (Python; **license null this pass**; created
+   2026-09-19T02:17:25Z; 0★). Wire-compat self-hosted
+   `POST /v1/systemone` on
+   [`knowledgator/gliformer-large-v1`](https://huggingface.co/knowledgator/gliformer-large-v1)
+   (400M). Official `typesafe-sdk` drop-in via
+   `TYPESAFE_BASE_URL`. Supports choice / score / noul.
+   **Encoder GLiFormer backend, not a Jev replica.**
+   Probabilities: normalized sigmoids, T=3.2; noul
+   isolation default; choice/score share a pass unless
+   `JEFF_ISOLATE=all`. Tokens are DeBERTa counts — **not
+   comparable to Jev billing**. Distinguish
+   [`jev-local`](https://github.com/us/jev-local) (stub
+   until hf), [`kev`](https://github.com/jaredpalmer/kev)
+   (trained pointer), [`von`](https://github.com/wfzyx/von)
+   (tiny SAN), [`jevify`](https://github.com/Mintzs/jevify)
+   (uncalibrated CUDA likelihoods). GLiFormer is the
+   Knowledgator encoder lineage (related to GLiNER),
+   serving the System One *wire*, not a GLiNER locate
+   head.
+
+   **Their RESULTS.md / README (1,600 items, eight
+   datasets, 2026-09-18).** Sequential p50 from a laptop:
+   jeff-on-L4 151 ms vs jev 129 ms. Cost **per 1M
+   single-question requests**: jev ≈ **$15.6**; L4 HTTP
+   ingress cap ≈ **$2.6 (~6×)**; A10G called **directly**
+   ≈ **$0.65 (~24×)**. Compare per request, not per token.
+   AG News 75.5% vs 90.5%. Averaged: choice acc 0.69 vs
+   0.61, score MAE 0.48 vs 0.61, noul AUROC 0.975 vs 0.84.
+   Gap is small on SST-2 / SMS spam; large on BoolQ /
+   irony / AG News (inference vs lexical cues). jeff is
+   over-confident at T=1; T=3.2 halves ECE. Sharing one
+   prompt moves nouls (spread up to 0.98); isolation
+   removes it. **CPU arm is not a cheaper tier** — 6–20×
+   *more* expensive than hosted jev on their 8-core Modal
+   table. Product decision: wire-compat encoder backend
+   when you own the GPU path and accept the accuracy gap;
+   hosted when reasoning-heavy quality matters. Do not
+   copy uv / Modal how-to. Do not invent a vs-Jev quality
+   ranking beyond their card.
+
+### MED (toolbelt)
+
+- **[`hraness/sysone`](https://github.com/hraness/sysone)**
+  (TypeScript; MIT; created 2026-09-19T02:32:00Z; 0★).
+  Local **loopback** System One gateway: one
+  Jev-compatible `POST /v1/systemone` on the machine,
+  routed across hosted Jev (when a key exists) and local
+  Jev-like runners (OpenJev / NanoJev / Mini-Jev) you
+  already own. Policies: auto / prefer-local /
+  prefer-hosted / local-only / hosted-only. Does **not**
+  install, download, or run weights. Hosted is
+  pass-through. Credential from the environment, **never
+  the config file**. Early: no auth, no streaming, no
+  non-loopback. A router is not a model. Distinct from
+  jeff (it *is* a scorer) and jev-local (it *is* a
+  surface+stub). Do not copy bun / bind-address how-to.
+
+### Omni / Jev-omni / Archer
+
+Still **WATCH**. No Hub weights. A domain LoRA on CLINC
+labels, an email cascade, an ORDER BY harness, a
+GLiFormer encoder serving `/v1/systemone`, and a loopback
+router are **not** that drop. GLiFormer is text encoder,
+not omni perception.
+
+### Cross-links
+
+Cards: `applied-mappings.md` §8 (decide→policy→LLM leftover);
+`mappings.md` §2 (specialist vs few-shot when policy reads
+p), §4 (ORDER BY / calibration≠sortable); `mixed-architecture.md`
+(fail table + gallery: cascade, encoder backend, loopback
+router); `validation.md` (Domain-jev-maker KL/r/McNemar;
+jav-email-cascade compare arms; jev-orderby-bench six
+gates + request-shape; jeff cost/accuracy); `faq.md`
+(train specialist vs few-shot hosted; Noul 0.5 cannot-tell;
+calibration ≠ sortable; local `/v1/systemone` ≠ Jev);
+`judgment-class.md` (GLiFormer jeff vs GLiNER vs Jev;
+Domain LoRA vs teacher-copy distill); `mental-models.md`;
+`methods-catalog.md`; `toolbox-mapping.md`;
+`agent-self-assessment.md`; `optimizer-integration.md`.
+No wrapper.

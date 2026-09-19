@@ -105,7 +105,24 @@ accuracy unmeasured):**
 `confidence ≥ τ` → S1 decides; else escalate to S2 (generate). Routing
 fails open; safety fails closed. Keyword fallback without a key is not
 equivalent S1. Tune τ on *your* escalation log (`notes.md` §49).
-**Counterexample**: a flat Choice over three fine categories may still
+**Domain specialist vs few-shot hosted (Empirical as their
+RESULTS.md, 2026-09-18 ~20:43):**
+[Domain-jev-maker](https://github.com/help-er/Domain-jev-maker) —
+independent CLINC-150 labels, **not** a Jev teacher-copy.
+Matched-precision KL (both systems rounded to two decimals,
+zeros → 0.0025): local 1.5B KL 0.168 vs hosted zero-shot 0.580
+banking (r +0.933 vs +0.343). Few-shot hosted (one example per
+intent in `state`) matches or beats local determinate accuracy
+(McNemar p=0.134 / p=1.000); calibration barely moves (KL still
+2.5–3.8× higher). **Train the specialist when downstream code
+reads the probability; use few-shot hosted when only argmax
+matters.** Do not copy train how-to (`notes.md` §60).
+**Harbor-shaped decide→policy leftover (Empirical as README
+architecture):** [jav-email-cascade](https://github.com/skiingfalcon/jav-email-cascade)
+— 8 typed questions; policy auto/review/llm; Noul 0.5 never
+rounded; Score conf 0.0 never acted on. Mock gen-json
+flat-confidence is *their mock*, not a live bake-off
+(`notes.md` §60). **Counterexample**: a flat Choice over three fine categories may still
 name a harmless best pick — low confidence need not veto a low-stakes
 preference. **Test**: cost/coverage curve on held-out slices; score the
 fallback too (escalation is not automatically correct). Links:
@@ -207,6 +224,22 @@ contents leave the store (same residency warning as AU health). Do not
 copy SQL, env, or CLI flags.
 `notes.md` §42, §44, §46, §48. Intent-column / snack MCDA *shape*:
 `mappings.md` §1; `notes.md` §56.
+
+**ORDER BY over probs is a ranking job, not a calibration
+certificate (Empirical as independent measurement, 2026-09-18
+~20:43):**
+[jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench)
+— `jev-1.13.0` passes all six pre-registered gates on 360
+human-labeled 20 Newsgroups rows. Boolean inversion 0.036;
+Score ordinal inversion **0.143** vs 0.15 (weak link / the
+sort key); 53 rows tie at 0.99 so `LIMIT 20` is
+engine-dependent; two-decimal quantization. Calibration
+(ECE 0.0453 / Brier 0.0524) ≠ sortable. recodelabs default
+40-row batching **fails** the ranking gate (inversion 0.171)
+that one-row-per-request passes — request shape is part of
+the measurement. Not a fourth DuckDB extension. Vendor 67.8%
+agreement ≠ calibration. `udf.register()` refuses SQL unless
+results pass. Do not copy curl / key how-to (`notes.md` §60).
 
 **Decision-native evidence set (Empirical as architecture;
 Hypothesis as a measured win, 2026-09-18 ~17:48):**

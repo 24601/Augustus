@@ -738,6 +738,33 @@
   CHANGELOG, README.
 - notes.md §59; sources.json; findings.md batch #43. No wrapper.
 
+## 2026-09-19 02:43 UTC — domain specialist vs few-shot hosted, decide→policy leftover cascade, ORDER BY calibration≠sortable, GLiFormer wire-compat backend (~20:43 Boise 2026-09-18)
+
+- Folded into open PR #2 (`cursor/augustus-store-envelope-00b4`).
+  Docs-only. Not a competing PR. Archer 27B drop still **WATCH**.
+  No invented metrics. No wrapper. Do not re-fold §50–§59.
+- HIGH: [help-er/Domain-jev-maker](https://github.com/help-er/Domain-jev-maker)
+  independent CLINC gold; KL 0.168 vs 0.580; train when
+  downstream reads p.
+  [skiingfalcon/jav-email-cascade](https://github.com/skiingfalcon/jav-email-cascade)
+  decide→policy→LLM leftover; Noul 0.5 never rounded; license
+  null; mock gen-json is *their mock*.
+  [yodablocks/jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench)
+  six gates; Score 0.143 weak link; 53-way 0.99 tie;
+  calibration ≠ sortable.
+  [logan-markewich/jeff](https://github.com/logan-markewich/jeff)
+  GLiFormer `/v1/systemone`; ~6× L4 HTTP / ~24× A10G direct;
+  AG News 75.5% vs 90.5%; license null; not a Jev replica.
+- MED: [hraness/sysone](https://github.com/hraness/sysone)
+  loopback gateway; no weights.
+- Cards: SKILL.md, applied-mappings §8, mappings §2/§4,
+  mixed-architecture (fail table + gallery), validation, faq,
+  judgment-class, mental-models, methods-catalog, toolbox,
+  agent-self-assessment, optimizer-integration, ecosystem,
+  CHANGELOG, README.
+- notes.md §60; sources.json; findings.md batch #44. No wrapper.
+
+
 
 
 

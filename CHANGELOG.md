@@ -370,6 +370,30 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   jef-mcp (parody) and jevregist (account farming). Star spike:
   SemIf 1491→1606 (this pass 1607); jevlike 851→896 (this pass
   897). No wrapper. No invented metrics.
+- Hourly ~20:43 Boise 2026-09-18 / 02:43 UTC 2026-09-19 fold
+  (`research/notes.md` §60): Archer still Watch. Architecture
+  notes, not a uv / bun / Modal catalog. Domain LoRA specialist
+  vs few-shot hosted
+  ([Domain-jev-maker](https://github.com/help-er/Domain-jev-maker);
+  independent CLINC gold, not a Jev teacher-copy;
+  matched-precision KL 0.168 vs 0.580 banking; few-shot
+  determinate McNemar n.s.; train when downstream reads p).
+  Decide→policy→LLM leftover cascade
+  ([jav-email-cascade](https://github.com/skiingfalcon/jav-email-cascade);
+  jev vs gen-json vs gen-logprob; Noul 0.5 never rounded;
+  license null; mock gen-json flat-confidence is *their mock*).
+  ORDER BY ranking family
+  ([jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench);
+  six gates pass; Score ordinal 0.143 weak link; 53-way 0.99
+  tie; calibration ≠ sortable; recodelabs batch-40 fails
+  ranking). Wire-compat GLiFormer backend
+  ([jeff](https://github.com/logan-markewich/jeff); typesafe-sdk
+  drop-in; ~$2.6 vs $15.6 L4 HTTP ~6×; A10G direct ~$0.65 ~24×;
+  AG News 75.5% vs 90.5%; CPU more expensive; license null; not
+  a Jev replica). MED: loopback gateway
+  ([sysone](https://github.com/hraness/sysone); hosted + local
+  OpenJev/NanoJev/Mini-Jev; no weights; credential from env).
+  No wrapper. No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard
