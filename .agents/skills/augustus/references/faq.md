@@ -2657,7 +2657,7 @@ caiovicentino (MIT JS) is a calibrated alignment
 Not a PreToolUse hard gate. Do not copy `uv` /
 keys. `notes.md` §93.
 
-Unique fragments (consecutive): guidance ≠ hook; catalysts ≠ summaries; compile-time System One; unofficial ≠ TypeSafe; format_version modernbert-jev/1; Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev; Nemotron ≠ TypeSafe Jev; not a calibrated replacement; djev-dev complements djev-spark; images as Choice options; Laya essay numbers *theirs*; Router/OOD confidence
+Unique fragments (consecutive): guidance ≠ hook; catalysts ≠ summaries; compile-time System One; unofficial ≠ TypeSafe; format_version modernbert-jev/1; Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev; LFM default ≠ ModernBERT backend; Nemotron ≠ TypeSafe Jev; not a calibrated replacement; djev-dev complements djev-spark; images as Choice options; Laya essay numbers *theirs*; Router/OOD confidence; hosted bootstrap ≠ silent TypeSafe
 
 ## Hard-gate enzyme `when asked` / catalyst similarity as PreToolUse deny?
 
@@ -2667,6 +2667,7 @@ compile-time System One: Jev shapes the question
 program at compile; runtime retrieval is catalyst
 handles. Soft Noul ≠ hard safety. rh-guard owns
 the PreToolUse cousin. Do not copy `curl | bash`.
+hosted bootstrap ≠ silent TypeSafe.
 `notes.md` §94.
 
 ## Are enzyme catalysts summaries? Collapse into jev-sift / findme?
@@ -2675,7 +2676,8 @@ No, and no. catalysts ≠ summaries. They are
 questions the corpus is good at answering. Kinship
 with jev-sift / findme / jev-semgrep is VOI /
 search-control, not identity. Always write
-**byenzyme/enzyme**. `notes.md` §94.
+**byenzyme/enzyme**. **≠** enzymejs/enzyme.
+`notes.md` §94.
 
 ## Is unofficial JA ModernBERT TypeSafe Jev? Skip format_version?
 
@@ -2687,18 +2689,31 @@ JComQA 92.40% are *theirs*. `notes.md` §94.
 ## Is Argos1111/jev_local us/jev-local or kunchenguid/local-jev?
 
 No. Argos1111/jev_local ≠ us/jev-local ≠
-kunchenguid/local-jev. Underscore runtime for the
-JA ModernBERT checkpoint. us/jev-local is
-stub-until-hf. kunchenguid is ONNX English
-measured not equivalent. **≠** githubnext/localjev.
+kunchenguid/local-jev. Underscore runtime.
+us/jev-local is stub-until-hf. kunchenguid is
+ONNX English measured not equivalent. **≠**
+githubnext/localjev. LFM default ≠ ModernBERT
+backend: default is LFM2.5 text/vision logprob;
+the unofficial JA checkpoint is the optional
+ModernBERT backend (text/JSON; images 422).
+Do not collapse the runtime into the Hub card.
 `notes.md` §94.
 
 ## Is Nemotron_Jev a calibrated TypeSafe Jev replacement?
 
 No. Nemotron ≠ TypeSafe Jev. not a calibrated
 replacement. Dense Nemotron-Labs-Diffusion-14B
-adapter; name is the interface. rh-guard owns.
+adapter; name is the interface. 72/72 synthetic
+*theirs* is not Harbor. rh-guard owns.
 Do not copy docker. `notes.md` §94.
+
+## Treat enzyme hosted bootstrap as TypeSafe Jev? Silent FALLBACK?
+
+No. hosted bootstrap ≠ silent TypeSafe. README
+*theirs*: explicit key → local model → anonymous
+brokered free config. Name which backend answered.
+rh-guard owns the silent-FALLBACK cousin.
+`notes.md` §94.
 
 ## Is djev-dev djev-spark or githubnext/localjev? Does it ship pixels as TypeSafe CU?
 

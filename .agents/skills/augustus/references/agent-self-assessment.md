@@ -248,9 +248,11 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    production capture flywheel (`notes.md` §93).
    Compile-time guidance is not a self-check:
    [byenzyme/enzyme](https://github.com/byenzyme/enzyme)
-   guidance ≠ hook (`notes.md` §94).
+   guidance ≠ hook; hosted bootstrap ≠ silent
+   TypeSafe (`notes.md` §94).
    Unofficial local p is not TypeSafe calibration:
-   unofficial ≠ TypeSafe (`notes.md` §94).
+   unofficial ≠ TypeSafe; LFM default ≠ ModernBERT
+   backend (`notes.md` §94).
    Nemotron interface is not a calibrated replacement:
    Nemotron ≠ TypeSafe Jev; not a calibrated
    replacement (`notes.md` §94).

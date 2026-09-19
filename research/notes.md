@@ -15750,9 +15750,11 @@ labeled. No wrappers, npm / `npx` / `uv` / `cargo` /
 `JEV_API_KEY` / `ENZYME_JEV_MODEL` / `curl | bash` /
 OAuth `client_id` / docker GHCR as recipes. Archive:
 uploads tarball SIGNAL.md for three clusters (fetched
-~15:32–15:35 Boise). No 1541 fold PR was open
-(`gh pr list --state open` empty); this is not a
-second fold of #10.
+~15:32–15:35 Boise). No 1541 fold PR was open. Draft **#11** was a
+narrower modernbert-only fold extending §93;
+this PR is the requested three-cluster §94 fold.
+#11 closed as superseded. This is not a second
+fold of #10.
 
 Lane is Augustus: **how-to-apply / mental models /
 architecture / Harbor-jevals / toolbelt**. Backend-
@@ -15761,13 +15763,15 @@ agnostic categorization/scoring/decision class
 Soft Noul ≠ hard safety. rh-guard owns the thin gate
 cousins (guidance-as-PreToolUse; unofficial-local
 marketed-as-Jev; Nemotron “not calibrated
-replacement”; Laya confidence-without-competence);
+replacement”; Laya confidence-without-competence;
+hosted-bootstrap-as-TypeSafe / silent FALLBACK;
+LFM-default-as-JA-softmax);
 Augustus **owns placement**. Do **not** re-fold
 jevcache/jev-align / §93.
 
 ### How-to-apply (three clusters)
 
-Unique fragments (consecutive): guidance ≠ hook; catalysts ≠ summaries; compile-time System One; unofficial ≠ TypeSafe; format_version modernbert-jev/1; Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev; Nemotron ≠ TypeSafe Jev; not a calibrated replacement; djev-dev complements djev-spark; images as Choice options; Laya essay numbers *theirs*; Router/OOD confidence
+Unique fragments (consecutive): guidance ≠ hook; catalysts ≠ summaries; compile-time System One; unofficial ≠ TypeSafe; format_version modernbert-jev/1; Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev; LFM default ≠ ModernBERT backend; Nemotron ≠ TypeSafe Jev; not a calibrated replacement; djev-dev complements djev-spark; images as Choice options; Laya essay numbers *theirs*; Router/OOD confidence; hosted bootstrap ≠ silent TypeSafe
 
 1. **Compile-time System One / questions-as-index** —
    guidance ≠ hook. catalysts ≠ summaries.
@@ -15778,9 +15782,13 @@ Unique fragments (consecutive): guidance ≠ hook; catalysts ≠ summaries; comp
 2. **Unofficial JA ModernBERT cross-encoder** —
    unofficial ≠ TypeSafe. format_version
    modernbert-jev/1. Argos1111/jev_local ≠
-   us/jev-local ≠ kunchenguid/local-jev. Pair
-   scoring → softmax Choice/Score/Noul. JA/life
-   domain. Not multimodal. Not Archer.
+   us/jev-local ≠ kunchenguid/local-jev.
+   LFM default ≠ ModernBERT backend. Pair
+   scoring → softmax Choice/Score/Noul on the JA
+   checkpoint only. JA/life domain. The Hub card
+   is text-only (not multimodal). The jev_local
+   *default* is LFM logprob, including vision.
+   Not Archer.
 3. **NAR class legitimacy / multimodal observe→decide
    / Router-OOD / priority essay** —
    Nemotron ≠ TypeSafe Jev. not a calibrated
@@ -15806,7 +15814,7 @@ Unique fragments (consecutive): guidance ≠ hook; catalysts ≠ summaries; comp
      Temporally grounded context sampling → generate
      **catalysts** (questions) as semantic routes →
      refresh separates fast local ingestion from
-     periodic catalyst evolution. README claim
+     periodic catalyst evolution.      GitHub description
      ~**350× cost / 1000× speed** vs frontier for
      the compile path (*theirs* — do not invent
      Harbor numbers).
@@ -15817,9 +15825,16 @@ Unique fragments (consecutive): guidance ≠ hook; catalysts ≠ summaries; comp
      questions-from folders/tags) is what Jev helps
      generate via a deterministic scan. Catalyst
      *generation* uses a separate LLM
-     (`OPENAI_MODEL`); Decisions uses Jev. Hosted
+     (`OPENAI_MODEL`); Decisions uses Jev.      Hosted
      bootstrap can avoid spending the user’s
      personal key.
+     **hosted bootstrap ≠ silent TypeSafe** —
+     credential resolution is explicit key →
+     configured local model → **anonymous brokered
+     free config** (README *theirs*). Name which
+     backend answered. Do not treat the free-config
+     broker as invisible TypeSafe Jev. rh-guard
+     owns the silent-FALLBACK cousin.
      **catalysts ≠ summaries** — they are questions
      the corpus is good at answering (VOI /
      search-control kinship with jev-sift / findme /
@@ -15854,7 +15869,9 @@ Unique fragments (consecutive): guidance ≠ hook; catalysts ≠ summaries; comp
    attention, not deny.
 
    **Name lock:** always write **byenzyme/enzyme**.
-   guidance ≠ hook.
+   **≠** enzymejs/enzyme (React testing library).
+   guidance ≠ hook. hosted bootstrap ≠ silent
+   TypeSafe.
 
 2. **Unofficial JA ModernBERT cross-encoder**
 
@@ -15896,18 +15913,30 @@ Unique fragments (consecutive): guidance ≠ hook; catalysts ≠ summaries; comp
      not a statistic**. Wrong-answer mean max p
      0.66 *theirs*; `confidence` is concentration,
      not calibrated accuracy. Seq 512 truncates
-     State. No image input. Weights not downloaded
-     this pass (`model.safetensors` present on Hub).
+     State. No image input **on this checkpoint**.
+     Weights not downloaded this pass
+     (`model.safetensors` present on Hub).
      Not a class-table multimodal row. Not Archer.
      Not Laya English.
    - **[`Argos1111/jev_local`](https://github.com/Argos1111/jev_local)**
      (Python; GitHub license **null**; **14★**;
      created 2026-09-18T19:09Z; HEAD `8ccc04d`;
      README SHA `ee7b536a`; GitHub `size` 156;
-     pushed 2026-09-19T16:43Z). Runtime:
-     ModernBERT backend, `/v1/systemone`
-     compatible. `./run_modernbert.sh --checkpoint
-     argos1111/modernbert-ja-310m-jev`.
+     pushed 2026-09-19T16:43Z). Dual-backend
+     local `/v1/systemone` (README *theirs*:
+     “Replicating Jev with a local LLM”).
+     **Default LFM** — LFM2.5-1.2B Instruct /
+     LFM2.5-VL-1.6B llama.cpp first-token
+     logprob; text / JSON / **image**. Optional
+     **ModernBERT** backend —
+     `./run_modernbert.sh --checkpoint
+     argos1111/modernbert-ja-310m-jev`; text/JSON
+     only; `images` → 422. **LFM default ≠
+     ModernBERT backend.** Do not collapse the
+     runtime into the JA Hub card. The unofficial
+     JA softmax is one backend, not the product
+     identity. Vision/LFM ≠ unofficial JA
+     softmax.
      **Argos1111/jev_local ≠ us/jev-local ≠
      kunchenguid/local-jev** — us/jev-local is
      the stub-until-hf drop-in; kunchenguid is
@@ -15919,15 +15948,16 @@ Unique fragments (consecutive): guidance ≠ hook; catalysts ≠ summaries; comp
      as install how-to.
 
    **Mental model:** cross-encoder System One
-   shape; format lock; multilingual open-replica
-   lane; honest eval framing. Soft Noul ≠ hard
-   safety: unofficial local p is a sensor, not
-   TypeSafe calibration.
+   shape on the JA backend; format lock;
+   dual-backend local wire; honest eval framing.
+   Soft Noul ≠ hard safety: unofficial local p
+   is a sensor, not TypeSafe calibration.
 
    **Name lock:** always write
    **argos1111/modernbert-ja-310m-jev** and
    **Argos1111/jev_local**. unofficial ≠ TypeSafe.
    format_version modernbert-jev/1.
+   LFM default ≠ ModernBERT backend.
 
 3. **NAR class legitimacy / multimodal observe→decide
    / Router-OOD / priority essay**
@@ -15965,9 +15995,15 @@ Unique fragments (consecutive): guidance ≠ hook; catalysts ≠ summaries; comp
      TypeSafe service / **not a calibrated
      replacement** / not MoE. Name describes
      interface, not model identity.
-     **Nemotron ≠ TypeSafe Jev.** No built-in
-     auth/TLS/rate-limit. Do not copy docker /
-     `--gpus` / ports. X:
+     **Nemotron ≠ TypeSafe Jev.** ACCURACY_REPORT
+     72/72 synthetic *theirs* (24 base × 3
+     variants; Brier 0.00351); the report itself
+     says that is not general capability or
+     calibrated confidence. Do not paste 100% as
+     Harbor. No built-in auth/TLS/rate-limit. Do
+     not copy docker / `--gpus` / ports. Inputs
+     are **not** silently truncated (README
+     *theirs*). X:
      [@nordiconco](https://x.com/nordiconco/status/2101122179262042117)
      (reply to Gemma; likes 25 this archive).
      rh-guard owns the “marketed-as-Jev” cousin.
@@ -16041,9 +16077,14 @@ Hard-gate `when asked` / catalyst similarity as
 PreToolUse deny; paste 350×/1000× as a Harbor
 ceiling; treat unofficial JA ModernBERT as TypeSafe
 calibration; collapse Argos1111/jev_local into
-us/jev-local or kunchenguid/local-jev; skip
-format_version modernbert-jev/1; treat Nemotron_Jev
-as a calibrated Jev replacement; collapse djev-dev
+us/jev-local or kunchenguid/local-jev; collapse
+Argos1111/jev_local into the JA Hub card / treat
+LFM vision as unofficial JA softmax; skip
+format_version modernbert-jev/1; treat enzyme
+hosted bootstrap / anonymous brokered free config
+as silent TypeSafe Jev; treat Nemotron_Jev
+as a calibrated Jev replacement / paste 72/72 as
+Harbor; collapse djev-dev
 into djev-spark / localjev / typesafe-computer-use;
 paste Gemma ~0.2s or Laya essay vs-Jev as a new
 independent bake-off; treat Khmer 0.952 conf as
@@ -16066,11 +16107,12 @@ re-fold jevcache/jev-align / §93. Do not re-card
 NandhaKishorM/laya / convaiinnovations/laya /
 mmastrac/djev-spark / githubnext/localjev /
 kunchenguid/local-jev / us/jev-local /
-razorback16/openjev. rh-guard still owns
+razorback16/openjev / enzymejs/enzyme. rh-guard still owns
 guidance-as-hook, unofficial-local-as-Jev,
-Nemotron “not calibrated replacement”, and Laya
-confidence-without-competence as gate cousins —
-Augustus only cross-refs placement.
+Nemotron “not calibrated replacement”, Laya
+confidence-without-competence, hosted-bootstrap
+silent FALLBACK, and LFM-default-as-JA-softmax as
+gate cousins — Augustus only cross-refs placement.
 
 ### Curated status
 
@@ -16089,6 +16131,6 @@ gallery); `faq.md`; `mental-models.md`;
 `toolbox-mapping.md`; `composition-algebra.md`
 items 82–84; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
-`optimizer-integration.md`;
-`agent-self-assessment.md`. Hunches labeled.
-No wrapper.
+`agent-self-assessment.md`. Skipped
+`optimizer-integration.md` (no new GEPA). Hunches
+labeled. No wrapper.

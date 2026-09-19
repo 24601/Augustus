@@ -897,12 +897,14 @@ is a sensor, not an accept.
 Same pillars, three placements. Do **not** re-fold
 jevcache/jev-align / §93. Fresh PR; never reopen
 merged #3–#10. rh-guard owns guidance-as-hook,
-unofficial-local-as-Jev, Nemotron “not calibrated
-replacement”, and Laya confidence-without-competence
-as gate cousins; Augustus owns placement. Skip
+unofficial-local-as-Jev, hosted-bootstrap silent
+FALLBACK, LFM-default-as-JA-softmax, Nemotron “not
+calibrated replacement”, and Laya
+confidence-without-competence as gate cousins;
+Augustus owns placement. Skip
 Archer.
 
-Unique fragments (consecutive): guidance ≠ hook; catalysts ≠ summaries; compile-time System One; unofficial ≠ TypeSafe; format_version modernbert-jev/1; Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev; Nemotron ≠ TypeSafe Jev; not a calibrated replacement; djev-dev complements djev-spark; images as Choice options; Laya essay numbers *theirs*; Router/OOD confidence
+Unique fragments (consecutive): guidance ≠ hook; catalysts ≠ summaries; compile-time System One; unofficial ≠ TypeSafe; format_version modernbert-jev/1; Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev; LFM default ≠ ModernBERT backend; Nemotron ≠ TypeSafe Jev; not a calibrated replacement; djev-dev complements djev-spark; images as Choice options; Laya essay numbers *theirs*; Router/OOD confidence; hosted bootstrap ≠ silent TypeSafe
 
 1. **Compile-time System One / questions-as-index** —
    guidance ≠ hook.
@@ -913,7 +915,9 @@ Unique fragments (consecutive): guidance ≠ hook; catalysts ≠ summaries; comp
    unofficial ≠ TypeSafe.
    format_version modernbert-jev/1.
    Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev.
-   Pair scoring → softmax. Not multimodal.
+   Pair scoring → softmax. LFM default ≠ ModernBERT backend.
+   The Hub card is text-only; jev_local default is LFM
+   (including vision).
 3. **NAR class legitimacy / multimodal / Router-OOD** —
    Nemotron ≠ TypeSafe Jev.
    not a calibrated replacement.
@@ -926,6 +930,8 @@ Soft Noul ≠ hard safety on every cluster.
 `when asked` is a sensor, not a deny. Unofficial
 local p is a sensor, not TypeSafe calibration.
 Nemotron p and Laya 0.85 remain sensors.
+hosted bootstrap ≠ silent TypeSafe. LFM default ≠
+ModernBERT backend.
 
 Formal methods **compose** with scoring. A Noul is a
 SENSOR. Hard-gating it as CI pass / HA write / authorship

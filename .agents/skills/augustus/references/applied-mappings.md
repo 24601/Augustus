@@ -1200,10 +1200,13 @@ guidance ≠ hook. catalysts ≠ summaries.
 compile-time System One. unofficial ≠ TypeSafe.
 format_version modernbert-jev/1.
 Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev.
+LFM default ≠ ModernBERT backend.
 Nemotron ≠ TypeSafe Jev. not a calibrated replacement.
 djev-dev complements djev-spark. images as Choice options.
 Laya essay numbers *theirs*. Router/OOD confidence.
+hosted bootstrap ≠ silent TypeSafe.
 rh-guard owns guidance-as-hook / unofficial-local-as-Jev /
+hosted-bootstrap silent FALLBACK / LFM-default-as-JA-softmax /
 Nemotron “not calibrated replacement” / Laya
 confidence-without-competence (`notes.md` §94).
 
@@ -1492,15 +1495,19 @@ rh-guard owns HIT-as-truth and training-score
 auto-accept as gate cousins; Augustus owns placement.
 Soft Noul ≠ hard safety. `notes.md` §93.
 **Guidance ≠ hook / unofficial-local-as-Jev /
+hosted-bootstrap silent FALLBACK / LFM dual-backend /
 Nemotron not-calibrated (Empirical as README;
 cross-ref rh-guard; 2026-09-19 ~21:35):**
 [byenzyme/enzyme](https://github.com/byenzyme/enzyme)
 — guidance ≠ hook. Compiled `when asked` is
 attention, not PreToolUse deny. Catalyst similarity
-is a sensor, not a gate.
+is a sensor, not a gate. hosted bootstrap ≠ silent
+TypeSafe. Name which backend answered.
 [argos1111/modernbert-ja-310m-jev](https://huggingface.co/argos1111/modernbert-ja-310m-jev)
++ [Argos1111/jev_local](https://github.com/Argos1111/jev_local)
 — unofficial ≠ TypeSafe. Local p is not TypeSafe
-calibration.
+calibration. LFM default ≠ ModernBERT backend.
+Do not collapse the runtime into the Hub card.
 [pst2154/Nemotron_Jev](https://github.com/pst2154/Nemotron_Jev)
 — Nemotron ≠ TypeSafe Jev. not a calibrated
 replacement. Laya Router/OOD confidence:

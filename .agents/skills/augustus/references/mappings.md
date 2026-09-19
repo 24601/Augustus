@@ -642,7 +642,8 @@ Do not copy `uv` / keys (`notes.md` §93).
 [byenzyme/enzyme](https://github.com/byenzyme/enzyme)
 — pay for Jev at compile to shape the question
 program; runtime retrieval is catalyst handles.
-catalysts ≠ summaries. guidance ≠ hook. ~350×
+catalysts ≠ summaries. guidance ≠ hook. hosted
+bootstrap ≠ silent TypeSafe. ~350×
 cost / 1000× speed *theirs* for the compile path —
 do not invent Harbor numbers. Do not copy
 `curl | bash` (`notes.md` §94).

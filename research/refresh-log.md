@@ -1743,8 +1743,9 @@
   READMEs. Soft Noul ≠ hard safety. Not a Jev skill
   dump. Backend-agnostic categorization/scoring/
   decision class. rh-guard owns guidance-as-hook,
-  unofficial-local-as-Jev, Nemotron “not calibrated
-  replacement”, and Laya confidence-without-
+  unofficial-local-as-Jev, hosted-bootstrap silent
+  FALLBACK, LFM-default-as-JA-softmax, Nemotron “not
+  calibrated replacement”, and Laya confidence-without-
   competence; Augustus owns placement. Archive
   tarball SIGNAL.md for three clusters (fetched
   ~15:32–15:35 Boise). No 1541 fold PR was open
@@ -1754,11 +1755,13 @@
 - Folded how-to-apply clusters: Compile-time System
   One / questions-as-index (byenzyme/enzyme;
   guidance ≠ hook; catalysts ≠ summaries;
-  compile-time System One); unofficial JA ModernBERT
+  compile-time System One; hosted bootstrap ≠
+  silent TypeSafe); unofficial JA ModernBERT
   cross-encoder (argos1111/modernbert-ja-310m-jev;
   unofficial ≠ TypeSafe; format_version
   modernbert-jev/1; Argos1111/jev_local ≠
-  us/jev-local ≠ kunchenguid/local-jev); NAR class
+  us/jev-local ≠ kunchenguid/local-jev; LFM
+  default ≠ ModernBERT backend); NAR class
   legitimacy / multimodal / Router-OOD (@googlegemma;
   pst2154/Nemotron_Jev; Nemotron ≠ TypeSafe Jev;
   not a calibrated replacement; Davipar/djev-dev;

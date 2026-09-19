@@ -1416,7 +1416,9 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   Harbor-jevals / toolbelt — not a thin Jev skill dump.
   Backend-agnostic categorization/scoring/decision
   class (Jev-like speed/econ). rh-guard owns
-  guidance-as-hook, unofficial-local-as-Jev, Nemotron
+  guidance-as-hook, unofficial-local-as-Jev,
+  hosted-bootstrap silent FALLBACK,
+  LFM-default-as-JA-softmax, Nemotron
   “not calibrated replacement”, and Laya
   confidence-without-competence as gate cousins;
   Augustus owns placement. Formal methods compose
@@ -1428,13 +1430,16 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   license **null**; **63★** this pass, SIGNAL ★62;
   HEAD `c91d6b5`; README SHA `9af7c570`;
   guidance ≠ hook; catalysts ≠ summaries;
-  compile-time System One; ~350×/1000× *theirs*);
+  compile-time System One; hosted bootstrap ≠
+  silent TypeSafe; ~350×/1000× *theirs*
+  (GitHub description); **≠** enzymejs/enzyme);
   **Unofficial JA ModernBERT cross-encoder**
   ([argos1111/modernbert-ja-310m-jev](https://huggingface.co/argos1111/modernbert-ja-310m-jev);
   CC-BY-SA-4.0; **2 likes**; sha `07cda235`;
   unofficial ≠ TypeSafe; format_version
   modernbert-jev/1; Argos1111/jev_local ≠
-  us/jev-local ≠ kunchenguid/local-jev; JGLUE JNLI
+  us/jev-local ≠ kunchenguid/local-jev; LFM
+  default ≠ ModernBERT backend; JGLUE JNLI
   92.62% / JComQA 92.40% *theirs*);
   **NAR class legitimacy / multimodal /
   Router-OOD**

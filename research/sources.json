@@ -3438,7 +3438,7 @@
       "kind": "github",
       "title": "byenzyme/enzyme",
       "url": "https://github.com/byenzyme/enzyme",
-      "note": "TypeScript; license null; 63 stars this pass, SIGNAL ★62; forks 1. HEAD c91d6b5. README SHA 9af7c570. size 391718. homepage https://memory.enzyme.garden. guidance ≠ hook; catalysts ≠ summaries; compile-time System One. ~350×/1000× *theirs*. Do not copy curl | bash. notes.md §94."
+      "note": "TypeScript; license null; 63 stars this pass, SIGNAL ★62; forks 1. HEAD c91d6b5. README SHA 9af7c570. size 391718. homepage https://memory.enzyme.garden. guidance ≠ hook; catalysts ≠ summaries; compile-time System One; hosted bootstrap ≠ silent TypeSafe. ~350×/1000× *theirs*. ≠ enzymejs/enzyme. Do not copy curl | bash. notes.md §94."
     },
     {
       "kind": "huggingface",
@@ -3450,7 +3450,7 @@
       "kind": "github",
       "title": "Argos1111/jev_local",
       "url": "https://github.com/Argos1111/jev_local",
-      "note": "Python; license null; 14 stars. HEAD 8ccc04d. README SHA ee7b536a. size 156. ModernBERT backend /v1/systemone. Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev. notes.md §94."
+      "note": "Python; license null; 14 stars. HEAD 8ccc04d. README SHA ee7b536a. size 156. Dual-backend /v1/systemone: LFM default (text/vision logprob) ≠ optional JA ModernBERT (text-only; images 422). Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev. LFM default ≠ ModernBERT backend. notes.md §94."
     },
     {
       "kind": "x",

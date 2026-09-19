@@ -737,15 +737,19 @@ the extras template: guidance ≠ hook; catalysts ≠
 summaries; compile-time System One; unofficial ≠
 TypeSafe; format_version modernbert-jev/1;
 Argos1111/jev_local ≠ us/jev-local ≠
-kunchenguid/local-jev; Nemotron ≠ TypeSafe Jev;
+kunchenguid/local-jev; LFM default ≠ ModernBERT
+backend; Nemotron ≠ TypeSafe Jev;
 not a calibrated replacement; djev-dev complements
 djev-spark; images as Choice options; Laya essay
-numbers *theirs*; Router/OOD confidence.
+numbers *theirs*; Router/OOD confidence;
+hosted bootstrap ≠ silent TypeSafe.
 Soft Noul ≠ hard safety: `when asked`, unofficial
 local p, Nemotron p, and Laya 0.85 are
 **sensors**. Hard-gating catalyst similarity as
 deny, treating unofficial JA ModernBERT as TypeSafe
-calibration, or treating Nemotron as a calibrated
+calibration, treating enzyme hosted bootstrap as
+silent TypeSafe, collapsing LFM default into JA
+softmax, or treating Nemotron as a calibrated
 replacement is the same theater.
 
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
