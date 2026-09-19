@@ -183,6 +183,11 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    first; ASK throws; fail-closed; judge swappable
    (`notes.md` §83). **≠** actiongate **≠** toolgate
    **≠** jev-use. rh-guard owns the gate cousin.
+   External pedagogy (not a product):
+   [@akshay_pachaar](https://x.com/akshay_pachaar/status/2101037514945597645)
+   — LLM hammer; schema-safe ≠ correct; shadow
+   first; 200×/400× TypeSafe ceiling (`notes.md`
+   §85). **≠** official docs **≠** Flavio.
    Closed-vote extreme (no planner LLM):
    [JevOnly](https://github.com/buluoray/JevOnly) (`notes.md` §61).
    Host-owned product:

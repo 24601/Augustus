@@ -478,6 +478,12 @@ Architecture notes, not an npm / `.env` / OpenRouter catalog. `notes.md` §83–
 - **reddpy/AgentGhost** — MIT; **2★**; TypeScript; HEAD `ac04e4fb`; README SHA `44145fa9`. Wrap-as-execution ALLOW/ASK/DENY. The wrap *is* the tool function; rules first; ASK throws; `failMode: closed`. Judge is a slot. Hosted provider tools out of reach. **≠** jwen5419807/agentghost **≠** vventirozos **≠** actiongate **≠** toolgate **≠** jev-use. Do not copy `AUTO_APPROVE`.
 - **@studio_yebisu** — [status/2101065176069886152](https://x.com/studio_yebisu/status/2101065176069886152). JP genre atlas of high-star Jev apps + open replicas. Stars research-time (typesafe-computer-use 203→**427**; jev-voice-browser 40→**103**). Not verified evals. Engagement ephemeral (this pass 131,234 / 1,934 / 192). SAM 3.1 already §39. OpenRouter Jev no-waitlist is WATCH. **≠** @airesearch12 class census **≠** v1.2 board. Do not dump the 30 repos.
 
+### User-provided ~10:25 Boise 2026-09-19 / 16:25 UTC (Akshay Pachaar “Jev Clearly Explained”)
+
+Architecture notes, not an SDK / Python-sample catalog. `notes.md` §85. Skip Archer. Quote the article. Independent pedagogy, not a TypeSafe how-to.
+
+- **@akshay_pachaar** — [status/2101037514945597645](https://x.com/akshay_pachaar/status/2101037514945597645) / [article](https://x.com/i/article/2100940576741093376). LLM hammer; code owns branches; parallel questions; thresholds in code; **schema-safe ≠ correct**; placements = routing / tool-risk / verify with LLM; shadow-mode; questions-as-code. **200× / 400×** TypeSafe ceiling *theirs*. Text-only. Engagement ephemeral (this pass 233,495 / 2,280 / 235). **≠** official docs **≠** Flavio Copes **≠** LangChain harness **≠** AgentGhost. Do not copy the Python samples.
+
 Census **not re-derived**. Archer still NOT landed.
 
 See `references/mixed-architecture.md` in the skill. Class-level family

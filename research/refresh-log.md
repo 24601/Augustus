@@ -1346,3 +1346,30 @@
 - notes.md §83–§84; sources.json (460 sources, 457 unique URLs,
   retrieved 2026-09-19T16:20Z); findings.md batch #67.
   No wrapper.
+## 2026-09-19 ~16:25 UTC — user-provided Akshay pedagogy HIGH (~10:25 Boise)
+- Docs-only into PR #2. `notes.md` §85. Skip Archer.
+  Hunches labeled. No wrapper. No invented metrics.
+  Quote ARTICLE.md. Do not copy Python samples. Do
+  not paste 200×/400× as Harbor. Do not steal
+  jev-semgrep / Flavio Copes.
+- Receipts: user SIGNAL_55e5 (~08:51 Boise; ~183k
+  views / 2095 likes / 220 RTs) + live X this pass
+  (233,495 / 2,280 / 235 / 3,652; created
+  2026-09-18T19:55:53Z; article
+  https://x.com/i/article/2100940576741093376).
+- Folded: LLM hammer; code owns branches; parallel
+  questions; thresholds in code; schema-safe ≠
+  correct; routing / tool-risk / verify with LLM;
+  shadow-mode; questions-as-code. 200×/400× TypeSafe
+  ceiling *theirs*. Text-only. **≠** official docs
+  **≠** Flavio **≠** LangChain harness **≠**
+  AgentGhost.
+- Census not re-derived. Archer still NOT landed.
+- Cards: SKILL.md, mixed-architecture, faq,
+  mental-models, agent-self-assessment, validation,
+  toolbox, composition-algebra item 25,
+  question-design, mappings §2/§18, methods-catalog,
+  ecosystem, CHANGELOG, README.
+- notes.md §85; sources.json (462 sources, 459 unique URLs,
+  retrieved 2026-09-19T16:25Z); findings.md batch #68.
+  No wrapper.

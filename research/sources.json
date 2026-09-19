@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T16:20Z",
+  "retrieved": "2026-09-19T16:25Z",
   "sources": [
     {
       "kind": "docs",
@@ -2761,6 +2761,18 @@
       "title": "@studio_yebisu JP genre atlas tweet",
       "url": "https://x.com/studio_yebisu/status/2101065176069886152",
       "note": "2026-09-18T21:45:48Z. note_tweet present; lang ja. Genre atlas of high-star Jev apps + open replicas. Stars research-time (typesafe-computer-use 203->427; jev-voice-browser 40->103). Not verified evals. Engagement ephemeral (SIGNAL ~120k/1767/169; this pass 131234/1934/192). SAM 3.1 already \u00a739. OpenRouter Jev no-waitlist is WATCH. != @airesearch12 class census != v1.2. Do not dump 30 repos. notes.md \u00a784."
+    },
+    {
+      "kind": "x",
+      "title": "@akshay_pachaar Jev Clearly Explained tweet",
+      "url": "https://x.com/akshay_pachaar/status/2101037514945597645",
+      "note": "2026-09-18T19:55:53Z. Pedagogy HIGH \u00a785. Engagement ephemeral (SIGNAL ~183k/2095/220; this pass 233495/2280/235/3652). Independent of TypeSafe docs. 200x/400x TypeSafe ceiling. schema-safe != correct. Do not copy Python samples. notes.md \u00a785."
+    },
+    {
+      "kind": "x",
+      "title": "Jev Clearly Explained (X article)",
+      "url": "https://x.com/i/article/2100940576741093376",
+      "note": "Article body quoted from ARTICLE.md. LLM hammer; code owns branches; parallel questions; schema-safe != correct; shadow + questions-as-code. 70-500 ms / $0.042/MTok *theirs* ceiling. Text-only. != Flavio Copes != LangChain harness. notes.md \u00a785."
     }
   ]
 }

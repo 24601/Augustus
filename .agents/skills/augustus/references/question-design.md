@@ -121,6 +121,8 @@ request, and treat a stale pin as a prior, never a setting.
 | Treat AUTO_APPROVE as auth / wrap hosted tools | Demo hatch; out-of-reach actuators | Provider tools stay unwrapped. rh-guard owns the gate. `notes.md` §83 |
 | Collapse AgentGhost into actiongate / toolgate / jev-use / namesakes | Slogan mix; fail polarity | Wrap ≠ evidence-only; fail-closed ≠ jev-use fail-open. **≠** jwen5419807 **≠** vventirozos. `notes.md` §83 |
 | Paste JP atlas ★ as a bake-off | Research-time stars as scores | Genre list, not verified evals. [@studio_yebisu](https://x.com/studio_yebisu/status/2101065176069886152). **≠** §77 **≠** §78. `notes.md` §84 |
+| Quote 200× / 400× as Harbor / “cannot hallucinate” | Marketing multiples; schema as correctness | TypeSafe ceiling *theirs*. schema-safe ≠ correct. [@akshay_pachaar](https://x.com/akshay_pachaar/status/2101037514945597645). `notes.md` §85 |
+| Copy the explainer’s Python / collapse into a wrap how-to | Recipe dump; product mix | Independent pedagogy. **≠** official docs **≠** Flavio **≠** AgentGhost §83. `notes.md` §85 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

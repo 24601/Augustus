@@ -2276,3 +2276,34 @@ Cross-repo addition: (iy) wrap-as-execution / ASK
 throws / fail-closed; (iz) application genre atlas
 ≠ class census ≠ scored board; (ja) star-count
 drift as pedagogy.
+
+## Batch #68 (2026-09-19 ~16:25 UTC / ~10:25 Boise) — Akshay Pachaar “Jev Clearly Explained”
+
+Note: `research/notes.md` §85. Docs-only. Folded into PR #2.
+Skip Archer. No invented metrics. Hunches labeled.
+Quote ARTICLE.md. Not a hit list. User SIGNAL_55e5
+(~08:51 Boise; ~183k views) + live this pass
+**233,495** / **2,280** / **235** / **3,652**.
+
+- **External pedagogy / how-to-apply.** Independent
+  of TypeSafe docs. LLM hammer for bounded
+  decisions; code owns branches; parallel
+  questions; thresholds in code; schema-safe ≠
+  correct; three placements with an LLM (routing /
+  tool-risk / verify); shadow-mode; questions-as-code.
+- **200× / 400× are TypeSafe ceiling claims.**
+  Article *theirs*: 70–500 ms, $0.042/MTok input,
+  output free; treat multiples as a ceiling, not a
+  promise. Not Harbor.
+- **Text-only.** Convert environment to text/JSON
+  first. Not looking at the screen. Skip Archer.
+- **Name locks.** ≠ official docs ≠ Flavio Copes
+  (cited further reading) ≠ LangChain harness
+  (cited; not a wrap card) ≠ AgentGhost §83.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (jb) public pedagogy receipt
+for mixed architecture; (jc) schema-safe ≠ correct
+as the safer hallucination sentence; (jd) marketing
+multiples as ceiling, not Harbor.

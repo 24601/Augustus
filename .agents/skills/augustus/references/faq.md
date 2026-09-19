@@ -1280,6 +1280,26 @@ v1.2 §78. SAM 3.1 already §39. OpenRouter Jev
 "no waitlist" is WATCH, not a recipe. Do not dump
 the 30 repos. Skip Archer. `notes.md` §84.
 
+## Is Akshay’s “Jev Clearly Explained” a TypeSafe how-to? Can I quote 200× / 400×?
+
+No, and no. [@akshay_pachaar](https://x.com/akshay_pachaar/status/2101037514945597645)
+is **independent pedagogy**. Article *theirs*:
+LLM hammer for bounded decisions; code owns the
+branches; parallel questions; thresholds in
+code; schema-safe ≠ correct (“cannot break the
+declared output schema, but it can still be
+wrong”); placements = routing / tool-risk /
+verify with LLM; shadow-mode; questions-as-code.
+**200× / 400×** and 70–500 ms / $0.042/MTok sit
+at TypeSafe’s favorable end — treat as a
+**ceiling, not a promise**. Not Harbor. Text-only;
+not looking at the screen. Do not copy the
+Python samples. **≠** official docs **≠** Flavio
+Copes **≠** LangChain harness **≠** AgentGhost
+wrap. Engagement ephemeral (SIGNAL ~183k; this
+pass 233,495 / 2,280 / 235). Skip Archer.
+`notes.md` §85.
+
 ## Does Stagehand extract replace the LLM?
 
 No. Pick-and-copy is a **fast path**. Schema leftovers, screenshot
@@ -1998,3 +2018,9 @@ fail-closed wrap-as-execution; ASK throws.
 
 No, and no. Application atlas, not a scored board.
 Stars were research-time *theirs*. `notes.md` §84.
+
+## Is Akshay a vendor tutorial? Are 200× / 400× measured?
+
+No, and no. Independent pedagogy. Multiples are
+TypeSafe ceiling *theirs*. schema-safe ≠ correct.
+`notes.md` §85.

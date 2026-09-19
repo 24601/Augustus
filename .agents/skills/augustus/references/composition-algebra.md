@@ -301,3 +301,10 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     Stars are research-time. Same discipline as item 17
     (class census ≠ bake-off). Full cards:
     `mixed-architecture.md`, `faq.md`, `validation.md`.
+25. **External pedagogy / how-to-apply** (@akshay_pachaar):
+    position 11 (explainer of already-owned placements,
+    not a new construct). LLM hammer; code owns
+    branches; schema-safe ≠ correct; shadow +
+    questions-as-code. 200×/400× are TypeSafe ceiling.
+    Full cards: `mixed-architecture.md`, `faq.md`,
+    `mental-models.md`.

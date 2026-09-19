@@ -87,6 +87,14 @@ elif action low-stakes: act
 else: act only if confidence > high bar, else confirm
 ```
 
+**Public pedagogy receipt (Empirical as article; 2026-09-19 ~10:25):**
+[@akshay_pachaar “Jev Clearly Explained”](https://x.com/akshay_pachaar/status/2101037514945597645)
+— high / medium / low confidence → auto / escalate / human;
+thresholds in code; schema-safe ≠ correct. **200× / 400×**
+are TypeSafe ceiling claims *theirs*, not Harbor. Shadow
+first; questions-as-code. Do not copy the Python samples
+(`notes.md` §85).
+
 **Example**: trading bot acts on high-confidence reads, stands down when the
 book state is ambiguous (jev-trader `late → hold`). **Banded fail-open
 (Empirical as a named product receipt):**
@@ -1521,6 +1529,13 @@ leftovers; ASK/DENY throw; judge error → DENY. Distinct
 from jevgate (fail-open, cannot block) and from toolgate
 (proposed-call pre-exec). rh-guard owns the gate cousin.
 Do not copy `npm` (`notes.md` §83).
+**Tool-risk as a placement, not a wrap (Empirical as
+article; 2026-09-19 ~10:25):**
+[@akshay_pachaar](https://x.com/akshay_pachaar/status/2101037514945597645)
+cites LangChain middleware as tool-risk gating. That is
+the *placement*, not a product card. AgentGhost owns
+wrap-as-execution; rh-guard owns the gate cousin. Do not
+steal Flavio Copes (`notes.md` §85).
 **OMP prompt suppression, host deny proves (Empirical as
 measured traffic, 2026-09-18 ~22:38):**
 [omp-greenlight](https://github.com/SemetricLabs/omp-greenlight)

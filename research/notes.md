@@ -111,6 +111,10 @@ regex/LLM/code, Jev selects).
   rules first, Jev remainder; ASK throws; fail-closed.
   **Productized HIGH:** `notes.md` §83. rh-guard owns the
   gate cousin. Do not re-card this one-liner.
+- Akshay Pachaar “Jev Clearly Explained”: LLM hammer for
+  bounded decisions; schema-safe ≠ correct; 200×/400×
+  TypeSafe ceiling. **Pedagogy HIGH:** `notes.md` §85.
+  Do not re-card this one-liner.
 - RomanSlack/jev-drone: 500Hz control + 50Hz safety in code, classical CV to
   symbols at 15Hz, Jev advisory ~2.5Hz (Choice maneuver + Score risk + Noul
   lost-vs-occluded). "Cannot be the perception layer or run at control rate."
@@ -12108,7 +12112,7 @@ Not a hit list. Do not copy Stripe, npm, or
 grant. Do not wrap hosted tools “because the
 SDK imported them.” Do not collapse into
 actiongate / toolgate / jev-use. Do not steal
-Akshay (pedagogy later).
+Akshay (now §85). Do not steal jev-semgrep.
 
 ### Curated status
 
@@ -12231,7 +12235,8 @@ this fold.
 Not a 30-row hit list. Not verified evals.
 Not OpenRouter onboarding. Not a SAM tutorial.
 Do not paste live ★ into the atlas card. Do
-not steal Akshay.
+not steal Akshay (now §85). Do not steal
+jev-semgrep.
 
 ### Curated status
 
@@ -12248,3 +12253,141 @@ gallery); `faq.md`; `mental-models.md`;
 `question-design.md`; `judgment-class.md`;
 `methods-catalog.md`. Hunches labeled. No
 wrapper.
+
+## 85. User-provided HIGH — Akshay Pachaar “Jev Clearly Explained” (2026-09-19 ~10:25 Boise / ~16:25 UTC)
+
+Docs-only into PR #2. **Skip Archer.** Quote the
+article. Not a hit list. Do **not** re-fold
+§50–§84 HIGH except sibling contrast. Hunches
+labeled. No wrappers, copied code samples, or
+invented metrics. This signal is an **external
+pedagogy / how-to-apply source**, not a new
+species, not a wrap product, and not a bake-off.
+
+The FAQ already answers “isn’t this just
+classification?” and the cards already own
+type-safe ≠ correct, parallel questions, and
+shadow-mode. Do not re-derive those. Material
+how-to-apply:
+
+1. **LLM hammer for bounded decisions** — article
+   *theirs*: generation is the wrong interface
+   when code already knows the answers. Placement
+   is mixed architecture, not stack replacement.
+2. **Code owns the branches** — Choice / Score /
+   Noul in; “smart switch statement” is the
+   useful part. Thresholds live in code.
+3. **Parallel questions** — independent decisions
+   share one state; sequential wait is the
+   expensive habit.
+4. **schema-safe ≠ correct** — cannot invent
+   out-of-schema options; **can** confidently pick
+   the wrong valid one. Safer sentence *theirs*:
+   “Jev cannot break the declared output schema,
+   but it can still be wrong.”
+5. **Three placements with an LLM** — model
+   routing, tool-risk gating, verification /
+   supervision. Not replacement. LangChain
+   middleware is *cited*, not a new wrap card
+   (AgentGhost §83 owns wrap-as-execution;
+   rh-guard owns the gate cousin).
+6. **Shadow-mode rollout + questions-as-code** —
+   one bounded decision; rubric first; shadow
+   beside current workflow; plot accuracy vs
+   confidence; pin questions/thresholds; version
+   them like code.
+7. **200× / 400× are TypeSafe ceiling claims** —
+   article *theirs*: 70–500 ms, $0.042/MTok
+   input, output free; “roughly 200 times faster
+   and 400 times cheaper”; “treat them as a
+   ceiling, not a promise.” Do not paste as
+   Harbor.
+
+Receipts: user SIGNAL_55e5 (~08:51 Boise; ~183k
+views / 2095 likes / 220 RTs / 3281 bookmarks
+via fxtwitter) plus live X this pass. Post
+https://x.com/akshay_pachaar/status/2101037514945597645
+created 2026-09-18T19:55:53Z; article title
+**Jev Clearly Explained**
+(https://x.com/i/article/2100940576741093376).
+This pass: **233,495** impressions / **2,280**
+likes / **235** RTs / **3,652** bookmarks / 53
+replies / 31 quotes. Author @akshay_pachaar
+(Akshay 🚀; 286,958 followers *theirs*).
+Engagement **ephemeral**. Quote ARTICLE.md.
+
+### HIGH
+
+1. **[@akshay_pachaar “Jev Clearly Explained”](https://x.com/akshay_pachaar/status/2101037514945597645)**
+   — NEW HIGH (pedagogy). Quote, don’t dump.
+
+   **Quote article (*theirs*).** “We have been
+   using LLMs like a hammer for every AI problem,
+   even simple decisions.” “Its bet is simple:
+   language generation is the wrong interface
+   when code already knows the possible answers.”
+   “Ordinary code owns the branches. The model
+   supplies the fuzzy judgment that ordinary code
+   cannot calculate reliably.” “Those large
+   multiples come from TypeSafe’s own workflow
+   evaluations and sit at the favorable end of
+   the comparison. Treat them as a ceiling, not a
+   promise for every application.” “Type safety
+   prevents invalid shapes. It does not guarantee
+   correct judgment.” “A safer sentence is ‘Jev
+   cannot break the declared output schema, but
+   it can still be wrong’.” “The questions are
+   part of the program. Treat them like code.”
+   “Do not begin by rebuilding your agent around
+   Jev.” “Jev is text-only today… It is not
+   looking at the screen or playing from pixels.”
+
+   **How to apply:** when someone pastes this
+   explainer, extract the *placement theses*
+   (hammer / branches / parallel / schema-safe ≠
+   correct / three placements / shadow +
+   questions-as-code) and refuse the 200×/400×
+   as a measured win. Same discipline as §77
+   (list ≠ rank) and §84 (stars ≠ eval).
+
+   **Wrong uses (*theirs*, already in jaggedness):**
+   generation, arithmetic, multi-hop, unknown
+   extraction (candidates first), irrelevant
+   context. If code already solves it, keep the
+   code.
+
+   **Name locks:** ≠ TypeSafe official docs
+   (independent pedagogy) ≠ Flavio Copes
+   (cited further reading; do not steal) ≠
+   LangChain harness blog (cited; not a wrap
+   card) ≠ AgentGhost §83 ≠ @studio_yebisu
+   atlas §84 ≠ a Harbor taskset.
+
+### Skip Archer
+
+Text-only *theirs*. Convert environment to
+text/JSON first. Skip Archer this fold.
+
+### Not
+
+Not a TypeSafe how-to. Not a wrap product.
+Not a hit list. Do not copy the article’s
+Python samples as recipes. Do not paste 200× /
+400× as Harbor. Do not steal jev-semgrep.
+Do not steal Flavio Copes.
+
+### Curated status
+
+Pedagogy HIGH **folded**. Archer still **NOT
+landed**. Named HIGHs in the article **not
+re-derived**. rh-guard still owns the gate
+cousin (thin: tool-risk + schema-safe≠correct).
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`validation.md`; `toolbox-mapping.md`;
+`composition-algebra.md` item 25;
+`question-design.md`; `methods-catalog.md`.
+Hunches labeled. No wrapper.

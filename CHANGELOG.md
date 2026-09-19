@@ -968,6 +968,23 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   **≠** @airesearch12 class census **≠** v1.2 board.
   Do not dump the 30 repos. No wrapper. No invented
   metrics.
+- User-provided HIGH ~10:25 Boise 2026-09-19
+  (`research/notes.md` §85): **Skip Archer.** External
+  pedagogy / how-to-apply, not a new species.
+  [@akshay_pachaar “Jev Clearly Explained”](https://x.com/akshay_pachaar/status/2101037514945597645)
+  (article https://x.com/i/article/2100940576741093376;
+  2026-09-18T19:55:53Z). LLM hammer for bounded
+  decisions; code owns branches; parallel questions;
+  thresholds in code; **schema-safe ≠ correct**;
+  placements = routing / tool-risk / verify with LLM;
+  shadow-mode; questions-as-code. **200× / 400×** and
+  70–500 ms / $0.042/MTok are TypeSafe **ceiling**
+  claims *theirs*, not Harbor. Text-only; not looking
+  at the screen. **≠** official docs **≠** Flavio
+  Copes **≠** LangChain harness **≠** AgentGhost.
+  Engagement ephemeral (this pass 233,495 / 2,280 /
+  235). Do not copy the Python samples. No wrapper.
+  No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard
