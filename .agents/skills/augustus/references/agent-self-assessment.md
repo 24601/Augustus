@@ -256,6 +256,10 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    Nemotron interface is not a calibrated replacement:
    Nemotron ≠ TypeSafe Jev; not a calibrated
    replacement (`notes.md` §94).
+   Soft judgment integrity (shadow / calibrator / fail-open):
+   jevguard calibrator/cache/escape; jev-ci-selector CI
+   shadow mode; one-dollar-tahoe TypeSafe Jev defense eval
+   (`notes.md` §95). rh-guard owns the gate cousins.
    Closed-vote extreme (no planner LLM):
    [JevOnly](https://github.com/buluoray/JevOnly) (`notes.md` §61).
    Host-owned product:

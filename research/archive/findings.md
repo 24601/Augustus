@@ -2698,3 +2698,50 @@ Census not re-derived. Archer still NOT landed.
 Cross-repo addition: (le) compile-time System One /
 questions-as-index; (lf) unofficial JA ModernBERT;
 (lg) NAR legitimacy / multimodal / Router-OOD.
+
+## Batch #78 (2026-09-19 ~21:41 UTC / ~15:41 Boise) — hourly 1541 HIGH
+
+Note: `research/notes.md` §95. Docs-only on a fresh PR
+off main. Never reopen merged #7 / **#8** / **#9** / **#10** / **#12**.
+Do **not** re-fold §93 / §94. Skip Archer. Do **not**
+re-fold 1441 / §92. No invented metrics. Hunches
+labeled. Quote READMEs. Soft Noul ≠ hard safety.
+0★ HIGHs still get real cards. rh-guard owns the
+injection-firewall / CI-gate cousins; Augustus owns
+placement.
+
+- **Decision-as-plugin for SWE.** difficulty +
+  policy thresholds + JSONL trace (**0★**).
+  jev-codex-pilot model + reasoning depth (**0★**).
+  keep/shadow/hybrid/reject (license null; **0★**;
+  20-case *theirs* failed the cost gate).
+- **Evidence projection vs LLM summary.** quarry
+  evidence projection (**0★**; **master**). Pointer,
+  never paraphrase. 5 s fail-open.
+- **Soft judgment integrity.** jevguard
+  calibrator/cache/escape (**0★**). jev-ci-selector
+  CI shadow mode (license null; **0★**). Shadow
+  default; enforce opt-in. rh-guard owns.
+- **Physical/control first-class domain.**
+  Frank-ZY-Dou/awesome-jev robotics/3D/control
+  (license null; **0★**). Text-state, not pixels.
+  One seed-0 ≠ a rate.
+- **Harbor-jevals / injection-firewall.**
+  one-dollar-tahoe TypeSafe Jev defense eval
+  (**0★**). ~74 demo; README has no ASR/FPR.
+  rh-guard owns.
+- **llama.cpp replica.** llama-jev llama.cpp replica
+  (license null; **0★**). Softmax ≠ Noul. **≠**
+  TypeSafe **≠** pcdServer.
+
+Census not provided this hour (not re-derived).
+Archer still NOT landed. Last pin from §92:
+tracker likes **50** lastModified UNCHANGED
+2026-09-19T18:37:18Z; SemIf 1873; jevlike 969;
+TypeAR 10; Awesomejev 561/27007.
+
+Cross-repo addition: (lh) Decision-as-plugin for SWE;
+(li) evidence projection vs LLM summary; (lj) soft
+judgment integrity; (lk) physical/control first-class
+domain; (ll) Harbor-jevals injection-firewall;
+(lm) llama.cpp replica.

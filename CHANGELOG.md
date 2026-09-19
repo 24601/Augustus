@@ -1461,6 +1461,54 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   `ENZYME_JEV_MODEL` / `curl | bash` / docker /
   `pip install laya`. No wrapper. No invented
   metrics.
+- Hourly 1541 HIGH (`research/notes.md` §95): **Skip
+  Archer.** Docs-only on a **fresh PR off main**. Never
+  reopen merged #7 / **#8** / **#9** / **#10** /
+  **#12**. Do **not** push onto §93 / §94. Do **not** re-fold
+  1441 / §92. How-to-apply / mental models /
+  architecture / Harbor-jevals / toolbelt — not a thin
+  Jev skill dump. Backend-agnostic
+  categorization/scoring/decision class (Jev-like
+  speed/econ). rh-guard owns the injection-firewall /
+  CI-gate cousins; Augustus owns placement. Formal
+  methods compose with scoring; a Noul is a SENSOR;
+  pasting orchestrator 0.95 / skip_below 0.05 /
+  OpenRoboto $ as class ceilings, inventing
+  one-dollar-tahoe ASR/FPR, or treating numbered-choice
+  softmax as a Noul is soundness theater. Six clusters:
+  **Decision-as-plugin for SWE**
+  ([petercr/jev-orchestrator](https://github.com/petercr/jev-orchestrator)
+  difficulty + policy thresholds + JSONL trace; **0★**;
+  [Charlyhno-eng/jev-codex-pilot](https://github.com/Charlyhno-eng/jev-codex-pilot)
+  model + reasoning depth; **0★**;
+  [SunnyKikiHK/jev-replacement](https://github.com/SunnyKikiHK/jev-replacement)
+  keep/shadow/hybrid/reject; license null; **0★**);
+  **Evidence projection**
+  ([jackboykin/quarry](https://github.com/jackboykin/quarry)
+  quarry evidence projection; Go MIT; **0★**; **master**);
+  **Soft judgment integrity**
+  ([seb4ez/jevguard](https://github.com/seb4ez/jevguard)
+  calibrator/cache/escape; **0★**;
+  [guilhem/jev-ci-selector](https://github.com/guilhem/jev-ci-selector)
+  CI shadow mode; license null; **0★**; rh-guard owns);
+  **Physical/control first-class domain**
+  ([Frank-ZY-Dou/awesome-jev](https://github.com/Frank-ZY-Dou/awesome-jev)
+  Frank-ZY-Dou/awesome-jev robotics/3D/control; license
+  null; **0★**; text-state, not pixels);
+  **Harbor-jevals / injection-firewall**
+  ([PavitarSinghArneja/one-dollar-tahoe](https://github.com/PavitarSinghArneja/one-dollar-tahoe)
+  TypeSafe Jev defense eval; **0★**; ~74 demo; README
+  has no ASR/FPR; rh-guard owns);
+  **llama.cpp replica**
+  ([webNeat/llama-jev](https://github.com/webNeat/llama-jev)
+  llama.cpp replica; license null; **0★**; softmax ≠
+  Noul). Soft Noul ≠ hard safety. 0★ HIGHs still get
+  real cards. Census **not provided this hour** (not
+  re-derived). Archer still NOT landed. Do not copy
+  `TYPESAFE_API_KEY` / `AI_GATEWAY_API_KEY` /
+  `EXA_API_KEY` / `GROQ_API_KEY` / `uv` / `npx` /
+  `go install` / `.env` / `attacks.json`. No wrapper.
+  No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

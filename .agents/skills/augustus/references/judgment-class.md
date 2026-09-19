@@ -987,6 +987,7 @@ default, jeff confidently flat, do not invent Laya),
 §92 (Foq ~25ms/2.2GB local; rev prefill-only + HF jev-0.5b; robfrase/jev planning memo; meldltd/meldecision laya-go ONNX; laya-doom never pixels; logixism/laya-api empty README; akpsahan/laya ≠ Archer; Nibir1/typesafe-go ≠ official — packaging / Hub copy, not new species; Qwen3.8 27B ≠ Archer),
 §93 (hyperspaceai/jevcache decision ledger / memoization ≠ kushals256/jevcache same-intent admit ≠ Hyperspace KV attention cache; sutro-sh/jev-align GEPA alignment loop ≠ caiovicentino/jev-align verifier — placements, not new species),
 §94 (byenzyme/enzyme compile-time System One / catalysts ≠ summaries / guidance ≠ hook / hosted bootstrap ≠ silent TypeSafe; argos1111/modernbert-ja-310m-jev unofficial ≠ TypeSafe / format_version modernbert-jev/1; Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev / LFM default ≠ ModernBERT backend; pst2154/Nemotron_Jev ≠ TypeSafe / not a calibrated replacement; Davipar/djev-dev complements djev-spark / images as Choice options; Laya essay ≠ new species / Router/OOD confidence — placements / unofficial packaging, not new species),
+§95 (llama-jev llama.cpp replica; numbered-choice softmax ≠ Noul; **≠** TypeSafe **≠** pcdServer **≠** chakuho; 80 ms cold / 40 ms cache *theirs* on minicpm5-2b-q8; packaging / WIP replica, not a new species),
 §49 (boundary map; DMB vs constrained LLMs; von; open-alternative-jev). Before
 adopting a surface, the bake-off is a jevals-shaped suite and, for a
 product loop, a Harbor taskset (`validation.md`, Eval & hill-climb).

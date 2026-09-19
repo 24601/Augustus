@@ -1781,3 +1781,52 @@
 - notes.md §94; sources.json (581 sources, 578 unique
   URLs, retrieved 2026-09-19T21:35Z); findings.md
   batch #77. No wrapper.
+## 2026-09-19 ~21:41 UTC — hourly 1541 HIGH (~15:41 Boise)
+- Docs-only on a **fresh PR off main**. Never reopen
+  merged #7 / **#8** / **#9** / **#10** / **#12**.
+  Do **not** re-fold §93 / §94. `notes.md` §95.
+  Skip Archer. Do **not** re-fold 1441 / §92. Hunches
+  labeled. No wrapper. No invented metrics. Quote
+  READMEs. Soft Noul ≠ hard safety. 0★ HIGHs still
+  get real cards. Not a Jev skill dump.
+  Backend-agnostic categorization/scoring/decision
+  class. rh-guard owns the injection-firewall /
+  CI-gate cousins; Augustus owns placement.
+- Folded how-to-apply clusters: Decision-as-plugin
+  for SWE (difficulty + policy thresholds + JSONL
+  trace; jev-codex-pilot model + reasoning depth;
+  keep/shadow/hybrid/reject);
+  Evidence projection vs LLM summary
+  (quarry evidence projection);
+  Soft judgment integrity (jevguard
+  calibrator/cache/escape; jev-ci-selector CI
+  shadow mode; rh-guard owns);
+  Physical/control first-class domain
+  (Frank-ZY-Dou/awesome-jev robotics/3D/control);
+  Harbor-jevals / injection-firewall
+  (one-dollar-tahoe TypeSafe Jev defense eval;
+  rh-guard owns);
+  llama.cpp replica (llama-jev llama.cpp replica;
+  softmax ≠ Noul).
+- Formal compose: next-act Choice + policy in code;
+  pointer never paraphrase; remainder after exact
+  rules; shadow then honor; text-state not pixels;
+  measurement owns endorsement; replica honesty.
+  Soft Noul ≠ hard safety. Pasting 0.95 FINISH /
+  skip_below 0.05 / OpenRoboto $ as class ceilings,
+  inventing ASR/FPR, or treating softmax as a Noul
+  is soundness theater.
+- Census not provided this hour (not re-derived).
+  Archer still NOT landed. Last pin from §92:
+  tracker likes **50** lastModified UNCHANGED
+  2026-09-19T18:37:18Z; SemIf 1873; jevlike 969;
+  TypeAR 10; Awesomejev 561/27007.
+- Cards: SKILL.md, mixed-architecture fail table +
+  gallery, faq, mental-models, judgment-class,
+  validation, applied-mappings, mappings, toolbox,
+  composition-algebra items 85–90, question-design,
+  methods-catalog, formal-methods, agent-self-assessment,
+  ecosystem, CHANGELOG, README.
+- notes.md §95; sources.json (590 sources, 587 unique URLs,
+  retrieved 2026-09-19T21:41Z); findings.md batch #78.
+  No wrapper.

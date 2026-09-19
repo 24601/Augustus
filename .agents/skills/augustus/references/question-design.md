@@ -220,6 +220,15 @@ request, and treat a stale pin as a prior, never a setting.
 | Collapse Argos1111/jev_local into the JA Hub card / treat LFM vision as unofficial JA softmax | Dual-backend | LFM default ≠ ModernBERT backend. Default is LFM text/vision logprob; JA ModernBERT is optional text-only. `notes.md` §94 |
 | Treat Nemotron_Jev as calibrated Jev / collapse djev-dev into djev-spark | Interface ≠ identity | Nemotron ≠ TypeSafe Jev; not a calibrated replacement; djev-dev complements djev-spark; images as Choice options. `notes.md` §94 |
 | Paste Laya essay vs-Jev as a new bake-off / treat Khmer 0.952 as competence | Already §76; OOD | Laya essay numbers *theirs*; Router/OOD confidence. `notes.md` §94 |
+| Treat orchestrator “difficulty” as a live Score | Description ≠ code | difficulty + policy thresholds + JSONL trace. `notes.md` §95 |
+| Treat jev-codex-pilot as a bake-off | Thin overlay | jev-codex-pilot model + reasoning depth. `notes.md` §95 |
+| Treat keep as failure / force BERT onto Jev | Cost gate; keep is a win | keep/shadow/hybrid/reject. `notes.md` §95 |
+| Summarize quarry pages / fail-closed if Jev is down | Pointer; fail-open | quarry evidence projection. `notes.md` §95 |
+| Collapse Frank-ZY-Dou into walidboulanouar / paste $ as a rate | Atlas; seed-0 | Frank-ZY-Dou/awesome-jev robotics/3D/control. `notes.md` §95 |
+| Invent one-dollar-tahoe ASR/FPR / copy attacks | No numbers; demo | one-dollar-tahoe TypeSafe Jev defense eval. `notes.md` §95 |
+| Collapse jevguard into jevcache / skip the escape | Namesake; calibrator | jevguard calibrator/cache/escape. `notes.md` §95 |
+| Skip CI from skip_below 0.05 | Shadow default | jev-ci-selector CI shadow mode. `notes.md` §95 |
+| Treat llama-jev softmax as a Noul | Format ≠ proper scoring | llama-jev llama.cpp replica. `notes.md` §95 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

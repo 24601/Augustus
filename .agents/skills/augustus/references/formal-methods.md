@@ -752,6 +752,27 @@ silent TypeSafe, collapsing LFM default into JA
 softmax, or treating Nemotron as a calibrated
 replacement is the same theater.
 
+1541 envelopes (`notes.md` §95), still outside the extras
+template: difficulty + policy thresholds + JSONL trace;
+jev-codex-pilot model + reasoning depth;
+keep/shadow/hybrid/reject; quarry evidence projection;
+Frank-ZY-Dou/awesome-jev robotics/3D/control;
+one-dollar-tahoe TypeSafe Jev defense eval;
+jevguard calibrator/cache/escape;
+jev-ci-selector CI shadow mode;
+llama-jev llama.cpp replica.
+petercr/jev-orchestrator ≠ FleeexCorp/jev-orchestrator.
+seb4ez/jevguard ≠ AseemPrasad/JevGuard ≠ pablozr/JevGuard.
+webNeat/llama-jev ≠ WiktorB2004/llama-index-jev.
+Soft Noul ≠ hard safety: 0.95 FINISH / 0.55 min p /
+0.40 calibrator / 0.15 margin / 0.05 skip_below /
+p&lt;0.5 quarry drop are **sensors**. rh-guard owns
+the injection-firewall / CI-gate cousins.
+Hard-gating skip_below as merge policy, inventing
+one-dollar-tahoe ASR/FPR, pasting OpenRoboto $ as a
+success-rate, or treating numbered-choice softmax as
+a Noul is the same theater.
+
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a
 hybrid "verified by Noul" API.

@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T21:35Z",
+  "retrieved": "2026-09-19T21:41Z",
   "sources": [
     {
       "kind": "docs",
@@ -3487,6 +3487,60 @@
       "title": "Laya product essay",
       "url": "https://laya.convaiinnovations.com/",
       "note": "Nandakishor Mukkunnoth / ConvAI marketing/priority narrative + live site. Laya essay numbers *theirs*. Router/OOD confidence (Khmer 0.000 @ 0.952). Already §76 via NandhaKishorM/laya. Not a new species. Do not copy pip install laya. notes.md §94."
+    },
+    {
+      "kind": "github",
+      "title": "petercr/jev-orchestrator",
+      "url": "https://github.com/petercr/jev-orchestrator",
+      "note": "TypeScript MIT; 0 stars. HEAD f29880f. README SHA 042c102e. size 29. difficulty + policy thresholds + JSONL trace. GitHub difficulty ≠ live Score. Decision-only. notes.md §95."
+    },
+    {
+      "kind": "github",
+      "title": "Charlyhno-eng/jev-codex-pilot",
+      "url": "https://github.com/Charlyhno-eng/jev-codex-pilot",
+      "note": "TypeScript MIT; 0 stars. HEAD 9a277f5. README SHA 6210d1e7. size 1. jev-codex-pilot model + reasoning depth. Thin overlay + Kanban. notes.md §95."
+    },
+    {
+      "kind": "github",
+      "title": "SunnyKikiHK/jev-replacement",
+      "url": "https://github.com/SunnyKikiHK/jev-replacement",
+      "note": "Python; license null; 0 stars. HEAD 58babb9. README SHA 3988319e. size 41. keep/shadow/hybrid/reject. 20-case *theirs* failed cost gate. notes.md §95."
+    },
+    {
+      "kind": "github",
+      "title": "jackboykin/quarry",
+      "url": "https://github.com/jackboykin/quarry",
+      "note": "Go MIT; 0 stars. HEAD 971048b on master. README SHA 48e119fd. size 0. quarry evidence projection. Pointer never paraphrase. 5 s fail-open. notes.md §95."
+    },
+    {
+      "kind": "github",
+      "title": "Frank-ZY-Dou/awesome-jev",
+      "url": "https://github.com/Frank-ZY-Dou/awesome-jev",
+      "note": "license null; 0 stars. HEAD 538a6e9. README SHA c4825b7f. size 0. Frank-ZY-Dou/awesome-jev robotics/3D/control. Text-state not pixels. ≠ walidboulanouar/awesome-jev-use-cases. notes.md §95."
+    },
+    {
+      "kind": "github",
+      "title": "PavitarSinghArneja/one-dollar-tahoe",
+      "url": "https://github.com/PavitarSinghArneja/one-dollar-tahoe",
+      "note": "Python MIT; 0 stars. HEAD dbf14ff. README SHA 84bf6bd2. size 0. one-dollar-tahoe TypeSafe Jev defense eval. ~74 demo; README has no ASR/FPR. rh-guard owns. notes.md §95."
+    },
+    {
+      "kind": "github",
+      "title": "seb4ez/jevguard",
+      "url": "https://github.com/seb4ez/jevguard",
+      "note": "Python MIT; 0 stars. HEAD 138c8fe. README SHA 7dc0906b. size 0. jevguard calibrator/cache/escape. ≠ hyperspaceai/jevcache. notes.md §95."
+    },
+    {
+      "kind": "github",
+      "title": "guilhem/jev-ci-selector",
+      "url": "https://github.com/guilhem/jev-ci-selector",
+      "note": "TypeScript; license null; 0 stars. HEAD 052073a. README SHA a9bb7653. size 432. jev-ci-selector CI shadow mode. Shadow default; enforce opt-in. rh-guard owns. notes.md §95."
+    },
+    {
+      "kind": "github",
+      "title": "webNeat/llama-jev",
+      "url": "https://github.com/webNeat/llama-jev",
+      "note": "TypeScript; license null; 0 stars. HEAD fdf989a. README SHA 5ec204af. size 8. llama-jev llama.cpp replica. Softmax ≠ Noul. ≠ TypeSafe ≠ pcdServer. notes.md §95."
     }
   ]
 }

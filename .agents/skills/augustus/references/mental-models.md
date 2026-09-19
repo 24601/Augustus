@@ -937,6 +937,54 @@ Formal methods **compose** with scoring. A Noul is a
 SENSOR. Hard-gating it as CI pass / HA write / authorship
 seal is the same theater as jev-gate §79.
 
+## Apply 1541 (`notes.md` §95)
+
+Same pillars, six more placements. Do **not** re-fold
+1441 / §92. Fresh PR; never reopen merged #7–#12. Do **not**
+re-fold §93 / §94. rh-guard owns the injection-firewall
+/ CI-gate cousins; Augustus owns placement. Skip Archer.
+Census not re-derived.
+
+Unique consecutive fragments:
+difficulty + policy thresholds + JSONL trace;
+jev-codex-pilot model + reasoning depth;
+keep/shadow/hybrid/reject;
+quarry evidence projection;
+Frank-ZY-Dou/awesome-jev robotics/3D/control;
+one-dollar-tahoe TypeSafe Jev defense eval;
+jevguard calibrator/cache/escape;
+jev-ci-selector CI shadow mode;
+llama-jev llama.cpp replica.
+petercr/jev-orchestrator ≠ FleeexCorp/jev-orchestrator.
+seb4ez/jevguard ≠ AseemPrasad/JevGuard ≠ pablozr/JevGuard.
+webNeat/llama-jev ≠ WiktorB2004/llama-index-jev.
+
+1. **Decision-as-plugin for SWE** —
+   difficulty + policy thresholds + JSONL trace.
+   jev-codex-pilot model + reasoning depth.
+   keep/shadow/hybrid/reject.
+2. **Evidence projection vs LLM summary** —
+   quarry evidence projection.
+3. **Soft judgment integrity** —
+   jevguard calibrator/cache/escape.
+   jev-ci-selector CI shadow mode.
+4. **Physical/control first-class domain** —
+   Frank-ZY-Dou/awesome-jev robotics/3D/control.
+5. **Harbor-jevals / injection-firewall** —
+   one-dollar-tahoe TypeSafe Jev defense eval.
+6. **llama.cpp replica** —
+   llama-jev llama.cpp replica.
+
+Soft Noul ≠ hard safety on every cluster.
+0.95 FINISH / 0.05 skip_below / 0.40 calibrator
+are **sensors**. Keep is a win. Pointer, never
+paraphrase. Text-state, not pixels. Static 74-row
+demo is not a rate. Softmax ≠ Noul.
+
+Formal methods **compose** with scoring. A Noul is a
+SENSOR. Hard-gating it as CI skip / injection firewall
+/ physical actuator is the same theater as jev-gate §79.
+
 ## Decision-design extras (any domain)
 
 ```text

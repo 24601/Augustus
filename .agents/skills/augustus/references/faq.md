@@ -2732,3 +2732,41 @@ confidence: Khmer 0.000 @ 0.952 is
 confidence-without-competence; route before the
 forward pass. Not a new species. Do not copy
 `pip install laya`. `notes.md` §94.
+
+Unique fragments (consecutive): difficulty + policy thresholds + JSONL trace; jev-codex-pilot model + reasoning depth; keep/shadow/hybrid/reject; quarry evidence projection; Frank-ZY-Dou/awesome-jev robotics/3D/control; one-dollar-tahoe TypeSafe Jev defense eval; jevguard calibrator/cache/escape; jev-ci-selector CI shadow mode; llama-jev llama.cpp replica; petercr/jev-orchestrator ≠ FleeexCorp/jev-orchestrator; seb4ez/jevguard ≠ AseemPrasad/JevGuard ≠ pablozr/JevGuard; webNeat/llama-jev ≠ WiktorB2004/llama-index-jev
+
+## Does jev-orchestrator pick an LLM by difficulty? Paste 0.95 as Harbor τ?
+
+No, and no. difficulty + policy thresholds + JSONL trace. GitHub description says LLM routing; live code is next-action Choice. FINISH blocked until validation. Mock without a key. petercr/jev-orchestrator ≠ FleeexCorp/jev-orchestrator. `notes.md` §95.
+
+## Is jev-codex-pilot a measured bake-off? Collapse into the orchestrator?
+
+No, and no. jev-codex-pilot model + reasoning depth. Thin marketing overlay + Kanban. Config is gateway key + provider. `notes.md` §95.
+
+## Is keep a failed migration? Force BERT/RAG onto Jev?
+
+No, and no. keep/shadow/hybrid/reject. 20-case *theirs* failed the **cost** gate; LLM remains fallback. Round 2 kept BERT/RAG. License null. `notes.md` §95.
+
+## Summarize quarry pages? Fail-closed if Jev is down? Collapse into savka777/jev-search?
+
+No, no, and no. quarry evidence projection. Pointer, never paraphrase. 5 s fail-open. p&lt;0.5 dropped; top 3 ranges. **≠** savka777/jev-search. `notes.md` §95.
+
+## Is Frank-ZY-Dou/awesome-jev walidboulanouar/awesome-jev-use-cases? Paste OpenRoboto $ as a success-rate? Send pixels?
+
+No, no, and no. Frank-ZY-Dou/awesome-jev robotics/3D/control. Text-state, not pixels. One seed-0 trial *theirs*. Do not re-card jev-drone / khordoo / HA-Jev. `notes.md` §95.
+
+## Quote one-dollar-tahoe ASR/FPR? Copy the attack list? Treat 74 rows as Harbor?
+
+No, no, and no. one-dollar-tahoe TypeSafe Jev defense eval. README has **no ASR/FPR**. Static ~74 demo, not a powered bench. Do not copy `attacks.json`. rh-guard owns the gate cousin. `notes.md` §95.
+
+## Is jevguard hyperspaceai/jevcache? Skip the escape? Treat 0.40 as Harbor τ?
+
+No, no, and no. jevguard calibrator/cache/escape. `UNRESOLVED_OR_OTHER`; `AMBIGUOUS_STATE` top p&lt;0.40 or margin&lt;0.15. Volatile fields masked. **≠** jevcache. seb4ez/jevguard ≠ AseemPrasad/JevGuard ≠ pablozr/JevGuard. `notes.md` §95.
+
+## Skip CI from skip_below 0.05? Is shadow the same as enforce?
+
+No, and no. jev-ci-selector CI shadow mode. Shadow default; enforce opt-in. 0.05 is an experiment, not a guarantee. Timeout/no-key → keep all. Mandatory/path rules beat Jev. rh-guard owns. `notes.md` §95.
+
+## Is llama-jev TypeSafe / a Noul? Paste 80 ms as a class ceiling?
+
+No, and no. llama-jev llama.cpp replica. Numbered-choice softmax ≠ Noul. 80 ms cold / 40 ms cache *theirs* on minicpm5-2b-q8. **≠** TypeSafe **≠** pcdServer **≠** chakuho. webNeat/llama-jev ≠ WiktorB2004/llama-index-jev. License null. `notes.md` §95.
