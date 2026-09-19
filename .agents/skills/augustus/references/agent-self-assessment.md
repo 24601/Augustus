@@ -235,6 +235,10 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    [pi-jev-gate](https://github.com/fivethirty/pi-jev-gate)
    pi-jev-gate fail-closed; choice is the verdict
    (`notes.md` §91).
+   Self-hosted econ / Confirm-before-act (placement):
+   Foq ~25ms/2.2GB local; pastepilot Confirm before act;
+   typesafe_agent_gates 27/27 / 31/31; dsh-jev can only gate;
+   ha-conversation-jev Jev→Grok (`notes.md` §92).
    Closed-vote extreme (no planner LLM):
    [JevOnly](https://github.com/buluoray/JevOnly) (`notes.md` §61).
    Host-owned product:

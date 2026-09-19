@@ -15135,3 +15135,422 @@ items 62–70; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
+
+## 92. Hourly 1441 HIGH (2026-09-19 ~14:41 Boise / ~20:41 UTC)
+
+Docs-only on a **fresh PR off main**
+(`cursor/hourly-1441-watch-286a`).
+**Never reopen merged** Augustus PR #3 / #4 / #5 /
+#7 / **#8**. Skip Archer. Quote READMEs. Mark
+*theirs*. No invented metrics. Hunches labeled.
+No wrappers, npm / `npx` / `uv` / `cargo` /
+`.env` / `TYPESAFE_API_KEY` / `OPENROUTER_API_KEY`
+/ `JEV_API_KEY` / OAuth `client_id` as recipes.
+
+Lane is Augustus: **mental models / architecture /
+Harbor-jevals / toolbelt**. Backend-agnostic
+categorization/scoring/decision class (Jev-like
+speed/econ), **not** a thin Jev-only dump. Soft Noul ≠
+hard safety (soft Noul ≠ hard safety). 0★ HIGHs still
+get real cards. Do **not** re-fold 1347 / §91. rh-guard
+**owns** the gate cousins; Augustus **owns placement**.
+
+### How-to-apply (nine clusters)
+
+1. **Self-hosted econ** — Foq ~25ms/2.2GB local.
+   rev prefill-only + HF jev-0.5b. robfrase/jev planning memo
+   (no app code). The economics race is
+   multi-architecture and increasingly local.
+   Sample `latency_ms` 32.4 is **not a bench**.
+   Do not paste Foq 100%/ECE 0.2% as a class ceiling.
+2. **Soft-judgment gate integrity** —
+   typesafe_agent_gates 27/27 / 31/31.
+   EpicEric/safe-sh static remainder (not pre-exec).
+   pastepilot Confirm before act. rh-guard owns the
+   gates; Augustus places the sensors. Fail-closed
+   unreachable vs fail-open missing key are
+   **polarities**, not proofs.
+3. **Retrieval as calibrated decision space** —
+   Jev-Reranker live Jev not yet measured.
+   sessionwise opt-in relevance. jev-search pointer sieve.
+   Embeddings stay candidate generators. Score ≠
+   truth. Fail-open if Jev is down.
+4. **Enterprise reflexes** — 400ms Salesforce WebMCP
+   (demo 50 ms Jev + 350 ms WebMCP; timestamps ≠
+   Harbor). typesafe-scheduler-diagnostics advisory
+   (does **not** place Pods; demo label agreement ≠
+   production accuracy).
+5. **Screenshot-free / CU** — droidjev screenshot-free
+   (AX → typed pick → adb; find ~0.6 s/iter *theirs*).
+   Tewoto1 jevcu planner still writes (Jev picks
+   op+target; Preview default). **≠** closed-vote
+   **≠** jev-ultrafast **≠** typesafe-computer-use.
+6. **Hybrid S1/S2** — ha-conversation-jev Jev→Grok
+   (FAST_MIN 0.80 / NOUL 0.55/0.40 *theirs*;
+   whole-home safety in **code**). dsh-jev can only gate
+   (never widen; default mock+shadow). S1 is the
+   fast path; S2 is leftover generation.
+7. **Harbor-jevals / SRE** —
+   jev-classification-benchmark specified not run
+   (probe $0.0000166 / 13× reasoning *theirs*; full
+   run ~$0.46 / 20 min **derived**).
+   jev-luna-pagerduty p≥0.50 (n=3000 seed 20260917
+   *theirs*; ≠ Loghub). rh-guard owns paging.
+8. **Laya densifies** — meldltd/meldecision laya-go ONNX
+   (goldens 4-decimal / tokens byte-identical
+   *theirs*). laya-doom never pixels. logixism/laya-api empty README.
+   akpsahan/laya ≠ Archer. Card **copies**
+   convaiinnovations/laya — do **not** re-paste vs-Jev
+   0.766 / ECE 0.081 / 32.8 ms as akpsahan’s
+   measurements. Build against Laya, not
+   Qwen3.8-27B-as-Archer.
+9. **Demos / unofficial toolbelt** —
+   choxos/jevchess engine owns truth.
+   jev-drive sim not AV. story-arc Jev never authors.
+   jev-hs-assistant HS6. golergka/jev-plays-starcraft-2 UI-verified ≠ API Victory.
+   awesome-jev-use-cases catalog (likes ≠ eval).
+   Nibir1/typesafe-go ≠ official.
+
+### Cards
+
+1. **Self-hosted econ**
+
+   - **[`yohanargentina-oss/Foq`](https://github.com/yohanargentina-oss/Foq)**
+     (Python MIT; **1★**; created 2026-09-19T00:21Z;
+     HEAD `950304f`; README SHA `fbe55c7a`; size
+     1170; homepage foq.fr). Local open Jev-class
+     typed decisions. README *theirs*: **25 ms P50**,
+     **2.2 GB**, 4 GB VRAM or CPU, **ECE 0.2%**,
+     **100% on a 150-case exam**, **40–500×** vs LLM,
+     RTX 4080 Super, replayable `scripts/exam_core.py`.
+     WAF fail-closed. `min_confidence` 0.95 sensor.
+     Foq ~25ms/2.2GB local. Do not paste 100%/ECE as
+     a class ceiling. Do not copy `pip` / install
+     recipes.
+   - **[`jaswanthsanjay88/rev`](https://github.com/jaswanthsanjay88/rev)**
+     (TypeScript; LICENSE Apache-2.0 / GitHub SPDX
+     **NOASSERTION**; **0★**; created 2026-09-19T20:22Z;
+     HEAD `c435382`; README SHA `bc68be74`; GitHub
+     `size` 0). Prefill-only Qwen2.5-0.5B LoRA +
+     pointer; `POST /v1/systemone`. Sample JSON
+     `latency_ms` **32.4** is a fixture, **not a
+     bench**. Companion Hub
+     [`jaswanthsanjay88/jev-0.5b`](https://huggingface.co/jaswanthsanjay88/jev-0.5b)
+     (sha `1044b44b`; **0 likes**); card titles itself
+     `rev-0.5b`. GitHub README links Hub
+     [`rev-0.5b`](https://huggingface.co/jaswanthsanjay88/rev-0.5b)
+     (distinct sha). This pin is `jev-0.5b` sha
+     `1044b44b`. Do not collapse the two Hub ids.
+     rev prefill-only + HF jev-0.5b.
+   - **[`robfrase/jev`](https://github.com/robfrase/jev)**
+     (no language this pass; LICENSE Apache / SPDX
+     **NOASSERTION**; **0★**; created 2026-09-19T19:56Z;
+     HEAD `9808965` on branch `quattro`; README SHA
+     `8d92fd16`; GitHub `size` 0). **Planning memo,
+     no app code.** README *theirs*: **85–114 ms p50**
+     Spark-X2.5-4B Q4; ECE ≤ 0.10 is a **gate**.
+     robfrase/jev planning memo. **≠** dannote/jev
+     **≠** hari007sh/jev.
+
+   **Mental model:** class-backend economics, not a
+   vendor race. Soft Noul ≠ hard safety: Foq 0.95 /
+   robfrase ECE ≤ 0.10 are **sensors**.
+
+   **Name lock:** always write **yohanargentina-oss/Foq**
+   and **jaswanthsanjay88/rev**. Hub `jev-0.5b` titles
+   itself `rev-0.5b`; GitHub README points at Hub
+   `rev-0.5b` (different sha). Do not invent a
+   LICENSE for SPDX-null GitHub.
+
+2. **Soft-judgment gate integrity** (rh-guard owns
+   the gates; Augustus owns placement)
+
+   - **[`ThiagaoBR/typesafe_agent_gates`](https://github.com/ThiagaoBR/typesafe_agent_gates)**
+     (Python Apache-2.0; **0★**; created
+     2026-09-19T20:19Z; HEAD `04a4bc9`; README SHA
+     `b2f0bb4d`; GitHub `size` 0). LangChain / Deep
+     Agents middleware: shell/DB/secrets gate +
+     triage + weakened-test review. README *theirs*:
+     **27/27** toolgate / **31/31** judgments on
+     `jev-1.13.0`; 36 tests fake classifiers;
+     `fail_closed=True` default; 0.5 / 0.6 / 0.8
+     **starting points**. typesafe_agent_gates 27/27 / 31/31.
+   - **[`EpicEric/safe-sh`](https://github.com/EpicEric/safe-sh)**
+     (Nix AGPL-3.0; **1★**; created 2026-09-18T23:53Z;
+     HEAD `51b1b0c`; README SHA `e80a9650`; size 30).
+     **HIGH delta of MED §58.** Static script
+     analysis, **not** pre-exec authorization.
+     `--warn-on` / `--error-on`. EpicEric/safe-sh static remainder.
+   - **[`buberlo/jev-pastepilot`](https://github.com/buberlo/jev-pastepilot)**
+     (TypeScript MIT; **0★**; created 2026-09-18T01:10Z;
+     HEAD `46ec47e`; README SHA `5676992d`). Confirm
+     before act; fail-open missing key; ≥0.75 / &lt;0.45
+     sensors; **no clipboard spyware**. pastepilot Confirm before act.
+
+   **Mental model:** allowlist / static remainder
+   proves the easy verbs; Jev judges leftovers.
+   Soft Noul ≠ hard safety: 0.5 / Confirm / warn-on
+   are sensors. rh-guard owns CI/exec gates.
+
+   **Name lock:** always write **ThiagaoBR/typesafe_agent_gates**.
+   Do not copy `uv` / keys.
+
+3. **Retrieval as calibrated decision space**
+
+   - **[`uspraveen/Jev-Reranker`](https://github.com/uspraveen/Jev-Reranker)**
+     (Python MIT; **0★**; HEAD `f0ceaaf`; README SHA
+     `f3fc6f64`). One Jev call per rerank. Offline-judge
+     eval n=300 seed 7 *theirs*: r@1 **0.1667** /
+     r@3 **0.8333** / F1 **1.0** / p50 ~1.3 ms —
+     **live Jev not yet measured**. `confidence_gate`
+     0.45 never scales value. fallback
+     `retrieval_order`. Jev-Reranker live Jev not yet measured.
+     Do not paste 0.1667 as live Jev.
+   - **[`Nasrallah-AL/sessionwise`](https://github.com/Nasrallah-AL/sessionwise)**
+     (TypeScript MIT; **0★**; created 2026-09-19T20:00Z;
+     HEAD `2b5e45c`; README SHA `b280e0d2`; GitHub
+     `size` 0). Local first; Jev opt-in
+     relevance/verify/analyze. Fail-open if Jev is
+     down. sessionwise opt-in relevance.
+   - **[`savka777/jev-search`](https://github.com/savka777/jev-search)**
+     (TypeScript MIT; **0★**; HEAD `77137f8`; README
+     SHA `b25d72c1`). Pi deep-research; Jev keeps
+     answering passages. README *theirs*: 24p
+     $0.01/7.4 s; 60p $0.03/15 s; 7 rounds 466p
+     $1.01/142 s. Score ≠ truth. jev-search pointer sieve.
+     Always write **savka777/jev-search**. **≠**
+     kazuhideoki/jev-search **≠**
+     superagents-lab/jev-search.
+
+   **Mental model:** retrieve wide → decide → evidence
+   set. Soft Noul ≠ hard safety: 0.45 / fail-open
+   missing Jev are sensors.
+
+   **Name lock:** always write **savka777/jev-search**.
+   **≠** kazuhideoki/jev-search **≠**
+   superagents-lab/jev-search **≠** Max-sm-yc/Jev-RAG
+   **≠** jev-sift.
+
+4. **Enterprise reflexes**
+
+   - **[`furuCRM-Inc/400ms-agentic-sf`](https://github.com/furuCRM-Inc/400ms-agentic-sf)**
+     (CSS; GitHub license **null**; **0★**; created
+     2026-09-19T19:58Z; HEAD `e0ee16f`; README SHA
+     `8bf5e49b`; GitHub `size` 0). Demo **50 ms Jev
+     + 350 ms WebMCP = 400 ms**; $50k VIP story.
+     5 Apex tests. Demo timestamps ≠ Harbor.
+     400ms Salesforce WebMCP. Do not invent a
+     LICENSE. Do not paste 400 ms as an SLA.
+   - **[`thevilledev/typesafe-scheduler-diagnostics`](https://github.com/thevilledev/typesafe-scheduler-diagnostics)**
+     (Go Apache-2.0; **0★**; created 2026-09-19T18:39Z;
+     HEAD `3165e80`; README SHA `5fbeaeaf`). Advisory
+     diagnoses for unschedulable Pods. **Does not
+     place Pods.** Demo label agreement ≠ production
+     accuracy. k8s 1.36.4. typesafe-scheduler-diagnostics advisory.
+
+   **Mental model:** categorization leaving the IDE.
+   Soft Noul ≠ hard safety: 0.97 demo confidence is
+   theater if treated as a refund proof.
+
+5. **Screenshot-free / CU**
+
+   - **[`mkruglikov/droidjev`](https://github.com/mkruglikov/droidjev)**
+     (JavaScript MIT; **0★**; created 2026-09-19T19:25Z;
+     HEAD `6d6f423`; README SHA `213ab849`).
+     Screenshot-free Android AX → Jev pick → adb.
+     jev-ultrafast cousin. find ~0.6 s/iter *theirs*,
+     no vision tokens. droidjev screenshot-free.
+     **≠** CU desktop **≠** ASR.
+   - **[`Tewoto1/Computer-use-and-control-with-Jev`](https://github.com/Tewoto1/Computer-use-and-control-with-Jev)**
+     (Python; GitHub license **null**; **0★**; created
+     2026-09-19T20:17Z; HEAD `84e3f71`; README SHA
+     `9822e26c`; GitHub `size` 0). jevcu: **planner
+     still writes**; Jev picks op+target. Preview
+     default. Smoke *theirs*: ~12 s / 324–380 ms.
+     Not closed-vote. Tewoto1 jevcu planner still writes.
+     **≠** droidjev **≠** jev-ultrafast.
+
+   **Mental model:** observe→score→act is
+   backend-agnostic; the planner/writer split is
+   the hole. Soft Noul ≠ hard safety: Preview is
+   the envelope.
+
+6. **Hybrid S1/S2**
+
+   - **[`luxus/ha-conversation-jev`](https://github.com/luxus/ha-conversation-jev)**
+     (Python; GitHub license **null**; **1★**; HEAD
+     `07b6b87`; README SHA `5426b3dd`). Jev fast-path
+     + Grok leftover. FAST_MIN **0.80** / NOUL
+     **0.55/0.40** *theirs*. Whole-home safety in
+     **code** (`target_area=none` never fires all).
+     ha-conversation-jev Jev→Grok. **≠** HA-Jev **≠**
+     ha-switchboard. Do **not** copy OAuth
+     `client_id`.
+   - **[`buberlo/dsh-jev`](https://github.com/buberlo/dsh-jev)**
+     (TypeScript MIT; **2★**; HEAD `6e907bd`; README
+     SHA `bcb7a907`). **HIGH delta of MED §59.** Can
+     only gate, never widen. 120 tests. Default
+     mock+shadow. dsh-jev can only gate.
+
+   **Mental model:** S1 decides; S2 generates leftover;
+   code owns actuators. Soft Noul ≠ hard safety:
+   FAST_MIN 0.80 is a sensor; HA remains execution.
+
+7. **Harbor-jevals / SRE**
+
+   - **[`rachit-srivastava-devx/jev-classification-benchmark`](https://github.com/rachit-srivastava-devx/jev-classification-benchmark)**
+     (Python; GitHub license **null**; **0★**; created
+     2026-09-19T19:53Z; HEAD `0391891`; README SHA
+     `dac5ad85`; GitHub `size` 0). **Specified not
+     run.** Probe *theirs*: Jev $0.0000166; gemini
+     reasoning **13×**; full run ~$0.46 / 20 min
+     **derived**. jev-classification-benchmark specified not run.
+   - **[`reachjalil/jev-luna-pagerduty-trigger`](https://huggingface.co/datasets/reachjalil/jev-luna-pagerduty-trigger)**
+     (HF dataset MIT; **0 likes**; **92** downloads;
+     sha `ff09d859`). Synthetic n=3000 seed
+     20260917. Jev v3 p≥0.50 recall/prec **1.000** /
+     $0.062 vs Luna 0.962 / $0.320 *theirs*. ≠
+     Loghub. jev-luna-pagerduty p≥0.50. rh-guard
+     owns paging.
+
+   **Mental model:** Harbor-jevals for ops: measure
+   the instrument, then the score. Soft Noul ≠ hard
+   safety: p≥0.50 is *theirs* on synthetic logs.
+
+8. **Laya densifies** (Archer still promised-not-landed)
+
+   - **[`meldltd/meldecision`](https://github.com/meldltd/meldecision)**
+     (Go; SPDX **NOASSERTION**; **0★**; HEAD
+     `980fb30`; README SHA `4180ce08`; title
+     **laya-go**). ONNX GoFiber. Goldens 4-decimal /
+     tokens byte-identical *theirs*. Example timing
+     tokenize 6.9 / infer 312.4 / total 319.5 ms.
+     int8 billing 0.963→0.938. meldltd/meldecision laya-go ONNX.
+     **≠** NandhaKishorM/laya.
+   - **[`shantanugoel/laya-doom`](https://github.com/shantanugoel/laya-doom)**
+     (Python; GitHub license **null**; **0★**; HEAD
+     `23877f6`; README SHA `2f14f7c8`). **Never
+     pixels**; ViZDoom keywords + scripted Route.
+     laya-doom never pixels. **≠** blackwood **≠**
+     Archer.
+   - **[`logixism/laya-api`](https://github.com/logixism/laya-api)**
+     (Python; GitHub license **null**; **0★**; created
+     2026-09-19T20:24Z; HEAD `d73ec25`; README SHA
+     `e69de29b` **0 bytes**; GitHub `size` 0).
+     FastAPI; `laya.load("convaiinnovations/laya")`;
+     `/health` + authed `/predict`; Python ≥3.14;
+     laya≥0.3.3. logixism/laya-api empty README.
+   - **[`akpsahan/laya`](https://huggingface.co/akpsahan/laya)**
+     (**0 likes**; created 2026-09-19T18:53Z; sha
+     `d96df164`; card license apache-2.0 / API
+     None). Card **copies convaiinnovations/laya**
+     (`laya.load("convaiinnovations/laya")`; vs-Jev
+     0.766 / ECE 0.081 / 32.8 ms already Nandha).
+     **Do not re-paste as akpsahan’s measurements.**
+     akpsahan/laya ≠ Archer. **≠** Qwen3.8-27B.
+
+   **Mental model:** packaging ≠ new species; Hub
+   copy ≠ new bake-off. Soft Noul ≠ hard safety:
+   int8 0.938 is a drift, not a Harbor τ.
+
+9. **Demos / unofficial toolbelt**
+
+   - **[`choxos/jevchess`](https://github.com/choxos/jevchess)**
+     (JavaScript MIT; **1★**; HEAD `1172d36`; README
+     SHA `7a94657f`; size 8190; jevchess.xera.ac).
+     Engine owns truth; ~300 ms / ~3k tok / game
+     well under a cent *theirs*. choxos/jevchess engine owns truth.
+     **≠** chess-coach **≠** jev-reviewer.
+   - **[`vedssharma/jev-drive`](https://github.com/vedssharma/jev-drive)**
+     (JavaScript; GitHub license **null**; **0★**;
+     created 2026-09-19T20:30Z; HEAD `11c3888`;
+     README SHA `ddbcbcf1`; GitHub `size` 0). Sim
+     not AV. Jev fail pauses; no scripted
+     substitute. Smoke 2026-09-19 `jev-1.13.0` not
+     a bench. jev-drive sim not AV.
+   - **[`amali-s/story-arc`](https://github.com/amali-s/story-arc)**
+     (Python; GitHub license **null**; **0★**; HEAD
+     `8cec95c`; README SHA `1fcd56f1`). Jev never
+     authors the chart; compose 0.7 / 0.5 / 0.6
+     sensors. story-arc Jev never authors.
+   - **[`newbie1668/jev-hs-assistant`](https://github.com/newbie1668/jev-hs-assistant)**
+     (TypeScript; GitHub license **null**; **0★**;
+     created 2026-09-19T20:34Z; HEAD `7acba2c`;
+     README SHA `48c887f3`; GitHub `size` 0). Choice
+     over legal HS 2022.0 children; Post always
+     blocked; mock if no key. jev-hs-assistant HS6.
+   - **[`golergka/jev-plays-starcraft-2`](https://github.com/golergka/jev-plays-starcraft-2)**
+     (Python; GitHub license **null**; **1★**; HEAD
+     `42579ce`; README SHA `62186feb`). UI-verified
+     Liberation Day **3:44** / Outlaws **27:57**
+     *theirs*; Zero Hour uncompleted; API Victory ≠
+     UI. Soft spend cap `JEV_USD_PER_5_MIN=0.10`.
+     golergka/jev-plays-starcraft-2 UI-verified ≠ API Victory.
+   - **[`walidboulanouar/awesome-jev-use-cases`](https://github.com/walidboulanouar/awesome-jev-use-cases)**
+     (CC0; **2★**; HEAD `975bbaf`; README SHA
+     `0d774bba`, ~100k). Unofficial catalog; likes ≠
+     eval. awesome-jev-use-cases catalog. **≠**
+     awesomejev.com census.
+   - **[`Nibir1/typesafe-go`](https://github.com/Nibir1/typesafe-go)**
+     (Go Apache-2.0; **0★**; HEAD `91126ff`; README
+     SHA `0b6cc51f`). Unofficial. Analyzers
+     `atomicquestion` / `jaggededge` /
+     `confidencecheck`. Nibir1/typesafe-go ≠ official.
+     **≠** rust community SDK.
+
+   **Mental model:** engine / physics / taxonomy /
+   Post stay exact; Jev owns judgment. Soft Noul ≠
+   hard safety: 0.7 / 0.5 / 0.6 / $0.10 are
+   sensors. API Victory as UI win is theater.
+
+### Theater (do not)
+
+Foq 100%/ECE 0.2% as class ceiling; 400 ms as SLA;
+Reranker 0.1667 as live Jev; akpsahan vs-Jev as a
+new measure; scheduler demo agreement as accuracy;
+StarCraft API Victory as UI win; Qwen3.8-27B as
+Archer.
+
+### Census (user-provided; not re-derived)
+
+Archer Hume open-weight still **NOT landed** (HF
+empty; tracker promised). Tracker likes **50**
+(was 49 at 1347) `lastModified`
+**2026-09-19T18:37:18Z** **UNCHANGED**. Laya yes.
+Blackwood **ABSENT**. SemIf **1873** (+7). jevlike
+**969** (+2). TypeAR-AI/TypeAR **10** flat.
+Awesomejev flat **561/27007**.
+
+### Not
+
+Not a TypeSafe how-to. Not a Jev skill dump. Not
+wrappers. Do not copy `TYPESAFE_API_KEY` /
+`OPENROUTER_API_KEY` / `JEV_API_KEY` / `uv` /
+`npx` / `cargo` / plugin-marketplace install /
+`.env` / OAuth `client_id`. Do not re-fold 1347 /
+§91. Do not re-card HA-Jev / ha-switchboard /
+jev-ultrafast / typesafe-computer-use /
+NandhaKishorM/laya / convaiinnovations/laya /
+dannote/jev / hari007sh/jev. rh-guard still owns
+typesafe_agent_gates / safe-sh / pastepilot /
+luna-pagerduty as gate cousins — Augustus only
+cross-refs placement.
+
+### Curated status
+
+1441 HIGH **folded** (28 HIGH in nine clusters;
+gate cousins as rh-guard cross-refs). 1347 / §91
+**not re-carded**. Archer still **NOT landed**.
+Census not re-derived.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`judgment-class.md`; `validation.md`;
+`applied-mappings.md`; `mappings.md`;
+`toolbox-mapping.md`; `composition-algebra.md`
+items 71–79; `question-design.md`;
+`methods-catalog.md`; `formal-methods.md`;
+`agent-self-assessment.md`. Hunches labeled.
+No wrapper.

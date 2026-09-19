@@ -413,6 +413,16 @@ implicit_true included in yes. **≠** jev-judge-bench.
 — nanoprune 2.8MB ECE 2.58%. Distill ≠ hosted Noul.
 Do not Noul-rerank already-good retrieval
 (typed-judge-kit 14/15→13/15). `notes.md` §91.
+**Calibrated rerank / pointer sieve (Empirical as README;
+2026-09-19 ~20:41):**
+[Jev-Reranker](https://github.com/uspraveen/Jev-Reranker)
+— Jev-Reranker live Jev not yet measured. r@1 0.1667
+is offline-judge. [jev-search](https://github.com/savka777/jev-search)
+— jev-search pointer sieve. Score ≠ truth.
+Always **savka777/jev-search**. **≠**
+kazuhideoki/jev-search **≠** superagents-lab/jev-search.
+[sessionwise](https://github.com/Nasrallah-AL/sessionwise)
+— sessionwise opt-in relevance. `notes.md` §92.
 
 ## 5. Hierarchy → bounded heuristic search
 
@@ -789,6 +799,12 @@ in copy. `notes.md` §90.
 — alsoleg89/decide packing VOI. Keep bulk decisions
 on disk; agent sees summary + review. 0.8 ≠ 80%
 accuracy. **≠** jev-sift. `notes.md` §91.
+**Screenshot-free / packing / HA fast-path VOI (Empirical as README;
+2026-09-19 ~20:41):**
+droidjev screenshot-free (~0.6 s/iter *theirs*).
+Tewoto1 jevcu planner still writes (324–380 ms *theirs*).
+ha-conversation-jev Jev→Grok. dsh-jev can only gate.
+400ms Salesforce WebMCP. `notes.md` §92.
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs
@@ -1233,6 +1249,16 @@ bounded LLM handoff. Allowlist / freshness / idempotency
 [HA-Jev](https://github.com/AboveColin/HA-Jev) (SDT
 criterion in mapping §7). Not for locks/heaters. Skip
 Archer (`notes.md` §87).
+**Hybrid leftover / can-only-gate (Empirical as README;
+2026-09-19 ~20:41):**
+[ha-conversation-jev](https://github.com/luxus/ha-conversation-jev)
+(license null; **1★**) — ha-conversation-jev Jev→Grok.
+FAST_MIN 0.80 / NOUL 0.55/0.40 *theirs*. Whole-home
+safety in **code**. **≠** HA-Jev **≠** ha-switchboard.
+[dsh-jev](https://github.com/buberlo/dsh-jev) (MIT;
+**2★**) — dsh-jev can only gate. HIGH delta of MED
+§59. Default mock+shadow. Sensor, not a grant.
+Do not copy OAuth `client_id`. `notes.md` §92.
 **Authorship / jevtest-as-merge-seal (rh-guard owns the
 gate cousin; 2026-09-19 ~16:52):**
 [jev-authorship-check](https://github.com/webstercharly/jev-authorship-check)
@@ -1880,9 +1906,11 @@ routing 0.80–0.94 vs <0.50 across 41 files; coarse hint is not;
 ~$0.002 fixtures / ~$0.015 41 files; second run zero requests.
 Formal methods compose with soft judgment **without hard-gating**
 a Noul as a proof. `tenbin` owns the lint skill. License null
-this pass. MED cousin: [safe-sh](https://github.com/EpicEric/safe-sh)
+this pass. MED cousin, **HIGH delta §92**:
+[safe-sh](https://github.com/EpicEric/safe-sh)
 (AGPL-3.0) static shell-script analysis — not pre-exec
-authorization (`notes.md` §58). Do not copy pnpm.
+authorization. EpicEric/safe-sh static remainder
+(`notes.md` §58, §92). Do not copy pnpm.
 Compaction polarity is the other way:
 [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
 — code proves mutating / dangerous shell → `keep_full`; the encoder

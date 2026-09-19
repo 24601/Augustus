@@ -599,6 +599,41 @@ Architecture / mental models / Harbor-jevals / toolbelt, not a `uv` / `npx` / pl
 
 Census **not re-derived**. Archer still NOT landed.
 
+### Hourly ~14:41 Boise 2026-09-19 / 20:41 UTC (1441 HIGH)
+
+Architecture / mental models / Harbor-jevals / toolbelt, not a `uv` / `npx` / plugin-marketplace catalog. `notes.md` §92. Skip Archer. Quote READMEs. Soft Noul ≠ hard safety. Do **not** re-fold 1347 / §91. Fresh PR; never reopen merged #3 / #4 / #5 / #7 / **#8**. 0★ HIGHs still get real cards. rh-guard owns the gate cousins; Augustus owns placement.
+
+- **yohanargentina-oss/Foq** — MIT; **1★**; README SHA `fbe55c7a`. Foq ~25ms/2.2GB local. 25 ms P50 / ECE 0.2% / 100% 150-case *theirs*. Do not paste as a class ceiling.
+- **jaswanthsanjay88/rev** — LICENSE Apache-2.0 / SPDX NOASSERTION; **0★**; README SHA `bc68be74`; size 0. rev prefill-only + HF jev-0.5b. Sample `latency_ms` 32.4 not a bench. Companion Hub sha `1044b44b`.
+- **robfrase/jev** — LICENSE Apache / SPDX NOASSERTION; **0★**; README SHA `8d92fd16`; size 0. robfrase/jev planning memo. **≠** dannote/jev **≠** hari007sh/jev.
+- **ThiagaoBR/typesafe_agent_gates** — Apache-2.0; **0★**; README SHA `b2f0bb4d`; size 0. typesafe_agent_gates 27/27 / 31/31. rh-guard owns.
+- **EpicEric/safe-sh** — AGPL-3.0; **1★**; README SHA `e80a9650`. EpicEric/safe-sh static remainder. HIGH delta of MED §58.
+- **buberlo/jev-pastepilot** — MIT; **0★**; README SHA `5676992d`. pastepilot Confirm before act. rh-guard owns.
+- **uspraveen/Jev-Reranker** — MIT; **0★**; README SHA `f3fc6f64`. Jev-Reranker live Jev not yet measured. r@1 0.1667 offline *theirs*.
+- **Nasrallah-AL/sessionwise** — MIT; **0★**; README SHA `b280e0d2`; size 0. sessionwise opt-in relevance. Fail-open if Jev is down.
+- **savka777/jev-search** — MIT; **0★**; README SHA `b25d72c1`. jev-search pointer sieve. Score ≠ truth. **≠** kazuhideoki/jev-search **≠** superagents-lab/jev-search.
+- **furuCRM-Inc/400ms-agentic-sf** — license null; **0★**; README SHA `8bf5e49b`; size 0. 400ms Salesforce WebMCP. Demo timestamps ≠ Harbor.
+- **thevilledev/typesafe-scheduler-diagnostics** — Apache-2.0; **0★**; README SHA `5fbeaeaf`. typesafe-scheduler-diagnostics advisory. Does not place Pods.
+- **mkruglikov/droidjev** — MIT; **0★**; README SHA `213ab849`. droidjev screenshot-free. **≠** jev-ultrafast.
+- **Tewoto1/Computer-use-and-control-with-Jev** — license null; **0★**; README SHA `9822e26c`; size 0. Tewoto1 jevcu planner still writes.
+- **luxus/ha-conversation-jev** — license null; **1★**; README SHA `5426b3dd`. ha-conversation-jev Jev→Grok. **≠** HA-Jev. Do not copy OAuth `client_id`.
+- **buberlo/dsh-jev** — MIT; **2★**; README SHA `bcb7a907`. dsh-jev can only gate. HIGH delta of MED §59.
+- **rachit-srivastava-devx/jev-classification-benchmark** — license null; **0★**; README SHA `dac5ad85`; size 0. jev-classification-benchmark specified not run.
+- **reachjalil/jev-luna-pagerduty-trigger** — HF dataset MIT; 0 likes; sha `ff09d859`. jev-luna-pagerduty p≥0.50. ≠ Loghub. rh-guard owns paging.
+- **meldltd/meldecision** — SPDX NOASSERTION; **0★**; README SHA `4180ce08`. meldltd/meldecision laya-go ONNX.
+- **shantanugoel/laya-doom** — license null; **0★**; README SHA `2f14f7c8`. laya-doom never pixels. **≠** Archer.
+- **logixism/laya-api** — license null; **0★**; README SHA `e69de29b` 0 bytes. logixism/laya-api empty README.
+- **akpsahan/laya** — HF; 0 likes; sha `d96df164`. akpsahan/laya ≠ Archer. Do not re-paste Nandha vs-Jev. **≠** Qwen3.8-27B.
+- **choxos/jevchess** — MIT; **1★**; README SHA `7a94657f`. choxos/jevchess engine owns truth.
+- **vedssharma/jev-drive** — license null; **0★**; README SHA `ddbcbcf1`; size 0. jev-drive sim not AV.
+- **amali-s/story-arc** — license null; **0★**; README SHA `1fcd56f1`. story-arc Jev never authors.
+- **newbie1668/jev-hs-assistant** — license null; **0★**; README SHA `48c887f3`; size 0. jev-hs-assistant HS6.
+- **golergka/jev-plays-starcraft-2** — license null; **1★**; README SHA `62186feb`. golergka/jev-plays-starcraft-2 UI-verified ≠ API Victory.
+- **walidboulanouar/awesome-jev-use-cases** — CC0; **2★**; README SHA `0d774bba`. awesome-jev-use-cases catalog. **≠** awesomejev.com.
+- **Nibir1/typesafe-go** — Apache-2.0; **0★**; README SHA `0b6cc51f`. Nibir1/typesafe-go ≠ official.
+
+Census **not re-derived**. Archer still NOT landed; tracker likes **50** lastModified UNCHANGED 2026-09-19T18:37:18Z; SemIf 1873 (+7); jevlike 969 (+2); TypeAR 10 flat; Awesomejev 561/27007 flat.
+
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs
 Apalache; DST trio Antithesis / Resonate HQ / PufferLib):

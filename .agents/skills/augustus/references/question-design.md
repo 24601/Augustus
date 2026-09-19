@@ -193,6 +193,25 @@ request, and treat a stale pin as a prior, never a setting.
 | Treat system-one-skills as a judge | Name ≠ species | 0thernet/system-one-skills deterministic verify. `notes.md` §91 |
 | Hard-argmax typed-gate / 0.51 as a yes | Band is refusal | typed-gate band [0.40,0.60] is refusal. `notes.md` §91 |
 | Treat pi-jev-gate as fail-open / restore ask | Polarity; binary | pi-jev-gate fail-closed; choice is the verdict. `notes.md` §91 |
+| Paste Foq 100%/ECE 0.2% as a class ceiling | Local exam; still *theirs* | Foq ~25ms/2.2GB local. `notes.md` §92 |
+| Quote rev `latency_ms` 32.4 as a bench | Sample JSON | rev prefill-only + HF jev-0.5b. `notes.md` §92 |
+| Treat robfrase/jev as running code / collapse into dannote | Planning memo | robfrase/jev planning memo. `notes.md` §92 |
+| Treat 27/27 as Harbor / skip Confirm | Probe; Confirm is the gate | typesafe_agent_gates 27/27 / 31/31. pastepilot Confirm before act. `notes.md` §92 |
+| Treat safe-sh as pre-exec allow | Static remainder | EpicEric/safe-sh static remainder. `notes.md` §92 |
+| Quote Reranker 0.1667 as live Jev | Offline lexical | Jev-Reranker live Jev not yet measured. `notes.md` §92 |
+| Fail-closed sessionwise if Jev is down | Opt-in; fail-open | sessionwise opt-in relevance. `notes.md` §92 |
+| Treat jev-search scores as truth / collapse into kazuhideoki | Pointer sieve; namesake | jev-search pointer sieve. **savka777/jev-search ≠ kazuhideoki/jev-search ≠ superagents-lab/jev-search**. `notes.md` §92 |
+| Paste 400 ms as an SLA | Demo timestamps | 400ms Salesforce WebMCP. `notes.md` §92 |
+| Let scheduler plugin place Pods | Advisory | typesafe-scheduler-diagnostics advisory. `notes.md` §92 |
+| Send Android screenshots for the decision | AX observe | droidjev screenshot-free. `notes.md` §92 |
+| Treat jevcu as closed-vote | Planner still writes | Tewoto1 jevcu planner still writes. `notes.md` §92 |
+| Collapse ha-conversation-jev into HA-Jev / copy OAuth client_id | Hybrid leftover | ha-conversation-jev Jev→Grok. `notes.md` §92 |
+| Let dsh-jev widen tools | Can only gate | dsh-jev can only gate. `notes.md` §92 |
+| Paste $0.46 as a measured classification run | Specified not run | jev-classification-benchmark specified not run. `notes.md` §92 |
+| Auto-page from luna-pagerduty 1.000 | Synthetic; rh-guard | jev-luna-pagerduty p≥0.50. `notes.md` §92 |
+| Quote akpsahan vs-Jev as a new measure / treat as Archer | Hub copy | akpsahan/laya ≠ Archer. meldltd/meldecision laya-go ONNX. laya-doom never pixels. logixism/laya-api empty README. `notes.md` §92 |
+| Let Jev own chess / AV / customs Post / API Victory | Engine / sim / taxonomy | choxos/jevchess engine owns truth. jev-drive sim not AV. story-arc Jev never authors. jev-hs-assistant HS6. golergka/jev-plays-starcraft-2 UI-verified ≠ API Victory. `notes.md` §92 |
+| Treat typesafe-go as official / likes as eval | Unofficial; catalog | Nibir1/typesafe-go ≠ official. awesome-jev-use-cases catalog. `notes.md` §92 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

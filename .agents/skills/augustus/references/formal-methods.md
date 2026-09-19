@@ -695,6 +695,30 @@ hallucination / 8,026 tokens as class ceilings, or
 treating a skill named System One as a judge is the
 same theater.
 
+1441 envelopes (`notes.md` §92), still outside the extras
+template: Foq ~25ms/2.2GB local; rev prefill-only + HF jev-0.5b;
+robfrase/jev planning memo; typesafe_agent_gates 27/27 / 31/31;
+EpicEric/safe-sh static remainder; pastepilot Confirm before act;
+Jev-Reranker live Jev not yet measured; sessionwise opt-in relevance;
+jev-search pointer sieve; 400ms Salesforce WebMCP;
+Always **savka777/jev-search**. **≠** kazuhideoki/jev-search
+**≠** superagents-lab/jev-search.
+typesafe-scheduler-diagnostics advisory; droidjev screenshot-free;
+Tewoto1 jevcu planner still writes; ha-conversation-jev Jev→Grok;
+dsh-jev can only gate; jev-classification-benchmark specified not run;
+jev-luna-pagerduty p≥0.50; meldltd/meldecision laya-go ONNX;
+laya-doom never pixels; logixism/laya-api empty README;
+akpsahan/laya ≠ Archer; choxos/jevchess engine owns truth;
+jev-drive sim not AV; story-arc Jev never authors;
+jev-hs-assistant HS6; golergka/jev-plays-starcraft-2 UI-verified ≠ API Victory;
+awesome-jev-use-cases catalog; Nibir1/typesafe-go ≠ official.
+Soft Noul ≠ hard safety: Foq 0.95 / gates 0.5/0.6/0.8 /
+Confirm ≥0.75 / FAST_MIN 0.80 / p≥0.50 / compose 0.7/0.5/0.6
+are **sensors**. rh-guard owns the gate cousins.
+Hard-gating Confirm as optional, pasting Foq 100%/ECE 0.2% /
+Reranker 0.1667 / 400 ms / akpsahan vs-Jev as class ceilings,
+or treating Qwen3.8-27B as Archer is the same theater.
+
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a
 hybrid "verified by Noul" API.

@@ -1288,6 +1288,92 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   `OPENROUTER_API_KEY` / `JEV_API_KEY` / `uv` / `npx`
   / plugin-marketplace install / `.env`. No wrapper.
   No invented metrics.
+- Hourly 1441 HIGH (`research/notes.md` §92): **Skip
+  Archer.** Docs-only on a **fresh PR off main**. Never
+  reopen merged #3 / #4 / #5 / #7 / **#8**. Do **not**
+  re-fold 1347 / §91. How-to-apply / mental models /
+  architecture / Harbor-jevals / toolbelt — not a thin
+  Jev skill dump. Backend-agnostic
+  categorization/scoring/decision class (Jev-like
+  speed/econ). rh-guard owns the gate cousins;
+  Augustus owns placement. Formal methods compose with
+  scoring; a Noul is a SENSOR; pasting Foq 100%/ECE
+  0.2% / Reranker 0.1667 / 400 ms / akpsahan vs-Jev as
+  class ceilings, or treating Qwen3.8-27B as Archer, is
+  soundness theater. Nine clusters:
+  **Self-hosted econ**
+  ([Foq](https://github.com/yohanargentina-oss/Foq)
+  ~25ms/2.2GB local; **1★**;
+  [rev](https://github.com/jaswanthsanjay88/rev)
+  prefill-only + HF jev-0.5b; **0★**;
+  [robfrase/jev](https://github.com/robfrase/jev)
+  planning memo);
+  **Soft-judgment gate integrity**
+  ([typesafe_agent_gates](https://github.com/ThiagaoBR/typesafe_agent_gates)
+  27/27 / 31/31; [safe-sh](https://github.com/EpicEric/safe-sh)
+  static remainder; **1★**;
+  [jev-pastepilot](https://github.com/buberlo/jev-pastepilot)
+  Confirm before act; rh-guard owns);
+  **Retrieval as calibrated decision space**
+  ([Jev-Reranker](https://github.com/uspraveen/Jev-Reranker)
+  live Jev not yet measured;
+  [sessionwise](https://github.com/Nasrallah-AL/sessionwise)
+  opt-in relevance;
+  [jev-search](https://github.com/savka777/jev-search)
+  pointer sieve; **≠** kazuhideoki/jev-search
+  **≠** superagents-lab/jev-search);
+  **Enterprise reflexes**
+  ([400ms-agentic-sf](https://github.com/furuCRM-Inc/400ms-agentic-sf)
+  Salesforce WebMCP;
+  [typesafe-scheduler-diagnostics](https://github.com/thevilledev/typesafe-scheduler-diagnostics)
+  advisory);
+  **Screenshot-free / CU**
+  ([droidjev](https://github.com/mkruglikov/droidjev)
+  screenshot-free;
+  [jevcu](https://github.com/Tewoto1/Computer-use-and-control-with-Jev)
+  planner still writes);
+  **Hybrid S1/S2**
+  ([ha-conversation-jev](https://github.com/luxus/ha-conversation-jev)
+  Jev→Grok; **1★**;
+  [dsh-jev](https://github.com/buberlo/dsh-jev)
+  can only gate; **2★**);
+  **Harbor-jevals / SRE**
+  ([jev-classification-benchmark](https://github.com/rachit-srivastava-devx/jev-classification-benchmark)
+  specified not run;
+  [jev-luna-pagerduty-trigger](https://huggingface.co/datasets/reachjalil/jev-luna-pagerduty-trigger)
+  p≥0.50);
+  **Laya densifies**
+  ([meldecision](https://github.com/meldltd/meldecision)
+  laya-go ONNX;
+  [laya-doom](https://github.com/shantanugoel/laya-doom)
+  never pixels;
+  [laya-api](https://github.com/logixism/laya-api)
+  empty README;
+  [akpsahan/laya](https://huggingface.co/akpsahan/laya)
+  ≠ Archer);
+  **Demos / unofficial toolbelt**
+  ([jevchess](https://github.com/choxos/jevchess)
+  engine owns truth; **1★**;
+  [jev-drive](https://github.com/vedssharma/jev-drive)
+  sim not AV;
+  [story-arc](https://github.com/amali-s/story-arc)
+  Jev never authors;
+  [jev-hs-assistant](https://github.com/newbie1668/jev-hs-assistant)
+  HS6;
+  [jev-plays-starcraft-2](https://github.com/golergka/jev-plays-starcraft-2)
+  UI-verified ≠ API Victory; **1★**;
+  [awesome-jev-use-cases](https://github.com/walidboulanouar/awesome-jev-use-cases)
+  catalog; **2★**;
+  [typesafe-go](https://github.com/Nibir1/typesafe-go)
+  ≠ official). Soft Noul ≠ hard safety. 0★ HIGHs
+  still get real cards. Census (user-provided; not
+  re-derived): Archer still NOT landed; tracker likes
+  **50** lastModified UNCHANGED
+  2026-09-19T18:37:18Z; SemIf 1873 (+7); jevlike 969
+  (+2); TypeAR 10 flat; Awesomejev 561/27007 flat.
+  Do not copy `TYPESAFE_API_KEY` / OAuth `client_id` /
+  `uv` / `npx` / `.env`. No wrapper. No invented
+  metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

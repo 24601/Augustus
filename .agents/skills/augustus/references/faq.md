@@ -2505,3 +2505,115 @@ rh-guard owns the gate cousin. `notes.md` §91.
 
 No, and no. pi-jev-gate fail-closed; choice is the verdict.
 Ask band removed. **≠** pi-jev-approver. `notes.md` §91.
+
+## Paste Foq 100%/ECE 0.2% as a class ceiling? Is 25 ms a Harbor number?
+
+No, and no. Foq ~25ms/2.2GB local. *theirs* on RTX 4080 Super / 150-case exam. Recalibrate on your data. `notes.md` §92.
+
+## Is rev a measured replica? Quote `latency_ms` 32.4?
+
+No. rev prefill-only + HF jev-0.5b. 32.4 is a sample JSON field, not a bench. Card titles itself `rev-0.5b`. GitHub README points at Hub `rev-0.5b` (distinct sha). Do not collapse the two Hub ids. `notes.md` §92.
+
+## Is robfrase/jev a running local Jev? Collapse into dannote/jev?
+
+No, and no. robfrase/jev planning memo. No app code. ECE ≤ 0.10 is a **gate**. **≠** dannote/jev **≠** hari007sh/jev. `notes.md` §92.
+
+## Treat typesafe_agent_gates 27/27 as a Harbor win? Soft Noul as hard deny?
+
+No. typesafe_agent_gates 27/27 / 31/31 *theirs* on labelled probes. 0.5/0.6/0.8 starting points. rh-guard owns the gate cousin. `notes.md` §92.
+
+## Is safe-sh a pre-exec allow/block? Collapse into toolgate?
+
+No. EpicEric/safe-sh static remainder. Not pre-exec authorization. HIGH delta of MED §58. `notes.md` §92.
+
+## Let pastepilot act without Confirm? Watch the clipboard?
+
+No, and no. pastepilot Confirm before act. Fail-open missing key. ≥0.75/&lt;0.45 sensors. No clipboard spyware. rh-guard owns. `notes.md` §92.
+
+## Quote Jev-Reranker r@1 0.1667 as live Jev? Confidence scales value?
+
+No, and no. Jev-Reranker live Jev not yet measured. Offline lexical judge. `confidence_gate` 0.45 never scales value. `notes.md` §92.
+
+## Is sessionwise a required Jev sieve? Fail-closed if Jev is down?
+
+No, and no. sessionwise opt-in relevance. Local first. Fail-open if Jev is down. `notes.md` §92.
+
+## Treat jev-search scores as truth? Dump every page into the LLM? Collapse into kazuhideoki/jev-search?
+
+No, no, and no. jev-search pointer sieve. Score ≠ truth. Counts follow search. Always **savka777/jev-search**. **≠** kazuhideoki/jev-search **≠** superagents-lab/jev-search. `notes.md` §92.
+
+## Is 400 ms a Salesforce SLA? Screen-scrape then stream?
+
+No, and no. 400ms Salesforce WebMCP. Demo 50 ms Jev + 350 ms WebMCP. Timestamps ≠ Harbor. `notes.md` §92.
+
+## Let the scheduler plugin place Pods? Quote demo agreement as accuracy?
+
+No, and no. typesafe-scheduler-diagnostics advisory. Does not place Pods. Demo label agreement ≠ production accuracy. `notes.md` §92.
+
+## Send Android screenshots to the frontier for the decision? Collapse droidjev into jev-ultrafast?
+
+No, and no. droidjev screenshot-free. AX → typed pick → adb. find ~0.6 s/iter *theirs*. **≠** jev-ultrafast **≠** typesafe-computer-use. `notes.md` §92.
+
+## Is jevcu closed-vote? Does Jev write the plan?
+
+No, and no. Tewoto1 jevcu planner still writes. Jev picks op+target. Preview default. Smoke ~12 s / 324–380 ms *theirs*. `notes.md` §92.
+
+## Is ha-conversation-jev HA-Jev? Copy the Grok OAuth client_id? Fire whole-home on `target_area=none`?
+
+No, no, and no. ha-conversation-jev Jev→Grok. Whole-home safety in code. **≠** HA-Jev **≠** ha-switchboard. Do not copy OAuth `client_id`. `notes.md` §92.
+
+## Can dsh-jev widen the tool set? Run live Jev by default?
+
+No, and no. dsh-jev can only gate. Default mock+shadow. HIGH delta of MED §59. `notes.md` §92.
+
+## Paste the classification-benchmark $0.46 as a measured run?
+
+No. jev-classification-benchmark specified not run. Probe $0.0000166 / 13× *theirs*; $0.46 / 20 min **derived**. `notes.md` §92.
+
+## Treat luna-pagerduty 1.000 as production paging? Collapse into Loghub?
+
+No, and no. jev-luna-pagerduty p≥0.50. Synthetic n=3000. ≠ Loghub. rh-guard owns paging. `notes.md` §92.
+
+## Is meldecision a new Laya species? Quote int8 0.938 as Harbor τ?
+
+No, and no. meldltd/meldecision laya-go ONNX. Goldens 4-decimal / byte-identical *theirs*. **≠** NandhaKishorM/laya. `notes.md` §92.
+
+## Does laya-doom see pixels? Is it Archer / blackwood?
+
+No, and no. laya-doom never pixels. ViZDoom keywords + scripted Route. **≠** blackwood **≠** Archer. `notes.md` §92.
+
+## Quote laya-api README numbers? Treat empty README as a drop-in?
+
+No. logixism/laya-api empty README (`e69de29b` 0 bytes). FastAPI wraps `convaiinnovations/laya`. `notes.md` §92.
+
+## Quote akpsahan vs-Jev 0.766 as a new measure? Is it Archer? Is Qwen3.8-27B Archer?
+
+No, no, and no. akpsahan/laya ≠ Archer. Card copies convaiinnovations/laya. Do not re-paste Nandha’s vs-Jev. Qwen3.8-27B ≠ Archer. `notes.md` §92.
+
+## Does Jev own chess truth? Collapse jevchess into chess-coach?
+
+No, and no. choxos/jevchess engine owns truth. ~300 ms / ~3k tok / game &lt;1¢ *theirs*. `notes.md` §92.
+
+## Treat jev-drive as AV? Continue if Jev fails?
+
+No, and no. jev-drive sim not AV. Jev fail pauses; no scripted substitute. Smoke 2026-09-19 not a bench. `notes.md` §92.
+
+## Let Jev author the story-arc chart?
+
+No. story-arc Jev never authors. Compose 0.7/0.5/0.6 sensors. `notes.md` §92.
+
+## Auto-file customs from HS6? Invent HS strings?
+
+No, and no. jev-hs-assistant HS6. Choice over legal 2022.0 children. Post always blocked. Mock if no key. `notes.md` §92.
+
+## Treat SC2 API Victory as a UI win? Quote Zero Hour as completed?
+
+No, and no. golergka/jev-plays-starcraft-2 UI-verified ≠ API Victory. Liberation Day 3:44 / Outlaws 27:57 *theirs*; Zero Hour uncompleted. `notes.md` §92.
+
+## Treat awesome-jev-use-cases likes as eval? Collapse into awesomejev.com?
+
+No, and no. awesome-jev-use-cases catalog. Unofficial. **≠** awesomejev.com census. `notes.md` §92.
+
+## Is typesafe-go official TypeSafe? A new species?
+
+No, and no. Nibir1/typesafe-go ≠ official. Analyzers catch bad questions at build time. **≠** rust community SDK. soft Noul ≠ hard safety. `notes.md` §92.

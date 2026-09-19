@@ -535,6 +535,65 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     pi-jev-gate fail-closed; choice is the verdict.
     rh-guard owns the gate cousin. Full cards:
     `mixed-architecture.md`, `faq.md`.
+71. **Self-hosted econ** (Foq / rev / robfrase/jev):
+    local typed decide. Foq ~25ms/2.2GB local.
+    rev prefill-only + HF jev-0.5b.
+    robfrase/jev planning memo. Sample 32.4 ms is
+    not a bench. Full cards: `judgment-class.md`,
+    `faq.md`.
+72. **Soft-judgment gate integrity**
+    (typesafe_agent_gates / safe-sh / pastepilot):
+    remainder after exact rules. typesafe_agent_gates 27/27 / 31/31.
+    EpicEric/safe-sh static remainder.
+    pastepilot Confirm before act. rh-guard owns.
+    Full cards: `applied-mappings.md` §7, `faq.md`.
+73. **Retrieval as calibrated decision space**
+    (Jev-Reranker / sessionwise / jev-search):
+    position 4. Jev-Reranker live Jev not yet measured.
+    sessionwise opt-in relevance.
+    jev-search pointer sieve. Score ≠ truth.
+    Always **savka777/jev-search**. **≠**
+    kazuhideoki/jev-search **≠** superagents-lab/jev-search.
+    Full cards: `mappings.md` §4, `faq.md`.
+74. **Enterprise reflexes** (400ms-agentic-sf /
+    scheduler-diagnostics): categorization leaving
+    the IDE. 400ms Salesforce WebMCP.
+    typesafe-scheduler-diagnostics advisory. Does
+    not place Pods. Full cards: `faq.md`.
+75. **Screenshot-free / CU** (droidjev / jevcu):
+    mappings §9 search/control (observe→score→act).
+    droidjev screenshot-free.
+    Tewoto1 jevcu planner still writes. **≠**
+    closed-vote. Full cards:
+    `applied-mappings.md` §9 (not closed-vote cousins),
+    `methods-catalog.md` computer-use row, `faq.md`.
+76. **Hybrid S1/S2** (ha-conversation-jev / dsh-jev):
+    position 1 × leftover writer. ha-conversation-jev Jev→Grok.
+    dsh-jev can only gate. **≠** HA-Jev. Full cards:
+    `mappings.md` §8, `faq.md`.
+77. **Harbor-jevals / SRE**
+    (classification-benchmark / luna-pagerduty):
+    measurement owns endorsement.
+    jev-classification-benchmark specified not run.
+    jev-luna-pagerduty p≥0.50. Full cards:
+    `validation.md`, `faq.md`.
+78. **Laya densifies** (meldecision / laya-doom /
+    laya-api / akpsahan/laya): packaging ≠ new
+    species. meldltd/meldecision laya-go ONNX.
+    laya-doom never pixels.
+    logixism/laya-api empty README.
+    akpsahan/laya ≠ Archer. **≠** Qwen3.8-27B.
+    Full cards: `judgment-class.md`, `faq.md`.
+79. **Demos / unofficial toolbelt** (jevchess /
+    jev-drive / story-arc / hs-assistant / SC2 /
+    awesome-jev-use-cases / typesafe-go): engine
+    owns truth. choxos/jevchess engine owns truth.
+    jev-drive sim not AV. story-arc Jev never authors.
+    jev-hs-assistant HS6.
+    golergka/jev-plays-starcraft-2 UI-verified ≠ API Victory.
+    awesome-jev-use-cases catalog.
+    Nibir1/typesafe-go ≠ official. Full cards:
+    `faq.md`.
 
-Hourly 1347 items 62–70 (`notes.md` §91). Do **not**
-re-fold 1241 items 49–61.
+Hourly 1441 items 71–79 (`notes.md` §92). Do **not**
+re-fold 1347 items 62–70. soft Noul ≠ hard safety.
