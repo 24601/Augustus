@@ -123,6 +123,8 @@ component; keep the rest of the method in code.
 | Experimental design: injection-firewall demo | Static ~74; no published ASR/FPR | **Empirical as README limits** (one-dollar-tahoe TypeSafe Jev defense eval; do not invent numbers; `notes.md` §95) |
 | Experimental design: llama.cpp replica | Numbered-choice softmax ≠ Noul | **Empirical as story.md** (llama-jev llama.cpp replica; 80/40 ms *theirs*; `notes.md` §95) |
 | Experimental design: physical/control atlas | Text-state; one seed-0 | **Empirical as curated quotes** (Frank-ZY-Dou/awesome-jev robotics/3D/control; `notes.md` §95) |
+| Experimental design: OpenCode stdout-prune host | Unit tests ≠ Harbor; zen-chat ≠ Noul | **Empirical as README + tests** (OpenCode jev-pruner context sieve; do not copy 24/24; `notes.md` §96) |
+| Experimental design: empty web-agent stub | Size 0; 409; watch | **Watch** (jev-webagent-bench empty stub; `notes.md` §96) |
 | Experimental design: recipe samples vs benches | Handmade 16–36; authors declare not-a-bench; cost/latency still reportable | **Empirical as recipe atlas** (jev-cookbook 425/$0.015; browser 5/6 *theirs*; `notes.md` §71) |
 | Experimental design: competing NAR claim-audit | Like-for-like ECE; n/CI; throughput ≠ latency; vendor-baseline rows named | **Hypothesis until independent run** (openJev-verdict-2.0 77.10%/0.0636/0.0144 *theirs* + PR #1; ≠ IamBusy/OpenJev; `notes.md` §71) |
 | Experimental design: 1-token logprob vs hosted Jev | Coverage ≠ correctness; `__none__` gold; shuffle/mix; numeric-rule probe | **Empirical as 336-case GUI + mario** (chakuho; `notes.md` §72) |

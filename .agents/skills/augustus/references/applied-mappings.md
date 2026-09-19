@@ -77,6 +77,24 @@ recovery. Marketplace id still `fast-jev-output`. Codex is opt-in
 wrapper, not automatic interception. Same author as
 fast-jev-compaction; complementary, not a duplicate. Do not copy
 the plugin (`notes.md` §53).
+**OpenCode host-port, same job, different insertion (Empirical as
+README + source, 2026-09-19 ~16:39):**
+[indiejoseph/opencode-jev-pruner](https://github.com/indiejoseph/opencode-jev-pruner)
+— OpenCode jev-pruner context sieve.
+host port of tamaratran/jev-pruner.
+OpenCode `tool.execute.after` on
+`bash`. Pattern: observe→score-candidates→prune.
+Loop *theirs*:
+bash runs → 10k-token gate → archive full output → chunk →
+Jev noul per chunk vs history → rewrite with markers +
+recovery footer. Default scorer jev-zen / jev-1.13-free
+(Zen System One, exact id, keyless). zen-chat ≠ Noul
+(`zen-chat` is an LLM approximation). fail-open original.
+keepScore >0.1 floor. Archive `.opencode/fast-jev-output/`.
+indiejoseph/opencode-jev-pruner ≠ nrdz-labs/fast-jev-opencode
+(session compaction, §62). **≠** tamaratran/jev-pruner.
+Do not copy tamaratran 24/24 / 83%. Do not copy the plugin
+(`notes.md` §96).
 **Session-ledger cousin, same family, different job (Empirical as
 README behavior, 2026-09-18 ~17:48):**
 [carryforward](https://github.com/Dharundp6/jev-carryforward) —
@@ -278,7 +296,10 @@ code copies those bytes; a generator summary is the rejected species
 (`notes.md` §50). Stdout-prune cousin:
 [jev-pruner](https://github.com/tamaratran/jev-pruner) — the model
 scores chunks of observed Bash stdout; code keeps verbatim lines and
-archives the rest (`notes.md` §53). Computer-use cousin:
+archives the rest (`notes.md` §53). OpenCode host-port:
+[indiejoseph/opencode-jev-pruner](https://github.com/indiejoseph/opencode-jev-pruner)
+— same extractive job on `tool.execute.after`; jev-zen /
+jev-1.13-free; zen-chat ≠ Noul (`notes.md` §96). Computer-use cousin:
 [solari-reflex](https://github.com/hitakshiA/solari-reflex) — structured
 observation → typed decision → verified act; **no screenshots**; model
 output never becomes a selector (`notes.md` §48). Encoder-backend

@@ -699,3 +699,25 @@ webNeat/llama-jev ≠ WiktorB2004/llama-index-jev.
 
 Hourly 1541 items 85–90 (`notes.md` §95). Do **not**
 re-fold 1441 items 71–79. soft Noul ≠ hard safety.
+
+91. **OpenCode stdout-prune host port**
+    (indiejoseph/opencode-jev-pruner):
+    position 2 (keep/drop among stdout chunks) ×
+    hard envelope. OpenCode jev-pruner context sieve.
+    observe→score-candidates→prune.
+    jev-zen / jev-1.13-free. zen-chat ≠ Noul.
+    fail-open original. keepScore >0.1 floor.
+    host port of tamaratran/jev-pruner.
+    indiejoseph/opencode-jev-pruner ≠ nrdz-labs/fast-jev-opencode.
+    Full cards:
+    `applied-mappings.md` §1, `faq.md`.
+92. **Schema/SDK adapters + empty bench**
+    (watch / tooling): packaging ≠ new species.
+    jev-webagent-bench empty stub.
+    Kiln-AI/jev_jsonschema noul_threshold 0.5
+    (decoder, not a proof).
+    NSStudent/JevSwiftSDK unofficial.
+    Full cards: `faq.md`, `judgment-class.md`.
+
+Hourly 1639 items 91–92 (`notes.md` §96). Do **not**
+re-fold 1541 items 85–90. Soft Noul ≠ hard safety.

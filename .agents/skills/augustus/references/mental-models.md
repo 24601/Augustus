@@ -330,7 +330,11 @@ hybrid (Postgres plans first) — `notes.md` §44. Compaction envelope
 operators prove `keep_full`; the model may only match that or be more
 conservative (`notes.md` §50). Stdout-prune envelope (Jev):
 jev-pruner — ≤10k / JSON-diff-whole-doc prove pass-through; Noul on
-the remainder; fail-safe keep original (`notes.md` §53).
+the remainder; fail-safe keep original (`notes.md` §53). OpenCode
+host-port: [indiejoseph/opencode-jev-pruner](https://github.com/indiejoseph/opencode-jev-pruner)
+— same envelope; `tool.execute.after` on `bash`; default
+`jev-zen` / `jev-1.13-free`; zen-chat ≠ Noul; keepScore >0.1
+floor; hook fail-open (`notes.md` §96).
 
 ## Signal detection
 
@@ -478,7 +482,7 @@ Use these as *existence proofs of a position*. Write your own card.
 | Inbox | reply / snooze / archive | urgency Noul + aboutness Choice | send, calendar |
 | Knowledge work | extract a quote / a cited fact | per-sentence or per-line-id Noul/Choice (**Empirical**: testimonial-miner, jev-reviewer) | verbatim join; place; human publish permission |
 | Agent context | compact completed tool results without inventing prose | retention Choice + char-offset locate (**Empirical**: gliner25-compaction; same *job* as fast-jev-compaction / pi-jev-compaction) | mutation/shell envelope → keep_full; fail-closed keep_full; shadowMode before replace; copy exact bytes |
-| Agent context | prune Bash stdout before the LLM without inventing prose | Noul per chunk after a hard size/format envelope (**Empirical**: jev-pruner) | ≤10k / JSON-diff-whole-doc untouched; fail-safe original; archive dropped spans |
+| Agent context | prune Bash stdout before the LLM without inventing prose | Noul per chunk after a hard size/format envelope (**Empirical**: jev-pruner; OpenCode host-port **indiejoseph/opencode-jev-pruner**, `notes.md` §96) | ≤10k / JSON-diff-whole-doc untouched; fail-safe original; archive dropped spans; hook fail-open; zen-chat ≠ Noul |
 | Dataframe labeling | classify / score rows | Noul/Choice/Score + full `p__` (**Empirical** as jevframe / jevpandas *shape*) | pandas/Polars, thresholds in code |
 | Computer-use speed | one verified act per step | score / Choice among numbered a11y/DOM/OCR+AX/ASR-transcript controls (**Empirical**: solari-reflex Jev; gliner2-ultrafast GLiNER2; laya-mind2web Laya DOM indices; cua-s1 option-attention, source-only, not TypeSafe Jev; Stagehand experimental Jev harness, draft; **closed-vote no planner:** JevOnly; **host-owned:** waymode; **hot-click ego-lite:** ego-jev; **OCR+AX desktop:** typesafe-computer-use hosted Jev, **427★**; **ASR voice-browser:** jev-voice-browser hosted Jev, **103★**) | Guard check; deny-list absence; no screenshots **on the decision**; no waveform to Jev; `DONE` ≠ success; plan ≠ execute; LLM fallback; pick ≠ replacement; type without generation; host handlers/permissions; `--until` beats Jev `done`; exclusive action set; spoken confirm ≠ auth |
 | Agent turn | skip memory tour on easy intent | intent Choice (**Empirical**: jev-hermes) | Memory still writes; complex still searches |
@@ -984,6 +988,50 @@ demo is not a rate. Softmax ≠ Noul.
 Formal methods **compose** with scoring. A Noul is a
 SENSOR. Hard-gating it as CI skip / injection firewall
 / physical actuator is the same theater as jev-gate §79.
+
+## Apply 1639 (`notes.md` §96)
+
+Same pillars, one HIGH host-port plus MEDIUM
+watch. Do **not** re-fold 1541 / §95. Fresh PR;
+never reopen merged #7–#13. Skip Archer. Census
+not re-derived.
+
+Unique consecutive fragments:
+OpenCode jev-pruner context sieve;
+observe→score-candidates→prune;
+jev-zen / jev-1.13-free;
+zen-chat ≠ Noul;
+fail-open original;
+keepScore >0.1 floor;
+host port of tamaratran/jev-pruner;
+indiejoseph/opencode-jev-pruner ≠ nrdz-labs/fast-jev-opencode;
+jev-webagent-bench empty stub;
+Kiln-AI/jev_jsonschema noul_threshold 0.5;
+NSStudent/JevSwiftSDK unofficial.
+
+1. **OpenCode host-port of evidence-preserving
+   stdout prune** —
+   OpenCode jev-pruner context sieve.
+   observe→score-candidates→prune.
+   jev-zen / jev-1.13-free.
+   zen-chat ≠ Noul.
+   fail-open original.
+   keepScore >0.1 floor.
+   host port of tamaratran/jev-pruner.
+2. **MEDIUM watch / tooling** —
+   jev-webagent-bench empty stub.
+   Kiln-AI/jev_jsonschema noul_threshold 0.5.
+   NSStudent/JevSwiftSDK unofficial.
+
+Soft Noul ≠ hard safety. Hook fail-open; reduction
+fail-closed to original. zen-chat parsed JSON is
+not a Noul. 0.5 boolean decode is a sensor.
+Empty stub ≠ Harbor.
+
+Formal methods **compose** with scoring. A Noul is a
+SENSOR. Hard-gating prune as proof of irrelevance,
+or treating zen-chat as calibrated Jev, is the same
+theater as jev-gate §79.
 
 ## Decision-design extras (any domain)
 

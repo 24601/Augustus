@@ -672,6 +672,15 @@ Architecture / mental models / Harbor-jevals / toolbelt, not a `uv` / `npx` / `g
 
 Census **not provided this hour** (not re-derived). Archer still NOT landed. Last pin from §92.
 
+### Hourly ~16:39 Boise 2026-09-19 / 22:39 UTC (1639 HIGH)
+
+Architecture / mental models / Harbor-jevals / toolbelt, not a `npx` / plugin-marketplace catalog. `notes.md` §96. Skip Archer. Quote READMEs. Soft Noul ≠ hard safety. Do **not** re-fold 1541 / §95. Fresh PR; never reopen merged #7–**#13**. 0★ HIGH still gets a real card. Augustus owns placement.
+
+- **indiejoseph/opencode-jev-pruner** — TS; GitHub license **null**; `package.json` MIT; **0★**; README SHA `dd93d635`; HEAD `764169c` on **master**; size 37. OpenCode jev-pruner context sieve. observe→score-candidates→prune. jev-zen / jev-1.13-free. zen-chat ≠ Noul. fail-open original. keepScore >0.1 floor. host port of tamaratran/jev-pruner. **≠** nrdz-labs/fast-jev-opencode. Do not copy 24/24 / 83%.
+- MEDIUM (do not over-weight): **jongyunhur/jev-webagent-bench** — empty stub (size 0; 409); **Kiln-AI/jev_jsonschema** — MIT **5★**; noul_threshold 0.5 decoder; **NSStudent/JevSwiftSDK** — MIT **5★**; unofficial.
+
+Census **not provided this hour** (not re-derived). Archer still NOT landed. Last pin from §92.
+
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs
 Apalache; DST trio Antithesis / Resonate HQ / PufferLib):

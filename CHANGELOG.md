@@ -1509,6 +1509,34 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   `EXA_API_KEY` / `GROQ_API_KEY` / `uv` / `npx` /
   `go install` / `.env` / `attacks.json`. No wrapper.
   No invented metrics.
+- Hourly 1639 HIGH (`research/notes.md` §96): **Skip
+  Archer.** Docs-only on a **fresh PR off main**. Never
+  reopen merged #7–**#13**. Do **not** re-fold 1541 /
+  §95. How-to-apply / mental models / architecture /
+  Harbor-jevals / toolbelt — not a thin Jev skill dump.
+  Backend-agnostic categorization/scoring/decision
+  class. Formal methods compose with scoring; a Noul
+  is a SENSOR; treating zen-chat as calibrated Jev,
+  pasting tamaratran 24/24 onto this host, or
+  hard-gating keepThreshold 0.5 as proof of
+  irrelevance is soundness theater. One HIGH cluster:
+  **OpenCode host-port of evidence-preserving stdout
+  prune**
+  ([indiejoseph/opencode-jev-pruner](https://github.com/indiejoseph/opencode-jev-pruner)
+  OpenCode jev-pruner context sieve;
+  observe→score-candidates→prune; jev-zen /
+  jev-1.13-free; zen-chat ≠ Noul; fail-open original;
+  keepScore >0.1 floor; GitHub license **null**;
+  `package.json` MIT; **0★**; HEAD `764169c`
+  **master**). MEDIUM watch (do not over-weight):
+  [jongyunhur/jev-webagent-bench](https://github.com/jongyunhur/jev-webagent-bench)
+  empty stub; [Kiln-AI/jev_jsonschema](https://github.com/Kiln-AI/jev_jsonschema)
+  noul_threshold 0.5 (**5★**); [NSStudent/JevSwiftSDK](https://github.com/NSStudent/JevSwiftSDK)
+  unofficial (**5★**). Soft Noul ≠ hard safety. Census
+  **not provided this hour** (not re-derived). Archer
+  still NOT landed. Do not copy `TYPESAFE_API_KEY` /
+  `OPENCODE_API_KEY` / `npx` / plugin marketplace.
+  No wrapper. No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard
