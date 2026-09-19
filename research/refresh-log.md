@@ -1316,3 +1316,33 @@
 - notes.md §82; sources.json (458 sources, 455 unique URLs,
   retrieved 2026-09-19T16:10Z); findings.md batch #66.
   No wrapper.
+## 2026-09-19 ~16:20 UTC — user-provided AgentGhost + JP genre atlas HIGH (~10:20 Boise)
+- Docs-only into PR #2. `notes.md` §83–§84. Skip Archer.
+  Hunches labeled. No wrapper. No invented metrics.
+  Quote README and tweet. Dual-signal turn. Do not
+  copy `npm` / `.env` / `AUTO_APPROVE`. Do not dump
+  the 30 atlas repos.
+- Receipts: user SIGNAL_7c0f (~08:50 Boise; MIT; ★2)
+  + live GitHub this pass (**2★** / 0 forks / 0 issues;
+  README SHA `44145fa9`; HEAD `ac04e4fb`; pushed
+  2026-09-18T21:59:40Z). User SIGNAL_a92b (~08:50
+  Boise; ~120k views) + live X this pass (131,234 /
+  1,934 / 192; created 2026-09-18T21:45:48Z).
+- Folded: wrap-as-execution ALLOW/ASK/DENY (wrap
+  *is* the tool function; rules first; ASK throws;
+  fail-closed; judge swappable). **≠** jwen5419807
+  **≠** vventirozos **≠** actiongate **≠** toolgate
+  **≠** jev-use. rh-guard owns the gate cousin.
+  JP genre atlas (apps by hole; stars research-time
+  203→427 / 40→103; not verified evals; OpenRouter
+  Jev WATCH). **≠** class census §77 **≠** v1.2.
+- Census not re-derived. Archer still NOT landed.
+- Cards: SKILL.md, mixed-architecture, faq,
+  mental-models, agent-self-assessment, validation,
+  toolbox, composition-algebra items 23–24,
+  question-design, mappings §8/§18, applied-mappings
+  §7, judgment-class, methods-catalog, ecosystem,
+  CHANGELOG, README.
+- notes.md §83–§84; sources.json (460 sources, 457 unique URLs,
+  retrieved 2026-09-19T16:20Z); findings.md batch #67.
+  No wrapper.

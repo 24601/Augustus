@@ -107,6 +107,10 @@ regex/LLM/code, Jev selects).
   pointer-not-generator for spans; `is_command` / `complete` /
   `destructive` gates. **Productized HIGH:** `notes.md` §82.
   Do not re-card this one-liner.
+- reddpy/AgentGhost: wrap-as-execution ALLOW/ASK/DENY;
+  rules first, Jev remainder; ASK throws; fail-closed.
+  **Productized HIGH:** `notes.md` §83. rh-guard owns the
+  gate cousin. Do not re-card this one-liner.
 - RomanSlack/jev-drone: 500Hz control + 50Hz safety in code, classical CV to
   symbols at 15Hz, Jev advisory ~2.5Hz (Choice maneuver + Score risk + Noul
   lost-vs-occluded). "Cannot be the perception layer or run at control rate."
@@ -11932,8 +11936,7 @@ how-to. Not a hit list. Do not copy Stripe, npm,
 or `.env`. Do not treat 27/27 / 0.5 / 0.55 / 0.6
 as calibrated constants. Do not treat spoken
 confirm as authorization. Do not ship waveforms
-“because voice.” Do not steal AgentGhost (tool
-wrap later). Do not steal jev-semgrep.
+  “because voice.” Do not steal jev-semgrep.
 
 ### Curated status
 
@@ -11952,3 +11955,296 @@ gallery); `faq.md`; `mental-models.md`;
 `judgment-class.md` portent 4;
 `methods-catalog.md`; `agent-self-assessment.md`.
 Hunches labeled. No wrapper.
+
+## 83. User-provided HIGH — reddpy/AgentGhost (2026-09-19 ~10:20 Boise / ~16:20 UTC)
+
+Docs-only into PR #2. **Skip Archer.** Quote the
+README. Not a hit list. Do **not** re-fold §50–§82
+HIGH except sibling contrast. Hunches labeled. No
+wrappers, `npm install`, `bun run`, `.env`, keys,
+copied ports, or invented metrics. TypeSafe Jev
+remains the exemplar — this signal is
+**productized wrap-as-execution authorization**,
+not a new species and not a rh-guard card.
+
+rh-guard owns the **gate cousin**. Augustus owns
+the control-plane how-to-apply: the wrap *is* the
+tool's execution function; rules first; ASK
+throws; fail-closed.
+
+Material how-to-apply:
+
+1. **Wrap-as-execution, not an advisory sidecar**
+   — the model never decides whether the wrap
+   runs. `user intent → LLM → tool call →
+   [AgentGhost] → real tool`. An LLM that can
+   skip the judge is not a gate.
+2. **Rules first, Jev remainder** — `allow` /
+   `ask` / `deny` lists and `matchArg` evaluate
+   before the judge; `allow` skips it entirely.
+   Structural prove ∩ soft remainder, **fail-closed**
+   on execution (cousin of construct; contrast
+   mappings §18 fail-open allowlist that cannot
+   block).
+3. **Intent as a live function** —
+   `intent: () => currentTask` because the task
+   changes mid-conversation. The judge sees the
+   current ask, not a frozen system prompt.
+4. **ASK throws** — default
+   `AgentGhostApprovalRequiredError` /
+   `AgentGhostDeniedError`. Approval cannot be
+   silently skipped. Wire HITL with `approveWith`
+   / `terminalApproval` (no TTY → deny).
+5. **`failMode: "closed"`** — judge error →
+   DENY (default). Missing config throws
+   `AgentGhostConfigError` if there is no judge,
+   no key, and no `judge: null`.
+6. **Judge is a slot** — Gateway / TypeSafe
+   direct / System One `baseUrl` / AI-SDK
+   evaluate / `defineJudge` for a different
+   decision model. Adapters and verdicts stay.
+   Class-backend, not a TypeSafe how-to.
+
+Receipts: user SIGNAL_7c0f (~08:50 Boise; MIT;
+★2) plus live GitHub this pass. TypeScript; MIT;
+**2★** / 0 forks / 0 issues; created
+2026-09-18T21:16:55Z; pushed
+2026-09-18T21:59:40Z; updated
+2026-09-19T08:09:52Z. HEAD `ac04e4fb`. README
+SHA `44145fa9`. LICENSE SHA `b8b89393`. Node
+≥ 20. npm `@agentghost/sdk` (no runtime
+deps; adapters are optional peers). Star counts
+**ephemeral**.
+
+### HIGH
+
+1. **[`reddpy/AgentGhost`](https://github.com/reddpy/AgentGhost)**
+   — NEW HIGH. MIT; **2★**. Intent-aware
+   ALLOW / ASK / DENY wrap for Vercel AI SDK,
+   LangChain.js, OpenAI/Anthropic tool calling.
+
+   **Quote README (*theirs*).** “Intent-aware
+   authorization for AI agent tools. AgentGhost
+   wraps the execution of your tools, so every
+   consequential action passes an `ALLOW` /
+   `ASK` / `DENY` check before it runs.” “The
+   model never decides whether AgentGhost runs.
+   AgentGhost *is* the tool's execution
+   function.” “`ASK` and `DENY` throw by default
+   so an approval can never be silently
+   skipped.” “`failMode: "closed"` — `"closed"`
+   denies when the judge errors (default).”
+   “AgentGhost protects tools whose execution
+   you control. Provider-hosted tools that run
+   entirely inside OpenAI / Anthropic are out of
+   reach; MCP is planned as a proxy.”
+
+   **Loop (*theirs*):** adapter normalizes the
+   call → rules → judge → ALLOW runs the real
+   tool / ASK HITL / DENY tool-error to the
+   agent. `protect` can narrow the wrap
+   (default: all tools). `evaluate: "once"`
+   caches identical decisions.
+
+   **Unattended escape (*theirs*, not a
+   recipe):** examples set
+   `AGENTGHOST_AUTO_APPROVE=1` to skip the
+   terminal `y/N`. That is a demo hatch, not a
+   grant. rh-guard owns the gate cousin.
+
+   **How to apply (recipe, not a dump):**
+
+   1. **Put the wrap on the execution path.** A
+      sidecar the model can ignore is theater.
+   2. **Prove the obvious in code.** Read-only
+      allow-lists skip the judge; DDL/`drop`
+      deny before Jev.
+   3. **Throw on ASK/DENY.** Silent skip is the
+      failure.
+   4. **Fail closed on judge error.** Missing
+      Jev is not a pass.
+   5. **Keep the judge swappable.** The product
+      is the wrap + rules + verdicts, not a
+      vendor client.
+   6. **Do not wrap what you do not execute.**
+      Hosted provider tools and (today) MCP are
+      out of reach.
+
+   **Name locks (do not collapse):**
+   - **≠** [jwen5419807/agentghost](https://github.com/jwen5419807/agentghost)
+     (95★ TypeScript 2025, different product).
+   - **≠** [CTZhou-byte/AgentGhost](https://github.com/CTZhou-byte/AgentGhost)
+     (Python 2★).
+   - **≠** [vventirozos/AgentGhost](https://github.com/vventirozos/AgentGhost)
+     (FastAPI swarm / Docker tools, not a Jev wrap).
+   - **≠** [omkarghugarkar007/actiongate-jev](https://github.com/omkarghugarkar007/actiongate-jev)
+     (§64 slogan: Jev supplies evidence, code
+     owns authority — policy/RBAC is the hard
+     gate; here the wrap *is* execution).
+   - **≠** toolgate **≠** interlock **≠**
+     construct-auto-classifier **≠**
+     omp-greenlight **≠** jev-use (fail-open
+     PreToolUse) **≠** skill-broker **≠**
+     spoken confirm §82.
+
+   **Siblings (do not re-card):** actiongate
+   §64; construct / privilege ≠ verdict §63;
+   omp-greenlight permission vs probability;
+   jev-use fail-open; capability kernel
+   interlock; rh-guard owns the gate. Do **not**
+   copy `npm` / `.env` / `bun run`.
+
+### Skip Archer
+
+HF `archerhume`/`4rcherhume` still empty. This
+is text-state authorization, not omni. Skip
+Archer this fold.
+
+### Not
+
+Not a rh-guard card. Not a TypeSafe how-to.
+Not a hit list. Do not copy Stripe, npm, or
+`.env`. Do not treat `AUTO_APPROVE` as a
+grant. Do not wrap hosted tools “because the
+SDK imported them.” Do not collapse into
+actiongate / toolgate / jev-use. Do not steal
+Akshay (pedagogy later).
+
+### Curated status
+
+Productized HIGH **folded**. Archer still
+**NOT landed**. §82 ASR **not re-derived**.
+rh-guard still owns the gate cousin.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`applied-mappings.md` §7; `mappings.md` §8/§18;
+`agent-self-assessment.md`; `toolbox-mapping.md`;
+`composition-algebra.md` item 23;
+`question-design.md`; `judgment-class.md`;
+`methods-catalog.md`. Hunches labeled. No
+wrapper.
+
+## 84. User-provided HIGH — @studio_yebisu JP genre atlas (2026-09-19 ~10:20 Boise / ~16:20 UTC)
+
+Docs-only into PR #2. **Skip Archer.** Quote the
+tweet. Not a hit list. Do **not** re-fold the
+named high-star apps (already §50–§83) except
+sibling contrast. Hunches labeled. No wrappers
+or invented metrics. This signal is an
+**application genre atlas**, not a scored
+bake-off and not a class census.
+
+The §77 @airesearch12 tweet already stands
+(openjev *class* list ≠ scored board). Do not
+re-card that. Material how-to-apply:
+
+1. **Genre atlas ≠ class census ≠ scored
+   board** — life+SWE breadth (browser/PC/
+   mobile, AI-dev, MCP, search/DB, video,
+   guardrails, marketing, smart home, games/
+   robots, traders, open replicas) is a
+   *placement map*, not a rank. §77 named
+   open heads; §78 scored I/C/S/K; this names
+   *apps*.
+2. **Star counts are research-time, and they
+   drift** — tweet *theirs*: “スターの数は
+   リサーチ時点のもの.” Receipt: typesafe-
+   computer-use ★203 in the post vs **427★**
+   this branch; jev-voice-browser ★40 vs
+   **103★**. Engagement ephemeral.
+3. **Not verified evals** — tweet *theirs*:
+   public-docs roundup; “全件を試用・動作検証
+   したわけではありません.” Do not paste its
+   ★ as Harbor.
+4. **SAM 3.1 API + OpenRouter Jev** — SAM 3.1
+   already §39 (perceive, not a tutorial).
+   “JevもOpenRouterで使える…ウェイトリストに
+   並ぶ必要はない” is a **WATCH claim**, not a
+   recipe. No copied routes.
+
+Receipts: user SIGNAL_a92b (~08:50 Boise;
+~120k views / 1767 likes / 169 RTs via
+fxtwitter) plus live X this pass. Post
+https://x.com/studio_yebisu/status/2101065176069886152
+created 2026-09-18T21:45:48Z; `note_tweet`
+present; lang ja. This pass: **131,234**
+impressions / **1,934** likes / **192** RTs /
+**3,225** bookmarks / 25 replies / 28 quotes.
+Author @studio_yebisu (StudioYebisu; 1,292
+followers *theirs*). Engagement **ephemeral**.
+
+### HIGH
+
+1. **[@studio_yebisu genre atlas](https://x.com/studio_yebisu/status/2101065176069886152)**
+   — NEW HIGH (application atlas). Quote, don't
+   dump.
+
+   **Quote tweet (*theirs*).** “ジャンル別に
+   スターが多かったものをまとめておいたよ!!
+   スターの数はリサーチ時点のものだからそこは
+   勘弁してほしいぜ!!” “Metaが出してるCV。
+   SAM3.1もAPIで使えるようになったってのと。
+   JevもOpenRouterで使えるようになったみたい
+   だ!! もうウェイトリストに並ぶ必要はないよ。”
+   “今回は公開資料を調べた紹介で、全件を試用・
+   動作検証したわけではありません。”
+
+   **Named genres (do not re-card the
+   already-folded HIGH apps):** browser/PC/
+   mobile (jev-ultrafast / typesafe-computer-use
+   / mobile-jev / jev-voice-browser); AI-dev
+   (fast-jev-compaction / foreman / jev-review /
+   jev-router / jev-rules); MCP/skills/CLI
+   (skillbox / typesafe-mcp / jev-shell-history);
+   search/DB (pg-jev / jev-search / neo4jev);
+   video/web (unclutter / jevmeter / youtube-
+   sponsor-detection); guardrails (pi-warden /
+   Jev-Moderation-Bot); marketing (notra);
+   smart home (HA-Jev); games/robots
+   (typesafe-mario / jevpilot / jev-drone);
+   traders (jev-trader); open replicas (SemIf /
+   jevlike / NanoJev / openjev-sglang) —
+   tweet *theirs*: “以下4件は独立した研究・実装。
+   公式Jevの公開版ではありません.”
+
+   **How to apply:** when someone pastes a JP
+   roundup, extract the *genre holes* (CU,
+   compaction, routing, store, guardrail, replica)
+   and refuse the star table as a score. Same
+   discipline as §77.
+
+   **Name locks:** ≠ @airesearch12 class census
+   §77 ≠ JevBench v1.2 board §78 ≠ awesome-
+   typesafe dump ≠ a Harbor taskset.
+
+### Skip Archer
+
+SAM 3.1 is perceive (§39). OpenRouter Jev
+availability is WATCH, not Archer. Skip Archer
+this fold.
+
+### Not
+
+Not a 30-row hit list. Not verified evals.
+Not OpenRouter onboarding. Not a SAM tutorial.
+Do not paste live ★ into the atlas card. Do
+not steal Akshay.
+
+### Curated status
+
+Genre atlas **folded**. Archer still **NOT
+landed**. Named HIGHs in the post **not
+re-derived**.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`validation.md`; `toolbox-mapping.md`;
+`composition-algebra.md` item 24;
+`question-design.md`; `judgment-class.md`;
+`methods-catalog.md`. Hunches labeled. No
+wrapper.

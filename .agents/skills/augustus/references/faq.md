@@ -1248,6 +1248,38 @@ still soft. **≠** chris-wozniczek/jev-voice-control
 typesafe-computer-use (OCR). Compose, don't collapse.
 Skip Archer. `notes.md` §39, §82.
 
+## Is AgentGhost an advisory sidecar? Can ASK be skipped?
+
+No, and no. [reddpy/AgentGhost](https://github.com/reddpy/AgentGhost)
+**is the tool's execution function.** README *theirs*:
+the model never decides whether the wrap runs. Rules
+(`allow`/`ask`/`deny`, `matchArg`) fire before Jev;
+`allow` skips the judge. ASK/DENY throw so HITL
+cannot be silently skipped. `failMode: "closed"`
+denies on judge error. Judge is a slot (Gateway /
+TypeSafe / custom). `AGENTGHOST_AUTO_APPROVE=1` is
+a demo hatch, not a grant. Provider-hosted tools
+and MCP (planned) are out of reach. **≠**
+jwen5419807/agentghost **≠** vventirozos/AgentGhost
+**≠** actiongate-jev **≠** toolgate **≠** jev-use
+(fail-open). rh-guard owns the gate cousin. Do not
+copy `npm` / `.env`. `notes.md` §83.
+
+## Is the @studio_yebisu JP roundup a bake-off? Can I quote its star counts?
+
+No, and no. [@studio_yebisu](https://x.com/studio_yebisu/status/2101065176069886152)
+is a **genre atlas** of high-star Jev *apps* plus
+open replicas. Tweet *theirs*: stars are
+research-time; the post is a docs roundup, not
+full eval. Engagement ephemeral (SIGNAL ~120k
+views; this pass 131,234 / 1,934 / 192). Star
+drift is the point (typesafe-computer-use ★203→
+**427**; jev-voice-browser ★40→**103**). **≠**
+@airesearch12 class census §77 **≠** JevBench
+v1.2 §78. SAM 3.1 already §39. OpenRouter Jev
+"no waitlist" is WATCH, not a recipe. Do not dump
+the 30 repos. Skip Archer. `notes.md` §84.
+
 ## Does Stagehand extract replace the LLM?
 
 No. Pick-and-copy is a **fast path**. Schema leftovers, screenshot
@@ -1950,3 +1982,19 @@ GLM 5.3; ARCHITECTURE proposed
 *theirs*; do not invent which is live. No pixels to
 either provider. Do not copy npm / `.dev.vars`.
 `notes.md` §80.
+
+## Is AgentGhost just toolgate with a new name?
+
+No. [AgentGhost](https://github.com/reddpy/AgentGhost)
+wraps execution so the LLM cannot skip the judge.
+toolgate is pre-exec of a *proposed* call; Jev is
+not authorization there. actiongate's slogan is
+evidence ≠ authority (policy is the hard gate).
+jev-use is fail-open PreToolUse. AgentGhost is
+fail-closed wrap-as-execution; ASK throws.
+`notes.md` §83.
+
+## Is the JP genre atlas JevBench? Are the ★ live?
+
+No, and no. Application atlas, not a scored board.
+Stars were research-time *theirs*. `notes.md` §84.

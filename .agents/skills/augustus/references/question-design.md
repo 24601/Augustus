@@ -117,6 +117,10 @@ request, and treat a stale pin as a prior, never a setting.
 | Ship audio to Jev / treat 27/27 as Harbor | Omni voice; fixtures as a board | Transcript text-state; integration on captured pages *theirs*. [jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser). `notes.md` §82 |
 | Truncate free-text on a partial / spoken confirm as auth | Wait-policy collapse; soft Noul as interlock | Closed-set may fire; search/type wait. Confirm is convenience. `notes.md` §82 |
 | Call a second model for "two" / collapse into jev-voice-control | Extra generation; namesake | Numbered overlay is exact. **≠** chris-wozniczek **≠** nikolas-j **≠** OCR §81. `notes.md` §82 |
+| Let the model skip the wrap / silent ASK | Advisory sidecar; HITL skipped | Wrap *is* execution; ASK throws. [AgentGhost](https://github.com/reddpy/AgentGhost). `notes.md` §83 |
+| Treat AUTO_APPROVE as auth / wrap hosted tools | Demo hatch; out-of-reach actuators | Provider tools stay unwrapped. rh-guard owns the gate. `notes.md` §83 |
+| Collapse AgentGhost into actiongate / toolgate / jev-use / namesakes | Slogan mix; fail polarity | Wrap ≠ evidence-only; fail-closed ≠ jev-use fail-open. **≠** jwen5419807 **≠** vventirozos. `notes.md` §83 |
+| Paste JP atlas ★ as a bake-off | Research-time stars as scores | Genre list, not verified evals. [@studio_yebisu](https://x.com/studio_yebisu/status/2101065176069886152). **≠** §77 **≠** §78. `notes.md` §84 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T16:10Z",
+  "retrieved": "2026-09-19T16:20Z",
   "sources": [
     {
       "kind": "docs",
@@ -181,6 +181,12 @@
       "note": "Productized HIGH \u00a782 (ASR \u2192 Playwright observe\u2192score\u2192act; partial-speech VOI; pointer spans; spoken confirm \u2260 auth; 27/27 *theirs* fixtures). Expand \u00a739 tweet; do not re-card.",
       "title": "moritzkremb/jev-voice-browser",
       "url": "https://github.com/moritzkremb/jev-voice-browser"
+    },
+    {
+      "kind": "repo",
+      "note": "Productized HIGH \u00a783 (wrap-as-execution ALLOW/ASK/DENY; rules first; ASK throws; fail-closed). MIT 2 stars; HEAD ac04e4fb; README SHA 44145fa9. != jwen5419807/agentghost != vventirozos. rh-guard owns the gate cousin. Do not copy npm / AUTO_APPROVE. notes.md \u00a783.",
+      "title": "reddpy/AgentGhost",
+      "url": "https://github.com/reddpy/AgentGhost"
     },
     {
       "kind": "repo",
@@ -2749,6 +2755,12 @@
       "title": "Jev Reflex Autonomy Lab watch demo",
       "url": "https://khordoo.github.io/jev-reflex-autonomy-lab/watch-demo.html",
       "note": "Experimental multi-drone viz demo. Not a production flight controller. notes.md \u00a780."
+    },
+    {
+      "kind": "x",
+      "title": "@studio_yebisu JP genre atlas tweet",
+      "url": "https://x.com/studio_yebisu/status/2101065176069886152",
+      "note": "2026-09-18T21:45:48Z. note_tweet present; lang ja. Genre atlas of high-star Jev apps + open replicas. Stars research-time (typesafe-computer-use 203->427; jev-voice-browser 40->103). Not verified evals. Engagement ephemeral (SIGNAL ~120k/1767/169; this pass 131234/1934/192). SAM 3.1 already \u00a739. OpenRouter Jev no-waitlist is WATCH. != @airesearch12 class census != v1.2. Do not dump 30 repos. notes.md \u00a784."
     }
   ]
 }

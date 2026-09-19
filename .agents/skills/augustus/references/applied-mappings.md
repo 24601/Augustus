@@ -969,6 +969,15 @@ convenience, not a guarantee. Anyone who can reach the
 control port drives the browser. Sensor, not an
 interlock. rh-guard owns the gate cousin. Do not copy
 `npm` (`notes.md` §82).
+**Wrap-as-execution ALLOW/ASK/DENY (Empirical as
+README; 2026-09-19 ~10:20):**
+[AgentGhost](https://github.com/reddpy/AgentGhost)
+— the wrap *is* the tool's execution function;
+rules first; ASK/DENY throw; `failMode: closed`.
+Judge swappable. Provider-hosted tools out of
+reach. **≠** actiongate **≠** toolgate **≠**
+jev-use. rh-guard owns the gate cousin. Do not
+copy `npm` (`notes.md` §83).
 **Privilege ≠ verdict / effect-based shell gate
 (Empirical as certification; 2026-09-18 ~23:40):**
 [construct-auto-classifier](https://github.com/godspede/construct-auto-classifier)

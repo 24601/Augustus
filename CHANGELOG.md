@@ -945,6 +945,29 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   OCR. Do not copy `npm` / `.env` / `run.sh`. No
   wrapper. No invented metrics. Expand the §39 tweet;
   do not re-card it.
+- User-provided HIGH ~10:20 Boise 2026-09-19
+  (`research/notes.md` §83–§84): **Skip Archer.** Two
+  signals, one fold.
+  [reddpy/AgentGhost](https://github.com/reddpy/AgentGhost)
+  (TypeScript; MIT; **2★**; README SHA `44145fa9`;
+  HEAD `ac04e4fb`). Intent-aware ALLOW/ASK/DENY
+  wrap-as-execution: the wrap *is* the tool function;
+  rules first; ASK throws; `failMode: closed`. Judge
+  is a slot. Provider-hosted tools out of reach.
+  **≠** jwen5419807/agentghost **≠** vventirozos
+  **≠** actiongate **≠** toolgate **≠** jev-use.
+  rh-guard owns the gate cousin. Do not copy `npm` /
+  `.env` / `AUTO_APPROVE`. [@studio_yebisu JP genre
+  atlas](https://x.com/studio_yebisu/status/2101065176069886152)
+  (2026-09-18T21:45:48Z). Apps by hole, not a scored
+  bake-off. Stars research-time (typesafe-computer-use
+  203→**427**; jev-voice-browser 40→**103**). Not
+  verified evals. Engagement ephemeral (this pass
+  131,234 / 1,934 / 192). SAM 3.1 already §39.
+  OpenRouter Jev no-waitlist is WATCH, not a recipe.
+  **≠** @airesearch12 class census **≠** v1.2 board.
+  Do not dump the 30 repos. No wrapper. No invented
+  metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

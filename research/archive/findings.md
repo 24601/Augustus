@@ -2240,3 +2240,39 @@ Cross-repo addition: (iu) ASR perception front-end;
 (iv) partial-speech wait policy / free-text VOI;
 (iw) spoken confirm ≠ auth; (ix) overlay
 disambiguate without another model.
+
+## Batch #67 (2026-09-19 ~16:20 UTC / ~10:20 Boise) — AgentGhost wrap-as-execution + studio_yebisu JP genre atlas
+
+Note: `research/notes.md` §83–§84. Docs-only. Folded into PR #2.
+Skip Archer. No invented metrics. Hunches labeled.
+Quote README and tweet. Not a hit list. Dual-signal
+turn. User SIGNAL_7c0f + SIGNAL_a92b (~08:50 Boise)
++ live this pass.
+
+- **Wrap-as-execution ALLOW/ASK/DENY.**
+  [reddpy/AgentGhost](https://github.com/reddpy/AgentGhost)
+  TypeScript; MIT; **2★** / 0 forks / 0 issues;
+  created 2026-09-18T21:16:55Z; HEAD `ac04e4fb`;
+  README SHA `44145fa9`. The wrap *is* the tool's
+  execution function. Rules first; ASK/DENY throw;
+  `failMode: closed`. Judge is a slot. Hosted
+  provider tools out of reach. `AUTO_APPROVE` is a
+  demo hatch, not a grant. **≠** jwen5419807/agentghost
+  **≠** vventirozos **≠** actiongate **≠** toolgate
+  **≠** jev-use. rh-guard owns the gate cousin.
+- **JP genre atlas, not a bake-off.**
+  [@studio_yebisu](https://x.com/studio_yebisu/status/2101065176069886152)
+  2026-09-18T21:45:48Z. Apps by hole. Stars
+  research-time (typesafe-computer-use 203→**427**;
+  jev-voice-browser 40→**103**). Not verified evals.
+  Engagement ephemeral (this pass 131,234 / 1,934 /
+  192). SAM 3.1 already §39. OpenRouter Jev
+  no-waitlist is WATCH. **≠** @airesearch12 **≠**
+  v1.2. Do not dump the 30 repos.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (iy) wrap-as-execution / ASK
+throws / fail-closed; (iz) application genre atlas
+≠ class census ≠ scored board; (ja) star-count
+drift as pedagogy.

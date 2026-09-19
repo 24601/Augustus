@@ -288,3 +288,16 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     exact, not a second model. Compose with item 21
     (OCR). Full cards: `mixed-architecture.md`, `faq.md`,
     `applied-mappings.md` §9, `validation.md`.
+23. **Wrap-as-execution ALLOW/ASK/DENY** (reddpy/AgentGhost):
+    position 3 (constraint on the actuator path) then
+    position 4 (Selector on leftovers). Rules prove;
+    Jev remainder; ASK is an error not a log line.
+    Fail-closed on judge error. Distinct from actiongate
+    (evidence ≠ authority) and jev-use (fail-open).
+    Full cards: `mixed-architecture.md`, `faq.md`,
+    `applied-mappings.md` §7, `mappings.md` §8/§18.
+24. **Application genre atlas** (@studio_yebisu):
+    position 11 (catalog of holes, not a score).
+    Stars are research-time. Same discipline as item 17
+    (class census ≠ bake-off). Full cards:
+    `mixed-architecture.md`, `faq.md`, `validation.md`.

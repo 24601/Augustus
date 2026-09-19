@@ -197,7 +197,17 @@ below, next to the when-to-use table.
   disambiguate without another model. 27/27 fixtures
   *theirs*. **≠** jev-voice-control **≠** nikolas-j
   **≠** typesafe-computer-use OCR (`notes.md` §82).
-  Do not copy `npm` / `.env`. Skip Archer.
+  **Wrap-as-execution product (Empirical as README; MIT
+  **2★**; 2026-09-19 ~10:20):**
+  [AgentGhost](https://github.com/reddpy/AgentGhost)
+  puts ALLOW/ASK/DENY *on the actuator path*. The
+  model cannot skip the wrap. Rules first; ASK
+  throws; fail-closed. Judge is a slot, not a
+  vendor lock. **≠** actiongate (evidence ≠
+  authority) **≠** toolgate **≠** jev-use
+  fail-open. rh-guard owns the gate cousin
+  (`notes.md` §83). Do not copy `npm` / `.env`.
+  Skip Archer.
 - **Decide.** Typed Choice/Score/Noul with a decision/proper-scoring
   objective. That is Jev's product claim. Open heads copy the *shape*;
   distillation copies the *teacher* (openjev-lm, jev-gate-student-b).

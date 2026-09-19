@@ -919,6 +919,13 @@ misses. Never shadows a built-in tool (would bypass deny).
 — destructive Noul is a sensor; spoken "confirm" is
 not an interlock. Control-port reach grants. rh-guard
 owns the gate cousin (`notes.md` §82).
+**Wrap-as-execution is the constraint (Empirical as
+README; 2026-09-19 ~10:20):**
+[AgentGhost](https://github.com/reddpy/AgentGhost)
+— the wrap *is* the actuator path; Jev is the sensor
+on leftovers after rules. ASK throws; fail-closed on
+judge error. `AUTO_APPROVE` is not a constraint.
+rh-guard owns the gate cousin (`notes.md` §83).
 **Judgment ≠ permission (Hypothesis / outline only):**
 [skill-broker](https://github.com/adamjralph/skill-broker)
 — code owns grants; Jev scores relevance and **never
@@ -950,6 +957,13 @@ limit failure. Financial / destructive / credential fail
 closed if Jev is down. Distinct from construct (shell
 effects) and interlock (secrets never in agent)
 (`notes.md` §64).
+**Wrap-as-execution cousin (Empirical as README;
+2026-09-19 ~10:20):**
+[AgentGhost](https://github.com/reddpy/AgentGhost)
+— the wrap *is* execution; rules prove allow/deny/ask
+before Jev; ASK throws. Distinct from actiongate
+(policy/RBAC is the hard gate, Jev only evidence).
+`notes.md` §83.
 **Turnstile clone (Empirical as README architecture;
 2026-09-19 ~01:47):**
 [turnstile](https://github.com/zyphr-labs/turnstile) —
@@ -1499,6 +1513,14 @@ annotated. Distinct from the ndolinschi *vocabulary* (allow /
 ask_human / deny) already in `agent-self-assessment.md`.
 `onReview` must obtain authenticated human approval
 (`notes.md` §55). Do not copy pnpm.
+**Wrap-as-execution then remainder (Empirical as README;
+fail-closed; 2026-09-19 ~10:20):**
+[AgentGhost](https://github.com/reddpy/AgentGhost)
+— `allow`/`ask`/`deny`/`matchArg` prove first; Jev on
+leftovers; ASK/DENY throw; judge error → DENY. Distinct
+from jevgate (fail-open, cannot block) and from toolgate
+(proposed-call pre-exec). rh-guard owns the gate cousin.
+Do not copy `npm` (`notes.md` §83).
 **OMP prompt suppression, host deny proves (Empirical as
 measured traffic, 2026-09-18 ~22:38):**
 [omp-greenlight](https://github.com/SemetricLabs/omp-greenlight)

@@ -563,6 +563,10 @@ Use these as *existence proofs of a position*. Write your own card.
 | Partial-speech VOI | act now vs wait for the rest | `complete` Noul + silence; closed-set may fire; free-text waits (**Empirical as README**: jev-voice-browser) | Truncating "search for alan" is the cheap failure |
 | Spoken confirm ≠ auth | destructive click | Second Noul path; convenience not guarantee (**Contract as README**: jev-voice-browser) | Control-port reach is the real grant |
 | Overlay disambiguate | which of 2–3 targets | Numbered badges; spoken digit; no second model (**Empirical as README**: jev-voice-browser) | The id is already in code |
+| Wrap-as-execution | can the model skip the judge? | The wrap *is* the tool function (**Empirical as README**: AgentGhost; ASK throws; fail-closed) | Advisory sidecar is theater. rh-guard owns the gate cousin |
+| Rules first then remainder | which verbs skip the model | allow-list proves; Jev on leftovers (**Empirical as README**: AgentGhost `allow` skips judge) | Contrast fail-open allowlist that cannot block |
+| ASK throws | can HITL be silently skipped? | Default errors; wire `approveWith` (**Contract as README**: AgentGhost) | `AUTO_APPROVE` is a demo hatch, not a grant |
+| Genre atlas ≠ bake-off | is this a rank? | Apps by hole; stars research-time (**Empirical as tweet**: [@studio_yebisu](https://x.com/studio_yebisu/status/2101065176069886152)) | ≠ class census §77 ≠ v1.2 board. Likes ephemeral |
 | Sentence-as-rule | does this named artifact contradict itself | Structural matcher × one sentence scored (**Empirical**: mizchi/jevlint 13/15 1.00/1.00 *theirs*) | Mechanical defects stay with the compiler; qualify vs huntedman/JevLint |
 | VOI admission (expensive review) | which hunks are worth a generative look | Typed per-hunk probabilities; safety keep-set in code (**Empirical as pilot**: prune-review 1.18% with 305% outlier *theirs*) | Cost ≠ quality; ~20% is a target not a result |
 | Whole-repo intent | does unchanged code still violate the ask | VERIFIED/VIOLATION/UNKNOWN (**Empirical as CLI**: jev-intent-review) | Empty search ≠ proof; observation window ≠ the diff |

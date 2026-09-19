@@ -177,6 +177,12 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    — never ships a waveform; partial-speech wait;
    spoken confirm ≠ auth; numbered overlay, no second
    model (`notes.md` §82).
+   Wrap-as-execution product (MIT **2★**):
+   [AgentGhost](https://github.com/reddpy/AgentGhost)
+   — ALLOW/ASK/DENY *is* the tool function; rules
+   first; ASK throws; fail-closed; judge swappable
+   (`notes.md` §83). **≠** actiongate **≠** toolgate
+   **≠** jev-use. rh-guard owns the gate cousin.
    Closed-vote extreme (no planner LLM):
    [JevOnly](https://github.com/buluoray/JevOnly) (`notes.md` §61).
    Host-owned product:
