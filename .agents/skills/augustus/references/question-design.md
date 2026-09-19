@@ -111,6 +111,9 @@ request, and treat a stale pin as a prior, never a setting.
 | Hard-act at the 20% starting gate / treat seed as replay | Soft slider as interlock; geometry as DST | 20% *theirs* still soft; schema-safe ≠ correct. Seed repeats layout, not timing. `notes.md` §80 |
 | Send pixels or planner prose into the reflex | Omni / stale bearings | No graphical input; code never labels safest; physics owns collisions. Skip Archer. `notes.md` §80 |
 | Assume confidence = selected probability | SDK field smuggled as the app contract | Application contracts ≠ TypeSafe methods. `notes.md` §80 |
+| Overlapping CU actions / one 255-way soup | Confidence collapse; noise in the kind | Exclusive set; split kind/item/site ([typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use)). `notes.md` §81 |
+| Ship pixels to Jev for the click | Omni CU | OCR+AX text-state; answer-reader capture ≠ the Choice. Skip Archer. `notes.md` §81 |
+| Quote 155× as a Harbor score / 0.4 as τ | One screenshot; product copy | Re-measure. schema-safe ≠ correct. `notes.md` §81 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

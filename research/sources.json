@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T15:50Z",
+  "retrieved": "2026-09-19T16:05Z",
   "sources": [
     {
       "kind": "docs",
@@ -172,7 +172,7 @@
     },
     {
       "kind": "repo",
-      "note": "$0.0002/step + deterministic-state caveat",
+      "note": "$0.0002/step + deterministic-state caveat; Productized HIGH §81 (OCR+AX → hosted Jev; never screenshot-to-frontier for the decision; 155× *theirs* one screenshot)",
       "title": "awlevin/typesafe-computer-use",
       "url": "https://github.com/awlevin/typesafe-computer-use"
     },

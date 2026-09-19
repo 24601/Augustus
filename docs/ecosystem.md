@@ -37,6 +37,7 @@ weekdays. Jev is the densest public corpus, not the class monopoly.
 - **yalindogusahin/jevpandas** — pandas semantic index; noul/choice/score; LICENSE absent this pass. `notes.md` §46. Accessor sibling: **ktaletsk/jevframe** (PyPI; pandas and Polars `.jev`; full `p__`). `notes.md` §48.
 - **Friedjof/jev-mobile** — durable Android worker + Mobile MCP; Jev sees prevalidated candidates only. `notes.md` §33.
 - **jcpsimmons/jev-macos-loop** — Apple-silicon computer-use; local OmniParser/OCR/AX; text-only Jev. Finder demo independently verified.
+- **awlevin/typesafe-computer-use** — productized macOS OCR+AX → hosted TypeSafe Choices → deterministic click/type. Never ships a screenshot for the *decision*; writer only for free text; overlapping options = doubt; split kind/item/site; 155× *theirs* one screenshot, not a Harbor taskset. **≠** jev-ultrafast **≠** cua-s1 **≠** jev-macos-loop **≠** camoufox. `notes.md` §81.
 - **rajdhakad9826/routeKit** — Jev estimates task requirements; policy engine selects the LLM. Jev does not pick the model.
 - **jxu-dev-c/jev-adaptive-thinking** — session-sticky first-prompt Jev classification; fail-closed lock to `gpt-5.6-sol`. License null. `notes.md` §58.
 - **Dicklesworthstone/skillranker** — hook ranks the skill catalog from live context with a calibration loop.

@@ -101,6 +101,7 @@ regex/LLM/code, Jev selects).
 - awlevin/typesafe-computer-use: $0.0002/step vs $0.032 Opus; key caveat:
   "every piece of reasoning the frontier model does for free has to be
   rebuilt here as deterministic state" (OCR + explicit date parsing).
+  **Productized HIGH:** `notes.md` §81. Do not re-card this one-liner.
 - RomanSlack/jev-drone: 500Hz control + 50Hz safety in code, classical CV to
   symbols at 15Hz, Jev advisory ~2.5Hz (Choice maneuver + Score risk + Noul
   lost-vs-occluded). "Cannot be the perception layer or run at control rate."
@@ -11542,3 +11543,218 @@ Local≠localjev); `agent-self-assessment.md`;
 `question-design.md`; `mappings.md` §9;
 `applied-mappings.md` §9; `judgment-class.md`
 portent 5. Hunches labeled. No wrapper.
+
+## 81. User-provided HIGH — awlevin/typesafe-computer-use (2026-09-19 ~09:51 Boise / ~15:51 UTC)
+
+Docs-only into PR #2. **Skip Archer.** Quote the
+README. Not a hit list. Do **not** re-fold §50–§80
+HIGH except sibling contrast. Hunches labeled. No
+wrappers, `uv sync`, `.env`, keys, Screen Recording
+how-to, copied ports, or invented metrics. TypeSafe
+Jev remains the exemplar — this signal is
+**productized observe→score-among-candidates→code-acts
+on a Mac**, not a new species and not omni
+System One.
+
+The census one-liner already stands ($0.0002/step;
+rebuild pixel-free reasoning as deterministic state).
+Do not re-card that sentence. Material how-to-apply:
+
+1. **Productized CU family** — OCR+AX → numbered
+   items → TypeSafe Choices → code clicks/types.
+   Same hole as jev-ultrafast / solari-reflex /
+   gliner2-ultrafast / cua-s1 / Stagehand pick /
+   ego-jev. Backend here is hosted Jev, not GLiNER2
+   and **not** Cua-S1.
+2. **Mutually exclusive action set** — overlapping
+   options read as doubt (confidence is
+   concentration). wellposed cousin (loud collapse,
+   not silent 1.00).
+3. **Split Choice questions** — `kind` / `item` /
+   `site` / optional `offscreen` in **one** request.
+   Used-only-for-matching-kind keeps screen noise
+   out of the action choice (VOI / noise control).
+4. **Deterministic perception rebuilds what frontier
+   gets for free from pixels** — dates.py, clock,
+   URL, crop+tile OCR, AX walk. Honest caveat
+   *theirs*.
+5. **Writer/decider split + post-type Noul** —
+   classifier never generates. Writer only for
+   `type_text` / `site: other` / the one-shot
+   **answer**. After type, Noul ≥ 0.5 *theirs* or
+   clear. Still soft (schema-safe ≠ correct).
+6. **Cost/latency table is Harbor-shaped evidence,
+   not a taskset** — one screenshot, one decision
+   each. Mark multipliers *theirs*. Do not promote
+   155× to Harbor ground truth.
+
+Receipts: user SIGNAL_0e9d (~08:49 Boise; MIT;
+★419) + uploaded README_45d1 plus live GitHub
+this pass. Python; MIT; **427★** / 24 forks / 7
+issues; created 2026-09-16T17:48:45Z; pushed
+2026-09-18T23:33:50Z; updated 2026-09-19T15:48:52Z.
+HEAD `cc7b5066`. README SHA `369f4a6a`. Topics:
+ai-agents, automation, computer-use, macos, ocr,
+typesafe. Star counts **ephemeral**.
+
+### HIGH
+
+1. **[`awlevin/typesafe-computer-use`](https://github.com/awlevin/typesafe-computer-use)**
+   — NEW HIGH (census one-liner already). MIT;
+   **427★**. macOS 14+ / Python 3.12+.
+
+   **Quote README (*theirs*).** “It never sends a
+   screenshot to a big model. Instead it reads the
+   screen deterministically, asks a small classifier
+   which action comes next, and only calls a writing
+   model when a text field genuinely needs free
+   text.” “Most steps do not need a plan. They need
+   one choice from a short list, made quickly and
+   cheaply, with a confidence number you can gate
+   on.”
+
+   **Decision vs answer (quote both).** The
+   *decision* path never ships pixels to frontier.
+   The one-shot **answer** reader, when the loop
+   stops itself, “receives … the text of the last
+   screen, **and the capture itself**, because OCR
+   misreads a letter here and there and drops
+   layout.” That is a writer packet, not the Choice.
+   Class discipline: OCR text + AX labels → TypeSafe;
+   **not** shared-prefix multimodal Jev; **not**
+   Archer.
+
+   **Economics (*theirs*; same screenshot and goal,
+   one decision each):** typesafe jev **$0.0002** /
+   0.13–0.38 s model / ~1.5 s e2e vs Claude Opus 5
+   bare screenshot **$0.032** / 5.2 s / ~5.5 s
+   (155× cheaper; 14–40× model; 3.7× e2e). Realistic
+   loop-with-history 170×–390×; 12-step $0.003 vs
+   $0.40–$0.90. Input tokens ~same (4,882 vs 4,785).
+   **Honest caveat *theirs*:** “the big model read
+   the event dates off the pixels and compared them
+   unaided. The classifier needed the date parsing
+   described below. **Every piece of reasoning the
+   frontier model does for free has to be rebuilt
+   here as deterministic state.**” One screenshot ≠
+   a Harbor taskset. Do not promote 155× as a class
+   constant.
+
+   **Loop (*theirs*):** screencapture → Vision OCR
+   (crop + tile reuse; 60% change → full reread) +
+   AX (on-screen + capped off-screen `AXPress` list)
+   → numbered items (`ocr` | `ax` | `ax+ocr`) +
+   focused field + URL + clock + dates.py → **one**
+   TypeSafe request, three Choices, four with
+   off-screen controls (`kind` / `item` / `site` /
+   `offscreen`) → deterministic action → wait →
+   next. “Splitting the decision into three
+   questions keeps screen noise out of the action
+   choice. Every stall found while building this
+   came from two options that meant the same thing.
+   **Confidence measures concentration, so
+   overlapping options always read as doubt. Keep
+   the action set mutually exclusive.**”
+
+   **AX is a bonus, never a replacement (*theirs*;
+   ten apps, one Mac):** Finder 100% labelled on-
+   screen, Chrome 88%, Slack 85%, Notion 68%,
+   **Spotify 0**. Off-screen list is separate so a
+   mouse click would not land on the wrong pixel; a
+   refusal is a no-op.
+
+   **Writer/decider (*theirs*):** “The classifier
+   never generates text.” `type_text` → `{fill,
+   text}`; credentials `fill: false`. After typing,
+   a Noul “whether the field now holds a sensible
+   value. **Under 0.5 the field is cleared.**”
+   `site: other` → `{ok, url}`; code rejects
+   non-https. Passwords are never typed. `--act`
+   dry-run is the one-step print; live run needs
+   Screen Recording + Accessibility (do **not** copy
+   the grant recipe). Stops: `done`/`none`, conf <
+   `--min-confidence` (**0.4** *theirs*), two
+   consecutive no-ops, `--steps`, or mouse slam
+   top-left (exact). `done` is loop termination, not
+   verified success. 0.4 / 0.5 stay product copy,
+   not Harbor τ.
+
+   **How to apply (recipe, not a dump):**
+
+   1. **Number candidates in code; score; click.**
+      Never generate selectors. Same family as
+      jev-ultrafast — this one is **desktop OCR+AX**,
+      not a browser a11y snapshot.
+   2. **Split the question.** kind vs item vs site
+      is cheaper than one 255-way soup. Off-screen
+      is a fourth question, not mixed into items.
+   3. **Make options exclusive.** Overlap is
+      confidence theater (loud). Missing `other` is
+      the quiet cousin (wellposed).
+   4. **Pay for perception where pixels were free.**
+      Crop, tile reuse, dates.py, AX prune. OCR is
+      ~two thirds of the step *theirs*.
+   5. **Writer only for free text.** Verify the
+      field with a Noul; still soft. The answer
+      screenshot is a *reader* packet, not the
+      decision.
+   6. **Quote the table as one-screenshot evidence.**
+      Re-measure on *your* taskset before a Harbor
+      claim.
+
+   **Name locks (do not collapse):**
+   - **≠** [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast)
+     (browser DOM; Flights demo clock).
+   - **≠** [jcpsimmons/jev-macos-loop](https://github.com/jcpsimmons/jev-macos-loop)
+     (OmniParser/OCR/AX; Finder demo).
+   - **≠** [trycua/cua `libs/cua-s1`](https://github.com/trycua/cua/tree/main/libs/cua-s1)
+     (not TypeSafe Jev; source-only).
+   - **≠** [matthewdonsemail-lab/open-typesafe-camoufox](https://github.com/matthewdonsemail-lab/open-typesafe-camoufox)
+     (browser; shaped after this; 11-way Choice).
+   - **≠** blackwood-rlcd (pixels in).
+   - **≠** khordoo/jev-reflex-autonomy-lab (sim;
+     no OCR; §80).
+   - **≠** ego-jev / JevOnly / Stagehand pick
+     (cousins, different hosts).
+
+   **Siblings (do not re-card):** solari-reflex
+   §48; gliner2-ultrafast §52; cua-s1 §54;
+   Stagehand §57; wellposed overlapping §46;
+   jeffrey writer/decider §70; khordoo no-pixels
+   §80. Do **not** copy `uv sync` / `.env`.
+
+### Skip Archer
+
+HF `archerhume`/`4rcherhume` still empty. This
+lab is **text-state + AX**, not omni. The answer
+reader may see a capture; the Choice does not.
+Skip Archer this fold.
+
+### Not
+
+Not a re-card of jev-ultrafast / cua-s1 /
+Stagehand / solari. Not a Harbor taskset. Not
+omni System One. Not a TypeSafe how-to. Not a
+hit list. Do not copy Stripe, uv, or `.env`.
+Do not treat 155× / 0.4 / 0.5 as calibrated
+constants. Do not ship screenshots “because CU.”
+Do not treat `done` as verified success. Do not
+steal jev-voice-browser (ASR later).
+
+### Curated status
+
+Census one-liner **kept**. Productized HIGH
+**folded**. Archer still **NOT landed**. v1.2 /
+hourly / khordoo **not re-derived**.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`validation.md`; `toolbox-mapping.md`;
+`composition-algebra.md` item 21;
+`question-design.md`; `mappings.md` §6/§9;
+`applied-mappings.md` §2/§9;
+`judgment-class.md` portent 4;
+`methods-catalog.md`. Hunches labeled. No
+wrapper.

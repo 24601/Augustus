@@ -614,6 +614,18 @@ strategy was **consumed** (purple confidence), not
 only that it arrived. 20% starting gate *theirs*
 still soft. Local vs Live is an A/B of backends, not
 a scored bake-off (`notes.md` §80).
+**Split-question CU VOI (Empirical as README; desktop;
+2026-09-19 ~09:51):**
+[typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use)
+— pay three/four Choices in **one** request
+(`kind`/`item`/`site`/`offscreen`) instead of one
+255-way soup. Perception (crop+tile OCR, dates.py, AX
+walk) is the expensive gather that rebuilds what
+frontier reads from pixels for free. Exclusive
+actions: overlap is loud doubt, not silent 1.00.
+155× / $0.0002 is *theirs* on one screenshot, not a
+taskset. Writer only when free text is the job
+(`notes.md` §81).
 **Evidence-synthesis two-pass VOI (Empirical as README;
 medicine/Cochrane; 2026-09-19 ~08:48):**
 [choxos/jev-reviewer](https://github.com/choxos/jev-reviewer)
@@ -1027,6 +1039,14 @@ Live `jev-latest` is an A/B of backends (**≠**
 githubnext/localjev). Seed = geometry ≠ replay. No
 pixels. 20% still soft. S2 never grants. Do not copy
 npm / `.dev.vars` (`notes.md` §46, §80).
+**OCR+AX desktop cousin (Empirical as README;
+2026-09-19 ~09:51):**
+[typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use)
+— the *algorithm* is the capture→OCR+AX→Choice→act
+loop; the substituted classifier step is exclusive
+kind/item/site. Perception stays in code. Writer is
+leftover generation. Decision never ships pixels; the
+answer reader may. Do not copy `uv` (`notes.md` §81).
 
 ```text
 loop     = yours (beam / funnel / stages / MCTS / incident command)

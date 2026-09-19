@@ -320,6 +320,23 @@ never guess. Jev `done` ≠ business success. Measured
 benchmark). Cousin of jev-ultrafast. Distinct from JevOnly
 / waymode / Stagehand. Do not copy `install.sh`
 (`notes.md` §65).
+**OCR+AX desktop CU (Empirical as README; MIT **427★**;
+2026-09-19 ~09:51):**
+[typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use)
+— macOS Vision OCR + AX → numbered items → TypeSafe
+Choices (`kind` / `item` / `site` / optional
+`offscreen`) → code clicks/types. **Never ships a
+screenshot for the *decision*.** Writer only for
+`type_text` / `site: other` / the one-shot **answer**
+(the answer reader *may* receive the capture — a
+writer packet, not the Choice). Overlapping options
+read as doubt; keep the set exclusive. AX is a bonus,
+never sole (Spotify 0 *theirs*). Post-type Noul 0.5
+and `--min-confidence` 0.4 stay product copy, not
+Harbor τ. $0.0002 vs Opus $0.032 (155×) *theirs* on
+**one screenshot**, not a taskset. **≠** jev-ultrafast
+**≠** cua-s1 **≠** jev-macos-loop **≠** camoufox. Do
+not copy `uv sync` / `.env` (`notes.md` §81).
 **Adversarial browser, Playwright executes / Jev chooses
 (Empirical as README; license null; 2026-09-19 ~04:39):**
 [browser-jev](https://github.com/DowLucas/browser-jev) —
@@ -1208,6 +1225,16 @@ typed flight action; optional S2 never flies and never
 grants. Escalate without stalling. Local controller
 **≠** githubnext/localjev. Experimental viz, not this
 card's no-LLM extreme. Do not copy npm (`notes.md` §80).
+**OCR+AX productized cousin (Empirical as README; MIT
+**427★**; 2026-09-19 ~09:51):**
+[typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use)
+— hosted Jev picks among numbered OCR+AX items; code
+acts. Writer is leftover generation, not a planner.
+`done` is loop termination, not verified success.
+Exclusive action set; split questions. 155× *theirs*
+one screenshot. Distinct from this card's no-planner
+browser extreme and from ego-jev hot-click. Do not
+copy `uv` (`notes.md` §81).
 **Counterexample**: Stagehand extract `"pick"` with LLM
 fallback sold as "no LLM" — pick is a fast path, not this
 card. **Test**: every typed character exists in goal, facts,

@@ -269,3 +269,13 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     `mixed-architecture.md`, `faq.md`,
     `mental-models.md`, `agent-self-assessment.md`,
     `validation.md`.
+21. **OCR+AX observe→score→act** (awlevin/typesafe-computer-use):
+    position 10 (Discretizer: screen → numbered items)
+    then position 4 (Selector of next action). Writer
+    is generation, not a Jev position. Split kind/item/site
+    is width-is-cheap. Overlap is concentration theater.
+    Perception in code rebuilds pixel-free reasoning.
+    Decision never ships screenshots; the answer reader
+    may. 155× is one screenshot *theirs*. Full cards:
+    `mixed-architecture.md`, `faq.md`,
+    `applied-mappings.md` §9, `validation.md`.

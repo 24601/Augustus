@@ -906,6 +906,27 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   *theirs*. Experimental viz, not a flight controller.
   Do not copy npm / `.dev.vars`. No wrapper. No
   invented metrics.
+- User-provided HIGH ~09:51 Boise 2026-09-19
+  (`research/notes.md` §81): **Skip Archer.** Productized
+  observe→score-among-candidates→code-acts on a Mac,
+  not a new species.
+  [awlevin/typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use)
+  (Python; MIT; **427★**; README SHA `369f4a6a`; HEAD
+  `cc7b5066`). OCR+AX → numbered items → TypeSafe
+  Choices (`kind`/`item`/`site`/`offscreen`) →
+  deterministic click/type. **Never ships a screenshot
+  to frontier for the *decision***; the one-shot
+  **answer** writer may receive the capture (reader
+  packet, not the Choice). Writer only for free text.
+  Overlapping options = false low confidence. AX bonus
+  never sole (Spotify 0 *theirs*). Post-type Noul 0.5
+  and `--min-confidence` 0.4 still soft. $0.0002 vs
+  Opus $0.032 (155×) *theirs* on **one screenshot**,
+  not a Harbor taskset. Honest caveat: dates.py rebuilds
+  pixel-free reasoning. **≠** jev-ultrafast **≠**
+  cua-s1 **≠** jev-macos-loop **≠** camoufox. Do not
+  copy `uv sync` / `.env`. No wrapper. No invented
+  metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

@@ -167,6 +167,11 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    [Stagehand #2955](https://github.com/browserbase/stagehand/pull/2955)
    — pick-and-copy extract + act tree; LLM fallback; pick ≠
    replacement (`notes.md` §57).
+   OCR+AX desktop product (hosted Jev; MIT **427★**):
+   [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use)
+   — never ships a screenshot for the *decision*;
+   overlapping options = doubt; `done` ≠ verified
+   success; 0.4 / 0.5 still soft (`notes.md` §81).
    Closed-vote extreme (no planner LLM):
    [JevOnly](https://github.com/buluoray/JevOnly) (`notes.md` §61).
    Host-owned product:

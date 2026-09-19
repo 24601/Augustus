@@ -1199,9 +1199,32 @@ GLiNER2.5. Not a bake-off against the Flights demo clock.
 [ego-jev](https://github.com/jiangkoumo/ego-jev) is the same
 hole on ego-lite: indexed viewport table → operation+target;
 code owns the loop; text model only for type; `--until` beats
-Jev `done`. n=3 medians ~2×, not a bench. `notes.md` §52,
-§57, §61, §65.
-`judgment-class.md`; `mixed-architecture.md`; `notes.md` §52, §54, §57, §61.
+Jev `done`. n=3 medians ~2×, not a bench.
+[awlevin/typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use)
+is the **macOS OCR+AX** product of the same hole (MIT;
+**427★**): never ships a screenshot for the *decision*;
+writer only for free text; post-type Noul 0.5 *theirs* still
+soft; overlapping options = false low confidence; split
+kind/item/site. The one-shot answer reader may receive the
+capture — that is not the Choice. $0.0002 / 155× is
+one-screenshot *theirs*, not a Harbor taskset. **≠**
+jev-ultrafast **≠** cua-s1 **≠** jev-macos-loop **≠**
+open-typesafe-camoufox. `notes.md` §81.
+`judgment-class.md`; `mixed-architecture.md`; `notes.md` §52, §54, §57, §61, §65, §81.
+
+## Should I send the screenshot to Jev for computer use? Is 155× a Harbor score?
+
+No, and no. [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use)
+reads the screen **deterministically** (Vision OCR + AX +
+dates.py) and asks TypeSafe a Choice over numbered items.
+The decision never ships pixels to a frontier model. The
+one-shot **answer** writer may receive the capture — a
+reader packet, not the classifier. 155× / $0.0002 is
+*theirs* on **one screenshot**, with the honest caveat that
+frontier read dates unaided. Re-measure on *your* taskset.
+`--min-confidence` 0.4 and post-type Noul 0.5 stay product
+copy, not Harbor τ. Overlapping actions read as doubt; keep
+the set exclusive. `notes.md` §81.
 
 ## Does Stagehand extract replace the LLM?
 

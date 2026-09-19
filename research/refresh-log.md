@@ -1257,3 +1257,32 @@
 - notes.md §80; sources.json (457 sources, 454 unique URLs,
   retrieved 2026-09-19T15:50Z); findings.md batch #64.
   No wrapper.
+## 2026-09-19 ~16:05 UTC — user-provided typesafe-computer-use HIGH (~10:05 Boise)
+- Docs-only into PR #2. `notes.md` §81. Skip Archer.
+  Hunches labeled. No wrapper. No invented metrics.
+  Quote README. Expand the census one-liner; do not
+  re-card it. Do not copy `uv sync` / `.env` / keys /
+  Screen Recording how-to.
+- Receipts: user SIGNAL_0e9d (~08:49 Boise; MIT; ★419)
+  + uploaded README_45d1 + live GitHub this pass
+  (**427★** / 24 forks / 7 issues; README SHA
+  `369f4a6a`; HEAD `cc7b5066`; pushed
+  2026-09-18T23:33:50Z).
+- Folded: productized OCR+AX observe→score→act
+  (hosted Jev); exclusive action set; split
+  kind/item/site/offscreen; perception rebuilds
+  pixel-free reasoning; writer/decider + post-type
+  Noul still soft; 155× *theirs* one screenshot ≠
+  Harbor taskset; decision ≠ answer-reader capture;
+  AX never sole; `done` ≠ success. **≠** jev-ultrafast
+  **≠** cua-s1 **≠** jev-macos-loop **≠** camoufox.
+- Census not re-derived. Archer still NOT landed.
+- Cards: SKILL.md, mixed-architecture, faq,
+  mental-models, agent-self-assessment, validation,
+  toolbox, composition-algebra item 21,
+  question-design, mappings §6/§9, applied-mappings
+  §2/§9, judgment-class portent 4, methods-catalog,
+  ecosystem, CHANGELOG, README.
+- notes.md §81; sources.json (457 sources, 454 unique URLs,
+  retrieved 2026-09-19T16:05Z); findings.md batch #65.
+  No wrapper.

@@ -2165,3 +2165,41 @@ Cross-repo addition: (im) escalate-without-stall;
 (io) Local-vs-Live reflex A/B / Local ≠ localjev;
 (ip) seed≠replay / 20% still soft / no-pixels
 class discipline.
+
+## Batch #65 (2026-09-19 ~16:05 UTC / ~10:05 Boise) — awlevin/typesafe-computer-use productized OCR+AX CU
+
+Note: `research/notes.md` §81. Docs-only. Folded into PR #2.
+Skip Archer. No invented metrics. Hunches labeled.
+Quote README. Not a hit list. **Do not re-card** the
+census one-liner ($0.0002/step; rebuild pixel-free
+reasoning). User SIGNAL_0e9d (~08:49 Boise; MIT;
+★419) + live this pass **427★** / 24 forks / 7 issues;
+README SHA `369f4a6a`; HEAD `cc7b5066`.
+
+- **Productized observe→score→act.** OCR+AX → numbered
+  items → hosted TypeSafe Choices → code clicks/types.
+  Same hole as jev-ultrafast / gliner2-ultrafast /
+  cua-s1 / Stagehand / ego-jev. Backend here is hosted
+  Jev, **not** GLiNER2 and **not** Cua-S1.
+- **Mutually exclusive action set.** Overlapping
+  options read as doubt (confidence is concentration).
+  Split `kind`/`item`/`site`/`offscreen` as VOI / noise
+  control.
+- **Decision ≠ answer-reader.** Never ships a screenshot
+  to frontier for the *decision*. The one-shot **answer**
+  writer may receive the capture. Not omni. Skip Archer.
+- **Writer/decider + soft Noul.** Writer only for free
+  text. Post-type 0.5 and `--min-confidence` 0.4 still
+  soft. AX bonus never sole (Spotify 0 *theirs*).
+  `done` ≠ verified success.
+- **Harbor-shaped one-screenshot table.** $0.0002 vs
+  Opus $0.032 (155×) *theirs*; dates.py caveat. Not a
+  taskset. **≠** jev-ultrafast **≠** cua-s1 **≠**
+  jev-macos-loop **≠** camoufox.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (iq) OCR+AX desktop CU family;
+(ir) exclusive CU options / split questions;
+(is) screenshot-to-frontier fail-closed on the
+decision; (it) 155× one-screenshot ≠ Harbor score.

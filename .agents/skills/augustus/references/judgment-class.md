@@ -166,6 +166,25 @@ below, next to the when-to-use table.
   replacement. Do not merge with jev-ultrafast / gliner2-ultrafast
   / Cua-S1 clocks. Not multimodal pixels on the pick path
   (`notes.md` §57). Do not copy `experimentalJevAct`.
+  **OCR+AX desktop product (Empirical as README; MIT
+  **427★**; 2026-09-19 ~09:51):**
+  [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use)
+  is the same observe→score-among-candidates→code-acts
+  hole on a **Mac**, with **hosted TypeSafe Jev**, not
+  GLiNER2 and **not** Cua-S1. Vision OCR (crop+tile) +
+  AX → numbered items → three/four Choices
+  (`kind`/`item`/`site`/`offscreen`) → deterministic
+  click/type. **The decision never ships a screenshot
+  to frontier.** The one-shot **answer** writer may
+  receive the capture because OCR misreads — a reader
+  packet, not the Choice. Overlapping options always
+  read as doubt. AX is a bonus, never a replacement
+  (Spotify 0 *theirs*). $0.0002 vs Opus $0.032 (155×)
+  is *theirs* on **one screenshot**, not a Harbor
+  taskset. 0.4 / 0.5 still soft. **≠** jev-ultrafast
+  **≠** jev-macos-loop OmniParser **≠** camoufox
+  **≠** blackwood-rlcd (`notes.md` §81). Do not copy
+  `uv` / `.env`. Skip Archer.
 - **Decide.** Typed Choice/Score/Noul with a decision/proper-scoring
   objective. That is Jev's product claim. Open heads copy the *shape*;
   distillation copies the *teacher* (openjev-lm, jev-gate-student-b).
@@ -363,9 +382,18 @@ capability shift, independent of vendor:
    [khordoo/jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab)
    sends **no graphical input** to either provider; sensors emit
    geometry; code never labels safest; planner narrative is
-   excluded from Jev input (`notes.md` §80). Hosted TypeSafe
-   product APIs and prompted LocalJev are **not** a shared-prefix
-   multimodal species. Skip Archer.
+   excluded from Jev input (`notes.md` §80). **Receipt
+   (README *theirs*):**
+   [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use)
+   never ships a screenshot to frontier for the
+   *decision*; OCR+AX text-state → TypeSafe Choices →
+   code clicks; writer only for free text; the one-shot
+   answer reader may receive the capture (`notes.md`
+   §81). Overlapping options = false low confidence.
+   155× is one screenshot. **≠** jev-ultrafast **≠**
+   cua-s1. Hosted TypeSafe product APIs and prompted
+   LocalJev are **not** a shared-prefix multimodal
+   species. Skip Archer.
 5. **Open heads and GLi\* make the control plane local.** Air-gap /
    on-device / laptop (GLiNER2.5 74M–287M CPU-first; openjev-lm 0.5B
    LoRA overnight on 6 vCPU; encoder open-jev DeBERTa-v3-large 434M;
