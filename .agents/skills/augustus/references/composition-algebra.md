@@ -490,6 +490,51 @@ datasets — every gate is a per-dataset measurement (see validation.md).
 61. **Local daemon ≠ Jev** (jevbrain): overlap
     sensor, not a Noul. AUTO_ACT is not a Noul.
     Full cards: `judgment-class.md`, `faq.md`.
+62. **Judge harness as control API** (judgekit /
+    typed-judge-kit): position 2 (keep/drop among
+    YAML/recipe tasks) × measurement. judgekit YAML classify/score/route/verify. typed-judge-kit verdict-in-code. **≠** JudgeBench **≠** DeepEval.
+    Full cards: `applied-mappings.md` §5, `faq.md`.
+63. **Batch packing VOI** (alsoleg89/decide):
+    position 6 (gather as an act). alsoleg89/decide packing VOI. 0.8 ≠ 80% accuracy. **≠** jev-sift.
+    Full cards: `mappings.md` §6, `faq.md`.
+64. **Calibration as product** (Jev-Calibration /
+    jev-calibration-arena): jevals surface. Jev-Calibration Platt ECE 0.117→0.052. jev-calibration-arena never acts. **≠** jev-arena. Full cards:
+    `validation.md`, `faq.md`.
+65. **Decision-as-Plugin** (openrouter-jev-mcp /
+    typesafe-mcp / FrancoisChastel/jev-code /
+    claudecode-jev-marketplace / mcp_jev /
+    jev-skill): packaging ≠ new species.
+    ctmx/openrouter-jev-mcp Decision-as-Plugin.
+    FrancoisChastel/jev-code ≠ npm jev-code.
+    claudecode-jev-marketplace fail-open not hot path. pedroknigge/mcp_jev packs not ask_jev.
+    cyrusasco/typesafe-mcp noul deadband 0.35–0.65.
+    codaaiteam/jev-skill jevtypesafeai.com ≠ TypeSafe.
+    Full cards: `judgment-class.md`, `faq.md`.
+66. **Policy-constrained skill select**
+    (hermes-switchyard): position 1 (sensor) ×
+    eligibility in the plugin. hermes-switchyard ≠ hermes-jev-router ≠ hermes-plugin-jev. Never
+    loads skills. Full cards:
+    `applied-mappings.md` §5, `faq.md`.
+67. **Tiny local econ pruner** (nanoprune):
+    position 4 (bounded rerank) as a local encoder
+    gate. nanoprune 2.8MB ECE 2.58%. Distill ≠
+    hosted Noul. Full cards: `mappings.md` §4,
+    `judgment-class.md`.
+68. **Observe→score→act cousins**
+    (jev-browser-agent / omp-jev-web / hari007sh/jev):
+    position 9. smartdio/jev-browser-agent ≠ ZHUBoer/ego-jev. Dakai/omp-jev-web DONE ≠ proof.
+    hari007sh/jev ≠ dannote/jev. Full cards:
+    `applied-mappings.md` §9, `faq.md`.
+69. **Deterministic verify ≠ System One**
+    (system-one-skills): exact wrapper, not a Noul.
+    0thernet/system-one-skills deterministic verify.
+    Full cards: `judgment-class.md`, `faq.md`.
+70. **Soft-score vs hard-argmax** (typed-gate /
+    pi-jev-gate): read p; mid-band is refusal.
+    typed-gate band [0.40,0.60] is refusal.
+    pi-jev-gate fail-closed; choice is the verdict.
+    rh-guard owns the gate cousin. Full cards:
+    `mixed-architecture.md`, `faq.md`.
 
-Hourly 1241 items 49–61 (`notes.md` §90). Do **not**
-re-fold 1144 items 41–48.
+Hourly 1347 items 62–70 (`notes.md` §91). Do **not**
+re-fold 1241 items 49–61.

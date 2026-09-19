@@ -1222,6 +1222,72 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   `AI_GATEWAY` / `uv` / `cargo` / wrangler / chrome
   unpacked / OAuth client ids / shop URLs / `.env`.
   No wrapper. No invented metrics.
+- Hourly 1347 HIGH (`research/notes.md` §91): **Skip
+  Archer.** Docs-only on a **fresh PR off main**. Never
+  reopen merged #3 / #4 / #5 / #7. Do **not** re-fold
+  1241 / §90. How-to-apply / mental models /
+  architecture / Harbor-jevals / toolbelt — not a thin
+  Jev skill dump. Backend-agnostic
+  categorization/scoring/decision class (Jev-like
+  speed/econ). Formal methods compose with scoring; a
+  Noul is a SENSOR; hard-gating argmax as safety,
+  pasting 97.7% n=130 / 0 hallucination / 8,026 tokens
+  as class ceilings, or treating a skill named System
+  One as a judge is soundness theater. Nine clusters:
+  **Judge harness as control API**
+  ([judgekit](https://github.com/lexingtonhibiki/judgekit)
+  YAML classify/score/route/verify; 97.7% n=130
+  *theirs*; **0★**;
+  [typed-judge-kit](https://github.com/Ascurse/typed-judge-kit)
+  verdict-in-code; MIN_LABELS=20; **0★**);
+  **Batch packing VOI**
+  ([decide](https://github.com/alsoleg89/decide)
+  packing VOI; 0.8 ≠ 80% accuracy; license null;
+  **0★**; **≠** jev-sift);
+  **Calibration as product**
+  ([Jev-Calibration](https://github.com/AnthusAI/Jev-Calibration)
+  Platt ECE 0.117→0.052; license null; **0★**;
+  [jev-calibration-arena](https://github.com/pmcclelland/jev-calibration-arena)
+  never acts; size 0; **0★**; **≠** jev-arena);
+  **Decision-as-Plugin**
+  ([openrouter-jev-mcp](https://github.com/ctmx/openrouter-jev-mcp);
+  [typesafe-mcp](https://github.com/cyrusasco/typesafe-mcp)
+  noul deadband 0.35–0.65;
+  [FrancoisChastel/jev-code](https://github.com/FrancoisChastel/jev-code)
+  ≠ npm jev-code; **1★**;
+  [claudecode-jev-marketplace](https://github.com/skylence-org/claudecode-jev-marketplace)
+  fail-open not hot path;
+  [mcp_jev](https://github.com/pedroknigge/mcp_jev)
+  packs not ask_jev;
+  [jev-skill](https://github.com/codaaiteam/jev-skill)
+  jevtypesafeai.com ≠ TypeSafe);
+  **Policy-constrained skill select**
+  ([hermes-switchyard](https://github.com/bgrablin/hermes-switchyard)
+  ≠ hermes-jev-router ≠ hermes-plugin-jev; **0★**);
+  **Tiny local econ pruner**
+  ([nanoprune](https://github.com/dmdjr1409/nanoprune)
+  2.8MB ECE 2.58%; 0 hallucination theater; **0★**);
+  **Observe→score→act cousins**
+  ([jev-browser-agent](https://github.com/smartdio/jev-browser-agent)
+  ≠ ZHUBoer/ego-jev;
+  [omp-jev-web](https://github.com/Dakai/omp-jev-web)
+  DONE ≠ proof;
+  [hari007sh/jev](https://github.com/hari007sh/jev)
+  ≠ dannote/jev; license null);
+  **Deterministic verify ≠ System One**
+  ([system-one-skills](https://github.com/0thernet/system-one-skills)
+  deterministic verify; **0★**);
+  **Soft-score vs hard-argmax**
+  ([typed-gate](https://github.com/harshpuri84/typed-gate)
+  band [0.40,0.60] is refusal;
+  [pi-jev-gate](https://github.com/fivethirty/pi-jev-gate)
+  fail-closed; choice is the verdict; rh-guard owns). Soft
+  Noul ≠ hard safety. 0★ HIGHs still get real cards.
+  Census (user-provided; not re-derived): Archer still
+  NOT landed. Do not copy `TYPESAFE_API_KEY` /
+  `OPENROUTER_API_KEY` / `JEV_API_KEY` / `uv` / `npx`
+  / plugin-marketplace install / `.env`. No wrapper.
+  No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

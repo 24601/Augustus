@@ -2522,3 +2522,50 @@ pointer shell exit-3; (kf) preview-first VOI; (kg) life
 fail-open covers; (kh) S1 decide / S2 plan pause-if-no-Jev;
 (ki) crawler risk bands; (kj) local daemon AUTO_ACT is
 not a Noul.
+
+## Batch #74 (2026-09-19 ~19:47 UTC / ~13:47 Boise) — hourly 1347 HIGH
+
+Note: `research/notes.md` §91. Docs-only on a fresh PR
+off main. Never reopen merged #3 / #4 / #5 / #7. Skip
+Archer. Do **not** re-fold 1241 / §90. No invented
+metrics. Hunches labeled. Quote READMEs. Soft Noul ≠
+hard safety. 0★ HIGHs still get real cards.
+
+- **Judge harness as control API.** judgekit YAML
+  classify/score/route/verify. typed-judge-kit
+  verdict-in-code. 97.7% n=130 *theirs*. **≠**
+  JudgeBench. **0★**.
+- **Batch packing VOI.** alsoleg89/decide packing VOI.
+  0.8 ≠ 80% accuracy. **≠** jev-sift. license null.
+  **0★**.
+- **Calibration as product.** Jev-Calibration Platt ECE
+  0.117→0.052. jev-calibration-arena never acts. **≠**
+  jev-arena. **0★**.
+- **Decision-as-Plugin.** ctmx/openrouter-jev-mcp
+  Decision-as-Plugin. FrancoisChastel/jev-code ≠ npm
+  jev-code (**1★**). claudecode-jev-marketplace fail-open
+  not hot path. pedroknigge/mcp_jev packs not ask_jev.
+  cyrusasco/typesafe-mcp noul deadband 0.35–0.65.
+  codaaiteam/jev-skill jevtypesafeai.com ≠ TypeSafe.
+- **Policy-constrained skill select.** hermes-switchyard ≠
+  hermes-jev-router ≠ hermes-plugin-jev. **0★**.
+- **Tiny local econ pruner.** nanoprune 2.8MB ECE 2.58%.
+  0 hallucination theater. **0★**.
+- **Observe→score→act cousins.** smartdio/jev-browser-agent
+  ≠ ZHUBoer/ego-jev. Dakai/omp-jev-web DONE ≠ proof.
+  hari007sh/jev ≠ dannote/jev.
+- **Deterministic verify ≠ System One.**
+  0thernet/system-one-skills deterministic verify.
+  **0★**.
+- **Soft-score vs hard-argmax.** typed-gate band
+  [0.40,0.60] is refusal. pi-jev-gate fail-closed; choice is the verdict.
+  rh-guard owns.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (kk) judge harness as control API;
+(kl) batch packing VOI; (km) calibration as product;
+(kn) Decision-as-Plugin; (ko) policy-constrained skill
+select; (kp) tiny local econ pruner; (kq) observe→score→act
+cousins; (kr) deterministic verify ≠ System One; (ks)
+soft-score vs hard-argmax.

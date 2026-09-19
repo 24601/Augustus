@@ -783,6 +783,40 @@ Same pillars, twelve more placements. Do **not** re-fold
     — jev-crawlers risk bands never raw boolean.
     jevbrain AUTO_ACT is not a Noul.
 
+## Apply 1347 (`notes.md` §91)
+
+Same pillars, nine more placements. Do **not** re-fold
+1241 / §90. Fresh PR; never reopen merged #3 / #7.
+
+1. **Judge harness as control API** — judgekit YAML classify/score/route/verify.
+   typed-judge-kit verdict-in-code. Thresholds from labels, not
+   self-confidence. **≠** JudgeBench **≠** DeepEval.
+2. **Batch packing VOI** — alsoleg89/decide packing VOI.
+   0.8 ≠ 80% accuracy. **≠** jev-sift.
+3. **Calibration as product** — Jev-Calibration Platt ECE 0.117→0.052.
+   jev-calibration-arena never acts.
+   **≠** jev-arena **≠** jevarena.
+4. **Decision-as-Plugin** — ctmx/openrouter-jev-mcp Decision-as-Plugin.
+   FrancoisChastel/jev-code ≠ npm jev-code.
+   claudecode-jev-marketplace fail-open not hot path.
+   pedroknigge/mcp_jev packs not ask_jev.
+   cyrusasco/typesafe-mcp noul deadband 0.35–0.65.
+   codaaiteam/jev-skill jevtypesafeai.com ≠ TypeSafe.
+5. **Policy-constrained skill select** —
+   hermes-switchyard ≠ hermes-jev-router ≠ hermes-plugin-jev.
+   Advisory; never loads skills.
+6. **Tiny local econ pruner** — nanoprune 2.8MB ECE 2.58%.
+   “0 hallucination guaranteed” is theater.
+7. **Observe→score→act cousins** —
+   smartdio/jev-browser-agent ≠ ZHUBoer/ego-jev.
+   Dakai/omp-jev-web DONE ≠ proof.
+   hari007sh/jev ≠ dannote/jev.
+8. **Deterministic verify ≠ System One** —
+   0thernet/system-one-skills deterministic verify.
+9. **Soft-score vs hard-argmax** — typed-gate band [0.40,0.60] is refusal.
+   pi-jev-gate fail-closed; choice is the verdict. rh-guard owns the gate
+   cousin.
+
 Soft Noul ≠ hard safety on every cluster.
 
 Formal methods **compose** with scoring. A Noul is a

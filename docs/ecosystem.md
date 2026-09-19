@@ -573,6 +573,32 @@ Architecture / mental models / Harbor-jevals / toolbelt, not a `uv` / `cargo` / 
 
 Census **not re-derived**. Archer still NOT landed (HF empty; tracker likes 49 lastModified 2026-09-19T18:37:18Z still promised). Laya yes. Blackwood ABSENT. SemIf 1846 (+17). jevlike 962 (+3). TypeAR-AI/TypeAR 10 (+1). Awesomejev flat 561/27007.
 
+### Hourly ~13:47 Boise 2026-09-19 / 19:47 UTC (1347 HIGH)
+
+Architecture / mental models / Harbor-jevals / toolbelt, not a `uv` / `npx` / plugin-marketplace catalog. `notes.md` §91. Skip Archer. Quote READMEs. Soft Noul ≠ hard safety. Do **not** re-fold 1241 / §90. Fresh PR; never reopen merged #3 / #4 / #5 / #7. 0★ HIGHs still get real cards.
+
+- **lexingtonhibiki/judgekit** — MIT; **0★**; README SHA `0fcb42ea`. judgekit YAML classify/score/route/verify. 97.7% n=130 *theirs*. **≠** JudgeBench.
+- **Ascurse/typed-judge-kit** — MIT; **0★**; README SHA `2bfa614d`. typed-judge-kit verdict-in-code. MIN_LABELS=20.
+- **alsoleg89/decide** — license null; **0★**; README SHA `fd8aafcf`. alsoleg89/decide packing VOI. 0.8 ≠ 80% accuracy. **≠** jev-sift.
+- **pmcclelland/jev-calibration-arena** — license null; **0★**; README SHA `26498a10`; size 0. jev-calibration-arena never acts. **≠** jev-arena.
+- **AnthusAI/Jev-Calibration** — license null; **0★**; README SHA `bc86c044`. Jev-Calibration Platt ECE 0.117→0.052.
+- **ctmx/openrouter-jev-mcp** — MIT; **0★**; README SHA `35a45df9`. ctmx/openrouter-jev-mcp Decision-as-Plugin.
+- **cyrusasco/typesafe-mcp** — MIT; **0★**; README SHA `15dc6880`. cyrusasco/typesafe-mcp noul deadband 0.35–0.65.
+- **FrancoisChastel/jev-code** — MIT; **1★**; README SHA `ca36c894`. FrancoisChastel/jev-code ≠ npm jev-code. auto_accept 0.85.
+- **skylence-org/claudecode-jev-marketplace** — license null; **0★**; README SHA `ceeabb54`; size 0. claudecode-jev-marketplace fail-open not hot path.
+- **pedroknigge/mcp_jev** — MIT; **0★**; README SHA `aaa61f80`. pedroknigge/mcp_jev packs not ask_jev.
+- **codaaiteam/jev-skill** — license null; **0★**; README SHA `f5665603`. codaaiteam/jev-skill jevtypesafeai.com ≠ TypeSafe.
+- **bgrablin/hermes-switchyard** — MIT; **0★**; README SHA `78446747`. hermes-switchyard ≠ hermes-jev-router ≠ hermes-plugin-jev.
+- **dmdjr1409/nanoprune** — MIT; **0★**; README SHA `e68fd265`. nanoprune 2.8MB ECE 2.58%. 0 hallucination theater.
+- **smartdio/jev-browser-agent** — MIT; **0★**; README SHA `7927a18c`. smartdio/jev-browser-agent ≠ ZHUBoer/ego-jev.
+- **Dakai/omp-jev-web** — MIT; **0★**; README SHA `67ad6934`. Dakai/omp-jev-web DONE ≠ proof. **≠** omp-greenlight.
+- **hari007sh/jev** — license null; **0★**; README SHA `753581f7`. hari007sh/jev ≠ dannote/jev.
+- **0thernet/system-one-skills** — MIT; **0★**; README SHA `1dbe3db1`. 0thernet/system-one-skills deterministic verify.
+- **harshpuri84/typed-gate** — MIT; **0★**; README SHA `4cfc66a7`; size 0. typed-gate band [0.40,0.60] is refusal. rh-guard owns.
+- **fivethirty/pi-jev-gate** — MIT; **0★**; README SHA `62482af1`; size 0. pi-jev-gate fail-closed; choice is the verdict. rh-guard owns.
+
+Census **not re-derived**. Archer still NOT landed.
+
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs
 Apalache; DST trio Antithesis / Resonate HQ / PufferLib):

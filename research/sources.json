@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T18:41Z",
+  "retrieved": "2026-09-19T19:47Z",
   "sources": [
     {
       "kind": "docs",
@@ -3145,6 +3145,120 @@
       "title": "Synxneuos/jevbrain",
       "url": "https://github.com/Synxneuos/jevbrain",
       "note": "License null (README claims MIT); 9 stars. HEAD caa1889. README SHA 55fe0abf. Local n-gram daemon. AUTO_ACT is not a Noul. != TypeSafe Jev. notes.md §90."
+    },
+    {
+      "kind": "github",
+      "title": "lexingtonhibiki/judgekit",
+      "url": "https://github.com/lexingtonhibiki/judgekit",
+      "note": "MIT; 0 stars. HEAD bb342ee. README SHA 0fcb42ea. judgekit YAML classify/score/route/verify. notes.md §91."
+    },
+    {
+      "kind": "github",
+      "title": "dmdjr1409/nanoprune",
+      "url": "https://github.com/dmdjr1409/nanoprune",
+      "note": "MIT; 0 stars. HEAD aa8f2e5. README SHA e68fd265. nanoprune 2.8MB ECE 2.58%. 0 hallucination theater. notes.md §91."
+    },
+    {
+      "kind": "github",
+      "title": "bgrablin/hermes-switchyard",
+      "url": "https://github.com/bgrablin/hermes-switchyard",
+      "note": "MIT; 0 stars. HEAD a669742. README SHA 78446747. hermes-switchyard != hermes-jev-router != hermes-plugin-jev. notes.md §91."
+    },
+    {
+      "kind": "github",
+      "title": "alsoleg89/decide",
+      "url": "https://github.com/alsoleg89/decide",
+      "note": "License null; 0 stars. HEAD e42a7c6. README SHA fd8aafcf. alsoleg89/decide packing VOI. 0.8 != 80% accuracy. != jev-sift. notes.md §91."
+    },
+    {
+      "kind": "github",
+      "title": "ctmx/openrouter-jev-mcp",
+      "url": "https://github.com/ctmx/openrouter-jev-mcp",
+      "note": "MIT; 0 stars. HEAD 0882f26. README SHA 35a45df9. ctmx/openrouter-jev-mcp Decision-as-Plugin. notes.md §91."
+    },
+    {
+      "kind": "github",
+      "title": "cyrusasco/typesafe-mcp",
+      "url": "https://github.com/cyrusasco/typesafe-mcp",
+      "note": "MIT; 0 stars. HEAD cc60fe5. README SHA 15dc6880. cyrusasco/typesafe-mcp noul deadband 0.35-0.65. notes.md §91."
+    },
+    {
+      "kind": "github",
+      "title": "FrancoisChastel/jev-code",
+      "url": "https://github.com/FrancoisChastel/jev-code",
+      "note": "MIT; 1 star. HEAD 051b492. README SHA ca36c894. FrancoisChastel/jev-code != npm jev-code. notes.md §91."
+    },
+    {
+      "kind": "github",
+      "title": "skylence-org/claudecode-jev-marketplace",
+      "url": "https://github.com/skylence-org/claudecode-jev-marketplace",
+      "note": "License null; 0 stars. HEAD e089566. README SHA ceeabb54. size 0. claudecode-jev-marketplace fail-open not hot path. notes.md §91."
+    },
+    {
+      "kind": "github",
+      "title": "Ascurse/typed-judge-kit",
+      "url": "https://github.com/Ascurse/typed-judge-kit",
+      "note": "MIT; 0 stars. HEAD 6c00ab3. README SHA 2bfa614d. typed-judge-kit verdict-in-code. notes.md §91."
+    },
+    {
+      "kind": "github",
+      "title": "pmcclelland/jev-calibration-arena",
+      "url": "https://github.com/pmcclelland/jev-calibration-arena",
+      "note": "License null; 0 stars. HEAD 1e2d3e1. README SHA 26498a10. size 0. jev-calibration-arena never acts. notes.md §91."
+    },
+    {
+      "kind": "github",
+      "title": "AnthusAI/Jev-Calibration",
+      "url": "https://github.com/AnthusAI/Jev-Calibration",
+      "note": "License null; 0 stars. HEAD 9788ecc. README SHA bc86c044. Jev-Calibration Platt ECE 0.117->0.052. notes.md §91."
+    },
+    {
+      "kind": "github",
+      "title": "smartdio/jev-browser-agent",
+      "url": "https://github.com/smartdio/jev-browser-agent",
+      "note": "MIT; 0 stars. HEAD 88e77e5. README SHA 7927a18c. smartdio/jev-browser-agent != ZHUBoer/ego-jev. notes.md §91."
+    },
+    {
+      "kind": "github",
+      "title": "hari007sh/jev",
+      "url": "https://github.com/hari007sh/jev",
+      "note": "License null; 0 stars. HEAD 142d86a. README SHA 753581f7. hari007sh/jev != dannote/jev. notes.md §91."
+    },
+    {
+      "kind": "github",
+      "title": "pedroknigge/mcp_jev",
+      "url": "https://github.com/pedroknigge/mcp_jev",
+      "note": "MIT; 0 stars. HEAD 8701dd9. README SHA aaa61f80. pedroknigge/mcp_jev packs not ask_jev. notes.md §91."
+    },
+    {
+      "kind": "github",
+      "title": "Dakai/omp-jev-web",
+      "url": "https://github.com/Dakai/omp-jev-web",
+      "note": "MIT; 0 stars. HEAD c38a3af. README SHA 67ad6934. Dakai/omp-jev-web DONE != proof. notes.md §91."
+    },
+    {
+      "kind": "github",
+      "title": "0thernet/system-one-skills",
+      "url": "https://github.com/0thernet/system-one-skills",
+      "note": "MIT; 0 stars. HEAD bb0d91d. README SHA 1dbe3db1. 0thernet/system-one-skills deterministic verify. notes.md §91."
+    },
+    {
+      "kind": "github",
+      "title": "codaaiteam/jev-skill",
+      "url": "https://github.com/codaaiteam/jev-skill",
+      "note": "License null; 0 stars. HEAD 2bb069c. README SHA f5665603. codaaiteam/jev-skill jevtypesafeai.com != TypeSafe. notes.md §91."
+    },
+    {
+      "kind": "github",
+      "title": "harshpuri84/typed-gate",
+      "url": "https://github.com/harshpuri84/typed-gate",
+      "note": "MIT; 0 stars. HEAD d5fc89a. README SHA 4cfc66a7. size 0. typed-gate band [0.40,0.60] is refusal. notes.md §91."
+    },
+    {
+      "kind": "github",
+      "title": "fivethirty/pi-jev-gate",
+      "url": "https://github.com/fivethirty/pi-jev-gate",
+      "note": "MIT; 0 stars. HEAD 902f4e6. README SHA 62482af1. size 0. pi-jev-gate fail-closed; choice is the verdict. notes.md §91."
     }
   ]
 }

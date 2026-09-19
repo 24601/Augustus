@@ -407,6 +407,12 @@ README; 2026-09-19 ~18:41):**
 schema-guided. Fastest/cheapest ≠ quality.
 implicit_true included in yes. **≠** jev-judge-bench.
 `notes.md` §90.
+**Local prune ≠ hosted Noul (Empirical as README;
+2026-09-19 ~19:47):**
+[nanoprune](https://github.com/dmdjr1409/nanoprune)
+— nanoprune 2.8MB ECE 2.58%. Distill ≠ hosted Noul.
+Do not Noul-rerank already-good retrieval
+(typed-judge-kit 14/15→13/15). `notes.md` §91.
 
 ## 5. Hierarchy → bounded heuristic search
 
@@ -777,6 +783,12 @@ Recall unmeasured. 0.8 is *theirs*. **≠** JevFind.
 — TF-IDF candidates; Jev yes/no + anchor Choice.
 jev-linkmap Jev never sees S2 prose. Anchors already
 in copy. `notes.md` §90.
+**Batch packing VOI (Empirical as README; 2026-09-19
+~19:47):**
+[alsoleg89/decide](https://github.com/alsoleg89/decide)
+— alsoleg89/decide packing VOI. Keep bulk decisions
+on disk; agent sees summary + review. 0.8 ≠ 80%
+accuracy. **≠** jev-sift. `notes.md` §91.
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs
@@ -1028,6 +1040,20 @@ README; 2026-09-19 ~18:41):**
 — 2389-research/judgement license null. confidence ≠
 winner p. Pin `jev-1.13.0` vs alias 24h. Live
 arithmetic ≠ accuracy. **≠** jevql. `notes.md` §90.
+**Calibration as product (Empirical as README;
+2026-09-19 ~19:47):**
+[Jev-Calibration](https://github.com/AnthusAI/Jev-Calibration)
+— Jev-Calibration Platt ECE 0.117→0.052. Choice
+50–95% sits at ~50–57%. `confidence` field ≠ top-p.
+[jev-calibration-arena](https://github.com/pmcclelland/jev-calibration-arena)
+— jev-calibration-arena never acts. **≠** jev-arena.
+`notes.md` §91.
+**Soft-score criterion (Empirical as README;
+2026-09-19 ~19:47):**
+[typed-gate](https://github.com/harshpuri84/typed-gate)
+— typed-gate band [0.40,0.60] is refusal. 0.51 is
+not a yes. rh-guard owns the gate cousin. `notes.md`
+§91.
 
 ## 8. Control structure → sensor ≠ constraint (Leveson)
 
