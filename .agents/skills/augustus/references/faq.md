@@ -640,8 +640,10 @@ and [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
 reduce completed tool pairs already in session history (Jev Noul vs
 GLiNER2.5 encoder). Host capability shapes the product: Claude wraps
 Bash automatically; Codex is an opt-in wrapper because it cannot
-replace native shell output from `PostToolUse`. `applied-mappings.md`
-§1; `notes.md` §50, §53.
+replace native shell output from `PostToolUse`. OpenCode host-port:
+[indiejoseph/opencode-jev-pruner](https://github.com/indiejoseph/opencode-jev-pruner)
+hooks `tool.execute.after` on `bash` (`notes.md` §96). `applied-mappings.md`
+§1; `notes.md` §50, §53, §96.
 
 ## Fail-open or fail-closed — which?
 
@@ -2770,3 +2772,21 @@ No, and no. jev-ci-selector CI shadow mode. Shadow default; enforce opt-in. 0.05
 ## Is llama-jev TypeSafe / a Noul? Paste 80 ms as a class ceiling?
 
 No, and no. llama-jev llama.cpp replica. Numbered-choice softmax ≠ Noul. 80 ms cold / 40 ms cache *theirs* on minicpm5-2b-q8. **≠** TypeSafe **≠** pcdServer **≠** chakuho. webNeat/llama-jev ≠ WiktorB2004/llama-index-jev. License null. `notes.md` §95.
+
+Unique fragments (consecutive): OpenCode jev-pruner context sieve; observe→score-candidates→prune; jev-zen / jev-1.13-free; zen-chat ≠ Noul; fail-open original; keepScore >0.1 floor; host port of tamaratran/jev-pruner; indiejoseph/opencode-jev-pruner ≠ nrdz-labs/fast-jev-opencode; jev-webagent-bench empty stub; Kiln-AI/jev_jsonschema noul_threshold 0.5; NSStudent/JevSwiftSDK unofficial
+
+## Is indiejoseph/opencode-jev-pruner tamaratran/jev-pruner? Is it fast-jev-opencode session compaction?
+
+No, and no. OpenCode jev-pruner context sieve. host port of tamaratran/jev-pruner. Same stdout job (`tool.execute.after` on `bash`); different host. **≠** nrdz-labs/fast-jev-opencode (session compaction, §62). GitHub license **null**; `package.json` MIT; **0★**. `notes.md` §96.
+
+## Is zen-chat a Noul? Paste tamaratran 24/24 / 83% as this product’s Harbor?
+
+No, and no. zen-chat ≠ Noul. Default is jev-zen / jev-1.13-free (native System One, keyless). Chat scorer is an approximation; unparseable scores keep. Tests are mapper/auth/scorer, not a prune-quality bench. Do not copy upstream 24/24. `notes.md` §96.
+
+## Fail-closed the OpenCode turn if Jev is down? Treat keepThreshold 0.5 as proof of irrelevance?
+
+No, and no. fail-open original. keepScore >0.1 floor. Hook catch leaves stdout. Hard-gating 0.5 as drop is soundness theater. `notes.md` §96.
+
+## Quote jev-webagent-bench scores? Treat JSON Schema boolean @ 0.5 as a safety proof? Is JevSwiftSDK official?
+
+No, no, and no. jev-webagent-bench empty stub (size 0; 409 empty repo). Kiln-AI/jev_jsonschema noul_threshold 0.5 is a decoder; probabilities are returned. NSStudent/JevSwiftSDK unofficial. Packaging ≠ new species. `notes.md` §96.

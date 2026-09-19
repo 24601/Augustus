@@ -1830,3 +1830,41 @@
 - notes.md §95; sources.json (590 sources, 587 unique URLs,
   retrieved 2026-09-19T21:41Z); findings.md batch #78.
   No wrapper.
+
+## 2026-09-19 ~22:39 UTC — hourly 1639 HIGH (~16:39 Boise)
+- Docs-only on a **fresh PR off main**. Never reopen
+  merged #7 / **#8** / **#9** / **#10** / **#12** /
+  **#13**. Do **not** re-fold §93 / §94 / §95.
+  `notes.md` §96. Skip Archer. Do **not** re-fold
+  1441 / §92. Hunches labeled. No wrapper. No invented
+  metrics. Quote READMEs. Soft Noul ≠ hard safety.
+  0★ HIGH still gets a real card. Not a Jev skill
+  dump. Backend-agnostic categorization/scoring/
+  decision class. Augustus owns placement (stdout
+  prune is not a rh-guard gate).
+- Folded how-to-apply: OpenCode host-port of
+  evidence-preserving stdout prune
+  (indiejoseph/opencode-jev-pruner; observe→score-
+  candidates→prune; jev-zen / jev-1.13-free;
+  zen-chat ≠ Noul; fail-open original; keepScore
+  >0.1 floor). MEDIUM watch: jev-webagent-bench
+  empty stub; Kiln-AI/jev_jsonschema noul_threshold
+  0.5; NSStudent/JevSwiftSDK unofficial.
+- Formal compose: a Noul is a SENSOR. Hard-gating
+  prune as proof of irrelevance, or treating
+  zen-chat as calibrated Jev, is soundness theater.
+  Soft Noul ≠ hard safety.
+- Census not provided this hour (not re-derived).
+  Archer still NOT landed. Last pin from §92:
+  tracker likes **50** lastModified UNCHANGED
+  2026-09-19T18:37:18Z; SemIf 1873; jevlike 969;
+  TypeAR 10; Awesomejev 561/27007.
+- Cards: SKILL.md, mixed-architecture fail table +
+  gallery, faq, mental-models, judgment-class,
+  validation, applied-mappings, mappings, toolbox,
+  composition-algebra items 91–92, question-design,
+  methods-catalog, formal-methods, agent-self-assessment,
+  ecosystem, CHANGELOG, README.
+- notes.md §96; sources.json (594 sources, 591 unique URLs,
+  retrieved 2026-09-19T22:39Z); findings.md batch #79.
+  No wrapper.

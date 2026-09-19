@@ -229,6 +229,10 @@ request, and treat a stale pin as a prior, never a setting.
 | Collapse jevguard into jevcache / skip the escape | Namesake; calibrator | jevguard calibrator/cache/escape. `notes.md` §95 |
 | Skip CI from skip_below 0.05 | Shadow default | jev-ci-selector CI shadow mode. `notes.md` §95 |
 | Treat llama-jev softmax as a Noul | Format ≠ proper scoring | llama-jev llama.cpp replica. `notes.md` §95 |
+| Collapse OpenCode jev-pruner into tamaratran / fast-jev-opencode | Host port; different job | OpenCode jev-pruner context sieve. host port of tamaratran/jev-pruner. **≠** nrdz-labs/fast-jev-opencode. `notes.md` §96 |
+| Treat zen-chat as a Noul / paste 24/24 onto OpenCode | Approximation; not this bench | zen-chat ≠ Noul. jev-zen / jev-1.13-free. `notes.md` §96 |
+| Hard-gate keepThreshold 0.5 / fail-closed the turn | Sensor; hook fail-open | fail-open original. keepScore >0.1 floor. `notes.md` §96 |
+| Invent jev-webagent-bench scores / boolean @ 0.5 as a proof | Empty stub; decoder | jev-webagent-bench empty stub. Kiln-AI/jev_jsonschema noul_threshold 0.5. NSStudent/JevSwiftSDK unofficial. `notes.md` §96 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

@@ -2745,3 +2745,35 @@ Cross-repo addition: (lh) Decision-as-plugin for SWE;
 judgment integrity; (lk) physical/control first-class
 domain; (ll) Harbor-jevals injection-firewall;
 (lm) llama.cpp replica.
+
+## Batch #79 (2026-09-19 ~22:39 UTC / ~16:39 Boise) — hourly 1639 HIGH
+
+Note: `research/notes.md` §96. Docs-only on a fresh PR
+off main. Never reopen merged #7 / **#8** / **#9** /
+**#10** / **#12** / **#13**. Do **not** re-fold §93 /
+§94 / §95. Skip Archer. Do **not** re-fold 1441 /
+§92. No invented metrics. Hunches labeled. Quote
+READMEs. Soft Noul ≠ hard safety. 0★ HIGH still
+gets a real card. Augustus owns placement.
+
+- **OpenCode host-port of evidence-preserving
+  stdout prune.** OpenCode jev-pruner context sieve
+  (**0★**; GitHub license **null**; `package.json`
+  MIT). observe→score-candidates→prune. jev-zen /
+  jev-1.13-free. zen-chat ≠ Noul. fail-open original.
+  keepScore >0.1 floor. **≠** tamaratran/jev-pruner
+  **≠** nrdz-labs/fast-jev-opencode. Do not copy
+  24/24 / 83%.
+- **MEDIUM watch / tooling (do not over-weight).**
+  jev-webagent-bench empty stub (size 0; 409).
+  Kiln-AI/jev_jsonschema noul_threshold 0.5 (**5★**).
+  NSStudent/JevSwiftSDK unofficial (**5★**).
+
+Census not provided this hour (not re-derived).
+Archer still NOT landed. Last pin from §92:
+tracker likes **50** lastModified UNCHANGED
+2026-09-19T18:37:18Z; SemIf 1873; jevlike 969;
+TypeAR 10; Awesomejev 561/27007.
+
+Cross-repo addition: (ln) OpenCode stdout-prune
+host port; (lo) schema/SDK adapters + empty bench.

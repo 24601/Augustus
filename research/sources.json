@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T21:41Z",
+  "retrieved": "2026-09-19T22:39Z",
   "sources": [
     {
       "kind": "docs",
@@ -3541,6 +3541,30 @@
       "title": "webNeat/llama-jev",
       "url": "https://github.com/webNeat/llama-jev",
       "note": "TypeScript; license null; 0 stars. HEAD fdf989a. README SHA 5ec204af. size 8. llama-jev llama.cpp replica. Softmax ≠ Noul. ≠ TypeSafe ≠ pcdServer. notes.md §95."
+    },
+    {
+      "kind": "github",
+      "title": "indiejoseph/opencode-jev-pruner",
+      "url": "https://github.com/indiejoseph/opencode-jev-pruner",
+      "note": "TypeScript; GitHub license null; package.json MIT; 0 stars. HEAD 764169c on master. README SHA dd93d635. size 37. OpenCode jev-pruner context sieve. observe→score-candidates→prune. jev-zen / jev-1.13-free. zen-chat ≠ Noul. fail-open original. keepScore >0.1 floor. host port of tamaratran/jev-pruner. ≠ nrdz-labs/fast-jev-opencode. notes.md §96."
+    },
+    {
+      "kind": "github",
+      "title": "jongyunhur/jev-webagent-bench",
+      "url": "https://github.com/jongyunhur/jev-webagent-bench",
+      "note": "Empty stub this pass (size 0; 409 default-branch). GitHub description Evaluating System-One Action Selection in Long-Horizon Web Agents. 0 stars. Watch only. notes.md §96."
+    },
+    {
+      "kind": "github",
+      "title": "Kiln-AI/jev_jsonschema",
+      "url": "https://github.com/Kiln-AI/jev_jsonschema",
+      "note": "Python MIT; 5 stars. HEAD fccea8c. README SHA f3c94957. size 155. JSON Schema → Jev questions → JSON. Boolean noul_threshold 0.5 is a decoder not a proof. notes.md §96."
+    },
+    {
+      "kind": "github",
+      "title": "NSStudent/JevSwiftSDK",
+      "url": "https://github.com/NSStudent/JevSwiftSDK",
+      "note": "Swift MIT; 5 stars. HEAD ce35d20. README SHA b2af7bfa. size 36. Independent unofficial SDK. Noul 0.5 is uncertainty not intensity. Packaging ≠ new species. notes.md §96."
     }
   ]
 }

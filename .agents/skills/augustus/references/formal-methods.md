@@ -773,6 +773,21 @@ one-dollar-tahoe ASR/FPR, pasting OpenRoboto $ as a
 success-rate, or treating numbered-choice softmax as
 a Noul is the same theater.
 
+1639 envelopes (`notes.md` §96), still outside the extras
+template: OpenCode jev-pruner context sieve;
+observe→score-candidates→prune; jev-zen / jev-1.13-free;
+zen-chat ≠ Noul; fail-open original; keepScore >0.1 floor;
+host port of tamaratran/jev-pruner;
+indiejoseph/opencode-jev-pruner ≠ nrdz-labs/fast-jev-opencode;
+jev-webagent-bench empty stub;
+Kiln-AI/jev_jsonschema noul_threshold 0.5;
+NSStudent/JevSwiftSDK unofficial.
+Soft Noul ≠ hard safety: keepThreshold 0.5 / zen-chat
+parsed JSON / schema boolean @ 0.5 are **sensors**.
+Hard-gating prune as proof of irrelevance, treating
+zen-chat as calibrated Jev, or inventing an empty-stub
+Harbor score is the same theater.
+
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a
 hybrid "verified by Noul" API.

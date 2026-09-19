@@ -1685,6 +1685,11 @@ only score residual noisy chunks. Archive/Jev/incomplete-score
 failure keeps the original. Soft judgment inside a hard envelope,
 Jev backend — same family as gliner25-compaction, different *job*
 (command output vs session memory) (`notes.md` §53).
+OpenCode host-port
+([indiejoseph/opencode-jev-pruner](https://github.com/indiejoseph/opencode-jev-pruner)):
+same envelope on `tool.execute.after`; default
+`jev-zen` / `jev-1.13-free`; zen-chat ≠ Noul;
+keepScore >0.1 floor; hook fail-open (`notes.md` §96).
 
 **Named computer-use envelope (Empirical as README / architecture,
 2026-09-18 ~16:56):**
@@ -2004,6 +2009,9 @@ code proves ≤10k / JSON-diff-whole-doc pass-through; Jev scores the
 remainder; uncertain **fails closed to original stdout** plus an
 archive (`notes.md` §53). Harbor plugin-eval cannot reach Jev and
 therefore cannot prune — fail-safe, not a missing score.
+OpenCode host-port (`notes.md` §96):
+[indiejoseph/opencode-jev-pruner](https://github.com/indiejoseph/opencode-jev-pruner)
+— same polarity; hook fail-open; zen-chat ≠ Noul.
 **Name the irreversible act (2026-09-18 ~16:48).** Wake *skip* is
 irreversible (the agent stays asleep) →
 [wakegate](https://github.com/shitianfang/wakegate) authorizes skip

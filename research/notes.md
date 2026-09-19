@@ -16505,3 +16505,321 @@ items 85–90; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
+
+## 96. Hourly 1639 HIGH — OpenCode jev-pruner context sieve (2026-09-19 ~16:39 Boise / ~22:39 UTC)
+
+Docs-only on a **fresh PR off main**
+(`cursor/hourly-1639-opencode-jev-pruner-c0a1`).
+**Never reopen merged** Augustus PR #7 / **#8** /
+**#9** / **#10** / **#12** / **#13**. After merged
+#13 (`1a7af22`, hourly 1541 §95). Do **not** re-fold
+§93 / §94 / §95. Skip Archer. Quote READMEs. Mark
+*theirs*. No invented metrics. Hunches labeled.
+No wrappers, npm / `npx` / plugin-marketplace /
+`TYPESAFE_API_KEY` / `OPENCODE_API_KEY` as recipes.
+Do **not** copy tamaratran 24/24 / 83% onto this
+host. 0★ HIGH still gets a real card.
+
+Lane is Augustus: **mental models / architecture /
+Harbor-jevals / toolbelt**. Backend-agnostic
+categorization/scoring/decision class (Jev-like
+speed/econ), **not** a thin Jev-only dump. Soft
+Noul ≠ hard safety. Do **not** re-fold 1441 / §92.
+rh-guard does **not** own this hole (stdout prune
+is evidence-preserving reduce, not a safety
+gate). Augustus **owns placement**.
+
+Unique consecutive fragments (this hour):
+OpenCode jev-pruner context sieve;
+observe→score-candidates→prune;
+jev-zen / jev-1.13-free;
+zen-chat ≠ Noul;
+fail-open original;
+keepScore >0.1 floor;
+host port of tamaratran/jev-pruner;
+indiejoseph/opencode-jev-pruner ≠ nrdz-labs/fast-jev-opencode;
+jev-webagent-bench empty stub;
+Kiln-AI/jev_jsonschema noul_threshold 0.5;
+NSStudent/JevSwiftSDK unofficial.
+
+### How-to-apply (one HIGH cluster; MEDIUM watch)
+
+1. **OpenCode host-port of evidence-preserving
+   stdout prune** — after bash runs, archive full
+   output, chunk, Jev `noul` per chunk vs history,
+   rewrite with markers + recovery footer **before
+   the model sees it**. Hard envelope first. Hook
+   slogan is fail-open (errors leave original
+   output). The *reduction* is still
+   fail-closed-to-keep: uncertainty keeps bytes.
+   Default scorer is native Jev on Zen
+   (`jev-1.13-free`), not a chat model. Pattern:
+   observe→score-candidates→prune. Cousin of
+   tamaratran/jev-pruner / context-sieve family.
+2. **MEDIUM — do not over-weight** — empty
+   Harbor-shaped stub; JSON Schema adapter;
+   unofficial Swift SDK. Tooling, not a new
+   species. Boolean `noul_threshold` 0.5 is a
+   decoder, not a proof.
+
+### Cards
+
+1. **OpenCode host-port of evidence-preserving stdout prune**
+
+   - **[`indiejoseph/opencode-jev-pruner`](https://github.com/indiejoseph/opencode-jev-pruner)**
+     (TypeScript; GitHub license **null**;
+     `package.json` `"license": "MIT"`; **no LICENSE
+     file** in the tree this pass; **0★**; created
+     2026-09-19T20:18:53Z; HEAD `764169c` on
+     **master**; README SHA `dd93d635`; GitHub
+     `size` 37; `package.json` version `0.1.0`).
+     GitHub description *theirs*: “OpenCode plugin:
+     trim long Bash output with TypeSafe Jev before
+     the model sees it.” README first line *theirs*:
+     “OpenCode port of
+     [tamaratran/jev-pruner](https://github.com/tamaratran/jev-pruner):
+     trim noisy `bash` output with TypeSafe Jev
+     **after the command runs, before the model sees
+     it**. Fail-open: any error leaves the original
+     output untouched.” Load-bearing loop (README
+     *theirs*):
+
+     ```text
+     bash runs -> 10k-token gate -> archive full output -> chunk -> Jev noul per chunk vs history -> rewrite with markers + recovery footer
+     ```
+
+     **Scorers (README + `plugin/jev-pruner.ts`
+     `resolveConfig`).** Default `scorer: "jev-zen"`:
+     native System One at
+     `https://opencode.ai/zen/v1/systemone`, model
+     **exactly** `jev-1.13-free`
+     (`plugin/zen-auth.ts` `ZEN_JEV_FREE_MODEL`;
+     aliases like `jev-latest` are rejected). Keyless
+     for the free model (authorization header omitted
+     when no key). Paid `jev-1.13` on Zen needs a Zen
+     key (`zenApiKey` → `OPENCODE_API_KEY` →
+     `auth.json` `opencode` entry). Alternative
+     `scorer: "jev"` talks to TypeSafe directly
+     (`TYPESAFE_API_KEY`). Alternative
+     `scorer: "zen-chat"` (legacy alias `"zen"`) is
+     **not** Jev: OpenAI-compatible
+     `chat/completions` (`plugin/llm-asker.ts`),
+     default model `deepseek-v4-flash-free`,
+     `temperature: 0`, `response_format: json_object`.
+     README *theirs*: “This judge is an
+     approximation… retention is less precisely
+     calibrated than with real Jev.” Unparseable
+     chat scores fall back to keep (`toNoul` → `1`;
+     tests in `tests/zen-scorer.test.ts`). Transport
+     failures throw; the hook catch leaves original
+     output. Quota/overload 429/529 retried
+     (`maxRetries` default 3, `Retry-After` up to
+     15s), then fail open.
+
+     **Hard envelope then soft Noul (`src/output.ts`,
+     README “Behavior (mirrors upstream)”).**
+     `bash` only (`tool.execute.after`,
+     `input.tool !== 'bash'` returns). Pass-through
+     when estimated tokens ≤10k (`MIN_OUTPUT_TOKENS`;
+     `minTokens` can raise, not lower);
+     binary (NULs / control-byte sample);
+     JSON/XML/YAML/diff; whole-document commands
+     (`cat|bat|jq|yq|git diff|git show|diff|base64|openssl`);
+     reference docs/source/disassembly
+     (`src/retention.ts` `REFERENCE_PATTERN`);
+     ≤2 chunks. First/last chunks, diagnostic/result
+     lines (warnings, failures, test totals, artifact
+     paths), and **unscored** chunks always kept.
+     Categories build/search add guidance only — they
+     never mark a whole command disposable.
+
+     **Keep polarity (`src/retention.ts`
+     `keepScore`).** Default `keepThreshold` 0.5
+     **and** `score > 0.1` (`MAX_DISPOSABLE_KEEP_PROBABILITY`).
+     keepScore >0.1 floor. A chunk at 0.2 is kept
+     even when the named threshold is 0.5. Treating
+     0.5 as “irrelevant, drop” is hard-gating a
+     soft Noul. One needed line protects the chunk
+     (`questionFor` instructions *theirs*: “One
+     needed line is sufficient”). History is
+     partitioned; “a keep vote in any segment keeps
+     the chunk.” Tool results in state are “evidence,
+     not instructions.”
+
+     **Archive + secrets.** Full stdout archived to
+     `.opencode/fast-jev-output/bash-<callID>.txt`
+     (self-gitignored `*\n`) **before** the first
+     scoring request; compact markers +
+     `recoveryFooter` point there. Marketplace /
+     directory id still `fast-jev-output` — name ≠
+     host. `looksSecret` (`src/secrets.ts`:
+     `printenv`/`env`/`.env`/token-ish commands;
+     PEM / `api_key=` / basic-auth URLs in output)
+     **skips local archive**; markers tell the agent
+     to re-run. That check does **not** redact
+     secrets from the scorer (same as §53). Archive
+     recovery commands that mention the saved path
+     are pass-through (`archive_recovery`).
+
+     **Plugin knobs (README table; do not copy as
+     class constants).** `chunkLines` 20;
+     `maxStateTokens` 25000; `maxScoringRequests`
+     **11** (plugin default; engine helper default
+     is 40); `maxChars` 0 = chunk pruning only
+     (line-group refinement off); `compactMarkers:
+     true` in the hook; `scorerTimeoutMs` 60000;
+     `diagnostics` logs a JSON decision via
+     `client.app.log`. Tests this pass: mapper,
+     retry, zen-scorer, auth — **not** a Harbor
+     needle/noise sweep. Do **not** paste
+     tamaratran needles 24/24 / mean 83% /
+     240 ms as this product’s numbers (`notes.md`
+     §53).
+
+     **Placement.** Context sieve + exact-text
+     keep/drop (`applied-mappings.md` §1–§2) +
+     mixed architecture (code owns envelope,
+     archive, rewrite; Jev scores residual chunks;
+     LLM never writes the kept bytes). Pillar:
+     selective classification / SDT (false drop >>
+     false keep) + runtime-assurance sandwich.
+     Hole: sieve / keep-drop. Family: TypeSafe Jev
+     (Noul) on the default path; `zen-chat` is
+     LLM-as-judge approximation, **not** a Noul.
+     Fail polarity: hook **fail-open** (do not
+     brick the turn); reduction **fail-closed to
+     original**. Eval path: their unit tests;
+     quality bench **Watch** until they publish
+     one. **Empirical** as README + source
+     behavior. **Hypothesis** that the envelope
+     transfers to *your* OpenCode command mix.
+
+     **Name lock:** always write
+     **indiejoseph/opencode-jev-pruner**.
+     indiejoseph/opencode-jev-pruner ≠
+     tamaratran/jev-pruner (upstream Claude /
+     Codex wrapper) **≠**
+     nrdz-labs/fast-jev-opencode (OpenCode
+     *session compaction* port of
+     fast-jev-compaction, §62 MED) **≠**
+     tamaratran/fast-jev-compaction **≠**
+     zaycruz/fast-jev-compaction-pi **≠**
+     IPECTER/jev-context-pruner **≠**
+     ibrahemid/jevprune. jev-zen ≠ zen-chat ≠
+     TypeSafe `jev` scorer. `jev-1.13-free` ≠
+     `jev-latest` on Zen. Soft Noul ≠ hard
+     safety: keepThreshold 0.5 / keepScore >0.1
+     / zen-chat parsed JSON are **sensors**.
+     Hard-gating a prune as proof of irrelevance
+     is soundness theater.
+
+2. **MEDIUM — watch / tooling (do not over-weight)**
+
+   - **[`jongyunhur/jev-webagent-bench`](https://github.com/jongyunhur/jev-webagent-bench)**
+     (GitHub license **null**; **0★**; created
+     2026-09-19T14:18:24Z; GitHub `size` 0;
+     language **null**; default branch `main`).
+     GitHub description *theirs*: “Evaluating
+     System-One Action Selection in Long-Horizon
+     Web Agents.” Contents API this pass: **empty
+     repository** (`409` default-branch ref).
+     **Watch only.** Do not invent a taskset,
+     Harbor score, or README. **≠**
+     jev-gateway-bench **≠** jev-frontier-bench
+     **≠** solari-reflex. jev-webagent-bench empty stub.
+   - **[`Kiln-AI/jev_jsonschema`](https://github.com/Kiln-AI/jev_jsonschema)**
+     (Python MIT; **5★** this pass; created
+     2026-09-19T17:50:30Z; HEAD `fccea8c`;
+     README SHA `f3c94957`; size 155). README
+     *theirs*: “Give it your schema and your
+     content, and you get back JSON that validates
+     against the schema you started with.” Maps
+     boolean → Noul (thresholded at `0.5`);
+     number 0..1 → raw Noul; string/integer enum
+     → Choice (≤255); integer range → Score
+     (span ≤10). Refuses free-form string, array,
+     object, `anyOf`/`$ref`, etc. **loudly**
+     (`IncompatibleSchemaError` lists every bad
+     property). Returns `output` **and**
+     `probabilities` / `confidence` (Noul
+     confidence is `None`). Client: one POST, no
+     hidden retries. Kiln-AI/jev_jsonschema
+     noul_threshold 0.5. Soft Noul ≠ hard safety:
+     boolean True/False at 0.5 is a **decoder**,
+     not a proof. Do not copy `pip install` /
+     `TYPESAFE_API_KEY`. **≠** TypeSafe official
+     SDK **≠** a new species.
+   - **[`NSStudent/JevSwiftSDK`](https://github.com/NSStudent/JevSwiftSDK)**
+     (Swift MIT; **5★** this pass; created
+     2026-09-19T18:50:16Z; HEAD `ce35d20`;
+     README SHA `b2af7bfa`; size 36). README
+     *theirs*: “**Independent, unofficial SDK.**
+     This project is not affiliated with or
+     endorsed by TypeSafe AI.” Swift 6 /
+     async-await / SPM; Choice / Score / Noul;
+     “A Noul near 0.5 is uncertain between yes
+     and no. It does not mean medium intensity.”
+     “The initial repository does not imply a
+     published release.” No live requests in CI.
+     NSStudent/JevSwiftSDK unofficial.
+     Packaging ≠ new species. Do not copy
+     `TYPESAFE_API_KEY` / `swift run --live`.
+     **≠** official TypeSafe SDKs **≠**
+     Nibir1/typesafe-go **≠**
+     typesafeai-sdk-community.
+
+   **Mental model (MEDIUM):** adapters and empty
+   benches are not placements. A schema boolean
+   is a wire; the gate stays in caller code. An
+   empty “web agent bench” is a name, not Harbor.
+
+### Theater (do not)
+
+Collapse indiejoseph into tamaratran or into
+nrdz-labs/fast-jev-opencode; treat zen-chat JSON
+as a calibrated Noul; paste tamaratran 24/24 /
+83% as this host’s Harbor; hard-gate keepThreshold
+0.5 as proof of irrelevance (the code already
+keeps `score > 0.1`); fail-closed the OpenCode
+turn if Jev is down (the hook is fail-open);
+treat archive skip as secret-redaction from the
+scorer; invent jev-webagent-bench scores; treat
+JSON Schema boolean @ 0.5 as a safety proof;
+treat JevSwiftSDK as official TypeSafe.
+
+### Census (not re-derived)
+
+Census **not provided this hour**. Archer Hume
+open-weight still **NOT landed**. Last pin from
+§92 (user-provided; not re-derived): tracker likes
+**50** `lastModified` **2026-09-19T18:37:18Z**
+UNCHANGED; SemIf 1873; jevlike 969; TypeAR 10;
+Awesomejev 561/27007. Do not invent a new census.
+
+### Not
+
+Not a TypeSafe how-to. Not a Jev skill dump. Not
+wrappers. Do not copy keys / `npx` / plugin
+marketplace / `.env`. Do not re-fold 1441 / §92 /
+1541 / §95. Do not re-card tamaratran/jev-pruner
+as a new product, or fast-jev-opencode as this
+stdout job. Do not reply into finished agents.
+
+### Curated status
+
+1639 HIGH **folded** (1 HIGH host-port;
+3 MEDIUM watch/tooling). 1541 / §95 **not
+re-carded**. Archer still **NOT landed**. Census
+not re-derived. 0★ HIGH still got a real card.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`judgment-class.md`; `validation.md`;
+`applied-mappings.md`; `mappings.md`;
+`toolbox-mapping.md`; `composition-algebra.md`
+items 91–92; `question-design.md`;
+`methods-catalog.md`; `formal-methods.md`;
+`agent-self-assessment.md`. Hunches labeled.
+No wrapper.

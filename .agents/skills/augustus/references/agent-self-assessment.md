@@ -313,6 +313,10 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   [jev-pruner](https://github.com/tamaratran/jev-pruner) — Jev Noul on
   Bash chunks after a hard envelope; fail-safe original; archive
   (`notes.md` §53). Marketplace id still `fast-jev-output`.
+  OpenCode host-port:
+  [indiejoseph/opencode-jev-pruner](https://github.com/indiejoseph/opencode-jev-pruner)
+  — `tool.execute.after` on `bash`; jev-zen / jev-1.13-free;
+  zen-chat ≠ Noul; hook fail-open (`notes.md` §96).
   Session-ledger cousin:
   [carryforward](https://github.com/Dharundp6/jev-carryforward) —
   verbatim JSONL; Jev scores which facts are still live; constraints
@@ -398,7 +402,10 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   fails closed to `keep_full` (`notes.md` §50). Stdout prune is the
   same polarity:
   [jev-pruner](https://github.com/tamaratran/jev-pruner) fails closed
-  to original output (`notes.md` §53). Tool *execution* is the
+  to original output (`notes.md` §53). OpenCode host-port same
+  polarity, hook fail-open:
+  [indiejoseph/opencode-jev-pruner](https://github.com/indiejoseph/opencode-jev-pruner)
+  (`notes.md` §96). Tool *execution* is the
   other polarity: [toolgate](https://github.com/fdemir/toolgate)
   stops on block / review-without-approval / guard error
   (`notes.md` §55). Capability kernel
