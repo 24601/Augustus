@@ -620,6 +620,19 @@ every chat model leaked (16–104). Pair with dinostomp
 dial). Distinct from toolgate / greenlight / jevgate /
 interlock. **Hunch:** contracts on effects, not surface
 tokens. Do not copy bun / agy (`notes.md` §63).
+**Jev supplies evidence, code owns authority (Empirical as
+README slogan; 2026-09-19 ~00:39):**
+[actiongate-jev](https://github.com/omkarghugarkar007/actiongate-jev)
+— deterministic policy / RBAC / schemas / limits own
+ALLOW | REVIEW | BLOCK. Jev (via OpenRouter) is semantic
+evidence only. A positive model score **never overrides** a
+deterministic security failure. Six narrow questions, never
+one vague "is this safe?" Financial / destructive /
+credential **fail closed** if Jev is down. 500-case eval is
+label-baseline integrity, **not** model accuracy. Early MVP.
+Distinct from toolgate / interlock / construct / greenlight.
+**Hunch:** canonical sensor≠constraint slogan for the
+class. Do not copy pnpm (`notes.md` §64).
 **Counterexample**: post-decision "is this dangerous?" with AWS
 keys still in the prompt. **Test**: delete the sensor — the
 constraint and the closed action space still hold; a canary use

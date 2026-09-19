@@ -765,6 +765,47 @@ bar). Distinct from
 (stops writes). **Hunch:** minimize expected human cost
 under false-green risk. `notes.md` §63.
 
+## Does measurement own endorsement?
+
+Yes, for question packs (and any cookbook criteria).
+[jev-packs](https://github.com/dtduc-git/jev-packs): a pack
+is only `verified` after recorded accuracy / ECE / cost /
+latency on a **pinned** model version. No numbers, no
+endorsement; otherwise `provisional`. Abstention/`unknown`
+is mandatory. Named runner jevassert is **not released**
+this pass (404). Harbor/jevals pattern for the class —
+never cookbook-once-and-forget. Distinct from INSTRUCT_JEV
+(docs-derived seed, no evidence gate) and dinostomp
+(instrument). `validation.md`; `notes.md` §64.
+
+## Does a positive Jev score authorize the act?
+
+No. **Jev supplies evidence. Code owns authority.**
+[actiongate-jev](https://github.com/omkarghugarkar007/actiongate-jev):
+deterministic policy / RBAC / schemas / limits own
+ALLOW | REVIEW | BLOCK. A positive model score never
+overrides a deterministic security failure. Six narrow
+questions, never one vague "is this safe?" Financial /
+destructive / credential fail closed if Jev is down.
+500-case eval is label-baseline integrity, not accuracy.
+Compose with construct (privilege ≠ verdict) and interlock
+(SENSOR ≠ policy). `applied-mappings.md` §7; `notes.md` §64.
+
+## Does "calibrated" mean I can threshold p as a frequency?
+
+No. Ranking ≠ calibration.
+[does-jev-confidence-mean-anything](https://github.com/Adilmp/does-jev-confidence-mean-anything):
+8,000 human-annotated judgments; AUC **~0.91** while when
+Jev said **~75%**, humans flagged **~10%**. Two-parameter
+recalibration removes **~96% of ECE** without changing
+rank. Vendor "Calibrated: higher confidence means higher
+accuracy" is **true as rank-correlation** (0.96 *theirs*)
+and **false as probability units**. Companion
+[jevcal](https://github.com/Adilmp/jevcal) (~100 labelled
+rows). Never `if p > 0.9` without domain recalibration.
+One dataset; do not cite `threat`. `mappings.md` §7;
+`notes.md` §64.
+
 ## Do Ax / DSPy own the control plane?
 
 No. They climb **LM-program knobs** (prompts, demos, module

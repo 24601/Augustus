@@ -558,6 +558,21 @@ smoke test on the stub is not a local decision model (`notes.md` §48).
 [`Mattepiu/laya-onnx`](https://huggingface.co/Mattepiu/laya-onnx)
 (~15 ms CPU for one Noul, their card). Do not copy the inherited
 vs-Jev accuracy table (`notes.md` §18).
+**Complete Laya → browser ONNX (distinct replica; 2026-09-19
+~00:39):**
+[`gqgs/laya-onnx`](https://github.com/gqgs/laya-onnx) — full
+Laya heads + option scorer + qtype embeddings + act/escalate
+as int8 ONNX (496.8 MiB). Conversion smoke, not
+task-accuracy or calibration. License null. Distinct from
+Mattepiu/laya-onnx. Primary omni archive stays Jev-omni.
+Do not copy npm (`notes.md` §64).
+**Local ModernBERT `/v1/systemone` approximation (not
+equivalence; 2026-09-19 ~00:39):**
+[`kunchenguid/local-jev`](https://github.com/kunchenguid/local-jev)
+— README: "API-compatible local approximation — **not**
+behavioral equivalence with Jev." Distinct from jev-local's
+stub and jeff's GLiFormer. Thin this pass
+(`IMPLEMENTATION-PLAN.md`). MIT (`notes.md` §64).
 **Packed one-forward on an open LLM (constrained-AR / logprob path,
 not a Jev reproduction):**
 [`ikermoel/open-alternative-jev`](https://github.com/ikermoel/open-alternative-jev)
@@ -647,6 +662,7 @@ Detail: `research/notes.md` §33 (surfaces), §34 (marginals), §35
 (Nimble), §36 (diffusion), §38 (entropy allocator, Hypothesis),
 §42 (pcdServer serving, meta-VOI, games), §45 (kev), §46 (blackwood,
 laya-bench, decision-token LoRA), §48 (jev-local stub, laya-onnx),
+§64 (gqgs complete Laya ONNX; local-jev not equivalence),
 §49 (boundary map; DMB vs constrained LLMs; von; open-alternative-jev). Before
 adopting a surface, the bake-off is a jevals-shaped suite and, for a
 product loop, a Harbor taskset (`validation.md`, Eval & hill-climb).

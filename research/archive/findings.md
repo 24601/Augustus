@@ -1460,3 +1460,52 @@ never sole hot-path gate (Harbor-style latency cost); (el)
 privilege ≠ verdict / effect contracts not tokens; (em)
 attention filter / VOI for human review / never blocks / never
 green unless sure.
+
+## Batch #48 (2026-09-19 ~06:39 UTC / ~00:39 Boise) — measurement owns endorsement (jev-packs), Jev supplies evidence / code owns authority (actiongate-jev), ranking ≠ calibration (does-jev-confidence)
+
+Note: `research/notes.md` §64. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Do not re-fold
+§50–§63. Watch archive `/workspace/jev-archive/2026-09-19/0039`
+absent this VM; live GitHub receipts. Hunches labeled. Do not treat
+jevassert as a shipped product (404). Do not re-fold
+sysone-help/sysone. Do not cite `threat` (n=1). Do not merge
+gqgs/laya-onnx with Mattepiu/laya-onnx or local-jev with
+us/jev-local.
+
+- **dtduc-git/jev-packs (Empirical as registry tables /
+  Harbor-jevals practice).** Python CC0-1.0. Created
+  2026-09-19T06:35:36Z; 0★; GitHub size 0. Evidence-gated
+  `pack.yaml` + `cases.jsonl` + `evidence.md`. Nine packs
+  `verified` *theirs* on pinned `jev-1.13.0` (citation-support
+  800 / 0.919 / 0.022 through banking-intent 150 / 0.840 /
+  0.090). `unknown` mandatory. Named runner jevassert **not
+  released** (404). Measurement owns endorsement.
+- **omkarghugarkar007/actiongate-jev (Empirical as README
+  slogan).** TypeScript Apache-2.0. Created
+  2026-09-19T06:20:33Z; 0★; size 0. Deterministic policy owns
+  ALLOW|REVIEW|BLOCK; Jev is semantic evidence only. Slogan:
+  "Jev supplies evidence. Code owns authority." Positive
+  score never overrides a hard fail. Fail-closed
+  financial/destructive/credential if Jev is down. 500-case
+  is label-baseline, not accuracy.
+- **Adilmp/does-jev-confidence-mean-anything + jevcal
+  (Empirical as 8,000-judgment audit).** Python; license
+  null / MIT. Created 2026-09-19T04:51:58Z / 05:44:21Z; 0★ /
+  1★. AUC ~0.91; stated ~75% vs human ~10%; ~96% ECE
+  removed without rank change. Vendor "calibrated" =
+  rank-correlation, not frequency units. jevcal ~100 labelled
+  rows. One domain (`civil_comments`).
+- MED: gqgs/laya-onnx (complete Laya→browser int8; conversion
+  smoke; distinct from Mattepiu); kunchenguid/local-jev
+  (ModernBERT approximation — not equivalence; distinct from
+  jev-local stub and jeff).
+
+Census: Awesomejev 488/21644; SemIf **1660** (+8); jevlike
+**910** (+5); TypeAR 9; tracker likes 42; lastModified
+unchanged; Laya yes; Blackwood ABSENT; X MCP flapping.
+
+Cross-repo addition: (en) measurement owns endorsement /
+evidence-gated question packs; (eo) Jev supplies evidence /
+code owns authority (positive p never overrides a
+deterministic security failure); (ep) ranking ≠ calibration
+/ never hard-threshold raw p as a frequency.

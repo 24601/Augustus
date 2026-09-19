@@ -6770,3 +6770,220 @@ attention filter not permission); `mental-models.md`;
 `agent-self-assessment.md` (construct fail-closed pre-gate;
 jev-lens Stop never blocks); `formal-methods.md` (contracts
 on effects, not tokens). Hunches labeled. No wrapper.
+
+## 64. Measurement owns endorsement (jev-packs), Jev supplies evidence / code owns authority (actiongate), ranking ≠ calibration (does-jev-confidence) (2026-09-19 ~00:39 Boise)
+
+America/Boise ~00:39 = 2026-09-19T06:39Z. Docs-only fold into
+open PR #2 (`cursor/augustus-store-envelope-00b4`). Not a
+competing PR. Archer 27B drop still **WATCH**. Identity lock vs
+`typesafe-ai` / `tenbin` / `decision-first` holds. No wrapper,
+no pnpm / uvx / OpenRouter / marketplace how-to. No invented
+metrics. Do not re-fold §50–§63 except one-line cross-links.
+TypeSafe Jev is the documented exemplar, not the monopoly.
+Augustus stays how-to-apply / mental model / architecture /
+toolbelt + jevals/Harbor practice — **not** a thin Jev skill.
+Backend-agnostic categorization/scoring/decision-only class.
+
+Watch archive path `/workspace/jev-archive/2026-09-19/0039`
+is **not present** on this VM. Receipts this pass are live
+GitHub READMEs + `gh api` metadata (2026-09-19 ~06:45Z).
+Causes below are **hunches** unless labeled Empirical.
+
+Three HIGH **mental-model / measurement** signals: question
+packs as **evidence-gated artifacts** (measurement owns
+endorsement); runtime authorization whose slogan is **Jev
+supplies evidence, code owns authority** (a positive model
+score never overrides a deterministic security failure);
+a human-annotated calibration audit showing **ranking ≠
+calibration** (AUC ~0.91 while stated p is a shifted unit).
+Optional MED open-replica pointers only. Curated census
+recorded; X MCP still flapping.
+
+### HIGH
+
+1. **[`dtduc-git/jev-packs`](https://github.com/dtduc-git/jev-packs)**
+   (Python; CC0-1.0 for hand-written packs; created
+   2026-09-19T06:35:36Z; 0★; GitHub `size` 0 this pass —
+   README + pack tables are live). Evidence-gated registry
+   of Jev-compatible question packs: `pack.yaml` +
+   `cases.jsonl` + (once measured) `evidence.md`. A pack is
+   only `verified` in `index.json` after a runner records
+   accuracy / ECE / cost / latency on a **pinned**
+   `jev-1.13.0`. Abstention is **mandatory**: every Choice
+   and Score must offer an `unknown` label (spec + CI).
+   Backend-neutral YAML/JSONL (Jev API / Gateway / local
+   replicas). Dataset-derived packs keep upstream licenses
+   (SMS Spam / Banking77 CC BY 4.0; BoolQ CC BY-SA 3.0);
+   raw source data is never committed.
+
+   Named suite: **jevassert** (runner) → jev-packs (data +
+   spec) → **jev-table** (app). This pass, GitHub has
+   **no** `dtduc-git/jevassert` or `dtduc-git/jev-table`
+   (404). The README says the runner is **not yet released**;
+   packs are structurally validated by CI. Do not treat
+   jevassert as a shipped product. Do not copy `uvx` how-to.
+
+   **Nine packs already `verified` *theirs* (single-run on
+   golden cases, `jev-1.13.0`):**
+
+   | Pack | Items | Acc | ECE | $/case |
+   |---|---:|---:|---:|---:|
+   | citation-support | 800 | 0.919 | 0.022 | $0.000017 |
+   | rag-answerability | 840 | 0.908 | 0.021 | $0.000025 |
+   | moderation | 1,350 | 0.906 | 0.027 | $0.000031 |
+   | rag-passage-relevance | 800 | 0.899 | 0.035 | $0.000018 |
+   | entity-merge | 840 | 0.857 | 0.017 | $0.000018 |
+   | support-triage | 1,350 | 0.887 | 0.059 | $0.000028 |
+   | sms-spam | 150 | 0.967 | 0.053 | $0.000014 |
+   | boolq-yes-no | 150 | 0.887 | 0.063 | $0.000018 |
+   | banking-intent | 150 | 0.840 | 0.090 | $0.000029 |
+
+   Single-run, not a Harbor taskset, not a class ranking.
+   Cousin of jevals-data (recompute-from-logs feedstock),
+   dinostomp (instrument not score), and INSTRUCT_JEV
+   (docs-derived instruct seed — no evidence gate).
+
+   **Hunch / Augustus takeaway:** Harbor/jevals pattern for
+   the decision-model class — treat question packs as
+   **measured artifacts**, never cookbook-once-and-forget.
+   Packs that lack evidence stay `provisional`. Measurement
+   owns endorsement. Pin the model version.
+
+2. **[`omkarghugarkar007/actiongate-jev`](https://github.com/omkarghugarkar007/actiongate-jev)**
+   (TypeScript; Apache-2.0; created 2026-09-19T06:20:33Z;
+   0★; GitHub `size` 0 this pass — README is live). Runtime
+   authorization for agent tool calls: deterministic
+   policy / RBAC / schemas / limits own ALLOW | REVIEW |
+   BLOCK; TypeSafe Jev via OpenRouter supplies **semantic
+   evidence only**. Explicit slogan: **"Jev supplies
+   evidence. Code owns authority."** A positive model score
+   **never overrides** a deterministic security failure.
+   Six narrow questions in one request (alignment, target
+   match, policy conflict, sensitive-data exposure, scope
+   expansion, missing intent) — never one vague "is this
+   safe?" and never generated prose as the reason.
+   Financial / destructive / credential actions **fail
+   closed** when Jev is unavailable. Server owns risk class
+   (agents cannot self-declare safer). Early public MVP;
+   mock/sandbox tools; ActionGate decides, the app owns
+   execution and credentials. The 500-case default eval is
+   a **label-baseline integrity run, not a claim of model
+   accuracy**. Distinct from toolgate (pre-exec of a
+   proposed call), interlock (capability kernel; secrets
+   never in the agent), construct-auto-classifier (shell
+   effect-gate), omp-greenlight (prompt suppression).
+   One-line compose with construct: privilege ≠ verdict;
+   here the hard gate is deterministic policy, Jev is the
+   sensor. Do not copy pnpm / OpenRouter how-to.
+
+   **Hunch / Augustus takeaway:** canonical anti-pattern
+   counterexample to soundness theater / hard-gating a
+   soft judgment as safety. Decision models as sensors in
+   an effect-based control loop, not sole hard gates.
+   Formal/semi-formal: deterministic policy is the hard
+   gate; Jev is soft evidence.
+
+3. **[`Adilmp/does-jev-confidence-mean-anything`](https://github.com/Adilmp/does-jev-confidence-mean-anything)**
+   (Python; license **null**; created 2026-09-19T04:51:58Z;
+   0★; size 3671) + companion
+   **[`Adilmp/jevcal`](https://github.com/Adilmp/jevcal)**
+   (Python; MIT; created 2026-09-19T05:44:21Z; **1★**; size
+   0 this pass — README is live). Calibration audit of
+   `jev-1.13.0` against **human** annotations
+   (`civil_comments`), not another model's opinion.
+   **8,000 judgments · 4 wordings · 2 base rates · $0.05.**
+
+   **Finding *theirs*:** ranking is strong (AUC **~0.91**;
+   rank correlation of stated confidence vs flag rate
+   **0.96**). Probabilities are **systematically shifted
+   toward "yes."** On realistic comment traffic with the
+   best wording they found: when Jev said **~75%**, humans
+   flagged **~10%**. Every confidence band sat below the
+   diagonal. Two-parameter recalibration (Platt / isotonic;
+   fit on one half, score on the other) removes **~96% of
+   ECE** without changing ranking (AUC 0.918 → 0.918).
+   Headline row: `natural` / tightened ECE **0.156 → 0.006**,
+   AUC 0.912. Wording shifts the *scale*, not the signal
+   (ECE 0.21–0.52 across four wordings; AUC barely moved).
+   Accuracy is a trap: `insult` at 0.5 scored **61.0%**
+   where always-"no" scores **67.8%**, while AUC was 0.83.
+
+   TypeSafe's "Calibrated: higher confidence means higher
+   accuracy" is **true as rank-correlation** here and
+   **false as probability units**. `if p > 0.9` does not
+   do what it looks like. One dataset, one model version;
+   `threat` has **one** positive in 400 — do not cite those
+   numbers. Companion `jevcal`: ~**100** labelled rows
+   (94% of calibration error removed at 100; warns under
+   50 or 10 positives). Demo *theirs* on 1,600 real Jev
+   rows: stated 0.9 delivers **33%**; Platt Brier
+   0.0837 → 0.0248, AUC unchanged 0.9264. ECE is gameable
+   (constant base-rate has ECE 0.0000 / AUC 0.5) — they
+   decide on **Brier**. Class-agnostic: any model that
+   emits a probability you threshold. Cousin of jev-arena
+   (analytic-world ECE), jev-orderby-bench (calibration ≠
+   sortable), dinostomp (instrument). Do not copy curl /
+   `.env` how-to.
+
+   **Hunch / Augustus takeaway:** ranking ≠ calibration.
+   Never hard-threshold raw decision-model probabilities
+   as if they were frequencies without **domain**
+   recalibration. "Calibrated" in vendor docs often means
+   rank-correlation, not probability units. Signal
+   detection / threshold design / Harbor eval practice.
+
+### MED (open-replica pointers; brief)
+
+- **[`gqgs/laya-onnx`](https://github.com/gqgs/laya-onnx)**
+  (Python; license **null**; created 2026-09-19T06:24:24Z;
+  0★; GitHub `size` 0). **Complete** Laya → browser ONNX
+  int8 (decision heads, option scorer, qtype embeddings,
+  act/escalate; 496.8 MiB). Conversion smoke tests, not a
+  task-accuracy or calibration benchmark. Distinct from
+  [`Mattepiu/laya-onnx`](https://huggingface.co/Mattepiu/laya-onnx)
+  (earlier HF port). Primary omni archive stays Jev-omni.
+  Archer still Watch. Do not copy npm / LFS how-to.
+- **[`kunchenguid/local-jev`](https://github.com/kunchenguid/local-jev)**
+  (language **null**; MIT; created 2026-09-19T06:14:18Z;
+  0★; size 0). Local `/v1/systemone`-shaped ModernBERT
+  zero-shot ONNX. README: **"API-compatible local
+  approximation — not behavioral equivalence with Jev."**
+  Distinct from `us/jev-local` (stub until hf) and jeff
+  (GLiFormer). Thin this pass (`IMPLEMENTATION-PLAN.md`).
+
+Do **not** re-fold sysone-help/sysone (already §63 MED).
+
+### Curated status (watch numbers; not re-derived here)
+
+- Awesomejev **flat 488/21644**.
+- Live SemIf **1660★** (+8). jevlike **910★** (+5). TypeAR **9**.
+- Tracker likes **42**; Hub `lastModified` unchanged.
+  Laya **yes**. Blackwood **ABSENT**.
+- Archer Hume open multimodal still **NOT landed**
+  (`archerhume/4rcherhume` absent; community Qwen3.8-27B
+  quants only).
+- X MCP still flapping — no discourse archived this hour.
+
+These are census, not placements. No reopen of SemIf /
+Laya / Blackwood / TypeAR cards.
+
+### Omni / Jev-omni / Archer
+
+Still **WATCH**. A question-pack registry, a runtime
+authorization slogan, and a calibration audit are **not**
+that drop. `gqgs/laya-onnx` is an open-replica browser
+port, not Archer.
+
+### Cross-links
+
+Cards: `applied-mappings.md` §7 (actiongate: Jev evidence,
+code authority); `mappings.md` §7 (ranking ≠ calibration;
+never threshold raw p as frequency), §8 (deterministic
+policy is the hard gate); `validation.md` (jev-packs nine
+verified packs; 8,000-judgment audit; jevcal ~100-row
+fit); `faq.md` (measurement owns endorsement; positive
+score never authorizes; "calibrated" ≠ frequency);
+`mental-models.md`; `methods-catalog.md`;
+`toolbox-mapping.md`; `agent-self-assessment.md`;
+`formal-methods.md`; `judgment-class.md` (gqgs/laya-onnx;
+local-jev not equivalence). Hunches labeled. No wrapper.

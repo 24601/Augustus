@@ -527,6 +527,9 @@ Use these as *existence proofs of a position*. Write your own card.
 | Constrained optimizer + S1 features | which backend meets quality + SLO at min cost | Judgment as a *feature*; solver owns floors (**Empirical as shape / negative**: slo-router p95 77.93→490.38 same routes *theirs*) | Never the sole hot-path gate; fail-open local features; eight-row demo is not a benchmark |
 | Privilege ≠ verdict | is this shell command safe | Effect semantics + independent risk Nouls (**Empirical**: construct-auto-classifier; Jev 0 dangerous / 975; chat leaked) | Fast-allow/deny prove; operator-owned dials; fail-closed; not a keyword `sudo` filter |
 | Attention filter / human-review VOI | do I need to look at what the agent did | Per-file Nouls; never blocks the agent (**Empirical as README**: jev-lens; never green unless sure) | Not a permission gate; false-green is the costly error; distinct from jev-gates |
+| Measurement owns endorsement | is this question pack shippable | Evidence-gated accuracy/ECE/cost/latency on a pinned version (**Empirical**: jev-packs nine verified *theirs*) | No numbers → `provisional`; `unknown` mandatory; runner not released |
+| Jev supplies evidence, code owns authority | may this tool call run | Deterministic policy ALLOW/REVIEW/BLOCK; Jev is the sensor (**Empirical as slogan**: actiongate-jev) | Positive p never overrides a hard fail; fail-closed on irreversible classes if Jev is down |
+| Ranking ≠ calibration | can I threshold raw p as a frequency | AUC vs ECE/Brier vs human rates (**Empirical**: 8,000 judgments; stated ~75% vs human ~10%; ~96% ECE removed) | Recalibrate on *your* labels (`jevcal` ~100 rows); vendor "calibrated" often means rank-correlation |
 
 Rejected in every domain: replacing the ledger with a vibe; replacing
 the interlock with confidence; replacing the essay with a Noul;

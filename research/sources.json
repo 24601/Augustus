@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T05:50Z",
+  "retrieved": "2026-09-19T06:45Z",
   "sources": [
     {
       "kind": "docs",
@@ -2113,6 +2113,42 @@
       "title": "ckaik/swift-jev",
       "url": "https://github.com/ckaik/swift-jev",
       "note": "Language null; MIT. Created 2026-09-19T05:21:00Z; 0 stars; size 0. LICENSE only this pass. Not a CLI product. MED. notes.md \u00a763."
+    },
+    {
+      "kind": "github",
+      "title": "dtduc-git/jev-packs",
+      "url": "https://github.com/dtduc-git/jev-packs",
+      "note": "Python CC0-1.0. Created 2026-09-19T06:35:36Z; 0 stars; size 0. Evidence-gated question packs. Nine verified *theirs* on pinned jev-1.13.0. unknown mandatory. jevassert/jev-table 404 this pass. notes.md \u00a764."
+    },
+    {
+      "kind": "github",
+      "title": "omkarghugarkar007/actiongate-jev",
+      "url": "https://github.com/omkarghugarkar007/actiongate-jev",
+      "note": "TypeScript Apache-2.0. Created 2026-09-19T06:20:33Z; 0 stars; size 0. Slogan: Jev supplies evidence. Code owns authority. Positive score never overrides a deterministic security failure. 500-case is label-baseline not accuracy. notes.md \u00a764."
+    },
+    {
+      "kind": "github",
+      "title": "Adilmp/does-jev-confidence-mean-anything",
+      "url": "https://github.com/Adilmp/does-jev-confidence-mean-anything",
+      "note": "Python; license null. Created 2026-09-19T04:51:58Z; 0 stars; size 3671. 8000 judgments vs civil_comments. AUC ~0.91; stated ~75% vs human ~10%; ~96% ECE removed. Ranking != calibration. notes.md \u00a764."
+    },
+    {
+      "kind": "github",
+      "title": "Adilmp/jevcal",
+      "url": "https://github.com/Adilmp/jevcal",
+      "note": "Python MIT. Created 2026-09-19T05:44:21Z; 1 star; size 0. ~100 labelled rows; 94% of calibration error at 100. Companion to does-jev-confidence. notes.md \u00a764."
+    },
+    {
+      "kind": "github",
+      "title": "gqgs/laya-onnx",
+      "url": "https://github.com/gqgs/laya-onnx",
+      "note": "Python; license null. Created 2026-09-19T06:24:24Z; 0 stars; size 0. Complete Laya to browser ONNX int8 496.8 MiB. Conversion smoke. Distinct from Mattepiu/laya-onnx. MED. notes.md \u00a764."
+    },
+    {
+      "kind": "github",
+      "title": "kunchenguid/local-jev",
+      "url": "https://github.com/kunchenguid/local-jev",
+      "note": "Language null; MIT. Created 2026-09-19T06:14:18Z; 0 stars; size 0. Local /v1/systemone-shaped ModernBERT ONNX. API-compatible approximation, not behavioral equivalence. Distinct from us/jev-local and jeff. MED. notes.md \u00a764."
     }
   ]
 }

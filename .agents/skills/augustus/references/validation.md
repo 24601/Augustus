@@ -351,6 +351,8 @@ Rules:
 | SLO routing latency cost (sync Jev vs local features) | [slo-router](https://github.com/zeeshan8281/slo-router) | Live Jev vs `slo_no_jev` on sim backends. Same routes (fast 4 / strong 4) and 100% accuracy; p95 E2E **77.93 → 490.38 ms** (~6.3×). Jev feature p50 453.58 / p95 1257.50 ms. 16/16 Jev calls; no lexical fallbacks. 3/8 task-label disagreements did not change routes. Eight-row demo is **not** a benchmark. License null. *Their* integration card |
 | Effect-based shell-gate certification | [construct-auto-classifier](https://github.com/godspede/construct-auto-classifier) | Main 113 + blind 82; 5 passes; **975 decisions/model**. Jev: **0** dangerous allowed, 100% caught, 99.5% correct, $0.047/1k. Every chat model leaked 16–104 dangerous. Only Jev certified. Through the whole gate, not a Harbor taskset |
 | Docs-derived instruct seed | [INSTRUCT_JEV](https://huggingface.co/datasets/ctaxnagomi/INSTRUCT_JEV) | 119 rows (47 choice / 51 noul / 21 score); 24 typed question blocks / 7 typed answers. MIT. Open-replica / jevals seed. Not a bake-off |
+| Evidence-gated question packs | [jev-packs](https://github.com/dtduc-git/jev-packs) | Nine packs `verified` on pinned `jev-1.13.0` *theirs* (single-run). citation-support 800 / acc 0.919 / ECE 0.022; banking-intent 150 / 0.840 / 0.090. `unknown` mandatory. jevassert **not released** (404). CC0. Not a Harbor taskset |
+| Ranking ≠ calibration (human annotations) | [does-jev-confidence-mean-anything](https://github.com/Adilmp/does-jev-confidence-mean-anything); [jevcal](https://github.com/Adilmp/jevcal) | 8,000 judgments, `jev-1.13.0`, $0.05. AUC **~0.91**; stated **~75%** vs human **~10%**. Recalibration removes **~96% ECE**, AUC unchanged. `natural`/tightened ECE 0.156 → 0.006. jevcal: ~100 rows (94% of error). ECE gameable (constant base-rate ECE 0). License null / MIT. One domain; do not cite `threat` (n=1) |
 
 rh-guard is a reward-hack hook, a different surface from jevgate and
 from Abide (eval-integrity vs allowlist-remainder vs project soft
@@ -589,6 +591,22 @@ class truth. Do not copy bun (`notes.md` §63).
 [INSTRUCT_JEV](https://huggingface.co/datasets/ctaxnagomi/INSTRUCT_JEV)
 119 rows (47/51/21); 24 typed questions / 7 typed answers.
 jevals-shaped open replica. MIT.
+**Evidence-gated packs (Empirical as registry tables;
+Harbor/jevals practice; 2026-09-19 ~00:39).**
+[jev-packs](https://github.com/dtduc-git/jev-packs): nine
+packs `verified` on pinned `jev-1.13.0` *theirs*
+(single-run). No `evidence.md`, no endorsement. `unknown`
+mandatory. Named runner jevassert is **not released**
+(404). CC0. Distinct from INSTRUCT_JEV (no evidence gate)
+and dinostomp (instrument). Do not copy uvx (`notes.md` §64).
+**Ranking ≠ calibration (Empirical as human-annotated
+audit + tool).**
+[does-jev-confidence-mean-anything](https://github.com/Adilmp/does-jev-confidence-mean-anything):
+8,000 judgments vs `civil_comments`; AUC ~0.91; stated
+~75% vs human ~10%; ~96% ECE removed without rank change.
+[jevcal](https://github.com/Adilmp/jevcal): ~100 labelled
+rows; demo 0.9 → 33% on 1,600. ECE gameable — they decide
+on Brier. One domain. Do not cite `threat` (`notes.md` §64).
 
 **Harbor-adjacent stdout prune (Empirical as README / evals README
 behavior, not a full Terminal-Bench ranking; 2026-09-18 ~17:15).**

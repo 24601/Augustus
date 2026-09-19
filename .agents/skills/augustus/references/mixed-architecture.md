@@ -219,6 +219,9 @@ not a global virtue:
 | Pick an LLM backend with live Jev on the hot path | **Fail open** to local deterministic features (`slo-router`) | Jev is a feature, not the sole gate. Same routes/accuracy on their fixture; p95 **77.93 → 490.38 ms**. Exactness raises the quality floor; never overrides capability. Eight-row demo is not a benchmark |
 | Allow a proposed shell command | **Fail closed** on missing / low-conf / high-risk / failed call (`construct-auto-classifier`) | Privilege ≠ verdict (`sudo status` can be safe). Fast-allow/deny prove; Jev Choice + independent risk Nouls on the remainder. 0 dangerous / 975 *theirs*; chat models leaked |
 | Tell a human the agent work is green / skip | **Fail closed** to "look" unless sure (`jev-lens`); **never block** the agent | Attention filter / VOI, not a permission gate. Never edits files. `JEV_LENS_GREEN` 0.9. Distinct from jev-gates (stops writes) |
+| Endorse a question pack | **Fail closed** until recorded evidence (`jev-packs`) | No numbers, no `verified`. Pin model version. Abstention/`unknown` mandatory. Runner named, not shipped this pass |
+| Authorize a proposed tool call | **Fail closed** on a deterministic security failure (`actiongate-jev`) | Jev supplies evidence; code owns authority. Positive score never overrides RBAC/schema/limit. Financial/destructive/credential fail closed if Jev is down |
+| Auto-act on a raw decision-model p | **Fail closed** until domain recalibration (`does-jev-confidence` / `jevcal`) | Ranking ≠ calibration. Vendor "calibrated" often means rank-correlation. Stated ~75% vs human ~10% *theirs* |
 | Drop a meaning-grep line | **Fail open** as ranking (`jev-semgrep`); keyword still wins exact strings | AND/OR/NOT over line Nouls. Japanese meanings noisier near threshold |
 
 Worked placements (2026-09-18 topic:jev hour + prior archive):
@@ -595,6 +598,9 @@ decision-design card. Do not clone APIs from READMEs.
 | Meaning-grep | Per-line Noul; AND/OR/NOT in code | Thresholds / `--level`; JP↔EN; name collision with Semgrep SAST | jev-semgrep (MIT LICENSE; 0.94/0.98 *theirs*) |
 | Active-learning triage | Confidence routes accept / teacher / human | Soft-label full distributions; real outcomes stay training targets; do **not** distill Jev as teacher | jev-triage (MIT; ~68% ceiling anti-pattern) |
 | Evaluation-model-first SDK | predicate / classifier / rubric as data | check / evaluate / filter / partition / rank; cancellable; never auto-retry | sysone-help/sysone (MIT TS; first adapter Jev via Vercel AI Gateway). **Not** hraness/sysone (loopback gateway) |
+| Evidence-gated question pack | accuracy / ECE / cost / latency on a pinned version | Pack is `provisional` until evidence.md; `unknown` mandatory | jev-packs (CC0; nine verified *theirs*; jevassert 404 this pass — runner not released) |
+| Runtime authorize (evidence ≠ authority) | Six narrow semantic Nouls | RBAC/schema/limits in code; positive p never overrides a hard fail | actiongate-jev (Apache-2.0; slogan: Jev supplies evidence, code owns authority; 500-case is label-baseline, not accuracy) |
+| Ranking ≠ calibration | AUC vs ECE/Brier vs human rates | Recalibrate on labelled domain data; do not threshold raw p | does-jev-confidence (8,000 judgments; stated ~75% vs human ~10%; ~96% ECE removed) + jevcal (~100 rows) |
 
 On-device / Home Assistant / mobile are newly-feasible via the economics
 inversion, not proven ports of every app. Named placements this hour
@@ -633,7 +639,14 @@ LICENSE this pass (`notes.md` §55). **Local contract drop-in this hour:**
 **default scorer is a deterministic stub** until `JEVLOCAL_SCORER=hf`
 (`notes.md` §48). **ONNX replica path:**
 [`Mattepiu/laya-onnx`](https://huggingface.co/Mattepiu/laya-onnx) — do
-not copy the inherited vs-Jev table. GLiNER (locate) / GLiClass (categorize) /
+not copy the inherited vs-Jev table. **Complete browser
+int8 cousin (distinct):**
+[`gqgs/laya-onnx`](https://github.com/gqgs/laya-onnx)
+(496.8 MiB; conversion smoke, not accuracy; `notes.md`
+§64). **Local ModernBERT approximation, not
+equivalence:**
+[`kunchenguid/local-jev`](https://github.com/kunchenguid/local-jev)
+— distinct from jev-local stub and jeff. GLiNER (locate) / GLiClass (categorize) /
 GLiNER2.5 (local multi-head; extractive compaction is a named *job* on
 that family, `notes.md` §50; computer-use selection is a *different*
 named job on GLiNER2 `gliner2-multi-v1`, `notes.md` §52), listwise, and vision families:

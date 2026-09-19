@@ -470,6 +470,39 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   SemIf **1652** (+11); tracker likes **42** (+1); lastModified
   unchanged; Laya yes; Blackwood ABSENT; X MCP flapping. No
   wrapper. No invented metrics.
+- Hourly ~00:39 Boise 2026-09-19 / 06:39 UTC fold
+  (`research/notes.md` §64): Archer still Watch. Architecture
+  notes, not a uvx / pnpm / marketplace catalog. Watch
+  archive path missing on this VM; receipts from live GitHub.
+  Hunches labeled. Measurement owns endorsement
+  ([jev-packs](https://github.com/dtduc-git/jev-packs);
+  CC0; nine packs `verified` *theirs* on pinned
+  `jev-1.13.0`; accuracy/ECE/cost/latency; `unknown`
+  mandatory; named runner jevassert **not released** / 404;
+  packs without evidence stay `provisional`). Jev supplies
+  evidence, code owns authority
+  ([actiongate-jev](https://github.com/omkarghugarkar007/actiongate-jev);
+  Apache-2.0; deterministic policy owns ALLOW|REVIEW|BLOCK;
+  positive score never overrides a hard security fail;
+  fail-closed financial/destructive/credential if Jev is
+  down; 500-case is label-baseline, not accuracy). Ranking ≠
+  calibration
+  ([does-jev-confidence-mean-anything](https://github.com/Adilmp/does-jev-confidence-mean-anything)
+  + [jevcal](https://github.com/Adilmp/jevcal); 8,000
+  human-annotated judgments; AUC **~0.91**; stated **~75%**
+  vs human **~10%**; two-parameter recalibration removes
+  **~96% ECE** without changing rank; never hard-threshold
+  raw p as a frequency; vendor "calibrated" often means
+  rank-correlation). MED:
+  [gqgs/laya-onnx](https://github.com/gqgs/laya-onnx)
+  (complete Laya→browser int8; distinct from Mattepiu);
+  [kunchenguid/local-jev](https://github.com/kunchenguid/local-jev)
+  (ModernBERT local approximation — not equivalence). Do
+  not re-fold sysone-help/sysone. Census: Awesomejev
+  488/21644; SemIf **1660** (+8); jevlike **910** (+5);
+  TypeAR 9; tracker likes 42; lastModified unchanged; Laya
+  yes; Blackwood ABSENT; X MCP flapping. No wrapper. No
+  invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

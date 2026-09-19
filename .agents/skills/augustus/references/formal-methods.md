@@ -334,6 +334,17 @@ Claiming a proof-shaped conclusion from a non-proof:
 - Sync “Jev routing” sold without measuring decision-model
   latency ([slo-router](https://github.com/zeeshan8281/slo-router):
   same routes, p95 77.93→490.38 ms *theirs*; `notes.md` §63).
+- A cookbook question set sold as verified without numbers
+  ([jev-packs](https://github.com/dtduc-git/jev-packs):
+  measurement owns endorsement; `notes.md` §64).
+- A positive decision-model score sold as authorization
+  ([actiongate-jev](https://github.com/omkarghugarkar007/actiongate-jev):
+  Jev supplies evidence, code owns authority; `notes.md` §64).
+- Vendor "calibrated" sold as frequency units you can
+  hard-threshold
+  ([does-jev-confidence-mean-anything](https://github.com/Adilmp/does-jev-confidence-mean-anything):
+  ranking ≠ calibration; stated ~75% vs human ~10%;
+  `notes.md` §64).
 - "Type-safe" sold as "correct" ([interlock](https://github.com/somoore/interlock):
   irreversible stays behind a threshold **and** a human).
 
@@ -482,6 +493,12 @@ Fail-closed when the sensor is missing. Privilege ≠ verdict
 [jev-lens](https://github.com/rashedInt32/jev-lens) — never
 blocks the agent; never authorizes a write. Complements
 skill-broker and omp-greenlight (`notes.md` §63).
+**Jev supplies evidence, code owns authority (Empirical
+as slogan):**
+[actiongate-jev](https://github.com/omkarghugarkar007/actiongate-jev)
+— deterministic policy is the hard gate; Jev is soft
+evidence. A positive score never overrides RBAC/schema/limit
+(`notes.md` §64).
 
 **Kent — Data and Reality.** Models are approximations; **naming is
 load-bearing**. Question text, Choice sets, and Score rubrics *are* the

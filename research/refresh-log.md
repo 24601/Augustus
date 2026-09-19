@@ -838,3 +838,30 @@
   formal-methods, judgment-class, ecosystem, CHANGELOG, README.
 - notes.md §63; sources.json (352 sources, 349 unique URLs,
   retrieved 2026-09-19T05:50Z); findings.md batch #47. No wrapper.
+
+## 2026-09-19 ~06:45 UTC — hourly ~00:39 Boise 2026-09-19 fold (§64)
+- Docs-only into PR #2. Archer still Watch. Archive path
+  `/workspace/jev-archive/2026-09-19/0039` absent; live GitHub
+  READMEs + `gh api`. Hunches labeled.
+- HIGH: [dtduc-git/jev-packs](https://github.com/dtduc-git/jev-packs)
+  evidence-gated packs; nine verified *theirs*; jevassert 404 /
+  unreleased; measurement owns endorsement.
+  [omkarghugarkar007/actiongate-jev](https://github.com/omkarghugarkar007/actiongate-jev)
+  Jev supplies evidence, code owns authority; positive p never
+  overrides a hard fail.
+  [Adilmp/does-jev-confidence-mean-anything](https://github.com/Adilmp/does-jev-confidence-mean-anything)
+  + [jevcal](https://github.com/Adilmp/jevcal) ranking ≠
+  calibration; 8,000 judgments; AUC ~0.91; stated ~75% vs
+  human ~10%; ~96% ECE removed.
+- MED: gqgs/laya-onnx (complete Laya browser int8; distinct
+  from Mattepiu), kunchenguid/local-jev (not equivalence).
+  Do not re-fold sysone-help/sysone.
+- Census: Awesomejev 488/21644; SemIf 1660 (+8); jevlike 910
+  (+5); TypeAR 9; tracker likes 42; lastModified unchanged;
+  Laya yes; Blackwood ABSENT; X MCP flapping.
+- Cards: SKILL.md, applied-mappings §7, mappings §7/§8,
+  mixed-architecture (fail table + gallery), validation, faq,
+  mental-models, methods-catalog, toolbox, agent-self-assessment,
+  formal-methods, judgment-class, ecosystem, CHANGELOG, README.
+- notes.md §64; sources.json (358 sources, 355 unique URLs,
+  retrieved 2026-09-19T06:45Z); findings.md batch #48. No wrapper.

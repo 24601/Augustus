@@ -39,6 +39,13 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    low-conf / high-risk. Jev 0 dangerous / 975 *theirs*.
    Distinct from toolgate / greenlight / interlock
    (`notes.md` §63).
+   **Runtime authorize — evidence ≠ authority
+   (2026-09-19 ~00:39):**
+   [actiongate-jev](https://github.com/omkarghugarkar007/actiongate-jev)
+   — Jev supplies evidence; code owns ALLOW/REVIEW/BLOCK.
+   Positive score never overrides a deterministic security
+   failure. Fail-closed on financial/destructive/credential
+   if Jev is down (`notes.md` §64).
    **Email / ticket leftover cascade (2026-09-18 ~20:43):**
    [jav-email-cascade](https://github.com/skiingfalcon/jav-email-cascade)
    — typed decide, policy auto/review/llm, generator only on

@@ -547,6 +547,18 @@ benign. Operator owns `minConfidence` / `riskThreshold`.
 Jev 0 dangerous / 975; chat models leaked. **Hunch:** do
 not threshold a privilege token as P(unsafe)
 (`notes.md` §63).
+**Ranking ≠ calibration (Empirical as 8,000-judgment
+audit; 2026-09-19 ~00:39):**
+[does-jev-confidence-mean-anything](https://github.com/Adilmp/does-jev-confidence-mean-anything)
+— AUC **~0.91** (ranking works) while stated p is shifted
+toward "yes": when Jev said **~75%**, humans flagged
+**~10%**. Two-parameter recalibration removes **~96% of
+ECE** without changing rank. Vendor "calibrated" here is
+**rank-correlation**, not frequency units. Never
+hard-threshold raw p as if it were P(event) without
+**domain** recalibration (`jevcal`; ~100 labelled rows).
+One dataset (`civil_comments`); do not cite `threat` (n=1).
+License null. `notes.md` §64.
 
 ## 8. Control structure → sensor ≠ constraint (Leveson)
 
@@ -615,6 +627,15 @@ never blocks the agent; never grants or withholds a
 write. Complements skill-broker (Jev never grants access)
 and omp-greenlight (operator owns the bar)
 (`notes.md` §63).
+**Jev supplies evidence, code owns authority (Empirical
+as README slogan; 2026-09-19 ~00:39):**
+[actiongate-jev](https://github.com/omkarghugarkar007/actiongate-jev)
+— deterministic policy is the constraint; Jev is the
+sensor. A positive score never overrides RBAC / schema /
+limit failure. Financial / destructive / credential fail
+closed if Jev is down. Distinct from construct (shell
+effects) and interlock (secrets never in agent)
+(`notes.md` §64).
 
 ## 9. Search / control loops → one substituted classifier step
 
