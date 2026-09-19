@@ -482,6 +482,24 @@ foundation-only; never broaden access. Replayable route
 evidence. Distinct from jev-hermes (route ≠ memory) and
 from shipped routers on this card. Language/license null
 this pass. Do not copy an install (`notes.md` §62).
+**Constrained optimizer + S1 features (Empirical as live
+analysis *shape*; 2026-09-18 ~23:40):**
+[slo-router](https://github.com/zeeshan8281/slo-router)
+— Jev supplies bounded task / exactness / external-evidence
+features; a constrained controller picks the cheapest
+backend meeting quality + latency SLO floors. Fail-open to
+deterministic local features on timeout/invalid. Exactness
+raises the quality floor; **never overrides** context or
+capability. On their fixture, Jev preserved the same
+routes/accuracy as the local path and raised p95 E2E
+**77.93 → 490.38 ms** (~6.3×). 3/8 task-label disagreements
+did not change routes. Eight-row demo is **not** a model
+benchmark. License null this pass. **Hunch:** System One
+belongs on the feature side of a constrained optimizer,
+never as the sole hard gate on the hot path. Distinct from
+routeKit (unmeasured) and bitrate-advisor (soft affinity
+inside a cap). Do not copy uvicorn / OpenRouter
+(`notes.md` §63).
 [`trietphan/jev-claw`](https://github.com/trietphan/jev-claw) is the
 same split for OpenClaw (classify axes; `decide()` maps the route; path
 regex floors risk). [`nekowasabi/jev-routing`](https://github.com/nekowasabi/jev-routing)
@@ -588,6 +606,20 @@ rules remain the constraint and fire first. Default 40.9% /
 0 of 94 *theirs* on the labelled corpus. Not a sandbox; not
 interlock (secrets may already be in the agent's world).
 Do not copy YAML (`notes.md` §62).
+**Privilege ≠ verdict / effect-based shell gate
+(Empirical as certification; 2026-09-18 ~23:40):**
+[construct-auto-classifier](https://github.com/godspede/construct-auto-classifier)
+— fast-allow/deny <1 ms, then Jev Choice allow/deny + nine
+independent risk Nouls. Allow only if Choice allow at
+operator-owned `minConfidence` (0.6) **and** every risk
+below `riskThreshold` (0.7). Missing/low-conf/high-risk/
+failed call = deny (fail-closed). `sudo status` can be a
+safe read. Jev: **0** dangerous allowed / 975 decisions;
+every chat model leaked (16–104). Pair with dinostomp
+(audit the instrument) and omp-greenlight (operator-owned
+dial). Distinct from toolgate / greenlight / jevgate /
+interlock. **Hunch:** contracts on effects, not surface
+tokens. Do not copy bun / agy (`notes.md` §63).
 **Counterexample**: post-decision "is this dangerous?" with AWS
 keys still in the prompt. **Test**: delete the sensor — the
 constraint and the closed action space still hold; a canary use

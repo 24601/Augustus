@@ -453,6 +453,29 @@ change the act. Uncertain → closer look. Errors and truncation are
 **not** evidence of irrelevance. Webpage fetch still costs
 bandwidth; this saves the *agent's* read, not the download.
 Mocks ≠ accuracy (`notes.md` §56).
+**Decision-model latency cost (Empirical as a *negative*
+on sync Jev; 2026-09-18 ~23:40):**
+[slo-router](https://github.com/zeeshan8281/slo-router) —
+pay for live Jev features on the routing hot path iff
+expected decision quality beats **hundreds of ms** tail.
+On their fixture, same routes/accuracy as local features;
+p95 **77.93 → 490.38 ms**. Author: keep Jev off the
+synchronous path for this workload. **Hunch:** Harbor-style
+measurement of decision-model latency is mandatory before
+claiming “Jev routing.” Eight-row demo is not a benchmark
+(`notes.md` §63).
+**Human-review VOI (Empirical as README architecture;
+hunch as a placement):**
+[jev-lens](https://github.com/rashedInt32/jev-lens) —
+calibrated “do I need to look / which files / strip
+debris?” Never blocks the agent; never says green unless
+sure (`JEV_LENS_GREEN` 0.9). Minimize expected human cost
+under **false-green** risk. Attention filter, not a
+permission gate. Companion
+[jev-lens.nvim](https://github.com/rashedInt32/jev-lens.nvim)
+is display only. Distinct from jev-gates (stops writes)
+and egma attention≠correctness (PR surface)
+(`notes.md` §63).
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs
@@ -509,6 +532,21 @@ the 140-row corpus. The plugin **never self-tunes** the
 safety bar: a self-adjusting bar cannot be audited by the
 person accepting the risk. Live traffic has no labels.
 Not a sandbox. `notes.md` §62.
+**Exactness raises a floor, does not override capability
+(Empirical as live analysis; 2026-09-18 ~23:40):**
+[slo-router](https://github.com/zeeshan8281/slo-router) —
+the exactness feature lifts the quality floor; it never
+bypasses health/context/tool checks. 3/8 task-label
+disagreements still did not change routes. **Hunch:**
+signal-detection framing — a quality cue is a criterion
+shift, not a capability override (`notes.md` §63).
+**Privilege ≠ verdict (Empirical as certification):**
+[construct-auto-classifier](https://github.com/godspede/construct-auto-classifier)
+— `sudo` changes blast radius, not whether the act is
+benign. Operator owns `minConfidence` / `riskThreshold`.
+Jev 0 dangerous / 975; chat models leaked. **Hunch:** do
+not threshold a privilege token as P(unsafe)
+(`notes.md` §63).
 
 ## 8. Control structure → sensor ≠ constraint (Leveson)
 
@@ -562,6 +600,21 @@ misses. Never shadows a built-in tool (would bypass deny).
 — code owns grants; Jev scores relevance and **never
 grants access**. Jev down never broadens the catalog.
 Not a production recipe. `notes.md` §62.
+**Contracts on effects, not tokens (Empirical as
+certification; hunch as FM angle):**
+[construct-auto-classifier](https://github.com/godspede/construct-auto-classifier)
+— the constraint is reversibility / blast radius, not a
+`sudo` allowlist. Independent risk Nouls are sensors;
+policy (minConfidence ∩ riskThreshold ∩ fast-deny) is the
+constraint. Fail-closed when the sensor is missing
+(`notes.md` §63).
+**Attention filter ≠ permission (Empirical as README;
+hunch as placement):**
+[jev-lens](https://github.com/rashedInt32/jev-lens) —
+never blocks the agent; never grants or withholds a
+write. Complements skill-broker (Jev never grants access)
+and omp-greenlight (operator owns the bar)
+(`notes.md` §63).
 
 ## 9. Search / control loops → one substituted classifier step
 
@@ -845,6 +898,15 @@ paper allocation; GPU scheduling. **Empirical as a *shape*:**
 [`affirmitv/bitrate-advisor`](https://github.com/affirmitv/bitrate-advisor)
 — Jev's rung is the soft affinity; probe/history/thermal caps are the
 solver; the model cannot violate them (`notes.md` §44).
+**Empirical as a *shape* (2026-09-18 ~23:40):**
+[slo-router](https://github.com/zeeshan8281/slo-router) —
+Jev's task/exactness/evidence scores are soft features;
+the controller is min expected cost s.t. health, context,
+tools, quality floor, and SLO-success probability.
+Fail-open to local features. Measured negative for *sync*
+Jev on the fixture (same routes; p95 77.93→490.38 ms).
+**Hunch:** never let the decision model be the sole hard
+gate on the hot path (`notes.md` §63).
 **Counterexample:** Choice over
 assignees that ignores load. **Test:** a feasible assignment the solver
 finds that the Score alone would skip because it "felt" worse; hard
@@ -964,6 +1026,16 @@ operator-owned bar. Plugin never self-tunes. Not a sandbox.
 Default 40.9% / 0 of 94 *theirs*. Distinct from toolgate
 (pre-exec of a proposed call) and omp-jev-extensions
 (fail-open route). `notes.md` §62.
+**Effect-based fast-path then remainder (Empirical as
+certification; 2026-09-18 ~23:40):**
+[construct-auto-classifier](https://github.com/godspede/construct-auto-classifier)
+— fast-deny / fast-allow **prove** catastrophic and
+read-only verbs in <1 ms; Jev judges blast radius /
+reversibility on the remainder. Fail-closed on the
+*execution* act (contrast jevgate cannot-block). Privilege
+stripped before the allow rule, not used as the verdict.
+Jev 0 dangerous / 975 *theirs*. **Hunch:** contracts on
+effects, not tokens (`notes.md` §63).
 **Capability kernel, different trust boundary (Empirical as README
 architecture, 2026-09-18 ~19:48):**
 [interlock](https://github.com/somoore/interlock) — the LLM never

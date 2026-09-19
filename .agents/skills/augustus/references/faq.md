@@ -131,7 +131,11 @@ not a fourth path — default scorer is a stub until `hf` (`notes.md` §48).
 [jeff](https://github.com/logan-markewich/jeff) is a GLiFormer encoder
 behind the same wire (not a Jev replica; `notes.md` §60).
 [sysone](https://github.com/hraness/sysone) is a loopback **router**,
-not a scorer.
+not a scorer. Distinct name collision:
+[sysone-help/sysone](https://github.com/sysone-help/sysone) is an
+evaluation-model-first TypeScript SDK (predicate/classifier/rubric
+as data; cancellable; never auto-retry; first adapter Jev via
+Vercel AI Gateway). Do not merge the two (`notes.md` §60, §63).
 Laya ONNX port: [laya-onnx](https://huggingface.co/Mattepiu/laya-onnx)
 (do not copy the inherited vs-Jev table). Constrained decoding is §32; native serving is §42. Decision-token QLoRA on that graph:
 [Foodoo1/Qwen3-14B-RLCD-Decision-LoRA](https://huggingface.co/Foodoo1/Qwen3-14B-RLCD-Decision-LoRA)
@@ -716,6 +720,50 @@ FINDINGS 189; 99 against itself. Cousin of rh-guard /
 egma attention≠correctness / game-coach engine-owns-truth.
 Beside jevals, not a Harbor taskset. `validation.md`;
 `formal-methods.md`; `notes.md` §62.
+
+## Is Jev the sole hard gate on the hot path?
+
+No. Put System One on the **feature side of a constrained
+optimizer**, never as the only gate that must answer before
+traffic moves.
+[slo-router](https://github.com/zeeshan8281/slo-router):
+Jev supplies task / exactness / external-evidence; code
+picks the cheapest backend meeting quality + SLO floors.
+Fail-open to local features on timeout/invalid. Measured
+*theirs*: same routes/accuracy as the local path; p95
+**77.93 → 490.38 ms**. Exactness raises the quality floor;
+it must not override capability/context. **Hunch:** Harbor-
+style measurement of decision-model latency is mandatory
+before claiming “Jev routing.” Eight-row demo is not a
+benchmark. `mappings.md` §6, §15; `notes.md` §63.
+
+## Is privilege the verdict?
+
+No. Privilege changes blast radius, not whether the act is
+benign.
+[construct-auto-classifier](https://github.com/godspede/construct-auto-classifier):
+`sudo status` can be a safe read. Fast structural rules,
+then Jev Choice + independent risk Nouls. Operator owns
+`minConfidence` / `riskThreshold`. Fail-closed.
+Certification *theirs*: Jev **0** dangerous / 975; every
+chat model leaked. **Hunch:** contracts on effects, not
+surface tokens. Pair with dinostomp and omp-greenlight.
+`applied-mappings.md` §7; `mappings.md` §18; `notes.md` §63.
+
+## Is System One a permission gate for human review?
+
+No. It can be an **attention filter / VOI** that never
+blocks the agent and never says green unless sure.
+[jev-lens](https://github.com/rashedInt32/jev-lens):
+calibrated “do I need to look / which files / strip
+debris?” Never edits files. Companion
+[jev-lens.nvim](https://github.com/rashedInt32/jev-lens.nvim)
+is a popup, no API key. Complements skill-broker (Jev
+never grants access) and omp-greenlight (operator owns the
+bar). Distinct from
+[jev-gates](https://github.com/rashedInt32/jev-gates)
+(stops writes). **Hunch:** minimize expected human cost
+under false-green risk. `notes.md` §63.
 
 ## Do Ax / DSPy own the control plane?
 

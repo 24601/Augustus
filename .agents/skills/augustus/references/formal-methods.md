@@ -323,6 +323,17 @@ Claiming a proof-shaped conclusion from a non-proof:
   checks the instrument, not just the score; `dinostomp jev`
   tests a question like an if-statement; 99 of 189 findings
   against itself; `notes.md` §62).
+- Keyword privilege sold as a safety case
+  ([construct-auto-classifier](https://github.com/godspede/construct-auto-classifier):
+  `sudo status` can be a safe read; contracts on effects, not
+  tokens; `notes.md` §63).
+- A stop-hook “green” sold as permission to skip review
+  ([jev-lens](https://github.com/rashedInt32/jev-lens): never
+  says green unless sure; never blocks the agent;
+  `notes.md` §63).
+- Sync “Jev routing” sold without measuring decision-model
+  latency ([slo-router](https://github.com/zeeshan8281/slo-router):
+  same routes, p95 77.93→490.38 ms *theirs*; `notes.md` §63).
 - "Type-safe" sold as "correct" ([interlock](https://github.com/somoore/interlock):
   irreversible stays behind a threshold **and** a human).
 
@@ -459,6 +470,18 @@ hygiene beside jevals, not a Harbor taskset (`notes.md` §62).
 suppression):** [omp-greenlight](https://github.com/SemetricLabs/omp-greenlight)
 — host deny is the constraint; Jev is the sensor; operator
 owns the criterion (`notes.md` §62).
+**Contracts on effects, not tokens (Empirical as
+certification; hunch as FM angle):**
+[construct-auto-classifier](https://github.com/godspede/construct-auto-classifier)
+— the named constraint is blast radius / reversibility, not
+a privilege keyword. Independent risk Nouls are sensors;
+`minConfidence` ∩ `riskThreshold` ∩ fast-deny is policy.
+Fail-closed when the sensor is missing. Privilege ≠ verdict
+(`notes.md` §63).
+**Attention filter ≠ permission (Empirical as README):**
+[jev-lens](https://github.com/rashedInt32/jev-lens) — never
+blocks the agent; never authorizes a write. Complements
+skill-broker and omp-greenlight (`notes.md` §63).
 
 **Kent — Data and Reality.** Models are approximations; **naming is
 load-bearing**. Question text, Choice sets, and Score rubrics *are* the

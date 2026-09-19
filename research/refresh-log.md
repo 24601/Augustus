@@ -814,3 +814,27 @@
   mental-models, methods-catalog, toolbox, agent-self-assessment,
   formal-methods, ecosystem, CHANGELOG, README.
 - notes.md §62; sources.json; findings.md batch #46. No wrapper.
+
+## 2026-09-19 ~05:50 UTC — hourly ~23:40 Boise 2026-09-18 fold (§63)
+- Docs-only into PR #2. Archer still Watch. Archive path
+  `/workspace/jev-archive/2026-09-18/234027` absent; live GitHub
+  READMEs + `gh api` + HF card. Hunches labeled.
+- HIGH: [zeeshan8281/slo-router](https://github.com/zeeshan8281/slo-router)
+  constrained optimizer + S1 features; same routes; p95 77.93→490.38 ms;
+  fail-open local; eight-row demo not a benchmark.
+  [godspede/construct-auto-classifier](https://github.com/godspede/construct-auto-classifier)
+  privilege ≠ verdict; Jev 0 dangerous / 975; chat leaked; fail-closed.
+  [rashedInt32/jev-lens](https://github.com/rashedInt32/jev-lens) +
+  [jev-lens.nvim](https://github.com/rashedInt32/jev-lens.nvim)
+  attention filter / VOI; never blocks; never green unless sure.
+- MED: sysone-help/sysone (not hraness/sysone), INSTRUCT_JEV 119-row
+  seed, swift-jev LICENSE-only.
+- Census: Awesomejev 488/21644; SemIf 1652 (+11); tracker likes 42
+  (+1); lastModified unchanged; Laya yes; Blackwood ABSENT; X MCP
+  flapping.
+- Cards: SKILL.md, applied-mappings §5/§7, mappings §6/§7/§8/§15/§18,
+  mixed-architecture (fail table + gallery), validation, faq,
+  mental-models, methods-catalog, toolbox, agent-self-assessment,
+  formal-methods, judgment-class, ecosystem, CHANGELOG, README.
+- notes.md §63; sources.json (352 sources, 349 unique URLs,
+  retrieved 2026-09-19T05:50Z); findings.md batch #47. No wrapper.

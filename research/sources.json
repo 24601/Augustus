@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T04:45Z",
+  "retrieved": "2026-09-19T05:50Z",
   "sources": [
     {
       "kind": "docs",
@@ -2065,6 +2065,54 @@
       "title": "CorieW/JevExplore",
       "url": "https://github.com/CorieW/JevExplore",
       "note": "TypeScript; license null. Created 2026-09-19T04:22:25Z; 0 stars. Bounded web action-space discovery. MED. notes.md \u00a762."
+    },
+    {
+      "kind": "github",
+      "title": "zeeshan8281/slo-router",
+      "url": "https://github.com/zeeshan8281/slo-router",
+      "note": "Python; license null. Created 2026-09-19T05:32:45Z; 0 stars. Constrained optimizer + S1 features. p95 77.93 to 490.38 ms same routes. Fail-open local features. notes.md \u00a763."
+    },
+    {
+      "kind": "github",
+      "title": "zeeshan8281/slo-router live Jev analysis",
+      "url": "https://github.com/zeeshan8281/slo-router/blob/main/results/live-jev-analysis.md",
+      "note": "19 Sep 2026 integration card. SLO no-Jev p95 77.93 vs SLO+Jev 490.38. 16/16 Jev calls. 3/8 label disagreements did not change routes. notes.md \u00a763."
+    },
+    {
+      "kind": "github",
+      "title": "godspede/construct-auto-classifier",
+      "url": "https://github.com/godspede/construct-auto-classifier",
+      "note": "TypeScript Apache-2.0. Created 2026-09-18T22:27:03Z; 0 stars. Effect-based shell gate. Jev 0 dangerous / 975. Privilege != verdict. notes.md \u00a763."
+    },
+    {
+      "kind": "github",
+      "title": "rashedInt32/jev-lens",
+      "url": "https://github.com/rashedInt32/jev-lens",
+      "note": "JavaScript MIT. Created 2026-09-19T04:46:01Z; 0 stars; size 49. Attention filter Stop-hook. Never blocks; never green unless sure. notes.md \u00a763."
+    },
+    {
+      "kind": "github",
+      "title": "rashedInt32/jev-lens.nvim",
+      "url": "https://github.com/rashedInt32/jev-lens.nvim",
+      "note": "Lua MIT. Created 2026-09-19T04:47:11Z; 0 stars. Popup companion; no API/key. notes.md \u00a763."
+    },
+    {
+      "kind": "github",
+      "title": "sysone-help/sysone",
+      "url": "https://github.com/sysone-help/sysone",
+      "note": "TypeScript MIT. Created 2026-09-19T05:37:15Z; 0 stars. Evaluation-model-first SDK. Not hraness/sysone loopback gateway. MED. notes.md \u00a763."
+    },
+    {
+      "kind": "hf",
+      "title": "ctaxnagomi/INSTRUCT_JEV",
+      "url": "https://huggingface.co/datasets/ctaxnagomi/INSTRUCT_JEV",
+      "note": "MIT. lastModified 2026-09-19T05:06:29Z. 119 rows (47 choice / 51 noul / 21 score). Docs-derived instruct seed. MED. notes.md \u00a763."
+    },
+    {
+      "kind": "github",
+      "title": "ckaik/swift-jev",
+      "url": "https://github.com/ckaik/swift-jev",
+      "note": "Language null; MIT. Created 2026-09-19T05:21:00Z; 0 stars; size 0. LICENSE only this pass. Not a CLI product. MED. notes.md \u00a763."
     }
   ]
 }

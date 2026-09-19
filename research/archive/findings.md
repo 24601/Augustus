@@ -1420,3 +1420,43 @@ Cross-repo addition: (eh) permission vs probability / operator-owned
 safety bar; (ei) judgment ≠ permission (Jev never grants access);
 (ej) eval integrity / instrument-not-score (`dinostomp jev` as
 if-statement hygiene).
+
+## Batch #47 (2026-09-19 ~05:40 UTC / ~23:40 Boise 2026-09-18) — constrained optimizer + S1 features (slo-router), privilege ≠ verdict (construct-auto-classifier), attention/VOI never-block (jev-lens)
+
+Note: `research/notes.md` §63. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Do not re-fold
+§50–§62. Watch archive `/workspace/jev-archive/2026-09-18/234027`
+absent this VM; live GitHub + HF receipts. Hunches labeled. Do not
+treat the eight-row slo-router demo as a benchmark. Do not treat
+swift-jev LICENSE-only as a CLI product. Do not merge
+sysone-help/sysone with hraness/sysone.
+
+- **zeeshan8281/slo-router (Empirical as live analysis *shape* /
+  negative for sync Jev).** Python; license null. Created
+  2026-09-19T05:32:45Z; 0★. Jev features, constrained controller.
+  Same routes/accuracy; p95 77.93→490.38 ms *theirs*. Fail-open
+  local features. Exactness raises floor, never overrides
+  capability.
+- **godspede/construct-auto-classifier (Empirical as
+  certification).** TypeScript Apache-2.0. Created
+  2026-09-18T22:27:03Z; 0★. Effect-based shell gate. Jev 0
+  dangerous / 975; every chat model leaked 16–104. Privilege ≠
+  verdict. Fail-closed. Operator-owned dials.
+- **rashedInt32/jev-lens + jev-lens.nvim (Empirical as README
+  architecture).** JS MIT created 2026-09-19T04:46:01Z; Lua MIT
+  created 2026-09-19T04:47:11Z; 0★. Never blocks; never edits;
+  never green unless sure. Attention filter / VOI, not a
+  permission gate.
+- MED: sysone-help/sysone (MIT TS; evaluation-model-first SDK;
+  not hraness/sysone); ctaxnagomi/INSTRUCT_JEV (HF MIT; 119 rows
+  47/51/21; jevals seed); ckaik/swift-jev (MIT; LICENSE-only).
+
+Census: Awesomejev 488/21644; SemIf 1652 (+11); tracker likes
+42 (+1); lastModified unchanged; Laya yes; Blackwood ABSENT;
+X MCP flapping.
+
+Cross-repo addition: (ek) constrained optimizer + S1 features /
+never sole hot-path gate (Harbor-style latency cost); (el)
+privilege ≠ verdict / effect contracts not tokens; (em)
+attention filter / VOI for human review / never blocks / never
+green unless sure.

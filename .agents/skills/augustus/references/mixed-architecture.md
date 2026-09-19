@@ -216,6 +216,9 @@ not a global virtue:
 | Suppress an OMP tool-approval prompt | **Fail closed** to prompt the human unless the operator-owned bar says allow (`omp-greenlight`) | Not a sandbox. Host `bash.patterns: deny` stays the floor and fires first. Plugin never self-tunes the bar. 0/94 is the labelled corpus, not live traffic |
 | Grant a specialised skill pack | **Fail closed** to foundation-only; never broaden access (`skill-broker` outline) | Jev scores relevance; code owns grants. Candidates ≠ grants. **Hypothesis / outline — not a production recipe** |
 | Treat a Jev score as eval truth | **Fail closed** until the instrument is audited (`dinostomp`) | Check data/scorer/runs/claims, not just the number. `dinostomp jev` tests a question like an if-statement |
+| Pick an LLM backend with live Jev on the hot path | **Fail open** to local deterministic features (`slo-router`) | Jev is a feature, not the sole gate. Same routes/accuracy on their fixture; p95 **77.93 → 490.38 ms**. Exactness raises the quality floor; never overrides capability. Eight-row demo is not a benchmark |
+| Allow a proposed shell command | **Fail closed** on missing / low-conf / high-risk / failed call (`construct-auto-classifier`) | Privilege ≠ verdict (`sudo status` can be safe). Fast-allow/deny prove; Jev Choice + independent risk Nouls on the remainder. 0 dangerous / 975 *theirs*; chat models leaked |
+| Tell a human the agent work is green / skip | **Fail closed** to "look" unless sure (`jev-lens`); **never block** the agent | Attention filter / VOI, not a permission gate. Never edits files. `JEV_LENS_GREEN` 0.9. Distinct from jev-gates (stops writes) |
 | Drop a meaning-grep line | **Fail open** as ranking (`jev-semgrep`); keyword still wins exact strings | AND/OR/NOT over line Nouls. Japanese meanings noisier near threshold |
 
 Worked placements (2026-09-18 topic:jev hour + prior archive):
@@ -585,9 +588,13 @@ decision-design card. Do not clone APIs from READMEs.
 | OMP prompt suppression | Parallel verdict + severity + in-scope | Operator owns presets; plugin never self-tunes; host deny fires first; agent prose withheld | omp-greenlight (MIT; 1,013/10; default 40.9% / 0 of 94 *theirs*; not a sandbox) |
 | Pre-agent skill intervention | Relevance/confidence over authorised candidates | Code owns catalog/policy/grants; Jev never grants access; foundation-only on failure | skill-broker (**Hypothesis / outline**; not a production recipe) |
 | Eval-instrument audit | Accuracy / ECE / blank lean / rewording of a Jev question | Check data/scorer/claims; 99 of 189 findings against itself | dinostomp (README Apache-2.0 / GitHub NOASSERTION; `dinostomp jev`; ECE 0.062 *theirs* on 24 examples) |
+| Constrained optimizer + S1 features | task / exactness / external-evidence | Controller owns SLO/quality floors; fail-open local features; exactness never overrides capability | slo-router (license null; p95 **77.93 → 490.38 ms** same routes *theirs*; 3/8 label disagreements did not change routes; eight-row demo is not a benchmark) |
+| Effect-based shell gate | Choice allow/deny + nine independent risk Nouls | Fast-allow/deny <1 ms; operator-owned minConfidence/riskThreshold; fail-closed | construct-auto-classifier (Apache-2.0; Jev **0** dangerous / 975; every chat model leaked 16–104; privilege ≠ verdict) |
+| Attention filter / human-review VOI | Per-file need-a-look / kind / debris Nouls | Never blocks the agent; never edits; never green unless sure | jev-lens (MIT; `JEV_LENS_GREEN` 0.9) + jev-lens.nvim (MIT; popup only, no key). Distinct from jev-gates |
 | Evidence-packet explorer | Rank BM25 shortlist; packet source_of_truth / tests / callers | Index once; agent still reads cited files; read-only | jev-semantic-explorer / jevex (1/8→6/8 n=8 *theirs*; HitFile 0.233 diagnostic) |
 | Meaning-grep | Per-line Noul; AND/OR/NOT in code | Thresholds / `--level`; JP↔EN; name collision with Semgrep SAST | jev-semgrep (MIT LICENSE; 0.94/0.98 *theirs*) |
 | Active-learning triage | Confidence routes accept / teacher / human | Soft-label full distributions; real outcomes stay training targets; do **not** distill Jev as teacher | jev-triage (MIT; ~68% ceiling anti-pattern) |
+| Evaluation-model-first SDK | predicate / classifier / rubric as data | check / evaluate / filter / partition / rank; cancellable; never auto-retry | sysone-help/sysone (MIT TS; first adapter Jev via Vercel AI Gateway). **Not** hraness/sysone (loopback gateway) |
 
 On-device / Home Assistant / mobile are newly-feasible via the economics
 inversion, not proven ports of every app. Named placements this hour

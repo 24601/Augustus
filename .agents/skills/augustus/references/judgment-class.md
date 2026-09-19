@@ -594,6 +594,14 @@ License null this pass. Do not copy uv / Modal (`notes.md` §60).
 routes hosted Jev + local OpenJev/NanoJev/Mini-Jev; does not
 install weights; credential from env never config. Early; no
 auth/streaming/non-loopback.
+**Evaluation-model-first TS library (name collision; MED
+2026-09-18 ~23:40):**
+[`sysone-help/sysone`](https://github.com/sysone-help/sysone) —
+MIT. `predicate` / `classifier` / `rubric` as pure data;
+`check` / `evaluate` / `filter` / `partition` / `rank`;
+cancellable; never auto-retry. First adapter = Jev via Vercel
+AI Gateway. Independent of TypeSafe/Vercel. **Not** the
+hraness loopback gateway. Do not copy npm (`notes.md` §63).
 **Local MLX PCD vs Jev (Empirical as their n=50 table,
 2026-09-18 ~21:39):**
 [`mallahyari/system-one-benchmark`](https://github.com/mallahyari/system-one-benchmark)

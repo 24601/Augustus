@@ -6547,3 +6547,226 @@ authorization; judgment ≠ permission; instrument not score);
 `toolbox-mapping.md`; `agent-self-assessment.md`;
 `formal-methods.md` (dinostomp anti-soundness-theater). No
 wrapper.
+
+## 63. Constrained optimizer + S1 features (slo-router), privilege ≠ verdict (construct-auto-classifier), attention/VOI never-block (jev-lens) (2026-09-18 ~23:40 Boise)
+
+America/Boise ~23:40 = 2026-09-19T05:40Z. Docs-only fold into
+open PR #2 (`cursor/augustus-store-envelope-00b4`). Not a
+competing PR. Archer 27B drop still **WATCH**. Identity lock vs
+`typesafe-ai` / `tenbin` / `decision-first` holds. No wrapper,
+no uvicorn / OpenRouter / bun / agy / marketplace / key-file
+how-to. No invented metrics. Do not re-fold §50–§62. TypeSafe
+Jev is the documented exemplar, not the monopoly. Augustus
+stays how-to-apply / mental model / architecture / toolbelt +
+jevals/Harbor practice — **not** a thin Jev skill.
+Backend-agnostic categorization/scoring/decision-only class.
+
+Watch archive path `/workspace/jev-archive/2026-09-18/234027`
+is **not present** on this VM (searched `/workspace`,
+`/home/ubuntu`, `/opt`, `/tmp`). Receipts this pass are live
+GitHub READMEs + `gh api` metadata + Hugging Face card
+(2026-09-19 ~05:50Z). Causes below are **hunches**, not
+promoted Contract.
+
+Three HIGH **mental-model / measurement** signals: System One
+on the **feature side of a constrained optimizer** (never the
+sole hard gate on the hot path), with a Harbor-style negative
+on sync Jev latency; an **effect-based** shell safety gate
+where privilege is not a verdict and independent risk Nouls
+compose with Choice (fail-closed; 0 dangerous allowed for
+Jev); System One as an **attention filter / VOI for human
+review** that never blocks the agent and never says green
+unless sure. Optional MED toolbelt only. Curated census
+recorded; X MCP still flapping.
+
+### HIGH
+
+1. **[`zeeshan8281/slo-router`](https://github.com/zeeshan8281/slo-router)**
+   (Python; license **null**; created 2026-09-19T05:32:45Z; 0★
+   this pass; GitHub `size` 0 this pass — files are live:
+   `slo_router/`, `results/`, `tests/`). OpenAI-compatible
+   proxy. Jev 1.13 via OpenRouter alpha
+   `POST /api/alpha/decisions` pinned `typesafe/jev-1.13`
+   supplies bounded semantic features: **task / exactness /
+   external-evidence**. A constrained controller picks the
+   cheapest backend meeting health / context / tools / quality
+   floor / predicted SLO-success probability. Exactness
+   **raises the quality floor; never overrides context or
+   capability**. Fail-open: timeout / 429 / malformed /
+   overload → deterministic local features. Header
+   `X-SLO-Feature-Source`: `jev` / `jev_cache` /
+   `lexical_fallback`. Policies: `fixed_cheapest`,
+   `fixed_strongest`, `quality_only`, `slo_no_jev`, `slo`.
+   Distinct from
+   [`rajdhakad9826/routeKit`](https://github.com/rajdhakad9826/routeKit)
+   (Jev estimates requirements; code maps — **Hypothesis**
+   until measured) and
+   [`affirmitv/bitrate-advisor`](https://github.com/affirmitv/bitrate-advisor)
+   (soft affinity inside a hard cap). Same **assignment-hybrid
+   shape**: judgment is a cost/quality *feature*; the solver
+   owns floors. Do not copy uvicorn / OpenRouter how-to. Do
+   not present the eight-row `demo.jsonl` as a model
+   benchmark.
+
+   **Measured live Jev analysis *theirs* (19 Sep 2026; sim
+   backends + real Jev; integration, not a real-model quality
+   claim):**
+
+   | Policy | Features | Accuracy | Routes | p95 E2E |
+   |---|---|---|---|---|
+   | SLO, no Jev | local | 100% | fast 4 / strong 4 | **77.93 ms** |
+   | SLO + Jev | live Jev | 100% | fast 4 / strong 4 | **490.38 ms** |
+
+   Same routes, same accuracy; p95 **~6.3×**. Jev feature
+   latency p50 **453.58 ms** / p95 **1257.50 ms**. 16/16 Jev
+   calls succeeded; no lexical fallbacks. Jev disagreed on
+   **3/8** task labels (`code_debugging` vs `reasoning`,
+   arithmetic → `other`) and **did not change routes** —
+   exactness still sent arithmetic to the strong backend.
+   Author conclusion: keep Jev **out of the synchronous path
+   for this workload** unless a larger real-model matrix
+   shows quality gains that justify hundreds of ms tail.
+   Includes a counterfactual matrix + arrival-rate replay
+   contract.
+
+   **Hunch / Augustus takeaway:** put System One on the
+   **feature side of a constrained optimizer**, never as the
+   sole hard gate on the hot path. Harbor-style measurement
+   of decision-model **latency cost** is mandatory before you
+   claim “Jev routing.” Exactness raising a quality floor
+   must not override capability/context checks (signal-
+   detection + VOI). Fail-open to local features is the
+   correct polarity when the act is *picking a backend*, not
+   authorizing an irreversible side effect.
+
+2. **[`godspede/construct-auto-classifier`](https://github.com/godspede/construct-auto-classifier)**
+   (TypeScript; Apache-2.0; created 2026-09-18T22:27:03Z; 0★;
+   size 114). Effect-based shell safety gate for OpenCode /
+   Antigravity. Fast-deny / fast-allow **<1 ms**, then Jev
+   (default) or a chat LLM. Jev: one Choice allow/deny +
+   **nine independent risk Nouls** (`data_loss`, `secrets`,
+   `remote_code`, `security_control`, `offensive`,
+   `shared_state`, `git_plumbing`, `system_state`,
+   `connections`). Allow only if Choice allow at
+   `jev.minConfidence` (0.6) **and** every risk below
+   `jev.riskThreshold` (0.7). Missing / low-conf / high-risk
+   / failed call = **deny (fail-closed)**. Operator-owned
+   dials. **Privilege is not a verdict** (`sudo status` can
+   be a safe read). Distinct from toolgate / greenlight /
+   jevgate / pi-jev-approver / specpi-jev-guard / interlock.
+   Pair with
+   [`collapseindex/dinostomp`](https://github.com/collapseindex/dinostomp)
+   (audit the instrument before trusting scores) and
+   [`SemetricLabs/omp-greenlight`](https://github.com/SemetricLabs/omp-greenlight)
+   (operator-owned dial). Do not copy bun / agy hook /
+   opencode plugin how-to.
+
+   **Certification *theirs* (18–19 Sep 2026):** main 113
+   (Opus-written, used for tuning) + blind 82 (Qwen3.5 397B,
+   frozen); 5 passes; **975 decisions/model**. Bar = **zero
+   dangerous commands allowed**. Jev: **0** dangerous
+   allowed, 100% caught, 99.5% decisions correct,
+   **$0.047/1k**. Every chat model leaked dangerous cmds
+   (16–104). Jev is the only certified model. Cite 0/975 as
+   *their* certification through the whole gate, not a
+   Harbor taskset and not a class ranking.
+
+   **Hunch:** privilege ≠ verdict. Effect semantics +
+   independent risk questions compose with Choice. Formal-
+   methods angle: **contracts on effects, not surface
+   tokens**. Fast structural prove ∩ remainder judge
+   (`mappings.md` §18) with fail-closed polarity on the
+   *execution* act (contrast jevgate cannot-block).
+
+3. **[`rashedInt32/jev-lens`](https://github.com/rashedInt32/jev-lens)**
+   (JavaScript; MIT; created 2026-09-19T04:46:01Z; 0★; size
+   49 this pass) + companion
+   **[`rashedInt32/jev-lens.nvim`](https://github.com/rashedInt32/jev-lens.nvim)**
+   (Lua; MIT; created 2026-09-19T04:47:11Z; 0★; size 20).
+   Claude Code stop-hook: calibrated “do I need to look /
+   which files / strip debris?” via Jev Nouls. SessionStart
+   snapshot, UserPromptSubmit, PostToolUse, Stop (background
+   judge; returns at once). Per-file: need a look / kind /
+   which prompt; debris questions. **Never blocks** Claude,
+   **never edits** files, **never says green unless sure**
+   (`JEV_LENS_GREEN` 0.9). Shadow mode recommended first
+   week. Distinct from
+   [`rashedInt32/jev-gates`](https://github.com/rashedInt32/jev-gates)
+   (stops writes) and from
+   [`egma-ai/jev-reviewer`](https://github.com/egma-ai/jev-reviewer)
+   (PR attention ≠ correctness — same *attention* hole,
+   different surface). nvim popup only: no API, no key;
+   optional strip is operator-confirmed and refuses dirty
+   buffers. Do not copy marketplace / key-file how-to.
+
+   **Hunch:** System One as **attention filter / VOI for
+   human review**, not a permission gate. Complements
+   skill-broker (Jev never grants access) and omp-greenlight
+   (operator owns the bar). Decision-theory: minimize
+   expected human cost under **false-green** risk. Fail
+   polarity: the agent is never blocked (fail-open for the
+   *agent's* continue); “skip it / green” is fail-closed for
+   the *human's* skip.
+
+### MED (toolbelt; brief)
+
+- **[`sysone-help/sysone`](https://github.com/sysone-help/sysone)**
+  (TypeScript; MIT; created 2026-09-19T05:37:15Z; 0★; GitHub
+  `size` 0 this pass — README is live). Provider-agnostic TS
+  library: `predicate` / `classifier` / `rubric` as **pure
+  data**; `check` / `evaluate` / `filter` / `partition` /
+  `rank`; first adapter = Jev via Vercel AI Gateway; explicit
+  cancellable, **never auto-retry**. Evaluation-model-first
+  SDK shape. Independent of TypeSafe/Vercel. **Name
+  collision** with
+  [`hraness/sysone`](https://github.com/hraness/sysone)
+  (loopback gateway, already folded §60) — do not merge.
+- **[`ctaxnagomi/INSTRUCT_JEV`](https://huggingface.co/datasets/ctaxnagomi/INSTRUCT_JEV)**
+  (HF dataset; MIT; `lastModified` 2026-09-19T05:06:29Z;
+  likes 0). Docs-derived Choice/Noul/Score instruct corpus.
+  **119** rows (47 choice / 51 noul / 21 score); 24 with a
+  typed question block / 7 with typed answers. Open-replica /
+  jevals seed. Credit: TypeSafe docs, compiled by DeckerGUI.
+- **[`ckaik/swift-jev`](https://github.com/ckaik/swift-jev)**
+  (language **null**; MIT; created 2026-09-19T05:21:00Z; 0★;
+  size 0). Files this pass: **LICENSE only**. Thin Swift
+  host-adapter *intent*, not a CLI product. Do not fold as
+  a working Swift SDK.
+
+### Curated status (watch numbers; not re-derived here)
+
+- Awesomejev **flat 488/21644** (not independently re-counted).
+- Live SemIf **1652★** (+11).
+- Tracker likes **42** (+1); Hub `lastModified` unchanged
+  this pass. Laya **yes**. Blackwood **ABSENT**.
+- X MCP still flapping — no new discourse archived.
+
+These are census, not placements. SemIf / Laya / Blackwood
+already have cards; no reopen. jevlike not re-counted this
+pass.
+
+### Omni / Jev-omni / Archer
+
+Still **WATCH**. No Hub weights. A measured constrained
+router, an effect-based shell gate, and an attention-filter
+stop-hook are **not** that drop.
+
+### Cross-links
+
+Cards: `applied-mappings.md` §5 (slo-router constrained
+controller; Jev features not the sole gate), §7 (construct
+effect-gate; privilege ≠ verdict); `mappings.md` §6 (slo-
+router latency-cost VOI; jev-lens human-review VOI), §7
+(exactness raises floor, does not override capability;
+privilege ≠ verdict), §8 (effect contracts; attention ≠
+permission), §15 (slo-router Empirical as assignment-hybrid
+*shape*), §18 (construct fast-allow/deny prove ∩ remainder);
+`mixed-architecture.md` (fail table + gallery);
+`validation.md` (slo-router 77.93→490.38 same routes;
+construct 0 dangerous / 975; INSTRUCT_JEV seed);
+`faq.md` (Jev not sole hard gate; privilege ≠ verdict;
+attention filter not permission); `mental-models.md`;
+`methods-catalog.md`; `toolbox-mapping.md`;
+`agent-self-assessment.md` (construct fail-closed pre-gate;
+jev-lens Stop never blocks); `formal-methods.md` (contracts
+on effects, not tokens). Hunches labeled. No wrapper.

@@ -443,6 +443,33 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   488/21644; SemIf 1641 (+13); jevlike 905 (+4); tracker likes
   41 (+1); Laya yes; Blackwood ABSENT; X MCP flapping
   (`pages_archived` 0). No wrapper. No invented metrics.
+- Hourly ~23:40 Boise 2026-09-18 / 05:40 UTC 2026-09-19 fold
+  (`research/notes.md` §63): Archer still Watch. Architecture
+  notes, not a uvicorn / bun / marketplace catalog. Watch
+  archive path missing on this VM; receipts from live GitHub +
+  HF. Hunches labeled. Constrained optimizer + S1 features
+  ([slo-router](https://github.com/zeeshan8281/slo-router);
+  license null; Jev task/exactness/evidence as features, never
+  the sole hot-path gate; fail-open local features; same
+  routes/accuracy; p95 **77.93 → 490.38 ms** *theirs*; eight-row
+  demo is not a benchmark). Privilege ≠ verdict
+  ([construct-auto-classifier](https://github.com/godspede/construct-auto-classifier);
+  Apache-2.0; effect-based shell gate; fast-allow/deny then Jev
+  Choice + independent risk Nouls; fail-closed; Jev **0**
+  dangerous / 975; every chat model leaked 16–104; operator-owned
+  dials). Attention filter / VOI for human review
+  ([jev-lens](https://github.com/rashedInt32/jev-lens) +
+  [jev-lens.nvim](https://github.com/rashedInt32/jev-lens.nvim);
+  never blocks the agent; never edits; never green unless sure).
+  MED: [sysone-help/sysone](https://github.com/sysone-help/sysone)
+  (evaluation-model-first TS SDK; **not** hraness/sysone gateway);
+  [INSTRUCT_JEV](https://huggingface.co/datasets/ctaxnagomi/INSTRUCT_JEV)
+  (119 rows; 47/51/21; jevals seed);
+  [swift-jev](https://github.com/ckaik/swift-jev) (LICENSE-only
+  this pass; not a CLI product). Census: Awesomejev 488/21644;
+  SemIf **1652** (+11); tracker likes **42** (+1); lastModified
+  unchanged; Laya yes; Blackwood ABSENT; X MCP flapping. No
+  wrapper. No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

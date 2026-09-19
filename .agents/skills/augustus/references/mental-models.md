@@ -524,6 +524,9 @@ Use these as *existence proofs of a position*. Write your own card.
 | Permission vs probability | auto-approve a gated tool call | Operator-owned criterion; plugin never self-tunes the bar (**Empirical**: omp-greenlight 40.9% / 0 of 94 *theirs*) | Not a sandbox; host deny stays above; live traffic unlabelled |
 | Judgment ≠ permission | which specialised skills to inject | Jev scores relevance; code owns grants (**Hypothesis / outline**: skill-broker) | Never broaden access on Jev failure; not a production recipe |
 | Eval integrity / instrument | is this eval's score trustworthy | Audit data/scorer/runs/claims; test a Jev question like an if (**Empirical**: dinostomp; ECE 0.062 *theirs* on 24) | 99 of 189 findings against itself; not a Harbor taskset |
+| Constrained optimizer + S1 features | which backend meets quality + SLO at min cost | Judgment as a *feature*; solver owns floors (**Empirical as shape / negative**: slo-router p95 77.93→490.38 same routes *theirs*) | Never the sole hot-path gate; fail-open local features; eight-row demo is not a benchmark |
+| Privilege ≠ verdict | is this shell command safe | Effect semantics + independent risk Nouls (**Empirical**: construct-auto-classifier; Jev 0 dangerous / 975; chat leaked) | Fast-allow/deny prove; operator-owned dials; fail-closed; not a keyword `sudo` filter |
+| Attention filter / human-review VOI | do I need to look at what the agent did | Per-file Nouls; never blocks the agent (**Empirical as README**: jev-lens; never green unless sure) | Not a permission gate; false-green is the costly error; distinct from jev-gates |
 
 Rejected in every domain: replacing the ledger with a vibe; replacing
 the interlock with confidence; replacing the essay with a Noul;

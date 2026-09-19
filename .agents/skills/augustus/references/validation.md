@@ -348,6 +348,9 @@ Rules:
 | Host-owned product evals | [waymode](https://github.com/mossburgh/waymode) | 24/26 public suite; 34/36 completion regression *theirs*. Bounded development evidence, not a self-driving proof |
 | OMP prompt suppression (permission vs probability) | [omp-greenlight](https://github.com/SemetricLabs/omp-greenlight) | 1,013 gated calls / 10 sessions / 8.95 h. Default **40.9%** prompts removed; **0 of 94** unsafe auto-approvals on 140-row corpus. Live traffic unlabelled. Operator owns bar. Not a sandbox. ~$0.05 / 1,013 *theirs* |
 | Jev question as if-statement (instrument not score) | [dinostomp](https://github.com/collapseindex/dinostomp) | `dinostomp jev`: accuracy, p(yes) cut, ECE, blank-input lean, rewording flips. Demo *theirs* 24 examples: 100% / ECE **0.062**. FINDINGS 189 (F 52 / D 99 / N 38); 99 against itself. Beside jevals, not a Harbor taskset |
+| SLO routing latency cost (sync Jev vs local features) | [slo-router](https://github.com/zeeshan8281/slo-router) | Live Jev vs `slo_no_jev` on sim backends. Same routes (fast 4 / strong 4) and 100% accuracy; p95 E2E **77.93 → 490.38 ms** (~6.3×). Jev feature p50 453.58 / p95 1257.50 ms. 16/16 Jev calls; no lexical fallbacks. 3/8 task-label disagreements did not change routes. Eight-row demo is **not** a benchmark. License null. *Their* integration card |
+| Effect-based shell-gate certification | [construct-auto-classifier](https://github.com/godspede/construct-auto-classifier) | Main 113 + blind 82; 5 passes; **975 decisions/model**. Jev: **0** dangerous allowed, 100% caught, 99.5% correct, $0.047/1k. Every chat model leaked 16–104 dangerous. Only Jev certified. Through the whole gate, not a Harbor taskset |
+| Docs-derived instruct seed | [INSTRUCT_JEV](https://huggingface.co/datasets/ctaxnagomi/INSTRUCT_JEV) | 119 rows (47 choice / 51 noul / 21 score); 24 typed question blocks / 7 typed answers. MIT. Open-replica / jevals seed. Not a bake-off |
 
 rh-guard is a reward-hack hook, a different surface from jevgate and
 from Abide (eval-integrity vs allowlist-remainder vs project soft
@@ -565,6 +568,27 @@ checks the instrument, not just the score. FINDINGS 189
 demo *theirs* (24 examples): 100% accuracy, ECE **0.062**,
 blank 'no' at 0.81, 0/60 rewording flips. Beside jevals,
 not a Harbor taskset. Do not copy pip (`notes.md` §62).
+**SLO routing latency cost (Empirical as live analysis
+*negative* for sync Jev; 2026-09-18 ~23:40).**
+[slo-router](https://github.com/zeeshan8281/slo-router):
+sim backends + real Jev. SLO no-Jev p95 **77.93 ms** vs
+SLO+Jev p95 **490.38 ms**; accuracy 100% both; same routes.
+Jev disagreed on 3/8 task labels and did not change routes.
+Author: keep Jev off the synchronous path for this
+workload. Eight-row demo is not a benchmark. Harbor-style
+ablation of decision-model latency. License null. Do not
+copy uvicorn (`notes.md` §63).
+**Effect-gate certification (Empirical as their report;
+not a Harbor taskset).**
+[construct-auto-classifier](https://github.com/godspede/construct-auto-classifier):
+975 decisions/model; Jev **0** dangerous allowed; every
+chat model leaked 16–104. Privilege ≠ verdict. Fail-closed.
+Pair with dinostomp (instrument) before treating 0/975 as
+class truth. Do not copy bun (`notes.md` §63).
+**Instruct seed (feedstock, not a score):**
+[INSTRUCT_JEV](https://huggingface.co/datasets/ctaxnagomi/INSTRUCT_JEV)
+119 rows (47/51/21); 24 typed questions / 7 typed answers.
+jevals-shaped open replica. MIT.
 
 **Harbor-adjacent stdout prune (Empirical as README / evals README
 behavior, not a full Terminal-Bench ranking; 2026-09-18 ~17:15).**

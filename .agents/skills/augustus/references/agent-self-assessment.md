@@ -32,6 +32,13 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    [omp-greenlight](https://github.com/SemetricLabs/omp-greenlight)
    — auto-approve is a criterion the **operator** owns; Jev
    is not a grant. Not a sandbox (`notes.md` §62).
+   **Effect-based shell pre-gate (2026-09-18 ~23:40):**
+   [construct-auto-classifier](https://github.com/godspede/construct-auto-classifier)
+   — fast-allow/deny then Jev Choice + independent risk
+   Nouls. Privilege ≠ verdict. Fail-closed on missing /
+   low-conf / high-risk. Jev 0 dangerous / 975 *theirs*.
+   Distinct from toolgate / greenlight / interlock
+   (`notes.md` §63).
    **Email / ticket leftover cascade (2026-09-18 ~20:43):**
    [jav-email-cascade](https://github.com/skiingfalcon/jav-email-cascade)
    — typed decide, policy auto/review/llm, generator only on
@@ -57,6 +64,14 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    session**; keyword retriever, not semantic; below `JEV_FIRM` 0.6
    never blocks; true-but-unread still flags unsupported
    (`notes.md` §51). Anti-hallucinated-done, not a test runner.
+   **Attention-filter Stop (never blocks the agent;
+   2026-09-18 ~23:40):**
+   [jev-lens](https://github.com/rashedInt32/jev-lens) —
+   calibrated “do I need to look?” in the background; the
+   Stop hook returns at once. Never edits files; never says
+   green unless sure. **Hunch:** VOI for human review, not a
+   permission gate. Distinct from jev-gates (stops writes)
+   (`notes.md` §63).
    Computer-use cousin of the same honesty:
    [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
    — loop `DONE` is termination, not verified success; apps inspect
