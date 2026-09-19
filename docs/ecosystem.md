@@ -634,6 +634,28 @@ Architecture / mental models / Harbor-jevals / toolbelt, not a `uv` / `npx` / pl
 
 Census **not re-derived**. Archer still NOT landed; tracker likes **50** lastModified UNCHANGED 2026-09-19T18:37:18Z; SemIf 1873 (+7); jevlike 969 (+2); TypeAR 10 flat; Awesomejev 561/27007 flat.
 
+### SIGNAL ~15:23 Boise 2026-09-19 / 21:23 UTC (jevcache + jev-align)
+
+Architecture / mental models / Harbor-jevals / toolbelt, not a `uv` / `npx` / `curl | sh` catalog. `notes.md` §93. Skip Archer. Quote READMEs. Soft Noul ≠ hard safety. Do **not** re-fold 1441 / §92. Fresh PR; never reopen merged #3 / #4 / #5 / #7 / #8 / **#9**. rh-guard owns HIT-as-truth and training-score auto-accept; Augustus owns placement.
+
+- **hyperspaceai/jevcache** — license **null**; **8★** this pass, SIGNAL ★6; README SHA `7c2abe99`; HEAD `a211d13`; size 232. fingerprint after redact; recall vs decide; publish fingerprints+answers; CI replay as Harbor cousin. Cache hit ≠ correctness. hyperspaceai/jevcache ≠ kushals256/jevcache. Not Hyperspace KV attention cache. Do not copy `curl | sh`.
+- **sutro-sh/jev-align** — Apache-2.0; **60★** this pass, SIGNAL ★56; forks **7**; README SHA `363fccb7`; HEAD `49753df`; size 3296. human labels only; score never auto-accepts; production capture flywheel. sutro-sh/jev-align ≠ caiovicentino/jev-align. Do not copy `uv` / keys.
+
+Census **not re-derived**. Archer still NOT landed.
+
+### SIGNAL ~15:32–15:35 Boise 2026-09-19 / 21:35 UTC (enzyme + JA ModernBERT + Gemma/Nemotron/djev-dev/Laya essay)
+
+Architecture / mental models / Harbor-jevals / toolbelt, not a `uv` / `npx` / `curl | bash` catalog. `notes.md` §94. Skip Archer. Quote READMEs. Soft Noul ≠ hard safety. Do **not** re-fold jevcache/jev-align / §93. Fresh PR; never reopen merged #3 / #4 / #5 / #7 / #8 / #9 / **#10**. rh-guard owns guidance-as-hook, unofficial-local-as-Jev, hosted-bootstrap silent FALLBACK, LFM-default-as-JA-softmax, Nemotron “not calibrated replacement”, and Laya confidence-without-competence; Augustus owns placement.
+
+- **byenzyme/enzyme** — license **null**; **63★** this pass, SIGNAL ★62; README SHA `9af7c570`; HEAD `c91d6b5`; size 391718; homepage https://memory.enzyme.garden. guidance ≠ hook; catalysts ≠ summaries; compile-time System One; hosted bootstrap ≠ silent TypeSafe. ~350×/1000× *theirs* (GitHub description). **≠** enzymejs/enzyme. Do not copy `curl | bash`.
+- **argos1111/modernbert-ja-310m-jev** — CC-BY-SA-4.0; **2 likes**; sha `07cda235`. unofficial ≠ TypeSafe; format_version modernbert-jev/1. JGLUE JNLI 92.62% / JComQA 92.40% *theirs*. Runtime **Argos1111/jev_local** (**14★**; README SHA `ee7b536a`; HEAD `8ccc04d`). Dual-backend: LFM default (vision) ≠ JA ModernBERT text-only. Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev. LFM default ≠ ModernBERT backend. Do not copy `setup_modernbert.sh`.
+- **@googlegemma** — [status/2101069861598482817](https://x.com/googlegemma/status/2101069861598482817). DiffusionGemma-as-Jev ~0.2s DGX Spark *theirs*. Engagement ephemeral. Not a Harbor bake-off.
+- **pst2154/Nemotron_Jev** — license **null**; **6★**; README SHA `f2f3d052`; HEAD `983cc29` on `feat/nemotron-decision-lab`. Nemotron ≠ TypeSafe Jev; not a calibrated replacement. Do not copy docker.
+- **Davipar/djev-dev** — Apache-2.0; **2★**; README SHA `6d59d020`; HEAD `3ce907e`. djev-dev complements djev-spark; images as Choice options. Native image input. **≠** typesafe-computer-use.
+- **Laya product essay** — https://laya.convaiinnovations.com/. Laya essay numbers *theirs*. Router/OOD confidence (Khmer 0.000 @ 0.952). Already §76 via NandhaKishorM/laya. Not a new species. Do not copy `pip install laya`.
+
+Census **not re-derived**. Archer still NOT landed.
+
 ### Hourly ~15:41 Boise 2026-09-19 / 21:41 UTC (1541 HIGH)
 
 Architecture / mental models / Harbor-jevals / toolbelt, not a `uv` / `npx` / `go install` / plugin-marketplace catalog. `notes.md` §95. Skip Archer. Quote READMEs. Soft Noul ≠ hard safety. Do **not** re-fold 1441 / §92. Fresh PR; never reopen merged #7 / **#8** / **#9** / **#10** / **#12**; do not re-fold §93 / §94. 0★ HIGHs still get real cards. rh-guard owns the injection-firewall / CI-gate cousins; Augustus owns placement.

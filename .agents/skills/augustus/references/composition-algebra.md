@@ -597,6 +597,54 @@ datasets — every gate is a per-dataset measurement (see validation.md).
 
 Hourly 1441 items 71–79 (`notes.md` §92). Do **not**
 re-fold 1347 items 62–70. soft Noul ≠ hard safety.
+80. **Decision ledger / memoization**
+    (hyperspaceai/jevcache): memoize typed
+    decisions. fingerprint after redact.
+    recall vs decide. publish fingerprints+answers.
+    CI replay as Harbor cousin. Cache hit ≠
+    correctness. hyperspaceai/jevcache ≠
+    kushals256/jevcache. Not Hyperspace KV
+    attention cache. Full cards: `mappings.md` §6,
+    `faq.md`.
+81. **GEPA alignment loop** (sutro-sh/jev-align):
+    GEPA + System One; inverse of Jev-as-metric.
+    human labels only. score never auto-accepts.
+    production capture flywheel. sutro-sh/jev-align ≠
+    caiovicentino/jev-align. Full cards:
+    `optimizer-integration.md`, `faq.md`.
+
+SIGNAL §93 items 80–81 (`notes.md` §93). Do **not**
+re-fold 1441 items 71–79. Unique fragments
+(consecutive): fingerprint after redact; recall vs decide; publish fingerprints+answers; CI replay as Harbor cousin; Cache hit ≠ correctness; hyperspaceai/jevcache ≠ kushals256/jevcache; human labels only; score never auto-accepts; production capture flywheel; sutro-sh/jev-align ≠ caiovicentino/jev-align.
+soft Noul ≠ hard safety.
+82. **Compile-time System One / questions-as-index**
+    (byenzyme/enzyme): Jev at compile; runtime
+    catalysts. guidance ≠ hook. catalysts ≠
+    summaries. compile-time System One. Soft
+    guidance ≠ hard gate. hosted bootstrap ≠
+    silent TypeSafe. Full cards: `mappings.md`
+    §6, `faq.md`.
+83. **Unofficial JA ModernBERT cross-encoder**
+    (argos1111/modernbert-ja-310m-jev): pair
+    scoring → softmax. unofficial ≠ TypeSafe.
+    format_version modernbert-jev/1.
+    Argos1111/jev_local ≠ us/jev-local ≠
+    kunchenguid/local-jev. LFM default ≠
+    ModernBERT backend. Full cards:
+    `judgment-class.md`, `faq.md`.
+84. **NAR class legitimacy / multimodal /
+    Router-OOD** (Gemma X / Nemotron_Jev /
+    djev-dev / Laya essay): Nemotron ≠ TypeSafe
+    Jev. not a calibrated replacement. djev-dev
+    complements djev-spark. images as Choice
+    options. Laya essay numbers *theirs*.
+    Router/OOD confidence. Full cards:
+    `judgment-class.md`, `faq.md`.
+
+SIGNAL §94 items 82–84 (`notes.md` §94). Do **not**
+re-fold §93 items 80–81. Unique fragments
+(consecutive): guidance ≠ hook; catalysts ≠ summaries; compile-time System One; unofficial ≠ TypeSafe; format_version modernbert-jev/1; Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev; LFM default ≠ ModernBERT backend; Nemotron ≠ TypeSafe Jev; not a calibrated replacement; djev-dev complements djev-spark; images as Choice options; Laya essay numbers *theirs*; Router/OOD confidence; hosted bootstrap ≠ silent TypeSafe.
+soft Noul ≠ hard safety.
 
 Hourly 1541 unique consecutive fragments:
 difficulty + policy thresholds + JSONL trace;

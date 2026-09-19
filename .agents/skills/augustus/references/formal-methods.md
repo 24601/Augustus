@@ -719,6 +719,39 @@ Hard-gating Confirm as optional, pasting Foq 100%/ECE 0.2% /
 Reranker 0.1667 / 400 ms / akpsahan vs-Jev as class ceilings,
 or treating Qwen3.8-27B as Archer is the same theater.
 
+SIGNAL §93 envelopes (`notes.md` §93), still outside
+the extras template: fingerprint after redact;
+recall vs decide; publish fingerprints+answers;
+CI replay as Harbor cousin; Cache hit ≠ correctness;
+hyperspaceai/jevcache ≠ kushals256/jevcache;
+human labels only; score never auto-accepts;
+production capture flywheel; sutro-sh/jev-align ≠
+caiovicentino/jev-align.
+Soft Noul ≠ hard safety: a HIT and a training
+score are **sensors**. Treating a ledger HIT as
+correctness or auto-accepting GEPA because the
+score rose is the same theater.
+
+SIGNAL §94 envelopes (`notes.md` §94), still outside
+the extras template: guidance ≠ hook; catalysts ≠
+summaries; compile-time System One; unofficial ≠
+TypeSafe; format_version modernbert-jev/1;
+Argos1111/jev_local ≠ us/jev-local ≠
+kunchenguid/local-jev; LFM default ≠ ModernBERT
+backend; Nemotron ≠ TypeSafe Jev;
+not a calibrated replacement; djev-dev complements
+djev-spark; images as Choice options; Laya essay
+numbers *theirs*; Router/OOD confidence;
+hosted bootstrap ≠ silent TypeSafe.
+Soft Noul ≠ hard safety: `when asked`, unofficial
+local p, Nemotron p, and Laya 0.85 are
+**sensors**. Hard-gating catalyst similarity as
+deny, treating unofficial JA ModernBERT as TypeSafe
+calibration, treating enzyme hosted bootstrap as
+silent TypeSafe, collapsing LFM default into JA
+softmax, or treating Nemotron as a calibrated
+replacement is the same theater.
+
 1541 envelopes (`notes.md` §95), still outside the extras
 template: difficulty + policy thresholds + JSONL trace;
 jev-codex-pilot model + reasoning depth;

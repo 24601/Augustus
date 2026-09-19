@@ -863,6 +863,76 @@ placement. Skip Archer.
 Soft Noul ≠ hard safety on every cluster.
 soft Noul ≠ hard safety.
 
+## Apply SIGNAL jevcache/jev-align (`notes.md` §93)
+
+Same pillars, two placements. Do **not** re-fold
+1441 / §92. Fresh PR; never reopen merged #3–#9.
+rh-guard owns HIT-as-truth and training-score
+auto-accept as gate cousins; Augustus owns
+placement. Skip Archer.
+
+Unique fragments (consecutive): fingerprint after redact; recall vs decide; publish fingerprints+answers; CI replay as Harbor cousin; Cache hit ≠ correctness; hyperspaceai/jevcache ≠ kushals256/jevcache; human labels only; score never auto-accepts; production capture flywheel; sutro-sh/jev-align ≠ caiovicentino/jev-align
+
+1. **Decision ledger / memoization** —
+   fingerprint after redact.
+   recall vs decide.
+   publish fingerprints+answers.
+   CI replay as Harbor cousin.
+   Cache hit ≠ correctness.
+   hyperspaceai/jevcache ≠ kushals256/jevcache.
+   memoize typed decisions; VOI of cache hit.
+2. **GEPA alignment loop** —
+   human labels only.
+   score never auto-accepts.
+   production capture flywheel.
+   sutro-sh/jev-align ≠ caiovicentino/jev-align.
+   GEPA + System One.
+
+Soft Noul ≠ hard safety on every cluster.
+A HIT is a sensor, not a proof. A training score
+is a sensor, not an accept.
+
+## Apply SIGNAL enzyme / JA ModernBERT / Gemma (`notes.md` §94)
+
+Same pillars, three placements. Do **not** re-fold
+jevcache/jev-align / §93. Fresh PR; never reopen
+merged #3–#10. rh-guard owns guidance-as-hook,
+unofficial-local-as-Jev, hosted-bootstrap silent
+FALLBACK, LFM-default-as-JA-softmax, Nemotron “not
+calibrated replacement”, and Laya
+confidence-without-competence as gate cousins;
+Augustus owns placement. Skip
+Archer.
+
+Unique fragments (consecutive): guidance ≠ hook; catalysts ≠ summaries; compile-time System One; unofficial ≠ TypeSafe; format_version modernbert-jev/1; Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev; LFM default ≠ ModernBERT backend; Nemotron ≠ TypeSafe Jev; not a calibrated replacement; djev-dev complements djev-spark; images as Choice options; Laya essay numbers *theirs*; Router/OOD confidence; hosted bootstrap ≠ silent TypeSafe
+
+1. **Compile-time System One / questions-as-index** —
+   guidance ≠ hook.
+   catalysts ≠ summaries.
+   compile-time System One.
+   Soft guidance ≠ hard gate. Life/PKM atlas.
+2. **Unofficial JA ModernBERT cross-encoder** —
+   unofficial ≠ TypeSafe.
+   format_version modernbert-jev/1.
+   Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev.
+   Pair scoring → softmax. LFM default ≠ ModernBERT backend.
+   The Hub card is text-only; jev_local default is LFM
+   (including vision).
+3. **NAR class legitimacy / multimodal / Router-OOD** —
+   Nemotron ≠ TypeSafe Jev.
+   not a calibrated replacement.
+   djev-dev complements djev-spark.
+   images as Choice options.
+   Laya essay numbers *theirs*.
+   Router/OOD confidence.
+
+Soft Noul ≠ hard safety on every cluster.
+`when asked` is a sensor, not a deny. Unofficial
+local p is a sensor, not TypeSafe calibration.
+Nemotron p and Laya 0.85 remain sensors.
+hosted bootstrap ≠ silent TypeSafe. LFM default ≠
+ModernBERT backend.
+
 Formal methods **compose** with scoring. A Noul is a
 SENSOR. Hard-gating it as CI pass / HA write / authorship
 seal is the same theater as jev-gate §79.

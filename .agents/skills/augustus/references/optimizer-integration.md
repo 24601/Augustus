@@ -207,6 +207,20 @@ weak+uncertain axis; CEM samples deterministic edit ops).
 do not quote mock-mode quality. Remix in jev2ui is the
 same idea without a loop (`notes.md` §87).
 
+**GEPA alignment loop (Empirical as README; inverse
+of Jev-as-metric; 2026-09-19 ~21:23):**
+[sutro-sh/jev-align](https://github.com/sutro-sh/jev-align)
+(Apache-2.0; **60★** this pass, SIGNAL ★56; HEAD
+`49753df`; README SHA `363fccb7`). GEPA edits the
+*function definition*; human taste is the accept
+gate. human labels only. score never auto-accepts.
+production capture flywheel. sutro-sh/jev-align ≠
+caiovicentino/jev-align. GEPA + System One. This
+is the inverse of position 8 (Jev as optimizer
+metric): here GEPA searches definitions and Jev
+is the cheap executor being aligned. Do not copy
+`uv` / keys (`notes.md` §93).
+
 **Test** (any claimed integration must show): labeled-set agreement Jev vs
 PAW output on held-out data, per-class cost/latency comparison, and a drift
 measurement over a week of live inputs.

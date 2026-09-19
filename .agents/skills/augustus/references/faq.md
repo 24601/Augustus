@@ -2618,6 +2618,121 @@ No, and no. awesome-jev-use-cases catalog. Unofficial. **≠** awesomejev.com ce
 
 No, and no. Nibir1/typesafe-go ≠ official. Analyzers catch bad questions at build time. **≠** rust community SDK. soft Noul ≠ hard safety. `notes.md` §92.
 
+## Treat a ledger HIT as correctness?
+
+No. Cache hit ≠ correctness. A HIT is a sensor
+(same schema+state saw this answer), not a proof
+the answer is right. Sharing foreign fingerprints
+as calibrated truth is trust theater. rh-guard
+owns the HIT-as-truth gate cousin; Augustus owns
+placement. Unique fragments (consecutive): fingerprint after redact; recall vs decide; publish fingerprints+answers; CI replay as Harbor cousin; Cache hit ≠ correctness; hyperspaceai/jevcache ≠ kushals256/jevcache; human labels only; score never auto-accepts; production capture flywheel; sutro-sh/jev-align ≠ caiovicentino/jev-align
+`notes.md` §93.
+
+## Collapse hyperspaceai/jevcache into kushals256/jevcache?
+
+No. hyperspaceai/jevcache ≠ kushals256/jevcache.
+Hyperspace is decision-space memoization
+(fingerprint after redact; recall vs decide;
+publish fingerprints+answers; CI replay as Harbor
+cousin). kushals256 is same-intent LLM-completion
+admit (0 FP/100 *theirs*). Not Hyperspace KV
+attention cache. Do not copy `curl | sh`.
+`notes.md` §93.
+
+## Auto-accept a GEPA proposal because the training score rose?
+
+No. score never auto-accepts. human labels only.
+A higher training score is a sensor, not an
+accept. Soft Noul ≠ hard safety. rh-guard owns
+the training-score auto-accept gate cousin
+(Sutro already refuses). `notes.md` §93.
+
+## Is sutro-sh/jev-align caiovicentino/jev-align?
+
+No. sutro-sh/jev-align ≠ caiovicentino/jev-align.
+Sutro is a GEPA definition-optimizer with a human
+taste gate and a production capture flywheel.
+caiovicentino (MIT JS) is a calibrated alignment
+*verifier* (pass/flag/block heads). Not Archer.
+Not a PreToolUse hard gate. Do not copy `uv` /
+keys. `notes.md` §93.
+
+Unique fragments (consecutive): guidance ≠ hook; catalysts ≠ summaries; compile-time System One; unofficial ≠ TypeSafe; format_version modernbert-jev/1; Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev; LFM default ≠ ModernBERT backend; Nemotron ≠ TypeSafe Jev; not a calibrated replacement; djev-dev complements djev-spark; images as Choice options; Laya essay numbers *theirs*; Router/OOD confidence; hosted bootstrap ≠ silent TypeSafe
+
+## Hard-gate enzyme `when asked` / catalyst similarity as PreToolUse deny?
+
+No. guidance ≠ hook. Compiled `when asked` is
+attention, not a deny. catalysts ≠ summaries.
+compile-time System One: Jev shapes the question
+program at compile; runtime retrieval is catalyst
+handles. Soft Noul ≠ hard safety. rh-guard owns
+the PreToolUse cousin. Do not copy `curl | bash`.
+hosted bootstrap ≠ silent TypeSafe.
+`notes.md` §94.
+
+## Are enzyme catalysts summaries? Collapse into jev-sift / findme?
+
+No, and no. catalysts ≠ summaries. They are
+questions the corpus is good at answering. Kinship
+with jev-sift / findme / jev-semgrep is VOI /
+search-control, not identity. Always write
+**byenzyme/enzyme**. **≠** enzymejs/enzyme.
+`notes.md` §94.
+
+## Is unofficial JA ModernBERT TypeSafe Jev? Skip format_version?
+
+No, and no. unofficial ≠ TypeSafe. format_version
+modernbert-jev/1. Card *theirs*: does not
+reproduce Jev training/accuracy. JNLI 92.62% /
+JComQA 92.40% are *theirs*. `notes.md` §94.
+
+## Is Argos1111/jev_local us/jev-local or kunchenguid/local-jev?
+
+No. Argos1111/jev_local ≠ us/jev-local ≠
+kunchenguid/local-jev. Underscore runtime.
+us/jev-local is stub-until-hf. kunchenguid is
+ONNX English measured not equivalent. **≠**
+githubnext/localjev. LFM default ≠ ModernBERT
+backend: default is LFM2.5 text/vision logprob;
+the unofficial JA checkpoint is the optional
+ModernBERT backend (text/JSON; images 422).
+Do not collapse the runtime into the Hub card.
+`notes.md` §94.
+
+## Is Nemotron_Jev a calibrated TypeSafe Jev replacement?
+
+No. Nemotron ≠ TypeSafe Jev. not a calibrated
+replacement. Dense Nemotron-Labs-Diffusion-14B
+adapter; name is the interface. 72/72 synthetic
+*theirs* is not Harbor. rh-guard owns.
+Do not copy docker. `notes.md` §94.
+
+## Treat enzyme hosted bootstrap as TypeSafe Jev? Silent FALLBACK?
+
+No. hosted bootstrap ≠ silent TypeSafe. README
+*theirs*: explicit key → local model → anonymous
+brokered free config. Name which backend answered.
+rh-guard owns the silent-FALLBACK cousin.
+`notes.md` §94.
+
+## Is djev-dev djev-spark or githubnext/localjev? Does it ship pixels as TypeSafe CU?
+
+No, and no. djev-dev complements djev-spark.
+images as Choice options (native image input;
+live camera). Complements mmastrac; no new
+weights. **≠** typesafe-computer-use (that never
+ships a screenshot for the *decision*). **≠**
+githubnext/localjev prompted JSON. `notes.md` §94.
+
+## Paste the Laya essay vs-Jev table as a new bake-off? Treat Khmer 0.952 conf as competence?
+
+No, and no. Laya essay numbers *theirs*. Already
+§76 via NandhaKishorM/laya. Router/OOD
+confidence: Khmer 0.000 @ 0.952 is
+confidence-without-competence; route before the
+forward pass. Not a new species. Do not copy
+`pip install laya`. `notes.md` §94.
+
 Unique fragments (consecutive): difficulty + policy thresholds + JSONL trace; jev-codex-pilot model + reasoning depth; keep/shadow/hybrid/reject; quarry evidence projection; Frank-ZY-Dou/awesome-jev robotics/3D/control; one-dollar-tahoe TypeSafe Jev defense eval; jevguard calibrator/cache/escape; jev-ci-selector CI shadow mode; llama-jev llama.cpp replica; petercr/jev-orchestrator ≠ FleeexCorp/jev-orchestrator; seb4ez/jevguard ≠ AseemPrasad/JevGuard ≠ pablozr/JevGuard; webNeat/llama-jev ≠ WiktorB2004/llama-index-jev
 
 ## Does jev-orchestrator pick an LLM by difficulty? Paste 0.95 as Harbor τ?

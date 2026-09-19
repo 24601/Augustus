@@ -2624,6 +2624,81 @@ calibrated decision space; (kw) enterprise reflexes;
 Harbor-jevals / SRE; (la) Laya densifies; (lb) demos
 / unofficial toolbelt.
 
+## Batch #76 (2026-09-19 ~21:23 UTC / ~15:23 Boise) — SIGNAL jevcache + jev-align
+
+Note: `research/notes.md` §93. Docs-only on a fresh PR
+off main after #9 merge `059f3670`. Never reopen merged
+#3 / #4 / #5 / #7 / #8 / **#9**. Skip Archer. Do **not**
+re-fold 1441 / §92. No invented metrics. Hunches
+labeled. Quote READMEs. Soft Noul ≠ hard safety.
+rh-guard owns HIT-as-truth and training-score
+auto-accept; Augustus owns placement.
+
+- **Decision ledger / memoization.**
+  hyperspaceai/jevcache (**8★** this pass, SIGNAL ★6;
+  HEAD `a211d13`; README SHA `7c2abe99`). fingerprint
+  after redact; recall vs decide; publish
+  fingerprints+answers; CI replay as Harbor cousin.
+  Cache hit ≠ correctness. hyperspaceai/jevcache ≠
+  kushals256/jevcache.
+- **GEPA alignment loop.** sutro-sh/jev-align
+  (**60★** this pass, SIGNAL ★56; forks **7**; HEAD
+  `49753df`; README SHA `363fccb7`). human labels
+  only; score never auto-accepts; production capture
+  flywheel. sutro-sh/jev-align ≠
+  caiovicentino/jev-align.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (lc) decision ledger /
+memoization; (ld) GEPA alignment loop.
+
+## Batch #77 (2026-09-19 ~21:35 UTC / ~15:32–15:35 Boise) — SIGNAL enzyme + JA ModernBERT + Gemma/Nemotron/djev-dev/Laya essay
+
+Note: `research/notes.md` §94. Docs-only on a fresh PR
+off main after #10 merge `30438eff`. Never reopen
+merged #3 / #4 / #5 / #7 / #8 / #9 / **#10**. Skip
+Archer. Do **not** re-fold jevcache/jev-align / §93.
+No invented metrics. Hunches labeled. Quote READMEs.
+Soft Noul ≠ hard safety. rh-guard owns
+guidance-as-hook, unofficial-local-as-Jev,
+hosted-bootstrap silent FALLBACK,
+LFM-default-as-JA-softmax, Nemotron
+“not calibrated replacement”, and Laya
+confidence-without-competence; Augustus owns
+placement.
+
+- **Compile-time System One / questions-as-index.**
+  byenzyme/enzyme (**63★** this pass, SIGNAL ★62;
+  HEAD `c91d6b5`; README SHA `9af7c570`).
+  guidance ≠ hook; catalysts ≠ summaries;
+  compile-time System One; hosted bootstrap ≠
+  silent TypeSafe. ~350×/1000× *theirs*.
+- **Unofficial JA ModernBERT cross-encoder.**
+  argos1111/modernbert-ja-310m-jev (CC-BY-SA-4.0;
+  **2 likes**; sha `07cda235`) + Argos1111/jev_local
+  (**14★**; HEAD `8ccc04d`; README SHA `ee7b536a`).
+  unofficial ≠ TypeSafe; format_version
+  modernbert-jev/1; Argos1111/jev_local ≠
+  us/jev-local ≠ kunchenguid/local-jev; LFM
+  default ≠ ModernBERT backend. JGLUE JNLI
+  92.62% / JComQA 92.40% *theirs*.
+- **NAR class legitimacy / multimodal /
+  Router-OOD.** @googlegemma DiffusionGemma-as-Jev
+  (~0.2s *theirs*); pst2154/Nemotron_Jev (**6★**;
+  HEAD `983cc29`; README SHA `f2f3d052`; Nemotron ≠
+  TypeSafe Jev; not a calibrated replacement);
+  Davipar/djev-dev (**2★**; HEAD `3ce907e`; README
+  SHA `6d59d020`; djev-dev complements djev-spark;
+  images as Choice options); Laya essay numbers
+  *theirs*; Router/OOD confidence.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (le) compile-time System One /
+questions-as-index; (lf) unofficial JA ModernBERT;
+(lg) NAR legitimacy / multimodal / Router-OOD.
+
 ## Batch #78 (2026-09-19 ~21:41 UTC / ~15:41 Boise) — hourly 1541 HIGH
 
 Note: `research/notes.md` §95. Docs-only on a fresh PR

@@ -1374,6 +1374,93 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   Do not copy `TYPESAFE_API_KEY` / OAuth `client_id` /
   `uv` / `npx` / `.env`. No wrapper. No invented
   metrics.
+- SIGNAL fold jevcache + jev-align (`research/notes.md`
+  §93): **Skip Archer.** Docs-only on a **fresh PR
+  off main** after #9 merge `059f3670`. **Never
+  reopen** merged #3 / #4 / #5 / #7 / #8 / **#9**.
+  Do **not** re-fold 1441 / §92. How-to-apply /
+  mental models / architecture / Harbor-jevals /
+  toolbelt — not a thin Jev skill dump.
+  Backend-agnostic categorization/scoring/decision
+  class (Jev-like speed/econ). rh-guard owns
+  HIT-as-truth and training-score auto-accept as
+  gate cousins; Augustus owns placement. Formal
+  methods compose with scoring; a HIT and a
+  training score are SENSOR. Two clusters:
+  **Decision ledger / memoization**
+  ([hyperspaceai/jevcache](https://github.com/hyperspaceai/jevcache);
+  license **null**; **8★** this pass, SIGNAL ★6;
+  HEAD `a211d13`; README SHA `7c2abe99`;
+  fingerprint after redact; recall vs decide;
+  publish fingerprints+answers; CI replay as Harbor
+  cousin; Cache hit ≠ correctness;
+  hyperspaceai/jevcache ≠ kushals256/jevcache;
+  memoize typed decisions; VOI of cache hit);
+  **GEPA alignment loop**
+  ([sutro-sh/jev-align](https://github.com/sutro-sh/jev-align);
+  Apache-2.0; **60★** this pass, SIGNAL ★56; forks
+  **7**; HEAD `49753df`; README SHA `363fccb7`;
+  human labels only; score never auto-accepts;
+  production capture flywheel; sutro-sh/jev-align ≠
+  caiovicentino/jev-align; GEPA + System One). Soft
+  Noul ≠ hard safety. Census (user-provided; not
+  re-derived): Archer still NOT landed. Do not copy
+  `TYPESAFE_API_KEY` / `uv` / `npx` / `curl | sh` /
+  `.env`. No wrapper. No invented metrics.
+- SIGNAL fold enzyme + JA ModernBERT + Gemma/Nemotron/djev-dev/Laya
+  essay (`research/notes.md` §94): **Skip Archer.** Docs-only
+  on a **fresh PR off main** after #10 merge `30438eff`.
+  **Never reopen** merged #3 / #4 / #5 / #7 / #8 / #9 /
+  **#10**. Do **not** re-fold jevcache/jev-align / §93.
+  How-to-apply / mental models / architecture /
+  Harbor-jevals / toolbelt — not a thin Jev skill dump.
+  Backend-agnostic categorization/scoring/decision
+  class (Jev-like speed/econ). rh-guard owns
+  guidance-as-hook, unofficial-local-as-Jev,
+  hosted-bootstrap silent FALLBACK,
+  LFM-default-as-JA-softmax, Nemotron
+  “not calibrated replacement”, and Laya
+  confidence-without-competence as gate cousins;
+  Augustus owns placement. Formal methods compose
+  with scoring; `when asked`, unofficial local p,
+  Nemotron p, and Laya 0.85 are SENSOR. Three
+  clusters: **Compile-time System One /
+  questions-as-index**
+  ([byenzyme/enzyme](https://github.com/byenzyme/enzyme);
+  license **null**; **63★** this pass, SIGNAL ★62;
+  HEAD `c91d6b5`; README SHA `9af7c570`;
+  guidance ≠ hook; catalysts ≠ summaries;
+  compile-time System One; hosted bootstrap ≠
+  silent TypeSafe; ~350×/1000× *theirs*
+  (GitHub description); **≠** enzymejs/enzyme);
+  **Unofficial JA ModernBERT cross-encoder**
+  ([argos1111/modernbert-ja-310m-jev](https://huggingface.co/argos1111/modernbert-ja-310m-jev);
+  CC-BY-SA-4.0; **2 likes**; sha `07cda235`;
+  unofficial ≠ TypeSafe; format_version
+  modernbert-jev/1; Argos1111/jev_local ≠
+  us/jev-local ≠ kunchenguid/local-jev; LFM
+  default ≠ ModernBERT backend; JGLUE JNLI
+  92.62% / JComQA 92.40% *theirs*);
+  **NAR class legitimacy / multimodal /
+  Router-OOD**
+  ([@googlegemma](https://x.com/googlegemma/status/2101069861598482817)
+  ~0.2s *theirs*;
+  [pst2154/Nemotron_Jev](https://github.com/pst2154/Nemotron_Jev)
+  **6★**; README SHA `f2f3d052`; HEAD `983cc29` on
+  `feat/nemotron-decision-lab`; Nemotron ≠ TypeSafe
+  Jev; not a calibrated replacement;
+  [Davipar/djev-dev](https://github.com/Davipar/djev-dev)
+  Apache-2.0; **2★**; README SHA `6d59d020`;
+  djev-dev complements djev-spark; images as Choice
+  options;
+  [Laya essay](https://laya.convaiinnovations.com/);
+  Laya essay numbers *theirs*; Router/OOD
+  confidence). Soft Noul ≠ hard safety. Census
+  (user-provided; not re-derived): Archer still NOT
+  landed. Do not copy `TYPESAFE_API_KEY` /
+  `ENZYME_JEV_MODEL` / `curl | bash` / docker /
+  `pip install laya`. No wrapper. No invented
+  metrics.
 - Hourly 1541 HIGH (`research/notes.md` §95): **Skip
   Archer.** Docs-only on a **fresh PR off main**. Never
   reopen merged #7 / **#8** / **#9** / **#10** /

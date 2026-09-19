@@ -239,6 +239,23 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    Foq ~25ms/2.2GB local; pastepilot Confirm before act;
    typesafe_agent_gates 27/27 / 31/31; dsh-jev can only gate;
    ha-conversation-jev Jev→Grok (`notes.md` §92).
+   Decision-ledger HIT is not a self-check:
+   [hyperspaceai/jevcache](https://github.com/hyperspaceai/jevcache)
+   Cache hit ≠ correctness (`notes.md` §93).
+   Production capture still needs a human accept:
+   [sutro-sh/jev-align](https://github.com/sutro-sh/jev-align)
+   human labels only; score never auto-accepts;
+   production capture flywheel (`notes.md` §93).
+   Compile-time guidance is not a self-check:
+   [byenzyme/enzyme](https://github.com/byenzyme/enzyme)
+   guidance ≠ hook; hosted bootstrap ≠ silent
+   TypeSafe (`notes.md` §94).
+   Unofficial local p is not TypeSafe calibration:
+   unofficial ≠ TypeSafe; LFM default ≠ ModernBERT
+   backend (`notes.md` §94).
+   Nemotron interface is not a calibrated replacement:
+   Nemotron ≠ TypeSafe Jev; not a calibrated
+   replacement (`notes.md` §94).
    Soft judgment integrity (shadow / calibrator / fail-open):
    jevguard calibrator/cache/escape; jev-ci-selector CI
    shadow mode; one-dollar-tahoe TypeSafe Jev defense eval
