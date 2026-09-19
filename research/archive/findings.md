@@ -1267,6 +1267,50 @@ first-prompt route fail-closed to a declared fallback; (dr)
 measured RAG rerank vs generative rerank must keep the no-RAG
 latency arm visible.
 
+## Batch #43 (2026-09-19 ~01:48 UTC / ~19:48 Boise 2026-09-18) — capability kernel, typed DSPy control plane, calibration arena + fan-out suite, engine-owns-truth, human-confirmed port cleanup
+
+Note: `research/notes.md` §59. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Do not re-fold
+§50–§58. Skip SPFreedom/jef-mcp (parody) and rayelzz/jevregist
+(account farming).
+
+- **somoore/interlock (Empirical as README architecture).** Python
+  MIT. Created 2026-09-19T01:41:58Z; 0★. Capability kernel: LLM
+  ring 3 / Interlock ring 0. Secrets never in the agent. Closed
+  action space. Jev SENSOR; `policy.py` BLOCK/ASK/ALLOW. Type-safe
+  ≠ correct. Distinct from toolgate. 38-case local-judge set, not
+  a blind paper.
+- **manikanda-kumar/jev-dspy-control-plane (Empirical as README
+  architecture + metric list).** Python MIT. Created
+  2026-09-19T01:36:58Z; 0★. DSPy drafts AFTER route+action. OpenJEV
+  / DSPy / JSON Schema share ontology. Offline heuristic ≠ quality.
+- **meetr1912/jev-arena (Empirical as their live card).** Python
+  MIT. Created 2026-09-19T01:28:11Z; 0★. 145 noul, Brier 0.0059,
+  ECE 0.0620, 2 requests / 710 ms; overconfident in low bins.
+  Siblings: jev-sonar (heatmap-as-policy), jev-vickrey (Jev never
+  bids), jev-bracket (live Brier 0.2853 vs Elo 0.2322 — trailed
+  Elo; honest).
+- **JoelLewis/game-coach (Empirical as PRD; Hypothesis as shipped
+  product).** TypeScript GPL-3.0. Created 2026-09-19T01:08:53Z;
+  0★. Wave 0. Stockfish owns truth; Jev owns judgment.
+- **epiphany-dynamics/port-cleanup (Empirical as README safety
+  model).** Swift MIT. Created 2026-09-19T00:58:50Z; 0★. Human is
+  the only kill trigger; identity re-check; shields; mapped
+  explanations.
+- MED: jev-pr-labeler, jevcumber, typedecide (not on npm), jevon,
+  dsh-jev (not on npm), fast-jev-compaction-pi, jev-tetris-benchmark
+  (not a rigorous eval), modelsystem (1★), opencode-system-one
+  (license null; 1★), browser-ai (design done), semantic-bookmark.
+  Star spike: SemIf 1607★ this pass; jevlike 897★.
+
+Cross-repo addition: (ds) capability kernel vs post-decision
+firewall (secrets never in agent; Jev SENSOR; type-safe ≠
+correct); (dt) typed control plane around DSPy, not more LM knobs;
+(du) native-probability calibration + fan-out as measurement
+economics; (dv) engine owns truth / Jev owns judgment (anti-
+soundness-theater with attention≠correctness); (dw) human-
+confirmed kill + mapped explanations + identity re-check.
+
 
 
 

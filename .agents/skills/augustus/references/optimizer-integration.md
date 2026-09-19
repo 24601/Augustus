@@ -122,6 +122,26 @@ hashes. PoC benchmarks on 3 cases without caching are a lead, not a result.
 - Nothing yet covers optimizing *against* Jev as the metric model
   end-to-end; if you build it, measure judge variance first (see above).
 
+## Typed control plane around DSPy (not more knobs)
+
+Ax and DSPy remain LM-program climbers. A **typed control plane**
+is deterministic code *around* that program:
+classifier → ontology validation → security override →
+confidence thresholds → state-machine transition → tool
+allow-list. The LM may draft wording **after** route and action
+are fixed; it cannot add a route, change the action, or invoke
+an unapproved tool.
+[jev-dspy-control-plane](https://github.com/manikanda-kumar/jev-dspy-control-plane)
+is the Harbor-shaped bake-off of that split (OpenJEV / DSPy /
+JSON Schema share ontology, dataset, metrics). Offline smoke
+uses a heuristic + labelled contract stubs — a high score is
+plumbing, not quality. Metrics named: intent/sub-intent
+accuracy, invalid-output/policy-violation, abstention/coverage/
+selective accuracy, Brier/ECE, consistency, p50/p95, per-category
+stress. Accuracy alone is not enough; a negative result is
+valuable. Do not copy venv / `.env`. `notes.md` §59;
+`validation.md`.
+
 ## ProgramAsWeights: materializing a Jev judgment locally (Hypothesis)
 
 PAW (programasweights, pre-dates Jev — Python SDK 0.4.6, Mar 2026 repo, MIT)

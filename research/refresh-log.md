@@ -705,6 +705,39 @@
   formal-methods, ecosystem, CHANGELOG, README.
 - notes.md §58; sources.json; findings.md batch #42. No wrapper.
 
+## 2026-09-19 01:48 UTC — capability kernel, typed DSPy control plane, calibration arena, engine-owns-truth, human-confirmed kill (~19:48 Boise 2026-09-18)
+
+- Folded into open PR #2 (`cursor/augustus-store-envelope-00b4`).
+  Docs-only. Not a competing PR. Archer 27B drop still **WATCH**.
+  No invented metrics. No wrapper. Do not re-fold §50–§58.
+  Skip jef-mcp (parody) and jevregist (account farming).
+- HIGH: [somoore/interlock](https://github.com/somoore/interlock)
+  capability kernel; secrets never in agent; Jev SENSOR;
+  policy.py BLOCK/ASK/ALLOW; type-safe ≠ correct; distinct from
+  toolgate.
+  [manikanda-kumar/jev-dspy-control-plane](https://github.com/manikanda-kumar/jev-dspy-control-plane)
+  typed control plane around DSPy; drafts AFTER route+action;
+  offline heuristic ≠ quality.
+  [meetr1912/jev-arena](https://github.com/meetr1912/jev-arena)
+  native Brier 0.0059 / ECE 0.0620 on 145 noul *theirs*;
+  overconfident in low bins; fan-out 2 requests. Siblings
+  sonar / vickrey / bracket.
+  [JoelLewis/game-coach](https://github.com/JoelLewis/game-coach)
+  Wave 0 PRD; Stockfish truth / Jev judgment; GPL-3.0.
+  [epiphany-dynamics/port-cleanup](https://github.com/epiphany-dynamics/port-cleanup)
+  human-only kill; identity re-check; mapped explanations.
+- MED: jev-pr-labeler, jevcumber, typedecide, jevon, dsh-jev,
+  fast-jev-compaction-pi, jev-tetris-benchmark, modelsystem,
+  opencode-system-one, browser-ai, semantic-bookmark.
+  Star spike: SemIf 1491→1606 (this pass 1607); jevlike 851→896
+  (this pass 897).
+- Cards: SKILL.md, applied-mappings §2/§5/§7, mappings §8/§18,
+  mixed-architecture (fail table + gallery), validation, faq,
+  optimizer-integration, formal-methods, mental-models,
+  methods-catalog, toolbox, agent-self-assessment, ecosystem,
+  CHANGELOG, README.
+- notes.md §59; sources.json; findings.md batch #43. No wrapper.
+
 
 
 

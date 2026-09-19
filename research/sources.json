@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T00:50Z",
+  "retrieved": "2026-09-19T01:54Z",
   "sources": [
     {
       "kind": "docs",
@@ -1795,6 +1795,120 @@
       "title": "TurboGuo/jev-dating",
       "url": "https://github.com/TurboGuo/jev-dating",
       "note": "JavaScript. Created 2026-09-19T00:26:38Z; 0 stars; license null. Jev vs chat dating red-flag / interest meter. Live jevdating.pages.dev. notes.md \u00a758."
+    },
+    {
+      "kind": "github",
+      "title": "somoore/interlock",
+      "url": "https://github.com/somoore/interlock",
+      "note": "Python MIT. Created 2026-09-19T01:41:58Z; 0 stars. Capability kernel: LLM ring 3 / Interlock ring 0. Secrets never in agent. Jev SENSOR; policy.py BLOCK/ASK/ALLOW. Type-safe != correct. Distinct from toolgate. notes.md \u00a759."
+    },
+    {
+      "kind": "github",
+      "title": "manikanda-kumar/jev-dspy-control-plane",
+      "url": "https://github.com/manikanda-kumar/jev-dspy-control-plane",
+      "note": "Python MIT. Created 2026-09-19T01:36:58Z; 0 stars. Typed control plane around DSPy; drafts AFTER route+action. OpenJEV / DSPy / JSON Schema share ontology. Offline heuristic != quality. notes.md \u00a759."
+    },
+    {
+      "kind": "github",
+      "title": "meetr1912/jev-arena",
+      "url": "https://github.com/meetr1912/jev-arena",
+      "note": "Python MIT. Created 2026-09-19T01:28:11Z; 0 stars. Native-probability calibration arena. Live 145 noul Brier 0.0059 ECE 0.0620 in 2 requests. Overconfident in low bins. notes.md \u00a759."
+    },
+    {
+      "kind": "github",
+      "title": "meetr1912/jev-sonar",
+      "url": "https://github.com/meetr1912/jev-sonar",
+      "note": "Python MIT. Created 2026-09-19T01:30:34Z; 0 stars. Battleship heatmap-as-policy. Offline 75% win Brier 0.1615. notes.md \u00a759."
+    },
+    {
+      "kind": "github",
+      "title": "meetr1912/jev-vickrey",
+      "url": "https://github.com/meetr1912/jev-vickrey",
+      "note": "Python MIT. Created 2026-09-19T01:28:15Z; 0 stars. Threshold fan-out CDF; Jev never bids. Live Brier 0.1391 ECE 0.1321. notes.md \u00a759."
+    },
+    {
+      "kind": "github",
+      "title": "meetr1912/jev-bracket",
+      "url": "https://github.com/meetr1912/jev-bracket",
+      "note": "Python MIT. Created 2026-09-19T01:28:20Z; 0 stars. Tournament Brier vs Elo. Live Brier 0.2853 vs Elo 0.2322 (trailed Elo). notes.md \u00a759."
+    },
+    {
+      "kind": "github",
+      "title": "JoelLewis/game-coach",
+      "url": "https://github.com/JoelLewis/game-coach",
+      "note": "TypeScript GPL-3.0. Created 2026-09-19T01:08:53Z; 0 stars. Wave 0. Stockfish owns truth; Jev owns judgment. notes.md \u00a759."
+    },
+    {
+      "kind": "github",
+      "title": "epiphany-dynamics/port-cleanup",
+      "url": "https://github.com/epiphany-dynamics/port-cleanup",
+      "note": "Swift MIT. Created 2026-09-19T00:58:50Z; 0 stars. Human-confirmed port cleanup. Identity re-check; shields; mapped explanations. notes.md \u00a759."
+    },
+    {
+      "kind": "github",
+      "title": "1jehuang/jev-pr-labeler",
+      "url": "https://github.com/1jehuang/jev-pr-labeler",
+      "note": "Python MIT. Created 2026-09-19T01:07:20Z; 0 stars. Semantic PR labels by conceptual scope not line counts. notes.md \u00a759."
+    },
+    {
+      "kind": "github",
+      "title": "RubyBrewsday/jevcumber",
+      "url": "https://github.com/RubyBrewsday/jevcumber",
+      "note": "TypeScript MIT. Created 2026-09-19T01:05:17Z; 0 stars. Cucumber .feature only; Jev picks among observed controls. notes.md \u00a759."
+    },
+    {
+      "kind": "github",
+      "title": "shkumbinhasani/typedecide",
+      "url": "https://github.com/shkumbinhasani/typedecide",
+      "note": "TypeScript MIT. Created 2026-09-19T00:51:14Z; 0 stars. Provider-agnostic TS SDK for decision models. Pre-release, not on npm. notes.md \u00a759."
+    },
+    {
+      "kind": "github",
+      "title": "douglance/jevon",
+      "url": "https://github.com/douglance/jevon",
+      "note": "Rust MIT. Created 2026-09-19T01:43:33Z; 0 stars. jev CLI+MCP for TypeSafe API. Key not in agent config. notes.md \u00a759."
+    },
+    {
+      "kind": "github",
+      "title": "buberlo/dsh-jev",
+      "url": "https://github.com/buberlo/dsh-jev",
+      "note": "TypeScript MIT. Created 2026-09-19T00:49:47Z; 0 stars. DeepSeek Harness decision layer. Can only gate, never widen. Not on npm. notes.md \u00a759."
+    },
+    {
+      "kind": "github",
+      "title": "zaycruz/fast-jev-compaction-pi",
+      "url": "https://github.com/zaycruz/fast-jev-compaction-pi",
+      "note": "TypeScript MIT. Created 2026-09-19T00:55:54Z; 0 stars. pi port of fast-jev-compaction. notes.md \u00a759."
+    },
+    {
+      "kind": "github",
+      "title": "planstack-ai/jev-tetris-benchmark",
+      "url": "https://github.com/planstack-ai/jev-tetris-benchmark",
+      "note": "TypeScript MIT. Created 2026-09-19T01:18:24Z; 0 stars. Tetris Jev vs Haiku; legal set in code; not a rigorous eval. notes.md \u00a759."
+    },
+    {
+      "kind": "github",
+      "title": "fabricioctelles/modelsystem",
+      "url": "https://github.com/fabricioctelles/modelsystem",
+      "note": "MIT. Created 2026-09-19T01:18:12Z; 1 star. Contribution surface for modelsystem.one catalog. Not affiliated. notes.md \u00a759."
+    },
+    {
+      "kind": "github",
+      "title": "emirbartu/opencode-system-one",
+      "url": "https://github.com/emirbartu/opencode-system-one",
+      "note": "TypeScript. Created 2026-09-19T00:28:02Z; 1 star; license null. OpenCode plugin; fail-open. notes.md \u00a759."
+    },
+    {
+      "kind": "github",
+      "title": "phanngoc/browser-ai",
+      "url": "https://github.com/phanngoc/browser-ai",
+      "note": "MIT. Created 2026-09-19T01:23:13Z; 0 stars; language null. Go CDP Jev-driven browser agent. Design done, implementation tracked. notes.md \u00a759."
+    },
+    {
+      "kind": "github",
+      "title": "acorn181/semantic-bookmark",
+      "url": "https://github.com/acorn181/semantic-bookmark",
+      "note": "TypeScript MIT. Created 2026-09-19T01:35:18Z; 0 stars. User-authored semantic bookmark rules. notes.md \u00a759."
     }
   ]
 }

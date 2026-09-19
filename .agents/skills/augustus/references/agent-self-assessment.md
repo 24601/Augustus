@@ -18,6 +18,15 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    Jev is not authorization. 72-case synthetic, not independently
    annotated. Distinct from the ndolinschi *vocabulary* (allow /
    ask_human / deny) below (`notes.md` §55).
+   **Capability kernel, different trust model (2026-09-18 ~19:48):**
+   [interlock](https://github.com/somoore/interlock) — secrets never
+   enter the agent; closed action space; Jev is SENSOR; `policy.py`
+   decides BLOCK/ASK/ALLOW. Do not merge with toolgate. Type-safe ≠
+   correct (`notes.md` §59).
+   **Human-confirmed cousin:**
+   [port-cleanup](https://github.com/epiphany-dynamics/port-cleanup)
+   — Jev recommends; human is the only kill trigger; identity
+   re-check; shields override; mapped explanations (`notes.md` §59).
 2. **Post-action output judge** (after the tool result exists, not before):
    `leaks_secret` (noul ≥0.90) and `failure_class` (Choice ~6 options).
    The gate sees intent; only the output judge sees what the command printed.
@@ -135,7 +144,12 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   to original output (`notes.md` §53). Tool *execution* is the
   other polarity: [toolgate](https://github.com/fdemir/toolgate)
   stops on block / review-without-approval / guard error
-  (`notes.md` §55). Session-memory *omit* fails open (dump the
+  (`notes.md` §55). Capability kernel
+  ([interlock](https://github.com/somoore/interlock)) never lets
+  the secret into the agent in the first place (`notes.md` §59).
+  Human-confirmed kill
+  ([port-cleanup](https://github.com/epiphany-dynamics/port-cleanup))
+  re-checks identity before SIGTERM. Session-memory *omit* fails open (dump the
   ledger): [carryforward](https://github.com/Dharundp6/jev-carryforward).
   Draft-gate *silence* is the opposite mistake: treating no-answer as
   a hold. Missing verdict needs a heartbeat (`notes.md` §56).
@@ -212,5 +226,7 @@ is Watch / empty repo this pass (`notes.md` §51).
 - Gate vocabulary is converging across implementations; reuse it rather
   than inventing: allow / ask_human / deny (ndolinschi *vocab*),
   allow / block / review ([toolgate](https://github.com/fdemir/toolgate)
-  *product* — Jev is not authorization; `notes.md` §55), ok / retry /
+  *product* — Jev is not authorization; `notes.md` §55), BLOCK / ASK /
+  ALLOW ([interlock](https://github.com/somoore/interlock) *kernel* —
+  Jev is SENSOR, policy decides; `notes.md` §59), ok / retry /
   escalate / stop (harnessjudge). Same shape as the lifecycle gates above.

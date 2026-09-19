@@ -379,6 +379,12 @@ This is hospital, aviation, kitchen, boardroom, and agent harness alike:
 - The sensor ("does this note mention an allergy?") may be a Noul.
 - Confidence does not waive the constraint.
 
+**Capability kernel (Empirical as architecture, `notes.md` §59):**
+[interlock](https://github.com/somoore/interlock) — the sensor is a
+parallel Noul battery; the constraint is `policy.py` plus a closed
+action space and canaries. Type-safe ≠ correct. Distinct from
+asking "dangerous?" after the LLM already held the secret.
+
 Org placement: cheap judgment over every incident step (OpenSmoke
 shape) so humans only autopsy flags. That is NATM instrumentation of
 the control structure, not a safety case. Mapping card: `mappings.md`
@@ -504,6 +510,10 @@ Use these as *existence proofs of a position*. Write your own card.
 | Skill-derived lint | remainder after AST/precheck | Noul/Choice on guidance in state (**Empirical** as Phoenix: jev-oxlint) | Parser/precheck in code; not a hard gate; `tenbin` owns lint skill |
 | Session model route | which model for this thread | first-prompt Choice, then lock (**Empirical** as README: jev-adaptive-thinking) | Fail-closed declared fallback; never reclassify later turns |
 | RAG vs generative rerank | which passages to keep | pointwise relevance (**Empirical** as one-run: Jev-RAG ≥70%/72% vs Spark rerank; full-context Spark still faster) | Embeddings generate candidates; name the no-RAG arm |
+| Untrusted agent / secrets | never hold the real key | hazard Nouls as **sensor** (**Empirical** as architecture: interlock) | Closed action space; canaries; `policy.py` BLOCK/ASK/ALLOW; type-safe ≠ correct |
+| Live chess coaching | speak only when it matters | severity / interrupt / error-class (**Empirical** as Wave 0 PRD: game-coach) | Stockfish owns eval; templates + capped writing model own words |
+| Kill a listening port | stop stale listeners without murdering the wrong PID | Stop/Keep/Review Choice (**Empirical**: port-cleanup) | Human confirm; identity re-check; shields override; mapped explanations |
+| Calibration measurement | honesty of native probabilities | Brier/ECE/reliability on analytic worlds (**Empirical**: jev-arena live Brier 0.0059 / ECE 0.0620 *theirs*) | Oracle stub; fan-out batches; not verbalized confidence |
 
 Rejected in every domain: replacing the ledger with a vibe; replacing
 the interlock with confidence; replacing the essay with a Noul;

@@ -342,6 +342,34 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   faster). MED: safe-sh, jev-loan-triage, TurboGuo arenas, jevbox;
   hermes/mcp packs not found this pass. No wrapper. No invented
   metrics.
+- Hourly ~19:48 Boise 2026-09-18 / 01:48 UTC 2026-09-19 fold
+  (`research/notes.md` §59): Archer still Watch. Architecture
+  notes, not a pip / venv / Cloudflare catalog. Capability kernel
+  ([interlock](https://github.com/somoore/interlock); LLM ring 3 /
+  kernel ring 0; secrets never in the agent; Jev SENSOR;
+  `policy.py` BLOCK/ASK/ALLOW; type-safe ≠ correct; distinct from
+  toolgate). Typed control plane around DSPy
+  ([jev-dspy-control-plane](https://github.com/manikanda-kumar/jev-dspy-control-plane);
+  DSPy drafts AFTER route+action; OpenJEV / DSPy / JSON Schema
+  share ontology; offline heuristic ≠ quality). Native-probability
+  calibration arena
+  ([jev-arena](https://github.com/meetr1912/jev-arena); live 145
+  noul Brier 0.0059 / ECE 0.0620 *theirs*; overconfident in low
+  bins; 2-request fan-out) plus sonar (heatmap-as-policy) /
+  vickrey (Jev never bids) / bracket (Brier vs Elo; live trailed
+  Elo). Engine owns truth / Jev owns judgment
+  ([game-coach](https://github.com/JoelLewis/game-coach); Wave 0
+  PRD; Stockfish WASM; GPL-3.0; anti-soundness-theater with egma).
+  Human-confirmed port cleanup
+  ([port-cleanup](https://github.com/epiphany-dynamics/port-cleanup);
+  Jev recommends; human is the only kill trigger; identity
+  re-check; shields; mapped explanations). MED toolbelt:
+  jev-pr-labeler, jevcumber, typedecide, jevon, dsh-jev,
+  fast-jev-compaction-pi, jev-tetris-benchmark, modelsystem,
+  opencode-system-one, browser-ai, semantic-bookmark. Skip
+  jef-mcp (parody) and jevregist (account farming). Star spike:
+  SemIf 1491→1606 (this pass 1607); jevlike 851→896 (this pass
+  897). No wrapper. No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

@@ -43,6 +43,14 @@ the rest per line; `kevinpita/pi-jev-context` hides (does not delete)
 older Pi history, always-keep user/system/todos, `/jev off` restores.
 Pi compaction cousins (`tamaratran/fast-jev-compaction`,
 `vava-nessa/pi-jev-compaction`) keep verbatim drop, never summarize.
+**pi host port this hour (Empirical as README + their bench,
+2026-09-18 ~19:48):**
+[fast-jev-compaction-pi](https://github.com/zaycruz/fast-jev-compaction-pi)
+— same verbatim job on pi's `session_before_compact`; fallback to
+the built-in summary on any failure. Their large-session card:
+compaction ~50× faster than pi's LLM summary; pure mode drops old
+calls; `preserveCallInputs` restores commands/paths. Do not copy
+`pi install` (`notes.md` §59).
 **Encoder backend, same job (Empirical as README behavior, 2026-09-18
 ~16:22):**
 [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
@@ -168,6 +176,15 @@ screenshot). Specialist-form cousin, **not TypeSafe Jev:**
 option-attention among observed elements (fill/check/click/skip);
 code owns execution order; dry-run default; source-only
 (`notes.md` §54).
+**Meaning-as-spec (Empirical as README resolver, 2026-09-18
+~19:48):**
+[jevcumber](https://github.com/RubyBrewsday/jevcumber) — Cucumber
+`.feature` only; no step-definition glue. Jev picks among
+**observed controls** and **literals already in the step**; never
+writes code or invents values. Lockfile makes replay
+deterministic (`--frozen` CI, no key). Refuse below 0.6. Same
+pointer family as Stagehand pick-and-copy / jev-e2e. Do not copy
+the tarball install (`notes.md` §59).
 **Harness pick-and-copy (Empirical as PR-body architecture + their
 local eval, 2026-09-19 ~00:48; draft stack):**
 [Stagehand #2955](https://github.com/browserbase/stagehand/pull/2955)
@@ -381,6 +398,13 @@ reclassify. Timeout / missing first-round text / no stable session
 ID → lock `gpt-5.6-sol` (fail-closed fallback, not passthrough).
 Same family as routeKit. License null this pass. Live testing left
 to the deployer. Do not copy dylib/YAML (`notes.md` §58).
+**Harness plugins (brief, ~19:48):**
+[dsh-jev](https://github.com/buberlo/dsh-jev) — DeepSeek Harness
+decision layer; a model answer can only gate, never widen a
+permission; failure never produces an allow; not on npm.
+[opencode-system-one](https://github.com/emirbartu/opencode-system-one)
+— OpenCode plugin; every Jev call fails open; license null.
+Do not copy plugin JSON (`notes.md` §59).
 [`trietphan/jev-claw`](https://github.com/trietphan/jev-claw) is the
 same split for OpenClaw (classify axes; `decide()` maps the route; path
 regex floors risk). [`nekowasabi/jev-routing`](https://github.com/nekowasabi/jev-routing)
@@ -429,3 +453,56 @@ Re-measure on *your* documents. Same sandwich as jevgate (Proven / Refused /
 Unknown). Same VOI as retrieve-then-state: if the answer is not in the
 cheap text layer, **pay for the passage / OCR**, then judge
 (`mental-models.md` §boundary; atlas history suite).
+
+## 7. Capability kernel / human-confirmed gate
+
+**Method**: change the *trust boundary*, not the after-the-fact
+"is this dangerous?" question. Two named shapes this hour
+(`notes.md` §59):
+
+1. **Capability kernel.** The LLM is ring 3; a kernel it cannot
+   talk to is ring 0. Secrets never enter the agent (canaries and
+   placeholders only). The action space is closed. A judgment-class
+   model is a **sensor**; ordinary policy code decides BLOCK / ASK
+   / ALLOW. Type-safe ≠ correct; irreversible stays behind a
+   threshold **and** a human.
+2. **Human-confirmed kill.** The model recommends; the operator is
+   the only actuator. Re-check identity immediately before the
+   irreversible signal. Shields override the judge. Displayed
+   explanations are app-owned mapped text, not raw model prose.
+
+**Transfers**: Leveson sensor ≠ constraint (`mappings.md` §8);
+structural prove ∩ remainder (`mappings.md` §18); fail-closed on
+the irreversible act (`mixed-architecture.md`). **Does not
+transfer**: a launch-week firewall that asks "dangerous?" after
+the LLM already decided with **real secrets in scope**; treating
+toolgate (pre-exec of a *proposed* call) as the same product as a
+kernel that never showed the secret; letting mapped UI copy be
+the model's free-form reason.
+
+```text
+stunt_double = canaries + placeholders + allowlisted actions   # code
+sensor       = parallel Nouls / Choice on the proposed act     # model
+policy       = BLOCK | ASK(human) | ALLOW + placeholder swap   # code
+kill         = human confirm after identity re-check           # not the model
+```
+
+**Example (Empirical as README architecture, 2026-09-18 ~19:48):**
+[interlock](https://github.com/somoore/interlock) — twelve-hazard
+Noul battery ~100 ms; `policy.py` is the product; 38-case
+regression set tunes the local judge, **not a blind paper**.
+Distinct from [toolgate](https://github.com/fdemir/toolgate)
+(allow/block/review on a proposed tool; Jev is not authorization;
+real args may already be in scope). rh-guard crossover: eval-
+integrity is a different hole from a ring-0 kernel; do not merge
+products. Do not copy pip / `INTERLOCK_ARMED` how-to.
+**Human-confirmed cousin (Empirical as README safety model):**
+[port-cleanup](https://github.com/epiphany-dynamics/port-cleanup)
+— Jev Stop/Keep/Your-decision; kill recs need conf ≥ 0.8;
+identity re-check before SIGTERM; shields override; TCP only;
+tiny final race (no pidfd). Gate UX for Augustus + rh-guard.
+Do not copy Keychain how-to.
+**Counterexample**: post-decision "is this dangerous?" with AWS
+keys still in the prompt. **Test**: delete the sensor — the
+constraint and the closed action space still hold; a canary use
+is a catch; a human still confirms the irreversible act.

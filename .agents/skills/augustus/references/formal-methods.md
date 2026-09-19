@@ -312,6 +312,13 @@ Claiming a proof-shaped conclusion from a non-proof:
 - PufferLib Ocean scores as a comparative baseline (authors forbid this).
 - A listwise or CLIP affinity as fail-closed authorize
   (`judgment-class.md`).
+- Engine eval / attention score sold as the *verdict*
+  ([game-coach](https://github.com/JoelLewis/game-coach) Wave 0:
+  Stockfish owns truth, Jev owns judgment; [egma-ai/jev-reviewer](https://github.com/egma-ai/jev-reviewer):
+  attention ≠ correctness). A Noul is not a proof the move was a
+  blunder or the PR is good (`notes.md` §58, §59).
+- "Type-safe" sold as "correct" ([interlock](https://github.com/somoore/interlock):
+  irreversible stays behind a threshold **and** a human).
 
 If the artifact would still say "verified" after you delete the
 checker, it was theater.
@@ -432,6 +439,12 @@ because the model was confident. STPA asks what happens when the sensor
 is wrong, delayed, spoofed, or TOCTOU. Org/safety placement: judgment
 informs operators and cheap gates; it does not replace the constraint
 in the control structure. Mapping card: `mappings.md` §8.
+**Capability kernel receipt (Empirical as architecture):**
+[interlock](https://github.com/somoore/interlock) — LLM ring 3;
+kernel ring 0; Jev SENSOR; `policy.py` constraint; secrets never
+in the agent (`notes.md` §59). **Engine ∩ judgment (Empirical as
+PRD):** [game-coach](https://github.com/JoelLewis/game-coach) —
+Stockfish is the probe; Jev is the coaching sensor; Wave 0.
 
 **Kent — Data and Reality.** Models are approximations; **naming is
 load-bearing**. Question text, Choice sets, and Score rubrics *are* the

@@ -620,6 +620,63 @@ class pattern). Contrast Abide `<0.5` silence (the *edit proceeds*).
 Same sandwich, opposite authorized act.
 `notes.md` §50, §51, §53, §55, §56, §58.
 
+## Type-safe or correct?
+
+Typed answers are not a safety case.
+[interlock](https://github.com/somoore/interlock): type-safe ≠
+correct; irreversible stays behind a threshold **and** a human.
+Secrets never enter the agent. Jev is a SENSOR; `policy.py`
+decides BLOCK/ASK/ALLOW. A launch-week firewall that asks
+"dangerous?" after the LLM already decided, with real secrets in
+scope, is the named anti-pattern. Distinct from
+[toolgate](https://github.com/fdemir/toolgate) (pre-exec of a
+proposed call). `mappings.md` §8; `applied-mappings.md` §7;
+`notes.md` §59.
+
+## Is Jev the policy?
+
+No. Jev is the sensor. Policy (checklist, ledger, `policy.py`,
+two-person rule, human confirm) is the constraint. Interlock:
+the model never picks allow/ask/block.
+[port-cleanup](https://github.com/epiphany-dynamics/port-cleanup):
+the human is the only kill trigger; shields override; displayed
+explanations are app-owned mapped text, not raw model prose.
+`notes.md` §59.
+
+## Do Ax / DSPy own the control plane?
+
+No. They climb **LM-program knobs** (prompts, demos, module
+graphs). A typed control plane is deterministic code around that
+program: ontology validation → security override → confidence →
+state machine → tool allow-list.
+[jev-dspy-control-plane](https://github.com/manikanda-kumar/jev-dspy-control-plane)
+lets DSPy draft **after** route+action are fixed. Offline
+heuristic + contract stubs prove plumbing, not quality. Accuracy
+alone is not enough; a negative result is valuable.
+`optimizer-integration.md`; `notes.md` §59.
+
+## Native probabilities or verbalized confidence?
+
+Measure the native distribution. Verbalized "I'm 80% sure" is a
+different object (and usually needs temperature scaling).
+[jev-arena](https://github.com/meetr1912/jev-arena) scores Jev's
+`noul`/`choice`/`score` on analytically-known worlds. Their live
+card (`jev-1.13.0`, 145 noul, 2 requests): Brier **0.0059**, ECE
+**0.0620**, overconfident in the low bins. Fan-out is measurement
+economics, not a demo flourish. Siblings: sonar (heatmap-as-policy),
+vickrey (Jev never bids), bracket (Brier vs Elo; live trailed Elo —
+honest). `validation.md`; `notes.md` §59.
+
+## Engine eval or coaching verdict?
+
+The engine owns truth; Jev owns judgment.
+[game-coach](https://github.com/JoelLewis/game-coach) (Wave 0 PRD;
+GPL-3.0): Stockfish WASM eval/lines/swing; Jev severity / error
+class / interrupt; templates + a capped writing model own words.
+Jev never evaluates positions or picks moves. Same anti-soundness-
+theater as PR attention ≠ correctness (egma-ai). Silence is a
+feature. `formal-methods.md`; `notes.md` §59.
+
 ## Is observe→score→act Jev-only?
 
 No. The hole is backend-agnostic: observe controls, score among those

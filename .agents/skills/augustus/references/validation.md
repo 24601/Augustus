@@ -333,6 +333,10 @@ Rules:
 | Meaning-search without embeddings | [jevgrep](https://github.com/Bentlybro/jevgrep) | 228-q stripped Flask/httpx/Django/AutoGPT: 79% top-5 vs BM25 40% / grep 20%; keyword still wins exact (BM25 top-10 96% vs 85%); not a Harbor taskset |
 | RAG rerank vs generative rerank | [Jev-RAG](https://github.com/Max-sm-yc/Jev-RAG) | One-run ~30k tokens: ≥70% cost / 72% latency vs Spark *rerank*; full-context Spark still 10.60 s; costs include embeddings |
 | Skills→oxlint remainder | [jev-oxlint](https://github.com/cephalization/jev-oxlint) | Phoenix: answer-key agree on every fixture; routing 0.80–0.94 vs <0.50; coarse hint not; experiment; not a hard gate |
+| Native-probability calibration (analytic worlds) | [jev-arena](https://github.com/meetr1912/jev-arena) | Live *theirs* (`jev-1.13.0`, 145 noul, 2 req / 710 ms): Brier 0.0059, log loss 0.5393, ECE 0.0620; overconfident in low bins; always-0.5 Brier 0.0766. Oracle stub 0.0000. Fan-out economics. Offline default |
+| Fan-out suite (heatmap / CDF / bracket) | [jev-sonar](https://github.com/meetr1912/jev-sonar); [jev-vickrey](https://github.com/meetr1912/jev-vickrey); [jev-bracket](https://github.com/meetr1912/jev-bracket) | Sonar: heatmap-as-policy; offline 75% win / Brier 0.1615; live 1-game Brier 0.1092. Vickrey: Jev never bids; live Brier 0.1391 / ECE 0.1321; oracle regret 0. Vickrey live second-price profit −163.4. Bracket: live Brier 0.2853 vs Elo 0.2322 (trailed Elo; honest) |
+| Typed control plane vs DSPy / JSON Schema | [jev-dspy-control-plane](https://github.com/manikanda-kumar/jev-dspy-control-plane) | Same ontology/dataset/state/allow-list/metrics; intent/sub-intent, invalid/policy-violation, abstention/coverage, Brier/ECE, consistency, p50/p95. Offline heuristic ≠ quality |
+| Tetris legal-set Choice vs Haiku | [jev-tetris-benchmark](https://github.com/planstack-ai/jev-tetris-benchmark) | Use-case demo; code enumerates ≤12 legal placements; **not a rigorous eval** |
 
 rh-guard is a reward-hack hook, a different surface from jevgate and
 from Abide (eval-integrity vs allowlist-remainder vs project soft
@@ -450,6 +454,31 @@ sharp 0.80–0.94 vs <0.50 across 41 files; coarse hint not. Found
 a real flush-only-on-success bug (noul 0.07). ~$0.002 / ~$0.015;
 second run zero requests. Not a hard gate. `tenbin` owns the lint
 skill (`notes.md` §58).
+
+**Native-probability calibration arena (Empirical as their live
+card; 2026-09-18 ~19:48).**
+[jev-arena](https://github.com/meetr1912/jev-arena): analytically-
+known worlds; native `noul`/`choice`/`score`, not verbalized
+confidence. Live `--live --trials 200 --seed 7`, `jev-1.13.0`:
+**145 noul**, Brier **0.0059**, log loss 0.5393, ECE **0.0620**,
+**2 requests / 710 ms**. Overconfident in low bins. Oracle stub
+0.0000. Cite as *theirs*. Fan-out suite: sonar heatmap-as-policy
+(offline 20-game Brier 0.1615 / 75% win; live 1-game small
+sample); vickrey threshold CDF (Jev never bids; live Brier
+0.1391); bracket Brier vs Elo (live **trailed Elo** 0.2853 vs
+0.2322 — honest). Harbor/jevals-shaped: exact oracle, proper
+scores, teeth stubs, offline default (`notes.md` §59).
+**Typed control-plane bake-off shape (Empirical as metric list,
+not as a quality number):**
+[jev-dspy-control-plane](https://github.com/manikanda-kumar/jev-dspy-control-plane)
+shares ontology/dataset/state/allow-list across OpenJEV / DSPy /
+JSON Schema. Offline heuristic + contract stubs are plumbing
+regression, **not** model generalization. Accuracy alone is not
+enough (`notes.md` §59).
+**Tetris legal-set demo (not a rigorous eval):**
+[jev-tetris-benchmark](https://github.com/planstack-ai/jev-tetris-benchmark)
+— code enumerates ≤12 legal placements; Jev Choice vs Haiku.
+Same hole as jev-plays-games (`notes.md` §59).
 
 **Harbor-adjacent stdout prune (Empirical as README / evals README
 behavior, not a full Terminal-Bench ranking; 2026-09-18 ~17:15).**

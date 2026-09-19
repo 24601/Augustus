@@ -462,6 +462,15 @@ the constraint that remains when the sensor is deleted; fill the unsafe-
 control-action table. Ownership split is **Contract** as a rule
 (`formal-methods.md`); the domain examples are **Hypothesis** until
 labeled. Links: `mental-models.md` §Leveson; `boundary-audit.md` TOCTOU.
+**Capability kernel (Empirical as README architecture, 2026-09-18
+~19:48):** [interlock](https://github.com/somoore/interlock) — LLM
+ring 3; kernel ring 0; secrets never enter the agent; closed action
+space; Jev (or stand-in) is the sensor; `policy.py` decides
+BLOCK/ASK/ALLOW. Type-safe ≠ correct; irreversible behind a
+threshold **and** a human. Anti-pattern: launch-week firewalls that
+ask "dangerous?" after the LLM already decided with real secrets in
+scope. Distinct from toolgate (pre-exec of a proposed call). 38-case
+set tunes the local judge, not a blind paper. `notes.md` §59.
 
 ## 9. Search / control loops → one substituted classifier step
 
@@ -855,6 +864,16 @@ annotated. Distinct from the ndolinschi *vocabulary* (allow /
 ask_human / deny) already in `agent-self-assessment.md`.
 `onReview` must obtain authenticated human approval
 (`notes.md` §55). Do not copy pnpm.
+**Capability kernel, different trust boundary (Empirical as README
+architecture, 2026-09-18 ~19:48):**
+[interlock](https://github.com/somoore/interlock) — the LLM never
+saw the secret and cannot emit an unlisted action; Jev is SENSOR;
+policy is the prove/constraint layer. Do not merge with toolgate.
+**Human-confirmed kill (Empirical as README safety model):**
+[port-cleanup](https://github.com/epiphany-dynamics/port-cleanup)
+— Jev recommends; human confirm + identity re-check + shields are
+the prove layer for SIGTERM; mapped explanations, not raw model
+prose (`notes.md` §59).
 [`coldteadotai/abide`](https://github.com/coldteadotai/abide) is the
 same *family* on project instructions: the **linter proves** lintable
 rules; Jev Scores only residual soft AGENTS.md rules; fail-open, banded
