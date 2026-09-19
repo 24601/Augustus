@@ -2617,3 +2617,39 @@ No, and no. awesome-jev-use-cases catalog. Unofficial. **≠** awesomejev.com ce
 ## Is typesafe-go official TypeSafe? A new species?
 
 No, and no. Nibir1/typesafe-go ≠ official. Analyzers catch bad questions at build time. **≠** rust community SDK. soft Noul ≠ hard safety. `notes.md` §92.
+
+## Does jev-orchestrator pick an LLM by difficulty? Paste 0.95 as Harbor τ?
+
+No, and no. difficulty + policy thresholds + JSONL trace. GitHub description says LLM routing; live code is next-action Choice. FINISH blocked until validation. Mock without a key. `notes.md` §93.
+
+## Is jev-codex-pilot a measured bake-off? Collapse into the orchestrator?
+
+No, and no. jev-codex-pilot model + reasoning depth. Thin marketing overlay + Kanban. Config is gateway key + provider. `notes.md` §93.
+
+## Is keep a failed migration? Force BERT/RAG onto Jev?
+
+No, and no. keep/shadow/hybrid/reject. 20-case *theirs* failed the **cost** gate; LLM remains fallback. Round 2 kept BERT/RAG. License null. `notes.md` §93.
+
+## Summarize quarry pages? Fail-closed if Jev is down? Collapse into savka777/jev-search?
+
+No, no, and no. quarry evidence projection. Pointer, never paraphrase. 5 s fail-open. p&lt;0.5 dropped; top 3 ranges. **≠** savka777/jev-search. `notes.md` §93.
+
+## Is Frank-ZY-Dou/awesome-jev walidboulanouar/awesome-jev-use-cases? Paste OpenRoboto $ as a success-rate? Send pixels?
+
+No, no, and no. Frank-ZY-Dou/awesome-jev robotics/3D/control. Text-state, not pixels. One seed-0 trial *theirs*. Do not re-card jev-drone / khordoo / HA-Jev. `notes.md` §93.
+
+## Quote one-dollar-tahoe ASR/FPR? Copy the attack list? Treat 74 rows as Harbor?
+
+No, no, and no. one-dollar-tahoe TypeSafe Jev defense eval. README has **no ASR/FPR**. Static ~74 demo, not a powered bench. Do not copy `attacks.json`. rh-guard owns the gate cousin. `notes.md` §93.
+
+## Is jevguard hyperspaceai/jevcache? Skip the escape? Treat 0.40 as Harbor τ?
+
+No, no, and no. jevguard calibrator/cache/escape. `UNRESOLVED_OR_OTHER`; `AMBIGUOUS_STATE` top p&lt;0.40 or margin&lt;0.15. Volatile fields masked. **≠** jevcache. `notes.md` §93.
+
+## Skip CI from skip_below 0.05? Is shadow the same as enforce?
+
+No, and no. jev-ci-selector CI shadow mode. Shadow default; enforce opt-in. 0.05 is an experiment, not a guarantee. Timeout/no-key → keep all. Mandatory/path rules beat Jev. rh-guard owns. `notes.md` §93.
+
+## Is llama-jev TypeSafe / a Noul? Paste 80 ms as a class ceiling?
+
+No, and no. llama-jev llama.cpp replica. Numbered-choice softmax ≠ Noul. 80 ms cold / 40 ms cache *theirs* on minicpm5-2b-q8. **≠** pcdServer **≠** chakuho. License null. `notes.md` §93.

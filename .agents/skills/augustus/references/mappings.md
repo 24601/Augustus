@@ -423,6 +423,13 @@ Always **savka777/jev-search**. **≠**
 kazuhideoki/jev-search **≠** superagents-lab/jev-search.
 [sessionwise](https://github.com/Nasrallah-AL/sessionwise)
 — sessionwise opt-in relevance. `notes.md` §92.
+**Evidence projection vs LLM summary (Empirical as README;
+2026-09-19 ~21:41):**
+[quarry](https://github.com/jackboykin/quarry)
+(Go MIT; **0★**; **master**) — quarry evidence projection.
+Fetch to disk; Jev scores line ranges. Pointer, never
+paraphrase. 5 s fail-open. p&lt;0.5 dropped; top 3.
+**≠** savka777/jev-search. `notes.md` §93.
 
 ## 5. Hierarchy → bounded heuristic search
 
@@ -805,6 +812,12 @@ droidjev screenshot-free (~0.6 s/iter *theirs*).
 Tewoto1 jevcu planner still writes (324–380 ms *theirs*).
 ha-conversation-jev Jev→Grok. dsh-jev can only gate.
 400ms Salesforce WebMCP. `notes.md` §92.
+**Evidence-projection VOI (Empirical as README;
+2026-09-19 ~21:41):**
+[quarry](https://github.com/jackboykin/quarry)
+— pay Jev only for which *spans* to read; agent
+reads the file. quarry evidence projection.
+Fail-open 5 s. Score ≠ truth. `notes.md` §93.
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs
@@ -1259,6 +1272,21 @@ safety in **code**. **≠** HA-Jev **≠** ha-switchboard.
 **2★**) — dsh-jev can only gate. HIGH delta of MED
 §59. Default mock+shadow. Sensor, not a grant.
 Do not copy OAuth `client_id`. `notes.md` §92.
+**Calibrator / CI shadow / injection-firewall (Empirical as README;
+cross-ref rh-guard; 2026-09-19 ~21:41):**
+[jevguard](https://github.com/seb4ez/jevguard)
+(MIT; **0★**) — jevguard calibrator/cache/escape.
+Named escape + AMBIGUOUS_STATE. Cache is the exact
+envelope (volatile masking). **≠** jevcache.
+[jev-ci-selector](https://github.com/guilhem/jev-ci-selector)
+(license null; **0★**) — jev-ci-selector CI shadow mode.
+Shadow default; enforce opt-in. skip_below 0.05 is
+an experiment. Mandatory/path rules beat Jev.
+[one-dollar-tahoe](https://github.com/PavitarSinghArneja/one-dollar-tahoe)
+(MIT; **0★**) — one-dollar-tahoe TypeSafe Jev defense eval.
+Jev is SENSOR; blocklist is the exact remainder.
+README has no ASR/FPR. rh-guard owns.
+`notes.md` §93.
 **Authorship / jevtest-as-merge-seal (rh-guard owns the
 gate cousin; 2026-09-19 ~16:52):**
 [jev-authorship-check](https://github.com/webstercharly/jev-authorship-check)
@@ -1408,6 +1436,20 @@ validResponse sums-to-1. **≠** Essentiel-Jev.
 — the *algorithm* is Unix-style crawler stages; Jev
 is the judge/verify sensor. jev-crawlers risk bands
 never raw boolean. `notes.md` §90.
+**Physical/control atlas (Empirical as README;
+2026-09-19 ~21:41):**
+[awesome-jev](https://github.com/Frank-ZY-Dou/awesome-jev)
+(license null; **0★**) — Frank-ZY-Dou/awesome-jev robotics/3D/control.
+The *algorithm* is physics/kinematics; the substituted
+classifier is typed text-state. One seed-0 ≠ a rate.
+**≠** walidboulanouar/awesome-jev-use-cases.
+Do not re-card jev-drone / khordoo / HA-Jev.
+**Decision-as-plugin next-act (Empirical as README;
+2026-09-19 ~21:41):**
+[jev-orchestrator](https://github.com/petercr/jev-orchestrator)
+(MIT; **0★**) — difficulty + policy thresholds + JSONL trace.
+Next-act Choice; code owns policy. Description ≠ live
+Choice set. `notes.md` §93.
 
 ```text
 loop     = yours (beam / funnel / stages / MCTS / incident command)
@@ -1911,6 +1953,15 @@ this pass. MED cousin, **HIGH delta §92**:
 (AGPL-3.0) static shell-script analysis — not pre-exec
 authorization. EpicEric/safe-sh static remainder
 (`notes.md` §58, §92). Do not copy pnpm.
+**HIGH delta §93 remainder after exact rules:**
+[jevguard](https://github.com/seb4ez/jevguard)
+(MIT; **0★**) — jevguard calibrator/cache/escape.
+Closed-world skips the escape. Cache is exact
+(volatile masking). **≠** jevcache.
+[jev-ci-selector](https://github.com/guilhem/jev-ci-selector)
+(license null; **0★**) — jev-ci-selector CI shadow mode.
+Mandatory/path rules beat Jev; timeout/no-key keep
+all. rh-guard owns (`notes.md` §93).
 Compaction polarity is the other way:
 [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
 — code proves mutating / dangerous shell → `keep_full`; the encoder

@@ -15554,3 +15554,359 @@ items 71–79; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
+
+## 93. Hourly 1541 HIGH (2026-09-19 ~15:41 Boise / ~21:41 UTC)
+
+Docs-only on a **fresh PR off main**
+(`cursor/hourly-1541-watch-b394`).
+**Never reopen merged** Augustus PR #7 / **#8** /
+**#9**. Do **not** push onto unmerged SIGNAL fold
+#10. Skip Archer. Quote READMEs. Mark *theirs*.
+No invented metrics. Hunches labeled. No wrappers,
+npm / `npx` / `uv` / `go install` / `.env` /
+`TYPESAFE_API_KEY` / `AI_GATEWAY_API_KEY` /
+`EXA_API_KEY` / `GROQ_API_KEY` / `OPENROUTER_API_KEY`
+/ `JEV_API_KEY` as recipes. Do **not** copy
+`attacks.json` or exploit steps.
+
+Lane is Augustus: **mental models / architecture /
+Harbor-jevals / toolbelt**. Backend-agnostic
+categorization/scoring/decision class (Jev-like
+speed/econ), **not** a thin Jev-only dump. Soft Noul ≠
+hard safety (soft Noul ≠ hard safety). 0★ HIGHs still
+get real cards. Do **not** re-fold 1441 / §92.
+rh-guard **owns** the injection-firewall / CI-gate
+cousins; Augustus **owns placement**.
+
+Unique consecutive fragments (this hour):
+difficulty + policy thresholds + JSONL trace;
+jev-codex-pilot model + reasoning depth;
+keep/shadow/hybrid/reject;
+quarry evidence projection;
+Frank-ZY-Dou/awesome-jev robotics/3D/control;
+one-dollar-tahoe TypeSafe Jev defense eval;
+jevguard calibrator/cache/escape;
+jev-ci-selector CI shadow mode;
+llama-jev llama.cpp replica.
+
+### How-to-apply (six clusters)
+
+1. **Decision-as-plugin for SWE** — Jev routes the
+   *next coding-agent act* (not “pick an LLM by
+   difficulty” as a Score). Codex overlay records
+   model + reasoning depth per task. Migration skill
+   treats keep / shadow / hybrid / reject as success.
+   Policy thresholds live in code. JSONL traces are
+   the instrument.
+2. **Evidence projection vs LLM summary** — fetch
+   saves the page; Jev scores which *line ranges*
+   answer the prompt. Pointer, never paraphrase.
+   Fail-open if Jev is unreachable.
+3. **Soft judgment integrity** — shadow modes,
+   calibrators, fail-open. Named Choice escape
+   (`UNRESOLVED_OR_OTHER`). Cache is the exact
+   envelope (volatile fields masked). CI skip is
+   observation until enforce is measured. Hard-gating
+   a Noul as CI skip / injection firewall is
+   soundness theater.
+4. **Physical/control as a first-class System One
+   domain** — text-state (geometry / contacts /
+   primitive menu), not pixels. Physics / kinematics
+   stay in code. Atlas quotes authors; one seed-0
+   trial is not a success-rate.
+5. **Harbor-jevals / injection-firewall** — six-arm
+   defense eval including TypeSafe Jev. ~74-message
+   demo, not a powered bench. Static list ≠ adaptive
+   attacker. README has **no ASR/FPR numbers** —
+   do not invent. rh-guard owns the gate cousin.
+6. **llama.cpp replica** — numbered-choice next-token
+   softmax is **not** a Noul. WIP. Softmax ≠ TypeSafe
+   ≠ pcdServer.
+
+### Cards
+
+1. **Decision-as-plugin for SWE**
+
+   - **[`petercr/jev-orchestrator`](https://github.com/petercr/jev-orchestrator)**
+     (TypeScript MIT; **0★**; created 2026-09-19T15:42Z;
+     HEAD `f29880f`; README SHA `042c102e`; size 29).
+     GitHub description *theirs*: “routing to different
+     LLMs based on difficulty.” Live README *theirs*:
+     “testing whether `typesafe-ai/jev` can make useful
+     **next-step** decisions around a coding agent.”
+     “The current milestone is **decision-only**.”
+     “It does not yet edit files, execute tests, or
+     call Codex.” Inspects a repo, sends compact state
+     through Vercel AI Gateway, applies deterministic
+     policy, prints, records a JSONL trace. Mock
+     without a key. 10 s deadline; one retry.
+     Policy refuses FINISH until validation passed;
+     ambiguous → `ASK_USER`. Live code Choice over
+     `SEARCH_REPO` / `READ_FILE` / `RUN_COMMAND` /
+     `RUN_TESTS` / `CALL_CODEX` / `ASK_USER` /
+     `FINISH` (`src/types.ts`). Policy
+     `DEFAULT_THRESHOLDS` (`src/policy.ts`): finish
+     **0.95**, test **0.8**, askUser **0.9**,
+     minChoiceProbability **0.55**, minChoiceConfidence
+     **0.35**. difficulty + policy thresholds + JSONL trace.
+     Do not copy `pnpm` / `.env` / `AI_GATEWAY_API_KEY`.
+   - **[`Charlyhno-eng/jev-codex-pilot`](https://github.com/Charlyhno-eng/jev-codex-pilot)**
+     (TypeScript MIT; **0★**; created 2026-09-19T16:03Z;
+     HEAD `9a277f5`; README SHA `6210d1e7`; size 1).
+     Thin. GitHub description *theirs*: “model
+     selection and depth of reasoning” plus “automated
+     Kanban.” README *theirs*: “Each task is evaluated
+     independently before execution begins.” “The
+     workspace records the recommended model and
+     reasoning level for every task.” Marketing
+     overlay, not a measured bake-off. Config is
+     gateway key + provider. jev-codex-pilot model + reasoning depth.
+     Do not copy `npm run dev` as a recipe.
+   - **[`SunnyKikiHK/jev-replacement`](https://github.com/SunnyKikiHK/jev-replacement)**
+     (Python; GitHub license **null**; **0★**; created
+     2026-09-19T19:36Z; HEAD `58babb9`; README SHA
+     `3988319e`; size 41). Migration skill. README
+     *theirs*: “A keep, shadow-test, hybrid, or
+     **reject** decision is a successful outcome.”
+     Later steps also name **migrate**. keep/shadow/hybrid/reject.
+     Example 20-case support-triage *theirs*: accuracy
+     **0.90→1.00**; macro F1 **0.9028→1.0000**; p50
+     **675.66→253.13 ms**; mean cost **1.52× higher**.
+     Recorded as **partial success**: quality and
+     latency gates passed; **cost gate failed**; LLM
+     remains the fallback. Round 2 *theirs*: keep and
+     shadow-test for high-volume BERT and RAG rather
+     than forcing migrate. ANN/bi-encoder stay;
+     cross-encoder may shadow; generation stays
+     generative; arithmetic stays in code. Do **not**
+     invent a LICENSE. Do not copy `npx skills add`.
+
+   **Mental model:** Decision-as-plugin. Jev proposes
+   the next bounded act / whether to move a classifier;
+   code owns policy, rollback, and leftover generation.
+   Soft Noul ≠ hard safety: 0.95 FINISH / 0.55 min p
+   / cost-gate fail are **sensors**. Keep is a win.
+
+   **Name lock:** always write
+   **petercr/jev-orchestrator**,
+   **Charlyhno-eng/jev-codex-pilot**,
+   **SunnyKikiHK/jev-replacement**. Description ≠
+   live Choice set. **≠** ctmx/openrouter-jev-mcp
+   Decision-as-Plugin (1347) **≠** jeffrey
+   decider≠executor.
+
+2. **Evidence projection vs LLM summary**
+
+   - **[`jackboykin/quarry`](https://github.com/jackboykin/quarry)**
+     (Go MIT; **0★**; created 2026-09-19T21:27Z;
+     HEAD `971048b` on **master**; README SHA
+     `48e119fd`; GitHub `size` 0). README *theirs*:
+     “Claude Code's WebFetch and similar tools give
+     the main model a small model's summary.”
+     “**fetch**: saves the page to disk and hands the
+     model its path, with the line ranges Jev scores
+     as answering the prompt. Falls back gracefully
+     if jev cannot be reached.” `jev.go` *theirs*:
+     “The answer is only ever a line range of the
+     saved file: **a pointer to read, never a
+     paraphrase to trust.**” 5 s timeout → page
+     without Jev. Two-pass shortlist on pages >
+     300_000 chars (`twoPassSize`); noul **p&lt;0.5**
+     dropped; top **3** ranges. quarry evidence projection.
+     Do not copy `go install` / `EXA_API_KEY` /
+     plugin marketplace.
+
+   **Mental model:** retrieve/fetch wide → decide
+   which *spans* are evidence → the agent reads the
+   file. Soft Noul ≠ hard safety: 0.5 drop / 5 s
+   fail-open are sensors. Score ≠ truth.
+
+   **Name lock:** always write **jackboykin/quarry**.
+   **≠** savka777/jev-search pointer sieve §92
+   **≠** choxos/jev-reviewer two-pass **≠** jev-sift.
+
+3. **Soft judgment integrity** (cross-lane pointers;
+   rh-guard owns CI/exec gates)
+
+   - **[`seb4ez/jevguard`](https://github.com/seb4ez/jevguard)**
+     (Python MIT; **0★**; created 2026-09-19T21:04Z;
+     HEAD `138c8fe`; README SHA `7dc0906b`; GitHub
+     `size` 0). Escape `UNRESOLVED_OR_OTHER` when
+     Choice has no fallback. Calibrator
+     `AMBIGUOUS_STATE` when top **p&lt;0.40** or
+     margin **&lt;0.15**. SHA-256 cache + volatile
+     masking (`timestamp` / `trace_id` / `nonce`).
+     21 tests. Strict enums: `closed_world=True`
+     skips the escape. jevguard calibrator/cache/escape.
+     **≠** hyperspaceai/jevcache.
+   - **[`guilhem/jev-ci-selector`](https://github.com/guilhem/jev-ci-selector)**
+     (TypeScript; GitHub license **null**; **0★**;
+     created 2026-09-19T19:55Z; HEAD `052073a`;
+     README SHA `a9bb7653`; size 432). README
+     *theirs*: “Start in shadow mode. Measure before
+     you skip.” Default `shadow`: every task still
+     runs; report records `proposed_run`. `enforce`
+     is explicit opt-in. `skip_below` **0.05** is
+     “an experiment, not an error-rate guarantee.”
+     Timeout / no-key / invalid response / fork PRs
+     / catalog edits → **keep all**. Mandatory and
+     path rules beat Jev. jev-ci-selector CI shadow mode.
+     Do not invent a LICENSE. Do not copy
+     `JEV_API_KEY` / `uses:` pin as a recipe.
+
+   **Mental model:** remainder after exact rules;
+   shadow then honor; fail-open when the sensor is
+   missing. Soft Noul ≠ hard safety: 0.40 / 0.15 /
+   0.05 are **sensors**, not proofs. Hard-gating
+   skip_below as merge policy is theater.
+
+   **Name lock:** always write **seb4ez/jevguard**
+   and **guilhem/jev-ci-selector**. **≠**
+   hyperspaceai/jevcache **≠** ci-gatekeeper
+   **≠** totally-tim/jev-gate.
+
+4. **Physical/control first-class System One domain**
+
+   - **[`Frank-ZY-Dou/awesome-jev`](https://github.com/Frank-ZY-Dou/awesome-jev)**
+     (GitHub license **null**; **0★**; created
+     2026-09-19T21:06Z; HEAD `538a6e9`; README SHA
+     `c4825b7f`; GitHub `size` 0). Curated atlas of
+     robot / 3D / control uses. Quotes authors;
+     archives media. README *theirs*: “Text only…
+     This is why every robotics post below feeds Jev
+     structured state rather than camera images.”
+     Counts *theirs*: physical hardware **2**;
+     simulation **8**; 3D/camera **4**; vehicles /
+     drones / games in sim **4**. OpenRoboto
+     apple-to-plate *theirs* (one seed-0, not a
+     success-rate): Jev 1.13 **113** cycles
+     **$0.018825** vs GPT-6 Astra **106** cycles
+     **$5.933624**; GPT-4.1 mini hit 160-cycle
+     limit. “Displayed probabilities have different
+     sources; neither is calibrated task-success
+     confidence.” Hard real-time control is out of
+     scope (points at systemonemodels.org).
+     Frank-ZY-Dou/awesome-jev robotics/3D/control.
+     **≠** walidboulanouar/awesome-jev-use-cases
+     **≠** AnotiaWang/awesome-jev **≠**
+     yibie/awesome-jev **≠** cobanov/awesome-jev.
+     Do **not** re-card RomanSlack/jev-drone,
+     khordoo, HA-Jev, jev-drive. Do not invent a
+     LICENSE. Do not paste 193.6× / 444.6× vendor
+     ceilings as Harbor.
+
+   **Mental model:** System One on **text-state**;
+   actuators / Hertz / collisions stay exact. Soft
+   Noul ≠ hard safety: confidence overlays are
+   sensors; physics owns the stop. One seed-0 ≠
+   a rate.
+
+5. **Harbor-jevals / injection-firewall** (rh-guard
+   owns the gate cousin; defense-eval notes only)
+
+   - **[`PavitarSinghArneja/one-dollar-tahoe`](https://github.com/PavitarSinghArneja/one-dollar-tahoe)**
+     (Python MIT; **0★**; created 2026-09-19T21:41Z;
+     HEAD `dbf14ff`; README SHA `84bf6bd2`; GitHub
+     `size` 0). Six-arm defense eval including
+     TypeSafe Jev vs ~**36** attacks + **38** benign
+     (~**74** demo, not a powered bench). README
+     *theirs*: “~74 messages is a demonstration set,
+     not a statistically powered benchmark.” “We
+     only tested a static attack list.” Adaptive
+     attackers *cited* as published 2026 research
+     (&gt;85% bypass when they know the defense) —
+     not this repo’s number. Fictional dealership
+     sandbox. **README has no ASR/FPR numbers** —
+     do **not** invent. Do **not** copy
+     `corpus/attacks.json` or reproduce exploit
+     steps. one-dollar-tahoe TypeSafe Jev defense eval.
+     rh-guard owns the injection-firewall gate
+     cousin. Augustus places: Jev as SENSOR in
+     front of a generator; keyword/spotlighting/
+     LLM-as-judge as compare arms; threshold sweep
+     is an approximation. Do not copy
+     `TYPESAFE_API_KEY` / `GROQ_API_KEY`.
+
+   **Mental model:** Harbor-jevals for *incoming
+   manipulation* as a typed question, then policy.
+   Soft Noul ≠ hard safety: a blocklist is the
+   exact remainder; Jev judges leftovers; a static
+   74-row demo is not a rate.
+
+6. **llama.cpp replica** (class-backend; not TypeSafe)
+
+   - **[`webNeat/llama-jev`](https://github.com/webNeat/llama-jev)**
+     (TypeScript; GitHub license **null**; **0★**;
+     created 2026-09-19T14:11Z; HEAD `fdf989a`;
+     README SHA `5ec204af`; size 8). WIP llama.cpp
+     replica. README *theirs*: “implement a jev like
+     API on top of llama.cpp server.” `docs/story.md`
+     *theirs*: numbered-choice next-token softmax on
+     `minicpm5-2b-q8`; **80 ms** cold / **40 ms**
+     cache on one example. Softmax over `1`/`2`/`3`
+     ≠ a calibrated Noul. llama-jev llama.cpp replica.
+     **≠** TypeSafe `/v1/systemone` **≠** pcdServer
+     **≠** chakuho 1-token logprob **≠**
+     githubnext/localjev. Do not invent a LICENSE.
+     Do not paste 80/40 ms as a class ceiling.
+
+   **Mental model:** constrained next-token mass is
+   a **format**, not a proper-scoring head.
+   Replica honesty: wire-shaped ≠ calibrated.
+
+### Theater (do not)
+
+Treat GitHub “difficulty” as a live Score; paste
+orchestrator 0.95 as Harbor τ; treat keep as failure;
+summarize quarry pages instead of reading pointers;
+fail-closed quarry if Jev is down; treat jevguard
+cache as hyperspaceai/jevcache; skip CI from
+skip_below 0.05; paste OpenRoboto $0.018825 as a
+success-rate; send camera frames to Jev for the
+decision; invent one-dollar-tahoe ASR/FPR; copy
+attack payloads; quote llama-jev 80 ms as ECE;
+treat Qwen3.8-27B as Archer.
+
+### Census (not re-derived)
+
+Census **not provided this hour**. Archer Hume
+open-weight still **NOT landed**. Last pin from
+§92 (user-provided; not re-derived): tracker likes
+**50** `lastModified` **2026-09-19T18:37:18Z**
+UNCHANGED; SemIf 1873; jevlike 969; TypeAR 10;
+Awesomejev 561/27007. Do not invent a new census.
+
+### Not
+
+Not a TypeSafe how-to. Not a Jev skill dump. Not
+wrappers. Do not copy keys / `uv` / `npx` /
+`go install` / plugin-marketplace / `.env`. Do
+not re-fold 1441 / §92. Do not re-card HA-Jev /
+khordoo / RomanSlack/jev-drone / jev-drive /
+walidboulanouar/awesome-jev-use-cases /
+ctmx/openrouter-jev-mcp / jeffrey /
+savka777/jev-search / hyperspaceai/jevcache /
+ci-gatekeeper. rh-guard still owns
+one-dollar-tahoe / jev-ci-selector as gate cousins
+— Augustus only cross-refs placement. Do not
+reply into finished agents.
+
+### Curated status
+
+1541 HIGH **folded** (9 sources in six clusters;
+gate cousins as rh-guard cross-refs). 1441 / §92
+**not re-carded**. Archer still **NOT landed**.
+Census not re-derived. 0★ HIGHs still got real
+cards.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`judgment-class.md`; `validation.md`;
+`applied-mappings.md`; `mappings.md`;
+`toolbox-mapping.md`; `composition-algebra.md`
+items 80–85; `question-design.md`;
+`methods-catalog.md`; `formal-methods.md`;
+`agent-self-assessment.md`. Hunches labeled.
+No wrapper.

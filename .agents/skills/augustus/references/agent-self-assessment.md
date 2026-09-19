@@ -239,6 +239,10 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    Foq ~25ms/2.2GB local; pastepilot Confirm before act;
    typesafe_agent_gates 27/27 / 31/31; dsh-jev can only gate;
    ha-conversation-jev Jev→Grok (`notes.md` §92).
+   Soft judgment integrity (shadow / calibrator / fail-open):
+   jevguard calibrator/cache/escape; jev-ci-selector CI
+   shadow mode; one-dollar-tahoe TypeSafe Jev defense eval
+   (`notes.md` §93). rh-guard owns the gate cousins.
    Closed-vote extreme (no planner LLM):
    [JevOnly](https://github.com/buluoray/JevOnly) (`notes.md` §61).
    Host-owned product:

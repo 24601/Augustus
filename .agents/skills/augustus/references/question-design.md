@@ -212,6 +212,15 @@ request, and treat a stale pin as a prior, never a setting.
 | Quote akpsahan vs-Jev as a new measure / treat as Archer | Hub copy | akpsahan/laya ≠ Archer. meldltd/meldecision laya-go ONNX. laya-doom never pixels. logixism/laya-api empty README. `notes.md` §92 |
 | Let Jev own chess / AV / customs Post / API Victory | Engine / sim / taxonomy | choxos/jevchess engine owns truth. jev-drive sim not AV. story-arc Jev never authors. jev-hs-assistant HS6. golergka/jev-plays-starcraft-2 UI-verified ≠ API Victory. `notes.md` §92 |
 | Treat typesafe-go as official / likes as eval | Unofficial; catalog | Nibir1/typesafe-go ≠ official. awesome-jev-use-cases catalog. `notes.md` §92 |
+| Treat orchestrator “difficulty” as a live Score | Description ≠ code | difficulty + policy thresholds + JSONL trace. `notes.md` §93 |
+| Treat jev-codex-pilot as a bake-off | Thin overlay | jev-codex-pilot model + reasoning depth. `notes.md` §93 |
+| Treat keep as failure / force BERT onto Jev | Cost gate; keep is a win | keep/shadow/hybrid/reject. `notes.md` §93 |
+| Summarize quarry pages / fail-closed if Jev is down | Pointer; fail-open | quarry evidence projection. `notes.md` §93 |
+| Collapse Frank-ZY-Dou into walidboulanouar / paste $ as a rate | Atlas; seed-0 | Frank-ZY-Dou/awesome-jev robotics/3D/control. `notes.md` §93 |
+| Invent one-dollar-tahoe ASR/FPR / copy attacks | No numbers; demo | one-dollar-tahoe TypeSafe Jev defense eval. `notes.md` §93 |
+| Collapse jevguard into jevcache / skip the escape | Namesake; calibrator | jevguard calibrator/cache/escape. `notes.md` §93 |
+| Skip CI from skip_below 0.05 | Shadow default | jev-ci-selector CI shadow mode. `notes.md` §93 |
+| Treat llama-jev softmax as a Noul | Format ≠ proper scoring | llama-jev llama.cpp replica. `notes.md` §93 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

@@ -112,6 +112,12 @@ component; keep the rest of the method in code.
 | Experimental design: SRE paging trigger | Synthetic stream; p≥0.50 recommended | **Empirical as HF card** (jev-luna-pagerduty p≥0.50; n=3000 *theirs*; ≠ Loghub; `notes.md` §92) |
 | Experimental design: Laya ONNX byte-parity | 4-decimal goldens; int8 drift | **Empirical as README** (meldltd/meldecision laya-go ONNX; 319.5 ms example; `notes.md` §92) |
 | Experimental design: UI-verified ≠ API Victory | Campaign missions; API can lie | **Empirical as lab journal** (golergka/jev-plays-starcraft-2 UI-verified ≠ API Victory; `notes.md` §92) |
+| Experimental design: decision-as-plugin next-act | Policy thresholds in code; JSONL traces | **Empirical as README** (difficulty + policy thresholds + JSONL trace; description ≠ live Choice; `notes.md` §93) |
+| Experimental design: keep/shadow/hybrid/reject | Cost gate can fail while quality passes | **Empirical as README** (keep/shadow/hybrid/reject; 20-case *theirs* failed cost; `notes.md` §93) |
+| Experimental design: evidence projection | Pointer line ranges; fail-open | **Empirical as code comment** (quarry evidence projection; p&lt;0.5 dropped; `notes.md` §93) |
+| Experimental design: injection-firewall demo | Static ~74; no published ASR/FPR | **Empirical as README limits** (one-dollar-tahoe TypeSafe Jev defense eval; do not invent numbers; `notes.md` §93) |
+| Experimental design: llama.cpp replica | Numbered-choice softmax ≠ Noul | **Empirical as story.md** (llama-jev llama.cpp replica; 80/40 ms *theirs*; `notes.md` §93) |
+| Experimental design: physical/control atlas | Text-state; one seed-0 | **Empirical as curated quotes** (Frank-ZY-Dou/awesome-jev robotics/3D/control; `notes.md` §93) |
 | Experimental design: recipe samples vs benches | Handmade 16–36; authors declare not-a-bench; cost/latency still reportable | **Empirical as recipe atlas** (jev-cookbook 425/$0.015; browser 5/6 *theirs*; `notes.md` §71) |
 | Experimental design: competing NAR claim-audit | Like-for-like ECE; n/CI; throughput ≠ latency; vendor-baseline rows named | **Hypothesis until independent run** (openJev-verdict-2.0 77.10%/0.0636/0.0144 *theirs* + PR #1; ≠ IamBusy/OpenJev; `notes.md` §71) |
 | Experimental design: 1-token logprob vs hosted Jev | Coverage ≠ correctness; `__none__` gold; shuffle/mix; numeric-rule probe | **Empirical as 336-case GUI + mario** (chakuho; `notes.md` §72) |
