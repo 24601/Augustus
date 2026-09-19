@@ -73,6 +73,13 @@ property, or failing seed a human looks at first; score whether a
 production trace resembles a spec behavior; lint an artifact against a
 *named, project-written* rule (`mixed-architecture.md` preference lint;
 Abide is the productized path of that hole, `notes.md` §47).
+Skills→oxlint is the same ownership split on a linter runtime: AST /
+precheck *prove* what they can; Jev scores the remainder; do not
+hard-gate CI on an uncalibrated Noul
+([jev-oxlint](https://github.com/cephalization/jev-oxlint) Phoenix
+experiment, `notes.md` §58). PR **attention** is not correctness
+([egma-ai/jev-reviewer](https://github.com/egma-ai/jev-reviewer) —
+anti-soundness-theater; **not** choxos pointer-not-generator).
 **What does not:** closing a proof obligation, replacing TLC/Apalache/
 GNATprove, or treating "DST hasn't failed this week" as a safety case.
 

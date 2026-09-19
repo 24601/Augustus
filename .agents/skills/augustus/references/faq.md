@@ -618,7 +618,7 @@ missing verdict is not a block and not a pass — fail-open /
 heartbeat, do not hold forever ([jevable.com](https://jevable.com/)
 class pattern). Contrast Abide `<0.5` silence (the *edit proceeds*).
 Same sandwich, opposite authorized act.
-`notes.md` §50, §51, §53, §55, §56.
+`notes.md` §50, §51, §53, §55, §56, §58.
 
 ## Is observe→score→act Jev-only?
 
@@ -652,6 +652,59 @@ No. Pick-and-copy is a **fast path**. Schema leftovers, screenshot
 extract, failed gates, and abstention still call the LLM. 36/75 with
 the LLM disabled is the honesty number. `applied-mappings.md` §2;
 `notes.md` §57.
+
+## Is a public yes/no wall the product?
+
+It is a **primitive surface**, not a chatbot. [ask-jev-ai](https://github.com/waynesutton/ask-jev-ai):
+one call, six questions, policy in `convex/questions.ts`, code
+decides live/blocked. Cost-to-1M from TypeSafe token counts
+($32–$41), not estimates. No-key: allowlist, UI says Jev offline.
+License null this pass. Do not copy Convex how-to.
+`mixed-architecture.md`; `notes.md` §58.
+
+## Meaning-search or grep?
+
+Use grep when you know the string. [jevgrep](https://github.com/Bentlybro/jevgrep)
+is for "where is the code that *does* X" with no embeddings: packed
+parallel Jev relevance; 79% top-5 vs BM25 40% / grep 20% on
+docstring-stripped repos; BM25 still wins exact wording (top-10
+96% vs 85%). Distinct from kazuhideoki file+fzf, superagents-lab
+web, and jev-sift classify-first. `mappings.md` §4; `notes.md` §58.
+
+## Attention or correctness on a PR?
+
+Attention. [egma-ai/jev-reviewer](https://github.com/egma-ai/jev-reviewer)
+assigns P0/P1/P2 for where to look; OpenAI writes behavior deltas.
+Incomplete never becomes P2. That is **not**
+[choxos/jev-reviewer](https://github.com/choxos/jev-reviewer)
+(pointer-not-generator). A Noul is not a proof the PR is good.
+`formal-methods.md`; `notes.md` §48, §58.
+
+## Can oxlint hard-gate on a Noul?
+
+No. [jev-oxlint](https://github.com/cephalization/jev-oxlint) AST /
+precheck prove what they can; guidance lives whole-file in state;
+Jev scores the remainder. Phoenix fixtures matched the human
+answer key; routing was sharp; the coarse hint was not. Experiment;
+`tenbin` owns the lint skill. Do not treat remainder Noul as a
+discharged proof. `mappings.md` §18; `notes.md` §58.
+
+## Session-sticky routing: fail-open or fail-closed?
+
+Name the irreversible act: *sending a model*.
+[jev-adaptive-thinking](https://github.com/jxu-dev-c/jev-adaptive-thinking)
+locks a declared standard (`gpt-5.6-sol`) on timeout / no session.
+That is fail-closed to fallback, not jev-gateway passthrough.
+First prompt classifies; later requests never reclassify. Same
+family as routeKit (Jev estimates; code picks). `applied-mappings.md`
+§5; `notes.md` §58.
+
+## Did Jev-RAG beat full-context Spark on latency?
+
+No. [Jev-RAG](https://github.com/Max-sm-yc/Jev-RAG) one-run: ≥70%
+cost and 72% latency **vs Muse Spark rerank**. Full-context Spark
+is still **faster** (10.60 s vs 62.3 s). Costs include embeddings.
+Do not overclaim vs no-RAG. `mappings.md` §4; `notes.md` §58.
 
 ## Is Cua-S1 TypeSafe Jev?
 

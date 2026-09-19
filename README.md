@@ -61,14 +61,16 @@ never launder a Noul as a proof.
   specialist S1 computer-use (Cua-S1 form-v0; plan ≠ execute; not TypeSafe Jev);
   judgment as a language primitive (hunch); decision-native RAG
   (retrieve wide → decide → evidence set); classify-first MCP
-  (jev-sift); draft-gate heartbeat; living class-pattern atlas
+  (jev-sift); draft-gate heartbeat; living class-pattern atlas;
+  public judgment wall; PR attention ≠ correctness; session-sticky
+  first-prompt route
 - `.agents/skills/augustus/references/applied-mappings.md` — context sieve,
-  exact-text keep/drop (extractive / pointer-not-generator; char-offset compaction; observed a11y/DOM controls; Bash stdout prune; verbatim session ledger / carryforward; classify-first MCP / jev-sift; Stagehand extract pick-and-copy), env triage (OpenSmoke + latch merge-gate), moderation/ranking (decision-native RAG evidence set; living class-pattern atlas), skill routing (route ≠ memory)
+  exact-text keep/drop (extractive / pointer-not-generator; char-offset compaction; observed a11y/DOM controls; Bash stdout prune; verbatim session ledger / carryforward; classify-first MCP / jev-sift; Stagehand extract pick-and-copy), env triage (OpenSmoke + latch merge-gate), moderation/ranking (decision-native RAG evidence set; living class-pattern atlas; meaning-search without embeddings / jevgrep; measured RAG rerank vs generative rerank), skill routing (route ≠ memory; session-sticky first-prompt lock)
 - `.agents/skills/augustus/references/faq.md` — "just classification",
   stack replacement, Jev vs open head vs encoder vs LoRA vs constrained AR vs kev vs blackwood,
   wait-for-Archer, missing-other confident-wrong, soft project rules vs linter (Abide), extractive/pointer-not-generator, compaction summarize vs pointer, encoder vs Jev compaction, fail-closed keep_full, shadow-mode rollout, fail-open vs fail-closed wake vs CI gate, observe→score→act backend-agnostic, hybrid local decide + remote fill, DONE ≠ verified success, stdout prune vs session compaction, Cua-S1 vs TypeSafe Jev, plan ≠ execute / dry-run, local drop-in vs stub scorer, route ≠ memory, when-it-holds / extractable-from-state, decision-model vs constrained LLM, dual-process S1/S2, combinatorial grid ≠ extractive, GLiNER vs GLiClass vs CLIP, LLM-as-judge, in-engine vs CLI store,
   hard envelope (bitrate / planner), not-another-how-to,
-  uncalibrated local likelihoods ≠ Noul, decision-native RAG, classify-first MCP, living applied-mappings atlas / class patterns, draft-gate silence ≠ safer, robotics text-state vs pixels, Stagehand extract pick-and-copy / fast-path not replacement, cascade
+  uncalibrated local likelihoods ≠ Noul, decision-native RAG, classify-first MCP, living applied-mappings atlas / class patterns, draft-gate silence ≠ safer, robotics text-state vs pixels, Stagehand extract pick-and-copy / fast-path not replacement, public judgment wall / six parallel questions, meaning-search without embeddings, attention≠correctness PR review, skills→oxlint not a hard gate, session-sticky fail-closed routing, measured RAG rerank vs generative rerank, cascade
   sign-flip / calibration theater, Precision PDF honest negative
 - `.agents/skills/augustus/references/mappings.md` — classical-method
   mappings with boundaries, counterexamples, acceptance tests (including
@@ -84,7 +86,10 @@ never launder a Noul as a proof.
   success; demo is not a bake-off); Cua-S1 specialist form source-only
   (metric names, no checkpoint scores; not TypeSafe Jev); Stagehand
   extract pick-and-copy 37/75 no-LLM ~0.5s vs 4.37s (*their* card;
-  pick ≠ replacement; draft #2951–#2955); jev-testbench collab arms; ARC-AGI Direct Jev as
+  pick ≠ replacement; draft #2951–#2955); jevgrep 79% top-5 vs BM25
+  / grep on stripped repos; Jev-RAG one-run vs Spark rerank
+  (full-context Spark still faster); jev-oxlint Phoenix answer-key;
+  jev-testbench collab arms; ARC-AGI Direct Jev as
   combinatorial-≠-extractive negative; jev-gateway-bench Harbor on/off
   routing one-run signal; jev-pruner Harbor needle/noise + Terminal-Bench
   integration pilot, not a full bench; jev-baselines-eval pre-registered

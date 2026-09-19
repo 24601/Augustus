@@ -1209,6 +1209,65 @@ replacement (36/75 LLM-off honesty); (dj) cache-check errors fail
 open (never block replay); (dk) best+strict is NOTA at pick time;
 (dl) draft stack #2951–#2955 Watch merge.
 
+## Batch #42 (2026-09-19 ~00:46 UTC / ~18:46 Boise 2026-09-18) — public wall, meaning-search, attention≠correctness, skills→oxlint, session-sticky route, measured RAG rerank
+
+Note: `research/notes.md` §58. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Do not re-fold
+§50–§57 (Stagehand is already §57).
+
+- **waynesutton/ask-jev-ai (Empirical as README / live wall).**
+  JavaScript. Created 2026-09-19T00:23:46Z; 0★; **license null.**
+  Public realtime judgment wall; 6 parallel questions/ask; policy
+  in `convex/questions.ts`; safety p≥0.6 blocked; no-key allowlist
+  (UI says Jev offline). Cost $0.000032–$0.000041/ask from TypeSafe
+  token counts → $32–$41/1M. Live askjev.ai. Productized System
+  One primitive surface.
+- **Bentlybro/jevgrep (Empirical as stripped-repo card).** Python
+  MIT. Created 2026-09-19T00:09:47Z; 0★. Meaning-search CLI+MCP
+  without embeddings. 228 questions on docstring-stripped
+  Flask/httpx/Django/AutoGPT: **79% top-5** vs BM25 40% / grep 20%.
+  Keyword still wins exact (BM25 top-10 96% vs 85%). Packed+parallel
+  0.9 s vs serial ~23 min AutoGPT 4,329 files. Distinct from
+  kazuhideoki / superagents-lab / jev-sift.
+- **egma-ai/jev-reviewer (Empirical as README architecture).**
+  JavaScript MIT. Created 2026-09-19T00:38:48Z; 0★. Jev assigns
+  attention P0/P1/P2; OpenAI writes behavior deltas. Attention ≠
+  correctness. **Not** choxos/jev-reviewer. Incomplete never P2.
+  Demo: real Jev + labeled prepared explanation copy; live OpenAI
+  pending funded API.
+- **cephalization/jev-oxlint (Empirical as Phoenix experiment).**
+  TypeScript. Created 2026-09-19T00:34:49Z; 0★; license null.
+  Experiment; nothing published. AST/precheck prove; guidance
+  whole-file in state; remainder judged; not a hard gate. Phoenix:
+  answer-key agree on every fixture; flush-only-on-success noul
+  0.07; routing 0.80–0.94 vs <0.50; coarse hint not. `tenbin` owns
+  the lint skill.
+- **jxu-dev-c/jev-adaptive-thinking (Empirical as README session
+  machine).** Go. Created 2026-09-19T00:35:37Z; 0★; license null.
+  Session-sticky first-prompt classification; later never
+  reclassify; fail-closed lock to `gpt-5.6-sol`. Same family as
+  routeKit. Live testing left to the deployer.
+- **Max-sm-yc/Jev-RAG (Empirical as one-run).** Python. Created
+  2026-09-19T00:33:02Z; 0★; license null. ≥70% cost / 72% latency
+  vs Muse Spark *rerank*; full-context Spark still 10.60 s. Costs
+  include embeddings.
+- MED: EpicEric/safe-sh (AGPL-3.0; static shell analysis);
+  ravikadam/jev-loan-triage (17 questions; policy in code);
+  TurboGuo/jev-fedspeech + jev-dating (Jev vs chat arenas; prior
+  empty search was a query miss); g-h-miles/jevbox (MIT; drums).
+  hermes/mcp packs: **no new pack this pass.**
+
+Cross-repo addition: (dm) productized public primitive surface
+(six parallel questions; policy-in-code; cost-to-1M from tokens);
+(dn) meaning-search without embeddings (packed parallel; keyword
+still wins exact strings); (do) attention ≠ correctness on a PR
+(anti-soundness-theater; not choxos pointer); (dp) skills→oxlint
+AST prove ∩ remainder without hard-gating; (dq) session-sticky
+first-prompt route fail-closed to a declared fallback; (dr)
+measured RAG rerank vs generative rerank must keep the no-RAG
+latency arm visible.
+
+
 
 
 

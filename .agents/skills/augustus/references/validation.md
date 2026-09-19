@@ -330,6 +330,9 @@ Rules:
 | Pre-registered cascade vs nano/frontier/encoder | [jev-baselines-eval](https://github.com/ickma2311/jev-baselines-eval) | Both experiments **AMBIGUOUS**; cascade sign-flip at exact parity; confidence=1.0 theater; encoder 0.933/9ms with labels; serving-path ≠ model-speed; same-day errata ×3 |
 | Healthcare S1+S2 (synthetic FHIR) | [explore-typesafe-ai](https://github.com/si618/explore-typesafe-ai) | Labels committed first; 60 requests / 403 judgments; **not clinically validated**; Claude wrote labels |
 | Precision PDF (honest negative) | [databricks-jev-pdf-lab](https://github.com/laurentfabre/databricks-jev-pdf-lab) | No quality-equivalent Jev payoff; no OSS license selected |
+| Meaning-search without embeddings | [jevgrep](https://github.com/Bentlybro/jevgrep) | 228-q stripped Flask/httpx/Django/AutoGPT: 79% top-5 vs BM25 40% / grep 20%; keyword still wins exact (BM25 top-10 96% vs 85%); not a Harbor taskset |
+| RAG rerank vs generative rerank | [Jev-RAG](https://github.com/Max-sm-yc/Jev-RAG) | One-run ~30k tokens: ≥70% cost / 72% latency vs Spark *rerank*; full-context Spark still 10.60 s; costs include embeddings |
+| Skills→oxlint remainder | [jev-oxlint](https://github.com/cephalization/jev-oxlint) | Phoenix: answer-key agree on every fixture; routing 0.80–0.94 vs <0.50; coarse hint not; experiment; not a hard gate |
 
 rh-guard is a reward-hack hook, a different surface from jevgate and
 from Abide (eval-integrity vs allowlist-remainder vs project soft
@@ -418,6 +421,35 @@ license).**
 — no quality-equivalent end-to-end Jev payoff. Compact tokens
 changed 26/236 recommendations. Public snapshot cannot reproduce
 historical accuracy. Typed output is not truth (`notes.md` §55).
+
+**Meaning-search Harbor-shaped card (Empirical as their stripped-
+repo table; 2026-09-18 ~18:46).**
+[jevgrep](https://github.com/Bentlybro/jevgrep): 228 questions on
+Flask/httpx/Django/AutoGPT with docstrings and comments removed.
+Right file in top 5: **79%** vs BM25 40% / grep 20%. Honest
+negative: BM25 top-10 96% vs 85% when the exact wording is known.
+Packed+parallel 0.9 s vs serial ~23 min on AutoGPT 4,329 files.
+Frozen copies + labeled questions + comparable harnesses — not a
+Harbor taskset, not Wilson/McNemar published. Do not copy
+`install.sh` (`notes.md` §58).
+
+**Measured RAG rerank vs generative rerank (Empirical as one-run;
+Hypothesis as a transfer).**
+[Jev-RAG](https://github.com/Max-sm-yc/Jev-RAG): RAG+Jev+Spark
+$0.00122838 / 62.3 s vs RAG+Spark-rerank+Spark $0.00421838 /
+228.14 s vs Spark full-context $0.0032 / **10.60 s**. ≥70% cost
+and 72% latency vs Spark *rerank*, not vs no-RAG. Costs include
+embeddings. License null. Do not invent a bake-off
+(`notes.md` §58).
+
+**jevals-shaped oxlint remainder (Empirical as Phoenix fixtures;
+experiment).**
+[jev-oxlint](https://github.com/cephalization/jev-oxlint): human
+answer key vs Noul on every fixture (agree, wide margins); routing
+sharp 0.80–0.94 vs <0.50 across 41 files; coarse hint not. Found
+a real flush-only-on-success bug (noul 0.07). ~$0.002 / ~$0.015;
+second run zero requests. Not a hard gate. `tenbin` owns the lint
+skill (`notes.md` §58).
 
 **Harbor-adjacent stdout prune (Empirical as README / evals README
 behavior, not a full Terminal-Bench ranking; 2026-09-18 ~17:15).**

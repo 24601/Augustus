@@ -498,6 +498,12 @@ Use these as *existence proofs of a position*. Write your own card.
 | Application control flow | `if` / `case` on a judgment | `chance`/`pick`/`rate` as language primitives (**Empirical**: hunch; English-as-config) | Fail polarity per action; stub backend |
 | Healthcare huddle / recon / inbox | escalate / hold / route | S1 remainder after NEWS2/code (**Empirical** as synthetic report: explore-typesafe-ai; **not clinically validated**) | NEWS2, recon, routing in code; S2 blinded review |
 | Intent cascade vs nano/encoder | escalate when unsure | pre-registered kill/go (**Empirical as practice**: jev-baselines-eval **AMBIGUOUS**; cascade sign-flip; encoder-with-labels wins) | Thresholds, serving-path honesty, ECE if you claim calibration |
+| Public primitive / wall | typed answers on a sentence | six parallel questions (**Empirical** as README: ask-jev-ai; cost-to-1M from tokens) | Policy-in-code; no-key allowlist; safety threshold in code |
+| Codebase meaning-search | relevant file/chunk without knowing names | packed parallel relevance (**Empirical**: jevgrep 79% top-5 vs BM25 40% / grep 20% on stripped repos) | Keyword still wins exact strings; two-stage outline→zoom |
+| PR review attention | where a human should look | P0/P1/P2 (**Empirical** as README: egma-ai/jev-reviewer). **Not** correctness; **not** choxos pointer-not-generator | alwaysReviewPaths P0; incomplete never P2; generator writes deltas |
+| Skill-derived lint | remainder after AST/precheck | Noul/Choice on guidance in state (**Empirical** as Phoenix: jev-oxlint) | Parser/precheck in code; not a hard gate; `tenbin` owns lint skill |
+| Session model route | which model for this thread | first-prompt Choice, then lock (**Empirical** as README: jev-adaptive-thinking) | Fail-closed declared fallback; never reclassify later turns |
+| RAG vs generative rerank | which passages to keep | pointwise relevance (**Empirical** as one-run: Jev-RAG ≥70%/72% vs Spark rerank; full-context Spark still faster) | Embeddings generate candidates; name the no-RAG arm |
 
 Rejected in every domain: replacing the ledger with a vibe; replacing
 the interlock with confidence; replacing the essay with a Noul;

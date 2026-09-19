@@ -677,6 +677,35 @@
   question-design, ecosystem, CHANGELOG, README.
 - notes.md §57; sources.json; findings.md batch #41. No wrapper.
 
+## 2026-09-19 00:46 UTC — public wall, meaning-search, attention≠correctness, skills→oxlint, session-sticky route, measured RAG rerank (~18:46 Boise 2026-09-18)
+
+- Folded into open PR #2 (`cursor/augustus-store-envelope-00b4`).
+  Docs-only. Not a competing PR. Archer 27B drop still **WATCH**.
+  No invented metrics. No wrapper. Do not re-fold §50–§57.
+- HIGH: [waynesutton/ask-jev-ai](https://github.com/waynesutton/ask-jev-ai)
+  public judgment wall; 6 parallel questions; policy-in-code;
+  cost-to-1M from tokens; license null.
+  [Bentlybro/jevgrep](https://github.com/Bentlybro/jevgrep) meaning-
+  search without embeddings; 79% top-5 vs BM25 40% / grep 20% on
+  stripped repos; keyword still wins exact strings.
+  [egma-ai/jev-reviewer](https://github.com/egma-ai/jev-reviewer)
+  attention P0/P1/P2 ≠ correctness; **not** choxos.
+  [cephalization/jev-oxlint](https://github.com/cephalization/jev-oxlint)
+  skills→oxlint AST∩remainder; Phoenix fixtures; not a hard gate.
+  [jxu-dev-c/jev-adaptive-thinking](https://github.com/jxu-dev-c/jev-adaptive-thinking)
+  session-sticky first-prompt; fail-closed fallback.
+  [Max-sm-yc/Jev-RAG](https://github.com/Max-sm-yc/Jev-RAG) one-run
+  ≥70% cost / 72% latency vs Spark *rerank*; full-context Spark
+  still faster.
+- MED: safe-sh, jev-loan-triage, TurboGuo jev-fedspeech/jev-dating,
+  jevbox. hermes/mcp packs not found this pass.
+- Cards: SKILL.md, applied-mappings §4/§5, mappings §4/§18,
+  mixed-architecture (fail table + gallery), validation, faq,
+  mental-models, methods-catalog, toolbox, agent-self-assessment,
+  formal-methods, ecosystem, CHANGELOG, README.
+- notes.md §58; sources.json; findings.md batch #42. No wrapper.
+
+
 
 
 

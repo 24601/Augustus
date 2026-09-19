@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T00:48Z",
+  "retrieved": "2026-09-19T00:50Z",
   "sources": [
     {
       "kind": "docs",
@@ -1486,7 +1486,6 @@
     },
     {
       "kind": "github",
-      "kind": "github",
       "title": "CaseReed/latch",
       "url": "https://github.com/CaseReed/latch",
       "note": "MIT. Merge-gate: cluster in code, Jev labels cause, policy Gate PASS vs BLOCK. Judge never says ignore alone. Pair Harbor + rh-guard. notes.md \u00a751."
@@ -1724,6 +1723,78 @@
       "title": "browserbase/stagehand#2955",
       "url": "https://github.com/browserbase/stagehand/pull/2955",
       "note": "OPEN draft 5/5 (user link). Experimental Jev extract(): completion judge + pick-and-copy. extract off|judge|pick. Jev picks elements; code copies text. Schema/gate/screenshot-always-LLM else LLM. Their card (gemini-3.8-flash, Browserbase, local, 25\u00d73): 69/75 vs 23/25 (92% both); 37/75 no-LLM ~0.5s vs baseline 4.37s / two LLM calls; LLM-off 36/75 \u2014 pick is a fast path, not a replacement. notes.md \u00a757."
+    },
+    {
+      "kind": "github",
+      "title": "waynesutton/ask-jev-ai",
+      "url": "https://github.com/waynesutton/ask-jev-ai",
+      "note": "JavaScript. Created 2026-09-19T00:23:46Z; 0 stars; license null. Public realtime judgment wall; 6 parallel questions per ask; policy in convex/questions.ts; safety p>=0.6 blocked; no-key allowlist (UI says Jev offline). Cost $0.000032-$0.000041/ask from TypeSafe token counts -> $32-$41/1M. Live askjev.ai. Productized System One primitive surface. notes.md \u00a758."
+    },
+    {
+      "kind": "web",
+      "title": "askjev.ai",
+      "url": "https://www.askjev.ai",
+      "note": "Live public wall for waynesutton/ask-jev-ai. notes.md \u00a758."
+    },
+    {
+      "kind": "github",
+      "title": "Bentlybro/jevgrep",
+      "url": "https://github.com/Bentlybro/jevgrep",
+      "note": "Python MIT. Created 2026-09-19T00:09:47Z; 0 stars. Meaning-search CLI+MCP (jgrep) without embeddings; packed parallel Jev relevance; two-stage outline then zoom top 30. 228 questions on docstring-stripped Flask/httpx/Django/AutoGPT: 79% top-5 vs BM25 40% / grep 20%. Keyword still wins exact wording (BM25 top-10 96% vs 85%). Packed+parallel 0.9s vs serial ~23 min AutoGPT 4329 files. Distinct from kazuhideoki file+fzf, superagents-lab web, jev-sift classify-first. notes.md \u00a758."
+    },
+    {
+      "kind": "github",
+      "title": "egma-ai/jev-reviewer",
+      "url": "https://github.com/egma-ai/jev-reviewer",
+      "note": "JavaScript MIT. Created 2026-09-19T00:38:48Z; 0 stars. Jev assigns PR attention P0/P1/P2; OpenAI writes behavior deltas. Attention != correctness (anti-soundness-theater). Not choxos/jev-reviewer (pointer-not-generator). Local CLI+skill+Chrome extension; does not publish PR comments. Demo: real Jev + labeled prepared explanation copy; live OpenAI pending funded API. Incomplete -> uncertainPriority (P0/P1, never P2). alwaysReviewPaths deterministic P0. notes.md \u00a758."
+    },
+    {
+      "kind": "github",
+      "title": "cephalization/jev-oxlint",
+      "url": "https://github.com/cephalization/jev-oxlint",
+      "note": "TypeScript. Created 2026-09-19T00:34:49Z; 0 stars; license null. Experiment; nothing published. Skills->oxlint: AST facts/prechecks in code; guidance whole-file in state; survey/calibrate/propose. Phoenix: jev agrees with human answer key on every fixture; found langchain quickstart flush-only-on-success (noul 0.07); routing 0.80-0.94 vs <0.50 across 41 files; coarse hint not; ~$0.002 fixtures / ~$0.015 41 files; second run zero requests. Formal methods compose with soft judgment without hard-gating. tenbin owns the lint skill. notes.md \u00a758."
+    },
+    {
+      "kind": "github",
+      "title": "jxu-dev-c/jev-adaptive-thinking",
+      "url": "https://github.com/jxu-dev-c/jev-adaptive-thinking",
+      "note": "Go. Created 2026-09-19T00:35:37Z; 0 stars; license null. CLIProxyAPI plugin: session-sticky first-prompt Jev classification for model: jev-auto; later requests never reclassify. Default tiers deepseek-v4-flash:deepseek / gpt-5.6-sol / gpt-5.6-astra. Timeout/fail/missing first-round text or no stable session ID -> lock gpt-5.6-sol (fail-closed fallback). Same family as routeKit. Live testing left to deployer this delivery. notes.md \u00a758."
+    },
+    {
+      "kind": "github",
+      "title": "Max-sm-yc/Jev-RAG",
+      "url": "https://github.com/Max-sm-yc/Jev-RAG",
+      "note": "Python. Created 2026-09-19T00:33:02Z; 0 stars; license null. One-run RAG+Jev rerank+Muse Spark vs RAG+Spark rerank+Spark vs Spark full-context over ~30k tokens (costs include embeddings): $0.00122838/62.3s vs $0.00421838/228.14s vs $0.0032/10.60s. >=70% cost and 72% latency cut vs Spark *rerank*, not vs no-RAG. Full-context Spark still faster. notes.md \u00a758."
+    },
+    {
+      "kind": "github",
+      "title": "EpicEric/safe-sh",
+      "url": "https://github.com/EpicEric/safe-sh",
+      "note": "Python AGPL-3.0. Created 2026-09-18T23:53:50Z; 0 stars. Static shell script analysis with Jev. Not pre-exec authorization. notes.md \u00a758."
+    },
+    {
+      "kind": "github",
+      "title": "ravikadam/jev-loan-triage",
+      "url": "https://github.com/ravikadam/jev-loan-triage",
+      "note": "JavaScript. Created 2026-09-19T00:31:39Z; 0 stars; license null. Voice loan-call triage: 17 typed questions; loan.js policy. Jev returns judgments, not text. notes.md \u00a758."
+    },
+    {
+      "kind": "github",
+      "title": "g-h-miles/jevbox",
+      "url": "https://github.com/g-h-miles/jevbox",
+      "note": "TypeScript MIT. Created 2026-09-19T00:26:29Z; 0 stars. Drum grooves with Jev; five kits, four bars, MIDI export. notes.md \u00a758."
+    },
+    {
+      "kind": "github",
+      "title": "TurboGuo/jev-fedspeech",
+      "url": "https://github.com/TurboGuo/jev-fedspeech",
+      "note": "JavaScript. Created 2026-09-19T00:26:43Z; 0 stars; license null. Jev vs chat hawk/dove on Fed press conferences. Live fedspeech.pages.dev. notes.md \u00a758."
+    },
+    {
+      "kind": "github",
+      "title": "TurboGuo/jev-dating",
+      "url": "https://github.com/TurboGuo/jev-dating",
+      "note": "JavaScript. Created 2026-09-19T00:26:38Z; 0 stars; license null. Jev vs chat dating red-flag / interest meter. Live jevdating.pages.dev. notes.md \u00a758."
     }
   ]
 }

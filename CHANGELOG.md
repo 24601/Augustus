@@ -321,6 +321,27 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   a fast path, not a replacement. Screenshot extract always LLM.
   Cache-check errors never block replay. Do not merge clocks. No
   invented metrics.
+- Hourly ~18:46 Boise 2026-09-18 / 00:46 UTC 2026-09-19 fold
+  (`research/notes.md` §58): Archer still Watch. Architecture
+  notes, not a Convex / uv / pnpm catalog. Public judgment wall
+  ([ask-jev-ai](https://github.com/waynesutton/ask-jev-ai); 6
+  parallel questions; policy-in-code; cost-to-1M from tokens;
+  license null). Meaning-search without embeddings
+  ([jevgrep](https://github.com/Bentlybro/jevgrep); 79% top-5 vs
+  BM25 40% / grep 20% on stripped repos; keyword still wins exact
+  strings). PR attention ≠ correctness
+  ([egma-ai/jev-reviewer](https://github.com/egma-ai/jev-reviewer);
+  **not** choxos pointer-not-generator). Skills→oxlint
+  ([jev-oxlint](https://github.com/cephalization/jev-oxlint);
+  AST prove ∩ remainder; Phoenix fixtures; not a hard gate;
+  `tenbin` owns lint). Session-sticky first-prompt routing
+  ([jev-adaptive-thinking](https://github.com/jxu-dev-c/jev-adaptive-thinking);
+  fail-closed fallback). Measured RAG rerank
+  ([Jev-RAG](https://github.com/Max-sm-yc/Jev-RAG); one-run ≥70%
+  cost / 72% latency vs Spark *rerank*; full-context Spark still
+  faster). MED: safe-sh, jev-loan-triage, TurboGuo arenas, jevbox;
+  hermes/mcp packs not found this pass. No wrapper. No invented
+  metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

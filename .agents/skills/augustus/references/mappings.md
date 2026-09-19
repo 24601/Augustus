@@ -235,6 +235,22 @@ first (paths/URLs). Hard envelope in code. Transport tests ≠
 accuracy. No LICENSE this pass. Cousin of typesafe-screening-mcp
 (abstracts never enter the LLM conversation). Not jev-routing
 (host adapter). `notes.md` §56.
+**Meaning-search without embeddings (Empirical as a named
+stripped-repo card, 2026-09-18 ~18:46):**
+[jevgrep](https://github.com/Bentlybro/jevgrep) — packed parallel
+Jev relevance; two-stage outline → zoom top 30; no index. 228
+questions, docstring-stripped repos: **79% top-5** vs BM25 40% /
+grep 20%. Keyword still wins exact strings (BM25 top-10 96% vs
+85%). Harbor-shaped: frozen copies + labeled questions +
+comparable harnesses; not a Harbor taskset. Distinct from
+kazuhideoki / superagents-lab / jev-sift (`notes.md` §58).
+**Measured RAG rerank vs generative rerank (Empirical as one-run;
+Hypothesis as a transfer):**
+[Jev-RAG](https://github.com/Max-sm-yc/Jev-RAG) — ≥70% cost / 72%
+latency vs Muse Spark *rerank* on ~30k tokens (costs include
+embeddings). Full-context Spark is still **faster** (10.60 s).
+Do not overclaim vs no-RAG. License null this pass
+(`notes.md` §58).
 
 ## 5. Hierarchy → bounded heuristic search
 
@@ -844,6 +860,21 @@ same *family* on project instructions: the **linter proves** lintable
 rules; Jev Scores only residual soft AGENTS.md rules; fail-open, banded
 (`notes.md` §47). Different remainder from jevgate's unlisted verbs
 and from rh-guard's eval-integrity hole — do not merge products.
+**Skills → oxlint (Empirical as a named Phoenix experiment,
+2026-09-18 ~18:46):**
+[jev-oxlint](https://github.com/cephalization/jev-oxlint) — AST
+facts and prechecks in **code**; guidance files copied whole into
+`state`; one remaining request of atomic questions;
+survey / calibrate / propose. Status: experiment, nothing
+published. Phoenix: jev agrees with the human answer key on every
+fixture; found a real flush-only-on-success bug (noul 0.07);
+routing 0.80–0.94 vs <0.50 across 41 files; coarse hint is not;
+~$0.002 fixtures / ~$0.015 41 files; second run zero requests.
+Formal methods compose with soft judgment **without hard-gating**
+a Noul as a proof. `tenbin` owns the lint skill. License null
+this pass. MED cousin: [safe-sh](https://github.com/EpicEric/safe-sh)
+(AGPL-3.0) static shell-script analysis — not pre-exec
+authorization (`notes.md` §58). Do not copy pnpm.
 Compaction polarity is the other way:
 [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
 — code proves mutating / dangerous shell → `keep_full`; the encoder

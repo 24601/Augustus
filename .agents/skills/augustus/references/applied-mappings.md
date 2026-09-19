@@ -320,6 +320,24 @@ scores local files then fzf — **not**
 [superagents-lab/jev-search](https://github.com/superagents-lab/jev-search)
 (web lanes). Max-over-chunks is not a calibrated whole-file
 probability. No LICENSE this pass.
+**Meaning-search without embeddings (Empirical as a named
+stripped-repo card, 2026-09-18 ~18:46):**
+[jevgrep](https://github.com/Bentlybro/jevgrep) (`jgrep`) packed-
+parallel Jev relevance; two-stage outline then zoom top 30; no
+index. 228 questions on docstring-stripped Flask/httpx/Django/
+AutoGPT: **79% top-5** vs BM25 40% / grep 20%. Keyword still wins
+exact wording (BM25 top-10 96% vs 85%). Packed+parallel 0.9 s vs
+serial ~23 min on AutoGPT 4,329 files. Distinct from kazuhideoki
+(file+fzf), superagents-lab (web), and jev-sift (classify-first
+MCP). Do not copy `install.sh` (`notes.md` §58).
+**Measured RAG rerank vs a generative reranker (Empirical as
+one-run; Hypothesis as a transfer, ~18:46):**
+[Jev-RAG](https://github.com/Max-sm-yc/Jev-RAG) — same search
+~30k tokens: RAG+Jev+Spark $0.00122838 / 62.3 s vs RAG+Spark-
+rerank+Spark $0.00421838 / 228.14 s vs Spark full-context $0.0032
+/ **10.60 s**. ≥70% cost and 72% latency cut vs Spark *rerank*,
+not vs no-RAG. Costs include embeddings. License null this pass.
+Do not invent a bake-off (`notes.md` §58).
 **Test**: moderation
 cost/coverage + false-hold vs false-publish; ranking recall *separate*
 from nDCG; select misroute rate; required-evidence recall vs Top-K.
@@ -354,6 +372,15 @@ LlamaIndex selectors fail closed or a declared default.
 Jev estimates task *requirements*; code applies hard constraints and a
 deterministic cost/quality/latency policy — Jev does not pick the model
 (**Hypothesis** until measured on *your* catalog; `notes.md` §33).
+**Session-sticky first-prompt route (Empirical as README machine,
+2026-09-18 ~18:46):**
+[jev-adaptive-thinking](https://github.com/jxu-dev-c/jev-adaptive-thinking)
+classifies the first user prompt for `jev-auto`, then **locks**
+provider/model for the process-local session; later requests never
+reclassify. Timeout / missing first-round text / no stable session
+ID → lock `gpt-5.6-sol` (fail-closed fallback, not passthrough).
+Same family as routeKit. License null this pass. Live testing left
+to the deployer. Do not copy dylib/YAML (`notes.md` §58).
 [`trietphan/jev-claw`](https://github.com/trietphan/jev-claw) is the
 same split for OpenClaw (classify axes; `decide()` maps the route; path
 regex floors risk). [`nekowasabi/jev-routing`](https://github.com/nekowasabi/jev-routing)

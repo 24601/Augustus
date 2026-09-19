@@ -5045,3 +5045,391 @@ cache-check fail-open); `judgment-class.md` (same job as
 jev-ultrafast / gliner2-ultrafast / cua-s1 / solari);
 `faq.md`; `validation.md` (their 37/75 card; pick ≠ replacement);
 `question-design.md` (best+strict / none). No wrapper.
+
+## 58. Public judgment wall, meaning-search without embeddings, attention≠correctness, skills→oxlint, session-sticky routing, measured RAG rerank (2026-09-18 ~18:46 Boise / 00:46 UTC 2026-09-19)
+
+America/Boise ~18:46 = 2026-09-19T00:46Z. Docs-only fold into
+open PR #2 (`cursor/augustus-store-envelope-00b4`). Not a
+competing PR. Archer 27B drop still **WATCH**. Identity lock vs
+`typesafe-ai` / `tenbin` / `decision-first` holds. No wrapper,
+no npm/Convex/uv/pnpm/dylib/venv how-to, no copied ports or
+key-file paths. No invented metrics. Do not re-fold §50–§57
+(Stagehand pick-and-copy is already §57). TypeSafe Jev is the
+documented exemplar, not the monopoly. Augustus stays
+how-to-apply / mental model / architecture / toolbelt +
+jevals/Harbor practice.
+
+Six HIGH **usage / architecture / measurement** signals: a
+productized public primitive surface; meaning-search without
+embeddings (Harbor-shaped frozen stripped-repo card); PR
+attention ≠ correctness (anti-soundness-theater); skills→oxlint
+(AST prove ∩ guidance remainder, not hard-gating); session-sticky
+first-prompt model routing (fail-closed fallback); measured RAG
+rerank vs a generative reranker (one-run; full-context Spark still
+faster). Backend-agnostic categorization/scoring/decision-only
+class.
+
+### HIGH
+
+1. **[`waynesutton/ask-jev-ai`](https://github.com/waynesutton/ask-jev-ai)**
+   (JavaScript; created 2026-09-19T00:23:46Z; 0★ this pass;
+   **license null / no LICENSE file this pass — do not invent**).
+   Public realtime judgment wall: anyone asks in three to fifteen
+   words; Jev answers yes / no / it depends in about 100 ms; every
+   judged ask lands on the wall with a running count toward one
+   million and the exact cost of getting there. Live
+   [askjev.ai](https://www.askjev.ai). Built by Wayne Sutton as a
+   demo of Jev and Convex. Not associated with TypeSafe AI.
+
+   **README envelope (theirs; not a how-to).** One call per
+   message. **Six questions** in that call: yes/no/it-depends;
+   unkind; adult; targets a person; mood; topic. Policy lives in
+   one file: `convex/questions.ts`. Browser + server
+   profanity/allowlist (12,530-word human-verified list); IP +
+   session rate limits; any safety probability **≥ 0.6** marks the
+   ask `blocked`. Graceful **no-key** mode: without
+   `TYPESAFE_API_KEY` posts publish on the allowlist alone and the
+   UI says Jev is offline. Cost (theirs, from TypeSafe token
+   counts, not estimates): Jev list price $0.042 / million input
+   tokens, output free; a judged ask $0.000032–$0.000041 so far →
+   **$32–$41 / 1M asks**. Tracker math is live from returned
+   tokens.
+
+   **Four load-bearing mental models.**
+
+   1. **Productized System One primitive surface.** Most AI demos
+      generate text. This one reads a sentence and returns typed
+      answers with probabilities, then **code** decides what
+      happens next (live / blocked / held). Same mixed-architecture
+      slogan as Cambium / jevable class patterns (`notes.md` §56):
+      keep in code what can be in code.
+   2. **Cheap fan-out is the product.** Six independent questions
+      in one request. Parallel answers are not a joint (`faq.md`).
+   3. **Policy-in-code.** Thresholds, held-terms env, rate limits,
+      allowlist, and the six-question set are reviewable modules —
+      not a prompt. Fail-open no-key is named: missing judge ≠
+      block and ≠ silent pass; the wall still runs.
+   4. **Cost-to-1M is a measurement, not a slogan.** Token-count
+      tracker, not an estimate. Harbor/jevals-shaped as *economics
+      of a primitive*, not a taskset.
+
+   **Cousins, do not merge.** TurboGuo arenas (MED this hour) are
+   Jev-vs-chat *comparison* surfaces, not a public wall.
+   [hunch](https://github.com/carldaws/hunch) is a language
+   primitive, not a product. Do not copy npm / Convex / auth
+   how-to.
+
+   **Placement.** Mixed architecture (public primitive + policy)
+   + applied-mappings gallery. Pillar: EU / selective
+   classification. Hole: perceive / gate. Family: closed decision
+   API. Fail-open on missing key (allowlist). Eval path: live
+   cost tracker; no labeled accuracy card. **Empirical** as README
+   / live site. **Hypothesis** that a public wall is the right
+   primitive demo for *your* product. Cards:
+   `mixed-architecture.md`; `faq.md`; `mental-models.md`. No
+   wrapper.
+
+2. **[`Bentlybro/jevgrep`](https://github.com/Bentlybro/jevgrep)**
+   (Python; MIT; created 2026-09-19T00:09:47Z; 0★ this pass).
+   Meaning-search CLI + MCP **without embeddings**. Command
+   `jgrep`. Describe what the code *does*; get `file:line` ranges
+   in about three seconds; no index to build. Tagline: grep needs
+   the words; jgrep needs the job.
+
+   **README / BENCHMARKS card (theirs; 228 questions on Flask,
+   httpx, Django, AutoGPT; copies with every docstring and comment
+   removed so no tool wins by matching copied wording):**
+
+   | Right file in the top 5 | |
+   |---|---|
+   | **jgrep** | **79%** |
+   | BM25 | 40% |
+   | grep / ripgrep | 20% |
+
+   Median: **1.4 s** on a 200-file repo, **2.9 s** Django (~3,600
+   files), **3.1 s** AutoGPT (~4,300 files). About a cent per
+   search. **When you already know the exact wording, keyword
+   tools win** — BM25 top-10 **96% vs 85%**. Use grep for exact
+   strings.
+
+   **Why it's fast (theirs; toolbelt, not a how-to).** (1) Packed
+   parallel: 1 file/request 0.36 s; 300 files 0.50 s — 3 files/s
+   becomes 596 files/s. (2) All requests in flight. Ranking
+   AutoGPT 4,329 files one-at-a-time ~23 min; packed+parallel
+   **0.9 s**. (3) Stragglers cut off at 6 s (one stalled 40 s in
+   testing). (4) Two stages: outline rank (path + symbol names),
+   then zoom top **30** at function boundaries. (5) Disk nearly
+   free (`os.scandir` + `git ls-files`; outlines cached by mtime).
+   Full scripts in `bench/`. MCP tool `semantic_search`. Stage 1
+   sees names, not bodies — a file whose names give nothing away
+   can be missed. Each file/chunk judged alone, so "what calls X
+   then Y" is out of scope. It finds; it does not explain. Don't
+   point it at code you cannot send to a third-party API.
+
+   **Harbor / jevals-shaped practice.** Frozen stripped-repo
+   copies + labeled questions + comparable harnesses (jgrep vs
+   BM25 vs grep). Honest negative on the exact-string slice.
+   Not a Harbor taskset and not Wilson/McNemar published here —
+   the *shape* is: write the score before picking a model; keep
+   the keyword baseline. Do not invent 10–50×.
+
+   **Cousins, do not merge.**
+   [kazuhideoki/jev-search](https://github.com/kazuhideoki/jev-search)
+   — recursive *file* search + fzf; max-over-chunks ≠ calibrated
+   whole-file p (`notes.md` §55).
+   [superagents-lab/jev-search](https://github.com/superagents-lab/jev-search)
+   — federated *web*. [jev-sift](https://github.com/kbhuw/jev-sift)
+   — classify-first MCP on path/url/text *before* the agent reads
+   (`notes.md` §56); this tool *searches a codebase by meaning*.
+   Do not copy `install.sh` / uv / `jgrep agents install`.
+
+   **Placement.** Retrieve + bounded rerank (`mappings.md` §4) +
+   toolbelt. Pillar: VOI + IR cascade. Hole: rank / gather.
+   Family: closed decision API. Fail-open as ranking (keep a
+   wider shortlist on error); do not fail-closed-drop a file.
+   Eval path: their 228-q stripped-repo card. **Empirical** as
+   that named receipt. **Hypothesis** that 79% top-5 transfers to
+   *your* repo. Cards: `applied-mappings.md` §4; `mappings.md`
+   §4; `validation.md`; `toolbox-mapping.md`. No wrapper.
+
+3. **[`egma-ai/jev-reviewer`](https://github.com/egma-ai/jev-reviewer)**
+   (JavaScript; MIT; created 2026-09-19T00:38:48Z; 0★ this pass).
+   **Not** [`choxos/jev-reviewer`](https://github.com/choxos/jev-reviewer)
+   (pointer-not-generator; line ids; verbatim copy; *not found*
+   is an answer; `notes.md` §48). This product: Jev assigns PR
+   **attention** P0 / P1 / P2; OpenAI writes behavior deltas (old
+   logic / new logic / what changed / human review question).
+   Priorities suggest where to spend attention, **not whether
+   code is correct.** Anti-soundness-theater: a Noul is not a
+   proof the PR is good (`formal-methods.md`).
+
+   **README envelope (theirs; not a how-to).** Local CLI + skill
+   + Chrome extension for reviewing **your own** coding-agent PRs
+   on the same computer. **Does not publish PR comments** or send
+   a report to teammates. Demo uses **real Jev classifications**
+   and clearly labeled **prepared explanation copy**; live OpenAI
+   explanations are implemented but verification is pending
+   funded API access. Incomplete changed code escalates to
+   `uncertainPriority` (P0 or P1, **never P2**).
+   `alwaysReviewPaths` applies deterministic P0. Units are diff
+   hunks with surrounding old/new source; default cap 12; excess
+   stay **P0 / not analyzed**. Graphify is a local structural
+   aid, not a complete runtime map. API failures are explicit;
+   live never silently substitutes a fixture. Do not copy npm /
+   `gh` / uv / pairing-token how-to.
+
+   **Placement.** Mixed architecture (judge attention; generator
+   writes; code owns P0 overrides) + Leveson sensor≠constraint.
+   Pillar: SDT / org safety. Hole: triage / gate. Family: closed
+   decision API + a generator sidecar. Fail-closed that
+   incomplete never becomes P2; fail-open that a missing OpenAI
+   explanation does not invent one. Eval path: demo provenance
+   labeled; live OpenAI pending. **Empirical** as README
+   architecture. **Hypothesis** as a measured attention ranking
+   on *your* PRs. Cards: `mixed-architecture.md`; `faq.md`;
+   `formal-methods.md`; `agent-self-assessment.md`. No wrapper.
+
+4. **[`cephalization/jev-oxlint`](https://github.com/cephalization/jev-oxlint)**
+   (TypeScript; created 2026-09-19T00:34:49Z; 0★ this pass;
+   **license null this pass**). Skills → oxlint: turn a `SKILL.md`
+   + `references/*.md` into a linter for mistakes a regex or type
+   checker cannot see. Status: **experiment. Nothing is
+   published.** The Phoenix example is real and validated live.
+
+   **How a linter works (theirs; architecture, not a how-to).**
+   Import scan → generic AST facts (redacted) → per-check
+   **precheck** (clear-cut? report or skip without Jev) → routing
+   Noul per reference file → **one** detailed request per file
+   (state = `{ file, code, facts, guidance: <whole files> }`;
+   questions = every applicable check + coarse hint). Three
+   TypeSafe how-to-build rules: (1) **code decides everything it
+   can**; (2) **policy in `state`** (guidance copied whole; path
+   is the only coupling); (3) **questions atomic**. Modes: live /
+   record / mock / off. Generative model sits **only** in
+   `propose` (Claude drafts one check + fixtures + answer key);
+   nothing generative is in the lint path. String literals
+   redacted before any request.
+
+   **Phoenix experiment (theirs; jev-1.13.0; fixtures + Phoenix
+   `js/examples/apps`).** Jev agrees with the human answer key on
+   **every fixture**, with wide margins (per-attribute PII:
+   `token_count` 0.04, `patient_dob` 0.98, `chief_complaint` 0.98
+   in one request — a keyword denylist is wrong in both
+   directions). Found a **real bug** in a shipped example:
+   langchain quickstart flushes only on the success path (noul
+   **0.07** for "flushed on every exit path?"). Routing sharp:
+   0.80–0.94 vs below 0.50 across 41 files; coarse hint ("does
+   the code follow this whole file?") is **not**. Cost ~$0.002
+   fixtures / ~$0.015 41 files with routing; **second run: zero
+   requests**. A one-sentence docs edit moved a reference's
+   relevance from below 0.50 to 0.90. `propose` drafted
+   `annotation-identifier-collision` unprompted; first
+   calibration agreed on all four fixtures.
+
+   **Formal methods compose with soft judgment without
+   hard-gating.** AST / precheck *prove* what they can; Jev
+   scores the remainder; oxlint `warn` is not a discharged proof
+   obligation. Same sandwich as jevscan AST∩semantic / Abide
+   (linter owns hard rules) / jev-pref. **`tenbin` owns the lint
+   skill.** Do not copy pnpm / `jsPlugins` how-to.
+
+   **jevals-shaped practice.** Human answer key vs Noul on
+   fixtures (calibrate); routing sharpness as a separate score
+   from the coarse hint. Not a Harbor taskset.
+
+   **Placement.** Structural prove ∩ remainder (`mappings.md`
+   §18) + preference lint. Pillar: formal methods (sensor, not
+   constraint). Hole: gate. Family: closed decision API. Fail
+   polarity: experiment ships as warn; do not hard-gate CI on an
+   uncalibrated remainder Noul. Eval path: Phoenix fixtures +
+   answer key. **Empirical** as that named experiment.
+   **Hypothesis** that survey/calibrate/propose transfers to
+   *your* skill. Cards: `mappings.md` §18; `formal-methods.md`;
+   `mixed-architecture.md`; `validation.md`. No wrapper.
+
+5. **[`jxu-dev-c/jev-adaptive-thinking`](https://github.com/jxu-dev-c/jev-adaptive-thinking)**
+   (Go; created 2026-09-19T00:35:37Z; 0★ this pass; **license
+   null this pass**). CLIProxyAPI dylib plugin: only for
+   `model: "jev-auto"`, classify the **first user prompt**, then
+   **lock** provider/model for the rest of the process-local
+   session. Default three tiers: simple →
+   `deepseek-v4-flash:deepseek`; standard → `gpt-5.6-sol`;
+   complex reasoning / architecture / hard debug →
+   `gpt-5.6-astra`. Timeout, failure, or missing first-round
+   text → **fallback and lock** `gpt-5.6-sol`. Concurrent
+   first-round requests share **one** Jev call; later requests
+   **never reclassify** (tool continuations, history compact,
+   task-got-harder, upstream failure). No stable session ID →
+   fallback, **no Jev, no cache**. Subagents isolated; parent
+   session is not inherited. First-round images/audio →
+   fallback. Bindings have no TTL; restart clears them. Manual
+   other-model bypasses the plugin. Offline tests mock HTTP; this
+   delivery left live Jev / host e2e / Linux build to the
+   deployer. Do not copy dylib / YAML / home-log how-to.
+
+   **Cousins.** Same family as
+   [routeKit](https://github.com/rajdhakad9826/routeKit): Jev
+   estimates requirements; **code** picks the model (`notes.md`
+   §33). [jev-claw](https://github.com/trietphan/jev-claw)
+   classifies axes then `decide()` maps. Contrast
+   [jev-gateway](https://github.com/vinilana/jev-gateway)
+   fail-open passthrough if Jev is down (`notes.md` §51): here
+   the irreversible act is *sending a model*, so timeout locks a
+   **declared standard**, not "let the client guess."
+
+   **Placement.** Skill / tool routing (`applied-mappings.md`
+   §5). Pillar: EU / cost-sensitive cascade. Hole: route.
+   Family: closed decision API. Fail-closed to standard on
+   timeout / no session. Eval path: `make live-test` is three
+   billed Jev requests for a human to inspect — not a labeled
+   catalog. **Empirical** as README session machine.
+   **Hypothesis** until measured on *your* catalog. Cards:
+   `applied-mappings.md` §5; `mixed-architecture.md`; `faq.md`.
+   No wrapper.
+
+6. **[`Max-sm-yc/Jev-RAG`](https://github.com/Max-sm-yc/Jev-RAG)**
+   (Python; created 2026-09-19T00:33:02Z; 0★ this pass;
+   **license null this pass**; no GitHub description). Basic RAG
+   pipeline: vector search, Jev rerank, Muse Spark 1.3 write.
+   **One-run** (theirs) over ~30k tokens; output 1000–1400
+   tokens; **costs include embeddings:**
+
+   | Path | Cost | Time |
+   |---|---|---|
+   | RAG + Jev rerank + Spark | $0.00122838 | 62.3 s |
+   | RAG + Spark rerank + Spark | $0.00421838 | 228.14 s |
+   | Spark full context, no RAG | $0.0032 | **10.60 s** |
+
+   README claim: Jev rerank cut total cost **over 70%** and total
+   response time **72%** — that is **vs Muse Spark rerank**, not
+   vs no-RAG. Full-context Spark is still **faster** (10.60 s)
+   and cheaper than the Spark-rerank path. Do not overclaim
+   latency against "just send the context." Do not invent a
+   bake-off. Do not copy venv how-to.
+
+   **Cousins.** Same sandwich as
+   [decision-native-rag-skills](https://github.com/emergency-lee/decision-native-rag-skills)
+   (`notes.md` §55; Hypothesis as a measured win) and
+   [llama-index-jev](https://github.com/WiktorB2004/llama-index-jev)
+   (BEIR nfcorpus Empirical). Independent IR card:
+   [carlaiau/jev-reranking](https://github.com/carlaiau/jev-reranking)
+   TREC DL2019. jevgrep (this section) is meaning-search of a
+   *repo*, not RAG of a corpus.
+
+   **Harbor / jevals-shaped practice.** One-run product-loop
+   comparison with a named generative-rerank baseline and a
+   no-RAG arm. Label n=1. Keep the faster full-context arm
+   visible (honest negative on latency).
+
+   **Placement.** Retrieve + bounded rerank (`mappings.md` §4).
+   Pillar: VOI. Hole: rank. Family: closed decision API.
+   Rerank fail-open (keep retrieval order on error); *select*
+   fail-closed. Eval path: this one-run table. **Empirical** as
+   that named receipt. **Hypothesis** that ≥70% / 72% vs Spark
+   rerank transfers. Cards: `mappings.md` §4;
+   `applied-mappings.md` §4; `validation.md`. No wrapper.
+
+### MED
+
+- **[`EpicEric/safe-sh`](https://github.com/EpicEric/safe-sh)**
+  (Python; AGPL-3.0; created 2026-09-18T23:53:50Z; 0★). Static
+  **shell script** analysis with Jev. Thresholds `--warn-on` /
+  `--error-on`. Same *family* as jevgate / toolgate (judge a
+  remainder after you already hold the text) — this is static
+  analysis of a script, **not** pre-exec authorization of a
+  proposed tool. Jev is not authorization. Do not copy `uv run`
+  pipe how-to.
+- **[`ravikadam/jev-loan-triage`](https://github.com/ravikadam/jev-loan-triage)**
+  (JavaScript; created 2026-09-19T00:31:39Z; 0★; **license null
+  this pass**). Voice loan-call triage: ASR → **17 typed
+  questions in one request** → `loan.js` policy (interested /
+  enough-info checklist / 4-way decision). Fraud or pressure →
+  human review; no approval while key facts missing; low
+  confidence → human review. The "why" and follow-ups are built
+  **in code** from checklist/risk flags. Jev returns judgments,
+  not text. Thresholds are starting points. Live Cloud Run with
+  IP / transcript / instance caps. Do not copy gcloud / env.
+- **TurboGuo demos (found this pass; prior empty search was a
+  query miss, not absence).**
+  [`TurboGuo/jev-fedspeech`](https://github.com/TurboGuo/jev-fedspeech)
+  (JS; created 2026-09-19T00:26:43Z; license null; live
+  [fedspeech.pages.dev](https://fedspeech.pages.dev)) — hawk/dove
+  on Fed press conferences; Jev scores **every word** ~150 ms
+  vs chat models on caption lines; same four stances.
+  [`TurboGuo/jev-dating`](https://github.com/TurboGuo/jev-dating)
+  (JS; created 2026-09-19T00:26:38Z; license null; live
+  [jevdating.pages.dev](https://jevdating.pages.dev)) — red-flag
+  / interest meter; same-standard Jev vs chat. Productized
+  primitive-vs-generation **arena**, cousin of ask-jev-ai (wall)
+  not a second wall. Not financial advice; dating demo is not
+  mind-reading. Do not copy wrangler how-to.
+- **[`g-h-miles/jevbox`](https://github.com/g-h-miles/jevbox)**
+  (TypeScript; MIT; created 2026-09-19T00:26:29Z; 0★). Drum
+  grooves with Jev: five kits, four bars, MIDI export. Jev
+  arranges each bar with previous bars as context. Kit affects
+  preview audio, not the exported instrument. Mixed
+  architecture: judgment for arrangement; synthesis / timing /
+  undo in code. Do not copy Worker / secret how-to.
+- **hermes / mcp packs.** GitHub search this pass returned **no
+  new pack**. Existing
+  [hermes-jev-north-star](https://github.com/poponline63/hermes-jev-north-star)
+  (deterministic checks then Jev finish gate) and
+  [jev-hermes](https://github.com/de-niji/jev-hermes) (route ≠
+  memory) stay as already folded. Do not invent a pack.
+
+### Omni / Jev-omni / Archer
+
+Still **WATCH**. No Hub weights. Public walls, meaning-search,
+and oxlint remainder are **not** that drop. TurboGuo word-level
+Fed scoring is text, not pixels.
+
+### Cross-links
+
+Cards: `applied-mappings.md` §4 (jevgrep + Jev-RAG), §5
+(session-sticky route); `mappings.md` §4 (meaning-search /
+rerank), §18 (jev-oxlint AST∩remainder; safe-sh MED);
+`mixed-architecture.md` (public wall; attention≠correctness;
+fail table); `validation.md` (jevgrep 79% top-5; Jev-RAG
+one-run; oxlint Phoenix fixtures); `faq.md`;
+`mental-models.md`; `methods-catalog.md`; `toolbox-mapping.md`;
+`agent-self-assessment.md`; `formal-methods.md`. No wrapper.

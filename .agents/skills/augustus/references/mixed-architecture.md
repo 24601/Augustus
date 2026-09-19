@@ -203,7 +203,11 @@ not a global virtue:
 | Actuate an observed browser control | **Fail closed** (code validates the node) | Freshness / visibility / disabled / occlusion in code; model never emits selectors (`gliner2-ultrafast`, jev-ultrafast, solari-reflex). `DONE` does not authorize "success". Cua-S1: dry-run default; `execute`/`submit` opt-in; fail-closed unknown checkbox; fill execution fails closed without token `set_value`. Stagehand: same; LLM fallback when Jev abstains |
 | Replay a cached browser action | **Fail open** on the freshness check (`stagehand` cacheCheck) | Errors/timeouts never block replay; a stale verdict re-infers. Opt-in: the check costs a snapshot + a request |
 | Skip the LLM on extract / act | **Fail open** to the generator (Stagehand pick/judge) | Schema/gate/screenshot envelope in code; pick is a fast path, not a replacement. Invalid extract → LLM |
-| Rerank a retrieved list | Fail open: keep retrieval order (`WiktorB2004/llama-index-jev`, **Empirical recipe** on BEIR nfcorpus: MiniLM 0.340 nDCG@5 → MiniLM+Jev 0.396; rerank fails open, *select* fails closed). Listwise/cross-encoder scores belong here, not on the row above. | Ranking errors are quality; selection errors are control-flow |
+| Publish a public wall ask without a key | **Fail open** (allowlist; UI says Jev offline) (`ask-jev-ai`) | Missing judge is not a block and not a silent pass. Safety p≥0.6 still blocks when the judge is on |
+| Assign PR attention P2 | **Fail closed** incomplete → `uncertainPriority` never P2 (`egma-ai/jev-reviewer`) | Attention ≠ correctness. Deterministic `alwaysReviewPaths` P0. Do not treat a Noul as a proof the PR is good |
+| Pick a session model | **Fail closed** to a declared standard (`jev-adaptive-thinking`) | Timeout / no session / missing first-round text locks `gpt-5.6-sol`. Contrast jev-gateway fail-open passthrough if Jev is down |
+| Drop a meaning-search hit | **Fail open** as ranking (`jevgrep`) | False drop loses the file. Keyword tools still win exact strings |
+| Rerank a retrieved list | Fail open: keep retrieval order (`WiktorB2004/llama-index-jev`, **Empirical recipe** on BEIR nfcorpus: MiniLM 0.340 nDCG@5 → MiniLM+Jev 0.396; rerank fails open, *select* fails closed). Listwise/cross-encoder scores belong here, not on the row above. One-run cousin: Jev-RAG vs Spark *rerank* (full-context Spark still faster) | Ranking errors are quality; selection errors are control-flow |
 
 Worked placements (2026-09-18 topic:jev hour + prior archive):
 
@@ -287,6 +291,10 @@ Live ecosystem (examples of the *shape*, not SDKs to copy):
 - `rajdhakad9826/routeKit` — Jev estimates requirements; a deterministic
   policy picks the model. Jev does not choose the LLM. **Hypothesis**
   until your catalog (`notes.md` §33).
+- [jev-adaptive-thinking](https://github.com/jxu-dev-c/jev-adaptive-thinking)
+  (~18:46) — session-sticky first-prompt Choice; lock for the
+  session; fail-closed to `gpt-5.6-sol`. License null. Live testing
+  left to the deployer (`notes.md` §58). Do not copy dylib/YAML.
 - [`trietphan/jev-claw`](https://github.com/trietphan/jev-claw) — same
   hole for OpenClaw: Jev classifies task/complexity/risk; `decide()` in
   code maps to a route; a sensitive-path regex floors risk. Confidence
@@ -500,8 +508,8 @@ decision-design card. Do not clone APIs from READMEs.
 | Advisory sidecar receipts | Typed answers as `no_action` evidence | Host routing / executor / policy unchanged | agent-workflow-typesafe-ai |
 | Structure induction over a bag | Pairwise dependency Noul/Choice | DAG / scheduler in code | dag-jev (experiment) |
 | Simulated world control vs content | Intent / page-type Choice | Generator writes documents; Zod + deterministic compiler; SQLite world | jev-agentworld-web-simulator |
-| AST ∩ semantic lint | Typed questions on Tree-sitter units | Parser, selection, fail-on; does not execute scanned code | jevscan (`tenbin` owns the lint skill) |
-| Model router | Requirement Scores; policy in code | Eligibility, cost/quality/latency objective | routeKit |
+| AST ∩ semantic lint | Typed questions on Tree-sitter units | Parser, selection, fail-on; does not execute scanned code | jevscan (`tenbin` owns the lint skill); jev-oxlint (skills→oxlint remainder; Phoenix experiment; not a hard gate) |
+| Model router | Requirement Scores; policy in code | Eligibility, cost/quality/latency objective | routeKit; jev-adaptive-thinking (session-sticky first-prompt; fail-closed fallback) |
 | Bulk-judgment coprocessor | Choice/Noul off the frontier context | Counts, policy, fail-open gate | jev-mode |
 | Closed-catalog System One shell | Choice over host tools | Execute, arithmetic, credentials | jot |
 | Jump-by-description | Noul relevance on a local shortlist | zoxide index, local paths only | joxide |
@@ -525,6 +533,12 @@ decision-design card. Do not clone APIs from READMEs.
 | Verbatim session recall | Noul "still live for this task?" | JSONL ledger; constraints/corrections always-keep; fail-open dump | carryforward (9×3 hint, not proof) |
 | Pre-exec tool gate | allow / block / review | Permissions, arg validation, transaction limits in code; timeout stops | toolgate (72-case synthetic, not independently annotated; Jev ≠ authorization) |
 | Healthcare S1 + S2 | NEWS2 remainder / med recon / inbox route | Code owns NEWS2, recon, routing; S2 blinded review | explore-typesafe-ai (synthetic FHIR; not clinically validated) |
+| Public judgment wall | Six parallel questions (yes/no/depends, safety, mood, topic) | Policy-in-code; allowlist; p≥0.6 block; cost-to-1M from tokens | ask-jev-ai (license null; no-key UI says Jev offline) |
+| Meaning-search without embeddings | Packed parallel relevance; two-stage outline→zoom | Keyword still wins exact strings; finds, does not explain | jevgrep (79% top-5 vs BM25 40% / grep 20% on stripped repos) |
+| PR attention ≠ correctness | P0/P1/P2 attention | OpenAI writes deltas; alwaysReviewPaths P0; incomplete never P2 | egma-ai/jev-reviewer (**not** choxos pointer-not-generator) |
+| Skills → oxlint | Remainder Noul/Choice after AST/precheck | Guidance whole-file in state; survey/calibrate/propose; not a hard gate | jev-oxlint (Phoenix fixtures; experiment; tenbin owns lint skill) |
+| Session-sticky model route | First-prompt Choice | Lock for session; fail-closed declared fallback | jev-adaptive-thinking (license null; same family as routeKit) |
+| Measured RAG rerank | Relevance vs a generative reranker | Evidence set / retrieval order on error; name the no-RAG arm | Jev-RAG (one-run ≥70%/72% vs Spark rerank; full-context Spark still faster) |
 
 On-device / Home Assistant / mobile are newly-feasible via the economics
 inversion, not proven ports of every app. Named placements this hour

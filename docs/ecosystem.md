@@ -19,6 +19,8 @@ weekdays. Jev is the densest public corpus, not the class monopoly.
 - **superagents-lab/jev-search** — federated web search: Jev understands intent (query/sources/time-range), lanes fan out concurrently, Jev ranks results; merge by URL + engine agreement + rank.
 - **kazuhideoki/jev-search** — recursive *file* search + fzf. Not the federated web product. `notes.md` §55.
 - **kbhuw/jev-sift** — classify-first MCP: batch path/url/text → Jev before the main agent reads. Topology A, not a host adapter. `notes.md` §56.
+- **Bentlybro/jevgrep** — meaning-search CLI+MCP without embeddings (`jgrep`). Packed parallel relevance; 79% top-5 vs BM25 40% / grep 20% on docstring-stripped repos. Keyword still wins exact strings. `notes.md` §58.
+- **Max-sm-yc/Jev-RAG** — one-run RAG+Jev rerank vs Muse Spark rerank (≥70% cost / 72% latency); full-context Spark still faster. `notes.md` §58.
 
 ### Languages & runtimes
 - **probably-lang (southpolesteve)** — a programming language whose **loop conditions are Jev feelings**: `while draft feels "like a LinkedIn influencer post" { … }`. Judgment-state recordings give deterministic replay.
@@ -36,6 +38,7 @@ weekdays. Jev is the densest public corpus, not the class monopoly.
 - **Friedjof/jev-mobile** — durable Android worker + Mobile MCP; Jev sees prevalidated candidates only. `notes.md` §33.
 - **jcpsimmons/jev-macos-loop** — Apple-silicon computer-use; local OmniParser/OCR/AX; text-only Jev. Finder demo independently verified.
 - **rajdhakad9826/routeKit** — Jev estimates task requirements; policy engine selects the LLM. Jev does not pick the model.
+- **jxu-dev-c/jev-adaptive-thinking** — session-sticky first-prompt Jev classification; fail-closed lock to `gpt-5.6-sol`. License null. `notes.md` §58.
 - **Dicklesworthstone/skillranker** — hook ranks the skill catalog from live context with a calibration loop.
 - **GodsBoy/jev-agent-skill-router** — 94.4% vs 70.8% lexical routing on 72 requests.
 - **matthewdonsemail-lab/open-typesafe-camoufox** — browser agent at ~$0.0002/step: 11-way action Choice, free text only when needed.
@@ -130,6 +133,7 @@ the READMEs, not a monopoly.
 
 - **AppitStudio/testimonial-miner** — extractive selection + multi-question broadcast + offline `redecide`. Model never writes the quote.
 - **choxos/jev-reviewer** — pointer-not-generator: line ids; verbatim copy with place; *not found* is an answer.
+- **egma-ai/jev-reviewer** — Jev assigns PR **attention** P0/P1/P2; OpenAI writes behavior deltas. Attention ≠ correctness. Not the choxos pointer product. `notes.md` §58.
 - **us/jev-local** — contract-compatible `POST /v1/systemone`. Default scorer is a **stub** until `JEVLOCAL_SCORER=hf`.
 - **hitakshiA/solari-reflex** — observe → decide → verified act; no screenshots. Author table vs Codex on Solari ~3–7× wall. Encoder-backend cousin: gliner2-ultrafast (`notes.md` §52). Specialist-form cousin: cua-s1 (`notes.md` §54). Harness cousin: Stagehand experimental Jev stack (`notes.md` §57).
 - **ktaletsk/jevframe** — pandas/Polars `.jev` accessor; full `p__`; sibling of jevpandas.
@@ -139,6 +143,7 @@ the READMEs, not a monopoly.
 - **knowlet/jev-agentworld-web-simulator** — decision for control, generator for content; SQLite world.
 - **ufx7/jev-testbench** — collab arms (`llm_autonomous` / `scripted_plus_jev` / `llm_plus_jev`); Wilson / McNemar.
 - **alexykn/jevscan** — Tree-sitter ∩ typed questions. `tenbin` owns the lint skill.
+- **cephalization/jev-oxlint** — skills→oxlint remainder after AST/precheck; Phoenix fixtures; experiment; not a hard gate. `notes.md` §58.
 - **phin-tech/pi-jev-approver** — Pi shell gate; fail-closed without a key. Light rh-guard-adjacent note.
 - **Mattepiu/laya-onnx** — Laya ONNX port (~15 ms CPU). Do not copy the vs-Jev table.
 
@@ -220,6 +225,18 @@ Architecture notes, not a plugin / showcase catalog. `notes.md` §56. TypeSafe J
 Architecture notes, not an SDK catalog. `notes.md` §57. TypeSafe Jev is the exemplar, not the monopoly. Archer still Watch. Draft stack. No invented metrics.
 
 - **browserbase/stagehand #2951–#2955** (MIT parent; all OPEN draft; author miguelg719). 5/5 user link: [#2955](https://github.com/browserbase/stagehand/pull/2955) extract completion **judge** + **pick-and-copy**. Jev picks a11y elements; code copies text. `extract` `"off"` | `"judge"` | `"pick"`. Both modes send page/extracted content to TypeSafe. Schema/gate/screenshot-always-LLM in code; LLM fallback. Their card (gemini-3.8-flash, Browserbase, local, 25×3): 69/75 vs 23/25 (92% both); **37/75** no-LLM ~0.5 s vs baseline **4.37 s** / two LLM calls; LLM-off **36/75** — pick is a fast path, not a replacement. Stack: #2951 editable ids (outline byte-for-byte unchanged); #2952 client + pick library (`best`+`strict`); #2953 act tree; #2954 observe + cache-check (errors never block replay). Same observe→score-among-candidates→code-acts *job* as jev-ultrafast / gliner2-ultrafast / cua-s1 / solari, inside a major harness. Do not merge clocks. Do not copy `experimentalJevAct`.
+
+### Hourly ~18:46 Boise 2026-09-18 / 00:46 UTC 2026-09-19 (public wall, meaning-search, attention≠correctness, skills→oxlint, session-sticky route, measured RAG rerank)
+
+Architecture notes, not a Convex / uv / pnpm / dylib catalog. `notes.md` §58. TypeSafe Jev is the exemplar, not the monopoly. Archer still Watch. No invented metrics. Do not re-fold §50–§57.
+
+- **waynesutton/ask-jev-ai** — public realtime judgment wall; 6 parallel questions/ask; policy-in-code (`convex/questions.ts`); safety p≥0.6 blocked; no-key allowlist (UI says Jev offline). Cost $0.000032–$0.000041/ask from TypeSafe token counts → $32–$41/1M. Live askjev.ai. License null this pass. Productized System One primitive surface.
+- **Bentlybro/jevgrep** — MIT. Meaning-search CLI+MCP (`jgrep`) without embeddings. Packed parallel Jev relevance; two-stage outline→zoom. 228 questions on docstring-stripped repos: **79% top-5** vs BM25 40% / grep 20%. Keyword still wins exact strings (BM25 top-10 96% vs 85%). Packed+parallel 0.9 s vs serial ~23 min AutoGPT 4,329 files. Distinct from kazuhideoki / superagents-lab / jev-sift.
+- **egma-ai/jev-reviewer** — MIT. Jev assigns PR attention P0/P1/P2; OpenAI writes behavior deltas. Attention ≠ correctness (anti-soundness-theater). **Not** choxos/jev-reviewer. Local CLI; does not publish PR comments. Incomplete never P2. Demo: real Jev + labeled prepared explanation copy; live OpenAI pending funded API.
+- **cephalization/jev-oxlint** — experiment; nothing published; license null. Skills→oxlint: AST/precheck in code; guidance whole-file in state; survey/calibrate/propose. Phoenix: answer-key agree on every fixture; found flush-only-on-success (noul 0.07); routing sharp; coarse hint not. Not a hard gate. `tenbin` owns the lint skill.
+- **jxu-dev-c/jev-adaptive-thinking** — Go CLIProxyAPI plugin; license null. Session-sticky first-prompt classification; later turns never reclassify; fail-closed lock to `gpt-5.6-sol`. Same family as routeKit. Live testing left to the deployer.
+- **Max-sm-yc/Jev-RAG** — license null. One-run: ≥70% cost / 72% latency vs Muse Spark *rerank*; full-context Spark still faster (10.60 s). Costs include embeddings.
+- MED: **EpicEric/safe-sh** (AGPL-3.0; static shell analysis, not pre-exec auth); **ravikadam/jev-loan-triage** (17 typed questions; policy in `loan.js`); **TurboGuo/jev-fedspeech** + **jev-dating** (Jev vs chat arenas; prior empty search was a query miss); **g-h-miles/jevbox** (MIT; drum grooves). hermes/mcp packs: **no new pack this pass** (hermes-jev-north-star / jev-hermes already folded).
 
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs

@@ -153,6 +153,9 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   Pointer-not-generator: the model points at line ids; code copies
   verbatim with place; *not found* is an answer
   ([jev-reviewer](https://github.com/choxos/jev-reviewer); `notes.md` §48).
+  Distinct: [egma-ai/jev-reviewer](https://github.com/egma-ai/jev-reviewer)
+  assigns **attention** P0/P1/P2, not correctness; OpenAI writes
+  deltas (`notes.md` §58).
   Compaction: point at character offsets in the tool result
   ([gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction);
   `notes.md` §50). Session-evidence Stop
