@@ -301,6 +301,7 @@ not a global virtue:
 | Invent one-dollar-tahoe ASR/FPR / copy attacks.json / treat 74 rows as Harbor | **Fail closed** (no numbers; demo) | one-dollar-tahoe TypeSafe Jev defense eval. Static ~74. rh-guard owns the gate cousin |
 | Collapse jevguard into jevcache / skip UNRESOLVED_OR_OTHER / treat 0.40 as Harbor τ | **Fail closed** (namesake; calibrator) | jevguard calibrator/cache/escape. **≠** hyperspaceai/jevcache |
 | Skip CI from skip_below 0.05 / treat shadow as enforce | **Fail closed** (shadow default; experiment) | jev-ci-selector CI shadow mode. Timeout/no-key → keep all. rh-guard owns |
+| Treat llama-jev softmax as a Noul / paste 80 ms as a class ceiling | **Fail closed** (format ≠ proper scoring) | llama-jev llama.cpp replica. **≠** TypeSafe **≠** pcdServer |
 | Treat zen-chat JSON as a calibrated Noul / paste tamaratran 24/24 onto OpenCode | **Fail closed** (approximation ≠ Noul) | OpenCode jev-pruner context sieve. Default is jev-zen / jev-1.13-free. keepScore >0.1 floor. `notes.md` §96 |
 | Collapse indiejoseph/opencode-jev-pruner into tamaratran or fast-jev-opencode | **Fail closed** (host port ≠ session compaction) | Same stdout job as jev-pruner; OpenCode `tool.execute.after`. **≠** nrdz-labs/fast-jev-opencode |
 | Invent jev-webagent-bench Harbor scores / treat JSON Schema boolean @ 0.5 as a proof | **Fail closed** (empty stub; decoder ≠ gate) | jev-webagent-bench empty stub. Kiln-AI/jev_jsonschema noul_threshold 0.5. NSStudent/JevSwiftSDK unofficial |

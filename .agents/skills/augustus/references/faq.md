@@ -2781,7 +2781,7 @@ No, and no. OpenCode jev-pruner context sieve. host port of tamaratran/jev-prune
 
 ## Is zen-chat a Noul? Paste tamaratran 24/24 / 83% as this product’s Harbor?
 
-No, and no. zen-chat ≠ Noul. Default is jev-zen / jev-1.13-free (native System One, keyless). Chat scorer is an approximation; unparseable scores keep. Tests are mapper/auth/scorer, not a prune-quality bench. Do not copy upstream 24/24. `notes.md` §96.
+No, and no. zen-chat ≠ Noul. Default is jev-zen / jev-1.13-free (native System One, keyless). Chat scorer is an approximation; unparseable scores keep. Tests are mapper/retry/zen-scorer/auth, not a prune-quality bench. Do not copy upstream 24/24. `notes.md` §96.
 
 ## Fail-closed the OpenCode turn if Jev is down? Treat keepThreshold 0.5 as proof of irrelevance?
 

@@ -83,10 +83,11 @@ README + source, 2026-09-19 ~16:39):**
 — OpenCode jev-pruner context sieve.
 host port of tamaratran/jev-pruner.
 OpenCode `tool.execute.after` on
-`bash`. Loop *theirs*: observe→score-candidates→prune
-(bash runs → 10k-token gate → archive full output → chunk →
+`bash`. Pattern: observe→score-candidates→prune.
+Loop *theirs*:
+bash runs → 10k-token gate → archive full output → chunk →
 Jev noul per chunk vs history → rewrite with markers +
-recovery footer). Default scorer jev-zen / jev-1.13-free
+recovery footer. Default scorer jev-zen / jev-1.13-free
 (Zen System One, exact id, keyless). zen-chat ≠ Noul
 (`zen-chat` is an LLM approximation). fail-open original.
 keepScore >0.1 floor. Archive `.opencode/fast-jev-output/`.

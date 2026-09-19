@@ -16635,7 +16635,7 @@ NSStudent/JevSwiftSDK unofficial.
 
      **Keep polarity (`src/retention.ts`
      `keepScore`).** Default `keepThreshold` 0.5
-     **and** `score > 0.1` (`MAX_DISPOSABLE_KEEP_PROBABILITY`).
+     **or** `score > 0.1` (`MAX_DISPOSABLE_KEEP_PROBABILITY`).
      keepScore >0.1 floor. A chunk at 0.2 is kept
      even when the named threshold is 0.5. Treating
      0.5 as “irrelevant, drop” is hard-gating a
