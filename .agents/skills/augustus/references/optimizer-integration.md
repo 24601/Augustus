@@ -209,7 +209,7 @@ same idea without a loop (`notes.md` §87).
 
 **GEPA alignment loop (Empirical as README; inverse
 of Jev-as-metric; 2026-09-19 ~21:23):**
-[jev-align](https://github.com/sutro-sh/jev-align)
+[sutro-sh/jev-align](https://github.com/sutro-sh/jev-align)
 (Apache-2.0; **60★** this pass, SIGNAL ★56; HEAD
 `49753df`; README SHA `363fccb7`). GEPA edits the
 *function definition*; human taste is the accept
