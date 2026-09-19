@@ -1491,6 +1491,7 @@ from this card's no-planner extreme (`notes.md` §65).
 — Ego Lite observe/act; Jev `choose` over compact page
 state. ZHUBoer/ego-jev reserved `__none__`.
 runWorkflow completed ≠ success. Exact work local.
+Agent still plans (not closed-vote).
 **≠** jiangkoumo/ego-jev. `notes.md` §90.
 **Adversarial cousin (Playwright executes, Jev chooses;
 license null; 2026-09-19 ~04:39):**

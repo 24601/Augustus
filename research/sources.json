@@ -3042,7 +3042,7 @@
       "kind": "github",
       "title": "slavadubrov/groundedness-judge-bench",
       "url": "https://github.com/slavadubrov/groundedness-judge-bench",
-      "note": "LICENSE MIT / SPDX NOASSERTION; 0 stars. HEAD 188d1c4. README SHA 5cc070d8. Native Noul vs schema-guided LLM. implicit_true still unsupported. Jev Macro-F1 0.6667 vs GLM 0.7661 *theirs*. != jev-judge-bench. notes.md §90."
+      "note": "LICENSE MIT / SPDX NOASSERTION; 0 stars. HEAD 188d1c4. README SHA 5cc070d8. Native Noul vs schema-guided LLM. implicit_true included in yes. Jev Macro-F1 0.6667 vs GLM 0.7661 *theirs*. != jev-judge-bench. notes.md §90."
     },
     {
       "kind": "github",

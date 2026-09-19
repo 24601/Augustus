@@ -14308,9 +14308,9 @@ hard safety. 0★ HIGHs still get real cards.
    `jsort -k 10` Pearson **r=0.824** / Spearman
    **ρ=0.841** / 1,500 calls / $0.046 vs SMOG 0.661 /
    0.647; one Noul per text (`jgrep -o`) 0.754 /
-   0.804. Fed hawkish vs rate move *theirs*: ρ **+0.46**
-   (95 statements) vs that-day DFEDTARU move; +0.37
-   vs 180-day change. Reliability / first-position
+   0.804. Fed hawkish vs rate move *theirs*: ρ **+0.47**
+   (91 statements) vs that-day DFEDTARU move; +0.38
+   (87 statements) vs 180-day change. Reliability / first-position
    lean reported. `bench/probe.py` *theirs*: two-option
    Choice put **93%** of answers <0.1 or >0.9; Noul
    left **28%** mid-band — those in-between answers
@@ -14335,7 +14335,8 @@ hard safety. 0★ HIGHs still get real cards.
    cheapest, but flagged more supported answers as
    unsupported.” Native Noul vs schema-guided LLM
    **output** (not multi-step SGR). `implicit_true`
-   still unsupported. Replay from
+   included in yes (world-true still
+   unsupported-by-passages). Replay from
    `results/pilot/raw-run.tar.gz` (no keys).
 
    **Mental model:** Harbor/jevals honesty — native
@@ -14672,7 +14673,7 @@ gate).
 
 ### Curated status
 
-1241 HIGH **folded** (16 + product cluster). 1144 /
+1241 HIGH **folded** (15 HIGH + 5-app product cluster). 1144 /
 §89 **not re-carded**. Archer still **NOT landed**.
 Census not re-derived.
 

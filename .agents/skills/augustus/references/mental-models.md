@@ -754,7 +754,7 @@ Same pillars, twelve more placements. Do **not** re-fold
 3. **Native vs schema-guided Harbor** —
    groundedness-judge-bench native vs schema-guided.
    Fastest/cheapest is not the quality winner.
-   implicit_true still unsupported.
+   implicit_true included in yes.
 4. **0 promotions / authored vs real** — jev_playground
    0 promotions. A suite that passes a random judge is
    plumbing. routing-backtest 0.0447%.

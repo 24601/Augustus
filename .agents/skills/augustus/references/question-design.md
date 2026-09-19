@@ -160,7 +160,7 @@ request, and treat a stale pin as a prior, never a setting.
 | Treat jevmail as mailordinal / mailjay as read-only | Inbox species | `gmail.readonly` vs archive/trash after review. `notes.md` §89 |
 | Collapse ZHUBoer/ego-jev into jiangkoumo / treat `completed` as success | Namesake; verifier | ZHUBoer/ego-jev reserved `__none__`. runWorkflow completed ≠ success. `notes.md` §90 |
 | Treat jsort logits as frequencies / Choice as the scale | Ranking ≠ calibration | jsort scores are relative. Noul not Choice for scale. `notes.md` §90 |
-| Paste groundedness Macro-F1 as “Jev wins quality” | Axis; namesake | groundedness-judge-bench native vs schema-guided. implicit_true still unsupported. `notes.md` §90 |
+| Paste groundedness Macro-F1 as “Jev wins quality” | Axis; namesake | groundedness-judge-bench native vs schema-guided. implicit_true included in yes. `notes.md` §90 |
 | Quote jev_playground 83% / promote from authored bars | Plumbing; 0 promotions | jev_playground 0 promotions. routing-backtest 0.0447%. `notes.md` §90 |
 | Copy `jev-latest` on Zen / collapse into GodsBoy | Model pin; namesake | yuyang2230/jev-agent-skill jev-1.13-free. `notes.md` §90 |
 | Treat techstack ranks as a generated stack | Classifier not generator | jev-techstack-classifier stack_config.json only. `notes.md` §90 |

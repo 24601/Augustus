@@ -547,7 +547,7 @@ Architecture / mental models / Harbor-jevals / toolbelt, not a `uv` / `cargo` / 
 
 - **ZHUBoer/ego-jev** — MIT; **0★**; README SHA `fc4537ac`. Reserved `__none__`. runWorkflow completed ≠ success. **≠** jiangkoumo/ego-jev.
 - **keltokhy/jsort** — MIT; **1★**; README SHA `a7c1f705`. Scores are relative. Noul not Choice for scale. CommonLit r=0.824 / ρ=0.841 *theirs*.
-- **slavadubrov/groundedness-judge-bench** — LICENSE MIT / SPDX NOASSERTION; **0★**; README SHA `5cc070d8`. Native vs schema-guided. implicit_true still unsupported. Jev 0.6667 vs GLM 0.7661 *theirs*. **≠** jev-judge-bench.
+- **slavadubrov/groundedness-judge-bench** — LICENSE MIT / SPDX NOASSERTION; **0★**; README SHA `5cc070d8`. Native vs schema-guided. implicit_true included in yes. Jev 0.6667 vs GLM 0.7661 *theirs*. **≠** jev-judge-bench.
 - **JYeswak/jev_playground** — MIT; **0★**; README SHA `96483039`. 0 promotions. routing-backtest 0.0447%. **≠** HF playground.
 - **yuyang2230/jev-agent-skill** — MIT; **0★**; README SHA `158ca045`. jev-1.13-free. **≠** GodsBoy.
 - **swap-mitra/jev-techstack-classifier** — license null; **0★**; README SHA `cd32bde4`. stack_config.json only.

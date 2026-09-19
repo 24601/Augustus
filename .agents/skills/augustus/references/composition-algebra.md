@@ -445,7 +445,7 @@ datasets — every gate is a per-dataset measurement (see validation.md).
 51. **Native vs schema-guided Harbor**
     (groundedness-judge-bench): same rubric, two
     adapters. Fastest/cheapest ≠ quality.
-    implicit_true still unsupported. **≠**
+    implicit_true included in yes. **≠**
     jev-judge-bench. Full cards: `validation.md`.
 52. **0 promotions / authored vs real**
     (jev_playground): measurement owns endorsement.

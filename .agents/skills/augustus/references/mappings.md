@@ -405,7 +405,7 @@ README; 2026-09-19 ~18:41):**
 [groundedness-judge-bench](https://github.com/slavadubrov/groundedness-judge-bench)
 — RAGTruth QA. groundedness-judge-bench native vs
 schema-guided. Fastest/cheapest ≠ quality.
-implicit_true still unsupported. **≠** jev-judge-bench.
+implicit_true included in yes. **≠** jev-judge-bench.
 `notes.md` §90.
 
 ## 5. Hierarchy → bounded heuristic search

@@ -1163,8 +1163,8 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   r=0.824 / ρ=0.841 *theirs*; **1★**);
   **Native vs schema-guided Harbor**
   ([groundedness-judge-bench](https://github.com/slavadubrov/groundedness-judge-bench)
-  native vs schema-guided; implicit_true still
-  unsupported; Jev 0.6667 vs GLM 0.7661 *theirs*;
+  native vs schema-guided; implicit_true included
+  in yes; Jev 0.6667 vs GLM 0.7661 *theirs*;
   LICENSE MIT / SPDX NOASSERTION; **0★**; **≠**
   jev-judge-bench);
   **0 promotions / authored vs real**

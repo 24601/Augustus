@@ -2478,7 +2478,7 @@ Hunches labeled. Quote READMEs. Soft Noul ≠ hard safety.
   *theirs*. **1★**.
 - **Native vs schema-guided Harbor.**
   groundedness-judge-bench native vs schema-guided.
-  implicit_true still unsupported. Fastest/cheapest ≠
+  implicit_true included in yes. Fastest/cheapest ≠
   quality. **≠** jev-judge-bench. **0★**.
 - **0 promotions / authored vs real.** jev_playground 0
   promotions. routing-backtest 0.0447%. Plumbing 83% ≠

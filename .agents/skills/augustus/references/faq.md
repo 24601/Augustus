@@ -2312,15 +2312,15 @@ runWorkflow completed ≠ success. Exact work local.
 
 No, and no. jsort scores are relative. Ranking ≠
 calibration. Noul not Choice for scale. CommonLit
-r=0.824 / ρ=0.841 *theirs*. Fed hawkish ρ=+0.46 vs
-rate move *theirs*. `notes.md` §90.
+r=0.824 / ρ=0.841 *theirs*. Fed hawkish ρ=+0.47
+(91 statements) vs rate move *theirs*. `notes.md` §90.
 
 ## Did groundedness-judge-bench show Jev wins quality? Is it jev-judge-bench?
 
 No, and no. groundedness-judge-bench native vs
 schema-guided. Fastest/cheapest ≠ quality. Jev Macro-F1
-0.6667 vs GLM 0.7661 *theirs*. implicit_true still
-unsupported. **≠** jev-judge-bench **≠** jevarena **≠**
+0.6667 vs GLM 0.7661 *theirs*. implicit_true included
+in yes. **≠** jev-judge-bench **≠** jevarena **≠**
 jevbench. `notes.md` §90.
 
 ## Quote jev_playground 83%? Promote from authored bars?
