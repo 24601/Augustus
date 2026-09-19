@@ -1043,3 +1043,33 @@
 - notes.md §71; sources.json (421 sources, 418 unique URLs,
   retrieved 2026-09-19T12:50Z); findings.md batch #55.
   No wrapper.
+
+## 2026-09-19 ~13:52 UTC — hourly ~07:49 Boise (1-token logprob ≠ Noul, replica engine, Elixir SDK, commit/jevex VOI, inbox, laya-multilingual)
+- Docs-only fold into PR #2. `notes.md` §72. Archer still
+  Watch. Do not re-fold §50–§71 HIGH except sibling
+  contrast. Hunches labeled. No wrapper. No invented
+  metrics. Local archive
+  `/workspace/jev-archive/2026-09-19/0747/` missing.
+- Live receipts: GitHub READMEs + trees + HF cards
+  ~13:52–13:55 UTC. IPECTER/jev-runway **LICENSE-only**.
+  GitHub `size: 0` lag on several full trees.
+- Folded: chakuho GUI 336 27B 95%/92% vs Jev 89%/82%
+  *theirs* (coverage ≠ correctness); jevinf 2.57×/2.27×
+  100% argmax; typesafe-elixir-sdk ≠ dannote/jev; jevex
+  n=16 160s→69s; commitjev middle band; hermes-plugin-jev
+  is Agnes; pi-jev-compact ≠ pi-jev-compaction;
+  mailordinal inbox; jev-samples toolbelt; jev-cli not
+  ready ≠ jevql; laya-multilingual MASSIVE 0.366/0.387
+  (Khmer 0.000@0.952); schema-scorer Hub v2 0.841
+  (GitHub 404). Skip: jev-routing Cursor/Devin delta;
+  HF 401 open-jev-laya-bench / jev-tree-choice-cap /
+  INSTRUCT_JEV; jevlogs 404+401.
+- Census not re-derived. Archer still NOT landed.
+- Cards: SKILL.md, applied-mappings §1/§3/§4/§5/§7/§8,
+  mappings §6/§7/§8/§9, mixed-architecture, validation,
+  faq, judgment-class, mental-models, methods-catalog,
+  toolbox, composition-algebra, agent-self-assessment,
+  question-design, ecosystem, CHANGELOG, README.
+- notes.md §72; sources.json (435 sources, 432 unique URLs,
+  retrieved 2026-09-19T13:52Z); findings.md batch #56.
+  No wrapper.

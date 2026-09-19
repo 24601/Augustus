@@ -78,6 +78,10 @@ request, and treat a stale pin as a prior, never a setting.
 | One severity Score bunches in the middle | "How bad" hides several yes/no properties | Split into concrete Nouls (cookbook log triage 4/7 → 7/7 *theirs*). `notes.md` §71 |
 | Gateway returns no `confidence` | The statistic is missing, not "uncalibrated" | Reconstruct margin; lower the bar on *that* backend; tune on your traffic ([jev-use](https://github.com/shitianfang/jev-use) 17/20 → 0/20). `notes.md` §71 |
 | README badge ECE vs a different channel | Like-for-like channels; n and CI | Dual-channel ECE is a design fork; do not put correctness-head 1.44% beside distribution 21.40% ([openJev-verdict-2.0](https://github.com/Heman10x-NGU/openJev-verdict-2.0) PR #1). `notes.md` §71 |
+| Coverage 1.00, wrong `__none__` | Format-mass ≠ correctness; small-n theater | Measure `__none__` gold and shuffle/mix; do not threshold coverage ([chakuho](https://github.com/taku-me/chakuho) 8B 3/30 vs 27B 29/30). `notes.md` §72 |
+| English checkpoint on Khmer/Hebrew | Confident-wrong OOD; p never drops | Route by **script before** the forward pass; do not wait for gating ([laya-multilingual](https://huggingface.co/convaiinnovations/laya-multilingual)). `notes.md` §72 |
+| Commit "0.4, so pass" | Middle band is not a verdict | Report `"review"`; Nouls decide, Choice headlines ([commitjev](https://github.com/yodablocks/commitjev)). `notes.md` §72 |
+| Plugin named Jev, key is Agnes | Branding ≠ backend | Read the client ([hermes-plugin-jev](https://github.com/Mrmimee/hermes-plugin-jev) is chat-completions). `notes.md` §72 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

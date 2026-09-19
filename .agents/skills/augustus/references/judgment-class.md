@@ -609,6 +609,48 @@ distribution ECE). **Do not endorse.** Distinct from
 IamBusy/OpenJev `/v1/decide`, openvons, grande, and
 openjev-lm. Do not copy train/serve how-to
 (`notes.md` §71).
+**1-token logprob local endpoint (constrained-AR
+surface, not a trained head; 2026-09-19 ~07:49):**
+[chakuho](https://github.com/taku-me/chakuho) (MIT)
+serves `POST /v1/systemone` by reading one next-token
+logprob over caller-enumerated labels (vLLM / Ollama
+instruct). Softmax-over-labels **≠ Noul**. `coverage`
+is format-mass, not correctness. GUI 336-case *theirs*:
+27B **95%/92%** vs Jev Gateway **89%/82%**; `__none__`
+gold 97% vs 8B 10%. Cousin jevify / TypeAR / pcdServer
+/ jevmlx. Do not copy `uv run chakuho serve`
+(`notes.md` §72).
+**Open replica inference engine (argmax-parity
+speedup, not ECE; 2026-09-19 ~07:49):**
+[jevinf](https://github.com/zerodegress/jevinf) (MIT;
+Python ≥3.14) runs NanoJev / decider-2b / Laya with
+segmented forwards + prefix reuse, then the Jev wire.
+Only `torch-mps` is wired. *Theirs:* **2.57×** /
+**2.27×** at **100% argmax agreement**. Wire-compat ≠
+TypeSafe replica. Do not copy serve/port
+(`notes.md` §72).
+**Laya multilingual class expansion (English checkpoint
+confident-wrong OOD; 2026-09-19 ~07:49):**
+[`laya-multilingual`](https://huggingface.co/convaiinnovations/laya-multilingual)
+(Apache-2.0; mmBERT-base **322M**; 9 Hub likes). MASSIVE
+51-lang *theirs*: **0.366 / 0.387 / 45 of 51** vs
+English `laya` **0.227 / 0.733 / 23 of 51**. Khmer
+**0.000 acc at 0.952 confidence**; mean conf never <
+0.885 — **gating cannot catch it**. Route by script
+before the forward pass. Ships uncalibrated (ECE
+**0.314 → 0.106** after T *theirs*). Weaker on English
+(0.619 vs 0.684) — route, do not replace. Sibling of
+already-folded `laya-typed-decisions`. Do not copy
+`pip install laya` (`notes.md` §72).
+**Schema-conditioned DeBERTa scorer (Hub; GitHub 404;
+2026-09-19 ~07:49):**
+[`jev-schema-scorer-deberta-v3-large`](https://huggingface.co/mobarmg/jev-schema-scorer-deberta-v3-large)
+(MIT; 4 likes). One scalar head per `(state,
+question+candidate)`; **code** groups into
+Choice/Noul/Score. v2 Choice **0.841** *theirs*
+(chance 0.214). Peaked p = ranking, not calibration.
+Distinct from com-kotobalabs/open-jev-deberta-v3-large.
+Do not copy `schema_scorer.py` (`notes.md` §72).
 **ONNX replica of Laya:**
 [`Mattepiu/laya-onnx`](https://huggingface.co/Mattepiu/laya-onnx)
 (~15 ms CPU for one Noul, their card). Do not copy the inherited

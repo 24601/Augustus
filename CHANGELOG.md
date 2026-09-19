@@ -733,6 +733,40 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   latency, Laya parity, like-for-like ECE; **≠**
   IamBusy/OpenJev). Census not re-derived. No wrapper. No
   invented metrics.
+- Hourly ~07:49 Boise 2026-09-19 (`research/notes.md` §72): Archer
+  still Watch. Do not re-fold §50–§71 HIGH except sibling
+  contrast. **1-token logprob endpoint ≠ Noul**
+  ([chakuho](https://github.com/taku-me/chakuho); MIT;
+  coverage ≠ correctness; GUI 336 *theirs* 27B 95%/92%
+  vs Jev 89%/82%; `__none__` 97% vs 8B 10%). **Open
+  replica engine** ([jevinf](https://github.com/zerodegress/jevinf);
+  MIT; 2.57×/2.27× 100% argmax; MPS only). **Unofficial
+  Elixir SDK ≠ OTP peer**
+  ([typesafe-elixir-sdk](https://github.com/phiat/typesafe-elixir-sdk);
+  MIT; 1★; ≠ dannote/jev). **jevex rename + n=16 VOI**
+  ([jevex](https://github.com/jimmyhealer/jevex); 160s→69s
+  / $8.74→$3.13 / 16/16 *theirs*; keep n=8 1/8→6/8).
+  **Commit attention≠verdict**
+  ([commitjev](https://github.com/yodablocks/commitjev);
+  MIT; middle band never rounded; 0 false on 5 clean
+  *theirs*). **Hermes plugin is Agnes not TypeSafe**
+  ([hermes-plugin-jev](https://github.com/Mrmimee/hermes-plugin-jev)).
+  **Pi compact ≠ compaction**
+  ([pi-jev-compact](https://github.com/dev-willbird1936/pi-jev-compact);
+  MIT). **Empty skip**
+  ([jev-runway](https://github.com/IPECTER/jev-runway);
+  LICENSE-only). **Decision-native inbox**
+  ([mailordinal](https://github.com/Milo318/mailordinal);
+  MIT). **Unofficial jev-cli not ready**
+  ([jev-cli](https://github.com/shaharia-lab/jev-cli);
+  0.0.0; ≠ jevql). **Laya multilingual**
+  ([laya-multilingual](https://huggingface.co/convaiinnovations/laya-multilingual);
+  MASSIVE 0.366/0.387; Khmer 0.000@0.952; ships
+  uncalibrated). **Schema-scorer Hub** (GitHub 404; v2
+  Choice 0.841; peaked ranking). HF 401 this pass on
+  open-jev-laya-bench / jev-tree-choice-cap /
+  INSTRUCT_JEV; jevlogs 404+401. Census not re-derived.
+  No wrapper. No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

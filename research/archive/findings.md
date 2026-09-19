@@ -1873,3 +1873,70 @@ GUI never force-click; (go) generation as tree of Choices;
 personal-history ranking without a social graph; (gr)
 competing NAR dual-channel ECE as claim-verification;
 (gs) empty compaction-proxy skip.
+
+## Batch #56 (2026-09-19 ~13:52 UTC / ~07:49 Boise) — 1-token logprob ≠ Noul, replica engine, Elixir SDK, commit/jevex VOI, inbox, laya-multilingual
+
+Note: `research/notes.md` §72. Docs-only. Folded into PR #2.
+Archer still Watch. No invented metrics. Do not re-fold
+§50–§71 HIGH except sibling contrast. Hunches labeled.
+Local archive `/workspace/jev-archive/2026-09-19/0747/`
+missing; live GitHub + HF ~13:52 UTC. IPECTER/jev-runway
+**LICENSE-only empty**. GitHub `size: 0` lags on repos
+that have files.
+
+- **taku-me/chakuho (Empirical as 336-case GUI).** Python
+  MIT. 1-token logprob `/v1/systemone`. Softmax ≠ Noul.
+  Coverage ≠ correctness. 27B 95%/92% vs Jev 89%/82%
+  *theirs*. `__none__` 97% vs 8B 10%. Cousin jevify /
+  TypeAR / pcdServer / jevmlx.
+- **zerodegress/jevinf (Empirical as README speedup).**
+  Python MIT; ≥3.14. 2.57×/2.27× 100% argmax *theirs*.
+  MPS only. Wire-compat ≠ replica.
+- **phiat/typesafe-elixir-sdk (Contract).** Elixir MIT;
+  1★. Unofficial HTTP client. ≠ dannote/jev OTP peer.
+- **jimmyhealer/jevex (delta of §61).** Rename of
+  jev-semantic-explorer. n=16 160s→69s / $8.74→$3.13 /
+  16/16 *theirs*. Keep n=8 1/8→6/8.
+- **yodablocks/commitjev (Empirical as 13 labelled).**
+  Python MIT. Middle band never rounded. 0 false on 5
+  clean *theirs* (small control). Same owner as
+  jev-orderby-bench.
+- **Mrmimee/hermes-plugin-jev (identity lock).** README
+  MIT / GitHub SPDX null. Agnes 3.0 Flash branded as
+  Jev. ≠ hermes-jev-router.
+- **dev-willbird1936/pi-jev-compact (Empirical as README
+  + latency).** TypeScript MIT. ≠ vava-nessa/pi-jev-
+  compaction. Fail-open if <25% saved.
+- **IPECTER/jev-runway (empty skip).** LICENSE only.
+- **Milo318/mailordinal (Empirical as README).**
+  TypeScript MIT. Decision-native inbox. Humans own
+  ambiguity.
+- **aarora79/jev-samples (toolbelt).** License null. One
+  sample. Not a bench.
+- **shaharia-lab/jev-cli (not ready).** Rust Apache-2.0
+  OR MIT; 0.0.0; 17 issues. ≠ jevql.
+- **convaiinnovations/laya-multilingual (Empirical as
+  Hub card).** Apache-2.0; 322M; 9 likes. MASSIVE
+  0.366/0.387 vs 0.227/0.733. Khmer 0.000@0.952. Ships
+  uncalibrated.
+- **mobarmg/jev-schema-scorer-deberta-v3-large (Hub;
+  GitHub 404).** MIT. v2 Choice 0.841. Peaked ranking ≠
+  calibration.
+- Skip: jev-routing host-surface delta (Cursor/Devin);
+  laya-typed-decisions; open-jev-laya-bench /
+  jev-tree-choice-cap / INSTRUCT_JEV HF 401; jevlogs
+  GitHub 404 + HF 401.
+
+Census not re-derived this hour (last §69). Archer still
+NOT landed.
+
+Cross-repo addition: (gt) 1-token logprob ≠ Noul /
+coverage ≠ correctness; (gu) open replica engine
+argmax-parity; (gv) unofficial Elixir SDK ≠ OTP peer;
+(gw) jevex n=16 files-to-read VOI; (gx) commit
+attention≠verdict / middle band; (gy) branding ≠
+backend (Agnes as Jev); (gz) Pi compact ≠ compaction;
+(ha) decision-native inbox; (hb) unofficial CLI not
+ready; (hc) multilingual Laya confident-wrong OOD;
+(hd) schema-conditioned peaked ranking; (he) second
+IPECTER empty skip.

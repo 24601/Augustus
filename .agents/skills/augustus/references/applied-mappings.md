@@ -170,12 +170,27 @@ eval finding; 2026-09-19 ~03:38):**
 `recall` **0/4**. SessionStart hook injects rules
 unconditionally; an MCP tool sitting there is not enough
 (`notes.md` §68). 9×3 remains a hint.
-**Empty compaction-proxy skip (2026-09-19 ~06:43):**
+**Empty compaction-proxy skip (2026-09-19 ~06:43 and
+~07:49):**
 [jev-context-pruner](https://github.com/IPECTER/jev-context-pruner)
-— description-only Codex compression-proxy slogan;
-`contents/` 409 empty. Sibling of fast-jev-compaction /
-jev-compactor / dizk/jev-lens / jev-pruner. Do not invent
-files (`notes.md` §71).
+— description-only; `contents/` 409 empty.
+[jev-runway](https://github.com/IPECTER/jev-runway) —
+LICENSE only; created≈pushed 1s; README 404. Sibling of
+fast-jev-compaction / jev-compactor / dizk/jev-lens /
+jev-pruner. Do not invent files (`notes.md` §71, §72).
+**Pi verbatim summarizer replacement (Empirical as
+README + latency table; 2026-09-19 ~07:49):**
+[pi-jev-compact](https://github.com/dev-willbird1936/pi-jev-compact)
+(MIT) — keep-windows/pins in code, then one Noul per
+paired tool call; Pi stores original characters, not a
+paraphrase. Fail-open to the built-in LLM summary
+(off / no key / <25% saved / HTTP error). **Distinct
+from**
+[pi-jev-compaction](https://github.com/vava-nessa/pi-jev-compaction).
+FB-Scanner *theirs*: kept 1 of 261; replay 0.6 s vs
+first UI spinner 26 s (host cost, not judge cost). Pair
+pi-jev-control / pi-heed. Do not copy `pi install`
+(`notes.md` §72).
 
 ## 2. Exact-text keep / drop
 
@@ -428,6 +443,20 @@ one small question per place →
 VERIFIED/VIOLATION/UNKNOWN/NOT_APPLICABLE. Empty search
 ≠ proof. CLI works; GitHub Action not written. Do not
 copy Cloudflare how-to (`notes.md` §70).
+**Commit pre-review attention≠verdict (Empirical as 13
+labelled + own-history; 2026-09-19 ~07:49):**
+[commitjev](https://github.com/yodablocks/commitjev)
+(MIT) — seven Nouls + one headline Choice per commit;
+six regex checks never reach the model. Middle band is
+**"review"**, never rounded. Nouls decide; Choice only
+headlines at confidence ≥0.50. Hook **blocks only on a
+warning**. Calibration *theirs*: every rule fires on its
+defect; **0 false on 5 clean** (small control); own 16
+commits 3 warn / 4 review / $0.0017. Same owner as
+jev-orderby-bench (one commit per call; never sort
+two-decimal probs). Cousin prune-review / ci-gatekeeper
+/ jev-preflight. Do not copy hook install
+(`notes.md` §72).
 **Counterexample**: sampling 2% of production with an LLM judge —
 the economics inversion is the point. **Test**: planted harness bugs
 recovered; false-flag rate on known-clean runs; LLM never runs on the
@@ -524,6 +553,15 @@ HitFile 0.233 vs BM25 0.159 is diagnostic, **not** the
 product KPI. Distinct from jevgrep / jev-sift /
 s1-graphify-indexer. Do not copy MCP how-to (`notes.md`
 §61).
+**Evidence-packet explorer delta (rename + n=16 SWE
+card; 2026-09-19 ~07:49):**
+[jevex](https://github.com/jimmyhealer/jevex) **is**
+`jimmyhealer/jev-semantic-explorer` renamed (same
+`created_at`; GitHub redirects). New *theirs*: SWE-bench
+Verified **n=16**, 160s → **69s**, $8.74 → **$3.13**,
+patch **16/16 both arms**. 90s cap 1/16 vs **11/16**
+finished. Keep n=8 finish 1/8 → 6/8. Claude Code n=5
+6.8 → 2.2 unchanged. (`notes.md` §72).
 **Measured RAG rerank vs a generative reranker (Empirical as
 one-run; Hypothesis as a transfer, ~18:46):**
 [Jev-RAG](https://github.com/Max-sm-yc/Jev-RAG) — same search
@@ -574,6 +612,17 @@ Gmail. Code prepares, Jev answers narrow questions. Samples
 16–36 handmade; authors say **not benchmarks**. Recipes
 01–13: 425 calls / $0.015; browser 5/6 *theirs*. Do not
 copy OpenRouter tilde-id (`notes.md` §71).
+**Decision-native inbox (Empirical as README + tests;
+life/business, not SWE-only; 2026-09-19 ~07:49):**
+[mailordinal](https://github.com/Milo318/mailordinal)
+(MIT) — nine typed questions in one request, then a
+**100-point deterministic policy** (SLA + account tier
+in code). Does not ask "how urgent is this?" Humans own
+ambiguity: low routing confidence never silently lowers
+priority. Demo labelled `demo`; live Jev optional and
+server-side. Cousin jav-email-cascade. Independent, not
+affiliated with TypeSafe. Do not copy `npm run dev`
+(`notes.md` §72).
 **Test**: moderation
 cost/coverage + false-hold vs false-publish; ranking recall *separate*
 from nDCG; select misroute rate; required-evidence recall vs Top-K.
@@ -737,6 +786,19 @@ same split for OpenClaw (classify axes; `decide()` maps the route; path
 regex floors risk). [`nekowasabi/jev-routing`](https://github.com/nekowasabi/jev-routing)
 is a host adapter, not an MCP plugin: compact, then one Choice + done,
 then one schema (`notes.md` §44).
+**Host-adapter surface delta (2026-09-19 ~07:49):**
+same [jev-routing](https://github.com/nekowasabi/jev-routing)
+binary now lists **Cursor Agent CLI** and **Devin CLI**
+beside Claude Code / Codex / Grok Build. Still not MCP.
+Do not re-card; do not copy ports (`notes.md` §72).
+**Hermes plugin branded as Jev is Agnes (identity lock;
+2026-09-19 ~07:49):**
+[hermes-plugin-jev](https://github.com/Mrmimee/hermes-plugin-jev)
+(README MIT / GitHub SPDX null) — Choice/Noul/Score
+*shape* over **Agnes 3.0 Flash** chat-completions.
+Distinct from hermes-jev-router (TypeSafe
+WHETHER/HOW/WHAT). Do not copy `~/.hermes`
+(`notes.md` §72).
 [`TheoOliveira/pi-jev`](https://github.com/TheoOliveira/pi-jev) is the
 same selector hole inside Pi (tools + skills); fail-open to a keyword
 shortlist; **not** `kevinpita/pi-jev-context` (sieve).
@@ -927,6 +989,14 @@ margin; 2026-09-19 ~06:43):**
 — deny/ask only; **fail-open**; 12/12 *theirs*; Vercel
 drops confidence so margin default 0.4. Same author as
 jev-handoff. Gate never grants (`notes.md` §71).
+**Commit-msg hook: fail-open on instrument failure
+(Empirical as 13 labelled; 2026-09-19 ~07:49):**
+[commitjev](https://github.com/yodablocks/commitjev)
+— hook **blocks only on a warning**; a failed check is
+not a reason to refuse. Middle band is review, never a
+verdict. Credential regex cannot tell a fixture from a
+key (correct failure direction). Do not copy hook
+install (`notes.md` §72).
 **Turnstile clone (Empirical as README architecture;
 2026-09-19 ~01:47):**
 [turnstile](https://github.com/zyphr-labs/turnstile)
@@ -1008,6 +1078,13 @@ JSON `"confidence"` as calibrated. **Test**: the same emails
 through all three backends; report raw accuracy, acted
 accuracy, and mean confidence on wrong answers; injection
 fixtures never auto.
+**Inbox cousin without leftover LLM (Empirical as README;
+2026-09-19 ~07:49):**
+[mailordinal](https://github.com/Milo318/mailordinal)
+— same sandwich, no generator required: nine typed
+signals → 100-point policy → ranked queue. Humans own
+the review lane. Life/business. Independent of TypeSafe
+(`notes.md` §72).
 
 ## 9. Closed-vote computer-use
 

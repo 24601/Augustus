@@ -9386,3 +9386,488 @@ pick≠write); `agent-self-assessment.md`;
 what-doesn't-count sentence); `composition-algebra.md`
 (selector of next word); `toolbox-mapping.md`;
 `methods-catalog.md`. Hunches labeled. No wrapper.
+
+## 72. Hourly System One watch — 2026-09-19 ~07:49 Boise / 13:52 UTC
+
+Docs-only fold into PR #2. Archer still **Watch**. Do
+**not** re-fold §50–§71 HIGH except sibling contrast /
+material delta. Hunches labeled. No wrappers, install.sh,
+copied ports, or invented metrics. TypeSafe Jev remains
+the exemplar, not the monopoly — this hour is
+**mental models** (decision theory, calibration, VOI,
+signal detection, anti-soundness-theater), not a thin
+Jev skill.
+
+Local archive `/workspace/jev-archive/2026-09-19/0747/`
+is **missing** on this VM. Live GitHub `gh api` + README
+trees + HF Hub cards ~13:52–13:55 UTC. GitHub `size: 0`
+lags on several repos that already have files (chakuho,
+jevinf, elixir-sdk, hermes-plugin, pi-jev-compact,
+mailordinal, jev-samples) — trees, not `size`, decide
+empty vs content.
+
+Meaning this hour: (1) **1-token logprob local endpoint
+≠ Noul** (chakuho; coverage is format-mass, not
+correctness); (2) **open replica runtime** (jevinf:
+NanoJev / decider-2b / Laya families, argmax-parity
+speedup, only MPS wired); (3) **SDK/CLI surface
+expansion** (unofficial Elixir HTTP client ≠ OTP peer;
+Rust `jev` CLI planned, not ready); (4) **VOI
+admission** (jevex rename + n=16 SWE card; commitjev
+attention≠verdict with a middle "review" band);
+(5) **host/compaction/inbox toolbelt** (Pi verbatim
+compact sibling; Agnes-backed Hermes plugin is **not**
+TypeSafe; decision-native inbox); (6) **Laya
+multilingual class expansion** (English checkpoint
+confident-wrong OOD; this checkpoint ships
+uncalibrated); (7) **schema-conditioned encoder scorer**
+on Hub (GitHub 404); (8) **empty/401 skips**.
+
+### HIGH novel / material delta
+
+1. **[`taku-me/chakuho`](https://github.com/taku-me/chakuho)**
+   — NEW HIGH. Python **MIT**; created
+   2026-09-19T13:39:04Z; size **0** lag (full tree:
+   `chakuho/{cli,client,core,server}.py`, `bench/`,
+   `docs/design.md`); 0★. Local **1-token logprob**
+   System One endpoint: `POST /v1/systemone` over an
+   OpenAI-compat backend (vLLM assumed; Ollama if
+   `logprobs`/`top_logprobs` exist). Candidates are
+   enumerated by the caller (AX tree, DOM, task list).
+   Labels A–Z/a–z; `max_tokens=1`; mass outside labels
+   is `coverage`. Coverage **0** → uniform +
+   `"degraded": true`. 52 options one round; 53–2704
+   two-stage tournament; ≥2705 HTTP 400. `__none__` is
+   forced into every chunk. Thinking models on Ollama
+   emit a think-token as the first token → unusable
+   (instruct only). **Not** a trained decision head
+   (cousin jevify / TypeAR / pcdServer / jevmlx).
+   Softmax-over-labels **≠ Noul**. Do **not** copy
+   `uv run chakuho serve` / port 9750.
+
+   Benchmarks *theirs* 2026-09-19, DGX Spark GB10,
+   vLLM Qwen3.8-27B NVFP4 (prefix cache + MTP; GPU 95%
+   with a co-resident generate). Latency is **prefill**,
+   not decode: 8 candidates p50 **0.61 s**; 233
+   candidates **6.35 s**. Same screen, 6 questions
+   parallel **1.13 s** vs thinking-off JSON 2.3–3.5 s
+   vs thinking-on **80 s**. GUI 336-case (11 real macOS
+   screens, 112 tasks × 3 variants, 26–233 elements +
+   `__none__`, 39 `__none__` gold): 27B **245/258
+   (95%)** ordinary / **72/78 (92%)** sheets vs Jev
+   Gateway **230 (89%) / 64 (82%)**. `__none__` gold 30
+   ordinary: 27B **29 (97%)** vs Jev **27 (90%)** vs 8B
+   **3 (10%)**. Shuffle/mix does not drop 27B; 8B/4B
+   drop. Jev × 27B agreement 86%/90%. 8B and 4B answers
+   are **93% the same** — they fail the same way.
+   Dangerous discard-sheet swaps: **zero** for Jev and
+   27B. jev-mario *theirs*: 27B loses on numeric-rule
+   misapply ("< 6 tiles" fires at 8); branch mode
+   matches search to x=2370. 1-shot latency 0.86 s vs
+   Jev 0.61 s from JP via Gateway.
+
+   **Hunch:** constrained-AR as a **VOI-shaped soft
+   judge** without hard-gating theater. Coverage is
+   "did the mass land on declared labels," not "is the
+   answer right" — 8B stays coverage 1.00 while
+   `__none__` collapses. Arithmetic/numeric rules stay
+   in code. 12-case "8B ≈ Jev" was sample-size theater;
+   336-case is the card. Thresholds on uncalibrated
+   softmax need a labeled log first. 503 is
+   "could-not-judge," never "no."
+
+2. **[`zerodegress/jevinf`](https://github.com/zerodegress/jevinf)**
+   — NEW HIGH. Python **MIT**; created
+   2026-09-19T13:04:55Z; size **0** lag (engine,
+   `docs/strategies.md`, `vendor/nanojev`); 0★; Python
+   **≥3.14**. Jev-*kind* inference engine: segmented
+   forwards + prefix reuse, then the Jev wire
+   (`/v1/systemone` + `/api/evaluate`). NanoJev is the
+   backend wired today. Families *theirs*: `nanojev`
+   (Qwen3-0.6B + trained decision head, three-stage
+   prefix share), `decider-2b` (Qwen3.5-2B linear-attn
+   fork), `laya` (ModernBERT-large, one sequence per
+   question). Only **`torch-mps` is wired**; cpu/cuda/
+   rocm **refuse**. Throughput *theirs*: **2.57×** on
+   one API-sized request (25.80 s → 10.06 s) and
+   **2.27×** end-to-end on the dev split (84.2 s →
+   37.0 s) at **100% argmax agreement**. Conformance
+   scripts vs official SDK + Laya/decider parity.
+   Wire-compat **≠** TypeSafe replica. Do **not** copy
+   `uv run jevinf serve` / port 8226.
+
+   **Hunch:** open-replica **runtime shape**, not a
+   second Jev. Speedup is arrangement (prefix reuse),
+   not a quality headline. Argmax agreement is the
+   honesty check — they did not claim ECE. Same class
+   as grande / laya-jolt / jevmlx / OpenJev
+   `/v1/decide`: substrates with named tests.
+
+3. **[`phiat/typesafe-elixir-sdk`](https://github.com/phiat/typesafe-elixir-sdk)**
+   — NEW HIGH. Elixir **MIT**; created
+   2026-09-19T13:04:16Z; size **0** lag; **1★**.
+   Unofficial Elixir client for typed Noul/Choice/Score
+   over Req. Same env defaults / retry / error classes
+   as the official Python SDK *theirs*. Real response
+   from `jev-1.13.0` in the README. **Code owns the
+   decision** (`cond` on Noul + Choice + confidence).
+   Confidence is concentration, **not** P(correct).
+   Missing key does not crash boot; calls return
+   `{:error, :no_api_key}`. Distinct from
+   [`dannote/jev`](https://github.com/dannote/jev)
+   (Elixir/OTP **peer GenServer**; answers as messages;
+   findings batch #4 / notes ~line 262). Do **not** copy
+   `mix` / hex how-to.
+
+   **Hunch:** SDK surface expansion is not a new
+   species. The mental model is the same mixed
+   architecture: typed answers in, policy in ordinary
+   code. Always qualify Elixir: HTTP client ≠ OTP peer.
+
+4. **[`jimmyhealer/jevex`](https://github.com/jimmyhealer/jevex)**
+   — **delta of §61** `jimmyhealer/jev-semantic-explorer`
+   (same `created_at` 2026-09-19T03:21:01Z; GitHub
+   redirects the old name here). Python **MIT**; size
+   **91**; 0★; pushed 13:41Z. Spoken name was already
+   jevex; package on disk is still `jev_explorer`. One
+   MCP tool `codebase_investigate`: index-once, BM25
+   shortlist, Jev ranks, agent Reads cited ranges.
+   Read-only, not a patcher. Jev never sees the whole
+   repo. **New n=16 SWE-bench Verified card** *theirs*
+   (agy + Gemini 3.8 Flash, 1200s cap): 160s → **69s**,
+   $8.74 → **$3.13**, patch file **16/16 both arms**.
+   Under a 90s cap: without 1/16 vs with **11/16**
+   finished (timeouts were empty JSON). Claude Code
+   n=5 **6.8 → 2.2 files** is the same figure as §61.
+   Prior n=8 finish **1/8 → 6/8** stays as the older
+   SWE card. Packet HitFile 0.233 vs BM25 0.159 remains
+   diagnostic, not the product KPI. Do **not** copy
+   `claude mcp add`.
+
+   **Hunch:** VOI for **which files to read**, not a
+   second agent. n=16 is a time/cost card with equal
+   patch-hit; the 90s-cap finish gap is the Harbor-
+   shaped timeout story. Keep both n=8 finish and n=16
+   latency; do not collapse them.
+
+5. **[`yodablocks/commitjev`](https://github.com/yodablocks/commitjev)**
+   — NEW HIGH. Python **MIT**; created
+   2026-09-19T12:38:48Z; size **44**; 0★. Same owner as
+   jev-orderby-bench (§60). Pre-review commit judgment:
+   message vs diff, one-commit cohesion, omitted
+   change. One request per commit (seven Nouls + one
+   headline Choice in parallel). **Six regex checks
+   never reach the model** (em dash, deleted file,
+   manifest, credential pattern, binary, >2000 lines
+   added) — Jev cannot count and is weak on literals.
+   Code owns every threshold: ≥0.65 good-side pass;
+   ≥0.65 bad-side warn; **the middle is "review", never
+   rounded to a verdict**. `new_dependency` is always
+   "review" and never fails a run alone. Choice only
+   picks the first line shown, and only at confidence
+   ≥0.50; **Nouls decide every verdict** (Choice is
+   relative; each Noul is absolute). Hook **blocks only
+   on a warning**; a failed check is not a reason to
+   refuse (fail-open on instrument failure). SQLite
+   cache because a commit is immutable. Cousin
+   prune-review / ci-gatekeeper / jev-preflight /
+   jev-intent-review. Do **not** copy hook install.
+
+   Calibration *theirs*: 13 labelled commits (8 one
+   defect + 5 clean). Every rule fires on its defect;
+   margin vs clean 0.69–0.93; **nothing fires on
+   clean**. Choice names the planted defect on 6/8;
+   "none" on all 5 clean at ≥0.91. Own 16 commits:
+   3 warnings / 4 review / 3.9 s / **$0.0017**. Two
+   `single_purpose` warnings are real two-purpose
+   commits (0.32 / 0.18). Limits *theirs*: Nouls trip
+   together; `unexplained_removal` weakest (changed
+   constant looks like a deletion, 0.83); synthetic
+   defects easier than real (another-repo "and" bundle
+   scored 0.66 and passed); 5 clean is a small control;
+   diffs capped 120 lines/file and 400 overall; Jev is
+   not deterministic (spread 0.01–0.09; two
+   case-and-rule pairs change verdict; large truncated
+   diffs straddle 0.65); credential regex cannot tell a
+   fixture from a key. They cite their own
+   jev-orderby-bench: one-commit-per-call because
+   many-to-a-request ranks worse; never sort by two-
+   decimal probs.
+
+   **Hunch:** attention ≠ verdict / **signal detection
+   for human review**. The middle band is the anti-
+   soundness-theater move — a number you could round is
+   exactly the number you must not. Regex proves the
+   easy literals. Same author already measured that
+   ranking ≠ calibration; the tool's request shape
+   follows that measurement.
+
+6. **[`Mrmimee/hermes-plugin-jev`](https://github.com/Mrmimee/hermes-plugin-jev)**
+   — NEW as **identity lock**, not a TypeSafe product.
+   Python; README **MIT** / GitHub SPDX **null**;
+   created 2026-09-19T13:42:27Z; size **0** lag
+   (`plugin.yaml`, `__init__.py`, `sync.py`); 0★.
+   Hermes Agent plugin that **brands** Choice/Noul/Score
+   as "Jev cerebellum" but the live backend is
+   **Agnes 3.0 Flash** at `apihub.agnes-ai.com/v1` via
+   `system_one_adapter` + `OpenAIProvider` chat
+   completions. Key is `AGNES_API_KEY` (or a
+   OneDrive-desktop `apikey.txt`). Cousin
+   hermes-jev-router (§69 WHETHER/HOW/WHAT) actually
+   talks to TypeSafe. Do **not** copy `~/.hermes`
+   clone.
+
+   **Hunch:** anti-soundness-theater. A Choice/Noul/
+   Score *shape* on a generative chat-completions path
+   is not System One and not a Noul. Treat it as a host
+   adapter that reused the vocabulary. Always qualify
+   vs hermes-jev-router.
+
+7. **[`dev-willbird1936/pi-jev-compact`](https://github.com/dev-willbird1936/pi-jev-compact)**
+   — NEW HIGH. TypeScript **MIT**; created
+   2026-09-19T13:31:42Z; size **0** lag (src + tests +
+   CI); 0★. **Distinct from**
+   [`vava-nessa/pi-jev-compaction`](https://github.com/vava-nessa/pi-jev-compaction)
+   (verbatim drop cousin of fast-jev-compaction). This
+   package replaces Pi's **summarizer** on
+   `session_before_compact`: keep-windows + pins in
+   code, then one Noul per paired tool call
+   (`keep_tN`), then a markdown string of **original
+   characters**. Jev never shares Pi's conversation or
+   KV cache. Fail-open to the built-in LLM summary:
+   off / no key / empty region / HTTP error / timeout /
+   **<25% saved**. `drop_result` exists in the renderer
+   and is unused — the decision is keep-both or
+   drop-both. Pair with pi-jev-control (§71) and
+   pi-heed (§70). Do **not** copy `pi install`.
+
+   Latency *theirs* 2026-09-18 vs `api.typesafe.ai`:
+   dummy ~8k/80–261 noul **0.3–0.4 s**; FB-Scanner
+   prefix 1 noul/call ~18k state **0.6 s** (HTTP
+   0.4 s). First UI spinner **26 s** was not Jev
+   writing a summary (TLS/warmup + walking a 388k-token
+   session + appending a 154k-char string to a 9.8MB
+   jsonl). Universal-FB-Scanner compact: kept **1 of
+   261** calls, truncated **0**.
+
+   **Hunch:** pointer-not-generator on the Pi compact
+   hook. The 26 s spinner is a host-cost story, not a
+   judge-cost story. Fail-open if savings are too small
+   is the right polarity for a summarizer replacement
+   (a bad prune is worse than a summary). Always
+   qualify the two `pi-jev-compact*` names.
+
+8. **[`IPECTER/jev-runway`](https://github.com/IPECTER/jev-runway)**
+   — **EMPTY SKIP** (second IPECTER slogan this
+   morning). MIT LICENSE only; created
+   2026-09-19T13:46:00Z; pushed **one second later**;
+   size **0**; lang null; README 404. Description:
+   "Jev-powered Codex proxy… Fewer tokens. More
+   runway." Sibling of §71 `IPECTER/jev-context-pruner`
+   (409 empty). Do not invent a product card.
+
+9. **[`Milo318/mailordinal`](https://github.com/Milo318/mailordinal)**
+   — NEW HIGH. TypeScript **MIT**; created
+   2026-09-19T13:05:04Z; size **0** lag (Next.js app,
+   `docs/{ARCHITECTURE,DECISION_POLICY,JEV_INTEGRATION}.md`);
+   0★. Decision-native **inbox** (life/business, not
+   SWE-only): nine typed questions in one request
+   (department Choice, reply/action/blocked/follow-up
+   Nouls, message_type / time_window / sensitivity
+   Choice, delay_impact Score) then a **100-point
+   deterministic policy** (SLA + account tier in
+   code). Does **not** ask "how urgent is this?"
+   Humans own ambiguity: low routing confidence and
+   consequential uncertainty → review lane, never
+   silently lower priority. Demo policy labelled
+   `demo`; live Jev is optional and server-side.
+   Independent, not affiliated with TypeSafe. Cousin
+   jav-email-cascade (§60 decide→policy→LLM leftover).
+   Do **not** copy `npm run dev` / key how-to.
+
+   **Hunch:** the product pattern *is* mixed
+   architecture outside SWE. Typed signals in;
+   deterministic queue order out. Arrival time is a
+   poor proxy for business priority. Same sandwich as
+   the cascade: model judges meaning, code owns policy,
+   humans own the middle band.
+
+10. **[`aarora79/jev-samples`](https://github.com/aarora79/jev-samples)**
+    — NEW as **toolbelt**, not a bake-off. License
+    **null**; created 2026-09-19T13:20:33Z; size **0**
+    lag (`samples/readme-check` is a real uv project);
+    0★. One sample: five questions on a README
+    (Choice/Score/Noul). Live curl receipt
+    2026-09-19 `jev-1.13.0`. README cites TypeSafe
+    accuracy **67.8%** and "nobody outside the company
+    has reproduced the latency yet" — **their**
+    caution, not a new measurement. Points at
+    openjev-sglang and jevcal. Do **not** copy curl /
+    key how-to.
+
+    **Hunch:** samples are how-to-apply *illustrations*.
+    The useful sentence is "atomic questions; weights
+    in your code." Not a Harbor taskset.
+
+11. **[`shaharia-lab/jev-cli`](https://github.com/shaharia-lab/jev-cli)**
+    — NEW HIGH as **planned unofficial CLI surface**,
+    not a shipped product. Rust; LICENSE **Apache-2.0
+    OR MIT** / GitHub SPDX **Apache-2.0**; created
+    2026-09-19T07:54:57Z; size **547**; 0★; **17 open
+    issues**; workspace version **0.0.0**. README:
+    **"There is no release yet and the commands below
+    are not implemented"** (v1 epic #2). Crate README:
+    **"Not ready for use yet."** Planned: `jev noul|
+    choice|score` → exit codes as a semantic `if`;
+    batch JSONL/CSV; MCP `jev mcp serve`; JSON Schema
+    dump. Distinct from jevql (judgment *outside* the
+    store) and from typesafe-elixir-sdk (HTTP client).
+    Do **not** copy `claude mcp add jev` — the binary
+    is not released.
+
+    **Hunch:** shell as the natural home of a typed
+    predicate. Exit-status mapping is the design, not
+    the implementation. Treat as architecture note
+    until v1 lands.
+
+12. **[`convaiinnovations/laya-multilingual`](https://huggingface.co/convaiinnovations/laya-multilingual)**
+    — NEW HIGH class expansion. HF HTTP **200**;
+    Apache-2.0; mmBERT-base **322M**; context **1024**;
+    **9** Hub likes; created 2026-09-19T03:23:34Z.
+    Companion of already-folded `laya` (English
+    ModernBERT-large 421M / 512) and
+    `laya-typed-decisions` (§42/§46). Card *theirs*:
+    use this checkpoint for **anything that is not
+    English**. MASSIVE 51-language intent, 20 options
+    (random 0.050), byte-identical questions: English
+    `laya` macro acc **0.227** / ECE **0.733** / 23 of
+    51 languages ≥3× random vs multilingual **0.366 /
+    0.387 / 45 of 51**. English checkpoint does not
+    degrade gracefully: Khmer **0.000 acc at 0.952
+    confidence**; Hebrew 0.060, Armenian 0.050,
+    Bengali 0.080, all at 0.89–0.96 confidence. Mean
+    confidence never drops below **0.885**, so
+    **confidence gating cannot catch it**. Routing is
+    decided from **script, before the forward pass**.
+    XNLI: English 0.860 vs 0.843; 14 other languages
+    0.521 vs **0.731**. Speed on T4: 10q **72.3 ms**
+    vs 158.6 ms. **Ships uncalibrated** T=`[1,1,1]`;
+    mean ECE **0.314 → 0.106** after one temperature
+    per (type, option-count) on held-out *theirs*.
+    Weaker on English (0.619 vs 0.684). Near chance on
+    typed-decisions zero-shot (0.342 vs random 0.318 /
+    majority 0.461). Keep Choice under ~20 options.
+    Score is the weakest primitive (SST-5 0.282). Do
+    **not** copy `pip install laya`.
+
+    **Hunch:** calibrated-RLCD class expansion, and a
+    calibration/SDT lesson. A model that stays
+    confident while going to chance is the wellposed
+    "missing other" failure at the *language* layer.
+    Route by script; do not wait for p to drop. Refit
+    T on your data before trusting the probabilities.
+    Sibling contrast only for `laya-typed-decisions`.
+
+13. **[`mobarmg/jev-schema-scorer-deberta-v3-large`](https://huggingface.co/mobarmg/jev-schema-scorer-deberta-v3-large)**
+    — NEW HIGH (GitHub repo **404**; Hub HTTP **200**).
+    MIT; DeBERTa-v3-large **single scalar head**; 4
+    Hub likes; Space `mobarmg/jev-schema-scorer`. One
+    encoder scores `(state, question+candidate)`
+    pairs; **code** groups logits and softmaxes into
+    Choice/Noul/Score. Schema is read at inference,
+    never baked in. Training: 17,170 synthetic English
+    questions; option ids randomized half the time so
+    it cannot memorize labels. Eval *theirs*: v2
+    Choice acc **0.841** (chance 0.214) vs v1-only
+    checkpoint 0.687; v1 split 0.889 Choice / 0.940
+    Noul / 0.052 Brier. **Probabilities are often very
+    peaked** (trained on one-hot) — treat as
+    **rankings, not calibrated confidences**. Not a
+    safety classifier. Weak spots near chance:
+    `order_record.next_action`, summary faithfulness,
+    student-answer grading. Distinct from
+    com-kotobalabs/open-jev-deberta-v3-large (public-
+    gold encoder open-jev). Do **not** copy
+    `schema_scorer.py` how-to.
+
+    **Hunch:** schema-conditioned candidate scoring is
+    the encoder-family job (categorize with a runtime
+    label set). Grouped softmax + code decode is the
+    honest split. Ranking ≠ calibration again: peaked
+    one-hot training is a known way to look sure.
+
+### Skip / already folded / access notes
+
+- **nekowasabi/jev-routing** — already §44 / SKILL /
+  applied-mappings / mixed-architecture. Host adapter,
+  not MCP. **Sibling delta this hour:** README now
+  lists **Cursor Agent CLI** and **Devin CLI** beside
+  Claude Code / Codex / Grok Build. Same binary, more
+  hosts. Do not re-card. Do not copy ports.
+- **convaiinnovations/laya-typed-decisions** — §42/§46.
+  HF HTTP **200** this pass. Sibling contrast only
+  (English typed-decisions workflows vs multilingual).
+- **pngwn/open-jev-laya-bench** — §46. HF HTTP **401**
+  this pass (was 200 historically). Access change;
+  do not invent new numbers; do not re-fold.
+- **reachjalil/jev-tree-choice-cap** — §33 / mappings
+  §5. HF HTTP **401** this pass.
+- **ctaxnagomi/INSTRUCT_JEV** — §63. HF HTTP **401**
+  this pass. Sibling-only.
+- **reachjalil/jevlogs-log-triage-benchmark** — GitHub
+  **404**, HF **401**. Cannot fold. Not a Harbor
+  taskset this pass.
+- **IPECTER/jev-context-pruner** — already empty skip
+  §71. This hour's jev-runway is the same empty
+  pattern, different slogan.
+- **vava-nessa/pi-jev-compaction** — already §50.
+  Qualify vs this hour's pi-jev-compact.
+- **dannote/jev** — already findings #4. Qualify vs
+  typesafe-elixir-sdk.
+- **kylemclaren/jevql** — already §42/§68. Qualify vs
+  jev-cli (CLI-for-Jev ≠ judgment-outside-the-store).
+- **hermes-jev-router** — §69. Qualify vs
+  hermes-plugin-jev (TypeSafe WHETHER/HOW/WHAT vs
+  Agnes chat-completions branded as Jev).
+- Archer Hume open decision-model: still Watch.
+
+### Curated status
+
+Census **not re-derived** this hour (last §69:
+Awesomejev flat 561/27007; tracker likes 43→45;
+SemIf 1714; jevlike 926). Archer still **NOT
+landed**.
+
+### Omni / Jev-omni / Archer
+
+Still **WATCH**. A 1-token logprob endpoint, a NanoJev
+engine, a multilingual Laya checkpoint, and an Agnes-
+branded Hermes plugin are **not** that drop.
+
+### Cross-links
+
+Cards: `validation.md` (chakuho 336-case GUI; jevinf
+argmax-parity speedup; jevex n=16; commitjev
+calibration; laya-multilingual MASSIVE/XNLI; schema-
+scorer v2 0.841; HF 401 access notes); `mixed-
+architecture.md` (fail table + gallery: logprob ≠
+Noul; replica engine; Elixir SDK ≠ OTP peer; jevex
+rename; commit middle-band; Agnes≠Jev plugin; Pi
+compact sibling; IPECTER runway empty; mailordinal
+inbox; jev-cli not ready); `judgment-class.md`
+(chakuho constrained-AR; jevinf replica runtime;
+laya-multilingual; schema-scorer encoder); `faq.md`;
+`mental-models.md`; `applied-mappings.md` §1 (Pi
+compact sibling + IPECTER runway empty), §3
+(commitjev pre-review), §4 (mailordinal inbox +
+jevex n=16), §5 (routing host-surface delta), §7
+(commit hook fail-open on instrument); `mappings.md`
+§6 (file VOI n=16; compact sibling; commit
+attention), §7 (middle-band SDT; English-checkpoint
+confident-wrong OOD; peaked schema-scorer), §8
+(inbox policy vs sensor; Agnes branding), §9
+(1-token decode as selector); `agent-self-
+assessment.md`; `question-design.md` (coverage ≠
+correctness; `__none__`; script-route before p);
+`composition-algebra.md`; `toolbox-mapping.md`;
+`methods-catalog.md`. Hunches labeled. No wrapper.

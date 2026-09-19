@@ -235,7 +235,16 @@ not a global virtue:
 | Treat a missing Vercel `confidence` as vendor Noul | **Fail open** to margin + a lower bar (`jev-use`) | First loop 17/20 escalate then 0/20 at 0.4 *theirs*. Distinct from jev-ultrafast |
 | Sell jev-gpt as a product writer | **Fail closed** (architecture demo) | ~400 calls / 75 s / 2¢ *theirs*. The model never free-generates. Distinct from jeffrey pick≠fill |
 | Endorse competing NAR from README badges | **Fail closed** until like-for-like + receipts (`openJev-verdict-2.0`) | Open PR #1: throughput≠latency; Laya gap inside CI (parity); correctness-head ECE ≠ distribution ECE. ≠ IamBusy/OpenJev |
-| Treat an empty compaction-proxy slogan as a product | **Fail closed** (empty repo) (`IPECTER/jev-context-pruner`) | 409 empty. Sibling of fast-jev-compaction / jev-compactor / dizk/jev-lens — no files |
+| Treat an empty compaction-proxy slogan as a product | **Fail closed** (empty repo) (`IPECTER/jev-context-pruner` **and** `IPECTER/jev-runway`) | context-pruner 409 empty; jev-runway LICENSE-only (created≈pushed 1s). Sibling of fast-jev-compaction / jev-compactor / dizk/jev-lens — no files |
+| Threshold chakuho softmax as a Noul | **Fail closed** until labelled calibration (`chakuho`) | Coverage is format-mass, not correctness. 8B stays coverage 1.00 while `__none__` collapses. Arithmetic stays in code. 503 is could-not-judge, never "no" |
+| Treat jevinf speedup as a quality headline | **Fail closed** (argmax-parity only) (`jevinf`) | 2.57×/2.27× at 100% argmax *theirs*. MPS only. Wire-compat ≠ TypeSafe replica |
+| Collapse typesafe-elixir-sdk into dannote/jev | **Fail closed** (different jobs) | HTTP client over Req ≠ OTP peer GenServer. Code still owns the `cond` |
+| Round a commitjev middle band to pass/fail | **Fail closed** to `"review"` | ≥0.65 is the only verdict. Nouls decide; Choice is headline. Regex proves literals. Hook fails open on instrument failure |
+| Treat hermes-plugin-jev as TypeSafe Jev | **Fail closed** (identity) | Live backend is Agnes 3.0 Flash chat-completions. Distinct from hermes-jev-router |
+| Confuse pi-jev-compact with pi-jev-compaction | **Fail closed** (qualify owners) | compact = Pi summarizer replacement (verbatim keep/drop). compaction = fast-jev-compaction cousin |
+| Trust an English Laya checkpoint on non-English | **Fail closed** to the multilingual checkpoint / script router (`laya-multilingual`) | Khmer 0.000 acc at 0.952 confidence *theirs*. Mean conf never < 0.885. Gating cannot catch it |
+| Threshold schema-scorer peaked p as frequency | **Fail closed** (ranking ≠ calibration) | Grouped softmax trained on one-hot. Hub MIT; GitHub 404 |
+| Ship jev-cli as if v1 existed | **Fail closed** (not ready) | README: commands not implemented. Crate: not ready. Distinct from jevql |
 | Authorize a proposed tool call | **Fail closed** on a deterministic security failure (`actiongate-jev`) | Jev supplies evidence; code owns authority. Positive score never overrides RBAC/schema/limit. Financial/destructive/credential fail closed if Jev is down |
 | Auto-act on a raw decision-model p | **Fail closed** until domain recalibration (`does-jev-confidence` / `jevcal`) | Ranking ≠ calibration. Vendor "calibrated" often means rank-correlation. Stated ~75% vs human ~10% *theirs* |
 | Compact a long agent history (middleware) | **Fail open** to uncompacted history if Jev is down (`jev-compactor`); **fail closed** on pending destructive/exfil | Dual polarity in one product. Regex floor always local. Contrast gliner25-compaction fail-closed `keep_full`. Never rewrite kept bytes |
@@ -572,7 +581,7 @@ decision-design card. Do not clone APIs from READMEs.
 | Formula / query embedding | JUDGE as a function | Spreadsheet/SQL engine | judge-sheets, jevql, sqlite-jev |
 | Soft ABR / live encoder | Choice over a ladder | Probe × headroom, thermal, battery | bitrate-advisor |
 | Voice → typed act | Choice/Noul on a transcript | ASR producer; macOS actions | jev-voice-control (README stub) |
-| Host-adapter routing | Choice next-tool + done-Noul | Shrink `tools[]`; compaction | jev-routing (not MCP); **jev-in-codex** (Codex MCP; ranking unbenchmarked; lexical fallback) |
+| Host-adapter routing | Choice next-tool + done-Noul | Shrink `tools[]`; compaction | jev-routing (not MCP; **delta:** Cursor Agent CLI / Devin CLI this hour); **jev-in-codex** (Codex MCP; ranking unbenchmarked; lexical fallback) |
 | Multi-model route | Classify axes; policy maps | Escalation `if`, path regex | jev-claw, routeKit |
 | Finish-line gate | Noul/Score/Choice on evidence | Deterministic shell checks first | hermes-jev-north-star |
 | Home automation read | Choice/Score/Noul as a sensor | Automations, device I/O, daily budget; **not** locks/heaters/smoke | [HA-Jev](https://github.com/AboveColin/HA-Jev) (MIT; **17★**; confidence gating; Jev-gates-LLM examples) |
@@ -644,7 +653,7 @@ decision-design card. Do not clone APIs from READMEs.
 | Constrained optimizer + S1 features | task / exactness / external-evidence | Controller owns SLO/quality floors; fail-open local features; exactness never overrides capability | slo-router (license null; p95 **77.93 → 490.38 ms** same routes *theirs*; 3/8 label disagreements did not change routes; eight-row demo is not a benchmark) |
 | Effect-based shell gate | Choice allow/deny + nine independent risk Nouls | Fast-allow/deny <1 ms; landed-script trust; headless ≠ auto-approve; fail-closed | construct-auto-classifier (Apache-2.0; Jev **0** dangerous / 975; $0.047/1k; privilege ≠ verdict) |
 | Attention filter / human-review VOI | Per-file need-a-look / kind / debris Nouls | Never blocks the agent; never edits; never green unless sure | [rashedInt32/jev-lens](https://github.com/rashedInt32/jev-lens) + nvim. Distinct from [dizk/jev-lens](https://github.com/dizk/jev-lens) (pre-send views) and from jev-gates |
-| Evidence-packet explorer | Rank BM25 shortlist; packet source_of_truth / tests / callers | Index once; agent still reads cited files; read-only | jev-semantic-explorer / jevex (1/8→6/8 n=8 *theirs*; HitFile 0.233 diagnostic) |
+| Evidence-packet explorer | Rank BM25 shortlist; packet source_of_truth / tests / callers | Index once; agent still reads cited files; read-only | [jevex](https://github.com/jimmyhealer/jevex) (rename of jev-semantic-explorer; n=16 160s→69s / $8.74→$3.13 / 16/16 *theirs*; keep n=8 1/8→6/8; HitFile diagnostic) |
 | Meaning-grep | Per-line Noul; AND/OR/NOT in code | Thresholds / `--level`; JP↔EN; name collision with Semgrep SAST | jev-semgrep (MIT LICENSE; 0.94/0.98 *theirs*) |
 | Active-learning triage | Confidence routes accept / teacher / human | Soft-label full distributions; real outcomes stay training targets; do **not** distill Jev as teacher | jev-triage (MIT; ~68% ceiling anti-pattern) |
 | Evaluation-model-first SDK | predicate / classifier / rubric as data | check / evaluate / filter / partition / rank; cancellable; never auto-retry | sysone-help/sysone (MIT TS; first adapter Jev via Vercel AI Gateway). **Not** hraness/sysone (loopback gateway) |
@@ -697,7 +706,19 @@ decision-design card. Do not clone APIs from READMEs.
 | OpenRouter recipe atlas | one call, many narrow questions; policy in code | Samples 16–36, not benches; pick don't extract; review band around every cut | jev-cookbook (JS MIT; 1★; 425 calls / $0.015; browser 5/6 *theirs*). Code prepares, Jev answers |
 | Personal-history feed (no social graph) | Choice distribution over candidates = ranking | History local; one request per batch of ten; dwell = nearest-to-middle | jevfeed (JS MIT; 17 tests no network). Distinct from ThinkyMiner/Winnow and kevinpita/winnow |
 | Competing NAR claim-audit | Choice/Score/Noul NAR; dual-channel ECE | Like-for-like channels; throughput ≠ latency; n=2000 CI before "SOTA" | openJev-verdict-2.0 (README Apache-2.0 / GitHub SPDX NOASSERTION; 77.10%/0.0636/0.0144 *theirs* unverified; **open PR #1**). **≠** IamBusy/OpenJev `/v1/decide` |
-| Empty compaction-proxy skip | slogan only | No files, no fail polarity | IPECTER/jev-context-pruner (409 empty). Sibling contrast only |
+| Empty compaction-proxy skip | slogan only | No files, no fail polarity | IPECTER/jev-context-pruner (409 empty) **and** IPECTER/jev-runway (LICENSE-only). Sibling contrast only |
+| 1-token logprob local endpoint | label-mass over caller-enumerated options | Arithmetic/numeric rules in code; 503 ≠ "no"; coverage ≠ correctness | chakuho (MIT; GUI 336 *theirs* 27B 95%/92% vs Jev 89%/82%; `__none__` 97% vs 8B 10%). Cousin jevify / TypeAR / pcdServer / jevmlx. Softmax ≠ Noul |
+| Open replica inference engine | segmented forwards + Jev wire | Prefix reuse; families nanojev/decider-2b/laya; MPS only | jevinf (MIT; 2.57×/2.27× 100% argmax *theirs*). Wire-compat ≠ replica |
+| Unofficial Elixir HTTP client | typed Noul/Choice/Score over Req | Policy in `cond`; confidence ≠ P(correct) | typesafe-elixir-sdk (MIT; 1★). **≠** dannote/jev OTP peer |
+| Files-to-read VOI (rename + n=16) | BM25 shortlist then Jev packet | Index once; agent still Reads; read-only | jimmyhealer/jevex (was jev-semantic-explorer). n=16 160s→69s / $8.74→$3.13 / 16/16 *theirs*; n=8 finish 1/8→6/8 stays |
+| Commit pre-review attention≠verdict | seven Nouls + headline Choice; six regex | Middle band = review; Nouls decide; hook fail-open on instrument failure | commitjev (MIT; 0 false on 5 clean *theirs*; small control; same owner as jev-orderby-bench) |
+| Hermes plugin branded as Jev | Choice/Noul/Score *shape* | Not TypeSafe; not a Noul | hermes-plugin-jev (README MIT / GitHub SPDX null). Agnes 3.0 Flash chat-completions. **≠** hermes-jev-router |
+| Pi verbatim summarizer replacement | one Noul per paired tool call | Keep-windows/pins in code; fail-open to LLM summary if <25% saved | pi-jev-compact (MIT). **≠** vava-nessa/pi-jev-compaction. Pair pi-jev-control / pi-heed |
+| Decision-native inbox | nine typed signals | 100-point policy + SLA/tier in code; humans own ambiguity | mailordinal (MIT). Cousin jav-email-cascade. Not affiliated with TypeSafe |
+| Unofficial Jev CLI (not ready) | planned exit-status semantic `if` | No release; do not copy MCP add | jev-cli (Apache-2.0 OR MIT; 0.0.0; 17 issues). **≠** jevql |
+| Multilingual Laya class expansion | Choice/Noul/Score, mmBERT-base | Route by script before the forward pass; refit T | laya-multilingual (Apache-2.0; 322M; MASSIVE 0.366/0.387 vs English 0.227/0.733 *theirs*; ships uncalibrated) |
+| Schema-conditioned encoder scorer | scalar logit per (state, candidate); code softmaxes | Peaked p = ranking | mobarmg/jev-schema-scorer-deberta-v3-large (Hub MIT; GitHub 404; v2 Choice 0.841 *theirs*) |
+| Host-adapter surface delta | Choice next-tool + done-Noul | Same binary; more hosts | jev-routing now lists Cursor Agent CLI / Devin CLI (still not MCP; already §44) |
 
 On-device / Home Assistant / mobile are newly-feasible via the economics
 inversion, not proven ports of every app. Named placements this hour

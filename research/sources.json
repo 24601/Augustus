@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T12:50Z",
+  "retrieved": "2026-09-19T13:52Z",
   "sources": [
     {
       "kind": "docs",
@@ -2527,6 +2527,90 @@
       "title": "LocalLLaMA/typed-decisions",
       "url": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions",
       "note": "Dataset cited by openJev-verdict-2.0 N=2000 table. Not independently re-run this pass. notes.md \u00a771."
+    },
+    {
+      "kind": "github",
+      "title": "taku-me/chakuho",
+      "url": "https://github.com/taku-me/chakuho",
+      "note": "Python MIT. Created 2026-09-19T13:39:04Z; 0 stars; size 0 lag (full tree). Local 1-token logprob /v1/systemone. Softmax != Noul. Coverage is format-mass not correctness. GUI 336 theirs: 27B 95%/92% vs Jev 89%/82%; __none__ gold 97% vs 8B 10%. Cousin jevify / TypeAR / pcdServer / jevmlx. notes.md \u00a772."
+    },
+    {
+      "kind": "github",
+      "title": "zerodegress/jevinf",
+      "url": "https://github.com/zerodegress/jevinf",
+      "note": "Python MIT; >=3.14. Created 2026-09-19T13:04:55Z; 0 stars; size 0 lag; 2 issues. NanoJev/decider-2b/Laya families. 2.57x/2.27x 100% argmax theirs; torch-mps only. Wire-compat != TypeSafe replica. notes.md \u00a772."
+    },
+    {
+      "kind": "github",
+      "title": "phiat/typesafe-elixir-sdk",
+      "url": "https://github.com/phiat/typesafe-elixir-sdk",
+      "note": "Elixir MIT. Created 2026-09-19T13:04:16Z; 1 star; size 0 lag. Unofficial HTTP client over Req for typed Noul/Choice/Score. Distinct from dannote/jev OTP peer GenServer. notes.md \u00a772."
+    },
+    {
+      "kind": "github",
+      "title": "jimmyhealer/jevex",
+      "url": "https://github.com/jimmyhealer/jevex",
+      "note": "Python MIT. Created 2026-09-19T03:21:01Z (same as jev-semantic-explorer; GitHub redirects old name); 0 stars; size 91. MCP files-to-read VOI. n=16 SWE theirs: 160s->69s, $8.74->$3.13, 16/16 both arms. Keep n=8 1/8->6/8. notes.md \u00a772 (delta of \u00a761)."
+    },
+    {
+      "kind": "github",
+      "title": "yodablocks/commitjev",
+      "url": "https://github.com/yodablocks/commitjev",
+      "note": "Python MIT. Created 2026-09-19T12:38:48Z; 0 stars; size 44. Pre-review commit judgment. Middle band never rounded. Regex first. Nouls decide, Choice headlines. Same owner as jev-orderby-bench. 0 false on 5 clean theirs (small control). notes.md \u00a772."
+    },
+    {
+      "kind": "github",
+      "title": "Mrmimee/hermes-plugin-jev",
+      "url": "https://github.com/Mrmimee/hermes-plugin-jev",
+      "note": "Python; README MIT / GitHub SPDX null. Created 2026-09-19T13:42:27Z; 0 stars; size 0 lag. Identity lock: brands Choice/Noul/Score as Jev; live backend is Agnes 3.0 Flash chat-completions via system_one_adapter. Distinct from hermes-jev-router. notes.md \u00a772."
+    },
+    {
+      "kind": "github",
+      "title": "dev-willbird1936/pi-jev-compact",
+      "url": "https://github.com/dev-willbird1936/pi-jev-compact",
+      "note": "TypeScript MIT. Created 2026-09-19T13:31:42Z; 0 stars; size 0 lag. Pi summarizer replacement: verbatim keep/drop of paired tool calls. Fail-open if <25% saved. Distinct from vava-nessa/pi-jev-compaction. notes.md \u00a772."
+    },
+    {
+      "kind": "github",
+      "title": "IPECTER/jev-runway",
+      "url": "https://github.com/IPECTER/jev-runway",
+      "note": "EMPTY SKIP. Created 2026-09-19T13:46:00Z; pushed +1s; size 0; GitHub SPDX MIT. LICENSE only; README 404. Second IPECTER slogan after jev-context-pruner \u00a771. notes.md \u00a772."
+    },
+    {
+      "kind": "github",
+      "title": "Milo318/mailordinal",
+      "url": "https://github.com/Milo318/mailordinal",
+      "note": "TypeScript MIT. Created 2026-09-19T13:05:04Z; 0 stars; size 0 lag. Decision-native inbox: nine typed signals -> 100-point policy. Humans own ambiguity. Cousin jav-email-cascade. notes.md \u00a772."
+    },
+    {
+      "kind": "github",
+      "title": "aarora79/jev-samples",
+      "url": "https://github.com/aarora79/jev-samples",
+      "note": "License null; lang null. Created 2026-09-19T13:20:33Z; 0 stars; size 0 lag. Runnable typed-decision samples; one sample (readme-check). Not a bench. notes.md \u00a772."
+    },
+    {
+      "kind": "github",
+      "title": "shaharia-lab/jev-cli",
+      "url": "https://github.com/shaharia-lab/jev-cli",
+      "note": "Rust Apache-2.0 OR MIT. Created 2026-09-19T07:54:57Z; 0 stars; size 547; 17 issues; version 0.0.0. Unofficial TypeSafe Jev CLI. README: commands not implemented; crate not ready. Distinct from kylemclaren/jevql. notes.md \u00a772."
+    },
+    {
+      "kind": "hf",
+      "title": "convaiinnovations/laya-multilingual",
+      "url": "https://huggingface.co/convaiinnovations/laya-multilingual",
+      "note": "Apache-2.0; mmBERT-base 322M; 9 likes. HF HTTP 200. MASSIVE 0.366/0.387 vs English laya 0.227/0.733. Khmer 0.000 acc at 0.952 conf. Ships uncalibrated (ECE 0.314->0.106 after T). Route by script before forward pass. notes.md \u00a772."
+    },
+    {
+      "kind": "hf",
+      "title": "mobarmg/jev-schema-scorer-deberta-v3-large",
+      "url": "https://huggingface.co/mobarmg/jev-schema-scorer-deberta-v3-large",
+      "note": "MIT. GitHub 404 this pass; Hub HTTP 200; 4 likes; downloads 158. Schema-conditioned DeBERTa-v3-large candidate scorer. v2 Choice 0.841. Peaked ranking != calibration. notes.md \u00a772."
+    },
+    {
+      "kind": "hf",
+      "title": "mobarmg/jev-schema-scorer",
+      "url": "https://huggingface.co/spaces/mobarmg/jev-schema-scorer",
+      "note": "Hub Space for jev-schema-scorer-deberta-v3-large. Companion to Hub model; GitHub repo 404. notes.md \u00a772."
     }
   ]
 }

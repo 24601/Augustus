@@ -564,6 +564,14 @@ Use these as *existence proofs of a position*. Write your own card.
 | Recipe atlas (code prepares) | which narrow questions fit this job | Samples show technique; policy in code (**Empirical as recipes**: jev-cookbook; 16–36 not benches) | Thresholds are a dial; numbers/dates stay exact |
 | Personal history without a social graph | what to show next from *your* trail | Rank outbound links; distribution *is* ranking (**Empirical as README**: jevfeed) | Generating the next look converges on a mirror; history never uploaded |
 | Dual-channel ECE / claim-audit | is this NAR "better calibrated"? | Like-for-like channels; n and CI before SOTA (**Hypothesis until independent run**; openJev-verdict-2.0 + PR #1) | Throughput ≠ latency; correctness-head ≠ distribution ECE; ≠ IamBusy/OpenJev |
+| 1-token logprob ≠ Noul | can a generic LLM's next-token mass be the judge? | Constrained decode over caller-enumerated labels; coverage is format-mass (**Empirical as 336-case GUI**: chakuho 27B 95%/92% vs Jev 89%/82% *theirs*) | Softmax ≠ Noul; 8B coverage 1.00 while `__none__` collapses; arithmetic in code |
+| Open replica runtime | same wire, faster forwards | Prefix reuse + family adapters; argmax-parity is the honesty check (**Empirical as README**: jevinf 2.57×/2.27× 100% argmax *theirs*) | MPS only; not ECE; not TypeSafe |
+| Files-to-read VOI | which ranges change the next Read | Index-once, BM25, Jev packet (**Empirical as n=16**: jevex 160s→69s / $8.74→$3.13 / 16/16 *theirs*; keep n=8 finish 1/8→6/8) | Not a patcher; HitFile diagnostic; rename of jev-semantic-explorer |
+| Commit attention ≠ verdict | is this commit worth a human look? | Typed Nouls + middle "review" band; regex proves literals (**Empirical as 13 labelled**: commitjev; 0 false on 5 clean *theirs*) | Small control; never round the middle; Nouls decide, Choice headlines |
+| Decision-native queue | where should limited attention go next? | Atomic signals × deterministic policy (**Empirical as README**: mailordinal 100-point; humans own ambiguity) | Do not ask "how urgent"; arrival time is a poor proxy |
+| Language OOD / confident-wrong | will p drop when the checkpoint cannot read? | Route by script **before** the forward pass (**Empirical as MASSIVE**: laya-multilingual; Khmer 0.000@0.952 *theirs*) | English checkpoint mean conf never < 0.885; gating cannot catch; ships uncalibrated |
+| Schema-conditioned ranking | new labels without retraining | Scalar head per candidate; code softmaxes (**Empirical as Hub eval**: schema-scorer v2 Choice 0.841 *theirs*) | Peaked one-hot training ≠ calibration; GitHub 404 this pass |
+| Branding ≠ backend | is this actually System One? | Read the client, not the badge (**Contract**: hermes-plugin-jev is Agnes chat-completions) | Distinct from hermes-jev-router |
 
 Rejected in every domain: replacing the ledger with a vibe; replacing
 the interlock with confidence; replacing the essay with a Noul;

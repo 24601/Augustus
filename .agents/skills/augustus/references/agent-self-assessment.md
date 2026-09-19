@@ -250,6 +250,11 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   — compact original chunks; skip next main-model when
   evidence is enough (needs core patch); fail-open
   (`notes.md` §69).
+  Pi summarizer-replacement cousin:
+  [pi-jev-compact](https://github.com/dev-willbird1936/pi-jev-compact)
+  — verbatim keep/drop of paired tool calls; fail-open to
+  LLM summary if <25% saved. **≠**
+  vava-nessa/pi-jev-compaction (`notes.md` §72).
   Typed baton cousin:
   [jev-handoff](https://github.com/shitianfang/jev-handoff)
   — escalate/continue/abort; gate never grants; inverted

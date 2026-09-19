@@ -203,3 +203,7 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     (allowlist, text layer, linter) decides the easy cases; typed questions only
     on leftovers; fail-open unless a real sandbox sits under. Full card:
     `mappings.md` §18.
+12. **1-token selector / tree of Choices** (chakuho, jev-gpt): the
+    generator is reduced to a next-label or next-word Choice. Softmax
+    over declared labels is not a Noul. Numeric rules and writing stay
+    exact. Full cards: `judgment-class.md`, `mixed-architecture.md`.

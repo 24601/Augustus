@@ -403,6 +403,27 @@ Architecture notes, not an npm / uvx / plugin catalog. `notes.md` §71. TypeSafe
 
 Census **not re-derived** this hour (last §69). Archer still NOT landed.
 
+### Hourly ~07:49 Boise 2026-09-19 / 13:52 UTC (1-token logprob ≠ Noul, replica engine, Elixir SDK, commit/jevex VOI, inbox, laya-multilingual)
+
+Architecture notes, not an npm / uvx / plugin catalog. `notes.md` §72. TypeSafe Jev is the exemplar, not the monopoly. Archer still Watch. No invented metrics. Do not re-fold §50–§71 HIGH except sibling contrast. Hunches labeled. Mental models: decision theory, calibration, VOI, signal detection, anti-soundness-theater.
+
+- **taku-me/chakuho** — Python MIT. 1-token logprob local `/v1/systemone`. Softmax ≠ Noul. Coverage ≠ correctness. GUI 336 *theirs*: 27B **95%/92%** vs Jev **89%/82%**; `__none__` 97% vs 8B 10%. Cousin jevify / TypeAR / pcdServer / jevmlx.
+- **zerodegress/jevinf** — Python MIT; ≥3.14. Open replica engine (NanoJev / decider-2b / Laya). **2.57×/2.27×** 100% argmax *theirs*. MPS only. Wire-compat ≠ replica.
+- **phiat/typesafe-elixir-sdk** — Elixir MIT; 1★. Unofficial HTTP client. **≠** dannote/jev OTP peer.
+- **jimmyhealer/jevex** — **rename** of jev-semantic-explorer. n=16 SWE *theirs*: 160s→**69s**, $8.74→**$3.13**, 16/16. Keep n=8 1/8→6/8.
+- **yodablocks/commitjev** — Python MIT. Pre-review; middle band never rounded; regex first; Nouls decide. 0 false on 5 clean *theirs* (small control). Same owner as jev-orderby-bench.
+- **Mrmimee/hermes-plugin-jev** — README MIT / GitHub SPDX null. **Agnes 3.0 Flash** chat-completions branded as Jev. **≠** hermes-jev-router.
+- **dev-willbird1936/pi-jev-compact** — TypeScript MIT. Verbatim Pi summarizer replacement. **≠** vava-nessa/pi-jev-compaction. Fail-open if <25% saved.
+- **IPECTER/jev-runway** — **EMPTY SKIP.** LICENSE only; created≈pushed 1s. Second IPECTER slogan.
+- **Milo318/mailordinal** — TypeScript MIT. Decision-native inbox: nine signals → 100-point policy. Humans own ambiguity. Cousin jav-email-cascade.
+- **aarora79/jev-samples** — license null. One runnable sample. Toolbelt, not a bench.
+- **shaharia-lab/jev-cli** — Rust Apache-2.0 OR MIT; 0.0.0; 17 issues. **Not ready.** ≠ jevql.
+- **convaiinnovations/laya-multilingual** — HF 200; Apache-2.0; 322M; 9 likes. MASSIVE **0.366/0.387** vs English laya 0.227/0.733. Khmer 0.000@0.952. Ships uncalibrated. Route by script.
+- **mobarmg/jev-schema-scorer-deberta-v3-large** — Hub MIT; GitHub **404**. v2 Choice **0.841**. Peaked ranking ≠ calibration.
+- Skip: jev-routing (host-surface delta: Cursor/Devin CLI); laya-typed-decisions; open-jev-laya-bench / jev-tree-choice-cap / INSTRUCT_JEV **HF 401**; jevlogs GitHub 404 + HF 401.
+
+Census **not re-derived** this hour (last §69). Archer still NOT landed.
+
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs
 Apalache; DST trio Antithesis / Resonate HQ / PufferLib):

@@ -1458,3 +1458,130 @@ IamBusy/OpenJev `/v1/decide`. `notes.md` §71.
 Not this pass. The repo is **empty** (409). Slogan only.
 Sibling of fast-jev-compaction / jev-compactor /
 dizk/jev-lens. Do not invent files. `notes.md` §71.
+
+## Is chakuho a local Jev? Is coverage a Noul?
+
+No, and no. [chakuho](https://github.com/taku-me/chakuho)
+is a 1-token logprob endpoint over a generic instruct
+model (`POST /v1/systemone`). Softmax over declared
+labels is **not** a calibrated Noul. `coverage` is the
+mass that landed on those labels — format-keeping, not
+correctness. 8B stays coverage 1.00 while `__none__`
+collapses (3/30 vs 27B 29/30 *theirs*). GUI 336-case:
+27B 95%/92% vs Jev Gateway 89%/82%. Arithmetic stays in
+code. Cousin jevify / TypeAR / pcdServer / jevmlx.
+`notes.md` §72.
+
+## Is jevinf TypeSafe Jev?
+
+No. [jevinf](https://github.com/zerodegress/jevinf) is an
+open replica **runtime**: segmented forwards + prefix
+reuse, then the Jev wire. NanoJev / decider-2b / Laya
+families; only `torch-mps` is wired. 2.57× / 2.27× at
+**100% argmax agreement** *theirs* is speed, not ECE.
+Python ≥3.14. `notes.md` §72.
+
+## Is typesafe-elixir-sdk the same as dannote/jev?
+
+No. [typesafe-elixir-sdk](https://github.com/phiat/typesafe-elixir-sdk)
+is an unofficial **HTTP client** (Req; same env/retry as
+the Python SDK). [dannote/jev](https://github.com/dannote/jev)
+is an OTP **peer GenServer** (answers as messages; clause
+order is routing). Code still owns the `cond`. Confidence
+is concentration, not P(correct). `notes.md` §72.
+
+## Did jevex replace jev-semantic-explorer? New numbers?
+
+It **is** the rename (same `created_at`; GitHub
+redirects). New card *theirs*: SWE-bench Verified
+**n=16**, 160s → 69s, $8.74 → $3.13, 16/16 both arms.
+90s cap: 1/16 vs 11/16 finished. Keep the older n=8
+finish 1/8 → 6/8. Claude Code n=5 6.8 → 2.2 is
+unchanged. Packet HitFile stays diagnostic.
+`notes.md` §61, §72.
+
+## Does commitjev block a commit? Can I round 0.4?
+
+It blocks only on a **warning**. A failed check is not
+a reason to refuse. Anything between 0.35 and 0.65
+(their 0.65 bands) is reported as **"review"**, never
+rounded. Nouls decide the verdict; the Choice is the
+headline. Six regex checks never reach the model.
+Same owner as jev-orderby-bench (one commit per call
+because batch ranking fails). Five clean commits is a
+small control. `notes.md` §72.
+
+## Is hermes-plugin-jev TypeSafe System One?
+
+No. The README brands Choice/Noul/Score as Jev, but
+`__init__.py` calls **Agnes 3.0 Flash** via
+`system_one_adapter` OpenAI chat-completions
+(`AGNES_API_KEY`). Distinct from hermes-jev-router
+(TypeSafe WHETHER/HOW/WHAT). `notes.md` §72.
+
+## Is pi-jev-compact the same as pi-jev-compaction?
+
+No. [pi-jev-compact](https://github.com/dev-willbird1936/pi-jev-compact)
+replaces Pi's **summarizer** with verbatim keep/drop of
+paired tool calls (fail-open to the LLM summary if
+<25% saved). [pi-jev-compaction](https://github.com/vava-nessa/pi-jev-compaction)
+is the fast-jev-compaction cousin. Pair compact with
+pi-jev-control / pi-heed, not as a clone of either.
+`notes.md` §72.
+
+## Is IPECTER/jev-runway a Codex proxy?
+
+Not this pass. LICENSE only; created and pushed one
+second apart; README 404. Second IPECTER empty slogan
+(after jev-context-pruner). `notes.md` §72.
+
+## What is mailordinal? Is it just email classification?
+
+A **decision-native inbox**: nine typed questions, then
+a 100-point policy in code (SLA + account tier). It
+does not ask "how urgent is this?" Humans own
+ambiguity — low confidence never silently lowers
+priority. Life/business, not SWE-only. Cousin of
+jav-email-cascade. Independent of TypeSafe.
+`notes.md` §72.
+
+## Is jev-cli the same as jevql? Can I install it?
+
+No, and not yet. [jev-cli](https://github.com/shaharia-lab/jev-cli)
+is an unofficial Rust CLI (exit codes as a semantic
+`if`; planned MCP). README: **commands not
+implemented**; crate: **not ready**; version 0.0.0.
+[jevql](https://github.com/kylemclaren/jevql) is
+judgment *outside* the store (vanilla Postgres never
+sees `jev()`). Do not copy `claude mcp add jev`.
+`notes.md` §72.
+
+## Should I use English Laya on non-English text?
+
+No. [laya-multilingual](https://huggingface.co/convaiinnovations/laya-multilingual)
+exists because the English checkpoint **stays
+confident while going to chance** (Khmer 0.000 acc at
+0.952 confidence *theirs*; mean conf never < 0.885).
+Route by **script before the forward pass**. The
+multilingual checkpoint ships uncalibrated (ECE 0.314
+→ 0.106 after T *theirs*). Weaker on English — route,
+do not replace. `notes.md` §72.
+
+## Is the Hub schema-scorer a Jev replica? GitHub 404?
+
+Hub
+[jev-schema-scorer-deberta-v3-large](https://huggingface.co/mobarmg/jev-schema-scorer-deberta-v3-large)
+is MIT; the GitHub repo 404s this pass. One DeBERTa
+scalar head; **code** groups logits into
+Choice/Noul/Score. v2 Choice acc 0.841 *theirs*.
+Peaked probabilities are **rankings**, not calibrated
+confidences. Distinct from
+com-kotobalabs/open-jev-deberta-v3-large. `notes.md`
+§72.
+
+## Why are open-jev-laya-bench / jev-tree-choice-cap / INSTRUCT_JEV 401?
+
+Access change this pass (historically 200). Do not
+invent new numbers; do not re-fold. jevlogs-log-triage-
+benchmark is GitHub 404 **and** HF 401 — skip.
+`notes.md` §72.

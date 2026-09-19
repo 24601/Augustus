@@ -577,6 +577,26 @@ the ranking. Pay per *batch*, not per item (`notes.md`
 [jev-use](https://github.com/shitianfang/jev-use)
 — pay the LLM only when writing is the job; 12 questions
 in one call 186 vs 2,672 ms *theirs* (`notes.md` §71).
+**Files-to-read VOI (Empirical as n=16 SWE; 2026-09-19
+~07:49):**
+[jevex](https://github.com/jimmyhealer/jevex) — pay for
+Reads of cited ranges only. n=16 160s → 69s / $8.74 →
+$3.13 / 16/16 both arms *theirs*. Keep n=8 finish 1/8 →
+6/8. Rename of jev-semantic-explorer (`notes.md` §72).
+**Commit-attention VOI (Empirical as 13 labelled):**
+[commitjev](https://github.com/yodablocks/commitjev) —
+pay a human iff a Noul clears 0.65 on the bad side;
+middle band is review not a skip. Regex already settled
+the literals (`notes.md` §72).
+**Pi compact VOI (Empirical as latency table):**
+[pi-jev-compact](https://github.com/dev-willbird1936/pi-jev-compact)
+— pay Jev to keep/drop tool calls instead of an LLM
+summary; fall back if savings <25%. 0.6 s replay vs 26 s
+first spinner is host cost (`notes.md` §72).
+**Empty compact-proxy skip (IPECTER runway too):**
+[jev-runway](https://github.com/IPECTER/jev-runway) —
+LICENSE-only Codex-proxy slogan; not VOI until there is
+a keep-set (`notes.md` §72).
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs
@@ -734,6 +754,27 @@ endorsement; 2026-09-19 ~06:43):**
 slightly lower on that channel; do not put 1.44% beside
 21.40% as a 15× win. Throughput ≠ latency. **≠**
 IamBusy/OpenJev (`notes.md` §71).
+**Commit middle band (Empirical as 13 labelled;
+2026-09-19 ~07:49):**
+[commitjev](https://github.com/yodablocks/commitjev) —
+the operating point is a **three-way** criterion
+(pass / review / warn), not a rounded yes. 0.65 is
+theirs, not a universal t. Five clean is a small
+control (`notes.md` §72).
+**English-checkpoint confident-wrong OOD (Empirical as
+MASSIVE; 2026-09-19 ~07:49):**
+[laya-multilingual](https://huggingface.co/convaiinnovations/laya-multilingual)
+— Khmer 0.000 acc at 0.952 confidence; mean conf never
+< 0.885. **Gating cannot catch it.** Route by script
+before the forward pass. Ships uncalibrated
+(`notes.md` §72).
+**Coverage ≠ correctness (Empirical as GUI 336):**
+[chakuho](https://github.com/taku-me/chakuho) — 8B
+coverage 1.00 while `__none__` hits 3/30. Coverage is
+format-mass (`notes.md` §72).
+**Peaked schema-scorer (Empirical as Hub eval):**
+Hub schema-scorer v2 Choice 0.841 *theirs*; treat p as
+ranking. GitHub 404 (`notes.md` §72).
 
 ## 8. Control structure → sensor ≠ constraint (Leveson)
 
@@ -863,6 +904,17 @@ fail-open):**
 [jev-use](https://github.com/shitianfang/jev-use)
 — PreToolUse deny/ask; missing Jev does not deny
 (`notes.md` §71).
+**Inbox policy is the constraint (Empirical as README;
+2026-09-19 ~07:49):**
+[mailordinal](https://github.com/Milo318/mailordinal)
+— typed signals are sensors; the 100-point policy and
+the review lane are constraints. The model never sets
+queue order. Humans own ambiguity (`notes.md` §72).
+**Agnes branded as Jev is not a sensor (identity lock):**
+[hermes-plugin-jev](https://github.com/Mrmimee/hermes-plugin-jev)
+— chat-completions path wearing Choice/Noul/Score
+vocabulary. Distinct from hermes-jev-router
+(`notes.md` §72).
 
 ## 9. Search / control loops → one substituted classifier step
 
@@ -916,6 +968,13 @@ next-tool). License null (`notes.md` §71).
 [jev-use](https://github.com/shitianfang/jev-use)
 — judgment steps to Jev; writing stays generated
 (`notes.md` §71).
+**1-token selector (Empirical as GUI 336 + mario;
+2026-09-19 ~07:49):**
+[chakuho](https://github.com/taku-me/chakuho)
+— the substituted classifier step is *which declared
+label*; the generic LLM never writes. Numeric rules stay
+in code (mario loss is misapplied "< 6 tiles"). Softmax
+≠ Noul (`notes.md` §72).
 **Beyond SWE (Hypothesis):**
 snowball citations ("still on-question?"); sales stages ("still a real
 opp?" — amount and close date stay exact); cook/rest/check ("looks done?"
