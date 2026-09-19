@@ -327,6 +327,9 @@ Rules:
 | Collab / computer-use product loop | [jev-testbench](https://github.com/ufx7/jev-testbench); [solari-reflex](https://github.com/hitakshiA/solari-reflex); [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast); [cua-s1](https://github.com/trycua/cua/tree/main/libs/cua-s1) | Wilson/McNemar arms; independently checked task time; `DONE` ≠ success; Cua-S1 source-only (metric names, no checkpoint scores) |
 | Agent routing on vs off | [jev-gateway-bench](https://github.com/vinilana/jev-gateway-bench) | Hidden perft; cost/quality; one-run signal this pass |
 | Command-output prune (needle/noise) | [jev-pruner](https://github.com/tamaratran/jev-pruner) | Manual `trimOutput` sweep (theirs); plugin eval cannot reach Jev (fail-safe original); Terminal-Bench paired pilot is integration, not a full bench |
+| Pre-registered cascade vs nano/frontier/encoder | [jev-baselines-eval](https://github.com/ickma2311/jev-baselines-eval) | Both experiments **AMBIGUOUS**; cascade sign-flip at exact parity; confidence=1.0 theater; encoder 0.933/9ms with labels; serving-path ≠ model-speed; same-day errata ×3 |
+| Healthcare S1+S2 (synthetic FHIR) | [explore-typesafe-ai](https://github.com/si618/explore-typesafe-ai) | Labels committed first; 60 requests / 403 judgments; **not clinically validated**; Claude wrote labels |
+| Precision PDF (honest negative) | [databricks-jev-pdf-lab](https://github.com/laurentfabre/databricks-jev-pdf-lab) | No quality-equivalent Jev payoff; no OSS license selected |
 
 rh-guard is a reward-hack hook, a different surface from jevgate and
 from Abide (eval-integrity vs allowlist-remainder vs project soft
@@ -377,6 +380,35 @@ Jev is down. Pair CI merge-gate
 ([latch](https://github.com/CaseReed/latch)) with this substrate
 (frozen JUnit artifacts × PASS/BLOCK) and rh-guard (eval-integrity).
 Do not copy npm/ports (`notes.md` §51).
+
+**Pre-registered independent eval (Empirical as Harbor/jevals
+*practice*, including the honest negative; 2026-09-18 ~17:48).**
+[jev-baselines-eval](https://github.com/ickma2311/jev-baselines-eval)
+(MIT): kill/go printed by the scripts; **both AMBIGUOUS**. CLINC150
+Jev 0.870 vs nano 0.795 vs Terra 0.915. Banking77 encoder **0.933 /
+9 ms** wins. Cascade Δ +0.265 at 1pp-below-frontier; **at exact
+parity the sign flips** (R_jev=1.000) because confidence is exactly
+1.0 on 102/200 including 6 wrong. AUROC neither direction; **no
+ECE**. Latency ~2.2× of two serving paths, not 40–200×, not
+model-speed. Same-day errata three rounds. Do not copy pip
+(`notes.md` §55).
+
+**Healthcare Harbor-shaped receipt (Empirical as that named
+report; not clinical validation; 2026-09-18 ~17:48).**
+[explore-typesafe-ai](https://github.com/si618/explore-typesafe-ai)
+— 100 synthetic Synthea patients; labels committed before any Jev
+run; 60 requests to jev-1.13.0; Claude S2 blinded review. Report:
+NEWS2 alone under-triaged 10/20, NEWS2+Jev 1/20; 403 judgments /
+p50 329 ms / $0.0038. Claude wrote the labels. 20 cases/scenario.
+**Not clinically validated.** License not in GitHub API this pass
+(`notes.md` §55).
+
+**Honest-negative PDF lab (Empirical as a negative; no OSS
+license).**
+[databricks-jev-pdf-lab](https://github.com/laurentfabre/databricks-jev-pdf-lab)
+— no quality-equivalent end-to-end Jev payoff. Compact tokens
+changed 26/236 recommendations. Public snapshot cannot reproduce
+historical accuracy. Typed output is not truth (`notes.md` §55).
 
 **Harbor-adjacent stdout prune (Empirical as README / evals README
 behavior, not a full Terminal-Bench ranking; 2026-09-18 ~17:15).**

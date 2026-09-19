@@ -455,8 +455,55 @@ the speed/econ class — not the stub, not kev, **not a calibrated Jev
 replica**. Do not copy its vs-Jev table.
 [open-alternative-jev](https://github.com/ikermoel/open-alternative-jev)
 packs one-forward logprobs on an open LLM you already have (RACE-H
-92.9% @ 4.55 q/s); **not a Jev reproduction**. A green smoke test on
-the stub is not a bake-off. `judgment-class.md`; `notes.md` §48, §49.
+92.9% @ 4.55 q/s); **not a Jev reproduction**.
+[jevify](https://github.com/Mintzs/jevify) is a CUDA/PyTorch cousin
+on Qwen2.5-1.5B (`ora_decision_engine`): CUDA graphs, branch kernels,
+literal-label scoring. **Uncalibrated model likelihoods, not
+measured correctness** — softmax over A/B/C is not a Noul. Independent
+of Distillation. No LICENSE this pass. Default refund workflow is
+not a validated policy. A green smoke test on
+the stub is not a bake-off. `judgment-class.md`; `notes.md` §48, §49, §55.
+
+## Are local CUDA likelihoods a Noul?
+
+No. [jevify](https://github.com/Mintzs/jevify) (and packed-logprob
+cousins) return **uncalibrated model likelihoods**. Do not threshold
+them as P(permit) or as calibrated abstention. Temperature / ECE on
+*your* labels if you use the surface. Softmax over allowed tokens ≠
+Noul. `judgment-class.md`; `notes.md` §55.
+
+## Should RAG stop at Top-K / a reranker?
+
+Not if the hole is **evidence**.
+[decision-native-rag-skills](https://github.com/emergency-lee/decision-native-rag-skills):
+retrieve wide → decide explicitly → evidence set → resolve conflicts
+→ reason only over kept evidence. Embeddings stay candidate
+generators. Provider-agnostic; no bundled harness; **no universal
+benchmark**. Default migration gates are starting targets, not
+promises. Do not ship because an LLM judge prefers it.
+`mappings.md` §4; `notes.md` §55.
+
+## Did Jev beat nano as an escalation gate?
+
+Not in the pre-registered independent eval
+[jev-baselines-eval](https://github.com/ickma2311/jev-baselines-eval)
+(2026-09-18). **Both experiments AMBIGUOUS.** Cascade Δ +0.265 at a
+1pp-below-frontier target; **at exact parity the sign flips**
+(R_jev=1.000 vs nano 0.730) because Jev confidence is exactly 1.0 on
+102/200 items including 6 wrong. AUROC error-ranking neither
+direction established; **no ECE**. Encoder with labels wins Banking77
+(0.933 / 9 ms). Recorded call duration ~2.2×, **serving-path not
+model-speed**, not 40–200×. Same-day errata three rounds. This is
+the jevals/Harbor practice exemplar this hour (honest negative +
+calibration theater). `validation.md`; `notes.md` §55.
+
+## Did Jev pay off for Precision PDF extraction?
+
+Not in
+[databricks-jev-pdf-lab](https://github.com/laurentfabre/databricks-jev-pdf-lab).
+**No quality-equivalent, end-to-end Jev payoff demonstrated.**
+Compact requests cut tokens but changed 26/236 recommendations.
+**No OSS license selected.** Typed output is not truth. `notes.md` §55.
 
 ## Should the model write the quote / the citation / the click?
 
@@ -532,7 +579,14 @@ fails closed at the gate: [latch](https://github.com/CaseReed/latch)
 stays fail-open. [if-ai](https://github.com/Victor-Casado/if-ai)
 fails the Action on error / empty / low confidence. jevgate cannot
 block; pi-jev-approver fails closed without a key; Abide is fail-open
-on diffs. Same sandwich, opposite authorized act. `notes.md` §50, §51, §53.
+on diffs. Session-memory *omit* fails open (dump the ledger):
+[carryforward](https://github.com/Dharundp6/jev-carryforward).
+Tool *execution* fails closed on block/timeout:
+[toolgate](https://github.com/fdemir/toolgate) (Jev is not
+authorization). Ruby validations in
+[hunch](https://github.com/carldaws/hunch) `rescue nil` at save —
+spam gates should not. Same sandwich, opposite authorized act.
+`notes.md` §50, §51, §53, §55.
 
 ## Is observe→score→act Jev-only?
 

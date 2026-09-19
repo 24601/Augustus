@@ -184,11 +184,13 @@ not a global virtue:
 |---|---|---|
 | Drop a RAG chunk or log line | **Fail open** (keep on error) | A false drop loses evidence; a false keep costs tokens |
 | Compact / drop a completed tool result | **Fail closed** to keep-full (`gliner25-compaction`) | Compaction is a destructive edit of memory. Uncertain *looks* like keep-on-error from the evidence side; name the *reduction* as the act. Contrast Abide / jevgate fail-open |
+| Omit a session-memory fact from the brief | **Fail open** (dump the whole ledger) (`carryforward`) | Scoring failure must not hide a rule. Constraints/corrections always return; Jev never votes on them |
 | Prune Bash stdout before the LLM | **Fail closed** to original (`jev-pruner`) | Dropping the log is irreversible. ≤10k / JSON-diff-whole-doc prove pass-through; archive/Jev/incomplete-score failure keeps the result. Harbor plugin-eval cannot reach Jev → cannot prune |
 | Skip waking a sleeping agent | **Fail open** (wake on error / unsure / no key) (`wakegate`) | Skip is the irreversible act. User-message, skip-limit, nothing-to-judge, and p in 0.2–0.5 all wake. Contrast pi-jev-approver fail-closed without a key |
 | Merge a red CI run | **Fail closed** on `--gate` (`latch`); reporter stays fail-open | False PASS merges a real bug. Missing key never fails Playwright; the gate is a separate step. Judge never says ignore alone |
 | Plain-English PR check | **Fail closed** on error / empty / low confidence (`if-ai`) | A skipped or timed-out check is not a pass. Threshold is policy, not measured correctness |
 | Route to a tool / start a side effect | **Fail closed** (don't call) | A wrong tool is an action |
+| Execute a proposed tool call | **Fail closed** on block / timeout / guard error (`toolgate`) | Execution is the irreversible act. `review` needs authenticated human approval, not self-approval. Jev is not authorization. Distinct from ndolinschi allow/ask_human/deny *vocab* |
 | Actuate an observed browser control | **Fail closed** (code validates the node) | Freshness / visibility / disabled / occlusion in code; model never emits selectors (`gliner2-ultrafast`, jev-ultrafast, solari-reflex). `DONE` does not authorize "success". Cua-S1: dry-run default; `execute`/`submit` opt-in; fail-closed unknown checkbox; fill execution fails closed without token `set_value` |
 | Rerank a retrieved list | Fail open: keep retrieval order (`WiktorB2004/llama-index-jev`, **Empirical recipe** on BEIR nfcorpus: MiniLM 0.340 nDCG@5 → MiniLM+Jev 0.396; rerank fails open, *select* fails closed). Listwise/cross-encoder scores belong here, not on the row above. | Ranking errors are quality; selection errors are control-flow |
 
@@ -209,6 +211,14 @@ Worked placements (2026-09-18 topic:jev hour + prior archive):
   residual noisy Bash after a hard ≤10k/format envelope; fail-safe
   original; archive for recovery (`notes.md` §53). Marketplace id
   still `fast-jev-output`.
+- **Session ledger before the next task** —
+  [carryforward](https://github.com/Dharundp6/jev-carryforward):
+  verbatim facts; Jev scores which are still live; rules never
+  judged; fail-open dump (`notes.md` §55).
+- **Evidence set before the generator** —
+  [decision-native-rag-skills](https://github.com/emergency-lee/decision-native-rag-skills):
+  retrieve wide → decide → evidence set → LLM. Embeddings stay
+  candidate generators. No universal benchmark (`notes.md` §55).
 - **Diff hunks before `git add`** — `ibrahemid/git-jev-stage`: one Choice
   per hunk (`include` / `exclude` / `mixed`); mixed and low-confidence stay
   unstaged; lines never split; staging is an exact patch after confirm.
@@ -483,6 +493,11 @@ decision-design card. Do not clone APIs from READMEs.
 | S1 extract + escalate-S2 index | GLiNER spans / relations on the bulk | Graph in code; LLM only if backend loaded and low conf; query does not invent edges | s1-graphify-indexer (10–50× unfilled) |
 | S1 specialists + S2 coordinator | Typed {value, probability} | Coordinator / hysteresis in code | reification-labs/foreman (**description-only** Phoenix scaffold; not the super-jev loop) |
 | Bounded Pi supervisor | Skills / recovery / review / verify | Shadow default; never generates commands | jevons |
+| Judgment as language primitive | `chance` / `pick` / `rate` (Noul / Choice / Score) | English-as-config; stub backend; fail polarity per action (`rescue nil` at save ≠ spam gate) | hunch (Ruby library, not a new language; cousin of probably-lang) |
+| Decision-native RAG | Relevance / evidence / freshness / authority Nouls + Score | Evidence-set builder, conflict/temporal logic, provenance; embeddings generate candidates only | decision-native-rag-skills (no bundled harness; Hypothesis as a measured win) |
+| Verbatim session recall | Noul "still live for this task?" | JSONL ledger; constraints/corrections always-keep; fail-open dump | carryforward (9×3 hint, not proof) |
+| Pre-exec tool gate | allow / block / review | Permissions, arg validation, transaction limits in code; timeout stops | toolgate (72-case synthetic, not independently annotated; Jev ≠ authorization) |
+| Healthcare S1 + S2 | NEWS2 remainder / med recon / inbox route | Code owns NEWS2, recon, routing; S2 blinded review | explore-typesafe-ai (synthetic FHIR; not clinically validated) |
 
 On-device / Home Assistant / mobile are newly-feasible via the economics
 inversion, not proven ports of every app. Named placements this hour
@@ -513,7 +528,10 @@ shim, CC BY-NC; Jev still leads general text; not Archer Watch
 decision-model drop is **Watch**. Closed calibrated API vs open weights
 is a self-eval tradeoff (`research/notes.md` §18, §33, §45). When-to-use
 axes: `judgment-class.md`. TypeSafe remains the documented *exemplar*,
-not the class monopoly. **Local contract drop-in this hour:**
+not the class monopoly. **Local CUDA/PyTorch replica this hour:**
+[`Mintzs/jevify`](https://github.com/Mintzs/jevify) — Qwen2.5-1.5B
+Choice/Score/Noul *shape*; **uncalibrated likelihoods ≠ Noul**; no
+LICENSE this pass (`notes.md` §55). **Local contract drop-in this hour:**
 [`us/jev-local`](https://github.com/us/jev-local) speaks `/v1/systemone`;
 **default scorer is a deterministic stub** until `JEVLOCAL_SCORER=hf`
 (`notes.md` §48). **ONNX replica path:**

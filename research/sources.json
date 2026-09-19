@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-18T23:21Z",
+  "retrieved": "2026-09-18T23:54Z",
   "sources": [
     {
       "kind": "docs",
@@ -1604,6 +1604,78 @@
       "title": "trycua/cua libs/cua-s1",
       "url": "https://github.com/trycua/cua/tree/main/libs/cua-s1",
       "note": "Parent MIT; ~23.3k stars this pass (23339 live; updated 2026-09-18T23:21:08Z). Specialist System One computer-use research (form-v0 profile). Source-only: no weights, no checkpoint scores. tinyx byte encoder + option-attention head chooses fill/check/click/skip per observed element; does not generate values or selectors. Plan \u2260 execute; dry-run default; execute/submit independent opt-ins; fail-closed unknown checkbox / fill without advertised token set_value. Not TypeSafe Jev \u2014 parallel System One naming in CUA. Same observe\u2192score-among-candidates\u2192code-acts job as jev-ultrafast / gliner2-ultrafast / solari-reflex / laya-mind2web. Watch for cua-s1-form-v0 artifact. notes.md \u00a754."
+    },
+    {
+      "kind": "github",
+      "title": "Mintzs/jevify",
+      "url": "https://github.com/Mintzs/jevify",
+      "note": "Python. Created 2026-09-18T23:41:21Z; 0 stars. CUDA/PyTorch parallel Choice/Score/Noul shape on Qwen2.5-1.5B (ora_decision_engine / ora-decision). CUDA graphs, branch kernels, literal-label scoring. Uncalibrated model likelihoods, not measured correctness. Independent of Distillation. Default refund workflow is not a validated policy. Default --answer-encoding letters. No LICENSE file this pass. notes.md \u00a755."
+    },
+    {
+      "kind": "github",
+      "title": "emergency-lee/decision-native-rag-skills",
+      "url": "https://github.com/emergency-lee/decision-native-rag-skills",
+      "note": "MIT. Created 2026-09-18T23:29:20Z; 0 stars. Retrieve wide \u2192 decide \u2192 evidence set \u2192 conflict resolve \u2192 reason only over kept evidence. Provider-agnostic. No bundled Python harness. No universal benchmark. Offline replay \u2192 shadow \u2192 canary \u2192 A/B. notes.md \u00a755."
+    },
+    {
+      "kind": "github",
+      "title": "Dharundp6/jev-carryforward",
+      "url": "https://github.com/Dharundp6/jev-carryforward",
+      "note": "MIT. Created 2026-09-18T23:04:58Z; 1 star. npm carryforward. Verbatim JSONL session ledger; Jev scores recall; constraints/corrections never judged; fail-open dump. 9\u00d73 hint, not proof. notes.md \u00a755."
+    },
+    {
+      "kind": "github",
+      "title": "carldaws/hunch",
+      "url": "https://github.com/carldaws/hunch",
+      "note": "MIT. Created 2026-09-18T23:08:32Z; 0 stars. Ruby chance/pick/rate as Noul/Choice/Score; English-as-config; validations rescue nil fail-open at save. Stub backend. Cousin of probably-lang (library, not a new language). notes.md \u00a755."
+    },
+    {
+      "kind": "github",
+      "title": "si618/explore-typesafe-ai",
+      "url": "https://github.com/si618/explore-typesafe-ai",
+      "note": "Created 2026-09-18T23:48:44Z; 0 stars; license not in GitHub API. FHIR S1 (Jev) + Claude S2 on 100 synthetic Synthea patients. Labels committed before any Jev run. 60 requests / 403 judgments to jev-1.13.0. Report: https://si618.github.io/explore-typesafe-ai. Not clinically validated. notes.md \u00a755."
+    },
+    {
+      "kind": "web",
+      "title": "explore-typesafe-ai report",
+      "url": "https://si618.github.io/explore-typesafe-ai",
+      "note": "Headline (theirs): NEWS2 10/20 \u2192 1/20 under-triage; 98% of 143 med statuses; 7/20 inbox auto-dispatch all correct; 65/403 (16%) S2 escalate; p50 329 ms; $0.0038. Claude wrote labels. 20 cases/scenario. notes.md \u00a755."
+    },
+    {
+      "kind": "github",
+      "title": "ickma2311/jev-baselines-eval",
+      "url": "https://github.com/ickma2311/jev-baselines-eval",
+      "note": "MIT. Created 2026-09-18T22:57:35Z; 0 stars. Pre-registered independent eval vs nano/frontier/encoder. Both experiments AMBIGUOUS. CLINC150 Jev 0.870 vs nano 0.795 vs Terra 0.915. Banking77 encoder 0.933/9ms. Cascade \u0394 +0.265 at 1pp; sign flips at exact parity (R_jev=1.000) because confidence=1.0 on 102/200 incl. 6 wrong. AUROC neither direction; no ECE. Latency ~2.2\u00d7 serving-path, not 40\u2013200\u00d7. Same-day errata three rounds. notes.md \u00a755."
+    },
+    {
+      "kind": "github",
+      "title": "fdemir/toolgate",
+      "url": "https://github.com/fdemir/toolgate",
+      "note": "MIT. Created 2026-09-18T23:21:59Z; 0 stars. Pre-exec allow/block/review. Guard error/timeout stops. Jev is not authorization. 72-case synthetic, not independently annotated. Distinct from ndolinschi allow/ask_human/deny vocab. notes.md \u00a755."
+    },
+    {
+      "kind": "github",
+      "title": "masa-med-ai/typesafe-screening-mcp",
+      "url": "https://github.com/masa-med-ai/typesafe-screening-mcp",
+      "note": "MIT. Created 2026-09-18T23:45:47Z; 0 stars. PubMed title/abstract screening MCP: include/maybe/exclude. One run (theirs): 326 hits ~17s ~$0.014. Thresholds not calibrated. Screening aid, not an SR replacement. notes.md \u00a755."
+    },
+    {
+      "kind": "github",
+      "title": "laurentfabre/databricks-jev-pdf-lab",
+      "url": "https://github.com/laurentfabre/databricks-jev-pdf-lab",
+      "note": "Created 2026-09-18T23:47:15Z; 0 stars. No OSS license selected. Honest negative: no quality-equivalent end-to-end Jev payoff for Precision PDF. Compact tokens changed 26/236 recommendations. Typed output is not truth. notes.md \u00a755."
+    },
+    {
+      "kind": "github",
+      "title": "yannip1234/codex-jev",
+      "url": "https://github.com/yannip1234/codex-jev",
+      "note": "Apache-2.0 (upstream Codex). Created 2026-09-18T23:49:00Z; 0 stars. Extractive Codex compression family. COMPACTION_OK 185\u219244 estimated tokens is an integration demo. Equal accuracy/lower cost not established. notes.md \u00a755."
+    },
+    {
+      "kind": "github",
+      "title": "kazuhideoki/jev-search",
+      "url": "https://github.com/kazuhideoki/jev-search",
+      "note": "Created 2026-09-18T23:43:52Z; 0 stars; no LICENSE file this pass. Recursive semantic file search + fzf. Not superagents-lab/jev-search (federated web). Max-over-chunks is not a calibrated whole-file probability. notes.md \u00a755."
     }
   ]
 }

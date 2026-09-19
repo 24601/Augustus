@@ -66,13 +66,23 @@ recovery. Marketplace id still `fast-jev-output`. Codex is opt-in
 wrapper, not automatic interception. Same author as
 fast-jev-compaction; complementary, not a duplicate. Do not copy
 the plugin (`notes.md` §53).
+**Session-ledger cousin, same family, different job (Empirical as
+README behavior, 2026-09-18 ~17:48):**
+[carryforward](https://github.com/Dharundp6/jev-carryforward) —
+verbatim JSONL facts (`record`); Jev Noul-scores `recall` against
+the current task. Nothing summarised or deleted. Constraints and
+corrections **always return in full** (Jev never votes on a rule).
+Fail-open: no key → whole list. Thresholds 0.60 full / 0.30–0.60
+one line are *theirs*. Nine entries × three tasks is a **hint, not
+proof** (`notes.md` §55). Do not copy `mcp add`.
 Local teacher-copy for the same hole:
 [`SargeDev/jev-gate-student-b`](https://huggingface.co/SargeDev/jev-gate-student-b)
 (Qwen2.5-0.5B LoRA; P(relevant) from yes/no logits; 148,160-row
 [`jev-distill-corpus`](https://huggingface.co/datasets/SargeDev/jev-distill-corpus);
-card: fail-open on errors). That is System One as a **memory/context
+card: fail-open on errors; HF card **unchanged** this pass vs
+`notes.md` §33). That is System One as a **memory/context
 gate**, not an action permit: vector recall → local yes/no → inject or
-stub (`notes.md` §33, §44). Agreement with Jev labels is not independent
+stub (`notes.md` §33, §44, §55). Agreement with Jev labels is not independent
 gold (`notes.md` §33). Official cousin: classifying RAG passages cookbook
 (**Contract**). **Counterexample**: one Noul "is this log useful?" over
 3k lines — that is nine judgments pretending to be one. **Test**: recall
@@ -238,9 +248,25 @@ re-filters); LlamaIndex Jev rerank **Empirical** BEIR nfcorpus MiniLM
 zero-shot MAP 0.4748 / nDCG@10 0.683 vs monoBERT 0.718 (`mappings.md` §4).
 Realtime ~200ms chat claims remain **Hypothesis** as a number. **Counterexample**:
 using top-1 Choice as a relevance score across queries; dropping RAG
-chunks fail-closed so a timeout empties the context. **Test**: moderation
+chunks fail-closed so a timeout empties the context.
+**Decision-native RAG (Empirical as architecture; Hypothesis as a
+universal win, 2026-09-18 ~17:48):**
+[decision-native-rag-skills](https://github.com/emergency-lee/decision-native-rag-skills)
+— retrieve wide → decide explicitly → evidence set → conflict
+resolve → reason only over kept evidence. Embeddings stay candidate
+generators. Provider-agnostic; no bundled Python harness; **no
+universal benchmark**. Default migration gates are starting
+targets. Offline replay → shadow → canary → A/B (`notes.md` §55).
+Do not ship because an LLM judge prefers it.
+**Recursive file search (MED; distinguish from federated web):**
+[kazuhideoki/jev-search](https://github.com/kazuhideoki/jev-search)
+scores local files then fzf — **not**
+[superagents-lab/jev-search](https://github.com/superagents-lab/jev-search)
+(web lanes). Max-over-chunks is not a calibrated whole-file
+probability. No LICENSE this pass.
+**Test**: moderation
 cost/coverage + false-hold vs false-publish; ranking recall *separate*
-from nDCG; select misroute rate.
+from nDCG; select misroute rate; required-evidence recall vs Top-K.
 
 ## 5. Skill / tool routing
 

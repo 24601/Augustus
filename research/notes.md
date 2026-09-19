@@ -4158,3 +4158,432 @@ Not multimodal pixels. Strong **computer-use composition** signal:
 perception (a11y/snapshots) → specialist decide → verified act.
 Form specialist, not pixels-in. Weights TBD — Watch for
 `cua-s1-form-v0`. Archive + landscape pointer.
+
+## 55. CUDA replica, decision-native RAG, verbatim recall, Ruby primitive, FHIR Harbor, AMBIGUOUS baselines (2026-09-18 ~17:48 Boise)
+
+America/Boise ~17:48 = 23:48 UTC. Docs-only fold into open PR #2
+(`cursor/augustus-store-envelope-00b4`). Not a competing PR. Archer
+27B drop still **WATCH**. X MCP namespace flap continues; `since_id`
+not advanced this pass. Attached archive path
+`/workspace/jev-archive/2026-09-18/234740` is **not present locally** —
+receipts are live GitHub/HF + the published report site. Identity lock
+vs `typesafe-ai` / `tenbin` / `decision-first` holds. No wrapper, no
+Windows CUDA/venv / gem / Rails / `uv` / `mcp add` / pip how-to, no
+copied ports, thresholds as class constants, or invented metrics.
+
+Do **not** re-fold §50 GLiNER2.5 compaction, §51 latch/wakegate/
+s1-indexer/clear-head/foreman/jevons, §52 gliner2-ultrafast, §53
+jev-pruner, or §54 Cua-S1. Do not rewrite the student-b *species*
+(already §33 / applied-mappings §1 / judgment-class LoRA table).
+
+Backend-agnostic: this hour is **local inference replica**,
+**retrieve-wide → decide → evidence set**, **verbatim ledger +
+scored recall**, **judgment as a language primitive**, **Harbor-
+shaped healthcare measurement**, and **honest pre-registered
+AMBIGUOUS eval** (cascade sign-flip; calibration theater). TypeSafe
+Jev is the documented exemplar, not the monopoly. Augustus stays
+family-first.
+
+### HIGH
+
+1. **[`Mintzs/jevify`](https://github.com/Mintzs/jevify)**
+   (Python; created 2026-09-18T23:41:21Z; 0★ at capture; **no LICENSE
+   file this pass — do not invent**). Experimental CUDA/PyTorch engine
+   for parallel classification, yes/no, and rubric scoring with a
+   shared context. Default model `Qwen/Qwen2.5-1.5B-Instruct`. Python
+   package `ora_decision_engine`; CLI `ora-decision`. README: **this
+   repository is independent of the Distillation project.** Default
+   `workflow.json` is a four-question **refund rubric, not a validated
+   policy**. Default `--answer-encoding letters`; `--answer-encoding
+   labels` is the literal-label comparison path. Single-token answers
+   keep selected-head scoring; explicit label encoding evaluates
+   multi-token labels with a cached prompt and batched known
+   continuations. **These are uncalibrated model likelihoods, not
+   measured correctness probabilities.** Optimizations named in
+   README: bounded CUDA graph replay, reused answer-head weights,
+   optional Triton RMSNorm/SwiGLU/RoPE, short-branch kernel, grouped
+   similar question lengths. Historical tensors live under ignored
+   `outputs/`; fresh checkout skips those integration tests.
+
+   **Four load-bearing mental models:**
+
+   1. **Open local packed-logprob / CUDA replica class.** Same *job*
+      as [`ikermoel/open-alternative-jev`](https://github.com/ikermoel/open-alternative-jev)
+      (packed one-forward on an open LLM; not a Jev reproduction;
+      `notes.md` §49): shared context, score allowed continuations,
+      no generated prose. Family is constrained-AR / logprob surface,
+      **not** trained decision-only (Laya / kev / Archer Watch) and
+      **not** a teacher-copy LoRA (openjev-lm / student-b).
+   2. **Uncalibrated likelihood ≠ Noul.** Softmax over A/B/C or
+      `false`/`true` is not a proper-scoring head. Do not threshold
+      it as P(permit) or as calibrated abstention. Temperature /
+      ECE on *your* labels if you use it.
+   3. **Default refund workflow is not a policy.** Configure
+      questions separately from inputs; do not ship their example
+      as production refund logic.
+   4. **Do not copy the Windows CUDA/venv how-to.**
+
+   **Placement.** Judgment-class constrained-AR / packed-logprob
+   cousin (`judgment-class.md` when-to-use). Pillar: search/control
+   (one substituted classifier step). Hole: replace-one-classifier-
+   step / perceive. Family: constrained-AR surface on an open LLM.
+   Fail polarity: **not established** — likelihoods are not
+   decision scores. Eval path: historical tensors not in a fresh
+   clone. **Empirical** as README behavior. **Hypothesis** that
+   CUDA graphs / branch kernels transfer to *your* GPU. Cards:
+   `judgment-class.md` (primary); `faq.md`; `mixed-architecture.md`.
+   No wrapper.
+
+2. **[`emergency-lee/decision-native-rag-skills`](https://github.com/emergency-lee/decision-native-rag-skills)**
+   (MIT; HTML+skills; created 2026-09-18T23:29:20Z; 0★). Agent Skills
+   for migrating, evaluating, and designing RAG around a
+   **decision-native evidence pipeline** rather than fixed Top-K.
+   Tagline: retrieve broadly → decide explicitly → build an evidence
+   set → resolve conflicts → reason only over what matters.
+   **Provider-agnostic.** Jev / OpenJev are cheap semantic operators,
+   not a required SDK. Three skills: `rag-migrate` / `rag-evaluate` /
+   `rag-design`. **No bundled Python harness** — generate the smallest
+   fit-for-purpose harness inside the target project. Does **not**
+   claim a universal benchmark. Falsifiable hypothesis: at comparable
+   answer quality and safety, wide retrieval + explicit evidence
+   decisions can improve evidence recall and cut irrelevant/redundant
+   context vs fixed Top-K, inside an acceptable latency/cost envelope.
+   Default migration *gates* (starting targets, not promises):
+   required-evidence recall improve-or-hold; delivered precision
+   improve-or-tolerance; redundancy and unresolved contradiction
+   reduce; unsupported claims and provenance must not regress; p95
+   and cost within SLO or explicit trade-off; live user/task success
+   before full rollout. Eval stages: offline frozen replay → shadow
+   → canary → A/B. A team should not ship because an offline LLM
+   judge prefers it.
+
+   **Four load-bearing mental models (core Augustus RAG):**
+
+   1. **Embeddings stay candidate generators.** Similarity / rerank
+      is not relevance, sufficiency, redundancy, conflict, time, or
+      authority. Stop asking one Top-K cutoff to solve all six.
+   2. **Retrieve wide → decide → evidence set → LLM.** Reason only
+      over kept evidence. Generation is downstream of an explicit
+      keep set. Same family as classifying-RAG-passages cookbook +
+      mappings §4, promoted from "rerank the shortlist" to
+      **evidence-set construction**.
+   3. **Skills, not a measured harness.** No bundled Python, no
+      private corpus, no universal number. The hypothesis is
+      falsifiable on *your* system.
+   4. **Do not copy skill files as a product.**
+
+   **Placement.** Retrieval + bounded semantic reranking
+   (`mappings.md` §4) + applied moderation/ranking
+   (`applied-mappings.md` §4) + mixed architecture (code owns
+   evidence-set / conflict / provenance; model scores candidates).
+   Pillar: VOI (expand only if the evidence set is insufficient) +
+   MCDA (relevance / freshness / authority as named features).
+   Hole: rank / sieve / gather. Family: closed decision API *or*
+   any cheap semantic operator (backend-agnostic). Fail-open on
+   drop of a candidate (false drop loses evidence). Eval path:
+   rag-evaluate four stages; **Hypothesis** until a target-system
+   test runs. **Empirical** as README architecture. Cards:
+   `mappings.md` §4 (primary); `applied-mappings.md` §4;
+   `mixed-architecture.md`; `mental-models.md`; `faq.md`. No
+   wrapper.
+
+3. **[`Dharundp6/jev-carryforward`](https://github.com/Dharundp6/jev-carryforward)**
+   (MIT; TypeScript; created 2026-09-18T23:04:58Z; 1★; npm
+   `carryforward`). MCP session memory: `record` saves a fact
+   verbatim the moment it happens; `recall` scores non-rule entries
+   with Jev against the current task. **Nothing is summarised.
+   Nothing is deleted.** Kinds: `constraint` / `correction` /
+   `decision` / `measurement` / `thread`. Constraints and
+   corrections **always return in full** — Jev never votes on a
+   rule you set. Decisions / measurements / threads need a `ref`.
+   Provenance: `measured` / `decided` / `told` / `inferred`.
+   Thresholds (theirs, exported constants, not class constants):
+   p ≥ 0.60 full entry; 0.30–0.60 one line; below omit from the
+   brief (still on disk). Fail-open: no key / no task / scorer down
+   / rate-limited → **whole list** plus a line saying why.
+   Asker is swappable (`Asker.ask(state, questions)`). JSONL
+   append-only at `~/.carryforward/<project>.jsonl`. Nine entries ×
+   three tasks is a **hint, not proof**; no accuracy claim until a
+   proper test. Tests use a fake scorer; never the network.
+
+   **Four load-bearing mental models:**
+
+   1. **Verbatim ledger, scored recall.** Pointer-not-generator on
+      *memory*: the model never rewrites the note. Sorting happens
+      at read, not write. Family with pi-jev-compaction /
+      testimonial-miner (select, copy, do not summarize).
+   2. **Rules never judged.** Constraints/corrections are always-
+      keep in code. Same sandwich as jevgate's allowlist *proves*
+      / remainder judged — here the remainder is "is this still
+      live for the task?"
+   3. **VOI / selective memory.** Pay for a scored brief iff it
+      beats dumping the whole ledger (fail-open dump is the safe
+      default). Horvitz: skip the irrelevant, never skip the rule.
+   4. **Do not copy `claude mcp add` / SessionStart hooks.**
+
+   **Placement.** Context sieve (`applied-mappings.md` §1) + VOI
+   (`mappings.md` §6). Pillar: VOI + selective classification.
+   Hole: sieve / gather. Family: closed decision API (Noul
+   "still live?"). Fail-open on scoring failure. Eval path: none
+   published (9×3 hint). **Empirical** as README behavior.
+   **Hypothesis** that scored recall beats dump-or-summary on
+   *your* session. Cards: `applied-mappings.md` §1 (primary);
+   `mappings.md` §6; `mixed-architecture.md`;
+   `agent-self-assessment.md`. No wrapper.
+
+4. **[`carldaws/hunch`](https://github.com/carldaws/hunch)**
+   (MIT; Ruby; created 2026-09-18T23:08:32Z; 0★). Probabilistic
+   control flow for Ruby: `if` / `case` / `<=>` for facts; Hunch
+   for judgment calls. English is the configuration. `chance` →
+   Noul (`almost_certain?` / `likely?` / `probable?` / named
+   levels); `pick` → Choice; `rate` → Score. Batch `Hunch.decide`
+   over one `given:`. Rails examples (theirs): validations, inbound
+   email routing, error triage, job retries, enum coercion,
+   comment moderation. **`rescue nil` on validations is deliberate
+   fail-open at save** — fail closed instead where it matters
+   (spam gate). Stub backend for tests. Same interface ≠ same
+   guarantees for a future LLM backend (Jev calibrated + typed +
+   milliseconds; an LLM backend is estimates, slower, dearer).
+   Cousin of [`southpolesteve/probably`](https://github.com/southpolesteve/probably)
+   (language whose *loop conditions* are Jev feelings) — Hunch is
+   a library in Ruby, not a new language.
+
+   **Four load-bearing mental models:**
+
+   1. **Judgment as a language primitive.** `almost_certain?` /
+      `pick` / `rate` are control-flow, not a prompt. English-as-
+      config. Same instinct as probably-lang, one layer down.
+   2. **Fail polarity is per action.** Validation fail-open
+      (`rescue nil`); spam *gate* should fail closed. Name the
+      act, not the slogan.
+   3. **Stub is a backend.** Tests never need the network.
+   4. **Do not copy gem / Rails how-to.**
+
+   **Placement.** Decision circuits (`mappings.md` §3) + mixed
+   architecture. Pillar: EU / selective classification. Hole:
+   gate / route / replace-one-classifier-step. Family: closed
+   decision API. Fail polarity per call-site. Eval path: example
+   app tests against live model (theirs); stub for CI.
+   **Empirical** as README / example suite. Cards:
+   `mappings.md` §3 (primary); `mixed-architecture.md`; `faq.md`.
+   No wrapper.
+
+5. **[`si618/explore-typesafe-ai`](https://github.com/si618/explore-typesafe-ai)**
+   (Python; created 2026-09-18T23:48:44Z; 0★; **license not in
+   GitHub API this pass — do not invent**). FHIR clinical System
+   One (Jev) + Claude System Two on **100 synthetic Synthea**
+   patients. Report:
+   [si618.github.io/explore-typesafe-ai](https://si618.github.io/explore-typesafe-ai).
+   Three scenarios: NEWS2 huddle (Noul/Score/Choice); discharge
+   med recon (Choice fan-out, Noul, Score); post-discharge inbox
+   (Choice/Score/Noul + confidence gate). Labels committed
+   **before** any Jev run. 60 requests to `jev-1.13.0`. **Not
+   clinically validated.** Claude wrote reference labels, not
+   clinicians. 20 cases per scenario — wide uncertainty.
+
+   **Report headline (theirs; not re-run):** NEWS2 alone under-
+   triaged 10/20; NEWS2 + Jev under-triaged 1/20; new-confusion
+   Noul 20/20. Discharge: 98% of 143 medication statuses; allergy
+   check 100%; duplicate/interaction checks weak (multi-hop) and
+   mostly escalate. Inbox: 7/20 auto-dispatched, all correctly;
+   every misroute caught by the confidence gate; prompt injection
+   did not steer routing. 65 of 403 judgments (16%) escalated to
+   blinded Claude Sonnet 5. Cost/speed: 403 judgments / 60
+   requests; p50 329 ms/request; **$0.0038** total.
+
+   **Four load-bearing mental models:**
+
+   1. **Harbor-shaped healthcare measurement.** Frozen synthetic
+      cohort, labels first, independent S2 review packet, code
+      owns NEWS2 / recon / routing. Capability demonstration,
+      not clinical safety evidence.
+   2. **Code stays in charge.** Jev supplies inputs code cannot
+      compute (note meaning, brand names, new vs baseline
+      confusion). Thresholds re-policy without a new prompt.
+   3. **Multi-hop over a list is still jagged.** Duplicate /
+      interaction checks escalate — decompose or don't ask.
+   4. **Do not copy `uv` how-to.** Not a medical device.
+
+   **Placement.** Validation Harbor (`validation.md`) + mixed
+   architecture (S1 decide / S2 review / code policy). Pillar:
+   SDT (under-triage cost >> over-triage) + Leveson
+   (sensor ≠ constraint). Hole: triage / gate / perceive.
+   Family: closed decision API. Fail-closed on actuation
+   (escalate / hold); **not clinically validated**. Eval path:
+   published report + committed labels. **Empirical** as that
+   named report. **Hypothesis** that the same split transfers
+   to real FHIR. Cards: `validation.md` (primary);
+   `mental-models.md`; `mixed-architecture.md`. No wrapper.
+
+6. **[`ickma2311/jev-baselines-eval`](https://github.com/ickma2311/jev-baselines-eval)**
+   (MIT; Python; created 2026-09-18T22:57:35Z; 0★). Pre-registered
+   independent eval of TypeSafe Jev vs nano-class LLM
+   (`gpt-5.4-nano`), frontier (`GPT-5.6 Terra`), and a supervised
+   encoder (`bge-small-en-v1.5` + logistic regression, 10,003
+   Banking77 train, 9 ms laptop). Not affiliated; ~$1 API paid by
+   the author. **Both experiments returned AMBIGUOUS.** Same-day
+   errata, **three rounds** (calibration language, B0 escalation
+   numbers, encoder-vs-frontier arithmetic, missing cross-fit
+   accuracies, **threshold-margin sensitivity that flips the sign
+   of the headline cascade**, wrong parity explanation, latency
+   framing). Reviews in `reviews/` (GPT-6 Astra via Codex CLI);
+   author verified every quantitative finding from `results/`.
+
+   **Numbers (theirs; recomputable from published JSONL):**
+
+   - CLINC150 zero-shot n=200: Jev **0.870** vs nano **0.795**
+     (paired +7.5pp, 95% CI [+3.0, +12.5]) vs Terra **0.915**.
+   - Banking77 paired n=208: encoder **0.933** [0.899, 0.966] /
+     **9 ms** wins; vs Jev 0.832, paired encoder **+10.1pp
+     [+5.3, +15.4]**; encoder vs Terra **+5.8pp [+2.4, +9.6]**.
+     B0's own pre-registered verdict was also AMBIGUOUS.
+   - Cascade (B1 primary): at A_Terra − **1pp** (0.905), R_jev
+     **0.220** vs R_nano 0.485, Δ **+0.265**, CI [−0.530, +0.595]
+     → **AMBIGUOUS**. At **exact parity** R_jev **1.000** vs
+     nano 0.730 (Δ **−0.270**) — **sign flips**. Mechanism: Jev
+     confidence **exactly 1.0 on 102/200 items, 6 of which are
+     wrong** (only 1 of those 6 is one Terra gets right). No
+     threshold that *keeps any Jev answer* reaches parity
+     (t=1.0 → 0.490 escalation at 0.910; t=1.01 escalates
+     everything). Read the 1pp row as "cheap to get *close*",
+     never "at equal accuracy".
+   - Error-ranking AUROC: CLINC150 Jev 0.734 vs nano 0.816
+     (paired CI includes zero); Banking77 reverse. **Neither
+     direction established.** This is *error ranking*, **not
+     ECE**. No ECE/reliability diagram in this report.
+   - Latency: recorded median call duration **~2.2×** shorter
+     for the Jev *configuration* than nano on the same 30 items
+     (0.42 s vs 0.92 s) — **not** the vendor 40–200×, **not**
+     isolated model inference speed, **serving-path not
+     model-speed**. Throughput under Vercel free-tier rate
+     limit is a different number (200-item run ~3.5 h). Same-
+     gateway control named and **not run**.
+   - Deviations disclosed: B0 n 300→208 (Terra 0.875 retained
+     vs 0.804 omitted); encoder added after B0 pre-reg; B1 run
+     despite B0's "ambiguous would not expand" stopping rule.
+
+   **Four load-bearing mental models (jevals / Harbor practice
+   exemplar this hour):**
+
+   1. **Honest negative + pre-registration.** Kill/go printed
+      by the analysis scripts, including the one that failed.
+      AMBIGUOUS is a result.
+   2. **Calibration theater.** Confidence = 1.0 on 102/200
+      including 6 wrong. AUROC is not ECE. Do not say "better
+      calibrated" from error-ranking. A cascade at 1pp-below-
+      frontier is not a cascade at equal accuracy.
+   3. **Encoder with labels still wins.** 10k labeled Banking77
+      → 0.933 / 9 ms / $0. Test that baseline before paying
+      per call. Different information regime, not a like-for-
+      like model bake-off.
+   4. **Serving-path ≠ model-speed.** 2.2× is two client-and-
+      service configurations. Do not invent 40–200× from this
+      repo. Do not copy pip.
+
+   **Placement.** Validation Harbor / jevals (`validation.md`
+   primary). Pillar: SDT + calibration. Hole: measure / hill-
+   climb. Family: bake-off, not a product. **Empirical** as that
+   named report (AMBIGUOUS + errata). Cards: `validation.md`;
+   `faq.md`; `methods-catalog.md`; `toolbox-mapping.md`. No
+   wrapper.
+
+7. **[`SargeDev/jev-gate-student-b`](https://huggingface.co/SargeDev/jev-gate-student-b)
+   + [`jev-distill-corpus`](https://huggingface.co/datasets/SargeDev/jev-distill-corpus)**
+   — **light delta only.** HF card unchanged this pass vs §33:
+   LoRA r=16 α=32 on Qwen2.5-0.5B; P(relevant) from yes/no
+   logits; held-out n=60 MAE **0.187** / Pearson **0.791** /
+   agreement **90.0%** vs vanilla 0.536 / −0.067 / 38.3%;
+   ~59 ms RTX 3060; gate at 0.5; **fail-open on errors**;
+   teacher-copy, not independent gold; 148,160-row corpus.
+   Distillation of a System One *memory gate* remains the
+   species. Do not rewrite the LoRA table. Do not copy the
+   usage snippet.
+
+### STRONG MED (brief)
+
+- **[`fdemir/toolgate`](https://github.com/fdemir/toolgate)**
+  (MIT; TypeScript; created 2026-09-18T23:21:59Z; 0★). Pre-exec
+  tool gate: `allow` / `block` / `review` before execution.
+  Guard error or timeout **stops** (error distinct from a model
+  decision) — fail-closed on the *execution* act. Jev is a
+  probabilistic check, **not authorization**; keep permissions,
+  argument validation, and transaction limits. 72-case synthetic
+  starter dataset **not independently human-annotated**. Demos
+  prove execution wiring, not model accuracy. **Product**, not
+  the ndolinschi *vocabulary* already in
+  `agent-self-assessment.md` (that family used allow / ask_human
+  / deny). This repo's labels are allow / block / review.
+  `onReview` must obtain authenticated human approval, not ask
+  the agent to approve itself. Do not copy pnpm how-to.
+  Placement: `mappings.md` §18 + agent pre-action gate.
+
+- **[`masa-med-ai/typesafe-screening-mcp`](https://github.com/masa-med-ai/typesafe-screening-mcp)**
+  (MIT; Python; created 2026-09-18T23:45:47Z; 0★). PubMed
+  title/abstract screening MCP: `include` / `maybe` / `exclude`.
+  One Jev request per article (match Noul + relevance Score +
+  criterion Nouls); decision rule in code, sensitivity-first
+  (unmet inclusion never auto-excludes). Abstracts never enter
+  the LLM conversation. One real run (theirs): **326 hits ~
+  17 s ~ $0.014**. Thresholds **not calibrated** on labelled
+  data. Screening aid, not a systematic-review replacement.
+  Do not send patient/confidential text. Do not copy `uv` /
+  keychain how-to.
+
+- **[`laurentfabre/databricks-jev-pdf-lab`](https://github.com/laurentfabre/databricks-jev-pdf-lab)**
+  (Python; created 2026-09-18T23:47:15Z; 0★; **no OSS license
+  selected — public visibility is not a license**). Honest
+  negative: **no quality-equivalent, end-to-end Jev payoff
+  demonstrated** for Precision-Mode PDF extraction. Compact
+  metadata requests: 32.48% fewer input tokens but **26/236
+  recommendations changed** (not equivalent-policy). Bounded
+  verifier 3/5 flags / 0/3 false alarms on four correlated
+  inspected cases — not calibrated acceptance. Selective-parse
+  rehearsal retained all 236 pages. Typed output is not truth.
+  Public snapshot cannot independently reproduce historical
+  accuracy. Do not treat this as a production router.
+
+- **[`yannip1234/codex-jev`](https://github.com/yannip1234/codex-jev)**
+  (Apache-2.0 via upstream Codex; Rust/Swift; created
+  2026-09-18T23:49:00Z; 0★). Codex extractive compression
+  family: custom engine + desktop bridge + native macOS client.
+  Kept passages copied from source; API failure / timeout /
+  uncertainty / insufficient savings **preserve original**.
+  Manually sent official-app message reduced **~185 → 44
+  estimated tokens**, `COMPACTION_OK` — **integration demo**,
+  not complete desktop compatibility. **Equal task accuracy and
+  lower total cost have not been established.** Savings are
+  estimated, not tokenizer-exact billing. Family with
+  fast-jev-compaction / jev-pruner / gliner25-compaction
+  (pointer, not summarizer). Do not copy Xcode/Rust build.
+
+- **[`kazuhideoki/jev-search`](https://github.com/kazuhideoki/jev-search)**
+  (Python; created 2026-09-18T23:43:52Z; 0★; **no LICENSE file
+  this pass**). Recursive semantic **file** search + fzf:
+  ripgrep enumerate → Jev match probability → fzf select.
+  **Not** [`superagents-lab/jev-search`](https://github.com/superagents-lab/jev-search)
+  (federated *web* search; Jev as query-understanding head and
+  result-ranking tail). File score is max over overlapping
+  chunks — **not** a calibrated whole-file probability; long
+  files may be favored. Failures/unevaluated chunks are not
+  treated as 0%. `--dry-run` needs no key. Do not copy `.env`
+  how-to.
+
+### Omni / Jev-omni / Archer
+
+Still **WATCH**. No Hub weights. X MCP flap; `since_id` not
+advanced. This hour does not wait. Local CUDA replica (jevify)
+is an open *inference class*, not that drop. Healthcare Harbor
+(explore-typesafe-ai) is synthetic FHIR, not AU residency
+weights.
+
+### Cross-links
+
+Cards: `judgment-class.md` (jevify uncalibrated replica;
+student-b light); `applied-mappings.md` §1 (carryforward),
+§4 (decision-native RAG); `mappings.md` §3 (hunch), §4 (RAG +
+file-search vs web-search), §6 (carryforward VOI), §18
+(toolgate); `mixed-architecture.md` (fail table + gallery);
+`validation.md` (jev-baselines-eval AMBIGUOUS + errata;
+explore-typesafe-ai; pdf-lab negative); `faq.md`;
+`mental-models.md`; `methods-catalog.md`; `toolbox-mapping.md`;
+`agent-self-assessment.md`. No wrapper.

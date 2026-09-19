@@ -488,6 +488,11 @@ Use these as *existence proofs of a position*. Write your own card.
 | Phishing / fraud screen | hold vs deliver | SDT criterion on a Noul | blocklist, SPF/DKIM exact (**Hypothesis**) |
 | Personal ops | cook done / not | "looks done" Noul | thermometer probe |
 | Org safety | stop the line | sensor Noul | interlock, two-person rule |
+| Knowledge / RAG | reason only over kept evidence | retrieve wide → decide → evidence set (**Empirical** as architecture: decision-native-rag-skills; **Hypothesis** as a measured win) | Conflict/temporal/provenance in code; embeddings generate candidates |
+| Session memory | next task sees last session's facts | scored recall over a verbatim ledger (**Empirical**: carryforward; 9×3 hint) | Constraints always-keep; fail-open dump; never summarize |
+| Application control flow | `if` / `case` on a judgment | `chance`/`pick`/`rate` as language primitives (**Empirical**: hunch; English-as-config) | Fail polarity per action; stub backend |
+| Healthcare huddle / recon / inbox | escalate / hold / route | S1 remainder after NEWS2/code (**Empirical** as synthetic report: explore-typesafe-ai; **not clinically validated**) | NEWS2, recon, routing in code; S2 blinded review |
+| Intent cascade vs nano/encoder | escalate when unsure | pre-registered kill/go (**Empirical as practice**: jev-baselines-eval **AMBIGUOUS**; cascade sign-flip; encoder-with-labels wins) | Thresholds, serving-path honesty, ECE if you claim calibration |
 
 Rejected in every domain: replacing the ledger with a vibe; replacing
 the interlock with confidence; replacing the essay with a Noul;

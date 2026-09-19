@@ -606,6 +606,35 @@
   README.
 - notes.md §54; sources.json; findings.md batch #38. No wrapper.
 
+## 2026-09-18 23:54 UTC — CUDA replica / decision-native RAG / verbatim recall / Ruby primitive / FHIR Harbor / AMBIGUOUS baselines (~17:48 Boise)
+
+- Folded into open PR #2 (`cursor/augustus-store-envelope-00b4`).
+  Docs-only. Not a competing PR. Archer 27B drop still **WATCH**.
+  X MCP namespace flap; `since_id` **not** advanced. Archive
+  `/workspace/jev-archive/2026-09-18/234740` not present locally.
+  No invented metrics. No wrapper. Do not re-fold §50–§54.
+- HIGH: [Mintzs/jevify](https://github.com/Mintzs/jevify) CUDA/PyTorch
+  Choice/Score/Noul *shape* on Qwen2.5-1.5B; uncalibrated likelihoods
+  ≠ Noul; no LICENSE. [decision-native-rag-skills](https://github.com/emergency-lee/decision-native-rag-skills)
+  retrieve-wide → decide → evidence set; no harness; no universal
+  benchmark. [jev-carryforward](https://github.com/Dharundp6/jev-carryforward)
+  verbatim ledger + scored recall; rules never judged; 9×3 hint.
+  [hunch](https://github.com/carldaws/hunch) Ruby language primitive.
+  [explore-typesafe-ai](https://github.com/si618/explore-typesafe-ai)
+  synthetic FHIR Harbor-shaped; not clinically validated.
+  [jev-baselines-eval](https://github.com/ickma2311/jev-baselines-eval)
+  **both AMBIGUOUS**; cascade sign-flip; confidence=1.0 theater;
+  encoder-with-labels; serving-path ≠ model-speed; errata ×3.
+  Student-b light delta only (HF card unchanged).
+- MED: toolgate, typesafe-screening-mcp, databricks-jev-pdf-lab
+  (honest negative, no OSS license), yannip1234/codex-jev,
+  kazuhideoki/jev-search (**not** superagents-lab web search).
+- Cards: SKILL.md, judgment-class, applied-mappings §1/§4,
+  mappings §3/§4/§6/§18, mixed-architecture, validation, faq,
+  mental-models, methods-catalog, toolbox, agent-self-assessment,
+  ecosystem, CHANGELOG, README.
+- notes.md §55; sources.json; findings.md batch #39. No wrapper.
+
 
 
 

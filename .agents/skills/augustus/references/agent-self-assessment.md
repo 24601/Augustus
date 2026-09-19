@@ -12,7 +12,12 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    parallel, thresholded in code: `destructive` (noul, hold ≥0.90),
    `exfiltrates_secrets` (≥0.70), `beyond_request_scope` (≥0.85),
    `impact_if_unwanted` (Score 4 levels, escalate ≥2.5). Ship shadow mode
-   first; enforce only after observing real traffic.
+   first; enforce only after observing real traffic. Productized pre-exec
+   cousin: [toolgate](https://github.com/fdemir/toolgate) — `allow` /
+   `block` / `review` before execution; guard error/timeout **stops**.
+   Jev is not authorization. 72-case synthetic, not independently
+   annotated. Distinct from the ndolinschi *vocabulary* (allow /
+   ask_human / deny) below (`notes.md` §55).
 2. **Post-action output judge** (after the tool result exists, not before):
    `leaks_secret` (noul ≥0.90) and `failure_class` (Choice ~6 options).
    The gate sees intent; only the output judge sees what the command printed.
@@ -91,6 +96,12 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   [jev-pruner](https://github.com/tamaratran/jev-pruner) — Jev Noul on
   Bash chunks after a hard envelope; fail-safe original; archive
   (`notes.md` §53). Marketplace id still `fast-jev-output`.
+  Session-ledger cousin:
+  [carryforward](https://github.com/Dharundp6/jev-carryforward) —
+  verbatim JSONL; Jev scores which facts are still live; constraints
+  and corrections always return; fail-open dump if the scorer is
+  down. Nine entries × three tasks is a hint, not proof
+  (`notes.md` §55). Do not copy mcp add.
 
 ## Non-negotiable boundaries
 
@@ -108,7 +119,11 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   fails closed to `keep_full` (`notes.md` §50). Stdout prune is the
   same polarity:
   [jev-pruner](https://github.com/tamaratran/jev-pruner) fails closed
-  to original output (`notes.md` §53).
+  to original output (`notes.md` §53). Tool *execution* is the
+  other polarity: [toolgate](https://github.com/fdemir/toolgate)
+  stops on block / review-without-approval / guard error
+  (`notes.md` §55). Session-memory *omit* fails open (dump the
+  ledger): [carryforward](https://github.com/Dharundp6/jev-carryforward).
 - Cache identical judgments (~120s) and deduplicate sibling calls into one
   in-flight request.
 - pi-warden measured cost makes continuous guarding viable: ~$0.00004 and
@@ -177,5 +192,7 @@ is Watch / empty repo this pass (`notes.md` §51).
   gets this variance check first, over frozen outputs, before its numbers
   mean anything.
 - Gate vocabulary is converging across implementations; reuse it rather
-  than inventing: allow / ask_human / deny (toolgate), ok / retry /
+  than inventing: allow / ask_human / deny (ndolinschi *vocab*),
+  allow / block / review ([toolgate](https://github.com/fdemir/toolgate)
+  *product* — Jev is not authorization; `notes.md` §55), ok / retry /
   escalate / stop (harnessjudge). Same shape as the lifecycle gates above.

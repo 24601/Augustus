@@ -133,7 +133,17 @@ behavior, 2026-09-18 ~16:48):**
 [latch](https://github.com/CaseReed/latch) — Jev labels a clustered
 cause; a **table** maps cause × confidence × fingerprint → PASS /
 BLOCK / needs_human. The judge is a sensor, not the merge act
-(`notes.md` §51). **Counterexample**: decomposing tool-trace
+(`notes.md` §51). **Language primitive (Empirical as README /
+example suite, 2026-09-18 ~17:48):**
+[hunch](https://github.com/carldaws/hunch) — Ruby `chance` /
+`pick` / `rate` map to Noul / Choice / Score; English is the
+configuration; `Hunch.decide` batches over one `given:`.
+Validations `rescue nil` = fail-open at save; spam gates should
+fail closed. Stub backend for tests. Same interface ≠ same
+guarantees for a future LLM backend. Cousin of probably-lang
+(a language whose loop conditions are feelings) — this is a
+library, not a new language. Do not copy gem/Rails
+(`notes.md` §55). **Counterexample**: decomposing tool-trace
 verification into per-call schema nouls works; asking "is the trace correct"
 as one Noul hides nine judgments. **Test**: full truth table / transition
 cases incl. contradictory outputs, stale observations, invalid combos.
@@ -188,6 +198,24 @@ renormalize; one row per request). Same hole, two surfaces. Row
 contents leave the store (same residency warning as AU health). Do not
 copy SQL, env, or CLI flags.
 `notes.md` §42, §44, §46, §48.
+
+**Decision-native evidence set (Empirical as architecture;
+Hypothesis as a measured win, 2026-09-18 ~17:48):**
+[decision-native-rag-skills](https://github.com/emergency-lee/decision-native-rag-skills)
+promotes this card from "rerank a shortlist" to **retrieve wide →
+decide → build an evidence set → resolve conflicts → generate only
+over kept evidence**. Embeddings remain candidate generators; they
+do not settle relevance, sufficiency, redundancy, conflict, time,
+or authority. No bundled harness; no universal benchmark; default
+migration gates are starting targets (`notes.md` §55). PubMed
+title/abstract screening is the same *shape* on literature
+([typesafe-screening-mcp](https://github.com/masa-med-ai/typesafe-screening-mcp):
+include/maybe/exclude in code; 326 hits ~17 s ~$0.014 one run;
+thresholds not calibrated; screening aid, not an SR replacement).
+Local-file cousin:
+[kazuhideoki/jev-search](https://github.com/kazuhideoki/jev-search)
+(recursive files + fzf) — **not** superagents-lab/jev-search
+(federated web). Max-over-chunks ≠ calibrated whole-file p.
 
 ## 5. Hierarchy → bounded heuristic search
 
@@ -305,6 +333,14 @@ Horvitz mixed-initiative: pay for the turn iff EV(decision) beats
 the token cost. Savings unmeasured. Same-author scenarios+question;
 not a benchmark (`notes.md` §51). Contrast pi-jev-approver
 fail-closed without a key and jevgate cannot-block.
+**Selective memory / scored recall (Empirical as README behavior;
+9×3 is a hint, 2026-09-18 ~17:48):**
+[carryforward](https://github.com/Dharundp6/jev-carryforward) —
+verbatim ledger; Jev scores which facts are still live for the
+task; constraints/corrections always return (never judged). Fail-
+open dump if the scorer is down. Pay for a scored brief iff it
+beats dumping the whole file. No accuracy claim until a proper
+test (`notes.md` §55). Do not copy mcp add.
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs
@@ -737,6 +773,16 @@ Light sibling:
 typed Score/Nouls on the remainder; **fail-closed** without a key
 (different polarity from jevgate). rh-guard-adjacent; light note only
 (`notes.md` §48).
+**Pre-exec tool product (Empirical as README wiring, not as
+accuracy; 2026-09-18 ~17:48):**
+[toolgate](https://github.com/fdemir/toolgate) — `allow` / `block` /
+`review` before execution; guard error or timeout **stops** (fail-
+closed on the execution act). Jev is a probabilistic check, **not
+authorization**. 72-case synthetic set is not independently
+annotated. Distinct from the ndolinschi *vocabulary* (allow /
+ask_human / deny) already in `agent-self-assessment.md`.
+`onReview` must obtain authenticated human approval
+(`notes.md` §55). Do not copy pnpm.
 [`coldteadotai/abide`](https://github.com/coldteadotai/abide) is the
 same *family* on project instructions: the **linter proves** lintable
 rules; Jev Scores only residual soft AGENTS.md rules; fail-open, banded

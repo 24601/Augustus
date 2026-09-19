@@ -33,7 +33,7 @@ never launder a Noul as a proof.
   exemplar, not monopoly): open heads (Laya, kev, encoder DeBERTa, LoRA
   distill), constrained-AR (TypeAR, pcdServer), announced decision-model (Watch),
   open multimodal RLCD (blackwood-rlcd; not Archer), Laya ONNX port,
-  contract-compatible local `/v1/systemone` (stub until hf scorer; also kev pointer / von tiny SAN — not replicas),
+  contract-compatible local `/v1/systemone` (stub until hf scorer; also kev pointer / von tiny SAN — not replicas; **jevify** CUDA/PyTorch packed-logprob cousin — uncalibrated likelihoods ≠ Noul),
   GLiNER/GLiClass species (locate vs categorize vs local multi-head;
   GLiNER2.5 extractive compaction as a named job, not a new species;
   GLiNER code-graph indexer + escalate-S2, 10–50× unfilled;
@@ -58,13 +58,17 @@ never launder a Noul as a proof.
   fail-open wake vs fail-closed merge-gate; Harbor on/off routing;
   hybrid local decide + remote fill; `DONE` ≠ verified success;
   evidence-preserving stdout prune (hard envelope then Noul);
-  specialist S1 computer-use (Cua-S1 form-v0; plan ≠ execute; not TypeSafe Jev)
+  specialist S1 computer-use (Cua-S1 form-v0; plan ≠ execute; not TypeSafe Jev);
+  judgment as a language primitive (hunch); decision-native RAG
+  (retrieve wide → decide → evidence set)
 - `.agents/skills/augustus/references/applied-mappings.md` — context sieve,
-  exact-text keep/drop (extractive / pointer-not-generator; char-offset compaction; observed a11y/DOM controls; Bash stdout prune), env triage (OpenSmoke + latch merge-gate), moderation/ranking, skill routing (route ≠ memory)
+  exact-text keep/drop (extractive / pointer-not-generator; char-offset compaction; observed a11y/DOM controls; Bash stdout prune; verbatim session ledger / carryforward), env triage (OpenSmoke + latch merge-gate), moderation/ranking (decision-native RAG evidence set), skill routing (route ≠ memory)
 - `.agents/skills/augustus/references/faq.md` — "just classification",
   stack replacement, Jev vs open head vs encoder vs LoRA vs constrained AR vs kev vs blackwood,
   wait-for-Archer, missing-other confident-wrong, soft project rules vs linter (Abide), extractive/pointer-not-generator, compaction summarize vs pointer, encoder vs Jev compaction, fail-closed keep_full, shadow-mode rollout, fail-open vs fail-closed wake vs CI gate, observe→score→act backend-agnostic, hybrid local decide + remote fill, DONE ≠ verified success, stdout prune vs session compaction, Cua-S1 vs TypeSafe Jev, plan ≠ execute / dry-run, local drop-in vs stub scorer, route ≠ memory, when-it-holds / extractable-from-state, decision-model vs constrained LLM, dual-process S1/S2, combinatorial grid ≠ extractive, GLiNER vs GLiClass vs CLIP, LLM-as-judge, in-engine vs CLI store,
-  hard envelope (bitrate / planner), not-another-how-to
+  hard envelope (bitrate / planner), not-another-how-to,
+  uncalibrated local likelihoods ≠ Noul, decision-native RAG, cascade
+  sign-flip / calibration theater, Precision PDF honest negative
 - `.agents/skills/augustus/references/mappings.md` — classical-method
   mappings with boundaries, counterexamples, acceptance tests (including
   Hypothesis cards §6–§19 — promote only with a test that ran)
@@ -80,7 +84,10 @@ never launder a Noul as a proof.
   (metric names, no checkpoint scores; not TypeSafe Jev); jev-testbench collab arms; ARC-AGI Direct Jev as
   combinatorial-≠-extractive negative; jev-gateway-bench Harbor on/off
   routing one-run signal; jev-pruner Harbor needle/noise + Terminal-Bench
-  integration pilot, not a full bench)
+  integration pilot, not a full bench; jev-baselines-eval pre-registered
+  **AMBIGUOUS** + cascade sign-flip; explore-typesafe-ai synthetic FHIR
+  Harbor-shaped, not clinically validated; databricks-jev-pdf-lab honest
+  negative)
 - `.agents/skills/augustus/references/boundary-audit.md` — existing-system
   insertion: fit test, opportunity map, smallest boundary, red flags
 - `.agents/skills/augustus/scripts/evaluate_decisions.py` — offline evaluator

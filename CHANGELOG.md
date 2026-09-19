@@ -268,6 +268,34 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   abstention, coverage, wrong actions/targets, unsafe when should
   abstain). Tests exercise implementation, not checkpoint quality.
   Watch for a `cua-s1-form-v0` artifact drop. No invented metrics.
+- Hourly ~17:48 Boise fold (`research/notes.md` §55): Archer still
+  Watch. X MCP flap; `since_id` not advanced. Architecture notes, not
+  a how-to. Local CUDA/PyTorch Choice/Score/Noul replica
+  ([jevify](https://github.com/Mintzs/jevify); uncalibrated
+  likelihoods ≠ Noul; no LICENSE this pass; independent of
+  Distillation). Decision-native RAG
+  ([decision-native-rag-skills](https://github.com/emergency-lee/decision-native-rag-skills);
+  retrieve wide → decide → evidence set; no bundled harness; no
+  universal benchmark). Verbatim session ledger + scored recall
+  ([carryforward](https://github.com/Dharundp6/jev-carryforward);
+  rules never judged; fail-open dump; 9×3 hint). Judgment as a
+  Ruby language primitive ([hunch](https://github.com/carldaws/hunch);
+  English-as-config; `rescue nil` fail-open at save). Healthcare
+  Harbor-shaped S1+S2
+  ([explore-typesafe-ai](https://github.com/si618/explore-typesafe-ai);
+  synthetic FHIR; not clinically validated). Pre-registered
+  independent eval
+  ([jev-baselines-eval](https://github.com/ickma2311/jev-baselines-eval);
+  **both AMBIGUOUS**; cascade sign-flip at exact parity;
+  confidence=1.0 theater; encoder-with-labels wins; serving-path ≠
+  model-speed; same-day errata ×3). Student-b light delta only (HF
+  card unchanged). MED: toolgate (pre-exec allow/block/review; Jev
+  not authorization), typesafe-screening-mcp (PubMed screening aid),
+  databricks-jev-pdf-lab (**honest negative**; no OSS license),
+  yannip1234/codex-jev (extractive compression family; equal
+  accuracy/lower cost not established), kazuhideoki/jev-search
+  (recursive *file* search + fzf; **not** superagents-lab web
+  search). No wrapper. No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

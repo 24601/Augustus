@@ -1068,6 +1068,70 @@ One" in CUA research is a parallel name, not a TypeSafe contract;
 specialist; (cp) source-only drops publish metric *names*, not
 checkpoint scores — Watch for `cua-s1-form-v0`.
 
+## Batch #39 (2026-09-18 ~17:48 Boise) — CUDA replica, decision-native RAG, verbatim recall, Ruby primitive, FHIR Harbor, AMBIGUOUS baselines
+
+Note: `research/notes.md` §55. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. X MCP flap; `since_id` not advanced.
+Archive `234740` not present locally. No invented metrics. Do not
+re-fold §50–§54. Student-b species already §33 — light delta only.
+
+- **Mintzs/jevify (Empirical as README behavior).** Python. Created
+  2026-09-18T23:41:21Z; 0★. CUDA/PyTorch parallel Choice/Score/Noul
+  *shape* on Qwen2.5-1.5B (`ora_decision_engine` / `ora-decision`).
+  CUDA graphs, branch kernels, literal-label scoring. Independent of
+  Distillation. **Uncalibrated model likelihoods, not measured
+  correctness.** Default refund workflow is not a validated policy.
+  Default `--answer-encoding letters`. **No LICENSE file this pass.**
+- **emergency-lee/decision-native-rag-skills (Empirical as
+  architecture; Hypothesis as a measured win).** MIT. Created
+  2026-09-18T23:29:20Z; 0★. Retrieve wide → decide → evidence set →
+  conflict resolve → reason only over kept evidence. Provider-
+  agnostic. No bundled Python harness. No universal benchmark.
+  Offline replay → shadow → canary → A/B.
+- **Dharundp6/jev-carryforward (Empirical as README behavior).** MIT,
+  1★. npm `carryforward`. Verbatim JSONL ledger; Jev scores recall;
+  constraints/corrections never judged; fail-open dump. 9×3 hint, not
+  proof.
+- **carldaws/hunch (Empirical as README / example suite).** MIT. Ruby
+  `chance`/`pick`/`rate`; English-as-config; validations `rescue nil`
+  fail-open at save. Stub backend. Cousin of probably-lang (library,
+  not a new language).
+- **si618/explore-typesafe-ai (Empirical as named report; not
+  clinical validation).** Created 2026-09-18T23:48:44Z; 0★; license
+  not in API. 100 synthetic Synthea; labels first; 60 requests / 403
+  judgments to jev-1.13.0. Report: NEWS2 10/20 → 1/20 under-triage;
+  98% of 143 med statuses; 7/20 inbox auto-dispatch all correct;
+  p50 329 ms; $0.0038. Claude wrote labels. 20 cases/scenario.
+- **ickma2311/jev-baselines-eval (Empirical as Harbor/jevals
+  practice, including the honest negative).** MIT. Created
+  2026-09-18T22:57:35Z. Pre-registered vs nano/frontier/encoder.
+  **Both AMBIGUOUS.** CLINC150 Jev 0.870 vs nano 0.795 vs Terra
+  0.915. Banking77 encoder **0.933 / 9 ms**. Cascade Δ +0.265 at
+  1pp; **sign flips at exact parity** (R_jev=1.000) because
+  confidence=1.0 on 102/200 incl. 6 wrong. AUROC neither direction;
+  no ECE. Latency ~2.2× serving-path, not 40–200×. Errata ×3.
+- **SargeDev/jev-gate-student-b (light delta).** HF card unchanged:
+  MAE 0.187 / Pearson 0.791 / 90% n=60; ~59 ms; fail-open; teacher-
+  copy.
+- **MED:** fdemir/toolgate (MIT; allow/block/review; Jev not
+  authorization; 72-case synthetic); masa-med-ai/typesafe-screening-mcp
+  (MIT; 326 hits ~17s ~$0.014; screening aid); laurentfabre/
+  databricks-jev-pdf-lab (honest negative; no OSS license);
+  yannip1234/codex-jev (Apache-2.0; 185→44 estimated tokens
+  integration demo; equal accuracy/lower cost not established);
+  kazuhideoki/jev-search (file+fzf; **not** superagents-lab web
+  search; no LICENSE).
+
+Cross-repo addition: (cq) uncalibrated local likelihoods ≠ Noul;
+(cr) retrieve-wide → decide → evidence set is the RAG sandwich;
+(cs) verbatim ledger + scored recall, rules never judged; (ct)
+judgment as a language primitive (English-as-config); (cu)
+confidence=1.0 theater flips cascade sign at exact parity; (cv)
+encoder-with-labels still wins; (cw) serving-path ≠ model-speed;
+(cx) kazuhideoki/jev-search ≠ superagents-lab/jev-search; (cy)
+toolgate product ≠ ndolinschi vocab; (cz) Precision PDF honest
+negative is a result.
+
 
 
 

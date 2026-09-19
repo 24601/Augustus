@@ -497,7 +497,7 @@ is the generator, not a sixth surface.
 | **Archer open decision-model** | **Watch.** No Hub weights this pass. "Smarter than Jev" is a claim against *his* calibration/order warnings | Same *hole* as Jev when it ships | 27B dense for one-forward-pass local speed once AR is removed; MoE next, then shrink. Quant-friendly is a claim | Healthcare AU data-residency / deployment control, **not** anti-TypeSafe | Multimodal, no audio. Text post-training reportedly generalizes to images with little intentional multimodal training | Unknown until the drop |
 | **TypeAR / pcdServer** (constrained AR) | Next-token constraint ≠ Noul. No abstention primitive. Public logit dump: [`Mikhail/mini-jev-runs`](https://huggingface.co/datasets/Mikhail/mini-jev-runs) (27.9k; scores "deliberately *not* calibrated"). Decision-token QLoRA trains *that* token under parallel constrained decode (`Foodoo1/Qwen3-14B-RLCD-Decision-LoRA`; synthetic fraud receipt, not a financial product; `notes.md` §46) | TypeAR sequential conditions later fields; pcdServer batches independent fields after one prefix. Neither is gather-as-act | TypeAR 5.8× is *their* K=16 boolean example. pcdServer: native llama.cpp, Apple+Linux. Foodoo1: ~234 ms / 4-field broadcast on RTX 3090 4-bit (their figure) | Self-host the generator / GGUF / adapter | Whatever the base model has | TypeAR enums ≤16; pcdServer 2–256 strings, 1–63 fields |
 | **Encoder open-jev** (DeBERTa-v3-large 434M) | Public gold, CE+Brier, val temperature. In-domain ECE 0.022 / acc 0.854; OOD acc 0.690 / ECE 0.035. **Not** a Jev teacher-copy | One pass over state + all questions; 512 tok | Author: 28 ms / 10 questions H100; 1.8 s / 4q M1 Max CPU | apache-2.0, self-host | Text | Jev-shaped 255 / Score 2–10 / Noul; 512 ctx |
-| **Tiny LoRA distill** (jev-gate-student-b) | Teacher-copy. P(relevant) from yes/no logits. Held-out n=60 vs vanilla 0.5B; 148,160-row corpus | Memory-gating / context sieve; **fail-open** on errors | Qwen2.5-0.5B LoRA; ~59 ms RTX 3060 | Local, apache-2.0 | Text | Binary relevance |
+| **Tiny LoRA distill** (jev-gate-student-b) | Teacher-copy. P(relevant) from yes/no logits. Held-out n=60 vs vanilla 0.5B; 148,160-row corpus. HF card **unchanged** ~17:48 vs §33 (MAE 0.187 / Pearson 0.791 / 90%; ~59 ms RTX 3060; fail-open) | Memory-gating / context sieve; **fail-open** on errors | Qwen2.5-0.5B LoRA; ~59 ms RTX 3060 | Local, apache-2.0 | Text | Binary relevance |
 | **Nimble** (open LoRA recipe, not a distill) | Hard synthetic labels. They say temperature was not tuned to correctness rates. 324-row agreement is their receipt, not an ECE (`notes.md` §35) | Not a gather primitive | Their latency table, not re-run | Self-host the adapter. Model card Apache-2.0; repo license absent | Text only | Enum ≤26; 2,048 tokens |
 | **kev** (Qwen2.5-0.5B LoRA + pointer; Apache-2.0) | Public gold, CE. Held-out ECE 0.065 (0.031 after T=1.47); acc 0.799 on 1,350 ID questions. Isolation exact. **Not** a Jev teacher-copy (`notes.md` §45) | Laptop-local System One drop-in for development/eval; independent questions, one prefill | ~160 ms / 6 questions; ~1h45m train on M5; 38 MB adapter | Self-host; official `typesafe-sdk` with `base_url` | Text. Not multimodal. 0.5B knowledge | noul / choice 2–255 / score |
 | **Diffusion structured reads** (djev-spark) | Interface claim only. **Hypothesis** it beats a decision head on your labels (`notes.md` §36) | Optional sequential chunks, text-only | Their GX10 tables, not a class benchmark | DGX Spark container. Do not copy the route | Images are an extension; think and sequential reject images | README criteria, not copied here |
@@ -538,6 +538,17 @@ not a Jev reproduction):**
 8-bit; interference 6–9%; temperature scaling on *your* labels.
 Space demo. Economics of packing a shared state, not trained
 decision-only (`notes.md` §49).
+**CUDA/PyTorch local replica (constrained-AR / logprob cousin, not
+a Jev reproduction, not Distillation; 2026-09-18 ~17:48):**
+[`Mintzs/jevify`](https://github.com/Mintzs/jevify) — Qwen2.5-1.5B,
+package `ora_decision_engine` / CLI `ora-decision`. CUDA graphs,
+branch kernels, literal-label scoring. Default `--answer-encoding
+letters`. **Uncalibrated model likelihoods, not measured
+correctness.** Default refund `workflow.json` is not a validated
+policy. **No LICENSE file this pass.** Do not copy Windows CUDA/venv
+(`notes.md` §55). Independent of Distillation; independent of
+open-alternative-jev's RACE-H receipt — same *class*, different
+repo.
 **Tiny SAN local surface (extreme speed/econ class, not a replica):**
 [`wfzyx/von`](https://github.com/wfzyx/von) — 14 MB Needle; `POST
 /v1/systemone`; sub-15 ms CPU *claim* / ~38 ms embed in their table;
