@@ -347,6 +347,25 @@ Architecture notes, not a cargo / pip / npm / plugin catalog. `notes.md` §68. T
 - **kylemclaren/jevql** — architecture note. CLI judges; vanilla Postgres never sees `jev()`. **Judgment outside the store** vs pg-jev / sqlite-jev in-engine.
 - **bohutang/sift** — short use-case only. ~$0.00003/post *theirs*. Substance/Humor/Chit-chat/Promo/Junk + AI-written. Minimal consumer categorization surface.
 
+### Hourly ~04:39 Boise 2026-09-19 / 10:39 UTC (digital-design combinators, VOI cache, skill-routing Harbor harness, zeroshot displacement, typed handoff)
+
+Architecture notes, not an npm / npx / bun / plugin catalog. `notes.md` §69. TypeSafe Jev is the exemplar, not the monopoly. Archer still Watch. No invented metrics. Do not re-fold the 03:38 list except sibling contrast / combinators rename. Hunches labeled.
+
+- **voidning/jev-combinators** — TypeScript; package MIT / GitHub SPDX null. **Rename** of decision-combinators (same `created_at`). Core five + **extended** Router / Loop / Retry / Fallback / Memory. Digital-design slogan (transistors / logic gates / chip) is a *metaphor* for soft classifiers; **not** literal AND/OR. npm `jev-combinators` 0.1.0. No measurements. Works with TypeSafe + any `/v1/systemone`.
+- **kushals256/jevcache** — TypeScript MIT. OpenAI-compatible proxy: Jev admits same-intent cache hits; skip the expensive LLM. Fail-open. Live eval n=100 *theirs*: Jev **0 FP / precision 1 / recall 0.38 / fpr 0** vs Jaccard@0.35 fpr 0.48; $0.00174. Not in v0: streaming HITs.
+- **iamdin/pi-jev-skill-bench** + **pi-jev-skill-suggestion** — TypeScript MIT. Harbor/jevals comparative harness: BM25 vs Jev at roster 50–500; 43 gold. **No live Jev numbers this pass.** Suggestion: strip roster; two-stage 0.30 / 0.40; no-key no-op; tool mode is tools≠use cousin.
+- **zhuyansen/jev-zeroshot-vs-bert** — Python MIT. Jev beats clean DeBERTa-c on 7 sets (+0.05–+0.13; PAWS AUC +0.03; arXiv 2026 +0.30) *theirs*. Contaminated 0.901 vs `-c` 0.763. Label-equivalence ~230 / >2048. Banking77 512+ feature hurts. DiD 0.035 vs 0.112.
+- **shitianfang/jev-handoff** — TypeScript MIT; alpha v0.1. MCP baton: typed escalate/continue/abort. Gate `allow` never grants. Fail-open. Inverted loop. Vercel drops confidence. Same author as wakegate.
+- **ThinkyMiner/Winnow** — TypeScript MIT. Chrome worth-your-attention VOI. **Distinct from kevinpita/winnow.** read/skim/save/skip from typed answers; 80%/90% *theirs*. Not on Chrome Web Store.
+- **rsdkrasen/hermes-jev-router** — Python; license null. **Jev WHETHER / Python HOW / LLM WHAT.** Compact original chunks; skip next main-model (needs core patch). Fail-open. Community plugin, not vendor.
+- **mleyvaz/jev-typed-evaluation-collapse** — Python; license null. NCML field note v0.3 *theirs*: Noul collapses conflict vs ignorance; named Choice separates p=1.0; binary Choice lexically biased.
+- **DowLucas/browser-jev** — TypeScript; license null. Playwright executes, Jev chooses. Sample from the distribution not argmax. Fail only high conf **and** high severity.
+- **IamBusy/OpenJev** — Python Apache-2.0. Local 0.6B LoRA+scalar head. `/v1/decide` **not** TypeSafe drop-in. 45/60 *theirs*. Distinct from hraness/sysone OpenJev runners. **dddanielliu/semif-serve** — SemIf behind `/v1/systemone`; 1164 vs 178 ms *theirs*; wire-compat ≠ replica.
+- Toolbelt notes: **win4r/jev-security-scan** (MIT; not a cert), **bojansandhaus/jev-decisions** (MIT; 1★; reviews never stop commands), **TeoMastro/jev-vs-llm-guardrails-intent-router** (license null; summary.md 404 this pass). **rh-guard owns reward-hack.**
+- **ctaxnagomi/DGUI_HYPERMEM-JEV** — HF MIT; 6-row flywheel (analyze 4 / rerank 2 / supersede 0). Sibling INSTRUCT_JEV.
+
+Census this hour (user-provided): Awesomejev **flat 561/27007**; tracker likes **43→45**, lastModified unchanged; SemIf **1714** (+10); jevlike **926** (+3). Archer still NOT landed.
+
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs
 Apalache; DST trio Antithesis / Resonate HQ / PufferLib):

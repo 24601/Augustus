@@ -191,7 +191,15 @@ Nouls). Vote is majority or mean; confidence discounted
 by agreement. No measurements. GitHub SPDX null; package
 MIT. **Hunch:** System One as a control plane, not chat
 turns. Compose with skillranker. Do not copy npm
-(`notes.md` §66). **TLA+ consensus circuit (Empirical as
+(`notes.md` §66). **Rename + extended five (2026-09-19
+~04:39):** now
+[jev-combinators](https://github.com/voidning/jev-combinators)
+(same `created_at`; npm `jev-combinators` 0.1.0).
+Digital-design slogan: primitives are transistors,
+combinators are logic gates, you design the chip.
+**Extended:** Router / Loop / Retry / Fallback / Memory.
+Fallback is the fail-closed node. Still not literal
+AND/OR. `notes.md` §69. **TLA+ consensus circuit (Empirical as
 spec + chaos table; 2026-09-19 ~02:38):**
 [jev-labs](https://github.com/copyleftdev/jev-labs)
 — five paraphrased agents; stability gate; quorum 3 of 5
@@ -519,6 +527,26 @@ Abstention ("none of these") is first-class. Failed hook
 recommendation is quiet fail-open. Distinct from
 skill-broker (grants). Compose with combinators
 (`notes.md` §66).
+**Same-intent cache admit (Empirical as n=100 live eval;
+2026-09-19 ~04:39):**
+[jevcache](https://github.com/kushals256/jevcache) — pay
+for the LLM iff Jev says the intent is **not** the same.
+Exact SHA-256 first; fail-open to upstream. 0 FP / recall
+0.38 *theirs*. Stream/tools/multimodal bypass. Do not copy
+npx (`notes.md` §69).
+**Human-feed VOI (Empirical as unreviewed goldens;
+qualify the owner; 2026-09-19 ~04:39):**
+[ThinkyMiner/Winnow](https://github.com/ThinkyMiner/Winnow)
+— pay for a click iff the card says read/skim. Distinct
+from kevinpita/winnow (context sieve). 80%/90% *theirs*.
+Do not copy unpacked-extension how-to (`notes.md` §69).
+**Second-call VOI (Empirical as README + offline pytest;
+license null; 2026-09-19 ~04:39):**
+[hermes-jev-router](https://github.com/rsdkrasen/hermes-jev-router)
+— pay for the *next* main-model call iff Jev says
+generation is still required (WHETHER/HOW/WHAT). Skip-next
+needs a core patch. Fail-open. Do not copy plugin how-to
+(`notes.md` §69).
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs
@@ -638,6 +666,16 @@ max_prob` to 3 decimals *theirs*; max_prob is the
 Thresholds are opinions. Pair with this OOD card: do not
 threshold TypeSafe `confidence`. Zero-dep MIT.
 `notes.md` §67.
+**Conflict ≠ ignorance (Empirical as NCML field note v0.3
+*theirs*; 2026-09-19 ~04:39):**
+[jev-typed-evaluation-collapse](https://github.com/mleyvaz/jev-typed-evaluation-collapse)
+— same evidence, three schemas. Noul/boolean collapses
+conflict 0.50–0.57 vs ignorance 0.46–0.48; Choice with
+named `conflicting_evidence` / `insufficient_evidence`
+separates p=1.0; binary Choice without an escape is
+lexically biased (red 0.67–0.85). Score exploratory
+(severe conflict 2.04 vs no-evidence 3.95). Schema is
+the interface. License null. `notes.md` §69.
 
 ## 8. Control structure → sensor ≠ constraint (Leveson)
 

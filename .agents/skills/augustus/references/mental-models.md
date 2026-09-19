@@ -53,7 +53,9 @@ until you label *your* cases.
 | Formal / semi-formal | Proof vs DST vs judgment | `formal-methods.md`, `formal-semi-formal.md` |
 | Class / family / objective | Decide vs locate vs categorize vs rank vs perceive | `judgment-class.md` species map |
 | Boundary map / extractable-from-state | Self-contained in fed state vs needs outside knowledge | This file §boundary; atlas receipts `notes.md` §49 |
-| Control-plane combinators | Then/Gate/Vote/Cascade/Weighted over typed judgments; not chat turns | `composition-algebra.md`; `notes.md` §66 |
+| Control-plane combinators | Then/Gate/Vote/Cascade/Weighted + Router/Loop/Retry/Fallback/Memory; digital-design metaphor ≠ literal AND/OR | `composition-algebra.md`; `notes.md` §66, §69 |
+| Conflict ≠ ignorance | Noul collapses both; named Choice escape separates; binary Choice without escape is lexically biased | `question-design.md`; `notes.md` §69 |
+| VOI cache / attention admit | Same-intent skip LLM; worth-your-attention before click; skip the narrating second call | jevcache / ThinkyMiner Winnow / hermes-jev-router; `notes.md` §69 |
 | Eval integrity (receipts not leaderboard) | Hold/break map + budget-attached bake-off + OOD ECE with sign | atlas / frontier-100 / ood-calibration; `validation.md`; `notes.md` §66 |
 
 Pick the pillar from the hole, then the family, then the vendor.

@@ -609,6 +609,52 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   ~$0.00003/post. Census: Awesomejev **561** (+73, agent
   tooling 87→107); SemIf **1704**. No wrapper. No invented
   metrics.
+- Hourly ~04:39 Boise 2026-09-19 (`research/notes.md` §69): Archer
+  still Watch. Do not re-fold the 03:38 list except sibling
+  contrast / combinators rename. **Digital-design combinators**
+  ([jev-combinators](https://github.com/voidning/jev-combinators)
+  is the rename of decision-combinators; extended Router /
+  Loop / Retry / Fallback / Memory; metaphor ≠ literal AND/OR).
+  **VOI cache admission**
+  ([jevcache](https://github.com/kushals256/jevcache); MIT;
+  same-intent skip LLM; n=100 *theirs* 0 FP / precision 1 /
+  recall 0.38 / fpr 0 vs Jaccard@0.35 fpr 0.48; fail-open).
+  **Harbor skill-routing harness**
+  ([pi-jev-skill-bench](https://github.com/iamdin/pi-jev-skill-bench)
+  + [pi-jev-skill-suggestion](https://github.com/iamdin/pi-jev-skill-suggestion);
+  BM25 vs Jev at roster 50–500; 43 gold; no live numbers this
+  pass; no-key no-op; tool mode is tools≠use cousin).
+  **Zeroshot vs BERT displacement**
+  ([jev-zeroshot-vs-bert](https://github.com/zhuyansen/jev-zeroshot-vs-bert);
+  +0.05–+0.13 vs DeBERTa-c; contamination 0.901 vs `-c` 0.763;
+  ≈230 / >2048 labels; DiD 0.035 vs 0.112 *theirs*).
+  **Typed escalate/continue/abort baton**
+  ([jev-handoff](https://github.com/shitianfang/jev-handoff);
+  MIT; inverted loop; gate never grants; fail-open; Vercel
+  drops confidence). **Worth-your-attention VOI**
+  ([ThinkyMiner/Winnow](https://github.com/ThinkyMiner/Winnow);
+  MIT; 80%/90% *theirs*; **≠** kevinpita/winnow).
+  **Jev WHETHER / Python HOW / LLM WHAT**
+  ([hermes-jev-router](https://github.com/rsdkrasen/hermes-jev-router);
+  license null; community plugin; skip-next needs core patch).
+  **Conflict ≠ ignorance**
+  ([jev-typed-evaluation-collapse](https://github.com/mleyvaz/jev-typed-evaluation-collapse);
+  Noul collapses; named Choice p=1.0; binary red 0.67–0.85
+  *theirs*). **Playwright executes, Jev chooses**
+  ([browser-jev](https://github.com/DowLucas/browser-jev);
+  license null; sample-from-distribution). **Local class**
+  ([OpenJev](https://github.com/IamBusy/OpenJev) Apache-2.0
+  `/v1/decide` 45/60 *theirs*, not TypeSafe drop-in, ≠
+  hraness/sysone runners;
+  [semif-serve](https://github.com/dddanielliu/semif-serve)
+  1164 vs 178 ms; runoff ≠ softmax; wire-compat ≠ replica).
+  Toolbelt notes: jev-security-scan / jev-decisions / TeoMastro
+  (summary.md 404 this pass); **rh-guard owns reward-hack**.
+  Flywheel:
+  [DGUI_HYPERMEM-JEV](https://huggingface.co/datasets/ctaxnagomi/DGUI_HYPERMEM-JEV)
+  6-row schema. Census: Awesomejev **flat 561/27007**; tracker
+  likes **43→45**; SemIf **1714** (+10); jevlike **926** (+3).
+  No wrapper. No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

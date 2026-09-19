@@ -36,7 +36,10 @@ code: hide if p ≤ t and not always_keep; stub + recall key
 fail open on missing verdict → keep
 ```
 
-**Example**: winnow hides at relevance ≤0.22; fast-jev-compaction asks two
+**Example**: [kevinpita/winnow](https://github.com/kevinpita/winnow)
+hides at relevance ≤0.22 (agent **context sieve** — always qualify
+the owner; distinct from [ThinkyMiner/Winnow](https://github.com/ThinkyMiner/Winnow)
+worth-your-attention VOI, `notes.md` §69); fast-jev-compaction asks two
 Nouls (should the *call* stay? should the *result* stay verbatim?);
 `ibrahemid/jevprune` keeps last-N + error signatures in code, then judges
 the rest per line; `kevinpita/pi-jev-context` hides (does not delete)
@@ -149,6 +152,17 @@ trajectories *theirs*: **79%** fewer tokens (11.6M →
 send — post-send prune broke cache and cost **17% more**.
 Claude plugin unmeasured. Do not copy npm (`notes.md`
 §68).
+**Jev WHETHER / Python HOW / LLM WHAT (Empirical as README
++ offline pytest; license null; 2026-09-19 ~04:39):**
+[hermes-jev-router](https://github.com/rsdkrasen/hermes-jev-router)
+— compaction keeps original chunks (never rewrite);
+duplicate observational tools suppressed; skip the next
+main-model call when evidence is enough (**needs a Hermes
+core patch**). Fail-open. Offline pytest: **2 vs 1**
+main-model call pattern. Aggressive defaults. Community
+plugin, not vendor. Cousin of dizk/jev-lens +
+jev-compactor. Do not copy patch/plugin how-to
+(`notes.md` §69).
 **tools≠use / SessionStart over hoping (Empirical as
 eval finding; 2026-09-19 ~03:38):**
 [carryforward](https://github.com/Dharundp6/jev-carryforward)
@@ -279,6 +293,16 @@ never guess. Jev `done` ≠ business success. Measured
 benchmark). Cousin of jev-ultrafast. Distinct from JevOnly
 / waymode / Stagehand. Do not copy `install.sh`
 (`notes.md` §65).
+**Adversarial browser, Playwright executes / Jev chooses
+(Empirical as README; license null; 2026-09-19 ~04:39):**
+[browser-jev](https://github.com/DowLucas/browser-jev) —
+one Jev call per step (six oracle Nouls + severity Score
++ next-action Choice). Code-only checks first. **Sample
+from the distribution, not argmax.** Fail only high conf
+**and** high severity. Visual blind. Demo lesson: narrow
+questions (untranslated 0.30 inside "confusing" vs 0.99
+on its own Q). CI exit 1 on non-baselined findings. Do
+not copy playwright / `.env` (`notes.md` §69).
 **Score-among-observed atlas (Empirical as public showcase class
 pattern, 2026-09-19 ~00:38):**
 [jevable.com](https://jevable.com/) — candidates already on the
@@ -497,6 +521,17 @@ samples → 0.90 / 0.93 vs 0.08 / 0.10. Cousin of
 [bohutang/sift](https://github.com/bohutang/sift)
 (§62 MED; ~$0.00003/post *theirs* — Substance/Humor/Chit-chat/Promo/Junk + AI-written). Cheap hold-before-show cookbook.
 Do not copy wrangler (`notes.md` §65).
+**Worth-your-attention VOI (Empirical as unreviewed goldens;
+always qualify the owner; 2026-09-19 ~04:39):**
+[ThinkyMiner/Winnow](https://github.com/ThinkyMiner/Winnow)
+— Chrome extension: read / skim / save / skip from typed
+answers; templates never prose. **Distinct from**
+[kevinpita/winnow](https://github.com/kevinpita/winnow)
+(context sieve). Feed batches ≤12; 7-day cache.
+Unreviewed goldens *theirs*: **80%** verdict / **90%**
+content-type. HN 30 links ~$0.0015. Not on the Chrome Web
+Store. Do not copy unpacked-extension how-to
+(`notes.md` §69).
 **Test**: moderation
 cost/coverage + false-hold vs false-publish; ranking recall *separate*
 from nDCG; select misroute rate; required-evidence recall vs Top-K.
@@ -622,6 +657,21 @@ are not model probabilities). Experimental MVP; MIT.
 Distinct from jev-routing (Go host adapter, **not MCP**)
 and jev-sift (topology A classify-first). Do not copy
 npm / `config.toml` (`notes.md` §67).
+**Harbor roster-size harness + Pi strip-roster (Empirical
+as README architecture; no live Jev numbers this pass;
+2026-09-19 ~04:39):**
+[pi-jev-skill-bench](https://github.com/iamdin/pi-jev-skill-bench)
+— BM25 vs Jev at roster **50 / 100 / 200 / 500**; 43 gold;
+token/USD = chars/4; experiment harness not a production
+claim. Cite only after `out/results-*.md` exists.
+[pi-jev-skill-suggestion](https://github.com/iamdin/pi-jev-skill-suggestion)
+— strip `<available_skills>`; two-stage (mean Noul 0.30 →
+chunked Choice ≤254+none → shortlist 3 → fits 0.40);
+fail-open; **no key → no-op**. Tool mode is a tools≠use
+cousin (hopes the agent calls `skill_suggest`); auto mode
+runs every prompt. Contrast skillranker (advisory VOI) /
+skill-broker (grants) / jev-in-codex (caller catalog).
+Do not copy `pi install` (`notes.md` §69).
 **Constrained optimizer + S1 features (Empirical as live
 analysis *shape*; 2026-09-18 ~23:40):**
 [slo-router](https://github.com/zeeshan8281/slo-router)
@@ -765,6 +815,30 @@ controls that remote). **Headless ≠ auto-approve:**
 escalation becomes deny-and-report, not a pending prompt
 and not an allow (`notes.md` §68). Do not copy bun / agy
 (`notes.md` §63).
+**Typed escalate/continue/abort baton (Empirical as README
++ 40 tests; 2026-09-19 ~04:39):**
+[jev-handoff](https://github.com/shitianfang/jev-handoff)
+— MCP two-way handoff. Escalation reasons:
+needs_generation / not_typeable / low_confidence /
+backend_error. Gate `allow` **never grants**. Fail-open
+(Jev down → typed escalate). Inverted loop: executor
+enumerates, Jev picks, LLM woken only on escalate.
+Vercel drops confidence (margin fallback not calibrated).
+No independent quality bench. Same author as wakegate.
+Do not copy npx / mcp.json (`notes.md` §69).
+**Toolbelt sensors, not policy (notes only; 2026-09-19
+~04:39):**
+[jev-security-scan](https://github.com/win4r/jev-security-scan)
+(MIT; stdlib; local rules then nine Nouls; dual p≥0.85 +
+locate; four synthetic samples; not a cert; cousin
+is-malicious).
+[jev-decisions](https://github.com/bojansandhaus/jev-decisions)
+(MIT; 1★; 25 prepared reviews; **advice, never stop
+commands**; auto hooks off).
+[jev-vs-llm-guardrails-intent-router](https://github.com/TeoMastro/jev-vs-llm-guardrails-intent-router)
+(license null; 218 labelled items; `summary.md` **404
+this pass** — do not invent numbers; README block ≥0.70).
+**rh-guard owns the reward-hack angle.**
 **Jev supplies evidence, code owns authority (Empirical as
 README slogan; 2026-09-19 ~00:39):**
 [actiongate-jev](https://github.com/omkarghugarkar007/actiongate-jev)
@@ -907,6 +981,13 @@ viewport table; Jev picks operation+target; code owns the
 loop; optional text model only for type. `--until` in code
 beats Jev `done`. n=3 medians ~2×, not a bench. Distinct
 from this card's no-planner extreme (`notes.md` §65).
+**Adversarial cousin (Playwright executes, Jev chooses;
+license null; 2026-09-19 ~04:39):**
+[browser-jev](https://github.com/DowLucas/browser-jev) —
+code-only checks first; sample from the distribution not
+argmax; fail only high conf **and** high severity. Visual
+blind. Same inverted-loop family as jev-handoff
+(`notes.md` §69).
 **Counterexample**: Stagehand extract `"pick"` with LLM
 fallback sold as "no LLM" — pick is a fast path, not this
 card. **Test**: every typed character exists in goal, facts,

@@ -8274,3 +8274,382 @@ S1; tools≠use; attention redirect); `validation.md`
 deltas); `faq.md`; `agent-self-assessment.md`;
 `toolbox-mapping.md`; `methods-catalog.md`. Hunches
 labeled. No wrapper.
+
+## 69. Digital-design combinators, VOI cache, skill-routing Harbor harness, zeroshot displacement, typed handoff (2026-09-19 ~04:39 Boise)
+
+Hourly System One watch **2026-09-19 04:39 America/Boise**
+(≈ 10:39 UTC). Docs-only fold into PR #2. Watch archive
+absent this VM; receipts from live GitHub READMEs + `gh api`
++ Hugging Face (~10:55 UTC). Hunches labeled. No wrapper.
+No invented metrics. TypeSafe Jev is the exemplar, not the
+monopoly. Archer still **NOT landed**.
+
+Do **not** re-fold §68 HIGH (jev-preflight, construct
+landed-script, jev-compactor 73%, dizk/jev-lens,
+carryforward 0/4, pi-om, openvons, HA-Jev, jevql, sift)
+except sibling contrast. Combinators this hour are a
+**rename + extended algebra**, not a second library.
+
+| Signal | Prior | This hour |
+|---|---|---|
+| voidning/decision-combinators | §66 core five | **renamed** voidning/jev-combinators; extended five; digital-design slogan |
+| kevinpita/winnow | launch-week context sieve | **distinct** ThinkyMiner/Winnow (worth-your-attention VOI) |
+| skillranker / skill-broker / jev-in-codex | §66–§67 routing | **new** BM25 vs Jev Harbor harness + Pi strip-roster |
+| openvons / jeff / jev-local | wire-compat class | **new** IamBusy/OpenJev `/v1/decide`; semif-serve SemIf runoff |
+| rashedInt32/jev-lens | human Stop VOI | cousin: ThinkyMiner Winnow (human feed) |
+| dizk/jev-lens / jev-compactor | pre-send / compact | cousin: hermes-jev-router WHETHER/HOW/WHAT |
+| wakegate | same author | sibling: jev-handoff typed baton |
+| INSTRUCT_JEV | §63 seed | sibling: DGUI_HYPERMEM-JEV flywheel (6 rows) |
+| rh-guard | reward-hack | **owns** that angle; security-scan / jev-decisions / TeoMastro are toolbelt notes |
+
+Seven clusters, not a hit list: **(a)** digital-design
+combinators (rename + extend); **(b)** VOI admission /
+cache / attention (jevcache, Winnow, hermes-router);
+**(c)** Harbor/jevals routing + displacement (skill-bench,
+zeroshot-vs-bert); **(d)** mixed-arch control plane
+(handoff, browser-jev); **(e)** epistemic conflict ≠
+ignorance (typed-evaluation-collapse); **(f)** local class
++ omni cross-ref (OpenJev, semif-serve); **(g)** toolbelt
+notes + flywheel dataset.
+
+### HIGH
+
+1. **[`voidning/jev-combinators`](https://github.com/voidning/jev-combinators)**
+   — **rename + delta** (core five already §66 as
+   `voidning/decision-combinators`). GitHub now returns
+   `full_name` jev-combinators for the old URL (same
+   `created_at` 2026-09-19T07:25:16Z). TypeScript; package
+   MIT / GitHub SPDX null; size **31** (was 0); npm
+   `jev-combinators` 0.1.0. Slogan: **"Primitives are
+   transistors. Combinators are logic gates. You design
+   the chip."** Mental model: digital design for *soft*
+   classifiers (AND/OR/NOT/threshold as *metaphor*).
+   Core five still Then / Gate / Vote / Cascade / Weighted.
+   **Extended five:** Router (branch on Choice value) /
+   Loop (repeat until satisfied) / Retry (try alternatives)
+   / Fallback (deterministic backup; fail-closed
+   safety-critical) / Memory (gate what to remember).
+   Works with TypeSafe + LitJev / OpenJev / System One
+   Lite / any `POST /v1/systemone`. Trace is the
+   oscilloscope. No measurements. Composition-algebra
+   still: **not** literal independent AND/OR — do not
+   multiply parallel Nouls. Router/Loop/Retry/Fallback/
+   Memory are **control-plane** nodes, not Boolean
+   operators. Do not copy npm.
+
+   **Hunch:** System One as a chip, not chat turns. The
+   rename is the digital-design slogan plus five more
+   gates, not a second algebra.
+
+2. **[`kushals256/jevcache`](https://github.com/kushals256/jevcache)**
+   (TypeScript; **MIT**; created 2026-09-19T09:40:18Z;
+   0★; size 57). OpenAI-compatible proxy: **"Routers pick
+   a model. jevcache decides whether to call one."**
+   Policy bypass (stream / tools / multimodal / volatile);
+   exact SHA-256 of the canonical request (per model +
+   system prompt); Jev `same_intent` + pick a candidate;
+   miss → upstream LLM → store; **fail-open** (Jev error
+   still calls upstream). Live eval `results/eval.json`
+   *theirs* n=100: Jev **fp=0 / precision=1 / recall=0.38
+   / fpr=0** vs cosine-Jaccard@0.35 **fp=24 / fpr=0.48**;
+   `jev_cost_usd` **0.00174**. Not in v0: streaming HITs,
+   tool-call caching. Do not copy npx / docker / `.env`.
+
+   **Hunch:** econ/VOI admission controller. Same-intent
+   is a typed gate in front of an expensive generator,
+   not a cosine cache. Zero false positives on their
+   fixture is the operating-point claim; recall 0.38 is
+   the price of that conservatism.
+
+3. **[`iamdin/pi-jev-skill-bench`](https://github.com/iamdin/pi-jev-skill-bench)**
+   + **[`iamdin/pi-jev-skill-suggestion`](https://github.com/iamdin/pi-jev-skill-suggestion)**
+   (both TypeScript; **MIT**; 0★). Bench created
+   2026-09-19T10:25:30Z; GitHub size 0 but files live
+   (`cases.jsonl` **43** gold). Experiment harness, not a
+   production claim. Token/USD = `chars/4` assumptions.
+   Roster tiers **50 / 100 / 200 / 500** (every labelled
+   skill always included, then seeded fill). Axes: exact
+   hit / none_hit / wrong_skill / false_load / miss;
+   categories clear / near-miss / quiet / adversarial.
+   **No published live Jev bench numbers this pass.**
+
+   Suggestion: strip `<available_skills>`; two-stage
+   (mean of three Nouls, quiet below **0.30**) → chunked
+   Choice ≤254 + `none_of_these` → shortlist 3 → fits
+   Noul **0.40**; timeout/API error **fail-open**; **no
+   key → no-op** (Pi keeps listing). Tool mode hopes the
+   agent calls `skill_suggest`; auto mode runs every user
+   prompt. Contrast skillranker (advisory VOI; hook
+   fail-open) / skill-broker (grants in code) / jev-in-codex
+   (caller catalog). **tools≠use cousin:** tool mode
+   still depends on the agent reaching for the tool.
+   Harbor/jevals comparative harness for *toolbelt
+   routing*. Do not copy `pi install` / bun how-to.
+
+   **Hunch:** roster size is the independent variable.
+   BM25 vs Jev is the bake-off, not "Jev wins routing."
+   Cite only after `out/results-*.md` exists.
+
+4. **[`zhuyansen/jev-zeroshot-vs-bert`](https://github.com/zhuyansen/jev-zeroshot-vs-bert)**
+   (Python; **MIT**; created 2026-09-19T10:29:44Z; 0★;
+   GitHub size 0, README + results live). Jev vs
+   BERT-family zero-shot on six public tasks plus post-
+   release arXiv as contamination control. Cite *theirs*.
+   Jev beats clean DeBERTa-c on **all 7** eval sets
+   (paired bootstrap CIs above 0): **+0.05 to +0.13** acc
+   on the benches; PAWS AUC **+0.03**; arXiv 2026 **+0.30**.
+   Contaminated `nli-deberta` AG News **0.901** vs clean
+   `-c` **0.763** — they use `-c` as the baseline.
+   Label-equivalence (conservative = smaller of two
+   trained curves): Jev zero-shot ≈ **~230 labels** on AG
+   News and Banking77, **>2,048** on SST-2 / TweetEval /
+   PAWS. Feature: lr-bge+jev helps when Jev is strong
+   (8–128 labels reach what LR alone never reaches); on
+   Banking77 at 512+ it **hurts** (−0.044 vs lr-bge).
+   DiD contamination: every model loses ~0.11 from arXiv
+   2020 → post-release; Jev loses **0.035** (vs DeBERTa-c
+   0.112; DiD −0.078, CI includes 0 at the edge).
+   Banking77 is two-step (11 groups then label) — not
+   like-for-like with one-pass NLI. Cost not logged.
+   Calibration/cost-displacement framing, not a vendor
+   win table. Do not copy OpenRouter how-to.
+
+   **Hunch:** Harbor/jevals displacement arm — when does
+   a decision model retire a BERT zero-shot head, and
+   when does labelled LR overtake it? Contamination is
+   the eval-integrity lesson.
+
+5. **[`shitianfang/jev-handoff`](https://github.com/shitianfang/jev-handoff)**
+   (TypeScript; **MIT**; created 2026-09-19T10:13:56Z;
+   0★; size 0 files live). Alpha **v0.1**. MCP baton
+   LLM↔Jev: typed **escalate / continue / abort**. Three
+   backends (TypeSafe direct / OpenRouter / Vercel AI
+   Gateway). Escalation reasons: `needs_generation` /
+   `not_typeable` / `low_confidence` / `backend_error`.
+   PreToolUse `allow` **never grants** — only deny/ask;
+   **fail-open** (Jev down → typed escalation, never a
+   blocked agent). **Inverted loop:** deterministic
+   executor enumerates, Jev picks, LLM woken only on
+   escalate (two paths cost zero LLM tokens). 40 tests +
+   stdio smoke. Honesty: no independent quality bench;
+   Vercel **drops confidence** (margin fallback is **not
+   calibrated**). Same author as wakegate. Do not copy
+   npx / mcp.json.
+
+   **Hunch:** mixed-architecture control plane. The
+   contract is the *baton*, not a silent filter. Gate
+   never grants — same doctrine as skill-broker /
+   actiongate / turnstile.
+
+6. **[`ThinkyMiner/Winnow`](https://github.com/ThinkyMiner/Winnow)**
+   (TypeScript; **MIT**; created 2026-09-19T08:24:18Z;
+   0★; size 18133). Chrome extension: worth-your-attention
+   VOI filter. **Always qualify the owner** — distinct
+   from [`kevinpita/winnow`](https://github.com/kevinpita/winnow)
+   (context sieve). Verdicts **read / skim / save / skip**
+   from typed answers; templates never prose; thresholds
+   are a pure function in `verdict.ts`. Feed batches ≤12;
+   7-day cache. Unreviewed goldens *theirs*: **80%**
+   verdict / **90%** content-type agreement. 124 unit
+   tests; 40 fixtures `pnpm eval`. HN 30 links ~**$0.0015**.
+   Insight density saturates. Not on the Chrome Web Store.
+   Do not copy unpacked-extension / API-key how-to.
+
+   **Hunch:** VOI for *human* attention on a feed, not
+   agent context. Same family as rashedInt32/jev-lens
+   (never green unless sure) with a consumer card instead
+   of a Stop hook.
+
+7. **[`rsdkrasen/hermes-jev-router`](https://github.com/rsdkrasen/hermes-jev-router)**
+   (Python; GitHub SPDX **null**; no LICENSE; plugin.yaml
+   / pyproject no license field; created 2026-09-19T10:03:19Z;
+   0★; size 0 files live). Hermes plugin. Slogan: **Jev
+   WHETHER / Python HOW / LLM WHAT.** Compaction keeps
+   original chunks, never rewrites. Duplicate
+   observational tools (`read_file`, `git status`, same
+   grep) suppressed. `post_tool_round_control` can skip
+   the next main-model call (**needs a Hermes core
+   patch**). Fail-open everywhere. Offline pytest: **2 vs
+   1** main-model call pattern. Defaults aggressive
+   (`goal_satisfied ≥ 0.90`, `evidence_sufficient ≥ 0.85`,
+   `contains_failure ≤ 0.20`, `another_tool_needed ≤ 0.25`,
+   `requires_main_model ≤ 0.35`). Author line "Krasen
+   Hristov / TypeSafe" — **community plugin, not vendor**.
+   Cousin dizk/jev-lens (pre-send views) + jev-compactor
+   (never rewrite). Do not copy patch / plugin how-to.
+
+   **Hunch:** the expensive act is the *second* main-model
+   call that only narrates "tests passed." Jev decides
+   whether that call is worth it; Python decides how to
+   compact; the LLM still chooses what to write when
+   writing is required.
+
+8. **[`mleyvaz/jev-typed-evaluation-collapse`](https://github.com/mleyvaz/jev-typed-evaluation-collapse)**
+   (Python; license **null**; created 2026-09-19T08:48:48Z;
+   0★; size 3034). Field note to NCML, not a Q1 paper.
+   Same evidence, three question patterns *theirs*
+   (manuscript v0.3): Noul/boolean **collapses** conflict
+   **0.50–0.57** vs ignorance **0.46–0.48**; Choice with
+   named `conflicting_evidence` / `insufficient_evidence`
+   **separates p=1.0**; binary Choice without an escape
+   shows **directional bias** toward "red" **0.67–0.85**
+   (lexical). Score exploratory: severe conflict **2.04**
+   vs no-evidence **3.95** on a 5-level, intermediates
+   unreliable. Vercel gateway `typesafe-ai/jev`;
+   confidence empty on boolean. Cite the manuscript
+   *theirs*. Epistemic / calibration pillar.
+
+   **Hunch:** conflict ≠ ignorance is a *schema* fact, not
+   a model fact. A Noul has nowhere to put "both and
+   neither." Named Choice options are the escape hatch
+   (same family as missing-`other` → confident wrong).
+
+9. **[`DowLucas/browser-jev`](https://github.com/DowLucas/browser-jev)**
+   (TypeScript; GitHub SPDX **null**; package.json
+   private, no license field; created 2026-09-19T09:56:22Z;
+   0★; size 0 files live). Adversarial browser:
+   **Playwright executes, Jev chooses** explore/continue.
+   One Jev call per step: six oracle Nouls (broken, count
+   mismatch, untranslated, confusing, leaks internals,
+   dead end) + severity Score + next-action Choice.
+   Code-only checks first (free). **Sample from the
+   distribution, not argmax.** Fail only high confidence
+   **and** high severity. Visual blind (text/DOM state).
+   Demo lesson: a narrow question (untranslated **0.30**
+   inside "confusing" vs **0.99** on its own Q). CI exit
+   1 on non-baselined findings. Do not copy playwright /
+   `.env`.
+
+   **Hunch:** inverted loop on a browser — code builds
+   the candidate graph, Jev picks among observed next
+   acts, Playwright clicks. Sampling beats greedy when
+   the job is *exploration*, not extraction.
+
+10. **[`IamBusy/OpenJev`](https://github.com/IamBusy/OpenJev)**
+    + **[`dddanielliu/semif-serve`](https://github.com/dddanielliu/semif-serve)**
+    — local typed decisions / SemIf as a Jev-compatible
+    HTTP endpoint (omni cross-ref). Archer still Watch.
+
+    OpenJev: Python **Apache-2.0**; created
+    2026-09-19T09:30:08Z; 0★; size 627. Independent
+    research, **not** a TypeSafe replica, **not** RLCD
+    (supervised CE + held-out temperature). v0.3
+    Qwen3-0.6B + LoRA + scalar head; Hub
+    [`IamBusy/OpenJev-Branch-v0.3`](https://huggingface.co/IamBusy/OpenJev-Branch-v0.3).
+    *Theirs:* **45/60** vs v0.2 **39/60**; reversal
+    **100%** vs 68.75%; warm long-state **0.70 s** vs
+    1.38 s. `/v1/decide` is an **OpenJev contract, not
+    a TypeSafe drop-in**. Distinct from
+    [`hraness/sysone`](https://github.com/hraness/sysone)
+    "OpenJev runners" (loopback gateway). Do not copy
+    `uv` / Hub how-to.
+
+    semif-serve: Python; pyproject **MIT** / GitHub SPDX
+    **null**; created 2026-09-19T08:01:26Z; 0★. Serves
+    SemIf behind `POST /v1/systemone`. **No option
+    ceiling** (runoff over groups). RTX 3080 Ti
+    Qwen3.5-4B **1164 ms** vs hosted Jev median **178 ms**
+    *theirs*. Confidence inferred for choice; runoff is
+    a **product, not a single softmax**; `output_tokens`
+    always 0. MiniCPM5-2B unusable (token-merge prefix
+    bug). `--stub` needs no GPU. **Wire-compat ≠ replica**
+    (same warning as jeff / openvons / jev-local). Do not
+    copy CUDA / uv how-to.
+
+    **Hunch:** the class is finite-choice + probability
+    with a named serving surface. `/v1/systemone` is a
+    *wire*; `/v1/decide` is a *different* wire. Latency
+    1164 vs 178 is economics, not a quality claim.
+
+11. Toolbelt notes (not a cert, not rh-guard):
+    **[`win4r/jev-security-scan`](https://github.com/win4r/jev-security-scan)**
+    (Python **MIT**; 0★; stdlib-only). Local rules then
+    nine Nouls; high-risk needs dual p≥**0.85** + locate.
+    Four synthetic samples *theirs* (high_risk on
+    malicious skill/MCP). Cousin
+    [`luantak/is-malicious`](https://github.com/luantak/is-malicious).
+    Not a security certification. **[`bojansandhaus/jev-decisions`](https://github.com/bojansandhaus/jev-decisions)**
+    (Python **MIT**; **1★**). Hermes plugin; 25 prepared
+    reviews; local gateway without a model; auto hooks
+    **off**; **reviews are advice, never stop commands**.
+    **[`TeoMastro/jev-vs-llm-guardrails-intent-router`](https://github.com/TeoMastro/jev-vs-llm-guardrails-intent-router)**
+    (Python; license **null**). LangGraph demo:
+    guardrail + intent, Jev vs gpt-5.4-mini; 218 labelled
+    items. `bench/results/summary.md` exists in the git
+    tree but **contents 404 this pass** — do **not**
+    invent bench numbers. README only: fused one-call
+    option; block if jailbreak / injection / harmful
+    ≥**0.70**. **rh-guard owns the reward-hack angle.**
+    Do not copy skill-copy / plugin / Streamlit how-to.
+
+    **Hunch:** three more sensors in the toolbelt. None
+    of them is a policy. None of them is rh-guard.
+
+12. **[`ctaxnagomi/DGUI_HYPERMEM-JEV`](https://huggingface.co/datasets/ctaxnagomi/DGUI_HYPERMEM-JEV)**
+    — Hugging Face dataset (GitHub 404). MIT card; **6
+    rows** (analyze 4 / rerank 2 / supersede 0);
+    `workers-ai` provider; append-only flywheel logging
+    every JEV decision as a memory event for a memory
+    MCP. Sibling
+    [`INSTRUCT_JEV`](https://huggingface.co/datasets/ctaxnagomi/INSTRUCT_JEV)
+    (119-row instruct seed, §63). LastModified
+    2026-09-19T06:00:23Z; 21 downloads; 0 likes.
+
+    **Hunch:** the flywheel is *logging judgments as
+    events*, not training a second brain. Six rows is a
+    schema, not a corpus.
+
+### Skip / already folded
+
+- §66 combinators core five: Then/Gate/Vote/Cascade/
+  Weighted. This hour is rename + extended five +
+  digital-design slogan. Independence caveat stands.
+- §67 skill-broker / skillranker / jev-in-codex: sibling
+  contrast only (Pi strip-roster + Harbor roster-size
+  harness).
+- kevinpita/winnow (context sieve): always qualify
+  ThinkyMiner/Winnow as a different product.
+- rashedInt32/jev-lens vs dizk/jev-lens: already §63/§68.
+  ThinkyMiner/Winnow is a third attention product.
+- openvons / jeff / jev-local wire-compat: OpenJev is
+  `/v1/decide` (not drop-in); semif-serve is another
+  `/v1/systemone` wire. hraness/sysone OpenJev *runners*
+  are a gateway, not this model.
+- INSTRUCT_JEV: sibling dataset only.
+- rh-guard: owns reward-hack; do not re-fold.
+
+### Curated status
+
+Census **this hour** (user-provided; not re-derived):
+Awesomejev **flat 561/27007**; tracker likes **43→45**,
+`lastModified` unchanged; SemIf **1714 (+10)**; jevlike
+**926 (+3)**. Archer still **NOT landed**.
+
+### Omni / Jev-omni / Archer
+
+Still **WATCH**. A SemIf `/v1/systemone` runoff, a 0.6B
+OpenJev `/v1/decide` head, and a Chrome attention filter
+are **not** that drop.
+
+### Cross-links
+
+Cards: `composition-algebra.md` (rename + extended five;
+digital-design metaphor ≠ literal AND/OR);
+`applied-mappings.md` §1 (ThinkyMiner Winnow ≠ kevinpita),
+§2/§9 (browser-jev sample-from-distribution), §4
+(Winnow feed VOI), §5 (skill-bench / suggestion;
+tools≠use cousin), §7 (security-scan / jev-decisions
+toolbelt; rh-guard owns reward-hack); `mappings.md` §3
+(combinators delta), §6 (jevcache VOI cache; Winnow
+human VOI; hermes WHETHER/HOW/WHAT), §7 (collapse
+conflict≠ignorance); `mixed-architecture.md` (fail table
++ gallery: cache admit, typed baton, inverted browser
+loop); `judgment-class.md` (OpenJev `/v1/decide`;
+semif-serve runoff wire); `mental-models.md`
+(digital-design; conflict≠ignorance; VOI admission);
+`validation.md` (jevcache 0 FP/100; zeroshot *theirs*;
+Winnow 80/90; OpenJev 45/60; semif-serve 1164 vs 178 ms;
+skill-bench harness no live numbers; TeoMastro 404);
+`faq.md`; `question-design.md` (named Choice escape);
+`agent-self-assessment.md`; `toolbox-mapping.md`;
+`methods-catalog.md`. Hunches labeled. No wrapper.

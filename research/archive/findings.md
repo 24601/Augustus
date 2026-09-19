@@ -1681,3 +1681,68 @@ blocker; (fh) compress-before-first-send; (fi) tools≠use
 open-Jev class / wire-compat ≠ replica; (fl) physical-
 world S1 / not for locks; (fm) judgment outside the store;
 (fn) landed-script / headless≠auto-approve.
+
+## Batch #53 (2026-09-19 ~10:55 UTC / ~04:39 Boise) — digital-design combinators, VOI cache, skill-routing Harbor, zeroshot displacement, typed handoff
+
+Note: `research/notes.md` §69. Docs-only. Folded into PR #2.
+Archer still Watch. No invented metrics. Do not re-fold §68
+HIGH except sibling contrast / combinators rename. Hunches
+labeled.
+
+- **voidning/jev-combinators (delta: rename + extended five).**
+  Same repo as decision-combinators (§66). Package MIT /
+  GitHub SPDX null. Router / Loop / Retry / Fallback /
+  Memory. Digital-design metaphor ≠ literal AND/OR. No
+  measurements.
+- **kushals256/jevcache (Empirical as n=100 live eval).**
+  TypeScript MIT. Created 2026-09-19T09:40:18Z; 0★. Jev
+  0 FP / precision 1 / recall 0.38 / fpr 0 vs Jaccard@0.35
+  fpr 0.48; $0.00174 *theirs*. Fail-open.
+- **iamdin/pi-jev-skill-bench + pi-jev-skill-suggestion
+  (Empirical as README harness; no live Jev numbers).**
+  TypeScript MIT. 43 gold; roster 50–500. No-key no-op.
+- **zhuyansen/jev-zeroshot-vs-bert (Empirical as 7-set
+  table).** Python MIT. +0.05–+0.13 vs DeBERTa-c;
+  contamination 0.901 vs `-c` 0.763; ≈230 / >2048 labels;
+  DiD 0.035 vs 0.112 *theirs*.
+- **shitianfang/jev-handoff (Empirical as README + 40 tests).**
+  TypeScript MIT. Alpha v0.1. Gate never grants. Fail-open.
+  Vercel drops confidence.
+- **ThinkyMiner/Winnow (Empirical as unreviewed goldens).**
+  TypeScript MIT. 80%/90% *theirs*. Distinct from
+  kevinpita/winnow.
+- **rsdkrasen/hermes-jev-router (Empirical as README +
+  offline pytest).** Python; license null. WHETHER/HOW/WHAT.
+  Community plugin, not vendor.
+- **mleyvaz/jev-typed-evaluation-collapse (Empirical as
+  NCML field note v0.3).** License null. Noul collapse vs
+  named Choice p=1.0 vs binary red 0.67–0.85 *theirs*.
+- **DowLucas/browser-jev (Empirical as README).** TypeScript;
+  license null. Sample-from-distribution. Playwright
+  executes, Jev chooses.
+- **IamBusy/OpenJev (Empirical as RESULTS.md).** Apache-2.0.
+  45/60 vs v0.2 39/60. `/v1/decide` ≠ TypeSafe drop-in.
+  Distinct from hraness/sysone runners.
+- **dddanielliu/semif-serve (Empirical as latency table).**
+  pyproject MIT / GitHub SPDX null. 1164 vs 178 ms *theirs*.
+  Wire-compat ≠ replica.
+- Toolbelt notes: win4r/jev-security-scan (MIT; not a cert);
+  bojansandhaus/jev-decisions (MIT; 1★; advice never stops
+  commands); TeoMastro (license null; summary.md 404).
+  rh-guard owns reward-hack.
+- **ctaxnagomi/DGUI_HYPERMEM-JEV (feedstock schema).** HF MIT;
+  6 rows. Sibling INSTRUCT_JEV.
+
+Census this hour (user-provided): Awesomejev flat 561/27007;
+tracker likes 43→45; SemIf 1714 (+10); jevlike 926 (+3).
+Archer still NOT landed.
+
+Cross-repo addition: (fo) digital-design combinators /
+extended five; (fp) VOI cache admission / 0 FP; (fq)
+Harbor skill-routing roster-size; (fr) zeroshot vs BERT
+displacement / contamination DiD; (fs) typed baton never
+grants / inverted loop; (ft) worth-your-attention VOI /
+qualify Winnow owner; (fu) WHETHER/HOW/WHAT; (fv) conflict
+≠ ignorance / named Choice escape; (fw) Playwright
+executes Jev chooses; (fx) OpenJev `/v1/decide` ≠ drop-in;
+(fy) SemIf runoff wire; (fz) decision-as-memory flywheel.

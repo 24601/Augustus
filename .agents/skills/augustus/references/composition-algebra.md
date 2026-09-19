@@ -40,11 +40,16 @@ mappings.md conventions.
   never the model.
 - **→ (implication) / chains**: decompose into gate → act → post-judge;
   never encode multi-hop logic in one question (indirection costs accuracy).
-- **Named combinators** ([decision-combinators](https://github.com/voidning/decision-combinators)):
-  Then / Gate / Vote / Cascade / Weighted are **control-plane**
-  wiring, not a license to treat parallel Nouls as independent.
-  The library analogizes them as logic gates; ∧/∨ aggregation
-  still follows the rule above. `notes.md` §66.
+- **Named combinators** ([jev-combinators](https://github.com/voidning/jev-combinators);
+  renamed from decision-combinators, same repo):
+  Then / Gate / Vote / Cascade / Weighted plus **extended**
+  Router / Loop / Retry / Fallback / Memory are
+  **control-plane** wiring, not a license to treat parallel
+  Nouls as independent. Digital-design slogan (transistors /
+  logic gates / chip) is a *metaphor* for soft classifiers;
+  ∧/∨ aggregation still follows the rule above. Fallback is
+  the fail-closed node; Memory gates what to remember. No
+  measurements. `notes.md` §66, §69.
 - **TLA+ kernel around votes** ([jev-labs](https://github.com/copyleftdev/jev-labs)):
   aggregation (quorum, stability, escalate) is the spec,
   not a multiplied joint of five Nouls. `notes.md` §67.

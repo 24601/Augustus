@@ -568,6 +568,29 @@ byte-identical *theirs*), not a Noul. Flutter on-device:
 audio/image stay on the phone. Unrelated to TypeSafe; no
 TypeSafe API output used. Archer still Watch
 (`notes.md` §68). Do not copy `uv` / APK.
+**Independent local OpenJev `/v1/decide` (Empirical as
+their RESULTS.md; not a TypeSafe drop-in; 2026-09-19
+~04:39):**
+[OpenJev](https://github.com/IamBusy/OpenJev) (Apache-2.0)
+is a 0.6B Qwen3 + LoRA + scalar head. Supervised CE +
+held-out temperature — **not** RLCD, **not** a TypeSafe
+replica. Hub `IamBusy/OpenJev-Branch-v0.3`. *Theirs:*
+**45/60** vs v0.2 39/60; reversal 100% vs 68.75%.
+`POST /v1/decide` is an OpenJev contract. Distinct from
+[hraness/sysone](https://github.com/hraness/sysone)
+"OpenJev runners" (loopback gateway). Do not copy `uv`
+(`notes.md` §69).
+**SemIf as `/v1/systemone` runoff (Empirical as their
+latency table; wire-compat ≠ replica; 2026-09-19 ~04:39):**
+[semif-serve](https://github.com/dddanielliu/semif-serve)
+(pyproject MIT / GitHub SPDX null) serves SemIf behind
+the Jev wire. No option ceiling (runoff). RTX 3080 Ti
+Qwen3.5-4B **1164 ms** vs hosted Jev median **178 ms**
+*theirs*. Confidence inferred for choice; runoff is a
+product, not a single softmax; `output_tokens` always 0.
+MiniCPM5-2B unusable. `--stub` needs no GPU. Same warning
+as jeff / openvons / jev-local. Do not copy CUDA how-to
+(`notes.md` §69).
 **ONNX replica of Laya:**
 [`Mattepiu/laya-onnx`](https://huggingface.co/Mattepiu/laya-onnx)
 (~15 ms CPU for one Noul, their card). Do not copy the inherited

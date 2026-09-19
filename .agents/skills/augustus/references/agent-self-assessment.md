@@ -179,8 +179,8 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    (`references/applied-mappings.md#1-context-sieve`). Judge every large
    tool result with one relevance Noul before it enters context. Hide
    confident-no blocks behind a stub + recall key; always keep current
-   instruction, recent turns, errors, and opaque blocks. winnow hides at
-  relevance ≤0.22; fast-jev-compaction asks two nouls per tool call
+   instruction, recent turns, errors, and opaque blocks. [kevinpita/winnow](https://github.com/kevinpita/winnow) hides at
+  relevance ≤0.22 (agent context sieve; distinct from [ThinkyMiner/Winnow](https://github.com/ThinkyMiner/Winnow) worth-your-attention VOI, `notes.md` §69); fast-jev-compaction asks two nouls per tool call
   (should the call stay knowing it was made? should the result stay
   verbatim?). Encoder-backend cousin:
   [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
@@ -220,6 +220,24 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   fail-open port already §62: fast-jev-opencode (`notes.md` §65).
   Later product-arm bench **73%** / 350 ms / 4 of 4
   (`notes.md` §68).
+  WHETHER/HOW/WHAT cousin (license null; 2026-09-19
+  ~04:39):
+  [hermes-jev-router](https://github.com/rsdkrasen/hermes-jev-router)
+  — compact original chunks; skip next main-model when
+  evidence is enough (needs core patch); fail-open
+  (`notes.md` §69).
+  Typed baton cousin:
+  [jev-handoff](https://github.com/shitianfang/jev-handoff)
+  — escalate/continue/abort; gate never grants; inverted
+  loop (`notes.md` §69).
+  Advice-only cousin:
+  [jev-decisions](https://github.com/bojansandhaus/jev-decisions)
+  — 25 prepared reviews; **never stop commands**
+  (`notes.md` §69).
+  Adversarial-browser cousin:
+  [browser-jev](https://github.com/DowLucas/browser-jev)
+  — Playwright executes, Jev chooses; sample from the
+  distribution (`notes.md` §69).
 
 ## Non-negotiable boundaries
 

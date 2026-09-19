@@ -484,6 +484,14 @@ of Distillation. No LICENSE this pass. Default refund workflow is
 not a validated policy. A green smoke test on
 the stub is not a bake-off. `judgment-class.md`; `notes.md` §48, §49, §55.
 
+**Independent `/v1/decide` (not this wire; 2026-09-19 ~04:39):**
+[OpenJev](https://github.com/IamBusy/OpenJev) speaks a
+**different** contract. 45/60 *theirs*. Not TypeSafe. Distinct
+from hraness/sysone OpenJev runners.
+[semif-serve](https://github.com/dddanielliu/semif-serve)
+is another `/v1/systemone` surface (SemIf runoff; 1164 vs
+178 ms *theirs*; wire-compat ≠ replica). `notes.md` §69.
+
 **Wire-compat encoder cousin (2026-09-18 ~20:43):**
 [jeff](https://github.com/logan-markewich/jeff) serves
 `/v1/systemone` on GLiFormer-400M; `typesafe-sdk` drop-in via
@@ -816,6 +824,65 @@ jev-local). JevPick is menu decode (3.2–4.8×
 byte-identical *theirs*), not a Noul. Unrelated to
 TypeSafe; no TypeSafe API output used. `notes.md` §68.
 
+## Is OpenJev (IamBusy) TypeSafe Jev, or hraness/sysone?
+
+No to both. [OpenJev](https://github.com/IamBusy/OpenJev) is
+an independent 0.6B LoRA+scalar head. `/v1/decide` is **not**
+a TypeSafe drop-in. Training is supervised CE, not RLCD.
+[hraness/sysone](https://github.com/hraness/sysone) "OpenJev
+runners" are a **loopback gateway**, not this model.
+[semif-serve](https://github.com/dddanielliu/semif-serve)
+is another `/v1/systemone` **wire** (SemIf runoff; 1164 vs
+178 ms *theirs*); wire-compat ≠ replica. `notes.md` §69.
+
+## Are the two Winnow repos the same product?
+
+No. Always qualify the owner.
+[kevinpita/winnow](https://github.com/kevinpita/winnow) is
+the launch-week **context sieve** (hide agent artifacts).
+[ThinkyMiner/Winnow](https://github.com/ThinkyMiner/Winnow)
+is a Chrome **worth-your-attention** VOI filter (read /
+skim / save / skip from typed answers; 80%/90% *theirs*).
+`notes.md` §69.
+
+## Can I skip the LLM when the intent is the same?
+
+Yes, as a **fail-open** VOI admit — never as a silent
+rewrite. [jevcache](https://github.com/kushals256/jevcache)
+asks Jev `same_intent` after exact SHA-256; 0 FP / recall
+0.38 on n=100 *theirs*. Stream/tools/multimodal bypass.
+A cosine cache with Jaccard@0.35 had fpr 0.48 on the same
+fixture. `notes.md` §69.
+
+## Does a Noul distinguish conflict from ignorance?
+
+Not by itself. [jev-typed-evaluation-collapse](https://github.com/mleyvaz/jev-typed-evaluation-collapse)
+(NCML field note v0.3 *theirs*): the same evidence yields
+Noul 0.50–0.57 (conflict) vs 0.46–0.48 (ignorance);
+Choice with named `conflicting_evidence` /
+`insufficient_evidence` separates at p=1.0; binary Choice
+without an escape is lexically biased (red 0.67–0.85).
+Schema-as-interface. Same family as missing-`other` →
+confident wrong. `notes.md` §69.
+
+## Does a typed baton grant the tool call?
+
+No. [jev-handoff](https://github.com/shitianfang/jev-handoff):
+gate `allow` **never grants** — only deny/ask. Control
+returns as escalate / continue / abort. Fail-open. Inverted
+loop wakes the LLM only on escalate. Vercel drops
+confidence. `notes.md` §69.
+
+## Jev WHETHER, Python HOW, LLM WHAT?
+
+Yes as a split, not as a stack replacement.
+[hermes-jev-router](https://github.com/rsdkrasen/hermes-jev-router)
+(license null; community plugin): Jev decides whether the
+next main-model call is worth it; Python keeps original
+chunks and suppresses duplicate observational tools; the
+LLM still writes when writing is required. Skip-next needs
+a Hermes core patch. Fail-open. `notes.md` §69.
+
 ## Can I put a Noul on a lock or a heater?
 
 No. [HA-Jev](https://github.com/AboveColin/HA-Jev)
@@ -895,13 +962,18 @@ does-jev-confidence (ranking ≠ calibration). Zero-dep.
 ## Are combinators a new judgment model?
 
 No. They are **control-plane primitives** over typed
-judgments: Then / Gate / Vote / Cascade / Weighted.
+judgments. [jev-combinators](https://github.com/voidning/jev-combinators)
+is the **rename** of
 [decision-combinators](https://github.com/voidning/decision-combinators)
-analogizes them as logic gates; AND/OR aggregation of
+(same repo): Then / Gate / Vote / Cascade / Weighted plus
+extended Router / Loop / Retry / Fallback / Memory.
+Digital-design slogan (transistors / logic gates / chip)
+is a metaphor for *soft* classifiers; AND/OR aggregation of
 parallel Nouls still lives in code (do not multiply).
 Compose with [skillranker](https://github.com/Dicklesworthstone/skillranker)
 (VOI over a skill library; abstention; hook fail-open).
-Not chat turns. `composition-algebra.md`; `notes.md` §66.
+Not chat turns. `composition-algebra.md`; `notes.md` §66,
+§69.
 
 ## Does TLA+ replace Jev, or the reverse?
 

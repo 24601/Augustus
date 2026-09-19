@@ -359,6 +359,14 @@ Rules:
 | tools≠use / SessionStart | [jev-carryforward](https://github.com/Dharundp6/jev-carryforward) | Plugin eval: `recall` **0/4** with tools+skill. SessionStart hook is the actual intervention. 9×3 remains a hint. MIT |
 | Independent open-Jev class | [openvons](https://github.com/genai-craft/openvons) | LM 4B+head 0.916 vs 27B zshot 0.875; 8q / 22.6 ms. Vision 1/34 VRAM 36×. Voice 50 ms; 100% chatter reject. JevPick 3.2–4.8× byte-identical. Flutter 2.0–2.2 s / 11 ms for 9 q. Apache-2.0 LICENSE / GitHub SPDX NOASSERTION. Not TypeSafe |
 | Physical-world S1 | [HA-Jev](https://github.com/AboveColin/HA-Jev) | `background:` triples laundry separation *theirs*. Batching 3q 712 ms vs 100q 714 ms. 30 commands $0.0017. Confidence uncalibrated. 192 mocked tests. MIT; **17★**. Not for locks/heaters |
+| Same-intent VOI cache | [jevcache](https://github.com/kushals256/jevcache) | n=100 live Jev **fp=0 / precision=1 / recall=0.38 / fpr=0** vs Jaccard@0.35 fp=24 / fpr=0.48; $0.00174 *theirs*. Fail-open. MIT |
+| Zeroshot vs BERT-family | [jev-zeroshot-vs-bert](https://github.com/zhuyansen/jev-zeroshot-vs-bert) | Beats DeBERTa-c on 7 sets (+0.05–+0.13; PAWS AUC +0.03; arXiv 2026 +0.30). Contaminated 0.901 vs `-c` 0.763. ≈230 / >2048 labels. Banking77 512+ feature **hurts**. DiD 0.035 vs 0.112. MIT |
+| Worth-your-attention VOI | [ThinkyMiner/Winnow](https://github.com/ThinkyMiner/Winnow) | Unreviewed goldens **80%** verdict / **90%** content-type *theirs*. Distinct from kevinpita/winnow. MIT |
+| Local OpenJev `/v1/decide` | [IamBusy/OpenJev](https://github.com/IamBusy/OpenJev) | v0.3 **45/60** vs v0.2 39/60; reversal 100%. Not TypeSafe drop-in. Apache-2.0. Distinct from hraness/sysone runners |
+| SemIf `/v1/systemone` runoff | [semif-serve](https://github.com/dddanielliu/semif-serve) | RTX 3080 Ti Qwen3.5-4B **1164 ms** vs hosted **178 ms** *theirs*. Wire-compat ≠ replica. pyproject MIT / GitHub SPDX null |
+| Conflict ≠ ignorance | [jev-typed-evaluation-collapse](https://github.com/mleyvaz/jev-typed-evaluation-collapse) | Noul 0.50–0.57 vs 0.46–0.48; named Choice p=1.0; binary red 0.67–0.85 *theirs* (v0.3). License null. NCML field note |
+| BM25 vs Jev skill routing | [pi-jev-skill-bench](https://github.com/iamdin/pi-jev-skill-bench) | 43 gold; roster 50–500. Harness, not a production claim. **No live Jev numbers this pass.** MIT |
+| Decision-as-memory flywheel | [DGUI_HYPERMEM-JEV](https://huggingface.co/datasets/ctaxnagomi/DGUI_HYPERMEM-JEV) | 6 rows (analyze 4 / rerank 2 / supersede 0). Sibling INSTRUCT_JEV. MIT card |
 | Stop-hook attention redirect | [jev-preflight](https://github.com/muse0509/jev-preflight) | Owner-run Claude Code 2.1.267: no-key fail-open PASS; key-enabled exactly one continuation. Live API smoke: jev-1.13.0, 898/151 tokens, eight Nouls. 0.85 uncalibrated. Go MIT |
 | Receipts-not-leaderboard capability map | [jev-capability-atlas](https://github.com/Zaious/jev-capability-atlas) | Hold vs break with API receipts; not a ranking. Type-safe ≠ correct (DAIR Emotion 48% / mean conf 0.819). Axis already §49; 10★ this pass. README MIT / GitHub NOASSERTION |
 | Jev vs thinking-budget Qwen3.5 | [jev-frontier-100](https://github.com/softpudding/jev-frontier-100) | 100×3; Jev **77.0%**; 4B off 56.0% / 512 78.3% / 2048 **96.7%** (+12.7 to +26.7). 2B/2048 82.0% (−2.3 to +12.3). Exploratory, not preregistered. MIT. Not a ceiling |
@@ -647,6 +655,39 @@ exploratory, attach the thinking budget.
 900 tickets ECE 0.107 = 4.4× floor; priority unknowable
 (44.7% / mean p 0.74 / T 3.40); sign flips by type.
 Do not copy npm / Ollama (`notes.md` §66).
+
+**VOI cache / zeroshot displacement / skill-routing harness /
+typed-evaluation collapse / local class (Empirical as their
+tables; 2026-09-19 ~04:39).**
+[jevcache](https://github.com/kushals256/jevcache): n=100
+live Jev **fp=0 / precision=1 / recall=0.38 / fpr=0** vs
+cosine-Jaccard@0.35 fpr 0.48; $0.00174 *theirs*. Fail-open.
+[jev-zeroshot-vs-bert](https://github.com/zhuyansen/jev-zeroshot-vs-bert):
+Jev beats clean DeBERTa-c on all 7 sets (+0.05 to +0.13
+acc; PAWS AUC +0.03; arXiv 2026 +0.30). Contaminated NLI
+AG News 0.901 vs `-c` 0.763. Label-equivalence ~230 /
+>2048. lr-bge+jev hurts Banking77 at 512+ (−0.044). DiD
+Jev drop 0.035 vs DeBERTa-c 0.112. Cost not logged.
+[ThinkyMiner/Winnow](https://github.com/ThinkyMiner/Winnow):
+unreviewed goldens **80%** verdict / **90%** content-type
+*theirs*. Distinct from kevinpita/winnow.
+[IamBusy/OpenJev](https://github.com/IamBusy/OpenJev):
+**45/60** vs v0.2 39/60; reversal 100%. `/v1/decide` ≠
+TypeSafe.
+[semif-serve](https://github.com/dddanielliu/semif-serve):
+1164 vs 178 ms *theirs*. Wire-compat ≠ replica.
+[pi-jev-skill-bench](https://github.com/iamdin/pi-jev-skill-bench):
+43 gold; roster 50–500; **no live Jev numbers this pass**.
+[jev-typed-evaluation-collapse](https://github.com/mleyvaz/jev-typed-evaluation-collapse):
+Noul collapses conflict 0.50–0.57 vs ignorance 0.46–0.48;
+named Choice separates p=1.0; binary Choice red 0.67–0.85
+*theirs* (manuscript v0.3).
+[DGUI_HYPERMEM-JEV](https://huggingface.co/datasets/ctaxnagomi/DGUI_HYPERMEM-JEV):
+6-row flywheel (analyze 4 / rerank 2 / supersede 0);
+sibling INSTRUCT_JEV.
+TeoMastro `bench/results/summary.md` **404 this pass** —
+do not invent numbers. `notes.md` §69. Do not copy npx /
+uv / plugin how-to.
 
 **Harbor-adjacent stdout prune (Empirical as README / evals README
 behavior, not a full Terminal-Bench ranking; 2026-09-18 ~17:15).**

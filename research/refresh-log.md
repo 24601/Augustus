@@ -956,3 +956,32 @@
   agent-self-assessment, ecosystem, CHANGELOG, README.
 - notes.md §68; sources.json (382 sources, 379 unique URLs,
   retrieved 2026-09-19T09:55Z); findings.md batch #52. No wrapper.
+
+## 2026-09-19 ~10:55 UTC — hourly ~04:39 Boise fold (§69)
+- Docs-only into PR #2. Archer still Watch. Live GitHub
+  READMEs + `gh api` + Hugging Face. Hunches labeled. Do
+  not re-fold §68 HIGH except sibling contrast /
+  combinators rename.
+- HIGH: jev-combinators (rename + Router/Loop/Retry/
+  Fallback/Memory; digital-design metaphor ≠ literal
+  AND/OR); jevcache (0 FP/100; fail-open); pi-jev-skill-bench
+  + suggestion (roster 50–500; 43 gold; no live numbers);
+  jev-zeroshot-vs-bert (+0.05–+0.13 / DiD *theirs*);
+  jev-handoff (typed baton; gate never grants); ThinkyMiner/
+  Winnow (80%/90%; ≠ kevinpita/winnow); hermes-jev-router
+  (WHETHER/HOW/WHAT; license null); jev-typed-evaluation-
+  collapse (conflict ≠ ignorance); browser-jev (sample-from-
+  distribution); IamBusy/OpenJev 45/60 `/v1/decide` ≠ drop-in;
+  semif-serve 1164 vs 178 ms; toolbelt notes (rh-guard owns
+  reward-hack); DGUI_HYPERMEM-JEV 6-row flywheel.
+- Census this hour: Awesomejev flat 561/27007; tracker likes
+  43→45; SemIf 1714 (+10); jevlike 926 (+3). Archer still
+  NOT landed.
+- Cards: SKILL.md, applied-mappings §1/§2/§4/§5/§7/§9,
+  mappings §3/§6/§7, mixed-architecture, validation, faq,
+  judgment-class, mental-models, methods-catalog, toolbox,
+  composition-algebra, agent-self-assessment, question-design,
+  ecosystem, CHANGELOG, README.
+- notes.md §69; sources.json (399 sources, 396 unique URLs,
+  retrieved 2026-09-19T10:55Z); findings.md batch #53. No
+  wrapper.

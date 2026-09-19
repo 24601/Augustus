@@ -28,7 +28,7 @@ request, and treat a stale pin as a prior, never a setting.
 - `confidence` measures how **peaked** the distribution is — a property of the model's answer, not a correctness guarantee.
 - `score` is the probability-weighted mean of level numbers; 1.0 can mean certainty at level 1 or a split. Levels are weakly calibrated as numbers: threshold, rank, or round — **do not interpolate quantities** from a Score.
 - Jev does not count or do arithmetic or date math. Ask per-item Nouls in one request and sum in code; extract date parts with Choices (with a "not stated" option) and compare in code.
-- Every answer stays inside the supplied options — code never parses prose.
+- Every answer stays inside the supplied options — code never parses prose. **Conflict ≠ ignorance:** a Noul has nowhere to put "both and neither." Name those states as Choice options or the model will collapse them (typed-evaluation-collapse; `notes.md` §69). Same family as missing `other` → confident wrong.
 - Questions on one request never see each other's answers.
 - Text in the state can steer the answer; Jev does not treat state as hostile. State in criteria what counts; test injected and self-describing content before deployment.
 

@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T09:55Z",
+  "retrieved": "2026-09-19T10:55Z",
   "sources": [
     {
       "kind": "docs",
@@ -2293,6 +2293,108 @@
       "title": "AboveColin/HA-Jev",
       "url": "https://github.com/AboveColin/HA-Jev",
       "note": "Python MIT. Created 2026-09-17T11:01:48Z; 17 stars. Physical-world S1. Sensors from typed answers. Not for locks/heaters. notes.md \u00a768."
+    },
+    {
+      "kind": "github",
+      "title": "voidning/jev-combinators",
+      "url": "https://github.com/voidning/jev-combinators",
+      "note": "Rename of decision-combinators (same created_at). Core five + Router/Loop/Retry/Fallback/Memory. Digital-design metaphor not literal AND/OR. package MIT / GitHub SPDX null. notes.md \u00a769."
+    },
+    {
+      "kind": "github",
+      "title": "kushals256/jevcache",
+      "url": "https://github.com/kushals256/jevcache",
+      "note": "TypeScript MIT. Created 2026-09-19T09:40:18Z. Same-intent VOI cache. n=100 live Jev 0 FP / precision 1 / recall 0.38. Fail-open. notes.md \u00a769."
+    },
+    {
+      "kind": "github",
+      "title": "iamdin/pi-jev-skill-bench",
+      "url": "https://github.com/iamdin/pi-jev-skill-bench",
+      "note": "TypeScript MIT. BM25 vs Jev skill routing at roster 50-500. 43 gold. No live Jev numbers this pass. notes.md \u00a769."
+    },
+    {
+      "kind": "github",
+      "title": "iamdin/pi-jev-skill-suggestion",
+      "url": "https://github.com/iamdin/pi-jev-skill-suggestion",
+      "note": "TypeScript MIT. Strip available_skills; two-stage 0.30/0.40; no-key no-op. tools\nequse cousin. notes.md \u00a769."
+    },
+    {
+      "kind": "github",
+      "title": "zhuyansen/jev-zeroshot-vs-bert",
+      "url": "https://github.com/zhuyansen/jev-zeroshot-vs-bert",
+      "note": "Python MIT. Jev vs BERT-family zero-shot. +0.05 to +0.13 vs DeBERTa-c; contamination DiD. notes.md \u00a769."
+    },
+    {
+      "kind": "github",
+      "title": "shitianfang/jev-handoff",
+      "url": "https://github.com/shitianfang/jev-handoff",
+      "note": "TypeScript MIT. Alpha v0.1. Typed escalate/continue/abort baton. Gate never grants. Fail-open. notes.md \u00a769."
+    },
+    {
+      "kind": "github",
+      "title": "ThinkyMiner/Winnow",
+      "url": "https://github.com/ThinkyMiner/Winnow",
+      "note": "TypeScript MIT. Worth-your-attention VOI Chrome ext. Distinct from kevinpita/winnow. 80%/90% theirs. notes.md \u00a769."
+    },
+    {
+      "kind": "github",
+      "title": "rsdkrasen/hermes-jev-router",
+      "url": "https://github.com/rsdkrasen/hermes-jev-router",
+      "note": "Python; license null. Jev WHETHER / Python HOW / LLM WHAT. Community plugin not vendor. notes.md \u00a769."
+    },
+    {
+      "kind": "github",
+      "title": "mleyvaz/jev-typed-evaluation-collapse",
+      "url": "https://github.com/mleyvaz/jev-typed-evaluation-collapse",
+      "note": "Python; license null. NCML field note v0.3. Conflict vs ignorance collapse on Noul. notes.md \u00a769."
+    },
+    {
+      "kind": "github",
+      "title": "DowLucas/browser-jev",
+      "url": "https://github.com/DowLucas/browser-jev",
+      "note": "TypeScript; license null. Playwright executes, Jev chooses. Sample-from-distribution. notes.md \u00a769."
+    },
+    {
+      "kind": "github",
+      "title": "IamBusy/OpenJev",
+      "url": "https://github.com/IamBusy/OpenJev",
+      "note": "Python Apache-2.0. Local 0.6B LoRA+scalar. /v1/decide not TypeSafe drop-in. 45/60 theirs. Distinct from hraness/sysone OpenJev runners. notes.md \u00a769."
+    },
+    {
+      "kind": "huggingface",
+      "title": "IamBusy/OpenJev-Branch-v0.3",
+      "url": "https://huggingface.co/IamBusy/OpenJev-Branch-v0.3",
+      "note": "Hub weights for OpenJev v0.3. notes.md \u00a769."
+    },
+    {
+      "kind": "github",
+      "title": "dddanielliu/semif-serve",
+      "url": "https://github.com/dddanielliu/semif-serve",
+      "note": "Python; pyproject MIT / GitHub SPDX null. SemIf behind POST /v1/systemone. 1164 vs 178 ms theirs. Wire-compat not replica. notes.md \u00a769."
+    },
+    {
+      "kind": "github",
+      "title": "win4r/jev-security-scan",
+      "url": "https://github.com/win4r/jev-security-scan",
+      "note": "Python MIT. Local rules then 9 Nouls. Not a cert. Toolbelt note; rh-guard owns reward-hack. notes.md \u00a769."
+    },
+    {
+      "kind": "github",
+      "title": "bojansandhaus/jev-decisions",
+      "url": "https://github.com/bojansandhaus/jev-decisions",
+      "note": "Python MIT; 1 star. Hermes plugin. Reviews are advice, never stop commands. notes.md \u00a769."
+    },
+    {
+      "kind": "github",
+      "title": "TeoMastro/jev-vs-llm-guardrails-intent-router",
+      "url": "https://github.com/TeoMastro/jev-vs-llm-guardrails-intent-router",
+      "note": "Python; license null. LangGraph demo. summary.md 404 this pass. notes.md \u00a769."
+    },
+    {
+      "kind": "huggingface",
+      "title": "ctaxnagomi/DGUI_HYPERMEM-JEV",
+      "url": "https://huggingface.co/datasets/ctaxnagomi/DGUI_HYPERMEM-JEV",
+      "note": "HF MIT. 6-row flywheel (analyze 4 / rerank 2 / supersede 0). Sibling INSTRUCT_JEV. notes.md \u00a769."
     }
   ]
 }
