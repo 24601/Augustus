@@ -2105,3 +2105,31 @@ from v1.1); (if) weight sensitivity; (ig)
 option-order 72→21; (ih) instruction models
 class-boundary; (ii) Harbor honesty ×2/est.; (ij)
 Laya absent gap / Qwen3.8 27B ≠ Archer.
+
+## Batch #63 (2026-09-19 ~15:37 UTC / ~09:37 Boise) — hourly 0842 already-folded watch (apply, don’t dump)
+
+Note: `research/notes.md` §79. Docs-only. Folded into PR #2.
+Skip Archer. No invented metrics. Hunches labeled.
+**Do not re-card** §73–§78. Leftover thin is skip.
+**≠** a hit list.
+
+- **Apply-the-five (recipe).** Wire-compat ≠ logit-equiv
+  (githubnext/localjev §75); productize label+p + mark
+  FALLBACK (classifier-dev §73; granite 0.546 vs 0.800
+  *theirs*); packaging ≠ new species / script-before-p
+  (NandhaKishorM/laya §76); pointer-not-generator
+  two-pass (choxos/jev-reviewer §74 ≠ egma-ai); external
+  census ≠ scored bake-off / geo-mean I/C/S/K (§77+§78).
+- **Skip thin.** uehaj/jev-semgrep already §61; JEValuate
+  0★ ≠ ElshinQ/jevaluate; jevspeak 1★ (jev-gpt cousin);
+  fable-jev 1★; jev-model-router already §77.
+- **Soundness-theater skip.** totally-tim/jev-gate 0★
+  MIT; connectedGraph/claude-jev-warden 1★ MIT. Soft
+  Noul ≠ merge seal. **≠** jev-gateway / MongLong0214/jev-gate
+  / jev-gate-student-b.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (ik) already-folded hourly as a
+recipe not a dump; (il) hard-gate Noul as PR/quality
+is soundness theater.

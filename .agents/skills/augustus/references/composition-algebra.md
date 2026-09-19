@@ -242,3 +242,15 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     rebuilds; ×2 latency and est. costs are assumptions
     to name. Full cards: `mixed-architecture.md`,
     `validation.md`, `faq.md`, `mental-models.md`.
+19. **Already-folded class as a recipe** (hourly 0842):
+    when the named HIGHs are already on the branch,
+    extract how-to-apply instead of re-carding —
+    wire-compat ≠ logit-equiv; productize label+p and
+    mark `FALLBACK`; packaging ≠ new species / script-
+    before-p; pointer-not-generator (two-pass; *Not
+    found*; human tick); external census ≠ scored
+    bake-off / geo-mean weights are a design. Skip
+    thin noise. Hard-gating a Noul as a PR/quality
+    gate is soundness theater. Full cards:
+    `mixed-architecture.md`, `faq.md`,
+    `mental-models.md`, `validation.md`.

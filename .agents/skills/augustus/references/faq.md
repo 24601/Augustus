@@ -1838,3 +1838,31 @@ GLiNER2 is mapping-excluded *theirs* (normalization
 would drive calibration). Apps (Director/Loki) out.
 OpenJev on the board = razorback16 DiffusionGemma **≠**
 IamBusy `/v1/decide`. `notes.md` §78.
+
+## This hour's HIGHs already folded — dump the repos again?
+
+No. Hourly 0842's named HIGHs are already §73–§78
+(classifier-dev, choxos/jev-reviewer, githubnext/localjev,
+NandhaKishorM/laya, @airesearch12 census, JevBench v1.2).
+The product is a **recipe**, not a hit list:
+
+1. Ask how *p* was produced (wire-compat ≠ logit-equiv;
+   prompted JSON + entropy ≠ structured logit read).
+2. Productize `{id, label, p}`; escalate-under-threshold
+   in code; mark `FALLBACK` if the head swaps (granite
+   0.546 vs advertised 0.800 *theirs*).
+3. Packaging ≠ new species; route by script **before** *p*
+   (Khmer 0.000@0.952); 0.85 still soft.
+4. Pointer-not-generator: Choice of line ids, copy
+   verbatim, *Not found* is an answer, human tick never
+   overwritten (choxos ≠ egma-ai).
+5. A named census is not a bake-off; a scored board
+   needs the score function, cal on/off, and named
+   latency/cost assumptions (geo-mean I/C/S/K; ≠ v1.1
+   87.6).
+
+Skip thin noise (JEValuate / jevspeak / fable-jev;
+jev-semgrep already §61). Hard-gating a Noul as a PR
+merge or quality seal is **soundness theater**
+([totally-tim/jev-gate](https://github.com/totally-tim/jev-gate)
+≠ jev-gateway). Archer still Watch. `notes.md` §79.

@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T15:14Z",
+  "retrieved": "2026-09-19T15:37Z",
   "sources": [
     {
       "kind": "docs",
@@ -2695,6 +2695,42 @@
       "title": "fstandhartinger/jevbench jevbench-v1.2-results.json",
       "url": "https://github.com/fstandhartinger/jevbench/blob/main/results/v1.2/jevbench-v1.2-results.json",
       "note": "Frozen v1.2 artifact. Board sha256 prefix d2b9d6fe88eb. notes.md \u00a778."
+    },
+    {
+      "kind": "github",
+      "title": "totally-tim/jev-gate",
+      "url": "https://github.com/totally-tim/jev-gate",
+      "note": "MIT; 0 stars; TypeScript. Created 2026-09-19T14:33:43Z. Calibrated PR review gates (Action/CLI/OpenCode). Hourly 0842 skip: soundness-theater risk if a soft Noul is hard-gated. != jev-gateway / MongLong0214/jev-gate / jev-gate-student-b. notes.md \u00a779."
+    },
+    {
+      "kind": "github",
+      "title": "connectedGraph/claude-jev-warden",
+      "url": "https://github.com/connectedGraph/claude-jev-warden",
+      "note": "MIT; 1 star; HTML. Created 2026-09-19T13:43:16Z. Real-time quality gate / Art Director Warden. Hourly 0842 skip: same hard-gate theater as jev-gate. notes.md \u00a779."
+    },
+    {
+      "kind": "github",
+      "title": "Akeel-Majeed/JEValuate",
+      "url": "https://github.com/Akeel-Majeed/JEValuate",
+      "note": "0 stars; TypeScript. Created 2026-09-19T14:34:56Z. Auto-mark maths scripts slogan (2,054 / 96.6% *theirs* unverified). Hourly 0842 skip thin. != ElshinQ/jevaluate. notes.md \u00a779."
+    },
+    {
+      "kind": "github",
+      "title": "ElshinQ/jevaluate",
+      "url": "https://github.com/ElshinQ/jevaluate",
+      "note": "MIT; 0 stars. Field notes / skill. Namesake of Akeel-Majeed/JEValuate. Hourly 0842 skip. notes.md \u00a779."
+    },
+    {
+      "kind": "github",
+      "title": "MM-sheng/jevspeak",
+      "url": "https://github.com/MM-sheng/jevspeak",
+      "note": "MIT; 1 star; TypeScript. Created 2026-09-19T13:00:16Z. Conversation from decisions + deterministic compiler. jev-gpt cousin. Hourly 0842 skip thin. notes.md \u00a779."
+    },
+    {
+      "kind": "github",
+      "title": "imMamdouhaboammar/fable-jev",
+      "url": "https://github.com/imMamdouhaboammar/fable-jev",
+      "note": "MIT; 1 star; TypeScript. Created 2026-09-19T14:41:41Z. Sub-100ms reflex slogan. GitHub size 0 lag. Hourly 0842 skip thin. notes.md \u00a779."
     }
   ]
 }

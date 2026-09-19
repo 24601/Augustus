@@ -103,6 +103,8 @@ request, and treat a stale pin as a prior, never a setting.
 | Treat Qwen3.8 27B as Archer | Official Qwen / Chutes TEE | Partial; Cost 0 from price. Archer still Watch. `notes.md` §78 |
 | Read Laya absence as quality | Gap, not a named exclusion | Absent from table **and** exclusion list. `notes.md` §78 |
 | Reverse A/B on a small yes/no rebuild and quote one number | Option-order 72%→21% | Rank with author's order; keep both runs. Cousin of paraphrase brittleness. `notes.md` §78 |
+| Re-card localjev / classifier.dev / Laya / choxos / census because they reappear on the hourly | Already folded | Apply the five as a recipe; skip thin noise. `notes.md` §79 |
+| Fail CI / stamp quality from a Noul | Soft sensor as a hard seal | Attend or escalate; exact envelope proves the irreversible act. Qualify [totally-tim/jev-gate](https://github.com/totally-tim/jev-gate) ≠ jev-gateway / MongLong0214/jev-gate. `notes.md` §79 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

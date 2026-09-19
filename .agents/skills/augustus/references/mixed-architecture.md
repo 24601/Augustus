@@ -302,6 +302,8 @@ not a global virtue:
 | Treat Laya absence as a quality verdict | **Fail closed** (gap, not a named exclusion) | Absent from the scored table **and** from the named exclusion list. Completeness ≠ dunk. GLiNER2 is mapping-excluded *theirs* |
 | Collapse instruction models into NAR clones because they share the table | **Fail closed** (class-boundary) | Luna/Gemini/DeepSeek/Qwen3.8 are JSON-schema instruction models. Needle 3 is function-calling (C none → 0). OpenJev on board = razorback16 ≠ IamBusy `/v1/decide` |
 | Treat the geometric mean as a natural law | **Fail closed** (weights are a choice) | Limits *theirs*. Balanced no-cal puts SemIf #1; Emphasis Cost puts system-one-open #1 / Jev #5 |
+| Re-card localjev / classifier.dev / Laya / choxos / census / v1.2 because they reappear on the hourly | **Fail closed** (already folded) | Apply the five as a recipe (`notes.md` §79). Do not dump the hit list again |
+| Hard-gate a Noul as a PR merge / quality seal | **Fail closed** (soundness theater) | Soft Noul attends or escalates; an exact envelope proves the irreversible act. [totally-tim/jev-gate](https://github.com/totally-tim/jev-gate) (0★; MIT; Action/CLI/OpenCode) and [connectedGraph/claude-jev-warden](https://github.com/connectedGraph/claude-jev-warden) (1★; MIT; “Art Director Warden”) are this hour’s skip with that risk. **≠** [vinilana/jev-gateway](https://github.com/vinilana/jev-gateway), [MongLong0214/jev-gate](https://github.com/MongLong0214/jev-gate) (model routing), [SargeDev/jev-gate-student-b](https://huggingface.co/SargeDev/jev-gate-student-b). Cousin: ci-gatekeeper (cheap typed pre-review, operator-owned). Attention filter never blocks ([rashedInt32/jev-lens](https://github.com/rashedInt32/jev-lens)) |
 
 Worked placements (2026-09-18 topic:jev hour + prior archive):
 
@@ -769,6 +771,8 @@ decision-design card. Do not clone APIs from READMEs.
 | Instruction models in the class table | Typed decision task, not architecture purity | Luna/Gemini/DeepSeek/Qwen3.8 JSON-schema; Needle 3 tool-calling | Luna I **96.8** rank **#7**. Needle 3 C none → 0. OpenJev = razorback16 DiffusionGemma ≠ IamBusy |
 | Harbor honesty (×2 / est.) | Name assumptions; ranks are configuration-specific | Self-host latency ×2 (+0.15 s) is an assumption; many costs est. | Production APIs unadjusted. Partial not ranked. Kinship classifier-dev FALLBACK |
 | Laya / GLiNER2 / apps gaps | Absence ≠ quality; mapping ≠ scored | Laya absent (not named-excluded); GLiNER2 needs normalization; apps out | Completeness vs watch. Qwen3.8 27B Chutes TEE **≠** Archer |
+| Apply-the-five (hourly 0842, already folded) | Wire≠logit · product+FALLBACK · packaging honesty · pointer-not-generator · leaderboard VOI | Do not re-card §73–§78; skip thin noise | `notes.md` §79. Compose, don’t dump |
+| Hard-gate Noul as PR/quality (skip) | Soft sensor used as a merge seal | Soundness theater unless an exact envelope already proved the act | totally-tim/jev-gate (0★) / claude-jev-warden (1★). **≠** jev-gateway / MongLong0214/jev-gate / jev-gate-student-b. Do not copy action.yml |
 
 On-device / Home Assistant / mobile are newly-feasible via the economics
 inversion, not proven ports of every app. Named placements this hour

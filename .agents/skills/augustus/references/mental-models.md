@@ -604,6 +604,31 @@ threshold cargo-cult; ontology capture (Choice set smuggles the
 conclusion); Goodhart on the judge; coverage theater; scale mismatch
 (Web metrics on situated problems); vacuous assurance.
 
+## Apply this hour's class (already folded — do not re-card)
+
+When the hourly named HIGHs are already on the branch, extract
+**how to apply**, not a dump (`notes.md` §79):
+
+1. **Wire-compat ≠ logit-equiv** — same `/v1/systemone` SDK can
+   sit on prompted JSON (entropy-as-confidence) or on structured
+   logit read. Calibrate before consequential use.
+2. **Productize label + *p*; mark FALLBACK** — escalate-under-
+   threshold is policy in code; a silent head-swap is a lie
+   about the instrument.
+3. **Packaging ≠ new species** — a Router is a face. Route by
+   script before *p* when gating cannot catch OOD overconfidence.
+   0.85 is still soft.
+4. **Pointer-not-generator** — point at ids, copy verbatim,
+   *Not found* is an answer, human tick never overwritten.
+   Works at Cochrane/PRISMA scale, not only SWE.
+5. **External list ≠ scored bake-off** — census VOI is
+   completeness/class-boundary; a board VOI is the score
+   function, cal on/off, and named cost/latency assumptions.
+
+A Noul may attend or escalate. Hard-gating it as a PR/quality
+seal is soundness theater unless an exact envelope already
+proved the irreversible act.
+
 ## Decision-design extras (any domain)
 
 ```text

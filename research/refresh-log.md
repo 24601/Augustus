@@ -1208,3 +1208,24 @@
 - notes.md §78; sources.json (449 sources, 446 unique URLs,
   retrieved 2026-09-19T15:24Z); findings.md batch #62.
   No wrapper.
+## 2026-09-19 ~15:37 UTC — hourly 0842 already-folded watch (~08:42 Boise)
+- Docs-only into PR #2. `notes.md` §79. Skip Archer.
+  Hunches labeled. No wrapper. No invented metrics.
+  Named HIGHs already §73–§78 — apply, don’t re-card.
+  Skip thin noise. Do not copy action.yml / bun / pip.
+- Receipts: user SIGNAL 0842 + live GitHub search this
+  pass (~15:37 UTC) for leftover thin (0–1★).
+- Folded: wire-compat ≠ logit-equiv; product+FALLBACK;
+  packaging honesty / script-before-p; pointer-not-
+  generator; census ≠ scored bake-off / geo-mean VOI.
+  Skip jev-semgrep (already §61). Soundness-theater
+  skip for totally-tim/jev-gate (0★) and
+  claude-jev-warden (1★). Qwen3.8 27B ≠ Archer.
+- Census not re-derived. Archer still NOT landed.
+- Cards: SKILL.md, mixed-architecture, faq,
+  mental-models, validation, toolbox,
+  composition-algebra item 19, question-design,
+  ecosystem, CHANGELOG, README.
+- notes.md §79; sources.json (455 sources, 452 unique URLs,
+  retrieved 2026-09-19T15:37Z); findings.md batch #63.
+  No wrapper.

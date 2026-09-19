@@ -460,6 +460,14 @@ Architecture notes, not a hit list. `notes.md` §78. Skip Archer. Quote the boar
 
 - **JevBench v1.2** — [benchmarkheaven.com/jev-models](https://benchmarkheaven.com/jev-models); harness [fstandhartinger/jevbench](https://github.com/fstandhartinger/jevbench) (MIT; 0★; HEAD `27ed3d6c`; README SHA `bf1e79ba`; RESULTS SHA `fdfab1a2`). Protocol `jevbench::v1.2`; scored 19 Sept 2026; 15 × 534 (hard 220). Official Score = geometric mean I/C/S/K 25% each. Jev 1.13.0 **75.3**; SemIf **74.6** (−0.7); OpenJev razorback16 67.6. Luna I **96.8** rank **#7**. Cal **ON** rank. Option-order 72%→21%. Self-host latency ×2 assumption; many costs est. Laya absent (gap, not named-excluded). GLiNER2 mapping-excluded; apps out. Qwen3.8 27B Chutes TEE **≠** Archer. Do not copy Stripe / CLI.
 
+### Hourly ~08:42 Boise 2026-09-19 / 15:37 UTC (already folded — apply, don’t dump)
+
+Architecture notes, not a hit list. `notes.md` §79. Skip Archer. Named HIGHs already §73–§78. Skip thin noise. Do not copy action.yml / bun / pip.
+
+- **Apply-the-five** — wire-compat ≠ logit-equiv; productize label+p and mark `FALLBACK`; packaging ≠ new species / script-before-p; pointer-not-generator (two-pass; *Not found*; human tick); census ≠ scored bake-off / geo-mean weights are a design.
+- **Skip** — uehaj/jev-semgrep (already §61; later dedicated fold); Akeel-Majeed/JEValuate (≠ ElshinQ/jevaluate); MM-sheng/jevspeak (jev-gpt cousin); fable-jev; jev-model-router already §77.
+- **Soundness-theater skip** — [totally-tim/jev-gate](https://github.com/totally-tim/jev-gate) (0★; MIT) / [connectedGraph/claude-jev-warden](https://github.com/connectedGraph/claude-jev-warden) (1★; MIT). A Noul attends or escalates; do not hard-gate as merge/quality. **≠** jev-gateway / MongLong0214/jev-gate / jev-gate-student-b.
+
 Census **not re-derived**. Archer still NOT landed.
 
 See `references/mixed-architecture.md` in the skill. Class-level family

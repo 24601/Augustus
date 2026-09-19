@@ -11158,3 +11158,103 @@ item 18; `question-design.md`; `mappings.md` §7
 eval-integrity + §17 option-order cousin;
 `judgment-class.md` (instruction models in the class
 table). Hunches labeled. No wrapper.
+
+## 79. Hourly System One watch — 2026-09-19 ~08:42 Boise / MDT
+
+Docs-only fold into PR #2. Archer still **Watch**.
+This hour's named HIGHs are **already on the
+branch**. Do **not** re-card §73–§78 except sibling
+contrast. Extract transferable **how-to-apply**,
+not a hit list. Hunches labeled. No wrappers,
+install.sh, copied ports, or invented metrics.
+TypeSafe Jev remains the exemplar, not the monopoly.
+
+Live GitHub search this pass ~15:37 UTC. Leftover
+thin (0–1★, created 2026-09-19 afternoon UTC) is
+**skip noise** except one soundness-theater
+anti-pattern. **uehaj/jev-semgrep** already §61 —
+do not steal a later dedicated fold.
+
+### Already folded this hour (sibling only)
+
+| User HIGH | Card | SHA | Transferable pattern |
+|---|---|---|---|
+| [githubnext/localjev](https://github.com/githubnext/localjev) | §75 | `daa70b7` | **Wire-compat ≠ logit-equiv.** TypeSafe SDK talks to local `POST /v1/systemone`; p is prompted JSON → validate/retry → normalize + **entropy-as-confidence**, not razorback16 structured logit read. Calibrate before consequential use. Institutional GitHub Next interchange ≠ OpenJev parity. Harbor-shaped AG News / BoolQ / SST-5 (1,200-req *theirs*; not calibrated). **≠** [kunchenguid/local-jev](https://github.com/kunchenguid/local-jev). |
+| [mrmps/classifier-dev](https://github.com/mrmps/classifier-dev) | §73 | `5f44bf4` | **Productize the public contract.** Batch `{id,text}[]` → label + calibrated confidence. Escalate-under-threshold is **policy in code** (`tier:smart` re-asks single-label <0.7 *theirs*; multi-label ignores). Measurement-first `/benchmark` from tracked JSON. Lived anti-pattern: silent FALLBACK granite F1 **0.546** vs advertised ~**0.800**. Life/business (spam/inbox/feedback), not SWE-only. |
+| [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | §76 | `bcf66f1` | **Packaging ≠ new species.** PyPI + Router over Hub ckpts. Honest where Jev still leads (Banking77 high-cardinality). Khmer **0.000@0.952** is **OOD overconfidence** — gating cannot catch script OOD; route by script **before** p. 0.85 is still soft. Post-T ECE ≠ raw ECE. **≠** TypeSafe `/v1/systemone`. |
+| [choxos/jev-reviewer](https://github.com/choxos/jev-reviewer) | §74 | `03fddc6` | **Pointer-not-generator at domain scale.** Jev points at line ids; code copies verbatim. Two-pass: Choice (which line?) then Noul (does this line itself answer?). *Not found* is an answer. Human check never overwritten. Cochrane / PRISMA / RoB — class beyond SWE. **≠** [egma-ai/jev-reviewer](https://github.com/egma-ai/jev-reviewer). |
+| [@airesearch12 census](https://x.com/airesearch12/status/2101259522933186879) + [JevBench v1.2](https://benchmarkheaven.com/jev-models) | §77, §78 | `db654b5`, `40a5f12` | **External leaderboard VOI.** Named census ≠ scored bake-off. GLiNER2 + routers are class-boundary. Incomplete vs watch is lag. Geometric-mean I/C/S/K 25% each; cal **ON** rank; option-order 72%→21%; ×2 latency is an assumption; Laya absent = gap; Qwen3.8 27B ≠ Archer. Track methodology vs Harbor/jevals (calibration, latency, cost, soft-score-as-hard-rank). |
+
+### How to apply (recipe, not a dump)
+
+Compose the five as one placement, in this order:
+
+1. **Name how p is produced.** Same wire is not the same sensor. Prompted JSON + entropy is a generated vector. Structured logit read is a different compute graph. Institutional legitimacy (GitHub Next `/v1/systemone`) does not discharge calibration.
+2. **Productize the contract, not the paragraph.** Callers get `{id, label, p}`. Escalate-under-threshold lives in code. If the upstream head is delisted, mark `FALLBACK` and fail the advertised number — silent swap is eval-integrity theater (rh-guard owns the gate; dinostomp owns instrument-not-score).
+3. **Treat packaging as a face.** A PyPI Router does not mint a new species. Ask where the class still loses (high-K Choice, soft-acc, raw ECE). Route by **script before p** when OOD overconfidence is the failure mode. 0.85 is a recipe, not Harbor τ.
+4. **Point; do not generate.** Number the evidence in code. Relative Choice then absolute Noul. Copy bytes. *Not found* is cheaper than paraphrase. The human tick is the product — never overwrite checked answers.
+5. **Pay for a scored board only when methodology is the question.** A tweeted census is VOI for *who is in the class*, not *who wins*. When a board exists, read the score function (geo-mean vs weighted sum; cal on vs off), the honesty footnotes (×2, est. costs, option-order), and the gaps (Laya absent; instruction models in the table). Do not mix v1.1 87.6 with v1.2 75.3.
+
+**Hunch:** this is the mixed-architecture default for the class this week — local interchange, public categorization API, honest open packaging, extractive evidence at domain scale, independent measurement politics — without treating any one repo as the stack.
+
+### Skip thin noise (this hour)
+
+Do **not** fetch READMEs as recipes. Qualify namesakes. No
+invented metrics. Descriptions are GitHub search this
+pass (~15:37 UTC).
+
+| Repo | Why skip | Sibling |
+|---|---|---|
+| [uehaj/jev-semgrep](https://github.com/uehaj/jev-semgrep) | Already §61 (AND/OR/NOT; 0.94/0.98 *theirs*; Semgrep.dev name collision). Dedicated later fold owns any delta. | meaning-grep, not a gate |
+| [Akeel-Majeed/JEValuate](https://github.com/Akeel-Majeed/JEValuate) | 0★; TS; created 2026-09-19T14:34:56Z. Slogan: auto-mark maths, 2,054 scripts, 96.6% agreement *theirs* unverified here. | **≠** [ElshinQ/jevaluate](https://github.com/ElshinQ/jevaluate) (field notes / skill) |
+| [MM-sheng/jevspeak](https://github.com/MM-sheng/jevspeak) | 1★; MIT; created 2026-09-19T13:00:16Z. Conversation from decisions + a deterministic compiler — cousin of jev-gpt never-free-generates (§71). | Architecture demo, not a new primitive |
+| jev-model-router / Director / Loki | Already §77 as **apps-not-models** on the census. | Class-boundary routers |
+| [imMamdouhaboammar/fable-jev](https://github.com/imMamdouhaboammar/fable-jev) | 1★; MIT; created 2026-09-19T14:41:41Z; GitHub `size: 0` lag. Sub-100ms reflex slogan. | Thin product; skip |
+| [totally-tim/jev-gate](https://github.com/totally-tim/jev-gate) | 0★; MIT; TS; created 2026-09-19T14:33:43Z. “Calibrated PR review gates: GitHub Action, local CLI, OpenCode plugin.” | Soundness-theater **risk** if a soft Noul is hard-gated as merge/quality. **≠** [vinilana/jev-gateway](https://github.com/vinilana/jev-gateway), [MongLong0214/jev-gate](https://github.com/MongLong0214/jev-gate) (model routing), [SargeDev/jev-gate-student-b](https://huggingface.co/SargeDev/jev-gate-student-b) |
+| [connectedGraph/claude-jev-warden](https://github.com/connectedGraph/claude-jev-warden) | 1★; MIT; HTML; created 2026-09-19T13:43:16Z. “Real-time quality gate and Art Director Warden.” | Same hard-gate theater as jev-gate. Attention ≠ correctness (egma-ai already). Escalate / look, do not green-from-Noul |
+
+**Anti-pattern (the leftover that is not noise):** a
+Noul may **attend** (fail closed to “look” unless
+sure; never block the agent — rashedInt32/jev-lens)
+or **escalate** (classifier.dev smart; Laya 0.85 still
+soft). Hard-gating it as a PR merge or quality seal
+is soundness theater unless a separate exact envelope
+already proved the irreversible act. ci-gatekeeper
+already owns the cheap typed *pre-review* cousin
+(operator-owned thresholds; conservative default).
+Do **not** copy action.yml / CLI.
+
+### Skip Archer
+
+HF `archerhume/4rcherhume` still empty this watch.
+Official [Qwen/Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B)
+on the v1.2 board is **Chutes TEE ≠ Archer**. Archer
+27B drop still **WATCH**. Skip Archer this fold.
+
+### Not
+
+Not a re-card of localjev / classifier.dev / Laya /
+choxos / census / v1.2. Not a hit list. Not a
+TypeSafe how-to. Not a dunk on leftover 0★ repos.
+Do not copy Stripe, bun, pip, or GitHub Actions.
+Do not mix v1.1 87.6 with v1.2 75.3. Do not treat
+96.6% maths-mark agreement as a Harbor score. Do
+not treat jevspeak as a generator. Do not steal
+jev-semgrep from its dedicated fold.
+
+### Curated status
+
+Five HIGHs **already folded**. Thin **skipped**.
+Soundness-theater gate **named**. Archer still
+**NOT landed**. Census tweet **not re-derived**.
+v1.2 board **not re-run**.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table: hard-gate
+Noul as PR/quality gate; gallery skip); `faq.md`;
+`mental-models.md` (apply-the-five); `validation.md`
+(hourly watch-accounting row); `toolbox-mapping.md`
+(already-folded hourly); `composition-algebra.md`
+item 19; `question-design.md`. Hunches labeled. No
+wrapper.

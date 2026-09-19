@@ -870,6 +870,22 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   issues; apps out. Qwen3.8 27B Chutes TEE **≠** Archer. **≠**
   tweet census §77 **≠** v1.1 87.6. Do not copy Stripe / CLI.
   No wrapper. No invented metrics.
+- Hourly System One watch ~08:42 Boise 2026-09-19
+  (`research/notes.md` §79): **Skip Archer.** Named HIGHs
+  **already folded** (§73–§78) — extract **how-to-apply**,
+  not a hit list: wire-compat ≠ logit-equiv (prompted JSON
+  ≠ structured logit); productize label+p and mark
+  `FALLBACK`; packaging ≠ new species / script-before-p /
+  0.85 still soft; pointer-not-generator (two-pass; *Not
+  found*; human tick); external census ≠ scored bake-off /
+  geo-mean weights are a design. **Skip thin noise**
+  (JEValuate / jevspeak / fable-jev; jev-semgrep already
+  §61). Hard-gating a Noul as a PR/quality gate is
+  soundness theater
+  ([totally-tim/jev-gate](https://github.com/totally-tim/jev-gate)
+  0★ ≠ jev-gateway; [claude-jev-warden](https://github.com/connectedGraph/claude-jev-warden)
+  1★). Qwen3.8 27B ≠ Archer. No wrapper. No invented
+  metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard
