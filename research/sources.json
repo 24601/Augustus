@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T03:50Z",
+  "retrieved": "2026-09-19T04:45Z",
   "sources": [
     {
       "kind": "docs",
@@ -2017,6 +2017,54 @@
       "title": "jlt-commons/laya-jolt (empty skip)",
       "url": "https://github.com/jlt-commons/laya-jolt",
       "note": "Empty placeholder this pass. Created 2026-09-19T03:08:37Z; size 0. notes.md \u00a761."
+    },
+    {
+      "kind": "github",
+      "title": "SemetricLabs/omp-greenlight",
+      "url": "https://github.com/SemetricLabs/omp-greenlight",
+      "note": "Python MIT. Created 2026-09-19T04:06:43Z; 0 stars. OMP prompt suppression. 1013 calls / 10 sessions; default 40.9% / 0 of 94. Operator owns bar; not a sandbox. notes.md \u00a762."
+    },
+    {
+      "kind": "github",
+      "title": "adamjralph/skill-broker",
+      "url": "https://github.com/adamjralph/skill-broker",
+      "note": "Language/license null. Created 2026-09-19T04:35:59Z; 0 stars. Project-outline only. Code owns grants; Jev never grants access. Not a production recipe. notes.md \u00a762."
+    },
+    {
+      "kind": "github",
+      "title": "collapseindex/dinostomp",
+      "url": "https://github.com/collapseindex/dinostomp",
+      "note": "Python. README Apache-2.0, GitHub NOASSERTION. Created 2026-08-09T07:59:32Z; 5 stars. Eval instrument auditor. FINDINGS 189 / 99 against itself. dinostomp jev ECE 0.062 theirs on 24. notes.md \u00a762."
+    },
+    {
+      "kind": "github",
+      "title": "nrdz-labs/fast-jev-opencode",
+      "url": "https://github.com/nrdz-labs/fast-jev-opencode",
+      "note": "TypeScript MIT. Created 2026-09-19T03:51:47Z; 1 star. OpenCode V2 context-hook port of fast-jev-compaction; fail-open. MED. notes.md \u00a762."
+    },
+    {
+      "kind": "github",
+      "title": "yikangy873-gif/jev-desktop",
+      "url": "https://github.com/yikangy873-gif/jev-desktop",
+      "note": "JavaScript MIT. Created 2026-09-19T04:22:48Z; 0 stars. Codex Computer Use + Jev action selection. MED. notes.md \u00a762."
+    },
+    {
+      "kind": "github",
+      "title": "MrDiamondBallz/jev-agent-integration",
+      "url": "https://github.com/MrDiamondBallz/jev-agent-integration",
+      "note": "Python MIT. Created 2026-09-19T03:56:05Z; 0 stars. Provider-neutral Hermes skill/plugin. MED. notes.md \u00a762."
+    },
+    {
+      "kind": "github",
+      "title": "bohutang/sift",
+      "url": "https://github.com/bohutang/sift",
+      "note": "JavaScript MIT. Created 2026-09-19T03:46:56Z; 0 stars. X feed semantic labels/hide via Jev. MED. notes.md \u00a762."
+    },
+    {
+      "kind": "github",
+      "title": "CorieW/JevExplore",
+      "url": "https://github.com/CorieW/JevExplore",
+      "note": "TypeScript; license null. Created 2026-09-19T04:22:25Z; 0 stars. Bounded web action-space discovery. MED. notes.md \u00a762."
     }
   ]
 }

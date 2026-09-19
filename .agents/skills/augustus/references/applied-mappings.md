@@ -456,6 +456,32 @@ tier. **Fail-open** if Jev missing/timeout/malformed;
 fail-open paths `confidence: 0`. Distinct from
 pi-jev-approver (fail-closed without a key). Do not copy
 bun / `~/.omp` (`notes.md` §61).
+**OMP prompt suppression (Empirical as measured traffic +
+labelled corpus, 2026-09-18 ~22:38):**
+[omp-greenlight](https://github.com/SemetricLabs/omp-greenlight)
+— grades gated tool calls; suppresses the approval prompt
+when Jev says allow. **1,013 calls / 10 sessions / 8.95
+session-hours.** Default preset **40.9%** prompts removed;
+**0 of 94** unsafe auto-approvals on a 140-row labelled
+corpus (live traffic has no labels). Operator owns
+thresholds; the plugin **never self-tunes** the safety bar.
+Not a sandbox; host `bash.patterns: deny` fires ahead.
+Agent prose never sent (0→3 corpus misses). Never shadows a
+built-in tool. Distinct from specpi-jev-guard (single danger
+score; static fast-path miss), toolgate, interlock, and
+omp-jev-extensions (fail-open *route*). Composes with
+waymode. Do not copy `omp plugin` / YAML (`notes.md` §62).
+**Hermes pre-agent skill intervention (Hypothesis / outline
+only — not a production recipe):**
+[skill-broker](https://github.com/adamjralph/skill-broker)
+— `PROJECT-OUTLINE.md` is authoritative. Deterministic code
+owns catalog, profile policy, limits, and **grants**. Jev
+scores relevance/confidence over authorised candidates and
+**never grants access**. Candidates ≠ grants. Jev down →
+foundation-only; never broaden access. Replayable route
+evidence. Distinct from jev-hermes (route ≠ memory) and
+from shipped routers on this card. Language/license null
+this pass. Do not copy an install (`notes.md` §62).
 [`trietphan/jev-claw`](https://github.com/trietphan/jev-claw) is the
 same split for OpenClaw (classify axes; `decide()` maps the route; path
 regex floors risk). [`nekowasabi/jev-routing`](https://github.com/nekowasabi/jev-routing)
@@ -553,6 +579,15 @@ products. Do not copy pip / `INTERLOCK_ARMED` how-to.
 identity re-check before SIGTERM; shields override; TCP only;
 tiny final race (no pidfd). Gate UX for Augustus + rh-guard.
 Do not copy Keychain how-to.
+**Permission vs probability (Empirical as measured
+suppression, not a kernel; 2026-09-18 ~22:38):**
+[omp-greenlight](https://github.com/SemetricLabs/omp-greenlight)
+— Jev is still the sensor; the **operator** owns the
+auto-approve bar; the plugin never self-tunes it. Host deny
+rules remain the constraint and fire first. Default 40.9% /
+0 of 94 *theirs* on the labelled corpus. Not a sandbox; not
+interlock (secrets may already be in the agent's world).
+Do not copy YAML (`notes.md` §62).
 **Counterexample**: post-decision "is this dangerous?" with AWS
 keys still in the prompt. **Test**: delete the sensor — the
 constraint and the closed action space still hold; a canary use

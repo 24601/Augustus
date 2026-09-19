@@ -1386,13 +1386,37 @@ planner LLM vs host-owned product surface; (ef) Harbor Jev vs
 PCD: O(1) speed ≠ calibrated Noul; (eg) OMP/pi fail-open vs
 fail-closed remainder gates.
 
+## Batch #46 (2026-09-19 ~04:38 UTC / ~22:38 Boise 2026-09-18) — permission vs probability (greenlight), judgment ≠ permission (skill-broker outline), eval integrity / instrument-not-score (dinostomp)
 
+Note: `research/notes.md` §62. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Do not re-fold
+§50–§61. Watch archive `/workspace/jev-archive/2026-09-18/223856`
+absent this VM; live GitHub receipts. Do not treat skill-broker as
+a production recipe.
 
+- **SemetricLabs/omp-greenlight (Empirical as measured traffic +
+  labelled corpus).** Python MIT. Created 2026-09-19T04:06:43Z; 0★.
+  1,013 calls / 10 sessions. Default 40.9% prompts removed; 0 of 94
+  unsafe auto-approvals on 140-row corpus. Operator owns thresholds;
+  plugin never self-tunes. Not a sandbox.
+- **adamjralph/skill-broker (Hypothesis / outline only).** Language
+  null; license null. Created 2026-09-19T04:35:59Z; 0★.
+  PROJECT-OUTLINE.md authoritative. Code owns grants; Jev never
+  grants access. Not a production recipe.
+- **collapseindex/dinostomp (Empirical as FINDINGS.md + demo card).**
+  Python; README Apache-2.0 / GitHub NOASSERTION. Created
+  2026-08-09T07:59:32Z; 5★. Checks the instrument, not just the
+  score. 189 findings / 99 against itself. `dinostomp jev` 24-example
+  demo ECE 0.062 *theirs*. Beside jevals, not a Harbor taskset.
+- MED: nrdz-labs/fast-jev-opencode (MIT TS; fail-open OpenCode V2
+  port); yikangy873-gif/jev-desktop; MrDiamondBallz/jev-agent-integration;
+  bohutang/sift; CorieW/JevExplore.
 
+Census: Awesomejev 488/21644; SemIf 1641 (+13); jevlike 905 (+4);
+tracker likes 41 (+1); lastModified unchanged; Laya yes; Blackwood
+ABSENT; X MCP flapping (`pages_archived` 0).
 
-
-
-
-
-
-
+Cross-repo addition: (eh) permission vs probability / operator-owned
+safety bar; (ei) judgment ≠ permission (Jev never grants access);
+(ej) eval integrity / instrument-not-score (`dinostomp jev` as
+if-statement hygiene).

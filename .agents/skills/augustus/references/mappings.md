@@ -500,6 +500,15 @@ misses" — that was a criterion shift. **Test**: ROC/PR on held-out *your*
 cases; report the operating point you actually ship. **Hypothesis** for
 non-SWE plots. Links: `mental-models.md` §SDT; evaluator script for
 threshold/cost sweep.
+**Operator owns the criterion (Empirical as measured OMP
+suppression, 2026-09-18 ~22:38):**
+[omp-greenlight](https://github.com/SemetricLabs/omp-greenlight)
+— four presets, each measured for prompts removed *and*
+unsafe auto-approvals. Default **40.9%** / **0 of 94** on
+the 140-row corpus. The plugin **never self-tunes** the
+safety bar: a self-adjusting bar cannot be audited by the
+person accepting the risk. Live traffic has no labels.
+Not a sandbox. `notes.md` §62.
 
 ## 8. Control structure → sensor ≠ constraint (Leveson)
 
@@ -540,6 +549,19 @@ threshold **and** a human. Anti-pattern: launch-week firewalls that
 ask "dangerous?" after the LLM already decided with real secrets in
 scope. Distinct from toolgate (pre-exec of a proposed call). 38-case
 set tunes the local judge, not a blind paper. `notes.md` §59.
+**Host deny stays above the sensor (Empirical as README
+safety model, 2026-09-18 ~22:38):**
+[omp-greenlight](https://github.com/SemetricLabs/omp-greenlight)
+— `bash.patterns: deny` is the constraint and fires ahead
+of Jev prompt-suppression. Jev is permission-*probability*,
+not permission. Agent prose withheld after 0→3 corpus
+misses. Never shadows a built-in tool (would bypass deny).
+`notes.md` §62.
+**Judgment ≠ permission (Hypothesis / outline only):**
+[skill-broker](https://github.com/adamjralph/skill-broker)
+— code owns grants; Jev scores relevance and **never
+grants access**. Jev down never broadens the catalog.
+Not a production recipe. `notes.md` §62.
 
 ## 9. Search / control loops → one substituted classifier step
 
@@ -933,6 +955,15 @@ annotated. Distinct from the ndolinschi *vocabulary* (allow /
 ask_human / deny) already in `agent-self-assessment.md`.
 `onReview` must obtain authenticated human approval
 (`notes.md` §55). Do not copy pnpm.
+**OMP prompt suppression, host deny proves (Empirical as
+measured traffic, 2026-09-18 ~22:38):**
+[omp-greenlight](https://github.com/SemetricLabs/omp-greenlight)
+— OMP `bash.patterns: deny` **proves** the floor; Jev may
+only suppress remaining approval prompts above an
+operator-owned bar. Plugin never self-tunes. Not a sandbox.
+Default 40.9% / 0 of 94 *theirs*. Distinct from toolgate
+(pre-exec of a proposed call) and omp-jev-extensions
+(fail-open route). `notes.md` §62.
 **Capability kernel, different trust boundary (Empirical as README
 architecture, 2026-09-18 ~19:48):**
 [interlock](https://github.com/somoore/interlock) — the LLM never

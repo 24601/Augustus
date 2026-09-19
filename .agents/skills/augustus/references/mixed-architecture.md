@@ -213,6 +213,9 @@ not a global virtue:
 | `ORDER BY prob LIMIT k` | **Fail open** as ranking; ties need a secondary key (`jev-orderby-bench`) | Two-decimal quantization; 53-way 0.99 tie is engine-dependent. Calibration ≠ sortable |
 | Run an irreversible browser/OS act in closed-vote CU | **Fail closed** unless a separate risk vote is low (`JevOnly` `risk ≥ 0.50` never default; waymode host confirmation / p ≥ 0.7) | Code builds options; Jev only picks. `completed` ≠ verified success. Host handlers/permissions still decide |
 | OMP/pi acceptance gate or subagent route | **Fail open** if Jev missing / timeout / malformed (`omp-jev-extensions`; `confidence: 0`) | A flaky decision service must not trap the agent. Contrast pi-jev-approver fail-closed without a key |
+| Suppress an OMP tool-approval prompt | **Fail closed** to prompt the human unless the operator-owned bar says allow (`omp-greenlight`) | Not a sandbox. Host `bash.patterns: deny` stays the floor and fires first. Plugin never self-tunes the bar. 0/94 is the labelled corpus, not live traffic |
+| Grant a specialised skill pack | **Fail closed** to foundation-only; never broaden access (`skill-broker` outline) | Jev scores relevance; code owns grants. Candidates ≠ grants. **Hypothesis / outline — not a production recipe** |
+| Treat a Jev score as eval truth | **Fail closed** until the instrument is audited (`dinostomp`) | Check data/scorer/runs/claims, not just the number. `dinostomp jev` tests a question like an if-statement |
 | Drop a meaning-grep line | **Fail open** as ranking (`jev-semgrep`); keyword still wins exact strings | AND/OR/NOT over line Nouls. Japanese meanings noisier near threshold |
 
 Worked placements (2026-09-18 topic:jev hour + prior archive):
@@ -579,6 +582,9 @@ decision-design card. Do not clone APIs from READMEs.
 | Closed-vote CU (no planner) | Choice among code-built options; done / off-path / next | Fact register; verify/undo; type without generation; irreversible risk never default | JevOnly (Apache-2.0; 11 steps / 43 calls / ~$0.014 / 17 s *theirs*) |
 | Host-owned System One product | Choice among live typed actions | Host handlers, permissions, validation, state; prove writes from server state; p ≥ 0.7 default | waymode (MIT; 24/26 + 34/36 *theirs*; not on npm; not a self-driving proof) |
 | OMP/pi acceptance + route | Choice `{accepted, rejected}`; topology/tier Choice | Fail-open missing Jev (`confidence: 0`); out-of-set answers → default | omp-jev-extensions (MIT; contrast pi-jev-approver fail-closed) |
+| OMP prompt suppression | Parallel verdict + severity + in-scope | Operator owns presets; plugin never self-tunes; host deny fires first; agent prose withheld | omp-greenlight (MIT; 1,013/10; default 40.9% / 0 of 94 *theirs*; not a sandbox) |
+| Pre-agent skill intervention | Relevance/confidence over authorised candidates | Code owns catalog/policy/grants; Jev never grants access; foundation-only on failure | skill-broker (**Hypothesis / outline**; not a production recipe) |
+| Eval-instrument audit | Accuracy / ECE / blank lean / rewording of a Jev question | Check data/scorer/claims; 99 of 189 findings against itself | dinostomp (README Apache-2.0 / GitHub NOASSERTION; `dinostomp jev`; ECE 0.062 *theirs* on 24 examples) |
 | Evidence-packet explorer | Rank BM25 shortlist; packet source_of_truth / tests / callers | Index once; agent still reads cited files; read-only | jev-semantic-explorer / jevex (1/8→6/8 n=8 *theirs*; HitFile 0.233 diagnostic) |
 | Meaning-grep | Per-line Noul; AND/OR/NOT in code | Thresholds / `--level`; JP↔EN; name collision with Semgrep SAST | jev-semgrep (MIT LICENSE; 0.94/0.98 *theirs*) |
 | Active-learning triage | Confidence routes accept / teacher / human | Soft-label full distributions; real outcomes stay training targets; do **not** distill Jev as teacher | jev-triage (MIT; ~68% ceiling anti-pattern) |

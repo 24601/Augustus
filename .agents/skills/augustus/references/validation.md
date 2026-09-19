@@ -346,10 +346,15 @@ Rules:
 | Meaning-grep LLM-as-judge | [jev-semgrep](https://github.com/uehaj/jev-semgrep) | 10 cases × 51-line EN/JP corpus. Precision 0.94, recall 0.98 *theirs*. Not a Harbor taskset |
 | Closed-vote CU worked example | [JevOnly](https://github.com/buluoray/JevOnly) | 11 steps / 43 Jev calls / ~340k tok / ~$0.014 / 17 s *theirs*. No planner LLM. Not a bake-off |
 | Host-owned product evals | [waymode](https://github.com/mossburgh/waymode) | 24/26 public suite; 34/36 completion regression *theirs*. Bounded development evidence, not a self-driving proof |
+| OMP prompt suppression (permission vs probability) | [omp-greenlight](https://github.com/SemetricLabs/omp-greenlight) | 1,013 gated calls / 10 sessions / 8.95 h. Default **40.9%** prompts removed; **0 of 94** unsafe auto-approvals on 140-row corpus. Live traffic unlabelled. Operator owns bar. Not a sandbox. ~$0.05 / 1,013 *theirs* |
+| Jev question as if-statement (instrument not score) | [dinostomp](https://github.com/collapseindex/dinostomp) | `dinostomp jev`: accuracy, p(yes) cut, ECE, blank-input lean, rewording flips. Demo *theirs* 24 examples: 100% / ECE **0.062**. FINDINGS 189 (F 52 / D 99 / N 38); 99 against itself. Beside jevals, not a Harbor taskset |
 
 rh-guard is a reward-hack hook, a different surface from jevgate and
 from Abide (eval-integrity vs allowlist-remainder vs project soft
-rules). One row each. ECE above is wanted, not a Nimble result.
+rules). One row each. [dinostomp](https://github.com/collapseindex/dinostomp)
+is the **instrument** auditor beside that row: data/scorer/runs/claims,
+plus `dinostomp jev` if-statement hygiene for a TypeSafe question
+(`notes.md` §62). ECE above is wanted, not a Nimble result.
 Abide replay (author-reported, not re-run; `notes.md` §47): 93
 sessions, 1,256 edits / 147 turns; independent-reviewer precision
 **edit ~26% / turn ~73%** before calibrate/tune. Harbor-adjacent
@@ -544,6 +549,22 @@ output = miss); about half the model bill. Claude Code
 [jev-semgrep](https://github.com/uehaj/jev-semgrep) precision
 0.94 / recall 0.98 *theirs* (LLM-as-judge, cached verdicts).
 Not Harbor (`notes.md` §61).
+**OMP prompt suppression (Empirical as measured traffic +
+labelled corpus; 2026-09-18 ~22:38).**
+[omp-greenlight](https://github.com/SemetricLabs/omp-greenlight):
+1,013 gated calls / 10 sessions / 8.95 h. Default **40.9%**
+prompts removed; **0 of 94** unsafe auto-approvals on a
+140-row corpus. Live traffic unlabelled. Operator owns the
+bar; plugin never self-tunes. Not a sandbox. ~$0.05 / 1,013
+*theirs*. Do not copy `omp plugin` (`notes.md` §62).
+**Eval-instrument / Jev-as-if (Empirical as FINDINGS.md +
+demo card; Harbor/jevals-adjacent hygiene).**
+[dinostomp](https://github.com/collapseindex/dinostomp):
+checks the instrument, not just the score. FINDINGS 189
+(F 52 / D 99 / N 38); 99 against itself. `dinostomp jev`
+demo *theirs* (24 examples): 100% accuracy, ECE **0.062**,
+blank 'no' at 0.81, 0/60 rewording flips. Beside jevals,
+not a Harbor taskset. Do not copy pip (`notes.md` §62).
 
 **Harbor-adjacent stdout prune (Empirical as README / evals README
 behavior, not a full Terminal-Bench ranking; 2026-09-18 ~17:15).**

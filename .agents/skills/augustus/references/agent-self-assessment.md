@@ -27,6 +27,11 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    [port-cleanup](https://github.com/epiphany-dynamics/port-cleanup)
    — Jev recommends; human is the only kill trigger; identity
    re-check; shields override; mapped explanations (`notes.md` §59).
+   **OMP prompt suppression (permission vs probability,
+   2026-09-18 ~22:38):**
+   [omp-greenlight](https://github.com/SemetricLabs/omp-greenlight)
+   — auto-approve is a criterion the **operator** owns; Jev
+   is not a grant. Not a sandbox (`notes.md` §62).
    **Email / ticket leftover cascade (2026-09-18 ~20:43):**
    [jav-email-cascade](https://github.com/skiingfalcon/jav-email-cascade)
    — typed decide, policy auto/review/llm, generator only on
@@ -116,6 +121,16 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    — `jev_acceptance_gate` before done; `jev_route` topology/tier.
    Missing Jev **fails open** (`confidence: 0`). Contrast
    pi-jev-approver fail-closed without a key (`notes.md` §61).
+   **OMP prompt suppression (2026-09-18 ~22:38):**
+   [omp-greenlight](https://github.com/SemetricLabs/omp-greenlight)
+   — grades gated calls; suppresses the prompt when Jev says
+   allow. Operator owns the bar; plugin never self-tunes.
+   Default 40.9% / 0 of 94 *theirs*. Not a sandbox. Host deny
+   fires first (`notes.md` §62).
+   **Skill pack grant (outline only):**
+   [skill-broker](https://github.com/adamjralph/skill-broker)
+   — Jev scores relevance; code owns grants; never broaden
+   access. Not a production recipe (`notes.md` §62).
 6. **Context economy**: the context-sieve card
    (`references/applied-mappings.md#1-context-sieve`). Judge every large
    tool result with one relevance Noul before it enters context. Hide

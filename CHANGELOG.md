@@ -421,6 +421,28 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   `jev_acceptance_gate` + `jev_route`; contrast pi-jev-approver
   fail-closed). Skip empty jev-compactor / laya-jolt. No wrapper.
   No invented metrics.
+- Hourly ~22:38 Boise 2026-09-18 / 04:38 UTC 2026-09-19 fold
+  (`research/notes.md` §62): Archer still Watch. Architecture
+  notes, not an `omp plugin` / pip catalog. Watch archive path
+  missing on this VM; receipts from live GitHub. Permission vs
+  probability
+  ([omp-greenlight](https://github.com/SemetricLabs/omp-greenlight);
+  1,013 calls / 10 sessions; default **40.9%** prompts removed /
+  **0 of 94** unsafe auto-approvals on labelled corpus; operator
+  owns thresholds; plugin never self-tunes; not a sandbox; host
+  deny stays above). Judgment ≠ permission
+  ([skill-broker](https://github.com/adamjralph/skill-broker);
+  Hermes pre-agent outline; code owns grants; Jev never grants
+  access; **not a production recipe**). Eval integrity /
+  instrument-not-score
+  ([dinostomp](https://github.com/collapseindex/dinostomp);
+  FINDINGS 189 / 99 against itself; `dinostomp jev` if-statement
+  hygiene; ECE 0.062 *theirs* on 24 examples; beside jevals, not
+  a Harbor taskset). MED: fast-jev-opencode, jev-desktop,
+  jev-agent-integration, sift, JevExplore. Census: Awesomejev
+  488/21644; SemIf 1641 (+13); jevlike 905 (+4); tracker likes
+  41 (+1); Laya yes; Blackwood ABSENT; X MCP flapping
+  (`pages_archived` 0). No wrapper. No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

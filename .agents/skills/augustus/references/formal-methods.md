@@ -317,6 +317,12 @@ Claiming a proof-shaped conclusion from a non-proof:
   Stockfish owns truth, Jev owns judgment; [egma-ai/jev-reviewer](https://github.com/egma-ai/jev-reviewer):
   attention ≠ correctness). A Noul is not a proof the move was a
   blunder or the PR is good (`notes.md` §58, §59).
+- A Jev (or any judge) **score sold as eval truth** without
+  auditing data, scorer, runs, or claims
+  ([dinostomp](https://github.com/collapseindex/dinostomp):
+  checks the instrument, not just the score; `dinostomp jev`
+  tests a question like an if-statement; 99 of 189 findings
+  against itself; `notes.md` §62).
 - "Type-safe" sold as "correct" ([interlock](https://github.com/somoore/interlock):
   irreversible stays behind a threshold **and** a human).
 
@@ -445,6 +451,14 @@ kernel ring 0; Jev SENSOR; `policy.py` constraint; secrets never
 in the agent (`notes.md` §59). **Engine ∩ judgment (Empirical as
 PRD):** [game-coach](https://github.com/JoelLewis/game-coach) —
 Stockfish is the probe; Jev is the coaching sensor; Wave 0.
+**Eval-instrument (Empirical as FINDINGS ledger):**
+[dinostomp](https://github.com/collapseindex/dinostomp) —
+the score is not the evidence; `dinostomp jev` is question
+hygiene beside jevals, not a Harbor taskset (`notes.md` §62).
+**Permission vs probability (Empirical as measured
+suppression):** [omp-greenlight](https://github.com/SemetricLabs/omp-greenlight)
+— host deny is the constraint; Jev is the sensor; operator
+owns the criterion (`notes.md` §62).
 
 **Kent — Data and Reality.** Models are approximations; **naming is
 load-bearing**. Question text, Choice sets, and Score rubrics *are* the

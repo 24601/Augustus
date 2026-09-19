@@ -672,7 +672,50 @@ the model never picks allow/ask/block.
 [port-cleanup](https://github.com/epiphany-dynamics/port-cleanup):
 the human is the only kill trigger; shields override; displayed
 explanations are app-owned mapped text, not raw model prose.
-`notes.md` §59.
+`notes.md` §59. Same split: [omp-greenlight](https://github.com/SemetricLabs/omp-greenlight)
+is permission vs probability (operator owns the bar); [skill-broker](https://github.com/adamjralph/skill-broker)
+outline is judgment ≠ permission (Jev never grants access).
+`notes.md` §62.
+
+## Is Jev authorization?
+
+No. Jev is a probability, not a grant.
+[toolgate](https://github.com/fdemir/toolgate): pre-exec
+allow/block/review; Jev is not authorization.
+[omp-greenlight](https://github.com/SemetricLabs/omp-greenlight):
+suppresses an OMP approval prompt when Jev says allow —
+**permission vs probability**. Operator owns the bar; the
+plugin never self-tunes it. Host `bash.patterns: deny` stays
+the floor. Default **40.9%** prompts removed / **0 of 94**
+unsafe auto-approvals on the labelled corpus (not live
+traffic). Not a sandbox. Composes with waymode and
+omp-jev-extensions. `applied-mappings.md` §5, §7;
+`notes.md` §62.
+
+## Does Jev grant skill access?
+
+No. Judgment ≠ permission.
+[skill-broker](https://github.com/adamjralph/skill-broker)
+is a **project-outline** (not a production recipe):
+deterministic code owns catalog, policy, limits, and
+grants; Jev scores relevance/confidence and **never grants
+access**. Candidates ≠ grants. Jev down → foundation-only;
+never broaden access. Distinct from shipped routers
+(jev-hermes, GodsBoy, omp-jev-extensions).
+`applied-mappings.md` §5; `notes.md` §62.
+
+## Is the Jev score the eval?
+
+No. Check the instrument, not just the score.
+[dinostomp](https://github.com/collapseindex/dinostomp)
+audits data, scorer, runs, numbers, claims, and itself.
+`dinostomp jev` tests a Jev question like an if-statement
+(accuracy, p(yes) cut, ECE, blank lean, rewording). Demo
+*theirs*: 24 examples, ECE **0.062** — not a class ranking.
+FINDINGS 189; 99 against itself. Cousin of rh-guard /
+egma attention≠correctness / game-coach engine-owns-truth.
+Beside jevals, not a Harbor taskset. `validation.md`;
+`formal-methods.md`; `notes.md` §62.
 
 ## Do Ax / DSPy own the control plane?
 

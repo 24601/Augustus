@@ -6344,3 +6344,206 @@ uncalibrated vs Jev RLCD); `mental-models.md`;
 `methods-catalog.md`; `toolbox-mapping.md`;
 `agent-self-assessment.md`; `optimizer-integration.md` (soft
 labels ≠ teacher-of-record). No wrapper.
+
+## 62. Permission vs probability (greenlight), judgment ≠ permission (skill-broker outline), eval integrity / instrument-not-score (dinostomp) (2026-09-18 ~22:38 Boise)
+
+America/Boise ~22:38 = 2026-09-19T04:38Z. Docs-only fold into
+open PR #2 (`cursor/augustus-store-envelope-00b4`). Not a
+competing PR. Archer 27B drop still **WATCH**. Identity lock vs
+`typesafe-ai` / `tenbin` / `decision-first` holds. No wrapper,
+no pip/hook/venv/.env/uv/npm/bun/`omp plugin`/YAML how-to, no
+copied key-file paths. No invented metrics. Do not re-fold
+§50–§61. TypeSafe Jev is the documented exemplar, not the
+monopoly. Augustus stays how-to-apply / mental model /
+architecture / toolbelt + jevals/Harbor practice — **not** a
+thin Jev skill. Backend-agnostic
+categorization/scoring/decision-only class.
+
+Watch archive path `/workspace/jev-archive/2026-09-18/223856`
+is **not present** on this VM (searched `/workspace`,
+`/home/ubuntu`, `/opt`, `/tmp`). Receipts this pass are live
+GitHub READMEs + `gh api` metadata (2026-09-19 ~04:45Z).
+
+Three HIGH **mental-model / measurement** signals: measured
+OMP tool-approval *suppression* where the operator owns the
+bar and the plugin never self-tunes it (permission vs
+probability); a Hermes pre-agent skill-intervention *outline*
+that keeps authority in code and never lets Jev grant access
+(judgment ≠ permission — **not a production recipe**); an
+eval verification layer that checks the instrument, not just
+the score, with first-class TypeSafe Jev question testing
+(`dinostomp jev` as if-statement hygiene). Optional MED
+toolbelt only. Curated census recorded; X MCP still flapping.
+
+### HIGH
+
+1. **[`SemetricLabs/omp-greenlight`](https://github.com/SemetricLabs/omp-greenlight)**
+   (Python; MIT; created 2026-09-19T04:06:43Z; 0★ this pass;
+   GitHub `size` 0 this pass — README is live). OMP plugin
+   that grades every **gated** tool call with Jev and
+   **suppresses the approval prompt** when Jev says allow.
+   Everything else still prompts, with Jev's verdict attached.
+   Not a sandbox. Not a security boundary. Installing it
+   hands auto-approval authority for shell commands to a
+   third-party model. The host's `bash.patterns: deny` remains
+   the deterministic floor and still fires **ahead** of
+   Greenlight (covered by a test). Distinct from
+   [`TannerMidd/specpi-jev-guard`](https://github.com/TannerMidd/specpi-jev-guard)
+   (single danger score; static fast path miss),
+   [`fdemir/toolgate`](https://github.com/fdemir/toolgate)
+   (pre-exec allow/block/review; Jev is not authorization),
+   [`somoore/interlock`](https://github.com/somoore/interlock)
+   (capability kernel), and
+   [`luw2007/omp-jev-extensions`](https://github.com/luw2007/omp-jev-extensions)
+   (fail-open *route* vs prompt suppression). Composes with
+   [`mossburgh/waymode`](https://github.com/mossburgh/waymode)
+   (host-owned handlers/permissions) and omp-jev-extensions.
+   Do not copy `omp plugin install` / YAML how-to.
+
+   **Measured traffic *theirs*:** **1,013 tool calls / 10
+   sessions / 8.95 session-hours.** Preset table (prompts
+   removed / unsafe auto-approvals of 94 labelled
+   *review-or-deny* rows on a **140-row corpus**):
+
+   | Preset | prompts removed | unsafe auto-approvals (of 94) |
+   |---|---|---|
+   | conservative | 29.9% | 0 |
+   | **default** | **40.9%** | **0** |
+   | permissive | 56.9% | 1 |
+   | aggressive | 72.9% | 7 |
+
+   Latency ~310 ms p50 / ~450 ms p95 **per gated call**;
+   ~1,258 input tokens. `yolo` = complete no-op. Cost
+   *theirs*: ~**$0.05** for the whole 1,013-call measurement
+   vs frontier LLM gates 54–252× (their table). **Operator
+   owns thresholds** — the plugin never self-tunes the safety
+   bar, because a self-adjusting bar cannot be audited by the
+   person accepting the risk. Live traffic has **no
+   ground-truth labels**; 0/94 is the labelled corpus, and it
+   is small. Cite **40.9%**, not a rounded 41%, and cite 0/94
+   as corpus, not live traffic.
+
+   **Deliberately not shipped:** (1) the agent's own prose is
+   never sent — adding it took corpus safety misses from
+   **0 → 3**; (2) never shadows a built-in tool (would bypass
+   OMP deny rules). Static fast path measured at 0/1,013
+   matches and **deleted**. Headless: non-allow blocks only
+   the `deny` class. Host-bridge tool calls (browser,
+   computer-use) are invisible to the gate.
+
+2. **[`adamjralph/skill-broker`](https://github.com/adamjralph/skill-broker)**
+   (language null; license null; created
+   2026-09-19T04:35:59Z; 0★; GitHub `size` 0). **Project-
+   definition outline only.** `PROJECT-OUTLINE.md` is
+   authoritative; next step is a to-spec workflow, **not a
+   build**. Do **not** treat as a production recipe. Do not
+   copy an install.
+
+   Hermes pre-agent skill intervention: **deterministic code
+   owns authority, catalog, limits, grants**; Jev only scores
+   relevance/confidence over a small authorised candidate
+   set and **never grants access**. Candidates ≠ grants.
+   Unknown/unauthorised Jev IDs are rejected. Jev unavailable
+   or invalid → deterministic fallback or **foundation-only;
+   never broaden access.** Replayable route evidence must
+   distinguish retrieval, judgment, and code-enforced grant.
+   Foundation skills stay native; specialised skills are
+   brokered after the path is proved. Shadow mode before
+   injection. Unauthorised-grant rate must remain zero.
+
+   Distinct from
+   [`de-niji/jev-hermes`](https://github.com/de-niji/jev-hermes)
+   (route ≠ memory; cheap intent skips tours) and from
+   applied-mappings §5 *shipped* routers (GodsBoy, routeKit,
+   jev-adaptive-thinking, omp-jev-extensions). Same mental
+   model as interlock/toolgate **authority split**, applied
+   to skill packs rather than tool execution. Status:
+   **Hypothesis / outline.** Delivery stages 1–9; first
+   production pilot is not claimed.
+
+3. **[`collapseindex/dinostomp`](https://github.com/collapseindex/dinostomp)**
+   (Python; README **Apache-2.0**, GitHub license
+   **NOASSERTION**; created 2026-08-09T07:59:32Z; **5★**;
+   size 11288 this pass). Eval verification layer: **"checks
+   the instrument, not just the score"** — data, scorer,
+   runs, numbers, claims, and itself. 100 checks;
+   FINDINGS.md **189** entries (F 52 / D 99 / N 38); **99 of
+   189 against itself**. "The tool proposes. The human
+   disposes." Anti-soundness-theater cousin of
+   [`24601/rh-guard`](https://github.com/24601/rh-guard)
+   (eval-integrity sidecar),
+   [`egma-ai/jev-reviewer`](https://github.com/egma-ai/jev-reviewer)
+   (attention ≠ correctness), and
+   [`JoelLewis/game-coach`](https://github.com/JoelLewis/game-coach)
+   (engine owns truth / Jev owns judgment). Harbor/jevals:
+   question hygiene **beside** jevals, not a Harbor taskset.
+   Do not copy pip how-to.
+
+   First-class TypeSafe Jev testing: `dinostomp jev` tests a
+   Jev question **like an if-statement** — accuracy, p(yes)
+   threshold, ECE, blank-input lean, rewording flips. Demo
+   *theirs* (`urgency.jev.yaml`, 24 examples, jev-1.13.0):
+   accuracy 100% (24/24; 95% interval 86–100%), ECE **0.062**
+   (bar 0.10), blank input answers 'no' at 0.81, rewording
+   0 of 60 flipped. That card is **their 24-example demo**,
+   not a class ranking. Anti-pattern: treating a Jev score
+   as eval truth without auditing data/scorer/claims.
+
+### MED (toolbelt; brief)
+
+- **[`nrdz-labs/fast-jev-opencode`](https://github.com/nrdz-labs/fast-jev-opencode)**
+  (TypeScript; MIT; created 2026-09-19T03:51:47Z; 1★).
+  OpenCode V2 context-hook port of fast-jev-compaction.
+  Fail-open; cache-backed. Distinct from
+  `zaycruz/fast-jev-compaction-pi`.
+- **[`yikangy873-gif/jev-desktop`](https://github.com/yikangy873-gif/jev-desktop)**
+  (JavaScript; MIT; created 2026-09-19T04:22:48Z; 0★).
+  TypeSafe Jev action selection inside Codex Computer Use.
+  Cousin of observe→score→act, not a new species.
+- **[`MrDiamondBallz/jev-agent-integration`](https://github.com/MrDiamondBallz/jev-agent-integration)**
+  (Python; MIT; created 2026-09-19T03:56:05Z; 0★).
+  Provider-neutral Hermes skill/plugin. Portable Agent Skill.
+  Distinct from skill-broker (this one is a plugin; skill-
+  broker is an outline for pre-agent *authority*).
+- **[`bohutang/sift`](https://github.com/bohutang/sift)**
+  (JavaScript; MIT; created 2026-09-19T03:46:56Z; 0★).
+  Chrome extension: X feed Substance/Humor/Chit-chat/Promo/
+  Junk/AI-written labels via Jev; hide the ones you don't
+  want. Showcase, not a new mapping.
+- **[`CorieW/JevExplore`](https://github.com/CorieW/JevExplore)**
+  (TypeScript; license null; created 2026-09-19T04:22:25Z;
+  0★). Bounded web action-space discovery with Playwright +
+  Jev. Distinct from closed-vote JevOnly / waymode.
+
+### Curated status (watch numbers; not re-derived here)
+
+- Awesomejev **flat 488/21644** (not independently re-counted).
+- Live SemIf **1641★** (+13). jevlike **905★** (+4).
+- Tracker likes **41** (+1); Hub `lastModified` unchanged
+  this pass. Laya **yes**. Blackwood **ABSENT**.
+- X MCP still flapping — `pages_archived` **0**.
+
+These are census, not placements. SemIf / jevlike / Laya /
+Blackwood already have cards; no reopen.
+
+### Omni / Jev-omni / Archer
+
+Still **WATCH**. No Hub weights. A measured OMP prompt-
+suppression plugin, an outline that says Jev never grants
+access, and an eval-instrument auditor are **not** that drop.
+
+### Cross-links
+
+Cards: `applied-mappings.md` §5 (greenlight prompt
+suppression; skill-broker outline), §7 (permission vs
+probability; not a sandbox); `mappings.md` §7 (operator owns
+the criterion; plugin never self-tunes the bar), §8 (host
+deny stays above Greenlight; Jev never grants skill access);
+`mixed-architecture.md` (fail table + gallery);
+`validation.md` (greenlight 1013/10 / 40.9% / 0 of 94;
+dinostomp jev-as-if ECE 0.062 *theirs*); `faq.md` (Jev is not
+authorization; judgment ≠ permission; instrument not score);
+`mental-models.md`; `methods-catalog.md`;
+`toolbox-mapping.md`; `agent-self-assessment.md`;
+`formal-methods.md` (dinostomp anti-soundness-theater). No
+wrapper.

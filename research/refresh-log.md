@@ -792,10 +792,25 @@
   CHANGELOG, README.
 - notes.md §61; sources.json; findings.md batch #45. No wrapper.
 
-
-
-
-
-
-
-
+## 2026-09-19 ~04:45 UTC — hourly ~22:38 Boise 2026-09-18 fold (§62)
+- Docs-only into PR #2. Archer still Watch. Archive path
+  `/workspace/jev-archive/2026-09-18/223856` absent; live GitHub
+  READMEs + `gh api`.
+- HIGH: [SemetricLabs/omp-greenlight](https://github.com/SemetricLabs/omp-greenlight)
+  1,013/10; default 40.9% / 0 of 94; operator owns bar; not a sandbox.
+  [adamjralph/skill-broker](https://github.com/adamjralph/skill-broker)
+  outline; Jev never grants access; not a production recipe.
+  [collapseindex/dinostomp](https://github.com/collapseindex/dinostomp)
+  instrument-not-score; `dinostomp jev` ECE 0.062 *theirs* on 24;
+  FINDINGS 189 / 99 against itself.
+- MED: nrdz-labs/fast-jev-opencode, yikangy873-gif/jev-desktop,
+  MrDiamondBallz/jev-agent-integration, bohutang/sift,
+  CorieW/JevExplore.
+- Census: Awesomejev 488/21644; SemIf 1641 (+13); jevlike 905 (+4);
+  tracker likes 41 (+1); lastModified unchanged; Laya yes;
+  Blackwood ABSENT; X MCP flapping (`pages_archived` 0).
+- Cards: SKILL.md, applied-mappings §5/§7, mappings §7/§8/§18,
+  mixed-architecture (fail table + gallery), validation, faq,
+  mental-models, methods-catalog, toolbox, agent-self-assessment,
+  formal-methods, ecosystem, CHANGELOG, README.
+- notes.md §62; sources.json; findings.md batch #46. No wrapper.

@@ -521,6 +521,9 @@ Use these as *existence proofs of a position*. Write your own card.
 | Constrained-AR speed vs calibration | O(1) structured decode vs a Noul | Measure Brier/ECE, not only latency (**Empirical**: system-one-benchmark n=50; PCD Brier 0.3884 vs Jev 0.1096) | Schema-valid is not calibrated |
 | Closed-vote CU | task with no planner LLM | Code builds options; model only picks (**Empirical**: JevOnly; waymode host-owned) | Type without generation; `completed` ≠ server-state success |
 | OMP/pi gate | done-check / subagent topology | Choice, not boolean; fail-open missing Jev (**Empirical**: omp-jev-extensions) | Contrast pi-jev-approver fail-closed |
+| Permission vs probability | auto-approve a gated tool call | Operator-owned criterion; plugin never self-tunes the bar (**Empirical**: omp-greenlight 40.9% / 0 of 94 *theirs*) | Not a sandbox; host deny stays above; live traffic unlabelled |
+| Judgment ≠ permission | which specialised skills to inject | Jev scores relevance; code owns grants (**Hypothesis / outline**: skill-broker) | Never broaden access on Jev failure; not a production recipe |
+| Eval integrity / instrument | is this eval's score trustworthy | Audit data/scorer/runs/claims; test a Jev question like an if (**Empirical**: dinostomp; ECE 0.062 *theirs* on 24) | 99 of 189 findings against itself; not a Harbor taskset |
 
 Rejected in every domain: replacing the ledger with a vibe; replacing
 the interlock with confidence; replacing the essay with a Noul;

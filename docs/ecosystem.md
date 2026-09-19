@@ -271,6 +271,15 @@ Architecture notes, not a pip / npm / bun catalog. `notes.md` §61. TypeSafe Jev
 - **mossburgh/waymode** — MIT, TypeScript. App retains handlers/permissions/validation/state; Jev over live typed actions. 24/26 + 34/36 *theirs* — bounded development evidence, not a self-driving proof. Not on npm.
 - **luw2007/omp-jev-extensions** — MIT, TypeScript. OMP/pi `jev_acceptance_gate` + `jev_route`. **Fail-open** if Jev missing (`confidence: 0`). Contrast pi-jev-approver fail-closed.
 
+### Hourly ~22:38 Boise 2026-09-18 / 04:38 UTC 2026-09-19 (permission vs probability, judgment ≠ permission outline, eval instrument-not-score)
+
+Architecture notes, not an `omp plugin` / pip catalog. `notes.md` §62. TypeSafe Jev is the exemplar, not the monopoly. Archer still Watch. No invented metrics. Do not re-fold §50–§61. Watch archive path missing this VM; receipts from live GitHub.
+
+- **SemetricLabs/omp-greenlight** — MIT, Python. OMP plugin grades gated tool calls and suppresses the approval prompt when Jev says allow. **1,013 calls / 10 sessions / 8.95 h.** Default **40.9%** prompts removed; **0 of 94** unsafe auto-approvals on a 140-row labelled corpus (live traffic unlabelled). Operator owns thresholds; plugin never self-tunes the safety bar. Not a sandbox; host `bash.patterns: deny` fires first. Agent prose withheld (0→3 corpus misses). Never shadows a built-in tool. Composes with waymode / omp-jev-extensions. Distinct from specpi-jev-guard / toolgate / interlock.
+- **adamjralph/skill-broker** — language/license null. **Project-outline only** (`PROJECT-OUTLINE.md`). Hermes pre-agent: code owns catalog/policy/grants; Jev scores relevance/confidence and **never grants access**. Jev down → foundation-only; never broaden access. Replayable route evidence. **Not a production recipe.** Distinct from jev-hermes and shipped §5 routers.
+- **collapseindex/dinostomp** — Python; README Apache-2.0 (GitHub NOASSERTION); 5★. Eval verification layer: checks the instrument, not just the score. FINDINGS.md 189 (F 52 / D 99 / N 38); **99 against itself**. `dinostomp jev` tests a Jev question like an if-statement (accuracy / p(yes) cut / ECE / blank lean / rewording). Demo *theirs* 24 examples: 100% / ECE **0.062**. Beside jevals, not a Harbor taskset. Anti-soundness-theater cousin of rh-guard / egma / game-coach.
+- MED: **nrdz-labs/fast-jev-opencode** (MIT, TypeScript; OpenCode V2 context-hook port of fast-jev-compaction; fail-open; 1★); **yikangy873-gif/jev-desktop** (MIT, JS; Codex Computer Use action selection); **MrDiamondBallz/jev-agent-integration** (MIT, Python; provider-neutral Hermes skill/plugin); **bohutang/sift** (MIT, JS; X feed semantic labels/hide); **CorieW/JevExplore** (TypeScript; license null; bounded web action-space discovery).
+
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs
 Apalache; DST trio Antithesis / Resonate HQ / PufferLib):
