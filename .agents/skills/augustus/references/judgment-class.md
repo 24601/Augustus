@@ -642,6 +642,19 @@ before the forward pass. Ships uncalibrated (ECE
 (0.619 vs 0.684) — route, do not replace. Sibling of
 already-folded `laya-typed-decisions`. Do not copy
 `pip install laya` (`notes.md` §72).
+**Laya GitHub/PyPI packaging (not a new species;
+2026-09-19 ~09:07):**
+[`NandhaKishorM/laya`](https://github.com/NandhaKishorM/laya)
+(Apache-2.0; **710★**). SDK + `Router` over the three
+Hub checkpoints already watched. T4 *theirs*: 1q
+**32.8 ms**; post-T ECE **0.081** vs Jev **0.246**;
+Banking77 **0.425** vs Jev **0.870** (token budget;
+72 vs 77 labels). typed-decisions **0.766** is a
+fine-tune (base 0.362/0.342 vs majority 0.461). Jev
+rows third-party unpublished-here. 0.85 gating is
+*theirs*, still soft. **≠** TypeSafe `/v1/systemone`.
+**≠** githubnext/localjev. Do not copy pip / preload /
+`head_max_len` (`notes.md` §76).
 **Schema-conditioned DeBERTa scorer (Hub; GitHub 404;
 2026-09-19 ~07:49):**
 [`jev-schema-scorer-deberta-v3-large`](https://huggingface.co/mobarmg/jev-schema-scorer-deberta-v3-large)
@@ -821,6 +834,8 @@ laya-bench, decision-token LoRA), §48 (jev-local stub, laya-onnx),
 GLiNER2 spec),
 §75 (githubnext/localjev prompted JSON ≠ structured
 logit read; ≠ kunchenguid/local-jev),
+§76 (NandhaKishorM/laya packaging ≠ new species;
+Router script-before-p; vs-Jev unpublished-here),
 §71 (openJev-verdict-2.0 competing NAR as claim-audit ≠
 IamBusy/OpenJev),
 §49 (boundary map; DMB vs constrained LLMs; von; open-alternative-jev). Before

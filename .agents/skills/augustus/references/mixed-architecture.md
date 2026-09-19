@@ -285,6 +285,11 @@ not a global virtue:
 | Treat githubnext/localjev JSON probs as OpenJev logits | **Fail closed** (wire-compat ≠ logit-equiv) | razorback16 structured-read + logprobs vs prompted JSON → validate/retry → normalize + entropy confidence. SDK drop-in is the *wire* |
 | Threshold LocalJev self-reported p as a calibrated Noul | **Fail closed** until labelled calibration on *your* workload (`githubnext/localjev`) | README: evaluate before consequential use. Bake-off: do not treat outputs as calibrated (wrong-BoolQ high conf → large NLL). JSON-valid ≠ picked-right |
 | Swap LM Studio in and call it OpenJev parity | **Fail closed** (runner gap) | DiffusionGemma load still open (mlx-engine#336 / bug-tracker#2037 *theirs*, 18 Sep 2026). Chat Completions keeps the prompted-prob path. Structured-read primitives are the path |
+| Collapse NandhaKishorM/laya into Hub-only / localjev / TypeSafe drop-in | **Fail closed** (qualify the face) | GitHub/PyPI packaging of Hub Laya; **≠** new species; **≠** githubnext/localjev; **≠** `/v1/systemone` SDK drop-in. Always write **NandhaKishorM/laya** |
+| Treat typed-decisions 0.766 as zero-shot | **Fail closed** (fine-tune on that split) | Base ckpts 0.362 / 0.342 vs majority 0.461 *theirs*. Fast base to specialise |
+| Hard-act at Laya conf 0.85 | **Fail closed** until Harbor cal on *your* labels | README recipe. Khmer 0.000@0.952 already proves gating cannot catch script OOD. 0.85 is *theirs* |
+| Quote the vs-Jev table as independently measured here | **Fail closed** (third-party unpublished-here) | No TypeSafe API access; sample sizes/prompts differ; Banking77 72 vs 77 labels |
+| Treat post-T ECE 0.081 as raw ECE | **Fail closed** (name the temperature) | Raw typed-decisions ECE 0.213 vs Jev 0.144. 0.081 is after domain T fit |
 
 Worked placements (2026-09-18 topic:jev hour + prior archive):
 
@@ -739,6 +744,9 @@ decision-design card. Do not clone APIs from READMEs.
 | Institutional local `/v1/systemone` (GitHub Next) | TypeSafe SDK drop-in on DiffusionGemma via Chat Completions | Wire-compat ≠ logit-equiv; entropy-conf is generated | githubnext/localjev (MIT; **261★**). **≠** kunchenguid/local-jev. **≠** razorback16/openjev structured-read. **≠** IamBusy/OpenJev `/v1/decide`. Do not copy bun / `.env` |
 | Prompted-JSON bake-off (Harbor-shaped) | AG News / BoolQ / SST-5; 5 models × 120 × 2 lengths = 1,200 | Prompted pipeline, **not** logits; no definitive winner; not calibrated | githubnext/localjev eval *theirs* M5 Max: Qwen3.6 short macro **76.7%**; Gemma 4 26B-A4B **75.0%** (SST-5 MAE **0.533**); DiffusionGemma **74.2%**. Qwen vs Gemma 26B = 2/120. Long-input both **69.2%**. Serving default unchanged |
 | Runner gap vs structured-read | Chat Completions host ≠ OpenJev parity | Seeded canvas + read-only denoise + selected-token logits | LM Studio cannot load DiffusionGemma (18 Sep 2026 *theirs*). Cousin djev-spark already §36 |
+| Laya packaging (not a new species) | Choice/Score/Noul NAR + Router over three Hub ckpts | Script-before-p; auto_task_detection off | NandhaKishorM/laya (Apache-2.0; **710★**; PyPI). Weights: convaiinnovations/{laya, laya-multilingual, laya-typed-decisions}. **≠** TypeSafe `/v1/systemone`. Do not copy pip |
+| Where Jev still leads | High-cardinality Choice; soft-acc; raw ECE | Token budget `head_max_len`; 255 options | Banking77 Jev **0.870** (72) vs Laya **0.425** (77, ~3–4 tok/label); soft-acc 0.580 vs 0.471; raw ECE 0.144 vs 0.213 *theirs* (third-party Jev rows unpublished-here) |
+| Where Laya leads on *their* T4 card | Latency; post-T ECE; multilingual router | Route by script before p | 1q **32.8 ms** vs Jev p50 236–276 ms (~7.8×); post-T ECE **0.081** vs 0.246; Khmer 0.000@0.952 is why Router exists |
 
 On-device / Home Assistant / mobile are newly-feasible via the economics
 inversion, not proven ports of every app. Named placements this hour
@@ -754,12 +762,15 @@ Reproduce/open heads (`rongxinzy/LightJev`, openjev family,
 encoder [`open-jev-deberta-v3-large`](https://huggingface.co/com-kotobalabs/open-jev-deberta-v3-large),
 LoRA [`jev-gate-student-b`](https://huggingface.co/SargeDev/jev-gate-student-b),
 companion packaging [`laya-typed-decisions`](https://huggingface.co/convaiinnovations/laya-typed-decisions),
+GitHub/PyPI face [`NandhaKishorM/laya`](https://github.com/NandhaKishorM/laya) (**710★**; Router; not a new species; `notes.md` §76),
 [`jaredpalmer/kev`](https://github.com/jaredpalmer/kev),
 [`BlackwoodAI/blackwood-rlcd`](https://huggingface.co/BlackwoodAI/blackwood-rlcd))
 are evidence that the *interface* (Choice/Score/Noul, or yes/no logits
 as P(relevant)) is the transferable part — not a request to implement a
 backbone or a second API skill. Laya: self-hostable, text-only, 512
-tokens/question; vendor benches vs Jev are **claims**. Encoder open-jev:
+tokens/question; vendor benches vs Jev are **claims** (this hour the
+author published the vs-Jev table *and* named it third-party /
+unpublished-here — `notes.md` §76). Encoder open-jev:
 public gold, OOD drop. LoRA student: teacher-copy. **kev**: public gold,
 pointer readout, System One API drop-in; ID ECE only; not a teacher-copy
 (`notes.md` §45). Hub fetch:

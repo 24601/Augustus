@@ -221,3 +221,9 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     *writes* probabilities rather than exposing logits. Entropy
     confidence is computed in code from that vector. Full cards:
     `judgment-class.md`, `mixed-architecture.md`, `validation.md`.
+16. **Script-before-p router** (NandhaKishorM/laya packaging of Hub
+    Laya): pick the checkpoint from script/lang/task *before* the
+    forward pass, because confidence will not drop on OOD (Khmer
+    0.000@0.952). Post-T ECE is not raw ECE; 0.85 is still soft.
+    Full cards: `judgment-class.md`, `mixed-architecture.md`,
+    `faq.md`, `validation.md`.

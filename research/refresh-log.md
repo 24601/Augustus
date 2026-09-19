@@ -1141,3 +1141,27 @@
 - notes.md §75; sources.json (440 sources, 437 unique URLs,
   retrieved 2026-09-19T14:56Z); findings.md batch #59.
   No wrapper.
+## 2026-09-19 ~15:07 UTC — user-provided NandhaKishorM/laya (~09:07 Boise)
+- Docs-only into PR #2. `notes.md` §76. Skip Archer.
+  Hunches labeled. No wrapper. No invented metrics.
+  Always **NandhaKishorM/laya**. Packaging of Hub Laya,
+  not a new species. **≠** TypeSafe `/v1/systemone`.
+  **≠** githubnext/localjev.
+- Receipts: user SIGNAL + live README `f12882b` ~15:07
+  UTC. Apache-2.0; **710★** (user 687; hourly 691);
+  62 forks; 7 issues; Python.
+- Folded: Router script-before-p (Khmer 0.000@0.952);
+  where Jev leads (Banking77 0.425 vs 0.870; soft-acc
+  0.471 vs 0.580; raw ECE 0.213 vs 0.144); where Laya
+  leads (T4 32.8 ms; post-T ECE 0.081 vs 0.246);
+  0.766 is fine-tune not zero-shot; 0.85 still soft;
+  vs-Jev unpublished-here. Do not copy pip / preload.
+- Census not re-derived. Archer still NOT landed.
+- Cards: SKILL.md, judgment-class, mixed-architecture,
+  faq, mental-models, validation, methods-catalog,
+  toolbox, composition-algebra, question-design,
+  mappings §7, applied-mappings §4/§8, ecosystem,
+  CHANGELOG, README.
+- notes.md §76; sources.json (443 sources, 440 unique URLs,
+  retrieved 2026-09-19T15:07Z); findings.md batch #60.
+  No wrapper.

@@ -1710,3 +1710,47 @@ LM Studio still cannot load DiffusionGemma (18 Sep 2026 *theirs*).
 Even after Chat Completions support, swapping runners is not
 OpenJev parity — the runner must expose structured-read primitives.
 Do not copy bun / `.env`. `notes.md` §75.
+
+## Is NandhaKishorM/laya a new System One species?
+
+No. [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)
+(Apache-2.0; **710★**) is the GitHub/PyPI packaging of
+Hub Laya we already watch
+([convaiinnovations/laya](https://huggingface.co/convaiinnovations/laya),
+[laya-multilingual](https://huggingface.co/convaiinnovations/laya-multilingual),
+[laya-typed-decisions](https://huggingface.co/convaiinnovations/laya-typed-decisions)).
+Choice / Score / Noul, RLCD, NAR encoder. The new face
+is `Router` (script-before-p) plus an honest vs-Jev
+table. Always qualify GitHub vs Hub. `notes.md` §18,
+§42, §46, §72, §76.
+
+## Is Laya a TypeSafe `/v1/systemone` drop-in? Same as localjev?
+
+No, and no. Different Python API (`agent.predict` /
+`Router.predict`), not the TypeSafe SDK wire.
+[githubnext/localjev](https://github.com/githubnext/localjev)
+is a prompted-JSON Bun bridge. Do not copy `pip
+install laya`. `notes.md` §76.
+
+## Can I hard-act at Laya confidence 0.85?
+
+Not from the README snippet. 0.85 is *their*
+illustration because RLCD trains against strictly
+proper scoring — it is **not** a Harbor-calibrated
+threshold and **not** a class constant. Khmer 0.000
+acc at 95.2% confidence already shows gating cannot
+catch script OOD; route **before** p. Fit T and pick
+τ on *your* labels. `notes.md` §72, §76.
+
+## Did Laya beat Jev?
+
+Not as a class slogan. README: Jev figures are
+**third-party published, never measured here**;
+Banking77 is 72 vs 77 labels. Where Jev leads *on
+that table*: Banking77 **0.870 vs 0.425**, soft-acc
+**0.580 vs 0.471**, raw ECE **0.144 vs 0.213**. Where
+Laya leads *theirs*: T4 **32.8 ms** vs Jev p50
+236–276 ms; post-T ECE **0.081 vs 0.246**; multilingual
+router. typed-decisions **0.766** is a fine-tune on
+that split (base ckpts below majority 0.461). `notes.md`
+§76.

@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T14:56Z",
+  "retrieved": "2026-09-19T15:07Z",
   "sources": [
     {
       "kind": "docs",
@@ -2641,6 +2641,24 @@
       "title": "githubnext/localjev evaluation-results-2026-09-18",
       "url": "https://github.com/githubnext/localjev/blob/main/docs/evaluation-results-2026-09-18.md",
       "note": "First bake-off: 1,200 requests ~23.5 min Apple M5 Max oMLX 0.6.4 Bun 1.4.0. Prompted JSON pipeline, not logits. Short macro Qwen3.6 76.7% / Gemma 4 26B-A4B 75.0% / DiffusionGemma 74.2%. No definitive winner. Do not treat as calibrated. SHA 418cae7 this pass. notes.md \u00a775."
+    },
+    {
+      "kind": "github",
+      "title": "NandhaKishorM/laya",
+      "url": "https://github.com/NandhaKishorM/laya",
+      "note": "Apache-2.0; 710 stars; 62 forks; 7 issues; Python. Created 2026-09-18T04:46:33Z; pushed 2026-09-19T13:24:23Z; updated 2026-09-19T15:06:35Z. PyPI+Router packaging of Hub convaiinnovations/{laya,laya-multilingual,laya-typed-decisions}. Not a new species. README SHA f12882b this pass. T4 32.8 ms; post-T ECE 0.081 vs Jev 0.246; Banking77 0.425 vs 0.870; 0.766 fine-tune; Khmer 0.000@0.952. Jev rows third-party unpublished-here. notes.md \u00a776."
+    },
+    {
+      "kind": "pypi",
+      "title": "laya (PyPI)",
+      "url": "https://pypi.org/project/laya/",
+      "note": "Product face for NandhaKishorM/laya. Do not copy pip install as a recipe. notes.md \u00a776."
+    },
+    {
+      "kind": "hf",
+      "title": "convaiinnovations/laya-demo",
+      "url": "https://huggingface.co/spaces/convaiinnovations/laya-demo",
+      "note": "Interactive Space for Hub Laya / NandhaKishorM/laya packaging. notes.md \u00a776."
     }
   ]
 }

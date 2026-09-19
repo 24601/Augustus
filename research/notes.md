@@ -10389,3 +10389,257 @@ gallery); `faq.md`; `mental-models.md`;
 `toolbox-mapping.md`; `composition-algebra.md`;
 `question-design.md`; `mappings.md` §7 (self-reported p).
 Hunches labeled. No wrapper.
+## 76. User-provided HIGH — NandhaKishorM/laya packaging (2026-09-19 ~09:07 Boise / ~15:07 UTC)
+
+Docs-only into PR #2. **Skip Archer.** Do **not**
+re-fold §50–§75 HIGH except sibling contrast
+(Hub [`convaiinnovations/laya`](https://huggingface.co/convaiinnovations/laya)
+§18; [`laya-typed-decisions`](https://huggingface.co/convaiinnovations/laya-typed-decisions)
+§42 / §46; [`laya-multilingual`](https://huggingface.co/convaiinnovations/laya-multilingual)
+§72 Khmer OOD; Mattepiu/gqgs ONNX; laya-jolt byte
+parity). Hunches labeled. No wrappers, `pip install
+laya`, `Router(preload=True)`, `head_max_len` how-to,
+notebooks, copied ports, or invented metrics. TypeSafe
+Jev remains the exemplar — this signal is
+**packaging + vs-Jev honesty of the Laya class we
+already watch**, not a new species.
+
+**CRITICAL NAME LOCK.** Always write
+**[`NandhaKishorM/laya`](https://github.com/NandhaKishorM/laya)**
+for the GitHub/PyPI face. Weights stay under
+`convaiinnovations/{laya, laya-multilingual,
+laya-typed-decisions}`. This is **not** a TypeSafe
+`/v1/systemone` drop-in (different Python API). **≠**
+[githubnext/localjev](https://github.com/githubnext/localjev)
+(prompted-JSON Bun bridge). Not Archer.
+
+Receipts: user-provided SIGNAL + live GitHub README SHA
+`f12882b` this pass (matches uploaded README_26c5).
+Apache-2.0; **710★** (user SIGNAL 687; hourly watch
+691 — live this pass); 62 forks; 7 issues; Python;
+created 2026-09-18T04:46:33Z; pushed
+2026-09-19T13:24:23Z; updated 2026-09-19T15:06:35Z.
+PyPI: [laya](https://pypi.org/project/laya/). Demo:
+[convaiinnovations/laya-demo](https://huggingface.co/spaces/convaiinnovations/laya-demo).
+
+Meaning: **(1)** consolidation of the Laya class —
+Choice / Score / Noul, RLCD against strictly proper
+scoring, NAR encoder, three HF checkpoints, a `Router`
+that picks English / multilingual / typed-decisions
+**before** the forward pass; **(2)** honest where Jev
+still leads (high-cardinality Banking77; soft
+distribution matching; out-of-the-box raw ECE);
+**(3)** where Laya leads on *their* T4 card (latency;
+post-temperature ECE; multilingual router);
+**(4)** Khmer **0.000 @ 95.2% conf** as the first-class
+OOD lesson — Router exists because confidence cannot
+catch it; **(5)** README 0.85 gating recipe is still
+**soft** — do not hard-gate without Harbor cal on
+*your* labels.
+
+### HIGH
+
+1. **[`NandhaKishorM/laya`](https://github.com/NandhaKishorM/laya)**
+   — packaging HIGH of a class already on the watch.
+   Apache-2.0. README tagline *theirs*: "Multilingual,
+   non-autoregressive System 1 decision engine." Typed
+   `choice` / `score` / `noul` over text, email, ticket
+   or JSON in **a single forward pass**. Three
+   checkpoints, one `Router`:
+
+   | name | Hub | encoder | params | ctx |
+   |---|---|---|---|---|
+   | english | [`convaiinnovations/laya`](https://huggingface.co/convaiinnovations/laya) | ModernBERT-large | 421M | 512 |
+   | multilingual | [`laya-multilingual`](https://huggingface.co/convaiinnovations/laya-multilingual) | mmBERT-base | 322M | 1024 |
+   | typed-decisions | [`laya-typed-decisions`](https://huggingface.co/convaiinnovations/laya-typed-decisions) | ModernBERT-large | 421M | 1024 |
+
+   Three together ~**1.16B** / ~**4.6 GB** fp32
+   *theirs*. Default `Router` keeps **one** resident
+   (LRU). `auto_task_detection` is **off by default**:
+   typed-decisions is fine-tuned on four synthetic
+   workflows and must not be a silent fallback.
+
+   **Latency (Empirical as README; Tesla T4).**
+   1q multilingual **32.8 ms** / English 39.5 ms; 10q
+   **72.3 ms (7.2 ms/q)** vs Jev p50 236–276 ms
+   (AbdelStark / nibzard, cited — **third-party,
+   never measured here**). README: ~**7.8×** on one
+   question. Batched throughput 103–332 q/s on one T4
+   *theirs*. CPU demo-Space: lazy `max_loaded=1`
+   **4–6 s** on every language switch vs
+   `Router(preload=True)` **193–464 ms** / **none**
+   (do **not** copy preload as a recipe — it is a
+   memory/latency *fact*).
+
+   **Vs-Jev table is third-party unpublished-here
+   (Contract as README).** Every Laya figure is what
+   `Router().predict(...)` returns — the checkpoint
+   the router selects, not a hand-picked best of
+   three. "Jev figures are **third-party published,
+   never measured here** (no TypeSafe API access), so
+   sample sizes and prompts differ." Banking77 is
+   **72 vs 77 labels**, not identical. Do not paste
+   the table as an independent bake-off.
+
+   | | Jev 1.13.0 | Laya (routed) | |
+   |---|---|---|---|
+   | typed-decisions, 2,000 | 0.727 | **0.766** | +0.039 |
+   | AG News, 4 labels | 0.910 | **0.950** | +0.040 |
+   | DAIR Emotion, 6 labels | 0.480 | **0.595** | +0.115 |
+   | Banking77 (72 vs 77) | **0.870** | 0.425 | Jev leads >20 options |
+   | ECE *(lower better)* | 0.246 | **0.081** | 3× (post-temperature) |
+   | p50 latency, 1q | 236–276 ms | **32.8 ms** | 7.8× *theirs* |
+
+   On DAIR Emotion, README: Jev assigned **zero
+   probability to the true label on 16%** of examples
+   — a hard failure for anything branching on
+   confidence (*their* third-party row; not re-run
+   here).
+
+   **Where Jev still leads (Empirical as README).**
+   * **High-cardinality (>20 options at default
+     settings):** Banking77 Jev **0.870** (72 labels)
+     vs Laya **0.425** (77 labels at default 256-token
+     head budget). Options share a fixed
+     `head_max_len` (192 English / 256 multilingual),
+     so 77 labels get ~**3–4 tokens** each and become
+     indistinguishable. Jev supports up to **255**
+     options out-of-the-box. Quote the token-budget
+     *fact*; do not copy `agent.cfg["head_max_len"]`
+     as a recipe. Coarse-to-fine hierarchical Choice
+     is the class move when K is large.
+   * **Soft distribution matching:** typed-decisions
+     Laya argmax **0.766** vs Jev **0.727**; Jev
+     soft-acc **0.580** vs Laya **0.471**. Argmax ≠
+     matching the teacher's full distribution.
+   * **Out-of-the-box raw ECE:** before temperature,
+     typed-decisions ECE **0.213** vs Jev **0.144**.
+     The **0.081** headline is **post-temperature**.
+
+   **Where Laya leads on *their* card.** Latency (T4
+   32.8 ms vs Jev p50 236–276 ms). Post-T ECE 0.081 vs
+   0.246. Multilingual router (45 of 51 languages
+   usable *theirs*; Jev has no published 51-lang
+   card). Apache-2.0 self-host. **Hunch:** those are
+   *placement* axes (speed, post-T honesty, script
+   coverage), not a "Laya replaced Jev" slogan.
+
+   **typed-decisions is a fine-tune, not zero-shot
+   (Empirical as README).** 400 cases / 2,000
+   decisions / four workflows. Fine-tuned checkpoint
+   acc **0.766** / soft 0.471 / Brier **0.062** / ECE
+   0.213 / score MAE **0.242**. Base `laya` **0.362** /
+   `laya-multilingual` **0.342** vs majority-class
+   **0.461** / random **0.318**. "All of the capability
+   on this benchmark comes from fine-tuning." Teacher
+   self-agreement ceiling *0.735*. Jev published
+   *0.727 / 0.580 / 0.148 / 0.144 / 0.391*. Workflows
+   *theirs*: invoice 0.804 / security 0.766 / customer
+   0.764 / agent-trace 0.730; primitives noul 0.857 /
+   choice 0.733 / score 0.723. **Laya is a fast base to
+   specialise, not a zero-shot decision engine.**
+
+   **Router exists because p does not drop (Empirical
+   as README; delta of §72).** Shared 17,416-question
+   T4 card: MASSIVE English **0.783** vs multilingual
+   0.657; 13 other langs 0.306 vs **0.451**; XNLI EN
+   **0.860** vs 0.843; 14 other 0.521 vs **0.731**;
+   English-only suites **0.684** vs 0.619; 10q latency
+   159 ms vs **72 ms**. English checkpoint 51-lang
+   macro **0.227** / ECE **0.733**; only 23 of 51
+   ≥3× random. Khmer **0.000 at 95.2% confidence**.
+   Hindi 0.100 / Korean 0.103 with ECE **0.855**
+   (MASSIVE 20-option; random = 0.050). "The model's
+   own confidence gives no warning, so the routing
+   decision has to be made **before** the forward
+   pass." Script detection is the primary signal.
+   Sibling of §72 Hub card (MASSIVE multilingual
+   **0.366 / 0.387 / 45 of 51** vs English 0.227 /
+   0.733 / 23 of 51) — same lesson, now productized
+   as `Router` precedence (`model=` → task → optional
+   auto_task_detection → `lang=` → script → default
+   english).
+
+   **Post-T ECE ≠ raw ECE (Empirical as README).**
+   Both checkpoints over-confident as shipped. Refit
+   one T per (question type, option count) on held-out
+   data: mean ECE **0.466 → 0.081** (`laya`) /
+   **0.314 → 0.106** (`laya-multilingual`).
+   `laya-multilingual` **ships with no fitted
+   temperatures**. The vs-Jev **0.081 vs 0.246** row
+   is post-T on the English ckpt, not a raw-ECE win.
+
+   **English tasks (same-run *theirs*).** AG News
+   **0.947 / 0.937** (in mix); BoolQ **0.830 / 0.787**
+   (in mix); DAIR Emotion **0.573 / 0.513** held-out;
+   prompt-injections **0.698 / 0.578** held-out n=116;
+   SST-5 **0.372 / 0.282** held-out — ordinal `score`
+   is the weakest primitive.
+
+   **0.85 gating is *theirs*, still soft (Contract as
+   README).** RLCD → "confidence scores are
+   statistically meaningful"; snippet `if conf >= 0.85:
+   route_automatically`. That is an operating-point
+   *illustration*, not a class constant and not a
+   Harbor-calibrated threshold. Khmer 0.000 @ 0.952
+   already proves gating cannot catch script OOD.
+   **Fail closed** until you refit T and pick τ on
+   *your* labels. rh-guard owns the hard-gate cousin;
+   do not promote 0.85 into policy.
+
+   **Presets are schemas, not a second model.**
+   `router_questions` / `guard_questions` /
+   `moderation_questions` / `triage_questions` are
+   pre-tuned question packs. Policy still lives in
+   the caller. Do not copy the snippets as recipes.
+
+   **Not.** Not Archer. Not TypeSafe-hosted Jev. Not a
+   `/v1/systemone` SDK drop-in. Not githubnext/localjev.
+   Not omni / multimodal (text/JSON state). Not a new
+   species next to Hub Laya. Do not copy `pip install`,
+   Colab, Kaggle 2xT4 fine-tune (4–5 h / 4 epochs /
+   ~30k questions *theirs*), or `head_max_len` how-to.
+
+### Skip / already folded / access notes
+
+- **Hub `convaiinnovations/laya`** — already §18.
+  Sibling: this hour is GitHub/PyPI + Router +
+  published vs-Jev honesty.
+- **`laya-typed-decisions`** — already §42 / §46
+  (0.766 / Brier 0.066 unverified then). This hour
+  quotes the README's three-ckpt table (Brier
+  **0.062**; base below majority) and the
+  fine-tune-not-zero-shot limit. Do not overwrite §18.
+- **`laya-multilingual`** — already §72. Khmer
+  0.000@0.952 / ships uncalibrated / route by script.
+  This hour is the **Router productization** of that
+  lesson (script-before-p; preload cost; English vs
+  multilingual trade table).
+- **Mattepiu/laya-onnx, gqgs/laya-onnx, laya-jolt** —
+  replica substrates. Sibling contrast only.
+- **githubnext/localjev** — already §75. Different
+  hole (local `/v1/systemone` wire). Do not collapse
+  NAR encoder packaging into prompted-JSON Bun.
+- **classifier-dev** — already §73. Hosted Jev HTTP
+  vs self-hosted NAR encoder. Different product.
+- **openJev-verdict-2.0** — already §71. Competing NAR
+  *audit*; Laya-catalogued vendor baseline. Sibling
+  only.
+- Archer Hume open decision-model: still Watch.
+  **Skip Archer** this fold.
+
+### Curated status
+
+Census **not re-derived**. Archer still **NOT landed**.
+
+### Cross-links
+
+Cards: `judgment-class.md` (packaging ≠ new species;
+HF links); `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`validation.md` (vs-Jev unpublished-here; post-T vs
+raw ECE); `methods-catalog.md`; `toolbox-mapping.md`;
+`composition-algebra.md`; `question-design.md`;
+`mappings.md` §7 (0.85 *theirs*; post-T ≠ raw ECE);
+`applied-mappings.md` §4 (open NAR product vs
+classifier.dev HTTP). Hunches labeled. No wrapper.

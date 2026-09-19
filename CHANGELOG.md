@@ -817,6 +817,25 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   as calibrated. LM Studio still cannot load
   DiffusionGemma. Do not copy bun / `.env`. No wrapper.
   No invented metrics.
+- User-provided signal ~09:07 Boise 2026-09-19
+  (`research/notes.md` §76): **Skip Archer.** **Laya
+  packaging, not a new species**
+  ([NandhaKishorM/laya](https://github.com/NandhaKishorM/laya);
+  Apache-2.0; **710★**). PyPI + `Router` over Hub
+  [`laya`](https://huggingface.co/convaiinnovations/laya) /
+  [`laya-multilingual`](https://huggingface.co/convaiinnovations/laya-multilingual) /
+  [`laya-typed-decisions`](https://huggingface.co/convaiinnovations/laya-typed-decisions).
+  **≠** TypeSafe `/v1/systemone`. **≠** githubnext/localjev.
+  T4 *theirs*: 1q **32.8 ms** (~7.8× vs Jev p50
+  236–276 ms). Post-T ECE **0.081** vs Jev **0.246**;
+  raw ECE still trails (0.213 vs 0.144). Banking77
+  **0.425** vs Jev **0.870** (77 vs 72; ~3–4 tok/label).
+  typed-decisions **0.766** is a fine-tune (base
+  0.362/0.342 vs majority 0.461). Soft-acc 0.471 vs
+  0.580. Khmer **0.000@0.952** — Router because gating
+  cannot catch. 0.85 still soft. Jev rows third-party
+  unpublished-here. Do not copy pip / preload. No
+  wrapper. No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

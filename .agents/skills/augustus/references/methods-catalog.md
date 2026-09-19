@@ -73,6 +73,7 @@ judgment component is new).
 | Productized System One HTTP | Label + calibrated p as a public contract | Batch `{id,text}[]`; Jev primary; LLM fallback | Policy in the caller; `FALLBACK` honesty; read eval/README | **Empirical as README + eval** (classifier-dev **185★**; 400/650 ms; F1 0.887; granite 0.546 vs 0.800 *theirs*; `notes.md` §73) |
 | Evidence-synthesis pointer (two-pass) | Which line answers the extraction question | Relative Choice (+ none) then absolute Noul; copy verbatim | Human tick; *Not found* / *Unclear*; Noul ≥ 0.5 *theirs* | **Empirical as README** (choxos/jev-reviewer **12★**; ≠ egma-ai; 18-q **4.6 s / $0.0101** *theirs*; spot check not a validation study; `notes.md` §74) |
 | Prompted-JSON local `/v1/systemone` | Same wire, self-reported probs | Prompt → JSON vector → validate/retry → normalize + entropy confidence | Calibration on *your* labels; arithmetic/policy in code | **Empirical as README + eval** (githubnext/localjev **261★**; wire-compat ≠ logit-equiv; 1,200-req bake-off *theirs*; **≠** kunchenguid/local-jev; **≠** razorback16/openjev; `notes.md` §75) |
+| Open NAR packaging + script router | Same Laya class; pick ckpt before p | Router: model= / lang= / script / default english; auto_task_detection off | Harbor cal on *your* labels; 0.85 is *theirs*; hierarchical Choice when K>20 | **Empirical as README** (NandhaKishorM/laya **710★**; T4 32.8 ms; post-T ECE 0.081; Banking77 0.425 vs Jev 0.870 *theirs*; 0.766 fine-tune; **≠** TypeSafe drop-in; `notes.md` §76) |
 
 ## Verification & logic
 

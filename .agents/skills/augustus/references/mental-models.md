@@ -581,6 +581,10 @@ Use these as *existence proofs of a position*. Write your own card.
 | Wire-compat ≠ logit-equiv | does `/v1/systemone` mean the same p? | Prompted JSON + entropy-conf vs structured logit read (**Contract**: githubnext/localjev vs razorback16/openjev) | SDK drop-in is the wire. JSON-valid ≠ picked-right. **≠** kunchenguid/local-jev |
 | Institutional open-replica | who ships the interchange? | GitHub Next local Bun bridge (**Empirical as product**: githubnext/localjev **261★**) | Legitimacy ≠ quality headline. Softmax / generated JSON ≠ Noul |
 | Prompted-JSON bake-off | which local backbone on this *pipeline*? | Frozen AG News/BoolQ/SST-5; 1,200 req; caveats first (**Empirical as eval**: Qwen3.6 76.7% / Gemma 26B 75.0% / DiffusionGemma 74.2% short *theirs*) | No definitive winner (2/120). Not logits. Not calibrated. Not a Harbor taskset |
+| Packaging ≠ new species | is this a new head or the same Laya? | GitHub/PyPI + Router over Hub ckpts (**Empirical as README**: NandhaKishorM/laya **710★**) | Weights stay convaiinnovations/*. **≠** TypeSafe drop-in. **≠** localjev |
+| Token-budget cardinality | why does Jev win >20 options? | Options share `head_max_len`; ~3–4 tok/label at Banking77 (**Empirical as README**: 0.425 vs Jev 0.870 *theirs*) | Jev 255 options. Hierarchical Choice, not a silent cfg copy |
+| Post-T ECE ≠ raw ECE | which ECE is on the badge? | Temperature per (type, K) on held-out (**Empirical**: 0.466→0.081 / 0.314→0.106 *theirs*) | vs-Jev 0.081 is post-T. Raw typed-decisions 0.213 vs Jev 0.144. Multilingual ships uncalibrated |
+| Soft 0.85 gate | may I auto-act? | RLCD makes p *meaningful*, not Harbor-calibrated (**Contract**: README snippet) | Khmer 0.000@0.952. 0.85 is *theirs*. Route before p |
 
 Rejected in every domain: replacing the ledger with a vibe; replacing
 the interlock with confidence; replacing the essay with a Noul;

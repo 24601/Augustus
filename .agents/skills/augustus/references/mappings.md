@@ -805,6 +805,13 @@ eval caveats; 2026-09-19 ~08:56):**
 vector. Bake-off: do not treat outputs as calibrated
 (wrong-BoolQ high conf → large NLL; 40 samples/task
 *theirs*). Wire-compat ≠ logit-equiv. `notes.md` §75.
+**Laya 0.85 still soft / post-T ≠ raw ECE (Empirical
+as README; 2026-09-19 ~09:07):**
+[NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)
+— README `conf >= 0.85` is *theirs*, not Harbor-
+calibrated. Khmer 0.000@0.952. vs-Jev ECE **0.081** is
+post-temperature (raw 0.213 vs Jev 0.144). Banking77
+token-budget, not a Jev loss. `notes.md` §76.
 
 ## 8. Control structure → sensor ≠ constraint (Leveson)
 

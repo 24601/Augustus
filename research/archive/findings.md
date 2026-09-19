@@ -2024,3 +2024,32 @@ institutional local `/v1/systemone`; (hr) Harbor-shaped
 1,200-req bake-off with caveats; (hs) LM Studio runner
 gap / structured-read primitives for OpenJev parity;
 (ht) name lock vs kunchenguid/local-jev.
+
+## Batch #60 (2026-09-19 ~15:07 UTC / ~09:07 Boise) — NandhaKishorM/laya packaging, not a new species
+
+Note: `research/notes.md` §76. Docs-only. Folded into PR #2.
+Skip Archer. No invented metrics. Hunches labeled.
+User-provided SIGNAL + live README `f12882b`.
+**≠** TypeSafe `/v1/systemone`. **≠** githubnext/localjev.
+
+- **NandhaKishorM/laya (Empirical as README; delta of
+  Hub Laya §18 / §42 / §46 / §72).** Apache-2.0;
+  **710★**; 62 forks; Python. PyPI + `Router` over
+  convaiinnovations/{laya, laya-multilingual,
+  laya-typed-decisions}. T4 *theirs*: 1q **32.8 ms** /
+  10q **72.3 ms** (~7.8× vs Jev p50 236–276 ms cited
+  third-party). Post-T ECE **0.081** vs Jev **0.246**;
+  raw 0.213 vs 0.144. Banking77 **0.425** vs **0.870**
+  (77 vs 72; ~3–4 tok/label). typed-decisions **0.766**
+  fine-tune (base 0.362/0.342 vs majority 0.461).
+  Soft-acc 0.471 vs 0.580. Khmer **0.000@0.952** —
+  Router because gating cannot catch. 0.85 still soft.
+  Jev rows unpublished-here.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (hu) packaging ≠ new species /
+Router script-before-p; (hv) where Jev leads
+(Banking77 / soft-acc / raw ECE); (hw) post-T ECE ≠
+raw ECE / latency; (hx) 0.85 still soft / Khmer OOD
+productized; (hy) vs-Jev third-party unpublished-here.

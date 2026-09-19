@@ -639,6 +639,13 @@ batch `{id, text}[]` ~1000. Jev primary (`src/jev.ts`);
 LLM fallback only. Distinct from ask-jev-ai's
 six-question wall. Do not copy wrangler / `npm i -g`
 (`notes.md` §73).
+**Open NAR packaging cousin (Empirical as README;
+2026-09-19 ~09:07):**
+[NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)
+(Apache-2.0; **710★**) — self-hosted Choice/Score/Noul
+with a script-before-p `Router` over Hub checkpoints.
+Not a classification HTTP API. Not a TypeSafe drop-in.
+Do not copy `pip install laya` (`notes.md` §76).
 **Test**: moderation
 cost/coverage + false-hold vs false-publish; ranking recall *separate*
 from nDCG; select misroute rate; required-evidence recall vs Top-K.
@@ -1108,6 +1115,12 @@ the review lane. Life/business. Independent of TypeSafe
 *fallback when Jev is down*, not the product. Policy
 (hold / route / act) still lives in the caller.
 `notes.md` §73.
+**Open NAR cousin (Empirical as README;
+2026-09-19 ~09:07):**
+[NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)
+— same sandwich without a hosted Jev: Router picks
+the checkpoint, policy stays in the caller, 0.85 is
+still soft. `notes.md` §76.
 
 ## 9. Closed-vote computer-use
 
