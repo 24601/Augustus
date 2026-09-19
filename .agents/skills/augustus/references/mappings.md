@@ -637,6 +637,16 @@ kushals256/jevcache. Do not copy `curl | sh`
 auto-accepts; production capture flywheel.
 sutro-sh/jev-align ≠ caiovicentino/jev-align.
 Do not copy `uv` / keys (`notes.md` §93).
+**Compile-time index VOI (Empirical as README;
+2026-09-19 ~21:35):**
+[byenzyme/enzyme](https://github.com/byenzyme/enzyme)
+— pay for Jev at compile to shape the question
+program; runtime retrieval is catalyst handles.
+catalysts ≠ summaries. guidance ≠ hook. hosted
+bootstrap ≠ silent TypeSafe. ~350×
+cost / 1000× speed *theirs* for the compile path —
+do not invent Harbor numbers. Do not copy
+`curl | bash` (`notes.md` §94).
 **Human-feed VOI (Empirical as unreviewed goldens;
 qualify the owner; 2026-09-19 ~04:39):**
 [ThinkyMiner/Winnow](https://github.com/ThinkyMiner/Winnow)

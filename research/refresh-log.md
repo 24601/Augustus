@@ -1733,3 +1733,51 @@
 - notes.md §93; sources.json (572 sources, 569 unique
   URLs, retrieved 2026-09-19T21:23Z); findings.md
   batch #76. No wrapper.
+
+## 2026-09-19 ~21:35 UTC — SIGNAL enzyme + JA ModernBERT + Gemma/Nemotron/djev-dev/Laya essay (~15:32–15:35 Boise)
+- Docs-only on a **fresh PR off main** after #10 merge
+  `30438eff`. Never reopen merged #3 / #4 / #5 / #7 /
+  #8 / #9 / **#10**. `notes.md` §94. Skip Archer. Do
+  **not** re-fold jevcache/jev-align / §93. Hunches
+  labeled. No wrapper. No invented metrics. Quote
+  READMEs. Soft Noul ≠ hard safety. Not a Jev skill
+  dump. Backend-agnostic categorization/scoring/
+  decision class. rh-guard owns guidance-as-hook,
+  unofficial-local-as-Jev, hosted-bootstrap silent
+  FALLBACK, LFM-default-as-JA-softmax, Nemotron “not
+  calibrated replacement”, and Laya confidence-without-
+  competence; Augustus owns placement. Archive
+  tarball SIGNAL.md for three clusters (fetched
+  ~15:32–15:35 Boise). No 1541 fold PR was open
+  (`gh pr list --state open` had #11 modernbert-only
+  extending §93; this PR is the requested three-
+  cluster §94 fold with SIGNAL name locks).
+- Folded how-to-apply clusters: Compile-time System
+  One / questions-as-index (byenzyme/enzyme;
+  guidance ≠ hook; catalysts ≠ summaries;
+  compile-time System One; hosted bootstrap ≠
+  silent TypeSafe); unofficial JA ModernBERT
+  cross-encoder (argos1111/modernbert-ja-310m-jev;
+  unofficial ≠ TypeSafe; format_version
+  modernbert-jev/1; Argos1111/jev_local ≠
+  us/jev-local ≠ kunchenguid/local-jev; LFM
+  default ≠ ModernBERT backend); NAR class
+  legitimacy / multimodal / Router-OOD (@googlegemma;
+  pst2154/Nemotron_Jev; Nemotron ≠ TypeSafe Jev;
+  not a calibrated replacement; Davipar/djev-dev;
+  djev-dev complements djev-spark; images as Choice
+  options; Laya essay numbers *theirs*; Router/OOD
+  confidence).
+- Formal compose: `when asked`, unofficial local p,
+  Nemotron p, and Laya 0.85 are sensors. Soft Noul ≠
+  hard safety.
+- Census not re-derived. Archer still NOT landed.
+- Cards: SKILL.md, mixed-architecture fail table +
+  gallery, faq, mental-models, judgment-class,
+  validation, applied-mappings, mappings, toolbox,
+  composition-algebra items 82–84, question-design,
+  methods-catalog, formal-methods,
+  agent-self-assessment, ecosystem, CHANGELOG, README.
+- notes.md §94; sources.json (581 sources, 578 unique
+  URLs, retrieved 2026-09-19T21:35Z); findings.md
+  batch #77. No wrapper.

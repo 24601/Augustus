@@ -246,6 +246,16 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    [sutro-sh/jev-align](https://github.com/sutro-sh/jev-align)
    human labels only; score never auto-accepts;
    production capture flywheel (`notes.md` §93).
+   Compile-time guidance is not a self-check:
+   [byenzyme/enzyme](https://github.com/byenzyme/enzyme)
+   guidance ≠ hook; hosted bootstrap ≠ silent
+   TypeSafe (`notes.md` §94).
+   Unofficial local p is not TypeSafe calibration:
+   unofficial ≠ TypeSafe; LFM default ≠ ModernBERT
+   backend (`notes.md` §94).
+   Nemotron interface is not a calibrated replacement:
+   Nemotron ≠ TypeSafe Jev; not a calibrated
+   replacement (`notes.md` §94).
    Closed-vote extreme (no planner LLM):
    [JevOnly](https://github.com/buluoray/JevOnly) (`notes.md` §61).
    Host-owned product:

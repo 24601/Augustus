@@ -214,6 +214,12 @@ request, and treat a stale pin as a prior, never a setting.
 | Treat typesafe-go as official / likes as eval | Unofficial; catalog | Nibir1/typesafe-go ≠ official. awesome-jev-use-cases catalog. `notes.md` §92 |
 | Treat a ledger HIT as correctness / collapse into kushals256 | HIT ≠ truth; namesake | fingerprint after redact; recall vs decide. Cache hit ≠ correctness. hyperspaceai/jevcache ≠ kushals256/jevcache. `notes.md` §93 |
 | Auto-accept GEPA on a rising training score / collapse into caiovicentino | Human taste gate; namesake | human labels only; score never auto-accepts; production capture flywheel. sutro-sh/jev-align ≠ caiovicentino/jev-align. `notes.md` §93 |
+| Hard-gate enzyme `when asked` / treat catalysts as summaries | Guidance ≠ hook; index ≠ summary | guidance ≠ hook; catalysts ≠ summaries; compile-time System One. hosted bootstrap ≠ silent TypeSafe. `notes.md` §94 |
+| Treat unofficial JA ModernBERT as TypeSafe / skip format_version | Unofficial; lock | unofficial ≠ TypeSafe; format_version modernbert-jev/1. Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev. LFM default ≠ ModernBERT backend. `notes.md` §94 |
+| Treat enzyme hosted bootstrap / anonymous broker as TypeSafe Jev | Silent FALLBACK | hosted bootstrap ≠ silent TypeSafe. Name which backend answered. `notes.md` §94 |
+| Collapse Argos1111/jev_local into the JA Hub card / treat LFM vision as unofficial JA softmax | Dual-backend | LFM default ≠ ModernBERT backend. Default is LFM text/vision logprob; JA ModernBERT is optional text-only. `notes.md` §94 |
+| Treat Nemotron_Jev as calibrated Jev / collapse djev-dev into djev-spark | Interface ≠ identity | Nemotron ≠ TypeSafe Jev; not a calibrated replacement; djev-dev complements djev-spark; images as Choice options. `notes.md` §94 |
+| Paste Laya essay vs-Jev as a new bake-off / treat Khmer 0.952 as competence | Already §76; OOD | Laya essay numbers *theirs*; Router/OOD confidence. `notes.md` §94 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline
