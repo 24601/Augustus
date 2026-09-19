@@ -15045,20 +15045,23 @@ re-fold 1241 / §90.
       findings. rh-guard owns the gate cousin.
     - **[`fivethirty/pi-jev-gate`](https://github.com/fivethirty/pi-jev-gate)**
       (TypeScript MIT; **0★**; created 2026-09-19T19:44Z;
-      HEAD `5fee5e9`; README SHA `5dd89ee6`; GitHub
+      HEAD `902f4e6`; README SHA `62482af1`; GitHub
       `size` 0 this pass — files present). Pi auto-mode
       checker. Read-only allowlist skips `read`;
       everything else, including custom tools, is
-      judged. Ask band **removed**. pi-jev-gate fail-open binary p(block)≥0.50. Fail-open if
-      the checker errors. OpenRouter Decisions.
-      rh-guard owns the gate cousin. **≠**
-      pi-jev-approver (fail-closed).
+      judged. Ask band **removed**. pi-jev-gate fail-closed; choice is the verdict.
+      Fail-closed if the checker errors / no
+      credential / no verdict. No local threshold.
+      OpenRouter Decisions. rh-guard owns the gate
+      cousin. **≠** pi-jev-approver (also
+      fail-closed; different product).
 
     **Mental model:** read the probability; do not
     hard-argmax soft judgment into “safety.” Soft
-    Noul ≠ hard safety: a mid-band is a refusal; a
-    binary p(block)≥0.50 is still a sensor; fail-open
-    checker-down is polarity, not a proof.
+    Noul ≠ hard safety: a mid-band is a refusal;
+    pi-jev-gate fail-closed; choice is the verdict
+    (no local 0.50 threshold; checker-down blocks).
+    Still a sensor; rh-guard owns.
 
     **Name lock:** Augustus **cross-refs**; rh-guard
     owns CI/exec gates. Do not copy `pip` / `pi
@@ -15076,11 +15079,12 @@ Switchyard advisory never loads skills; nanoprune
 2.8MB ECE *theirs* + 0-hallucination theater;
 observe→score→act DONE ≠ proof; system-one-verify
 is deterministic; typed-gate band is refusal;
-pi-jev-gate fail-open binary. Soft Noul ≠ hard
+pi-jev-gate fail-closed; choice is the verdict. Soft Noul ≠ hard
 safety: judgekit 0.7, decide 0.8, arena ~0.6,
 typesafe-mcp 0.75/deadband, jev-code 0.85, browser
-0.6, typed-gate [0.40,0.60], pi-jev-gate 0.50 are
-**sensors**. Hard-gating argmax as safety, pasting
+0.6, typed-gate [0.40,0.60] are **sensors**.
+Choice-as-verdict without a mid-band is still a
+sensor. Hard-gating argmax as safety, pasting
 97.7% n=130 / 0 hallucination / 8,026 tokens as
 class ceilings, treating a skill named System One
 as a judge, or collapsing hermes-switchyard into

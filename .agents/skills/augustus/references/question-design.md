@@ -192,7 +192,7 @@ request, and treat a stale pin as a prior, never a setting.
 | Collapse hari007sh/jev into dannote/jev | Namesake | hari007sh/jev ≠ dannote/jev. `notes.md` §91 |
 | Treat system-one-skills as a judge | Name ≠ species | 0thernet/system-one-skills deterministic verify. `notes.md` §91 |
 | Hard-argmax typed-gate / 0.51 as a yes | Band is refusal | typed-gate band [0.40,0.60] is refusal. `notes.md` §91 |
-| Treat pi-jev-gate as fail-closed / restore ask | Polarity; binary | pi-jev-gate fail-open binary p(block)≥0.50. `notes.md` §91 |
+| Treat pi-jev-gate as fail-open / restore ask | Polarity; binary | pi-jev-gate fail-closed; choice is the verdict. `notes.md` §91 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

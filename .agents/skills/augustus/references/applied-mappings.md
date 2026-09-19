@@ -1422,7 +1422,7 @@ cross-ref rh-guard; 2026-09-19 ~19:47):**
 0.51 is not a yes. 0 wrong/0 omit/117 review *theirs*.
 rh-guard owns the gate cousin.
 [pi-jev-gate](https://github.com/fivethirty/pi-jev-gate)
-(MIT; **0★**) — pi-jev-gate fail-open binary p(block)≥0.50.
+(MIT; **0★**) — pi-jev-gate fail-closed; choice is the verdict.
 Ask band removed. **≠** pi-jev-approver. `notes.md` §91.
 
 ## 8. Decide → policy → LLM leftover cascade
@@ -1569,17 +1569,20 @@ state. ZHUBoer/ego-jev reserved `__none__`.
 runWorkflow completed ≠ success. Exact work local.
 Agent still plans (not closed-vote).
 **≠** jiangkoumo/ego-jev. `notes.md` §90.
-**Observe→score→act cousins (Empirical as README;
-2026-09-19 ~19:47):**
+**Observe→score→act cousins (not closed-vote; Empirical as
+README; 2026-09-19 ~19:47):**
 [jev-browser-agent](https://github.com/smartdio/jev-browser-agent)
 — smartdio/jev-browser-agent ≠ ZHUBoer/ego-jev.
-conf&lt;0.6 escalates. 280–740 ms *theirs*.
+conf&lt;0.6 escalates to the outer LLM (not closed-vote).
+280–740 ms *theirs*.
 [omp-jev-web](https://github.com/Dakai/omp-jev-web)
 — Dakai/omp-jev-web DONE ≠ proof. Overlay 5.9 s / 0
-refusals *theirs*. **≠** omp-greenlight.
+refusals *theirs*. OMP agent still plans (not closed-vote).
+**≠** omp-greenlight.
 [hari007sh/jev](https://github.com/hari007sh/jev)
 — hari007sh/jev ≠ dannote/jev. Local cross-encoder
-+ voice CU. License null. `notes.md` §91.
++ voice CU. Local encoder still plans (not closed-vote).
+Teacher is `systemone generate`. License null. `notes.md` §91.
 **Adversarial cousin (Playwright executes, Jev chooses;
 license null; 2026-09-19 ~04:39):**
 [browser-jev](https://github.com/DowLucas/browser-jev) —

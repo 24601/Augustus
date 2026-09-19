@@ -814,7 +814,7 @@ Same pillars, nine more placements. Do **not** re-fold
 8. **Deterministic verify ≠ System One** —
    0thernet/system-one-skills deterministic verify.
 9. **Soft-score vs hard-argmax** — typed-gate band [0.40,0.60] is refusal.
-   pi-jev-gate fail-open binary p(block)≥0.50. rh-guard owns the gate
+   pi-jev-gate fail-closed; choice is the verdict. rh-guard owns the gate
    cousin.
 
 Soft Noul ≠ hard safety on every cluster.

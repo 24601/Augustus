@@ -2489,7 +2489,7 @@ Dakai/omp-jev-web DONE ≠ proof. **≠** omp-greenlight.
 ## Is hari007sh/jev dannote/jev? Is T-fit 0.9 a Harbor τ?
 
 No, and no. hari007sh/jev ≠ dannote/jev. Teacher is
-`generate.py`. License null. `notes.md` §91.
+`systemone generate`. License null. `notes.md` §91.
 
 ## Is system-one-skills a judge? Paste 8,026 tokens as a class ceiling?
 
@@ -2501,7 +2501,7 @@ No, and no. 0thernet/system-one-skills deterministic verify. No model call. Hold
 No, and no. typed-gate band [0.40,0.60] is refusal.
 rh-guard owns the gate cousin. `notes.md` §91.
 
-## Is pi-jev-gate fail-closed? Restore the ask band?
+## Is pi-jev-gate fail-open? Restore the ask band?
 
-No, and no. pi-jev-gate fail-open binary p(block)≥0.50.
+No, and no. pi-jev-gate fail-closed; choice is the verdict.
 Ask band removed. **≠** pi-jev-approver. `notes.md` §91.

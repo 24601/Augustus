@@ -1281,7 +1281,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   ([typed-gate](https://github.com/harshpuri84/typed-gate)
   band [0.40,0.60] is refusal;
   [pi-jev-gate](https://github.com/fivethirty/pi-jev-gate)
-  fail-open binary p(block)≥0.50; rh-guard owns). Soft
+  fail-closed; choice is the verdict; rh-guard owns). Soft
   Noul ≠ hard safety. 0★ HIGHs still get real cards.
   Census (user-provided; not re-derived): Archer still
   NOT landed. Do not copy `TYPESAFE_API_KEY` /

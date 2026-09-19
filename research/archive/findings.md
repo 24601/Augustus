@@ -2558,8 +2558,8 @@ hard safety. 0★ HIGHs still get real cards.
   0thernet/system-one-skills deterministic verify.
   **0★**.
 - **Soft-score vs hard-argmax.** typed-gate band
-  [0.40,0.60] is refusal. pi-jev-gate fail-open binary
-  p(block)≥0.50. rh-guard owns.
+  [0.40,0.60] is refusal. pi-jev-gate fail-closed; choice is the verdict.
+  rh-guard owns.
 
 Census not re-derived. Archer still NOT landed.
 

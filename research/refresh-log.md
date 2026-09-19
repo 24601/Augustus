@@ -1613,8 +1613,8 @@
   Deterministic verify ≠ System One
   (0thernet/system-one-skills deterministic verify);
   Soft-score vs hard-argmax (typed-gate band
-  [0.40,0.60] is refusal; pi-jev-gate fail-open binary
-  p(block)≥0.50; rh-guard owns).
+  [0.40,0.60] is refusal; pi-jev-gate fail-closed; choice is the verdict;
+  rh-guard owns).
 - Formal compose: YAML/recipe as control API; packing
   VOI; arena never acts; Decision-as-Plugin fail-open
   missing key / not-hot-path; Switchyard advisory never

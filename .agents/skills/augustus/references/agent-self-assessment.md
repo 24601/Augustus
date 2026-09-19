@@ -231,9 +231,9 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    [typed-gate](https://github.com/harshpuri84/typed-gate)
    typed-gate band [0.40,0.60] is refusal
    (`notes.md` §91).
-   Fail-open binary checker:
+   Fail-closed binary checker:
    [pi-jev-gate](https://github.com/fivethirty/pi-jev-gate)
-   pi-jev-gate fail-open binary p(block)≥0.50
+   pi-jev-gate fail-closed; choice is the verdict
    (`notes.md` §91).
    Closed-vote extreme (no planner LLM):
    [JevOnly](https://github.com/buluoray/JevOnly) (`notes.md` §61).

@@ -685,9 +685,11 @@ nanoprune 2.8MB ECE 2.58%; smartdio/jev-browser-agent ≠
 ZHUBoer/ego-jev; Dakai/omp-jev-web DONE ≠ proof;
 hari007sh/jev ≠ dannote/jev; 0thernet/system-one-skills
 deterministic verify; typed-gate band [0.40,0.60] is
-refusal; pi-jev-gate fail-open binary p(block)≥0.50.
+refusal; pi-jev-gate fail-closed; choice is the verdict.
 Soft Noul ≠ hard safety: 0.7 / 0.8 / ~0.6 / 0.75 /
-0.85 / 0.6 / [0.40,0.60] / 0.50 are **sensors**.
+0.85 / 0.6 / [0.40,0.60] are **sensors**.
+Choice-as-verdict without a mid-band is still a
+sensor.
 Hard-gating argmax as safety, pasting 97.7% n=130 / 0
 hallucination / 8,026 tokens as class ceilings, or
 treating a skill named System One as a judge is the

@@ -595,7 +595,7 @@ Architecture / mental models / Harbor-jevals / toolbelt, not a `uv` / `npx` / pl
 - **hari007sh/jev** — license null; **0★**; README SHA `753581f7`. hari007sh/jev ≠ dannote/jev.
 - **0thernet/system-one-skills** — MIT; **0★**; README SHA `1dbe3db1`. 0thernet/system-one-skills deterministic verify.
 - **harshpuri84/typed-gate** — MIT; **0★**; README SHA `4cfc66a7`; size 0. typed-gate band [0.40,0.60] is refusal. rh-guard owns.
-- **fivethirty/pi-jev-gate** — MIT; **0★**; README SHA `5dd89ee6`; size 0. pi-jev-gate fail-open binary p(block)≥0.50. rh-guard owns.
+- **fivethirty/pi-jev-gate** — MIT; **0★**; README SHA `62482af1`; size 0. pi-jev-gate fail-closed; choice is the verdict. rh-guard owns.
 
 Census **not re-derived**. Archer still NOT landed.
 

@@ -532,7 +532,7 @@ datasets — every gate is a per-dataset measurement (see validation.md).
 70. **Soft-score vs hard-argmax** (typed-gate /
     pi-jev-gate): read p; mid-band is refusal.
     typed-gate band [0.40,0.60] is refusal.
-    pi-jev-gate fail-open binary p(block)≥0.50.
+    pi-jev-gate fail-closed; choice is the verdict.
     rh-guard owns the gate cousin. Full cards:
     `mixed-architecture.md`, `faq.md`.
 

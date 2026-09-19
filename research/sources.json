@@ -3258,7 +3258,7 @@
       "kind": "github",
       "title": "fivethirty/pi-jev-gate",
       "url": "https://github.com/fivethirty/pi-jev-gate",
-      "note": "MIT; 0 stars. HEAD 5fee5e9. README SHA 5dd89ee6. size 0. pi-jev-gate fail-open binary p(block)>=0.50. notes.md §91."
+      "note": "MIT; 0 stars. HEAD 902f4e6. README SHA 62482af1. size 0. pi-jev-gate fail-closed; choice is the verdict. notes.md §91."
     }
   ]
 }
