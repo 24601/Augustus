@@ -316,3 +316,86 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     3). **≠** jev-combinators digital-design metaphor
     **≠** semgrep.dev. Full cards: `mixed-architecture.md`,
     `faq.md`, `applied-mappings.md` §4, `mappings.md` §4.
+27. **Decision-validated UI** (gram-render + jev2ui):
+    position 4 (Selector over derived candidates) then
+    position 2 (compiler / schema as constraint). Jev
+    never authors text. Valid GramSpec/A2UI ≠ good screen.
+    Remix samples the already-returned Score distribution
+    (item 32 cousin). Full cards: `mixed-architecture.md`,
+    `faq.md`.
+28. **Decision-as-assert** (jevtest): position 3 is
+    *tempting* (hard-gate as CI pass) and **rejected** —
+    the matcher is a sensor. Ambiguous band is anti-round
+    (fails both polarities). Exact envelope stays in
+    ordinary assertions. Record/replay is measurement, not
+    a live Noul-as-proof. Full cards: `faq.md`,
+    `formal-methods.md`, `question-design.md`.
+29. **Hybrid S1 / closed verb menu** (anima3): position 3
+    (hard safety proves the irreversible act) then
+    position 4 (Selector among remaining verbs). Logprob ≠
+    Noul. Encoder confidently-flat on magnitude is a
+    family mismatch. Full cards: `mixed-architecture.md`,
+    `agent-self-assessment.md`.
+30. **Pointer search** (JevFind): position 4 then copy
+    (same as extractive keep/drop). Path filter is VOI
+    (item 6). Thresholds still soft. Full cards:
+    `applied-mappings.md` §2, `mappings.md` §4.
+31. **Harbor bake-off trio** (frontier-bench /
+    gliclass-bench / job-posting-triage): position 11
+    (measurement construct). Three shapes: vs frontier
+    LLMs; product bakeoff ≠ architecture duel; four
+    *kinds* of engine. Always name the majority floor.
+    Calibration ≠ discrimination. LLM-as-judge is not the
+    System One score. Full cards: `validation.md`,
+    `faq.md`.
+32. **Full-distribution optimizer** (jevloop): position 8
+    (judgment as a *value function* inside a search that
+    is not an LM-program climb). UCB1+CEM over operators
+    in code; no LLM in the loop. Mock default ≠ quality.
+    Distinct from Ax/DSPy (item: climb LM knobs) and
+    slo-router (Jev as a *feature*). Full cards:
+    `optimizer-integration.md`, `faq.md`.
+33. **Physical-world S1 portable** (ha-switchboard):
+    position 3 (HA execution envelope) × position 1
+    (Jev SENSOR). Distinct from HA-Jev (gallery still
+    17★). Not for locks. Full cards: `mappings.md` §8,
+    `mixed-architecture.md`.
+34. **n8n classify/route/score**: position 6 (Router) with
+    an explicit Low Confidence abstention output.
+    Arithmetic stays in Code/IF. Unofficial. Full cards:
+    `applied-mappings.md` §4, `faq.md`.
+35. **Compaction-pi namesake lock**
+    (fast-jev-compaction-pi): same job as item 26's
+    pointer species, different product. **≠**
+    pi-jev-compact **≠** pi-jev-compaction. Fail-open to
+    host summarizer. Full cards: `applied-mappings.md` §1.
+36. **Deferred class: vision / competing NAR / grounding**
+    (laya-vision, Cerebellum-2B, laya-grounded): position
+    10 (perception) vs position 4 (pointer over
+    candidates) vs a **fine-tune that is not a drop-in**.
+    Wire-compat (`/v1/decide`) and agent-routing are
+    separate Harbor axes. Platt ≠ temperature.
+    Entropy-confidence ≠ max_prob. Competing NAR is an
+    audit object (kinship item: openJev-verdict). Full
+    cards: `judgment-class.md`, `validation.md`,
+    `faq.md`.
+37. **Open LoRA replica namesake** (GestaltLabs/Jeff-1):
+    position 4 (typed decide) with an acc/ECE tradeoff.
+    Wire `/v1/systemone` ≠ identical judgments. **≠**
+    logan-markewich/jeff (item: GLiFormer encoder).
+    Reused eval set is Harbor honesty. Full cards:
+    `judgment-class.md`, `validation.md`, `faq.md`.
+38. **Empty findings ≠ approval** (stanley-code):
+    position 3 (exact signals + `notChecked` ledger) ×
+    position 1 (Jev SENSOR). Human promote is the
+    actuator. Soft router thresholds. Full cards:
+    `applied-mappings.md` §5, `mappings.md` §8.
+39. **Beam-search FS** (findme): position 8 (search
+    algorithm yours; S1 ranks listed candidates).
+    Distinct from JevFind path-then-window (item 30
+    cousin). Full cards: `mappings.md` §9, `faq.md`.
+40. **Price workers, not the conversation**
+    (jevsubrouter): position 6 (Router) with the
+    prompt-cache as the exact envelope. Binding ≠
+    advice. Fail-open. Counts ≠ dollars. Full cards:
+    `applied-mappings.md` §5, `faq.md`.

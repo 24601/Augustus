@@ -127,6 +127,25 @@ request, and treat a stale pin as a prior, never a setting.
 | Multiply parallel meaning Nouls / negative-query tricks | Independence; set-diff theater | Threshold each Noul, boolean-compose bits in code. ≠ jev-combinators metaphor. `notes.md` §86 |
 | Call jev-semgrep Semgrep.dev / a merge gate | Namesake; soundness theater | **≠** [semgrep.dev](https://semgrep.dev). Ranking fail-open; not a gate. `notes.md` §86 |
 | Paste 0.94/0.98 or ★42/51 as Harbor | LLM-as-judge / ephemeral stars | 10 cases × 51-line corpus *theirs*. Stars research-time. `notes.md` §86 |
+| Let Jev invent UI prose / treat valid A2UI as quality | Pointer UI; schema-safe ≠ correct | Derive → select → compile. [gram-render](https://github.com/wei-b0/gram-render) / [jev2ui](https://github.com/dglazkov/jev2ui). `notes.md` §87 |
+| Round 0.67 into a test pass / 0.85 as a product proof | Ambiguous band; still-soft τ | Fails both polarities. Exact stays in `toContain`. [jevtest](https://github.com/realZachi/jevtest). `notes.md` §87 |
+| Default jeff for numeric state / invent Laya in anima3 | Family mismatch; user-brief ≠ README | Qwen logprob default; a11y tree. Skip Archer. `notes.md` §87 |
+| Treat JevFind windows as functions / 0.25 as Harbor τ | Overlapping windows; still soft | Pointer search. Keyword still wins exact strings. `notes.md` §87 |
+| Paste 72.5% as a class ceiling / use Jev `confidence` | One run; field mix | Top of `probabilities`. ChaosNLI JS worse than uniform. **≠** frontier-100. `notes.md` §87 |
+| GLiClass vs Jev as architecture duel / skip majority | Product bakeoff; floor 49% | Flattened encoder. 40% < 49% is the finding. `notes.md` §87 |
+| Skip the 0.947 floor / treat ECE as ranking | Rare positives; calibration ≠ discrimination | Fitted tfidf wins. llm_local ECE 0.947. `notes.md` §87 |
+| Authorship Choice as evidence / binary “is this AI?” | Named escape; soundness theater | `uncertain` exists. Not a seal. `notes.md` §87 |
+| HA writes without envelope / collapse into HA-Jev | Leveson; namesake | HA remains execution. [ha-switchboard](https://github.com/grayslawson/ha-switchboard). `notes.md` §87 |
+| Silent-best-route n8n at 0.5 / treat as official | Abstention; unofficial | Low Confidence output. Arithmetic in Code/IF. `notes.md` §87 |
+| Mix fast-jev-compaction-pi / compact / compaction | Three namesakes | Always write **zaycruz/fast-jev-compaction-pi**. `notes.md` §87 |
+| Quote jevloop mock quality / treat p as unused | Control-loop demo; value function | No LLM in the loop. Full distributions. `notes.md` §87 |
+| Quote laya-vision `score` / call it Archer | Untrained axis; family lock | SmolVLM. CC-BY-NC-SA. **≠** blackwood. `notes.md` §87 |
+| Cerebellum `base_url` drop-in / endorse 94.92% | Wire ≠ TypeSafe; competing NAR | `/v1/decide`. Separate Harbor axes. `notes.md` §87 |
+| Swap laya-grounded into phishing / temperature-scale | Not a drop-in; no bias term | Platt. Entropy-confidence ≠ max_prob. `notes.md` §87 |
+| Collapse Jeff-1 into logan-markewich/jeff / “better ECE” | Namesake; acc≠cal | LoRA Qwen3-4B. 0.8183/0.0807 vs 0.8283/0.0932 *theirs*; set reused. `notes.md` §88 |
+| Empty stanley findings as approval / auto-promote | Coverage ledger; human actuator | `notChecked`. 0.6/0.55/0.15 still soft. `notes.md` §88 |
+| findme beam as identity / collapse into JevFind | Ranking ≠ proof; species | NL memory → listed names. **≠** path-then-window. `notes.md` §88 |
+| Swap conversation model / quote jevsubrouter $ | Cache envelope; unmeasured | Price workers. Fail-open. Counts ≠ dollars. `notes.md` §88 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

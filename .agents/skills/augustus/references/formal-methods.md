@@ -619,6 +619,23 @@ How we would detect soundness theater / tautological specs (Hillel):
 Smallest experiment that could reject this split, not this vendor:
 ```
 
+This hour's exact envelopes (`notes.md` §87) are examples of the
+split, not schema copied onto every FM card: Telegram char /
+`callback_data` limits; HA writes (allowlist, freshness,
+idempotency, post-state); ordinary test assertions; closed verb
+menus / HP floors; n8n IF/Code arithmetic; compaction
+`minReductionRatio` fail-open. Hard-gating a Noul as CI pass
+(jevtest 0.85), HA actuator, or authorship proof is the same
+theater as totally-tim/jev-gate.
+
+This hour's follow-on envelopes (`notes.md` §88):
+gitignore / symlink skip / listing (findme);
+`test.skip` / deleted assertions (stanley-code `notChecked`);
+pinned Agent model + conversation prompt-cache
+(jevsubrouter). Soft Noul ≠ hard safety: Jeff-1 ECE,
+stanley 0.6/0.55/0.15, findme beam scores, jevsubrouter
+balanced-on-low-conf. Empty findings as approval, or auto-promoting an agent-written workflow, is the same theater.
+
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a
 hybrid "verified by Noul" API.

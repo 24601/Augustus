@@ -197,6 +197,16 @@ need long-tail reasoning beyond the fuzzy-task classes PAW is sized for,
 keep calling Jev — premature compilation freezes a moving judgment. The
 stability gate is the same shadow-mode behavioral-eval gate in validation.md.
 
+**Full-distribution critic, no LM in the loop (Empirical as
+README / mock demo; 2026-09-19 ~16:52):**
+[jevloop](https://huggingface.co/spaces/async-dime/jevloop)
+treats Jev as a *value function* (UCB1 picks the
+weak+uncertain axis; CEM samples deterministic edit ops).
+**Not** an Ax/DSPy climb of LM-program knobs — there is
+**no LLM in the loop**. Mock mode is the Space default;
+do not quote mock-mode quality. Remix in jev2ui is the
+same idea without a loop (`notes.md` §87).
+
 **Test** (any claimed integration must show): labeled-set agreement Jev vs
 PAW output on held-out data, per-class cost/latency comparison, and a drift
 measurement over a week of live inputs.

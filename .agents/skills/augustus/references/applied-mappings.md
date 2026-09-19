@@ -191,6 +191,18 @@ FB-Scanner *theirs*: kept 1 of 261; replay 0.6 s vs
 first UI spinner 26 s (host cost, not judge cost). Pair
 pi-jev-control / pi-heed. Do not copy `pi install`
 (`notes.md` §72).
+**Dedicated Pi port of fast-jev-compaction (Empirical as
+README + bench; 2026-09-19 ~16:52):**
+[fast-jev-compaction-pi](https://github.com/zaycruz/fast-jev-compaction-pi)
+(MIT; npm 0.1.1; README SHA `809c0bd`) — vendored
+[tamaratran/fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction).
+Verbatim keep/drop; user/assistant text never rewritten.
+Fail-open to pi's built-in LLM summary (no key / error /
+timeout / `minReductionRatio`). ~50× vs LLM summary
+*theirs*; `preserveCallInputs` 8/8 commands + 17/17
+paths. **≠** pi-jev-compact **≠** pi-jev-compaction.
+Always write **zaycruz/fast-jev-compaction-pi**. Do not
+copy `pi install` (`notes.md` §87).
 
 ## 2. Exact-text keep / drop
 
@@ -270,6 +282,38 @@ writes code or invents values. Lockfile makes replay
 deterministic (`--frozen` CI, no key). Refuse below 0.6. Same
 pointer family as Stagehand pick-and-copy / jev-e2e. Do not copy
 the tarball install (`notes.md` §59).
+**Pointer-not-generator repo walk (Empirical as README;
+2026-09-19 ~16:52):**
+[JevFind](https://github.com/Peu77/JevFind) (Rust MIT;
+**1★**; README SHA `0588181`) — path Noul then overlapping
+windows; code copies snippets. Defaults `--file-threshold
+0.25` / `--threshold 0.55` still soft. Not AST; not a
+patcher; not a gate. Keyword still wins exact strings.
+**≠** jevex **≠** jev-semgrep **≠** jevgrep. Do not copy
+cargo / `.env` (`notes.md` §87).
+**NL memory → beam-search FS (Empirical as README;
+2026-09-19 ~17:25):**
+[findme](https://github.com/marc2332/findme) (Rust;
+license null; **4★**; README SHA `f2a2ca71`) — list
+entries, Jev ranks names+lightweight metadata, keep
+the beam, descend. Parent fallback ≤4. gitignore /
+symlink skip in code. **≠** JevFind path-then-window.
+Life/knowledge retrieval, not only SWE. Do not copy
+`cargo install` / `TYPESAFE_API_KEY` (`notes.md` §88).
+**Decision-validated UI (Empirical as README; 2026-09-19
+~16:52):**
+[gram-render](https://github.com/wei-b0/gram-render) (MIT;
+**0★**; README SHA `dd5fb44`) — derive → select → layout →
+validate. Jev never authors text. Empty quotes →
+`unavailable`. Telegram 4096 / 64-byte `callback_data`
+prove the tree; valid ≠ good. **≠** json-render **≠**
+jev2ui **≠** jev-gpt. Do not copy npm / bot token
+(`notes.md` §87).
+[jev2ui](https://github.com/dglazkov/jev2ui) (Apache-2.0;
+**0★**; README SHA `f0d477fc`) — leftover Gemini writes;
+Jev decides jobs. Jobs 11/11 vs Baseline 10/11 valid A2UI
+*theirs*. Remix from the Score distribution. Skip Archer.
+`notes.md` §87.
 **Harness pick-and-copy (Empirical as PR-body architecture + their
 local eval, 2026-09-19 ~00:48; draft stack):**
 [Stagehand #2955](https://github.com/browserbase/stagehand/pull/2955)
@@ -588,6 +632,28 @@ NOASSERTION). **51★** this pass (ephemeral; SIGNAL ★42;
 §61 0★). Their judge test: precision 0.94, recall 0.98
 on 10×51 lines — not Harbor. Do not copy npm / `npx` /
 `.env` / marketplace how-to (`notes.md` §61, §86).
+**Pointer path-then-window (Empirical as README;
+2026-09-19 ~16:52):** sibling of meaning-grep, not a
+boolean composer — [JevFind](https://github.com/Peu77/JevFind)
+(`notes.md` §87).
+**Authorship named escape (Empirical as README;
+2026-09-19 ~16:52):**
+[jev-authorship-check](https://github.com/webstercharly/jev-authorship-check)
+(license null; **0★**) — Choice `human` /
+`ai_generated` / `uncertain`. Not courtroom evidence.
+`notes.md` §87.
+**n8n classify/route/score (Empirical as README;
+2026-09-19 ~16:52):**
+[n8n-nodes-jev](https://github.com/vibe-with-me-tools/n8n-nodes-jev)
+(MIT; **1★**; npm 0.2.2) — unofficial. Route by Choice +
+Low Confidence output (0.5 still soft). Arithmetic in
+Code/IF. `notes.md` §87.
+**Four-engine Harbor (Empirical as README + metrics.json;
+2026-09-19 ~16:52):**
+[job-posting-triage](https://github.com/geckguy/job-posting-triage)
+— fitted tfidf wins; majority floor **0.947**; Jev on the
+floor; calibration ≠ discrimination. Jev via
+classifier.dev. `notes.md` §87.
 **Evidence-packet explorer (Empirical as their
 `docs/performance.md`, author-run):**
 [jev-semantic-explorer](https://github.com/jimmyhealer/jev-semantic-explorer)
@@ -888,6 +954,38 @@ v0.3.0 private. Compaction never modifies the on-disk
 session; GUI < threshold → unknown, never force-click.
 Distinct from omp-jev-extensions / jevons / pi-heed / pi-om.
 Do not copy `pi install` (`notes.md` §71).
+**Competing NAR agent-routing (Empirical as README_EN;
+audit, not endorsement; 2026-09-19 ~16:52):**
+[Cerebellum-2B](https://github.com/mkeco/Cerebellum-2B)
+(Apache LICENSE / GitHub SPDX other; **1★**; Hub
+`mkzero/Cerebellum-2B-*`) — pointer over caller-supplied
+candidates on `POST /v1/decide`. **Not** TypeSafe
+`/v1/systemone`; do not paste a Cerebellum URL into
+typesafe-sdk `base_url`. Wire-compat and agent-routing
+are **separate** Harbor axes. Claimed 94.92% vs Jev
+81.1% *theirs* is **unverified** — same discipline as
+openJev-verdict-2.0. `ActEscalate` ≥0.50 still soft.
+mkeco GitHub ≠ mkzero Hub. Skip Archer. `notes.md` §87.
+**Jev-first bounded agent (Empirical as README;
+2026-09-19 ~17:25):**
+[stanley-code](https://github.com/devagrawal09/stanley-code)
+(MIT; **20★**) — NL → one workflow; deterministic
+gather + fixed-choice Jev; **code owns decisions**.
+Empty findings ≠ approval. Router 0.6/0.55/0.15 still
+soft. Pi fallback unverified. Human
+`--promote-candidate` only. `jev-code` 0.0.1 does
+nothing; 0.1.0 not on npm. Soft Noul ≠ hard safety.
+Do not copy `npm ci` / `TYPESAFE_API_KEY`
+(`notes.md` §88).
+**Price workers, not the conversation (Empirical as
+README; 2026-09-19 ~17:25):**
+[jevsubrouter](https://github.com/leftspace89/jevsubrouter)
+(MIT; **4★**) — bind the sub-agent model at
+`PreToolUse`; keep the orchestrator's cached prefix.
+Turn hook is advice. Fail-open. Low conf → balanced,
+never silent down. Stats are counts, not dollars.
+**≠** jev-gateway **≠** slo-router. Do not copy
+marketplace / `~/.jevsub.env` (`notes.md` §88).
 
 ## 6. Expensive observation router
 

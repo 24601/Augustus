@@ -511,7 +511,7 @@ Use these as *existence proofs of a position*. Write your own card.
 | Healthcare huddle / recon / inbox | escalate / hold / route | S1 remainder after NEWS2/code (**Empirical** as synthetic report: explore-typesafe-ai; **not clinically validated**) | NEWS2, recon, routing in code; S2 blinded review |
 | Intent cascade vs nano/encoder | escalate when unsure | pre-registered kill/go (**Empirical as practice**: jev-baselines-eval **AMBIGUOUS**; cascade sign-flip; encoder-with-labels wins) | Thresholds, serving-path honesty, ECE if you claim calibration |
 | Public primitive / wall | typed answers on a sentence | six parallel questions (**Empirical** as README: ask-jev-ai; cost-to-1M from tokens) | Policy-in-code; no-key allowlist; safety threshold in code |
-| Codebase meaning-search | relevant file/chunk without knowing names | packed parallel relevance (**Empirical**: jevgrep 79% top-5 vs BM25 40% / grep 20% on stripped repos). **Line meaning-grep** AND/OR/NOT after threshold (**Empirical**: jev-semgrep 0.94/0.98 *theirs*; proposition ≠ embedding; contrast-set refund; Semgrep.dev collision; not a gate; `notes.md` §86). **Evidence packets** index-once (**Empirical**: jevex 1/8→6/8 n=8 *theirs*) | Keyword still wins exact strings; packet HitFile 0.233 is diagnostic; Japanese noisier near threshold; do not multiply parallel p |
+| Codebase meaning-search | relevant file/chunk without knowing names | packed parallel relevance (**Empirical**: jevgrep 79% top-5 vs BM25 40% / grep 20% on stripped repos). **Line meaning-grep** AND/OR/NOT after threshold (**Empirical**: jev-semgrep 0.94/0.98 *theirs*; proposition ≠ embedding; contrast-set refund; Semgrep.dev collision; not a gate; `notes.md` §86). **Path-then-window pointer** (**Empirical as README**: JevFind; 0.25/0.55 still soft; overlapping windows not AST; `notes.md` §87). **Evidence packets** index-once (**Empirical**: jevex 1/8→6/8 n=8 *theirs*) | Keyword still wins exact strings; packet HitFile 0.233 is diagnostic; Japanese noisier near threshold; do not multiply parallel p |
 | PR review attention | where a human should look | P0/P1/P2 (**Empirical** as README: egma-ai/jev-reviewer). **Not** correctness; **not** choxos pointer-not-generator | alwaysReviewPaths P0; incomplete never P2; generator writes deltas |
 | Skill-derived lint | remainder after AST/precheck | Noul/Choice on guidance in state (**Empirical** as Phoenix: jev-oxlint) | Parser/precheck in code; not a hard gate; `tenbin` owns lint skill |
 | Session model route | which model for this thread | first-prompt Choice, then lock (**Empirical** as README: jev-adaptive-thinking) | Fail-closed declared fallback; never reclassify later turns |
@@ -545,7 +545,7 @@ Use these as *existence proofs of a position*. Write your own card.
 | Pre-send perception | which lines enter the prompt | Code-built views; Jev picks (**Empirical**: dizk/jev-lens 79% fewer tokens / 500 trajectories) | Compress before first send; code full unless confident |
 | tools≠use | will the agent call memory? | SessionStart injects; tools sitting there are not VOI (**Empirical**: carryforward 0/4) | Hook > hoping |
 | Observational memory | what to keep, what kind | Keep/kind; verbatim ledger; model-free compact (**Empirical as README**: pi-om) | Failed Jev does not drain buffer; not a summary |
-| Physical-world S1 | typed house questions | Sensors + automations (**Empirical**: HA-Jev 17★) | Not for locks/heaters/smoke; arithmetic in templates |
+| Physical-world S1 | typed house questions | Sensors + automations (**Empirical**: HA-Jev 17★). **Portable cousin:** HA remains execution; Jev typed; one bounded LLM handoff (**Empirical as README**: ha-switchboard; **≠** HA-Jev; `notes.md` §87) | Not for locks/heaters/smoke; arithmetic in templates; allowlist / freshness / idempotency / post-state verify |
 | Open-Jev class | finite choice + prob without TypeSafe | LM/vision/voice; JevPick; `/v1/systemone` wire (**Empirical**: openvons) | NOTA; execute/confirm/reject; not a replica |
 | Judgment outside the store | semantic SQL over vanilla Postgres | CLI judges; DB sees ordinary SQL (**Empirical**: jevql) | Contrast pg-jev in-engine; cheap SQL first |
 | Record/replay eval | can CI gate accuracy+calibration+cost | Record once; replay offline (**Empirical**: jevassert) | Live calls belong in `record`, not in PR CI |
@@ -646,6 +646,71 @@ When the hourly named HIGHs are already on the branch, extract
 A Noul may attend or escalate. Hard-gating it as a PR/quality
 seal is soundness theater unless an exact envelope already
 proved the irreversible act.
+
+## Apply 1047 (mental models, not SWE-only)
+
+Typed judgment is portable EU / abstention / VOI / MCDA /
+SDT / search / Leveson. This hour's how-to-apply:
+
+1. **Decision-validated UI** — strings come from data or
+   a catalog. Jev never authors. Formal methods own
+   Telegram/A2UI envelopes. Valid tree ≠ good screen.
+2. **Decision-as-assert** — meaning Noul vs exact
+   `toContain`. Ambiguous band never rounded. 0.85 still
+   soft; a matcher is not a product proof.
+3. **Hybrid S1** — hard safety first (code shrinks the
+   menu); S1 picks among remaining verbs; low conf → the
+   rule. Perception as text-state / a11y. Logprob ≠ Noul.
+4. **Pointer search** — path then window; copy snippets.
+   Keyword still wins exact strings.
+5. **Harbor three shapes** — vs frontier (economics +
+   ECE); product bakeoff ≠ architecture duel; four
+   engines + majority floor. Calibration ≠
+   discrimination. Uniform can beat a miscalibrated model
+   on JS.
+6. **Named-escape authorship** — `uncertain` exists
+   because conflict ≠ ignorance. Not courtroom evidence.
+7. **Non-SWE product** — HA remains execution; n8n Low
+   Confidence is abstention. Business/ops, not a coding
+   agent.
+8. **Verbatim compaction** — keep/drop, never summarize;
+   fail-open to the host summarizer. Qualify the three
+   Pi namesakes.
+9. **Full distribution as a value function** — unused
+   mass is signal. Bandits + CEM over operators in code;
+   no LLM in the loop. Mock ≠ quality.
+10. **Class honesty** — vision `score` untrained;
+    Cerebellum wire ≠ TypeSafe; grounding can regress
+    phishing. Platt, not temperature.
+
+## Apply queued 1047 follow-ons (`notes.md` §88)
+
+Same pillars, four more placements (plus jevsubrouter,
+the remaining deferred 0945 HIGH). laya-vision and
+Cerebellum stay §87 — do not re-card.
+
+1. **Replica honesty** — wire `/v1/systemone` ≠ identical
+   judgments. Acc can lose while ECE wins. Reused eval
+   sets are Harbor honesty, not a holdout. **≠** the
+   GLiFormer also named jeff.
+2. **Empty ≠ approve** — a bounded workflow that found
+   nothing has not proved the change. `notChecked` is
+   the coverage ledger. Soft router thresholds are not
+   a merge seal. Humans promote; agents draft.
+3. **Beam as control** — the search algorithm stays
+   yours; S1 only ranks observed FS candidates from an
+   NL memory. Life/knowledge, not only SWE.
+4. **Cache is the exact envelope** — never swap the
+   conversation model to “save” a worker. Bind at
+   dispatch; advise at the turn. Fail-open. Low conf
+   does not silently downgrade. Do not quote dollars
+   the instrument cannot see.
+
+Soft Noul ≠ hard safety on every cluster.
+
+Formal methods **compose** with scoring. A Noul is a
+SENSOR. Hard-gating it as CI pass / HA write / authorship
+seal is the same theater as jev-gate §79.
 
 ## Decision-design extras (any domain)
 
