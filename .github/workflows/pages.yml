@@ -1,0 +1,33 @@
+name: Check Pages site
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./docs
+          destination: ./_site
+      - name: Check gate page
+        run: |
+          test -f _site/index.html
+          grep -F 'TypeSafe Jev Choice/Score/Noul' _site/index.html
+          grep -F 'Install the skill' _site/index.html
+          grep -F 'LICENSE' _site/index.html
+          test -f _site/ecosystem.html

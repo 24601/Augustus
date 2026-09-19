@@ -1,3 +1,8 @@
+---
+layout: default
+title: Ecosystem
+---
+
 # The judgment-model class, analyzed (Jev is exemplar)
 
 Snapshot of **187 repositories** built on TypeSafe Jev (jev-1.13) during launch

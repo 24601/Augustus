@@ -1,0 +1,11 @@
+title: Augustus
+description: >-
+  Agent skill for placing TypeSafe Jev Choice/Score/Noul with classical
+  decision methods, composition algebra, and a validation gate.
+url: https://24601.github.io
+baseurl: /Augustus
+theme: jekyll-theme-cayman
+show_downloads: false
+markdown: kramdown
+kramdown:
+  input: GFM
