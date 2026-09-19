@@ -60,14 +60,15 @@ never launder a Noul as a proof.
   evidence-preserving stdout prune (hard envelope then Noul);
   specialist S1 computer-use (Cua-S1 form-v0; plan ≠ execute; not TypeSafe Jev);
   judgment as a language primitive (hunch); decision-native RAG
-  (retrieve wide → decide → evidence set)
+  (retrieve wide → decide → evidence set); classify-first MCP
+  (jev-sift); draft-gate heartbeat; living class-pattern atlas
 - `.agents/skills/augustus/references/applied-mappings.md` — context sieve,
-  exact-text keep/drop (extractive / pointer-not-generator; char-offset compaction; observed a11y/DOM controls; Bash stdout prune; verbatim session ledger / carryforward), env triage (OpenSmoke + latch merge-gate), moderation/ranking (decision-native RAG evidence set), skill routing (route ≠ memory)
+  exact-text keep/drop (extractive / pointer-not-generator; char-offset compaction; observed a11y/DOM controls; Bash stdout prune; verbatim session ledger / carryforward; classify-first MCP / jev-sift), env triage (OpenSmoke + latch merge-gate), moderation/ranking (decision-native RAG evidence set; living class-pattern atlas), skill routing (route ≠ memory)
 - `.agents/skills/augustus/references/faq.md` — "just classification",
   stack replacement, Jev vs open head vs encoder vs LoRA vs constrained AR vs kev vs blackwood,
   wait-for-Archer, missing-other confident-wrong, soft project rules vs linter (Abide), extractive/pointer-not-generator, compaction summarize vs pointer, encoder vs Jev compaction, fail-closed keep_full, shadow-mode rollout, fail-open vs fail-closed wake vs CI gate, observe→score→act backend-agnostic, hybrid local decide + remote fill, DONE ≠ verified success, stdout prune vs session compaction, Cua-S1 vs TypeSafe Jev, plan ≠ execute / dry-run, local drop-in vs stub scorer, route ≠ memory, when-it-holds / extractable-from-state, decision-model vs constrained LLM, dual-process S1/S2, combinatorial grid ≠ extractive, GLiNER vs GLiClass vs CLIP, LLM-as-judge, in-engine vs CLI store,
   hard envelope (bitrate / planner), not-another-how-to,
-  uncalibrated local likelihoods ≠ Noul, decision-native RAG, cascade
+  uncalibrated local likelihoods ≠ Noul, decision-native RAG, classify-first MCP, living applied-mappings atlas / class patterns, draft-gate silence ≠ safer, robotics text-state vs pixels, cascade
   sign-flip / calibration theater, Precision PDF honest negative
 - `.agents/skills/augustus/references/mappings.md` — classical-method
   mappings with boundaries, counterexamples, acceptance tests (including

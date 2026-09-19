@@ -296,6 +296,19 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   accuracy/lower cost not established), kazuhideoki/jev-search
   (recursive *file* search + fzf; **not** superagents-lab web
   search). No wrapper. No invented metrics.
+- Hourly ~18:38 Boise 2026-09-18 / 00:38 UTC 2026-09-19 fold
+  (`research/notes.md` §56): Archer still Watch. Architecture
+  notes, not a plugin / showcase catalog. Classify-first MCP
+  ([jev-sift](https://github.com/kbhuw/jev-sift); batch path/url/text
+  → Jev without entering main agent context first; 50 / 60k / 2MB /
+  public-IP envelope; mocks ≠ accuracy; no LICENSE this pass;
+  topology A MCP, not jev-routing). Living applied-mappings atlas
+  ([jevable.com](https://jevable.com/); claimed 342 vs JSON-LD first
+  page 36; class patterns — intent columns, score-among-observed,
+  VOI gates, generative UI decide, robotics text-state, draft-gate
+  silence ≠ safer — not a 342-title hit list). Maker clocks stay
+  claims unless already a named receipt. No wrapper. No invented
+  metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

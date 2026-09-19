@@ -481,7 +481,35 @@ retrieve wide → decide explicitly → evidence set → resolve conflicts
 generators. Provider-agnostic; no bundled harness; **no universal
 benchmark**. Default migration gates are starting targets, not
 promises. Do not ship because an LLM judge prefers it.
-`mappings.md` §4; `notes.md` §55.
+[jev-sift](https://github.com/kbhuw/jev-sift) is the same sandwich
+on **agent I/O**: classify first, read selectively; content to Jev
+without entering main agent context first (paths/URLs). Uncertain /
+errors / truncation ≠ irrelevant. Transport tests ≠ accuracy.
+`mappings.md` §4; `notes.md` §55, §56.
+
+## Dump files into context, or classify first?
+
+Classify first when the items are **not** already in the main agent
+context. [jev-sift](https://github.com/kbhuw/jev-sift): batch path /
+public URL / inline text → Jev; the main LLM opens survivors.
+Uncertain → closer look; errors and truncation ≠ irrelevant. Inline
+text the agent already read cannot recover that cost. Hard envelope
+in code (50 / 60k / 2MB / public-IP). Transport tests ≠ accuracy.
+Same family as decision-native RAG. Topology A MCP — not
+jev-routing (host adapter). Do not copy plugin how-to.
+`applied-mappings.md` §1; `notes.md` §56.
+
+## Is jevable.com a 342-title census?
+
+No. [jevable.com](https://jevable.com/) is a living **applied-mappings
+atlas**: extract class patterns (intent columns, score-among-observed,
+VOI gates, generative UI decide, robotics text-state, draft-gate fail
+modes). The site claims **342** curated projects this pass; homepage
+JSON-LD lists **36** (first page / `pageSize` 36). We did not enumerate
+titles. Maker clocks stay **claims** unless already a named receipt.
+Cross-link exemplars already in notes; do not dump a hit list. Not a
+model. Not multimodal substrate. Archer still Watch.
+`applied-mappings.md`; `notes.md` §56.
 
 ## Did Jev beat nano as an escalation gate?
 
@@ -585,8 +613,12 @@ Tool *execution* fails closed on block/timeout:
 [toolgate](https://github.com/fdemir/toolgate) (Jev is not
 authorization). Ruby validations in
 [hunch](https://github.com/carldaws/hunch) `rescue nil` at save —
-spam gates should not. Same sandwich, opposite authorized act.
-`notes.md` §50, §51, §53, §55.
+spam gates should not. Draft-gate *silence* is the same rule:
+missing verdict is not a block and not a pass — fail-open /
+heartbeat, do not hold forever ([jevable.com](https://jevable.com/)
+class pattern). Contrast Abide `<0.5` silence (the *edit proceeds*).
+Same sandwich, opposite authorized act.
+`notes.md` §50, §51, §53, §55, §56.
 
 ## Is observe→score→act Jev-only?
 

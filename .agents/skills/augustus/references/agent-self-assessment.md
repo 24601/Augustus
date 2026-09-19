@@ -38,7 +38,11 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    — loop `DONE` is termination, not verified success; apps inspect
    the actual result (`notes.md` §52).
 4. **Stuck-detector**: three failures with the same strategy → ask for a
-   new hypothesis, not another retry.
+   new hypothesis, not another retry. **Silence is not safer:** a draft
+   gate that treats a missing Jev answer as "don't send" holds forever.
+   Missing verdict needs a fail-open / heartbeat — not a block and not a
+   pass. Contrast Abide `<0.5` silence (the *edit proceeds*). Showcase
+   class pattern on [jevable.com](https://jevable.com/) (`notes.md` §56).
 5. **Supervision during long runs** (foreman): separate concurrent loop
    estimates `meaningful_progress`, `implementation_complete`,
    `tests_sufficient`, `worker_stuck`, `work_off_track`,
@@ -102,6 +106,11 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   and corrections always return; fail-open dump if the scorer is
   down. Nine entries × three tasks is a hint, not proof
   (`notes.md` §55). Do not copy mcp add.
+  Classify-first cousin:
+  [jev-sift](https://github.com/kbhuw/jev-sift) — batch path/url/text
+  → Jev **before** the main agent reads; uncertain/errors/truncation
+  ≠ irrelevant. Transport tests ≠ accuracy. No LICENSE this pass
+  (`notes.md` §56). Do not copy plugin how-to.
 
 ## Non-negotiable boundaries
 
@@ -124,6 +133,8 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   stops on block / review-without-approval / guard error
   (`notes.md` §55). Session-memory *omit* fails open (dump the
   ledger): [carryforward](https://github.com/Dharundp6/jev-carryforward).
+  Draft-gate *silence* is the opposite mistake: treating no-answer as
+  a hold. Missing verdict needs a heartbeat (`notes.md` §56).
 - Cache identical judgments (~120s) and deduplicate sibling calls into one
   in-flight request.
 - pi-warden measured cost makes continuous guarding viable: ~$0.00004 and

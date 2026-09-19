@@ -488,7 +488,11 @@ Use these as *existence proofs of a position*. Write your own card.
 | Phishing / fraud screen | hold vs deliver | SDT criterion on a Noul | blocklist, SPF/DKIM exact (**Hypothesis**) |
 | Personal ops | cook done / not | "looks done" Noul | thermometer probe |
 | Org safety | stop the line | sensor Noul | interlock, two-person rule |
-| Knowledge / RAG | reason only over kept evidence | retrieve wide → decide → evidence set (**Empirical** as architecture: decision-native-rag-skills; **Hypothesis** as a measured win) | Conflict/temporal/provenance in code; embeddings generate candidates |
+| Knowledge / RAG | reason only over kept evidence | retrieve wide → decide → evidence set (**Empirical** as architecture: decision-native-rag-skills; classify-first MCP cousin: jev-sift; **Hypothesis** as a measured win) | Conflict/temporal/provenance in code; embeddings / file lists generate candidates; errors/truncation ≠ irrelevant |
+| Agent I/O | classify first, read selectively | batch path/url/text → relevance or typed questions (**Empirical** as README: jev-sift; topology A MCP) | Hard envelope (50 / 60k / 2MB / public-IP); main LLM opens survivors |
+| Spreadsheet / catalog | named semantic columns | heading scores each row (**Empirical** as *shape*: jevpandas / jevframe; jevable intent columns). Snack MCDA clocks are **claims** | Weights, vetoes, exact fields in code |
+| Robotics / control | observe → decide → act on a body | Choice on **geometry-as-text**, not pixels (**Empirical** as showcase: MuJoCo / MOSS; cousins jev-drone, Doom JSON) | Kinematics / Hz in code; two-call split; do not replace A*. Drawing-pixel claim ≠ Archer |
+| Draft quality gate | kill drafts that break rules | quality Noul/Score (**Empirical** as fail *mode*: silence treated as safer) | Fail-open / heartbeat on missing verdict; contrast Abide `<0.5` (edit proceeds) |
 | Session memory | next task sees last session's facts | scored recall over a verbatim ledger (**Empirical**: carryforward; 9×3 hint) | Constraints always-keep; fail-open dump; never summarize |
 | Application control flow | `if` / `case` on a judgment | `chance`/`pick`/`rate` as language primitives (**Empirical**: hunch; English-as-config) | Fail polarity per action; stub backend |
 | Healthcare huddle / recon / inbox | escalate / hold / route | S1 remainder after NEWS2/code (**Empirical** as synthetic report: explore-typesafe-ai; **not clinically validated**) | NEWS2, recon, routing in code; S2 blinded review |

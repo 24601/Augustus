@@ -4587,3 +4587,265 @@ file-search vs web-search), §6 (carryforward VOI), §18
 explore-typesafe-ai; pdf-lab negative); `faq.md`;
 `mental-models.md`; `methods-catalog.md`; `toolbox-mapping.md`;
 `agent-self-assessment.md`. No wrapper.
+
+## 56. Classify-first MCP + living applied-mappings atlas (2026-09-19 ~00:38 UTC / ~18:38 Boise)
+
+America/Boise ~18:38 = 2026-09-19T00:38Z. Docs-only fold into
+open PR #2 (`cursor/augustus-store-envelope-00b4`). Not a
+competing PR. Archer 27B drop still **WATCH**. Identity lock vs
+`typesafe-ai` / `tenbin` / `decision-first` holds. No wrapper,
+no MCP/npm how-to, no copied ports or key-file paths. No
+invented metrics. Do not re-fold §50–§55.
+
+Two HIGH **usage / architecture** signals: a portable classify-
+first MCP (same retrieve-wide → decide → evidence-set family as
+decision-native RAG), and a living applied-mappings *atlas*
+(class patterns from a curated showcase — not a 342-title hit
+list). TypeSafe Jev is the documented exemplar, not the
+monopoly. Augustus stays family-first.
+
+### HIGH
+
+1. **[`kbhuw/jev-sift`](https://github.com/kbhuw/jev-sift)**
+   (JavaScript; created 2026-09-18T00:13:31Z; 10★ this pass;
+   **no LICENSE file this pass — do not invent**; GitHub
+   `license` null). Portable agent plugin + stdio MCP:
+   **classify first, read selectively.** Tagline: let Jev decide
+   what the agent should look at next. Pass a query and a batch
+   of file paths, public webpage URLs, or inline text; the tool
+   loads content, sends it **directly to Jev**, and returns
+   compact relevance probabilities. The main agent only opens
+   items worth a closer look. Tool descriptions work too: score
+   a supplied description without executing the tool or
+   predicting an unseen result. Direct TypeSafe
+   `POST /v1/systemone` with `jev-latest`. Key via `JEV_API_KEY`
+   / `TYPESAFE_API_KEY` or a private key file (README names
+   `~/.config/jev-sift/api-key`; do not copy the path). Plugin
+   `0.2.0+codex.20260918200547`; package `0.2.0`; author Kush
+   Bhuwalka. Checked-in `dist/server.mjs` includes dependencies.
+   Core `classify` is framework-independent (inject `evaluate` /
+   `readText` / `readUrl`). Earlier generic prototype used
+   `CLASSIFY_*` / chat-completions — those settings are gone.
+
+   **README / schema envelope (theirs; not a how-to):** up to
+   **50** items; **1–8** typed questions (boolean → Noul;
+   Choice 2–12 options; Score 2–10 levels) *or* a `query`
+   shorthand that returns `answers.relevant.probability`.
+   Exactly one of `text` / `path` / `url` per item; unique ids.
+   Concurrency **1–8**. File and extracted page text capped at
+   **60,000** JavaScript characters and flagged if truncated.
+   Web: **2 MB** / **20 s**, public-IP only (including redirect
+   targets; DNS pinned to the connection), HTTP(S) ports 80/443,
+   up to **three** redirects, no JavaScript, no login, no
+   browser cookies, PDFs / private-network / other binaries
+   unsupported. A successful fetch of login/challenge HTML is
+   not the intended article. Webpage fetches receive no Jev
+   credentials. Plugin does not persist source content or
+   results. Results retain input order and include per-item
+   errors, resolved source URLs, truncation flags, model id,
+   summed input-token usage. **Uncertain items should get a
+   closer look; errors and truncation are not evidence that an
+   item is irrelevant.** Tests cover mapping, ordering,
+   failures, cancellation, truncation, file boundaries, public-
+   URL validation, redirects, HTML extraction, and an isolated
+   bundled MCP exchange — **mocks, not an accuracy benchmark.**
+   Live smoke verifies connectivity only. Model quality on *your*
+   task still needs evaluation.
+
+   **Four load-bearing mental models:**
+
+   1. **Retrieve-wide → decide → evidence-set (agent I/O).**
+      Same family as
+      [decision-native-rag-skills](https://github.com/emergency-lee/decision-native-rag-skills)
+      (`notes.md` §55): content goes to the judge **without
+      entering main agent context first** (paths/URLs). Inline
+      text the agent already read cannot recover that cost. The
+      main LLM reasons only over items worth a closer look.
+      Embeddings/file lists stay candidate generators.
+   2. **VOI / context economics.** Uncertain → closer look.
+      Errors/truncation ≠ irrelevant. Pay for a full read iff
+      the relevance (or typed question) says it might change the
+      act. Webpage fetch still costs bandwidth — this saves the
+      *agent's* read, not the download.
+   3. **Hard envelope on I/O.** 60k char, 2 MB / 20 s, public-IP
+      only, no JS/cookies/login, PDFs unsupported. Same sandwich
+      family as jev-pruner (size/format then Noul) and bitrate-
+      advisor (soft propose, code clamps).
+   4. **Do not copy marketplace / `mcpServers` / key-file how-
+      to.** Transport tests ≠ accuracy.
+
+   **Cousins, do not merge.**
+   [typesafe-screening-mcp](https://github.com/masa-med-ai/typesafe-screening-mcp)
+   — abstracts never enter the LLM conversation; include/maybe/
+   exclude in code (`notes.md` §55).
+   [kazuhideoki/jev-search](https://github.com/kazuhideoki/jev-search)
+   — recursive *file* search + fzf, not this MCP (`notes.md`
+   §55). [jev-pruner](https://github.com/tamaratran/jev-pruner)
+   — prune Bash *after* it ran; this tool screens *before* the
+   agent reads. [carryforward](https://github.com/Dharundp6/jev-carryforward)
+   — scored recall over a ledger you already hold.
+   [jev-routing](https://github.com/nekowasabi/jev-routing) is a
+   **host adapter, not MCP**. Dual-orchestration topology A
+   (Jev-as-tool); the LLM still owns the outer loop.
+
+   **Placement.** Context sieve (`applied-mappings.md` §1) +
+   retrieval (`mappings.md` §4) + mixed architecture (MCP as
+   topology A). Pillar: VOI + selective classification. Hole:
+   sieve / rank / gather. Family: closed decision API. Fail-open
+   on "open this file" (false drop loses evidence); truncation/
+   error ≠ irrelevant. Eval path: none published (transport
+   tests). **Empirical** as README / schema behavior.
+   **Hypothesis** that classify-first beats dump-into-context on
+   *your* agent. Cards: `applied-mappings.md` §1 (primary);
+   `mappings.md` §4 / §6; `mixed-architecture.md`; `faq.md`.
+   No wrapper.
+
+2. **[jevable.com](https://jevable.com/)** — "Discover what
+   people build with Jev." Independent curated showcase (creator
+   Nikunj / `@nikunj` in site JSON-LD). **Claim (theirs, this
+   pass):** **342** curated projects (`<meta name="description">`,
+   `#result-count` sr-only, board-data `"total":342`). Homepage
+   JSON-LD `ItemList.numberOfItems` is **36** (first page /
+   featured). Board-data `"pageSize":36`, `"nextOffset":36`,
+   `"sort":"curated"`. Categories in the filter: Agents, Browser
+   extensions, Creative tools, Data & research, Developer tools,
+   Experiments, Finance, Games, Marketing, Productivity,
+   Robotics. HTTP 200 this pass (Railway). **No public API
+   discovered this pass.** Watch: refresh the claimed count and
+   category list; do not treat 342 as an Augustus census.
+
+   **What it is for Augustus.** Living **applied-mappings
+   corpus**: how people apply judgment tools. Primary usage /
+   application atlas — **not** a 342-title hit list, **not** a
+   multimodal substrate, **not** a model. Prefer **class
+   patterns**. Maker demos are claims unless already measured in
+   notes. Cross-link exemplars already folded; do not invent
+   repos or clocks.
+
+   **Class patterns (load-bearing; not a gallery dump):**
+
+   1. **Intent columns.** Spreadsheets recalculate numbers, not
+      meaning. Type a heading ("Urgency"); each row is scored
+      (~100 ms is **their** demo claim). Same *hole* as
+      dataframe semantic columns ([jevpandas](https://github.com/yalindogusahin/jevpandas)
+      / [jevframe](https://github.com/ktaletsk/jevframe),
+      `notes.md` §46 / §48) and the launch-week
+      `dabit3/jev-experiments` JUDGE/SCORE/CHOOSE formulas
+      (`docs/ecosystem.md`). Predictive app launcher (heading /
+      keystroke → intent, not alias/fuzzy/habit) is the same
+      pattern on a catalog. Pillar: MCDA. Hole: perceive /
+      rank. Weights and vetoes stay in code.
+   2. **Score-among-observed.** Candidates already on the page
+      (a11y/DOM, action space, on-screen posts); the model
+      scores; **code** clicks / filters / removes. Showcase:
+      Browser Use Ultrafast (Flights **7 s / $0.0039** is the
+      *same* demo already in notes as ~7.1 s — do not merge
+      clocks with gliner2-ultrafast 12.20 s); ad blocker
+      (DOM element → ad/non-ad); Notte (new action space every
+      step); computer-use "100×" is a **claim**. Already
+      folded: jev-ultrafast / gliner2-ultrafast / solari-reflex
+      / cua-s1 / laya-mind2web (`notes.md` §4, §48, §52, §54).
+      **Your Signal** (Fabio Angela): score posts *already on
+      screen*, apply rules locally, reversible, BYOK, no
+      telemetry — same judge-once / re-policy family as Near
+      Here firehose (`applied-mappings.md` §4).
+   3. **VOI gates.** Instant compaction (tamara: score tool
+      calls, drop irrelevant — **same job** as
+      [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction)
+      / [jev-pruner](https://github.com/tamaratran/jev-pruner) /
+      [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction);
+      pointer, not summarizer). Prompt-difficulty classifier
+      before send (fast-mode offer) is a **route** gate, cousin
+      of [routeKit](https://github.com/rajdhakad9826/routeKit)
+      (`notes.md` §33) — Jev does not pick the LLM; code
+      offers. Gmail intent search: embeddings pull first, then
+      judge — decision-native RAG on mail (`notes.md` §55).
+      [jev-sift](https://github.com/kbhuw/jev-sift) (this
+      section) is the MCP of the same VOI: classify first.
+   4. **Generative UI decide.** json-render + Jev: *your*
+      components, actions, design system; the model decides;
+      render is milliseconds. Cousin already folded:
+      [jev-agentworld-web-simulator](https://github.com/knowlet/jev-agentworld-web-simulator)
+      — Jev Choice for intent / layout; generator writes
+      documents; Zod + **deterministic** compiler emits json-
+      render spec; model cannot add components (`notes.md`
+      §48). Decision for control, generator for content.
+   5. **Robotics text-state (not pixels).** MuJoCo robot-arm:
+      Jev does not accept images; it gets simplified geometry
+      and contacts **as text**; two-call split (what to do,
+      then how to move). MOSS: Jev picks the target; the
+      robot picks up the litter. Same observe→decide→act
+      *job* as computer-use, different body. Cousins:
+      [jev-drone](https://github.com/RomanSlack/jev-drone)
+      (500/50 Hz code, Jev advisory 2.5 Hz); Doom demo fed
+      structured JSON, not raw pixels (`notes.md` §1 / §4).
+      **Flag:** "drawing, one decision at a time" *claims*
+      pixel-parallel prediction — contrast the MuJoCo honesty
+      (text-state). Perception-then-judgment vs shared
+      multimodal (`notes.md` §39); Archer still Watch.
+   6. **Draft-gate fail mode: silence as "safer".** Jev sat
+      between GPT and the user, killing drafts that broke
+      rules. Then Jev did not answer. The agent treated
+      **silence as safer** and stopped sending anything. Took a
+      second agent to unstick. **Your checker needs a
+      fail-open / heartbeat** when the judge is down —
+      missing verdict is not a block and is not a pass. Name
+      the irreversible act: *withholding the draft* is fail-
+      closed-by-absence. Contrast Abide `<0.5` silence (linter
+      stays quiet; the *edit proceeds*, `notes.md` §47) and
+      carryforward dump / wakegate wake-on-error. Stuck-
+      detector / done-check (`agent-self-assessment.md`) must
+      not treat no-answer as "hold forever."
+
+   **Other patterns already in notes (confirm, don't invent):**
+   Higgsfield auto-routing is a **claim** (`notes.md` §44;
+   routeKit hole). Trading / signals → decisions:
+   [jev-trader](https://github.com/jarrodwatts/jev-trader).
+   Cambium first-class provider: keep in code what can be in
+   code (mixed-architecture slogan, not a new family). SEO
+   internal-link audit (maker claim: 45.1 s, 586 pages, **584**
+   links placed, **139** refused because nothing honestly fit,
+   $0.21) is Choice-with-`other` at corpus scale — wellposed /
+   kev NOTA (`notes.md` §45–§46); not re-run. Snack MCDA
+   (maker claim: 3,000 kids' snacks, multiple criteria, 28 s,
+   $0.11) is mapping §1 at catalog scale. ai-cli (yes/no /
+   choose / score from the shell) is a language-primitive
+   cousin of [hunch](https://github.com/carldaws/hunch)
+   (`notes.md` §55). Manhattan pathfinding / Sudoku playground:
+   **algorithm stays yours**; do not replace A* or a solver
+   with a Noul (`mappings.md` §9; ARC-AGI combinatorial ≠
+   extractive, `notes.md` §49).
+
+   **Jev-omni.** Archive the site snapshot as a community usage
+   atlas. Not multimodal substrate. Flag demos that claim
+   pixels vs text-state (drawing vs MuJoCo). Refresh count /
+   categories on hourly watch if useful.
+
+   **Placement.** Applied-mappings atlas (this file +
+   `applied-mappings.md` / `mixed-architecture.md` gallery),
+   not a new species. **Empirical** as the public showcase
+   (342 is *their* count; we did not enumerate titles).
+   Maker clocks stay **claims** unless already a named receipt.
+   Cards: `applied-mappings.md`; `mappings.md` §1 / §4 / §6 /
+   §9; `mixed-architecture.md`; `faq.md`; `mental-models.md`;
+   `agent-self-assessment.md`; `question-design.md`. No
+   wrapper. No 342-row dump.
+
+### Omni / Jev-omni / Archer
+
+Still **WATCH**. No Hub weights. Showcase drawing-pixel claim
+is **not** that drop. MuJoCo text-state is the honest robotics
+posture until a multimodal decide ships (blackwood-rlcd is
+screenshot-in, not arm-in).
+
+### Cross-links
+
+Cards: `applied-mappings.md` §1 (jev-sift classify-first),
+§2 (score-among-observed atlas), §4 (intent search / Your
+Signal); `mappings.md` §1 (intent columns / snack MCDA), §4
+(RAG family), §6 (VOI gates), §9 (robotics text-state; do not
+replace A*); `mixed-architecture.md` (topology A MCP; generative
+UI decide; draft-gate heartbeat); `faq.md`; `mental-models.md`;
+`question-design.md` (SEO 139-refused as `other`);
+`agent-self-assessment.md` (silence ≠ safer); `methods-catalog.md`;
+`toolbox-mapping.md`. No wrapper.

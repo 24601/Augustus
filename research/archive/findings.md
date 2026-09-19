@@ -1132,6 +1132,54 @@ encoder-with-labels still wins; (cw) serving-path ≠ model-speed;
 toolgate product ≠ ndolinschi vocab; (cz) Precision PDF honest
 negative is a result.
 
+## Batch #40 (2026-09-19 ~00:38 UTC / ~18:38 Boise 2026-09-18) — classify-first MCP + living applied-mappings atlas
+
+Note: `research/notes.md` §56. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Do not re-fold
+§50–§55.
+
+- **kbhuw/jev-sift (Empirical as README / schema; Hypothesis as a
+  measured win).** JavaScript. Created 2026-09-18T00:13:31Z; 10★
+  this pass; **no LICENSE file this pass.** Plugin
+  `0.2.0+codex.20260918200547`; package 0.2.0; author Kush
+  Bhuwalka. Classify first, read selectively: batch path / public
+  URL / inline text → Jev relevance or 1–8 typed questions. Direct
+  `POST /v1/systemone` `jev-latest`. Envelope (theirs): 50 items,
+  60k char, 2 MB / 20 s, public-IP only, 3 redirects, no
+  JS/cookies/login, PDFs unsupported. Uncertain/errors/truncation ≠
+  irrelevant. Transport tests (mocks) ≠ accuracy. Same
+  retrieve-wide → decide → evidence-set family as
+  decision-native-rag-skills. Topology A MCP; not jev-routing
+  (host adapter). Cousins: typesafe-screening-mcp,
+  kazuhideoki/jev-search, jev-pruner, carryforward.
+- **jevable.com (Empirical as public showcase; 342 is *their*
+  count).** Independent curated atlas (Nikunj / `@nikunj` in
+  JSON-LD). HTTP 200 Railway. Claimed **342**; JSON-LD first page
+  **36**; `pageSize` 36. Categories: Agents, Browser extensions,
+  Creative tools, Data & research, Developer tools, Experiments,
+  Finance, Games, Marketing, Productivity, Robotics. No public API
+  this pass. Class patterns, not a 342-title dump: (1) intent
+  columns → jevpandas/jevframe / dabit3 formulas; (2)
+  score-among-observed → jev-ultrafast / gliner2-ultrafast /
+  solari / cua-s1 + Your Signal/Near Here (do not merge 7s/$0.0039
+  with 12.20s; 100× is a claim); (3) VOI gates → tamara
+  compaction / jev-pruner / gliner25 / routeKit / Gmail embeddings-
+  first / jev-sift; (4) generative UI decide → json-render +
+  jev-agentworld-web-simulator; (5) robotics text-state MuJoCo
+  geometry-as-text / MOSS / jev-drone / Doom JSON (drawing-pixel
+  claim ≠ Archer); (6) draft-gate silence-as-safer needs fail-open
+  / heartbeat vs Abide `<0.5` (edit proceeds). Confirm-don't-
+  invent: Higgsfield claim, jev-trader, Cambium, SEO 584/139
+  `other`, snacks 3000/28s/$0.11 claim, ai-cli/hunch, Manhattan/
+  Sudoku ≠ replace A*.
+
+Cross-repo addition: (da) classify-first MCP is retrieve-wide →
+decide → evidence-set on agent I/O; (db) errors/truncation ≠
+irrelevant; (dc) topology A MCP ≠ host-adapter routing; (dd)
+living atlas extracts class patterns, not a 342-row dump; (de)
+draft-gate silence ≠ safer (heartbeat); (df) robotics text-state ≠
+pixels; (dg) 342 is their count / JSON-LD 36 is page 1.
+
 
 
 

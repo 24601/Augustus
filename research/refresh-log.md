@@ -635,6 +635,28 @@
   ecosystem, CHANGELOG, README.
 - notes.md §55; sources.json; findings.md batch #39. No wrapper.
 
+## 2026-09-19 00:38 UTC — classify-first MCP + living applied-mappings atlas (~18:38 Boise 2026-09-18)
+
+- Folded into open PR #2 (`cursor/augustus-store-envelope-00b4`).
+  Docs-only. Not a competing PR. Archer 27B drop still **WATCH**.
+  No invented metrics. No wrapper. Do not re-fold §50–§55.
+- HIGH: [kbhuw/jev-sift](https://github.com/kbhuw/jev-sift)
+  classify-first MCP/plugin; batch path/url/text → Jev; content
+  without entering main agent context first; 50 / 60k / 2MB /
+  public-IP envelope; mocks ≠ accuracy; no LICENSE. Same family as
+  decision-native-rag-skills. Topology A MCP, not jev-routing.
+  [jevable.com](https://jevable.com/) living applied-mappings atlas:
+  claimed 342 vs JSON-LD first page 36; class patterns (intent
+  columns, score-among-observed, VOI gates, generative UI decide,
+  robotics text-state, draft-gate silence ≠ safer). Not a hit list.
+  Maker clocks stay claims unless already a named receipt.
+- Cards: SKILL.md, applied-mappings §1/§2/§4, mappings §1/§4/§6/§9,
+  mixed-architecture (topology A; prefilter polarity; gallery),
+  faq, mental-models, methods-catalog, toolbox,
+  agent-self-assessment, question-design, ecosystem, CHANGELOG,
+  README.
+- notes.md §56; sources.json; findings.md batch #40. No wrapper.
+
 
 
 

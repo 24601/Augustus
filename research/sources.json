@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-18T23:54Z",
+  "retrieved": "2026-09-19T00:38Z",
   "sources": [
     {
       "kind": "docs",
@@ -1676,6 +1676,18 @@
       "title": "kazuhideoki/jev-search",
       "url": "https://github.com/kazuhideoki/jev-search",
       "note": "Created 2026-09-18T23:43:52Z; 0 stars; no LICENSE file this pass. Recursive semantic file search + fzf. Not superagents-lab/jev-search (federated web). Max-over-chunks is not a calibrated whole-file probability. notes.md \u00a755."
+    },
+    {
+      "kind": "github",
+      "title": "kbhuw/jev-sift",
+      "url": "https://github.com/kbhuw/jev-sift",
+      "note": "JavaScript. Created 2026-09-18T00:13:31Z; 10 stars this pass; license null / no LICENSE file. Plugin 0.2.0+codex.20260918200547; package 0.2.0; author Kush Bhuwalka. Classify first, read selectively: batch path/url/text \u2192 Jev relevance or 1\u20138 typed questions. Direct POST /v1/systemone jev-latest. Envelope (theirs): 50 items, 60k char, 2 MB / 20 s, public-IP only, 3 redirects, no JS/cookies/login, PDFs unsupported. Uncertain/errors/truncation \u2260 irrelevant. Transport tests (mocks) \u2260 accuracy. Same retrieve-wide\u2192decide\u2192evidence-set family as decision-native-rag-skills. Topology A MCP, not jev-routing host adapter. notes.md \u00a756."
+    },
+    {
+      "kind": "web",
+      "title": "jevable.com",
+      "url": "https://jevable.com/",
+      "note": "Independent curated showcase (creator Nikunj / @nikunj in JSON-LD). HTTP 200 Railway this pass. Claim (theirs): 342 curated projects (meta description, #result-count, board-data total). JSON-LD ItemList.numberOfItems 36 (first page); pageSize 36; nextOffset 36; sort curated. Categories: Agents, Browser extensions, Creative tools, Data & research, Developer tools, Experiments, Finance, Games, Marketing, Productivity, Robotics. No public API discovered this pass. Treat as living applied-mappings atlas: class patterns, not a 342-title dump. notes.md \u00a756."
     }
   ]
 }

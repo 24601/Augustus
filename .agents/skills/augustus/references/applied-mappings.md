@@ -75,6 +75,21 @@ corrections **always return in full** (Jev never votes on a rule).
 Fail-open: no key → whole list. Thresholds 0.60 full / 0.30–0.60
 one line are *theirs*. Nine entries × three tasks is a **hint, not
 proof** (`notes.md` §55). Do not copy `mcp add`.
+**Classify-first MCP, same family, different job (Empirical as
+README / schema, 2026-09-19 ~00:38):**
+[jev-sift](https://github.com/kbhuw/jev-sift) — batch path / public
+URL / inline text (or a tool description) → Jev relevance or 1–8
+typed questions **before** the main agent reads. Content goes to
+the judge without entering main agent context first (paths/URLs).
+Uncertain → closer look; errors and truncation ≠ irrelevant. Hard
+envelope (theirs): 50 items, 60k char, 2 MB / 20 s, public-IP only,
+no JS/cookies/login, PDFs unsupported. Transport tests ≠ accuracy.
+No LICENSE this pass. Same retrieve-wide → decide → evidence-set
+family as decision-native-rag-skills. Cousins: typesafe-screening-mcp,
+kazuhideoki/jev-search, jev-pruner (after Bash), carryforward (ledger
+you already hold). Not jev-routing (host adapter). Topology A MCP
+(LLM outer loop). Do not copy plugin / `mcpServers` / key-file
+how-to (`notes.md` §56).
 Local teacher-copy for the same hole:
 [`SargeDev/jev-gate-student-b`](https://huggingface.co/SargeDev/jev-gate-student-b)
 (Qwen2.5-0.5B LoRA; P(relevant) from yes/no logits; 148,160-row
@@ -153,6 +168,16 @@ screenshot). Specialist-form cousin, **not TypeSafe Jev:**
 option-attention among observed elements (fill/check/click/skip);
 code owns execution order; dry-run default; source-only
 (`notes.md` §54).
+**Score-among-observed atlas (Empirical as public showcase class
+pattern, 2026-09-19 ~00:38):**
+[jevable.com](https://jevable.com/) — candidates already on the
+page (a11y/DOM, ads, on-screen posts); the model scores; **code**
+clicks / filters. Not a 342-title dump. Cross-link: jev-ultrafast /
+gliner2-ultrafast / solari-reflex / cua-s1 / laya-mind2web. Your
+Signal: score posts already on screen, apply rules locally — same
+judge-once / re-policy family as Near Here. Do not merge Flights
+7 s / $0.0039 with gliner2-ultrafast 12.20 s; computer-use "100×"
+is a **claim** (`notes.md` §56).
 **DOM-as-text + fan-out (Empirical as atlas browser-use *shape*):** a
 screenshot task translated into a structured DOM snapshot as `state`,
 then speculative questions over numbered candidates — not vision
@@ -258,6 +283,21 @@ generators. Provider-agnostic; no bundled Python harness; **no
 universal benchmark**. Default migration gates are starting
 targets. Offline replay → shadow → canary → A/B (`notes.md` §55).
 Do not ship because an LLM judge prefers it.
+**Classify-first agent I/O of the same sandwich (Empirical as
+README, 2026-09-19 ~00:38):**
+[jev-sift](https://github.com/kbhuw/jev-sift) — file lists and
+public URLs stay candidate generators; the judge sees content; the
+main LLM opens only items worth a closer look. Inline text the
+agent already read cannot recover that cost. Uncertain/errors/
+truncation ≠ irrelevant. Mocks ≠ accuracy (`notes.md` §56).
+**Living applied-mappings atlas (Empirical as showcase; 342 is
+*their* count):**
+[jevable.com](https://jevable.com/) — class patterns (intent
+columns, score-among-observed, VOI gates, generative UI decide,
+robotics text-state, draft-gate fail modes), not a hit list.
+JSON-LD first page is 36; `pageSize` 36. No public API this pass.
+Maker clocks stay claims unless already a named receipt
+(`notes.md` §56).
 **Recursive file search (MED; distinguish from federated web):**
 [kazuhideoki/jev-search](https://github.com/kazuhideoki/jev-search)
 scores local files then fzf — **not**

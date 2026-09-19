@@ -18,6 +18,7 @@ weekdays. Jev is the densest public corpus, not the class monopoly.
 - **carlaiau/jev-reranking** — independent TREC DL2019 benchmark: zero-shot Jev best MAP 0.4748, nDCG@10 0.683 vs monoBERT 0.718; $0.76 per 41k pairs.
 - **superagents-lab/jev-search** — federated web search: Jev understands intent (query/sources/time-range), lanes fan out concurrently, Jev ranks results; merge by URL + engine agreement + rank.
 - **kazuhideoki/jev-search** — recursive *file* search + fzf. Not the federated web product. `notes.md` §55.
+- **kbhuw/jev-sift** — classify-first MCP: batch path/url/text → Jev before the main agent reads. Topology A, not a host adapter. `notes.md` §56.
 
 ### Languages & runtimes
 - **probably-lang (southpolesteve)** — a programming language whose **loop conditions are Jev feelings**: `while draft feels "like a LinkedIn influencer post" { … }`. Judgment-state recordings give deterministic replay.
@@ -199,13 +200,20 @@ Architecture notes, not a Driver / MCP catalog. `notes.md` §54. TypeSafe Jev is
 Architecture notes, not a CUDA/venv / gem / mcp / uv catalog. `notes.md` §55. TypeSafe Jev is the exemplar, not the monopoly. Archer still Watch. X MCP flap; `since_id` not advanced.
 
 - **Mintzs/jevify** — CUDA/PyTorch parallel Choice/Score/Noul *shape* on Qwen2.5-1.5B (`ora_decision_engine`). CUDA graphs, branch kernels, literal-label scoring. **Uncalibrated likelihoods ≠ Noul.** Independent of Distillation. Default refund workflow is not a validated policy. No LICENSE this pass.
-- **emergency-lee/decision-native-rag-skills** — MIT. Retrieve wide → decide → evidence set → conflict resolve → reason only over kept evidence. Provider-agnostic. No bundled harness. No universal benchmark. Core Augustus RAG mental model.
+- **emergency-lee/decision-native-rag-skills** — MIT. Retrieve wide → decide → evidence set → conflict resolve → reason only over kept evidence. Provider-agnostic. No bundled harness. No universal benchmark. Core Augustus RAG mental model. Classify-first MCP cousin: **kbhuw/jev-sift** (`notes.md` §56).
 - **Dharundp6/jev-carryforward** — MIT, 1★, npm `carryforward`. Verbatim session ledger; Jev scores recall; rules never judged; fail-open dump. 9×3 hint, not proof.
 - **carldaws/hunch** — MIT. Ruby `chance`/`pick`/`rate`; English-as-config; `rescue nil` fail-open at save. Cousin of probably-lang (library, not a new language).
 - **si618/explore-typesafe-ai** — FHIR S1 (Jev) + Claude S2 on 100 synthetic Synthea patients. Labels first. 60 requests / 403 judgments. **Not clinically validated.** License not in API this pass.
 - **ickma2311/jev-baselines-eval** — MIT. Pre-registered vs nano/frontier/encoder. **Both AMBIGUOUS.** Cascade sign-flip at exact parity; confidence=1.0 theater; encoder 0.933/9ms with labels; serving-path ≠ model-speed; same-day errata ×3. jevals/Harbor practice exemplar.
 - **SargeDev/jev-gate-student-b** — light delta only; HF card unchanged (MAE 0.187 / Pearson 0.791 / 90% n=60; fail-open; teacher-copy).
 - MED: **fdemir/toolgate** (pre-exec allow/block/review; Jev not authorization; 72-case synthetic); **masa-med-ai/typesafe-screening-mcp** (PubMed include/maybe/exclude; 326 hits ~17s ~$0.014; screening aid); **laurentfabre/databricks-jev-pdf-lab** (honest negative; no OSS license); **yannip1234/codex-jev** (extractive Codex compression; 185→44 estimated tokens is an integration demo; equal accuracy/lower cost not established); **kazuhideoki/jev-search** (recursive *file* search + fzf; **not** superagents-lab federated web search).
+
+### Hourly ~18:38 Boise 2026-09-18 / 00:38 UTC 2026-09-19 (classify-first MCP + living applied-mappings atlas)
+
+Architecture notes, not a plugin / showcase catalog. `notes.md` §56. TypeSafe Jev is the exemplar, not the monopoly. Archer still Watch. No invented metrics. No 342-title dump.
+
+- **kbhuw/jev-sift** — classify first, read selectively. Batch path / public URL / inline text → Jev relevance or 1–8 typed questions. Content to Jev without entering main agent context first. Envelope (theirs): 50 items, 60k char, 2 MB / 20 s, public-IP only, no JS/cookies/login, PDFs unsupported. Uncertain/errors/truncation ≠ irrelevant. Transport tests (mocks) ≠ accuracy. No LICENSE this pass. Same retrieve-wide → decide → evidence-set family as decision-native-rag-skills. Topology A MCP; **not** nekowasabi/jev-routing (host adapter).
+- **jevable.com** — living applied-mappings atlas. Claimed **342** curated projects; JSON-LD first page **36**. Categories: Agents, Browser extensions, Creative tools, Data & research, Developer tools, Experiments, Finance, Games, Marketing, Productivity, Robotics. No public API this pass. Class patterns: intent columns, score-among-observed, VOI gates, generative UI decide, robotics text-state, draft-gate silence ≠ safer. Maker clocks stay claims unless already a named receipt.
 
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs

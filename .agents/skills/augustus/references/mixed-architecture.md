@@ -185,6 +185,8 @@ not a global virtue:
 | Drop a RAG chunk or log line | **Fail open** (keep on error) | A false drop loses evidence; a false keep costs tokens |
 | Compact / drop a completed tool result | **Fail closed** to keep-full (`gliner25-compaction`) | Compaction is a destructive edit of memory. Uncertain *looks* like keep-on-error from the evidence side; name the *reduction* as the act. Contrast Abide / jevgate fail-open |
 | Omit a session-memory fact from the brief | **Fail open** (dump the whole ledger) (`carryforward`) | Scoring failure must not hide a rule. Constraints/corrections always return; Jev never votes on them |
+| Open a file / URL into agent context | **Fail open** (closer look on error / truncation / uncertain) (`jev-sift`) | False drop loses evidence. Errors and truncation are not irrelevance. Transport failure ≠ "irrelevant" |
+| Withhold a draft because the judge is silent | **Fail open** (heartbeat / proceed or escalate; do not hold forever) | Missing verdict is not a block and not a pass. Contrast Abide `<0.5` silence (the *edit proceeds*) |
 | Prune Bash stdout before the LLM | **Fail closed** to original (`jev-pruner`) | Dropping the log is irreversible. ≤10k / JSON-diff-whole-doc prove pass-through; archive/Jev/incomplete-score failure keeps the result. Harbor plugin-eval cannot reach Jev → cannot prune |
 | Skip waking a sleeping agent | **Fail open** (wake on error / unsure / no key) (`wakegate`) | Skip is the irreversible act. User-message, skip-limit, nothing-to-judge, and p in 0.2–0.5 all wake. Contrast pi-jev-approver fail-closed without a key |
 | Merge a red CI run | **Fail closed** on `--gate` (`latch`); reporter stays fail-open | False PASS merges a real bug. Missing key never fails Playwright; the gate is a separate step. Judge never says ignore alone |
@@ -219,6 +221,12 @@ Worked placements (2026-09-18 topic:jev hour + prior archive):
   [decision-native-rag-skills](https://github.com/emergency-lee/decision-native-rag-skills):
   retrieve wide → decide → evidence set → LLM. Embeddings stay
   candidate generators. No universal benchmark (`notes.md` §55).
+- **Files / URLs before the main agent reads** —
+  [jev-sift](https://github.com/kbhuw/jev-sift): classify first,
+  read selectively. Batch path/url/text → Jev; the main LLM opens
+  survivors. Uncertain/errors/truncation ≠ irrelevant. Topology A
+  MCP (LLM outer loop). Transport tests ≠ accuracy. No LICENSE this
+  pass (`notes.md` §56). Do not copy plugin how-to.
 - **Diff hunks before `git add`** — `ibrahemid/git-jev-stage`: one Choice
   per hunk (`include` / `exclude` / `mixed`); mixed and low-confidence stay
   unstaged; lines never split; staging is an exact patch after confirm.
@@ -318,7 +326,11 @@ a *closed* tool catalog (the host executes; the calculator does the
 math). "First general-purpose System One agent" is a claim.
 [`nekowasabi/jev-routing`](https://github.com/nekowasabi/jev-routing) is
 a host adapter in front of an existing coding CLI (not topology B, not
-MCP): it peels the catalog *before* the generator sees it. **Does not:** the decision model as the planner — neither inventing tools
+MCP): it peels the catalog *before* the generator sees it.
+[`kbhuw/jev-sift`](https://github.com/kbhuw/jev-sift) **is** topology A
+MCP: the LLM still owns the outer loop; Jev is a tool that classifies
+paths/URLs/text before the agent reads them (`notes.md` §56). Do not
+merge with jev-routing. **Does not:** the decision model as the planner — neither inventing tools
 nor picking its own next tool in a loop (standing red flag, above and in
 `boundary-audit.md`); skipping schemas so the model "just knows";
 treating a workflow AST as a proof. The outer loop stays with the LLM or
@@ -495,6 +507,11 @@ decision-design card. Do not clone APIs from READMEs.
 | Bounded Pi supervisor | Skills / recovery / review / verify | Shadow default; never generates commands | jevons |
 | Judgment as language primitive | `chance` / `pick` / `rate` (Noul / Choice / Score) | English-as-config; stub backend; fail polarity per action (`rescue nil` at save ≠ spam gate) | hunch (Ruby library, not a new language; cousin of probably-lang) |
 | Decision-native RAG | Relevance / evidence / freshness / authority Nouls + Score | Evidence-set builder, conflict/temporal logic, provenance; embeddings generate candidates only | decision-native-rag-skills (no bundled harness; Hypothesis as a measured win) |
+| Classify-first agent I/O | Relevance / typed questions on path/url/text | Hard envelope (50 / 60k / 2MB / public-IP); main LLM opens survivors; uncertain/errors/truncation ≠ irrelevant | jev-sift (MCP topology A; mocks ≠ accuracy; no LICENSE this pass) |
+| Generative UI decide | Intent / layout Choice | Zod + deterministic compiler; model cannot add components | json-render + jev-agentworld-web-simulator |
+| Robotics text-state | Choice on geometry-as-text | Code owns kinematics / Hz; two-call split; not pixels | MuJoCo showcase; jev-drone; Doom JSON. Drawing-pixel claim is not Archer |
+| Draft-gate heartbeat | Quality Noul / Score | Fail-open / heartbeat on silence; missing verdict ≠ hold forever | jevable draft-gate fail mode; contrast Abide `<0.5` (edit proceeds) |
+| Living class-pattern atlas | (not a model) | Cross-link exemplars; do not dump 342 titles | jevable.com (342 is *their* count; JSON-LD first page 36) |
 | Verbatim session recall | Noul "still live for this task?" | JSONL ledger; constraints/corrections always-keep; fail-open dump | carryforward (9×3 hint, not proof) |
 | Pre-exec tool gate | allow / block / review | Permissions, arg validation, transaction limits in code; timeout stops | toolgate (72-case synthetic, not independently annotated; Jev ≠ authorization) |
 | Healthcare S1 + S2 | NEWS2 remainder / med recon / inbox route | Code owns NEWS2, recon, routing; S2 blinded review | explore-typesafe-ai (synthetic FHIR; not clinically validated) |

@@ -52,6 +52,14 @@ as firehose sliders. **Beyond SWE
 Nouls; price and deadline exact); apartment shortlist (commute/light/
 noise Scores; rent exact); hiring scorecard (evidence Nouls; labor-law
 vetoes in policy). Full gallery: `mental-models.md` §MCDA.
+**Intent columns / catalog MCDA (Empirical as *shape*; clocks are
+claims, 2026-09-19 ~00:38):**
+[jevable.com](https://jevable.com/) class pattern: a heading
+("Urgency") scores each row. Same hole as jevpandas / jevframe
+(`mappings.md` §4) and dabit3 spreadsheet JUDGE/SCORE/CHOOSE.
+Snack multi-criteria at catalog scale is a **maker claim** (3,000 /
+28 s / $0.11) unless independently re-run. Weights and vetoes stay
+in code (`notes.md` §56).
 **Counterexample** (from **Contract** Score docs): levels 0,1,2 with
 distributions `[0,1,0]` vs `[0.5,0,0.5]` both score 1.0 with radically
 different extreme-outcome risk — always read probabilities beside the
@@ -197,7 +205,8 @@ PyPI; pandas **and** Polars `.jev`; full `p__` columns; no silent
 renormalize; one row per request). Same hole, two surfaces. Row
 contents leave the store (same residency warning as AU health). Do not
 copy SQL, env, or CLI flags.
-`notes.md` §42, §44, §46, §48.
+`notes.md` §42, §44, §46, §48. Intent-column / snack MCDA *shape*:
+`mappings.md` §1; `notes.md` §56.
 
 **Decision-native evidence set (Empirical as architecture;
 Hypothesis as a measured win, 2026-09-18 ~17:48):**
@@ -216,6 +225,16 @@ Local-file cousin:
 [kazuhideoki/jev-search](https://github.com/kazuhideoki/jev-search)
 (recursive files + fzf) — **not** superagents-lab/jev-search
 (federated web). Max-over-chunks ≠ calibrated whole-file p.
+**Classify-first MCP (Empirical as README / schema, 2026-09-19
+~00:38):**
+[jev-sift](https://github.com/kbhuw/jev-sift) is the same sandwich
+on agent I/O: retrieve-wide (paths / public URLs / inline text) →
+decide (relevance or 1–8 typed questions) → the main LLM opens
+only the evidence set. Content never enters main agent context
+first (paths/URLs). Hard envelope in code. Transport tests ≠
+accuracy. No LICENSE this pass. Cousin of typesafe-screening-mcp
+(abstracts never enter the LLM conversation). Not jev-routing
+(host adapter). `notes.md` §56.
 
 ## 5. Hierarchy → bounded heuristic search
 
@@ -341,6 +360,14 @@ task; constraints/corrections always return (never judged). Fail-
 open dump if the scorer is down. Pay for a scored brief iff it
 beats dumping the whole file. No accuracy claim until a proper
 test (`notes.md` §55). Do not copy mcp add.
+**Classify-first read (Empirical as README; Hypothesis as a
+measured win, 2026-09-19 ~00:38):**
+[jev-sift](https://github.com/kbhuw/jev-sift) — pay for a full
+agent open iff the relevance (or typed question) says it might
+change the act. Uncertain → closer look. Errors and truncation are
+**not** evidence of irrelevance. Webpage fetch still costs
+bandwidth; this saves the *agent's* read, not the download.
+Mocks ≠ accuracy (`notes.md` §56).
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs
@@ -481,6 +508,17 @@ classifier step (`notes.md` §52).
 same substituted-classifier *job* on a specialist form contract
 (option-attention; plan ≠ execute; not TypeSafe Jev; source-only,
 `notes.md` §54).
+
+**Robotics text-state, same job different body (Empirical as
+showcase class pattern, 2026-09-19 ~00:38):**
+MuJoCo robot-arm on [jevable.com](https://jevable.com/): Jev does
+not accept images; simplified geometry and contacts **as text**;
+two-call split (what to do, then how to move). MOSS: Jev picks the
+target; the robot picks up. Cousins: [jev-drone](https://github.com/RomanSlack/jev-drone)
+(code at 500/50 Hz, Jev advisory 2.5 Hz); Doom JSON, not pixels.
+Drawing-pixel-parallel is a **claim** — contrast MuJoCo honesty.
+Do not replace A* or a Sudoku solver with a Noul. Archer still
+Watch (`notes.md` §56).
 
 **Structure induction over a bag (Empirical as a *shape*, 2026-09-18):**
 [`Joymfl/dag-jev`](https://github.com/Joymfl/dag-jev) — unordered items
