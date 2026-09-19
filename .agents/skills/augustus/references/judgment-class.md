@@ -145,6 +145,24 @@ below, next to the when-to-use table.
   success). Their Flights demo (12.20 s / 13.785 s / ~$0.0001 API)
   is a demonstration, not a bake-off (`notes.md` §52). Do not copy
   `uv` / `.env`.
+  **Native Apple locate runtime (Empirical as README + source
+  comments, 2026-09-19 ~17:17 Boise; user-linked SIGNAL):**
+  [gliner-native-runtime](https://github.com/shershah1024/gliner-native-runtime)
+  (Apache-2.0; **4★**; HEAD `b44f661`) is unofficial
+  Swift/Core ML inference for
+  `fastino/gliner2.5-small-v1` (rev `cab1bddf…`) on
+  Apple silicon ANE. **Not Fastino. Not TypeSafe. Not
+  Choice/Score/Noul.** Entity spans + confidence;
+  label descriptions as schema; on-device ANE
+  economics; Python not needed for inference.
+  Extraction path only (flat non-overlap + trained
+  null/abstention). Default threshold 0.1 still soft.
+  README `0.99` is a fixture, not Harbor. honesty
+  locks. **≠** gliner25-compaction **≠**
+  gliner2-ultrafast **≠** Eran-BA/Jev_from_GLiNER2
+  **≠** NSStudent/JevSwiftSDK **≠** jevmlx
+  (`notes.md` §97). Do not copy `swift build` / Git
+  LFS / Hub weights.
   **Specialist computer-use S1 (Empirical as README / MODEL_CARD
   behavior, 2026-09-18 ~17:21; weights Watch):**
   [Cua-S1](https://github.com/trycua/cua/tree/main/libs/cua-s1)
@@ -846,6 +864,10 @@ Softmax over slots ≠ Noul (`notes.md` §70).
 — `fastino/gliner2-base-v1` → Choice/Score/Noul `/v1/systemone`.
 No service, no training, no measurements. Interface ≠ replica.
 Distinct from jeff GLiFormer (`notes.md` §70).
+**Native Apple locate ≠ that spec (`notes.md` §97):**
+[`shershah1024/gliner-native-runtime`](https://github.com/shershah1024/gliner-native-runtime)
+runs GLiNER2.5-small spans on Core ML. It does **not**
+speak Choice/Score/Noul. Eran-BA remains design-only.
 **Packed one-forward on an open LLM (constrained-AR / logprob path,
 not a Jev reproduction):**
 [`ikermoel/open-alternative-jev`](https://github.com/ikermoel/open-alternative-jev)
@@ -989,6 +1011,7 @@ default, jeff confidently flat, do not invent Laya),
 §94 (byenzyme/enzyme compile-time System One / catalysts ≠ summaries / guidance ≠ hook / hosted bootstrap ≠ silent TypeSafe; argos1111/modernbert-ja-310m-jev unofficial ≠ TypeSafe / format_version modernbert-jev/1; Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev / LFM default ≠ ModernBERT backend; pst2154/Nemotron_Jev ≠ TypeSafe / not a calibrated replacement; Davipar/djev-dev complements djev-spark / images as Choice options; Laya essay ≠ new species / Router/OOD confidence — placements / unofficial packaging, not new species),
 §95 (llama-jev llama.cpp replica; numbered-choice softmax ≠ Noul; **≠** TypeSafe **≠** pcdServer **≠** chakuho; 80 ms cold / 40 ms cache *theirs* on minicpm5-2b-q8; packaging / WIP replica, not a new species),
 §96 (indiejoseph/opencode-jev-pruner OpenCode host-port of tamaratran/jev-pruner; jev-zen / jev-1.13-free; zen-chat ≠ Noul; **≠** nrdz-labs/fast-jev-opencode; Kiln-AI/jev_jsonschema / NSStudent/JevSwiftSDK unofficial packaging, not new species; jev-webagent-bench empty stub),
+§97 (shershah1024/gliner-native-runtime GLiNER2 native Apple path; unofficial Swift/Core ML GLiNER 2.5-small; entity spans + confidence; not Choice/Score/Noul; not TypeSafe; label descriptions as schema; on-device ANE economics; honesty locks; shershah1024/gliner-native-runtime ≠ Fastino; ≠ gliner25-compaction ≠ gliner2-ultrafast ≠ Eran-BA/Jev_from_GLiNER2 ≠ NSStudent/JevSwiftSDK ≠ jevmlx; default threshold 0.1 still soft),
 §49 (boundary map; DMB vs constrained LLMs; von; open-alternative-jev). Before
 adopting a surface, the bake-off is a jevals-shaped suite and, for a
 product loop, a Harbor taskset (`validation.md`, Eval & hill-climb).

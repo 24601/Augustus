@@ -1868,3 +1868,42 @@
 - notes.md §96; sources.json (594 sources, 591 unique URLs,
   retrieved 2026-09-19T22:39Z); findings.md batch #79.
   No wrapper.
+
+## 2026-09-19 ~23:17 UTC — SIGNAL gliner-native-runtime (~17:17 Boise)
+- Docs-only on a **fresh PR off main**. Never reopen
+  merged #7 / **#8** / **#9** / **#10** / **#12** /
+  **#13** / **#14**. Do **not** re-fold §93 / §94 / §95 /
+  §96. `notes.md` §97. Skip Archer. Do **not** re-fold
+  1441 / §92. Hunches labeled. No wrapper. No invented
+  metrics. Quote READMEs. Soft Noul ≠ hard safety.
+  User-linked SIGNAL (pushed 2026-08-26). Not a Jev
+  skill dump. Backend-agnostic categorization/scoring/
+  decision class. Augustus owns placement (rh-guard
+  skips).
+- Folded how-to-apply: GLiNER2 native Apple path
+  (shershah1024/gliner-native-runtime; unofficial
+  Swift/Core ML GLiNER 2.5-small; entity spans +
+  confidence; not Choice/Score/Noul; not TypeSafe;
+  label descriptions as schema; on-device ANE
+  economics; honesty locks; ≠ Fastino ≠
+  gliner25-compaction ≠ gliner2-ultrafast ≠
+  Eran-BA/Jev_from_GLiNER2 ≠ NSStudent/JevSwiftSDK ≠
+  jevmlx; default threshold 0.1 still soft).
+- Formal compose: a span confidence is a SENSOR.
+  Hard-gating 0.1 as NER quality, treating this as
+  TypeSafe `/v1/systemone`, or inventing ANE Harbor
+  is soundness theater. Soft Noul ≠ hard safety.
+- Census not provided this hour (not re-derived).
+  Archer still NOT landed. Last pin from §92:
+  tracker likes **50** lastModified UNCHANGED
+  2026-09-19T18:37:18Z; SemIf 1873; jevlike 969;
+  TypeAR 10; Awesomejev 561/27007.
+- Cards: SKILL.md, mixed-architecture fail table +
+  gallery, faq, mental-models, judgment-class,
+  validation, applied-mappings, mappings, toolbox,
+  composition-algebra item 93, question-design,
+  methods-catalog, formal-methods, agent-self-assessment,
+  ecosystem, CHANGELOG, README.
+- notes.md §97; sources.json (596 sources, 593 unique URLs,
+  retrieved 2026-09-19T23:17Z); findings.md batch #80.
+  No wrapper.

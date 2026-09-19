@@ -2012,6 +2012,13 @@ therefore cannot prune — fail-safe, not a missing score.
 OpenCode host-port (`notes.md` §96):
 [indiejoseph/opencode-jev-pruner](https://github.com/indiejoseph/opencode-jev-pruner)
 — same polarity; hook fail-open; zen-chat ≠ Noul.
+**Native Apple locate (Empirical as README + source
+comments, 2026-09-19 ~17:17):**
+[gliner-native-runtime](https://github.com/shershah1024/gliner-native-runtime)
+— encoder proposes spans; code owns offsets and
+policy; default 0.1 still soft; not a Noul;
+not keep/drop of held candidates; not position 4
+Selector (`notes.md` §97).
 **Name the irreversible act (2026-09-18 ~16:48).** Wake *skip* is
 irreversible (the agent stays asleep) →
 [wakegate](https://github.com/shitianfang/wakegate) authorizes skip

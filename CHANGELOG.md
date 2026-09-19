@@ -1537,6 +1537,28 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   still NOT landed. Do not copy `TYPESAFE_API_KEY` /
   `OPENCODE_API_KEY` / `npx` / plugin marketplace.
   No wrapper. No invented metrics.
+- SIGNAL gliner-native-runtime (`research/notes.md` §97):
+  **Skip Archer.** Docs-only on a **fresh PR off main**.
+  Never reopen merged #7–**#14**. Do **not** re-fold 1639
+  / §96. How-to-apply / mental models / architecture /
+  Harbor-jevals / toolbelt — not a thin Jev skill dump.
+  Backend-agnostic categorization/scoring/decision class.
+  User-linked SIGNAL (pushed 2026-08-26). Formal methods
+  compose with scoring; span confidence is a SENSOR;
+  treating this as TypeSafe Choice/Score/Noul, collapsing
+  it into Fastino official, or hard-gating default 0.1 as
+  NER quality is soundness theater. One HIGH cluster:
+  **GLiNER2 native Apple path**
+  ([shershah1024/gliner-native-runtime](https://github.com/shershah1024/gliner-native-runtime)
+  unofficial Swift/Core ML GLiNER 2.5-small; entity spans
+  + confidence; not Choice/Score/Noul; not TypeSafe;
+  label descriptions as schema; on-device ANE economics;
+  honesty locks; Apache-2.0; **4★**; HEAD `b44f661`;
+  README SHA `901eb063`). Soft Noul ≠ hard safety.
+  default threshold 0.1 still soft. Census **not provided
+  this hour** (not re-derived). Archer still NOT landed.
+  Do not copy `swift build` / Git LFS / Hub weights.
+  No wrapper. No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

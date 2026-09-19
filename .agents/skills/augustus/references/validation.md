@@ -464,6 +464,7 @@ Rules:
 | Physical/control atlas (seed-0 ≠ rate) | [Frank-ZY-Dou/awesome-jev](https://github.com/Frank-ZY-Dou/awesome-jev) | license null; **0★**; README SHA `c4825b7f`. Frank-ZY-Dou/awesome-jev robotics/3D/control. OpenRoboto 113 cycles $0.018825 *theirs* one seed-0. `notes.md` §95 |
 | OpenCode stdout-prune host (unit tests ≠ Harbor) | [indiejoseph/opencode-jev-pruner](https://github.com/indiejoseph/opencode-jev-pruner) | GitHub license **null**; `package.json` MIT; **0★**; README SHA `dd93d635`. Mapper/retry/zen-scorer/auth tests. Do **not** copy tamaratran 24/24 / 83%. zen-chat ≠ Noul. `notes.md` §96 |
 | Empty web-agent bench (watch) | [jongyunhur/jev-webagent-bench](https://github.com/jongyunhur/jev-webagent-bench) | size 0; 409 empty repo; **0★**. jev-webagent-bench empty stub. Do not invent scores. `notes.md` §96 |
+| GLiNER2 native Apple locate (no Harbor) | [shershah1024/gliner-native-runtime](https://github.com/shershah1024/gliner-native-runtime) | Apache-2.0; **4★**; README SHA `901eb063`. README 0.99 fixture. No published Harbor / ECE / ANE ms. default threshold 0.1 still soft. `notes.md` §97 |
 | Pre-review typed PR gate | [ci-gatekeeper-bot-jev](https://github.com/NemanjaManic/ci-gatekeeper-bot-jev) | Own-repo live Jev: 504–629 ms; secondary ~4–5 s only on human-review + elevated risk. Conservative default escalated trivial diffs. `package.json` MIT / GitHub SPDX null |
 
 rh-guard is a reward-hack hook, a different surface from jevgate and

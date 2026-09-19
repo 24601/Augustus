@@ -2777,3 +2777,34 @@ TypeAR 10; Awesomejev 561/27007.
 
 Cross-repo addition: (ln) OpenCode stdout-prune
 host port; (lo) schema/SDK adapters + empty bench.
+
+## Batch #80 (2026-09-19 ~23:17 UTC / ~17:17 Boise) — SIGNAL gliner-native-runtime
+
+Note: `research/notes.md` §97. Docs-only on a fresh PR
+off main. Never reopen merged #7 / **#8** / **#9** /
+**#10** / **#12** / **#13** / **#14**. Do **not** re-fold
+§93 / §94 / §95 / §96. Skip Archer. Do **not** re-fold
+1441 / §92. No invented metrics. Hunches labeled. Quote
+READMEs. Soft Noul ≠ hard safety. User-linked SIGNAL
+(pushed 2026-08-26). Augustus owns placement. rh-guard
+skips.
+
+- **GLiNER2 native Apple path.** unofficial Swift/Core
+  ML GLiNER 2.5-small (Apache-2.0; **4★**; HEAD
+  `b44f661`; README SHA `901eb063`; size 1838). entity
+  spans + confidence. not Choice/Score/Noul. not
+  TypeSafe. label descriptions as schema. on-device ANE
+  economics. honesty locks. shershah1024/gliner-native-runtime
+  ≠ Fastino. **≠** gliner25-compaction **≠**
+  gliner2-ultrafast **≠** Eran-BA/Jev_from_GLiNER2 **≠**
+  NSStudent/JevSwiftSDK **≠** jevmlx. default threshold
+  0.1 still soft. README 0.99 fixture. Do not invent
+  ANE ms / ECE / Harbor.
+
+Census not provided this hour (not re-derived).
+Archer still NOT landed. Last pin from §92:
+tracker likes **50** lastModified UNCHANGED
+2026-09-19T18:37:18Z; SemIf 1873; jevlike 969;
+TypeAR 10; Awesomejev 561/27007.
+
+Cross-repo addition: (lp) GLiNER2 native Apple path.

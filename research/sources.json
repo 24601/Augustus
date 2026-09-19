@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T22:39Z",
+  "retrieved": "2026-09-19T23:17Z",
   "sources": [
     {
       "kind": "docs",
@@ -3565,6 +3565,18 @@
       "title": "NSStudent/JevSwiftSDK",
       "url": "https://github.com/NSStudent/JevSwiftSDK",
       "note": "Swift MIT; 5 stars. HEAD ce35d20. README SHA b2af7bfa. size 36. Independent unofficial SDK. Noul 0.5 is uncertainty not intensity. Packaging ≠ new species. notes.md §96."
+    },
+    {
+      "kind": "github",
+      "title": "shershah1024/gliner-native-runtime",
+      "url": "https://github.com/shershah1024/gliner-native-runtime",
+      "note": "Swift Apache-2.0; 4 stars. Created 2026-08-26T03:58:55Z; pushed 2026-08-26T04:11:48Z. HEAD b44f661. README SHA 901eb063. size 1838. GLiNER2 native Apple path. unofficial Swift/Core ML GLiNER 2.5-small. entity spans + confidence. not Choice/Score/Noul. not TypeSafe. label descriptions as schema. on-device ANE economics. honesty locks. ≠ Fastino ≠ gliner25-compaction ≠ gliner2-ultrafast ≠ Eran-BA/Jev_from_GLiNER2 ≠ NSStudent/JevSwiftSDK ≠ jevmlx. default threshold 0.1 still soft. Do not re-download encoder weights. notes.md §97."
+    },
+    {
+      "kind": "huggingface",
+      "title": "fastino/gliner2.5-small-v1",
+      "url": "https://huggingface.co/fastino/gliner2.5-small-v1",
+      "note": "Apache-2.0 Fastino GLiNER 2.5 small checkpoint. Pinned rev cab1bddfd30fda7b803a4691c41f90378a2d517a by shershah1024/gliner-native-runtime. Distinct from fastino/gliner2.5-base-v1 (compaction, notes.md §50). Do not copy Hub download into Augustus. notes.md §97."
     }
   ]
 }

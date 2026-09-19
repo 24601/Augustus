@@ -293,7 +293,10 @@ not against another model's prose; `JEV_FIRM` below 0.6 never blocks
 ([gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction),
 ~16:22): the model points at **character offsets** in a tool result;
 code copies those bytes; a generator summary is the rejected species
-(`notes.md` §50). Stdout-prune cousin:
+(`notes.md` §50). **≠**
+[gliner-native-runtime](https://github.com/shershah1024/gliner-native-runtime)
+(schema→spans locate; not keep/drop of held
+tool-result bytes; `notes.md` §97). Stdout-prune cousin:
 [jev-pruner](https://github.com/tamaratran/jev-pruner) — the model
 scores chunks of observed Bash stdout; code keeps verbatim lines and
 archives the rest (`notes.md` §53). OpenCode host-port:
