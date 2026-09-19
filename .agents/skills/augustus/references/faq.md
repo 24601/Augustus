@@ -169,6 +169,12 @@ Hole first, logo last. These are **species**, not aliases
   uses GLiNER2 (`fastino/gliner2-multi-v1`, not 2.5) to **score among
   observed** a11y/DOM controls; code acts; not a screenshot model
   (`notes.md` §52). Same observe→score→act hole as Jev Ultrafast.
+  Native Apple locate runtime:
+  [gliner-native-runtime](https://github.com/shershah1024/gliner-native-runtime)
+  (Apache-2.0; **4★**) is unofficial Swift/Core ML
+  `fastino/gliner2.5-small-v1` on ANE. Entity spans +
+  confidence; not Choice/Score/Noul; not TypeSafe.
+  Label descriptions as schema. `notes.md` §97.
 - **GLiFormer (encoder serving the System One *wire*):**
   [jeff](https://github.com/logan-markewich/jeff) on
   gliformer-large-v1 (400M) answers choice/score/noul at
@@ -2790,3 +2796,17 @@ No, and no. fail-open original. keepScore >0.1 floor. Hook catch leaves stdout. 
 ## Quote jev-webagent-bench scores? Treat JSON Schema boolean @ 0.5 as a safety proof? Is JevSwiftSDK official?
 
 No, no, and no. jev-webagent-bench empty stub (size 0; 409 empty repo). Kiln-AI/jev_jsonschema noul_threshold 0.5 is a decoder; probabilities are returned. NSStudent/JevSwiftSDK unofficial. Packaging ≠ new species. `notes.md` §96.
+
+Unique fragments (consecutive): GLiNER2 native Apple path; unofficial Swift/Core ML GLiNER 2.5-small; entity spans + confidence; not Choice/Score/Noul; not TypeSafe; label descriptions as schema; on-device ANE economics; honesty locks; shershah1024/gliner-native-runtime ≠ Fastino; ≠ gliner25-compaction ≠ gliner2-ultrafast ≠ Eran-BA/Jev_from_GLiNER2 ≠ NSStudent/JevSwiftSDK ≠ jevmlx; default threshold 0.1 still soft
+
+## Is gliner-native-runtime TypeSafe Jev / Choice/Score/Noul / Fastino official?
+
+No, no, and no. GLiNER2 native Apple path. unofficial Swift/Core ML GLiNER 2.5-small. entity spans + confidence. not Choice/Score/Noul. not TypeSafe. Fastino owns `fastino/gliner2.5-small-v1`. shershah1024/gliner-native-runtime ≠ Fastino. Apache-2.0; **4★**. `notes.md` §97.
+
+## Collapse it into gliner25-compaction / gliner2-ultrafast / Eran-BA / JevSwiftSDK / jevmlx?
+
+No. ≠ gliner25-compaction ≠ gliner2-ultrafast ≠ Eran-BA/Jev_from_GLiNER2 ≠ NSStudent/JevSwiftSDK ≠ jevmlx. Locate on-device, not compaction, not computer-use, not a Choice/Score/Noul spec, not a TypeSafe Swift SDK, not MLX schema→JSON. honesty locks. `notes.md` §97.
+
+## Paste README 0.99 as Harbor? Hard-gate default 0.1 as NER quality? Invent ANE latency?
+
+No, no, and no. default threshold 0.1 still soft. README fixture is a demo. No published Harbor / ECE / ANE ms. Soft Noul ≠ hard safety. label descriptions as schema. on-device ANE economics. `notes.md` §97.

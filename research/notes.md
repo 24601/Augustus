@@ -16823,3 +16823,170 @@ items 91–92; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
+
+## 97. SIGNAL gliner-native-runtime (2026-09-19 ~17:17 Boise / ~23:17 UTC)
+
+Docs-only on a **fresh PR off main**
+(`cursor/gliner-native-runtime-fold-1418`).
+**Never reopen merged** Augustus PR #7 / **#8** /
+**#9** / **#10** / **#12** / **#13** / **#14**. After
+merged #14 (`5f6e4dd`, hourly 1639 / `notes.md` §96).
+Do **not** re-fold §93 / §94 / §95 / §96. Skip Archer.
+Quote READMEs. Mark *theirs*. No invented metrics.
+Hunches labeled. No wrappers, `git clone` /
+`swift build` / Git LFS / Hub download as recipes.
+Do **not** re-download encoder weights into this
+archive.
+
+Lane is Augustus: **mental models / architecture /
+Harbor-jevals / toolbelt**. Backend-agnostic
+categorization/scoring/decision class (Jev-like
+speed/econ), **not** a thin Jev-only dump. Soft Noul ≠
+hard safety. User-linked SIGNAL (pushed 2026-08-26;
+older than today’s surge). rh-guard **skips**;
+Augustus **owns placement**.
+
+Unique consecutive fragments (this SIGNAL):
+GLiNER2 native Apple path;
+unofficial Swift/Core ML GLiNER 2.5-small;
+entity spans + confidence;
+not Choice/Score/Noul;
+not TypeSafe;
+label descriptions as schema;
+on-device ANE economics;
+honesty locks;
+shershah1024/gliner-native-runtime ≠ Fastino;
+≠ gliner25-compaction ≠ gliner2-ultrafast ≠ Eran-BA/Jev_from_GLiNER2 ≠ NSStudent/JevSwiftSDK ≠ jevmlx;
+default threshold 0.1 still soft.
+
+### How-to-apply (one cluster)
+
+1. **GLiNER2 native Apple path** — locate species,
+   on-device; not a Jev wire
+
+   - **[`shershah1024/gliner-native-runtime`](https://github.com/shershah1024/gliner-native-runtime)**
+     (Swift Apache-2.0; **4★**; created
+     2026-08-26T03:58:55Z; pushed 2026-08-26T04:11:48Z;
+     HEAD `b44f661`; README SHA `901eb063`; GitHub
+     `size` 1838; topics apple-silicon, coreml, fastino,
+     gliner, gliner2, named-entity-recognition, swift).
+     README *theirs*: “**The GLiNER 2.5 model is not our
+     model.**” Independent unofficial Swift/Core ML
+     inference port of
+     [`fastino/gliner2.5-small-v1`](https://huggingface.co/fastino/gliner2.5-small-v1)
+     revision `cab1bddfd30fda7b803a4691c41f90378a2d517a`.
+     “It is not affiliated with or endorsed by Fastino.”
+     DeBERTa-v3 encoder through Core ML on the Apple
+     Neural Engine; tokenization, boundary head, span
+     decoding, and character-offset recovery in Swift.
+     “Python is not needed for inference.” Ships FP16
+     encoder packages for 128- and 192-token buckets,
+     boundary-head Safetensors, pinned tokenizer, Swift
+     library `GlinerKit` plus `gliner-extract` CLI.
+     Entity-extraction path only: “checkpoint's default
+     flat non-overlap policy and trained null/abstention
+     head.” Does **not** expose upstream Python
+     classification / relations / structured-record APIs.
+     Output JSON: label, exact source text, confidence,
+     half-open character offsets. README fixture
+     `confidence : 0.99` on “Apple” is a **demo**, not a
+     bench — do not invent ANE ms / ECE / Harbor.
+     Label descriptions are “strongly recommended
+     because they disambiguate domain specific labels.”
+     Runtime picks the smallest encoder bucket that fits
+     the combined label schema and text; this checkout
+     supports inputs up to 192 encoded tokens. Fixed
+     shapes “avoid dynamic relative-position indexing in
+     the ANE graph.” Code (not README): default
+     `GlinerLabel` threshold **0.1**; skip a query if
+     trained-null sigmoid **> 0.5**;
+     `computeUnits = .cpuAndNeuralEngine`; one extractor
+     is serial (“Core ML and the 1 MB head share one
+     request lock rather than racing the ANE”).
+     Package.swift also ships `gliner-parity` (per-module
+     head vs torch goldens; a control ablation must
+     fail). README does **not** publish that as a Harbor
+     number — do not invent one.
+     GLiNER2 native Apple path.
+     unofficial Swift/Core ML GLiNER 2.5-small.
+     entity spans + confidence.
+     not Choice/Score/Noul.
+     not TypeSafe.
+     label descriptions as schema.
+     on-device ANE economics.
+     honesty locks.
+     Do not copy `git clone` / `swift build` /
+     `git lfs pull` / Hub conversion as a recipe.
+     Do not re-download encoder weights.
+
+   **Mental model:** GLiNER2 as a **local System One
+   cousin** on the **locate** species: schema labels with
+   descriptions → spans + confidence; code owns policy.
+   On-device ANE economics (no Python at inference;
+   fixed-shape buckets). Label descriptions *are* the
+   schema. Honesty: unofficial port; Fastino owns the
+   checkpoint. Soft Noul ≠ hard safety: default
+   threshold 0.1 / null >0.5 / README 0.99 are
+   **sensors**, not proofs. Hard-gating 0.1 as NER
+   quality is theater.
+
+   **Name lock:** always write
+   **shershah1024/gliner-native-runtime**.
+   shershah1024/gliner-native-runtime ≠ Fastino.
+   **≠** m-newhauser/gliner25-compaction (GLiNER2.5
+   `base-v1` compaction job)
+   **≠** sahibzada-allahyar/gliner2-ultrafast (GLiNER2
+   `multi-v1` computer-use)
+   **≠** Eran-BA/Jev_from_GLiNER2 (spec → Choice/Score/Noul)
+   **≠** logan-markewich/jeff (GLiFormer)
+   **≠** NSStudent/JevSwiftSDK (unofficial TypeSafe Swift SDK)
+   **≠** bnsd55/jevmlx (MLX one-pass schema→JSON; softmax ≠ Noul)
+   **≠** GLiGuard **≠** TypeSafe Jev **≠** Archer **≠** Laya.
+
+### Theater (do not)
+
+Treat this as TypeSafe Jev / Choice/Score/Noul /
+`/v1/systemone`; collapse into Fastino official;
+collapse into gliner25-compaction / gliner2-ultrafast /
+Eran-BA spec / jeff / JevSwiftSDK / jevmlx; paste
+README 0.99 as Harbor τ; invent ANE latency or ECE;
+hard-gate default 0.1 as a quality proof; copy Hub
+weights into this archive; treat classification /
+relations APIs as shipped.
+
+### Census (not re-derived)
+
+Census **not provided this hour**. Archer Hume
+open-weight still **NOT landed**. Last pin from
+§92 (user-provided; not re-derived): tracker likes
+**50** `lastModified` **2026-09-19T18:37:18Z**
+UNCHANGED; SemIf 1873; jevlike 969; TypeAR 10;
+Awesomejev 561/27007. Do not invent a new census.
+
+### Not
+
+Not a TypeSafe how-to. Not a Swift/Core ML tutorial.
+Not wrappers. Do not copy `swift build` / Git LFS /
+Hub. Do not re-fold 1639 / §96. Do not re-card
+gliner25-compaction / gliner2-ultrafast / Eran-BA /
+jevmlx / JevSwiftSDK as this product. Do not reply
+into finished agents.
+
+### Curated status
+
+SIGNAL gliner-native-runtime **folded** (1 HIGH
+on-device locate runtime). 1639 / §96 **not
+re-carded**. Archer still **NOT landed**. Census
+not re-derived.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`judgment-class.md`; `validation.md`;
+`applied-mappings.md`; `mappings.md`;
+`toolbox-mapping.md`; `composition-algebra.md`
+item 93; `question-design.md`;
+`methods-catalog.md`; `formal-methods.md`;
+`agent-self-assessment.md`. Hunches labeled.
+No wrapper.

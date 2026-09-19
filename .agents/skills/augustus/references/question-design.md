@@ -233,6 +233,9 @@ request, and treat a stale pin as a prior, never a setting.
 | Treat zen-chat as a Noul / paste 24/24 onto OpenCode | Approximation; not this bench | zen-chat ≠ Noul. jev-zen / jev-1.13-free. `notes.md` §96 |
 | Hard-gate keepThreshold 0.5 / fail-closed the turn | Sensor; hook fail-open | fail-open original. keepScore >0.1 floor. `notes.md` §96 |
 | Invent jev-webagent-bench scores / boolean @ 0.5 as a proof | Empty stub; decoder | jev-webagent-bench empty stub. Kiln-AI/jev_jsonschema noul_threshold 0.5. NSStudent/JevSwiftSDK unofficial. `notes.md` §96 |
+| Treat gliner-native-runtime as TypeSafe / Fastino / a Noul | Locate; unofficial | GLiNER2 native Apple path. not Choice/Score/Noul. not TypeSafe. shershah1024/gliner-native-runtime ≠ Fastino. `notes.md` §97 |
+| Collapse it into compaction / ultrafast / Eran-BA / JevSwiftSDK / jevmlx | Namesake lock | ≠ gliner25-compaction ≠ gliner2-ultrafast ≠ Eran-BA/Jev_from_GLiNER2 ≠ NSStudent/JevSwiftSDK ≠ jevmlx. honesty locks. `notes.md` §97 |
+| Paste README 0.99 as Harbor / hard-gate 0.1 | Fixture; sensor | default threshold 0.1 still soft. `notes.md` §97 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

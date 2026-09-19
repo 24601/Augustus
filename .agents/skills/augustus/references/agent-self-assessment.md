@@ -309,6 +309,10 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   — GLiNER2.5 retention Choice + exact character-offset copies; mutating
   tools stay `keep_full`; low-confidence fails closed to `keep_full`;
   `shadowMode` default true. Not a summarizer. Not Jev (`notes.md` §50).
+  Native Apple locate cousin:
+  [gliner-native-runtime](https://github.com/shershah1024/gliner-native-runtime)
+  — spans + confidence on Core ML ANE; not Choice/Score/Noul
+  (`notes.md` §97).
   Stdout-prune cousin, same family, different job:
   [jev-pruner](https://github.com/tamaratran/jev-pruner) — Jev Noul on
   Bash chunks after a hard envelope; fail-safe original; archive
@@ -399,7 +403,10 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   (`mixed-architecture.md` prefilter table; `mappings.md` §18).
   Compaction *drop* is that second kind:
   [gliner25-compaction](https://github.com/m-newhauser/gliner25-compaction)
-  fails closed to `keep_full` (`notes.md` §50). Stdout prune is the
+  fails closed to `keep_full` (`notes.md` §50). Native locate
+  confidence is still a sensor, not a permit:
+  [gliner-native-runtime](https://github.com/shershah1024/gliner-native-runtime)
+  (`notes.md` §97). Stdout prune is the
   same polarity:
   [jev-pruner](https://github.com/tamaratran/jev-pruner) fails closed
   to original output (`notes.md` §53). OpenCode host-port same

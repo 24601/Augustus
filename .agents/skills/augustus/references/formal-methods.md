@@ -788,6 +788,19 @@ Hard-gating prune as proof of irrelevance, treating
 zen-chat as calibrated Jev, or inventing an empty-stub
 Harbor score is the same theater.
 
+SIGNAL gliner-native-runtime envelopes (`notes.md` §97),
+still outside the extras template: GLiNER2 native Apple
+path; unofficial Swift/Core ML GLiNER 2.5-small; entity
+spans + confidence; not Choice/Score/Noul; not TypeSafe;
+label descriptions as schema; on-device ANE economics;
+honesty locks; shershah1024/gliner-native-runtime ≠ Fastino;
+≠ gliner25-compaction ≠ gliner2-ultrafast ≠ Eran-BA/Jev_from_GLiNER2 ≠ NSStudent/JevSwiftSDK ≠ jevmlx;
+default threshold 0.1 still soft.
+Soft Noul ≠ hard safety: 0.1 / null >0.5 / README 0.99
+are **sensors**. Hard-gating 0.1 as NER quality, treating
+spans as Choice/Score/Noul, or inventing ANE Harbor is
+the same theater.
+
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a
 hybrid "verified by Noul" API.

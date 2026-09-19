@@ -1033,6 +1033,47 @@ SENSOR. Hard-gating prune as proof of irrelevance,
 or treating zen-chat as calibrated Jev, is the same
 theater as jev-gate §79.
 
+## Apply SIGNAL gliner-native-runtime (`notes.md` §97)
+
+Same pillars, one HIGH on-device locate runtime.
+Do **not** re-fold 1639 / §96. Fresh PR; never
+reopen merged #7–#14. Skip Archer. Census not
+re-derived.
+
+Unique consecutive fragments:
+GLiNER2 native Apple path;
+unofficial Swift/Core ML GLiNER 2.5-small;
+entity spans + confidence;
+not Choice/Score/Noul;
+not TypeSafe;
+label descriptions as schema;
+on-device ANE economics;
+honesty locks;
+shershah1024/gliner-native-runtime ≠ Fastino;
+≠ gliner25-compaction ≠ gliner2-ultrafast ≠ Eran-BA/Jev_from_GLiNER2 ≠ NSStudent/JevSwiftSDK ≠ jevmlx;
+default threshold 0.1 still soft.
+
+1. **GLiNER2 native Apple path** —
+   unofficial Swift/Core ML GLiNER 2.5-small.
+   entity spans + confidence.
+   not Choice/Score/Noul.
+   not TypeSafe.
+   label descriptions as schema.
+   on-device ANE economics.
+   honesty locks.
+   Locate species; Fastino owns the checkpoint.
+   Code owns policy. Soft Noul ≠ hard safety:
+   0.1 / null >0.5 / README 0.99 are sensors.
+
+Soft Noul ≠ hard safety. Spans + confidence are
+not a Noul. Hard-gating 0.1 as NER quality, or
+treating this as TypeSafe `/v1/systemone`, is the
+same theater as jev-gate §79.
+
+Formal methods **compose** with scoring. A span
+confidence is a SENSOR. Hard-gating it as a safety
+proof is theater.
+
 ## Decision-design extras (any domain)
 
 ```text

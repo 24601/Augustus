@@ -721,3 +721,31 @@ re-fold 1441 items 71–79. soft Noul ≠ hard safety.
 
 Hourly 1639 items 91–92 (`notes.md` §96). Do **not**
 re-fold 1541 items 85–90. Soft Noul ≠ hard safety.
+
+SIGNAL gliner-native-runtime unique consecutive
+fragments:
+GLiNER2 native Apple path;
+unofficial Swift/Core ML GLiNER 2.5-small;
+entity spans + confidence;
+not Choice/Score/Noul;
+not TypeSafe;
+label descriptions as schema;
+on-device ANE economics;
+honesty locks;
+shershah1024/gliner-native-runtime ≠ Fastino;
+≠ gliner25-compaction ≠ gliner2-ultrafast ≠ Eran-BA/Jev_from_GLiNER2 ≠ NSStudent/JevSwiftSDK ≠ jevmlx;
+default threshold 0.1 still soft.
+
+93. **GLiNER2 native Apple path**
+    (shershah1024/gliner-native-runtime):
+    position 4 (locate spans the encoder proposed) ×
+    on-device remainder. unofficial Swift/Core ML
+    GLiNER 2.5-small. entity spans + confidence.
+    not Choice/Score/Noul. not TypeSafe.
+    label descriptions as schema.
+    on-device ANE economics. honesty locks.
+    default threshold 0.1 still soft.
+    Full cards: `judgment-class.md`, `faq.md`.
+
+SIGNAL §97 item 93 (`notes.md` §97). Do **not**
+re-fold 1639 items 91–92. Soft Noul ≠ hard safety.
