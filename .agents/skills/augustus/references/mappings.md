@@ -188,7 +188,16 @@ fail closed. Stub backend for tests. Same interface ≠ same
 guarantees for a future LLM backend. Cousin of probably-lang
 (a language whose loop conditions are feelings) — this is a
 library, not a new language. Do not copy gem/Rails
-(`notes.md` §55). **Named circuit combinators (Empirical
+(`notes.md` §55). **BAML typed if (Empirical as README;
+2026-09-19 ~17:49):**
+[feelings](https://github.com/BoundaryML/feelings)
+(license null; **0★**) — `.feels()` / `.how()` /
+`.matches<T>()` / `.fill<T>()` / `.ask()`. README
+*theirs*: “Jev makes the decisions, an LLM does the
+writing, and BAML ties it together.” feelings `.feels()` default 0.5 is Noul-0.5-never-rounded — use `.how()`.
+Exhaustive `match` is the exact envelope. **≠** hunch
+**≠** Probably. Do not copy `baml toolchain`
+(`notes.md` §89). **Named circuit combinators (Empirical
 as README architecture, 2026-09-19 ~01:47):**
 [decision-combinators](https://github.com/voidning/decision-combinators)
 — Then / Gate / Vote / Cascade / Weighted over
@@ -362,6 +371,13 @@ latency vs Muse Spark *rerank* on ~30k tokens (costs include
 embeddings). Full-context Spark is still **faster** (10.60 s).
 Do not overclaim vs no-RAG. License null this pass
 (`notes.md` §58).
+**RAG rerank harness (Empirical as README plumbing;
+2026-09-19 ~17:49):**
+[jev-rag-benchmark](https://github.com/erendikmenn/jev-rag-benchmark)
+— quality/latency/cost; “Jev wins” is not an assumption.
+OpenRouter Decisions ≠ TypeSafe direct.
+`max_budget_usd` 0 blocks paid. **≠** Max-sm-yc/Jev-RAG.
+`notes.md` §89.
 
 ## 5. Hierarchy → bounded heuristic search
 
@@ -706,6 +722,19 @@ without a model. `notes.md` §88.
 Price the empty-context worker; keep the conversation
 model. Stats are counts because worker tokens are
 invisible from a hook. `notes.md` §88.
+**Cheap decision-layer VOI (Empirical as README;
+2026-09-19 ~17:49):**
+[grok-bot-jev](https://github.com/Bodila51/grok-bot-jev)
+— pay one cheap classify before browser/retry/research.
+Shadow then honor. A/B proxies ≠ tokens. 13.0× is a
+top-five cap. Skill cannot force a bot that ignores it.
+`notes.md` §89.
+**Question-preflight VOI (Empirical as README + studies;
+2026-09-19 ~17:49):**
+[jev-reliability](https://github.com/vcjdeboer/jev-reliability)
+— pay to measure flip/framing *before* putting a number
+behind an `if`. Nothing about accuracy. noul-gate
+0.0%/12.5%/3.6% *theirs*. `notes.md` §89.
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs
@@ -933,6 +962,18 @@ from §67). Luna I=96.8 rank #7. Self-host latency
 72%→21%. Laya absent (gap, not named-excluded).
 Qwen3.8 27B Chutes TEE **≠** Archer. **≠** tweet
 census **≠** v1.1 87.6. `notes.md` §78.
+**Question preflight as SDT (Empirical as README +
+studies; 2026-09-19 ~17:49):**
+[jev-reliability](https://github.com/vcjdeboer/jev-reliability)
+— flip rate is a criterion on *consistency*, not
+accuracy. noul-gate 0.0%/12.5%/3.6% *theirs*. Confidence
+straddling τ flips. **≠** dinostomp. `notes.md` §89.
+**Triage buckets as criterion (Empirical as README;
+2026-09-19 ~17:49):**
+[dairui1/jev-lab](https://github.com/dairui1/jev-lab)
+— p(urgent) 0/21/41/75/100% *theirs*; route 0.35–0.65
+to human_review. 91% vs 79% is discrimination, not a
+seal. **≠** BrendanH18/jev-lab. `notes.md` §89.
 
 ## 8. Control structure → sensor ≠ constraint (Leveson)
 
@@ -1131,6 +1172,20 @@ Human `--promote-candidate` is the actuator; the
 agent drafts. Soft Noul ≠ hard safety. rh-guard owns
 the gate cousin if someone CI-gates on empty findings
 (`notes.md` §88).
+**Human every action (Empirical as README; 2026-09-19
+~17:49):**
+[Essentiel-Jev](https://github.com/JacquesGariepy/Essentiel-Jev)
+— Jev SENSOR; human actuator; provider write +
+read-back is the probe. Essentiel-Jev never authority. 0.75
+provisional. **≠** jevmail **≠** mailjay. License null.
+`notes.md` §89.
+**Atom then sense (Empirical as README; 2026-09-19
+~17:49):**
+[enzo-mcp](https://github.com/mahawi1992/enzo-mcp)
+— deterministic evidence is the constraint; Jev is
+the remainder sensor; enzo-mcp UNKNOWN exposes gaps.
+`allow_external_jev` is consent, not a grant.
+**≠** jev-sift. `notes.md` §89.
 
 ## 9. Search / control loops → one substituted classifier step
 
@@ -1207,6 +1262,13 @@ the substituted classifier is Jev ranking listed
 names+metadata. gitignore / symlink skip stay in
 code. **≠** JevFind. Life/knowledge, not only SWE
 (`notes.md` §88).
+**Persona state-machine (Empirical as README;
+2026-09-19 ~17:49):**
+[apa-persona-engine](https://github.com/AiPersonacademy/apa-persona-engine)
+— the *algorithm* is the registered graph; Jev is
+the transition sensor; LLM writes leftover copy.
+<250 ms ≠ microsecond marketing. 0.75/0.80/0.85 still
+soft. **≠** jev-harness. `notes.md` §89.
 
 ```text
 loop     = yours (beam / funnel / stages / MCTS / incident command)
@@ -1569,6 +1631,13 @@ scored **72% → 21%** on yes/no answer-judging when A/B were reversed
 *theirs* (JevBench v1.2). Same act, swapped labels. Ranked row uses
 the author's `A. yes, B. no`. Do not quote one order as the model.
 `notes.md` §78.
+**Preregistered framing measurement (Empirical as studies;
+2026-09-19 ~17:49):**
+[jev-reliability](https://github.com/vcjdeboer/jev-reliability)
+— paraphrase ≫ perturbation ≫ repeat on `jev-1.13.0`.
+noul-gate reworded **12.5%**; tier12-framing-fixed decision
+flip **0.0%** while p still moves **1.7×** null. Nothing
+about accuracy. **≠** dinostomp. `notes.md` §89.
 
 ## 18. Structural prove ∩ soft remainder (Hypothesis as domain-general; Empirical as named shapes)
 

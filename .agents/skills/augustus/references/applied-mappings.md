@@ -103,6 +103,14 @@ kazuhideoki/jev-search, jev-pruner (after Bash), carryforward (ledger
 you already hold). Not jev-routing (host adapter). Topology A MCP
 (LLM outer loop). Do not copy plugin / `mcpServers` / key-file
 how-to (`notes.md` §56).
+**Atom then sense MCP (Empirical as README + 55 tests;
+2026-09-19 ~17:49):**
+[enzo-mcp](https://github.com/mahawi1992/enzo-mcp)
+(MIT; **0★**) — enzo-mcp independently falsifiable claims, not
+relevance-first. Deterministic evidence outranks Jev.
+enzo-mcp UNKNOWN useful. Prior sensor output never sent back.
+`allow_external_jev` per send. **≠** jev-sift. Do not
+copy `uv` (`notes.md` §89).
 Local teacher-copy for the same hole:
 [`SargeDev/jev-gate-student-b`](https://huggingface.co/SargeDev/jev-gate-student-b)
 (Qwen2.5-0.5B LoRA; P(relevant) from yes/no logits; 148,160-row
@@ -300,6 +308,13 @@ the beam, descend. Parent fallback ≤4. gitignore /
 symlink skip in code. **≠** JevFind path-then-window.
 Life/knowledge retrieval, not only SWE. Do not copy
 `cargo install` / `TYPESAFE_API_KEY` (`notes.md` §88).
+**Decision-as-filing (Empirical as README + classify.ts;
+2026-09-19 ~17:49):**
+[pigeonhole](https://github.com/noripto/pigeonhole)
+(MIT; **0★**) — Choice over user attributes → move.
+pigeonhole OTHER skip. `OTHER` skip. Default 0.6 still soft. autoOnSave off.
+**≠** jev-semgrep. Do not copy plugin marketplace
+(`notes.md` §89).
 **Decision-validated UI (Empirical as README; 2026-09-19
 ~16:52):**
 [gram-render](https://github.com/wei-b0/gram-render) (MIT;
@@ -736,6 +751,17 @@ priority. Demo labelled `demo`; live Jev optional and
 server-side. Cousin jav-email-cascade. Independent, not
 affiliated with TypeSafe. Do not copy `npm run dev`
 (`notes.md` §72).
+**Read-only Gmail trays (Empirical as README; 2026-09-19
+~17:49):**
+[jevmail](https://github.com/fazlerocks/jevmail)
+(MIT; **3★**) — five trays + urgency. `gmail.readonly`.
+~3¢ / ~1 min per 1k *theirs*. **≠** mailordinal.
+`notes.md` §89.
+**macOS inbox writes after review (Empirical as README;
+2026-09-19 ~17:49):**
+[mailjay](https://github.com/secondfret/mailjay)
+(license null; **0★**) — archive/trash proposed, not
+permanent delete. **≠** jevmail readonly. `notes.md` §89.
 **Public classification API (Empirical as README +
 eval/README; life/business; 2026-09-19 ~08:37):**
 [classifier-dev](https://github.com/mrmps/classifier-dev)
@@ -986,6 +1012,20 @@ Turn hook is advice. Fail-open. Low conf → balanced,
 never silent down. Stats are counts, not dollars.
 **≠** jev-gateway **≠** slo-router. Do not copy
 marketplace / `~/.jevsub.env` (`notes.md` §88).
+**Cheap decision layer / skill honor (Empirical as
+README; 2026-09-19 ~17:49):**
+[grok-bot-jev](https://github.com/Bodila51/grok-bot-jev)
+(MIT; **1★**) — classify before browser/retry/research.
+Shadow then honor. Skill cannot force a bot that
+ignores it. A/B proxies ≠ tokens. **≠** jevsubrouter.
+Do not copy skill paste (`notes.md` §89).
+**APA harness cousin (Empirical as README; 2026-09-19
+~17:49):**
+[apa-agent-harness](https://github.com/AiPersonacademy/apa-agent-harness)
+(MIT; **0★**) — policy verbs + 0.85 gate + shadow.
+“Mathematically fulfilled” overclaim. Unpublished npm
+`@aipersona/agent-harness`. **≠** AntonioCoppe/jev-harness.
+Do not copy npm (`notes.md` §89).
 
 ## 6. Expensive observation router
 
@@ -1214,6 +1254,13 @@ a soft judgment without that path. Do not copy
 keys still in the prompt. **Test**: delete the sensor — the
 constraint and the closed action space still hold; a canary use
 is a catch; a human still confirms the irreversible act.
+**Human every action (Empirical as README; 2026-09-19
+~17:49):**
+[Essentiel-Jev](https://github.com/JacquesGariepy/Essentiel-Jev)
+(license null; **0★**) — Jev SENSOR; LLM drafts; human
+approves every write; read-back. Essentiel-Jev never authority. 0.75
+provisional. **≠** jevmail **≠** mailjay. Do not copy
+`.env` (`notes.md` §89).
 
 ## 8. Decide → policy → LLM leftover cascade
 
@@ -1264,6 +1311,19 @@ fixtures never auto.
 signals → 100-point policy → ranked queue. Humans own
 the review lane. Life/business. Independent of TypeSafe
 (`notes.md` §72).
+**Read-only Gmail trays (Empirical as README; 2026-09-19
+~17:49):**
+[jevmail](https://github.com/fazlerocks/jevmail)
+(MIT; **3★**) — tray + urgency + human-wrote via
+Gateway. `gmail.readonly`. ~3¢ / ~1 min per 1k
+*theirs*. **≠** mailordinal **≠** mailjay. Independent.
+`notes.md` §89.
+**macOS proposed writes (Empirical as README;
+2026-09-19 ~17:49):**
+[mailjay](https://github.com/secondfret/mailjay)
+(license null; **0★**) — reviews proposed actions;
+archive/trash, not permanent delete. **≠** jevmail
+readonly. `notes.md` §89.
 **Public decide-backend cousin (Empirical as README;
 2026-09-19 ~08:37):**
 [classifier-dev](https://github.com/mrmps/classifier-dev)
@@ -1388,5 +1448,12 @@ card. **Test**: every typed character exists in goal, facts,
 or observed text; every irreversible act had a separate
 risk vote; durable writes proved from host state, not from
 Jev `completed`.
+**CU source-study pointer (Empirical as README;
+2026-09-19 ~17:49):**
+[dairui1/jev-lab](https://github.com/dairui1/jev-lab)
+— ultrafast speculative fan-out vs Cline flattened
+`CLICK:3`. jev-desktop already MED — do not re-card.
+0.65/0.70 still soft. **≠** BrendanH18/jev-lab.
+`notes.md` §89.
 
 

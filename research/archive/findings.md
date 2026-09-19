@@ -2414,3 +2414,50 @@ proof for a coding-agent coverage ledger; (jp) S1 as
 beam-ranking policy over FS candidates; (jq) prompt
 cache as the exact envelope — never swap the live
 conversation model.
+
+## Batch #72 (2026-09-19 ~17:55 UTC / ~11:49 Boise) — hourly 1144 HIGH
+
+Note: `research/notes.md` §89. Docs-only on PR #3.
+Skip Archer. Do **not** re-fold 1047 / §87 / §88.
+No invented metrics. Hunches labeled. Quote READMEs.
+Soft Noul ≠ hard safety. Sibling jev-decisions
+pointer only. jev-desktop already MED — pointer only.
+
+- **Typed if.** BoundaryML/feelings `.feels()` is a
+  typed method, not a new language. Default 0.5 is
+  Noul-0.5-never-rounded. Exhaustive BAML `match`.
+  **≠** hunch **≠** Probably. License null; **0★**.
+- **Shadow then honor.** apa-agent-harness **≠**
+  AntonioCoppe/jev-harness; unpublished npm; 0.85
+  still soft; “mathematically fulfilled” overclaim.
+  apa-persona-engine SM then leftover LLM; <250 ms ≠
+  microsecond. grok-bot-jev skill honor; A/B proxies
+  ≠ tokens; 13.0× is a top-five cap.
+- **Human every action.** Essentiel-Jev never
+  authority; 0.75 provisional; synthetic tests.
+  License null.
+- **Atom then sense.** enzo-mcp independently
+  falsifiable claims; deterministic evidence outranks
+  Jev; UNKNOWN useful; **≠** jev-sift.
+- **File by Choice.** pigeonhole OTHER skip; 0.6
+  still soft; **≠** jev-semgrep. HF playground static
+  no-network; **≠** classifier.dev.
+- **Question preflight.** jev-reliability Nothing
+  about accuracy; noul-gate 0.0%/12.5%/3.6% *theirs*;
+  **≠** dinostomp. clduab11/jev-test bars ≠ scores;
+  **≠** realZachi/jevtest. jev-rag-benchmark “Jev
+  wins” is not an assumption. dairui1/jev-lab 91% vs
+  79% *theirs* synthetic; **≠** BrendanH18/jev-lab.
+- **Inbox read-only vs write.** jevmail
+  `gmail.readonly` ~3¢/1k *theirs*; mailjay
+  archive/trash after review; **≠** mailordinal.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (jr) decision-as-typed-control-flow
+(`.feels()`); (js) shadow then honor / skill cannot
+force a bot; (jt) human every action never authority;
+(ju) atomize then sense / UNKNOWN useful; (jv)
+decision-as-filing OTHER skip; (jw) question
+preflight consistency ≠ accuracy; (jx) inbox
+read-only vs write after review.

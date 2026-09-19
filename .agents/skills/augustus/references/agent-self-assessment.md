@@ -204,6 +204,11 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    `notChecked` first-class; no `pass`/`approved`;
    agent fallback unverified; human promote only
    (`notes.md` §88).
+   Shadow then honor (not a merge seal):
+   [apa-agent-harness](https://github.com/AiPersonacademy/apa-agent-harness)
+   0.85 still soft; “mathematically fulfilled”
+   overclaim; **≠** AntonioCoppe/jev-harness
+   (`notes.md` §89).
    Closed-vote extreme (no planner LLM):
    [JevOnly](https://github.com/buluoray/JevOnly) (`notes.md` §61).
    Host-owned product:

@@ -2219,3 +2219,82 @@ hook is advice. Fail-open. Low conf → balanced, never silent
 down. Stats are **counts**, not dollars — worker tokens are
 invisible from a hook. **≠** jev-gateway **≠** slo-router.
 `notes.md` §88.
+
+## Is `.feels()` a new language? Is default 0.5 a bool if?
+
+No, and no. [BoundaryML/feelings](https://github.com/BoundaryML/feelings)
+is BAML methods, not Probably and not
+[hunch](https://github.com/carldaws/hunch). README *theirs*:
+“Jev makes the decisions, an LLM does the writing, and BAML
+ties it together.” `.how()` keeps p. Default `.feels()` 0.5 is
+Noul-0.5-never-rounded. License null. `notes.md` §89.
+
+## Is apa-agent-harness jev-harness? Copy `@aipersona` npm?
+
+No, and no. Same hole (shadow + gate), different product.
+[apa-agent-harness](https://github.com/AiPersonacademy/apa-agent-harness)
+**≠** AntonioCoppe/jev-harness. “Mathematically fulfilled”
+has no numbers. npm unpublished this pass. Persona engine
+<250 ms ≠ “microsecond.” 0.85 still soft. `notes.md` §89.
+
+## Quote grok-bot-jev 13.0× as token savings? Can the skill force the bot?
+
+No, and no. Proxies, not tokens. README *theirs*: “this is not
+a token-savings claim.” 13.0× is a top-five cap by design.
+“cannot force a bot that ignores the skill to stop.”
+`notes.md` §89.
+
+## Can Essentiel Jev send mail? Is 0.75 calibrated?
+
+No, and no. Human every action. Never authority. 0.75
+provisional. Synthetic tests; no live TypeSafe inference.
+**≠** jevmail **≠** mailjay **≠** mailordinal. License null.
+`notes.md` §89.
+
+## Is enzo-mcp jev-sift? Skip UNKNOWN?
+
+No, and no. Atom then sense: independently falsifiable
+claims. Deterministic evidence outranks Jev. UNKNOWN is
+useful. Prior sensor output never sent back. **≠** jev-sift.
+`notes.md` §89.
+
+## Treat pigeonhole OTHER as a move? Is 0.6 Harbor τ?
+
+No, and no. Named escape skips. 0.6 still soft. autoOnSave
+off. **≠** jev-semgrep. `notes.md` §89.
+
+## Is the HF playground live Jev? classifier.dev?
+
+No, and no. Static Space; no network. **≠** classifier.dev.
+Sibling jev-decisions is already a toolbelt pointer — do not
+re-card. `notes.md` §89.
+
+## Does jev-reliability measure accuracy? Paste 12.5% as a class number?
+
+No, and no. README *theirs*: Nothing about accuracy.
+noul-gate flip 0.0%/12.5%/3.6% *theirs* is consistency on
+that gate. **≠** dinostomp. `notes.md` §89.
+
+## Is clduab11/jev-test the jevtest matcher? Did D already pass?
+
+No, and no. **≠** realZachi/jevtest. README *theirs*:
+“Nothing runs yet.” Bars are commitments, not scores. HTTP
+judge smoke ≠ quality. `notes.md` §89.
+
+## Did jev-rag-benchmark show Jev wins?
+
+No. “Jev wins” is not an assumption. Plumbing smoke.
+`max_budget_usd` 0 blocks paid calls. **≠** Max-sm-yc/Jev-RAG.
+`notes.md` §89.
+
+## Is dairui1/jev-lab BrendanH18/jev-lab? Re-card jev-desktop?
+
+No, and no. 91% vs 79% *theirs* on 120 synthetic tickets.
+Fan-out vs `CLICK:3`. 0.65/0.70 still soft. jev-desktop
+already MED. `notes.md` §89.
+
+## Is jevmail mailordinal? Is mailjay read-only?
+
+No, and no. jevmail is `gmail.readonly` (~3¢ / ~1 min per 1k
+*theirs*). mailjay proposes archive/trash for review.
+**≠** Essentiel-Jev. `notes.md` §89.
