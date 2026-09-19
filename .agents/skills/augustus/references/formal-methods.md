@@ -630,7 +630,7 @@ theater as totally-tim/jev-gate.
 
 This hour's follow-on envelopes (`notes.md` §88):
 gitignore / symlink skip / listing (findme);
-`test.skip` / deleted assertions (stanley);
+`test.skip` / deleted assertions (stanley-code `notChecked`);
 pinned Agent model + conversation prompt-cache
 (jevsubrouter). Soft Noul ≠ hard safety: Jeff-1 ECE,
 stanley 0.6/0.55/0.15, findme beam scores, jevsubrouter

@@ -392,7 +392,7 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     `applied-mappings.md` §5, `mappings.md` §8.
 39. **Beam-search FS** (findme): position 8 (search
     algorithm yours; S1 ranks listed candidates).
-    Distinct from JevFind path-then-window (item 27
+    Distinct from JevFind path-then-window (item 30
     cousin). Full cards: `mappings.md` §9, `faq.md`.
 40. **Price workers, not the conversation**
     (jevsubrouter): position 6 (Router) with the

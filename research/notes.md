@@ -13600,9 +13600,9 @@ This hour adds the remaining deferred HIGH
    2026-09-19T15:39Z; HEAD `ca0050f`; README SHA
    `317996d0`). Deferred 0945 HIGH, not in §87.
    Per-dispatch model routing for Claude Code
-   **sub-agents**. README *theirs*: “without ever
-   switching the main conversation's model — so its
-   prompt cache is never invalidated.”
+   **sub-agents**. README *theirs*: “the conversation
+   you are actually having never changes model — so
+   its prompt cache is never invalidated.”
 
    Economics: swapping the *conversation* model
    throws away the cached prefix (billed 1.25×
