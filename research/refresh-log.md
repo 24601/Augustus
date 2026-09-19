@@ -985,3 +985,35 @@
 - notes.md §69; sources.json (399 sources, 396 unique URLs,
   retrieved 2026-09-19T10:55Z); findings.md batch #53. No
   wrapper.
+
+## 2026-09-19 ~11:55 UTC — hourly ~05:46 Boise fold (§70)
+- Docs-only into PR #2. Archer still Watch. Live GitHub
+  READMEs + `gh api`. Hunches labeled. Do not re-fold
+  §50–§69 HIGH except sibling contrast / jevassert landing /
+  prune-review, intent-review, laya-jolt, local-jev deltas.
+- HIGH: jevassert LANDED (record/replay CI Apache-2.0;
+  accuracy/ECE/Brier/cost/latency; exit 0/1/2; McNemar);
+  jev-packs pairing + 2,990-case matrix (Jev/Sonnet 5
+  accuracy tie, Jev better calibrated 7/9, ~250× cheaper;
+  sms-spam 0.953/0.040); jevarena ≠ jev-arena
+  (failure-finding, not findings); jev-bbq-experiment
+  97.28%/0.04/0.34/$0.3429 *theirs* (not a bias cert);
+  jeffrey (decider≠executor; pick ≠ fill); mizchi/jevlint
+  13/15 1.00/1.00 *theirs* (≠ huntedman/JevLint);
+  prune-review VOI hunk (1.18% with 305% outlier);
+  jev-intent-review VERIFIED/VIOLATION/UNKNOWN; Eran-BA
+  GLiNER2 spec-only ≠ jeff; grande JGLUE 0.614/0.853 +
+  270M 0.710/0.710 *theirs* (license null); laya-jolt
+  byte parity; leesk212/JEV-CPU PoC (Meanblock 404);
+  local-jev done 30%/shape 57%; pi-heed 98.5%/0 false
+  block. MED: lustig size-0 framing stub. Toolbelt:
+  actiongate slogan already §64.
+- Census not re-derived. Archer still NOT landed.
+- Cards: SKILL.md, applied-mappings §3/§7/§9, mappings
+  §6/§7/§8/§9, mixed-architecture, validation, faq,
+  judgment-class, mental-models, methods-catalog, toolbox,
+  composition-algebra, agent-self-assessment,
+  question-design, ecosystem, CHANGELOG, README.
+- notes.md §70; sources.json (411 sources, 408 unique URLs,
+  retrieved 2026-09-19T11:55Z); findings.md batch #54. No
+  wrapper.

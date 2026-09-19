@@ -16,8 +16,8 @@ mappings.md conventions.
 |---|---|---|---|---|---|
 | 1 | **Operand** | F(Jev(...)) — judgment's number feeds the function | Nouls as CatBoost features; Score as PUCT leaf value | It's a calibrated belief in your rubric's units, not a natural quantity; version feature/question defs with the consumer | **Empirical recipe** |
 | 2 | **Post-judge** | F(x) → Jev judges the result | Output judge (leaks_secret, failure_class); citation check on generated text | Only the post-judge sees what the call printed; the pre-gate cannot | **Empirical recipe** |
-| 3 | **Gate** | if Jev(x): apply F — Jev decides *whether* F runs, or whether F's result is admitted | Pre-action gates (destructive .90/exfil .70); winnow context sieve | A gate is a filter, not authorization — validate operation+target in code. Error paths fail **per action**, not always open: an advisory guard fails open *because* a hard interlock or sandbox sits underneath; a gate that selects or authorizes a side effect fails closed (`mixed-architecture.md` prefilter table; `mappings.md` §18) | **Empirical recipe** |
-| 4 | **Selector (of F or its parameters)** | Jev picks which F runs: Choice over functions/models/effort levels | jev-router (cheapest model), jev-codex-router (model+effort), DiffJury review_depth | Dispatch stays in code; per-option consequences are your cost model; confidence-gate the selection | **Empirical recipe** |
+| 3 | **Gate** | if Jev(x): apply F — Jev decides *whether* F runs, or whether F's result is admitted | Pre-action gates (destructive .90/exfil .70); winnow context sieve; pi-heed side-effect check | A gate is a filter, not authorization — validate operation+target in code. Error paths fail **per action**, not always open: an advisory guard fails open *because* a hard interlock or sandbox sits underneath; a gate that selects or authorizes a side effect fails closed (`mixed-architecture.md` prefilter table; `mappings.md` §18) | **Empirical recipe** |
+| 4 | **Selector (of F or its parameters)** | Jev picks which F runs: Choice over functions/models/effort levels | jev-router (cheapest model), jev-codex-router (model+effort), DiffJury review_depth, jeffrey next-tool | Dispatch stays in code; per-option consequences are your cost model; confidence-gate the selection. **Pick ≠ fill:** the LLM may write args; Jev does not | **Empirical recipe** |
 | 5 | **Comparator** | Replace a semantic comparator inside sort/rank: "more relevant / more severe" as a key | Rerank; skillranker; order statistics over semantic keys | Comparability needs a shared rubric; measure recall separately from rerank quality | **Empirical recipe** |
 | 6 | **Prior / initializer** | Jev distribution seeds a deterministic method that refines it | MCTS PUCT priors; beam-search branch priority | It's a heuristic prior, not a posterior; refine with real observations | **Empirical recipe** |
 | 7 | **State estimator, F = controller** | Jev estimates named probabilities; deterministic policy with hysteresis acts | foreman (progress/stuck/complete → continue/stop/retry/verify) | The model never commands; interventions enumerated in code | **Empirical recipe** |
@@ -48,8 +48,13 @@ mappings.md conventions.
   Nouls as independent. Digital-design slogan (transistors /
   logic gates / chip) is a *metaphor* for soft classifiers;
   ∧/∨ aggregation still follows the rule above. Fallback is
-  the fail-closed node; Memory gates what to remember. No
+  the fail-closed node;   Memory gates what to remember. No
   measurements. `notes.md` §66, §69.
+- **Decider ≠ executor** ([jeffrey](https://github.com/thomasbrueggemann/jeffrey)):
+  position 4 (Selector of next F) stays Jev; arg fill is
+  generation, not a Jev position. The loop is Jev→tool→Jev.
+  Pick ≠ fill. Mapping §9 still rejects the fused
+  planner-writer. `notes.md` §70.
 - **TLA+ kernel around votes** ([jev-labs](https://github.com/copyleftdev/jev-labs)):
   aggregation (quorum, stability, escalate) is the spec,
   not a multiplied joint of five Nouls. `notes.md` §67.

@@ -8653,3 +8653,397 @@ skill-bench harness no live numbers; TeoMastro 404);
 `faq.md`; `question-design.md` (named Choice escape);
 `agent-self-assessment.md`; `toolbox-mapping.md`;
 `methods-catalog.md`. Hunches labeled. No wrapper.
+
+## 70. Measurement crystallizing, decider≠executor, sentence-as-rule lint, VOI admission, open replica substrates (2026-09-19 ~05:46 Boise)
+
+Hourly System One watch **2026-09-19 05:46 America/Boise**
+(≈ 11:46 UTC). Docs-only fold into PR #2. Watch archive
+absent this VM; receipts from live GitHub READMEs + `gh api`
+(~11:55 UTC). Hunches labeled. No wrapper. No invented
+metrics. TypeSafe Jev is the exemplar, not the monopoly.
+Archer still **NOT landed**. Do **not** treat as SWE-only.
+
+Do **not** re-fold §50–§69 HIGH except sibling contrast /
+material delta (jevassert landing; jev-packs pairing;
+prune-review / intent-review / laya-jolt / local-jev).
+actiongate slogan already §64 — toolbelt note only.
+**Always qualify** chenmingtang830/jevarena ≠
+meetr1912/jev-arena; mizchi/jevlint ≠ huntedman/JevLint;
+leesk212/JEV-CPU exists, Meanblock/JEV-CPU **404**;
+Eran-BA/Jev_from_GLiNER2 ≠ jeff GLiFormer.
+
+Five meaning-clusters, not a hit list: **(1)** measurement
+crystallizing — calibration + cost as first-class gates
+(jevassert landed; jev-packs pairing; jevarena
+failure-finding; BBQ stereotype/uncertainty/cost;
+lustig framing stub); **(2)** decider≠executor (jeffrey);
+**(3)** sentence-as-rule lint (jevlint ast-grep × `ask:`);
+**(4)** VOI admission control (prune-review hunk gate;
+intent-review whole-repo; pi-heed persist constraints);
+**(5)** open replicas diversify substrates under one
+contract (grande Rust/WebGPU; laya-jolt Clojure/Jolt byte
+parity; JEV-CPU SemIf on CPU; local-jev ONNX measured
+not-equivalent; GLiNER2 spec-only class member).
+
+### HIGH
+
+1. **[`dtduc-git/jevassert`](https://github.com/dtduc-git/jevassert)**
+   — **LANDED** (named runner was **404** in §64). Python
+   **Apache-2.0**; created 2026-09-19T06:48:15Z; pushed
+   11:49Z; size **64**; 0★. Record/replay CI for Jev
+   question packs: `record` → `predictions.jsonl` →
+   `check` **offline from recordings** (no key, no
+   network). Reports accuracy (bootstrap 95% CI), ECE
+   (equal-mass bins), Brier (Noul), coverage at author
+   thresholds, cost/latency from the recording, optional
+   `--target-precision` cut. Gates in `gates.yaml`
+   (`min_accuracy` / `max_ece` / `max_cost_per_case_usd`
+   / `max_p95_latency_ms` / `min_coverage_at_precision`
+   / `min_accuracy_ci_lower`). Exit **0/1/2**. `compare`
+   is paired accuracy + exact McNemar. Pack SPEC v0 with
+   jev-packs; `unknown` **mandatory** (Jev cannot
+   abstain). Backend-neutral: TypeSafe / openai /
+   anthropic adapters (system-one-adapter); cost priced
+   at `check` time. GitHub Action `@v0`. Independent,
+   not TypeSafe. Do **not** copy `uvx` / Action how-to.
+
+   **Hunch:** Harbor/jevals-shaped practice. Accuracy
+   without ECE/cost is incomplete; CI must run on a
+   recording so the gate is deterministic.
+
+2. **[`dtduc-git/jev-packs`](https://github.com/dtduc-git/jev-packs)**
+   — **delta** (full nine-pack card §64). Python
+   **CC0-1.0**; size **0→458**; still 0★; pushed 11:49Z.
+   Now **pairs with the landed runner** (`jevassert.packs`
+   is the canonical loader). Suite slogan: jevassert
+   (runner) → jev-packs (data + spec + benchmark) →
+   jev-table (app). First full matrix *theirs* (2,990
+   cases): **Jev and Sonnet 5 are a statistical tie on
+   accuracy** across nine packs (deltas ≤ 0.018, inside
+   overlapping 95% CIs); Jev is **better calibrated on
+   7/9** (citation-support ECE 0.022 vs 0.081) and costs
+   **~250× less per case** ($0.000014–0.000031 vs
+   ~$0.0036); local qwen2.5-7b-ollama trails
+   (0.533–0.813). sms-spam this-pass table **0.953 /
+   ECE 0.040** (was 0.967 / 0.053 in §64 — cite *this*
+   README). Do not rehash the nine-pack table except
+   pairing. Do not copy `uvx`.
+
+   **Hunch:** measurement owns endorsement now has a
+   *runner*. Packs without `evidence.md` stay
+   `provisional`. The bake-off is calibration + cost,
+   not a winner on accuracy.
+
+3. **[`chenmingtang830/jevarena`](https://github.com/chenmingtang830/jevarena)**
+   — NEW. TypeScript **Apache-2.0**; created
+   2026-09-19T07:23:38Z; size **724**; 0★. Open BYOK
+   judgment arena; public preview
+   [jevarena-lab.vercel.app](https://jevarena-lab.vercel.app).
+   Slogan: **find the questions Jev gets wrong — not
+   crown a winner from a few examples.** Python harness
+   remains **JevJudge-Bench** (JudgeBench / RM-Bench /
+   RewardBench 2 pairwise protocol; transformed scores
+   are **not** official leaderboard scores). Status:
+   **runnable harness, not measured model findings.**
+   Community observations stay unreviewed. Distinct
+   from [`meetr1912/jev-arena`](https://github.com/meetr1912/jev-arena)
+   (§59 native-probability analytic-worlds arena).
+   **Always qualify the owner.** Do not copy npm /
+   OpenRouter how-to.
+
+   **Hunch:** failure-finding is the eval integrity
+   posture. A public playground is not a bake-off until
+   measured findings exist.
+
+4. **[`simonmesmith/jev-bbq-experiment`](https://github.com/simonmesmith/jev-bbq-experiment)**
+   — NEW. R; GitHub SPDX **null**; created
+   2026-09-19T10:54:01Z; size **5365**; 0★. Full BBQ
+   58,492 questions; Jev 1.13.0 *theirs*: **56,900 /
+   97.28%**; amb **99.96%** / inf **94.60%**; BBQ bias
+   **0.04** / **0.34**; **$0.3429 / 7.75 min**. 12 of 13
+   ambiguous errors stereotype-aligned; informative
+   errors mostly unknown (**1,487 / 1,579**). Weakest
+   inf categories: physical appearance 84.90% / SES
+   85.69%. Predeclared order diagnostic **1/484
+   (0.21%)**. Dataset CC BY 4.0 BBQ (pinned commit
+   `bea11bd`). Code supplied passages; no LLM judged.
+   **Not a general bias cert.** Always-unknown would
+   score 50% — 97.28% is not abstention theater. Do not
+   copy `TYPESAFE_API_KEY` how-to.
+
+   **Hunch:** stereotype / uncertainty / cost / latency
+   as *one* Harbor-shaped card. Residual
+   stereotype-aligned misses on a tiny ambiguous-error
+   set should not be washed out by a near-zero pooled
+   score. Life/business: hiring/lending/healthcare are
+   **not** certified by this English/U.S. QA template.
+
+5. **[`thomasbrueggemann/jeffrey`](https://github.com/thomasbrueggemann/jeffrey)**
+   — NEW. TypeScript **MIT**; created
+   2026-09-19T06:59:19Z; size **71**; 0★. **Decider ≠
+   executor:** Jev owns next-tool / progress / risk /
+   done; the LLM **only fills args**. Loop is
+   `Jev → tool → Jev` until `goal_reached` or escalate.
+   Risk Score ≥ **0.5** pauses mutating tools. Stuck
+   ladder: withhold the looping tool, re-ask Jev
+   (2 Jev calls / 0 steps per recovery; default 3).
+   Offline `--jev-mock` / `--llm-mock`. Distinct from
+   jev-handoff (typed baton around an existing host)
+   and browser-jev (Playwright executes). Do not copy
+   npm / Ollama how-to.
+
+   **Hunch:** mixed-architecture control plane. The
+   generator is a *fill* model, not a planner. Mapping
+   §9's "Jev is not the planner that picks its next
+   tool *and writes*" still holds — jeffrey splits
+   pick from fill.
+
+6. **[`mizchi/jevlint`](https://github.com/mizchi/jevlint)**
+   — NEW. TypeScript **MIT**; created
+   2026-09-19T09:31:37Z; default_branch
+   `claude/sharp-babbage-58dk1h`; size **338**; 0★.
+   **ast-grep subjects × sentence `ask:` scored by
+   Jev.** Matcher fails **silently** (over-match on
+   purpose); Jev fails **loudly** (`jevlint gaps`).
+   Score default 4-level (not-applicable / satisfied /
+   arguable / violation) or Noul. Review mode: a
+   four-function diff costs **2 requests / $0.00013**
+   *theirs*. Fail-open: no verdict on failed request —
+   a run with failures never reads as clean. Corpus
+   *theirs*: **13 of 15** naming/comment rules **1.00 /
+   1.00** (comment-describes-block ships saying it
+   does not separate). Independent of
+   mizchi/jev-playground `eslint-plugin-jev` and of
+   [`huntedman/JevLint`](https://github.com/huntedman/JevLint)
+   (§26 file-level convention Nouls). **Always qualify
+   the owner.** Do not copy npm.
+
+   **Hunch:** sentence-as-rule is the lint that never
+   became AST work. Mechanical defects stay with the
+   compiler; contradiction of a declared contract is
+   the System One hole. Not SWE-only: any artifact
+   that names itself (policy, checklist, form, recipe)
+   can be an ast-grep-shaped subject × a sentence.
+
+7. **[`shubhangi013/prune-review`](https://github.com/shubhangi013/prune-review)**
+   — **delta** (§66 MED). TypeScript; README
+   **Apache-2.0** / GitHub SPDX **NOASSERTION**; size
+   **365**; **1★**. Source preview; packages/Action not
+   published. Cost-aware PR review: Jev scores hunks
+   (actionable-finding + required-context) before the
+   generative reviewer; safety escarpment always
+   keeps concurrency/auth/a11y/startup hunks. 22-run
+   numbers **unchanged** *theirs*: winning-only 27.9%
+   (post hoc); all 22 incl. 305% outlier **1.18%**;
+   excl. outlier 15.9%; Jev added $0.00255. Target
+   ~20% cost cut. Cost results, not quality. ONNX
+   local fallback is **not** a Noul. Do not copy pnpm
+   / Action how-to.
+
+   **Hunch:** VOI admission in front of expensive
+   review. ci-gatekeeper is typed auto-approve vs
+   human-review vs block; prune-review is *packet
+   shrink* then always-review. Cousin, not clone.
+
+8. **[`yottayoshida/jev-intent-review`](https://github.com/yottayoshida/jev-intent-review)**
+   — **delta** (§66 under construction). TypeScript;
+   dual **MIT / Apache-2.0**; size **81**; 0★. Status
+   still **under construction**; CLI works; GitHub
+   Action not written. Whole-repo intent vs the
+   stated requirement: each place is
+   **VERIFIED / VIOLATION / UNKNOWN / NOT_APPLICABLE**.
+   Empty search ≠ proof. Spec vs impl: Jev
+   `confidence` 0.39–0.52 on correct `violates` so
+   they threshold `violation_probability` **0.7** on
+   the chosen answer (and require the path question
+   too). Fixture *theirs*: missed-path 7–8 requests /
+   18–19 KB / 2–3 s; omamori #559 31 requests / 172
+   KB / 14 s. Do not copy Cloudflare Workers how-to.
+
+   **Hunch:** the usual miss is *outside* the diff.
+   Diff-only review is an observation-window error
+   (`question-design.md`). UNKNOWN is the honest
+   third; VERIFIED is only as complete as the search.
+
+9. **[`Eran-BA/Jev_from_GLiNER2`](https://github.com/Eran-BA/Jev_from_GLiNER2)**
+   — NEW. Spec-only; license **null**; size **0**;
+   README+LICENSE-shape docs only. GLiNER2-base-v1
+   (`fastino/gliner2-base-v1`, DeBERTa-v3-base ~205M)
+   → Choice/Score/Noul on `POST /v1/systemone`.
+   **Design for implementation; no service, no
+   training, no measurements.** Interface
+   compatibility ≠ Jev replica. Isolated questions
+   first; shared-state attention is Extension A.
+   Distinct from jeff GLiFormer-400M (a running
+   encoder `/v1/systemone`). Do not treat synthetic
+   JSON numbers in the spec as results.
+
+   **Hunch:** IE backbone as a System One *class
+   member*. Locate (GLiNER) vs categorize (GLiClass)
+   vs this proposed *decide* adapter — three jobs on
+   one encoder family. Spec ≠ product.
+
+10. **[`bokuweb/grande`](https://github.com/bokuweb/grande)**
+    — NEW. Rust; license **null**; created
+    2026-09-19T02:35:39Z; **1★**; size **583**.
+    Rust/WebGPU System One; Archer/kev-shaped shared
+    state prefix + isolated branches. `POST
+    /v1/systemone`. JGLUE *theirs* (Gemma 4 E2B it
+    Q4_0 zshot): JNLI **0.614** ECE **0.252 → 0.088**
+    at T=**2.81**; JCQA **0.853**. Trained 270M head
+    **0.710 / 0.710**. Packed vs separate Δmax
+    **7e-5**. Isolation sibling **0.098** / state
+    **0.996**. Softmax over option letters ≠ Noul
+    until calibrated (instruct NLI: mean conf 0.86 at
+    61% acc; 41% of p≥0.9 wrong before T). Browser
+    demo WebGPU; nothing leaves the browser. Do not
+    copy cargo / GGUF how-to.
+
+    **Hunch:** open replica economics on a Japanese
+    substrate. Isolation + packed-vs-separate are the
+    *mechanism* tests the class owes every local
+    runtime. Not Archer Watch.
+
+11. **[`jlt-commons/laya-jolt`](https://github.com/jlt-commons/laya-jolt)**
+    — **delta** (empty skip §61). Clojure **Apache-2.0**;
+    size **5112**; 0★. Pure-Clojure inference on jolt
+    (Chez Scheme, no JVM). **Byte-for-byte** vs Python
+    `RLAgent.system_one` on the README quickstart
+    (`golden/`). f32 end-to-end; F16 widened once.
+    Known last-digit drift: Python softmax in float32,
+    port in doubles, ~1e-7 rounding boundary. `POST
+    /v1/systemone`. ~1.7 GB f32 weights. Do not copy
+    `jolt` / `cc` how-to.
+
+    **Hunch:** same weights, same outputs, different
+    substrate. Byte parity is the strongest replica
+    claim this hour; still not TypeSafe Jev.
+
+12. **[`leesk212/JEV-CPU`](https://github.com/leesk212/JEV-CPU)**
+    — NEW. Python **MIT**; **1★**; size **11690**.
+    SemIf CPU semantic-if + web UI. Qwen3-0.6B
+    float32 (~2.4 GB); one forward pass reads option
+    letter logits; no text generated. Demo GIF table
+    is a **PoC across eight domains**, not a bench
+    (loan row: high-risk **and** lean-approve —
+    small-model slip). Upstream SemIf authored
+    balanced acc 0.440 (0.6B) → 0.813 (4B) *theirs*.
+    Cross-ref semif-serve §69 (GPU `/v1/systemone`
+    runoff). **[`Meanblock/JEV-CPU`](https://github.com/Meanblock/JEV-CPU)
+    404** — do not invent a second port. Softmax over
+    option slots ≠ calibrated Noul. Do not copy venv
+    / CPU-torch how-to.
+
+    **Hunch:** the class is device-agnostic once the
+    loader is. CPU is an open path, not a quality
+    claim.
+
+13. **[`kunchenguid/local-jev`](https://github.com/kunchenguid/local-jev)**
+    — **delta** (§64 MED). TypeScript **MIT**; size
+    **115**; **2★**. README now: local
+    `/v1/systemone` over ModernBERT-large-zeroshot-v2.0
+    ONNX, Node-only. **API-compatible approximation,
+    not behavioral equivalence.** `confidence`
+    deliberately omitted. Measured vs live
+    `jev-1.13.0` *theirs* (136 compact-adviser
+    checkpoints): `done` agreement **30%** (Jev vs
+    itself 98%); `shape` **57%** (95%); composed-score
+    Pearson **r = −0.06** (0.99); gold `done` **26%**
+    vs Jev **87%**; wall **112 min** vs **21 s**.
+    Truncates long states. Distinct from jev-local
+    stub and jeff GLiFormer. Do not copy `npx`.
+
+    **Hunch:** wire-compat without measured agreement
+    is a development stand-in. Treat ONNX NLI
+    probabilities as relative evidence, not Nouls.
+
+14. **[`Nyarlathoteppppp/pi-heed`](https://github.com/Nyarlathoteppppp/pi-heed)**
+    — NEW (toolbelt / gates). TypeScript **MIT**;
+    created 2026-09-18T13:12:30Z; **3★**; size **621**.
+    Persist user constraints across compaction; check
+    side-effecting calls **before** they run. Jev
+    **never writes policy** — classifies KEEP / LIFT /
+    NARROW / EXCEPTION / REPLACE / UNKNOWN; resources
+    come from the user's words. Fail-open (Jev error /
+    2.5 s timeout). Shadow default. Bench *theirs*
+    (79 sessions / 261 labelled): v0.8.0+Jev recall
+    **98.5%** / false block **0.0%** / lifecycle
+    **100%** / task success **98.7%** / **$0.000058**.
+    Live: unchanged rule 0/30 break either way; **rule
+    changed mid-session 8/13 off vs 0/13 on**. Distinct
+    from actiongate (RBAC/schema authority) — this is
+    *conversational* policy that survives the context
+    window. 0.9 ledger pipeline (main model records
+    quotes; pi-heed checks receipts) is opt-in, not
+    default. Do not copy `pi install`.
+
+    **Hunch:** compaction deletes the model's memory of
+    "don't touch that." Structured state + replay is
+    the constraint; Jev is the sensor for *what the
+    user meant*.
+
+### MED / notes
+
+15. **[`david-j-lustig/system-one-responsible-ai`](https://github.com/david-j-lustig/system-one-responsible-ai)**
+    — MIT; created 2026-09-19T11:39:19Z; size **0**;
+    README+LICENSE only. Framing stub: "Understanding
+    the biases and limitations of system one models."
+    Pair with BBQ as the measured sibling, not a
+    substitute.
+
+16. **[`omkarghugarkar007/actiongate-jev`](https://github.com/omkarghugarkar007/actiongate-jev)**
+    — **note only** (slogan already §64). Size 370.
+    Single-use ALLOW/REVIEW/BLOCK. "Jev supplies
+    evidence. Code owns authority." Do not re-fold.
+
+### Skip / already folded
+
+- §64 jev-packs nine-pack table except pairing +
+  sms-spam this-pass numbers + matrix.
+- §64 actiongate slogan.
+- §66 prune-review 22-run numbers (unchanged; LICENSE /
+  size / star delta only).
+- §66 intent-review "under construction" (now a CLI
+  with VERIFIED/VIOLATION/UNKNOWN).
+- §61 empty laya-jolt skip (content landed).
+- §64 local-jev "not equivalence" (now measured).
+- §59 meetr1912/jev-arena (native-probability; qualify
+  vs jevarena).
+- §26 huntedman/JevLint (qualify vs mizchi/jevlint).
+- §60 jeff GLiFormer (qualify vs Eran GLiNER2 spec).
+- §69 OpenJev / semif-serve (CPU SemIf is a sibling
+  substrate, not a re-fold).
+- Archer Hume open decision-model: still Watch.
+
+### Curated status
+
+Census **not re-derived** this hour (last §69:
+Awesomejev flat 561/27007; tracker likes 43→45; SemIf
+1714; jevlike 926). Archer still **NOT landed**.
+
+### Omni / Jev-omni / Archer
+
+Still **WATCH**. A Rust/WebGPU runtime, a Clojure Laya
+port, a CPU SemIf UI, and an ONNX ModernBERT
+approximation are **class substrates**, not that drop.
+
+### Cross-links
+
+Cards: `validation.md` (jevassert record/replay;
+jev-packs matrix; BBQ; jevarena ≠ jev-arena; jevlint
+13/15; grande JGLUE; local-jev 30%/57%; pi-heed
+98.5%/0 false block); `mixed-architecture.md` (fail
+table + gallery: decider≠executor; sentence-as-rule;
+VOI hunk prune; persist-constraints; replica
+substrates); `judgment-class.md` (grande / laya-jolt /
+JEV-CPU / local-jev ONNX / GLiNER2 spec); `faq.md`;
+`mental-models.md`; `applied-mappings.md` §3
+(prune-review / intent-review), §7 (pi-heed),
+preference lint (jevlint); `mappings.md` §6 (VOI
+admission), §7 (BBQ / stereotype as SDT), §8
+(conversational constraint sensor), §9 (pick ≠ fill);
+`agent-self-assessment.md`; `question-design.md`
+(sentence as rule; observation window beyond the
+diff); `composition-algebra.md` (decider selector +
+executor fill); `toolbox-mapping.md`;
+`methods-catalog.md`. Hunches labeled. No wrapper.

@@ -47,6 +47,16 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    Positive score never overrides a deterministic security
    failure. Fail-closed on financial/destructive/credential
    if Jev is down (`notes.md` §64).
+   **Persist constraints across compaction (2026-09-19
+   ~05:46):**
+   [pi-heed](https://github.com/Nyarlathoteppppp/pi-heed)
+   — conversational policy as structured state; replayed
+   after compaction without calling Jev again. Jev
+   classifies KEEP/LIFT/…; **never writes policy**.
+   Side-effecting calls checked before they run. Fail-open.
+   Shadow default. *Theirs:* recall 98.5% / false block
+   0.0% / $0.000058. Distinct from actiongate (RBAC/schema)
+   (`notes.md` §70).
    **Turnstile clone (2026-09-19 ~01:47):**
    [turnstile](https://github.com/zyphr-labs/turnstile) —
    policy first; Jev remainder; receipts + replay; missing
@@ -111,6 +121,10 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    Missing verdict needs a fail-open / heartbeat — not a block and not a
    pass. Contrast Abide `<0.5` silence (the *edit proceeds*). Showcase
    class pattern on [jevable.com](https://jevable.com/) (`notes.md` §56).
+   **Stuck ladder cousin (2026-09-19 ~05:46):**
+   [jeffrey](https://github.com/thomasbrueggemann/jeffrey) — withhold
+   the looping tool, re-ask Jev (2 Jev calls / 0 steps per recovery).
+   Jev owns stuck/progress/done; LLM only fills args. `notes.md` §70.
 5. **Supervision during long runs** (foreman): separate concurrent loop
    estimates `meaningful_progress`, `implementation_complete`,
    `tests_sufficient`, `worker_stuck`, `work_off_track`,
@@ -238,6 +252,14 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   [browser-jev](https://github.com/DowLucas/browser-jev)
   — Playwright executes, Jev chooses; sample from the
   distribution (`notes.md` §69).
+  Decider≠executor cousin:
+  [jeffrey](https://github.com/thomasbrueggemann/jeffrey)
+  — Jev→tool→Jev; LLM fills args; risk≥0.5 pause
+  (`notes.md` §70).
+  Persist-constraints cousin:
+  [pi-heed](https://github.com/Nyarlathoteppppp/pi-heed)
+  — user constraints survive compaction; Jev never
+  writes policy (`notes.md` §70).
 
 ## Non-negotiable boundaries
 

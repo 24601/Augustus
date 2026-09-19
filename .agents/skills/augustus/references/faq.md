@@ -899,11 +899,15 @@ Yes, for question packs (and any cookbook criteria).
 is only `verified` after recorded accuracy / ECE / cost /
 latency on a **pinned** model version. No numbers, no
 endorsement; otherwise `provisional`. Abstention/`unknown`
-is mandatory. Named runner jevassert is **not released**
-this pass (404). Harbor/jevals pattern for the class —
-never cookbook-once-and-forget. Distinct from INSTRUCT_JEV
+is mandatory. Named runner
+[jevassert](https://github.com/dtduc-git/jevassert)
+**LANDED** this pass (Apache-2.0; was 404 in §64):
+record once, `check` offline from recordings, exit 0/1/2.
+Calibration and cost are first-class gates, not footnotes.
+Harbor/jevals pattern for the class — never
+cookbook-once-and-forget. Distinct from INSTRUCT_JEV
 (docs-derived seed, no evidence gate) and dinostomp
-(instrument). `validation.md`; `notes.md` §64.
+(instrument). `validation.md`; `notes.md` §64, §70.
 
 ## Does a positive Jev score authorize the act?
 
@@ -1299,3 +1303,73 @@ found Choice `confidence == max_prob` to 3 decimals on 60
 answers — the most generous metric in their table.
 [Essay](https://archerhume.com/posts/jevs-architecture-unmasked/),
 `notes.md` §31, §67, `mental-models.md` calibration.
+
+## Can CI call Jev live on every PR?
+
+Prefer not. [jevassert](https://github.com/dtduc-git/jevassert)
+**LANDED**: `record` once, commit `predictions.jsonl`,
+`check` **offline** (accuracy + ECE/Brier + cost/latency
+gates; exit 0/1/2; McNemar compare). Calibration and cost
+are first-class, not footnotes. Pairs with jev-packs SPEC
+v0. Do not copy `uvx`. `notes.md` §70.
+
+## Is jevarena the same as jev-arena?
+
+No. **Always qualify the owner.**
+[chenmingtang830/jevarena](https://github.com/chenmingtang830/jevarena)
+is an open BYOK failure-finding playground (JevJudge-Bench
+harness; **not** measured model findings).
+[meetr1912/jev-arena](https://github.com/meetr1912/jev-arena)
+is a native-probability calibration arena on analytic
+worlds (Brier/ECE; §59). Neither is a winner-crowning
+leaderboard. `notes.md` §59, §70.
+
+## Does 97% on BBQ mean Jev is unbiased?
+
+No. [jev-bbq-experiment](https://github.com/simonmesmith/jev-bbq-experiment)
+*theirs*: 58,492 questions, **97.28%**, amb bias **0.04** /
+inf **0.34**, **$0.3429**. 12 of 13 ambiguous errors were
+stereotype-aligned. One frozen English/U.S. QA template is
+not a hiring/lending/healthcare cert. Pair with the
+lustig framing stub, not a substitute. `notes.md` §70.
+
+## Does the LLM plan in jeffrey?
+
+No. **Decider ≠ executor.**
+[jeffrey](https://github.com/thomasbrueggemann/jeffrey):
+Jev owns next-tool / progress / risk / done; the LLM
+**only fills args**. Risk ≥ 0.5 pauses mutating tools.
+Stuck ladder withholds the looping tool and re-asks Jev.
+Distinct from jev-handoff (baton around an existing host).
+`notes.md` §70.
+
+## Is jevlint the same as JevLint?
+
+No. **Always qualify the owner.**
+[mizchi/jevlint](https://github.com/mizchi/jevlint):
+ast-grep subjects × sentence `ask:` (matcher silent, Jev
+loud; 13/15 1.00/1.00 *theirs*).
+[huntedman/JevLint](https://github.com/huntedman/JevLint)
+is file-level convention Nouls (§26). Independent of
+eslint-plugin-jev. `notes.md` §26, §70.
+
+## Can I treat a local `/v1/systemone` as Jev?
+
+Only as a **wire**. grande (Rust/WebGPU), laya-jolt
+(Clojure byte-parity Laya), JEV-CPU (SemIf on CPU;
+Meanblock 404), local-jev (ONNX ModernBERT; done **30%** /
+shape **57%** vs Jev *theirs*), OpenJev `/v1/decide`,
+semif-serve runoff, jeff GLiFormer, and the GLiNER2 spec
+are **class substrates**. Softmax ≠ Noul until calibrated
+on your labels. Interface compatibility ≠ replica. The
+Eran-BA GLiNER2 document is **spec-only** (no service, no
+measurements) and is not jeff. Archer still Watch.
+`judgment-class.md`; `notes.md` §70.
+
+## Do user constraints survive compaction?
+
+Not in the model's memory. [pi-heed](https://github.com/Nyarlathoteppppp/pi-heed)
+persists them as structured state and checks
+side-effecting calls before they run. Jev **never writes
+policy**. Fail-open. Distinct from actiongate (RBAC/schema
+authority). `notes.md` §70.

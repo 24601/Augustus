@@ -1746,3 +1746,78 @@ qualify Winnow owner; (fu) WHETHER/HOW/WHAT; (fv) conflict
 ≠ ignorance / named Choice escape; (fw) Playwright
 executes Jev chooses; (fx) OpenJev `/v1/decide` ≠ drop-in;
 (fy) SemIf runoff wire; (fz) decision-as-memory flywheel.
+
+## Batch #54 (2026-09-19 ~11:55 UTC / ~05:46 Boise) — record/replay CI, BBQ, decider≠executor, sentence-as-rule lint, open replica substrates
+
+Note: `research/notes.md` §70. Docs-only. Folded into PR #2.
+Archer still Watch. No invented metrics. Do not re-fold
+§50–§69 HIGH except sibling contrast / jevassert landing /
+prune-review, intent-review, laya-jolt, local-jev deltas.
+Hunches labeled. Meanblock/JEV-CPU **404**.
+
+- **dtduc-git/jevassert (Empirical as README + Action @v0).**
+  Python Apache-2.0. Created 2026-09-19T06:48:15Z; 0★; size
+  64. **LANDED** (was 404 §64). Record/replay CI:
+  accuracy/ECE/Brier/cost/latency offline from recordings.
+  Exit 0/1/2. McNemar. Backend-neutral.
+- **dtduc-git/jev-packs (delta: runner pairing + 2,990
+  matrix).** CC0-1.0; size 0→458. Jev/Sonnet 5 accuracy
+  tie Δ≤0.018; Jev better calibrated 7/9; ~250× cheaper
+  *theirs*. sms-spam this-pass 0.953 / ECE 0.040.
+- **chenmingtang830/jevarena (Empirical as runnable
+  harness; not findings).** TypeScript Apache-2.0; size
+  724. Failure-finding not a leaderboard. **≠**
+  meetr1912/jev-arena. Always qualify owner.
+- **simonmesmith/jev-bbq-experiment (Empirical as full
+  58,492).** R; license null; size 5365. 97.28%; bias
+  0.04/0.34; $0.3429 / 7.75 min *theirs*. Not a general
+  bias cert.
+- **thomasbrueggemann/jeffrey (Empirical as README).**
+  TypeScript MIT; size 71. Decider ≠ executor. Pick ≠
+  fill. Risk≥0.5 pause. Stuck ladder 2 Jev / 0 steps.
+- **mizchi/jevlint (Empirical as 13/15 corpus).**
+  TypeScript MIT; size 338. ast-grep × `ask:`. 13/15
+  1.00/1.00 *theirs*. **≠** huntedman/JevLint. Always
+  qualify owner.
+- **shubhangi013/prune-review (delta: size/star).**
+  22-run numbers unchanged 1.18% with 305% outlier
+  *theirs*. ~20% cost target. Cost not quality.
+- **yottayoshida/jev-intent-review (delta: CLI).** Dual
+  MIT/Apache-2.0; size 81. VERIFIED/VIOLATION/UNKNOWN.
+  Empty search ≠ proof. Action not written.
+- **Eran-BA/Jev_from_GLiNER2 (spec-only).** Size 0.
+  Interface ≠ replica. Distinct from jeff GLiFormer.
+- **bokuweb/grande (Empirical as JGLUE + isolation).**
+  Rust; license null; 1★; size 583. JNLI 0.614 ECE
+  0.088 T=2.81; JCQA 0.853; 270M 0.710/0.710 *theirs*.
+  Softmax ≠ Noul until T.
+- **jlt-commons/laya-jolt (delta: content landed).**
+  Clojure Apache-2.0; size 5112. Byte parity vs Python
+  system_one. ~1e-7 last-digit drift.
+- **leesk212/JEV-CPU (Empirical as PoC).** Python MIT;
+  1★. SemIf CPU + UI. Meanblock/JEV-CPU 404.
+- **kunchenguid/local-jev (delta: measured).** 136
+  checkpoints *theirs*: done 30% / shape 57% / r −0.06.
+  Not equivalence.
+- Toolbelt notes: actiongate-jev slogan already §64.
+  **Nyarlathoteppppp/pi-heed (Empirical as 79-session
+  bench).** TypeScript MIT; 3★; size 621. Recall 98.5%
+  / false block 0.0% / $0.000058 *theirs*. Jev never
+  writes policy.
+- MED: david-j-lustig/system-one-responsible-ai size 0
+  framing stub.
+
+Census not re-derived this hour (last §69). Archer still
+NOT landed.
+
+Cross-repo addition: (ga) record/replay CI / calibration+
+cost first-class; (gb) evidence-gated packs have a
+runner / 2,990 matrix; (gc) failure-finding arena ≠
+leaderboard / qualify jevarena owner; (gd) BBQ
+stereotype/uncertainty/cost not a bias cert; (ge)
+decider≠executor / pick ≠ fill; (gf) sentence-as-rule
+lint / qualify jevlint owner; (gg) VOI hunk prune /
+safety escarpment; (gh) whole-repo intent UNKNOWN;
+(gi) GLiNER2 spec ≠ replica; (gj) open replica
+substrates (grande / laya-jolt / JEV-CPU / local-jev);
+(gk) persist constraints across compaction.

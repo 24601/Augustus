@@ -366,6 +366,28 @@ Architecture notes, not an npm / npx / bun / plugin catalog. `notes.md` §69. Ty
 
 Census this hour (user-provided): Awesomejev **flat 561/27007**; tracker likes **43→45**, lastModified unchanged; SemIf **1714** (+10); jevlike **926** (+3). Archer still NOT landed.
 
+### Hourly ~05:46 Boise 2026-09-19 / 11:55 UTC (record/replay CI, BBQ, decider≠executor, sentence-as-rule lint, open replica substrates)
+
+Architecture notes, not an npm / uvx / cargo / plugin catalog. `notes.md` §70. TypeSafe Jev is the exemplar, not the monopoly. Archer still Watch. No invented metrics. Do not re-fold §50–§69 HIGH except sibling contrast / jevassert landing / prune-review, intent-review, laya-jolt, local-jev deltas. Hunches labeled. Calibration+cost as first-class gates. Open replicas diversify substrates under one contract — not TypeSafe clones.
+
+- **dtduc-git/jevassert** — Python Apache-2.0. **LANDED** (was 404 §64). Record/replay CI: accuracy + ECE/Brier + cost/latency **offline from recordings**. PyPI `jevassert`; GH Action `@v0`. Pack SPEC v0 with jev-packs. `unknown` mandatory. Backend-neutral. Exit 0/1/2. McNemar. Do not copy `uvx`.
+- **dtduc-git/jev-packs** — **delta**. CC0-1.0; size 0→458. Now pairs with the landed runner. First full matrix *theirs* (2,990 cases): Jev and Sonnet 5 statistical tie on accuracy (Δ≤0.018); Jev better calibrated 7/9; ~250× cheaper ($0.000014–0.000031 vs ~$0.0036). sms-spam this-pass **0.953 / ECE 0.040**.
+- **chenmingtang830/jevarena** — TypeScript Apache-2.0. Open BYOK arena; preview jevarena-lab.vercel.app. **Failure-finding, not crowning winners.** Python harness remains JevJudge-Bench. Runnable harness, **not measured findings**. **≠** meetr1912/jev-arena. Always qualify the owner.
+- **simonmesmith/jev-bbq-experiment** — R; license null. Full BBQ 58,492; Jev 1.13.0 **56,900 / 97.28%**; amb 99.96% / inf 94.60%; bias **0.04 / 0.34**; **$0.3429 / 7.75 min** *theirs*. 12 of 13 amb errors stereotype-aligned; inf errors mostly unknown (1,487/1,579). Order diagnostic 1/484. **Not a general bias cert.** Dataset CC BY 4.0 BBQ.
+- **thomasbrueggemann/jeffrey** — TypeScript MIT. **Decider ≠ executor:** Jev next-tool/progress/risk/done; LLM only fills args. Loop Jev→tool→Jev. Risk≥0.5 pause. Stuck ladder (2 Jev / 0 steps). Pick ≠ fill. Mapping §9 still rejects the fused planner-writer.
+- **mizchi/jevlint** — TypeScript MIT. **ast-grep subjects × sentence `ask:` scored by Jev.** Matcher silent-fail vs Jev loud. 13/15 naming/comment rules **1.00/1.00** *theirs*. Review mode 4-fn diff 2 req / $0.00013. Fail-open no-verdict. **≠** huntedman/JevLint. Always qualify the owner.
+- **shubhangi013/prune-review** — **delta**. 22-run numbers unchanged: winning 27.9% post hoc; all 22 incl. 305% outlier **1.18%**; excl. outlier 15.9%. Target ~20%. Cost not quality. Safety escarpment always keeps concurrency/auth/a11y/startup.
+- **yottayoshida/jev-intent-review** — **delta**. Dual MIT/Apache-2.0. Whole-repo intent VERIFIED/VIOLATION/UNKNOWN/NOT_APPLICABLE. CLI works; GH Action not written. Empty search ≠ proof.
+- **Eran-BA/Jev_from_GLiNER2** — spec-only; license null; size 0. GLiNER2-base-v1 → Choice/Score/Noul `/v1/systemone`. **No service, no training, no measurements.** Interface ≠ replica. Distinct from jeff GLiFormer.
+- **bokuweb/grande** — Rust; license null. Rust/WebGPU System One; Archer/kev-shaped shared-state branches. JGLUE *theirs*: E2B zshot JNLI **0.614** ECE 0.252→**0.088** T=2.81; JCQA **0.853**. 270M **0.710/0.710**. Packed Δmax 7e-5. Isolation sibling 0.098 / state 0.996. Softmax ≠ Noul until calibrated.
+- **jlt-commons/laya-jolt** — **delta** (empty skip §61). Clojure Apache-2.0. Byte-for-byte vs Python `system_one` on README quickstart. ~1e-7 last-digit drift. ~1.7 GB f32.
+- **leesk212/JEV-CPU** — Python MIT. SemIf CPU semantic-if + web UI. **Meanblock/JEV-CPU 404** — only leesk212 exists. Cross-ref semif-serve §69. Demo GIF is PoC not a bench.
+- **kunchenguid/local-jev** — **delta**. ONNX ModernBERT-large-zeroshot-v2.0. Measured vs jev-1.13.0 *theirs* (136 checkpoints): done **30%** / shape **57%** / r −0.06; gold done 26% vs Jev 87%; 112 min vs 21 s. Confidence omitted. Not equivalence.
+- Toolbelt notes: **omkarghugarkar007/actiongate-jev** slogan already §64 (single-use ALLOW/REVIEW/BLOCK). **Nyarlathoteppppp/pi-heed** — TypeScript MIT; 3★. Persist user constraints across compaction; check side-effecting calls. Jev never writes policy. Fail-open. Shadow default. Bench *theirs* v0.8.0+Jev: recall **98.5%** / false block **0.0%** / $0.000058. Live: rule changed mid-session 8/13 off vs 0/13 on.
+- MED: **david-j-lustig/system-one-responsible-ai** — MIT; size 0; README+LICENSE only. Framing stub. Pair with BBQ, not a substitute.
+
+Census **not re-derived** this hour (last §69). Archer still NOT landed.
+
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs
 Apalache; DST trio Antithesis / Resonate HQ / PufferLib):

@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T10:55Z",
+  "retrieved": "2026-09-19T11:55Z",
   "sources": [
     {
       "kind": "docs",
@@ -2014,9 +2014,9 @@
     },
     {
       "kind": "github",
-      "title": "jlt-commons/laya-jolt (empty skip)",
+      "title": "jlt-commons/laya-jolt",
       "url": "https://github.com/jlt-commons/laya-jolt",
-      "note": "Empty placeholder this pass. Created 2026-09-19T03:08:37Z; size 0. notes.md \u00a761."
+      "note": "Clojure Apache-2.0. Size 5112 (was empty skip \u00a761). Byte-for-byte vs Python RLAgent.system_one on README quickstart. ~1e-7 last-digit drift. ~1.7 GB f32. notes.md \u00a770."
     },
     {
       "kind": "github",
@@ -2118,7 +2118,7 @@
       "kind": "github",
       "title": "dtduc-git/jev-packs",
       "url": "https://github.com/dtduc-git/jev-packs",
-      "note": "Python CC0-1.0. Created 2026-09-19T06:35:36Z; 0 stars; size 0. Evidence-gated question packs. Nine verified *theirs* on pinned jev-1.13.0. unknown mandatory. jevassert/jev-table 404 this pass. notes.md \u00a764."
+      "note": "Python CC0-1.0. Created 2026-09-19T06:35:36Z; 0 stars; size 0->458. Evidence-gated question packs now pair with landed jevassert runner. First matrix 2990 cases: Jev/Sonnet 5 accuracy tie, Jev better calibrated 7/9, ~250x cheaper. sms-spam this-pass 0.953/ECE 0.040. notes.md \u00a764, \u00a770."
     },
     {
       "kind": "github",
@@ -2148,7 +2148,7 @@
       "kind": "github",
       "title": "kunchenguid/local-jev",
       "url": "https://github.com/kunchenguid/local-jev",
-      "note": "Language null; MIT. Created 2026-09-19T06:14:18Z; 0 stars; size 0. Local /v1/systemone-shaped ModernBERT ONNX. API-compatible approximation, not behavioral equivalence. Distinct from us/jev-local and jeff. MED. notes.md \u00a764."
+      "note": "MIT. Size 115; 2 stars. ONNX ModernBERT-large-zeroshot-v2.0 local /v1/systemone. Measured vs jev-1.13.0 (136 ckpts) theirs: done 30% / shape 57% / r -0.06; gold done 26% vs Jev 87%. Confidence omitted. Not equivalence. notes.md \u00a764, \u00a770."
     },
     {
       "kind": "github",
@@ -2214,13 +2214,13 @@
       "kind": "github",
       "title": "yottayoshida/jev-intent-review",
       "url": "https://github.com/yottayoshida/jev-intent-review",
-      "note": "MIT. Created 2026-09-19T07:45:28Z; 0 stars; language null. Under construction. Empty search != proof. MED. notes.md \u00a766."
+      "note": "TypeScript dual MIT/Apache-2.0. Size 81. CLI works; GH Action not written. Whole-repo intent VERIFIED/VIOLATION/UNKNOWN/NOT_APPLICABLE. Empty search != proof. notes.md \u00a766, \u00a770."
     },
     {
       "kind": "github",
       "title": "shubhangi013/prune-review",
       "url": "https://github.com/shubhangi013/prune-review",
-      "note": "TypeScript; README Apache-2.0 / GitHub NOASSERTION. Created 2026-09-19T07:48:06Z; 0 stars. 22-run cost 1.18% with 305% outlier. Cost not quality. MED. notes.md \u00a766."
+      "note": "TypeScript; README Apache-2.0 / GitHub NOASSERTION. Size 365; 1 star. 22-run cost 1.18% with 305% outlier theirs. Target ~20%. Cost not quality. Safety escarpment. notes.md \u00a766, \u00a770."
     },
     {
       "kind": "github",
@@ -2395,6 +2395,78 @@
       "title": "ctaxnagomi/DGUI_HYPERMEM-JEV",
       "url": "https://huggingface.co/datasets/ctaxnagomi/DGUI_HYPERMEM-JEV",
       "note": "HF MIT. 6-row flywheel (analyze 4 / rerank 2 / supersede 0). Sibling INSTRUCT_JEV. notes.md \u00a769."
+    },
+    {
+      "kind": "github",
+      "title": "dtduc-git/jevassert",
+      "url": "https://github.com/dtduc-git/jevassert",
+      "note": "Python Apache-2.0. Created 2026-09-19T06:48:15Z; 0 stars; size 64. Record/replay CI LANDED (was 404 \u00a764). Accuracy/ECE/Brier/cost/latency offline from recordings. PyPI jevassert; Action @v0. Exit 0/1/2. McNemar. notes.md \u00a770."
+    },
+    {
+      "kind": "github",
+      "title": "chenmingtang830/jevarena",
+      "url": "https://github.com/chenmingtang830/jevarena",
+      "note": "TypeScript Apache-2.0. Created 2026-09-19T07:23:38Z; 0 stars; size 724. Open BYOK failure-finding arena. JevJudge-Bench harness not measured findings. Distinct from meetr1912/jev-arena. Always qualify owner. notes.md \u00a770."
+    },
+    {
+      "kind": "web",
+      "title": "jevarena public preview",
+      "url": "https://jevarena-lab.vercel.app",
+      "note": "Public preview for chenmingtang830/jevarena. notes.md \u00a770."
+    },
+    {
+      "kind": "github",
+      "title": "simonmesmith/jev-bbq-experiment",
+      "url": "https://github.com/simonmesmith/jev-bbq-experiment",
+      "note": "R; license null. Created 2026-09-19T10:54:01Z; 0 stars; size 5365. Full BBQ 58492. Jev 1.13.0 56900/97.28%; amb 99.96%/inf 94.60%; bias 0.04/0.34; $0.3429/7.75 min theirs. Not a general bias cert. notes.md \u00a770."
+    },
+    {
+      "kind": "github",
+      "title": "nyu-mll/BBQ",
+      "url": "https://github.com/nyu-mll/BBQ",
+      "note": "CC BY 4.0 BBQ dataset. Pinned commit bea11bd in jev-bbq-experiment. notes.md \u00a770."
+    },
+    {
+      "kind": "github",
+      "title": "thomasbrueggemann/jeffrey",
+      "url": "https://github.com/thomasbrueggemann/jeffrey",
+      "note": "TypeScript MIT. Created 2026-09-19T06:59:19Z; 0 stars; size 71. Decider != executor: Jev next-tool/progress/risk/done; LLM fills args. Risk>=0.5 pause. Stuck ladder. notes.md \u00a770."
+    },
+    {
+      "kind": "github",
+      "title": "mizchi/jevlint",
+      "url": "https://github.com/mizchi/jevlint",
+      "note": "TypeScript MIT. Created 2026-09-19T09:31:37Z; default_branch claude/sharp-babbage-58dk1h; 0 stars; size 338. ast-grep subjects x sentence ask: scored by Jev. 13/15 1.00/1.00 theirs. Distinct from huntedman/JevLint. Always qualify owner. notes.md \u00a770."
+    },
+    {
+      "kind": "github",
+      "title": "Eran-BA/Jev_from_GLiNER2",
+      "url": "https://github.com/Eran-BA/Jev_from_GLiNER2",
+      "note": "Spec-only; license null; size 0. GLiNER2-base-v1 -> Choice/Score/Noul /v1/systemone. No service, no training, no measurements. Interface != replica. Distinct from jeff GLiFormer. notes.md \u00a770."
+    },
+    {
+      "kind": "github",
+      "title": "bokuweb/grande",
+      "url": "https://github.com/bokuweb/grande",
+      "note": "Rust; license null. Created 2026-09-19T02:35:39Z; 1 star; size 583. Rust/WebGPU System One. JGLUE JNLI 0.614 ECE 0.088 T=2.81; JCQA 0.853; 270M 0.710/0.710 theirs. Isolation 0.098/0.996. Softmax != Noul until T. notes.md \u00a770."
+    },
+    {
+      "kind": "github",
+      "title": "leesk212/JEV-CPU",
+      "url": "https://github.com/leesk212/JEV-CPU",
+      "note": "Python MIT. 1 star; size 11690. SemIf CPU semantic-if + web UI. Meanblock/JEV-CPU 404 this pass. Demo GIF is PoC not a bench. notes.md \u00a770."
+    },
+    {
+      "kind": "github",
+      "title": "Nyarlathoteppppp/pi-heed",
+      "url": "https://github.com/Nyarlathoteppppp/pi-heed",
+      "note": "TypeScript MIT. Created 2026-09-18T13:12:30Z; 3 stars; size 621. Persist user constraints across compaction; check side-effecting calls. Jev never writes policy. Fail-open. 98.5%/0 false block/$0.000058 theirs. notes.md \u00a770."
+    },
+    {
+      "kind": "github",
+      "title": "david-j-lustig/system-one-responsible-ai",
+      "url": "https://github.com/david-j-lustig/system-one-responsible-ai",
+      "note": "MIT. Created 2026-09-19T11:39:19Z; size 0. README+LICENSE framing stub. Pair with BBQ. MED. notes.md \u00a770."
     }
   ]
 }

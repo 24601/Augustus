@@ -604,12 +604,40 @@ task-accuracy or calibration. License null. Distinct from
 Mattepiu/laya-onnx. Primary omni archive stays Jev-omni.
 Do not copy npm (`notes.md` §64).
 **Local ModernBERT `/v1/systemone` approximation (not
-equivalence; 2026-09-19 ~00:39):**
+equivalence; measured 2026-09-19 ~05:46):**
 [`kunchenguid/local-jev`](https://github.com/kunchenguid/local-jev)
-— README: "API-compatible local approximation — **not**
-behavioral equivalence with Jev." Distinct from jev-local's
-stub and jeff's GLiFormer. Thin this pass
-(`IMPLEMENTATION-PLAN.md`). MIT (`notes.md` §64).
+— ONNX ModernBERT-large-zeroshot-v2.0; "API-compatible
+local approximation — **not** behavioral equivalence."
+`confidence` omitted. 136 checkpoints *theirs*: done
+**30%** / shape **57%** / Pearson r **−0.06** vs live
+Jev; gold done 26% vs 87%; 112 min vs 21 s. Distinct from
+jev-local's stub and jeff's GLiFormer. MIT (`notes.md`
+§64, §70).
+**Rust/WebGPU System One (Empirical as JGLUE + isolation;
+2026-09-19 ~05:46):**
+[`bokuweb/grande`](https://github.com/bokuweb/grande) —
+Archer/kev-shaped shared-state branches; `POST /v1/systemone`.
+JGLUE *theirs*: E2B zshot JNLI 0.614 ECE 0.252→0.088 T=2.81;
+JCQA 0.853; trained 270M 0.710/0.710. Isolation sibling
+0.098 / state 0.996. Packed Δmax 7e-5. License null. Softmax
+≠ Noul until T. Not Archer Watch. Do not copy cargo
+(`notes.md` §70).
+**Clojure/Jolt Laya (Empirical as golden byte parity;
+was empty skip §61):**
+[`jlt-commons/laya-jolt`](https://github.com/jlt-commons/laya-jolt)
+— Apache-2.0; README quickstart byte-identical to Python
+`RLAgent.system_one`. ~1e-7 last-digit drift (f32 vs double).
+~1.7 GB f32. Do not copy `jolt` (`notes.md` §70).
+**CPU SemIf (Empirical as PoC UI, not a bench):**
+[`leesk212/JEV-CPU`](https://github.com/leesk212/JEV-CPU) —
+MIT; Qwen3-0.6B float32; option-letter logits, no generate.
+Cross-ref semif-serve §69. **Meanblock/JEV-CPU 404.**
+Softmax over slots ≠ Noul (`notes.md` §70).
+**GLiNER2 decide adapter (spec only):**
+[`Eran-BA/Jev_from_GLiNER2`](https://github.com/Eran-BA/Jev_from_GLiNER2)
+— `fastino/gliner2-base-v1` → Choice/Score/Noul `/v1/systemone`.
+No service, no training, no measurements. Interface ≠ replica.
+Distinct from jeff GLiFormer (`notes.md` §70).
 **Packed one-forward on an open LLM (constrained-AR / logprob path,
 not a Jev reproduction):**
 [`ikermoel/open-alternative-jev`](https://github.com/ikermoel/open-alternative-jev)
@@ -710,6 +738,8 @@ Detail: `research/notes.md` §33 (surfaces), §34 (marginals), §35
 §42 (pcdServer serving, meta-VOI, games), §45 (kev), §46 (blackwood,
 laya-bench, decision-token LoRA), §48 (jev-local stub, laya-onnx),
 §64 (gqgs complete Laya ONNX; local-jev not equivalence),
+§70 (grande / laya-jolt / JEV-CPU / local-jev measured /
+GLiNER2 spec),
 §49 (boundary map; DMB vs constrained LLMs; von; open-alternative-jev). Before
 adopting a surface, the bake-off is a jevals-shaped suite and, for a
 product loop, a Harbor taskset (`validation.md`, Eval & hill-climb).

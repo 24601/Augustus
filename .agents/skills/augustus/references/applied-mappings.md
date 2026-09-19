@@ -403,6 +403,25 @@ tests/SAST. Distinct from latch / ci-gatekeeper
 no-key fail-open PASS; key-enabled exactly one
 continuation *theirs*. Do not copy marketplace / key
 (`notes.md` §68).
+**VOI hunk prune before generative review (Empirical as
+22-run cost table; 2026-09-19 ~05:46):**
+[prune-review](https://github.com/shubhangi013/prune-review)
+— Jev scores each hunk; only a smaller packet reaches
+the generative reviewer. Safety escarpment always keeps
+concurrency/auth/a11y/startup. Target ~20% cost cut.
+*Theirs:* winning-only 27.9% (post hoc); all 22 incl.
+305% outlier **1.18%**; excl. outlier 15.9%. Cost, not
+quality. Source preview. Cousin of ci-gatekeeper (that
+one auto-approve/human-review/block), not a clone. Do
+not copy pnpm (`notes.md` §66, §70).
+**Whole-repo intent beyond the diff (Empirical as CLI;
+under construction):**
+[jev-intent-review](https://github.com/yottayoshida/jev-intent-review)
+— stated intent → search the repo after the change →
+one small question per place →
+VERIFIED/VIOLATION/UNKNOWN/NOT_APPLICABLE. Empty search
+≠ proof. CLI works; GitHub Action not written. Do not
+copy Cloudflare how-to (`notes.md` §70).
 **Counterexample**: sampling 2% of production with an LLM judge —
 the economics inversion is the point. **Test**: planted harness bugs
 recovered; false-flag rate on known-clean runs; LLM never runs on the
@@ -852,6 +871,17 @@ label-baseline integrity, **not** model accuracy. Early MVP.
 Distinct from toolgate / interlock / construct / greenlight.
 **Hunch:** canonical sensor≠constraint slogan for the
 class. Do not copy pnpm (`notes.md` §64).
+**Persist constraints across compaction (Empirical as
+79-session bench; 2026-09-19 ~05:46):**
+[pi-heed](https://github.com/Nyarlathoteppppp/pi-heed)
+— conversational policy as structured state; replayed
+after compaction without calling Jev again. Jev
+classifies KEEP/LIFT/…; **never writes policy**.
+Side-effecting calls checked before they run. Fail-open.
+Shadow default. *Theirs:* v0.8.0+Jev recall 98.5% /
+false block 0.0% / $0.000058; mid-session rule change
+8/13 off vs 0/13 on. Distinct from actiongate
+(RBAC/schema). Do not copy `pi install` (`notes.md` §70).
 **Turnstile clone (Empirical as README architecture;
 2026-09-19 ~01:47):**
 [turnstile](https://github.com/zyphr-labs/turnstile)
@@ -988,6 +1018,15 @@ code-only checks first; sample from the distribution not
 argmax; fail only high conf **and** high severity. Visual
 blind. Same inverted-loop family as jev-handoff
 (`notes.md` §69).
+**Decider≠executor cousin (Empirical as README; 2026-09-19
+~05:46):**
+[jeffrey](https://github.com/thomasbrueggemann/jeffrey)
+(MIT) — Jev owns next-tool / progress / risk / done; the
+LLM **only fills args**. Loop `Jev → tool → Jev`. Risk
+Score ≥ 0.5 pauses mutating tools. Stuck ladder withholds
+the looping tool (2 Jev / 0 steps). Distinct from this
+card's no-LLM extreme and from jev-handoff (host baton).
+Do not copy npm (`notes.md` §70).
 **Counterexample**: Stagehand extract `"pick"` with LLM
 fallback sold as "no LLM" — pick is a fast path, not this
 card. **Test**: every typed character exists in goal, facts,

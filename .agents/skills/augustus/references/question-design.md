@@ -40,6 +40,7 @@ request, and treat a stale pin as a prior, never a setting.
 - Keep numerals-for-levels out of instructions ("Rate from 0 to 2" gives nothing to match); write the full question in `instructions` (the question ID never reaches the model); keep decision policy out of questions (policy lives in code).
 - Instructions accept prose or a structured form (the live docs own which keys that form accepts — do not write them from this page). The design rule is what transfers: name the sub-parts of the judgment explicitly instead of packing them into one sentence, and pass schemas/taxonomies as JSON, not as serialized strings.
 - When you catch yourself explaining what you meant after a wrong answer — that explanation is the missing half of the instruction. Add it.
+- **Sentence as rule:** a natural-language sentence can *be* the criterion when a matcher already extracted the subject ([jevlint](https://github.com/mizchi/jevlint) ast-grep `rule:` × Jev `ask:`). Do not pack two properties into the sentence. Mechanical defects stay with the compiler; contradiction of a declared contract is the System One hole. Not SWE-only: any artifact that names itself (policy, checklist, form, recipe) can be a subject × a sentence. Qualify vs huntedman/JevLint. `notes.md` §70.
 
 ## Criteria shape
 
@@ -71,6 +72,8 @@ request, and treat a stale pin as a prior, never a setting.
 | Rewording trades one error for another | One question, several properties | Split into atomic questions |
 | Synonymous wording swings p / the act | Stimulus includes question text; no invariance promised | Paraphrase-pair eval; abstain or raise t; rewrite (`mappings.md` §17) |
 | Question has no answer yet (edit 1 of 12) | Observation window is wrong: a turn-level property asked at edit time | Name when the evidence exists. Edit-phase vs turn-phase is a question-design cut, not a hook detail ([Abide](https://github.com/coldteadotai/abide): "added more than asked" is a turn rule). `notes.md` §47 |
+| Review is green on the diff; the rest of the repo violates the stated intent | Observation window is the *diff*, not the places the intent applies | Search the whole repo after the change; one small question per place; **UNKNOWN** is cheaper than a false VERIFIED. Empty search ≠ proof ([jev-intent-review](https://github.com/yottayoshida/jev-intent-review)). `notes.md` §70 |
+| Naming/comment "rule" as a paragraph the linter cannot prove | The sentence is the criterion; AST/ast-grep already extracted the subject | Put the sentence in `ask:`; matcher silent-fail vs Jev loud; fail-open if no verdict ([mizchi/jevlint](https://github.com/mizchi/jevlint); ≠ huntedman/JevLint). `notes.md` §70 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

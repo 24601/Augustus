@@ -547,6 +547,20 @@ license null; 2026-09-19 ~04:39):**
 generation is still required (WHETHER/HOW/WHAT). Skip-next
 needs a core patch. Fail-open. Do not copy plugin how-to
 (`notes.md` §69).
+**Hunk-review VOI (Empirical as 22-run cost table;
+2026-09-19 ~05:46):**
+[prune-review](https://github.com/shubhangi013/prune-review)
+— pay for generative review of a hunk iff Jev says it is
+worth looking at (and the safety escarpment does not force
+keep). Target ~20%; measured 1.18% with a 305% outlier
+*theirs*. Cost not quality. Do not copy pnpm
+(`notes.md` §70).
+**Intent-search VOI (Empirical as CLI; under
+construction):**
+[jev-intent-review](https://github.com/yottayoshida/jev-intent-review)
+— pay to judge a place the diff did not touch iff the
+stated intent applies there. UNKNOWN is cheaper than a
+false VERIFIED. Empty search ≠ proof (`notes.md` §70).
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs
@@ -676,6 +690,20 @@ separates p=1.0; binary Choice without an escape is
 lexically biased (red 0.67–0.85). Score exploratory
 (severe conflict 2.04 vs no-evidence 3.95). Schema is
 the interface. License null. `notes.md` §69.
+**BBQ stereotype / uncertainty as SDT (Empirical as
+full 58,492 *theirs*; 2026-09-19 ~05:46):**
+[jev-bbq-experiment](https://github.com/simonmesmith/jev-bbq-experiment)
+— Jev 1.13.0 **56,900 / 97.28%**; amb 99.96% / inf
+94.60%; BBQ bias **0.04 / 0.34**; **$0.3429 / 7.75 min**.
+12 of 13 ambiguous errors stereotype-aligned;
+informative misses mostly `unknown` (1,487 / 1,579).
+Order diagnostic 1/484 (0.21%). Dataset CC BY 4.0 BBQ.
+License null. **Not a general bias cert** — English/U.S.
+QA template does not certify hiring/lending/healthcare.
+Always-unknown would score 50%; 97.28% is not abstention
+theater. Pair with
+[system-one-responsible-ai](https://github.com/david-j-lustig/system-one-responsible-ai)
+(size-0 framing stub). `notes.md` §70.
 
 ## 8. Control structure → sensor ≠ constraint (Leveson)
 
@@ -779,6 +807,20 @@ clinical. `notes.md` §67.
 §67):** grants stay in code beside turnstile (runtime)
 and skillranker (advisory). Same doctrine, different
 hole. `notes.md` §62, §67.
+**Conversational constraint sensor (Empirical as
+79-session bench; 2026-09-19 ~05:46):**
+[pi-heed](https://github.com/Nyarlathoteppppp/pi-heed)
+— user constraints persist as structured state across
+compaction; replayed **without** calling Jev again.
+Jev classifies KEEP/LIFT/…; **never writes policy**.
+Side-effecting calls checked before they run. Fail-open.
+Shadow default. *Theirs:* recall **98.5%** / false
+block **0.0%** / lifecycle 100% / task success 98.7% /
+**$0.000058**; mid-session rule change 8/13 off vs
+0/13 on. Distinct from actiongate (RBAC/schema
+authority) — this is *what the user meant* surviving
+the context window. Do not copy `pi install`
+(`notes.md` §70).
 
 ## 9. Search / control loops → one substituted classifier step
 
@@ -795,10 +837,14 @@ estimates named probabilities; the controller is a table with memory.
 agent; Jev interprets evidence; code owns freshness/limits; default
 recovery **shadow**; steering never generates commands
 (`notes.md` §51). Distinguish from pi-jev-approver / pi-jev-context.
-**Does not transfer**: Jev as the planner that picks its next tool in a
-loop; bandits without observed rewards; speculative depth without a
-simulator; PufferLib Ocean scores as a capability claim
-(`formal-methods.md` DST trio).
+**Does not transfer**: Jev as the planner-writer that picks its next
+tool *and writes* the call; bandits without observed rewards;
+speculative depth without a simulator; PufferLib Ocean scores as a
+capability claim (`formal-methods.md` DST trio). **Does transfer as a
+split** ([jeffrey](https://github.com/thomasbrueggemann/jeffrey)): Jev
+owns next-tool / progress / risk / done; the LLM **only fills args**;
+the loop is Jev→tool→Jev. Pick ≠ fill. Mapping §9 still rejects the
+fused planner.
 
 ```text
 loop     = yours (beam / funnel / stages / MCTS / incident command)
@@ -808,7 +854,16 @@ estimate ≠ measure — irreversible milestones concede only to the probe
 ```
 
 **Example (Empirical):** jev-mcts grounded vs speculative fidelity in
-types; probes-only concession (mapping §5). **Beyond SWE (Hypothesis):**
+types; probes-only concession (mapping §5).
+**Decider ≠ executor (Empirical as README; 2026-09-19 ~05:46):**
+[jeffrey](https://github.com/thomasbrueggemann/jeffrey) — the
+*algorithm* is the agent loop; the substituted classifier step is
+next-tool / progress / risk / done. Arg fill is generation, not the
+classifier. Risk Score ≥ 0.5 pauses mutating tools. Stuck ladder:
+withhold the looping tool, re-ask Jev (2 Jev / 0 steps). Distinct
+from jev-handoff (typed baton around an existing host) and
+browser-jev (Playwright executes). Do not copy npm (`notes.md` §70).
+**Beyond SWE (Hypothesis):**
 snowball citations ("still on-question?"); sales stages ("still a real
 opp?" — amount and close date stay exact); cook/rest/check ("looks done?"
 — thermometer is the probe). **Counterexample**: a weekly LLM summary of

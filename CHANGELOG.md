@@ -655,6 +655,52 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   6-row schema. Census: Awesomejev **flat 561/27007**; tracker
   likes **43→45**; SemIf **1714** (+10); jevlike **926** (+3).
   No wrapper. No invented metrics.
+- Hourly ~05:46 Boise 2026-09-19 (`research/notes.md` §70): Archer
+  still Watch. Do not re-fold §50–§69 HIGH except sibling
+  contrast / jevassert landing / prune-review, intent-review,
+  laya-jolt, local-jev deltas. **Record/replay CI LANDED**
+  ([jevassert](https://github.com/dtduc-git/jevassert);
+  Apache-2.0; accuracy/ECE/Brier/cost/latency offline from
+  recordings; exit 0/1/2; McNemar; Action `@v0`).
+  **Evidence-gated packs now have a runner**
+  ([jev-packs](https://github.com/dtduc-git/jev-packs);
+  size 0→458; 2,990-case matrix *theirs*: Jev/Sonnet 5
+  accuracy tie Δ≤0.018, Jev better calibrated 7/9, ~250×
+  cheaper; sms-spam this-pass 0.953/ECE 0.040).
+  **Failure-finding arena**
+  ([jevarena](https://github.com/chenmingtang830/jevarena);
+  Apache-2.0; **≠** meetr1912/jev-arena; harness not findings).
+  **BBQ stereotype/uncertainty/cost**
+  ([jev-bbq-experiment](https://github.com/simonmesmith/jev-bbq-experiment);
+  license null; 58,492; 97.28%; bias 0.04/0.34; $0.3429 /
+  7.75 min *theirs*; not a general bias cert).
+  **Decider ≠ executor**
+  ([jeffrey](https://github.com/thomasbrueggemann/jeffrey);
+  MIT; Jev next-tool/progress/risk/done; LLM fills args;
+  pick ≠ fill). **Sentence-as-rule lint**
+  ([jevlint](https://github.com/mizchi/jevlint); MIT;
+  ast-grep × `ask:`; 13/15 1.00/1.00 *theirs*; **≠**
+  huntedman/JevLint). **VOI hunk prune**
+  ([prune-review](https://github.com/shubhangi013/prune-review);
+  22-run 1.18% with 305% outlier; ~20% target; cost not
+  quality). **Whole-repo intent**
+  ([jev-intent-review](https://github.com/yottayoshida/jev-intent-review);
+  VERIFIED/VIOLATION/UNKNOWN; empty search ≠ proof).
+  **GLiNER2 System One spec**
+  ([Jev_from_GLiNER2](https://github.com/Eran-BA/Jev_from_GLiNER2);
+  spec-only; ≠ jeff). **Open replica substrates**
+  ([grande](https://github.com/bokuweb/grande) JGLUE 0.614/
+  0.853 + 270M 0.710/0.710 *theirs*;
+  [laya-jolt](https://github.com/jlt-commons/laya-jolt)
+  byte parity; [JEV-CPU](https://github.com/leesk212/JEV-CPU)
+  PoC, Meanblock 404; [local-jev](https://github.com/kunchenguid/local-jev)
+  done 30%/shape 57%). **Persist constraints**
+  ([pi-heed](https://github.com/Nyarlathoteppppp/pi-heed);
+  98.5%/0 false block *theirs*). Toolbelt note:
+  actiongate slogan already §64. MED:
+  [system-one-responsible-ai](https://github.com/david-j-lustig/system-one-responsible-ai)
+  size-0 framing stub. Census not re-derived. No wrapper.
+  No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

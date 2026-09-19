@@ -351,7 +351,7 @@ Rules:
 | SLO routing latency cost (sync Jev vs local features) | [slo-router](https://github.com/zeeshan8281/slo-router) | Live Jev vs `slo_no_jev` on sim backends. Same routes (fast 4 / strong 4) and 100% accuracy; p95 E2E **77.93 → 490.38 ms** (~6.3×). Jev feature p50 453.58 / p95 1257.50 ms. 16/16 Jev calls; no lexical fallbacks. 3/8 task-label disagreements did not change routes. Eight-row demo is **not** a benchmark. License null. *Their* integration card |
 | Effect-based shell-gate certification | [construct-auto-classifier](https://github.com/godspede/construct-auto-classifier) | Main 113 + blind 82; 5 passes; **975 decisions/model**. Jev: **0** dangerous allowed, 100% caught, 99.5% correct, $0.047/1k. Every chat model leaked 16–104 dangerous. Only Jev certified. Through the whole gate, not a Harbor taskset |
 | Docs-derived instruct seed | [INSTRUCT_JEV](https://huggingface.co/datasets/ctaxnagomi/INSTRUCT_JEV) | 119 rows (47 choice / 51 noul / 21 score); 24 typed question blocks / 7 typed answers. MIT. Open-replica / jevals seed. Not a bake-off |
-| Evidence-gated question packs | [jev-packs](https://github.com/dtduc-git/jev-packs) | Nine packs `verified` on pinned `jev-1.13.0` *theirs* (single-run). citation-support 800 / acc 0.919 / ECE 0.022; banking-intent 150 / 0.840 / 0.090. `unknown` mandatory. jevassert **not released** (404). CC0. Not a Harbor taskset |
+| Evidence-gated question packs | [jev-packs](https://github.com/dtduc-git/jev-packs) + [jevassert](https://github.com/dtduc-git/jevassert) | Nine packs `verified` on pinned `jev-1.13.0` *theirs*. **Runner LANDED** (Apache-2.0; was 404 §64). Record/replay CI: accuracy/ECE/Brier/cost/latency offline; exit 0/1/2; McNemar. First matrix 2,990 cases: Jev/Sonnet 5 accuracy tie (Δ≤0.018); Jev better calibrated 7/9; ~250× cheaper. sms-spam this-pass 0.953/0.040. `unknown` mandatory. CC0 packs. Not a Harbor taskset |
 | Ranking ≠ calibration (human annotations) | [does-jev-confidence-mean-anything](https://github.com/Adilmp/does-jev-confidence-mean-anything); [jevcal](https://github.com/Adilmp/jevcal) | 8,000 judgments, `jev-1.13.0`, $0.05. AUC **~0.91**; stated **~75%** vs human **~10%**. Recalibration removes **~96% ECE**, AUC unchanged. `natural`/tightened ECE 0.156 → 0.006. jevcal: ~100 rows (94% of error). ECE gameable (constant base-rate ECE 0). License null / MIT. One domain; do not cite `threat` (n=1) |
 | Hot-click CU vs per-step LLM | [ego-jev](https://github.com/jiangkoumo/ego-jev) | Alternate 3-round medians *theirs*: HN 4.9 s vs 9.7 s; wiki 5.4 s vs 10.1 s (~2×). n=3; high variance (control 7.3–22 s). **Not a benchmark.** MIT |
 | Verbatim compact vs truncate vs summarize | [jev-compactor](https://github.com/edwardyen724-g/jev-compactor) | Earlier vs-Sonnet card: 64.5% / 366 ms / 4 of 4 (`notes.md` §65). Later product-arm table *theirs*: **73%** (53–76%) / **350 ms** / $0.0004 / **4 of 4** vs Anthropic 86%/16.8s/3 of 4, Codex 85%, OpenCode 85%, Gemini 61%/4 of 4. 61k session 95.4%/593ms/$0.0014. 30–250× cheaper. Two synthetic sessions, not a survey. MIT |
@@ -372,7 +372,15 @@ Rules:
 | Jev vs thinking-budget Qwen3.5 | [jev-frontier-100](https://github.com/softpudding/jev-frontier-100) | 100×3; Jev **77.0%**; 4B off 56.0% / 512 78.3% / 2048 **96.7%** (+12.7 to +26.7). 2B/2048 82.0% (−2.3 to +12.3). Exploratory, not preregistered. MIT. Not a ceiling |
 | OOD calibration / sign by type | [jev-ood-calibration](https://github.com/scienthoon/jev-ood-calibration) | 900 synthetic + 3,721 public; ~$0.06. Public OpenBookQA ECE 0.024 / T 0.96. Synthetic all ECE **0.107 = 4.4×** floor; priority 44.7% / mean p 0.74 / T **3.40**; boolean T **0.66**. MIT. Gateway has no model version |
 | Memory-lease invalidation | [invalidate](https://github.com/chopratejas/invalidate) | 157 labeled cases *theirs*: 89.2% strict / 97.5% lenient / **0 of 157** false invalidations. Six Nouls then code. Apache-2.0. MED |
-| Cost-aware PR prune (pilot) | [prune-review](https://github.com/shubhangi013/prune-review) | 22 paired runs: winning-only 27.9% (post hoc); all 22 incl. 305% outlier **1.18%**; excl. outlier 15.9%. Cost not quality. Source preview |
+| Cost-aware PR prune (pilot) | [prune-review](https://github.com/shubhangi013/prune-review) | 22 paired runs: winning-only 27.9% (post hoc); all 22 incl. 305% outlier **1.18%**; excl. outlier 15.9%. Cost not quality. Source preview. Size 365 / 1★ this pass |
+| Whole-repo intent (CLI, under construction) | [jev-intent-review](https://github.com/yottayoshida/jev-intent-review) | VERIFIED/VIOLATION/UNKNOWN/NOT_APPLICABLE. Empty search ≠ proof. missed-path 7–8 req / 2–3 s; omamori #559 31 req / 14 s *theirs*. Action not written |
+| Failure-finding arena (not a leaderboard) | [jevarena](https://github.com/chenmingtang830/jevarena) | Apache-2.0 TS. Public preview. JevJudge-Bench harness **not measured findings**. **≠** meetr1912/jev-arena |
+| BBQ stereotype/uncertainty/cost | [jev-bbq-experiment](https://github.com/simonmesmith/jev-bbq-experiment) | 58,492 Q; Jev 1.13.0 **97.28%**; amb 99.96% / inf 94.60%; bias 0.04 / 0.34; **$0.3429 / 7.75 min** *theirs*. 12/13 amb errors stereotype-aligned. Order diagnostic 1/484. License null. Not a bias cert |
+| Sentence-as-rule lint corpus | [jevlint](https://github.com/mizchi/jevlint) | 13/15 naming/comment rules **1.00/1.00** *theirs*; comment-describes-block ships unseparated. Review 2 req / $0.00013. **≠** huntedman/JevLint |
+| Rust/WebGPU System One (JGLUE) | [grande](https://github.com/bokuweb/grande) | E2B zshot JNLI **0.614** ECE 0.252→**0.088** T=2.81; JCQA **0.853**. 270M **0.710/0.710**. Isolation 0.098/0.996. Packed Δmax 7e-5. License null. Softmax ≠ Noul until T |
+| Clojure Laya byte parity | [laya-jolt](https://github.com/jlt-commons/laya-jolt) | Byte-identical to Python `system_one` on README quickstart *theirs*. ~1e-7 last-digit drift. Apache-2.0. Was empty skip §61 |
+| ONNX ModernBERT vs live Jev | [local-jev](https://github.com/kunchenguid/local-jev) | 136 checkpoints *theirs*: done **30%** / shape **57%** / r **−0.06**; gold done 26% vs Jev 87%; 112 min vs 21 s. Confidence omitted. Not equivalence |
+| Persist constraints (pi) | [pi-heed](https://github.com/Nyarlathoteppppp/pi-heed) | 79 sessions / 261 labelled: v0.8.0+Jev recall **98.5%** / false block **0.0%** / $0.000058 *theirs*. Mid-session rule change 8/13 off vs 0/13 on. Fail-open |
 | Never-confidently-wrong protocol (TLA+ + chaos) | [jev-labs](https://github.com/copyleftdev/jev-labs) | 1,080 golden: 0 wrong under none/realistic/severe *theirs* (severe 314/46 escalate). Rule of three <0.28% at 95% — not a proof of zero. TLC 1,049,750 states / 0 errors. 1,490 calls `jev-1.13.0`. Synthetic, not clinical. MIT |
 | Sureness metrics vs Jev `confidence` | [how-sure-is-jev](https://github.com/adarc8/how-sure-is-jev) | 60 live answers: Choice confidence = max_prob to 3 decimals. 75/25 → 0.5 vs entropy 0.19. Bands are policy. Zero-dep MIT |
 | Jev-class bake-off v1.1 | [jevbench](https://github.com/fstandhartinger/jevbench) | 314 decisions. Main Score 0.6/0.2/0.2. Jev 1.13.0 **87.6** / Cap 97.8 / $0.0259/1k *theirs*. Calibration **reported, not scored**. Native vs verbalized. Partial runs not ranked. Unofficial MIT |
@@ -615,14 +623,18 @@ class truth. Do not copy bun (`notes.md` §63).
 [INSTRUCT_JEV](https://huggingface.co/datasets/ctaxnagomi/INSTRUCT_JEV)
 119 rows (47/51/21); 24 typed questions / 7 typed answers.
 jevals-shaped open replica. MIT.
-**Evidence-gated packs (Empirical as registry tables;
-Harbor/jevals practice; 2026-09-19 ~00:39).**
+**Evidence-gated packs (Empirical as registry tables +
+landed runner; Harbor/jevals practice; 2026-09-19 ~05:46).**
 [jev-packs](https://github.com/dtduc-git/jev-packs): nine
-packs `verified` on pinned `jev-1.13.0` *theirs*
-(single-run). No `evidence.md`, no endorsement. `unknown`
-mandatory. Named runner jevassert is **not released**
-(404). CC0. Distinct from INSTRUCT_JEV (no evidence gate)
-and dinostomp (instrument). Do not copy uvx (`notes.md` §64).
+packs `verified` on pinned `jev-1.13.0` *theirs*.
+[jevassert](https://github.com/dtduc-git/jevassert) **LANDED**
+(Apache-2.0; was 404 §64). `check` is offline from
+recordings; accuracy/ECE/Brier/cost/latency; exit 0/1/2;
+McNemar. Matrix 2,990 cases: Jev/Sonnet 5 accuracy tie;
+Jev better calibrated 7/9; ~250× cheaper *theirs*.
+`unknown` mandatory. CC0. Distinct from INSTRUCT_JEV
+(no evidence gate) and dinostomp (instrument). Do not
+copy uvx (`notes.md` §64, §70).
 **Ranking ≠ calibration (Empirical as human-annotated
 audit + tool).**
 [does-jev-confidence-mean-anything](https://github.com/Adilmp/does-jev-confidence-mean-anything):

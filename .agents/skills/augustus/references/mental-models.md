@@ -531,7 +531,7 @@ Use these as *existence proofs of a position*. Write your own card.
 | Constrained optimizer + S1 features | which backend meets quality + SLO at min cost | Judgment as a *feature*; solver owns floors (**Empirical as shape / negative**: slo-router p95 77.93→490.38 same routes *theirs*) | Never the sole hot-path gate; fail-open local features; eight-row demo is not a benchmark |
 | Privilege ≠ verdict | is this shell command safe | Effect semantics + independent risk Nouls (**Empirical**: construct-auto-classifier; Jev 0 dangerous / 975; chat leaked) | Fast-allow/deny prove; landed-script trust; headless ≠ auto-approve; fail-closed |
 | Attention filter / human-review VOI | do I need to look at what the agent did | Per-file Nouls; never blocks the agent (**Empirical as README**: rashedInt32/jev-lens; never green unless sure) | Not a permission gate; distinct from dizk/jev-lens pre-send views |
-| Measurement owns endorsement | is this question pack shippable | Evidence-gated accuracy/ECE/cost/latency on a pinned version (**Empirical**: jev-packs nine verified *theirs*) | No numbers → `provisional`; `unknown` mandatory; runner not released |
+| Measurement owns endorsement | is this question pack shippable | Evidence-gated accuracy/ECE/cost/latency on a pinned version (**Empirical**: jev-packs nine verified *theirs*; **jevassert landed** record/replay CI) | No numbers → `provisional`; `unknown` mandatory; `check` offline |
 | Jev supplies evidence, code owns authority | may this tool call run | Deterministic policy ALLOW/REVIEW/BLOCK; Jev is the sensor (**Empirical as slogan**: actiongate-jev) | Positive p never overrides a hard fail; fail-closed on irreversible classes if Jev is down |
 | Ranking ≠ calibration | can I threshold raw p as a frequency | AUC vs ECE/Brier vs human rates (**Empirical**: 8,000 judgments; stated ~75% vs human ~10%; ~96% ECE removed) | Recalibrate on *your* labels (`jevcal` ~100 rows); vendor "calibrated" often means rank-correlation |
 | Hot-click CU | next click / type from a viewport | Indexed element table → operation+target (**Empirical**: ego-jev; ~2× vs per-step LLM, n=3, not a bench) | Code owns observe/execute/`--until`; generator only for type; Jev `done` ≠ success |
@@ -548,6 +548,15 @@ Use these as *existence proofs of a position*. Write your own card.
 | Physical-world S1 | typed house questions | Sensors + automations (**Empirical**: HA-Jev 17★) | Not for locks/heaters/smoke; arithmetic in templates |
 | Open-Jev class | finite choice + prob without TypeSafe | LM/vision/voice; JevPick; `/v1/systemone` wire (**Empirical**: openvons) | NOTA; execute/confirm/reject; not a replica |
 | Judgment outside the store | semantic SQL over vanilla Postgres | CLI judges; DB sees ordinary SQL (**Empirical**: jevql) | Contrast pg-jev in-engine; cheap SQL first |
+| Record/replay eval | can CI gate accuracy+calibration+cost | Record once; replay offline (**Empirical**: jevassert) | Live calls belong in `record`, not in PR CI |
+| Failure-finding vs leaderboard | where does the judge fail | Reviewed atlas, not a winner crown (**Empirical as README**: chenmingtang830/jevarena; harness not findings) | Qualify vs meetr1912/jev-arena |
+| Stereotype / uncertainty / cost | does missing evidence leak a stereotype | Typed Choice + unknown option; report bias **and** accuracy (**Empirical**: BBQ 97.28% / 0.04 / 0.34 / $0.3429 *theirs*) | Not a general bias cert; 12/13 amb errors stereotype-aligned |
+| Decider ≠ executor | who picks the next act vs who writes args | Jev next-tool/progress/risk/done; LLM fills (**Empirical as README**: jeffrey) | Risk≥0.5 pause; stuck ladder; not a planner-writer |
+| Sentence-as-rule | does this named artifact contradict itself | Structural matcher × one sentence scored (**Empirical**: mizchi/jevlint 13/15 1.00/1.00 *theirs*) | Mechanical defects stay with the compiler; qualify vs huntedman/JevLint |
+| VOI admission (expensive review) | which hunks are worth a generative look | Typed per-hunk probabilities; safety keep-set in code (**Empirical as pilot**: prune-review 1.18% with 305% outlier *theirs*) | Cost ≠ quality; ~20% is a target not a result |
+| Whole-repo intent | does unchanged code still violate the ask | VERIFIED/VIOLATION/UNKNOWN (**Empirical as CLI**: jev-intent-review) | Empty search ≠ proof; observation window ≠ the diff |
+| Persist constraints | will "don't touch that" survive compaction | Structured policy + replay; Jev classifies meaning (**Empirical**: pi-heed 98.5%/0 false block *theirs*) | Jev never writes policy; fail-open |
+| Open replica substrates | same contract, different engine | Isolation / byte-parity / agreement tests (**Empirical**: grande JGLUE; laya-jolt golden; local-jev 30%/57%; JEV-CPU PoC) | Softmax ≠ Noul; spec ≠ product; Meanblock 404; Archer Watch |
 
 Rejected in every domain: replacing the ledger with a vibe; replacing
 the interlock with confidence; replacing the essay with a Noul;

@@ -78,7 +78,7 @@ never launder a Noul as a proof.
   constrained optimizer + S1 features (slo-router; never sole
   hot-path gate); effect-based shell gate (privilege ≠ verdict);
   attention filter / VOI (jev-lens; never blocks; never green unless sure);
-  measurement owns endorsement (jev-packs evidence-gated);
+  measurement owns endorsement (jev-packs evidence-gated + jevassert record/replay CI);
   Jev supplies evidence / code owns authority (actiongate-jev);
   ranking ≠ calibration (never hard-threshold raw p as frequency);
   hot-click CU (ego-jev; indexed table; S1 on click path);
@@ -111,9 +111,22 @@ never launder a Noul as a proof.
   Playwright executes, Jev chooses (browser-jev);
   OpenJev `/v1/decide` ≠ drop-in + SemIf runoff wire;
   conflict ≠ ignorance (named Choice escape);
-  decision-as-memory flywheel (DGUI_HYPERMEM-JEV)
+  decision-as-memory flywheel (DGUI_HYPERMEM-JEV);
+  record/replay CI (jevassert LANDED);
+  measurement owns endorsement now has a runner (jev-packs
+  2,990-case matrix; calibration+cost first-class);
+  failure-finding arena (jevarena ≠ jev-arena);
+  BBQ stereotype/uncertainty/cost (not a bias cert);
+  decider≠executor (jeffrey; pick ≠ fill);
+  sentence-as-rule lint (mizchi/jevlint ≠ huntedman/JevLint);
+  VOI hunk prune (prune-review ~20% cost target);
+  whole-repo intent VERIFIED/VIOLATION/UNKNOWN;
+  GLiNER2 System One spec ≠ replica;
+  open replica substrates (grande / laya-jolt / JEV-CPU /
+  local-jev measured not equivalent);
+  persist constraints across compaction (pi-heed)
 - `.agents/skills/augustus/references/applied-mappings.md` — context sieve,
-  exact-text keep/drop (extractive / pointer-not-generator; char-offset compaction; observed a11y/DOM controls; Bash stdout prune; verbatim session ledger / carryforward 0/4 tools≠use; classify-first MCP / jev-sift; Stagehand extract pick-and-copy; jevcumber meaning-as-spec; closed-vote JevOnly; host-owned waymode; jev-compactor framework-agnostic compact+gate 73% product-arm; dizk/jev-lens pre-send views; pi-om observational keep/kind), env triage (OpenSmoke + latch merge-gate; ci-gatekeeper pre-review typed gate; jev-preflight Stop-hook attention redirect, not a merge blocker), moderation/ranking (decision-native RAG evidence set; living class-pattern atlas; meaning-search without embeddings / jevgrep; meaning-grep jev-semgrep; evidence-packet jevex; measured RAG rerank vs generative rerank; sift ~$0.00003/post; ThinkyMiner/Winnow worth-your-attention VOI ≠ kevinpita/winnow), skill routing (route ≠ memory; session-sticky first-prompt lock; OMP/pi fail-open jev_route; OMP prompt suppression / omp-greenlight; skill-broker outline — Jev never grants access; slo-router constrained optimizer + S1 features; skillranker VOI / hook fail-open; jev-in-codex Codex MCP adapter; pi-jev-skill-bench Harbor roster-size harness; pi-jev-skill-suggestion strip-roster), capability kernel / human-confirmed gate (interlock vs toolgate; port-cleanup; permission vs probability; construct-auto-classifier privilege ≠ verdict + landed-script / headless≠auto-approve; actiongate-jev — Jev supplies evidence, code owns authority; turnstile — policy first, replay; seal — no seal no advance / coverage ledger; jev-labs — never confidently wrong; jev-handoff typed baton — gate never grants), decide→policy→LLM leftover cascade (jav-email-cascade), closed-vote computer-use (applied-mappings §9; ego-jev hot-click cousin; browser-jev Playwright executes Jev chooses)
+  exact-text keep/drop (extractive / pointer-not-generator; char-offset compaction; observed a11y/DOM controls; Bash stdout prune; verbatim session ledger / carryforward 0/4 tools≠use; classify-first MCP / jev-sift; Stagehand extract pick-and-copy; jevcumber meaning-as-spec; closed-vote JevOnly; host-owned waymode; jev-compactor framework-agnostic compact+gate 73% product-arm; dizk/jev-lens pre-send views; pi-om observational keep/kind), env triage (OpenSmoke + latch merge-gate; ci-gatekeeper pre-review typed gate; jev-preflight Stop-hook attention redirect, not a merge blocker), moderation/ranking (decision-native RAG evidence set; living class-pattern atlas; meaning-search without embeddings / jevgrep; meaning-grep jev-semgrep; evidence-packet jevex; measured RAG rerank vs generative rerank; sift ~$0.00003/post; ThinkyMiner/Winnow worth-your-attention VOI ≠ kevinpita/winnow), skill routing (route ≠ memory; session-sticky first-prompt lock; OMP/pi fail-open jev_route; OMP prompt suppression / omp-greenlight; skill-broker outline — Jev never grants access; slo-router constrained optimizer + S1 features; skillranker VOI / hook fail-open; jev-in-codex Codex MCP adapter; pi-jev-skill-bench Harbor roster-size harness; pi-jev-skill-suggestion strip-roster), capability kernel / human-confirmed gate (interlock vs toolgate; port-cleanup; permission vs probability; construct-auto-classifier privilege ≠ verdict + landed-script / headless≠auto-approve; actiongate-jev — Jev supplies evidence, code owns authority; turnstile — policy first, replay; seal — no seal no advance / coverage ledger; jev-labs — never confidently wrong; jev-handoff typed baton — gate never grants), decide→policy→LLM leftover cascade (jav-email-cascade), closed-vote computer-use (applied-mappings §9; ego-jev hot-click cousin; browser-jev Playwright executes Jev chooses; jeffrey decider≠executor), VOI hunk prune / whole-repo intent (prune-review / jev-intent-review), persist constraints (pi-heed; Jev never writes policy)
 - `.agents/skills/augustus/references/faq.md` — "just classification",
   stack replacement, Jev vs open head vs encoder vs LoRA vs constrained AR vs kev vs blackwood,
   wait-for-Archer, missing-other confident-wrong, soft project rules vs linter (Abide), extractive/pointer-not-generator, compaction summarize vs pointer, encoder vs Jev compaction, fail-closed keep_full, shadow-mode rollout, fail-open vs fail-closed wake vs CI gate, observe→score→act backend-agnostic, hybrid local decide + remote fill, DONE ≠ verified success, stdout prune vs session compaction, Cua-S1 vs TypeSafe Jev, plan ≠ execute / dry-run, local drop-in vs stub scorer, route ≠ memory, when-it-holds / extractable-from-state, decision-model vs constrained LLM, dual-process S1/S2, combinatorial grid ≠ extractive, GLiNER vs GLiClass vs CLIP, LLM-as-judge, in-engine vs CLI store,
@@ -136,7 +149,7 @@ never launder a Noul as a proof.
   hard-threshold raw p as frequency, Jev `done` ≠ browser success,
   never auto-train on the model's own hides, pointer compact ≠
   LLM summarize, combinators not a new model, AUC ≠ ECE / sign
-  by type, thinking-budget bake-off, local MLX one-pass ≠ Noul, never confidently wrong / TLA+ compose, no seal no advance, sureness vs max_prob, JevBench calibration not in Main Score, CI typed gate before expensive review, Codex MCP adapter, two jev-lens products, Stop-hook not merge blocker, tools≠use, openvons not TypeSafe, Noul not for locks/heaters, two Winnow products, OpenJev `/v1/decide` not drop-in, SemIf runoff ≠ replica, combinators rename + extended five, Noul conflict≠ignorance, jevcache fail-open, typed baton never grants
+  by type, thinking-budget bake-off, local MLX one-pass ≠ Noul, never confidently wrong / TLA+ compose, no seal no advance, sureness vs max_prob, JevBench calibration not in Main Score, CI typed gate before expensive review, Codex MCP adapter, two jev-lens products, Stop-hook not merge blocker, tools≠use, openvons not TypeSafe, Noul not for locks/heaters, two Winnow products, OpenJev `/v1/decide` not drop-in, SemIf runoff ≠ replica, combinators rename + extended five, Noul conflict≠ignorance, jevcache fail-open, typed baton never grants, jevassert record/replay CI, jevarena≠jev-arena, BBQ not a bias cert, jeffrey pick≠fill, jevlint≠JevLint, local-jev not equivalent, constraints survive compaction (pi-heed)
 
 - `.agents/skills/augustus/references/mappings.md` — classical-method
   mappings with boundaries, counterexamples, acceptance tests (including
@@ -172,7 +185,11 @@ never launder a Noul as a proof.
   ECE 0.062 *theirs* / FINDINGS 189; slo-router p95 77.93→490.38 same
   routes; construct-auto-classifier Jev 0 dangerous / 975; INSTRUCT_JEV
   119-row instruct seed; jev-packs nine verified packs on pinned
-  jev-1.13 (jevassert unreleased); does-jev-confidence 8,000 judgments
+  jev-1.13 + **jevassert LANDED** (2,990-case matrix; Jev/Sonnet 5
+  accuracy tie, Jev better calibrated 7/9, ~250× cheaper;
+  sms-spam 0.953/0.040); BBQ 58,492 / 97.28% / $0.3429 *theirs*;
+  jevlint 13/15 1.00/1.00; grande JGLUE 0.614/0.853; local-jev
+  done 30%/shape 57%; pi-heed 98.5%/0 false block; does-jev-confidence 8,000 judgments
   AUC ~0.91 / stated ~75% vs human ~10% / ~96% ECE removed;
   ego-jev n=3 medians ~2× vs per-step LLM; jev-compactor 64.5%/
   366ms/0 invented paths vs Sonnet summary, one session;
