@@ -945,6 +945,18 @@ v0.3.0 private. Compaction never modifies the on-disk
 session; GUI < threshold → unknown, never force-click.
 Distinct from omp-jev-extensions / jevons / pi-heed / pi-om.
 Do not copy `pi install` (`notes.md` §71).
+**Competing NAR agent-routing (Empirical as README_EN;
+audit, not endorsement; 2026-09-19 ~16:52):**
+[Cerebellum-2B](https://github.com/mkeco/Cerebellum-2B)
+(Apache LICENSE / GitHub SPDX other; **1★**; Hub
+`mkzero/Cerebellum-2B-*`) — pointer over caller-supplied
+candidates on `POST /v1/decide`. **Not** TypeSafe
+`/v1/systemone`; do not paste a Cerebellum URL into
+typesafe-sdk `base_url`. Wire-compat and agent-routing
+are **separate** Harbor axes. Claimed 94.92% vs Jev
+81.1% *theirs* is **unverified** — same discipline as
+openJev-verdict-2.0. `ActEscalate` ≥0.50 still soft.
+mkeco GitHub ≠ mkzero Hub. Skip Archer. `notes.md` §87.
 
 ## 6. Expensive observation router
 

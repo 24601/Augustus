@@ -93,7 +93,10 @@ below, next to the when-to-use table.
   code copies verbatim. **Not Jev, not a Noul, not a prose
   summarizer, not multimodal.** Same compaction hole as
   fast-jev-compaction / pi-jev-compaction (Jev Noul/Score backends);
-  Augustus stays backend-agnostic. Mutating tools and shell operators
+  **≠** pi-jev-compact **≠**
+  [zaycruz/fast-jev-compaction-pi](https://github.com/zaycruz/fast-jev-compaction-pi)
+  (dedicated Pi port of tamaratran/fast-jev-compaction;
+  `notes.md` §87). Augustus stays backend-agnostic. Mutating tools and shell operators
   are a hard `keep_full` envelope; low-confidence / invalid evidence
   fail closed to `keep_full` (the *reduction* is the irreversible
   act — contrast many fail-open Jev preference gates). Public default

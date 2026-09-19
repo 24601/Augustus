@@ -662,6 +662,30 @@ medicine/Cochrane; 2026-09-19 ~08:48):**
 found* is cheaper than a paraphrase. Human tick is the
 act that enters the review. **≠** egma-ai
 (`notes.md` §74).
+**Path-then-window VOI (Empirical as README; 2026-09-19
+~16:52):**
+[JevFind](https://github.com/Peu77/JevFind) — pay a path
+Noul first (`--file-threshold 0.25`); pay window Nouls
+only on surviving files (`--threshold 0.55`). Both still
+soft. `--file-threshold 0` when recall matters. Keyword
+still wins exact strings. **≠** jevex **≠** jev-semgrep
+(`notes.md` §87).
+**Frontier cascade VOI (Empirical as README; in-sample
+cut; 2026-09-19 ~16:52):**
+[jev-frontier-bench](https://github.com/manjunathshiva/jev-frontier-bench)
+— pay Fable only when Jev top p < 0.9. Cascade 82.5% at
+$4.41/1k *theirs* is **in-sample**. ChaosNLI JS 0.149
+worse than uniform 0.127. Confidence = top of
+probabilities, not a confidence field. **≠**
+jev-frontier-100 (`notes.md` §87).
+**Compaction-pi VOI (Empirical as README + bench;
+2026-09-19 ~16:52):**
+[fast-jev-compaction-pi](https://github.com/zaycruz/fast-jev-compaction-pi)
+— pay one keep/drop Noul per paired tool call; fail-open
+to pi's built-in LLM summary (no key / error / timeout /
+`minReductionRatio`). ~50× vs LLM summary *theirs*.
+**≠** pi-jev-compact **≠** pi-jev-compaction
+(`notes.md` §87).
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs
@@ -710,7 +734,7 @@ laundry separation *theirs*. Treat 0.9 as higher than
 — HA remains source of truth and execution; Jev typed;
 one bounded LLM handoff; allowlist / freshness /
 idempotency / post-state verify. **≠** HA-Jev. Not for
-locks/heaters (`notes.md` §87).
+locks/heaters. Leveson card: mapping §8 (`notes.md` §87).
 **Stop-hook attention (Empirical as owner-run smoke):**
 [jev-preflight](https://github.com/muse0509/jev-preflight)
 — 0.85 uncalibrated; fail-open; one reinspect. Criterion
@@ -1058,6 +1082,25 @@ now marks `FALLBACK`. The constraint is honesty about
 which model answered, not a better softmax.
 **rh-guard owns the eval-integrity gate**; this is the
 lived product cousin (`notes.md` §73).
+**HA remains execution (Empirical as README; 2026-09-19
+~16:52):**
+[ha-switchboard](https://github.com/grayslawson/ha-switchboard)
+— Jev is the SENSOR (typed answers); HA is constraint
+plus actuator (source of truth and execution). One
+bounded LLM handoff. Allowlist / freshness / idempotency
+/ post-state verify stay in code. **≠**
+[HA-Jev](https://github.com/AboveColin/HA-Jev) (SDT
+criterion in mapping §7). Not for locks/heaters. Skip
+Archer (`notes.md` §87).
+**Authorship / jevtest-as-merge-seal (rh-guard owns the
+gate cousin; 2026-09-19 ~16:52):**
+[jev-authorship-check](https://github.com/webstercharly/jev-authorship-check)
+named Choice `uncertain` is a sensor, not courtroom
+evidence. [jevtest](https://github.com/realZachi/jevtest)
+0.85 still soft; the 0.15–0.85 band fails both polarities
+— hard-gating a matcher as a merge seal is soundness
+theater. rh-guard owns the eval-integrity gate cousin
+(`notes.md` §87).
 
 ## 9. Search / control loops → one substituted classifier step
 
@@ -1108,6 +1151,25 @@ answer reader may. Do not copy `uv` (`notes.md` §81).
 the substituted classifier is 9–11 questions on a
 partial transcript. ASR stays off-model. Confirm is
 not a grant. Do not copy `npm` (`notes.md` §82).
+**Hybrid S1 / closed verb menu (Empirical as README;
+2026-09-19 ~16:52):**
+[anima3](https://github.com/hulryung-uo/anima3) — the
+*algorithm* is the tick loop + hard safety (HP 35%
+menu shrink); the substituted classifier is a pick
+among valid verbs. Qwen logprob **default**; jeff
+pluggable and confidently flat on magnitude. Scene is
+an a11y tree, not a screenshot. Do **not** invent Laya
+as a backend (user brief ≠ live README). Tests first:
+hulryung/jev-testbed. Skip Archer (`notes.md` §87).
+**Full-distribution optimizer (Empirical as README /
+mock Space; 2026-09-19 ~16:52):**
+[jevloop](https://huggingface.co/spaces/async-dime/jevloop)
+— the *algorithm* is UCB1+CEM; the substituted
+classifier is Jev as a **value function** over the full
+distribution, not argmax. **No LLM in the loop.** Mock
+mode is the Space default; do not quote mock-mode
+quality. **≠** Ax/DSPy (`optimizer-integration.md`;
+`notes.md` §87).
 
 ```text
 loop     = yours (beam / funnel / stages / MCTS / incident command)
