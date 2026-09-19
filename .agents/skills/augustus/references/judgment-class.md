@@ -673,6 +673,25 @@ local approximation — **not** behavioral equivalence."
 Jev; gold done 26% vs 87%; 112 min vs 21 s. Distinct from
 jev-local's stub and jeff's GLiFormer. MIT (`notes.md`
 §64, §70).
+**GitHub Next prompted-JSON `/v1/systemone` (Empirical as
+README + 1,200-request eval; 2026-09-19 ~08:56):**
+[`githubnext/localjev`](https://github.com/githubnext/localjev)
+— MIT; **261★**. Bun bridge: DiffusionGemma through
+ordinary Chat Completions; TypeSafe SDK drop-in
+(`jev-latest` / `jev-preview` aliases). **Wire-compat ≠
+logit-equiv:** the model emits a JSON probability vector;
+code validates/retries, normalizes, and computes
+entropy-based confidence. OpenJev
+([razorback16/openjev](https://github.com/razorback16/openjev))
+reads logits via structured-read vLLM extensions.
+**≠** [kunchenguid/local-jev](https://github.com/kunchenguid/local-jev)
+(ONNX hyphenated namesake). **≠** IamBusy/OpenJev
+`/v1/decide`. Bake-off *theirs* (prompted pipeline, not
+logits): Qwen3.6 short macro **76.7%**; Gemma 4 26B-A4B
+**75.0%**; DiffusionGemma **74.2%**; no definitive winner;
+do not treat as calibrated. LM Studio cannot load
+DiffusionGemma (18 Sep 2026). Do not copy bun / `.env`
+(`notes.md` §75).
 **Rust/WebGPU System One (Empirical as JGLUE + isolation;
 2026-09-19 ~05:46):**
 [`bokuweb/grande`](https://github.com/bokuweb/grande) —
@@ -800,6 +819,8 @@ laya-bench, decision-token LoRA), §48 (jev-local stub, laya-onnx),
 §64 (gqgs complete Laya ONNX; local-jev not equivalence),
 §70 (grande / laya-jolt / JEV-CPU / local-jev measured /
 GLiNER2 spec),
+§75 (githubnext/localjev prompted JSON ≠ structured
+logit read; ≠ kunchenguid/local-jev),
 §71 (openJev-verdict-2.0 competing NAR as claim-audit ≠
 IamBusy/OpenJev),
 §49 (boundary map; DMB vs constrained LLMs; von; open-alternative-jev). Before

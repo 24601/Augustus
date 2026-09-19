@@ -216,3 +216,8 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     checks "does this line itself answer?"; *Not found* is an answer;
     the human tick is the product. Full cards: `applied-mappings.md`
     §2, `mixed-architecture.md`.
+15. **Prompted-JSON wire** (githubnext/localjev, ≠ kunchenguid/local-jev):
+    the TypeSafe SDK talks to a local `/v1/systemone`; the model
+    *writes* probabilities rather than exposing logits. Entropy
+    confidence is computed in code from that vector. Full cards:
+    `judgment-class.md`, `mixed-architecture.md`, `validation.md`.

@@ -578,6 +578,9 @@ Use these as *existence proofs of a position*. Write your own card.
 | Evidence-synthesis pointer | which line in the paper is the quote? | Jev picks ids; code copies verbatim (**Empirical as README**: choxos/jev-reviewer **12★**; 18-q **4.6 s / $0.0101** *theirs*) | **≠** egma-ai attention. *Not found* is an answer. Spot check ≠ validation |
 | Two-pass relative + absolute | which line, and does that line itself answer? | Choice (+ none) then per-line Noul (**Empirical**: choxos; quotes Noul ≥ 0.5 *theirs*) | Multi-row tables need both; 0.5 is *theirs* |
 | Human check as productized judgment | may this quote enter the review? | Tick/edit; checked never overwritten (**Empirical as README**: choxos) | Jev SENSOR; reviewer constraint. Not optional chrome |
+| Wire-compat ≠ logit-equiv | does `/v1/systemone` mean the same p? | Prompted JSON + entropy-conf vs structured logit read (**Contract**: githubnext/localjev vs razorback16/openjev) | SDK drop-in is the wire. JSON-valid ≠ picked-right. **≠** kunchenguid/local-jev |
+| Institutional open-replica | who ships the interchange? | GitHub Next local Bun bridge (**Empirical as product**: githubnext/localjev **261★**) | Legitimacy ≠ quality headline. Softmax / generated JSON ≠ Noul |
+| Prompted-JSON bake-off | which local backbone on this *pipeline*? | Frozen AG News/BoolQ/SST-5; 1,200 req; caveats first (**Empirical as eval**: Qwen3.6 76.7% / Gemma 26B 75.0% / DiffusionGemma 74.2% short *theirs*) | No definitive winner (2/120). Not logits. Not calibrated. Not a Harbor taskset |
 
 Rejected in every domain: replacing the ledger with a vibe; replacing
 the interlock with confidence; replacing the essay with a Noul;

@@ -436,6 +436,12 @@ Architecture notes, not an npm / relay catalog. `notes.md` §74. **Delta of §48
 
 - **choxos/jev-reviewer** — MIT; **12★**; https://jevreviewer.xera.ac. Local-first Cochrane/PRISMA extraction. Jev picks line ids; code copies verbatim. Two-pass Choice + Noul (quotes ≥ 0.5 *theirs*). *Not found* is an answer. Human tick never overwritten. 18-q **4.6 s / $0.0101** *theirs* (spot check, not a validation study). Do not copy `npm start` / `.env`.
 
+### User-provided ~08:56 Boise 2026-09-19 / 14:56 UTC (githubnext/localjev — wire-compat ≠ logit-equiv)
+
+Architecture notes, not a bun / `.env` catalog. `notes.md` §75. Skip Archer. Always write **githubnext/localjev**. **≠** kunchenguid/local-jev.
+
+- **githubnext/localjev** — MIT; **261★**; GitHub Next. Local Bun `POST /v1/systemone` on DiffusionGemma via Chat Completions; TypeSafe SDK drop-in. Prompted JSON probs + entropy confidence — **not** razorback16 structured-read logits. 1,200-req bake-off *theirs* (M5 Max): Qwen3.6 **76.7%** / Gemma 4 26B-A4B **75.0%** / DiffusionGemma **74.2%** short macro; no definitive winner; do not treat as calibrated. LM Studio cannot load DiffusionGemma. Do not copy bun / `.env`.
+
 Census **not re-derived**. Archer still NOT landed.
 
 See `references/mixed-architecture.md` in the skill. Class-level family

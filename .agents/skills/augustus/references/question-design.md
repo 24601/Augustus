@@ -88,6 +88,8 @@ request, and treat a stale pin as a prior, never a setting.
 | Paraphrased "quote" from a paper | Generator invented the excerpt | Point at line ids; copy verbatim; *Not found* is an answer ([choxos/jev-reviewer](https://github.com/choxos/jev-reviewer), ≠ egma-ai). `notes.md` §74 |
 | One pass on a table with two Age rows | Relative Choice is not an absolute check | Two-pass: which-line Choice, then "does this line itself answer?" Noul. `notes.md` §74 |
 | Unchecked extraction entered the review | Human tick skipped as chrome | Checked answers never overwritten; tick is the product. `notes.md` §74 |
+| LocalJev JSON p used as a Noul | Self-reported vector ≠ logit read | Calibrate on *your* labels; wire-compat ≠ logit-equiv ([githubnext/localjev](https://github.com/githubnext/localjev), ≠ kunchenguid/local-jev). `notes.md` §75 |
+| "localjev" without the owner | Namesake collision | Always **githubnext/localjev** (Bun Chat Completions) vs **kunchenguid/local-jev** (ONNX ModernBERT). `notes.md` §75 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

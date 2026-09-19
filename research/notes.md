@@ -10227,3 +10227,165 @@ extractive; `validation.md` (spot-check table);
 `composition-algebra.md`; `agent-self-assessment.md`
 (checked quotes never overwritten). Hunches labeled.
 No wrapper.
+
+## 75. User-provided signal — githubnext/localjev (2026-09-19 ~08:56 Boise / ~14:56 UTC)
+
+Docs-only into PR #2. **Skip Archer.** Do **not**
+re-fold §50–§74 HIGH except sibling contrast
+(`kunchenguid/local-jev` ONNX namesake; razorback16
+structured-read OpenJev / djev-spark; IamBusy/OpenJev
+`/v1/decide`; jeff / semif-serve / chakuho / jevinf /
+jevmlx wire-compat family). Hunches labeled. No
+wrappers, `bun install`, `.env`, `TYPESAFE_BASE_URL`
+how-to, copied ports, or invented metrics. TypeSafe
+Jev remains the exemplar — this signal is
+**institutional local `/v1/systemone` interchange**,
+not a TypeSafe how-to.
+
+**CRITICAL NAME LOCK.** Always write
+**`githubnext/localjev`**. This is **not**
+[kunchenguid/local-jev](https://github.com/kunchenguid/local-jev)
+(ONNX ModernBERT approximation; done **30%** / shape
+**57%** *theirs*; `notes.md` §70). Hyphen vs no hyphen
+is load-bearing.
+
+Receipts: user-provided SIGNAL + live GitHub README SHA
+`39939e6` and eval
+`docs/evaluation-results-2026-09-18.md` SHA `418cae7`
+this pass. MIT; **261★** (user SIGNAL had 253; hourly
+watch 255 — live this pass); 14 forks; TypeScript; created
+2026-09-18T16:59:55Z; pushed 2026-09-18T20:19:02Z.
+GitHub Next org.
+
+Meaning: **(1) wire-compatible ≠ logit-equivalent** —
+TypeSafe SDK drop-in (`POST /v1/systemone`) but
+probabilities are **prompted JSON**, validated/retried,
+then normalized + **entropy confidence**; OpenJev
+([razorback16/openjev](https://github.com/razorback16/openjev))
+reads logits via unmerged vLLM structured-read
+(`diffusion_seed_canvas`, `diffusion_read_only`, token
+logprobs); **(2)** GitHub Next shipping this
+**legitimizes the local System One interchange**;
+**(3)** Harbor-shaped bake-off AG News / BoolQ / SST-5,
+1,200 requests, caveats first — Gemma 4 26B-A4B and
+Qwen3.6 strongest in that **small sample** *theirs*,
+**no definitive winner**; **(4)** runner gap — LM Studio
+still cannot load DiffusionGemma; swapping Chat
+Completions hosts is **not** OpenJev parity; structured-
+read primitives are the path. Evaluate calibration on
+*your* labels before consequential use.
+
+### HIGH
+
+1. **[`githubnext/localjev`](https://github.com/githubnext/localjev)**
+   — **NEW vs prior folds.** MIT; **261★**. Local Bun
+   `POST /v1/systemone` bridge to DiffusionGemma through a
+   **normal** OpenAI-compatible Chat Completions endpoint
+   (defaults *theirs*: oMLX `127.0.0.1:8000`, model
+   `diffusiongemma-26B-A4B-it-4bit`, LocalJev `:8080` —
+   **do not copy as a recipe**). Accepts `jev-latest` /
+   `jev-preview` aliases so TypeSafe SDK defaults work.
+   **≠** TypeSafe-hosted Jev. **≠** Archer.
+
+   **Wire-compat ≠ logit-equiv (Contract as README).**
+   Path: translate `state` + typed questions →
+   classification prompt → model emits a JSON probability
+   scalar/vector → validate + retry malformed →
+   normalize → Jev-shaped Choice / expected Score /
+   entropy-based confidence. README *theirs*: "This is
+   wire-compatible, but not mathematically equivalent to
+   OpenJev's logit read. The probabilities are
+   generated/self-reported by the model rather than read
+   directly from its logits. Evaluate their calibration
+   on your own workload before relying on them for
+   consequential decisions." **Hunch:** entropy-as-
+   confidence is a *spread* statistic on a generated
+   vector, not a proper-scoring Noul. JSON-schema-valid
+   ≠ picked-right (type-safe ≠ correct cousin).
+
+   **Harbor-shaped bake-off (Empirical as evaluation-
+   results-2026-09-18; not a Harbor taskset).** 1,200
+   measured requests in ~23.5 minutes on Apple M5 Max
+   64 GiB, oMLX 0.6.4, Bun 1.4.0 *theirs*. Five 4-bit
+   models × 120 gold labels × 2 input lengths. Tests the
+   **prompted JSON-probability pipeline**, **not** direct
+   logits or single-pass inference. Short-input macro
+   *theirs*: Qwen3.6-35B-A3B **76.7%** (AG News
+   **90.0%**); Gemma 4 26B-A4B **75.0%** (SST-5 MAE
+   **0.533**); DiffusionGemma 26B-A4B **74.2%** (BoolQ
+   **87.5%**). Qwen vs Gemma 26B is **two** correct
+   answers of 120 — not a statistically clear winner.
+   Long-input (2,048 unrelated background words; not a
+   natural long-document task): Gemma 26B and Qwen
+   **tie 69.2%** macro; every model's macro declined;
+   E4B SST-5 50% → **12.5%**. JSON correctness ≠
+   semantic correctness (E2B retried 21/120 longer
+   requests; three all-zero). **Do not treat these
+   outputs as calibrated probabilities** (high conf on
+   wrong BoolQ → large NLL; 40 samples/task; noisy).
+   Serving default has **not** been changed off
+   DiffusionGemma. Contamination possible; no
+   multi-question batching in this matrix.
+
+   **Runner gap (Contract as README, 18 Sep 2026).**
+   LM Studio still tracked open
+   (`lmstudio-ai/mlx-engine#336`,
+   `lmstudio-ai/lmstudio-bug-tracker#2037`): MLX fails
+   to load `diffusion_gemma`; llama.cpp unknown
+   architecture. Even after ordinary generation, a Chat
+   Completions host keeps the prompted-prob path.
+   Structured-read primitives (seeded canvases, read-only
+   denoising, selected-token logits) are the path to
+   OpenJev parity — or run OpenJev's patched vLLM on
+   NVIDIA. Cousin [djev-spark](https://github.com/mmastrac/djev-spark)
+   already §36 (structured-read DiffusionGemma on Spark).
+   **≠** [IamBusy/OpenJev](https://github.com/IamBusy/OpenJev)
+   `/v1/decide`.
+
+   **Institutional interchange.** GitHub Next publishing
+   a TypeSafe-SDK-shaped local surface is a **class
+   legitimacy** event, not a quality headline. Place it
+   beside jeff (encoder wire), semif-serve (runoff wire),
+   jevinf (argmax-parity engine), chakuho (1-token
+   logprob), jevmlx (MLX schema→JSON): same *hole*
+   (local `/v1/systemone`), different *probability
+   physics*. Softmax / generated JSON / entropy-conf ≠
+   Noul until labelled calibration.
+
+   **Not.** Not Archer. Not TypeSafe-hosted Jev. Not
+   OpenJev logit-equivalent. Not kunchenguid/local-jev.
+   Not omni / multimodal. Not a hard agent gate. Do not
+   copy `bun install`, `.env`, `LOCALJEV_*`, or SDK env
+   as a recipe.
+
+### Skip / already folded / access notes
+
+- **kunchenguid/local-jev** — already §70. Name lock
+  only. ONNX NLI approximation, not a Bun Chat
+  Completions bridge.
+- **djev-spark / diffusion structured reads** — already
+  §36. Sibling: structured-read vs prompted JSON on the
+  same model family.
+- **IamBusy/OpenJev, semif-serve, jeff, chakuho,
+  jevinf, jevmlx** — already wire-compat family.
+  Sibling contrast only.
+- **classifier-dev** — already §73. Public hosted
+  classification API, not a local replica.
+- **choxos/jev-reviewer** — already §74. Different
+  product (evidence extractor).
+- Archer Hume open decision-model: still Watch. **Skip
+  Archer** this fold.
+
+### Curated status
+
+Census **not re-derived**. Archer still **NOT landed**.
+
+### Cross-links
+
+Cards: `judgment-class.md` (prompted-JSON `/v1/systemone`;
+name lock); `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`validation.md` (1,200-request caveats); `methods-catalog.md`;
+`toolbox-mapping.md`; `composition-algebra.md`;
+`question-design.md`; `mappings.md` §7 (self-reported p).
+Hunches labeled. No wrapper.

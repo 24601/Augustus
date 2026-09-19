@@ -1358,14 +1358,18 @@ eslint-plugin-jev. `notes.md` §26, §70.
 
 Only as a **wire**. grande (Rust/WebGPU), laya-jolt
 (Clojure byte-parity Laya), JEV-CPU (SemIf on CPU;
-Meanblock 404), local-jev (ONNX ModernBERT; done **30%** /
-shape **57%** vs Jev *theirs*), OpenJev `/v1/decide`,
-semif-serve runoff, jeff GLiFormer, and the GLiNER2 spec
-are **class substrates**. Softmax ≠ Noul until calibrated
-on your labels. Interface compatibility ≠ replica. The
+Meanblock 404), kunchenguid/local-jev (ONNX ModernBERT;
+done **30%** / shape **57%** vs Jev *theirs*),
+**githubnext/localjev** (prompted JSON + entropy
+confidence; wire-compat ≠ logit-equiv), OpenJev
+`/v1/decide`, semif-serve runoff, jeff GLiFormer, and the
+GLiNER2 spec are **class substrates**. Softmax / generated
+JSON ≠ Noul until calibrated on your labels. Interface
+compatibility ≠ replica. Always qualify
+**githubnext/localjev** vs **kunchenguid/local-jev**. The
 Eran-BA GLiNER2 document is **spec-only** (no service, no
 measurements) and is not jeff. Archer still Watch.
-`judgment-class.md`; `notes.md` §70.
+`judgment-class.md`; `notes.md` §70, §75.
 
 ## Do user constraints survive compaction?
 
@@ -1663,3 +1667,46 @@ No. When no line passes, the card says *Not found* (or *Unclear*,
 with the closest lines) instead of guessing. Paraphrase invent is
 the rejected species. *Not applicable* is a checked n/a. `notes.md`
 §74.
+
+## Is githubnext/localjev the same as kunchenguid/local-jev?
+
+No. Always write **[githubnext/localjev](https://github.com/githubnext/localjev)**
+(MIT; **261★**; GitHub Next). It is a Bun `POST /v1/systemone`
+bridge: DiffusionGemma through ordinary Chat Completions; TypeSafe
+SDK drop-in. [kunchenguid/local-jev](https://github.com/kunchenguid/local-jev)
+is an ONNX ModernBERT approximation (done **30%** / shape **57%**
+vs Jev *theirs*; confidence omitted). Hyphen vs no hyphen is
+load-bearing. `notes.md` §70, §75.
+
+## Is LocalJev OpenJev? Are the probabilities logits?
+
+No, and no. [razorback16/openjev](https://github.com/razorback16/openjev)
+obtains probabilities with a one-step DiffusionGemma **structured
+read** (unmerged vLLM `diffusion_seed_canvas` / `diffusion_read_only`
+/ token logprobs). githubnext/localjev **prompts** for a JSON
+probability vector, validates/retries, then normalizes + entropy
+confidence. Wire-compatible, **not mathematically equivalent**.
+Distinct from [IamBusy/OpenJev](https://github.com/IamBusy/OpenJev)
+`/v1/decide`. Cousin djev-spark is the structured-read Spark
+surface already §36. `notes.md` §75.
+
+## Can I threshold LocalJev confidence as a Noul?
+
+Not until you calibrate on *your* labels. README: evaluate before
+consequential decisions. The 1,200-request bake-off tests the
+prompted-JSON pipeline, **not** direct logits, and says **do not
+treat these outputs as calibrated probabilities** (high conf on
+wrong BoolQ → large NLL; 40 samples/task). JSON-valid ≠
+picked-right. Entropy-as-confidence is a spread statistic on a
+generated vector. `notes.md` §75.
+
+## Did Gemma 4 26B-A4B win? Should I use LM Studio instead?
+
+Neither as a class claim. Short-input *theirs*: Qwen3.6 macro
+**76.7%**, Gemma 4 26B-A4B **75.0%** (lowest SST-5 MAE **0.533**),
+DiffusionGemma **74.2%**. Qwen vs Gemma 26B is two answers of 120 —
+not a statistically clear winner. Serving default **unchanged**.
+LM Studio still cannot load DiffusionGemma (18 Sep 2026 *theirs*).
+Even after Chat Completions support, swapping runners is not
+OpenJev parity — the runner must expose structured-read primitives.
+Do not copy bun / `.env`. `notes.md` §75.

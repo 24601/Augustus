@@ -72,6 +72,7 @@ judgment component is new).
 | Decide→policy→LLM leftover | Typed decide; leftover text only | Shared Answer schema; three Harbor arms (native / verbalized / logprob) | Policy auto/review/llm; Noul 0.5 never rounded; Score conf 0.0 never acted | **Empirical as README architecture** (jav-email-cascade; mock gen-json flat is *their mock*; `notes.md` §60) |
 | Productized System One HTTP | Label + calibrated p as a public contract | Batch `{id,text}[]`; Jev primary; LLM fallback | Policy in the caller; `FALLBACK` honesty; read eval/README | **Empirical as README + eval** (classifier-dev **185★**; 400/650 ms; F1 0.887; granite 0.546 vs 0.800 *theirs*; `notes.md` §73) |
 | Evidence-synthesis pointer (two-pass) | Which line answers the extraction question | Relative Choice (+ none) then absolute Noul; copy verbatim | Human tick; *Not found* / *Unclear*; Noul ≥ 0.5 *theirs* | **Empirical as README** (choxos/jev-reviewer **12★**; ≠ egma-ai; 18-q **4.6 s / $0.0101** *theirs*; spot check not a validation study; `notes.md` §74) |
+| Prompted-JSON local `/v1/systemone` | Same wire, self-reported probs | Prompt → JSON vector → validate/retry → normalize + entropy confidence | Calibration on *your* labels; arithmetic/policy in code | **Empirical as README + eval** (githubnext/localjev **261★**; wire-compat ≠ logit-equiv; 1,200-req bake-off *theirs*; **≠** kunchenguid/local-jev; **≠** razorback16/openjev; `notes.md` §75) |
 
 ## Verification & logic
 

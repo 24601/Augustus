@@ -798,6 +798,13 @@ README; 2026-09-19 ~08:37):**
 — 0.7 is an operating point on *their* labels (emotion
 ≥0.9 → 82% / <0.5 → 29% *theirs*). Multi-label does
 **not** share it. Do not copy 0.7. `notes.md` §73.
+**Self-reported JSON ≠ calibrated Noul (Empirical as
+eval caveats; 2026-09-19 ~08:56):**
+[githubnext/localjev](https://github.com/githubnext/localjev)
+— entropy confidence is computed from a generated
+vector. Bake-off: do not treat outputs as calibrated
+(wrong-BoolQ high conf → large NLL; 40 samples/task
+*theirs*). Wire-compat ≠ logit-equiv. `notes.md` §75.
 
 ## 8. Control structure → sensor ≠ constraint (Leveson)
 

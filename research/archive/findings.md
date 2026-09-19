@@ -1995,3 +1995,32 @@ absolute Noul; (hl) *Not found* first-class; (hm) human
 check as productized judgment; (hn) evidence-synthesis
 as class application beyond SWE; (ho) name lock vs
 egma-ai.
+
+## Batch #59 (2026-09-19 ~14:56 UTC / ~08:56 Boise) — githubnext/localjev wire-compat ≠ logit-equiv
+
+Note: `research/notes.md` §75. Docs-only. Folded into PR #2.
+Skip Archer. **≠** kunchenguid/local-jev. No invented metrics.
+Hunches labeled. User-provided SIGNAL + live README `39939e6`
+/ eval `418cae7`.
+
+- **githubnext/localjev (Empirical as README +
+  evaluation-results-2026-09-18).** MIT; **261★**;
+  GitHub Next. Bun `POST /v1/systemone` on DiffusionGemma
+  via Chat Completions; TypeSafe SDK drop-in. Prompted
+  JSON → validate/retry → normalize + entropy confidence.
+  **Not** razorback16 structured-read logits. **Not**
+  IamBusy/OpenJev `/v1/decide`. Bake-off *theirs*: 1,200
+  req / ~23.5 min / M5 Max. Short macro Qwen3.6 **76.7%**
+  / Gemma 4 26B-A4B **75.0%** (SST-5 MAE **0.533**) /
+  DiffusionGemma **74.2%**. Qwen vs Gemma 26B = 2/120.
+  Do not treat as calibrated. LM Studio cannot load
+  DiffusionGemma (18 Sep 2026).
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (hp) wire-compat ≠ logit-equiv /
+prompted JSON ≠ structured read; (hq) GitHub Next
+institutional local `/v1/systemone`; (hr) Harbor-shaped
+1,200-req bake-off with caveats; (hs) LM Studio runner
+gap / structured-read primitives for OpenJev parity;
+(ht) name lock vs kunchenguid/local-jev.

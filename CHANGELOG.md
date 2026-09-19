@@ -801,6 +801,22 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   **4.6 s / $0.0101** *theirs* (spot check, not a
   validation study). Cochrane / PRISMA / RoB, not
   SWE-only. No wrapper. No invented metrics.
+- User-provided signal ~08:56 Boise 2026-09-19
+  (`research/notes.md` §75): **Skip Archer.**
+  **Wire-compat ≠ logit-equiv**
+  ([githubnext/localjev](https://github.com/githubnext/localjev);
+  MIT; **261★**; GitHub Next). **≠**
+  [kunchenguid/local-jev](https://github.com/kunchenguid/local-jev).
+  Bun `POST /v1/systemone` on DiffusionGemma via Chat
+  Completions; TypeSafe SDK drop-in. Prompted JSON →
+  validate/retry → normalize + entropy confidence — not
+  razorback16 structured-read logits. Harbor-shaped
+  bake-off *theirs*: 1,200 req; Qwen3.6 short macro
+  **76.7%**; Gemma 4 26B-A4B **75.0%**; DiffusionGemma
+  **74.2%**; no definitive winner (2/120); do not treat
+  as calibrated. LM Studio still cannot load
+  DiffusionGemma. Do not copy bun / `.env`. No wrapper.
+  No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

@@ -1117,6 +1117,27 @@
   faq, mental-models, methods-catalog, toolbox, validation,
   composition-algebra, question-design, agent-self-assessment,
   ecosystem, CHANGELOG, README.
-- notes.md §74; sources.json (438 sources, 435 unique URLs,
+-   notes.md §74; sources.json (438 sources, 435 unique URLs,
   retrieved 2026-09-19T14:48Z); findings.md batch #58.
+  No wrapper.
+
+## 2026-09-19 ~14:56 UTC — user-provided githubnext/localjev (~08:56 Boise)
+- Docs-only into PR #2. `notes.md` §75. Skip Archer.
+  Hunches labeled. No wrapper. No invented metrics.
+  Always **githubnext/localjev**. **≠** kunchenguid/local-jev.
+- Receipts: user SIGNAL + live README `39939e6` / eval
+  `418cae7` ~14:56 UTC. MIT; **261★**; GitHub Next.
+- Folded: wire-compat ≠ logit-equiv (prompted JSON +
+  entropy confidence vs razorback16 structured-read);
+  TypeSafe SDK drop-in; 1,200-req bake-off *theirs*
+  (Qwen3.6 76.7% / Gemma 26B 75.0% / DiffusionGemma
+  74.2% short; no winner; not calibrated); LM Studio
+  runner gap; institutional interchange.
+- Census not re-derived. Archer still NOT landed.
+- Cards: SKILL.md, judgment-class, mixed-architecture,
+  faq, mental-models, validation, methods-catalog,
+  toolbox, composition-algebra, question-design,
+  mappings §7, ecosystem, CHANGELOG, README.
+- notes.md §75; sources.json (440 sources, 437 unique URLs,
+  retrieved 2026-09-19T14:56Z); findings.md batch #59.
   No wrapper.

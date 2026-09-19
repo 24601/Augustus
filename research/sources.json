@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T14:48Z",
+  "retrieved": "2026-09-19T14:56Z",
   "sources": [
     {
       "kind": "docs",
@@ -2629,6 +2629,18 @@
       "title": "jevreviewer.xera.ac",
       "url": "https://jevreviewer.xera.ac",
       "note": "Hosted local-first systematic-review extractor for choxos/jev-reviewer. No key, no install. Files stay in the browser. notes.md \u00a774."
+    },
+    {
+      "kind": "github",
+      "title": "githubnext/localjev",
+      "url": "https://github.com/githubnext/localjev",
+      "note": "MIT; 261 stars; 14 forks; TypeScript. Created 2026-09-18T16:59:55Z; pushed 2026-09-18T20:19:02Z. GitHub Next Bun POST /v1/systemone on DiffusionGemma via Chat Completions; TypeSafe SDK drop-in. Prompted JSON probs + entropy confidence; wire-compat != logit-equiv vs razorback16/openjev structured-read. != kunchenguid/local-jev. README SHA 39939e6 this pass. notes.md \u00a775."
+    },
+    {
+      "kind": "github",
+      "title": "githubnext/localjev evaluation-results-2026-09-18",
+      "url": "https://github.com/githubnext/localjev/blob/main/docs/evaluation-results-2026-09-18.md",
+      "note": "First bake-off: 1,200 requests ~23.5 min Apple M5 Max oMLX 0.6.4 Bun 1.4.0. Prompted JSON pipeline, not logits. Short macro Qwen3.6 76.7% / Gemma 4 26B-A4B 75.0% / DiffusionGemma 74.2%. No definitive winner. Do not treat as calibrated. SHA 418cae7 this pass. notes.md \u00a775."
     }
   ]
 }
