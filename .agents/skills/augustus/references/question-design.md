@@ -105,6 +105,12 @@ request, and treat a stale pin as a prior, never a setting.
 | Reverse A/B on a small yes/no rebuild and quote one number | Option-order 72%→21% | Rank with author's order; keep both runs. Cousin of paraphrase brittleness. `notes.md` §78 |
 | Re-card localjev / classifier.dev / Laya / choxos / census because they reappear on the hourly | Already folded | Apply the five as a recipe; skip thin noise. `notes.md` §79 |
 | Fail CI / stamp quality from a Noul | Soft sensor as a hard seal | Attend or escalate; exact envelope proves the irreversible act. Qualify [totally-tim/jev-gate](https://github.com/totally-tim/jev-gate) ≠ jev-gateway / MongLong0214/jev-gate. `notes.md` §79 |
+| Stall the reflex waiting for S2 / let S2 fly | Planner as executor | S1 keeps the stick; S2 is one-use advice. [khordoo/jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab). `notes.md` §80 |
+| Treat S2 arrival as consumed guidance | Telemetry conflates bar with decision | Purple confidence = used; purple S2 bar = arrived; red = fail. `notes.md` §80 |
+| Call the lab's Local controller "localjev" | Namesake collision | Rule-based built-in **≠** githubnext/localjev **≠** kunchenguid/local-jev. `notes.md` §80 |
+| Hard-act at the 20% starting gate / treat seed as replay | Soft slider as interlock; geometry as DST | 20% *theirs* still soft; schema-safe ≠ correct. Seed repeats layout, not timing. `notes.md` §80 |
+| Send pixels or planner prose into the reflex | Omni / stale bearings | No graphical input; code never labels safest; physics owns collisions. Skip Archer. `notes.md` §80 |
+| Assume confidence = selected probability | SDK field smuggled as the app contract | Application contracts ≠ TypeSafe methods. `notes.md` §80 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

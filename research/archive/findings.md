@@ -2133,3 +2133,35 @@ Census not re-derived. Archer still NOT landed.
 Cross-repo addition: (ik) already-folded hourly as a
 recipe not a dump; (il) hard-gate Noul as PR/quality
 is soundness theater.
+
+## Batch #64 (2026-09-19 ~15:50 UTC / ~09:50 Boise) — khordoo/jev-reflex-autonomy-lab delta of §46
+
+Note: `research/notes.md` §80. Docs-only. Folded into PR #2.
+Skip Archer. No invented metrics. Hunches labeled.
+Quote README. Not a hit list. **Do not re-card** the
+§46 one-liner. User SIGNAL_2f18 (~08:48 Boise; ★6)
++ live this pass **7★** / 1 fork; license null;
+README SHA `130987c9`; ARCHITECTURE SHA `48da0769`;
+HEAD `e3297ebe`. Demo watch-demo.html.
+
+- **S1 never stalls / S2 one-use advisory.** Jev keeps
+  steering; S2 does not fly and does not grant.
+- **Consumption telemetry.** Purple confidence =
+  that decision used returned S2; purple S2 bar =
+  arrival; red = fail. Arrival ≠ used.
+- **Local controller ≠ localjev.** Rule-based built-in
+  vs hosted `jev-latest`. 20% starting gate *theirs*
+  still soft; does not start a mission. Seed =
+  geometry ≠ async replay.
+- **No pixels.** Application contracts ≠ TypeSafe SDK;
+  confidence ≠ selected probability; physics owns
+  collisions. README GLM 5.3 vs ARCHITECTURE
+  muse-spark-1.3-contributor — quote both *theirs*.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (im) escalate-without-stall;
+(in) mixed-initiative consumption mark;
+(io) Local-vs-Live reflex A/B / Local ≠ localjev;
+(ip) seed≠replay / 20% still soft / no-pixels
+class discipline.

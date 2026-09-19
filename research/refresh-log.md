@@ -1229,3 +1229,31 @@
 - notes.md §79; sources.json (455 sources, 452 unique URLs,
   retrieved 2026-09-19T15:37Z); findings.md batch #63.
   No wrapper.
+## 2026-09-19 ~15:50 UTC — user-provided khordoo/jev-reflex-autonomy-lab delta (~09:50 Boise)
+- Docs-only into PR #2. `notes.md` §80. Skip Archer.
+  Hunches labeled. No wrapper. No invented metrics.
+  Quote README. Delta of §46, not a new species.
+  Do not copy npm / `.dev.vars` / keys.
+- Receipts: user SIGNAL_2f18 (~08:48 Boise; ★6) +
+  uploaded README_f001 + live GitHub this pass
+  (**7★** / 1 fork; license null; README SHA
+  `130987c9`; ARCHITECTURE SHA `48da0769`; HEAD
+  `e3297ebe`; pushed 2026-09-19T15:11:21Z). Demo
+  https://khordoo.github.io/jev-reflex-autonomy-lab/watch-demo.html.
+- Folded: S1 never stalls / S2 one-use advisory;
+  purple = consumed not arrived; Local controller ≠
+  githubnext/localjev ≠ kunchenguid/local-jev; 20%
+  starting gate still soft; seed = geometry ≠ async
+  replay; no pixels; confidence ≠ selected
+  probability; S2 never grants. README GLM 5.3 vs
+  ARCHITECTURE muse-spark — quote both *theirs*.
+- Census not re-derived. Archer still NOT landed.
+- Cards: SKILL.md, mixed-architecture, faq,
+  mental-models, agent-self-assessment, validation,
+  toolbox, composition-algebra item 20,
+  question-design, mappings §6/§9, applied-mappings
+  §9, judgment-class portent 5, methods-catalog,
+  ecosystem, CHANGELOG, README.
+- notes.md §80; sources.json (457 sources, 454 unique URLs,
+  retrieved 2026-09-19T15:50Z); findings.md batch #64.
+  No wrapper.

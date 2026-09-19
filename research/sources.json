@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T15:37Z",
+  "retrieved": "2026-09-19T15:50Z",
   "sources": [
     {
       "kind": "docs",
@@ -1284,7 +1284,7 @@
       "kind": "github",
       "title": "khordoo/jev-reflex-autonomy-lab",
       "url": "https://github.com/khordoo/jev-reflex-autonomy-lab",
-      "note": "S1 Jev reflex keeps control; optional S2 one-use advice. Experimental. License null this pass. notes.md \u00a746."
+      "note": "S1 Jev reflex keeps control; optional S2 one-use advice. Delta: escalate without stalling; purple = consumed not arrived; Local controller is rule-based != githubnext/localjev != kunchenguid/local-jev; 20% starting gate still soft; seed = geometry not async replay; no pixels; S2 never grants. TypeScript; 7 stars / 1 fork this pass; GitHub license null. README SHA 130987c9; ARCHITECTURE SHA 48da0769; HEAD e3297ebe. Experimental viz, not a flight controller. notes.md \u00a746 + \u00a780."
     },
     {
       "kind": "github",
@@ -2731,6 +2731,18 @@
       "title": "imMamdouhaboammar/fable-jev",
       "url": "https://github.com/imMamdouhaboammar/fable-jev",
       "note": "MIT; 1 star; TypeScript. Created 2026-09-19T14:41:41Z. Sub-100ms reflex slogan. GitHub size 0 lag. Hourly 0842 skip thin. notes.md \u00a779."
+    },
+    {
+      "kind": "github",
+      "title": "khordoo/jev-reflex-autonomy-lab ARCHITECTURE.md",
+      "url": "https://github.com/khordoo/jev-reflex-autonomy-lab/blob/main/ARCHITECTURE.md",
+      "note": "Sibling to README. SHA 48da0769 this pass. No graphical input to either provider; DecisionProvider/StrategyProvider are app contracts NOT TypeSafe SDK; confidence NOT assumed = selected probability; planner narrative excluded from Jev input; physics owns collisions; proposed OpenRouter meta/muse-spark-1.3-contributor (README says GLM 5.3 \u2014 quote both, do not invent which is live). notes.md \u00a780."
+    },
+    {
+      "kind": "web",
+      "title": "Jev Reflex Autonomy Lab watch demo",
+      "url": "https://khordoo.github.io/jev-reflex-autonomy-lab/watch-demo.html",
+      "note": "Experimental multi-drone viz demo. Not a production flight controller. notes.md \u00a780."
     }
   ]
 }

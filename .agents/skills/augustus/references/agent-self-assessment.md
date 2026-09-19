@@ -143,8 +143,13 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    commands; it estimates named probabilities. Same split as
    [jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab):
    **S1 keeps control**; optional S2 is one-use advice on low confidence
-   and does not fly the drone (`notes.md` §46). Experimental viz, not a
-   production supervisor. Computer-use speed layer of the same split:
+   and does not fly the drone (`notes.md` §46). **Delta (`notes.md`
+   §80):** escalate-under-threshold **without stalling**; purple
+   confidence = that Jev decision **consumed** returned S2 (purple
+   S2 bar = arrival; red = fail); Local controller is rule-based
+   **≠** githubnext/localjev; 20% starting gate still soft; no
+   pixels to either provider; seed = geometry not async replay.
+   Experimental viz, not a production supervisor. Computer-use speed layer of the same split:
    [solari-reflex](https://github.com/hitakshiA/solari-reflex) — one
    structured observation → one typed decision → one verified action;
    **no screenshots**; model output never becomes a selector. Harbor-style

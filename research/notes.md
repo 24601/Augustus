@@ -2615,6 +2615,9 @@ README; GitHub READMEs for
    live fleet success varies. No metrics to promote. Do not copy the
    adapter, `.dev.vars`, or ports. Cards: `mixed-architecture.md` dual
    orchestration; `agent-self-assessment.md`; toolbox Kahneman row.
+   **Delta (consumption telemetry, Local-vs-Live A/B, seed≠replay,
+   no-pixels, 20% still soft):** `notes.md` §80. Do not re-card this
+   one-liner.
 
 ### MED (pointers, not cards of their own)
 
@@ -11258,3 +11261,284 @@ Noul as PR/quality gate; gallery skip); `faq.md`;
 (already-folded hourly); `composition-algebra.md`
 item 19; `question-design.md`. Hunches labeled. No
 wrapper.
+
+## 80. User-provided HIGH — khordoo/jev-reflex-autonomy-lab (delta of §46; 2026-09-19 ~09:50 Boise / ~15:50 UTC)
+
+Docs-only into PR #2. **Skip Archer.** Quote the
+README. Not a hit list. Do **not** re-fold §50–§79
+HIGH except sibling contrast. Hunches labeled. No
+wrappers, `npm install`, `.dev.vars`, keys, copied
+ports, or invented metrics. TypeSafe Jev remains
+the exemplar — this signal is **continuous-control
+mixed architecture**, not a new species and not
+SWE-only.
+
+**THIS FOLD IS A DELTA OF §46.** The one-liner
+already stands: S1 Jev reflex keeps control;
+optional S2 is one-use advice on low confidence;
+experimental viz, not a flight controller; GitHub
+license **null**. Do not re-card that sentence.
+Material how-to-apply that was not in the one-liner:
+
+1. **Decider ≠ executor across timescales** — S1
+   owns the action every tick; S2 revises strategy
+   once. [jeffrey](https://github.com/thomasbrueggemann/jeffrey)
+   is the SWE-agent cousin (next-tool vs arg fill).
+   This is the same split on a body.
+2. **Escalate-under-threshold without stalling** —
+   cousin of classifier.dev smart tier (§73), but
+   the reflex **never waits**. Jev keeps steering
+   while the planner responds.
+3. **Mixed-initiative Horvitz** — advice is
+   optional; telemetry marks when guidance was
+   *actually consumed*, not merely when S2 arrived.
+4. **Domain: autonomy / robotics** — class beyond
+   SWE. [HA-Jev](https://github.com/AboveColin/HA-Jev)
+   is the house-sensor sibling (**not** for
+   locks/heaters). Geometry-as-text, not pixels.
+5. **Local controller vs Live API** as
+   Harbor-adjacent A/B of *reflex backends*. Local
+   = built-in **rule-based** reflex, no credentials.
+   Live = TypeSafe `POST /v1/systemone` `jev-latest`.
+   **CRITICAL NAME LOCK:** Local controller **≠**
+   [githubnext/localjev](https://github.com/githubnext/localjev)
+   **≠** [kunchenguid/local-jev](https://github.com/kunchenguid/local-jev).
+6. **Seed = repeatable geometry**, not a
+   deterministic async replay (live latency still
+   changes the trajectory).
+7. **S2 never flies; S2 never grants permission**
+   (rh-guard thin). Soft conf threshold ≠ hard
+   safety. **schema-safe ≠ correct** (adversarial-
+   review item 4). Experimental viz, not a
+   production flight controller.
+8. **ARCHITECTURE.md extras** (sibling to README;
+   both *theirs*): no graphical input to either
+   provider (class-discipline item 5 — not omni);
+   application contracts ≠ TypeSafe SDK methods;
+   confidence is **not** assumed equal to selected
+   probability; code never labels safest /
+   recommended action; planner narrative excluded
+   from Jev input; physics owns collisions.
+
+Receipts: user SIGNAL_2f18 (~08:48 Boise; ★6, no
+license) + uploaded README_f001 plus live GitHub
+this pass. TypeScript; **7★** / 1 fork; created
+2026-09-18T19:46:20Z; pushed 2026-09-19T15:11:21Z;
+updated 2026-09-19T15:25:13Z; GitHub license
+**null**. HEAD `e3297ebe`. README SHA `130987c9`.
+ARCHITECTURE.md SHA `48da0769`. Demo
+https://khordoo.github.io/jev-reflex-autonomy-lab/watch-demo.html.
+Topics: autonomous-agents, drone-simulation, jev,
+multi-agent, system-1, system-2, typesafe,
+typescript. Star counts **ephemeral**.
+
+### HIGH
+
+1. **[`khordoo/jev-reflex-autonomy-lab`](https://github.com/khordoo/jev-reflex-autonomy-lab)**
+   — DELTA HIGH of §46. TypeScript; **7★**; license
+   null. Interactive multi-drone sim (1–20).
+
+   **Quote README (*theirs*).** Opening question:
+   “what happens when fast, typed System 1 reflexes
+   can ask a slower System 2 reasoning model for
+   advice without giving up control?” Fleet 1–20;
+   “System 2 can be turned off entirely.” Each
+   drone: “When confidence falls below the
+   configured threshold, an optional System 2
+   planner provides one-use strategic guidance
+   through OpenRouter. **Jev keeps steering while
+   the planner responds.**”
+
+   Architecture block *theirs*: React dashboard
+   (controls / per-drone telemetry / charts);
+   Canvas loop (movement, collision, sensors,
+   projections); System 1 TypeSafe Jev “fast typed
+   action decisions for every active drone”;
+   System 2 “OpenRouter / GLM 5.3” “asynchronous
+   one-use strategy advice when confidence is
+   low.” Load-bearing sentence: “**System 2 is
+   advisory. It does not fly the drone directly,
+   and Jev does not pause while waiting for it.**”
+
+   **Telemetry semantics (*theirs*):**
+   - Green confidence: Jev decided from current
+     local context.
+   - Purple confidence point: **that Jev decision
+     consumed newly returned System 2 guidance.**
+   - Purple System 2 bar: advisory **arrival** at
+     that mission time (not consumption).
+   - Red System 2 bar: advisory request **failed**.
+   - Latency chart: measured wall-clock provider
+     response time.
+
+   Purple-on-confidence **≠** purple-on-S2-bar.
+   Arrival without a later purple confidence
+   point is unused advice. That is the mixed-
+   initiative product: optional, and the log says
+   whether it mattered.
+
+   **Local controller / Live API (*theirs*).** The
+   app boots into Local controller — “the built-in
+   rule-based reflex, no credentials required.”
+   Only when Live API is selected do missions run
+   against live TypeSafe Jev (and OpenRouter for
+   S2). “The flight environment is simulated in
+   both modes; the toggle only changes where
+   reflex decisions come from. Selecting Live API
+   sets a **20% starting gate** but **does not
+   start a mission.**” Credentials do not auto-
+   switch. Jev adapter: `POST
+   https://api.typesafe.ai/v1/systemone` with
+   `jev-latest` and a typed choice over available
+   flight actions. S2 uses OpenRouter chat
+   completions with strict structured output;
+   errors may retry a configured fallback model.
+   **Do not copy** `npm install`, `.dev.vars`,
+   keys, or ports.
+
+   The 20% starting gate is **theirs**, a UI
+   default, **not** Harbor τ and **not** a
+   flight-safety interlock. Soft conf gate =
+   escalate-under-threshold, same family as
+   classifier.dev 0.7 *theirs* and Laya 0.85
+   still soft. schema-safe ≠ correct.
+
+   **Seed ≠ replay (*theirs*):** “The scenario seed
+   controls the obstacle layout, but live provider
+   latency can still change a trajectory. A seed
+   is repeatable geometry, not a deterministic
+   asynchronous replay.”
+
+   **Status (*theirs*):** “This is an experimental
+   autonomy visualization, not a production
+   flight controller. … Live fleet success varies
+   with model decisions, provider latency, seed,
+   threshold, and fleet size.” If one drone
+   collides, only that drone is removed. No
+   metrics to promote. Do not invent collision
+   rates.
+
+   **ARCHITECTURE.md extras (*theirs*; SHA
+   `48da0769`; sibling, not a second README).**
+   Proposed before implementation. “**No graphical
+   input goes to either provider.**” Data flow:
+   world → sensors → DecisionProvider → confidence
+   gate → action → physics → world. Below-threshold
+   decisions ask StrategyProvider; “the existing
+   local decision loop continues.”
+   `DecisionProvider.decide` / `StrategyProvider.plan`
+   are **application contracts, NOT TypeSafe SDK
+   methods.** “Confidence is NOT assumed equal to
+   selected probability.” Mocks are synthetic and
+   labeled. “Jev continues local control while
+   System 2 works; low-confidence actions are
+   marked provisional. At most one decision and
+   one planner request per agent are in flight…
+   Planner cooldown prevents repeated requests on
+   the same unresolved context.” “Jev sees
+   neutral, unsorted per-action kinematic
+   projections from sensed geometry; **code never
+   labels a safest/recommended action.**”
+   “**Planner narrative is excluded from Jev
+   input** to prevent stale bearings from becoming
+   steering instructions.” “**Physics owns
+   collisions**, health, battery, bounds and
+   completion.”
+
+   **S2 model name — qualify, do not invent.**
+   README block: OpenRouter / **GLM 5.3**
+   (`OPENROUTER_MODEL=z-ai/glm-5.3` in the
+   example env — **do not copy**). ARCHITECTURE
+   proposed `meta/muse-spark-1.3-contributor`.
+   Both *theirs*. This fold does **not** claim
+   which string is live on the demo. Quote both;
+   do not pick a winner.
+
+   **How to apply (recipe, not a dump):**
+
+   1. **Keep the stick with S1.** The slow model
+      may advise. It does not fly. It does not
+      pause the loop. If you need the planner’s
+      answer before the next act, you are no
+      longer in this placement — that is a
+      blocking escalate, a different fail
+      polarity.
+   2. **Log consumption, not arrival.** A returned
+      strategy that the reflex never used is
+      unused VOI. Purple-on-decision ≠
+      purple-on-bar. Mixed-initiative without
+      that mark is theater.
+   3. **A/B the reflex backend, not the world.**
+      Local rule-based vs Live `/v1/systemone` is
+      Harbor-adjacent *because* the physics and
+      the seed stay put. It is **not** a scored
+      bake-off (no ECE, no taskset). Do not
+      collapse Local controller into
+      githubnext/localjev (prompted JSON) or
+      kunchenguid/local-jev (ONNX).
+   4. **Treat the gate as soft.** 20% is a
+      starting slider. Calibrate τ on *your*
+      labels before a consequential loop. A
+      schema-valid Choice is not a correct
+      heading.
+   5. **Send text-state, not pixels.** Sensors
+      emit geometry. Code never labels safest.
+      Planner prose never re-enters the reflex
+      prompt. Physics, not Jev, owns collisions.
+      That is Leveson (sensor ≠ constraint) on a
+      body — HA-Jev’s house cousin, still **not**
+      for locks.
+
+   **Siblings (do not re-card):**
+   - §46 one-liner — this delta.
+   - jeffrey §70 — decider≠executor on tools.
+   - classifier.dev §73 — escalate-under-threshold
+     *with* a re-ask; this lab never stalls.
+   - dual-process-ai §49 — Kahneman cascade for
+     write jobs; routing accuracy unmeasured.
+   - HA-Jev §68 — physical-world S1; not for
+     locks.
+   - githubnext/localjev §75 — **name lock**.
+   - kunchenguid/local-jev §70 — **name lock**.
+   - choxos §74 / census §77 / v1.2 §78 / hourly
+     §79 — sibling only.
+
+### Skip Archer
+
+HF `archerhume/4rcherhume` still empty this
+watch. Qwen3.8 27B on the v1.2 board is Chutes
+TEE **≠** Archer. This lab is **not** omni: no
+graphical input to either provider
+(ARCHITECTURE *theirs*). Skip Archer this fold.
+
+### Not
+
+Not a re-card of §46. Not a flight controller.
+Not an open-weight replica. Not a JevBench
+entry. Not githubnext/localjev. Not a TypeSafe
+how-to. Not a hit list. Do not copy Stripe,
+npm, `.dev.vars`, or keys. Do not treat 20% as
+Harbor-calibrated. Do not treat GLM 5.3 vs
+muse-spark as independently verified live.
+Do not invent collision rates. Do not send
+pixels “because robotics.” Do not let S2 grant
+permission.
+
+### Curated status
+
+§46 one-liner **kept**. Delta **folded**. Archer
+still **NOT landed**. Census / v1.2 / hourly
+**not re-derived**.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery + dual-orchestration); `faq.md`;
+`mental-models.md` (robotics + consumption +
+Local≠localjev); `agent-self-assessment.md`;
+`validation.md` (Local-vs-Live A/B);
+`toolbox-mapping.md` (Kahneman);
+`composition-algebra.md` item 20;
+`question-design.md`; `mappings.md` §9;
+`applied-mappings.md` §9; `judgment-class.md`
+portent 5. Hunches labeled. No wrapper.

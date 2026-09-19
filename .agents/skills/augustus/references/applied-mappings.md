@@ -1200,6 +1200,14 @@ WordNet / jina tree, then rank texts. ~400 calls / 75 s /
 2¢ *theirs*. Architecture demo, not a product. Distinct
 from jeffrey (pick next-tool). Do not copy API-key how-to
 (`notes.md` §71).
+**Continuous-control cousin (Empirical as README delta;
+2026-09-19 ~09:50):**
+[khordoo/jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab)
+— code owns physics/collisions; Jev only picks the next
+typed flight action; optional S2 never flies and never
+grants. Escalate without stalling. Local controller
+**≠** githubnext/localjev. Experimental viz, not this
+card's no-LLM extreme. Do not copy npm (`notes.md` §80).
 **Counterexample**: Stagehand extract `"pick"` with LLM
 fallback sold as "no LLM" — pick is a fast path, not this
 card. **Test**: every typed character exists in goal, facts,

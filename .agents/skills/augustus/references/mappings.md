@@ -605,6 +605,15 @@ answers below 0.7. Multi-label re-judge made it worse
 (23 s) so the tier is ignored. gemini-3.8-flash helped;
 other flashes did not. 0.7 is *theirs*. Cousin jev-use
 (`notes.md` §73).
+**Escalate-without-stall cousin (Empirical as README
+delta; autonomy; 2026-09-19 ~09:50):**
+[khordoo/jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab)
+— pay S2 only under the confidence threshold, but
+**never pause the reflex**. Log whether the returned
+strategy was **consumed** (purple confidence), not
+only that it arrived. 20% starting gate *theirs*
+still soft. Local vs Live is an A/B of backends, not
+a scored bake-off (`notes.md` §80).
 **Evidence-synthesis two-pass VOI (Empirical as README;
 medicine/Cochrane; 2026-09-19 ~08:48):**
 [choxos/jev-reviewer](https://github.com/choxos/jev-reviewer)
@@ -1007,6 +1016,17 @@ split** ([jeffrey](https://github.com/thomasbrueggemann/jeffrey)): Jev
 owns next-tool / progress / risk / done; the LLM **only fills args**;
 the loop is Jev→tool→Jev. Pick ≠ fill. Mapping §9 still rejects the
 fused planner.
+**Continuous-control cousin (Empirical as README delta;
+2026-09-19 ~09:50):**
+[khordoo/jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab)
+— the *algorithm* is the physics loop; the substituted
+classifier step is typed flight Choice every tick.
+Optional S2 is one-use strategy, not the next act.
+Escalate **without stalling**. Local rule-based vs
+Live `jev-latest` is an A/B of backends (**≠**
+githubnext/localjev). Seed = geometry ≠ replay. No
+pixels. 20% still soft. S2 never grants. Do not copy
+npm / `.dev.vars` (`notes.md` §46, §80).
 
 ```text
 loop     = yours (beam / funnel / stages / MCTS / incident command)

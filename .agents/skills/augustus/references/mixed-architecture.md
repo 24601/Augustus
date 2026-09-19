@@ -304,6 +304,13 @@ not a global virtue:
 | Treat the geometric mean as a natural law | **Fail closed** (weights are a choice) | Limits *theirs*. Balanced no-cal puts SemIf #1; Emphasis Cost puts system-one-open #1 / Jev #5 |
 | Re-card localjev / classifier.dev / Laya / choxos / census / v1.2 because they reappear on the hourly | **Fail closed** (already folded) | Apply the five as a recipe (`notes.md` §79). Do not dump the hit list again |
 | Hard-gate a Noul as a PR merge / quality seal | **Fail closed** (soundness theater) | Soft Noul attends or escalates; an exact envelope proves the irreversible act. [totally-tim/jev-gate](https://github.com/totally-tim/jev-gate) (0★; MIT; Action/CLI/OpenCode) and [connectedGraph/claude-jev-warden](https://github.com/connectedGraph/claude-jev-warden) (1★; MIT; “Art Director Warden”) are this hour’s skip with that risk. **≠** [vinilana/jev-gateway](https://github.com/vinilana/jev-gateway), [MongLong0214/jev-gate](https://github.com/MongLong0214/jev-gate) (model routing), [SargeDev/jev-gate-student-b](https://huggingface.co/SargeDev/jev-gate-student-b). Cousin: ci-gatekeeper (cheap typed pre-review, operator-owned). Attention filter never blocks ([rashedInt32/jev-lens](https://github.com/rashedInt32/jev-lens)) |
+| Stall S1 waiting for S2 / let S2 fly | **Fail closed** (S1 keeps the stick) (`jev-reflex-autonomy-lab`) | Escalate-under-threshold **without blocking**. S2 is one-use advice. Distinct from classifier.dev smart re-ask (that path *does* wait). `notes.md` §80 |
+| Treat purple S2 arrival as consumed guidance | **Fail closed** (log consumption) | Purple confidence = that Jev decision used returned S2. Purple S2 bar = arrival. Red = fail. Arrival without a later purple point is unused VOI |
+| Collapse Local controller into githubnext/localjev | **Fail closed** (qualify the face) | Built-in **rule-based** reflex, no credentials. **≠** prompted-JSON Bun `/v1/systemone` **≠** ONNX ModernBERT. Always write **Local controller** vs **githubnext/localjev** vs **kunchenguid/local-jev** |
+| Treat the 20% starting gate as Harbor τ / a flight interlock | **Fail closed** (still soft) | Selecting Live API sets 20% *theirs* and does **not** start a mission. schema-safe ≠ correct. Calibrate τ on *your* labels |
+| Treat the seed as a deterministic async replay | **Fail closed** (geometry only) | Live latency still changes the trajectory. Seed repeats obstacle layout, not timing |
+| Send pixels / planner prose into the reflex | **Fail closed** (text-state; no graphical input) | ARCHITECTURE *theirs*: no pixels to either provider; planner narrative excluded from Jev input; code never labels safest. Not omni. Skip Archer |
+| Assume Jev confidence = selected probability | **Fail closed** (not assumed) | Application contracts ≠ TypeSafe SDK methods. Physics owns collisions. S2 never grants |
 
 Worked placements (2026-09-18 topic:jev hour + prior archive):
 
@@ -458,7 +465,17 @@ asynchronous — the reflex does not pause
 ([jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab);
 experimental drone viz, not a flight controller; GitHub license null
 this pass). Same Kahneman split as the toolbox row (S2 proposes, S1
-discriminates; never the reverse). `notes.md` §46.
+discriminates; never the reverse). `notes.md` §46. **Delta
+(`notes.md` §80):** escalate-under-threshold **without stalling**;
+telemetry marks when guidance was **consumed** (purple confidence =
+that Jev decision used returned S2; purple S2 bar = arrival; red =
+fail) — arrival ≠ used. **Local controller** is a built-in
+rule-based reflex, **≠** githubnext/localjev **≠**
+kunchenguid/local-jev. Live API is hosted `POST /v1/systemone`
+`jev-latest`; selecting it sets a 20% starting gate *theirs* and
+does **not** start a mission. Seed = geometry, not async replay.
+No pixels to either provider. Confidence is not assumed equal to
+selected probability. S2 never grants. 20% is still soft.
 `agent-self-assessment.md`. **Route ≠ memory** is the same split on a
 turn: [jev-hermes](https://github.com/de-niji/jev-hermes) cheap-gates
 calendar/mail/status off the memory tour; complex keeps Honcho
@@ -618,7 +635,9 @@ decision-design card. Do not clone APIs from READMEs.
 | Browser loop without generation | Action Choice over visible elements | Perception, constraints, click | lizard-agent |
 | Screenshot / DOM candidates → Choice | Omni decide over letters code marked | Click/act in code; fail-open to specialist OCR | blackwood-rlcd (CC BY-NC; not Archer) |
 | Android / macOS computer-use | Choice over prevalidated candidates | UI tree / AX / OmniParser; no generated coordinates | jev-mobile, jev-macos-loop |
-| S1 reflex + optional S2 advice | Typed action Choice; planner one-use on low p | Collision, legality, the stick stays with S1 | jev-reflex-autonomy-lab (experimental) |
+| S1 reflex + optional S2 advice | Typed action Choice; planner one-use on low p; escalate **without stalling** | Collision, legality, physics; the stick stays with S1; S2 never grants | jev-reflex-autonomy-lab (experimental viz; **7★**; license null; `notes.md` §46 + §80) |
+| Mixed-initiative consumption telemetry | Same Choice; mark when advice was *used* | Green = local context; purple confidence = consumed S2; purple S2 bar = arrival; red = fail | jev-reflex-autonomy-lab charts. Arrival ≠ used |
+| Local controller vs Live API (reflex A/B) | Same questions; backend is rule-based vs hosted `jev-latest` | Physics/seed fixed; 20% gate still soft; credentials do not auto-switch | Harbor-adjacent of backends, **not** a scored bake-off. **≠** githubnext/localjev |
 | Decision-as-business-tool | Named judgment; gate is part of the result | Registry, arithmetic, hard guards | jev-decision-layer (unofficial) |
 | NL cases → checked e2e | Jev selects observed controls | Playwright expectations; PASS/FAIL/BLOCKED | jev-e2e (alpha) |
 | Extractive quotes / pointer evidence | Per-sentence, per-line-id, or char-offset Noul/Choice | Verbatim join; place; `redecide` / CSV; model never writes the excerpt | testimonial-miner; jev-reviewer; gliner25-compaction |
@@ -773,6 +792,7 @@ decision-design card. Do not clone APIs from READMEs.
 | Laya / GLiNER2 / apps gaps | Absence ≠ quality; mapping ≠ scored | Laya absent (not named-excluded); GLiNER2 needs normalization; apps out | Completeness vs watch. Qwen3.8 27B Chutes TEE **≠** Archer |
 | Apply-the-five (hourly 0842, already folded) | Wire≠logit · product+FALLBACK · packaging honesty · pointer-not-generator · leaderboard VOI | Do not re-card §73–§78; skip thin noise | `notes.md` §79. Compose, don’t dump |
 | Hard-gate Noul as PR/quality (skip) | Soft sensor used as a merge seal | Soundness theater unless an exact envelope already proved the act | totally-tim/jev-gate (0★) / claude-jev-warden (1★). **≠** jev-gateway / MongLong0214/jev-gate / jev-gate-student-b. Do not copy action.yml |
+| S1 keeps flying / S2 one-use (delta) | Typed flight Choice; async planner on low p | Physics/collisions; no stall; consume-mark; Local ≠ localjev | khordoo/jev-reflex-autonomy-lab. Seed = geometry. 20% still soft. No pixels. `notes.md` §80 |
 
 On-device / Home Assistant / mobile are newly-feasible via the economics
 inversion, not proven ports of every app. Named placements this hour

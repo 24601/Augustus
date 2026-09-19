@@ -884,8 +884,28 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   soundness theater
   ([totally-tim/jev-gate](https://github.com/totally-tim/jev-gate)
   0★ ≠ jev-gateway; [claude-jev-warden](https://github.com/connectedGraph/claude-jev-warden)
-  1★). Qwen3.8 27B ≠ Archer. No wrapper. No invented
+  1★).   Qwen3.8 27B ≠ Archer. No wrapper. No invented
   metrics.
+- User-provided HIGH ~09:50 Boise 2026-09-19
+  (`research/notes.md` §80): **Skip Archer.** Delta of
+  §46, not a new species.
+  [khordoo/jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab)
+  (TypeScript; **7★**; license null; README SHA
+  `130987c9`; ARCHITECTURE SHA `48da0769`; HEAD
+  `e3297ebe`). S1 never stalls waiting; S2 is one-use
+  advisory and never flies. Purple confidence =
+  **consumed** S2 (purple bar = arrival; red = fail).
+  Local controller is rule-based **≠**
+  githubnext/localjev **≠** kunchenguid/local-jev.
+  Live API `POST /v1/systemone` `jev-latest`; 20%
+  starting gate *theirs* still soft and does not start
+  a mission. Seed = geometry ≠ async replay. No pixels
+  to either provider; confidence ≠ selected
+  probability; S2 never grants. README GLM 5.3 vs
+  ARCHITECTURE muse-spark-1.3-contributor — quote both
+  *theirs*. Experimental viz, not a flight controller.
+  Do not copy npm / `.dev.vars`. No wrapper. No
+  invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

@@ -1866,3 +1866,42 @@ jev-semgrep already §61). Hard-gating a Noul as a PR
 merge or quality seal is **soundness theater**
 ([totally-tim/jev-gate](https://github.com/totally-tim/jev-gate)
 ≠ jev-gateway). Archer still Watch. `notes.md` §79.
+
+## Does System 2 fly the drone? Should S1 wait for it?
+
+No. [khordoo/jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab)
+is **S1 keeps control / S2 one-use advisory**. README
+*theirs*: “System 2 is advisory. It does not fly the
+drone directly, and Jev does not pause while waiting
+for it.” Escalate-under-threshold **without stalling**
+— cousin of classifier.dev smart tier, different fail
+polarity (that path re-asks and waits). S2 never
+grants permission. Experimental viz, not a production
+flight controller. `notes.md` §46, §80.
+
+## Does purple mean S2 arrived or that Jev used the advice?
+
+Used. Green = local context. **Purple confidence** =
+that Jev decision **consumed** returned S2.
+**Purple S2 bar** = arrival. Red = fail. Arrival
+without a later purple confidence point is unused
+advice. Mixed-initiative without a consumption mark
+is theater. `notes.md` §80.
+
+## Is Local controller githubnext/localjev? Is the 20% gate Harbor-calibrated?
+
+No, and no. **Local controller** is the lab’s built-in
+**rule-based** reflex (no credentials). **Live API**
+is hosted TypeSafe `POST /v1/systemone` `jev-latest`.
+Selecting Live API sets a 20% starting gate *theirs*
+and **does not start a mission**; credentials do not
+auto-switch. **≠** [githubnext/localjev](https://github.com/githubnext/localjev)
+(prompted JSON) **≠** [kunchenguid/local-jev](https://github.com/kunchenguid/local-jev)
+(ONNX). 20% is a UI default, still soft — schema-safe
+≠ correct. Seed = repeatable geometry, not a
+deterministic async replay. README says OpenRouter /
+GLM 5.3; ARCHITECTURE proposed
+`meta/muse-spark-1.3-contributor` — quote both
+*theirs*; do not invent which is live. No pixels to
+either provider. Do not copy npm / `.dev.vars`.
+`notes.md` §80.

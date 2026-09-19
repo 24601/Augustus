@@ -254,3 +254,18 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     gate is soundness theater. Full cards:
     `mixed-architecture.md`, `faq.md`,
     `mental-models.md`, `validation.md`.
+20. **S1 keeps flying / S2 one-use** (khordoo/jev-reflex-autonomy-lab
+    delta of §46): position 4 (Selector of next
+    *action*) stays on the reflex every tick;
+    position 7 (state estimator) is the optional
+    planner — advice, not a command. Escalate-
+    under-threshold **without stalling**. Log
+    consumption, not arrival. Local rule-based vs
+    Live API is an A/B of backends, not a scored
+    bake-off; Local controller **≠** githubnext/localjev.
+    Seed = geometry ≠ async replay. No pixels.
+    Confidence ≠ selected probability. 20% still
+    soft. S2 never grants. Full cards:
+    `mixed-architecture.md`, `faq.md`,
+    `mental-models.md`, `agent-self-assessment.md`,
+    `validation.md`.

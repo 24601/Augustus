@@ -359,7 +359,13 @@ capability shift, independent of vendor:
 4. **Perception is not narration.** Computer-use and robotics that
    caption the world then plan in prose are on the wrong side of the
    class. Extract candidates, score, act; generate text only when
-   something must be typed.
+   something must be typed. **Receipt (ARCHITECTURE *theirs*):**
+   [khordoo/jev-reflex-autonomy-lab](https://github.com/khordoo/jev-reflex-autonomy-lab)
+   sends **no graphical input** to either provider; sensors emit
+   geometry; code never labels safest; planner narrative is
+   excluded from Jev input (`notes.md` §80). Hosted TypeSafe
+   product APIs and prompted LocalJev are **not** a shared-prefix
+   multimodal species. Skip Archer.
 5. **Open heads and GLi\* make the control plane local.** Air-gap /
    on-device / laptop (GLiNER2.5 74M–287M CPU-first; openjev-lm 0.5B
    LoRA overnight on 6 vCPU; encoder open-jev DeBERTa-v3-large 434M;
