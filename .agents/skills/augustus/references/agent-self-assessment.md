@@ -191,6 +191,14 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    Meaning-grep is **not** a self-supervision gate:
    [jev-semgrep](https://github.com/uehaj/jev-semgrep)
    ranks lines; rh-guard skip (`notes.md` §86).
+   Decision-as-assert is **not** a merge seal:
+   [jevtest](https://github.com/realZachi/jevtest)
+   ambiguous band fails both; 0.85 still soft
+   (`notes.md` §87).
+   Hybrid S1 (hard safety first):
+   [anima3](https://github.com/hulryung-uo/anima3)
+   closed verb menu; Qwen logprob; jeff confidently
+   flat on magnitude; a11y tree (`notes.md` §87).
    Closed-vote extreme (no planner LLM):
    [JevOnly](https://github.com/buluoray/JevOnly) (`notes.md` §61).
    Host-owned product:

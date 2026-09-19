@@ -2335,3 +2335,47 @@ Census not re-derived. Archer still NOT landed.
 Cross-repo addition: (je) proposition ≠ embedding /
 contrast-set; (jf) boolean composition of thresholded
 Nouls; (jg) Semgrep.dev namesake + not-a-gate.
+
+## Batch #70 (2026-09-19 ~16:52 UTC / ~10:47 Boise) — hourly 1047 HIGH + deferred 0945
+
+Note: `research/notes.md` §87. Docs-only off main
+(PR #2 merged). Skip Archer. No invented metrics.
+Hunches labeled. Quote READMEs. Not a hit list.
+0★ HIGHs still get real cards.
+
+- **Decision-validated UI.** gram-render never authors
+  text; jev2ui leftover Gemini. Valid tree ≠ good
+  screen. Telegram/A2UI envelopes are exact.
+- **Decision-as-assert.** jevtest ambiguous band fails
+  both polarities; 0.85 still soft; record/replay ≠
+  merge seal. typesafe-ai/jevtest 404.
+- **Hybrid S1.** anima3 closed verb menu + hard safety
+  first; Qwen logprob default; jeff confidently flat
+  on magnitude; a11y tree. Do not invent Laya.
+- **Pointer search.** JevFind path then window.
+- **Harbor trio.** frontier-bench 72.5%/0.161 vs Fable
+  84%/0.064 *theirs*; ChaosNLI JS worse than uniform;
+  **≠** frontier-100. GLiClass product bakeoff 78/40/49.
+  job-posting-triage floor 0.947; tfidf wins;
+  calibration ≠ discrimination.
+- **Non-SWE.** ha-switchboard HA remains execution
+  **≠** HA-Jev. n8n Low Confidence. Authorship named
+  escape, not evidence.
+- **Compaction-pi / jevloop.** Namesake lock; ~50×
+  *theirs*; fail-open. Full-distribution optimizer;
+  mock default; no LLM in the loop.
+- **Deferred class.** laya-vision SmolVLM `score`
+  untrained **≠** blackwood **≠** Archer.
+  Cerebellum `/v1/decide` ≠ TypeSafe; wire-compat vs
+  agent-routing as separate Harbor axes; competing NAR
+  **not endorsement**. laya-grounded not drop-in;
+  phishing regress; Platt not temperature.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (jh) decision-validated UI /
+never-authors-text; (ji) ambiguous-band anti-round
+assert; (jj) hybrid S1 hard-safety-first; (jk) Harbor
+three bake-off shapes + majority floor; (jl)
+wire-compat vs agent-routing as separate axes;
+(jm) grounding can regress phishing.

@@ -671,6 +671,36 @@ distribution ECE). **Do not endorse.** Distinct from
 IamBusy/OpenJev `/v1/decide`, openvons, grande, and
 openjev-lm. Do not copy train/serve how-to
 (`notes.md` §71).
+**Competing NAR agent engine — wire-compat vs
+agent-routing as separate Harbor axes (2026-09-19
+~16:52):**
+[Cerebellum-2B](https://github.com/mkeco/Cerebellum-2B)
+(Apache LICENSE / GitHub SPDX other; Hub
+`mkzero/Cerebellum-2B-*`) is a Qwen3.5-2B NAR pointer
+over caller-supplied candidates on `POST /v1/decide`
+— **not** TypeSafe `/v1/systemone`. Claimed 94.92% vs
+Jev 81.1% *theirs* is **unverified**; treat as an
+audit object, not an endorsement (same discipline as
+openJev-verdict-2.0). Wire-compat and agent-routing
+are **separate** Harbor axes. mkeco GitHub ≠ mkzero
+Hub. Do not paste a Cerebellum URL into typesafe-sdk
+`base_url` (`notes.md` §87).
+**Laya-class vision (SmolVLM; `score` untrained;
+2026-09-19 ~16:52):**
+[thaitea/laya-vision-smolvlm-256m](https://huggingface.co/thaitea/laya-vision-smolvlm-256m)
+(CC-BY-NC-SA) + [r33drichards/laya-vision](https://github.com/r33drichards/laya-vision)
+(Apache-2.0). Same `predict(state, questions)` API;
+val n=8235 acc 75.2% ECE cal 0.034 *theirs*. `score`
+is untrained. **≠** blackwood-rlcd **≠** Archer.
+VQAv2 re-split is not published VQAv2 (`notes.md`
+§87).
+**Laya grounding tradeoffs — not a drop-in
+(2026-09-19 ~16:52):**
+[Luni/laya-grounded](https://huggingface.co/Luni/laya-grounded)
+(CC-BY-NC; GitHub 404). Grounding improved; phishing
+and routing-stability **regressed**. Platt, not
+temperature. Entropy-confidence ≠ max_prob
+(`notes.md` §87).
 **1-token logprob local endpoint (constrained-AR
 surface, not a trained head; 2026-09-19 ~07:49):**
 [chakuho](https://github.com/taku-me/chakuho) (MIT)
@@ -927,6 +957,12 @@ Jev 75.3 / SemIf 74.6 *theirs*; instruction models
 in the table; Laya absent gap; ≠ v1.1 87.6),
 §71 (openJev-verdict-2.0 competing NAR as claim-audit ≠
 IamBusy/OpenJev),
+§87 (laya-vision SmolVLM `score` untrained ≠ blackwood ≠
+Archer; Cerebellum-2B `/v1/decide` ≠ TypeSafe — wire-compat
+vs agent-routing as separate Harbor axes, competing NAR
+not endorsement; laya-grounded not drop-in / phishing
+regress / Platt not temperature; anima3 Qwen logprob
+default, jeff confidently flat, do not invent Laya),
 §49 (boundary map; DMB vs constrained LLMs; von; open-alternative-jev). Before
 adopting a surface, the bake-off is a jevals-shaped suite and, for a
 product loop, a Harbor taskset (`validation.md`, Eval & hill-climb).

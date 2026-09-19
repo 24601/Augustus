@@ -2043,3 +2043,140 @@ gate (rh-guard skip). 0.94/0.98 is LLM-as-judge on
 10×51 lines *theirs*, not Harbor. Stars ephemeral
 (0 → ★42 SIGNAL → **51** this pass). **≠** jevgrep
 **≠** jev-combinators. `notes.md` §86.
+
+## Does Jev write UI text? Is a valid GramSpec / A2UI tree a good screen?
+
+No, and no. Decision-validated UI: derive candidates from
+data/quotes, Jev *selects*, a compiler emits.
+[gram-render](https://github.com/wei-b0/gram-render) never
+authors a word — empty quotes → `unavailable`. Telegram
+4096-char / 64-byte `callback_data` prove the tree.
+[jev2ui](https://github.com/dglazkov/jev2ui): “Jev decides,
+Gemini writes, code assembles, a DESIGN.md paints.” Jobs
+11/11 vs Baseline 10/11 valid A2UI *theirs* is **validity**,
+not quality. schema-safe ≠ correct. Skip Archer: Jev never
+sees photographs. `notes.md` §87.
+
+## Is a meaning matcher a proof the product is right? Round 0.67?
+
+No, and no. [jevtest](https://github.com/realZachi/jevtest)
+is a Noul plus a threshold you validate on labelled
+outputs. Default 0.85 still soft (“roughly one in ten”).
+The band 0.15–0.85 fails *both* polarities on purpose
+(anti-round; cousin of commitjev). Exact ticket numbers /
+JSON / prices stay in `toContain`. Record/replay is CI
+without a key — not a live Noul as a merge seal.
+typesafe-ai/jevtest is **404**. **≠** jevassert. `notes.md`
+§87.
+
+## Hybrid S1: should I default jeff? Wait for Archer? Invent Laya?
+
+No, no, and no. [anima3](https://github.com/hulryung-uo/anima3)
+inverts anima2: closed verb menu + hard safety first (HP
+35% shrinks the menu); Qwen logprob default; scene is an
+**a11y tree**, not a screenshot. jeff/GLiFormer is
+*confidently flat on magnitude*. The user brief named Laya
+triage — the README does **not**; do not invent it. Skip
+Archer. License null. `notes.md` §87.
+
+## Is JevFind a patcher? Are 0.25 / 0.55 Harbor τ?
+
+No, and no. Path Noul then overlapping windows; code copies
+snippets. Thresholds still soft. Keyword still wins exact
+strings. **≠** jevex **≠** jev-semgrep. `notes.md` §87.
+
+## Is Jev 72.5% the class ceiling? Use Jev `confidence` as P(answer)?
+
+No, and no. [jev-frontier-bench](https://github.com/manjunathshiva/jev-frontier-bench)
+one run, 200 decisions, OpenRouter 19 Sep 2026. Jev 72.5%
+ECE 0.161 vs Fable 84% ECE 0.064 *theirs*. Cascade 82.5% at
+$4.41/1k is **in-sample** 0.9. ChaosNLI JS: Jev 0.149
+**worse than uniform 0.127**. Confidence is the top of
+`probabilities`, **not** the `confidence` field. **≠**
+jev-frontier-100 **≠** OmarMujahid/jev-decision-bench.
+`notes.md` §87.
+
+## GLiClass vs Jev — architecture duel? Skip the majority floor?
+
+No, and no. [jev-gliclass-bench](https://github.com/JoeSlain/jev-gliclass-bench)
+is a **product bakeoff**. GLiClass flattened one-question-at-a-time.
+Jev 78% vs GLiClass 40% vs majority **49%** n=100 *theirs*.
+40% < 49% is the finding. Teacher labels ≠ human GT.
+`notes.md` §87.
+
+## Four engines: does zero-shot beat fitted classical? Is ECE ranking?
+
+No, and no. [job-posting-triage](https://github.com/geckguy/job-posting-triage)
+majority floor **0.947** (53 fraud / 1000). Jev lands
+**exactly on it**. tfidf fitted on 12,725 labels **wins**.
+`llm_local` answered fraudulent for all 1000 at conf 1.0
+(ECE 0.947) — valid JSON, zero information. Calibration ≠
+discrimination. Jev via classifier.dev. `notes.md` §87.
+
+## Authorship check as evidence? Binary “is this AI?”
+
+No, and no. Named Choice escape: `human` /
+`ai_generated` / `uncertain`. README *theirs*: “not an AI
+detector you should trust as evidence.” A binary Noul
+collapses conflict and ignorance. Formal methods: this
+sensor must not authorize a disciplinary or legal act.
+`notes.md` §87.
+
+## Does ha-switchboard replace HA-Jev? Can Jev write HA YAML?
+
+No, and no. [ha-switchboard](https://github.com/grayslawson/ha-switchboard):
+“Home Assistant remains the source of truth and the
+execution authority.” Jev typed; one bounded LLM handoff;
+proposals re-enter allowlist / freshness / idempotency /
+post-state verify. **≠** AboveColin/HA-Jev (gallery still
+**17★**). Not for locks/heaters. `notes.md` §87.
+
+## Is n8n-nodes-jev official TypeSafe? Silent-best-route at 0.5?
+
+No, and no. Unofficial helper. Route by Choice + Low
+Confidence output (default 0.5 still soft). Arithmetic in
+Code/IF. Cost figures are TypeSafe ceiling, not Harbor.
+`notes.md` §87.
+
+## Is fast-jev-compaction-pi the same as pi-jev-compact?
+
+No. Three namesakes: **zaycruz/fast-jev-compaction-pi**
+(this hour’s dedicated Pi port of tamaratran/fast-jev-compaction;
+verbatim; fail-open to built-in LLM summary; ~50× *theirs*)
+**≠** pi-jev-compact **≠** pi-jev-compaction. `notes.md`
+§87.
+
+## Does jevloop climb Jev? Quote mock-mode quality?
+
+No, and no. Full distributions as a **value function**
+inside UCB1+CEM; **no LLM in the loop**. Mock mode is the
+Space default — control-loop demo, not a Jev quality
+headline. **≠** Ax/DSPy (those climb LM knobs). `notes.md`
+§87.
+
+## Is laya-vision Archer? blackwood? Quote `score`?
+
+No, no, and no. First Laya-class vision on SmolVLM.
+`score` questions are **untrained**. CC-BY-NC-SA. 75.2% /
+ECE cal 0.034 n=8235 *theirs*. VQAv2 yes/no re-split is
+**not** published VQAv2. Code:
+[r33drichards/laya-vision](https://github.com/r33drichards/laya-vision).
+Skip Archer. **≠** blackwood-rlcd. `notes.md` §87.
+
+## Drop Cerebellum into typesafe-sdk `base_url`? Endorse 94.92%?
+
+No, and no. `/v1/decide` is **not** TypeSafe
+`/v1/systemone`. mkeco GitHub ≠ mkzero Hub. Treat
+**wire-compat** and **agent-routing** (pointer over
+candidates) as separate Harbor axes. Competing NAR vs-Jev
+table is an **audit object**, not endorsement
+(openJev-verdict-2.0 discipline). 0.50 ActEscalate still
+soft. `notes.md` §87.
+
+## Is laya-grounded a drop-in Laya? Temperature-scale it?
+
+No, and no. Grounding 2/5→5/5 *theirs* while phishing
+**got worse** (0.611→0.512) and routing stability 2/3→1/3.
+“Temperature Scaling will not work… Use Platt.”
+`confidence` is normalised Shannon entropy, **not** top-p.
+CC-BY-NC. GitHub 404. `notes.md` §87.

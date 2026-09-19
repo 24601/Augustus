@@ -1003,6 +1003,64 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   jevex **≠** semgrep.dev. Do not copy npm / `npx` /
   `.env` / marketplace. No wrapper. No invented
   metrics.
+- Hourly 1047 HIGH + deferred 0945 backlog
+  (`research/notes.md` §87): **Skip Archer.** Docs-only
+  off main (PR #2 merged). How-to-apply / mental
+  models / architecture / Harbor-jevals — not
+  SWE-only. Formal methods compose with scoring; a
+  Noul is a SENSOR; hard-gating as test/PR/HA
+  write/authorship is soundness theater. Ten
+  clusters: decision-validated UI
+  ([gram-render](https://github.com/wei-b0/gram-render)
+  never authors text;
+  [jev2ui](https://github.com/dglazkov/jev2ui) Jev
+  decides / Gemini writes);
+  decision-as-assert
+  ([jevtest](https://github.com/realZachi/jevtest)
+  ambiguous band 0.15–0.85; 0.85 still soft);
+  hybrid S1
+  ([anima3](https://github.com/hulryung-uo/anima3)
+  Qwen logprob default; jeff confidently flat; do
+  **not** invent Laya);
+  pointer search
+  ([JevFind](https://github.com/Peu77/JevFind));
+  Harbor trio
+  ([jev-frontier-bench](https://github.com/manjunathshiva/jev-frontier-bench)
+  72.5%/ECE 0.161 vs Fable 84%/0.064 *theirs*;
+  ChaosNLI JS worse than uniform; **≠**
+  frontier-100;
+  [jev-gliclass-bench](https://github.com/JoeSlain/jev-gliclass-bench)
+  product bakeoff 78/40/49;
+  [job-posting-triage](https://github.com/geckguy/job-posting-triage)
+  majority floor 0.947 / tfidf wins / calibration ≠
+  discrimination);
+  authorship named escape (not evidence);
+  non-SWE
+  ([ha-switchboard](https://github.com/grayslawson/ha-switchboard)
+  HA remains execution **≠** HA-Jev;
+  [n8n-nodes-jev](https://github.com/vibe-with-me-tools/n8n-nodes-jev)
+  unofficial Low Confidence);
+  compaction delta
+  ([fast-jev-compaction-pi](https://github.com/zaycruz/fast-jev-compaction-pi)
+  **≠** pi-jev-compact **≠** pi-jev-compaction;
+  ~50× *theirs*);
+  full-distribution optimizer
+  ([jevloop](https://huggingface.co/spaces/async-dime/jevloop)
+  UCB1+CEM; no LLM in the loop; mock default);
+  deferred class
+  ([laya-vision](https://huggingface.co/thaitea/laya-vision-smolvlm-256m)
+  SmolVLM; `score` untrained; **≠** blackwood **≠**
+  Archer;
+  [Cerebellum-2B](https://github.com/mkeco/Cerebellum-2B)
+  `/v1/decide` ≠ TypeSafe; wire-compat vs
+  agent-routing as separate Harbor axes; competing
+  NAR **not endorsement**;
+  [laya-grounded](https://huggingface.co/Luni/laya-grounded)
+  not drop-in; phishing 0.611→0.512; Platt not
+  temperature). 0★ HIGHs still get real cards. Do
+  not copy npm / `pi install` / n8n / HA add-on /
+  `TYPESAFE_API_KEY`. No wrapper. No invented
+  metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

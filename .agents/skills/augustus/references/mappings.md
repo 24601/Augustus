@@ -336,6 +336,11 @@ Distinct from jevgrep (file/chunk) and jev-combinators
 (metaphor). Precision 0.94 / recall 0.98 *theirs* (not
 Harbor). **51★** ephemeral. LICENSE MIT (GitHub
 NOASSERTION). `notes.md` §61, §86.
+**Pointer path-then-window (Empirical as README,
+2026-09-19 ~16:52):**
+[JevFind](https://github.com/Peu77/JevFind) — score paths,
+open windows, copy snippets. 0.25/0.55 still soft. Not
+AST. **≠** jevex **≠** jev-semgrep. `notes.md` §87.
 **Evidence-packet explorer (Empirical as their performance.md,
 author-run):**
 [jev-semantic-explorer](https://github.com/jimmyhealer/jev-semantic-explorer)
@@ -699,6 +704,13 @@ confidence gating on typed sensors; **not** for locks /
 heaters / smoke. `background:` on the question triples
 laundry separation *theirs*. Treat 0.9 as higher than
 0.6, not as right nine times in ten (`notes.md` §68).
+**Portable HA control (Empirical as README; 2026-09-19
+~16:52):**
+[ha-switchboard](https://github.com/grayslawson/ha-switchboard)
+— HA remains source of truth and execution; Jev typed;
+one bounded LLM handoff; allowlist / freshness /
+idempotency / post-state verify. **≠** HA-Jev. Not for
+locks/heaters (`notes.md` §87).
 **Stop-hook attention (Empirical as owner-run smoke):**
 [jev-preflight](https://github.com/muse0509/jev-preflight)
 — 0.85 uncalibrated; fail-open; one reinspect. Criterion

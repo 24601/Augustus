@@ -490,6 +490,27 @@ Architecture notes, not an npm / `npx` / `.env` / marketplace catalog. `notes.md
 
 - **uehaj/jev-semgrep** — JavaScript; MIT LICENSE / GitHub SPDX NOASSERTION; **51★** ephemeral (SIGNAL ★42; §61 0★); 2 forks / 0 issues. HEAD `21120e9`; README SHA `923e6a5`. Grep by meaning; proposition ≠ embedding; contrast-set refund; AND/OR/NOT after threshold (do not multiply p). Cross-lingual; no index. **≠** [semgrep.dev](https://semgrep.dev) **≠** jevgrep **≠** jev-combinators. 0.94/0.98 *theirs* 10×51, not Harbor. Do not copy npm / marketplace.
 
+### Hourly ~10:47 Boise 2026-09-19 / 16:52 UTC (1047 HIGH + deferred 0945)
+
+Architecture / mental models / Harbor-jevals, not an npm / `pi install` / n8n / HA add-on catalog. `notes.md` §87. Skip Archer. Quote READMEs. 0★ HIGHs still get real cards. Formal methods compose with scoring; hard-gating a Noul is soundness theater.
+
+- **wei-b0/gram-render** — MIT; **0★**; npm 0.1.0; README SHA `dd5fb44`. Jev never authors UI text. Derive → select → layout → validate. Live [t.me/gramrender_bot](https://t.me/gramrender_bot). **≠** json-render **≠** jev2ui.
+- **realZachi/jevtest** — MIT; **1★**; npm 0.1.0; README SHA `6e432fc`. Meaning matchers; ambiguous 0.15–0.85 fails both; 0.85 still soft. typesafe-ai/jevtest **404**. **≠** jevassert.
+- **dglazkov/jev2ui** — Apache-2.0; **0★**; README SHA `f0d477fc`. Jobs 11/11 vs Baseline 10/11 valid A2UI *theirs*. Valid ≠ good.
+- **hulryung-uo/anima3** — license null; **0★**; README SHA `68d6eb5`. Qwen logprob default; jeff confidently flat; a11y tree. Do not invent Laya.
+- **Peu77/JevFind** — Rust MIT; **1★**; README SHA `0588181`. Path then window. 0.25/0.55 still soft.
+- **manjunathshiva/jev-frontier-bench** — MIT; **0★**; README SHA `a6a8447`. Jev 72.5% ECE 0.161 vs Fable 84% ECE 0.064 *theirs*. ChaosNLI JS worse than uniform. **≠** jev-frontier-100.
+- **JoeSlain/jev-gliclass-bench** — MIT; **0★**; README SHA `335043e`. Product bakeoff 78/40/49 n=100 *theirs*.
+- **geckguy/job-posting-triage** — MIT LICENSE / GitHub SPDX other; **0★**; README SHA `bdafb39`. Majority floor **0.947**; tfidf wins; calibration ≠ discrimination.
+- **webstercharly/jev-authorship-check** — license null; **0★**; README SHA `72b0032`. Named escape; not evidence.
+- **grayslawson/ha-switchboard** — Apache-2.0; **0★**; README SHA `1ee9e35`. HA remains execution. **≠** AboveColin/HA-Jev.
+- **vibe-with-me-tools/n8n-nodes-jev** — MIT; **1★**; npm 0.2.2; README SHA `2e3aa2c`. Unofficial. Low Confidence abstention.
+- **zaycruz/fast-jev-compaction-pi** — MIT; **0★**; npm 0.1.1; README SHA `809c0bd`. ~50× *theirs*. **≠** pi-jev-compact **≠** pi-jev-compaction.
+- **async-dime/jevloop** — HF Space Apache-2.0; **0 likes**. UCB1+CEM; no LLM in the loop; mock default.
+- **thaitea/laya-vision-smolvlm-256m** — Hub CC-BY-NC-SA; code r33drichards/laya-vision Apache-2.0. 75.2% / ECE cal 0.034 n=8235 *theirs*. `score` untrained. **≠** blackwood **≠** Archer.
+- **mkeco/Cerebellum-2B** — Apache LICENSE / GitHub SPDX other; **1★**. Hub mkzero. `/v1/decide` ≠ TypeSafe. Competing NAR **not endorsement**.
+- **Luni/laya-grounded** — Hub CC-BY-NC; GitHub 404. Not a drop-in; phishing 0.611→0.512; Platt not temperature.
+
 Census **not re-derived**. Archer still NOT landed.
 
 See `references/mixed-architecture.md` in the skill. Class-level family

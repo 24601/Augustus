@@ -12549,3 +12549,847 @@ gallery); `faq.md`; `mental-models.md`;
 `composition-algebra.md` item 26;
 `question-design.md`; `methods-catalog.md`.
 Hunches labeled. No wrapper.
+
+## 87. Hourly 1047 HIGH + deferred 0945 backlog (2026-09-19 ~10:47 Boise / ~16:52 UTC)
+
+Docs-only off **main** (PR #2 already merged). **Skip Archer.**
+Quote READMEs / Hub cards. Not a hit list. Do **not**
+re-fold §50–§86 HIGH except sibling contrast. Hunches
+labeled. No wrappers, npm / `npx` / `.env` /
+`TYPESAFE_API_KEY` / plugin marketplace as recipes,
+dumped CLI flags, or invented metrics. 0★ HIGHs still
+get **real cards** — the user named them HIGH.
+
+This hour is **how-to-apply / mental models /
+architecture / Harbor-jevals practice**, not SWE-only.
+Typed judgment (Choice / Score / Noul) is a portable
+sensor: expected utility, abstention, VOI, MCDA, SDT,
+search/control, Leveson. Formal methods **compose**
+with categorization and scoring. A Noul is a SENSOR,
+not a discharged proof. Hard-gating a soft judgment
+as a test pass, PR merge, quality seal, or HA write
+is **soundness theater**.
+
+### How-to-apply (ten clusters, then the cards)
+
+1. **Decision-validated UI** — derive candidates from
+   data/quotes; Jev *selects*; a compiler emits.
+   Jev never authors a word. Empty quotes →
+   unavailable. Exact envelopes (Telegram 4096 /
+   64-byte `callback_data`; A2UI schema) prove the
+   tree; a valid tree is not “the UI is good.”
+   gram-render + jev2ui. Cousin: json-render / jev-gpt
+   never-free-generates.
+2. **Decision-as-assert** — meaning Noul vs exact
+   `toContain`. Default 0.85 still soft. The
+   **ambiguous band** (0.15–0.85) fails *both*
+   polarities on purpose (anti-round; cousin of
+   commitjev middle band). Record/replay for CI
+   without a key. Exact values stay in ordinary
+   assertions. jevtest. Cousin: jevassert.
+3. **Hybrid S1** — closed verb menu + hard safety
+   first (code proves the irreversible act); a
+   logprob / encoder pick among *valid* verbs; low
+   conf falls back to the rule. Scene is an a11y
+   tree, not a screenshot. Skip Archer. anima3.
+   jeff/GLiFormer is *confidently flat on magnitude*
+   — do not default it for numeric state.
+4. **Pointer-not-generator search** — path Noul then
+   window; Jev picks files/line ranges; code copies
+   snippets. File-threshold 0.25 / window 0.55 still
+   soft. JevFind. Cousin: jevex / jev-semgrep /
+   choxos.
+5. **Harbor bake-offs, three shapes** — (a) Jev vs
+   *frontier LLMs* on typed decisions (product
+   economics + ECE, not a stack replacement);
+   (b) Jev vs GLiClass as a **product bakeoff**, not
+   an architecture duel (GLiClass flattened
+   one-question-at-a-time); (c) four *kinds* of
+   engine, same questions (fitted classical vs
+   zero-shot vs encoder vs local instruct). Always
+   name the majority floor. Calibration ≠
+   discrimination. LLM-as-judge is not the System
+   One score. ECE/NLL/Brier on *your* labels.
+6. **Named-escape authorship** — Choice
+   `human` / `ai_generated` / `uncertain`. Not
+   courtroom evidence. Noul would collapse conflict
+   and ignorance.
+7. **Non-SWE product patterns** — Home Assistant
+   remains execution authority; Jev is a typed
+   sensor; one bounded LLM handoff. n8n
+   classify/route/score with a Low Confidence
+   output. Business/ops, not a coding agent.
+8. **Compaction delta** — dedicated Pi port of
+   fast-jev-compaction: verbatim keep/drop, never
+   summarize; fail-open to the built-in LLM
+   summary. **≠** pi-jev-compact **≠**
+   pi-jev-compaction.
+9. **Full-distribution optimizer** — Jev as a
+   *value function*, not an argmax. UCB1 picks the
+   weak+uncertain axis; CEM samples deterministic
+   edit ops; **no LLM in the loop**. Mock mode is
+   the default (control-loop demo, not a Jev
+   quality headline).
+10. **Deferred class: vision / competing NAR /
+    grounding tradeoffs** — first Laya-class vision
+    (SmolVLM; `score` untrained; CC-BY-NC-SA);
+    Cerebellum-2B pointer over candidates on
+    `/v1/decide` (**not** TypeSafe `/v1/systemone`)
+    — treat **wire-compat** and **agent-routing** as
+    separate Harbor axes; laya-grounded is **not a
+    drop-in** (phishing and routing-stability
+    regress; Platt, not temperature).
+
+Skip Archer this fold. Text-state and a11y trees;
+laya-vision is a *different* backbone (SmolVLM), not
+Archer. blackwood-rlcd remains the open multimodal
+RLCD that ships now.
+
+### Formal compose (anti-soundness-theater)
+
+Exact envelopes this hour: Telegram char/callback
+limits; HA writes (allowlist, freshness, idempotency,
+post-state verify); ordinary test assertions
+(ticket numbers, JSON, prices); closed verb menus
+and HP/safety floors; n8n IF/Code arithmetic;
+compaction `minReductionRatio` fail-open. The model
+owns **narrow judgment only**. Hard-gating a Noul
+as CI pass / PR merge / quality seal / HA actuator
+/ authorship proof is the same theater as
+totally-tim/jev-gate §79.
+
+### HIGH (1047)
+
+1. **[`wei-b0/gram-render`](https://github.com/wei-b0/gram-render)**
+   — NEW HIGH (decision-validated UI). Quote,
+   don’t dump.
+
+   **Receipts.** TypeScript; MIT; **0★** (still a
+   real card). npm `gram-render` **0.1.0**. Created
+   2026-09-19T08:49Z. README SHA `dd5fb44`. Live
+   [t.me/gramrender_bot](https://t.me/gramrender_bot).
+
+   **Quote README (*theirs*).** “JEV-powered
+   generative UI for Telegram bots.” “Under the
+   hood, composition runs on JEV … a decision model
+   that can only make calibrated discrete choices,
+   never write text. That constraint is the safety
+   property: **every string in the output comes from
+   your data or your prompt** — gram-render never
+   invents prose.” Pipeline: **Derive** candidates
+   from `prompt + context` → **Select** (one JEV
+   call) → **Layout** (one JEV call, only when
+   non-trivial) → **Validate** “the tree, prop
+   schemas, and Telegram’s real limits (4096-char
+   text, 64-byte `callback_data`).” “A prompt with
+   nothing quotable … returns `stopReason:
+   "unavailable"` — an empty result instead of an
+   invented card.” “gram-render never talks to
+   Telegram.” “Jev cannot invent text, and that’s a
+   feature.” Edit loop: `remove` / `replace` /
+   `move` / `add` / `finish` — “the same protocol
+   shape proven by Vercel’s `json-render` composer.”
+
+   **How to apply (any domain that emits a UI):**
+   when a generative surface is tempting, ask
+   *where do the strings come from?* If the catalog
+   is closed (Telegram components, A2UI kit, a
+   DESIGN.md), **derive → select → compile**. Jev
+   never writes the heading. Formal methods own
+   the envelope (char limits, callback bytes, schema
+   slots). A valid GramSpec is not a good screen —
+   schema-safe ≠ correct.
+
+   **Name locks:** ≠ json-render (Vercel; cited
+   protocol cousin) ≠ jev2ui (A2UI / DESIGN.md;
+   Gemini writes words) ≠ jev-gpt (tree of word
+   Choices) ≠ jev-agentworld-web-simulator.
+
+   **Harbor:** no quality headline. `minConfidence`
+   is a product gate, still soft. Do not copy npm /
+   `.env` / bot token.
+
+2. **[`realZachi/jevtest`](https://github.com/realZachi/jevtest)**
+   — NEW HIGH (decision-as-assert). Quote, don’t
+   dump.
+
+   **Receipts.** TypeScript; MIT; **1★**. npm
+   `jevtest` **0.1.0**. README SHA `6e432fc`.
+   Created 2026-09-19T16:30Z. README clone URL
+   `typesafe-ai/jevtest` is **404** — **realZachi**
+   is the repo.
+
+   **Quote README (*theirs*).** “Semantic test
+   matchers for Vitest and Jest.” “Jev does not
+   generate text.” `toSatisfy` passes when
+   `probability >= min` (default **0.85**);
+   `not.toSatisfy` when `probability <= max`
+   (default **0.15**). “The band between the two
+   thresholds fails both forms on purpose. If a
+   probability is 0.67 … Silently calling that a
+   pass or a fail would make the suite look
+   decisive when it is not.” Record/replay:
+   `JEVTEST_MODE=record` then `replay`; “A miss is
+   an error rather than a silent pass.” “Keep exact
+   things in normal assertions. Ticket numbers,
+   JSON shapes, status codes and prices belong in
+   `toContain`, `toEqual` and schema checks.”
+   “The model can be wrong. Probabilities are
+   calibrated, not certain; a 0.9 threshold still
+   lets through roughly one in ten borderline
+   cases.” “Text and JSON only.”
+
+   **How to apply:** when a test wants *meaning*
+   (“apologizes politely”) rather than a substring,
+   the matcher is a Noul plus a **threshold you
+   validate on labelled outputs**. Exact work stays
+   exact. Ambiguous band = cannot-tell, never
+   rounded (cousin of Noul 0.5 and commitjev
+   0.35–0.65). CI without a key is **replay**, not
+   a live Noul as a merge seal. 0.85 is *theirs*,
+   still soft — hard-gating it as “the test proved
+   the product” is soundness theater.
+
+   **Name locks:** ≠ typesafe-ai/jevtest (404) ≠
+   jevassert (pack CI, offline from recordings) ≠
+   dinostomp (`jev` as if-statement) ≠ jevcumber.
+
+   **Harbor:** no labeled suite here. Thresholds
+   are policy. Do not copy npm / `.env`.
+
+3. **[`dglazkov/jev2ui`](https://github.com/dglazkov/jev2ui)**
+   — NEW HIGH (typed decisions drive UI). Quote,
+   don’t dump.
+
+   **Receipts.** TypeScript; Apache-2.0; **0★**.
+   README SHA `f0d477fc`. Slogan *theirs*: “Jev
+   decides, Gemini writes, code assembles, a
+   DESIGN.md paints.”
+
+   **Quote README (*theirs*).** “Jev is a decision
+   model. It cannot generate text or JSON.” “Jev
+   is good at reading a person’s situation from a
+   request and weak at design judgement, so ask it
+   about the job and keep the design knowledge in
+   code.” Jobs vs Sections vs Baseline eval
+   (11 prompts, `gemini-3.5-flash-lite`,
+   `jev-1.13.0`) *theirs*: Jobs **11/11** valid
+   A2UI, Sections **11/11**, Baseline **10/11**.
+   Mock trees: `npm run eval -- --only mock` over
+   13 prompts: **13/13** valid. “Whether
+   job-driven screens are *better* screens is a
+   judgement the table cannot make.” Pictures:
+   Jev picks among captions; “none of these”
+   because “a wrong photograph is worse than a
+   painted frame.” “Jev cannot describe a
+   photograph.” DESIGN.md mix: Scores become OKLCH
+   (expected value between levels); hue is a Choice
+   (circular mean). Remix draws from the already-
+   returned **distribution** — no second request.
+
+   **How to apply:** same sandwich as gram-render,
+   with a writer for leftover words. Ask Jev
+   **jobs** (situation), keep patterns in code.
+   Validity of A2UI ≠ quality of the screen.
+   Sampling a Score distribution (remix) is the
+   jevloop cousin: the full distribution is the
+   artifact, not the argmax.
+
+   **Name locks:** ≠ gram-render (Telegram catalog;
+   no writer) ≠ json-render ≠ a2ui-project/a2ui
+   (the kit is a fork) ≠ blackwood (pixels in the
+   *decision*). Skip Archer: Jev never sees
+   photographs.
+
+   **Harbor:** 11-prompt / 13-prompt cards *theirs*,
+   not a taskset. Baseline prompt is hand-written.
+
+4. **[`hulryung-uo/anima3`](https://github.com/hulryung-uo/anima3)**
+   — NEW HIGH (hybrid S1). Quote, don’t dump.
+
+   **Receipts.** Python; **license null** (no
+   LICENSE; pyproject no license); **0★**. README
+   SHA `68d6eb5`. Tests first:
+   [hulryung/jev-testbed](https://github.com/hulryung/jev-testbed).
+
+   **Quote README (*theirs*).** “anima2 is 80K
+   lines of rules with an LLM that *writes* JSON to
+   pick from a list. anima3 inverts it: the body’s
+   Observation becomes a short **text scene** (an
+   accessibility tree, not a screenshot), code
+   enumerates the **verbs that are valid right now**
+   (a closed vocabulary with hard safety limits
+   baked in), and a local model picks one by
+   reading the **log-probabilities of the option
+   letters** — it never generates text.” “A dead
+   character offers no verbs; below 35% HP next to
+   a hostile the menu is *only* flee/bandage — the
+   model cannot pick anything else, by
+   construction.” “jeff/GLiFormer (400M encoder)
+   reads presence/absence but not magnitude; on
+   numeric JSON it is *confidently flat* (conf 0.6,
+   state ignored).” “Qwen3-4B in logprob mode
+   reads magnitudes … **96–150 ms** … $0. Default
+   backend.” “Confidence is a **gate**, not a
+   truth.” Offline *theirs*: hostile — rule flees
+   forever, model holds then rule attacks when
+   adjacent; ambush — rule flees to 4% HP, model
+   bandages at conf 0.95, min 18%. jeff economy
+   run: 62 calls → **0** admitted. README
+   contradiction: “Not yet: No economy” while an
+   Economy section reports live gold.
+
+   **How to apply (games, robotics, ops runbooks):**
+   **hard safety first** (code shrinks the menu);
+   S1 picks among remaining verbs; low conf → the
+   rule. Perception as **text-state / a11y**, not
+   pixels. Do not default an encoder that is
+   confidently flat on magnitude. Uncalibrated
+   logprob ≠ Noul (cousin of chakuho / PCD).
+   Do not replace A* / procedures with a pick —
+   README: economy **procedures** own most ticks;
+   the model chooses the next *admissible* verb.
+
+   **Name locks:** ≠ jeff (pluggable, not default)
+   ≠ logan-markewich/jeff ≠ khordoo reflex lab
+   (S2 one-use) ≠ typesafe-computer-use. Skip
+   Archer.
+
+   **Harbor:** offline 20-tick scenarios + live
+   ServUO cards *theirs*, not a taskset. 0.35 gate
+   still soft. License null.
+
+5. **[`Peu77/JevFind`](https://github.com/Peu77/JevFind)**
+   — NEW HIGH (semantic code search). Quote,
+   don’t dump.
+
+   **Receipts.** Rust; MIT; **1★**. README SHA
+   `0588181`. Binary `jev-code-finder`.
+
+   **Quote README (*theirs*).** “Describe a
+   concept in plain English and get the relevant
+   files, line ranges, confidence scores, and
+   source snippets.” “Unlike text search, Jev Code
+   Finder searches for meaning.” Two-pass: score
+   each **path**, open only those meeting
+   `--file-threshold` (default **0.25**), then
+   overlapping **windows** at `--threshold`
+   (default **0.55**). “Results are overlapping
+   code windows, not exact AST or function
+   boundaries.” “Matching source code and file
+   paths are sent to the TypeSafe API.”
+
+   **How to apply:** pointer-not-generator on a
+   repo walk. Path filter is VOI (don’t pay for
+   windows on irrelevant files). Thresholds still
+   soft; `--file-threshold 0` when recall matters.
+   Keyword still wins exact strings (jev-semgrep /
+   jevgrep discipline). Not a patcher; not a gate.
+
+   **Name locks:** ≠ jevex (index-once packets) ≠
+   jev-semgrep (line Nouls + boolean) ≠ jevgrep
+   (packed files) ≠ kazuhideoki/jev-search.
+
+   **Harbor:** no labeled retrieval card. Do not
+   copy cargo / `.env`.
+
+6. **[`manjunathshiva/jev-frontier-bench`](https://github.com/manjunathshiva/jev-frontier-bench)**
+   — NEW HIGH (Jev vs frontier bake-off). Quote,
+   don’t dump.
+
+   **Receipts.** Python; MIT; **0★**. README SHA
+   `a6a8447`. OpenRouter **19 September 2026**;
+   whole run **$4.83**. 200 decisions, four public
+   datasets, seed 20260919, 50/task.
+
+   **Quote README (*theirs*).** Jev 1.13
+   **72.5%** (66.0–78.5) ECE **0.161**, $**0.025**/1k,
+   p50 **0.43 s**. Claude Fable 5.1 **84.0%** ECE
+   **0.064**, $11.81/1k. Only Fable (+11.5) and
+   GPT-6 Astra (+6.5) clearly ahead; others within
+   noise. Cascade *theirs* (threshold in-sample):
+   Jev when top p ≥ 0.9 else Fable → **82.5%** at
+   **$4.41**/1k (**37%** of Fable). ChaosNLI JS
+   divergence: Fable **0.043**; Jev **0.149**;
+   **uniform 1/3 scores 0.127, which beats Jev**.
+   “Confidence is the probability a model gave its
+   own answer. For Jev that is the top value of
+   `probabilities`, not its `confidence` field.”
+   “50 items per task: per-task differences under
+   about 10 points are within noise.” **≠**
+   [OmarMujahid/jev-decision-bench](https://github.com/OmarMujahid/jev-decision-bench)
+   (cited as earlier comparison). **≠**
+   jev-frontier-100 (thinking-budget 100-q).
+
+   **How to apply (jevals / Harbor practice):**
+   same items, native typed questions vs JSON-
+   schema LLMs, report **accuracy + ECE + latency
+   + $**, name the majority/human floor, and
+   **do not treat Jev `confidence` as P(answer)**.
+   Cascade is VOI: pay the frontier only where S1
+   is not sure — but the 0.9 cut here is
+   **in-sample**. ChaosNLI: a uniform guess can
+   beat a miscalibrated model on JS — calibration
+   is not optional. LLM-as-judge is not this
+   score; these are gold labels.
+
+   **Harbor caveats:** one run, one region,
+   OpenRouter; Jev early-access
+   `jev-1.13-20260917`; cascade cut not held-out;
+   BANKING77 78-option schema too large for
+   Anthropic so LLMs returned answer+one
+   confidence. Do not paste 72.5% as a class
+   ceiling.
+
+7. **[`JoeSlain/jev-gliclass-bench`](https://github.com/JoeSlain/jev-gliclass-bench)**
+   — NEW HIGH (Jev vs GLiClass). Quote, don’t dump.
+
+   **Receipts.** Python; MIT; **0★**. README SHA
+   `335043e`. n=100, seed=42,
+   `LocalLLaMA/typed-decisions` `customer_service`.
+
+   **Quote README (*theirs*).** “This is a
+   **product bakeoff**, not a pure ‘same
+   architecture’ classifier duel.” Jev **78%**;
+   GLiClass **40%**; majority **49%**. GLiClass:
+   ticket + **one question at a time**, all
+   flattened to label prompts; Jev: whole ticket +
+   **all** questions together, native
+   Choice/Noul/Score. Teacher labels, “not human
+   ground truth.” “Teacher agreement ≠ real-world
+   correctness. Latency is not comparable (API vs
+   local CPU).” McNemar n10=216, n01=24.
+   Dataset floors: majority ~0.52 · strong ~0.70 ·
+   teacher self-agreement ~0.75.
+
+   **How to apply:** when someone says “GLiClass
+   vs Jev,” ask whether the **product contract**
+   (batched typed questions vs one-label encoder
+   pass) is the thing being measured. Flattening
+   Score/Noul into labels is a **species mix**.
+   Always print the majority floor — 40% < 49% is
+   the finding. Prefer log loss / Brier over
+   `ece_maxprob`.
+
+   **Name locks:** ≠ open-jev-laya-bench ≠
+   job-posting-triage (four engines) ≠ GLiNER
+   locate.
+
+8. **[`geckguy/job-posting-triage`](https://github.com/geckguy/job-posting-triage)**
+   — NEW HIGH (four engines, same questions).
+   Quote, don’t dump.
+
+   **Receipts.** Python; MIT LICENSE on disk
+   (GitHub SPDX **other**); **0★**. README SHA
+   `bdafb39`. Jev via **classifier.dev** (keyless).
+   n=1000 seeded sample of 3,182-row test split
+   (53 fraud positives). Majority-class floor
+   **0.947**.
+
+   **Quote README (*theirs*).** “Calibration and
+   discrimination are different questions, and that
+   is the finding worth keeping. Jev’s stated
+   confidence is honest about its own correctness
+   (ECE 0.046), yet its implied probability of
+   fraud ranks postings poorly.” “No zero-shot arm
+   beats the floor by more than a single posting”
+   (Jev lands **exactly on it** at 0.947). `tfidf`
+   fitted on 12,725 labelled postings **wins**
+   (acc 0.970, F1 0.700) — “not a fair fight.”
+   `llm_local` answered `fraudulent` for **all
+   1000** at confidence **1.0** (ECE **0.947**).
+   GLiNER pooling: three+ tasks in one schema
+   **inverts** fraud ranking; the arm therefore
+   uses **four** encoder passes. Two questions are
+   **platform tags**, not text-derived truth.
+   Labels and visible text disagree (false
+   negatives look ordinary; false positives look
+   like scams).
+
+   **How to apply (business / knowledge work):**
+   four-engine Harbor: **fitted classical still
+   wins on a stable labeled taxonomy**; zero-shot
+   System One is a different job. **Always print
+   the majority floor** on rare positives.
+   Calibration ≠ sortable / ≠ PR-AUC. A local
+   instruct model that emits valid JSON at p=1.0
+   on every row has **stopped carrying
+   information**. classifier.dev is the public
+   decide-backend (§73), not a chatbot. Rubric
+   ablation is a first-class arm.
+
+   **Name locks:** ≠ classifier-dev product card
+   (this is a consumer) ≠ GLiNER2 Ultrafast CU ≠
+   jav-email-cascade.
+
+   **Harbor:** 53 positives; intervals overlap;
+   dataset 2014–2018 may contaminate LLM arms;
+   LinkedIn demo is unlabelled. README cells
+   checked against `metrics.json`.
+
+9. **[`webstercharly/jev-authorship-check`](https://github.com/webstercharly/jev-authorship-check)**
+   — NEW HIGH (human / AI / uncertain). Quote,
+   don’t dump.
+
+   **Receipts.** Python; **license null**; **0★**.
+   README SHA `72b0032`.
+
+   **Quote README (*theirs*).** “This is not an
+   AI detector you should trust as evidence.”
+   Labels: `human` / `ai_generated` / `uncertain`.
+   “The script deliberately includes `uncertain`
+   for short, edited or ambiguous text. A
+   classification is only a model judgement, not
+   proof of authorship.”
+
+   **How to apply:** named Choice **escape** when
+   conflict ≠ ignorance (typed-evaluation-collapse
+   cousin). A binary Noul “is this AI?” is the
+   wrong primitive. Formal methods: this sensor
+   must not authorize a disciplinary or legal act.
+   Knowledge-work / publishing / classroom — same
+   placement: triage to a human, never a seal.
+
+   **Harbor:** throwaway experiment; tests do not
+   call Jev. No accuracy headline.
+
+10. **[`grayslawson/ha-switchboard`](https://github.com/grayslawson/ha-switchboard)**
+    — NEW HIGH (portable Jev control for Home
+    Assistant). Quote, don’t dump.
+
+    **Receipts.** Python; Apache-2.0; **0★**.
+    README SHA `1ee9e35`.
+
+    **Quote README (*theirs*).** “Home Assistant
+    remains the source of truth and the execution
+    authority.” “Jev returns typed decisions. It
+    does not generate prose, YAML, service JSON,
+    credentials, or arbitrary tool plans.” “A
+    traditional LLM receives at most one bounded
+    handoff per turn.” “All proposals re-enter
+    policy, confirmation, allowlist, freshness,
+    idempotency, execution, and post-state
+    verification before a Home Assistant write.”
+
+    **How to apply (physical-world S1, not SWE):**
+    Leveson: Jev SENSOR, HA constraint + actuator.
+    Not for locks/heaters/smoke (same as HA-Jev).
+    One bounded LLM handoff is leftover prose /
+    an *advisory* typed proposal — never a write.
+    Formal envelope: allowlist, freshness,
+    idempotency, post-state verify.
+
+    **Name locks:** ≠ [AboveColin/HA-Jev](https://github.com/AboveColin/HA-Jev)
+    (MIT; gallery still **17★** in cards; this
+    pass treat stars as ephemeral) ≠ jev-voice-
+    control. Skip Archer.
+
+    **Harbor:** pytest + compileall; no ECE.
+
+11. **[`vibe-with-me-tools/n8n-nodes-jev`](https://github.com/vibe-with-me-tools/n8n-nodes-jev)**
+    — NEW HIGH (n8n classify/route/score). Quote,
+    don’t dump.
+
+    **Receipts.** TypeScript; MIT; **1★**. npm
+    `n8n-nodes-jev` **0.2.2**. README SHA
+    `2e3aa2c`. **Unofficial** helper (Brains of
+    Bots); not TypeSafe.
+
+    **Quote README (*theirs*).** “It doesn’t write
+    text, so there’s no JSON to parse.” **Route by
+    Choice** “works like a Switch node where Jev
+    makes the decision. Tickets Jev isn’t
+    confident about go to a separate output.”
+    Low Confidence default threshold **0.5**.
+    “Arithmetic, counting, or comparing dates. Do
+    those in a Code or IF node.” “Images, audio,
+    or files. Jev reads text only.” Cost/latency
+    figures are TypeSafe docs as of September
+    2026 — treat as **ceiling**, not Harbor
+    (Akshay discipline).
+
+    **How to apply (business workflows):** the
+    judgment step in an automation is a typed
+    question; thresholds live in the workflow;
+    Low Confidence is abstention, not a silent
+    best-route. Mixed architecture: LLM writes;
+    Jev decides; Code/IF owns exact work.
+
+    **Name locks:** ≠ TypeSafe n8n (there isn’t
+    one) ≠ classifier.dev HTTP ≠ ask-jev-ai wall.
+
+    **Harbor:** Vitest with a fake API; example
+    workflows are fixtures. 0.5 still soft.
+
+12. **[`zaycruz/fast-jev-compaction-pi`](https://github.com/zaycruz/fast-jev-compaction-pi)**
+    — NEW HIGH (dedicated Pi compaction delta).
+    Quote, don’t dump. Light-noted as MED
+    (~notes 5795); this is the **productization**
+    of that one-liner (same move as jev-semgrep
+    §86 over §61).
+
+    **Receipts.** TypeScript; MIT; **0★**. npm
+    **0.1.1**. README SHA `809c0bd`. Vendored
+    upstream [tamaratran/fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction).
+
+    **Quote README (*theirs*).** “replaces the
+    compaction summary with **Jev decisions** …
+    everything kept stays verbatim. User and
+    assistant text is never rewritten or
+    summarized.” “Missing API key, Jev errors,
+    timeouts, unfittable histories, and spans
+    where Jev’s decisions reduce less than
+    `minReductionRatio` all decline: pi’s built-in
+    LLM summary runs instead. Nothing is ever
+    half-applied.” Bench *theirs* (`large`, real
+    Jev): compaction **~50×** faster than LLM
+    summary; recommended
+    `preserveCallInputs: true` +
+    `preserveErrorTails: 1200` keeps **8/8**
+    commands + **17/17** paths; memory QA **6/8**
+    ties the built-in summary. Pure mode drops
+    old tool calls. `/compact` *with focus
+    instructions* defers to the built-in summary.
+
+    **How to apply:** pointer compaction on Pi;
+    fail-open to the host summarizer; never
+    rewrite kept bytes. 0.5 `keepThreshold` still
+    soft. Continuity via
+    `details.fastJev.messages` so you do not
+    re-summarize a summary.
+
+    **Name locks:** ≠ [vava-nessa/pi-jev-compaction](https://github.com/vava-nessa/pi-jev-compaction)
+    **≠** [pi-jev-compact](https://github.com/dev-willbird1936/pi-jev-compact)
+    (verbatim summarizer replacement already folded).
+    Always write **zaycruz/fast-jev-compaction-pi**.
+
+    **Harbor:** bench has its own
+    `bench/ADVERSARIAL-REVIEW.md` *theirs*. Two
+    synthetic-ish seeded sessions, not a survey.
+    Do not copy `pi install`.
+
+13. **[`async-dime/jevloop`](https://huggingface.co/spaces/async-dime/jevloop)**
+    — NEW HIGH (distribution-guided optimizer).
+    Quote, don’t dump.
+
+    **Receipts.** Hugging Face Space; Apache-2.0;
+    **0 likes**. Mock mode **default**.
+
+    **Quote README (*theirs*).** “treats Jev …
+    not as an argmax classifier, but as a
+    **continuous value function** inside a closed
+    optimization loop.” “JevLoop uses the **full
+    probability distributions**.” UCB1 picks which
+    rubric axis to attack; CEM samples
+    deterministic edit operators; stop when value
+    plateaus **and** entropy drops. “There is
+    **no LLM in the loop**.” “The app below runs
+    in **mock mode** by default … it demonstrates
+    the *control loop*, not Jev itself.” Guards
+    (overclaim / fabrication / dismissive /
+    meaning drift) veto candidates.
+
+    **How to apply (knowledge work / copy /
+    résumé / support replies):** the unused half
+    of a System One answer is the **distribution**.
+    Bandits + CEM over *operators in code*, critic
+    is Jev. Remix in jev2ui is the same idea
+    without a loop. Do not quote mock-mode
+    quality. ~$0.0004/critique is TypeSafe
+    economics, not a measured win here.
+
+    **Name locks:** ≠ Ax/DSPy (those climb LM
+    knobs; this has **no LM**) ≠ slo-router
+    (Jev as optimizer *feature*).
+
+    **Harbor:** mock critic is a simulation.
+    Real-API path needs a key; Space default is
+    mock.
+
+### Deferred 0945 (still HIGH — user named the backlog)
+
+14. **[`thaitea/laya-vision-smolvlm-256m`](https://huggingface.co/thaitea/laya-vision-smolvlm-256m)**
+    + code [`r33drichards/laya-vision`](https://github.com/r33drichards/laya-vision)
+    — first **Laya-class vision** decision model.
+
+    **Receipts.** Hub weights **CC-BY-NC-SA**
+    (ScienceQA); code Apache-2.0. **0 likes /
+    0★**. GitHub GraphQL 404 if you look for
+    `thaitea/laya-vision-smolvlm-256m` as a
+    repo — it is Hub-only. Not affiliated with
+    Convai.
+
+    **Quote (*theirs*).** SmolVLM-256M-Instruct
+    backbone; same `predict(state, questions)`
+    API. Val n=**8,235**: acc **75.2%**, ECE
+    raw 0.124 → cal **0.034**. A-OKVQA 61.8%
+    (overfit: train 97.6%). ScienceQA image
+    86.6%. VQAv2 yes/no re-split 73.4% — **not
+    comparable to published VQAv2**. “`score`
+    questions are untrained … treat `score`
+    outputs as meaningless.” SigLIP projector
+    branch: “never learned to use the image …
+    accuracy with shuffled images matched
+    accuracy with the real ones.” Option-order
+    ±0.7 points. ~71 ms / image-q on L4; image
+    encoded once per `predict`. Text-only
+    “not a drop-in replacement for Laya’s text
+    checkpoint.”
+
+    **How to apply:** perception → typed
+    decision in **one forward pass**, no
+    generation. **≠** blackwood-rlcd (open
+    multimodal RLCD; image-in now; CC BY-NC).
+    **≠** Archer (still Watch). Frozen vision
+    tower; `score` is a hole. Non-commercial
+    weights. Skip sending pixels to *hosted Jev*
+    for the decision (typesafe-computer-use
+    discipline still holds for TypeSafe); this
+    is a **different family** (open VLM head).
+
+    **Harbor:** report cal ECE separately from
+    raw; name the VQAv2 re-split; do not quote
+    `score`.
+
+15. **[`mkeco/Cerebellum-2B`](https://github.com/mkeco/Cerebellum-2B)**
+    — open NAR agent decision engine on
+    Qwen3.5-2B. **Competing NAR claims.** Quote,
+    don’t dump, **do not endorse**.
+
+    **Receipts.** GitHub Apache LICENSE (SPDX
+    **other**); **1★**. Hub
+    [`mkzero/Cerebellum-2B-{BF16,FP8,INT8}`](https://huggingface.co/mkzero/Cerebellum-2B-BF16)
+    — **mkeco** GitHub **≠** **mkzero** Hub.
+    `POST /v1/decide` **not**
+    `/v1/systemone`. README_EN SHA `f3e86883`.
+
+    **Quote README_EN (*theirs*).** “25ms
+    Non-Autoregressive Agent System 1.” “Pure
+    pointer indexing over candidate sets.”
+    Claimed **94.92%** vs Laya 83.8% / KEV
+    79.9% / **Jev 81.1%** / GPT-4o structured
+    89.2% on “95,000+” tasks; Brier **0.0271**;
+    ActEscalate `P(Escalate) >= 0.50`.
+    Permutation invariance 99.40% (0.60%
+    delta). “9.1MB Golden Rule”: quantize
+    backbone, keep heads in BF16.
+
+    **Harbor axes (keep separate — user
+    instruction):**
+    - **Wire-compat:** `/v1/decide` is **not**
+      TypeSafe `/v1/systemone`. Cousin of
+      IamBusy/OpenJev (also `/v1/decide`, not a
+      drop-in). Do not paste a Cerebellum URL
+      into a typesafe-sdk `base_url`.
+    - **Agent-routing:** pointer over
+      **caller-supplied candidates** (closed
+      vote / JevOnly shape). That job can be
+      Harbor-measured *without* claiming
+      logit-equiv to Jev.
+
+    **How to apply:** treat as **audit object
+    not endorsement** (openJev-verdict-2.0
+    discipline). Competing NAR vs-Jev tables
+    need like-for-like ECE, n/CI, throughput ≠
+    latency, and a named Jev protocol. 0.50
+    escalate is still soft. Dual heads
+    (pointer + escalate) are a placement, not
+    a proof of safety.
+
+    **Name locks:** ≠ IamBusy/OpenJev ≠
+    convaiinnovations/laya ≠ kev ≠ TypeSafe
+    Jev ≠ githubnext/localjev.
+
+16. **[`Luni/laya-grounded`](https://huggingface.co/Luni/laya-grounded)**
+    — Laya grounding tradeoffs. Quote, don’t
+    dump.
+
+    **Receipts.** Hub **CC-BY-NC**; **0 likes**.
+    GitHub **404**. Fine-tune of
+    `convaiinnovations/laya`. Bench:
+    Luni/laya-jev-benchmark.
+
+    **Quote Hub (*theirs*).** “This is not a
+    drop-in Replacement for the base Model.”
+    Grounding 2/5 → **5/5**; contradiction
+    0/3 → 2/3; probe failures 7/11 → 2/11.
+    Phishing **got worse**: PhishNChips acc
+    **0.611 → 0.512**. Routing stability
+    **2/3 → 1/3** (option *names*, not order).
+    held-out macro acc 0.840 / ECE **0.156**.
+    typed-decisions 0.360 → 0.676 (task
+    specialist still 0.767). “A Control Arm
+    with that Penalty switched off scored
+    better on the Probes, 1 Failure against
+    2. The Data fixed the Contradictions, not
+    the Loss.” Penalty bought calibration
+    (control answered grounding at confidence
+    **1.00**). “Temperature Scaling will not
+    work, it has no Bias Term and cannot move
+    a Threshold across 0.5.” Use **Platt**.
+    `confidence` is normalised Shannon
+    entropy, **not** top-p.
+
+    **How to apply:** grounding and phishing
+    are **different jobs**. Do not swap a
+    “better calibrated” fine-tune into a
+    phishing or runtime-schema router without
+    measuring those axes. Consistency penalty
+    ≠ data. Entropy-confidence ≠ max_prob
+    (how-sure-is-jev cousin). Non-commercial
+    inherit from ANLI / tickets.
+
+    **Harbor:** ECE 0.156 is on the mixture
+    holdout; refit on *your* labels. Do not
+    quote as beating Jev.
+
+### Skip Archer
+
+gram-render / jevtest / n8n / compaction /
+jevloop / authorship: text-only. anima3 /
+ha-switchboard: a11y / HA snapshots, “not a
+screenshot.” jev2ui: Jev never sees
+photographs (captions). laya-vision is
+SmolVLM, **not** Archer, **not** blackwood.
+Cerebellum / laya-grounded: text-state NAR.
+Skip Archer this fold.
+
+### Not
+
+Not a TypeSafe how-to. Not a hit list. Not
+wrappers. Do not copy npm / `pi install` /
+n8n community install / HA add-on /
+`TYPESAFE_API_KEY` / Cerebellum `serve.py`
+as recipes. Do not endorse Cerebellum vs-Jev
+**94.92% / 81.1%**. Do not treat 0★ as
+“skip.” Do not hard-gate jevtest 0.85, n8n
+0.5, anima3 0.35, HA writes, or authorship
+labels. Do not multiply parallel p. Do not
+paste frontier-bench 72.5% or job-posting
+0.947 as class ceilings without the floor
+and the ECE. Do not confuse
+fast-jev-compaction-pi / pi-jev-compact /
+pi-jev-compaction. Do not treat mock jevloop
+as a Jev quality score. rh-guard still owns
+the gate cousin (authorship / HA writes /
+jevtest-as-merge-seal).
+
+### Curated status
+
+Hourly 1047 HIGH **folded** (13). Deferred
+0945 **folded** (3). Archer still **NOT
+landed**. Census not re-derived. HA-Jev
+sibling contrast only. fast-jev-compaction-pi
+dedicated over the MED one-liner.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`judgment-class.md`; `validation.md`;
+`applied-mappings.md`; `mappings.md`;
+`toolbox-mapping.md`; `composition-algebra.md`
+items 27–36; `question-design.md`;
+`methods-catalog.md`; `formal-methods.md`;
+`agent-self-assessment.md`. Hunches labeled.
+No wrapper.

@@ -617,6 +617,13 @@ What is a control constraint in code/policy (Leveson):
 TOCTOU: is check atomic with use, or is there a re-probe?
 How we would detect soundness theater / tautological specs (Hillel):
 Smallest experiment that could reject this split, not this vendor:
+This hour's exact envelopes (`notes.md` §87): Telegram
+char/callback limits; HA writes (allowlist, freshness,
+idempotency, post-state); ordinary test assertions; closed
+verb menus / HP floors; n8n IF/Code arithmetic; compaction
+`minReductionRatio` fail-open. Hard-gating a Noul as CI
+pass (jevtest 0.85), HA actuator, or authorship proof is
+the same theater as totally-tim/jev-gate.
 ```
 
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
