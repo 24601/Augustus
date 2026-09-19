@@ -490,3 +490,6 @@ datasets — every gate is a per-dataset measurement (see validation.md).
 61. **Local daemon ≠ Jev** (jevbrain): overlap
     sensor, not a Noul. AUTO_ACT is not a Noul.
     Full cards: `judgment-class.md`, `faq.md`.
+
+Hourly 1241 items 49–61 (`notes.md` §90). Do **not**
+re-fold 1144 items 41–48.
