@@ -14198,3 +14198,492 @@ items 41–48; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
+
+## 90. Hourly 1241 HIGH (2026-09-19 ~12:41 Boise / ~18:41 UTC)
+
+Docs-only on a **fresh PR off main** (`cursor/hourly-1241-watch-3e4c`).
+**Never reopen merged** Augustus PR #3 / #4 / #5. Skip Archer.
+Quote READMEs. Mark *theirs*. No invented metrics.
+Hunches labeled. No wrappers, npm / `npx` / `uv` /
+`cargo` / `.env` / `TYPESAFE_API_KEY` / `ZEN_API_KEY` /
+`AI_GATEWAY` / wrangler / chrome unpacked / OAuth
+client ids / shop URLs as recipes.
+
+Lane is Augustus: **mental models / architecture /
+Harbor-jevals / toolbelt**. Backend-agnostic
+categorization/scoring/decision class (Jev-like
+speed/econ), **not** a thin Jev-only dump. Soft Noul ≠
+hard safety. 0★ HIGHs still get real cards.
+
+### How-to-apply (twelve clusters)
+
+1. **Observe→score→act (namesake lock)** — Ego Lite
+   observes/acts; Jev scores compact page state;
+   exact work stays local. `choose()` + reserved
+   `__none__`; `selectedId` or null; no universal
+   cutoff; `runWorkflow` `completed` ≠ success.
+   **≠** jiangkoumo/ego-jev.
+2. **Decision-as-ranking** — pairwise comparisons →
+   Bradley-Terry. Scores are relative logits, not
+   frequencies. Noul not Choice for scale. **≠**
+   calibrated p-as-frequency.
+3. **Native vs schema-guided Harbor** — same rubric,
+   two adapters: native Noul vs schema-guided LLM
+   JSON. Fastest/cheapest is not the quality winner.
+   **≠** jev-judge-bench **≠** jevarena **≠** jevbench.
+4. **0 promotions / authored vs real** — preregister
+   bars; measure on data you did not author; stop
+   before you build. A suite that passes a random
+   judge is plumbing. **≠** HF playground.
+5. **Offload + classifier-not-generator** — classify /
+   screen / score / verify leave the writer; ranks
+   only listed options. Pin the free-tier model name.
+6. **Collapse late** — S1 measures; `?` collapses;
+   `undecided?` abstains. Code asks; code decides.
+   **≠** carldaws/hunch **≠** feelings.
+7. **Unofficial toolbelt** — Go CLI + community Rust
+   SDK. Cache pin vs alias TTL. Confidence ≠ winner
+   p. Not a new species. Unofficial.
+8. **Pointer shell** — pick/why/is/run over *your*
+   stdin/PATH/man pages. Exit 3 abstains.
+   never-execute list. **≠** carldaws/hunch.
+9. **Preview-first VOI / rubric rewrite** — preview
+   then read; scores not calibrated accuracy. TF-IDF
+   candidates; anchors already in copy; Jev never
+   sees S2 prose.
+10. **Life fail-open covers** — metadata not bodies /
+    pixels; Show anyway; pinned/audio/current never
+    closed; none-of-folders stay. **≠** jevmail **≠**
+    pigeonhole **≠** x-reply-filter.
+11. **S1 decide / S2 plan** — Jev every voluntary
+    action; LLMs plan never decide; pause-if-no-Jev.
+    **≠** Essentiel-Jev.
+12. **Seed/expand/judge/verify + local daemon ≠ Jev**
+    — risk bands never raw boolean; AUTO_ACT is not
+    a Noul. rh-guard owns the gate cousin.
+
+### Cards
+
+1. **[`ZHUBoer/ego-jev`](https://github.com/ZHUBoer/ego-jev)**
+   (JavaScript MIT; **0★**; created 2026-09-19T18:37Z;
+   HEAD `2e85486`; README SHA `fc4537ac`; GitHub
+   `size` 0 this pass — files present). Browser skill:
+   Ego Lite observe/act; Jev typed semantic over
+   compact page state. README *theirs*: “Exact work —
+   prices, counts, sorting, matching — stays in local
+   code.” `choose({goal,evidence,candidates})` — one
+   Choice with reserved `__none__`; returns
+   `selectedId` (supplied id or null). Supply 1–254
+   unique ids. `choose` performs no browser action
+   and applies **no universal confidence cutoff**.
+   `runWorkflow` terminals: `completed` /
+   `needs_context` / `needs_review` / `stuck` /
+   `budget_exhausted`. README *theirs*: “Only
+   `completed` means the verifier passed — an action
+   receipt or a Jev answer is never proof of
+   success.” Journal is local metadata, not a
+   provider-signed attestation. Do not relabel a
+   semantic choice as a known click to bypass Jev.
+
+   **Mental model:** observe→score→act split. Exact
+   work local. Soft Noul ≠ hard safety: no cutoff
+   inside `choose`; `completed` ≠ success.
+
+   **Name lock:** always write **ZHUBoer/ego-jev**.
+   **≠** [jiangkoumo/ego-jev](https://github.com/jiangkoumo/ego-jev)
+   (hot-click indexed table; already §65). Do not
+   copy `TYPESAFE_API_KEY` / key-file how-to.
+
+2. **[`keltokhy/jsort`](https://github.com/keltokhy/jsort)**
+   (Python MIT; **1★**; created 2026-09-19T18:35Z;
+   HEAD `e007e64`; README SHA `a7c1f705`; GitHub
+   `size` 0 this pass — files present). Sort-by-meaning
+   via pairwise Jev comparisons → Bradley-Terry.
+   README *theirs*: “Scores are relative to the other
+   texts in the same run. They do not carry over to
+   another file or another description.” Default
+   `-k 10`; `--budget` default $1. Shares cache with
+   jgrep. CommonLit Ease of Readability (300 excerpts,
+   2026-09-19, Jev 1.13 via OpenRouter) *theirs*:
+   `jsort -k 10` Pearson **r=0.824** / Spearman
+   **ρ=0.841** / 1,500 calls / $0.046 vs SMOG 0.661 /
+   0.647; one Noul per text (`jgrep -o`) 0.754 /
+   0.804. Fed hawkish vs rate move *theirs*: ρ **+0.46**
+   (95 statements) vs that-day DFEDTARU move; +0.37
+   vs 180-day change. Reliability / first-position
+   lean reported. `bench/probe.py` *theirs*: two-option
+   Choice put **93%** of answers <0.1 or >0.9; Noul
+   left **28%** mid-band — those in-between answers
+   are what a scale is fitted from.
+
+   **Mental model:** decision-as-ranking. Ranking ≠
+   calibration. Noul not Choice for scale. Soft Noul
+   ≠ hard safety: a logit gap is not a frequency.
+
+   **Name lock:** **≠** jgrep (same author, different
+   job). Do not copy `uv` / OpenRouter keys.
+
+3. **[`slavadubrov/groundedness-judge-bench`](https://github.com/slavadubrov/groundedness-judge-bench)**
+   (Python; LICENSE MIT / GitHub SPDX **NOASSERTION**;
+   **0★**; created 2026-09-19T17:26Z; HEAD `188d1c4`;
+   README SHA `5cc070d8`). Jev vs LLM judges on
+   RAGTruth QA test **900/150**. 2026-09-19: 3,600
+   req / 23.4 min / ~$0.3611 *theirs*. Macro-F1:
+   Jev **0.6667** p50 **0.330s** $0.0369/1k; Luna
+   0.6539; DeepSeek 0.7303; GLM **0.7661** (5 format
+   fails). README *theirs*: “Jev was fastest and
+   cheapest, but flagged more supported answers as
+   unsupported.” Native Noul vs schema-guided LLM
+   **output** (not multi-step SGR). `implicit_true`
+   still unsupported. Replay from
+   `results/pilot/raw-run.tar.gz` (no keys).
+
+   **Mental model:** Harbor/jevals honesty — native
+   vs schema-guided is the axis; fastest/cheapest is
+   not the quality winner. Soft Noul ≠ hard safety:
+   0.5 label on Noul is a sensor.
+
+   **Name lock:** **≠** slavadubrov/jev-judge-bench
+   **≠** jevarena **≠** jevbench. Do not copy `uv`.
+
+4. **[`JYeswak/jev_playground`](https://github.com/JYeswak/jev_playground)**
+   (Shell MIT; **0★**; created 2026-09-18T15:17Z;
+   HEAD `10abc7a`; README SHA `96483039`, 41773 B).
+   Graded findings, ruled-out candidates, recipes
+   with stop-conditions. GitHub description *theirs*:
+   “0 promotions — on purpose.” README *theirs*:
+   random-judge substitution **254/305 = 83%**
+   plumbing. Authored vs real: gate **0/20** vs
+   **3/20**; foreman AUC **1.000** vs **0.750** on
+   186,449; jev-review **12/12** vs AUC **0.625**.
+   Prevalence **30/186449 = 0.016%**. tool_call
+   error **3.95%** on 216k. Scoreboard **25** rows
+   (7 cleared / 9 held / 8 ruled out / **0 promoted**).
+   `routing-backtest` **0.0447%**; VERDICT.md: **17
+   ideas, 0 promotions**; demo-1 died rung 4 (zero
+   Jev calls).
+
+   **Mental model:** measurement owns endorsement.
+   Authored success, real-data miss. Soft Noul ≠
+   hard safety: plumbing green ≠ quality.
+
+   **Name lock:** **≠** HF jev-agent-decision-playground
+   (§89). Do not paste 83% as a quality score.
+
+5. **[`yuyang2230/jev-agent-skill`](https://github.com/yuyang2230/jev-agent-skill)**
+   (Python MIT; **0★**; created 2026-09-19T18:28Z;
+   HEAD `9c43a5b`; README SHA `158ca045`; GitHub
+   `size` 0 this pass — files present). Offload
+   classify/screen/score/verify to Jev via OpenCode
+   Zen. README *theirs*: ~400 in tok **$0**; 2026-09-20
+   10+ calls 283–694 tok `cost: 0` ~2s. Model
+   **`jev-1.13-free`**, not `jev-latest`. Independent
+   of TypeSafe; shop plug in README — do not copy.
+
+   **Mental model:** leftover writer vs cheap decide.
+   Soft Noul ≠ hard safety: $0 is a Zen-tier claim,
+   not a quality score.
+
+   **Name lock:** **≠** GodsBoy/jev-agent-skill-router.
+   Do not copy `ZEN_API_KEY` / shop URL.
+
+6. **[`swap-mitra/jev-techstack-classifier`](https://github.com/swap-mitra/jev-techstack-classifier)**
+   (Python; GitHub license **null** / no LICENSE
+   file; **0★**; created 2026-09-19T17:55Z; HEAD
+   `6c904a4`; README SHA `cd32bde4`; GitHub `size` 0
+   this pass — files present). Plain English →
+   probability-ranked stack. README *theirs*: “It is
+   a classifier, not a generator: it only ranks the
+   options listed in `stack_config.json`.” Clarifying
+   questions when platform/scale/data unclear.
+   Worker forwards the **visitor’s** key; Worker has
+   no key of its own.
+
+   **Mental model:** classifier not generator. Soft
+   Noul ≠ hard safety: ranked options ≠ a stack
+   that will work.
+
+   **Name lock:** do not invent a LICENSE. Do not
+   copy wrangler / `.env`.
+
+7. **[`innocentdiaz/s1_ruby`](https://github.com/innocentdiaz/s1_ruby)**
+   (Ruby MIT; LICENSE.txt; **1★**; created
+   2026-09-18T17:31Z; HEAD `b150796`; README SHA
+   `6250f97b`, 52489 B). S1 measurement + collapse as
+   a Ruby primitive. README *theirs*: “It does not
+   generate, and it does not decide. Code asks; code
+   decides.” ψ makes measurable; `judge` / `choose` /
+   `score` measure; `?` collapses. Collapse late:
+   keep the distribution; `undecided?(margin)`
+   abstains. Rails sibling `s1-rails` pointer only.
+
+   **Mental model:** measure ≠ decide. Language
+   primitive cousin of hunch/feelings — this is
+   **collapse as Ruby `?`**, not BAML methods and
+   not a new language. Soft Noul ≠ hard safety:
+   `is?` true is a collapse, not a proof.
+
+   **Name lock:** **≠** carldaws/hunch **≠**
+   BoundaryML/feelings **≠** tpellet/hunch. Do not
+   copy gem how-to.
+
+8. **[`2389-research/judgement`](https://github.com/2389-research/judgement)**
+   (Go; GitHub license **null** / no LICENSE file;
+   **0★**; created 2026-09-19T18:29Z; HEAD `ea46952`;
+   README SHA `23c2dcda`; GitHub `size` 0 this pass —
+   files present). Go CLI for Jev Choice + opt-in
+   cache. Pin `jev-1.13.0` → no expiry; aliases
+   (`jev-latest`) **24h**. README *theirs*:
+   “`confidence` — Model confidence, separate from
+   the winner's probability.” Live arithmetic e2e
+   2026-09-19 ≠ accuracy cert. Unofficial; uses
+   sibling `typesafe-go`.
+
+   **Mental model:** unofficial CLI. Cache pin vs
+   alias TTL. Soft Noul ≠ hard safety: live
+   arithmetic is plumbing, not a bench.
+
+   **Name lock:** **≠** jevql **≠** unofficial
+   jev-cli. Do not invent a LICENSE. Do not copy
+   `go install` as a recipe.
+
+9. **[`community-ports/typesafeai-sdk-rust-community`](https://github.com/community-ports/typesafeai-sdk-rust-community)**
+   (Rust MIT; **0★**; created 2026-09-19T04:27Z;
+   HEAD `b7a648b`; README SHA `bda3ad23`). Independent
+   community port of the Python SDK. crates.io
+   `typesafeai-sdk-community` **0.3.1**. README
+   *theirs*: “This is an independent community
+   project and is not maintained by TypeSafe AI.”
+   Typed derives + `decision` bands (`Bands` /
+   `Gate`). Unofficial; not a new species.
+
+   **Mental model:** packaging ≠ new family. Soft
+   Noul ≠ hard safety: `Bands::new(0.3, 0.7)` is
+   caller policy.
+
+   **Name lock:** **≠** elixir SDK **≠** official
+   `typesafe-sdk`. Do not copy `cargo add`.
+
+10. **[`tpellet/hunch`](https://github.com/tpellet/hunch)**
+    (Rust MIT; **0★**; created 2026-09-19T03:21Z;
+    HEAD `d80dd8c`; README SHA `b25d81ac`). Pointer
+    shell: `pick` / `why` / `is` / `run`. crates.io
+    name `hunch` **taken**. Exit **3** abstains.
+    never-execute list (`rm` refused even with
+    `--yes`). Pin `jev-1.13.0`. *Theirs* 2026-09-19:
+    `pick` 924 lines p50 **739 ms** cold / **6 ms**
+    warm; `run` NL2Bash **36/120** top-1 / **66**
+    abstain; `why` **15/20** hit@1 vs first SIGNAL
+    **4/20**; args flags **5/20**. `is` 0 yes / 1 no
+    / 3 unsure (band around 0.5).
+
+    **Mental model:** pointer, not generator. Exit 3
+    is first-class. Soft Noul ≠ hard safety: 0.5 /
+    0.65/0.35 still soft; NL2Bash 36/120 is not a
+    shell-replacement proof.
+
+    **Name lock:** always write **tpellet/hunch**.
+    **≠** carldaws/hunch (Ruby library). Do not copy
+    `cargo install` / installer curl.
+
+11. **[`emilwagman/jev-file-search`](https://github.com/emilwagman/jev-file-search)**
+    (Python MIT; **0★**; created 2026-09-19T18:33Z;
+    HEAD `8f2b9cd`; README SHA `b2a236bb`; GitHub
+    `size` 0 this pass — files present). Preview-first
+    VOI. *Theirs*: **1,070** files / **15** matches /
+    7.576s Jev / ~$0.0209; **28** further reads.
+    README *theirs*: “These scores are not calibrated
+    accuracy.” “full-corpus recall has not been
+    measured.” Scores below 0.8 send to further
+    reading.
+
+    **Mental model:** preview-first VOI. Soft Noul ≠
+    hard safety: 0.8 is *theirs*; scores not
+    calibrated accuracy.
+
+    **Name lock:** **≠** findme **≠** JevFind **≠**
+    jevex. Do not copy `uv` / Gateway keys.
+
+12. **[`stas4000/jev-linkmap`](https://github.com/stas4000/jev-linkmap)**
+    (HTML; LICENSE MIT / GitHub SPDX **NOASSERTION**;
+    **0★**; created 2026-09-19T17:57Z; HEAD `2bd7363`;
+    README SHA `271c1cd2`; GitHub `size` 0 this pass —
+    files present). Rebuild link map with Jev; race
+    Claude; rubric rewrite from misses. Site
+    www.bles-software.com: **566** pages / **8,460**
+    decisions. *Theirs*: Jev **5.95s / $0.27** vs
+    Opus ~$67; **679** links; v1→v3 referee recall
+    **45%→65%** ($15.51); editor kept **287/679**
+    ($2.07). TF-IDF candidates; anchors already in
+    copy. README *theirs*: “Jev never sees the deep
+    model's prose, only the new rubric.”
+
+    **Mental model:** S1 maps; S2 rewrites the
+    question, not the links. Soft Noul ≠ hard safety:
+    referee is not ground truth.
+
+    **Name lock:** LICENSE cites typesafe-computer-use
+    cousin, different job. Do not copy OpenRouter
+    keys.
+
+13. **Product cluster (life fail-open covers)**
+
+    - **[`muhammedilyasy/jev-mail`](https://github.com/muhammedilyasy/jev-mail)**
+      (JavaScript MIT; **0★**; HEAD `11e3553`; README
+      SHA `be3211b0`; GitHub `size` 0). Gmail overlay +
+      dashboard. `gmail.readonly`. README *theirs*:
+      “Only **metadata** is sent… Message bodies are
+      never fetched.” ~$0.25 / 20k *theirs*. **≠**
+      fazlerocks/jevmail **≠** mailordinal **≠**
+      mailjay **≠** Essentiel-Jev.
+    - **[`MANISH007700/tidy`](https://github.com/MANISH007700/tidy)**
+      (Python MIT; **0★**; HEAD `f8abb82`; README SHA
+      `9211939e`; GitHub `size` 0). macOS Downloads
+      filing. `min_confidence` **0.8**. README
+      *theirs*: “Files that fit no folder stay put,
+      whatever the confidence.” Undo. **≠** pigeonhole
+      **≠** downloads-sorter.
+    - **[`MANISH007700/tab-bouncer`](https://github.com/MANISH007700/tab-bouncer)**
+      (JavaScript MIT; **0★**; HEAD `7798c75`; README
+      SHA `a35090d1`; GitHub `size` 0). One call ≤120
+      tabs. README *theirs*: pinned tabs, tabs playing
+      audio, and the tab you’re on are always safe.
+      Reopen. chrome:// never touched.
+    - **[`stefw/lkclean`](https://github.com/stefw/lkclean)**
+      (TypeScript MIT; **0★**; HEAD `bb6ce3a`; README
+      SHA `1cc18acf`; GitHub `size` 0). LinkedIn hide
+      fail-open **Show**. Noise **70%** / interest
+      **35%** / blocked **60%** still soft. Sponsored
+      local. **≠** x-reply-filter **≠** Winnow.
+    - **[`jaibhasin/jev-yt-time-saver`](https://github.com/jaibhasin/jev-yt-time-saver)**
+      (JavaScript; GitHub license **null**; **1★**;
+      HEAD `ac9d219`; README SHA `06cedabb`). Cover +
+      **Show anyway**. Metadata not pixels. README
+      *theirs*: “You still get the final say.”
+
+    **Mental model:** ranking fail-open. Metadata ≠
+    evidence of the body/pixels. Soft Noul ≠ hard
+    safety: 0.8 / 70/35/60 still sensors.
+
+14. **[`JacquesGariepy/ORIGIN-CIVILIZATION`](https://github.com/JacquesGariepy/ORIGIN-CIVILIZATION)**
+    (HTML/JS; LICENSE MIT / GitHub SPDX **NOASSERTION**;
+    **1★**; created 2026-09-19T16:49Z; HEAD `ece068d`;
+    README SHA `33e6ba07`). Civ sim: Jev every
+    voluntary action; LLMs plan. README *theirs*:
+    “If Jev cannot answer, the world pauses.”
+    `validResponse` requires model id + existing
+    option + probabilities **sum to 1** + argmax.
+    961 historical Jev / 0 planner. 192 Node + 38
+    browser tests synthetic. Live Claude/Codex/agy
+    2026-09-19 grounding only. OpenAI-compatible
+    planner **not** live this pass.
+
+    **Mental model:** S1 decide / S2 plan. Pause-if-
+    no-Jev is the exact envelope. Soft Noul ≠ hard
+    safety: a valid Choice is not a useful life.
+
+    **Name lock:** **≠** Essentiel-Jev. Do not copy
+    `.env` / ports.
+
+15. **[`russfranky/jev-crawlers`](https://github.com/russfranky/jev-crawlers)**
+    (JavaScript MIT; **0★**; created 2026-09-19T17:59Z;
+    HEAD `4df08f5`; README SHA `2d0b552e`; GitHub
+    `size` 0 this pass — files present).
+    seed|expand|judge|verify|report. README *theirs*:
+    “Routing follows the risk score, never a raw
+    boolean.” Ranking ≠ calibrated bug p. n=12
+    fixture. Live ~$0.000035/call *theirs*. U7
+    unvalidated. Dogfood **14** judgments / **5**
+    escalations / **0** new findings; diminishing
+    returns exit. Verify checks grounding, not
+    execution. rh-guard angle: never CI-gate on a
+    raw `bug_likely` boolean.
+
+    **Mental model:** explore then verify. Review
+    queue is the product. Soft Noul ≠ hard safety:
+    risk bands are sensors; n=12 is not proof.
+
+    **Name lock:** do not copy `AI_GATEWAY_API_KEY`.
+
+16. **[`Synxneuos/jevbrain`](https://github.com/Synxneuos/jevbrain)**
+    (JavaScript; GitHub license **null** / README
+    claims MIT / no LICENSE file; **9★**; created
+    2026-09-19T13:20Z; HEAD `caa1889`; README SHA
+    `55fe0abf`). Local n-gram/anchor overlap daemon.
+    README *theirs*: τ≥0.80 → `AUTO_ACT`; else
+    `REVIEW_QUEUE`. WHITEPAPER *theirs*: “without
+    neural forward-pass”; N=10000 **95.2%** / **0.18
+    ms** / **$15.36** — unverified theater (no
+    labeled corpus in-tree). Warden is regex (`.env`
+    / `rm -rf` / loop ≥3). **≠** TypeSafe Jev **≠**
+    classifier.dev product.
+
+    **Mental model:** local overlap ≠ hosted Noul.
+    AUTO_ACT is not a Noul. Soft Noul ≠ hard safety:
+    0.80 AUTO_ACT is soundness theater if sold as
+    calibrated System One.
+
+    **Name lock:** README MIT vs SPDX null. Do not
+    invent a LICENSE. Do not paste 95.2% as a class
+    number.
+
+### Formal compose / anti-patterns
+
+Exact envelopes this hour: Ego Lite locators /
+`__none__` / `completed`≠success; jsort scores
+relative; groundedness 0.5 label on Noul;
+playground 0 promotions; s1_ruby `?` vs
+`undecided?`; hunch exit 3 + never-execute; tidy
+0.8 + none stay; tab pinned/audio; lkclean Show;
+YT Show anyway; ORIGIN pause-if-no-Jev +
+`validResponse`; crawlers verify grounding not
+exec + review queue; jevbrain AUTO_ACT is not a
+Noul. Soft Noul ≠ hard safety: jsort logits, Jev
+0.5 groundedness, tidy 0.8, lkclean 70/35/60,
+tab slider, hunch 0.5/0.65, file-search 0.8,
+jevbrain 0.80 are **sensors**. Hard-gating
+AUTO_ACT, treating ranking logits as frequencies,
+pasting 95.2% / 83% plumbing / 36/120 NL2Bash as
+class ceilings, or letting Jev send/delete/close
+pinned tabs is **soundness theater**.
+
+### Census (user-provided; not re-derived)
+
+Archer Hume open-weight still **NOT landed** (HF
+empty; tracker promised). Tracker likes **49**
+`lastModified` **2026-09-19T18:37:18Z** but Archer
+still promised. Laya yes. Blackwood **ABSENT**.
+SemIf **1846** (+17). jevlike **962** (+3).
+TypeAR-AI/TypeAR **10** (+1). Awesomejev flat
+**561/27007**.
+
+### Not
+
+Not a TypeSafe how-to. Not a Jev skill dump. Not
+wrappers. Do not copy `TYPESAFE_API_KEY` /
+`ZEN_API_KEY` / `AI_GATEWAY` / `uv` / `cargo` /
+wrangler / chrome unpacked / OAuth client ids /
+shop URLs / `.env`. Do not re-fold 1144. Do not
+re-card jiangkoumo/ego-jev / carldaws/hunch /
+fazlerocks/jevmail / pigeonhole. rh-guard still
+owns the gate cousin (AUTO_ACT-as-Noul /
+raw-boolean-as-bug / bars-as-results as a CI
+gate).
+
+### Curated status
+
+1241 HIGH **folded** (16 + product cluster). 1144 /
+§89 **not re-carded**. Archer still **NOT landed**.
+Census not re-derived.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`judgment-class.md`; `validation.md`;
+`applied-mappings.md`; `mappings.md`;
+`toolbox-mapping.md`; `composition-algebra.md`
+items 49–61; `question-design.md`;
+`methods-catalog.md`; `formal-methods.md`;
+`agent-self-assessment.md`. Hunches labeled.
+No wrapper.

@@ -432,3 +432,61 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     ranking trays vs proposed archive/trash.
     **≠** mailordinal. Full cards:
     `applied-mappings.md` §4, §8.
+49. **Observe→score→act namesake** (ZHUBoer/ego-jev):
+    position 2 (keep/drop among observed candidates)
+    × position 9 (search/control loop). Reserved
+    `__none__`. `choose` does no act. runWorkflow
+    completed ≠ success. **≠** jiangkoumo/ego-jev.
+    Full cards: `applied-mappings.md` §9, `faq.md`.
+50. **Decision-as-ranking** (jsort): position 4
+    (bounded rerank) with Bradley-Terry pairwise.
+    Scores relative. Noul not Choice for scale.
+    Full cards: `mappings.md` §4, `faq.md`.
+51. **Native vs schema-guided Harbor**
+    (groundedness-judge-bench): same rubric, two
+    adapters. Fastest/cheapest ≠ quality.
+    implicit_true still unsupported. **≠**
+    jev-judge-bench. Full cards: `validation.md`.
+52. **0 promotions / authored vs real**
+    (jev_playground): measurement owns endorsement.
+    Plumbing green ≠ quality. routing-backtest
+    0.0447%. Full cards: `validation.md`.
+53. **Offload + classifier-not-generator**
+    (yuyang2230/jev-agent-skill /
+    jev-techstack-classifier): leftover writer vs
+    cheap decide; ranks listed options only.
+    jev-1.13-free. stack_config.json. Full cards:
+    `applied-mappings.md` §5.
+54. **Collapse late** (s1_ruby): position 2
+    (language primitive). `?` collapses;
+    `undecided?` abstains. **≠** hunch **≠**
+    feelings. Full cards: `mappings.md` §3.
+55. **Unofficial toolbelt** (judgement /
+    typesafeai-sdk-community): packaging ≠ new
+    species. confidence ≠ winner p. License null
+    on the Go CLI. Full cards: `judgment-class.md`.
+56. **Pointer shell** (tpellet/hunch): position 2
+    × never-execute list. Exit 3 abstains. **≠**
+    carldaws/hunch. Full cards: `mappings.md` §3,
+    `applied-mappings.md` §7.
+57. **Preview-first VOI / rubric rewrite**
+    (jev-file-search / jev-linkmap): gather as an
+    act; scores not calibrated accuracy; Jev never
+    sees S2 prose. Full cards: `mappings.md` §6.
+58. **Life fail-open covers** (jev-mail / tidy /
+    tab-bouncer / lkclean / jev-yt-time-saver):
+    ranking fail-open. Metadata only. none-of-
+    folders stay. pinned/audio/current never
+    closed. Show anyway. Full cards:
+    `applied-mappings.md` §2, §4, §7.
+59. **S1 decide / S2 plan** (ORIGIN-CIVILIZATION):
+    position 1 (sensor) × pause-if-no-Jev envelope.
+    validResponse sums-to-1. **≠** Essentiel-Jev.
+    Full cards: `mappings.md` §8, `faq.md`.
+60. **Seed/expand/judge/verify** (jev-crawlers):
+    position 8 (search) with risk bands never raw
+    boolean. Verify grounding, not exec. Full
+    cards: `applied-mappings.md` §3.
+61. **Local daemon ≠ Jev** (jevbrain): overlap
+    sensor, not a Noul. AUTO_ACT is not a Noul.
+    Full cards: `judgment-class.md`, `faq.md`.

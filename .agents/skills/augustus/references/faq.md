@@ -2298,3 +2298,112 @@ already MED. `notes.md` §89.
 No, and no. jevmail is `gmail.readonly` (~3¢ / ~1 min per 1k
 *theirs*). mailjay proposes archive/trash for review.
 **≠** Essentiel-Jev. `notes.md` §89.
+
+## Is ZHUBoer/ego-jev jiangkoumo/ego-jev? Is `completed` success?
+
+No, and no. Always write **ZHUBoer/ego-jev**. Ego Lite
+observe/act; Jev `choose` over compact page state.
+ZHUBoer/ego-jev reserved `__none__`. `choose` does no
+browser action and applies no universal cutoff.
+runWorkflow completed ≠ success. Exact work local.
+**≠** jiangkoumo/ego-jev. `notes.md` §90.
+
+## Are jsort scores frequencies? Use Choice for a scale?
+
+No, and no. jsort scores are relative. Ranking ≠
+calibration. Noul not Choice for scale. CommonLit
+r=0.824 / ρ=0.841 *theirs*. Fed hawkish ρ=+0.46 vs
+rate move *theirs*. `notes.md` §90.
+
+## Did groundedness-judge-bench show Jev wins quality? Is it jev-judge-bench?
+
+No, and no. groundedness-judge-bench native vs
+schema-guided. Fastest/cheapest ≠ quality. Jev Macro-F1
+0.6667 vs GLM 0.7661 *theirs*. implicit_true still
+unsupported. **≠** jev-judge-bench **≠** jevarena **≠**
+jevbench. `notes.md` §90.
+
+## Quote jev_playground 83%? Promote from authored bars?
+
+No, and no. jev_playground 0 promotions — on purpose.
+A suite that passes a random judge is plumbing
+(254/305=83%). Authored vs real. routing-backtest
+0.0447%. **≠** HF playground. `notes.md` §90.
+
+## Copy `jev-latest` on Zen? Is yuyang2230 GodsBoy’s router?
+
+No, and no. yuyang2230/jev-agent-skill jev-1.13-free.
+$0 is a Zen-tier claim, not a quality score. **≠**
+GodsBoy/jev-agent-skill-router. Do not copy `ZEN_API_KEY`.
+`notes.md` §90.
+
+## Does the techstack classifier generate a stack?
+
+No. Classifier not generator. jev-techstack-classifier
+stack_config.json only. Worker has no key. License null.
+`notes.md` §90.
+
+## Is s1_ruby hunch or feelings? Is `is?` a proof?
+
+No, and no. s1_ruby collapse late. `undecided?` abstain.
+Code asks; code decides. **≠** carldaws/hunch **≠**
+feelings **≠** tpellet/hunch. `notes.md` §90.
+
+## Is judgement jevql? Is confidence the winner p?
+
+No, and no. 2389-research/judgement license null.
+Unofficial Go CLI. confidence ≠ winner p. Pin vs 24h
+alias. Live arithmetic ≠ accuracy. **≠** jevql. `notes.md`
+§90.
+
+## Is the Rust community SDK official / a new species?
+
+No, and no. typesafeai-sdk-community not a new species.
+Independent community port. Bands are caller policy.
+**≠** elixir SDK. `notes.md` §90.
+
+## Is tpellet/hunch carldaws/hunch? Skip exit 3?
+
+No, and no. Always write **tpellet/hunch**. Pointer
+shell. tpellet/hunch exit 3. never-execute list. NL2Bash
+36/120 *theirs* is not a shell-replacement proof.
+**≠** carldaws/hunch. `notes.md` §90.
+
+## Quote file-search 15 matches as recall? Is it JevFind?
+
+No, and no. jev-file-search scores not calibrated
+accuracy. Recall unmeasured. **≠** findme **≠** JevFind
+**≠** jevex. `notes.md` §90.
+
+## Treat linkmap referee as gold? Let Jev see S2 prose?
+
+No, and no. jev-linkmap Jev never sees S2 prose.
+Anchors already in copy. v1→v3 45%→65% *theirs* is
+rubric rewrite, not ground truth. `notes.md` §90.
+
+## Is jev-mail jevmail? Does tidy OTHER move? Close pinned tabs?
+
+No, no, and no. muhammedilyasy/jev-mail metadata only.
+tidy none-of-folders stay. tab-bouncer
+pinned/audio/current never closed. lkclean Show
+fail-open. jev-yt-time-saver Show anyway. **≠** jevmail
+**≠** pigeonhole **≠** x-reply-filter. `notes.md` §90.
+
+## Does ORIGIN’s LLM decide? Continue if Jev is down?
+
+No, and no. ORIGIN pause-if-no-Jev. validResponse
+sums-to-1. LLMs plan never decide. **≠** Essentiel-Jev.
+`notes.md` §90.
+
+## Gate crawlers on raw `bug_likely`? Skip verify?
+
+No, and no. jev-crawlers risk bands never raw boolean.
+Verify grounding, not exec. n=12 fixture. rh-guard owns
+the gate cousin. `notes.md` §90.
+
+## Is jevbrain TypeSafe Jev? Paste 95.2% as a class number?
+
+No, and no. Local n-gram/anchor overlap. jevbrain
+AUTO_ACT is not a Noul. WHITEPAPER unverified theater.
+README MIT vs SPDX null. **≠** classifier.dev. `notes.md`
+§90.

@@ -740,6 +740,51 @@ Same pillars, seven more placements. Do **not** re-fold
 
 Soft Noul ≠ hard safety on every cluster.
 
+## Apply 1241 (`notes.md` §90)
+
+Same pillars, twelve more placements. Do **not** re-fold
+1144 / §89. Fresh PR; never reopen merged #3.
+
+1. **Observe→score→act (namesake lock)** —
+   ZHUBoer/ego-jev reserved `__none__`. `selectedId` or
+   null. No universal cutoff. runWorkflow completed ≠
+   success. Exact work local. **≠** jiangkoumo/ego-jev.
+2. **Decision-as-ranking** — jsort scores are relative.
+   Noul not Choice for scale. Ranking ≠ frequency.
+3. **Native vs schema-guided Harbor** —
+   groundedness-judge-bench native vs schema-guided.
+   Fastest/cheapest is not the quality winner.
+   implicit_true still unsupported.
+4. **0 promotions / authored vs real** — jev_playground
+   0 promotions. A suite that passes a random judge is
+   plumbing. routing-backtest 0.0447%.
+5. **Offload + classifier-not-generator** —
+   yuyang2230/jev-agent-skill jev-1.13-free.
+   jev-techstack-classifier stack_config.json only.
+6. **Collapse late** — s1_ruby collapse late.
+   `undecided?` abstain. Code asks; code decides.
+   **≠** carldaws/hunch **≠** feelings.
+7. **Unofficial toolbelt** — 2389-research/judgement
+   license null. confidence ≠ winner p.
+   typesafeai-sdk-community not a new species.
+8. **Pointer shell** — tpellet/hunch exit 3.
+   never-execute list. **≠** carldaws/hunch.
+9. **Preview-first VOI / rubric rewrite** —
+   jev-file-search scores not calibrated accuracy.
+   jev-linkmap Jev never sees S2 prose.
+10. **Life fail-open covers** — muhammedilyasy/jev-mail
+    metadata only. tidy none-of-folders stay.
+    tab-bouncer pinned/audio/current never closed.
+    lkclean Show fail-open. jev-yt-time-saver Show
+    anyway.
+11. **S1 decide / S2 plan** — ORIGIN pause-if-no-Jev.
+    validResponse sums-to-1. **≠** Essentiel-Jev.
+12. **Seed/expand/judge/verify + local daemon ≠ Jev**
+    — jev-crawlers risk bands never raw boolean.
+    jevbrain AUTO_ACT is not a Noul.
+
+Soft Noul ≠ hard safety on every cluster.
+
 Formal methods **compose** with scoring. A Noul is a
 SENSOR. Hard-gating it as CI pass / HA write / authorship
 seal is the same theater as jev-gate §79.

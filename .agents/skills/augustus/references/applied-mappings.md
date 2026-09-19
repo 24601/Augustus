@@ -315,6 +315,22 @@ Life/knowledge retrieval, not only SWE. Do not copy
 pigeonhole OTHER skip. `OTHER` skip. Default 0.6 still soft. autoOnSave off.
 **≠** jev-semgrep. Do not copy plugin marketplace
 (`notes.md` §89).
+**Downloads filing fail-open (Empirical as README;
+2026-09-19 ~18:41):**
+[tidy](https://github.com/MANISH007700/tidy)
+(MIT; **0★**) — macOS Downloads. `min_confidence`
+0.8 still soft. tidy none-of-folders stay. Undo.
+**≠** pigeonhole **≠** downloads-sorter. Do not copy
+`uv` (`notes.md` §90).
+**Observe→score→act namesake (Empirical as README;
+2026-09-19 ~18:41):**
+[ZHUBoer/ego-jev](https://github.com/ZHUBoer/ego-jev)
+(MIT; **0★**) — Ego Lite observe/act; Jev `choose`
+over compact page state. ZHUBoer/ego-jev reserved
+`__none__`. `selectedId` or null. No universal
+cutoff. runWorkflow completed ≠ success. Exact work
+local. **≠** jiangkoumo/ego-jev. Do not copy
+`TYPESAFE_API_KEY` (`notes.md` §90).
 **Decision-validated UI (Empirical as README; 2026-09-19
 ~16:52):**
 [gram-render](https://github.com/wei-b0/gram-render) (MIT;
@@ -551,6 +567,15 @@ jev-orderby-bench (one commit per call; never sort
 two-decimal probs). Cousin prune-review / ci-gatekeeper
 / jev-preflight. Do not copy hook install
 (`notes.md` §72).
+**Seed/expand/judge/verify crawlers (Empirical as
+README; 2026-09-19 ~18:41):**
+[jev-crawlers](https://github.com/russfranky/jev-crawlers)
+(MIT; **0★**) — seed|expand|judge|verify|report.
+jev-crawlers risk bands never raw boolean. Ranking ≠
+calibrated bug p. n=12 fixture. Verify grounding,
+not exec. Review queue is the product. rh-guard owns
+the gate cousin. Do not copy `AI_GATEWAY_API_KEY`
+(`notes.md` §90).
 **Counterexample**: sampling 2% of production with an LLM judge —
 the economics inversion is the point. **Test**: planted harness bugs
 recovered; false-flag rate on known-clean runs; LLM never runs on the
@@ -762,6 +787,33 @@ affiliated with TypeSafe. Do not copy `npm run dev`
 [mailjay](https://github.com/secondfret/mailjay)
 (license null; **0★**) — archive/trash proposed, not
 permanent delete. **≠** jevmail readonly. `notes.md` §89.
+**Metadata-only Gmail overlay (Empirical as README;
+2026-09-19 ~18:41):**
+[jev-mail](https://github.com/muhammedilyasy/jev-mail)
+(MIT; **0★**) — overlay + dashboard. `gmail.readonly`.
+muhammedilyasy/jev-mail metadata only; never bodies.
+~$0.25/20k *theirs*. **≠** fazlerocks/jevmail **≠**
+mailordinal **≠** mailjay **≠** Essentiel-Jev.
+`notes.md` §90.
+**LinkedIn hide fail-open (Empirical as README;
+2026-09-19 ~18:41):**
+[lkclean](https://github.com/stefw/lkclean)
+(MIT; **0★**) — hide, not delete. lkclean Show
+fail-open. Noise 70% / interest 35% / blocked 60%
+still soft. Sponsored local. **≠** x-reply-filter
+**≠** Winnow. `notes.md` §90.
+**YouTube cover fail-open (Empirical as README;
+2026-09-19 ~18:41):**
+[jev-yt-time-saver](https://github.com/jaibhasin/jev-yt-time-saver)
+(license null; **1★**) — cover + jev-yt-time-saver
+Show anyway. Metadata not pixels. `notes.md` §90.
+**Sort-by-meaning ranking (Empirical as README;
+2026-09-19 ~18:41):**
+[jsort](https://github.com/keltokhy/jsort)
+(MIT; **1★**) — pairwise Jev → Bradley-Terry. jsort
+scores are relative. Noul not Choice for scale.
+CommonLit r=0.824 / ρ=0.841 *theirs*. Do not copy
+`uv` (`notes.md` §90).
 **Public classification API (Empirical as README +
 eval/README; life/business; 2026-09-19 ~08:37):**
 [classifier-dev](https://github.com/mrmps/classifier-dev)
@@ -1026,6 +1078,28 @@ Do not copy skill paste (`notes.md` §89).
 “Mathematically fulfilled” overclaim. Unpublished npm
 `@aipersona/agent-harness`. **≠** AntonioCoppe/jev-harness.
 Do not copy npm (`notes.md` §89).
+**Offload classify/screen/score/verify (Empirical as
+README; 2026-09-19 ~18:41):**
+[yuyang2230/jev-agent-skill](https://github.com/yuyang2230/jev-agent-skill)
+(MIT; **0★**) — leftover writer vs cheap decide via
+OpenCode Zen. yuyang2230/jev-agent-skill
+jev-1.13-free, not `jev-latest`. $0 is a Zen-tier
+claim. **≠** GodsBoy/jev-agent-skill-router. Do not
+copy `ZEN_API_KEY` (`notes.md` §90).
+**Classifier not generator (Empirical as README;
+2026-09-19 ~18:41):**
+[jev-techstack-classifier](https://github.com/swap-mitra/jev-techstack-classifier)
+(license null; **0★**) — plain English → ranked
+stack. jev-techstack-classifier stack_config.json
+only. Worker has no key. Do not copy wrangler
+(`notes.md` §90).
+**Pointer shell (Empirical as README; 2026-09-19
+~18:41):**
+[tpellet/hunch](https://github.com/tpellet/hunch)
+(MIT; **0★**) — pick/why/is/run over stdin/PATH/man.
+tpellet/hunch exit 3. never-execute list. Pin
+`jev-1.13.0`. **≠** carldaws/hunch. Do not copy
+`cargo install` (`notes.md` §90).
 
 ## 6. Expensive observation router
 
@@ -1261,6 +1335,25 @@ is a catch; a human still confirms the irreversible act.
 approves every write; read-back. Essentiel-Jev never authority. 0.75
 provisional. **≠** jevmail **≠** mailjay. Do not copy
 `.env` (`notes.md` §89).
+**Pointer-shell never-execute (Empirical as README;
+2026-09-19 ~18:41):**
+[tpellet/hunch](https://github.com/tpellet/hunch)
+(MIT; **0★**) — `run` proposes from PATH/man; never-execute
+list (`rm` refused even with `--yes`). tpellet/hunch
+exit 3 abstains. **≠** carldaws/hunch. `notes.md` §90.
+**Tab close fail-open (Empirical as README; 2026-09-19
+~18:41):**
+[tab-bouncer](https://github.com/MANISH007700/tab-bouncer)
+(MIT; **0★**) — one call ≤120 tabs. tab-bouncer
+pinned/audio/current never closed. Reopen.
+chrome:// never touched. `notes.md` §90.
+**Pause-if-no-Jev civ sim (Empirical as README;
+2026-09-19 ~18:41):**
+[ORIGIN-CIVILIZATION](https://github.com/JacquesGariepy/ORIGIN-CIVILIZATION)
+(LICENSE MIT / SPDX NOASSERTION; **1★**) — Jev every
+voluntary action; LLMs plan never decide. ORIGIN
+pause-if-no-Jev. validResponse sums-to-1. **≠**
+Essentiel-Jev. `notes.md` §90.
 
 ## 8. Decide → policy → LLM leftover cascade
 
@@ -1324,6 +1417,13 @@ Gateway. `gmail.readonly`. ~3¢ / ~1 min per 1k
 (license null; **0★**) — reviews proposed actions;
 archive/trash, not permanent delete. **≠** jevmail
 readonly. `notes.md` §89.
+**Civ leftover planner (Empirical as README;
+2026-09-19 ~18:41):**
+[ORIGIN-CIVILIZATION](https://github.com/JacquesGariepy/ORIGIN-CIVILIZATION)
+— typed decide is Jev; leftover text is an LLM plan
+that never decides. ORIGIN pause-if-no-Jev.
+validResponse sums-to-1. **≠** Essentiel-Jev.
+`notes.md` §90.
 **Public decide-backend cousin (Empirical as README;
 2026-09-19 ~08:37):**
 [classifier-dev](https://github.com/mrmps/classifier-dev)
@@ -1385,6 +1485,13 @@ viewport table; Jev picks operation+target; code owns the
 loop; optional text model only for type. `--until` in code
 beats Jev `done`. n=3 medians ~2×, not a bench. Distinct
 from this card's no-planner extreme (`notes.md` §65).
+**Observe→score→act namesake (Empirical as README;
+2026-09-19 ~18:41):**
+[ZHUBoer/ego-jev](https://github.com/ZHUBoer/ego-jev)
+— Ego Lite observe/act; Jev `choose` over compact page
+state. ZHUBoer/ego-jev reserved `__none__`.
+runWorkflow completed ≠ success. Exact work local.
+**≠** jiangkoumo/ego-jev. `notes.md` §90.
 **Adversarial cousin (Playwright executes, Jev chooses;
 license null; 2026-09-19 ~04:39):**
 [browser-jev](https://github.com/DowLucas/browser-jev) —

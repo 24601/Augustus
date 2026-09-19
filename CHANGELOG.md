@@ -1141,6 +1141,87 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   `@aipersona/…` / `uv` / `baml toolchain` / Gateway
   keys / `TYPESAFE_API_KEY`. No wrapper. No invented
   metrics.
+- Hourly 1241 HIGH (`research/notes.md` §90): **Skip
+  Archer.** Docs-only on a **fresh PR off main**. Never
+  reopen merged #3 / #4 / #5. Do **not** re-fold 1144 /
+  §89. How-to-apply / mental models / architecture /
+  Harbor-jevals / toolbelt — not a thin Jev skill dump.
+  Backend-agnostic categorization/scoring/decision class
+  (Jev-like speed/econ). Formal methods compose with
+  scoring; a Noul is a SENSOR; hard-gating AUTO_ACT,
+  treating ranking logits as frequencies, pasting
+  95.2% / 83% plumbing / 36/120 NL2Bash as class
+  ceilings, or letting Jev send/delete/close pinned
+  tabs is soundness theater. Twelve clusters:
+  **Observe→score→act namesake**
+  ([ZHUBoer/ego-jev](https://github.com/ZHUBoer/ego-jev)
+  reserved `__none__`; runWorkflow completed ≠ success;
+  **≠** jiangkoumo/ego-jev; **0★**);
+  **Decision-as-ranking**
+  ([jsort](https://github.com/keltokhy/jsort) scores are
+  relative; Noul not Choice for scale; CommonLit
+  r=0.824 / ρ=0.841 *theirs*; **1★**);
+  **Native vs schema-guided Harbor**
+  ([groundedness-judge-bench](https://github.com/slavadubrov/groundedness-judge-bench)
+  native vs schema-guided; implicit_true still
+  unsupported; Jev 0.6667 vs GLM 0.7661 *theirs*;
+  LICENSE MIT / SPDX NOASSERTION; **0★**; **≠**
+  jev-judge-bench);
+  **0 promotions / authored vs real**
+  ([jev_playground](https://github.com/JYeswak/jev_playground)
+  0 promotions; routing-backtest 0.0447%; **0★**; **≠**
+  HF playground);
+  **Offload + classifier-not-generator**
+  ([yuyang2230/jev-agent-skill](https://github.com/yuyang2230/jev-agent-skill)
+  jev-1.13-free; **≠** GodsBoy; **0★**;
+  [jev-techstack-classifier](https://github.com/swap-mitra/jev-techstack-classifier)
+  stack_config.json only; license null; **0★**);
+  **Collapse late**
+  ([s1_ruby](https://github.com/innocentdiaz/s1_ruby)
+  collapse late; `undecided?` abstain; **≠** hunch **≠**
+  feelings; **1★**);
+  **Unofficial toolbelt**
+  ([2389-research/judgement](https://github.com/2389-research/judgement)
+  license null; confidence ≠ winner p; **0★**;
+  [typesafeai-sdk-rust-community](https://github.com/community-ports/typesafeai-sdk-rust-community)
+  typesafeai-sdk-community not a new species; **0★**);
+  **Pointer shell**
+  ([tpellet/hunch](https://github.com/tpellet/hunch)
+  exit 3; never-execute list; **≠** carldaws/hunch;
+  **0★**);
+  **Preview-first VOI / rubric rewrite**
+  ([jev-file-search](https://github.com/emilwagman/jev-file-search)
+  scores not calibrated accuracy; **0★**;
+  [jev-linkmap](https://github.com/stas4000/jev-linkmap)
+  Jev never sees S2 prose; LICENSE MIT / SPDX
+  NOASSERTION; **0★**);
+  **Life fail-open covers**
+  ([jev-mail](https://github.com/muhammedilyasy/jev-mail)
+  metadata only; [tidy](https://github.com/MANISH007700/tidy)
+  none-of-folders stay; [tab-bouncer](https://github.com/MANISH007700/tab-bouncer)
+  pinned/audio/current never closed;
+  [lkclean](https://github.com/stefw/lkclean) Show
+  fail-open; [jev-yt-time-saver](https://github.com/jaibhasin/jev-yt-time-saver)
+  Show anyway);
+  **S1 decide / S2 plan**
+  ([ORIGIN-CIVILIZATION](https://github.com/JacquesGariepy/ORIGIN-CIVILIZATION)
+  pause-if-no-Jev; validResponse sums-to-1; **≠**
+  Essentiel-Jev; **1★**);
+  **Seed/expand/judge/verify + local daemon ≠ Jev**
+  ([jev-crawlers](https://github.com/russfranky/jev-crawlers)
+  risk bands never raw boolean; **0★**;
+  [jevbrain](https://github.com/Synxneuos/jevbrain)
+  AUTO_ACT is not a Noul; license null; **9★**). Soft
+  Noul ≠ hard safety. 0★ HIGHs still get real cards.
+  Census (user-provided; not re-derived): Archer still
+  NOT landed (HF empty; tracker likes 49 lastModified
+  2026-09-19T18:37:18Z still promised); Laya yes;
+  Blackwood ABSENT; SemIf 1846 (+17); jevlike 962 (+3);
+  TypeAR-AI/TypeAR 10 (+1); Awesomejev flat 561/27007.
+  Do not copy `TYPESAFE_API_KEY` / `ZEN_API_KEY` /
+  `AI_GATEWAY` / `uv` / `cargo` / wrangler / chrome
+  unpacked / OAuth client ids / shop URLs / `.env`.
+  No wrapper. No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard
