@@ -637,6 +637,19 @@ kushals256/jevcache. Do not copy `curl | sh`
 auto-accepts; production capture flywheel.
 sutro-sh/jev-align ≠ caiovicentino/jev-align.
 Do not copy `uv` / keys (`notes.md` §93).
+**JA specialist encoder (Empirical as HF card;
+2026-09-19 ~15:32 Boise):**
+[argos1111/modernbert-ja-310m-jev](https://huggingface.co/argos1111/modernbert-ja-310m-jev)
+— pay for a hosted TypeSafe call iff the JA
+cross-encoder cannot answer the typed question
+under format_version modernbert-jev/1. JA
+ModernBERT cross-encoder. pair score → softmax →
+Choice/Score/Noul. unofficial ≠ TypeSafe Jev.
+JA datasets converted to System One. honest vs
+dedicated-head cards. cross-encoder as System One
+backend. argos1111/modernbert-ja-310m-jev ≠
+kunchenguid/local-jev. Do not copy setup scripts
+(`notes.md` §93).
 **Human-feed VOI (Empirical as unreviewed goldens;
 qualify the owner; 2026-09-19 ~04:39):**
 [ThinkyMiner/Winnow](https://github.com/ThinkyMiner/Winnow)

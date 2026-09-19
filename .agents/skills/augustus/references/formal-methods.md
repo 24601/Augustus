@@ -726,11 +726,20 @@ CI replay as Harbor cousin; Cache hit ≠ correctness;
 hyperspaceai/jevcache ≠ kushals256/jevcache;
 human labels only; score never auto-accepts;
 production capture flywheel; sutro-sh/jev-align ≠
-caiovicentino/jev-align.
-Soft Noul ≠ hard safety: a HIT and a training
-score are **sensors**. Treating a ledger HIT as
-correctness or auto-accepting GEPA because the
-score rose is the same theater.
+caiovicentino/jev-align; JA ModernBERT
+cross-encoder; pair score → softmax →
+Choice/Score/Noul; format_version modernbert-jev/1;
+unofficial ≠ TypeSafe Jev; JA datasets converted
+to System One; honest vs dedicated-head cards;
+cross-encoder as System One backend;
+argos1111/modernbert-ja-310m-jev ≠
+kunchenguid/local-jev.
+Soft Noul ≠ hard safety: a HIT, a training
+score, and a softmax over pair scores are
+**sensors**. Treating a ledger HIT as
+correctness, auto-accepting GEPA because the
+score rose, or treating unofficial JA softmax
+as calibrated TypeSafe Noul is the same theater.
 
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a

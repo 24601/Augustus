@@ -214,6 +214,8 @@ request, and treat a stale pin as a prior, never a setting.
 | Treat typesafe-go as official / likes as eval | Unofficial; catalog | Nibir1/typesafe-go ≠ official. awesome-jev-use-cases catalog. `notes.md` §92 |
 | Treat a ledger HIT as correctness / collapse into kushals256 | HIT ≠ truth; namesake | fingerprint after redact; recall vs decide. Cache hit ≠ correctness. hyperspaceai/jevcache ≠ kushals256/jevcache. `notes.md` §93 |
 | Auto-accept GEPA on a rising training score / collapse into caiovicentino | Human taste gate; namesake | human labels only; score never auto-accepts; production capture flywheel. sutro-sh/jev-align ≠ caiovicentino/jev-align. `notes.md` §93 |
+| Treat JA ModernBERT softmax as TypeSafe Noul / skip format_version | Unofficial ≠ calibrated; format lock | unofficial ≠ TypeSafe Jev. pair score → softmax → Choice/Score/Noul. format_version modernbert-jev/1. cross-encoder as System One backend. `notes.md` §93 |
+| Collapse argos1111/modernbert-ja-310m-jev into local-jev / paste dedicated-head JNLI | Namesake; honest card | argos1111/modernbert-ja-310m-jev ≠ kunchenguid/local-jev. JA datasets converted to System One. honest vs dedicated-head cards. `notes.md` §93 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

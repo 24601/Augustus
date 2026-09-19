@@ -246,6 +246,11 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    [sutro-sh/jev-align](https://github.com/sutro-sh/jev-align)
    human labels only; score never auto-accepts;
    production capture flywheel (`notes.md` §93).
+   Unofficial JA softmax is not a TypeSafe self-check:
+   [argos1111/modernbert-ja-310m-jev](https://huggingface.co/argos1111/modernbert-ja-310m-jev)
+   unofficial ≠ TypeSafe Jev; format_version
+   modernbert-jev/1; pair score → softmax →
+   Choice/Score/Noul (`notes.md` §93).
    Closed-vote extreme (no planner LLM):
    [JevOnly](https://github.com/buluoray/JevOnly) (`notes.md` §61).
    Host-owned product:

@@ -802,6 +802,23 @@ local approximation — **not** behavioral equivalence."
 Jev; gold done 26% vs 87%; 112 min vs 21 s. Distinct from
 jev-local's stub and jeff's GLiFormer. MIT (`notes.md`
 §64, §70).
+**JA ModernBERT cross-encoder (unofficial jev_local
+backend; Empirical as HF card; 2026-09-19 ~15:32
+Boise):**
+[`argos1111/modernbert-ja-310m-jev`](https://huggingface.co/argos1111/modernbert-ja-310m-jev)
+(CC-BY-SA-4.0; **2 likes**; sha `07cda235`) +
+[`Argos1111/jev_local`](https://github.com/Argos1111/jev_local)
+(**14★**; license **null**). JA ModernBERT
+cross-encoder. pair score → softmax →
+Choice/Score/Noul. format_version modernbert-jev/1.
+unofficial ≠ TypeSafe Jev. JA datasets converted
+to System One. honest vs dedicated-head cards
+(JNLI 92.62% / JComQA 92.40% *theirs* vs
+dedicated-head 92.93/93.53). cross-encoder as
+System One backend. argos1111/modernbert-ja-310m-jev ≠
+kunchenguid/local-jev. **≠** githubnext/localjev.
+**≠** grande JGLUE. Do not copy setup scripts
+(`notes.md` §93).
 **GitHub Next prompted-JSON `/v1/systemone` (Empirical as
 README + 1,200-request eval; 2026-09-19 ~08:56):**
 [`githubnext/localjev`](https://github.com/githubnext/localjev)
@@ -985,7 +1002,7 @@ default, jeff confidently flat, do not invent Laya),
 §90 (ZHUBoer/ego-jev namesake lock; jsort ranking ≠ calibration; groundedness native vs schema-guided; jev_playground 0 promotions; yuyang2230/jev-agent-skill jev-1.13-free; jev-techstack-classifier stack_config.json; s1_ruby collapse late; 2389-research/judgement license null; confidence ≠ winner p; typesafeai-sdk-community not a new species; tpellet/hunch exit 3; jevbrain AUTO_ACT is not a Noul — placements / unofficial packaging, not new species),
 §91 (judgekit YAML classify/score/route/verify; typed-judge-kit verdict-in-code; alsoleg89/decide packing VOI; Jev-Calibration Platt ECE 0.117→0.052; jev-calibration-arena never acts; ctmx/openrouter-jev-mcp Decision-as-Plugin; FrancoisChastel/jev-code ≠ npm jev-code; claudecode-jev-marketplace fail-open not hot path; pedroknigge/mcp_jev packs not ask_jev; cyrusasco/typesafe-mcp noul deadband 0.35–0.65; codaaiteam/jev-skill jevtypesafeai.com ≠ TypeSafe; hermes-switchyard ≠ hermes-jev-router ≠ hermes-plugin-jev; nanoprune 2.8MB ECE 2.58%; smartdio/jev-browser-agent ≠ ZHUBoer/ego-jev; Dakai/omp-jev-web DONE ≠ proof; hari007sh/jev ≠ dannote/jev; 0thernet/system-one-skills deterministic verify; typed-gate band [0.40,0.60] is refusal; pi-jev-gate fail-closed; choice is the verdict — placements / unofficial packaging, not new species),
 §92 (Foq ~25ms/2.2GB local; rev prefill-only + HF jev-0.5b; robfrase/jev planning memo; meldltd/meldecision laya-go ONNX; laya-doom never pixels; logixism/laya-api empty README; akpsahan/laya ≠ Archer; Nibir1/typesafe-go ≠ official — packaging / Hub copy, not new species; Qwen3.8 27B ≠ Archer),
-§93 (hyperspaceai/jevcache decision ledger / memoization ≠ kushals256/jevcache same-intent admit ≠ Hyperspace KV attention cache; sutro-sh/jev-align GEPA alignment loop ≠ caiovicentino/jev-align verifier — placements, not new species),
+§93 (hyperspaceai/jevcache decision ledger / memoization ≠ kushals256/jevcache same-intent admit ≠ Hyperspace KV attention cache; sutro-sh/jev-align GEPA alignment loop ≠ caiovicentino/jev-align verifier; JA ModernBERT cross-encoder argos1111/modernbert-ja-310m-jev ≠ kunchenguid/local-jev — pair score → softmax → Choice/Score/Noul; format_version modernbert-jev/1; unofficial ≠ TypeSafe Jev; JA datasets converted to System One; honest vs dedicated-head cards — placements, not new species),
 §49 (boundary map; DMB vs constrained LLMs; von; open-alternative-jev). Before
 adopting a surface, the bake-off is a jevals-shaped suite and, for a
 product loop, a Harbor taskset (`validation.md`, Eval & hill-climb).

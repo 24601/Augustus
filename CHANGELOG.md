@@ -1406,6 +1406,38 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   Noul ≠ hard safety. Census (user-provided; not
   re-derived): Archer still NOT landed. Do not copy
   `TYPESAFE_API_KEY` / `uv` / `npx` / `curl | sh` /
+  `.env`. No wrapper. No invented metrics. Landed
+  as Augustus **#10** (`30438ef`).
+- SIGNAL fold JA ModernBERT (`research/notes.md` §93
+  cluster 3): **Skip Archer.** Docs-only on a **fresh
+  PR off main** after #10 merge `30438ef`. **Never
+  reopen** merged #3 / #4 / #5 / #7 / #8 / #9 /
+  **#10**. Do **not** re-fold 1441 / §92. Do **not**
+  re-card hyperspaceai/jevcache or sutro-sh/jev-align.
+  How-to-apply / mental models / architecture /
+  Harbor-jevals / toolbelt — not a thin Jev skill
+  dump. rh-guard owns unofficial-as-calibrated-TypeSafe
+  as a gate cousin; Augustus owns placement. Formal
+  methods compose with scoring; softmax over pair
+  scores is SENSOR. **JA ModernBERT cross-encoder**
+  ([argos1111/modernbert-ja-310m-jev](https://huggingface.co/argos1111/modernbert-ja-310m-jev);
+  CC-BY-SA-4.0; **2 likes**; sha `07cda235`;
+  315.2M; via [Argos1111/jev_local](https://github.com/Argos1111/jev_local)
+  **14★**; license **null**;
+  JA ModernBERT cross-encoder; pair score → softmax →
+  Choice/Score/Noul; format_version modernbert-jev/1;
+  unofficial ≠ TypeSafe Jev; JA datasets converted
+  to System One; honest vs dedicated-head cards
+  JNLI **92.62%** (2323/2508) / JComQA **92.40%**
+  (1033/1118) *theirs* vs LFM 17.15%/68.87%;
+  dedicated-head 92.93/93.53 is a different setup;
+  n=16 not statistical; JMMLU error max_prob 0.66
+  *theirs*; argos1111/modernbert-ja-310m-jev ≠
+  kunchenguid/local-jev; cross-encoder as System One
+  backend). Soft Noul ≠ hard safety. Census
+  (user-provided; not re-derived): Archer still NOT
+  landed. Do not copy `TYPESAFE_API_KEY` / `uv` /
+  `npx` / `curl | sh` / `./setup_modernbert.sh` /
   `.env`. No wrapper. No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the

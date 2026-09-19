@@ -1187,6 +1187,13 @@ human labels only. score never auto-accepts.
 production capture flywheel. sutro-sh/jev-align ≠ caiovicentino/jev-align.
 rh-guard owns HIT-as-truth and training-score auto-accept
 (`notes.md` §93).
+**JA ModernBERT cross-encoder (Empirical as HF card; 2026-09-19 ~15:32 Boise):**
+JA ModernBERT cross-encoder. pair score → softmax → Choice/Score/Noul.
+format_version modernbert-jev/1. unofficial ≠ TypeSafe Jev.
+JA datasets converted to System One. honest vs dedicated-head cards.
+cross-encoder as System One backend.
+argos1111/modernbert-ja-310m-jev ≠ kunchenguid/local-jev.
+Soft Noul ≠ hard safety (`notes.md` §93).
 
 ## 6. Expensive observation router
 
@@ -1472,6 +1479,16 @@ sensor, not an accept. **≠** caiovicentino/jev-align.
 rh-guard owns HIT-as-truth and training-score
 auto-accept as gate cousins; Augustus owns placement.
 Soft Noul ≠ hard safety. `notes.md` §93.
+**Unofficial-as-calibrated-TypeSafe (Empirical as HF
+card; cross-ref rh-guard; 2026-09-19 ~15:32 Boise):**
+[argos1111/modernbert-ja-310m-jev](https://huggingface.co/argos1111/modernbert-ja-310m-jev)
+— unofficial ≠ TypeSafe Jev. pair score → softmax →
+Choice/Score/Noul is a sensor, not a hard safety
+interlock. format_version modernbert-jev/1.
+argos1111/modernbert-ja-310m-jev ≠ kunchenguid/local-jev.
+rh-guard owns unofficial-as-calibrated-TypeSafe;
+Augustus owns placement. Soft Noul ≠ hard safety.
+`notes.md` §93.
 
 ## 8. Decide → policy → LLM leftover cascade
 

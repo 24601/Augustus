@@ -612,8 +612,20 @@ re-fold 1347 items 62–70. soft Noul ≠ hard safety.
     production capture flywheel. sutro-sh/jev-align ≠
     caiovicentino/jev-align. Full cards:
     `optimizer-integration.md`, `faq.md`.
+82. **JA ModernBERT cross-encoder**
+    (argos1111/modernbert-ja-310m-jev):
+    cross-encoder as System One backend.
+    JA ModernBERT cross-encoder.
+    pair score → softmax → Choice/Score/Noul.
+    format_version modernbert-jev/1.
+    unofficial ≠ TypeSafe Jev.
+    JA datasets converted to System One.
+    honest vs dedicated-head cards.
+    argos1111/modernbert-ja-310m-jev ≠
+    kunchenguid/local-jev. Full cards:
+    `judgment-class.md`, `faq.md`.
 
-SIGNAL §93 items 80–81 (`notes.md` §93). Do **not**
+SIGNAL §93 items 80–82 (`notes.md` §93). Do **not**
 re-fold 1441 items 71–79. Unique fragments
-(consecutive): fingerprint after redact; recall vs decide; publish fingerprints+answers; CI replay as Harbor cousin; Cache hit ≠ correctness; hyperspaceai/jevcache ≠ kushals256/jevcache; human labels only; score never auto-accepts; production capture flywheel; sutro-sh/jev-align ≠ caiovicentino/jev-align.
+(consecutive): fingerprint after redact; recall vs decide; publish fingerprints+answers; CI replay as Harbor cousin; Cache hit ≠ correctness; hyperspaceai/jevcache ≠ kushals256/jevcache; human labels only; score never auto-accepts; production capture flywheel; sutro-sh/jev-align ≠ caiovicentino/jev-align; JA ModernBERT cross-encoder; pair score → softmax → Choice/Score/Noul; format_version modernbert-jev/1; unofficial ≠ TypeSafe Jev; JA datasets converted to System One; honest vs dedicated-head cards; cross-encoder as System One backend; argos1111/modernbert-ja-310m-jev ≠ kunchenguid/local-jev.
 soft Noul ≠ hard safety.

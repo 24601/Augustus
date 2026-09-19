@@ -2625,7 +2625,7 @@ No. Cache hit ≠ correctness. A HIT is a sensor
 the answer is right. Sharing foreign fingerprints
 as calibrated truth is trust theater. rh-guard
 owns the HIT-as-truth gate cousin; Augustus owns
-placement. Unique fragments (consecutive): fingerprint after redact; recall vs decide; publish fingerprints+answers; CI replay as Harbor cousin; Cache hit ≠ correctness; hyperspaceai/jevcache ≠ kushals256/jevcache; human labels only; score never auto-accepts; production capture flywheel; sutro-sh/jev-align ≠ caiovicentino/jev-align
+placement. Unique fragments (consecutive): fingerprint after redact; recall vs decide; publish fingerprints+answers; CI replay as Harbor cousin; Cache hit ≠ correctness; hyperspaceai/jevcache ≠ kushals256/jevcache; human labels only; score never auto-accepts; production capture flywheel; sutro-sh/jev-align ≠ caiovicentino/jev-align; JA ModernBERT cross-encoder; pair score → softmax → Choice/Score/Noul; format_version modernbert-jev/1; unofficial ≠ TypeSafe Jev; JA datasets converted to System One; honest vs dedicated-head cards; cross-encoder as System One backend; argos1111/modernbert-ja-310m-jev ≠ kunchenguid/local-jev
 `notes.md` §93.
 
 ## Collapse hyperspaceai/jevcache into kushals256/jevcache?
@@ -2656,3 +2656,30 @@ caiovicentino (MIT JS) is a calibrated alignment
 *verifier* (pass/flag/block heads). Not Archer.
 Not a PreToolUse hard gate. Do not copy `uv` /
 keys. `notes.md` §93.
+
+## Is JA ModernBERT TypeSafe Jev? Treat softmax as a calibrated Noul?
+
+No, and no. JA ModernBERT cross-encoder.
+unofficial ≠ TypeSafe Jev. pair score → softmax → Choice/Score/Noul
+is a class-backend shape, not RLCD. Soft Noul ≠
+hard safety. Unique fragments (consecutive): fingerprint after redact; recall vs decide; publish fingerprints+answers; CI replay as Harbor cousin; Cache hit ≠ correctness; hyperspaceai/jevcache ≠ kushals256/jevcache; human labels only; score never auto-accepts; production capture flywheel; sutro-sh/jev-align ≠ caiovicentino/jev-align; JA ModernBERT cross-encoder; pair score → softmax → Choice/Score/Noul; format_version modernbert-jev/1; unofficial ≠ TypeSafe Jev; JA datasets converted to System One; honest vs dedicated-head cards; cross-encoder as System One backend; argos1111/modernbert-ja-310m-jev ≠ kunchenguid/local-jev
+`notes.md` §93.
+
+## Skip format_version modernbert-jev/1? Invent a prompt?
+
+No. format_version modernbert-jev/1. Prompt lock
+`質問: …\n状況: …` / `ラベル — 説明` is the
+format lock. cross-encoder as System One backend.
+Do not copy `./setup_modernbert.sh`. `notes.md` §93.
+
+## Collapse argos1111/modernbert-ja-310m-jev into kunchenguid/local-jev? Paste dedicated-head JNLI 92.93 as this card? Treat n=16 93.8% as Harbor?
+
+No, no, and no. argos1111/modernbert-ja-310m-jev ≠ kunchenguid/local-jev.
+JA datasets converted to System One. honest vs dedicated-head cards.
+JNLI 92.62% / JComQA 92.40% *theirs* on this
+one scorer; dedicated-head 92.93/93.53 is a
+different setup. n=16 is not a statistical
+conclusion. JMMLU error mean max_prob 0.66
+*theirs* is concentration, not calibrated
+accuracy. **≠** githubnext/localjev **≠** grande
+JGLUE. `notes.md` §93.

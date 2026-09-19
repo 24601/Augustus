@@ -1708,7 +1708,8 @@
   categorization/scoring/decision class. rh-guard
   owns HIT-as-truth and training-score auto-accept;
   Augustus owns placement. Archive tarball SIGNAL.md
-  for both (fetched ~15:13 Boise).
+  for both (fetched ~15:13 Boise). Landed as Augustus
+  **#10** (`30438ef`).
 - Folded how-to-apply clusters: Decision ledger /
   memoization (hyperspaceai/jevcache; fingerprint
   after redact; recall vs decide; publish
@@ -1733,3 +1734,36 @@
 - notes.md §93; sources.json (572 sources, 569 unique
   URLs, retrieved 2026-09-19T21:23Z); findings.md
   batch #76. No wrapper.
+
+## 2026-09-19 ~21:45 UTC — SIGNAL JA ModernBERT cluster 3 (~15:32 Boise)
+- Docs-only on a **fresh PR off main** after #10 merge
+  `30438ef` (`cursor/modernbert-ja-jev-fold-70bc`).
+  Never reopen merged #3 / #4 / #5 / #7 / #8 / #9 /
+  **#10**. `notes.md` §93 cluster 3. Skip Archer.
+  Do **not** re-fold 1441 / §92. Do **not** re-card
+  hyperspaceai/jevcache or sutro-sh/jev-align.
+  Hunches labeled. No wrapper. No invented metrics.
+  Quote the HF card. Soft Noul ≠ hard safety.
+  rh-guard owns unofficial-as-calibrated-TypeSafe;
+  Augustus owns placement. Archive tarball
+  modernbert-ja-jev (~15:32 Boise).
+- Folded: JA ModernBERT cross-encoder
+  (argos1111/modernbert-ja-310m-jev; pair score →
+  softmax → Choice/Score/Noul; format_version
+  modernbert-jev/1; unofficial ≠ TypeSafe Jev;
+  JA datasets converted to System One; honest vs
+  dedicated-head cards; cross-encoder as System One
+  backend; argos1111/modernbert-ja-310m-jev ≠
+  kunchenguid/local-jev).
+- Formal compose: softmax over pair scores is a
+  sensor not TypeSafe Noul. Soft Noul ≠ hard safety.
+- Census not re-derived. Archer still NOT landed.
+- Cards: SKILL.md, mixed-architecture fail table +
+  gallery, faq, mental-models, judgment-class,
+  validation, applied-mappings, mappings, toolbox,
+  composition-algebra item 82, question-design,
+  methods-catalog, formal-methods,
+  agent-self-assessment, ecosystem, CHANGELOG, README.
+- notes.md §93; sources.json (574 sources, 571 unique
+  URLs, retrieved 2026-09-19T21:32Z); findings.md
+  batch #76 cluster 3. No wrapper.

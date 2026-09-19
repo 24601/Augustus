@@ -2624,15 +2624,20 @@ calibrated decision space; (kw) enterprise reflexes;
 Harbor-jevals / SRE; (la) Laya densifies; (lb) demos
 / unofficial toolbelt.
 
-## Batch #76 (2026-09-19 ~21:23 UTC / ~15:23 Boise) — SIGNAL jevcache + jev-align
+## Batch #76 (2026-09-19 ~21:23–21:45 UTC / ~15:23–15:32 Boise) — SIGNAL jevcache + jev-align + JA ModernBERT
 
-Note: `research/notes.md` §93. Docs-only on a fresh PR
-off main after #9 merge `059f3670`. Never reopen merged
-#3 / #4 / #5 / #7 / #8 / **#9**. Skip Archer. Do **not**
-re-fold 1441 / §92. No invented metrics. Hunches
-labeled. Quote READMEs. Soft Noul ≠ hard safety.
-rh-guard owns HIT-as-truth and training-score
-auto-accept; Augustus owns placement.
+Note: `research/notes.md` §93. Clusters 1–2 landed in
+merged Augustus **#10** (`30438ef`). Cluster 3 is
+docs-only on a fresh PR off main after that merge
+(`cursor/modernbert-ja-jev-fold-70bc`). Never reopen
+merged #3 / #4 / #5 / #7 / #8 / #9 / **#10**. Skip
+Archer. Do **not** re-fold 1441 / §92. Do **not**
+re-card hyperspaceai/jevcache or sutro-sh/jev-align.
+No invented metrics. Hunches labeled. Quote READMEs
+and the HF card. Soft Noul ≠ hard safety. rh-guard
+owns HIT-as-truth, training-score auto-accept, and
+unofficial-as-calibrated-TypeSafe; Augustus owns
+placement.
 
 - **Decision ledger / memoization.**
   hyperspaceai/jevcache (**8★** this pass, SIGNAL ★6;
@@ -2647,8 +2652,21 @@ auto-accept; Augustus owns placement.
   only; score never auto-accepts; production capture
   flywheel. sutro-sh/jev-align ≠
   caiovicentino/jev-align.
+- **JA ModernBERT cross-encoder.**
+  argos1111/modernbert-ja-310m-jev (CC-BY-SA-4.0;
+  **2 likes**; sha `07cda235`; 315.2M) via
+  Argos1111/jev_local (**14★**; license **null**).
+  JA ModernBERT cross-encoder. pair score → softmax →
+  Choice/Score/Noul. format_version modernbert-jev/1.
+  unofficial ≠ TypeSafe Jev. JA datasets converted
+  to System One. honest vs dedicated-head cards
+  (JNLI 92.62% / JComQA 92.40% *theirs*; dedicated-head
+  92.93/93.53 is a different setup). n=16 not
+  statistical. argos1111/modernbert-ja-310m-jev ≠
+  kunchenguid/local-jev.
 
 Census not re-derived. Archer still NOT landed.
 
 Cross-repo addition: (lc) decision ledger /
-memoization; (ld) GEPA alignment loop.
+memoization; (ld) GEPA alignment loop; (le) JA
+ModernBERT cross-encoder.

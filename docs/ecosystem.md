@@ -634,12 +634,13 @@ Architecture / mental models / Harbor-jevals / toolbelt, not a `uv` / `npx` / pl
 
 Census **not re-derived**. Archer still NOT landed; tracker likes **50** lastModified UNCHANGED 2026-09-19T18:37:18Z; SemIf 1873 (+7); jevlike 969 (+2); TypeAR 10 flat; Awesomejev 561/27007 flat.
 
-### SIGNAL ~15:23 Boise 2026-09-19 / 21:23 UTC (jevcache + jev-align)
+### SIGNAL ~15:23–15:32 Boise 2026-09-19 / 21:23–21:32 UTC (jevcache + jev-align + JA ModernBERT)
 
-Architecture / mental models / Harbor-jevals / toolbelt, not a `uv` / `npx` / `curl | sh` catalog. `notes.md` §93. Skip Archer. Quote READMEs. Soft Noul ≠ hard safety. Do **not** re-fold 1441 / §92. Fresh PR; never reopen merged #3 / #4 / #5 / #7 / #8 / **#9**. rh-guard owns HIT-as-truth and training-score auto-accept; Augustus owns placement.
+Architecture / mental models / Harbor-jevals / toolbelt, not a `uv` / `npx` / `curl | sh` catalog. `notes.md` §93. Skip Archer. Quote READMEs. Soft Noul ≠ hard safety. Do **not** re-fold 1441 / §92. Clusters 1–2 landed in merged **#10**; this PR adds cluster 3. Never reopen merged #3 / #4 / #5 / #7 / #8 / #9 / **#10**. rh-guard owns HIT-as-truth, training-score auto-accept, and unofficial-as-calibrated-TypeSafe; Augustus owns placement.
 
 - **hyperspaceai/jevcache** — license **null**; **8★** this pass, SIGNAL ★6; README SHA `7c2abe99`; HEAD `a211d13`; size 232. fingerprint after redact; recall vs decide; publish fingerprints+answers; CI replay as Harbor cousin. Cache hit ≠ correctness. hyperspaceai/jevcache ≠ kushals256/jevcache. Not Hyperspace KV attention cache. Do not copy `curl | sh`.
 - **sutro-sh/jev-align** — Apache-2.0; **60★** this pass, SIGNAL ★56; forks **7**; README SHA `363fccb7`; HEAD `49753df`; size 3296. human labels only; score never auto-accepts; production capture flywheel. sutro-sh/jev-align ≠ caiovicentino/jev-align. Do not copy `uv` / keys.
+- **argos1111/modernbert-ja-310m-jev** — CC-BY-SA-4.0; **2 likes**; sha `07cda235`; 315.2M; via [Argos1111/jev_local](https://github.com/Argos1111/jev_local) (**14★**; license **null**). JA ModernBERT cross-encoder. pair score → softmax → Choice/Score/Noul. format_version modernbert-jev/1. unofficial ≠ TypeSafe Jev. JA datasets converted to System One. honest vs dedicated-head cards (JNLI 92.62% / JComQA 92.40% *theirs*; dedicated-head 92.93/93.53 is a different setup). n=16 not statistical. argos1111/modernbert-ja-310m-jev ≠ kunchenguid/local-jev. Do not copy `./setup_modernbert.sh`.
 
 Census **not re-derived**. Archer still NOT landed.
 

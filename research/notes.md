@@ -15555,31 +15555,37 @@ items 71–79; `question-design.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
 
-## 93. SIGNAL fold: jevcache + jev-align (2026-09-19 ~15:23 Boise / ~21:23 UTC)
+## 93. SIGNAL fold: jevcache + jev-align + JA ModernBERT (2026-09-19 ~15:23–15:32 Boise / ~21:23–21:45 UTC)
 
-Docs-only on a **fresh PR off main**
-(`cursor/jevcache-jevalign-fold-01c2`) after #9 merge
-`059f3670`. **Never reopen merged** Augustus PR #3 /
-#4 / #5 / #7 / #8 / **#9**. Skip Archer. Quote
-READMEs. Mark *theirs*. No invented metrics. Hunches
-labeled. No wrappers, npm / `npx` / `uv` / `cargo` /
-`.env` / `TYPESAFE_API_KEY` / `OPENROUTER_API_KEY` /
+Clusters 1–2 (hyperspaceai/jevcache + sutro-sh/jev-align)
+landed in merged Augustus **#10** (`30438ef`, head
+`fe4607c`). This follow-up is docs-only on a **fresh
+PR off main** after that merge
+(`cursor/modernbert-ja-jev-fold-70bc`). **Never reopen
+merged** Augustus PR #3 / #4 / #5 / #7 / #8 / #9 /
+**#10**. Skip Archer. Quote READMEs. Mark *theirs*.
+No invented metrics. Hunches labeled. No wrappers,
+npm / `npx` / `uv` / `cargo` / `.env` /
+`TYPESAFE_API_KEY` / `OPENROUTER_API_KEY` /
 `JEV_API_KEY` / `curl | sh` / OAuth `client_id` as
-recipes. Archive: uploads tarball SIGNAL.md for both
-(fetched ~15:13 Boise).
+recipes. Archive: uploads tarball SIGNAL.md for
+jevcache/jev-align (fetched ~15:13 Boise) plus
+modernbert-ja-jev tarball (~15:32 Boise). Do **not**
+re-card clusters 1–2. Do **not** re-fold 1441 / §92.
 
 Lane is Augustus: **how-to-apply / mental models /
 architecture / Harbor-jevals / toolbelt**. Backend-
 agnostic categorization/scoring/decision class
 (Jev-like speed/econ), **not** a thin Jev-only dump.
 Soft Noul ≠ hard safety. rh-guard owns the thin gate
-cousins (HIT-as-truth; training-score auto-accept);
-Augustus **owns placement**. Do **not** re-fold 1441
-/ §92.
+cousins (HIT-as-truth; training-score auto-accept;
+unofficial-as-calibrated-TypeSafe);
+Augustus **owns placement**. This PR adds cluster 3:
+argos1111/modernbert-ja-310m-jev.
 
-### How-to-apply (two clusters)
+### How-to-apply (three clusters)
 
-Unique fragments (consecutive): fingerprint after redact; recall vs decide; publish fingerprints+answers; CI replay as Harbor cousin; Cache hit ≠ correctness; hyperspaceai/jevcache ≠ kushals256/jevcache; human labels only; score never auto-accepts; production capture flywheel; sutro-sh/jev-align ≠ caiovicentino/jev-align
+Unique fragments (consecutive): fingerprint after redact; recall vs decide; publish fingerprints+answers; CI replay as Harbor cousin; Cache hit ≠ correctness; hyperspaceai/jevcache ≠ kushals256/jevcache; human labels only; score never auto-accepts; production capture flywheel; sutro-sh/jev-align ≠ caiovicentino/jev-align; JA ModernBERT cross-encoder; pair score → softmax → Choice/Score/Noul; format_version modernbert-jev/1; unofficial ≠ TypeSafe Jev; JA datasets converted to System One; honest vs dedicated-head cards; cross-encoder as System One backend; argos1111/modernbert-ja-310m-jev ≠ kunchenguid/local-jev
 
 1. **Decision ledger / memoization** —
    fingerprint after redact. recall vs decide.
@@ -15591,6 +15597,15 @@ Unique fragments (consecutive): fingerprint after redact; recall vs decide; publ
    score never auto-accepts. production capture
    flywheel. sutro-sh/jev-align ≠ caiovicentino/jev-align.
    GEPA + System One.
+3. **JA ModernBERT cross-encoder** —
+   JA ModernBERT cross-encoder.
+   pair score → softmax → Choice/Score/Noul.
+   format_version modernbert-jev/1.
+   unofficial ≠ TypeSafe Jev.
+   JA datasets converted to System One.
+   honest vs dedicated-head cards.
+   cross-encoder as System One backend.
+   argos1111/modernbert-ja-310m-jev ≠ kunchenguid/local-jev.
 
 ### Cards
 
@@ -15689,6 +15704,102 @@ Unique fragments (consecutive): fingerprint after redact; recall vs decide; publ
    **sutro-sh/jev-align**. **≠**
    caiovicentino/jev-align.
 
+3. **JA ModernBERT cross-encoder**
+
+   - **[`argos1111/modernbert-ja-310m-jev`](https://huggingface.co/argos1111/modernbert-ja-310m-jev)**
+     (HF CC-BY-SA-4.0; **2 likes**; 315.2M params;
+     sha `07cda235`; created 2026-09-19T16:35:01Z;
+     lastModified 2026-09-19T16:35:38Z; pipeline
+     `text-classification`; tags `modernbert` /
+     `cross-encoder` / `japanese` / `jev-local`).
+     Runtime: [`Argos1111/jev_local`](https://github.com/Argos1111/jev_local)
+     (`/v1/systemone` compatible; GitHub license
+     **null**; **14★**; pushed 2026-09-19T16:43:09Z).
+     Base [`sbintuitions/modernbert-ja-310m`](https://huggingface.co/sbintuitions/modernbert-ja-310m)
+     @ `77675fc9`. Head
+     `ModernBertForSequenceClassification(num_labels=1)`,
+     CLS pooling. **JA ModernBERT cross-encoder.**
+     **pair score → softmax → Choice/Score/Noul** —
+     one sequence `(question+state, candidate)` →
+     one score; softmax over candidates is Choice /
+     Score / Noul. Noul is candidates
+     `["true", "false"]`. **format_version
+     modernbert-jev/1** in `jev_modernbert.json`;
+     prompt lock `質問: …\n状況: …` /
+     `ラベル — 説明`; State JSON via
+     `json.dumps(..., ensure_ascii=False)`;
+     truncate State only, max 512.
+     **unofficial ≠ TypeSafe Jev** — card *theirs*:
+     unrelated to TypeSafe Jev; does **not**
+     reproduce Jev training/accuracy.
+     **JA datasets converted to System One** —
+     94,384 questions / ~345,000 pairs from JGLUE
+     JNLI / JCommonsenseQA / JSTS train, JCoLA
+     in-domain train, JCommonsenseMorality train,
+     MASSIVE 1.1 ja-JP train. Test splits unused.
+     ~41% Noul (true rate ~46%). Conversion
+     `modernbert/data.py` in jev_local.
+     Train *theirs*: 2 epoch (5,386 step), lr 3e-5
+     linear warmup 6% + decay, AdamW wd 0.01, 128
+     pairs/step, bf16, seed 0, ~41 min on Radeon AI
+     PRO R9700 (torch 2.13.0+rocm10.0.0,
+     transformers 5.17.0). Listwise CE over K
+     candidates.
+     **honest vs dedicated-head cards** — JGLUE
+     test via jev_local HTTP, 1 q/request, 4
+     parallel, R9700 *theirs*: JNLI **92.62%**
+     (2323/2508) vs LFM2.5-1.2B zero-shot
+     **17.15%**; JCommonsenseQA **92.40%**
+     (1033/1118) vs **68.87%**. Official
+     dedicated-head card JNLI 92.93 / JComQA 93.53
+     is a **different** setup (task-specific
+     heads); this model is one scorer for all
+     tasks, trained on those trains. Do **not**
+     paste 92.93/93.53 as this checkpoint.
+     Val 3,000 q *theirs*: jnli 94.3%; jnli-noul
+     95.2%; jcommonsenseqa 95.9%;
+     jcommonsenseqa-noul 92.5%; jsts exact 60.7%;
+     jcola 89.6%; moral 87.7%; massive-scenario
+     18-way 86.1%; massive-scenario-subset 98.5%;
+     massive-noul 98.0%.
+     Held-out *theirs* (not in train): livedoor
+     9-cat n=500 majority 14.2% / model **35.6%**
+     / LFM **46.8%**; JMMLU 4-way n=500 majority
+     28.8% / model **34.8%** / LFM **43.6%**;
+     handmade customer 16 majority 25.0% / model
+     **93.8%** / LFM 56.2% (**n=16 is not a
+     statistical conclusion**). JMMLU error mean
+     max_prob **0.66** *theirs*. Card: `confidence`
+     is distribution concentration, **not**
+     calibrated accuracy. No images. JA/EN others
+     unevaluated. Weights not downloaded this
+     fold.
+     **argos1111/modernbert-ja-310m-jev ≠
+     kunchenguid/local-jev** — this is a JA
+     specialist fine-tune for jev_local pair
+     scoring, not ONNX ModernBERT-large-zeroshot
+     vs live Jev (done 30%/shape 57%). **≠**
+     githubnext/localjev prompted JSON. **≠**
+     grande JGLUE numbers. **≠** Laya English /
+     laya-multilingual MASSIVE. **≠** Archer.
+     Not multimodal pixels/audio. Do not copy
+     `./setup_modernbert.sh` / transformers
+     snippets as a TypeSafe how-to.
+
+   **Mental model:** cross-encoder as System One
+   backend; format lock; unofficial ≠ calibrated
+   TypeSafe; life/JA domain not SWE-only. Soft
+   Noul ≠ hard safety: softmax over candidates is
+   a sensor, not a hard safety interlock. JMMLU
+   0.66 on errors is *theirs*, not a Noul proof.
+
+   **Name lock:** always write
+   **argos1111/modernbert-ja-310m-jev** and
+   **Argos1111/jev_local**. **≠**
+   kunchenguid/local-jev **≠** githubnext/localjev
+   **≠** sbintuitions/modernbert-ja-310m (the
+   base, not this fine-tune).
+
 ### Theater (do not)
 
 Treat a ledger HIT as correctness; share foreign
@@ -15698,7 +15809,12 @@ collapse hyperspaceai/jevcache into
 kushals256/jevcache; collapse sutro-sh/jev-align
 into caiovicentino/jev-align; treat jevcache as
 Hyperspace KV attention cache; treat either as a
-PreToolUse hard gate.
+PreToolUse hard gate; treat JA ModernBERT
+softmax as TypeSafe Noul; paste dedicated-head
+JNLI 92.93 / JComQA 93.53 as this checkpoint;
+collapse argos1111/modernbert-ja-310m-jev into
+kunchenguid/local-jev; treat n=16 customer
+93.8% as Harbor; hard-gate softmax as safety.
 
 ### Census (user-provided; not re-derived)
 
@@ -15711,19 +15827,25 @@ Not a TypeSafe how-to. Not a Jev skill dump. Not
 wrappers. Do not copy `TYPESAFE_API_KEY` /
 `OPENROUTER_API_KEY` / `JEV_API_KEY` / `uv` /
 `npx` / `cargo` / `curl | sh` / plugin-marketplace
-install / `.env` / OAuth `client_id`. Do not
+install / `.env` / OAuth `client_id` /
+`./setup_modernbert.sh`. Do not
 re-fold 1441 / §92. Do not re-card
 kushals256/jevcache / jevassert /
-DGUI_HYPERMEM-JEV / jev-triage. rh-guard still
-owns HIT-as-truth and training-score auto-accept
-as gate cousins — Augustus only cross-refs
-placement.
+DGUI_HYPERMEM-JEV / jev-triage /
+kunchenguid/local-jev / githubnext/localjev /
+grande JGLUE / laya-multilingual. rh-guard still
+owns HIT-as-truth, training-score auto-accept,
+and unofficial-as-calibrated-TypeSafe as gate
+cousins — Augustus only cross-refs placement.
 
 ### Curated status
 
-SIGNAL jevcache/jev-align **folded** (two PRIMARY
-Augustus clusters). 1441 / §92 **not re-carded**.
-Archer still **NOT landed**. Census not re-derived.
+SIGNAL jevcache/jev-align landed in **#10**. JA
+ModernBERT cross-encoder **folded here** as cluster 3
+of the same §93 (three PRIMARY Augustus clusters).
+1441 / §92 **not re-carded**. Clusters 1–2 **not
+re-carded**. Archer still **NOT landed**. Census
+not re-derived. Never reopen **#10**.
 
 ### Cross-links
 
@@ -15732,7 +15854,7 @@ gallery); `faq.md`; `mental-models.md`;
 `judgment-class.md`; `validation.md`;
 `applied-mappings.md`; `mappings.md`;
 `toolbox-mapping.md`; `composition-algebra.md`
-items 80–81; `question-design.md`;
+items 80–82; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
 `optimizer-integration.md`;
 `agent-self-assessment.md`. Hunches labeled.

@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T21:23Z",
+  "retrieved": "2026-09-19T21:32Z",
   "sources": [
     {
       "kind": "docs",
@@ -3433,6 +3433,18 @@
       "title": "sutro-sh/jev-align",
       "url": "https://github.com/sutro-sh/jev-align",
       "note": "Python Apache-2.0; 60 stars this pass, SIGNAL ★56; forks 7. HEAD 49753df. README SHA 363fccb7. size 3296. human labels only; score never auto-accepts; production capture flywheel. sutro-sh/jev-align ≠ caiovicentino/jev-align. notes.md §93."
+    },
+    {
+      "kind": "huggingface",
+      "title": "argos1111/modernbert-ja-310m-jev",
+      "url": "https://huggingface.co/argos1111/modernbert-ja-310m-jev",
+      "note": "CC-BY-SA-4.0; 2 likes; 315.2M params; sha 07cda235; created/modified 2026-09-19T16:35Z; pipeline text-classification. JA ModernBERT cross-encoder. pair score → softmax → Choice/Score/Noul. format_version modernbert-jev/1. unofficial ≠ TypeSafe Jev. JA datasets converted to System One. honest vs dedicated-head cards JNLI 92.62% (2323/2508) / JComQA 92.40% (1033/1118) theirs vs LFM 17.15%/68.87%; dedicated-head 92.93/93.53 is a different setup. n=16 not statistical. JMMLU error max_prob 0.66 theirs. argos1111/modernbert-ja-310m-jev ≠ kunchenguid/local-jev. notes.md §93."
+    },
+    {
+      "kind": "github",
+      "title": "Argos1111/jev_local",
+      "url": "https://github.com/Argos1111/jev_local",
+      "note": "Runtime for modernbert-ja-310m-jev /v1/systemone; license null; 14 stars; pushed 2026-09-19T16:43:09Z. format_version modernbert-jev/1. unofficial ≠ TypeSafe Jev. Do not copy ./setup_modernbert.sh. notes.md §93."
     }
   ]
 }

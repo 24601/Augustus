@@ -863,15 +863,18 @@ placement. Skip Archer.
 Soft Noul ≠ hard safety on every cluster.
 soft Noul ≠ hard safety.
 
-## Apply SIGNAL jevcache/jev-align (`notes.md` §93)
+## Apply SIGNAL jevcache/jev-align + JA ModernBERT (`notes.md` §93)
 
-Same pillars, two placements. Do **not** re-fold
-1441 / §92. Fresh PR; never reopen merged #3–#9.
-rh-guard owns HIT-as-truth and training-score
-auto-accept as gate cousins; Augustus owns
-placement. Skip Archer.
+Same pillars, three placements. Clusters 1–2 landed
+in merged **#10**. This PR adds cluster 3. Do **not**
+re-fold 1441 / §92. Never reopen merged #3–#10.
+Do **not** re-card hyperspaceai/jevcache or
+sutro-sh/jev-align. rh-guard owns
+HIT-as-truth, training-score auto-accept, and
+unofficial-as-calibrated-TypeSafe as gate cousins;
+Augustus owns placement. Skip Archer.
 
-Unique fragments (consecutive): fingerprint after redact; recall vs decide; publish fingerprints+answers; CI replay as Harbor cousin; Cache hit ≠ correctness; hyperspaceai/jevcache ≠ kushals256/jevcache; human labels only; score never auto-accepts; production capture flywheel; sutro-sh/jev-align ≠ caiovicentino/jev-align
+Unique fragments (consecutive): fingerprint after redact; recall vs decide; publish fingerprints+answers; CI replay as Harbor cousin; Cache hit ≠ correctness; hyperspaceai/jevcache ≠ kushals256/jevcache; human labels only; score never auto-accepts; production capture flywheel; sutro-sh/jev-align ≠ caiovicentino/jev-align; JA ModernBERT cross-encoder; pair score → softmax → Choice/Score/Noul; format_version modernbert-jev/1; unofficial ≠ TypeSafe Jev; JA datasets converted to System One; honest vs dedicated-head cards; cross-encoder as System One backend; argos1111/modernbert-ja-310m-jev ≠ kunchenguid/local-jev
 
 1. **Decision ledger / memoization** —
    fingerprint after redact.
@@ -887,10 +890,22 @@ Unique fragments (consecutive): fingerprint after redact; recall vs decide; publ
    production capture flywheel.
    sutro-sh/jev-align ≠ caiovicentino/jev-align.
    GEPA + System One.
+3. **JA ModernBERT cross-encoder** —
+   JA ModernBERT cross-encoder.
+   pair score → softmax → Choice/Score/Noul.
+   format_version modernbert-jev/1.
+   unofficial ≠ TypeSafe Jev.
+   JA datasets converted to System One.
+   honest vs dedicated-head cards.
+   cross-encoder as System One backend.
+   argos1111/modernbert-ja-310m-jev ≠ kunchenguid/local-jev.
+   life/JA domain, not SWE-only.
 
 Soft Noul ≠ hard safety on every cluster.
 A HIT is a sensor, not a proof. A training score
-is a sensor, not an accept.
+is a sensor, not an accept. Softmax over
+candidates is a sensor, not a hard safety
+interlock.
 
 Formal methods **compose** with scoring. A Noul is a
 SENSOR. Hard-gating it as CI pass / HA write / authorship
