@@ -636,7 +636,7 @@ Census **not re-derived**. Archer still NOT landed; tracker likes **50** lastMod
 
 ### Hourly ~15:41 Boise 2026-09-19 / 21:41 UTC (1541 HIGH)
 
-Architecture / mental models / Harbor-jevals / toolbelt, not a `uv` / `npx` / `go install` / plugin-marketplace catalog. `notes.md` §93. Skip Archer. Quote READMEs. Soft Noul ≠ hard safety. Do **not** re-fold 1441 / §92. Fresh PR; never reopen merged #7 / **#8** / **#9**; do not push onto #10. 0★ HIGHs still get real cards. rh-guard owns the injection-firewall / CI-gate cousins; Augustus owns placement.
+Architecture / mental models / Harbor-jevals / toolbelt, not a `uv` / `npx` / `go install` / plugin-marketplace catalog. `notes.md` §95. Skip Archer. Quote READMEs. Soft Noul ≠ hard safety. Do **not** re-fold 1441 / §92. Fresh PR; never reopen merged #7 / **#8** / **#9** / **#10** / **#12**; do not re-fold §93 / §94. 0★ HIGHs still get real cards. rh-guard owns the injection-firewall / CI-gate cousins; Augustus owns placement.
 
 - **petercr/jev-orchestrator** — TS MIT; **0★**; README SHA `042c102e`; HEAD `f29880f`; size 29. difficulty + policy thresholds + JSONL trace. GitHub “difficulty” ≠ live Score. Decision-only; FINISH 0.95 *theirs* is a sensor.
 - **Charlyhno-eng/jev-codex-pilot** — TS MIT; **0★**; README SHA `6210d1e7`; HEAD `9a277f5`; size 1. jev-codex-pilot model + reasoning depth. Thin marketing overlay + Kanban.
@@ -646,7 +646,7 @@ Architecture / mental models / Harbor-jevals / toolbelt, not a `uv` / `npx` / `g
 - **PavitarSinghArneja/one-dollar-tahoe** — Python MIT; **0★**; README SHA `84bf6bd2`; HEAD `dbf14ff`; size 0. one-dollar-tahoe TypeSafe Jev defense eval. ~74 demo; README has no ASR/FPR. rh-guard owns.
 - **seb4ez/jevguard** — Python MIT; **0★**; README SHA `7dc0906b`; HEAD `138c8fe`; size 0. jevguard calibrator/cache/escape. **≠** hyperspaceai/jevcache.
 - **guilhem/jev-ci-selector** — TS; license null; **0★**; README SHA `a9bb7653`; HEAD `052073a`; size 432. jev-ci-selector CI shadow mode. Shadow default; enforce opt-in. rh-guard owns.
-- **webNeat/llama-jev** — TS; license null; **0★**; README SHA `5ec204af`; HEAD `fdf989a`; size 8. llama-jev llama.cpp replica. Softmax ≠ Noul. **≠** TypeSafe **≠** pcdServer.
+- **webNeat/llama-jev** — TS; license null; **0★**; README SHA `5ec204af`; HEAD `fdf989a`; size 8. llama-jev llama.cpp replica.
 
 Census **not provided this hour** (not re-derived). Archer still NOT landed. Last pin from §92.
 

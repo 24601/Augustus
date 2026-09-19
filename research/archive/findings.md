@@ -2624,11 +2624,11 @@ calibrated decision space; (kw) enterprise reflexes;
 Harbor-jevals / SRE; (la) Laya densifies; (lb) demos
 / unofficial toolbelt.
 
-## Batch #76 (2026-09-19 ~21:41 UTC / ~15:41 Boise) — hourly 1541 HIGH
+## Batch #78 (2026-09-19 ~21:41 UTC / ~15:41 Boise) — hourly 1541 HIGH
 
-Note: `research/notes.md` §93. Docs-only on a fresh PR
-off main. Never reopen merged #7 / **#8** / **#9**.
-Do **not** push onto #10. Skip Archer. Do **not**
+Note: `research/notes.md` §95. Docs-only on a fresh PR
+off main. Never reopen merged #7 / **#8** / **#9** / **#10** / **#12**.
+Do **not** re-fold §93 / §94. Skip Archer. Do **not**
 re-fold 1441 / §92. No invented metrics. Hunches
 labeled. Quote READMEs. Soft Noul ≠ hard safety.
 0★ HIGHs still get real cards. rh-guard owns the
@@ -2665,8 +2665,8 @@ tracker likes **50** lastModified UNCHANGED
 2026-09-19T18:37:18Z; SemIf 1873; jevlike 969;
 TypeAR 10; Awesomejev 561/27007.
 
-Cross-repo addition: (lc) Decision-as-plugin for SWE;
-(ld) evidence projection vs LLM summary; (le) soft
-judgment integrity; (lf) physical/control first-class
-domain; (lg) Harbor-jevals injection-firewall;
-(lh) llama.cpp replica.
+Cross-repo addition: (lh) Decision-as-plugin for SWE;
+(li) evidence projection vs LLM summary; (lj) soft
+judgment integrity; (lk) physical/control first-class
+domain; (ll) Harbor-jevals injection-firewall;
+(lm) llama.cpp replica.

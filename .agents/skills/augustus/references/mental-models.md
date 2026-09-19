@@ -867,11 +867,11 @@ Formal methods **compose** with scoring. A Noul is a
 SENSOR. Hard-gating it as CI pass / HA write / authorship
 seal is the same theater as jev-gate §79.
 
-## Apply 1541 (`notes.md` §93)
+## Apply 1541 (`notes.md` §95)
 
 Same pillars, six more placements. Do **not** re-fold
-1441 / §92. Fresh PR; never reopen merged #7–#9; do
-not push onto #10. rh-guard owns the injection-firewall
+1441 / §92. Fresh PR; never reopen merged #7–#12. Do **not**
+re-fold §93 / §94. rh-guard owns the injection-firewall
 / CI-gate cousins; Augustus owns placement. Skip Archer.
 Census not re-derived.
 
@@ -885,6 +885,9 @@ one-dollar-tahoe TypeSafe Jev defense eval;
 jevguard calibrator/cache/escape;
 jev-ci-selector CI shadow mode;
 llama-jev llama.cpp replica.
+petercr/jev-orchestrator ≠ FleeexCorp/jev-orchestrator.
+seb4ez/jevguard ≠ AseemPrasad/JevGuard ≠ pablozr/JevGuard.
+webNeat/llama-jev ≠ WiktorB2004/llama-index-jev.
 
 1. **Decision-as-plugin for SWE** —
    difficulty + policy thresholds + JSONL trace.

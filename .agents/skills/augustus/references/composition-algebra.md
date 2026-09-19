@@ -608,8 +608,11 @@ one-dollar-tahoe TypeSafe Jev defense eval;
 jevguard calibrator/cache/escape;
 jev-ci-selector CI shadow mode;
 llama-jev llama.cpp replica.
+petercr/jev-orchestrator ≠ FleeexCorp/jev-orchestrator.
+seb4ez/jevguard ≠ AseemPrasad/JevGuard ≠ pablozr/JevGuard.
+webNeat/llama-jev ≠ WiktorB2004/llama-index-jev.
 
-80. **Decision-as-plugin for SWE**
+85. **Decision-as-plugin for SWE**
     (orchestrator / pilot / replacement):
     position 1 × leftover writer. Jev proposes the
     next bounded act; code owns policy.
@@ -617,35 +620,34 @@ llama-jev llama.cpp replica.
     jev-codex-pilot model + reasoning depth.
     keep/shadow/hybrid/reject. GitHub “difficulty”
     is not a live Score. Full cards: `faq.md`,
-    `applied-mappings.md` §5 / §8.
-81. **Evidence projection** (quarry):
+    `applied-mappings.md` §8.
+86. **Evidence projection** (quarry):
     position 4. Fetch to disk; Jev scores line
     ranges. quarry evidence projection.
     Pointer, never paraphrase. Fail-open 5 s.
     Full cards: `mappings.md` §4, `faq.md`.
-82. **Soft judgment integrity**
+87. **Soft judgment integrity**
     (jevguard / jev-ci-selector): remainder after
     exact rules. jevguard calibrator/cache/escape.
     jev-ci-selector CI shadow mode. Shadow default;
     enforce opt-in. rh-guard owns gates. Full cards:
     `applied-mappings.md` §7, `faq.md`.
-83. **Physical/control first-class domain**
+88. **Physical/control first-class domain**
     (Frank-ZY-Dou/awesome-jev): mappings §9
     search/control. Frank-ZY-Dou/awesome-jev robotics/3D/control.
     Text-state, not pixels. One seed-0 ≠ a rate.
-    Full cards: `methods-catalog.md` computer-use
-    row, `faq.md`.
-84. **Harbor-jevals / injection-firewall**
+    Full cards: `mappings.md` §9, `faq.md`.
+89. **Harbor-jevals / injection-firewall**
     (one-dollar-tahoe): measurement owns endorsement.
     one-dollar-tahoe TypeSafe Jev defense eval.
     ~74 demo; README has no ASR/FPR. Do not copy
     attacks. rh-guard owns. Full cards:
     `validation.md`, `faq.md`.
-85. **llama.cpp replica** (llama-jev): packaging ≠
+90. **llama.cpp replica** (llama-jev): packaging ≠
     new species. llama-jev llama.cpp replica.
     Numbered-choice softmax ≠ Noul. **≠** TypeSafe
     **≠** pcdServer. Full cards: `judgment-class.md`,
     `faq.md`.
 
-Hourly 1541 items 80–85 (`notes.md` §93). Do **not**
+Hourly 1541 items 85–90 (`notes.md` §95). Do **not**
 re-fold 1441 items 71–79. soft Noul ≠ hard safety.

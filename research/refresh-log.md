@@ -1700,8 +1700,8 @@
 
 ## 2026-09-19 ~21:41 UTC — hourly 1541 HIGH (~15:41 Boise)
 - Docs-only on a **fresh PR off main**. Never reopen
-  merged #7 / **#8** / **#9**. Do **not** push onto
-  unmerged SIGNAL fold #10. `notes.md` §93.
+  merged #7 / **#8** / **#9** / **#10** / **#12**.
+  Do **not** re-fold §93 / §94. `notes.md` §95.
   Skip Archer. Do **not** re-fold 1441 / §92. Hunches
   labeled. No wrapper. No invented metrics. Quote
   READMEs. Soft Noul ≠ hard safety. 0★ HIGHs still
@@ -1741,9 +1741,9 @@
 - Cards: SKILL.md, mixed-architecture fail table +
   gallery, faq, mental-models, judgment-class,
   validation, applied-mappings, mappings, toolbox,
-  composition-algebra items 80–85, question-design,
+  composition-algebra items 85–90, question-design,
   methods-catalog, formal-methods, agent-self-assessment,
   ecosystem, CHANGELOG, README.
-- notes.md §93; sources.json (579 sources, 576 unique URLs,
-  retrieved 2026-09-19T21:41Z); findings.md batch #76.
+- notes.md §95; sources.json (579 sources, 576 unique URLs,
+  retrieved 2026-09-19T21:41Z); findings.md batch #78.
   No wrapper.

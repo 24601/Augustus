@@ -1374,10 +1374,10 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   Do not copy `TYPESAFE_API_KEY` / OAuth `client_id` /
   `uv` / `npx` / `.env`. No wrapper. No invented
   metrics.
-- Hourly 1541 HIGH (`research/notes.md` §93): **Skip
+- Hourly 1541 HIGH (`research/notes.md` §95): **Skip
   Archer.** Docs-only on a **fresh PR off main**. Never
-  reopen merged #7 / **#8** / **#9**. Do **not** push
-  onto unmerged SIGNAL fold #10. Do **not** re-fold
+  reopen merged #7 / **#8** / **#9** / **#10** /
+  **#12**. Do **not** push onto §93 / §94. Do **not** re-fold
   1441 / §92. How-to-apply / mental models /
   architecture / Harbor-jevals / toolbelt — not a thin
   Jev skill dump. Backend-agnostic
@@ -1390,30 +1390,30 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   one-dollar-tahoe ASR/FPR, or treating numbered-choice
   softmax as a Noul is soundness theater. Six clusters:
   **Decision-as-plugin for SWE**
-  ([jev-orchestrator](https://github.com/petercr/jev-orchestrator)
+  ([petercr/jev-orchestrator](https://github.com/petercr/jev-orchestrator)
   difficulty + policy thresholds + JSONL trace; **0★**;
-  [jev-codex-pilot](https://github.com/Charlyhno-eng/jev-codex-pilot)
+  [Charlyhno-eng/jev-codex-pilot](https://github.com/Charlyhno-eng/jev-codex-pilot)
   model + reasoning depth; **0★**;
-  [jev-replacement](https://github.com/SunnyKikiHK/jev-replacement)
+  [SunnyKikiHK/jev-replacement](https://github.com/SunnyKikiHK/jev-replacement)
   keep/shadow/hybrid/reject; license null; **0★**);
   **Evidence projection**
-  ([quarry](https://github.com/jackboykin/quarry)
+  ([jackboykin/quarry](https://github.com/jackboykin/quarry)
   quarry evidence projection; Go MIT; **0★**; **master**);
   **Soft judgment integrity**
-  ([jevguard](https://github.com/seb4ez/jevguard)
+  ([seb4ez/jevguard](https://github.com/seb4ez/jevguard)
   calibrator/cache/escape; **0★**;
-  [jev-ci-selector](https://github.com/guilhem/jev-ci-selector)
+  [guilhem/jev-ci-selector](https://github.com/guilhem/jev-ci-selector)
   CI shadow mode; license null; **0★**; rh-guard owns);
   **Physical/control first-class domain**
-  ([awesome-jev](https://github.com/Frank-ZY-Dou/awesome-jev)
+  ([Frank-ZY-Dou/awesome-jev](https://github.com/Frank-ZY-Dou/awesome-jev)
   Frank-ZY-Dou/awesome-jev robotics/3D/control; license
   null; **0★**; text-state, not pixels);
   **Harbor-jevals / injection-firewall**
-  ([one-dollar-tahoe](https://github.com/PavitarSinghArneja/one-dollar-tahoe)
+  ([PavitarSinghArneja/one-dollar-tahoe](https://github.com/PavitarSinghArneja/one-dollar-tahoe)
   TypeSafe Jev defense eval; **0★**; ~74 demo; README
   has no ASR/FPR; rh-guard owns);
   **llama.cpp replica**
-  ([llama-jev](https://github.com/webNeat/llama-jev)
+  ([webNeat/llama-jev](https://github.com/webNeat/llama-jev)
   llama.cpp replica; license null; **0★**; softmax ≠
   Noul). Soft Noul ≠ hard safety. 0★ HIGHs still get
   real cards. Census **not provided this hour** (not

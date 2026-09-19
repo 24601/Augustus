@@ -1189,8 +1189,11 @@ one-dollar-tahoe TypeSafe Jev defense eval.
 jevguard calibrator/cache/escape.
 jev-ci-selector CI shadow mode.
 llama-jev llama.cpp replica.
+petercr/jev-orchestrator ≠ FleeexCorp/jev-orchestrator.
+seb4ez/jevguard ≠ AseemPrasad/JevGuard ≠ pablozr/JevGuard.
+webNeat/llama-jev ≠ WiktorB2004/llama-index-jev.
 rh-guard owns injection-firewall / CI-gate cousins
-(`notes.md` §93).
+(`notes.md` §95).
 
 ## 6. Expensive observation router
 
@@ -1465,18 +1468,18 @@ missing key. [safe-sh](https://github.com/EpicEric/safe-sh)
 rh-guard owns. `notes.md` §92.
 **Soft judgment integrity / injection-firewall (Empirical as README;
 cross-ref rh-guard; 2026-09-19 ~21:41):**
-[jevguard](https://github.com/seb4ez/jevguard)
+[seb4ez/jevguard](https://github.com/seb4ez/jevguard)
 (MIT; **0★**) — jevguard calibrator/cache/escape.
 `UNRESOLVED_OR_OTHER`; `AMBIGUOUS_STATE` top p&lt;0.40
 or margin&lt;0.15. **≠** hyperspaceai/jevcache.
-[jev-ci-selector](https://github.com/guilhem/jev-ci-selector)
+[guilhem/jev-ci-selector](https://github.com/guilhem/jev-ci-selector)
 (license null; **0★**) — jev-ci-selector CI shadow mode.
 Shadow default; enforce opt-in; skip_below 0.05 is an
 experiment. Timeout/no-key → keep all.
-[one-dollar-tahoe](https://github.com/PavitarSinghArneja/one-dollar-tahoe)
+[PavitarSinghArneja/one-dollar-tahoe](https://github.com/PavitarSinghArneja/one-dollar-tahoe)
 (MIT; **0★**) — one-dollar-tahoe TypeSafe Jev defense eval.
 ~74 demo; README has no ASR/FPR. Do not copy attacks.
-rh-guard owns. `notes.md` §93.
+rh-guard owns. `notes.md` §95.
 
 ## 8. Decide → policy → LLM leftover cascade
 
@@ -1555,17 +1558,17 @@ codaaiteam/jev-skill jevtypesafeai.com ≠ TypeSafe.
 Do not copy `JEV_API_KEY` (`notes.md` §91).
 **Decision-as-plugin leftover (Empirical as README;
 2026-09-19 ~21:41):**
-[jev-orchestrator](https://github.com/petercr/jev-orchestrator)
+[petercr/jev-orchestrator](https://github.com/petercr/jev-orchestrator)
 (MIT; **0★**) — next-act Choice; code owns policy.
 difficulty + policy thresholds + JSONL trace.
 GitHub “difficulty” is not a live Score.
-[jev-codex-pilot](https://github.com/Charlyhno-eng/jev-codex-pilot)
+[Charlyhno-eng/jev-codex-pilot](https://github.com/Charlyhno-eng/jev-codex-pilot)
 (MIT; **0★**) — jev-codex-pilot model + reasoning depth.
 Thin overlay; leftover execution is Codex.
-[jev-replacement](https://github.com/SunnyKikiHK/jev-replacement)
+[SunnyKikiHK/jev-replacement](https://github.com/SunnyKikiHK/jev-replacement)
 (license null; **0★**) — keep/shadow/hybrid/reject.
 20-case *theirs* failed the cost gate; LLM remains
-fallback. `notes.md` §93.
+fallback. `notes.md` §95.
 **Public decide-backend cousin (Empirical as README;
 2026-09-19 ~08:37):**
 [classifier-dev](https://github.com/mrmps/classifier-dev)
@@ -1661,11 +1664,11 @@ Jev picks op+target. Preview default. Not closed-vote.
 `notes.md` §92.
 **Physical/control atlas (not closed-vote; Empirical as README;
 2026-09-19 ~21:41):**
-[awesome-jev](https://github.com/Frank-ZY-Dou/awesome-jev)
+[Frank-ZY-Dou/awesome-jev](https://github.com/Frank-ZY-Dou/awesome-jev)
 (license null; **0★**) — Frank-ZY-Dou/awesome-jev robotics/3D/control.
 Text-state, not pixels. One seed-0 ≠ a rate.
 Do not re-card jev-drone / khordoo / HA-Jev.
-`notes.md` §93.
+`notes.md` §95.
 **Adversarial cousin (Playwright executes, Jev chooses;
 license null; 2026-09-19 ~04:39):**
 [browser-jev](https://github.com/DowLucas/browser-jev) —

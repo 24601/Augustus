@@ -15555,13 +15555,15 @@ items 71–79; `question-design.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
 
-## 93. Hourly 1541 HIGH (2026-09-19 ~15:41 Boise / ~21:41 UTC)
+## 95. Hourly 1541 HIGH (2026-09-19 ~15:41 Boise / ~21:41 UTC)
 
 Docs-only on a **fresh PR off main**
 (`cursor/hourly-1541-watch-b394`).
 **Never reopen merged** Augustus PR #7 / **#8** /
-**#9**. Do **not** push onto unmerged SIGNAL fold
-#10. Skip Archer. Quote READMEs. Mark *theirs*.
+**#9** / **#10** / **#12**. After merged #10 (`30438eff`,
+SIGNAL §93 jevcache/jev-align) and merged #12 (`063dde0`,
+SIGNAL §94 enzyme/modernbert/Gemma). Do **not** re-fold
+§93 / §94. Skip Archer. Quote READMEs. Mark *theirs*.
 No invented metrics. Hunches labeled. No wrappers,
 npm / `npx` / `uv` / `go install` / `.env` /
 `TYPESAFE_API_KEY` / `AI_GATEWAY_API_KEY` /
@@ -15588,6 +15590,9 @@ one-dollar-tahoe TypeSafe Jev defense eval;
 jevguard calibrator/cache/escape;
 jev-ci-selector CI shadow mode;
 llama-jev llama.cpp replica.
+petercr/jev-orchestrator ≠ FleeexCorp/jev-orchestrator.
+seb4ez/jevguard ≠ AseemPrasad/JevGuard ≠ pablozr/JevGuard.
+webNeat/llama-jev ≠ WiktorB2004/llama-index-jev.
 
 ### How-to-apply (six clusters)
 
@@ -15691,9 +15696,12 @@ llama-jev llama.cpp replica.
    **petercr/jev-orchestrator**,
    **Charlyhno-eng/jev-codex-pilot**,
    **SunnyKikiHK/jev-replacement**. Description ≠
-   live Choice set. **≠** ctmx/openrouter-jev-mcp
-   Decision-as-Plugin (1347) **≠** jeffrey
-   decider≠executor.
+   live Choice set. petercr/jev-orchestrator ≠
+   FleeexCorp/jev-orchestrator **≠** danium/jev-orchestrator
+   **≠** moto-taka/jev-orchestrator **≠**
+   aaronshaf/opencode-jev-orchestrator **≠**
+   ctmx/openrouter-jev-mcp Decision-as-Plugin (1347)
+   **≠** jeffrey decider≠executor.
 
 2. **Evidence projection vs LLM summary**
 
@@ -15761,9 +15769,11 @@ llama-jev llama.cpp replica.
    skip_below as merge policy is theater.
 
    **Name lock:** always write **seb4ez/jevguard**
-   and **guilhem/jev-ci-selector**. **≠**
+   and **guilhem/jev-ci-selector**. seb4ez/jevguard ≠
+   AseemPrasad/JevGuard ≠ pablozr/JevGuard. **≠**
    hyperspaceai/jevcache **≠** ci-gatekeeper
-   **≠** totally-tim/jev-gate.
+   **≠** totally-tim/jev-gate **≠** GLiGuard
+   (encoder safety-schema species).
 
 4. **Physical/control first-class System One domain**
 
@@ -15854,6 +15864,11 @@ llama-jev llama.cpp replica.
    a **format**, not a proper-scoring head.
    Replica honesty: wire-shaped ≠ calibrated.
 
+   **Name lock:** always write **webNeat/llama-jev**.
+   webNeat/llama-jev ≠ WiktorB2004/llama-index-jev.
+   **≠** TypeSafe **≠** pcdServer **≠** chakuho
+   **≠** githubnext/localjev. Softmax ≠ Noul.
+
 ### Theater (do not)
 
 Treat GitHub “difficulty” as a live Score; paste
@@ -15906,7 +15921,7 @@ gallery); `faq.md`; `mental-models.md`;
 `judgment-class.md`; `validation.md`;
 `applied-mappings.md`; `mappings.md`;
 `toolbox-mapping.md`; `composition-algebra.md`
-items 80–85; `question-design.md`;
+items 85–90; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
