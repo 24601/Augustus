@@ -732,6 +732,22 @@ score are **sensors**. Treating a ledger HIT as
 correctness or auto-accepting GEPA because the
 score rose is the same theater.
 
+SIGNAL §94 envelopes (`notes.md` §94), still outside
+the extras template: guidance ≠ hook; catalysts ≠
+summaries; compile-time System One; unofficial ≠
+TypeSafe; format_version modernbert-jev/1;
+Argos1111/jev_local ≠ us/jev-local ≠
+kunchenguid/local-jev; Nemotron ≠ TypeSafe Jev;
+not a calibrated replacement; djev-dev complements
+djev-spark; images as Choice options; Laya essay
+numbers *theirs*; Router/OOD confidence.
+Soft Noul ≠ hard safety: `when asked`, unofficial
+local p, Nemotron p, and Laya 0.85 are
+**sensors**. Hard-gating catalyst similarity as
+deny, treating unofficial JA ModernBERT as TypeSafe
+calibration, or treating Nemotron as a calibrated
+replacement is the same theater.
+
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a
 hybrid "verified by Noul" API.

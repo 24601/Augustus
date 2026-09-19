@@ -2656,3 +2656,64 @@ caiovicentino (MIT JS) is a calibrated alignment
 *verifier* (pass/flag/block heads). Not Archer.
 Not a PreToolUse hard gate. Do not copy `uv` /
 keys. `notes.md` §93.
+
+Unique fragments (consecutive): guidance ≠ hook; catalysts ≠ summaries; compile-time System One; unofficial ≠ TypeSafe; format_version modernbert-jev/1; Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev; Nemotron ≠ TypeSafe Jev; not a calibrated replacement; djev-dev complements djev-spark; images as Choice options; Laya essay numbers *theirs*; Router/OOD confidence
+
+## Hard-gate enzyme `when asked` / catalyst similarity as PreToolUse deny?
+
+No. guidance ≠ hook. Compiled `when asked` is
+attention, not a deny. catalysts ≠ summaries.
+compile-time System One: Jev shapes the question
+program at compile; runtime retrieval is catalyst
+handles. Soft Noul ≠ hard safety. rh-guard owns
+the PreToolUse cousin. Do not copy `curl | bash`.
+`notes.md` §94.
+
+## Are enzyme catalysts summaries? Collapse into jev-sift / findme?
+
+No, and no. catalysts ≠ summaries. They are
+questions the corpus is good at answering. Kinship
+with jev-sift / findme / jev-semgrep is VOI /
+search-control, not identity. Always write
+**byenzyme/enzyme**. `notes.md` §94.
+
+## Is unofficial JA ModernBERT TypeSafe Jev? Skip format_version?
+
+No, and no. unofficial ≠ TypeSafe. format_version
+modernbert-jev/1. Card *theirs*: does not
+reproduce Jev training/accuracy. JNLI 92.62% /
+JComQA 92.40% are *theirs*. `notes.md` §94.
+
+## Is Argos1111/jev_local us/jev-local or kunchenguid/local-jev?
+
+No. Argos1111/jev_local ≠ us/jev-local ≠
+kunchenguid/local-jev. Underscore runtime for the
+JA ModernBERT checkpoint. us/jev-local is
+stub-until-hf. kunchenguid is ONNX English
+measured not equivalent. **≠** githubnext/localjev.
+`notes.md` §94.
+
+## Is Nemotron_Jev a calibrated TypeSafe Jev replacement?
+
+No. Nemotron ≠ TypeSafe Jev. not a calibrated
+replacement. Dense Nemotron-Labs-Diffusion-14B
+adapter; name is the interface. rh-guard owns.
+Do not copy docker. `notes.md` §94.
+
+## Is djev-dev djev-spark or githubnext/localjev? Does it ship pixels as TypeSafe CU?
+
+No, and no. djev-dev complements djev-spark.
+images as Choice options (native image input;
+live camera). Complements mmastrac; no new
+weights. **≠** typesafe-computer-use (that never
+ships a screenshot for the *decision*). **≠**
+githubnext/localjev prompted JSON. `notes.md` §94.
+
+## Paste the Laya essay vs-Jev table as a new bake-off? Treat Khmer 0.952 conf as competence?
+
+No, and no. Laya essay numbers *theirs*. Already
+§76 via NandhaKishorM/laya. Router/OOD
+confidence: Khmer 0.000 @ 0.952 is
+confidence-without-competence; route before the
+forward pass. Not a new species. Do not copy
+`pip install laya`. `notes.md` §94.

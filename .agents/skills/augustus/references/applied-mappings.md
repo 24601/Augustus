@@ -859,6 +859,13 @@ six-question wall. Do not copy wrangler / `npm i -g`
 with a script-before-p `Router` over Hub checkpoints.
 Not a classification HTTP API. Not a TypeSafe drop-in.
 Do not copy `pip install laya` (`notes.md` §76).
+**Questions-as-index compile (Empirical as README;
+life/PKM; 2026-09-19 ~21:35):**
+[byenzyme/enzyme](https://github.com/byenzyme/enzyme)
+(license **null**; **63★** this pass, SIGNAL ★62) —
+catalysts ≠ summaries. compile-time System One.
+guidance ≠ hook. ~350×/1000× *theirs*. Do not copy
+`curl | bash` (`notes.md` §94).
 **Test**: moderation
 cost/coverage + false-hold vs false-publish; ranking recall *separate*
 from nDCG; select misroute rate; required-evidence recall vs Top-K.
@@ -1187,6 +1194,18 @@ human labels only. score never auto-accepts.
 production capture flywheel. sutro-sh/jev-align ≠ caiovicentino/jev-align.
 rh-guard owns HIT-as-truth and training-score auto-accept
 (`notes.md` §93).
+**Compile-time System One / JA replica / NAR cluster
+(Empirical as README + HF card + X; 2026-09-19 ~21:35):**
+guidance ≠ hook. catalysts ≠ summaries.
+compile-time System One. unofficial ≠ TypeSafe.
+format_version modernbert-jev/1.
+Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev.
+Nemotron ≠ TypeSafe Jev. not a calibrated replacement.
+djev-dev complements djev-spark. images as Choice options.
+Laya essay numbers *theirs*. Router/OOD confidence.
+rh-guard owns guidance-as-hook / unofficial-local-as-Jev /
+Nemotron “not calibrated replacement” / Laya
+confidence-without-competence (`notes.md` §94).
 
 ## 6. Expensive observation router
 
@@ -1472,6 +1491,23 @@ sensor, not an accept. **≠** caiovicentino/jev-align.
 rh-guard owns HIT-as-truth and training-score
 auto-accept as gate cousins; Augustus owns placement.
 Soft Noul ≠ hard safety. `notes.md` §93.
+**Guidance ≠ hook / unofficial-local-as-Jev /
+Nemotron not-calibrated (Empirical as README;
+cross-ref rh-guard; 2026-09-19 ~21:35):**
+[byenzyme/enzyme](https://github.com/byenzyme/enzyme)
+— guidance ≠ hook. Compiled `when asked` is
+attention, not PreToolUse deny. Catalyst similarity
+is a sensor, not a gate.
+[argos1111/modernbert-ja-310m-jev](https://huggingface.co/argos1111/modernbert-ja-310m-jev)
+— unofficial ≠ TypeSafe. Local p is not TypeSafe
+calibration.
+[pst2154/Nemotron_Jev](https://github.com/pst2154/Nemotron_Jev)
+— Nemotron ≠ TypeSafe Jev. not a calibrated
+replacement. Laya Router/OOD confidence:
+Khmer 0.000 @ 0.952 *theirs* is
+confidence-without-competence. rh-guard owns
+these as gate cousins; Augustus owns placement.
+Soft Noul ≠ hard safety. `notes.md` §94.
 
 ## 8. Decide → policy → LLM leftover cascade
 
@@ -1561,6 +1597,14 @@ Do not copy `JEV_API_KEY` (`notes.md` §91).
 — same sandwich without a hosted Jev: Router picks
 the checkpoint, policy stays in the caller, 0.85 is
 still soft. `notes.md` §76.
+**Compile leftover (Empirical as README;
+2026-09-19 ~21:35):**
+[byenzyme/enzyme](https://github.com/byenzyme/enzyme)
+— Decisions uses Jev (`ENZYME_JEV_MODEL`); catalyst
+*generation* uses a separate LLM (`OPENAI_MODEL`).
+compile-time System One. guidance ≠ hook. Policy
+(when asked) is compiled guidance, not leftover
+prose that decides. `notes.md` §94.
 
 ## 9. Closed-vote computer-use
 

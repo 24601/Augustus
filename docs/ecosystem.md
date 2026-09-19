@@ -643,6 +643,19 @@ Architecture / mental models / Harbor-jevals / toolbelt, not a `uv` / `npx` / `c
 
 Census **not re-derived**. Archer still NOT landed.
 
+### SIGNAL ~15:32–15:35 Boise 2026-09-19 / 21:35 UTC (enzyme + JA ModernBERT + Gemma/Nemotron/djev-dev/Laya essay)
+
+Architecture / mental models / Harbor-jevals / toolbelt, not a `uv` / `npx` / `curl | bash` catalog. `notes.md` §94. Skip Archer. Quote READMEs. Soft Noul ≠ hard safety. Do **not** re-fold jevcache/jev-align / §93. Fresh PR; never reopen merged #3 / #4 / #5 / #7 / #8 / #9 / **#10**. rh-guard owns guidance-as-hook, unofficial-local-as-Jev, Nemotron “not calibrated replacement”, and Laya confidence-without-competence; Augustus owns placement.
+
+- **byenzyme/enzyme** — license **null**; **63★** this pass, SIGNAL ★62; README SHA `9af7c570`; HEAD `c91d6b5`; size 391718; homepage https://memory.enzyme.garden. guidance ≠ hook; catalysts ≠ summaries; compile-time System One. ~350×/1000× *theirs*. Do not copy `curl | bash`.
+- **argos1111/modernbert-ja-310m-jev** — CC-BY-SA-4.0; **2 likes**; sha `07cda235`. unofficial ≠ TypeSafe; format_version modernbert-jev/1. JGLUE JNLI 92.62% / JComQA 92.40% *theirs*. Runtime **Argos1111/jev_local** (**14★**; README SHA `ee7b536a`; HEAD `8ccc04d`). Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev. Do not copy `setup_modernbert.sh`.
+- **@googlegemma** — [status/2101069861598482817](https://x.com/googlegemma/status/2101069861598482817). DiffusionGemma-as-Jev ~0.2s DGX Spark *theirs*. Engagement ephemeral. Not a Harbor bake-off.
+- **pst2154/Nemotron_Jev** — license **null**; **6★**; README SHA `f2f3d052`; HEAD `983cc29` on `feat/nemotron-decision-lab`. Nemotron ≠ TypeSafe Jev; not a calibrated replacement. Do not copy docker.
+- **Davipar/djev-dev** — Apache-2.0; **2★**; README SHA `6d59d020`; HEAD `3ce907e`. djev-dev complements djev-spark; images as Choice options. Native image input. **≠** typesafe-computer-use.
+- **Laya product essay** — https://laya.convaiinnovations.com/. Laya essay numbers *theirs*. Router/OOD confidence (Khmer 0.000 @ 0.952). Already §76 via NandhaKishorM/laya. Not a new species. Do not copy `pip install laya`.
+
+Census **not re-derived**. Archer still NOT landed.
+
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs
 Apalache; DST trio Antithesis / Resonate HQ / PufferLib):

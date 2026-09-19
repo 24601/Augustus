@@ -15737,3 +15737,358 @@ items 80–81; `question-design.md`;
 `optimizer-integration.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
+
+## 94. SIGNAL fold: enzyme + JA ModernBERT + Gemma cluster (2026-09-19 ~15:35 Boise / ~21:35 UTC)
+
+Docs-only on a **fresh PR off main**
+(`cursor/enzyme-modernbert-gemma-d49e`) after #10 merge
+`30438eff`. **Never reopen merged** Augustus PR #3 /
+#4 / #5 / #7 / #8 / #9 / **#10**. Skip Archer. Quote
+READMEs. Mark *theirs*. No invented metrics. Hunches
+labeled. No wrappers, npm / `npx` / `uv` / `cargo` /
+`.env` / `TYPESAFE_API_KEY` / `OPENROUTER_API_KEY` /
+`JEV_API_KEY` / `ENZYME_JEV_MODEL` / `curl | bash` /
+OAuth `client_id` / docker GHCR as recipes. Archive:
+uploads tarball SIGNAL.md for three clusters (fetched
+~15:32–15:35 Boise). No 1541 fold PR was open
+(`gh pr list --state open` empty); this is not a
+second fold of #10.
+
+Lane is Augustus: **how-to-apply / mental models /
+architecture / Harbor-jevals / toolbelt**. Backend-
+agnostic categorization/scoring/decision class
+(Jev-like speed/econ), **not** a thin Jev-only dump.
+Soft Noul ≠ hard safety. rh-guard owns the thin gate
+cousins (guidance-as-PreToolUse; unofficial-local
+marketed-as-Jev; Nemotron “not calibrated
+replacement”; Laya confidence-without-competence);
+Augustus **owns placement**. Do **not** re-fold
+jevcache/jev-align / §93.
+
+### How-to-apply (three clusters)
+
+Unique fragments (consecutive): guidance ≠ hook; catalysts ≠ summaries; compile-time System One; unofficial ≠ TypeSafe; format_version modernbert-jev/1; Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev; Nemotron ≠ TypeSafe Jev; not a calibrated replacement; djev-dev complements djev-spark; images as Choice options; Laya essay numbers *theirs*; Router/OOD confidence
+
+1. **Compile-time System One / questions-as-index** —
+   guidance ≠ hook. catalysts ≠ summaries.
+   compile-time System One. Jev shapes the question
+   program at compile; runtime retrieval is catalyst
+   handles, not re-judging the vault every turn.
+   Soft guidance ≠ hard gate. Life/PKM, not SWE-only.
+2. **Unofficial JA ModernBERT cross-encoder** —
+   unofficial ≠ TypeSafe. format_version
+   modernbert-jev/1. Argos1111/jev_local ≠
+   us/jev-local ≠ kunchenguid/local-jev. Pair
+   scoring → softmax Choice/Score/Noul. JA/life
+   domain. Not multimodal. Not Archer.
+3. **NAR class legitimacy / multimodal observe→decide
+   / Router-OOD / priority essay** —
+   Nemotron ≠ TypeSafe Jev. not a calibrated
+   replacement. djev-dev complements djev-spark.
+   images as Choice options. Laya essay numbers
+   *theirs*. Router/OOD confidence. Institutional
+   DiffusionGemma-as-System-One. Not Archer Hume.
+
+### Cards
+
+1. **Compile-time System One / questions-as-index**
+
+   - **[`byenzyme/enzyme`](https://github.com/byenzyme/enzyme)**
+     (TypeScript; GitHub license **null**; **63★**
+     this pass, SIGNAL snapshot ★62; forks **1**;
+     created 2025-01-22T04:37Z; HEAD `c91d6b5`;
+     README SHA `9af7c570`; GitHub `size` 391718;
+     homepage https://memory.enzyme.garden; topics
+     claude-code / knowledge-management / local-first
+     / obsidian / pkm / semantic-search). Local-first
+     **compile step for Markdown knowledge bases**
+     (Obsidian / agent memory / Zettelkasten).
+     Temporally grounded context sampling → generate
+     **catalysts** (questions) as semantic routes →
+     refresh separates fast local ingestion from
+     periodic catalyst evolution. README claim
+     ~**350× cost / 1000× speed** vs frontier for
+     the compile path (*theirs* — do not invent
+     Harbor numbers).
+     **compile-time System One** — `enzyme compile`
+     is an explicit OpenRouter Decisions op using
+     `ENZYME_JEV_MODEL` (default `typesafe/jev-1.13`).
+     A DSL program (profiles, vault budgets, learn-
+     questions-from folders/tags) is what Jev helps
+     generate via a deterministic scan. Catalyst
+     *generation* uses a separate LLM
+     (`OPENAI_MODEL`); Decisions uses Jev. Hosted
+     bootstrap can avoid spending the user’s
+     personal key.
+     **catalysts ≠ summaries** — they are questions
+     the corpus is good at answering (VOI /
+     search-control kinship with jev-sift / findme /
+     jev-semgrep). `enzyme petri` shows entities +
+     era-spanning catalysts; `enzyme catalyze`
+     retrieves passages through learned questions.
+     Illustrative JSON in the README is **shape,
+     not a captured run**.
+     **guidance ≠ hook** — compiled `when asked`
+     advice is **guidance compiled for the agent,
+     not an enforced hook**. Soft guidance ≠ hard
+     gate. Do not hard-gate on catalyst similarity
+     scores. rh-guard owns the PreToolUse cousin;
+     Augustus owns placement.
+     **Profiles as mental models** — operational,
+     decision_trace, resonance_trace, reflective,
+     relational, preference_evidence, tension_trace
+     (2 years personal use *theirs*). Life/PKM /
+     meetings / people notes, not SWE-only agent
+     hooks.
+     **Message archives** — SQLite iMessage/WhatsApp/
+     Mail as the same entity/catalyst pipeline as
+     markdown (`handle_id` collapses like `[[links]]`).
+     Not an open-weight Jev replica. Not a PreToolUse
+     structural wrap. Do not copy `curl | bash` /
+     `enzyme login` / keys / `OPENAI_*`.
+
+   **Mental model:** compile-time System One;
+   questions as index; profiles as judgment
+   families; life/PKM atlas. Soft Noul ≠ hard
+   safety: catalyst relevance / `when asked` is
+   attention, not deny.
+
+   **Name lock:** always write **byenzyme/enzyme**.
+   guidance ≠ hook.
+
+2. **Unofficial JA ModernBERT cross-encoder**
+
+   - **[`argos1111/modernbert-ja-310m-jev`](https://huggingface.co/argos1111/modernbert-ja-310m-jev)**
+     (CC-BY-SA-4.0; **2 likes**; 315.2M params;
+     sha `07cda235`; created/modified
+     2026-09-19T16:35Z; tags `jev-local` /
+     `cross-encoder` / `japanese`). Unofficial
+     **Japanese** ModernBERT cross-encoder
+     fine-tune of
+     [`sbintuitions/modernbert-ja-310m`](https://huggingface.co/sbintuitions/modernbert-ja-310m)
+     @ `77675fc9` for Jev Local. Reads
+     `(question+state, candidate)` as one sequence
+     → single score; softmax over candidates →
+     Choice / Score / Noul probabilities.
+     **unofficial ≠ TypeSafe** — card *theirs*:
+     unrelated to TypeSafe Jev; does **not**
+     reproduce Jev training/accuracy.
+     **format_version modernbert-jev/1** — prompt
+     lock `質問: …\n状況: …` / `ラベル — 説明`;
+     `jev_modernbert.json` `format_version`.
+     Noul as candidates `["true", "false"]`.
+     Train *theirs*: 2 epoch, lr 3e-5, ~41 min on
+     Radeon AI PRO R9700 (ROCm); ~94k questions /
+     ~345k pairs from JGLUE JNLI/JCommonsenseQA/
+     JSTS, JCoLA, JCommonsenseMorality, MASSIVE
+     ja-JP converted to System One questions.
+     Val (3k q) *theirs*: jnli 94.3%,
+     jcommonsenseqa 95.9%, jsts exact 60.7%,
+     massive-scenario 18-way 86.1%. JGLUE test
+     held-out *theirs*: JNLI **92.62%** (2323/2508)
+     / JComQA **92.40%** (1033/1118) vs LFM2.5-1.2B
+     zero-shot on the same API (17.15% / 68.87%) —
+     train overlap vs dedicated task heads called
+     out; official card JNLI 92.93 / JComQA 93.53
+     are **per-task heads**. Unseen: livedoor 35.6%
+     vs LFM 46.8%; JMMLU 34.8% vs 43.6%; 16-example
+     customer card 93.8% vs 56.2% is **indicative,
+     not a statistic**. Wrong-answer mean max p
+     0.66 *theirs*; `confidence` is concentration,
+     not calibrated accuracy. Seq 512 truncates
+     State. No image input. Weights not downloaded
+     this pass (`model.safetensors` present on Hub).
+     Not a class-table multimodal row. Not Archer.
+     Not Laya English.
+   - **[`Argos1111/jev_local`](https://github.com/Argos1111/jev_local)**
+     (Python; GitHub license **null**; **14★**;
+     created 2026-09-18T19:09Z; HEAD `8ccc04d`;
+     README SHA `ee7b536a`; GitHub `size` 156;
+     pushed 2026-09-19T16:43Z). Runtime:
+     ModernBERT backend, `/v1/systemone`
+     compatible. `./run_modernbert.sh --checkpoint
+     argos1111/modernbert-ja-310m-jev`.
+     **Argos1111/jev_local ≠ us/jev-local ≠
+     kunchenguid/local-jev** — us/jev-local is
+     the stub-until-hf drop-in; kunchenguid is
+     ONNX English ModernBERT **measured not
+     equivalent**; githubnext/localjev is
+     prompted-JSON DiffusionGemma. Underscore
+     `jev_local`, not hyphen. Do not copy
+     `setup_modernbert.sh` / transformers snippets
+     as install how-to.
+
+   **Mental model:** cross-encoder System One
+   shape; format lock; multilingual open-replica
+   lane; honest eval framing. Soft Noul ≠ hard
+   safety: unofficial local p is a sensor, not
+   TypeSafe calibration.
+
+   **Name lock:** always write
+   **argos1111/modernbert-ja-310m-jev** and
+   **Argos1111/jev_local**. unofficial ≠ TypeSafe.
+   format_version modernbert-jev/1.
+
+3. **NAR class legitimacy / multimodal observe→decide
+   / Router-OOD / priority essay**
+
+   - **[@googlegemma — “DiffusionGemma as Jev”](https://x.com/googlegemma/status/2101069861598482817)**
+     (official Gemma; 2026-09-18T22:04Z; verified
+     org; likes **2739** / RT **280** / views
+     **226741** this archive — **ephemeral**).
+     Institutional legitimization of NAR decision
+     path: canvas diffusion evaluates structured
+     choices in one parallel pass (~**0.2s** DGX
+     Spark *theirs*); bidirectional attention;
+     multimodal grounding (Gemma spatial vision).
+     Points at vLLM
+     [PR #57250](https://github.com/vllm-project/vllm/pull/57250)
+     and mmastrac thread (quote: Jev vs
+     DiffusionGemma-as-Jev “roughly tied”; API vs
+     DGX Spark). **Omni-adjacent** (pixels in
+     state), distinct from text NAR Laya/ModernBERT.
+     Interface claim, not a Harbor bake-off. Do not
+     paste ~0.2s as a class ceiling. Cousin
+     djev-spark already §36; githubnext/localjev
+     prompted-JSON already §75.
+   - **[`pst2154/Nemotron_Jev`](https://github.com/pst2154/Nemotron_Jev)**
+     (HTML; GitHub license **null**; **6★**; forks
+     **1**; created 2026-09-18T18:13Z; HEAD
+     `983cc29` on `feat/nemotron-decision-lab`;
+     README SHA `f2f3d052`; GitHub `size` 43;
+     default branch **not** `main`). Dense
+     **Nemotron-Labs-Diffusion-14B** adapter,
+     TypeSafe-shaped API + Decision Lab UI, GHCR
+     `nemotron-jev:14b-v2` digest
+     `sha256:a1bf099b…`. README *theirs*:
+     experimental, **not** Jev / not an official
+     TypeSafe service / **not a calibrated
+     replacement** / not MoE. Name describes
+     interface, not model identity.
+     **Nemotron ≠ TypeSafe Jev.** No built-in
+     auth/TLS/rate-limit. Do not copy docker /
+     `--gpus` / ports. X:
+     [@nordiconco](https://x.com/nordiconco/status/2101122179262042117)
+     (reply to Gemma; likes 25 this archive).
+     rh-guard owns the “marketed-as-Jev” cousin.
+   - **[`Davipar/djev-dev`](https://github.com/Davipar/djev-dev)**
+     (Python Apache-2.0; **2★**; created
+     2026-09-19T16:50Z; HEAD `3ce907e`; README SHA
+     `6d59d020`; GitHub `size` 1477; pushed
+     2026-09-19T17:13Z). “follows mmastrac early
+     approach + juice”: DiffusionGemma + vLLM
+     structured reads, **native image input**,
+     **images as Choice options**, live camera
+     sampling with backpressure. Complements
+     mmastrac/djev-spark; upstream PR #57250. Does
+     **not** introduce new weights or claim to have
+     trained DiffusionGemma. Compact seeded answer
+     canvas; one denoising read; allowed-label
+     probabilities. Camera does not keep temporal
+     memory. Recommended B200 / CUDA 13 / BF16
+     *theirs* — do not copy docker / `npm ci` as
+     recipes. X:
+     [@davipar](https://x.com/davipar/status/2101363517781692532)
+     (likes 5 this archive).
+     **djev-dev complements djev-spark.** Not
+     blackwood-rlcd. Not Archer Watch. Not
+     typesafe-computer-use (that never ships a
+     screenshot for the *decision*).
+   - **[Laya product essay](https://laya.convaiinnovations.com/)**
+     (Nandakishor Mukkunnoth / ConvAI; title *theirs*
+     “33ms Multilingual System 1 Decision Engine”;
+     updated September 2026). Long-form **priority
+     claim** (Mar 2025 arXiv:2503.23303 → Sep 2025
+     arXiv:2510.01237 → Laya) vs TypeSafe Jev
+     launch. Three checkpoints under
+     `convaiinnovations/laya` hub; **Router** for
+     script/language. **Router/OOD confidence** —
+     Khmer **0.000 @ 0.952** mean confidence
+     *theirs*; English checkpoint confidence never
+     drops below 0.885 across 51 langs; “confidence
+     gating cannot protect you”; route **before**
+     the forward pass. Vs-Jev latency/ECE tables
+     *theirs* (typed-decisions 0.766 vs 0.727; ECE
+     0.081 vs 0.246 post-T; T4 32.8 ms; Banking77
+     0.425 vs 0.870). Honest ceilings already
+     folded via NandhaKishorM/laya §76: Banking77
+     cardinality, zero-shot vs FT, temperature
+     calibration. **Laya essay numbers *theirs*** —
+     do **not** re-paste as a new bake-off. This is
+     the **marketing/priority narrative + live
+     site**, not a new architecture species.
+     Priority/class politics is a **measurement
+     surface** (who measured what, on which split),
+     not a ranking. Do not copy `pip install laya`
+     / `Router(preload=True)`.
+
+   **Mental model:** NAR class legitimacy;
+   multimodal observe→decide (pixels in the same
+   prefix); Router/OOD — confidence-without-
+   competence; packaging ≠ species. Soft Noul ≠
+   hard safety: Nemotron p and Laya 0.85 remain
+   sensors.
+
+   **Name lock:** always write
+   **pst2154/Nemotron_Jev**. **Davipar/djev-dev**.
+   Nemotron ≠ TypeSafe Jev. djev-dev complements
+   djev-spark. Do not collapse into
+   githubnext/localjev or razorback16/openjev.
+
+### Theater (do not)
+
+Hard-gate `when asked` / catalyst similarity as
+PreToolUse deny; paste 350×/1000× as a Harbor
+ceiling; treat unofficial JA ModernBERT as TypeSafe
+calibration; collapse Argos1111/jev_local into
+us/jev-local or kunchenguid/local-jev; skip
+format_version modernbert-jev/1; treat Nemotron_Jev
+as a calibrated Jev replacement; collapse djev-dev
+into djev-spark / localjev / typesafe-computer-use;
+paste Gemma ~0.2s or Laya essay vs-Jev as a new
+independent bake-off; treat Khmer 0.952 conf as
+competence; treat Qwen3.8-27B as Archer.
+
+### Census (user-provided; not re-derived)
+
+Archer Hume open-weight still **NOT landed**.
+Census not re-derived this SIGNAL pass.
+
+### Not
+
+Not a TypeSafe how-to. Not a Jev skill dump. Not
+wrappers. Do not copy `TYPESAFE_API_KEY` /
+`OPENROUTER_API_KEY` / `JEV_API_KEY` /
+`ENZYME_JEV_MODEL` / `uv` / `npx` / `cargo` /
+`curl | bash` / docker GHCR / plugin-marketplace
+install / `.env` / OAuth `client_id`. Do not
+re-fold jevcache/jev-align / §93. Do not re-card
+NandhaKishorM/laya / convaiinnovations/laya /
+mmastrac/djev-spark / githubnext/localjev /
+kunchenguid/local-jev / us/jev-local /
+razorback16/openjev. rh-guard still owns
+guidance-as-hook, unofficial-local-as-Jev,
+Nemotron “not calibrated replacement”, and Laya
+confidence-without-competence as gate cousins —
+Augustus only cross-refs placement.
+
+### Curated status
+
+SIGNAL enzyme / JA ModernBERT / Gemma cluster
+**folded** (three PRIMARY Augustus clusters).
+§93 **not re-carded**. Archer still **NOT
+landed**. Census not re-derived. No 1541 PR was
+open; #10 not reopened.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`judgment-class.md`; `validation.md`;
+`applied-mappings.md`; `mappings.md`;
+`toolbox-mapping.md`; `composition-algebra.md`
+items 82–84; `question-design.md`;
+`methods-catalog.md`; `formal-methods.md`;
+`optimizer-integration.md`;
+`agent-self-assessment.md`. Hunches labeled.
+No wrapper.

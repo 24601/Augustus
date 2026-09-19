@@ -892,6 +892,41 @@ Soft Noul ≠ hard safety on every cluster.
 A HIT is a sensor, not a proof. A training score
 is a sensor, not an accept.
 
+## Apply SIGNAL enzyme / JA ModernBERT / Gemma (`notes.md` §94)
+
+Same pillars, three placements. Do **not** re-fold
+jevcache/jev-align / §93. Fresh PR; never reopen
+merged #3–#10. rh-guard owns guidance-as-hook,
+unofficial-local-as-Jev, Nemotron “not calibrated
+replacement”, and Laya confidence-without-competence
+as gate cousins; Augustus owns placement. Skip
+Archer.
+
+Unique fragments (consecutive): guidance ≠ hook; catalysts ≠ summaries; compile-time System One; unofficial ≠ TypeSafe; format_version modernbert-jev/1; Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev; Nemotron ≠ TypeSafe Jev; not a calibrated replacement; djev-dev complements djev-spark; images as Choice options; Laya essay numbers *theirs*; Router/OOD confidence
+
+1. **Compile-time System One / questions-as-index** —
+   guidance ≠ hook.
+   catalysts ≠ summaries.
+   compile-time System One.
+   Soft guidance ≠ hard gate. Life/PKM atlas.
+2. **Unofficial JA ModernBERT cross-encoder** —
+   unofficial ≠ TypeSafe.
+   format_version modernbert-jev/1.
+   Argos1111/jev_local ≠ us/jev-local ≠ kunchenguid/local-jev.
+   Pair scoring → softmax. Not multimodal.
+3. **NAR class legitimacy / multimodal / Router-OOD** —
+   Nemotron ≠ TypeSafe Jev.
+   not a calibrated replacement.
+   djev-dev complements djev-spark.
+   images as Choice options.
+   Laya essay numbers *theirs*.
+   Router/OOD confidence.
+
+Soft Noul ≠ hard safety on every cluster.
+`when asked` is a sensor, not a deny. Unofficial
+local p is a sensor, not TypeSafe calibration.
+Nemotron p and Laya 0.85 remain sensors.
+
 Formal methods **compose** with scoring. A Noul is a
 SENSOR. Hard-gating it as CI pass / HA write / authorship
 seal is the same theater as jev-gate §79.
