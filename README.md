@@ -5,9 +5,12 @@
 [![Claude Code](https://img.shields.io/badge/Claude_Code-marketplace-purple.svg)](.claude-plugin/marketplace.json)
 [![Skills.sh](https://img.shields.io/badge/skills.sh-compatible-green.svg)](https://www.skills.sh/)
 
+Agent skill for placing TypeSafe Jev Choice/Score/Noul with classical
+decision methods, composition algebra, and a validation gate.
+
 **Augustus** — named for Augustus De Morgan (1806–1871), mentor and professor
-of William Stanley Jevons — is an agent skill for **placing typed
-probabilistic judgment** (the Jev-class of System One models) using
+of William Stanley Jevons — is the design-judgment skill for **where** typed
+probabilistic judgment belongs (the Jev-class of System One models), using
 mathematical, logical, and algorithmic mental models. It applies across
 **AI, software, business, knowledge work, and life** — not only SWE.
 [TypeSafe](https://docs.typesafe.ai/) Jev is the documented exemplar
