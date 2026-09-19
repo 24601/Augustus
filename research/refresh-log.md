@@ -1373,3 +1373,29 @@
 - notes.md §85; sources.json (462 sources, 459 unique URLs,
   retrieved 2026-09-19T16:25Z); findings.md batch #68.
   No wrapper.
+
+## 2026-09-19 ~16:30 UTC — user-provided jev-semgrep dedicated HIGH (~10:30 Boise)
+- Docs-only into PR #2. `notes.md` §86. Skip Archer.
+  Hunches labeled. No wrapper. No invented metrics.
+  Quote README. Do not copy npm / `npx` / `.env` /
+  marketplace. Do not dump CLI flags. Not a gate.
+- Receipts: user SIGNAL_9afa (~08:54 Boise; ★42) +
+  live GitHub this pass (**51★** ephemeral; 2 forks /
+  0 issues; created 2026-09-19T03:18:28Z; pushed
+  2026-09-19T14:51:00Z). HEAD `21120e9`; README SHA
+  `923e6a5`. LICENSE MIT / GitHub NOASSERTION.
+- Folded: proposition ≠ embedding; contrast-set
+  refund; boolean AND/OR/NOT after threshold (do
+  not multiply p); no-index economics; Semgrep.dev
+  collision; not a gate. 0.94/0.98 *theirs* 10×51,
+  not Harbor. **≠** jevgrep **≠** jev-combinators
+  **≠** semgrep.dev.
+- Census not re-derived. Archer still NOT landed.
+- Cards: SKILL.md, mixed-architecture, faq,
+  mental-models, agent-self-assessment, applied-mappings
+  §4, mappings §4, validation, toolbox,
+  composition-algebra item 26, question-design,
+  methods-catalog, ecosystem, CHANGELOG, README.
+- notes.md §86; sources.json (464 sources, 461 unique URLs,
+  retrieved 2026-09-19T16:30Z); findings.md batch #69.
+  No wrapper.

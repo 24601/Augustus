@@ -308,3 +308,11 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     questions-as-code. 200×/400× are TypeSafe ceiling.
     Full cards: `mixed-architecture.md`, `faq.md`,
     `mental-models.md`.
+26. **Boolean composition of soft Nouls** (uehaj/jev-semgrep):
+    position 5 (Comparator over lines) then code ∧/∨/¬
+    on *thresholded* bits — never multiply parallel p
+    (the logical-operator caveat above). Proposition ≠
+    embedding (contrast-set refund). Not a Gate (position
+    3). **≠** jev-combinators digital-design metaphor
+    **≠** semgrep.dev. Full cards: `mixed-architecture.md`,
+    `faq.md`, `applied-mappings.md` §4, `mappings.md` §4.

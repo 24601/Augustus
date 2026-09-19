@@ -269,7 +269,7 @@ Architecture notes, not a pip / npm / bun catalog. `notes.md` §61. TypeSafe Jev
 
 - **ThyFriendlyFox/jev-triage** — MIT, Python. Active-learning: high conf accept / middling expensive teacher / low-or-boundary human. Logs full distributions. **Do not distill Jev as teacher of record** (~68% ceiling). Real outcomes stay the targets. Distinguish Domain-jev-maker (independent gold) vs openjev-lm (teacher-copy).
 - **jimmyhealer/jev-semantic-explorer** — MIT, Python (jevex). Index-once ask-many; citable evidence packets. Claude Code 6.8→2.2 files. SWE-bench Verified n=8: **1/8 → 6/8** finish (empty = miss, author-run). Packet n=50 HitFile 0.233 vs BM25 0.159 is diagnostic, not the product KPI.
-- **uehaj/jev-semgrep** — JavaScript; LICENSE MIT (GitHub NOASSERTION). Zero-dep Node; AND/OR/NOT over line Nouls; JP↔EN. Distinct from jevgrep. Precision 0.94 / recall 0.98 *theirs*. Name collides with Semgrep SAST.
+- **uehaj/jev-semgrep** — JavaScript; LICENSE MIT (GitHub NOASSERTION). Zero-dep Node; AND/OR/NOT over *thresholded* line Nouls; proposition ≠ embedding; contrast-set refund; Semgrep.dev collision; **not a gate**. Distinct from jevgrep. Precision 0.94 / recall 0.98 *theirs*. Dedicated fold `notes.md` §86 (**51★** ephemeral).
 - **buluoray/JevOnly** — Apache-2.0, Python. Closed-vote-only: code builds options, Jev only picks; **no planner LLM**. Fact register + verify/undo. 11 steps / 43 calls / ~$0.014 / 17 s *theirs*. Distinct from Stagehand LLM fallback.
 - **mallahyari/system-one-benchmark** — Python; license null. Harbor-shaped Jev vs local MLX PCD (Qwen2.5-1.5B) vs AR JSON on LMSYS toxic-chat n=50. Jev **84.0%** / Brier **0.1096**; PCD 52% / 0.3884 / O(1). PCD speed ≠ calibrated Noul. Small n.
 - **mossburgh/waymode** — MIT, TypeScript. App retains handlers/permissions/validation/state; Jev over live typed actions. 24/26 + 34/36 *theirs* — bounded development evidence, not a self-driving proof. Not on npm.
@@ -468,7 +468,7 @@ Architecture notes, not a hit list. `notes.md` §78. Skip Archer. Quote the boar
 Architecture notes, not a hit list. `notes.md` §79. Skip Archer. Named HIGHs already §73–§78. Skip thin noise. Do not copy action.yml / bun / pip.
 
 - **Apply-the-five** — wire-compat ≠ logit-equiv; productize label+p and mark `FALLBACK`; packaging ≠ new species / script-before-p; pointer-not-generator (two-pass; *Not found*; human tick); census ≠ scored bake-off / geo-mean weights are a design.
-- **Skip** — uehaj/jev-semgrep (already §61; later dedicated fold); Akeel-Majeed/JEValuate (≠ ElshinQ/jevaluate); MM-sheng/jevspeak (jev-gpt cousin); fable-jev; jev-model-router already §77.
+- **Skip** — uehaj/jev-semgrep (already §61; dedicated now §86); Akeel-Majeed/JEValuate (≠ ElshinQ/jevaluate); MM-sheng/jevspeak (jev-gpt cousin); fable-jev; jev-model-router already §77.
 - **Soundness-theater skip** — [totally-tim/jev-gate](https://github.com/totally-tim/jev-gate) (0★; MIT) / [connectedGraph/claude-jev-warden](https://github.com/connectedGraph/claude-jev-warden) (1★; MIT). A Noul attends or escalates; do not hard-gate as merge/quality. **≠** jev-gateway / MongLong0214/jev-gate / jev-gate-student-b.
 
 ### User-provided ~10:20 Boise 2026-09-19 / 16:20 UTC (AgentGhost wrap-as-execution + JP genre atlas)
@@ -483,6 +483,12 @@ Architecture notes, not an npm / `.env` / OpenRouter catalog. `notes.md` §83–
 Architecture notes, not an SDK / Python-sample catalog. `notes.md` §85. Skip Archer. Quote the article. Independent pedagogy, not a TypeSafe how-to.
 
 - **@akshay_pachaar** — [status/2101037514945597645](https://x.com/akshay_pachaar/status/2101037514945597645) / [article](https://x.com/i/article/2100940576741093376). LLM hammer; code owns branches; parallel questions; thresholds in code; **schema-safe ≠ correct**; placements = routing / tool-risk / verify with LLM; shadow-mode; questions-as-code. **200× / 400×** TypeSafe ceiling *theirs*. Text-only. Engagement ephemeral (this pass 233,495 / 2,280 / 235). **≠** official docs **≠** Flavio Copes **≠** LangChain harness **≠** AgentGhost. Do not copy the Python samples.
+
+### User-provided ~10:30 Boise 2026-09-19 / 16:30 UTC (uehaj/jev-semgrep dedicated)
+
+Architecture notes, not an npm / `npx` / `.env` / marketplace catalog. `notes.md` §86. Skip Archer. Quote README. Dedicated over §61. rh-guard skip (not a gate).
+
+- **uehaj/jev-semgrep** — JavaScript; MIT LICENSE / GitHub SPDX NOASSERTION; **51★** ephemeral (SIGNAL ★42; §61 0★); 2 forks / 0 issues. HEAD `21120e9`; README SHA `923e6a5`. Grep by meaning; proposition ≠ embedding; contrast-set refund; AND/OR/NOT after threshold (do not multiply p). Cross-lingual; no index. **≠** [semgrep.dev](https://semgrep.dev) **≠** jevgrep **≠** jev-combinators. 0.94/0.98 *theirs* 10×51, not Harbor. Do not copy npm / marketplace.
 
 Census **not re-derived**. Archer still NOT landed.
 

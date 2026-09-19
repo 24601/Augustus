@@ -327,11 +327,15 @@ grep 20%. Keyword still wins exact strings (BM25 top-10 96% vs
 comparable harnesses; not a Harbor taskset. Distinct from
 kazuhideoki / superagents-lab / jev-sift (`notes.md` §58).
 **Meaning-grep over line Nouls (Empirical as README + their
-judge test, 2026-09-18 ~21:39):**
+judge test, 2026-09-18 ~21:39; dedicated 2026-09-19 ~16:30):**
 [jev-semgrep](https://github.com/uehaj/jev-semgrep) — AND/OR/NOT
-on per-line Nouls; JP↔EN; zero-dep Node. Distinct from
-jevgrep (file/chunk). Precision 0.94 / recall 0.98 *theirs*.
-LICENSE MIT (GitHub NOASSERTION). `notes.md` §61.
+on *thresholded* per-line Nouls (do not multiply p);
+proposition ≠ embedding; contrast-set refund; no index;
+cross-lingual; Semgrep.dev collision; **not a gate**.
+Distinct from jevgrep (file/chunk) and jev-combinators
+(metaphor). Precision 0.94 / recall 0.98 *theirs* (not
+Harbor). **51★** ephemeral. LICENSE MIT (GitHub
+NOASSERTION). `notes.md` §61, §86.
 **Evidence-packet explorer (Empirical as their performance.md,
 author-run):**
 [jev-semantic-explorer](https://github.com/jimmyhealer/jev-semantic-explorer)

@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T16:25Z",
+  "retrieved": "2026-09-19T16:30Z",
   "sources": [
     {
       "kind": "docs",
@@ -1986,7 +1986,7 @@
       "kind": "github",
       "title": "uehaj/jev-semgrep",
       "url": "https://github.com/uehaj/jev-semgrep",
-      "note": "JavaScript. LICENSE MIT, GitHub NOASSERTION. Created 2026-09-19T03:18:28Z; 0 stars. Meaning-grep AND/OR/NOT line Nouls; JP-EN. Precision 0.94 recall 0.98 theirs. notes.md \u00a761."
+      "note": "JavaScript. LICENSE MIT, GitHub NOASSERTION. Created 2026-09-19T03:18:28Z. Stars ephemeral: 0 then SIGNAL 42 this pass 51. Meaning-grep AND/OR/NOT after threshold; proposition != embedding; contrast-set refund; Semgrep.dev collision; not a gate. Precision 0.94 recall 0.98 theirs 10x51 not Harbor. HEAD 21120e9 README SHA 923e6a5. notes.md \u00a761, \u00a786."
     },
     {
       "kind": "github",
@@ -2773,6 +2773,18 @@
       "title": "Jev Clearly Explained (X article)",
       "url": "https://x.com/i/article/2100940576741093376",
       "note": "Article body quoted from ARTICLE.md. LLM hammer; code owns branches; parallel questions; schema-safe != correct; shadow + questions-as-code. 70-500 ms / $0.042/MTok *theirs* ceiling. Text-only. != Flavio Copes != LangChain harness. notes.md \u00a785."
+    },
+    {
+      "kind": "github",
+      "title": "uehaj/jev-semgrep README (HEAD 21120e9)",
+      "url": "https://github.com/uehaj/jev-semgrep/blob/21120e9ee634defdb279b7243e03ea84aaeed2da/README.md",
+      "note": "README SHA 923e6a596f0e8d0abd3a183b5b5382bfe400827c. Proposition != embedding; contrast-set; AND/OR/NOT after threshold; Semgrep.dev collision. notes.md \u00a786."
+    },
+    {
+      "kind": "docs",
+      "title": "Semgrep.dev (SAST namesake)",
+      "url": "https://semgrep.dev/",
+      "note": "Static-analysis tool. Name collision with uehaj/jev-semgrep meaning-grep. Rename if both installed. notes.md \u00a786."
     }
   ]
 }

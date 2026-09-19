@@ -985,6 +985,24 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   Engagement ephemeral (this pass 233,495 / 2,280 /
   235). Do not copy the Python samples. No wrapper.
   No invented metrics.
+- User-provided HIGH ~10:30 Boise 2026-09-19
+  (`research/notes.md` §86): **Skip Archer.** Dedicated
+  fold of [uehaj/jev-semgrep](https://github.com/uehaj/jev-semgrep)
+  (light-noted §61). Grep by meaning via Jev Noul;
+  proposition ≠ embedding; contrast-set (all six
+  about a refund; only customer-*asking* pass);
+  AND/OR/NOT are boolean ops on *thresholded* bits
+  (do not multiply p; ≠ jev-combinators metaphor).
+  Cross-lingual; no index; EN safer near threshold.
+  Semgrep.dev SAST name collision. **Not a gate**
+  (ranking fail-open; rh-guard skip). LICENSE MIT /
+  GitHub NOASSERTION. HEAD `21120e9`; README SHA
+  `923e6a5`. Stars ephemeral (0 → SIGNAL ★42 → **51**
+  this pass). 0.94/0.98 LLM-as-judge 10×51 *theirs*,
+  not Harbor. **≠** jevgrep **≠** jev-sift **≠**
+  jevex **≠** semgrep.dev. Do not copy npm / `npx` /
+  `.env` / marketplace. No wrapper. No invented
+  metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

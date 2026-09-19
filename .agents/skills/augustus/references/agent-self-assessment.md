@@ -188,6 +188,9 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    — LLM hammer; schema-safe ≠ correct; shadow
    first; 200×/400× TypeSafe ceiling (`notes.md`
    §85). **≠** official docs **≠** Flavio.
+   Meaning-grep is **not** a self-supervision gate:
+   [jev-semgrep](https://github.com/uehaj/jev-semgrep)
+   ranks lines; rh-guard skip (`notes.md` §86).
    Closed-vote extreme (no planner LLM):
    [JevOnly](https://github.com/buluoray/JevOnly) (`notes.md` §61).
    Host-owned product:

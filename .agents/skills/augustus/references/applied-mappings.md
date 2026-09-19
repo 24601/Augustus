@@ -567,15 +567,27 @@ serial ~23 min on AutoGPT 4,329 files. Distinct from kazuhideoki
 (file+fzf), superagents-lab (web), and jev-sift (classify-first
 MCP). Do not copy `install.sh` (`notes.md` §58).
 **Meaning-grep AND/OR/NOT over line Nouls (Empirical as README
-+ their LLM-as-judge test, 2026-09-18 ~21:39):**
++ their LLM-as-judge test, 2026-09-18 ~21:39; dedicated
+2026-09-19 ~16:30):**
 [jev-semgrep](https://github.com/uehaj/jev-semgrep) — zero-dep
 Node; one Noul per line × meaning; `-e`/`-a`/`-v` boolean
-over those bits; 30 lines × 8 concurrent. Cross-lingual
-JP↔EN, no translation step. Name collides with Semgrep
-static analysis. Distinct from jevgrep (file/chunk packed
-search). LICENSE MIT (GitHub NOASSERTION). Their judge test:
-precision 0.94, recall 0.98. Do not copy npm / key how-to
-(`notes.md` §61).
+over *thresholded* bits; 30 lines × 8 concurrent.
+Proposition ≠ embedding (cross-encoder line+question).
+Contrast-set: all six “about a refund”; only customer
+asking pass; angry-agent cosine ~1. Calibrated ~0.5 vs
+top-k cosine. No index (vector index wins for repeated
+large fixed corpora). Cross-lingual JP↔EN plus
+FR/RU/DE/ES/ZH/KO; EN safer near threshold. Name collides
+with [Semgrep.dev](https://semgrep.dev) SAST. **Not a
+gate** (ranking fail-open; rh-guard skip). Distinct from
+jevgrep (file/chunk packed search), jev-sift, jevex,
+bohutang/sift, pg-jev, kazuhideoki/jev-search,
+superagents-lab/jev-search, and jev-combinators
+(metaphor ≠ literal AND/OR). LICENSE MIT (GitHub
+NOASSERTION). **51★** this pass (ephemeral; SIGNAL ★42;
+§61 0★). Their judge test: precision 0.94, recall 0.98
+on 10×51 lines — not Harbor. Do not copy npm / `npx` /
+`.env` / marketplace how-to (`notes.md` §61, §86).
 **Evidence-packet explorer (Empirical as their
 `docs/performance.md`, author-run):**
 [jev-semantic-explorer](https://github.com/jimmyhealer/jev-semantic-explorer)

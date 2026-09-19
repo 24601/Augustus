@@ -115,6 +115,10 @@ regex/LLM/code, Jev selects).
   bounded decisions; schema-safe ≠ correct; 200×/400×
   TypeSafe ceiling. **Pedagogy HIGH:** `notes.md` §85.
   Do not re-card this one-liner.
+- uehaj/jev-semgrep: grep by meaning; proposition ≠
+  embedding; AND/OR/NOT after threshold; Semgrep.dev
+  name collision; not a gate. **Productized HIGH:**
+  `notes.md` §86. Do not re-card this one-liner.
 - RomanSlack/jev-drone: 500Hz control + 50Hz safety in code, classical CV to
   symbols at 15Hz, Jev advisory ~2.5Hz (Choice maneuver + Score risk + Noul
   lost-vs-occluded). "Cannot be the perception layer or run at control rate."
@@ -6225,7 +6229,9 @@ routing that **fails open**. Skip two empty placeholders.
    borderline (TypeSafe documents English as most accurate).
    Probabilities drift ~±0.05 between runs. Author: batching 30
    vs one-line-per-request does not change p. Not a Harbor
-   taskset.
+   taskset. Dedicated productization (proposition ≠
+   embedding, contrast-set, Semgrep.dev, not a gate):
+   `notes.md` §86.
 
 4. **[`buluoray/JevOnly`](https://github.com/buluoray/JevOnly)**
    (Python; Apache-2.0; created 2026-09-19T03:24:36Z; 0★).
@@ -11191,8 +11197,8 @@ TypeSafe Jev remains the exemplar, not the monopoly.
 Live GitHub search this pass ~15:37 UTC. Leftover
 thin (0–1★, created 2026-09-19 afternoon UTC) is
 **skip noise** except one soundness-theater
-anti-pattern. **uehaj/jev-semgrep** already §61 —
-do not steal a later dedicated fold.
+anti-pattern. **uehaj/jev-semgrep** was already §61;
+dedicated fold is now §86.
 
 ### Already folded this hour (sibling only)
 
@@ -11224,7 +11230,7 @@ pass (~15:37 UTC).
 
 | Repo | Why skip | Sibling |
 |---|---|---|
-| [uehaj/jev-semgrep](https://github.com/uehaj/jev-semgrep) | Already §61 (AND/OR/NOT; 0.94/0.98 *theirs*; Semgrep.dev name collision). Dedicated later fold owns any delta. | meaning-grep, not a gate |
+| [uehaj/jev-semgrep](https://github.com/uehaj/jev-semgrep) | Light-noted §61 (AND/OR/NOT; 0.94/0.98 *theirs*; Semgrep.dev name collision). Dedicated fold now §86. | meaning-grep, not a gate |
 | [Akeel-Majeed/JEValuate](https://github.com/Akeel-Majeed/JEValuate) | 0★; TS; created 2026-09-19T14:34:56Z. Slogan: auto-mark maths, 2,054 scripts, 96.6% agreement *theirs* unverified here. | **≠** [ElshinQ/jevaluate](https://github.com/ElshinQ/jevaluate) (field notes / skill) |
 | [MM-sheng/jevspeak](https://github.com/MM-sheng/jevspeak) | 1★; MIT; created 2026-09-19T13:00:16Z. Conversation from decisions + a deterministic compiler — cousin of jev-gpt never-free-generates (§71). | Architecture demo, not a new primitive |
 | jev-model-router / Director / Loki | Already §77 as **apps-not-models** on the census. | Class-boundary routers |
@@ -11258,8 +11264,8 @@ TypeSafe how-to. Not a dunk on leftover 0★ repos.
 Do not copy Stripe, bun, pip, or GitHub Actions.
 Do not mix v1.1 87.6 with v1.2 75.3. Do not treat
 96.6% maths-mark agreement as a Harbor score. Do
-not treat jevspeak as a generator. Do not steal
-jev-semgrep from its dedicated fold.
+not treat jevspeak as a generator. jev-semgrep
+dedicated now §86.
 
 ### Curated status
 
@@ -11940,7 +11946,7 @@ how-to. Not a hit list. Do not copy Stripe, npm,
 or `.env`. Do not treat 27/27 / 0.5 / 0.55 / 0.6
 as calibrated constants. Do not treat spoken
 confirm as authorization. Do not ship waveforms
-  “because voice.” Do not steal jev-semgrep.
+  “because voice.” jev-semgrep now §86.
 
 ### Curated status
 
@@ -12112,7 +12118,7 @@ Not a hit list. Do not copy Stripe, npm, or
 grant. Do not wrap hosted tools “because the
 SDK imported them.” Do not collapse into
 actiongate / toolgate / jev-use. Do not steal
-Akshay (now §85). Do not steal jev-semgrep.
+Akshay (now §85). jev-semgrep now §86.
 
 ### Curated status
 
@@ -12235,8 +12241,8 @@ this fold.
 Not a 30-row hit list. Not verified evals.
 Not OpenRouter onboarding. Not a SAM tutorial.
 Do not paste live ★ into the atlas card. Do
-not steal Akshay (now §85). Do not steal
-jev-semgrep.
+not steal Akshay (now §85). jev-semgrep
+now §86.
 
 ### Curated status
 
@@ -12373,7 +12379,7 @@ text/JSON first. Skip Archer this fold.
 Not a TypeSafe how-to. Not a wrap product.
 Not a hit list. Do not copy the article’s
 Python samples as recipes. Do not paste 200× /
-400× as Harbor. Do not steal jev-semgrep.
+400× as Harbor. jev-semgrep now §86.
 Do not steal Flavio Copes.
 
 ### Curated status
@@ -12389,5 +12395,157 @@ Cards: `mixed-architecture.md` (fail table +
 gallery); `faq.md`; `mental-models.md`;
 `validation.md`; `toolbox-mapping.md`;
 `composition-algebra.md` item 25;
+`question-design.md`; `methods-catalog.md`.
+Hunches labeled. No wrapper.
+
+## 86. User-provided HIGH — uehaj/jev-semgrep (dedicated; 2026-09-19 ~10:30 Boise / ~16:30 UTC)
+
+Docs-only into PR #2. **Skip Archer.** Quote the
+README. Not a hit list. Do **not** re-fold
+§50–§85 HIGH except sibling contrast. Hunches
+labeled. No wrappers, npm / `npx` / `.env` /
+`TYPESAFE_API_KEY` / plugin marketplace as
+recipes, dumped CLI flags, or invented metrics.
+This is a **dedicated productization** of a
+light-noted hourly item (§61), not a re-card.
+
+§61 already owns zero-dep Node, `-e`/`-a`/`-v`,
+JP↔EN, 0.94/0.98 *theirs*, Semgrep collision ≠
+jevgrep. Do not re-derive those. Material delta:
+
+1. **Proposition ≠ embedding** — README *theirs*:
+   not topical cosine. Jev reads the line and the
+   question together (cross-encoder shape). Who
+   did what, negation, and “asked for” vs
+   “already done” change the answer. An embedding
+   of the line is fixed before it ever sees the
+   query.
+2. **Contrast-set pedagogy** — all six lines are
+   “about a refund”; only the customer-*asking*
+   lines pass. Cosine between angry *customer*
+   and angry *support agent* is close to 1; the
+   second meaning scores 0.05 on the agent line
+   and drops it.
+3. **Boolean composition of soft judgments** —
+   each meaning is an independent Noul; AND/OR/NOT
+   are boolean ops on *thresholded* bits in code,
+   not negative-query tricks or set differences.
+   Do **not** multiply parallel p (independence
+   caveat; ≠ jev-combinators digital-design
+   metaphor). Calibrated ~0.5 vs top-k cosine.
+4. **No index** — whole corpus every query.
+   Vector index wins for repeated large fixed
+   corpora.
+5. **Cross-lingual is broader than JP↔EN** — FR /
+   RU / DE / ES / ZH / KO in `tests/multi.txt`.
+   English meanings are safer near threshold
+   (TypeSafe documents English as most accurate).
+6. **Semgrep.dev name collision is first-class**
+   — rename if both installed. **≠** SAST.
+7. **Not a gate** — ranking fail-open; keyword
+   still wins exact strings. rh-guard skip.
+
+Receipts: user SIGNAL_9afa (~08:54 Boise; ★42)
+plus live GitHub this pass. HEAD
+`21120e9ee634defdb279b7243e03ea84aaeed2da`
+(revert of shipping the in-repo `/semgrep`
+Claude Code skill; README still documents the
+marketplace skill — do not copy either path).
+README SHA `923e6a596f0e8d0abd3a183b5b5382bfe400827c`.
+Created 2026-09-19T03:18:28Z; pushed
+2026-09-19T14:51:00Z; updated 2026-09-19T16:20:26Z.
+JavaScript; LICENSE MIT on disk / GitHub SPDX
+**NOASSERTION**. npm `@uehaj/semgrep`. Node ≥20.12;
+zero deps. 2 forks / 0 issues. Stars **ephemeral**:
+§61 0★ → SIGNAL ★42 → this pass **51**. Description
+*theirs*: “grep by meaning, across languages.
+TypeSafe Jev scores every line against a meaning;
+combine meanings with AND/OR/NOT.” Quote README.
+
+### HIGH
+
+1. **[`uehaj/jev-semgrep`](https://github.com/uehaj/jev-semgrep)**
+   — NEW HIGH (dedicated meaning-grep). Quote,
+   don’t dump.
+
+   **Quote README (*theirs*).** “A grep that finds
+   lines by **what they mean**, not by regular
+   expressions.” “semgrep differs in *what* it
+   judges: not how close a line is to a topic, but
+   whether a **proposition** holds for that line.”
+   “Jev reads the line and the question together
+   (a cross-encoder shape), so who did what,
+   negation, and ‘asked for’ versus ‘already done’
+   all change the answer.” “An embedding of the
+   line is fixed before it ever sees your query,
+   so it can only measure topical closeness.”
+   “All six lines below are ‘about a refund’. Only
+   two are a customer asking for one.” “Because
+   each meaning yields an independent probability,
+   **logical AND and NOT are plain boolean
+   operations**, not a trick with set differences
+   or ‘negative queries’.” “Cosine similarity
+   between lines 7 and 8 is close to 1.” “The
+   probabilities are calibrated, so one threshold
+   (0.5) works across queries, where cosine scores
+   need top-k or per-query tuning.” “there is no
+   index to build… every query pays for the whole
+   corpus again, so for repeated queries over a
+   large, fixed corpus a vector index is cheaper
+   and faster.” “The name collides with the
+   static-analysis tool [Semgrep](https://semgrep.dev/).
+   Rename one of them if you use both.” “TypeSafe
+   documents English as the most accurate language,
+   and in our tests Japanese meanings wobble a
+   little more near the threshold.” “Latest:
+   precision 0.94, recall 0.98.” “Every searched
+   line is sent to api.typesafe.ai.”
+
+   **How to apply:** when someone pastes a
+   meaning-grep, extract *proposition vs
+   embedding*, the refund contrast-set, boolean
+   composition *after* threshold (never multiply
+   p), no-index economics, Semgrep.dev collision,
+   and “not a gate.” Same discipline as §77 (list
+   ≠ rank) and §84 (stars ≠ eval): 0.94/0.98 is
+   LLM-as-judge on 10 cases × 51-line corpus
+   *theirs*, not Harbor; **51★** is research-time.
+
+   **Name locks:** ≠ [semgrep.dev](https://semgrep.dev)
+   SAST ≠ [Bentlybro/jevgrep](https://github.com/Bentlybro/jevgrep)
+   (file/chunk packed search) ≠ jev-sift ≠ jevex ≠
+   bohutang/sift ≠ pg-jev ≠ kazuhideoki/jev-search
+   ≠ superagents-lab/jev-search ≠ jev-combinators
+   (digital-design metaphor ≠ literal AND/OR).
+
+### Skip Archer
+
+Text-only line Nouls. Skip Archer this fold.
+
+### Not
+
+Not a gate. Not a hit list. Not a TypeSafe
+how-to. Not Semgrep.dev. Do not copy npm /
+`npx` / `.env` / `TYPESAFE_API_KEY` / Claude
+plugin marketplace as recipes. Do not dump CLI
+flags. Do not treat 0.94/0.98 as Harbor. Do
+not treat 0★ / ★42 / **51★** as a quality
+score. Do not multiply parallel meaning Nouls.
+rh-guard skip.
+
+### Curated status
+
+Meaning-grep HIGH **folded** (dedicated over
+§61). Archer still **NOT landed**. rh-guard
+still owns the gate cousin (this signal is
+not a gate).
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`applied-mappings.md` §4; `mappings.md` §4;
+`validation.md`; `toolbox-mapping.md`;
+`composition-algebra.md` item 26;
 `question-design.md`; `methods-catalog.md`.
 Hunches labeled. No wrapper.

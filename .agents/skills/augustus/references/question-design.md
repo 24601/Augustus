@@ -123,6 +123,10 @@ request, and treat a stale pin as a prior, never a setting.
 | Paste JP atlas ★ as a bake-off | Research-time stars as scores | Genre list, not verified evals. [@studio_yebisu](https://x.com/studio_yebisu/status/2101065176069886152). **≠** §77 **≠** §78. `notes.md` §84 |
 | Quote 200× / 400× as Harbor / “cannot hallucinate” | Marketing multiples; schema as correctness | TypeSafe ceiling *theirs*. schema-safe ≠ correct. [@akshay_pachaar](https://x.com/akshay_pachaar/status/2101037514945597645). `notes.md` §85 |
 | Copy the explainer’s Python / collapse into a wrap how-to | Recipe dump; product mix | Independent pedagogy. **≠** official docs **≠** Flavio **≠** AgentGhost §83. `notes.md` §85 |
+| Treat topical cosine as “customer is asking” | Embedding as proposition | Contrast-set: all six about refund; only asking pass. [jev-semgrep](https://github.com/uehaj/jev-semgrep). `notes.md` §86 |
+| Multiply parallel meaning Nouls / negative-query tricks | Independence; set-diff theater | Threshold each Noul, boolean-compose bits in code. ≠ jev-combinators metaphor. `notes.md` §86 |
+| Call jev-semgrep Semgrep.dev / a merge gate | Namesake; soundness theater | **≠** [semgrep.dev](https://semgrep.dev). Ranking fail-open; not a gate. `notes.md` §86 |
+| Paste 0.94/0.98 or ★42/51 as Harbor | LLM-as-judge / ephemeral stars | 10 cases × 51-line corpus *theirs*. Stars research-time. `notes.md` §86 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

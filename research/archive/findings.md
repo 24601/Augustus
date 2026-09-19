@@ -1363,8 +1363,8 @@ second PR. Archer still Watch. No invented metrics. Do not re-fold
   diagnostic, not product KPI.
 - **uehaj/jev-semgrep (Empirical as README + judge test).**
   JavaScript; LICENSE MIT (GitHub NOASSERTION). Created
-  2026-09-19T03:18:28Z; 0★. AND/OR/NOT line Nouls; JP↔EN.
-  Precision 0.94 / recall 0.98 *theirs*.
+  2026-09-19T03:18:28Z; 0★ then. AND/OR/NOT line Nouls; JP↔EN.
+  Precision 0.94 / recall 0.98 *theirs*. Dedicated fold §86.
 - **buluoray/JevOnly (Empirical as README architecture).** Python
   Apache-2.0. Created 2026-09-19T03:24:36Z; 0★. Closed-vote; no
   planner LLM. 11/43/~$0.014/17s *theirs*.
@@ -2120,7 +2120,7 @@ Skip Archer. No invented metrics. Hunches labeled.
   (NandhaKishorM/laya §76); pointer-not-generator
   two-pass (choxos/jev-reviewer §74 ≠ egma-ai); external
   census ≠ scored bake-off / geo-mean I/C/S/K (§77+§78).
-- **Skip thin.** uehaj/jev-semgrep already §61; JEValuate
+- **Skip thin.** uehaj/jev-semgrep already §61 (dedicated now §86); JEValuate
   0★ ≠ ElshinQ/jevaluate; jevspeak 1★ (jev-gpt cousin);
   fable-jev 1★; jev-model-router already §77.
 - **Soundness-theater skip.** totally-tim/jev-gate 0★
@@ -2307,3 +2307,31 @@ Cross-repo addition: (jb) public pedagogy receipt
 for mixed architecture; (jc) schema-safe ≠ correct
 as the safer hallucination sentence; (jd) marketing
 multiples as ceiling, not Harbor.
+
+## Batch #69 (2026-09-19 ~16:30 UTC / ~10:30 Boise) — uehaj/jev-semgrep dedicated
+
+Note: `research/notes.md` §86. Docs-only. Folded into PR #2.
+Skip Archer. No invented metrics. Hunches labeled.
+Quote README. Not a hit list. User SIGNAL_9afa
+(~08:54 Boise; ★42) + live GitHub this pass **51★**
+(ephemeral). HEAD `21120e9`; README SHA `923e6a5`.
+
+- **Proposition ≠ embedding.** Cross-encoder
+  line+question → does the proposition hold, not
+  topical cosine. Contrast-set: all six about a
+  refund; only customer-*asking* pass. Angry agent
+  vs angry customer cosine ~1.
+- **Boolean composition of soft Nouls.** AND/OR/NOT
+  after threshold in code; do not multiply p.
+  ≠ jev-combinators metaphor.
+- **Semgrep.dev name collision.** Rename if both
+  installed. **≠** SAST. **Not a gate** (ranking
+  fail-open; rh-guard skip).
+- **0.94/0.98 *theirs*.** LLM-as-judge 10 cases ×
+  51-line corpus. Not Harbor. Stars research-time.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (je) proposition ≠ embedding /
+contrast-set; (jf) boolean composition of thresholded
+Nouls; (jg) Semgrep.dev namesake + not-a-gate.

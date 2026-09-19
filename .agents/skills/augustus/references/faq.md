@@ -1323,14 +1323,16 @@ is for "where is the code that *does* X" with no embeddings: packed
 parallel Jev relevance; 79% top-5 vs BM25 40% / grep 20% on
 docstring-stripped repos; BM25 still wins exact wording (top-10
 96% vs 85%). Line-level AND/OR/NOT over Nouls, including
-JP↔EN: [jev-semgrep](https://github.com/uehaj/jev-semgrep)
-(name collides with Semgrep SAST). Citable
+JP↔EN and FR/RU/DE/ES/ZH/KO: [jev-semgrep](https://github.com/uehaj/jev-semgrep)
+(name collides with [Semgrep.dev](https://semgrep.dev) SAST;
+proposition ≠ embedding; AND/OR/NOT after threshold;
+not a gate; dedicated `notes.md` §86). Citable
 "where is this *enforced*?" packets, index-once:
 [jev-semantic-explorer](https://github.com/jimmyhealer/jev-semantic-explorer)
 (jevex; 1/8→6/8 n=8 *theirs*; packet HitFile 0.233 is not
 the product number). Distinct from kazuhideoki file+fzf,
 superagents-lab web, and jev-sift classify-first.
-`mappings.md` §4; `notes.md` §58, §61.
+`mappings.md` §4; `notes.md` §58, §61, §86.
 
 ## Attention or correctness on a PR?
 
@@ -1959,7 +1961,7 @@ The product is a **recipe**, not a hit list:
    87.6).
 
 Skip thin noise (JEValuate / jevspeak / fable-jev;
-jev-semgrep already §61). Hard-gating a Noul as a PR
+jev-semgrep dedicated now §86). Hard-gating a Noul as a PR
 merge or quality seal is **soundness theater**
 ([totally-tim/jev-gate](https://github.com/totally-tim/jev-gate)
 ≠ jev-gateway). Archer still Watch. `notes.md` §79.
@@ -2024,3 +2026,20 @@ Stars were research-time *theirs*. `notes.md` §84.
 No, and no. Independent pedagogy. Multiples are
 TypeSafe ceiling *theirs*. schema-safe ≠ correct.
 `notes.md` §85.
+
+## Is jev-semgrep Semgrep.dev? Are AND/OR/NOT embedding tricks? Is it a gate?
+
+No, no, and no. [uehaj/jev-semgrep](https://github.com/uehaj/jev-semgrep)
+is **grep by meaning**: a Noul per line × meaning,
+then boolean AND/OR/NOT on *thresholded* bits in
+code. Proposition holds, not topical cosine. The
+refund contrast-set (all six about a refund; only
+customer-*asking* pass) is the pedagogy. Cosine
+between angry customer and angry agent is close to
+1. Do **not** multiply parallel p. Name collides
+with [Semgrep.dev](https://semgrep.dev) SAST —
+rename if both installed. Ranking fail-open; not a
+gate (rh-guard skip). 0.94/0.98 is LLM-as-judge on
+10×51 lines *theirs*, not Harbor. Stars ephemeral
+(0 → ★42 SIGNAL → **51** this pass). **≠** jevgrep
+**≠** jev-combinators. `notes.md` §86.
