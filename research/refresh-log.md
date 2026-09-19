@@ -1516,3 +1516,69 @@
 - notes.md §89; sources.json (504 sources, 501 unique URLs,
   retrieved 2026-09-19T17:55Z); findings.md batch #72.
   No wrapper.
+
+## 2026-09-19 ~18:41 UTC — hourly 1241 HIGH (~12:41 Boise)
+- Docs-only on a **fresh PR off main**. Never reopen
+  merged #3 / #4 / #5. `notes.md` §90. Skip Archer.
+  Do **not** re-fold 1144 / §89. Hunches labeled.
+  No wrapper. No invented metrics. Quote READMEs.
+  Soft Noul ≠ hard safety. 0★ HIGHs still get real
+  cards. Not a Jev skill dump. Backend-agnostic
+  categorization/scoring/decision class.
+- Folded how-to-apply clusters: Observe→score→act
+  namesake (ZHUBoer/ego-jev reserved `__none__`;
+  runWorkflow completed ≠ success; **≠** jiangkoumo);
+  Decision-as-ranking (jsort scores are relative; Noul
+  not Choice for scale);
+  Native vs schema-guided Harbor
+  (groundedness-judge-bench native vs schema-guided;
+  implicit_true included in yes; **≠** jev-judge-bench);
+  0 promotions / authored vs real (jev_playground 0
+  promotions; routing-backtest 0.0447%);
+  Offload + classifier-not-generator
+  (yuyang2230/jev-agent-skill jev-1.13-free;
+  jev-techstack-classifier stack_config.json);
+  Collapse late (s1_ruby collapse late; `undecided?`
+  abstain; **≠** hunch **≠** feelings);
+  Unofficial toolbelt (2389-research/judgement license
+  null; confidence ≠ winner p; typesafeai-sdk-community
+  not a new species);
+  Pointer shell (tpellet/hunch exit 3; never-execute
+  list; **≠** carldaws/hunch);
+  Preview-first VOI / rubric rewrite (jev-file-search
+  scores not calibrated accuracy; jev-linkmap Jev never
+  sees S2 prose);
+  Life fail-open covers (muhammedilyasy/jev-mail
+  metadata only; tidy none-of-folders stay; tab-bouncer
+  pinned/audio/current never closed; lkclean Show
+  fail-open; jev-yt-time-saver Show anyway);
+  S1 decide / S2 plan (ORIGIN pause-if-no-Jev;
+  validResponse sums-to-1; **≠** Essentiel-Jev);
+  Seed/expand/judge/verify + local daemon ≠ Jev
+  (jev-crawlers risk bands never raw boolean; jevbrain
+  AUTO_ACT is not a Noul).
+- Formal compose: Ego Lite locators / `__none__` /
+  completed≠success; jsort scores relative;
+  groundedness 0.5 label on Noul; playground 0
+  promotions; s1_ruby `?` vs `undecided?`; hunch exit 3
+  + never-execute; tidy 0.8 + none stay; tab
+  pinned/audio; lkclean Show; YT Show anyway; ORIGIN
+  pause-if-no-Jev + validResponse; crawlers verify
+  grounding not exec; jevbrain AUTO_ACT is not a Noul.
+  Soft Noul ≠ hard safety. Hard-gating AUTO_ACT /
+  ranking-as-frequency / 95.2% / 83% plumbing / 36/120
+  as class ceilings is soundness theater.
+- Census not re-derived. Archer still NOT landed (HF
+  empty; tracker likes 49 lastModified
+  2026-09-19T18:37:18Z still promised). Laya yes.
+  Blackwood ABSENT. SemIf 1846 (+17). jevlike 962 (+3).
+  TypeAR-AI/TypeAR 10 (+1). Awesomejev flat 561/27007.
+- Cards: SKILL.md, mixed-architecture fail table +
+  gallery, faq, mental-models, judgment-class,
+  validation, applied-mappings, mappings, toolbox,
+  composition-algebra items 49–61, question-design,
+  methods-catalog, formal-methods, agent-self-assessment,
+  ecosystem, CHANGELOG, README.
+- notes.md §90; sources.json (524 sources, 521 unique URLs,
+  retrieved 2026-09-19T18:41Z); findings.md batch #73.
+  No wrapper.

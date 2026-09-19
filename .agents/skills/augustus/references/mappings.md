@@ -197,7 +197,22 @@ library, not a new language. Do not copy gem/Rails
 writing, and BAML ties it together.” feelings `.feels()` default 0.5 is Noul-0.5-never-rounded — use `.how()`.
 Exhaustive `match` is the exact envelope. **≠** hunch
 **≠** Probably. Do not copy `baml toolchain`
-(`notes.md` §89). **Named circuit combinators (Empirical
+(`notes.md` §89).
+**Collapse late as Ruby primitive (Empirical as README;
+2026-09-19 ~18:41):**
+[s1_ruby](https://github.com/innocentdiaz/s1_ruby)
+(MIT; **1★**) — ψ measures; `judge`/`choose`/`score`
+measure; `?` collapses. s1_ruby collapse late.
+`undecided?` abstain. Code asks; code decides. **≠**
+carldaws/hunch **≠** feelings **≠** tpellet/hunch.
+`notes.md` §90.
+**Pointer-shell control flow (Empirical as README;
+2026-09-19 ~18:41):**
+[tpellet/hunch](https://github.com/tpellet/hunch)
+(MIT; **0★**) — pick/why/is/run over *your* stdin/PATH.
+tpellet/hunch exit 3. never-execute list. **≠**
+carldaws/hunch. `notes.md` §90.
+**Named circuit combinators (Empirical
 as README architecture, 2026-09-19 ~01:47):**
 [decision-combinators](https://github.com/voidning/decision-combinators)
 — Then / Gate / Vote / Cascade / Weighted over
@@ -378,6 +393,20 @@ Do not overclaim vs no-RAG. License null this pass
 OpenRouter Decisions ≠ TypeSafe direct.
 `max_budget_usd` 0 blocks paid. **≠** Max-sm-yc/Jev-RAG.
 `notes.md` §89.
+**Pairwise sort-by-meaning (Empirical as README;
+2026-09-19 ~18:41):**
+[jsort](https://github.com/keltokhy/jsort)
+— Bradley-Terry from pairwise Jev. jsort scores are
+relative. Noul not Choice for scale. Ranking ≠
+frequency. CommonLit r=0.824 / ρ=0.841 *theirs*.
+`notes.md` §90.
+**Native vs schema-guided groundedness (Empirical as
+README; 2026-09-19 ~18:41):**
+[groundedness-judge-bench](https://github.com/slavadubrov/groundedness-judge-bench)
+— RAGTruth QA. groundedness-judge-bench native vs
+schema-guided. Fastest/cheapest ≠ quality.
+implicit_true included in yes. **≠** jev-judge-bench.
+`notes.md` §90.
 
 ## 5. Hierarchy → bounded heuristic search
 
@@ -735,6 +764,19 @@ top-five cap. Skill cannot force a bot that ignores it.
 — pay to measure flip/framing *before* putting a number
 behind an `if`. Nothing about accuracy. noul-gate
 0.0%/12.5%/3.6% *theirs*. `notes.md` §89.
+**Preview-first VOI (Empirical as README; 2026-09-19
+~18:41):**
+[jev-file-search](https://github.com/emilwagman/jev-file-search)
+— filename/type/preview then deeper read.
+jev-file-search scores not calibrated accuracy.
+Recall unmeasured. 0.8 is *theirs*. **≠** JevFind.
+`notes.md` §90.
+**Rubric-rewrite VOI (Empirical as README; 2026-09-19
+~18:41):**
+[jev-linkmap](https://github.com/stas4000/jev-linkmap)
+— TF-IDF candidates; Jev yes/no + anchor Choice.
+jev-linkmap Jev never sees S2 prose. Anchors already
+in copy. `notes.md` §90.
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs
@@ -974,6 +1016,18 @@ straddling τ flips. **≠** dinostomp. `notes.md` §89.
 — p(urgent) 0/21/41/75/100% *theirs*; route 0.35–0.65
 to human_review. 91% vs 79% is discrimination, not a
 seal. **≠** BrendanH18/jev-lab. `notes.md` §89.
+**Ranking ≠ frequency (Empirical as README;
+2026-09-19 ~18:41):**
+[jsort](https://github.com/keltokhy/jsort)
+— logits are relative. Noul not Choice for scale.
+Choice 93% extreme vs Noul 28% mid *theirs*. A logit
+gap is not a frequency. `notes.md` §90.
+**Unofficial CLI confidence ≠ winner p (Empirical as
+README; 2026-09-19 ~18:41):**
+[2389-research/judgement](https://github.com/2389-research/judgement)
+— 2389-research/judgement license null. confidence ≠
+winner p. Pin `jev-1.13.0` vs alias 24h. Live
+arithmetic ≠ accuracy. **≠** jevql. `notes.md` §90.
 
 ## 8. Control structure → sensor ≠ constraint (Leveson)
 
@@ -1186,6 +1240,25 @@ provisional. **≠** jevmail **≠** mailjay. License null.
 the remainder sensor; enzo-mcp UNKNOWN exposes gaps.
 `allow_external_jev` is consent, not a grant.
 **≠** jev-sift. `notes.md` §89.
+**Pause-if-no-Jev (Empirical as README; 2026-09-19
+~18:41):**
+[ORIGIN-CIVILIZATION](https://github.com/JacquesGariepy/ORIGIN-CIVILIZATION)
+— Jev SENSOR; world constraint is ORIGIN
+pause-if-no-Jev. validResponse sums-to-1. LLMs plan
+never decide. **≠** Essentiel-Jev. `notes.md` §90.
+**Local AUTO_ACT is not a Noul (Empirical as README;
+2026-09-19 ~18:41):**
+[jevbrain](https://github.com/Synxneuos/jevbrain)
+— n-gram/anchor overlap daemon. jevbrain AUTO_ACT is
+not a Noul. τ≥0.80 theater if sold as calibrated
+System One. README MIT vs SPDX null. **≠** TypeSafe
+Jev. `notes.md` §90.
+**Crawler risk bands (Empirical as README; 2026-09-19
+~18:41):**
+[jev-crawlers](https://github.com/russfranky/jev-crawlers)
+— jev-crawlers risk bands never raw boolean. Verify
+grounding, not exec. rh-guard owns the gate cousin.
+`notes.md` §90.
 
 ## 9. Search / control loops → one substituted classifier step
 
@@ -1269,6 +1342,20 @@ code. **≠** JevFind. Life/knowledge, not only SWE
 the transition sensor; LLM writes leftover copy.
 <250 ms ≠ microsecond marketing. 0.75/0.80/0.85 still
 soft. **≠** jev-harness. `notes.md` §89.
+**S1 decide / S2 plan (Empirical as README;
+2026-09-19 ~18:41):**
+[ORIGIN-CIVILIZATION](https://github.com/JacquesGariepy/ORIGIN-CIVILIZATION)
+— the *algorithm* is the civ loop; the substituted
+classifier is Jev on every voluntary action; LLMs
+plan never decide. ORIGIN pause-if-no-Jev.
+validResponse sums-to-1. **≠** Essentiel-Jev.
+`notes.md` §90.
+**Seed/expand/judge/verify (Empirical as README;
+2026-09-19 ~18:41):**
+[jev-crawlers](https://github.com/russfranky/jev-crawlers)
+— the *algorithm* is Unix-style crawler stages; Jev
+is the judge/verify sensor. jev-crawlers risk bands
+never raw boolean. `notes.md` §90.
 
 ```text
 loop     = yours (beam / funnel / stages / MCTS / incident command)

@@ -158,6 +158,23 @@ request, and treat a stale pin as a prior, never a setting.
 | Paste “Jev wins” from jev-rag-benchmark | Assumption forbidden | Plumbing. `max_budget_usd` 0. **≠** Jev-RAG. `notes.md` §89 |
 | Collapse dairui1/jev-lab into BrendanH18 / re-card jev-desktop | Namesake; already MED | 91% vs 79% *theirs* synthetic. Fan-out vs `CLICK:3`. `notes.md` §89 |
 | Treat jevmail as mailordinal / mailjay as read-only | Inbox species | `gmail.readonly` vs archive/trash after review. `notes.md` §89 |
+| Collapse ZHUBoer/ego-jev into jiangkoumo / treat `completed` as success | Namesake; verifier | ZHUBoer/ego-jev reserved `__none__`. runWorkflow completed ≠ success. `notes.md` §90 |
+| Treat jsort logits as frequencies / Choice as the scale | Ranking ≠ calibration | jsort scores are relative. Noul not Choice for scale. `notes.md` §90 |
+| Paste groundedness Macro-F1 as “Jev wins quality” | Axis; namesake | groundedness-judge-bench native vs schema-guided. implicit_true included in yes. `notes.md` §90 |
+| Quote jev_playground 83% / promote from authored bars | Plumbing; 0 promotions | jev_playground 0 promotions. routing-backtest 0.0447%. `notes.md` §90 |
+| Copy `jev-latest` on Zen / collapse into GodsBoy | Model pin; namesake | yuyang2230/jev-agent-skill jev-1.13-free. `notes.md` §90 |
+| Treat techstack ranks as a generated stack | Classifier not generator | jev-techstack-classifier stack_config.json only. `notes.md` §90 |
+| Collapse s1_ruby into hunch/feelings / `is?` as a proof | Collapse late | s1_ruby collapse late. `undecided?` abstain. `notes.md` §90 |
+| Treat judgement as jevql / confidence as winner p | Unofficial CLI | 2389-research/judgement license null. confidence ≠ winner p. `notes.md` §90 |
+| Treat the Rust community SDK as official / a new species | Unofficial; packaging | typesafeai-sdk-community not a new species. `notes.md` §90 |
+| Collapse tpellet/hunch into carldaws/hunch / skip exit 3 | Namesake; abstain | tpellet/hunch exit 3. never-execute list. `notes.md` §90 |
+| Quote file-search 15 matches as recall / collapse into JevFind | Uncalibrated; species | jev-file-search scores not calibrated accuracy. `notes.md` §90 |
+| Treat linkmap referee as gold / let Jev see S2 prose | Rubric rewrite | jev-linkmap Jev never sees S2 prose. `notes.md` §90 |
+| Treat jev-mail as jevmail / tidy OTHER as a move | Inbox/file species | muhammedilyasy/jev-mail metadata only. tidy none-of-folders stay. `notes.md` §90 |
+| Close pinned/audio/current tabs / skip Show | Life fail-open | tab-bouncer pinned/audio/current never closed. lkclean Show fail-open. jev-yt-time-saver Show anyway. `notes.md` §90 |
+| Let ORIGIN LLM decide / continue without Jev | Pause-if-no-Jev | ORIGIN pause-if-no-Jev. validResponse sums-to-1. `notes.md` §90 |
+| Gate crawlers on raw `bug_likely` / skip verify | Ranking ≠ bug p | jev-crawlers risk bands never raw boolean. `notes.md` §90 |
+| Sell jevbrain AUTO_ACT as a Noul / paste 95.2% | Local overlap ≠ Jev | jevbrain AUTO_ACT is not a Noul. `notes.md` §90 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

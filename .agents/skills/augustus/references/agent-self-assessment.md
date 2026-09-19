@@ -209,6 +209,17 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    0.85 still soft; “mathematically fulfilled”
    overclaim; **≠** AntonioCoppe/jev-harness
    (`notes.md` §89).
+   Observe→score→act namesake (not a merge seal):
+   [ZHUBoer/ego-jev](https://github.com/ZHUBoer/ego-jev)
+   reserved `__none__`; runWorkflow completed ≠
+   success; no universal cutoff (`notes.md` §90).
+   Pause-if-no-Jev (S1 decide / S2 plan):
+   [ORIGIN-CIVILIZATION](https://github.com/JacquesGariepy/ORIGIN-CIVILIZATION)
+   ORIGIN pause-if-no-Jev; validResponse sums-to-1;
+   **≠** Essentiel-Jev (`notes.md` §90).
+   Local AUTO_ACT is **not** a self-supervision Noul:
+   [jevbrain](https://github.com/Synxneuos/jevbrain)
+   jevbrain AUTO_ACT is not a Noul (`notes.md` §90).
    Closed-vote extreme (no planner LLM):
    [JevOnly](https://github.com/buluoray/JevOnly) (`notes.md` §61).
    Host-owned product:

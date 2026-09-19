@@ -2461,3 +2461,64 @@ force a bot; (jt) human every action never authority;
 decision-as-filing OTHER skip; (jw) question
 preflight consistency ≠ accuracy; (jx) inbox
 read-only vs write after review.
+
+## Batch #73 (2026-09-19 ~18:41 UTC / ~12:41 Boise) — hourly 1241 HIGH
+
+Note: `research/notes.md` §90. Docs-only on a fresh PR
+off main. Never reopen merged #3 / #4 / #5. Skip Archer.
+Do **not** re-fold 1144 / §89. No invented metrics.
+Hunches labeled. Quote READMEs. Soft Noul ≠ hard safety.
+0★ HIGHs still get real cards.
+
+- **Observe→score→act namesake.** ZHUBoer/ego-jev
+  reserved `__none__`. runWorkflow completed ≠ success.
+  Exact work local. **≠** jiangkoumo/ego-jev. **0★**.
+- **Decision-as-ranking.** jsort scores are relative.
+  Noul not Choice for scale. CommonLit r=0.824 / ρ=0.841
+  *theirs*. **1★**.
+- **Native vs schema-guided Harbor.**
+  groundedness-judge-bench native vs schema-guided.
+  implicit_true included in yes. Fastest/cheapest ≠
+  quality. **≠** jev-judge-bench. **0★**.
+- **0 promotions / authored vs real.** jev_playground 0
+  promotions. routing-backtest 0.0447%. Plumbing 83% ≠
+  quality. **≠** HF playground. **0★**.
+- **Offload + classifier-not-generator.**
+  yuyang2230/jev-agent-skill jev-1.13-free.
+  jev-techstack-classifier stack_config.json only.
+- **Collapse late.** s1_ruby collapse late.
+  `undecided?` abstain. Code asks; code decides. **≠**
+  hunch **≠** feelings. **1★**.
+- **Unofficial toolbelt.** 2389-research/judgement
+  license null. confidence ≠ winner p.
+  typesafeai-sdk-community not a new species.
+- **Pointer shell.** tpellet/hunch exit 3. never-execute
+  list. **≠** carldaws/hunch. **0★**.
+- **Preview-first VOI / rubric rewrite.** jev-file-search
+  scores not calibrated accuracy. jev-linkmap Jev never
+  sees S2 prose.
+- **Life fail-open covers.** muhammedilyasy/jev-mail
+  metadata only. tidy none-of-folders stay. tab-bouncer
+  pinned/audio/current never closed. lkclean Show
+  fail-open. jev-yt-time-saver Show anyway.
+- **S1 decide / S2 plan.** ORIGIN pause-if-no-Jev.
+  validResponse sums-to-1. **≠** Essentiel-Jev. **1★**.
+- **Seed/expand/judge/verify + local daemon ≠ Jev.**
+  jev-crawlers risk bands never raw boolean. jevbrain
+  AUTO_ACT is not a Noul. **9★**.
+
+Census not re-derived. Archer still NOT landed (HF empty;
+tracker likes 49 lastModified 2026-09-19T18:37:18Z still
+promised). Laya yes. Blackwood ABSENT. SemIf 1846 (+17).
+jevlike 962 (+3). TypeAR-AI/TypeAR 10 (+1). Awesomejev
+flat 561/27007.
+
+Cross-repo addition: (jy) observe→score→act namesake lock;
+(jz) decision-as-ranking / Noul not Choice for scale;
+(ka) native vs schema-guided Harbor; (kb) 0 promotions /
+authored vs real; (kc) collapse late as language
+primitive; (kd) unofficial CLI/SDK packaging; (ke)
+pointer shell exit-3; (kf) preview-first VOI; (kg) life
+fail-open covers; (kh) S1 decide / S2 plan pause-if-no-Jev;
+(ki) crawler risk bands; (kj) local daemon AUTO_ACT is
+not a Noul.

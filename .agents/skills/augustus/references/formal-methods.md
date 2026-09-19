@@ -649,6 +649,26 @@ Hard-gating a default 0.5 bool, quoting “mathematically
 fulfilled,” or pasting jev-test bars as results is the
 same theater.
 
+1241 envelopes (`notes.md` §90), still outside the extras
+template: Ego Lite locators / ZHUBoer/ego-jev reserved
+`__none__` / runWorkflow completed ≠ success; jsort
+scores are relative; groundedness 0.5 label on Noul;
+playground 0 promotions; s1_ruby `?` vs `undecided?`
+abstain; tpellet/hunch exit 3 + never-execute list;
+tidy 0.8 + none-of-folders stay; tab-bouncer
+pinned/audio/current never closed; lkclean Show
+fail-open; jev-yt-time-saver Show anyway; ORIGIN
+pause-if-no-Jev + validResponse sums-to-1; crawlers
+verify grounding not exec + review queue; jevbrain
+AUTO_ACT is not a Noul. Soft Noul ≠ hard safety:
+jsort logits, Jev 0.5 groundedness, tidy 0.8, lkclean
+70/35/60, hunch 0.5/0.65, file-search 0.8, jevbrain
+0.80 are **sensors**. Hard-gating AUTO_ACT, treating
+ranking logits as frequencies, pasting 95.2% / 83%
+plumbing / 36/120 NL2Bash as class ceilings, or
+letting Jev send/delete/close pinned tabs is the
+same theater.
+
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a
 hybrid "verified by Noul" API.

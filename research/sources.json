@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T17:55Z",
+  "retrieved": "2026-09-19T18:41Z",
   "sources": [
     {
       "kind": "docs",
@@ -3025,6 +3025,126 @@
       "title": "secondfret/mailjay",
       "url": "https://github.com/secondfret/mailjay",
       "note": "License null; 0 stars. HEAD 346725c. README SHA fd52c7b9. macOS inbox writes after review (archive/trash). != jevmail readonly != mailordinal. notes.md §89."
+    },
+    {
+      "kind": "github",
+      "title": "ZHUBoer/ego-jev",
+      "url": "https://github.com/ZHUBoer/ego-jev",
+      "note": "MIT; 0 stars. HEAD 2e85486. README SHA fc4537ac. Ego Lite observe/act; reserved __none__; runWorkflow completed != success. != jiangkoumo/ego-jev. notes.md §90."
+    },
+    {
+      "kind": "github",
+      "title": "keltokhy/jsort",
+      "url": "https://github.com/keltokhy/jsort",
+      "note": "MIT; 1 star. HEAD e007e64. README SHA a7c1f705. Pairwise Jev -> Bradley-Terry. Scores are relative. Noul not Choice for scale. CommonLit r=0.824/rho=0.841 *theirs*. notes.md §90."
+    },
+    {
+      "kind": "github",
+      "title": "slavadubrov/groundedness-judge-bench",
+      "url": "https://github.com/slavadubrov/groundedness-judge-bench",
+      "note": "LICENSE MIT / SPDX NOASSERTION; 0 stars. HEAD 188d1c4. README SHA 5cc070d8. Native Noul vs schema-guided LLM. implicit_true included in yes. Jev Macro-F1 0.6667 vs GLM 0.7661 *theirs*. != jev-judge-bench. notes.md §90."
+    },
+    {
+      "kind": "github",
+      "title": "JYeswak/jev_playground",
+      "url": "https://github.com/JYeswak/jev_playground",
+      "note": "MIT; 0 stars. HEAD 10abc7a. README SHA 96483039. 0 promotions on purpose. routing-backtest 0.0447%. != HF playground. notes.md §90."
+    },
+    {
+      "kind": "github",
+      "title": "yuyang2230/jev-agent-skill",
+      "url": "https://github.com/yuyang2230/jev-agent-skill",
+      "note": "MIT; 0 stars. HEAD 9c43a5b. README SHA 158ca045. Offload classify/screen/score/verify via OpenCode Zen. jev-1.13-free. != GodsBoy. notes.md §90."
+    },
+    {
+      "kind": "github",
+      "title": "swap-mitra/jev-techstack-classifier",
+      "url": "https://github.com/swap-mitra/jev-techstack-classifier",
+      "note": "License null; 0 stars. HEAD 6c904a4. README SHA cd32bde4. Classifier not generator. stack_config.json only. notes.md §90."
+    },
+    {
+      "kind": "github",
+      "title": "innocentdiaz/s1_ruby",
+      "url": "https://github.com/innocentdiaz/s1_ruby",
+      "note": "MIT; 1 star. HEAD b150796. README SHA 6250f97b. S1 measurement + collapse. collapse late. undecided? abstain. != carldaws/hunch != feelings. notes.md §90."
+    },
+    {
+      "kind": "github",
+      "title": "2389-research/judgement",
+      "url": "https://github.com/2389-research/judgement",
+      "note": "License null; 0 stars. HEAD ea46952. README SHA 23c2dcda. Go CLI Choice + opt-in cache. confidence != winner p. != jevql. notes.md §90."
+    },
+    {
+      "kind": "github",
+      "title": "community-ports/typesafeai-sdk-rust-community",
+      "url": "https://github.com/community-ports/typesafeai-sdk-rust-community",
+      "note": "MIT; 0 stars. HEAD b7a648b. README SHA bda3ad23. Community Rust SDK. typesafeai-sdk-community not a new species. crates.io 0.3.1. notes.md §90."
+    },
+    {
+      "kind": "github",
+      "title": "tpellet/hunch",
+      "url": "https://github.com/tpellet/hunch",
+      "note": "MIT; 0 stars. HEAD d80dd8c. README SHA b25d81ac. Pointer shell pick/why/is/run. exit 3. never-execute list. != carldaws/hunch. notes.md §90."
+    },
+    {
+      "kind": "github",
+      "title": "emilwagman/jev-file-search",
+      "url": "https://github.com/emilwagman/jev-file-search",
+      "note": "MIT; 0 stars. HEAD 8f2b9cd. README SHA b2a236bb. Preview-first VOI. scores not calibrated accuracy. != findme != JevFind. notes.md §90."
+    },
+    {
+      "kind": "github",
+      "title": "stas4000/jev-linkmap",
+      "url": "https://github.com/stas4000/jev-linkmap",
+      "note": "LICENSE MIT / SPDX NOASSERTION; 0 stars. HEAD 2bd7363. README SHA 271c1cd2. Rebuild link map; Jev never sees S2 prose. notes.md §90."
+    },
+    {
+      "kind": "github",
+      "title": "muhammedilyasy/jev-mail",
+      "url": "https://github.com/muhammedilyasy/jev-mail",
+      "note": "MIT; 0 stars. HEAD 11e3553. README SHA be3211b0. Gmail overlay; metadata only; gmail.readonly. != jevmail != mailordinal. notes.md §90."
+    },
+    {
+      "kind": "github",
+      "title": "MANISH007700/tidy",
+      "url": "https://github.com/MANISH007700/tidy",
+      "note": "MIT; 0 stars. HEAD f8abb82. README SHA 9211939e. macOS Downloads filing. none-of-folders stay. != pigeonhole. notes.md §90."
+    },
+    {
+      "kind": "github",
+      "title": "MANISH007700/tab-bouncer",
+      "url": "https://github.com/MANISH007700/tab-bouncer",
+      "note": "MIT; 0 stars. HEAD 7798c75. README SHA a35090d1. One call <=120 tabs. pinned/audio/current never closed. notes.md §90."
+    },
+    {
+      "kind": "github",
+      "title": "stefw/lkclean",
+      "url": "https://github.com/stefw/lkclean",
+      "note": "MIT; 0 stars. HEAD bb6ce3a. README SHA 1cc18acf. LinkedIn hide fail-open Show. != x-reply-filter. notes.md §90."
+    },
+    {
+      "kind": "github",
+      "title": "jaibhasin/jev-yt-time-saver",
+      "url": "https://github.com/jaibhasin/jev-yt-time-saver",
+      "note": "License null; 1 star. HEAD ac9d219. README SHA 06cedabb. YouTube cover + Show anyway. notes.md §90."
+    },
+    {
+      "kind": "github",
+      "title": "JacquesGariepy/ORIGIN-CIVILIZATION",
+      "url": "https://github.com/JacquesGariepy/ORIGIN-CIVILIZATION",
+      "note": "LICENSE MIT / SPDX NOASSERTION; 1 star. HEAD ece068d. README SHA 33e6ba07. Jev every voluntary action; pause-if-no-Jev; validResponse sums-to-1. != Essentiel-Jev. notes.md §90."
+    },
+    {
+      "kind": "github",
+      "title": "russfranky/jev-crawlers",
+      "url": "https://github.com/russfranky/jev-crawlers",
+      "note": "MIT; 0 stars. HEAD 4df08f5. README SHA 2d0b552e. seed/expand/judge/verify/report. risk bands never raw boolean. notes.md §90."
+    },
+    {
+      "kind": "github",
+      "title": "Synxneuos/jevbrain",
+      "url": "https://github.com/Synxneuos/jevbrain",
+      "note": "License null (README claims MIT); 9 stars. HEAD caa1889. README SHA 55fe0abf. Local n-gram daemon. AUTO_ACT is not a Noul. != TypeSafe Jev. notes.md §90."
     }
   ]
 }

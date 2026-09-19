@@ -546,6 +546,33 @@ Architecture / mental models / Harbor-jevals, not an unpublished-npm / `uv` / `b
 
 Census **not re-derived**. Archer still NOT landed.
 
+### Hourly ~12:41 Boise 2026-09-19 / 18:41 UTC (1241 HIGH)
+
+Architecture / mental models / Harbor-jevals / toolbelt, not a `uv` / `cargo` / Zen / wrangler catalog. `notes.md` §90. Skip Archer. Quote READMEs. Soft Noul ≠ hard safety. Do **not** re-fold 1144 / §89. Fresh PR; never reopen merged #3 / #4 / #5. 0★ HIGHs still get real cards.
+
+- **ZHUBoer/ego-jev** — MIT; **0★**; README SHA `fc4537ac`. Reserved `__none__`. runWorkflow completed ≠ success. **≠** jiangkoumo/ego-jev.
+- **keltokhy/jsort** — MIT; **1★**; README SHA `a7c1f705`. Scores are relative. Noul not Choice for scale. CommonLit r=0.824 / ρ=0.841 *theirs*.
+- **slavadubrov/groundedness-judge-bench** — LICENSE MIT / SPDX NOASSERTION; **0★**; README SHA `5cc070d8`. Native vs schema-guided. implicit_true included in yes. Jev 0.6667 vs GLM 0.7661 *theirs*. **≠** jev-judge-bench.
+- **JYeswak/jev_playground** — MIT; **0★**; README SHA `96483039`. 0 promotions. routing-backtest 0.0447%. **≠** HF playground.
+- **yuyang2230/jev-agent-skill** — MIT; **0★**; README SHA `158ca045`. jev-1.13-free. **≠** GodsBoy.
+- **swap-mitra/jev-techstack-classifier** — license null; **0★**; README SHA `cd32bde4`. stack_config.json only.
+- **innocentdiaz/s1_ruby** — MIT; **1★**; README SHA `6250f97b`. Collapse late. `undecided?` abstain. **≠** hunch **≠** feelings.
+- **2389-research/judgement** — license null; **0★**; README SHA `23c2dcda`. confidence ≠ winner p. **≠** jevql.
+- **community-ports/typesafeai-sdk-rust-community** — MIT; **0★**; README SHA `bda3ad23`. Not a new species.
+- **tpellet/hunch** — MIT; **0★**; README SHA `b25d81ac`. Exit 3. never-execute list. **≠** carldaws/hunch.
+- **emilwagman/jev-file-search** — MIT; **0★**; README SHA `b2a236bb`. Scores not calibrated accuracy. **≠** JevFind.
+- **stas4000/jev-linkmap** — LICENSE MIT / SPDX NOASSERTION; **0★**; README SHA `271c1cd2`. Jev never sees S2 prose.
+- **muhammedilyasy/jev-mail** — MIT; **0★**; README SHA `be3211b0`. Metadata only. **≠** jevmail.
+- **MANISH007700/tidy** — MIT; **0★**; README SHA `9211939e`. none-of-folders stay. **≠** pigeonhole.
+- **MANISH007700/tab-bouncer** — MIT; **0★**; README SHA `a35090d1`. pinned/audio/current never closed.
+- **stefw/lkclean** — MIT; **0★**; README SHA `1cc18acf`. Show fail-open. **≠** x-reply-filter.
+- **jaibhasin/jev-yt-time-saver** — license null; **1★**; README SHA `06cedabb`. Show anyway.
+- **JacquesGariepy/ORIGIN-CIVILIZATION** — LICENSE MIT / SPDX NOASSERTION; **1★**; README SHA `33e6ba07`. pause-if-no-Jev. validResponse sums-to-1. **≠** Essentiel-Jev.
+- **russfranky/jev-crawlers** — MIT; **0★**; README SHA `2d0b552e`. Risk bands never raw boolean.
+- **Synxneuos/jevbrain** — license null; **9★**; README SHA `55fe0abf`. AUTO_ACT is not a Noul. **≠** TypeSafe Jev.
+
+Census **not re-derived**. Archer still NOT landed (HF empty; tracker likes 49 lastModified 2026-09-19T18:37:18Z still promised). Laya yes. Blackwood ABSENT. SemIf 1846 (+17). jevlike 962 (+3). TypeAR-AI/TypeAR 10 (+1). Awesomejev flat 561/27007.
+
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs
 Apalache; DST trio Antithesis / Resonate HQ / PufferLib):
