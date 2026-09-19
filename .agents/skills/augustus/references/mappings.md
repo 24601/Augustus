@@ -1028,6 +1028,20 @@ Light sibling:
 typed Score/Nouls on the remainder; **fail-closed** without a key
 (different polarity from jevgate). rh-guard-adjacent; light note only
 (`notes.md` §48).
+**Regex floor then remainder compact (Empirical as README +
+one-session bench; 2026-09-19 ~00:39):**
+[jev-compactor](https://github.com/edwardyen724-g/jev-compactor)
+— code proves pins, dedup, and `rm -rf` / force-push / `DROP
+TABLE` / `curl | sh` regardless of Jev; Jev keep/drop +
+Foreman on the remainder. Compaction fail-open if Jev is
+down; safety fail-closed on pending destructive/exfil
+(`notes.md` §65).
+**Local rules then remainder hide (Empirical as README +
+small e2e):**
+[x-reply-filter](https://github.com/zhuyansen/x-reply-filter)
+— `rules.js` proves easy junk at zero cost; four Nouls on
+the rest. Auto-hides are not examples until a human
+confirms (`notes.md` §65).
 **Pre-exec tool product (Empirical as README wiring, not as
 accuracy; 2026-09-18 ~17:48):**
 [toolgate](https://github.com/fdemir/toolgate) — `allow` / `block` /

@@ -865,3 +865,23 @@
   formal-methods, judgment-class, ecosystem, CHANGELOG, README.
 - notes.md §64; sources.json (358 sources, 355 unique URLs,
   retrieved 2026-09-19T06:45Z); findings.md batch #48. No wrapper.
+
+## 2026-09-19 ~06:55 UTC — hourly ~00:39 Boise remainder fold (§65)
+- Docs-only into PR #2. Same hour as §64. Archer still Watch.
+  Live GitHub READMEs + `gh api`. Hunches labeled.
+- HIGH: [jiangkoumo/ego-jev](https://github.com/jiangkoumo/ego-jev)
+  hot-click CU; indexed table; ~2× n=3 medians, not a bench.
+  [edwardyen724-g/jev-compactor](https://github.com/edwardyen724-g/jev-compactor)
+  was empty skip §61; Jev judges relevance, code decides
+  structure; 64.5%/366ms/0 invented paths one session.
+  [zhuyansen/x-reply-filter](https://github.com/zhuyansen/x-reply-filter)
+  local rules first; never auto-train on own hides.
+- Skip re-fold: actiongate, jev-packs, sysone-help. fast-jev-opencode
+  already §62 MED.
+- Census: as §64 (SemIf 1660 / jevlike 910 / Awesomejev 488/21644).
+- Cards: SKILL.md, applied-mappings §1/§2/§4/§9, mappings §18,
+  mixed-architecture, validation, faq, mental-models,
+  methods-catalog, toolbox, agent-self-assessment, formal-methods,
+  ecosystem, CHANGELOG, README.
+- notes.md §65; sources.json (361 sources, 358 unique URLs,
+  retrieved 2026-09-19T06:55Z); findings.md batch #49. No wrapper.

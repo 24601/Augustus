@@ -345,6 +345,15 @@ Claiming a proof-shaped conclusion from a non-proof:
   ([does-jev-confidence-mean-anything](https://github.com/Adilmp/does-jev-confidence-mean-anything):
   ranking ≠ calibration; stated ~75% vs human ~10%;
   `notes.md` §64).
+- Jev `done` sold as the browser task succeeded
+  ([ego-jev](https://github.com/jiangkoumo/ego-jev): `--until`
+  in code; `notes.md` §65).
+- LLM summary sold as compaction
+  ([jev-compactor](https://github.com/edwardyen724-g/jev-compactor):
+  summarizer invented a path; pointer cannot; `notes.md` §65).
+- The model's own hides sold as training labels
+  ([x-reply-filter](https://github.com/zhuyansen/x-reply-filter):
+  confirm-queue; never self-reinforce; `notes.md` §65).
 - "Type-safe" sold as "correct" ([interlock](https://github.com/somoore/interlock):
   irreversible stays behind a threshold **and** a human).
 

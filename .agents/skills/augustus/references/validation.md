@@ -353,6 +353,8 @@ Rules:
 | Docs-derived instruct seed | [INSTRUCT_JEV](https://huggingface.co/datasets/ctaxnagomi/INSTRUCT_JEV) | 119 rows (47 choice / 51 noul / 21 score); 24 typed question blocks / 7 typed answers. MIT. Open-replica / jevals seed. Not a bake-off |
 | Evidence-gated question packs | [jev-packs](https://github.com/dtduc-git/jev-packs) | Nine packs `verified` on pinned `jev-1.13.0` *theirs* (single-run). citation-support 800 / acc 0.919 / ECE 0.022; banking-intent 150 / 0.840 / 0.090. `unknown` mandatory. jevassert **not released** (404). CC0. Not a Harbor taskset |
 | Ranking ≠ calibration (human annotations) | [does-jev-confidence-mean-anything](https://github.com/Adilmp/does-jev-confidence-mean-anything); [jevcal](https://github.com/Adilmp/jevcal) | 8,000 judgments, `jev-1.13.0`, $0.05. AUC **~0.91**; stated **~75%** vs human **~10%**. Recalibration removes **~96% ECE**, AUC unchanged. `natural`/tightened ECE 0.156 → 0.006. jevcal: ~100 rows (94% of error). ECE gameable (constant base-rate ECE 0). License null / MIT. One domain; do not cite `threat` (n=1) |
+| Hot-click CU vs per-step LLM | [ego-jev](https://github.com/jiangkoumo/ego-jev) | Alternate 3-round medians *theirs*: HN 4.9 s vs 9.7 s; wiki 5.4 s vs 10.1 s (~2×). n=3; high variance (control 7.3–22 s). **Not a benchmark.** MIT |
+| Verbatim compact vs truncate vs summarize | [jev-compactor](https://github.com/edwardyen724-g/jev-compactor) | One synthetic 64-msg / 12.7k-token session, 6k budget, `jev-1.13.0`. 64.5% / 366 ms / $0.0004 / 0 hallucinated paths / 4 of 4 facts vs truncate 53% / 1 of 4 vs Sonnet 96.2% / 6.1 s / $0.0305 / 1 invented path. MIT. Not a survey |
 
 rh-guard is a reward-hack hook, a different surface from jevgate and
 from Abide (eval-integrity vs allowlist-remainder vs project soft
@@ -607,6 +609,18 @@ audit + tool).**
 [jevcal](https://github.com/Adilmp/jevcal): ~100 labelled
 rows; demo 0.9 → 33% on 1,600. ECE gameable — they decide
 on Brier. One domain. Do not cite `threat` (`notes.md` §64).
+**Hot-click CU (Empirical as n=3 medians, not a bench;
+2026-09-19 ~00:39).**
+[ego-jev](https://github.com/jiangkoumo/ego-jev): HN 4.9 s vs
+9.7 s; wiki 5.4 s vs 10.1 s vs per-step `kimi-k3`. High
+variance. Selector-hardcoded code beats both. Do not copy
+`install.sh` (`notes.md` §65).
+**Verbatim compact vs summarize (Empirical as one synthetic
+session).**
+[jev-compactor](https://github.com/edwardyen724-g/jev-compactor):
+64.5% / 366 ms / $0.0004 / 0 invented paths / 4 of 4 facts
+vs Sonnet summary 96.2% / 6.1 s / 1 invented path. Not a
+survey. Was empty skip §61. Do not copy npm (`notes.md` §65).
 
 **Harbor-adjacent stdout prune (Empirical as README / evals README
 behavior, not a full Terminal-Bench ranking; 2026-09-18 ~17:15).**

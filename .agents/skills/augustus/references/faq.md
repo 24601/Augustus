@@ -610,7 +610,15 @@ Noul-prunes a just-run Bash result before the main LLM sees it;
 fast-jev-compaction / gliner25-compaction compact completed tool
 pairs already in history. Hard ≤10k / JSON-diff-whole-doc envelope
 in code; fail-safe keep original; archive for recovery. Marketplace
-id still `fast-jev-output`. `judgment-class.md`; `notes.md` §50, §53.
+id still `fast-jev-output`. Framework-agnostic middleware cousin:
+[jev-compactor](https://github.com/edwardyen724-g/jev-compactor)
+— **Jev judges relevance. Code decides structure.** Never rewrite.
+Regex floor in code. Compaction fails open if Jev is down; safety
+gate fails closed on pending destructive/exfil. One-session
+*theirs*: 64.5% / 366 ms / $0.0004 / 0 invented paths vs Sonnet
+summary 96.2% / 6.1 s / 1 invented path. Claude Code shorter path
+remains fast-jev-compaction. `judgment-class.md`; `notes.md` §50,
+§53, §65.
 
 ## Is pruning Bash stdout the same as compacting session memory?
 
@@ -806,6 +814,28 @@ rows). Never `if p > 0.9` without domain recalibration.
 One dataset; do not cite `threat`. `mappings.md` §7;
 `notes.md` §64.
 
+## Does Jev `done` mean the browser task succeeded?
+
+No. Code owns observe / execute / verify / exit.
+[ego-jev](https://github.com/jiangkoumo/ego-jev): `--until` (URL
+substring or a `check` function) is the deterministic success
+condition; Jev self-`done` is weaker. Malformed fill JSON is
+`text_model_failed`, not a guessed value. Same lesson as
+`DONE` ≠ verified success (gliner2-ultrafast) and waymode
+`completed` ≠ server-state success. `applied-mappings.md` §2;
+`notes.md` §65.
+
+## Should the model's own hides become training labels?
+
+No. A feedback loop that auto-trains on the judge's own
+negatives self-reinforces errors.
+[x-reply-filter](https://github.com/zhuyansen/x-reply-filter):
+local rules first; remainder Nouls; auto-collapses sit in a
+confirm queue until a human says hide or keep. Distinct from
+distilling Jev as teacher of record (jev-triage ~68% ceiling)
+— here the poison is *self-labeled hides*. `applied-mappings.md`
+§4; `notes.md` §65.
+
 ## Do Ax / DSPy own the control plane?
 
 No. They climb **LM-program knobs** (prompts, demos, module
@@ -947,6 +977,11 @@ planner LLM** (code builds options, Jev only picks).
 [waymode](https://github.com/mossburgh/waymode) is host-owned
 handlers × System One, not a harness. Not
 GLiNER2.5. Not a bake-off against the Flights demo clock.
+[ego-jev](https://github.com/jiangkoumo/ego-jev) is the same
+hole on ego-lite: indexed viewport table → operation+target;
+code owns the loop; text model only for type; `--until` beats
+Jev `done`. n=3 medians ~2×, not a bench. `notes.md` §52,
+§57, §61, §65.
 `judgment-class.md`; `mixed-architecture.md`; `notes.md` §52, §54, §57, §61.
 
 ## Does Stagehand extract replace the LLM?

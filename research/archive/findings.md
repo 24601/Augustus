@@ -1509,3 +1509,36 @@ evidence-gated question packs; (eo) Jev supplies evidence /
 code owns authority (positive p never overrides a
 deterministic security failure); (ep) ranking ≠ calibration
 / never hard-threshold raw p as a frequency.
+
+## Batch #49 (2026-09-19 ~06:50 UTC / ~00:39 Boise remainder) — hot-click CU (ego-jev), Jev judges relevance / code decides structure (jev-compactor), local-rules-then-remainder + anti-self-train (x-reply-filter)
+
+Note: `research/notes.md` §65. Same hour as §64. Docs-only.
+Folded into PR #2. Archer still Watch. No invented metrics. Do
+not re-fold actiongate / jev-packs / sysone-help. jev-compactor
+was empty skip in §61; content landed. Hunches labeled.
+
+- **jiangkoumo/ego-jev (Empirical as n=3 medians / README
+  architecture).** JavaScript MIT. Created
+  2026-09-19T06:33:03Z; 0★. Indexed viewport table →
+  operation+target. Code owns observe/execute/`--until`.
+  Text model only for type. HN 4.9 s vs 9.7 s; wiki 5.4 s vs
+  10.1 s *theirs*. High variance. Not a benchmark.
+- **edwardyen724-g/jev-compactor (Empirical as one-session
+  bench).** TypeScript MIT. Created 2026-09-19T03:31:54Z;
+  1★. Was empty skip. Jev judges relevance; code decides
+  structure; never rewrite. 64.5% / 366 ms / $0.0004 / 0
+  hallucinated / 4 of 4 vs Sonnet 96.2% / 1 invented path.
+  Dual fail polarity. Regex floor independent of Jev.
+- **zhuyansen/x-reply-filter (Empirical as README + small
+  e2e).** JavaScript MIT. Created 2026-09-19T06:07:18Z; 0★.
+  Local rules first; remainder Nouls; never auto-train on
+  the model's own hides. 3-sample e2e 0.90/0.93 vs 0.08/0.10.
+
+Census: same as batch #48 (Awesomejev 488/21644; SemIf 1660;
+jevlike 910; tracker likes 42).
+
+Cross-repo addition: (eq) hot-click CU / indexed element
+table / S1 on click path; (er) Jev judges relevance, code
+decides structure / never rewrite; (es) local rules first
+then remainder / never auto-train on the model's own hides.
+

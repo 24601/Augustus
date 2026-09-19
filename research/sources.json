@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T06:45Z",
+  "retrieved": "2026-09-19T06:55Z",
   "sources": [
     {
       "kind": "docs",
@@ -2149,6 +2149,24 @@
       "title": "kunchenguid/local-jev",
       "url": "https://github.com/kunchenguid/local-jev",
       "note": "Language null; MIT. Created 2026-09-19T06:14:18Z; 0 stars; size 0. Local /v1/systemone-shaped ModernBERT ONNX. API-compatible approximation, not behavioral equivalence. Distinct from us/jev-local and jeff. MED. notes.md \u00a764."
+    },
+    {
+      "kind": "github",
+      "title": "jiangkoumo/ego-jev",
+      "url": "https://github.com/jiangkoumo/ego-jev",
+      "note": "JavaScript MIT. Created 2026-09-19T06:33:03Z; 0 stars; size 0. Hot-click CU: indexed viewport table to operation+target. HN 4.9s vs 9.7s / wiki 5.4s vs 10.1s n=3 medians. Not a bench. notes.md \u00a765."
+    },
+    {
+      "kind": "github",
+      "title": "edwardyen724-g/jev-compactor BENCHMARK.md",
+      "url": "https://github.com/edwardyen724-g/jev-compactor/blob/main/docs/BENCHMARK.md",
+      "note": "Content landed after \u00a761 empty skip. One synthetic 12.7k-token session: 64.5% / 366ms / $0.0004 / 0 hallucinated / 4 of 4 vs Sonnet 96.2% / 1 invented path. jev-1.13.0. notes.md \u00a765."
+    },
+    {
+      "kind": "github",
+      "title": "zhuyansen/x-reply-filter",
+      "url": "https://github.com/zhuyansen/x-reply-filter",
+      "note": "JavaScript MIT. Created 2026-09-19T06:07:18Z; 0 stars. Local rules first then batched Nouls. Never auto-train on model's own hides. notes.md \u00a765."
     }
   ]
 }

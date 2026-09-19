@@ -503,6 +503,24 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   TypeAR 9; tracker likes 42; lastModified unchanged; Laya
   yes; Blackwood ABSENT; X MCP flapping. No wrapper. No
   invented metrics.
+- Same-hour remainder ~00:39 Boise 2026-09-19 (`research/notes.md`
+  §65): Archer still Watch. Do not re-fold actiongate / jev-packs
+  / sysone-help. Hot-click CU
+  ([ego-jev](https://github.com/jiangkoumo/ego-jev); MIT; indexed
+  viewport table → operation+target; code owns observe/execute/
+  `--until`; text model only for type; HN 4.9 s vs 9.7 s / wiki
+  5.4 s vs 10.1 s *theirs* n=3, high variance, not a bench).
+  Jev judges relevance, code decides structure
+  ([jev-compactor](https://github.com/edwardyen724-g/jev-compactor);
+  MIT; was empty skip §61; never rewrite; regex floor; compaction
+  fail-open if Jev down, safety fail-closed; 64.5% / 366 ms /
+  $0.0004 / 0 invented paths / 4 of 4 facts vs Sonnet summary
+  96.2% / 1 invented path, one session). Local rules first,
+  never auto-train on the model's own hides
+  ([x-reply-filter](https://github.com/zhuyansen/x-reply-filter);
+  MIT; `rules.js` then batched Nouls; confirm-queue). OpenCode
+  port already §62: fast-jev-opencode. Census as §64. No wrapper.
+  No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

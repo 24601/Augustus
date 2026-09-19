@@ -6987,3 +6987,216 @@ score never authorizes; "calibrated" ≠ frequency);
 `toolbox-mapping.md`; `agent-self-assessment.md`;
 `formal-methods.md`; `judgment-class.md` (gqgs/laya-onnx;
 local-jev not equivalence). Hunches labeled. No wrapper.
+
+## 65. Same-hour remainder: hot-click CU (ego-jev), Jev judges relevance / code decides structure (jev-compactor), local-rules-then-remainder + anti-self-train (x-reply-filter) (2026-09-19 ~00:39 Boise)
+
+America/Boise ~00:39 = 2026-09-19T06:39Z. Same watch hour as
+§64. Docs-only fold into open PR #2
+(`cursor/augustus-store-envelope-00b4`). Not a competing PR.
+Archer 27B drop still **WATCH**. Identity lock vs
+`typesafe-ai` / `tenbin` / `decision-first` holds. No
+wrapper, no install.sh / pnpm / wrangler / OpenRouter /
+key-file how-to. No invented metrics. Do **not** re-fold
+§50–§64 HIGH except one-line cross-links. Skip re-fold of
+actiongate-jev / jev-packs (already §64) and
+sysone-help/sysone (already §63 MED). TypeSafe Jev is the
+documented exemplar, not the monopoly. Augustus stays
+how-to-apply / mental model / architecture / toolbelt +
+jevals/Harbor practice.
+
+Watch archive path `/workspace/jev-archive/2026-09-19/0039`
+is **not present** on this VM. Receipts this pass are live
+GitHub READMEs + `gh api` metadata (2026-09-19 ~06:50Z).
+Causes below are **hunches** unless labeled Empirical.
+
+Three HIGH **architecture** signals that were queued in
+the same hour: System One on the **hot click path**
+(indexed element table → operation+target in one request;
+code owns observe/execute/verify; text model only when
+typing is needed); **framework-agnostic verbatim
+compaction + same-pass safety** (previously an empty skip
+in §61 — now landed); **local rules first, then batched
+remainder Nouls**, with a feedback loop that **does not
+auto-train on the model's own hides**. Census already
+recorded in §64 (SemIf 1660 / jevlike 910). X MCP still
+flapping.
+
+### HIGH
+
+1. **[`jiangkoumo/ego-jev`](https://github.com/jiangkoumo/ego-jev)**
+   (JavaScript; MIT; created 2026-09-19T06:33:03Z; 0★;
+   GitHub `size` 0 this pass — `ego-jev.mjs` 34,752 B and
+   README are live). Drive
+   [ego-lite](https://github.com/citrolabs/ego-lite)
+   with Jev: viewport **indexed element table** (ref /
+   role / name / value / checked / options / path; ~1.6
+   KB ≈ 400 tokens) in; one request answers **operation**
+   (`click` / `type_text` / `select` / `scroll_*` /
+   `wait` / `done` / `blocked`) **and** per-op **target**
+   heads (speculative, mutually invisible; each head lists
+   only compatible elements). Code owns observation,
+   execution, stale-ref check, loop protection, exit, and
+   space teardown. Architecture cousin of
+   [jev-ultrafast](https://github.com/browser-use/jev-ultrafast)
+   (dynamic operation+target; code-side option index).
+   Distinct from JevOnly (no planner LLM, Chromium harness),
+   waymode (host-owned product handlers), Stagehand (LLM
+   fallback), gliner2-ultrafast / Cua-S1 (other backends).
+   **Not** a planner replacement: Jev does not generate
+   text or do business judgment. Optional OpenAI-compat
+   text model only when `--text` candidates are absent;
+   malformed JSON → `text_model_failed`, **does not guess
+   a fill value**. `--until` (URL substring / code
+   `check`) is the **deterministic** success condition;
+   Jev self-`done` is weaker. `done`/`blocked` are
+   operations, not probability thresholds. Jev finishing
+   **≠** business-correct. Do not copy `install.sh` /
+   `~/.config/typesafe/api_key` (ego runtime drops parent
+   env — that is *their* pitfall, not ours).
+
+   **Measured *theirs* (2026-09-19; macOS; ego lite
+   0.5.0.32; `jev-1.13`; alternate 3 rounds, medians):**
+
+   | Task | ego-jev | per-step LLM loop (`kimi-k3`) |
+   |---|---:|---:|
+   | HN two-step nav | **4.9 s** (1 process, 12 browser calls) | **9.7 s** (3 processes) ~2.0× |
+   | Wikipedia search (both generate text) | **5.4 s** (1 step) | **10.1 s** (2 processes) ~1.9× |
+
+   Jev 1.0–1.5 s/decision vs frontier 1.6–4.5 s. Browser
+   actions not saved (both snapshot + evaluate). **n=3
+   pairs/task, high variance** (control 7.3–22 s) — not a
+   benchmark. Selector-hardcoded code beats both. Known
+   limits *theirs*: native dropdowns that need a confirm
+   click `stuck`; custom-styled checkboxes missing from
+   a11y snapshot; auto-translate breaks UI-string
+   `--until`. Real captcha/login-wall untested.
+
+   **Hunch / Augustus takeaway:** System One on the hot
+   click path; generation only where text must be written.
+   Code owns observe / execute / verify / exit. Same
+   observe→score-among-candidates→code-acts hole as
+   jev-ultrafast, class-backend-agnostic.
+
+2. **[`edwardyen724-g/jev-compactor`](https://github.com/edwardyen724-g/jev-compactor)**
+   (TypeScript; MIT; created 2026-09-19T03:31:54Z; **1★**;
+   GitHub `size` 0 this pass — README 20,949 B and
+   packages are live). **Was empty skip in §61; content
+   landed.** Framework-agnostic context compaction +
+   safety gating (OpenAI / Anthropic / LangChain / plain
+   `{role,content}` / CLI / MCP). Slogan: **"Jev judges
+   relevance. Code decides structure."** Keep original
+   messages **byte for byte**; never rewrite; every drop
+   carries a reason + probability; tool call↔result pairs
+   never split. Pre-pass in code: pin system / recent /
+   goal-path / code; dedup; **regex floor** (`rm -rf`,
+   force-push, `DROP TABLE`, `curl | sh`, leaked keys)
+   independent of Jev. One Jev request: keep/drop Choice
+   per candidate + Foreman Nouls (destructive /
+   exfiltration / thrashing / goal-drift). Drop only if
+   P(drop) ≥ 0.7. Dual fail polarity: compaction **fails
+   open** if Jev is down (`skipped = jev_unavailable`;
+   history unchanged) unless `failClosed`; safety gate
+   **fails closed** on pending-action destructive /
+   exfil (`CompactionBlockedError` / escrow). Contrast
+   gliner25-compaction fail-closed `keep_full` (the
+   *reduction* is the irreversible act). Claude Code
+   shorter path remains
+   [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction).
+   OpenCode V2 fail-open port already §62 MED:
+   [fast-jev-opencode](https://github.com/nrdz-labs/fast-jev-opencode).
+   Do not copy npm / pnpm / `.env`. Data leaves the
+   machine on a compaction (abridged copy to TypeSafe).
+
+   **Measured *theirs* (`docs/BENCHMARK.md`; 2026-09-18;
+   `jev-1.13.0`; one synthetic 64-message / 12.7k-token
+   session; 6k budget):**
+
+   | Arm | saved | latency | cost | hallucinated paths | early facts kept |
+   |---|---:|---:|---:|---:|---:|
+   | jev-compactor | **64.5%** | **366 ms** | **$0.0004** | **0** | **4 of 4** |
+   | truncate oldest | 53.0% | 1 ms | $0 | 0 | 1 of 4 |
+   | Claude Sonnet 5 summarize | 96.2% | 6.1 s | $0.0305 | 1 | 3 of 4 |
+
+   One session, reproducible, **not a survey**. P(keep)
+   moved ≤0.14 across four identical requests; units near
+   0.7 can flip (2/9 transcript-runs).
+
+   **Hunch / Augustus takeaway:** pointer not summarizer,
+   now as middleware with a same-pass safety sensor.
+   Regex proves the cheap floor; Jev is the remainder.
+   Compaction fail-open vs gate fail-closed is per-act,
+   not a global virtue. Compose with actiongate: Jev
+   supplies evidence; code owns authority (and structure).
+
+3. **[`zhuyansen/x-reply-filter`](https://github.com/zhuyansen/x-reply-filter)**
+   (JavaScript; MIT; created 2026-09-19T06:07:18Z; 0★;
+   homepage `https://xrf.ship2market.ai/`). Chrome MV3:
+   collapse (do not delete) low-quality X replies on
+   status pages. **Two-tier:** (1) local `rules.js` zero
+   cost (promo, crypto shill, AI-tool pitch, bait, emoji-
+   only, "first", link-only, bot-looking handles); (2)
+   remainder batched 8 → four Nouls (promo/spam, bait,
+   off-topic, AI filler); any ≥ 0.75 (default) collapses.
+   Cache by tweet id. Cousin of
+   [bohutang/sift](https://github.com/bohutang/sift)
+   (§62 MED X-feed labels/hide) — this one is a **product
+   pattern**: structural prove ∩ remainder + a **feedback
+   loop that does not auto-train on the model's own
+   hides**. Auto-collapses land in "recent auto-hides"
+   until the user confirms "yes, hide" or "wrong, keep";
+   only confirmed examples become few-shot (10 junk / 10
+   keep) plus an extra Noul "same class as user-marked
+   junk." E2E *theirs* (`test/examples.e2e.js`): three
+   "reset request" samples → similar replies 0.90 / 0.93
+   vs normal questions 0.08 / 0.10. Samples stay on-device
+   (`chrome.storage.local`). ~$0.00006 / 8-pack; 10k
+   replies ~$0.08 *theirs*. DOM `data-testid` coupled.
+   Do not copy wrangler / OpenRouter / Worker deploy.
+
+   **Hunch / Augustus takeaway:** cheap cookbook for
+   hold-before-show: local rules prove the easy junk;
+   decision model on the remainder; **never let the
+   model's own negatives reinforce the model**. Distinct
+   from distilling Jev as teacher of record (jev-triage
+   ~68% ceiling) — here the poison is self-labeled
+   *hides*, not a teacher copy.
+
+### Skip / already folded
+
+- actiongate-jev, jev-packs, does-jev-confidence: §64.
+  One-line compose: ego-jev and jev-compactor both keep
+  **code as authority** (observe/execute/structure/regex
+  floor); Jev is the sensor.
+- sysone-help/sysone: §63 MED (evaluation-model-first
+  TS library). No new substance this pass.
+- nrdz-labs/fast-jev-opencode: §62 MED. Fail-open
+  OpenCode V2 port of fast-jev-compaction; not a second
+  compaction species.
+
+### Curated status (same hour as §64; not re-derived)
+
+- Awesomejev **flat 488/21644**.
+- Live SemIf **1660★** (+8). jevlike **910★** (+5).
+  TypeAR 9. Tracker likes **42**; lastModified
+  unchanged. Laya yes. Blackwood ABSENT.
+- Archer still **NOT landed**. X MCP still flapping.
+
+### Omni / Jev-omni / Archer
+
+Still **WATCH**. A hot-click CU loop, a compaction
+middleware, and a reply filter are **not** that drop.
+
+### Cross-links
+
+Cards: `applied-mappings.md` §1 (jev-compactor verbatim
+compact + regex floor + dual fail polarity), §2 / §9
+(ego-jev hot-click CU), §4 (x-reply-filter local rules
+then remainder; anti-self-train); `mappings.md` §18
+(structural prove ∩ remainder); `mixed-architecture.md`
+(fail table + gallery); `validation.md` (ego-jev n=3
+medians; jev-compactor 64.5%/366ms one session);
+`faq.md` (Jev `done` ≠ success; never auto-train on
+own hides; compaction still must not summarize);
+`mental-models.md`; `methods-catalog.md`;
+`toolbox-mapping.md`; `agent-self-assessment.md`.
+Hunches labeled. No wrapper.

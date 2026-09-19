@@ -112,6 +112,24 @@ gold (`notes.md` §33). Official cousin: classifying RAG passages cookbook
 of must-keep lines (failures, the current instruction); tokens saved;
 timeout leaves the artifact in context. Fail-open: a false drop loses
 evidence.
+**Framework-agnostic compact + same-pass safety (Empirical as
+README + one-session bench; 2026-09-19 ~00:39; was empty
+skip §61):**
+[jev-compactor](https://github.com/edwardyen724-g/jev-compactor)
+— **Jev judges relevance. Code decides structure.** Keep
+messages byte-for-byte; never rewrite; tool pairs never
+split. Regex floor in code (`rm -rf` / force-push / `DROP
+TABLE` / `curl | sh`) independent of Jev. Dual fail
+polarity: compaction **fails open** if Jev is down
+(history unchanged) unless `failClosed`; pending-action
+destructive/exfil **fails closed**. One synthetic 12.7k-
+token session *theirs*: **64.5%** saved / **366 ms** /
+**$0.0004** / **0** hallucinated paths / **4 of 4** early
+facts vs truncate 53% / 1 of 4 vs Sonnet summary 96.2% /
+6.1 s / $0.0305 / 1 invented path. Not a survey. Claude
+Code shorter path remains fast-jev-compaction. OpenCode
+fail-open port: fast-jev-opencode (§62 MED). Do not copy
+npm (`notes.md` §65).
 
 ## 2. Exact-text keep / drop
 
@@ -221,6 +239,20 @@ p ≥ 0.7. Evidence *theirs*: 24/26 public suite, 34/36
 completion regression — **bounded development evidence, not
 proof every app is self-driving**. Not on npm. Do not copy
 AI_GATEWAY how-to (`notes.md` §61).
+**Hot-click CU on an indexed viewport (Empirical as README
++ n=3 medians; 2026-09-19 ~00:39):**
+[ego-jev](https://github.com/jiangkoumo/ego-jev) — drive
+ego-lite with Jev. Indexed element table in; one request
+answers operation **and** per-op target (speculative,
+compatible-only heads). Code owns observe / execute /
+stale-ref / loop / `--until` exit. Text model only when
+typing is needed; malformed fill → `text_model_failed`,
+never guess. Jev `done` ≠ business success. Measured
+*theirs*: HN **4.9 s vs 9.7 s**, wiki **5.4 s vs 10.1 s**
+(~2× vs per-step `kimi-k3`; n=3; high variance; not a
+benchmark). Cousin of jev-ultrafast. Distinct from JevOnly
+/ waymode / Stagehand. Do not copy `install.sh`
+(`notes.md` §65).
 **Score-among-observed atlas (Empirical as public showcase class
 pattern, 2026-09-19 ~00:38):**
 [jevable.com](https://jevable.com/) — candidates already on the
@@ -397,6 +429,19 @@ rerank+Spark $0.00421838 / 228.14 s vs Spark full-context $0.0032
 / **10.60 s**. ≥70% cost and 72% latency cut vs Spark *rerank*,
 not vs no-RAG. Costs include embeddings. License null this pass.
 Do not invent a bake-off (`notes.md` §58).
+**Local rules first, then remainder Nouls; never auto-train
+on the model's own hides (Empirical as README + small e2e;
+2026-09-19 ~00:39):**
+[x-reply-filter](https://github.com/zhuyansen/x-reply-filter)
+— Chrome MV3. `rules.js` proves easy junk (zero cost);
+batched Jev four Nouls on the rest (promo / bait /
+off-topic / AI filler; default ≥0.75 collapses, does not
+delete). Auto-hides sit in a confirm queue; only
+user-confirmed examples become few-shot (10/10) plus a
+"same class as marked junk" Noul. E2E *theirs*: three
+samples → 0.90 / 0.93 vs 0.08 / 0.10. Cousin of
+bohutang/sift (§62 MED). Cheap hold-before-show cookbook.
+Do not copy wrangler (`notes.md` §65).
 **Test**: moderation
 cost/coverage + false-hold vs false-publish; ranking recall *separate*
 from nDCG; select misroute rate; required-evidence recall vs Top-K.
@@ -721,6 +766,13 @@ p ≥ 0.7; 8 steps. Evidence 24/26 and 34/36 *theirs* —
 bounded development evidence, not a self-driving proof. Jev
 selects the field; it does not generate fill text. Not on
 npm. Do not copy AI_GATEWAY (`notes.md` §61).
+**Hot-click cousin (not closed-vote; same observe→score→act
+hole; 2026-09-19 ~00:39):**
+[ego-jev](https://github.com/jiangkoumo/ego-jev) — indexed
+viewport table; Jev picks operation+target; code owns the
+loop; optional text model only for type. `--until` in code
+beats Jev `done`. n=3 medians ~2×, not a bench. Distinct
+from this card's no-planner extreme (`notes.md` §65).
 **Counterexample**: Stagehand extract `"pick"` with LLM
 fallback sold as "no LLM" — pick is a fast path, not this
 card. **Test**: every typed character exists in goal, facts,

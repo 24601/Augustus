@@ -222,6 +222,9 @@ not a global virtue:
 | Endorse a question pack | **Fail closed** until recorded evidence (`jev-packs`) | No numbers, no `verified`. Pin model version. Abstention/`unknown` mandatory. Runner named, not shipped this pass |
 | Authorize a proposed tool call | **Fail closed** on a deterministic security failure (`actiongate-jev`) | Jev supplies evidence; code owns authority. Positive score never overrides RBAC/schema/limit. Financial/destructive/credential fail closed if Jev is down |
 | Auto-act on a raw decision-model p | **Fail closed** until domain recalibration (`does-jev-confidence` / `jevcal`) | Ranking ≠ calibration. Vendor "calibrated" often means rank-correlation. Stated ~75% vs human ~10% *theirs* |
+| Compact a long agent history (middleware) | **Fail open** to uncompacted history if Jev is down (`jev-compactor`); **fail closed** on pending destructive/exfil | Dual polarity in one product. Regex floor always local. Contrast gliner25-compaction fail-closed `keep_full`. Never rewrite kept bytes |
+| Click / type from an indexed viewport | **Fail closed** to code-owned `--until` / stuck / no-guess fill (`ego-jev`) | Jev `done` is not business success. Malformed text-model JSON does not guess a value. Stale refs aborted |
+| Collapse a social reply | **Fail open** as hide-not-delete (`x-reply-filter`); local rules first | Auto-hides are not training labels until a human confirms. Never self-reinforce on the model's own negatives |
 | Drop a meaning-grep line | **Fail open** as ranking (`jev-semgrep`); keyword still wins exact strings | AND/OR/NOT over line Nouls. Japanese meanings noisier near threshold |
 
 Worked placements (2026-09-18 topic:jev hour + prior archive):
@@ -513,10 +516,10 @@ decision-design card. Do not clone APIs from READMEs.
 
 | Placement | Judgment | Stays in code | Artifact |
 |---|---|---|---|
-| Hold-before-publish moderation | Hazard Nouls + harm Score | Block/review/pass policy | Near Here / firehose family |
+| Hold-before-publish moderation | Hazard Nouls + harm Score | Block/review/pass policy | Near Here / firehose family; **x-reply-filter** (local rules first; never auto-train on own hides) |
 | Tool / engine / skill select | Choice + fits-Noul | Dispatch, auth, reject-all | skillranker, LlamaIndex selectors, Toolrouter |
 | Preference lint | Per-rule Score/Noul on a diff | Rule text, linter for hard rules, bands + fail-open | jev-pref (contract), Abide (productized), JevLint; if-ai (plain-English PR check, fail-closed on error); jev-marshal (Watch / empty repo) |
-| Context / log prune | Per-line or per-block relevance; or a retention Choice + spans; or a Noul per stdout chunk | Always-keep set, recall keys; mutation envelope in code; shadow before replace; size/format envelope then Noul; archive dropped spans | jevprune, winnow; fast-jev-compaction / pi-jev-compaction / fast-jev-compaction-pi (Jev session; pi host port); gliner25-compaction (GLiNER2.5 session); jev-pruner (Jev Bash stdout) |
+| Context / log prune | Per-line or per-block relevance; or a retention Choice + spans; or a Noul per stdout chunk | Always-keep set, recall keys; mutation envelope in code; shadow before replace; size/format envelope then Noul; archive dropped spans | jevprune, winnow; fast-jev-compaction / pi-jev-compaction / fast-jev-compaction-pi (Jev session; pi host port); gliner25-compaction (GLiNER2.5 session); jev-pruner (Jev Bash stdout); **jev-compactor** (framework-agnostic middleware + regex floor + Foreman; fail-open if Jev down) |
 | Exact hunk staging | Per-hunk include/exclude/mixed | `git diff`, atomic apply | git-jev-stage |
 | Semantic `WHERE` | Noul/`jev_prob` over a row | SQL, indexes, LIMIT | jevql (CLI; DB sees ordinary SQL); sqlite-jev (in-engine extension) |
 | Formula / query embedding | JUDGE as a function | Spreadsheet/SQL engine | judge-sheets, jevql, sqlite-jev |
@@ -533,7 +536,7 @@ decision-design card. Do not clone APIs from READMEs.
 | Decision-as-business-tool | Named judgment; gate is part of the result | Registry, arithmetic, hard guards | jev-decision-layer (unofficial) |
 | NL cases → checked e2e | Jev selects observed controls | Playwright expectations; PASS/FAIL/BLOCKED | jev-e2e (alpha) |
 | Extractive quotes / pointer evidence | Per-sentence, per-line-id, or char-offset Noul/Choice | Verbatim join; place; `redecide` / CSV; model never writes the excerpt | testimonial-miner; jev-reviewer; gliner25-compaction |
-| Structured observe → decide → act | Score / Choice among numbered a11y/DOM controls | Guard check; deny-list absence; no screenshots; no generated selectors; TYPE is the only generation; `DONE` ≠ verified success | solari-reflex (Jev); jev-ultrafast (Jev); gliner2-ultrafast (GLiNER2); laya-mind2web (Laya, DOM indices); cua-s1 (option-attention fill/check/click/skip; not TypeSafe Jev; source-only); Stagehand experimental Jev (harness; draft #2951–#2955) |
+| Structured observe → decide → act | Score / Choice among numbered a11y/DOM controls | Guard check; deny-list absence; no screenshots; no generated selectors; TYPE is the only generation; `DONE` ≠ verified success | solari-reflex (Jev); jev-ultrafast (Jev); gliner2-ultrafast (GLiNER2); laya-mind2web (Laya, DOM indices); cua-s1 (option-attention fill/check/click/skip; not TypeSafe Jev; source-only); Stagehand experimental Jev (harness; draft #2951–#2955); **ego-jev** (ego-lite indexed table; operation+target; `--until` in code) |
 | Harness pick-and-copy extract | Choice among a11y candidates; completion Noul | Schema plan + validation gate in code; screenshot always LLM; LLM fallback; pick ≠ replacement | Stagehand #2955 (`off`/`judge`/`pick`; 37/75 no-LLM ~0.5s vs 4.37s *their* card) |
 | Specialist form S1 (plan ≠ execute) | Option-attention among observed elements | Dry-run default; snapshot-bound tokens; reobserve; submit opt-in; fail-closed checkbox/fill | cua-s1 (`cua-s1-form-v0` profile; no weights this pass) |
 | Hybrid local decide + remote fill | Local encoder scores observed controls | Code owns actuators; remote OpenAI-compat helper writes field text only | gliner2-ultrafast (GLiNER2 local + Mercury 2.5 default) |
@@ -601,6 +604,9 @@ decision-design card. Do not clone APIs from READMEs.
 | Evidence-gated question pack | accuracy / ECE / cost / latency on a pinned version | Pack is `provisional` until evidence.md; `unknown` mandatory | jev-packs (CC0; nine verified *theirs*; jevassert 404 this pass — runner not released) |
 | Runtime authorize (evidence ≠ authority) | Six narrow semantic Nouls | RBAC/schema/limits in code; positive p never overrides a hard fail | actiongate-jev (Apache-2.0; slogan: Jev supplies evidence, code owns authority; 500-case is label-baseline, not accuracy) |
 | Ranking ≠ calibration | AUC vs ECE/Brier vs human rates | Recalibrate on labelled domain data; do not threshold raw p | does-jev-confidence (8,000 judgments; stated ~75% vs human ~10%; ~96% ECE removed) + jevcal (~100 rows) |
+| Hot-click CU (indexed viewport) | operation + per-op target in one request | Code owns observe/execute/stale-ref/loop/`--until`; text model only for type; never guess fill | ego-jev (MIT; HN 4.9s vs 9.7s / wiki 5.4s vs 10.1s *theirs* n=3; not a bench). Cousin of jev-ultrafast |
+| Framework-agnostic compact + gate | keep/drop per message + Foreman Nouls | Pins/dedup/regex floor in code; never rewrite; compaction fail-open if Jev down; safety fail-closed | jev-compactor (MIT; 64.5% / 366ms / $0.0004 / 0 hallucinated / 4 of 4 *theirs*, one session). Claude Code: fast-jev-compaction; OpenCode: fast-jev-opencode |
+| Local-rules-then-remainder feed | four remainder Nouls after `rules.js` | Collapse not delete; auto-hides need human confirm before they become examples | x-reply-filter (MIT; 3-sample e2e 0.90/0.93 vs 0.08/0.10). Cousin of bohutang/sift |
 
 On-device / Home Assistant / mobile are newly-feasible via the economics
 inversion, not proven ports of every app. Named placements this hour

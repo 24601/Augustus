@@ -180,6 +180,13 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   → Jev **before** the main agent reads; uncertain/errors/truncation
   ≠ irrelevant. Transport tests ≠ accuracy. No LICENSE this pass
   (`notes.md` §56). Do not copy plugin how-to.
+  Framework-agnostic compact+gate cousin
+  (2026-09-19 ~00:39; was empty skip §61):
+  [jev-compactor](https://github.com/edwardyen724-g/jev-compactor)
+  — Jev judges relevance; code decides structure; never rewrite;
+  regex floor independent of Jev. Compaction fail-open if Jev
+  down; safety fail-closed on pending destructive. OpenCode
+  fail-open port already §62: fast-jev-opencode (`notes.md` §65).
 
 ## Non-negotiable boundaries
 
