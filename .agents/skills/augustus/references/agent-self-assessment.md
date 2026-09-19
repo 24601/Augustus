@@ -51,6 +51,17 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    policy first; Jev remainder; receipts + replay; missing
    Jev → Review. Experimental alpha. Same doctrine as
    actiongate (`notes.md` §66).
+   **Never-confidently-wrong consensus (2026-09-19
+   ~02:38):**
+   [jev-labs](https://github.com/copyleftdev/jev-labs)
+   — TLA+ protocol; Jev oracle; escalate when unstable.
+   1,080 golden 0 wrong *theirs*; not a proof of zero
+   (`notes.md` §67).
+   **Advance/coverage (2026-09-19 ~02:38):**
+   [seal](https://github.com/Reasonofmoon/seal)
+   — generation fills Candidates; only a Seal advances;
+   coverage.path visible; mint ≠ product brain
+   (`notes.md` §67).
    **Email / ticket leftover cascade (2026-09-18 ~20:43):**
    [jav-email-cascade](https://github.com/skiingfalcon/jav-email-cascade)
    — typed decide, policy auto/review/llm, generator only on

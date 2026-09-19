@@ -191,7 +191,16 @@ Nouls). Vote is majority or mean; confidence discounted
 by agreement. No measurements. GitHub SPDX null; package
 MIT. **Hunch:** System One as a control plane, not chat
 turns. Compose with skillranker. Do not copy npm
-(`notes.md` §66). **Counterexample**: decomposing tool-trace
+(`notes.md` §66). **TLA+ consensus circuit (Empirical as
+spec + chaos table; 2026-09-19 ~02:38):**
+[jev-labs](https://github.com/copyleftdev/jev-labs)
+— five paraphrased agents; stability gate; quorum 3 of 5
+stable votes; escalate when budget spent. Code/TLA+ own
+transitions (`Consulting → Decided | Escalated`). The
+model never is the constraint. 1,080 golden: 0 wrong
+*theirs*; underdetermined records still decided 34/120
+split both ways (stability ≠ answerability). MIT.
+`notes.md` §67. **Counterexample**: decomposing tool-trace
 verification into per-call schema nouls works; asking "is the trace correct"
 as one Noul hides nine judgments. **Test**: full truth table / transition
 cases incl. contradictory outputs, stale observations, invalid combos.
@@ -591,6 +600,18 @@ Do not threshold the TypeSafe `confidence` field (worse
 than max-p here). Complements does-jev-confidence
 (in-domain humans) and dinostomp (instrument).
 Gateway exposes no model version. `notes.md` §66.
+**Sureness over the vector (Empirical as 60-q reverse-
+engineer + library; 2026-09-19 ~02:38):**
+[how-sure-is-jev](https://github.com/adarc8/how-sure-is-jev)
+— max_prob / margin / entropy / gini / perplexity (plus
+Score `spread` and Kass–Raftery `log_odds`) → one
+`[0,1]` consensus and bands CERTAIN | CONFIDENT |
+LEANING | TORN | CLUELESS. Choice `confidence ==
+max_prob` to 3 decimals *theirs*; max_prob is the
+**most generous** metric (75/25 → 0.5 vs entropy 0.19).
+Thresholds are opinions. Pair with this OOD card: do not
+threshold TypeSafe `confidence`. Zero-dep MIT.
+`notes.md` §67.
 
 ## 8. Control structure → sensor ≠ constraint (Leveson)
 
@@ -675,6 +696,23 @@ same doctrine (policy first; Jev remainder; evidence ≠
 authority) with receipts and **threshold replay**. Missing
 Jev → Review, not a silent allow. Starting 0.85/0.35 are
 not calibrated. Experimental alpha. `notes.md` §66.
+**Advance gate / coverage ledger (Empirical as README +
+BEYOND-JEV.md; 2026-09-19 ~02:38):**
+[seal](https://github.com/Reasonofmoon/seal)
+— sensor (Strike / Jev / code) ≠ constraint (Seal +
+coverage.path). Exception queue must be visible. Mint ≠
+product brain. Effects locked while escalations open.
+`notes.md` §67.
+**Never confidently wrong (Empirical as TLA+ + chaos
+table):** [jev-labs](https://github.com/copyleftdev/jev-labs)
+— the constraint is "may escalate; must not return a
+confident wrong." Hard-gating without that path is
+soundness theater's inverse. Synthetic pharmacy, not
+clinical. `notes.md` §67.
+**Skill-broker sibling (Hypothesis / outline; delta
+§67):** grants stay in code beside turnstile (runtime)
+and skillranker (advisory). Same doctrine, different
+hole. `notes.md` §62, §67.
 
 ## 9. Search / control loops → one substituted classifier step
 

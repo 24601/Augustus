@@ -1593,3 +1593,43 @@ bake-off; (ey) turnstile evidence≠authority + replay;
 (ez) MLX one-pass replica economics.
 
 
+## Batch #51 (2026-09-19 ~08:45 UTC / ~02:38 Boise) — TLA+ compose, SEAL coverage ledger, skill-broker sibling, sureness, JevBench v1.1, CI typed gate, Codex MCP
+
+Note: `research/notes.md` §67. Docs-only. Folded into PR #2.
+Archer still Watch. No invented metrics. Do not re-fold §66
+HIGH except sibling contrast. skill-broker outline already
+§62. Hunches labeled.
+
+- **copyleftdev/jev-labs (Empirical as TLA+ + 1,080 golden
+  chaos table).** Python MIT. Created 2026-09-19T08:07:12Z;
+  0★. Never confidently wrong. 0 wrong golden; severe 46
+  escalate. TLC 1,049,750 / 0 errors. Synthetic, not
+  clinical.
+- **Reasonofmoon/seal (Empirical as README + BEYOND-JEV.md).**
+  Python MIT. Created 2026-09-19T08:10:05Z; 0★. No seal, no
+  advance. coverage.path auto|code|human|escalate. Mint ≠
+  product brain.
+- **adamjralph/skill-broker (delta: sibling table).** Still
+  outline; README restates grants-in-code. Contrast
+  turnstile / skillranker.
+- **adarc8/how-sure-is-jev (Empirical as 60-q library).**
+  Python MIT. Choice confidence = max_prob. Most generous
+  metric.
+- **fstandhartinger/jevbench (Empirical as v1.1 artifact).**
+  Python MIT. Unofficial. Main Score 0.6/0.2/0.2. Jev
+  1.13.0 87.6. Calibration not scored.
+- **NemanjaManic/ci-gatekeeper-bot-jev (Empirical as
+  own-repo latencies).** package.json MIT / GitHub SPDX
+  null. 504–629 ms. Conservative default.
+- **teempai/jev-in-codex (Empirical as README).** TypeScript
+  MIT. Codex MCP. Ranking unbenchmarked. Lexical fallback.
+
+Census this hour (user-provided): Awesomejev 488/21644;
+SemIf 1683 (+11); jevlike 923 (+5); tracker likes 43 (+1).
+Archer still NOT landed. X MCP flap continues.
+
+Cross-repo addition: (fa) never confidently wrong / TLA+
+compose; (fb) no seal no advance / coverage ledger;
+(fc) sureness / max_prob is generous; (fd) JevBench
+calibration not in Main Score; (fe) CI typed gate before
+expensive review; (ff) Codex MCP host adapter.

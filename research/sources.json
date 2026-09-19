@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T07:55Z",
+  "retrieved": "2026-09-19T08:50Z",
   "sources": [
     {
       "kind": "docs",
@@ -2221,6 +2221,48 @@
       "title": "shubhangi013/prune-review",
       "url": "https://github.com/shubhangi013/prune-review",
       "note": "TypeScript; README Apache-2.0 / GitHub NOASSERTION. Created 2026-09-19T07:48:06Z; 0 stars. 22-run cost 1.18% with 305% outlier. Cost not quality. MED. notes.md \u00a766."
+    },
+    {
+      "kind": "github",
+      "title": "copyleftdev/jev-labs",
+      "url": "https://github.com/copyleftdev/jev-labs",
+      "note": "Python MIT. Created 2026-09-19T08:07:12Z; 0 stars; size 0. TLA+ consensus kernel around live Jev. Never confidently wrong. 1080 golden 0 wrong under chaos *theirs*. Synthetic not clinical. notes.md \u00a767."
+    },
+    {
+      "kind": "github",
+      "title": "Reasonofmoon/seal",
+      "url": "https://github.com/Reasonofmoon/seal",
+      "note": "Python MIT. Created 2026-09-19T08:10:05Z; 0 stars; size 0. No seal, no advance. coverage.path auto|code|human|escalate. Mint != product brain. notes.md \u00a767."
+    },
+    {
+      "kind": "docs",
+      "title": "Reasonofmoon/seal BEYOND-JEV.md",
+      "url": "https://github.com/Reasonofmoon/seal/blob/main/docs/BEYOND-JEV.md",
+      "note": "Jev answers questions; SEAL answers whether the world may change. Coverage ledger. notes.md \u00a767."
+    },
+    {
+      "kind": "github",
+      "title": "adarc8/how-sure-is-jev",
+      "url": "https://github.com/adarc8/how-sure-is-jev",
+      "note": "Python MIT. Created 2026-09-19T08:00:28Z; 0 stars; size 0. Zero-dep sureness. Choice confidence = max_prob on 60 answers. notes.md \u00a767."
+    },
+    {
+      "kind": "github",
+      "title": "fstandhartinger/jevbench",
+      "url": "https://github.com/fstandhartinger/jevbench",
+      "note": "Python MIT. Created 2026-09-19T07:07:36Z; 0 stars. JevBench v1.1 unofficial. Main Score 0.6/0.2/0.2. Jev 1.13.0 87.6. Calibration reported not scored. notes.md \u00a767."
+    },
+    {
+      "kind": "github",
+      "title": "NemanjaManic/ci-gatekeeper-bot-jev",
+      "url": "https://github.com/NemanjaManic/ci-gatekeeper-bot-jev",
+      "note": "TypeScript/Shell. package.json MIT / GitHub SPDX null. Created 2026-09-19T06:25:48Z; 0 stars. Four typed questions before expensive review. 504-629 ms *theirs*. notes.md \u00a767."
+    },
+    {
+      "kind": "github",
+      "title": "teempai/jev-in-codex",
+      "url": "https://github.com/teempai/jev-in-codex",
+      "note": "TypeScript MIT. Created 2026-09-19T08:32:15Z; 0 stars; size 0. Codex MCP adapter. Ranking unbenchmarked. Lexical fallback. notes.md \u00a767."
     }
   ]
 }

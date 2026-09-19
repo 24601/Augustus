@@ -535,6 +535,10 @@ Use these as *existence proofs of a position*. Write your own card.
 | Hot-click CU | next click / type from a viewport | Indexed element table → operation+target (**Empirical**: ego-jev; ~2× vs per-step LLM, n=3, not a bench) | Code owns observe/execute/`--until`; generator only for type; Jev `done` ≠ success |
 | Compact without paraphrasing | drop irrelevant history, keep bytes | Keep/drop per message; pins + regex floor in code (**Empirical**: jev-compactor 64.5%/366ms/0 invented paths, one session) | Never rewrite; compaction fail-open if Jev down; safety fail-closed; Claude Code uses fast-jev-compaction |
 | Hold-before-show social | collapse junk replies | Local rules prove easy junk; remainder Nouls (**Empirical**: x-reply-filter) | Collapse not delete; never auto-train on the model's own hides |
+| Never confidently wrong | protocol verdict under noisy evidence | TLA+ quorum + stability; Jev is the oracle (**Empirical**: jev-labs 1,080 golden 0 wrong *theirs*; escalate 5%→18% under severe) | Escalate is allowed; not a proof of zero; synthetic ≠ clinical |
+| Advance / coverage | whether the world may change | Seal + coverage.path ledger (**Empirical as README**: seal; Jev answers questions, SEAL answers advance) | Exception queue visible; mint ≠ product brain; code seals first |
+| Sureness of a distribution | act / escalate / abstain | max_prob/margin/entropy/gini (**Empirical**: how-sure-is-jev; Choice confidence = max_prob) | Bands are policy; pair with OOD; max_prob is generous |
+| Cheap review triage | auto-approve / human-review / block | Four typed questions before expensive review (**Empirical**: ci-gatekeeper 504–629 ms *theirs*) | Operator owns thresholds; distinct from latch flaky-vs-real |
 
 Rejected in every domain: replacing the ledger with a vibe; replacing
 the interlock with confidence; replacing the essay with a Noul;

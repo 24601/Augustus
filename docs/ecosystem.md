@@ -320,6 +320,18 @@ Architecture notes, not an npm / cargo / pip / bun catalog. `notes.md` §66. Typ
 - **bnsd55/jevmlx** — MIT; **28★**. MLX one-pass schema→JSON+probs. Softmax ≠ Noul. No local leaderboard yet. Distinct from system-one-benchmark Harbor table.
 - MED: **chopratejas/invalidate** (Apache-2.0; 5★; 157 cases 89.2%/97.5%/0 false invalidations; memory leases); **yottayoshida/jev-intent-review** (under construction; empty search ≠ proof); **shubhangi013/prune-review** (source preview; 22-run cost 1.18% with 305% outlier).
 
+### Hourly ~02:38 Boise 2026-09-19 / 08:38 UTC (TLA+ compose, SEAL coverage ledger, skill-broker sibling, sureness, JevBench v1.1, CI typed gate, Codex MCP)
+
+Architecture notes, not a cargo / pip / npm / action.yml catalog. `notes.md` §67. TypeSafe Jev is the exemplar, not the monopoly. Archer still Watch. No invented metrics. Do not re-fold the 01:47 list except sibling contrast. Hunches labeled.
+
+- **copyleftdev/jev-labs** — Python MIT. TLA+ consensus kernel around live Jev. **Never confidently wrong.** 1,080 golden: 0 wrong under none/realistic/severe *theirs* (severe 314 correct / 46 escalate). Rule of three <0.28% — not a proof of zero. TLC 1,049,750 states / 0 errors. Synthetic pharmacy, not clinical. Inverse of soundness theater: escalate instead of hard-gate.
+- **Reasonofmoon/seal** — Python MIT. **No seal, no advance.** Jev answers questions; SEAL answers whether the world may change. coverage.path ∈ {auto|code|human|escalate} visible. Mint ≠ product brain. Zero runtime deps.
+- **adamjralph/skill-broker** — outline already §62. Sibling this hour: grants in code vs turnstile runtime authorize vs skillranker advisory VOI. Still not a production recipe. Language/license null.
+- **adarc8/how-sure-is-jev** — Python MIT; zero-dep. max_prob/margin/entropy/gini/perplexity → CERTAIN|…|CLUELESS. Choice confidence = max_prob (most generous). Pair with ood-calibration.
+- **fstandhartinger/jevbench** — Python MIT; unofficial. v1.1 Capability/Speed/Cost → Main Score. Jev 1.13.0 **87.6** *theirs*. Calibration **reported, not scored**. Native vs verbalized. Partial runs not ranked. Harbor/jevals practice, not a vendor eval.
+- **NemanjaManic/ci-gatekeeper-bot-jev** — package.json MIT / GitHub SPDX null. Four typed questions → auto-approve|human-review|block before expensive review. Own-repo Jev **504–629 ms**. Conservative default escalated trivial diffs. Cousin of latch, not flaky-vs-real.
+- **teempai/jev-in-codex** — TypeScript MIT. Codex MCP: jev_select_capability / jev_search / jev_triage. Ranking unbenchmarked. Lexical fallback. Distinct from jev-routing (not MCP).
+
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs
 Apalache; DST trio Antithesis / Resonate HQ / PufferLib):

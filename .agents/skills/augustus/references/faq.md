@@ -830,6 +830,19 @@ stated p 0.74). In-domain OpenBookQA looks almost honest
 (ECE 0.024). Do not threshold the TypeSafe `confidence`
 field. Complements does-jev-confidence. `notes.md` §66.
 
+## Can I gate on Jev `confidence` alone?
+
+Usually that is the **rosiest** reading of the vector.
+[how-sure-is-jev](https://github.com/adarc8/how-sure-is-jev):
+Choice `confidence` **is** rescaled max-prob
+(`(p_max − 1/n) / (1 − 1/n)`), to 3 decimals on 60 live
+answers *theirs*. A 2-option 75/25 is Jev **0.5** and
+entropy **0.19**. Use margin / entropy / gini as named
+features; bands CERTAIN|…|CLUELESS are **policy**. Pair
+with OOD (do not threshold `confidence`) and
+does-jev-confidence (ranking ≠ calibration). Zero-dep.
+`notes.md` §67.
+
 ## Are combinators a new judgment model?
 
 No. They are **control-plane primitives** over typed
@@ -840,6 +853,37 @@ parallel Nouls still lives in code (do not multiply).
 Compose with [skillranker](https://github.com/Dicklesworthstone/skillranker)
 (VOI over a skill library; abstention; hook fail-open).
 Not chat turns. `composition-algebra.md`; `notes.md` §66.
+
+## Does TLA+ replace Jev, or the reverse?
+
+Neither. [jev-labs](https://github.com/copyleftdev/jev-labs)
+puts TLA+ on the **protocol** (quorum, stability, crash)
+and Jev on the **oracle**. The invariant is never
+confidently wrong: escalate is allowed. 1,080 golden
+rounds 0 wrong *theirs* bounds the violation rate below
+0.28% (rule of three) — it does **not** prove zero.
+Hard-gating a soft judgment without an escalation path
+is soundness theater's inverse. Synthetic pharmacy, not
+clinical. `formal-methods.md`; `notes.md` §67.
+
+## Does a typed answer unlock the next step?
+
+No. [seal](https://github.com/Reasonofmoon/seal): **Jev
+answers questions; SEAL answers whether the world may
+change.** Coverage.path ∈ {auto|code|human|escalate}
+must be visible. Mint ≠ product brain. Generation fills
+Candidates; only a Seal advances. `notes.md` §67.
+
+## Is JevBench a TypeSafe leaderboard?
+
+No. [jevbench](https://github.com/fstandhartinger/jevbench)
+is Benchmark Heaven's unofficial v1.1 bake-off.
+Calibration is **reported, not scored**. Native vs
+verbalized are labelled. Partial runs are not ranked.
+Main Score = 0.6 Capability + 0.2 Speed + 0.2 Cost
+*theirs* (Jev 1.13.0 **87.6**). Contrast atlas
+(receipts, not a ranking). Harbor/jevals practice, not
+a vendor eval. `validation.md`; `notes.md` §67.
 
 ## Is Jev weaker than a 4B model?
 
@@ -1129,5 +1173,8 @@ the adapter revision he cites, is then ordinary arithmetic: how far the
 leading probability sits above a uniform `1/K`. It is not a second learned
 estimate that the answer is correct. A peaked distribution can be
 confidently wrong. Threshold a p you have checked on your labels.
+Independent receipt: [how-sure-is-jev](https://github.com/adarc8/how-sure-is-jev)
+found Choice `confidence == max_prob` to 3 decimals on 60
+answers — the most generous metric in their table.
 [Essay](https://archerhume.com/posts/jevs-architecture-unmasked/),
-`notes.md` §31, `mental-models.md` calibration.
+`notes.md` §31, §67, `mental-models.md` calibration.

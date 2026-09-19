@@ -325,6 +325,21 @@ regressions (`pallets/click`: 13 failures → 10 clusters). Pair with
 Harbor (frozen CI artifacts × PASS/BLOCK) and rh-guard
 (eval-integrity). Their policy thresholds are not class constants
 (`notes.md` §51). Do not copy the reporter.
+**Pre-review typed gate (Empirical as README + own-repo
+latencies; 2026-09-19 ~02:38):**
+[ci-gatekeeper-bot-jev](https://github.com/NemanjaManic/ci-gatekeeper-bot-jev)
+— four questions (`should_review` / `risk` / `route` /
+`touches_secrets`) → `auto-approve | human-review | block`
+*before* expensive LLM/human review. Operator-owned
+thresholds; conservative default (`cosmetic`) escalated
+trivial diffs to human-review in practice. Measured
+*theirs*: Jev **504–629 ms**; secondary review ~4–5 s
+only on human-review + elevated risk. Comment never
+includes raw diff. `package.json` MIT / GitHub SPDX
+**null**. Cousin of latch (that one is flaky-vs-real on a
+*finished* red run). Distinct from egma attention ≠
+correctness. Do not copy `action.yml` / secrets
+(`notes.md` §67).
 **Counterexample**: sampling 2% of production with an LLM judge —
 the economics inversion is the point. **Test**: planted harness bugs
 recovered; false-flag rate on known-clean runs; LLM never runs on the
@@ -544,6 +559,29 @@ foundation-only; never broaden access. Replayable route
 evidence. Distinct from jev-hermes (route ≠ memory) and
 from shipped routers on this card. Language/license null
 this pass. Do not copy an install (`notes.md` §62).
+**Sibling contrast this hour (delta, not a re-fold;
+2026-09-19 ~02:38):** README now restates the outline;
+still project-definition (`docs/adr` appeared; no
+runtime). Same evidence≠authority doctrine as
+[turnstile](https://github.com/zyphr-labs/turnstile)
+(runtime authorize after policy; missing Jev → Review)
+and opposite polarity from
+[skillranker](https://github.com/Dicklesworthstone/skillranker)
+(advisory VOI; hook fail-open). skill-broker **grants**
+live in code. `notes.md` §67.
+**Codex MCP host adapter (Empirical as README
+architecture; ranking unbenchmarked; 2026-09-19
+~02:38):**
+[jev-in-codex](https://github.com/teempai/jev-in-codex)
+— `jev_select_capability` / `jev_search` / `jev_triage`.
+Caller supplies the catalog; server never executes
+capabilities or sees Codex internals. Independent Nouls,
+batched four; rec ≥ 0.5 is a **provisional heuristic**.
+Absent key / errors → **lexical fallback** (local scores
+are not model probabilities). Experimental MVP; MIT.
+Distinct from jev-routing (Go host adapter, **not MCP**)
+and jev-sift (topology A classify-first). Do not copy
+npm / `config.toml` (`notes.md` §67).
 **Constrained optimizer + S1 features (Empirical as live
 analysis *shape*; 2026-09-18 ~23:40):**
 [slo-router](https://github.com/zeeshan8281/slo-router)
@@ -707,6 +745,28 @@ calibrated**. Experimental alpha; no npm; Claude adapter
 defaults observe + Jev off. Demo uses fixed judgments
 (enforcement, not accuracy). Same doctrine as actiongate;
 different product. Do not copy bun (`notes.md` §66).
+**Advance/coverage ledger (Empirical as README +
+BEYOND-JEV.md; 2026-09-19 ~02:38):**
+[seal](https://github.com/Reasonofmoon/seal)
+— **No seal, no advance.** Jev answers questions; SEAL
+answers whether the world may change and **shows the
+exception queue**. Every seal stamps `coverage.path` ∈
+`{auto | escalate | human | code}`. Mint ≠ product
+brain. Deterministic first (`provider: code:…`). Effects
+stay locked while escalations are open. MIT; zero runtime
+deps. Do not copy `scripts/demo.sh` (`notes.md` §67).
+**Never-confidently-wrong kernel (Empirical as TLA+ +
+1,080 golden chaos table; 2026-09-19 ~02:38):**
+[jev-labs](https://github.com/copyleftdev/jev-labs)
+— TLA+ owns the protocol (quorum 3 of 5; stability gate
+above identity noise floor 0.042; TLC 1,049,750 states /
+0 errors). Jev is the noisy oracle. Golden pharmacy
+rounds *theirs*: **0** wrong across none/realistic/severe
+(severe: 314 correct / 46 escalated). Escalate is
+allowed; a confident wrong is not. Synthetic, **not**
+clinical. Inverse of soundness theater: do not hard-gate
+a soft judgment without that path. Do not copy
+`verify.sh` (`notes.md` §67).
 **Counterexample**: post-decision "is this dangerous?" with AWS
 keys still in the prompt. **Test**: delete the sensor — the
 constraint and the closed action space still hold; a canary use

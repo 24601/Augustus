@@ -360,6 +360,10 @@ Rules:
 | OOD calibration / sign by type | [jev-ood-calibration](https://github.com/scienthoon/jev-ood-calibration) | 900 synthetic + 3,721 public; ~$0.06. Public OpenBookQA ECE 0.024 / T 0.96. Synthetic all ECE **0.107 = 4.4×** floor; priority 44.7% / mean p 0.74 / T **3.40**; boolean T **0.66**. MIT. Gateway has no model version |
 | Memory-lease invalidation | [invalidate](https://github.com/chopratejas/invalidate) | 157 labeled cases *theirs*: 89.2% strict / 97.5% lenient / **0 of 157** false invalidations. Six Nouls then code. Apache-2.0. MED |
 | Cost-aware PR prune (pilot) | [prune-review](https://github.com/shubhangi013/prune-review) | 22 paired runs: winning-only 27.9% (post hoc); all 22 incl. 305% outlier **1.18%**; excl. outlier 15.9%. Cost not quality. Source preview |
+| Never-confidently-wrong protocol (TLA+ + chaos) | [jev-labs](https://github.com/copyleftdev/jev-labs) | 1,080 golden: 0 wrong under none/realistic/severe *theirs* (severe 314/46 escalate). Rule of three <0.28% at 95% — not a proof of zero. TLC 1,049,750 states / 0 errors. 1,490 calls `jev-1.13.0`. Synthetic, not clinical. MIT |
+| Sureness metrics vs Jev `confidence` | [how-sure-is-jev](https://github.com/adarc8/how-sure-is-jev) | 60 live answers: Choice confidence = max_prob to 3 decimals. 75/25 → 0.5 vs entropy 0.19. Bands are policy. Zero-dep MIT |
+| Jev-class bake-off v1.1 | [jevbench](https://github.com/fstandhartinger/jevbench) | 314 decisions. Main Score 0.6/0.2/0.2. Jev 1.13.0 **87.6** / Cap 97.8 / $0.0259/1k *theirs*. Calibration **reported, not scored**. Native vs verbalized. Partial runs not ranked. Unofficial MIT |
+| Pre-review typed PR gate | [ci-gatekeeper-bot-jev](https://github.com/NemanjaManic/ci-gatekeeper-bot-jev) | Own-repo live Jev: 504–629 ms; secondary ~4–5 s only on human-review + elevated risk. Conservative default escalated trivial diffs. `package.json` MIT / GitHub SPDX null |
 
 rh-guard is a reward-hack hook, a different surface from jevgate and
 from Abide (eval-integrity vs allowlist-remainder vs project soft

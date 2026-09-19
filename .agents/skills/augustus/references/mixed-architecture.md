@@ -229,6 +229,11 @@ not a global virtue:
 | Authorize a proposed tool after policy permit | **Fail closed** on explicit deny; **Review** if Jev is missing (`turnstile`) | Jev never grants what policy denied. Replay thresholds on saved scores; starting 0.85/0.35 are not calibrated. Observe mode is not enforcement |
 | Endorse a capability claim / bake-off slogan | **Fail closed** until receipts (`jev-capability-atlas`); attach thinking budget (`jev-frontier-100`) | Not a leaderboard. Schema-valid ≠ correct. "Weaker than 4B" needs the thinking condition |
 | Threshold raw p on an unseen rule | **Fail closed** until type-specific recalibration (`jev-ood-calibration`) | AUC ≠ ECE. Choice/Score overconfident (T~3.3); boolean underconfident (T 0.66) on the same tickets. Unknowable policy labels still get mean p 0.74 |
+| Gate a vector on Jev `confidence` alone | **Fail closed** until you inspect entropy/margin (`how-sure-is-jev`) | Choice confidence = max_prob (most generous). 75/25 → 0.5 vs entropy 0.19. Bands are policy |
+| Advance a sealed effect | **Fail closed** until Seal + coverage (`seal`) | Jev answers questions; SEAL answers whether the world may change. Open escalations keep Effects locked |
+| Return a confident pharmacy/protocol verdict under chaos | **Fail closed** to escalate (`jev-labs`) | Never confidently wrong. 1,080 golden 0 wrong *theirs* is not a proof of zero. Stability ≠ answerability |
+| Auto-approve a PR from four typed questions | **Fail closed** to human-review unless operator bar says so (`ci-gatekeeper-bot-jev`) | Conservative default escalated trivial diffs. Distinct from latch (finished red run) |
+| Rank Codex capabilities / excerpts | **Fail open** to lexical overlap (`jev-in-codex`) | Ranking unbenchmarked. Rec ≥ 0.5 is a heuristic. Caller supplies the catalog |
 | Drop a meaning-grep line | **Fail open** as ranking (`jev-semgrep`); keyword still wins exact strings | AND/OR/NOT over line Nouls. Japanese meanings noisier near threshold |
 
 Worked placements (2026-09-18 topic:jev hour + prior archive):
@@ -530,7 +535,7 @@ decision-design card. Do not clone APIs from READMEs.
 | Formula / query embedding | JUDGE as a function | Spreadsheet/SQL engine | judge-sheets, jevql, sqlite-jev |
 | Soft ABR / live encoder | Choice over a ladder | Probe × headroom, thermal, battery | bitrate-advisor |
 | Voice → typed act | Choice/Noul on a transcript | ASR producer; macOS actions | jev-voice-control (README stub) |
-| Host-adapter routing | Choice next-tool + done-Noul | Shrink `tools[]`; compaction | jev-routing (not MCP) |
+| Host-adapter routing | Choice next-tool + done-Noul | Shrink `tools[]`; compaction | jev-routing (not MCP); **jev-in-codex** (Codex MCP; ranking unbenchmarked; lexical fallback) |
 | Multi-model route | Classify axes; policy maps | Escalation `if`, path regex | jev-claw, routeKit |
 | Finish-line gate | Noul/Score/Choice on evidence | Deterministic shell checks first | hermes-jev-north-star |
 | Home automation read | Choice/Score/Noul as an entity | Automations, device I/O | `AboveColin/HA-Jev` |
@@ -619,6 +624,12 @@ decision-design card. Do not clone APIs from READMEs.
 | OOD calibration / AUC ≠ ECE | ECE with noise floor; refit T by type | Calibrate per question; do not threshold `confidence` | jev-ood-calibration (MIT; 900 tickets; ECE 0.107 = 4.4× floor; priority 44.7% / mean p 0.74 / T 3.40) |
 | Replayable evidence≠authority gate | policy first; Jev remainder; allow/review/deny | Missing Jev → Review; hard denials stay hard on replay | turnstile (Apache-2.0; experimental alpha; no npm). Actiongate-class clone |
 | MLX one-pass schema→JSON | per-field probs in one forward pass | Softmax ≠ Noul; no local leaderboard yet | jevmlx (MIT; 28★; Apple Silicon replica economics). Distinct from system-one-benchmark Harbor table |
+| TLA+ consensus around a noisy oracle | five paraphrased votes; stability gate; quorum 3/5 | Escalate when unstable; TLA+ owns the protocol; never confidently wrong | jev-labs (MIT; 1,080 golden 0 wrong *theirs*; TLC 1,049,750 states / 0 errors; synthetic, not clinical) |
+| Advance / coverage ledger | Strike fills Candidates; Seal advances | coverage.path auto\|code\|human\|escalate visible; Effects locked while escalations open; mint ≠ product brain | seal (MIT; BEYOND-JEV.md; zero runtime deps) |
+| Sureness over a probability vector | max_prob / margin / entropy / gini / perplexity | Bands are policy; Choice confidence = max_prob (generous) | how-sure-is-jev (MIT; zero-dep; 60-q reverse-engineer) |
+| Scored Jev-class bake-off | Capability / Speed / Cost → Main Score | Calibration reported, **not scored**; native vs verbalized; partial runs not ranked | jevbench v1.1 (MIT; unofficial; Jev 1.13.0 Main 87.6 *theirs*) |
+| Pre-review typed PR gate | should_review / risk / route / touches_secrets | Operator-owned thresholds; secondary LLM only on human-review + elevated risk | ci-gatekeeper-bot-jev (`package.json` MIT / GitHub SPDX null; 504–629 ms *theirs*) |
+| Codex MCP host adapter | select_capability / search / triage Nouls | Caller supplies catalog; lexical fallback; scores advisory; ranking unbenchmarked | jev-in-codex (MIT; experimental MVP). Distinct from jev-routing (not MCP) |
 
 On-device / Home Assistant / mobile are newly-feasible via the economics
 inversion, not proven ports of every app. Named placements this hour

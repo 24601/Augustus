@@ -909,3 +909,24 @@
 - notes.md §66; sources.json (370 sources, 367 unique URLs,
   retrieved 2026-09-19T07:55Z); findings.md batch #50. No wrapper.
 
+## 2026-09-19 ~08:50 UTC — hourly ~02:38 Boise fold (§67)
+- Docs-only into PR #2. Archer still Watch. Live GitHub
+  READMEs + `gh api`. Hunches labeled. Do not re-fold §66
+  HIGH except sibling contrast.
+- HIGH: jev-labs (TLA+ compose; never confidently wrong;
+  1,080 golden 0 wrong *theirs*); seal (no seal, no
+  advance; coverage ledger; mint ≠ product brain);
+  skill-broker sibling delta (outline already §62);
+  how-sure-is-jev (Choice confidence = max_prob);
+  jevbench v1.1 (Main Score; calibration not scored);
+  ci-gatekeeper-bot-jev (pre-review typed gate);
+  jev-in-codex (Codex MCP; ranking unbenchmarked).
+- Census this hour: SemIf 1683 (+11); jevlike 923 (+5);
+  tracker likes 43 (+1); Awesomejev 488/21644 unchanged.
+- Cards: SKILL.md, applied-mappings §3/§5/§7, mappings
+  §3/§7/§8, mixed-architecture, validation, faq,
+  mental-models, methods-catalog, toolbox, composition-algebra,
+  agent-self-assessment, formal-methods, ecosystem, CHANGELOG,
+  README.
+- notes.md §67; sources.json (377 sources, 374 unique URLs,
+  retrieved 2026-09-19T08:50Z); findings.md batch #51. No wrapper.

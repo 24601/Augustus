@@ -45,6 +45,9 @@ mappings.md conventions.
   wiring, not a license to treat parallel Nouls as independent.
   The library analogizes them as logic gates; ∧/∨ aggregation
   still follows the rule above. `notes.md` §66.
+- **TLA+ kernel around votes** ([jev-labs](https://github.com/copyleftdev/jev-labs)):
+  aggregation (quorum, stability, escalate) is the spec,
+  not a multiplied joint of five Nouls. `notes.md` §67.
 
 ## Rules that hold across every position
 

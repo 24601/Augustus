@@ -545,6 +545,32 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   false invalidations), jev-intent-review (under construction),
   prune-review (22-run cost 1.18% with 305% outlier). Census not
   re-derived. No wrapper. No invented metrics.
+- Hourly ~02:38 Boise 2026-09-19 (`research/notes.md` §67): Archer
+  still Watch. Do not re-fold the 01:47 list except sibling
+  contrast. **TLA+ compose with judgment**
+  ([jev-labs](https://github.com/copyleftdev/jev-labs); MIT;
+  never confidently wrong; 1,080 golden 0 wrong *theirs* under
+  chaos, escalate 5%→18% severe; TLC 1,049,750 states / 0
+  errors; synthetic, not clinical). **Advance/coverage ledger**
+  ([seal](https://github.com/Reasonofmoon/seal); MIT; no seal,
+  no advance; coverage.path auto|code|human|escalate; mint ≠
+  product brain). **skill-broker sibling** (outline already
+  §62; grants in code vs turnstile runtime vs skillranker
+  advisory). **Sureness**
+  ([how-sure-is-jev](https://github.com/adarc8/how-sure-is-jev);
+  MIT; Choice confidence = max_prob; 75/25 → 0.5 vs entropy
+  0.19). **JevBench v1.1**
+  ([jevbench](https://github.com/fstandhartinger/jevbench);
+  MIT; unofficial; Main Score 0.6/0.2/0.2; Jev 1.13.0 **87.6**;
+  calibration reported not scored). **CI typed gate**
+  ([ci-gatekeeper-bot-jev](https://github.com/NemanjaManic/ci-gatekeeper-bot-jev);
+  package.json MIT / GitHub SPDX null; 504–629 ms *theirs*).
+  **Codex MCP adapter**
+  ([jev-in-codex](https://github.com/teempai/jev-in-codex);
+  MIT; ranking unbenchmarked; lexical fallback). Census:
+  SemIf **1683** (+11); jevlike **923** (+5); tracker likes
+  **43** (+1); Awesomejev 488/21644 unchanged. No wrapper. No
+  invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

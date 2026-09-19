@@ -367,6 +367,25 @@ Claiming a proof-shaped conclusion from a non-proof:
 - A local one-pass softmax sold as a Noul
   ([jevmlx](https://github.com/bnsd55/jevmlx): schema-valid ≠
   calibrated; `notes.md` §66).
+- A TLA+ run sold as "Jev is never wrong"
+  ([jev-labs](https://github.com/copyleftdev/jev-labs): the
+  invariant is never *confidently* wrong; escalate is
+  allowed; 0 of 1,080 golden is not a proof of zero;
+  synthetic, not clinical; `notes.md` §67).
+- A Main Score sold as calibration, or a partial run sold
+  as a rank
+  ([jevbench](https://github.com/fstandhartinger/jevbench):
+  Brier/ECE reported **not scored**; native ≠ verbalized;
+  `notes.md` §67).
+- A typed answer sold as permission to advance
+  ([seal](https://github.com/Reasonofmoon/seal): no seal, no
+  advance; coverage.path visible; mint ≠ product brain;
+  `notes.md` §67).
+- Jev `confidence` sold as the strictest reading of the
+  vector
+  ([how-sure-is-jev](https://github.com/adarc8/how-sure-is-jev):
+  Choice confidence = max_prob, the most generous metric;
+  `notes.md` §67).
 - "Type-safe" sold as "correct" ([interlock](https://github.com/somoore/interlock):
   irreversible stays behind a threshold **and** a human).
 
@@ -525,6 +544,22 @@ evidence. A positive score never overrides RBAC/schema/limit
 [turnstile](https://github.com/zyphr-labs/turnstile) —
 policy first; Jev remainder; receipts + replay; missing
 Jev → Review (`notes.md` §66).
+**TLA+ compose with a Jev-class oracle (Empirical as spec
++ chaos table; 2026-09-19 ~02:38):**
+[jev-labs](https://github.com/copyleftdev/jev-labs)
+— TLC owns the protocol invariant; Jev is the noisy
+sensor; **escalate** is the actuator when quorum is
+unstable. Inverse of sensor-as-constraint: the kernel
+**must not** return a confident wrong, and **may** hand
+off to a human. 1,080 golden 0 wrong *theirs*;
+underdetermined 34/120 still decided both ways.
+Synthetic, not clinical (`notes.md` §67).
+**Advance/coverage ledger (Empirical as README +
+BEYOND-JEV.md):**
+[seal](https://github.com/Reasonofmoon/seal)
+— Strike/Jev is the sensor; Seal + coverage.path is the
+constraint; Effects are the actuator. Exception queue
+visible. Mint ≠ product brain (`notes.md` §67).
 
 **Kent — Data and Reality.** Models are approximations; **naming is
 load-bearing**. Question text, Choice sets, and Score rubrics *are* the

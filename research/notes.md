@@ -7553,3 +7553,327 @@ axis; local one-pass ≠ Noul); `judgment-class.md` (jevmlx);
 `mental-models.md`; `methods-catalog.md`;
 `toolbox-mapping.md`; `agent-self-assessment.md`;
 `formal-methods.md`. Hunches labeled. No wrapper.
+
+## 67. Hourly 02:38 Boise: TLA+ compose with judgment (never confidently wrong), SEAL advance/coverage ledger, skill-broker sibling, sureness bands, JevBench v1.1 Harbor practice, CI typed gate, Codex MCP adapter (2026-09-19)
+
+America/Boise 02:38 = 2026-09-19T08:38Z. Docs-only fold into open
+PR #2 (`cursor/augustus-store-envelope-00b4`). Not a competing PR.
+Archer 27B drop still **WATCH**. Identity lock vs `typesafe-ai` /
+`tenbin` / `decision-first` holds. No wrapper, no cargo / pip /
+npm / action.yml / config.toml how-to. No invented metrics. Do
+**not** re-fold the 01:47 list (jevmlx, skillranker, atlas,
+frontier-100, decision-combinators, turnstile, ood-calibration)
+except one-line contrast. skill-broker existence already §62 —
+this hour is the **sibling** reading vs turnstile / skillranker,
+not a re-read of `PROJECT-OUTLINE.md`. TypeSafe Jev is the
+documented exemplar, not the monopoly. Augustus stays
+how-to-apply / mental model / architecture / toolbelt +
+jevals/Harbor practice — not SWE-only, not a thin Jev skill.
+
+Watch archive path `/workspace/jev-archive/2026-09-19/0238`
+is **not present** on this VM. Receipts this pass are live
+GitHub READMEs + `gh api` metadata (2026-09-19 ~08:45Z).
+Causes below are **hunches** unless labeled Empirical.
+
+Four clusters, not a hit list:
+
+- **(a) Formal/semi-formal compose with judgment.** TLA+-checked
+  consensus kernel around a live decision API; the invariant is
+  *never confidently wrong* (escalate is allowed). Inverse of
+  soundness theater: do not hard-gate a soft judgment without an
+  escalation path.
+- **(b) Advance/coverage ledger.** Jev answers questions; SEAL
+  answers whether the world may change. Coverage path
+  `{auto|code|human|escalate}` must be visible; mint ≠ product
+  brain.
+- **(c) Evidence ≠ authority siblings.** skill-broker (pre-agent
+  grants in code) sits beside turnstile (runtime authorize after
+  policy) and skillranker (advisory VOI rank). Same doctrine,
+  different holes.
+- **(d) Measurement practice without leaderboard theater.**
+  Sureness over probability vectors (pair with OOD); JevBench
+  v1.1 Harbor/jevals-shaped (calibration *reported, not scored*);
+  cheap typed CI gate before expensive review; Codex MCP host
+  adapter (ranking quality unbenchmarked).
+
+### HIGH
+
+1. **[`copyleftdev/jev-labs`](https://github.com/copyleftdev/jev-labs)**
+   (Python; **MIT** README and LICENSE / GitHub SPDX **MIT**;
+   created 2026-09-19T08:07:12Z; 0★; GitHub `size` 0 — tree is
+   live). TLA+-model-checked consensus kernel around the live
+   Jev API. Slogan: **Never confidently wrong.** Pharmacy
+   scenarios are **synthetic** (unambiguous answers so the
+   harness can detect protocol failures). Nothing here is
+   clinical guidance or formulary-validated. Claims are about
+   the **protocol under chaos**, not Jev's pharmaceutical
+   competence.
+
+   Golden rounds (pharmacist-without-hesitation cases), *theirs*:
+
+   | chaos | n | correct | escalated | wrong | acc 95% CI |
+   |---|---:|---:|---:|---:|---|
+   | none | 360 | 360 | 0 | **0** | [0.989, 1.000] |
+   | realistic | 360 | 360 | 0 | **0** | [0.989, 1.000] |
+   | severe | 360 | 314 | 46 | **0** | [0.834, 0.903] |
+
+   1,080 golden: **0** wrong. Rule of three: true violation rate
+   bounded below **0.28%** at 95% — **does not prove the rate is
+   zero**. Severe chaos raised escalation **5.0% → 18.0%**
+   (z = 6.83): the kernel declines more as evidence degrades
+   (designed direction). Total **1,680** rounds / 5,007 votes;
+   **0** rounds aborted after they stopped fail-fast on transport
+   (a lost agent is marked unavailable). Underdetermined-by-
+   construction record: Jev escalated 86 of 120 and **decided 34,
+   split both ways** — the stability gate is **not** an
+   answerability check.
+
+   Protocol: 5 agents, stability gate (margin must beat the
+   measured **identity noise floor 0.042**), quorum **3 of 5**
+   stable votes. TLC: 5 agents / quorum 3 / 2 crashes —
+   **1,049,750** distinct states, **0** errors. Quorum bound
+   derived by 24-config sweep: `safe iff 2Q > N and Q > 2f`. Two
+   configs kept as deliberate failures. 1,490 hash-verified calls
+   to `jev-1.13.0`: not deterministic (identical request 0.03 /
+   0.03 / 0.03 / 0.04 / 0.04); noise floors identity 0.042 /
+   reorder 0.059 / paraphrase cohort 0.073; calibration on 240
+   constructed items accuracy **0.979** / Brier **0.0187** / ECE
+   **0.075**. Latency flat in question count (1q 96.7 ms mean
+   n=1,161; 38q 98.0 ms). Billing meter linear. Do not copy
+   `verify.sh` / `TYPESAFE_API_KEY` / cargo.
+
+   **Hunch / Augustus takeaway:** formal methods **compose** with
+   a Jev-class sensor: TLA+ owns the protocol invariant; the
+   decision model is the noisy oracle; **escalate** is the
+   safety valve. Hard-gating a soft judgment without that path
+   is soundness theater's inverse. Not a proof that Jev is never
+   wrong.
+
+2. **[`Reasonofmoon/seal`](https://github.com/Reasonofmoon/seal)**
+   (Python; **MIT**; created 2026-09-19T08:10:05Z; 0★; GitHub
+   `size` 0 — docs/src live; pushed 2026-09-19T08:45:45Z).
+   Workflow kernel: **No seal, no advance.** Product truth as a
+   sealed graph, not an agent parade and not Jev-with-UI. Zero
+   runtime deps. Node optional for TypeSafe mint only.
+
+   [`docs/BEYOND-JEV.md`](https://github.com/Reasonofmoon/seal/blob/main/docs/BEYOND-JEV.md)
+   is the load-bearing mental model: **Jev answers questions;
+   SEAL answers whether the world may change — and shows the
+   exception queue.** Coverage Gate stamps every seal
+   `coverage.path` ∈ `{auto | escalate | human | code}`. Hiding
+   escalations is a product lie. Deterministic first: a free
+   correct `if` beats a paid wrong mint (`provider: code:…`).
+   **Mint ≠ product brain.** They refuse to claim SEAL is faster
+   or cheaper than Jev, or that seals are always true. Public
+   scorecards (LangChain / CrewAI / AutoGen / Vercel AI /
+   TypeSafe SDK) fail `advance_gate` / `durable_ssot` /
+   mint≠brain as *workflow-class* counters, not wrappers. Do
+   not copy `scripts/demo.sh` / CI YAML.
+
+   **Hunch / Augustus takeaway:** judgment and advance are
+   different holes. A typed answer does not unlock an effect.
+   Coverage path is the visible exception queue (Leveson sensor
+   ≠ constraint, now as a ledger). Backend-agnostic: any
+   Strike provider can fill a Candidate; only a Seal advances.
+
+3. **[`adamjralph/skill-broker`](https://github.com/adamjralph/skill-broker)**
+   (**delta, not a re-fold.** Existence already §62.
+   Language **null**; GitHub SPDX **null**; created
+   2026-09-19T04:35:59Z; 0★; 12 open issues; pushed
+   2026-09-19T08:14:57Z). Still **project-definition**.
+   README now exists and restates the outline: deterministic
+   pre-agent intervention for Hermes; Jev scores
+   relevance/confidence only; **authority/limits live in
+   code — never grants access**. Foundation-only on Jev
+   down; never broaden. Replayable route evidence. `docs/adr`
+   / `CONTEXT.md` appeared; no shipped runtime. Distinct from
+   jev-hermes (route ≠ memory).
+
+   **Sibling contrast this hour (do not merge products):**
+
+   | hole | who owns authority | Jev's job | fail |
+   |---|---|---|---|
+   | [turnstile](https://github.com/zyphr-labs/turnstile) §66 | policy first; runtime ALLOW/REVIEW/DENY | remainder after permit | missing Jev → Review |
+   | [skillranker](https://github.com/Dicklesworthstone/skillranker) §66 | agent/user (advisory) | VOI rank + none-of-these | hook **fail-open** |
+   | skill-broker §62/§67 | catalog/policy **grants** in code | relevance/confidence over authorised candidates | fail-closed to foundation-only |
+
+   **Hunch:** same evidence≠authority doctrine as turnstile /
+   actiongate, on the *skill-injection* hole rather than
+   tool-authorize. Still not a production recipe. Do not copy
+   an install.
+
+4. **[`adarc8/how-sure-is-jev`](https://github.com/adarc8/how-sure-is-jev)**
+   (Python; **MIT**; created 2026-09-19T08:00:28Z; 0★; GitHub
+   `size` 0). Zero-dep sureness over Jev probability vectors.
+   Metrics (each maps a distribution to `[0,1]`; flat = 0, all
+   mass on one option = 1): `max_prob`, `margin`, `entropy`,
+   `gini`, `perplexity`, plus `spread` (Score, ordered levels)
+   and unbounded `log_odds` (Kass–Raftery labels). Consensus
+   `.sureness` = mean of the bounded metrics → bands
+   **CERTAIN | CONFIDENT | LEANING | TORN | CLUELESS**.
+   Thresholds are **opinions, not physics** — tune on your
+   data. Example *theirs*: `{billing: 0.67, technical: 0.33,
+   …}` → sureness **0.51** / **LEANING**.
+
+   Reverse-engineer on 60 live answers *theirs*: **Choice
+   `confidence == max_prob`** to 3 decimals on every answer
+   (`(p_max − 1/n) / (1 − 1/n)`). Score is mostly `max_prob`
+   except non-adjacent mass (e.g. `{0:0.20, 1:0.22, 2:0.58}`
+   Jev conf **0.05** vs max_prob **0.37**) — extra spread
+   penalty; they could not pin the formula from 30 points.
+   Load-bearing: `max_prob` is the **most generous** metric.
+   A 2-option 75/25 gets Jev confidence **0.5** and entropy
+   **0.19**. Gating automation on Jev's number alone is a
+   rosier story than the distribution supports. Pair with
+   jev-ood-calibration (AUC ≠ ECE; do not threshold
+   `confidence`) and does-jev-confidence (ranking ≠
+   calibration). Complements dinostomp (instrument). Do not
+   copy `pip install`.
+
+   **Hunch / Augustus takeaway:** decision-theory toolbelt
+   item — entropy/margin/gini as named features; the band is
+   policy. Not a new model. Backend-agnostic over any
+   probability vector (Choice/Score), not Jev-only.
+
+5. **[`fstandhartinger/jevbench`](https://github.com/fstandhartinger/jevbench)**
+   (Python; **MIT**; created 2026-09-19T07:07:36Z; 0★; pushed
+   2026-09-19T08:32:52Z). Benchmark Heaven **JevBench v1.1** —
+   unofficial, not TypeSafe. Harbor/jevals-shaped measurement
+   practice, **not** a vendor eval and **not** a capability
+   atlas (atlas is receipts-not-leaderboard; this is a scored
+   bake-off that **keeps calibration out of the rank**).
+
+   Three sub-benchmarks → one Main Score *theirs*
+   (`0.6 × Capability + 0.2 × Speed + 0.2 × Cost`; sensitivity
+   under five other weightings published). Capability = mean of
+   three tier accuracies (easy 72 / standard 96 / judge 146 =
+   **314**). **Calibration (Brier/ECE) is reported, not
+   scored** — label-only systems have no distribution; verbalized
+   LLM p ≠ native model distributions. Native vs verbalized
+   labelled everywhere. Token logprobs unused. Partial runs
+   shown and **not ranked**. v1.1 numbers never mixed with v1.0.
+
+   Headline *theirs* (2026-09-19T08:32Z artifact): Jev 1.13.0
+   Main **87.6** / Cap **97.8** (easy 100% / std 99.0% / judge
+   94.5%) / p50 **0.65 s** / p95 **0.72 s** / **$0.0259** per
+   1k. Capability-only ranking: GPT-5.6 Luna **98.2** leads Jev
+   **97.8** by 0.4 — they call that inside the noise of Jev
+   answering the suite twice. Needle 3 is a **function-calling
+   model, not Jev-class** (label only; no manufactured Brier).
+   242/314 is still a pilot (English, short cases; adequacy
+   majority floor 82%; held-out is sent to the services —
+   not-public ≠ not-seen). Do not copy CLI / key-env.
+
+   **Hunch / Augustus takeaway:** jevals/Harbor practice —
+   freeze the taskset, name native vs verbalized, keep
+   calibration off the composite when the field is mixed,
+   publish sensitivity, do not rank a partial run. Contrast
+   atlas (hold/break receipts) and frontier-100 (attach the
+   thinking budget; exploratory).
+
+6. **[`NemanjaManic/ci-gatekeeper-bot-jev`](https://github.com/NemanjaManic/ci-gatekeeper-bot-jev)**
+   (TypeScript + Shell; `package.json` **MIT** / GitHub SPDX
+   **null** — no LICENSE file this pass; created
+   2026-09-19T06:25:48Z; 0★; pushed 2026-09-19T08:45:04Z).
+   GitHub Action: four typed questions (`should_review` /
+   `risk` / `route` / `touches_secrets`) →
+   `auto-approve | human-review | block`. Cheap typed gate
+   **before** expensive LLM/human review. Repo config owns
+   thresholds; conservative default
+   `risk_threshold_for_review: cosmetic` **escalated trivial
+   diffs to human-review in practice** (Jev often returned
+   `risk: moderate` on docs). Secondary review only on
+   `human-review` + elevated risk (observed ~4–5 s, ~5–10×
+   Jev). Comment never includes raw diff, even on possible
+   secrets. Statuses API not Checks.
+
+   Measured *theirs* (own-repo, live Jev via Vercel AI Gateway):
+
+   | scenario | route | Jev latency | Jev tokens in/out |
+   |---|---|---:|---|
+   | trivial docs | auto-approve* | 553 ms | 6798 / 120 |
+   | CI permissions `write-all` | block | 612 ms | 743 / 117 |
+   | fake credential-looking file | human-review | 629 ms | 737 / 118 |
+   | mixed trivial + auth-shaped | human-review | 504 ms | 998 / 118 |
+
+   Cousin of latch (merge-gate on a *finished* red run) — this
+   is **pre-review triage**, not flaky-vs-real. Distinct from
+   egma attention≠correctness. Do not copy `action.yml` /
+   secrets / `AI_GATEWAY_API_KEY`.
+
+   **Hunch:** VOI for human review on a PR stream; operator-
+   owned criterion (same permission-vs-probability lesson as
+   omp-greenlight). Conservative default is a feature, not a
+   bug, until you measure your own base rate.
+
+7. **[`teempai/jev-in-codex`](https://github.com/teempai/jev-in-codex)**
+   (TypeScript; **MIT**; created 2026-09-19T08:32:15Z; 0★;
+   GitHub `size` 0). Codex **MCP** host adapter. Experimental
+   MVP. Three tools: `jev_select_capability` (rank a
+   **caller-supplied** catalog; may recommend none),
+   `jev_search` (rg shortlist → Jev rerank with paths/lines),
+   `jev_triage` (saved artifact → original excerpts + exact
+   duplicate groups + coverage). Codex supplies the objective
+   and makes the final decision. Server does **not** execute
+   capabilities, intercept arbitrary Codex tools, replace
+   compaction, or see Codex's internal catalog.
+
+   Ranking: independent Nouls, batched four, ≤24 candidates,
+   8 s timeout, 28 kB cap, no retries. Capability recs need
+   score ≥ **0.5** — **provisional heuristic, not calibrated**.
+   Absent key / errors / invalid / failed batch → entire
+   ranking falls to **lexical overlap** (local scores are not
+   model probabilities; `method` / `fallback_reason` visible).
+   Scores advisory in both modes. Ranking quality and
+   time/token savings **have not been benchmarked**. 2026-09-19
+   static security review: no confirmed reportable vulns; not
+   a guarantee. Distinct from [nekowasabi/jev-routing](https://github.com/nekowasabi/jev-routing)
+   (Go host adapter, **not MCP**) and from jev-sift (topology A
+   MCP classify-first). Do not copy npm / `config.toml` /
+   `TYPESAFE_API_KEY`.
+
+   **Hunch:** extend the host-adapter catalog (Pi / Codex / …).
+   MCP vs not-MCP is a transport fact, not a placement. Fail-
+   open lexical is the same polarity as omp-jev-extensions.
+
+### Skip / already folded
+
+- skillranker / turnstile / atlas / frontier-100 /
+  decision-combinators / ood-calibration / jevmlx: §66.
+  This hour uses them only as sibling contrast (skill-broker)
+  or pair (how-sure ↔ ood; jevbench ↔ atlas/frontier).
+- skill-broker **outline**: §62. This hour adds the sibling
+  table + README restatement; still not a recipe.
+- latch merge-gate: §51. ci-gatekeeper is pre-review triage,
+  not flaky-vs-real.
+- jev-routing host adapter (not MCP): §44. jev-in-codex is
+  the Codex MCP cousin.
+- does-jev-confidence: §64. how-sure adds vector-level
+  metrics and the Choice-confidence = max_prob receipt.
+
+### Curated status
+
+Census **this hour** (user-provided; not re-derived from
+trackers here): Awesomejev **488/21644** unchanged; SemIf
+**1683** (+11); jevlike **923** (+5); tracker likes **43**
+(+1). Archer still **NOT landed**. X MCP flap continues.
+
+### Omni / Jev-omni / Archer
+
+Still **WATCH**. A TLA+ kernel, a coverage ledger, a sureness
+library, a scored bake-off, a CI Action, and a Codex MCP
+adapter are **not** that drop.
+
+### Cross-links
+
+Cards: `formal-methods.md` (TLA+ compose; never-confidently-
+wrong; theater inverse); `applied-mappings.md` §3
+(ci-gatekeeper), §5 (skill-broker sibling + Codex adapter),
+§7 (SEAL advance/coverage); `mappings.md` §3 (jev-labs
+circuit), §7 (sureness), §8 (SEAL / skill-broker siblings),
+§10/§12 (protocol sandwich); `mixed-architecture.md` (fail
+table + gallery); `validation.md` (jev-labs 1080 golden;
+jevbench v1.1; how-sure 60-q); `faq.md`; `mental-models.md`;
+`methods-catalog.md`; `toolbox-mapping.md`;
+`agent-self-assessment.md`; `composition-algebra.md`.
+Hunches labeled. No wrapper.
