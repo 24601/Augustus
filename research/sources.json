@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T16:52Z",
+  "retrieved": "2026-09-19T17:25Z",
   "sources": [
     {
       "kind": "docs",
@@ -2911,6 +2911,36 @@
       "title": "Luni/laya-grounded",
       "url": "https://huggingface.co/Luni/laya-grounded",
       "note": "CC-BY-NC; 0 likes; GitHub 404. Not a drop-in. Phishing 0.611->0.512. Platt not temperature. notes.md §87."
+    },
+    {
+      "kind": "hf",
+      "title": "GestaltLabs/Jeff-1",
+      "url": "https://huggingface.co/GestaltLabs/Jeff-1",
+      "note": "Apache-2.0; 4 likes. LoRA Qwen3-4B. n=9730 *theirs* acc 0.8183 ECE 0.0807 vs Jev 0.8283/0.0932. Set reused. != logan-markewich/jeff. notes.md §88."
+    },
+    {
+      "kind": "github",
+      "title": "Gestalt-Lab/jeff",
+      "url": "https://github.com/Gestalt-Lab/jeff",
+      "note": "Apache-2.0; 0 stars. Code for GestaltLabs/Jeff-1. README SHA bbf66409. HEAD 14ee67e. notes.md §88."
+    },
+    {
+      "kind": "github",
+      "title": "devagrawal09/stanley-code",
+      "url": "https://github.com/devagrawal09/stanley-code",
+      "note": "MIT; 20 stars. Empty findings != approval. README SHA 59da9a1f. HEAD ac4deb5. 0.1.0 not on npm. notes.md §88."
+    },
+    {
+      "kind": "github",
+      "title": "marc2332/findme",
+      "url": "https://github.com/marc2332/findme",
+      "note": "Rust; license null; 4 stars. NL memory -> beam-search FS. != JevFind. README SHA f2a2ca71. HEAD 10b0691. notes.md §88."
+    },
+    {
+      "kind": "github",
+      "title": "leftspace89/jevsubrouter",
+      "url": "https://github.com/leftspace89/jevsubrouter",
+      "note": "MIT; 4 stars. Price workers not conversation. Fail-open. Counts != dollars. README SHA 317996d0. HEAD ca0050f. Deferred 0945 HIGH. notes.md §88."
     }
   ]
 }

@@ -379,3 +379,23 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     audit object (kinship item: openJev-verdict). Full
     cards: `judgment-class.md`, `validation.md`,
     `faq.md`.
+37. **Open LoRA replica namesake** (GestaltLabs/Jeff-1):
+    position 4 (typed decide) with an acc/ECE tradeoff.
+    Wire `/v1/systemone` ≠ identical judgments. **≠**
+    logan-markewich/jeff (item: GLiFormer encoder).
+    Reused eval set is Harbor honesty. Full cards:
+    `judgment-class.md`, `validation.md`, `faq.md`.
+38. **Empty findings ≠ approval** (stanley-code):
+    position 3 (exact signals + `notChecked` ledger) ×
+    position 1 (Jev SENSOR). Human promote is the
+    actuator. Soft router thresholds. Full cards:
+    `applied-mappings.md` §5, `mappings.md` §8.
+39. **Beam-search FS** (findme): position 8 (search
+    algorithm yours; S1 ranks listed candidates).
+    Distinct from JevFind path-then-window (item 27
+    cousin). Full cards: `mappings.md` §9, `faq.md`.
+40. **Price workers, not the conversation**
+    (jevsubrouter): position 6 (Router) with the
+    prompt-cache as the exact envelope. Binding ≠
+    advice. Fail-open. Counts ≠ dollars. Full cards:
+    `applied-mappings.md` §5, `faq.md`.

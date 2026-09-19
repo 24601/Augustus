@@ -2379,3 +2379,38 @@ assert; (jj) hybrid S1 hard-safety-first; (jk) Harbor
 three bake-off shapes + majority floor; (jl)
 wire-compat vs agent-routing as separate axes;
 (jm) grounding can regress phishing.
+
+## Batch #71 (2026-09-19 ~17:25 UTC / ~11:25 Boise) — queued SIGNALs + jevsubrouter
+
+Note: `research/notes.md` §88. Docs-only on PR #3.
+Skip Archer. No invented metrics. Hunches labeled.
+Quote READMEs. Soft Noul ≠ hard safety. laya-vision
++ Cerebellum already §87 — not re-carded.
+
+- **Open LoRA replica namesake.** GestaltLabs/Jeff-1
+  Qwen3-4B LoRA **≠** logan-markewich/jeff GLiFormer.
+  n=9730 *theirs*: acc **0.8183** ECE **0.0807** vs Jev
+  **0.8283** / **0.0932**. Acc/Brier lose; ECE wins;
+  set reused. Lower ECE ≠ individual correct.
+- **Empty findings ≠ approval.** stanley-code: code
+  owns decisions; `notChecked` first-class; no
+  `pass`/`approved`; human `--promote-candidate` only;
+  0.6/0.55/0.15 still soft. `jev-code` 0.0.1 does
+  nothing; 0.1.0 not on npm.
+- **NL memory → beam-search FS.** findme: algorithm
+  stays yours; S1 ranks listed names+metadata.
+  **≠** JevFind path-then-window. Ranking ≠ identity.
+  License null.
+- **Price workers, not the conversation.**
+  jevsubrouter: bind at dispatch; advise at the turn;
+  fail-open; low conf → balanced, never silent down;
+  stats are counts, not dollars. Deferred 0945 HIGH.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (jn) acc vs ECE tradeoff on a
+named n with reused-set honesty; (jo) empty search ≠
+proof for a coding-agent coverage ledger; (jp) S1 as
+beam-ranking policy over FS candidates; (jq) prompt
+cache as the exact envelope — never swap the live
+conversation model.

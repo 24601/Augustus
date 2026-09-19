@@ -1434,3 +1434,35 @@
 - notes.md §87; sources.json (485 sources, 482 unique URLs,
   retrieved 2026-09-19T16:52Z); findings.md batch #70.
   No wrapper.
+
+## 2026-09-19 ~17:25 UTC — queued user SIGNALs + remaining deferred 0945 HIGH (~11:25 Boise)
+- Docs-only on PR #3. `notes.md` §88. Skip Archer.
+  Hunches labeled. No wrapper. No invented metrics.
+  Quote READMEs / Hub cards. Soft Noul ≠ hard safety.
+- Folded how-to-apply clusters: open LoRA replica
+  (GestaltLabs/Jeff-1 acc **0.8183** ECE **0.0807** vs
+  Jev **0.8283** / **0.0932** n=9730 *theirs*; set reused;
+  **≠** logan-markewich/jeff GLiFormer; Hub GestaltLabs ≠
+  GitHub Gestalt-Lab); Jev-first bounded agent
+  (stanley-code empty findings ≠ approval; human
+  `--promote-candidate`; 0.6/0.55/0.15 still soft;
+  0.1.0 not on npm); NL memory → beam-search FS
+  (findme **≠** JevFind; license null); price workers
+  not the conversation (jevsubrouter fail-open; counts
+  ≠ dollars). laya-vision + Cerebellum already §87 —
+  not re-carded. jevsubrouter is the remaining deferred
+  0945 HIGH.
+- Formal compose: gitignore/symlink listing; `test.skip`
+  / deleted assertions; pinned Agent model + prompt-cache.
+  Empty findings as approval / auto-promote / unmeasured $
+  / Jeff-1 as logan jeff are soundness theater.
+- Census not re-derived. Archer still NOT landed.
+- Cards: SKILL.md, mixed-architecture fail table +
+  gallery, faq, mental-models, judgment-class,
+  validation, applied-mappings, mappings, toolbox,
+  composition-algebra items 37–40, question-design,
+  methods-catalog, formal-methods, agent-self-assessment,
+  ecosystem, CHANGELOG, README.
+- notes.md §88; sources.json (490 sources, 487 unique URLs,
+  retrieved 2026-09-19T17:25Z); findings.md batch #71.
+  No wrapper.

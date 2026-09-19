@@ -142,6 +142,10 @@ request, and treat a stale pin as a prior, never a setting.
 | Quote laya-vision `score` / call it Archer | Untrained axis; family lock | SmolVLM. CC-BY-NC-SA. **≠** blackwood. `notes.md` §87 |
 | Cerebellum `base_url` drop-in / endorse 94.92% | Wire ≠ TypeSafe; competing NAR | `/v1/decide`. Separate Harbor axes. `notes.md` §87 |
 | Swap laya-grounded into phishing / temperature-scale | Not a drop-in; no bias term | Platt. Entropy-confidence ≠ max_prob. `notes.md` §87 |
+| Collapse Jeff-1 into logan-markewich/jeff / “better ECE” | Namesake; acc≠cal | LoRA Qwen3-4B. 0.8183/0.0807 vs 0.8283/0.0932 *theirs*; set reused. `notes.md` §88 |
+| Empty stanley findings as approval / auto-promote | Coverage ledger; human actuator | `notChecked`. 0.6/0.55/0.15 still soft. `notes.md` §88 |
+| findme beam as identity / collapse into JevFind | Ranking ≠ proof; species | NL memory → listed names. **≠** path-then-window. `notes.md` §88 |
+| Swap conversation model / quote jevsubrouter $ | Cache envelope; unmeasured | Price workers. Fail-open. Counts ≠ dollars. `notes.md` §88 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

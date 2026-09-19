@@ -291,6 +291,15 @@ windows; code copies snippets. Defaults `--file-threshold
 patcher; not a gate. Keyword still wins exact strings.
 **≠** jevex **≠** jev-semgrep **≠** jevgrep. Do not copy
 cargo / `.env` (`notes.md` §87).
+**NL memory → beam-search FS (Empirical as README;
+2026-09-19 ~17:25):**
+[findme](https://github.com/marc2332/findme) (Rust;
+license null; **4★**; README SHA `f2a2ca71`) — list
+entries, Jev ranks names+lightweight metadata, keep
+the beam, descend. Parent fallback ≤4. gitignore /
+symlink skip in code. **≠** JevFind path-then-window.
+Life/knowledge retrieval, not only SWE. Do not copy
+`cargo install` / `TYPESAFE_API_KEY` (`notes.md` §88).
 **Decision-validated UI (Empirical as README; 2026-09-19
 ~16:52):**
 [gram-render](https://github.com/wei-b0/gram-render) (MIT;
@@ -957,6 +966,26 @@ are **separate** Harbor axes. Claimed 94.92% vs Jev
 81.1% *theirs* is **unverified** — same discipline as
 openJev-verdict-2.0. `ActEscalate` ≥0.50 still soft.
 mkeco GitHub ≠ mkzero Hub. Skip Archer. `notes.md` §87.
+**Jev-first bounded agent (Empirical as README;
+2026-09-19 ~17:25):**
+[stanley-code](https://github.com/devagrawal09/stanley-code)
+(MIT; **20★**) — NL → one workflow; deterministic
+gather + fixed-choice Jev; **code owns decisions**.
+Empty findings ≠ approval. Router 0.6/0.55/0.15 still
+soft. Pi fallback unverified. Human
+`--promote-candidate` only. `jev-code` 0.0.1 does
+nothing; 0.1.0 not on npm. Soft Noul ≠ hard safety.
+Do not copy `npm ci` / `TYPESAFE_API_KEY`
+(`notes.md` §88).
+**Price workers, not the conversation (Empirical as
+README; 2026-09-19 ~17:25):**
+[jevsubrouter](https://github.com/leftspace89/jevsubrouter)
+(MIT; **4★**) — bind the sub-agent model at
+`PreToolUse`; keep the orchestrator's cached prefix.
+Turn hook is advice. Fail-open. Low conf → balanced,
+never silent down. Stats are counts, not dollars.
+**≠** jev-gateway **≠** slo-router. Do not copy
+marketplace / `~/.jevsub.env` (`notes.md` §88).
 
 ## 6. Expensive observation router
 

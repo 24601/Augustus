@@ -1061,6 +1061,27 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   not copy npm / `pi install` / n8n / HA add-on /
   `TYPESAFE_API_KEY`. No wrapper. No invented
   metrics.
+- Queued user SIGNALs + remaining deferred 0945 HIGH
+  (`research/notes.md` §88): **Skip Archer.** Docs-only
+  on PR #3. Mental models: open LoRA replica
+  ([GestaltLabs/Jeff-1](https://huggingface.co/GestaltLabs/Jeff-1)
+  acc **0.8183** ECE **0.0807** vs Jev **0.8283** /
+  **0.0932** n=9730 *theirs*; set reused; **≠**
+  [logan-markewich/jeff](https://github.com/logan-markewich/jeff));
+  Jev-first bounded agent
+  ([stanley-code](https://github.com/devagrawal09/stanley-code)
+  empty findings ≠ approval; human promote; 0.6/0.55/0.15
+  still soft);
+  NL memory → beam-search FS
+  ([findme](https://github.com/marc2332/findme) **≠**
+  JevFind);
+  price workers not the conversation
+  ([jevsubrouter](https://github.com/leftspace89/jevsubrouter)
+  fail-open; counts ≠ dollars). laya-vision +
+  Cerebellum already §87 — not re-carded. Soft Noul ≠
+  hard safety. Do not copy `uv` / npm / cargo /
+  marketplace / `TYPESAFE_API_KEY` / `JEVSUB_API_KEY`.
+  No wrapper. No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

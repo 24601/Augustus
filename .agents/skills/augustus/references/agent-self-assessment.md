@@ -199,6 +199,11 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    [anima3](https://github.com/hulryung-uo/anima3)
    closed verb menu; Qwen logprob; jeff confidently
    flat on magnitude; a11y tree (`notes.md` §87).
+   Empty findings is **not** a self-supervision pass:
+   [stanley-code](https://github.com/devagrawal09/stanley-code)
+   `notChecked` first-class; no `pass`/`approved`;
+   agent fallback unverified; human promote only
+   (`notes.md` §88).
    Closed-vote extreme (no planner LLM):
    [JevOnly](https://github.com/buluoray/JevOnly) (`notes.md` §61).
    Host-owned product:

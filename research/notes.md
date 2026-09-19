@@ -13393,3 +13393,322 @@ items 27–36; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
+
+## 88. Queued user signals + deferred 0945 pointer (2026-09-19 ~11:25 Boise / ~17:25 UTC)
+
+Docs-only on PR #3 (`cursor/augustus-1047-watch-e5c9`)
+after the 1047 fold. **Skip Archer.** Quote READMEs /
+Hub cards. Mark *theirs*. No invented metrics. Hunches
+labeled. No wrappers, npm / `npx` / `uv` / `cargo
+install` / `.env` / `TYPESAFE_API_KEY` /
+`JEVSUB_API_KEY` / plugin marketplace as recipes.
+
+Lane is Augustus: **mental models / architecture /
+Harbor-jevals**. Soft Noul ≠ hard safety.
+
+Queued user SIGNALs (fold now):
+
+1. [GestaltLabs/Jeff-1](https://huggingface.co/GestaltLabs/Jeff-1)
+   / [Gestalt-Lab/jeff](https://github.com/Gestalt-Lab/jeff)
+2. [devagrawal09/stanley-code](https://github.com/devagrawal09/stanley-code)
+3. [marc2332/findme](https://github.com/marc2332/findme)
+
+Deferred 0945 HIGH **already in §87** (do not re-card):
+[thaitea/laya-vision-smolvlm-256m](https://huggingface.co/thaitea/laya-vision-smolvlm-256m),
+[mkeco/Cerebellum-2B](https://github.com/mkeco/Cerebellum-2B).
+This hour adds the remaining deferred HIGH
+[leftspace89/jevsubrouter](https://github.com/leftspace89/jevsubrouter).
+
+### How-to-apply (four new clusters)
+
+1. **Open LoRA replica vs encoder namesake** —
+   train-your-own typed decisions on Qwen3-4B LoRA
+   (Jeff-1). Acc vs ECE can trade. Wire `/v1/systemone`
+   ≠ identical judgments. **≠**
+   [logan-markewich/jeff](https://github.com/logan-markewich/jeff)
+   GLiFormer. Soft Noul ≠ hard safety: lower ECE does
+   not prove an individual verdict; insufficient
+   evidence can still be confidently wrong.
+2. **Jev-first bounded agent** — NL request → one
+   workflow. Hot path is deterministic gather +
+   fixed-choice Jev; **code owns decisions**. Empty
+   findings ≠ approval. Self-improve via *human*
+   promote, never auto-activate. Soft Noul ≠ hard
+   safety: 0.6/0.55/0.15 still soft; agent fallback is
+   unverified.
+3. **NL memory → beam-search FS** — System One as
+   the beam-ranking policy over directory candidates
+   (life/knowledge retrieval, not only SWE). Distinct
+   from JevFind path-then-window.
+4. **Price the workers, not the conversation** —
+   sub-agent dispatch binding vs turn-level advice.
+   Prompt-cache economics: never swap the
+   orchestrator's model. Fail-open. Low conf →
+   balanced, never silent down. No dollar claim the
+   hook cannot measure.
+
+### Cards
+
+1. **[`GestaltLabs/Jeff-1`](https://huggingface.co/GestaltLabs/Jeff-1)**
+   (Hub Apache-2.0; **4 likes** this pass; SIGNAL had
+   2 — ephemeral) +
+   **[`Gestalt-Lab/jeff`](https://github.com/Gestalt-Lab/jeff)**
+   (Python Apache-2.0; **0★**; created
+   2026-09-19T13:58Z; HEAD `14ee67e`; README SHA
+   `bbf66409`). LoRA rank 16 / α 32 on
+   `Qwen/Qwen3-4B-Instruct-2507`. Choice / Noul /
+   Score. First-token scoring when first tokens
+   differ, else whole-sequence. **Confidence = largest
+   label probability** (max_prob is generous; kinship
+   how-sure-is-jev). Optional local `POST
+   /v1/systemone`. README *theirs*: “API compatibility
+   does not imply identical judgments or
+   performance.” Independent of TypeSafe.
+
+   Fact-check bake-off *theirs* on the same **9,730**
+   FEVER / VitaminC / SciFact / Climate-FEVER items
+   vs live Jev 1.13.0 (max-class-p, ten equal-width
+   bins; Jev's separate API `confidence` **not**
+   used):
+
+   | | Acc | Macro-F1 | Brier↓ | ECE↓ |
+   | Jeff 1 | 0.8183 (7,962/9,730) | 0.7789 | 0.2839 | **0.0807** |
+   | Jev 1.13.0 | **0.8283** (8,059/9,730) | **0.7994** | **0.2750** | 0.0932 |
+
+   Honest README: lower acc/Brier than Jev, **better
+   ECE**. “Lower ECE does not guarantee that an
+   individual prediction is correct.” Weak on
+   `not_enough_info` / partial-support false
+   positives. “It can give confidently wrong
+   answers.” The eval set was **also used for error
+   analysis** — not an untouched holdout for future
+   versions. Adapter SHA256
+   `13cc3805495f7e901ca3121c7a3647fc6abcfe1fdc098ddc9ab1acd74f436a6a`
+   *theirs*. `lora_4b_multi`, not the older
+   Choice-only adapter. Base-model revision **not
+   pinned** during release training.
+
+   **Mental model:** calibration ≠ discrimination
+   (cousin of job-posting-triage §87). Harbor axes:
+   acc / Brier / ECE on a named n; reused-set caveat
+   is Harbor honesty. Soft Noul ≠ hard safety:
+   schema-safe still wrong; insufficient-evidence
+   confident-wrong is rh-guard thin.
+
+   **Name lock:** always write **GestaltLabs/Jeff-1**
+   (Hub) / **Gestalt-Lab/jeff** (GitHub). **≠**
+   [logan-markewich/jeff](https://github.com/logan-markewich/jeff)
+   (GLiFormer-400M encoder `/v1/systemone`; MIT;
+   **84★** this pass; §60). **≠** anima3's pluggable
+   jeff backend. **≠** kev 0.5B pointer. **≠** TypeAR
+   as a product (same *family*: constrained/token-prob
+   scoring). Do not copy `uv sync` / PEFT / port 8079.
+
+2. **[`devagrawal09/stanley-code`](https://github.com/devagrawal09/stanley-code)**
+   (TypeScript MIT; **20★** this pass; SIGNAL ★15 —
+   ephemeral; 2 forks; created 2026-09-17T15:15Z;
+   pushed 2026-09-19T15:08Z; HEAD `ac4deb5`; README
+   SHA `59da9a1f`). Previously the `jev-code`
+   placeholder; npm `jev-code` **0.0.1 does nothing**;
+   `stanley-code` **0.1.0 is not on npm** — README
+   says build from source. Independent of TypeSafe
+   (not affiliated). Same author family as
+   `devagrawal09/jev-review`.
+
+   Jev-first coding-agent CLI. NL request → Jev
+   routes to **one** bounded workflow (ten built-ins:
+   find / check / review / test-gaps / security /
+   perf / compat / summarize / triage-failures /
+   triage-comments; plus trusted `.stanley/plugins/`).
+   README *theirs*: “Each workflow is deterministic
+   code that gathers bounded evidence and asks Jev
+   small fixed-choice questions about it; **code, not
+   a model, makes the decisions.** That is the hot
+   path, and it never starts a general agent.”
+
+   Load-bearing:
+
+   - **Empty findings ≠ approval.** “Read both
+     `output.data.findings` and
+     `output.data.notChecked`. An empty findings
+     list is **not** an approval.” “There is no
+     `pass` or `approved` result.”
+   - **Deterministic gates before Jev.** Diff
+     present? Failure log? Comment JSON? Exact
+     signals first (`test.skip`, deleted
+     assertions/tests, lockfile/CI/config).
+   - **Router still soft.** Confidence ≥ 0.6,
+     probability ≥ 0.55, margin ≥ 0.15 else
+     `cannot_tell` / `unsupported`. Soft Noul ≠
+     hard safety.
+   - **Agent fallback is unverified.** Pi (if
+     installed) “reports the agent's own account of
+     what it did **without claiming to have verified
+     it**.” `notChecked` says Stanley did not
+     verify. Tests stay yours.
+   - **Self-improve via promote.** Agent drafts a
+     workflow into `.stanley/candidates/`; validate;
+     **only `--promote-candidate` activates**.
+     Plugin files the agent writes are quarantined.
+     Human is the actuator (Leveson).
+   - “Stanley does not replace tests, type checks,
+     linters, security tools, or human review.”
+
+   **Mental model:** mixed architecture + Leveson.
+   Jev SENSOR; code constraint; empty search ≠ proof
+   (kinship jev-intent-review UNKNOWN). Promote
+   flywheel is decision-as-memory for *workflows*,
+   not a model that trains on its own hides
+   (anti-self-train). Same hole as DONE ≠ verified
+   success.
+
+   Do not copy `npm ci` / `TYPESAFE_API_KEY` /
+   plugin factory TypeScript.
+
+3. **[`marc2332/findme`](https://github.com/marc2332/findme)**
+   (Rust; GitHub license **null** / no LICENSE file;
+   **4★**; created 2026-09-19T11:21Z; HEAD `10b0691`;
+   README SHA `f2a2ca71`). Tagline *theirs*: “jev +
+   fs = findme.” NL memory of a file/folder → beam
+   search over a local directory tree. At each
+   level: list entries (gitignore + skip
+   `.git` / `.cache` / `.local` / `.cargo`), Jev
+   ranks **names + lightweight metadata**, keep top
+   beam, descend. Parent fallback **up to 4
+   levels**. Symlinks skipped. Hidden included by
+   default. Results filtered relative to the best
+   match unless `--all-results`.
+
+   **Mental model:** search/control + VOI. The
+   *algorithm* is beam search; the substituted
+   classifier is S1 ranking among observed FS
+   candidates. Life/knowledge retrieval (“the
+   Freya worktree about the font docs”), not
+   SWE-only. Distinct from
+   [Peu77/JevFind](https://github.com/Peu77/JevFind)
+   (repo path-then-window), jev-semgrep (line
+   propositions), jev-sift, stanley `find` (lexical
+   then shards). Soft Noul ≠ hard safety: a high
+   beam score is not a file-identity proof; listing
+   / gitignore / symlink skip stay in code.
+
+   Do not copy `cargo install --git` /
+   `TYPESAFE_API_KEY`.
+
+4. **[`leftspace89/jevsubrouter`](https://github.com/leftspace89/jevsubrouter)**
+   (JavaScript MIT; **4★**; created
+   2026-09-19T15:39Z; HEAD `ca0050f`; README SHA
+   `317996d0`). Deferred 0945 HIGH, not in §87.
+   Per-dispatch model routing for Claude Code
+   **sub-agents**. README *theirs*: “without ever
+   switching the main conversation's model — so its
+   prompt cache is never invalidated.”
+
+   Economics: swapping the *conversation* model
+   throws away the cached prefix (billed 1.25×
+   cache-creation). “A 100k-token session that
+   switches tiers pays 125k tokens of cache writes
+   to save a few thousand tokens of output.”
+   Sub-agents start empty — “keep one model in the
+   conversation, and price the workers.”
+
+   Two independent decisions:
+
+   - **Dispatch = binding.** `PreToolUse` reads the
+     brief, asks Jev for a tier, writes
+     `updatedInput.model`. This is where the saving
+     comes from and it is deterministic.
+   - **Turn = advisory.** `UserPromptSubmit`
+     injects whether the turn is worth delegating.
+     “It is advice on purpose.” The orchestrator
+     may hold context a brief cannot carry.
+
+   Policy (pure, tested): named-in-brief wins;
+   **fail-open** on failure/timeout/unknown tier
+   (never block a dispatch past its deadline); low
+   confidence lands on the **balanced** tier from
+   either direction; unavailable tier steps **up**,
+   never silently down; long tier opt-in. Pinned
+   agents and caller-named models are left alone.
+   No proxy; no base-URL redirect.
+
+   Harbor honesty: “`stats` reports decision
+   counts, not a dollar figure. A worker's internal
+   token use is not visible from a hook, so **no
+   saving is claimed that cannot be measured.**”
+   ~300 ms warm / ~1 s cold *theirs* before a
+   worker that then runs for minutes.
+
+   **Mental model:** entropy-as-allocator on
+   *workers*, not on the live conversation
+   (cache is the exact envelope). Binding vs
+   advisory is mixed architecture. Soft Noul ≠
+   hard safety: low conf does not silently
+   downgrade; fail-open cannot be a deny; pin is
+   the author's constraint. **≠** jev-gateway
+   (conversation on/off) **≠** slo-router
+   (sync Jev on hot path) **≠** omp-greenlight.
+
+   Do not copy `/plugin marketplace` /
+   `~/.jevsub.env` / `JEVSUB_API_KEY`.
+
+### Deferred 0945 already folded (§87)
+
+Do **not** re-card:
+
+- [thaitea/laya-vision-smolvlm-256m](https://huggingface.co/thaitea/laya-vision-smolvlm-256m)
+  — SmolVLM; `score` untrained; **≠** blackwood **≠**
+  Archer.
+- [mkeco/Cerebellum-2B](https://github.com/mkeco/Cerebellum-2B)
+  — `/v1/decide` ≠ TypeSafe; wire-compat vs
+  agent-routing as **separate** Harbor axes;
+  competing NAR **not endorsement**.
+
+jevsubrouter is the remaining deferred HIGH, carded
+above.
+
+### Formal compose / anti-patterns
+
+Exact envelopes this hour: gitignore / symlink skip
+/ listing (findme); `test.skip` / deleted assertions
+/ lockfile (stanley); pinned Agent model /
+permissionDecision default (jevsubrouter);
+conversation prompt-cache (never swap). Soft Noul ≠
+hard safety: Jeff-1 ECE, stanley 0.6/0.55/0.15,
+findme beam scores, jevsubrouter balanced-on-low-conf
+are **sensors**. Empty findings as approval, auto-
+promoting an agent-written workflow, quoting an
+unmeasured dollar saving, or treating Jeff-1 as
+logan-markewich/jeff are **soundness theater**.
+
+### Not
+
+Not a TypeSafe how-to. Not a hit list. Not
+wrappers. Do not copy `uv` / PEFT / port 8079 /
+`npm ci` / `cargo install` / marketplace /
+`TYPESAFE_API_KEY` / `JEVSUB_API_KEY`. Do not
+endorse Jeff-1 as “better than Jev” (acc/Brier lose;
+ECE wins; set reused). Do not treat stanley empty
+findings as a merge seal. Do not invent a findme
+LICENSE. rh-guard still owns the gate cousin
+(insufficient-evidence confident-wrong / empty≠approve
+as a CI gate).
+
+### Curated status
+
+Queued SIGNALs **folded** (3). Deferred 0945
+laya-vision + Cerebellum **already §87**;
+jevsubrouter **folded this hour**. Archer still
+**NOT landed**. Census not re-derived.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`judgment-class.md`; `validation.md`;
+`applied-mappings.md`; `mappings.md`;
+`toolbox-mapping.md`; `composition-algebra.md`
+items 37–40; `question-design.md`;
+`methods-catalog.md`; `formal-methods.md`;
+`agent-self-assessment.md`. Hunches labeled.
+No wrapper.

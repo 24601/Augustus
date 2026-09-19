@@ -683,6 +683,31 @@ SDT / search / Leveson. This hour's how-to-apply:
     Cerebellum wire ≠ TypeSafe; grounding can regress
     phishing. Platt, not temperature.
 
+## Apply queued 1047 follow-ons (`notes.md` §88)
+
+Same pillars, four more placements (plus jevsubrouter,
+the remaining deferred 0945 HIGH). laya-vision and
+Cerebellum stay §87 — do not re-card.
+
+1. **Replica honesty** — wire `/v1/systemone` ≠ identical
+   judgments. Acc can lose while ECE wins. Reused eval
+   sets are Harbor honesty, not a holdout. **≠** the
+   GLiFormer also named jeff.
+2. **Empty ≠ approve** — a bounded workflow that found
+   nothing has not proved the change. `notChecked` is
+   the coverage ledger. Soft router thresholds are not
+   a merge seal. Humans promote; agents draft.
+3. **Beam as control** — the search algorithm stays
+   yours; S1 only ranks observed FS candidates from an
+   NL memory. Life/knowledge, not only SWE.
+4. **Cache is the exact envelope** — never swap the
+   conversation model to “save” a worker. Bind at
+   dispatch; advise at the turn. Fail-open. Low conf
+   does not silently downgrade. Do not quote dollars
+   the instrument cannot see.
+
+Soft Noul ≠ hard safety on every cluster.
+
 Formal methods **compose** with scoring. A Noul is a
 SENSOR. Hard-gating it as CI pass / HA write / authorship
 seal is the same theater as jev-gate §79.

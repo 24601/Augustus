@@ -877,6 +877,20 @@ sigmoids, T=3.2; isolate nouls; DeBERTa tokens ≠ Jev billing.
 Their card: L4 HTTP ~$2.6 vs ~$15.6 (~6×); A10G direct ~$0.65
 (~24×); AG News 75.5% vs 90.5%; CPU 6–20× *more* expensive.
 License null this pass. Do not copy uv / Modal (`notes.md` §60).
+**Open LoRA replica, different jeff (2026-09-19 ~17:25):**
+[GestaltLabs/Jeff-1](https://huggingface.co/GestaltLabs/Jeff-1)
+(Apache-2.0; **4 likes**) +
+[Gestalt-Lab/jeff](https://github.com/Gestalt-Lab/jeff)
+(**0★**; README SHA `bbf66409`) — LoRA on
+Qwen3-4B-Instruct-2507; first-token or whole-sequence
+label scores; confidence = max label p; optional `POST /v1/systemone`. **Not a Jev replica.** README
+*theirs*: API compatibility ≠ identical judgments.
+n=9730 fact-check vs Jev 1.13.0: acc **0.8183** ECE
+**0.0807** vs **0.8283** / **0.0932**. Acc/Brier lose;
+ECE wins; set reused for error analysis. Weak on
+`not_enough_info`. **≠** logan-markewich/jeff GLiFormer
+(§60). **≠** anima3's jeff backend. Soft Noul ≠ hard
+safety (`notes.md` §88).
 **Loopback gateway, not a scorer:**
 [`hraness/sysone`](https://github.com/hraness/sysone) — MIT;
 routes hosted Jev + local OpenJev/NanoJev/Mini-Jev; does not
@@ -966,6 +980,7 @@ vs agent-routing as separate Harbor axes, competing NAR
 not endorsement; laya-grounded not drop-in / phishing
 regress / Platt not temperature; anima3 Qwen logprob
 default, jeff confidently flat, do not invent Laya),
+§88 (GestaltLabs/Jeff-1 LoRA Qwen3-4B ≠ logan-markewich/jeff GLiFormer; acc/ECE tradeoff n=9730 *theirs*; set reused),
 §49 (boundary map; DMB vs constrained LLMs; von; open-alternative-jev). Before
 adopting a surface, the bake-off is a jevals-shaped suite and, for a
 product loop, a Harbor taskset (`validation.md`, Eval & hill-climb).

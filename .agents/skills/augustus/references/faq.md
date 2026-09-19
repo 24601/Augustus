@@ -2180,3 +2180,42 @@ No, and no. Grounding 2/5→5/5 *theirs* while phishing
 “Temperature Scaling will not work… Use Platt.”
 `confidence` is normalised Shannon entropy, **not** top-p.
 CC-BY-NC. GitHub 404. `notes.md` §87.
+
+## Is GestaltLabs/Jeff-1 logan-markewich/jeff? Is better ECE “better than Jev”?
+
+No, and no. [GestaltLabs/Jeff-1](https://huggingface.co/GestaltLabs/Jeff-1)
+is a Qwen3-4B LoRA (code
+[Gestalt-Lab/jeff](https://github.com/Gestalt-Lab/jeff)).
+**≠** [logan-markewich/jeff](https://github.com/logan-markewich/jeff)
+GLiFormer encoder. On 9,730 fact-check items *theirs*: Jeff acc
+**0.8183** ECE **0.0807** vs Jev **0.8283** / **0.0932**. Acc/Brier
+lose; ECE wins. The set was reused for error analysis — not an
+untouched holdout. Lower ECE ≠ individual correct. Weak on
+`not_enough_info`. Soft Noul ≠ hard safety. `notes.md` §88.
+
+## Empty stanley findings = the change is fine? Auto-promote the agent’s workflow?
+
+No, and no. [stanley-code](https://github.com/devagrawal09/stanley-code)
+README *theirs*: empty findings is **not** an approval; read
+`notChecked`. There is no `pass`/`approved`. Router 0.6/0.55/0.15
+still soft. Only `--promote-candidate` activates a drafted
+workflow. Pi fallback is unverified. Soft Noul ≠ hard safety.
+`jev-code` 0.0.1 does nothing; 0.1.0 not on npm. `notes.md` §88.
+
+## Is findme JevFind? Does a high beam score prove the file?
+
+No, and no. [findme](https://github.com/marc2332/findme) is NL
+memory → beam over listed names+metadata (life/knowledge FS
+retrieval). [JevFind](https://github.com/Peu77/JevFind) is repo
+path-then-window. Listing / gitignore / symlink skip stay in
+code. Ranking ≠ identity. `notes.md` §88.
+
+## Swap the conversation model per turn? Quote jevsubrouter dollars?
+
+No, and no. [jevsubrouter](https://github.com/leftspace89/jevsubrouter)
+prices **workers**; the live conversation keeps one model so
+the prompt cache is not thrown away. Dispatch binds; the turn
+hook is advice. Fail-open. Low conf → balanced, never silent
+down. Stats are **counts**, not dollars — worker tokens are
+invisible from a hook. **≠** jev-gateway **≠** slo-router.
+`notes.md` §88.

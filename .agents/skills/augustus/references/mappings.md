@@ -341,6 +341,12 @@ NOASSERTION). `notes.md` §61, §86.
 [JevFind](https://github.com/Peu77/JevFind) — score paths,
 open windows, copy snippets. 0.25/0.55 still soft. Not
 AST. **≠** jevex **≠** jev-semgrep. `notes.md` §87.
+**NL memory → beam-search FS (Empirical as README;
+2026-09-19 ~17:25):**
+[findme](https://github.com/marc2332/findme) — beam over
+listed names+metadata from an NL memory; parent
+fallback ≤4. Ranking ≠ identity. **≠** JevFind.
+`notes.md` §88.
 **Evidence-packet explorer (Empirical as their performance.md,
 author-run):**
 [jev-semantic-explorer](https://github.com/jimmyhealer/jev-semantic-explorer)
@@ -686,6 +692,20 @@ to pi's built-in LLM summary (no key / error / timeout /
 `minReductionRatio`). ~50× vs LLM summary *theirs*.
 **≠** pi-jev-compact **≠** pi-jev-compaction
 (`notes.md` §87).
+**Beam-search FS VOI (Empirical as README; 2026-09-19
+~17:25):**
+[findme](https://github.com/marc2332/findme) — pay Jev
+only on listed names+metadata at each beam node, not
+on file contents. Parent fallback ≤4 is extra
+observation cost. Keyword/gitignore already answers
+without a model. `notes.md` §88.
+**Cache-vs-worker VOI (Empirical as README; 2026-09-19
+~17:25):**
+[jevsubrouter](https://github.com/leftspace89/jevsubrouter)
+— do **not** pay cache-rebuild to save worker output.
+Price the empty-context worker; keep the conversation
+model. Stats are counts because worker tokens are
+invisible from a hook. `notes.md` §88.
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs
@@ -1101,6 +1121,16 @@ evidence. [jevtest](https://github.com/realZachi/jevtest)
 — hard-gating a matcher as a merge seal is soundness
 theater. rh-guard owns the eval-integrity gate cousin
 (`notes.md` §87).
+**Empty findings ≠ approval (Empirical as README;
+2026-09-19 ~17:25):**
+[stanley-code](https://github.com/devagrawal09/stanley-code)
+— Jev is the SENSOR; `notChecked` is the coverage
+ledger; there is no `pass`/`approved`. Exact signals
+(`test.skip`, deleted assertions) prove before Jev.
+Human `--promote-candidate` is the actuator; the
+agent drafts. Soft Noul ≠ hard safety. rh-guard owns
+the gate cousin if someone CI-gates on empty findings
+(`notes.md` §88).
 
 ## 9. Search / control loops → one substituted classifier step
 
@@ -1170,6 +1200,13 @@ distribution, not argmax. **No LLM in the loop.** Mock
 mode is the Space default; do not quote mock-mode
 quality. **≠** Ax/DSPy (`optimizer-integration.md`;
 `notes.md` §87).
+**NL memory → beam-search FS (Empirical as README;
+2026-09-19 ~17:25):**
+[findme](https://github.com/marc2332/findme) — the *algorithm* is beam search (+ parent fallback ≤4);
+the substituted classifier is Jev ranking listed
+names+metadata. gitignore / symlink skip stay in
+code. **≠** JevFind. Life/knowledge, not only SWE
+(`notes.md` §88).
 
 ```text
 loop     = yours (beam / funnel / stages / MCTS / incident command)

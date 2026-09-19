@@ -511,6 +511,15 @@ Architecture / mental models / Harbor-jevals, not an npm / `pi install` / n8n / 
 - **mkeco/Cerebellum-2B** — Apache LICENSE / GitHub SPDX other; **1★**. Hub mkzero. `/v1/decide` ≠ TypeSafe. Competing NAR **not endorsement**.
 - **Luni/laya-grounded** — Hub CC-BY-NC; GitHub 404. Not a drop-in; phishing 0.611→0.512; Platt not temperature.
 
+### User-provided ~11:25 Boise 2026-09-19 / 17:25 UTC (queued SIGNALs + remaining deferred 0945)
+
+Architecture / mental models / Harbor-jevals, not an `uv` / npm / cargo / marketplace catalog. `notes.md` §88. Skip Archer. Quote READMEs. Soft Noul ≠ hard safety. laya-vision + Cerebellum already §87.
+
+- **GestaltLabs/Jeff-1** — Hub Apache-2.0; **4 likes**; code [Gestalt-Lab/jeff](https://github.com/Gestalt-Lab/jeff) Apache-2.0 **0★**; README SHA `bbf66409`. LoRA Qwen3-4B. n=9730 *theirs*: acc **0.8183** ECE **0.0807** vs Jev **0.8283** / **0.0932**. Set reused. **≠** logan-markewich/jeff.
+- **devagrawal09/stanley-code** — MIT; **20★**; README SHA `59da9a1f`. Empty findings ≠ approval. 0.1.0 not on npm. `jev-code` 0.0.1 does nothing.
+- **marc2332/findme** — Rust; license null; **4★**; README SHA `f2a2ca71`. NL memory → beam FS. **≠** JevFind.
+- **leftspace89/jevsubrouter** — MIT; **4★**; README SHA `317996d0`. Price workers, not the conversation. Fail-open. Counts ≠ dollars.
+
 Census **not re-derived**. Archer still NOT landed.
 
 See `references/mixed-architecture.md` in the skill. Class-level family
