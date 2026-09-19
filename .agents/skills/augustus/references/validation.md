@@ -341,6 +341,11 @@ Rules:
 | Cascade compare arms (native vs verbalized vs logprob) | [jav-email-cascade](https://github.com/skiingfalcon/jav-email-cascade) | 74 labelled emails; jev / gen-json / gen-logprob; shared Answer schema. Mock: gen-json confidence flat. Noul 0.5 never rounded. License null. **Not** a live Jev vs Haiku bake-off |
 | ORDER BY ranking vs calibration | [jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench) | `jev-1.13.0` six gates pass. Boolean inversion 0.036; Score ordinal **0.143** vs 0.15; 53-way 0.99 tie; ECE 0.0453 / Brier 0.0524. recodelabs batch-40 inversion 0.171 **fail**. Calibration ≠ sortable |
 | Class-backend economics (GLiFormer `/v1/systemone`) | [jeff](https://github.com/logan-markewich/jeff) | 1,600 items. L4 HTTP ~$2.6 vs jev ~$15.6 (~6×); A10G direct ~$0.65 (~24×); AG News 75.5% vs 90.5%; p50 151 vs 129 ms. CPU 6–20× *more* expensive. Encoder ≠ Jev replica. License null |
+| Jev vs local MLX PCD vs AR JSON | [system-one-benchmark](https://github.com/mallahyari/system-one-benchmark) | LMSYS toxic-chat **n=50**. Jev-1.13.0 **84.0%** acc / Brier **0.1096** / p50 356.5 ms; PCD Qwen2.5-1.5B 52% / Brier 0.3884 / p50 227.2 ms / 1 pass O(1); AR 54% / ~30.8 passes / 98% schema errors. License null. Small n — *their* card, not a large Harbor taskset. PCD O(1) ≠ calibrated Noul |
+| Evidence-packet explorer (SWE finish) | [jev-semantic-explorer](https://github.com/jimmyhealer/jev-semantic-explorer) | Author-run. Claude Code 6.8→2.2 files / 8.6→3.2 tools. SWE-bench Verified n=8: **1/8 → 6/8** finish (empty = miss). Packet n=50 HitFile 0.233 vs BM25 0.159 — diagnostic, not product KPI |
+| Meaning-grep LLM-as-judge | [jev-semgrep](https://github.com/uehaj/jev-semgrep) | 10 cases × 51-line EN/JP corpus. Precision 0.94, recall 0.98 *theirs*. Not a Harbor taskset |
+| Closed-vote CU worked example | [JevOnly](https://github.com/buluoray/JevOnly) | 11 steps / 43 Jev calls / ~340k tok / ~$0.014 / 17 s *theirs*. No planner LLM. Not a bake-off |
+| Host-owned product evals | [waymode](https://github.com/mossburgh/waymode) | 24/26 public suite; 34/36 completion regression *theirs*. Bounded development evidence, not a self-driving proof |
 
 rh-guard is a reward-hack hook, a different surface from jevgate and
 from Abide (eval-integrity vs allowlist-remainder vs project soft
@@ -515,6 +520,30 @@ measurement (`notes.md` §60).
 (~6×); A10G direct ~$0.65 (~24×); AG News 75.5% vs 90.5%; p50
 151 vs 129 ms. CPU 6–20× *more* expensive. Encoder ≠ Jev
 replica. License null this pass (`notes.md` §60).
+
+**Harbor Jev vs local MLX PCD vs AR JSON (Empirical as their
+README table; 2026-09-18 ~21:39).**
+[system-one-benchmark](https://github.com/mallahyari/system-one-benchmark):
+`jev-1.13.0` vs Qwen2.5-1.5B 4-bit MLX PCD vs AR JSON on
+lmsys/toxic-chat **n=50**. Jev **84.0%** acc, Brier
+**0.1096**, precision 90.9% (1 FP), p50 356.5 ms. PCD 52% /
+Brier 0.3884 / p50 227.2 ms / 1 pass. AR 54% / ~30.8 passes
+/ 98% schema errors. **PCD proves O(1) speed; uncalibrated
+likelihoods ≠ Noul.** License null. Clone URL still
+`your-username`. Small n — *their* card, not a large Harbor
+taskset. Cousin of DMB / open-jev-laya-bench / pcdServer /
+jevify. Do not copy pip how-to (`notes.md` §61).
+**Evidence-packet explorer (Empirical as their performance.md,
+author-run):**
+[jev-semantic-explorer](https://github.com/jimmyhealer/jev-semantic-explorer)
+— SWE-bench Verified n=8: **1/8 → 6/8** finish (empty
+output = miss); about half the model bill. Claude Code
+6.8→2.2 files. Packet n=50 HitFile 0.233 vs BM25 0.159 is
+**not** the product KPI. n=8 is small (`notes.md` §61).
+**Meaning-grep judge test (Empirical as their report.md):**
+[jev-semgrep](https://github.com/uehaj/jev-semgrep) precision
+0.94 / recall 0.98 *theirs* (LLM-as-judge, cached verdicts).
+Not Harbor (`notes.md` §61).
 
 **Harbor-adjacent stdout prune (Empirical as README / evals README
 behavior, not a full Terminal-Bench ranking; 2026-09-18 ~17:15).**

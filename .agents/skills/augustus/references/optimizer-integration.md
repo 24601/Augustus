@@ -152,6 +152,16 @@ enough when the program only takes argmax. Do not substitute a
 verbalized `"confidence"` (jav-email-cascade gen-json mock) for
 a native Noul. `notes.md` §60.
 
+**Do not distill Jev as teacher of record.**
+[jev-triage](https://github.com/ThyFriendlyFox/jev-triage)
+logs full distributions as a *bootstrap* for a local student;
+**real outcome labels** stay the training targets. Author
+~68% ceiling compounds errors. Soft labels are features, not
+the gold. Distinct from Domain-jev-maker (independent gold)
+and from PAW coupling (1) below — if you use Jev as a labeling
+teacher, measure the student against real outcomes and cut
+the cord when it wins. `notes.md` §61.
+
 ## ProgramAsWeights: materializing a Jev judgment locally (Hypothesis)
 
 PAW (programasweights, pre-dates Jev — Python SDK 0.4.6, Mar 2026 repo, MIT)
@@ -170,11 +180,13 @@ a local artifact for high-volume/offline/zero-latency paths. No measured Jev+
 PAW integration exists in the wild (checked the full 187-repo archive), so
 this is Hypothesis-grade. Two candidate couplings:
 
-1. **Jev as the labeling teacher.** Use Jev fan-outs to score a labeled set
-   (its calibration is the reason to trust the labels), pass `examples=[…]`
-   into the PAW compile/finetune compiler (`paw-ft-bs48`), then serve locally.
-   Jev = oracle, PAW = distilled student. This is ordinary distillation with
-   an unusually cheap teacher.
+1. **Jev as the labeling teacher — with teeth.** Use Jev fan-outs to
+   score a labeled set, then train a local student on the *full
+   distributions*. **Do not** treat those labels as teacher-of-record
+   gold (jev-triage ~68% ceiling). Real outcome labels remain the
+   target; cut the cord when the student wins on held-out outcomes.
+   This is ordinary distillation with an unusually cheap *filter*,
+   not a substitute for independent gold (Domain-jev-maker).
 2. **Jev as the calibration gate on PAW.** Shadow both on live traffic;
    a calibrated Jev judgment arbitrates disagreements and the disagreement
    rate is the drift signal for when to recompile the PAW program. Threshold

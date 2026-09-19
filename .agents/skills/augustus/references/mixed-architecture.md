@@ -211,6 +211,9 @@ not a global virtue:
 | Rerank a retrieved list | Fail open: keep retrieval order (`WiktorB2004/llama-index-jev`, **Empirical recipe** on BEIR nfcorpus: MiniLM 0.340 nDCG@5 → MiniLM+Jev 0.396; rerank fails open, *select* fails closed). Listwise/cross-encoder scores belong here, not on the row above. One-run cousin: Jev-RAG vs Spark *rerank* (full-context Spark still faster) | Ranking errors are quality; selection errors are control-flow |
 | Auto-act an email / ticket | **Fail closed** to review when Noul ≈ 0.5, Score conf = 0.0, or a hard flag fires (`jav-email-cascade`) | Noul 0.5 is cannot-tell, never rounded. Injection always review. LLM leftover is optional |
 | `ORDER BY prob LIMIT k` | **Fail open** as ranking; ties need a secondary key (`jev-orderby-bench`) | Two-decimal quantization; 53-way 0.99 tie is engine-dependent. Calibration ≠ sortable |
+| Run an irreversible browser/OS act in closed-vote CU | **Fail closed** unless a separate risk vote is low (`JevOnly` `risk ≥ 0.50` never default; waymode host confirmation / p ≥ 0.7) | Code builds options; Jev only picks. `completed` ≠ verified success. Host handlers/permissions still decide |
+| OMP/pi acceptance gate or subagent route | **Fail open** if Jev missing / timeout / malformed (`omp-jev-extensions`; `confidence: 0`) | A flaky decision service must not trap the agent. Contrast pi-jev-approver fail-closed without a key |
+| Drop a meaning-grep line | **Fail open** as ranking (`jev-semgrep`); keyword still wins exact strings | AND/OR/NOT over line Nouls. Japanese meanings noisier near threshold |
 
 Worked placements (2026-09-18 topic:jev hour + prior archive):
 
@@ -382,6 +385,18 @@ fallback is not S1 (`notes.md` §49).
 auto/review/llm; Noul 0.5 never rounded. Mock gen-json
 flat-confidence is *their mock*. License null this pass
 (`notes.md` §60).
+**Closed-vote computer-use, no planner LLM (2026-09-18
+~21:39):**
+[JevOnly](https://github.com/buluoray/JevOnly) — code builds
+options, Jev only picks; fact register + verify/undo; type
+without generation. Apache-2.0. Distinct from Stagehand LLM
+fallback (`notes.md` §61).
+**Host-owned product surface:**
+[waymode](https://github.com/mossburgh/waymode) — app retains
+handlers/permissions/validation/state; Jev over live typed
+actions; `completed` is Jev's reading. 24/26 and 34/36
+*theirs* — bounded evidence, not a self-driving proof
+(`notes.md` §61).
 
 **Effect-oriented loop (same author, later post).** Topology B inside
 an effect system
@@ -561,6 +576,12 @@ decision-design card. Do not clone APIs from READMEs.
 | Wire-compat encoder backend | choice / score / noul on GLiFormer-400M | typesafe-sdk `base_url`; T=3.2; isolate nouls; tokens ≠ Jev billing | jeff (license null; ~$2.6 vs $15.6 L4 HTTP ~6×; A10G direct ~$0.65 ~24×; AG News 75.5% vs 90.5% *theirs*; not a Jev replica) |
 | Loopback System One gateway | pass-through of whoever answers | Policy auto / prefer-local / prefer-hosted / local-only / hosted-only; credential from env never config; no weights | sysone (MIT; early; not a model) |
 | ORDER BY ranking measurement | pairwise inversion / Score ordinality / ties | Gate SQL on results.json; secondary key on two-decimal ties; measure request shape | jev-orderby-bench (six gates pass; Score 0.143 weak link; 53-way 0.99 tie; recodelabs batch-40 fails ranking) |
+| Closed-vote CU (no planner) | Choice among code-built options; done / off-path / next | Fact register; verify/undo; type without generation; irreversible risk never default | JevOnly (Apache-2.0; 11 steps / 43 calls / ~$0.014 / 17 s *theirs*) |
+| Host-owned System One product | Choice among live typed actions | Host handlers, permissions, validation, state; prove writes from server state; p ≥ 0.7 default | waymode (MIT; 24/26 + 34/36 *theirs*; not on npm; not a self-driving proof) |
+| OMP/pi acceptance + route | Choice `{accepted, rejected}`; topology/tier Choice | Fail-open missing Jev (`confidence: 0`); out-of-set answers → default | omp-jev-extensions (MIT; contrast pi-jev-approver fail-closed) |
+| Evidence-packet explorer | Rank BM25 shortlist; packet source_of_truth / tests / callers | Index once; agent still reads cited files; read-only | jev-semantic-explorer / jevex (1/8→6/8 n=8 *theirs*; HitFile 0.233 diagnostic) |
+| Meaning-grep | Per-line Noul; AND/OR/NOT in code | Thresholds / `--level`; JP↔EN; name collision with Semgrep SAST | jev-semgrep (MIT LICENSE; 0.94/0.98 *theirs*) |
+| Active-learning triage | Confidence routes accept / teacher / human | Soft-label full distributions; real outcomes stay training targets; do **not** distill Jev as teacher | jev-triage (MIT; ~68% ceiling anti-pattern) |
 
 On-device / Home Assistant / mobile are newly-feasible via the economics
 inversion, not proven ports of every app. Named placements this hour

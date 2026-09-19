@@ -259,6 +259,18 @@ Architecture notes, not a uv / bun / Modal catalog. `notes.md` §60. TypeSafe Je
 - **logan-markewich/jeff** — Python; license null. GLiFormer-400M `/v1/systemone` typesafe-sdk drop-in. ~$2.6 vs $15.6 L4 HTTP (~6×); A10G direct ~$0.65 (~24×); AG News 75.5% vs 90.5%. CPU more expensive. Encoder ≠ Jev replica.
 - MED: **hraness/sysone** — MIT, TypeScript. Loopback gateway; routes hosted Jev + local OpenJev/NanoJev/Mini-Jev; does not run weights; credential from env never config.
 
+### Hourly ~21:39 Boise 2026-09-18 / 03:39 UTC 2026-09-19 (active-learning triage / don't distill Jev as teacher, evidence-packet explorer, meaning-grep, closed-vote CU, Jev vs MLX PCD Harbor, host-owned waymode, OMP/pi fail-open gates)
+
+Architecture notes, not a pip / npm / bun catalog. `notes.md` §61. TypeSafe Jev is the exemplar, not the monopoly. Archer still Watch. No invented metrics. Do not re-fold §50–§60. Skip empty `edwardyen724-g/jev-compactor` and `jlt-commons/laya-jolt`.
+
+- **ThyFriendlyFox/jev-triage** — MIT, Python. Active-learning: high conf accept / middling expensive teacher / low-or-boundary human. Logs full distributions. **Do not distill Jev as teacher of record** (~68% ceiling). Real outcomes stay the targets. Distinguish Domain-jev-maker (independent gold) vs openjev-lm (teacher-copy).
+- **jimmyhealer/jev-semantic-explorer** — MIT, Python (jevex). Index-once ask-many; citable evidence packets. Claude Code 6.8→2.2 files. SWE-bench Verified n=8: **1/8 → 6/8** finish (empty = miss, author-run). Packet n=50 HitFile 0.233 vs BM25 0.159 is diagnostic, not the product KPI.
+- **uehaj/jev-semgrep** — JavaScript; LICENSE MIT (GitHub NOASSERTION). Zero-dep Node; AND/OR/NOT over line Nouls; JP↔EN. Distinct from jevgrep. Precision 0.94 / recall 0.98 *theirs*. Name collides with Semgrep SAST.
+- **buluoray/JevOnly** — Apache-2.0, Python. Closed-vote-only: code builds options, Jev only picks; **no planner LLM**. Fact register + verify/undo. 11 steps / 43 calls / ~$0.014 / 17 s *theirs*. Distinct from Stagehand LLM fallback.
+- **mallahyari/system-one-benchmark** — Python; license null. Harbor-shaped Jev vs local MLX PCD (Qwen2.5-1.5B) vs AR JSON on LMSYS toxic-chat n=50. Jev **84.0%** / Brier **0.1096**; PCD 52% / 0.3884 / O(1). PCD speed ≠ calibrated Noul. Small n.
+- **mossburgh/waymode** — MIT, TypeScript. App retains handlers/permissions/validation/state; Jev over live typed actions. 24/26 + 34/36 *theirs* — bounded development evidence, not a self-driving proof. Not on npm.
+- **luw2007/omp-jev-extensions** — MIT, TypeScript. OMP/pi `jev_acceptance_gate` + `jev_route`. **Fail-open** if Jev missing (`confidence: 0`). Contrast pi-jev-approver fail-closed.
+
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs
 Apalache; DST trio Antithesis / Resonate HQ / PufferLib):

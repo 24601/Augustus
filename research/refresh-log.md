@@ -764,6 +764,34 @@
   CHANGELOG, README.
 - notes.md §60; sources.json; findings.md batch #44. No wrapper.
 
+## 2026-09-19 03:39 UTC — active-learning triage / don't distill Jev as teacher, evidence-packet explorer, meaning-grep, closed-vote CU, Jev vs MLX PCD Harbor, host-owned waymode, OMP/pi fail-open gates (~21:39 Boise 2026-09-18)
+
+- Folded into open PR #2 (`cursor/augustus-store-envelope-00b4`).
+  Docs-only. Not a competing PR. Archer 27B drop still **WATCH**.
+  No invented metrics. No wrapper. Do not re-fold §50–§60.
+- HIGH: [ThyFriendlyFox/jev-triage](https://github.com/ThyFriendlyFox/jev-triage)
+  accept / teacher / human; do not distill Jev as teacher (~68%
+  ceiling).
+  [jimmyhealer/jev-semantic-explorer](https://github.com/jimmyhealer/jev-semantic-explorer)
+  jevex; 1/8→6/8 n=8; packet HitFile diagnostic.
+  [uehaj/jev-semgrep](https://github.com/uehaj/jev-semgrep)
+  AND/OR/NOT line Nouls; JP↔EN; 0.94/0.98 *theirs*.
+  [buluoray/JevOnly](https://github.com/buluoray/JevOnly)
+  closed-vote; no planner LLM.
+  [mallahyari/system-one-benchmark](https://github.com/mallahyari/system-one-benchmark)
+  Jev 84.0% / Brier 0.1096 vs PCD 52% / 0.3884 n=50; license null.
+  [mossburgh/waymode](https://github.com/mossburgh/waymode)
+  host-owned handlers; 24/26 + 34/36 *theirs*.
+  [luw2007/omp-jev-extensions](https://github.com/luw2007/omp-jev-extensions)
+  fail-open acceptance + route.
+- Skip empty: edwardyen724-g/jev-compactor, jlt-commons/laya-jolt.
+- Cards: SKILL.md, applied-mappings §2/§4/§5/§9, mappings §2/§4/§6,
+  mixed-architecture (fail table + gallery), validation, faq,
+  judgment-class, mental-models, methods-catalog, toolbox,
+  agent-self-assessment, optimizer-integration, ecosystem,
+  CHANGELOG, README.
+- notes.md §61; sources.json; findings.md batch #45. No wrapper.
+
 
 
 

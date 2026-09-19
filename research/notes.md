@@ -6094,3 +6094,253 @@ Domain LoRA vs teacher-copy distill); `mental-models.md`;
 `methods-catalog.md`; `toolbox-mapping.md`;
 `agent-self-assessment.md`; `optimizer-integration.md`.
 No wrapper.
+
+## 61. Active-learning triage / don't distill Jev as teacher, evidence-packet explorer, meaning-grep, closed-vote CU, Jev vs MLX PCD Harbor, host-owned waymode, OMP/pi fail-open gates (2026-09-18 ~21:39 Boise)
+
+America/Boise ~21:39 = 2026-09-19T03:39Z. Docs-only fold into
+open PR #2 (`cursor/augustus-store-envelope-00b4`). Not a
+competing PR. Archer 27B drop still **WATCH**. Identity lock vs
+`typesafe-ai` / `tenbin` / `decision-first` holds. No wrapper,
+no pip/hook/venv/.env/uv/npm/bun/run.sh/port how-to, no copied
+key-file paths. No invented metrics. Do not re-fold §50–§60.
+TypeSafe Jev is the documented exemplar, not the monopoly.
+Augustus stays how-to-apply / mental model / architecture /
+toolbelt + jevals/Harbor practice — **not** a thin Jev skill.
+Backend-agnostic categorization/scoring/decision-only class.
+
+Seven HIGH **usage / architecture / measurement** signals:
+active-learning triage that spends expensive labels only where
+confidence says they change the outcome (and names the
+anti-pattern: do **not** distill Jev as teacher of record);
+an index-once ask-many explorer that returns citable evidence
+packets instead of grepping; line-level meaning-grep with
+AND/OR/NOT over Nouls; a closed-vote-only computer-use harness
+with **no planner LLM**; a Harbor-shaped Jev vs local MLX PCD
+vs AR JSON bake-off on toxic-chat (calibration is the quality
+gap); a host-owned product surface that keeps handlers and
+permissions in the app; OMP/pi acceptance gating + subagent
+routing that **fails open**. Skip two empty placeholders.
+
+### HIGH
+
+1. **[`ThyFriendlyFox/jev-triage`](https://github.com/ThyFriendlyFox/jev-triage)**
+   (Python; MIT; created 2026-09-19T03:37:23Z; 0★ this pass).
+   Active-learning pipeline: high confidence **accept**; middling
+   queue for an expensive teacher (VLM / audio LM / frontier LLM);
+   low or near-boundary queue for **human**. Logs **full
+   distributions** (not argmax) to `soft_labels.jsonl` for a
+   local student. Do not copy pip / `.env` how-to.
+
+   **Noul belief strength** is `|p − 0.5| × 2` (Noul has no native
+   confidence field). Choice/Score use returned `confidence`.
+   Noul near 0.5 or Choice top-two within **0.15** → human
+   regardless of confidence.
+
+   **Anti-pattern (fold this, not the CLI):** **do not distill
+   Jev as teacher of record.** Author: ~**68% ceiling compounds
+   errors**. Real outcome labels (shop costs, emulator pass/fail,
+   human adjudication) remain the training targets. Soft labels
+   are a bootstrap: train a local head on logged pairs, measure
+   against real outcomes, cut the cord when the local model
+   wins. Choice → KL on `soft_target`; Noul → BCE; Score →
+   ordinal / distribution loss. Compare ECE **and** accuracy on
+   held-out **real** labels.
+
+   Cost sketch *theirs*: ~$21 Jev filter vs ~$8,400 LLM judge
+   for 1M × 500-tok (their 400×). Distinguish
+   [`help-er/Domain-jev-maker`](https://github.com/help-er/Domain-jev-maker)
+   (independent CLINC gold specialist — train when downstream
+   *reads* p) from
+   [`openjev-lm`](https://huggingface.co/openjev/openjev-lm) /
+   [`jev-gate-student-b`](https://huggingface.co/SargeDev/jev-gate-student-b)
+   (teacher-copy of Jev answers). This repo is **training-data
+   VOI / calibration**, not a specialist trainer and not a
+   clone. Audio path: Whisper → transcript → Jev for *lexical*
+   questions; acoustic questions need an audio teacher —
+   transcript labels cannot teach acoustics.
+
+2. **[`jimmyhealer/jev-semantic-explorer`](https://github.com/jimmyhealer/jev-semantic-explorer)**
+   (Python; MIT; created 2026-09-19T03:21:01Z; 0★; spoken name
+   **jevex**). MCP `codebase_investigate`: index once, ask many.
+   Chunks + BM25 shortlist, then Jev ranks (official line-by-line
+   cookbook at repo scale). Returns a **citable evidence packet**:
+   `source_of_truth`, tests, callers, `regions` with path + line
+   range, `status`. Read-only. Not a patcher. Not a chat model.
+   Not Python-only (TS/Go/Rust/docs if Grep would see it). Do
+   not copy pip / `.mcp.json` how-to.
+
+   **Their `docs/performance.md` (author-run).** Claude Code
+   fixture A/B (`eval/runs/claude_ab.json`, five questions on
+   `fixtures/sample_app`): **6.8 → 2.2 files**, **8.6 → 3.2
+   tool calls**, 22.6 s → 16.4 s, recall 1.0. SWE-bench
+   Verified **n=8** (`eval/runs/agent8.json`): the same coding
+   agent **returned an answer on 1/8 without jevex and 6/8 with
+   it** (~6×), at about half the model bill. Empty output counts
+   as a miss. Packet vs BM25 on SWE-Explore Python n=50: HitFile
+   **0.233** vs **0.159**, CtxEff 0.345 vs 0.151, files 7.8 vs
+   10.2, Jev **$0.078** (~$0.0016/question). Author: do **not**
+   use 0.23 as the product number; paper Claude Code HitFile
+   0.667 is a different job (the agent, not the packet). n=8 is
+   small. Cite 1/8→6/8 as *their* completion card **and** the
+   author-run / empty-as-miss caveats. Distinct from
+   [`Bentlybro/jevgrep`](https://github.com/Bentlybro/jevgrep)
+   (packed meaning-search, no index),
+   [`kbhuw/jev-sift`](https://github.com/kbhuw/jev-sift)
+   (classify-first I/O), and
+   [`GreyssonEnterprises/s1-graphify-indexer`](https://github.com/GreyssonEnterprises/s1-graphify-indexer)
+   (GLiNER extract + escalate-S2). Judgment over grep.
+
+3. **[`uehaj/jev-semgrep`](https://github.com/uehaj/jev-semgrep)**
+   (JavaScript/Node; LICENSE **MIT**, GitHub license
+   **NOASSERTION**; created 2026-09-19T03:18:28Z; 0★). Zero-dep
+   Node 20.12+ (`fetch` only). Per-line Noul against a meaning;
+   AND/OR/NOT (`-e` OR, `-a` AND, `-v` AND NOT). Default 30
+   lines/request × 8 concurrent. **Cross-lingual JP↔EN** — no
+   translation step. Name collides with Semgrep static analysis.
+   Distinct from jevgrep (file/chunk packed search). Toolbelt
+   primitive. Do not copy npm / key-file how-to.
+
+   LLM-as-judge test *theirs*: precision **0.94**, recall
+   **0.98** on 10 cases × 51-line mixed EN/JP corpus. Japanese
+   meanings wobble more near threshold; English is safer when
+   borderline (TypeSafe documents English as most accurate).
+   Probabilities drift ~±0.05 between runs. Author: batching 30
+   vs one-line-per-request does not change p. Not a Harbor
+   taskset.
+
+4. **[`buluoray/JevOnly`](https://github.com/buluoray/JevOnly)**
+   (Python; Apache-2.0; created 2026-09-19T03:24:36Z; 0★).
+   Closed-vote-only harness: **code builds every option** from
+   environment state, the goal, and an explicit fact register;
+   **Jev only picks**. **No planner LLM. No helper LLM. No free
+   text.** Type without generation: values from the goal, a
+   caller-supplied fact, or text copied from the page. Verify
+   the effect; undo what did not work. Irreversible `risk ≥
+   0.50` never runs on a default. Environment-agnostic core;
+   first env is Chromium. Distinct from Stagehand (LLM
+   fallback), Cua-S1 (not TypeSafe Jev), solari-reflex /
+   gliner2-ultrafast (observe→score→act **with** a surrounding
+   product loop that still may call a writer). Pure System-One
+   computer-use architecture. Do not copy `run.sh` / port 7791
+   how-to.
+
+   Worked example *theirs*: Wikipedia tallest-building compare —
+   **11 steps, 43 Jev calls, ~340k tokens, ~$0.014, 17 s**.
+   Closed vocabulary: cannot compose arbitrary free text.
+   Without a code-owned completion check, stopping is Jev's
+   judgment rather than a verified postcondition (`DONE` ≠
+   success, same honesty as gliner2-ultrafast).
+
+5. **[`mallahyari/system-one-benchmark`](https://github.com/mallahyari/system-one-benchmark)**
+   (Python; **license null** this pass; created
+   2026-09-19T03:35:00Z; 0★). Harbor-shaped three-way:
+   TypeSafe `jev-1.13.0` vs local MLX **PCD**
+   (Qwen2.5-1.5B 4-bit, Apple Silicon) vs local AR JSON
+   (same 1.5B) on LMSYS [`lmsys/toxic-chat`](https://huggingface.co/datasets/lmsys/toxic-chat)
+   **n=50**. Clone URL in README still `your-username`
+   placeholder. Do not copy pip / `.env` how-to. n=50 is
+   small — *their* card, not a large Harbor taskset.
+
+   **Their table (guardrails, 50 samples):**
+
+   | | Jev-1.13.0 | local MLX PCD | local AR JSON |
+   |---|---|---|---|
+   | Forward passes | 1 (O(1)) | 1 (O(1)) | ~30.8 |
+   | p50 | 356.5 ms (HTTPS) | 227.2 ms | 735.3 ms |
+   | Accuracy | **84.0%** | 52.0% | 54.0% |
+   | Precision | 90.9% (1 FP) | 36.0% (16 FP) | 38.5% |
+   | Recall | 58.8% | 52.9% | 58.8% |
+   | F1 | 0.714 | 0.429 | 0.465 |
+   | Brier | **0.1096** | 0.3884 (uncalibrated) | N/A (raw strings) |
+   | Schema errors | 0% | 0% | 98% (1 crash) |
+
+   **Fold the architecture, not a vs-Jev ranking beyond their
+   card:** PCD proves **O(1) speed** (96.8% fewer forward
+   passes; 3.2× vs AR; 94.0% concordance with AR). RLCD /
+   Jev-class calibration is the quality gap (Brier 0.1096 vs
+   0.3884). Softmax over allowed tokens ≠ Noul. Cousin of
+   [DMB](https://github.com/nibzard/decision-model-benchmark),
+   [open-jev-laya-bench](https://github.com/convaiinnovations/open-jev-laya-bench),
+   [pcdServer](https://github.com/c-g-dev/pcdServer),
+   [jevify](https://github.com/Mintzs/jevify) (uncalibrated
+   CUDA likelihoods ≠ Noul). Banking77 50 is also in-repo;
+   do not invent a number for it.
+
+6. **[`mossburgh/waymode`](https://github.com/mossburgh/waymode)**
+   (TypeScript; MIT; created 2026-09-19T02:43:12Z; 0★). Not
+   previously in Augustus. App **retains** handlers, permissions,
+   validation, and state. Jev selects among **live typed
+   actions**; a new control enters the next snapshot without a
+   matching model tool. `completed` is Jev's reading of the
+   observed view — prove durable effects via **server state**.
+   Default p ≥ **0.7**; 8 steps default (1–16). Jev selects the
+   field; it does **not** generate fill text. Not on npm. Same
+   observe→decide→guard→act→verify loop as JevOnly, but the
+   **host owns the product surface** (not a harness that drives
+   Chromium from outside). Distinct from Stagehand (LLM
+   fallback inside a browser harness). Do not copy npm /
+   AI_GATEWAY how-to.
+
+   Evidence *theirs* (`docs/EVALS.md`): composed browser +
+   OpenAPI suite **24/26** (two ambiguous requests changed a
+   setting instead of asking); completion regression **34/36**
+   (two renamed-setting cases abstained after the correct
+   change). **Bounded development evidence, not proof every app
+   is self-driving.** Same-document web / React DOM this
+   release; Next.js / RN / native adapters planned, not proved.
+
+7. **[`luw2007/omp-jev-extensions`](https://github.com/luw2007/omp-jev-extensions)**
+   (TypeScript; MIT; created 2026-09-19T02:55:18Z; 0★). Two
+   Oh My Pi / `@oh-my-pi/pi-coding-agent` extensions:
+   `jev_acceptance_gate` (before done — Choice `{accepted,
+   rejected}`, not a boolean) and `jev_route` (subagent
+   topology direct/single/parallel/dag + model tier
+   fast/smart/slow/task). **Fail-open** if Jev is missing,
+   times out, non-2xx, or malformed; fail-open paths carry
+   `confidence: 0`. Out-of-set `model_<id>` / `agent_<id>`
+   answers discarded → per-agent default. Distinct from
+   [`phin-tech/pi-jev-approver`](https://github.com/phin-tech/pi-jev-approver)
+   (fail-closed without a key). User listed as HIGH #7. Do
+   not copy bun / `~/.omp` how-to. Known gap *theirs*:
+   `RouteSlice.model` tier is written; mapping onto a concrete
+   provider/model is left to the host OMP config.
+
+### Skip empty
+
+- **[`edwardyen724-g/jev-compactor`](https://github.com/edwardyen724-g/jev-compactor)**
+  — created 2026-09-19T03:31:54Z; description claims a
+  framework-agnostic npm compaction+gating package; GitHub
+  language null, license null, size 0. Empty placeholder.
+- **[`jlt-commons/laya-jolt`](https://github.com/jlt-commons/laya-jolt)**
+  — created 2026-09-19T03:08:37Z; description claims a Jolt
+  implementation of Laya; language null, license null, size 0.
+  Empty placeholder.
+
+Do not invent cards. Revisit if they land content.
+
+### Omni / Jev-omni / Archer
+
+Still **WATCH**. No Hub weights. An active-learning triage, an
+evidence-packet MCP, a meaning-grep, a closed-vote harness, a
+PCD bake-off, a host-owned product surface, and OMP fail-open
+gates are **not** that drop. PCD is constrained AR speed, not
+omni perception. GLiFormer remains text encoder.
+
+### Cross-links
+
+Cards: `applied-mappings.md` §2 (closed-vote CU + host-owned
+waymode), §4 (meaning-grep AND/OR/NOT; evidence-packet
+explorer), §5 (OMP/pi route + acceptance), §9 (closed-vote
+computer-use card); `mappings.md` §2 (don't distill Jev as
+teacher; ~68% ceiling), §4 (explorer / jev-semgrep vs jevgrep),
+§6 (training-data VOI); `mixed-architecture.md` (fail table +
+gallery: JevOnly, waymode, omp fail-open); `validation.md`
+(system-one-benchmark 84.0% / Brier 0.1096 n=50; explorer
+1/8→6/8 with author-run caveats; jev-semgrep 0.94/0.98
+*theirs*); `faq.md` (don't distill Jev as teacher; PCD O(1) ≠
+calibrated Noul; closed-vote vs LLM-fallback CU; fail-open OMP
+vs fail-closed pi-jev-approver); `judgment-class.md` (PCD
+uncalibrated vs Jev RLCD); `mental-models.md`;
+`methods-catalog.md`; `toolbox-mapping.md`;
+`agent-self-assessment.md`; `optimizer-integration.md` (soft
+labels ≠ teacher-of-record). No wrapper.

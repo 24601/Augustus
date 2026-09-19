@@ -1346,6 +1346,47 @@ logprob arms; (dz) ranking family vs calibration family
 (ORDER BY; request shape); (ea) wire-compat encoder backend
 as a product economics decision, not a quality clone.
 
+## Batch #45 (2026-09-19 ~03:39 UTC / ~21:39 Boise 2026-09-18) — active-learning triage / don't distill Jev as teacher, evidence-packet explorer, meaning-grep, closed-vote CU, Jev vs MLX PCD Harbor, host-owned waymode, OMP/pi fail-open gates
+
+Note: `research/notes.md` §61. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Do not re-fold
+§50–§60. Skip empty jev-compactor / laya-jolt.
+
+- **ThyFriendlyFox/jev-triage (Empirical as README architecture).**
+  Python MIT. Created 2026-09-19T03:37:23Z; 0★. Accept / teacher /
+  human. Log full distributions. Do not distill Jev as teacher
+  (~68% ceiling). Real outcomes stay the targets.
+- **jimmyhealer/jev-semantic-explorer (Empirical as their
+  performance.md, author-run).** Python MIT. Created
+  2026-09-19T03:21:01Z; 0★. jevex. 1/8→6/8 SWE-bench Verified
+  finish n=8 (empty = miss). Packet HitFile 0.233 vs BM25 0.159
+  diagnostic, not product KPI.
+- **uehaj/jev-semgrep (Empirical as README + judge test).**
+  JavaScript; LICENSE MIT (GitHub NOASSERTION). Created
+  2026-09-19T03:18:28Z; 0★. AND/OR/NOT line Nouls; JP↔EN.
+  Precision 0.94 / recall 0.98 *theirs*.
+- **buluoray/JevOnly (Empirical as README architecture).** Python
+  Apache-2.0. Created 2026-09-19T03:24:36Z; 0★. Closed-vote; no
+  planner LLM. 11/43/~$0.014/17s *theirs*.
+- **mallahyari/system-one-benchmark (Empirical as their n=50
+  table).** Python; license null. Created 2026-09-19T03:35:00Z;
+  0★. Jev 84.0% / Brier 0.1096 vs PCD 52% / 0.3884. O(1) ≠ Noul.
+- **mossburgh/waymode (Empirical as README + eval suite).**
+  TypeScript MIT. Created 2026-09-19T02:43:12Z; 0★. Host-owned
+  handlers. 24/26 + 34/36 *theirs*. Not a self-driving proof.
+- **luw2007/omp-jev-extensions (Empirical as README fail
+  polarity).** TypeScript MIT. Created 2026-09-19T02:55:18Z; 0★.
+  Fail-open acceptance + route (`confidence: 0`). Contrast
+  pi-jev-approver fail-closed.
+
+Cross-repo addition: (eb) training-data VOI / don't distill Jev
+as teacher of record; (ec) index-once evidence packets vs grep;
+(ed) line meaning-grep AND/OR/NOT; (ee) closed-vote CU with no
+planner LLM vs host-owned product surface; (ef) Harbor Jev vs
+PCD: O(1) speed ≠ calibrated Noul; (eg) OMP/pi fail-open vs
+fail-closed remainder gates.
+
+
 
 
 

@@ -32,6 +32,11 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    — typed decide, policy auto/review/llm, generator only on
    leftover text. Noul 0.5 never rounded into auto. Distinct
    from dual-process-ai (routing unmeasured). `notes.md` §60.
+   **Closed-vote / host-owned CU (2026-09-18 ~21:39):**
+   [JevOnly](https://github.com/buluoray/JevOnly) — no planner
+   LLM; code builds options; Jev only picks. [waymode](https://github.com/mossburgh/waymode)
+   — host retains handlers/permissions; Jev over live typed
+   actions; `completed` ≠ server-state success. `notes.md` §61.
 2. **Post-action output judge** (after the tool result exists, not before):
    `leaks_secret` (noul ≥0.90) and `failure_class` (Choice ~6 options).
    The gate sees intent; only the output judge sees what the command printed.
@@ -84,6 +89,10 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    [Stagehand #2955](https://github.com/browserbase/stagehand/pull/2955)
    — pick-and-copy extract + act tree; LLM fallback; pick ≠
    replacement (`notes.md` §57).
+   Closed-vote extreme (no planner LLM):
+   [JevOnly](https://github.com/buluoray/JevOnly) (`notes.md` §61).
+   Host-owned product:
+   [waymode](https://github.com/mossburgh/waymode) (`notes.md` §61).
    Productized Kahneman cascade for *any* cheap-decide / expensive-write
    loop (business/life, not only SWE):
    [dual-process-ai](https://github.com/taro1985/dual-process-ai) —
@@ -102,6 +111,11 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    default recovery **shadow**; steering never generates commands.
    Distinguish from pi-jev-approver (fail-closed remainder) and
    pi-jev-context (sieve).
+   **OMP/pi fail-open cousins (2026-09-18 ~21:39):**
+   [omp-jev-extensions](https://github.com/luw2007/omp-jev-extensions)
+   — `jev_acceptance_gate` before done; `jev_route` topology/tier.
+   Missing Jev **fails open** (`confidence: 0`). Contrast
+   pi-jev-approver fail-closed without a key (`notes.md` §61).
 6. **Context economy**: the context-sieve card
    (`references/applied-mappings.md#1-context-sieve`). Judge every large
    tool result with one relevance Noul before it enters context. Hide

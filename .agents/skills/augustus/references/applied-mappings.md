@@ -201,6 +201,26 @@ Same observe→score-among-candidates→code-acts *job* as jev-ultrafast /
 gliner2-ultrafast / solari-reflex / cua-s1, inside a major harness.
 Do not merge clocks. Do not copy `experimentalJevAct`
 (`notes.md` §57).
+**Closed-vote harness, no planner LLM (Empirical as README
+architecture, 2026-09-18 ~21:39):**
+[JevOnly](https://github.com/buluoray/JevOnly) — code builds
+every option from observation / goal / fact register; **Jev
+only picks**. No planner LLM, no helper LLM, no free text.
+Type without generation. Verify then undo. Irreversible
+`risk ≥ 0.50` never default. Worked example *theirs*: 11
+steps, 43 Jev calls, ~340k tokens, ~$0.014, 17 s. Distinct
+from Stagehand (LLM fallback). Do not copy `run.sh`
+(`notes.md` §61).
+**Host-owned product surface (Empirical as README + their
+eval suite):**
+[waymode](https://github.com/mossburgh/waymode) — the **app**
+retains handlers, permissions, validation, and state; Jev
+selects among live typed actions. `completed` is Jev's
+reading — prove durable effects via server state. Default
+p ≥ 0.7. Evidence *theirs*: 24/26 public suite, 34/36
+completion regression — **bounded development evidence, not
+proof every app is self-driving**. Not on npm. Do not copy
+AI_GATEWAY how-to (`notes.md` §61).
 **Score-among-observed atlas (Empirical as public showcase class
 pattern, 2026-09-19 ~00:38):**
 [jevable.com](https://jevable.com/) — candidates already on the
@@ -347,6 +367,28 @@ exact wording (BM25 top-10 96% vs 85%). Packed+parallel 0.9 s vs
 serial ~23 min on AutoGPT 4,329 files. Distinct from kazuhideoki
 (file+fzf), superagents-lab (web), and jev-sift (classify-first
 MCP). Do not copy `install.sh` (`notes.md` §58).
+**Meaning-grep AND/OR/NOT over line Nouls (Empirical as README
++ their LLM-as-judge test, 2026-09-18 ~21:39):**
+[jev-semgrep](https://github.com/uehaj/jev-semgrep) — zero-dep
+Node; one Noul per line × meaning; `-e`/`-a`/`-v` boolean
+over those bits; 30 lines × 8 concurrent. Cross-lingual
+JP↔EN, no translation step. Name collides with Semgrep
+static analysis. Distinct from jevgrep (file/chunk packed
+search). LICENSE MIT (GitHub NOASSERTION). Their judge test:
+precision 0.94, recall 0.98. Do not copy npm / key how-to
+(`notes.md` §61).
+**Evidence-packet explorer (Empirical as their
+`docs/performance.md`, author-run):**
+[jev-semantic-explorer](https://github.com/jimmyhealer/jev-semantic-explorer)
+(**jevex**) — index once (chunks + BM25), Jev ranks a
+shortlist, MCP returns `source_of_truth` / tests / callers /
+line ranges. Read-only, not a patcher. Claude Code A/B:
+6.8→2.2 files, 8.6→3.2 tools. SWE-bench Verified n=8:
+**1/8 → 6/8** finish (empty output = miss); packet n=50
+HitFile 0.233 vs BM25 0.159 is diagnostic, **not** the
+product KPI. Distinct from jevgrep / jev-sift /
+s1-graphify-indexer. Do not copy MCP how-to (`notes.md`
+§61).
 **Measured RAG rerank vs a generative reranker (Empirical as
 one-run; Hypothesis as a transfer, ~18:46):**
 [Jev-RAG](https://github.com/Max-sm-yc/Jev-RAG) — same search
@@ -405,6 +447,15 @@ permission; failure never produces an allow; not on npm.
 [opencode-system-one](https://github.com/emirbartu/opencode-system-one)
 — OpenCode plugin; every Jev call fails open; license null.
 Do not copy plugin JSON (`notes.md` §59).
+**OMP/pi acceptance + route (Empirical as README fail
+polarity, 2026-09-18 ~21:39):**
+[omp-jev-extensions](https://github.com/luw2007/omp-jev-extensions)
+— `jev_acceptance_gate` before done (Choice `{accepted,
+rejected}`, not a boolean); `jev_route` subagent topology +
+tier. **Fail-open** if Jev missing/timeout/malformed;
+fail-open paths `confidence: 0`. Distinct from
+pi-jev-approver (fail-closed without a key). Do not copy
+bun / `~/.omp` (`notes.md` §61).
 [`trietphan/jev-claw`](https://github.com/trietphan/jev-claw) is the
 same split for OpenClaw (classify axes; `decide()` maps the route; path
 regex floors risk). [`nekowasabi/jev-routing`](https://github.com/nekowasabi/jev-routing)
@@ -549,4 +600,52 @@ JSON `"confidence"` as calibrated. **Test**: the same emails
 through all three backends; report raw accuracy, acted
 accuracy, and mean confidence on wrong answers; injection
 fixtures never auto.
+
+## 9. Closed-vote computer-use
+
+**Method**: drive a task with nothing but closed votes. Code
+constructs every available option from the environment's
+state, the goal, and an explicit fact register. A
+judgment-class model assigns probabilities and picks. Code
+acts, verifies the effect, undoes what did not work, and
+keeps values read off the environment. **Transfers**: type
+without generation (values from goal / facts / page only);
+irreversible risk votes never default; inspectable rejected
+alternatives. **Does not transfer**: a planner LLM that
+proposes free text; inventing fill values; treating Jev's
+`completed` / done vote as verified success when the host
+has server state to check. Distinct from Stagehand (LLM
+fallback when pick abstains) and Cua-S1 (not TypeSafe Jev).
+
+```text
+observe = numbered controls / typed actions the host already owns
+options = code builds from observation ∪ goal ∪ fact register
+vote    = Choice / Noul: done? off-path? which action?
+act     = existing handler or Chromium; never generated selectors
+verify  = before/after vs intended effect; undo reversible misses
+```
+
+**Example — harness (Empirical as README architecture,
+2026-09-18 ~21:39):**
+[JevOnly](https://github.com/buluoray/JevOnly) (Apache-2.0) —
+no planner LLM. Chromium first env; core is
+environment-agnostic. Worked Wikipedia compare: 11 steps, 43
+Jev calls, ~$0.014, 17 s *theirs*. `risk ≥ 0.50` never
+default. Do not copy `run.sh` (`notes.md` §61).
+**Example — product (Empirical as README + eval suite):**
+[waymode](https://github.com/mossburgh/waymode) (MIT) — the
+**app** keeps handlers, permissions, validation, and state.
+Jev selects among live typed actions; a new control enters
+the next snapshot without a matching model tool. Default
+p ≥ 0.7; 8 steps. Evidence 24/26 and 34/36 *theirs* —
+bounded development evidence, not a self-driving proof. Jev
+selects the field; it does not generate fill text. Not on
+npm. Do not copy AI_GATEWAY (`notes.md` §61).
+**Counterexample**: Stagehand extract `"pick"` with LLM
+fallback sold as "no LLM" — pick is a fast path, not this
+card. **Test**: every typed character exists in goal, facts,
+or observed text; every irreversible act had a separate
+risk vote; durable writes proved from host state, not from
+Jev `completed`.
+
 

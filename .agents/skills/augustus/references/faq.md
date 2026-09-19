@@ -639,7 +639,10 @@ on diffs. Session-memory *omit* fails open (dump the ledger):
 [carryforward](https://github.com/Dharundp6/jev-carryforward).
 Tool *execution* fails closed on block/timeout:
 [toolgate](https://github.com/fdemir/toolgate) (Jev is not
-authorization). Ruby validations in
+authorization). OMP/pi
+[omp-jev-extensions](https://github.com/luw2007/omp-jev-extensions)
+**fail open** (`confidence: 0`) if Jev is missing — contrast
+pi-jev-approver fail-closed without a key. Ruby validations in
 [hunch](https://github.com/carldaws/hunch) `rescue nil` at save —
 spam gates should not. Draft-gate *silence* is the same rule:
 missing verdict is not a block and not a pass — fail-open /
@@ -736,6 +739,44 @@ engine-dependent; two-decimal quantization. recodelabs
 request passes. Vendor 67.8% agreement is not calibration.
 `mappings.md` §4; `notes.md` §60.
 
+## Should we distill Jev as the teacher of record?
+
+No. Use Jev to **decide what enters the training set**, not
+as the label teacher.
+[jev-triage](https://github.com/ThyFriendlyFox/jev-triage)
+routes high-conf accept / middling expensive teacher /
+low-or-boundary human and logs **full distributions** for a
+local student. Author: a ~**68% ceiling compounds errors**.
+Real outcome labels remain the training targets. Soft labels
+are a bootstrap — cut the cord when the local head wins on
+held-out real labels. Distinct from Domain-jev-maker
+(independent gold specialist) and openjev-lm (teacher-copy).
+`mappings.md` §2, §6; `notes.md` §61.
+
+## Is local PCD a calibrated Noul?
+
+No. **O(1) speed ≠ calibrated probability.**
+[system-one-benchmark](https://github.com/mallahyari/system-one-benchmark)
+on LMSYS toxic-chat n=50: local MLX PCD (Qwen2.5-1.5B) is 1
+forward pass / p50 227.2 ms / 52% acc / Brier **0.3884**;
+Jev-1.13.0 is 84.0% / Brier **0.1096** / p50 356.5 ms
+HTTPS. AR JSON ~30.8 passes and 98% schema errors. Softmax
+over allowed tokens is not a Noul. Same honesty as jevify
+(uncalibrated CUDA likelihoods). Small n — *their* card.
+`judgment-class.md`; `notes.md` §61.
+
+## Closed-vote computer-use, or Stagehand pick?
+
+Closed-vote means **code builds every option, the decision
+model only picks, no planner LLM**.
+[JevOnly](https://github.com/buluoray/JevOnly) is that
+harness (Apache-2.0; type without generation; verify/undo).
+[waymode](https://github.com/mossburgh/waymode) is the
+**product** cousin: the app keeps handlers and permissions;
+Jev selects among live typed actions; `completed` is Jev's
+reading. Stagehand pick is a **fast path with LLM fallback**,
+not this card. `applied-mappings.md` §9; `notes.md` §61.
+
 ## Engine eval or coaching verdict?
 
 The engine owns truth; Jev owns judgment.
@@ -768,9 +809,13 @@ opt-in flag. Same lesson as compaction
 letters on an image) is a **different input**, not a better version of
 this hole. Hybrid local decide + remote fill is mixed-architecture
 economics, not dual-process-ai. `DONE` is loop termination, not
-verified success. Plan ≠ execute; dry-run default on Cua-S1. Not
+verified success. Plan ≠ execute; dry-run default on Cua-S1. Closed-vote
+extreme: [JevOnly](https://github.com/buluoray/JevOnly) has **no
+planner LLM** (code builds options, Jev only picks).
+[waymode](https://github.com/mossburgh/waymode) is host-owned
+handlers × System One, not a harness. Not
 GLiNER2.5. Not a bake-off against the Flights demo clock.
-`judgment-class.md`; `mixed-architecture.md`; `notes.md` §52, §54, §57.
+`judgment-class.md`; `mixed-architecture.md`; `notes.md` §52, §54, §57, §61.
 
 ## Does Stagehand extract replace the LLM?
 
@@ -794,8 +839,15 @@ Use grep when you know the string. [jevgrep](https://github.com/Bentlybro/jevgre
 is for "where is the code that *does* X" with no embeddings: packed
 parallel Jev relevance; 79% top-5 vs BM25 40% / grep 20% on
 docstring-stripped repos; BM25 still wins exact wording (top-10
-96% vs 85%). Distinct from kazuhideoki file+fzf, superagents-lab
-web, and jev-sift classify-first. `mappings.md` §4; `notes.md` §58.
+96% vs 85%). Line-level AND/OR/NOT over Nouls, including
+JP↔EN: [jev-semgrep](https://github.com/uehaj/jev-semgrep)
+(name collides with Semgrep SAST). Citable
+"where is this *enforced*?" packets, index-once:
+[jev-semantic-explorer](https://github.com/jimmyhealer/jev-semantic-explorer)
+(jevex; 1/8→6/8 n=8 *theirs*; packet HitFile 0.233 is not
+the product number). Distinct from kazuhideoki file+fzf,
+superagents-lab web, and jev-sift classify-first.
+`mappings.md` §4; `notes.md` §58, §61.
 
 ## Attention or correctness on a PR?
 

@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T02:54Z",
+  "retrieved": "2026-09-19T03:50Z",
   "sources": [
     {
       "kind": "docs",
@@ -1951,6 +1951,72 @@
       "title": "hraness/sysone",
       "url": "https://github.com/hraness/sysone",
       "note": "TypeScript MIT. Created 2026-09-19T02:32:00Z; 0 stars. Loopback System One gateway. Does not run weights. notes.md \u00a760."
+    },
+    {
+      "kind": "github",
+      "title": "ThyFriendlyFox/jev-triage",
+      "url": "https://github.com/ThyFriendlyFox/jev-triage",
+      "note": "Python MIT. Created 2026-09-19T03:37:23Z; 0 stars. Active-learning triage. Do not distill Jev as teacher of record (~68% ceiling). notes.md \u00a761."
+    },
+    {
+      "kind": "github",
+      "title": "jimmyhealer/jev-semantic-explorer",
+      "url": "https://github.com/jimmyhealer/jev-semantic-explorer",
+      "note": "Python MIT. Created 2026-09-19T03:21:01Z; 0 stars. jevex evidence-packet MCP. 1/8 to 6/8 SWE-bench Verified finish n=8 author-run. notes.md \u00a761."
+    },
+    {
+      "kind": "github",
+      "title": "jimmyhealer/jev-semantic-explorer docs/performance.md",
+      "url": "https://github.com/jimmyhealer/jev-semantic-explorer/blob/main/docs/performance.md",
+      "note": "Claude Code 6.8 to 2.2 files. Packet n=50 HitFile 0.233 vs BM25 0.159 diagnostic. notes.md \u00a761."
+    },
+    {
+      "kind": "github",
+      "title": "uehaj/jev-semgrep",
+      "url": "https://github.com/uehaj/jev-semgrep",
+      "note": "JavaScript. LICENSE MIT, GitHub NOASSERTION. Created 2026-09-19T03:18:28Z; 0 stars. Meaning-grep AND/OR/NOT line Nouls; JP-EN. Precision 0.94 recall 0.98 theirs. notes.md \u00a761."
+    },
+    {
+      "kind": "github",
+      "title": "buluoray/JevOnly",
+      "url": "https://github.com/buluoray/JevOnly",
+      "note": "Python Apache-2.0. Created 2026-09-19T03:24:36Z; 0 stars. Closed-vote-only; no planner LLM. notes.md \u00a761."
+    },
+    {
+      "kind": "github",
+      "title": "mallahyari/system-one-benchmark",
+      "url": "https://github.com/mallahyari/system-one-benchmark",
+      "note": "Python; license null. Created 2026-09-19T03:35:00Z; 0 stars. Jev 84.0% Brier 0.1096 vs MLX PCD 52% Brier 0.3884 on toxic-chat n=50. notes.md \u00a761."
+    },
+    {
+      "kind": "github",
+      "title": "lmsys/toxic-chat",
+      "url": "https://huggingface.co/datasets/lmsys/toxic-chat",
+      "note": "LMSYS toxic-chat dataset used by system-one-benchmark n=50. notes.md \u00a761."
+    },
+    {
+      "kind": "github",
+      "title": "mossburgh/waymode",
+      "url": "https://github.com/mossburgh/waymode",
+      "note": "TypeScript MIT. Created 2026-09-19T02:43:12Z; 0 stars. Host-owned handlers x System One. 24/26 and 34/36 theirs. notes.md \u00a761."
+    },
+    {
+      "kind": "github",
+      "title": "luw2007/omp-jev-extensions",
+      "url": "https://github.com/luw2007/omp-jev-extensions",
+      "note": "TypeScript MIT. Created 2026-09-19T02:55:18Z; 0 stars. OMP/pi fail-open acceptance gate and jev_route. notes.md \u00a761."
+    },
+    {
+      "kind": "github",
+      "title": "edwardyen724-g/jev-compactor (empty skip)",
+      "url": "https://github.com/edwardyen724-g/jev-compactor",
+      "note": "Empty placeholder this pass. Created 2026-09-19T03:31:54Z; size 0. notes.md \u00a761."
+    },
+    {
+      "kind": "github",
+      "title": "jlt-commons/laya-jolt (empty skip)",
+      "url": "https://github.com/jlt-commons/laya-jolt",
+      "note": "Empty placeholder this pass. Created 2026-09-19T03:08:37Z; size 0. notes.md \u00a761."
     }
   ]
 }

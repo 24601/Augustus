@@ -117,6 +117,18 @@ intent in `state`) matches or beats local determinate accuracy
 2.5–3.8× higher). **Train the specialist when downstream code
 reads the probability; use few-shot hosted when only argmax
 matters.** Do not copy train how-to (`notes.md` §60).
+**Active-learning triage / don't distill Jev as teacher
+(Empirical as README architecture, 2026-09-18 ~21:39):**
+[jev-triage](https://github.com/ThyFriendlyFox/jev-triage) —
+high conf accept; middling expensive teacher; low or
+near-boundary human. Logs full distributions to
+`soft_labels.jsonl`. **Do not distill Jev as teacher of
+record** — author ~68% ceiling compounds errors. Real
+outcome labels remain the training targets. Noul belief
+`|p−0.5|×2`; Choice top-two within 0.15 → human.
+Distinguish Domain-jev-maker (independent gold specialist)
+from openjev-lm (teacher-copy). Do not copy pip how-to
+(`notes.md` §61).
 **Harbor-shaped decide→policy leftover (Empirical as README
 architecture):** [jav-email-cascade](https://github.com/skiingfalcon/jav-email-cascade)
 — 8 typed questions; policy auto/review/llm; Noul 0.5 never
@@ -277,6 +289,20 @@ grep 20%. Keyword still wins exact strings (BM25 top-10 96% vs
 85%). Harbor-shaped: frozen copies + labeled questions +
 comparable harnesses; not a Harbor taskset. Distinct from
 kazuhideoki / superagents-lab / jev-sift (`notes.md` §58).
+**Meaning-grep over line Nouls (Empirical as README + their
+judge test, 2026-09-18 ~21:39):**
+[jev-semgrep](https://github.com/uehaj/jev-semgrep) — AND/OR/NOT
+on per-line Nouls; JP↔EN; zero-dep Node. Distinct from
+jevgrep (file/chunk). Precision 0.94 / recall 0.98 *theirs*.
+LICENSE MIT (GitHub NOASSERTION). `notes.md` §61.
+**Evidence-packet explorer (Empirical as their performance.md,
+author-run):**
+[jev-semantic-explorer](https://github.com/jimmyhealer/jev-semantic-explorer)
+— index once, BM25 shortlist, Jev ranks, citable packet.
+SWE-bench Verified n=8: 1/8 → 6/8 finish (empty = miss).
+Packet n=50 HitFile 0.233 vs BM25 0.159 is **not** the
+product KPI. Distinct from jevgrep / jev-sift. `notes.md`
+§61.
 **Measured RAG rerank vs generative rerank (Empirical as one-run;
 Hypothesis as a transfer):**
 [Jev-RAG](https://github.com/Max-sm-yc/Jev-RAG) — ≥70% cost / 72%
@@ -386,6 +412,16 @@ prose → frontier. Same 149 business rows: Jev 79.9% vs Haiku 4.5 83.2%;
 Jev 1.6× faster, not 20–200×; Jev confidence monotonic, Haiku inverts
 in 0.80–0.95. If you do not *branch on confidence*, use whatever you
 already have (`notes.md` §42).
+**Training-data VOI (Empirical as README architecture,
+2026-09-18 ~21:39):**
+[jev-triage](https://github.com/ThyFriendlyFox/jev-triage) —
+pay for an expensive teacher or a human only where
+confidence says the label will change the outcome. High-conf
+accept is nearly free. Soft-label full distributions for a
+local student; **real outcomes** stay the training targets.
+Do not distill Jev as teacher of record (~68% ceiling).
+Cost sketch *theirs*: ~$21 vs ~$8,400 LLM judge for 1M ×
+500-tok. `notes.md` §61.
 **Retrieve-then-state (Empirical as an axis proof, not a knowledge
 estimate):** if the answer is not in `state`, **buy the passage first**,
 then ask. Atlas history suite: wrong @ 0.90 without context → right @

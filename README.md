@@ -66,9 +66,12 @@ never launder a Noul as a proof.
   first-prompt route; capability kernel (secrets never in agent;
   Jev SENSOR); typed control plane around DSPy; engine owns truth /
   Jev owns judgment; human-confirmed kill; decide→policy→LLM leftover
-  cascade; wire-compat encoder backend; loopback gateway
+  cascade; wire-compat encoder backend; loopback gateway;
+  closed-vote computer-use (no planner LLM); host-owned handlers ×
+  System One; active-learning triage (do not distill Jev as teacher);
+  evidence-packet explorer; meaning-grep AND/OR/NOT
 - `.agents/skills/augustus/references/applied-mappings.md` — context sieve,
-  exact-text keep/drop (extractive / pointer-not-generator; char-offset compaction; observed a11y/DOM controls; Bash stdout prune; verbatim session ledger / carryforward; classify-first MCP / jev-sift; Stagehand extract pick-and-copy; jevcumber meaning-as-spec), env triage (OpenSmoke + latch merge-gate), moderation/ranking (decision-native RAG evidence set; living class-pattern atlas; meaning-search without embeddings / jevgrep; measured RAG rerank vs generative rerank), skill routing (route ≠ memory; session-sticky first-prompt lock), capability kernel / human-confirmed gate (interlock vs toolgate; port-cleanup), decide→policy→LLM leftover cascade (jav-email-cascade)
+  exact-text keep/drop (extractive / pointer-not-generator; char-offset compaction; observed a11y/DOM controls; Bash stdout prune; verbatim session ledger / carryforward; classify-first MCP / jev-sift; Stagehand extract pick-and-copy; jevcumber meaning-as-spec; closed-vote JevOnly; host-owned waymode), env triage (OpenSmoke + latch merge-gate), moderation/ranking (decision-native RAG evidence set; living class-pattern atlas; meaning-search without embeddings / jevgrep; meaning-grep jev-semgrep; evidence-packet jevex; measured RAG rerank vs generative rerank), skill routing (route ≠ memory; session-sticky first-prompt lock; OMP/pi fail-open jev_route), capability kernel / human-confirmed gate (interlock vs toolgate; port-cleanup), decide→policy→LLM leftover cascade (jav-email-cascade), closed-vote computer-use (applied-mappings §9)
 - `.agents/skills/augustus/references/faq.md` — "just classification",
   stack replacement, Jev vs open head vs encoder vs LoRA vs constrained AR vs kev vs blackwood,
   wait-for-Archer, missing-other confident-wrong, soft project rules vs linter (Abide), extractive/pointer-not-generator, compaction summarize vs pointer, encoder vs Jev compaction, fail-closed keep_full, shadow-mode rollout, fail-open vs fail-closed wake vs CI gate, observe→score→act backend-agnostic, hybrid local decide + remote fill, DONE ≠ verified success, stdout prune vs session compaction, Cua-S1 vs TypeSafe Jev, plan ≠ execute / dry-run, local drop-in vs stub scorer, route ≠ memory, when-it-holds / extractable-from-state, decision-model vs constrained LLM, dual-process S1/S2, combinatorial grid ≠ extractive, GLiNER vs GLiClass vs CLIP, LLM-as-judge, in-engine vs CLI store,
@@ -79,7 +82,9 @@ never launder a Noul as a proof.
   typed control plane, native vs verbalized confidence, engine owns
   truth / Jev owns judgment, train specialist vs few-shot hosted,
   Noul 0.5 cannot-tell never rounded, calibration ≠ sortable,
-  local `/v1/systemone` ≠ Jev (GLiFormer / gateway)
+  local `/v1/systemone` ≠ Jev (GLiFormer / gateway),
+  do not distill Jev as teacher of record, PCD O(1) ≠ calibrated Noul,
+  closed-vote CU vs Stagehand pick, OMP/pi fail-open vs pi-jev-approver
 - `.agents/skills/augustus/references/mappings.md` — classical-method
   mappings with boundaries, counterexamples, acceptance tests (including
   Hypothesis cards §6–§19 — promote only with a test that ran)
@@ -107,7 +112,9 @@ never launder a Noul as a proof.
   Harbor-shaped, not clinically validated; databricks-jev-pdf-lab honest
   negative; Domain-jev-maker specialist vs few-shot (KL/r/McNemar);
   jav-email-cascade compare arms; jev-orderby-bench ORDER BY gates
-  (calibration ≠ sortable); jeff GLiFormer cost/accuracy)
+  (calibration ≠ sortable); jeff GLiFormer cost/accuracy;
+  system-one-benchmark Jev vs MLX PCD vs AR JSON n=50 (Brier 0.1096 vs
+  0.3884); jevex 1/8→6/8 SWE finish n=8; jev-semgrep 0.94/0.98)
 - `.agents/skills/augustus/references/boundary-audit.md` — existing-system
   insertion: fit test, opportunity map, smallest boundary, red flags
 - `.agents/skills/augustus/scripts/evaluate_decisions.py` — offline evaluator

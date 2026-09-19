@@ -394,6 +394,33 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   ([sysone](https://github.com/hraness/sysone); hosted + local
   OpenJev/NanoJev/Mini-Jev; no weights; credential from env).
   No wrapper. No invented metrics.
+- Hourly ~21:39 Boise 2026-09-18 / 03:39 UTC 2026-09-19 fold
+  (`research/notes.md` §61): Archer still Watch. Architecture
+  notes, not a pip / npm / bun catalog. Active-learning triage
+  ([jev-triage](https://github.com/ThyFriendlyFox/jev-triage);
+  accept / expensive teacher / human; log full distributions;
+  **do not distill Jev as teacher of record**, ~68% ceiling).
+  Evidence-packet explorer
+  ([jev-semantic-explorer](https://github.com/jimmyhealer/jev-semantic-explorer)
+  / jevex; index-once ask-many; 1/8→6/8 SWE-bench Verified
+  finish n=8 *theirs*; packet HitFile 0.233 diagnostic).
+  Meaning-grep
+  ([jev-semgrep](https://github.com/uehaj/jev-semgrep); AND/OR/NOT
+  line Nouls; JP↔EN; MIT LICENSE / GitHub NOASSERTION; 0.94/0.98
+  *theirs*). Closed-vote CU
+  ([JevOnly](https://github.com/buluoray/JevOnly); no planner LLM;
+  11 steps / 43 calls / ~$0.014 / 17 s *theirs*). Harbor Jev vs
+  local MLX PCD vs AR JSON
+  ([system-one-benchmark](https://github.com/mallahyari/system-one-benchmark);
+  toxic-chat n=50; Jev 84.0% / Brier 0.1096 vs PCD 52% / 0.3884;
+  O(1) ≠ calibrated Noul; license null). Host-owned product
+  ([waymode](https://github.com/mossburgh/waymode); app retains
+  handlers/permissions; 24/26 + 34/36 *theirs*; not a
+  self-driving proof). OMP/pi fail-open gates
+  ([omp-jev-extensions](https://github.com/luw2007/omp-jev-extensions);
+  `jev_acceptance_gate` + `jev_route`; contrast pi-jev-approver
+  fail-closed). Skip empty jev-compactor / laya-jolt. No wrapper.
+  No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard
