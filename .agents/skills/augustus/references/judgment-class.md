@@ -150,7 +150,20 @@ below, next to the when-to-use table.
   or selectors. Plan ≠ execute; dry-run default; `execute` and
   `submit` independent opt-ins; fail-closed on unknown checkbox
   state. Profile `cua-s1-form-v0` is source-only — no weights, no
-  checkpoint scores (`notes.md` §54). Do not copy `uv` / MCP.
+  checkpoint scores   (`notes.md` §54). Do not copy `uv` / MCP.
+  **Harness productization (Empirical as PR-body architecture +
+  their local eval, 2026-09-19 ~00:48; draft Watch):**
+  [Stagehand #2955](https://github.com/browserbase/stagehand/pull/2955)
+  (5/5 of #2951–#2955, all OPEN draft) puts the same
+  observe→score-among-candidates→code-acts hole inside
+  Browserbase Stagehand. Jev picks a11y elements; code copies text
+  or acts. Extract `"off"` | `"judge"` | `"pick"`. Schema / completion
+  gate / screenshot-always-LLM in **code**; LLM fallback. Their
+  extract card (gemini-3.8-flash, 25×3): 37/75 no-LLM ~0.5 s vs
+  4.37 s; 69/75 vs 23/25 (92% both); LLM-off 36/75 — pick ≠
+  replacement. Do not merge with jev-ultrafast / gliner2-ultrafast
+  / Cua-S1 clocks. Not multimodal pixels on the pick path
+  (`notes.md` §57). Do not copy `experimentalJevAct`.
 - **Decide.** Typed Choice/Score/Noul with a decision/proper-scoring
   objective. That is Jev's product claim. Open heads copy the *shape*;
   distillation copies the *teacher* (openjev-lm, jev-gate-student-b).

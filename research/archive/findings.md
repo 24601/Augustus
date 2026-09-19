@@ -1180,6 +1180,35 @@ living atlas extracts class patterns, not a 342-row dump; (de)
 draft-gate silence ≠ safer (heartbeat); (df) robotics text-state ≠
 pixels; (dg) 342 is their count / JSON-LD 36 is page 1.
 
+## Batch #41 (2026-09-19 ~00:48 UTC / ~18:48 Boise 2026-09-18) — Stagehand experimental Jev pick-and-copy
+
+Note: `research/notes.md` §57. Docs-only. Folded into PR #2. Not a
+second PR. Archer still Watch. No invented metrics. Do not re-fold
+§50–§56. Draft stack — Watch merge.
+
+- **browserbase/stagehand #2951–#2955 (Empirical as PR-body
+  architecture + their local eval).** Parent MIT. All OPEN draft.
+  Author miguelg719. Created 2026-09-17T06:40Z. User link **#2955
+  (5/5)**: extract completion **judge** + **pick-and-copy**. Jev
+  picks a11y elements; code copies text. `extract` `"off"` |
+  `"judge"` | `"pick"`. Both modes send page/extracted content to
+  TypeSafe. Schema leftovers / screenshot extract / failed gate →
+  LLM. Their card (gemini-3.8-flash, Browserbase, local, 25×3):
+  69/75 vs 23/25 (92% both); **37/75** no-LLM ~0.5 s vs baseline
+  **4.37 s** / two LLM calls; LLM-off **36/75** — pick is a fast
+  path, not a replacement. Stack: #2951 editable ids (outline
+  unchanged); #2952 client + pick (`best`+`strict`; ambiguity
+  stops); #2953 act tree (LLM fallback); #2954 observe + cache-check
+  (errors never block replay). Same observe→score-among-candidates→
+  code-acts *job* as jev-ultrafast / gliner2-ultrafast / cua-s1 /
+  solari, inside a major harness. Do not merge clocks.
+
+Cross-repo addition: (dh) harness pick-and-copy is pointer-not-
+generator at product scale; (di) pick is a fast path, not a
+replacement (36/75 LLM-off honesty); (dj) cache-check errors fail
+open (never block replay); (dk) best+strict is NOTA at pick time;
+(dl) draft stack #2951–#2955 Watch merge.
+
 
 
 

@@ -168,6 +168,22 @@ screenshot). Specialist-form cousin, **not TypeSafe Jev:**
 option-attention among observed elements (fill/check/click/skip);
 code owns execution order; dry-run default; source-only
 (`notes.md` §54).
+**Harness pick-and-copy (Empirical as PR-body architecture + their
+local eval, 2026-09-19 ~00:48; draft stack):**
+[Stagehand #2955](https://github.com/browserbase/stagehand/pull/2955)
+(5/5 of [#2951](https://github.com/browserbase/stagehand/pull/2951)–#2955,
+all OPEN draft) — Jev **picks** observed a11y elements; **code copies**
+text. `extract` `"off"` | `"judge"` | `"pick"`. Judge replaces the
+metadata LLM `completed` check (throw → LLM). Pick: schema plan
+(scalars / bools-enums / lists of flat objects; else LLM); must
+validate + completion gate else LLM; screenshot extract always LLM.
+Their card (gemini-3.8-flash, 25×3): **37/75** no-LLM in **~0.5 s**
+vs baseline **4.37 s** / two LLM calls; 69/75 vs 23/25 (**92% both**);
+LLM-off **36/75** — pick is a **fast path, not a replacement**.
+Same observe→score-among-candidates→code-acts *job* as jev-ultrafast /
+gliner2-ultrafast / solari-reflex / cua-s1, inside a major harness.
+Do not merge clocks. Do not copy `experimentalJevAct`
+(`notes.md` §57).
 **Score-among-observed atlas (Empirical as public showcase class
 pattern, 2026-09-19 ~00:38):**
 [jevable.com](https://jevable.com/) — candidates already on the

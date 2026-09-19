@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T00:38Z",
+  "retrieved": "2026-09-19T00:48Z",
   "sources": [
     {
       "kind": "docs",
@@ -1688,6 +1688,42 @@
       "title": "jevable.com",
       "url": "https://jevable.com/",
       "note": "Independent curated showcase (creator Nikunj / @nikunj in JSON-LD). HTTP 200 Railway this pass. Claim (theirs): 342 curated projects (meta description, #result-count, board-data total). JSON-LD ItemList.numberOfItems 36 (first page); pageSize 36; nextOffset 36; sort curated. Categories: Agents, Browser extensions, Creative tools, Data & research, Developer tools, Experiments, Finance, Games, Marketing, Productivity, Robotics. No public API discovered this pass. Treat as living applied-mappings atlas: class patterns, not a 342-title dump. notes.md \u00a756."
+    },
+    {
+      "kind": "github",
+      "title": "browserbase/stagehand",
+      "url": "https://github.com/browserbase/stagehand",
+      "note": "MIT (Browserbase Inc.). Major browser harness. Experimental Jev stack #2951\u2013#2955 all OPEN draft this pass. notes.md \u00a757."
+    },
+    {
+      "kind": "github",
+      "title": "browserbase/stagehand#2951",
+      "url": "https://github.com/browserbase/stagehand/pull/2951",
+      "note": "OPEN draft 1/5. Editable element ids alongside a11y snapshot (plaintext/richtext AX editable). Outline/xpath/url map byte-for-byte unchanged. notes.md \u00a757."
+    },
+    {
+      "kind": "github",
+      "title": "browserbase/stagehand#2952",
+      "url": "https://github.com/browserbase/stagehand/pull/2952",
+      "note": "OPEN draft 2/5. TypeSafe Jev client + candidate-picking library. /v1/systemone; 8s timeout; circuit breaker; best+strict (none vetoes >0.9); ambiguity stops rather than guesses. No wiring yet. notes.md \u00a757."
+    },
+    {
+      "kind": "github",
+      "title": "browserbase/stagehand#2953",
+      "url": "https://github.com/browserbase/stagehand/pull/2953",
+      "note": "OPEN draft 3/5. Experimental Jev act() decision tree; LLM fallback. Their card (gemini-3.8-flash): act 39/40 vs 118/120; p50 1.97s \u2192 0.46s; 4/147 needed LLM. LLM-off 27/40. In-sample thresholds. Do not merge with extract clocks. notes.md \u00a757."
+    },
+    {
+      "kind": "github",
+      "title": "browserbase/stagehand#2954",
+      "url": "https://github.com/browserbase/stagehand/pull/2954",
+      "note": "OPEN draft 4/5. Experimental Jev observe() + cached-action check. Observe 9/12 \u2192 10/12; 11/16 in 0.18s vs baseline 1.99s; LLM-off 7/12. Cache-check errors/timeouts never block replay; no e2e cache eval. notes.md \u00a757."
+    },
+    {
+      "kind": "github",
+      "title": "browserbase/stagehand#2955",
+      "url": "https://github.com/browserbase/stagehand/pull/2955",
+      "note": "OPEN draft 5/5 (user link). Experimental Jev extract(): completion judge + pick-and-copy. extract off|judge|pick. Jev picks elements; code copies text. Schema/gate/screenshot-always-LLM else LLM. Their card (gemini-3.8-flash, Browserbase, local, 25\u00d73): 69/75 vs 23/25 (92% both); 37/75 no-LLM ~0.5s vs baseline 4.37s / two LLM calls; LLM-off 36/75 \u2014 pick is a fast path, not a replacement. notes.md \u00a757."
     }
   ]
 }

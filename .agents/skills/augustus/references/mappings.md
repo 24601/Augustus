@@ -508,6 +508,15 @@ classifier step (`notes.md` §52).
 same substituted-classifier *job* on a specialist form contract
 (option-attention; plan ≠ execute; not TypeSafe Jev; source-only,
 `notes.md` §54).
+**Harness productization of the same job (Empirical as PR body,
+2026-09-19 ~00:48; draft):**
+[Stagehand #2951–#2955](https://github.com/browserbase/stagehand/pull/2955)
+— the *algorithm* is Stagehand's act/observe/extract loop; the
+substituted classifier step is Jev pick among a11y candidates, then
+code copies or acts. LLM fallback when the pick/gate/schema fails.
+Extract 37/75 no-LLM ~0.5 s vs 4.37 s is *their* card; pick ≠
+replacement. Cache-check errors never block replay. Do not merge
+with demo-loop clocks (`notes.md` §57).
 
 **Robotics text-state, same job different body (Empirical as
 showcase class pattern, 2026-09-19 ~00:38):**
@@ -655,6 +664,15 @@ opt-ins; fail-closed unknown checkbox; fill execution fails closed
 without advertised token `set_value`). The option-attention head may
 only pick among observed elements and extracted `Label: value`
 entities. Not TypeSafe Jev. No checkpoint scores (`notes.md` §54).
+
+**Named harness extract envelope (Empirical as PR body, 2026-09-19
+~00:48; draft Watch):**
+[Stagehand #2955](https://github.com/browserbase/stagehand/pull/2955)
+— the monitor is **code** (schema plan: scalars / bools-enums /
+lists of flat objects else LLM; completion gate; screenshot extract
+always LLM). Jev may only pick among a11y candidates; code copies
+text. Invalid / abstain → LLM. Pick is a fast path, not a
+replacement (`notes.md` §57).
 
 ## 13. DST multiverse triage (Hypothesis)
 

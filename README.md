@@ -63,12 +63,12 @@ never launder a Noul as a proof.
   (retrieve wide → decide → evidence set); classify-first MCP
   (jev-sift); draft-gate heartbeat; living class-pattern atlas
 - `.agents/skills/augustus/references/applied-mappings.md` — context sieve,
-  exact-text keep/drop (extractive / pointer-not-generator; char-offset compaction; observed a11y/DOM controls; Bash stdout prune; verbatim session ledger / carryforward; classify-first MCP / jev-sift), env triage (OpenSmoke + latch merge-gate), moderation/ranking (decision-native RAG evidence set; living class-pattern atlas), skill routing (route ≠ memory)
+  exact-text keep/drop (extractive / pointer-not-generator; char-offset compaction; observed a11y/DOM controls; Bash stdout prune; verbatim session ledger / carryforward; classify-first MCP / jev-sift; Stagehand extract pick-and-copy), env triage (OpenSmoke + latch merge-gate), moderation/ranking (decision-native RAG evidence set; living class-pattern atlas), skill routing (route ≠ memory)
 - `.agents/skills/augustus/references/faq.md` — "just classification",
   stack replacement, Jev vs open head vs encoder vs LoRA vs constrained AR vs kev vs blackwood,
   wait-for-Archer, missing-other confident-wrong, soft project rules vs linter (Abide), extractive/pointer-not-generator, compaction summarize vs pointer, encoder vs Jev compaction, fail-closed keep_full, shadow-mode rollout, fail-open vs fail-closed wake vs CI gate, observe→score→act backend-agnostic, hybrid local decide + remote fill, DONE ≠ verified success, stdout prune vs session compaction, Cua-S1 vs TypeSafe Jev, plan ≠ execute / dry-run, local drop-in vs stub scorer, route ≠ memory, when-it-holds / extractable-from-state, decision-model vs constrained LLM, dual-process S1/S2, combinatorial grid ≠ extractive, GLiNER vs GLiClass vs CLIP, LLM-as-judge, in-engine vs CLI store,
   hard envelope (bitrate / planner), not-another-how-to,
-  uncalibrated local likelihoods ≠ Noul, decision-native RAG, classify-first MCP, living applied-mappings atlas / class patterns, draft-gate silence ≠ safer, robotics text-state vs pixels, cascade
+  uncalibrated local likelihoods ≠ Noul, decision-native RAG, classify-first MCP, living applied-mappings atlas / class patterns, draft-gate silence ≠ safer, robotics text-state vs pixels, Stagehand extract pick-and-copy / fast-path not replacement, cascade
   sign-flip / calibration theater, Precision PDF honest negative
 - `.agents/skills/augustus/references/mappings.md` — classical-method
   mappings with boundaries, counterexamples, acceptance tests (including
@@ -82,7 +82,9 @@ never launder a Noul as a proof.
   Harbor-adjacent soft-rule measurement; solari-reflex Harbor-style
   computer-use; gliner2-ultrafast encoder-backend cousin (`DONE` ≠
   success; demo is not a bake-off); Cua-S1 specialist form source-only
-  (metric names, no checkpoint scores; not TypeSafe Jev); jev-testbench collab arms; ARC-AGI Direct Jev as
+  (metric names, no checkpoint scores; not TypeSafe Jev); Stagehand
+  extract pick-and-copy 37/75 no-LLM ~0.5s vs 4.37s (*their* card;
+  pick ≠ replacement; draft #2951–#2955); jev-testbench collab arms; ARC-AGI Direct Jev as
   combinatorial-≠-extractive negative; jev-gateway-bench Harbor on/off
   routing one-run signal; jev-pruner Harbor needle/noise + Terminal-Bench
   integration pilot, not a full bench; jev-baselines-eval pre-registered

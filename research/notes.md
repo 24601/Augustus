@@ -4849,3 +4849,199 @@ UI decide; draft-gate heartbeat); `faq.md`; `mental-models.md`;
 `question-design.md` (SEO 139-refused as `other`);
 `agent-self-assessment.md` (silence ≠ safer); `methods-catalog.md`;
 `toolbox-mapping.md`. No wrapper.
+
+## 57. Stagehand experimental Jev stack — harness pick-and-copy (2026-09-19 ~00:48 UTC / ~18:48 Boise 2026-09-18)
+
+America/Boise ~18:48 = 00:48 UTC 2026-09-19. Docs-only fold into
+open PR #2 (`cursor/augustus-store-envelope-00b4`). Not a competing
+PR. Archer 27B drop still **WATCH**. Identity lock vs `typesafe-ai`
+/ `tenbin` / `decision-first` holds. No wrapper, no SDK/init how-to,
+no copied `experimentalJevAct` as a class constant. No invented
+metrics — clocks below are **their PR bodies**, not re-run. Do not
+re-fold §50–§56 as this product, jev-ultrafast / gliner2-ultrafast /
+cua-s1 / solari as a new species, or blackwood-rlcd as the extract
+path.
+
+**Placement.** Major harness **productization** of
+observe→score-among-candidates→code-acts (and pointer-not-generator
+extract) inside [browserbase/stagehand](https://github.com/browserbase/stagehand)
+(MIT; Browserbase Inc.). Same *job* as jev-ultrafast / solari-reflex
+(Jev backends), gliner2-ultrafast (GLiNER2), cua-s1 (option-attention,
+not TypeSafe Jev), laya-mind2web (Laya DOM indices). This is the
+harness, not a demo loop. TypeSafe Jev is the exemplar, not the
+monopoly. **Experimental; all five PRs OPEN draft this pass.**
+Watch merge of extract + act paths.
+
+### Stack (all OPEN draft; each PR targets its predecessor)
+
+Author [@miguelg719](https://github.com/miguelg719). Created
+2026-09-17T06:40Z. Opt-in via `experimentalJevAct` /
+`STAGEHAND_EXPERIMENTAL_JEV_ACT` (**not** public create config —
+cross-language create contract unchanged). Do not copy the flag.
+
+1. **[#2951](https://github.com/browserbase/stagehand/pull/2951)**
+   (1/5) — report **editable** element ids alongside the a11y
+   snapshot (`plaintext` / `richtext` AX `editable`). Side channel
+   on the private snapshot type: outline text, xpath map, and url
+   map are **byte-for-byte unchanged**, so nothing the LLM sees (or
+   any cache key) moves. No consumer in this PR.
+2. **[#2952](https://github.com/browserbase/stagehand/pull/2952)**
+   (2/5) — TypeSafe Jev client + candidate-picking library. No
+   wiring yet (tree-shaken). `/v1/systemone`; 8 s timeout; per
+   endpoint+key circuit breaker (auth 60 s, 3 consecutive failures
+   30 s); errors carry the code only, never the body or key. Outline
+   → per-intent views (pointer / input / select / scroll / option /
+   broad / text / link). Pick: role view first, then named elements;
+   lists over 40 cut to the 30 sharing words with the instruction;
+   two questions per request — `best` (no "none") and `strict` (with
+   "none", vetoes above 0.9); unease holds while the next tier
+   tries; **ambiguity stops rather than guesses**; twins share a
+   vote; huge lists sharded by character budget. Args parsed in
+   code; `%variable%` values redacted before anything leaves the
+   process.
+3. **[#2953](https://github.com/browserbase/stagehand/pull/2953)**
+   (3/5) — experimental Jev **decision tree for `act()`**. Intent
+   (no snapshot) → args in code → candidates + pick → existing
+   `performUnderstudyMethod` → deterministic checks (fill read-back,
+   native `<select>` selected flag) → page-state on "not on this
+   page" → **LLM fallback**, seeded with Jev's shortlist. Result is
+   the same `Action` shape (caching / replay / self-heal untouched).
+   What leaves: instruction, candidate descriptions, page URL
+   without query/fragment, visible-content digest (page state only);
+   `apiUrl` must be https.
+4. **[#2954](https://github.com/browserbase/stagehand/pull/2954)**
+   (4/5) — experimental Jev **`observe()`** + **cached-action
+   check**. Separate opt-ins (`observe`, `cacheCheck`), default off.
+   Observe: no instruction → every interactive element (LLM above
+   400); else intent + cardinality ("one" uses the act picker;
+   "several" per-candidate yes/no in batches of 60, LLM above 600).
+   "Find all" is exhaustive or handed to the LLM, **never truncated**.
+   Cache check: one yes/no before replay ("still the same element?");
+   stale throws into re-inference. **Errors and timeouts never block
+   replay.** Threshold 0.35 from direct API probes; **no eval
+   exercises the cache path end to end.**
+5. **[#2955](https://github.com/browserbase/stagehand/pull/2955)**
+   (5/5; **user link**) — experimental Jev **`extract()`**:
+   completion **judge** + **pick-and-copy**.
+
+### HIGH — #2955 extract
+
+Jev cannot generate text; most extractions do not need generation —
+the value is already on the page as some element's text. Jev
+**picks the elements**; **code copies** their text. `extract()` also
+had a second LLM call only to decide `completed` (a yes/no).
+
+`experimentalJevAct.extract`: `"off"` (default) | `"judge"` |
+`"pick"`. **Both modes send page or extracted content to TypeSafe**
+— that is why this is its own switch.
+
+- **`judge`**: Jev yes/no replaces the metadata LLM `completed`
+  check; a throw falls back to it.
+- **`pick`**: plan the JSON schema (scalars, booleans/enums, lists
+  of flat objects; **anything else → LLM**); scalars pick among
+  usable, de-duplicated candidates (column headers are never values;
+  table cells carry row/column context); lists item-first (repeating
+  groups → Jev picks the group → per-field picks inside the first
+  items → the same relative position through every item; look-alike
+  neighbours only when the exact position is missing; optional
+  per-item filter); copy numbers (incl. k/M), URLs through the
+  snapshot url map, label stripping; result **must validate against
+  the caller's schema and pass a completion gate**, else the LLM
+  extracts as before. **Screenshot extraction always stays with the
+  LLM.**
+
+**Their eval (PR body; gemini-3.8-flash, Browserbase, local, 25
+tasks × 3) — do not re-claim as ours:** 69/75 vs 23/25 baseline
+(**92% both**; the failures are the same two tasks the baseline
+fails). **37/75** extracts finish with **no LLM** in **~0.5 s**
+(baseline: **4.37 s** and two LLM calls per extract); the other 38
+make one LLM call each, with the completion check staying on Jev.
+With the LLM disabled entirely: **36/75** — pick is a **fast path,
+not a replacement.**
+
+Tests (theirs): `jevExtract.test.ts` (planning, group finding,
+scalar + list picks, distinct-element rule, section filter, copy
+rules, gate), `extract.test.ts` (judge replaces / falls back). Full
+suites, typecheck, lint, fmt, `extensionpack --check` pass locally.
+
+### Act / observe clocks (their #2953 / #2954 bodies; do not merge with extract)
+
+#2953 (gemini-3.8-flash fallback, Browserbase, local): act suite 40
+tasks, Jev arm × 3: baseline 39/40 vs 118/120; act p50 1.97 s →
+0.46 s; 4 / 147 acts needed the LLM. Breadth 40 real-site tasks
+(not in that PR): 35/40 → 39/40; 3.19 s → 0.77 s; 11 / 49 needed
+the LLM. Breadth at 3 trials on two models: 204/240 LLM-only →
+229/240 with Jev. LLM disabled entirely: act 27/40, breadth 26/40.
+Caveats (theirs): thresholds tuned on these suites (in-sample); Jev
+token usage logged but not yet in `result.metadata.usage`;
+page-state fail-fast and `retryNoEffect` have unit tests only.
+One live `act/dropdown` through the env-driven flag: 0 LLM tokens,
+666 ms.
+
+#2954 observe suite: 9/12 baseline → 10/12; 11/16 observes answered
+by Jev in 0.18 s (baseline 1.99 s), 5/16 went to the LLM; 7/12 with
+the LLM disabled.
+
+Do **not** merge 0.46 s act p50 with extract ~0.5 s / 4.37 s, or
+with jev-ultrafast ~7 s / gliner2-ultrafast 12.20 s.
+
+### Load-bearing mental models
+
+1. **Pointer-not-generator.** Jev picks; code copies text / acts.
+   Same species as testimonial-miner / jev-reviewer / gliner25
+   char-offsets / jev-pruner stdout (`applied-mappings.md` §2). A
+   generated extract is the rejected species unless the schema or
+   screenshot envelope already sent you to the LLM.
+2. **Hard envelope, then soft pick.** Schema plan + completion gate
+   + screenshot-always-LLM live in **code**. Jev only scores
+   remainder candidates. Same sandwich as bitrate-advisor / jevgate
+   / Cua-S1 plan≠execute (`mappings.md` §12 / §18).
+3. **Fast path, not a stack replacement.** 36/75 with LLM off;
+   abstain / throw / invalid schema → LLM. Mixed architecture with
+   the generator as fallback, not instead.
+4. **Observe→score-among-candidates→code-acts at harness scale.**
+   a11y snapshot (plus editable-id side channel) → Jev decide →
+   copy/act. Not multimodal pixels on the extract pick path.
+   Cache-check is a freshness Noul before replay; errors fail open
+   (never block replay).
+5. **best + strict.** Two questions: a forced pick and a none-of-
+   the-above veto. Ambiguity stops rather than guesses. Cousin of
+   wellposed / kev NOTA (`question-design.md`).
+6. **Data leaving is its own switch.** Both extract modes send page
+   or extracted content to TypeSafe; redaction of `%variable%`;
+   https-only apiUrl. Opt-in is not "Jev is on."
+
+### Placement
+
+Applied keep/drop + mixed architecture + search/control (one
+substituted classifier step inside Stagehand's loop). Pillar:
+selective classification + VOI (pay for the LLM extract iff the
+pick/gate fails). Hole: keep-drop / perceive / abstain. Family:
+closed decision API (TypeSafe Jev). Fail-open to the LLM on the
+speed path; fail-closed that the model never emits selectors or
+invented extract text. Eval path: their 25×3 extract card + act/
+observe suite numbers in the PR bodies (in-sample; not Harbor).
+**Empirical** as PR-body architecture + their local eval. **Hypothesis**
+that the envelope transfers to *your* sites. Cards:
+`applied-mappings.md` §2 (primary); `mixed-architecture.md`;
+`mappings.md` §9 / §12 / §18; `judgment-class.md`; `faq.md`;
+`mental-models.md`; `validation.md`; `methods-catalog.md`;
+`toolbox-mapping.md`; `agent-self-assessment.md`;
+`question-design.md`. No wrapper.
+
+### Omni / Jev-omni / Archer
+
+Composition exemplar for browser CU: a11y snapshot → Jev decide →
+copy/act. **Not** multimodal pixels for the extract pick path.
+Screenshot extract stays with the LLM. Drawing-pixel claims and
+Archer 27B are still **WATCH**. Track draft-stack merge.
+
+### Cross-links
+
+Cards: `applied-mappings.md` §2 (pick-and-copy); `mappings.md` §9
+(harness loop; one substituted classifier step), §12 / §18
+(envelope then remainder); `mixed-architecture.md` (LLM fallback;
+cache-check fail-open); `judgment-class.md` (same job as
+jev-ultrafast / gliner2-ultrafast / cua-s1 / solari);
+`faq.md`; `validation.md` (their 37/75 card; pick ≠ replacement);
+`question-design.md` (best+strict / none). No wrapper.

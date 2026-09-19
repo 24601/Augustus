@@ -131,7 +131,7 @@ the READMEs, not a monopoly.
 - **AppitStudio/testimonial-miner** — extractive selection + multi-question broadcast + offline `redecide`. Model never writes the quote.
 - **choxos/jev-reviewer** — pointer-not-generator: line ids; verbatim copy with place; *not found* is an answer.
 - **us/jev-local** — contract-compatible `POST /v1/systemone`. Default scorer is a **stub** until `JEVLOCAL_SCORER=hf`.
-- **hitakshiA/solari-reflex** — observe → decide → verified act; no screenshots. Author table vs Codex on Solari ~3–7× wall. Encoder-backend cousin: gliner2-ultrafast (`notes.md` §52). Specialist-form cousin: cua-s1 (`notes.md` §54).
+- **hitakshiA/solari-reflex** — observe → decide → verified act; no screenshots. Author table vs Codex on Solari ~3–7× wall. Encoder-backend cousin: gliner2-ultrafast (`notes.md` §52). Specialist-form cousin: cua-s1 (`notes.md` §54). Harness cousin: Stagehand experimental Jev stack (`notes.md` §57).
 - **ktaletsk/jevframe** — pandas/Polars `.jev` accessor; full `p__`; sibling of jevpandas.
 - **de-niji/jev-hermes** — route ≠ memory: cheap intent gate skips memory tours.
 - **ngallodev-software/agent-workflow-typesafe-ai** — advisory sidecar receipts; never changes host routing (Apache-2.0).
@@ -214,6 +214,12 @@ Architecture notes, not a plugin / showcase catalog. `notes.md` §56. TypeSafe J
 
 - **kbhuw/jev-sift** — classify first, read selectively. Batch path / public URL / inline text → Jev relevance or 1–8 typed questions. Content to Jev without entering main agent context first. Envelope (theirs): 50 items, 60k char, 2 MB / 20 s, public-IP only, no JS/cookies/login, PDFs unsupported. Uncertain/errors/truncation ≠ irrelevant. Transport tests (mocks) ≠ accuracy. No LICENSE this pass. Same retrieve-wide → decide → evidence-set family as decision-native-rag-skills. Topology A MCP; **not** nekowasabi/jev-routing (host adapter).
 - **jevable.com** — living applied-mappings atlas. Claimed **342** curated projects; JSON-LD first page **36**. Categories: Agents, Browser extensions, Creative tools, Data & research, Developer tools, Experiments, Finance, Games, Marketing, Productivity, Robotics. No public API this pass. Class patterns: intent columns, score-among-observed, VOI gates, generative UI decide, robotics text-state, draft-gate silence ≠ safer. Maker clocks stay claims unless already a named receipt.
+
+### Hourly ~18:48 Boise 2026-09-18 / 00:48 UTC 2026-09-19 (Stagehand experimental Jev pick-and-copy)
+
+Architecture notes, not an SDK catalog. `notes.md` §57. TypeSafe Jev is the exemplar, not the monopoly. Archer still Watch. Draft stack. No invented metrics.
+
+- **browserbase/stagehand #2951–#2955** (MIT parent; all OPEN draft; author miguelg719). 5/5 user link: [#2955](https://github.com/browserbase/stagehand/pull/2955) extract completion **judge** + **pick-and-copy**. Jev picks a11y elements; code copies text. `extract` `"off"` | `"judge"` | `"pick"`. Both modes send page/extracted content to TypeSafe. Schema/gate/screenshot-always-LLM in code; LLM fallback. Their card (gemini-3.8-flash, Browserbase, local, 25×3): 69/75 vs 23/25 (92% both); **37/75** no-LLM ~0.5 s vs baseline **4.37 s** / two LLM calls; LLM-off **36/75** — pick is a fast path, not a replacement. Stack: #2951 editable ids (outline byte-for-byte unchanged); #2952 client + pick library (`best`+`strict`); #2953 act tree; #2954 observe + cache-check (errors never block replay). Same observe→score-among-candidates→code-acts *job* as jev-ultrafast / gliner2-ultrafast / cua-s1 / solari, inside a major harness. Do not merge clocks. Do not copy `experimentalJevAct`.
 
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs

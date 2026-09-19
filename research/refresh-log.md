@@ -657,6 +657,26 @@
   README.
 - notes.md §56; sources.json; findings.md batch #40. No wrapper.
 
+## 2026-09-19 00:48 UTC — Stagehand experimental Jev pick-and-copy (~18:48 Boise 2026-09-18)
+
+- Folded into open PR #2 (`cursor/augustus-store-envelope-00b4`).
+  Docs-only. Not a competing PR. Archer 27B drop still **WATCH**.
+  No invented metrics. No wrapper. Do not re-fold §50–§56.
+- HIGH: [browserbase/stagehand #2955](https://github.com/browserbase/stagehand/pull/2955)
+  (5/5 of #2951–#2955, all OPEN draft). Extract completion judge +
+  pick-and-copy. Jev picks; code copies. extract off|judge|pick.
+  Their card (gemini-3.8-flash, 25×3): 37/75 no-LLM ~0.5 s vs
+  baseline 4.37 s; 69/75 vs 23/25 (92% both); LLM-off 36/75 — pick
+  is a fast path, not a replacement. Same observe→score-among-
+  candidates→code-acts job as jev-ultrafast / gliner2-ultrafast /
+  cua-s1 / solari, inside a major harness. Screenshot extract
+  always LLM. Cache-check errors never block replay.
+- Cards: SKILL.md, applied-mappings §2, mappings §9/§12/§18,
+  mixed-architecture, judgment-class, faq, mental-models,
+  validation, methods-catalog, toolbox, agent-self-assessment,
+  question-design, ecosystem, CHANGELOG, README.
+- notes.md §57; sources.json; findings.md batch #41. No wrapper.
+
 
 
 

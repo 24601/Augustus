@@ -631,14 +631,27 @@ uses local GLiNER2 (`fastino/gliner2-multi-v1`);
 uses a Laya head over DOM element indices;
 [Cua-S1](https://github.com/trycua/cua/tree/main/libs/cua-s1) uses a
 byte encoder + option-attention head (fill/check/click/skip) — **not
-TypeSafe Jev**, source-only this pass. Same lesson as compaction
+TypeSafe Jev**, source-only this pass.
+[Stagehand #2951–#2955](https://github.com/browserbase/stagehand/pull/2955)
+is the same hole **inside a major harness**: Jev picks; code copies
+or acts; LLM fallback; extract `"off"`/`"judge"`/`"pick"`. Their
+card: 37/75 no-LLM ~0.5 s vs baseline 4.37 s; LLM-off 36/75 — **pick
+is a fast path, not a replacement.** Draft stack; do not copy the
+opt-in flag. Same lesson as compaction
 (Jev Noul/Score vs GLiNER2.5). Screenshot multimodal (blackwood-rlcd:
 letters on an image) is a **different input**, not a better version of
 this hole. Hybrid local decide + remote fill is mixed-architecture
 economics, not dual-process-ai. `DONE` is loop termination, not
 verified success. Plan ≠ execute; dry-run default on Cua-S1. Not
 GLiNER2.5. Not a bake-off against the Flights demo clock.
-`judgment-class.md`; `mixed-architecture.md`; `notes.md` §52, §54.
+`judgment-class.md`; `mixed-architecture.md`; `notes.md` §52, §54, §57.
+
+## Does Stagehand extract replace the LLM?
+
+No. Pick-and-copy is a **fast path**. Schema leftovers, screenshot
+extract, failed gates, and abstention still call the LLM. 36/75 with
+the LLM disabled is the honesty number. `applied-mappings.md` §2;
+`notes.md` §57.
 
 ## Is Cua-S1 TypeSafe Jev?
 

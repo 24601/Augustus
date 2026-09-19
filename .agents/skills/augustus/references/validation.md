@@ -324,7 +324,7 @@ Rules:
 | LM-program knobs only | DSPy/Ax (narrow) | never primary System One calibration score |
 | Reward-hack / eval gaming | [rh-guard](https://github.com/24601/rh-guard) | structural deny + System One sidecar |
 | Project soft-rule lint | [Abide](https://github.com/coldteadotai/abide) | Score per rule on the diff; bands; fail-open; replay + independent review |
-| Collab / computer-use product loop | [jev-testbench](https://github.com/ufx7/jev-testbench); [solari-reflex](https://github.com/hitakshiA/solari-reflex); [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast); [cua-s1](https://github.com/trycua/cua/tree/main/libs/cua-s1) | Wilson/McNemar arms; independently checked task time; `DONE` ≠ success; Cua-S1 source-only (metric names, no checkpoint scores) |
+| Collab / computer-use product loop | [jev-testbench](https://github.com/ufx7/jev-testbench); [solari-reflex](https://github.com/hitakshiA/solari-reflex); [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast); [cua-s1](https://github.com/trycua/cua/tree/main/libs/cua-s1); [Stagehand #2955](https://github.com/browserbase/stagehand/pull/2955) | Wilson/McNemar arms; independently checked task time; `DONE` ≠ success; Cua-S1 source-only (metric names, no checkpoint scores); Stagehand 37/75 no-LLM ~0.5s vs 4.37s *their* card; pick ≠ replacement; draft |
 | Agent routing on vs off | [jev-gateway-bench](https://github.com/vinilana/jev-gateway-bench) | Hidden perft; cost/quality; one-run signal this pass |
 | Command-output prune (needle/noise) | [jev-pruner](https://github.com/tamaratran/jev-pruner) | Manual `trimOutput` sweep (theirs); plugin eval cannot reach Jev (fail-safe original); Terminal-Bench paired pilot is integration, not a full bench |
 | Pre-registered cascade vs nano/frontier/encoder | [jev-baselines-eval](https://github.com/ickma2311/jev-baselines-eval) | Both experiments **AMBIGUOUS**; cascade sign-flip at exact parity; confidence=1.0 theater; encoder 0.933/9ms with labels; serving-path ≠ model-speed; same-day errata ×3 |
@@ -359,7 +359,16 @@ default; source-only this pass. Offline utilities *name* accuracy,
 abstention, coverage, wrong actions/targets, and unsafe-when-should-
 abstain; **no checkpoint scores**. Tests exercise implementation, not
 quality. Do not invent a vs-Jev table. Watch for `cua-s1-form-v0`
-(`notes.md` §54). **Collab-arm curriculum:**
+(`notes.md` §54). **Harness extract card (their PR body, not
+re-run; 2026-09-19 ~00:48):**
+[Stagehand #2955](https://github.com/browserbase/stagehand/pull/2955)
+— gemini-3.8-flash, Browserbase, local, 25 tasks × 3: 69/75 vs
+23/25 baseline (92% both). **37/75** no-LLM in **~0.5 s** vs
+baseline **4.37 s** and two LLM calls; LLM-off **36/75**. Pick is a
+**fast path, not a replacement.** Draft stack #2951–#2955. In-sample
+thresholds on the act suite (#2953). Not Harbor. Do not merge with
+solari / Flights / Cua-S1 clocks (`notes.md` §57).
+**Collab-arm curriculum:**
 [jev-testbench](https://github.com/ufx7/jev-testbench) —
 `llm_autonomous` vs `scripted_plus_jev` vs `llm_plus_jev`; Wilson +
 McNemar; Jev is not a peer arm. Bake into jevals/Harbor hygiene, do

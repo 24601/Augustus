@@ -66,6 +66,10 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    [Cua-S1](https://github.com/trycua/cua/tree/main/libs/cua-s1) —
    option-attention among observed elements; plan ≠ execute; dry-run
    default; source-only (`notes.md` §54).
+   Harness cousin (draft stack):
+   [Stagehand #2955](https://github.com/browserbase/stagehand/pull/2955)
+   — pick-and-copy extract + act tree; LLM fallback; pick ≠
+   replacement (`notes.md` §57).
    Productized Kahneman cascade for *any* cheap-decide / expensive-write
    loop (business/life, not only SWE):
    [dual-process-ai](https://github.com/taro1985/dual-process-ai) —

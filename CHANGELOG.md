@@ -309,6 +309,18 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   silence ≠ safer — not a 342-title hit list). Maker clocks stay
   claims unless already a named receipt. No wrapper. No invented
   metrics.
+- Stagehand experimental Jev stack (`research/notes.md` §57,
+  [#2955](https://github.com/browserbase/stagehand/pull/2955) 5/5 of
+  #2951–#2955, all OPEN draft): architecture notes, not an SDK
+  how-to. Major harness productization of
+  observe→score-among-candidates→code-acts (cousins jev-ultrafast /
+  gliner2-ultrafast / cua-s1 / solari). Jev picks a11y elements;
+  code copies text. extract `"off"` | `"judge"` | `"pick"`. Their
+  card (gemini-3.8-flash, 25×3): **37/75** no-LLM ~0.5 s vs baseline
+  **4.37 s**; 69/75 vs 23/25 (92% both); LLM-off **36/75** — pick is
+  a fast path, not a replacement. Screenshot extract always LLM.
+  Cache-check errors never block replay. Do not merge clocks. No
+  invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard
