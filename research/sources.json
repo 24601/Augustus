@@ -3276,7 +3276,7 @@
       "kind": "huggingface",
       "title": "jaswanthsanjay88/jev-0.5b",
       "url": "https://huggingface.co/jaswanthsanjay88/jev-0.5b",
-      "note": "PEFT LoRA on Qwen2.5-0.5B; sha 1044b44b; 0 likes. Card titles itself rev-0.5b. Companion of jaswanthsanjay88/rev. notes.md §92."
+      "note": "PEFT LoRA on Qwen2.5-0.5B; sha 1044b44b; 0 likes. Card titles itself rev-0.5b. GitHub README points at Hub rev-0.5b (distinct sha). This pin is jev-0.5b sha 1044b44b. Do not collapse the two Hub ids. Companion of jaswanthsanjay88/rev. notes.md §92."
     },
     {
       "kind": "github",
@@ -3312,7 +3312,7 @@
       "kind": "github",
       "title": "savka777/jev-search",
       "url": "https://github.com/savka777/jev-search",
-      "note": "TypeScript MIT; 0 stars. HEAD 77137f8. README SHA b25d72c1. jev-search pointer sieve. *theirs* 24p $0.01/7.4s. Score != truth. notes.md §92."
+      "note": "TypeScript MIT; 0 stars. HEAD 77137f8. README SHA b25d72c1. jev-search pointer sieve. *theirs* 24p $0.01/7.4s. Score != truth. savka777/jev-search != kazuhideoki/jev-search != superagents-lab/jev-search. notes.md §92."
     },
     {
       "kind": "github",

@@ -200,7 +200,7 @@ request, and treat a stale pin as a prior, never a setting.
 | Treat safe-sh as pre-exec allow | Static remainder | EpicEric/safe-sh static remainder. `notes.md` §92 |
 | Quote Reranker 0.1667 as live Jev | Offline lexical | Jev-Reranker live Jev not yet measured. `notes.md` §92 |
 | Fail-closed sessionwise if Jev is down | Opt-in; fail-open | sessionwise opt-in relevance. `notes.md` §92 |
-| Treat jev-search scores as truth | Pointer sieve | jev-search pointer sieve. `notes.md` §92 |
+| Treat jev-search scores as truth / collapse into kazuhideoki | Pointer sieve; namesake | jev-search pointer sieve. **savka777/jev-search ≠ kazuhideoki/jev-search ≠ superagents-lab/jev-search**. `notes.md` §92 |
 | Paste 400 ms as an SLA | Demo timestamps | 400ms Salesforce WebMCP. `notes.md` §92 |
 | Let scheduler plugin place Pods | Advisory | typesafe-scheduler-diagnostics advisory. `notes.md` §92 |
 | Send Android screenshots for the decision | AX observe | droidjev screenshot-free. `notes.md` §92 |

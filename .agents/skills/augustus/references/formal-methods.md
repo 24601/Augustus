@@ -701,6 +701,8 @@ robfrase/jev planning memo; typesafe_agent_gates 27/27 / 31/31;
 EpicEric/safe-sh static remainder; pastepilot Confirm before act;
 Jev-Reranker live Jev not yet measured; sessionwise opt-in relevance;
 jev-search pointer sieve; 400ms Salesforce WebMCP;
+Always **savka777/jev-search**. **≠** kazuhideoki/jev-search
+**≠** superagents-lab/jev-search.
 typesafe-scheduler-diagnostics advisory; droidjev screenshot-free;
 Tewoto1 jevcu planner still writes; ha-conversation-jev Jev→Grok;
 dsh-jev can only gate; jev-classification-benchmark specified not run;

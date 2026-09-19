@@ -552,6 +552,8 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     position 4. Jev-Reranker live Jev not yet measured.
     sessionwise opt-in relevance.
     jev-search pointer sieve. Score ≠ truth.
+    Always **savka777/jev-search**. **≠**
+    kazuhideoki/jev-search **≠** superagents-lab/jev-search.
     Full cards: `mappings.md` §4, `faq.md`.
 74. **Enterprise reflexes** (400ms-agentic-sf /
     scheduler-diagnostics): categorization leaving
@@ -559,10 +561,12 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     typesafe-scheduler-diagnostics advisory. Does
     not place Pods. Full cards: `faq.md`.
 75. **Screenshot-free / CU** (droidjev / jevcu):
-    position 9. droidjev screenshot-free.
+    mappings §9 search/control (observe→score→act).
+    droidjev screenshot-free.
     Tewoto1 jevcu planner still writes. **≠**
     closed-vote. Full cards:
-    `applied-mappings.md` §9, `faq.md`.
+    `applied-mappings.md` §9 (not closed-vote cousins),
+    `methods-catalog.md` computer-use row, `faq.md`.
 76. **Hybrid S1/S2** (ha-conversation-jev / dsh-jev):
     position 1 × leftover writer. ha-conversation-jev Jev→Grok.
     dsh-jev can only gate. **≠** HA-Jev. Full cards:

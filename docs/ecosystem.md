@@ -611,7 +611,7 @@ Architecture / mental models / Harbor-jevals / toolbelt, not a `uv` / `npx` / pl
 - **buberlo/jev-pastepilot** — MIT; **0★**; README SHA `5676992d`. pastepilot Confirm before act. rh-guard owns.
 - **uspraveen/Jev-Reranker** — MIT; **0★**; README SHA `f3fc6f64`. Jev-Reranker live Jev not yet measured. r@1 0.1667 offline *theirs*.
 - **Nasrallah-AL/sessionwise** — MIT; **0★**; README SHA `b280e0d2`; size 0. sessionwise opt-in relevance. Fail-open if Jev is down.
-- **savka777/jev-search** — MIT; **0★**; README SHA `b25d72c1`. jev-search pointer sieve. Score ≠ truth.
+- **savka777/jev-search** — MIT; **0★**; README SHA `b25d72c1`. jev-search pointer sieve. Score ≠ truth. **≠** kazuhideoki/jev-search **≠** superagents-lab/jev-search.
 - **furuCRM-Inc/400ms-agentic-sf** — license null; **0★**; README SHA `8bf5e49b`; size 0. 400ms Salesforce WebMCP. Demo timestamps ≠ Harbor.
 - **thevilledev/typesafe-scheduler-diagnostics** — Apache-2.0; **0★**; README SHA `5fbeaeaf`. typesafe-scheduler-diagnostics advisory. Does not place Pods.
 - **mkruglikov/droidjev** — MIT; **0★**; README SHA `213ab849`. droidjev screenshot-free. **≠** jev-ultrafast.

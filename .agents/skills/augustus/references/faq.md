@@ -2512,7 +2512,7 @@ No, and no. Foq ~25ms/2.2GB local. *theirs* on RTX 4080 Super / 150-case exam. R
 
 ## Is rev a measured replica? Quote `latency_ms` 32.4?
 
-No. rev prefill-only + HF jev-0.5b. 32.4 is a sample JSON field, not a bench. Card titles itself `rev-0.5b`. `notes.md` §92.
+No. rev prefill-only + HF jev-0.5b. 32.4 is a sample JSON field, not a bench. Card titles itself `rev-0.5b`. GitHub README points at Hub `rev-0.5b` (distinct sha). Do not collapse the two Hub ids. `notes.md` §92.
 
 ## Is robfrase/jev a running local Jev? Collapse into dannote/jev?
 
@@ -2538,9 +2538,9 @@ No, and no. Jev-Reranker live Jev not yet measured. Offline lexical judge. `conf
 
 No, and no. sessionwise opt-in relevance. Local first. Fail-open if Jev is down. `notes.md` §92.
 
-## Treat jev-search scores as truth? Dump every page into the LLM?
+## Treat jev-search scores as truth? Dump every page into the LLM? Collapse into kazuhideoki/jev-search?
 
-No, and no. jev-search pointer sieve. Score ≠ truth. Counts follow search. `notes.md` §92.
+No, no, and no. jev-search pointer sieve. Score ≠ truth. Counts follow search. Always **savka777/jev-search**. **≠** kazuhideoki/jev-search **≠** superagents-lab/jev-search. `notes.md` §92.
 
 ## Is 400 ms a Salesforce SLA? Screen-scrape then stream?
 

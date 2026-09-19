@@ -15237,7 +15237,11 @@ get real cards. Do **not** re-fold 1347 / §91. rh-guard
      bench**. Companion Hub
      [`jaswanthsanjay88/jev-0.5b`](https://huggingface.co/jaswanthsanjay88/jev-0.5b)
      (sha `1044b44b`; **0 likes**); card titles itself
-     `rev-0.5b`. rev prefill-only + HF jev-0.5b.
+     `rev-0.5b`. GitHub README links Hub
+     [`rev-0.5b`](https://huggingface.co/jaswanthsanjay88/rev-0.5b)
+     (distinct sha). This pin is `jev-0.5b` sha
+     `1044b44b`. Do not collapse the two Hub ids.
+     rev prefill-only + HF jev-0.5b.
    - **[`robfrase/jev`](https://github.com/robfrase/jev)**
      (no language this pass; LICENSE Apache / SPDX
      **NOASSERTION**; **0★**; created 2026-09-19T19:56Z;
@@ -15253,7 +15257,9 @@ get real cards. Do **not** re-fold 1347 / §91. rh-guard
    robfrase ECE ≤ 0.10 are **sensors**.
 
    **Name lock:** always write **yohanargentina-oss/Foq**
-   and **jaswanthsanjay88/rev**. Do not invent a
+   and **jaswanthsanjay88/rev**. Hub `jev-0.5b` titles
+   itself `rev-0.5b`; GitHub README points at Hub
+   `rev-0.5b` (different sha). Do not invent a
    LICENSE for SPDX-null GitHub.
 
 2. **Soft-judgment gate integrity** (rh-guard owns
@@ -15312,13 +15318,18 @@ get real cards. Do **not** re-fold 1347 / §91. rh-guard
      answering passages. README *theirs*: 24p
      $0.01/7.4 s; 60p $0.03/15 s; 7 rounds 466p
      $1.01/142 s. Score ≠ truth. jev-search pointer sieve.
+     Always write **savka777/jev-search**. **≠**
+     kazuhideoki/jev-search **≠**
+     superagents-lab/jev-search.
 
    **Mental model:** retrieve wide → decide → evidence
    set. Soft Noul ≠ hard safety: 0.45 / fail-open
    missing Jev are sensors.
 
-   **Name lock:** **≠** Max-sm-yc/Jev-RAG **≠**
-   jev-sift.
+   **Name lock:** always write **savka777/jev-search**.
+   **≠** kazuhideoki/jev-search **≠**
+   superagents-lab/jev-search **≠** Max-sm-yc/Jev-RAG
+   **≠** jev-sift.
 
 4. **Enterprise reflexes**
 

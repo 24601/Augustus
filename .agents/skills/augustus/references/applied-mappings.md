@@ -1167,6 +1167,8 @@ robfrase/jev planning memo. typesafe_agent_gates 27/27 / 31/31.
 EpicEric/safe-sh static remainder. pastepilot Confirm before act.
 Jev-Reranker live Jev not yet measured. sessionwise opt-in relevance.
 jev-search pointer sieve. 400ms Salesforce WebMCP.
+Always **savka777/jev-search**. **≠** kazuhideoki/jev-search
+**≠** superagents-lab/jev-search.
 typesafe-scheduler-diagnostics advisory. droidjev screenshot-free.
 Tewoto1 jevcu planner still writes. ha-conversation-jev Jev→Grok.
 dsh-jev can only gate. jev-classification-benchmark specified not run.
@@ -1608,6 +1610,16 @@ refusals *theirs*. OMP agent still plans (not closed-vote).
 — hari007sh/jev ≠ dannote/jev. Local cross-encoder
 + voice CU. Local encoder still plans (not closed-vote).
 Teacher is `systemone generate`. License null. `notes.md` §91.
+**Observe→score→act cousins (not closed-vote; Empirical as
+README; 2026-09-19 ~20:41):**
+[droidjev](https://github.com/mkruglikov/droidjev)
+(MIT; **0★**) — droidjev screenshot-free. AX → typed
+pick → adb. find ~0.6 s/iter *theirs*. **≠**
+jev-ultrafast **≠** typesafe-computer-use.
+[jevcu](https://github.com/Tewoto1/Computer-use-and-control-with-Jev)
+(license null; **0★**) — Tewoto1 jevcu planner still writes.
+Jev picks op+target. Preview default. Not closed-vote.
+`notes.md` §92.
 **Adversarial cousin (Playwright executes, Jev chooses;
 license null; 2026-09-19 ~04:39):**
 [browser-jev](https://github.com/DowLucas/browser-jev) —

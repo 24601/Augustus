@@ -1320,7 +1320,8 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   [sessionwise](https://github.com/Nasrallah-AL/sessionwise)
   opt-in relevance;
   [jev-search](https://github.com/savka777/jev-search)
-  pointer sieve);
+  pointer sieve; **≠** kazuhideoki/jev-search
+  **≠** superagents-lab/jev-search);
   **Enterprise reflexes**
   ([400ms-agentic-sf](https://github.com/furuCRM-Inc/400ms-agentic-sf)
   Salesforce WebMCP;
