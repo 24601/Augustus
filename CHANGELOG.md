@@ -927,6 +927,24 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   cua-s1 **≠** jev-macos-loop **≠** camoufox. Do not
   copy `uv sync` / `.env`. No wrapper. No invented
   metrics.
+- User-provided HIGH ~10:01 Boise 2026-09-19
+  (`research/notes.md` §82): **Skip Archer.** Productized
+  ASR observe→score-among-candidates→code-acts in
+  headed Chromium, not a new species and not omni.
+  [moritzkremb/jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser)
+  (JavaScript; MIT; **103★**; README SHA `fa033303`;
+  HEAD `054db0f3`). Web Speech partials → one 9–11-
+  question Jev request (~250–350 ms *theirs*) →
+  policy. Pointer-not-generator for spans. Closed-set
+  may act on a partial; free-text waits. Spoken
+  confirm is convenience, not auth. Numbered overlay,
+  no second model. Integration 27/27 / ~$0.0002/call
+  *theirs* fixtures, not a Harbor taskset. 0.5 / 0.55
+  / 0.6 still soft. **≠** jev-voice-control **≠**
+  nikolas-j **≠** Aj1905 **≠** typesafe-computer-use
+  OCR. Do not copy `npm` / `.env` / `run.sh`. No
+  wrapper. No invented metrics. Expand the §39 tweet;
+  do not re-card it.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

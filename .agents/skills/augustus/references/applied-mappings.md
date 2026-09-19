@@ -337,6 +337,18 @@ Harbor τ. $0.0002 vs Opus $0.032 (155×) *theirs* on
 **one screenshot**, not a taskset. **≠** jev-ultrafast
 **≠** cua-s1 **≠** jev-macos-loop **≠** camoufox. Do
 not copy `uv sync` / `.env` (`notes.md` §81).
+**ASR voice-browser CU (Empirical as README; MIT **103★**;
+2026-09-19 ~10:01):**
+[jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser)
+— Web Speech partials → snapshot ≤100 → one 9–11-question
+Jev request → Playwright. **Jev never generates.** Regex
+spans; Jev picks; code copies. Closed-set may act on a
+partial; free-text waits. Numbered overlays, spoken
+digit, no second model. Spoken confirm is convenience
+not auth. 27/27 fixtures *theirs*. **≠**
+chris-wozniczek/jev-voice-control **≠**
+nikolas-j/jev-voice-browser **≠** typesafe-computer-use.
+Do not copy `npm` / `.env` / `run.sh` (`notes.md` §82).
 **Adversarial browser, Playwright executes / Jev chooses
 (Empirical as README; license null; 2026-09-19 ~04:39):**
 [browser-jev](https://github.com/DowLucas/browser-jev) —
@@ -949,6 +961,14 @@ rules remain the constraint and fire first. Default 40.9% /
 0 of 94 *theirs* on the labelled corpus. Not a sandbox; not
 interlock (secrets may already be in the agent's world).
 Do not copy YAML (`notes.md` §62).
+**Spoken confirm ≠ auth (Empirical as README; voice;
+2026-09-19 ~10:01):**
+[jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser)
+— `destructive ≥ 0.5` → say "confirm". README *theirs*:
+convenience, not a guarantee. Anyone who can reach the
+control port drives the browser. Sensor, not an
+interlock. rh-guard owns the gate cousin. Do not copy
+`npm` (`notes.md` §82).
 **Privilege ≠ verdict / effect-based shell gate
 (Empirical as certification; 2026-09-18 ~23:40):**
 [construct-auto-classifier](https://github.com/godspede/construct-auto-classifier)
@@ -1235,6 +1255,14 @@ Exclusive action set; split questions. 155× *theirs*
 one screenshot. Distinct from this card's no-planner
 browser extreme and from ego-jev hot-click. Do not
 copy `uv` (`notes.md` §81).
+**ASR voice-browser cousin (Empirical as README; MIT
+**103★**; 2026-09-19 ~10:01):**
+[jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser)
+— Playwright executes; Jev only picks among snapshot
+ids and regex spans. Partial-speech wait policy.
+Spoken confirm ≠ auth. Distinct from this card's
+no-planner extreme and from OCR desktop §81. Do not
+copy `npm` (`notes.md` §82).
 **Counterexample**: Stagehand extract `"pick"` with LLM
 fallback sold as "no LLM" — pick is a fast path, not this
 card. **Test**: every typed character exists in goal, facts,

@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T16:05Z",
+  "retrieved": "2026-09-19T16:10Z",
   "sources": [
     {
       "kind": "docs",
@@ -172,9 +172,15 @@
     },
     {
       "kind": "repo",
-      "note": "$0.0002/step + deterministic-state caveat; Productized HIGH §81 (OCR+AX → hosted Jev; never screenshot-to-frontier for the decision; 155× *theirs* one screenshot)",
+      "note": "$0.0002/step + deterministic-state caveat; Productized HIGH \u00a781 (OCR+AX \u2192 hosted Jev; never screenshot-to-frontier for the decision; 155\u00d7 *theirs* one screenshot)",
       "title": "awlevin/typesafe-computer-use",
       "url": "https://github.com/awlevin/typesafe-computer-use"
+    },
+    {
+      "kind": "repo",
+      "note": "Productized HIGH \u00a782 (ASR \u2192 Playwright observe\u2192score\u2192act; partial-speech VOI; pointer spans; spoken confirm \u2260 auth; 27/27 *theirs* fixtures). Expand \u00a739 tweet; do not re-card.",
+      "title": "moritzkremb/jev-voice-browser",
+      "url": "https://github.com/moritzkremb/jev-voice-browser"
     },
     {
       "kind": "repo",
@@ -1014,7 +1020,7 @@
       "kind": "social",
       "title": "Moritz Kremb: transcript then Jev",
       "url": "https://x.com/moritzkremb/status/2100577979021832365",
-      "note": "2026-09-17T13:29:51Z. note_tweet present. Public instance of ASR then Jev, not the Basit ask. His latency and price are his. notes.md \u00a739."
+      "note": "2026-09-17T13:29:51Z. note_tweet present. Public instance of ASR then Jev, not the Basit ask. His latency and price are his. Productized HIGH \u00a782 (moritzkremb/jev-voice-browser). Do not re-card this tweet. notes.md \u00a739 / \u00a782."
     },
     {
       "kind": "docs",

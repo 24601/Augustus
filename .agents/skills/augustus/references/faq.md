@@ -1210,7 +1210,12 @@ capture — that is not the Choice. $0.0002 / 155× is
 one-screenshot *theirs*, not a Harbor taskset. **≠**
 jev-ultrafast **≠** cua-s1 **≠** jev-macos-loop **≠**
 open-typesafe-camoufox. `notes.md` §81.
-`judgment-class.md`; `mixed-architecture.md`; `notes.md` §52, §54, §57, §61, §65, §81.
+[moritzkremb/jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser)
+is the **ASR** product of the same hole (MIT;
+**103★**): partial transcript → 9–11 questions →
+Playwright. Pointer spans. Spoken confirm ≠ auth.
+**≠** jev-voice-control **≠** nikolas-j. `notes.md` §82.
+`judgment-class.md`; `mixed-architecture.md`; `notes.md` §52, §54, §57, §61, §65, §81, §82.
 
 ## Should I send the screenshot to Jev for computer use? Is 155× a Harbor score?
 
@@ -1225,6 +1230,23 @@ frontier read dates unaided. Re-measure on *your* taskset.
 `--min-confidence` 0.4 and post-type Noul 0.5 stay product
 copy, not Harbor τ. Overlapping actions read as doubt; keep
 the set exclusive. `notes.md` §81.
+
+## Is jev-voice-browser omni System One? Is 27/27 a Harbor score?
+
+No, and no. [jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser)
+is **ASR → text-state → hosted Jev → Playwright**. Web
+Speech (audio to Google) is the producer; Jev never
+hears the waveform. Partial transcripts get one
+9–11-question request; policy waits longer on
+free-text than on closed-set. Pointer-not-generator
+for spans. Spoken "confirm" is a convenience, not
+auth. Numbered overlays disambiguate without another
+model. 27/27 / ~$0.0002/call / ~300 ms are *theirs*
+on fixtures, not a Harbor taskset. 0.5 / 0.55 / 0.6
+still soft. **≠** chris-wozniczek/jev-voice-control
+**≠** nikolas-j/jev-voice-browser **≠**
+typesafe-computer-use (OCR). Compose, don't collapse.
+Skip Archer. `notes.md` §39, §82.
 
 ## Does Stagehand extract replace the LLM?
 

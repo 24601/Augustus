@@ -209,6 +209,12 @@ not a global virtue:
 | Collapse typesafe-computer-use into jev-ultrafast / cua-s1 / camoufox | **Fail closed** (qualify the host) | macOS OCR+AX + hosted Jev. **≠** browser DOM **≠** Cua-S1 **≠** OmniParser loop **≠** Camoufox clone |
 | Treat AX as the sole source / mix off-screen into visible items | **Fail closed** (bonus source; separate question) | Spotify 0 *theirs*. A mouse click would land on the wrong pixel |
 | Treat `done` as verified success | **Fail closed** (loop termination) | Writer answer is a reader packet. Dry-run prints no answer |
+| Ship a waveform / screenshot to Jev because the UI is voice | **Fail closed** (transcript text-state) (`jev-voice-browser`) | ASR is the producer. Jev sees the schema, not audio. Compose with OCR §81. Skip Archer |
+| Treat spoken "confirm" as authorization | **Fail closed** (convenience, not a guarantee) | README *theirs*. Anyone who can reach the control port drives the browser. Judgment ≠ permission |
+| Truncate free-text on a closed-set wait | **Fail closed** (wait policy is VOI) | Closed-set may act on a partial; search/type wait for final or 600 ms silence *theirs* |
+| Call a second model to pick among numbered overlays | **Fail closed** (UI number is exact) | Spoken digit copies an id code already holds |
+| Quote 27/27 or $0.0002/call as a Harbor score | **Fail closed** (fixtures) | Integration on captured pages *theirs*. Re-measure. 0.5 / 0.55 / 0.6 still soft |
+| Collapse moritzkremb/jev-voice-browser into jev-voice-control / nikolas-j / typesafe-computer-use | **Fail closed** (qualify the host) | Headed Chromium + Web Speech + hosted Jev. **≠** macOS stub **≠** 0★ namesakes **≠** OCR desktop |
 | Replay a cached browser action | **Fail open** on the freshness check (`stagehand` cacheCheck) | Errors/timeouts never block replay; a stale verdict re-infers. Opt-in: the check costs a snapshot + a request |
 | Skip the LLM on extract / act | **Fail open** to the generator (Stagehand pick/judge) | Schema/gate/screenshot envelope in code; pick is a fast path, not a replacement. Invalid extract → LLM |
 | Publish a public wall ask without a key | **Fail open** (allowlist; UI says Jev offline) (`ask-jev-ai`) | Missing judge is not a block and not a silent pass. Safety p≥0.6 still blocks when the judge is on |
@@ -634,7 +640,8 @@ decision-design card. Do not clone APIs from READMEs.
 | Semantic `WHERE` | Noul/`jev_prob` over a row | SQL, indexes, LIMIT | **jevql** (CLI judges; vanilla Postgres never sees `jev()` — judgment outside the store); sqlite-jev / pg-jev (in-engine) |
 | Formula / query embedding | JUDGE as a function | Spreadsheet/SQL engine | judge-sheets, jevql, sqlite-jev |
 | Soft ABR / live encoder | Choice over a ladder | Probe × headroom, thermal, battery | bitrate-advisor |
-| Voice → typed act | Choice/Noul on a transcript | ASR producer; macOS actions | jev-voice-control (README stub) |
+| Voice → typed act | Choice/Noul on a transcript | ASR producer; macOS actions | jev-voice-control (README stub; §44) |
+| ASR voice-browser CU (productized) | 9–11 questions on a partial transcript; pointer spans | Playwright; debounce; numbered overlay; spoken confirm still soft | moritzkremb/jev-voice-browser (MIT **103★**; `notes.md` §82). **≠** jev-voice-control **≠** nikolas-j **≠** typesafe-computer-use |
 | Host-adapter routing | Choice next-tool + done-Noul | Shrink `tools[]`; compaction | jev-routing (not MCP; **delta:** Cursor Agent CLI / Devin CLI this hour); **jev-in-codex** (Codex MCP; ranking unbenchmarked; lexical fallback) |
 | Multi-model route | Classify axes; policy maps | Escalation `if`, path regex | jev-claw, routeKit |
 | Finish-line gate | Noul/Score/Choice on evidence | Deterministic shell checks first | hermes-jev-north-star |
@@ -650,6 +657,7 @@ decision-design card. Do not clone APIs from READMEs.
 | Extractive quotes / pointer evidence | Per-sentence, per-line-id, or char-offset Noul/Choice | Verbatim join; place; `redecide` / CSV; model never writes the excerpt | testimonial-miner; jev-reviewer; gliner25-compaction |
 | Structured observe → decide → act | Score / Choice among numbered a11y/DOM/OCR+AX controls | Guard check; deny-list absence; no screenshots **on the decision**; no generated selectors; TYPE is the only generation; `DONE` ≠ verified success | solari-reflex (Jev); jev-ultrafast (Jev); gliner2-ultrafast (GLiNER2); laya-mind2web (Laya, DOM indices); cua-s1 (option-attention fill/check/click/skip; not TypeSafe Jev; source-only); Stagehand experimental Jev (harness; draft #2951–#2955); **ego-jev** (ego-lite indexed table; operation+target; `--until` in code); **typesafe-computer-use** (macOS OCR+AX; hosted Jev; MIT **427★**; `notes.md` §81) |
 | OCR+AX desktop CU (productized) | kind / item / site / offscreen Choices | Crop+tile OCR; AX bonus never sole; dates.py; writer only for free text; post-type Noul still soft | awlevin/typesafe-computer-use. 155× *theirs* one screenshot. **≠** jev-ultrafast **≠** cua-s1 **≠** camoufox |
+| ASR voice-browser CU (productized) | intent / target / site / complete / is_command / destructive + span Choices | Web Speech producer; Playwright acts; numbered overlay; spoken confirm ≠ auth | moritzkremb/jev-voice-browser. 27/27 fixtures *theirs*. **≠** jev-voice-control **≠** typesafe-computer-use |
 | Harness pick-and-copy extract | Choice among a11y candidates; completion Noul | Schema plan + validation gate in code; screenshot always LLM; LLM fallback; pick ≠ replacement | Stagehand #2955 (`off`/`judge`/`pick`; 37/75 no-LLM ~0.5s vs 4.37s *their* card) |
 | Specialist form S1 (plan ≠ execute) | Option-attention among observed elements | Dry-run default; snapshot-bound tokens; reobserve; submit opt-in; fail-closed checkbox/fill | cua-s1 (`cua-s1-form-v0` profile; no weights this pass) |
 | Hybrid local decide + remote fill | Local encoder scores observed controls | Code owns actuators; remote OpenAI-compat helper writes field text only | gliner2-ultrafast (GLiNER2 local + Mercury 2.5 default) |

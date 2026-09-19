@@ -185,6 +185,19 @@ below, next to the when-to-use table.
   **≠** jev-macos-loop OmniParser **≠** camoufox
   **≠** blackwood-rlcd (`notes.md` §81). Do not copy
   `uv` / `.env`. Skip Archer.
+  **ASR voice-browser product (Empirical as README; MIT
+  **103★**; 2026-09-19 ~10:01):**
+  [jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser)
+  is the same observe→score-among-candidates→code-acts
+  hole with **ASR** as the producer: Web Speech
+  transcript + numbered Playwright elements → hosted
+  TypeSafe (9–11 questions) → code clicks. **Jev never
+  generates.** Partial-speech wait is VOI. Spoken
+  confirm is convenience, not auth. Numbered overlays
+  disambiguate without another model. 27/27 fixtures
+  *theirs*. **≠** jev-voice-control **≠** nikolas-j
+  **≠** typesafe-computer-use OCR (`notes.md` §82).
+  Do not copy `npm` / `.env`. Skip Archer.
 - **Decide.** Typed Choice/Score/Noul with a decision/proper-scoring
   objective. That is Jev's product claim. Open heads copy the *shape*;
   distillation copies the *teacher* (openjev-lm, jev-gate-student-b).
@@ -391,7 +404,12 @@ capability shift, independent of vendor:
    answer reader may receive the capture (`notes.md`
    §81). Overlapping options = false low confidence.
    155× is one screenshot. **≠** jev-ultrafast **≠**
-   cua-s1. Hosted TypeSafe product APIs and prompted
+   cua-s1. **Receipt (README *theirs*):**
+   [jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser)
+   never ships a waveform to Jev; ASR → transcript →
+   Choices → Playwright; pointer spans; spoken confirm
+   ≠ auth (`notes.md` §82). Compose with OCR, don't
+   collapse. Hosted TypeSafe product APIs and prompted
    LocalJev are **not** a shared-prefix multimodal
    species. Skip Archer.
 5. **Open heads and GLi\* make the control plane local.** Air-gap /

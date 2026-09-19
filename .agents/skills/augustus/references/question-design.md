@@ -114,6 +114,9 @@ request, and treat a stale pin as a prior, never a setting.
 | Overlapping CU actions / one 255-way soup | Confidence collapse; noise in the kind | Exclusive set; split kind/item/site ([typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use)). `notes.md` §81 |
 | Ship pixels to Jev for the click | Omni CU | OCR+AX text-state; answer-reader capture ≠ the Choice. Skip Archer. `notes.md` §81 |
 | Quote 155× as a Harbor score / 0.4 as τ | One screenshot; product copy | Re-measure. schema-safe ≠ correct. `notes.md` §81 |
+| Ship audio to Jev / treat 27/27 as Harbor | Omni voice; fixtures as a board | Transcript text-state; integration on captured pages *theirs*. [jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser). `notes.md` §82 |
+| Truncate free-text on a partial / spoken confirm as auth | Wait-policy collapse; soft Noul as interlock | Closed-set may fire; search/type wait. Confirm is convenience. `notes.md` §82 |
+| Call a second model for "two" / collapse into jev-voice-control | Extra generation; namesake | Numbered overlay is exact. **≠** chris-wozniczek **≠** nikolas-j **≠** OCR §81. `notes.md` §82 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

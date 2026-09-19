@@ -172,6 +172,11 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    — never ships a screenshot for the *decision*;
    overlapping options = doubt; `done` ≠ verified
    success; 0.4 / 0.5 still soft (`notes.md` §81).
+   ASR voice-browser product (hosted Jev; MIT **103★**):
+   [jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser)
+   — never ships a waveform; partial-speech wait;
+   spoken confirm ≠ auth; numbered overlay, no second
+   model (`notes.md` §82).
    Closed-vote extreme (no planner LLM):
    [JevOnly](https://github.com/buluoray/JevOnly) (`notes.md` §61).
    Host-owned product:

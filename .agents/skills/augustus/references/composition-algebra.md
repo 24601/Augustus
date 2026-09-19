@@ -279,3 +279,12 @@ datasets — every gate is a per-dataset measurement (see validation.md).
     may. 155× is one screenshot *theirs*. Full cards:
     `mixed-architecture.md`, `faq.md`,
     `applied-mappings.md` §9, `validation.md`.
+22. **ASR observe→score→act** (moritzkremb/jev-voice-browser):
+    position 10 (Discretizer: waveform → transcript +
+    numbered elements) then position 4 (Selector).
+    Width-is-cheap: 9–11 questions on one request.
+    Partial-speech wait is VOI (closed-set vs free-text).
+    Spoken confirm is not a grant. Overlay numbers are
+    exact, not a second model. Compose with item 21
+    (OCR). Full cards: `mixed-architecture.md`, `faq.md`,
+    `applied-mappings.md` §9, `validation.md`.

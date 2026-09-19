@@ -2203,3 +2203,40 @@ Cross-repo addition: (iq) OCR+AX desktop CU family;
 (ir) exclusive CU options / split questions;
 (is) screenshot-to-frontier fail-closed on the
 decision; (it) 155× one-screenshot ≠ Harbor score.
+
+## Batch #66 (2026-09-19 ~16:10 UTC / ~10:10 Boise) — moritzkremb/jev-voice-browser productized ASR CU
+
+Note: `research/notes.md` §82. Docs-only. Folded into PR #2.
+Skip Archer. No invented metrics. Hunches labeled.
+Quote README. Not a hit list. **Do not re-card** the
+§39 tweet (~300 ms / $0.0002 *theirs*). User
+SIGNAL_89ca (~08:50 Boise; MIT; ★100) + live this
+pass **103★** / 12 forks / 0 issues; README SHA
+`fa033303`; HEAD `054db0f3`.
+
+- **Productized ASR observe→score→act.** Web Speech
+  partials → Playwright snapshot ≤100 → one 9–11-
+  question hosted Jev request → policy. Same CU hole
+  as typesafe-computer-use OCR, different producer
+  (waveform → transcript, not screenshot → OCR).
+  Jev never hears audio. Skip Archer.
+- **Partial-speech VOI.** Closed-set may fire on a
+  partial; free-text waits for final or 600 ms
+  silence. `complete` Noul + 900 ms silence *theirs*.
+- **Pointer-not-generator.** Regex spans; Jev picks;
+  code copies. Numbered overlay, no second model.
+- **Spoken confirm ≠ auth.** `destructive ≥ 0.5` →
+  say "confirm". README *theirs*: convenience, not a
+  guarantee. Control-port reach is the grant.
+  rh-guard owns the gate cousin. 0.5 / 0.55 / 0.6
+  still soft.
+- **27/27 fixtures ≠ Harbor.** ~$0.0002/call; p50
+  ≈ 300 ms *theirs*. **≠** jev-voice-control **≠**
+  nikolas-j **≠** Aj1905 **≠** typesafe-computer-use.
+
+Census not re-derived. Archer still NOT landed.
+
+Cross-repo addition: (iu) ASR perception front-end;
+(iv) partial-speech wait policy / free-text VOI;
+(iw) spoken confirm ≠ auth; (ix) overlay
+disambiguate without another model.

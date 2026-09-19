@@ -102,6 +102,11 @@ regex/LLM/code, Jev selects).
   "every piece of reasoning the frontier model does for free has to be
   rebuilt here as deterministic state" (OCR + explicit date parsing).
   **Productized HIGH:** `notes.md` §81. Do not re-card this one-liner.
+- moritzkremb/jev-voice-browser: voice → Playwright; partial
+  transcripts → one 9–11-question Jev request (~300 ms);
+  pointer-not-generator for spans; `is_command` / `complete` /
+  `destructive` gates. **Productized HIGH:** `notes.md` §82.
+  Do not re-card this one-liner.
 - RomanSlack/jev-drone: 500Hz control + 50Hz safety in code, classical CV to
   symbols at 15Hz, Jev advisory ~2.5Hz (Choice maneuver + Score risk + Noul
   lost-vs-occluded). "Cannot be the perception layer or run at control rate."
@@ -1702,7 +1707,9 @@ System One decides on utterances. Independent public instance, not
 Basit: [Moritz Kremb](https://x.com/moritzkremb/status/2100577979021832365)
 (2026-09-17T13:29:51Z, `note_tweet` present). Talk → transcript → Jev
 probabilities → browser click. His ~300 ms and $0.0002 are his
-receipt, not a class number.
+receipt, not a class number. **Productized HIGH:**
+[`moritzkremb/jev-voice-browser`](https://github.com/moritzkremb/jev-voice-browser)
+`notes.md` §82. Do not re-card this tweet.
 
 **Not native omni System One.** Information dies at the interface: the
 decision call sees the schema you serialized, not the pixels or the
@@ -11739,7 +11746,7 @@ hit list. Do not copy Stripe, uv, or `.env`.
 Do not treat 155× / 0.4 / 0.5 as calibrated
 constants. Do not ship screenshots “because CU.”
 Do not treat `done` as verified success. Do not
-steal jev-voice-browser (ASR later).
+steal jev-voice-browser (now §82).
 
 ### Curated status
 
@@ -11758,3 +11765,190 @@ gallery); `faq.md`; `mental-models.md`;
 `judgment-class.md` portent 4;
 `methods-catalog.md`. Hunches labeled. No
 wrapper.
+
+## 82. User-provided HIGH — moritzkremb/jev-voice-browser (2026-09-19 ~10:01 Boise / ~16:01 UTC)
+
+Docs-only into PR #2. **Skip Archer.** Quote the
+README. Not a hit list. Do **not** re-fold §50–§81
+HIGH except sibling contrast. Hunches labeled. No
+wrappers, `npm install`, `npx playwright`, `.env`,
+`run.sh`, keys, copied ports, or invented metrics.
+TypeSafe Jev remains the exemplar — this signal is
+**productized ASR → observe→score-among-candidates→code-acts
+in a headed Chromium**, not a new species and not
+omni System One.
+
+The §39 tweet already stands (Talk → transcript →
+Jev → click; ~300 ms / $0.0002 *theirs*). Do not
+re-card that sentence. Material how-to-apply:
+
+1. **ASR as perception front-end** — Web Speech
+   streams partial transcripts; Playwright snapshot
+   ≤100 elements (`e01..`); hosted Jev scores;
+   code acts. Compose with typesafe-computer-use
+   OCR+AX (§81): both rebuild what frontier would
+   read from a waveform/pixels; the decision call
+   never sees audio or a screenshot.
+2. **Partial-speech VOI + wait policy** —
+   `complete` Noul, 900 ms silence, recognizer
+   final. Closed-set ("go back") may act on a
+   partial; free-text (search / type) waits for
+   final or 600 ms silence so a query is not
+   truncated.
+3. **Multi-question speculative fan-out** — one
+   request, 9–11 typed questions (intent / target /
+   site / complete / is_command / destructive /
+   scroll_amount / text_span / url_span / …).
+   Same width-is-cheap family as choxos two-pass
+   (§74) and typesafe-computer-use kind/item/site
+   (§81).
+4. **Destructive spoken confirm is soft safety,
+   not auth** — `destructive ≥ 0.5` → say
+   "confirm". README *theirs*: treat as a
+   convenience, not a guarantee. Judgment ≠
+   permission. rh-guard owns the gate cousin.
+5. **Disambiguate without another model call** —
+   numbered overlays; a spoken number picks among
+   the top 2–3. Code copies; Jev already voted.
+
+Receipts: user SIGNAL_89ca (~08:50 Boise; MIT;
+★100) + uploaded README_0987 plus live GitHub
+this pass. JavaScript; MIT; **103★** / 12 forks /
+0 issues; created 2026-09-17T22:40:19Z; pushed
+2026-09-17T22:40:26Z; updated 2026-09-19T15:49:09Z.
+HEAD `054db0f3`. README SHA `fa033303`. Star counts
+**ephemeral**.
+
+### HIGH
+
+1. **[`moritzkremb/jev-voice-browser`](https://github.com/moritzkremb/jev-voice-browser)**
+   — NEW HIGH (tweet instance already §39). MIT;
+   **103★**. Node ≥ 20; headed Chromium via
+   Playwright; Chrome/Edge Web Speech (audio to
+   Google).
+
+   **Quote README (*theirs*).** “Speech is streamed
+   word by word from the browser's Web Speech API
+   to a small Node server; on every partial
+   transcript the server asks **Jev** … one request
+   with a dozen typed questions … gets typed
+   probabilities back in ~250–350 ms, and code
+   decides whether to act, wait, ask, or ignore.”
+   “**Jev never generates text.** Search queries,
+   typed text and URLs are extracted as candidate
+   spans by code and Jev only *picks* one, which is
+   copied verbatim.” “A response for a partial
+   transcript may still act if the words already
+   commit to a closed-set action ("go back"), but
+   is never treated as final for free text.”
+   “destructive clicks require a spoken "confirm",
+   but treat that as a convenience, not a
+   guarantee.”
+
+   **Loop (*theirs*):** mic → debounce 200 ms →
+   snapshot ≤100 viewport-first elements → **one**
+   Jev request (9–11 questions) → policy in
+   `constants.js` thresholds → Playwright act /
+   overlay / confirm / ignore. Up to 2 in flight;
+   older cancelled. One action per utterance.
+
+   **Policy (*theirs*; still soft):**
+   `is_command ≥ 0.5` else ignore; intent conf
+   ≥ 0.55 and not `none` else wait; `complete ≥ 0.6`
+   or 900 ms silence or final else wait; free-text
+   extra wait; target conf ≥ 0.45 and top p ≥ 0.35
+   else numbered overlay; `destructive ≥ 0.5` →
+   confirm. Ambient speech `is_command` ≈ 0.02.
+   Gates “calibrated on `jev-1.13.0`” — re-check
+   `T` if the alias moves. schema-safe ≠ correct.
+
+   **Economics (*theirs*):** ~$0.0002/call; Jev
+   latency avg ≈ 330 ms (p50 ≈ 300 ms; first
+   request ~700 ms TLS); last-word→decision ≈ 300 ms
+   including debounce; integration **27/27** on
+   captured fixtures; whole demo ≈ $0.01. Fixtures
+   ≠ a Harbor taskset. Do not promote 27/27 or
+   $0.0002 as class constants.
+
+   **How to apply (recipe, not a dump):**
+
+   1. **Perceive off-model.** ASR (or OCR §81)
+      produces text-state; Jev never hears the
+      waveform. Information dies at the interface
+      (§39). Skip Archer.
+   2. **Wait policy is VOI.** Closed-set may fire
+      early; free-text pays for the rest of the
+      utterance. Truncating "search for alan" is
+      the cheap failure.
+   3. **Fan out the gates.** is_command / complete /
+      destructive / intent / target in one request.
+      Do not serialize them into a planner turn.
+   4. **Pointer the payload.** Regex spans; Jev
+      picks; code copies. Same species as
+      Stagehand pick / choxos line-id.
+   5. **Confirm ≠ auth.** Spoken "confirm" is a
+      second Noul path, not an interlock. Anyone
+      who can reach the control port drives the
+      browser (*theirs*).
+   6. **Disambiguate in the UI.** Numbered
+      overlays + a spoken digit; no second model.
+
+   **Name locks (do not collapse):**
+   - **≠** [chris-wozniczek/jev-voice-control](https://github.com/chris-wozniczek/jev-voice-control)
+     (README-only macOS stub; §44 Hypothesis).
+   - **≠** [nikolas-j/jev-voice-browser](https://github.com/nikolas-j/jev-voice-browser)
+     (0★ TypeScript namesake, created later).
+   - **≠** [Aj1905/jev-voice-browser](https://github.com/Aj1905/jev-voice-browser)
+     (0★ Chrome-extension namesake).
+   - **≠** [kevinbadi/jev-voice](https://github.com/kevinbadi/jev-voice)
+     (whisper.cpp Mac) **≠**
+     [brudarko/jev-mac-voice](https://github.com/brudarko/jev-mac-voice)
+     **≠** [vcjdeboer/jev-voice](https://github.com/vcjdeboer/jev-voice)
+     (writing-voice profiler).
+   - **≠** [awlevin/typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use)
+     (OCR+AX desktop; §81).
+   - **≠** [DowLucas/browser-jev](https://github.com/DowLucas/browser-jev)
+     (Playwright executes, not voice).
+   - **≠** openvons voice class; **≠** blackwood-rlcd.
+
+   **Siblings (do not re-card):** ASR composition
+   §39 / §43; jev-voice-control stub §44; choxos
+   fan-out §74; typesafe-computer-use OCR §81;
+   browser-jev §69; Stagehand pick §57. Do **not**
+   copy `npm` / `.env` / `run.sh`.
+
+### Skip Archer
+
+HF `archerhume`/`4rcherhume` still empty. Web
+Speech audio goes to Google; Jev sees a transcript.
+Specialist composition, not shared-prefix omni.
+Skip Archer this fold.
+
+### Not
+
+Not a re-card of the §39 tweet. Not a Harbor
+taskset. Not omni System One. Not a TypeSafe
+how-to. Not a hit list. Do not copy Stripe, npm,
+or `.env`. Do not treat 27/27 / 0.5 / 0.55 / 0.6
+as calibrated constants. Do not treat spoken
+confirm as authorization. Do not ship waveforms
+“because voice.” Do not steal AgentGhost (tool
+wrap later). Do not steal jev-semgrep.
+
+### Curated status
+
+Tweet instance **kept**. Productized HIGH
+**folded**. Archer still **NOT landed**. §81 OCR
+**not re-derived**.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`validation.md`; `toolbox-mapping.md`;
+`composition-algebra.md` item 22;
+`question-design.md`; `mappings.md` §6/§8/§9;
+`applied-mappings.md` §2/§7/§9;
+`judgment-class.md` portent 4;
+`methods-catalog.md`; `agent-self-assessment.md`.
+Hunches labeled. No wrapper.

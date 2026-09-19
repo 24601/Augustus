@@ -626,6 +626,16 @@ actions: overlap is loud doubt, not silent 1.00.
 155× / $0.0002 is *theirs* on one screenshot, not a
 taskset. Writer only when free text is the job
 (`notes.md` §81).
+**Partial-speech VOI (Empirical as README; voice;
+2026-09-19 ~10:01):**
+[jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser)
+— pay 9–11 questions on every partial (~300 ms
+*theirs*). Closed-set may act before the sentence
+ends; free-text waits for final or 600 ms silence so
+"search for alan" is not truncated. Numbered overlay
+is cheaper than a second model. Spoken confirm is
+not a gather. 27/27 fixtures *theirs*, not a taskset
+(`notes.md` §82).
 **Evidence-synthesis two-pass VOI (Empirical as README;
 medicine/Cochrane; 2026-09-19 ~08:48):**
 [choxos/jev-reviewer](https://github.com/choxos/jev-reviewer)
@@ -903,6 +913,12 @@ of Jev prompt-suppression. Jev is permission-*probability*,
 not permission. Agent prose withheld after 0→3 corpus
 misses. Never shadows a built-in tool (would bypass deny).
 `notes.md` §62.
+**Spoken confirm ≠ constraint (Empirical as README;
+2026-09-19 ~10:01):**
+[jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser)
+— destructive Noul is a sensor; spoken "confirm" is
+not an interlock. Control-port reach grants. rh-guard
+owns the gate cousin (`notes.md` §82).
 **Judgment ≠ permission (Hypothesis / outline only):**
 [skill-broker](https://github.com/adamjralph/skill-broker)
 — code owns grants; Jev scores relevance and **never
@@ -1047,6 +1063,13 @@ loop; the substituted classifier step is exclusive
 kind/item/site. Perception stays in code. Writer is
 leftover generation. Decision never ships pixels; the
 answer reader may. Do not copy `uv` (`notes.md` §81).
+**ASR voice-browser cousin (Empirical as README;
+2026-09-19 ~10:01):**
+[jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser)
+— the *algorithm* is debounce→snapshot→Choice→Playwright;
+the substituted classifier is 9–11 questions on a
+partial transcript. ASR stays off-model. Confirm is
+not a grant. Do not copy `npm` (`notes.md` §82).
 
 ```text
 loop     = yours (beam / funnel / stages / MCTS / incident command)

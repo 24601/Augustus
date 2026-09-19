@@ -1286,3 +1286,33 @@
 - notes.md §81; sources.json (457 sources, 454 unique URLs,
   retrieved 2026-09-19T16:05Z); findings.md batch #65.
   No wrapper.
+## 2026-09-19 ~16:10 UTC — user-provided jev-voice-browser HIGH (~10:10 Boise)
+- Docs-only into PR #2. `notes.md` §82. Skip Archer.
+  Hunches labeled. No wrapper. No invented metrics.
+  Quote README. Expand the §39 tweet; do not re-card
+  it. Do not copy `npm` / `.env` / `run.sh` / keys.
+- Receipts: user SIGNAL_89ca (~08:50 Boise; MIT;
+  ★100) + uploaded README_0987 + live GitHub this
+  pass (**103★** / 12 forks / 0 issues; README SHA
+  `fa033303`; HEAD `054db0f3`; pushed
+  2026-09-17T22:40:26Z).
+- Folded: productized ASR observe→score→act
+  (hosted Jev); partial-speech VOI (closed-set may
+  fire; free-text waits); 9–11-question fan-out;
+  pointer spans; spoken confirm ≠ auth; numbered
+  overlay, no second model; 27/27 / ~300 ms /
+  ~$0.0002 *theirs* fixtures ≠ Harbor; 0.5 / 0.55 /
+  0.6 still soft. **≠** jev-voice-control **≠**
+  nikolas-j **≠** Aj1905 **≠** typesafe-computer-use
+  OCR. Compose with §81; never waveform-to-Jev.
+- Census not re-derived. Archer still NOT landed.
+- Cards: SKILL.md, mixed-architecture, faq,
+  mental-models, agent-self-assessment, validation,
+  toolbox, composition-algebra item 22,
+  question-design, mappings §6/§8/§9,
+  applied-mappings §2/§7/§9, judgment-class
+  portent 4, methods-catalog, ecosystem, CHANGELOG,
+  README.
+- notes.md §82; sources.json (458 sources, 455 unique URLs,
+  retrieved 2026-09-19T16:10Z); findings.md batch #66.
+  No wrapper.
