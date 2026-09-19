@@ -211,6 +211,20 @@ timeout / `minReductionRatio`). ~50× vs LLM summary
 paths. **≠** pi-jev-compact **≠** pi-jev-compaction.
 Always write **zaycruz/fast-jev-compaction-pi**. Do not
 copy `pi install` (`notes.md` §87).
+**Tiny local RAG prune (Empirical as README; 2026-09-19
+~19:47):**
+[nanoprune](https://github.com/dmdjr1409/nanoprune)
+(MIT; **0★**) — local encoder prune/choice/score.
+nanoprune 2.8MB ECE 2.58% *theirs*. Distill from Laya
+421M. “0 hallucination guaranteed” theater. **≠**
+TypeSafe Jev. Do not copy `pip` (`notes.md` §91).
+**Deterministic log verify ≠ System One (Empirical as
+README; 2026-09-19 ~19:47):**
+[system-one-skills](https://github.com/0thernet/system-one-skills)
+(MIT; **0★**) — 0thernet/system-one-skills
+deterministic verify. No model call. 3/24 logs net
+8,026 tok *theirs*; holdout would add 3,612. Do not
+paste as a judge (`notes.md` §91).
 
 ## 2. Exact-text keep / drop
 
@@ -576,6 +590,13 @@ calibrated bug p. n=12 fixture. Verify grounding,
 not exec. Review queue is the product. rh-guard owns
 the gate cousin. Do not copy `AI_GATEWAY_API_KEY`
 (`notes.md` §90).
+**Bulk log classify packing VOI (Empirical as README;
+2026-09-19 ~19:47):**
+[decide](https://github.com/alsoleg89/decide)
+(license null; **0★**) — alsoleg89/decide packing VOI.
+500 issues $0.0203 *theirs*. 0.8 ≠ 80% accuracy.
+Classifies; never runs commands. **≠** jev-sift.
+Do not invent MIT. Do not copy `uv` (`notes.md` §91).
 **Counterexample**: sampling 2% of production with an LLM judge —
 the economics inversion is the point. **Test**: planted harness bugs
 recovered; false-flag rate on known-clean runs; LLM never runs on the
@@ -814,6 +835,13 @@ Show anyway. Metadata not pixels. `notes.md` §90.
 scores are relative. Noul not Choice for scale.
 CommonLit r=0.824 / ρ=0.841 *theirs*. Do not copy
 `uv` (`notes.md` §90).
+**Local prune ranking (Empirical as README; 2026-09-19
+~19:47):**
+[nanoprune](https://github.com/dmdjr1409/nanoprune)
+— nanoprune 2.8MB ECE 2.58%. Typed-judge-kit warns
+Noul rerank made R@5 worse 14/15→13/15: a gate is
+not a ranker on already-good retrieval. `notes.md`
+§91.
 **Public classification API (Empirical as README +
 eval/README; life/business; 2026-09-19 ~08:37):**
 [classifier-dev](https://github.com/mrmps/classifier-dev)
@@ -1100,6 +1128,39 @@ only. Worker has no key. Do not copy wrangler
 tpellet/hunch exit 3. never-execute list. Pin
 `jev-1.13.0`. **≠** carldaws/hunch. Do not copy
 `cargo install` (`notes.md` §90).
+**Judge harness as control API (Empirical as README;
+2026-09-19 ~19:47):**
+[judgekit](https://github.com/lexingtonhibiki/judgekit)
+(MIT; **0★**) — judgekit YAML classify/score/route/verify.
+n=130 97.7% *theirs*. **≠** JudgeBench. Do not copy
+`.env` (`notes.md` §91).
+**Verdict-in-code (Empirical as README; 2026-09-19
+~19:47):**
+[typed-judge-kit](https://github.com/Ascurse/typed-judge-kit)
+(MIT; **0★**) — typed-judge-kit verdict-in-code.
+Thresholds from labels. MIN_LABELS=20. `notes.md` §91.
+**Policy-constrained skill select (Empirical as README;
+2026-09-19 ~19:47):**
+[hermes-switchyard](https://github.com/bgrablin/hermes-switchyard)
+(MIT; **0★**; v0.4.1) — hermes-switchyard ≠
+hermes-jev-router ≠ hermes-plugin-jev. Advisory; never
+loads skills; hosted routing not claimed. Do not copy
+plugin install (`notes.md` §91).
+**Decision-as-Plugin (Empirical as README; 2026-09-19
+~19:47):**
+[openrouter-jev-mcp](https://github.com/ctmx/openrouter-jev-mcp)
++ [typesafe-mcp](https://github.com/cyrusasco/typesafe-mcp)
++ [FrancoisChastel/jev-code](https://github.com/FrancoisChastel/jev-code)
+(**1★**) + [claudecode-jev-marketplace](https://github.com/skylence-org/claudecode-jev-marketplace)
++ [mcp_jev](https://github.com/pedroknigge/mcp_jev)
++ [jev-skill](https://github.com/codaaiteam/jev-skill).
+ctmx/openrouter-jev-mcp Decision-as-Plugin.
+FrancoisChastel/jev-code ≠ npm jev-code.
+claudecode-jev-marketplace fail-open not hot path.
+pedroknigge/mcp_jev packs not ask_jev.
+cyrusasco/typesafe-mcp noul deadband 0.35–0.65.
+codaaiteam/jev-skill jevtypesafeai.com ≠ TypeSafe.
+Do not copy `npx` / keys (`notes.md` §91).
 
 ## 6. Expensive observation router
 
@@ -1354,6 +1415,15 @@ chrome:// never touched. `notes.md` §90.
 voluntary action; LLMs plan never decide. ORIGIN
 pause-if-no-Jev. validResponse sums-to-1. **≠**
 Essentiel-Jev. `notes.md` §90.
+**Soft-score vs hard-argmax (Empirical as README;
+cross-ref rh-guard; 2026-09-19 ~19:47):**
+[typed-gate](https://github.com/harshpuri84/typed-gate)
+(MIT; **0★**) — typed-gate band [0.40,0.60] is refusal.
+0.51 is not a yes. 0 wrong/0 omit/117 review *theirs*.
+rh-guard owns the gate cousin.
+[pi-jev-gate](https://github.com/fivethirty/pi-jev-gate)
+(MIT; **0★**) — pi-jev-gate fail-open binary p(block)≥0.50.
+Ask band removed. **≠** pi-jev-approver. `notes.md` §91.
 
 ## 8. Decide → policy → LLM leftover cascade
 
@@ -1424,6 +1494,12 @@ readonly. `notes.md` §89.
 that never decides. ORIGIN pause-if-no-Jev.
 validResponse sums-to-1. **≠** Essentiel-Jev.
 `notes.md` §90.
+**Independent `/v1/decide` leftover (Empirical as
+README; 2026-09-19 ~19:47):**
+[codaaiteam/jev-skill](https://github.com/codaaiteam/jev-skill)
+— leftover writer vs hosted decide.
+codaaiteam/jev-skill jevtypesafeai.com ≠ TypeSafe.
+Do not copy `JEV_API_KEY` (`notes.md` §91).
 **Public decide-backend cousin (Empirical as README;
 2026-09-19 ~08:37):**
 [classifier-dev](https://github.com/mrmps/classifier-dev)
@@ -1493,6 +1569,17 @@ state. ZHUBoer/ego-jev reserved `__none__`.
 runWorkflow completed ≠ success. Exact work local.
 Agent still plans (not closed-vote).
 **≠** jiangkoumo/ego-jev. `notes.md` §90.
+**Observe→score→act cousins (Empirical as README;
+2026-09-19 ~19:47):**
+[jev-browser-agent](https://github.com/smartdio/jev-browser-agent)
+— smartdio/jev-browser-agent ≠ ZHUBoer/ego-jev.
+conf&lt;0.6 escalates. 280–740 ms *theirs*.
+[omp-jev-web](https://github.com/Dakai/omp-jev-web)
+— Dakai/omp-jev-web DONE ≠ proof. Overlay 5.9 s / 0
+refusals *theirs*. **≠** omp-greenlight.
+[hari007sh/jev](https://github.com/hari007sh/jev)
+— hari007sh/jev ≠ dannote/jev. Local cross-encoder
++ voice CU. License null. `notes.md` §91.
 **Adversarial cousin (Playwright executes, Jev chooses;
 license null; 2026-09-19 ~04:39):**
 [browser-jev](https://github.com/DowLucas/browser-jev) —

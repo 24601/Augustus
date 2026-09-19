@@ -2407,3 +2407,101 @@ No, and no. Local n-gram/anchor overlap. jevbrain
 AUTO_ACT is not a Noul. WHITEPAPER unverified theater.
 README MIT vs SPDX null. **≠** classifier.dev. `notes.md`
 §90.
+
+## Is judgekit a JudgeBench clone? Quote 97.7% as a class ceiling?
+
+No, and no. judgekit YAML classify/score/route/verify.
+n=130 zh mini sets. 0.7 gate *theirs* on 3 errors.
+**≠** JudgeBench **≠** DeepEval **≠** promptfoo.
+`notes.md` §91.
+
+## Threshold on the model's own confidence? Skip `combine()`?
+
+No. typed-judge-kit verdict-in-code. Gemini 0.88–0.95
+does not discriminate. MIN_LABELS=20 / P_MIN=0.95.
+Noul rerank made R@5 worse 14/15→13/15. `notes.md` §91.
+
+## Is decide 0.8 equal to 80% accuracy? Dump results into context?
+
+No, and no. alsoleg89/decide packing VOI. 0.8 ≠ 80% accuracy. confidence ≠ max(p). Review rate is an
+outcome. **≠** jev-sift. License null. `notes.md` §91.
+
+## Does the calibration arena act? Is it jev-arena?
+
+No, and no. jev-calibration-arena never acts. Spec-first;
+scaffold blocked. **≠** jev-arena **≠** jevarena.
+`notes.md` §91.
+
+## Does Jev's raw confidence already match frequency?
+
+Not on Anthus's sentiment set. Jev-Calibration Platt ECE 0.117→0.052 (isotonic 0.008). Choice 50–95% sits at
+~50–57% accuracy. `confidence` field ≠ top-p. `notes.md`
+§91.
+
+## Is openrouter-jev-mcp a TypeSafe first-party MCP? Native TypeSafe keys?
+
+No, and no. ctmx/openrouter-jev-mcp Decision-as-Plugin.
+OpenRouter alpha Decisions (`~typesafe/jev-latest`).
+Native TypeSafe keys not supported. A judgement can be
+wrong and does not grant permission to act. `notes.md`
+§91.
+
+## Is FrancoisChastel/jev-code the stanley npm package?
+
+No. FrancoisChastel/jev-code ≠ npm jev-code. auto_accept
+0.85 still soft. **1★**. `notes.md` §91.
+
+## Put marketplace Jev on every tool call? Fail-closed without a key?
+
+No, and no. claudecode-jev-marketplace fail-open not hot path. Event boundaries only. Pin jev-1.13.0. `notes.md`
+§91.
+
+## Does mcp_jev invent `ask_jev`? Paste the key into host mcp.json?
+
+No, and no. pedroknigge/mcp_jev packs not ask_jev. Key
+once in `~/.mcp_jev`. `notes.md` §91.
+
+## Is jevtypesafeai.com TypeSafe? Copy JEV_API_KEY how-to?
+
+No, and no. codaaiteam/jev-skill jevtypesafeai.com ≠ TypeSafe. Independent `/api/v1/decide`. `notes.md` §91.
+
+## Is `ts_safety` a Noul? Skip the deadband?
+
+No, and no. cyrusasco/typesafe-mcp noul deadband 0.35–0.65. `ts_safety` is deterministic patterns.json.
+`notes.md` §91.
+
+## Is hermes-switchyard hermes-jev-router? Agnes? Does it load skills?
+
+No, no, and no. hermes-switchyard ≠ hermes-jev-router ≠ hermes-plugin-jev. Advisory; never loads skills; hosted
+routing not claimed. `notes.md` §91.
+
+## Is nanoprune hosted Jev? Paste “0 hallucination guaranteed”?
+
+No, and no. nanoprune 2.8MB ECE 2.58%. Laya 421M distill
+*theirs*. The badge is soundness theater. `notes.md` §91.
+
+## Is jev-browser-agent ZHUBoer/ego-jev? Is omp-jev-web `DONE` proof?
+
+No, and no. smartdio/jev-browser-agent ≠ ZHUBoer/ego-jev.
+Dakai/omp-jev-web DONE ≠ proof. **≠** omp-greenlight.
+`notes.md` §91.
+
+## Is hari007sh/jev dannote/jev? Is T-fit 0.9 a Harbor τ?
+
+No, and no. hari007sh/jev ≠ dannote/jev. Teacher is
+`generate.py`. License null. `notes.md` §91.
+
+## Is system-one-skills a judge? Paste 8,026 tokens as a class ceiling?
+
+No, and no. 0thernet/system-one-skills deterministic verify. No model call. Holdout would add 3,612.
+`notes.md` §91.
+
+## Hard-argmax typed-gate as safety? Is 0.51 a yes?
+
+No, and no. typed-gate band [0.40,0.60] is refusal.
+rh-guard owns the gate cousin. `notes.md` §91.
+
+## Is pi-jev-gate fail-closed? Restore the ask band?
+
+No, and no. pi-jev-gate fail-open binary p(block)≥0.50.
+Ask band removed. **≠** pi-jev-approver. `notes.md` §91.

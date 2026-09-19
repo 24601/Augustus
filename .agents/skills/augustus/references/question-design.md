@@ -175,6 +175,24 @@ request, and treat a stale pin as a prior, never a setting.
 | Let ORIGIN LLM decide / continue without Jev | Pause-if-no-Jev | ORIGIN pause-if-no-Jev. validResponse sums-to-1. `notes.md` §90 |
 | Gate crawlers on raw `bug_likely` / skip verify | Ranking ≠ bug p | jev-crawlers risk bands never raw boolean. `notes.md` §90 |
 | Sell jevbrain AUTO_ACT as a Noul / paste 95.2% | Local overlap ≠ Jev | jevbrain AUTO_ACT is not a Noul. `notes.md` §90 |
+| Treat judgekit 97.7% n=130 as a class ceiling | Mini-set; harness ≠ bench | judgekit YAML classify/score/route/verify. `notes.md` §91 |
+| Treat openrouter-jev-mcp as TypeSafe first-party | Independent Decision-as-Plugin | ctmx/openrouter-jev-mcp Decision-as-Plugin. Native keys not supported. `notes.md` §91 |
+| Threshold on self-confidence / skip `combine()` | Verdict-in-code | typed-judge-kit verdict-in-code. `notes.md` §91 |
+| Quote decide 0.8 as 80% accuracy | Packing VOI; still soft | alsoleg89/decide packing VOI. 0.8 ≠ 80% accuracy. `notes.md` §91 |
+| Act on arena Brier / collapse into jev-arena | Never acts; namesake | jev-calibration-arena never acts. `notes.md` §91 |
+| Skip Platt / treat Choice 50–95% as accuracy | Calibration as product | Jev-Calibration Platt ECE 0.117→0.052. `notes.md` §91 |
+| Collapse FrancoisChastel/jev-code into stanley npm | Namesake; placeholder | FrancoisChastel/jev-code ≠ npm jev-code. `notes.md` §91 |
+| Marketplace Jev on the hot path / fail-closed missing key | Event-boundary; polarity | claudecode-jev-marketplace fail-open not hot path. `notes.md` §91 |
+| Invent `ask_jev` | Closed catalog | pedroknigge/mcp_jev packs not ask_jev. `notes.md` §91 |
+| Treat jevtypesafeai.com as TypeSafe | Independent host | codaaiteam/jev-skill jevtypesafeai.com ≠ TypeSafe. `notes.md` §91 |
+| Treat `ts_safety` as a Noul / skip deadband | Deterministic safety | cyrusasco/typesafe-mcp noul deadband 0.35–0.65. `notes.md` §91 |
+| Collapse hermes-switchyard into Agnes / auto-load skills | Advisory; namesake | hermes-switchyard ≠ hermes-jev-router ≠ hermes-plugin-jev. `notes.md` §91 |
+| Paste nanoprune 0 hallucination / treat as hosted Jev | Theater; distill ≠ Noul | nanoprune 2.8MB ECE 2.58%. `notes.md` §91 |
+| Collapse jev-browser-agent into ZHUBoer / DONE as proof | Namesake; verifier | smartdio/jev-browser-agent ≠ ZHUBoer/ego-jev. Dakai/omp-jev-web DONE ≠ proof. `notes.md` §91 |
+| Collapse hari007sh/jev into dannote/jev | Namesake | hari007sh/jev ≠ dannote/jev. `notes.md` §91 |
+| Treat system-one-skills as a judge | Name ≠ species | 0thernet/system-one-skills deterministic verify. `notes.md` §91 |
+| Hard-argmax typed-gate / 0.51 as a yes | Band is refusal | typed-gate band [0.40,0.60] is refusal. `notes.md` §91 |
+| Treat pi-jev-gate as fail-closed / restore ask | Polarity; binary | pi-jev-gate fail-open binary p(block)≥0.50. `notes.md` §91 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

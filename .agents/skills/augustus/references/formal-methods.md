@@ -669,6 +669,30 @@ plumbing / 36/120 NL2Bash as class ceilings, or
 letting Jev send/delete/close pinned tabs is the
 same theater.
 
+1347 envelopes (`notes.md` §91), still outside the extras
+template: judgekit YAML classify/score/route/verify;
+typed-judge-kit verdict-in-code; alsoleg89/decide packing
+VOI + 0.8 ≠ 80% accuracy; jev-calibration-arena never
+acts; Jev-Calibration Platt ECE 0.117→0.052;
+ctmx/openrouter-jev-mcp Decision-as-Plugin;
+FrancoisChastel/jev-code ≠ npm jev-code;
+claudecode-jev-marketplace fail-open not hot path;
+pedroknigge/mcp_jev packs not ask_jev;
+cyrusasco/typesafe-mcp noul deadband 0.35–0.65;
+codaaiteam/jev-skill jevtypesafeai.com ≠ TypeSafe;
+hermes-switchyard ≠ hermes-jev-router ≠ hermes-plugin-jev;
+nanoprune 2.8MB ECE 2.58%; smartdio/jev-browser-agent ≠
+ZHUBoer/ego-jev; Dakai/omp-jev-web DONE ≠ proof;
+hari007sh/jev ≠ dannote/jev; 0thernet/system-one-skills
+deterministic verify; typed-gate band [0.40,0.60] is
+refusal; pi-jev-gate fail-open binary p(block)≥0.50.
+Soft Noul ≠ hard safety: 0.7 / 0.8 / ~0.6 / 0.75 /
+0.85 / 0.6 / [0.40,0.60] / 0.50 are **sensors**.
+Hard-gating argmax as safety, pasting 97.7% n=130 / 0
+hallucination / 8,026 tokens as class ceilings, or
+treating a skill named System One as a judge is the
+same theater.
+
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a
 hybrid "verified by Noul" API.

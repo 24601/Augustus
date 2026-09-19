@@ -220,6 +220,21 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    Local AUTO_ACT is **not** a self-supervision Noul:
    [jevbrain](https://github.com/Synxneuos/jevbrain)
    jevbrain AUTO_ACT is not a Noul (`notes.md` §90).
+   Judge harness as control API (not a merge seal):
+   [judgekit](https://github.com/lexingtonhibiki/judgekit)
+   judgekit YAML classify/score/route/verify
+   (`notes.md` §91).
+   Arena never acts (instrument under glass):
+   [jev-calibration-arena](https://github.com/pmcclelland/jev-calibration-arena)
+   jev-calibration-arena never acts (`notes.md` §91).
+   Soft-score vs hard-argmax (rh-guard cousin):
+   [typed-gate](https://github.com/harshpuri84/typed-gate)
+   typed-gate band [0.40,0.60] is refusal
+   (`notes.md` §91).
+   Fail-open binary checker:
+   [pi-jev-gate](https://github.com/fivethirty/pi-jev-gate)
+   pi-jev-gate fail-open binary p(block)≥0.50
+   (`notes.md` §91).
    Closed-vote extreme (no planner LLM):
    [JevOnly](https://github.com/buluoray/JevOnly) (`notes.md` §61).
    Host-owned product:

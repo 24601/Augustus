@@ -1582,3 +1582,54 @@
 - notes.md §90; sources.json (524 sources, 521 unique URLs,
   retrieved 2026-09-19T18:41Z); findings.md batch #73.
   No wrapper.
+
+## 2026-09-19 ~19:47 UTC — hourly 1347 HIGH (~13:47 Boise)
+- Docs-only on a **fresh PR off main**. Never reopen
+  merged #3 / #4 / #5 / #7. `notes.md` §91. Skip Archer.
+  Do **not** re-fold 1241 / §90. Hunches labeled.
+  No wrapper. No invented metrics. Quote READMEs.
+  Soft Noul ≠ hard safety. 0★ HIGHs still get real
+  cards. Not a Jev skill dump. Backend-agnostic
+  categorization/scoring/decision class.
+- Folded how-to-apply clusters: Judge harness as
+  control API (judgekit YAML classify/score/route/verify;
+  typed-judge-kit verdict-in-code);
+  Batch packing VOI (alsoleg89/decide packing VOI;
+  0.8 ≠ 80% accuracy; **≠** jev-sift);
+  Calibration as product (Jev-Calibration Platt ECE
+  0.117→0.052; jev-calibration-arena never acts);
+  Decision-as-Plugin (ctmx/openrouter-jev-mcp
+  Decision-as-Plugin; FrancoisChastel/jev-code ≠ npm
+  jev-code; claudecode-jev-marketplace fail-open not
+  hot path; pedroknigge/mcp_jev packs not ask_jev;
+  cyrusasco/typesafe-mcp noul deadband 0.35–0.65;
+  codaaiteam/jev-skill jevtypesafeai.com ≠ TypeSafe);
+  Policy-constrained skill select (hermes-switchyard ≠
+  hermes-jev-router ≠ hermes-plugin-jev);
+  Tiny local econ pruner (nanoprune 2.8MB ECE 2.58%);
+  Observe→score→act cousins (smartdio/jev-browser-agent
+  ≠ ZHUBoer/ego-jev; Dakai/omp-jev-web DONE ≠ proof;
+  hari007sh/jev ≠ dannote/jev);
+  Deterministic verify ≠ System One
+  (0thernet/system-one-skills deterministic verify);
+  Soft-score vs hard-argmax (typed-gate band
+  [0.40,0.60] is refusal; pi-jev-gate fail-open binary
+  p(block)≥0.50; rh-guard owns).
+- Formal compose: YAML/recipe as control API; packing
+  VOI; arena never acts; Decision-as-Plugin fail-open
+  missing key / not-hot-path; Switchyard advisory never
+  loads skills; nanoprune 0-hallucination theater;
+  DONE ≠ proof; system-one-verify is deterministic;
+  mid-band is refusal. Soft Noul ≠ hard safety.
+  Hard-gating argmax as safety / 97.7% n=130 / 8,026
+  tokens as class ceilings is soundness theater.
+- Census not re-derived. Archer still NOT landed.
+- Cards: SKILL.md, mixed-architecture fail table +
+  gallery, faq, mental-models, judgment-class,
+  validation, applied-mappings, mappings, toolbox,
+  composition-algebra items 62–70, question-design,
+  methods-catalog, formal-methods, agent-self-assessment,
+  ecosystem, CHANGELOG, README.
+- notes.md §91; sources.json (543 sources, 540 unique URLs,
+  retrieved 2026-09-19T19:47Z); findings.md batch #74.
+  No wrapper.
