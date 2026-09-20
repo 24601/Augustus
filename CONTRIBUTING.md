@@ -30,8 +30,10 @@ python3 .agents/skills/augustus/scripts/evaluate_decisions.py --self-test
 python3 .agents/skills/augustus/scripts/uniqueness_gate.py
 ```
 
-The Pages workflow must stay green (`docs/index.md` still contains the
-gate strings the check greps for).
+The Pages workflow must stay green. After #34 it greps `_site/index.html`
+for `TypeSafe Jev Choice/Score/Noul`, `Install the skill`, and `LICENSE`
+(`LICENSE` is in `docs/_layouts/default.html`; the other two stay in
+`docs/index.md`).
 
 ## Fold uniqueness
 
@@ -41,7 +43,7 @@ re-opened as "new." Before folding:
 - Read `research/notes.md` and the uniqueness fragments in
   `.agents/skills/augustus/SKILL.md`
 - Do not re-fold an already-landed section as a new beat
-- Do not reopen or amend an in-flight fold PR (including open #31)
+- Do not reopen or amend a merged fold PR (#23–#34). #35 is the 0843 fold.
 - Pre-0.4.0 uniqueness dump: `research/changelog-hourly.md` (archive,
   not release notes)
 

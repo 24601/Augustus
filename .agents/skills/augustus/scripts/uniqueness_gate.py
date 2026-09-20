@@ -44,7 +44,7 @@ UNIQ = (
     "Laya likes 861 (was 822); tracker likes 66 (+2 vs 64) lastModified UNCHANGED; "
     "Blackwood likes 2 gated manual; Archer still promised_not_landed; "
     "Hub archerhume/4rcherhume HTTP 401; "
-    "do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33; notes.md §114"
+    "do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34; notes.md §114"
 )
 
 OVERLAYS = [
@@ -127,6 +127,22 @@ def main() -> int:
         ):
             if frag not in desc and frag not in skill:
                 failed.append(f"SKILL.md missing fragment {frag!r}")
+    changelog = (ROOT / "CHANGELOG.md").read_text(encoding="utf-8")
+    if UNIQ in changelog:
+        failed.append("CHANGELOG.md holds uniqueness dump (v0.4.0: dumps live in changelog-hourly.md)")
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    if "Hourly 0743 uniqueness lock:" in readme:
+        failed.append("README.md holds 0743 uniqueness dump (#33 map + one 0843 lock line)")
+    index = (ROOT / "docs/index.md").read_text(encoding="utf-8")
+    for s in ("TypeSafe Jev Choice/Score/Noul", "Install the skill"):
+        if s not in index:
+            failed.append(f"docs/index.md missing Pages gate {s!r}")
+    layout = (ROOT / "docs/_layouts/default.html").read_text(encoding="utf-8")
+    if "LICENSE" not in layout:
+        failed.append("docs/_layouts/default.html missing LICENSE (Pages gate after #34)")
+    eco = (ROOT / "docs/ecosystem.md").read_text(encoding="utf-8")
+    if "decision-circuits tutorial. `notes.md` §114." not in eco:
+        failed.append("docs/ecosystem.md 0843 blurb must cite notes.md §114")
     if failed:
         print("uniqueness-gate FAIL")
         for line in failed:

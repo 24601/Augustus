@@ -16,56 +16,56 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
-Hourly 0743 HIGH (`research/notes.md` §113 / composition
-items 273–288 / findings batch #96). Does **not** bump
-the 0.4.0 pin. Do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33.
+Hourly 0843 HIGH (`research/notes.md` §114 / composition
+items 289–302 / findings batch #97). Does **not** bump
+the 0.4.0 pin. Merged #31 0743 (`§113` / items 273–288 /
+batch #96) stays here as a short pointer; uniqueness
+dumps live in `research/changelog-hourly.md`. Do not
+reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34.
 
 ### Added
 
 - **Hourly 0843 HIGH (`notes.md` §114).** Measurement / judgment fold
-  off `main` after v0.4.0. PRIMARY: pretrained Qwen2.5 base ECE already
-  low; instruct-tuning wrecks honesty (acc flat, mean conf 74.1%→96.7%).
-  Equal-width ECE ≠ quantile ECE (0.113 vs 0.076 *theirs*). Calibration
-  does not compose; hop-ECE is permutation-invariant (soundness theater
-  as a trajectory audit); Deferred Crispification; 25–60× headline
-  withdrawn. Hysteresis `{enter:0.8, exit:0.6}` is policy attached to a
-  probability, not a model property. Ranking ≠ calibration (BANKING77
-  BERT-Base 93.02 is a supervised reference, not zero-shot).
-  g0runmezadam/what-is-jev **is** tunahansahin897/what-is-jev (rename).
-  Qwen2.5 / Qwen 3.8 / Qwen/Qwen3.8-27B ≠ Archer. Archer still
-  promised_not_landed. Evaluator: equal-width vs quantile ECE, hysteresis,
-  ranking≠calibration, hop-ECE invariance, cost-optimal threshold.
-  uniqueness_gate.py. Composition items 289–302 / batch #97.
-  **HARD RULE:** do not reopen or amend PR #23–#33. Merged #31 owns
-  `notes.md` §113 / items 273–288 / batch #96 — leave it alone.
-- Uniqueness lock archive: `research/changelog-hourly.md` (this hour's
-  lock is there; this file stays scannable).
+  off `main` after v0.4.0 and #34 Pages layout. PRIMARY: pretrained
+  Qwen2.5 base ECE already low; instruct-tuning wrecks honesty (acc
+  flat, mean conf 74.1%→96.7%). Equal-width ECE ≠ quantile ECE
+  (0.113 vs 0.076 *theirs*). Calibration does not compose; hop-ECE
+  is permutation-invariant (soundness theater as a trajectory
+  audit); Deferred Crispification; 25–60× headline withdrawn.
+  Hysteresis `{enter:0.8, exit:0.6}` is policy attached to a
+  probability, not a model property. Ranking ≠ calibration
+  (BANKING77 BERT-Base 93.02 is a supervised reference, not
+  zero-shot). g0runmezadam/what-is-jev **is**
+  tunahansahin897/what-is-jev (rename). Qwen2.5 / Qwen 3.8 /
+  Qwen/Qwen3.8-27B ≠ Archer. Archer still promised_not_landed.
+  Evaluator: equal-width vs quantile ECE, hysteresis,
+  ranking≠calibration, hop-ECE invariance, cost-optimal
+  threshold. uniqueness_gate.py. Composition items 289–302 /
+  batch #97. **HARD RULE:** do not reopen or amend PR #23–#34.
+  Merged #31 owns `notes.md` §113 / items 273–288 / batch #96
+  — leave it alone.
+- Uniqueness lock archive: `research/changelog-hourly.md` (this
+  hour's lock is there; this file stays scannable).
+- **Hourly 0743 HIGH (`notes.md` §113).** Harbor-jevals PRIMARY —
+  ywchiu/jev_benchmark routing across a conversation (Gemma 4 31B
+  77.0% / Jev 1.13.0 61.4% / Laya 322M 0.0%; restriction state
+  95.0% against 84.4%; 100% schema pass / six-field joint 48.8%
+  vs 72.8% in `results/summary.md`, *theirs*). ≠ Running-Dolphins /
+  Praveenrajus. Verdict-open-jev linear ECE floor ≠ TypeSafe
+  replica. DecisionOps ACT / REVIEW / FALLBACK (provider failure
+  is **not** a policy outcome). Mintzs/rlcd-lite (Brier on stated
+  confidence alone is a trap). altryne/jevify ≠ Mintzs.
+  aiwithenoch/Jev-Skill ≠ simplosophy/jev-skill. Qwen3.8-27B ≠
+  Archer. Soft Noul ≠ hard gate. Skip Archer rewrite. Quote
+  *theirs*. `invented_signal: false`. Lock dump:
+  [`research/changelog-hourly.md`](research/changelog-hourly.md).
 
 ### Changed
 
-- `evaluate_decisions.py` reports equal-width and quantile ECE, AUC,
-  accuracy@0.5, and a cost-optimal threshold. Self-test covers ranking≠
-  calibration, hysteresis vs single 0.7, and hop-ECE permutation
-  invariance.
-
-### Added
-
-- **Harbor-jevals PRIMARY** — ywchiu/jev_benchmark routing
-  across a conversation (Gemma 4 31B 77.0% / Jev 1.13.0
-  61.4% / Laya 322M 0.0%; restriction state 95.0% against
-  84.4%; 100% schema pass / six-field joint 48.8% vs 72.8%
-  in `results/summary.md`, *theirs*). ≠ Running-Dolphins /
-  Praveenrajus. Verdict-open-jev linear ECE floor ≠ TypeSafe
-  replica. DecisionOps ACT / REVIEW / FALLBACK (provider
-  failure is **not** a policy outcome). Mintzs/rlcd-lite
-  (Brier on stated confidence alone is a trap).
-  altryne/jevify ≠ Mintzs. aiwithenoch/Jev-Skill ≠
-  simplosophy/jev-skill. Qwen3.8-27B ≠ Archer. Soft Noul ≠
-  hard gate. Skip Archer rewrite. Quote *theirs*.
-  `invented_signal: false`.
-- Uniqueness dump for this fold lives in
-  [`research/changelog-hourly.md`](research/changelog-hourly.md).
-  Hourly 0743 uniqueness lock: Heman10x-NGU/Verdict-open-jev ≠ Heman10x-NGU/openJev-verdict-2.0; TF-IDF + LogReg ECE 0.0207 vs Jev 0.1440; Verdict-open-jev 48.07% vs Jev 90.80%; abstention combined recall 10.00%; p50 35.58 ms; K=25 (maximum capacity) 72.00%; 0.85 coverage 84.60% selective risk 1.18%; 26.1× faster than standard Qwen JSON generation; Jevify 90.0% / 167 ms CUDA graphs disabled; Finding 1: Brier on stated confidence alone is a trap; grpo_rlcr 0.78 / ECE 0.084; reliability 0.007 but resolution 0.000; 27 900 schema-driven decisions; 13 600 / 13 600 questions; candidate mass min 0.99999624; 22 configs · 166,054 rows · 4 calibration-gold; sha a39eba3f; Student B MAE 0.148 / Pearson 0.836 / 86.0%; pngwn/open-jev-laya-bench README 404; sha 9f69c742 likes 2; HDFS 0.9933 (745/750) / retain 0.0084; BGL ERROR/FATAL protection 1.0000; 2,479 / 2,500 HDFS uncertain; cache hit 0.9648 (2412/2500); $0.153936 estimated; E2 recomputes from saved probabilities; Space sha eda59e0a; MASSIVE English 0.783 / Khmer 0.033 / Hindi 0.133; 40–48 rows too small to ship T; T never changes argmax; siren2345/jev-single-decode-transformers ≠ siren2345/jev-single-decode; Split Transformers experiment from llama.cpp runtime; tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab; Four experiments stress-testing TypeSafe's Jev: calibration, bundle bias, label bias, and ensembling; second pass must be $0.00 from cache; The pages never call Jev; Gemma 4 31B 77.0% / Jev 1.13.0 61.4% / Laya 322M 0.0%; restriction state 95.0% against 84.4%; None of the systems are particularly good at knowing when to stop and ask; They skip the question and call a tool directly; 100% schema pass; six-field joint 48.8% vs 72.8%; ywchiu/jev_benchmark ≠ Running-Dolphins/jev-bench ≠ Praveenrajus/jev-bench; ACT / REVIEW / FALLBACK; A provider failure, timeout, malformed output, or missing answer is **not** a policy outcome; confidence is descriptive provider output, not a substitute for probability; Quality denominators include only valid scored answers; an exact halfway tie chooses the lower level; aiwithenoch/Jev-Skill ≠ simplosophy/jev-skill ≠ laguagu/jev-skills; The local path does not claim to turn a smaller checkpoint into Jev; Low support becomes decision: "review"; MIT-0 SPDX NOASSERTION; current-llm; 结构兼容，不是 Jev 模型能力; altryne/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify; Find where Jev belongs. Design the questions. Measure the difference; TypeAR-AI/TypeAR 301 → TypeLLM/TypeLLM; TypeLLM/TypeLLM 16★; SemIf 2241★ (+34 vs §111 2207); jevlike 1051★ (+8 vs 1043); AnotiaWang 98★ (+1 vs 97); yibie/awesome-jev 525★ (+19 vs 506); Laya likes 864 (was 822); tracker likes 67 (+3 vs 64); lastModified UNCHANGED `2026-09-20T04:29:16.000Z`; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33; notes.md §113
+- `evaluate_decisions.py` reports equal-width and quantile ECE,
+  AUC, accuracy@0.5, and a cost-optimal threshold. Self-test
+  covers ranking≠calibration, hysteresis vs single 0.7, and
+  hop-ECE permutation invariance (reverse + interleave).
 
 ## [0.4.0] - 2026-09-20
 

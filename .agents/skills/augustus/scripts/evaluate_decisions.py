@@ -168,15 +168,18 @@ def hysteresis_actuate(p_series, enter, exit, start=False):
 def hop_ece_permutation_invariant(rows, bins=10, key="p"):
     """Shuffle order; equal-width ECE must not move.
 
-    Hop-ECE is permutation-invariant. Clustered regime-shift errors are
-    invisible to it. That is a measurement fact, not a license to skip
-    trajectory audits (TCE / AMS live in the deferred-crispification
-    paper — we only lock the invariance here).
+    Hop-ECE is permutation-invariant. Reverse is not a sufficient
+    shuffle: also interleave even/odd indices. Clustered regime-shift
+    errors are still invisible to it. That is a measurement fact, not
+    a license to skip trajectory audits (TCE / AMS live in the
+    deferred-crispification paper — we only lock the invariance here).
     """
     a = ece_equal_width(rows, bins=bins, key=key)
     reversed_rows = list(reversed(rows))
+    interleaved = rows[::2] + rows[1::2]
     b = ece_equal_width(reversed_rows, bins=bins, key=key)
-    return abs(a - b)
+    c = ece_equal_width(interleaved, bins=bins, key=key)
+    return max(abs(a - b), abs(a - c))
 
 
 def self_test():
