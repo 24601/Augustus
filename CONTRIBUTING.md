@@ -44,7 +44,7 @@ re-opened as "new." Before folding:
   `.agents/skills/augustus/SKILL.md`
 - Do not re-fold an already-landed section as a new beat
 - Do not reopen or amend a merged fold PR (#23–#40)
-- Do not push onto an in-flight fold PR (open #41)
+- uniqueness_gate.py checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 consecutive locks.
 - Hourly uniqueness dump: `research/changelog-hourly.md` (archive,
   not release notes)
 

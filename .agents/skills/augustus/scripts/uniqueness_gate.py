@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
 """Uniqueness gate for merged 0843 (§114), merged 0915 NanoJev (§115),
-merged 0920 jcr (§116), merged 0922 SemIf (§117), and user-provided
-0940 llm-to-jev (§118).
+merged 0920 jcr (§116), merged 0922 SemIf (§117), merged 0940
+llm-to-jev (§118), and hourly 0947 HIGH (§119).
 
 Each lock must appear as one consecutive substring in every listed overlay.
 Fragments scattered across files do not count.
 
-Also: YAML-parse SKILL.md frontmatter; notes.md owns §114, §115, §116,
-§117, and §118; composition items 289–316, 322–329, and 330–336 exist;
-findings batches #97, #98, #99, #100, and #101 exist. CHANGELOG.md must
-not hold uniqueness dump walls (dumps live in changelog-hourly.md).
-README.md must not hold the 0743 dump wall. Pages greps stay in
-docs/index.md and docs/_layouts/default.html. The 0843 ecosystem blurb
-cites notes.md §114. Does not fetch the network. Does not treat a lock
-as a Harbor score.
+Also: YAML-parse SKILL.md frontmatter; notes.md owns §114–§119;
+composition items 289–316, 322–329, 330–336, and 337–352 exist;
+findings batches #97–#102 exist. Items 317–321 stay unused.
+CHANGELOG.md must not hold uniqueness dump walls (dumps live in
+changelog-hourly.md). README.md must not hold the 0743 dump wall.
+Pages greps stay in docs/index.md and docs/_layouts/default.html.
+The 0843 ecosystem blurb cites notes.md §114. Does not fetch the
+network. Does not treat a lock as a Harbor score.
 """
 
 from pathlib import Path
@@ -115,6 +115,10 @@ UNIQ_0922 = (
 'User-provided 0922 uniqueness lock: SemIf was formerly OpenJev; independent; not affiliated with Jev or TypeSafe; homepage openjev.com; default master; MIT; HEAD ca3ba65f1429; Tolerate float roundoff in MLX evidence verification; pushed 2026-09-19; live REST 2282★ / 140 forks; size 9177; README SHA 74ab7f7f; LICENSE SHA ca562883; interface pattern reproduction with open models; does not reproduce Jev undisclosed model/training; Direct option logits; 0 output tokens; shared-state parallel; MLX backend for Apple Silicon (`--backend mlx`); Qwen3.5-4B 3090 direct 1.023s vs AR JSON 5.332s (**5.21×**); argmax agree 18/21; systems comparison ≠ semantic equivalence; Parallel suffixes 20.03 dec/s on 777 decisions; Browser ladder Qwen3.5-4B authored BA 0.813, pert 0.766, TypeSafe subset agreement 0.845 vs Published Jev 0.883 (102 across 20 cases); Softmax over options ≠ calibrated Noul; typed output does not guarantee semantic correctness; wire/agreement ≠ replica of TypeSafe; SemIf ≠ kw2828/OpenJev playground ≠ zhihz/openjev ≠ apiplant/semif-rs port ≠ dddanielliu/semif-serve; rename is densify not a second census; JevBench 74.6 is §78 not this ladder; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#38; do not push onto open #39/#40; notes.md §117'
 )
 
+UNIQ_0947 = (
+    'Hourly 0947 uniqueness lock: Fast and cheap agent evals. jev as judge.; 18,041 skills from the 200 most-starred repos; Not a security scanner; 最简 Jev 调用演示器; confidence 不是正确率; q93304989-bit/jev-lab ≠ tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab; 75% cheaper and 18% faster withdrawn; jev @0.15 100% recall 87% savings; 33Audits/jev-auto ≠ gargpratyush/jev-router; no Typesafe key, no PI_API_BASE, zero deps; tool-emitted Score/Noul ≠ calibrated Noul; semantic_compatibility: false; candidate_mass; Qwen3.5-2B ≠ Archer; Jev evaluates decisions; it cannot run a coding-agent session; Status: no model yet; S1LV3RJ1NX/openjev ≠ TheoLeeCJ/openjev; 28 accepted decisions; 3 targets; score 800; health 100; arcade game not a flight trainer; A successful live TypeSafe call has not been verified for v0.1.0; abhibansal60/tidy ≠ MANISH007700/tidy; No model, Jev included, predicted which channels its owner keeps; seed 1 selected on a held-out 400-item validation split; Brier 0.342 → 0.378; more accurate and more overconfident; Qwen3.5-4B ≠ Archer; static quants of kushalpatil/jevify-gemma4-26b-a4b; The labels were corrected, and one earlier result was retracted; zero of 23,869 eligible rows; Do not compare cost without checking task success; Exit 1 is not a proof; kisshan13/typesafe-ai-go ≠ Nibir1/typesafe-go ≠ official; 38 tests that cannot fail in a 356-model warehouse; if a parser can answer it, Jev is never asked; 359 of them; Games & Simulation 82; Education & Learning 1; Ratings are heuristics; syedabbasshaheer-art/jev-atlas ≠ ZeroX-01/jev-atlas ≠ Zaious/jev-capability-atlas ≠ gorock007/jev-atlas; anandi1989/awesome-jev-usecases ≠ whyashthakker/awesome-jev-use-cases ≠ walidboulanouar/awesome-jev-use-cases ≠ vamsikrishna2421/jev-usecases; Every headline result above is self-reported; Archer Hume 84.6% MMLU-Pro is a third-party probe not landed Archer; catalog ≠ endorsement; judge ≠ actuator; softmax over A–H ≠ Noul; SemIf 2270★; jevlike 1054★; TypeLLM/TypeLLM 16★; AnotiaWang 98★; yibie/awesome-jev 538★; Laya likes 889; tracker likes 68 lastModified UNCHANGED; Blackwood likes 2 gated manual; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#35/#36/#37/#38/#40; do not push onto open #39; notes.md §119'
+)
+
 OVERLAYS = [
     "research/notes.md",
     "research/changelog-hourly.md",
@@ -170,6 +174,8 @@ def main() -> int:
             failed.append(f"0922 lock missing as one substring: {rel}")
         if UNIQ_0940 not in body:
             failed.append(f"0940 lock missing as one substring: {rel}")
+        if UNIQ_0947 not in body:
+            failed.append(f"0947 lock missing as one substring: {rel}")
     notes = (ROOT / "research/notes.md").read_text(encoding="utf-8")
     if "## 114. Hourly 0843 HIGH" not in notes:
         failed.append("notes.md missing §114 heading")
@@ -181,13 +187,19 @@ def main() -> int:
         failed.append("notes.md missing merged #37 §117 heading")
     if "## 118. User-provided HIGH — alexwestco/llm-to-jev" not in notes:
         failed.append("notes.md missing §118 heading")
+    if "## 119. Hourly 0947 HIGH" not in notes:
+        failed.append("notes.md missing §119 heading")
     algebra = (ROOT / ".agents/skills/augustus/references/composition-algebra.md").read_text(
         encoding="utf-8"
     )
-    for n in list(range(289, 317)) + list(range(322, 330)) + list(range(330, 337)):
+    for n in list(range(289, 317)) + list(range(322, 330)) + list(range(330, 337)) + list(range(337, 353)):
         needle = f"{n}. **"
         if needle not in algebra:
             failed.append(f"composition-algebra missing item {n}")
+    for n in range(317, 322):
+        needle = f"{n}. **"
+        if needle in algebra:
+            failed.append(f"composition-algebra stole unused item {n}")
     findings = (ROOT / "research/archive/findings.md").read_text(encoding="utf-8")
     for batch in (
         "## Batch #97",
@@ -195,6 +207,7 @@ def main() -> int:
         "## Batch #99",
         "## Batch #100",
         "## Batch #101",
+        "## Batch #102",
     ):
         if batch not in findings:
             failed.append(f"findings.md missing {batch}")
@@ -233,6 +246,11 @@ def main() -> int:
             "conversion assistant, not an automatic guarantee of equivalent behavior",
             "heuristic conversion ≠ calibrated Noul",
             "alexwestco/llm-to-jev ≠ altryne/jevify",
+            "judge ≠ actuator",
+            "softmax over A–H ≠ Noul",
+            "candidate_mass",
+            "Qwen3.5-2B ≠ Archer",
+            "Qwen3.5-4B ≠ Archer",
         ):
             if frag not in haystack:
                 failed.append(f"SKILL.md missing fragment {frag!r}")
@@ -250,6 +268,10 @@ def main() -> int:
                 "heuristic conversion ≠ calibrated Noul",
                 "alexwestco/llm-to-jev ≠ altryne/jevify",
                 "user-provided 0940 / notes.md §118",
+                "judge ≠ actuator",
+                "candidate_mass",
+                "softmax over A–H ≠ Noul",
+                "hourly 0947 / notes.md §119",
             ):
                 if frag not in proto_line:
                     failed.append(f"SKILL.md protocol missing {frag!r}")
@@ -260,6 +282,7 @@ def main() -> int:
         ("jcr", UNIQ_JCR),
         ("0922", UNIQ_0922),
         ("0940", UNIQ_0940),
+        ("0947", UNIQ_0947),
     ):
         if lock in changelog:
             failed.append(
@@ -290,7 +313,8 @@ def main() -> int:
     print(
         f"0843 chars={len(UNIQ_0843)} 0915 chars={len(UNIQ_0915)} "
         f"jcr chars={len(UNIQ_JCR)} lock0922 chars={len(UNIQ_0922)} "
-        f"0940 chars={len(UNIQ_0940)} overlays={len(OVERLAYS)}"
+        f"0940 chars={len(UNIQ_0940)} 0947 chars={len(UNIQ_0947)} "
+        f"overlays={len(OVERLAYS)}"
     )
     return 0
 

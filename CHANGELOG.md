@@ -16,6 +16,30 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 0947 HIGH (`research/notes.md` §119 / composition items
+337–352 / findings batch #102). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#40. Do not amend released 0.5.0
+(#42).
+
+### Added
+
+- **Hourly 0947 HIGH (`notes.md` §119).** jev-as-judge /
+  OneForward readout / catalogs / replay / RLCD heads.
+  Fast and cheap agent evals. jev as judge. 18,041 skills
+  from the 200 most-starred repos. Not a security scanner.
+  semantic_compatibility: false. candidate_mass. softmax
+  over A–H ≠ Noul. Qwen3.5-2B ≠ Archer. Qwen3.5-4B ≠
+  Archer. Status: no model yet. Exit 1 is not a proof.
+  75% cheaper and 18% faster withdrawn. Brier 0.342 →
+  0.378; more accurate and more overconfident. catalog ≠
+  endorsement. judge ≠ actuator. Evaluator:
+  candidate_mass renormalization trap. uniqueness_gate.py
+  now checks 0843 + 0915 + jcr + 0922 + 0940 + 0947.
+  Composition items 337–352 / batch #102. **HARD RULE:**
+  do not reopen or amend PR #23–#40. Does **not** bump 0.5.0.
+
 ## [0.5.0] - 2026-09-20
 
 Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skills/tree/v0.5.7)

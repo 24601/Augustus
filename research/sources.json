@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-20T16:10Z",
+  "retrieved": "2026-09-20T15:47Z",
   "sources": [
     {
       "kind": "docs",
@@ -4971,10 +4971,124 @@
       "note": "Rust+candle port ≠ SemIf. 0★. notes.md §117."
     },
     {
-            "kind": "github",
+      "kind": "github",
       "title": "alexwestco/llm-to-jev",
       "url": "https://github.com/alexwestco/llm-to-jev",
       "note": "JavaScript MIT; 2★; size 29; HEAD 234058ab372d; README SHA 43cd94fb; LICENSE SHA 5f334006; compiler SHA fdf235d0. Pages https://alexwestco.github.io/llm-to-jev/ HTTP 200. Conversion assistant, not equivalent-behavior guarantee. Heuristic ≠ calibrated Noul. notes.md §118."
+    },
+    {
+      "kind": "github",
+      "title": "anandi1989/awesome-jev-usecases",
+      "url": "https://github.com/anandi1989/awesome-jev-usecases",
+      "note": "MIT 11★ HEAD 6020d6fa README SHA 33ee5470 size 31. Every headline result above is self-reported. catalog ≠ endorsement. ≠ whyashthakker ≠ walidboulanouar ≠ vamsikrishna2421. notes.md §119."
+    },
+    {
+      "kind": "github",
+      "title": "48Nauts-Operator/skill-dash",
+      "url": "https://github.com/48Nauts-Operator/skill-dash",
+      "note": "Python MIT 1★ HEAD fc131766 README SHA 7c3c78fd size 173. 18,041 skills from the 200 most-starred repos. Not a security scanner. notes.md §119."
+    },
+    {
+      "kind": "github",
+      "title": "q93304989-bit/jev-lab",
+      "url": "https://github.com/q93304989-bit/jev-lab",
+      "note": "HTML MIT 1★ size 0 WITH CONTENTS HEAD 8a6a84af README SHA 6e64fa7e. 最简 Jev 调用演示器. confidence 不是正确率. ≠ tanayvasishtha ≠ dairui1 ≠ BrendanH18 ≠ yibie. notes.md §119."
+    },
+    {
+      "kind": "github",
+      "title": "33Audits/jev-auto",
+      "url": "https://github.com/33Audits/jev-auto",
+      "note": "JavaScript MIT 0★ HEAD e72e64fb README SHA 2ca280cc size 346. 75% cheaper and 18% faster withdrawn. jev @0.15 100% recall 87% savings. ≠ gargpratyush/jev-router. notes.md §119."
+    },
+    {
+      "kind": "github",
+      "title": "Danu28/pi-jev-harness",
+      "url": "https://github.com/Danu28/pi-jev-harness",
+      "note": "TypeScript MIT 0★ HEAD e1d319a6 README SHA 07e2dfec size 197. no Typesafe key, no PI_API_BASE, zero deps. tool-emitted Score/Noul ≠ calibrated Noul. notes.md §119."
+    },
+    {
+      "kind": "github",
+      "title": "Embodied-AI-System/Qwen3.5-OneForward",
+      "url": "https://github.com/Embodied-AI-System/Qwen3.5-OneForward",
+      "note": "PRIMARY. Python Apache-2.0 0★ size 0 WITH CONTENTS HEAD b5110513 README SHA 97cbeaf3. semantic_compatibility: false. candidate_mass. softmax over A–H ≠ Noul. Qwen3.5-2B ≠ Archer. notes.md §119."
+    },
+    {
+      "kind": "github",
+      "title": "HiepPP/hiep-paseo-plugin",
+      "url": "https://github.com/HiepPP/hiep-paseo-plugin",
+      "note": "TypeScript license null 0★ HEAD cbb70fa3 README SHA e51b69b1 size 294. Jev evaluates decisions; it cannot run a coding-agent session. judge ≠ actuator. notes.md §119."
+    },
+    {
+      "kind": "github",
+      "title": "S1LV3RJ1NX/openjev",
+      "url": "https://github.com/S1LV3RJ1NX/openjev",
+      "note": "Python Apache-2.0 0★ size 0 WITH CONTENTS HEAD 7cb5ba37 README SHA cf8eea54. Status: no model yet. ≠ TheoLeeCJ/openjev. notes.md §119."
+    },
+    {
+      "kind": "github",
+      "title": "Sunwood-ai-labs/jev-flight-combat",
+      "url": "https://github.com/Sunwood-ai-labs/jev-flight-combat",
+      "note": "TypeScript MIT 0★ HEAD 1abc9449 README SHA 12bac482 size 3487. 28 accepted decisions; 3 targets; score 800; health 100. arcade game not a flight trainer. notes.md §119."
+    },
+    {
+      "kind": "github",
+      "title": "Tomdachs/jev-replay-lab",
+      "url": "https://github.com/Tomdachs/jev-replay-lab",
+      "note": "TypeScript MIT 0★ size 0 WITH CONTENTS HEAD d59cd353 README SHA 20e7b76f. A successful live TypeSafe call has not been verified for v0.1.0. notes.md §119."
+    },
+    {
+      "kind": "github",
+      "title": "abhibansal60/tidy",
+      "url": "https://github.com/abhibansal60/tidy",
+      "note": "Python MIT 0★ HEAD bfa95e33 README SHA a3cd8abd size 5460. No model, Jev included, predicted which channels its owner keeps. ≠ MANISH007700/tidy. notes.md §119."
+    },
+    {
+      "kind": "huggingface",
+      "title": "AstroHan/decision-head-qwen3.5-4b-rlcd-32k",
+      "url": "https://huggingface.co/AstroHan/decision-head-qwen3.5-4b-rlcd-32k",
+      "note": "peft apache-2.0 likes 0 sha 8349ce99. seed 1 selected on a held-out 400-item validation split. Brier 0.342 → 0.378. more accurate and more overconfident. Qwen3.5-4B ≠ Archer. notes.md §119."
+    },
+    {
+      "kind": "huggingface",
+      "title": "mradermacher/jevify-gemma4-26b-a4b-GGUF",
+      "url": "https://huggingface.co/mradermacher/jevify-gemma4-26b-a4b-GGUF",
+      "note": "DENSIFY §109. transformers gguf likes 0 sha 8917f8f4. static quants of kushalpatil/jevify-gemma4-26b-a4b. notes.md §119."
+    },
+    {
+      "kind": "huggingface-dataset",
+      "title": "shreyanbr/system-one-training-pairs",
+      "url": "https://huggingface.co/datasets/shreyanbr/system-one-training-pairs",
+      "note": "apache-2.0 likes 0 sha 813f34c0. The labels were corrected, and one earlier result was retracted. zero of 23,869 eligible rows. notes.md §119."
+    },
+    {
+      "kind": "github",
+      "title": "javierBrenesAI/jev_tool_calling_experiment",
+      "url": "https://github.com/javierBrenesAI/jev_tool_calling_experiment",
+      "note": "Python license null 0★ HEAD c0114780 README SHA c49a3248 size 52. Do not compare cost without checking task success. notes.md §119."
+    },
+    {
+      "kind": "github",
+      "title": "jkaloger/spec-judge",
+      "url": "https://github.com/jkaloger/spec-judge",
+      "note": "TypeScript MIT 0★ size 0 WITH CONTENTS HEAD 8dadbbe7 README SHA 08f23314. Exit 1 is not a proof. notes.md §119."
+    },
+    {
+      "kind": "github",
+      "title": "kisshan13/typesafe-ai-go",
+      "url": "https://github.com/kisshan13/typesafe-ai-go",
+      "note": "Go MIT 0★ size 0 WITH CONTENTS HEAD c18752f4 README SHA 6e765a45. ≠ Nibir1/typesafe-go ≠ official. notes.md §119."
+    },
+    {
+      "kind": "github",
+      "title": "ryan-sunny/dbt-assay",
+      "url": "https://github.com/ryan-sunny/dbt-assay",
+      "note": "Python Apache-2.0 0★ HEAD f0271105 README SHA 4c110d0f size 1165. 38 tests that cannot fail in a 356-model warehouse. if a parser can answer it, Jev is never asked. notes.md §119."
+    },
+    {
+      "kind": "github",
+      "title": "syedabbasshaheer-art/jev-atlas",
+      "url": "https://github.com/syedabbasshaheer-art/jev-atlas",
+      "note": "HTML MIT 0★ HEAD 3b7b4e64 README SHA 1949dcbe size 310. 359 of them. Games & Simulation 82. Education & Learning 1. Ratings are heuristics. ≠ ZeroX-01 ≠ Zaious ≠ gorock007. notes.md §119."
     }
   ]
 }

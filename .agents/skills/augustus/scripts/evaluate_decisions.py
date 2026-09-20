@@ -13,6 +13,8 @@ Also reports (when asked, and always in --self-test):
   * hysteresis enter/exit (dual thresholds; the model never actuates)
   * ranking vs calibration: accuracy/AUC can stay flat while ECE blows up
   * hop-ECE permutation invariance (shuffle the stream; ECE does not move)
+  * candidate_mass vs renormalized bag: softmax over allowed tokens is a
+    peaked ranking, not a Noul (mass outside the bag can be hidden)
 
 Select thresholds on one split, evaluate on another: run twice with different
 files. Missing labels or costs produce a stated limitation, not defaults.
@@ -21,6 +23,7 @@ Usage: evaluate_decisions.py labels.jsonl [--cost-fp 1 --cost-fn 5] [--self-test
 
 import argparse
 import json
+import math
 import sys
 
 
@@ -165,6 +168,28 @@ def hysteresis_actuate(p_series, enter, exit, start=False):
     return out
 
 
+def _softmax(xs):
+    m = max(xs)
+    exps = [math.exp(x - m) for x in xs]
+    total = sum(exps)
+    return [e / total for e in exps]
+
+
+def candidate_mass_renorm(full_logits, allowed_indices):
+    """Softmax over allowed tokens is a peaked ranking, not a Noul.
+
+    candidate_mass is the full-vocabulary softmax mass on the allowed
+    bag. Renormalizing that bag to 1 hides mass outside it.
+    softmax over A–H ≠ Noul.
+    """
+    if not allowed_indices:
+        raise ValueError("allowed_indices empty")
+    probs = _softmax(full_logits)
+    mass = sum(probs[i] for i in allowed_indices)
+    allowed_logits = [full_logits[i] for i in allowed_indices]
+    return mass, _softmax(allowed_logits)
+
+
 def hop_ece_permutation_invariant(rows, bins=10, key="p"):
     """Shuffle order; equal-width ECE must not move.
 
@@ -228,6 +253,16 @@ def self_test():
     cheap_fp = cost_optimal_threshold(ranked, c_fp=1, c_fn=10)
     expensive_fp = cost_optimal_threshold(ranked, c_fp=10, c_fn=1)
     assert cheap_fp["threshold"] <= expensive_fp["threshold"]
+
+    # candidate_mass renormalization trap: peaked bag, mass outside.
+    outside = [2.0, 0.0, -1.0, 8.0, 7.5, 7.0]
+    mass, renorm = candidate_mass_renorm(outside, [0, 1, 2])
+    assert mass < 0.01, mass
+    assert abs(sum(renorm) - 1.0) < 1e-12
+    assert max(renorm) > 0.7, renorm
+    inside = [6.0, 5.0, 4.0, -4.0, -4.0, -4.0]
+    mass_in, _ = candidate_mass_renorm(inside, [0, 1, 2])
+    assert mass_in > 0.99, mass_in
 
     print("self-test ok")
 
