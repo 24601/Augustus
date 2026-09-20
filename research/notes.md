@@ -26150,3 +26150,554 @@ items 202–225; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
+
+## 110. Hourly 0541 HIGH (2026-09-20 ~05:41 Boise / 2026-09-20T11:41Z)
+
+Docs-only on a **fresh PR off main**
+(`cursor/hourly-0541-augustus-fold-9585`).
+**Never reopen merged** Augustus PR #7 / **#8** /
+**#9** / **#10** / **#12** / **#13** / **#14** /
+**#15** / **#16** / **#17** / **#18** / **#19** /
+**#20** / **#21** / **#22** / **#23** / **#24** /
+**#25** / **#26** / **#27**. After merged #27 (`39d6520`, hourly 0439 /
+`notes.md` §109).
+**HARD RULE:** do not reopen or amend PR #23 or #24
+or #25 or #26 or #27 (merged #23 owns `notes.md` §105 / items
+149–160 / batch #88; merged #24 owns `notes.md`
+§106 / items 161–177 / batch #89; merged #25 owns
+`notes.md` §107 / items 178–185 / batch #90; merged
+#26 owns `notes.md` §108 / items 186–201 / batch #91;
+merged #27 owns `notes.md` §109 / items 202–225 / batch #92
+— leave them alone). Do **not** re-fold
+§93 / §94 / §95 / §96 / §97 / §98 / §99 / §100 /
+§101 / §102 / §103 / §104 / §105 / §106 / §107 /
+§108 / §109. Do **not** re-fold §78 JevBench v1.2 board as if
+it were new. Do **not** re-fold §71 openJev-verdict-2.0
+claim-audit as a beat. Do **not** re-card
+AndeyTait/JevForge-0.8B (sha `a7e0e71a` unchanged vs §99),
+jaswanthsanjay88/jev-0.5b (sha `1044b44b` §92),
+argos1111/modernbert-ja-310m-jev (§94; likes now **7**),
+com-kotobalabs/open-jev-deberta-v3-large (§33/§107; likes now **29**),
+Luni/laya-grounded (§87), thaitea/laya-vision-smolvlm-256m
+(§87; likes now **9**), async-dime/jevloop (§87) as new
+species. Blackwood is **census densify**, not a rewrite as
+landed. Quote READMEs. Mark *theirs*. No invented metrics.
+Hunches labeled. No wrappers, `npm` / `pip` / `npx` / `uv` /
+`cargo` / `mix` / `TYPESAFE_API_KEY` / `.env` /
+`OPENROUTER_API_KEY` as recipes. 0★ HIGH still gets a
+real card. GitHub size **0** WITH CONTENTS still gets
+a real card. Do **not** dump source / SDK / weights /
+eval logs. `invented_signal: false`. Skip Archer
+rewrite. Qwen3.8-27B ≠ Archer.
+
+Lane is Augustus: **mental models / architecture /
+Harbor-jevals / toolbelt**. Backend-agnostic
+categorization/scoring/decision class (Jev-like
+speed/econ), **not** a thin Jev-only dump. Design
+judgment, formal/semi-formal methods, decision
+theory, scoring class. Soft Noul ≠ hard safety.
+Formal methods **compose** with scoring; a Noul is a
+SENSOR. Avoid soundness theater / hard-gating
+soft judgment. Jev is the hot exemplar, not the
+whole mandate. Open-weight / RLCD / Blackwood watch
+(Hub RLCD Brier identity, Gemma E2B Independent
+primitive, CPU SemIf twin, LFM NLI jev, teacher-copy
+vs gold vs zeroshot) and measurement densifies
+PRIMARY (independent calibration bench, measured
+cost/shape, designed-case hybrid, 200-row BQ pilot)
+plus applied/theory placements (client-side quiz,
+judge-then-user, LSP remainder, spec-vs-artifact,
+adaptive search VERIFY) are the *class* exemplars
+this hour, not TypeSafe drop-ins.
+
+Unique consecutive fragments (this hour):
+Blackwood tracker ABSENT; likes 2 gated manual;
+r = c - p_a;
+ECE 0.021; acc 0.807 vs warmup 0.746;
+calibration beyond ~500 tokens unmeasured;
+Independent primitive;
+11.57s vs 54.10s · 4.67× · 120/128 *theirs*;
+default path is pretrained Gemma probs not trained RLCD head;
+GH Meanblock 404; lock leesk212/JEV-CPU;
+softmax over letter slots ≠ Noul;
+WANLI 0.741 vs openjev v2 0.77 *theirs*;
+3-way NLI ≠ Noul;
+priority 0.464 = majority floor;
+banking77 contaminated;
+raw margins not probabilities;
+GH jev-haiku-benchmarking 404;
+do not distill Jev as teacher of record (they distilled Haiku);
+“0.9 is not one number”;
+ranking ≠ calibration;
+banking77 0.8–0.9 stated 0.86 actual 0.73 over-confident *theirs*;
+≠ Praveenrajus/jev-bench ≠ fstandhartinger/jevbench;
+$0.0000153–$0.0000226 vs circulating $0.0004 (~20×);
+Score is 0..n-1 expectation not 0–1;
+Noul has no confidence field;
+TCP floor 198.8 ms;
+type reliability is not a reason to choose Jev (json_schema 5/5);
+gateway tax not one number;
+Function-only 5/8 vs hybrid 8/8;
+4/8 without Jev;
+8 designed cases not conversion lift;
+≠ RadRebelSam/awesome-jev;
+200-row pilot Jev 85.5% 171/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 88.5% 177/200 *theirs*;
+not a ranking;
+NLI Tetris argmax P(entail)−P(contradict);
+情緒測謊器;
+1q 396ms / 30q 567ms;
+±0.03;
+33q $0.000045 vs Gemini ~5× slower ~60× cost *theirs*;
+≠ realZachi/jevtest;
+8-example Jev vs GPT-5.6 Sol ~64× cost 5.4× latency *theirs*;
+synthetic; no inference;
+≠ JevBench v1.2 §78;
+Judged 3317 / listed 2560;
+Jev judges, code applies policy;
+catalog ≠ endorsement;
+APA “microsecond policy / zero hallucination” overclaim;
+Client-side quiz; pointer from held docs; scanned-PDF warn;
+CSP only api.typesafe.ai;
+Jev judges / agent reasons / user decides;
+selecting an option is not permission to implement;
+degraded fallback;
+pattern exact, judgement must clear floor;
+no matching pattern → no model call;
+not a correctness oracle;
+$0.00022 vs chat $0.00306 *theirs*;
+Spec vs artifact remainder;
+treating 0.85 as 85% / minProbability hard-gate as Harbor;
+VERIFY acquires discriminating evidence, never same-pool confidence-only rescoring;
+fast/full/max are ceilings not sizes;
+Solar writes, Jev chooses NEXT ACTION;
+SemIf 2178★ (+12 vs §109 2166);
+jevlike 1032★ (+1 vs 1031);
+TypeAR 14★ flat;
+AnotiaWang 96★ (+1 vs 95);
+yibie/awesome-jev 488★;
+Laya likes 793 (was 783);
+tracker likes 64 flat, lastModified UNCHANGED;
+do not reopen or amend PR #23/#24/#25/#26/#27.
+
+### How-to-apply (twenty-two HIGH clusters / three themes)
+
+Open-weight / RLCD / Blackwood watch (Hub family/ports that
+ship or honestly do not; tracker-absent is **not** landed),
+measurement densifies PRIMARY (Harbor-jevals this hour is
+the independent calibration table + measured economics),
+and applied/theory class placements (knowledge work / life /
+business / SWE habits — not SWE-only). Measurement is PRIMARY
+for Harbor-jevals this hour (jev-bench ranking ≠ calibration;
+jev-measured cost/shape/json_schema honesty). Open
+reproduction rides along as class ports, not TypeSafe
+drop-ins. Applied placements show formal/semi-formal
+**compose** with Jev-class models (code owns quiz parse /
+pattern match / VERIFY evidence / user decision; Jev is
+SENSOR). Treating 0.85 as 85% / minProbability hard-gate
+as Harbor is the anti-pattern.
+
+**Theme A — Open-weight / RLCD / Blackwood watch**
+
+1. **Blackwood watch densify** (theme Open-weight /
+   RLCD / Blackwood watch) — Hub
+   BlackwoodAI/blackwood-rlcd HTTP 200; likes **2**;
+   gated **manual**; sha `3b9e29df`; lastModified
+   2026-09-18T21:49:56Z **UNCHANGED**. Tracker HTML
+   `blackwood_in_html` **false**. Blackwood tracker
+   ABSENT; likes 2 gated manual. Do **not** rewrite as
+   landed. Existing species card stays in
+   `judgment-class.md`; this hour is census densify
+   only. Archer still **promised_not_landed**. Hub
+   `archerhume/4rcherhume` HTTP **401**.
+
+2. **Qwen3-0.6B RLCD decision** — Hub
+   anthonym21/qwen3-0.6b-rlcd-decision apache-2.0;
+   likes **2**; sha `b327ec5e`; lastModified
+   2026-09-19T06:22:52Z. Not a stock transformers LM
+   head; needs `rlcd` from GH **anthony-maio/eve-rlcd**
+   (**2★**). Reward `r = c - p_a` (Brier identity).
+   ECE 0.021; acc 0.807 vs warmup 0.746 *theirs*.
+   NOTA route. Calibration beyond ~500 tokens
+   unmeasured. In-distribution only. Do **not** treat
+   ECE 0.021 as a hard gate of “honest probabilities.”
+   Formal compose: proper-scoring-rule reward is the
+   mechanism; hosted Jev remains the undocumented
+   exemplar.
+
+3. **Gemma E2B RLCD Independent** — Hub
+   larkooo/gemma-e2b-rlcd apache-2.0; likes **1**; sha
+   `e099c730`. Gemma 4 E2B MLX 4-bit multimodal;
+   Independent primitive; live demo 11.57s vs 54.10s ·
+   4.67× · 120/128 *theirs*. Default path is pretrained
+   Gemma probs not trained RLCD head. GH
+   **Larkooo/gemma-e2b-rlcd** **2★**; ~3.6GB Apple
+   Silicon. Independent `{cat: 0.9, dog: 0.5}` is valid.
+   Do **not** paste 4.67× as Harbor. Catalog:
+   Independent is a fourth primitive beside
+   Choice/Score/Noul — class expansion, not a Jev
+   drop-in.
+
+4. **Hub JEV-CPU twin** — Hub Meanblock/JEV-CPU mit;
+   likes **6**; sha `759fa606`. Hub twin of
+   leesk212/JEV-CPU. GH **Meanblock/JEV-CPU 404**; lock
+   **leesk212/JEV-CPU** for code (**2★**, size
+   **14336**). CPU SemIf; Qwen3-0.6B float32 ~2.4GB;
+   softmax over letter slots ≠ Noul. Eight-domain PoC
+   GIF. Do **not** treat Hub Meanblock as a new
+   species vs leesk212.
+
+5. **Mímir LFM openjev** — Hub
+   impacte/mimir-lfm-openjev license **other** (LFM
+   Open License v1.0); likes **0**; sha `2b999b3a`;
+   lastModified 2026-09-20T11:46:52Z. LFM2.5-8B-A1B
+   MoE NLI jev (AlexWortega/openjev recipe); n=1000
+   *theirs* WANLI 0.741 vs openjev v2 0.77. 3-way NLI
+   ≠ Noul. `trust_remote_code`. Sequence length 256 at
+   train. Formal compose: 3-way NLI is a different
+   primitive; do not hard-gate WANLI 0.741 as “beats
+   openjev.”
+
+6. **System One distilled (Haiku teacher)** — Hub
+   shreyanbr/system-one-distilled apache-2.0; likes
+   **0**; sha `56c9dba8`. 70.8M DeBERTa-v3-xsmall;
+   POST /v1/systemone. Distilled = Haiku teacher
+   1500/task. priority 0.464 = majority floor.
+   banking77 contaminated. raw margins not
+   probabilities (`calibration.json` required). GH
+   jev-haiku-benchmarking **404**. Do **not** distill
+   Jev as teacher of record (they distilled Haiku).
+
+7. **System One gold (dataset labels)** — Hub
+   shreyanbr/system-one-gold apache-2.0; likes **0**;
+   sha `93e22fcf`. Gold = dataset labels 4000/task.
+   Same 70.8M / same floor / same contamination.
+   Teacher-copy vs gold vs zeroshot is the class
+   lesson: three supervision regimes, one schema.
+
+8. **System One zeroshot (base NLI)** — Hub
+   shreyanbr/system-one-zeroshot apache-2.0; likes
+   **0**; sha `4b6659d5`. Zeroshot = base NLI; no
+   extra supervision. Same schema, same floors. Trio
+   densify: distilled / gold / zeroshot.
+
+**Theme B — Measurement densifies PRIMARY**
+
+9. **Running-Dolphins/jev-bench** (PRIMARY
+   Harbor-jevals this hour) —
+   Running-Dolphins/jev-bench Python MIT; **0★**; HEAD
+   `67d2ee42`; README SHA `ae2c5003`; LICENSE SHA
+   `891c70c6`; size **0** WITH CONTENTS; created this
+   hour. 12 tasks / 7 experiments. “0.9 is not one
+   number”. ranking ≠ calibration. banking77 0.8–0.9
+   stated 0.86 actual 0.73 over-confident *theirs*.
+   Same band under-confident on sms-spam. ≠
+   Praveenrajus/jev-bench ≠ fstandhartinger/jevbench.
+   Italian cost nothing here (87.0% both). OOS median
+   top-p 0.54 vs 1.00; 15% still ≥0.9; NOTA caught
+   73%. Observations, not laws. Formal compose:
+   reliability table is the exact envelope; Jev is
+   SENSOR. Do **not** treat 0.9 as one number. Do
+   **not** collapse into Praveenrajus/jevbench.
+
+10. **WallerChen/jev-measured** (PRIMARY measurement
+    economics) — WallerChen/jev-measured Python MIT;
+    **0★**; HEAD `4a12dfb3`; README SHA `1c2c38ac`;
+    LICENSE SHA `0c563e25`; size **37**.
+    $0.0000153–$0.0000226 vs circulating $0.0004
+    (~20×). Score is 0..n-1 expectation not 0–1.
+    Noul has no confidence field. TCP floor 198.8 ms.
+    type reliability is not a reason to choose Jev
+    (json_schema 5/5). gateway tax not one number.
+    “Jev is more accurate” not supported (ties
+    mistral 27/27). temperature: 0 removes chat
+    inconsistency. Formal compose: cost scales with
+    state length; geography is the latency floor;
+    request-body fields (json_schema, temperature) are
+    exact work. Do **not** treat circulating $0.0004
+    as measured. Do **not** treat Score as 0–1. Do
+    **not** treat Noul.confidence as existing. Do
+    **not** treat json_schema gap as typed-model win.
+
+11. **RadRebelSam/jev-decision-lab** —
+    RadRebelSam/jev-decision-lab TypeScript MIT;
+    **0★**; HEAD `e6d6d42d`; README SHA `52a0071d`;
+    LICENSE SHA `ae6f994c`; size **0** WITH CONTENTS.
+    Function-only 5/8 vs hybrid 8/8; 4/8 without Jev.
+    8 designed cases not conversion lift. ≠
+    RadRebelSam/awesome-jev. Rules for the obvious;
+    Jev for the ambiguous. Formal compose: functions
+    own clear cases; Jev SENSOR on conflicting cases.
+    Do **not** treat 8/8 as conversion lift.
+
+12. **jackojacko05 BigQuery pilot** —
+    jackojacko05/compare-jev-bigquery-ai-functions
+    Jupyter MIT; **0★**; HEAD `fca3771a`; README SHA
+    `37dc973e`; LICENSE SHA `0248c4b0`; size **0**
+    WITH CONTENTS. 200-row pilot Jev 85.5% 171/200 vs
+    Gemini Flash-Lite 86.0% 172/200 vs Pro 88.5%
+    177/200 *theirs*. not a ranking. Same BQ → Remote
+    Function → Cloud Run → Vercel AI Gateway path.
+    Costs exclude BQ/Cloud Run. Do **not** treat a
+    200-row as a ranking.
+
+13. **openjev fighting ring** —
+    Trecto34/openjev-fighting-ring Python; license
+    **null**; **0★**; HEAD `ac544f1e`; README SHA
+    `b3fe2907`; size **1159**. NLI Tetris argmax
+    P(entail)−P(contradict). openjev/kev/laya/heuristic.
+    Not Harbor. Physics/legal placements in code; NLI
+    SENSOR on desirability. Do **not** treat Tetris
+    play as a bake-off.
+
+14. **joshhu/jevtest 情緒測謊器** — joshhu/jevtest
+    HTML; license **null**; **0★**; HEAD `6a4df41d`;
+    README SHA `57d99325`; size **0** WITH CONTENTS.
+    情緒測謊器. 1q 396ms / 30q 567ms. ±0.03. 33q
+    $0.000045 vs Gemini ~5× slower ~60× cost *theirs*.
+    ≠ realZachi/jevtest. Knowledge work / life.
+    Confidence gates still soft. Do **not** collapse
+    joshhu into realZachi/jevtest.
+
+15. **aahf/JevBenchmark Space** — hfspace
+    aahf/JevBenchmark likes **1**; sha `36c28088`;
+    sdk **static**; license **null**. 8-example Jev vs
+    GPT-5.6 Sol ~64× cost 5.4× latency *theirs*.
+    synthetic; no inference. ≠ JevBench v1.2 §78. Do
+    **not** treat 64× Space as Harbor.
+
+16. **rhc98/awesome-jev** — rhc98/awesome-jev
+    TypeScript; SPDX **NOASSERTION**; LICENSE SHA
+    `d491d714`; **1★**; HEAD `82898f25`; README SHA
+    `e1f12080`; size **2529**. Judged 3317 / listed
+    2560. Jev judges, code applies policy. catalog ≠
+    endorsement. ≠ AnotiaWang ≠ yibie ≠ cobanov ≠
+    logicrw ≠ v-modal ≠ RadRebelSam/awesome-jev ≠
+    dog-last ≠ Frank-ZY-Dou ≠ whyashthakker. Do
+    **not** treat listed counts as eval.
+
+17. **AiPersonacademy/Awesome-jev-use** —
+    AiPersonacademy/Awesome-jev-use CC0-1.0; LICENSE
+    SHA `7ba0a23e`; **2★**; HEAD `7cd1064c`; README
+    SHA `32b0ddf5`; size **124**. Catalog not eval. ≠
+    whyashthakker ≠ walidboulanouar. APA “microsecond
+    policy / zero hallucination” overclaim (lock §89
+    apa-harness). Catalog ≠ endorsement. Do **not**
+    paste APA overclaim as a class fact.
+
+**Theme C — Applied / theory placements**
+(knowledge work / life / business / SWE habits)
+
+18. **erseco/questionator** — erseco/questionator
+    JavaScript MIT; **0★**; HEAD `b498f10b`; README
+    SHA `4334c847`; LICENSE SHA `3ebdd11d`; size
+    **1267**. Client-side quiz; pointer from held
+    docs; scanned-PDF warn. CSP only api.typesafe.ai.
+    Knowledge work. Formal compose: parse/extract is
+    exact and local; Jev SENSOR on Choice. Do not
+    copy keys / localStorage recipes.
+
+19. **grgy078033/grill-jev** — grgy078033/grill-jev
+    Python MIT; **1★**; HEAD `5ce6cbe8`; README SHA
+    `da80efcc`; LICENSE SHA `7c0e962d`; size **85**.
+    Jev judges / agent reasons / user decides.
+    selecting an option is not permission to
+    implement. degraded fallback. Do not copy
+    TYPESAFE_API_KEY. Formal compose: user decision is
+    the authorization; Jev SENSOR; agent reasoning is
+    leftover text.
+
+20. **makefunstuff/jev-lsp** — makefunstuff/jev-lsp
+    Rust MIT; **0★**; HEAD `734c0f59`; README SHA
+    `c7ecbf8f`; LICENSE SHA `fb5bc4a5`; size **1696**.
+    WIP. pattern exact, judgement must clear floor.
+    no matching pattern → no model call. not a
+    correctness oracle. $0.00022 vs chat $0.00306
+    *theirs*. Formal compose: regex/pattern is exact;
+    Jev SENSOR on matching lines only. Do **not** copy
+    `cargo install` as a recipe. Do **not** treat LSP
+    diagnostics as a proof.
+
+21. **nozomi-koborinai/jev-spec** —
+    nozomi-koborinai/jev-spec TypeScript MIT; **1★**;
+    HEAD `9f8cece7`; README SHA `7c5b08d0`; LICENSE
+    SHA `e43f732a`; size **73**. Spec vs artifact
+    remainder. **Anti-pattern:** treating 0.85 as 85%
+    / minProbability hard-gate as Harbor. Static lint
+    compose with sensor. Formal compose: mdast/root
+    jail/symlink checks are exact; Jev SENSOR on
+    semantic remainder. Hard-gating minProbability
+    0.85 as a CI proof is soundness theater.
+
+22. **202620325-spec/Jev-LLM** —
+    202620325-spec/Jev-LLM Python MIT; **0★**; HEAD
+    `da06b6d1`; README SHA `f371ba83`; LICENSE SHA
+    `5d699c97`; size **150**. Adaptive search. VERIFY
+    acquires discriminating evidence, never same-pool
+    confidence-only rescoring. fast/full/max are
+    ceilings not sizes. Solar writes, Jev chooses
+    NEXT ACTION. Formal compose: search envelope is
+    exact; Jev SENSOR on STOP/REFILL/VERIFY; Solar
+    leftover writes the locked state. Do **not** treat
+    :max as a mandatory search size. Do **not** copy
+    `.env` keys.
+
+### Theater (do not)
+
+Treat Blackwood tracker-absent as landed /
+treat 0.9 as one number /
+treat 8/8 as conversion lift /
+treat 200-row as ranking /
+treat 0.85 as 85% /
+treat Hub Meanblock as a new species vs leesk212 /
+collapse jev-bench into Praveenrajus/jevbench /
+collapse joshhu into realZachi/jevtest /
+treat circulating $0.0004 as measured /
+treat Score as 0–1 /
+treat Noul.confidence as existing /
+treat json_schema gap as typed-model win /
+treat 64× Space as Harbor /
+treat awesome listed counts as eval /
+treat WANLI 0.741 as beating openjev /
+treat ECE 0.021 as a hard gate /
+treat priority 0.464 without the majority floor /
+distill Jev as teacher of record /
+treat Independent `{cat,dog}` as Choice /
+treat softmax over letter slots as a Noul /
+treat minProbability 0.85 as Harbor /
+treat :max as a mandatory search size /
+treat 8-example ~64× as JevBench v1.2 /
+paste APA “microsecond policy / zero hallucination” /
+copy keys / `uv` / `npm` / `pip` / `cargo` /
+invent tweets / Archer /
+dump source /
+reopen or amend PR #23 or #24 or #25 or #26 or #27.
+
+### Census
+
+Census **not provided this hour** (not
+re-derived). Live REST pulse only: SemIf
+**2178★** (this-pass fetch; +12 vs §109
+**2166**; +50 vs §108 **2128**); jevlike
+**1032★** (+1 vs §109 **1031**);
+TypeAR-AI/TypeAR **14★** **flat** vs §109;
+AnotiaWang/awesome-jev **96★** (+1 vs §109
+**95**) still a **different object** from
+yibie/awesome-jev **488★**. Tracker
+`multimodalart/jev-reproductions-tracker`
+likes **64** **flat** vs §109;
+lastModified **UNCHANGED**
+`2026-09-20T04:29:16.000Z` vs §106–§109.
+Tracker as *model* HTTP **401**; as *space*
+HTTP 200. Laya **present**
+(`convaiinnovations/laya` likes **793** vs
+§109 **783**). Blackwood Hub HTTP 200 likes
+**2** gated **manual** **ABSENT** from tracker
+HTML. Archer still **promised_not_landed**. Hub
+`archerhume/4rcherhume` HTTP **401** (not a
+rewrite). Qwen/Qwen3.8-27B likes **15817** ≠ Archer.
+typesafe-ai/skills still v0.5.7 HEAD
+`65a39f3`. X MCP not used this hour; no
+invented tweets. `invented_signal: false`.
+
+Do-not-re-card densify (same species, likes/sha
+watch): AndeyTait/JevForge-0.8B sha `a7e0e71a`
+unchanged vs §99; jaswanthsanjay88/jev-0.5b sha
+`1044b44b` §92; argos1111/modernbert-ja-310m-jev
+likes **7** (§94); com-kotobalabs/open-jev-deberta-v3-large
+likes **29** (§33/§107); Luni/laya-grounded (§87);
+thaitea/laya-vision-smolvlm-256m likes **9** (§87);
+async-dime/jevloop (§87).
+
+0★ HIGH still got a real card (grill-jev **1★**;
+rhc98 **1★**; jev-spec **1★**; APA **2★**; the
+rest **0★** including size **0** WITH CONTENTS
+Running-Dolphins / RadRebelSam / jackojacko05 /
+joshhu). License **null** (Trecto34, joshhu,
+aahf Space) still got a real card. Hub Meanblock
+**does ship** a twin card; GH Meanblock 404.
+
+### Noise vs material (adversarial-review partition)
+
+**Material upgrade:** jev-bench (PRIMARY Harbor;
+ranking ≠ calibration; 0.9 is not one number);
+jev-measured (PRIMARY economics; Score 0..n-1;
+Noul has no confidence; json_schema 5/5);
+eve-rlcd `r = c - p_a` Brier identity;
+Gemma E2B Independent primitive (pretrained
+probs honesty); system-one teacher-copy vs gold
+vs zeroshot; jev-spec 0.85-as-85% anti-pattern;
+Jev-LLM VERIFY discriminating evidence;
+grill-jev user decides; jev-lsp pattern exact;
+questionator knowledge-work pointer.
+
+**Noise / thin still get cards:** aahf 8-example
+Space; fighting-ring Tetris demo; joshhu
+情緒測謊器; APA catalog overclaim (still a
+namesake lock). 0★ HIGH still gets a
+real card. Size **0** WITH CONTENTS still
+gets a real card.
+
+### Not
+
+Not a TypeSafe how-to. Not a Blackwood / eve-rlcd /
+gemma-e2b / JEV-CPU / mimir / system-one /
+jev-bench / jev-measured / decision-lab /
+BigQuery / fighting-ring / jevtest / JevBenchmark /
+awesome / questionator / grill-jev / jev-lsp /
+jev-spec / Jev-LLM install guide. Not wrappers.
+Do not copy keys / `npm` / `pip` / `npx` /
+`uv` / `cargo` / `mix` / `curl | sh` / `.env` /
+`OPENROUTER_API_KEY` / `TYPESAFE_API_KEY` /
+`ANTHROPIC_API_KEY` / `HF_TOKEN` /
+`OPENAI_API_KEY` / `VERCEL_AI_GATEWAY_API_KEY` /
+`UPSTAGE_API_KEY`. Do not re-fold 0439 /
+§109 / 0345 / §108 / 0243 / §107 / 0145 / §106 /
+0042 / §105 / 2340 / §104 / 2246 / §103 /
+2145 / §102 / 2041 / §101 / 1943 / §100 /
+1843 / §99 / 1740 / §98 / 1639 / §96 /
+gliner-native-runtime / §97 / 1541 / §95 /
+jev-align *mechanism* / §93 /
+jev-orderby-bench *six-gates* / §60 /
+JevBench v1.2 *board* / §78 /
+openJev-verdict *claim-audit* / §71 /
+yuki-oshio/mini-jev *93.25%* / §103. Do not
+reply into finished agents (prior 0439 fold
+agent finished; PR #27 MERGED). Do **not** merge from
+this review — parent merges after CLEAN
+adversarial review AND testing (standing
+order). do not reopen or amend PR #23 or
+#24 or #25 or #26 or #27.
+
+### Curated status
+
+0541 HIGH **folded** (22 HIGH / twenty-two
+clusters / three themes: Open-weight / RLCD /
+Blackwood watch — Blackwood census densify,
+eve-rlcd Brier identity, Gemma E2B Independent,
+Hub JEV-CPU twin, Mímir LFM NLI, system-one
+distilled/gold/zeroshot; Measurement densifies
+PRIMARY — jev-bench ranking≠calibration,
+jev-measured economics, decision-lab 8/8 not
+lift, BQ 200-row not a ranking, fighting-ring,
+joshhu 情緒測謊器, aahf Space, rhc98/APA
+catalogs; Applied/theory — questionator,
+grill-jev, jev-lsp, jev-spec 0.85 theater,
+Jev-LLM VERIFY). §109 / §108 / §107 / §106 /
+§105 / §104 / §103 / §102 / §101 / §100 / §99 /
+§98 / §97 / §96 / §95 / §93 mechanism /
+§78 v1.2 board / §71 claim-audit / §60
+six-gates **not re-carded**. Archer still
+**promised_not_landed**. 0★ HIGH still got a
+real card. `invented_signal: false`.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`judgment-class.md`; `validation.md`;
+`applied-mappings.md`; `mappings.md`;
+`toolbox-mapping.md`; `composition-algebra.md`
+items 226–247; `question-design.md`;
+`methods-catalog.md`; `formal-methods.md`;
+`agent-self-assessment.md`. Hunches labeled.
+No wrapper.

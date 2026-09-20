@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-20T10:39Z",
+  "retrieved": "2026-09-20T11:41Z",
   "sources": [
     {
       "kind": "docs",
@@ -1266,7 +1266,7 @@
       "kind": "huggingface",
       "title": "BlackwoodAI/blackwood-rlcd",
       "url": "https://huggingface.co/BlackwoodAI/blackwood-rlcd",
-      "note": "Open multimodal RLCD; CC BY-NC; Jev-compatible shim. Web acc 0.907 vs Jev 1.13 text-only 0.480; letter-shuffle 0.133 vs 0.587; ECE 0.037; ~200ms H100. Jev still leads general text 0.850 vs 0.786. Not Archer. notes.md §46."
+      "note": "Open multimodal RLCD; CC BY-NC; Jev-compatible shim. Web acc 0.907 vs Jev 1.13 text-only 0.480; letter-shuffle 0.133 vs 0.587; ECE 0.037; ~200ms H100. Jev still leads general text 0.850 vs 0.786. Not Archer. notes.md §46. Hourly 0541 census densify: likes 2 gated manual; sha 3b9e29df; lastModified UNCHANGED; Blackwood tracker ABSENT. notes.md §110."
     },
     {
       "kind": "huggingface",
@@ -4441,6 +4441,132 @@
       "title": "waterme7on/jev-paper-trader",
       "url": "https://github.com/waterme7on/jev-paper-trader",
       "note": "JS; license null; 0★; HEAD 73662f79; README SHA 4eded35a; size 145. 90d trend +12.40% vs random +12.75% vs BH +41.71%. 5m win rate 25%. notes.md §109."
+    },
+    {
+      "kind": "huggingface",
+      "title": "anthonym21/qwen3-0.6b-rlcd-decision",
+      "url": "https://huggingface.co/anthonym21/qwen3-0.6b-rlcd-decision",
+      "note": "apache-2.0; likes 2; sha b327ec5e. r = c - p_a. ECE 0.021; acc 0.807 vs warmup 0.746. calibration beyond ~500 tokens unmeasured. notes.md §110."
+    },
+    {
+      "kind": "huggingface",
+      "title": "larkooo/gemma-e2b-rlcd",
+      "url": "https://huggingface.co/larkooo/gemma-e2b-rlcd",
+      "note": "apache-2.0; likes 1; sha e099c730. Independent primitive. 11.57s vs 54.10s · 4.67× · 120/128 *theirs*. default path is pretrained Gemma probs not trained RLCD head. notes.md §110."
+    },
+    {
+      "kind": "huggingface",
+      "title": "Meanblock/JEV-CPU",
+      "url": "https://huggingface.co/Meanblock/JEV-CPU",
+      "note": "mit; likes 6; sha 759fa606. GH Meanblock 404; lock leesk212/JEV-CPU. softmax over letter slots ≠ Noul. notes.md §110."
+    },
+    {
+      "kind": "huggingface",
+      "title": "impacte/mimir-lfm-openjev",
+      "url": "https://huggingface.co/impacte/mimir-lfm-openjev",
+      "note": "LFM Open License; likes 0; sha 2b999b3a. WANLI 0.741 vs openjev v2 0.77 *theirs*. 3-way NLI ≠ Noul. notes.md §110."
+    },
+    {
+      "kind": "huggingface",
+      "title": "shreyanbr/system-one-distilled",
+      "url": "https://huggingface.co/shreyanbr/system-one-distilled",
+      "note": "apache-2.0; likes 0; sha 56c9dba8. priority 0.464 = majority floor. banking77 contaminated. raw margins not probabilities. do not distill Jev as teacher of record (they distilled Haiku). notes.md §110."
+    },
+    {
+      "kind": "huggingface",
+      "title": "shreyanbr/system-one-gold",
+      "url": "https://huggingface.co/shreyanbr/system-one-gold",
+      "note": "apache-2.0; likes 0; sha 93e22fcf. Gold = dataset labels. Teacher-copy vs gold vs zeroshot. notes.md §110."
+    },
+    {
+      "kind": "huggingface",
+      "title": "shreyanbr/system-one-zeroshot",
+      "url": "https://huggingface.co/shreyanbr/system-one-zeroshot",
+      "note": "apache-2.0; likes 0; sha 4b6659d5. Zeroshot = base NLI. notes.md §110."
+    },
+    {
+      "kind": "github",
+      "title": "Running-Dolphins/jev-bench",
+      "url": "https://github.com/Running-Dolphins/jev-bench",
+      "note": "PRIMARY Harbor-jevals hourly 0541. Python MIT LICENSE SHA 891c70c6; 0★; HEAD 67d2ee42; README SHA ae2c5003; size 0 WITH CONTENTS. “0.9 is not one number”. ranking ≠ calibration. banking77 0.8–0.9 stated 0.86 actual 0.73 over-confident *theirs*. ≠ Praveenrajus/jev-bench ≠ fstandhartinger/jevbench. notes.md §110."
+    },
+    {
+      "kind": "github",
+      "title": "WallerChen/jev-measured",
+      "url": "https://github.com/WallerChen/jev-measured",
+      "note": "PRIMARY measurement economics hourly 0541. Python MIT LICENSE SHA 0c563e25; 0★; HEAD 4a12dfb3; README SHA 1c2c38ac; size 37. $0.0000153–$0.0000226 vs circulating $0.0004 (~20×). Score is 0..n-1 expectation not 0–1. Noul has no confidence field. TCP floor 198.8 ms. type reliability is not a reason to choose Jev (json_schema 5/5). gateway tax not one number. notes.md §110."
+    },
+    {
+      "kind": "github",
+      "title": "RadRebelSam/jev-decision-lab",
+      "url": "https://github.com/RadRebelSam/jev-decision-lab",
+      "note": "TS MIT LICENSE SHA ae6f994c; 0★; HEAD e6d6d42d; README SHA 52a0071d; size 0 WITH CONTENTS. Function-only 5/8 vs hybrid 8/8. 4/8 without Jev. 8 designed cases not conversion lift. ≠ RadRebelSam/awesome-jev. notes.md §110."
+    },
+    {
+      "kind": "github",
+      "title": "jackojacko05/compare-jev-bigquery-ai-functions",
+      "url": "https://github.com/jackojacko05/compare-jev-bigquery-ai-functions",
+      "note": "Jupyter MIT LICENSE SHA 0248c4b0; 0★; HEAD fca3771a; README SHA 37dc973e; size 0 WITH CONTENTS. 200-row pilot Jev 85.5% 171/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 88.5% 177/200 *theirs*. not a ranking. notes.md §110."
+    },
+    {
+      "kind": "github",
+      "title": "Trecto34/openjev-fighting-ring",
+      "url": "https://github.com/Trecto34/openjev-fighting-ring",
+      "note": "Python; license null; 0★; HEAD ac544f1e; README SHA b3fe2907; size 1159. NLI Tetris argmax P(entail)−P(contradict). notes.md §110."
+    },
+    {
+      "kind": "github",
+      "title": "joshhu/jevtest",
+      "url": "https://github.com/joshhu/jevtest",
+      "note": "HTML; license null; 0★; HEAD 6a4df41d; README SHA 57d99325; size 0 WITH CONTENTS. 情緒測謊器. 1q 396ms / 30q 567ms. ±0.03. 33q $0.000045 vs Gemini ~5× slower ~60× cost *theirs*. ≠ realZachi/jevtest. notes.md §110."
+    },
+    {
+      "kind": "huggingface-space",
+      "title": "aahf/JevBenchmark",
+      "url": "https://huggingface.co/spaces/aahf/JevBenchmark",
+      "note": "likes 1; sha 36c28088; sdk static. 8-example Jev vs GPT-5.6 Sol ~64× cost 5.4× latency *theirs*. synthetic; no inference. ≠ JevBench v1.2 §78. notes.md §110."
+    },
+    {
+      "kind": "github",
+      "title": "rhc98/awesome-jev",
+      "url": "https://github.com/rhc98/awesome-jev",
+      "note": "TS; SPDX NOASSERTION LICENSE SHA d491d714; 1★; HEAD 82898f25; README SHA e1f12080; size 2529. Judged 3317 / listed 2560. Jev judges, code applies policy. catalog ≠ endorsement. notes.md §110."
+    },
+    {
+      "kind": "github",
+      "title": "AiPersonacademy/Awesome-jev-use",
+      "url": "https://github.com/AiPersonacademy/Awesome-jev-use",
+      "note": "CC0-1.0 LICENSE SHA 7ba0a23e; 2★; HEAD 7cd1064c; README SHA 32b0ddf5; size 124. APA “microsecond policy / zero hallucination” overclaim. catalog ≠ endorsement. notes.md §110."
+    },
+    {
+      "kind": "github",
+      "title": "erseco/questionator",
+      "url": "https://github.com/erseco/questionator",
+      "note": "JS MIT LICENSE SHA 3ebdd11d; 0★; HEAD b498f10b; README SHA 4334c847; size 1267. Client-side quiz; pointer from held docs; scanned-PDF warn. CSP only api.typesafe.ai. notes.md §110."
+    },
+    {
+      "kind": "github",
+      "title": "grgy078033/grill-jev",
+      "url": "https://github.com/grgy078033/grill-jev",
+      "note": "Python MIT LICENSE SHA 7c0e962d; 1★; HEAD 5ce6cbe8; README SHA da80efcc; size 85. Jev judges / agent reasons / user decides. selecting an option is not permission to implement. degraded fallback. notes.md §110."
+    },
+    {
+      "kind": "github",
+      "title": "makefunstuff/jev-lsp",
+      "url": "https://github.com/makefunstuff/jev-lsp",
+      "note": "Rust MIT LICENSE SHA fb5bc4a5; 0★; HEAD 734c0f59; README SHA c7ecbf8f; size 1696. pattern exact, judgement must clear floor. no matching pattern → no model call. not a correctness oracle. $0.00022 vs chat $0.00306 *theirs*. notes.md §110."
+    },
+    {
+      "kind": "github",
+      "title": "nozomi-koborinai/jev-spec",
+      "url": "https://github.com/nozomi-koborinai/jev-spec",
+      "note": "TS MIT LICENSE SHA e43f732a; 1★; HEAD 9f8cece7; README SHA 7c5b08d0; size 73. Spec vs artifact remainder. treating 0.85 as 85% / minProbability hard-gate as Harbor. notes.md §110."
+    },
+    {
+      "kind": "github",
+      "title": "202620325-spec/Jev-LLM",
+      "url": "https://github.com/202620325-spec/Jev-LLM",
+      "note": "Python MIT LICENSE SHA 5d699c97; 0★; HEAD da06b6d1; README SHA f371ba83; size 150. VERIFY acquires discriminating evidence, never same-pool confidence-only rescoring. fast/full/max are ceilings not sizes. Solar writes, Jev chooses NEXT ACTION. notes.md §110."
     }
   ]
 }

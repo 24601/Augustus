@@ -1239,6 +1239,33 @@ proof, /judge 0.5 as truth, 32/32 as production, gated
 100% as production, git-confess 11% as a person verdict,
 or paper-trader fills as edge is the same theater.
 
+0541 envelopes (`notes.md` §110), still outside the extras
+template:
+“0.9 is not one number”; ranking ≠ calibration;
+Score is 0..n-1 expectation not 0–1;
+Noul has no confidence field;
+type reliability is not a reason to choose Jev (json_schema 5/5);
+treating 0.85 as 85% / minProbability hard-gate as Harbor;
+VERIFY acquires discriminating evidence, never same-pool confidence-only rescoring;
+fast/full/max are ceilings not sizes;
+Solar writes, Jev chooses NEXT ACTION;
+pattern exact, judgement must clear floor;
+no matching pattern → no model call;
+not a correctness oracle;
+Jev judges / agent reasons / user decides;
+selecting an option is not permission to implement;
+Spec vs artifact remainder;
+r = c - p_a;
+Independent primitive;
+do not reopen or amend PR #23 or #24 or #25 or #26 or #27.
+Soft Noul ≠ hard safety: 0.9 / 0.85 / 8/8 / 0.021 / 0.464 are
+**sensors**. Parse/extract / regex/pattern / VERIFY envelope /
+user decision / mdast/root jail / search ceilings / json_schema
+request-body fields are exact work. Treating 0.85 as 85% /
+minProbability hard-gate as Harbor, 0.9 as one number, 8/8 as
+conversion lift, Score as 0–1, or Noul.confidence as existing
+is the same theater.
+
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a
 hybrid "verified by Noul" API.

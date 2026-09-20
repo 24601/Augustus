@@ -2286,3 +2286,82 @@ Laya present; Blackwood ABSENT; Archer still promised_not_landed.
 do not reopen or amend PR #23 or #24 or #25 or #26.
 do not reopen or amend PR #23/#24/#25/#26.
 Do not copy keys / `npx` / `pip` / `uv` / `.env` / `TYPESAFE_API_KEY` / `ANTHROPIC_API_KEY` / `HF_TOKEN` / `OPENAI_API_KEY` / `OPENROUTER_API_KEY`. Soft Noul ≠ hard safety.
+
+
+**Hourly 0541 HIGH (`notes.md` §110).** Open-weight / RLCD / Blackwood watch + measurement PRIMARY + applied/theory placements:
+Census densify: hf:BlackwoodAI/blackwood-rlcd
+Blackwood tracker ABSENT; likes 2 gated manual.
+hf:anthonym21/qwen3-0.6b-rlcd-decision r = c - p_a;
+ECE 0.021; acc 0.807 vs warmup 0.746;
+calibration beyond ~500 tokens unmeasured.
+hf:larkooo/gemma-e2b-rlcd Independent primitive;
+11.57s vs 54.10s · 4.67× · 120/128 *theirs*;
+default path is pretrained Gemma probs not trained RLCD head.
+hf:Meanblock/JEV-CPU GH Meanblock 404; lock leesk212/JEV-CPU;
+softmax over letter slots ≠ Noul.
+hf:impacte/mimir-lfm-openjev WANLI 0.741 vs openjev v2 0.77 *theirs*;
+3-way NLI ≠ Noul.
+hf:shreyanbr/system-one-distilled / gold / zeroshot
+priority 0.464 = majority floor; banking77 contaminated;
+raw margins not probabilities;
+do not distill Jev as teacher of record (they distilled Haiku).
+Measurement PRIMARY: [Running-Dolphins/jev-bench](https://github.com/Running-Dolphins/jev-bench)
+“0.9 is not one number”; ranking ≠ calibration;
+banking77 0.8–0.9 stated 0.86 actual 0.73 over-confident *theirs*;
+≠ Praveenrajus/jev-bench ≠ fstandhartinger/jevbench.
+[WallerChen/jev-measured](https://github.com/WallerChen/jev-measured)
+$0.0000153–$0.0000226 vs circulating $0.0004 (~20×);
+Score is 0..n-1 expectation not 0–1;
+Noul has no confidence field;
+TCP floor 198.8 ms;
+type reliability is not a reason to choose Jev (json_schema 5/5);
+gateway tax not one number.
+[RadRebelSam/jev-decision-lab](https://github.com/RadRebelSam/jev-decision-lab)
+Function-only 5/8 vs hybrid 8/8; 4/8 without Jev;
+8 designed cases not conversion lift; ≠ RadRebelSam/awesome-jev.
+[jackojacko05/compare-jev-bigquery-ai-functions](https://github.com/jackojacko05/compare-jev-bigquery-ai-functions)
+200-row pilot Jev 85.5% 171/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 88.5% 177/200 *theirs*;
+not a ranking.
+[Trecto34/openjev-fighting-ring](https://github.com/Trecto34/openjev-fighting-ring)
+NLI Tetris argmax P(entail)−P(contradict).
+[joshhu/jevtest](https://github.com/joshhu/jevtest)
+情緒測謊器; 1q 396ms / 30q 567ms; ±0.03;
+33q $0.000045 vs Gemini ~5× slower ~60× cost *theirs*;
+≠ realZachi/jevtest.
+hfspace:aahf/JevBenchmark
+8-example Jev vs GPT-5.6 Sol ~64× cost 5.4× latency *theirs*;
+synthetic; no inference; ≠ JevBench v1.2 §78.
+[rhc98/awesome-jev](https://github.com/rhc98/awesome-jev)
+Judged 3317 / listed 2560; Jev judges, code applies policy;
+catalog ≠ endorsement.
+[AiPersonacademy/Awesome-jev-use](https://github.com/AiPersonacademy/Awesome-jev-use)
+APA “microsecond policy / zero hallucination” overclaim.
+Applied: [erseco/questionator](https://github.com/erseco/questionator)
+Client-side quiz; pointer from held docs; scanned-PDF warn;
+CSP only api.typesafe.ai.
+[grgy078033/grill-jev](https://github.com/grgy078033/grill-jev)
+Jev judges / agent reasons / user decides;
+selecting an option is not permission to implement;
+degraded fallback.
+[makefunstuff/jev-lsp](https://github.com/makefunstuff/jev-lsp)
+pattern exact, judgement must clear floor;
+no matching pattern → no model call;
+not a correctness oracle;
+$0.00022 vs chat $0.00306 *theirs*.
+[nozomi-koborinai/jev-spec](https://github.com/nozomi-koborinai/jev-spec)
+Spec vs artifact remainder;
+treating 0.85 as 85% / minProbability hard-gate as Harbor.
+[202620325-spec/Jev-LLM](https://github.com/202620325-spec/Jev-LLM)
+VERIFY acquires discriminating evidence, never same-pool confidence-only rescoring;
+fast/full/max are ceilings not sizes;
+Solar writes, Jev chooses NEXT ACTION.
+SemIf 2178★ (+12 vs §109 2166);
+jevlike 1032★ (+1 vs 1031);
+TypeAR 14★ flat;
+AnotiaWang 96★ (+1 vs 95);
+yibie/awesome-jev 488★;
+Laya likes 793 (was 783);
+tracker likes 64 flat, lastModified UNCHANGED;
+Blackwood tracker ABSENT; Archer still promised_not_landed.
+do not reopen or amend PR #23/#24/#25/#26/#27.
+Do not copy keys / `npx` / `pip` / `uv` / `cargo` / `.env` / `TYPESAFE_API_KEY` / `ANTHROPIC_API_KEY` / `HF_TOKEN` / `OPENAI_API_KEY` / `OPENROUTER_API_KEY`. Soft Noul ≠ hard safety.

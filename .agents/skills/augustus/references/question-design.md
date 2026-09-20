@@ -352,6 +352,17 @@ request, and treat a stale pin as a prior, never a setting.
 | Treat 11% as a person verdict | Code owns count | git-confess code owns counting/blame/ratio. httpx exhibit 11% (13/119) *theirs*. `notes.md` §109 |
 | Treat +12.40% as edge | Honest negative | 90d trend +12.40% vs random +12.75% vs BH +41.71%. 5m win rate 25%. `notes.md` §109 |
 
+| Treat Blackwood tracker-absent as landed / Hub Meanblock as new species | Census densify | Blackwood tracker ABSENT; likes 2 gated manual. GH Meanblock 404; lock leesk212/JEV-CPU. softmax over letter slots ≠ Noul. `notes.md` §110 |
+| Treat ECE 0.021 as a hard gate / Independent as Choice | RLCD / Independent | r = c - p_a. ECE 0.021; acc 0.807 vs warmup 0.746. Independent primitive. default path is pretrained Gemma probs not trained RLCD head. `notes.md` §110 |
+| Distill Jev as teacher / 3-way NLI as Noul | Teacher-copy vs gold vs zeroshot | do not distill Jev as teacher of record (they distilled Haiku). priority 0.464 = majority floor. banking77 contaminated. raw margins not probabilities. 3-way NLI ≠ Noul. WANLI 0.741 vs openjev v2 0.77 *theirs*. `notes.md` §110 |
+| Treat 0.9 as one number / collapse into Praveenrajus | Ranking ≠ calibration | “0.9 is not one number”. ranking ≠ calibration. banking77 0.8–0.9 stated 0.86 actual 0.73 over-confident *theirs*. ≠ Praveenrajus/jev-bench ≠ fstandhartinger/jevbench. `notes.md` §110 |
+| Treat circulating $0.0004 as measured / Score as 0–1 / Noul.confidence as existing | Measurement honesty | $0.0000153–$0.0000226 vs circulating $0.0004 (~20×). Score is 0..n-1 expectation not 0–1. Noul has no confidence field. type reliability is not a reason to choose Jev (json_schema 5/5). `notes.md` §110 |
+| Treat 8/8 as conversion lift / 200-row as ranking | Designed cases / pilot | Function-only 5/8 vs hybrid 8/8. 4/8 without Jev. 8 designed cases not conversion lift. 200-row pilot Jev 85.5% 171/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 88.5% 177/200 *theirs*. not a ranking. `notes.md` §110 |
+| Collapse joshhu into realZachi / treat 64× Space as Harbor | Namesake / synthetic | 情緒測謊器. ≠ realZachi/jevtest. 8-example Jev vs GPT-5.6 Sol ~64× cost 5.4× latency *theirs*. synthetic; no inference. ≠ JevBench v1.2 §78. `notes.md` §110 |
+| Treat listed counts as eval / paste APA overclaim | Catalog ≠ endorsement | Judged 3317 / listed 2560. Jev judges, code applies policy. APA “microsecond policy / zero hallucination” overclaim. `notes.md` §110 |
+| Treat selecting an option as permission / LSP as a proof | User decides / pattern exact | Jev judges / agent reasons / user decides. selecting an option is not permission to implement. degraded fallback. pattern exact, judgement must clear floor. no matching pattern → no model call. not a correctness oracle. `notes.md` §110 |
+| Treat 0.85 as 85% / minProbability as Harbor / same-pool rescoring | Soundness theater | Spec vs artifact remainder. treating 0.85 as 85% / minProbability hard-gate as Harbor. VERIFY acquires discriminating evidence, never same-pool confidence-only rescoring. fast/full/max are ceilings not sizes. Solar writes, Jev chooses NEXT ACTION. `notes.md` §110 |
+
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline
