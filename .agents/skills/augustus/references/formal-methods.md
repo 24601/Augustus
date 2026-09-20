@@ -988,7 +988,7 @@ lewislululu/jevon ≠ douglance/jevon;
 source-bound evidence checks;
 local quote mismatch needs no API;
 exit 0 ≠ claim truth;
-WaynezProg/jev-kit ≠ jev-use ≠ jev-mcp.
+WaynezProg/jev-kit ≠ jonathanavis96/jev-kit (Airlock) ≠ jev-use ≠ jev-mcp.
 Soft Noul ≠ hard safety: 0.03s / 62 tests / 4.8 MiB /
 0.577 / +26,744 / maze 1.0000 / exit 0 are **sensors**.
 The jaggedness regex / Nx backend / canister schema

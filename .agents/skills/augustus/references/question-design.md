@@ -276,7 +276,7 @@ request, and treat a stale pin as a prior, never a setting.
 | Re-paste copied vs-Jev as a 2145 bake-off | Packaging | Hub Laya replica drop. daliborsb/laya ≠ convaiinnovations/laya ≠ NandhaKishorM/laya. `notes.md` §102 |
 | Distill Jev as teacher of record / treat missing student as shipped | Distill economics | System One student distillation corpus. gold is programmatic. teacher is closed-API clone. MagaBitmex/jev-4b-distill-data ≠ missing student checkpoint. `notes.md` §102 |
 | Paste maze 1.00 as a general System One / collapse into douglance/jevon | Non-LLM | non-LLM VIN System One. planning depth not chat. lewislululu/jevon ≠ douglance/jevon. `notes.md` §102 |
-| Treat exit 0 as claim truth / matching quote as a proof | Evidence ≠ authority | source-bound evidence checks. local quote mismatch needs no API. exit 0 ≠ claim truth. WaynezProg/jev-kit ≠ jev-use ≠ jev-mcp. `notes.md` §102 |
+| Treat exit 0 as claim truth / matching quote as a proof / collapse into jonathanavis96 Airlock | Evidence ≠ authority | source-bound evidence checks. local quote mismatch needs no API. exit 0 ≠ claim truth. WaynezProg/jev-kit ≠ jonathanavis96/jev-kit (Airlock) ≠ jev-use ≠ jev-mcp. `notes.md` §102 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

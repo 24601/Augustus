@@ -1976,7 +1976,8 @@ lint ≠ measured separation; ≠ tenbin ≠ JevLint ≠
 commitjev. Evidence cousin:
 [WaynezProg/jev-kit](https://github.com/WaynezProg/jev-kit)
 source-bound evidence checks; local quote mismatch
-needs no API; exit 0 ≠ claim truth; ≠ jev-use ≠
+needs no API; exit 0 ≠ claim truth; ≠ jonathanavis96/jev-kit
+(Airlock) ≠ jev-use ≠
 jev-mcp. On-chain/edge cousin:
 [humandebri/IC-Laya](https://github.com/humandebri/IC-Laya)
 parity_verified stays false; model output never grants

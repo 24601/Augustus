@@ -2096,8 +2096,8 @@
 - Pulse (do not invent): Archer still NOT landed. Hub
   archerhume/4rcherhume HTTP **401**. Tracker likes **54**;
   lastModified `2026-09-20T02:59:13Z` (not re-fetched as
-  a rewrite). Live REST: SemIf **1995★**; jevlike
-  **1002★** flat; TypeAR **11★** flat.
+  a rewrite). Live REST (review relock): SemIf **2000★**;
+  jevlike **1002★** flat; TypeAR **12★** (+1 vs §101 11).
   AnotiaWang/awesome-jev **86★** ≠ Awesomejev 561/27007.
   Qwen3.8-27B ≠ Archer. X MCP not used; no invented tweets.
 - Cards: SKILL.md, mixed-architecture fail table +
@@ -2115,6 +2115,11 @@
   model NOT FOUND; daliborsb copied vs-Jev is §76;
   IC-Laya parity_verified false / MASK 50284 vs PAD 50283;
   0★ HIGH still got a real card (jevon likes **3**).
+  **Review FAIL then lock:** WaynezProg/jev-kit ≠
+  jonathanavis96/jev-kit (Airlock); ember SCALING.md at
+  locked HEAD `c02f622b` is **7/24 → 1/24 → 0/24**
+  (SPECTRAL 11/40 is later, not this pin); live REST
+  SemIf **2000★** / TypeAR **12★**.
 
 ## 2026-09-20T02:41Z — hourly 2041 HIGH (Boise ~20:41 MDT)
 

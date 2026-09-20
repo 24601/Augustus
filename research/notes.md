@@ -20257,7 +20257,7 @@ lewislululu/jevon ≠ douglance/jevon;
 source-bound evidence checks;
 local quote mismatch needs no API;
 exit 0 ≠ claim truth;
-WaynezProg/jev-kit ≠ jev-use ≠ jev-mcp.
+WaynezProg/jev-kit ≠ jonathanavis96/jev-kit (Airlock) ≠ jev-use ≠ jev-mcp.
 
 ### How-to-apply (nine HIGH clusters)
 
@@ -20665,10 +20665,13 @@ WaynezProg/jev-kit ≠ jev-use ≠ jev-mcp.
      seeds, p=0.007 *theirs*. 64 calls/match,
      p50 153 ms.
 
-     Scaling *theirs* (HEAD): doubling/tripling
-     the mesh, red **collapsed** (11/40 → 4/40
-     → 0/40) even as sensor coverage fell
-     5.8% → 1.9%. Hypothesis that bigger grids
+     Scaling *theirs* (`SCALING.md` at locked
+     HEAD `c02f622b`): doubling/tripling the
+     mesh, red **collapsed** (**7/24 → 1/24 →
+     0/24**) even as sensor coverage fell
+     5.8% → 1.9%. SPECTRAL.md **11/40 → 4/40 →
+     0/40** is a later commit, not this pin.
+     Hypothesis that bigger grids
      favour the attacker was **wrong**. Root
      cause: red takes a strict global argmax
      whose class term always outranks noise, so
@@ -20699,7 +20702,7 @@ WaynezProg/jev-kit ≠ jev-use ≠ jev-mcp.
      **copyleftdev/ember**.
      copyleftdev/ember ≠ ember.js ≠ HA-Jev ≠
      jev-plays-games. Soft Noul ≠ hard safety:
-     +0.199 / +26,744 / 0 of 2,816 / 11/40→0/40
+     +0.199 / +26,744 / 0 of 2,816 / 7/24→0/24
      are **sensors**. Treating v4 as a safety
      proof, or injecting a prior as "help", is
      theater. Do not copy attacks as how-tos.
@@ -20992,9 +20995,12 @@ WaynezProg/jev-kit ≠ jev-use ≠ jev-mcp.
 
       **Name lock:** always write
       **WaynezProg/jev-kit**.
-      WaynezProg/jev-kit ≠ shitianfang/jev-use
-      ≠ jkudish/jev-mcp ≠ quarry ≠ jev-sift ≠
-      actiongate. Soft Noul ≠ hard safety:
+      WaynezProg/jev-kit ≠ jonathanavis96/jev-kit
+      (Airlock is the PreToolUse guard component
+      of that other kit, not a sandbox) ≠
+      shitianfang/jev-use ≠ jkudish/jev-mcp ≠
+      quarry ≠ jev-sift ≠ actiongate. Soft Noul
+      ≠ hard safety:
       nine hosts / exit 0 / local quote match
       are **sensors**. Treating a matching
       quote as a proof, or install-all-hosts
@@ -21021,17 +21027,21 @@ record / treat missing MagaBitmex/jev-4b-distill
 as shipped; paste maze 1.00 as a general
 System One / collapse jevon into douglance/jevon
 or Qwen-as-Archer; treat jev-kit exit 0 as
-claim truth / curl|sh as a skill. Invent
+claim truth / curl|sh as a skill / collapse
+WaynezProg/jev-kit into jonathanavis96
+Airlock. Invent
 tweets / Archer drop; dump source / keys /
 install recipes.
 
 ### Census
 
 Census **not provided this hour** (not
-re-derived). Live REST pulse only: SemIf
-**1995★** (+11 vs §101 **1984**); jevlike
+re-derived). Live REST pulse only (review
+relock): SemIf **2000★** (+16 vs §101
+**1984**; fold had 1995); jevlike
 **1002★** **flat**; TypeAR-AI/TypeAR
-**11★** **flat**. AnotiaWang/awesome-jev
+**12★** (+1 vs §101 **11**; fold had 11
+flat). AnotiaWang/awesome-jev
 **86★** (+2 vs §101 **84**) still a
 **different object** from user-provided
 Awesomejev 561/27007 (§99 pin). Archer still

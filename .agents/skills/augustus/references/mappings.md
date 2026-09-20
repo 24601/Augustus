@@ -1469,7 +1469,9 @@ economics (gold is programmatic; teacher is closed-API clone;
 do not distill Jev as teacher of record); non-LLM VIN
 System One (planning depth not chat; lewislululu/jevon ≠
 douglance/jevon); source-bound evidence (local quote
-mismatch needs no API; exit 0 ≠ claim truth). Soft Noul
+mismatch needs no API; exit 0 ≠ claim truth;
+WaynezProg/jev-kit ≠ jonathanavis96/jev-kit
+(Airlock)). Soft Noul
 ≠ hard safety. `notes.md` §102.
 **Authorship / jevtest-as-merge-seal (rh-guard owns the
 gate cousin; 2026-09-19 ~16:52):**

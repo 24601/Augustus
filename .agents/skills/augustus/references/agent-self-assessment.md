@@ -354,7 +354,8 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   **2145:** jevq warn never a merge seal; static lint ≠
   measured separation; IC-Laya model output never grants
   Tx; parity_verified stays false; jev-kit exit 0 ≠ claim
-  truth; ember prior injection crowds out evidence;
+  truth; WaynezProg/jev-kit ≠ jonathanavis96/jev-kit
+  (Airlock); ember prior injection crowds out evidence;
   comparative framing is the usable judgment
   (`notes.md` §102).
   **Lease / retrieve:**

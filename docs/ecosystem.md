@@ -756,9 +756,9 @@ Architecture / mental models / Harbor-jevals / toolbelt, not a jevq/laya_ex/IC-L
 - **daliborsb/laya** — HF Apache-2.0; 421.3M. Hub Laya replica drop. daliborsb/laya ≠ convaiinnovations/laya ≠ NandhaKishorM/laya. Do not re-paste copied vs-Jev.
 - **MagaBitmex/jev-4b-distill-data** — HF dataset Apache-2.0. System One student distillation corpus. gold is programmatic. teacher is closed-API clone. MagaBitmex/jev-4b-distill model **not found**. Do not distill Jev as teacher of record.
 - **lewislululu/jevon** — HF AGPL; likes **3**. non-LLM VIN System One. planning depth not chat. maze 1.0000 n=141 *theirs*. lewislululu/jevon ≠ douglance/jevon. Qwen3.8-27B ≠ Archer.
-- **WaynezProg/jev-kit** — MIT; **0★**; README SHA `a7f14838`; HEAD `4558554f`; GitHub size **0** with contents. source-bound evidence checks. local quote mismatch needs no API. exit 0 ≠ claim truth. WaynezProg/jev-kit ≠ jev-use ≠ jev-mcp. Do not copy `curl | sh`.
+- **WaynezProg/jev-kit** — MIT; **0★**; README SHA `a7f14838`; HEAD `4558554f`; GitHub size **0** with contents. source-bound evidence checks. local quote mismatch needs no API. exit 0 ≠ claim truth. WaynezProg/jev-kit ≠ jonathanavis96/jev-kit (Airlock) ≠ jev-use ≠ jev-mcp. Do not copy `curl | sh`.
 
-Pulse (do not invent): Archer still NOT landed. Hub `archerhume/4rcherhume` HTTP **401** — not re-fetched as a rewrite. Tracker likes **54**; lastModified `2026-09-20T02:59:13Z`. Live REST: SemIf **1995★** (+11 vs §101 **1984**); jevlike **1002★** **flat**; TypeAR-AI/TypeAR **11★** **flat**. AnotiaWang/awesome-jev **86★** (+2 vs §101 **84**) ≠ Awesomejev 561/27007. X MCP not used this hour; no invented tweets. `invented_signal: false`.
+Pulse (do not invent): Archer still NOT landed. Hub `archerhume/4rcherhume` HTTP **401** — not re-fetched as a rewrite. Tracker likes **54**; lastModified `2026-09-20T02:59:13Z`. Live REST (review relock): SemIf **2000★** (+16 vs §101 **1984**); jevlike **1002★** **flat**; TypeAR-AI/TypeAR **12★** (+1 vs §101 **11**). AnotiaWang/awesome-jev **86★** (+2 vs §101 **84**) ≠ Awesomejev 561/27007. X MCP not used this hour; no invented tweets. `invented_signal: false`.
 
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs

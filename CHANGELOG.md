@@ -1656,10 +1656,12 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   ([WaynezProg/jev-kit](https://github.com/WaynezProg/jev-kit)
   local quote mismatch needs no API; exit 0 ≠ claim
   truth; MIT; **0★**; HEAD `4558554f`; README SHA
-  `a7f14838`). Soft Noul ≠ hard safety. 0★ HIGH still
-  got a real card. Census **live REST pulse**: SemIf
-  **1995★** (+11 vs §101 **1984**); jevlike **1002★**
-  **flat**; TypeAR **11★** **flat**. Tracker likes **54**;
+  `a7f14838`; ≠ jonathanavis96/jev-kit Airlock). Soft
+  Noul ≠ hard safety. 0★ HIGH still
+  got a real card. Census **live REST pulse** (review
+  relock): SemIf **2000★** (+16 vs §101 **1984**);
+  jevlike **1002★** **flat**; TypeAR **12★** (+1 vs
+  §101 **11**). Tracker likes **54**;
   lastModified `2026-09-20T02:59:13Z`; Hub
   `archerhume/4rcherhume` HTTP **401** (not re-fetched as
   a rewrite). Archer still NOT landed. Awesomejev

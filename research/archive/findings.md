@@ -3072,12 +3072,12 @@ hour. Quote live REST over watch.
 - **Source-bound evidence.** WaynezProg/jev-kit (MIT;
   **0★**; HEAD `4558554f`; README SHA `a7f14838`). local
   quote mismatch needs no API. exit 0 ≠ claim truth.
-  WaynezProg/jev-kit ≠ jev-use ≠ jev-mcp.
+  WaynezProg/jev-kit ≠ jonathanavis96/jev-kit (Airlock) ≠ jev-use ≠ jev-mcp.
 
 Pulse: Archer still NOT landed. Hub
 archerhume/4rcherhume HTTP **401**. Tracker likes **54**;
-lastModified `2026-09-20T02:59:13Z`. Live REST: SemIf
-**1995★**; jevlike **1002★** flat; TypeAR **11★** flat.
+lastModified `2026-09-20T02:59:13Z`. Live REST (review relock): SemIf
+**2000★**; jevlike **1002★** flat; TypeAR **12★** (+1 vs §101 11).
 AnotiaWang/awesome-jev **86★** ≠ Awesomejev 561/27007.
 Qwen3.8-27B ≠ Archer. `invented_signal: false`.
 
