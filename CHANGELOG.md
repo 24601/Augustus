@@ -41,13 +41,12 @@ branch and is not part of this release.
   Noul; soft scores ≠ hard gates. Multimodal image↔text ZS is a
   perception front-end, not a decision model. Quote *theirs*; no
   invented accuracy numbers.
-- **Measurement honesty.** Harbor / jevals practice: ranking ≠
-  calibration; Score is a 0..n−1 expectation, not 0–1; Noul has no
-  confidence field; ECE ≠ an edge; treating 0.85 / minProbability as a
-  hard Harbor gate is theater; soft Noul ≠ hard safety; VERIFY must
-  acquire discriminating evidence, never same-pool confidence-only
-  rescoring. Calibration is not alpha. Compaction default 0.5 is not
-  safety.
+- **Measurement honesty.** Harbor / jevals practice: ranking ≠ calibration;
+  Score is a 0..n−1 expectation, not 0–1; Noul has no confidence field;
+  ECE ≠ an edge; treating 0.85 / minProbability as a hard Harbor gate is
+  theater; soft Noul ≠ hard gate; VERIFY must acquire discriminating
+  evidence, never same-pool confidence-only rescoring. Calibration is
+  not alpha. Compaction default 0.5 is not safety.
 - **Composition / placement.** Decision Graph Protocol envelope;
   meaning-grep (proposition ≠ embedding; AND/OR/NOT after threshold;
   not a gate); gut cost-of-error overlay (thresholds from costs, not

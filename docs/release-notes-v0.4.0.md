@@ -12,10 +12,10 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
 - **Class breadth.** Laya, kev, OpenJev, TypeAR, GLiNER species, Decision
   Graph Protocol, encoder zero-shot classifiers. Jev vs GPT-5.6 bakeoffs
   are a category error (Merve: BERTForXYZ → DeBERTa → ModernBERT).
-- **Measurement honesty.** Harbor / jevals practice: ranking ≠
-  calibration; Score is 0..n−1; Noul has no confidence field; ECE ≠ an
-  edge; 0.85 / minProbability theater; soft Noul ≠ hard gate; VERIFY
-  needs discriminating evidence.
+- **Measurement honesty.** Harbor / jevals practice: ranking ≠ calibration.
+  Score is 0..n−1. Noul has no confidence field. ECE ≠ an edge. 0.85 /
+  minProbability theater. Soft Noul ≠ hard gate. VERIFY needs
+  discriminating evidence.
 - **Composition.** DGP frame→assess→commit; meaning-grep; gut
   cost-of-error; fail-open vs fail-closed; compaction 0.5 is not safety;
   prune ≠ deny.
