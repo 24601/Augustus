@@ -2857,3 +2857,71 @@ Awesomejev 561/27007.
 Cross-repo addition: (lq) Decision Graph Protocol
 envelope; (lr) calibrated meaning-grep live tree;
 (ls) Archer-arch family OOD gap.
+
+## Batch #82 (2026-09-20 ~00:43 UTC / ~18:43 Boise) — hourly 1843 HIGH
+
+Note: `research/notes.md` §99. Docs-only on a fresh PR
+off main. Never reopen merged #7 / **#8** / **#9** /
+**#10** / **#12** / **#13** / **#14** / **#15** /
+**#16**. Do **not** re-fold §93 / §94 / §95 / §96 /
+§97 / §98. Skip Archer rewrite. Do **not** re-fold
+1740 / gliner-native-runtime / 1639 / 1541. No invented
+metrics. Hunches labeled. Quote READMEs. Soft Noul ≠
+hard safety. Augustus owns placement. gut/judge are
+overlays not species. jev-forge is class-architecture
+not a sixth species. llm-vs-jev is a cross-note;
+rh-guard owns steerability. Quote live REST over watch.
+`invented_signal: false`.
+
+- **Cost-derived YES/NO/UNSURE control flow (PRIMARY).**
+  Kungie/gut (Python MIT; **0★**; HEAD `cb56c875`;
+  README SHA `630474f6`; size 0; pre-alpha).
+  cost-sensitive decision theory × System One
+  probabilities → control flow. thresholds derived from
+  costs not hard-coded. YES / NO / UNSURE from
+  cost_false_yes / cost_false_no / cost_human.
+  auto-batching same-object questions. Kungie/gut ≠
+  tpellet/hunch ≠ carldaws/hunch. Overlay, not a
+  species.
+- **Typed-callback twin.** Illusion47586/judge
+  (TypeScript MIT; **0★**; HEAD `e69f65a1`; README SHA
+  `08554c6f`; size 317; `@brkn-labs/judge` 0.1.0).
+  judgment vs generation. deterministic execution after
+  probabilistic judgment. exactly one app-owned
+  callback. explicit uncertain branch.
+  Illusion47586/judge ≠ lexingtonhibiki/judgekit ≠
+  Ascurse/typed-judge-kit. Overlay, not a species.
+- **Variable-N option scoring as the trainable object.**
+  zwliJay/jev-forge (Python; GitHub NOASSERTION /
+  LICENSE MIT; **1★**; HEAD `eb3e4a2d`; README SHA
+  `359f3f57`). variable-N option scoring as the
+  trainable object. dynamic candidate bags not fixed
+  label sets. zwliJay/jev-forge ≠ NanoJev. Not a sixth
+  species. Do not clone weights. Do not paste 0.579 as
+  Harbor.
+- **Open NAR replica economics (late-catch).** wfzyx/von
+  (Apache-2.0; **43★**; HEAD `b9e42b26`; README SHA
+  `574aa628`). NAR local drop-in. open replica economics
+  / latency vs closed Jev. wfzyx/von late-catch HIGH.
+  competing NAR claims / replica honesty. Do not merge
+  Needle 52.6% with n=78 93.0%.
+- **Typed vs chat judges on guardrailing (cross-note).**
+  ishaannk/llm-vs-jev (Apache-2.0; **0★**; HEAD
+  `182e0864`; README SHA `d9ebd40f`). typed judgments vs
+  chat judges on guardrailing. nothing wins outright.
+  can be argued out of guarding. ishaannk/llm-vs-jev
+  cross-note only. deeper integrity fold is rh-guard.
+
+Pulse: Archer still NOT landed. Hub archerhume/4rcherhume
+HTTP **401**. Qwen3.8-27B ≠ Archer. Tracker likes **51**
+flat; lastModified UNCHANGED 2026-09-19T18:37:18Z. Laya
+yes. Blackwood ABSENT from tracker (Hub still 200).
+Awesomejev 561/27007 flat (user-provided). Live REST:
+SemIf **1936★**; jevlike **983★** (watch 984); TypeAR
+**11★** flat. X MCP since_id held; pages_archived 0; no
+invented tweets.
+
+Cross-repo addition: (lt) cost-derived YES/NO/UNSURE
+overlay; (lu) typed-callback control flow; (lv)
+variable-N option scoring; (lw) von late-catch NAR;
+(lx) typed vs chat judges on guardrailing.

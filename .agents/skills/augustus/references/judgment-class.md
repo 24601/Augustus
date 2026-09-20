@@ -581,6 +581,8 @@ program.
 |---|---|---|
 | Calibrated p(y\|x) over a closed set | Trained decision-only head (Jev, or an open head you have proper-scored and measured on your labels) | Threshold a generated "90%", an affinity you have not calibrated, TypeAR constrained scores, or a LoRA student's agreement with the teacher |
 | Laptop-local System One API for development / eval | **kev** — trained decision-only readout; family 0.5B–8B; official SDK with a `base_url` change (`notes.md` §45, §98) | Treat 0.5B ID ECE as a knowledge or frontier substitute; treat kev family OOD 0.76–0.77 vs Jev 0.86 as identity; treat isolation 4e-6 or `/v1/systemone` wire as a Noul |
+| Dynamic candidate bags (variable K per question) | Trained decision-only head whose object is `score(state, q, candidate_k)` then softmax over K (jev-forge class-architecture; `notes.md` §99). Not a new species | Treat as GLiClass categorize or TypeAR decode; clone Hub weights; paste 0.579/0.637 as Harbor; treat gut/judge as class-table species |
+| Local NAR drop-in vs hosted Jev latency/cost | **von** late-catch (`notes.md` §99) ModernBERT-large `/v1/systemone`; measure ECE on *your* labels | Merge Needle 52.6% with n=78 93%; treat sub-15ms GitHub desc as the 62 ms table; dump weights; treat wire as a Noul |
 | Dependent sequential decisions | Constrained AR that conditions later steps on earlier answers (TypeAR sequential), or code-owned transitions and a new request per stage | Treat sibling questions on one request as if they attend each other |
 | Open multimodal self-host / data-residency *now* | **blackwood-rlcd** — trained decision-only readout with image-in; Jev-compatible shim; CC BY-NC (`notes.md` §46) | Wait for Archer's 27B. Treat screenshot-vs-Jev-text as the same input. Threshold a commercial workflow on a non-commercial license. Skip self-eval because web-element acc is 0.907 |
 | Open multimodal self-host / data-residency *when it ships* | Hume's announced **decision-model** drop **when it ships** (Qwen3.8 27B **dense**, 265k, multimodal, no audio; one forward pass locally once AR is removed; MoE next then shrink). Driver: healthcare AU residency, not anti-TypeSafe | Ship on "smarter than Jev." That is his early claim, against his own order-sensitivity and in-distribution calibration warnings. **WATCH** — no Hub weights this pass. Laya remains text-only. kev is text-only. jev-visual is region Choice, not this drop |
@@ -886,11 +888,37 @@ policy. **No LICENSE file this pass.** Do not copy Windows CUDA/venv
 (`notes.md` §55). Independent of Distillation; independent of
 open-alternative-jev's RACE-H receipt — same *class*, different
 repo.
-**Tiny SAN local surface (extreme speed/econ class, not a replica):**
+**Tiny SAN local surface (extreme speed/econ class, not a replica;
+§49 snapshot):**
 [`wfzyx/von`](https://github.com/wfzyx/von) — 14 MB Needle; `POST
 /v1/systemone`; sub-15 ms CPU *claim* / ~38 ms embed in their table;
 authored144 needle **52.6%**. Distinguish from jev-local's **stub**
 and kev's trained pointer. **Do not copy the vs-Jev ranking table.**
+**Late-catch rewrite (`notes.md` §99; same repo, not a first
+discovery):** GitHub description still says sub-15ms NAR local
+drop-in (**43★** live REST). README this pass is Von-1.0 **395M
+(1.5 GB)** ModernBERT-large; table ~**62 ms** MPS / ~**300 ms**
+CPU on **n=78**; Hub
+[`wfzyx/von-1.0`](https://huggingface.co/wfzyx/von-1.0) **10**
+likes, lastModified 2026-09-19T22:38:37Z. Do **not** merge Needle
+52.6% with n=78 93.0%. Two temperatures in one README (T=1.0367 /
+T=1.1692); “guaranteeing” calibration is theater. NAR local
+drop-in. open replica economics / latency vs closed Jev.
+wfzyx/von late-catch HIGH. competing NAR claims / replica honesty.
+Wire-compat ≠ Noul. Do not dump weights.
+**Variable-N option scoring as the trainable object
+(class-architecture note, not a sixth species; `notes.md` §99):**
+[`zwliJay/jev-forge`](https://github.com/zwliJay/jev-forge)
+(Python; GitHub NOASSERTION / LICENSE MIT; **1★**; HEAD
+`eb3e4a2d`; README SHA `359f3f57`). Shared prefix + per-candidate
+scalar head; softmax over that question's K. dynamic candidate
+bags not fixed label sets. Contrast GLiClass (categorize a
+changing *label schema*) and TypeAR (constrained decode at
+*inference*, no trained decision head). zwliJay/jev-forge ≠
+NanoJev. MODEL_CARD *theirs*: candidate discovery is the caller's;
+not a browser-agent leaderboard. Do not clone Hub weights
+([AndeyTait/JevForge-0.8B](https://huggingface.co/AndeyTait/JevForge-0.8B)
+0 likes). Do not paste test/OOD choice top-1 0.579/0.637 as Harbor.
 **GLiFormer encoder serving the System One wire (2026-09-18 ~20:43):**
 [`logan-markewich/jeff`](https://github.com/logan-markewich/jeff) —
 `knowledgator/gliformer-large-v1` 400M; official SDK `base_url`
@@ -1013,7 +1041,8 @@ default, jeff confidently flat, do not invent Laya),
 §96 (indiejoseph/opencode-jev-pruner OpenCode host-port of tamaratran/jev-pruner; jev-zen / jev-1.13-free; zen-chat ≠ Noul; **≠** nrdz-labs/fast-jev-opencode; Kiln-AI/jev_jsonschema / NSStudent/JevSwiftSDK unofficial packaging, not new species; jev-webagent-bench empty stub),
 §97 (shershah1024/gliner-native-runtime GLiNER2 native Apple path; unofficial Swift/Core ML GLiNER 2.5-small; entity spans + confidence; not Choice/Score/Noul; not TypeSafe; label descriptions as schema; on-device ANE economics; honesty locks; shershah1024/gliner-native-runtime ≠ Fastino; ≠ gliner25-compaction ≠ gliner2-ultrafast ≠ Eran-BA/Jev_from_GLiNER2 ≠ NSStudent/JevSwiftSDK ≠ jevmlx; default threshold 0.1 still soft),
 §98 (numerous-com/dgp Decision Graph Protocol frame→assess→commit; app retains permissions/effects; Jev-first assessor-neutral; guarded commit / receipt/next frame; assessment batching; hard-gating DGP as safety theater; numerous-com/dgp ≠ TypeSafe official; can1357/jegrep calibrated path+range Nouls; no embeddings/index/daemon; ~$0.01–0.03 typical; agent --json; can1357/jegrep ≠ Bentlybro/jevgrep ≠ uehaj/jev-semgrep; jaredpalmer/kev family Archer-arch fidelity; kev family OOD 0.76–0.77 vs Jev 0.86; block-causal isolation; pointer/readout CE-trained; /v1/systemone drop-in; replica honesty — do not rewrite §45),
-§49 (boundary map; DMB vs constrained LLMs; von; open-alternative-jev). Before
+§99 (Kungie/gut cost-derived YES/NO/UNSURE overlay, not a species; Illusion47586/judge typed-callback twin, not a species; zwliJay/jev-forge variable-N option scoring as the trainable object, not a sixth species; wfzyx/von late-catch HIGH — Needle snapshot ≠ 395M table; competing NAR claims / replica honesty; ishaannk/llm-vs-jev cross-note only; deeper integrity fold is rh-guard; gut/judge are control-flow overlays),
+§49 (boundary map; DMB vs constrained LLMs; von Needle snapshot; open-alternative-jev). Before
 adopting a surface, the bake-off is a jevals-shaped suite and, for a
 product loop, a Harbor taskset (`validation.md`, Eval & hill-climb).
 The stage pipeline into that decision is the same file

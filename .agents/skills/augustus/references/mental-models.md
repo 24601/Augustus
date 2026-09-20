@@ -214,6 +214,25 @@ quality; selection/auth is control.
 
 Life/business reading of the same math: write the two costs in dollars,
 hours, or harm, *then* pick t. Do not copy 0.7 from a blog.
+**Programming primitive overlay (`notes.md` §99):**
+[gut](https://github.com/Kungie/gut) (MIT; **0★**; pre-alpha
+target design *theirs*) makes that table a control-flow
+outcome — YES / NO / UNSURE from `cost_false_yes` /
+`cost_false_no` / `cost_human`. Thresholds derived from
+costs not hard-coded. Worked example *theirs*: 2/52 ≈
+0.038. Ties prefer UNSURE, then NO. Default
+`on_unsure="raise"` so UNSURE does not silently become
+`False`. Auto-batching same-object questions. Twin:
+[Illusion47586/judge](https://github.com/Illusion47586/judge)
+maps the belief onto **exactly one** application callback
+including an explicit `uncertain` branch (judgment vs
+generation; deterministic execution after probabilistic
+judgment). Overlays, **not** new class-table species.
+Kungie/gut ≠ tpellet/hunch ≠ carldaws/hunch.
+Illusion47586/judge ≠ lexingtonhibiki/judgekit ≠
+Ascurse/typed-judge-kit. Soft Noul ≠ hard safety: 0.038
+/ `minimum: 0.85` are sensors. Hard-gating the derived
+threshold as a proof is theater.
 **Satisficing vs optimizing:** Choice for "good enough" menus; Score for
 graded quality. Do not run MCTS theater when satisficing is the real
 goal (leave-or-stay, send-or-edit, hire / more-interviews).
@@ -511,7 +530,7 @@ Use these as *existence proofs of a position*. Write your own card.
 | Robotics / control | observe → decide → act on a body | Choice on **geometry-as-text**, not pixels (**Empirical** as showcase: MuJoCo / MOSS; cousins jev-drone, Doom JSON; **Empirical as README delta**: khordoo/jev-reflex-autonomy-lab — S1 keeps flying, S2 one-use, no graphical input) | Kinematics / Hz / physics in code; two-call split; do not replace A*. Drawing-pixel claim ≠ Archer. S2 never grants. 20% still soft |
 | Draft quality gate | kill drafts that break rules | quality Noul/Score (**Empirical** as fail *mode*: silence treated as safer) | Fail-open / heartbeat on missing verdict; contrast Abide `<0.5` (edit proceeds) |
 | Session memory | next task sees last session's facts | scored recall over a verbatim ledger (**Empirical**: carryforward; 9×3 hint; **0/4** recall) | Constraints always-keep; fail-open dump; SessionStart > hoping |
-| Application control flow | `if` / `case` on a judgment | `chance`/`pick`/`rate` as language primitives (**Empirical**: hunch; English-as-config) | Fail polarity per action; stub backend |
+| Application control flow | `if` / `case` on a judgment | `chance`/`pick`/`rate` as language primitives (**Empirical**: hunch; English-as-config). **Cost-derived overlay** (**Empirical as README target design**: Kungie/gut; YES / NO / UNSURE from costs; auto-batch). **Typed-callback overlay** (**Empirical as README**: Illusion47586/judge; exactly one app-owned callback; explicit uncertain branch) | Fail polarity per action; stub backend. Default UNSURE raises. Overlays, not species. Kungie/gut ≠ tpellet/hunch ≠ carldaws/hunch. Illusion47586/judge ≠ judgekit ≠ typed-judge-kit |
 | Healthcare huddle / recon / inbox | escalate / hold / route | S1 remainder after NEWS2/code (**Empirical** as synthetic report: explore-typesafe-ai; **not clinically validated**) | NEWS2, recon, routing in code; S2 blinded review |
 | Intent cascade vs nano/encoder | escalate when unsure | pre-registered kill/go (**Empirical as practice**: jev-baselines-eval **AMBIGUOUS**; cascade sign-flip; encoder-with-labels wins) | Thresholds, serving-path honesty, ECE if you claim calibration |
 | Public primitive / wall | typed answers on a sentence | six parallel questions (**Empirical** as README: ask-jev-ai; cost-to-1M from tokens) | Policy-in-code; no-key allowlist; safety threshold in code |
@@ -1156,6 +1175,95 @@ Jev,” is the same theater as jev-gate §79.
 Formal methods **compose** with scoring. A Noul
 is a SENSOR. Hard-gating DGP as safety theater
 is theater.
+
+## Apply 1843 (`notes.md` §99)
+
+Same pillars, five HIGH clusters (cost-derived
+control flow, typed-callback twin, variable-N
+training object, open NAR replica economics,
+typed vs chat judges). Do **not** re-fold 1740
+/ §98 / 1639 / §96 / gliner-native-runtime /
+§97 / 1541 / §95. Fresh PR; never reopen merged
+#7–**#16**. Skip Archer rewrite (still **NOT
+landed**; likes 51 **flat**; lastModified
+UNCHANGED). Quote live REST over watch claims.
+`invented_signal: false`. gut/judge are
+**overlays**, not new class-table species.
+jev-forge is a class-architecture note, not a
+sixth species. llm-vs-jev is a **cross-note**;
+deeper integrity fold is rh-guard.
+
+Unique consecutive fragments:
+cost-sensitive decision theory × System One probabilities → control flow;
+thresholds derived from costs not hard-coded;
+YES / NO / UNSURE from cost_false_yes / cost_false_no / cost_human;
+auto-batching same-object questions;
+Kungie/gut ≠ tpellet/hunch ≠ carldaws/hunch;
+judgment vs generation;
+deterministic execution after probabilistic judgment;
+exactly one app-owned callback;
+explicit uncertain branch;
+Illusion47586/judge ≠ lexingtonhibiki/judgekit ≠ Ascurse/typed-judge-kit;
+variable-N option scoring as the trainable object;
+dynamic candidate bags not fixed label sets;
+zwliJay/jev-forge ≠ NanoJev;
+open replica economics / latency vs closed Jev;
+NAR local drop-in;
+wfzyx/von late-catch HIGH;
+competing NAR claims / replica honesty;
+typed judgments vs chat judges on guardrailing;
+ishaannk/llm-vs-jev cross-note only;
+deeper integrity fold is rh-guard;
+nothing wins outright;
+can be argued out of guarding.
+
+1. **Cost-derived YES/NO/UNSURE control flow**
+   (PRIMARY) —
+   cost-sensitive decision theory × System One
+   probabilities → control flow.
+   thresholds derived from costs not hard-coded.
+   YES / NO / UNSURE from cost_false_yes /
+   cost_false_no / cost_human.
+   auto-batching same-object questions.
+   EU / Chow / Elkan as a programming primitive.
+   Kungie/gut ≠ tpellet/hunch ≠ carldaws/hunch.
+2. **Typed-callback twin** —
+   judgment vs generation.
+   deterministic execution after probabilistic
+   judgment.
+   exactly one app-owned callback.
+   explicit uncertain branch.
+   Illusion47586/judge ≠ lexingtonhibiki/judgekit
+   ≠ Ascurse/typed-judge-kit.
+3. **Variable-N option scoring as the trainable
+   object** (not a new species) —
+   dynamic candidate bags not fixed label sets.
+   zwliJay/jev-forge ≠ NanoJev.
+4. **Open NAR replica economics** (late-catch) —
+   NAR local drop-in.
+   open replica economics / latency vs closed Jev.
+   wfzyx/von late-catch HIGH.
+   competing NAR claims / replica honesty.
+   Do not merge Needle 52.6% with n=78 93%.
+5. **Typed vs chat judges on guardrailing**
+   (cross-note) —
+   typed judgments vs chat judges on guardrailing.
+   ishaannk/llm-vs-jev cross-note only.
+   deeper integrity fold is rh-guard.
+   nothing wins outright.
+   can be argued out of guarding.
+
+Soft Noul ≠ hard safety. 0.038 / 0.85 /
+0.579 / 0.637 / 93.0% / 62 ms / 15 ms /
+77.9% / ECE 0.053 / 14.3% steer are
+**sensors**. Hard-gating a derived threshold
+as a proof, pasting von as a Jev replica,
+or pasting "Jev wins guardrailing" is the
+same theater as jev-gate §79.
+
+Formal methods **compose** with scoring. A
+Noul is a SENSOR. The cost table / callback
+map / commit guard is policy.
 
 ## Decision-design extras (any domain)
 

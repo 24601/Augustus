@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T23:40Z",
+  "retrieved": "2026-09-20T00:43Z",
   "sources": [
     {
       "kind": "docs",
@@ -1482,7 +1482,7 @@
       "kind": "github",
       "title": "wfzyx/von",
       "url": "https://github.com/wfzyx/von",
-      "note": "Apache-2.0. 14MB Needle SAN local /v1/systemone. authored144 52.6%. Not a Jev replica. Do not copy vs-Jev table. notes.md §49."
+      "note": "Apache-2.0. Late-catch HIGH notes.md §99: GitHub desc still sub-15ms NAR local drop-in (43★). README this pass Von-1.0 395M ModernBERT-large; ~62 ms MPS / n=78 93.0% *theirs*. Hub wfzyx/von-1.0 10 likes. Do not merge Needle 52.6% (§49 snapshot) with this table. competing NAR claims / replica honesty. Do not dump weights. Do not copy vs-Jev table."
     },
     {
       "kind": "github",
@@ -3642,7 +3642,49 @@
       "kind": "huggingface",
       "title": "archerhume/4rcherhume",
       "url": "https://huggingface.co/archerhume/4rcherhume",
-      "note": "Archer Hume open-weight still NOT landed. HTTP 401 this pass (empty Hub). Tracker likes 51; lastModified UNCHANGED 2026-09-19T18:37:18Z. Do not treat kev-8b or Qwen3.8-27B as the drop. notes.md §98."
+      "note": "Archer Hume open-weight still NOT landed. HTTP 401 this pass (empty Hub). Tracker likes 51 flat; lastModified UNCHANGED 2026-09-19T18:37:18Z. Do not treat kev-8b or Qwen3.8-27B as the drop. notes.md §98, §99."
+    },
+    {
+      "kind": "github",
+      "title": "Kungie/gut",
+      "url": "https://github.com/Kungie/gut",
+      "note": "PRIMARY Augustus hourly 1843. Python MIT; 0★; HEAD cb56c875; README SHA 630474f6; pre-alpha. cost-sensitive decision theory × System One probabilities → control flow. thresholds derived from costs not hard-coded. YES / NO / UNSURE from cost_false_yes / cost_false_no / cost_human. auto-batching same-object questions. Kungie/gut ≠ tpellet/hunch ≠ carldaws/hunch. Overlay not species. Do not dump src. notes.md §99."
+    },
+    {
+      "kind": "github",
+      "title": "Illusion47586/judge",
+      "url": "https://github.com/Illusion47586/judge",
+      "note": "TypeScript MIT; 0★; HEAD e69f65a1; README SHA 08554c6f; @brkn-labs/judge 0.1.0. judgment vs generation. deterministic execution after probabilistic judgment. exactly one app-owned callback. explicit uncertain branch. Illusion47586/judge ≠ lexingtonhibiki/judgekit ≠ Ascurse/typed-judge-kit. Overlay not species. Do not dump SDK. notes.md §99."
+    },
+    {
+      "kind": "github",
+      "title": "zwliJay/jev-forge",
+      "url": "https://github.com/zwliJay/jev-forge",
+      "note": "Python; GitHub NOASSERTION / LICENSE MIT; 1★; HEAD eb3e4a2d; README SHA 359f3f57. variable-N option scoring as the trainable object. dynamic candidate bags not fixed label sets. zwliJay/jev-forge ≠ NanoJev. Class-architecture note not a sixth species. Do not clone Hub weights. notes.md §99."
+    },
+    {
+      "kind": "huggingface",
+      "title": "AndeyTait/JevForge-0.8B",
+      "url": "https://huggingface.co/AndeyTait/JevForge-0.8B",
+      "note": "jev-forge Hub checkpoint. apache-2.0; 0 likes; lastModified 2026-09-19T11:38:46Z. Do not clone weights. notes.md §99."
+    },
+    {
+      "kind": "huggingface",
+      "title": "wfzyx/von-1.0",
+      "url": "https://huggingface.co/wfzyx/von-1.0",
+      "note": "Von-1.0 ModernBERT-large. apache-2.0; 10 likes; lastModified 2026-09-19T22:38:37Z. Late-catch of wfzyx/von. Do not dump weights. notes.md §99."
+    },
+    {
+      "kind": "github",
+      "title": "ishaannk/llm-vs-jev",
+      "url": "https://github.com/ishaannk/llm-vs-jev",
+      "note": "Apache-2.0; 0★; HEAD 182e0864; README SHA d9ebd40f. typed judgments vs chat judges on guardrailing. nothing wins outright. can be argued out of guarding. ishaannk/llm-vs-jev cross-note only. deeper integrity fold is rh-guard. Do not copy uv/keys. notes.md §99."
+    },
+    {
+      "kind": "huggingface",
+      "title": "Qwen/Qwen3.8-27B",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "note": "HTTP 200; likes 15762; lastModified 2026-08-14T15:00:01Z; author Qwen. ≠ Archer. notes.md §99."
     }
   ]
 }

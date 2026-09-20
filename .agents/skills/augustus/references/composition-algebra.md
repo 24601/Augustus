@@ -818,3 +818,84 @@ replica honesty.
 Hourly 1740 items 94–96 (`notes.md` §98). Do **not**
 re-fold 1639 items 91–92 / SIGNAL §97 item 93.
 Soft Noul ≠ hard safety.
+
+Hourly 1843 unique consecutive fragments:
+cost-sensitive decision theory × System One probabilities → control flow;
+thresholds derived from costs not hard-coded;
+YES / NO / UNSURE from cost_false_yes / cost_false_no / cost_human;
+auto-batching same-object questions;
+Kungie/gut ≠ tpellet/hunch ≠ carldaws/hunch;
+judgment vs generation;
+deterministic execution after probabilistic judgment;
+exactly one app-owned callback;
+explicit uncertain branch;
+Illusion47586/judge ≠ lexingtonhibiki/judgekit ≠ Ascurse/typed-judge-kit;
+variable-N option scoring as the trainable object;
+dynamic candidate bags not fixed label sets;
+zwliJay/jev-forge ≠ NanoJev;
+open replica economics / latency vs closed Jev;
+NAR local drop-in;
+wfzyx/von late-catch HIGH;
+competing NAR claims / replica honesty;
+typed judgments vs chat judges on guardrailing;
+ishaannk/llm-vs-jev cross-note only;
+deeper integrity fold is rh-guard;
+nothing wins outright;
+can be argued out of guarding.
+
+97. **Cost-derived YES/NO/UNSURE control flow**
+    (Kungie/gut; PRIMARY):
+    position 3 (Gate) × EU/Chow/Elkan remainder.
+    cost-sensitive decision theory × System One
+    probabilities → control flow.
+    thresholds derived from costs not hard-coded.
+    YES / NO / UNSURE from cost_false_yes /
+    cost_false_no / cost_human.
+    auto-batching same-object questions.
+    Overlay, **not** a new class-table species.
+    Kungie/gut ≠ tpellet/hunch ≠ carldaws/hunch.
+    Full cards: `mental-models.md`, `faq.md`.
+98. **Typed-callback twin**
+    (Illusion47586/judge):
+    position 3 (Gate) / 4 (Selector of F) ×
+    app-owned remainder.
+    judgment vs generation.
+    deterministic execution after probabilistic
+    judgment.
+    exactly one app-owned callback.
+    explicit uncertain branch.
+    Provider-neutral core; Jev default.
+    Illusion47586/judge ≠ lexingtonhibiki/judgekit
+    ≠ Ascurse/typed-judge-kit.
+    Full cards: `mixed-architecture.md`, `faq.md`.
+99. **Variable-N option scoring as the trainable
+    object** (zwliJay/jev-forge):
+    position 1 (replacement of a classifier step)
+    × decide-family training object.
+    dynamic candidate bags not fixed label sets.
+    Not a new class-table species. Not GLiClass
+    categorize. Do not clone weights/corpora.
+    zwliJay/jev-forge ≠ NanoJev.
+    Full cards: `judgment-class.md`, `faq.md`.
+100. **Open NAR replica economics** (wfzyx/von
+     late-catch HIGH):
+     position 1 × local NAR drop-in.
+     NAR local drop-in.
+     open replica economics / latency vs closed Jev.
+     competing NAR claims / replica honesty.
+     Do not merge Needle 52.6% with n=78 93%.
+     Do not dump weights.
+     Full cards: `judgment-class.md`, `faq.md`.
+101. **Typed vs chat judges on guardrailing**
+     (ishaannk/llm-vs-jev; cross-note):
+     position 2 (Post-judge) / 9 (Verifier) eval.
+     typed judgments vs chat judges on guardrailing.
+     nothing wins outright.
+     can be argued out of guarding.
+     ishaannk/llm-vs-jev cross-note only.
+     deeper integrity fold is rh-guard.
+     Full cards: `validation.md`, `faq.md`.
+
+Hourly 1843 items 97–101 (`notes.md` §99). Do **not**
+re-fold 1740 items 94–96 / SIGNAL §97 item 93.
+Soft Noul ≠ hard safety.

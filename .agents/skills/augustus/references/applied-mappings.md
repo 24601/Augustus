@@ -1305,6 +1305,24 @@ replica honesty.
 rh-guard owns the silent-FALLBACK cousin; rh-guard
 **does not own** protocol envelope / ranking fail-open /
 replica honesty (`notes.md` §98).
+**Cost-derived / typed-callback overlays (Empirical as
+README target design; 2026-09-19 ~18:43):**
+[Kungie/gut](https://github.com/Kungie/gut)
+(Python MIT; **0★**; pre-alpha) — cost-sensitive
+decision theory × System One probabilities → control
+flow. thresholds derived from costs not hard-coded.
+YES / NO / UNSURE from cost_false_yes / cost_false_no /
+cost_human. auto-batching same-object questions.
+Default `on_unsure="raise"`. Kungie/gut ≠ tpellet/hunch
+≠ carldaws/hunch.
+[Illusion47586/judge](https://github.com/Illusion47586/judge)
+(TypeScript MIT; **0★**; `@brkn-labs/judge` 0.1.0) —
+judgment vs generation. deterministic execution after
+probabilistic judgment. exactly one app-owned callback.
+explicit uncertain branch. Illusion47586/judge ≠
+lexingtonhibiki/judgekit ≠ Ascurse/typed-judge-kit.
+Overlays, not species. Soft Noul ≠ hard safety
+(`notes.md` §99).
 
 ## 6. Expensive observation router
 

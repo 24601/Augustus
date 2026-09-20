@@ -1596,6 +1596,69 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   Hub `archerhume/4rcherhume` HTTP **401**. Archer still NOT
   landed. Do not copy keys / `uv` / `cargo` / `.env`. No
   wrapper. No invented metrics.
+- Hourly 1843 HIGH (`research/notes.md` §99): **Skip
+  Archer rewrite.** Docs-only on a **fresh PR off main**.
+  Never reopen merged #7–**#16**. Do **not** re-fold 1740
+  / §98 / 1639 / §96 / gliner-native-runtime / §97 /
+  1541 / §95. How-to-apply / mental models /
+  architecture / Harbor-jevals / toolbelt — not a thin
+  Jev skill dump. Backend-agnostic
+  categorization/scoring/decision class. Formal methods
+  compose with scoring; a Noul is a SENSOR; hard-gating
+  cost-derived 0.038 as a proof, merging von Needle
+  52.6% with n=78 93%, “guaranteeing” calibration, or
+  pasting “Jev wins guardrailing” is soundness theater.
+  Five HIGH clusters: **cost-derived YES/NO/UNSURE
+  control flow**
+  ([Kungie/gut](https://github.com/Kungie/gut)
+  PRIMARY; cost-sensitive decision theory × System One
+  probabilities → control flow; thresholds derived from
+  costs not hard-coded; YES / NO / UNSURE from
+  cost_false_yes / cost_false_no / cost_human;
+  auto-batching same-object questions; Kungie/gut ≠
+  tpellet/hunch ≠ carldaws/hunch; Python MIT; **0★**;
+  HEAD `cb56c875`; README SHA `630474f6`; pre-alpha);
+  **typed-callback twin**
+  ([Illusion47586/judge](https://github.com/Illusion47586/judge)
+  judgment vs generation; deterministic execution after
+  probabilistic judgment; exactly one app-owned
+  callback; explicit uncertain branch;
+  Illusion47586/judge ≠ lexingtonhibiki/judgekit ≠
+  Ascurse/typed-judge-kit; TypeScript MIT; **0★**; HEAD
+  `e69f65a1`; README SHA `08554c6f`; `@brkn-labs/judge`
+  0.1.0); **variable-N option scoring as the trainable
+  object**
+  ([zwliJay/jev-forge](https://github.com/zwliJay/jev-forge)
+  dynamic candidate bags not fixed label sets;
+  zwliJay/jev-forge ≠ NanoJev; class-architecture note,
+  not a sixth species; GitHub NOASSERTION / LICENSE MIT;
+  **1★**; HEAD `eb3e4a2d`; README SHA `359f3f57`; do not
+  clone Hub weights); **open NAR replica economics**
+  ([wfzyx/von](https://github.com/wfzyx/von) late-catch
+  HIGH of the same repo; NAR local drop-in; open replica
+  economics / latency vs closed Jev; competing NAR
+  claims / replica honesty; Apache-2.0; **43★**; HEAD
+  `b9e42b26`; README SHA `574aa628`; do not merge Needle
+  52.6% with n=78 93.0%); **typed vs chat judges on
+  guardrailing**
+  ([ishaannk/llm-vs-jev](https://github.com/ishaannk/llm-vs-jev)
+  cross-note only; nothing wins outright; can be argued
+  out of guarding; deeper integrity fold is rh-guard;
+  Apache-2.0; **0★**; HEAD `182e0864`; README SHA
+  `d9ebd40f`). gut/judge are **control-flow /
+  decision-theory overlays, not new class-table
+  species**. Soft Noul ≠ hard safety. 0★ HIGH still got
+  a real card. Census **live REST quoted**: SemIf
+  **1936★**; jevlike **983★** (watch claimed 984);
+  TypeAR **11★** flat. Tracker likes **51** flat;
+  lastModified UNCHANGED 2026-09-19T18:37:18Z; Hub
+  `archerhume/4rcherhume` HTTP **401**. Archer still NOT
+  landed. Awesomejev 561/27007 user-provided (≠
+  AnotiaWang/awesome-jev 83★). X MCP `since_id` held;
+  pages_archived 0; no invented tweets.
+  `invented_signal: false`. Do not copy keys / `pip` /
+  `npm` / `uv` / Hub download. No wrapper. No invented
+  metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard
