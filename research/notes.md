@@ -28650,3 +28650,259 @@ Parent merge only after **CLEAN** adversarial review
   do not extend.
 
 User-provided 0915 uniqueness lock: TianyuCodings/NanoJev unified-games-v1 densify; A 0.6B parallel decision model: states and questions in, complete probability distributions out. Zero output-token decoding.; One model, four games; ViZDoom Basic 128/128 vs Jev 56/128; Predict Position 27/128 vs Jev 11/128; Maze 225 attempts vs Jev 2738; Snake 30 food / 256 steps; held-out Maze 4/10 Snake 8/8 Basic 128/128 Predict 27/128; Untuned Qwen3-0.6B baseline; 18,760 questions per variant; 16,333 ViZDoom; 896 Predict Position expert episodes; hard_lr1e5; mix weights 1/3, 1/3, 1/6, 1/6; Hub C-Tianyu/NanoJev revision unified-games-v1 likes 58; dataset C-Tianyu/NanoJev-Data likes 5; HEAD 618cea6d906d54e128360786d12f703fff2b1245; 1289★ / 158 forks / size 64035; README SHA 4190093c64ee75b26e9726daa3b00cbcf6d3157a; MIT; caijinchun/nanojev-arena ≠ liao96312/jev-arena-nanojev ≠ zwliJay/jev-forge ≠ NanoJev; not TypeSafe Jev; open replica / specialist gameplay S1; soft scores ≠ hard gates; Game success ≠ calibrated Noul; local type boolean ≠ TypeSafe noul; invented_signal false; do not reopen or amend PR #31/#32/#33/#35; notes.md §115
+
+
+## 116. User-provided HIGH — NiazMorshed2007/jcr (2026-09-20 ~09:20 Boise / ~15:20 UTC)
+
+Docs-only on a **fresh PR off latest main**
+(`cursor/fold-jcr-capability-resolver-19c4`), rebased
+onto merged **#35** (`0189825`, hourly 0843 /
+`notes.md` §114 / items 289–302 / batch #97) after
+merged #34 Pages (`712223b`) and merged #31 (`35bec95`,
+hourly 0743 / `notes.md` §113 / items 273–288 /
+batch #96). Merged **#36** (NanoJev unified-games-v1) owns
+**§115 / items 303–308 / batch #98**. Open **#37**
+(SemIf densify) claims **§117 / items 315–321 /
+batch #100** (item overlap 315–316 is #37's remap).
+This fold keeps **`notes.md` §116 / items 309–316 /
+batch #99**. Do **not** collide with merged §113–§115.
+
+**Never reopen merged** Augustus PR #7 / **#8** /
+**#9** / **#10** / **#12** / **#13** / **#14** /
+**#15** / **#16** / **#17** / **#18** / **#19** /
+**#20** / **#21** / **#22** / **#23** / **#24** /
+**#25** / **#26** / **#27** / **#28** / **#29** /
+**#30** / **#31** / **#32** / **#33** / **#34**.
+**HARD RULE:** do not reopen or amend PR #23 or #24
+or #25 or #26 or #27 or #28 or #29 or #30 or #31 or
+#32 or #33 or #34 or #35 or #36. Do **not** push onto
+open #37. Do **not** bump the 0.4.0 pin. Do
+**not** merge from this agent.
+
+Do **not** re-fold §113 0743, §112 Merve, §111
+0646, cookbook hierarchy/beam (`notes.md` §2 K=3
+geometric mean) as if they were this product, or
+skill-broker / skillranker / jev-sift / jev-lens /
+jevusher / Codex `jev_select_capability` as a
+second JCR. Quote **their** README and site.
+Mark *theirs*. No invented metrics. Hunches labeled.
+No wrappers, `npm ci` / `npm start` / `.env` /
+`TYPESAFE_API_KEY` / `ANTHROPIC_API_KEY` /
+`OPENAI_API_KEY` as recipes. `invented_signal:
+false`. Skip Archer rewrite. X MCP not used this
+pass. Do not invent tweets.
+
+Lane is Augustus: **mental models / architecture /
+VOI of context admission / measurement honesty**.
+Backend-agnostic categorization/scoring/decision
+class; Jev is the hot **exemplar**, not the mandate.
+Soft scores ≠ hard gates. Formal methods
+**compose**: routing ≠ permission; docs ≠ authority
+to run. 0.6 band is application policy, not a
+proof. Ranking ≠ calibration theater.
+
+Live REST this pass (quote over watch; review
+relock ~2026-09-20T15:51Z):
+[NiazMorshed2007/jcr](https://github.com/NiazMorshed2007/jcr)
+JavaScript MIT; **4★**; forks **0**; open issues **0**;
+topics `ai-agents`, `jev`, `mcp`; homepage
+https://jcr.niazmorshed.dev; created
+2026-09-20T12:55:26Z; pushed 2026-09-20T15:00:32Z;
+updated 2026-09-20T15:51:43Z; GitHub size
+**14850**. HEAD `138b3832` ("Date the article and
+link the author handle."). README SHA `2a49dbc1`.
+LICENSE SHA `46231303` (Copyright (c) 2026 Niaz
+Morshed). GitHub search `jcr jev` returned **one**
+repo. Star counts **ephemeral** (fold-time 3★).
+
+Unique consecutive fragments (this fold):
+NiazMorshed2007/jcr MIT;
+site https://jcr.niazmorshed.dev;
+topics ai-agents,jev,mcp;
+**4★**;
+HEAD `138b3832`;
+README SHA `2a49dbc1`;
+LICENSE SHA `46231303`;
+size **14850**;
+Jev Capability Resolver;
+one tool to find documented deterministic commands in a nested capability tree;
+returns context;
+**does not execute**;
+skills = workflow+judgment;
+capabilities = individual operations;
+format independent of Jev;
+proposed open standard exploration;
+classify (Jev) → optional OpenAI decompose compound → beam search geometric mean of routing probs;
+keep up to 3 paths ≥60% of best (JCR_BAND_RATIO 0.6);
+ambiguity / no-match / depth-limit explicit;
+soft scores ≠ hard gates;
+0.6 band is application policy;
+routing ≠ permission;
+docs ≠ authority to run;
+sol-vs-opus5-20 *theirs*: 20 scenarios × 4 variants = 80 runs;
+lookup+explain only, no execution;
+Claude Opus 5: agent input 108,585→15,819 (−85%), cost $0.3700→$0.1222 (−67%), wall 105.5s→77.7s;
+Codex GPT-5.6-Sol: 61,952→47,669 (−23%), $0.1377→$0.1151 (−16%), wall 25.3s→62.4s (Sol slower with JCR in 19/20);
+One Sol outlier 372.6s / 193 Jev calls;
+n=1 per cell;
+Not Harbor task-execution;
+Claude/Codex harnesses;
+compare mode;
+50 scenarios bundled;
+11 groups, 960 nodes, 11,360 items;
+16 routing rounds per step;
+NiazMorshed2007/jcr ≠ skill-broker ≠ skillranker ≠ jev-sift ≠ jev-lens ≠ jevusher ≠ jev_select_capability;
+do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34;
+notes.md §116.
+
+### How-to-apply (four placements / one product)
+
+When someone pastes JCR, extract the *placement
+theses* and refuse execution, Harbor-task, and
+hard-gating the 0.6 band. Same retrieve-wide →
+decide → evidence-set sandwich as decision-native
+RAG / jev-sift, on a **capability tree** rather
+than files or RAG chunks. Cookbook beam (K=3,
+geometric mean, `notes.md` §2) is the control
+cousin, **not** a new species.
+
+1. **Retrieve-wide → decide → evidence-set** —
+   README *theirs*: "JCR gives an agent one tool to
+   find the documented commands it needs for a
+   task." "The main agent gets the selected
+   instructions while the search stays outside its
+   context." Site *theirs*: "I kept thinking about
+   how much reading agents do before finding the
+   command they need." Placement: VOI of context
+   admission. Cousin of jev-sift / jev-lens /
+   jevusher. NiazMorshed2007/jcr ≠ those.
+2. **Skills vs capability catalogs** — README
+   *theirs*: "Skills can describe a workflow and
+   the judgment it needs. Capabilities can document
+   the individual operations used along the way.
+   The format is independent of Jev, and I would
+   like to explore whether it should become an
+   open standard with the community." Do not
+   collapse a skill pack into a command leaf.
+   skill-broker still owns **grants**; JCR owns
+   **lookup**.
+3. **Soft scores ≠ hard gates; routing ≠
+   permission; docs ≠ authority to run** — README
+   *theirs*: "JCR returns documentation. It does
+   not execute commands." "The commands being
+   documented can be deterministic. The
+   model-based choice of which command fits a
+   request is probabilistic." "The probabilities
+   help guide the search, though a match can still
+   be wrong." `JCR_BAND_RATIO` default 0.6 is
+   application policy, not a Harbor bar and not
+   permission to run the returned `PUT`/`POST`.
+4. **Measurement honesty (wall-time mixed)** —
+   `sol-vs-opus5-20` *theirs*: 20 scenarios × 4
+   variants = 80 runs; lookup+explain only; n=1
+   per cell; not a Harbor task-execution bench.
+   Quote the mixed wall-time; do not steal −85%
+   tokens as a class constant. One Sol outlier
+   372.6s / 193 Jev calls does not cancel
+   "Sol was still slower with JCR in 19 of 20."
+
+Receipts: user-linked 2026-09-20 ~09:20 Boise.
+GitHub REST + README SHA + site fetch this pass
+~2026-09-20T15:20Z; review relock **4★**
+~2026-09-20T15:51Z. X MCP not used.
+
+### HIGH
+
+1. **[`NiazMorshed2007/jcr`](https://github.com/NiazMorshed2007/jcr)**
+   — NEW HIGH (productized capability-tree
+   resolver). MIT; **4★**. Site
+   https://jcr.niazmorshed.dev.
+
+   **Quote README (*theirs*).** "JCR gives an
+   agent one tool to find the documented commands
+   it needs for a task. It uses Jev to search a
+   nested capability tree and return the context
+   attached to selected operations." "JCR returns
+   documentation. It does not execute commands.
+   The included harnesses also stop at explaining
+   the steps needed to carry out a task." "Skills
+   can describe a workflow and the judgment it
+   needs. Capabilities can document the individual
+   operations used along the way. The format is
+   independent of Jev."
+
+   **Flow (*theirs*).** Classify (Jev single vs
+   compound) → optional OpenAI decompose → beam
+   search; path score = geometric mean of routing
+   probabilities; keep up to three paths whose
+   score is at least 60% of the best
+   (`JCR_BEAM_WIDTH` 3 / `JCR_BAND_RATIO` 0.6).
+   Ambiguity / no-match / depth-limit (16 routing
+   rounds per step) are explicit. Catalog *theirs*:
+   11 groups, 960 nodes, 11,360 items; max node
+   depth 6; largest direct child set 175.
+
+   **Bench sol-vs-opus5-20 (*theirs*; averages per
+   run; skills first, JCR second).** Claude Opus 5:
+   agent input 108,585→15,819 (−85%), cost
+   $0.3700→$0.1222 (−67%), wall 105.5s→77.7s
+   (median 86.6s→57.5s). Codex GPT-5.6-Sol:
+   61,952→47,669 (−23%), $0.1377→$0.1151 (−16%),
+   wall 25.3s→62.4s (median 23.2s→45.4s). Sol
+   slower with JCR in 19/20. One Sol JCR run
+   372.6s with two resolver calls and 193 Jev
+   calls. n=1 per cell. All 80 completed without
+   runtime errors. "Read these measurements as a
+   comparison of the included instruction-lookup
+   setups, rather than a task-execution
+   benchmark." Not Harbor.
+
+   **How to apply:** one `resolve_capabilities`
+   tool; search stays outside the main agent;
+   returned `context` is evidence, not a grant.
+   Formal compose: credentials, side effects,
+   order, and verification stay in the harness.
+   Do **not** copy keys. Do **not** hard-gate 0.6.
+   Do **not** quote −85% as Harbor.
+
+### Skip Archer
+
+Text-only routing over names/descriptions of
+direct children. Do not wait for Archer. Do not
+send pixels. Compound split is a small language
+model, not omni System One.
+
+### Not
+
+Not a TypeSafe how-to. Not an npm library
+(root package is private *theirs*). Not a skill
+loader. Not skill-broker grants. Not jev-sift
+file/URL classify-first. Not jev-lens pre-send
+views. Not jevusher token-admission. Not Codex
+`jev_select_capability`. Not Harbor
+task-execution. Do not reopen or amend PR
+#23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33.
+Do not re-fold cookbook beam as a new species.
+
+### Curated status
+
+Productized HIGH **folded** (capability-tree
+lookup; docs-only; does not execute). Archer
+still **promised_not_landed**. Cookbook beam /
+retrieve-then-judge already in `notes.md` §2 /
+§55 **not re-derived** as new products.
+`invented_signal: false`.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table);
+`faq.md`; `mental-models.md` Apply 0920 jcr;
+`validation.md`; `applied-mappings.md`;
+`mappings.md` §4; `toolbox-mapping.md`;
+`composition-algebra.md` items 309–316;
+`question-design.md`; `methods-catalog.md`;
+`formal-methods.md`; `agent-self-assessment.md`;
+`judgment-class.md`. Hunches labeled. No wrapper.
+
+
+User-provided 0920 jcr uniqueness lock: NiazMorshed2007/jcr MIT; site https://jcr.niazmorshed.dev; topics ai-agents,jev,mcp; **4★**; HEAD `138b3832`; README SHA `2a49dbc1`; LICENSE SHA `46231303`; size **14850**; Jev Capability Resolver; one tool to find documented deterministic commands in a nested capability tree; returns context; **does not execute**; skills = workflow+judgment; capabilities = individual operations; format independent of Jev; proposed open standard exploration; classify (Jev) → optional OpenAI decompose compound → beam search geometric mean of routing probs; keep up to 3 paths ≥60% of best (JCR_BAND_RATIO 0.6); ambiguity / no-match / depth-limit explicit; soft scores ≠ hard gates; 0.6 band is application policy; routing ≠ permission; docs ≠ authority to run; sol-vs-opus5-20 *theirs*: 20 scenarios × 4 variants = 80 runs; lookup+explain only, no execution; Claude Opus 5: agent input 108,585→15,819 (−85%), cost $0.3700→$0.1222 (−67%), wall 105.5s→77.7s; Codex GPT-5.6-Sol: 61,952→47,669 (−23%), $0.1377→$0.1151 (−16%), wall 25.3s→62.4s (Sol slower with JCR in 19/20); One Sol outlier 372.6s / 193 Jev calls; n=1 per cell; Not Harbor task-execution; Claude/Codex harnesses; compare mode; 50 scenarios bundled; 11 groups, 960 nodes, 11,360 items; 16 routing rounds per step; NiazMorshed2007/jcr ≠ skill-broker ≠ skillranker ≠ jev-sift ≠ jev-lens ≠ jevusher ≠ jev_select_capability; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34; notes.md §116

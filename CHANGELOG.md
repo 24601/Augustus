@@ -16,12 +16,14 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
-User-provided 0915 HIGH (`research/notes.md` §115 /
-composition items 303–308 / findings batch #98). Does
-**not** bump the 0.4.0 pin. Do not reopen or amend PR
-#31/#32/#33/#35. Merged #35 owns §114 /
-items 289–302 / batch #97. This fold stays §115 /
-303–308 / #98.
+Hourly 0843 HIGH (`research/notes.md` §114 / composition
+items 289–302 / findings batch #97) plus merged #36 NanoJev
+(`research/notes.md` §115 / items 303–308 / batch #98) plus
+user-provided HIGH NiazMorshed2007/jcr (`research/notes.md`
+§116 / composition items 309–316 / findings batch #99). Does
+**not** bump the 0.4.0 pin. Do not reopen or amend PR #23–#36.
+Open #37 owns §117 / 315–321 / #100 (item overlap 315–316 is
+#37's remap).
 
 ### Added
 
@@ -50,10 +52,6 @@ items 289–302 / batch #97. This fold stays §115 /
   [`research/changelog-hourly.md`](research/changelog-hourly.md).
   User-provided 0915 uniqueness lock: TianyuCodings/NanoJev unified-games-v1 densify; A 0.6B parallel decision model: states and questions in, complete probability distributions out. Zero output-token decoding.; One model, four games; ViZDoom Basic 128/128 vs Jev 56/128; Predict Position 27/128 vs Jev 11/128; Maze 225 attempts vs Jev 2738; Snake 30 food / 256 steps; held-out Maze 4/10 Snake 8/8 Basic 128/128 Predict 27/128; Untuned Qwen3-0.6B baseline; 18,760 questions per variant; 16,333 ViZDoom; 896 Predict Position expert episodes; hard_lr1e5; mix weights 1/3, 1/3, 1/6, 1/6; Hub C-Tianyu/NanoJev revision unified-games-v1 likes 58; dataset C-Tianyu/NanoJev-Data likes 5; HEAD 618cea6d906d54e128360786d12f703fff2b1245; 1289★ / 158 forks / size 64035; README SHA 4190093c64ee75b26e9726daa3b00cbcf6d3157a; MIT; caijinchun/nanojev-arena ≠ liao96312/jev-arena-nanojev ≠ zwliJay/jev-forge ≠ NanoJev; not TypeSafe Jev; open replica / specialist gameplay S1; soft scores ≠ hard gates; Game success ≠ calibrated Noul; local type boolean ≠ TypeSafe noul; invented_signal false; do not reopen or amend PR #31/#32/#33/#35; notes.md §115
 
-Hourly 0743 HIGH (`research/notes.md` §113 / composition
-items 273–288 / findings batch #96). Does **not** bump
-the 0.4.0 pin. Do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33.
-
 ### Added
 
 - **Hourly 0843 HIGH (`notes.md` §114).** Measurement / judgment fold
@@ -74,6 +72,23 @@ the 0.4.0 pin. Do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33
   `notes.md` §113 / items 273–288 / batch #96 — leave it alone.
 - Uniqueness lock archive: `research/changelog-hourly.md` (this hour's
   lock is there; this file stays scannable).
+
+- User-provided HIGH NiazMorshed2007/jcr
+  (`research/notes.md` §116): **Skip Archer rewrite.**
+  Docs-only, rebased onto merged #35 (`0189825`).
+  **HARD RULE:** do not reopen or amend PR #23–#35.
+  Merged #36 owns §115 / 303–308 / #98; open #37 owns
+  §117 / 315–321 / #100 (item overlap 315–316 is
+  #37's remap). This fold keeps §116 / items
+  309–316 / batch #99. Quote *theirs*. Jev Capability
+  Resolver: one tool, nested capability tree, returns
+  context, **does not execute**. skills vs capabilities.
+  0.6 band is application policy. routing ≠ permission.
+  docs ≠ authority to run. sol-vs-opus5-20 lookup+explain
+  only; n=1; wall-time mixed; Not Harbor task-execution.
+  Live REST: **4★**; HEAD `138b3832`; README SHA
+  `2a49dbc1`; size **14850**. `invented_signal: false`.
+  Uniqueness dump in `research/changelog-hourly.md`.
 
 ### Changed
 
@@ -467,3 +482,4 @@ The dated passes below are how 0.1.0 was assembled.
   relations, logical-operator combination rules, and the position×construct
   traversal as the systematic application generator; wired into SKILL.md
   index + toolbox sweep.
+

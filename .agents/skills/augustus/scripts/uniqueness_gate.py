@@ -1,50 +1,33 @@
 #!/usr/bin/env python3
-"""Hourly fold uniqueness gate (0843).
+"""Uniqueness gate for merged 0843 (§114), merged 0915 NanoJev (§115),
+and user-provided 0920 jcr (§116).
 
-The uniqueness lock must appear as one consecutive substring in every
-listed overlay. Fragments scattered across files do not count.
+Each lock must appear as one consecutive substring in every listed overlay.
+Fragments scattered across files do not count.
 
-Also: YAML-parse SKILL.md frontmatter; notes.md owns §114; composition
-items 289–302 exist. Does not fetch the network. Does not treat a lock
+Also: YAML-parse SKILL.md frontmatter; notes.md owns §114, §115, and §116;
+composition items 289–302, 303–308, and 309–316 exist; findings batches
+#97, #98, and #99 exist. Does not fetch the network. Does not treat a lock
 as a Harbor score.
 """
 
 from pathlib import Path
 import sys
 
+import yaml
+
 ROOT = Path(__file__).resolve().parents[4]
 
-UNIQ = (
-    "Hourly 0843 uniqueness lock: A hunch is a probability with a policy attached; "
-    "{ enter: 0.8, exit: 0.6 } is hysteresis; replay a policy change without inference; "
-    "Decision models are providers, not the product; huncho ≠ Kungie/gut ≠ carldaws/hunch ≠ tpellet/hunch; "
-    "pretrained Qwen2.5 base ECE 0.030 (0.5B) / 0.040 (7B); instruct 0.302 / 0.269; "
-    "70.9% → 70.0% mean conf 74.1% → 96.7%; temperature scaling still matches it in-distribution; "
-    "No Jev API was called; Qwen2.5 ≠ Archer; Qwen/Qwen3.8-27B ≠ Archer; "
-    "学習済みモデル v0.1 は準備中です; bool AUROC 0.523; 先頭だと0件、末尾だと250件; "
-    "温度を渡さない場合、確率は較正されていません; このリポジトリには Jev を呼ぶコードが存在しません; "
-    "g0runmezadam/what-is-jev IS tunahansahin897/what-is-jev (same GitHub id 1378007307); "
-    "947 repos scored; A 273 · B 302 · C 372; LLM rubric ≠ benches; Data as of 2026-09-20; "
-    "HEAD 895b9498; README SHA 3ae98c56; 13 focused checks and one mutually exclusive outcome; "
-    "Probabilities are advisory, not calibrated guarantees; omni-/ask-jev ≠ pedroknigge/mcp_jev; "
-    "pd.cut bins by equal width while jeval bins by quantile; ECE 0.113 and ECE 0.076; "
-    "jeval drift is not implemented yet; rlaope/jeval ≠ dayhaysoos/jevals; "
-    "calibration does not compose; ECE has exactly zero statistical power to detect the failure mode that kills trajectories; "
-    "25–60× headline withdrawn; P(all-correct): 0.0071 vs 0.0001; TCE / AMS; "
-    "Qwen 3.8 sparring ≠ Archer; Deferred Crispification; light_cutoff_applied_to_combination 0; "
-    "recorded run, kinematic animation; BANKING77 Accuracy BERT-Base 93.02 Jev 79.90; "
-    "Analyse jev calibration (NLL, ECE) backlog; BERT figures are published supervised references, not zero-shot; "
-    "档位措辞效应 分数极差中位 0.50、最大 1.32; 修好后对照组是 0.01; 不是 benchmark; 概率没做 calibration; "
-    "~1,430 API calls, about $0.15; xiaohuaxi/jev-study ≠ wjdjdakf17/jev-study ≠ baekenough/jev-study; "
-    "AND: product (independence assumed and recorded in the trace); "
-    "chat model's stated confidence is not calibrated; circuit-vl-4b ≠ Archer; "
-    "Bring your own API key; vamsikrishna2421/jev-usecases ≠ whyashthakker/awesome-jev-use-cases; "
-    "catalog ≠ endorsement; SemIf 2237★ (+30 vs §111 2207); jevlike 1049★ (+6 vs 1043); "
-    "TypeLLM/TypeLLM 16★; AnotiaWang 98★; yibie/awesome-jev 520★ (+14 vs 506); "
-    "Laya likes 861 (was 822); tracker likes 66 (+2 vs 64) lastModified UNCHANGED; "
-    "Blackwood likes 2 gated manual; Archer still promised_not_landed; "
-    "Hub archerhume/4rcherhume HTTP 401; "
-    "do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33; notes.md §114"
+UNIQ_0843 = (
+    "Hourly 0843 uniqueness lock: A hunch is a probability with a policy attached; { enter: 0.8, exit: 0.6 } is hysteresis; replay a policy change without inference; Decision models are providers, not the product; huncho ≠ Kungie/gut ≠ carldaws/hunch ≠ tpellet/hunch; pretrained Qwen2.5 base ECE 0.030 (0.5B) / 0.040 (7B); instruct 0.302 / 0.269; 70.9% → 70.0% mean conf 74.1% → 96.7%; temperature scaling still matches it in-distribution; No Jev API was called; Qwen2.5 ≠ Archer; Qwen/Qwen3.8-27B ≠ Archer; 学習済みモデル v0.1 は準備中です; bool AUROC 0.523; 先頭だと0件、末尾だと250件; 温度を渡さない場合、確率は較正されていません; このリポジトリには Jev を呼ぶコードが存在しません; g0runmezadam/what-is-jev IS tunahansahin897/what-is-jev (same GitHub id 1378007307); 947 repos scored; A 273 · B 302 · C 372; LLM rubric ≠ benches; Data as of 2026-09-20; HEAD 895b9498; README SHA 3ae98c56; 13 focused checks and one mutually exclusive outcome; Probabilities are advisory, not calibrated guarantees; omni-/ask-jev ≠ pedroknigge/mcp_jev; pd.cut bins by equal width while jeval bins by quantile; ECE 0.113 and ECE 0.076; jeval drift is not implemented yet; rlaope/jeval ≠ dayhaysoos/jevals; calibration does not compose; ECE has exactly zero statistical power to detect the failure mode that kills trajectories; 25–60× headline withdrawn; P(all-correct): 0.0071 vs 0.0001; TCE / AMS; Qwen 3.8 sparring ≠ Archer; Deferred Crispification; light_cutoff_applied_to_combination 0; recorded run, kinematic animation; BANKING77 Accuracy BERT-Base 93.02 Jev 79.90; Analyse jev calibration (NLL, ECE) backlog; BERT figures are published supervised references, not zero-shot; 档位措辞效应 分数极差中位 0.50、最大 1.32; 修好后对照组是 0.01; 不是 benchmark; 概率没做 calibration; ~1,430 API calls, about $0.15; xiaohuaxi/jev-study ≠ wjdjdakf17/jev-study ≠ baekenough/jev-study; AND: product (independence assumed and recorded in the trace); chat model's stated confidence is not calibrated; circuit-vl-4b ≠ Archer; Bring your own API key; vamsikrishna2421/jev-usecases ≠ whyashthakker/awesome-jev-use-cases; catalog ≠ endorsement; SemIf 2237★ (+30 vs §111 2207); jevlike 1049★ (+6 vs 1043); TypeLLM/TypeLLM 16★; AnotiaWang 98★; yibie/awesome-jev 520★ (+14 vs 506); Laya likes 861 (was 822); tracker likes 66 (+2 vs 64) lastModified UNCHANGED; Blackwood likes 2 gated manual; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33; notes.md §114"
+)
+
+UNIQ_0915 = (
+    'User-provided 0915 uniqueness lock: TianyuCodings/NanoJev unified-games-v1 densify; A 0.6B parallel decision model: states and questions in, complete probability distributions out. Zero output-token decoding.; One model, four games; ViZDoom Basic 128/128 vs Jev 56/128; Predict Position 27/128 vs Jev 11/128; Maze 225 attempts vs Jev 2738; Snake 30 food / 256 steps; held-out Maze 4/10 Snake 8/8 Basic 128/128 Predict 27/128; Untuned Qwen3-0.6B baseline; 18,760 questions per variant; 16,333 ViZDoom; 896 Predict Position expert episodes; hard_lr1e5; mix weights 1/3, 1/3, 1/6, 1/6; Hub C-Tianyu/NanoJev revision unified-games-v1 likes 58; dataset C-Tianyu/NanoJev-Data likes 5; HEAD 618cea6d906d54e128360786d12f703fff2b1245; 1289★ / 158 forks / size 64035; README SHA 4190093c64ee75b26e9726daa3b00cbcf6d3157a; MIT; caijinchun/nanojev-arena ≠ liao96312/jev-arena-nanojev ≠ zwliJay/jev-forge ≠ NanoJev; not TypeSafe Jev; open replica / specialist gameplay S1; soft scores ≠ hard gates; Game success ≠ calibrated Noul; local type boolean ≠ TypeSafe noul; invented_signal false; do not reopen or amend PR #31/#32/#33/#35; notes.md §115'
+)
+
+UNIQ_JCR = (
+    'User-provided 0920 jcr uniqueness lock: NiazMorshed2007/jcr MIT; site https://jcr.niazmorshed.dev; topics ai-agents,jev,mcp; **4★**; HEAD `138b3832`; README SHA `2a49dbc1`; LICENSE SHA `46231303`; size **14850**; Jev Capability Resolver; one tool to find documented deterministic commands in a nested capability tree; returns context; **does not execute**; skills = workflow+judgment; capabilities = individual operations; format independent of Jev; proposed open standard exploration; classify (Jev) → optional OpenAI decompose compound → beam search geometric mean of routing probs; keep up to 3 paths ≥60% of best (JCR_BAND_RATIO 0.6); ambiguity / no-match / depth-limit explicit; soft scores ≠ hard gates; 0.6 band is application policy; routing ≠ permission; docs ≠ authority to run; sol-vs-opus5-20 *theirs*: 20 scenarios × 4 variants = 80 runs; lookup+explain only, no execution; Claude Opus 5: agent input 108,585→15,819 (−85%), cost $0.3700→$0.1222 (−67%), wall 105.5s→77.7s; Codex GPT-5.6-Sol: 61,952→47,669 (−23%), $0.1377→$0.1151 (−16%), wall 25.3s→62.4s (Sol slower with JCR in 19/20); One Sol outlier 372.6s / 193 Jev calls; n=1 per cell; Not Harbor task-execution; Claude/Codex harnesses; compare mode; 50 scenarios bundled; 11 groups, 960 nodes, 11,360 items; 16 routing rounds per step; NiazMorshed2007/jcr ≠ skill-broker ≠ skillranker ≠ jev-sift ≠ jev-lens ≠ jevusher ≠ jev_select_capability; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34; notes.md §116'
 )
 
 OVERLAYS = [
@@ -68,13 +51,11 @@ OVERLAYS = [
     ".agents/skills/augustus/references/toolbox-mapping.md",
     ".agents/skills/augustus/references/mappings.md",
     ".agents/skills/augustus/references/agent-self-assessment.md",
-    ".agents/skills/augustus/references/question-design.md",
+    ".agents/skills/augustus/references/question-design.md"
 ]
 
 
 def load_skill_frontmatter(text: str) -> dict:
-    import yaml
-
     if not text.startswith("---"):
         raise AssertionError("SKILL.md missing YAML frontmatter")
     end = text.find("\n---\n", 3)
@@ -94,18 +75,30 @@ def main() -> int:
             failed.append(f"missing {rel}")
             continue
         body = path.read_text(encoding="utf-8")
-        if UNIQ not in body:
-            failed.append(f"lock missing as one substring: {rel}")
+        if UNIQ_0843 not in body:
+            failed.append(f"0843 lock missing as one substring: {rel}")
+        if UNIQ_0915 not in body:
+            failed.append(f"0915 lock missing as one substring: {rel}")
+        if UNIQ_JCR not in body:
+            failed.append(f"jcr lock missing as one substring: {rel}")
     notes = (ROOT / "research/notes.md").read_text(encoding="utf-8")
     if "## 114. Hourly 0843 HIGH" not in notes:
         failed.append("notes.md missing §114 heading")
+    if "## 115. User-provided HIGH — TianyuCodings/NanoJev" not in notes:
+        failed.append("notes.md missing §115 heading")
+    if "## 116. User-provided HIGH — NiazMorshed2007/jcr" not in notes:
+        failed.append("notes.md missing §116 heading")
     algebra = (ROOT / ".agents/skills/augustus/references/composition-algebra.md").read_text(
         encoding="utf-8"
     )
-    for n in range(289, 303):
+    for n in list(range(289, 303)) + list(range(303, 309)) + list(range(309, 317)):
         needle = f"{n}. **"
         if needle not in algebra:
             failed.append(f"composition-algebra missing item {n}")
+    findings = (ROOT / "research/archive/findings.md").read_text(encoding="utf-8")
+    for batch in ("## Batch #97", "## Batch #98", "## Batch #99"):
+        if batch not in findings:
+            failed.append(f"findings.md missing {batch}")
     skill = (ROOT / ".agents/skills/augustus/SKILL.md").read_text(encoding="utf-8")
     try:
         fm = load_skill_frontmatter(skill)
@@ -116,16 +109,19 @@ def main() -> int:
         if fm.get("name") != "augustus":
             failed.append("SKILL.md name != augustus")
         desc = fm.get("description") or ""
+        combined = desc + "\n" + skill
         for frag in (
             "A hunch is a probability with a policy attached",
             "calibration does not compose",
-            "Qwen2.5 ≠ Archer",
-            "Qwen/Qwen3.8-27B ≠ Archer",
-            "Deferred Crispification",
-            "ranking ≠ calibration",
-            "g0runmezadam/what-is-jev IS tunahansahin897/what-is-jev",
+            "NiazMorshed2007/jcr",
+            "does not execute",
+            "JCR_BAND_RATIO 0.6",
+            "routing ≠ permission",
+            "docs ≠ authority to run",
+            "Not Harbor task-execution",
+            "TianyuCodings/NanoJev",
         ):
-            if frag not in desc and frag not in skill:
+            if frag not in combined:
                 failed.append(f"SKILL.md missing fragment {frag!r}")
     if failed:
         print("uniqueness-gate FAIL")
@@ -133,7 +129,10 @@ def main() -> int:
             print(" -", line)
         return 1
     print("uniqueness-gate ok")
-    print(f"lock chars={len(UNIQ)} overlays={len(OVERLAYS)}")
+    print(
+        f"0843 chars={len(UNIQ_0843)} 0915 chars={len(UNIQ_0915)} "
+        f"jcr chars={len(UNIQ_JCR)} overlays={len(OVERLAYS)}"
+    )
     return 0
 
 

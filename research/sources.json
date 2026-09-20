@@ -4933,6 +4933,18 @@
       "title": "NanoJev demo (gated)",
       "url": "https://nanojev-dev.tianyuchen99.chatgpt.site/?autoplay=1",
       "note": "HTTP 401 gated this pass. Recordings local *theirs*. notes.md §115."
+    },
+    {
+      "kind": "github",
+      "title": "NiazMorshed2007/jcr — Jev Capability Resolver",
+      "url": "https://github.com/NiazMorshed2007/jcr",
+      "note": "MIT; 4★ this pass; HEAD 138b3832; README SHA 2a49dbc1; LICENSE SHA 46231303; size 14850; topics ai-agents,jev,mcp. Docs-only fold notes.md §116. Does not execute. invented_signal false."
+    },
+    {
+      "kind": "site",
+      "title": "How I’m using Jev in an agent harness — JCR",
+      "url": "https://jcr.niazmorshed.dev",
+      "note": "Author article 2026-09-20. Quote *theirs*. Complement to README. notes.md §116."
     }
   ]
 }
