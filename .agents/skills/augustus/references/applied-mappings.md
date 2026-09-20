@@ -2127,3 +2127,43 @@ Do not copy keys / `npx` / `pip` / `.env`. Soft Noul ≠ hard safety.
 
 
 
+
+**Hourly 0243 HIGH (`notes.md` §107).** Measurement-densify cousin:
+[erendikmenn/jev-llm-router-benchmark](https://github.com/erendikmenn/jev-llm-router-benchmark)
+Benchmark-driven Jev router and judge; cheap alone is not success;
+Jev does not write, sum prices, or claim accuracy %;
+Sol 94.2 / Luna 83.9 / Jev path 89.7;
+19.2% Sol / 62.3% cost save / 4.5pp miss of 2pp non-inferiority;
+p50 latency worse than Sol due to routing overhead.
+erendikmenn/jev-llm-router-benchmark ≠ jev-rag-benchmark ≠ ryantsai/jev-llm-router.
+Ticket: [aesaganda/jev-ticket-router](https://github.com/aesaganda/jev-ticket-router)
+Express + node:sqlite; mock and Jev decision engines;
+previous_ticket_count >= 3 is code; MIN_CONFIDENCE 0.6 still soft;
+substring false positives;
+aesaganda/jev-ticket-router ≠ SarathChandraBellam/jev-vs-llm-ticket-router.
+Figure: [hoangngochuong24947-gif/jev-figure-router](https://github.com/hoangngochuong24947-gif/jev-figure-router)
+Universal Figure & Diagram Router; confidence ≥ 0.85 hard-gate is theater;
+generative AI banned from scientific plots; six visual branches.
+Feedstock: hfdataset:Praveenrajus/jev-bench
+human-labeled (state, question, label); 166,054 rows / 22 configs;
+soft_label for human uncertainty; Praveenrajus/jev-bench ≠ fstandhartinger/jevbench.
+Open ports: hf:NicolaiMTLassen/open-bonzi-jev
+ternary bonsai System One GGUF; openjev's mechanism, Bonsai's weights;
+Hub does not ship weights; 100/100 easy T/F is not Harbor;
+label_mass ≠ correctness; stock llama.cpp Q2_0 silently gibberish;
+NicolaiMTLassen/open-bonzi-jev ≠ NicolaiLassen.
+hf:onnx-community/open-jev-deberta-v3-large-ONNX
+transformers.js DeBERTa ONNX; source:com-kotobalabs/open-jev-deberta-v3-large;
+temperature 1.05; AutoModel from_pretrained works;
+onnx-community/open-jev-deberta-v3-large-ONNX ≠ system-one-qwen3.5-4b-scorer-ONNX.
+Densify: [Heman10x-NGU/openJev-verdict-2.0](https://github.com/Heman10x-NGU/openJev-verdict-2.0)
+107★ densify; GH 151M vs README 149.6M; PR #1 now closed unmerged;
+do not re-fold §71 claim-audit as a beat.
+Study: [wjdjdakf17/jev-study](https://github.com/wjdjdakf17/jev-study)
+typed decisions, RLCD, confidence-gated routing; structured ≠ correct;
+mock not live API; 26 tests; wjdjdakf17/jev-study ≠ baekenough/jev-study.
+do not reopen or amend PR #23 or #24.
+Do not copy keys / `npx` / `pip` / `uv` / `.env` / `OPENROUTER_API_KEY`. Soft Noul ≠ hard safety.
+
+
+

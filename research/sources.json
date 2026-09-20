@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-20T04:46Z",
+  "retrieved": "2026-09-20T08:43Z",
   "sources": [
     {
       "kind": "docs",
@@ -4147,6 +4147,60 @@
       "title": "mjyoke1111/jev-consistency-benchmark",
       "url": "https://huggingface.co/spaces/mjyoke1111/jev-consistency-benchmark",
       "note": "apache-2.0; likes 0; lastModified 2026-09-20T05:29:45Z. Consistency benchmark Space. This Space contains no benchmark result yet. 12-case plumbing fixture. notes.md \u00a7106."
+    },
+    {
+      "kind": "github",
+      "title": "erendikmenn/jev-llm-router-benchmark",
+      "url": "https://github.com/erendikmenn/jev-llm-router-benchmark",
+      "note": "PRIMARY Augustus hourly 0243. Python MIT LICENSE SHA 99916677; 0\u2605; HEAD f44ef450; README SHA df3687e5; GitHub size 0 with contents. Benchmark-driven Jev router and judge. cheap alone is not success. Jev does not write, sum prices, or claim accuracy %. Sol 94.2 / Luna 83.9 / Jev path 89.7. 19.2% Sol / 62.3% cost save / 4.5pp miss of 2pp non-inferiority. p50 latency worse than Sol due to routing overhead. erendikmenn/jev-llm-router-benchmark \u2260 jev-rag-benchmark \u2260 ryantsai/jev-llm-router. notes.md \u00a7107."
+    },
+    {
+      "kind": "github",
+      "title": "aesaganda/jev-ticket-router",
+      "url": "https://github.com/aesaganda/jev-ticket-router",
+      "note": "JS; license null; 0\u2605; HEAD ecf00046; README SHA 41c0b50f; GitHub size 0 with contents. Express + node:sqlite. mock and Jev decision engines. previous_ticket_count >= 3 is code. MIN_CONFIDENCE 0.6 still soft. substring false positives. aesaganda/jev-ticket-router \u2260 SarathChandraBellam/jev-vs-llm-ticket-router. notes.md \u00a7107."
+    },
+    {
+      "kind": "github",
+      "title": "hoangngochuong24947-gif/jev-figure-router",
+      "url": "https://github.com/hoangngochuong24947-gif/jev-figure-router",
+      "note": "Python MIT LICENSE SHA 62120c23; 1\u2605; HEAD 4c51b1af; README SHA 11d5302b; size 340. Universal Figure & Diagram Router. confidence \u2265 0.85 hard-gate is theater. generative AI banned from scientific plots. six visual branches. notes.md \u00a7107."
+    },
+    {
+      "kind": "huggingface",
+      "title": "NicolaiMTLassen/open-bonzi-jev",
+      "url": "https://huggingface.co/NicolaiMTLassen/open-bonzi-jev",
+      "note": "MIT; likes 0; sha 09240156; lastModified 2026-09-20T08:15:39Z. ternary bonsai System One GGUF. openjev's mechanism, Bonsai's weights. Hub does not ship weights. 100/100 easy T/F is not Harbor. label_mass \u2260 correctness. stock llama.cpp Q2_0 silently gibberish. NicolaiMTLassen/open-bonzi-jev \u2260 NicolaiLassen. notes.md \u00a7107."
+    },
+    {
+      "kind": "github",
+      "title": "NicolaiLassen/open-bonzi-jev",
+      "url": "https://github.com/NicolaiLassen/open-bonzi-jev",
+      "note": "GH companion of Hub NicolaiMTLassen/open-bonzi-jev. Python MIT LICENSE SHA 46d740e4; 0\u2605; HEAD 1c2508fd; GitHub size 0 with contents; created 2026-09-20T08:15:02Z. Hub does not ship weights. notes.md \u00a7107."
+    },
+    {
+      "kind": "huggingface",
+      "title": "onnx-community/open-jev-deberta-v3-large-ONNX",
+      "url": "https://huggingface.co/onnx-community/open-jev-deberta-v3-large-ONNX",
+      "note": "apache-2.0; likes 0; sha 3bc2553b; lastModified 2026-09-20T08:36:56Z; transformers.js deberta-v2. transformers.js DeBERTa ONNX. source:com-kotobalabs/open-jev-deberta-v3-large. temperature 1.05. AutoModel from_pretrained works. onnx-community/open-jev-deberta-v3-large-ONNX \u2260 system-one-qwen3.5-4b-scorer-ONNX. notes.md \u00a7107."
+    },
+    {
+      "kind": "huggingface-dataset",
+      "title": "Praveenrajus/jev-bench",
+      "url": "https://huggingface.co/datasets/Praveenrajus/jev-bench",
+      "note": "license other; likes 0; sha c9c3032c; lastModified 2026-09-20T08:30:12Z; 166054 rows / 22 configs. human-labeled (state, question, label). soft_label for human uncertainty. Praveenrajus/jev-bench \u2260 fstandhartinger/jevbench. notes.md \u00a7107."
+    },
+    {
+      "kind": "github",
+      "title": "Heman10x-NGU/openJev-verdict-2.0 (0243 densify)",
+      "url": "https://github.com/Heman10x-NGU/openJev-verdict-2.0",
+      "note": "0243 densify of \u00a771. Python; README Apache-2.0 / GitHub SPDX NOASSERTION; 107\u2605 (was 0); 14 forks; HEAD a458733c; README SHA 05ca75af; size 14728. GH 151M vs README 149.6M. PR #1 now closed unmerged. do not re-fold \u00a771 claim-audit as a beat. notes.md \u00a7107."
+    },
+    {
+      "kind": "github",
+      "title": "wjdjdakf17/jev-study",
+      "url": "https://github.com/wjdjdakf17/jev-study",
+      "note": "TypeScript MIT LICENSE SHA 00bbf5f9; 0\u2605; HEAD 24b5d7d7; README SHA 4ca30c93; size 34; default master; created 2026-09-20T07:04:11Z. typed decisions, RLCD, confidence-gated routing. structured \u2260 correct. mock not live API. 26 tests. wjdjdakf17/jev-study \u2260 baekenough/jev-study. notes.md \u00a7107."
     }
   ]
 }

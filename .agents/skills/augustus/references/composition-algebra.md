@@ -1412,6 +1412,68 @@ Turn any open LLM into System-One Jev; uspraveen/Jevify ≠ Mintzs/jevify ≠ gu
      12-case plumbing fixture.
      Full cards: `validation.md`, `faq.md`.
 
+
+Benchmark-driven Jev router and judge; cheap alone is not success; Jev does not write, sum prices, or claim accuracy %; Sol 94.2 / Luna 83.9 / Jev path 89.7; 19.2% Sol / 62.3% cost save / 4.5pp miss of 2pp non-inferiority; p50 latency worse than Sol due to routing overhead; erendikmenn/jev-llm-router-benchmark ≠ jev-rag-benchmark ≠ ryantsai/jev-llm-router; Express + node:sqlite; mock and Jev decision engines; previous_ticket_count >= 3 is code; MIN_CONFIDENCE 0.6 still soft; substring false positives; aesaganda/jev-ticket-router ≠ SarathChandraBellam/jev-vs-llm-ticket-router; Universal Figure & Diagram Router; confidence ≥ 0.85 hard-gate is theater; generative AI banned from scientific plots; six visual branches; hoangngochuong24947-gif/jev-figure-router; human-labeled (state, question, label); 166,054 rows / 22 configs; soft_label for human uncertainty; Praveenrajus/jev-bench ≠ fstandhartinger/jevbench; ternary bonsai System One GGUF; openjev's mechanism, Bonsai's weights; Hub does not ship weights; 100/100 easy T/F is not Harbor; label_mass ≠ correctness; stock llama.cpp Q2_0 silently gibberish; NicolaiMTLassen/open-bonzi-jev ≠ NicolaiLassen; transformers.js DeBERTa ONNX; source:com-kotobalabs/open-jev-deberta-v3-large; temperature 1.05; AutoModel from_pretrained works; onnx-community/open-jev-deberta-v3-large-ONNX ≠ system-one-qwen3.5-4b-scorer-ONNX; 107★ densify; GH 151M vs README 149.6M; PR #1 now closed unmerged; do not re-fold §71 claim-audit as a beat; typed decisions, RLCD, confidence-gated routing; structured ≠ correct; mock not live API; 26 tests; wjdjdakf17/jev-study ≠ baekenough/jev-study; do not reopen or amend PR #23 or #24
+
+178. **Benchmark-driven router + judge** (erendikmenn/jev-llm-router-benchmark; PRIMARY):
+     positions 3 (Gate) × 8 (Metric) × 11 (Bounds). code owns threshold/fallback/budget; Jev SENSOR.
+     Benchmark-driven Jev router and judge. cheap alone is not success.
+     Jev does not write, sum prices, or claim accuracy %.
+     Sol 94.2 / Luna 83.9 / Jev path 89.7.
+     19.2% Sol / 62.3% cost save / 4.5pp miss of 2pp non-inferiority.
+     p50 latency worse than Sol due to routing overhead.
+     erendikmenn/jev-llm-router-benchmark ≠ jev-rag-benchmark ≠ ryantsai/jev-llm-router.
+     Full cards: `formal-methods.md`, `validation.md`, `faq.md`.
+179. **Support ticket router** (aesaganda/jev-ticket-router):
+     positions 3 (Gate) × 1 (Operand). count>=3 proves in code; 0.6 is a SENSOR.
+     Express + node:sqlite. mock and Jev decision engines.
+     previous_ticket_count >= 3 is code. MIN_CONFIDENCE 0.6 still soft.
+     substring false positives.
+     aesaganda/jev-ticket-router ≠ SarathChandraBellam/jev-vs-llm-ticket-router.
+     Full cards: `mixed-architecture.md`, `faq.md`.
+180. **Universal figure router** (hoangngochuong24947-gif/jev-figure-router):
+     positions 3 (Gate) × 11 (Bounds). generative-AI ban is CONSTRAINT; 0.85 FAST_PATH is theater.
+     Universal Figure & Diagram Router. confidence ≥ 0.85 hard-gate is theater.
+     generative AI banned from scientific plots. six visual branches.
+     Full cards: `formal-methods.md`, `faq.md`.
+181. **Human-labeled feedstock** (Praveenrajus/jev-bench):
+     position 8 (Metric) as labeled triples, not a board.
+     human-labeled (state, question, label). 166,054 rows / 22 configs.
+     soft_label for human uncertainty.
+     Praveenrajus/jev-bench ≠ fstandhartinger/jevbench.
+     Full cards: `validation.md`, `faq.md`.
+182. **Ternary bonsai GGUF** (NicolaiMTLassen/open-bonzi-jev):
+     position 1 (Operand) as a recipe port, not shipped weights.
+     ternary bonsai System One GGUF. openjev's mechanism, Bonsai's weights.
+     Hub does not ship weights. 100/100 easy T/F is not Harbor.
+     label_mass ≠ correctness. stock llama.cpp Q2_0 silently gibberish.
+     NicolaiMTLassen/open-bonzi-jev ≠ NicolaiLassen.
+     Full cards: `judgment-class.md`, `faq.md`.
+183. **DeBERTa ONNX t.js port** (onnx-community/open-jev-deberta-v3-large-ONNX):
+     position 1 (Operand) as a community port of an already-folded encoder.
+     transformers.js DeBERTa ONNX. source:com-kotobalabs/open-jev-deberta-v3-large.
+     temperature 1.05. AutoModel from_pretrained works.
+     onnx-community/open-jev-deberta-v3-large-ONNX ≠ system-one-qwen3.5-4b-scorer-ONNX.
+     Full cards: `judgment-class.md`, `faq.md`.
+184. **verdict NAR densify** (Heman10x-NGU/openJev-verdict-2.0):
+     position 8 (Metric) as claim-audit densify, not a beat.
+     107★ densify. GH 151M vs README 149.6M.
+     PR #1 now closed unmerged. do not re-fold §71 claim-audit as a beat.
+     Full cards: `validation.md`, `faq.md`.
+185. **Study notes densify** (wjdjdakf17/jev-study):
+     positions 1 (Operand) × 3 (Gate). code consumes p; mock ≠ live API.
+     typed decisions, RLCD, confidence-gated routing.
+     structured ≠ correct. mock not live API. 26 tests.
+     wjdjdakf17/jev-study ≠ baekenough/jev-study.
+     Full cards: `mental-models.md`, `faq.md`.
+
+Hourly 0243 items 178–185 (`notes.md` §107). Do **not**
+re-fold 0145 items 161–177 / 0042 items 149–160 / 2340 items 138–148 / 2246 items 129–137 / 2145
+items 120–128 / 2041 items 111–119 / 1943 items 102–110 /
+1843 items 97–101 / 1740 items 94–96 / SIGNAL §93
+mechanism / §60 six-gates / §78 v1.2 board / §71 claim-audit.
+Soft Noul ≠ hard safety.
+
 Hourly 0145 items 161–177 (`notes.md` §106). Do **not**
 re-fold 0042 items 149–160 / 2340 items 138–148 / 2246 items 129–137 / 2145
 items 120–128 / 2041 items 111–119 / 1943 items 102–110 /

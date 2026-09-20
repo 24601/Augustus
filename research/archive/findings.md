@@ -3017,6 +3017,86 @@ Cross-repo addition: (lt) judgment-as-language primitive;
 memories; (lw) memory-lease HIGH upgrade; (lx) jevlint
 rename; (ly) schema-compiler HIGH upgrade; (lz) ANE /
 local-logit / Pi-loop economics.
+## Batch #90 (2026-09-20 ~08:43 UTC / ~02:43 Boise) — hourly 0243 HIGH
+
+Note: `research/notes.md` §107. Docs-only on a fresh PR
+off main. **HARD RULE:** do not reopen or amend PR #23 or #24.
+Never reopen merged #7 / **#8** / **#9** /
+**#10** / **#12** / **#13** / **#14** / **#15** /
+**#16** / **#17** / **#18** / **#19** / **#20** /
+**#21** / **#22** / **#23** / **#24**. Do **not** re-fold §93 mechanism /
+§94 / §95 / §96 / §97 / §98 / §99 / §100 / §101 /
+§102 / §103 / §104 / §105 / §106 / JevBench v1.2 board / §78 /
+jev-orderby-bench six-gates / §60 / openJev-verdict claim-audit / §71. Skip Archer rewrite.
+Do **not** re-fold 0145 / 0042 / 2340 / 2246 / 2145 / 2041 / 1943 /
+1843 / 1740 / gliner-native-runtime / 1639 / 1541. No
+invented metrics. Hunches labeled. Quote READMEs. Soft
+Noul ≠ hard safety. Augustus owns placement.
+Measurement densifies (router benches, ticket/figure
+routers, human-labeled feedstock) are the *class*
+exemplar this hour. Quote live REST over watch.
+`invented_signal: false`.
+
+- **Benchmark-driven router + judge (PRIMARY).**
+  erendikmenn/jev-llm-router-benchmark (Python MIT; **0★**; HEAD `f44ef450`;
+  README SHA `df3687e5`; GitHub size 0 with contents).
+  Benchmark-driven Jev router and judge. cheap alone is not success.
+  Jev does not write, sum prices, or claim accuracy %.
+  Sol 94.2 / Luna 83.9 / Jev path 89.7.
+  19.2% Sol / 62.3% cost save / 4.5pp miss of 2pp non-inferiority.
+  p50 latency worse than Sol due to routing overhead.
+  erendikmenn/jev-llm-router-benchmark ≠ jev-rag-benchmark ≠ ryantsai/jev-llm-router.
+- **Support ticket router.** aesaganda/jev-ticket-router
+  (JS; license null; **0★**; HEAD `ecf00046`; README SHA `41c0b50f`; size **0** with contents).
+  Express + node:sqlite. mock and Jev decision engines.
+  previous_ticket_count >= 3 is code. MIN_CONFIDENCE 0.6 still soft.
+  substring false positives.
+  aesaganda/jev-ticket-router ≠ SarathChandraBellam/jev-vs-llm-ticket-router.
+- **Universal figure router.** hoangngochuong24947-gif/jev-figure-router
+  (Python MIT; **1★**; HEAD `4c51b1af`; README SHA `11d5302b`; size **340**).
+  Universal Figure & Diagram Router. confidence ≥ 0.85 hard-gate is theater.
+  generative AI banned from scientific plots. six visual branches.
+- **Human-labeled feedstock.** hfdataset Praveenrajus/jev-bench
+  (license other; likes **0**; sha `c9c3032c`).
+  human-labeled (state, question, label). 166,054 rows / 22 configs.
+  soft_label for human uncertainty. Praveenrajus/jev-bench ≠ fstandhartinger/jevbench.
+- **Ternary bonsai GGUF.** hf NicolaiMTLassen/open-bonzi-jev
+  (MIT; likes **0**; sha `09240156`). ternary bonsai System One GGUF.
+  openjev's mechanism, Bonsai's weights. Hub does not ship weights.
+  100/100 easy T/F is not Harbor. label_mass ≠ correctness.
+  stock llama.cpp Q2_0 silently gibberish.
+  NicolaiMTLassen/open-bonzi-jev ≠ NicolaiLassen.
+  GH companion NicolaiLassen/open-bonzi-jev (Python MIT; **0★**; HEAD `1c2508fd`).
+- **DeBERTa ONNX t.js port.** onnx-community/open-jev-deberta-v3-large-ONNX
+  (apache-2.0; likes **0**; sha `3bc2553b`). transformers.js DeBERTa ONNX.
+  source:com-kotobalabs/open-jev-deberta-v3-large. temperature 1.05.
+  AutoModel from_pretrained works.
+  onnx-community/open-jev-deberta-v3-large-ONNX ≠ system-one-qwen3.5-4b-scorer-ONNX.
+- **verdict NAR densify.** Heman10x-NGU/openJev-verdict-2.0
+  (Python; README Apache-2.0 / GitHub SPDX NOASSERTION; **107★**;
+  HEAD `a458733c`; README SHA `05ca75af`; size **14728**).
+  107★ densify. GH 151M vs README 149.6M. PR #1 now closed unmerged.
+  do not re-fold §71 claim-audit as a beat.
+- **Study notes densify.** wjdjdakf17/jev-study (TypeScript MIT; **0★**;
+  HEAD `24b5d7d7`; README SHA `4ca30c93`; size **34**; default **master**).
+  typed decisions, RLCD, confidence-gated routing. structured ≠ correct.
+  mock not live API. 26 tests. wjdjdakf17/jev-study ≠ baekenough/jev-study.
+
+Pulse: Archer still NOT landed. Hub
+archerhume/4rcherhume HTTP **401**. Tracker
+multimodalart/jev-reproductions-tracker likes **59**;
+lastModified `2026-09-20T04:29:16Z` UNCHANGED. Live REST: SemIf
+**2094★**; jevlike **1023★**; TypeAR **12★** **flat**.
+AnotiaWang/awesome-jev **93★** ≠ Awesomejev 561/27007.
+Hub Laya likes **729**. Qwen3.8-27B ≠ Archer.
+do not reopen or amend PR #23 or #24.
+`invented_signal: false`.
+
+Cross-repo addition: (od) router bench PRIMARY; (oe) ticket mock+Jev;
+(of) figure router 0.85 theater; (og) jev-bench feedstock;
+(oh) ternary bonsai GGUF; (oi) DeBERTa ONNX t.js; (oj) verdict 107★ densify;
+(ok) study RLCD + confidence-gated routing.
+
 ## Batch #89 (2026-09-20 ~07:45 UTC / ~01:45 Boise) — hourly 0145 HIGH
 
 Note: `research/notes.md` §106. Docs-only on a fresh PR

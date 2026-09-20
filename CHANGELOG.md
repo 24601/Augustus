@@ -16,6 +16,85 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
 
 ### Added
 
+- Hourly 0243 HIGH (`research/notes.md` §107): **Skip
+  Archer rewrite.** Docs-only on a **fresh PR off main**.
+  **HARD RULE:** do not reopen or amend PR #23 or #24 (merged
+  #23 owns `notes.md` §105 / items 149–160 / batch #88;
+  merged #24 owns `notes.md` §106 / items 161–177 / batch #89 —
+  leave them alone). Never reopen merged
+  #7–**#24**. Do **not** re-fold 0145 / §106 / 0042 / §105 / 2340 / §104 / 2246 /
+  §103 / 2145 / §102 / 2041 / §101 / 1943 / §100 / 1843
+  / §99 / 1740 / §98 / 1639 / §96 / gliner-native-runtime
+  / §97 / 1541 / §95 / jev-align *mechanism* / §93 /
+  jev-orderby-bench *six-gates* / §60 / JevBench v1.2
+  *board* / §78 / openJev-verdict *claim-audit* / §71. How-to-apply / mental models /
+  architecture / Harbor-jevals / toolbelt — not a thin
+  Jev skill dump. Backend-agnostic
+  categorization/scoring/decision class. Formal methods
+  compose with scoring; a Noul is a SENSOR; treating a
+  0.85 figure FAST_PATH as a proof, 100/100 easy T/F as
+  Harbor, label_mass as correctness, 77.10% as beating
+  Jev, collapsing ticket-router into Sarath, collapsing
+  jev-bench into jevbench, collapsing DeBERTa ONNX into
+  the Qwen scorer ONNX, collapsing Hub/GH Nicolai
+  spellings, treating 151M vs 149.6M as two models,
+  quoting 62.3% cost save without the 4.5pp miss,
+  treating mock keyword as production, hard-gating
+  ticket 0.6 as safety, treating a study mock as a live
+  API, treating stock llama.cpp Q2_0 as working, or
+  re-folding §71 as a beat is soundness theater.
+  Figure-router 0.85 hard-gate and 100/100 easy T/F as
+  Harbor are the anti-patterns. Eight HIGH clusters /
+  three themes:
+  **measurement densifies PRIMARY**
+  ([erendikmenn/jev-llm-router-benchmark](https://github.com/erendikmenn/jev-llm-router-benchmark)
+  Benchmark-driven Jev router and judge; cheap alone is not success;
+  Jev does not write, sum prices, or claim accuracy %;
+  Sol 94.2 / Luna 83.9 / Jev path 89.7;
+  19.2% Sol / 62.3% cost save / 4.5pp miss of 2pp non-inferiority;
+  p50 latency worse than Sol due to routing overhead;
+  erendikmenn/jev-llm-router-benchmark ≠ jev-rag-benchmark ≠ ryantsai/jev-llm-router;
+  Python MIT LICENSE SHA `99916677`; **0★**; HEAD `f44ef450`; README SHA `df3687e5`; size **0** with contents);
+  ([aesaganda/jev-ticket-router](https://github.com/aesaganda/jev-ticket-router)
+  Express + node:sqlite; mock and Jev decision engines;
+  previous_ticket_count >= 3 is code; MIN_CONFIDENCE 0.6 still soft;
+  substring false positives;
+  aesaganda/jev-ticket-router ≠ SarathChandraBellam/jev-vs-llm-ticket-router;
+  JS; license null; **0★**; HEAD `ecf00046`; README SHA `41c0b50f`; size **0** with contents);
+  ([hoangngochuong24947-gif/jev-figure-router](https://github.com/hoangngochuong24947-gif/jev-figure-router)
+  Universal Figure & Diagram Router; confidence ≥ 0.85 hard-gate is theater;
+  generative AI banned from scientific plots; six visual branches;
+  Python MIT LICENSE SHA `62120c23`; **1★**; HEAD `4c51b1af`; README SHA `11d5302b`; size **340**);
+  (hfdataset:Praveenrajus/jev-bench
+  human-labeled (state, question, label); 166,054 rows / 22 configs;
+  soft_label for human uncertainty;
+  Praveenrajus/jev-bench ≠ fstandhartinger/jevbench;
+  license other; likes **0**; sha `c9c3032c`);
+  **open reproduction class ports**
+  (hf:NicolaiMTLassen/open-bonzi-jev
+  ternary bonsai System One GGUF; openjev's mechanism, Bonsai's weights;
+  Hub does not ship weights; 100/100 easy T/F is not Harbor;
+  label_mass ≠ correctness; stock llama.cpp Q2_0 silently gibberish;
+  NicolaiMTLassen/open-bonzi-jev ≠ NicolaiLassen;
+  MIT; likes **0**; sha `09240156`;
+  GH companion NicolaiLassen/open-bonzi-jev Python MIT; **0★**; HEAD `1c2508fd`; LICENSE SHA `46d740e4`; size **0** with contents);
+  (hf:onnx-community/open-jev-deberta-v3-large-ONNX
+  transformers.js DeBERTa ONNX; source:com-kotobalabs/open-jev-deberta-v3-large;
+  temperature 1.05; AutoModel from_pretrained works;
+  onnx-community/open-jev-deberta-v3-large-ONNX ≠ system-one-qwen3.5-4b-scorer-ONNX;
+  apache-2.0; likes **0**; sha `3bc2553b`);
+  ([Heman10x-NGU/openJev-verdict-2.0](https://github.com/Heman10x-NGU/openJev-verdict-2.0)
+  107★ densify; GH 151M vs README 149.6M; PR #1 now closed unmerged;
+  do not re-fold §71 claim-audit as a beat;
+  Python; README Apache-2.0 / GitHub SPDX NOASSERTION; **107★**; HEAD `a458733c`; README SHA `05ca75af`; size **14728**);
+  **study densification**
+  ([wjdjdakf17/jev-study](https://github.com/wjdjdakf17/jev-study)
+  typed decisions, RLCD, confidence-gated routing; structured ≠ correct;
+  mock not live API; 26 tests; wjdjdakf17/jev-study ≠ baekenough/jev-study;
+  TypeScript MIT LICENSE SHA `00bbf5f9`; **0★**; HEAD `24b5d7d7`; README SHA `4ca30c93`; size **34**; default **master**).
+  0★ HIGH still got a real card. Soft Noul ≠ hard safety.
+  `invented_signal: false`.
+
 - Hourly 0145 HIGH (`research/notes.md` §106): **Skip
   Archer rewrite.** Docs-only on a **fresh PR off main**.
   **HARD RULE:** do not reopen or amend PR #23 (merged

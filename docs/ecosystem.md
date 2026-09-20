@@ -768,6 +768,28 @@ Cross-domain frames (not SWE-only): `references/mental-models.md`.
 Hypothesis cards: `references/mappings.md` §6–§19.
 
 
+### Hourly ~02:43 Boise 2026-09-20 / 2026-09-20T08:43Z (0243 HIGH)
+
+Architecture / mental models / Harbor-jevals / toolbelt, not a jev-llm-router / ticket-router / figure-router / jev-bench / open-bonzi-jev / DeBERTa ONNX / verdict / jev-study tutorial. `notes.md` §107. Skip Archer rewrite. Quote READMEs. Soft Noul ≠ hard safety. Do **not** re-fold 0145 / §106 / 0042 / §105 / 2340 / §104 / 2246 / §103 / 2145 / §102 / 2041 / §101 / 1943 / §100 / 1843 / §99 / 1740 / §98 / 1639 / §96 / gliner-native-runtime / §97 / 1541 / §95 / jev-align *mechanism* / §93 / jev-orderby-bench *six-gates* / §60 / JevBench v1.2 *board* / §78 / openJev-verdict *claim-audit* / §71. Fresh PR; never reopen merged #7–**#24**. **HARD RULE:** do not reopen or amend PR #23 or #24. 0★ HIGH still gets a real card. Measurement densifies (router benches, ticket/figure routers, human-labeled feedstock) are the *class* exemplar this hour, not a TypeSafe drop-in. Quote live REST over watch claims. `invented_signal: false`.
+
+- **erendikmenn/jev-llm-router-benchmark** — Python MIT; **0★**; README SHA `df3687e5`; HEAD `f44ef450`; LICENSE SHA `99916677`; GitHub size **0** with contents. PRIMARY. Benchmark-driven Jev router and judge. cheap alone is not success. Jev does not write, sum prices, or claim accuracy %. Sol 94.2 / Luna 83.9 / Jev path 89.7. 19.2% Sol / 62.3% cost save / 4.5pp miss of 2pp non-inferiority. p50 latency worse than Sol due to routing overhead. ≠ jev-rag-benchmark ≠ ryantsai/jev-llm-router. Do not copy `uv` / `OPENROUTER_API_KEY`.
+- **aesaganda/jev-ticket-router** — JS; license **null**; **0★**; README SHA `41c0b50f`; HEAD `ecf00046`; GitHub size **0** with contents. Express + node:sqlite. mock and Jev decision engines. previous_ticket_count >= 3 is code. MIN_CONFIDENCE 0.6 still soft. substring false positives. ≠ SarathChandraBellam/jev-vs-llm-ticket-router.
+- **hoangngochuong24947-gif/jev-figure-router** — Python MIT; **1★**; README SHA `11d5302b`; HEAD `4c51b1af`; LICENSE SHA `62120c23`; size **340**. Universal Figure & Diagram Router. confidence ≥ 0.85 hard-gate is theater. generative AI banned from scientific plots. six visual branches.
+- **Praveenrajus/jev-bench** — HF dataset license **other**; likes **0**; sha `c9c3032c`. human-labeled (state, question, label). 166,054 rows / 22 configs. soft_label for human uncertainty. ≠ fstandhartinger/jevbench.
+- **NicolaiMTLassen/open-bonzi-jev** — HF MIT; likes **0**; sha `09240156`. ternary bonsai System One GGUF. openjev's mechanism, Bonsai's weights. Hub does not ship weights. 100/100 easy T/F is not Harbor. label_mass ≠ correctness. stock llama.cpp Q2_0 silently gibberish. ≠ NicolaiLassen. GH companion NicolaiLassen/open-bonzi-jev Python MIT; **0★**; HEAD `1c2508fd`; LICENSE SHA `46d740e4`; size **0** with contents.
+- **onnx-community/open-jev-deberta-v3-large-ONNX** — HF apache-2.0; likes **0**; sha `3bc2553b`. transformers.js DeBERTa ONNX. source:com-kotobalabs/open-jev-deberta-v3-large. temperature 1.05. AutoModel from_pretrained works. ≠ system-one-qwen3.5-4b-scorer-ONNX.
+- **Heman10x-NGU/openJev-verdict-2.0** — Python; README Apache-2.0 / GitHub SPDX NOASSERTION; **107★**; README SHA `05ca75af`; HEAD `a458733c`; size **14728**. 107★ densify. GH 151M vs README 149.6M. PR #1 now closed unmerged. do not re-fold §71 claim-audit as a beat. ≠ IamBusy/OpenJev.
+- **wjdjdakf17/jev-study** — TypeScript MIT; **0★**; README SHA `4ca30c93`; HEAD `24b5d7d7`; LICENSE SHA `00bbf5f9`; size **34**; default **master**. typed decisions, RLCD, confidence-gated routing. structured ≠ correct. mock not live API. 26 tests. ≠ baekenough/jev-study.
+
+Pulse (do not invent): Archer still NOT landed. Hub `archerhume/4rcherhume` HTTP **401** — not re-fetched as a rewrite. Tracker `multimodalart/jev-reproductions-tracker` likes **59**; lastModified `2026-09-20T04:29:16.000Z` **UNCHANGED**. Live REST: SemIf **2094★** (+20 vs §106 **2074**); jevlike **1023★** (+1 vs §106 **1022**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **93★** (+1 vs §106 **92**) ≠ Awesomejev 561/27007. Hub Laya likes **729**. Qwen3.8-27B ≠ Archer. X MCP not used this hour; no invented tweets. `invented_signal: false`.
+
+See `references/mixed-architecture.md` in the skill. Class-level family
+choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs
+Apalache; DST trio Antithesis / Resonate HQ / PufferLib):
+`references/formal-methods.md` (one-screen: `formal-semi-formal.md`).
+Cross-domain frames (not SWE-only): `references/mental-models.md`.
+Hypothesis cards: `references/mappings.md` §6–§19.
+
 ### Hourly ~01:45 Boise 2026-09-20 / 2026-09-20T07:45Z (0145 HIGH)
 
 Architecture / mental models / Harbor-jevals / toolbelt, not a Jevify / exu / MiniSystemOne / luce / jev-mini / jev-local / reward-model / ticket-router / cost / JevBench / ReflexRoute / jev-state / awesome tutorial. `notes.md` §106. Skip Archer rewrite. Quote READMEs. Soft Noul ≠ hard safety. Do **not** re-fold 0042 / §105 / 2340 / §104 / 2246 / §103 / 2145 / §102 / 2041 / §101 / 1943 / §100 / 1843 / §99 / 1740 / §98 / 1639 / §96 / gliner-native-runtime / §97 / 1541 / §95 / jev-align *mechanism* / §93 / jev-orderby-bench *six-gates* / §60 / JevBench v1.2 *board* / §78. Fresh PR; never reopen merged #7–**#23**. **HARD RULE:** do not reopen or amend PR #23. 0★ HIGH still gets a real card. Architecture probes (train-or-local recipes) are the *class* exemplar this hour, not a TypeSafe drop-in. Quote live REST over watch claims. `invented_signal: false`.

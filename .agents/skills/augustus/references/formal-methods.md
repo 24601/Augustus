@@ -1165,6 +1165,33 @@ JSON parse as a Noul, or quoting 84.8 as a class ceiling
 is the same theater.
 
 
+0243 envelopes (`notes.md` §107), still outside the extras
+template:
+Benchmark-driven Jev router and judge;
+cheap alone is not success;
+Jev does not write, sum prices, or claim accuracy %;
+hard budget/threshold/fallback stay in code;
+previous_ticket_count >= 3 is code;
+MIN_CONFIDENCE 0.6 still soft;
+confidence ≥ 0.85 hard-gate is theater;
+generative AI banned from scientific plots;
+100/100 easy T/F is not Harbor;
+label_mass ≠ correctness;
+PR #1 now closed unmerged;
+do not re-fold §71 claim-audit as a beat;
+structured ≠ correct;
+do not reopen or amend PR #23 or #24.
+Soft Noul ≠ hard safety: 94.2 / 89.7 / 62.3% / 4.5pp /
+0.85 / 100/100 / 77.10% / 107★ / T=1.05 are **sensors**.
+The router threshold/fallback/budget / ticket count>=3 /
+generative-AI-ban-on-plots / Hub recipe without weights
+are exact work. Treating a 0.85 figure FAST_PATH as a
+proof, 100/100 easy T/F as Harbor, label_mass as
+correctness, 77.10% as beating Jev, hard-gating ticket
+0.6 as safety, or re-folding §71 as a beat is the same
+theater.
+
+
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a
 hybrid "verified by Noul" API.

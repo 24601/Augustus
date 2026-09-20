@@ -395,6 +395,22 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   transformers.js AutoModel cannot load this graph;
   This Space contains no benchmark result yet
   (`notes.md` §106).
+  **0243:** do not reopen or amend PR #23 or #24;
+  cheap alone is not success; Jev does not write, sum prices, or claim accuracy %;
+  62.3% cost save / 4.5pp miss of 2pp non-inferiority; p50 latency worse than Sol due to routing overhead;
+  previous_ticket_count >= 3 is code; MIN_CONFIDENCE 0.6 still soft; substring false positives;
+  aesaganda/jev-ticket-router ≠ SarathChandraBellam/jev-vs-llm-ticket-router;
+  confidence ≥ 0.85 hard-gate is theater; generative AI banned from scientific plots;
+  Praveenrajus/jev-bench ≠ fstandhartinger/jevbench;
+  Hub does not ship weights; 100/100 easy T/F is not Harbor; label_mass ≠ correctness;
+  stock llama.cpp Q2_0 silently gibberish; NicolaiMTLassen/open-bonzi-jev ≠ NicolaiLassen;
+  temperature 1.05; AutoModel from_pretrained works;
+  onnx-community/open-jev-deberta-v3-large-ONNX ≠ system-one-qwen3.5-4b-scorer-ONNX;
+  107★ densify; GH 151M vs README 149.6M; PR #1 now closed unmerged;
+  do not re-fold §71 claim-audit as a beat;
+  structured ≠ correct; mock not live API; 26 tests;
+  wjdjdakf17/jev-study ≠ baekenough/jev-study
+  (`notes.md` §107).
   **Lease / retrieve:**
   [invalidate](https://github.com/chopratejas/invalidate) —
   memory leases ended by new evidence; unsure → review
