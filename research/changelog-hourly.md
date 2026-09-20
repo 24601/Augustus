@@ -10,7 +10,7 @@ the merged **0743 HIGH** dump (PR #31 / notes.md §113 / items 273–288
 - Canonical folds: [`notes.md`](notes.md)
 - Do not treat numbers here as new measurements. Quote *theirs*.
 - Soft Noul ≠ hard gate. Ranking ≠ calibration.
-- Do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33.
+- Do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33.
 
 ---
 
@@ -25,7 +25,7 @@ compose / Deferred Crispification. Hysteresis is policy. Ranking ≠
 calibration. Soundness theater: hop-ECE permutation-invariant.
 Qwen2.5 ≠ Archer. Qwen 3.8 sparring ≠ Archer. Qwen/Qwen3.8-27B ≠ Archer.
 g0runmezadam IS tunahan (id 1378007307). Composition items 289–302 /
-batch #96. Soft Noul ≠ hard safety.
+batch #97. Soft Noul ≠ hard safety.
 
 ## Hourly 0743 HIGH (PR #31, notes.md §113)
 
