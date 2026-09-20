@@ -2064,6 +2064,25 @@
   jev-recall despite attached JSON (quote README demos);
   JevPi GitHub size 0 with contents (same honesty as gut);
   0★ HIGH still got a real card.
+## 2026-09-20T06:36Z — hourly 2340 independent adversarial relock after `babb111` (PR #22)
+
+- Independent review of `babb111` (prior PASS claimed live REST).
+  HIGH HEAD/README pins still unchanged. Named pulse drifted:
+  SemIf **2044★** (was **2041★**; +25 vs §103 **2019**).
+  jevlike **1013★** (was **1011★**; +7 vs §103 **1006**).
+  TypeAR **12★** **flat**. AnotiaWang **89★** (was **88★**).
+  yibie **427★** (was **423★**). cobanov **222★** (was **221★**).
+  simple-jev **316★** (was **314★**). logicrw **135★** /
+  openjev-sglang **204★** / OpenJevPro size **64** unchanged.
+  Tracker `multimodalart/jev-reproductions-tracker` likes **56** /
+  lastModified `2026-09-20T04:29:16.000Z` unchanged.
+  Hub `archerhume/4rcherhume` HTTP **401**. `Tonic/4rcher-tracker`
+  HTTP **401** (not the reproductions tracker). Qwen likes **15787**.
+  Qwen3.8-27B ≠ Archer.
+- README quotes re-checked *theirs* at locked HEAD/README SHAs.
+  `invented_signal: false`. Do **not** merge from this
+  review — parent merges after CLEAN.
+
 ## 2026-09-20T06:17Z — hourly 2340 independent adversarial relock (PR #22)
 
 - Independent review of first-review `3255a57` (claimed live REST

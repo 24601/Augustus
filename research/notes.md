@@ -22221,7 +22221,7 @@ shuffled-context control 0.335.
      flags what stays generative; scaffolds a
      client against
      [`featherless-ai/simple-jev`](https://github.com/featherless-ai/simple-jev)
-     (**314★** live REST; not TypeSafe). Do
+     (**316★** live REST; not TypeSafe). Do
      **not** copy `git clone` / `cp -r` /
      Featherless demo endpoint. Do not dump
      `skills/`.
@@ -22459,9 +22459,9 @@ shuffled-context control 0.335.
       **Name lock:** always write
       **logicrw/awesome-jev-projects**.
       logicrw/awesome-jev-projects ≠
-      AnotiaWang/awesome-jev (**87★**) ≠
-      yibie/awesome-jev (**423★**) ≠
-      cobanov/awesome-jev (**221★**) ≠
+      AnotiaWang/awesome-jev (**89★**) ≠
+      yibie/awesome-jev (**427★**) ≠
+      cobanov/awesome-jev (**222★**) ≠
       fatwang2/awesome-jev ≠
       Anil-matcha/awesome-jev-by-typesafe ≠
       rupeshpoojary9/awesome-open-system-one ≠
@@ -22575,14 +22575,14 @@ keys / install recipes.
 
 Census **not provided this hour** (not
 re-derived). Live REST pulse only: SemIf
-**2041★** (+22 vs §103 **2019**; +16 vs first 2340 pin **2025**; +10 vs first-review pin **2031**); jevlike
-**1011★** (+5 vs §103 **1006**; +1 vs first-review **1010**);
+**2044★** (+25 vs §103 **2019**; +19 vs first 2340 pin **2025**; +13 vs first-review pin **2031**; +3 vs `babb111` **2041**); jevlike
+**1013★** (+7 vs §103 **1006**; +3 vs first-review **1010**; +2 vs `babb111` **1011**);
 TypeAR-AI/TypeAR **12★** **flat**;
-AnotiaWang/awesome-jev **88★** (+1 vs §103 **87**) still
+AnotiaWang/awesome-jev **89★** (+2 vs §103 **87**) still
 a **different object** from user-provided
 Awesomejev 561/27007 (§99 pin) and from
 logicrw/awesome-jev-projects **135★** (this
-hour). yibie/awesome-jev **423★** is another
+hour). yibie/awesome-jev **427★** is another
 namesake, not re-carded. Archer still **NOT
 landed**. Hub `archerhume/4rcherhume` HTTP
 **401** (not a rewrite). Tracker
@@ -22590,26 +22590,28 @@ landed**. Hub `archerhume/4rcherhume` HTTP
 likes **56** (+2 vs §103 pin **54**);
 lastModified **CHANGED**
 `2026-09-20T04:29:16.000Z` (was §101/§103
-`2026-09-20T02:59:13Z`). Qwen/Qwen3.8-27B
+`2026-09-20T02:59:13Z`). `Tonic/4rcher-tracker`
+HTTP **401** (not the reproductions tracker).
+Qwen/Qwen3.8-27B
 HTTP **200** likes **15787** lastModified
 `2026-08-14T15:00:01.000Z`, author Qwen —
 ≠ Archer. X MCP not used this hour; no
 invented tweets. `invented_signal: false`.
 Independent adversarial review relock
-(PR #22; after first-review `3255a57`):
+(PR #22; after `babb111`):
 HIGH HEAD/README pins unchanged.
 logicrw **135★** (was **134★** / first pin **132★**;
 HEAD `97057cc1` / README SHA `25a19b31`
-unchanged — auto GitHub sync). SemIf **2041★** /
-jevlike **1011★**. AnotiaWang **88★** (was **87★**).
+unchanged — auto GitHub sync). SemIf **2044★** /
+jevlike **1013★**. AnotiaWang **89★** (was **88★** / §103 **87**).
 OpenJevPro GitHub size **64** (was **62**; HEAD
 `94d77bcb` / README SHA `50c77ace` unchanged).
-simple-jev **314★** (was **311★**). openjev-sglang
+simple-jev **316★** (was **314★** / first-review **311★**). openjev-sglang
 **204★** (was **202★**). RLCD GitHub size **1513**
 (HEAD `62b103b3` unchanged). Colvin0315/MiniSystemOne
 size **814** (HEAD `ac5a0eea` / README SHA
-`f8c47847` unchanged). yibie **423★** (was **417★**);
-cobanov **221★**. Do not paste Colvin as hyusi.
+`f8c47847` unchanged). yibie **427★** (was **423★** / first-review **417★**);
+cobanov **222★** (was **221★**). Do not paste Colvin as hyusi.
 
 ### Not
 

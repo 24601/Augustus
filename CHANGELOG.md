@@ -96,21 +96,22 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   README SHA `5cbe01d4`; size **324**).
   Soft Noul ≠ hard safety. 0★ HIGH still got a real card
   (awesome-jev-projects **135★**; jevbetter **12★**). Census
-  **live REST pulse**: SemIf **2041★** (+22 vs §103 **2019**);
-  jevlike **1011★** (+5 vs §103 **1006**); TypeAR **12★**
-  **flat**. Tracker likes **56**; lastModified
+  **live REST pulse**: SemIf **2044★** (+25 vs §103 **2019**);
+  jevlike **1013★** (+7 vs §103 **1006**); TypeAR **12★**
+  **flat**. Tracker `multimodalart/jev-reproductions-tracker`
+  likes **56**; lastModified
   `2026-09-20T04:29:16.000Z`; Hub `archerhume/4rcherhume`
   HTTP **401** (not re-fetched as a rewrite). Archer
   still NOT landed. Awesomejev 561/27007 user-provided
-  (≠ AnotiaWang/awesome-jev **88★** ≠ logicrw **135★**).
+  (≠ AnotiaWang/awesome-jev **89★** ≠ logicrw **135★**).
   Qwen3.8-27B ≠ Archer (likes **15787**).
   Independent adversarial review relock (PR #22
-  after `3255a57`): HIGH HEAD/README unchanged;
+  after `babb111`): HIGH HEAD/README unchanged;
   star/size lag locked (awesome **135★**; SemIf
-  **2041★**; jevlike **1011★**; AnotiaWang **88★**;
-  OpenJevPro size **64**; simple-jev **314★**;
+  **2044★**; jevlike **1013★**; AnotiaWang **89★**;
+  OpenJevPro size **64**; simple-jev **316★**;
   openjev-sglang **204★**; RLCD size **1513**;
-  Colvin size **814**; yibie **423★**).
+  Colvin size **814**; yibie **427★**; cobanov **222★**).
   `invented_signal: false`. Do not
   copy keys / `npm` / `pip` / `npx` / `uv` /
   `.env`. No wrapper. No invented metrics.
