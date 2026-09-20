@@ -131,6 +131,12 @@ def densify_card_rules() -> tuple[str, ...]:
     )
 
 
+def _hex12(value: Any) -> bool:
+    return isinstance(value, str) and len(value) == 12 and all(
+        c in "0123456789abcdef" for c in value
+    )
+
+
 def load_store(path: Path | None = None) -> dict[str, Any]:
     p = path or STORE
     data = json.loads(p.read_text(encoding="utf-8"))
@@ -141,9 +147,27 @@ def load_store(path: Path | None = None) -> dict[str, Any]:
         raise AssertionError("store looks must be a list")
     for look in looks:
         fp = look.get("fingerprints") or {}
+        look_id = look.get("id")
         for field in STORED_FIELDS:
             if field not in fp:
-                raise AssertionError(f"look {look.get('id')} missing {field}")
+                raise AssertionError(f"look {look_id} missing {field}")
+        digest = fp.get("description_hash")
+        if digest is not None:
+            if not _hex12(digest):
+                raise AssertionError(
+                    f"look {look_id} description_hash must be null or sha256[:12]"
+                )
+            readme = look.get("readme_sha")
+            if isinstance(readme, str) and digest == readme[:12]:
+                raise AssertionError(
+                    f"look {look_id} description_hash is README SHA prefix; "
+                    "README SHA is an optional extra, not a substitute"
+                )
+        sha = fp.get("default_sha")
+        if isinstance(sha, str) and len(sha) == 12:
+            raise AssertionError(
+                f"look {look_id} default_sha is a 12-char prefix; store the full HEAD"
+            )
     return data
 
 
@@ -151,8 +175,8 @@ def self_test() -> None:
     stored = {
         "id": "github:TheoLeeCJ/SemIf",
         "fingerprints": {
-            "default_sha": "ca3ba65f1429",
-            "pushed_at": "2026-09-19T04:46:33Z",
+            "default_sha": "ca3ba65f142967030ecb453346e94d6f476a69df",
+            "pushed_at": "2026-09-19T04:46:36Z",
             "description_hash": description_hash(
                 "interface pattern reproduction with open models"
             ),
@@ -171,6 +195,18 @@ def self_test() -> None:
     assert noise["grade"] == "star_noise" and noise["action"] == "pulse_only", noise
     assert "stargazers_count" in noise["reasons"]
 
+    likes = dict(stored)
+    likes["likes"] = 58
+    like_noise = classify(stored, likes)
+    assert like_noise["grade"] == "star_noise", like_noise
+    assert "likes" in like_noise["reasons"]
+
+    forks = dict(stored)
+    forks["forks_count"] = 141
+    fork_noise = classify(stored, forks)
+    assert fork_noise["grade"] == "star_noise", fork_noise
+    assert "forks_count" in fork_noise["reasons"]
+
     sha = {
         "fingerprints": dict(stored["fingerprints"]),
         "stargazers_count": 2300,
@@ -182,6 +218,10 @@ def self_test() -> None:
     assert "default_sha" in moved["reasons"]
     assert moved["invents_equivalence"] is False
 
+    trunc = {"fingerprints": dict(stored["fingerprints"])}
+    trunc["fingerprints"]["default_sha"] = "ca3ba65f1429"
+    assert classify(stored, trunc)["grade"] == "material"
+
     pushed = {"fingerprints": dict(stored["fingerprints"])}
     pushed["fingerprints"]["pushed_at"] = "2026-09-20T18:00:00Z"
     assert classify(stored, pushed)["grade"] == "material"
@@ -189,6 +229,19 @@ def self_test() -> None:
     desc = {"fingerprints": dict(stored["fingerprints"])}
     desc["fingerprints"]["description_hash"] = description_hash("new blurb")
     assert classify(stored, desc)["grade"] == "material"
+
+    unknown_desc = {
+        "fingerprints": {
+            "default_sha": "ca3ba65f142967030ecb453346e94d6f476a69df",
+            "pushed_at": "2026-09-19T04:46:36Z",
+            "description_hash": None,
+            "release_tag": None,
+        }
+    }
+    saw_desc = {"fingerprints": dict(unknown_desc["fingerprints"])}
+    saw_desc["fingerprints"]["description_hash"] = description_hash("live blurb")
+    assert classify(unknown_desc, saw_desc)["grade"] == "material"
+    assert classify(unknown_desc, dict(unknown_desc))["grade"] == "unchanged"
 
     tag = {"fingerprints": dict(stored["fingerprints"])}
     tag["fingerprints"]["release_tag"] = "v2.0.0"
@@ -208,9 +261,23 @@ def self_test() -> None:
 
     store = load_store()
     assert store["schema_version"] == 1
-    ids = {look["id"] for look in store["looks"]}
-    assert "github:TheoLeeCJ/SemIf" in ids
-    assert "github:TianyuCodings/NanoJev" in ids
+    by_id = {look["id"]: look for look in store["looks"]}
+    assert "github:TheoLeeCJ/SemIf" in by_id
+    assert "github:TianyuCodings/NanoJev" in by_id
+    semif = by_id["github:TheoLeeCJ/SemIf"]["fingerprints"]
+    assert semif["default_sha"] == "ca3ba65f142967030ecb453346e94d6f476a69df"
+    assert semif["pushed_at"] == "2026-09-19T04:46:36Z"
+    assert semif["description_hash"] is None
+    assert semif["release_tag"] is None
+    nano = by_id["github:TianyuCodings/NanoJev"]["fingerprints"]
+    assert nano["default_sha"] == "618cea6d906d54e128360786d12f703fff2b1245"
+    assert nano["pushed_at"] is None
+    assert nano["description_hash"] is None
+    assert nano["release_tag"] == "unified-games-v1"
+    nano_readme = by_id["github:TianyuCodings/NanoJev"].get("readme_sha")
+    assert isinstance(nano_readme, str) and nano_readme.startswith("4190093c64ee")
+    semif_readme = by_id["github:TheoLeeCJ/SemIf"].get("readme_sha")
+    assert isinstance(semif_readme, str) and semif_readme.startswith("74ab7f7f")
     rules = densify_card_rules()
     assert any("sibling first-sighting" in r for r in rules)
     assert any("revisit HIGH like novel HIGH" in r for r in rules)

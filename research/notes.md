@@ -30320,9 +30320,11 @@ Revisit / since-last-look lock: catalogued repos are not done; store fingerprint
 Store in `research/revisit_fingerprints.json`. Helper
 `research/revisit_fingerprints.py --self-test` (offline, no network).
 
-- `default_sha`: default-branch HEAD
-- `pushed_at`: GitHub push clock
-- `description_hash`: sha256[:12] of the repo / Space description
+- `default_sha`: full default-branch HEAD (not a 12-char prefix)
+- `pushed_at`: GitHub push clock (not the commit timestamp)
+- `description_hash`: sha256[:12] of the repo / Space description, or
+  null when notes do not quote it. README SHA is an optional extra,
+  not a substitute.
 - `release_tag`: latest release tag, or null
 
 ### Material vs star-noise

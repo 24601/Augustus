@@ -126,8 +126,11 @@ already have a card."
 
 Revisit / since-last-look lock: catalogued repos are not done; store fingerprints default_sha, pushed_at, description_hash, release_tag; material change is README/API/release/calibration claim/serving port/bench rewrite; star-noise is stars/likes/forks alone; densify the prior notes section, do not mint a sibling first sighting; do not invent equivalence; SHA move is not a replica; treat revisit HIGH like novel HIGH for Augustus; notes.md §122
 
-**Fingerprints to store** (hourly diffs these): `default_sha`,
-`pushed_at`, `description_hash`, `release_tag`. Helper:
+**Fingerprints to store** (hourly diffs these): `default_sha`
+(full HEAD, not a 12-char prefix), `pushed_at` (GitHub push
+clock), `description_hash` (sha256[:12] of the GitHub / Space
+description, or null if unquoted; not README SHA),
+`release_tag`. Helper:
 `research/revisit_fingerprints.py`. Checklist:
 `research/revisit-checklist.md`.
 

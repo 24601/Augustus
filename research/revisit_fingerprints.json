@@ -20,18 +20,19 @@
     "forks_count",
     "likes"
   ],
-  "note": "Last-look snapshots for already-catalogued sources. Hourly diffs these four fingerprints. Star-noise is not a fold. SHA move is not a replica. Seeded from merged notes (SemIf §117, NanoJev §115), not a live census this pass.",
+  "note": "Last-look snapshots for already-catalogued sources. Hourly diffs these four fingerprints. Star-noise is not a fold. SHA move is not a replica. Seeded from merged notes (SemIf §117, NanoJev §115), not a live census this pass. default_sha is the full HEAD from those cards. pushed_at is the GitHub push clock from §117 (not the commit timestamp). description_hash is sha256[:12] of the GitHub/Space description, or null when notes do not quote it. README SHA is an optional extra, not a substitute for description_hash.",
   "looks": [
     {
       "id": "github:TheoLeeCJ/SemIf",
       "notes_section": "117",
       "last_look": "2026-09-20T16:10Z",
       "fingerprints": {
-        "default_sha": "ca3ba65f1429",
-        "pushed_at": "2026-09-19T04:46:33Z",
-        "description_hash": "a3c0f1b9e2d4",
+        "default_sha": "ca3ba65f142967030ecb453346e94d6f476a69df",
+        "pushed_at": "2026-09-19T04:46:36Z",
+        "description_hash": null,
         "release_tag": null
-      }
+      },
+      "readme_sha": "74ab7f7ffa3d492c2dc905c1e75410dca3e0677e"
     },
     {
       "id": "github:TianyuCodings/NanoJev",
@@ -40,9 +41,10 @@
       "fingerprints": {
         "default_sha": "618cea6d906d54e128360786d12f703fff2b1245",
         "pushed_at": null,
-        "description_hash": "4190093c64ee",
+        "description_hash": null,
         "release_tag": "unified-games-v1"
-      }
+      },
+      "readme_sha": "4190093c64ee75b26e9726daa3b00cbcf6d3157a"
     }
   ]
 }

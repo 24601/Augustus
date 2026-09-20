@@ -12,14 +12,14 @@ Default set, so hourly can diff without re-discovering the world:
 
 | Field | What it catches |
 | --- | --- |
-| `default_sha` | Default-branch HEAD moved |
-| `pushed_at` | GitHub push clock moved |
-| `description_hash` | Repo / Space description rewritten |
+| `default_sha` | Full default-branch HEAD moved (not a 12-char prefix) |
+| `pushed_at` | GitHub push clock moved (not the commit timestamp) |
+| `description_hash` | sha256[:12] of the GitHub / Space description. Null if notes do not quote it. |
 | `release_tag` | Latest release tag moved or appeared |
 
 Optional extras after a fingerprint hit (not substitutes for the four):
 README SHA, OpenAPI / `/v1/systemone` surface, serving port or base URL,
-calibration claim, bench rewrite.
+calibration claim, bench rewrite. README SHA is not `description_hash`.
 
 Store lives in [`revisit_fingerprints.json`](revisit_fingerprints.json).
 Helper: `python3 research/revisit_fingerprints.py --self-test`.
