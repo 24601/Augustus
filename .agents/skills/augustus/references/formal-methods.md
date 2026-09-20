@@ -1192,6 +1192,31 @@ correctness, 77.10% as beating Jev, hard-gating ticket
 theater.
 
 
+
+
+0345 envelopes (`notes.md` §108), still outside the extras
+template:
+bonzi-27b-v2 / ternary-8b / 27b-v1 GGUF family densify;
+Bonsai 1 27B Q1_0 runs on stock llama.cpp;
+ternary still needs PrismML fork;
+parser owns the wall clock;
+titles selected not generated;
+mechanical tells in code;
+select_threshold returns inf;
+T never changes argmax;
+confidence ≠ top-label p;
+Jev agreement is similarity, never ground truth;
+no aggregate quality grade or merge gate;
+do not reopen or amend PR #23 or #24 or #25.
+Soft Noul ≠ hard safety: 74.6% / 0.980 / 0.058 / 0.855 /
+12/12 / 63/63 / 0.466→0.081 are **sensors**. The parser
+clock / regex mechanical tells / select_threshold inf /
+PrismML-fork vs stock llama.cpp split / titles selected
+not generated are exact work. Treating injection ECE
+0.058 as a hard gate, 40-row T as production, 12/12 as
+pipeline equality, rank 1 without question-asymmetry,
+or WANLI-256 as Harbor is the same theater.
+
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a
 hybrid "verified by Noul" API.

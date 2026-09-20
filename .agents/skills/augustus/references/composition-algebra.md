@@ -1467,6 +1467,96 @@ Benchmark-driven Jev router and judge; cheap alone is not success; Jev does not 
      wjdjdakf17/jev-study ≠ baekenough/jev-study.
      Full cards: `mental-models.md`, `faq.md`.
 
+
+bonzi-27b-v2 / ternary-8b / 27b-v1 GGUF family densify; WANLI-256 74.6% / 65.2% / 71.1% *theirs*; Bonsai 1 27B Q1_0 runs on stock llama.cpp; ternary still needs PrismML fork; hf:heman10x/openJev-verdict-2.0 twin tokenizer-only; OpenJev Vision image classification + uncertainty; CLEVR-4 held-out joint 0%; hfdataset:IamBusy/OpenJev-Vision-Research-v0.1 12,832; 294,912 derived targets not independent samples; Laya multilingual ONNX WebGPU typed-decisions port; 63/63 selected answers / 5.1e-4 CPU / 1.2e-2 WebGPU; UpHash-Network/mini-jev is yuki-oshio transfer; jev-injection-bench 11,900 labelled prompts; Jev best ranking / Haiku better ECE 0.021 vs 0.058; 0.5–0.9 band is where Jev's numbers do not mean what they say; Prompt wording moves panic 28%; manojlds/jev-dspy-bench ≠ dspachos/jev-dspy ≠ jmanhype/jev-dspy-lab; Jev agreement is similarity, never ground truth; no aggregate quality grade or merge gate; AbstentionBench-on-Jev rank 1 of 20 vs 2025 field; question-asymmetry; forward-looking 0.465 never extreme; openkev calibration layer not a runtime; ECE vs coverage independent; select_threshold returns inf; escalation catches uncertainty not ignorance; misakaikato/openkev ≠ jaredpalmer/kev; pdf-race Docling→Jev vs Gemini; parser owns the wall clock; 12/12 tie is a tie; titles selected not generated; flopcheck 16 calibrated tweet judgments; mechanical tells in code; ZeroX-01/jev-atlas ≠ Zaious/jev-capability-atlas ≠ gorock007/jev-atlas; Laya calibration lab Gradio MCP; T never changes argmax; confidence ≠ top-label p; easy probe set refused; 40–48 rows too small to ship T; do not reopen or amend PR #23 or #24 or #25
+
+186. **Bonsai 27B v2 family card** (NicolaiMTLassen/bonzi-27b-v2-jev):
+     position 1 (Operand) as a family measurement card, not shipped weights.
+     bonzi-27b-v2 / ternary-8b / 27b-v1 GGUF family densify.
+     WANLI-256 74.6% *theirs*. ternary still needs PrismML fork.
+     Full cards: `judgment-class.md`, `faq.md`.
+187. **Ternary Bonsai 8B family card** (NicolaiMTLassen/bonzi-8b-ternary-v1-jev):
+     position 1 (Operand). WANLI-256 65.2% *theirs*. Same PrismML fork.
+     Full cards: `judgment-class.md`, `faq.md`.
+188. **Bonsai 1 27B family card** (NicolaiMTLassen/bonzi-27b-v1-jev):
+     position 1 (Operand). Bonsai 1 27B Q1_0 runs on stock llama.cpp.
+     Do **not** collapse into §107 Q2_0 gibberish.
+     Full cards: `judgment-class.md`, `faq.md`.
+189. **Laya multilingual ONNX WebGPU** (mizchi/laya-multilingual-onnx):
+     position 1 (Operand) as an independent port.
+     Laya multilingual ONNX WebGPU typed-decisions port.
+     63/63 selected answers / 5.1e-4 CPU / 1.2e-2 WebGPU. 63/63 argmax ≠ ECE.
+     Full cards: `judgment-class.md`, `faq.md`.
+190. **OpenJev Vision** (IamBusy/OpenJev-Vision):
+     position 1 (Operand) × 8 (Metric). perceive species, not TypeSafe Jev.
+     OpenJev Vision image classification + uncertainty. CLEVR-4 held-out joint 0%.
+     Full cards: `judgment-class.md`, `validation.md`.
+191. **HF verdict twin** (heman10x/openJev-verdict-2.0):
+     position 8 (Metric) as tokenizer-only twin, not a beat.
+     hf:heman10x/openJev-verdict-2.0 twin tokenizer-only.
+     Full cards: `validation.md`, `faq.md`.
+192. **Vision research dataset** (IamBusy/OpenJev-Vision-Research-v0.1):
+     position 8 (Metric) as feedstock, not independent samples.
+     hfdataset:IamBusy/OpenJev-Vision-Research-v0.1 12,832.
+     294,912 derived targets not independent samples.
+     Full cards: `validation.md`, `faq.md`.
+193. **mini-jev residual-head densify** (UpHash-Network/mini-jev):
+     position 1 (Operand). UpHash-Network/mini-jev is yuki-oshio transfer.
+     residual-head 9,222-param decreased 73/96→67/96.
+     Full cards: `judgment-class.md`, `faq.md`.
+194. **Prompt-injection ranking vs calibration** (ASEVlad/jev-injection-bench; PRIMARY):
+     positions 3 (Gate) × 8 (Metric). ranking ≠ calibration.
+     jev-injection-bench 11,900 labelled prompts.
+     Jev best ranking / Haiku better ECE 0.021 vs 0.058.
+     0.5–0.9 band is where Jev's numbers do not mean what they say.
+     Prompt wording moves panic 28%.
+     Full cards: `formal-methods.md`, `validation.md`, `faq.md`.
+195. **Jev vs DSPy quality-evaluator** (manojlds/jev-dspy-bench):
+     position 8 (Metric) as similarity, never GT.
+     manojlds/jev-dspy-bench ≠ dspachos/jev-dspy ≠ jmanhype/jev-dspy-lab.
+     Jev agreement is similarity, never ground truth.
+     no aggregate quality grade or merge gate.
+     Full cards: `validation.md`, `faq.md`.
+196. **AbstentionBench-on-Jev** (sshariqali/jev-abstentionbench):
+     positions 3 (Gate) × 8 (Metric). question-asymmetry.
+     AbstentionBench-on-Jev rank 1 of 20 vs 2025 field.
+     forward-looking 0.465 never extreme.
+     Full cards: `mental-models.md`, `validation.md`.
+197. **openkev calibration layer** (misakaikato/openkev):
+     position 8 (Metric) as a layer, not a runtime.
+     openkev calibration layer not a runtime.
+     ECE vs coverage independent. select_threshold returns inf.
+     escalation catches uncertainty not ignorance.
+     misakaikato/openkev ≠ jaredpalmer/kev.
+     Full cards: `validation.md`, `formal-methods.md`.
+198. **Docling→Jev vs Gemini race** (goodrahstar/pdf-race):
+     positions 1 (Operand) × 8 (Metric) × 11 (Bounds).
+     parser owns the wall clock; titles selected not generated.
+     pdf-race Docling→Jev vs Gemini. 12/12 tie is a tie.
+     Full cards: `formal-methods.md`, `faq.md`.
+199. **Public TypeSafe JEV index** (ZeroX-01/jev-atlas):
+     position 8 (Metric) as a catalog, not eval.
+     ZeroX-01/jev-atlas ≠ Zaious/jev-capability-atlas ≠ gorock007/jev-atlas.
+     catalog not endorsement.
+     Full cards: `faq.md`.
+200. **flopcheck tweet judgments** (samyakjain0606/jev-is-here):
+     positions 1 (Operand) × 3 (Gate). mechanical tells in code.
+     flopcheck 16 calibrated tweet judgments. Knowledge work / life.
+     Full cards: `mental-models.md`, `faq.md`.
+201. **Laya calibration lab** (BunsDev/laya-calibration-lab):
+     position 8 (Metric). T never changes argmax.
+     Laya calibration lab Gradio MCP. confidence ≠ top-label p.
+     easy probe set refused. 40–48 rows too small to ship T.
+     Full cards: `validation.md`, `faq.md`.
+
+Hourly 0345 items 186–201 (`notes.md` §108). Do **not**
+re-fold 0243 items 178–185 / 0145 items 161–177 / 0042 items 149–160 / 2340 items 138–148 / 2246 items 129–137 / 2145
+items 120–128 / 2041 items 111–119 / 1943 items 102–110 /
+1843 items 97–101 / 1740 items 94–96 / SIGNAL §93
+mechanism / §60 six-gates / §78 v1.2 board / §71 claim-audit /
+yuki-oshio/mini-jev *93.25%*.
+Soft Noul ≠ hard safety.
+
 Hourly 0243 items 178–185 (`notes.md` §107). Do **not**
 re-fold 0145 items 161–177 / 0042 items 149–160 / 2340 items 138–148 / 2246 items 129–137 / 2145
 items 120–128 / 2041 items 111–119 / 1943 items 102–110 /
