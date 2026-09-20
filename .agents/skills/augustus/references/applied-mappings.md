@@ -2305,6 +2305,8 @@ hf:shreyanbr/system-one-distilled / gold / zeroshot
 priority 0.464 = majority floor; banking77 contaminated;
 raw margins not probabilities;
 do not distill Jev as teacher of record (they distilled Haiku).
+
+Hourly 0541 uniqueness lock: GH jev-haiku-benchmarking 404.
 Measurement PRIMARY: [Running-Dolphins/jev-bench](https://github.com/Running-Dolphins/jev-bench)
 “0.9 is not one number”; ranking ≠ calibration;
 banking77 0.8–0.9 stated 0.86 actual 0.73 over-confident *theirs*;

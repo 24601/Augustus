@@ -568,6 +568,8 @@ Rules:
 | jev-spec 0.85 theater | [nozomi-koborinai/jev-spec](https://github.com/nozomi-koborinai/jev-spec) | TS MIT; **1★**; HEAD `9f8cece7`. Spec vs artifact remainder. treating 0.85 as 85% / minProbability hard-gate as Harbor. `notes.md` §110 |
 | Jev-LLM VERIFY | [202620325-spec/Jev-LLM](https://github.com/202620325-spec/Jev-LLM) | Python MIT; **0★**; HEAD `da06b6d1`. VERIFY acquires discriminating evidence, never same-pool confidence-only rescoring. fast/full/max are ceilings not sizes. Solar writes, Jev chooses NEXT ACTION. `notes.md` §110 |
 
+Hourly 0541 uniqueness lock: Blackwood tracker ABSENT; likes 2 gated manual; GH Meanblock 404; lock leesk212/JEV-CPU; softmax over letter slots ≠ Noul; GH jev-haiku-benchmarking 404; ≠ RadRebelSam/awesome-jev; NLI Tetris argmax P(entail)−P(contradict); Judged 3317 / listed 2560; Jev judges, code applies policy; catalog ≠ endorsement; APA “microsecond policy / zero hallucination” overclaim; Client-side quiz; pointer from held docs; scanned-PDF warn; CSP only api.typesafe.ai; Jev judges / agent reasons / user decides; selecting an option is not permission to implement; degraded fallback; SemIf 2178★ (+12 vs §109 2166); jevlike 1032★ (+1 vs 1031); TypeAR 14★ flat; AnotiaWang 96★ (+1 vs 95); yibie/awesome-jev 488★; Laya likes 793 (was 783); tracker likes 64 flat, lastModified UNCHANGED; do not reopen or amend PR #23/#24/#25/#26/#27.
+
 | Pre-review typed PR gate | [ci-gatekeeper-bot-jev](https://github.com/NemanjaManic/ci-gatekeeper-bot-jev) | Own-repo live Jev: 504–629 ms; secondary ~4–5 s only on human-review + elevated risk. Conservative default escalated trivial diffs. `package.json` MIT / GitHub SPDX null |
 
 rh-guard is a reward-hack hook, a different surface from jevgate and

@@ -363,6 +363,8 @@ request, and treat a stale pin as a prior, never a setting.
 | Treat selecting an option as permission / LSP as a proof | User decides / pattern exact | Jev judges / agent reasons / user decides. selecting an option is not permission to implement. degraded fallback. pattern exact, judgement must clear floor. no matching pattern → no model call. not a correctness oracle. `notes.md` §110 |
 | Treat 0.85 as 85% / minProbability as Harbor / same-pool rescoring | Soundness theater | Spec vs artifact remainder. treating 0.85 as 85% / minProbability hard-gate as Harbor. VERIFY acquires discriminating evidence, never same-pool confidence-only rescoring. fast/full/max are ceilings not sizes. Solar writes, Jev chooses NEXT ACTION. `notes.md` §110 |
 
+Hourly 0541 uniqueness lock: calibration beyond ~500 tokens unmeasured; 11.57s vs 54.10s · 4.67× · 120/128 *theirs*; GH jev-haiku-benchmarking 404; TCP floor 198.8 ms; gateway tax not one number; ≠ RadRebelSam/awesome-jev; NLI Tetris argmax P(entail)−P(contradict); 1q 396ms / 30q 567ms; ±0.03; 33q $0.000045 vs Gemini ~5× slower ~60× cost *theirs*; catalog ≠ endorsement; Client-side quiz; pointer from held docs; scanned-PDF warn; CSP only api.typesafe.ai; $0.00022 vs chat $0.00306 *theirs*; SemIf 2178★ (+12 vs §109 2166); jevlike 1032★ (+1 vs 1031); TypeAR 14★ flat; AnotiaWang 96★ (+1 vs 95); yibie/awesome-jev 488★; Laya likes 793 (was 783); tracker likes 64 flat, lastModified UNCHANGED; do not reopen or amend PR #23/#24/#25/#26/#27.
+
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

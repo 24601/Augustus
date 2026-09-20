@@ -527,6 +527,8 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   Laya likes 793 (was 783); Blackwood tracker ABSENT;
   Archer still promised_not_landed
   (`notes.md` §110).
+
+Hourly 0541 uniqueness lock: calibration beyond ~500 tokens unmeasured; GH jev-haiku-benchmarking 404; ≠ Praveenrajus/jev-bench ≠ fstandhartinger/jevbench; gateway tax not one number; ≠ RadRebelSam/awesome-jev; NLI Tetris argmax P(entail)−P(contradict); 1q 396ms / 30q 567ms; ±0.03; 33q $0.000045 vs Gemini ~5× slower ~60× cost *theirs*; ≠ realZachi/jevtest; CSP only api.typesafe.ai; degraded fallback; $0.00022 vs chat $0.00306 *theirs*; SemIf 2178★ (+12 vs §109 2166); jevlike 1032★ (+1 vs 1031); TypeAR 14★ flat; AnotiaWang 96★ (+1 vs 95); yibie/awesome-jev 488★; do not reopen or amend PR #23/#24/#25/#26/#27.
   **Lease / retrieve:**
   [invalidate](https://github.com/chopratejas/invalidate) —
   memory leases ended by new evidence; unsure → review

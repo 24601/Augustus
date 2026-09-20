@@ -1760,6 +1760,8 @@ Archer still promised_not_landed;
 do not reopen or amend PR #23/#24/#25/#26/#27.
 Soft Noul ≠ hard safety.
 
+Hourly 0541 uniqueness lock: GH jev-haiku-benchmarking 404; jevlike 1032★ (+1 vs 1031); TypeAR 14★ flat; AnotiaWang 96★ (+1 vs 95); yibie/awesome-jev 488★.
+
 Hourly 0439 items 202–225 (`notes.md` §109). Do **not**
 re-fold 0345 items 186–201 / 0243 items 178–185 / 0145 items 161–177 / 0042 items 149–160 / 2340 items 138–148 / 2246 items 129–137 / 2145
 items 120–128 / 2041 items 111–119 / 1943 items 102–110 /

@@ -3019,6 +3019,8 @@ rename; (ly) schema-compiler HIGH upgrade; (lz) ANE /
 local-logit / Pi-loop economics.
 ## Batch #93 (2026-09-20 ~11:41 UTC / ~05:41 Boise) — hourly 0541 HIGH
 
+Hourly 0541 uniqueness lock: GH jev-haiku-benchmarking 404; ≠ RadRebelSam/awesome-jev; SemIf 2178★ (+12 vs §109 2166); jevlike 1032★ (+1 vs 1031); TypeAR 14★ flat; AnotiaWang 96★ (+1 vs 95); yibie/awesome-jev 488★; Laya likes 793 (was 783); tracker likes 64 flat, lastModified UNCHANGED.
+
 Note: `research/notes.md` §110. Docs-only on a fresh PR
 off main. **HARD RULE:** do not reopen or amend PR #23 or #24 or #25 or #26 or #27.
 Never reopen merged #7 / **#8** / **#9** /
