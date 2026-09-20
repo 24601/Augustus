@@ -1,9 +1,15 @@
 # Augustus
 
+Place typed probabilistic judgment — Jev-class System One / decision
+models — using classical mental models. Jev is the exemplar, not the monopoly.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/github/v/release/24601/Augustus)](https://github.com/24601/Augustus/releases)
+[![Release](https://img.shields.io/github/v/release/24601/Augustus)](https://github.com/24601/Augustus/releases)
+[![Pages](https://img.shields.io/badge/docs-24601.github.io-blue.svg)](https://24601.github.io/Augustus/)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-marketplace-purple.svg)](.claude-plugin/marketplace.json)
 [![Skills.sh](https://img.shields.io/badge/skills.sh-compatible-green.svg)](https://www.skills.sh/)
+
+**Homepage:** [24601.github.io/Augustus](https://24601.github.io/Augustus/)
 
 Agent skill for placing TypeSafe Jev Choice/Score/Noul with classical
 decision methods, composition algebra, and a validation gate.
@@ -18,12 +24,13 @@ mathematical, logical, and algorithmic mental models. It applies across
 Exact work stays in code or policy; the model owns narrow judgment;
 never launder a Noul as a proof.
 
-> Companion, not replacement, to the official
+> **Not a TypeSafe product.** Companion, not replacement, to the official
 > [`typesafe-ai` skill](https://github.com/typesafe-ai/skills). That skill
 > owns Jev integration contracts; Augustus owns the **design judgment**:
 > which *pillar*, *family*, and classical method map, what the objective
 > implies for fail-open vs fail-closed, and what experiment would prove a
-> design wrong. Not a TypeSafe-only how-to.
+> design wrong. Not a TypeSafe-only how-to. Integrity / reward-hack
+> companion: [`rh-guard`](https://github.com/24601/rh-guard).
 
 ## The skill
 
@@ -400,6 +407,14 @@ claude plugin install augustus@augustus
 npx skills add 24601/Augustus --skill augustus
 ```
 
+**Copy the skill path** (Cursor / Amp / any agent that reads repo-local
+skills):
+
+```bash
+git clone https://github.com/24601/Augustus.git
+# skill lives at .agents/skills/augustus/
+```
+
 **ChatGPT**: skills are not a native ChatGPT primitive — paste
 `.agents/skills/augustus/SKILL.md` plus the `references/` files into a
 GPT's instructions or a Project's knowledge and it will follow the protocol.
@@ -411,21 +426,23 @@ GPT's instructions or a Project's knowledge and it will follow the protocol.
 `jev` `typesafe` `typesafe-ai` `system-one` `system-one-models`
 `structured-output` `calibrated-confidence` `ai-agents` `agent-skills`
 `decision-systems` `reranking` `beam-search` `claude-code` `python` `llm`
-`decision-theory` `semantic-search` `agent-workflows` `mixed-architecture`
+`decision-theory` `decision-making` `semantic-search` `agent-workflows`
+`mixed-architecture` `agentic-ai` `zero-shot-classification`
 `tool-routing` `skill-routing` `semantic-lint` `classification` `gliclass`
 `listwise-ranking` `vision-scoring` `open-weights` `formal-methods`
-`model-checking` `deterministic-simulation` `decision-theory`
+`model-checking` `deterministic-simulation`
 `value-of-information` `signal-detection` `mcda` `calibration`
 `alloy` `apalache` `pufferlib` `stamp-stpa`
 
 ## Versioning
 
 See [CHANGELOG.md](CHANGELOG.md) and
-[releases](https://github.com/24601/Augustus/releases). Current: **0.3.0**,
+[releases](https://github.com/24601/Augustus/releases). Current: **0.4.0**,
 written against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skills/tree/v0.5.7)
-(`65a39f3`). Re-read live TypeSafe docs before treating that pin as current
-API behavior.
+(`65a39f3`; live HEAD still this commit). Re-read live TypeSafe docs
+before treating that pin as current API behavior.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT — see [LICENSE](LICENSE). Security reports: [SECURITY.md](SECURITY.md).
+Contributions: [CONTRIBUTING.md](CONTRIBUTING.md).
