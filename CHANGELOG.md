@@ -16,6 +16,39 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+User-provided 0915 HIGH (`research/notes.md` §115 /
+composition items 303–308 / findings batch #98). Does
+**not** bump the 0.4.0 pin. Do not reopen or amend PR
+#31/#32/#33/#35. Open #35 remap reserved at §114 /
+items 289–302 / batch #97.
+
+### Added
+
+- **NanoJev unified-games-v1 densify** —
+  TianyuCodings/NanoJev (Python MIT; **1283★** / **158**
+  forks / size **64035**; HEAD `618cea6d`; README SHA
+  `4190093c`). Quote *theirs*: A 0.6B parallel decision
+  model: states and questions in, complete probability
+  distributions out. Zero output-token decoding.
+  September 20, 2026 — One model, four games. ViZDoom
+  Basic 128/128 vs Jev 56/128; Predict Position 27/128
+  vs Jev 11/128; Maze 225 vs Jev 2,738; Snake 30 food /
+  256 steps; held-out Maze 4/10 Snake 8/8 Basic 128/128
+  Predict 27/128. Untuned Qwen3-0.6B baseline. 18,760
+  questions per variant; 16,333 ViZDoom; 896 Predict
+  Position expert episodes; hard_lr1e5; mix 1/3, 1/3,
+  1/6, 1/6. Hub C-Tianyu/NanoJev revision
+  unified-games-v1 likes 57; dataset likes 5. not
+  TypeSafe Jev; open replica / specialist gameplay S1.
+  caijinchun/nanojev-arena ≠ liao96312/jev-arena-nanojev
+  ≠ zwliJay/jev-forge ≠ NanoJev. local type boolean ≠
+  TypeSafe noul. Game success ≠ calibrated Noul. soft
+  scores ≠ hard gates. Demo HTTP 401. Quote *theirs*.
+  `invented_signal: false`.
+- Uniqueness dump for this fold lives in
+  [`research/changelog-hourly.md`](research/changelog-hourly.md).
+  User-provided 0915 uniqueness lock: TianyuCodings/NanoJev unified-games-v1 densify; A 0.6B parallel decision model: states and questions in, complete probability distributions out. Zero output-token decoding.; One model, four games; ViZDoom Basic 128/128 vs Jev 56/128; Predict Position 27/128 vs Jev 11/128; Maze 225 attempts vs Jev 2738; Snake 30 food / 256 steps; held-out Maze 4/10 Snake 8/8 Basic 128/128 Predict 27/128; Untuned Qwen3-0.6B baseline; 18,760 questions per variant; 16,333 ViZDoom; 896 Predict Position expert episodes; hard_lr1e5; mix weights 1/3, 1/3, 1/6, 1/6; Hub C-Tianyu/NanoJev revision unified-games-v1 likes 57; dataset C-Tianyu/NanoJev-Data likes 5; HEAD 618cea6d906d54e128360786d12f703fff2b1245; 1283★ / 158 forks / size 64035; README SHA 4190093c64ee75b26e9726daa3b00cbcf6d3157a; MIT; caijinchun/nanojev-arena ≠ liao96312/jev-arena-nanojev ≠ zwliJay/jev-forge ≠ NanoJev; not TypeSafe Jev; open replica / specialist gameplay S1; soft scores ≠ hard gates; Game success ≠ calibrated Noul; local type boolean ≠ TypeSafe noul; invented_signal false; do not reopen or amend PR #31/#32/#33/#35; notes.md §115
+
 Hourly 0743 HIGH (`research/notes.md` §113 / composition
 items 273–288 / findings batch #96). Does **not** bump
 the 0.4.0 pin. Do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33.

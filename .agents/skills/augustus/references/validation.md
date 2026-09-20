@@ -1041,6 +1041,18 @@ fine-tune's advantage ends where its 384-token training data does.
 jasonkneen/open-jev ≠ pngwn/open-jev. same sha d41dc3cd. `notes.md` §111.
 
 
+
+**NanoJev unified-games-v1 gameplay table (Empirical as README *theirs*, not Harbor).**
+[`TianyuCodings/NanoJev`](https://github.com/TianyuCodings/NanoJev)
+ViZDoom Basic 128/128 vs Jev 56/128. Predict Position 27/128 vs Jev 11/128.
+Maze 225 attempts vs Jev 2738. Snake 30 food / 256 steps.
+held-out Maze 4/10 Snake 8/8 Basic 128/128 Predict 27/128.
+Untuned Qwen3-0.6B baseline. Game success ≠ calibrated Noul.
+local type boolean ≠ TypeSafe noul. A normalized distribution alone does not establish empirical probability calibration.
+**1283★**; HEAD `618cea6d`; README SHA `4190093c`. Hub likes 57. `notes.md` §115.
+
+User-provided 0915 uniqueness lock: TianyuCodings/NanoJev unified-games-v1 densify; A 0.6B parallel decision model: states and questions in, complete probability distributions out. Zero output-token decoding.; One model, four games; ViZDoom Basic 128/128 vs Jev 56/128; Predict Position 27/128 vs Jev 11/128; Maze 225 attempts vs Jev 2738; Snake 30 food / 256 steps; held-out Maze 4/10 Snake 8/8 Basic 128/128 Predict 27/128; Untuned Qwen3-0.6B baseline; 18,760 questions per variant; 16,333 ViZDoom; 896 Predict Position expert episodes; hard_lr1e5; mix weights 1/3, 1/3, 1/6, 1/6; Hub C-Tianyu/NanoJev revision unified-games-v1 likes 57; dataset C-Tianyu/NanoJev-Data likes 5; HEAD 618cea6d906d54e128360786d12f703fff2b1245; 1283★ / 158 forks / size 64035; README SHA 4190093c64ee75b26e9726daa3b00cbcf6d3157a; MIT; caijinchun/nanojev-arena ≠ liao96312/jev-arena-nanojev ≠ zwliJay/jev-forge ≠ NanoJev; not TypeSafe Jev; open replica / specialist gameplay S1; soft scores ≠ hard gates; Game success ≠ calibrated Noul; local type boolean ≠ TypeSafe noul; invented_signal false; do not reopen or amend PR #31/#32/#33/#35; notes.md §115
+
 **Harbor-jevals routing-across-a-conversation (Empirical as 100 turns × 5 repeats *theirs*, PRIMARY this hour, not Harbor).**
 [`ywchiu/jev_benchmark`](https://github.com/ywchiu/jev_benchmark)
 ywchiu/jev_benchmark ≠ Running-Dolphins/jev-bench ≠ Praveenrajus/jev-bench.
