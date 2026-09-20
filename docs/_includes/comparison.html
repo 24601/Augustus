@@ -1,0 +1,88 @@
+<section class="section compare" aria-labelledby="compare-title">
+  <div class="section-head">
+    <p class="kicker">Jev-class</p>
+    <h2 id="compare-title">With vs without Augustus</h2>
+    <p>
+      Call the model and act on the score, or place the judgment. Jev is the
+      exemplar. kev, Laya, and OpenJev sit in the same class. Not TypeSafe-only.
+    </p>
+    <ul class="class-chips" aria-label="Models in this class">
+      <li>Jev</li>
+      <li>kev</li>
+      <li>Laya</li>
+      <li>OpenJev</li>
+    </ul>
+  </div>
+  <div class="compare-grid">
+    <article class="compare-col compare-without panel">
+      <header class="compare-head">
+        <p class="kicker">Without</p>
+        <h3>Call, then act</h3>
+      </header>
+      <ol class="flow flow-broken">
+        <li class="compare-step" style="--d: 80ms">
+          <span class="flow-n" aria-hidden="true">1</span>
+          <span class="flow-body">Call the model</span>
+        </li>
+        <li class="compare-step" style="--d: 140ms">
+          <span class="flow-n" aria-hidden="true">2</span>
+          <span class="flow-body">Act on the score</span>
+        </li>
+      </ol>
+      <div class="fail-well compare-step" style="--d: 200ms">
+        <p class="fail-label">Quiet failure modes</p>
+        <ul>
+          <li>Soft Noul treated as hard gate</li>
+          <li>GPT bakeoff framing</li>
+          <li>No falsifier</li>
+          <li>Polarity unchosen</li>
+        </ul>
+      </div>
+    </article>
+    <span class="compare-vs" aria-hidden="true">vs</span>
+    <article class="compare-col compare-with panel">
+      <header class="compare-head">
+        <p class="kicker">With Augustus</p>
+        <h3>Place, then judge</h3>
+      </header>
+      <ol class="flow flow-solid">
+        <li class="compare-step" style="--d: 80ms">
+          <span class="flow-n" aria-hidden="true">1</span>
+          <span class="flow-body">State</span>
+        </li>
+        <li class="compare-step" style="--d: 120ms">
+          <span class="flow-n" aria-hidden="true">2</span>
+          <span class="flow-body">Pillar / family map</span>
+        </li>
+        <li class="compare-step" style="--d: 160ms">
+          <span class="flow-n" aria-hidden="true">3</span>
+          <span class="flow-body">Question design</span>
+        </li>
+        <li class="compare-step" style="--d: 200ms">
+          <span class="flow-n" aria-hidden="true">4</span>
+          <span class="flow-body">Fail-open vs fail-closed</span>
+        </li>
+        <li class="compare-step" style="--d: 240ms">
+          <span class="flow-n" aria-hidden="true">5</span>
+          <span class="flow-body">Typed judgment
+            <span class="token">Choice</span>
+            <span class="token">Score</span>
+            <span class="token">Noul</span>
+          </span>
+        </li>
+        <li class="compare-step" style="--d: 280ms">
+          <span class="flow-n" aria-hidden="true">6</span>
+          <span class="flow-body">Code owns effects</span>
+        </li>
+        <li class="compare-step" style="--d: 320ms">
+          <span class="flow-n" aria-hidden="true">7</span>
+          <span class="flow-body">Named falsifying experiment</span>
+        </li>
+      </ol>
+    </article>
+  </div>
+  <p class="compare-caption">
+    Shared class: Jev, kev, Laya, OpenJev. Augustus owns placement. The model
+    owns narrow judgment. Code owns the effect.
+  </p>
+</section>

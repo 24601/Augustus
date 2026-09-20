@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 888 640" role="img" aria-labelledby="title desc">
+  <title id="title">Jev-class models with vs without Augustus</title>
+  <desc id="desc">
+    Without Augustus: call the model, act on the score, then quiet failure modes
+    (soft Noul treated as hard gate, GPT bakeoff framing, no falsifier, polarity unchosen).
+    With Augustus: state, pillar and family map, question design, fail-open vs fail-closed,
+    typed judgment (Choice, Score, Noul), code owns effects, named falsifying experiment.
+    Jev is the exemplar. kev, Laya, and OpenJev sit in the same class.
+  </desc>
+  <defs>
+    <linearGradient id="meshL" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366f1" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="meshR" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6d28d9" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#64748b" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="spine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="withFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef0ff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.7"/>
+    </linearGradient>
+    <style>
+      .bg { fill: #f4f4f6; }
+      .panel { fill: #ffffff; fill-opacity: 0.74; stroke: #0a0a0b; stroke-opacity: 0.1; stroke-width: 1; }
+      .panel-with { fill: url(#withFill); fill-opacity: 1; stroke: #4f46e5; stroke-opacity: 0.22; }
+      .kicker { fill: #5c5d66; font: 500 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 1.8px; }
+      .h { fill: #0a0a0b; font: 600 24px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .sub { fill: #5c5d66; font: 400 13.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .colh { fill: #0a0a0b; font: 600 17px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .step { fill: #0a0a0b; font: 500 14.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .fail { fill: #7c4a12; font: 500 13.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .fail-h { fill: #7c4a12; font: 600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 1.3px; }
+      .n { fill: #fafafa; font: 600 10px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .n-muted { fill: #5c5d66; }
+      .dot-w { fill: url(#spine); }
+      .dot-o { fill: #ffffff; stroke: #8a8b94; stroke-width: 1.5; stroke-dasharray: 2.6 2.2; }
+      .line-w { stroke: url(#spine); stroke-width: 2.2; }
+      .line-o { stroke: #b0b1b8; stroke-width: 1.5; stroke-dasharray: 3.6 3.6; }
+      .chip { fill: #ffffff; fill-opacity: 0.95; stroke: #0a0a0b; stroke-opacity: 0.1; }
+      .chip-t { fill: #0a0a0b; font: 500 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .well { fill: #f8efe4; stroke: #e8d3b0; stroke-width: 1; }
+      .falsify { fill: #eef0ff; stroke: #c7c9f2; stroke-width: 1; }
+      .foot { fill: #8a8b94; font: 400 12.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .vs-bg { fill: #ffffff; stroke: #0a0a0b; stroke-opacity: 0.14; }
+      .vs { fill: #5c5d66; font: 600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0.8px; }
+      @media (prefers-color-scheme: dark) {
+        .bg { fill: #0c0c0e; }
+        .panel { fill: #18181b; fill-opacity: 0.78; stroke: #ffffff; stroke-opacity: 0.12; }
+        .panel-with { fill: #1b1b24; stroke: #818cf8; stroke-opacity: 0.35; }
+        .kicker { fill: #a1a1aa; }
+        .h, .colh, .step { fill: #f4f4f5; }
+        .sub { fill: #a1a1aa; }
+        .fail { fill: #f3d5a3; }
+        .fail-h { fill: #f3d5a3; }
+        .n-muted { fill: #a1a1aa; }
+        .dot-o { fill: #18181b; stroke: #71717a; }
+        .line-o { stroke: #52525b; }
+        .chip { fill: #27272a; fill-opacity: 0.95; stroke: #ffffff; stroke-opacity: 0.12; }
+        .chip-t { fill: #f4f4f5; }
+        .well { fill: #2a2116; stroke: #6b5340; }
+        .falsify { fill: #1f2033; stroke: #4f46e5; }
+        .foot { fill: #71717a; }
+        .vs-bg { fill: #18181b; stroke: #ffffff; stroke-opacity: 0.16; }
+        .vs { fill: #a1a1aa; }
+      }
+    </style>
+  </defs>
+
+  <rect class="bg" width="888" height="640" rx="18"/>
+  <ellipse cx="96" cy="18" rx="280" ry="150" fill="url(#meshL)"/>
+  <ellipse cx="810" cy="36" rx="240" ry="140" fill="url(#meshR)"/>
+
+  <text class="kicker" x="32" y="34">JEV-CLASS</text>
+  <text class="h" x="32" y="64">With vs without Augustus</text>
+  <text class="sub" x="32" y="86">Jev is the exemplar. kev, Laya, and OpenJev sit in the same class. Not TypeSafe-only.</text>
+
+  <rect class="chip" x="32" y="98" width="46" height="22" rx="11"/>
+  <text class="chip-t" x="55" y="113" text-anchor="middle">Jev</text>
+  <rect class="chip" x="84" y="98" width="46" height="22" rx="11"/>
+  <text class="chip-t" x="107" y="113" text-anchor="middle">kev</text>
+  <rect class="chip" x="136" y="98" width="54" height="22" rx="11"/>
+  <text class="chip-t" x="163" y="113" text-anchor="middle">Laya</text>
+  <rect class="chip" x="196" y="98" width="74" height="22" rx="11"/>
+  <text class="chip-t" x="233" y="113" text-anchor="middle">OpenJev</text>
+
+  <rect class="panel" x="20" y="136" width="408" height="466" rx="14"/>
+  <rect class="panel panel-with" x="460" y="136" width="408" height="466" rx="14"/>
+
+  <text class="kicker" x="42" y="164">WITHOUT</text>
+  <text class="colh" x="42" y="190">Call, then act</text>
+
+  <line class="line-o" x1="58" y1="218" x2="58" y2="292"/>
+  <circle class="dot-o" cx="58" cy="218" r="10"/>
+  <text class="n n-muted" x="58" y="222" text-anchor="middle">1</text>
+  <text class="step" x="80" y="223">Call the model</text>
+
+  <circle class="dot-o" cx="58" cy="292" r="10"/>
+  <text class="n n-muted" x="58" y="296" text-anchor="middle">2</text>
+  <text class="step" x="80" y="297">Act on the score</text>
+
+  <line class="line-o" x1="58" y1="302" x2="58" y2="336"/>
+
+  <rect class="well" x="38" y="336" width="372" height="244" rx="12"/>
+  <text class="fail-h" x="56" y="364">QUIET FAILURE MODES</text>
+  <circle cx="62" cy="396" r="3.4" fill="#b45309"/>
+  <text class="fail" x="76" y="401">Soft Noul treated as hard gate</text>
+  <circle cx="62" cy="436" r="3.4" fill="#b45309"/>
+  <text class="fail" x="76" y="441">GPT bakeoff framing</text>
+  <circle cx="62" cy="476" r="3.4" fill="#b45309"/>
+  <text class="fail" x="76" y="481">No falsifier</text>
+  <circle cx="62" cy="516" r="3.4" fill="#b45309"/>
+  <text class="fail" x="76" y="521">Polarity unchosen</text>
+
+  <text class="kicker" x="482" y="164">WITH AUGUSTUS</text>
+  <text class="colh" x="482" y="190">Place, then judge</text>
+
+  <line class="line-w" x1="498" y1="216" x2="498" y2="548"/>
+
+  <circle class="dot-w" cx="498" cy="216" r="10"/>
+  <text class="n" x="498" y="220" text-anchor="middle">1</text>
+  <text class="step" x="520" y="221">State</text>
+
+  <circle class="dot-w" cx="498" cy="268" r="10"/>
+  <text class="n" x="498" y="272" text-anchor="middle">2</text>
+  <text class="step" x="520" y="273">Pillar / family map</text>
+
+  <circle class="dot-w" cx="498" cy="320" r="10"/>
+  <text class="n" x="498" y="324" text-anchor="middle">3</text>
+  <text class="step" x="520" y="325">Question design</text>
+
+  <circle class="dot-w" cx="498" cy="372" r="10"/>
+  <text class="n" x="498" y="376" text-anchor="middle">4</text>
+  <text class="step" x="520" y="377">Fail-open vs fail-closed</text>
+
+  <circle class="dot-w" cx="498" cy="424" r="10"/>
+  <text class="n" x="498" y="428" text-anchor="middle">5</text>
+  <text class="step" x="520" y="429">Typed judgment</text>
+  <rect class="chip" x="520" y="438" width="62" height="22" rx="5"/>
+  <text class="chip-t" x="551" y="453" text-anchor="middle">Choice</text>
+  <rect class="chip" x="588" y="438" width="54" height="22" rx="5"/>
+  <text class="chip-t" x="615" y="453" text-anchor="middle">Score</text>
+  <rect class="chip" x="648" y="438" width="52" height="22" rx="5"/>
+  <text class="chip-t" x="674" y="453" text-anchor="middle">Noul</text>
+
+  <circle class="dot-w" cx="498" cy="492" r="10"/>
+  <text class="n" x="498" y="496" text-anchor="middle">6</text>
+  <text class="step" x="520" y="497">Code owns effects</text>
+
+  <rect class="falsify" x="478" y="520" width="372" height="60" rx="10"/>
+  <circle class="dot-w" cx="498" cy="550" r="10"/>
+  <text class="n" x="498" y="554" text-anchor="middle">7</text>
+  <text class="step" x="520" y="555">Named falsifying experiment</text>
+
+  <circle class="vs-bg" cx="444" cy="368" r="18"/>
+  <text class="vs" x="444" y="372" text-anchor="middle">VS</text>
+
+  <text class="foot" x="32" y="624">Shared class: Jev, kev, Laya, OpenJev. Augustus owns placement. Code owns the effect.</text>
+</svg>

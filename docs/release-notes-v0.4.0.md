@@ -1,3 +1,10 @@
+---
+layout: default
+title: Release notes v0.4.0
+---
+
+# Release notes v0.4.0
+
 Design judgment across domains. Augustus places typed probabilistic
 judgment (Jev is the exemplar, not the monopoly) using math, logic, and
 algorithmic mental models. The job is not limited to software

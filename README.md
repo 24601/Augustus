@@ -32,6 +32,10 @@ never launder a Noul as a proof.
 > design wrong. Not a TypeSafe-only how-to. Integrity / reward-hack
 > companion: [`rh-guard`](https://github.com/24601/rh-guard).
 
+![Jev-class models with vs without Augustus. Without: call the model, act on the score, then quiet failure modes (soft Noul treated as hard gate, GPT bakeoff framing, no falsifier, polarity unchosen). With Augustus: state, pillar and family map, question design, fail-open vs fail-closed, typed Choice Score Noul, code owns effects, named falsifying experiment.](docs/assets/with-without-augustus.svg)
+
+Jev-class: Jev, kev, Laya, OpenJev. Call and act, or place the judgment.
+
 ## The skill
 
 One line per file. The living catalog is in the reference cards and
