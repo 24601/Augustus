@@ -2196,18 +2196,20 @@
   **206**; harneet2512/reflexrl **749**;
   GaneshVG18/upgrade-radar **908**; gulagala001/jevify
   **145**; mourad-ghafiri/laya-rlcd-benchmark **164**;
-  lirantal/discoprint **239** (all were **0** with
-  contents). Size **0** with contents remains on Arohtea
-  only (one of twelve). yibie/laya-jev-lab **49**; umstek
+  lirantal/discoprint **239**; Arohtea **44** (all were **0**
+  with contents). No remaining size-0 HIGH.
+  yibie/laya-jev-lab **49**; umstek
   **50**; snake-arena **194**; jevcheck **117**.
-- Named pulse vs `0558f7d`: SemIf **2062★** (was **2059★**;
-  +15 vs §104 **2047**). jevlike **1022★** **flat**.
+- Named pulse vs `0558f7d`: SemIf **2064★** (was **2059★**;
+  +17 vs §104 **2047**). jevlike **1022★** **flat**.
   TypeAR **12★** **flat**. AnotiaWang **92★** **flat**.
-  yibie/awesome-jev **443★** **flat**. Laya Hub likes
-  **700** (was **690** at `0558f7d`). Qwen3.8-27B likes
-  **15795** (was **15794**) ≠ Archer. Tracker likes **58**
-  (+2 vs §104 **56**) / lastModified
-  `2026-09-20T04:29:16.000Z` **UNCHANGED**. Blackwood likes
+  yibie/awesome-jev **445★** (was **443★** at `0558f7d`).
+  Laya Hub likes **704** (was **690** at `0558f7d`).
+  Qwen3.8-27B likes **15795** (was **15794**) ≠ Archer.
+  Tracker likes **58** (+2 vs §104 **56**) / lastModified
+  `2026-09-20T04:29:16.000Z` **UNCHANGED**. Arohtea GitHub
+  size **44** (was **0** with contents; HEAD/README
+  unchanged). No remaining size-0 HIGH. Blackwood likes
   **2** gated manual — census **absent**. Archer Hub HTTP
   **401**. Design claims unchanged. Unique consecutive
   fragments unchanged. Skip Archer rewrite.

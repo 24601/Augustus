@@ -3040,7 +3040,8 @@ exemplar this hour. Quote live REST over watch.
 - **Structured probability readouts (PRIMARY).**
   Arohtea/jev-readout (JavaScript; license null; README
   MIT; **0★**; HEAD `6f1e5900`; README SHA `67ee1e96`;
-  GitHub size 0 with contents). structured probability
+  GitHub size **44** (relock; was **0** with contents)).
+  structured probability
   readouts. distribution > argmax. Noul 0.5 midpoint.
   score is expectation not integer. bare HTTP not SDK.
   Arohtea/jev-readout.
@@ -3116,12 +3117,12 @@ exemplar this hour. Quote live REST over watch.
 Pulse (independent review relock after `0558f7d`): Archer still NOT landed. Hub
 archerhume/4rcherhume HTTP **401**. Tracker likes **58**
 (+2 vs §104 **56**); lastModified
-`2026-09-20T04:29:16Z` **UNCHANGED** vs §104. Laya Hub likes **700**.
+`2026-09-20T04:29:16Z` **UNCHANGED** vs §104. Laya Hub likes **704**.
 Blackwood Hub likes **2** gated manual — user census
-absent from tracker. Live REST: SemIf **2062★**; jevlike
+absent from tracker. Live REST: SemIf **2064★**; jevlike
 **1022★**; TypeAR **12★** flat. AnotiaWang/awesome-jev
 **92★** ≠ Awesomejev 561/27007 ≠ yibie/awesome-jev
-**443★**. Qwen3.8-27B ≠ Archer
+**445★**. Qwen3.8-27B ≠ Archer
 (likes **15795**). `invented_signal: false`.
 
 Cross-repo addition: (nb) structured probability

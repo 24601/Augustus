@@ -3106,7 +3106,7 @@ structured probability readouts; distribution > argmax; Noul 0.5 midpoint; score
 
 ## Is jev-readout an SDK tutorial? Treat displayed p as proof? Round Score to an integer?
 
-No, no, and no. structured probability readouts. distribution > argmax. Noul 0.5 midpoint. score is expectation not integer. bare HTTP not SDK. CORS so the key stays server-side. JavaScript; license **null** (README MIT); **0★**; HEAD `6f1e5900`; README SHA `67ee1e96`; GitHub size **0** with contents. Arohtea/jev-readout. Soft Noul ≠ hard safety. `notes.md` §105.
+No, no, and no. structured probability readouts. distribution > argmax. Noul 0.5 midpoint. score is expectation not integer. bare HTTP not SDK. CORS so the key stays server-side. JavaScript; license **null** (README MIT); **0★**; HEAD `6f1e5900`; README SHA `67ee1e96`; GitHub size **44** (relock; was **0** with contents). Arohtea/jev-readout. Soft Noul ≠ hard safety. `notes.md` §105.
 
 ## Is gulagala001/jevify Mintzs/jevify? Is schema-valid JSON a calibrated Noul? Are questions independent parallel?
 
@@ -3154,4 +3154,4 @@ No and no. discography theme/mood/complexity. five atomic questions one call. Co
 
 ## Did Archer land this hour? Treat Qwen3.8-27B as Archer? Invent tweets?
 
-No, no, and no. Hub `archerhume/4rcherhume` HTTP **401**. Tracker likes **58** (+2 vs §104 **56**); lastModified `2026-09-20T04:29:16Z` **UNCHANGED** vs §104. Laya Hub HTTP **200** likes **700**. Blackwood Hub HTTP **200** likes **2** gated manual — user census **absent** from the tracker; do not rewrite as landed. Live REST pulse (independent review relock after `0558f7d`): SemIf **2062★** (+15 vs §104 **2047**); jevlike **1022★** (+4 vs §104 **1018**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **92★** (+1 vs §104 **91**) ≠ Awesomejev 561/27007 ≠ yibie/awesome-jev **443★**. Qwen3.8-27B ≠ Archer (likes **15795**). `invented_signal: false`. `notes.md` §105.
+No, no, and no. Hub `archerhume/4rcherhume` HTTP **401**. Tracker likes **58** (+2 vs §104 **56**); lastModified `2026-09-20T04:29:16Z` **UNCHANGED** vs §104. Laya Hub HTTP **200** likes **704**. Blackwood Hub HTTP **200** likes **2** gated manual — user census **absent** from the tracker; do not rewrite as landed. Live REST pulse (independent review relock after `0558f7d`): SemIf **2064★** (+17 vs §104 **2047**); jevlike **1022★** (+4 vs §104 **1018**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **92★** (+1 vs §104 **91**) ≠ Awesomejev 561/27007 ≠ yibie/awesome-jev **445★**. Qwen3.8-27B ≠ Archer (likes **15795**). `invented_signal: false`. `notes.md` §105.

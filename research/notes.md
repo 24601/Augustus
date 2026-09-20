@@ -22848,7 +22848,7 @@ lirantal/discoprint.
      created 2026-09-20T06:44:37Z; pushed
      2026-09-20T07:01:17Z; updated
      2026-09-20T07:01:20Z; HEAD `6f1e5900`;
-     README SHA `67ee1e96`; GitHub `size` **0** with
+     README SHA `67ee1e96`; GitHub `size` **44** (relock; was **0** with
      contents). GitHub description *theirs*:
      "把一段内容交给 TypeSafe AI 的 Jev 模型，得到带概率分布的结构化判断".
      README *theirs*: structured probability
@@ -23421,13 +23421,13 @@ Archer; invent tweets.
 
 Census **not provided this hour** (not
 re-derived). Live REST pulse (independent review
-relock after `0558f7d`): SemIf **2062★** (+15 vs §104 **2047**); jevlike
+relock after `0558f7d`): SemIf **2064★** (+17 vs §104 **2047**); jevlike
 ([vinnylarouge/jevlike](https://github.com/vinnylarouge/jevlike))
 **1022★** (+4 vs §104 **1018**); TypeAR-AI/TypeAR
 **12★** **flat**; AnotiaWang/awesome-jev **92★**
 (+1 vs §104 **91**) still a **different object**
 from user-provided Awesomejev 561/27007 (§99 pin).
-yibie/awesome-jev **443★** ≠ Awesomejev.
+yibie/awesome-jev **445★** ≠ Awesomejev.
 Archer still **NOT landed**. Hub
 `archerhume/4rcherhume` HTTP **401**. Tracker
 [multimodalart/jev-reproductions-tracker](https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker)
@@ -23435,7 +23435,7 @@ likes **58** (+2 vs §104 **56**; +3 vs the
 incoming watch); lastModified
 `2026-09-20T04:29:16Z` **UNCHANGED** vs §104 /
 2340. Laya Hub
-`convaiinnovations/laya` HTTP **200** likes **700**.
+`convaiinnovations/laya` HTTP **200** likes **704**.
 Blackwood Hub `BlackwoodAI/blackwood-rlcd` HTTP
 **200** likes **2** gated **manual** — user census
 **Blackwood absent** from the tracker; do not
