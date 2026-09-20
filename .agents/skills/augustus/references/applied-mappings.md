@@ -2013,5 +2013,32 @@ timeout = censoring; do not launder Noul as proof.
 Do not copy keys / `npm` / `uv` / `.env`. Soft Noul ≠ hard
 safety.
 
+**Hourly 2340 HIGH (`notes.md` §104).** From-scratch cousin:
+[hyusi2003/MiniSystemOne](https://github.com/hyusi2003/MiniSystemOne)
+train calibrated ~27M from scratch; typed Q→prob dist / one forward pass / no LLM decode;
+hyusi2003/MiniSystemOne ≠ Colvin0315/MiniSystemOne; description-only stub / size 5.
+ORDER BY upgrade: [yodablocks/jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench)
+ESCI hard probe fails four of six; jev_bool ECE 0.242 inversion 0.255;
+do not re-fold §60 six-gates as new.
+Workflow cousin: [karanb192/jev-architect](https://github.com/karanb192/jev-architect)
+find/design/evaluate TypeSafe Jev decision loops; ≠ samtay32/jev-system-architect.
+Anti-pattern: [Jairik/jev-distiller](https://github.com/Jairik/jev-distiller)
+Jairik/jev-distiller size 1; distill-Jev UI stub / do not distill Jev as teacher of record.
+Opportunity map: [licensedsaucer9-web/jev-opportunities](https://github.com/licensedsaucer9-web/jev-opportunities)
+post-launch scored use-case map / Jev self-scores then human curation.
+Scaffold cousin: [gavinHuang/jevinize](https://github.com/gavinHuang/jevinize)
+Jev-inize a use case into classifier/router; gavinHuang/jevinize → simple-jev not TypeSafe.
+Regression cousin: [VihaanAgarwal/jev-diff](https://github.com/VihaanAgarwal/jev-diff)
+compare saved decisions / same label can still change the branch; not tested with a live Jev API key.
+Constrained-AR anti-pattern: [zhangcy122/OpenJevPro](https://github.com/zhangcy122/OpenJevPro)
+constrained logprob + temp/Platt ≠ Noul; OpenJevPro pastes openjev-sglang JevBench as own.
+NAR cousin: [patelvishwa112/jev-system-one-rlcd](https://github.com/patelvishwa112/jev-system-one-rlcd)
+SmolLM-135M / sub-70ms / 0 output tokens; demo P(True) 0.5052 / Choice conf 0.2872 / Score conf 0.0055.
+Radar: [logicrw/awesome-jev-projects](https://github.com/logicrw/awesome-jev-projects)
+source-backed Awesome Jev radar / 306+ commit-pinned; auto GitHub sync / Issue-only submissions.
+Rival-aware scorer: [olanotolu/jevbetter](https://github.com/olanotolu/jevbetter)
+hashed n-gram encoder / rival-aware attention; olanotolu/jevbetter vs jevlike starter.
+Do not copy keys / `npx` / `pip` / `.env`. Soft Noul ≠ hard safety.
+
 
 

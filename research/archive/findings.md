@@ -3017,6 +3017,85 @@ Cross-repo addition: (lt) judgment-as-language primitive;
 memories; (lw) memory-lease HIGH upgrade; (lx) jevlint
 rename; (ly) schema-compiler HIGH upgrade; (lz) ANE /
 local-logit / Pi-loop economics.
+## Batch #87 (2026-09-20 ~05:40 UTC / ~23:40 Boise) — hourly 2340 HIGH
+
+Note: `research/notes.md` §104. Docs-only on a fresh PR
+off main. Never reopen merged #7 / **#8** / **#9** /
+**#10** / **#12** / **#13** / **#14** / **#15** /
+**#16** / **#17** / **#18** / **#19** / **#20** /
+**#21**. Do **not** re-fold §93 mechanism / §94 / §95 /
+§96 / §97 / §98 / §99 / §100 / §101 / §102 / §103 /
+jev-orderby-bench six-gates / §60. Skip Archer rewrite.
+Do **not** re-fold 2246 / 2145 / 2041 / 1943 / 1843 /
+1740 / gliner-native-runtime / 1639 / 1541. No invented
+metrics. Hunches labeled. Quote READMEs. Soft Noul ≠
+hard safety. Augustus owns placement. From-scratch tiny
+decision training is the *class* exemplar this hour.
+Quote live REST over watch.
+`invented_signal: false`.
+
+- **From-scratch calibrated decision model (PRIMARY).**
+  hyusi2003/MiniSystemOne (Apache-2.0; **0★**;
+  HEAD `4385335b`; README SHA `83016bf8`; GitHub size 5).
+  train calibrated ~27M from scratch. typed Q→prob dist / one forward pass / no LLM decode.
+  hyusi2003/MiniSystemOne ≠ Colvin0315/MiniSystemOne.
+  description-only stub / size 5.
+- **ORDER BY ranking upgrade.** yodablocks/jev-orderby-bench
+  (Python MIT; **0★**; HEAD `52397954`; README SHA
+  `7bd075c3`; size **309**). ESCI hard probe fails four of six.
+  jev_bool ECE 0.242 inversion 0.255. do not re-fold §60 six-gates as new.
+- **Find/design/evaluate decision loops.** karanb192/jev-architect
+  (HTML MIT; **0★**; HEAD `35ea6d93`; README SHA `68c2b5f9`).
+  find/design/evaluate TypeSafe Jev decision loops.
+  karanb192/jev-architect ≠ samtay32/jev-system-architect.
+- **Distill-Jev UI stub.** Jairik/jev-distiller (MIT; **0★**;
+  HEAD `0589d44c`; README SHA `aa408c5e`). Jairik/jev-distiller size 1.
+  distill-Jev UI stub / do not distill Jev as teacher of record.
+- **Post-launch scored opportunity map.** licensedsaucer9-web/jev-opportunities
+  (license null; **0★**; HEAD `a47fa414`; README SHA `aa33f901`).
+  post-launch scored use-case map / Jev self-scores then human curation.
+- **Jev-inize a use case.** gavinHuang/jevinize (MIT; **0★**;
+  HEAD `6d080632`; README SHA `5f48e622`).
+  Jev-inize a use case into classifier/router.
+  gavinHuang/jevinize → simple-jev not TypeSafe.
+- **Saved-decision regression.** VihaanAgarwal/jev-diff
+  (Python MIT; **0★**; HEAD `a3c98807`; README SHA `3b0ce75c`).
+  compare saved decisions / same label can still change the branch.
+  not tested with a live Jev API key.
+- **Constrained-logprob API.** zhangcy122/OpenJevPro
+  (HTML; SPDX NOASSERTION; **0★**; HEAD `94d77bcb`; README SHA `50c77ace`).
+  constrained logprob + temp/Platt ≠ Noul.
+  OpenJevPro pastes openjev-sglang JevBench as own. PolyForm Noncommercial.
+- **SmolLM RLCD reproduction.** patelvishwa112/jev-system-one-rlcd
+  (Python; license null; **0★**; HEAD `62b103b3`; README SHA `55994d69`).
+  SmolLM-135M / sub-70ms / 0 output tokens.
+  demo P(True) 0.5052 / Choice conf 0.2872 / Score conf 0.0055.
+- **Source-backed Awesome radar.** logicrw/awesome-jev-projects
+  (JavaScript MIT; **136★**; HEAD `97057cc1`; README SHA `25a19b31`).
+  source-backed Awesome Jev radar / 306+ commit-pinned.
+  auto GitHub sync / Issue-only submissions.
+- **Rival-aware one-pass scorer.** olanotolu/jevbetter
+  (Python MIT; **12★**; HEAD `bb0ebc82`; README SHA `5cbe01d4`).
+  hashed n-gram encoder / rival-aware attention.
+  olanotolu/jevbetter vs jevlike starter.
+  shuffled-context control 0.335.
+
+Pulse: Archer still NOT landed. Hub
+archerhume/4rcherhume HTTP **401**. Tracker
+multimodalart/jev-reproductions-tracker likes **56**;
+lastModified `2026-09-20T04:29:16Z`. Live REST: SemIf
+**2047★**; jevlike **1018★**; TypeAR **12★** **flat**.
+AnotiaWang/awesome-jev **91★** ≠ Awesomejev 561/27007 ≠
+logicrw **136★**. Qwen3.8-27B ≠ Archer.
+`invented_signal: false`.
+
+Cross-repo addition: (nb) from-scratch decision head;
+(nc) ORDER BY ESCI upgrade; (nd) decision-loop skill;
+(ne) distill-Jev UI stub; (nf) scored opportunity map;
+(ng) Jev-inize scaffold; (nh) saved-decision regression;
+(ni) constrained-logprob API; (nj) SmolLM RLCD;
+(nk) source-backed Awesome radar; (nl) rival-aware scorer.
+
 ## Batch #86 (2026-09-20 ~04:46 UTC / ~22:46 Boise) — hourly 2246 HIGH
 
 Note: `research/notes.md` §103. Docs-only on a fresh PR

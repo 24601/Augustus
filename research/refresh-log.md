@@ -2064,6 +2064,122 @@
   jev-recall despite attached JSON (quote README demos);
   JevPi GitHub size 0 with contents (same honesty as gut);
   0★ HIGH still got a real card.
+## 2026-09-20T06:42Z — hourly 2340 independent adversarial relock after `babb111` (PR #22)
+
+- Independent review of `babb111` (prior PASS claimed live REST).
+  HIGH HEAD/README pins still unchanged. Named pulse drifted:
+  SemIf **2047★** (was **2041★**; +28 vs §103 **2019**).
+  jevlike **1018★** (was **1011★**; +12 vs §103 **1006**).
+  TypeAR **12★** **flat**. AnotiaWang **91★** (was **88★**).
+  yibie **430★** (was **423★**). cobanov **224★** (was **221★**).
+  simple-jev **318★** (was **314★**). logicrw **136★** (size **7677**, was **7136**; HEAD/README unchanged) /
+  openjev-sglang **205★** / OpenJevPro size **64** unchanged.
+  Tracker `multimodalart/jev-reproductions-tracker` likes **56** /
+  lastModified `2026-09-20T04:29:16.000Z` unchanged.
+  Hub `archerhume/4rcherhume` HTTP **401**. `Tonic/4rcher-tracker`
+  HTTP **401** (not the reproductions tracker). Qwen likes **15787**.
+  Qwen3.8-27B ≠ Archer.
+- README quotes re-checked *theirs* at locked HEAD/README SHAs.
+  `invented_signal: false`. Do **not** merge from this
+  review — parent merges after CLEAN.
+
+## 2026-09-20T06:17Z — hourly 2340 independent adversarial relock (PR #22)
+
+- Independent review of first-review `3255a57` (claimed live REST
+  relock after FAIL). HIGH HEAD/README pins still unchanged.
+  Pulse stars and OpenJevPro GitHub size had drifted: logicrw
+  **135★** (was **134★**; HEAD `97057cc1` / README SHA `25a19b31`
+  unchanged — auto GitHub sync). SemIf **2041★** (was **2031★**;
+  +22 vs §103 **2019**). jevlike **1011★** (was **1010★**). TypeAR **12★**
+  **flat**. AnotiaWang **88★** (was **87★**). yibie **423★** (was
+  **417★**). cobanov **221★** **flat**. OpenJevPro size **64** (was
+  **62**; HEAD `94d77bcb` / README SHA `50c77ace` unchanged).
+  simple-jev **314★** (was **311★**). openjev-sglang **204★** (was
+  **202★**). Tracker likes **56** / lastModified
+  `2026-09-20T04:29:16.000Z` unchanged. Archer Hub still HTTP **401**.
+  Qwen likes **15787** unchanged. Qwen3.8-27B ≠ Archer.
+- README quotes re-checked *theirs* at locked HEAD/README SHAs
+  (ESCI 0.242/0.255; jevbetter 0.916/0.873; RLCD 0.5052/0.2872/0.0055;
+  OpenJevPro pastes openjev-sglang 95.5%; hyusi two-line stub size 5).
+  `invented_signal: false`. Do **not** merge from this
+  review — parent merges after CLEAN.
+
+## 2026-09-20T06:09Z — hourly 2340 adversarial relock (PR #22)
+
+- Live REST vs first pin: HIGH HEAD/README unchanged.
+  logicrw/awesome-jev-projects **134★** (was **132★**;
+  HEAD `97057cc1` / README SHA `25a19b31` unchanged —
+  auto GitHub sync). SemIf **2031★** (was **2025★**).
+  jevlike **1010★** (was **1009★**). TypeAR **12★** still
+  **flat**. AnotiaWang **87★** still **flat**. Tracker
+  likes **56** / lastModified `2026-09-20T04:29:16.000Z`
+  unchanged. Archer Hub still HTTP **401**. Qwen likes
+  **15787** unchanged. Qwen3.8-27B ≠ Archer.
+- GitHub size lag: patelvishwa112/jev-system-one-rlcd
+  **1513** (was **0** with contents; HEAD `62b103b3`
+  README SHA `55994d69` unchanged). Colvin0315/MiniSystemOne
+  **814** (was **0** with contents; HEAD `ac5a0eea`
+  README SHA `f8c47847` unchanged). Do not paste Colvin
+  as hyusi.
+- Namesake stars: yibie/awesome-jev **417★** (was **412★**);
+  cobanov/awesome-jev **221★** (was **217★**). Still
+  different objects from logicrw **134★**.
+- `invented_signal: false`. Do **not** merge from this
+  review — parent merges after CLEAN.
+
+## 2026-09-20T05:40Z — hourly 2340 HIGH (Boise ~23:40 MDT)
+
+- Fresh PR off main after merged #21 (`d3f8da7` / §103).
+  Never reopen merged #7–**#21**. Branch
+  `cursor/hourly-2340-minisystemone-8b98`.
+  Skip Archer rewrite. Quote READMEs. Mark *theirs*.
+  No wrappers / keys / install recipes. Do not dump
+  source / SDK / weights / eval logs.
+  `invented_signal: false`.
+- Eleven HIGH: hyusi2003/MiniSystemOne (PRIMARY; **0★**;
+  from-scratch calibrated decision model; description-only stub);
+  yodablocks/jev-orderby-bench (**0★**; ESCI hard-probe upgrade);
+  karanb192/jev-architect (**0★**; find/design/evaluate decision loops);
+  Jairik/jev-distiller (**0★**; distill-Jev UI stub);
+  licensedsaucer9-web/jev-opportunities (**0★**; scored opportunity map);
+  gavinHuang/jevinize (**0★**; Jev-inize → simple-jev);
+  VihaanAgarwal/jev-diff (**0★**; saved-decision regression);
+  zhangcy122/OpenJevPro (**0★**; constrained-logprob API);
+  patelvishwa112/jev-system-one-rlcd (**0★**; SmolLM RLCD);
+  logicrw/awesome-jev-projects (**134★**; source-backed Awesome radar);
+  olanotolu/jevbetter (**12★**; rival-aware one-pass scorer).
+- Formal methods compose with scoring; a Noul is a SENSOR.
+  Treating a description-only stub as a checkpoint, re-folding
+  six-gates as new, distilling Jev as teacher of record, pasting
+  openjev-sglang as OpenJevPro, treating constrained logprob as
+  a Noul, quoting an untrained-looking demo as Jev identity,
+  pasting a radar's listed numbers, or quoting 0.916 as a class
+  ceiling is soundness theater. Distill-Jev UI stub and
+  constrained-logprob-as-Noul are the anti-patterns.
+- Pulse (do not invent): Archer still NOT landed. Hub
+  archerhume/4rcherhume HTTP **401**. Tracker likes **56**;
+  lastModified `2026-09-20T04:29:16.000Z` (not re-fetched as
+  a rewrite). Live REST: SemIf **2031★** (+12 vs §103 2019);
+  jevlike **1010★** (+4 vs §103 1006); TypeAR **12★**
+  **flat**. AnotiaWang/awesome-jev **87★** **flat** ≠ Awesomejev
+  561/27007 ≠ logicrw **134★**. Qwen3.8-27B ≠ Archer (likes
+  **15787**). X MCP not used; no invented tweets.
+- Cards: SKILL.md, mixed-architecture fail table +
+  gallery, faq, mental-models Apply 2340, judgment-class,
+  validation, applied-mappings, mappings, toolbox,
+  composition-algebra items 138–148, question-design,
+  methods-catalog, formal-methods, agent-self-assessment,
+  ecosystem, CHANGELOG, README.
+- notes.md §104; sources.json; findings.md batch #87.
+  No wrapper. Do **not** merge from this review.
+- Adversarial review honesty locks: MiniSystemOne size **5**
+  HEAD `4385335b` README SHA `83016bf8`; orderby size **309**
+  (relock; was **281**) HEAD `52397954`; awesome-jev-projects
+  HEAD `97057cc1` (relock; was `45bab8c4`; README SHA `25a19b31`
+  unchanged — auto GitHub sync); jevbetter **12★**; GitHub size
+  **1513** (relock; was **0** with contents) (RLCD); OpenJevPro
+  PolyForm NC LICENSE SHA `5aa42b53`; RLCD no LICENSE file.
+
 ## 2026-09-20T04:46Z — hourly 2246 HIGH (Boise ~22:46 MDT)
 
 - Fresh PR off main after merged #20 (`b3e3ad2` / §102).

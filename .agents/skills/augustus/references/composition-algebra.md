@@ -1157,3 +1157,68 @@ re-fold 2145 items 120–128 / 2041 items 111–119 / 1943
 items 102–110 / 1843 items 97–101 / 1740 items 94–96 /
 SIGNAL §93 mechanism.
 Soft Noul ≠ hard safety.
+
+train calibrated ~27M from scratch; typed Q→prob dist / one forward pass / no LLM decode; hyusi2003/MiniSystemOne ≠ Colvin0315/MiniSystemOne; description-only stub / size 5; ESCI hard probe fails four of six; jev_bool ECE 0.242 inversion 0.255; do not re-fold §60 six-gates as new; jobbyjev one-request-per-company from batch-size result; find/design/evaluate TypeSafe Jev decision loops; karanb192/jev-architect ≠ samtay32/jev-system-architect; Jairik/jev-distiller size 1; distill-Jev UI stub / do not distill Jev as teacher of record; post-launch scored use-case map / Jev self-scores then human curation; licensedsaucer9-web/jev-opportunities; Jev-inize a use case into classifier/router; gavinHuang/jevinize → simple-jev not TypeSafe; featherless-ai/simple-jev; compare saved decisions / same label can still change the branch; VihaanAgarwal/jev-diff ≠ Saik0s/diffusiongemma-jev-macos; not tested with a live Jev API key; constrained logprob + temp/Platt ≠ Noul; OpenJevPro pastes openjev-sglang JevBench as own; zhangcy122/OpenJevPro ≠ IamBusy/OpenJev ≠ ekzhang/openjev-sglang; PolyForm Noncommercial; SmolLM-135M / sub-70ms / 0 output tokens; demo P(True) 0.5052 / Choice conf 0.2872 / Score conf 0.0055; README claims MIT / GitHub license null / no LICENSE file; patelvishwa112/jev-system-one-rlcd ≠ arnabgho/rlcd-lite ≠ blackwood-rlcd; source-backed Awesome Jev radar / 306+ commit-pinned; logicrw/awesome-jev-projects ≠ AnotiaWang/awesome-jev ≠ yibie/awesome-jev ≠ cobanov/awesome-jev ≠ rupeshpoojary9/awesome-open-system-one; auto GitHub sync / Issue-only submissions; hashed n-gram encoder / rival-aware attention; olanotolu/jevbetter vs jevlike starter; synthetic hard menus top-1 0.916 vs 0.873 / ECE 0.0182 vs 0.0367 / 40 vs 4608 menus/sec; shuffled-context control 0.335
+
+138. **From-scratch calibrated decision model** (hyusi2003/MiniSystemOne; PRIMARY):
+     position 1 (Operand) as trained decision-only open path, not LoRA-on-LLM.
+     train calibrated ~27M from scratch.
+     typed Q→prob dist / one forward pass / no LLM decode.
+     hyusi2003/MiniSystemOne ≠ Colvin0315/MiniSystemOne.
+     description-only stub / size 5.
+     Full cards: `judgment-class.md`, `faq.md`.
+139. **ORDER BY ranking upgrade** (yodablocks/jev-orderby-bench ESCI):
+     position 5 (Comparator) as ranking, not a frequency.
+     ESCI hard probe fails four of six.
+     jev_bool ECE 0.242 inversion 0.255.
+     do not re-fold §60 six-gates as new.
+     Full cards: `validation.md`, `faq.md`.
+140. **Find/design/evaluate decision loops** (karanb192/jev-architect):
+     position 8 (Metric) as workflow inspection before the API.
+     find/design/evaluate TypeSafe Jev decision loops.
+     karanb192/jev-architect ≠ samtay32/jev-system-architect.
+     Full cards: `mixed-architecture.md`, `faq.md`.
+141. **Distill-Jev UI stub** (Jairik/jev-distiller):
+     do **not** occupy teacher-copy. Jairik/jev-distiller size 1.
+     distill-Jev UI stub / do not distill Jev as teacher of record.
+     Full cards: `mixed-architecture.md`, `faq.md`.
+142. **Post-launch scored opportunity map** (licensedsaucer9-web/jev-opportunities):
+     position 4 (Selector of F) then a human ranks TOP.
+     post-launch scored use-case map / Jev self-scores then human curation.
+     Full cards: `applied-mappings.md`, `faq.md`.
+143. **Jev-inize a use case** (gavinHuang/jevinize):
+     position 1 (Operand) as a scaffold against an open classifier server.
+     Jev-inize a use case into classifier/router.
+     gavinHuang/jevinize → simple-jev not TypeSafe.
+     Full cards: `applied-mappings.md`, `faq.md`.
+144. **Saved-decision regression** (VihaanAgarwal/jev-diff):
+     position 8 (Metric) as an instrument, not a score.
+     compare saved decisions / same label can still change the branch.
+     not tested with a live Jev API key.
+     Full cards: `validation.md`, `faq.md`.
+145. **Constrained-logprob production API** (zhangcy122/OpenJevPro):
+     do **not** occupy Noul. constrained logprob + temp/Platt ≠ Noul.
+     OpenJevPro pastes openjev-sglang JevBench as own. PolyForm Noncommercial.
+     Full cards: `judgment-class.md`, `faq.md`.
+146. **SmolLM RLCD reproduction** (patelvishwa112/jev-system-one-rlcd):
+     position 1 (Operand) as NAR heads on a tiny decoder.
+     SmolLM-135M / sub-70ms / 0 output tokens.
+     demo P(True) 0.5052 / Choice conf 0.2872 / Score conf 0.0055.
+     Full cards: `judgment-class.md`, `faq.md`.
+147. **Source-backed Awesome radar** (logicrw/awesome-jev-projects):
+     position 1 (Operand) as class map, not a bake-off.
+     source-backed Awesome Jev radar / 306+ commit-pinned.
+     auto GitHub sync / Issue-only submissions.
+     Full cards: `judgment-class.md`, `faq.md`.
+148. **Rival-aware one-pass scorer** (olanotolu/jevbetter):
+     position 1 (Operand) as rival-aware vs sibling-blind.
+     hashed n-gram encoder / rival-aware attention.
+     olanotolu/jevbetter vs jevlike starter.
+     shuffled-context control 0.335.
+     Full cards: `judgment-class.md`, `faq.md`.
+
+Hourly 2340 items 138–148 (`notes.md` §104). Do **not**
+re-fold 2246 items 129–137 / 2145 items 120–128 / 2041
+items 111–119 / 1943 items 102–110 / 1843 items 97–101 /
+1740 items 94–96 / SIGNAL §93 mechanism / §60 six-gates.
+Soft Noul ≠ hard safety.

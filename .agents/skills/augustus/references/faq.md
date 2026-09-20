@@ -3051,3 +3051,53 @@ No, no, and no. arXiv paper radar with Jev relevance scoring. ranking ≠ calibr
 ## Did Archer land this hour? Treat Qwen3.8-27B as Archer? Invent tweets?
 
 No, no, and no. Hub `archerhume/4rcherhume` HTTP **401** (last pin §101; not re-fetched as a rewrite). Tracker likes **54**; lastModified `2026-09-20T02:59:13Z`. Live REST pulse (review relock): SemIf **2019★** (+19 vs §102 **2000**); jevlike **1006★** (+4 vs §102 **1002**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **87★** (+1 vs §102 **86**) ≠ Awesomejev 561/27007. `invented_signal: false`. `notes.md` §103.
+
+train calibrated ~27M from scratch; typed Q→prob dist / one forward pass / no LLM decode; hyusi2003/MiniSystemOne ≠ Colvin0315/MiniSystemOne; description-only stub / size 5; ESCI hard probe fails four of six; jev_bool ECE 0.242 inversion 0.255; do not re-fold §60 six-gates as new; jobbyjev one-request-per-company from batch-size result; find/design/evaluate TypeSafe Jev decision loops; karanb192/jev-architect ≠ samtay32/jev-system-architect; Jairik/jev-distiller size 1; distill-Jev UI stub / do not distill Jev as teacher of record; post-launch scored use-case map / Jev self-scores then human curation; licensedsaucer9-web/jev-opportunities; Jev-inize a use case into classifier/router; gavinHuang/jevinize → simple-jev not TypeSafe; featherless-ai/simple-jev; compare saved decisions / same label can still change the branch; VihaanAgarwal/jev-diff ≠ Saik0s/diffusiongemma-jev-macos; not tested with a live Jev API key; constrained logprob + temp/Platt ≠ Noul; OpenJevPro pastes openjev-sglang JevBench as own; zhangcy122/OpenJevPro ≠ IamBusy/OpenJev ≠ ekzhang/openjev-sglang; PolyForm Noncommercial; SmolLM-135M / sub-70ms / 0 output tokens; demo P(True) 0.5052 / Choice conf 0.2872 / Score conf 0.0055; README claims MIT / GitHub license null / no LICENSE file; patelvishwa112/jev-system-one-rlcd ≠ arnabgho/rlcd-lite ≠ blackwood-rlcd; source-backed Awesome Jev radar / 306+ commit-pinned; logicrw/awesome-jev-projects ≠ AnotiaWang/awesome-jev ≠ yibie/awesome-jev ≠ cobanov/awesome-jev ≠ rupeshpoojary9/awesome-open-system-one; auto GitHub sync / Issue-only submissions; hashed n-gram encoder / rival-aware attention; olanotolu/jevbetter vs jevlike starter; synthetic hard menus top-1 0.916 vs 0.873 / ECE 0.0182 vs 0.0367 / 40 vs 4608 menus/sec; shuffled-context control 0.335
+
+## Is hyusi MiniSystemOne a trained checkpoint? Paste Colvin 26.89M as hyusi? Is it mini-jev or kev?
+
+No, no, and no. train calibrated ~27M from scratch. typed Q→prob dist / one forward pass / no LLM decode. hyusi2003/MiniSystemOne ≠ Colvin0315/MiniSystemOne. description-only stub / size 5. Apache-2.0; **0★**; HEAD `4385335b`; README SHA `83016bf8`. Namesake Colvin holds the recipe; do not paste Colvin numbers as hyusi. ≠ mini-jev (frozen logits) ≠ kev (LoRA pointer). `notes.md` §104.
+
+## Did ESCI pass the six gates? Re-fold §60 as new? Treat 20NG as graded-IR safety?
+
+No, no, and no. ESCI hard probe fails four of six. jev_bool ECE 0.242 inversion 0.255. do not re-fold §60 six-gates as new. jobbyjev one-request-per-company from batch-size result. Python MIT; **0★**; HEAD `52397954`; README SHA `7bd075c3`; size **309**. Calibration ≠ sortable is now an empirical fail on graded product relevance. `notes.md` §104.
+
+## Is jev-architect a second Augustus? Is it samtay32/jev-system-architect? Copy npx skills add?
+
+No, no, and no. find/design/evaluate TypeSafe Jev decision loops. karanb192/jev-architect ≠ samtay32/jev-system-architect. HTML MIT; **0★**; HEAD `35ea6d93`; README SHA `68c2b5f9`; size **5199**. Workflow inspection before the API. Do not copy `npx skills add`. `notes.md` §104.
+
+## Distill Jev as teacher of record? Is Jairik/jev-distiller a student checkpoint?
+
+No and no. Jairik/jev-distiller size 1. distill-Jev UI stub / do not distill Jev as teacher of record. MIT; **0★**; HEAD `0589d44c`; README SHA `aa408c5e`. Thin HIGH still gets a real card. `notes.md` §104.
+
+## Are Jev self-scores a product roadmap? Is jev-opportunities licensed?
+
+No and no (license **null**). post-launch scored use-case map / Jev self-scores then human curation. licensedsaucer9-web/jev-opportunities. **0★**; HEAD `a47fa414`; README SHA `aa33f901`; size **27**. Human TOP curation is the exact work. `notes.md` §104.
+
+## Is jevinize TypeSafe hosted? Copy Featherless demo keys?
+
+No and no. Jev-inize a use case into classifier/router. gavinHuang/jevinize → simple-jev not TypeSafe. featherless-ai/simple-jev. MIT; **0★**; HEAD `6d080632`; README SHA `5f48e622`; size **6**. Scaffolding ≠ Augustus design judgment. `notes.md` §104.
+
+## Is a fixture exit 1 a class regression? Is jev-diff diffusiongemma? Tested with a live Jev API key?
+
+No, no, and no. compare saved decisions / same label can still change the branch. VihaanAgarwal/jev-diff ≠ Saik0s/diffusiongemma-jev-macos. not tested with a live Jev API key. Python MIT; **0★**; HEAD `a3c98807`; README SHA `3b0ce75c`; size **120**. 0.81→0.79 at a 0.8 gate still changes the branch. `notes.md` §104.
+
+## Is constrained logprob a Noul? Did OpenJevPro measure 95.5%? Is it IamBusy/OpenJev?
+
+No, no, and no. constrained logprob + temp/Platt ≠ Noul. OpenJevPro pastes openjev-sglang JevBench as own. zhangcy122/OpenJevPro ≠ IamBusy/OpenJev ≠ ekzhang/openjev-sglang. PolyForm Noncommercial. HTML; SPDX NOASSERTION; **0★**; HEAD `94d77bcb`; README SHA `50c77ace`; size **64**. `notes.md` §104.
+
+## Quote SmolLM 67 ms / 2.1% ECE as Jev identity? Is the demo calibrated? Is it MIT on GitHub?
+
+No, no, and no. SmolLM-135M / sub-70ms / 0 output tokens. demo P(True) 0.5052 / Choice conf 0.2872 / Score conf 0.0055. README claims MIT / GitHub license null / no LICENSE file. patelvishwa112/jev-system-one-rlcd ≠ arnabgho/rlcd-lite ≠ blackwood-rlcd. Python; **0★**; HEAD `62b103b3`; README SHA `55994d69`; GitHub size **1513** (relock; was **0** with contents). `notes.md` §104.
+
+## Is awesome-jev-projects AnotiaWang or yibie? Paste listed von/cua numbers? Is 306+ a bake-off?
+
+No, no, and no. source-backed Awesome Jev radar / 306+ commit-pinned. logicrw/awesome-jev-projects ≠ AnotiaWang/awesome-jev ≠ yibie/awesome-jev ≠ cobanov/awesome-jev ≠ rupeshpoojary9/awesome-open-system-one. auto GitHub sync / Issue-only submissions. JavaScript MIT; **136★**; HEAD `97057cc1`; README SHA `25a19b31`; size **7677** (relock; was **7136**). `notes.md` §104.
+
+## Quote jevbetter 0.916 as a class ceiling? Is rival-aware the same as hev isolation?
+
+No and no (opposite of option isolation). hashed n-gram encoder / rival-aware attention. olanotolu/jevbetter vs jevlike starter. synthetic hard menus top-1 0.916 vs 0.873 / ECE 0.0182 vs 0.0367 / 40 vs 4608 menus/sec. shuffled-context control 0.335. Python MIT; **12★**; HEAD `bb0ebc82`; README SHA `5cbe01d4`; size **324**. `notes.md` §104.
+
+## Did Archer land this hour? Treat Qwen3.8-27B as Archer? Invent tweets?
+
+No, no, and no. Hub `archerhume/4rcherhume` HTTP **401** (not re-fetched as a rewrite). Tracker `multimodalart/jev-reproductions-tracker` likes **56**; lastModified `2026-09-20T04:29:16.000Z`. `Tonic/4rcher-tracker` HTTP **401**. Live REST pulse: SemIf **2047★** (+28 vs §103 **2019**); jevlike **1018★** (+12 vs §103 **1006**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **91★** (+4 vs §103 **87**) ≠ Awesomejev 561/27007 ≠ logicrw/awesome-jev-projects **136★**. Qwen/Qwen3.8-27B HTTP **200** likes **15787** lastModified `2026-08-14T15:00:01.000Z` — ≠ Archer. `invented_signal: false`. `notes.md` §104.

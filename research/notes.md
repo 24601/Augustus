@@ -21810,3 +21810,852 @@ items 129–137; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
+
+## 104. Hourly 2340 HIGH (2026-09-19 ~23:40 Boise / 2026-09-20T05:40Z)
+
+Docs-only on a **fresh PR off main**
+(`cursor/hourly-2340-minisystemone-8b98`).
+**Never reopen merged** Augustus PR #7 / **#8** /
+**#9** / **#10** / **#12** / **#13** / **#14** /
+**#15** / **#16** / **#17** / **#18** / **#19** /
+**#20** / **#21**. After merged #21 (`d3f8da7`,
+hourly 2246 / `notes.md` §103). Do **not** re-fold
+§93 / §94 / §95 / §96 / §97 / §98 / §99 / §100 /
+§101 / §102 / §103. Do **not** re-fold jev-orderby-bench
+*six-gates mechanism* from §60 as if it were new —
+this hour is the **ESCI hard-probe upgrade**. Quote
+READMEs. Mark *theirs*. No invented metrics. Hunches
+labeled. No wrappers, `npm` / `pip` / `npx` / `uv` /
+`mix` / `TYPESAFE_API_KEY` / `.env` as recipes. 0★
+HIGH still gets a real card. Do **not** dump source /
+SDK / weights / eval logs. `invented_signal: false`.
+Skip Archer rewrite. Qwen3.8-27B ≠ Archer.
+
+Lane is Augustus: **mental models / architecture /
+Harbor-jevals / toolbelt**. Backend-agnostic
+categorization/scoring/decision class (Jev-like
+speed/econ), **not** a thin Jev-only dump. Design
+judgment, formal/semi-formal methods, decision
+theory, scoring class. Soft Noul ≠ hard safety.
+Formal methods **compose** with scoring; a Noul is a
+SENSOR. Avoid soundness theater. Jev is the hot
+exemplar, not the whole mandate. From-scratch tiny
+decision training (typed Q→prob dist, one forward
+pass, no LLM decode) is the *class* exemplar this
+hour, not a TypeSafe drop-in. The listed MiniSystemOne
+repo is description-only.
+
+Unique consecutive fragments (this hour):
+train calibrated ~27M from scratch;
+typed Q→prob dist / one forward pass / no LLM decode;
+hyusi2003/MiniSystemOne ≠ Colvin0315/MiniSystemOne;
+description-only stub / size 5;
+ESCI hard probe fails four of six;
+jev_bool ECE 0.242 inversion 0.255;
+do not re-fold §60 six-gates as new;
+jobbyjev one-request-per-company from batch-size result;
+find/design/evaluate TypeSafe Jev decision loops;
+karanb192/jev-architect ≠ samtay32/jev-system-architect;
+Jairik/jev-distiller size 1;
+distill-Jev UI stub / do not distill Jev as teacher of record;
+post-launch scored use-case map / Jev self-scores then human curation;
+licensedsaucer9-web/jev-opportunities;
+Jev-inize a use case into classifier/router;
+gavinHuang/jevinize → simple-jev not TypeSafe;
+featherless-ai/simple-jev;
+compare saved decisions / same label can still change the branch;
+VihaanAgarwal/jev-diff ≠ Saik0s/diffusiongemma-jev-macos;
+not tested with a live Jev API key;
+constrained logprob + temp/Platt ≠ Noul;
+OpenJevPro pastes openjev-sglang JevBench as own;
+zhangcy122/OpenJevPro ≠ IamBusy/OpenJev ≠ ekzhang/openjev-sglang;
+PolyForm Noncommercial;
+SmolLM-135M / sub-70ms / 0 output tokens;
+demo P(True) 0.5052 / Choice conf 0.2872 / Score conf 0.0055;
+README claims MIT / GitHub license null / no LICENSE file;
+patelvishwa112/jev-system-one-rlcd ≠ arnabgho/rlcd-lite ≠ blackwood-rlcd;
+source-backed Awesome Jev radar / 306+ commit-pinned;
+logicrw/awesome-jev-projects ≠ AnotiaWang/awesome-jev ≠ yibie/awesome-jev ≠ cobanov/awesome-jev ≠ rupeshpoojary9/awesome-open-system-one;
+auto GitHub sync / Issue-only submissions;
+hashed n-gram encoder / rival-aware attention;
+olanotolu/jevbetter vs jevlike starter;
+synthetic hard menus top-1 0.916 vs 0.873 / ECE 0.0182 vs 0.0367 / 40 vs 4608 menus/sec;
+shuffled-context control 0.335.
+
+### How-to-apply (eleven HIGH clusters)
+
+1. **From-scratch calibrated decision model**
+   (PRIMARY Augustus) — typed questions in,
+   probability distributions out, **one forward
+   pass, no LLM decode**. Train ~27M from random
+   init, not LoRA-on-an-LLM and not a Jev
+   teacher-copy. The listed GitHub
+   (`hyusi2003/MiniSystemOne`) is a
+   **description-only stub** (size **5**; LICENSE +
+   two-line README). Namesake
+   `Colvin0315/MiniSystemOne` holds the educational
+   recipe; do **not** paste Colvin numbers as hyusi
+   facts. Transfers to any domain that wants a
+   decision head without a generator. ≠ mini-jev
+   (frozen logits) ≠ kev (LoRA pointer).
+2. **ORDER BY ranking upgrade (not a re-fold)** —
+   §60 six gates on 20 Newsgroups still pass;
+   **Headline 2 (2026-09-19):** Amazon ESCI hard
+   probe **fails four of six**. Graded product
+   relevance is the ranking job `ORDER BY` actually
+   does. Calibration ≠ sortable is now an empirical
+   fail, not only a conceptual split. jobbyjev
+   one-request-per-company is a design that *follows*
+   the batch-size result. Do **not** re-card six
+   gates as new.
+3. **Find/design/evaluate decision loops** — agent
+   skill that asks where a fast bounded semantic
+   decision belongs *before* the API. Augustus owns
+   mental models; this is a workflow skill, not a
+   second Augustus. ≠ samtay32/jev-system-architect.
+   Do not copy `npx skills add`.
+4. **Distill-Jev UI stub (anti-pattern)** — web
+   interface for distilling Jev into smaller
+   classifiers. Size **1**. Standing rule: do **not**
+   distill Jev as teacher of record. Thin HIGH still
+   gets a real card.
+5. **Post-launch scored opportunity map** — harness
+   offloads vs product workflows; Jev scored the
+   catalog, then **human curation** (own rank Choice
+   confidences were moderate *theirs*). Do not treat
+   self-scores as a ranked product. license **null**.
+6. **Jev-inize a use case** — Claude skill that maps
+   a use case onto Choice/Score/Noul and scaffolds a
+   client against **simple-jev**, not TypeSafe.
+   Scaffolding ≠ Augustus design judgment.
+7. **Saved-decision regression** — same label can
+   still change the branch (0.81→0.79 at a 0.8
+   gate). Offline CLI, zero runtime deps, no model
+   calls. Exit 1 = changes, **not** proof of a
+   systematic regression. Not tested with a live
+   Jev API key.
+8. **Constrained-logprob production API
+   (anti-pattern-adjacent)** — Choice/Noul/Score
+   via guided decoding + logprob + temp/Platt.
+   Constrained AR ≠ trained decision head ≠ Noul.
+   Pastes `openjev-sglang` JevBench as own
+   "empirically proven." PolyForm Noncommercial.
+9. **SmolLM RLCD reproduction** — sever lm_head,
+   mount three decision heads, one prefill, **0
+   output tokens**, ~67 ms *theirs*. Demo output
+   looks untrained (P(True) **0.5052**, Choice conf
+   **0.2872**, Score conf **0.0055**). README claims
+   MIT; GitHub license **null**; no LICENSE file;
+   GitHub size **1513** (relock; was **0** with contents). ≠ rlcd-lite
+   (the Empirical reconstruction). Reverse-engineering
+   language is a red flag, not a recipe.
+10. **Source-backed Awesome radar** — 306+
+    commit-pinned projects, auto GitHub sync,
+    Issue-only submissions. **136★** live REST.
+    Do **not** paste listed numbers as Augustus
+    facts. Gacha dispatcher is UX, not evidence.
+    Many awesome-jev namesakes.
+11. **Rival-aware one-pass scorer** — hashed n-gram
+    encoder + options-attend-each-other vs the
+    jevlike starter (byte embeddings, no option
+    interaction). Synthetic hard menus *theirs*:
+    top-1 **0.916 vs 0.873**, ECE **0.0182 vs
+    0.0367**, throughput **40 vs 4608** menus/sec.
+    Shuffled-context control **0.335**. Independent,
+    not TypeSafe. Do not quote as Jev identity.
+
+### Cards
+
+1. **From-scratch calibrated decision model**
+   (PRIMARY)
+
+   - **[`hyusi2003/MiniSystemOne`](https://github.com/hyusi2003/MiniSystemOne)**
+     (Apache-2.0 LICENSE SHA `261eeb9e`; language
+     **null**; **0★** live REST; 0 forks; created
+     2026-09-20T04:05:12Z; pushed
+     2026-09-20T04:05:13Z; updated
+     2026-09-20T04:05:16Z; HEAD `4385335b`;
+     README SHA `83016bf8`; GitHub `size` **5**;
+     default `main`). GitHub description *theirs*:
+     "Train a calibrated decision model from
+     scratch — typed questions in, probability
+     distributions out, one forward pass. No LLM,
+     no decoding. ~27M params, 4.7h on one 8GB
+     GPU." README *theirs* is that same two lines.
+     **description-only stub / size 5.** No
+     trainer, no weights, no dataset in git.
+     Namesake
+     [`Colvin0315/MiniSystemOne`](https://github.com/Colvin0315/MiniSystemOne)
+     (not a fork; created ~1h later; Apache-2.0
+     same LICENSE SHA `261eeb9e`; GitHub size **814**
+     (relock; was **0** with contents); HEAD `ac5a0eea`; README SHA
+     `f8c47847`) holds the educational from-scratch
+     recipe (MiniMind-style encoder + one decision
+     head; "Not a Jev reproduction"; "We do not
+     distill Jev's outputs"). Do **not** paste
+     Colvin 26.89M / 4.7h / ECE as hyusi facts.
+     Do **not** dump Colvin `model/` / `trainer/` /
+     `dataset/`. Do not copy pip / GPU recipes.
+
+     train calibrated ~27M from scratch.
+     typed Q→prob dist / one forward pass / no LLM decode.
+     hyusi2003/MiniSystemOne ≠ Colvin0315/MiniSystemOne.
+     description-only stub / size 5.
+
+     **Placement.** Pillar: search/control + replica
+     honesty (from-scratch vs LoRA-on-LLM vs
+     teacher-copy). Hole: a decision model that
+     never generates. Family: trained decision-only
+     open path next to Laya/kev; **not** a Jev
+     clone, **not** frozen-logit mini-jev. Fail
+     polarity: do not treat a GitHub description as
+     a checkpoint. Eval path: none on the listed
+     repo. **Empirical** as README two-liner.
+     **Hypothesis** that a ~27M from-scratch head
+     calibrates on *your* labels.
+
+     **Name lock:** always write
+     **hyusi2003/MiniSystemOne**.
+     hyusi2003/MiniSystemOne ≠
+     Colvin0315/MiniSystemOne ≠ yuki-oshio/mini-jev
+     ≠ r-ms/mini-jev ≠ jaredpalmer/kev.
+     Soft Noul ≠ hard safety: ~27M / 4.7h are
+     **sensors on a stub**. Treating the description
+     as a trained model, or pasting Colvin numbers
+     as hyusi receipts, is theater.
+
+2. **ORDER BY ranking upgrade (not a re-fold)**
+
+   - **[`yodablocks/jev-orderby-bench`](https://github.com/yodablocks/jev-orderby-bench)**
+     (Python MIT; **0★** live REST; 0 forks;
+     created 2026-09-19T01:31:53Z; pushed
+     2026-09-20T05:39:46Z; updated
+     2026-09-20T05:39:50Z; HEAD `52397954`;
+     README SHA `7bd075c3`; LICENSE SHA
+     `b5d8a201`; GitHub `size` **309** (relock; was **281**); default
+     `main`). GitHub description *theirs* now
+     names the split: "passes six pre-registered
+     gates on 360 labeled rows, fails four of six
+     on graded product relevance." README
+     Headline 2 *theirs* (2026-09-19): Amazon
+     ESCI, 306 human-graded query-product pairs
+     over 30 hard shopping queries; `jev_bool`
+     ECE **0.242** and inversion **0.255**;
+     `jev_score` inversion **0.254** against the
+     4-level human grade, **0.244** inside a
+     single query's result list, **23 of 30**
+     queries over the threshold; choice confidence
+     ECE **0.279**. Four of six gate conditions
+     fail. Negation symmetry still holds (0.023)
+     while a plain paraphrase moves the answer by
+     0.164 on average. **Do not re-fold §60
+     six-gates as new** (Boolean inversion 0.036;
+     Score ordinal 0.143 vs 0.15; 53-way 0.99
+     tie; recodelabs batch-40 inversion 0.171).
+     jobbyjev one-request-per-company from
+     batch-size result (same owner; application
+     of the measurement, not independent
+     corroboration *theirs*). Do **not** dump
+     `results/` / corpus. Do not copy `python3
+     harness/` / keys.
+
+     ESCI hard probe fails four of six.
+     jev_bool ECE 0.242 inversion 0.255.
+     do not re-fold §60 six-gates as new.
+     jobbyjev one-request-per-company from batch-size result.
+
+     **Placement.** Pillar: ranking ≠ calibration
+     (MCDA / ORDER BY). Hole: graded IR is the
+     sort job; 20NG binary inversion cannot see
+     it. Family: independent measurement, not a
+     fourth DuckDB extension. Fail polarity:
+     **fail-open** as ranking still, but do not
+     ship `ORDER BY prob` on graded relevance
+     without re-measuring. Eval path: **not
+     Harbor**; author-run gates. **Empirical** as
+     README Headline 2. **Hypothesis** on *your*
+     catalog.
+
+     **Name lock:** always write
+     **yodablocks/jev-orderby-bench**.
+     Soft Noul ≠ hard safety: 0.242 / 0.255 /
+     23/30 are **sensors**. Treating six-gate
+     pass as "ORDER BY is safe," or quoting ESCI
+     fail as "Jev cannot rank," is theater.
+
+3. **Find/design/evaluate decision loops**
+
+   - **[`karanb192/jev-architect`](https://github.com/karanb192/jev-architect)**
+     (HTML MIT; **0★** live REST; 0 forks;
+     created 2026-09-20T04:22:30Z; pushed
+     2026-09-20T05:08:48Z; updated
+     2026-09-20T05:08:51Z; HEAD `35ea6d93`;
+     README SHA `68c2b5f9`; LICENSE SHA
+     `56b1020e`; GitHub `size` **5199**; default
+     `main`). GitHub description *theirs*:
+     "Find, design, and evaluate TypeSafe Jev
+     decision loops." README *theirs*: most Jev
+     discussions start at the API; the harder
+     question is where a fast bounded semantic
+     decision belongs; recommend code, retrieval,
+     a generative model, human review, **or**
+     Jev; will not treat Jev as a replacement for
+     every LLM call; will not promise speed/cost/
+     calibration without measuring. Optional
+     companion `jev-architect-presenter`. Do
+     **not** copy `npx skills add` / Claude
+     `/plugin marketplace add`. Do not dump
+     `skills/` / `site/`.
+
+     find/design/evaluate TypeSafe Jev decision loops.
+     karanb192/jev-architect ≠ samtay32/jev-system-architect.
+
+     **Placement.** Pillar: toolbox sweep + mixed
+     architecture. Hole: inspect a workflow
+     *before* picking a vendor. Family: agent
+     skill, not a species. Augustus owns mental
+     models; this is a sibling workflow, not a
+     second Augustus. Fail polarity: do not
+     treat a ranked opportunity map as a
+     measured rollout. Eval path: none.
+     **Empirical** as README scope.
+
+     **Name lock:** always write
+     **karanb192/jev-architect**.
+     karanb192/jev-architect ≠
+     samtay32/jev-system-architect ≠ Augustus.
+     Soft Noul ≠ hard safety: a design skill is
+     **not** a Harbor score.
+
+4. **Distill-Jev UI stub (anti-pattern)** (flag)
+
+   - **[`Jairik/jev-distiller`](https://github.com/Jairik/jev-distiller)**
+     (MIT LICENSE SHA `f6faefb7`; language
+     **null**; **0★** live REST; 0 forks;
+     created 2026-09-20T00:22:16Z; pushed
+     2026-09-20T00:22:17Z; updated
+     2026-09-20T00:22:20Z; HEAD `0589d44c`;
+     README SHA `aa408c5e`; GitHub `size` **1**;
+     default `main`). GitHub description *theirs*:
+     "Simple web interface for distilling jev for
+     creating smaller classification models."
+     README *theirs* is that same one line.
+     **Jairik/jev-distiller size 1.** No UI,
+     no student, no labels in git. Standing
+     rule from §61: do **not** distill Jev as
+     teacher of record. Contrast jev-triage
+     (Jev decides what *enters* the set) and
+     Domain-jev-maker (independent gold). Do
+     not copy keys.
+
+     Jairik/jev-distiller size 1.
+     distill-Jev UI stub / do not distill Jev as teacher of record.
+
+     **Placement.** Pillar: training-data VOI
+     (anti-pattern). Hole: a web form is not a
+     distill. Family: not a species; a harmful
+     shortcut. Fail polarity: **fail closed** on
+     teacher-copy. Eval path: none.
+     **Empirical** as README one-liner.
+
+     **Name lock:** always write
+     **Jairik/jev-distiller**.
+     Soft Noul ≠ hard safety: a stub titled
+     "distiller" is **not** a student checkpoint.
+
+5. **Post-launch scored opportunity map**
+
+   - **[`licensedsaucer9-web/jev-opportunities`](https://github.com/licensedsaucer9-web/jev-opportunities)**
+     (language **null**; GitHub license **null**;
+     no LICENSE file; **0★** live REST; 0 forks;
+     created 2026-09-20T00:17:03Z; pushed
+     2026-09-20T00:30:14Z; updated
+     2026-09-20T00:30:18Z; HEAD `a47fa414`;
+     README SHA `aa33f901`; GitHub `size` **27**;
+     default `main`). GitHub description *theirs*:
+     "Jev (TypeSafe System One) opportunity map:
+     post-launch research (from 2026-09-15),
+     scored use cases, and implementation plans."
+     README *theirs*: two tracks (harness offloads
+     vs product workflows); feasibility ×
+     usefulness bands from a `jev-1.13.0` Score
+     pass, then **human curation** for TOP plans
+     (Jev's own rank Choice confidences were
+     moderate). Audience is Grok Bot / Grok Build
+     builders. Do **not** paste vendor $0.042 /
+     70–500 ms as Augustus facts. Do **not** dump
+     `research/raw-jev-scores.json`. Do not copy
+     keys.
+
+     post-launch scored use-case map / Jev self-scores then human curation.
+     licensedsaucer9-web/jev-opportunities.
+
+     **Placement.** Pillar: MCDA / opportunity
+     map (boundary-audit cousin). Hole: score
+     candidates, then a human ranks TOP.
+     Family: catalog, not a species. Fail
+     polarity: do not treat Jev self-scores as
+     a product roadmap. Eval path: none.
+     **Empirical** as README scoring method.
+
+     **Name lock:** always write
+     **licensedsaucer9-web/jev-opportunities**.
+     Soft Noul ≠ hard safety: Score bands are
+     **sensors**. Treating self-scores as
+     independent measurement is theater.
+
+6. **Jev-inize a use case**
+
+   - **[`gavinHuang/jevinize`](https://github.com/gavinHuang/jevinize)**
+     (MIT LICENSE SHA `b6712f11`; language
+     **null**; **0★** live REST; 0 forks;
+     created 2026-09-20T02:02:25Z; pushed
+     2026-09-20T02:02:29Z; updated
+     2026-09-20T02:02:33Z; HEAD `6d080632`;
+     README SHA `5f48e622`; GitHub `size` **6**;
+     default `main`). GitHub description *theirs*:
+     "Claude Code skill: Jev-inize a use case
+     into a simple-jev-powered classifier/router
+     system." README *theirs*: maps decision
+     points onto `choice` / `score` / `noul`;
+     flags what stays generative; scaffolds a
+     client against
+     [`featherless-ai/simple-jev`](https://github.com/featherless-ai/simple-jev)
+     (**318★** live REST; not TypeSafe). Do
+     **not** copy `git clone` / `cp -r` /
+     Featherless demo endpoint. Do not dump
+     `skills/`.
+
+     Jev-inize a use case into classifier/router.
+     gavinHuang/jevinize → simple-jev not TypeSafe.
+     featherless-ai/simple-jev.
+
+     **Placement.** Pillar: mixed architecture
+     (decision map + leftover generation). Hole:
+     apply the pattern systematically. Family:
+     scaffolding skill targeting an open
+     classifier server, **not** TypeSafe hosted.
+     Fail polarity: do not treat a scaffold as
+     a calibrated Noul. Eval path: none.
+     **Empirical** as README target.
+
+     **Name lock:** always write
+     **gavinHuang/jevinize**.
+     gavinHuang/jevinize ≠ karanb192/jev-architect
+     ≠ TypeSafe. Soft Noul ≠ hard safety:
+     simple-jev logits are **not** a Noul until
+     you measure.
+
+7. **Saved-decision regression**
+
+   - **[`VihaanAgarwal/jev-diff`](https://github.com/VihaanAgarwal/jev-diff)**
+     (Python MIT; **0★** live REST; 0 forks;
+     created 2026-09-20T02:10:09Z; pushed
+     2026-09-20T02:43:01Z; updated
+     2026-09-20T02:45:32Z; HEAD `a3c98807`;
+     README SHA `3b0ce75c`; LICENSE SHA
+     `bf4baec7`; GitHub `size` **120**; default
+     `main`). GitHub description *theirs*:
+     "Compare saved Jev decisions before changing
+     a model, question, or threshold. Offline
+     CLI, zero runtime dependencies." README
+     *theirs*: a classifier can return the same
+     label and still send the app down a
+     different branch; if the gate is 0.8, a
+     move from 0.81 to 0.79 matters; an accuracy
+     score will not tell you that. Exit **1**
+     because decisions changed; fixture data,
+     not a Jev benchmark. Confidence field ≠
+     winning option's probability. This release
+     has **not been tested with a live Jev API
+     key**. Does not measure calibration, choose
+     thresholds, or prove either answer is
+     correct. One changed response is evidence
+     of a change in that run, not proof of a
+     systematic regression. Do **not** dump
+     `examples/` / `src/`. Do not copy `uv` /
+     keys.
+
+     compare saved decisions / same label can still change the branch.
+     VihaanAgarwal/jev-diff ≠ Saik0s/diffusiongemma-jev-macos.
+     not tested with a live Jev API key.
+
+     **Placement.** Pillar: eval integrity /
+     Harbor-jevals hygiene (instrument, not
+     score). Hole: policy-threshold regression
+     on saved traces. Family: offline diff,
+     not a species. Fail polarity: exit 1 is
+     inspect, not "the candidate is worse."
+     Eval path: pytest *theirs*; **not Harbor**.
+     **Empirical** as README.
+
+     **Name lock:** always write
+     **VihaanAgarwal/jev-diff**.
+     VihaanAgarwal/jev-diff ≠
+     Saik0s/diffusiongemma-jev-macos.
+     Soft Noul ≠ hard safety: TV 0.2 / gate
+     0.8 are **sensors**. Treating a fixture
+     exit 1 as a class regression is theater.
+
+8. **Constrained-logprob production API**
+   (flag: soundness theater)
+
+   - **[`zhangcy122/OpenJevPro`](https://github.com/zhangcy122/OpenJevPro)**
+     (HTML; GitHub SPDX **NOASSERTION**; LICENSE
+     SHA `5aa42b53` PolyForm Noncommercial 1.0.0
+     *theirs*; **0★** live REST; 0 forks;
+     created 2026-09-20T00:34:43Z; pushed
+     2026-09-20T05:14:56Z; updated
+     2026-09-20T01:35:49Z; HEAD `94d77bcb` on
+     default `main`; README SHA `50c77ace`;
+     GitHub `size` **64** (relock; was **62**; HEAD/README
+     unchanged)). GitHub description
+     *theirs*: "Production-grade typed
+     probabilistic decision API (Choice, Noul,
+     Score) powered by open LLMs & constrained
+     logprob calibration." README *theirs*:
+     schema enforcement (vLLM / grammar) →
+     candidate log-likelihood → temperature /
+     Platt → abstention. Then **"Yes,
+     empirically proven"** and a table that
+     attributes JevBench v1 95.5% / overlapping
+     CI with Jev 96.3% to
+     `OpenJevPro (openjev-sglang)` —
+     that number is
+     [`ekzhang/openjev-sglang`](https://github.com/ekzhang/openjev-sglang)
+     (**205★**), not this repo. Constrained
+     logprob + temp/Platt ≠ Noul. Do **not**
+     dump `openjevpro/` / `site/`. Do not copy
+     pip / localhost:8000 recipes.
+
+     constrained logprob + temp/Platt ≠ Noul.
+     OpenJevPro pastes openjev-sglang JevBench as own.
+     zhangcy122/OpenJevPro ≠ IamBusy/OpenJev ≠ ekzhang/openjev-sglang.
+     PolyForm Noncommercial.
+
+     **Placement.** Pillar: constrained-AR
+     surface (already a family, not a species)
+     + anti-pattern. Hole: do not launder
+     guided-decode logprobs as a trained
+     decision head. Family: constrained-AR
+     serving, **not** TypeSafe, **not**
+     IamBusy/OpenJev `/v1/decide`. Fail
+     polarity: **fail closed** on
+     "empirically proven" via someone else's
+     board. Eval path: none in this repo.
+     **Empirical** as README architecture
+     (constrained decode). **Hypothesis** that
+     temp/Platt on logprobs matches RLCD.
+
+     **Name lock:** always write
+     **zhangcy122/OpenJevPro**.
+     zhangcy122/OpenJevPro ≠ IamBusy/OpenJev ≠
+     ekzhang/openjev-sglang ≠ razorback16/openjev.
+     Soft Noul ≠ hard safety: 95.5% / 45–75 ms
+     pasted from another project are **not**
+     this repo's sensors. Treating grammar-
+     masked logprobs as a Noul, or Qwen3.8-27B
+     as Archer, is theater.
+
+9. **SmolLM RLCD reproduction**
+
+   - **[`patelvishwa112/jev-system-one-rlcd`](https://github.com/patelvishwa112/jev-system-one-rlcd)**
+     (Python; GitHub license **null**; no
+     LICENSE file; README claims MIT *theirs*;
+     **0★** live REST; 0 forks; created
+     2026-09-20T05:05:39Z; pushed
+     2026-09-20T05:05:44Z; updated
+     2026-09-20T05:05:48Z; HEAD `62b103b3`;
+     README SHA `55994d69`; GitHub `size` **1513**
+     (relock; was **0** with contents); default `main`). GitHub
+     description *theirs*: "Jev System One AI &
+     RLCD Reproduction Engine: Sub-70ms
+     Calibrated Decisions with SmolLM-135M and
+     0 Output Tokens." README *theirs*: sever
+     49,152-vocab `lm_head`; mount NoulHead /
+     ChoiceHead / ScoreHead; single-pass
+     prefill; 0 output tokens; ~67.31 ms on
+     `mps` *theirs*. Observed demo: P(True)
+     **0.5052**; Choice conf **0.2872** nearly
+     flat; Score conf **0.0055**. ECE 28.4% →
+     2.1% is a README claim, not a labeled
+     card. Directory listing still says
+     `gemini_JEV/`. "Reverse engineering"
+     language is a red flag. Do **not** dump
+     `smollm_system_one.py` / `train_rlcd.py` /
+     the HTML article. Do not copy pip /
+     HuggingFaceTB/SmolLM-135M recipes.
+
+     SmolLM-135M / sub-70ms / 0 output tokens.
+     demo P(True) 0.5052 / Choice conf 0.2872 / Score conf 0.0055.
+     README claims MIT / GitHub license null / no LICENSE file.
+     patelvishwa112/jev-system-one-rlcd ≠ arnabgho/rlcd-lite ≠ blackwood-rlcd.
+
+     **Placement.** Pillar: replica honesty +
+     proper-scoring training (RLCD name). Hole:
+     NAR heads on a tiny decoder. Family: open
+     reconstruction next to
+     [`arnabgho/rlcd-lite`](https://github.com/arnabgho/rlcd-lite)
+     (the Empirical GRPO+Brier reconstruction;
+     **1★**), **not** blackwood multimodal,
+     **not** TypeSafe. Fail polarity: do not
+     quote 2.1% ECE or 67 ms as Jev identity;
+     do not treat a near-uniform demo as
+     calibration. Eval path: none published.
+     **Empirical** as README demo printout
+     (untrained-looking). **Hypothesis** that
+     Brier+ECE-reg on SmolLM yields a Noul.
+
+     **Name lock:** always write
+     **patelvishwa112/jev-system-one-rlcd**.
+     patelvishwa112/jev-system-one-rlcd ≠
+     arnabgho/rlcd-lite ≠
+     BlackwoodAI/blackwood-rlcd ≠
+     Foodoo1/Qwen3-14B-RLCD-Decision-LoRA ≠
+     facebookresearch/RLCD.
+     Soft Noul ≠ hard safety: 67 ms / 0 tokens /
+     2.1% ECE are **sensors**. Treating an
+     untrained-looking demo as a reproduction
+     of Jev, or reverse-engineering as a
+     license, is theater.
+
+10. **Source-backed Awesome radar**
+
+    - **[`logicrw/awesome-jev-projects`](https://github.com/logicrw/awesome-jev-projects)**
+      (JavaScript MIT; **136★** live REST; 14
+      forks; created 2026-09-18T06:41:50Z;
+      pushed 2026-09-20T05:49:54Z; updated
+      2026-09-20T05:49:54Z; HEAD `97057cc1` (relock; was `45bab8c4`; README SHA unchanged);
+      README SHA `25a19b31`; LICENSE SHA
+      `6d7dc130`; GitHub `size` **7677** (relock; was **7136**);
+      default `main`). GitHub description
+      *theirs*: "Awesome Jev: source-backed
+      open-source ecosystem radar,
+      plain-language project discovery, and
+      automatic GitHub sync." README *theirs*:
+      306+ curated projects; commit-pinned
+      source evidence; Issue-only submissions
+      (no PRs); live radar at
+      logicrw.github.io. Do **not** paste listed
+      cua / jev-ultrafast / von numbers as
+      Augustus facts. Do **not** copy `npx
+      skills add`. Do not dump README.ja/ko/
+      zh (180k+ each). Gacha dispatcher is UX,
+      not evidence.
+
+      source-backed Awesome Jev radar / 306+ commit-pinned.
+      logicrw/awesome-jev-projects ≠ AnotiaWang/awesome-jev ≠ yibie/awesome-jev ≠ cobanov/awesome-jev ≠ rupeshpoojary9/awesome-open-system-one.
+      auto GitHub sync / Issue-only submissions.
+
+      **Placement.** Pillar: class map, not a
+      vendor. Hole: source-backed discovery
+      with auto sync. Family: catalog, not a
+      species. Fail polarity: do not launder
+      listed stars into Augustus receipts;
+      do not treat 306+ as a bake-off.
+      Eval path: none. **Empirical** as README
+      scope + live star count.
+
+      **Name lock:** always write
+      **logicrw/awesome-jev-projects**.
+      logicrw/awesome-jev-projects ≠
+      AnotiaWang/awesome-jev (**91★**) ≠
+      yibie/awesome-jev (**430★**) ≠
+      cobanov/awesome-jev (**224★**) ≠
+      fatwang2/awesome-jev ≠
+      Anil-matcha/awesome-jev-by-typesafe ≠
+      rupeshpoojary9/awesome-open-system-one ≠
+      OmniJev/awesome-jev.
+      Soft Noul ≠ hard safety: 136★ / 306+
+      are **sensors**. Treating a radar as a
+      scored board is theater.
+
+11. **Rival-aware one-pass scorer**
+
+    - **[`olanotolu/jevbetter`](https://github.com/olanotolu/jevbetter)**
+      (Python MIT; **12★** live REST; 2 forks;
+      created 2026-09-16T20:04:07Z; pushed
+      2026-09-16T21:24:08Z; updated
+      2026-09-19T13:09:13Z; HEAD `bb0ebc82`;
+      README SHA `5cbe01d4`; LICENSE SHA
+      `0959fa02`; GitHub `size` **324**; default
+      `main`). GitHub description *theirs*:
+      "A stronger one-pass scorer over a
+      variable list of text options. Hashed
+      n-gram encoder, rival-aware attention,
+      gated head, temperature scaling — with a
+      head-to-head benchmark vs the jevlike
+      starter design." README *theirs*: same
+      JSONL as
+      [`vinnylarouge/jevlike`](https://github.com/vinnylarouge/jevlike);
+      options attend to each other first;
+      independent, not affiliated with TypeSafe.
+      Head-to-head *theirs* (800 held-out hard
+      menus, CPU, matched 8 epochs): jevlike
+      top-1 **0.873** / ECE **0.0367** / **4608**
+      menus/sec; jevbetter top-1 **0.916** /
+      ECE **0.0182** / **40** menus/sec; MRR
+      **0.955**. Shuffled-context control
+      **0.335**. Was in the 2026-09-18 archive
+      as a low-star clone; this hour is the
+      first real card (rival-aware attention).
+      Do **not** dump `jevbetter/` / weights.
+      Do not copy pip / `--encoder hf` recipes.
+
+      hashed n-gram encoder / rival-aware attention.
+      olanotolu/jevbetter vs jevlike starter.
+      synthetic hard menus top-1 0.916 vs 0.873 / ECE 0.0182 vs 0.0367 / 40 vs 4608 menus/sec.
+      shuffled-context control 0.335.
+
+      **Placement.** Pillar: listwise / option-
+      interaction (ranking family) vs
+      sibling-blind (hev). Hole: variable-N
+      option scoring with rivals in the pool.
+      Family: from-scratch one-pass scorer
+      next to jevlike; **not** TypeSafe, **not**
+      a Jev distill. Fail polarity: do not
+      quote 0.916 as a class ceiling; do not
+      ignore the 100× throughput trade.
+      Eval path: synthetic hard menus *theirs*;
+      **not Harbor**. **Empirical** as README
+      scoreboard. **Hypothesis** on *your*
+      labels.
+
+      **Name lock:** always write
+      **olanotolu/jevbetter**.
+      olanotolu/jevbetter ≠ vinnylarouge/jevlike
+      ≠ TypeSafe Jev. Soft Noul ≠ hard safety:
+      0.916 / 0.0182 / 40 menus/sec are
+      **sensors**. Treating rival-aware
+      attention as option-isolation (the
+      opposite of hev sibling-blind), or
+      shuffled-context 0.335 as a Noul, is
+      theater.
+
+### Theater (do not)
+
+Treat hyusi's two-line README as a trained
+checkpoint / paste Colvin 26.89M as hyusi /
+collapse MiniSystemOne into mini-jev or kev;
+re-fold §60 six-gates as new / treat 20NG
+pass as "ORDER BY is safe on graded IR" /
+quote ESCI fail as "Jev cannot rank";
+treat jev-architect as Augustus / copy
+`npx skills add` / collapse into
+samtay32/jev-system-architect;
+distill Jev as teacher of record / treat
+size-1 distiller as a student;
+treat Jev self-scores as a product roadmap /
+paste $0.042 as an Augustus fact;
+treat jevinize as TypeSafe / copy Featherless
+demo keys;
+treat a fixture exit 1 as a class regression /
+collapse jev-diff into diffusiongemma-jev-macos /
+treat TV 0.2 as calibration;
+paste openjev-sglang 95.5% as OpenJevPro /
+treat constrained logprob + temp/Platt as a
+Noul / treat PolyForm NC as Apache / collapse
+into IamBusy/OpenJev / treat Qwen3.8-27B as
+Archer;
+quote SmolLM 67 ms / 2.1% ECE as Jev identity
+/ treat near-uniform demo as calibration /
+copy reverse-engineering as a license /
+collapse into rlcd-lite or blackwood;
+paste awesome-jev-projects listed von/cua
+numbers / collapse into AnotiaWang or yibie /
+treat 306+ as a bake-off / copy `npx skills
+add`;
+quote jevbetter 0.916 as a class ceiling /
+ignore 40 vs 4608 throughput / treat
+rival-aware attention as option-isolation.
+Invent tweets / Archer drop; dump source /
+keys / install recipes.
+
+### Census
+
+Census **not provided this hour** (not
+re-derived). Live REST pulse only: SemIf
+**2047★** (+28 vs §103 **2019**; +22 vs first 2340 pin **2025**; +16 vs first-review pin **2031**; +6 vs `babb111` **2041**); jevlike
+**1018★** (+12 vs §103 **1006**; +8 vs first-review **1010**; +7 vs `babb111` **1011**);
+TypeAR-AI/TypeAR **12★** **flat**;
+AnotiaWang/awesome-jev **91★** (+4 vs §103 **87**) still
+a **different object** from user-provided
+Awesomejev 561/27007 (§99 pin) and from
+logicrw/awesome-jev-projects **136★** (this
+hour). yibie/awesome-jev **430★** is another
+namesake, not re-carded. Archer still **NOT
+landed**. Hub `archerhume/4rcherhume` HTTP
+**401** (not a rewrite). Tracker
+`multimodalart/jev-reproductions-tracker`
+likes **56** (+2 vs §103 pin **54**);
+lastModified **CHANGED**
+`2026-09-20T04:29:16.000Z` (was §101/§103
+`2026-09-20T02:59:13Z`). `Tonic/4rcher-tracker`
+HTTP **401** (not the reproductions tracker).
+Qwen/Qwen3.8-27B
+HTTP **200** likes **15787** lastModified
+`2026-08-14T15:00:01.000Z`, author Qwen —
+≠ Archer. X MCP not used this hour; no
+invented tweets. `invented_signal: false`.
+Independent adversarial review relock
+(PR #22; after `babb111`):
+HIGH HEAD/README pins unchanged.
+logicrw **136★** (was **134★** / first pin **132★**;
+HEAD `97057cc1` / README SHA `25a19b31`
+unchanged — auto GitHub sync). SemIf **2047★** /
+jevlike **1018★**. AnotiaWang **91★** (was **88★** / §103 **87**).
+OpenJevPro GitHub size **64** (was **62**; HEAD
+`94d77bcb` / README SHA `50c77ace` unchanged).
+simple-jev **318★** (was **314★** / first-review **311★**). openjev-sglang
+**205★** (was **202★**). RLCD GitHub size **1513**
+(HEAD `62b103b3` unchanged). Colvin0315/MiniSystemOne
+size **814** (HEAD `ac5a0eea` / README SHA
+`f8c47847` unchanged). yibie **430★** (was **423★** / first-review **417★**);
+cobanov **224★** (was **221★**). Do not paste Colvin as hyusi.
+
+### Not
+
+Not a TypeSafe how-to. Not a MiniSystemOne /
+orderby / architect / distiller / jevinize /
+OpenJevPro / RLCD / awesome / jevbetter
+install guide. Not wrappers. Do not copy keys
+/ `npm` / `pip` / `npx` / `uv` / `mix` /
+`curl | sh` / `.env`. Do not re-fold 2246 /
+§103 / 2145 / §102 / 2041 / §101 / 1943 /
+§100 / 1843 / §99 / 1740 / §98 / 1639 / §96
+/ gliner-native-runtime / §97 / 1541 / §95 /
+jev-align *mechanism* / §93 / jev-orderby-bench
+*six-gates* / §60. Do not reply into finished
+agents. Do **not** merge from this review —
+parent merges after CLEAN.
+
+### Curated status
+
+2340 HIGH **folded** (11 HIGH / eleven
+clusters: MiniSystemOne from-scratch PRIMARY
+description-only stub; jev-orderby-bench ESCI
+hard-probe upgrade; jev-architect decision-loop
+skill; jev-distiller teacher-copy stub;
+jev-opportunities scored map; jevinize →
+simple-jev; jev-diff saved-decision regression;
+OpenJevPro constrained-logprob theater;
+jev-system-one-rlcd SmolLM NAR; awesome-jev-projects
+source-backed radar **136★**; jevbetter
+rival-aware vs jevlike). §103 / §102 / §101 /
+§100 / §99 / §98 / §97 / §96 / §95 / §93
+mechanism / §60 six-gates **not re-carded**.
+Archer still **NOT landed**. 0★ HIGH still
+got a real card (awesome-jev-projects **136★**;
+jevbetter **12★**). `invented_signal: false`.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`judgment-class.md`; `validation.md`;
+`applied-mappings.md`; `mappings.md`;
+`toolbox-mapping.md`; `composition-algebra.md`
+items 138–148; `question-design.md`;
+`methods-catalog.md`; `formal-methods.md`;
+`agent-self-assessment.md`. Hunches labeled.
+No wrapper.

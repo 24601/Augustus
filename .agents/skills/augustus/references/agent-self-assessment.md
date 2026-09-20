@@ -369,6 +369,16 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   conflict; ranking ≠ calibration / 0.5 still soft;
   fail-open failed evals not marked seen
   (`notes.md` §103).
+  **2340:** description-only stub / size 5 never a checkpoint;
+  ESCI hard probe fails four of six; jev_bool ECE 0.242 inversion 0.255;
+  do not re-fold §60 six-gates as new; Jairik/jev-distiller size 1;
+  distill-Jev UI stub / do not distill Jev as teacher of record;
+  Jev self-scores then human curation; simple-jev not TypeSafe;
+  same label can still change the branch; not tested with a live Jev API key;
+  constrained logprob + temp/Platt ≠ Noul; OpenJevPro pastes openjev-sglang JevBench as own;
+  demo P(True) 0.5052 / Choice conf 0.2872 / Score conf 0.0055;
+  do not paste listed radar numbers; do not quote 0.916 as a class ceiling
+  (`notes.md` §104).
   **Lease / retrieve:**
   [invalidate](https://github.com/chopratejas/invalidate) —
   memory leases ended by new evidence; unsure → review
