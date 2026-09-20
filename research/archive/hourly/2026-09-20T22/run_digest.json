@@ -1,0 +1,10 @@
+{
+  "hour": "2026-09-20T22",
+  "label": "1643",
+  "notes_section": "127",
+  "composition": "449-464",
+  "findings_batch": 109,
+  "revisit_high": 1,
+  "invented_signal": false,
+  "primary": "openjev 0.3.0 densify; restructured vLLM head \u2260 logit-equiv; Thresholds are policy not model"
+}

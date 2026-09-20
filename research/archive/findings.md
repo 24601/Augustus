@@ -1,6 +1,41 @@
 # Deep-read findings (evidence for research/notes.md)
 
 
+## Batch #109 (2026-09-20 ~16:43 Boise / ~22:43 UTC) - hourly 1643 HIGH
+
+Hourly 1643 uniqueness lock: razorback16/openjev densify HEAD febf02e88989 README SHA 242a737dba01; release 0.3.0; re-pin vLLM PR #57250 restructured head; VLLM_COMMIT baa8338; pyproject and __init__ agree 0.3.0; MODEL_VERSION stays openjev-0.1; uv.lock hygiene; dual serving is not generate; Hosted Codiv ≠ TypeSafe; restructured vLLM head ≠ logit-equiv; wire-compat ≠ logit-equiv; SHA move is not a replica; Error contract is not a Noul; frostney/clean-code-review 7★ typed judgments not opinions; documentation is read not judged; Luna writes from Jev findings; morcoan/JMP Joint Model Participation; Models participate. Real tools execute.; Jev routes actions generators supply arguments; not a swarm; zkjoie/jevbus Thresholds are policy not model; Drop < Review < Deliver; FanOut or Exclusive; Kelbie/hunch ≠ carldaws/hunch ≠ tpellet/hunch ≠ huncho; Agent Skills semantic review; SupratikB23/JevCanvas Jev never generates prose JSX or code; Diffusion never decides structure; json-render is the only renderer; skcache/jevtrafficsim Fixed Adaptive Jev; game success ≠ calibrated Noul; Shalimov04/open-jev ≠ razorback16/openjev ≠ TheoLeeCJ/openjev ≠ Zefan-Cai/Open-Jev; MstyAI/laya-onnx empty repo ≠ tozp/laya-onnx ≠ Mattepiu/laya-onnx ≠ gqgs/laya-onnx; SherifAshraf2003/jev-use ≠ shitianfang/jev-use; aniruddh-krovvidi/switchboard ≠ cannacre8ive/switchboard-ai; Visorian/TidyUp ≠ abhibansal60/tidy; isiomaC/jevkit ≠ WaynezProg/jev-kit; lee-lou2/jev-tree ≠ reachjalil/jev-tree; Royhu1/jev-poker-trainer empty repo; JoacoMarc/jev-harness-router ≠ jackbarunz/jev-tool-router; rh-guard owns primary gates; hf:Praveenrajus/jev-bench HTTP 200 was 401; hf:ZefanCai/Open-Jev densify dataset; LoRA ≠ RLCD replica; hf:emretheus/jev-rag-benchmark ≠ erendikmenn/jev-rag-benchmark; hf:ctaxnagomi/DGUI_HYPERMEM-JEV densify sha ab3d3529; hf:hugging-apps/open-jev-deberta-v3-large-demo encoder class member not Jev replica; serving substrate ≠ calibrated replica; catalog ≠ endorsement; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49; notes.md §127
+
+Note: `research/notes.md` §127. Docs + evaluator, fresh PR off latest
+`main` (`6672fbf` / merged #49 hourly 1542). Merged #49 owns §126.
+Merged #48 owns §125. Merged #47 owns §124. This fold
+stays §127 / items 449–464 / batch #109.
+**HARD RULE:** do not reopen or amend PR #23–#49.
+Quote READMEs. Soft Noul ≠ hard safety. Augustus owns
+placement. `invented_signal: false`.
+
+- **openjev 0.3.0 densify PRIMARY.** HEAD febf02e88989. release 0.3.0.
+  re-pin vLLM PR #57250 restructured head. MODEL_VERSION stays openjev-0.1.
+  uv.lock hygiene. restructured vLLM head ≠ logit-equiv.
+  dual serving is not generate. Hosted Codiv ≠ TypeSafe.
+- **clean-code-review / JMP / jevbus.** typed judgments not opinions.
+  documentation is read not judged. Models participate. Real tools execute.
+  Thresholds are policy not model. Drop < Review < Deliver.
+- **JevCanvas / jevtrafficsim / hunch.** Jev never generates prose JSX or code.
+  json-render is the only renderer. game success ≠ calibrated Noul.
+  Kelbie/hunch ≠ carldaws/hunch ≠ tpellet/hunch ≠ huncho.
+- **HF densify.** hf:Praveenrajus/jev-bench HTTP 200 was 401.
+  hf:ZefanCai/Open-Jev densify dataset. LoRA ≠ RLCD replica.
+  encoder class member not Jev replica. serving substrate ≠ calibrated replica.
+- **Namesakes / skip.** Shalimov04/open-jev ≠ razorback16/openjev.
+  MstyAI/laya-onnx empty repo. Royhu1/jev-poker-trainer empty repo.
+  catalog ≠ endorsement. Archer still promised_not_landed.
+
+Pulse: Archer still NOT landed. Hub archerhume/4rcherhume HTTP **401**.
+openjev **200★**. clean-code-review **7★**. JMP **2★**. jevbus **2★**.
+`invented_signal: false`.
+
+
+
 ## Batch #108 (2026-09-20 ~15:42 Boise / ~21:42 UTC) - hourly 1542 HIGH
 
 Hourly 1542 uniqueness lock: TypeLLM/TypeLLM densify HEAD 6a48f9f1e623 README SHA dbdc1f193537; README densify 3k→12k B; thinking=True/False per-field budget; type safety does not guarantee factual accuracy; Batch 5.8x *theirs*; Constrained AR ≠ calibrated Noul; Qwen/Qwen3.8-27B ≠ Archer; jaredpalmer/kev densify HEAD b339f446a0ef README SHA 86b0a19909f3; Kev-0.6B 4B 8B family; 4B new-source 0.790/0.806 *theirs*; 8B new-source 0.796/0.780 *theirs*; Jev hosted 0.857 *theirs*; Questions share the input text but cannot read each other; No Jev outputs were used for training; 8.2% ≥0.9 on wrong *theirs*; option order can change an answer; Qwen3 ≠ Archer; wire-compat ≠ logit-equiv; SHA move is not a replica; TheoOliveira/pi-jev 21★ fail-closed routing; JEV_THRESHOLD 0.65 still soft; routing ≠ permission; harshwasan/jev-sentinel fail closed never auto-allows; harshwasan/jev-sentinel ≠ leepokai/jev-guard; jackbarunz/jev-tool-router ≠ esinocchi/jev-tool-router; threshold 0.90 still soft; 76/81 vs 77/81 *theirs*; 0.419s vs 2.459s *theirs*; $0.00486 vs $0.03673 *theirs*; does not execute; not a security boundary; baronunread/leanest fail-open uncertainty means RUN; classifier.dev default Jev/Laya pluggable; openlayer-ai/jevals ≠ dayhaysoos/jevals; estimates not Harbor; classifier ≠ authorizer; MrJev/awesome-jev 118 entries catalog ≠ endorsement; MrJev/awesome-jev ≠ yibie/awesome-jev; Koushik890/jev-firewall fail closed ask_below 0.7 still soft; CompleteTech-LLC-AI-Research/jev-codex-approval experimental native not compiled; confidence is not a measured probability; rh-guard owns primary gates; hf:rAVEUK/open-jev-deberta-v3-large encoder class member not Jev replica; hf:p-yan/laya-quanto serving substrate ≠ calibrated replica; hf:Gtrkrsk/laya serving substrate ≠ calibrated replica; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48; notes.md §126

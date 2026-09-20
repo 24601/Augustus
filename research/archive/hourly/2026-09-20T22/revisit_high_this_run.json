@@ -1,0 +1,13 @@
+[
+  {
+    "id": "razorback16/openjev",
+    "source": "github",
+    "stars": 200,
+    "change_type": "release_densify",
+    "what_changed": "HEAD febf02e88989 (was cddbd962c88a): release 0.3.0 \u2014 re-pin vLLM to PR #57250 restructured head; README/Dockerfile/pyproject/__init__ bumps; uv.lock hygiene. Material serving-stack / version densify *theirs*",
+    "pushed_at": "2026-09-20T22:21:28Z",
+    "material": true,
+    "default_branch_sha": "febf02e889892747ced5497f2a17323731621ccd",
+    "prior_sha": "cddbd962c88a76d7344c09273ebc581f7658566e"
+  }
+]

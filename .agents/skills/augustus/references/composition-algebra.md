@@ -2833,3 +2833,83 @@ Hourly 1441 uniqueness lock: vLLM NVIDIA + MLX Apple Silicon; Codiv hosted free 
 
 **Hourly 1542 HIGH (`notes.md` §126).** TypeLLM README densify 3k→12k B. Batch 5.8x *theirs*. Constrained AR ≠ calibrated Noul. kev family densify. 4B new-source 0.790/0.806 *theirs*. 8.2% ≥0.9 on wrong *theirs*. option order can change an answer. fail-closed routing vs fail-open test selection. classifier ≠ authorizer. estimates not Harbor. catalog ≠ endorsement. SHA move is not a replica. Do not reopen or amend PR #23–#48. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
 Hourly 1542 uniqueness lock: TypeLLM/TypeLLM densify HEAD 6a48f9f1e623 README SHA dbdc1f193537; README densify 3k→12k B; thinking=True/False per-field budget; type safety does not guarantee factual accuracy; Batch 5.8x *theirs*; Constrained AR ≠ calibrated Noul; Qwen/Qwen3.8-27B ≠ Archer; jaredpalmer/kev densify HEAD b339f446a0ef README SHA 86b0a19909f3; Kev-0.6B 4B 8B family; 4B new-source 0.790/0.806 *theirs*; 8B new-source 0.796/0.780 *theirs*; Jev hosted 0.857 *theirs*; Questions share the input text but cannot read each other; No Jev outputs were used for training; 8.2% ≥0.9 on wrong *theirs*; option order can change an answer; Qwen3 ≠ Archer; wire-compat ≠ logit-equiv; SHA move is not a replica; TheoOliveira/pi-jev 21★ fail-closed routing; JEV_THRESHOLD 0.65 still soft; routing ≠ permission; harshwasan/jev-sentinel fail closed never auto-allows; harshwasan/jev-sentinel ≠ leepokai/jev-guard; jackbarunz/jev-tool-router ≠ esinocchi/jev-tool-router; threshold 0.90 still soft; 76/81 vs 77/81 *theirs*; 0.419s vs 2.459s *theirs*; $0.00486 vs $0.03673 *theirs*; does not execute; not a security boundary; baronunread/leanest fail-open uncertainty means RUN; classifier.dev default Jev/Laya pluggable; openlayer-ai/jevals ≠ dayhaysoos/jevals; estimates not Harbor; classifier ≠ authorizer; MrJev/awesome-jev 118 entries catalog ≠ endorsement; MrJev/awesome-jev ≠ yibie/awesome-jev; Koushik890/jev-firewall fail closed ask_below 0.7 still soft; CompleteTech-LLC-AI-Research/jev-codex-approval experimental native not compiled; confidence is not a measured probability; rh-guard owns primary gates; hf:rAVEUK/open-jev-deberta-v3-large encoder class member not Jev replica; hf:p-yan/laya-quanto serving substrate ≠ calibrated replica; hf:Gtrkrsk/laya serving substrate ≠ calibrated replica; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48; notes.md §126
+
+449. **openjev 0.3.0 densify PRIMARY** (razorback16/openjev):
+     densify §75. HEAD febf02e88989 README SHA 242a737dba01. 200★.
+     release 0.3.0. re-pin vLLM PR #57250 restructured head.
+     pyproject and __init__ agree 0.3.0. MODEL_VERSION stays openjev-0.1.
+     uv.lock hygiene. SHA move is not a replica.
+     Full cards: `judgment-class.md`, `validation.md`.
+450. **restructured vLLM head ≠ logit-equiv** (razorback16/openjev):
+     VLLM_COMMIT baa8338. subclass DiffusionAsyncScheduler.
+     restructured vLLM head ≠ logit-equiv. wire-compat ≠ logit-equiv.
+     dual serving is not generate. Hosted Codiv ≠ TypeSafe.
+     Error contract is not a Noul. Full cards: `faq.md`, `mixed-architecture.md`.
+451. **clean-code-review typed judgments** (frostney/clean-code-review):
+     7★ HEAD f020f8d9106d. typed judgments not opinions.
+     documentation is read not judged. Luna writes from Jev findings.
+     frostney/clean-code-review ≠ huntedman/JevLint.
+     Full cards: `mixed-architecture.md`, `validation.md`.
+452. **JMP route vs generate** (morcoan/JMP):
+     Joint Model Participation. Models participate. Real tools execute.
+     Jev routes actions generators supply arguments. not a swarm.
+     decide is not generate. Full cards: `faq.md`, `mixed-architecture.md`.
+453. **jevbus thresholds are policy** (zkjoie/jevbus):
+     Thresholds are policy not model. Drop < Review < Deliver.
+     FanOut or Exclusive. Full cards: `faq.md`, `validation.md`.
+454. **Kelbie/hunch namesake** (Kelbie/hunch):
+     Agent Skills semantic review.
+     Kelbie/hunch ≠ carldaws/hunch ≠ tpellet/hunch ≠ huncho.
+     Full cards: `faq.md`.
+455. **JevCanvas decide vs diffusion** (SupratikB23/JevCanvas):
+     Jev never generates prose JSX or code. Diffusion never decides structure.
+     json-render is the only renderer. Full cards: `mixed-architecture.md`.
+456. **jevtrafficsim game success ≠ Noul** (skcache/jevtrafficsim):
+     Fixed Adaptive Jev. game success ≠ calibrated Noul.
+     Full cards: `validation.md`.
+457. **remainder namesakes** (open-jev / laya-onnx / jev-use / switchboard / tidy / jevkit / jev-tree):
+     Shalimov04/open-jev ≠ razorback16/openjev ≠ TheoLeeCJ/openjev ≠ Zefan-Cai/Open-Jev.
+     MstyAI/laya-onnx empty repo ≠ tozp/laya-onnx ≠ Mattepiu/laya-onnx ≠ gqgs/laya-onnx.
+     SherifAshraf2003/jev-use ≠ shitianfang/jev-use.
+     aniruddh-krovvidi/switchboard ≠ cannacre8ive/switchboard-ai.
+     Visorian/TidyUp ≠ abhibansal60/tidy. isiomaC/jevkit ≠ WaynezProg/jev-kit.
+     lee-lou2/jev-tree ≠ reachjalil/jev-tree.
+     Full cards: `faq.md`.
+458. **empty repos skip-thin** (MstyAI/laya-onnx, Royhu1/jev-poker-trainer):
+     empty repo ≠ serving substrate. Royhu1/jev-poker-trainer empty repo.
+     skip-thin. Full cards: `faq.md`.
+459. **NaluKicks field trial / guide / bench**:
+     pre-registered field trial. vault-search-bench uses vault links as the answer key.
+     *theirs* not Harbor. Full cards: `validation.md`.
+460. **HF already-catalogued densify** (Praveenrajus / ZefanCai / emretheus / DGUI / INSTRUCT):
+     hf:Praveenrajus/jev-bench HTTP 200 was 401. densify is not a second census.
+     hf:ZefanCai/Open-Jev densify dataset. LoRA ≠ RLCD replica.
+     hf:emretheus/jev-rag-benchmark ≠ erendikmenn/jev-rag-benchmark.
+     hf:ctaxnagomi/DGUI_HYPERMEM-JEV densify sha ab3d3529.
+     Full cards: `applied-mappings.md`.
+461. **HF first-sighting spaces** (fastrisk / yolo-jev / deberta demo / r512):
+     hf:hugging-apps/open-jev-deberta-v3-large-demo encoder class member not Jev replica.
+     serving substrate ≠ calibrated replica. Locate ≠ decide.
+     Full cards: `judgment-class.md`, `faq.md`.
+462. **router cousins measurement notes** (jev-harness-router / pi-jev-model-router / pi-auto-model-router):
+     JoacoMarc/jev-harness-router ≠ jackbarunz/jev-tool-router.
+     rh-guard owns primary gates. catalog ≠ endorsement.
+     Full cards: `faq.md`.
+463. **skip-thin** (empty README, marketing sites, 0★ name-match):
+     SHA move is not a replica. skip-thin. Full cards: `faq.md`.
+464. **skip Archer** (promised_not_landed):
+     Qwen3 ≠ Archer. Hub archerhume/4rcherhume HTTP 401.
+     Archer still promised_not_landed. Full cards: `faq.md`.
+
+Hourly 1643 items 449–464 (`notes.md` §127). Do **not**
+re-fold §126 items 433–448 / §125 items 417–432 / §124 items 401–416
+/ §123 items 385–400 / §122 protocol / §121 items 369–384.
+Skip Archer rewrite.
+restructured vLLM head ≠ logit-equiv; Thresholds are policy not model;
+documentation is read not judged; json-render is the only renderer;
+game success ≠ calibrated Noul; wire-compat ≠ logit-equiv;
+SHA move is not a replica; catalog ≠ endorsement.
+do not reopen or amend PR #23–#49.
+Soft Noul ≠ hard safety.
+**Hourly 1643 HIGH (`notes.md` §127).** openjev release 0.3.0 densify. re-pin vLLM PR #57250 restructured head. restructured vLLM head ≠ logit-equiv. MODEL_VERSION stays openjev-0.1. dual serving is not generate. Hosted Codiv ≠ TypeSafe. typed judgments not opinions. Thresholds are policy not model. Jev never generates prose JSX or code. game success ≠ calibrated Noul. catalog ≠ endorsement. SHA move is not a replica. Do not reopen or amend PR #23–#49. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+Hourly 1643 uniqueness lock: razorback16/openjev densify HEAD febf02e88989 README SHA 242a737dba01; release 0.3.0; re-pin vLLM PR #57250 restructured head; VLLM_COMMIT baa8338; pyproject and __init__ agree 0.3.0; MODEL_VERSION stays openjev-0.1; uv.lock hygiene; dual serving is not generate; Hosted Codiv ≠ TypeSafe; restructured vLLM head ≠ logit-equiv; wire-compat ≠ logit-equiv; SHA move is not a replica; Error contract is not a Noul; frostney/clean-code-review 7★ typed judgments not opinions; documentation is read not judged; Luna writes from Jev findings; morcoan/JMP Joint Model Participation; Models participate. Real tools execute.; Jev routes actions generators supply arguments; not a swarm; zkjoie/jevbus Thresholds are policy not model; Drop < Review < Deliver; FanOut or Exclusive; Kelbie/hunch ≠ carldaws/hunch ≠ tpellet/hunch ≠ huncho; Agent Skills semantic review; SupratikB23/JevCanvas Jev never generates prose JSX or code; Diffusion never decides structure; json-render is the only renderer; skcache/jevtrafficsim Fixed Adaptive Jev; game success ≠ calibrated Noul; Shalimov04/open-jev ≠ razorback16/openjev ≠ TheoLeeCJ/openjev ≠ Zefan-Cai/Open-Jev; MstyAI/laya-onnx empty repo ≠ tozp/laya-onnx ≠ Mattepiu/laya-onnx ≠ gqgs/laya-onnx; SherifAshraf2003/jev-use ≠ shitianfang/jev-use; aniruddh-krovvidi/switchboard ≠ cannacre8ive/switchboard-ai; Visorian/TidyUp ≠ abhibansal60/tidy; isiomaC/jevkit ≠ WaynezProg/jev-kit; lee-lou2/jev-tree ≠ reachjalil/jev-tree; Royhu1/jev-poker-trainer empty repo; JoacoMarc/jev-harness-router ≠ jackbarunz/jev-tool-router; rh-guard owns primary gates; hf:Praveenrajus/jev-bench HTTP 200 was 401; hf:ZefanCai/Open-Jev densify dataset; LoRA ≠ RLCD replica; hf:emretheus/jev-rag-benchmark ≠ erendikmenn/jev-rag-benchmark; hf:ctaxnagomi/DGUI_HYPERMEM-JEV densify sha ab3d3529; hf:hugging-apps/open-jev-deberta-v3-large-demo encoder class member not Jev replica; serving substrate ≠ calibrated replica; catalog ≠ endorsement; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49; notes.md §127

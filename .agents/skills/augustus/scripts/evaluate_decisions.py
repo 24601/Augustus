@@ -399,6 +399,38 @@ def estimates_are_not_harbor(kind, harbor=False):
     return harbor is False
 
 
+
+
+def restructured_vllm_head_is_not_logit_equiv(package_version, pr, logit_equiv_claimed=False):
+    """openjev 0.3.0 re-pin vLLM PR #57250 restructured head ≠ logit-equiv."""
+    if package_version != "0.3.0":
+        raise ValueError("unexpected version")
+    if pr != "57250":
+        raise ValueError("unexpected pr")
+    return logit_equiv_claimed is False
+
+
+def thresholds_are_policy_not_model(thresholds_changed, new_judgment=False):
+    """zkjoie/jevbus: Thresholds are policy, not model."""
+    return thresholds_changed is True and new_judgment is False
+
+
+def documentation_is_read_not_judged(kind, judged=False):
+    """frostney/clean-code-review: documentation is read not judged."""
+    if kind != "documentation":
+        raise ValueError("unexpected kind")
+    return judged is False
+
+
+def json_render_is_capability_boundary(unknown_component, rejected=True):
+    """JevCanvas: json-render is the only renderer. Unknown components rejected."""
+    return unknown_component is True and rejected is True
+
+
+def empty_repo_is_not_serving_substrate(empty, serving_claimed=False):
+    """MstyAI/laya-onnx / Royhu1/jev-poker-trainer empty repo ≠ serving substrate."""
+    return empty is True and serving_claimed is False
+
 def hop_ece_permutation_invariant(rows, bins=10, key="p"):
     """Shuffle order; equal-width ECE must not move.
 
@@ -559,6 +591,22 @@ def self_test():
     assert not estimates_are_not_harbor("estimate", harbor=True)
     assert theirs_bench_is_not_harbor(16, "typellm-batch-5.8x")
     assert theirs_bench_is_not_harbor(81, "esinocchi-76-81")
+
+    # 1643: openjev 0.3.0 restructured head ≠ logit-equiv / thresholds are
+    # policy / documentation is read not judged / json-render boundary /
+    # empty repo ≠ serving substrate / game success ≠ Noul.
+    assert restructured_vllm_head_is_not_logit_equiv("0.3.0", "57250", False)
+    assert not restructured_vllm_head_is_not_logit_equiv("0.3.0", "57250", True)
+    assert thresholds_are_policy_not_model(True, False)
+    assert not thresholds_are_policy_not_model(True, True)
+    assert documentation_is_read_not_judged("documentation", False)
+    assert not documentation_is_read_not_judged("documentation", True)
+    assert json_render_is_capability_boundary(True, True)
+    assert not json_render_is_capability_boundary(True, False)
+    assert empty_repo_is_not_serving_substrate(True, False)
+    assert not empty_repo_is_not_serving_substrate(True, True)
+    assert theirs_bench_is_not_harbor(1, "openjev-0.3.0-pin")
+    assert decide_is_not_generate("decide")
 
     print("self-test ok")
 
