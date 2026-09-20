@@ -18,7 +18,7 @@ folds: `research/notes.md`.
 
 Hourly 0743 HIGH (`research/notes.md` §113 / composition
 items 273–288 / findings batch #96). Does **not** bump
-the 0.4.0 pin. Do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32.
+the 0.4.0 pin. Do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33.
 
 ### Added
 
@@ -37,12 +37,12 @@ the 0.4.0 pin. Do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32.
   `invented_signal: false`.
 - Uniqueness dump for this fold lives in
   [`research/changelog-hourly.md`](research/changelog-hourly.md).
-  Hourly 0743 uniqueness lock: Heman10x-NGU/Verdict-open-jev ≠ Heman10x-NGU/openJev-verdict-2.0; TF-IDF + LogReg ECE 0.0207 vs Jev 0.1440; Verdict-open-jev 48.07% vs Jev 90.80%; abstention combined recall 10.00%; p50 35.58 ms; K=25 (maximum capacity) 72.00%; 0.85 coverage 84.60% selective risk 1.18%; 26.1× faster than standard Qwen JSON generation; Jevify 90.0% / 167 ms CUDA graphs disabled; Finding 1: Brier on stated confidence alone is a trap; grpo_rlcr 0.78 / ECE 0.084; reliability 0.007 but resolution 0.000; 27 900 schema-driven decisions; 13 600 / 13 600 questions; candidate mass min 0.99999624; 22 configs · 166,054 rows · 4 calibration-gold; sha a39eba3f; Student B MAE 0.148 / Pearson 0.836 / 86.0%; pngwn/open-jev-laya-bench README 404; sha 9f69c742 likes 2; HDFS 0.9933 (745/750) / retain 0.0084; BGL ERROR/FATAL protection 1.0000; 2,479 / 2,500 HDFS uncertain; cache hit 0.9648 (2412/2500); $0.153936 estimated; E2 recomputes from saved probabilities; Space sha eda59e0a; MASSIVE English 0.783 / Khmer 0.033 / Hindi 0.133; 40–48 rows too small to ship T; T never changes argmax; siren2345/jev-single-decode-transformers ≠ siren2345/jev-single-decode; Split Transformers experiment from llama.cpp runtime; tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab; Four experiments stress-testing TypeSafe's Jev: calibration, bundle bias, label bias, and ensembling; second pass must be $0.00 from cache; The pages never call Jev; Gemma 4 31B 77.0% / Jev 1.13.0 61.4% / Laya 322M 0.0%; restriction state 95.0% against 84.4%; None of the systems are particularly good at knowing when to stop and ask; They skip the question and call a tool directly; 100% schema pass; six-field joint 48.8% vs 72.8%; ywchiu/jev_benchmark ≠ Running-Dolphins/jev-bench ≠ Praveenrajus/jev-bench; ACT / REVIEW / FALLBACK; A provider failure, timeout, malformed output, or missing answer is **not** a policy outcome; confidence is descriptive provider output, not a substitute for probability; Quality denominators include only valid scored answers; an exact halfway tie chooses the lower level; aiwithenoch/Jev-Skill ≠ simplosophy/jev-skill ≠ laguagu/jev-skills; The local path does not claim to turn a smaller checkpoint into Jev; Low support becomes decision: "review"; MIT-0 SPDX NOASSERTION; current-llm; 结构兼容，不是 Jev 模型能力; altryne/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify; Find where Jev belongs. Design the questions. Measure the difference; TypeAR-AI/TypeAR 301 → TypeLLM/TypeLLM; TypeLLM/TypeLLM 16★; SemIf 2237★ (+30 vs §111 2207); jevlike 1049★ (+6 vs 1043); AnotiaWang 98★ (+1 vs 97); yibie/awesome-jev 521★ (+15 vs 506); Laya likes 861 (was 822); tracker likes 66 (+2 vs 64); lastModified UNCHANGED `2026-09-20T04:29:16.000Z`; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32; notes.md §113
+  Hourly 0743 uniqueness lock: Heman10x-NGU/Verdict-open-jev ≠ Heman10x-NGU/openJev-verdict-2.0; TF-IDF + LogReg ECE 0.0207 vs Jev 0.1440; Verdict-open-jev 48.07% vs Jev 90.80%; abstention combined recall 10.00%; p50 35.58 ms; K=25 (maximum capacity) 72.00%; 0.85 coverage 84.60% selective risk 1.18%; 26.1× faster than standard Qwen JSON generation; Jevify 90.0% / 167 ms CUDA graphs disabled; Finding 1: Brier on stated confidence alone is a trap; grpo_rlcr 0.78 / ECE 0.084; reliability 0.007 but resolution 0.000; 27 900 schema-driven decisions; 13 600 / 13 600 questions; candidate mass min 0.99999624; 22 configs · 166,054 rows · 4 calibration-gold; sha a39eba3f; Student B MAE 0.148 / Pearson 0.836 / 86.0%; pngwn/open-jev-laya-bench README 404; sha 9f69c742 likes 2; HDFS 0.9933 (745/750) / retain 0.0084; BGL ERROR/FATAL protection 1.0000; 2,479 / 2,500 HDFS uncertain; cache hit 0.9648 (2412/2500); $0.153936 estimated; E2 recomputes from saved probabilities; Space sha eda59e0a; MASSIVE English 0.783 / Khmer 0.033 / Hindi 0.133; 40–48 rows too small to ship T; T never changes argmax; siren2345/jev-single-decode-transformers ≠ siren2345/jev-single-decode; Split Transformers experiment from llama.cpp runtime; tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab; Four experiments stress-testing TypeSafe's Jev: calibration, bundle bias, label bias, and ensembling; second pass must be $0.00 from cache; The pages never call Jev; Gemma 4 31B 77.0% / Jev 1.13.0 61.4% / Laya 322M 0.0%; restriction state 95.0% against 84.4%; None of the systems are particularly good at knowing when to stop and ask; They skip the question and call a tool directly; 100% schema pass; six-field joint 48.8% vs 72.8%; ywchiu/jev_benchmark ≠ Running-Dolphins/jev-bench ≠ Praveenrajus/jev-bench; ACT / REVIEW / FALLBACK; A provider failure, timeout, malformed output, or missing answer is **not** a policy outcome; confidence is descriptive provider output, not a substitute for probability; Quality denominators include only valid scored answers; an exact halfway tie chooses the lower level; aiwithenoch/Jev-Skill ≠ simplosophy/jev-skill ≠ laguagu/jev-skills; The local path does not claim to turn a smaller checkpoint into Jev; Low support becomes decision: "review"; MIT-0 SPDX NOASSERTION; current-llm; 结构兼容，不是 Jev 模型能力; altryne/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify; Find where Jev belongs. Design the questions. Measure the difference; TypeAR-AI/TypeAR 301 → TypeLLM/TypeLLM; TypeLLM/TypeLLM 16★; SemIf 2239★ (+32 vs §111 2207); jevlike 1049★ (+6 vs 1043); AnotiaWang 98★ (+1 vs 97); yibie/awesome-jev 522★ (+16 vs 506); Laya likes 862 (was 822); tracker likes 66 (+2 vs 64); lastModified UNCHANGED `2026-09-20T04:29:16.000Z`; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33; notes.md §113
 
 ## [0.4.0] - 2026-09-20
 
 Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skills/tree/v0.5.7)
-(`65a39f3`, 2026-09-12). Live HEAD of that repo is still this commit —
+(`65a39f3`, 2026-09-12). Live HEAD of that repo is still this commit,
 the only tagged official-skill revision.
 
 Twenty-eight commits on `main` after the v0.3.0 tag (merged #2–#30,
@@ -60,7 +60,7 @@ branch and is not part of this release.
   encoder zero-shot classifiers.
 - **Encoder / ZS lineage (Merve Noyan, `notes.md` §112).** Institutional
   HF voice: BERTForXYZ → DeBERTa → ModernBERT. Many problems solved with
-  LLMs could have been solved with zero-shot classifiers — it was a
+  LLMs could have been solved with zero-shot classifiers. It was a
   skill issue. Prefer DeBERTa and ModernBERT heads. Jev vs GPT-5.6
   bakeoffs are a category error. Softmax / ZS scores still ≠ calibrated
   Noul; soft scores ≠ hard gates. Multimodal image↔text ZS is a
@@ -177,7 +177,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   (jev-gate-student-b 148k corpus, jp-sns-jev7 ONNX, open-jev-deberta,
   mini-jev-runs 27.9k logits, jev-tree-choice-cap); device/harness
   (jev-mobile MCP, jev-macos-loop, jev-harness, routeKit); HacksonClark
-  SREGym-Lite 20/50→24/50 — rank tests, do not diagnose
+  SREGym-Lite 20/50→24/50: rank tests, do not diagnose
 - Hourly ~11:59 Boise fold (`research/notes.md` §42): Archer still
   Watch. Three open paths (encoder / AR constrained decode / trained
   decision-only). Native constrained serving
@@ -203,7 +203,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   for Hypothesis mapping cards; complements `evaluate_decisions.py`. Not a
   jevals how-to (`research/notes.md` §24; one sentence in `validation.md`)
 - Mental-models card: Augustus is design judgment across AI, SWE,
-  business, knowledge work, and life — not SWE-only. Pillars: expected
+  business, knowledge work, and life, not SWE-only. Pillars: expected
   utility / selective classification, calibration and cost-sensitive
   thresholds, VOI, MCDA, search/control substitutions, signal detection,
   Leveson org/safety, NATM/snap-fit/Norman/Kent/Shirky as general
@@ -219,11 +219,11 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   when-to-use table; FAQ confidence / surfaces questions.
 - Entropy as allocator (**Hypothesis**, `judgment-class.md`): Atallah's
   low / medium / high buckets place System One on typed decisions and a
-  frontier decoder on high-entropy synthesis — same axis as marginals
+  frontier decoder on high-entropy synthesis, same axis as marginals
   vs joint and as VOI. "Review this PR" as medium is still partly
   generative; "first model ever" is a claim. `research/notes.md` §38
 - Marginals, not a probabilistic program (`judgment-class.md`, FAQ):
-  Erik Meijer — Jev is a cool API and not a PPL; Kleisli qualifications
+  Erik Meijer: Jev is a cool API and not a PPL; Kleisli qualifications
   exaggerate; "Jev gives you the marginals; a decoder gives you the
   joint." Joints and invariants stay with TLA+ / Alloy / contracts.
   `research/notes.md` §34
@@ -261,7 +261,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   choice including GLiNER/GLiClass/listwise/vision) plus an explicit `not_for`
   against the official `typesafe-ai` skill
 - Identity lock vs neighbor skills (`typesafe-ai`, `tenbin`, `decision-first`)
-  so Augustus stays the design-judgment layer — class-wide, not TypeSafe-only
+  so Augustus stays the design-judgment layer, class-wide, not TypeSafe-only
 - Design cards name hole, family, and typed judgment provider (Jev default;
   other family only with self-eval)
 - Protocol fan-out step is family-aware (Jev batch, GLiClass one-pass,
@@ -330,7 +330,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
 ## [0.1.0] - 2026-09-18
 
 Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skills/tree/v0.5.7)
-(`65a39f3`, 2026-09-12) — the only tagged revision of the official skill at
+(`65a39f3`, 2026-09-12), the only tagged revision of the official skill at
 Augustus launch.
 
 ### Added
