@@ -53,7 +53,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   Calibration is not alpha; NO CURRENT ALPHA CANDIDATE;
   ΔR² approximately +0.00084; Brier 0.2131387; ECE 0.0421875;
   Adding Jev probability to deterministic volatility improved Brier by only 1.4058e-05;
-  Python MIT LICENSE SHA `cbfc2daf`; **0★**; HEAD `064b75f5`; README SHA `874ea57b`; size **0** WITH CONTENTS);
+  Python MIT LICENSE SHA `cbfc2daf`; **0★**; HEAD `064b75f5`; README SHA `874ea57b`; size **268**);
   ([OrMizL/jev-compaction-bench](https://github.com/OrMizL/jev-compaction-bench)
   default 0.5 keeps zero non pinned;
   keepResult median 0.14 to 0.17; keepCall median 0.28 to 0.35;
@@ -71,12 +71,12 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   ([elyashium/atlas-replay-lab](https://github.com/elyashium/atlas-replay-lab)
   rule-based by default, optionally Jev-backed; empty README;
   missing key cannot break the experience;
-  JavaScript; GitHub license null; **0★**; HEAD `e0a10603`; size **197**);
+  JavaScript; GitHub license null; **0★**; HEAD `9856ab9b`; size **197**);
   ([siren2345/jev-single-decode](https://github.com/siren2345/jev-single-decode)
   prefill plus exactly one decode; softmax over A/B/C ≠ Noul;
   BBQ 9,053/10,000 (90.53%); ECE 0.0890; Mean confidence 0.9943;
   overconfident; score and noul not implemented;
-  Python MIT LICENSE SHA `3551844d`; **0★**; HEAD `be5ed87a`; README SHA `0c7bfbe8`; size **0** WITH CONTENTS);
+  Python MIT LICENSE SHA `3551844d`; **0★**; HEAD `fda74a09`; README SHA `33d755d6`; size **432**);
   **datasets / Spaces**
   (hfdataset:ctaxnagomi/DGUI_HYPERMEM-JEV
   DGUI 12 rows (was 6); sha `ab3d3529`);
@@ -97,21 +97,21 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   **applied / skills / economics**
   ([IslamBaraka90/jev-typesafe-real-financial-use-cases](https://github.com/IslamBaraka90/jev-typesafe-real-financial-use-cases)
   fifty recorded demos; recorded ≠ alpha;
-  JavaScript MIT LICENSE SHA `caaa17a8`; **0★**; HEAD `be357aad`; README SHA `5329b92e`; size **6168**);
+  JavaScript MIT LICENSE SHA `caaa17a8`; **0★**; HEAD `9d2eb48c`; README SHA `5329b92e`; size **6168**);
   ([Milo318/mailordinal](https://github.com/Milo318/mailordinal)
   200-case Jev 97.0% / 100.0% / 95.0% / MAE 9.22;
   synthetic repository benchmark;
   TypeScript MIT LICENSE SHA `66faa16d`; **0★**; HEAD `19ea819d`; README SHA `a8df45fe`; size **109**);
   ([Pleo2/awesome-jev-agent-skills](https://github.com/Pleo2/awesome-jev-agent-skills)
   Jev evaluations are advisory; catalog ≠ endorsement;
-  Python MIT LICENSE SHA `25d9aa30`; **0★**; HEAD `42e3d179`; README SHA `efbe7ccf`; size **0** WITH CONTENTS);
+  Python MIT LICENSE SHA `25d9aa30`; **0★**; HEAD `42e3d179`; README SHA `efbe7ccf`; size **18**);
   ([YehuiTang0316/jev-nlgrep](https://github.com/YehuiTang0316/jev-nlgrep)
   YehuiTang0316/jev-nlgrep ≠ Bentlybro/jevgrep ≠ can1357/jegrep ≠ uehaj/jev-semgrep;
   default threshold 0.8 still soft; 40-line windows cannot prove whole function;
-  TypeScript MIT LICENSE SHA `17cdbc7e`; **1★**; HEAD `ceec0d92`; README SHA `49e98f18`; size **0** WITH CONTENTS);
+  TypeScript MIT LICENSE SHA `17cdbc7e`; **1★**; HEAD `ceec0d92`; README SHA `49e98f18`; size **6734**);
   ([dangquan1402/jev-extract](https://github.com/dangquan1402/jev-extract)
   token-native sequential start/end Choice; Gemini/Haiku stubs not configured yet;
-  Python MIT LICENSE SHA `d66f9c7a`; **0★**; HEAD `8ab35925`; README SHA `9561e53d`; size **0** WITH CONTENTS);
+  Python MIT LICENSE SHA `d66f9c7a`; **0★**; HEAD `20c2f19f`; README SHA `9561e53d`; size **105**);
   ([jyje/pilot-typesafeai-jev](https://github.com/jyje/pilot-typesafeai-jev)
   handful of hand-written examples, not a benchmark;
   Jev judged exactly what it was given;
@@ -122,18 +122,18 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   ([lorensation/llm-cost-optimizer-jev](https://github.com/lorensation/llm-cost-optimizer-jev)
   contract_passed is not a claim of guaranteed factual truth;
   Wilson lower bound 0.85 floor; fixture mode no savings claim;
-  Python Apache-2.0 LICENSE SHA `261eeb9e`; **0★**; HEAD `ff3fc054`; README SHA `6f2a595a`; size **227**).
-  SemIf 2198★ (+12 vs §110 2186);
-  jevlike 1039★ (+1 vs 1038);
+  Python Apache-2.0 LICENSE SHA `261eeb9e`; **0★**; HEAD `db200b7e`; README SHA `6f2a595a`; size **227**).
+  SemIf 2206★ (+20 vs §110 2186);
+  jevlike 1042★ (+4 vs 1038);
   TypeAR 14★ flat;
-  AnotiaWang 96★ flat;
-  yibie/awesome-jev 498★ (+8 vs 490);
-  Laya likes 811 (was 802);
+  AnotiaWang 97★ (+1 vs 96);
+  yibie/awesome-jev 503★ (+13 vs 490);
+  Laya likes 817 (was 802);
   tracker likes 64 flat, lastModified UNCHANGED;
   Laya present; Blackwood ABSENT; Archer still promised_not_landed.
   0★ HIGH still got a real card. Soft Noul ≠ hard safety.
   `invented_signal: false`.
-  Hourly 0646 uniqueness lock: Calibration is not alpha; NO CURRENT ALPHA CANDIDATE; ΔR² approximately +0.00084; Brier 0.2131387; ECE 0.0421875; Adding Jev probability to deterministic volatility improved Brier by only 1.4058e-05; default 0.5 keeps zero non pinned; keepResult median 0.14 to 0.17; keepCall median 0.28 to 0.35; usable range is about 0.10 to 0.25; 7.8% to 57.9%; judges results it never sees; task-finish eval not built yet; $0.002 per compaction; slavadubrov/sgr-judge-bench ≠ slavadubrov/jev-judge-bench; Jev 108/120 $0.083 0.34 s; Luna SGR 114/120; paired Jev accuracy-difference intervals include zero; not evidence of equivalence; GLM SGR 26/120 93 format failures; Terra-planned Jev hybrid 55/120; rule-based by default, optionally Jev-backed; empty README; missing key cannot break the experience; prefill plus exactly one decode; softmax over A/B/C ≠ Noul; BBQ 9,053/10,000 (90.53%); ECE 0.0890; Mean confidence 0.9943; overconfident; score and noul not implemented; DGUI 12 rows (was 6); INSTRUCT 119 rows likes 2; encode the state once, decide everything in parallel; 0.740 accuracy against a 0.508 majority; ECE 0.047; fine-tune's advantage ends where its 384-token training data does; jasonkneen/open-jev ≠ pngwn/open-jev; same sha d41dc3cd; Space does not call Jev; recomputes routing from saved probabilities; 200-case Jev 97.0% / 100.0% / 95.0% / MAE 9.22; synthetic repository benchmark; Jev evaluations are advisory; YehuiTang0316/jev-nlgrep ≠ Bentlybro/jevgrep ≠ can1357/jegrep ≠ uehaj/jev-semgrep; default threshold 0.8 still soft; 40-line windows cannot prove whole function; token-native sequential start/end Choice; Gemini/Haiku stubs not configured yet; handful of hand-written examples, not a benchmark; Jev judged exactly what it was given; laguagu/jev-skills ≠ laguagu/jev-evidence-lab ≠ Pleo2/awesome-jev-agent-skills; contract_passed is not a claim of guaranteed factual truth; Wilson lower bound 0.85 floor; fixture mode no savings claim; SemIf 2198★ (+12 vs §110 2186); jevlike 1039★ (+1 vs 1038); TypeAR 14★ flat; AnotiaWang 96★ flat; yibie/awesome-jev 498★ (+8 vs 490); Laya likes 811 (was 802); tracker likes 64 flat, lastModified UNCHANGED; do not reopen or amend PR #23/#24/#25/#26/#27/#28.
+  Hourly 0646 uniqueness lock: Calibration is not alpha; NO CURRENT ALPHA CANDIDATE; ΔR² approximately +0.00084; Brier 0.2131387; ECE 0.0421875; Adding Jev probability to deterministic volatility improved Brier by only 1.4058e-05; default 0.5 keeps zero non pinned; keepResult median 0.14 to 0.17; keepCall median 0.28 to 0.35; usable range is about 0.10 to 0.25; 7.8% to 57.9%; judges results it never sees; task-finish eval not built yet; $0.002 per compaction; slavadubrov/sgr-judge-bench ≠ slavadubrov/jev-judge-bench; Jev 108/120 $0.083 0.34 s; Luna SGR 114/120; paired Jev accuracy-difference intervals include zero; not evidence of equivalence; GLM SGR 26/120 93 format failures; Terra-planned Jev hybrid 55/120; rule-based by default, optionally Jev-backed; empty README; missing key cannot break the experience; prefill plus exactly one decode; softmax over A/B/C ≠ Noul; BBQ 9,053/10,000 (90.53%); ECE 0.0890; Mean confidence 0.9943; overconfident; score and noul not implemented; DGUI 12 rows (was 6); INSTRUCT 119 rows likes 2; encode the state once, decide everything in parallel; 0.740 accuracy against a 0.508 majority; ECE 0.047; fine-tune's advantage ends where its 384-token training data does; jasonkneen/open-jev ≠ pngwn/open-jev; same sha d41dc3cd; Space does not call Jev; recomputes routing from saved probabilities; 200-case Jev 97.0% / 100.0% / 95.0% / MAE 9.22; synthetic repository benchmark; Jev evaluations are advisory; YehuiTang0316/jev-nlgrep ≠ Bentlybro/jevgrep ≠ can1357/jegrep ≠ uehaj/jev-semgrep; default threshold 0.8 still soft; 40-line windows cannot prove whole function; token-native sequential start/end Choice; Gemini/Haiku stubs not configured yet; handful of hand-written examples, not a benchmark; Jev judged exactly what it was given; laguagu/jev-skills ≠ laguagu/jev-evidence-lab ≠ Pleo2/awesome-jev-agent-skills; contract_passed is not a claim of guaranteed factual truth; Wilson lower bound 0.85 floor; fixture mode no savings claim; SemIf 2206★ (+20 vs §110 2186); jevlike 1042★ (+4 vs 1038); TypeAR 14★ flat; AnotiaWang 97★ (+1 vs 96); yibie/awesome-jev 503★ (+13 vs 490); Laya likes 817 (was 802); tracker likes 64 flat, lastModified UNCHANGED; do not reopen or amend PR #23/#24/#25/#26/#27/#28.
 
 - Hourly 0541 HIGH (`research/notes.md` §110): **Skip
   Archer rewrite.** Live-REST relock after adversarial

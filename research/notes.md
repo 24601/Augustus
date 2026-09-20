@@ -26821,12 +26821,12 @@ laguagu/jev-skills ≠ laguagu/jev-evidence-lab ≠ Pleo2/awesome-jev-agent-skil
 contract_passed is not a claim of guaranteed factual truth;
 Wilson lower bound 0.85 floor;
 fixture mode no savings claim;
-SemIf 2198★ (+12 vs §110 2186);
-jevlike 1039★ (+1 vs 1038);
+SemIf 2206★ (+20 vs §110 2186);
+jevlike 1042★ (+4 vs 1038);
 TypeAR 14★ flat;
-AnotiaWang 96★ flat;
-yibie/awesome-jev 498★ (+8 vs 490);
-Laya likes 811 (was 802);
+AnotiaWang 97★ (+1 vs 96);
+yibie/awesome-jev 503★ (+13 vs 490);
+Laya likes 817 (was 802);
 tracker likes 64 flat, lastModified UNCHANGED;
 do not reopen or amend PR #23/#24/#25/#26/#27/#28.
 
@@ -26856,7 +26856,7 @@ PRIMARY**
    Harbor-jevals this hour; business / markets, not
    SWE-only) — alakise/calibration-is-not-alpha Python
    MIT; **0★**; HEAD `064b75f5`; README SHA `874ea57b`;
-   LICENSE SHA `cbfc2daf`; size **0** WITH CONTENTS;
+   LICENSE SHA `cbfc2daf`; size **268**;
    created this hour. Calibration is not alpha. Academic
    companion, not a trading product. Active trading
    project closed after experiments failed. NO CURRENT
@@ -26881,7 +26881,7 @@ PRIMARY**
    MIT; **0★**; HEAD `92fd33e6`; README SHA `c7cd8b6e`;
    LICENSE SHA `3f4e7f2b`; size **0** WITH CONTENTS.
    Built against tamaratran/fast-jev-compaction (commit
-   `e3f262a`, v0.2.0; **4690★** this pass — densify
+   `e3f262a`, v0.2.0; **4707★** this pass — densify
    pointer, not a rewrite). Three real sessions 99 / 153
    / 78 tool calls. default 0.5 keeps zero non pinned.
    keepResult median 0.14 to 0.17; keepCall median 0.28
@@ -26927,8 +26927,9 @@ PRIMARY**
 
 4. **elyashium/atlas-replay-lab** — elyashium/atlas-replay-lab
    JavaScript; GitHub license **null** (package.json
-   MIT); **0★**; HEAD `e0a10603`; empty README; size
-   **197**; default **master**. Capability-aware quality
+   MIT); **0★**; HEAD `9856ab9b`; empty README; size
+   **197**; default **master**. Empty README holds after
+   later HEAD (ADRs/tests). Capability-aware quality
    ladder, privacy-safe flight recorder, deterministic
    replay, pluggable decision layer: rule-based by
    default, optionally Jev-backed. Engine selection:
@@ -26942,9 +26943,10 @@ PRIMARY**
    Do **not** copy keys.
 
 5. **siren2345/jev-single-decode** — siren2345/jev-single-decode
-   Python MIT; **0★**; HEAD `be5ed87a`; README SHA
-   `0c7bfbe8`; LICENSE SHA `3551844d`; size **0** WITH
-   CONTENTS. Prefill plus exactly one decode over A/B/C.
+   Python MIT; **0★**; HEAD `fda74a09`; README SHA
+   `33d755d6`; LICENSE SHA `3551844d`; size **432**.
+   BBQ table *theirs* still 9,053/10,000 (90.53%) / ECE 0.0890 /
+   Mean confidence 0.9943 after README SHA move. Prefill plus exactly one decode over A/B/C.
    softmax over A/B/C ≠ Noul. score and noul not
    implemented. BBQ 10,000 random (`seed 42`, not full
    58,492): BBQ 9,053/10,000 (90.53%); ECE 0.0890; Mean
@@ -27036,7 +27038,7 @@ PRIMARY**
 
 13. **IslamBaraka90/jev-typesafe-real-financial-use-cases**
     — IslamBaraka90/jev-typesafe-real-financial-use-cases
-    JavaScript MIT; **0★**; HEAD `be357aad`; README SHA
+    JavaScript MIT; **0★**; HEAD `9d2eb48c`; README SHA
     `5329b92e`; LICENSE SHA `caaa17a8`; size **6168**.
     Fifty recorded demos across ledgers / fraud /
     portfolios / trades / filings; graded against data
@@ -27067,7 +27069,7 @@ PRIMARY**
 15. **Pleo2/awesome-jev-agent-skills** —
     Pleo2/awesome-jev-agent-skills Python MIT; **0★**;
     HEAD `42e3d179`; README SHA `efbe7ccf`; LICENSE SHA
-    `25d9aa30`; size **0** WITH CONTENTS. Five skills:
+    `25d9aa30`; size **18**. Five skills:
     diagnose-failures / test-coverage / review-diff /
     extraction-review / qa-evidence. Jev evaluations are
     advisory. They do not establish test coverage, source
@@ -27081,8 +27083,8 @@ PRIMARY**
 
 16. **YehuiTang0316/jev-nlgrep** — YehuiTang0316/jev-nlgrep
     TypeScript MIT; **1★**; HEAD `ceec0d92`; README SHA
-    `49e98f18`; LICENSE SHA `17cdbc7e`; size **0** WITH
-    CONTENTS. YehuiTang0316/jev-nlgrep ≠ Bentlybro/jevgrep
+    `49e98f18`; LICENSE SHA `17cdbc7e`; size **6734**.
+    YehuiTang0316/jev-nlgrep ≠ Bentlybro/jevgrep
     ≠ can1357/jegrep ≠ uehaj/jev-semgrep. Meaning-search
     CLI (`nlgrep`). default threshold 0.8 still soft.
     40-line windows cannot prove whole function. No BRE /
@@ -27096,9 +27098,9 @@ PRIMARY**
     `npm i -g` / `JEV_KEY`.
 
 17. **dangquan1402/jev-extract** — dangquan1402/jev-extract
-    Python MIT; **0★**; HEAD `8ab35925`; README SHA
-    `9561e53d`; LICENSE SHA `d66f9c7a`; size **0** WITH
-    CONTENTS. token-native sequential start/end Choice
+    Python MIT; **0★**; HEAD `20c2f19f`; README SHA
+    `9561e53d`; LICENSE SHA `d66f9c7a`; size **105**.
+    token-native sequential start/end Choice
     (criteria keys are positions). Sentence-candidate
     Choice remains coarse mode. Gemini/Haiku stubs not
     configured yet. Classification/extraction benches
@@ -27139,7 +27141,7 @@ PRIMARY**
 
 20. **lorensation/llm-cost-optimizer-jev** —
     lorensation/llm-cost-optimizer-jev Python Apache-2.0;
-    **0★**; HEAD `ff3fc054`; README SHA `6f2a595a`;
+    **0★**; HEAD `db200b7e`; README SHA `6f2a595a`;
     LICENSE SHA `261eeb9e`; size **227**. Evidence-based
     router; starts in fixture mode. fixture mode no
     savings claim. contract_passed is not a claim of
@@ -27154,7 +27156,9 @@ PRIMARY**
     SENSOR on task-family remainder. Hard-gating Wilson
     0.85 as “the route is true” is soundness theater
     (same class as jev-spec 0.85-as-85% §110). Do **not**
-    copy `.env` / `uvicorn`.
+    copy `.env` / `uvicorn`. README SHA `6f2a595a` HOLD vs
+    later HEAD; do **not** dump a post-README experiment
+    as Harbor.
 
 ### Theater (do not)
 
@@ -27190,18 +27194,18 @@ reopen or amend PR #23 or #24 or #25 or #26 or #27 or #28.
 
 Census **not provided this hour** (not
 re-derived). Live REST pulse only: SemIf
-**2198★** (+12 vs §110 **2186**; +32 vs §109
-**2166**); jevlike **1039★** (+1 vs §110 **1038**);
+**2206★** (+20 vs §110 **2186**; +40 vs §109
+**2166**); jevlike **1042★** (+4 vs §110 **1038**);
 TypeAR-AI/TypeAR **14★** **flat** vs §110;
-AnotiaWang/awesome-jev **96★** **flat** vs §110
+AnotiaWang/awesome-jev **97★** (+1 vs §110 **96**)
 still a **different object** from
-yibie/awesome-jev **498★** (+8 vs §110 **490**).
+yibie/awesome-jev **503★** (+13 vs §110 **490**).
 Tracker `multimodalart/jev-reproductions-tracker`
 likes **64** **flat** vs §109–§110;
 lastModified **UNCHANGED**
 `2026-09-20T04:29:16.000Z`. Tracker as *model*
 HTTP **401**; as *space* HTTP 200. Laya **present**
-(`convaiinnovations/laya` likes **811** vs §110
+(`convaiinnovations/laya` likes **817** vs §110
 **802**). Blackwood Hub HTTP 200 likes **2** gated
 **manual** sha `3b9e29df` lastModified
 2026-09-18T21:49:56Z **UNCHANGED** **ABSENT** from
@@ -27210,6 +27214,11 @@ Hub `archerhume/4rcherhume` HTTP **401** (not a
 rewrite). Qwen3.8-27B ≠ Archer.
 typesafe-ai/skills still v0.5.7 HEAD `65a39f3`.
 X MCP not used this hour; no invented tweets.
+HEAD relock this pass: atlas `9856ab9b` (empty README holds);
+jev-single-decode `fda74a09` / README `33d755d6` (BBQ table
+unchanged *theirs*); financial `9d2eb48c`; jev-extract
+`20c2f19f`; cost-optimizer `db200b7e` (README SHA HOLD).
+GitHub size lag caught up as in the 0★ card list.
 `invented_signal: false`.
 
 Do-not-re-card densify (same species, likes/sha
@@ -27222,10 +27231,10 @@ mechanism §69 (row count 6→12 only); ikermoel GH
 family §50/§53/§96; pngwn/open-jev-laya-bench §46.
 
 0★ HIGH still got a real card (nlgrep **1★**; jevlogs
-GH **8★**; the rest **0★**. Size **0** WITH CONTENTS:
-compaction-bench, calibration-is-not-alpha,
-sgr-judge-bench, jev-single-decode, Pleo2, nlgrep,
-jev-extract. Size **197** atlas empty README; **6168**
+GH **8★**; the rest **0★**. Size **0** WITH CONTENTS: compaction-bench,
+sgr-judge-bench. GitHub size lag caught up this lock:
+calibration-is-not-alpha **268**; jev-single-decode **432**;
+Pleo2 **18**; nlgrep **6734**; jev-extract **105**. Size **197** atlas empty README; **6168**
 financial lab; **109** mailordinal; **245** jyje;
 **36** laguagu; **227** cost-optimizer). License
 **null** (atlas GitHub; sgr SPDX NOASSERTION) still
