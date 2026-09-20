@@ -1,0 +1,1040 @@
+[
+  {
+    "id": "urchade/GLiNER",
+    "stars": 3855,
+    "desc": "Generalist and Lightweight Model for Named Entity Recognition (Extract any entity types from texts)",
+    "url": "https://github.com/urchade/GLiNER",
+    "extra": ""
+  },
+  {
+    "id": "superagents-lab/jev-search",
+    "stars": 289,
+    "desc": "Search the web with TypeSafe's Jev: source selection, query understanding and relevance ranking. Built with Search1API.",
+    "url": "https://github.com/superagents-lab/jev-search",
+    "extra": ""
+  },
+  {
+    "id": "jkudish/jev-browser",
+    "stars": 180,
+    "desc": "Browser use using Typesafe's Jev model",
+    "url": "https://github.com/jkudish/jev-browser",
+    "extra": ""
+  },
+  {
+    "id": "fbilhaut/gline-rs",
+    "stars": 165,
+    "desc": "Inference engine for GLiNER models, in Rust",
+    "url": "https://github.com/fbilhaut/gline-rs",
+    "extra": ""
+  },
+  {
+    "id": "anonde-io/anonde",
+    "stars": 17,
+    "desc": "Local-first PII anonymization and de-anonymization in Go. Multilingual via GLiNER NER + 73 pattern recognizers. Self-host runs as a single binary that never leaves your network.",
+    "url": "https://github.com/anonde-io/anonde",
+    "extra": ""
+  },
+  {
+    "id": "khordoo/jev-reflex-autonomy-lab",
+    "stars": 12,
+    "desc": "Multi-drone autonomy lab demonstrating TypeSafe Jev reflex decisions with optional System 2 strategy guidance.",
+    "url": "https://github.com/khordoo/jev-reflex-autonomy-lab",
+    "extra": ""
+  },
+  {
+    "id": "parth-kp/jev-mail-classifier",
+    "stars": 9,
+    "desc": "Classify your inbox with Jev (TypeSafe's System One model) \u2014 tag, move, flag, and notify, all config-driven.",
+    "url": "https://github.com/parth-kp/jev-mail-classifier",
+    "extra": ""
+  },
+  {
+    "id": "agent-labs-dev/fastbrowse",
+    "stars": 5,
+    "desc": "A fast browser agent: Jev picks each action from what is on the page, an LLM reads and plans, and every claim in an answer cites a quote from the page.",
+    "url": "https://github.com/agent-labs-dev/fastbrowse",
+    "extra": ""
+  },
+  {
+    "id": "lmoe/gliner-onnx.js",
+    "stars": 4,
+    "desc": "An ONNX implementation of GLiNER 1 and 2",
+    "url": "https://github.com/lmoe/gliner-onnx.js",
+    "extra": ""
+  },
+  {
+    "id": "shershah1024/gliner-native-runtime",
+    "stars": 4,
+    "desc": "Unofficial Swift + Core ML runtime for Fastino AI's GLiNER 2.5 model on Apple silicon",
+    "url": "https://github.com/shershah1024/gliner-native-runtime",
+    "extra": ""
+  },
+  {
+    "id": "lhemerly/mcts-agent",
+    "stars": 3,
+    "desc": "Discriminative Monte Carlo Tree Search using TypeSafe Jev System One Primitives and Gemini",
+    "url": "https://github.com/lhemerly/mcts-agent",
+    "extra": ""
+  },
+  {
+    "id": "JanOstrowka/typesafe-assist",
+    "stars": 2,
+    "desc": "Home Assistant Assist conversation agent powered by TypeSafe's Jev (System One) model",
+    "url": "https://github.com/JanOstrowka/typesafe-assist",
+    "extra": ""
+  },
+  {
+    "id": "RiskAverseTech/toolgate",
+    "stars": 2,
+    "desc": "Open auto mode for AI agents \u2014 a calibrated tool-call firewall powered by TypeSafe Jev. Ships as a Claude Code hook",
+    "url": "https://github.com/RiskAverseTech/toolgate",
+    "extra": ""
+  },
+  {
+    "id": "inteligenciamilgrau/jevstudio",
+    "stars": 2,
+    "desc": "Jev Studio para criar programas usando Jev da TypeSafe",
+    "url": "https://github.com/inteligenciamilgrau/jevstudio",
+    "extra": ""
+  },
+  {
+    "id": "prateekmedia/ly",
+    "stars": 2,
+    "desc": "Manipulate images via chat, uses Jev like model to classify prompt",
+    "url": "https://github.com/prateekmedia/ly",
+    "extra": ""
+  },
+  {
+    "id": "teempai/jev-in-codex",
+    "stars": 2,
+    "desc": "Jev-powered tool and skill selection, context search, and output triage for Codex via MCP",
+    "url": "https://github.com/teempai/jev-in-codex",
+    "extra": ""
+  },
+  {
+    "id": "tylerjharden/ailerix",
+    "stars": 2,
+    "desc": "Type-safe model router. Jev (System One) banks each request to a typed catalog route.",
+    "url": "https://github.com/tylerjharden/ailerix",
+    "extra": ""
+  },
+  {
+    "id": "Bnymn1306/jev-github-quality-gate",
+    "stars": 1,
+    "desc": "A Jev-powered quality gate for GitHub issues, pull requests, and commits.",
+    "url": "https://github.com/Bnymn1306/jev-github-quality-gate",
+    "extra": ""
+  },
+  {
+    "id": "Bodila51/Jev-chooses-a-LLM",
+    "stars": 1,
+    "desc": "Jev Router for Cursor - TypeSafe Jev picks COST/BALANCED/INTELLIGENCE, Cursor executes",
+    "url": "https://github.com/Bodila51/Jev-chooses-a-LLM",
+    "extra": ""
+  },
+  {
+    "id": "Diwen-S/claude-to-RLCD",
+    "stars": 1,
+    "desc": "",
+    "url": "https://github.com/Diwen-S/claude-to-RLCD",
+    "extra": ""
+  },
+  {
+    "id": "Kcbir/engram",
+    "stars": 1,
+    "desc": "A high performance knowledge graph memory engine for AI systems, using PSL based probabilistic reasoning and 256 dimensional semantic embeddings over a petgraph backed entity-relation structure, with a Rust/Axum and GLiNER + Nomic for stateful, semantically queryable search.",
+    "url": "https://github.com/Kcbir/engram",
+    "extra": ""
+  },
+  {
+    "id": "KoukkuAi/koukkupdf-apuri-models",
+    "stars": 1,
+    "desc": "Koukku Taituri \u2014 Apuri NER-mallin jakelupaketit (GLiNER multi v2.1, Apache-2.0). Vain mallitiedostot; sovelluksen l\u00e4hdekoodi on erillisess\u00e4 repossa.",
+    "url": "https://github.com/KoukkuAi/koukkupdf-apuri-models",
+    "extra": ""
+  },
+  {
+    "id": "ProphetMikuP/RLCD-Monitor-Codex",
+    "stars": 1,
+    "desc": "",
+    "url": "https://github.com/ProphetMikuP/RLCD-Monitor-Codex",
+    "extra": ""
+  },
+  {
+    "id": "cndfdv/docx-anonymizer",
+    "stars": 1,
+    "desc": "Local DOCX anonymizer: GLiNER multilingual PII model plus Russian identifier rules, runs fully offline in Docker \u2014 no document text leaves the machine",
+    "url": "https://github.com/cndfdv/docx-anonymizer",
+    "extra": ""
+  },
+  {
+    "id": "fatwang2/jev-review-action",
+    "stars": 1,
+    "desc": "Configurable GitHub submission review and PR classification with TypeSafe Jev. No text-generation model.",
+    "url": "https://github.com/fatwang2/jev-review-action",
+    "extra": ""
+  },
+  {
+    "id": "micahchoo/qualitative-query",
+    "stars": 1,
+    "desc": "Saved questions that select source passages with Jev scoring and connect them through native Obsidian block embeds.",
+    "url": "https://github.com/micahchoo/qualitative-query",
+    "extra": ""
+  },
+  {
+    "id": "nishit1617/jev-traffic-control",
+    "stars": 1,
+    "desc": "",
+    "url": "https://github.com/nishit1617/jev-traffic-control",
+    "extra": ""
+  },
+  {
+    "id": "psuwannapich/GLiNER-Reg",
+    "stars": 1,
+    "desc": "",
+    "url": "https://github.com/psuwannapich/GLiNER-Reg",
+    "extra": ""
+  },
+  {
+    "id": "sseanliu/Jev-Vision",
+    "stars": 1,
+    "desc": "Open-weight step verifier for computer-use agents: calibrated ground/skip/effect/done judgments from screenshots in ~160 ms, plus a benchmark with environment-derived labels",
+    "url": "https://github.com/sseanliu/Jev-Vision",
+    "extra": ""
+  },
+  {
+    "id": "4l3xv33/jev-practice",
+    "stars": 0,
+    "desc": "playing around with jev through openrouter",
+    "url": "https://github.com/4l3xv33/jev-practice",
+    "extra": ""
+  },
+  {
+    "id": "AMPAV/ampav-gliner",
+    "stars": 0,
+    "desc": "GLiNER tooling (Named Entities, Key Phrases, Subjects, Classification) for AMPAV",
+    "url": "https://github.com/AMPAV/ampav-gliner",
+    "extra": ""
+  },
+  {
+    "id": "ASVPATM/streamner-commit",
+    "stars": 0,
+    "desc": "Streaming PII commitment policies, MLX inference, and saved-score evaluation. Testing paused after v10.",
+    "url": "https://github.com/ASVPATM/streamner-commit",
+    "extra": ""
+  },
+  {
+    "id": "Adityakhalkar/JevEye",
+    "stars": 0,
+    "desc": "Ask Jev about an image. A CNN reports what it sees with a calibrated confidence or an abstention; Jev judges what it means.",
+    "url": "https://github.com/Adityakhalkar/JevEye",
+    "extra": ""
+  },
+  {
+    "id": "AiPersonacademy/jev-resume-disqualifier",
+    "stars": 0,
+    "desc": "Jev Resume Disqualifier: Sub-25ms automated resume knockout engine powered by TypeSafe Jev System One decision intelligence. Eliminates 80% of unqualified applicants with deterministic date math & EEOC-safe rejection notices.",
+    "url": "https://github.com/AiPersonacademy/jev-resume-disqualifier",
+    "extra": ""
+  },
+  {
+    "id": "Arc-Rider/arc-rider-playground",
+    "stars": 0,
+    "desc": "Live Jev examples built with the published arcWidgets React package.",
+    "url": "https://github.com/Arc-Rider/arc-rider-playground",
+    "extra": ""
+  },
+  {
+    "id": "Atikpui007/jev-sift-site",
+    "stars": 0,
+    "desc": "Marketing site for jev-sift",
+    "url": "https://github.com/Atikpui007/jev-sift-site",
+    "extra": ""
+  },
+  {
+    "id": "ChristianTracy/jev-terrarium-dinosaurs",
+    "stars": 0,
+    "desc": "Autonomous dinosaur ecosystem where code runs the physics and TypeSafe's Jev decides each creature's intent from prose laws. Pixel-art web UI with a live Jev monitor (JSON in/out per tick), interchangeable brains (hybrid / full Jev / offline). Experimental Jev integration.",
+    "url": "https://github.com/ChristianTracy/jev-terrarium-dinosaurs",
+    "extra": ""
+  },
+  {
+    "id": "Cloud1ripper/Alpha",
+    "stars": 0,
+    "desc": "SystemOne",
+    "url": "https://github.com/Cloud1ripper/Alpha",
+    "extra": ""
+  },
+  {
+    "id": "CooLguNxDD/Nekomimi-Waifu-Seeker",
+    "stars": 0,
+    "desc": "Seek your waifu with Laya system model",
+    "url": "https://github.com/CooLguNxDD/Nekomimi-Waifu-Seeker",
+    "extra": ""
+  },
+  {
+    "id": "DAShaikh10/ArXivFlow",
+    "stars": 0,
+    "desc": "An intelligent research paper recommender system aggregating content from ArXiv and Semantic Scholar to streamline academic discovery.",
+    "url": "https://github.com/DAShaikh10/ArXivFlow",
+    "extra": ""
+  },
+  {
+    "id": "EnesYilmazcode/JevGeoGuessr",
+    "stars": 0,
+    "desc": "Jev guesses where a photo was taken",
+    "url": "https://github.com/EnesYilmazcode/JevGeoGuessr",
+    "extra": ""
+  },
+  {
+    "id": "FranprzDev/Jev-To-Hackathon",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/FranprzDev/Jev-To-Hackathon",
+    "extra": ""
+  },
+  {
+    "id": "GenAI-DLP/dlp-server",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/GenAI-DLP/dlp-server",
+    "extra": ""
+  },
+  {
+    "id": "IbiliAze/chatagent",
+    "stars": 0,
+    "desc": "LangGraph multi-agent customer support API in Python. Triage routes to sales, billing and support specialists over OpenSearch RAG and a remote MCP server, behind prompt-injection, PII and language checks. Model fallbacks, semantic caching, tracing, LLM-judge evals.",
+    "url": "https://github.com/IbiliAze/chatagent",
+    "extra": ""
+  },
+  {
+    "id": "IlyaKarakcheev/sherpa-gliner-service",
+    "stars": 0,
+    "desc": "GLiNER NER microservice for CRM entities in email",
+    "url": "https://github.com/IlyaKarakcheev/sherpa-gliner-service",
+    "extra": ""
+  },
+  {
+    "id": "ItIsCuthNotCup/SameThing",
+    "stars": 0,
+    "desc": "SameThing test with Jev",
+    "url": "https://github.com/ItIsCuthNotCup/SameThing",
+    "extra": ""
+  },
+  {
+    "id": "Jhiynn/PrivaParse",
+    "stars": 0,
+    "desc": "Local privacy layer for LLM traffic: detects PII, swaps it for deterministic placeholders, restores it in the answer. Nothing leaves the machine.",
+    "url": "https://github.com/Jhiynn/PrivaParse",
+    "extra": ""
+  },
+  {
+    "id": "JkRheezy/win-cu-router",
+    "stars": 0,
+    "desc": "Experimental Windows Jev-first computer-use orchestration with trycua observation and scoped execution adapters.",
+    "url": "https://github.com/JkRheezy/win-cu-router",
+    "extra": ""
+  },
+  {
+    "id": "JoeHodari/Gliner-Docker-Service",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/JoeHodari/Gliner-Docker-Service",
+    "extra": ""
+  },
+  {
+    "id": "Juleslassoeur/anonymiseur",
+    "stars": 0,
+    "desc": "Pipeline 100 % local d'anonymisation de dossiers documentaires (regex + GLiNER) avant partage avec un LLM \u2014 revue humaine, pseudonymisation r\u00e9versible, contre-v\u00e9rification",
+    "url": "https://github.com/Juleslassoeur/anonymiseur",
+    "extra": ""
+  },
+  {
+    "id": "Kadihx/jev-x-kit",
+    "stars": 0,
+    "desc": "Offline $0 decision layer for coding agents: Choice/Score/Noul primitives, BELKI confidence gatekeeper, ultra-planning, red-teaming, research and RLVR self-improvement -- as an MCP server + CLI + Claude Code skill.",
+    "url": "https://github.com/Kadihx/jev-x-kit",
+    "extra": ""
+  },
+  {
+    "id": "KoltonGalie/discussion-name-redactor",
+    "stars": 0,
+    "desc": "Privacy-oriented name-redaction pipeline using rules, NLP, GLiNER, spaCy, and optional local LLM verification.",
+    "url": "https://github.com/KoltonGalie/discussion-name-redactor",
+    "extra": ""
+  },
+  {
+    "id": "Lagnajit09/sgrep",
+    "stars": 0,
+    "desc": "sgrep - semantic grep, powered by Jev",
+    "url": "https://github.com/Lagnajit09/sgrep",
+    "extra": ""
+  },
+  {
+    "id": "LauricellaAndrea/Jev-browser-remote",
+    "stars": 0,
+    "desc": "beta project di use-computer su google chrome mediante l'uso di Jerv, riducendo notevolmente la latenza e i costi per token ",
+    "url": "https://github.com/LauricellaAndrea/Jev-browser-remote",
+    "extra": ""
+  },
+  {
+    "id": "LiamCarlin/Navi",
+    "stars": 0,
+    "desc": "Jev-powered Spotlight replacement for macOS \u2014 typed fast decisions, Claude for answers and computer use, local screen memory into an Obsidian vault",
+    "url": "https://github.com/LiamCarlin/Navi",
+    "extra": ""
+  },
+  {
+    "id": "Okinboxme/sdocs",
+    "stars": 0,
+    "desc": " for SystemOne documentation",
+    "url": "https://github.com/Okinboxme/sdocs",
+    "extra": ""
+  },
+  {
+    "id": "Open-Science-and-Data-management/triple-extraction",
+    "stars": 0,
+    "desc": "Async API \u0e2a\u0e01\u0e31\u0e14 knowledge-graph triples \u0e08\u0e32\u0e01\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23\u0e14\u0e49\u0e27\u0e22 GLiNER-Relex",
+    "url": "https://github.com/Open-Science-and-Data-management/triple-extraction",
+    "extra": ""
+  },
+  {
+    "id": "Pastel-Org/gliner2.5-onnx-webgpu",
+    "stars": 0,
+    "desc": "ONNX WebGPU export of GLiNER 2.5 + no-dependencies inference",
+    "url": "https://github.com/Pastel-Org/gliner2.5-onnx-webgpu",
+    "extra": ""
+  },
+  {
+    "id": "Qew7/jev-feels",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/Qew7/jev-feels",
+    "extra": ""
+  },
+  {
+    "id": "SANJ-180605/loantrace-AI-rag-system",
+    "stars": 0,
+    "desc": "An AI-powered platform to extract, verify, and query financial data from PDF loan application packages using RAG, GLiNER NER, and FastAPI + React.",
+    "url": "https://github.com/SANJ-180605/loantrace-AI-rag-system",
+    "extra": ""
+  },
+  {
+    "id": "Samge0/jev-arena",
+    "stars": 0,
+    "desc": "Jev\u6a21\u578b\u8ddf\u5f00\u6e90\u65b9\u6848NanoJev / Laya\u7684\u5bf9\u6bd4\u6d4b\u8bd5",
+    "url": "https://github.com/Samge0/jev-arena",
+    "extra": ""
+  },
+  {
+    "id": "SanXue-YG/SecureText-De-identification",
+    "stars": 0,
+    "desc": "SecureText De-identification \u662f\u4e00\u6b3e\u4ee5\u672c\u5730\u4f18\u5148\u4e3a\u539f\u5219\u7684\u5e94\u7528\u7a0b\u5e8f\uff0c\u7528\u4e8e\u68c0\u6d4b\u548c\u5c4f\u853d\u81ea\u7531\u6587\u672c\u4e2d\u7684\u8eab\u4efd\u8bc6\u522b\u4fe1\u606f\u3002\u5b83\u7ed3\u5408\u4e86 Presidio\u3001GLiNER\u3001\u7ed3\u6784\u5316\u89c4\u5219\u3001\u5df2\u90e8\u7f72\u7684 spaCy \u7ec4\u4ef6\u3001\u786e\u5b9a\u6027\u6807\u7b7e\u611f\u77e5\u5408\u5e76\u3001\u8fb9\u754c\u7ec6\u5316\u3001\u5c4f\u853d\u4ee5\u53ca\u57fa\u4e8e FastAPI API \u548c React \u63a5\u53e3\u7684\u6b8b\u4f59\u98ce\u9669\u68c0\u67e5\u3002",
+    "url": "https://github.com/SanXue-YG/SecureText-De-identification",
+    "extra": ""
+  },
+  {
+    "id": "Sharkelot/jev-laya-free",
+    "stars": 0,
+    "desc": "Free local Jev-compatible typed decisions backed by rules or Laya, with a TypeSafe SDK-compatible Python surface and deterministic Hermes/Qwen guards.",
+    "url": "https://github.com/Sharkelot/jev-laya-free",
+    "extra": ""
+  },
+  {
+    "id": "SlyEcho/llama-jev-server",
+    "stars": 0,
+    "desc": "Jev-type proxy shim for local models",
+    "url": "https://github.com/SlyEcho/llama-jev-server",
+    "extra": ""
+  },
+  {
+    "id": "SoundBlaster/Jev4Mellea",
+    "stars": 0,
+    "desc": "Jev adapter to Mellea",
+    "url": "https://github.com/SoundBlaster/Jev4Mellea",
+    "extra": ""
+  },
+  {
+    "id": "SqaaSSL/aeat-doc-classifier",
+    "stars": 0,
+    "desc": "Spanish AEAT document classification and reviewable PGC account suggestions powered by Jev. MIT.",
+    "url": "https://github.com/SqaaSSL/aeat-doc-classifier",
+    "extra": ""
+  },
+  {
+    "id": "Tecnogesfausti/luckfox-rlcd",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/Tecnogesfausti/luckfox-rlcd",
+    "extra": ""
+  },
+  {
+    "id": "YikunHuang123/MedGraphia",
+    "stars": 0,
+    "desc": "MedGraphia - a Medical Q&A system via GraphRAG and LLMs",
+    "url": "https://github.com/YikunHuang123/MedGraphia",
+    "extra": ""
+  },
+  {
+    "id": "abhishek085/open-spark-jev",
+    "stars": 0,
+    "desc": "spark-s1: an open, local System One decision model (calibrated typed Choice/Score/Noul answers in one forward pass) plus os-datagen, a code-labelled decision-data factory. Apache-2.0, Nokast AI community.",
+    "url": "https://github.com/abhishek085/open-spark-jev",
+    "extra": ""
+  },
+  {
+    "id": "adagora/jev-experiments",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/adagora/jev-experiments",
+    "extra": ""
+  },
+  {
+    "id": "adamjralph/skill-broker",
+    "stars": 0,
+    "desc": "Deterministic pre-agent skill routing for Hermes agents: audit, canonical catalog, profile policy, and bounded Jev judgment.",
+    "url": "https://github.com/adamjralph/skill-broker",
+    "extra": ""
+  },
+  {
+    "id": "ajaleelp/prompt-demux",
+    "stars": 0,
+    "desc": "OpenCode plugin: demultiplex each prompt to the right model and effort tier via a system one classifier model - Jev",
+    "url": "https://github.com/ajaleelp/prompt-demux",
+    "extra": ""
+  },
+  {
+    "id": "alexander-voronkov/laya-web-poc",
+    "stars": 0,
+    "desc": "PoC: Laya (laya-web-q8) calibrated question answering in the browser \u2014 text + task prompt + typed questions (binary/choice/score), full runtime metrics",
+    "url": "https://github.com/alexander-voronkov/laya-web-poc",
+    "extra": ""
+  },
+  {
+    "id": "anthony-maio/codex-decision-layer",
+    "stars": 0,
+    "desc": "Shadow-mode evidence selection for Codex with Jev, local Eve FP32, and Q8 GGUF. CLI, MCP server, plugin, and reproducible evaluations.",
+    "url": "https://github.com/anthony-maio/codex-decision-layer",
+    "extra": ""
+  },
+  {
+    "id": "armansra-hub/stanley",
+    "stars": 0,
+    "desc": "Territory intelligence for a NetSuite AE: Jev (TypeSafe) interprets company evidence and guides research; Claude powers chat and cited account stories. Next.js + Supabase + Vercel.",
+    "url": "https://github.com/armansra-hub/stanley",
+    "extra": ""
+  },
+  {
+    "id": "boriscardano/herdr-jev-router",
+    "stars": 0,
+    "desc": "Mandatory Jev-based routing for Herdr-managed agent spawns",
+    "url": "https://github.com/boriscardano/herdr-jev-router",
+    "extra": ""
+  },
+  {
+    "id": "chinna327/MuraliSpace",
+    "stars": 0,
+    "desc": "Tools for systemOne",
+    "url": "https://github.com/chinna327/MuraliSpace",
+    "extra": ""
+  },
+  {
+    "id": "co1smos/jev-demo",
+    "stars": 0,
+    "desc": "Historical paper-trading simulator for evaluating TypeSafe AI JEV decisions",
+    "url": "https://github.com/co1smos/jev-demo",
+    "extra": ""
+  },
+  {
+    "id": "coding-hermes/auger",
+    "stars": 0,
+    "desc": "Auger \u2014 spec drilling for the coding-hermes fleet: a CLI that interrogates a project into a git-backed spec of choices, why-not, and toggleable options. DuckBrain ns: auger",
+    "url": "https://github.com/coding-hermes/auger",
+    "extra": ""
+  },
+  {
+    "id": "colinmcdermott/grok-jev-router",
+    "stars": 0,
+    "desc": "Jev decides, Grok Bot executes, humans control irreversible actions. A decision router for Grok Bot built on TypeSafe AI's Jev.",
+    "url": "https://github.com/colinmcdermott/grok-jev-router",
+    "extra": ""
+  },
+  {
+    "id": "copyleftdev/braess-router",
+    "stars": 0,
+    "desc": "Bounded semantic routing with Jev and Poise. Rust, single-server, alpha.",
+    "url": "https://github.com/copyleftdev/braess-router",
+    "extra": ""
+  },
+  {
+    "id": "cory-johannsen/laya-docker",
+    "stars": 0,
+    "desc": "A containerized, self-hosted inference server for Laya",
+    "url": "https://github.com/cory-johannsen/laya-docker",
+    "extra": ""
+  },
+  {
+    "id": "coucagog/cloison-detect",
+    "stars": 0,
+    "desc": "Sidecar NER ouest-africain CLOISON : Presidio + GLiNER + AfroXLMR (MasakhaNER) \u2014 rappel PERSON/LOC. gRPC + REST, stateless.",
+    "url": "https://github.com/coucagog/cloison-detect",
+    "extra": ""
+  },
+  {
+    "id": "cyrusasco/JevCompact",
+    "stars": 0,
+    "desc": "Lossless LLM session compaction for Claude Code, Codex and ZCode \u2014 Jev keep/drop decisions plus a Chinese-optimized lossless policy. No paraphrasing, no hallucinated summaries; 9/9 HANDOVER-FREE on a private benchmark.",
+    "url": "https://github.com/cyrusasco/JevCompact",
+    "extra": ""
+  },
+  {
+    "id": "darshan-sc/jev-for-gh-issues",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/darshan-sc/jev-for-gh-issues",
+    "extra": ""
+  },
+  {
+    "id": "diegocp01/living-folders",
+    "stars": 0,
+    "desc": "A MacOS Finder-inspired app where folders organize files as you type. Powered by Jev, with live semantic matching and a glass desktop interface.",
+    "url": "https://github.com/diegocp01/living-folders",
+    "extra": ""
+  },
+  {
+    "id": "dkpgde/GLiNER-local-test",
+    "stars": 0,
+    "desc": "Checking the quality and compute requirements of local NER (laptop CPU)",
+    "url": "https://github.com/dkpgde/GLiNER-local-test",
+    "extra": ""
+  },
+  {
+    "id": "dorkitude/webctl",
+    "stars": 0,
+    "desc": "Smart web search CLI for agents, backed by Jev. Saves a lot of tokens.",
+    "url": "https://github.com/dorkitude/webctl",
+    "extra": ""
+  },
+  {
+    "id": "duketopceo/dim-agent",
+    "stars": 0,
+    "desc": "Jev-powered voice computer-use agent for Omarchy (Hyprland/Asahi): push-to-talk \u2192 whisper.cpp \u2192 Jev decision \u2192 guarded hyprctl launch, with a breathing dim overlay",
+    "url": "https://github.com/duketopceo/dim-agent",
+    "extra": ""
+  },
+  {
+    "id": "galitianu/jev4j",
+    "stars": 0,
+    "desc": "Java SDK for the TypeSafe AI API. Typed questions, typed answers, Java 21.",
+    "url": "https://github.com/galitianu/jev4j",
+    "extra": ""
+  },
+  {
+    "id": "gecm0/jev-judge-mcp",
+    "stars": 0,
+    "desc": "MCP server exposing TypeSafe's Jev as a judge tool: typed judgments with calibrated probabilities, for any MCP client.",
+    "url": "https://github.com/gecm0/jev-judge-mcp",
+    "extra": ""
+  },
+  {
+    "id": "gowtham980/jev-router",
+    "stars": 0,
+    "desc": "Provider-neutral, quality-aware model routing for OpenClaw",
+    "url": "https://github.com/gowtham980/jev-router",
+    "extra": ""
+  },
+  {
+    "id": "greeshma-ch/PII-Redaction-Tool",
+    "stars": 0,
+    "desc": "A zero-shot PII redaction pipeline for documents, using GLiNER for named entity recognition (0.971 F1). Detects and redacts 9 PII types from .docx files via a FastAPI backend and browser UI, containerized with Docker.",
+    "url": "https://github.com/greeshma-ch/PII-Redaction-Tool",
+    "extra": ""
+  },
+  {
+    "id": "guddu-debasis/JEV",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/guddu-debasis/JEV",
+    "extra": ""
+  },
+  {
+    "id": "haritsagungw/BBC-News-Zero-Shot-Entity-Extraction-with-GLiNER",
+    "stars": 0,
+    "desc": "High-performance zero-shot Named Entity Recognition (NER) pipeline for Indonesian news text using GLiNER multi-v2.1.",
+    "url": "https://github.com/haritsagungw/BBC-News-Zero-Shot-Entity-Extraction-with-GLiNER",
+    "extra": ""
+  },
+  {
+    "id": "haydarsahin0/Jev",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/haydarsahin0/Jev",
+    "extra": ""
+  },
+  {
+    "id": "heisenberg23911/CardGame",
+    "stars": 0,
+    "desc": "\ud83c\udccf Create a turn-based card game with AI opponents using Love2D, featuring a modular design, interactive UI, and comprehensive gameplay mechanics.",
+    "url": "https://github.com/heisenberg23911/CardGame",
+    "extra": ""
+  },
+  {
+    "id": "hf:fr0stbit3/laya-gguf",
+    "stars": 0,
+    "desc": "llama.cpp gguf laya system-one calibrated-decisions rlcd classification routing scoring guardrails moderation reinforcement-learning commercial-use text-classification base_model:convaiinnovations/laya base_model:quantized:convaiinnovations/laya license:apache-2.0 endpoints_compatible region:us feat",
+    "url": "https://huggingface.co/fr0stbit3/laya-gguf",
+    "extra": ""
+  },
+  {
+    "id": "hf:fr0stbit3/laya-multilingual-gguf",
+    "stars": 0,
+    "desc": "llama.cpp gguf laya multilingual mmbert system-one calibrated-decisions rlcd classification routing guardrails moderation commercial-use text-classification en de fr es pt it nl sv da nb ru pl tr ar he fa ur hi bn ta te kn ml th vi id ms tl ja ko zh el hu fi ro sq sl sw af cy am hy ka km my mn lv is",
+    "url": "https://huggingface.co/fr0stbit3/laya-multilingual-gguf",
+    "extra": ""
+  },
+  {
+    "id": "hf:fr0stbit3/laya-typed-decisions-gguf",
+    "stars": 0,
+    "desc": "llama.cpp gguf laya system-one calibrated-decisions rlcd typed-decisions classification agent-observability invoice-processing security-incidents customer-service commercial-use text-classification en base_model:convaiinnovations/laya-typed-decisions base_model:quantized:convaiinnovations/laya-typed",
+    "url": "https://huggingface.co/fr0stbit3/laya-typed-decisions-gguf",
+    "extra": ""
+  },
+  {
+    "id": "hot14/jev-harness-setup",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/hot14/jev-harness-setup",
+    "extra": ""
+  },
+  {
+    "id": "i-priyanshuverma/laravel-jev-demo",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/i-priyanshuverma/laravel-jev-demo",
+    "extra": ""
+  },
+  {
+    "id": "ibartel/pi-automode-ext",
+    "stars": 0,
+    "desc": "Based on automode added jev + some other functionality",
+    "url": "https://github.com/ibartel/pi-automode-ext",
+    "extra": ""
+  },
+  {
+    "id": "jadouse5/jev-sim",
+    "stars": 0,
+    "desc": "An interactive 3D world studio for probabilistic AI decisions. Generate synthetic people, simulate futures, and inspect every choice.",
+    "url": "https://github.com/jadouse5/jev-sim",
+    "extra": ""
+  },
+  {
+    "id": "jayanthchandra/jgrep",
+    "stars": 0,
+    "desc": "A Rust CLI that brings Jev's probabilistic reasoning to the Unix command line. Pipe logs, files, or any text, ask natural-language questions, and get structured semantic decisions.",
+    "url": "https://github.com/jayanthchandra/jgrep",
+    "extra": ""
+  },
+  {
+    "id": "jdhornsby/typesafe-jev",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/jdhornsby/typesafe-jev",
+    "extra": ""
+  },
+  {
+    "id": "jefferyhhh/gliner-pj",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/jefferyhhh/gliner-pj",
+    "extra": ""
+  },
+  {
+    "id": "jkcdarunday/SystemOne-Next",
+    "stars": 0,
+    "desc": "The next version of the registration system of the University of the Philippines Los Ba\u00f1os, SystemOne.",
+    "url": "https://github.com/jkcdarunday/SystemOne-Next",
+    "extra": ""
+  },
+  {
+    "id": "jorgehara/gentle-jev-lab",
+    "stars": 0,
+    "desc": "Public lab for testing TypeSafe JEV tool planning with a Gentle-style read-only workflow",
+    "url": "https://github.com/jorgehara/gentle-jev-lab",
+    "extra": ""
+  },
+  {
+    "id": "joshsgoldstein/gliner-jetson-api",
+    "stars": 0,
+    "desc": "FastAPI server for GLiNER2 multi-task information extraction (NER, classification, structured JSON) running on-device with GPU acceleration on NVIDIA Jetson (JetPack 6 / L4T R36). Includes Jetson-specific Environment setup and Docker build with concurrency controls and payload safety limits.",
+    "url": "https://github.com/joshsgoldstein/gliner-jetson-api",
+    "extra": ""
+  },
+  {
+    "id": "jpowersdev/neuralint",
+    "stars": 0,
+    "desc": "AI code review against your repository's rules, powered by TypeSafe AI's Jev.",
+    "url": "https://github.com/jpowersdev/neuralint",
+    "extra": ""
+  },
+  {
+    "id": "jvecodev/brazilian-gliner",
+    "stars": 0,
+    "desc": "Detect common entities in Brazilian texts using GLiNER, with an initial focus on documents, identity, and personal information.",
+    "url": "https://github.com/jvecodev/brazilian-gliner",
+    "extra": ""
+  },
+  {
+    "id": "kartik-modi/jev-sudo",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/kartik-modi/jev-sudo",
+    "extra": ""
+  },
+  {
+    "id": "keithcerteza/s1tools",
+    "stars": 0,
+    "desc": "SystemOne Tools",
+    "url": "https://github.com/keithcerteza/s1tools",
+    "extra": ""
+  },
+  {
+    "id": "khaledsAlshibani/jev-ci-classifier",
+    "stars": 0,
+    "desc": "CI example using Jev to classify failed PR checks and return structured decisions with probabilities.",
+    "url": "https://github.com/khaledsAlshibani/jev-ci-classifier",
+    "extra": ""
+  },
+  {
+    "id": "kyp0717/rlcd-graph-algo",
+    "stars": 0,
+    "desc": "Using rlcd (laya) with graph to support iteration for finding the best algo strategy",
+    "url": "https://github.com/kyp0717/rlcd-graph-algo",
+    "extra": ""
+  },
+  {
+    "id": "linksawakening/jev-harness",
+    "stars": 0,
+    "desc": "Self-hosted project harness: code owns the loop, TypeSafe Jev owns the judgments, the LLM owns the content.",
+    "url": "https://github.com/linksawakening/jev-harness",
+    "extra": ""
+  },
+  {
+    "id": "lookymlive/Jev-TypeSafe-Lookym",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/lookymlive/Jev-TypeSafe-Lookym",
+    "extra": ""
+  },
+  {
+    "id": "lucasamaral11/Gliner",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/lucasamaral11/Gliner",
+    "extra": ""
+  },
+  {
+    "id": "lucasezelopcur13-hash/jev-ai",
+    "stars": 0,
+    "desc": "Uso de Jev AI",
+    "url": "https://github.com/lucasezelopcur13-hash/jev-ai",
+    "extra": ""
+  },
+  {
+    "id": "lucasezelopcur13-hash/jev-binpack",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/lucasezelopcur13-hash/jev-binpack",
+    "extra": ""
+  },
+  {
+    "id": "mbonnardot/judgment-base-agent",
+    "stars": 0,
+    "desc": "Jev/Judgment BaseAgent Class",
+    "url": "https://github.com/mbonnardot/judgment-base-agent",
+    "extra": ""
+  },
+  {
+    "id": "michaeljabbour/amplifier-bundle-fast-decisions",
+    "stars": 0,
+    "desc": "Fast-decision layer for Amplifier: telemetry hook, read-only workspace tool, and an opt-in shadow/active decision orchestrator (Jev-backed, fail-closed)",
+    "url": "https://github.com/michaeljabbour/amplifier-bundle-fast-decisions",
+    "extra": ""
+  },
+  {
+    "id": "mikerogerz/worker-gliner",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/mikerogerz/worker-gliner",
+    "extra": ""
+  },
+  {
+    "id": "mikeyacobian/jev-stub",
+    "stars": 0,
+    "desc": "Tiny Jev (typesafe) call stub \u2014 sample rows + Choice/noul questions",
+    "url": "https://github.com/mikeyacobian/jev-stub",
+    "extra": ""
+  },
+  {
+    "id": "movwf/ppi-son",
+    "stars": 0,
+    "desc": "PPI Obfuscator for Sensitive Document Data with GLiNER",
+    "url": "https://github.com/movwf/ppi-son",
+    "extra": ""
+  },
+  {
+    "id": "msami123/GLINER",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/msami123/GLINER",
+    "extra": ""
+  },
+  {
+    "id": "mugenkyou/JEV-VS-ML",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/mugenkyou/JEV-VS-ML",
+    "extra": ""
+  },
+  {
+    "id": "muhammadaq1/before-the-fall-jev",
+    "stars": 0,
+    "desc": "A cinematic 2D rescue game powered by TypeSafe Jev. Six people, 35 seconds, and live AI decisions under pressure.",
+    "url": "https://github.com/muhammadaq1/before-the-fall-jev",
+    "extra": ""
+  },
+  {
+    "id": "nacmonad/presidio-web",
+    "stars": 0,
+    "desc": "Presidio, right in your browser. A verified TypeScript port of Microsoft Presidio's PII analyzer \u2014 detection and redaction with no Python service in the path.",
+    "url": "https://github.com/nacmonad/presidio-web",
+    "extra": ""
+  },
+  {
+    "id": "namaenande/EasyJev",
+    "stars": 0,
+    "desc": "Turn your self-hosted LLM to a Jev-like model without fine-tuning",
+    "url": "https://github.com/namaenande/EasyJev",
+    "extra": ""
+  },
+  {
+    "id": "navopw/laya-pi",
+    "stars": 0,
+    "desc": "Local multilingual typed decisions on Raspberry Pi 5 with ONNX Runtime, verified output preservation, and no swap",
+    "url": "https://github.com/navopw/laya-pi",
+    "extra": ""
+  },
+  {
+    "id": "nhuutri2000-max/VN-EMR-Extractor",
+    "stars": 0,
+    "desc": "H\u1ec7 th\u1ed1ng AI ph\u00e2n t\u00edch b\u1ec7nh \u00e1n l\u00e2m s\u00e0ng ti\u1ebfng Vi\u1ec7t. T\u00edch h\u1ee3p Pipeline 3 module: Tr\u00edch xu\u1ea5t th\u1ef1c th\u1ec3 (NER Ensemble GLiNER + BERT), Chu\u1ea9n h\u00f3a m\u00e3 qu\u1ed1c t\u1ebf (ICD-10/RxNorm Hybrid Search), v\u00e0 Ph\u00e2n lo\u1ea1i thu\u1ed9c t\u00ednh ng\u1eef c\u1ea3nh (Assertion).",
+    "url": "https://github.com/nhuutri2000-max/VN-EMR-Extractor",
+    "extra": ""
+  },
+  {
+    "id": "novahealthsolutions/NovaSystemoneRPA",
+    "stars": 0,
+    "desc": "XMl code for System one RPA",
+    "url": "https://github.com/novahealthsolutions/NovaSystemoneRPA",
+    "extra": ""
+  },
+  {
+    "id": "okalnic/s1linsecure",
+    "stars": 0,
+    "desc": "systemone linen system",
+    "url": "https://github.com/okalnic/s1linsecure",
+    "extra": ""
+  },
+  {
+    "id": "orq-ai/jev-judge",
+    "stars": 0,
+    "desc": "Judge repeatability study: Jev via Orq classify vs LLM judges on a docs agent. Frozen runs, labels, scripts.",
+    "url": "https://github.com/orq-ai/jev-judge",
+    "extra": ""
+  },
+  {
+    "id": "panxuanang/xingyu-rlcd",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/panxuanang/xingyu-rlcd",
+    "extra": ""
+  },
+  {
+    "id": "seanzhang-zhichen/gliner-chinese-train",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/seanzhang-zhichen/gliner-chinese-train",
+    "extra": ""
+  },
+  {
+    "id": "skiingfalcon/jev-email-cascade",
+    "stars": 0,
+    "desc": "Proves an email-triage cascade: Jev decides via typed questions, a policy routes, gpt-oss handles the leftover text \u2014 vs. a generative-only baseline on the same data.",
+    "url": "https://github.com/skiingfalcon/jev-email-cascade",
+    "extra": ""
+  },
+  {
+    "id": "timnikolov/jev-system-one-ai-engine",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/timnikolov/jev-system-one-ai-engine",
+    "extra": ""
+  },
+  {
+    "id": "tinyhumansai/tinyjevclient",
+    "stars": 0,
+    "desc": "An integration with jev by typesafe.ai in Rust",
+    "url": "https://github.com/tinyhumansai/tinyjevclient",
+    "extra": ""
+  },
+  {
+    "id": "townie/jev-digital-rain-room",
+    "stars": 0,
+    "desc": "temp \u2014 intended for over9000",
+    "url": "https://github.com/townie/jev-digital-rain-room",
+    "extra": ""
+  },
+  {
+    "id": "uhhfeef/jev-lm",
+    "stars": 0,
+    "desc": "A character-level language model built on Jev, a System One classifier",
+    "url": "https://github.com/uhhfeef/jev-lm",
+    "extra": ""
+  },
+  {
+    "id": "wdobry/laya-playground",
+    "stars": 0,
+    "desc": "A website, two games, a benchmark and an agent skill for Laya, the open-source decision model. Runs on your machine.",
+    "url": "https://github.com/wdobry/laya-playground",
+    "extra": ""
+  },
+  {
+    "id": "xnuonux/Jev-Researcher",
+    "stars": 0,
+    "desc": "Host-led research toolkit: Exa discovery, Jev triage, and provenance-preserving evidence packets for LLM readers.",
+    "url": "https://github.com/xnuonux/Jev-Researcher",
+    "extra": ""
+  },
+  {
+    "id": "zjyl1994/rlcd-dashboard",
+    "stars": 0,
+    "desc": "",
+    "url": "https://github.com/zjyl1994/rlcd-dashboard",
+    "extra": ""
+  },
+  {
+    "id": "razorback16/openjev",
+    "stars": 193,
+    "desc": "HEAD 6e91dfc031bc (was 794a81b871): Test against typesafe-sdk 0.7 (Pydantic response models; msgspec dropped); MLX backend brought to 400 plain-text error contract for unaskable questions (e4098ff60ca1). Material API/SDK-compat + serving-port densify. *theirs*",
+    "url": "https://github.com/razorback16/openjev",
+    "extra": "REVISIT densify: sdk_compat_mlx_error_contract",
+    "kind": "revisit"
+  },
+  {
+    "id": "jaredpalmer/kev",
+    "stars": 918,
+    "desc": "HEAD 75cc15ddb8e2 (was 193c48cb2658): PLAN_Qwen35 densify \u2014 corrected Qwen3.5 LoRA target names (verified), peft 0.21 existence proof, OOD-calibration study + coverage-at-error-budget metric in Phase 0; prior commits fold SemIf review (hybrid cache/MLX/cross-bench) and Laya review (encoder vs decoder, high-cardinality, calibration grouping, multilingual). Material architecture + calibration densif",
+    "url": "https://github.com/jaredpalmer/kev",
+    "extra": "REVISIT densify: architecture_calibration_plan",
+    "kind": "revisit"
+  }
+]

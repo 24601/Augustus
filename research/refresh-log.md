@@ -1,4 +1,23 @@
 
+## 2026-09-20 ~19:40 UTC / ~13:40 Boise - Hourly 1340 HIGH
+- Fresh PR off latest `main` after merged #46 (hourly 1248 / `notes.md` §123
+  / items 385–400 / batch #105) and merged #45 (revisit protocol / `notes.md`
+  §122). Next free IDs: `notes.md` §124 / composition 401–416 / findings
+  batch #106.
+  **HARD RULE:** do not reopen or amend PR #23–#46.
+- PRIMARY: typesafe-sdk 0.7 Pydantic response models. msgspec dropped.
+  MLX 400 error contract. PLAN_Qwen35 densify.
+  Pydantic response models ≠ logit-equiv. coverage-at-error-budget *theirs* not Harbor.
+  GLiNER locate ports are class members not Jev replicas. Locate ≠ decide.
+  SHA move is not a replica.
+- Evidence: `research/archive/hourly/2026-09-20T19/` (novel HIGH + revisit HIGH).
+- uniqueness_gate 0843+0915+jcr+0922+0940+0947+1049+1143+1248+1340.
+  Evaluator: pydantic 0.7 ≠ logit-equiv / MLX 400 same contract as vLLM /
+  coverage-at-error-budget *theirs*.
+  Quote *theirs*. No wrappers. `invented_signal: false`.
+- Hourly 1340 uniqueness lock: typesafe-sdk 0.7 Pydantic response models; msgspec dropped; The server's output is unchanged and was never wrong; MLX backend 400 plain-text error contract; SchemaError is 400 plain-string detail not 422 list; razorback16/openjev densify HEAD 6e91dfc031bc README SHA cbdcc8de0304; Pydantic response models ≠ logit-equiv; msgspec dropped is not a replica; Error contract is not a Noul; wire-compat ≠ logit-equiv; PLAN_Qwen35 densify; corrected Qwen3.5 LoRA target names verified; in_proj_qkv in_proj_z in_proj_a in_proj_b out_proj; peft 0.21 existence proof; OOD-calibration study; coverage-at-error-budget metric in Phase 0; PLAN_Qwen35 still proposal for review; deadline 0.53→0.82 at 9B *theirs*; isolation would fail by construction on DeltaNet; Qwen3.5-9B ≠ Archer; jaredpalmer/kev densify HEAD 75cc15ddb8e2 PLAN SHA eca543246f50; GLiNER locate ports are class members not Jev replicas; urchade/GLiNER ≠ fbilhaut/gline-rs ≠ lmoe/gliner-onnx.js ≠ shershah1024/gliner-native-runtime; Locate ≠ decide; Jev-Vision skip 0.936 effect 0.967 done 0.896 157 ms *theirs*; ~160 ms *theirs* not Harbor; 0.971 F1 *theirs* not Harbor; coverage-at-error-budget *theirs* not Harbor; hf:fr0stbit3/laya-gguf serving substrate ≠ calibrated replica; jkcdarunday/SystemOne-Next ≠ TypeSafe System One; catalog ≠ endorsement; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46; notes.md §124
+
+
 ## 2026-09-20 ~18:48 UTC / ~12:48 Boise - Hourly 1248 HIGH
 - Fresh PR off latest `main` after merged #45 (revisit protocol / `notes.md` §122)
   and merged #44 (1143 / `notes.md` §121 / items 369–384 / batch #104). Next free IDs:

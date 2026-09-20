@@ -1,6 +1,45 @@
 # Deep-read findings (evidence for research/notes.md)
 
 
+## Batch #106 (2026-09-20 ~13:40 Boise / ~19:40 UTC) - hourly 1340 HIGH
+
+Hourly 1340 uniqueness lock: typesafe-sdk 0.7 Pydantic response models; msgspec dropped; The server's output is unchanged and was never wrong; MLX backend 400 plain-text error contract; SchemaError is 400 plain-string detail not 422 list; razorback16/openjev densify HEAD 6e91dfc031bc README SHA cbdcc8de0304; Pydantic response models ≠ logit-equiv; msgspec dropped is not a replica; Error contract is not a Noul; wire-compat ≠ logit-equiv; PLAN_Qwen35 densify; corrected Qwen3.5 LoRA target names verified; in_proj_qkv in_proj_z in_proj_a in_proj_b out_proj; peft 0.21 existence proof; OOD-calibration study; coverage-at-error-budget metric in Phase 0; PLAN_Qwen35 still proposal for review; deadline 0.53→0.82 at 9B *theirs*; isolation would fail by construction on DeltaNet; Qwen3.5-9B ≠ Archer; jaredpalmer/kev densify HEAD 75cc15ddb8e2 PLAN SHA eca543246f50; GLiNER locate ports are class members not Jev replicas; urchade/GLiNER ≠ fbilhaut/gline-rs ≠ lmoe/gliner-onnx.js ≠ shershah1024/gliner-native-runtime; Locate ≠ decide; Jev-Vision skip 0.936 effect 0.967 done 0.896 157 ms *theirs*; ~160 ms *theirs* not Harbor; 0.971 F1 *theirs* not Harbor; coverage-at-error-budget *theirs* not Harbor; hf:fr0stbit3/laya-gguf serving substrate ≠ calibrated replica; jkcdarunday/SystemOne-Next ≠ TypeSafe System One; catalog ≠ endorsement; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46; notes.md §124
+
+Note: `research/notes.md` §124. Docs + evaluator, fresh PR off latest
+`main` (`2d67227` / merged #46 hourly 1248). Merged #46 owns §123.
+Merged #45 owns §122. Merged #44 owns §121 / 369–384 / #104. This fold
+stays §124 / items 401–416 / batch #106.
+**HARD RULE:** do not reopen or amend PR #23–#46.
+Quote READMEs. Soft Noul ≠ hard safety. Augustus owns
+placement. `invented_signal: false`.
+
+- **openjev densify PRIMARY.** typesafe-sdk 0.7 Pydantic response models.
+  msgspec dropped. The server's output is unchanged and was never wrong.
+  Pydantic response models ≠ logit-equiv. msgspec dropped is not a replica.
+  MLX SchemaError is 400 plain-string detail not 422 list.
+  Error contract is not a Noul. wire-compat ≠ logit-equiv. HEAD 6e91dfc031bc.
+- **kev PLAN_Qwen35 densify PRIMARY.** corrected Qwen3.5 LoRA target names
+  verified (in_proj_qkv in_proj_z in_proj_a in_proj_b out_proj). peft 0.21
+  existence proof. OOD-calibration study. coverage-at-error-budget metric
+  in Phase 0. PLAN_Qwen35 still proposal for review. deadline 0.53→0.82 at
+  9B *theirs*. isolation would fail by construction on DeltaNet.
+  Qwen3.5-9B ≠ Archer. coverage-at-error-budget *theirs* not Harbor.
+- **GLiNER locate ports.** class members not Jev replicas.
+  urchade/GLiNER ≠ fbilhaut/gline-rs ≠ lmoe/gliner-onnx.js ≠
+  shershah1024/gliner-native-runtime. Locate ≠ decide.
+  0.971 F1 *theirs* not Harbor.
+- **Jev-Vision *theirs*.** skip 0.936 effect 0.967 done 0.896 157 ms *theirs*.
+  ~160 ms *theirs* not Harbor. specialist vision S1 ≠ hosted Jev.
+- **Namesakes / skip.** hf:fr0stbit3/laya-gguf serving substrate ≠ calibrated replica.
+  jkcdarunday/SystemOne-Next ≠ TypeSafe System One.
+  catalog ≠ endorsement. SHA move is not a replica.
+
+Pulse: Archer still NOT landed. Hub archerhume/4rcherhume HTTP **401**.
+openjev **193★**; kev **918★**; urchade/GLiNER **3855★**.
+`invented_signal: false`.
+
+
+
 ## Batch #105 (2026-09-20 ~12:48 Boise / ~18:48 UTC) - hourly 1248 HIGH
 
 Hourly 1248 uniqueness lock: decide is not generate; tryDecide returns typed calibrated judgments not a token stream; juspay/neurolink 133★ MIT HEAD 268b0fe83130 README SHA e709cadfa6b6 tag v12.19.0; GLiNER/GLiClass ports are class members not Jev replicas; MacPaw/Gliner2Swift ≠ Knowledgator/GLiClass.c ≠ fbilhaut/gliclass-rs ≠ Knowledgator/GLiClass.js ≠ gravitee-io/GLiNER4j ≠ apiplant/gliner-rs ≠ codesoda/gliner2-rs; 8.7x faster 4.4x fewer prompts *theirs*; 153 was a reporting error; corrected 156-case 9.8x faster 4.2x fewer prompts *theirs*; independent v0.2.1 1.24x vs Mini *theirs*; Approvals only; anpicasso/hermes-jev-approvals ≠ hermes-switchyard; scx-router GLiClass ranks candidate LLMs in one non-generative pass; typesafeai-dotnet-sdk Not affiliated with TypeSafe AI; hyperspaceai/jevcache ≠ kushals256/jevcache; ST-jeved measures each reply; 400 plain-text for unaskable question; razorback16/openjev:0.2.1 Docker densify HEAD 794a81b87131; wire-compat ≠ logit-equiv; Option-Marker joint attention 93.5% macro *theirs*; 93.6% micro *theirs*; n=78; T = 1.0367 vs T = 1.1692 two temperatures; guaranteeing is soundness theater; wfzyx/von densify HEAD bed7e7337791; Benchmark Heaven leaderboard #2 74.9 *theirs*; NLL calibration assets; 77.10% still §71 claim-audit; do not re-fold as a beat; Heman10x-NGU/openJev-verdict-2.0 densify HEAD bff28567cff4; kev-family weight tarballs; PLAN_Qwen35 proposal for review; deadline 0.53→0.82 at 9B *theirs*; Qwen3.5-9B ≠ Archer; isolation would fail by construction on DeltaNet; jaredpalmer/kev densify; JevBench v1.2.2 jeff 66.9 (#9) jev 75.3 (#2) *theirs*; logan-markewich/jeff densify HEAD 34b32f99a727; thinking=True/False per-field budget; type safety does not guarantee factual accuracy; TypeLLM/TypeLLM densify HEAD c4b03ba9e792; us/jev-local stub until hf; Eran-BA/Jev_from_GLiNER2 spec ≠ replica; lsu-ub-uu/systemone ≠ TypeSafe System One; Layan/Laya HF spaces name-match; catalog ≠ endorsement; decide ≠ generate ≠ stream; 93.5% *theirs* not Harbor; 74.9 *theirs* not Harbor; 8.7x *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45; notes.md §123

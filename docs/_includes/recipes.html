@@ -108,6 +108,20 @@
         <dd class="recipe-measure">Schema pass separately from calibration and from the effect.</dd>
       </dl>
     </article>
+    <article class="recipe panel">
+      <p class="kicker">Client / contract</p>
+      <h3>sdk 0.7 / MLX 400</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>A Pydantic client model or a 400 SchemaError treated as the head.</dd>
+        <dt>Without</dt>
+        <dd>Ship 0.7 as logit-equiv. Treat 400 as a Noul.</dd>
+        <dt>With</dt>
+        <dd>Pydantic response models ≠ logit-equiv. Error contract is not a Noul. Locate ≠ decide.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">Server logits separately from client decode. coverage-at-error-budget stays *theirs*.</dd>
+      </dl>
+    </article>
   </div>
   <p class="compare-caption">
     Measurement recipe (hysteresis, equal-width vs quantile ECE, hop-ECE,

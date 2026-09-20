@@ -26,6 +26,9 @@ Also reports (when asked, and always in --self-test):
   * third-party benches stay *theirs* (not Harbor)
   * decide is not generate; thinking mode is constrained AR
   * packed-mask isolation fails by construction on DeltaNet
+  * typesafe-sdk 0.7 Pydantic response models are not logit-equiv
+  * MLX SchemaError 400 plain-string is the same contract as vLLM
+  * coverage-at-error-budget stays *theirs* (not Harbor)
 
 Select thresholds on one split, evaluate on another: run twice with different
 files. Missing labels or costs produce a stated limitation, not defaults.
@@ -278,6 +281,33 @@ def isolation_fails_on_deltanet(packed_mask_respected):
     return packed_mask_respected is False
 
 
+def pydantic_sdk_07_is_not_logit_equiv(sdk_version, models_kind, server_output_unchanged):
+    """typesafe-sdk 0.7 Pydantic response models ≠ logit-equiv.
+
+    Quote *theirs*: The server's output is unchanged and was never wrong.
+    msgspec dropped is not a replica. Client decode is not the head.
+    """
+    if sdk_version != "0.7":
+        return False
+    if models_kind != "pydantic":
+        return False
+    return bool(server_output_unchanged)
+
+
+def mlx_400_same_contract_as_vllm(mlx_status, mlx_detail, vllm_status, vllm_detail):
+    """SchemaError is 400 plain-string detail not 422 list. Same contract as vLLM."""
+    mlx_ok = mlx_status == 400 and mlx_detail == "plain-string"
+    vllm_ok = vllm_status == 400 and vllm_detail == "plain-string"
+    return mlx_ok and vllm_ok
+
+
+def coverage_at_error_budget_is_theirs(metric_name, harbor=False):
+    """coverage-at-error-budget *theirs* not Harbor."""
+    if metric_name != "coverage-at-error-budget":
+        raise ValueError("unexpected metric")
+    return harbor is False
+
+
 def hop_ece_permutation_invariant(rows, bins=10, key="p"):
     """Shuffle order; equal-width ECE must not move.
 
@@ -389,6 +419,16 @@ def self_test():
     assert thinking_mode_is_constrained_ar(False)
     assert isolation_fails_on_deltanet(False)
     assert not isolation_fails_on_deltanet(True)
+
+    # 1340: pydantic 0.7 ≠ logit-equiv / MLX 400 same contract /
+    # coverage-at-error-budget *theirs*.
+    assert pydantic_sdk_07_is_not_logit_equiv("0.7", "pydantic", True)
+    assert not pydantic_sdk_07_is_not_logit_equiv("0.6", "msgspec", True)
+    assert mlx_400_same_contract_as_vllm(400, "plain-string", 400, "plain-string")
+    assert not mlx_400_same_contract_as_vllm(422, "list", 400, "plain-string")
+    assert coverage_at_error_budget_is_theirs("coverage-at-error-budget", harbor=False)
+    assert theirs_bench_is_not_harbor(1, "jev-vision-skip-0.936")
+    assert theirs_bench_is_not_harbor(1, "pii-f1-0.971")
 
     print("self-test ok")
 

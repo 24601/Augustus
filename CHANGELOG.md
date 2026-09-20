@@ -16,6 +16,39 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 1340 HIGH (`research/notes.md` §124 / composition items
+401–416 / findings batch #106). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#46. Do not amend released 0.5.0
+(#42). Merged #46 owns §123. Merged #45 owns §122.
+
+### Added
+
+- **Hourly 1340 HIGH (`notes.md` §124).** typesafe-sdk 0.7 Pydantic
+  response models / msgspec dropped / MLX 400 error contract /
+  PLAN_Qwen35 densify / GLiNER locate class members / Jev-Vision
+  *theirs* / 0.971 F1 *theirs*. Pydantic response models ≠
+  logit-equiv. msgspec dropped is not a replica. Error contract is
+  not a Noul. Locate ≠ decide. coverage-at-error-budget *theirs*
+  not Harbor. ~160 ms *theirs* not Harbor. 0.971 F1 *theirs* not
+  Harbor. wire-compat is not logit-equiv. SHA move is not a replica.
+  Evaluator: pydantic 0.7 ≠ logit-equiv / MLX 400 same contract as
+  vLLM / coverage-at-error-budget *theirs*. uniqueness_gate.py now
+  checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 + 1049 + 1143 +
+  1248 + 1340. Composition items 401–416 / batch #106.
+  **HARD RULE:** do not reopen or amend PR #23–#46. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat a Pydantic
+  0.7 client model as logit-equiv, a 400 SchemaError as a Noul, 0.971
+  F1 as Harbor, or PLAN_Qwen35 as a shipped port. With Augustus:
+  Pydantic response models ≠ logit-equiv; error contract is not a
+  Noul; GLiNER locate ports are class members; third-party benches
+  stay *theirs*; PLAN_Qwen35 is still a proposal for review. Same
+  split for any Choice/Score/Noul-style head, not only hosted Jev.
+
+
 Hourly 1248 HIGH (`research/notes.md` §123 / composition items
 385–400 / findings batch #105). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in

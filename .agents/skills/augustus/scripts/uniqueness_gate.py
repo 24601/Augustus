@@ -2,7 +2,7 @@
 """Uniqueness gate for merged 0843 (§114), merged 0915 NanoJev (§115),
 merged 0920 jcr (§116), merged 0922 SemIf (§117), merged 0940
 llm-to-jev (§118), hourly 0947 HIGH (§119), hourly 1049 HIGH (§120),
-hourly 1143 HIGH (§121), and hourly 1248 HIGH (§123).
+hourly 1143 HIGH (§121), hourly 1248 HIGH (§123), and hourly 1340 HIGH (§124).
 
 Each lock must appear as one consecutive substring in every listed overlay.
 Fragments scattered across files do not count.
@@ -11,9 +11,9 @@ Revisit / since-last-look protocol (`notes.md` §122) is a consecutive
 substring in the skill + research files (not a 21-overlay dump wall).
 Hourly must treat revisit HIGH like novel HIGH. Star-noise is not a fold.
 
-Also: YAML-parse SKILL.md frontmatter; notes.md owns §114–§123;
-composition items 289–316, 322–329, 330–336, 337–352, 353–368, 369–384, and 385–400 exist;
-findings batches #97–#105 exist. Items 317–321 stay unused.
+Also: YAML-parse SKILL.md frontmatter; notes.md owns §114–§124;
+composition items 289–316, 322–329, 330–336, 337–352, 353–368, 369–384, 385–400, and 401–416 exist;
+findings batches #97–#106 exist. Items 317–321 stay unused.
 CHANGELOG.md must not hold uniqueness dump walls (dumps live in
 changelog-hourly.md). README.md must not hold the 0743 dump wall.
 Pages greps stay in docs/index.md and docs/_layouts/default.html.
@@ -138,6 +138,10 @@ UNIQ_1248 = (
     'Hourly 1248 uniqueness lock: decide is not generate; tryDecide returns typed calibrated judgments not a token stream; juspay/neurolink 133★ MIT HEAD 268b0fe83130 README SHA e709cadfa6b6 tag v12.19.0; GLiNER/GLiClass ports are class members not Jev replicas; MacPaw/Gliner2Swift ≠ Knowledgator/GLiClass.c ≠ fbilhaut/gliclass-rs ≠ Knowledgator/GLiClass.js ≠ gravitee-io/GLiNER4j ≠ apiplant/gliner-rs ≠ codesoda/gliner2-rs; 8.7x faster 4.4x fewer prompts *theirs*; 153 was a reporting error; corrected 156-case 9.8x faster 4.2x fewer prompts *theirs*; independent v0.2.1 1.24x vs Mini *theirs*; Approvals only; anpicasso/hermes-jev-approvals ≠ hermes-switchyard; scx-router GLiClass ranks candidate LLMs in one non-generative pass; typesafeai-dotnet-sdk Not affiliated with TypeSafe AI; hyperspaceai/jevcache ≠ kushals256/jevcache; ST-jeved measures each reply; 400 plain-text for unaskable question; razorback16/openjev:0.2.1 Docker densify HEAD 794a81b87131; wire-compat ≠ logit-equiv; Option-Marker joint attention 93.5% macro *theirs*; 93.6% micro *theirs*; n=78; T = 1.0367 vs T = 1.1692 two temperatures; guaranteeing is soundness theater; wfzyx/von densify HEAD bed7e7337791; Benchmark Heaven leaderboard #2 74.9 *theirs*; NLL calibration assets; 77.10% still §71 claim-audit; do not re-fold as a beat; Heman10x-NGU/openJev-verdict-2.0 densify HEAD bff28567cff4; kev-family weight tarballs; PLAN_Qwen35 proposal for review; deadline 0.53→0.82 at 9B *theirs*; Qwen3.5-9B ≠ Archer; isolation would fail by construction on DeltaNet; jaredpalmer/kev densify; JevBench v1.2.2 jeff 66.9 (#9) jev 75.3 (#2) *theirs*; logan-markewich/jeff densify HEAD 34b32f99a727; thinking=True/False per-field budget; type safety does not guarantee factual accuracy; TypeLLM/TypeLLM densify HEAD c4b03ba9e792; us/jev-local stub until hf; Eran-BA/Jev_from_GLiNER2 spec ≠ replica; lsu-ub-uu/systemone ≠ TypeSafe System One; Layan/Laya HF spaces name-match; catalog ≠ endorsement; decide ≠ generate ≠ stream; 93.5% *theirs* not Harbor; 74.9 *theirs* not Harbor; 8.7x *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45; notes.md §123'
 )
 
+UNIQ_1340 = (
+    'Hourly 1340 uniqueness lock: typesafe-sdk 0.7 Pydantic response models; msgspec dropped; The server\'s output is unchanged and was never wrong; MLX backend 400 plain-text error contract; SchemaError is 400 plain-string detail not 422 list; razorback16/openjev densify HEAD 6e91dfc031bc README SHA cbdcc8de0304; Pydantic response models ≠ logit-equiv; msgspec dropped is not a replica; Error contract is not a Noul; wire-compat ≠ logit-equiv; PLAN_Qwen35 densify; corrected Qwen3.5 LoRA target names verified; in_proj_qkv in_proj_z in_proj_a in_proj_b out_proj; peft 0.21 existence proof; OOD-calibration study; coverage-at-error-budget metric in Phase 0; PLAN_Qwen35 still proposal for review; deadline 0.53→0.82 at 9B *theirs*; isolation would fail by construction on DeltaNet; Qwen3.5-9B ≠ Archer; jaredpalmer/kev densify HEAD 75cc15ddb8e2 PLAN SHA eca543246f50; GLiNER locate ports are class members not Jev replicas; urchade/GLiNER ≠ fbilhaut/gline-rs ≠ lmoe/gliner-onnx.js ≠ shershah1024/gliner-native-runtime; Locate ≠ decide; Jev-Vision skip 0.936 effect 0.967 done 0.896 157 ms *theirs*; ~160 ms *theirs* not Harbor; 0.971 F1 *theirs* not Harbor; coverage-at-error-budget *theirs* not Harbor; hf:fr0stbit3/laya-gguf serving substrate ≠ calibrated replica; jkcdarunday/SystemOne-Next ≠ TypeSafe System One; catalog ≠ endorsement; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46; notes.md §124'
+)
+
 REVISIT_LOCK = (
     "Revisit / since-last-look lock: catalogued repos are not done; "
     "store fingerprints default_sha, pushed_at, description_hash, release_tag; "
@@ -219,6 +223,8 @@ def main() -> int:
             failed.append(f"1143 lock missing as one substring: {rel}")
         if UNIQ_1248 not in body:
             failed.append(f"1248 lock missing as one substring: {rel}")
+        if UNIQ_1340 not in body:
+            failed.append(f"1340 lock missing as one substring: {rel}")
     for rel in REVISIT_OVERLAYS:
         path = ROOT / rel
         if not path.is_file():
@@ -248,10 +254,12 @@ def main() -> int:
         failed.append("notes.md missing §122 heading")
     if "## 123. Hourly 1248 HIGH" not in notes:
         failed.append("notes.md missing §123 heading")
+    if "## 124. Hourly 1340 HIGH" not in notes:
+        failed.append("notes.md missing §124 heading")
     algebra = (ROOT / ".agents/skills/augustus/references/composition-algebra.md").read_text(
         encoding="utf-8"
     )
-    for n in list(range(289, 317)) + list(range(322, 330)) + list(range(330, 337)) + list(range(337, 353)) + list(range(353, 369)) + list(range(369, 385)) + list(range(385, 401)):
+    for n in list(range(289, 317)) + list(range(322, 330)) + list(range(330, 337)) + list(range(337, 353)) + list(range(353, 369)) + list(range(369, 385)) + list(range(385, 401)) + list(range(401, 417)):
         needle = f"{n}. **"
         if needle not in algebra:
             failed.append(f"composition-algebra missing item {n}")
@@ -270,6 +278,7 @@ def main() -> int:
         "## Batch #103",
         "## Batch #104",
         "## Batch #105",
+        "## Batch #106",
     ):
         if batch not in findings:
             failed.append(f"findings.md missing {batch}")
@@ -339,6 +348,21 @@ def main() -> int:
             "hyperspaceai/jevcache ≠ kushals256/jevcache",
             "wire-compat ≠ logit-equiv",
             "SHA move is not a replica",
+            'typesafe-sdk 0.7 Pydantic response models',
+            'msgspec dropped',
+            "The server's output is unchanged and was never wrong",
+            'SchemaError is 400 plain-string detail not 422 list',
+            'Pydantic response models ≠ logit-equiv',
+            'msgspec dropped is not a replica',
+            'Error contract is not a Noul',
+            'coverage-at-error-budget *theirs* not Harbor',
+            'PLAN_Qwen35 still proposal for review',
+            'GLiNER locate ports are class members not Jev replicas',
+            'Locate ≠ decide',
+            '~160 ms *theirs* not Harbor',
+            '0.971 F1 *theirs* not Harbor',
+            'hf:fr0stbit3/laya-gguf serving substrate ≠ calibrated replica',
+            'jkcdarunday/SystemOne-Next ≠ TypeSafe System One',
         ):
             if frag not in haystack:
                 failed.append(f"SKILL.md missing fragment {frag!r}")
@@ -389,6 +413,22 @@ def main() -> int:
                 "wire-compat ≠ logit-equiv",
                 "SHA move is not a replica",
                 "hourly 1248 / notes.md §123",
+                'typesafe-sdk 0.7 Pydantic response models',
+                'msgspec dropped',
+                "The server's output is unchanged and was never wrong",
+                'SchemaError is 400 plain-string detail not 422 list',
+                'Pydantic response models ≠ logit-equiv',
+                'msgspec dropped is not a replica',
+                'Error contract is not a Noul',
+                'coverage-at-error-budget *theirs* not Harbor',
+                'PLAN_Qwen35 still proposal for review',
+                'GLiNER locate ports are class members not Jev replicas',
+                'Locate ≠ decide',
+                '~160 ms *theirs* not Harbor',
+                '0.971 F1 *theirs* not Harbor',
+                'hf:fr0stbit3/laya-gguf serving substrate ≠ calibrated replica',
+                'jkcdarunday/SystemOne-Next ≠ TypeSafe System One',
+                'hourly 1340 / notes.md §124',
             ):
                 if frag not in proto_line:
                     failed.append(f"SKILL.md protocol missing {frag!r}")
@@ -403,6 +443,7 @@ def main() -> int:
         ("1049", UNIQ_1049),
         ("1143", UNIQ_1143),
         ("1248", UNIQ_1248),
+        ("1340", UNIQ_1340),
     ):
         if lock in changelog:
             failed.append(
@@ -473,6 +514,7 @@ def main() -> int:
         f"1049 chars={len(UNIQ_1049)} "
         f"1143 chars={len(UNIQ_1143)} "
         f"1248 chars={len(UNIQ_1248)} "
+        f"1340 chars={len(UNIQ_1340)} "
         f"revisit chars={len(REVISIT_LOCK)} "
         f"overlays={len(OVERLAYS)} "
         f"revisit_overlays={len(REVISIT_OVERLAYS)}"
