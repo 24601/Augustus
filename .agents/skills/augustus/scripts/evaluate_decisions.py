@@ -355,6 +355,50 @@ def pass_min_still_soft(threshold, hard_gate=False):
     return hard_gate is False
 
 
+
+
+def constrained_ar_is_not_noul(kind, noul_claimed=False):
+    """Constrained AR ≠ calibrated Noul."""
+    if kind != "constrained_ar":
+        raise ValueError("unexpected kind")
+    return noul_claimed is False
+
+
+def fail_closed_never_auto_allows(polarity, auto_allows=False):
+    """harshwasan/jev-sentinel fail closed never auto-allows."""
+    if polarity != "fail_closed":
+        raise ValueError("unexpected polarity")
+    return auto_allows is False
+
+
+def fail_open_uncertainty_means_run(polarity, uncertainty_action):
+    """baronunread/leanest fail-open uncertainty means RUN."""
+    if polarity != "fail_open":
+        raise ValueError("unexpected polarity")
+    return uncertainty_action == "RUN"
+
+
+def routing_threshold_still_soft(threshold, hard_gate=False):
+    """JEV_THRESHOLD 0.65 / 0.90 / ask_below 0.7 still soft."""
+    if threshold not in (0.65, 0.90, 0.7):
+        raise ValueError("unexpected threshold")
+    return hard_gate is False
+
+
+def classifier_is_not_authorizer(role, grants_permission=False):
+    """classifier ≠ authorizer."""
+    if role != "classifier":
+        raise ValueError("unexpected role")
+    return grants_permission is False
+
+
+def estimates_are_not_harbor(kind, harbor=False):
+    """estimates not Harbor."""
+    if kind != "estimate":
+        raise ValueError("unexpected kind")
+    return harbor is False
+
+
 def hop_ece_permutation_invariant(rows, bins=10, key="p"):
     """Shuffle order; equal-width ECE must not move.
 
@@ -495,6 +539,26 @@ def self_test():
     assert not pass_min_still_soft(0.8, hard_gate=True)
     assert theirs_bench_is_not_harbor(64, "jev-visual-37.30s-2.40s")
     assert theirs_bench_is_not_harbor(10046, "open-jev-2b-94.71")
+
+
+    # 1542: Constrained AR ≠ Noul / fail-closed never auto-allows /
+    # fail-open RUN / routing threshold still soft / classifier ≠
+    # authorizer / estimates not Harbor.
+    assert constrained_ar_is_not_noul("constrained_ar", False)
+    assert not constrained_ar_is_not_noul("constrained_ar", True)
+    assert fail_closed_never_auto_allows("fail_closed", False)
+    assert not fail_closed_never_auto_allows("fail_closed", True)
+    assert fail_open_uncertainty_means_run("fail_open", "RUN")
+    assert not fail_open_uncertainty_means_run("fail_open", "SKIP")
+    assert routing_threshold_still_soft(0.65, hard_gate=False)
+    assert not routing_threshold_still_soft(0.90, hard_gate=True)
+    assert routing_threshold_still_soft(0.7, hard_gate=False)
+    assert classifier_is_not_authorizer("classifier", False)
+    assert not classifier_is_not_authorizer("classifier", True)
+    assert estimates_are_not_harbor("estimate", harbor=False)
+    assert not estimates_are_not_harbor("estimate", harbor=True)
+    assert theirs_bench_is_not_harbor(16, "typellm-batch-5.8x")
+    assert theirs_bench_is_not_harbor(81, "esinocchi-76-81")
 
     print("self-test ok")
 

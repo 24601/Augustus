@@ -2035,6 +2035,14 @@ are the tests. Probabilities are not win odds.
    shortlists. Auto-mode / compaction / auto-model are opt-in.
    `applied-mappings.md` §5.
 
+### Since last look (2026-09-20T21 hourly 1542) — TheoOliveira/pi-jev
+
+DENSIFY §42 item 9. Keep this section id. **21★**. HEAD `549c2bfa2492`.
+Fail-closed routing: unjudged tools do not blindly activate.
+JEV_THRESHOLD 0.65 still soft. A Jev failure leaves the turn untouched.
+routing ≠ permission. SHA move is not a replica.
+Full card: `notes.md` §126.
+
 10. **`rajdhakad9826/routeKit`** — already §33. Still Hypothesis until
     *your* catalog. No rewrite.
 
@@ -2472,6 +2480,17 @@ PLAN_Qwen35 still proposal for review. deadline 0.53→0.82 at 9B *theirs*.
 isolation would fail by construction on DeltaNet. Qwen3.5-9B ≠ Archer.
 coverage-at-error-budget *theirs* not Harbor. SHA move is not a replica.
 Full card: `notes.md` §124.
+
+### Since last look (2026-09-20T21 hourly 1542) — jaredpalmer/kev
+
+DENSIFY §45. Keep this section id. Do not mint a sibling first sighting.
+HEAD `b339f446a0ef` README SHA `86b0a19909f3` (was `75cc15ddb8e2`).
+Kev-0.6B 4B 8B family. 4B new-source 0.790/0.806 *theirs*.
+8B new-source 0.796/0.780 *theirs*. Jev hosted 0.857 *theirs*.
+Questions share the input text but cannot read each other.
+No Jev outputs were used for training. 8.2% ≥0.9 on wrong *theirs*.
+option order can change an answer. Qwen3 ≠ Archer.
+SHA move is not a replica. Full card: `notes.md` §126.
 
 
 ## 46. 14:03 Boise hourly — open multimodal RLCD, bake-off substrate, decision-token LoRA (2026-09-18)
@@ -28206,6 +28225,16 @@ thinking=True/False per-field budget. type safety does not guarantee
 factual accuracy. Thinking mode is constrained AR, not a Noul.
 Qwen/Qwen3.8-27B ≠ Archer. Full card: `notes.md` §123.
 
+### Since last look (2026-09-20T21 hourly 1542) — TypeLLM/TypeLLM
+
+DENSIFY §113 rename. Keep this section id. Do not mint a sibling first
+sighting. HEAD `6a48f9f1e623` README SHA `dbdc1f193537` (was `c4b03ba9e792`).
+README densify 3k→12k B. thinking=True/False per-field budget.
+type safety does not guarantee factual accuracy. Sequential 9.35 s vs
+batch 1.61 s K=16 5.8x *theirs*. Constrained AR ≠ calibrated Noul.
+Qwen/Qwen3.8-27B ≠ Archer. SHA move is not a replica.
+Full card: `notes.md` §126.
+
 
 ## 114. Hourly 0843 HIGH (2026-09-20 ~08:43 Boise / 2026-09-20T14:43Z)
 
@@ -31291,3 +31320,265 @@ Hooks for the reviewer:
   No live Jev key. No wrappers.
 
 Hourly 1441 uniqueness lock: vLLM NVIDIA + MLX Apple Silicon; Codiv hosted free endpoint; dual /v1/systemone + /v1/chat/completions; razorback16/openjev densify HEAD cddbd962c88a README SHA a5943415cb92; STE README rewrite; serving-port densify; chat 501 on MLX; dual serving is not generate; Hosted Codiv ≠ TypeSafe; wire-compat ≠ logit-equiv; SHA move is not a replica; Error contract is not a Noul; hr98w/jev-visual 167★ Apple Silicon visual candidate scoring; 37.30s → 2.40s at 64 decisions *theirs*; Breakout 9 bricks 6 returns 2 lives *theirs*; candidate probabilities are relative not correctness; jkudish/jev-mcp 156★ ten MCP tools; recommendation is advisory; the server never blocks on its own; TypeSafe CLERC 5% to 18% *theirs*; jkudish/jev-mcp ≠ burnigtm/jev-mcp; zhengxuyu/litjev off-the-shelf Qwen decision layer; Probabilities are not calibrated by default; Qwen/Qwen3.8-27B ≠ Archer; zhengxuyu/litjev ≠ alexwestco/llm-to-jev; Zefan-Cai/Open-Jev LoRA + scalar head; 2B 94.71% 9B 97.54% hard test *theirs*; 2B OOD 86.02% 9B OOD 91.97% *theirs*; 80,816 training rows; 27B still in progress; LoRA ≠ RLCD replica; Zefan-Cai/Open-Jev ≠ TheoLeeCJ/openjev ≠ razorback16/openjev; cristianoliveira/jeq intelligence you can pipe; pass-min 0.8 still soft; JEQ does not own actions; AndyInQtr/laya-coreai CoreML serving substrate ≠ calibrated replica; AndyInQtr/laya-coreai ≠ mizorewww/laya-coreml; catalog ≠ endorsement; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47; notes.md §125
+
+
+## 126. Hourly 1542 HIGH (2026-09-20 ~15:42 Boise / 2026-09-20T21:42Z)
+
+Measurement / class-member fold on a **fresh PR off latest `main`**
+(`cursor/fold-hourly-1542-high-4cff`) after `f40139c` (merged #48
+hourly 1441, `notes.md` §125 / items 417–432 / batch #107; merged #47
+hourly 1340, `notes.md` §124). **HARD RULE:** do not reopen or
+amend PR #23–#48. Do **not** push onto merged 1441 / 1340 / 1248 /
+1143 / 1049 / 0947 tracks. This fold's IDs: `notes.md` §126 / composition 433–448 /
+findings batch #108.
+
+Never reopen merged #7–**#48**. Do **not** re-fold §125 1441 / §124 1340 / §123 1248 /
+§122 protocol / §121 1143 / §120 1049 / §119 0947 / §118 llm-to-jev /
+§117 SemIf / §116 jcr / §115 NanoJev / §114 0843 *as a second census*.
+Densify `TypeLLM/TypeLLM` (§113) and `jaredpalmer/kev` (§45 / §98).
+Densify already-catalogued `TheoOliveira/pi-jev` (§42 item 9). Skip Archer
+rewrite. Quote READMEs. Mark *theirs*. No wrappers, keys, `npm` / `pip` /
+`uv` / `docker` install recipes. `invented_signal: false`. Hunches labeled.
+
+Lane is Augustus: **mathematical / logical / algorithmic mental models**
+for Jev-class categorization/scoring across AI / SWE / **business /
+knowledge work / life**, not SWE-only. PRIMARY this hour is **REVISIT
+densify**: TypeLLM README 3k→12k B (thinking budget, batch 5.8x *theirs*,
+Constrained AR ≠ calibrated Noul) and kev family README (new-source
+0.790/0.806 *theirs*, 8.2% ≥0.9 on wrong *theirs*, option order can
+change an answer). Novel HIGH: fail-closed routing, fail-closed sentinel,
+MCP tool routers, fail-open test selection, jevals estimates, unofficial
+catalog, firewall/codex-approval gate cousins, HF encoder/quanto serving.
+Third-party benches stay *theirs*. Wire-compat is still not logit-equiv.
+SHA move is not a replica. Catalogs are indexes. Soft scores ≠ hard gates.
+classifier ≠ authorizer. estimates not Harbor. routing ≠ permission.
+Archer still **promised_not_landed**.
+
+Unique consecutive fragments (this hour) must appear as **one
+substring** in overlays (see uniqueness gate):
+Hourly 1542 uniqueness lock: TypeLLM/TypeLLM densify HEAD 6a48f9f1e623 README SHA dbdc1f193537; README densify 3k→12k B; thinking=True/False per-field budget; type safety does not guarantee factual accuracy; Batch 5.8x *theirs*; Constrained AR ≠ calibrated Noul; Qwen/Qwen3.8-27B ≠ Archer; jaredpalmer/kev densify HEAD b339f446a0ef README SHA 86b0a19909f3; Kev-0.6B 4B 8B family; 4B new-source 0.790/0.806 *theirs*; 8B new-source 0.796/0.780 *theirs*; Jev hosted 0.857 *theirs*; Questions share the input text but cannot read each other; No Jev outputs were used for training; 8.2% ≥0.9 on wrong *theirs*; option order can change an answer; Qwen3 ≠ Archer; wire-compat ≠ logit-equiv; SHA move is not a replica; TheoOliveira/pi-jev 21★ fail-closed routing; JEV_THRESHOLD 0.65 still soft; routing ≠ permission; harshwasan/jev-sentinel fail closed never auto-allows; harshwasan/jev-sentinel ≠ leepokai/jev-guard; jackbarunz/jev-tool-router ≠ esinocchi/jev-tool-router; threshold 0.90 still soft; 76/81 vs 77/81 *theirs*; 0.419s vs 2.459s *theirs*; $0.00486 vs $0.03673 *theirs*; does not execute; not a security boundary; baronunread/leanest fail-open uncertainty means RUN; classifier.dev default Jev/Laya pluggable; openlayer-ai/jevals ≠ dayhaysoos/jevals; estimates not Harbor; classifier ≠ authorizer; MrJev/awesome-jev 118 entries catalog ≠ endorsement; MrJev/awesome-jev ≠ yibie/awesome-jev; Koushik890/jev-firewall fail closed ask_below 0.7 still soft; CompleteTech-LLC-AI-Research/jev-codex-approval experimental native not compiled; confidence is not a measured probability; rh-guard owns primary gates; hf:rAVEUK/open-jev-deberta-v3-large encoder class member not Jev replica; hf:p-yan/laya-quanto serving substrate ≠ calibrated replica; hf:Gtrkrsk/laya serving substrate ≠ calibrated replica; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48; notes.md §126
+
+### How-to-apply (five placements / measurement lenses)
+
+These are *class* lenses, not vendor tutorials. Same discipline as
+§125 (dual serving is not generate; SHA move is not a replica) and §123
+(decide is not generate). Formal methods **compose** with scoring: a
+Noul is a SENSOR; constrained AR is not a Noul; a 0.65 routing cutoff is
+application policy, not a proof; fail-open RUN is the opposite polarity
+of fail-closed never auto-allows.
+
+1. **Constrained AR ≠ calibrated Noul**
+   (*theirs*, TypeLLM/TypeLLM PRIMARY densify). Quote *theirs*:
+   thinking=True/False per-field budget. Thinking is off by default.
+   type safety does not guarantee factual accuracy. Sequential 9.35 s
+   vs batch 1.61 s at K=16 Boolean fields, 5.8x *theirs*. Constrained AR
+   ≠ calibrated Noul. Qwen/Qwen3.8-27B ≠ Archer. README densify 3k→12k B.
+   HEAD `6a48f9f1e623` README SHA `dbdc1f193537`. Life analogue: a typed
+   form that checks the boxes is still not a measured probability that
+   the answers are true.
+2. **isolation ≠ option-order immunity**
+   (*theirs*, jaredpalmer/kev PRIMARY densify). Quote *theirs*:
+   Questions share the input text but cannot read each other. No Jev
+   outputs were used for training. Kev-0.6B 4B 8B family. 4B new-source
+   0.790/0.806 *theirs*. 8B new-source 0.796/0.780 *theirs*. Jev hosted
+   0.857 *theirs*. 8.2% ≥0.9 on wrong *theirs*. option order can change
+   an answer. Qwen3 ≠ Archer. HEAD `b339f446a0ef` README SHA `86b0a19909f3`.
+3. **fail-closed routing ≠ permission**
+   (TheoOliveira/pi-jev densify §42; harshwasan/jev-sentinel). Quote
+   *theirs* pi-jev: Fails closed safely: unjudged tools do not blindly
+   activate. JEV_THRESHOLD 0.65 still soft. A Jev failure leaves the
+   turn untouched. routing ≠ permission. Quote *theirs* sentinel: Fails
+   closed. It never auto-allows. harshwasan/jev-sentinel ≠
+   leepokai/jev-guard. rh-guard owns primary gates.
+4. **fail-open uncertainty means RUN**
+   (baronunread/leanest vs the fail-closed routers). Quote *theirs*:
+   Fail open: uncertainty means RUN. classifier.dev default; Jev/Laya
+   pluggable. Contrast jackbarunz threshold 0.90 still soft and
+   Koushik890/jev-firewall fail closed ask_below 0.7 still soft.
+   Polarity is per act, not a class property.
+5. **classifier ≠ authorizer / estimates not Harbor**
+   (openlayer-ai/jevals; esinocchi/jev-tool-router; MrJev/awesome-jev).
+   Quote *theirs* jevals: do not let the classifier become the
+   authorizer. The numbers above are estimates until `jevals bench`
+   has been run. openlayer-ai/jevals ≠ dayhaysoos/jevals. Quote
+   *theirs* esinocchi: 76/81 vs 77/81 *theirs*. 0.419s vs 2.459s
+   *theirs*. $0.00486 vs $0.03673 *theirs*. not a security boundary.
+   jackbarunz/jev-tool-router ≠ esinocchi/jev-tool-router. Quote
+   *theirs* MrJev: 118 entries. Listing is not endorsement.
+   MrJev/awesome-jev ≠ yibie/awesome-jev. catalog ≠ endorsement.
+
+### HIGH (revisit densify; keep original section ids)
+
+1. **[TypeLLM/TypeLLM](https://github.com/TypeLLM/TypeLLM)**
+   - DENSIFY §113 rename (live name TypeLLM; **16★**; HEAD `6a48f9f1e623`;
+   README SHA `dbdc1f193537`; was `c4b03ba9e792` / 1248 densify).
+   README densify 3k→12k B. thinking=True/False per-field budget.
+   type safety does not guarantee factual accuracy. Sequential 9.35 s
+   vs batch 1.61 s K=16 5.8x *theirs*. Constrained AR ≠ calibrated Noul.
+   Qwen/Qwen3.8-27B ≠ Archer. Do **not** copy SGLang flags.
+
+2. **[jaredpalmer/kev](https://github.com/jaredpalmer/kev)**
+   - DENSIFY §45 / §98 (Apache-2.0; **964★** watch list / live **970★**
+   is star-noise; HEAD `b339f446a0ef`; README SHA `86b0a19909f3`;
+   was `75cc15ddb8e2` / 1340 densify). Kev-0.6B 4B 8B family.
+   4B new-source 0.790/0.806 *theirs*. 8B new-source 0.796/0.780
+   *theirs*. Jev hosted 0.857 *theirs*. Questions share the input text
+   but cannot read each other. No Jev outputs were used for training.
+   8.2% ≥0.9 on wrong *theirs*. option order can change an answer.
+   Qwen3 ≠ Archer. Do **not** copy `uv run`.
+
+3. **[TheoOliveira/pi-jev](https://github.com/TheoOliveira/pi-jev)**
+   - DENSIFY §42 item 9 (MIT; **21★**; HEAD `549c2bfa2492`). Fail-closed
+   routing: unjudged tools do not blindly activate. JEV_THRESHOLD 0.65
+   still soft. Gate ≥0.70 still soft. A Jev failure leaves the turn
+   untouched. routing ≠ permission. **Not** kevinpita/pi-jev-context.
+   Do **not** copy keys.
+
+### HIGH (novel)
+
+4. **[harshwasan/jev-sentinel](https://github.com/harshwasan/jev-sentinel)**
+   - NEW HIGH measurement (MIT-shaped; **8★**; HEAD `4ae67df78c95`).
+   Quote *theirs*: Fails closed. It never auto-allows. Pi / Claude Code /
+   Codex hosts. Previously called jev-guard in screenshots.
+   harshwasan/jev-sentinel ≠ leepokai/jev-guard. rh-guard owns primary
+   gates. Do **not** copy keys.
+
+5. **[jackbarunz/jev-tool-router](https://github.com/jackbarunz/jev-tool-router)**
+   + **[esinocchi/jev-tool-router](https://github.com/esinocchi/jev-tool-router)**
+   - NEW HIGH measurement (jackbarunz **3★** unofficial community;
+   esinocchi **0★**). jackbarunz/jev-tool-router ≠
+   esinocchi/jev-tool-router. Quote *theirs* jackbarunz: Unofficial.
+   Default selection threshold 0.90. none_of_the_above. threshold 0.90
+   still soft. Quote *theirs* esinocchi: 76/81 vs 77/81 *theirs*.
+   0.419s vs 2.459s *theirs*. $0.00486 vs $0.03673 *theirs*. not a
+   security boundary. does not execute the agent loop. Do **not** copy
+   `uv` keys.
+
+6. **[baronunread/leanest](https://github.com/baronunread/leanest)**
+   - NEW HIGH measurement (**3★**; HEAD `b5529b59e76d`). Quote *theirs*:
+   Fail open: uncertainty means RUN. classifier.dev default Jev/Laya
+   pluggable. Contrast the fail-closed routers this hour. Do **not**
+   copy GitHub Action secrets.
+
+7. **[openlayer-ai/jevals](https://github.com/openlayer-ai/jevals)**
+   - NEW HIGH measurement (alpha; **0★**; HEAD `a38a971095c4`). Quote
+   *theirs*: estimates until bench run. LangChain 92x–913x variance
+   *theirs*. classifier ≠ authorizer. openlayer-ai/jevals ≠
+   dayhaysoos/jevals. estimates not Harbor. Do **not** copy keys.
+
+8. **[MrJev/awesome-jev](https://github.com/MrJev/awesome-jev)**
+   - NEW HIGH catalog (**6★**; HEAD `e9cac99e4919`). Quote *theirs*:
+   118 entries. Listing is not endorsement. Unofficial, not affiliated.
+   MrJev/awesome-jev ≠ yibie/awesome-jev. catalog ≠ endorsement.
+
+9. **[Koushik890/jev-firewall](https://github.com/Koushik890/jev-firewall)**
+   + **[CompleteTech-LLC-AI-Research/jev-codex-approval](https://github.com/CompleteTech-LLC-AI-Research/jev-codex-approval)**
+   - NEW HIGH gate cousins (both **0★**). Quote *theirs* firewall:
+   fail closed, ask_below 0.7 still soft. Rules can only tighten.
+   Quote *theirs* jev-codex-approval: experimental native not compiled.
+   confidence is not a measured probability. rh-guard owns primary
+   gates. Do **not** copy install scripts.
+
+10. **[hf:rAVEUK/open-jev-deberta-v3-large](https://huggingface.co/rAVEUK/open-jev-deberta-v3-large)**
+    + **[hf:p-yan/laya-quanto](https://huggingface.co/p-yan/laya-quanto)**
+    + **[hf:Gtrkrsk/laya](https://huggingface.co/Gtrkrsk/laya)**
+    - NEW HIGH serving / encoder honesty. rAVEUK encoder class member
+    not Jev replica (sha `7beac18983e6`, likes 0). p-yan/laya-quanto
+    serving substrate ≠ calibrated replica (sha `070a6e609763`).
+    p-yan/laya-q8 and p-yan/laya-q4 Hub HTTP **401** this hour.
+    Gtrkrsk/laya serving substrate ≠ calibrated replica (sha
+    `f6029af5253c`). Softmax over options ≠ calibrated Noul.
+
+### Remainder (short cards, same hour)
+
+wd041216-bit/zero-api-key-web-search, sugarforever/tryjev,
+moedesux/tic-tac-toe-jev, kindintelligence/jev-rust-review,
+ibrahemid/git-jev-stage, dr-dimitru/claude-jev-plugin,
+ajmeese7/hdd-analyzer, 4rays/profanity-checker, and the rest of the
+watch-list playgrounds / name-match Jev demos: catalog, do not elevate.
+markusbuchholz/openjev already has openjev cousins; densify is not a
+second census. angrysky56/jev-mcp ≠ jkudish/jev-mcp (§125).
+danielsiwiec/jev-evals ≠ openlayer-ai/jevals. Gate/router cousins
+(cyriusweng/omp-jev-gate, JxWayne890/jev-control-plane, devjtv/jev-router)
+are measurement notes only; rh-guard owns primary gates.
+catalog ≠ endorsement.
+
+### Skips (thin / collision / name-match)
+
+- Empty-README / 0★ playgrounds / marketing sites / name-match
+  `Jev` / Hub spaces already folded: skip-thin.
+- p-yan/laya-q8 and p-yan/laya-q4 Hub HTTP **401**.
+- Archer rewrite: **promised_not_landed**. Hub archerhume/4rcherhume
+  HTTP **401**. Qwen/Qwen3.8-27B ≠ Archer. Qwen3 ≠ Archer.
+
+### Pulse (live REST this hour)
+
+Archer still promised_not_landed. Hub archerhume/4rcherhume HTTP **401**.
+TypeLLM **16★**. kev **970★** (star-noise vs watch 964). pi-jev **21★**.
+jev-sentinel **8★**. MrJev/awesome-jev **6★**. jackbarunz **3★**.
+leanest **3★**. This hour does not re-census SemIf / Laya likes /
+tracker; those numbers stay §119 until a dedicated pulse.
+`invented_signal: false`.
+
+### Formal compose + anti-patterns
+
+Formal methods **compose** with scoring. A Noul is a SENSOR. Constrained
+AR is not a Noul. A 0.65 / 0.90 / 0.7 cutoff is policy. Fail-open RUN is
+not fail-closed never auto-allows. Treating 5.8x as Harbor, new-source
+0.790 as Harbor, 76/81 as Harbor, 118 entries as endorsement, a
+classifier as an authorizer, estimates as Harbor, quanto as a
+calibrated replica, DeBERTa as a Jev replica, or Qwen3 as Archer is
+soundness theater. Constrained AR ≠ calibrated Noul. JEV_THRESHOLD 0.65
+still soft. threshold 0.90 still soft. ask_below 0.7 still soft.
+classifier ≠ authorizer. estimates not Harbor. routing ≠ permission.
+wire-compat ≠ logit-equiv. SHA move is not a replica. catalog ≠
+endorsement.
+
+### Adversarial review + testing hooks (Basit standing
+order)
+
+Parent merge only after **CLEAN** adversarial review **AND** testing.
+Hooks for the reviewer:
+
+- Uniqueness-gate: the consecutive `Hourly 1542 uniqueness lock:`
+  string must appear in every overlay listed below. Prior walls 0843 /
+  0915 / jcr / 0922 / 0940 / 0947 / 1049 / 1143 / 1248 / 1340 / 1441 stay one
+  substring each (do not mutate them; do not reopen #23–#48).
+- Namesake locks: TypeLLM/TypeLLM densify §113; jaredpalmer/kev densify
+  §45; TheoOliveira/pi-jev densify §42; harshwasan/jev-sentinel ≠
+  leepokai/jev-guard; jackbarunz/jev-tool-router ≠
+  esinocchi/jev-tool-router; openlayer-ai/jevals ≠ dayhaysoos/jevals;
+  MrJev/awesome-jev ≠ yibie/awesome-jev; Qwen3 ≠ Archer;
+  Constrained AR ≠ calibrated Noul.
+- Densify vs new: TypeLLM densifies §113. kev densifies §45. pi-jev
+  densifies §42. Do not mint sibling first-sighting sections.
+  sentinel / routers / leanest / jevals / MrJev / firewall /
+  jev-codex-approval / HF encoder-quanto are first sightings this hour.
+- Harbor-jevals: Batch 5.8x / 4B new-source 0.790/0.806 / 8B 0.796/0.780 /
+  Jev hosted 0.857 / 8.2% ≥0.9 on wrong / 76/81 vs 77/81 / 0.419s vs 2.459s /
+  $0.00486 vs $0.03673 are *theirs*, not Harbor. 37.30s → 2.40s / CLERC
+  5% to 18% / 94.71% stay §125. 93.5% / 74.9 / 8.7x stay §123. 74.6
+  JevBench stays §78.
+- Anti-patterns to refuse: TypeSafe drop-in; Qwen3 as Archer;
+  Constrained AR as Noul; 0.65 / 0.90 / 0.7 as a hard gate; fail-open as
+  fail-closed; classifier as authorizer; estimates as Harbor; catalog as
+  endorsement; copying keys / `npm` / `pip` / `uv` / `docker`.
+- Overlay set: SKILL.md body (protocol fragments + class-table densify
+  + Hourly 1542), mental-models Apply 1542, composition-algebra items
+  433–448, faq, mixed-architecture, validation, toolbox-mapping,
+  methods-catalog, formal-methods, formal-semi-formal,
+  applied-mappings, judgment-class, question-design,
+  agent-self-assessment, mappings, CHANGELOG, README, docs/ecosystem,
+  findings batch #108, refresh-log, sources.json, changelog-hourly.md,
+  revisit_fingerprints.json (TypeLLM + kev SHA move; novel HIGH seeds).
+- Offline check: `evaluate_decisions.py --self-test` (now includes
+  Constrained AR ≠ Noul / fail-closed never auto-allows / fail-open
+  uncertainty means RUN / routing threshold still soft / classifier ≠
+  authorizer / estimates not Harbor) and `uniqueness_gate.py` (0843 +
+  0915 + jcr + 0922 + 0940 + 0947 + 1049 + 1143 + 1248 + 1340 + 1441 + 1542).
+  No live Jev key. No wrappers.
+
+Hourly 1542 uniqueness lock: TypeLLM/TypeLLM densify HEAD 6a48f9f1e623 README SHA dbdc1f193537; README densify 3k→12k B; thinking=True/False per-field budget; type safety does not guarantee factual accuracy; Batch 5.8x *theirs*; Constrained AR ≠ calibrated Noul; Qwen/Qwen3.8-27B ≠ Archer; jaredpalmer/kev densify HEAD b339f446a0ef README SHA 86b0a19909f3; Kev-0.6B 4B 8B family; 4B new-source 0.790/0.806 *theirs*; 8B new-source 0.796/0.780 *theirs*; Jev hosted 0.857 *theirs*; Questions share the input text but cannot read each other; No Jev outputs were used for training; 8.2% ≥0.9 on wrong *theirs*; option order can change an answer; Qwen3 ≠ Archer; wire-compat ≠ logit-equiv; SHA move is not a replica; TheoOliveira/pi-jev 21★ fail-closed routing; JEV_THRESHOLD 0.65 still soft; routing ≠ permission; harshwasan/jev-sentinel fail closed never auto-allows; harshwasan/jev-sentinel ≠ leepokai/jev-guard; jackbarunz/jev-tool-router ≠ esinocchi/jev-tool-router; threshold 0.90 still soft; 76/81 vs 77/81 *theirs*; 0.419s vs 2.459s *theirs*; $0.00486 vs $0.03673 *theirs*; does not execute; not a security boundary; baronunread/leanest fail-open uncertainty means RUN; classifier.dev default Jev/Laya pluggable; openlayer-ai/jevals ≠ dayhaysoos/jevals; estimates not Harbor; classifier ≠ authorizer; MrJev/awesome-jev 118 entries catalog ≠ endorsement; MrJev/awesome-jev ≠ yibie/awesome-jev; Koushik890/jev-firewall fail closed ask_below 0.7 still soft; CompleteTech-LLC-AI-Research/jev-codex-approval experimental native not compiled; confidence is not a measured probability; rh-guard owns primary gates; hf:rAVEUK/open-jev-deberta-v3-large encoder class member not Jev replica; hf:p-yan/laya-quanto serving substrate ≠ calibrated replica; hf:Gtrkrsk/laya serving substrate ≠ calibrated replica; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48; notes.md §126
+
+**Hourly 1542 HIGH (`notes.md` §126).** TypeLLM README densify 3k→12k B. Batch 5.8x *theirs*. Constrained AR ≠ calibrated Noul. kev family densify. 4B new-source 0.790/0.806 *theirs*. 8.2% ≥0.9 on wrong *theirs*. option order can change an answer. fail-closed routing vs fail-open test selection. classifier ≠ authorizer. estimates not Harbor. catalog ≠ endorsement. SHA move is not a replica. Do not reopen or amend PR #23–#48. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+Hourly 1542 uniqueness lock: TypeLLM/TypeLLM densify HEAD 6a48f9f1e623 README SHA dbdc1f193537; README densify 3k→12k B; thinking=True/False per-field budget; type safety does not guarantee factual accuracy; Batch 5.8x *theirs*; Constrained AR ≠ calibrated Noul; Qwen/Qwen3.8-27B ≠ Archer; jaredpalmer/kev densify HEAD b339f446a0ef README SHA 86b0a19909f3; Kev-0.6B 4B 8B family; 4B new-source 0.790/0.806 *theirs*; 8B new-source 0.796/0.780 *theirs*; Jev hosted 0.857 *theirs*; Questions share the input text but cannot read each other; No Jev outputs were used for training; 8.2% ≥0.9 on wrong *theirs*; option order can change an answer; Qwen3 ≠ Archer; wire-compat ≠ logit-equiv; SHA move is not a replica; TheoOliveira/pi-jev 21★ fail-closed routing; JEV_THRESHOLD 0.65 still soft; routing ≠ permission; harshwasan/jev-sentinel fail closed never auto-allows; harshwasan/jev-sentinel ≠ leepokai/jev-guard; jackbarunz/jev-tool-router ≠ esinocchi/jev-tool-router; threshold 0.90 still soft; 76/81 vs 77/81 *theirs*; 0.419s vs 2.459s *theirs*; $0.00486 vs $0.03673 *theirs*; does not execute; not a security boundary; baronunread/leanest fail-open uncertainty means RUN; classifier.dev default Jev/Laya pluggable; openlayer-ai/jevals ≠ dayhaysoos/jevals; estimates not Harbor; classifier ≠ authorizer; MrJev/awesome-jev 118 entries catalog ≠ endorsement; MrJev/awesome-jev ≠ yibie/awesome-jev; Koushik890/jev-firewall fail closed ask_below 0.7 still soft; CompleteTech-LLC-AI-Research/jev-codex-approval experimental native not compiled; confidence is not a measured probability; rh-guard owns primary gates; hf:rAVEUK/open-jev-deberta-v3-large encoder class member not Jev replica; hf:p-yan/laya-quanto serving substrate ≠ calibrated replica; hf:Gtrkrsk/laya serving substrate ≠ calibrated replica; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48; notes.md §126

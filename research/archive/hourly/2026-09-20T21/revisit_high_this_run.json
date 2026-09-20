@@ -1,0 +1,24 @@
+[
+  {
+    "id": "TypeLLM/TypeLLM",
+    "source": "github",
+    "stars": 16,
+    "change_type": "readme_densify",
+    "what_changed": "HEAD 6a48f9f1e623 (was d1403048875f): README densify - revise intro/features, update title/description, enhance with banner and project links. Material README rewrite (3k→12k B). *theirs*",
+    "pushed_at": "2026-09-20T21:02:54Z",
+    "material": true,
+    "default_branch_sha": "6a48f9f1e623500b936d978140d239d9c11ce82a",
+    "prior_sha": "d1403048875f2a3fbb44334d82dc028a9749760c"
+  },
+  {
+    "id": "jaredpalmer/kev",
+    "source": "github",
+    "stars": 964,
+    "change_type": "readme_densify",
+    "what_changed": "HEAD b339f446a0ef (was 75cc15ddb8e2): README densify - revise model description, usage, installation, API clarity (4 README-only commits). Material README rewrite. Description field unchanged. *theirs*",
+    "pushed_at": "2026-09-20T20:54:46Z",
+    "material": true,
+    "default_branch_sha": "b339f446a0ef0d691d9541daa42fb5416dfba63b",
+    "prior_sha": "75cc15ddb8e2d84bb85e68200c32d31da7f09f54"
+  }
+]

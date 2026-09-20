@@ -150,6 +150,62 @@
         <dd class="recipe-measure">Relative ranking separately from ECE. The server never blocks on its own.</dd>
       </dl>
     </article>
+    <article class="recipe panel">
+      <p class="kicker">Constrained AR</p>
+      <h3>TypeLLM vs Noul</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>Typed constrained decode treated as a calibrated Noul.</dd>
+        <dt>Without</dt>
+        <dd>Quote 5.8x. Ship thinking=True as a probability.</dd>
+        <dt>With</dt>
+        <dd>Constrained AR ≠ calibrated Noul. type safety does not guarantee factual accuracy.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">Batch 5.8x *theirs*. Thinking budget separately from ECE.</dd>
+      </dl>
+    </article>
+    <article class="recipe panel">
+      <p class="kicker">Open heads</p>
+      <h3>kev family isolation</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>Sibling-blind questions treated as option-order immunity.</dd>
+        <dt>Without</dt>
+        <dd>Quote 0.790 as Harbor. Hard-gate 0.9.</dd>
+        <dt>With</dt>
+        <dd>Questions share the input text but cannot read each other. option order can change an answer.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">4B new-source 0.790/0.806 *theirs*. 8.2% ≥0.9 on wrong *theirs*.</dd>
+      </dl>
+    </article>
+    <article class="recipe panel">
+      <p class="kicker">Fail polarity</p>
+      <h3>Closed routing vs open RUN</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>One cutoff treated as both a router and a permission.</dd>
+        <dt>Without</dt>
+        <dd>0.65 auto-allows. Uncertainty skips the suite.</dd>
+        <dt>With</dt>
+        <dd>JEV_THRESHOLD 0.65 still soft. routing ≠ permission. fail-open uncertainty means RUN. fail closed never auto-allows.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">Name the polarity per act. Thresholds stay application policy.</dd>
+      </dl>
+    </article>
+    <article class="recipe panel">
+      <p class="kicker">Eval / catalog</p>
+      <h3>classifier ≠ authorizer</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>An estimate row or a curated list treated as a grant.</dd>
+        <dt>Without</dt>
+        <dd>Ship 76/81 as Harbor. Install because it is listed.</dd>
+        <dt>With</dt>
+        <dd>classifier ≠ authorizer. estimates not Harbor. catalog ≠ endorsement.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">76/81 vs 77/81 *theirs*. 118 entries are an index, not a proof.</dd>
+      </dl>
+    </article>
   </div>
   <p class="compare-caption">
     Measurement recipe (hysteresis, equal-width vs quantile ECE, hop-ECE,
