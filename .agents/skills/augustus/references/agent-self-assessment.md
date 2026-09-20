@@ -188,6 +188,13 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
    — LLM hammer; schema-safe ≠ correct; shadow
    first; 200×/400× TypeSafe ceiling (`notes.md`
    §85). **≠** official docs **≠** Flavio.
+   Institutional HF ZS pedagogy (not a product):
+   [@mervenoyann](https://x.com/mervenoyann/status/2101463303734067592)
+   — Jev vs GPT-5.6 bakeoffs are a category error;
+   it was a skill issue; opt for DeBERTa and
+   ModernBERT ones; softmax/ZS scores still ≠
+   calibrated Noul (`notes.md` §112). **≠** Akshay
+   §85. Quote *theirs*. Do not invent accuracy.
    Meaning-grep is **not** a self-supervision gate:
    [jev-semgrep](https://github.com/uehaj/jev-semgrep)
    ranks lines; rh-guard skip (`notes.md` §86).
@@ -877,3 +884,5 @@ is Watch / empty repo this pass (`notes.md` §51).
   ALLOW ([interlock](https://github.com/somoore/interlock) *kernel* —
   Jev is SENSOR, policy decides; `notes.md` §59), ok / retry /
   escalate / stop (harnessjudge). Same shape as the lifecycle gates above.
+User-provided 0806 uniqueness lock: people who compare Jev against GPT-5.6 has never fine-tuned BERTForXYZ for living and it shows; zero shot classifiers; scale them as much as decoder only models; many problems solved with LLMs could have been solved with them, it was a skill issue; opt for DeBERTa and ModernBERT ones; BERTForXYZ → DeBERTa → ModernBERT; Jev vs GPT-5.6 bakeoffs are a category error; encoder / ZS classifiers; institutional HF voice; quote *theirs*; do not invent accuracy numbers; softmax/ZS scores still ≠ calibrated Noul; soft scores ≠ hard gates; @mervenoyann; likes 421 / 189; impressions 35498 / 9613; multimodal image<>text ZS as perception front-end; hf:MoritzLaurer/deberta-v3-large-zeroshot-v2.0 likes 139; hf:MoritzLaurer/ModernBERT-large-zeroshot-v2.0 likes 72; Bart, bert, deberta, modernbert, these are all LLMs; Maziyar quoted; Jev is exemplar not the mandate; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29.
+

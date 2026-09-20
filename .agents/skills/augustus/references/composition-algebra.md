@@ -1823,6 +1823,37 @@ bonzi-27b-v2 / ternary-8b / 27b-v1 GGUF family densify; Hub still does not ship 
      Wilson lower bound 0.85 floor. fixture mode no savings claim.
      Full cards: `formal-methods.md`, `faq.md`.
 
+268. **Category error Jev vs GPT-5.6** (@mervenoyann):
+     position 11 (explainer of already-owned class boundary,
+     not a new construct). Jev vs GPT-5.6 bakeoffs are a category error.
+     Right lineage = encoder / ZS classifiers (BERTForXYZ → DeBERTa → ModernBERT).
+     Jev is exemplar not the mandate. Full cards: `mixed-architecture.md`, `faq.md`,
+     `judgment-class.md`.
+269. **Skill-issue thesis** (@mervenoyann):
+     position 11 × replace-one-classifier-step. many problems solved with LLMs
+     could have been solved with them, it was a skill issue. Mixed architecture,
+     not stack replacement. Full cards: `mental-models.md`, `faq.md`.
+270. **Prefer DeBERTa / ModernBERT Hub pointers** (@mervenoyann follow-up):
+     position 1 (Operand / family choice). opt for DeBERTa and ModernBERT ones.
+     hf:MoritzLaurer/deberta-v3-large-zeroshot-v2.0 likes 139;
+     hf:MoritzLaurer/ModernBERT-large-zeroshot-v2.0 likes 72.
+     Hub widget bart-large-mnli is **not** her pick. Do not copy `pipeline()`.
+     Full cards: `judgment-class.md`, `faq.md`.
+271. **Multimodal image<>text ZS as perception front-end**:
+     position 10 (perception) then a typed Choice/Noul on the decision.
+     Skip Archer. Full cards: `mixed-architecture.md`, `mental-models.md`.
+272. **softmax/ZS scores still ≠ calibrated Noul** (Hub widget 0.504/0.479 *theirs*):
+     position 3 is *tempting* (hard-gate the ZS score) and **rejected**.
+     soft scores ≠ hard gates. Quote *theirs*; do not invent accuracy numbers.
+     Full cards: `formal-methods.md`, `validation.md`.
+
+User-provided 0806 items 268–272 (`notes.md` §112). Do **not**
+re-fold §85 / §111 items 248–267 / §110 64× Space.
+people who compare Jev against GPT-5.6 has never fine-tuned BERTForXYZ for living and it shows; zero shot classifiers; scale them as much as decoder only models; many problems solved with LLMs could have been solved with them, it was a skill issue; opt for DeBERTa and ModernBERT ones; BERTForXYZ → DeBERTa → ModernBERT; Jev vs GPT-5.6 bakeoffs are a category error; encoder / ZS classifiers; institutional HF voice; quote *theirs*; do not invent accuracy numbers; softmax/ZS scores still ≠ calibrated Noul; soft scores ≠ hard gates; @mervenoyann; likes 421 / 189; impressions 35498 / 9613; multimodal image<>text ZS as perception front-end; hf:MoritzLaurer/deberta-v3-large-zeroshot-v2.0 likes 139; hf:MoritzLaurer/ModernBERT-large-zeroshot-v2.0 likes 72; Bart, bert, deberta, modernbert, these are all LLMs; Maziyar quoted; Jev is exemplar not the mandate; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29.
+Soft Noul ≠ hard safety.
+
+User-provided 0806 uniqueness lock: people who compare Jev against GPT-5.6 has never fine-tuned BERTForXYZ for living and it shows; zero shot classifiers; scale them as much as decoder only models; many problems solved with LLMs could have been solved with them, it was a skill issue; opt for DeBERTa and ModernBERT ones; BERTForXYZ → DeBERTa → ModernBERT; Jev vs GPT-5.6 bakeoffs are a category error; encoder / ZS classifiers; institutional HF voice; quote *theirs*; do not invent accuracy numbers; softmax/ZS scores still ≠ calibrated Noul; soft scores ≠ hard gates; @mervenoyann; likes 421 / 189; impressions 35498 / 9613; multimodal image<>text ZS as perception front-end; hf:MoritzLaurer/deberta-v3-large-zeroshot-v2.0 likes 139; hf:MoritzLaurer/ModernBERT-large-zeroshot-v2.0 likes 72; Bart, bert, deberta, modernbert, these are all LLMs; Maziyar quoted; Jev is exemplar not the mandate; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29.
+
 Hourly 0646 items 248–267 (`notes.md` §111). Do **not**
 re-fold 0541 items 226–247 / 0439 items 202–225 / 0345 items 186–201 / 0243 items 178–185 / 0145 items 161–177 / 0042 items 149–160 / 2340 items 138–148 / 2246 items 129–137 / 2145
 items 120–128 / 2041 items 111–119 / 1943 items 102–110 /
