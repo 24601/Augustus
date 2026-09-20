@@ -2064,6 +2064,27 @@
   jev-recall despite attached JSON (quote README demos);
   JevPi GitHub size 0 with contents (same honesty as gut);
   0★ HIGH still got a real card.
+## 2026-09-20T06:17Z — hourly 2340 independent adversarial relock (PR #22)
+
+- Independent review of first-review `3255a57` (claimed live REST
+  relock after FAIL). HIGH HEAD/README pins still unchanged.
+  Pulse stars and OpenJevPro GitHub size had drifted: logicrw
+  **135★** (was **134★**; HEAD `97057cc1` / README SHA `25a19b31`
+  unchanged — auto GitHub sync). SemIf **2037★** (was **2031★**;
+  +18 vs §103 **2019**). jevlike **1011★** (was **1010★**). TypeAR **12★**
+  **flat**. AnotiaWang **88★** (was **87★**). yibie **421★** (was
+  **417★**). cobanov **221★** **flat**. OpenJevPro size **64** (was
+  **62**; HEAD `94d77bcb` / README SHA `50c77ace` unchanged).
+  simple-jev **312★** (was **311★**). openjev-sglang **204★** (was
+  **202★**). Tracker likes **56** / lastModified
+  `2026-09-20T04:29:16.000Z` unchanged. Archer Hub still HTTP **401**.
+  Qwen likes **15787** unchanged. Qwen3.8-27B ≠ Archer.
+- README quotes re-checked *theirs* at locked HEAD/README SHAs
+  (ESCI 0.242/0.255; jevbetter 0.916/0.873; RLCD 0.5052/0.2872/0.0055;
+  OpenJevPro pastes openjev-sglang 95.5%; hyusi two-line stub size 5).
+  `invented_signal: false`. Do **not** merge from this
+  review — parent merges after CLEAN.
+
 ## 2026-09-20T06:09Z — hourly 2340 adversarial relock (PR #22)
 
 - Live REST vs first pin: HIGH HEAD/README unchanged.

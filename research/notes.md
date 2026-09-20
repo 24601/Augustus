@@ -21951,7 +21951,7 @@ shuffled-context control 0.335.
    language is a red flag, not a recipe.
 10. **Source-backed Awesome radar** — 306+
     commit-pinned projects, auto GitHub sync,
-    Issue-only submissions. **134★** live REST.
+    Issue-only submissions. **135★** live REST.
     Do **not** paste listed numbers as Augustus
     facts. Gacha dispatcher is UX, not evidence.
     Many awesome-jev namesakes.
@@ -22221,7 +22221,7 @@ shuffled-context control 0.335.
      flags what stays generative; scaffolds a
      client against
      [`featherless-ai/simple-jev`](https://github.com/featherless-ai/simple-jev)
-     (**311★** live REST; not TypeSafe). Do
+     (**312★** live REST; not TypeSafe). Do
      **not** copy `git clone` / `cp -r` /
      Featherless demo endpoint. Do not dump
      `skills/`.
@@ -22308,7 +22308,8 @@ shuffled-context control 0.335.
      2026-09-20T05:14:56Z; updated
      2026-09-20T01:35:49Z; HEAD `94d77bcb` on
      default `main`; README SHA `50c77ace`;
-     GitHub `size` **62**). GitHub description
+     GitHub `size` **64** (relock; was **62**; HEAD/README
+     unchanged)). GitHub description
      *theirs*: "Production-grade typed
      probabilistic decision API (Choice, Noul,
      Score) powered by open LLMs & constrained
@@ -22322,7 +22323,7 @@ shuffled-context control 0.335.
      `OpenJevPro (openjev-sglang)` —
      that number is
      [`ekzhang/openjev-sglang`](https://github.com/ekzhang/openjev-sglang)
-     (**202★**), not this repo. Constrained
+     (**204★**), not this repo. Constrained
      logprob + temp/Platt ≠ Noul. Do **not**
      dump `openjevpro/` / `site/`. Do not copy
      pip / localhost:8000 recipes.
@@ -22421,7 +22422,7 @@ shuffled-context control 0.335.
 10. **Source-backed Awesome radar**
 
     - **[`logicrw/awesome-jev-projects`](https://github.com/logicrw/awesome-jev-projects)**
-      (JavaScript MIT; **134★** live REST; 14
+      (JavaScript MIT; **135★** live REST; 14
       forks; created 2026-09-18T06:41:50Z;
       pushed 2026-09-20T05:49:54Z; updated
       2026-09-20T05:49:54Z; HEAD `97057cc1` (relock; was `45bab8c4`; README SHA unchanged);
@@ -22459,13 +22460,13 @@ shuffled-context control 0.335.
       **logicrw/awesome-jev-projects**.
       logicrw/awesome-jev-projects ≠
       AnotiaWang/awesome-jev (**87★**) ≠
-      yibie/awesome-jev (**417★**) ≠
+      yibie/awesome-jev (**421★**) ≠
       cobanov/awesome-jev (**221★**) ≠
       fatwang2/awesome-jev ≠
       Anil-matcha/awesome-jev-by-typesafe ≠
       rupeshpoojary9/awesome-open-system-one ≠
       OmniJev/awesome-jev.
-      Soft Noul ≠ hard safety: 134★ / 306+
+      Soft Noul ≠ hard safety: 135★ / 306+
       are **sensors**. Treating a radar as a
       scored board is theater.
 
@@ -22574,14 +22575,14 @@ keys / install recipes.
 
 Census **not provided this hour** (not
 re-derived). Live REST pulse only: SemIf
-**2031★** (+12 vs §103 **2019**; +6 vs first 2340 pin **2025**); jevlike
-**1010★** (+4 vs §103 **1006**; +1 vs first 2340 pin **1009**);
+**2037★** (+18 vs §103 **2019**; +12 vs first 2340 pin **2025**; +6 vs first-review pin **2031**); jevlike
+**1011★** (+5 vs §103 **1006**; +1 vs first-review **1010**);
 TypeAR-AI/TypeAR **12★** **flat**;
-AnotiaWang/awesome-jev **87★** **flat** still
+AnotiaWang/awesome-jev **88★** (+1 vs §103 **87**) still
 a **different object** from user-provided
 Awesomejev 561/27007 (§99 pin) and from
-logicrw/awesome-jev-projects **134★** (this
-hour). yibie/awesome-jev **417★** is another
+logicrw/awesome-jev-projects **135★** (this
+hour). yibie/awesome-jev **421★** is another
 namesake, not re-carded. Archer still **NOT
 landed**. Hub `archerhume/4rcherhume` HTTP
 **401** (not a rewrite). Tracker
@@ -22594,16 +22595,20 @@ HTTP **200** likes **15787** lastModified
 `2026-08-14T15:00:01.000Z`, author Qwen —
 ≠ Archer. X MCP not used this hour; no
 invented tweets. `invented_signal: false`.
-Adversarial review relock (2026-09-20T06:09Z,
-PR #22): HIGH HEAD/README pins unchanged.
-logicrw **134★** (was **132★**; HEAD `97057cc1`
-/ README SHA `25a19b31` unchanged — auto GitHub
-sync). SemIf **2031★** / jevlike **1010★**.
-RLCD GitHub size **1513** (was **0** with
-contents; HEAD `62b103b3` unchanged).
-Colvin0315/MiniSystemOne size **814** (was
-**0** with contents; HEAD `ac5a0eea` / README
-SHA `f8c47847` unchanged). yibie **417★**;
+Independent adversarial review relock
+(PR #22; after first-review `3255a57`):
+HIGH HEAD/README pins unchanged.
+logicrw **135★** (was **134★** / first pin **132★**;
+HEAD `97057cc1` / README SHA `25a19b31`
+unchanged — auto GitHub sync). SemIf **2037★** /
+jevlike **1011★**. AnotiaWang **88★** (was **87★**).
+OpenJevPro GitHub size **64** (was **62**; HEAD
+`94d77bcb` / README SHA `50c77ace` unchanged).
+simple-jev **312★** (was **311★**). openjev-sglang
+**204★** (was **202★**). RLCD GitHub size **1513**
+(HEAD `62b103b3` unchanged). Colvin0315/MiniSystemOne
+size **814** (HEAD `ac5a0eea` / README SHA
+`f8c47847` unchanged). yibie **421★** (was **417★**);
 cobanov **221★**. Do not paste Colvin as hyusi.
 
 ### Not
@@ -22633,12 +22638,12 @@ jev-opportunities scored map; jevinize →
 simple-jev; jev-diff saved-decision regression;
 OpenJevPro constrained-logprob theater;
 jev-system-one-rlcd SmolLM NAR; awesome-jev-projects
-source-backed radar **134★**; jevbetter
+source-backed radar **135★**; jevbetter
 rival-aware vs jevlike). §103 / §102 / §101 /
 §100 / §99 / §98 / §97 / §96 / §95 / §93
 mechanism / §60 six-gates **not re-carded**.
 Archer still **NOT landed**. 0★ HIGH still
-got a real card (awesome-jev-projects **134★**;
+got a real card (awesome-jev-projects **135★**;
 jevbetter **12★**). `invented_signal: false`.
 
 ### Cross-links

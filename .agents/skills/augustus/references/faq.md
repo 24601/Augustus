@@ -3084,7 +3084,7 @@ No, no, and no. compare saved decisions / same label can still change the branch
 
 ## Is constrained logprob a Noul? Did OpenJevPro measure 95.5%? Is it IamBusy/OpenJev?
 
-No, no, and no. constrained logprob + temp/Platt ≠ Noul. OpenJevPro pastes openjev-sglang JevBench as own. zhangcy122/OpenJevPro ≠ IamBusy/OpenJev ≠ ekzhang/openjev-sglang. PolyForm Noncommercial. HTML; SPDX NOASSERTION; **0★**; HEAD `94d77bcb`; README SHA `50c77ace`; size **62**. `notes.md` §104.
+No, no, and no. constrained logprob + temp/Platt ≠ Noul. OpenJevPro pastes openjev-sglang JevBench as own. zhangcy122/OpenJevPro ≠ IamBusy/OpenJev ≠ ekzhang/openjev-sglang. PolyForm Noncommercial. HTML; SPDX NOASSERTION; **0★**; HEAD `94d77bcb`; README SHA `50c77ace`; size **64**. `notes.md` §104.
 
 ## Quote SmolLM 67 ms / 2.1% ECE as Jev identity? Is the demo calibrated? Is it MIT on GitHub?
 
@@ -3092,7 +3092,7 @@ No, no, and no. SmolLM-135M / sub-70ms / 0 output tokens. demo P(True) 0.5052 / 
 
 ## Is awesome-jev-projects AnotiaWang or yibie? Paste listed von/cua numbers? Is 306+ a bake-off?
 
-No, no, and no. source-backed Awesome Jev radar / 306+ commit-pinned. logicrw/awesome-jev-projects ≠ AnotiaWang/awesome-jev ≠ yibie/awesome-jev ≠ cobanov/awesome-jev ≠ rupeshpoojary9/awesome-open-system-one. auto GitHub sync / Issue-only submissions. JavaScript MIT; **134★**; HEAD `97057cc1`; README SHA `25a19b31`; size **7136**. `notes.md` §104.
+No, no, and no. source-backed Awesome Jev radar / 306+ commit-pinned. logicrw/awesome-jev-projects ≠ AnotiaWang/awesome-jev ≠ yibie/awesome-jev ≠ cobanov/awesome-jev ≠ rupeshpoojary9/awesome-open-system-one. auto GitHub sync / Issue-only submissions. JavaScript MIT; **135★**; HEAD `97057cc1`; README SHA `25a19b31`; size **7136**. `notes.md` §104.
 
 ## Quote jevbetter 0.916 as a class ceiling? Is rival-aware the same as hev isolation?
 
@@ -3100,4 +3100,4 @@ No and no (opposite of option isolation). hashed n-gram encoder / rival-aware at
 
 ## Did Archer land this hour? Treat Qwen3.8-27B as Archer? Invent tweets?
 
-No, no, and no. Hub `archerhume/4rcherhume` HTTP **401** (not re-fetched as a rewrite). Tracker likes **56**; lastModified `2026-09-20T04:29:16.000Z`. Live REST pulse: SemIf **2031★** (+12 vs §103 **2019**); jevlike **1010★** (+4 vs §103 **1006**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **87★** **flat** ≠ Awesomejev 561/27007 ≠ logicrw/awesome-jev-projects **134★**. Qwen/Qwen3.8-27B HTTP **200** likes **15787** lastModified `2026-08-14T15:00:01.000Z` — ≠ Archer. `invented_signal: false`. `notes.md` §104.
+No, no, and no. Hub `archerhume/4rcherhume` HTTP **401** (not re-fetched as a rewrite). Tracker likes **56**; lastModified `2026-09-20T04:29:16.000Z`. Live REST pulse: SemIf **2037★** (+18 vs §103 **2019**); jevlike **1011★** (+5 vs §103 **1006**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **88★** (+1 vs §103 **87**) ≠ Awesomejev 561/27007 ≠ logicrw/awesome-jev-projects **135★**. Qwen/Qwen3.8-27B HTTP **200** likes **15787** lastModified `2026-08-14T15:00:01.000Z` — ≠ Archer. `invented_signal: false`. `notes.md` §104.

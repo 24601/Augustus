@@ -75,7 +75,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   constrained logprob + temp/Platt ≠ Noul; OpenJevPro pastes openjev-sglang JevBench as own;
   zhangcy122/OpenJevPro ≠ IamBusy/OpenJev ≠ ekzhang/openjev-sglang;
   PolyForm Noncommercial; HTML; SPDX NOASSERTION; **0★**; HEAD `94d77bcb`;
-  README SHA `50c77ace`; size **62**);
+  README SHA `50c77ace`; size **64** (relock; was **62**));
   **SmolLM RLCD reproduction**
   ([patelvishwa112/jev-system-one-rlcd](https://github.com/patelvishwa112/jev-system-one-rlcd)
   SmolLM-135M / sub-70ms / 0 output tokens; demo P(True) 0.5052 / Choice conf 0.2872 / Score conf 0.0055;
@@ -87,7 +87,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   ([logicrw/awesome-jev-projects](https://github.com/logicrw/awesome-jev-projects)
   source-backed Awesome Jev radar / 306+ commit-pinned; auto GitHub sync / Issue-only submissions;
   logicrw/awesome-jev-projects ≠ AnotiaWang/awesome-jev ≠ yibie/awesome-jev ≠ cobanov/awesome-jev ≠ rupeshpoojary9/awesome-open-system-one;
-  JavaScript MIT; **134★**; HEAD `97057cc1`; README SHA `25a19b31`; size **7136**);
+  JavaScript MIT; **135★**; HEAD `97057cc1`; README SHA `25a19b31`; size **7136**);
   **rival-aware one-pass scorer**
   ([olanotolu/jevbetter](https://github.com/olanotolu/jevbetter)
   hashed n-gram encoder / rival-aware attention; olanotolu/jevbetter vs jevlike starter;
@@ -95,20 +95,23 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   shuffled-context control 0.335; Python MIT; **12★**; HEAD `bb0ebc82`;
   README SHA `5cbe01d4`; size **324**).
   Soft Noul ≠ hard safety. 0★ HIGH still got a real card
-  (awesome-jev-projects **134★**; jevbetter **12★**). Census
-  **live REST pulse**: SemIf **2031★** (+12 vs §103 **2019**);
-  jevlike **1010★** (+4 vs §103 **1006**); TypeAR **12★**
+  (awesome-jev-projects **135★**; jevbetter **12★**). Census
+  **live REST pulse**: SemIf **2037★** (+18 vs §103 **2019**);
+  jevlike **1011★** (+5 vs §103 **1006**); TypeAR **12★**
   **flat**. Tracker likes **56**; lastModified
   `2026-09-20T04:29:16.000Z`; Hub `archerhume/4rcherhume`
   HTTP **401** (not re-fetched as a rewrite). Archer
   still NOT landed. Awesomejev 561/27007 user-provided
-  (≠ AnotiaWang/awesome-jev **87★** ≠ logicrw **134★**).
+  (≠ AnotiaWang/awesome-jev **88★** ≠ logicrw **135★**).
   Qwen3.8-27B ≠ Archer (likes **15787**).
-  Adversarial review relock (PR #22): HIGH
-  HEAD/README unchanged; star/size lag locked
-  (awesome **134★**; SemIf **2031★**; jevlike
-  **1010★**; RLCD size **1513**; Colvin size
-  **814**). `invented_signal: false`. Do not
+  Independent adversarial review relock (PR #22
+  after `3255a57`): HIGH HEAD/README unchanged;
+  star/size lag locked (awesome **135★**; SemIf
+  **2037★**; jevlike **1011★**; AnotiaWang **88★**;
+  OpenJevPro size **64**; simple-jev **312★**;
+  openjev-sglang **204★**; RLCD size **1513**;
+  Colvin size **814**; yibie **421★**).
+  `invented_signal: false`. Do not
   copy keys / `npm` / `pip` / `npx` / `uv` /
   `.env`. No wrapper. No invented metrics.
 - Mixed-architecture card: default placement is judgment-class model +

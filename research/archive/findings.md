@@ -3071,7 +3071,7 @@ Quote live REST over watch.
   SmolLM-135M / sub-70ms / 0 output tokens.
   demo P(True) 0.5052 / Choice conf 0.2872 / Score conf 0.0055.
 - **Source-backed Awesome radar.** logicrw/awesome-jev-projects
-  (JavaScript MIT; **134★**; HEAD `97057cc1`; README SHA `25a19b31`).
+  (JavaScript MIT; **135★**; HEAD `97057cc1`; README SHA `25a19b31`).
   source-backed Awesome Jev radar / 306+ commit-pinned.
   auto GitHub sync / Issue-only submissions.
 - **Rival-aware one-pass scorer.** olanotolu/jevbetter
@@ -3083,9 +3083,9 @@ Quote live REST over watch.
 Pulse: Archer still NOT landed. Hub
 archerhume/4rcherhume HTTP **401**. Tracker likes **56**;
 lastModified `2026-09-20T04:29:16Z`. Live REST: SemIf
-**2031★**; jevlike **1010★**; TypeAR **12★** **flat**.
-AnotiaWang/awesome-jev **87★** ≠ Awesomejev 561/27007 ≠
-logicrw **134★**. Qwen3.8-27B ≠ Archer.
+**2037★**; jevlike **1011★**; TypeAR **12★** **flat**.
+AnotiaWang/awesome-jev **88★** ≠ Awesomejev 561/27007 ≠
+logicrw **135★**. Qwen3.8-27B ≠ Archer.
 `invented_signal: false`.
 
 Cross-repo addition: (nb) from-scratch decision head;
