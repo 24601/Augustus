@@ -16,5 +16,6 @@ TS=$(date -u +"%Y-%m-%d %H:%M UTC")
     echo "- $u -> HTTP $code"
   done
   echo "- action: diff index/cookbook list vs research/sources.json; update notes.md + log."
+  echo "- revisit: diff research/revisit_fingerprints.json (default_sha, pushed_at, description_hash, release_tag). Material change is revisit HIGH. Star-noise is not a fold. See research/revisit-checklist.md / notes.md §122."
 } >> "$LOG"
 echo "logged to $LOG"

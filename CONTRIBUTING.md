@@ -28,6 +28,7 @@ Run what you can locally:
 ```bash
 python3 .agents/skills/augustus/scripts/evaluate_decisions.py --self-test
 python3 .agents/skills/augustus/scripts/uniqueness_gate.py
+python3 research/revisit_fingerprints.py --self-test
 ```
 
 The Pages workflow must stay green. After #34 it greps `_site/index.html`
@@ -43,10 +44,21 @@ re-opened as "new." Before folding:
 - Read `research/notes.md` and the uniqueness fragments in
   `.agents/skills/augustus/SKILL.md`
 - Do not re-fold an already-landed section as a new beat
-- Do not reopen or amend a merged fold PR (#23–#43)
-- uniqueness_gate.py checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 + 1049 + 1143 consecutive locks.
+- Do not reopen or amend a merged fold PR (#23–#44)
+- uniqueness_gate.py checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 + 1049 + 1143 consecutive locks, plus the revisit / since-last-look protocol substring in the skill and research files.
 - Hourly uniqueness dump: `research/changelog-hourly.md` (archive,
   not release notes)
+- Treat **revisit HIGH like novel HIGH**. Catalogued repos are not
+  done. If fingerprints moved (`default_sha`, `pushed_at`,
+  `description_hash`, `release_tag`) or the README / API / release /
+  calibration claim / serving port / bench rewrote, densify the prior
+  notes card. Stars / likes / forks alone is star-noise, not a fold.
+  Do not mint a sibling first sighting. Do not invent equivalence.
+  SHA move is not a replica. Checklist:
+  `research/revisit-checklist.md`. Helper:
+  `research/revisit_fingerprints.py`. `notes.md` §122.
+
+Revisit / since-last-look lock: catalogued repos are not done; store fingerprints default_sha, pushed_at, description_hash, release_tag; material change is README/API/release/calibration claim/serving port/bench rewrite; star-noise is stars/likes/forks alone; densify the prior notes section, do not mint a sibling first sighting; do not invent equivalence; SHA move is not a replica; treat revisit HIGH like novel HIGH for Augustus; notes.md §122
 
 ## Secrets
 

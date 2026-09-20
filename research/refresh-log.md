@@ -1,4 +1,20 @@
 
+## 2026-09-20 ~18:17 UTC / ~12:17 Boise - Revisit / since-last-look protocol
+- Fresh PR off latest `main` after merged #44 (1143 / `notes.md` §121 /
+  items 369–384 / batch #104). This is `notes.md` §122, a protocol, not
+  a census fold. **HARD RULE:** do not reopen or amend PR #23–#44.
+  Does not bump 0.5.0. Skip Archer. Quote *theirs*. `invented_signal: false`.
+- PRIMARY: catalogued repos are not done. Treat revisit HIGH like novel HIGH.
+  Fingerprints: `default_sha`, `pushed_at`, `description_hash`, `release_tag`.
+  Material change is README / API / release / calibration claim / serving
+  port / bench rewrite. Star-noise is stars / likes / forks alone.
+  Densify the prior notes section. Do not mint a sibling first sighting.
+  SHA move is not a replica.
+- uniqueness_gate 0843+0915+jcr+0922+0940+0947+1049+1143 stays. Revisit lock
+  is a 5-file protocol substring (skill + research), not a 21-overlay dump.
+- Helper: `research/revisit_fingerprints.py --self-test`. Checklist:
+  `research/revisit-checklist.md`.
+
 ## 2026-09-20 ~17:43 UTC / ~11:43 Boise - Hourly 1143 HIGH
 - Fresh PR off latest `main` after merged #43 (1049 / `notes.md` §120 /
   items 353–368 / batch #103). Next free IDs:

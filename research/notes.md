@@ -30299,3 +30299,49 @@ Hooks for the reviewer:
   + 1143). No live Jev key. No wrappers.
 
 Hourly 1143 uniqueness lock: open recreation ≠ calibrated replica; Qwen3.5-4B ≠ Archer; It is an open re-creation of Jev; less calibrated; perch 164★ MIT HEAD ba775a9940b6 README SHA 7ad0403b; semantic lint is a sensor not a proof; oxlint-plugin-jev cutoff 0.8 still soft; nassim-arifette/jevgrep ≠ Bentlybro/jevgrep ≠ can1357/jegrep ≠ uehaj/jev-semgrep; patdown fuzzy linter; PanAchy/jevvy ≠ Atominac/jevvy; No orders, no advice; SmartMoney-Cub 25★ HEAD d93cf493853d; paired bootstrap CIs *theirs*; emretheus/jev-rag-benchmark ≠ erendikmenn/jev-rag-benchmark; +0.82 pts XQuAD-EN 95% CI +0.35 to +1.31; +7.62 pts SciFact CI +4.88 to +10.38; Same accuracy, 35x faster *theirs*; systems comparison ≠ semantic equivalence; BANKING77 500 Jev 81.0% GPT-OSS 82.8% Mercury 73.2% Gemini 85.4% *theirs*; frozen cascade missed its evaluation accuracy target 430/500 vs GPT-5 432/500; This is not demonstrated equal-quality savings; 24 invented tickets; Routing errors caught by the gate 0 of 3; sample too small to establish calibration; This is not TypeSafe Jev; No real API requests were made; wire-compat ≠ replica; KonghaYao/laya-jev 按官方接口写的客户端只改一个 base URL; gqgs/laya-onnx densify 496.8 MiB; tozp/laya-onnx ≠ Mattepiu/laya-onnx ≠ gqgs/laya-onnx; serving substrate ≠ calibrated replica; BeatAPI/awesome-jev ≠ 99hansling/awesome-jev ≠ Vishnurr2k01/awesome-jev ≠ robokrunch/awesome-jev ≠ rudy2steiner/awesome-jev-hub; All 125 projects; catalog ≠ endorsement; Pasblinn/jev-lab ≠ tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab ≠ q93304989-bit/jev-lab; Independent project. Not affiliated with TypeSafe; Kevthetech143/super-jev densify experimental V0.2.0; permission ≠ confidence; allay-team/openjev ≠ piyush-infocusp/openjev ≠ TheoLeeCJ/openjev; 2022 Mineflayer Jevalent collision; kushalpatil/jevify-gemma4-e4b GGUF densify; static quants; This dataset and model are independent research artifacts, not reproductions of Jev or RLCD; pngwn demo accuracy 0.705 ECE 0.046 ~112 ms *theirs*; cutoff 0.8 still soft; soft scores ≠ hard gates; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43; notes.md §121
+
+## 122. Revisit / since-last-look protocol (2026-09-20 standing order)
+
+Basit standing order: Augustus revisits already-catalogued repos when
+they change since last look, not only first sightings. Things change
+a lot. Protocol on a **fresh PR off latest `main`** after merged #44
+(hourly 1143, `notes.md` §121 / items 369–384 / batch #104). **HARD
+RULE:** do not reopen or amend PR #23–#44. Do **not** bump 0.5.0.
+`invented_signal: false`.
+
+Hourly fold prompts must treat **revisit HIGH** like **novel HIGH**
+for Augustus. Skip is for star-noise and name collisions, not for "we
+already have a card."
+
+Revisit / since-last-look lock: catalogued repos are not done; store fingerprints default_sha, pushed_at, description_hash, release_tag; material change is README/API/release/calibration claim/serving port/bench rewrite; star-noise is stars/likes/forks alone; densify the prior notes section, do not mint a sibling first sighting; do not invent equivalence; SHA move is not a replica; treat revisit HIGH like novel HIGH for Augustus; notes.md §122
+
+### Fingerprints (hourly diffs these)
+
+Store in `research/revisit_fingerprints.json`. Helper
+`research/revisit_fingerprints.py --self-test` (offline, no network).
+
+- `default_sha`: default-branch HEAD
+- `pushed_at`: GitHub push clock
+- `description_hash`: sha256[:12] of the repo / Space description
+- `release_tag`: latest release tag, or null
+
+### Material vs star-noise
+
+Material (revisit HIGH): README rewrite, API / primitive surface,
+release tag, calibration claim, serving port or bottle, bench rewrite.
+Star-noise (pulse only): stars, watchers, forks, Hub likes, likes-only
+jitter with `lastModified UNCHANGED`. A star jump on a thin README is
+still star-noise. A SHA move on a 0-star repo is still material.
+
+### Densify cards update prior notes
+
+1. Keep the original section id. Append a dated since-last-look card.
+2. Do not mint a sibling first-sighting section for the same source.
+3. Quote the new README / API / release *theirs*. Keep the prior quotes.
+4. Do not invent equivalence. SHA move is not a replica. Wire-compat is
+   not a calibrated Noul. A new bench number is not Harbor.
+5. Namesake locks stay. Prior uniqueness locks stay one substring.
+6. Class-relevant revisit HIGH gets the same overlay care as novel HIGH.
+
+Checklist: `research/revisit-checklist.md`. Skill heading: **REVISIT /
+since last look**. Merged #44 owns §121. This protocol is §122.

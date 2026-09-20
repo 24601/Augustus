@@ -7,7 +7,11 @@ and hourly 1143 HIGH (§121).
 Each lock must appear as one consecutive substring in every listed overlay.
 Fragments scattered across files do not count.
 
-Also: YAML-parse SKILL.md frontmatter; notes.md owns §114–§121;
+Revisit / since-last-look protocol (`notes.md` §122) is a consecutive
+substring in the skill + research files (not a 21-overlay dump wall).
+Hourly must treat revisit HIGH like novel HIGH. Star-noise is not a fold.
+
+Also: YAML-parse SKILL.md frontmatter; notes.md owns §114–§122;
 composition items 289–316, 322–329, 330–336, 337–352, 353–368, and 369–384 exist;
 findings batches #97–#104 exist. Items 317–321 stay unused.
 CHANGELOG.md must not hold uniqueness dump walls (dumps live in
@@ -18,6 +22,7 @@ network. Does not treat a lock as a Harbor score.
 """
 
 from pathlib import Path
+import subprocess
 import sys
 import yaml
 
@@ -129,6 +134,24 @@ UNIQ_1143 = (
     'Hourly 1143 uniqueness lock: open recreation ≠ calibrated replica; Qwen3.5-4B ≠ Archer; It is an open re-creation of Jev; less calibrated; perch 164★ MIT HEAD ba775a9940b6 README SHA 7ad0403b; semantic lint is a sensor not a proof; oxlint-plugin-jev cutoff 0.8 still soft; nassim-arifette/jevgrep ≠ Bentlybro/jevgrep ≠ can1357/jegrep ≠ uehaj/jev-semgrep; patdown fuzzy linter; PanAchy/jevvy ≠ Atominac/jevvy; No orders, no advice; SmartMoney-Cub 25★ HEAD d93cf493853d; paired bootstrap CIs *theirs*; emretheus/jev-rag-benchmark ≠ erendikmenn/jev-rag-benchmark; +0.82 pts XQuAD-EN 95% CI +0.35 to +1.31; +7.62 pts SciFact CI +4.88 to +10.38; Same accuracy, 35x faster *theirs*; systems comparison ≠ semantic equivalence; BANKING77 500 Jev 81.0% GPT-OSS 82.8% Mercury 73.2% Gemini 85.4% *theirs*; frozen cascade missed its evaluation accuracy target 430/500 vs GPT-5 432/500; This is not demonstrated equal-quality savings; 24 invented tickets; Routing errors caught by the gate 0 of 3; sample too small to establish calibration; This is not TypeSafe Jev; No real API requests were made; wire-compat ≠ replica; KonghaYao/laya-jev 按官方接口写的客户端只改一个 base URL; gqgs/laya-onnx densify 496.8 MiB; tozp/laya-onnx ≠ Mattepiu/laya-onnx ≠ gqgs/laya-onnx; serving substrate ≠ calibrated replica; BeatAPI/awesome-jev ≠ 99hansling/awesome-jev ≠ Vishnurr2k01/awesome-jev ≠ robokrunch/awesome-jev ≠ rudy2steiner/awesome-jev-hub; All 125 projects; catalog ≠ endorsement; Pasblinn/jev-lab ≠ tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab ≠ q93304989-bit/jev-lab; Independent project. Not affiliated with TypeSafe; Kevthetech143/super-jev densify experimental V0.2.0; permission ≠ confidence; allay-team/openjev ≠ piyush-infocusp/openjev ≠ TheoLeeCJ/openjev; 2022 Mineflayer Jevalent collision; kushalpatil/jevify-gemma4-e4b GGUF densify; static quants; This dataset and model are independent research artifacts, not reproductions of Jev or RLCD; pngwn demo accuracy 0.705 ECE 0.046 ~112 ms *theirs*; cutoff 0.8 still soft; soft scores ≠ hard gates; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43; notes.md §121'
 )
 
+REVISIT_LOCK = (
+    "Revisit / since-last-look lock: catalogued repos are not done; "
+    "store fingerprints default_sha, pushed_at, description_hash, release_tag; "
+    "material change is README/API/release/calibration claim/serving port/bench rewrite; "
+    "star-noise is stars/likes/forks alone; densify the prior notes section, "
+    "do not mint a sibling first sighting; do not invent equivalence; "
+    "SHA move is not a replica; treat revisit HIGH like novel HIGH for Augustus; "
+    "notes.md §122"
+)
+
+REVISIT_OVERLAYS = [
+    ".agents/skills/augustus/SKILL.md",
+    "research/notes.md",
+    "research/README.md",
+    "research/revisit-checklist.md",
+    "CONTRIBUTING.md",
+]
+
 OVERLAYS = [
     "research/notes.md",
     "research/changelog-hourly.md",
@@ -190,6 +213,14 @@ def main() -> int:
             failed.append(f"1049 lock missing as one substring: {rel}")
         if UNIQ_1143 not in body:
             failed.append(f"1143 lock missing as one substring: {rel}")
+    for rel in REVISIT_OVERLAYS:
+        path = ROOT / rel
+        if not path.is_file():
+            failed.append(f"missing revisit overlay {rel}")
+            continue
+        body = path.read_text(encoding="utf-8")
+        if REVISIT_LOCK not in body:
+            failed.append(f"revisit lock missing as one substring: {rel}")
     notes = (ROOT / "research/notes.md").read_text(encoding="utf-8")
     if "## 114. Hourly 0843 HIGH" not in notes:
         failed.append("notes.md missing §114 heading")
@@ -207,6 +238,8 @@ def main() -> int:
         failed.append("notes.md missing §120 heading")
     if "## 121. Hourly 1143 HIGH" not in notes:
         failed.append("notes.md missing §121 heading")
+    if "## 122. Revisit / since-last-look" not in notes:
+        failed.append("notes.md missing §122 heading")
     algebra = (ROOT / ".agents/skills/augustus/references/composition-algebra.md").read_text(
         encoding="utf-8"
     )
@@ -316,6 +349,10 @@ def main() -> int:
                 "paired bootstrap CIs *theirs*",
                 "Same accuracy, 35x faster *theirs*",
                 "hourly 1143 / notes.md §121",
+                "revisit HIGH / since-last-look",
+                "catalogued repo changed",
+                "star-noise vs material change",
+                "densify prior notes without inventing equivalence",
             ):
                 if frag not in proto_line:
                     failed.append(f"SKILL.md protocol missing {frag!r}")
@@ -350,6 +387,42 @@ def main() -> int:
     eco = (ROOT / "docs/ecosystem.md").read_text(encoding="utf-8")
     if "decision-circuits tutorial. `notes.md` §114." not in eco:
         failed.append("docs/ecosystem.md 0843 blurb must cite notes.md §114")
+    if REVISIT_LOCK in changelog:
+        failed.append(
+            "CHANGELOG.md holds revisit lock dump "
+            "(protocol lock lives in SKILL.md + research/)"
+        )
+    helper = ROOT / "research/revisit_fingerprints.py"
+    store = ROOT / "research/revisit_fingerprints.json"
+    if not helper.is_file():
+        failed.append("missing research/revisit_fingerprints.py")
+    if not store.is_file():
+        failed.append("missing research/revisit_fingerprints.json")
+    else:
+        try:
+            r = subprocess.run(
+                [sys.executable, str(helper), "--self-test"],
+                cwd=str(ROOT),
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+        except OSError as e:
+            failed.append(f"revisit_fingerprints.py could not run: {e}")
+        else:
+            if r.returncode != 0:
+                failed.append(
+                    "revisit_fingerprints.py --self-test failed: "
+                    + (r.stdout + r.stderr).strip()
+                )
+    skill_headings = (ROOT / ".agents/skills/augustus/SKILL.md").read_text(
+        encoding="utf-8"
+    )
+    if "## REVISIT / since last look" not in skill_headings:
+        failed.append("SKILL.md missing REVISIT / since last look heading")
+    contributing = (ROOT / "CONTRIBUTING.md").read_text(encoding="utf-8")
+    if "revisit HIGH like novel HIGH" not in contributing:
+        failed.append("CONTRIBUTING.md missing revisit HIGH like novel HIGH")
     if failed:
         print("uniqueness-gate FAIL")
         for line in failed:
@@ -362,7 +435,9 @@ def main() -> int:
         f"0940 chars={len(UNIQ_0940)} 0947 chars={len(UNIQ_0947)} "
         f"1049 chars={len(UNIQ_1049)} "
         f"1143 chars={len(UNIQ_1143)} "
-        f"overlays={len(OVERLAYS)}"
+        f"revisit chars={len(REVISIT_LOCK)} "
+        f"overlays={len(OVERLAYS)} "
+        f"revisit_overlays={len(REVISIT_OVERLAYS)}"
     )
     return 0
 

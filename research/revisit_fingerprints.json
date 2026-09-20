@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "stored_fields": [
+    "default_sha",
+    "pushed_at",
+    "description_hash",
+    "release_tag"
+  ],
+  "material_signals": [
+    "readme",
+    "api",
+    "release",
+    "calibration_claim",
+    "serving_port",
+    "bench_rewrite"
+  ],
+  "star_noise_fields": [
+    "stargazers_count",
+    "watchers_count",
+    "forks_count",
+    "likes"
+  ],
+  "note": "Last-look snapshots for already-catalogued sources. Hourly diffs these four fingerprints. Star-noise is not a fold. SHA move is not a replica. Seeded from merged notes (SemIf §117, NanoJev §115), not a live census this pass.",
+  "looks": [
+    {
+      "id": "github:TheoLeeCJ/SemIf",
+      "notes_section": "117",
+      "last_look": "2026-09-20T16:10Z",
+      "fingerprints": {
+        "default_sha": "ca3ba65f1429",
+        "pushed_at": "2026-09-19T04:46:33Z",
+        "description_hash": "a3c0f1b9e2d4",
+        "release_tag": null
+      }
+    },
+    {
+      "id": "github:TianyuCodings/NanoJev",
+      "notes_section": "115",
+      "last_look": "2026-09-20T15:15Z",
+      "fingerprints": {
+        "default_sha": "618cea6d906d54e128360786d12f703fff2b1245",
+        "pushed_at": null,
+        "description_hash": "4190093c64ee",
+        "release_tag": "unified-games-v1"
+      }
+    }
+  ]
+}
