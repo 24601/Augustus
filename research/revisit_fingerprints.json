@@ -245,7 +245,7 @@
       "fingerprints": {
         "default_sha": "67e8a48305ae05ced9fcdf6a666531793309c51e",
         "pushed_at": "2026-09-20T21:21:18Z",
-        "description_hash": "e3b0c44298fc",
+        "description_hash": null,
         "release_tag": null
       },
       "readme_sha": "fa6b023405c61ad46ca7381371c866e93d3966fa"
