@@ -616,7 +616,7 @@ Use these as *existence proofs of a position*. Write your own card.
 | Generation as a tree of Choices | next word without free generation | One typed question per choice over a closed lexicon (**Empirical as README**: jev-gpt ~400 calls / 75 s / 2¢ *theirs*) | Architecture demo; not a product writer; still pick ≠ fill |
 | Recipe atlas (code prepares) | which narrow questions fit this job | Samples show technique; policy in code (**Empirical as recipes**: jev-cookbook; 16–36 not benches) | Thresholds are a dial; numbers/dates stay exact |
 | Personal history without a social graph | what to show next from *your* trail | Rank outbound links; distribution *is* ranking (**Empirical as README**: jevfeed) | Generating the next look converges on a mirror; history never uploaded |
-| Dual-channel ECE / claim-audit | is this NAR "better calibrated"? | Like-for-like channels; n and CI before SOTA (**Hypothesis until independent run**; openJev-verdict-2.0 + PR #1) | Throughput ≠ latency; correctness-head ≠ distribution ECE; ≠ IamBusy/OpenJev |
+| Dual-channel ECE / claim-audit | is this NAR "better calibrated"? | Like-for-like channels; n and CI before SOTA (**Hypothesis until independent run**; openJev-verdict-2.0; PR #1 now closed unmerged; 107★ densify; GH 151M vs README 149.6M; do not re-fold §71 claim-audit as a beat; `notes.md` §107) | Throughput ≠ latency; correctness-head ≠ distribution ECE; ≠ IamBusy/OpenJev |
 | 1-token logprob ≠ Noul | can a generic LLM's next-token mass be the judge? | Constrained decode over caller-enumerated labels; coverage is format-mass (**Empirical as 336-case GUI**: chakuho 27B 95%/92% vs Jev 89%/82% *theirs*) | Softmax ≠ Noul; 8B coverage 1.00 while `__none__` collapses; arithmetic in code |
 | Open replica runtime | same wire, faster forwards | Prefix reuse + family adapters; argmax-parity is the honesty check (**Empirical as README**: jevinf 2.57×/2.27× 100% argmax *theirs*) | MPS only; not ECE; not TypeSafe |
 | Files-to-read VOI | which ranges change the next Read | Index-once, BM25, Jev packet (**Empirical as n=16**: jevex 160s→69s / $8.74→$3.13 / 16/16 *theirs*; keep n=8 finish 1/8→6/8) | Not a patcher; HitFile diagnostic; rename of jev-semantic-explorer |
@@ -1950,6 +1950,85 @@ filter in code / XState envelope / catalog map /
 crawler sweep / query-side encoders / ONNX port /
 empty consistency protocol are exact work. Jevify stub
 and JSON-parse-as-Noul are the anti-patterns.
+
+
+## Apply 0243 (`notes.md` §107)
+
+Same pillars, eight HIGH clusters / three themes
+(measurement densifies PRIMARY; open reproduction
+class ports; study densification). Do **not** re-fold
+0145 / §106 / 0042 / §105 / 2340 / §104 / 2246 / §103 /
+2145 / §102 / 2041 / §101 / 1943 / §100 / 1843 / §99 /
+1740 / §98 / 1639 / §96 / gliner-native-runtime / §97 /
+1541 / §95 / jev-align *mechanism* / §93 /
+jev-orderby-bench *six-gates* / §60 / JevBench v1.2
+*board* / §78 / openJev-verdict *claim-audit* / §71.
+Fresh PR; never reopen merged #7–**#24**. do not
+reopen or amend PR #23 or #24. Skip Archer rewrite
+(still **NOT landed**; Hub 401). 0★ HIGH still gets a
+real card. Soft Noul ≠ hard safety. Formal methods
+**compose** with scoring; a Noul is a SENSOR.
+
+1. **Benchmark-driven router + judge** —
+   Benchmark-driven Jev router and judge.
+   cheap alone is not success.
+   Jev does not write, sum prices, or claim accuracy %.
+   Sol 94.2 / Luna 83.9 / Jev path 89.7.
+   19.2% Sol / 62.3% cost save / 4.5pp miss of 2pp non-inferiority.
+   p50 latency worse than Sol due to routing overhead.
+   erendikmenn/jev-llm-router-benchmark ≠ jev-rag-benchmark ≠ ryantsai/jev-llm-router.
+2. **Support ticket router** —
+   Express + node:sqlite. mock and Jev decision engines.
+   previous_ticket_count >= 3 is code. MIN_CONFIDENCE 0.6 still soft.
+   substring false positives.
+   aesaganda/jev-ticket-router ≠ SarathChandraBellam/jev-vs-llm-ticket-router.
+3. **Universal figure router** —
+   Universal Figure & Diagram Router.
+   confidence ≥ 0.85 hard-gate is theater.
+   generative AI banned from scientific plots. six visual branches.
+   hoangngochuong24947-gif/jev-figure-router.
+4. **Human-labeled feedstock** —
+   human-labeled (state, question, label).
+   166,054 rows / 22 configs. soft_label for human uncertainty.
+   Praveenrajus/jev-bench ≠ fstandhartinger/jevbench.
+5. **Ternary bonsai GGUF** —
+   ternary bonsai System One GGUF.
+   openjev's mechanism, Bonsai's weights. Hub does not ship weights.
+   100/100 easy T/F is not Harbor. label_mass ≠ correctness.
+   stock llama.cpp Q2_0 silently gibberish.
+   NicolaiMTLassen/open-bonzi-jev ≠ NicolaiLassen.
+6. **DeBERTa ONNX t.js port** —
+   transformers.js DeBERTa ONNX.
+   source:com-kotobalabs/open-jev-deberta-v3-large.
+   temperature 1.05. AutoModel from_pretrained works.
+   onnx-community/open-jev-deberta-v3-large-ONNX ≠ system-one-qwen3.5-4b-scorer-ONNX.
+7. **verdict NAR densify** —
+   107★ densify. GH 151M vs README 149.6M.
+   PR #1 now closed unmerged. do not re-fold §71 claim-audit as a beat.
+8. **Study notes densify** —
+   typed decisions, RLCD, confidence-gated routing.
+   structured ≠ correct. mock not live API. 26 tests.
+   wjdjdakf17/jev-study ≠ baekenough/jev-study.
+
+Soft Noul ≠ hard safety: 94.2 / 89.7 / 62.3% / 4.5pp /
+0.85 / 100/100 / 166,054 / T=1.05 / 77.10% / 107★ are
+**sensors**. Treating a 0.85 figure FAST_PATH as a
+proof, 100/100 easy T/F as Harbor, label_mass as
+correctness, 77.10% as beating Jev, collapsing
+ticket-router into Sarath, collapsing jev-bench into
+jevbench, collapsing DeBERTa ONNX into the Qwen scorer
+ONNX, quoting 62.3% without the 4.5pp miss, or
+re-folding §71 as a beat is the same theater as
+jev-gate §79.
+
+Formal methods **compose** with scoring. A Noul is a
+SENSOR. The router threshold/fallback/budget / ticket
+count>=3 / generative-AI-ban-on-plots / Hub recipe
+without weights / AutoModel-works contrast / dual-channel
+ECE audit / code-consumes-p study notes are exact work.
+Figure-router 0.85 hard-gate and 100/100 easy T/F as
+Harbor are the anti-patterns.
+
 
 
 ## Decision-design extras (any domain)

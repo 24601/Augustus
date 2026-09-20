@@ -1568,11 +1568,12 @@ it is not IamBusy/OpenJev.
 README *theirs*: 77.10% / Brier 0.0636 / ECE 0.0144 on
 LocalLLaMA/typed-decisions. The Jev table row is a
 Laya-catalogued vendor baseline, not an independent run.
-**Open PR #1** already flags: throughput misread as
+**PR #1 now closed unmerged** (was Open at §71): throughput misread as
 latency; Laya gap inside the 95% CI (parity, not SOTA);
 correctness-head ECE is not distribution ECE (Jev 14.40%
-slightly lower like-for-like). Distinct from
-IamBusy/OpenJev `/v1/decide`. `notes.md` §71.
+slightly lower like-for-like). 107★ densify; GH 151M vs README 149.6M.
+do not re-fold §71 claim-audit as a beat. Distinct from
+IamBusy/OpenJev `/v1/decide`. `notes.md` §71 / §107.
 
 ## Is IPECTER/jev-context-pruner a compaction product?
 
@@ -3229,3 +3230,41 @@ No, no, and no. ONNX System One Qwen3.5-4B scorer. source:pngwn/system-one-qwen3
 ## Did Archer land this hour? Treat Qwen3.8-27B as Archer? Invent tweets?
 
 No, no, and no. Hub `archerhume/4rcherhume` HTTP **401** (not re-fetched as a rewrite). Tracker `multimodalart/jev-reproductions-tracker` likes **59**; lastModified `2026-09-20T04:29:16.000Z` **UNCHANGED**. `Tonic/4rcher-tracker` HTTP **401**. Live REST pulse: SemIf **2074★** (+27 vs §104 **2047**); jevlike **1022★** (+4 vs §104 **1018**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **92★** ≠ Awesomejev 561/27007 ≠ logicrw **146★** ≠ v-modal **339★**. Qwen/Qwen3.8-27B HTTP **200** likes **15796** lastModified `2026-08-14T15:00:01.000Z` — ≠ Archer. `invented_signal: false`. `notes.md` §106.
+
+Benchmark-driven Jev router and judge; cheap alone is not success; Jev does not write, sum prices, or claim accuracy %; Sol 94.2 / Luna 83.9 / Jev path 89.7; 19.2% Sol / 62.3% cost save / 4.5pp miss of 2pp non-inferiority; p50 latency worse than Sol due to routing overhead; erendikmenn/jev-llm-router-benchmark ≠ jev-rag-benchmark ≠ ryantsai/jev-llm-router; Express + node:sqlite; mock and Jev decision engines; previous_ticket_count >= 3 is code; MIN_CONFIDENCE 0.6 still soft; substring false positives; aesaganda/jev-ticket-router ≠ SarathChandraBellam/jev-vs-llm-ticket-router; Universal Figure & Diagram Router; confidence ≥ 0.85 hard-gate is theater; generative AI banned from scientific plots; six visual branches; hoangngochuong24947-gif/jev-figure-router; human-labeled (state, question, label); 166,054 rows / 22 configs; soft_label for human uncertainty; Praveenrajus/jev-bench ≠ fstandhartinger/jevbench; ternary bonsai System One GGUF; openjev's mechanism, Bonsai's weights; Hub does not ship weights; 100/100 easy T/F is not Harbor; label_mass ≠ correctness; stock llama.cpp Q2_0 silently gibberish; NicolaiMTLassen/open-bonzi-jev ≠ NicolaiLassen; transformers.js DeBERTa ONNX; source:com-kotobalabs/open-jev-deberta-v3-large; temperature 1.05; AutoModel from_pretrained works; onnx-community/open-jev-deberta-v3-large-ONNX ≠ system-one-qwen3.5-4b-scorer-ONNX; 107★ densify; GH 151M vs README 149.6M; PR #1 now closed unmerged; do not re-fold §71 claim-audit as a beat; typed decisions, RLCD, confidence-gated routing; structured ≠ correct; mock not live API; 26 tests; wjdjdakf17/jev-study ≠ baekenough/jev-study; do not reopen or amend PR #23 or #24
+
+## Quote 62.3% cost save without the 4.5pp miss? Did Jev write the code? Is cheap success?
+
+No, no, and no. Benchmark-driven Jev router and judge. cheap alone is not success. Jev does not write, sum prices, or claim accuracy %. Sol 94.2 / Luna 83.9 / Jev path 89.7. 19.2% Sol / 62.3% cost save / 4.5pp miss of 2pp non-inferiority. p50 latency worse than Sol due to routing overhead. Python MIT; **0★**; HEAD `f44ef450`; README SHA `df3687e5`; size **0** with contents. erendikmenn/jev-llm-router-benchmark ≠ jev-rag-benchmark ≠ ryantsai/jev-llm-router. Do not copy `uv` / `OPENROUTER_API_KEY`. `notes.md` §107.
+
+## Collapse aesaganda into Sarath? Invent ticket-router numbers? Hard-gate 0.6 as safety?
+
+No, no, and no. Express + node:sqlite. mock and Jev decision engines. previous_ticket_count >= 3 is code. MIN_CONFIDENCE 0.6 still soft. substring false positives. JS; license **null**; **0★**; HEAD `ecf00046`; README SHA `41c0b50f`; size **0** with contents. aesaganda/jev-ticket-router ≠ SarathChandraBellam/jev-vs-llm-ticket-router. Mock is for `npm test`, not production. `notes.md` §107.
+
+## Hard-gate figure confidence ≥ 0.85 as FAST_PATH? Let generative AI author scientific plots?
+
+No and no. Universal Figure & Diagram Router. confidence ≥ 0.85 hard-gate is theater. generative AI banned from scientific plots. six visual branches. Python MIT; **1★**; HEAD `4c51b1af`; README SHA `11d5302b`; size **340**. hoangngochuong24947-gif/jev-figure-router. The ban is a CONSTRAINT in policy; Jev only routes. `notes.md` §107.
+
+## Collapse Praveenrajus/jev-bench into fstandhartinger/jevbench? Quote unpublished jevify-run as Harbor?
+
+No and no. human-labeled (state, question, label). 166,054 rows / 22 configs. soft_label for human uncertainty. license **other**; likes **0**; sha `c9c3032c`. Praveenrajus/jev-bench ≠ fstandhartinger/jevbench. Do not collapse “Jevify” tag into uspraveen/Jevify. `notes.md` §107.
+
+## Did Hub ship Bonsai weights? Is 100/100 easy T/F Harbor? Is label_mass correctness? Collapse Nicolai spellings?
+
+No, no, no, and no. ternary bonsai System One GGUF. openjev's mechanism, Bonsai's weights. Hub does not ship weights. 100/100 easy T/F is not Harbor. label_mass ≠ correctness. stock llama.cpp Q2_0 silently gibberish. NicolaiMTLassen/open-bonzi-jev ≠ NicolaiLassen. Hub MIT likes **0** sha `09240156`. GH companion NicolaiLassen/open-bonzi-jev Python MIT; **0★**; HEAD `1c2508fd`; size **0** with contents. `notes.md` §107.
+
+## Collapse DeBERTa ONNX into the Qwen scorer ONNX? Re-card com-kotobalabs as new? Does AutoModel fail?
+
+No, no, and no. transformers.js DeBERTa ONNX. source:com-kotobalabs/open-jev-deberta-v3-large. temperature 1.05. AutoModel from_pretrained works (contrast 0145 T=1.75 AutoModel cannot load). apache-2.0; likes **0**; sha `3bc2553b`. onnx-community/open-jev-deberta-v3-large-ONNX ≠ system-one-qwen3.5-4b-scorer-ONNX. Source metrics stay *theirs* on the original. `notes.md` §107.
+
+## Did openJev-verdict-2.0 beat Jev this hour? Are 151M and 149.6M two models? Is PR #1 still open?
+
+No, no, and no. 107★ densify. GH 151M vs README 149.6M. PR #1 now closed unmerged. do not re-fold §71 claim-audit as a beat. Claims still *theirs* N=2000: 77.10% / Brier 0.0636 / ECE corr 0.0144 / dist ECE 0.1513. Dual-channel ECE design fork. Still Hypothesis until independent run. ≠ IamBusy/OpenJev `/v1/decide`. Python; README Apache-2.0 / GitHub SPDX NOASSERTION; **107★**; HEAD `a458733c`; README SHA `05ca75af`; size **14728**. `notes.md` §107 (densify of §71).
+
+## Is wjdjdakf17/jev-study a live API? Collapse into baekenough/jev-study? Is structured correct?
+
+No, no, and no. typed decisions, RLCD, confidence-gated routing. structured ≠ correct. mock not live API. 26 tests. TypeScript MIT; **0★**; HEAD `24b5d7d7`; README SHA `4ca30c93`; size **34**; default **master**. wjdjdakf17/jev-study ≠ baekenough/jev-study. Code consumes probability. `notes.md` §107.
+
+## Did Archer land this hour? Treat Qwen3.8-27B as Archer? Invent tweets? Reopen PR #23 or #24?
+
+No, no, no, and no. Hub `archerhume/4rcherhume` HTTP **401** (not re-fetched as a rewrite). Tracker `multimodalart/jev-reproductions-tracker` likes **59**; lastModified `2026-09-20T04:29:16.000Z` **UNCHANGED** vs §106. Live REST pulse: SemIf **2094★** (+20 vs §106 **2074**); jevlike **1023★** (+1 vs §106 **1022**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **93★** (+1 vs §106 **92**) ≠ Awesomejev 561/27007. Hub Laya likes **729**. Qwen3.8-27B ≠ Archer. do not reopen or amend PR #23 or #24. `invented_signal: false`. `notes.md` §107.

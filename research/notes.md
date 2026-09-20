@@ -24565,3 +24565,420 @@ items 161–177; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
+
+## 107. Hourly 0243 HIGH (2026-09-20 ~02:43 Boise / 2026-09-20T08:43Z)
+
+Docs-only on a **fresh PR off main**
+(`cursor/hourly-0243-augustus-fold-d3c8`).
+**Never reopen merged** Augustus PR #7 / **#8** /
+**#9** / **#10** / **#12** / **#13** / **#14** /
+**#15** / **#16** / **#17** / **#18** / **#19** /
+**#20** / **#21** / **#22** / **#23** / **#24**.
+After merged #24 (`4d9dcd1`, hourly 0145 / `notes.md` §106).
+**HARD RULE:** do not reopen or amend PR #23 or #24
+(merged #23 owns `notes.md` §105 / items 149–160 / batch #88;
+merged #24 owns `notes.md` §106 / items 161–177 / batch #89 —
+leave them alone). Do **not** re-fold
+§93 / §94 / §95 / §96 / §97 / §98 / §99 / §100 /
+§101 / §102 / §103 / §104 / §105 / §106. Do **not**
+re-fold §78 JevBench v1.2 board as if it were new.
+Do **not** re-fold §71 openJev-verdict-2.0 claim-audit
+as a beat (this hour is **107★ densify**; PR #1 now
+**closed unmerged**). Do **not** re-card
+SarathChandraBellam/jev-vs-llm-ticket-router (0145
+scaffold) or fstandhartinger/jevbench (0145 densify)
+or com-kotobalabs/open-jev-deberta-v3-large as a new
+species. Quote READMEs. Mark *theirs*. No invented
+metrics. Hunches labeled. No wrappers, `npm` /
+`pip` / `npx` / `uv` / `mix` / `TYPESAFE_API_KEY`
+/ `.env` / `OPENROUTER_API_KEY` as recipes. 0★ HIGH
+still gets a real card. GitHub size **0** WITH CONTENTS
+still gets a real card. Do **not** dump source / SDK /
+weights / eval logs. `invented_signal: false`. Skip
+Archer rewrite. Qwen3.8-27B ≠ Archer.
+
+Lane is Augustus: **mental models / architecture /
+Harbor-jevals / toolbelt**. Backend-agnostic
+categorization/scoring/decision class (Jev-like
+speed/econ), **not** a thin Jev-only dump. Design
+judgment, formal/semi-formal methods, decision
+theory, scoring class. Soft Noul ≠ hard safety.
+Formal methods **compose** with scoring; a Noul is a
+SENSOR. Avoid soundness theater / hard-gating
+soft judgment. Jev is the hot exemplar, not the
+whole mandate. Measurement densifies
+(router benches, ticket/figure routers,
+Praveenrajus/jev-bench feedstock) are the
+*class* exemplar this hour, not TypeSafe drop-ins.
+Open reproduction class ports and study densification
+(RLCD + confidence-gated routing notes) ride along.
+
+Unique consecutive fragments (this hour):
+Benchmark-driven Jev router and judge;
+cheap alone is not success;
+Jev does not write, sum prices, or claim accuracy %;
+Sol 94.2 / Luna 83.9 / Jev path 89.7;
+19.2% Sol / 62.3% cost save / 4.5pp miss of 2pp non-inferiority;
+p50 latency worse than Sol due to routing overhead;
+erendikmenn/jev-llm-router-benchmark ≠ jev-rag-benchmark ≠ ryantsai/jev-llm-router;
+Express + node:sqlite;
+mock and Jev decision engines;
+previous_ticket_count >= 3 is code;
+MIN_CONFIDENCE 0.6 still soft;
+substring false positives;
+aesaganda/jev-ticket-router ≠ SarathChandraBellam/jev-vs-llm-ticket-router;
+Universal Figure & Diagram Router;
+confidence ≥ 0.85 hard-gate is theater;
+generative AI banned from scientific plots;
+six visual branches;
+hoangngochuong24947-gif/jev-figure-router;
+human-labeled (state, question, label);
+166,054 rows / 22 configs;
+soft_label for human uncertainty;
+Praveenrajus/jev-bench ≠ fstandhartinger/jevbench;
+ternary bonsai System One GGUF;
+openjev's mechanism, Bonsai's weights;
+Hub does not ship weights;
+100/100 easy T/F is not Harbor;
+label_mass ≠ correctness;
+stock llama.cpp Q2_0 silently gibberish;
+NicolaiMTLassen/open-bonzi-jev ≠ NicolaiLassen;
+transformers.js DeBERTa ONNX;
+source:com-kotobalabs/open-jev-deberta-v3-large;
+temperature 1.05;
+AutoModel from_pretrained works;
+onnx-community/open-jev-deberta-v3-large-ONNX ≠ system-one-qwen3.5-4b-scorer-ONNX;
+107★ densify;
+GH 151M vs README 149.6M;
+PR #1 now closed unmerged;
+do not re-fold §71 claim-audit as a beat;
+typed decisions, RLCD, confidence-gated routing;
+structured ≠ correct;
+mock not live API;
+26 tests;
+wjdjdakf17/jev-study ≠ baekenough/jev-study;
+do not reopen or amend PR #23 or #24.
+
+### How-to-apply (eight HIGH clusters / three themes)
+
+Measurement densifies is PRIMARY this hour
+(router benches + ticket/figure routers +
+human-labeled feedstock). Open reproduction
+class ports. Study densification (RLCD +
+confidence-gated routing notes).
+
+1. **Benchmark-driven router + judge**
+   (PRIMARY Augustus, theme Measurement
+   densifies) — Benchmark-driven Jev router
+   and judge for cost-aware, reliable LLM
+   coding workflows. Jev chooses between two
+   producer LLMs **before** generation;
+   quality–cost–latency on the same tasks;
+   cheap alone is not success; report quality
+   delta, paired uncertainty, error/fallback,
+   absolute USD. Architecture: deterministic
+   eligibility → OpenRouter Jev 1.13 Choice →
+   code threshold/fallback/budget → luna vs
+   sol. Jev does not write, sum prices, or
+   claim accuracy %. Fixture 40 + live smoke
+   8–12 + 200 dev + 1000 locked EN from four
+   families (not committed). Live smoke
+   2026-09-19 *theirs*: 10 TR/EN, Sol quality
+   1.00, Luna 0.70, Jev path 0.90; 36.1%
+   lower policy cost vs Sol, 10pp quality
+   miss of 2pp non-inferiority; spend
+   $0.009566. 1000-q EN *theirs*: threshold
+   0.02 frozen on 200 dev; Sol **94.2**, Luna
+   **83.9**, Jev path **89.7**; Jev used Sol
+   **19.2%**; **62.3%** cost save vs Sol
+   policy; **4.5pp** quality miss of 2pp
+   target; 3.9pp better than random at same
+   Sol rate; p50 E2E latency **worse** than
+   Sol due to routing overhead; 3600 calls
+   ledger $0.458076. Formal compose: code owns
+   threshold/fallback/budget; Jev SENSOR.
+   Python MIT; **0★**; 0 forks; created
+   2026-09-20T08:42:32Z; HEAD `f44ef450`;
+   README SHA `df3687e5`; LICENSE SHA
+   `99916677`; GitHub size **0** WITH CONTENTS
+   (README 8983 bytes + src/tests/results/uv.lock).
+   erendikmenn/jev-llm-router-benchmark ≠
+   erendikmenn/jev-rag-benchmark (already §89)
+   ≠ ryantsai/jev-llm-router ≠
+   Mhashimea/jev-llm-support-router. Do **not**
+   copy uv / `OPENROUTER_API_KEY` recipes. Do
+   **not** quote 62.3% cost save without the
+   4.5pp miss.
+
+2. **Support ticket router (mock + Jev)** —
+   Support ticket router: Express +
+   node:sqlite, mock and Jev decision engines.
+   Categories sales | technical_support |
+   billing | escalation. MIN_CONFIDENCE 0.6
+   still soft (escalation +
+   needs_human_review; predicted_category
+   kept). previous_ticket_count >= 3 is CODE
+   not judgment. Mock: keyword substring;
+   false positives ("explanation", "rapid",
+   "$1,500"); for `npm test` not real tickets.
+   Jev: POST /v1/systemone one Choice + other;
+   argmax over four; other soaks mass →
+   escalate. Formal compose: count>=3 proves
+   in code; 0.6 is a SENSOR. JS; license
+   **null** (no LICENSE file); **0★**; HEAD
+   `ecf00046`; README SHA `41c0b50f`; GitHub
+   size **0** WITH CONTENTS (decide.js 7626,
+   package-lock 31098, etc.).
+   aesaganda/jev-ticket-router ≠
+   SarathChandraBellam/jev-vs-llm-ticket-router
+   (0145 scaffold). Do **not** invent
+   ticket-router numbers. Do **not** treat
+   mock keyword as production. Do **not**
+   hard-gate ticket 0.6 as safety.
+
+3. **Universal figure & diagram router** —
+   Universal Figure & Diagram Router for AI
+   Agents powered by TypeSafe Jev / Jeb
+   System-1. Six visual branches (scientific
+   vector, architecture, slides, generative,
+   materials 3D, MCP charts). ANTI-PATTERN
+   this hour: confidence ≥ 0.85 hard-gate to
+   FAST_PATH — soundness theater. GOOD
+   compose: generative AI banned from
+   scientific data plots (CONSTRAINT in
+   policy); Jev only routes. <300ms claim
+   *theirs*. Example JSON confidence 0.98.
+   Python MIT; **1★**; size **340**; HEAD
+   `4c51b1af`; README SHA `11d5302b`; LICENSE
+   SHA `62120c23`.
+   hoangngochuong24947-gif/jev-figure-router.
+   No other jev-figure-router namesake.
+
+4. **Human-labeled System One feedstock** —
+   human-labeled (state, question, label)
+   triples in System One wire format for
+   Jev/Jevify. 166,054 rows / 22 configs;
+   size_categories 100K<n<1M. Primitives
+   choice/score/noul; soft_label when source
+   has human distribution (ChaosNLI, Civil
+   Comments, Measuring Hate Speech). Built by
+   jevify-bench seed 20260920 commit
+   `8d6e16073e`. Configs include banking77,
+   clinc150, massive, ledgar, go_emotions,
+   mmlu, arc_challenge, mnli, sst5, yelp5,
+   helpsteer2_*, stsb, measuring_hate_speech,
+   boolq, fever_evidence, paws,
+   civil_comments, sms_spam,
+   strategyqa_closed/grounded, chaosnli.
+   Baselines exist via jevify-run under
+   results/ — DO NOT invent/quote unpublished
+   numbers as Harbor. Hub sha `c9c3032c`;
+   likes **0**; lastModified
+   2026-09-20T08:30:12Z; license **other**.
+   Praveenrajus/jev-bench ≠
+   fstandhartinger/jevbench (leaderboard,
+   0145 densify) ≠ JevBench v1.2 board §78.
+   Do **not** collapse “Jevify” tag into
+   uspraveen/Jevify.
+
+5. **Ternary bonsai System One GGUF**
+   (theme Open reproduction class ports) —
+   ternary bonsai System One decision GGUF.
+   openjev's mechanism, Bonsai's weights.
+   Independent reimplementation of SemIf
+   “direct” mode, different prompt, numbers
+   not comparable to SemIf. Hub does **not**
+   ship weights (recipe + scripts). Hub sha
+   `09240156`; likes **0**; lastModified
+   2026-09-20T08:15:39Z; MIT; llama.cpp; tags
+   ternary/bonsai/gguf; base
+   prism-ml/Ternary-Bonsai-2-27B-gguf.
+   GH companion NicolaiLassen/open-bonzi-jev
+   (**NOT** NicolaiMTLassen): Python MIT;
+   **0★**; size **0** WITH CONTENTS; HEAD
+   `1c2508fd`; LICENSE SHA `46d740e4`; created
+   2026-09-20T08:15:02Z. Results *theirs*:
+   Bonsai 2 27B PTQ1_0 5.95GB Metal M4 Pro:
+   100/100 easy T/F, 40 q/min, 1.49s median,
+   label_mass 0.993 median. Bonsai 1 8B
+   97/100; spider two legs true at 0.999 vs
+   Bonsai 2 false 0.996. Stock llama.cpp
+   rejects PTQ1_0/PQ2_0 and silently
+   gibberish on Q2_0 (no Hadamard).
+   enable_thinking=false required else
+   probabilities noise. label_mass ≠
+   correctness. 100/100 easy T/F ≠ Harbor.
+   NicolaiMTLassen/open-bonzi-jev ≠
+   NicolaiLassen. Do **not** treat stock
+   llama.cpp Q2_0 as working.
+
+6. **transformers.js DeBERTa ONNX port** —
+   transformers.js DeBERTa ONNX. Community
+   port of com-kotobalabs/open-jev-deberta-v3-large
+   (already §33). Variants fp16 0.88GB
+   default, fp32, q4, q4f16. Temperature
+   **1.05** (source calibration). Card shows
+   AutoModel.from_pretrained **WORKS**
+   (contrast 0145
+   onnx-community/system-one-qwen3.5-4b-scorer-ONNX
+   T=1.75 AutoModel **CANNOT** load). Source
+   metrics stay *theirs* on original:
+   in-domain acc 0.854 Brier 0.213 ECE 0.022;
+   OOD 0.690/0.399/0.035. Do **not** re-card
+   the source as new. Hub sha `3bc2553b`;
+   likes **0**; lastModified
+   2026-09-20T08:36:56Z; apache-2.0;
+   transformers.js; deberta-v2.
+   onnx-community/open-jev-deberta-v3-large-ONNX
+   ≠ system-one-qwen3.5-4b-scorer-ONNX ≠
+   com-kotobalabs source as a new species.
+
+7. **openJev-verdict-2.0 densify (not a beat)** —
+   Calibrated 151M Non-Autoregressive Decision
+   Engine claiming beat TypeSafe Jev & Laya.
+   DENSIFY not re-fold. Already §71
+   claim-audit. Now Python; README Apache-2.0
+   / GitHub SPDX NOASSERTION; **107★** (was
+   0); 14 forks; size **14728** (was size-0
+   lag); HEAD `a458733c`; README SHA
+   `05ca75af`; pushed 2026-09-20T08:16:31Z.
+   GH description says **151M** vs README
+   **149.6M** — lock the inconsistency, not
+   two models. Claims still *theirs* N=2000:
+   77.10% / Brier 0.0636 / ECE corr 0.0144 /
+   dist ECE 0.1513 / ~20–25 ms / flip 4.76%.
+   Jev row is Laya-catalogued vendor baseline
+   not independent. Dual-channel ECE design
+   fork. PR #1 “Claims audit…” was Open at
+   §71; NOW **closed unmerged** (state
+   closed, merged false). Do **not** treat
+   badge table as verified; do **not**
+   re-fold as beating Jev/Laya; still
+   Hypothesis until independent run. ≠
+   IamBusy/OpenJev `/v1/decide`. do not
+   re-fold §71 claim-audit as a beat.
+
+8. **Jev/System One study notes** (theme
+   Study densification) — Jev/System One
+   study — typed decisions, RLCD,
+   confidence-gated routing. Korean study
+   notes + TS typing + mock workflows. 26
+   tests. confidence-gated routing in
+   `src/workflow.ts`; calibration
+   Brier/buckets in `src/calibration.ts`.
+   Three-line thesis: give up string
+   generation → type safety/parallel/probs;
+   structured ≠ correct; code consumes
+   probability. Mock not live API;
+   vendor/community self-report. TypeScript
+   MIT; **0★**; size **34**; default
+   **master**; HEAD `24b5d7d7`; README SHA
+   `4ca30c93`; LICENSE SHA `00bbf5f9`; created
+   2026-09-20T07:04:11Z. wjdjdakf17/jev-study
+   ≠ baekenough/jev-study (Shell, 0★, size
+   737, no desc) ≠
+   RINNECODER/jev-behavior-study. Formal
+   compose: code consumes p. Do **not** treat
+   study mock as live API.
+
+### Theater (do not)
+
+Treat 0.85 figure FAST_PATH as a proof /
+100/100 easy T/F as Harbor / label_mass as
+correctness / 77.10% as beating Jev /
+collapse ticket-router into Sarath /
+collapse jev-bench into jevbench /
+collapse DeBERTa ONNX into Qwen scorer ONNX
+/ collapse Hub/GH Nicolai spellings /
+treat 151M vs 149.6M as two models /
+quote 62.3% cost save without 4.5pp miss /
+treat mock keyword as production /
+hard-gate ticket 0.6 as safety /
+treat study mock as live API /
+treat stock llama.cpp Q2_0 as working /
+treat AutoModel-works as identity with
+T=1.75 cannot-load / re-fold §71 as a beat /
+reopen or amend PR #23 or #24;
+copy uv / OPENROUTER_API_KEY / npm / pip /
+npx / keys / `.env`; invent tweets /
+Archer; dump source.
+
+### Census
+
+Census **not provided this hour** (not
+re-derived). Live REST pulse only: SemIf
+**2094★** (this-pass fetch; +20 vs §106
+**2074**; +47 vs §104 **2047**); jevlike
+**1023★** (+1 vs §106 **1022**);
+TypeAR-AI/TypeAR **12★** **flat**;
+AnotiaWang/awesome-jev **93★** (+1 vs §106
+**92**) still a **different object** from
+user-provided Awesomejev 561/27007.
+Tracker `multimodalart/jev-reproductions-tracker`
+likes **59**; lastModified **UNCHANGED**
+`2026-09-20T04:29:16.000Z` vs §106. Archer
+still **NOT landed**. Hub
+`archerhume/4rcherhume` HTTP **401** (not a
+rewrite). Qwen/Qwen3.8-27B ≠ Archer. Hub
+Laya `convaiinnovations/laya` likes **729**
+(was 705 in older FAQ; was 704 in §106).
+typesafe-ai/skills still v0.5.7 HEAD
+`65a39f3`. X MCP not used this hour; no
+invented tweets. `invented_signal: false`.
+
+0★ HIGH still got a real card
+(figure-router **1★**; verdict densify
+**107★**; the rest **0★** including size **0**
+with contents llm-router, ticket-router,
+GH bonzi). License **null**
+(ticket-router) still got a real card.
+
+### Not
+
+Not a TypeSafe how-to. Not a jev-llm-router
+/ ticket-router / figure-router / jev-bench
+/ open-bonzi-jev / DeBERTa ONNX / verdict /
+jev-study install guide. Not wrappers. Do
+not copy keys / `npm` / `pip` / `npx` /
+`uv` / `mix` / `curl | sh` / `.env` /
+`OPENROUTER_API_KEY`. Do not re-fold 0145 /
+§106 / 0042 / §105 / 2340 / §104 / 2246 /
+§103 / 2145 / §102 / 2041 / §101 / 1943 /
+§100 / 1843 / §99 / 1740 / §98 / 1639 / §96
+/ gliner-native-runtime / §97 / 1541 / §95
+/ jev-align *mechanism* / §93 /
+jev-orderby-bench *six-gates* / §60 /
+JevBench v1.2 *board* / §78 / openJev-verdict
+*claim-audit* / §71. Do not reply into
+finished agents. Do **not** merge from
+this review — parent merges after CLEAN.
+do not reopen or amend PR #23 or #24.
+
+### Curated status
+
+0243 HIGH **folded** (8 HIGH / eight
+clusters / three themes: Measurement
+densifies PRIMARY — router bench, ticket
+router, figure router, jev-bench feedstock;
+Open reproduction class ports — ternary
+bonsai GGUF recipe, DeBERTa ONNX t.js,
+verdict NAR densify; Study densification —
+RLCD + confidence-gated routing notes).
+§106 / §105 / §104 / §103 / §102 / §101 /
+§100 / §99 / §98 / §97 / §96 / §95 / §93
+mechanism / §78 v1.2 board / §71 claim-audit
+/ §60 six-gates **not re-carded**. Archer
+still **NOT landed**. 0★ HIGH still got a
+real card. `invented_signal: false`.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`judgment-class.md`; `validation.md`;
+`applied-mappings.md`; `mappings.md`;
+`toolbox-mapping.md`; `composition-algebra.md`
+items 178–185; `question-design.md`;
+`methods-catalog.md`; `formal-methods.md`;
+`agent-self-assessment.md`. Hunches labeled.
+No wrapper.

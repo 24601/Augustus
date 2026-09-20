@@ -1122,6 +1122,13 @@ product loop, a Harbor taskset (`validation.md`, Eval & hill-climb).
 The stage pipeline into that decision is the same file
 (**Hypothesis**, `notes.md` §41). FAQ: open weights vs Jev vs TypeAR
 vs encoder vs LoRA; is Jev probabilistic programming?
+§107 (erendikmenn/jev-llm-router-benchmark Benchmark-driven Jev router and judge, cheap alone is not success, Jev does not write, sum prices, or claim accuracy %, Sol 94.2 / Luna 83.9 / Jev path 89.7, 19.2% Sol / 62.3% cost save / 4.5pp miss of 2pp non-inferiority, p50 latency worse than Sol due to routing overhead, ≠ jev-rag-benchmark ≠ ryantsai/jev-llm-router; aesaganda/jev-ticket-router Express + node:sqlite, mock and Jev decision engines, previous_ticket_count >= 3 is code, MIN_CONFIDENCE 0.6 still soft, substring false positives, ≠ SarathChandraBellam/jev-vs-llm-ticket-router; hoangngochuong24947-gif/jev-figure-router Universal Figure & Diagram Router, confidence ≥ 0.85 hard-gate is theater, generative AI banned from scientific plots, six visual branches; Praveenrajus/jev-bench human-labeled (state, question, label), 166,054 rows / 22 configs, soft_label for human uncertainty, ≠ fstandhartinger/jevbench; NicolaiMTLassen/open-bonzi-jev ternary bonsai System One GGUF, openjev's mechanism, Bonsai's weights, Hub does not ship weights, 100/100 easy T/F is not Harbor, label_mass ≠ correctness, stock llama.cpp Q2_0 silently gibberish, ≠ NicolaiLassen; onnx-community/open-jev-deberta-v3-large-ONNX transformers.js DeBERTa ONNX, source:com-kotobalabs/open-jev-deberta-v3-large, temperature 1.05, AutoModel from_pretrained works, ≠ system-one-qwen3.5-4b-scorer-ONNX; Heman10x-NGU/openJev-verdict-2.0 107★ densify, GH 151M vs README 149.6M, PR #1 now closed unmerged, do not re-fold §71 claim-audit as a beat; wjdjdakf17/jev-study typed decisions, RLCD, confidence-gated routing, structured ≠ correct, mock not live API, 26 tests, ≠ baekenough/jev-study, do not reopen or amend PR #23 or #24),
+§49 (boundary map; DMB vs constrained LLMs; von Needle snapshot; open-alternative-jev). Before
+adopting a surface, the bake-off is a jevals-shaped suite and, for a
+product loop, a Harbor taskset (`validation.md`, Eval & hill-climb).
+The stage pipeline into that decision is the same file
+(**Hypothesis**, `notes.md` §41). FAQ: open weights vs Jev vs TypeAR
+vs encoder vs LoRA; is Jev probabilistic programming?
 
 **Diffusion structured reads (third graph).**
 [djev-spark](https://github.com/mmastrac/djev-spark) serves DiffusionGemma

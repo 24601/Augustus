@@ -2608,3 +2608,72 @@
   zero retained cases; 0★ HIGH still got a real card
   (switchboard now **1★** live REST).
 
+
+## 2026-09-20T08:43Z — hourly 0243 HIGH (Boise ~02:43 MDT)
+
+- Fresh PR off main after merged #24 (`4d9dcd1` / §106).
+  **HARD RULE:** do not reopen or amend PR #23 or #24.
+  Never reopen merged #7–**#24**. Branch
+  `cursor/hourly-0243-augustus-fold-d3c8`.
+  Skip Archer rewrite. Quote READMEs. Mark *theirs*.
+  No wrappers / keys / install recipes. Do not dump
+  source. 0★ HIGH still gets a real card. Quote live
+  REST over watch. `invented_signal: false`.
+- Measurement densifies PRIMARY: erendikmenn/jev-llm-router-benchmark
+  (**0★**; HEAD `f44ef450`; README SHA `df3687e5`; size **0**
+  with contents; Sol 94.2 / Luna 83.9 / Jev path 89.7;
+  19.2% Sol / 62.3% cost save / 4.5pp miss of 2pp
+  non-inferiority; p50 latency worse than Sol due to
+  routing overhead; cheap alone is not success);
+  aesaganda/jev-ticket-router (**0★**; license null; Express +
+  node:sqlite; previous_ticket_count >= 3 is code;
+  MIN_CONFIDENCE 0.6 still soft; ≠ Sarath);
+  hoangngochuong24947-gif/jev-figure-router (**1★**;
+  confidence ≥ 0.85 hard-gate is theater; generative AI
+  banned from scientific plots);
+  hfdataset Praveenrajus/jev-bench (likes **0**; sha `c9c3032c`;
+  166,054 rows / 22 configs; ≠ fstandhartinger/jevbench).
+- Open reproduction class ports: hf NicolaiMTLassen/open-bonzi-jev
+  (likes **0**; sha `09240156`; Hub does not ship weights;
+  100/100 easy T/F is not Harbor; label_mass ≠ correctness;
+  ≠ NicolaiLassen; GH companion **0★** HEAD `1c2508fd`);
+  onnx-community/open-jev-deberta-v3-large-ONNX (likes **0**;
+  sha `3bc2553b`; temperature 1.05; AutoModel from_pretrained
+  works; ≠ system-one-qwen3.5-4b-scorer-ONNX);
+  Heman10x-NGU/openJev-verdict-2.0 (**107★** densify; HEAD
+  `a458733c`; GH 151M vs README 149.6M; PR #1 now closed
+  unmerged; do not re-fold §71 claim-audit as a beat).
+- Study densification: wjdjdakf17/jev-study (**0★**; HEAD
+  `24b5d7d7`; typed decisions, RLCD, confidence-gated
+  routing; structured ≠ correct; mock not live API; 26
+  tests; ≠ baekenough/jev-study).
+- Formal methods compose with scoring; a Noul is a SENSOR.
+  Treating a 0.85 figure FAST_PATH as a proof, 100/100
+  easy T/F as Harbor, label_mass as correctness, 77.10%
+  as beating Jev, collapsing ticket-router into Sarath,
+  collapsing jev-bench into jevbench, collapsing DeBERTa
+  ONNX into the Qwen scorer ONNX, treating 151M vs 149.6M
+  as two models, quoting 62.3% without the 4.5pp miss,
+  treating mock keyword as production, hard-gating ticket
+  0.6 as safety, treating a study mock as a live API,
+  treating stock llama.cpp Q2_0 as working, or re-folding
+  §71 as a beat is soundness theater. Figure-router 0.85
+  hard-gate and 100/100 easy T/F as Harbor are the
+  anti-patterns.
+- Pulse (do not invent): Archer still NOT landed. Hub
+  archerhume/4rcherhume HTTP **401**. Tracker likes **59**;
+  lastModified `2026-09-20T04:29:16.000Z` **UNCHANGED**.
+  Live REST: SemIf **2094★** (+20 vs §106 2074);
+  jevlike **1023★** (+1 vs §106 1022); TypeAR **12★**
+  **flat**. AnotiaWang/awesome-jev **93★** ≠ Awesomejev
+  561/27007. Hub Laya likes **729**. Qwen3.8-27B ≠ Archer.
+  X MCP not used. `invented_signal: false`.
+- Folded into SKILL.md (description + protocol +
+  mapping-index), mental-models Apply 0243, faq,
+  mixed-architecture fail table + gallery, applied-mappings,
+  validation, judgment-class, composition-algebra items
+  178–185, toolbox-mapping, methods-catalog, formal-methods,
+  question-design, agent-self-assessment, mappings,
+  CHANGELOG, README, docs/ecosystem, findings batch #90,
+  sources.json. Hunches labeled. No wrapper.
+
