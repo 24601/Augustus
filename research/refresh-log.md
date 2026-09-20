@@ -2077,7 +2077,7 @@
   resume-screening bias audit methodology);
   austindixson/planalyzer (**0★**; code-owned
   pass|review|block); cannacre8ive/switchboard-ai
-  (**0★**; cost-aware routing; package 0.3.0);
+  (**1★**; cost-aware routing; package 0.4.0);
   elcronos/jev-vs-open-decision-models (**0★**;
   frozen-protocol bake-off); cvsgireesh/jevusher
   (**0★**; VOI admission); MokiMeow/jev-fabric
@@ -2092,13 +2092,13 @@
   caveat, treating J7 pass as safe to obey, treating a
   receipt as authorization, or hard-gating confidence
   ≥0.95 is soundness theater. rh-guard owns injection.
-- Pulse (do not invent): Archer still NOT landed last pin
-  from §99. Hub archerhume/4rcherhume HTTP **401**. Tracker
-  likes **51** flat; lastModified UNCHANGED
-  2026-09-19T18:37:18Z. Live REST: SemIf **1976★**; jevlike
-  **999★**; TypeAR **11★** flat. AnotiaWang/awesome-jev
-  **83★** ≠ Awesomejev 561/27007. X MCP not used; no
-  invented tweets.
+- Pulse (do not invent): Archer still NOT landed. Hub
+  archerhume/4rcherhume HTTP **401**. Tracker likes **54**
+  (+3 vs §100 pin **51**); lastModified **CHANGED**
+  2026-09-20T02:59:13Z (was §100 2026-09-19T18:37:18Z).
+  Live REST: SemIf **1984★**; jevlike **1002★**; TypeAR
+  **11★** flat. AnotiaWang/awesome-jev **84★** ≠
+  Awesomejev 561/27007. X MCP not used; no invented tweets.
 - Cards: SKILL.md, mixed-architecture fail table +
   gallery, faq, mental-models Apply 2041, judgment-class,
   validation, applied-mappings, mappings, toolbox,
@@ -2109,11 +2109,14 @@
   No wrapper. Do **not** merge from this review.
 - Adversarial review honesty locks: GitHub size 0 with
   contents (bias-bench / planalyzer / switchboard /
-  elcronos / jevusher / system_one_sdk); license null
+  elcronos / system_one_sdk); jevusher size **81**;
+  license null
   (bias-bench / elcronos / live-rubric); switchboard
-  README V0.3 / package 0.3.0 / M4 adapters next / M5
+  README V0.4 / package 0.4.0 / M4–M5 functional as
+  logical plans+DAG; MCP adapters / learned economics
   not done; live-rubric ~$0.000004 desc / ~$0.000006
   README Costs; system_one_sdk GitHub desc provider-neutral
   / README opening TypeSafe-first; jev-fabric historical-v0
-  zero retained cases; 0★ HIGH still got a real card.
+  zero retained cases; 0★ HIGH still got a real card
+  (switchboard now **1★** live REST).
 

@@ -3033,7 +3033,7 @@ injection/steer. Quote live REST over watch.
 
 - **Resume-screening bias audit (PRIMARY).**
   natemoo-re/bias-bench (JavaScript; license null; **0★**;
-  HEAD `ff06548c`; README SHA `a1c3e604`; GitHub size 0
+  HEAD `fe2f2535`; README SHA `a1c3e604`; GitHub size 0
   with contents). resume-screening bias audit methodology.
   name×resume factorial independent Nouls. callback
   determined by resume quality. mean-probability name
@@ -3045,8 +3045,8 @@ injection/steer. Quote live REST over watch.
   code-owned pass|review|block. cheerleading out of
   scope. austindixson/planalyzer ≠ single-goodness Noul.
 - **EU cost-aware routing.** cannacre8ive/switchboard-ai
-  (JavaScript MIT; **0★**; HEAD `284585ce`; README SHA
-  `e0468005`; package 0.3.0). cost-aware multi-model
+  (JavaScript MIT; **1★**; HEAD `5cae9d1c`; README SHA
+  `872de837`; package 0.4.0). cost-aware multi-model
   routing/escalation. decide vs do. successful-task cost.
   cannacre8ive/switchboard-ai ≠ ha-switchboard ≠
   hermes-switchyard.
@@ -3075,23 +3075,23 @@ injection/steer. Quote live REST over watch.
   ~$0.000004 desc / ~$0.000006 README.
 - **Pre-registered calibration science.**
   willkelly/jev-evaluation (Python MIT; **0★**; HEAD
-  `06512e82`; README SHA `c6aa7e71`). adversarial
+  `c168c093`; README SHA `2d66ac22`). adversarial
   pre-registered Jev eval. 28 predictions before data.
   123,805 requests. confidence does not track ignorance.
   polite injection 65% / crude 0%. willkelly/jev-evaluation
   ≠ jevals ≠ jev-baselines-eval. rh-guard owns injection.
 - **Class infrastructure SDK.** nshkrdotcom/system_one_sdk
-  (Elixir MIT; **0★**; HEAD `77a050bd`; README SHA
-  `2806a75b`; mix 0.5.0). provider-neutral Elixir/BEAM
+  (Elixir MIT; **0★**; HEAD `c2a522ee`; README SHA
+  `c117b4c4`; mix 0.5.0). provider-neutral Elixir/BEAM
   Noul/Choice/Score SDK. class infrastructure.
   nshkrdotcom/system_one_sdk ≠ typesafe_sdk ≠ dannote/jev.
 
-Pulse: Archer still NOT landed last pin from §99. Hub
-archerhume/4rcherhume HTTP **401**. Tracker likes **51**
-flat; lastModified UNCHANGED 2026-09-19T18:37:18Z. Live
-REST: SemIf **1976★**; jevlike **999★**; TypeAR **11★**
-flat. AnotiaWang/awesome-jev **83★** ≠ Awesomejev
-561/27007. `invented_signal: false`.
+Pulse: Archer still NOT landed. Hub
+archerhume/4rcherhume HTTP **401**. Tracker likes **54**
+(+3 vs §100 pin **51**); lastModified **CHANGED**
+2026-09-20T02:59:13Z. Live REST: SemIf **1984★**; jevlike
+**1002★**; TypeAR **11★** flat. AnotiaWang/awesome-jev
+**84★** ≠ Awesomejev 561/27007. `invented_signal: false`.
 
 Cross-repo addition: (ma) resume-audit methodology;
 (mb) code-owned MCDA panel; (mc) cost-aware S1/S2

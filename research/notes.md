@@ -19512,8 +19512,8 @@ nshkrdotcom/system_one_sdk ≠ typesafe_sdk ≠ dannote/jev.
      (JavaScript; GitHub license **null**; no
      LICENSE file; **0★** live REST; 0 forks;
      created 2026-09-20T02:41:51Z; pushed
-     2026-09-20T02:43:47Z; updated
-     2026-09-20T02:43:51Z; HEAD `ff06548c`;
+     2026-09-20T03:06:17Z; updated
+     2026-09-20T03:06:21Z; HEAD `fe2f2535`;
      README SHA `a1c3e604`; GitHub `size` **0**
      this pass — contents present; language
      JavaScript; topics empty; package
@@ -19641,45 +19641,55 @@ nshkrdotcom/system_one_sdk ≠ typesafe_sdk ≠ dannote/jev.
 3. **Cost-aware multi-model routing/escalation**
 
    - **[`cannacre8ive/switchboard-ai`](https://github.com/cannacre8ive/switchboard-ai)**
-     (JavaScript MIT; **0★** live REST; 0 forks;
+     (JavaScript MIT; **1★** live REST; 0 forks;
      created 2026-09-20T02:39:47Z; pushed
-     2026-09-20T02:53:39Z; updated
-     2026-09-20T02:53:40Z; HEAD `284585ce`;
-     README SHA `e0468005`; LICENSE SHA
+     2026-09-20T03:03:19Z; updated
+     2026-09-20T03:09:01Z; HEAD `5cae9d1c`;
+     README SHA `872de837`; LICENSE SHA
      `85b5651c`; GitHub `size` **0** this pass —
      contents present; package `switchboard-ai`
-     **0.3.0**). GitHub description *theirs*:
+     **0.4.0**). GitHub description *theirs*:
      "Adaptive multi-model AI orchestration
      runtime using Jev for cost-aware routing,
      confidence-based escalation, tool
      selection, and model execution". README
-     *theirs*: "A cost-aware **System One /
-     System Two AI runtime**"; separates
-     **deciding** from **doing**. Status
-     *theirs*: "**V0.3 least-privilege
-     tool/context planning is working.**"
-     Package description *theirs*: "Cost-aware
+     *theirs*: "A cost-aware, vendor-neutral
+     **System One / System Two AI orchestration
+     runtime**"; separates **deciding** from
+     **doing**. Status *theirs*: "**Status:
+     V0.4**" with working TypeSafe Jev adapter,
+     zero-key deterministic routing fallback,
+     least-privilege logical tool plans,
+     supervisor + generative DAG planner,
+     bounded-concurrency scheduler. Package
+     description *theirs*: "Cost-aware
      System One/System Two AI orchestration
      runtime using Jev for routing and frontier
      models for execution." ARCHITECTURE.md
-     milestones *theirs*: **M1 Routing kernel:
-     complete**; **M2 Model registry +
-     economics: functional**; **M3 Verification
-     loop: functional**; **M4 Tool/context
-     routing: logical capability planning and
-     write gating are functional; provider
-     adapters are next**; **M5 Learned
-     economics: held-out corpus + empirical
-     success/cost matrix** (not claimed done).
-     Honesty: README V0.3 / package **0.3.0**
-     match this pass; M4 provider adapters and
-     M5 are **not** done. Do **not** dump
+     milestones *theirs*: **M1 — Routing kernel:
+     complete**; **M2 — Model registry +
+     economics: functional**; **M3 — Verification
+     loop: functional**; **M4 — Least-privilege
+     tool/context planning: functional**; **M5 —
+     Supervisor + workflow DAG runtime:
+     functional**. Honesty: README V0.4 /
+     package **0.4.0** match this pass; M4/M5
+     are functional as logical plans + DAG.
+     Not yet *theirs*: provider-specific MCP /
+     tool transport adapters; live held-out
+     Jev-vs-rules benchmark; learned routing
+     policy; web UI. Do **not** dump
      `src/`. Do not copy `npm` / `.env` / keys.
 
-     Loop *theirs*: `request -> Jev/rules ->
-     task contract -> policy -> model registry
-     -> executor -> verifier -> accept/escalate
-     -> telemetry`. Modes: economy / balanced /
+     Loop *theirs*: `objective -> Jev/rules
+     decision layer -> task contract +
+     risk/confidence policy -> optional
+     supervisor decomposition ->
+     dependency-aware subtask DAG -> model +
+     tool + context routing per step ->
+     execution -> verification ->
+     accept / retry / escalate -> telemetry +
+     economics`. Modes: economy / balanced /
      premium / max. Offline deterministic router
      default. Optimize **successful-task cost**,
      not raw token price. Escalate based on
@@ -19711,7 +19721,7 @@ nshkrdotcom/system_one_sdk ≠ typesafe_sdk ≠ dannote/jev.
      cannacre8ive/switchboard-ai ≠ ha-switchboard
      (HA remains execution) ≠ hermes-switchyard
      ≠ hermes-jev-router ≠ hermes-plugin-jev.
-     Soft Noul ≠ hard safety: V0.3 / smoke
+     Soft Noul ≠ hard safety: V0.4 / smoke
      corpus / successful-task cost are
      **sensors**. Treating a routing smoke bench
      as generalization is theater. Do not copy
@@ -19790,8 +19800,8 @@ nshkrdotcom/system_one_sdk ≠ typesafe_sdk ≠ dannote/jev.
      2026-09-20T02:48:45Z; updated
      2026-09-20T02:48:49Z; HEAD `d830d344`;
      README SHA `428a4a59`; LICENSE SHA
-     `9f72a3d7`; GitHub `size` **0** this pass —
-     contents present; package `jevusher`
+     `9f72a3d7`; GitHub `size` **81**; package
+     `jevusher`
      **0.1.0**; topics agents / claude /
      context-engineering / jev / llm /
      token-optimization / typesafe). GitHub
@@ -19980,9 +19990,9 @@ nshkrdotcom/system_one_sdk ≠ typesafe_sdk ≠ dannote/jev.
    - **[`willkelly/jev-evaluation`](https://github.com/willkelly/jev-evaluation)**
      (Python MIT; **0★** live REST; 0 forks;
      created 2026-09-20T01:18:12Z; pushed
-     2026-09-20T02:44:04Z; updated
-     2026-09-20T02:44:08Z; HEAD `06512e82`;
-     README SHA `c6aa7e71`; LICENSE SHA
+     2026-09-20T03:14:53Z; updated
+     2026-09-20T02:58:53Z; HEAD `c168c093`;
+     README SHA `2d66ac22`; LICENSE SHA
      `369b7234`; GitHub `size` **5145**; topics
      ai-safety / benchmark / calibration /
      llm-evaluation / prompt-injection). GitHub
@@ -20051,9 +20061,9 @@ nshkrdotcom/system_one_sdk ≠ typesafe_sdk ≠ dannote/jev.
    - **[`nshkrdotcom/system_one_sdk`](https://github.com/nshkrdotcom/system_one_sdk)**
      (Elixir MIT; **0★** live REST; 0 forks;
      created 2026-09-20T02:32:11Z; pushed
-     2026-09-20T02:35:22Z; updated
-     2026-09-20T02:35:26Z; HEAD `77a050bd`;
-     README SHA `2806a75b`; LICENSE SHA
+     2026-09-20T03:13:54Z; updated
+     2026-09-20T03:13:58Z; HEAD `c2a522ee`;
+     README SHA `c117b4c4`; LICENSE SHA
      `fa8ed9a6`; GitHub `size` **0** this pass —
      contents present; mix **0.5.0**; topics
      include provider-abstraction / system-one /
@@ -20122,16 +20132,17 @@ source / keys / install recipes.
 
 Census **not provided this hour** (not
 re-derived). Live REST pulse only: SemIf
-**1976★** (+22 vs §100 **1954**); jevlike
-**999★** (+10 vs §100 **989**); TypeAR-AI/TypeAR
+**1984★** (+30 vs §100 **1954**); jevlike
+**1002★** (+13 vs §100 **989**); TypeAR-AI/TypeAR
 **11★** **flat**. AnotiaWang/awesome-jev
-**83★** still a **different object** from
+**84★** still a **different object** from
 user-provided Awesomejev 561/27007 (§99 pin).
-Archer still **NOT landed** last pin from §99
-(likes **51** flat; lastModified UNCHANGED
-2026-09-19T18:37:18Z; Hub
+Archer still **NOT landed**. Tracker likes
+**54** (+3 vs §100 pin **51**); lastModified
+**CHANGED** `2026-09-20T02:59:13Z` (was §100
+`2026-09-19T18:37:18Z`). Hub
 archerhume/4rcherhume HTTP **401** — not
-re-fetched as a rewrite). Qwen3.8-27B ≠
+re-fetched as a rewrite. Qwen3.8-27B ≠
 Archer. X MCP not used this hour; no
 invented tweets. `invented_signal:
 false`.

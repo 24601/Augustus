@@ -1617,7 +1617,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   callback determined by resume quality; mean-probability
   name gaps operationally negligible; natemoo-re/bias-bench
   ≠ BBQ; JavaScript; license null; **0★**; HEAD
-  `ff06548c`; README SHA `a1c3e604`); **MCDA panel
+  `fe2f2535`; README SHA `a1c3e604`); **MCDA panel
   code-owned verdict**
   ([austindixson/planalyzer](https://github.com/austindixson/planalyzer)
   Plan/PRD panel → code-owned pass|review|block;
@@ -1626,8 +1626,8 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   routing**
   ([cannacre8ive/switchboard-ai](https://github.com/cannacre8ive/switchboard-ai)
   cost-aware multi-model routing/escalation; decide vs do;
-  successful-task cost; JavaScript MIT; **0★**; HEAD
-  `284585ce`; README SHA `e0468005`; package **0.3.0**);
+  successful-task cost; JavaScript MIT; **1★**; HEAD
+  `5cae9d1c`; README SHA `872de837`; package **0.4.0**);
   **frozen-protocol class bake-off**
   ([elcronos/jev-vs-open-decision-models](https://github.com/elcronos/jev-vs-open-decision-models)
   TypeSafe Jev vs PrismNLI vs Laya; contamination caveat;
@@ -1652,21 +1652,22 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   ([willkelly/jev-evaluation](https://github.com/willkelly/jev-evaluation)
   28 predictions before data; 123,805 requests; confidence
   does not track ignorance; polite injection 65% / crude
-  0%; Python MIT; **0★**; HEAD `06512e82`; README SHA
-  `c6aa7e71`; rh-guard owns injection); **class
+  0%; Python MIT; **0★**; HEAD `c168c093`; README SHA
+  `2d66ac22`; rh-guard owns injection); **class
   infrastructure SDK**
   ([nshkrdotcom/system_one_sdk](https://github.com/nshkrdotcom/system_one_sdk)
   provider-neutral Elixir/BEAM Noul/Choice/Score SDK;
   GitHub desc provider-neutral / README TypeSafe-first;
-  Elixir MIT; **0★**; HEAD `77a050bd`; README SHA
-  `2806a75b`; mix **0.5.0**). Soft Noul ≠ hard safety.
-  0★ HIGH still got a real card. Census **live REST
-  pulse**: SemIf **1976★**; jevlike **999★**; TypeAR
-  **11★** flat. Tracker likes **51** flat; lastModified
-  UNCHANGED 2026-09-19T18:37:18Z; Hub
-  `archerhume/4rcherhume` HTTP **401** (not re-fetched as
-  a rewrite). Archer still NOT landed. Awesomejev
-  561/27007 user-provided (≠ AnotiaWang/awesome-jev 83★).
+  Elixir MIT; **0★**; HEAD `c2a522ee`; README SHA
+  `c117b4c4`; mix **0.5.0**). Soft Noul ≠ hard safety.
+  0★ HIGH still got a real card (switchboard now **1★**
+  live REST). Census **live REST pulse**: SemIf **1984★**;
+  jevlike **1002★**; TypeAR **11★** flat. Tracker likes
+  **54** (+3 vs §100 pin **51**); lastModified **CHANGED**
+  2026-09-20T02:59:13Z; Hub `archerhume/4rcherhume` HTTP
+  **401** (not re-fetched as a rewrite). Archer still NOT
+  landed. Awesomejev 561/27007 user-provided (≠
+  AnotiaWang/awesome-jev 84★).
   `invented_signal: false`. Do not copy keys / `npm` /
   `pip` / `npx` / `uv` / `mix`. No wrapper. No invented
   metrics.

@@ -3744,7 +3744,7 @@
       "kind": "github",
       "title": "natemoo-re/bias-bench",
       "url": "https://github.com/natemoo-re/bias-bench",
-      "note": "PRIMARY Augustus hourly 2041. JavaScript; GitHub license null; 0★; HEAD ff06548c; README SHA a1c3e604; GitHub size 0 with contents; package 0.1.0. resume-screening bias audit methodology. name×resume factorial independent Nouls. callback determined by resume quality. mean-probability name gaps operationally negligible. natemoo-re/bias-bench ≠ BBQ. 1824 independent Nouls *theirs*. Do not copy npm/keys. notes.md §101."
+      "note": "PRIMARY Augustus hourly 2041. JavaScript; GitHub license null; 0★; HEAD fe2f2535; README SHA a1c3e604; GitHub size 0 with contents; package 0.1.0. resume-screening bias audit methodology. name×resume factorial independent Nouls. callback determined by resume quality. mean-probability name gaps operationally negligible. natemoo-re/bias-bench ≠ BBQ. 1824 independent Nouls *theirs*. Do not copy npm/keys. notes.md §101."
     },
     {
       "kind": "github",
@@ -3756,7 +3756,7 @@
       "kind": "github",
       "title": "cannacre8ive/switchboard-ai",
       "url": "https://github.com/cannacre8ive/switchboard-ai",
-      "note": "JavaScript MIT; 0★; HEAD 284585ce; README SHA e0468005; LICENSE SHA 85b5651c; package 0.3.0. cost-aware multi-model routing/escalation. decide vs do. successful-task cost. cannacre8ive/switchboard-ai ≠ ha-switchboard ≠ hermes-switchyard. V0.3 / M4 adapters next / M5 not done *theirs*. notes.md §101."
+      "note": "JavaScript MIT; 1★ live REST; HEAD 5cae9d1c; README SHA 872de837; LICENSE SHA 85b5651c; package 0.4.0. cost-aware multi-model routing/escalation. decide vs do. successful-task cost. cannacre8ive/switchboard-ai ≠ ha-switchboard ≠ hermes-switchyard. V0.4 / M4–M5 functional as logical plans+DAG; MCP adapters / learned economics not done *theirs*. notes.md §101."
     },
     {
       "kind": "github",
@@ -3768,7 +3768,7 @@
       "kind": "github",
       "title": "cvsgireesh/jevusher",
       "url": "https://github.com/cvsgireesh/jevusher",
-      "note": "TypeScript MIT; 0★; HEAD d830d344; README SHA 428a4a59; LICENSE SHA 9f72a3d7; package 0.1.0. context-window admission control. VOI gate which tokens are worth the expensive model. fail polarity per lens. on small inputs lenses lose money. cvsgireesh/jevusher ≠ jev-sift ≠ winnow. notes.md §101."
+      "note": "TypeScript MIT; 0★; HEAD d830d344; README SHA 428a4a59; LICENSE SHA 9f72a3d7; package 0.1.0; GitHub size 81. context-window admission control. VOI gate which tokens are worth the expensive model. fail polarity per lens. on small inputs lenses lose money. cvsgireesh/jevusher ≠ jev-sift ≠ winnow. notes.md §101."
     },
     {
       "kind": "github",
@@ -3786,13 +3786,13 @@
       "kind": "github",
       "title": "willkelly/jev-evaluation",
       "url": "https://github.com/willkelly/jev-evaluation",
-      "note": "Python MIT; 0★; HEAD 06512e82; README SHA c6aa7e71; LICENSE SHA 369b7234; size 5145. adversarial pre-registered Jev eval. 28 predictions before data. 123,805 requests. confidence does not track ignorance. polite injection 65% / crude 0%. willkelly/jev-evaluation ≠ jevals ≠ jev-baselines-eval. rh-guard owns injection. notes.md §101."
+      "note": "Python MIT; 0★; HEAD c168c093; README SHA 2d66ac22; LICENSE SHA 369b7234; size 5145. adversarial pre-registered Jev eval. 28 predictions before data. 123,805 requests. confidence does not track ignorance. polite injection 65% / crude 0%. willkelly/jev-evaluation ≠ jevals ≠ jev-baselines-eval. rh-guard owns injection. notes.md §101."
     },
     {
       "kind": "github",
       "title": "nshkrdotcom/system_one_sdk",
       "url": "https://github.com/nshkrdotcom/system_one_sdk",
-      "note": "Elixir MIT; 0★; HEAD 77a050bd; README SHA 2806a75b; LICENSE SHA fa8ed9a6; mix 0.5.0; GitHub size 0 with contents. provider-neutral Elixir/BEAM Noul/Choice/Score SDK. class infrastructure. GitHub desc provider-neutral; README opening TypeSafe-first. nshkrdotcom/system_one_sdk ≠ typesafe_sdk ≠ dannote/jev. notes.md §101."
+      "note": "Elixir MIT; 0★; HEAD c2a522ee; README SHA c117b4c4; LICENSE SHA fa8ed9a6; mix 0.5.0; GitHub size 0 with contents. provider-neutral Elixir/BEAM Noul/Choice/Score SDK. class infrastructure. GitHub desc provider-neutral; README opening TypeSafe-first. nshkrdotcom/system_one_sdk ≠ typesafe_sdk ≠ dannote/jev. notes.md §101."
     }
 
   ]

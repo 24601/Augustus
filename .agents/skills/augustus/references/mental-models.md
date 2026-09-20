@@ -1419,7 +1419,8 @@ infrastructure SDK). Do **not** re-fold 1943 / §100 /
 gliner-native-runtime / §97 / 1541 / §95 / jev-align
 *mechanism* / §93. Fresh PR; never reopen merged
 #7–**#18**. Skip Archer rewrite (still **NOT landed**;
-likes 51 **flat**; lastModified UNCHANGED). Quote live
+likes **54** vs §100 pin **51**; lastModified
+**CHANGED** `2026-09-20T02:59:13Z`). Quote live
 REST over watch claims. `invented_signal: false`.
 0★ HIGH still gets a real card. rh-guard owns
 injection/steer. Augustus owns placement.
@@ -1478,7 +1479,7 @@ resume-screening bias audit methodology; name×resume factorial independent Noul
    nshkrdotcom/system_one_sdk ≠ typesafe_sdk ≠
    dannote/jev.
 
-Soft Noul ≠ hard safety. 25.0% / 0.72 / V0.3 / 0.587 /
+Soft Noul ≠ hard safety. 25.0% / 0.72 / V0.4 / 0.587 /
 0.725 / 6,866-to-keep-out-143 / zero retained cases /
 $0.000004 / $0.000006 / ECE 0.075 / 47% / 65% are
 **sensors**. Treating a zero binary name gap as a

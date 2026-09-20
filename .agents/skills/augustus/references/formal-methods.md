@@ -936,7 +936,7 @@ willkelly/jev-evaluation ≠ jevals ≠ jev-baselines-eval;
 provider-neutral Elixir/BEAM Noul/Choice/Score SDK;
 class infrastructure;
 nshkrdotcom/system_one_sdk ≠ typesafe_sdk ≠ dannote/jev.
-Soft Noul ≠ hard safety: 25.0% / 0.72 / V0.3 / 0.587 /
+Soft Noul ≠ hard safety: 25.0% / 0.72 / V0.4 / 0.587 /
 0.725 / 6,866 / zero retained cases / $0.000004 /
 $0.000006 / ECE 0.075 / 47% / 65% are **sensors**.
 The factorial design / panel aggregation / routing
