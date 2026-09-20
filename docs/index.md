@@ -18,9 +18,11 @@ Noul is not a hard gate. Formal methods stay a pillar.
 - [Ecosystem](ecosystem.md)
 - [LICENSE (MIT)](https://github.com/24601/Augustus/blob/main/LICENSE)
 
-The atlas, protocol, and reference cards live in the
-[repository README](https://github.com/24601/Augustus). This page is a
-gate, not a rewrite.
+The atlas, protocol, and reference cards live in
+[`.agents/skills/augustus/`](https://github.com/24601/Augustus/tree/main/.agents/skills/augustus)
+and [`research/notes.md`](https://github.com/24601/Augustus/blob/main/research/notes.md).
+The [repository README](https://github.com/24601/Augustus) is a short file
+map, not the catalog. This page is a gate, not a rewrite.
 
 Companion to the official
 [`typesafe-ai` skill](https://github.com/typesafe-ai/skills)
