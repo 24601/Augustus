@@ -10514,6 +10514,18 @@ Error contract is not a Noul. wire-compat ≠ logit-equiv. SHA move is
 not a replica. serving-port densify. Full card: `notes.md` §125.
 
 
+### Since last look (2026-09-20T22 hourly 1643) — razorback16/openjev
+
+DENSIFY the §75 openjev cite. Keep this section id. Do not mint a
+sibling first sighting. HEAD `febf02e88989` README SHA `242a737dba01`.
+release 0.3.0. re-pin vLLM PR #57250 restructured head. VLLM_COMMIT
+`baa8338`. pyproject and __init__ agree 0.3.0. MODEL_VERSION stays
+openjev-0.1. uv.lock hygiene. restructured vLLM head ≠ logit-equiv.
+dual serving is not generate. Hosted Codiv ≠ TypeSafe. Error contract
+is not a Noul. wire-compat ≠ logit-equiv. SHA move is not a replica.
+serving-stack / version densify. Full card: `notes.md` §127.
+
+
 ## 76. User-provided HIGH — NandhaKishorM/laya packaging (2026-09-19 ~09:07 Boise / ~15:07 UTC)
 
 Docs-only into PR #2. **Skip Archer.** Do **not**
@@ -31582,3 +31594,294 @@ Hourly 1542 uniqueness lock: TypeLLM/TypeLLM densify HEAD 6a48f9f1e623 README SH
 
 **Hourly 1542 HIGH (`notes.md` §126).** TypeLLM README densify 3k→12k B. Batch 5.8x *theirs*. Constrained AR ≠ calibrated Noul. kev family densify. 4B new-source 0.790/0.806 *theirs*. 8.2% ≥0.9 on wrong *theirs*. option order can change an answer. fail-closed routing vs fail-open test selection. classifier ≠ authorizer. estimates not Harbor. catalog ≠ endorsement. SHA move is not a replica. Do not reopen or amend PR #23–#48. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
 Hourly 1542 uniqueness lock: TypeLLM/TypeLLM densify HEAD 6a48f9f1e623 README SHA dbdc1f193537; README densify 3k→12k B; thinking=True/False per-field budget; type safety does not guarantee factual accuracy; Batch 5.8x *theirs*; Constrained AR ≠ calibrated Noul; Qwen/Qwen3.8-27B ≠ Archer; jaredpalmer/kev densify HEAD b339f446a0ef README SHA 86b0a19909f3; Kev-0.6B 4B 8B family; 4B new-source 0.790/0.806 *theirs*; 8B new-source 0.796/0.780 *theirs*; Jev hosted 0.857 *theirs*; Questions share the input text but cannot read each other; No Jev outputs were used for training; 8.2% ≥0.9 on wrong *theirs*; option order can change an answer; Qwen3 ≠ Archer; wire-compat ≠ logit-equiv; SHA move is not a replica; TheoOliveira/pi-jev 21★ fail-closed routing; JEV_THRESHOLD 0.65 still soft; routing ≠ permission; harshwasan/jev-sentinel fail closed never auto-allows; harshwasan/jev-sentinel ≠ leepokai/jev-guard; jackbarunz/jev-tool-router ≠ esinocchi/jev-tool-router; threshold 0.90 still soft; 76/81 vs 77/81 *theirs*; 0.419s vs 2.459s *theirs*; $0.00486 vs $0.03673 *theirs*; does not execute; not a security boundary; baronunread/leanest fail-open uncertainty means RUN; classifier.dev default Jev/Laya pluggable; openlayer-ai/jevals ≠ dayhaysoos/jevals; estimates not Harbor; classifier ≠ authorizer; MrJev/awesome-jev 118 entries catalog ≠ endorsement; MrJev/awesome-jev ≠ yibie/awesome-jev; Koushik890/jev-firewall fail closed ask_below 0.7 still soft; CompleteTech-LLC-AI-Research/jev-codex-approval experimental native not compiled; confidence is not a measured probability; rh-guard owns primary gates; hf:rAVEUK/open-jev-deberta-v3-large encoder class member not Jev replica; hf:p-yan/laya-quanto serving substrate ≠ calibrated replica; hf:Gtrkrsk/laya serving substrate ≠ calibrated replica; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48; notes.md §126
+
+## 127. Hourly 1643 HIGH (2026-09-20 ~16:43 Boise / 2026-09-20T22:43Z)
+
+Measurement / class-member fold on a **fresh PR off latest `main`**
+(`cursor/fold-hourly-1643-high-b4df`) after `6672fbf` (merged #49
+hourly 1542, `notes.md` §126 / items 433–448 / batch #108; merged #48
+hourly 1441, `notes.md` §125). **HARD RULE:** do not reopen or
+amend PR #23–#49. Do **not** push onto merged 1542 / 1441 / 1340 /
+1248 tracks. This fold's IDs: `notes.md` §127 / composition 449–464 /
+findings batch #109.
+
+Never reopen merged #7–**#49**. Do **not** re-fold §126 1542 / §125 1441 /
+§124 1340 / §123 1248 / §122 protocol / §121 1143 *as a second census*.
+Densify `razorback16/openjev` (§75 cite). Dual backends and serving ports
+already folded in §124 / §125; this hour is the **0.3.0 / restructured
+vLLM head** densify. Skip Archer rewrite. Quote READMEs. Mark *theirs*.
+No wrappers, keys, `npm` / `pip` / `uv` / `docker` install recipes.
+`invented_signal: false`. Hunches labeled.
+
+Lane is Augustus: **mathematical / logical / algorithmic mental models**
+for Jev-class categorization/scoring across AI / SWE / **business /
+knowledge work / life**, not SWE-only. PRIMARY this hour is **REVISIT
+densify**: razorback16/openjev release 0.3.0, re-pin vLLM to PR #57250
+restructured head, pyproject/__init__ agree, uv.lock hygiene. Novel HIGH:
+rubric-then-prose review, joint model participation, probabilistic event
+bus, semantic hunch search, decide-then-diffuse canvas, traffic-sim
+controllers. Third-party benches stay *theirs*. Wire-compat is still not
+logit-equiv. SHA move is not a replica. Catalogs are indexes. Soft scores
+≠ hard gates. Thresholds are policy not model. Dual serving is not
+generate. Hosted Codiv ≠ TypeSafe. restructured vLLM head ≠ logit-equiv.
+Archer still **promised_not_landed**.
+
+Unique consecutive fragments (this hour) must appear as **one
+substring** in overlays (see uniqueness gate):
+Hourly 1643 uniqueness lock: razorback16/openjev densify HEAD febf02e88989 README SHA 242a737dba01; release 0.3.0; re-pin vLLM PR #57250 restructured head; VLLM_COMMIT baa8338; pyproject and __init__ agree 0.3.0; MODEL_VERSION stays openjev-0.1; uv.lock hygiene; dual serving is not generate; Hosted Codiv ≠ TypeSafe; restructured vLLM head ≠ logit-equiv; wire-compat ≠ logit-equiv; SHA move is not a replica; Error contract is not a Noul; frostney/clean-code-review 7★ typed judgments not opinions; documentation is read not judged; Luna writes from Jev findings; morcoan/JMP Joint Model Participation; Models participate. Real tools execute.; Jev routes actions generators supply arguments; not a swarm; zkjoie/jevbus Thresholds are policy not model; Drop < Review < Deliver; FanOut or Exclusive; Kelbie/hunch ≠ carldaws/hunch ≠ tpellet/hunch ≠ huncho; Agent Skills semantic review; SupratikB23/JevCanvas Jev never generates prose JSX or code; Diffusion never decides structure; json-render is the only renderer; skcache/jevtrafficsim Fixed Adaptive Jev; game success ≠ calibrated Noul; Shalimov04/open-jev ≠ razorback16/openjev ≠ TheoLeeCJ/openjev ≠ Zefan-Cai/Open-Jev; MstyAI/laya-onnx empty repo ≠ tozp/laya-onnx ≠ Mattepiu/laya-onnx ≠ gqgs/laya-onnx; SherifAshraf2003/jev-use ≠ shitianfang/jev-use; aniruddh-krovvidi/switchboard ≠ cannacre8ive/switchboard-ai; Visorian/TidyUp ≠ abhibansal60/tidy; isiomaC/jevkit ≠ WaynezProg/jev-kit; lee-lou2/jev-tree ≠ reachjalil/jev-tree; Royhu1/jev-poker-trainer empty repo; JoacoMarc/jev-harness-router ≠ jackbarunz/jev-tool-router; rh-guard owns primary gates; hf:Praveenrajus/jev-bench HTTP 200 was 401; hf:ZefanCai/Open-Jev densify dataset; LoRA ≠ RLCD replica; hf:emretheus/jev-rag-benchmark ≠ erendikmenn/jev-rag-benchmark; hf:ctaxnagomi/DGUI_HYPERMEM-JEV densify sha ab3d3529; hf:hugging-apps/open-jev-deberta-v3-large-demo encoder class member not Jev replica; serving substrate ≠ calibrated replica; catalog ≠ endorsement; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49; notes.md §127
+
+### How-to-apply (five placements / measurement lenses)
+
+These are *class* lenses, not vendor tutorials. Same discipline as
+§125 (dual serving is not generate; SHA move is not a replica) and §126
+(Constrained AR ≠ calibrated Noul). Formal methods **compose** with
+scoring: a Noul is a SENSOR; a serving pin is not a replica; a threshold
+is application policy; a renderer catalog is a capability boundary.
+
+1. **restructured vLLM head ≠ logit-equiv**
+   (*theirs*, razorback16/openjev PRIMARY densify). Quote *theirs*:
+   Re-pin vLLM to PR #57250's restructured head, release 0.3.0. A vLLM
+   maintainer asked for the structured-read scheduling to live in a
+   subclass. Those three core files are now byte-identical to upstream.
+   Version 0.3.0. pyproject and __init__ agree. MODEL_VERSION stays
+   openjev-0.1, which is a wire identifier and not the package version.
+   uv.lock hygiene. Dual serving (vLLM NVIDIA + MLX Apple Silicon;
+   `/v1/systemone` + `/v1/chat/completions`) already §125. A fork pin
+   moving into a subclass is still not TypeSafe logits. restructured
+   vLLM head ≠ logit-equiv. wire-compat ≠ logit-equiv. SHA move is not
+   a replica. Hosted Codiv ≠ TypeSafe. Life analogue: changing who
+   holds the stamp is not a new constitution.
+2. **typed judgments not opinions / documentation is read not judged**
+   (frostney/clean-code-review). Quote *theirs*: Clean Code, judged by
+   a model that does not write prose. Typed judgments, not opinions.
+   Luna writes two sentences per file from Jev's findings. Documentation
+   is read, not judged. A 24-file PR costs about $0.02 *theirs*. Mixed
+   architecture: Jev scores the rubric; Luna writes. Name listed in the
+   §17 archive; this is the first-sighting card. frostney/clean-code-review
+   ≠ huntedman/JevLint.
+3. **Models participate. Real tools execute.**
+   (morcoan/JMP). Quote *theirs*: Joint Model Participation means giving
+   each model a specific job. Jev selects the next action. Generators
+   supply arguments. Real tools execute the validated call. This is a
+   single controlled agent loop, not a swarm of autonomous agents.
+   decide is not generate. not a swarm. JMP ≠ a multi-agent debate.
+4. **Thresholds are policy not model**
+   (zkjoie/jevbus). Quote *theirs*: Thresholds are policy, not model:
+   changing them never needs a new judgment. Drop < Review < Deliver.
+   FanOut or Exclusive. A streaming event bus whose routing is decided
+   by a probabilistic judge. Replayable from a recorded answer set.
+   Soft Noul ≠ hard safety.
+5. **json-render is the only renderer / game success ≠ calibrated Noul**
+   (JevCanvas; jevtrafficsim; Kelbie/hunch). Quote *theirs* JevCanvas:
+   Jev never generates prose, JSX, or code. Diffusion never decides
+   structure. json-render is the only renderer; unknown components and
+   invalid actions are rejected before render. Quote *theirs*
+   jevtrafficsim: Fixed, Adaptive, and Jev controllers under identical
+   seeded workloads. game success ≠ calibrated Noul. Quote *theirs*
+   hunch: Semantic code review with Jev, plain-English rules and Agent
+   Skills. Kelbie/hunch ≠ carldaws/hunch ≠ tpellet/hunch ≠ huncho.
+
+### HIGH (revisit densify; keep original section ids)
+
+1. **[razorback16/openjev](https://github.com/razorback16/openjev)**
+   - DENSIFY §75 cite (Apache-2.0; **200★**; HEAD `febf02e88989`;
+   README SHA `242a737dba01`; was `cddbd962c88a` / 1441 densify).
+   release 0.3.0. re-pin vLLM PR #57250 restructured head.
+   VLLM_COMMIT `baa8338` (Dockerfile). pyproject and __init__ agree
+   0.3.0. MODEL_VERSION stays openjev-0.1. uv.lock hygiene (HEAD
+   groups uv.lock under its own reason). Dual backends / serving ports
+   already §124 / §125. restructured vLLM head ≠ logit-equiv.
+   dual serving is not generate. Hosted Codiv ≠ TypeSafe. Error
+   contract is not a Noul. wire-compat ≠ logit-equiv. SHA move is not
+   a replica. serving-stack / version densify *theirs*. Do **not**
+   copy `docker run` / Codiv keys.
+
+### HIGH (novel)
+
+2. **[frostney/clean-code-review](https://github.com/frostney/clean-code-review)**
+   - NEW HIGH measurement (MIT; **7★**; HEAD `f020f8d9106d`; README SHA
+   `ff05e282b684`). Quote *theirs*: typed judgments not opinions.
+   documentation is read not judged. Luna writes from Jev findings.
+   ~$0.02 for a 24-file PR *theirs*. Mixed architecture, not "Jev is
+   the reviewer." Name appeared in the §17 archive list; this is the
+   first-sighting card. frostney/clean-code-review ≠ huntedman/JevLint.
+   Do **not** copy `npm` keys.
+
+3. **[morcoan/JMP](https://github.com/morcoan/JMP)**
+   - NEW HIGH measurement (MIT; **2★**; HEAD `4abd336c5adf`). Quote
+   *theirs*: Models participate. Real tools execute. Jev routes
+   actions. Generators supply arguments. not a swarm. decide is not
+   generate. Do **not** copy desktop Settings / keys.
+
+4. **[zkjoie/jevbus](https://github.com/zkjoie/jevbus)**
+   - NEW HIGH measurement (Apache-2.0; **2★**; HEAD `dd05bda3b359`).
+   Quote *theirs*: Thresholds are policy not model. Drop < Review <
+   Deliver. FanOut or Exclusive. Replayable from a recorded answer
+   set. Soft Noul ≠ hard safety. Do **not** copy crate flags.
+
+5. **[Kelbie/hunch](https://github.com/Kelbie/hunch)**
+   - NEW HIGH measurement (MIT; **1★**; HEAD `a5300f51b320`). Semantic
+   code review with Jev, plain-English rules and Agent Skills.
+   Kelbie/hunch ≠ carldaws/hunch ≠ tpellet/hunch ≠ huncho. Soft scores
+   ≠ hard gates. Do **not** copy `npx` keys.
+
+6. **[SupratikB23/JevCanvas](https://github.com/SupratikB23/JevCanvas)**
+   - NEW HIGH measurement (**1★**; HEAD `9f810e8add2a`). Quote *theirs*:
+   Jev never generates prose JSX or code. Diffusion never decides
+   structure. json-render is the only renderer. Unknown components
+   rejected before render. Do **not** copy Replicate tokens.
+
+7. **[skcache/jevtrafficsim](https://github.com/skcache/jevtrafficsim)**
+   - NEW HIGH measurement (**1★**; HEAD `ba3698798725`). Quote *theirs*:
+   Fixed, Adaptive, and Jev controllers under identical seeded
+   workloads. game success ≠ calibrated Noul. Scaling experiment, not
+   Harbor. Do **not** copy `pnpm` install.
+
+### Remainder (short cards, same hour)
+
+- **[1aifanatic/jev-uipath-coded-agent](https://github.com/1aifanatic/jev-uipath-coded-agent)** — FINS demo: a UiPath coded agent for AML alert triage where every decision is made by TypeSafe's Jev model (Noul/Score/Choice) instead of an LLM (license null; **0★**; HEAD `83d4f62a457c`). *theirs*. catalog ≠ endorsement.
+- **[Danijel-Enoch/banger-tweet](https://github.com/Danijel-Enoch/banger-tweet)** — Jev scores whether a tweet goes viral; OpenRouter writes drafts and a write-judge-revise loop climbs the score. (license null; **0★**; HEAD `6d32079a15ae`). *theirs*. catalog ≠ endorsement.
+- **[FibonacciAi/sam-presence](https://github.com/FibonacciAi/sam-presence)** — Sam : intelligence, in the moment. Realtime presence, live voice, and Jev-powered understanding. (license null; **0★**; HEAD `aa7dd63a2bb1`). *theirs*. catalog ≠ endorsement.
+- **[ItIsCuthNotCup/MutuallyAssuredDestructionSim](https://github.com/ItIsCuthNotCup/MutuallyAssuredDestructionSim)** — Simulating mutually assured destruction with Jev (license null; **0★**; HEAD `530b92654f72`). *theirs*. catalog ≠ endorsement.
+- **[JoacoMarc/jev-harness-router](https://github.com/JoacoMarc/jev-harness-router)** — Per-turn harness router on Jev (TypeSafe): one batched call picks the model tier, tools, skill and effort budget for an agent turn, behind a hard latency deadline. (MIT; **0★**; HEAD `c2cb1b626078`). *theirs*. catalog ≠ endorsement.
+- **[MstyAI/laya-onnx](https://github.com/MstyAI/laya-onnx)** — no description (license null; **0★**; HEAD `empty`). *theirs*. catalog ≠ endorsement.
+- **[NaluKicks-808/jev-field-guide-skill](https://github.com/NaluKicks-808/jev-field-guide-skill)** — A Claude Code skill of field notes on Jev: which question shape fits which job, how to test a use before trusting it, and the traps. Companion to TypeSafe's official skill. (MIT; **0★**; HEAD `9894bcc2d3cf`). *theirs*. catalog ≠ endorsement.
+- **[NaluKicks-808/jev-field-trial](https://github.com/NaluKicks-808/jev-field-trial)** — A pre-registered field trial of Jev (TypeSafe's judgment model) on a second brain and Claude Code history: 20 tests, bars written first, failures included, and the tools to repeat it. (MIT; **0★**; HEAD `b95400aee231`). *theirs*. catalog ≠ endorsement.
+- **[NaluKicks-808/vault-search-bench](https://github.com/NaluKicks-808/vault-search-bench)** — Test search over any Obsidian vault with zero labelling: the vault's own links are the answer key. Plain rankers built in, plug in your own, optional Jev reranker. (MIT; **0★**; HEAD `8d7648062236`). *theirs*. catalog ≠ endorsement.
+- **[PhoeniXAbhisheK/jevx-kit](https://github.com/PhoeniXAbhisheK/jevx-kit)** — Power-up your X experience: JevX Pulse (AI-written % + tags on X posts) and JevX Block (hide ads and paid partnerships). (license null; **0★**; HEAD `2643d6f07326`). *theirs*. catalog ≠ endorsement.
+- **[Pizzawookiee/jev-tree-memory](https://github.com/Pizzawookiee/jev-tree-memory)** — TypeSafe's Jev + n-ary tree = good agent memory? (license null; **0★**; HEAD `bd7b70c98d54`). *theirs*. catalog ≠ endorsement.
+- **[Royhu1/jev-poker-trainer](https://github.com/Royhu1/jev-poker-trainer)** — A multilingual Texas Hold’em training studio with Jev-powered opponents, live coaching, replay and skill assessments. (license null; **0★**; HEAD `empty`). *theirs*. catalog ≠ endorsement.
+- **[SCBuergel/jev-netprofiler](https://github.com/SCBuergel/jev-netprofiler)** — A network profiler usign Jev, educational proof of concept only! (MIT; **0★**; HEAD `6d609bfefd7a`). *theirs*. catalog ≠ endorsement.
+- **[Shalimov04/open-jev](https://github.com/Shalimov04/open-jev)** — Distil a prompt into a small, fast, calibrated classifier. Typed decisions (choice/score/noul) with calibrated probabilities from a local LLM teacher, served at /v1/systemone. (MIT; **0★**; HEAD `a89dd7cebb41`). *theirs*. catalog ≠ endorsement.
+- **[SherifAshraf2003/jev-use](https://github.com/SherifAshraf2003/jev-use)** — A computer-use agent whose decision layer is a System One model, not a frontier LLM. Code enumerates the legal actions on a screen; the model selects one. (license null; **0★**; HEAD `51b9c0f05025`). *theirs*. catalog ≠ endorsement.
+- **[TickerDev/jevfanity](https://github.com/TickerDev/jevfanity)** — Monorepo for jevfanity, a profanity detector using Jev by TypeSafe AI (MIT; **0★**; HEAD `da2f640eb241`). *theirs*. catalog ≠ endorsement.
+- **[Visorian/TidyUp](https://github.com/Visorian/TidyUp)** — Experimental Jev based Ad Blocker (license null; **0★**; HEAD `2f0656ab6258`). *theirs*. catalog ≠ endorsement.
+- **[WhiskeyJack96/go-style-review](https://github.com/WhiskeyJack96/go-style-review)** — Review Go packages, files, structs, and functions against Effective Go and the Google Go Style Guide using Jev. (license null; **0★**; HEAD `2d9dc0ffbe24`). *theirs*. catalog ≠ endorsement.
+- **[aniruddh-krovvidi/switchboard](https://github.com/aniruddh-krovvidi/switchboard)** — Guardrail + model router for LLM gateways on TypeSafe's Jev (System One model), with an independent accuracy/calibration/latency evaluation. Stdlib Python. (license null; **0★**; HEAD `6d5098fe51a0`). *theirs*. catalog ≠ endorsement.
+- **[beamnxw/minelog](https://github.com/beamnxw/minelog)** — MineLog harness : GPT-6 Astra plans, Jev decides, one vanilla Minecraft body. Backend behind minelog.xyz (MIT; **0★**; HEAD `eb60f8effbb7`). *theirs*. catalog ≠ endorsement.
+- **[bilune/jev-design](https://github.com/bilune/jev-design)** — Can a model design a dashboard? A console whose whole design system is generated at runtime by Jev from a one-sentence brief. (license null; **0★**; HEAD `242c115ef207`). *theirs*. catalog ≠ endorsement.
+- **[da-vinci-noob/pi-jev-model-router](https://github.com/da-vinci-noob/pi-jev-model-router)** — Route pi prompts to task-appropriate model tiers with TypeSafe Jev typed judgments. Budget-aware, with automatic fallback. (MIT; **0★**; HEAD `5ca26ca1dac2`). *theirs*. catalog ≠ endorsement.
+- **[debamitro/yc-or-not-checker](https://github.com/debamitro/yc-or-not-checker)** — See if your idea can qualify for YC - powered by Jev (Apache-2.0; **0★**; HEAD `0bfbbb2c84f3`). *theirs*. catalog ≠ endorsement.
+- **[dev-willbird1936/pi-auto-model-router](https://github.com/dev-willbird1936/pi-auto-model-router)** — Score-based auto router for Pi Coding Agent (experimental Jev default) (MIT; **0★**; HEAD `c986ff69e1ed`). *theirs*. catalog ≠ endorsement.
+- **[dev-willbird1936/pi-compact-jev](https://github.com/dev-willbird1936/pi-compact-jev)** — Verbatim Jev context compaction for Pi Coding Agent (MIT; **0★**; HEAD `ab8927e60b34`). *theirs*. catalog ≠ endorsement.
+- **[fireviewer/fireviewer-jev-experiments](https://github.com/fireviewer/fireviewer-jev-experiments)** — FireViewer: isolated Jev text judgments, daily evidence experiments, real receipts and comparison dashboard (AGPL-3.0; **0★**; HEAD `5edbc00ebd52`). *theirs*. catalog ≠ endorsement.
+- **[gaborishka/jevtown](https://github.com/gaborishka/jevtown)** — Jevtown: a social network where people write and 10,000 AI personas react (MIT; **0★**; HEAD `f5603813578b`). *theirs*. catalog ≠ endorsement.
+- **[harshwasan/jev-retrieval-eval](https://github.com/harshwasan/jev-retrieval-eval)** — Reproducible Jev and GPT document-retrieval evaluations, with evidence labels, measured results, and provider-specific cost estimates. (license null; **0★**; HEAD `b75ee69b807d`). *theirs*. catalog ≠ endorsement.
+- **[isiomaC/jevkit](https://github.com/isiomaC/jevkit)** — Native Swift SDK for TypeSafe Jev System One decisions. (MIT; **0★**; HEAD `076e82c41ba3`). *theirs*. catalog ≠ endorsement.
+- **[javsanesq/jev](https://github.com/javsanesq/jev)** — A terminal workbench for learning, testing, and connecting TypeSafe Jev decisions. (license null; **0★**; HEAD `dadaca7f0e63`). *theirs*. catalog ≠ endorsement.
+- **[jjlecocq-v/outbound-draft-gate](https://github.com/jjlecocq-v/outbound-draft-gate)** — Vercel-branded Outbound Draft Gate demo for LinkedIn walkthrough (Jev-style evaluate + AI Gateway). Draft-only : human clicks send. (license null; **0★**; HEAD `f85893115907`). *theirs*. catalog ≠ endorsement.
+- **[lee-lou2/jev-tree](https://github.com/lee-lou2/jev-tree)** — Jev-driven tree descent over knowledge: hierarchical taxonomy + Trace + beam search (Python library + Rust/Axum demo) (MIT; **0★**; HEAD `4fd272a26656`). *theirs*. catalog ≠ endorsement.
+- **[max-lau/drone-swarm-max01](https://github.com/max-lau/drone-swarm-max01)** — Command & control console for a 10,970-drone disaster-response swarm (scaling to 109,700). Three.js + Mapbox swarm simulation, TypeSafe jev decision layer, Qwen 3.8 Max assistant. (license null; **0★**; HEAD `1b202c5abaea`). *theirs*. catalog ≠ endorsement.
+- **[mizorewww/pastewhat](https://github.com/mizorewww/pastewhat)** — A native AppKit clipboard companion that uses Laya to recommend what to paste. (license null; **0★**; HEAD `0732b42ac450`). *theirs*. catalog ≠ endorsement.
+- **[motomiki/jev-form-filler](https://github.com/motomiki/jev-form-filler)** — 登録済みプロフィールで Web フォームを自動入力する Chrome 拡張。入力欄とプロフィール項目の対応づけに typesafe-ai/jev の確率付き判定を使い、確信度つきで入力します（送信はしません）。 (MIT; **0★**; HEAD `7d7ab86f4548`). *theirs*. catalog ≠ endorsement.
+- **[mountainMath/JevR](https://github.com/mountainMath/JevR)** — R client for the TypeSafe Jev System One API (NOASSERTION; **0★**; HEAD `ccc389627e76`). *theirs*. catalog ≠ endorsement.
+- **[pomykalakyle/jev-youtube-filter](https://github.com/pomykalakyle/jev-youtube-filter)** — Semantic YouTube recommendation filtering powered by Jev (MIT; **0★**; HEAD `7d0aa017c769`). *theirs*. catalog ≠ endorsement.
+- **[ronadin2002/jev-cua](https://github.com/ronadin2002/jev-cua)** — voice to computer-use using no LLM just jev (license null; **0★**; HEAD `782c18c20221`). *theirs*. catalog ≠ endorsement.
+- **[selcukusta/jev-mailroom](https://github.com/selcukusta/jev-mailroom)** — Email triage PoC: reads a mailbox over IMAP and classifies each message by what it is and what it's about, using TypeSafe System One (Jev) : 11 questions in a single call, decided in Python. (MIT; **0★**; HEAD `3f0fae27f176`). *theirs*. catalog ≠ endorsement.
+- **[tenfingerseddy/voicebind](https://github.com/tenfingerseddy/voicebind)** — Natural voice control, dictation and workspace bookmarks for Omarchy. Local Whisper with optional Jev interpretation. (MIT; **0★**; HEAD `b8dfea49f0bc`). *theirs*. catalog ≠ endorsement.
+- **[wudilyy999/jev-langgraph](https://github.com/wudilyy999/jev-langgraph)** — JEV-native probabilistic decisions, human review, and auditable execution on LangGraph. (MIT; **0★**; HEAD `7f94d36d199c`). *theirs*. catalog ≠ endorsement.
+- **[yo4e/JevPip](https://github.com/yo4e/JevPip)** — GMOのFX/BTC市場データに対応したローカル市場研究ターミナル。ライブチャート、ペーパートレード、バックテスト、安全監督、TypeSafe Jev連携。安全機構を整えたうえで実売買対応予定。 (MIT; **0★**; HEAD `77ebb943051d`). *theirs*. catalog ≠ endorsement.
+- **[zixiang0623/Jev-Openrouter](https://github.com/zixiang0623/Jev-Openrouter)** — Vercelに一時的に依存 (license null; **0★**; HEAD `a574a49b8d51`). *theirs*. catalog ≠ endorsement.
+
+- **hf:akhilaaa3/openjev-r512-handoff-demo** — r512 handoff demo. serving substrate ≠ calibrated replica. *theirs*.
+- **hf:ds:Praveenrajus/jev-bench** — DENSIFY §125 remainder: Hub HTTP **200** this hour (was 401). 166,054-row human-labeled set already catalogued. densify is not a second census. *theirs*.
+- **hf:ds:ZefanCai/Open-Jev** — DENSIFY §125 Open-Jev training rows. LoRA ≠ RLCD replica. Zefan-Cai/Open-Jev ≠ razorback16/openjev. *theirs*.
+- **hf:ds:ctaxnagomi/DGUI_HYPERMEM-JEV** — DENSIFY §69 / §111. sha `ab3d3529` unchanged. densify is not a second census. *theirs*.
+- **hf:ds:ctaxnagomi/INSTRUCT_JEV** — DENSIFY existing instruct corpus. likes 2. densify is not a second census. *theirs*.
+- **hf:ds:emretheus/jev-rag-benchmark** — Hub dataset of §121 GH. emretheus/jev-rag-benchmark ≠ erendikmenn/jev-rag-benchmark. *theirs*.
+- **hf:ds:vagmi/jevlite_dataset** — synthetic soft-label decision set. softmax ≠ calibrated Noul. *theirs*.
+- **hf:space:durganani60/fastrisk-jev** — fraud triage demo via OpenRouter Decisions API. Sub-250ms *theirs* not Harbor. *theirs*.
+- **hf:space:emretheus/jev-rag-benchmark-leaderboard** — static leaderboard of the same GH. *theirs*.
+- **hf:space:hugging-apps/open-jev-deberta-v3-large-demo** — Gradio demo for com-kotobalabs/open-jev-deberta-v3-large. encoder class member not Jev replica. *theirs*.
+- **hf:space:iluvblender/yolo-jev-scene-filter** — YOLO-World boxes then Jev keep/skip. Locate ≠ decide. *theirs*.
+
+Router / gate cousins this hour (`JoacoMarc/jev-harness-router`,
+`da-vinci-noob/pi-jev-model-router`, `dev-willbird1936/pi-auto-model-router`)
+are measurement notes only; rh-guard owns primary gates.
+`dev-willbird1936/pi-compact-jev` is a compaction sibling, not a new
+species. Empty repos (`MstyAI/laya-onnx`, `Royhu1/jev-poker-trainer`):
+skip-thin; empty repo ≠ serving substrate.
+catalog ≠ endorsement.
+
+### Skips (thin / collision / name-match)
+
+- MstyAI/laya-onnx Git Repository is empty (HTTP 409). ≠ tozp / Mattepiu / gqgs.
+- Royhu1/jev-poker-trainer Git Repository is empty (HTTP 409).
+- Shalimov04/open-jev ≠ razorback16/openjev ≠ TheoLeeCJ/openjev ≠ Zefan-Cai/Open-Jev.
+- Already-catalogued Hub densify (DGUI sha `ab3d3529`, INSTRUCT, emretheus GH §121,
+  ZefanCai dataset of §125, Praveenrajus 401→200): densify is not a second census.
+- Empty-README / 0★ playgrounds / name-match `Jev`: skip-thin.
+- Archer rewrite: **promised_not_landed**. Hub archerhume/4rcherhume HTTP **401**.
+
+### Pulse (live REST this hour)
+
+Archer still promised_not_landed. Hub archerhume/4rcherhume HTTP **401**.
+openjev **200★** (+2 vs §125 195 / watch +2). clean-code-review **7★**.
+JMP **2★**. jevbus **2★**. hunch **1★**. JevCanvas **1★**. jevtrafficsim **1★**.
+This hour does not re-census SemIf / Laya likes / tracker; those numbers
+stay §119 until a dedicated pulse. `invented_signal: false`.
+
+### Formal compose + anti-patterns
+
+Formal methods **compose** with scoring. A Noul is a SENSOR. A vLLM
+subclass pin is a serving stack. Thresholds are policy. A renderer
+catalog is a capability boundary. A traffic win rate is not a Noul.
+Treating 0.3.0 as logit-equiv, Codiv as TypeSafe, JMP as one model,
+jevbus thresholds as the judge, Luna prose as the judgment, JevCanvas
+diffusion as structure, traffic delay as ECE, an empty ONNX repo as a
+calibrated replica, or Qwen3.8 as Archer is soundness theater.
+restructured vLLM head ≠ logit-equiv. dual serving is not generate.
+Hosted Codiv ≠ TypeSafe. Thresholds are policy not model.
+documentation is read not judged. json-render is the only renderer.
+game success ≠ calibrated Noul. SHA move is not a replica. catalog ≠
+endorsement.
+
+### Adversarial review + testing hooks (Basit standing
+order)
+
+Parent merge only after **CLEAN** adversarial review **AND** testing.
+Hooks for the reviewer:
+
+- Uniqueness-gate: the consecutive `Hourly 1643 uniqueness lock:`
+  string must appear in every overlay listed below. Prior walls 0843 /
+  0915 / jcr / 0922 / 0940 / 0947 / 1049 / 1143 / 1248 / 1340 / 1441 /
+  1542 stay one substring each (do not mutate them; do not reopen #23–#49).
+- Namesake locks: Shalimov04/open-jev ≠ razorback16/openjev;
+  Kelbie/hunch ≠ carldaws/hunch ≠ tpellet/hunch ≠ huncho;
+  MstyAI/laya-onnx ≠ tozp/laya-onnx ≠ Mattepiu/laya-onnx ≠ gqgs/laya-onnx;
+  SherifAshraf2003/jev-use ≠ shitianfang/jev-use;
+  aniruddh-krovvidi/switchboard ≠ cannacre8ive/switchboard-ai;
+  Visorian/TidyUp ≠ abhibansal60/tidy; isiomaC/jevkit ≠ WaynezProg/jev-kit;
+  lee-lou2/jev-tree ≠ reachjalil/jev-tree;
+  JoacoMarc/jev-harness-router ≠ jackbarunz/jev-tool-router;
+  Hosted Codiv ≠ TypeSafe.
+- Densify vs new: openjev densifies §75. Do not mint sibling
+  first-sighting sections. clean-code-review / JMP / jevbus / hunch /
+  JevCanvas / jevtrafficsim are first sightings this hour.
+- Harbor-jevals: ~$0.02 / seeded traffic runs / Sub-250ms are *theirs*,
+  not Harbor. Batch 5.8x / 4B new-source stay §126. 37.30s → 2.40s /
+  CLERC 5% to 18% / 94.71% stay §125. 93.5% / 74.9 / 8.7x stay §123.
+  74.6 JevBench stays §78.
+- Anti-patterns to refuse: TypeSafe drop-in; 0.3.0 as logit-equiv;
+  Codiv as TypeSafe; `/v1/chat/completions` as decide; JMP as a swarm;
+  jevbus thresholds as the model; Luna as the judgment; diffusion as
+  structure; traffic delay as ECE; empty repo as ONNX serving;
+  catalog as endorsement; copying keys / `npm` / `pip` / `uv` / `docker`.
+- Overlay set: SKILL.md body (protocol fragments + class-table densify
+  + Hourly 1643), mental-models Apply 1643, composition-algebra items
+  449–464, faq, mixed-architecture, validation, toolbox-mapping,
+  methods-catalog, formal-methods, formal-semi-formal,
+  applied-mappings, judgment-class, question-design,
+  agent-self-assessment, mappings, CHANGELOG, README, docs/ecosystem,
+  findings batch #109, refresh-log, sources.json, changelog-hourly.md,
+  revisit_fingerprints.json (openjev SHA/release move; novel HIGH seeds).
+- Offline check: `evaluate_decisions.py --self-test` (now includes
+  restructured vLLM head ≠ logit-equiv / thresholds are policy /
+  documentation is read not judged / json-render boundary / empty repo
+  ≠ serving substrate) and `uniqueness_gate.py` (0843 +
+  0915 + jcr + 0922 + 0940 + 0947 + 1049 + 1143 + 1248 + 1340 + 1441 +
+  1542 + 1643).
+  No live Jev key. No wrappers.
+
+Hourly 1643 uniqueness lock: razorback16/openjev densify HEAD febf02e88989 README SHA 242a737dba01; release 0.3.0; re-pin vLLM PR #57250 restructured head; VLLM_COMMIT baa8338; pyproject and __init__ agree 0.3.0; MODEL_VERSION stays openjev-0.1; uv.lock hygiene; dual serving is not generate; Hosted Codiv ≠ TypeSafe; restructured vLLM head ≠ logit-equiv; wire-compat ≠ logit-equiv; SHA move is not a replica; Error contract is not a Noul; frostney/clean-code-review 7★ typed judgments not opinions; documentation is read not judged; Luna writes from Jev findings; morcoan/JMP Joint Model Participation; Models participate. Real tools execute.; Jev routes actions generators supply arguments; not a swarm; zkjoie/jevbus Thresholds are policy not model; Drop < Review < Deliver; FanOut or Exclusive; Kelbie/hunch ≠ carldaws/hunch ≠ tpellet/hunch ≠ huncho; Agent Skills semantic review; SupratikB23/JevCanvas Jev never generates prose JSX or code; Diffusion never decides structure; json-render is the only renderer; skcache/jevtrafficsim Fixed Adaptive Jev; game success ≠ calibrated Noul; Shalimov04/open-jev ≠ razorback16/openjev ≠ TheoLeeCJ/openjev ≠ Zefan-Cai/Open-Jev; MstyAI/laya-onnx empty repo ≠ tozp/laya-onnx ≠ Mattepiu/laya-onnx ≠ gqgs/laya-onnx; SherifAshraf2003/jev-use ≠ shitianfang/jev-use; aniruddh-krovvidi/switchboard ≠ cannacre8ive/switchboard-ai; Visorian/TidyUp ≠ abhibansal60/tidy; isiomaC/jevkit ≠ WaynezProg/jev-kit; lee-lou2/jev-tree ≠ reachjalil/jev-tree; Royhu1/jev-poker-trainer empty repo; JoacoMarc/jev-harness-router ≠ jackbarunz/jev-tool-router; rh-guard owns primary gates; hf:Praveenrajus/jev-bench HTTP 200 was 401; hf:ZefanCai/Open-Jev densify dataset; LoRA ≠ RLCD replica; hf:emretheus/jev-rag-benchmark ≠ erendikmenn/jev-rag-benchmark; hf:ctaxnagomi/DGUI_HYPERMEM-JEV densify sha ab3d3529; hf:hugging-apps/open-jev-deberta-v3-large-demo encoder class member not Jev replica; serving substrate ≠ calibrated replica; catalog ≠ endorsement; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49; notes.md §127
+

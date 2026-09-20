@@ -206,6 +206,49 @@
         <dd class="recipe-measure">76/81 vs 77/81 *theirs*. 118 entries are an index, not a proof.</dd>
       </dl>
     </article>
+
+    <article class="recipe panel">
+      <p class="kicker">Serving pin</p>
+      <h3>Restructured head vs replica</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>A package bump or a vLLM subclass treated as logit-equivalent truth.</dd>
+        <dt>Without</dt>
+        <dd>Ship 0.3.0 as TypeSafe. Treat Codiv as the hosted product.</dd>
+        <dt>With</dt>
+        <dd>restructured vLLM head ≠ logit-equiv. MODEL_VERSION stays openjev-0.1. dual serving is not generate. Hosted Codiv ≠ TypeSafe.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">Package version separately from wire id. Third-party benches stay *theirs*.</dd>
+      </dl>
+    </article>
+    <article class="recipe panel">
+      <p class="kicker">Split jobs</p>
+      <h3>Route, write, render</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>One model asked to choose, write, and draw.</dd>
+        <dt>Without</dt>
+        <dd>A swarm. Luna as the judgment. Diffusion as structure.</dd>
+        <dt>With</dt>
+        <dd>Models participate. Real tools execute. documentation is read not judged. json-render is the only renderer. Thresholds are policy not model.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">Who chose, who wrote, who rendered. Soft scores ≠ hard gates.</dd>
+      </dl>
+    </article>
+    <article class="recipe panel">
+      <p class="kicker">Gameplay / sim</p>
+      <h3>Win rate vs Noul</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>A seeded traffic win treated as a calibrated probability.</dd>
+        <dt>Without</dt>
+        <dd>Quote delay as ECE. Hard-gate the city.</dd>
+        <dt>With</dt>
+        <dd>game success ≠ calibrated Noul. Fixed vs Adaptive vs the decision head on one ledger.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">Sim metrics separately from Brier/ECE. *theirs* not Harbor.</dd>
+      </dl>
+    </article>
   </div>
   <p class="compare-caption">
     Measurement recipe (hysteresis, equal-width vs quantile ECE, hop-ECE,

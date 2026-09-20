@@ -16,6 +16,42 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 1643 HIGH (`research/notes.md` §127 / composition items
+449–464 / findings batch #109). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#49. Do not amend released 0.5.0
+(#42). Merged #49 owns §126. Merged #48 owns §125.
+
+### Added
+
+- **Hourly 1643 HIGH (`notes.md` §127).** openjev release 0.3.0 densify /
+  re-pin vLLM PR #57250 restructured head / MODEL_VERSION stays openjev-0.1 /
+  uv.lock hygiene / clean-code-review typed judgments / JMP route vs generate /
+  jevbus thresholds are policy / JevCanvas json-render boundary /
+  jevtrafficsim game success ≠ Noul. restructured vLLM head ≠ logit-equiv.
+  dual serving is not generate. Hosted Codiv ≠ TypeSafe.
+  documentation is read not judged. Thresholds are policy not model.
+  wire-compat is not logit-equiv. SHA move is not a replica.
+  Evaluator: restructured vLLM head ≠ logit-equiv / thresholds are policy /
+  documentation is read not judged / json-render boundary / empty repo
+  ≠ serving substrate. uniqueness_gate.py now
+  checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 + 1049 + 1143 +
+  1248 + 1340 + 1441 + 1542 + 1643. Composition items 449–464 / batch #109.
+  **HARD RULE:** do not reopen or amend PR #23–#49. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat a serving pin
+  as logit-equiv, JMP as one model, jevbus thresholds as the judge, Luna
+  prose as the judgment, diffusion as structure, or a traffic win rate as
+  ECE. With Augustus: restructured vLLM head ≠ logit-equiv; dual serving
+  is not generate; Thresholds are policy not model; documentation is
+  read not judged; json-render is the only renderer; game success ≠
+  calibrated Noul. Same split for any Choice/Score/Noul-style head, not
+  only hosted Jev.
+
+
+
 Hourly 1542 HIGH (`research/notes.md` §126 / composition items
 433–448 / findings batch #108). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in
