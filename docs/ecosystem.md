@@ -790,6 +790,31 @@ Apalache; DST trio Antithesis / Resonate HQ / PufferLib):
 Cross-domain frames (not SWE-only): `references/mental-models.md`.
 Hypothesis cards: `references/mappings.md` §6–§19.
 
+### Hourly ~23:40 Boise 2026-09-19 / 2026-09-20T05:40Z (2340 HIGH)
+
+Architecture / mental models / Harbor-jevals / toolbelt, not a MiniSystemOne / orderby / architect / distiller / jevinize / OpenJevPro / RLCD / awesome / jevbetter tutorial. `notes.md` §104. Skip Archer rewrite. Quote READMEs. Soft Noul ≠ hard safety. Do **not** re-fold 2246 / §103 / 2145 / §102 / 2041 / §101 / 1943 / §100 / 1843 / §99 / 1740 / §98 / 1639 / §96 / gliner-native-runtime / §97 / 1541 / §95 / jev-align *mechanism* / §93 / jev-orderby-bench *six-gates* / §60. Fresh PR; never reopen merged #7–**#21**. 0★ HIGH still gets a real card. From-scratch tiny decision training is the *class* exemplar this hour, not a TypeSafe drop-in. Quote live REST over watch claims. `invented_signal: false`.
+
+- **hyusi2003/MiniSystemOne** — Apache-2.0; **0★**; README SHA `83016bf8`; HEAD `4385335b`; LICENSE SHA `261eeb9e`; GitHub size **5**. PRIMARY. train calibrated ~27M from scratch. typed Q→prob dist / one forward pass / no LLM decode. hyusi2003/MiniSystemOne ≠ Colvin0315/MiniSystemOne. description-only stub / size 5. Do not paste Colvin numbers as hyusi. Do not copy pip / GPU recipes.
+- **yodablocks/jev-orderby-bench** — Python MIT; **0★**; README SHA `7bd075c3`; HEAD `52397954`; LICENSE SHA `b5d8a201`; size **309**. ESCI hard probe fails four of six. jev_bool ECE 0.242 inversion 0.255. do not re-fold §60 six-gates as new. jobbyjev one-request-per-company from batch-size result.
+- **karanb192/jev-architect** — HTML MIT; **0★**; README SHA `68c2b5f9`; HEAD `35ea6d93`; LICENSE SHA `56b1020e`; size **5199**. find/design/evaluate TypeSafe Jev decision loops. karanb192/jev-architect ≠ samtay32/jev-system-architect. Do not copy `npx skills add`.
+- **Jairik/jev-distiller** — MIT; **0★**; README SHA `aa408c5e`; HEAD `0589d44c`; LICENSE SHA `f6faefb7`; size **1**. Jairik/jev-distiller size 1. distill-Jev UI stub / do not distill Jev as teacher of record.
+- **licensedsaucer9-web/jev-opportunities** — license **null**; **0★**; README SHA `aa33f901`; HEAD `a47fa414`; size **27**. post-launch scored use-case map / Jev self-scores then human curation.
+- **gavinHuang/jevinize** — MIT; **0★**; README SHA `5f48e622`; HEAD `6d080632`; LICENSE SHA `b6712f11`; size **6**. Jev-inize a use case into classifier/router. gavinHuang/jevinize → simple-jev not TypeSafe. featherless-ai/simple-jev.
+- **VihaanAgarwal/jev-diff** — Python MIT; **0★**; README SHA `3b0ce75c`; HEAD `a3c98807`; LICENSE SHA `bf4baec7`; size **120**. compare saved decisions / same label can still change the branch. not tested with a live Jev API key. VihaanAgarwal/jev-diff ≠ Saik0s/diffusiongemma-jev-macos.
+- **zhangcy122/OpenJevPro** — HTML; SPDX NOASSERTION LICENSE SHA `5aa42b53`; **0★**; README SHA `50c77ace`; HEAD `94d77bcb`; size **62**. constrained logprob + temp/Platt ≠ Noul. OpenJevPro pastes openjev-sglang JevBench as own. PolyForm Noncommercial. ≠ IamBusy/OpenJev ≠ ekzhang/openjev-sglang.
+- **patelvishwa112/jev-system-one-rlcd** — Python; license **null**; **0★**; README SHA `55994d69`; HEAD `62b103b3`; GitHub size **0** with contents. SmolLM-135M / sub-70ms / 0 output tokens. demo P(True) 0.5052 / Choice conf 0.2872 / Score conf 0.0055. README claims MIT / GitHub license null / no LICENSE file. ≠ arnabgho/rlcd-lite ≠ blackwood-rlcd.
+- **logicrw/awesome-jev-projects** — JavaScript MIT; **132★**; README SHA `25a19b31`; HEAD `97057cc1`; LICENSE SHA `6d7dc130`; size **7136**. source-backed Awesome Jev radar / 306+ commit-pinned. auto GitHub sync / Issue-only submissions. ≠ AnotiaWang ≠ yibie ≠ cobanov ≠ rupeshpoojary9. Do not paste listed numbers.
+- **olanotolu/jevbetter** — Python MIT; **12★**; README SHA `5cbe01d4`; HEAD `bb0ebc82`; LICENSE SHA `0959fa02`; size **324**. hashed n-gram encoder / rival-aware attention. olanotolu/jevbetter vs jevlike starter. synthetic hard menus top-1 0.916 vs 0.873 / ECE 0.0182 vs 0.0367 / 40 vs 4608 menus/sec. shuffled-context control 0.335.
+
+Pulse (do not invent): Archer still NOT landed. Hub `archerhume/4rcherhume` HTTP **401** — not re-fetched as a rewrite. Tracker likes **56**; lastModified `2026-09-20T04:29:16.000Z`. Live REST: SemIf **2025★** (+6 vs §103 **2019**); jevlike **1009★** (+3 vs §103 **1006**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **87★** **flat** ≠ Awesomejev 561/27007 ≠ logicrw **132★**. Qwen3.8-27B ≠ Archer (likes **15787**). X MCP not used this hour; no invented tweets. `invented_signal: false`.
+
+See `references/mixed-architecture.md` in the skill. Class-level family
+choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs
+Apalache; DST trio Antithesis / Resonate HQ / PufferLib):
+`references/formal-methods.md` (one-screen: `formal-semi-formal.md`).
+Cross-domain frames (not SWE-only): `references/mental-models.md`.
+Hypothesis cards: `references/mappings.md` §6–§19.
+
 ## The skill that owns this analysis
 
 [GitHub](https://github.com/24601/Augustus) — `SKILL.md` + reference cards

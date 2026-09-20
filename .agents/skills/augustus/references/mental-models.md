@@ -1657,6 +1657,91 @@ serial selection / open-side list / fetch+persist
 are exact work. ChatJev-style soundness theater is
 the anti-pattern.
 
+## Apply 2340 (`notes.md` §104)
+
+Same pillars, eleven HIGH clusters (from-scratch
+calibrated decision model PRIMARY; ORDER BY ranking
+upgrade; find/design/evaluate decision loops;
+distill-Jev UI stub anti-pattern; post-launch scored
+opportunity map; Jev-inize a use case; saved-decision
+regression; constrained-logprob API; SmolLM RLCD
+reproduction; source-backed Awesome radar; rival-aware
+one-pass scorer). Do **not** re-fold 2246 / §103 /
+2145 / §102 / 2041 / §101 / 1943 / §100 / 1843 / §99 /
+1740 / §98 / 1639 / §96 / gliner-native-runtime / §97 /
+1541 / §95 / jev-align *mechanism* / §93 /
+jev-orderby-bench *six-gates* / §60. Fresh PR; never
+reopen merged #7–**#21**. Skip Archer rewrite (still
+**NOT landed**; Hub 401). 0★ HIGH still gets a real
+card. Soft Noul ≠ hard safety. Formal methods
+**compose** with scoring; a Noul is a SENSOR.
+
+1. **From-scratch calibrated decision model** —
+   train calibrated ~27M from scratch.
+   typed Q→prob dist / one forward pass / no LLM decode.
+   hyusi2003/MiniSystemOne ≠ Colvin0315/MiniSystemOne.
+   description-only stub / size 5.
+2. **ORDER BY ranking upgrade** —
+   ESCI hard probe fails four of six.
+   jev_bool ECE 0.242 inversion 0.255.
+   do not re-fold §60 six-gates as new.
+   jobbyjev one-request-per-company from batch-size result.
+3. **Find/design/evaluate decision loops** —
+   find/design/evaluate TypeSafe Jev decision loops.
+   karanb192/jev-architect ≠ samtay32/jev-system-architect.
+4. **Distill-Jev UI stub** —
+   Jairik/jev-distiller size 1.
+   distill-Jev UI stub / do not distill Jev as teacher of record.
+5. **Post-launch scored opportunity map** —
+   post-launch scored use-case map / Jev self-scores then human curation.
+   licensedsaucer9-web/jev-opportunities.
+6. **Jev-inize a use case** —
+   Jev-inize a use case into classifier/router.
+   gavinHuang/jevinize → simple-jev not TypeSafe.
+   featherless-ai/simple-jev.
+7. **Saved-decision regression** —
+   compare saved decisions / same label can still change the branch.
+   VihaanAgarwal/jev-diff ≠ Saik0s/diffusiongemma-jev-macos.
+   not tested with a live Jev API key.
+8. **Constrained-logprob API** —
+   constrained logprob + temp/Platt ≠ Noul.
+   OpenJevPro pastes openjev-sglang JevBench as own.
+   zhangcy122/OpenJevPro ≠ IamBusy/OpenJev ≠ ekzhang/openjev-sglang.
+   PolyForm Noncommercial.
+9. **SmolLM RLCD reproduction** —
+   SmolLM-135M / sub-70ms / 0 output tokens.
+   demo P(True) 0.5052 / Choice conf 0.2872 / Score conf 0.0055.
+   README claims MIT / GitHub license null / no LICENSE file.
+   patelvishwa112/jev-system-one-rlcd ≠ arnabgho/rlcd-lite ≠ blackwood-rlcd.
+10. **Source-backed Awesome radar** —
+    source-backed Awesome Jev radar / 306+ commit-pinned.
+    logicrw/awesome-jev-projects ≠ AnotiaWang/awesome-jev ≠ yibie/awesome-jev ≠ cobanov/awesome-jev ≠ rupeshpoojary9/awesome-open-system-one.
+    auto GitHub sync / Issue-only submissions.
+11. **Rival-aware one-pass scorer** —
+    hashed n-gram encoder / rival-aware attention.
+    olanotolu/jevbetter vs jevlike starter.
+    synthetic hard menus top-1 0.916 vs 0.873 / ECE 0.0182 vs 0.0367 / 40 vs 4608 menus/sec.
+    shuffled-context control 0.335.
+
+Soft Noul ≠ hard safety. ~27M / 4.7h / 0.242 / 0.255 /
+size 1 / 0.81→0.79 / 95.5% pasted / 0.5052 / 132★ /
+0.916 are **sensors**. Treating a description-only
+stub as a checkpoint, re-folding six-gates as new,
+distilling Jev as teacher of record, pasting
+openjev-sglang as OpenJevPro, treating constrained
+logprob as a Noul, quoting an untrained-looking demo
+as Jev identity, pasting a radar's listed numbers,
+or quoting 0.916 as a class ceiling is the same
+theater as jev-gate §79.
+
+Formal methods **compose** with scoring. A Noul is a
+SENSOR. The from-scratch encoder / SQL secondary key /
+workflow inspection / independent gold / human TOP
+curation / decision map / saved-trace compare /
+grammar mask / Brier training / commit-pin / rival
+attention are exact work. Distill-Jev UI stub and
+constrained-logprob-as-Noul are the anti-patterns.
+
 
 ## Decision-design extras (any domain)
 

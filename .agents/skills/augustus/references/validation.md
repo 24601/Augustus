@@ -339,7 +339,7 @@ Rules:
 | Tetris legal-set Choice vs Haiku | [jev-tetris-benchmark](https://github.com/planstack-ai/jev-tetris-benchmark) | Use-case demo; code enumerates ≤12 legal placements; **not a rigorous eval** |
 | Domain specialist vs few-shot hosted | [Domain-jev-maker](https://github.com/help-er/Domain-jev-maker) | Independent CLINC gold (not Jev teacher). Matched-precision KL (2-decimal, zeros→0.0025): local 0.168 vs hosted 0.580 banking; r +0.933 vs +0.343. Few-shot hosted determinate McNemar n.s. (p=0.134 / 1.000). Train specialist when policy reads p |
 | Cascade compare arms (native vs verbalized vs logprob) | [jav-email-cascade](https://github.com/skiingfalcon/jav-email-cascade) | 74 labelled emails; jev / gen-json / gen-logprob; shared Answer schema. Mock: gen-json confidence flat. Noul 0.5 never rounded. License null. **Not** a live Jev vs Haiku bake-off |
-| ORDER BY ranking vs calibration | [jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench) | `jev-1.13.0` six gates pass. Boolean inversion 0.036; Score ordinal **0.143** vs 0.15; 53-way 0.99 tie; ECE 0.0453 / Brier 0.0524. recodelabs batch-40 inversion 0.171 **fail**. Calibration ≠ sortable |
+| ORDER BY ranking vs calibration | [jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench) | `jev-1.13.0` six gates pass on 20NG (§60). **2340 ESCI hard probe fails four of six.** jev_bool ECE 0.242 inversion 0.255. do not re-fold §60 six-gates as new. Calibration ≠ sortable. `notes.md` §104 |
 | Class-backend economics (GLiFormer `/v1/systemone`) | [jeff](https://github.com/logan-markewich/jeff) | 1,600 items. L4 HTTP ~$2.6 vs jev ~$15.6 (~6×); A10G direct ~$0.65 (~24×); AG News 75.5% vs 90.5%; p50 151 vs 129 ms. CPU 6–20× *more* expensive. Encoder ≠ Jev replica. License null |
 | Jev vs local MLX PCD vs AR JSON | [system-one-benchmark](https://github.com/mallahyari/system-one-benchmark) | LMSYS toxic-chat **n=50**. Jev-1.13.0 **84.0%** acc / Brier **0.1096** / p50 356.5 ms; PCD Qwen2.5-1.5B 52% / Brier 0.3884 / p50 227.2 ms / 1 pass O(1); AR 54% / ~30.8 passes / 98% schema errors. License null. Small n — *their* card, not a large Harbor taskset. PCD O(1) ≠ calibrated Noul |
 | Evidence-packet explorer (SWE finish) | [jevex](https://github.com/jimmyhealer/jevex) (was jev-semantic-explorer) | Author-run. Claude Code 6.8→2.2 files. SWE-bench Verified n=8: **1/8 → 6/8** finish. **n=16 delta** *theirs*: 160s→**69s**, $8.74→**$3.13**, 16/16 both arms; 90s cap 1/16 vs 11/16. Packet HitFile 0.233 diagnostic |
@@ -497,6 +497,12 @@ Rules:
 | Frozen-LLM self-authored suite (not Harbor) | [yuki-oshio/mini-jev](https://github.com/yuki-oshio/mini-jev) | Python MIT; **0★**; README SHA `363441b6`. frozen local LLM logits, no trained decision head. 93.25% *theirs* not family-disjoint. residual-head 9,222-param decreased 73/96→67/96. confidence = 1−normalized entropy, not P(correct). ≠ r-ms/mini-jev. `notes.md` §103 |
 | ChatJev anti-pattern (no eval) | [erik-dunteman/ChatJev](https://github.com/erik-dunteman/ChatJev) | Python; license null; **1★**; README SHA `c763be19`. Jev classifier as autoregressive next-token predictor. ChatJev-style soundness theater. ≠ dannote/jev ≠ jev-gpt. `notes.md` §103 |
 | Paper radar doubles (not Harbor) | [LYchoon/paper-radar-jev](https://github.com/LYchoon/paper-radar-jev) | Python MIT; **0★**; README SHA `1cb8a9c3`. arXiv paper radar with Jev relevance scoring. ranking ≠ calibration / 0.5 still soft. fail-open failed evals not marked seen. Tests use doubles. `notes.md` §103 |
+| From-scratch MiniSystemOne stub (not a checkpoint) | [hyusi2003/MiniSystemOne](https://github.com/hyusi2003/MiniSystemOne) | Apache-2.0; **0★**; README SHA `83016bf8`. train calibrated ~27M from scratch. typed Q→prob dist / one forward pass / no LLM decode. description-only stub / size 5. ≠ Colvin0315. `notes.md` §104 |
+| ORDER BY ESCI hard probe (not Harbor) | [yodablocks/jev-orderby-bench](https://github.com/yodablocks/jev-orderby-bench) | Python MIT; **0★**; README SHA `7bd075c3`; size **309**. ESCI hard probe fails four of six. jev_bool ECE 0.242 inversion 0.255. do not re-fold §60 six-gates as new. `notes.md` §104 |
+| Saved-decision fixture (not Harbor) | [VihaanAgarwal/jev-diff](https://github.com/VihaanAgarwal/jev-diff) | Python MIT; **0★**; README SHA `3b0ce75c`. compare saved decisions / same label can still change the branch. not tested with a live Jev API key. ≠ diffusiongemma. `notes.md` §104 |
+| OpenJevPro pasted JevBench (anti) | [zhangcy122/OpenJevPro](https://github.com/zhangcy122/OpenJevPro) | HTML; SPDX NOASSERTION; **0★**; README SHA `50c77ace`. constrained logprob + temp/Platt ≠ Noul. OpenJevPro pastes openjev-sglang JevBench as own. `notes.md` §104 |
+| SmolLM RLCD demo printout (not Harbor) | [patelvishwa112/jev-system-one-rlcd](https://github.com/patelvishwa112/jev-system-one-rlcd) | Python; license null; **0★**; README SHA `55994d69`. SmolLM-135M / sub-70ms / 0 output tokens. demo P(True) 0.5052 / Choice conf 0.2872 / Score conf 0.0055. `notes.md` §104 |
+| jevbetter synthetic menus (not Harbor) | [olanotolu/jevbetter](https://github.com/olanotolu/jevbetter) | Python MIT; **12★**; README SHA `5cbe01d4`. hashed n-gram encoder / rival-aware attention. synthetic hard menus top-1 0.916 vs 0.873 / ECE 0.0182 vs 0.0367 / 40 vs 4608 menus/sec. shuffled-context control 0.335. `notes.md` §104 |
 | Pre-review typed PR gate | [ci-gatekeeper-bot-jev](https://github.com/NemanjaManic/ci-gatekeeper-bot-jev) | Own-repo live Jev: 504–629 ms; secondary ~4–5 s only on human-review + elevated risk. Conservative default escalated trivial diffs. `package.json` MIT / GitHub SPDX null |
 
 rh-guard is a reward-hack hook, a different surface from jevgate and
@@ -669,6 +675,9 @@ sort key); 53-way 0.99 tie; ECE 0.0453 / Brier 0.0524.
 recodelabs batch-40 **fails** ranking (inversion 0.171).
 Calibration ≠ sortable. Request shape is part of the
 measurement (`notes.md` §60).
+**2340 ESCI upgrade (`notes.md` §104):** ESCI hard probe fails four of six.
+jev_bool ECE 0.242 inversion 0.255. do not re-fold §60 six-gates as new.
+jobbyjev one-request-per-company from batch-size result.
 **Class-backend economics (Empirical as their RESULTS.md):**
 [jeff](https://github.com/logan-markewich/jeff) — GLiFormer-400M
 `/v1/systemone`. 1,600 items: L4 HTTP ~$2.6 vs jev ~$15.6

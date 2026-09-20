@@ -1046,6 +1046,34 @@ timeout-dropped samples as a full distribution, or
 hard-thresholding paper-radar 0.5 as frequency is the same
 theater.
 
+2340 envelopes (`notes.md` §104), still outside the extras
+template:
+train calibrated ~27M from scratch;
+typed Q→prob dist / one forward pass / no LLM decode;
+hyusi2003/MiniSystemOne ≠ Colvin0315/MiniSystemOne;
+description-only stub / size 5;
+ESCI hard probe fails four of six;
+jev_bool ECE 0.242 inversion 0.255;
+do not re-fold §60 six-gates as new;
+constrained logprob + temp/Platt ≠ Noul;
+OpenJevPro pastes openjev-sglang JevBench as own;
+PolyForm Noncommercial;
+distill-Jev UI stub / do not distill Jev as teacher of record;
+Jairik/jev-distiller size 1;
+demo P(True) 0.5052 / Choice conf 0.2872 / Score conf 0.0055;
+README claims MIT / GitHub license null / no LICENSE file;
+hashed n-gram encoder / rival-aware attention;
+shuffled-context control 0.335.
+Soft Noul ≠ hard safety: ~27M / 0.242 / 0.255 / size 1 /
+95.5% pasted / 0.5052 / 0.916 are **sensors**. The
+from-scratch encoder / SQL secondary key / grammar mask /
+Brier training / commit-pin / rival attention is exact work.
+Treating a description-only stub as a checkpoint, re-folding
+six-gates as new, distilling Jev as teacher of record,
+pasting openjev-sglang as OpenJevPro, treating constrained
+logprob as a Noul, or quoting 0.916 as a class ceiling is
+the same theater.
+
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a
 hybrid "verified by Noul" API.

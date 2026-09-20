@@ -2064,6 +2064,59 @@
   jev-recall despite attached JSON (quote README demos);
   JevPi GitHub size 0 with contents (same honesty as gut);
   0★ HIGH still got a real card.
+## 2026-09-20T05:40Z — hourly 2340 HIGH (Boise ~23:40 MDT)
+
+- Fresh PR off main after merged #21 (`d3f8da7` / §103).
+  Never reopen merged #7–**#21**. Branch
+  `cursor/hourly-2340-minisystemone-8b98`.
+  Skip Archer rewrite. Quote READMEs. Mark *theirs*.
+  No wrappers / keys / install recipes. Do not dump
+  source / SDK / weights / eval logs.
+  `invented_signal: false`.
+- Eleven HIGH: hyusi2003/MiniSystemOne (PRIMARY; **0★**;
+  from-scratch calibrated decision model; description-only stub);
+  yodablocks/jev-orderby-bench (**0★**; ESCI hard-probe upgrade);
+  karanb192/jev-architect (**0★**; find/design/evaluate decision loops);
+  Jairik/jev-distiller (**0★**; distill-Jev UI stub);
+  licensedsaucer9-web/jev-opportunities (**0★**; scored opportunity map);
+  gavinHuang/jevinize (**0★**; Jev-inize → simple-jev);
+  VihaanAgarwal/jev-diff (**0★**; saved-decision regression);
+  zhangcy122/OpenJevPro (**0★**; constrained-logprob API);
+  patelvishwa112/jev-system-one-rlcd (**0★**; SmolLM RLCD);
+  logicrw/awesome-jev-projects (**132★**; source-backed Awesome radar);
+  olanotolu/jevbetter (**12★**; rival-aware one-pass scorer).
+- Formal methods compose with scoring; a Noul is a SENSOR.
+  Treating a description-only stub as a checkpoint, re-folding
+  six-gates as new, distilling Jev as teacher of record, pasting
+  openjev-sglang as OpenJevPro, treating constrained logprob as
+  a Noul, quoting an untrained-looking demo as Jev identity,
+  pasting a radar's listed numbers, or quoting 0.916 as a class
+  ceiling is soundness theater. Distill-Jev UI stub and
+  constrained-logprob-as-Noul are the anti-patterns.
+- Pulse (do not invent): Archer still NOT landed. Hub
+  archerhume/4rcherhume HTTP **401**. Tracker likes **56**;
+  lastModified `2026-09-20T04:29:16.000Z` (not re-fetched as
+  a rewrite). Live REST: SemIf **2025★** (+6 vs §103 2019);
+  jevlike **1009★** (+3 vs §103 1006); TypeAR **12★**
+  **flat**. AnotiaWang/awesome-jev **87★** **flat** ≠ Awesomejev
+  561/27007 ≠ logicrw **132★**. Qwen3.8-27B ≠ Archer (likes
+  **15787**). X MCP not used; no invented tweets.
+- Cards: SKILL.md, mixed-architecture fail table +
+  gallery, faq, mental-models Apply 2340, judgment-class,
+  validation, applied-mappings, mappings, toolbox,
+  composition-algebra items 138–148, question-design,
+  methods-catalog, formal-methods, agent-self-assessment,
+  ecosystem, CHANGELOG, README.
+- notes.md §104; sources.json; findings.md batch #87.
+  No wrapper. Do **not** merge from this review.
+- Adversarial review honesty locks: MiniSystemOne size **5**
+  HEAD `4385335b` README SHA `83016bf8`; orderby size **309**
+  (relock; was **281**) HEAD `52397954`; awesome-jev-projects
+  HEAD `97057cc1` (relock; was `45bab8c4`; README SHA `25a19b31`
+  unchanged — auto GitHub sync); jevbetter **12★**; GitHub size
+  0 with contents (RLCD); OpenJevPro PolyForm NC LICENSE
+  SHA `5aa42b53`; RLCD no LICENSE file.
+
 ## 2026-09-20T04:46Z — hourly 2246 HIGH (Boise ~22:46 MDT)
 
 - Fresh PR off main after merged #20 (`b3e3ad2` / §102).
