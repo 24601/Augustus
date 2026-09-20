@@ -1270,6 +1270,32 @@ Hourly 0541 uniqueness lock: Blackwood tracker ABSENT; likes 2 gated manual; ECE
 
 
 
+
+0743 envelopes (`notes.md` §112), still outside the extras
+template:
+None of the systems are particularly good at knowing when to stop and ask;
+A provider failure, timeout, malformed output, or missing answer is **not** a policy outcome;
+confidence is descriptive provider output, not a substitute for probability;
+Quality denominators include only valid scored answers;
+an exact halfway tie chooses the lower level;
+The pages never call Jev;
+Low support becomes decision: "review";
+The local path does not claim to turn a smaller checkpoint into Jev;
+结构兼容，不是 Jev 模型能力;
+They skip the question and call a tool directly;
+100% schema pass;
+40–48 rows too small to ship T;
+T never changes argmax;
+Finding 1: Brier on stated confidence alone is a trap;
+do not reopen or amend PR #23 or #24 or #25 or #26 or #27 or #28 or #29.
+Soft Noul ≠ hard safety: 77.0% / 0.85 / 90.53% / ACT / 0.0207 are
+**sensors**. Contracts / denominators / halfway ties / cache / gold
+audit / validators / ERROR/FATAL protection are exact work. Treating
+77.0% as Harbor, 0.85 as 85%, 100% schema as correctness, ACT as a
+provider proof, or TF-IDF ECE as beating Jev is the same theater.
+
+Hourly 0743 uniqueness lock: Heman10x-NGU/Verdict-open-jev ≠ Heman10x-NGU/openJev-verdict-2.0; TF-IDF + LogReg ECE 0.0207 vs Jev 0.1440; Verdict-open-jev 48.07% vs Jev 90.80%; abstention combined recall 10.00%; p50 35.58 ms; K=25 (maximum capacity) 72.00%; 0.85 coverage 84.60% selective risk 1.18%; 26.1× faster than standard Qwen JSON generation; Jevify 90.0% / 167 ms CUDA graphs disabled; Finding 1: Brier on stated confidence alone is a trap; grpo_rlcr 0.78 / ECE 0.084; reliability 0.007 but resolution 0.000; 27 900 schema-driven decisions; 13 600 / 13 600 questions; candidate mass min 0.99999624; 22 configs · 166,054 rows · 4 calibration-gold; sha a39eba3f; Student B MAE 0.148 / Pearson 0.836 / 86.0%; pngwn/open-jev-laya-bench README 404; sha 9f69c742 likes 2; HDFS 0.9933 (745/750) / retain 0.0084; BGL ERROR/FATAL protection 1.0000; 2,479 / 2,500 HDFS uncertain; cache hit 0.9648 (2412/2500); $0.153936 estimated; E2 recomputes from saved probabilities; Space sha eda59e0a; MASSIVE English 0.783 / Khmer 0.033 / Hindi 0.133; 40–48 rows too small to ship T; T never changes argmax; siren2345/jev-single-decode-transformers ≠ siren2345/jev-single-decode; Split Transformers experiment from llama.cpp runtime; tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab; Four experiments stress-testing TypeSafe's Jev: calibration, bundle bias, label bias, and ensembling; second pass must be $0.00 from cache; The pages never call Jev; Gemma 4 31B 77.0% / Jev 1.13.0 61.4% / Laya 322M 0.0%; restriction state 95.0% against 84.4%; None of the systems are particularly good at knowing when to stop and ask; They skip the question and call a tool directly; 100% schema pass; six-field joint 48.8% vs 72.8%; ywchiu/jev_benchmark ≠ Running-Dolphins/jev-bench ≠ Praveenrajus/jev-bench; ACT / REVIEW / FALLBACK; A provider failure, timeout, malformed output, or missing answer is **not** a policy outcome; confidence is descriptive provider output, not a substitute for probability; Quality denominators include only valid scored answers; an exact halfway tie chooses the lower level; aiwithenoch/Jev-Skill ≠ simplosophy/jev-skill ≠ laguagu/jev-skills; The local path does not claim to turn a smaller checkpoint into Jev; Low support becomes decision: "review"; MIT-0 SPDX NOASSERTION; current-llm; 结构兼容，不是 Jev 模型能力; altryne/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify; Find where Jev belongs. Design the questions. Measure the difference; TypeAR-AI/TypeAR 301 → TypeLLM/TypeLLM; TypeLLM/TypeLLM 16★; SemIf 2217★ (+10 vs §111 2207); jevlike 1044★ (+1 vs 1043); AnotiaWang 98★ (+1 vs 97); yibie/awesome-jev 514★ (+8 vs 506); Laya likes 843 (was 822); tracker likes 66 (+2 vs 64); lastModified UNCHANGED `2026-09-20T04:29:16.000Z`; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29
+
 0646 envelopes (`notes.md` §111), still outside the extras
 template:
 Calibration is not alpha;

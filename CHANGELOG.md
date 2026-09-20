@@ -16,6 +16,110 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
 
 ### Added
 
+- Hourly 0743 HIGH (`research/notes.md` §112): **Skip
+  Archer rewrite.** Docs-only on a **fresh PR off main**.
+  **HARD RULE:** do not reopen or amend PR #23 or #24 or #25
+  or #26 or #27 or #28 or #29 (do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29.
+  merged #23 owns `notes.md` §105 / items 149–160 /
+  batch #88; merged #24 owns `notes.md` §106 / items 161–177 /
+  batch #89; merged #25 owns `notes.md` §107 / items 178–185 /
+  batch #90; merged #26 owns `notes.md` §108 / items 186–201 /
+  batch #91; merged #27 owns `notes.md` §109 / items 202–225 /
+  batch #92; merged #28 owns `notes.md` §110 / items 226–247 /
+  batch #93; merged #29 owns `notes.md` §111 / items 248–267 /
+  batch #94 — leave them alone). Never reopen merged
+  #7–**#29**. Do **not** re-fold 0646 / §111 / 0541 / §110 / 0439 / §109 / 0345 / §108 / 0243 / §107 /
+  0145 / §106 / 0042 / §105 / 2340 / §104 / 2246 / §103 /
+  2145 / §102 / 2041 / §101 / 1943 / §100 / 1843 / §99 /
+  1740 / §98 / 1639 / §96 / gliner-native-runtime / §97 /
+  1541 / §95 / jev-align *mechanism* / §93 /
+  jev-orderby-bench *six-gates* / §60 / JevBench v1.2
+  *board* / §78 / openJev-verdict *claim-audit* / §71 /
+  pngwn RESULTS / §46 / yuki-oshio/mini-jev *93.25%* / §103.
+  How-to-apply / mental models / architecture /
+  Harbor-jevals / toolbelt — not a thin Jev skill dump.
+  Backend-agnostic categorization/scoring/decision class.
+  Formal methods compose with scoring; a Noul is a SENSOR;
+  treating 77.0% as Harbor, 100% schema as correctness,
+  0.85 as 85%, TF-IDF ECE as beating Jev, softmax A/B/C
+  as a Noul, or ACT as a provider proof is soundness
+  theater. Ranking ≠ calibration theater is the
+  anti-pattern. Sixteen HIGH clusters / three themes:
+  **Measurement / benches / calibration PRIMARY**
+  ([ywchiu/jev_benchmark](https://github.com/ywchiu/jev_benchmark)
+  ywchiu/jev_benchmark ≠ Running-Dolphins/jev-bench ≠ Praveenrajus/jev-bench;
+  Gemma 4 31B 77.0% / Jev 1.13.0 61.4% / Laya 322M 0.0%;
+  restriction state 95.0% against 84.4%; None of the systems are particularly good at knowing when to stop and ask;
+  They skip the question and call a tool directly; 100% schema pass; six-field joint 48.8% vs 72.8%;
+  GitHub license null; **0★**; HEAD `c0df647c`; README SHA `eb47c118`; size **0** WITH CONTENTS);
+  ([siren2345/jev-single-decode-transformers](https://github.com/siren2345/jev-single-decode-transformers)
+  siren2345/jev-single-decode-transformers ≠ siren2345/jev-single-decode;
+  Split Transformers experiment from llama.cpp runtime;
+  Python MIT LICENSE SHA `3551844d`; **0★**; HEAD `2aa5fea7`; README SHA `65ba3335`; size **0** WITH CONTENTS);
+  ([tanayvasishtha/jev-lab](https://github.com/tanayvasishtha/jev-lab)
+  tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab;
+  Four experiments stress-testing TypeSafe's Jev: calibration, bundle bias, label bias, and ensembling;
+  second pass must be $0.00 from cache; The pages never call Jev;
+  **0★**; HEAD `d9393730`; README SHA `33bc46e3`; size **43**);
+  (hfdataset:Praveenrajus/jev-bench 22 configs · 166,054 rows · 4 calibration-gold; sha a39eba3f);
+  (hfdataset:pngwn/open-jev-laya-bench pngwn/open-jev-laya-bench README 404; sha 9f69c742 likes 2);
+  (hfdataset:reachjalil/jevlogs-log-triage-benchmark
+  HDFS 0.9933 (745/750) / retain 0.0084; BGL ERROR/FATAL protection 1.0000;
+  2,479 / 2,500 HDFS uncertain; cache hit 0.9648 (2412/2500); $0.153936 estimated;
+  E2 recomputes from saved probabilities; sha `4c80b79c`);
+  (hfspace:BunsDev/laya-calibration-lab Space sha eda59e0a;
+  MASSIVE English 0.783 / Khmer 0.033 / Hindi 0.133; 40–48 rows too small to ship T;
+  T never changes argmax);
+  (hfdataset:Mikhail/mini-jev-runs 27 900 schema-driven decisions;
+  13 600 / 13 600 questions; candidate mass min 0.99999624; sha `8f84bb1a`);
+  **open-weight / theory / RLCD / replicas**
+  ([Heman10x-NGU/Verdict-open-jev](https://github.com/Heman10x-NGU/Verdict-open-jev)
+  Heman10x-NGU/Verdict-open-jev ≠ Heman10x-NGU/openJev-verdict-2.0;
+  TF-IDF + LogReg ECE 0.0207 vs Jev 0.1440; Verdict-open-jev 48.07% vs Jev 90.80%;
+  abstention combined recall 10.00%; p50 35.58 ms; K=25 (maximum capacity) 72.00%;
+  0.85 coverage 84.60% selective risk 1.18%;
+  Python SPDX NOASSERTION LICENSE SHA `84d35485`; **33★**; HEAD `643fa478`; README SHA `b5571e20`; size **6709**);
+  ([Mintzs/jevify](https://github.com/Mintzs/jevify)
+  26.1× faster than standard Qwen JSON generation;
+  Jevify 90.0% / 167 ms CUDA graphs disabled;
+  **3★**; HEAD `20c112e3`; README SHA `77126815`; size **3086**);
+  ([arnabgho/rlcd-lite](https://github.com/arnabgho/rlcd-lite)
+  Finding 1: Brier on stated confidence alone is a trap;
+  grpo_rlcr 0.78 / ECE 0.084; reliability 0.007 but resolution 0.000;
+  Python Apache-2.0 LICENSE SHA `d6456956`; **1★**; HEAD `b0f981fa`; README SHA `560f24e5`; size **602**);
+  (hfdataset:SargeDev/jev-distill-corpus Student B MAE 0.148 / Pearson 0.836 / 86.0%; sha `ebb133f0`);
+  ([altryne/jevify](https://github.com/altryne/jevify)
+  altryne/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify;
+  Find where Jev belongs. Design the questions. Measure the difference;
+  TypeScript MIT LICENSE SHA `d66fef3a`; **13★**; HEAD `9b50ba13`; README SHA `9a4ec045`; size **48**);
+  **skills / DecisionOps / applied**
+  ([erayyilmmaz/jev-decisionops](https://github.com/erayyilmmaz/jev-decisionops)
+  ACT / REVIEW / FALLBACK; A provider failure, timeout, malformed output, or missing answer is **not** a policy outcome;
+  confidence is descriptive provider output, not a substitute for probability;
+  Quality denominators include only valid scored answers;
+  an exact halfway tie chooses the lower level;
+  **0★**; HEAD `9e061e84`; README SHA `331a3301`; size **67**);
+  ([aiwithenoch/Jev-Skill](https://github.com/aiwithenoch/Jev-Skill)
+  aiwithenoch/Jev-Skill ≠ simplosophy/jev-skill ≠ laguagu/jev-skills;
+  The local path does not claim to turn a smaller checkpoint into Jev;
+  Low support becomes decision: "review"; MIT-0 SPDX NOASSERTION LICENSE SHA `f6bbe085`;
+  **0★**; HEAD `f0cf6d6e`; README SHA `2aae6d3c`; size **42**);
+  ([simplosophy/jev-skill](https://github.com/simplosophy/jev-skill)
+  current-llm; 结构兼容，不是 Jev 模型能力;
+  Python MIT LICENSE SHA `036a757d`; **0★**; HEAD `5cba50e7`; README SHA `5fa4f079`; size **0** WITH CONTENTS).
+  TypeAR-AI/TypeAR 301 → TypeLLM/TypeLLM; TypeLLM/TypeLLM 16★;
+  SemIf 2217★ (+10 vs §111 2207);
+  jevlike 1044★ (+1 vs 1043);
+  AnotiaWang 98★ (+1 vs 97);
+  yibie/awesome-jev 514★ (+8 vs 506);
+  Laya likes 843 (was 822);
+  tracker likes 66 (+2 vs 64);
+  lastModified UNCHANGED `2026-09-20T04:29:16.000Z`;
+  Laya present; Blackwood ABSENT; Archer still promised_not_landed.
+  0★ HIGH still got a real card. Soft Noul ≠ hard safety.
+  `invented_signal: false`.
+  Hourly 0743 uniqueness lock: Heman10x-NGU/Verdict-open-jev ≠ Heman10x-NGU/openJev-verdict-2.0; TF-IDF + LogReg ECE 0.0207 vs Jev 0.1440; Verdict-open-jev 48.07% vs Jev 90.80%; abstention combined recall 10.00%; p50 35.58 ms; K=25 (maximum capacity) 72.00%; 0.85 coverage 84.60% selective risk 1.18%; 26.1× faster than standard Qwen JSON generation; Jevify 90.0% / 167 ms CUDA graphs disabled; Finding 1: Brier on stated confidence alone is a trap; grpo_rlcr 0.78 / ECE 0.084; reliability 0.007 but resolution 0.000; 27 900 schema-driven decisions; 13 600 / 13 600 questions; candidate mass min 0.99999624; 22 configs · 166,054 rows · 4 calibration-gold; sha a39eba3f; Student B MAE 0.148 / Pearson 0.836 / 86.0%; pngwn/open-jev-laya-bench README 404; sha 9f69c742 likes 2; HDFS 0.9933 (745/750) / retain 0.0084; BGL ERROR/FATAL protection 1.0000; 2,479 / 2,500 HDFS uncertain; cache hit 0.9648 (2412/2500); $0.153936 estimated; E2 recomputes from saved probabilities; Space sha eda59e0a; MASSIVE English 0.783 / Khmer 0.033 / Hindi 0.133; 40–48 rows too small to ship T; T never changes argmax; siren2345/jev-single-decode-transformers ≠ siren2345/jev-single-decode; Split Transformers experiment from llama.cpp runtime; tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab; Four experiments stress-testing TypeSafe's Jev: calibration, bundle bias, label bias, and ensembling; second pass must be $0.00 from cache; The pages never call Jev; Gemma 4 31B 77.0% / Jev 1.13.0 61.4% / Laya 322M 0.0%; restriction state 95.0% against 84.4%; None of the systems are particularly good at knowing when to stop and ask; They skip the question and call a tool directly; 100% schema pass; six-field joint 48.8% vs 72.8%; ywchiu/jev_benchmark ≠ Running-Dolphins/jev-bench ≠ Praveenrajus/jev-bench; ACT / REVIEW / FALLBACK; A provider failure, timeout, malformed output, or missing answer is **not** a policy outcome; confidence is descriptive provider output, not a substitute for probability; Quality denominators include only valid scored answers; an exact halfway tie chooses the lower level; aiwithenoch/Jev-Skill ≠ simplosophy/jev-skill ≠ laguagu/jev-skills; The local path does not claim to turn a smaller checkpoint into Jev; Low support becomes decision: "review"; MIT-0 SPDX NOASSERTION; current-llm; 结构兼容，不是 Jev 模型能力; altryne/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify; Find where Jev belongs. Design the questions. Measure the difference; TypeAR-AI/TypeAR 301 → TypeLLM/TypeLLM; TypeLLM/TypeLLM 16★; SemIf 2217★ (+10 vs §111 2207); jevlike 1044★ (+1 vs 1043); AnotiaWang 98★ (+1 vs 97); yibie/awesome-jev 514★ (+8 vs 506); Laya likes 843 (was 822); tracker likes 66 (+2 vs 64); lastModified UNCHANGED `2026-09-20T04:29:16.000Z`; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29
+
 - Hourly 0646 HIGH (`research/notes.md` §111): **Skip
   Archer rewrite.** Docs-only on a **fresh PR off main**.
   **HARD RULE:** do not reopen or amend PR #23 or #24 or #25
