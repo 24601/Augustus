@@ -2204,7 +2204,7 @@
   +15 vs §104 **2047**). jevlike **1022★** **flat**.
   TypeAR **12★** **flat**. AnotiaWang **92★** **flat**.
   yibie/awesome-jev **443★** **flat**. Laya Hub likes
-  **697** (was **690** at `0558f7d`). Qwen3.8-27B likes
+  **700** (was **690** at `0558f7d`). Qwen3.8-27B likes
   **15795** (was **15794**) ≠ Archer. Tracker likes **58**
   (+2 vs §104 **56**) / lastModified
   `2026-09-20T04:29:16.000Z` **UNCHANGED**. Blackwood likes
