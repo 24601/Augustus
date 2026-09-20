@@ -29,7 +29,7 @@ Merged #35 owns §114 / 289–302 / #97. Merged #36 owns §115 /
 
 - **SemIf densify (PRIMARY, `notes.md` §117).** [TheoLeeCJ/SemIf](https://github.com/TheoLeeCJ/SemIf)
   MIT; homepage openjev.com; default **master**; live REST
-  **2275★** / **140** forks; HEAD `ca3ba65f1429` (Tolerate float
+  **2282★** / **140** forks; HEAD `ca3ba65f1429` (Tolerate float
   roundoff in MLX evidence verification, 2026-09-19). SemIf was
   formerly OpenJev; independent; not affiliated with Jev or
   TypeSafe. Interface pattern reproduction with open models;
