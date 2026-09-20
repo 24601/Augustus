@@ -8,8 +8,12 @@ Fragments scattered across files do not count.
 
 Also: YAML-parse SKILL.md frontmatter; notes.md owns §114, §115, §116,
 §117, and §118; composition items 289–316, 322–329, and 330–336 exist;
-findings batches #97, #98, #99, #100, and #101 exist. Does not fetch the
-network. Does not treat a lock as a Harbor score.
+findings batches #97, #98, #99, #100, and #101 exist. CHANGELOG.md must
+not hold uniqueness dump walls (dumps live in changelog-hourly.md).
+README.md must not hold the 0743 dump wall. Pages greps stay in
+docs/index.md and docs/_layouts/default.html. The 0843 ecosystem blurb
+cites notes.md §114. Does not fetch the network. Does not treat a lock
+as a Harbor score.
 """
 
 from pathlib import Path
@@ -48,7 +52,7 @@ UNIQ_0843 = (
     "Laya likes 861 (was 822); tracker likes 66 (+2 vs 64) lastModified UNCHANGED; "
     "Blackwood likes 2 gated manual; Archer still promised_not_landed; "
     "Hub archerhume/4rcherhume HTTP 401; "
-    "do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33; notes.md §114"
+    "do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35; notes.md §114"
 )
 
 UNIQ_0915 = (
@@ -249,6 +253,34 @@ def main() -> int:
             ):
                 if frag not in proto_line:
                     failed.append(f"SKILL.md protocol missing {frag!r}")
+    changelog = (ROOT / "CHANGELOG.md").read_text(encoding="utf-8")
+    for name, lock in (
+        ("0843", UNIQ_0843),
+        ("0915", UNIQ_0915),
+        ("jcr", UNIQ_JCR),
+        ("0922", UNIQ_0922),
+        ("0940", UNIQ_0940),
+    ):
+        if lock in changelog:
+            failed.append(
+                f"CHANGELOG.md holds {name} uniqueness dump "
+                "(v0.4.0: dumps live in changelog-hourly.md)"
+            )
+    if "Hourly 0743 uniqueness lock:" in changelog:
+        failed.append("CHANGELOG.md holds 0743 uniqueness dump")
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    if "Hourly 0743 uniqueness lock:" in readme:
+        failed.append("README.md holds 0743 uniqueness dump (#33 map + later lock lines)")
+    index = (ROOT / "docs/index.md").read_text(encoding="utf-8")
+    for s in ("TypeSafe Jev Choice/Score/Noul", "Install the skill"):
+        if s not in index:
+            failed.append(f"docs/index.md missing Pages gate {s!r}")
+    layout = (ROOT / "docs/_layouts/default.html").read_text(encoding="utf-8")
+    if "LICENSE" not in layout:
+        failed.append("docs/_layouts/default.html missing LICENSE (Pages gate after #34)")
+    eco = (ROOT / "docs/ecosystem.md").read_text(encoding="utf-8")
+    if "decision-circuits tutorial. `notes.md` §114." not in eco:
+        failed.append("docs/ecosystem.md 0843 blurb must cite notes.md §114")
     if failed:
         print("uniqueness-gate FAIL")
         for line in failed:

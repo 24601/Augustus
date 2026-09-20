@@ -16,85 +16,12 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
-User-provided 0922 HIGH (`research/notes.md` §117 / composition
-items 330–336 / findings batch #100). SemIf rename + MLX +
-accuracy-ladder densify onto latest main after merged **#38**
-(jcr / §116). Does **not** bump the 0.4.0 pin.
-Do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#38.
-Do not push onto open #39/#40. Merged #38 owns §116 / 309–316 / #99.
-Merged #35 owns §114 / 289–302 / #97. Merged #36 owns §115 /
-303–308 / #98 — leave them alone. Open #40 claims §118 / 322–329 / #101.
-
-### Added
-
-- **SemIf densify (PRIMARY, `notes.md` §117).** [TheoLeeCJ/SemIf](https://github.com/TheoLeeCJ/SemIf)
-  MIT; homepage openjev.com; default **master**; live REST
-  **2282★** / **140** forks; HEAD `ca3ba65f1429` (Tolerate float
-  roundoff in MLX evidence verification, 2026-09-19). SemIf was
-  formerly OpenJev; independent; not affiliated with Jev or
-  TypeSafe. Interface pattern reproduction with open models;
-  does not reproduce Jev undisclosed model/training. Direct option
-  logits; 0 output tokens; shared-state parallel; MLX backend
-  (`--backend mlx`). Speed *theirs* Qwen3.5-4B 3090: direct
-  1.023s vs AR JSON 5.332s (**5.21×**); argmax agree 18/21
-  (systems comparison ≠ semantic equivalence). Parallel suffixes
-  20.03 dec/s on 777. Browser ladder *theirs*: authored BA 0.813,
-  pert 0.766, TypeSafe subset 0.845 vs Published Jev 0.883
-  (102 across 20 cases). Softmax over options ≠ calibrated Noul;
-  wire/agreement ≠ replica. SemIf ≠ kw2828/OpenJev playground ≠
-  zhihz/openjev ≠ apiplant/semif-rs ≠ dddanielliu/semif-serve.
-  Rename is densify not a second census. JevBench 74.6 is §78
-  not this ladder. Skip Archer rewrite. Quote *theirs*.
-  `invented_signal: false`. Composition items 330–336 / batch #100.
-  Uniqueness dump in [`research/changelog-hourly.md`](research/changelog-hourly.md).
-
-
-Hourly 0843 HIGH (`research/notes.md` §114 / composition
-items 289–302 / findings batch #97) plus merged #36 NanoJev
-(`research/notes.md` §115 / items 303–308 / batch #98) plus
-merged #38 NiazMorshed2007/jcr (`research/notes.md`
-§116 / composition items 309–316 / findings batch #99) plus
-user-provided HIGH alexwestco/llm-to-jev (`research/notes.md`
-§118 / composition items 322–329 / findings batch #101). Does
-**not** bump the 0.4.0 pin. Do not reopen or amend PR #23–#38.
-Merged #37 owns §117 / 330–336 / #100. Open #39 is §114 hygiene
-(do not reopen). Do not push onto open #39/#41.
-
-### Added
-
-- **NanoJev unified-games-v1 densify** —
-  TianyuCodings/NanoJev (Python MIT; **1289★** / **158**
-  forks / size **64035**; HEAD `618cea6d`; README SHA
-  `4190093c`). Quote *theirs*: A 0.6B parallel decision
-  model: states and questions in, complete probability
-  distributions out. Zero output-token decoding.
-  September 20, 2026 — One model, four games. ViZDoom
-  Basic 128/128 vs Jev 56/128; Predict Position 27/128
-  vs Jev 11/128; Maze 225 vs Jev 2,738; Snake 30 food /
-  256 steps; held-out Maze 4/10 Snake 8/8 Basic 128/128
-  Predict 27/128. Untuned Qwen3-0.6B baseline. 18,760
-  questions per variant; 16,333 ViZDoom; 896 Predict
-  Position expert episodes; hard_lr1e5; mix 1/3, 1/3,
-  1/6, 1/6. Hub C-Tianyu/NanoJev revision
-  unified-games-v1 likes 58; dataset likes 5. not
-  TypeSafe Jev; open replica / specialist gameplay S1.
-  caijinchun/nanojev-arena ≠ liao96312/jev-arena-nanojev
-  ≠ zwliJay/jev-forge ≠ NanoJev. local type boolean ≠
-  TypeSafe noul. Game success ≠ calibrated Noul. soft
-  scores ≠ hard gates. Demo HTTP 401. Quote *theirs*.
-  `invented_signal: false`.
-- Uniqueness dump for this fold lives in
-  [`research/changelog-hourly.md`](research/changelog-hourly.md).
-  User-provided 0915 uniqueness lock: TianyuCodings/NanoJev unified-games-v1 densify; A 0.6B parallel decision model: states and questions in, complete probability distributions out. Zero output-token decoding.; One model, four games; ViZDoom Basic 128/128 vs Jev 56/128; Predict Position 27/128 vs Jev 11/128; Maze 225 attempts vs Jev 2738; Snake 30 food / 256 steps; held-out Maze 4/10 Snake 8/8 Basic 128/128 Predict 27/128; Untuned Qwen3-0.6B baseline; 18,760 questions per variant; 16,333 ViZDoom; 896 Predict Position expert episodes; hard_lr1e5; mix weights 1/3, 1/3, 1/6, 1/6; Hub C-Tianyu/NanoJev revision unified-games-v1 likes 58; dataset C-Tianyu/NanoJev-Data likes 5; HEAD 618cea6d906d54e128360786d12f703fff2b1245; 1289★ / 158 forks / size 64035; README SHA 4190093c64ee75b26e9726daa3b00cbcf6d3157a; MIT; caijinchun/nanojev-arena ≠ liao96312/jev-arena-nanojev ≠ zwliJay/jev-forge ≠ NanoJev; not TypeSafe Jev; open replica / specialist gameplay S1; soft scores ≠ hard gates; Game success ≠ calibrated Noul; local type boolean ≠ TypeSafe noul; invented_signal false; do not reopen or amend PR #31/#32/#33/#35; notes.md §115
-
-
-User-provided 0940 HIGH (`research/notes.md` §118 /
-composition items 322–329 / findings batch #101). Does
-**not** bump the 0.4.0 pin. Rebased onto merged **#37**
-(SemIf / §117 / 330–336 / #100). Merged #36 owns §115 /
-items 303–308 / batch #98. Merged #38 owns §116 /
-309–316 / #99. Do **not** push onto open #39/#41.
-Do not reopen #39.
+Merged after v0.4.0: 0843 (§114 / 289–302 / #97), NanoJev (§115 /
+303–308 / #98), jcr (§116 / 309–316 / #99), SemIf (§117 / 330–336 /
+#100), llm-to-jev (§118 / 322–329 / #101), plus this hygiene pass.
+Does **not** bump the 0.4.0 pin. Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#40. Do not push onto open #41.
 
 ### Added
 
@@ -106,77 +33,57 @@ Do not reopen #39.
   convertibility; prose stays with the LLM. Heuristic conversion ≠
   calibrated Noul. Companion to the decision-design card +
   validation gate. Composition items 322–329 / batch #101.
-  **HARD RULE:** do not reopen or amend PR #23–#38. Merged #36
-  owns §115. Merged #38 owns §116. Merged #37 owns §117.
-  Do not push onto open #39/#41. Does **not** bump 0.4.0.
-
-Hourly 0743 HIGH (`research/notes.md` §113 / composition
-items 273–288 / findings batch #96). Does **not** bump
-the 0.4.0 pin. Do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33.
-
-### Added
-
-- **Hourly 0843 HIGH (`notes.md` §114).** Measurement / judgment fold
-  off `main` after v0.4.0. PRIMARY: pretrained Qwen2.5 base ECE already
-  low; instruct-tuning wrecks honesty (acc flat, mean conf 74.1%→96.7%).
-  Equal-width ECE ≠ quantile ECE (0.113 vs 0.076 *theirs*). Calibration
-  does not compose; hop-ECE is permutation-invariant (soundness theater
-  as a trajectory audit); Deferred Crispification; 25–60× headline
-  withdrawn. Hysteresis `{enter:0.8, exit:0.6}` is policy attached to a
-  probability, not a model property. Ranking ≠ calibration (BANKING77
-  BERT-Base 93.02 is a supervised reference, not zero-shot).
-  g0runmezadam/what-is-jev **is** tunahansahin897/what-is-jev (rename).
-  Qwen2.5 / Qwen 3.8 / Qwen/Qwen3.8-27B ≠ Archer. Archer still
-  promised_not_landed. Evaluator: equal-width vs quantile ECE, hysteresis,
-  ranking≠calibration, hop-ECE invariance, cost-optimal threshold.
-  uniqueness_gate.py. Composition items 289–302 / batch #97.
-  **HARD RULE:** do not reopen or amend PR #23–#33. Merged #31 owns
-  `notes.md` §113 / items 273–288 / batch #96 — leave it alone.
-- Uniqueness lock archive: `research/changelog-hourly.md` (this hour's
-  lock is there; this file stays scannable).
-
-- User-provided HIGH NiazMorshed2007/jcr
-  (`research/notes.md` §116): **Skip Archer rewrite.**
-  Docs-only, rebased onto merged #35 (`0189825`).
-  **HARD RULE:** do not reopen or amend PR #23–#35.
-  Merged #36 owns §115 / 303–308 / #98; open #37 owns
-  §117 / 315–321 / #100 (item overlap 315–316 is
-  #37's remap). This fold keeps §116 / items
-  309–316 / batch #99. Quote *theirs*. Jev Capability
-  Resolver: one tool, nested capability tree, returns
-  context, **does not execute**. skills vs capabilities.
-  0.6 band is application policy. routing ≠ permission.
-  docs ≠ authority to run. sol-vs-opus5-20 lookup+explain
-  only; n=1; wall-time mixed; Not Harbor task-execution.
-  Live REST: **4★**; HEAD `138b3832`; README SHA
-  `2a49dbc1`; size **14850**. `invented_signal: false`.
-  Uniqueness dump in `research/changelog-hourly.md`.
+- **SemIf densify (PRIMARY, `notes.md` §117).** [TheoLeeCJ/SemIf](https://github.com/TheoLeeCJ/SemIf)
+  MIT; homepage openjev.com; default **master**; live REST
+  **2282★** / **140** forks; HEAD `ca3ba65f1429`. SemIf was
+  formerly OpenJev; independent; not affiliated with Jev or
+  TypeSafe. Direct option logits; 0 output tokens; MLX backend
+  (`--backend mlx`). Speed *theirs* Qwen3.5-4B 3090: direct
+  1.023s vs AR JSON 5.332s (**5.21×**); argmax agree 18/21
+  (systems comparison ≠ semantic equivalence). Browser ladder
+  authored BA 0.813, pert 0.766, TypeSafe subset 0.845 vs
+  Published Jev 0.883 *theirs*. Softmax over options ≠ calibrated
+  Noul. Rename is densify not a second census. JevBench 74.6 is
+  §78 not this ladder. Composition items 330–336 / batch #100.
+- **NiazMorshed2007/jcr (`notes.md` §116).** Capability-tree
+  lookup returns context, **does not execute**. skills vs
+  capabilities. 0.6 band is application policy. routing ≠
+  permission. docs ≠ authority to run. sol-vs-opus5-20
+  lookup+explain only; n=1; wall-time mixed; Not Harbor
+  task-execution. Live REST **4★**; HEAD `138b3832`; size
+  **14850**. Composition items 309–316 / batch #99.
+- **NanoJev unified-games-v1 densify (`notes.md` §115).**
+  TianyuCodings/NanoJev (Python MIT; **1289★** / **158** forks;
+  HEAD `618cea6d`). Quote *theirs*: A 0.6B parallel decision
+  model; zero output-token decoding; one model, four games.
+  Game success ≠ calibrated Noul. not TypeSafe Jev. Composition
+  items 303–308 / batch #98.
+- **Hourly 0843 HIGH (`notes.md` §114).** Measurement / judgment
+  fold. PRIMARY: pretrained Qwen2.5 base ECE already low;
+  instruct-tuning wrecks honesty (acc flat, mean conf
+  74.1%→96.7%). Equal-width ECE ≠ quantile ECE (0.113 vs 0.076
+  *theirs*). Calibration does not compose; hop-ECE is
+  permutation-invariant (soundness theater as a trajectory
+  audit); Deferred Crispification; 25–60× headline withdrawn.
+  Hysteresis `{enter:0.8, exit:0.6}` is policy attached to a
+  probability. Ranking ≠ calibration. g0runmezadam/what-is-jev
+  **is** tunahansahin897/what-is-jev. Qwen2.5 / Qwen 3.8 /
+  Qwen/Qwen3.8-27B ≠ Archer. Archer still promised_not_landed.
+  Composition items 289–302 / batch #97.
+- **Hourly 0743 HIGH (`notes.md` §113).** Harbor-jevals PRIMARY
+  (ywchiu/jev_benchmark). Verdict-open-jev linear ECE floor ≠
+  TypeSafe replica. DecisionOps ACT / REVIEW / FALLBACK
+  (provider failure is **not** a policy outcome). Lock dump:
+  [`research/changelog-hourly.md`](research/changelog-hourly.md).
 
 ### Changed
 
-- `evaluate_decisions.py` reports equal-width and quantile ECE, AUC,
-  accuracy@0.5, and a cost-optimal threshold. Self-test covers ranking≠
-  calibration, hysteresis vs single 0.7, and hop-ECE permutation
-  invariance.
-
-### Added
-
-- **Harbor-jevals PRIMARY** — ywchiu/jev_benchmark routing
-  across a conversation (Gemma 4 31B 77.0% / Jev 1.13.0
-  61.4% / Laya 322M 0.0%; restriction state 95.0% against
-  84.4%; 100% schema pass / six-field joint 48.8% vs 72.8%
-  in `results/summary.md`, *theirs*). ≠ Running-Dolphins /
-  Praveenrajus. Verdict-open-jev linear ECE floor ≠ TypeSafe
-  replica. DecisionOps ACT / REVIEW / FALLBACK (provider
-  failure is **not** a policy outcome). Mintzs/rlcd-lite
-  (Brier on stated confidence alone is a trap).
-  altryne/jevify ≠ Mintzs. aiwithenoch/Jev-Skill ≠
-  simplosophy/jev-skill. Qwen3.8-27B ≠ Archer. Soft Noul ≠
-  hard gate. Skip Archer rewrite. Quote *theirs*.
-  `invented_signal: false`.
-- Uniqueness dump for this fold lives in
-  [`research/changelog-hourly.md`](research/changelog-hourly.md).
-  Hourly 0743 uniqueness lock: Heman10x-NGU/Verdict-open-jev ≠ Heman10x-NGU/openJev-verdict-2.0; TF-IDF + LogReg ECE 0.0207 vs Jev 0.1440; Verdict-open-jev 48.07% vs Jev 90.80%; abstention combined recall 10.00%; p50 35.58 ms; K=25 (maximum capacity) 72.00%; 0.85 coverage 84.60% selective risk 1.18%; 26.1× faster than standard Qwen JSON generation; Jevify 90.0% / 167 ms CUDA graphs disabled; Finding 1: Brier on stated confidence alone is a trap; grpo_rlcr 0.78 / ECE 0.084; reliability 0.007 but resolution 0.000; 27 900 schema-driven decisions; 13 600 / 13 600 questions; candidate mass min 0.99999624; 22 configs · 166,054 rows · 4 calibration-gold; sha a39eba3f; Student B MAE 0.148 / Pearson 0.836 / 86.0%; pngwn/open-jev-laya-bench README 404; sha 9f69c742 likes 2; HDFS 0.9933 (745/750) / retain 0.0084; BGL ERROR/FATAL protection 1.0000; 2,479 / 2,500 HDFS uncertain; cache hit 0.9648 (2412/2500); $0.153936 estimated; E2 recomputes from saved probabilities; Space sha eda59e0a; MASSIVE English 0.783 / Khmer 0.033 / Hindi 0.133; 40–48 rows too small to ship T; T never changes argmax; siren2345/jev-single-decode-transformers ≠ siren2345/jev-single-decode; Split Transformers experiment from llama.cpp runtime; tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab; Four experiments stress-testing TypeSafe's Jev: calibration, bundle bias, label bias, and ensembling; second pass must be $0.00 from cache; The pages never call Jev; Gemma 4 31B 77.0% / Jev 1.13.0 61.4% / Laya 322M 0.0%; restriction state 95.0% against 84.4%; None of the systems are particularly good at knowing when to stop and ask; They skip the question and call a tool directly; 100% schema pass; six-field joint 48.8% vs 72.8%; ywchiu/jev_benchmark ≠ Running-Dolphins/jev-bench ≠ Praveenrajus/jev-bench; ACT / REVIEW / FALLBACK; A provider failure, timeout, malformed output, or missing answer is **not** a policy outcome; confidence is descriptive provider output, not a substitute for probability; Quality denominators include only valid scored answers; an exact halfway tie chooses the lower level; aiwithenoch/Jev-Skill ≠ simplosophy/jev-skill ≠ laguagu/jev-skills; The local path does not claim to turn a smaller checkpoint into Jev; Low support becomes decision: "review"; MIT-0 SPDX NOASSERTION; current-llm; 结构兼容，不是 Jev 模型能力; altryne/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify; Find where Jev belongs. Design the questions. Measure the difference; TypeAR-AI/TypeAR 301 → TypeLLM/TypeLLM; TypeLLM/TypeLLM 16★; SemIf 2241★ (+34 vs §111 2207); jevlike 1051★ (+8 vs 1043); AnotiaWang 98★ (+1 vs 97); yibie/awesome-jev 525★ (+19 vs 506); Laya likes 864 (was 822); tracker likes 67 (+3 vs 64); lastModified UNCHANGED `2026-09-20T04:29:16.000Z`; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33; notes.md §113
+- `evaluate_decisions.py` hop-ECE self-test covers reverse **and**
+  even/odd interleave (permutation invariance is not reverse-only).
+- `uniqueness_gate.py` checks Pages strings (`LICENSE` lives in
+  the #34 layout) and refuses CHANGELOG/README dump walls. The
+  0843 uniqueness lock includes merged #34 and #35.
+- `docs/ecosystem.md` 0843 blurb cites `notes.md` §114.
 
 ## [0.4.0] - 2026-09-20
 
