@@ -366,7 +366,8 @@ README architecture + economics, 2026-09-19 ~17:40):**
 yes/no per path + line range. jegrep calibrated
 path+range Nouls. no embeddings/index/daemon.
 ~$0.01–0.03 typical. agent --json. Ranking fail-open.
-No published Harbor. can1357/jegrep ≠ Bentlybro/jevgrep
+No published Harbor. OpenRouter/TypeSafe auto-failover
+is silent FALLBACK. can1357/jegrep ≠ Bentlybro/jevgrep
 ≠ uehaj/jev-semgrep. Do not copy 79% / `cargo`
 (`notes.md` §98).
 **Pointer path-then-window (Empirical as README,

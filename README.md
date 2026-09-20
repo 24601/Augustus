@@ -338,7 +338,7 @@ never launder a Noul as a proof.
   hourly 1541 (`notes.md` §95; orchestrator finish 0.95 / test 0.8 *theirs* sensors; replacement 20-case acc 0.90→1.00 F1 0.9028→1.0000 p50 675.66→253.13 ms cost 1.52× *theirs* failed cost gate; quarry 5 s fail-open / p&lt;0.5 drop / top 3; OpenRoboto apple-to-plate 113 cycles $0.018825 vs Astra $5.933624 *theirs* one seed-0 not a rate; one-dollar-tahoe ~74 demo no ASR/FPR; llama-jev 80 ms cold / 40 ms cache *theirs* softmax ≠ Noul),
   hourly 1639 (`notes.md` §96; OpenCode jev-pruner unit tests ≠ Harbor; do not copy tamaratran 24/24 / 83%; jev-webagent-bench empty stub),
   SIGNAL gliner-native-runtime (`notes.md` §97; README 0.99 fixture; no Harbor; default threshold 0.1 still soft),
-  hourly 1740 (`notes.md` §98; DGP 106 tests ≠ Harbor; mock resolver ≠ Jev; jegrep no published Harbor do not copy 79%; kev family OOD 0.76–0.77 vs Jev 0.86 *theirs*; replica honesty))
+  hourly 1740 (`notes.md` §98; DGP 106 tests ≠ Harbor; mock resolver ≠ Jev; jegrep no published Harbor do not copy 79%; OpenRouter/TypeSafe auto-failover is silent FALLBACK; kev family OOD 0.76–0.77 vs Jev 0.86 *theirs*; replica honesty; Score confidence is a stand-in))
 - `.agents/skills/augustus/references/boundary-audit.md` — existing-system
   insertion: fit test, opportunity map, smallest boundary, red flags
 - `.agents/skills/augustus/scripts/evaluate_decisions.py` — offline evaluator

@@ -820,10 +820,11 @@ Soft Noul ≠ hard safety: assessment p / mock outcomes /
 proves the *commit happened under the guards*, not that
 the assessor was correct. Hard-gating DGP as safety
 theater, hard-gating a miss as “the concept is absent,”
-or pasting OOD acc as “close enough to ship as Jev” is
-the same theater. rh-guard **does not own** these holes
-(protocol envelope / meaning-search ranking / replica
-honesty).
+mixing OpenRouter/TypeSafe auto-failover as one Noul
+(silent FALLBACK), or pasting OOD acc as “close enough
+to ship as Jev” is the same theater. rh-guard owns the
+silent-FALLBACK cousin. rh-guard **does not own**
+protocol envelope / ranking fail-open / replica honesty.
 
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a

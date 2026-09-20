@@ -744,6 +744,9 @@ Cascade default; `-t 0.4,0.2`; `--max-batch` ≤255.
 Ranking fail-open (false drop loses the file; keyword
 still wins exact strings). **No published Harbor
 needle/noise table** — do **not** copy jevgrep 79%.
+OpenRouter/TypeSafe auto-failover is silent FALLBACK,
+not the same Noul. Pin `--endpoint`. Auto-τ-lowering
+is not a 0.4 proof.
 can1357/jegrep ≠ Bentlybro/jevgrep ≠ uehaj/jev-semgrep.
 **≠** JevFind **≠** quarry **≠** jevex. Do not copy
 `cargo install` / OpenRouter keys (`notes.md` §98).
@@ -1299,7 +1302,9 @@ block-causal isolation.
 pointer/readout CE-trained.
 /v1/systemone drop-in.
 replica honesty.
-rh-guard **does not own** these holes (`notes.md` §98).
+rh-guard owns the silent-FALLBACK cousin; rh-guard
+**does not own** protocol envelope / ranking fail-open /
+replica honesty (`notes.md` §98).
 
 ## 6. Expensive observation router
 

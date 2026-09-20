@@ -2818,7 +2818,9 @@ re-fold §93 / §94 / §95 / §96 / §97. Skip Archer rewrite.
 Do **not** re-fold 1639 / gliner-native-runtime / 1541.
 No invented metrics. Hunches labeled. Quote READMEs.
 Soft Noul ≠ hard safety. Augustus owns placement.
-rh-guard does not own these holes.
+rh-guard owns the silent-FALLBACK cousin; rh-guard
+does not own protocol envelope / ranking fail-open /
+replica honesty.
 
 - **Decision Graph Protocol envelope.** numerous-com/dgp
   (Python MIT; **0★**; HEAD `a9cb3c4`; README SHA
@@ -2834,13 +2836,15 @@ rh-guard does not own these holes.
   calibrated path+range Nouls. no embeddings/index/daemon.
   ~$0.01–0.03 typical. agent --json. can1357/jegrep ≠
   Bentlybro/jevgrep ≠ uehaj/jev-semgrep. No published
-  Harbor. Do not copy 79%.
+  Harbor. Do not copy 79%. OpenRouter/TypeSafe
+  auto-failover is silent FALLBACK, not the same Noul.
 - **Archer-arch fidelity + measured calibration gap.**
   jaredpalmer/kev family (Apache-2.0; **507★**; HEAD
   `2e9069be`; README SHA `50f828ea`). Archer-arch
   fidelity. kev family OOD 0.76–0.77 vs Jev 0.86.
   block-causal isolation. pointer/readout CE-trained.
-  /v1/systemone drop-in. replica honesty. Do not rewrite
+  /v1/systemone drop-in. replica honesty. Score
+  confidence is a stand-in (*theirs*). Do not rewrite
   §45. Jev-omni owns the replica/code fold.
 
 Census not provided this hour except Archer tracker

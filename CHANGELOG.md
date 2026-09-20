@@ -1568,8 +1568,9 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   categorization/scoring/decision class. Formal methods
   compose with scoring; a Noul is a SENSOR; hard-gating DGP
   as safety theater, hard-gating 0.4/0.2 as “concept absent,”
-  or pasting kev OOD 0.76 as Jev-equivalent is soundness
-  theater. Three HIGH clusters: **Decision Graph Protocol
+  treating OpenRouter/TypeSafe auto-failover as one Noul
+  (silent FALLBACK), or pasting kev OOD 0.76 as
+  Jev-equivalent is soundness theater. Three HIGH clusters: **Decision Graph Protocol
   envelope**
   ([numerous-com/dgp](https://github.com/numerous-com/dgp)
   Decision Graph Protocol frame→assess→commit; app retains

@@ -795,6 +795,10 @@ replica honesty.
     no embeddings/index/daemon.
     ~$0.01–0.03 typical. agent --json.
     Ranking fail-open. No published Harbor.
+    OpenRouter/TypeSafe auto-failover is silent
+    FALLBACK, not the same Noul. Auto-τ-lowering
+    is not a 0.4 proof. beam “gate Noul” is ranking,
+    not a safety envelope.
     can1357/jegrep ≠ Bentlybro/jevgrep ≠ uehaj/jev-semgrep.
     Full cards: `applied-mappings.md` §4, `faq.md`.
 96. **Archer-arch fidelity + measured calibration
@@ -806,7 +810,9 @@ replica honesty.
     pointer/readout CE-trained. /v1/systemone drop-in.
     kev family OOD 0.76–0.77 vs Jev 0.86.
     replica honesty. Architecture confirmation ≠
-    Jev identity. Jev-omni owns the replica/code fold.
+    Jev identity. Score confidence is a stand-in
+    (*theirs*); wire ≠ TypeSafe confidence.
+    Jev-omni owns the replica/code fold.
     Full cards: `judgment-class.md`, `faq.md`.
 
 Hourly 1740 items 94–96 (`notes.md` §98). Do **not**

@@ -1126,6 +1126,9 @@ replica honesty.
    ~$0.01–0.03 typical.
    agent --json.
    SDT / cascade IR. Ranking fail-open.
+   OpenRouter/TypeSafe auto-failover is silent
+   FALLBACK, not the same Noul. Auto-τ-lowering
+   is not a 0.4 proof.
    can1357/jegrep ≠ Bentlybro/jevgrep ≠ uehaj/jev-semgrep.
 3. **Archer-arch fidelity + measured calibration
    gap** (secondary) —
@@ -1136,7 +1139,8 @@ replica honesty.
    kev family OOD 0.76–0.77 vs Jev 0.86.
    replica honesty.
    Runnable family ≠ Jev identity. A wire drop-in
-   is not a Noul. Do not rewrite §45.
+   is not a Noul. Score confidence is a stand-in
+   (*theirs*). Do not rewrite §45.
 
 Soft Noul ≠ hard safety. Assessment p / mock
 outcomes / 106 tests / 0.4/0.2 / $0.01–0.03 /
@@ -1144,9 +1148,10 @@ outcomes / 106 tests / 0.4/0.2 / $0.01–0.03 /
 are **sensors**. A receipt proves the commit
 happened under the guards, not that the assessor
 was correct. Hard-gating a miss as “the concept
-is absent,” or pasting OOD acc as “close enough
-to ship as Jev,” is the same theater as
-jev-gate §79.
+is absent,” treating OpenRouter/TypeSafe
+auto-failover as one Noul (silent FALLBACK),
+or pasting OOD acc as “close enough to ship as
+Jev,” is the same theater as jev-gate §79.
 
 Formal methods **compose** with scoring. A Noul
 is a SENSOR. Hard-gating DGP as safety theater

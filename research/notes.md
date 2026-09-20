@@ -17019,9 +17019,11 @@ categorization/scoring/decision class (Jev-like
 speed/econ), **not** a thin Jev-only dump. Design
 judgment, formal/semi-formal methods, decision
 theory, scoring class. Soft Noul ≠ hard safety.
-rh-guard **does not own** these holes (protocol
-envelope / meaning-search ranking / replica honesty).
-Augustus **owns placement**.
+rh-guard **does not own** protocol envelope /
+ranking fail-open / replica honesty. rh-guard
+**does own** the silent-FALLBACK cousin
+(OpenRouter/TypeSafe auto-failover). Augustus
+**owns placement**.
 
 Unique consecutive fragments (this hour):
 Decision Graph Protocol frame→assess→commit;
@@ -17241,11 +17243,23 @@ replica honesty.
      Respects `.gitignore`; no config file. Jev
      billed $0.042/MTok input, output free
      (vendor figure already in §1 — do not paste
-     as a new Harbor). OpenRouter preferred when
-     its key exists; failover on 401/402/403/408/
-     429/5xx. Do not copy `cargo install` /
-     `OPENROUTER_API_KEY` / `TYPESAFE_API_KEY` /
-     `~/.env`.
+     as a new Harbor). README *theirs*: OpenRouter
+     is preferred when its key exists; with both
+     keys set, 401/402/403/408/429/5xx, transport
+     failures, and invalid responses **automatically
+     fail over** to the other provider. That swap
+     still emits calibrated-looking path+range
+     Nouls — **silent FALLBACK**, same hole as
+     classifier-dev granite 0.546 vs advertised
+     ~0.800. Pin `--endpoint`; mixing OpenRouter
+     and TypeSafe as one Noul is soundness theater.
+     rh-guard owns the silent-FALLBACK cousin.
+     Auto-τ-lowering across rounds (README
+     troubleshooting *theirs*) is ranking fail-open,
+     not a 0.4 proof. beam “gate Noul” is still
+     ranking, not a safety envelope. Do not copy
+     `cargo install` / `OPENROUTER_API_KEY` /
+     `TYPESAFE_API_KEY` / `~/.env`.
 
      **Placement.** SDT / cascade IR over a live
      tree: describe the meaning, threshold
@@ -17271,8 +17285,11 @@ replica honesty.
      Soft Noul ≠ hard safety: 0.4/0.2 / cascade
      cutoff 0.45 / $0.01–0.03 are **sensors**.
      Hard-gating a miss as “the concept is absent”
-     is theater. Live tree means no stale index;
-     it also means you pay per search.
+     is theater. A later-round hit after auto-τ
+     lowering is not the 0.4 sensor. Provider
+     auto-failover is not the same Noul. Live
+     tree means no stale index; it also means
+     you pay per search.
 
 3. **Archer-arch fidelity + measured calibration
    gap** (secondary; not a thin SWE tutorial)
@@ -17340,7 +17357,11 @@ replica honesty.
      matters for placement** is OOD calibration
      and held-out rule reasoning, not wire shape.
      A `/v1/systemone` drop-in is not a Noul.
-     Mechanism tests falsify “questions leak”;
+     README Limitations *theirs*: “Score
+     confidence uses a stand-in formula.
+     TypeSafe has not published theirs.” Wire
+     shape ≠ TypeSafe confidence. Mechanism
+     tests falsify “questions leak”;
      they do not prove kev = Jev. Use as
      laptop-local development/eval and as a
      jevals/Harbor bake-off candidate; do not
@@ -17386,13 +17407,17 @@ proof the decision was right; copy mock tokens /
 into live Jev quality; collapse jegrep into
 jevgrep or jev-semgrep; paste jevgrep 79% onto
 jegrep; hard-gate 0.4/0.2 as “concept absent”;
-paste $0.01–0.03 as a class ceiling; copy
-`cargo install` / OpenRouter keys; rewrite §45
-as a train/serve how-to; treat kev OOD 0.76 as
-Jev-equivalent; treat isolation 4e-6 as identity
-with Jev; treat `/v1/systemone` wire as a
-calibrated Noul; treat Archer as landed; treat
-kev-8b or Qwen3.8-27B as the 27B drop.
+treat a later-round auto-τ hit as a 0.4 proof;
+treat OpenRouter/TypeSafe auto-failover as one
+Noul (silent FALLBACK); paste $0.01–0.03 as a
+class ceiling; copy `cargo install` / OpenRouter
+keys; rewrite §45 as a train/serve how-to;
+treat kev OOD 0.76 as Jev-equivalent; treat
+isolation 4e-6 as identity with Jev; treat
+`/v1/systemone` wire as a calibrated Noul;
+treat kev Score confidence as TypeSafe’s
+formula; treat Archer as landed; treat kev-8b
+or Qwen3.8-27B as the 27B drop.
 
 ### Census (not re-derived)
 

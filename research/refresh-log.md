@@ -1939,9 +1939,10 @@
   rewrite §45).
 - Formal compose: a Noul is a SENSOR. Hard-gating DGP
   as safety theater, hard-gating a miss as “the concept
-  is absent,” or pasting OOD acc as “close enough to
-  ship as Jev” is soundness theater. Soft Noul ≠ hard
-  safety.
+  is absent,” treating OpenRouter/TypeSafe auto-failover
+  as one Noul (silent FALLBACK), or pasting OOD acc as
+  “close enough to ship as Jev” is soundness theater.
+  Soft Noul ≠ hard safety.
 - Census not provided this hour except Archer tracker
   likes **51** (+1 vs last pin **50**); lastModified
   UNCHANGED 2026-09-19T18:37:18Z; Hub

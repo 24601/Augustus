@@ -241,7 +241,8 @@ request, and treat a stale pin as a prior, never a setting.
 | Hard-gate DGP as a safety proof / collapse ThreadDesk mocks into live Jev | Safety theater | hard-gating DGP as safety theater. assessment batching. Mock resolver ≠ Jev. `notes.md` §98 |
 | Collapse can1357/jegrep into jevgrep or jev-semgrep / paste 79% | Namesake lock | can1357/jegrep ≠ Bentlybro/jevgrep ≠ uehaj/jev-semgrep. jegrep calibrated path+range Nouls. no embeddings/index/daemon. `notes.md` §98 |
 | Hard-gate 0.4/0.2 as “concept absent” / paste $0.01–0.03 as a ceiling | Ranking fail-open; sensor | ~$0.01–0.03 typical. agent --json. Soft Noul ≠ hard safety. `notes.md` §98 |
-| Treat kev OOD 0.76 as Jev / isolation as identity / wire as a Noul | Replica honesty | Archer-arch fidelity. kev family OOD 0.76–0.77 vs Jev 0.86. block-causal isolation. pointer/readout CE-trained. /v1/systemone drop-in. replica honesty. Do not rewrite §45. `notes.md` §98 |
+| Treat OpenRouter/TypeSafe auto-failover as one Noul / later-round auto-τ as a 0.4 proof | Silent FALLBACK; sensor | Pin `--endpoint`. Auto-τ-lowering is ranking fail-open. rh-guard owns the cousin. `notes.md` §98 |
+| Treat kev OOD 0.76 as Jev / isolation as identity / wire as a Noul | Replica honesty | Archer-arch fidelity. kev family OOD 0.76–0.77 vs Jev 0.86. block-causal isolation. pointer/readout CE-trained. /v1/systemone drop-in. replica honesty. Score confidence is a stand-in (*theirs*). Do not rewrite §45. `notes.md` §98 |
 | Treat Archer as landed / kev-8b as the 27B drop | Watch | Tracker likes 51; lastModified UNCHANGED. Hub 401. `notes.md` §98 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 

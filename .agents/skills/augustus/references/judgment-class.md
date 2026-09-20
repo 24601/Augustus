@@ -1184,7 +1184,8 @@ Previews fail the ≥70% screen (best **0.67**). Locked-test
 OOD: kev-4b **0.794** / kev-8b **0.799** (single read).
 ECE OOD ~0.1. replica honesty: a `/v1/systemone`
 drop-in is not a Noul; architecture confirmation ≠
-Jev identity. Hub:
+Jev identity. Score confidence is a stand-in
+(*theirs*); TypeSafe has not published theirs. Hub:
 [`jaredpalmer/kev-4b`](https://huggingface.co/jaredpalmer/kev-4b),
 [`jaredpalmer/kev-8b`](https://huggingface.co/jaredpalmer/kev-8b),
 [`jaredpalmer/kev-0.6b`](https://huggingface.co/jaredpalmer/kev-0.6b).

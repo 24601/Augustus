@@ -2827,12 +2827,16 @@ No, no, and no. hard-gating DGP as safety theater. Treating a typed assessment p
 
 ## Is can1357/jegrep Bentlybro/jevgrep? Is it uehaj/jev-semgrep? Paste jevgrep 79% onto jegrep?
 
-No, no, and no. can1357/jegrep ≠ Bentlybro/jevgrep ≠ uehaj/jev-semgrep. jegrep calibrated path+range Nouls. no embeddings/index/daemon. ~$0.01–0.03 typical. agent --json. Rust MIT; **13★** this pass (watch ★12). No published Harbor needle/noise table. Ranking fail-open. **≠** JevFind **≠** quarry **≠** jevex. `notes.md` §98.
+No, no, and no. can1357/jegrep ≠ Bentlybro/jevgrep ≠ uehaj/jev-semgrep. jegrep calibrated path+range Nouls. no embeddings/index/daemon. ~$0.01–0.03 typical. agent --json. Rust MIT; **13★** this pass (watch ★12). No published Harbor needle/noise table. Ranking fail-open. OpenRouter/TypeSafe auto-failover is silent FALLBACK, not the same Noul. **≠** JevFind **≠** quarry **≠** jevex. `notes.md` §98.
 
 ## Hard-gate 0.4/0.2 as “the concept is absent”? Paste $0.01–0.03 as a class ceiling? Copy cargo install / OpenRouter keys?
 
-No, no, and no. Thresholds are sensors. Live tree means no stale index; it also means you pay per search. Soft Noul ≠ hard safety. Do not copy `cargo install` / `OPENROUTER_API_KEY` / `TYPESAFE_API_KEY` / `~/.env`. `notes.md` §98.
+No, no, and no. Thresholds are sensors. Auto-τ-lowering across rounds is ranking fail-open, not a 0.4 proof. Live tree means no stale index; it also means you pay per search. Soft Noul ≠ hard safety. Do not copy `cargo install` / `OPENROUTER_API_KEY` / `TYPESAFE_API_KEY` / `~/.env`. `notes.md` §98.
+
+## Treat OpenRouter/TypeSafe auto-failover as the same calibrated Noul? Treat a later-round hit as a 0.4 proof?
+
+No, and no. README *theirs*: with both keys set, 401/402/403/408/429/5xx, transport failures, and invalid responses automatically fail over. That swap still emits path+range Nouls — silent FALLBACK (classifier-dev cousin). Pin `--endpoint`. Mixing providers as one Noul is soundness theater. rh-guard owns the silent-FALLBACK cousin. `notes.md` §98.
 
 ## Is kev OOD 0.76 Jev-equivalent? Does isolation 4e-6 prove kev = Jev? Is `/v1/systemone` wire a calibrated Noul? Did Archer land?
 
-No, no, no, and no. Archer-arch fidelity. kev family OOD 0.76–0.77 vs Jev 0.86. block-causal isolation. pointer/readout CE-trained. /v1/systemone drop-in. replica honesty. Mechanism tests falsify “questions leak”; they do not prove identity. Do not rewrite §45. Jev-omni owns the replica/code fold. Archer still **NOT landed** (tracker likes **51**; lastModified UNCHANGED 2026-09-19T18:37:18Z; Hub `archerhume/4rcherhume` HTTP **401**). Do not treat kev-8b or Qwen3.8-27B as the 27B drop. Apache-2.0; **507★**. `notes.md` §98.
+No, no, no, and no. Archer-arch fidelity. kev family OOD 0.76–0.77 vs Jev 0.86. block-causal isolation. pointer/readout CE-trained. /v1/systemone drop-in. replica honesty. Mechanism tests falsify “questions leak”; they do not prove identity. Score confidence is a stand-in (*theirs*); TypeSafe has not published theirs. Do not rewrite §45. Jev-omni owns the replica/code fold. Archer still **NOT landed** (tracker likes **51**; lastModified UNCHANGED 2026-09-19T18:37:18Z; Hub `archerhume/4rcherhume` HTTP **401**). Do not treat kev-8b or Qwen3.8-27B as the 27B drop. Apache-2.0; **507★**. `notes.md` §98.

@@ -3606,7 +3606,7 @@
       "kind": "github",
       "title": "can1357/jegrep",
       "url": "https://github.com/can1357/jegrep",
-      "note": "Rust MIT; 13 stars this pass (watch 12). Created 2026-09-19T22:01:25Z. HEAD a280f14. README SHA 6f241390. size 511. v0.1.1. jegrep calibrated path+range Nouls. no embeddings/index/daemon. ~$0.01–0.03 typical. agent --json. can1357/jegrep ≠ Bentlybro/jevgrep ≠ uehaj/jev-semgrep. No published Harbor. Do not copy cargo/keys. notes.md §98."
+      "note": "Rust MIT; 13 stars this pass (watch 12). Created 2026-09-19T22:01:25Z. HEAD a280f14. README SHA 6f241390. size 511. v0.1.1. jegrep calibrated path+range Nouls. no embeddings/index/daemon. ~$0.01–0.03 typical. agent --json. can1357/jegrep ≠ Bentlybro/jevgrep ≠ uehaj/jev-semgrep. No published Harbor. OpenRouter/TypeSafe auto-failover is silent FALLBACK. Do not copy cargo/keys. notes.md §98."
     },
     {
       "kind": "huggingface",
