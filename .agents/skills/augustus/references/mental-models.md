@@ -2478,6 +2478,100 @@ tracker likes 64 flat, lastModified UNCHANGED;
 do not reopen or amend PR #23/#24/#25/#26/#27.
 
 
+
+## Apply 0646 (`notes.md` §111)
+
+Same pillars, twenty HIGH clusters / three themes
+(Measurement densifies PRIMARY for Harbor-jevals —
+calibration ≠ alpha, compaction 0.5 theater, SGR vs native,
+one-decode overconfidence; datasets/Spaces densify the scoring
+surface; applied/skills/economics across AI, SWE, business,
+knowledge work — not SWE-only). Do **not** re-fold
+0541 / §110 / 0439 / §109 / 0345 / §108 / 0243 / §107 / 0145 / §106 / 0042 / §105 /
+2340 / §104 / 2246 / §103 / 2145 / §102 / 2041 / §101 / 1943 / §100 /
+1843 / §99 / 1740 / §98 / 1639 / §96 / gliner-native-runtime / §97 /
+1541 / §95 / jev-align *mechanism* / §93 /
+jev-orderby-bench *six-gates* / §60 / JevBench v1.2
+*board* / §78 / openJev-verdict *claim-audit* / §71 /
+jev-judge-bench SLA-150 *contract* / §71 /
+yuki-oshio/mini-jev *93.25%* / §103. Fresh PR; never reopen
+merged #7–**#28**. do not reopen or amend PR #23 or #24
+or #25 or #26 or #27 or #28. Skip Archer rewrite (still
+**promised_not_landed**; Hub 401). 0★ HIGH still gets a
+real card. Size **0** WITH CONTENTS still gets a real card.
+Soft Noul ≠ hard safety. Formal methods **compose** with
+scoring; a Noul is a SENSOR. Jev is the hot exemplar, not
+the whole mandate. Mathematical / logical / algorithmic
+mental models across AI, SWE, business, knowledge work —
+not SWE-only. Treating ECE as alpha, 0.5 compaction as
+safety, 0.8 nlgrep as proof, or contract_passed as truth
+is the anti-pattern.
+
+1. **alakise/calibration-is-not-alpha** (PRIMARY) —
+   Calibration is not alpha. NO CURRENT ALPHA CANDIDATE.
+   ΔR² approximately +0.00084. Brier 0.2131387. ECE 0.0421875.
+   Adding Jev probability to deterministic volatility improved Brier by only 1.4058e-05.
+   Do **not** treat ECE as exploitable edge. Business / markets.
+2. **OrMizL/jev-compaction-bench** (PRIMARY) —
+   default 0.5 keeps zero non pinned. keepResult median 0.14 to 0.17.
+   keepCall median 0.28 to 0.35. usable range is about 0.10 to 0.25.
+   7.8% to 57.9%. judges results it never sees. task-finish eval not built yet.
+   $0.002 per compaction. Hard-gating 0.5 as safety is theater.
+3. **slavadubrov/sgr-judge-bench** (PRIMARY) —
+   slavadubrov/sgr-judge-bench ≠ slavadubrov/jev-judge-bench.
+   Jev 108/120 $0.083 0.34 s. Luna SGR 114/120.
+   paired Jev accuracy-difference intervals include zero.
+   not evidence of equivalence. GLM SGR 26/120 93 format failures.
+   Terra-planned Jev hybrid 55/120.
+4. **elyashium/atlas-replay-lab** —
+   rule-based by default, optionally Jev-backed. empty README.
+   missing key cannot break the experience.
+5. **siren2345/jev-single-decode** —
+   prefill plus exactly one decode. softmax over A/B/C ≠ Noul.
+   BBQ 9,053/10,000 (90.53%). ECE 0.0890. Mean confidence 0.9943.
+   overconfident. score and noul not implemented.
+6. **DGUI densify** — DGUI 12 rows (was 6). Schema, not a corpus.
+7. **INSTRUCT densify** — INSTRUCT 119 rows likes 2.
+8. **pngwn/open-jev Space** —
+   encode the state once, decide everything in parallel.
+   0.740 accuracy against a 0.508 majority. ECE 0.047.
+   fine-tune's advantage ends where its 384-token training data does.
+9. **jasonkneen/open-jev** — jasonkneen/open-jev ≠ pngwn/open-jev. same sha d41dc3cd.
+10. **IkerMoel Space densify** — packed one-forward Space of §49 GH.
+11. **mobarmg Space densify** — peaked ranking ≠ calibration.
+12. **jevlogs-triage-explorer** — Space does not call Jev.
+    recomputes routing from saved probabilities.
+13. **financial recorded lab** — fifty demos; recorded ≠ alpha.
+14. **mailordinal densify** — 200-case Jev 97.0% / 100.0% / 95.0% / MAE 9.22.
+    synthetic repository benchmark.
+15. **Pleo2/awesome-jev-agent-skills** — Jev evaluations are advisory.
+16. **YehuiTang0316/jev-nlgrep** —
+    YehuiTang0316/jev-nlgrep ≠ Bentlybro/jevgrep ≠ can1357/jegrep ≠ uehaj/jev-semgrep.
+    default threshold 0.8 still soft. 40-line windows cannot prove whole function.
+17. **dangquan1402/jev-extract** — token-native sequential start/end Choice.
+    Gemini/Haiku stubs not configured yet.
+18. **jyje/pilot-typesafeai-jev** — handful of hand-written examples, not a benchmark.
+    Jev judged exactly what it was given.
+19. **laguagu/jev-skills** —
+    laguagu/jev-skills ≠ laguagu/jev-evidence-lab ≠ Pleo2/awesome-jev-agent-skills.
+20. **lorensation/llm-cost-optimizer-jev** —
+    contract_passed is not a claim of guaranteed factual truth.
+    Wilson lower bound 0.85 floor. fixture mode no savings claim.
+
+Soft Noul ≠ hard safety: 0.0421875 / 0.5 / 0.8 / 0.85 / 90.53% / 97.0% are
+**sensors**. Treating ECE as alpha, 0.5 compaction as safety, 0.8 as 80%
+correctness, Wilson 0.85 as a proof, or contract_passed as truth is the
+same theater as jev-gate §79.
+
+Formal methods **compose** with scoring. A Noul is a SENSOR.
+Threshold / policy / replay / windows / token spans / Wilson floor /
+fees/slippage are exact work. Calibration is not alpha. Ranking ≠
+calibration theater.
+
+Unique consecutive fragments (this hour):
+Calibration is not alpha; NO CURRENT ALPHA CANDIDATE; ΔR² approximately +0.00084; Brier 0.2131387; ECE 0.0421875; Adding Jev probability to deterministic volatility improved Brier by only 1.4058e-05; default 0.5 keeps zero non pinned; keepResult median 0.14 to 0.17; keepCall median 0.28 to 0.35; usable range is about 0.10 to 0.25; 7.8% to 57.9%; judges results it never sees; task-finish eval not built yet; $0.002 per compaction; slavadubrov/sgr-judge-bench ≠ slavadubrov/jev-judge-bench; Jev 108/120 $0.083 0.34 s; Luna SGR 114/120; paired Jev accuracy-difference intervals include zero; not evidence of equivalence; GLM SGR 26/120 93 format failures; Terra-planned Jev hybrid 55/120; rule-based by default, optionally Jev-backed; empty README; missing key cannot break the experience; prefill plus exactly one decode; softmax over A/B/C ≠ Noul; BBQ 9,053/10,000 (90.53%); ECE 0.0890; Mean confidence 0.9943; overconfident; score and noul not implemented; DGUI 12 rows (was 6); INSTRUCT 119 rows likes 2; encode the state once, decide everything in parallel; 0.740 accuracy against a 0.508 majority; ECE 0.047; fine-tune's advantage ends where its 384-token training data does; jasonkneen/open-jev ≠ pngwn/open-jev; same sha d41dc3cd; Space does not call Jev; recomputes routing from saved probabilities; 200-case Jev 97.0% / 100.0% / 95.0% / MAE 9.22; synthetic repository benchmark; Jev evaluations are advisory; YehuiTang0316/jev-nlgrep ≠ Bentlybro/jevgrep ≠ can1357/jegrep ≠ uehaj/jev-semgrep; default threshold 0.8 still soft; 40-line windows cannot prove whole function; token-native sequential start/end Choice; Gemini/Haiku stubs not configured yet; handful of hand-written examples, not a benchmark; Jev judged exactly what it was given; laguagu/jev-skills ≠ laguagu/jev-evidence-lab ≠ Pleo2/awesome-jev-agent-skills; contract_passed is not a claim of guaranteed factual truth; Wilson lower bound 0.85 floor; fixture mode no savings claim; SemIf 2207★ (+21 vs §110 2186); jevlike 1043★ (+5 vs 1038); TypeAR 15★ (+1 vs 14); AnotiaWang 97★ (+1 vs 96); yibie/awesome-jev 506★ (+16 vs 490); Laya likes 822 (was 802); tracker likes 64 flat, lastModified UNCHANGED; do not reopen or amend PR #23/#24/#25/#26/#27/#28.
+
+
 ## Decision-design extras (any domain)
 
 ```text

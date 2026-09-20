@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-20T11:41Z",
+  "retrieved": "2026-09-20T12:46Z",
   "sources": [
     {
       "kind": "docs",
@@ -2118,7 +2118,7 @@
       "kind": "hf",
       "title": "ctaxnagomi/INSTRUCT_JEV",
       "url": "https://huggingface.co/datasets/ctaxnagomi/INSTRUCT_JEV",
-      "note": "MIT. lastModified 2026-09-19T05:06:29Z. 119 rows (47 choice / 51 noul / 21 score). Docs-derived instruct seed. MED. notes.md §63."
+      "note": "MIT. lastModified 2026-09-19T05:06:29Z. 119 rows (47 choice / 51 noul / 21 score). Docs-derived instruct seed. MED. notes.md §63. Densify hourly 0646. INSTRUCT 119 rows likes 2. sha b0a09278. notes.md §111."
     },
     {
       "kind": "github",
@@ -2406,7 +2406,7 @@
       "kind": "huggingface",
       "title": "ctaxnagomi/DGUI_HYPERMEM-JEV",
       "url": "https://huggingface.co/datasets/ctaxnagomi/DGUI_HYPERMEM-JEV",
-      "note": "HF MIT. 6-row flywheel (analyze 4 / rerank 2 / supersede 0). Sibling INSTRUCT_JEV. notes.md §69."
+      "note": "HF MIT. 6-row flywheel (analyze 4 / rerank 2 / supersede 0). Sibling INSTRUCT_JEV. notes.md §69. Densify hourly 0646. DGUI 12 rows (was 6). sha ab3d3529. lastModified 2026-09-20T11:17:43Z. Schema not a corpus. notes.md §111."
     },
     {
       "kind": "github",
@@ -2592,7 +2592,7 @@
       "kind": "github",
       "title": "Milo318/mailordinal",
       "url": "https://github.com/Milo318/mailordinal",
-      "note": "TypeScript MIT. Created 2026-09-19T13:05:04Z; 0 stars; size 0 lag. Decision-native inbox: nine typed signals -> 100-point policy. Humans own ambiguity. Cousin jav-email-cascade. notes.md §72."
+      "note": "TypeScript MIT. Created 2026-09-19T13:05:04Z; 0 stars; size 0 lag. Decision-native inbox: nine typed signals -> 100-point policy. Humans own ambiguity. Cousin jav-email-cascade. notes.md §72. Densify 200-case hourly 0646. TypeScript MIT LICENSE SHA 66faa16d; 0★; HEAD 19ea819d; README SHA a8df45fe; size 109. 200-case Jev 97.0% / 100.0% / 95.0% / MAE 9.22. synthetic repository benchmark. notes.md §111."
     },
     {
       "kind": "github",
@@ -2622,7 +2622,7 @@
       "kind": "hf",
       "title": "mobarmg/jev-schema-scorer",
       "url": "https://huggingface.co/spaces/mobarmg/jev-schema-scorer",
-      "note": "Hub Space for jev-schema-scorer-deberta-v3-large. Companion to Hub model; GitHub repo 404. notes.md §72."
+      "note": "Hub Space for jev-schema-scorer-deberta-v3-large. Companion to Hub model; GitHub repo 404. notes.md §72. Space densify of Hub §72. likes 0; sha 14d35d7e. peaked ranking ≠ calibration. notes.md §111."
     },
     {
       "kind": "github",
@@ -4567,6 +4567,108 @@
       "title": "202620325-spec/Jev-LLM",
       "url": "https://github.com/202620325-spec/Jev-LLM",
       "note": "Python MIT LICENSE SHA 5d699c97; 0★; HEAD da06b6d1; README SHA f371ba83; size 150. VERIFY acquires discriminating evidence, never same-pool confidence-only rescoring. fast/full/max are ceilings not sizes. Solar writes, Jev chooses NEXT ACTION. notes.md §110."
+    },
+    {
+      "kind": "notes",
+      "title": "Hourly 0646 HIGH uniqueness lock",
+      "url": "https://github.com/24601/Augustus/blob/main/research/notes.md",
+      "note": "Hourly 0646 uniqueness lock: Calibration is not alpha; NO CURRENT ALPHA CANDIDATE; ΔR² approximately +0.00084; Brier 0.2131387; ECE 0.0421875; Adding Jev probability to deterministic volatility improved Brier by only 1.4058e-05; default 0.5 keeps zero non pinned; keepResult median 0.14 to 0.17; keepCall median 0.28 to 0.35; usable range is about 0.10 to 0.25; 7.8% to 57.9%; judges results it never sees; task-finish eval not built yet; $0.002 per compaction; slavadubrov/sgr-judge-bench ≠ slavadubrov/jev-judge-bench; Jev 108/120 $0.083 0.34 s; Luna SGR 114/120; paired Jev accuracy-difference intervals include zero; not evidence of equivalence; GLM SGR 26/120 93 format failures; Terra-planned Jev hybrid 55/120; rule-based by default, optionally Jev-backed; empty README; missing key cannot break the experience; prefill plus exactly one decode; softmax over A/B/C ≠ Noul; BBQ 9,053/10,000 (90.53%); ECE 0.0890; Mean confidence 0.9943; overconfident; score and noul not implemented; DGUI 12 rows (was 6); INSTRUCT 119 rows likes 2; encode the state once, decide everything in parallel; 0.740 accuracy against a 0.508 majority; ECE 0.047; fine-tune's advantage ends where its 384-token training data does; jasonkneen/open-jev ≠ pngwn/open-jev; same sha d41dc3cd; Space does not call Jev; recomputes routing from saved probabilities; 200-case Jev 97.0% / 100.0% / 95.0% / MAE 9.22; synthetic repository benchmark; Jev evaluations are advisory; YehuiTang0316/jev-nlgrep ≠ Bentlybro/jevgrep ≠ can1357/jegrep ≠ uehaj/jev-semgrep; default threshold 0.8 still soft; 40-line windows cannot prove whole function; token-native sequential start/end Choice; Gemini/Haiku stubs not configured yet; handful of hand-written examples, not a benchmark; Jev judged exactly what it was given; laguagu/jev-skills ≠ laguagu/jev-evidence-lab ≠ Pleo2/awesome-jev-agent-skills; contract_passed is not a claim of guaranteed factual truth; Wilson lower bound 0.85 floor; fixture mode no savings claim; SemIf 2207★ (+21 vs §110 2186); jevlike 1043★ (+5 vs 1038); TypeAR 15★ (+1 vs 14); AnotiaWang 97★ (+1 vs 96); yibie/awesome-jev 506★ (+16 vs 490); Laya likes 822 (was 802); tracker likes 64 flat, lastModified UNCHANGED; do not reopen or amend PR #23/#24/#25/#26/#27/#28."
+    },
+    {
+      "kind": "github",
+      "title": "alakise/calibration-is-not-alpha",
+      "url": "https://github.com/alakise/calibration-is-not-alpha",
+      "note": "PRIMARY Harbor-jevals hourly 0646. Python MIT LICENSE SHA cbfc2daf; 0★; HEAD 064b75f5; README SHA 874ea57b; size 268. Calibration is not alpha. NO CURRENT ALPHA CANDIDATE. ΔR² approximately +0.00084. Brier 0.2131387. ECE 0.0421875. Adding Jev probability to deterministic volatility improved Brier by only 1.4058e-05. notes.md §111."
+    },
+    {
+      "kind": "github",
+      "title": "OrMizL/jev-compaction-bench",
+      "url": "https://github.com/OrMizL/jev-compaction-bench",
+      "note": "PRIMARY compaction theater hourly 0646. JavaScript MIT LICENSE SHA 3f4e7f2b; 0★; HEAD 92fd33e6; README SHA c7cd8b6e; size 35. default 0.5 keeps zero non pinned. keepResult median 0.14 to 0.17. keepCall median 0.28 to 0.35. usable range is about 0.10 to 0.25. 7.8% to 57.9%. judges results it never sees. task-finish eval not built yet. $0.002 per compaction. notes.md §111."
+    },
+    {
+      "kind": "github",
+      "title": "slavadubrov/sgr-judge-bench",
+      "url": "https://github.com/slavadubrov/sgr-judge-bench",
+      "note": "PRIMARY SGR vs native TabFact hourly 0646. Python SPDX NOASSERTION LICENSE SHA 690cf6b9; 0★; HEAD 5e142707; README SHA 8026cafa; size 0 WITH CONTENTS. slavadubrov/sgr-judge-bench ≠ slavadubrov/jev-judge-bench. Jev 108/120 $0.083 0.34 s. Luna SGR 114/120. paired Jev accuracy-difference intervals include zero. not evidence of equivalence. GLM SGR 26/120 93 format failures. Terra-planned Jev hybrid 55/120. notes.md §111."
+    },
+    {
+      "kind": "github",
+      "title": "elyashium/atlas-replay-lab",
+      "url": "https://github.com/elyashium/atlas-replay-lab",
+      "note": "JavaScript; GitHub license null; 0★; HEAD 9856ab9b; empty README; size 197. rule-based by default, optionally Jev-backed. missing key cannot break the experience. notes.md §111."
+    },
+    {
+      "kind": "github",
+      "title": "siren2345/jev-single-decode",
+      "url": "https://github.com/siren2345/jev-single-decode",
+      "note": "Python MIT LICENSE SHA 3551844d; 0★; HEAD 65df86a3; README SHA 51817d8c; size 432. prefill plus exactly one decode. softmax over A/B/C ≠ Noul. BBQ 9,053/10,000 (90.53%). ECE 0.0890. Mean confidence 0.9943. overconfident. score and noul not implemented. notes.md §111."
+    },
+    {
+      "kind": "huggingface-space",
+      "title": "pngwn/open-jev",
+      "url": "https://huggingface.co/spaces/pngwn/open-jev",
+      "note": "PRIMARY encode-once hourly 0646. likes 25; sha d41dc3cd. encode the state once, decide everything in parallel. 0.740 accuracy against a 0.508 majority. ECE 0.047. fine-tune's advantage ends where its 384-token training data does. notes.md §111."
+    },
+    {
+      "kind": "huggingface-space",
+      "title": "jasonkneen/open-jev",
+      "url": "https://huggingface.co/spaces/jasonkneen/open-jev",
+      "note": "Namesake lock hourly 0646. jasonkneen/open-jev ≠ pngwn/open-jev. same sha d41dc3cd. likes 0. notes.md §111."
+    },
+    {
+      "kind": "huggingface-space",
+      "title": "IkerMoel/open-alternative-jev",
+      "url": "https://huggingface.co/spaces/IkerMoel/open-alternative-jev",
+      "note": "Space densify of §49 GH. likes 0; sha 19b104c6. notes.md §111."
+    },
+    {
+      "kind": "huggingface-space",
+      "title": "reachjalil/jevlogs-triage-explorer",
+      "url": "https://huggingface.co/spaces/reachjalil/jevlogs-triage-explorer",
+      "note": "likes 0; sha dcb785ed. Space does not call Jev. recomputes routing from saved probabilities. notes.md §111."
+    },
+    {
+      "kind": "github",
+      "title": "IslamBaraka90/jev-typesafe-real-financial-use-cases",
+      "url": "https://github.com/IslamBaraka90/jev-typesafe-real-financial-use-cases",
+      "note": "JavaScript MIT LICENSE SHA caaa17a8; 0★; HEAD 9d2eb48c; README SHA 5329b92e; size 6168. Fifty recorded demos. Recorded ≠ alpha. Do not dump scoreboard.json. notes.md §111."
+    },
+    {
+      "kind": "github",
+      "title": "Pleo2/awesome-jev-agent-skills",
+      "url": "https://github.com/Pleo2/awesome-jev-agent-skills",
+      "note": "Python MIT LICENSE SHA 25d9aa30; 0★; HEAD 42e3d179; README SHA efbe7ccf; size 18. Jev evaluations are advisory. catalog ≠ endorsement. notes.md §111."
+    },
+    {
+      "kind": "github",
+      "title": "YehuiTang0316/jev-nlgrep",
+      "url": "https://github.com/YehuiTang0316/jev-nlgrep",
+      "note": "TypeScript MIT LICENSE SHA 17cdbc7e; 1★; HEAD ceec0d92; README SHA 49e98f18; size 6734. YehuiTang0316/jev-nlgrep ≠ Bentlybro/jevgrep ≠ can1357/jegrep ≠ uehaj/jev-semgrep. default threshold 0.8 still soft. 40-line windows cannot prove whole function. notes.md §111."
+    },
+    {
+      "kind": "github",
+      "title": "dangquan1402/jev-extract",
+      "url": "https://github.com/dangquan1402/jev-extract",
+      "note": "Python MIT LICENSE SHA d66f9c7a; 0★; HEAD 20c2f19f; README SHA 9561e53d; size 105. token-native sequential start/end Choice. Gemini/Haiku stubs not configured yet. notes.md §111."
+    },
+    {
+      "kind": "github",
+      "title": "jyje/pilot-typesafeai-jev",
+      "url": "https://github.com/jyje/pilot-typesafeai-jev",
+      "note": "Python MIT LICENSE SHA 08b2a315; 0★; HEAD cabd4778; README SHA 8d472372; size 245. handful of hand-written examples, not a benchmark. Jev judged exactly what it was given. notes.md §111."
+    },
+    {
+      "kind": "github",
+      "title": "laguagu/jev-skills",
+      "url": "https://github.com/laguagu/jev-skills",
+      "note": "MIT LICENSE SHA e5ede121; 0★; HEAD 871ec586; README SHA a315944d; size 36. laguagu/jev-skills ≠ laguagu/jev-evidence-lab ≠ Pleo2/awesome-jev-agent-skills. notes.md §111."
+    },
+    {
+      "kind": "github",
+      "title": "lorensation/llm-cost-optimizer-jev",
+      "url": "https://github.com/lorensation/llm-cost-optimizer-jev",
+      "note": "Python Apache-2.0 LICENSE SHA 261eeb9e; 0★; HEAD db200b7e; README SHA 6f2a595a; size 227. contract_passed is not a claim of guaranteed factual truth. Wilson lower bound 0.85 floor. fixture mode no savings claim. notes.md §111."
     }
   ]
 }
