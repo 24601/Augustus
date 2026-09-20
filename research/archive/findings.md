@@ -3111,6 +3111,34 @@ memories; (lw) memory-lease HIGH upgrade; (lx) jevlint
 rename; (ly) schema-compiler HIGH upgrade; (lz) ANE /
 local-logit / Pi-loop economics.
 
+
+## Batch #101 (2026-09-20 ~15:40 UTC / ~09:40 Boise) — user-provided HIGH alexwestco/llm-to-jev
+
+Note: `research/notes.md` §118. Docs/skill only on a fresh PR
+off latest `main` (`cursor/fold-llm-to-jev-onramp-59db`) after
+merged #35 (`0189825`, §114). **HARD RULE:** do not reopen or
+amend PR #23–#38. Do **not** push onto open #37/#39. Merged #36 owns §115. Merged #38 owns §116.
+This fold: §118 / items 322–329 / batch #101. Skip Archer.
+Quote READMEs. Soft Noul ≠ hard safety. Augustus owns
+placement. `invented_signal: false`.
+
+- **Prompt-compiler on-ramp (PRIMARY).** alexwestco/llm-to-jev
+  JavaScript MIT; GitHub id 1377308198; **2★**; size **29**;
+  HEAD `234058ab372d`; README SHA `43cd94fb`; LICENSE SHA
+  `5f334006`; compiler SHA `fdf235d0`. Turn decision-shaped
+  LLM prompts into proposed Jev primitives. This is a
+  conversion assistant, not an automatic guarantee of
+  equivalent behavior. The compiler uses deterministic
+  heuristics, not an LLM or evaluation model. suitability
+  strong/partial/not_a_fit; compatibility full/partial/none.
+  Score ranges such as 0 to 1 are translated into ordered
+  Jev criteria. Pages
+  https://alexwestco.github.io/llm-to-jev/ HTTP 200.
+  connect-src 'none'. The key is read from the process
+  environment and is never stored or printed.
+  alexwestco/llm-to-jev ≠ altryne/jevify ≠ ryana/jevify ≠
+  fidecastro/jevify ≠ Mintzs/jevify.
+
 ## Batch #97 (2026-09-20 ~14:43 UTC / ~08:43 Boise) — hourly 0843 HIGH measurement / judgment
 
 Hourly 0843 uniqueness lock: A hunch is a probability with a policy attached; { enter: 0.8, exit: 0.6 } is hysteresis; replay a policy change without inference; Decision models are providers, not the product; huncho ≠ Kungie/gut ≠ carldaws/hunch ≠ tpellet/hunch; pretrained Qwen2.5 base ECE 0.030 (0.5B) / 0.040 (7B); instruct 0.302 / 0.269; 70.9% → 70.0% mean conf 74.1% → 96.7%; temperature scaling still matches it in-distribution; No Jev API was called; Qwen2.5 ≠ Archer; Qwen/Qwen3.8-27B ≠ Archer; 学習済みモデル v0.1 は準備中です; bool AUROC 0.523; 先頭だと0件、末尾だと250件; 温度を渡さない場合、確率は較正されていません; このリポジトリには Jev を呼ぶコードが存在しません; g0runmezadam/what-is-jev IS tunahansahin897/what-is-jev (same GitHub id 1378007307); 947 repos scored; A 273 · B 302 · C 372; LLM rubric ≠ benches; Data as of 2026-09-20; HEAD 895b9498; README SHA 3ae98c56; 13 focused checks and one mutually exclusive outcome; Probabilities are advisory, not calibrated guarantees; omni-/ask-jev ≠ pedroknigge/mcp_jev; pd.cut bins by equal width while jeval bins by quantile; ECE 0.113 and ECE 0.076; jeval drift is not implemented yet; rlaope/jeval ≠ dayhaysoos/jevals; calibration does not compose; ECE has exactly zero statistical power to detect the failure mode that kills trajectories; 25–60× headline withdrawn; P(all-correct): 0.0071 vs 0.0001; TCE / AMS; Qwen 3.8 sparring ≠ Archer; Deferred Crispification; light_cutoff_applied_to_combination 0; recorded run, kinematic animation; BANKING77 Accuracy BERT-Base 93.02 Jev 79.90; Analyse jev calibration (NLL, ECE) backlog; BERT figures are published supervised references, not zero-shot; 档位措辞效应 分数极差中位 0.50、最大 1.32; 修好后对照组是 0.01; 不是 benchmark; 概率没做 calibration; ~1,430 API calls, about $0.15; xiaohuaxi/jev-study ≠ wjdjdakf17/jev-study ≠ baekenough/jev-study; AND: product (independence assumed and recorded in the trace); chat model's stated confidence is not calibrated; circuit-vl-4b ≠ Archer; Bring your own API key; vamsikrishna2421/jev-usecases ≠ whyashthakker/awesome-jev-use-cases; catalog ≠ endorsement; SemIf 2237★ (+30 vs §111 2207); jevlike 1049★ (+6 vs 1043); TypeLLM/TypeLLM 16★; AnotiaWang 98★; yibie/awesome-jev 520★ (+14 vs 506); Laya likes 861 (was 822); tracker likes 66 (+2 vs 64) lastModified UNCHANGED; Blackwood likes 2 gated manual; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33; notes.md §114
@@ -4422,3 +4450,5 @@ admission; (mf) typed control plane; (mg) scoring
 economics; (mh) pre-registered eval; (mi) BEAM class
 SDK.
 
+
+User-provided 0940 uniqueness lock: Turn decision-shaped LLM prompts into proposed Jev primitives; This is a conversion assistant, not an automatic guarantee of equivalent behavior; The compiler uses deterministic heuristics, not an LLM or evaluation model; It understands a deliberately small set of common prompt patterns; Generated instructions and criteria must be reviewed before production use; Score ranges such as 0 to 1 are translated into ordered Jev criteria; Prompts requiring open-ended prose are not a fit; suitability strong/partial/not_a_fit; compatibility full/partial/none; Writing new text stays with an LLM; Review the generated Score rubric; Jev scores ordered criteria, not an arbitrary 0-to-1 range; Everything runs locally in the browser; There is no framework, database, account, API, or server-side prompt processing; The key is read from the process environment and is never stored or printed; connect-src 'none'; alexwestco/llm-to-jev ≠ altryne/jevify ≠ ryana/jevify ≠ fidecastro/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify; HEAD 234058ab372d; README SHA 43cd94fb; LICENSE SHA 5f334006; compiler SHA fdf235d0; 2★; MIT; JavaScript; size 29; Pages https://alexwestco.github.io/llm-to-jev/; invented_signal false; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35; notes.md §118

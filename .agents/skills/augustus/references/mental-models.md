@@ -2903,6 +2903,50 @@ Soft Noul ≠ hard safety: 128/128 / 4/10 / 8/8 / 27/128
 are **gameplay sensors**. Treating them as Harbor or as
 calibrated Nouls is theater.
 
+
+## Apply 0940 (`notes.md` §118)
+
+Same pillars, user-linked HIGH: **migration / question-design
+on-ramp**. Mathematical / logical / algorithmic mental models
+for Jev-class categorization/scoring across AI / SWE /
+business / knowledge work / life — not SWE-only. Fresh PR
+off main after merged #35. Do **not** reopen or amend PR
+#23–#38. Do **not** push onto open #37/#39. Merged #36 owns §115. Merged #38 owns §116.
+Skip Archer rewrite (still **promised_not_landed**). Quote
+*theirs*. Soft Noul ≠ hard safety. Formal methods **compose**
+with scoring; a heuristic compile is a SENSOR of shape, not
+a proof of equivalent behavior.
+
+1. **On-ramp, not a replica** — Turn decision-shaped LLM
+   prompts into proposed Jev primitives. Finds where typed
+   judgment belongs inside existing LLM prompts. Companion
+   to altryne/jevify (find / design / measure) and to the
+   Augustus decision-design card. alexwestco/llm-to-jev ≠
+   altryne/jevify ≠ Mintzs/jevify.
+2. **Soft proposal ≠ production gate** — This is a conversion
+   assistant, not an automatic guarantee of equivalent
+   behavior. Generated instructions and criteria must be
+   reviewed before production use. A falsifying experiment
+   is still required.
+3. **Partial convertibility** — suitability
+   strong/partial/not_a_fit; compatibility full/partial/none.
+   Writing new text stays with an LLM. Place only bounded
+   decisions; keep generation with the writer.
+4. **Category error** — Prompts requiring open-ended prose
+   are not a fit. Not every prompt is a Jev candidate.
+   Forcing a Choice onto a welcome email is theater.
+5. **Heuristic ≠ calibrated Noul** — The compiler uses
+   deterministic heuristics, not an LLM or evaluation model.
+   Score ranges such as 0 to 1 are translated into ordered
+   Jev criteria *theirs*. Review the generated Score rubric;
+   Jev scores ordered criteria, not an arbitrary 0-to-1
+   range. Soft scores ≠ hard gates.
+
+Soft Noul ≠ hard safety: a proposed Choice/Score/Noul from
+this compiler is a **draft**. Treating `full` compatibility
+as Harbor, a 0–1 Score as a Noul, or exported SDK as
+equivalent behavior is soundness theater.
+
 ## Decision-design extras (any domain)
 
 ```text
@@ -2928,3 +2972,4 @@ Hourly 0843 uniqueness lock: A hunch is a probability with a policy attached; { 
 
 User-provided 0920 jcr uniqueness lock: NiazMorshed2007/jcr MIT; site https://jcr.niazmorshed.dev; topics ai-agents,jev,mcp; **4★**; HEAD `138b3832`; README SHA `2a49dbc1`; LICENSE SHA `46231303`; size **14850**; Jev Capability Resolver; one tool to find documented deterministic commands in a nested capability tree; returns context; **does not execute**; skills = workflow+judgment; capabilities = individual operations; format independent of Jev; proposed open standard exploration; classify (Jev) → optional OpenAI decompose compound → beam search geometric mean of routing probs; keep up to 3 paths ≥60% of best (JCR_BAND_RATIO 0.6); ambiguity / no-match / depth-limit explicit; soft scores ≠ hard gates; 0.6 band is application policy; routing ≠ permission; docs ≠ authority to run; sol-vs-opus5-20 *theirs*: 20 scenarios × 4 variants = 80 runs; lookup+explain only, no execution; Claude Opus 5: agent input 108,585→15,819 (−85%), cost $0.3700→$0.1222 (−67%), wall 105.5s→77.7s; Codex GPT-5.6-Sol: 61,952→47,669 (−23%), $0.1377→$0.1151 (−16%), wall 25.3s→62.4s (Sol slower with JCR in 19/20); One Sol outlier 372.6s / 193 Jev calls; n=1 per cell; Not Harbor task-execution; Claude/Codex harnesses; compare mode; 50 scenarios bundled; 11 groups, 960 nodes, 11,360 items; 16 routing rounds per step; NiazMorshed2007/jcr ≠ skill-broker ≠ skillranker ≠ jev-sift ≠ jev-lens ≠ jevusher ≠ jev_select_capability; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34; notes.md §116
 User-provided 0922 uniqueness lock: SemIf was formerly OpenJev; independent; not affiliated with Jev or TypeSafe; homepage openjev.com; default master; MIT; HEAD ca3ba65f1429; Tolerate float roundoff in MLX evidence verification; pushed 2026-09-19; live REST 2282★ / 140 forks; size 9177; README SHA 74ab7f7f; LICENSE SHA ca562883; interface pattern reproduction with open models; does not reproduce Jev undisclosed model/training; Direct option logits; 0 output tokens; shared-state parallel; MLX backend for Apple Silicon (`--backend mlx`); Qwen3.5-4B 3090 direct 1.023s vs AR JSON 5.332s (**5.21×**); argmax agree 18/21; systems comparison ≠ semantic equivalence; Parallel suffixes 20.03 dec/s on 777 decisions; Browser ladder Qwen3.5-4B authored BA 0.813, pert 0.766, TypeSafe subset agreement 0.845 vs Published Jev 0.883 (102 across 20 cases); Softmax over options ≠ calibrated Noul; typed output does not guarantee semantic correctness; wire/agreement ≠ replica of TypeSafe; SemIf ≠ kw2828/OpenJev playground ≠ zhihz/openjev ≠ apiplant/semif-rs port ≠ dddanielliu/semif-serve; rename is densify not a second census; JevBench 74.6 is §78 not this ladder; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#38; do not push onto open #39/#40; notes.md §117
+User-provided 0940 uniqueness lock: Turn decision-shaped LLM prompts into proposed Jev primitives; This is a conversion assistant, not an automatic guarantee of equivalent behavior; The compiler uses deterministic heuristics, not an LLM or evaluation model; It understands a deliberately small set of common prompt patterns; Generated instructions and criteria must be reviewed before production use; Score ranges such as 0 to 1 are translated into ordered Jev criteria; Prompts requiring open-ended prose are not a fit; suitability strong/partial/not_a_fit; compatibility full/partial/none; Writing new text stays with an LLM; Review the generated Score rubric; Jev scores ordered criteria, not an arbitrary 0-to-1 range; Everything runs locally in the browser; There is no framework, database, account, API, or server-side prompt processing; The key is read from the process environment and is never stored or printed; connect-src 'none'; alexwestco/llm-to-jev ≠ altryne/jevify ≠ ryana/jevify ≠ fidecastro/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify; HEAD 234058ab372d; README SHA 43cd94fb; LICENSE SHA 5f334006; compiler SHA fdf235d0; 2★; MIT; JavaScript; size 29; Pages https://alexwestco.github.io/llm-to-jev/; invented_signal false; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35; notes.md §118

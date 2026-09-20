@@ -4969,6 +4969,12 @@
       "title": "apiplant/semif-rs",
       "url": "https://github.com/apiplant/semif-rs",
       "note": "Rust+candle port ≠ SemIf. 0★. notes.md §117."
+    },
+    {
+            "kind": "github",
+      "title": "alexwestco/llm-to-jev",
+      "url": "https://github.com/alexwestco/llm-to-jev",
+      "note": "JavaScript MIT; 2★; size 29; HEAD 234058ab372d; README SHA 43cd94fb; LICENSE SHA 5f334006; compiler SHA fdf235d0. Pages https://alexwestco.github.io/llm-to-jev/ HTTP 200. Conversion assistant, not equivalent-behavior guarantee. Heuristic ≠ calibrated Noul. notes.md §118."
     }
   ]
 }
