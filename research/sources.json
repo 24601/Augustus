@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-20T03:45Z",
+  "retrieved": "2026-09-20T04:46Z",
   "sources": [
     {
       "kind": "docs",
@@ -3853,6 +3853,60 @@
       "title": "WaynezProg/jev-kit",
       "url": "https://github.com/WaynezProg/jev-kit",
       "note": "TypeScript+Python MIT; 0★; HEAD 4558554f; README SHA a7f14838; LICENSE SHA 19937317; GitHub size 0 with contents. source-bound evidence checks. local quote mismatch needs no API. exit 0 ≠ claim truth. WaynezProg/jev-kit ≠ jonathanavis96/jev-kit (Airlock) ≠ jev-use ≠ jev-mcp. Airlock is the PreToolUse guard component of jonathanavis96/jev-kit, not a sandbox and not this card. nine-host installer not extra repos. notes.md §102."
+    },
+    {
+      "kind": "github",
+      "title": "reachjalil/system-one-bench",
+      "url": "https://github.com/reachjalil/system-one-bench",
+      "note": "PRIMARY Augustus hourly 2246. JavaScript MIT; 0★; HEAD ceb17269; README SHA d9e0c7b7; LICENSE SHA c49c6fba; GitHub size 90 with contents. independent System One evidence catalog. 19 reviewed records. scores not one leaderboard. no external record currently reproduced. TokenTrim no-Jev matched hybrid 62.4%. reachjalil/system-one-bench ≠ mallahyari/system-one-benchmark. notes.md §103."
+    },
+    {
+      "kind": "github",
+      "title": "SivletLabs/jev-eval",
+      "url": "https://github.com/SivletLabs/jev-eval",
+      "note": "Python MIT; 0★; HEAD 3f9d976f; README SHA df16766c; LICENSE SHA 91caa663; GitHub size 0 with contents. 21 tasks · 134 items · 208 questions. scenes from public GitHub contracts, not production logs. SivletLabs/jev-eval ≠ willkelly/jev-evaluation ≠ 4esv/jev-eval ≠ xxkuboxx/jev-eval ≠ onlyoneaman/jev-eval ≠ dayhaysoos/jevals. notes.md §103."
+    },
+    {
+      "kind": "github",
+      "title": "nafisazizir/hev",
+      "url": "https://github.com/nafisazizir/hev",
+      "note": "Python Apache-2.0; 0★; HEAD 79a486f9; README SHA b995dce3; LICENSE SHA 54baf100; GitHub size 2318 with contents. option isolation (sibling-blind). permutation-equivariant. Hub OWNER not published. nafisazizir/hev ≠ jaredpalmer/kev. notes.md §103."
+    },
+    {
+      "kind": "github",
+      "title": "yuki-oshio/mini-jev",
+      "url": "https://github.com/yuki-oshio/mini-jev",
+      "note": "Python MIT; 0★; HEAD dff5b323; README SHA 363441b6; LICENSE SHA 79e2cff7; GitHub size 38370 with contents. frozen local LLM logits, no trained decision head. residual-head 9,222-param decreased 73/96→67/96. confidence = 1−normalized entropy, not P(correct). yuki-oshio/mini-jev ≠ r-ms/mini-jev. notes.md §103."
+    },
+    {
+      "kind": "github",
+      "title": "erik-dunteman/ChatJev",
+      "url": "https://github.com/erik-dunteman/ChatJev",
+      "note": "Python; GitHub license null; 1★; HEAD ea33ab8d; README SHA c763be19; GitHub size 0 with contents; main.py 6171 bytes do not dump. Jev classifier as autoregressive next-token predictor. ChatJev-style soundness theater. erik-dunteman/ChatJev ≠ dannote/jev ≠ jev-gpt. notes.md §103."
+    },
+    {
+      "kind": "github",
+      "title": "wufuju2023-cell/jev-alpha-proof-analysis",
+      "url": "https://github.com/wufuju2023-cell/jev-alpha-proof-analysis",
+      "note": "Markdown; GitHub license null; 0★; HEAD afd9bb6f; README SHA 1810d7f6; overview SHA 919b922a; GitHub size 0 with contents. calibrated decision head × AlphaProof value head. implementation-layer isomorphism, semantic difference. timeout = censoring. do not launder Noul as proof. notes.md §103."
+    },
+    {
+      "kind": "github",
+      "title": "zzzzzec/jevsort",
+      "url": "https://github.com/zzzzzec/jevsort",
+      "note": "HTML; GitHub license null; 1★; HEAD 57067b90; README SHA 85044740; GitHub size 70 with contents. parallel rank-prediction vs serial selection. independent questions can conflict. zzzzzec/jevsort ≠ keltokhy/jsort. notes.md §103."
+    },
+    {
+      "kind": "github",
+      "title": "rupeshpoojary9/awesome-open-system-one",
+      "url": "https://github.com/rupeshpoojary9/awesome-open-system-one",
+      "note": "CC0 1.0 LICENSE SHA 36848c0b; GitHub SPDX NOASSERTION; 0★; HEAD 637ee3d3; README SHA 0007e343; GitHub size 4 with contents. curated open System One ecosystem catalog. rupeshpoojary9/awesome-open-system-one ≠ AnotiaWang/awesome-jev. Do not paste listed von/4esv numbers. notes.md §103."
+    },
+    {
+      "kind": "github",
+      "title": "LYchoon/paper-radar-jev",
+      "url": "https://github.com/LYchoon/paper-radar-jev",
+      "note": "Python MIT; 0★; HEAD fbadf01c; README SHA 1cb8a9c3; LICENSE SHA d9cf35e9; size 73; default master. arXiv paper radar with Jev relevance scoring. ranking ≠ calibration / 0.5 still soft. fail-open failed evals not marked seen. notes.md §103."
     }
 
   ]

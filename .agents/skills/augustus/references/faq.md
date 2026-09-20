@@ -3009,3 +3009,45 @@ No, no, and no. source-bound evidence checks. local quote mismatch needs no API.
 ## Did Archer land this hour? Treat Qwen3.8-27B as Archer? Invent tweets?
 
 No, no, and no. Hub `archerhume/4rcherhume` HTTP **401** (last pin §101; not re-fetched as a rewrite). Tracker likes **54**; lastModified `2026-09-20T02:59:13Z`. Live REST pulse (review relock): SemIf **2000★** (+16 vs §101 **1984**); jevlike **1002★** **flat**; TypeAR-AI/TypeAR **12★** (+1 vs §101 **11**). AnotiaWang/awesome-jev **86★** (+2 vs §101 **84**) ≠ Awesomejev 561/27007. `invented_signal: false`. `notes.md` §102.
+
+independent System One evidence catalog; 19 reviewed records; scores not one leaderboard; no external record currently reproduced; TokenTrim no-Jev matched hybrid 62.4%; reachjalil/system-one-bench ≠ mallahyari/system-one-benchmark; 21 tasks · 134 items · 208 questions; scenes from public GitHub contracts, not production logs; SivletLabs/jev-eval ≠ willkelly/jev-evaluation ≠ 4esv/jev-eval ≠ xxkuboxx/jev-eval ≠ onlyoneaman/jev-eval ≠ dayhaysoos/jevals; option isolation (sibling-blind); permutation-equivariant; Hub OWNER not published; nafisazizir/hev ≠ jaredpalmer/kev; frozen local LLM logits, no trained decision head; residual-head 9,222-param decreased 73/96→67/96; confidence = 1−normalized entropy, not P(correct); yuki-oshio/mini-jev ≠ r-ms/mini-jev; Jev classifier as autoregressive next-token predictor; ChatJev-style soundness theater; erik-dunteman/ChatJev ≠ dannote/jev ≠ jev-gpt; calibrated decision head × AlphaProof value head; implementation-layer isomorphism, semantic difference; timeout = censoring; do not launder Noul as proof; parallel rank-prediction vs serial selection; independent questions can conflict; zzzzzec/jevsort ≠ keltokhy/jsort; curated open System One ecosystem catalog; rupeshpoojary9/awesome-open-system-one ≠ AnotiaWang/awesome-jev; arXiv paper radar with Jev relevance scoring; ranking ≠ calibration / 0.5 still soft; fail-open failed evals not marked seen
+
+## Is system-one-bench mallahyari/system-one-benchmark? Treat 19 records as one leaderboard? Promote reported to reproduced?
+
+No, no, and no. independent System One evidence catalog. 19 reviewed records. scores not one leaderboard. no external record currently reproduced. TokenTrim no-Jev matched hybrid 62.4% vs best fixed 60.3% (cached answers). `npm test` checks catalog without model calls. JavaScript MIT; **0★**; HEAD `ceb17269`; README SHA `d9e0c7b7`; GitHub size **90**. reachjalil/system-one-bench ≠ mallahyari/system-one-benchmark. Soft Noul ≠ hard safety. `notes.md` §103.
+
+## Is SivletLabs/jev-eval willkelly or 4esv? Are the scenes production logs? Is this Harbor?
+
+No, no, and no. 21 tasks · 134 items · 208 questions. scenes from public GitHub contracts, not production logs. choice/noul accuracy/Brier/NLL; score exact-level/MAE/Brier/NLL. HTTP `POST /api/evaluate`. Python MIT; **0★**; HEAD `3f9d976f`; README SHA `df16766c`; GitHub size **0** with contents. SivletLabs/jev-eval ≠ willkelly/jev-evaluation ≠ 4esv/jev-eval ≠ xxkuboxx/jev-eval ≠ onlyoneaman/jev-eval ≠ dayhaysoos/jevals. `notes.md` §103.
+
+## Is hev kev? Paste 80.00% as Jev identity? Is Hub OWNER published?
+
+No, no, and no. option isolation (sibling-blind). permutation-equivariant. Hub OWNER not published; weights not in git. Dev-split PointerHead 80.00% / transfer 60.71% / ECE 0.020 *theirs*; 0/696 flips (protocols differ from kev/Jev). Development-only. Python Apache-2.0; **0★**; HEAD `79a486f9`; README SHA `b995dce3`; GitHub size **2318**. nafisazizir/hev ≠ jaredpalmer/kev. `notes.md` §103.
+
+## Is yuki-oshio/mini-jev r-ms/mini-jev? Is 93.25% family-disjoint? Is confidence P(correct)? Did the residual head help?
+
+No, no, no, and no. frozen local LLM logits, no trained decision head. residual-head 9,222-param decreased 73/96→67/96. confidence = 1−normalized entropy, not P(correct). Self-authored 2,400 JP suite 93.25% *theirs*. Python MIT; **0★**; HEAD `dff5b323`; README SHA `363441b6`; GitHub size **38370** with contents. yuki-oshio/mini-jev ≠ r-ms/mini-jev. `notes.md` §103.
+
+## Is ChatJev jev-gpt? Is it dannote/jev? Treat "kinda works" as a product?
+
+No, no, and no. Jev classifier as autoregressive next-token predictor. ChatJev-style soundness theater. pyproject name `"jev"` v0.1.0 collides with dannote/jev. Contrast jev-gpt: generation as a tree of Choices, never free-generates. Python; license **null**; **1★**; HEAD `ea33ab8d`; README SHA `c763be19`; `main.py` 6171 bytes — do not dump. erik-dunteman/ChatJev ≠ dannote/jev ≠ jev-gpt. `notes.md` §103.
+
+## Does a softmax-head isomorphism make Jev a proof? Treat timeout-dropped samples as a full distribution? Launder a Noul as Lean?
+
+No, no, and no. calibrated decision head × AlphaProof value head. implementation-layer isomorphism, semantic difference. timeout = censoring. do not launder Noul as proof. Proposals labeled (S). Markdown; license **null**; **0★**; HEAD `afd9bb6f`; README SHA `1810d7f6`; overview SHA `919b922a`. `notes.md` §103.
+
+## Is jevsort jsort? Are parallel rank questions a sort proof?
+
+No and no. parallel rank-prediction vs serial selection. independent questions can conflict. Integers −1e6..1e6. HTML; license **null**; **1★**; HEAD `57067b90`; README SHA `85044740`; GitHub size **70**. zzzzzec/jevsort ≠ keltokhy/jsort. `notes.md` §103.
+
+## Is awesome-open-system-one AnotiaWang/awesome-jev? Paste von sub-15ms as an Augustus fact?
+
+No and no. curated open System One ecosystem catalog (open models/evals/calibration/constrained-decoding), not closed-Jev apps. CC0 1.0 LICENSE SHA `36848c0b`; GitHub SPDX NOASSERTION; **0★**; HEAD `637ee3d3`; README SHA `0007e343`; GitHub size **4** with contents. rupeshpoojary9/awesome-open-system-one ≠ AnotiaWang/awesome-jev. Do not paste listed 4esv/jev-eval or von sub-15ms as Augustus receipts. `notes.md` §103.
+
+## Is paper-radar 0.5 a frequency? Mark failed evals seen? Copy .env?
+
+No, no, and no. arXiv paper radar with Jev relevance scoring. ranking ≠ calibration / 0.5 still soft (high_priority 0.8). fail-open failed evals not marked seen. Tests use doubles. Python MIT; **0★**; HEAD `fbadf01c`; README SHA `1cb8a9c3`; size **73**; default **master**. Do not copy `uv` / keys. `notes.md` §103.
+
+## Did Archer land this hour? Treat Qwen3.8-27B as Archer? Invent tweets?
+
+No, no, and no. Hub `archerhume/4rcherhume` HTTP **401** (last pin §101; not re-fetched as a rewrite). Tracker likes **54**; lastModified `2026-09-20T02:59:13Z`. Live REST pulse (review relock): SemIf **2019★** (+19 vs §102 **2000**); jevlike **1006★** (+4 vs §102 **1002**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **87★** (+1 vs §102 **86**) ≠ Awesomejev 561/27007. `invented_signal: false`. `notes.md` §103.

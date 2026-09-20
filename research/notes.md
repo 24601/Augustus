@@ -21094,3 +21094,719 @@ items 120–128; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
+
+## 103. Hourly 2246 HIGH (2026-09-19 ~22:46 Boise / 2026-09-20T04:46Z)
+
+Docs-only on a **fresh PR off main**
+(`cursor/hourly-2246-system-one-bench-ceb0`).
+**Never reopen merged** Augustus PR #7 / **#8** /
+**#9** / **#10** / **#12** / **#13** / **#14** /
+**#15** / **#16** / **#17** / **#18** / **#19** /
+**#20**. After merged #20 (`b3e3ad2`, hourly 2145 /
+`notes.md` §102). Do **not** re-fold §93 / §94 /
+§95 / §96 / §97 / §98 / §99 / §100 / §101 / §102.
+Quote READMEs. Mark *theirs*. No invented metrics.
+Hunches labeled. No wrappers, `npm` / `pip` /
+`npx` / `uv` / `mix` / `TYPESAFE_API_KEY` /
+`.env` as recipes. 0★ HIGH still gets a real
+card. Do **not** dump source / SDK / weights /
+eval logs. `invented_signal: false`. Skip Archer
+rewrite. Qwen3.8-27B ≠ Archer.
+
+Lane is Augustus: **mental models / architecture /
+Harbor-jevals / toolbelt**. Backend-agnostic
+categorization/scoring/decision class (Jev-like
+speed/econ), **not** a thin Jev-only dump. Design
+judgment, formal/semi-formal methods, decision
+theory, scoring class. Soft Noul ≠ hard safety.
+Formal methods **compose** with scoring; a Noul is a
+SENSOR. Avoid soundness theater. Jev is the hot
+exemplar, not the whole mandate. Independent
+evidence catalogs and negative results are the
+*class* exemplar this hour, not a TypeSafe drop-in.
+
+Unique consecutive fragments (this hour):
+independent System One evidence catalog;
+19 reviewed records;
+scores not one leaderboard;
+no external record currently reproduced;
+TokenTrim no-Jev matched hybrid 62.4%;
+reachjalil/system-one-bench ≠ mallahyari/system-one-benchmark;
+21 tasks · 134 items · 208 questions;
+scenes from public GitHub contracts, not production logs;
+SivletLabs/jev-eval ≠ willkelly/jev-evaluation ≠ 4esv/jev-eval ≠ xxkuboxx/jev-eval ≠ onlyoneaman/jev-eval ≠ dayhaysoos/jevals;
+option isolation (sibling-blind);
+permutation-equivariant;
+Hub OWNER not published;
+nafisazizir/hev ≠ jaredpalmer/kev;
+frozen local LLM logits, no trained decision head;
+residual-head 9,222-param decreased 73/96→67/96;
+confidence = 1−normalized entropy, not P(correct);
+yuki-oshio/mini-jev ≠ r-ms/mini-jev;
+Jev classifier as autoregressive next-token predictor;
+ChatJev-style soundness theater;
+erik-dunteman/ChatJev ≠ dannote/jev ≠ jev-gpt;
+calibrated decision head × AlphaProof value head;
+implementation-layer isomorphism, semantic difference;
+timeout = censoring;
+do not launder Noul as proof;
+parallel rank-prediction vs serial selection;
+independent questions can conflict;
+zzzzzec/jevsort ≠ keltokhy/jsort;
+curated open System One ecosystem catalog;
+rupeshpoojary9/awesome-open-system-one ≠ AnotiaWang/awesome-jev;
+arXiv paper radar with Jev relevance scoring;
+ranking ≠ calibration / 0.5 still soft;
+fail-open failed evals not marked seen.
+
+### How-to-apply (nine HIGH clusters)
+
+1. **Independent System One evidence catalog**
+   (PRIMARY Augustus) — catalog of reviewed records,
+   not one leaderboard. **19 reviewed records.**
+   Evidence labels `reported` / `first-party` /
+   `reproduced` / `reference`. No external
+   record currently `reproduced`. Negative
+   result is load-bearing:
+   TokenTrim routing ablation, no-Jev matched hybrid
+   **62.4%** vs best fixed **60.3%** (cached
+   answers). `npm test` checks catalog without
+   model calls. Transfers to any domain that
+   wants receipts, not slogans. ≠ mallahyari/
+   system-one-benchmark.
+2. **Typed eval dataset + environment** — freeze
+   21 tasks · 134 items · 208 questions. Scenes
+   from public GitHub contracts, **not** production
+   logs. Metrics: choice/noul accuracy/Brier/NLL;
+   score exact-level/MAE/Brier/NLL. HTTP
+   `POST /api/evaluate`. Namesake lock vs
+   willkelly / 4esv / xxkuboxx / onlyoneaman /
+   dayhaysoos. **not Harbor**.
+3. **Tiny option-isolated replica** — Qwen3-0.6B
+   LoRA + PointerHead. Option isolation
+   (sibling-blind); permutation-equivariant;
+   `/v1/systemone`. Development-only; Hub OWNER
+   not published; weights not in git. ≠ kev.
+4. **Frozen-LLM typed decisions** — frozen
+   Qwen3.6-35B-A3B Q4_K_M logits, **no trained
+   decision head** for the native path.
+   Self-authored 2,400 JP suite **93.25%** *theirs*
+   (not external/family-disjoint). Residual-head
+   9,222-param **decreased** held-out 73/96→67/96.
+   confidence = 1−normalized entropy, not
+   P(correct). ≠ r-ms/mini-jev.
+5. **AR next-token anti-pattern** — put a Choice
+   classifier in an autoregressive loop over next
+   tokens. "it kinda works" is theater.
+   Contrast jev-gpt: generation as a tree of
+   Choices, never free-generates. pyproject name
+   `"jev"` collides with dannote/jev. Do **not**
+   dump `main.py`.
+6. **Formal/semi-formal compose with scoring** —
+   calibrated decision head × AlphaProof value
+   head. Implementation-layer isomorphism
+   (softmax classification heads); semantic
+   difference (exogenous q vs search-protocol
+   return F^τ). Timeout = censoring. Self-sampling
+   entropy collapse. Lean kernel is the proof;
+   a Noul is a SENSOR. Do not launder Noul as
+   proof. Proposals labeled **(S)**.
+7. **Algorithmic scoring mental model** — serial
+   max vs parallel rank-k. Independent questions
+   can conflict. Integers −1e6..1e6. Ranking ≠
+   calibration. ≠ keltokhy/jsort.
+8. **Open-side ecosystem catalog** — models /
+   evals / calibration / constrained-decoding you
+   can run and audit. Not closed-Jev apps. Lists
+   4esv/jev-eval and von sub-15ms — do **not**
+   paste those as Augustus facts. ≠ AnotiaWang /
+   yibie / Frank-ZY-Dou / walidboulanouar.
+9. **Knowledge-work categorization** — arXiv
+   radar with P(True) relevance. Default
+   threshold **0.5** still soft; high_priority
+   **0.8**. Ranking ≠ calibration. Fail-open:
+   failed evals not marked seen. Tests use
+   doubles. Do not copy uv / `.env` / keys.
+
+### Cards
+
+1. **Independent System One evidence catalog**
+   (PRIMARY)
+
+   - **[`reachjalil/system-one-bench`](https://github.com/reachjalil/system-one-bench)**
+     (JavaScript MIT; **0★** live REST; 0 forks;
+     created 2026-09-20T04:07:31Z; pushed
+     2026-09-20T05:21:57Z; updated
+     2026-09-20T05:22:01Z; HEAD `ceb17269`;
+     README SHA `d9e0c7b7`; LICENSE SHA
+     `c49c6fba`; GitHub `size` **90** with
+     contents; default `main`). GitHub
+     description *theirs*: "System One Bench:
+     Jev evidence, practical findings, negative
+     results and reproducible decision
+     benchmarks". README *theirs*: "A reference
+     for what Jev can help an agent do."
+     "19 reviewed records. Scores from
+     different tasks are not one leaderboard."
+     "External results below are
+     author-reported; we have not independently
+     rerun them." "Neither is a model
+     probability or a savings promise."
+     Evidence columns *theirs*
+     (METHODOLOGY.md): `reported` /
+     `first-party` / `reproduced` /
+     `reference`. **no external record
+     currently reproduced**. Routing ablation
+     *theirs* (`records/routing-ablation.md`):
+     TokenTrim; hybrid accuracy **62.4%**; best
+     fixed **60.3%**; no-Jev ablation
+     **62.4%**; cached downstream answers.
+     `npm test` checks the catalog, guide
+     references and generated-file links
+     **without model calls**. Do **not** dump
+     `records/` / `catalog.json`. Do not copy
+     `npm` / keys.
+
+     independent System One evidence catalog.
+     19 reviewed records.
+     scores not one leaderboard.
+     no external record currently reproduced.
+     TokenTrim no-Jev matched hybrid 62.4%.
+
+     **Placement.** Pillar: Leveson (evidence ≠
+     authority) + Harbor-jevals hygiene. Hole:
+     keep receipts beside slogans; negative
+     results are first-class. Family: catalog is
+     **not** a species; Jev remains exemplar.
+     Fail polarity: do not promote a
+     `reported` row to `reproduced`. Eval path:
+     `npm test` is catalog integrity, **not
+     Harbor**. **Empirical** as README +
+     `records/routing-ablation.md`.
+     **Hypothesis** on *your* workflow.
+
+     **Name lock:** always write
+     **reachjalil/system-one-bench**.
+     reachjalil/system-one-bench ≠
+     mallahyari/system-one-benchmark.
+     Soft Noul ≠ hard safety: 62.4% / 19 records
+     / `npm test` are **sensors**. Treating a
+     catalog row as a bake-off win, or treating
+     "no-Jev matched hybrid" as "Jev never
+     helps", is theater.
+
+2. **Typed eval dataset + environment**
+
+   - **[`SivletLabs/jev-eval`](https://github.com/SivletLabs/jev-eval)**
+     (Python MIT; **0★** live REST; 0 forks;
+     created 2026-09-20T04:43:48Z; pushed
+     2026-09-20T04:44:00Z; updated
+     2026-09-20T04:44:03Z; HEAD `3f9d976f`;
+     README SHA `df16766c`; LICENSE SHA
+     `91caa663`; GitHub `size` **0** with
+     contents; default `main`). GitHub
+     description *theirs*: "Evaluation dataset
+     and environment for Jev / System One typed
+     decisions". README freeze *theirs*:
+     **21 tasks · 134 items · 208 questions**
+     (160 community + 48 Chinese). "Scenes are
+     constructed from public GitHub application
+     contracts. They are **not** production
+     logs." "This is not a chat benchmark."
+     Metrics *theirs*: choice / noul accuracy,
+     Brier, NLL; score exact-level, MAE,
+     Brier/NLL on the level distribution. Live
+     path: HTTP `POST /api/evaluate` (NanoJev
+     MLX and jev-local both speak this
+     *theirs*). `boolean` (NanoJev) scored as
+     `noul`. Do **not** dump the dataset. Do
+     not copy `uv` / keys.
+
+     21 tasks · 134 items · 208 questions.
+     scenes from public GitHub contracts, not
+     production logs.
+
+     **Placement.** Pillar: Harbor-jevals
+     practice (frozen items + proper scores).
+     Hole: score a typed-decision backend the
+     way product Jev is used. Family: eval
+     environment, not a species. Fail polarity:
+     do not treat constructed scenes as
+     production traces. Eval path: **not
+     Harbor**; freeze is author-constructed.
+     **Empirical** as README freeze.
+     **Hypothesis** on *your* items.
+
+     **Name lock:** always write
+     **SivletLabs/jev-eval**.
+     SivletLabs/jev-eval ≠
+     willkelly/jev-evaluation ≠ 4esv/jev-eval ≠
+     xxkuboxx/jev-eval ≠ onlyoneaman/jev-eval ≠
+     dayhaysoos/jevals.
+     (2041 PR title mentioned "jev-eval"; that
+     was willkelly/jev-evaluation.) Soft Noul ≠
+     hard safety: 208 questions / Brier/NLL are
+     **sensors**. Treating the freeze as a
+     class ceiling is theater.
+
+3. **Tiny option-isolated replica**
+
+   - **[`nafisazizir/hev`](https://github.com/nafisazizir/hev)**
+     (Python Apache-2.0; **0★** live REST; 0
+     forks; created 2026-09-20T04:07:00Z;
+     pushed 2026-09-20T04:20:53Z; updated
+     2026-09-20T04:20:57Z; HEAD `79a486f9`;
+     README SHA `b995dce3`; LICENSE SHA
+     `54baf100`; GitHub `size` **2318** with
+     contents). GitHub description *theirs*:
+     "tiny Jev-like model. Jev and Kev
+     inspired." README *theirs*: LoRA adapter
+     and PointerHead on `Qwen/Qwen3-0.6B-Base`;
+     option isolation (sibling-blind);
+     permutation-equivariant; `POST
+     /v1/systemone`. Dev-split *theirs*:
+     PointerHead **80.00%** / transfer
+     **60.71%** / ECE **0.020**; kev
+     80.46%/62.05%/0.030; Jev 1.13.0
+     83.50%/85.36%/0.103 (same eval, **not** a
+     controlled training comparison). Option
+     order *theirs*: Hev **0/696** flips; kev
+     ~5% of 72; Jev 1.39% of 72 (**protocols
+     differ**). **Development-only**; Hub
+     OWNER not published; weights not in git.
+     Locked test split has not been accessed.
+     Do **not** dump `hev/` / `runs/`. Do not
+     copy `uv` / Hub `OWNER` recipes.
+
+     option isolation (sibling-blind).
+     permutation-equivariant.
+     Hub OWNER not published.
+
+     **Placement.** Pillar: replica honesty +
+     class-architecture (variable-N scoring
+     object). Hole: option order as nuisance,
+     not signal. Family: trained decision-only
+     open path next to kev/Laya; **not** a
+     Jev clone. Fail polarity: do not ship
+     unpublished Hub OWNER; do not paste
+     80.00% as Jev-identity. Eval path:
+     development splits *theirs*; **not
+     Harbor**. **Empirical** as README +
+     RESULTS. **Hypothesis** on *your*
+     labels.
+
+     **Name lock:** always write
+     **nafisazizir/hev**.
+     nafisazizir/hev ≠ jaredpalmer/kev.
+     Soft Noul ≠ hard safety: 80.00% / ECE
+     0.020 / 0/696 are **sensors**. Treating
+     exact invariance as an accuracy win, or
+     `/v1/systemone` wire as a Noul, is
+     theater.
+
+4. **Frozen-LLM typed decisions**
+
+   - **[`yuki-oshio/mini-jev`](https://github.com/yuki-oshio/mini-jev)**
+     (Python MIT; **0★** live REST; 0 forks;
+     created 2026-09-20T04:15:22Z; pushed
+     2026-09-20T04:17:19Z; updated
+     2026-09-20T04:17:25Z; HEAD `dff5b323`;
+     README SHA `363441b6`; LICENSE SHA
+     `79e2cff7`; GitHub `size` **38370** with
+     contents). GitHub description *theirs*:
+     "Typed decisions from frozen local LLMs,
+     with reproducible evaluation and
+     experimental residual-head training."
+     README *theirs*: frozen Qwen3.6-35B-A3B
+     Q4_K_M logits; **no trained decision
+     head** for the native path. Self-authored
+     2,400 JP suite **93.25%** *theirs* (not
+     external / family-disjoint; `source:
+     manual` does **not** mean human-expert
+     annotation). Residual-head 9,222-param
+     **decreased** held-out 73/96→67/96;
+     bias-only 74/96. confidence =
+     1−normalized entropy, not P(correct).
+     Probabilities normalized **within the
+     allowed candidate set**. Warm p95 379.1
+     ms *theirs* (Apple M5 Pro; not an HTTP
+     SLA). Do **not** dump GGUF / native
+     binaries. Do not copy `uv` / 20.4 GB
+     download recipes.
+
+     frozen local LLM logits, no trained
+     decision head.
+     residual-head 9,222-param decreased
+     73/96→67/96.
+     confidence = 1−normalized entropy, not
+     P(correct).
+
+     **Placement.** Pillar: replica honesty +
+     constrained-AR vs trained head. Hole:
+     typed Choice/Score/Noul from frozen
+     logits without generating answer text.
+     Family: open logit-read path, **not**
+     TypeSafe, **not** a trained decision
+     head. Fail polarity: do not quote 93.25%
+     as a class ceiling; do not treat
+     entropy-confidence as P(correct). Eval
+     path: self-authored suite *theirs*;
+     **not Harbor**. **Empirical** as README.
+     **Hypothesis** on external /
+     family-disjoint items.
+
+     **Name lock:** always write
+     **yuki-oshio/mini-jev**.
+     yuki-oshio/mini-jev ≠ r-ms/mini-jev ≠
+     Mikhail/mini-jev-runs (HF). Soft Noul ≠
+     hard safety: 93.25% / 379.1 ms / 9,222
+     params are **sensors**. Treating a
+     residual head that *hurt* held-out as a
+     recipe, or `/v1/systemone` as identity,
+     is theater.
+
+5. **AR next-token anti-pattern** (flag)
+
+   - **[`erik-dunteman/ChatJev`](https://github.com/erik-dunteman/ChatJev)**
+     (Python; GitHub license **null**; no
+     LICENSE file; **1★** live REST; 0 forks;
+     created 2026-09-20T04:25:41Z; pushed
+     2026-09-20T04:36:28Z; updated
+     2026-09-20T05:17:52Z; HEAD `ea33ab8d`;
+     README SHA `c763be19`; GitHub `size`
+     **0** with contents; `main.py` **6171**
+     bytes — **do not dump**). GitHub
+     description *theirs*: "Turning the Jev
+     classifier model into an autoregressive
+     next token predictor". README *theirs*:
+     "I put Jev in an autoregressive loop,
+     with choice options being a list of
+     potential next tokens. And it kinda
+     works!" `pyproject.toml` *theirs*: name
+     `"jev"` version `0.1.0`; deps
+     typesafe-sdk, wordfreq, rich. Contrast
+     jev-gpt: generation as a **tree of
+     Choices**, never free-generates. Do
+     **not** dump `main.py` / `uv.lock`. Do
+     not copy keys.
+
+     Jev classifier as autoregressive
+     next-token predictor.
+     ChatJev-style soundness theater.
+
+     **Placement.** Pillar: mixed architecture
+     (judgment vs generation) + anti-pattern.
+     Hole: do **not** launder a classifier
+     loop as a language model. Family: not a
+     species; a harmful crossover. Fail
+     polarity: **fail closed** on treating
+     "kinda works" as a product. Eval path:
+     none. **Empirical** as README (two
+     paragraphs). **Hypothesis** that next-
+     token Choice loops are unsound for any
+     domain that needs calibrated p.
+
+     **Name lock:** always write
+     **erik-dunteman/ChatJev**.
+     erik-dunteman/ChatJev ≠ dannote/jev ≠
+     jev-gpt. Soft Noul ≠ hard safety: "kinda
+     works" is **not** a sensor you can
+     threshold. ChatJev-style soundness
+     theater is the same class as hard-gating
+     a Noul as a proof.
+
+6. **Formal/semi-formal compose with scoring**
+
+   - **[`wufuju2023-cell/jev-alpha-proof-analysis`](https://github.com/wufuju2023-cell/jev-alpha-proof-analysis)**
+     (Markdown; GitHub license **null**;
+     language **null**; **0★** live REST; 0
+     forks; created 2026-09-20T04:24:24Z;
+     pushed 2026-09-20T04:24:28Z; updated
+     2026-09-20T04:24:32Z; HEAD `afd9bb6f`;
+     README SHA `1810d7f6`; overview
+     `alpha-proof/00-总览与导读.md` SHA
+     `919b922a`; GitHub `size` **0** with
+     contents). GitHub description *theirs*:
+     "Jev (calibrated decision head) x
+     AlphaProof value head: rigorous math
+     analysis and transferable designs".
+     Overview *theirs*: implementation-layer
+     isomorphism (softmax classification
+     heads); semantic difference (exogenous
+     q vs search-protocol return F^τ).
+     Timeout samples excluded = censoring
+     (learns success-conditioned remaining-
+     steps, not the full distribution).
+     Self-sampling entropy collapse: model
+     samples as labels reward entropy, not
+     truth; must anchor to a verifier and a
+     fixed protocol. Proposals labeled
+     **(S)**. Lean kernel is the proof; a
+     Noul is a SENSOR. Do **not** dump the
+     dossier. Do not copy attacks.
+
+     calibrated decision head × AlphaProof
+     value head.
+     implementation-layer isomorphism,
+     semantic difference.
+     timeout = censoring.
+     do not launder Noul as proof.
+
+     **Placement.** Pillar: formal methods
+     (sensor / constraint / searchlight).
+     Hole: compose a scoring head with a
+     proof search without laundering p as a
+     kernel. Family: analysis notes, not a
+     species. Fail polarity: **fail closed**
+     on Noul-as-proof. Eval path: none
+     (notes). **Empirical** as README +
+     00 overview quotes. **(S)** stays
+     Hypothesis.
+
+     **Name lock:** always write
+     **wufuju2023-cell/jev-alpha-proof-analysis**.
+     Soft Noul ≠ hard safety: softmax-head
+     isomorphism is **not** semantic
+     identity. Treating a calibrated p as a
+     Lean step, or timeout-dropped samples as
+     a full distribution, is theater.
+
+7. **Algorithmic scoring mental model**
+
+   - **[`zzzzzec/jevsort`](https://github.com/zzzzzec/jevsort)**
+     (HTML; GitHub license **null**; **1★**
+     live REST; 0 forks;      created
+     2026-09-20T04:15:21Z; pushed
+     2026-09-20T05:08:16Z; updated
+     2026-09-20T05:08:20Z; HEAD `57067b90`;
+     README SHA `85044740`; GitHub `size`
+     **70** with contents). GitHub
+     description *theirs*: "Jev-powered
+     integer sorting experiment: serial
+     selection versus parallel rank
+     prediction." README *theirs*: serial
+     选最大 vs parallel 猜第 k 大;
+     independent decisions can conflict
+     (重复 / 遗漏 / 冲突); visitor-supplied
+     key in page memory only. Integers
+     −1,000,000..1,000,000 live in the page
+     (do **not** dump `index.html`). Joke
+     table (+67 years / O(1) parallel /
+     100% AI Native) is marketing, not a
+     sort proof. Do **not** dump
+     `functions/`. Do not copy wrangler /
+     keys.
+
+     parallel rank-prediction vs serial
+     selection.
+     independent questions can conflict.
+
+     **Placement.** Pillar: search/control +
+     ranking ≠ calibration. Hole: serial
+     selection vs one-shot rank questions;
+     independence can violate permutation
+     constraints. Family: demo, not a
+     species. Fail polarity: do not treat
+     parallel rank-k as a sort proof. Eval
+     path: none. **Empirical** as README
+     architecture. **Hypothesis** on
+     conflict rates.
+
+     **Name lock:** always write
+     **zzzzzec/jevsort**.
+     zzzzzec/jevsort ≠ keltokhy/jsort.
+     Soft Noul ≠ hard safety: O(log n)
+     "vibes" / 1★ are **sensors**. Treating
+     parallel rank questions as a
+     comparison-sort, quoting +67 years /
+     O(1) / 100% AI Native as complexity
+     facts, or scores as frequencies, is
+     theater.
+
+8. **Open-side ecosystem catalog**
+
+   - **[`rupeshpoojary9/awesome-open-system-one`](https://github.com/rupeshpoojary9/awesome-open-system-one)**
+     (CC0 1.0 LICENSE SHA `36848c0b`; GitHub
+     SPDX **NOASSERTION**; **0★** live REST;
+     0 forks; created 2026-09-20T04:14:02Z;
+     pushed 2026-09-20T04:14:06Z; updated
+     2026-09-20T04:14:10Z; HEAD `637ee3d3`;
+     README SHA `0007e343`; GitHub `size`
+     **4** with contents; language **null**).
+     GitHub description *theirs*: "Curated
+     list of the open System One ecosystem:
+     open models, independent benchmarks,
+     calibration and constrained-decoding
+     tooling." README *theirs*: open-side
+     catalog (models / evals / calibration /
+     constrained-decoding), not closed-Jev
+     apps. Lists 4esv/jev-eval and von
+     sub-15ms — do **not** paste those as
+     Augustus facts. Do **not** dump the
+     list as a bake-off.
+
+     curated open System One ecosystem
+     catalog.
+
+     **Placement.** Pillar: class map, not a
+     vendor. Hole: point at runnable open
+     reproductions and calibration
+     technique, not hosted Jev apps. Family:
+     catalog, not a species. Fail polarity:
+     do not launder listed numbers into
+     Augustus receipts. Eval path: none.
+     **Empirical** as README scope.
+
+     **Name lock:** always write
+     **rupeshpoojary9/awesome-open-system-one**.
+     rupeshpoojary9/awesome-open-system-one ≠
+     AnotiaWang/awesome-jev ≠ yibie/awesome-jev
+     ≠ Frank-ZY-Dou/awesome-jev ≠
+     walidboulanouar/awesome-jev-use-cases.
+     Soft Noul ≠ hard safety: a curated list
+     is **not** a scored board.
+
+9. **Knowledge-work categorization**
+
+   - **[`LYchoon/paper-radar-jev`](https://github.com/LYchoon/paper-radar-jev)**
+     (Python MIT; **0★** live REST; 0 forks;
+     created 2026-09-20T03:11:13Z; pushed
+     2026-09-20T04:08:42Z; updated
+     2026-09-20T04:08:45Z; HEAD `fbadf01c`;
+     README SHA `1cb8a9c3`; LICENSE SHA
+     `d9cf35e9`; GitHub `size` **73**;
+     default **master**). GitHub
+     description *theirs*: arXiv radar that
+     evaluates relevance with TypeSafe AI
+     and ranks by relevance score. README
+     *theirs*: P(True) relevance; default
+     `relevance_threshold` **0.5** still
+     soft; `high_priority_threshold`
+     **0.8**. Ranking ≠ calibration.
+     Fail-open: empty abstracts, failed API
+     calls, missing answers, and invalid
+     probabilities are **not** marked seen.
+     Tests use doubles; do not call live
+     arXiv or TypeSafe. Exit 2 = reports
+     generated but some evaluations failed.
+     Do **not** copy `uv` / `.env` / keys.
+
+     arXiv paper radar with Jev relevance
+     scoring.
+     ranking ≠ calibration / 0.5 still
+     soft.
+     fail-open failed evals not marked
+     seen.
+
+     **Placement.** Pillar: MCDA / ranking +
+     VOI (retry failed evals). Hole:
+     knowledge-work triage of new papers;
+     code owns fetch/persist; Jev scores
+     relevance. Family: TypeSafe Jev as
+     SENSOR. Fail polarity: **fail-open**
+     on failed evals (retry); do not
+     hard-threshold 0.5 as frequency. Eval
+     path: pytest doubles *theirs*; **not
+     Harbor**. **Empirical** as README.
+     **Hypothesis** on *your* research
+     profile.
+
+     **Name lock:** always write
+     **LYchoon/paper-radar-jev**. Soft Noul ≠
+     hard safety: 0.5 / 0.8 / P(True) are
+     **sensors**. Treating rank order as
+     calibration, or a default 0.5 as "not
+     relevant", is theater.
+
+### Theater (do not)
+
+Treat a catalog row as a bake-off win /
+collapse system-one-bench into mallahyari /
+promote `reported` to `reproduced`; treat
+SivletLabs/jev-eval as willkelly or 4esv /
+treat constructed scenes as production logs;
+paste Hev 80.00% as Jev identity / treat
+0/696 flips as an accuracy win / publish
+Hub OWNER; quote mini-jev 93.25% as
+family-disjoint / treat entropy-confidence
+as P(correct) / treat a residual head that
+hurt held-out as a recipe; put Jev in an
+AR next-token loop / treat "kinda works"
+as a product / collapse ChatJev into
+dannote/jev or jev-gpt; launder a Noul as
+a Lean step / treat softmax-head
+isomorphism as semantic identity / treat
+timeout-dropped samples as a full
+distribution; treat parallel rank-k as a
+sort proof / quote +67 years / O(1) /
+100% AI Native as complexity facts /
+collapse jevsort into jsort;
+paste awesome-open-system-one's von
+sub-15ms or 4esv/jev-eval as Augustus
+facts / collapse into AnotiaWang; hard-
+threshold paper-radar 0.5 as frequency /
+mark failed evals seen / copy `.env`.
+Invent tweets / Archer drop; dump source /
+keys / install recipes.
+
+### Census
+
+Census **not provided this hour** (not
+re-derived). Live REST pulse only (review
+relock): SemIf **2019★** (+19 vs §102
+**2000**); jevlike **1006★** (+4 vs §102
+**1002**); TypeAR-AI/TypeAR **12★** **flat**;
+AnotiaWang/awesome-jev **87★** (+1 vs §102 **86**) still
+a **different object** from user-provided
+Awesomejev 561/27007 (§99 pin). Archer still
+**NOT landed**. Hub `archerhume/4rcherhume`
+not re-fetched as a rewrite (last pin §101:
+HTTP **401**; tracker likes **54**;
+lastModified `2026-09-20T02:59:13Z`).
+Qwen3.8-27B ≠ Archer. X MCP not used this
+hour; no invented tweets. `invented_signal:
+false`.
+
+### Not
+
+Not a TypeSafe how-to. Not a system-one-bench
+/ jev-eval / hev / mini-jev / ChatJev /
+jevsort / paper-radar install guide. Not
+wrappers. Do not copy keys / `npm` / `pip` /
+`npx` / `uv` / `mix` / `curl | sh` / `.env`.
+Do not re-fold 2145 / §102 / 2041 / §101 /
+1943 / §100 / 1843 / §99 / 1740 / §98 /
+1639 / §96 / gliner-native-runtime / §97 /
+1541 / §95 / jev-align *mechanism* / §93.
+Do not reply into finished agents. Do
+**not** merge from this review — parent
+merges after CLEAN.
+
+### Curated status
+
+2246 HIGH **folded** (9 HIGH / nine
+clusters: system-one-bench independent
+evidence catalog PRIMARY; SivletLabs/jev-eval
+typed freeze; hev option-isolated replica;
+mini-jev frozen-LLM logits; ChatJev AR
+anti-pattern; jev-alpha-proof-analysis
+formal compose; jevsort parallel rank vs
+serial; awesome-open-system-one open
+catalog; paper-radar-jev knowledge-work
+categorization). §102 / §101 / §100 / §99 /
+§98 / §97 / §96 / §95 / §93 mechanism **not
+re-carded**. Archer still **NOT landed**. 0★
+HIGH still got a real card (jevsort **1★**).
+`invented_signal: false`.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`judgment-class.md`; `validation.md`;
+`applied-mappings.md`; `mappings.md`;
+`toolbox-mapping.md`; `composition-algebra.md`
+items 129–137; `question-design.md`;
+`methods-catalog.md`; `formal-methods.md`;
+`agent-self-assessment.md`. Hunches labeled.
+No wrapper.

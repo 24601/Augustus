@@ -2064,6 +2064,82 @@
   jev-recall despite attached JSON (quote README demos);
   JevPi GitHub size 0 with contents (same honesty as gut);
   0★ HIGH still got a real card.
+## 2026-09-20T04:46Z — hourly 2246 HIGH (Boise ~22:46 MDT)
+
+- Fresh PR off main after merged #20 (`b3e3ad2` / §102).
+  Never reopen merged #7–**#20**. Branch
+  `cursor/hourly-2246-system-one-bench-ceb0`.
+  Skip Archer rewrite. Quote READMEs. Mark *theirs*.
+  No wrappers / keys / install recipes. Do not dump
+  source / SDK / weights / eval logs.
+  `invented_signal: false`.
+- Nine HIGH: reachjalil/system-one-bench (PRIMARY; **0★**;
+  independent System One evidence catalog);
+  SivletLabs/jev-eval (**0★**; typed eval freeze);
+  nafisazizir/hev (**0★**; option-isolated replica);
+  yuki-oshio/mini-jev (**0★**; frozen-LLM logits);
+  erik-dunteman/ChatJev (**1★**; AR next-token
+  anti-pattern);
+  wufuju2023-cell/jev-alpha-proof-analysis (**0★**;
+  scoring × proof-search);
+  zzzzzec/jevsort (**1★**; parallel rank vs serial);
+  rupeshpoojary9/awesome-open-system-one (**0★**;
+  curated open System One ecosystem catalog);
+  LYchoon/paper-radar-jev (**0★**; size **73**;
+  knowledge-work paper radar).
+- Formal methods compose with scoring; a Noul is a SENSOR.
+  Treating a catalog row as a bake-off win, treating
+  constructed scenes as production logs, pasting Hev
+  80.00% as Jev identity, quoting mini-jev 93.25% as
+  family-disjoint, putting Jev in an AR next-token loop,
+  laundering a Noul as a Lean step, treating parallel
+  rank-k as a sort proof, pasting a curated list’s von
+  sub-15ms as an Augustus fact, or hard-thresholding
+  paper-radar 0.5 as frequency is soundness theater.
+  ChatJev-style soundness theater is the anti-pattern.
+- Pulse (do not invent): Archer still NOT landed. Hub
+  archerhume/4rcherhume HTTP **401**. Tracker likes **54**;
+  lastModified `2026-09-20T02:59:13Z` (not re-fetched as
+  a rewrite). Live REST (review relock): SemIf **2019★**;
+  jevlike **1006★** (+4 vs §102 1002); TypeAR **12★**
+  **flat**. AnotiaWang/awesome-jev **87★** (+1 vs §102 **86**) ≠ Awesomejev
+  561/27007. Qwen3.8-27B ≠ Archer. X MCP not used; no
+  invented tweets.
+- Cards: SKILL.md, mixed-architecture fail table +
+  gallery, faq, mental-models Apply 2246, judgment-class,
+  validation, applied-mappings, mappings, toolbox,
+  composition-algebra items 129–137, question-design,
+  methods-catalog, formal-methods, agent-self-assessment,
+  ecosystem, CHANGELOG, README.
+- notes.md §103; sources.json; findings.md batch #86.
+  No wrapper. Do **not** merge from this review.
+- Adversarial review honesty locks: system-one-bench size
+  **90** HEAD `ceb17269` README SHA `d9e0c7b7` (live
+  rewrite after pin `4a83bae6` / `3e7109bf`; 19 reviewed
+  records); hev size **2318**; GitHub size 0 with
+  contents (jev-eval / ChatJev / alpha-proof);
+  mini-jev size **38370**; awesome-open-system-one size **4**;
+  paper-radar size **73** default **master**; license null
+  (ChatJev / alpha-proof / jevsort); CC0 SPDX NOASSERTION
+  (awesome-open-system-one); Hub OWNER not published (hev);
+  0★ HIGH still got a real card (jevsort **1★**).
+  **Review FAIL then lock:** reachjalil/system-one-bench ≠
+  mallahyari/system-one-benchmark; SivletLabs/jev-eval ≠
+  willkelly/jev-evaluation ≠ 4esv/jev-eval; ChatJev ≠
+  jev-gpt; live REST SemIf **2019★** / jevlike **1006★** /
+  TypeAR **12★**.
+  **PR #21 adversarial FAIL then lock:** PRIMARY HEAD
+  `4a83bae6`→`ceb17269` / README `3e7109bf`→`d9e0c7b7` /
+  12→19 reviewed records; jevsort HEAD `2d960ab9`→`57067b90`
+  / README `cbe5e6bf`→`85044740`; SemIf **2012★**→**2019★**
+  (+19 vs §102 **2000**); ChatJev **0★**→**1★**; mini-jev
+  size **0**→**38370**; awesome-open-system-one size **0**→**4**.
+  TokenTrim 62.4% still *theirs* in `records/routing-ablation.md`.
+  PRIMARY HEAD continued `6ff27aa8`→`ceb17269` (recipe-smoke
+  commits; README SHA unchanged `d9e0c7b7`; 19 records).
+  Do not dump smoke JSON / invent Harbor numbers.
+  AnotiaWang/awesome-jev **86★**→**87★**.
+
 ## 2026-09-20T03:45Z — hourly 2145 HIGH (Boise ~21:45 MDT)
 
 - Fresh PR off main after merged #19 (`320aff9` / §101).

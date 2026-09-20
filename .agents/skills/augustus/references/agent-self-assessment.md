@@ -358,6 +358,17 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   (Airlock); ember prior injection crowds out evidence;
   comparative framing is the usable judgment
   (`notes.md` §102).
+  **2246:** catalog `reported` never becomes `reproduced`;
+  19 reviewed records; scores not one leaderboard; TokenTrim no-Jev matched
+  hybrid 62.4%; constructed scenes are not production
+  logs; Hub OWNER not published; confidence =
+  1−normalized entropy, not P(correct); ChatJev-style
+  soundness theater — Jev classifier as autoregressive
+  next-token predictor; do not launder Noul as proof;
+  timeout = censoring; independent questions can
+  conflict; ranking ≠ calibration / 0.5 still soft;
+  fail-open failed evals not marked seen
+  (`notes.md` §103).
   **Lease / retrieve:**
   [invalidate](https://github.com/chopratejas/invalidate) —
   memory leases ended by new evidence; unsure → review
