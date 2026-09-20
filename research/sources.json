@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-20T00:43Z",
+  "retrieved": "2026-09-20T01:43Z",
   "sources": [
     {
       "kind": "docs",
@@ -2220,7 +2220,7 @@
       "kind": "github",
       "title": "chopratejas/invalidate",
       "url": "https://github.com/chopratejas/invalidate",
-      "note": "Python Apache-2.0. Created 2026-09-19T04:26:59Z; 5 stars. Memory leases. 157 cases 89.2%/97.5%/0 false invalidations. MED. notes.md §66."
+      "note": "Apache-2.0. HIGH upgrade of §66 MED. 11★ this pass (was 5). HEAD d6ade601; README SHA 8cccad5f; size 983. memory leases ended by new evidence. six Nouls then fixed rules in code. 0 of 157 false invalidations. questions/plans/directives are not evidence. unsure → review queue. host keeps the store. 89.2%/97.5% *theirs*; tuned on the same 157. Demo invalidate-playground.vercel.app (GitHub homepage null). notes.md §100."
     },
     {
       "kind": "github",
@@ -2448,7 +2448,7 @@
       "kind": "github",
       "title": "mizchi/jevlint",
       "url": "https://github.com/mizchi/jevlint",
-      "note": "TypeScript MIT. Created 2026-09-19T09:31:37Z; default_branch claude/sharp-babbage-58dk1h; 0 stars; size 338. ast-grep subjects x sentence ask: scored by Jev. 13/15 1.00/1.00 theirs. Distinct from huntedman/JevLint. Always qualify owner. notes.md §70."
+      "note": "REDIRECTS to mizchi/jev-lint. Same SHA 62d73f8e / 4c0e37cd. Do not card as a second product. notes.md §70 mechanism; §100 rename lock."
     },
     {
       "kind": "github",
@@ -3432,7 +3432,7 @@
       "kind": "github",
       "title": "sutro-sh/jev-align",
       "url": "https://github.com/sutro-sh/jev-align",
-      "note": "Python Apache-2.0; 60 stars this pass, SIGNAL ★56; forks 7. HEAD 49753df. README SHA 363fccb7. size 3296. human labels only; score never auto-accepts; production capture flywheel. sutro-sh/jev-align ≠ caiovicentino/jev-align. notes.md §93."
+      "note": "Python Apache-2.0; 133★ live / forks 10 (was 60★ / 7). HEAD 49753df9 UNCHANGED vs §93; README SHA 363fccb7 UNCHANGED. build calibrated classifiers from human feedback. human labels only; score never auto-accepts; production capture flywheel. sutro-sh/jev-align ≠ caiovicentino/jev-align. Live-star/framing delta only. Do not re-dump loop. notes.md §100."
     },
     {
       "kind": "github",
@@ -3558,7 +3558,7 @@
       "kind": "github",
       "title": "Kiln-AI/jev_jsonschema",
       "url": "https://github.com/Kiln-AI/jev_jsonschema",
-      "note": "Python MIT; 5 stars. HEAD fccea8c. README SHA f3c94957. size 155. JSON Schema → Jev questions → JSON. Boolean noul_threshold 0.5 is a decoder not a proof. notes.md §96."
+      "note": "Python MIT; 5★ HIGH upgrade of §96 MEDIUM. HEAD fccea8c2 UNCHANGED; README SHA f3c94957 UNCHANGED. JSON Schema → typed JSON via Jev. noul_threshold 0.5 decoder not a proof. IncompatibleSchemaError lists every bad property. notes.md §100."
     },
     {
       "kind": "github",
@@ -3685,6 +3685,60 @@
       "title": "Qwen/Qwen3.8-27B",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
       "note": "HTTP 200; likes 15762; lastModified 2026-08-14T15:00:01Z; author Qwen. ≠ Archer. notes.md §99."
+    },
+    {
+      "kind": "github",
+      "title": "southpolesteve/probably",
+      "url": "https://github.com/southpolesteve/probably",
+      "note": "PRIMARY Augustus hourly 1943. TypeScript MIT; 3★; 0 forks; HEAD 6bf671a4; README SHA c28570a9; size 19; package probably-lang 0.1.0. Jev IS the if-statement. judgments/probabilities drive branches. text model only writes prose. interpreter owns variables/loops/budgets/replay. otherwise maybe / confidence gate. chaos samples after the gate. southpolesteve/probably ≠ carldaws/hunch ≠ feelings ≠ Kungie/gut ≠ Illusion47586/judge ≠ tidymodels/probably. Language not overlay. Do not copy bun/keys. notes.md §100."
+    },
+    {
+      "kind": "docs",
+      "title": "southpolesteve/probably homepage",
+      "url": "https://probably-lang.southpolesteve.workers.dev",
+      "note": "Hosted playground streams recorded runs of bundled examples, not live inference. notes.md §100."
+    },
+    {
+      "kind": "github",
+      "title": "mizorewww/laya-coreml",
+      "url": "https://github.com/mizorewww/laya-coreml",
+      "note": "Apache-2.0 Python; 0★; HEAD 47f4baf0; README SHA 2068c661; size 199. on-device Laya CoreML ANE. ~5 ms P50 short decisions. 189/189 FP16 checkpoint parity. 10× not achieved. mizorewww/laya-coreml ≠ gliner-native-runtime ≠ jevmlx ≠ NandhaKishorM/laya. Do not copy convert recipes. notes.md §100."
+    },
+    {
+      "kind": "github",
+      "title": "samdotmak/jev-recall",
+      "url": "https://github.com/samdotmak/jev-recall",
+      "note": "MIT; 6★ live (watch 5); HEAD d3e4acfb; README SHA ea774519; size 11386. retrieve by relevance not resemblance. one calibrated yes/no per memory in one request. pointer mode 17/18 19/20 *theirs*. embedding resemblance misses the allergy. samdotmak/jev-recall ≠ jev-search ≠ jev-sift ≠ carryforward ≠ chopratejas/invalidate. Demo jev-recall.vercel.app (GitHub homepage null). notes.md §100."
+    },
+    {
+      "kind": "github",
+      "title": "direwolfiy/JevPi",
+      "url": "https://github.com/direwolfiy/JevPi",
+      "note": "TypeScript; GitHub license null; 0★; HEAD 980f8895; README SHA 88ec1a55; GitHub size 0 with contents present; package jevpi 0.1.0. Jev-first Pi agent loop. slow-LLM fallback. explicit action menu / CandidateSource unimplemented. 62 tests wiring not quality. direwolfiy/JevPi ≠ standardagents/jevpilot ≠ pi-jev-control. notes.md §100."
+    },
+    {
+      "kind": "github",
+      "title": "Micha0827/snapjudge",
+      "url": "https://github.com/Micha0827/snapjudge",
+      "note": "Python MIT; 3★ live (watch 2); HEAD 2df5ce27; README SHA 64a91458; size 4262. softmax over allowed tokens ≠ Noul. question-first cache. Micha0827/snapjudge ≠ githubnext/localjev ≠ jevmlx ≠ cendress/SnapJudge. Do not dump engine. notes.md §100."
+    },
+    {
+      "kind": "github",
+      "title": "mizchi/jev-lint",
+      "url": "https://github.com/mizchi/jev-lint",
+      "note": "TypeScript MIT; 13★; HEAD 62d73f8e BYTE-IDENTICAL to mizchi/jevlint; README SHA 4c0e37cd identical; created_at 2026-09-19T09:31:37Z; GitHub canonical full_name mizchi/jev-lint (jevlint REDIRECTS). name↔body / comment truth / test-claims. mizchi/jev-lint is mizchi/jevlint rename. no shipped rule has severity error. ~1 in 5 findings wrong *theirs*. mizchi/jev-lint ≠ huntedman/JevLint ≠ MichitoSugawara/jev-lint. Not a second product. notes.md §100."
+    },
+    {
+      "kind": "github",
+      "title": "caiovicentino/jev-align",
+      "url": "https://github.com/caiovicentino/jev-align",
+      "note": "MIT; 4★ this pass. Calibrated alignment verifier, not a definition optimizer. sutro-sh/jev-align ≠ caiovicentino/jev-align. notes.md §100."
+    },
+    {
+      "kind": "github",
+      "title": "mizorewww/laya-mlx",
+      "url": "https://github.com/mizorewww/laya-mlx",
+      "note": "Apache-2.0; 4★. Sibling MLX comparison arm of laya-coreml (7–14 ms short decisions on M3 Max). Not the 1943 ANE card. notes.md §100."
     }
   ]
 }

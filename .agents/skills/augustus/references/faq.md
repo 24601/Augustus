@@ -1459,13 +1459,16 @@ Distinct from jev-handoff (baton around an existing host).
 
 ## Is jevlint the same as JevLint?
 
-No. **Always qualify the owner.**
-[mizchi/jevlint](https://github.com/mizchi/jevlint):
+No. **Always qualify the owner.** Canonical GitHub name
+is now [mizchi/jev-lint](https://github.com/mizchi/jev-lint)
+(rename of [mizchi/jevlint](https://github.com/mizchi/jevlint);
+same SHA; `jevlint` redirects — not a second product).
 ast-grep subjects × sentence `ask:` (matcher silent, Jev
-loud; 13/15 1.00/1.00 *theirs*).
+loud; 13/15 1.00/1.00 older corpus *theirs*; ~1 in 5
+findings wrong *this README*).
 [huntedman/JevLint](https://github.com/huntedman/JevLint)
 is file-level convention Nouls (§26). Independent of
-eslint-plugin-jev. `notes.md` §26, §70.
+eslint-plugin-jev. `notes.md` §26, §70, §100.
 
 ## Can I treat a local `/v1/systemone` as Jev?
 
@@ -2872,3 +2875,49 @@ No, no, and no. typed judgments vs chat judges on guardrailing. nothing wins out
 ## Did Archer land this hour? Treat Qwen/Qwen3.8-27B as Archer? Invent tweets?
 
 No, no, and no. Hub `archerhume/4rcherhume` HTTP **401**. `Qwen/Qwen3.8-27B` HTTP **200** likes **15762** lastModified **2026-08-14T15:00:01Z**, author Qwen — ≠ Archer. Tracker likes **51** flat; lastModified UNCHANGED `2026-09-19T18:37:18.000Z`. X MCP flap: since_id held `2100958005663568282`; pages_archived 0; invented_signal: false. Live REST: SemIf **1936★**; jevlike **983★** (watch claimed 984); TypeAR-AI/TypeAR **11★** flat. Awesomejev 561/27007 user-provided. `notes.md` §99.
+
+Unique fragments (consecutive): Jev IS the if-statement; judgments/probabilities drive branches; text model only writes prose; interpreter owns variables/loops/budgets/replay; otherwise maybe / confidence gate; chaos samples after the gate; southpolesteve/probably ≠ carldaws/hunch ≠ feelings ≠ Kungie/gut ≠ Illusion47586/judge ≠ tidymodels/probably; 133★ / forks 10 live; build calibrated classifiers from human feedback; retrieve by relevance not resemblance; one calibrated yes/no per memory in one request; pointer mode 17/18 19/20 *theirs*; embedding resemblance misses the allergy; samdotmak/jev-recall ≠ jev-search ≠ jev-sift ≠ carryforward ≠ chopratejas/invalidate; memory leases ended by new evidence; six Nouls then fixed rules in code; 0 of 157 false invalidations; questions/plans/directives are not evidence; unsure → review queue; host keeps the store; name↔body / comment truth / test-claims; mizchi/jev-lint is mizchi/jevlint rename; no shipped rule has severity error; ~1 in 5 findings wrong *theirs*; mizchi/jev-lint ≠ huntedman/JevLint ≠ MichitoSugawara/jev-lint; JSON Schema → typed JSON via Jev; noul_threshold 0.5 decoder not a proof; IncompatibleSchemaError lists every bad property; on-device Laya CoreML ANE; ~5 ms P50 short decisions; 189/189 FP16 checkpoint parity; 10× not achieved; mizorewww/laya-coreml ≠ gliner-native-runtime ≠ jevmlx ≠ NandhaKishorM/laya; softmax over allowed tokens ≠ Noul; question-first cache; Micha0827/snapjudge ≠ githubnext/localjev ≠ jevmlx ≠ cendress/SnapJudge; Jev-first Pi agent loop; slow-LLM fallback; explicit action menu / CandidateSource unimplemented; 62 tests wiring not quality; direwolfiy/JevPi ≠ standardagents/jevpilot ≠ pi-jev-control
+
+## Is southpolesteve/probably a hunch / feelings / gut / Judge overlay? Is it tidymodels/probably? Does the hosted playground run live Jev?
+
+No, no, and no. Jev IS the if-statement. judgments/probabilities drive branches. text model only writes prose. interpreter owns variables/loops/budgets/replay. otherwise maybe / confidence gate. chaos samples after the gate. Language, not a library overlay. Hosted playground streams **recorded** runs of bundled examples. TypeScript MIT; **3★**; HEAD `6bf671a4`; README SHA `c28570a9`; package `probably-lang` 0.1.0. southpolesteve/probably ≠ carldaws/hunch ≠ feelings ≠ Kungie/gut ≠ Illusion47586/judge ≠ tidymodels/probably. Soft Noul ≠ hard safety. `notes.md` §100.
+
+## Hard-gate `feels` 80% as a safety proof? Treat chaos as a calibrated sample of the posterior? Copy bun / Cloudflare / JEV_API_KEY?
+
+No, no, and no. 80% / default 50% loop gate / five-iteration cap / 12-effect budget are sensors + interpreter limits. Chaos samples **after** the confidence gate. Do not copy `bun` / `.env` / Cloudflare tokens. `notes.md` §100.
+
+## Re-dump sutro-sh/jev-align? Did the mechanism change? Collapse it into caiovicentino/jev-align?
+
+No, no, and no. 133★ / forks 10 live. build calibrated classifiers from human feedback. HEAD `49753df9` / README SHA `363fccb7` **unchanged** vs §93. human labels only. score never auto-accepts. production capture flywheel. sutro-sh/jev-align ≠ caiovicentino/jev-align (**4★** verifier). Do not copy `uv` / keys. `notes.md` §100.
+
+## Retrieve by embedding resemblance? Paste pointer 17/18 as Harbor? Treat a miss as “the fact is absent”?
+
+No, no, and no. retrieve by relevance not resemblance. one calibrated yes/no per memory in one request. pointer mode 17/18 19/20 *theirs*. embedding resemblance misses the allergy. The H-1B miss needs outside knowledge. samdotmak/jev-recall ≠ jev-search ≠ jev-sift ≠ carryforward ≠ chopratejas/invalidate. Python + TypeScript MIT; **6★**; HEAD `d3e4acfb`; README SHA `ea774519`. `notes.md` §100.
+
+## Hard-gate 0 of 157 false invalidations as a proof on *your* data? Treat questions/plans/directives as evidence? Let the adapter own the store?
+
+No, no, and no. memory leases ended by new evidence. six Nouls then fixed rules in code. 0 of 157 false invalidations. questions/plans/directives are not evidence. unsure → review queue. host keeps the store. Thresholds tuned on that same 157 — treat as optimistic. Apache-2.0; **11★** (HIGH upgrade of §66 MED ★5); HEAD `d6ade601`; README SHA `8cccad5f`. chopratejas/invalidate ≠ jev-recall ≠ CloudFront `invalidate-*`. `notes.md` §100.
+
+## Is mizchi/jev-lint a second product from jevlint? Fail CI on a shipped warning? Collapse into huntedman/JevLint?
+
+No, no, and no. name↔body / comment truth / test-claims. mizchi/jev-lint is mizchi/jevlint rename (same created_at, HEAD `62d73f8e`, README SHA `4c0e37cd` byte-identical; `mizchi/jevlint` redirects). no shipped rule has severity error. ~1 in 5 findings wrong *theirs*. Fail open: no-verdict ≠ clean. TypeScript MIT; **13★**. mizchi/jev-lint ≠ huntedman/JevLint ≠ MichitoSugawara/jev-lint. `notes.md` §100.
+
+## Is JSON Schema boolean @ 0.5 a safety proof? Does IncompatibleSchemaError hide remaining bad properties? Is this TypeSafe official?
+
+No, no, and no. JSON Schema → typed JSON via Jev. noul_threshold 0.5 decoder not a proof. IncompatibleSchemaError lists every bad property. HIGH upgrade of §96 MEDIUM; HEAD `fccea8c2` / README SHA `f3c94957` **unchanged**. Python MIT; **5★**. **≠** TypeSafe official SDK **≠** TypeAR **≠** jevmlx. `notes.md` §100.
+
+## Paste ANE 4.98 ms as “beats Jev”? Claim 10×? Select `cpu_ne` on the ordinary export? Collapse into gliner-native-runtime?
+
+No, no, no, and no. on-device Laya CoreML ANE. ~5 ms P50 short decisions. 189/189 FP16 checkpoint parity. 10× not achieved. Ordinary `cpu_ne` does **not** reproduce. Apache-2.0; **0★**; HEAD `47f4baf0`; README SHA `2068c661`. mizorewww/laya-coreml ≠ gliner-native-runtime ≠ jevmlx ≠ NandhaKishorM/laya ≠ mizorewww/laya-mlx. `notes.md` §100.
+
+## Is snapjudge softmax a Noul? Is it githubnext/localjev? Paste 87.7 vs 81.2 as identity? Is it Archer?
+
+No, no, no, and no. softmax over allowed tokens ≠ Noul. question-first cache. Independent project, not affiliated with TypeSafe (*theirs*). Probabilities are **not proven to be calibrated**. Python MIT; **3★**; HEAD `2df5ce27`; README SHA `64a91458`. Micha0827/snapjudge ≠ githubnext/localjev ≠ jevmlx ≠ cendress/SnapJudge ≠ Qwen3.8-27B-as-Archer. `notes.md` §100.
+
+## Is JevPi jevpilot? Are 62 tests a quality headline? Is CandidateSource implemented?
+
+No, no, and no. Jev-first Pi agent loop. slow-LLM fallback. explicit action menu / CandidateSource unimplemented. 62 tests wiring not quality. GitHub license **null**; **0★**; HEAD `980f8895`; README SHA `88ec1a55`; GitHub `size` **0** with contents present. direwolfiy/JevPi ≠ standardagents/jevpilot ≠ pi-jev-control. `notes.md` §100.
+
+## Did Archer land this hour? Treat Qwen3.8-27B as Archer? Invent tweets?
+
+No, no, and no. Last pin from §99: Hub `archerhume/4rcherhume` HTTP **401**. Tracker likes **51** flat; lastModified UNCHANGED `2026-09-19T18:37:18.000Z`. Not re-fetched as a rewrite. Live REST pulse: SemIf **1954★** (+18 vs §99 **1936**); jevlike **989★** (+6 vs §99 **983**); TypeAR **11★** flat. AnotiaWang/awesome-jev **83★** ≠ Awesomejev 561/27007. `invented_signal: false`. `notes.md` §100.

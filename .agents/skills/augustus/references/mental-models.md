@@ -235,6 +235,16 @@ Illusion47586/judge ≠ lexingtonhibiki/judgekit ≠
 Ascurse/typed-judge-kit. Soft Noul ≠ hard safety: 0.038
 / `minimum: 0.85` are sensors. Hard-gating the derived
 threshold as a proof is theater.
+**Language primitive (`notes.md` §100):**
+[southpolesteve/probably](https://github.com/southpolesteve/probably)
+(TypeScript MIT; **3★**; HEAD `6bf671a4`; README SHA `c28570a9`)
+— Jev IS the if-statement. judgments/probabilities drive
+branches. text model only writes prose. interpreter owns
+variables/loops/budgets/replay. otherwise maybe / confidence
+gate. chaos samples after the gate.
+southpolesteve/probably ≠ carldaws/hunch ≠ feelings ≠
+Kungie/gut ≠ Illusion47586/judge ≠ tidymodels/probably.
+Language, not a library overlay. Soft Noul ≠ hard safety.
 **Satisficing vs optimizing:** Choice for "good enough" menus; Score for
 graded quality. Do not run MCTS theater when satisficing is the real
 goal (leave-or-stay, send-or-edit, hire / more-interviews).
@@ -595,7 +605,7 @@ Use these as *existence proofs of a position*. Write your own card.
 | LLM hammer for bounded decisions | does this call need generation? | Typed answers when code already knows the options (**Empirical as article**: [@akshay_pachaar](https://x.com/akshay_pachaar/status/2101037514945597645)) | Mixed architecture, not stack replacement |
 | schema-safe ≠ correct | can it still be wrong? | Cannot invent out of schema; can pick the wrong valid option (**Empirical as article**: Akshay; safer *theirs*: schema holds, judgment can fail) | Cousin of type-safe ≠ correct / jaggedness |
 | Questions-as-code / shadow rollout | may this branch go live? | Rubric first; shadow beside current; plot accuracy vs confidence; pin questions (**Empirical as article**: Akshay) | Do not rebuild the agent first. 200×/400× are TypeSafe ceiling |
-| Sentence-as-rule | does this named artifact contradict itself | Structural matcher × one sentence scored (**Empirical**: mizchi/jevlint 13/15 1.00/1.00 *theirs*) | Mechanical defects stay with the compiler; qualify vs huntedman/JevLint |
+| Sentence-as-rule | does this named artifact contradict itself | Structural matcher × one sentence scored (**Empirical**: mizchi/jev-lint is jevlint rename; ~1 in 5 wrong *this README*; 13/15 older corpus *theirs*) | Mechanical defects stay with the compiler; qualify vs huntedman/JevLint |
 | VOI admission (expensive review) | which hunks are worth a generative look | Typed per-hunk probabilities; safety keep-set in code (**Empirical as pilot**: prune-review 1.18% with 305% outlier *theirs*) | Cost ≠ quality; ~20% is a target not a result |
 | Whole-repo intent | does unchanged code still violate the ask | VERIFIED/VIOLATION/UNKNOWN (**Empirical as CLI**: jev-intent-review) | Empty search ≠ proof; observation window ≠ the diff |
 | Persist constraints | will "don't touch that" survive compaction | Structured policy + replay; Jev classifies meaning (**Empirical**: pi-heed 98.5%/0 false block *theirs*) | Jev never writes policy; fail-open |
@@ -1266,6 +1276,135 @@ same theater as jev-gate §79.
 Formal methods **compose** with scoring. A
 Noul is a SENSOR. The cost table / callback
 map / commit guard is policy.
+
+
+## Apply 1943 (`notes.md` §100)
+
+Same pillars, six HIGH clusters (Jev IS the if-statement
+PRIMARY; GEPA live-star delta; memory retrieve vs lease;
+contract-of-artifact lint rename; JSON Schema question
+compiler; local System One economics). Do **not** re-fold
+1843 / §99 / 1740 / §98 / 1639 / §96 /
+gliner-native-runtime / §97 / 1541 / §95 / jev-align
+*mechanism* / §93. Fresh PR; never reopen merged
+#7–**#17**. Skip Archer rewrite (still **NOT landed**;
+likes 51 **flat**; lastModified UNCHANGED). Quote live
+REST over watch claims. `invented_signal: false`.
+probably is a **language**, not a library overlay.
+jev-align is a live-star / framing delta of §93, not a
+new mechanism. jev-lint **is** jevlint (GitHub rename).
+invalidate / jev_jsonschema are HIGH upgrades.
+0★ HIGH still gets a real card.
+
+Unique consecutive fragments:
+Jev IS the if-statement;
+judgments/probabilities drive branches;
+text model only writes prose;
+interpreter owns variables/loops/budgets/replay;
+otherwise maybe / confidence gate;
+chaos samples after the gate;
+southpolesteve/probably ≠ carldaws/hunch ≠ feelings ≠ Kungie/gut ≠ Illusion47586/judge ≠ tidymodels/probably;
+133★ / forks 10 live;
+build calibrated classifiers from human feedback;
+retrieve by relevance not resemblance;
+one calibrated yes/no per memory in one request;
+pointer mode 17/18 19/20 *theirs*;
+embedding resemblance misses the allergy;
+samdotmak/jev-recall ≠ jev-search ≠ jev-sift ≠ carryforward ≠ chopratejas/invalidate;
+memory leases ended by new evidence;
+six Nouls then fixed rules in code;
+0 of 157 false invalidations;
+questions/plans/directives are not evidence;
+unsure → review queue;
+host keeps the store;
+name↔body / comment truth / test-claims;
+mizchi/jev-lint is mizchi/jevlint rename;
+no shipped rule has severity error;
+~1 in 5 findings wrong *theirs*;
+mizchi/jev-lint ≠ huntedman/JevLint ≠ MichitoSugawara/jev-lint;
+JSON Schema → typed JSON via Jev;
+noul_threshold 0.5 decoder not a proof;
+IncompatibleSchemaError lists every bad property;
+on-device Laya CoreML ANE;
+~5 ms P50 short decisions;
+189/189 FP16 checkpoint parity;
+10× not achieved;
+mizorewww/laya-coreml ≠ gliner-native-runtime ≠ jevmlx ≠ NandhaKishorM/laya;
+softmax over allowed tokens ≠ Noul;
+question-first cache;
+Micha0827/snapjudge ≠ githubnext/localjev ≠ jevmlx ≠ cendress/SnapJudge;
+Jev-first Pi agent loop;
+slow-LLM fallback;
+explicit action menu / CandidateSource unimplemented;
+62 tests wiring not quality;
+direwolfiy/JevPi ≠ standardagents/jevpilot ≠ pi-jev-control.
+
+1. **Jev IS the if-statement** (PRIMARY) —
+   judgments/probabilities drive branches.
+   text model only writes prose.
+   interpreter owns variables/loops/budgets/replay.
+   otherwise maybe / confidence gate.
+   chaos samples after the gate.
+   southpolesteve/probably ≠ carldaws/hunch ≠ feelings ≠
+   Kungie/gut ≠ Illusion47586/judge ≠ tidymodels/probably.
+2. **GEPA alignment loop live delta** —
+   133★ / forks 10 live.
+   build calibrated classifiers from human feedback.
+   HEAD/README SHA unchanged vs §93. Do **not** re-dump
+   the loop.
+3. **Memory: retrieve vs lease** —
+   retrieve by relevance not resemblance.
+   one calibrated yes/no per memory in one request.
+   pointer mode 17/18 19/20 *theirs*.
+   embedding resemblance misses the allergy.
+   samdotmak/jev-recall ≠ jev-search ≠ jev-sift ≠
+   carryforward ≠ chopratejas/invalidate.
+   memory leases ended by new evidence.
+   six Nouls then fixed rules in code.
+   0 of 157 false invalidations.
+   questions/plans/directives are not evidence.
+   unsure → review queue.
+   host keeps the store.
+4. **Contract-of-artifact lint** —
+   name↔body / comment truth / test-claims.
+   mizchi/jev-lint is mizchi/jevlint rename.
+   no shipped rule has severity error.
+   ~1 in 5 findings wrong *theirs*.
+   mizchi/jev-lint ≠ huntedman/JevLint ≠
+   MichitoSugawara/jev-lint.
+5. **JSON Schema as question compiler** —
+   JSON Schema → typed JSON via Jev.
+   noul_threshold 0.5 decoder not a proof.
+   IncompatibleSchemaError lists every bad property.
+6. **Local System One economics** —
+   on-device Laya CoreML ANE.
+   ~5 ms P50 short decisions.
+   189/189 FP16 checkpoint parity.
+   10× not achieved.
+   mizorewww/laya-coreml ≠ gliner-native-runtime ≠ jevmlx
+   ≠ NandhaKishorM/laya.
+   softmax over allowed tokens ≠ Noul.
+   question-first cache.
+   Micha0827/snapjudge ≠ githubnext/localjev ≠ jevmlx ≠
+   cendress/SnapJudge.
+   Jev-first Pi agent loop.
+   slow-LLM fallback.
+   explicit action menu / CandidateSource unimplemented.
+   62 tests wiring not quality.
+   direwolfiy/JevPi ≠ standardagents/jevpilot ≠
+   pi-jev-control.
+
+Soft Noul ≠ hard safety. 80% / 17/18 / 0 of 157 /
+4.98 ms / 189/189 / 87.7 vs 81.2 / 62 tests are
+**sensors**. Hard-gating `feels`, pasting 17/18 as
+Harbor, hard-gating 0 of 157 as a proof, treating
+boolean @ 0.5 as safety, claiming 10×, treating
+softmax as a Noul, or treating wiring tests as quality
+is the same theater as jev-gate §79.
+
+Formal methods **compose** with scoring. A Noul is a
+SENSOR. The interpreter / lease policy / schema
+envelope / AST matcher is exact work.
 
 ## Decision-design extras (any domain)
 

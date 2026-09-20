@@ -188,7 +188,16 @@ fail closed. Stub backend for tests. Same interface ≠ same
 guarantees for a future LLM backend. Cousin of probably-lang
 (a language whose loop conditions are feelings) — this is a
 library, not a new language. Do not copy gem/Rails
-(`notes.md` §55). **BAML typed if (Empirical as README;
+(`notes.md` §55). **Productized language (Empirical as README +
+interpreter contract; 2026-09-19 ~19:43):**
+[southpolesteve/probably](https://github.com/southpolesteve/probably)
+(TypeScript MIT; **3★**) — Jev IS the if-statement.
+judgments/probabilities drive branches. text model only
+writes prose. interpreter owns variables/loops/budgets/replay.
+otherwise maybe / confidence gate. chaos samples after the
+gate. southpolesteve/probably ≠ carldaws/hunch ≠ feelings ≠
+Kungie/gut ≠ Illusion47586/judge ≠ tidymodels/probably.
+`notes.md` §100. **BAML typed if (Empirical as README;
 2026-09-19 ~17:49):**
 [feelings](https://github.com/BoundaryML/feelings)
 (license null; **0★**) — `.feels()` / `.how()` /
@@ -1412,6 +1421,18 @@ is theater. [Illusion47586/judge](https://github.com/Illusion47586/judge)
 — exactly one app-owned callback; explicit uncertain
 branch. Deeper integrity fold is rh-guard
 (`notes.md` §99).
+**Memory retrieve vs lease (Empirical as README;
+2026-09-19 ~19:43):**
+[samdotmak/jev-recall](https://github.com/samdotmak/jev-recall)
+— retrieve by relevance not resemblance. one calibrated
+yes/no per memory in one request. pointer mode 17/18 19/20
+*theirs*. embedding resemblance misses the allergy.
+[chopratejas/invalidate](https://github.com/chopratejas/invalidate)
+— memory leases ended by new evidence. six Nouls then
+fixed rules in code. 0 of 157 false invalidations.
+questions/plans/directives are not evidence. unsure →
+review queue. host keeps the store. Soft Noul ≠ hard
+safety. `notes.md` §100.
 **Authorship / jevtest-as-merge-seal (rh-guard owns the
 gate cousin; 2026-09-19 ~16:52):**
 [jev-authorship-check](https://github.com/webstercharly/jev-authorship-check)

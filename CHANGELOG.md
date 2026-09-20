@@ -1596,6 +1596,81 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   Hub `archerhume/4rcherhume` HTTP **401**. Archer still NOT
   landed. Do not copy keys / `uv` / `cargo` / `.env`. No
   wrapper. No invented metrics.
+- Hourly 1943 HIGH (`research/notes.md` §100): **Skip
+  Archer rewrite.** Docs-only on a **fresh PR off main**.
+  Never reopen merged #7–**#17**. Do **not** re-fold 1843
+  / §99 / 1740 / §98 / 1639 / §96 / gliner-native-runtime
+  / §97 / 1541 / §95 / jev-align *mechanism* / §93.
+  How-to-apply / mental models / architecture /
+  Harbor-jevals / toolbelt — not a thin Jev skill dump.
+  Backend-agnostic categorization/scoring/decision class.
+  Formal methods compose with scoring; a Noul is a SENSOR;
+  hard-gating `feels` 80%, pasting 17/18 as Harbor,
+  hard-gating 0 of 157, treating boolean @ 0.5 as a proof,
+  claiming 10×, treating softmax as a Noul, or treating 62
+  tests as quality is soundness theater. Six HIGH clusters:
+  **Jev IS the if-statement**
+  ([southpolesteve/probably](https://github.com/southpolesteve/probably)
+  PRIMARY; judgments/probabilities drive branches; text
+  model only writes prose; interpreter owns
+  variables/loops/budgets/replay; otherwise maybe /
+  confidence gate; chaos samples after the gate;
+  southpolesteve/probably ≠ carldaws/hunch ≠ feelings ≠
+  Kungie/gut ≠ Illusion47586/judge ≠ tidymodels/probably;
+  TypeScript MIT; **3★**; HEAD `6bf671a4`; README SHA
+  `c28570a9`); **GEPA live delta**
+  ([sutro-sh/jev-align](https://github.com/sutro-sh/jev-align)
+  133★ / forks 10 live; build calibrated classifiers from
+  human feedback; HEAD `49753df9` / README SHA `363fccb7`
+  unchanged vs §93); **retrieve by relevance not
+  resemblance**
+  ([samdotmak/jev-recall](https://github.com/samdotmak/jev-recall)
+  one calibrated yes/no per memory in one request; pointer
+  mode 17/18 19/20 *theirs*; embedding resemblance misses
+  the allergy; MIT; **6★**; HEAD `d3e4acfb`; README SHA
+  `ea774519`); **memory leases ended by new evidence**
+  ([chopratejas/invalidate](https://github.com/chopratejas/invalidate)
+  HIGH upgrade; six Nouls then fixed rules in code; 0 of
+  157 false invalidations; questions/plans/directives are
+  not evidence; unsure → review queue; host keeps the
+  store; Apache-2.0; **11★**; HEAD `d6ade601`; README SHA
+  `8cccad5f`); **contract-of-artifact lint rename**
+  ([mizchi/jev-lint](https://github.com/mizchi/jev-lint)
+  is mizchi/jevlint rename; name↔body / comment truth /
+  test-claims; no shipped rule has severity error; ~1 in 5
+  findings wrong *theirs*; TypeScript MIT; **13★**; HEAD
+  `62d73f8e`; README SHA `4c0e37cd`); **JSON Schema
+  question compiler**
+  ([Kiln-AI/jev_jsonschema](https://github.com/Kiln-AI/jev_jsonschema)
+  HIGH upgrade; JSON Schema → typed JSON via Jev;
+  noul_threshold 0.5 decoder not a proof;
+  IncompatibleSchemaError lists every bad property; MIT;
+  **5★**; HEAD `fccea8c2` unchanged); **local System One
+  economics**
+  ([mizorewww/laya-coreml](https://github.com/mizorewww/laya-coreml)
+  on-device Laya CoreML ANE; ~5 ms P50 short decisions;
+  189/189 FP16 checkpoint parity; 10× not achieved;
+  Apache-2.0; **0★**; HEAD `47f4baf0`; README SHA
+  `2068c661`) +
+  ([Micha0827/snapjudge](https://github.com/Micha0827/snapjudge)
+  softmax over allowed tokens ≠ Noul; question-first
+  cache; Python MIT; **3★**; HEAD `2df5ce27`; README SHA
+  `64a91458`) +
+  ([direwolfiy/JevPi](https://github.com/direwolfiy/JevPi)
+  Jev-first Pi agent loop; slow-LLM fallback; explicit
+  action menu / CandidateSource unimplemented; 62 tests
+  wiring not quality; license null; **0★**; HEAD
+  `980f8895`; README SHA `88ec1a55`). Soft Noul ≠ hard
+  safety. 0★ HIGH still got a real card. Census **live
+  REST pulse**: SemIf **1954★**; jevlike **989★**; TypeAR
+  **11★** flat. Tracker likes **51** flat; lastModified
+  UNCHANGED 2026-09-19T18:37:18Z; Hub
+  `archerhume/4rcherhume` HTTP **401** (not re-fetched as
+  a rewrite). Archer still NOT landed. Awesomejev
+  561/27007 user-provided (≠ AnotiaWang/awesome-jev 83★).
+  `invented_signal: false`. Do not copy keys / `bun` /
+  `pip` / `npx` / `uv` / HF download. No wrapper. No
+  invented metrics.
 - Hourly 1843 HIGH (`research/notes.md` §99): **Skip
   Archer rewrite.** Docs-only on a **fresh PR off main**.
   Never reopen merged #7–**#16**. Do **not** re-fold 1740

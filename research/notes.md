@@ -18249,3 +18249,1131 @@ items 97–101; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
+
+## 100. Hourly 1943 HIGH (2026-09-19 ~19:43 Boise / 2026-09-20T01:43Z)
+
+Docs-only on a **fresh PR off main**
+(`cursor/hourly-1943-probably-jev-align-0408`).
+**Never reopen merged** Augustus PR #7 / **#8** /
+**#9** / **#10** / **#12** / **#13** / **#14** /
+**#15** / **#16** / **#17**. After merged #17
+(`b844cb6`, hourly 1843 / `notes.md` §99). Do
+**not** re-fold §93 / §94 / §95 / §96 / §97 /
+§98 / §99. Quote READMEs. Mark *theirs*. No
+invented metrics. Hunches labeled. No wrappers,
+`bun install` / `pip install` / `npx` /
+`TYPESAFE_API_KEY` / `uv` / `.env` as recipes.
+0★ HIGH still gets a real card. Do **not** dump
+source / SDK / weights / training corpora.
+`invented_signal: false`. Prior fold agent
+`bc-562b8004-e121-5379-a560-cc1082f67e93` is
+**finished**; do **not** reply to that agent or
+push onto its branch. Skip Archer rewrite.
+
+Lane is Augustus: **mental models / architecture /
+Harbor-jevals / toolbelt**. Backend-agnostic
+categorization/scoring/decision class (Jev-like
+speed/econ), **not** a thin Jev-only dump. Design
+judgment, formal/semi-formal methods, decision
+theory, scoring class. Soft Noul ≠ hard safety.
+**probably is a language, not a library overlay.**
+jev-align is a **live-star / framing delta of
+§93**, not a new mechanism. jev-lint **is**
+jevlint (GitHub rename), not a second product.
+invalidate / jev_jsonschema are **HIGH upgrades**
+of earlier MED/MEDIUM cards. Local replicas
+(laya-coreml / snapjudge / JevPi) are **class
+economics**, not new species. rh-guard owns the
+thin gate cousins (false-invalidation-as-proof;
+lint-Noul-as-merge-seal; HIT-as-truth). Augustus
+**owns placement**. Quote live REST/stars over
+watch claims.
+
+Unique consecutive fragments (this hour):
+Jev IS the if-statement;
+judgments/probabilities drive branches;
+text model only writes prose;
+interpreter owns variables/loops/budgets/replay;
+otherwise maybe / confidence gate;
+chaos samples after the gate;
+southpolesteve/probably ≠ carldaws/hunch ≠ feelings ≠ Kungie/gut ≠ Illusion47586/judge ≠ tidymodels/probably;
+133★ / forks 10 live;
+build calibrated classifiers from human feedback;
+retrieve by relevance not resemblance;
+one calibrated yes/no per memory in one request;
+pointer mode 17/18 19/20 *theirs*;
+embedding resemblance misses the allergy;
+samdotmak/jev-recall ≠ jev-search ≠ jev-sift ≠ carryforward ≠ chopratejas/invalidate;
+memory leases ended by new evidence;
+six Nouls then fixed rules in code;
+0 of 157 false invalidations;
+questions/plans/directives are not evidence;
+unsure → review queue;
+host keeps the store;
+name↔body / comment truth / test-claims;
+mizchi/jev-lint is mizchi/jevlint rename;
+no shipped rule has severity error;
+~1 in 5 findings wrong *theirs*;
+mizchi/jev-lint ≠ huntedman/JevLint ≠ MichitoSugawara/jev-lint;
+JSON Schema → typed JSON via Jev;
+noul_threshold 0.5 decoder not a proof;
+IncompatibleSchemaError lists every bad property;
+on-device Laya CoreML ANE;
+~5 ms P50 short decisions;
+189/189 FP16 checkpoint parity;
+10× not achieved;
+mizorewww/laya-coreml ≠ gliner-native-runtime ≠ jevmlx ≠ NandhaKishorM/laya;
+softmax over allowed tokens ≠ Noul;
+question-first cache;
+Micha0827/snapjudge ≠ githubnext/localjev ≠ jevmlx ≠ cendress/SnapJudge;
+Jev-first Pi agent loop;
+slow-LLM fallback;
+explicit action menu / CandidateSource unimplemented;
+62 tests wiring not quality;
+direwolfiy/JevPi ≠ standardagents/jevpilot ≠ pi-jev-control.
+
+### How-to-apply (six HIGH clusters)
+
+1. **Jev IS the if-statement** (PRIMARY
+   Augustus) — a programming language whose
+   branches and loops *are* judgments. Jev
+   supplies probabilities; a text model only
+   writes prose; the interpreter owns variables,
+   budgets, and replay. Confidence is a gate
+   (`otherwise maybe`); `chaos` samples after
+   that gate. Language, not a library overlay.
+   Transfers to AI, SWE, business, knowledge
+   work, and life as *control-flow over belief*.
+2. **GEPA alignment loop live delta** — same
+   mechanism as §93 (human labels only; score
+   never auto-accepts; production capture
+   flywheel). This hour: **133★ / forks 10
+   live**; GitHub description now *build
+   calibrated classifiers from human feedback*.
+   README SHA / HEAD **unchanged**. Do **not**
+   re-dump the loop.
+3. **Memory: retrieve vs lease** — two
+   complementary holes. Retrieve by *relevance
+   not resemblance* (one calibrated yes/no per
+   memory in one request). Invalidate by *lease
+   ended by new evidence* (six Nouls then fixed
+   rules in code). Host keeps the store.
+   Questions/plans/directives are not evidence.
+   Unsure → review queue.
+4. **Contract-of-artifact lint** — name↔body /
+   comment truth / test-claims. Matcher silent /
+   Jev loud. GitHub rename: mizchi/jev-lint **is**
+   mizchi/jevlint. No shipped rule has severity
+   error. ~1 in 5 findings wrong *theirs*. Fail
+   open: no-verdict ≠ clean.
+5. **JSON Schema as question compiler** — schema
+   → Jev questions → typed JSON. Boolean @ 0.5
+   is a **decoder**, not a proof. Loud refusal
+   of free-form / `$ref` / `anyOf`. Upgrade of
+   §96 MEDIUM.
+6. **Local System One economics** — on-device
+   Laya CoreML ANE (~5 ms P50; 189/189 FP16
+   parity; 10× **not** achieved). Local
+   `/v1/systemone` on MLX Qwen (softmax ≠ Noul;
+   question-first cache). Jev-first Pi agent
+   loop with slow-LLM fallback (explicit action
+   menu; CandidateSource unimplemented; 62 tests
+   are wiring, not quality). Replica honesty.
+
+### Cards
+
+1. **Judgment as a language primitive
+   (PRIMARY)**
+
+   - **[`southpolesteve/probably`](https://github.com/southpolesteve/probably)**
+     (TypeScript MIT; **3★** live REST; 0 forks;
+     created 2026-09-19T16:08:47Z; pushed
+     2026-09-19T23:53:16Z; updated
+     2026-09-19T23:53:20Z; HEAD `6bf671a4`;
+     README SHA `c28570a9`; GitHub `size` **19**;
+     language TypeScript; topics empty;
+     homepage
+     [probably-lang.southpolesteve.workers.dev](https://probably-lang.southpolesteve.workers.dev)).
+     Package `probably-lang` **0.1.0** (private).
+     GitHub description *theirs*: "A small
+     programming language for LLM workflows,
+     powered by Jev." README *theirs*: "What if
+     Jev actually *was* your if statement? Jev
+     supplies judgments and probabilities, a
+     text model generates prose, and your
+     program connects the two with branches and
+     loops." "This is an experimental toy
+     language, but the parser and interpreter
+     are real: they execute the program rather
+     than asking an LLM to interpret it." Do
+     **not** dump `src/`. Do not copy `bun` /
+     Cloudflare / `JEV_API_KEY` recipes.
+
+     Load-bearing loop (README *theirs*):
+
+     ```text
+     if value feels "description" { … }
+       with confidence 80%
+       otherwise maybe { … }
+       else { … }
+     while value feels "description" { … }   # ≤5 iterations
+     match value { "label" => { … } … }     # 2–8 labels
+     llm "instruction" using value          # text model only writes
+     chaos { … }                            # sample after the gate
+     ```
+
+     `if` takes the highest-probability yes/no
+     branch. Confidence thresholds apply
+     *symmetrically*: with 80%, a 90% yes runs
+     the first branch, a 90% no runs `else`,
+     and a 60/40 split runs `otherwise maybe`.
+     If the maybe block is omitted, uncertainty
+     executes **neither** branch. This threshold
+     uses the **choice probability**, not Jev's
+     separate confidence field. Ties use the
+     first label (yes for `if`). `match` has no
+     implicit uncertainty branch. Chaos checks
+     the confidence gate first, then samples if
+     that gate passes — a minority answer may
+     therefore be chosen. Semantic loops use
+     the default 50% gate. A loop that remains
+     true after five iterations raises an
+     explicit error. Every run is limited to 12
+     model effects, 200 executed statements and
+     90 seconds. Source is parsed into a bounded
+     syntax tree; it is **never evaluated as
+     JavaScript**. Model calls receive
+     explicitly supplied values; they do not
+     see the entire program. Record/replay
+     saves source, input, generated text,
+     probabilities, and random draws; replay
+     needs no credentials and rejects
+     mismatched tapes. Tests use local fake
+     providers. Hosted playground streams
+     **recorded** runs of bundled examples.
+
+     Jev IS the if-statement.
+     judgments/probabilities drive branches.
+     text model only writes prose.
+     interpreter owns variables/loops/budgets/replay.
+     otherwise maybe / confidence gate.
+     chaos samples after the gate.
+
+     **Placement.** Composition-algebra
+     **conditional operator / loop predicate**
+     (new position named at launch-week
+     findings; this hour is the **productized
+     language**). Pillar: decision theory +
+     search/control (judgment as a sensor in a
+     loop you own) + selective classification
+     (`otherwise maybe` is Chow abstention).
+     Hole: gate / route / abstain. Family:
+     TypeSafe Jev for `feels` / `match`; a
+     generative model **only** for `llm`. Fail
+     polarity: **per construct** — omitting
+     `otherwise maybe` is fail-closed on
+     uncertainty (neither branch); `chaos`
+     after a passed gate is *sampling*, not a
+     proof. Eval path: fake-provider tests
+     *theirs*; **no published Harbor**.
+     **Empirical** as README + interpreter
+     contract. **Hypothesis** that the language
+     transfers to *your* inbox / triage /
+     rewrite loops. Cross-domain: business
+     (route a ticket); knowledge work (rewrite
+     until it stops feeling like LinkedIn);
+     life (if this email feels urgent, draft;
+     otherwise maybe wait). Compose with gut
+     §99: costs → YES/NO/UNSURE; Probably
+     *is* the `if`. Compose with Judge §99:
+     Judge maps a decision to one callback;
+     Probably *is* the branch. Compose with
+     DGP §98: the interpreter is the protocol
+     envelope around `feels`.
+
+     **Name lock:** always write
+     **southpolesteve/probably**.
+     southpolesteve/probably ≠ carldaws/hunch
+     ≠ feelings ≠ Kungie/gut ≠
+     Illusion47586/judge ≠ tidymodels/probably
+     (R post-processing, **123★**, different
+     universe) ≠ harlanhaskins/Probably ≠
+     Parsely/probably ≠ propensive/probably.
+     Package name `probably-lang` ≠ the
+     language construct. Soft Noul ≠ hard
+     safety: 80% / default 50% loop gate /
+     five-iteration cap / 12-effect budget are
+     **sensors + interpreter limits**. Hard-
+     gating `feels` as a safety proof is
+     theater. Do not copy `bun` / `.env` /
+     Cloudflare tokens.
+
+2. **GEPA alignment loop live delta**
+   (not a re-fold of §93)
+
+   - **[`sutro-sh/jev-align`](https://github.com/sutro-sh/jev-align)**
+     (Python Apache-2.0; **133★** live REST
+     this hour, §93 card **60★** / SIGNAL ★56;
+     forks **10**, §93 **7**; created
+     2026-09-19T02:12:23Z; pushed
+     2026-09-19T16:58:47Z; updated
+     2026-09-20T01:45:24Z; HEAD `49753df9`
+     **unchanged** vs §93; README SHA
+     `363fccb7` **unchanged** vs §93; GitHub
+     `size` 3296 unchanged; language Python;
+     homepage
+     [pypi.org/project/jev-align](https://pypi.org/project/jev-align/);
+     topics `active-learning`,
+     `classification`, `cli`, `gepa`,
+     `human-in-the-loop`, `jev`,
+     `prompt-optimization`, `typesafe-ai`).
+     GitHub description *this pass*: "Build
+     calibrated AI classifiers from human
+     feedback using Jev and GEPA." Mechanism
+     **unchanged** (README SHA lock): evaluate
+     uncertainty → human labels ambiguous +
+     audit sample → GEPA proposes definition
+     diffs → human accept/reject/rewind.
+     **human labels only. score never
+     auto-accepts. production capture
+     flywheel.** Sutro is not affiliated with
+     TypeSafe (*theirs*). Do **not** re-dump
+     the CLI. Do not copy `uv` / keys.
+
+     133★ / forks 10 live.
+     build calibrated classifiers from human
+     feedback.
+
+     **Placement.** Same as §93: GEPA + System
+     One; inverse of Jev-as-metric
+     (`optimizer-integration.md`). This hour
+     adds **class-level how-to-train-judgments
+     economics** (active learning / prompt
+     optimization as the *job*, not a new
+     species). Pillar: VOI (label the
+     uncertain) + calibration. Hole: gather /
+     replace-one-classifier-step. Family:
+     TypeSafe Jev executor; separate
+     reflection LM. Fail polarity: **fail
+     closed** on auto-accept (human taste
+     gate). Eval path: optional 20% held-out
+     *theirs*; **no published Harbor**.
+     **Empirical** as README (same SHA as
+     §93). **Hypothesis** that GEPA diffs
+     transfer to *your* labels.
+
+     **Name lock:** always write
+     **sutro-sh/jev-align**.
+     sutro-sh/jev-align ≠
+     caiovicentino/jev-align (MIT; **4★**
+     this pass; calibrated alignment
+     *verifier*, not a definition optimizer).
+     Soft Noul ≠ hard safety: a rising
+     training score is a **sensor**, not an
+     accept. Do not copy `uv` / keys.
+
+3. **Retrieve by relevance, not resemblance**
+
+   - **[`samdotmak/jev-recall`](https://github.com/samdotmak/jev-recall)**
+     (Python + TypeScript MIT; **6★** live
+     REST, watch attached ★5; 0 forks;
+     created 2026-09-19T20:08:14Z; pushed
+     2026-09-20T00:17:16Z; updated
+     2026-09-20T01:49:13Z; HEAD `d3e4acfb`;
+     README SHA `ea774519`; GitHub `size`
+     11386; language TypeScript; topics
+     `ai-agents`, `embeddings`, `llm`,
+     `memory`, `nextjs`, `rag`, `retrieval`,
+     `typesafe`; GitHub homepage **null**;
+     README live demo
+     [jev-recall.vercel.app](https://jev-recall.vercel.app)).
+     GitHub description *theirs*: "Retrieve
+     by relevance, not resemblance: filter an
+     AI assistant's memories with TypeSafe's
+     Jev." README *theirs*: "LLM re-ranker
+     quality retreival at semantic search
+     prices and speed" (typo *theirs*).
+     "one calibrated yes/no per memory, in a
+     single request." "Because the
+     probabilities are calibrated, you keep
+     everything above a threshold instead of
+     guessing at a top-k, and nothing is
+     returned when nothing applies." Do **not**
+     dump `src/` or the 238-memory fixture as
+     a Harbor taskset.
+
+     Three modes *theirs*: **pointer** (shared
+     `state`, tiny yes/no pointing at an id —
+     default); `inline` (memory text in the
+     question); `shortlist` (Choice then
+     verify top candidates). Large stores
+     shard across concurrent requests.
+
+     Bench *theirs* (2026-09-19; `jev-1.13.0`;
+     238 fictional memories; 18 requests
+     where the memory that matters does not
+     *look* like the request; 20 "key
+     memories"):
+
+     | System | Requests | Keys | Cost | Lat. |
+     |---|---:|---:|---:|---:|
+     | BM25 top-5 | 1/18 | 2/20 | local | <0.01s |
+     | bge-large top-5 | 3/18 | 4/20 | local | 0.06s |
+     | bge + reranker | 1/18 | 1/20 | local | 1.2s |
+     | OpenAI embed-3-lg | 3/18 | 4/20 | $0.000002 | 0.4s |
+     | **Jev pointer** | **17/18** | **19/20** | **$0.00044** | **0.35s** |
+     | Haiku 4.5 | 14/18 | 15/20 | $0.0055 | 1.4s |
+     | Sonnet 5 | 17/18 | 19/20 | $0.020 | 7.6s |
+     | Opus 5 | 18/18 | 20/20 | $0.049 | 7.6s |
+
+     Caveats *theirs*: Claude costs without
+     prompt caching (with cache, Sonnet
+     $0.0085 / Opus $0.019 — gap narrows to
+     ~19× / 43×). Jev's one miss needs
+     **outside knowledge** ("Sam is on an
+     H-1B visa" rules out paid freelance);
+     Sonnet missed that one too. Scores move
+     by less than 0.01 between runs; result
+     holds at any threshold from 0.3 to 0.5.
+     Do **not** paste 17/18 as Harbor.
+
+     retrieve by relevance not resemblance.
+     one calibrated yes/no per memory in one
+     request.
+     pointer mode 17/18 19/20 *theirs*.
+     embedding resemblance misses the allergy.
+
+     **Placement.** Retrieve-then-judge
+     (`applied-mappings.md` §4) + VOI
+     (pay Jev on *every* memory because the
+     economics inversion makes "check all"
+     cheaper than "top-k miss"). Pillar: SDT
+     (relevance is the evidence variable;
+     resemblance is the wrong statistic) +
+     extractable-from-state (the H-1B miss is
+     the boundary). Hole: sieve / rank.
+     Family: TypeSafe Jev Noul batched.
+     Fail polarity: **fail open** on a miss
+     (empty set when nothing applies is
+     honest; dropping a key memory is the
+     irreversible act — prefer keep-on-error).
+     Eval path: 18-request fictional bench
+     *theirs*; **not a Harbor taskset**.
+     **Empirical** as README table.
+     **Hypothesis** on *your* memory store.
+     Cross-domain: knowledge work (which note
+     still bears on this question?);
+     business (which CRM fact still matters
+     for this quote?); life (which prior
+     preference still applies?). Compose with
+     invalidate: recall *selects* live facts;
+     invalidate *ends* leases. Compose with
+     carryforward §55: scored recall of a
+     verbatim ledger.
+
+     **Name lock:** always write
+     **samdotmak/jev-recall**.
+     samdotmak/jev-recall ≠ jev-search
+     (savka777 / kazuhideoki /
+     superagents-lab) ≠ jev-sift ≠
+     carryforward ≠ chopratejas/invalidate
+     ≠ hyperspaceai/jevcache.
+     Soft Noul ≠ hard safety: 0.5 / 0.3–0.5
+     band / 17/18 *theirs* are **sensors**.
+     Hard-gating a miss as "the fact is
+     absent" is theater (H-1B is the
+     counterexample). Do not copy `uv` /
+     keys.
+
+4. **Memory leases ended by new evidence**
+   (HIGH upgrade of §66 MED)
+
+   - **[`chopratejas/invalidate`](https://github.com/chopratejas/invalidate)**
+     (Python Apache-2.0; **11★** live REST,
+     §66 MED ★5; 0 forks; created
+     2026-09-19T04:26:59Z; pushed
+     2026-09-19T17:33:17Z; updated
+     2026-09-19T22:11:46Z; HEAD `d6ade601`;
+     README SHA `8cccad5f`; GitHub `size`
+     983; language Python; topics empty;
+     GitHub homepage **null**; README live
+     demo
+     [invalidate-playground.vercel.app](https://invalidate-playground.vercel.app)).
+     GitHub description *theirs*: "The
+     invalidation layer for AI memory. Every
+     fact gets a lease; new evidence ends
+     it. Built on TypeSafe Jev." README
+     *theirs*: "Agents remember. They never
+     un-remember." Tests badge 695 passing;
+     eval 89.2% strict · 97.5% lenient; **0
+     of 157 false invalidations**; ~$0.00006
+     per fact×event. Do **not** dump `src/`.
+     Do not copy `pip` / keys.
+
+     Four rules *theirs*: memory text is
+     **never edited** (stale is marked;
+     replacement stored verbatim);
+     questions and plans change nothing;
+     instructions / "ignore previous" are
+     not evidence; when unsure, **review
+     queue**. Adapter in front of
+     Mem0/Chroma/LangGraph/Markdown/… —
+     **host keeps the store**. Three modes:
+     `flag` (default, reversible) /
+     `delete` / `ledger`.
+
+     Six named Nouls then **fixed rules in
+     code** ([DESIGN.md](https://github.com/chopratejas/invalidate/blob/d6ade60108b8064bafaee425fd8f9e78683dbd82/DESIGN.md)
+     *theirs*): `hypothetical` (event-level;
+     a plan must not invalidate);
+     `directive` (event-level;
+     prompt-injection defense);
+     `bears_i` (same subject?);
+     `still_true_i` (the verdict);
+     `replaces_i` (successor named?);
+     `partial_i` (central claim holds,
+     secondary detail moved). Rejected: one
+     Choice per memory (hides which
+     sub-judgment was uncertain). Policy
+     defaults *theirs*: bears < 0.6 →
+     unrelated; directive/hypothetical ≥ 0.7
+     → logged, never written; still_true
+     dead-band ±0.05 → review. False
+     invalidation is the worst failure; the
+     157-case sweep **refused any policy
+     adding one**. Dev-set tune 86.6% /
+     1 false invalidation → shipped v4
+     **89.2% / 97.5% / 0** *theirs*.
+     Thresholds tuned on that same set —
+     treat as optimistic. No embeddings.
+     No dates/arithmetic to the model
+     (hard TTL in code).
+
+     memory leases ended by new evidence.
+     six Nouls then fixed rules in code.
+     0 of 157 false invalidations.
+     questions/plans/directives are not
+     evidence.
+     unsure → review queue.
+     host keeps the store.
+
+     **Placement.** Integrity/sentinel +
+     judgment primitive. Pillar: Leveson
+     (sensor ≠ constraint; the lease is
+     policy; Jev votes) + VOI (check *all*
+     memories because $0.00006 makes "sample
+     1%" the expensive lie) + SDT (false
+     invalidation is the cost to refuse).
+     Hole: gate / gather (review queue).
+     Family: TypeSafe Jev Noul batched;
+     code owns write. Fail polarity:
+     **fail closed** on false invalidation
+     (true fact silently dropped);
+     **fail open** to review on the dead
+     band. Eval path: 157 labeled cases
+     *theirs*; **not a Harbor taskset**.
+     **Empirical** as README + DESIGN +
+     evals. **Hypothesis** on *your* store.
+     Cross-domain: business (CRM facts vs
+     Slack migrations); knowledge work
+     (wiki claims vs new papers); life
+     (a preference that expired). Compose
+     with jev-recall: invalidate ends the
+     lease; recall selects among *live*
+     facts. rh-guard owns
+     false-invalidation-as-proof and
+     directive-as-hard-sandbox.
+
+     **Name lock:** always write
+     **chopratejas/invalidate**.
+     chopratejas/invalidate ≠ jev-recall ≠
+     carryforward ≠ jevcache ≠ CloudFront
+     `invalidate-*` (AWS cache, different
+     universe). Soft Noul ≠ hard safety:
+     0.6 / 0.7 / 0.85 / 0 of 157 *theirs*
+     are **sensors**. Hard-gating 0 false
+     invalidations as a proof on *your*
+     data is theater (tuned on the same
+     157). Do not copy `pip` / keys.
+
+5. **Name↔body / comment truth / test-claims
+   (GitHub rename of jevlint)**
+
+   - **[`mizchi/jev-lint`](https://github.com/mizchi/jev-lint)**
+     (TypeScript MIT; **13★** live REST;
+     0 forks; created 2026-09-19T09:31:37Z
+     — **same created_at as §70
+     mizchi/jevlint**; pushed
+     2026-09-19T18:08:53Z; updated
+     2026-09-20T01:44:45Z; HEAD `62d73f8e`
+     **byte-identical** to
+     `repos/mizchi/jevlint`; README SHA
+     `4c0e37cd` **byte-identical**; GitHub
+     `size` 2612; language TypeScript;
+     GitHub API canonical `full_name`
+     **mizchi/jev-lint** — `mizchi/jevlint`
+     **redirects here**). GitHub description
+     **null** this pass. README *theirs*: "A
+     linter for the things a linter could
+     never check: whether a function does
+     what its name says, whether a comment
+     is still true, whether a test verifies
+     what it claims." 23 shipped rules.
+     Self-lint *theirs*
+     (`docs/data/self-lint-2026-09-20.json`):
+     1,996 subjects / 78 requests /
+     $0.0581 / 8.4 s / 7 findings on
+     `jev-1.13.0`. "about one finding in
+     five was wrong." Do **not** dump
+     `src/`. Do not copy `npx` / plugin
+     marketplace.
+
+     A rule is ast-grep matcher + one
+     sentence. Matcher is exact, free, local
+     — it decides **which code is looked
+     at**. The sentence is answered by Jev
+     — **whether it is a problem**.
+     `state: located` = the file. Cutoffs
+     fitted to *this* corpus, not yours.
+     Review mode: diff only. Pre-commit
+     hook: `review --staged --fail-on
+     error`; **no shipped rule has
+     `severity: error`**, so out of the box
+     the hook talks and **never refuses**.
+     Without an API key it steps aside.
+     Exit 3 = requests failed; a run with
+     failures **never reads as a clean
+     repository**. Verdicts cached by
+     rule+code so CI can lint from a
+     committed cache with no key.
+     `--retry 3` marks unreproduced
+     findings for a human.
+
+     name↔body / comment truth /
+     test-claims.
+     mizchi/jev-lint is mizchi/jevlint
+     rename.
+     no shipped rule has severity error.
+     ~1 in 5 findings wrong *theirs*.
+
+     **Placement.** Sentence-as-rule
+     productization of §70. Pillar: formal
+     compose (AST prove ∩ remainder
+     judgment) + SDT (cutoff is the
+     criterion). Hole: verifier / gate.
+     Family: TypeSafe Jev Noul (or Score)
+     on matcher-extracted subjects. Fail
+     polarity: **fail open** on no-verdict
+     and on shipped rules (warning, not
+     error); **fail closed** only after a
+     rule has earned `severity: error` on
+     *your* labels. Eval path: 13/15
+     naming/comment 1.00/1.00 *theirs*
+     (older corpus, §70) + self-lint 7
+     findings / ~1 in 5 wrong *this
+     README*; **not a Harbor taskset**.
+     **Empirical** as README + corpus.
+     **Hypothesis** on *your* tree.
+     Cross-domain: any artifact that names
+     itself (policy, checklist, form,
+     recipe) can be a subject × a sentence.
+     rh-guard owns lint-Noul-as-merge-seal.
+
+     **Name lock:** always write
+     **mizchi/jev-lint** (canonical).
+     mizchi/jev-lint **is** mizchi/jevlint
+     (rename, same SHA). **≠**
+     huntedman/JevLint (file-level
+     convention Nouls, §26) **≠**
+     MichitoSugawara/jev-lint **≠**
+     vayungodara/jev-lint **≠**
+     frodi-karlsson/jev-lint **≠**
+     zdenham/jev-lint **≠**
+     drevantonder/jevlint. Soft Noul ≠
+     hard safety: 0.55 / 0.83 / 0.53
+     cutoffs / 1 in 5 wrong *theirs* are
+     **sensors**. Hard-gating a finding as
+     a merge seal is theater. Do not copy
+     `npx` / `/plugin` / keys.
+
+6. **JSON Schema as question compiler**
+   (HIGH upgrade of §96 MEDIUM)
+
+   - **[`Kiln-AI/jev_jsonschema`](https://github.com/Kiln-AI/jev_jsonschema)**
+     (Python MIT; **5★** live REST,
+     unchanged vs §96; 0 forks; created
+     2026-09-19T17:50:30Z; pushed
+     2026-09-19T19:16:18Z; updated
+     2026-09-19T19:16:21Z; HEAD `fccea8c2`
+     **unchanged**; README SHA `f3c94957`
+     **unchanged**; GitHub `size` 155).
+     GitHub description *theirs*: "Run a
+     JSON Schema through TypeSafe's Jev
+     API, and get JSON back." README
+     *theirs*: "Give it your schema and
+     your content, and you get back JSON
+     that validates against the schema you
+     started with." Two pure layers
+     (`JSONSchema2Jev` /
+     `JevResult2JsonSchema`) plus a thin
+     client. One POST, **no hidden
+     retries**. Never logs the body. Do
+     **not** re-dump the mapping table
+     (already §96); this hour is the
+     **composition primitive**.
+
+     Mapping (unchanged): boolean → Noul
+     thresholded at `noul_threshold=0.5`;
+     number 0..1 → raw Noul; string/integer
+     enum → Choice (≤255); integer range →
+     Score (span ≤10). **Loud refusal** of
+     free-form string, array, object,
+     `anyOf`/`$ref`/`oneOf`/`allOf`/`const`
+     / multi-type: `IncompatibleSchemaError`
+     lists **every** bad property before
+     anything is sent. Returns `output`
+     **and** `probabilities` / `confidence`
+     (Noul confidence is `None`).
+     `score_decode` argmax or expected
+     (rounded mean).
+
+     JSON Schema → typed JSON via Jev.
+     noul_threshold 0.5 decoder not a
+     proof.
+     IncompatibleSchemaError lists every
+     bad property.
+
+     **Placement.** Composition-algebra
+     position 10 (Discretizer / encoder:
+     unstructured state → typed values
+     downstream code already declared).
+     Pillar: mixed architecture (schema is
+     the exact envelope; Jev fills
+     *declared* fields; generation is not
+     in this path). Hole:
+     replace-one-classifier-step /
+     discretizer. Family: TypeSafe Jev;
+     **not** a new species. Fail polarity:
+     **fail closed** on incompatible
+     schema (loud, before the POST);
+     boolean True/False @ 0.5 is a
+     **decoder**, not a gate. Eval path:
+     respx tests, no network *theirs*;
+     **no published Harbor**. **Empirical**
+     as README (same SHA as §96).
+     **Hypothesis** that your existing JSON
+     Schema is a System One question set.
+
+     **Name lock:** always write
+     **Kiln-AI/jev_jsonschema**.
+     **≠** TypeSafe official SDK **≠**
+     TypeAR / pcdServer (constrained decode
+     over a generator) **≠** jevmlx
+     (local MLX schema→JSON). Soft Noul ≠
+     hard safety: 0.5 / argmax Score are
+     **decoders**. Treating boolean @ 0.5
+     as a safety proof is theater. Do not
+     copy `pip` / keys.
+
+7. **On-device Laya CoreML / ANE economics**
+
+   - **[`mizorewww/laya-coreml`](https://github.com/mizorewww/laya-coreml)**
+     (Python Apache-2.0; **0★** live REST;
+     0 forks; created 2026-09-19T23:14:13Z;
+     pushed 2026-09-20T01:07:55Z; updated
+     2026-09-20T01:07:59Z; HEAD `47f4baf0`;
+     README SHA `2068c661`; GitHub `size`
+     199; language Python; topics
+     `apple-neural-engine`, `apple-silicon`,
+     `coreml`, `decision-model`, `laya`,
+     `local-ai`, `modernbert`,
+     `on-device-ai`, `typed-decisions`).
+     GitHub description *theirs*: "Local
+     Laya typed decisions on Apple Core ML
+     and Neural Engine. Validated ports,
+     ~5 ms short decisions on M3 Max,
+     reproducible speed and energy
+     benchmarks." Independent experimental
+     port of [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya).
+     "No autoregressive generation or cloud
+     API." "Independent of Convai
+     Innovations and Apple; the checkpoint
+     weights retain their upstream terms."
+     Do **not** dump conversion graphs /
+     checkpoints. Do not copy `pip` /
+     convert recipes.
+
+     Honesty *theirs*: Neural Engine
+     experiment **4.98 ms P50 / 5.31 ms
+     P95**, 2.78× lower whole-system energy
+     per decision than compiled MLX FP16
+     on this M3 Max — **one short
+     multilingual decision**, explicitly
+     rewritten ANE graph. 8-bit
+     weight-palette 4.88 ms P50 / 3.19×
+     energy. "**The requested 10×
+     improvement has not been achieved.**"
+     Simply selecting `cpu_ne` on the
+     ordinary export **does not** reproduce
+     this result. Ordinary FP16 export did
+     **not** outperform MLX this run
+     (multilingual 11.28/17.38 ms vs MLX
+     7.87/9.87 ms). All three FP16
+     checkpoints: **189/189** selected
+     answers match upstream (63/63 × 3);
+     max calibrated probability difference
+     0.003308 / 0.001578 / 0.002727.
+     "These are port-fidelity fixtures, not
+     a claim of 100% task accuracy." Known
+     failed experiment: bounded `RangeDim`
+     with forced GPU gave incorrect,
+     nonrepeatable output — runtime blocks
+     this combination. Core ML default
+     export is batch size **one** (10
+     questions = 10 predictions; MLX
+     batches). Sibling
+     [`mizorewww/laya-mlx`](https://github.com/mizorewww/laya-mlx)
+     (Apache-2.0; **4★**; 7–14 ms short
+     decisions on M3 Max) is the MLX
+     comparison arm, **not** this card.
+
+     on-device Laya CoreML ANE.
+     ~5 ms P50 short decisions.
+     189/189 FP16 checkpoint parity.
+     10× not achieved.
+
+     **Placement.** Local System One
+     *replica economics* on Apple Neural
+     Engine. Pillar: class-backend
+     economics (decide family, Laya
+     weights, Core ML runtime). Hole:
+     replace-one-classifier-step on-device.
+     Family: trained decision-only (Laya),
+     **not** TypeSafe Jev, **not** GLiNER
+     locate. Fail polarity: ranking among
+     declared options is **fail-open** on
+     a miss (option not in the schema);
+     acting on argmax is **fail-closed** to
+     host code. Eval path: 63-question
+     port-fidelity suite + Snake 600/600
+     *theirs*; **not a Harbor taskset**.
+     **Empirical** as README + BENCHMARKS.
+     **Hypothesis** that ANE ms transfer
+     off this M3 Max / macOS 27.2.
+
+     **Name lock:** always write
+     **mizorewww/laya-coreml**.
+     mizorewww/laya-coreml ≠
+     gliner-native-runtime (locate spans,
+     §97) ≠ jevmlx (MLX schema→JSON,
+     softmax ≠ Noul) ≠ NandhaKishorM/laya
+     (upstream packaging) ≠
+     mizorewww/laya-mlx (sibling runtime) ≠
+     NSStudent/JevSwiftSDK. Soft Noul ≠
+     hard safety: 4.98 ms / 189/189 /
+     0.003308 Δp *theirs* are **sensors**.
+     Pasting ANE P50 as "beats Jev, ship
+     as Jev" is theater. Do not copy
+     convert / Instruments how-to.
+
+8. **Local logit `/v1/systemone` on MLX Qwen**
+
+   - **[`Micha0827/snapjudge`](https://github.com/Micha0827/snapjudge)**
+     (Python MIT; **3★** live REST, watch
+     attached ★2; 0 forks; created
+     2026-09-18T18:29:43Z; pushed
+     2026-09-19T18:29:19Z; updated
+     2026-09-19T21:53:49Z; HEAD `2df5ce27`;
+     README SHA `64a91458`; GitHub `size`
+     4262; language Python; topics
+     `apple-silicon`, `classification`,
+     `decision-making`, `fastapi`, `llm`,
+     `logits`, `mlx`, `qwen`,
+     `structured-output`,
+     `zero-shot-classification`). GitHub
+     description *theirs*: "Typed decisions
+     (choice / score / yes-no) from local
+     Qwen models on Apple Silicon.
+     Probabilities come straight from the
+     logits, no text generation.
+     TypeSafe-compatible HTTP API, runs on
+     MLX." README *theirs*: "**Independent
+     project, not affiliated with
+     TypeSafe.** … This reproduces the
+     *interface pattern* with open models;
+     it is not Jev's model or training."
+     "The probabilities are **not proven to
+     be calibrated**." Do **not** dump
+     engine / training. Do not copy `pip` /
+     HF download.
+
+     Mechanism *theirs*: question-first
+     cached prefix; labels as a prefix
+     tree; one batched forward pass;
+     **softmax over the allowed tokens
+     only**; product along the tree path.
+     `confidence` is 1 − normalized entropy
+     of the distribution (stand-in, not
+     TypeSafe's field). Extensions: `debug`
+     coverage (how much probability sat on
+     allowed labels); `layout` forces
+     prompt order.
+
+     Results *theirs* (M2 Max, 4-bit MLX,
+     2026-09-18): Snap Run sentences,
+     question-first default, Qwen3.6-35B-A3B
+     **100% EN / 97% DE**, median **78 /
+     83 ms** (state-first 89% / ~400 ms).
+     SemIf authored-144 balanced acc:
+     35B-A3B **0.908** / 27B **0.921** vs
+     SemIf's own Qwen3.5-4B BF16 CUDA
+     0.813. German business 114 decisions:
+     35B-A3B **95.6%** ECE **0.016**.
+     Against Jev on TypeSafe's 20 public
+     cases (373 decisions, consensus of
+     GPT-6 Astra + Fable 5.1): Jev
+     **87.7%** (308/351) vs Qwen3.8-27B
+     **81.2%** vs 35B-A3B **77.5%**; "the
+     best earlier local result we know of
+     was 73.5%" (jev-on-a-laptop). Level
+     with Jev on short texts; gap sits in
+     long-document invoice cross-checks
+     (Jev 65/75 vs 35B-A3B 38/75). Do
+     **not** paste as Harbor. Fine-tuning /
+     typed-decisions benchmark /
+     experimental browser agent exist in
+     tree this pass — do not invent
+     unpublished scores.
+
+     softmax over allowed tokens ≠ Noul.
+     question-first cache.
+
+     **Placement.** Constrained-AR /
+     packed-logprob local `/v1/systemone`
+     (same *wire* as githubnext/localjev,
+     different *readout*: logits over
+     allowed tokens, not prompted JSON).
+     Pillar: replica honesty + class-
+     backend economics. Hole:
+     replace-one-classifier-step locally.
+     Family: open LLM + constrained
+     decode, **not** a trained decision
+     head, **not** TypeSafe Jev. Fail
+     polarity: coverage < 1.0 is a
+     **sensor** that the model wanted to
+     leave the schema; do not treat
+     softmax-over-allowed as a Noul. Eval
+     path: SemIf authored-144 + TypeSafe
+     public cases *theirs*; **not a Harbor
+     taskset you ran**. **Empirical** as
+     README tables. **Hypothesis** on
+     *your* labels (German set "written by
+     an AI assistant for this project").
+
+     **Name lock:** always write
+     **Micha0827/snapjudge**.
+     Micha0827/snapjudge ≠
+     githubnext/localjev (prompted JSON) ≠
+     jevmlx ≠ kunchenguid/local-jev ≠
+     cendress/SnapJudge (iOS photo app) ≠
+     Qwen3.8-27B-as-Archer. Soft Noul ≠
+     hard safety: 100% Snap Run / 0.908 /
+     87.7 vs 81.2 *theirs* / entropy
+     confidence are **sensors**. Pasting
+     "level with Jev on short texts" as
+     identity is theater. Do not copy
+     `snapjudge-serve` / HF ids.
+
+9. **Jev-first Pi agent loop**
+
+   - **[`direwolfiy/JevPi`](https://github.com/direwolfiy/JevPi)**
+     (TypeScript; GitHub license **null**;
+     `package.json` license **null**;
+     **0★** live REST; 0 forks; created
+     2026-09-20T01:31:20Z; pushed
+     2026-09-20T01:31:29Z; updated
+     2026-09-20T01:31:33Z; HEAD `980f8895`;
+     README SHA `88ec1a55`; GitHub `size`
+     **0** this pass — contents present;
+     language TypeScript; topics empty;
+     package `jevpi` **0.1.0**). GitHub
+     description *theirs*: "A Jev-first
+     agent loop on Pi, with a slow LLM
+     fallback, full tracing, and paired
+     evaluations." README *theirs* (ZH):
+     local replacement of the Pi 0.85.1
+     main loop; JevPi decides each turn
+     to call Jev first, GLM once if
+     needed; Pi owns session, streaming,
+     tools, cancel. **62** automated tests
+     pass. Action menu currently **must be
+     provided explicitly**; dynamic menu
+     **not implemented**. `--demo` /
+     `eval:demo` use a script brain and
+     real Pi tools, **no paid models** —
+     "演示结果只验证工程接线，不衡量模型质量或经济收益"
+     (wiring, not quality or economics).
+     One live sum-file check *theirs*:
+     both hybrid and slow-only produced
+     `139\n`; sample too small; price
+     unset; **no quality/econ conclusion**.
+     Do **not** dump `src/` or vendor Pi.
+     Do not copy `npm` / `.env` / Langfuse
+     keys.
+
+     Loop *theirs*:
+
+     ```text
+     hybrid: Jev → Action
+                  → Wake → GLM once
+             Pi executes one tool → back to Jev
+             GLM with no tool call → end
+     slow-only: original Pi runAgentLoop
+     ```
+
+     `Jev 请求.state = GLM 请求.messages`
+     (same Chat Completions array). Empty
+     Wake: both brains read the **same**
+     context (verified). Tools: read /
+     bash / edit / write. Unspecified menu
+     → only `LIST_FILES` and `OTHER`.
+     `CandidateSource` reserved, not
+     implemented. Jev instruction remains
+     `Select the next action.`; `OTHER` is
+     `Other.`; GLM has **no** system
+     prompt. Working directory is **not**
+     a sandbox. Auto-compress, skills,
+     project context, full TUI **not
+     enabled**.
+
+     Jev-first Pi agent loop.
+     slow-LLM fallback.
+     explicit action menu / CandidateSource
+     unimplemented.
+     62 tests wiring not quality.
+
+     **Placement.** Mixed architecture
+     control loop: S1 (Jev) selects among
+     *supplied* actions; S2 (GLM) writes
+     leftover / Wake; Pi executes. Pillar:
+     search/control + observe→score→act.
+     Hole: selector of F among an authored
+     menu. Family: TypeSafe Jev + a chat
+     LLM; **not** a new species. Fail
+     polarity: hybrid default; slow-only
+     is the comparison arm; missing menu
+     is **fail-closed** to LIST_FILES /
+     OTHER, not an invented catalog. Eval
+     path: 62 tests + eval:demo wiring
+     *theirs*; live sum-file n=1 **not a
+     Harbor**. **Empirical** as README
+     loop. **Hypothesis** that hybrid
+     beats slow-only on *your* Pi tasks.
+
+     **Name lock:** always write
+     **direwolfiy/JevPi**.
+     direwolfiy/JevPi ≠
+     standardagents/jevpilot (Three.js
+     driving sim, **99★**) ≠
+     pi-jev-control ≠ pi-jev-gate ≠
+     earendil-works/pi (upstream host).
+     Soft Noul ≠ hard safety: 62 tests /
+     `139\n` / 32-decision budget are
+     **sensors**. Treating wiring tests as
+     a quality headline is theater. Do not
+     copy `npm ci` / keys.
+
+### Theater (do not)
+
+Treat Probably as hunch / feelings / gut /
+Judge / tidymodels/probably; hard-gate
+`feels` 80% as a safety proof; treat
+hosted playground recordings as live
+inference; auto-accept a GEPA proposal
+because the training score rose / collapse
+sutro-sh/jev-align into caiovicentino;
+paste 17/18 as Harbor / treat embedding
+miss as "the fact is absent"; hard-gate
+0 of 157 false invalidations as a proof
+on *your* data / treat questions as
+evidence; collapse mizchi/jev-lint into
+huntedman/JevLint or MichitoSugawara /
+treat the rename as a second product /
+fail a build on a shipped warning;
+treat JSON Schema boolean @ 0.5 as a
+safety proof; paste ANE 4.98 ms as "beats
+Jev" / claim 10× / select `cpu_ne` as
+the experiment; treat snapjudge softmax
+as a Noul / paste 87.7 vs 81.2 as
+identity / collapse into localjev or
+Archer; treat JevPi 62 tests as quality /
+collapse into jevpilot; invent tweets /
+Archer drop; dump source / keys /
+install recipes.
+
+### Census
+
+Census **not provided this hour** (not
+re-derived). Live REST pulse only: SemIf
+**1954★** (+18 vs §99 **1936**); jevlike
+**989★** (+6 vs §99 **983**); TypeAR
+**11★** **flat**. AnotiaWang/awesome-jev
+**83★** still a **different object** from
+user-provided Awesomejev 561/27007 (§99
+pin). Archer still **NOT landed** last
+pin from §99 (likes **51** flat;
+lastModified UNCHANGED
+2026-09-19T18:37:18Z; Hub
+archerhume/4rcherhume HTTP **401** — not
+re-fetched as a rewrite). Qwen3.8-27B ≠
+Archer. X MCP not used this hour; no
+invented tweets. `invented_signal:
+false`.
+
+### Not
+
+Not a TypeSafe how-to. Not a Probably /
+invalidate / jev-lint / snapjudge /
+JevPi install guide. Not a jev-align
+re-dump of §93. Not wrappers. Do not
+copy keys / `bun` / `pip` / `npx` /
+`uv` / `.env` / HF download. Do not
+re-fold 1843 / §99 / 1740 / §98 / 1639 /
+§96 / gliner-native-runtime / §97 /
+1541 / §95 / jevcache/jev-align
+*mechanism* / §93. Do not re-card
+jevlint §70 as a second product — name
+the rename. Do not reply into finished
+agents. Do **not** merge from this
+review — parent merges after CLEAN.
+
+### Curated status
+
+1943 HIGH **folded** (9 HIGH:
+probably language-primitive PRIMARY;
+jev-align 133★ live delta of §93;
+jev-recall relevance≠resemblance;
+invalidate lease HIGH upgrade;
+jev-lint = jevlint rename productization;
+jev_jsonschema schema-compiler HIGH
+upgrade; laya-coreml ANE 0★;
+snapjudge local logits; JevPi 0★
+wiring loop). §99 / §98 / §97 / §96 /
+§95 / §93 mechanism **not re-carded**.
+Archer still **NOT landed**. 0★ HIGH
+still got a real card. `invented_signal:
+false`.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail
+table + gallery); `faq.md`;
+`mental-models.md`; `judgment-class.md`;
+`validation.md`; `applied-mappings.md`;
+`mappings.md`; `toolbox-mapping.md`;
+`composition-algebra.md` items 102–110;
+`question-design.md`;
+`methods-catalog.md`; `formal-methods.md`;
+`optimizer-integration.md`;
+`agent-self-assessment.md`. Hunches
+labeled. No wrapper.

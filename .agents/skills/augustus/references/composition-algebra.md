@@ -901,3 +901,82 @@ can be argued out of guarding.
 Hourly 1843 items 97–101 (`notes.md` §99). Do **not**
 re-fold 1740 items 94–96 / SIGNAL §97 item 93.
 Soft Noul ≠ hard safety.
+
+Jev IS the if-statement; judgments/probabilities drive branches; text model only writes prose; interpreter owns variables/loops/budgets/replay; otherwise maybe / confidence gate; chaos samples after the gate; southpolesteve/probably ≠ carldaws/hunch ≠ feelings ≠ Kungie/gut ≠ Illusion47586/judge ≠ tidymodels/probably; 133★ / forks 10 live; build calibrated classifiers from human feedback; retrieve by relevance not resemblance; one calibrated yes/no per memory in one request; pointer mode 17/18 19/20 *theirs*; embedding resemblance misses the allergy; samdotmak/jev-recall ≠ jev-search ≠ jev-sift ≠ carryforward ≠ chopratejas/invalidate; memory leases ended by new evidence; six Nouls then fixed rules in code; 0 of 157 false invalidations; questions/plans/directives are not evidence; unsure → review queue; host keeps the store; name↔body / comment truth / test-claims; mizchi/jev-lint is mizchi/jevlint rename; no shipped rule has severity error; ~1 in 5 findings wrong *theirs*; mizchi/jev-lint ≠ huntedman/JevLint ≠ MichitoSugawara/jev-lint; JSON Schema → typed JSON via Jev; noul_threshold 0.5 decoder not a proof; IncompatibleSchemaError lists every bad property; on-device Laya CoreML ANE; ~5 ms P50 short decisions; 189/189 FP16 checkpoint parity; 10× not achieved; mizorewww/laya-coreml ≠ gliner-native-runtime ≠ jevmlx ≠ NandhaKishorM/laya; softmax over allowed tokens ≠ Noul; question-first cache; Micha0827/snapjudge ≠ githubnext/localjev ≠ jevmlx ≠ cendress/SnapJudge; Jev-first Pi agent loop; slow-LLM fallback; explicit action menu / CandidateSource unimplemented; 62 tests wiring not quality; direwolfiy/JevPi ≠ standardagents/jevpilot ≠ pi-jev-control
+
+102. **Jev IS the if-statement** (southpolesteve/probably; PRIMARY):
+     positions 3 (Gate) / 4 (Selector) / 11 (Bounds) as *language
+     constructs*. judgments/probabilities drive branches.
+     text model only writes prose.
+     interpreter owns variables/loops/budgets/replay.
+     otherwise maybe / confidence gate.
+     chaos samples after the gate.
+     Language, not a library overlay.
+     southpolesteve/probably ≠ carldaws/hunch ≠ feelings ≠
+     Kungie/gut ≠ Illusion47586/judge ≠ tidymodels/probably.
+     Full cards: `mental-models.md`, `faq.md`.
+103. **GEPA alignment live delta** (sutro-sh/jev-align):
+     position 8 inverse (definition search; Jev is the cheap
+     executor). 133★ / forks 10 live.
+     build calibrated classifiers from human feedback.
+     HEAD/README SHA unchanged vs §93.
+     Full cards: `optimizer-integration.md`, `faq.md`.
+104. **Retrieve by relevance not resemblance** (samdotmak/jev-recall):
+     position 5 (Comparator) × ∀ over a candidate set.
+     one calibrated yes/no per memory in one request.
+     pointer mode 17/18 19/20 *theirs*.
+     embedding resemblance misses the allergy.
+     samdotmak/jev-recall ≠ jev-search ≠ jev-sift ≠
+     carryforward ≠ chopratejas/invalidate.
+     Full cards: `applied-mappings.md`, `faq.md`.
+105. **Memory leases ended by new evidence** (chopratejas/invalidate):
+     position 9 (Verifier) × 3 (Gate) on write.
+     six Nouls then fixed rules in code.
+     0 of 157 false invalidations.
+     questions/plans/directives are not evidence.
+     unsure → review queue.
+     host keeps the store.
+     Full cards: `formal-methods.md`, `faq.md`.
+106. **Contract-of-artifact lint** (mizchi/jev-lint):
+     position 9 (Verifier) ∩ AST prove remainder.
+     name↔body / comment truth / test-claims.
+     mizchi/jev-lint is mizchi/jevlint rename.
+     no shipped rule has severity error.
+     ~1 in 5 findings wrong *theirs*.
+     mizchi/jev-lint ≠ huntedman/JevLint ≠
+     MichitoSugawara/jev-lint.
+     Full cards: `mixed-architecture.md`, `faq.md`.
+107. **JSON Schema question compiler** (Kiln-AI/jev_jsonschema):
+     position 10 (Discretizer / encoder).
+     JSON Schema → typed JSON via Jev.
+     noul_threshold 0.5 decoder not a proof.
+     IncompatibleSchemaError lists every bad property.
+     Full cards: `question-design.md`, `faq.md`.
+108. **On-device Laya CoreML ANE** (mizorewww/laya-coreml):
+     position 1 × local replica economics.
+     on-device Laya CoreML ANE.
+     ~5 ms P50 short decisions.
+     189/189 FP16 checkpoint parity.
+     10× not achieved.
+     mizorewww/laya-coreml ≠ gliner-native-runtime ≠ jevmlx ≠
+     NandhaKishorM/laya.
+     Full cards: `judgment-class.md`, `faq.md`.
+109. **Local logit `/v1/systemone`** (Micha0827/snapjudge):
+     position 1 × constrained-AR local drop-in.
+     softmax over allowed tokens ≠ Noul.
+     question-first cache.
+     Micha0827/snapjudge ≠ githubnext/localjev ≠ jevmlx ≠
+     cendress/SnapJudge.
+     Full cards: `judgment-class.md`, `faq.md`.
+110. **Jev-first Pi agent loop** (direwolfiy/JevPi):
+     positions 4 (Selector of F) × 3 (Gate) with S2 leftover.
+     Jev-first Pi agent loop.
+     slow-LLM fallback.
+     explicit action menu / CandidateSource unimplemented.
+     62 tests wiring not quality.
+     direwolfiy/JevPi ≠ standardagents/jevpilot ≠ pi-jev-control.
+     Full cards: `agent-self-assessment.md`, `faq.md`.
+
+Hourly 1943 items 102–110 (`notes.md` §100). Do **not**
+re-fold 1843 items 97–101 / 1740 items 94–96 / SIGNAL §93
+mechanism. Soft Noul ≠ hard safety.

@@ -2928,3 +2928,92 @@ Cross-repo addition: (lt) cost-derived YES/NO/UNSURE
 overlay; (lu) typed-callback control flow; (lv)
 variable-N option scoring; (lw) von late-catch NAR;
 (lx) typed vs chat judges on guardrailing.
+
+## Batch #83 (2026-09-20 ~01:43 UTC / ~19:43 Boise) — hourly 1943 HIGH
+
+Note: `research/notes.md` §100. Docs-only on a fresh PR
+off main. Never reopen merged #7 / **#8** / **#9** /
+**#10** / **#12** / **#13** / **#14** / **#15** /
+**#16** / **#17**. Do **not** re-fold §93 mechanism /
+§94 / §95 / §96 / §97 / §98 / §99. Skip Archer rewrite.
+Do **not** re-fold 1843 / 1740 / gliner-native-runtime /
+1639 / 1541. No invented metrics. Hunches labeled. Quote
+READMEs. Soft Noul ≠ hard safety. Augustus owns
+placement. probably is a language not an overlay.
+jev-align is a live-star / framing delta. jev-lint is
+jevlint rename. Quote live REST over watch.
+`invented_signal: false`.
+
+- **Jev IS the if-statement (PRIMARY).**
+  southpolesteve/probably (TypeScript MIT; **3★**; HEAD
+  `6bf671a4`; README SHA `c28570a9`; size 19; package
+  `probably-lang` 0.1.0). Jev IS the if-statement.
+  judgments/probabilities drive branches. text model only
+  writes prose. interpreter owns variables/loops/budgets/
+  replay. otherwise maybe / confidence gate. chaos samples
+  after the gate. southpolesteve/probably ≠ carldaws/hunch
+  ≠ feelings ≠ Kungie/gut ≠ Illusion47586/judge ≠
+  tidymodels/probably. Language, not a library overlay.
+- **GEPA live-star / framing delta.** sutro-sh/jev-align
+  (Apache-2.0; **133★**; forks **10**; HEAD `49753df9`
+  unchanged; README SHA `363fccb7` unchanged). 133★ /
+  forks 10 live. build calibrated classifiers from human
+  feedback. Do **not** re-dump the §93 loop.
+- **Retrieve by relevance not resemblance.**
+  samdotmak/jev-recall (MIT; **6★**; HEAD `d3e4acfb`;
+  README SHA `ea774519`). retrieve by relevance not
+  resemblance. one calibrated yes/no per memory in one
+  request. pointer mode 17/18 19/20 *theirs*. embedding
+  resemblance misses the allergy. samdotmak/jev-recall ≠
+  jev-search ≠ jev-sift ≠ carryforward ≠
+  chopratejas/invalidate.
+- **Memory leases ended by new evidence (HIGH upgrade).**
+  chopratejas/invalidate (Apache-2.0; **11★**; HEAD
+  `d6ade601`; README SHA `8cccad5f`). memory leases ended
+  by new evidence. six Nouls then fixed rules in code. 0
+  of 157 false invalidations. questions/plans/directives
+  are not evidence. unsure → review queue. host keeps the
+  store.
+- **Contract-of-artifact lint (rename).** mizchi/jev-lint
+  (TypeScript MIT; **13★**; HEAD `62d73f8e` byte-identical
+  to jevlint; README SHA `4c0e37cd`). name↔body / comment
+  truth / test-claims. mizchi/jev-lint is mizchi/jevlint
+  rename. no shipped rule has severity error. ~1 in 5
+  findings wrong *theirs*. mizchi/jev-lint ≠
+  huntedman/JevLint ≠ MichitoSugawara/jev-lint.
+- **JSON Schema question compiler (HIGH upgrade).**
+  Kiln-AI/jev_jsonschema (MIT; **5★**; HEAD `fccea8c2`
+  unchanged). JSON Schema → typed JSON via Jev.
+  noul_threshold 0.5 decoder not a proof.
+  IncompatibleSchemaError lists every bad property.
+- **On-device Laya CoreML ANE.** mizorewww/laya-coreml
+  (Apache-2.0; **0★**; HEAD `47f4baf0`; README SHA
+  `2068c661`). on-device Laya CoreML ANE. ~5 ms P50 short
+  decisions. 189/189 FP16 checkpoint parity. 10× not
+  achieved. mizorewww/laya-coreml ≠ gliner-native-runtime
+  ≠ jevmlx ≠ NandhaKishorM/laya.
+- **Local logit `/v1/systemone`.** Micha0827/snapjudge
+  (Python MIT; **3★**; HEAD `2df5ce27`; README SHA
+  `64a91458`). softmax over allowed tokens ≠ Noul.
+  question-first cache. Micha0827/snapjudge ≠
+  githubnext/localjev ≠ jevmlx ≠ cendress/SnapJudge.
+- **Jev-first Pi agent loop.** direwolfiy/JevPi
+  (TypeScript; license null; **0★**; HEAD `980f8895`;
+  README SHA `88ec1a55`; GitHub size 0 with contents).
+  Jev-first Pi agent loop. slow-LLM fallback. explicit
+  action menu / CandidateSource unimplemented. 62 tests
+  wiring not quality. direwolfiy/JevPi ≠
+  standardagents/jevpilot ≠ pi-jev-control.
+
+Pulse: Archer still NOT landed last pin from §99. Hub
+archerhume/4rcherhume HTTP **401**. Tracker likes **51**
+flat; lastModified UNCHANGED 2026-09-19T18:37:18Z. Live
+REST: SemIf **1954★**; jevlike **989★**; TypeAR **11★**
+flat. AnotiaWang/awesome-jev **83★** ≠ Awesomejev
+561/27007. `invented_signal: false`.
+
+Cross-repo addition: (lt) judgment-as-language primitive;
+(lu) GEPA live-star delta; (lv) retrieve-then-judge
+memories; (lw) memory-lease HIGH upgrade; (lx) jevlint
+rename; (ly) schema-compiler HIGH upgrade; (lz) ANE /
+local-logit / Pi-loop economics.
