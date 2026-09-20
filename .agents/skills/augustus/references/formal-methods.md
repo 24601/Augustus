@@ -1140,6 +1140,31 @@ jevcheck as a correctness proof, `no_direct_evidence` as
 merge-safe, or a theme Choice as a music-theory certificate
 is the same theater.
 
+0145 envelopes (`notes.md` §106), still outside the extras
+template:
+Turn any open LLM into System-One Jev;
+uspraveen/Jevify ≠ Mintzs/jevify ≠ gulagala001/jevify;
+description-only stub / size 0;
+Exu is a toolkit, not a method;
+strictly proper scoring rule;
+JSON parse of generated text ≠ Noul;
+hard budget filter before Jev;
+Jev never asked to perform budget arithmetic;
+Jev judges the next state, XState enforces transitions;
+simulation uses synthetic keyword fixtures;
+classifier.dev fast tier 84.8 is Jev behind its own API;
+do not re-fold §78 v1.2 board as new;
+do not reopen or amend PR #23.
+Soft Noul ≠ hard safety: 90.5s / 91.1% / 46x / 92.58% /
+84.8 / ★339 / T=1.75 are **sensors**. The budget filter
+in code / XState envelope / from-scratch recipe /
+strictly proper scoring / catalog map are exact work.
+Treating a Jevify two-liner as a checkpoint, letting Jev
+do budget arithmetic, treating XState as Jev, treating
+JSON parse as a Noul, or quoting 84.8 as a class ceiling
+is the same theater.
+
+
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a
 hybrid "verified by Noul" API.

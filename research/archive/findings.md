@@ -3017,6 +3017,113 @@ Cross-repo addition: (lt) judgment-as-language primitive;
 memories; (lw) memory-lease HIGH upgrade; (lx) jevlint
 rename; (ly) schema-compiler HIGH upgrade; (lz) ANE /
 local-logit / Pi-loop economics.
+## Batch #89 (2026-09-20 ~07:45 UTC / ~01:45 Boise) — hourly 0145 HIGH
+
+Note: `research/notes.md` §106. Docs-only on a fresh PR
+off main. **HARD RULE:** do not reopen or amend PR #23.
+Never reopen merged #7 / **#8** / **#9** /
+**#10** / **#12** / **#13** / **#14** / **#15** /
+**#16** / **#17** / **#18** / **#19** / **#20** /
+**#21** / **#22** / **#23**. Do **not** re-fold §93 mechanism /
+§94 / §95 / §96 / §97 / §98 / §99 / §100 / §101 /
+§102 / §103 / §104 / §105 / JevBench v1.2 board / §78 /
+jev-orderby-bench six-gates / §60. Skip Archer rewrite.
+Do **not** re-fold 0042 / 2340 / 2246 / 2145 / 2041 / 1943 /
+1843 / 1740 / gliner-native-runtime / 1639 / 1541. No
+invented metrics. Hunches labeled. Quote READMEs. Soft
+Noul ≠ hard safety. Augustus owns placement.
+Architecture probes (train-or-local recipes) are the
+*class* exemplar this hour. Quote live REST over watch.
+`invented_signal: false`.
+
+- **Jevify-any-LLM architecture probe (PRIMARY).**
+  uspraveen/Jevify (license null; **0★**; HEAD `0f29d783`;
+  README SHA `32608473`; GitHub size 0). Turn any open LLM into System-One Jev.
+  uspraveen/Jevify ≠ Mintzs/jevify ≠ gulagala001/jevify.
+  Jevify-any-LLM architecture probe. description-only stub / size 0.
+- **Encoder-only from a task sentence.** Ruivalim/exu-base
+  (Python MIT; **1★**; HEAD `7288cdca`; README SHA `45244838`; size **180**).
+  Train encoder-only calibrated decision models from a task sentence.
+  Exu is a toolkit, not a method. strictly proper scoring rule. Pre-alpha.
+- **Scratch-trained recipe upgrade.** Colvin0315/MiniSystemOne
+  (Python Apache-2.0; **0★**; HEAD `d7f9f803`; README SHA `a5b0d2fd`; size **814**).
+  scratch-trained calibrated decision model. typed Q → probability dists.
+  Colvin0315/MiniSystemOne ≠ hyusi2003/MiniSystemOne.
+  no published weights download URL. 90.5 seconds / 29.2% pipeline evidence.
+  p_i/p_j independent of other candidates.
+- **Recipe small model out.** scienthoon/luce (Python Apache-2.0; **1★**;
+  HEAD `8072b97d`; README SHA `5fbe226d`; size **10833**).
+  Recipe for calibrated decision models — small model out.
+  init → synth → train → eval → serve. 91.1 % / ECE 0.022 *theirs*.
+  Jev zero-shot 75.1.
+- **Headline claims trial.** RichardoMrMu/jev-mini (Python MIT; **0★**;
+  HEAD `5adef5dc`; README SHA `154ae8b0`; size **0** with contents).
+  Put Jev's three headline claims on trial. 0.5B local GPU.
+  46x speedup / accuracy identical. ECE 0.624 sentiment catastrophe.
+  bigger model worse calibration. RichardoMrMu/jev-mini ≠ yuki-oshio/mini-jev ≠ r-ms/mini-jev.
+- **Local structured-choice engine.** tapsin/jev-local (Python; license null; **0★**;
+  HEAD `96aac2a1`; README SHA `4d728cbf`; default **master**).
+  System-1 decision engine for local LLMs. structured choices only.
+  JSON parse of generated text ≠ Noul. TypefAI JEV / Journal Entry Voucher.
+  tapsin/jev-local ≠ us/jev-local ≠ Argos1111/jev_local.
+- **Reward-model 8-track.** goya4140/jev-reward-model-evaluation
+  (Python MIT; **0★**; HEAD `f16a06d1`; README SHA `603587fd`).
+  Jev 1.13 reward-model eval across 8 benchmark tracks.
+  40,940 examples / 0 API errors. RewardBench v1 92.58%. Precise IF 50.63%.
+- **Ticket-router scaffold.** SarathChandraBellam/jev-vs-llm-ticket-router
+  (license null; **0★**; HEAD `0318ad72`; README SHA `8223dd6f`).
+  Jev vs LLM support-ticket routing. Scaffolding in progress.
+- **Cost bench.** Shilin237/jev-vs-llm-cost (HTML; license null; **0★**;
+  HEAD `2d4bd6a9`; README SHA `f4e98bbf`). static + live decision bench.
+  TypeSafe's own published benchmark. illustrative simulations, not live API calls.
+- **JevBench v1.2.3 densify.** fstandhartinger/jevbench (Python MIT; **6★**;
+  HEAD `c7ab99f5`; README SHA `8fe07c41`; size **8907**).
+  JevBench v1 — smart/cheap/fast/reliable. I/C/S/K 25% geometric mean.
+  classifier.dev fast tier 84.8 is Jev behind its own API.
+  do not re-fold §78 v1.2 board as new. Laya (421M) 70.1 now on board.
+- **Budget-in-code remainder.** AIGNLAI/ReflexRoute (Python MIT; **1★**;
+  HEAD `5f475d80`; README SHA `6a1ae694`). Zero-shot/few-shot LLM routing.
+  hard budget filter before Jev. Jev never asked to perform budget arithmetic.
+- **XState compose.** priyankark/jev-state (TypeScript MIT; **0★**;
+  HEAD `c73aef65`; README SHA `15410dbe`).
+  Jev judges the next state, XState enforces transitions.
+  simulation uses synthetic keyword fixtures.
+- **Consistency Space.** hfspace mjyoke1111/jev-consistency-benchmark
+  (apache-2.0; likes **0**). Consistency benchmark Space.
+  This Space contains no benchmark result yet. 12-case plumbing fixture.
+- **Catalog gravity.** v-modal/awesome-jev-tools (license null; **339★**;
+  HEAD `f117e0c3`; README SHA `8ea9a669`; size **83**).
+  catalog gravity. ★339 live REST. curation is not endorsement.
+- **Crawler directory.** RadRebelSam/awesome-jev (JavaScript SPDX NOASSERTION; **0★**;
+  HEAD `27629954`; README SHA `21ec8d51`; LICENSE SHA `2aa7fe23`; size **919**).
+  crawler-maintained directory. Daily GitHub + npm sweep, human-merged.
+  RadRebelSam/awesome-jev ≠ AnotiaWang ≠ yibie ≠ cobanov ≠ logicrw ≠ v-modal.
+- **HF peft reranker.** rdxtremity/jev-reranking (apache-2.0; likes **0**; sha `cae796ea`).
+  HF peft SPLADE/BGE reranker. rdxtremity/jev-reranking ≠ carlaiau/jev-reranking.
+  query-side encoders, not a Jev replica.
+- **ONNX scorer port.** onnx-community/system-one-qwen3.5-4b-scorer-ONNX
+  (CC-BY-NC-4.0; likes **0**; sha `fa0bed22`). ONNX System One Qwen3.5-4B scorer.
+  source:pngwn/system-one-qwen3.5-4b-scorer. temperature 1.75.
+  transformers.js AutoModel cannot load this graph.
+
+Pulse: Archer still NOT landed. Hub
+archerhume/4rcherhume HTTP **401**. Tracker
+multimodalart/jev-reproductions-tracker likes **59**;
+lastModified `2026-09-20T04:29:16Z` UNCHANGED. Live REST: SemIf
+**2074★**; jevlike **1022★**; TypeAR **12★** **flat**.
+AnotiaWang/awesome-jev **92★** ≠ Awesomejev 561/27007 ≠
+logicrw **146★** ≠ v-modal **339★**. Qwen3.8-27B ≠ Archer.
+do not reopen or amend PR #23.
+`invented_signal: false`.
+
+Cross-repo addition: (nm) Jevify-any-LLM probe; (nn) encoder-only
+task-sentence toolkit; (no) Colvin recipe upgrade; (np) luce recipe;
+(nq) headline-claims trial; (nr) local JSON≠Noul; (ns) RM 8-track;
+(nt) ticket-router scaffold; (nu) cost bench; (nv) JevBench densify;
+(nw) budget-in-code; (nx) XState compose; (ny) consistency plumbing;
+(nz) catalog gravity; (oa) crawler directory; (ob) SPLADE/BGE port;
+(oc) ONNX scorer port.
+
 ## Batch #88 (2026-09-20 ~06:42 UTC / ~00:42 Boise) — hourly 0042 HIGH
 
 Note: `research/notes.md` §105. Docs-only on a fresh PR

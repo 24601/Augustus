@@ -308,6 +308,14 @@ request, and treat a stale pin as a prior, never a setting.
 | Treat a raw 0.94 as a release / pin `jev-latest` | Behavioral contracts | behavioral contracts. pin expectations eval upgrades. raw 0.94 is not a release. sathariels/jevcheck ≠ dayhaysoos/jevals ≠ SivletLabs/jev-eval. `notes.md` §105 |
 | Let Jev emit filenames / treat no_direct_evidence as merge-safe | Evidence-linked remainder | evidence-linked dependency upgrade. Jev never generates filenames. no_direct_evidence ≠ safe to merge. GaneshVG18/upgrade-radar ≠ LYchoon/paper-radar-jev. `notes.md` §105 |
 | One giant “what is this song about?” / treat theme as music theory | Atomic batched questions | discography theme/mood/complexity. five atomic questions one call. lirantal/discoprint. `notes.md` §105 |
+| Treat a GitHub two-liner as a trained any-LLM Jev / amend PR #23 | Replica honesty | Turn any open LLM into System-One Jev. uspraveen/Jevify ≠ Mintzs/jevify ≠ gulagala001/jevify. description-only stub / size 0. do not reopen or amend PR #23. `notes.md` §106 |
+| Paste Colvin 90.5s / 29.2% as hyusi / treat 26.89M as quickstart | Replica honesty | scratch-trained calibrated decision model. typed Q → probability dists. Colvin0315/MiniSystemOne ≠ hyusi2003/MiniSystemOne. no published weights download URL. p_i/p_j independent of other candidates. `notes.md` §106 |
+| Treat JSON parse of generated text as a Noul / Journal Entry Voucher | Replica honesty | System-1 decision engine for local LLMs. structured choices only. JSON parse of generated text ≠ Noul. TypefAI JEV / Journal Entry Voucher. tapsin/jev-local ≠ us/jev-local ≠ Argos1111/jev_local. `notes.md` §106 |
+| Quote 46x / 91.1% / 92.58% / 84.8 as class ceilings | Sensors not identity | 46x speedup / accuracy identical. ECE 0.624 sentiment catastrophe. 91.1 % / ECE 0.022 *theirs*. RewardBench v1 92.58%. classifier.dev fast tier 84.8 is Jev behind its own API. `notes.md` §106 |
+| Treat classifier.dev #1 as a better model / re-fold §78 as new | Densify ≠ re-fold | JevBench v1 — smart/cheap/fast/reliable. I/C/S/K 25% geometric mean. do not re-fold §78 v1.2 board as new. Laya (421M) 70.1 now on board. `notes.md` §106 |
+| Ask Jev to perform budget arithmetic / treat XState as Jev | Formal compose | hard budget filter before Jev. Jev never asked to perform budget arithmetic. Jev judges the next state, XState enforces transitions. simulation uses synthetic keyword fixtures. `notes.md` §106 |
+| Paste catalog ★ as eval / treat SPLADE as TypeSafe Jev / empty Space as a win | Catalog / port honesty | catalog gravity. ★339 live REST. curation is not endorsement. query-side encoders, not a Jev replica. This Space contains no benchmark result yet. 12-case plumbing fixture. transformers.js AutoModel cannot load this graph. `notes.md` §106 |
+
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline
