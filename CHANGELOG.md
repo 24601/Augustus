@@ -22,6 +22,34 @@ the 0.4.0 pin. Do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33
 
 ### Added
 
+- **Hourly 0843 HIGH (`notes.md` §114).** Measurement / judgment fold
+  off `main` after v0.4.0. PRIMARY: pretrained Qwen2.5 base ECE already
+  low; instruct-tuning wrecks honesty (acc flat, mean conf 74.1%→96.7%).
+  Equal-width ECE ≠ quantile ECE (0.113 vs 0.076 *theirs*). Calibration
+  does not compose; hop-ECE is permutation-invariant (soundness theater
+  as a trajectory audit); Deferred Crispification; 25–60× headline
+  withdrawn. Hysteresis `{enter:0.8, exit:0.6}` is policy attached to a
+  probability, not a model property. Ranking ≠ calibration (BANKING77
+  BERT-Base 93.02 is a supervised reference, not zero-shot).
+  g0runmezadam/what-is-jev **is** tunahansahin897/what-is-jev (rename).
+  Qwen2.5 / Qwen 3.8 / Qwen/Qwen3.8-27B ≠ Archer. Archer still
+  promised_not_landed. Evaluator: equal-width vs quantile ECE, hysteresis,
+  ranking≠calibration, hop-ECE invariance, cost-optimal threshold.
+  uniqueness_gate.py. Composition items 289–302 / batch #97.
+  **HARD RULE:** do not reopen or amend PR #23–#33. Merged #31 owns
+  `notes.md` §113 / items 273–288 / batch #96 — leave it alone.
+- Uniqueness lock archive: `research/changelog-hourly.md` (this hour's
+  lock is there; this file stays scannable).
+
+### Changed
+
+- `evaluate_decisions.py` reports equal-width and quantile ECE, AUC,
+  accuracy@0.5, and a cost-optimal threshold. Self-test covers ranking≠
+  calibration, hysteresis vs single 0.7, and hop-ECE permutation
+  invariance.
+
+### Added
+
 - **Harbor-jevals PRIMARY** — ywchiu/jev_benchmark routing
   across a conversation (Gemma 4 31B 77.0% / Jev 1.13.0
   61.4% / Laya 322M 0.0%; restriction state 95.0% against

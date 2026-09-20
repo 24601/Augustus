@@ -1,9 +1,10 @@
-# Hourly uniqueness dump (pre-0.4.0 + in-flight 0743)
+# Hourly uniqueness dump (pre-0.4.0 + 0743 + 0843)
 
 This is the pre-0.4.0 `CHANGELOG.md` after hourly folds (#2–#30 / notes
 §44–§112) stuffed uniqueness locks into Keep-a-Changelog sections, plus
-the in-flight **0743 HIGH** dump (PR #31 / notes.md §113 / items 273–288
-/ batch #96). It is **not** release notes.
+the merged **0743 HIGH** dump (PR #31 / notes.md §113 / items 273–288
+/ batch #96) and **0843 HIGH** dump (PR #35 / notes.md §114 / items 289–302
+/ batch #97). It is **not** release notes.
 
 - Release-facing notes: [`CHANGELOG.md`](../CHANGELOG.md)
 - Canonical folds: [`notes.md`](notes.md)
@@ -12,6 +13,19 @@ the in-flight **0743 HIGH** dump (PR #31 / notes.md §113 / items 273–288
 - Do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33.
 
 ---
+
+
+## [Unreleased] hourly 0843 (not a SemVer bump)
+
+Hourly 0843 HIGH (`research/notes.md` §114): **Skip Archer rewrite.**
+Docs + evaluator on a **fresh PR off main**. **HARD RULE:** do not
+reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33. Merged #31 owns `notes.md` §113 / items 273–288 / batch #96 — leave it alone. Measurement PRIMARY: instruct-tuning
+honesty collapse; equal-width vs quantile ECE; calibration does not
+compose / Deferred Crispification. Hysteresis is policy. Ranking ≠
+calibration. Soundness theater: hop-ECE permutation-invariant.
+Qwen2.5 ≠ Archer. Qwen 3.8 sparring ≠ Archer. Qwen/Qwen3.8-27B ≠ Archer.
+g0runmezadam IS tunahan (id 1378007307). Composition items 289–302 /
+batch #96. Soft Noul ≠ hard safety.
 
 ## Hourly 0743 HIGH (PR #31, notes.md §113)
 
@@ -141,7 +155,6 @@ the in-flight **0743 HIGH** dump (PR #31 / notes.md §113 / items 273–288
   Hub likes 139 / 72 cited. X MCP used.
   `invented_signal: false`. Composition items 268–272 /
   batch #95. Uniqueness lock: people who compare Jev against GPT-5.6 has never fine-tuned BERTForXYZ for living and it shows; zero shot classifiers; scale them as much as decoder only models; many problems solved with LLMs could have been solved with them, it was a skill issue; opt for DeBERTa and ModernBERT ones; BERTForXYZ → DeBERTa → ModernBERT; Jev vs GPT-5.6 bakeoffs are a category error; encoder / ZS classifiers; institutional HF voice; quote *theirs*; do not invent accuracy numbers; softmax/ZS scores still ≠ calibrated Noul; soft scores ≠ hard gates; @mervenoyann; likes 421 / 189; impressions 35498 / 9613; multimodal image<>text ZS as perception front-end; hf:MoritzLaurer/deberta-v3-large-zeroshot-v2.0 likes 139; hf:MoritzLaurer/ModernBERT-large-zeroshot-v2.0 likes 72; Bart, bert, deberta, modernbert, these are all LLMs; Maziyar quoted; Jev is exemplar not the mandate; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29.
-
 
 # Changelog
 
@@ -3686,3 +3699,5 @@ The dated passes below are how 0.1.0 was assembled.
   relations, logical-operator combination rules, and the position×construct
   traversal as the systematic application generator; wired into SKILL.md
   index + toolbox sweep.
+
+Hourly 0843 uniqueness lock: A hunch is a probability with a policy attached; { enter: 0.8, exit: 0.6 } is hysteresis; replay a policy change without inference; Decision models are providers, not the product; huncho ≠ Kungie/gut ≠ carldaws/hunch ≠ tpellet/hunch; pretrained Qwen2.5 base ECE 0.030 (0.5B) / 0.040 (7B); instruct 0.302 / 0.269; 70.9% → 70.0% mean conf 74.1% → 96.7%; temperature scaling still matches it in-distribution; No Jev API was called; Qwen2.5 ≠ Archer; Qwen/Qwen3.8-27B ≠ Archer; 学習済みモデル v0.1 は準備中です; bool AUROC 0.523; 先頭だと0件、末尾だと250件; 温度を渡さない場合、確率は較正されていません; このリポジトリには Jev を呼ぶコードが存在しません; g0runmezadam/what-is-jev IS tunahansahin897/what-is-jev (same GitHub id 1378007307); 947 repos scored; A 273 · B 302 · C 372; LLM rubric ≠ benches; Data as of 2026-09-20; HEAD 895b9498; README SHA 3ae98c56; 13 focused checks and one mutually exclusive outcome; Probabilities are advisory, not calibrated guarantees; omni-/ask-jev ≠ pedroknigge/mcp_jev; pd.cut bins by equal width while jeval bins by quantile; ECE 0.113 and ECE 0.076; jeval drift is not implemented yet; rlaope/jeval ≠ dayhaysoos/jevals; calibration does not compose; ECE has exactly zero statistical power to detect the failure mode that kills trajectories; 25–60× headline withdrawn; P(all-correct): 0.0071 vs 0.0001; TCE / AMS; Qwen 3.8 sparring ≠ Archer; Deferred Crispification; light_cutoff_applied_to_combination 0; recorded run, kinematic animation; BANKING77 Accuracy BERT-Base 93.02 Jev 79.90; Analyse jev calibration (NLL, ECE) backlog; BERT figures are published supervised references, not zero-shot; 档位措辞效应 分数极差中位 0.50、最大 1.32; 修好后对照组是 0.01; 不是 benchmark; 概率没做 calibration; ~1,430 API calls, about $0.15; xiaohuaxi/jev-study ≠ wjdjdakf17/jev-study ≠ baekenough/jev-study; AND: product (independence assumed and recorded in the trace); chat model's stated confidence is not calibrated; circuit-vl-4b ≠ Archer; Bring your own API key; vamsikrishna2421/jev-usecases ≠ whyashthakker/awesome-jev-use-cases; catalog ≠ endorsement; SemIf 2237★ (+30 vs §111 2207); jevlike 1049★ (+6 vs 1043); TypeLLM/TypeLLM 16★; AnotiaWang 98★; yibie/awesome-jev 520★ (+14 vs 506); Laya likes 861 (was 822); tracker likes 66 (+2 vs 64) lastModified UNCHANGED; Blackwood likes 2 gated manual; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33; notes.md §114

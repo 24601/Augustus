@@ -27,6 +27,7 @@ Run what you can locally:
 
 ```bash
 python3 .agents/skills/augustus/scripts/evaluate_decisions.py --self-test
+python3 .agents/skills/augustus/scripts/uniqueness_gate.py
 ```
 
 The Pages workflow must stay green (`docs/index.md` still contains the

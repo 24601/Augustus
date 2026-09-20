@@ -1847,6 +1847,7 @@ bonzi-27b-v2 / ternary-8b / 27b-v1 GGUF family densify; Hub still does not ship 
      soft scores ≠ hard gates. Quote *theirs*; do not invent accuracy numbers.
      Full cards: `formal-methods.md`, `validation.md`.
 
+
 User-provided 0806 items 268–272 (`notes.md` §112). Do **not**
 re-fold §85 / §111 items 248–267 / §110 64× Space.
 people who compare Jev against GPT-5.6 has never fine-tuned BERTForXYZ for living and it shows; zero shot classifiers; scale them as much as decoder only models; many problems solved with LLMs could have been solved with them, it was a skill issue; opt for DeBERTa and ModernBERT ones; BERTForXYZ → DeBERTa → ModernBERT; Jev vs GPT-5.6 bakeoffs are a category error; encoder / ZS classifiers; institutional HF voice; quote *theirs*; do not invent accuracy numbers; softmax/ZS scores still ≠ calibrated Noul; soft scores ≠ hard gates; @mervenoyann; likes 421 / 189; impressions 35498 / 9613; multimodal image<>text ZS as perception front-end; hf:MoritzLaurer/deberta-v3-large-zeroshot-v2.0 likes 139; hf:MoritzLaurer/ModernBERT-large-zeroshot-v2.0 likes 72; Bart, bert, deberta, modernbert, these are all LLMs; Maziyar quoted; Jev is exemplar not the mandate; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29.
@@ -1943,6 +1944,83 @@ Soft Noul ≠ hard safety.
 
 Hourly 0743 uniqueness lock: Heman10x-NGU/Verdict-open-jev ≠ Heman10x-NGU/openJev-verdict-2.0; TF-IDF + LogReg ECE 0.0207 vs Jev 0.1440; Verdict-open-jev 48.07% vs Jev 90.80%; abstention combined recall 10.00%; p50 35.58 ms; K=25 (maximum capacity) 72.00%; 0.85 coverage 84.60% selective risk 1.18%; 26.1× faster than standard Qwen JSON generation; Jevify 90.0% / 167 ms CUDA graphs disabled; Finding 1: Brier on stated confidence alone is a trap; grpo_rlcr 0.78 / ECE 0.084; reliability 0.007 but resolution 0.000; 27 900 schema-driven decisions; 13 600 / 13 600 questions; candidate mass min 0.99999624; 22 configs · 166,054 rows · 4 calibration-gold; sha a39eba3f; Student B MAE 0.148 / Pearson 0.836 / 86.0%; pngwn/open-jev-laya-bench README 404; sha 9f69c742 likes 2; HDFS 0.9933 (745/750) / retain 0.0084; BGL ERROR/FATAL protection 1.0000; 2,479 / 2,500 HDFS uncertain; cache hit 0.9648 (2412/2500); $0.153936 estimated; E2 recomputes from saved probabilities; Space sha eda59e0a; MASSIVE English 0.783 / Khmer 0.033 / Hindi 0.133; 40–48 rows too small to ship T; T never changes argmax; siren2345/jev-single-decode-transformers ≠ siren2345/jev-single-decode; Split Transformers experiment from llama.cpp runtime; tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab; Four experiments stress-testing TypeSafe's Jev: calibration, bundle bias, label bias, and ensembling; second pass must be $0.00 from cache; The pages never call Jev; Gemma 4 31B 77.0% / Jev 1.13.0 61.4% / Laya 322M 0.0%; restriction state 95.0% against 84.4%; None of the systems are particularly good at knowing when to stop and ask; They skip the question and call a tool directly; 100% schema pass; six-field joint 48.8% vs 72.8%; ywchiu/jev_benchmark ≠ Running-Dolphins/jev-bench ≠ Praveenrajus/jev-bench; ACT / REVIEW / FALLBACK; A provider failure, timeout, malformed output, or missing answer is **not** a policy outcome; confidence is descriptive provider output, not a substitute for probability; Quality denominators include only valid scored answers; an exact halfway tie chooses the lower level; aiwithenoch/Jev-Skill ≠ simplosophy/jev-skill ≠ laguagu/jev-skills; The local path does not claim to turn a smaller checkpoint into Jev; Low support becomes decision: "review"; MIT-0 SPDX NOASSERTION; current-llm; 结构兼容，不是 Jev 模型能力; altryne/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify; Find where Jev belongs. Design the questions. Measure the difference; TypeAR-AI/TypeAR 301 → TypeLLM/TypeLLM; TypeLLM/TypeLLM 16★; SemIf 2241★ (+34 vs §111 2207); jevlike 1051★ (+8 vs 1043); AnotiaWang 98★ (+1 vs 97); yibie/awesome-jev 525★ (+19 vs 506); Laya likes 864 (was 822); tracker likes 67 (+3 vs 64); lastModified UNCHANGED `2026-09-20T04:29:16.000Z`; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33; notes.md §113
 
+289. **Hysteresis as policy** (edgardcham/huncho):
+     positions 3 (Gate) × 7 (Policy). A hunch is a probability with a policy attached.
+     { enter: 0.8, exit: 0.6 } is hysteresis. replay a policy change without inference.
+     Decision models are providers, not the product.
+     huncho ≠ Kungie/gut ≠ carldaws/hunch ≠ tpellet/hunch.
+     Full cards: `mixed-architecture.md`, `faq.md`, `mental-models.md`.
+290. **Instruct-tuning breaks option-logit ECE** (VladUZH/jev-calibration) PRIMARY:
+     position 11 (measurement of an already-owned class property).
+     pretrained Qwen2.5 base ECE 0.030 (0.5B) / 0.040 (7B); instruct 0.302 / 0.269.
+     70.9% → 70.0% mean conf 74.1% → 96.7%. temperature scaling still matches it in-distribution.
+     No Jev API was called. Qwen2.5 ≠ Archer. Ranking ≠ calibration.
+     Full cards: `validation.md`, `faq.md`.
+291. **JA System One encoder + position bias** (hiroki-abe-58/sokudan):
+     position 1 (Operand / family) × 10 (option-order as measurement).
+     学習済みモデル v0.1 は準備中です. bool AUROC 0.523.
+     先頭だと0件、末尾だと250件. 温度を渡さない場合、確率は較正されていません.
+     このリポジトリには Jev を呼ぶコードが存在しません.
+     Full cards: `judgment-class.md`, `validation.md`.
+292. **what-is-jev rename densify** (g0runmezadam/what-is-jev IS tunahansahin897/what-is-jev):
+     position 2 (Post-judge / catalog). same GitHub id 1378007307.
+     947 repos scored; A 273 · B 302 · C 372; LLM rubric ≠ benches;
+     Data as of 2026-09-20; HEAD 895b9498; README SHA 3ae98c56.
+     Do **not** mint a second census. catalog ≠ endorsement.
+     Full cards: `faq.md`, `applied-mappings.md`.
+293. **Advisory Codex audit** (omni-/ask-jev):
+     position 3 is *tempting* (block the turn on p) and **rejected**.
+     13 focused checks and one mutually exclusive outcome.
+     Probabilities are advisory, not calibrated guarantees.
+     omni-/ask-jev ≠ pedroknigge/mcp_jev.
+     Full cards: `faq.md`, `agent-self-assessment.md`.
+294. **Equal-width vs quantile ECE + cost-optimal line** (rlaope/jeval) PRIMARY:
+     position 11 × 4 (Selector of operating point from costs).
+     pd.cut bins by equal width while jeval bins by quantile; ECE 0.113 and ECE 0.076.
+     jeval drift is not implemented yet. rlaope/jeval ≠ dayhaysoos/jevals.
+     Full cards: `validation.md`, `mental-models.md`.
+295. **Calibration does not compose** (dnakhoa/jev-deferred-crispification) PRIMARY:
+     position 9 (composition algebra of hops) × 11 (anti-soundness-theater).
+     ECE has exactly zero statistical power to detect the failure mode that kills trajectories.
+     25–60× headline withdrawn. P(all-correct): 0.0071 vs 0.0001. TCE / AMS.
+     Deferred Crispification. Qwen 3.8 sparring ≠ Archer.
+     Full cards: `formal-methods.md`, `validation.md`, `faq.md`.
+296. **Screening cutoff theater** (matsuikentaro1/jev-title-abstract-screening):
+     position 3 rejected as Harbor. light_cutoff_applied_to_combination 0.
+     0.5 sensitivity does not transfer. Full cards: `question-design.md`, `faq.md`.
+297. **Recorded-run rover demo** (metrox-eth/moss-jev):
+     position 10 (perceive is simulated). recorded run, kinematic animation.
+     No live API. Skip Archer. Full cards: `mixed-architecture.md`.
+298. **Supervised BERT vs zero-shot Jev is not a ranking** (thisisandreeeee/jev-benchmarks):
+     position 11. BANKING77 Accuracy BERT-Base 93.02 Jev 79.90.
+     BERT figures are published supervised references, not zero-shot.
+     Analyse jev calibration (NLL, ECE) backlog. ranking ≠ calibration.
+     Full cards: `validation.md`, `judgment-class.md`.
+299. **Use-case catalog as judgment lens** (vamsikrishna2421/jev-usecases):
+     position 2. vamsikrishna2421/jev-usecases ≠ whyashthakker/awesome-jev-use-cases.
+     catalog ≠ endorsement. Full cards: `applied-mappings.md`, `faq.md`.
+300. **Pointer highlighter / BYO key** (yuvalraviv1/highlight):
+     position 10 (extractive). Bring your own API key. Sentence Noul/Score + paragraph Choice.
+     Pointer-not-generator. Full cards: `mixed-architecture.md`.
+301. **Decision circuits / independence recorded** (Barneyjm/decision-circuits):
+     positions 3 × 7. AND: product (independence assumed and recorded in the trace).
+     chat model's stated confidence is not calibrated. circuit-vl-4b ≠ Archer.
+     ≠ voidning/jev-combinators ≠ Illusion47586/judge.
+     Full cards: `mixed-architecture.md`, `formal-methods.md`.
+302. **Constructed-case study ≠ benchmark** (xiaohuaxi/jev-study):
+     position 11. 不是 benchmark; 概率没做 calibration.
+     档位措辞效应 分数极差中位 0.50、最大 1.32; 修好后对照组是 0.01.
+     ~1,430 API calls, about $0.15.
+     xiaohuaxi/jev-study ≠ wjdjdakf17/jev-study ≠ baekenough/jev-study.
+     Full cards: `validation.md`, `question-design.md`.
+
+Hourly 0843 items 289–302 (`notes.md` §114). Do **not**
+re-fold §113 items 273–288 / §112 items 268–272 / §111 items 248–267 / §109
+tunahan census as a sibling. Merged #31 owns items 273–288 / `notes.md` §113 / batch #96 — leave them alone. Qwen/Qwen3.8-27B ≠ Archer.
+Archer still promised_not_landed.
+Soft Noul ≠ hard safety.
+
+
 Hourly 0646 items 248–267 (`notes.md` §111). Do **not**
 re-fold 0541 items 226–247 / 0439 items 202–225 / 0345 items 186–201 / 0243 items 178–185 / 0145 items 161–177 / 0042 items 149–160 / 2340 items 138–148 / 2246 items 129–137 / 2145
 items 120–128 / 2041 items 111–119 / 1943 items 102–110 /
@@ -2016,3 +2094,5 @@ items 120–128 / 2041 items 111–119 / 1943 items 102–110 /
 1843 items 97–101 / 1740 items 94–96 / SIGNAL §93
 mechanism / §60 six-gates / §78 v1.2 board.
 Soft Noul ≠ hard safety.
+
+Hourly 0843 uniqueness lock: A hunch is a probability with a policy attached; { enter: 0.8, exit: 0.6 } is hysteresis; replay a policy change without inference; Decision models are providers, not the product; huncho ≠ Kungie/gut ≠ carldaws/hunch ≠ tpellet/hunch; pretrained Qwen2.5 base ECE 0.030 (0.5B) / 0.040 (7B); instruct 0.302 / 0.269; 70.9% → 70.0% mean conf 74.1% → 96.7%; temperature scaling still matches it in-distribution; No Jev API was called; Qwen2.5 ≠ Archer; Qwen/Qwen3.8-27B ≠ Archer; 学習済みモデル v0.1 は準備中です; bool AUROC 0.523; 先頭だと0件、末尾だと250件; 温度を渡さない場合、確率は較正されていません; このリポジトリには Jev を呼ぶコードが存在しません; g0runmezadam/what-is-jev IS tunahansahin897/what-is-jev (same GitHub id 1378007307); 947 repos scored; A 273 · B 302 · C 372; LLM rubric ≠ benches; Data as of 2026-09-20; HEAD 895b9498; README SHA 3ae98c56; 13 focused checks and one mutually exclusive outcome; Probabilities are advisory, not calibrated guarantees; omni-/ask-jev ≠ pedroknigge/mcp_jev; pd.cut bins by equal width while jeval bins by quantile; ECE 0.113 and ECE 0.076; jeval drift is not implemented yet; rlaope/jeval ≠ dayhaysoos/jevals; calibration does not compose; ECE has exactly zero statistical power to detect the failure mode that kills trajectories; 25–60× headline withdrawn; P(all-correct): 0.0071 vs 0.0001; TCE / AMS; Qwen 3.8 sparring ≠ Archer; Deferred Crispification; light_cutoff_applied_to_combination 0; recorded run, kinematic animation; BANKING77 Accuracy BERT-Base 93.02 Jev 79.90; Analyse jev calibration (NLL, ECE) backlog; BERT figures are published supervised references, not zero-shot; 档位措辞效应 分数极差中位 0.50、最大 1.32; 修好后对照组是 0.01; 不是 benchmark; 概率没做 calibration; ~1,430 API calls, about $0.15; xiaohuaxi/jev-study ≠ wjdjdakf17/jev-study ≠ baekenough/jev-study; AND: product (independence assumed and recorded in the trace); chat model's stated confidence is not calibrated; circuit-vl-4b ≠ Archer; Bring your own API key; vamsikrishna2421/jev-usecases ≠ whyashthakker/awesome-jev-use-cases; catalog ≠ endorsement; SemIf 2237★ (+30 vs §111 2207); jevlike 1049★ (+6 vs 1043); TypeLLM/TypeLLM 16★; AnotiaWang 98★; yibie/awesome-jev 520★ (+14 vs 506); Laya likes 861 (was 822); tracker likes 66 (+2 vs 64) lastModified UNCHANGED; Blackwood likes 2 gated manual; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33; notes.md §114
