@@ -855,6 +855,49 @@ safety proof, merging Needle 52.6% with n=78 93%,
 guardrailing” is the same theater. gut/judge are
 overlays, not species. rh-guard owns steerability.
 
+1943 envelopes (`notes.md` §100), still outside the extras
+template: Jev IS the if-statement; judgments/probabilities
+drive branches; text model only writes prose; interpreter
+owns variables/loops/budgets/replay; otherwise maybe /
+confidence gate; chaos samples after the gate;
+southpolesteve/probably ≠ carldaws/hunch ≠ feelings ≠
+Kungie/gut ≠ Illusion47586/judge ≠ tidymodels/probably;
+133★ / forks 10 live; build calibrated classifiers from
+human feedback; retrieve by relevance not resemblance;
+one calibrated yes/no per memory in one request; pointer
+mode 17/18 19/20 *theirs*; embedding resemblance misses
+the allergy; samdotmak/jev-recall ≠ jev-search ≠ jev-sift
+≠ carryforward ≠ chopratejas/invalidate; memory leases
+ended by new evidence; six Nouls then fixed rules in
+code; 0 of 157 false invalidations; questions/plans/
+directives are not evidence; unsure → review queue; host
+keeps the store; name↔body / comment truth / test-claims;
+mizchi/jev-lint is mizchi/jevlint rename; no shipped rule
+has severity error; ~1 in 5 findings wrong *theirs*;
+mizchi/jev-lint ≠ huntedman/JevLint ≠
+MichitoSugawara/jev-lint; JSON Schema → typed JSON via
+Jev; noul_threshold 0.5 decoder not a proof;
+IncompatibleSchemaError lists every bad property;
+on-device Laya CoreML ANE; ~5 ms P50 short decisions;
+189/189 FP16 checkpoint parity; 10× not achieved;
+mizorewww/laya-coreml ≠ gliner-native-runtime ≠ jevmlx ≠
+NandhaKishorM/laya; softmax over allowed tokens ≠ Noul;
+question-first cache; Micha0827/snapjudge ≠
+githubnext/localjev ≠ jevmlx ≠ cendress/SnapJudge;
+Jev-first Pi agent loop; slow-LLM fallback; explicit
+action menu / CandidateSource unimplemented; 62 tests
+wiring not quality; direwolfiy/JevPi ≠
+standardagents/jevpilot ≠ pi-jev-control.
+Soft Noul ≠ hard safety: 80% / 17/18 / 0 of 157 /
+4.98 ms / 189/189 / 0.5 / 62 tests are **sensors**.
+The interpreter / lease policy / schema envelope / AST
+matcher is exact work. Hard-gating `feels`, pasting
+17/18 as Harbor, hard-gating 0 of 157 as a proof,
+treating boolean @ 0.5 as safety, claiming 10×, treating
+softmax as a Noul, or treating wiring tests as quality
+is the same theater.
+
+
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a
 hybrid "verified by Noul" API.

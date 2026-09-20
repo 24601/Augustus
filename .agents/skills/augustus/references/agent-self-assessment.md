@@ -341,6 +341,23 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   [judge](https://github.com/Illusion47586/judge)
   — exactly one app-owned callback; explicit
   uncertain branch (`notes.md` §99).
+  **Language primitive:**
+  [probably](https://github.com/southpolesteve/probably) —
+  Jev IS the if-statement; otherwise maybe / confidence
+  gate; chaos samples after the gate (`notes.md` §100).
+  **Lease / retrieve:**
+  [invalidate](https://github.com/chopratejas/invalidate) —
+  memory leases ended by new evidence; unsure → review
+  queue; host keeps the store.
+  [jev-recall](https://github.com/samdotmak/jev-recall) —
+  retrieve by relevance not resemblance.
+  **Lint / loop:**
+  [jev-lint](https://github.com/mizchi/jev-lint) — name↔body
+  / comment truth / test-claims; no shipped rule has
+  severity error.
+  [JevPi](https://github.com/direwolfiy/JevPi) — Jev-first
+  Pi agent loop; slow-LLM fallback; 62 tests wiring not
+  quality.
   Session-ledger cousin:
   [carryforward](https://github.com/Dharundp6/jev-carryforward) —
   verbatim JSONL; Jev scores which facts are still live; constraints
@@ -446,6 +463,15 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   callback
   ([judge](https://github.com/Illusion47586/judge);
   `notes.md` §99). Tool *execution* is the
+([judge](https://github.com/Illusion47586/judge);
+  `notes.md` §99). Language-primitive cousin: omitting
+  `otherwise maybe` executes **neither** branch
+  ([probably](https://github.com/southpolesteve/probably);
+  `notes.md` §100). Lease cousin: false invalidation is
+  fail-closed; dead-band → review
+  ([invalidate](https://github.com/chopratejas/invalidate)).
+  Lint cousin: no shipped rule has severity error
+  ([jev-lint](https://github.com/mizchi/jev-lint)). Tool *execution* is the
   other polarity: [toolgate](https://github.com/fdemir/toolgate)
   stops on block / review-without-approval / guard error
   (`notes.md` §55). Capability kernel

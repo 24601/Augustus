@@ -221,6 +221,14 @@ metric): here GEPA searches definitions and Jev
 is the cheap executor being aligned. Do not copy
 `uv` / keys (`notes.md` §93).
 
+**GEPA live-star / framing delta (same SHA; 2026-09-19
+~19:43):** same repo. 133★ / forks 10 live. build
+calibrated classifiers from human feedback. HEAD
+`49753df9` **unchanged**. README SHA `363fccb7`
+**unchanged**. Do **not** re-dump the loop. Soft Noul ≠
+hard safety (`notes.md` §100).
+
+
 **Test** (any claimed integration must show): labeled-set agreement Jev vs
 PAW output on held-out data, per-class cost/latency comparison, and a drift
 measurement over a week of live inputs.

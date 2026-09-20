@@ -1325,6 +1325,30 @@ explicit uncertain branch. Illusion47586/judge ≠
 lexingtonhibiki/judgekit ≠ Ascurse/typed-judge-kit.
 Overlays, not species. Soft Noul ≠ hard safety
 (`notes.md` §99).
+**Hourly 1943 overlays (`notes.md` §100):**
+[southpolesteve/probably](https://github.com/southpolesteve/probably)
+(TypeScript MIT; **3★**) — Jev IS the if-statement.
+judgments/probabilities drive branches. text model only
+writes prose. interpreter owns variables/loops/budgets/replay.
+otherwise maybe / confidence gate. chaos samples after the
+gate. southpolesteve/probably ≠ carldaws/hunch ≠ feelings ≠
+Kungie/gut ≠ Illusion47586/judge ≠ tidymodels/probably.
+[samdotmak/jev-recall](https://github.com/samdotmak/jev-recall)
+(MIT; **6★**) — retrieve by relevance not resemblance.
+one calibrated yes/no per memory in one request. pointer
+mode 17/18 19/20 *theirs*. embedding resemblance misses the
+allergy. samdotmak/jev-recall ≠ jev-search ≠ jev-sift ≠
+carryforward ≠ chopratejas/invalidate.
+[chopratejas/invalidate](https://github.com/chopratejas/invalidate)
+(Apache-2.0; **11★**) — memory leases ended by new evidence.
+six Nouls then fixed rules in code. 0 of 157 false
+invalidations. questions/plans/directives are not evidence.
+unsure → review queue. host keeps the store.
+[mizchi/jev-lint](https://github.com/mizchi/jev-lint)
+(TypeScript MIT; **13★**) — name↔body / comment truth /
+test-claims. mizchi/jev-lint is mizchi/jevlint rename. no
+shipped rule has severity error. ~1 in 5 findings wrong
+*theirs*. Soft Noul ≠ hard safety (`notes.md` §100).
 
 ## 6. Expensive observation router
 

@@ -2010,3 +2010,57 @@
   System One hard gate; gut license quoted as GitHub
   Apache-2.0 / LICENSE MIT / pyproject Apache-2.0
   *theirs* (same split honesty as jev-forge).
+
+## 2026-09-20T01:43Z — hourly 1943 HIGH (Boise ~19:43 MDT)
+
+- Fresh PR off main after merged #17 (`b844cb6` / §99).
+  Never reopen merged #7–**#17**. Branch
+  `cursor/hourly-1943-probably-jev-align-0408`.
+  Prior 1843 fold agent
+  `bc-562b8004-e121-5379-a560-cc1082f67e93` is FINISHED.
+  Skip Archer rewrite. Quote READMEs. Mark *theirs*.
+  No wrappers / keys / install recipes. Do not dump
+  source / SDK / weights / training corpora.
+  `invented_signal: false`.
+- Nine HIGH: southpolesteve/probably (PRIMARY; **3★**;
+  Jev IS the if-statement); sutro-sh/jev-align (**133★**
+  live-star / framing delta of §93; HEAD/README SHA
+  unchanged); samdotmak/jev-recall (**6★**; retrieve by
+  relevance not resemblance); chopratejas/invalidate
+  (**11★** HIGH upgrade; memory leases ended by new
+  evidence); mizchi/jev-lint (**13★**; jevlint rename);
+  Kiln-AI/jev_jsonschema (**5★** HIGH upgrade; JSON
+  Schema question compiler); mizorewww/laya-coreml
+  (**0★**; on-device Laya CoreML ANE); Micha0827/snapjudge
+  (**3★**; softmax ≠ Noul); direwolfiy/JevPi (**0★**;
+  Jev-first Pi agent loop).
+- probably is a **language**, not a library overlay.
+  Formal methods compose with scoring; a Noul is a SENSOR.
+  Hard-gating `feels`, pasting 17/18 as Harbor, hard-gating
+  0 of 157, treating boolean @ 0.5 as a proof, claiming
+  10×, treating softmax as a Noul, or treating 62 tests as
+  quality is soundness theater.
+- Pulse (do not invent): Archer still NOT landed last pin
+  from §99. Hub archerhume/4rcherhume HTTP **401**. Tracker
+  likes **51** flat; lastModified UNCHANGED
+  2026-09-19T18:37:18Z. Live REST: SemIf **1954★**; jevlike
+  **989★**; TypeAR **11★** flat. AnotiaWang/awesome-jev
+  **83★** ≠ Awesomejev 561/27007. X MCP not used; no
+  invented tweets.
+- Cards: SKILL.md, mixed-architecture fail table +
+  gallery, faq, mental-models Apply 1943, judgment-class
+  language/replica notes, validation, applied-mappings,
+  mappings, toolbox, composition-algebra items 102–110,
+  question-design, methods-catalog, formal-methods,
+  optimizer-integration jev-align 133★ delta,
+  agent-self-assessment, ecosystem, CHANGELOG, README.
+- notes.md §100; sources.json; findings.md batch #83.
+  No wrapper. Do **not** merge from this review.
+- Adversarial review honesty locks: jev-lint **is**
+  jevlint (GitHub rename, not a second product); jev-align
+  HEAD/README SHA unchanged vs §93 (stars 60→133);
+  invalidate / jev_jsonschema are HIGH upgrades not new
+  mechanisms; GitHub homepage null for invalidate /
+  jev-recall despite attached JSON (quote README demos);
+  JevPi GitHub size 0 with contents (same honesty as gut);
+  0★ HIGH still got a real card.
