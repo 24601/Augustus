@@ -16,6 +16,26 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
 
 ### Added
 
+- User-provided HIGH Merve Noyan ZS classifier lineage
+  (`research/notes.md` §112): **Skip Archer rewrite.**
+  Docs-only on a **fresh PR off main**.
+  **HARD RULE:** do not reopen or amend PR #23 or #24 or
+  #25 or #26 or #27 or #28 or #29 (merged #29 owns
+  `notes.md` §111 / items 248–267 / batch #94 — leave it
+  alone). Institutional HF voice (@mervenoyann). Quote
+  *theirs*. Do not invent accuracy numbers. Jev vs
+  GPT-5.6 bakeoffs are a category error. encoder / ZS
+  classifiers (BERTForXYZ → DeBERTa → ModernBERT). many
+  problems solved with LLMs could have been solved with
+  them, it was a skill issue. opt for DeBERTa and
+  ModernBERT ones. multimodal image<>text ZS as
+  perception front-end. softmax/ZS scores still ≠
+  calibrated Noul. soft scores ≠ hard gates. Live X this
+  pass: likes 415 / 179; impressions 34844 / 9238.
+  Hub likes 139 / 72 cited. X MCP used.
+  `invented_signal: false`. Composition items 268–272 /
+  batch #95. Uniqueness lock: people who compare Jev against GPT-5.6 has never fine-tuned BERTForXYZ for living and it shows; zero shot classifiers; scale them as much as decoder only models; many problems solved with LLMs could have been solved with them, it was a skill issue; opt for DeBERTa and ModernBERT ones; BERTForXYZ → DeBERTa → ModernBERT; Jev vs GPT-5.6 bakeoffs are a category error; encoder / ZS classifiers; institutional HF voice; quote *theirs*; do not invent accuracy numbers; softmax/ZS scores still ≠ calibrated Noul; soft scores ≠ hard gates; @mervenoyann; likes 415 / 179; impressions 34844 / 9238; multimodal image<>text ZS as perception front-end; hf:MoritzLaurer/deberta-v3-large-zeroshot-v2.0 likes 139; hf:MoritzLaurer/ModernBERT-large-zeroshot-v2.0 likes 72; Bart, bert, deberta, modernbert, these are all LLMs; Maziyar quoted; Jev is exemplar not the mandate; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29.
+
 - Hourly 0646 HIGH (`research/notes.md` §111): **Skip
   Archer rewrite.** Docs-only on a **fresh PR off main**.
   **HARD RULE:** do not reopen or amend PR #23 or #24 or #25
