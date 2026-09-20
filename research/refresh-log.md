@@ -2064,6 +2064,29 @@
   jev-recall despite attached JSON (quote README demos);
   JevPi GitHub size 0 with contents (same honesty as gut);
   0★ HIGH still got a real card.
+## 2026-09-20T06:09Z — hourly 2340 adversarial relock (PR #22)
+
+- Live REST vs first pin: HIGH HEAD/README unchanged.
+  logicrw/awesome-jev-projects **134★** (was **132★**;
+  HEAD `97057cc1` / README SHA `25a19b31` unchanged —
+  auto GitHub sync). SemIf **2031★** (was **2025★**).
+  jevlike **1010★** (was **1009★**). TypeAR **12★** still
+  **flat**. AnotiaWang **87★** still **flat**. Tracker
+  likes **56** / lastModified `2026-09-20T04:29:16.000Z`
+  unchanged. Archer Hub still HTTP **401**. Qwen likes
+  **15787** unchanged. Qwen3.8-27B ≠ Archer.
+- GitHub size lag: patelvishwa112/jev-system-one-rlcd
+  **1513** (was **0** with contents; HEAD `62b103b3`
+  README SHA `55994d69` unchanged). Colvin0315/MiniSystemOne
+  **814** (was **0** with contents; HEAD `ac5a0eea`
+  README SHA `f8c47847` unchanged). Do not paste Colvin
+  as hyusi.
+- Namesake stars: yibie/awesome-jev **417★** (was **412★**);
+  cobanov/awesome-jev **221★** (was **217★**). Still
+  different objects from logicrw **134★**.
+- `invented_signal: false`. Do **not** merge from this
+  review — parent merges after CLEAN.
+
 ## 2026-09-20T05:40Z — hourly 2340 HIGH (Boise ~23:40 MDT)
 
 - Fresh PR off main after merged #21 (`d3f8da7` / §103).
@@ -2083,7 +2106,7 @@
   VihaanAgarwal/jev-diff (**0★**; saved-decision regression);
   zhangcy122/OpenJevPro (**0★**; constrained-logprob API);
   patelvishwa112/jev-system-one-rlcd (**0★**; SmolLM RLCD);
-  logicrw/awesome-jev-projects (**132★**; source-backed Awesome radar);
+  logicrw/awesome-jev-projects (**134★**; source-backed Awesome radar);
   olanotolu/jevbetter (**12★**; rival-aware one-pass scorer).
 - Formal methods compose with scoring; a Noul is a SENSOR.
   Treating a description-only stub as a checkpoint, re-folding
@@ -2096,10 +2119,10 @@
 - Pulse (do not invent): Archer still NOT landed. Hub
   archerhume/4rcherhume HTTP **401**. Tracker likes **56**;
   lastModified `2026-09-20T04:29:16.000Z` (not re-fetched as
-  a rewrite). Live REST: SemIf **2025★** (+6 vs §103 2019);
-  jevlike **1009★** (+3 vs §103 1006); TypeAR **12★**
+  a rewrite). Live REST: SemIf **2031★** (+12 vs §103 2019);
+  jevlike **1010★** (+4 vs §103 1006); TypeAR **12★**
   **flat**. AnotiaWang/awesome-jev **87★** **flat** ≠ Awesomejev
-  561/27007 ≠ logicrw **132★**. Qwen3.8-27B ≠ Archer (likes
+  561/27007 ≠ logicrw **134★**. Qwen3.8-27B ≠ Archer (likes
   **15787**). X MCP not used; no invented tweets.
 - Cards: SKILL.md, mixed-architecture fail table +
   gallery, faq, mental-models Apply 2340, judgment-class,
@@ -2114,8 +2137,8 @@
   (relock; was **281**) HEAD `52397954`; awesome-jev-projects
   HEAD `97057cc1` (relock; was `45bab8c4`; README SHA `25a19b31`
   unchanged — auto GitHub sync); jevbetter **12★**; GitHub size
-  0 with contents (RLCD); OpenJevPro PolyForm NC LICENSE
-  SHA `5aa42b53`; RLCD no LICENSE file.
+  **1513** (relock; was **0** with contents) (RLCD); OpenJevPro
+  PolyForm NC LICENSE SHA `5aa42b53`; RLCD no LICENSE file.
 
 ## 2026-09-20T04:46Z — hourly 2246 HIGH (Boise ~22:46 MDT)
 

@@ -87,7 +87,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   ([logicrw/awesome-jev-projects](https://github.com/logicrw/awesome-jev-projects)
   source-backed Awesome Jev radar / 306+ commit-pinned; auto GitHub sync / Issue-only submissions;
   logicrw/awesome-jev-projects ≠ AnotiaWang/awesome-jev ≠ yibie/awesome-jev ≠ cobanov/awesome-jev ≠ rupeshpoojary9/awesome-open-system-one;
-  JavaScript MIT; **132★**; HEAD `97057cc1`; README SHA `25a19b31`; size **7136**);
+  JavaScript MIT; **134★**; HEAD `97057cc1`; README SHA `25a19b31`; size **7136**);
   **rival-aware one-pass scorer**
   ([olanotolu/jevbetter](https://github.com/olanotolu/jevbetter)
   hashed n-gram encoder / rival-aware attention; olanotolu/jevbetter vs jevlike starter;
@@ -95,18 +95,22 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   shuffled-context control 0.335; Python MIT; **12★**; HEAD `bb0ebc82`;
   README SHA `5cbe01d4`; size **324**).
   Soft Noul ≠ hard safety. 0★ HIGH still got a real card
-  (awesome-jev-projects **132★**; jevbetter **12★**). Census
-  **live REST pulse**: SemIf **2025★** (+6 vs §103 **2019**);
-  jevlike **1009★** (+3 vs §103 **1006**); TypeAR **12★**
+  (awesome-jev-projects **134★**; jevbetter **12★**). Census
+  **live REST pulse**: SemIf **2031★** (+12 vs §103 **2019**);
+  jevlike **1010★** (+4 vs §103 **1006**); TypeAR **12★**
   **flat**. Tracker likes **56**; lastModified
   `2026-09-20T04:29:16.000Z`; Hub `archerhume/4rcherhume`
   HTTP **401** (not re-fetched as a rewrite). Archer
   still NOT landed. Awesomejev 561/27007 user-provided
-  (≠ AnotiaWang/awesome-jev **87★** ≠ logicrw **132★**).
+  (≠ AnotiaWang/awesome-jev **87★** ≠ logicrw **134★**).
   Qwen3.8-27B ≠ Archer (likes **15787**).
-  `invented_signal: false`. Do not copy keys /
-  `npm` / `pip` / `npx` / `uv` / `.env`. No wrapper.
-  No invented metrics.
+  Adversarial review relock (PR #22): HIGH
+  HEAD/README unchanged; star/size lag locked
+  (awesome **134★**; SemIf **2031★**; jevlike
+  **1010★**; RLCD size **1513**; Colvin size
+  **814**). `invented_signal: false`. Do not
+  copy keys / `npm` / `pip` / `npx` / `uv` /
+  `.env`. No wrapper. No invented metrics.
 - Mixed-architecture card: default placement is judgment-class model +
   generator + code, not stack replacement. Covers cost-sensitive prefilter
   (fail-open vs fail-closed per action), tool/skill routing, AGENTS.md

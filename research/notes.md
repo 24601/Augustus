@@ -21946,12 +21946,12 @@ shuffled-context control 0.335.
    looks untrained (P(True) **0.5052**, Choice conf
    **0.2872**, Score conf **0.0055**). README claims
    MIT; GitHub license **null**; no LICENSE file;
-   GitHub size **0** with contents. ≠ rlcd-lite
+   GitHub size **1513** (relock; was **0** with contents). ≠ rlcd-lite
    (the Empirical reconstruction). Reverse-engineering
    language is a red flag, not a recipe.
 10. **Source-backed Awesome radar** — 306+
     commit-pinned projects, auto GitHub sync,
-    Issue-only submissions. **132★** live REST.
+    Issue-only submissions. **134★** live REST.
     Do **not** paste listed numbers as Augustus
     facts. Gacha dispatcher is UX, not evidence.
     Many awesome-jev namesakes.
@@ -21987,8 +21987,8 @@ shuffled-context control 0.335.
      Namesake
      [`Colvin0315/MiniSystemOne`](https://github.com/Colvin0315/MiniSystemOne)
      (not a fork; created ~1h later; Apache-2.0
-     same LICENSE SHA `261eeb9e`; GitHub size **0**
-     with contents; HEAD `ac5a0eea`; README SHA
+     same LICENSE SHA `261eeb9e`; GitHub size **814**
+     (relock; was **0** with contents); HEAD `ac5a0eea`; README SHA
      `f8c47847`) holds the educational from-scratch
      recipe (MiniMind-style encoder + one decision
      head; "Not a Jev reproduction"; "We do not
@@ -22365,8 +22365,8 @@ shuffled-context control 0.335.
      2026-09-20T05:05:39Z; pushed
      2026-09-20T05:05:44Z; updated
      2026-09-20T05:05:48Z; HEAD `62b103b3`;
-     README SHA `55994d69`; GitHub `size` **0**
-     with contents; default `main`). GitHub
+     README SHA `55994d69`; GitHub `size` **1513**
+     (relock; was **0** with contents); default `main`). GitHub
      description *theirs*: "Jev System One AI &
      RLCD Reproduction Engine: Sub-70ms
      Calibrated Decisions with SmolLM-135M and
@@ -22421,7 +22421,7 @@ shuffled-context control 0.335.
 10. **Source-backed Awesome radar**
 
     - **[`logicrw/awesome-jev-projects`](https://github.com/logicrw/awesome-jev-projects)**
-      (JavaScript MIT; **132★** live REST; 14
+      (JavaScript MIT; **134★** live REST; 14
       forks; created 2026-09-18T06:41:50Z;
       pushed 2026-09-20T05:49:54Z; updated
       2026-09-20T05:49:54Z; HEAD `97057cc1` (relock; was `45bab8c4`; README SHA unchanged);
@@ -22459,13 +22459,13 @@ shuffled-context control 0.335.
       **logicrw/awesome-jev-projects**.
       logicrw/awesome-jev-projects ≠
       AnotiaWang/awesome-jev (**87★**) ≠
-      yibie/awesome-jev (**412★**) ≠
-      cobanov/awesome-jev (**217★**) ≠
+      yibie/awesome-jev (**417★**) ≠
+      cobanov/awesome-jev (**221★**) ≠
       fatwang2/awesome-jev ≠
       Anil-matcha/awesome-jev-by-typesafe ≠
       rupeshpoojary9/awesome-open-system-one ≠
       OmniJev/awesome-jev.
-      Soft Noul ≠ hard safety: 132★ / 306+
+      Soft Noul ≠ hard safety: 134★ / 306+
       are **sensors**. Treating a radar as a
       scored board is theater.
 
@@ -22574,14 +22574,14 @@ keys / install recipes.
 
 Census **not provided this hour** (not
 re-derived). Live REST pulse only: SemIf
-**2025★** (+6 vs §103 **2019**; +2 vs first pin **2023**); jevlike
-**1009★** (+3 vs §103 **1006**);
+**2031★** (+12 vs §103 **2019**; +6 vs first 2340 pin **2025**); jevlike
+**1010★** (+4 vs §103 **1006**; +1 vs first 2340 pin **1009**);
 TypeAR-AI/TypeAR **12★** **flat**;
 AnotiaWang/awesome-jev **87★** **flat** still
 a **different object** from user-provided
 Awesomejev 561/27007 (§99 pin) and from
-logicrw/awesome-jev-projects **132★** (this
-hour). yibie/awesome-jev **412★** is another
+logicrw/awesome-jev-projects **134★** (this
+hour). yibie/awesome-jev **417★** is another
 namesake, not re-carded. Archer still **NOT
 landed**. Hub `archerhume/4rcherhume` HTTP
 **401** (not a rewrite). Tracker
@@ -22594,6 +22594,17 @@ HTTP **200** likes **15787** lastModified
 `2026-08-14T15:00:01.000Z`, author Qwen —
 ≠ Archer. X MCP not used this hour; no
 invented tweets. `invented_signal: false`.
+Adversarial review relock (2026-09-20T06:09Z,
+PR #22): HIGH HEAD/README pins unchanged.
+logicrw **134★** (was **132★**; HEAD `97057cc1`
+/ README SHA `25a19b31` unchanged — auto GitHub
+sync). SemIf **2031★** / jevlike **1010★**.
+RLCD GitHub size **1513** (was **0** with
+contents; HEAD `62b103b3` unchanged).
+Colvin0315/MiniSystemOne size **814** (was
+**0** with contents; HEAD `ac5a0eea` / README
+SHA `f8c47847` unchanged). yibie **417★**;
+cobanov **221★**. Do not paste Colvin as hyusi.
 
 ### Not
 
@@ -22622,12 +22633,12 @@ jev-opportunities scored map; jevinize →
 simple-jev; jev-diff saved-decision regression;
 OpenJevPro constrained-logprob theater;
 jev-system-one-rlcd SmolLM NAR; awesome-jev-projects
-source-backed radar **132★**; jevbetter
+source-backed radar **134★**; jevbetter
 rival-aware vs jevlike). §103 / §102 / §101 /
 §100 / §99 / §98 / §97 / §96 / §95 / §93
 mechanism / §60 six-gates **not re-carded**.
 Archer still **NOT landed**. 0★ HIGH still
-got a real card (awesome-jev-projects **132★**;
+got a real card (awesome-jev-projects **134★**;
 jevbetter **12★**). `invented_signal: false`.
 
 ### Cross-links
