@@ -16,74 +16,84 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
-Merged after v0.4.0: 0843 (§114 / 289–302 / #97), NanoJev (§115 /
-303–308 / #98), jcr (§116 / 309–316 / #99), SemIf (§117 / 330–336 /
-#100), llm-to-jev (§118 / 322–329 / #101), plus this hygiene pass.
-Does **not** bump the 0.4.0 pin. Uniqueness dumps live in
+## [0.5.0] - 2026-09-20
+
+Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skills/tree/v0.5.7)
+(`65a39f3`, 2026-09-12). Live HEAD of that repo is still this commit,
+the only tagged official-skill revision.
+
+Nine commits on `main` after the v0.4.0 tag (merged #33 README map,
+#31 Harbor-jevals, #34 Pages layout, #35 hysteresis/ECE, #36 NanoJev,
+#38 jcr, #37 SemIf, #40 llm-to-jev, #39 0843 hygiene). Open #41
+(0947 fold) is in flight on another branch and is not part of this
+release. Verbose hourly locks stay in
 [`research/changelog-hourly.md`](research/changelog-hourly.md).
-Do not reopen or amend PR #23–#40. Do not push onto open #41.
 
 ### Added
 
-- **User-provided 0940 HIGH (`notes.md` §118).** Migration /
-  question-design on-ramp: [alexwestco/llm-to-jev](https://github.com/alexwestco/llm-to-jev)
-  turns decision-shaped LLM prompts into proposed Choice/Score/Noul.
-  Conversion assistant, not an automatic guarantee of equivalent
-  behavior. Deterministic heuristics, not an LLM. Partial
-  convertibility; prose stays with the LLM. Heuristic conversion ≠
-  calibrated Noul. Companion to the decision-design card +
-  validation gate. Composition items 322–329 / batch #101.
-- **SemIf densify (PRIMARY, `notes.md` §117).** [TheoLeeCJ/SemIf](https://github.com/TheoLeeCJ/SemIf)
-  MIT; homepage openjev.com; default **master**; live REST
-  **2282★** / **140** forks; HEAD `ca3ba65f1429`. SemIf was
-  formerly OpenJev; independent; not affiliated with Jev or
-  TypeSafe. Direct option logits; 0 output tokens; MLX backend
-  (`--backend mlx`). Speed *theirs* Qwen3.5-4B 3090: direct
-  1.023s vs AR JSON 5.332s (**5.21×**); argmax agree 18/21
-  (systems comparison ≠ semantic equivalence). Browser ladder
-  authored BA 0.813, pert 0.766, TypeSafe subset 0.845 vs
-  Published Jev 0.883 *theirs*. Softmax over options ≠ calibrated
-  Noul. Rename is densify not a second census. JevBench 74.6 is
-  §78 not this ladder. Composition items 330–336 / batch #100.
-- **NiazMorshed2007/jcr (`notes.md` §116).** Capability-tree
-  lookup returns context, **does not execute**. skills vs
-  capabilities. 0.6 band is application policy. routing ≠
-  permission. docs ≠ authority to run. sol-vs-opus5-20
-  lookup+explain only; n=1; wall-time mixed; Not Harbor
-  task-execution. Live REST **4★**; HEAD `138b3832`; size
-  **14850**. Composition items 309–316 / batch #99.
-- **NanoJev unified-games-v1 densify (`notes.md` §115).**
-  TianyuCodings/NanoJev (Python MIT; **1289★** / **158** forks;
-  HEAD `618cea6d`). Quote *theirs*: A 0.6B parallel decision
-  model; zero output-token decoding; one model, four games.
-  Game success ≠ calibrated Noul. not TypeSafe Jev. Composition
-  items 303–308 / batch #98.
-- **Hourly 0843 HIGH (`notes.md` §114).** Measurement / judgment
-  fold. PRIMARY: pretrained Qwen2.5 base ECE already low;
-  instruct-tuning wrecks honesty (acc flat, mean conf
-  74.1%→96.7%). Equal-width ECE ≠ quantile ECE (0.113 vs 0.076
-  *theirs*). Calibration does not compose; hop-ECE is
-  permutation-invariant (soundness theater as a trajectory
-  audit); Deferred Crispification; 25–60× headline withdrawn.
-  Hysteresis `{enter:0.8, exit:0.6}` is policy attached to a
-  probability. Ranking ≠ calibration. g0runmezadam/what-is-jev
-  **is** tunahansahin897/what-is-jev. Qwen2.5 / Qwen 3.8 /
-  Qwen/Qwen3.8-27B ≠ Archer. Archer still promised_not_landed.
-  Composition items 289–302 / batch #97.
-- **Hourly 0743 HIGH (`notes.md` §113).** Harbor-jevals PRIMARY
-  (ywchiu/jev_benchmark). Verdict-open-jev linear ECE floor ≠
-  TypeSafe replica. DecisionOps ACT / REVIEW / FALLBACK
-  (provider failure is **not** a policy outcome). Lock dump:
-  [`research/changelog-hourly.md`](research/changelog-hourly.md).
+- **Pages / onboarding.** Custom site layout (nav, comparison, install,
+  pillars). With vs without Augustus on the homepage and README
+  (`docs/assets/with-without-augustus.svg`): call-then-act vs
+  place-then-judge. Jev is the exemplar, not the monopoly.
+
+- **README.** Scannable skill map (one line per file). The living catalog
+  stays in the reference cards and `research/notes.md`, not a README wall.
+
+- **Recipes (class, not Jev-only).** Same with/without split for any
+  Choice/Score/Noul-style or typed probabilistic judgment tool. Full
+  cards: [`docs/release-notes-v0.5.0.md`](docs/release-notes-v0.5.0.md).
+  Shape, not invented scores:
+  - **Encoder (GLiNER / GLiClass):** without — swap locate/categorize for
+    a decision head and hard-gate spans. With — species map; remainder
+    after extractive spans. Measure span quality separately from ECE.
+  - **Open heads (Laya, SemIf, kev, Jeff-1):** without — treat wire-compat
+    or argmax agree as a replica. With — softmax over options ≠ calibrated
+    Noul; systems timing ≠ semantic equivalence. Measure ECE/Brier on
+    held-out, not only speed or top-1.
+  - **NanoJev:** without — game wins as calibration. With — specialist
+    gameplay S1; local boolean ≠ TypeSafe noul. Measure held-out game
+    success separately from ECE.
+  - **llm-to-jev:** without — ship converted prompts as equivalent
+    behavior. With — heuristic on-ramp; review Score rubric; prose stays
+    with the LLM. Conversion ≠ calibrated Noul.
+  - **jcr:** without — run what the capability tree found. With — lookup
+    returns context and **does not execute**. Routing ≠ permission;
+    docs ≠ authority to run.
+  - **localjev / prompted JSON:** without — parse generated JSON as a
+    Noul. With — schema-valid ≠ picked-right; prompted JSON ≠ structured
+    logit read.
+
+- **Class / migration.** llm-to-jev conversion on-ramp (`notes.md` §118).
+  SemIf rename + MLX densify (`§117`; formerly OpenJev, independent).
+  NanoJev unified-games densify (`§115`). jcr capability resolver
+  (`§116`; docs ≠ execute).
+
+- **Measurement honesty.** 0843: hysteresis `{enter, exit}` is policy
+  attached to a probability, not a model property; instruct-tuning can
+  wreck ECE while accuracy stays flat; equal-width ECE ≠ quantile ECE;
+  hop-ECE is permutation-invariant (trajectory soundness theater);
+  ranking ≠ calibration. 0743: Harbor-jevals practice (schema-pass ≠
+  joint fields; skip-and-call-a-tool); Verdict linear ECE floor ≠
+  TypeSafe replica; DecisionOps ACT / REVIEW / FALLBACK (a provider
+  failure is **not** a policy outcome). Evaluator reports both ECEs,
+  AUC, accuracy@0.5, cost-optimal threshold, hysteresis, and hop-ECE
+  invariance.
 
 ### Changed
 
-- `evaluate_decisions.py` hop-ECE self-test covers reverse **and**
-  even/odd interleave (permutation invariance is not reverse-only).
-- `uniqueness_gate.py` checks Pages strings (`LICENSE` lives in
-  the #34 layout) and refuses CHANGELOG/README dump walls. The
-  0843 uniqueness lock includes merged #34 and #35.
-- `docs/ecosystem.md` 0843 blurb cites `notes.md` §114.
+- Marketplace plugin version and SKILL YAML pin: 0.4.0 → 0.5.0.
+- Homepage / README / CITATION.cff / SECURITY supported line follow 0.5.0.
+- CHANGELOG Unreleased dump folded into this cut. Verbose hourly locks
+  remain in `research/changelog-hourly.md`.
+- Evaluator hop-ECE self-test covers reverse and even/odd interleave
+  (permutation invariance is not reverse-only). uniqueness_gate checks
+  Pages strings (`LICENSE` in the #34 layout) and refuses CHANGELOG/README
+  dump walls. `docs/ecosystem.md` 0843 blurb cites `notes.md` §114.
+
+### Security
+
+- `SECURITY.md`: supported line is 0.5.x. Report via GitHub Security
+  Advisories. No invented Scorecard number.
 
 ## [0.4.0] - 2026-09-20
 
