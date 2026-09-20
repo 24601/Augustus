@@ -2200,10 +2200,10 @@
   with contents). No remaining size-0 HIGH.
   yibie/laya-jev-lab **49**; umstek
   **50**; snake-arena **194**; jevcheck **117**.
-- Named pulse vs `0558f7d`: SemIf **2064★** (was **2059★**;
-  +17 vs §104 **2047**). jevlike **1022★** **flat**.
+- Named pulse vs `0558f7d`: SemIf **2067★** (was **2059★**;
+  +20 vs §104 **2047**). jevlike **1022★** **flat**.
   TypeAR **12★** **flat**. AnotiaWang **92★** **flat**.
-  yibie/awesome-jev **445★** (was **443★** at `0558f7d`).
+  yibie/awesome-jev **449★** (was **443★** at `0558f7d`).
   Laya Hub likes **704** (was **690** at `0558f7d`).
   Qwen3.8-27B likes **15795** (was **15794**) ≠ Archer.
   Tracker likes **58** (+2 vs §104 **56**) / lastModified
