@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Augustus: System One decision judgment
+title: "Augustus: System One decision judgment"
 permalink: /
 page_class: home
 ---
