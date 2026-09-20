@@ -15,6 +15,8 @@ Also reports (when asked, and always in --self-test):
   * hop-ECE permutation invariance (shuffle the stream; ECE does not move)
   * candidate_mass vs renormalized bag: softmax over allowed tokens is a
     peaked ranking, not a Noul (mass outside the bag can be hidden)
+  * pick_by_id vs pick_second: the same scores, shuffled option order;
+    slot-two is ranking theater, not a Noul
 
 Select thresholds on one split, evaluate on another: run twice with different
 files. Missing labels or costs produce a stated limitation, not defaults.
@@ -175,6 +177,26 @@ def _softmax(xs):
     return [e / total for e in exps]
 
 
+
+def pick_by_id(scores_by_id):
+    """Max score wins regardless of presentation order."""
+    if not scores_by_id:
+        raise ValueError("scores_by_id empty")
+    return max(scores_by_id.items(), key=lambda kv: kv[1])[0]
+
+
+def pick_second(ordered_ids, scores_by_id=None):
+    """Whatever sits in slot two. Option order is the answer.
+
+    pick_by_id vs pick_second: the same scores can yield four
+    dinners if the menu is shuffled. That is ranking theater,
+    not a Noul.
+    """
+    if len(ordered_ids) < 2:
+        raise ValueError("need at least two options")
+    return ordered_ids[1]
+
+
 def candidate_mass_renorm(full_logits, allowed_indices):
     """Softmax over allowed tokens is a peaked ranking, not a Noul.
 
@@ -263,6 +285,20 @@ def self_test():
     inside = [6.0, 5.0, 4.0, -4.0, -4.0, -4.0]
     mass_in, _ = candidate_mass_renorm(inside, [0, 1, 2])
     assert mass_in > 0.99, mass_in
+
+
+    # pick_by_id vs pick_second: same scores, four orders.
+    scores = {"A": 0.2, "B": 0.7, "C": 0.1}
+    orders = [
+        ("A", "B", "C"),
+        ("B", "A", "C"),
+        ("C", "B", "A"),
+        ("A", "C", "B"),
+    ]
+    by_id = [pick_by_id({k: scores[k] for k in order}) for order in orders]
+    second = [pick_second(order) for order in orders]
+    assert by_id == ["B", "B", "B", "B"], by_id
+    assert second == ["B", "A", "B", "C"], second
 
     print("self-test ok")
 

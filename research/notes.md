@@ -29632,3 +29632,358 @@ Parent merge only after **CLEAN** adversarial review
   key. No wrappers.
 
 Hourly 0947 uniqueness lock: Fast and cheap agent evals. jev as judge.; 18,041 skills from the 200 most-starred repos; Not a security scanner; 最简 Jev 调用演示器; confidence 不是正确率; q93304989-bit/jev-lab ≠ tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab; 75% cheaper and 18% faster withdrawn; jev @0.15 100% recall 87% savings; 33Audits/jev-auto ≠ gargpratyush/jev-router; no Typesafe key, no PI_API_BASE, zero deps; tool-emitted Score/Noul ≠ calibrated Noul; semantic_compatibility: false; candidate_mass; Qwen3.5-2B ≠ Archer; Jev evaluates decisions; it cannot run a coding-agent session; Status: no model yet; S1LV3RJ1NX/openjev ≠ TheoLeeCJ/openjev; 28 accepted decisions; 3 targets; score 800; health 100; arcade game not a flight trainer; A successful live TypeSafe call has not been verified for v0.1.0; abhibansal60/tidy ≠ MANISH007700/tidy; No model, Jev included, predicted which channels its owner keeps; seed 1 selected on a held-out 400-item validation split; Brier 0.342 → 0.378; more accurate and more overconfident; Qwen3.5-4B ≠ Archer; static quants of kushalpatil/jevify-gemma4-26b-a4b; The labels were corrected, and one earlier result was retracted; zero of 23,869 eligible rows; Do not compare cost without checking task success; Exit 1 is not a proof; kisshan13/typesafe-ai-go ≠ Nibir1/typesafe-go ≠ official; 38 tests that cannot fail in a 356-model warehouse; if a parser can answer it, Jev is never asked; 359 of them; Games & Simulation 82; Education & Learning 1; Ratings are heuristics; syedabbasshaheer-art/jev-atlas ≠ ZeroX-01/jev-atlas ≠ Zaious/jev-capability-atlas ≠ gorock007/jev-atlas; anandi1989/awesome-jev-usecases ≠ whyashthakker/awesome-jev-use-cases ≠ walidboulanouar/awesome-jev-use-cases ≠ vamsikrishna2421/jev-usecases; Every headline result above is self-reported; Archer Hume 84.6% MMLU-Pro is a third-party probe not landed Archer; catalog ≠ endorsement; judge ≠ actuator; softmax over A–H ≠ Noul; SemIf 2270★; jevlike 1054★; TypeLLM/TypeLLM 16★; AnotiaWang 98★; yibie/awesome-jev 538★; Laya likes 889; tracker likes 68 lastModified UNCHANGED; Blackwood likes 2 gated manual; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#35/#36/#37/#38/#40; do not push onto open #39; notes.md §119
+
+
+## 120. Hourly 1049 HIGH (2026-09-20 ~10:49 Boise / 2026-09-20T16:49Z)
+
+Measurement / serving / class-member fold on a **fresh PR off
+latest `main`** (`cursor/fold-hourly-1049-high-1067`), rebased
+onto `8f446c4` (merged #41 hourly 0947, `notes.md` §119 /
+items 337–352 / batch #102) after `fb15455` (merged #42 v0.5.0)
+after `38e4e92` (merged #39 §114 hygiene) after `9824aa2`
+(merged #40 llm-to-jev, `notes.md` §118). **HARD RULE:** do not
+reopen or amend PR #23–#42. Do **not** push onto the 0947
+rebase track (now merged #41). This fold's IDs:
+`notes.md` §120 / composition 353–368 / findings batch #103.
+
+Never reopen merged #7–**#42**. Do **not** re-fold §119 0947 /
+§118 llm-to-jev / §117 SemIf / §116 jcr / §115 NanoJev / §114
+0843 *as a second census* (this hour densifies serving
+substrates of Laya, option-order vs exact-p measurement, and
+adapter heads already adjacent to §119 RLCD). Densify
+`ashleyotooligan/jevbrain` as handwritten demo provider (AUTO_ACT
+is not a Noul already catalogued). Skip Archer rewrite.
+Quote READMEs. Mark *theirs*. No wrappers, keys, `npm` /
+`pip` / `uv` / `docker pull` install recipes.
+`invented_signal: false`. Hunches labeled.
+
+Lane is Augustus: **mathematical / logical / algorithmic
+mental models** for Jev-class categorization/scoring across
+AI / SWE / **business / knowledge work / life**, not
+SWE-only. PRIMARY this hour is **serving substrate ≠
+calibrated replica**: ggmlc GGUF is not llama.cpp; Loading
+them in llama.cpp will fail; one encoder pass. Option-order
+and exact-p Minesweeper are measurements. Adapters / RLCD
+heads are class members, not TypeSafe drop-ins. Soft scores ≠
+hard gates. Catalogs are indexes. Planner writes, JEV
+selects. Qwen3.5-4B ≠ Archer. Qwen3.5-9B ≠ Archer.
+Archer still **promised_not_landed**.
+
+Unique consecutive fragments (this hour) must appear as
+**one substring** in overlays (see uniqueness gate):
+Hourly 1049 uniqueness lock: ggmlc GGUF is not llama.cpp; Loading them in llama.cpp will fail; one encoder pass; hf:mys/laya-GGUF sha 713ae6f6e39f likes 0 apache-2.0; hf:mys/laya-multilingual-GGUF sha 3b645ae54281; hf:mys/laya-typed-decisions-GGUF sha 1e9e8ba1f527; hf:tozp/laya-onnx sha 0862aeba1e65 Opset 14 FP32 and INT8; tozp/laya-onnx ≠ Mattepiu/laya-onnx ≠ gqgs/laya-onnx; docker-laya MIT HEAD 1b8239a51ddd README SHA 9cb7bdc3; laya.cpp RTX ggml CUDA HEAD 8590937c79a2 README SHA cdd429b9; serving substrate ≠ calibrated replica; Softmax over options ≠ calibrated Noul; Qwen3.5-4B ≠ Archer; Qwen3.5-9B ≠ Archer; jev-position-test n=6 HEAD 7a56ca1c2698 README SHA 23f194c9; jevmlx slots 5 of 6; hosted Jev 0 of 6; prior_correction made it worse; jevSweeper mean Spearman ρ −0.274; picked exact-optimal 1/25 (4%); 31 of 36 still logically decidable; 86% of the time we should not have been asking; game success ≠ calibrated Noul; LLM2Jev 64★ Apache-2.0 HEAD 924618721277 README SHA da35fe61; not affiliated with or endorsed by Jev or TypeSafe; No answer tokens are generated; OpenSourceJev llama.cpp Qwen3-1.7B HEAD 3c41fba3681d; JEV-MLX Qwen3.5-9B HEAD dec24cd929ea; decision-head-rlcd Qwen3.5-4B 4.9M LoRA; AUTO_ACT is not a Noul; closed-set fail-open stdlib-only; verified=False; soft scores ≠ hard gates; 22 to 40% cheaper *theirs*; first version 70% more expensive; 111-case benchmark *theirs*; CDC 5,000 Jev 72.2% AUC 0.7725 *theirs*; accuracy is a trap; 9.0% base rate always-no 91.0%; catalog ≠ endorsement; jev-skill 109★ 90 scenarios HEAD 4f6e899a24d4; awesome-jev-live 673 entries 4★; minecraft-agent 214★ 131 JEV decisions 35 Astra calls; nether-final-08 8 minutes 43.300 seconds; planner writes JEV selects; RoboJEV structured simulator state not images; ashare-trader 策略未通过自己的回测门槛; 36 组参数全部净期望为负; no positive expectation under real costs; typed_evals NOT an official TypeSafe AI product; jev-as-judge is a sensor; third-person-audit 40% & 60% watermarks still soft; The included experience uses a handwritten demo provider; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42; notes.md §120
+
+### How-to-apply (five placements / measurement lenses)
+
+These are *class* lenses, not vendor tutorials. Same
+discipline as §119 (judge ≠ actuator) and §114 (calibration
+does not compose). Formal methods **compose** with scoring:
+a Noul is a SENSOR; serving is a substrate; policy / parser /
+replay / cost table are exact work.
+
+1. **Serving substrate ≠ calibrated replica**
+   (*theirs*, ggmlc GGUF PRIMARY + docker-laya + laya.cpp +
+   ONNX cousins). ggmlc GGUF is not llama.cpp. Loading them
+   in llama.cpp will fail. one encoder pass. Opset 14 FP32
+   and INT8. tozp/laya-onnx ≠ Mattepiu/laya-onnx ≠
+   gqgs/laya-onnx. Softmax over options ≠ calibrated Noul.
+   Wire-compat / ggml / ONNX / FastAPI is packaging, not
+   Harbor. Life analogue: a new bottle does not recertify
+   the medicine.
+2. **Option-order and exact-p games are measurements**
+   (*theirs*, jev-position-test + jevSweeper). n=6. jevmlx
+   slots 5 of 6. hosted Jev 0 of 6. prior_correction made
+   it worse. mean Spearman ρ −0.274. picked exact-optimal
+   1/25 (4%). 31 of 36 still logically decidable. 86% of
+   the time we should not have been asking. game success ≠
+   calibrated Noul. Evaluator locks pick_by_id vs
+   pick_second: the same scores, four orders, four
+   second-slot winners. Life analogue: shuffle the menu;
+   if dinner changes, you were ranking seats, not dishes.
+3. **Adapters / RLCD heads are class members, not drop-ins**
+   (*theirs*, LLM2Jev + OpenSourceJev + JEV-MLX +
+   decision-head-rlcd). not affiliated with or endorsed by
+   Jev or TypeSafe. No answer tokens are generated.
+   llama.cpp Qwen3-1.7B. Qwen3.5-9B ≠ Archer. Qwen3.5-4B
+   4.9M LoRA. Candidate scores rank choices and are not
+   calibrated probabilities of correctness. Densify §119
+   RLCD Brier climb; do not mint a sibling census.
+4. **Soft scores ≠ hard gates**
+   (AUTO_ACT / fail-open / healthcare / nitro / TPA /
+   guardian). AUTO_ACT is not a Noul. closed-set fail-open
+   stdlib-only. verified=False. 22 to 40% cheaper *theirs*.
+   first version 70% more expensive. healthcare urgency
+   0.92 is application policy. BLOCK / QUARANTINE bands
+   are application policy. third-person-audit 40% & 60%
+   watermarks still soft. The included experience uses a
+   handwritten demo provider.
+5. **Catalogs and life placements are indexes, not
+   endorsements.** jev-skill 109★ 90 scenarios.
+   awesome-jev-live 673 entries 4★. catalog ≠ endorsement.
+   planner writes JEV selects (minecraft-agent 214★; 131
+   JEV decisions; 35 Astra calls; nether-final-08 8 minutes
+   43.300 seconds). RoboJEV structured simulator state not
+   images. ashare-trader 策略未通过自己的回测门槛; 36 组参数全部净期望为负;
+   no positive expectation under real costs. typed_evals
+   NOT an official TypeSafe AI product. jev-as-judge is a
+   sensor. CDC 5,000 Jev 72.2% AUC 0.7725 *theirs*;
+   accuracy is a trap; 9.0% base rate always-no 91.0%.
+   111-case benchmark *theirs*.
+
+### HIGH
+
+1. **[hf:mys/laya-GGUF](https://huggingface.co/mys/laya-GGUF)**
+   — NEW HIGH PRIMARY (ggmlc GGUF; apache-2.0; likes **0**;
+   sha `713ae6f6e39f`). Quote *theirs*: These files are not
+   llama.cpp / llama-cli GGUFs. Loading them in llama.cpp
+   will fail. Typed questions scored in one encoder pass.
+   ggmlc GGUF is not llama.cpp. serving substrate ≠
+   calibrated replica. Do **not** copy `huggingface-cli`
+   / `laya serve`.
+2. **[hf:mys/laya-multilingual-GGUF](https://huggingface.co/mys/laya-multilingual-GGUF)**
+   — NEW HIGH (ggmlc GGUF; apache-2.0; likes **0**; sha
+   `3b645ae54281`). Same compiler family. English
+   checkpoint does not degrade gracefully off English.
+   Quant ≠ calibration.
+3. **[hf:mys/laya-typed-decisions-GGUF](https://huggingface.co/mys/laya-typed-decisions-GGUF)**
+   — NEW HIGH (ggmlc GGUF; apache-2.0; likes **0**; sha
+   `1e9e8ba1f527`). Same one-encoder-pass substrate. Not a
+   new training run.
+4. **[hf:tozp/laya-onnx](https://huggingface.co/tozp/laya-onnx)**
+   — NEW HIGH (ONNX; likes **0**; sha `0862aeba1e65`).
+   Quote *theirs*: Opset Version 14 (TorchScript exporter).
+   Precision FP32 and INT8. tozp/laya-onnx ≠
+   Mattepiu/laya-onnx (HF likes **9**) ≠ gqgs/laya-onnx
+   (GH ★1; Hub HTTP 401). ONNX ≠ Noul. Do **not** copy
+   `pip install laya`.
+5. **[chneau/docker-laya](https://github.com/chneau/docker-laya)**
+   — NEW HIGH (Python MIT; **0★**; size **0** WITH
+   CONTENTS; HEAD `1b8239a51ddd`; README SHA `9cb7bdc3`).
+   Dockerized FastAPI typed-decision service. Serving
+   substrate ≠ calibrated replica. Do **not** copy
+   `docker pull` / `API_KEYS`.
+6. **[lkarlslund/laya.cpp](https://github.com/lkarlslund/laya.cpp)**
+   — NEW HIGH (C++ MIT; **0★**; HEAD `8590937c79a2`;
+   README SHA `cdd429b9`). RTX ggml CUDA native inference.
+   Throughput *theirs* is a systems comparison, not
+   semantic equivalence. Do **not** copy CMake/CUDA
+   recipes.
+7. **[imaddde867/jev-position-test](https://github.com/imaddde867/jev-position-test)**
+   — NEW HIGH PRIMARY measurement (Python MIT; **3★**;
+   HEAD `7a56ca1c2698`; README SHA `23f194c9`). Quote
+   *theirs*: n=6. jevmlx slots 5 of 6. hosted Jev 0 of 6.
+   prior_correction made it worse (the fix made it worse).
+   A method demonstration, not a benchmark. Evaluator:
+   pick_by_id vs pick_second.
+8. **[lvk901/jevSweeper](https://github.com/lvk901/jevSweeper)**
+   — NEW HIGH measurement (Python MIT; **0★**; HEAD
+   `c31685473536`; README SHA `a6a0a416`). Quote *theirs*:
+   mean Spearman ρ −0.274. picked exact-optimal 1/25 (4%).
+   31 of 36 still logically decidable. 86% of the time we
+   should not have been asking. game success ≠ calibrated
+   Noul. Exact work first; remainder judged.
+9. **[Yinsongxu/LLM2Jev](https://github.com/Yinsongxu/LLM2Jev)**
+   — NEW HIGH (Python Apache-2.0; **64★**; HEAD
+   `924618721277`; README SHA `da35fe61`). Quote *theirs*:
+   not affiliated with or endorsed by Jev or TypeSafe. No
+   answer tokens are generated. Adapter ≠ TypeSafe drop-in.
+   Do **not** copy `uv sync`.
+10. **[sabeel111/OpenSourceJev](https://github.com/sabeel111/OpenSourceJev)**
+    — NEW HIGH (Python MIT; **10★**; HEAD `3c41fba3681d`).
+    llama.cpp + Qwen3-1.7B. Candidate-only softmax ≠ Noul.
+    BoolQ T≈9.47 ECE 0.20→0.09 *theirs*. Qwen3-1.7B ≠
+    Archer. Do **not** copy `pip` / DLL setup.
+11. **[CoderInPajamas/JEV-MLX](https://github.com/CoderInPajamas/JEV-MLX)**
+    — NEW HIGH (Python MIT; **0★**; HEAD `dec24cd929ea`).
+    Quote *theirs*: Qwen3.5-9B. Candidate scores rank
+    choices and are not calibrated probabilities of
+    correctness. Qwen3.5-9B ≠ Archer. No affiliation or
+    endorsement. Do **not** copy `pip install`.
+12. **[Astro-Han/decision-head-rlcd](https://github.com/Astro-Han/decision-head-rlcd)**
+    — DENSIFY §119 HF card (Python; license **null**;
+    **0★**; HEAD `a720133f5302`; README SHA `1913c765`).
+    Quote *theirs*: Qwen3.5-4B, 4.9M-parameter LoRA.
+    Brier 0.342 → 0.378; more accurate and more
+    overconfident. Qwen3.5-4B ≠ Archer. Do **not** paste
+    JevBench 0.779 as class Harbor.
+13. **[litshing/jevcore](https://github.com/litshing/jevcore)**
+    — NEW HIGH (Python; **0★**; HEAD `25fdfea90d87`;
+    README SHA `970ad68b`). Quote *theirs*: closed-set,
+    fail-open, stdlib-only. marks every answer
+    verified=False. soft scores ≠ hard gates. Do **not**
+    copy `ln -sf` / keys.
+14. **[daniel-farina/nitro](https://github.com/daniel-farina/nitro)**
+    — NEW HIGH (Rust; **0★**; HEAD `99b8749d3474`; README
+    SHA `ad5db53e`). Quote *theirs*: 22 to 40% cheaper.
+    first version 70% more expensive. 0.30 keep-set is
+    application policy. Fail-open on timeout. Do **not**
+    copy `./install.sh`.
+15. **[rubinagentagi-tech/jev-heart-risk-bench](https://github.com/rubinagentagi-tech/jev-heart-risk-bench)**
+    — NEW HIGH (Python; **0★**; HEAD `bf75f8a1a7fc`;
+    README SHA `1ccfb64e`). Quote *theirs*: CDC 5,000.
+    Jev 72.2% AUC 0.7725. accuracy is a trap. 9.0% base
+    rate always-no 91.0%. Not a medical device. Do **not**
+    paste AUC as Harbor.
+16. **[wuyoscar/jev-skill](https://github.com/wuyoscar/jev-skill)**
+    — NEW HIGH catalog (Python MIT; **109★**; HEAD
+    `4f6e899a24d4`; README SHA `e5573025`). Quote *theirs*:
+    90 scenarios. catalog ≠ endorsement. wuyoscar/jev-skill
+    ≠ aiwithenoch/Jev-Skill ≠ simplosophy/jev-skill ≠
+    laguagu/jev-skills. Do **not** paste listed numbers as
+    ours.
+17. **[wh000wh000/awesome-jev-live](https://github.com/wh000wh000/awesome-jev-live)**
+    — NEW HIGH catalog (Python; **4★**; HEAD `9cf39e12`;
+    README SHA `d16a4649`). Quote *theirs*: 673 entries.
+    catalog ≠ endorsement. Ratings are heuristics.
+18. **[rmalde/minecraft-agent](https://github.com/rmalde/minecraft-agent)**
+    — NEW HIGH life/control (JavaScript; **214★**; HEAD
+    `78b40ed59514`; README SHA `46bae5ab`). Quote *theirs*:
+    131 JEV decisions and 35 Astra calls. nether-final-08
+    8 minutes 43.300 seconds. planner writes JEV selects.
+    Structured-state control, not screenshots. Do **not**
+    copy `npm` / Secret Manager recipes.
+19. **[lykycy123/RoboJEV](https://github.com/lykycy123/RoboJEV)**
+    — NEW HIGH robotics (Python Apache-2.0; **8★**; HEAD
+    `aa82be096030`; README SHA `aafd62c0`). Quote *theirs*:
+    structured simulator state, not images. Model answers
+    cannot declare success. planner writes JEV selects.
+20. **[xuboboo/ashare-trader](https://github.com/xuboboo/ashare-trader)**
+    — NEW HIGH honesty (TypeScript; **0★**; HEAD
+    `048fd921b3d8`; README SHA `9691a9c1`). Quote *theirs*:
+    策略未通过自己的回测门槛. 36 组参数全部净期望为负. no
+    positive expectation under real costs. Negative EV is
+    a finding, not a product claim.
+21. **[TrustifAI/typed_evals](https://github.com/TrustifAI/typed_evals)**
+    — NEW HIGH jev-as-judge (Python MIT; **0★**; HEAD
+    `0d54b0ab6121`; README SHA `d0927206`). Quote *theirs*:
+    This is NOT an official TypeSafe AI product.
+    jev-as-judge is a sensor. threshold 0.9 still soft.
+    Do **not** copy `pip install`.
+22. **[saifullahshafin/system1-third-person-audit](https://github.com/saifullahshafin/system1-third-person-audit)**
+    — NEW HIGH (Python MIT; **0★**; HEAD `8dc897fd2fcb`;
+    README SHA `5fbb1e78`). Quote *theirs*: 40% Mid-Flight
+    Gate. 60% Convergence Gate. watermarks still soft.
+    HALT is application policy. Do **not** copy `pip`.
+23. **[ashleyotooligan/jevbrain](https://github.com/ashleyotooligan/jevbrain)**
+    — DENSIFY (MIT; **1★**; HEAD `672478592ba4`; README
+    SHA `56d74078`). Quote *theirs*: The included
+    experience uses a handwritten demo provider. Its
+    results are not Jev results. AUTO_ACT is not a Noul
+    (prior Synxneuos catalog). Do **not** mint a second
+    census as TypeSafe Jev.
+24. **[bhaskarpraveen/jev-healthcare-support-router](https://github.com/bhaskarpraveen/jev-healthcare-support-router)**
+    — NEW HIGH (TypeScript; **0★**; HEAD `96d894cdbec4`;
+    README SHA `cda91910`). Quote *theirs*: Urgency 0.92.
+    Jev makes the decision. TypeScript controls the action.
+    0.92 is application policy, not a hard safety gate.
+    Not clinical.
+25. **[YuyaForest/JEV-Prompt-Injection-Guardian](https://github.com/YuyaForest/JEV-Prompt-Injection-Guardian)**
+    — NEW HIGH (TypeScript; **0★**; HEAD `450d3af8e4e5`;
+    README SHA `07ea7911`). Quote *theirs*: BLOCK /
+    QUARANTINE / INSPECT / MONITOR / ALLOW. Score bands
+    are application policy. soft scores ≠ hard gates.
+26. **[ghubnab99/jev-enterprise-decision-fabric](https://github.com/ghubnab99/jev-enterprise-decision-fabric)**
+    — NEW HIGH (C# MIT; **0★**; HEAD `51dce51c359b`;
+    README SHA `f159f22d`). Quote *theirs*: labelled
+    111-case benchmark. A model answer is evidence. It is
+    not authorization. Thresholds are hypotheses. Do **not**
+    paste 90.1% as Harbor.
+
+### Remainder (short cards, same hour)
+
+Crush-monitor (28★) is a life placement: Jev scores chat;
+humans own the relationship. jev-x / JevRev / docket /
+jevmoji / garmin-fuel-guide / dasheng / cartas / grocery /
+jevportfolio are application routing. jev-lexer /
+effect-jev-cwe / jev-311-heatmap / jev-graph-walk /
+sema-jev-framework / field-tests / iot-demo / BizzJev /
+system-one / dsh-plugin / battlesnake / model-effort-router /
+opencode-osuki / graphlin / othello / sudoku / oxox /
+let-jev-speak / typesafe-showcase / antigravity-auto-mode /
+codesafe / Jev-usecases / jev-colab-lab / WiredMind2 /
+hama-jp tetris / ignitewala / fly2abhishek / netiqus /
+kuromoka / gyu-don / havietkok / javierdv7 / nabendu82 /
+cheeaun / glamboyosa / Bald0Wang docs-zh /
+CompleteTech 311 / n0nuser / noelserdna / nyattoh /
+osuki-dev / royosherove / suidouble / swarooppatilx /
+wquguru / zebedelu / MrSAO666 file-explorer /
+Steven04hub qq_clinet / vladzima jev-x / AliZareh JevRev
+are first sightings or thin applications: catalog, do not
+elevate. StephenChan-1/Jev-usecases ≠ whyash / walid /
+vamsikrishna / anandi1989 / wuyoscar.
+
+### Skips (thin / collision / 404)
+
+- sriannamalai/Jev.UI README **76 B**: skip-thin-noise.
+- VarSamLewis/eval-diff README **404**: skip, not a crash.
+- Md-Zaid-Ahmed/GMAIL-JEV-DEV GitHub **404**.
+- Bigthap/canvas-quiz-ai-solver: quiz scraper; skip.
+- Hugeliz/jev.mixrnation.ch: website-rate; skip-thin-noise.
+- eclecticv/jev-adcp-decision-economics README **139 B**: skip.
+- Archer rewrite: **promised_not_landed**. Hub
+  archerhume/4rcherhume HTTP **401**.
+
+### Pulse (live REST this hour)
+
+Archer still promised_not_landed. Hub archerhume/4rcherhume
+HTTP **401**. This hour does not re-census SemIf / Laya likes
+/ tracker; those numbers stay §119 until a dedicated pulse.
+minecraft-agent **214★**. jev-skill **109★**. LLM2Jev **64★**.
+RoboJEV **8★**. awesome-jev-live **4★** / 673 entries.
+
+### Formal compose + anti-patterns
+
+Formal methods **compose** with scoring. A Noul is a
+SENSOR. Serving (ggmlc / ONNX / Docker / C++) is a
+substrate. Parsers / keep-sets / watermarks / BLOCK bands /
+fail-open harnesses are exact work. Treating a GGUF as
+llama.cpp, an ONNX graph as a replica, slot-two as a Noul,
+ρ −0.274 as "the model cannot play", Qwen3.5-4B/9B as
+Archer, AUTO_ACT as a Noul, 0.92 urgency as a hard gate,
+or a catalog row as endorsement is soundness theater.
+Ranking ≠ calibration. Soft Noul ≠ hard safety.
+serving substrate ≠ calibrated replica.
+planner writes JEV selects. catalog ≠ endorsement.
+
+### Adversarial review + testing hooks (Basit standing
+order)
+
+Parent merge only after **CLEAN** adversarial review
+**AND** testing. Hooks for the reviewer:
+
+- Uniqueness-gate: the consecutive `Hourly 1049
+  uniqueness lock:` string must appear in every overlay
+  listed below. Prior walls 0843 / 0915 / jcr / 0922 /
+  0940 / 0947 stay one substring each (do not mutate them;
+  do not reopen #23–#42).
+- Namesake locks: tozp/laya-onnx ≠ Mattepiu/laya-onnx ≠
+  gqgs/laya-onnx; wuyoscar/jev-skill ≠ aiwithenoch /
+  simplosophy / laguagu; StephenChan-1/Jev-usecases ≠
+  whyash / walid / vamsikrishna / anandi1989.
+- Densify vs new: decision-head-rlcd densifies §119 HF
+  card; ashleyotooligan densifies handwritten demo (AUTO_ACT
+  already catalogued). ggmlc GGUF / position-test /
+  jevSweeper / LLM2Jev are first sightings this hour.
+- Harbor-jevals: 72.2% / 0.7725 / 111-case / 22 to 40% /
+  ρ −0.274 are *theirs*, not Harbor. 128/128 stays NanoJev
+  §115. 0.779 JevBench is *theirs* from §119.
+- Anti-patterns to refuse: TypeSafe drop-in; Qwen3.5-4B or
+  Qwen3.5-9B or Qwen3.8-27B as Archer; ggmlc GGUF as
+  llama.cpp; softmax over options as Noul; pick_second as
+  pick_by_id; AUTO_ACT as a Noul; BLOCK band as a proof;
+  catalog as endorsement; copying keys / `npm` / `pip` /
+  `docker pull`.
+- Overlay set: SKILL.md body (not YAML surgery),
+  mental-models Apply 1049, composition-algebra items
+  353–368, faq, mixed-architecture, validation,
+  toolbox-mapping, methods-catalog, formal-methods,
+  formal-semi-formal, applied-mappings, judgment-class,
+  question-design, agent-self-assessment, mappings,
+  CHANGELOG, README, docs/ecosystem, findings batch #103,
+  refresh-log, sources.json, changelog-hourly.md.
+- Offline check: `evaluate_decisions.py --self-test`
+  (now includes pick_by_id vs pick_second) and
+  `uniqueness_gate.py` (0843 + 0915 + jcr + 0922 + 0940 +
+  0947 + 1049). No live Jev key. No wrappers.
+
+Hourly 1049 uniqueness lock: ggmlc GGUF is not llama.cpp; Loading them in llama.cpp will fail; one encoder pass; hf:mys/laya-GGUF sha 713ae6f6e39f likes 0 apache-2.0; hf:mys/laya-multilingual-GGUF sha 3b645ae54281; hf:mys/laya-typed-decisions-GGUF sha 1e9e8ba1f527; hf:tozp/laya-onnx sha 0862aeba1e65 Opset 14 FP32 and INT8; tozp/laya-onnx ≠ Mattepiu/laya-onnx ≠ gqgs/laya-onnx; docker-laya MIT HEAD 1b8239a51ddd README SHA 9cb7bdc3; laya.cpp RTX ggml CUDA HEAD 8590937c79a2 README SHA cdd429b9; serving substrate ≠ calibrated replica; Softmax over options ≠ calibrated Noul; Qwen3.5-4B ≠ Archer; Qwen3.5-9B ≠ Archer; jev-position-test n=6 HEAD 7a56ca1c2698 README SHA 23f194c9; jevmlx slots 5 of 6; hosted Jev 0 of 6; prior_correction made it worse; jevSweeper mean Spearman ρ −0.274; picked exact-optimal 1/25 (4%); 31 of 36 still logically decidable; 86% of the time we should not have been asking; game success ≠ calibrated Noul; LLM2Jev 64★ Apache-2.0 HEAD 924618721277 README SHA da35fe61; not affiliated with or endorsed by Jev or TypeSafe; No answer tokens are generated; OpenSourceJev llama.cpp Qwen3-1.7B HEAD 3c41fba3681d; JEV-MLX Qwen3.5-9B HEAD dec24cd929ea; decision-head-rlcd Qwen3.5-4B 4.9M LoRA; AUTO_ACT is not a Noul; closed-set fail-open stdlib-only; verified=False; soft scores ≠ hard gates; 22 to 40% cheaper *theirs*; first version 70% more expensive; 111-case benchmark *theirs*; CDC 5,000 Jev 72.2% AUC 0.7725 *theirs*; accuracy is a trap; 9.0% base rate always-no 91.0%; catalog ≠ endorsement; jev-skill 109★ 90 scenarios HEAD 4f6e899a24d4; awesome-jev-live 673 entries 4★; minecraft-agent 214★ 131 JEV decisions 35 Astra calls; nether-final-08 8 minutes 43.300 seconds; planner writes JEV selects; RoboJEV structured simulator state not images; ashare-trader 策略未通过自己的回测门槛; 36 组参数全部净期望为负; no positive expectation under real costs; typed_evals NOT an official TypeSafe AI product; jev-as-judge is a sensor; third-person-audit 40% & 60% watermarks still soft; The included experience uses a handwritten demo provider; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42; notes.md §120

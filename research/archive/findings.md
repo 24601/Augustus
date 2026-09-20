@@ -1,6 +1,50 @@
 # Deep-read findings (evidence for research/notes.md)
 
 
+## Batch #103 (2026-09-20 ~10:49 Boise / ~16:49 UTC) — hourly 1049 HIGH
+
+Hourly 1049 uniqueness lock: ggmlc GGUF is not llama.cpp; Loading them in llama.cpp will fail; one encoder pass; hf:mys/laya-GGUF sha 713ae6f6e39f likes 0 apache-2.0; hf:mys/laya-multilingual-GGUF sha 3b645ae54281; hf:mys/laya-typed-decisions-GGUF sha 1e9e8ba1f527; hf:tozp/laya-onnx sha 0862aeba1e65 Opset 14 FP32 and INT8; tozp/laya-onnx ≠ Mattepiu/laya-onnx ≠ gqgs/laya-onnx; docker-laya MIT HEAD 1b8239a51ddd README SHA 9cb7bdc3; laya.cpp RTX ggml CUDA HEAD 8590937c79a2 README SHA cdd429b9; serving substrate ≠ calibrated replica; Softmax over options ≠ calibrated Noul; Qwen3.5-4B ≠ Archer; Qwen3.5-9B ≠ Archer; jev-position-test n=6 HEAD 7a56ca1c2698 README SHA 23f194c9; jevmlx slots 5 of 6; hosted Jev 0 of 6; prior_correction made it worse; jevSweeper mean Spearman ρ −0.274; picked exact-optimal 1/25 (4%); 31 of 36 still logically decidable; 86% of the time we should not have been asking; game success ≠ calibrated Noul; LLM2Jev 64★ Apache-2.0 HEAD 924618721277 README SHA da35fe61; not affiliated with or endorsed by Jev or TypeSafe; No answer tokens are generated; OpenSourceJev llama.cpp Qwen3-1.7B HEAD 3c41fba3681d; JEV-MLX Qwen3.5-9B HEAD dec24cd929ea; decision-head-rlcd Qwen3.5-4B 4.9M LoRA; AUTO_ACT is not a Noul; closed-set fail-open stdlib-only; verified=False; soft scores ≠ hard gates; 22 to 40% cheaper *theirs*; first version 70% more expensive; 111-case benchmark *theirs*; CDC 5,000 Jev 72.2% AUC 0.7725 *theirs*; accuracy is a trap; 9.0% base rate always-no 91.0%; catalog ≠ endorsement; jev-skill 109★ 90 scenarios HEAD 4f6e899a24d4; awesome-jev-live 673 entries 4★; minecraft-agent 214★ 131 JEV decisions 35 Astra calls; nether-final-08 8 minutes 43.300 seconds; planner writes JEV selects; RoboJEV structured simulator state not images; ashare-trader 策略未通过自己的回测门槛; 36 组参数全部净期望为负; no positive expectation under real costs; typed_evals NOT an official TypeSafe AI product; jev-as-judge is a sensor; third-person-audit 40% & 60% watermarks still soft; The included experience uses a handwritten demo provider; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42; notes.md §120
+
+Note: `research/notes.md` §120. Docs + evaluator, rebased
+onto latest `main` (`8f446c4` / merged #41 0947) after
+`fb15455` / merged #42 v0.5.0 after `38e4e92` / merged #39
+§114 hygiene. Merged #41 owns §119 / 337–352 / #102.
+Merged #40 owns §118 / 322–329 / #101. Merged #42 is the
+0.5.0 release. This fold stays §120 / items 353–368 /
+batch #103.
+**HARD RULE:** do not reopen or amend PR #23–#42.
+Quote READMEs. Soft Noul ≠ hard safety. Augustus owns
+placement. `invented_signal: false`.
+
+- **Serving substrate PRIMARY.** mys/laya-GGUF family. docker-laya. laya.cpp. tozp ONNX.
+  ggmlc GGUF is not llama.cpp. Loading them in llama.cpp will fail. one encoder pass.
+  serving substrate ≠ calibrated replica. tozp/laya-onnx ≠ Mattepiu/laya-onnx ≠ gqgs/laya-onnx.
+- **Option-order / exact-p.** imaddde867/jev-position-test. lvk901/jevSweeper.
+  n=6. jevmlx slots 5 of 6. hosted Jev 0 of 6. prior_correction made it worse.
+  mean Spearman ρ −0.274. picked exact-optimal 1/25 (4%). 31 of 36 still logically decidable.
+  86% of the time we should not have been asking. game success ≠ calibrated Noul.
+  Evaluator: pick_by_id vs pick_second.
+- **Adapters / RLCD.** LLM2Jev 64★. OpenSourceJev llama.cpp Qwen3-1.7B. JEV-MLX Qwen3.5-9B.
+  decision-head-rlcd Qwen3.5-4B 4.9M LoRA densify. not affiliated with or endorsed by Jev or TypeSafe.
+  No answer tokens are generated. Qwen3.5-9B ≠ Archer. Qwen3.5-4B ≠ Archer.
+- **Soft ≠ hard.** AUTO_ACT is not a Noul. closed-set fail-open stdlib-only. verified=False.
+  22 to 40% cheaper *theirs*. first version 70% more expensive.
+  third-person-audit 40% & 60% watermarks still soft.
+  The included experience uses a handwritten demo provider.
+- **Catalogs / life / honesty.** jev-skill 109★ 90 scenarios. awesome-jev-live 673 entries 4★.
+  minecraft-agent 214★ 131 JEV decisions 35 Astra calls. nether-final-08 8 minutes 43.300 seconds.
+  planner writes JEV selects. RoboJEV structured simulator state not images.
+  ashare-trader 策略未通过自己的回测门槛; 36 组参数全部净期望为负.
+  typed_evals NOT an official TypeSafe AI product. jev-as-judge is a sensor.
+  CDC 5,000 Jev 72.2% AUC 0.7725 *theirs*. accuracy is a trap. 9.0% base rate always-no 91.0%.
+  111-case benchmark *theirs*. catalog ≠ endorsement.
+
+Pulse: Archer still NOT landed. Hub archerhume/4rcherhume HTTP **401**.
+minecraft-agent **214★**; jev-skill **109★**; LLM2Jev **64★**; RoboJEV **8★**.
+`invented_signal: false`.
+
+
+
 
 ## Batch #102 (2026-09-20 ~09:47 Boise / ~15:47 UTC) — hourly 0947 HIGH
 

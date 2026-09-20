@@ -5089,6 +5089,150 @@
       "title": "syedabbasshaheer-art/jev-atlas",
       "url": "https://github.com/syedabbasshaheer-art/jev-atlas",
       "note": "HTML MIT 0★ HEAD 3b7b4e64 README SHA 1949dcbe size 310. 359 of them. Games & Simulation 82. Education & Learning 1. Ratings are heuristics. ≠ ZeroX-01 ≠ Zaious ≠ gorock007. notes.md §119."
+    },
+    {
+      "kind": "huggingface",
+      "title": "mys/laya-GGUF",
+      "url": "https://huggingface.co/mys/laya-GGUF",
+      "note": "ggmlc GGUF apache-2.0 likes 0 sha 713ae6f6e39f. Loading them in llama.cpp will fail. one encoder pass. serving substrate ≠ calibrated replica. notes.md §120."
+    },
+    {
+      "kind": "huggingface",
+      "title": "mys/laya-multilingual-GGUF",
+      "url": "https://huggingface.co/mys/laya-multilingual-GGUF",
+      "note": "ggmlc GGUF sha 3b645ae54281 likes 0. notes.md §120."
+    },
+    {
+      "kind": "huggingface",
+      "title": "mys/laya-typed-decisions-GGUF",
+      "url": "https://huggingface.co/mys/laya-typed-decisions-GGUF",
+      "note": "ggmlc GGUF sha 1e9e8ba1f527 likes 0. notes.md §120."
+    },
+    {
+      "kind": "huggingface",
+      "title": "tozp/laya-onnx",
+      "url": "https://huggingface.co/tozp/laya-onnx",
+      "note": "sha 0862aeba1e65 Opset 14 FP32 and INT8. ≠ Mattepiu/laya-onnx ≠ gqgs/laya-onnx. notes.md §120."
+    },
+    {
+      "kind": "github",
+      "title": "chneau/docker-laya",
+      "url": "https://github.com/chneau/docker-laya",
+      "note": "MIT HEAD 1b8239a51ddd README SHA 9cb7bdc3. notes.md §120."
+    },
+    {
+      "kind": "github",
+      "title": "lkarlslund/laya.cpp",
+      "url": "https://github.com/lkarlslund/laya.cpp",
+      "note": "MIT HEAD 8590937c79a2 README SHA cdd429b9 RTX ggml CUDA. notes.md §120."
+    },
+    {
+      "kind": "github",
+      "title": "imaddde867/jev-position-test",
+      "url": "https://github.com/imaddde867/jev-position-test",
+      "note": "MIT 3★ HEAD 7a56ca1c2698 README SHA 23f194c9 n=6 jevmlx slots 5 of 6 hosted Jev 0 of 6. notes.md §120."
+    },
+    {
+      "kind": "github",
+      "title": "lvk901/jevSweeper",
+      "url": "https://github.com/lvk901/jevSweeper",
+      "note": "MIT HEAD c31685473536 mean Spearman ρ −0.274 picked exact-optimal 1/25 (4%). notes.md §120."
+    },
+    {
+      "kind": "github",
+      "title": "Yinsongxu/LLM2Jev",
+      "url": "https://github.com/Yinsongxu/LLM2Jev",
+      "note": "Apache-2.0 64★ HEAD 924618721277 README SHA da35fe61. not affiliated with or endorsed by Jev or TypeSafe. notes.md §120."
+    },
+    {
+      "kind": "github",
+      "title": "sabeel111/OpenSourceJev",
+      "url": "https://github.com/sabeel111/OpenSourceJev",
+      "note": "MIT 10★ HEAD 3c41fba3681d llama.cpp Qwen3-1.7B. notes.md §120."
+    },
+    {
+      "kind": "github",
+      "title": "CoderInPajamas/JEV-MLX",
+      "url": "https://github.com/CoderInPajamas/JEV-MLX",
+      "note": "MIT HEAD dec24cd929ea Qwen3.5-9B ≠ Archer. notes.md §120."
+    },
+    {
+      "kind": "github",
+      "title": "Astro-Han/decision-head-rlcd",
+      "url": "https://github.com/Astro-Han/decision-head-rlcd",
+      "note": "HEAD a720133f5302 Qwen3.5-4B 4.9M LoRA densify §119. notes.md §120."
+    },
+    {
+      "kind": "github",
+      "title": "litshing/jevcore",
+      "url": "https://github.com/litshing/jevcore",
+      "note": "HEAD 25fdfea90d87 closed-set fail-open stdlib-only verified=False. notes.md §120."
+    },
+    {
+      "kind": "github",
+      "title": "daniel-farina/nitro",
+      "url": "https://github.com/daniel-farina/nitro",
+      "note": "HEAD 99b8749d3474 22 to 40% cheaper *theirs*. first version 70% more expensive. notes.md §120."
+    },
+    {
+      "kind": "github",
+      "title": "rubinagentagi-tech/jev-heart-risk-bench",
+      "url": "https://github.com/rubinagentagi-tech/jev-heart-risk-bench",
+      "note": "HEAD bf75f8a1a7fc CDC 5,000 Jev 72.2% AUC 0.7725 *theirs*. accuracy is a trap. notes.md §120."
+    },
+    {
+      "kind": "github",
+      "title": "wuyoscar/jev-skill",
+      "url": "https://github.com/wuyoscar/jev-skill",
+      "note": "MIT 109★ HEAD 4f6e899a24d4 90 scenarios catalog ≠ endorsement. notes.md §120."
+    },
+    {
+      "kind": "github",
+      "title": "wh000wh000/awesome-jev-live",
+      "url": "https://github.com/wh000wh000/awesome-jev-live",
+      "note": "4★ 673 entries catalog ≠ endorsement. notes.md §120."
+    },
+    {
+      "kind": "github",
+      "title": "rmalde/minecraft-agent",
+      "url": "https://github.com/rmalde/minecraft-agent",
+      "note": "214★ HEAD 78b40ed59514 131 JEV decisions 35 Astra calls nether-final-08 8 minutes 43.300 seconds. planner writes JEV selects. notes.md §120."
+    },
+    {
+      "kind": "github",
+      "title": "lykycy123/RoboJEV",
+      "url": "https://github.com/lykycy123/RoboJEV",
+      "note": "Apache-2.0 8★ HEAD aa82be096030 structured simulator state not images. notes.md §120."
+    },
+    {
+      "kind": "github",
+      "title": "xuboboo/ashare-trader",
+      "url": "https://github.com/xuboboo/ashare-trader",
+      "note": "HEAD 048fd921b3d8 策略未通过自己的回测门槛. 36 组参数全部净期望为负. notes.md §120."
+    },
+    {
+      "kind": "github",
+      "title": "TrustifAI/typed_evals",
+      "url": "https://github.com/TrustifAI/typed_evals",
+      "note": "MIT HEAD 0d54b0ab6121 NOT an official TypeSafe AI product. jev-as-judge is a sensor. notes.md §120."
+    },
+    {
+      "kind": "github",
+      "title": "saifullahshafin/system1-third-person-audit",
+      "url": "https://github.com/saifullahshafin/system1-third-person-audit",
+      "note": "MIT HEAD 8dc897fd2fcb 40% & 60% watermarks still soft. notes.md §120."
+    },
+    {
+      "kind": "github",
+      "title": "ashleyotooligan/jevbrain",
+      "url": "https://github.com/ashleyotooligan/jevbrain",
+      "note": "MIT 1★ HEAD 672478592ba4 handwritten demo provider. AUTO_ACT is not a Noul densify. notes.md §120."
+    },
+    {
+      "kind": "github",
+      "title": "ghubnab99/jev-enterprise-decision-fabric",
+      "url": "https://github.com/ghubnab99/jev-enterprise-decision-fabric",
+      "note": "MIT HEAD 51dce51c359b 111-case benchmark *theirs*. notes.md §120."
     }
   ]
 }

@@ -1,0 +1,73 @@
+{
+  "boise_label": "1049",
+  "novel_high_count": 98,
+  "bullets": [
+    "Laya ports surge: GGUF/ONNX (mys/*, tozp), docker-laya, laya.cpp, laya-pong, laya-tetris-finetune",
+    "Measurement/judges: jev-field-tests, eval-diff, typed_evals, jev-heart-risk-bench, jev-position-test, third-person-audit",
+    "CU/browser/MCP: jev-browser, playwright-jev, jev-mcp-spring, dsh-jev tools, paseo-supervision",
+    "Gate cousins: hermes-jev tool gate, pi-jev-router, jev-regime-gate, Prompt-Injection-Guardian, healthcare router",
+    "Open replicas/adapters: LLM2Jev, OpenSourceJev, JEV-MLX, decision-head-rlcd, Minecraft/RoboJEV controllers"
+  ],
+  "top_starred_novel": [
+    {
+      "id": "rmalde/minecraft-agent",
+      "stars": 206,
+      "snip": "Astra planner and JEV controller for Minecraft, with native recording, tested routes, and run verifi"
+    },
+    {
+      "id": "wuyoscar/jev-skill",
+      "stars": 108,
+      "snip": "An awesome collection of Jev use cases, workflows, and agent skills."
+    },
+    {
+      "id": "Yinsongxu/LLM2Jev",
+      "stars": 64,
+      "snip": "Adapt local language models into Jev-compatible structured decision engines with Choice, Score, and "
+    },
+    {
+      "id": "FerryCorleone/crush-monitor",
+      "stars": 28,
+      "snip": "Crush \u597d\u611f\u76d1\u63a7\u5668\uff1a\u7528 Jev \u5206\u6790\u5fae\u4fe1\u804a\u5929\u7684\u60c5\u7eea\u3001\u610f\u56fe\u548c\u56de\u590d\u8868\u73b0\u3002\u672c\u673a\u90e8\u7f72\uff0c\u4f7f\u7528\u81ea\u5df1\u7684 API Key\u3002"
+    },
+    {
+      "id": "sabeel111/OpenSourceJev",
+      "stars": 10,
+      "snip": "Turning an LLM model into a Jev like System."
+    },
+    {
+      "id": "shitianfang/jev-use",
+      "stars": 10,
+      "snip": "Claude Code / Codex / pi plugin that hands agent steps needing no text output to Jev (TypeSafe's jud"
+    },
+    {
+      "id": "keeltrace/hermes-jev",
+      "stars": 9,
+      "snip": "Typed System One decisions, ranking, verification, and an opt-in Hermes tool gate using TypeSafe Jev"
+    },
+    {
+      "id": "lykycy123/RoboJEV",
+      "stars": 6,
+      "snip": "Two-stage JEV control of a Franka Panda in MuJoCo: pick/place, surface pushing, and fixed-pedestal s"
+    },
+    {
+      "id": "hoangnb24/paseo-supervision",
+      "stars": 4,
+      "snip": "Paseo plugin for supervising Lead\u2013Peer communication protocol drift with Jev"
+    },
+    {
+      "id": "wh000wh000/awesome-jev-live",
+      "stars": 4,
+      "snip": "Evidence-graded index of the Jev / TypeSafe System One ecosystem. Rebuilt every 2 hours in 20 langua"
+    },
+    {
+      "id": "ChosenXu/newsletter-link-harvester",
+      "stars": 3,
+      "snip": "Agent Skill: harvest links from newsletter emails into Raindrop.io with the author editorial context"
+    },
+    {
+      "id": "hraness/algal",
+      "stars": 3,
+      "snip": "ALGAL is a new take on the agent graph: a language and runtime for agentic program evolution."
+    }
+  ]
+}
