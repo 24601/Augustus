@@ -3019,12 +3019,13 @@ rename; (ly) schema-compiler HIGH upgrade; (lz) ANE /
 local-logit / Pi-loop economics.
 ## Batch #88 (2026-09-20 ~06:42 UTC / ~00:42 Boise) — hourly 0042 HIGH
 
-Note: `research/notes.md` §104. Docs-only on a fresh PR
+Note: `research/notes.md` §105. Docs-only on a fresh PR
 off main. Never reopen merged #7 / **#8** / **#9** /
 **#10** / **#12** / **#13** / **#14** / **#15** /
 **#16** / **#17** / **#18** / **#19** / **#20** /
-**#21**. Do **not** merge from open PR **#22** (hourly
-2340). Do **not** re-fold §93 mechanism / §94 / §95 /
+**#21** / **#22**. After merged #22 (`98ded82`, hourly
+2340 / `notes.md` §104). Do **not** merge from merged
+**#22**. Do **not** re-fold §93 mechanism / §94 / §95 /
 §96 / §97 / §98 / §99 / §100 / §101 / §102 / §103 / §104.
 Skip Archer rewrite. Do **not** re-fold 2340 / 2246 /
 2145 / 2041 / 1943 / 1843 / 1740 /
@@ -3077,7 +3078,7 @@ exemplar this hour. Quote live REST over watch.
   yibie/laya-jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab.
 - **Locate vs decide.** umstek/zero-shot-ie-bench
   (Python MIT; **0★**; HEAD `8770b16b`; README SHA
-  `d69dc96a`; size 33). GLiNER vs GLiFormer vs Laya vs
+  `d69dc96a`; size **50** (relock; was **33**)). GLiNER vs GLiFormer vs Laya vs
   Jev. extractors ≠ decision engines. Laya
   dict-instructions collapse 58.3%.
   umstek/zero-shot-ie-bench.
@@ -3105,15 +3106,16 @@ exemplar this hour. Quote live REST over watch.
   theme/mood/complexity. five atomic questions one call.
   lirantal/discoprint.
 
-Pulse (relock after first PR): Archer still NOT landed. Hub
+Pulse (independent review relock after `92577f5`): Archer still NOT landed. Hub
 archerhume/4rcherhume HTTP **401**. Tracker likes **56**
 (flat vs §104 **56**); lastModified
-`2026-09-20T04:29:16Z` **UNCHANGED** vs §104. Laya Hub likes **686**.
+`2026-09-20T04:29:16Z` **UNCHANGED** vs §104. Laya Hub likes **690**.
 Blackwood Hub likes **2** gated manual — user census
-absent from tracker. Live REST: SemIf **2057★**; jevlike
-**1021★**; TypeAR **12★** flat. AnotiaWang/awesome-jev
-**92★** ≠ Awesomejev 561/27007. Qwen3.8-27B ≠ Archer
-(likes **15793**). `invented_signal: false`.
+absent from tracker. Live REST: SemIf **2059★**; jevlike
+**1022★**; TypeAR **12★** flat. AnotiaWang/awesome-jev
+**92★** ≠ Awesomejev 561/27007 ≠ yibie/awesome-jev
+**443★**. Qwen3.8-27B ≠ Archer
+(likes **15794**). `invented_signal: false`.
 
 Cross-repo addition: (nb) structured probability
 readouts; (nc) ordinary-model Jev-shape; (nd) open-weight

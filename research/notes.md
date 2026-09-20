@@ -22846,8 +22846,8 @@ lirantal/discoprint.
      (JavaScript; GitHub license **null**; README says
      MIT; no LICENSE file; **0★** live REST; 0 forks;
      created 2026-09-20T06:44:37Z; pushed
-     2026-09-20T06:44:42Z; updated
-     2026-09-20T06:44:46Z; HEAD `6f1e5900`;
+     2026-09-20T07:01:17Z; updated
+     2026-09-20T07:01:20Z; HEAD `6f1e5900`;
      README SHA `67ee1e96`; GitHub `size` **0** with
      contents). GitHub description *theirs*:
      "把一段内容交给 TypeSafe AI 的 Jev 模型，得到带概率分布的结构化判断".
@@ -23168,8 +23168,8 @@ lirantal/discoprint.
 
    - **[`umstek/zero-shot-ie-bench`](https://github.com/umstek/zero-shot-ie-bench)**
      (Python MIT LICENSE SHA `4396160e`; **0★** live
-     REST; 0 forks; created 2026-09-20T04:48:58Z;
-     pushed 2026-09-20T05:56:33Z; updated
+     REST; 0 forks;      created 2026-09-20T04:48:58Z;
+     pushed 2026-09-20T07:25:24Z; updated
      2026-09-20T05:19:56Z; HEAD `8770b16b`;
      README SHA `d69dc96a`; GitHub `size` **50** (relock; was **33**)).
      GitHub description *theirs*: GLiNER 2.5 vs
@@ -23298,10 +23298,10 @@ lirantal/discoprint.
 
     - **[`GaneshVG18/upgrade-radar`](https://github.com/GaneshVG18/upgrade-radar)**
       (TypeScript MIT LICENSE SHA `588680c5`; **0★**
-      live REST; 0 forks; created
+      live REST; 0 forks;       created
       2026-09-20T06:36:24Z; pushed
-      2026-09-20T06:53:17Z; updated
-      2026-09-20T06:53:21Z; HEAD `e438f9bd`;
+      2026-09-20T07:09:10Z; updated
+      2026-09-20T07:07:57Z; HEAD `e438f9bd`;
       README SHA `c32f7d18`; GitHub `size` **0** with
       contents). GitHub description *theirs*:
       evidence-linked dependency upgrade review
@@ -23353,8 +23353,8 @@ lirantal/discoprint.
       (TypeScript Apache-2.0 LICENSE SHA
       `3c011d11`; **0★** live REST; 0 forks;
       created 2026-09-20T06:37:50Z; pushed
-      2026-09-20T06:41:08Z; updated
-      2026-09-20T06:40:48Z; HEAD `a9d3294f`;
+      2026-09-20T07:00:03Z; updated
+      2026-09-20T07:00:06Z; HEAD `a9d3294f`;
       README SHA `9a64f473`; GitHub `size` **0** with
       contents). GitHub description *theirs*:
       classify an artist's discography by theme,
@@ -23420,14 +23420,14 @@ Archer; invent tweets.
 ### Census
 
 Census **not provided this hour** (not
-re-derived). Live REST pulse (relock after first
-PR): SemIf **2057★** (+10 vs §104 **2047**); jevlike
+re-derived). Live REST pulse (independent review
+relock after `92577f5`): SemIf **2059★** (+12 vs §104 **2047**); jevlike
 ([vinnylarouge/jevlike](https://github.com/vinnylarouge/jevlike))
-**1021★** (+3 vs §104 **1018**); TypeAR-AI/TypeAR
+**1022★** (+4 vs §104 **1018**); TypeAR-AI/TypeAR
 **12★** **flat**; AnotiaWang/awesome-jev **92★**
 (+1 vs §104 **91**) still a **different object**
 from user-provided Awesomejev 561/27007 (§99 pin).
-yibie/awesome-jev **442★** ≠ Awesomejev.
+yibie/awesome-jev **443★** ≠ Awesomejev.
 Archer still **NOT landed**. Hub
 `archerhume/4rcherhume` HTTP **401**. Tracker
 [multimodalart/jev-reproductions-tracker](https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker)
@@ -23435,12 +23435,12 @@ likes **56** (flat vs §104 **56**; +1 vs the
 incoming watch); lastModified
 `2026-09-20T04:29:16Z` **UNCHANGED** vs §104 /
 2340. Laya Hub
-`convaiinnovations/laya` HTTP **200** likes **686**.
+`convaiinnovations/laya` HTTP **200** likes **690**.
 Blackwood Hub `BlackwoodAI/blackwood-rlcd` HTTP
 **200** likes **2** gated **manual** — user census
 **Blackwood absent** from the tracker; do not
 rewrite as landed. Qwen/Qwen3.8-27B HTTP **200**
-likes **15793** ≠ Archer. X MCP not used this
+likes **15794** ≠ Archer. X MCP not used this
 hour; no invented tweets. `invented_signal:
 false`.
 

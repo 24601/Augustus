@@ -114,16 +114,16 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   one call; TypeScript Apache-2.0; **0★**; HEAD
   `a9d3294f`; README SHA `9a64f473`). Soft Noul ≠ hard
   safety. 0★ HIGH still got a real card (all twelve
-  **0★**). Census **live REST pulse** (relock after first
-  PR): SemIf **2057★** (+10 vs §104 **2047**); jevlike
-  **1021★** (+3 vs §104 **1018**); TypeAR **12★** **flat**.
+  **0★**). Census **live REST pulse** (independent review
+  relock after `92577f5`): SemIf **2059★** (+12 vs §104 **2047**); jevlike
+  **1022★** (+4 vs §104 **1018**); TypeAR **12★** **flat**.
   Tracker likes **56**; lastModified
   `2026-09-20T04:29:16Z` **UNCHANGED** vs §104. Hub
   `archerhume/4rcherhume` HTTP **401**. Archer still NOT
-  landed. Laya Hub likes **686**. Blackwood Hub likes **2**
+  landed. Laya Hub likes **690**. Blackwood Hub likes **2**
   gated manual — user census absent from tracker. Awesomejev
   561/27007 user-provided (≠ AnotiaWang/awesome-jev
-  **92★**). Qwen3.8-27B ≠ Archer (likes **15793**).
+  **92★** ≠ yibie/awesome-jev **443★**). Qwen3.8-27B ≠ Archer (likes **15794**).
   `invented_signal: false`. Do not copy keys / `npm` /
   `pip` / `npx` / `uv` / `.env`. No wrapper. No invented
   metrics. Relock: Arohtea HEAD `03734993`→`6f1e5900` /
