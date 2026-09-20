@@ -26,9 +26,10 @@ not in this cut.
   unified-games densify. jcr lookup **does not execute**.
 - **Measurement honesty.** Hysteresis is policy. Instruct-tuning ECE.
   hop-ECE invariance. Harbor-jevals / Verdict / DecisionOps as themes.
-  Ranking ≠ calibration. Soft Noul ≠ hard gate.
+  ranking ≠ calibration. soft Noul ≠ hard gate.
 
 No invented metrics. No `pipeline()` install recipes.
+heuristic conversion ≠ calibrated Noul.
 
 ## Recipes
 

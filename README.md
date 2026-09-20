@@ -47,7 +47,7 @@ Class-wide, not a TypeSafe how-to. Full cards:
 - **Encoder (GLiNER / GLiClass).** Without: treat locate/categorize as a decision head and hard-gate spans. With: species map; remainder after extractive spans. Measure span quality separately from ECE.
 - **Open heads (Laya, SemIf, kev, Jeff-1).** Without: wire-compat or argmax agree as replica. With: softmax ≠ calibrated Noul; systems timing ≠ semantic equivalence. Measure ECE/Brier on held-out, not only speed.
 - **NanoJev.** Without: game wins as calibration. With: specialist gameplay S1; local boolean ≠ TypeSafe noul. Measure held-out game separately from ECE.
-- **llm-to-jev.** Without: ship converted prompts as equivalent behavior. With: heuristic on-ramp; review the Score rubric. Conversion ≠ calibrated Noul.
+- **llm-to-jev.** Without: ship converted prompts as equivalent behavior. With: heuristic on-ramp; review the Score rubric. heuristic conversion ≠ calibrated Noul.
 - **jcr.** Without: run what the tree found. With: lookup returns context; **does not execute**. Routing ≠ permission; docs ≠ authority to run.
 - **localjev / prompted JSON.** Without: parse generated JSON as a Noul. With: schema-valid ≠ picked-right.
 

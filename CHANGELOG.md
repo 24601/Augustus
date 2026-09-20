@@ -55,7 +55,7 @@ release. Verbose hourly locks stay in
     success separately from ECE.
   - **llm-to-jev:** without — ship converted prompts as equivalent
     behavior. With — heuristic on-ramp; review Score rubric; prose stays
-    with the LLM. Conversion ≠ calibrated Noul.
+    with the LLM. heuristic conversion ≠ calibrated Noul.
   - **jcr:** without — run what the capability tree found. With — lookup
     returns context and **does not execute**. Routing ≠ permission;
     docs ≠ authority to run.
