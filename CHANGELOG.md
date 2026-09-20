@@ -16,6 +16,39 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 1542 HIGH (`research/notes.md` §126 / composition items
+433–448 / findings batch #108). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#48. Do not amend released 0.5.0
+(#42). Merged #48 owns §125. Merged #47 owns §124.
+
+### Added
+
+- **Hourly 1542 HIGH (`notes.md` §126).** TypeLLM README densify 3k→12k B /
+  Batch 5.8x *theirs* / Constrained AR ≠ calibrated Noul / kev family
+  new-source *theirs* / fail-closed routing / fail-open test selection /
+  classifier ≠ authorizer / estimates not Harbor. JEV_THRESHOLD 0.65
+  still soft. threshold 0.90 still soft. ask_below 0.7 still soft.
+  8.2% ≥0.9 on wrong *theirs*. 76/81 vs 77/81 *theirs*. wire-compat is not
+  logit-equiv. SHA move is not a replica.
+  Evaluator: Constrained AR ≠ Noul / fail-closed never auto-allows /
+  fail-open uncertainty means RUN / routing threshold still soft /
+  classifier ≠ authorizer / estimates not Harbor. uniqueness_gate.py now
+  checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 + 1049 + 1143 +
+  1248 + 1340 + 1441 + 1542. Composition items 433–448 / batch #108.
+  **HARD RULE:** do not reopen or amend PR #23–#48. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat constrained
+  AR as a Noul, 5.8x as Harbor, 0.65 as a hard gate, fail-open RUN as
+  fail-closed, estimates as Harbor, or a catalog as endorsement. With
+  Augustus: Constrained AR ≠ calibrated Noul; Batch 5.8x *theirs*;
+  JEV_THRESHOLD 0.65 still soft; fail-open uncertainty means RUN;
+  classifier ≠ authorizer; estimates not Harbor. Same split for any
+  Choice/Score/Noul-style head, not only hosted Jev.
+
+
 Hourly 1441 HIGH (`research/notes.md` §125 / composition items
 417–432 / findings batch #107). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in

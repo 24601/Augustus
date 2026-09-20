@@ -1,0 +1,10 @@
+{
+  "hour": "2026-09-20T21",
+  "label": "1542",
+  "notes_section": "126",
+  "composition": "433-448",
+  "findings_batch": 108,
+  "revisit_high": 2,
+  "invented_signal": false,
+  "primary": "TypeLLM + kev README densify; Constrained AR \u2260 Noul; fail-closed routing vs fail-open RUN"
+}
