@@ -20188,3 +20188,899 @@ items 111–119; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
+
+## 102. Hourly 2145 HIGH (2026-09-19 ~21:45 Boise / 2026-09-20T03:45Z)
+
+Docs-only on a **fresh PR off main**
+(`cursor/hourly-2145-fold-282d`).
+**Never reopen merged** Augustus PR #7 / **#8** /
+**#9** / **#10** / **#12** / **#13** / **#14** /
+**#15** / **#16** / **#17** / **#18** / **#19**.
+After merged #19 (`320aff9`, hourly 2041 /
+`notes.md` §101). Do **not** re-fold §93 / §94 /
+§95 / §96 / §97 / §98 / §99 / §100 / §101. Quote
+READMEs. Mark *theirs*. No invented metrics.
+Hunches labeled. No wrappers, `npm` / `pip` /
+`npx` / `uv` / `mix` / `TYPESAFE_API_KEY` /
+`.env` as recipes. 0★ HIGH still gets a real
+card. Do **not** dump source / SDK / weights /
+eval logs. `invented_signal: false`. Skip Archer
+rewrite. Qwen3.8-27B ≠ Archer.
+
+Lane is Augustus: **mental models / architecture /
+Harbor-jevals / toolbelt**. Backend-agnostic
+categorization/scoring/decision class (Jev-like
+speed/econ), **not** a thin Jev-only dump. Design
+judgment, formal/semi-formal methods, decision
+theory, scoring class. Soft Noul ≠ hard safety.
+Formal methods **compose** with scoring; a Noul is a
+SENSOR. Avoid soundness theater. Jev is the hot
+exemplar, not the whole mandate. Open-weights Laya
+is the *class* exemplar this hour, not a TypeSafe
+drop-in.
+
+Unique consecutive fragments (this hour):
+question-linting of Jev questions themselves;
+nine jaggedness rules, no API key, no labelled data;
+static lint ≠ measured separation;
+yodablocks/jevq ≠ tenbin ≠ JevLint ≠ commitjev;
+open-weights Laya as class exemplar (binding);
+Nx/Bumblebee runtime;
+host chooses backend;
+ChristianAlexander/laya_ex ≠ system_one_sdk ≠ dannote/jev ≠ NandhaKishorM/laya;
+on-chain/edge Laya deploy;
+parity_verified stays false;
+model output never grants Tx;
+humandebri/IC-Laya ≠ laya_ex;
+auditable weekend replica;
+Jev outputs never used for training;
+soft human-vote distributions;
+unpaired 0.577 vs 0.727;
+agilabs-ai/jev48 ≠ JevBench ≠ Mapika/decider;
+adversarial dual-judge / framing attack surface;
+comparative framing is the usable judgment;
+prior injection crowds out evidence;
+copyleftdev/ember ≠ ember.js;
+Laya specialist fine-tune pipeline;
+training still GPU-pending;
+PIXELZX0/XERON ≠ convaiinnovations/laya;
+Hub Laya replica drop;
+daliborsb/laya ≠ convaiinnovations/laya ≠ NandhaKishorM/laya;
+System One student distillation corpus;
+gold is programmatic;
+teacher is closed-API clone;
+do not distill Jev as teacher of record;
+MagaBitmex/jev-4b-distill-data ≠ missing student checkpoint;
+non-LLM VIN System One;
+planning depth not chat;
+lewislululu/jevon ≠ douglance/jevon;
+source-bound evidence checks;
+local quote mismatch needs no API;
+exit 0 ≠ claim truth;
+WaynezProg/jev-kit ≠ jev-use ≠ jev-mcp.
+
+### How-to-apply (nine HIGH clusters)
+
+1. **Question-linting of Jev questions themselves**
+   (PRIMARY Augustus) — lint the *question*, not the
+   answer. Nine jaggedness rules, no API key, no
+   labelled data. Static lint ≠ measured
+   separation. The compound "without" that ranked
+   below chance on commitjev is the motivating
+   receipt. Transfers to any domain that writes
+   Choice/Score/Noul text: SWE, hiring, pharmacy,
+   life. Not tenbin (request-shape / missing
+   `other`). Not a Jev-powered linter.
+2. **Open-weights Laya as class exemplar (binding)**
+   — OSS Laya on BEAM via Nx/Bumblebee. Host
+   chooses the Nx backend. Downloads the official
+   checkpoint. Binding ≠ TypeSafe SDK ≠ OTP peer.
+   Laya is the *class*, not a Jev clone.
+3. **On-chain/edge Laya deploy** — Internet Computer
+   (Rust) proposal for Laya/ModernBERT inference.
+   Build/tests are sensors. parity_verified stays
+   false. Model output never grants Tx. Live funds
+   disabled. Formal methods compose: schema stamp
+   + mock ledger are exact; inference is a SENSOR.
+4. **Auditable weekend replica** — 48-hour agent
+   reproduction of a typed probabilistic decision
+   model. Jev outputs never used for training.
+   Soft human-vote distributions vs hard majority.
+   Unpaired public aggregates; not a paired
+   Harbor. SemIf-adjacent open replica, not SemIf.
+5. **Adversarial dual-judge / framing attack
+   surface** — two Jev agents on a cold-chain
+   pharmacy grid. Comparative framing is the usable
+   judgment. Prior injection crowds out evidence.
+   Kernel/doctrine/genome are exact; Nouls are
+   sensors. The attacker's advantage was how the
+   question was framed.
+6. **Laya specialist + Hub replica drop** — fine-tune
+   pipeline on convaiinnovations/laya (training
+   still GPU-pending) plus a Hub replica of the
+   family checkpoints. Sequence counts ≠ trained
+   quality. Copied vs-Jev tables are not a new
+   bake-off.
+7. **Distillation economics / teacher-of-record** —
+   synthetic state-grounded corpus for a 4B System
+   One student. Gold is programmatic; teacher is a
+   closed-API clone. Do not distill Jev as teacher
+   of record. Student checkpoint missing this pass.
+8. **Non-LLM VIN System One** — 20M-parameter
+   decision model for maze/snake planning. Planning
+   depth, not chat, not logits-only. Interface is
+   Choice/Boolean/Score; backbone is a
+   value-iteration network. Not a Jev teacher-copy.
+9. **Source-bound evidence + bounded judgments** —
+   four tools for coding agents (MCP/Pi/Skill).
+   Local quote mismatch needs no API. Exit 0 ≠
+   claim truth. Host constructs input and reviews
+   the result. Evidence ≠ authority.
+
+### Cards
+
+1. **Question-linting of Jev questions themselves
+   (PRIMARY)**
+
+   - **[`yodablocks/jevq`](https://github.com/yodablocks/jevq)**
+     (Python MIT; **0★** live REST; 0 forks;
+     created 2026-09-20T03:38:39Z; pushed
+     2026-09-20T03:41:35Z; updated
+     2026-09-20T03:46:26Z; HEAD `40b2dd90`;
+     README SHA `3198dde0`; LICENSE SHA
+     `a0843a75`; GitHub `size` **0** this pass —
+     contents present; topics include `jev`,
+     `linter`, `static-analysis`). GitHub
+     description *theirs*: "Four linters in this
+     ecosystem are powered by Jev. None lints the
+     Jev questions themselves. Nine rules from
+     TypeSafe's own documented failure modes, no
+     API key, no labelled data, 0.03s." README
+     *theirs*: reads a Jev question the way the
+     model's documented failure modes would. Exit
+     0 clean / 1 warn / 2 run-failed. Do **not**
+     dump `rules.py`. Do not copy install.
+
+     Rules *theirs* (each anchored to TypeSafe
+     jaggedness): `compound-condition` /
+     `asks-to-count` / `asks-for-arithmetic` /
+     `compares-dates` / `asks-to-generate` /
+     `noul-double-negative` /
+     `choice-without-no-match` /
+     `choice-too-many-options` / `score-levels`.
+     Motivating bug: commitjev
+     `unexplained_removal` joined a second
+     condition with "without"; scored 0.75 on
+     real deletions and **0.81 on commits that
+     deleted nothing** *theirs* — below chance.
+     One regex would have caught it. After the
+     split that finding is gone; two remaining
+     warns are fair.
+
+     Limit *theirs*: it cannot tell you whether a
+     question **separates**. Static lint ≠
+     measured separation. Two rules are judgment
+     calls on purpose (`without` / "more than
+     one") and report at `warn`. It reads the
+     question, never the state. `--from` executes
+     the project's module in a **subprocess** so
+     a shared `rules.py` name cannot silently
+     lint the wrong file.
+
+     Sibling order *theirs*: jev-orderby-bench
+     measures the model; commitjev builds on it;
+     jevq catches visible question mistakes. All
+     three are the same owner — none is
+     independent corroboration of the others.
+
+     question-linting of Jev questions themselves.
+     nine jaggedness rules, no API key, no labelled
+     data.
+     static lint ≠ measured separation.
+
+     **Placement.** Pillar: question design +
+     anti-soundness-theater. Hole: catch
+     documented jaggedness in the *question text*
+     before a labelled run. Family: static
+     checker, not a System One model. Fail
+     polarity: **warn**, never a merge seal.
+     Eval path: offline `test_rules.py`; **not
+     Harbor**. **Empirical** as README + the
+     commitjev receipt. **Hypothesis** that
+     *your* questions look the same.
+
+     **Name lock:** always write
+     **yodablocks/jevq**.
+     yodablocks/jevq ≠ tenbin (request-shape /
+     missing `other`) ≠ huntedman/JevLint ≠
+     mizchi/jev-lint (jevlint rename; powered
+     *by* Jev) ≠ commitjev (sibling, measured
+     rules). Soft Noul ≠ hard safety: 0.03s /
+     0.75 vs 0.81 / 3 findings are **sensors**.
+     Treating a clean jevq run as "the questions
+     work" is theater. Do not copy keys.
+
+2. **Open-weights Laya as class exemplar (binding)**
+
+   - **[`ChristianAlexander/laya_ex`](https://github.com/ChristianAlexander/laya_ex)**
+     (Elixir Apache-2.0; **0★** live REST; 0 forks;
+     created 2026-09-20T03:28:34Z; pushed
+     2026-09-20T03:42:32Z; updated
+     2026-09-20T03:46:48Z; HEAD `99f9ce73`;
+     README SHA `6361c920`; LICENSE SHA
+     `261eeb9e`; NOTICE SHA `d0b8b5bc`; GitHub
+     `size` **0** this pass — contents present;
+     mix app `:laya` **0.1.0**; elixir `~> 1.17`).
+     GitHub description *theirs*: "An Elixir
+     library wrapping ConvAI Innovations' OSS
+     Laya system one model". README *theirs*:
+     "Native Nx/Bumblebee runtime" for Laya;
+     downloads
+     [convaiinnovations/laya](https://huggingface.co/convaiinnovations/laya)
+     on first load. `choice.criteria` is an
+     ordered list of `{label, description}`
+     tuples. The package **does not select an Nx
+     backend** — configure `EMLX.Backend` or
+     `EXLA.Backend` in the host. Mix description
+     *theirs*: "Native Nx/Bumblebee runtime for
+     the Laya decision model." Do **not** dump
+     `lib/`. Do not copy `mix`.
+
+     open-weights Laya as class exemplar
+     (binding).
+     Nx/Bumblebee runtime.
+     host chooses backend.
+
+     **Placement.** Pillar: class / family then
+     vendor. Hole: run the *open* Choice/Score/Noul
+     head inside an Elixir app. Family: open
+     System-1 head (Laya), not TypeSafe Jev.
+     Fail polarity: local inference is a SENSOR;
+     host owns backend, schema, and acts. Eval
+     path: `bench/laya_bench.exs` *theirs*; **not
+     Harbor**. **Empirical** as README + mix.exs.
+     **Hypothesis** on *your* Nx backend.
+
+     **Name lock:** always write
+     **ChristianAlexander/laya_ex**.
+     ChristianAlexander/laya_ex ≠
+     nshkrdotcom/system_one_sdk (provider-neutral
+     Elixir *client* for hosted Noul/Choice/Score;
+     §101) ≠ dannote/jev (OTP peer to TypeSafe) ≠
+     NandhaKishorM/laya (PyPI/Router packaging) ≠
+     mizorewww/laya-coreml ≠ laya-jolt. Soft Noul
+     ≠ hard safety: 0.1.0 / first-load download
+     are **sensors**. Treating the wrapper as
+     TypeSafe official is theater.
+
+3. **On-chain/edge Laya deploy**
+
+   - **[`humandebri/IC-Laya`](https://github.com/humandebri/IC-Laya)**
+     (Rust MIT; **0★** live REST; 0 forks;
+     created 2026-09-20T02:55:01Z; pushed
+     2026-09-20T02:55:07Z; updated
+     2026-09-20T02:55:11Z; HEAD `055ef42f`;
+     README SHA `85431606`; LICENSE SHA
+     `5ea60a55`; GitHub `size` **0** this pass —
+     contents present). GitHub description
+     *theirs*: "IC-Laya: an Internet Computer
+     (Rust) implementation proposal for
+     Laya/ModernBERT inference, with verified
+     runtime, canisters, and design docs". README
+     v0.2 *theirs*: Choice・Noul・Score / English /
+     ICP canister / typed judgment / constrained
+     mock Tx. `cargo test --workspace` **62 PASS**;
+     Candle Wasm **4.8 MiB**; Python reference
+     **45 PASS**; `tools/verify.py --rust
+     --require-rust` 8/8 PASS *theirs*. **Real
+     Laya checkpoint parity, ICP
+     instructions/heap, live ledger transfers
+     unverified.** `fixtures/` are random weights
+     and do not prove language understanding.
+     Build success is not performance or quality.
+     Do **not** dump canisters. Do not copy `dfx`
+     as a recipe.
+
+     Safety *theirs*: **real-asset transfer is
+     disabled.** `LimitedLive` still returns
+     `LiveDisabled`. Outcalls only hit a dedicated
+     mock-ledger identity API. `AuthorizedTransfer`
+     does not appear in generated Candid.
+     `top1` / `margin` are distribution features,
+     not P(correct). Model output never grants Tx
+     authority. `expected_stamp` is made by the
+     caller, not copied from the receipt.
+
+     Honesty lock from HEAD commit *theirs*:
+     reading convaiinnovations/laya-typed-decisions
+     @ `f9ab0b22` showed almost every assumed
+     canonical tensor name was wrong; fixture MASK
+     id **50283** is upstream **[PAD]** (real MASK
+     **50284**). `parity_verified stays false`.
+     `act_head.*` and per-primitive temperatures
+     have no canonical slot — recorded as open,
+     not silently dropped. F32 pack 1.57 GiB.
+
+     on-chain/edge Laya deploy.
+     parity_verified stays false.
+     model output never grants Tx.
+
+     **Placement.** Pillar: Leveson (sensor ≠
+     constraint) + formal methods compose with
+     scoring. Hole: put a Laya-class head next to
+     a bounded canister workflow without letting
+     logits authorize money. Family: open
+     System-1 head on an edge/on-chain runtime,
+     not a new species. Fail polarity:
+     **fail-closed** on live transfer;
+     inference is a SENSOR. Eval path: 62 cargo
+     tests + 45 Python *theirs*; **not Harbor**;
+     **not** ICP cycle proof. **Empirical** as
+     README + IMPLEMENTATION_STATUS + HEAD
+     commit. **Hypothesis** that real Laya
+     parity will fit ICP instruction/heap
+     budgets — README says that guarantee does
+     not exist.
+
+     **Name lock:** always write
+     **humandebri/IC-Laya**.
+     humandebri/IC-Laya ≠ laya_ex ≠
+     NandhaKishorM/laya ≠ grande ≠ laya-jolt.
+     Soft Noul ≠ hard safety: 62 tests / 4.8 MiB
+     / 8/8 verify are **sensors**. Treating Wasm
+     build as quality, or a Score tail as a
+     payment grant, is theater.
+
+4. **Auditable weekend replica**
+
+   - **[`agilabs-ai/jev48`](https://github.com/agilabs-ai/jev48)**
+     (Python MIT; **0★** live REST; 0 forks;
+     created 2026-09-20T00:30:41Z; pushed
+     2026-09-20T03:49:26Z; updated
+     2026-09-20T03:49:29Z; HEAD `aa697005`;
+     README SHA `3f667dd4`; LICENSE SHA
+     `c6fda1e9`; GitHub `size` **1439**). GitHub
+     description *theirs*: "Auditable weekend
+     reproduction of a typed probabilistic
+     decision model". Independent, not affiliated
+     with TypeSafe. Challenge *theirs*: given 48
+     hours and everything public, how much of Jev
+     can an AI agent reproduce — **not** rebuild
+     from scratch. Starting point pinned:
+     Mapika/decider @ `b08acf78` /
+     Mapika/decider-2b revision `4a0e8678`.
+     Integrity *theirs*: Jev outputs are **never**
+     used for training; candidate selection reads
+     **dev only**; locked test/OOD after
+     selection; public base wins if no fine-tune
+     passes the gate. Novelty claim is the
+     48-hour experiment + frozen open-model eval
+     + empirical human-vote probability
+     supervision, not invention of the class.
+     Do **not** dump `modal_*.py`. Do not copy
+     secrets.
+
+     Public scorecard *theirs*
+     (`RESULTS_PUBLIC.md` / README):
+     LocalLLaMA/typed-decisions unpaired
+     **0.577** vs published Jev **0.727** (400
+     cases / 2,000 decisions; gold is mean of
+     three samples from a ~4B teacher — teacher
+     agreement, not real-world correctness).
+     PhishNChips v5.2: AUROC **0.769** vs 0.689
+     but 0.5-threshold acc **50.1%** vs **62.6%**
+     (unpaired). JevBench v1.2.2 public:
+     **69.7%** vs **86.6%** (231 tasks, paired
+     public outcomes). BTZSC pilot: **83.3%** vs
+     75.3% (one full-suite accuracy win).
+     Determinest: 81.9% vs 99.0%. CLASH:
+     **0.0%** vs 98.6% — real failure; mass on
+     one source-grounded answer instead of the
+     contradiction option. Direct same-row Jev
+     comparison **unrun** (no private Jev
+     access). Median 250.5 ms/case on Modal
+     L40S vs published Jev p50 710 ms — hardware
+     differs, not a controlled latency claim.
+
+     auditable weekend replica.
+     Jev outputs never used for training.
+     soft human-vote distributions.
+     unpaired 0.577 vs 0.727.
+
+     **Placement.** Pillar: replica honesty +
+     Harbor-jevals practice. Hole: measure an
+     open weekend student without laundering
+     teacher labels or unpaired tables as
+     identity. Family: open decision-only
+     (decider-2b derivative), SemIf-adjacent,
+     not TypeSafe. Fail polarity: **report**,
+     not gate. Eval path: frozen receipts
+     *theirs*; **not Harbor**; **not JevBench
+     as a win**. **Empirical** as README +
+     RESULTS_PUBLIC. **Hypothesis** that paired
+     live Jev on the same rows would keep the
+     sign.
+
+     **Name lock:** always write
+     **agilabs-ai/jev48**.
+     agilabs-ai/jev48 ≠ JevBench ≠ DMB ≠
+     Mapika/decider (starting point) ≠ SemIf ≠
+     kev ≠ NanoJev. Soft Noul ≠ hard safety:
+     0.577 / 0.769 AUROC / 83.3% / 0.0% CLASH
+     are **sensors**. Pasting "Jev48 beats Jev
+     on phishing" from AUROC while acc is worse,
+     or treating teacher-agreement gold as
+     truth, is theater.
+
+5. **Adversarial dual-judge / framing attack
+   surface**
+
+   - **[`copyleftdev/ember`](https://github.com/copyleftdev/ember)**
+     (TypeScript MIT; **0★** live REST; 0 forks;
+     created 2026-09-20T02:49:11Z; pushed
+     2026-09-20T03:41:07Z; updated
+     2026-09-20T03:41:10Z; HEAD `c02f622b`;
+     README SHA `6db00b56`; LICENSE SHA
+     `fbf4d76c`; GitHub `size` **479**). GitHub
+     description *theirs*: "Two Jev agents fight
+     over a cold-chain pharmacy grid. The
+     attacker's whole advantage turned out to be
+     how the question was framed." README
+     *theirs*: Red hides implants; Blue reads
+     lagging symptoms; neither sees the whole
+     board; spectator sees beliefs + blinds.
+     Node classes (VLT/RLY/LDG/LIN/CUR) are
+     mechanical. A down ledger blinds Blue
+     (alerts dropped 45%; phantoms fire) and
+     **Blue is never told**. Genome is doctrine,
+     not an opaque vector. Do **not** dump
+     `src/kernel`. Do not copy `npm` / keys.
+
+     Phase 1 *theirs*: live Jev on blue;
+     first-look implant vs clean **+0.199**
+     (positive 22/22 runs). Giving Jev the
+     node's class did **not** help (paired
+     +0.033, t=0.97, CI spans zero). Round 2:
+     injecting the real per-class prior made
+     discrimination **worse** (+0.120 vs
+     +0.222, t(10)=−4.13); correlation with
+     the prior **+0.815** vs −0.494 control —
+     Jev restates the base rate rather than
+     updating. Prior injection off by default.
+
+     Phase 2 *theirs*: the first "Jev adds
+     nothing" result (−4,332 doses) was a
+     **prompt** measurement. Absolute "should
+     red plant on node X next" with 8
+     candidates lands near 1/8; **0 of 2,816**
+     judgments crossed 0.5. Four framings on
+     one frozen state: v4 "better target than a
+     TYPICAL node" spread **0.440** shipped.
+     Instructing "on its own merits" made it
+     *worse* (0.120 → 0.040). Comparative
+     framing is not a bias to remove; it is
+     the thing that makes the judgment usable.
+     v4 vs scripted red, 24 paired seeds:
+     **+26,744** doses, t(23)=4.10, 19/24
+     seeds, p=0.007 *theirs*. 64 calls/match,
+     p50 153 ms.
+
+     Scaling *theirs* (HEAD): doubling/tripling
+     the mesh, red **collapsed** (11/40 → 4/40
+     → 0/40) even as sensor coverage fell
+     5.8% → 1.9%. Hypothesis that bigger grids
+     favour the attacker was **wrong**. Root
+     cause: red takes a strict global argmax
+     whose class term always outranks noise, so
+     a bigger grid concentrates plants onto
+     loud vaults. JevRed pre-filters to
+     `maxCandidates = 8` regardless of size —
+     Phase 2's +26,744 is 120 nodes only.
+
+     adversarial dual-judge / framing attack
+     surface.
+     comparative framing is the usable judgment.
+     prior injection crowds out evidence.
+
+     **Placement.** Pillar: question design +
+     SDT + search/control. Hole: two judges,
+     incomplete evidence, and a frame that
+     either separates or collapses. Family:
+     TypeSafe Jev as SENSOR inside a
+     deterministic kernel. Fail polarity:
+     **simulation**, not a pharmacy controller.
+     Eval path: paired seeds + ablations
+     *theirs*; **not Harbor**. **Empirical** as
+     README + PHASE1 + SCALING. **Hypothesis**
+     that the v4 gain survives an adaptive
+     blue (README: untested).
+
+     **Name lock:** always write
+     **copyleftdev/ember**.
+     copyleftdev/ember ≠ ember.js ≠ HA-Jev ≠
+     jev-plays-games. Soft Noul ≠ hard safety:
+     +0.199 / +26,744 / 0 of 2,816 / 11/40→0/40
+     are **sensors**. Treating v4 as a safety
+     proof, or injecting a prior as "help", is
+     theater. Do not copy attacks as how-tos.
+
+6. **Laya specialist fine-tune pipeline**
+
+   - **[`PIXELZX0/XERON`](https://github.com/PIXELZX0/XERON)**
+     (Python; GitHub license **null**; README
+     claims Apache-2.0 for code + base;
+     **0★** live REST; 0 forks; created
+     2026-09-20T01:03:15Z; pushed
+     2026-09-20T02:13:42Z; updated
+     2026-09-20T02:13:46Z; HEAD `5e870a4d`;
+     README SHA `8733e01f`; GitHub `size`
+     **52**). GitHub description *theirs*:
+     "XERON — fine-tuned Laya models
+     (convaiinnovations/laya based decision
+     models)". Base *theirs*:
+     convaiinnovations/laya (ModernBERT-large,
+     421M) + multilingual + typed-decisions.
+     Tracks: EN 6,000 / KR 82,344 / MIX 88,344
+     / BROWSE 28,899 / WEBAGENT 14,724 / ALL
+     117,243 / ALL-v2 **131,967** sequences
+     *theirs*. Status table 2026-09-20
+     *theirs*: actual training **⏳ GPU
+     needed**. Do **not** dump notebooks. Do
+     not copy `HF_TOKEN` / S3 secrets.
+
+     Laya specialist fine-tune pipeline.
+     training still GPU-pending.
+
+     **Placement.** Pillar: class densifies —
+     specialist LoRA/FT on independent (and
+     public) gold, not a Jev teacher-copy.
+     Hole: general-purpose Laya FT covering
+     classify/route/score/risk + browse/agent
+     actions. Family: open System-1 head
+     fine-tune. Fail polarity: **pipeline**,
+     not a shipped checkpoint this pass. Eval
+     path: `scripts/evaluate.py` specified;
+     **not run**. **Empirical** as README
+     pipeline + sequence counts. **Hypothesis**
+     until a held-out ECE exists.
+
+     **Name lock:** always write
+     **PIXELZX0/XERON**.
+     PIXELZX0/XERON ≠ convaiinnovations/laya ≠
+     NandhaKishorM/laya ≠ daliborsb/laya.
+     Soft Noul ≠ hard safety: 131,967 sequences
+     / "hallucination-free" copied from the
+     Laya card are **sensors**. Pasting
+     sequence counts as trained quality, or
+     "never hallucinates" as correctness, is
+     theater.
+
+7. **Hub Laya replica drop**
+
+   - **[`daliborsb/laya`](https://huggingface.co/daliborsb/laya)**
+     (HF model; Apache-2.0; text-classification;
+     AutoModel **421.3M**; updated 19 Sep 2026).
+     Card body this pass is the ConvAI/Laya
+     family README (three checkpoints, Router,
+     vs-Jev table, Khmer 0.000@0.952). Hub
+     layout matches upstream: `encoder` /
+     `multilingual` / `typed-decisions` /
+     `tokenizer` / `eval` / `model.safetensors`
+     **842.6 MB**. Do **not** re-paste the
+     copied vs-Jev table as a new bake-off.
+     Do not copy `pip install laya` as a
+     daliborsb how-to.
+
+     Hub Laya replica drop.
+     daliborsb/laya ≠ convaiinnovations/laya ≠
+     NandhaKishorM/laya.
+
+     **Placement.** Pillar: replica honesty /
+     packaging. Hole: another Hub face of the
+     open Laya *class*, not a new species.
+     Family: open System-1 head. Fail polarity:
+     **qualify the face**. Eval path: none new
+     this pass. **Empirical** as Hub listing +
+     file layout. **Hypothesis** that weights
+     equal upstream byte-for-byte — not
+     checked here.
+
+     **Name lock:** always write
+     **daliborsb/laya**. Copied 0.766 / 32.8 ms
+     / post-T ECE 0.081 remain **NandhaKishorM /
+     convaiinnovations** receipts (§76), not a
+     2145 measurement. Soft Noul ≠ hard safety.
+
+8. **System One student distillation corpus**
+
+   - **[`MagaBitmex/jev-4b-distill-data`](https://huggingface.co/datasets/MagaBitmex/jev-4b-distill-data)**
+     (HF dataset; Apache-2.0; 1K<n<10K;
+     created 19 Sep 2026; likes **0**;
+     downloads **0** this pass). Card *theirs*:
+     "Jev-4B decision data — synthetic,
+     state-grounded decisions" behind
+     MagaBitmex/jev-4b-distill. Hub **model**
+     `MagaBitmex/jev-4b-distill` **not found**
+     this pass. Files *theirs*: `data3/train`
+     1,500 states / 7,500 questions; eval 100 /
+     500; `data_hard/eval` 120 / 600
+     (distractors, prompt injection, second
+     conflicting issue, 1.5k-word filler) plus
+     `*_teacher` siblings. Gold is written by
+     the **generator**, not a model. Teacher
+     files add TypeSafe label + distribution,
+     `model`, `usage`, `latency_s`. Disjoint
+     wording pools; choice options
+     order-shuffled. Labeling cost ≈ **$0.03
+     per 1,000 states** *theirs*. Viewer
+     parquet this pass: data3 train 1.5K +
+     val 100 + data_hard val 120.
+
+     Limitations *theirs*: fully synthetic;
+     teacher is a **behavioral clone** of a
+     closed model via public API, **not
+     affiliated with TypeSafe**; gold vs
+     teacher disagreements retained; not a
+     benchmark of real support quality.
+
+     System One student distillation corpus.
+     gold is programmatic.
+     teacher is closed-API clone.
+     do not distill Jev as teacher of record.
+     MagaBitmex/jev-4b-distill-data ≠ missing
+     student checkpoint.
+
+     **Placement.** Pillar: distillation
+     economics + standing rejection "do not
+     distill Jev as teacher of record"
+     (`toolbox-mapping.md`). Hole: cheap
+     student training data whose *gold* is
+     programmatic and whose *teacher* is a
+     closed-API clone — two different labels
+     on one row. Family: LoRA/student corpus,
+     not a species. Fail polarity: **corpus**,
+     not a production router. Eval path:
+     100-row clean + 120-row hard *theirs*;
+     **not Harbor**. **Empirical** as dataset
+     card + structure. **Hypothesis** until
+     the student checkpoint exists and is
+     scored against gold **and** teacher.
+
+     Contrast jev48 this hour: Jev outputs
+     never used for training. Contrast
+     openjev-lm §25: 98.1% is teacher
+     *agreement*, not gold. Soft Noul ≠ hard
+     safety: 1,500 / $0.03/1k / missing
+     student are **sensors**. Treating
+     teacher KL as identity with Jev is
+     theater. Do not copy labeling keys.
+
+9. **Non-LLM VIN System One**
+
+   - **[`lewislululu/jevon`](https://huggingface.co/lewislululu/jevon)**
+     (HF model; AGPL-3.0; pipeline
+     reinforcement-learning; likes **3**;
+     updated 19 Sep 2026). Card *theirs*:
+     20,105,047-parameter decision model that
+     answers typed questions about a grid with
+     calibrated probabilities and **no token
+     decoding**. From-scratch reimplementation
+     of the NanoJev *idea*, rebuilt around
+     **planning depth** (the original's Maze
+     failure). Keeps Choice / Boolean / Score;
+     replaces the backbone with a
+     value-iteration network. Training: 9,000
+     steps on one Apple M4 Max, from scratch.
+     Weights `balanced.pt` ~80 MB fp32 via
+     LFS. Tables generated from JSON;
+     `pytest -q` fails if the README drifts.
+     Arcade sibling:
+     [lewislulu/jevon-arcade](https://github.com/lewislulu/jevon-arcade).
+     Do **not** dump weights. Do not copy
+     `from_pretrained` as a serve how-to.
+
+     Held-out *theirs*: `maze/choice` n=141
+     acc **1.0000** vs uniform 0.4882;
+     `snake/choice` n=92 acc **0.9674** vs
+     0.4783. Maze 36 episodes: model solve
+     rate **1.00**, efficiency 1.000, same
+     cells as BFS reference. Snake 6 episodes:
+     mean food **4.50** vs random 0.67 vs
+     oracle 23.50. Distance field on one board
+     matches BFS within **0.0096 cells** after
+     one global scale — card says this is a
+     property of the **recurrence**, so the
+     honest apples-to-apples number is the
+     `model` row, not `model-field`. Intended
+     use *theirs*: **research artefact**, not
+     a general assistant.
+
+     non-LLM VIN System One.
+     planning depth not chat.
+
+     **Placement.** Pillar: search/control +
+     class (decide ≠ generate ≠ AR-logits).
+     Hole: System One whose state is a grid
+     and whose useful work is planning depth,
+     not language. Family: trained
+     decision-only, **non-LLM** backbone
+     (VIN), not constrained-AR, not chat.
+     Fail polarity: **research**; maze 1.00
+     is not a knowledge-work certificate.
+     Eval path: frozen splits in-repo
+     *theirs*; **not Harbor**. **Empirical**
+     as Hub card + generated tables.
+     **Hypothesis** outside maze/snake.
+
+     **Name lock:** always write
+     **lewislululu/jevon**.
+     lewislululu/jevon ≠ douglance/jevon
+     (CLI+MCP; key not in agent config; §55
+     MED) ≠ NanoJev ≠ kev ≠ Qwen3.8-27B-as-
+     Archer. Soft Noul ≠ hard safety: 1.0000
+     / 0.9674 / 0.0096 cells / 20M are
+     **sensors**. Pasting maze-perfect as
+     "Jev-class solved planning", or the
+     architectural field as a training
+     result, is theater.
+
+10. **Source-bound evidence + bounded judgments**
+
+    - **[`WaynezProg/jev-kit`](https://github.com/WaynezProg/jev-kit)**
+      (TypeScript + Python MIT; GitHub language
+      Python; **0★** live REST; 0 forks;
+      created 2026-09-20T03:23:40Z; pushed
+      2026-09-20T03:43:36Z; updated
+      2026-09-20T03:43:39Z; HEAD `4558554f`;
+      README SHA `a7f14838`; LICENSE SHA
+      `19937317`; GitHub `size` **0** this
+      pass — contents present). GitHub
+      description *theirs*: "Source-bound
+      evidence checks and bounded Jev
+      judgments for coding agents via MCP, Pi
+      extension, and shared Skill." Combines
+      batch engine from shitianfang/jev-use,
+      task patterns from jkudish/jev-mcp, and
+      local source/quote validation.
+      Independent, not official TypeSafe /
+      jev-use / jev-mcp. Four tools *theirs*:
+      `jev_evidence` / `jev_classify` /
+      `jev_extract` / `jev_decide` (2–6
+      alternatives). Local quote mismatches
+      and some empty-candidate checks **do
+      not need the API**. "multi" this hour =
+      nine-host lifecycle (Codex/Claude/
+      OpenCode/Muse/Grok/Gemini/Cursor/VS
+      Code/Pi), not extra GitHub repos. Do
+      **not** dump `dist/`. Do not copy
+      `curl | sh` / keys.
+
+      Limits *theirs*: a supporting source
+      does not independently prove the claim
+      true; confidence is not a correctness
+      guarantee; anti-injection framing is
+      **not** a security boundary; no
+      approval gate / command execution /
+      auto-prune / model-setting mutation;
+      CLI exit **0** means processing
+      completed, **3** review required, **2**
+      invalid/failure — exit 0 does **not**
+      certify task completion or claim truth.
+      Does not establish lower token cost,
+      faster development, or a lower required
+      thinking level. Tests cover wiring, not
+      semantic reliability on arbitrary
+      tasks. Cursor/VS Code: config-driven
+      protocol evidence, not editor UI
+      acceptance.
+
+      source-bound evidence checks.
+      local quote mismatch needs no API.
+      exit 0 ≠ claim truth.
+
+      **Placement.** Pillar: Leveson (evidence
+      ≠ authority) + retrieve-then-judge.
+      Hole: bind each claim to its own source;
+      judge only a bounded catalog. Family:
+      TypeSafe Jev as SENSOR; local exact
+      work for quotes/regex. Fail polarity:
+      **review on 3**; never auto-approve.
+      Eval path: offline unittest + live
+      smoke *theirs*; **not Harbor**.
+      **Empirical** as README + SECURITY.md.
+      **Hypothesis** on *your* host.
+
+      **Name lock:** always write
+      **WaynezProg/jev-kit**.
+      WaynezProg/jev-kit ≠ shitianfang/jev-use
+      ≠ jkudish/jev-mcp ≠ quarry ≠ jev-sift ≠
+      actiongate. Soft Noul ≠ hard safety:
+      nine hosts / exit 0 / local quote match
+      are **sensors**. Treating a matching
+      quote as a proof, or install-all-hosts
+      as a quality headline, is theater.
+
+### Theater (do not)
+
+Treat a clean jevq run as measured separation /
+collapse jevq into tenbin or JevLint / fail CI
+on a `warn`; treat laya_ex as system_one_sdk
+or TypeSafe official / copy mix backends as
+recipes; treat 62 IC-Laya tests as Laya
+parity / let a Score tail grant Tx / claim
+ICP heap proof; paste "Jev48 beats Jev on
+phishing" from AUROC / treat 0.577 as
+identity / treat teacher-agreement gold as
+truth; inject class priors as "help" / treat
+v4 +26,744 as a pharmacy controller / copy
+ember attacks; paste XERON sequence counts as
+trained quality / "never hallucinates";
+re-paste daliborsb's copied vs-Jev table as a
+2145 bake-off; distill Jev as teacher of
+record / treat missing MagaBitmex/jev-4b-distill
+as shipped; paste maze 1.00 as a general
+System One / collapse jevon into douglance/jevon
+or Qwen-as-Archer; treat jev-kit exit 0 as
+claim truth / curl|sh as a skill. Invent
+tweets / Archer drop; dump source / keys /
+install recipes.
+
+### Census
+
+Census **not provided this hour** (not
+re-derived). Live REST pulse only: SemIf
+**1995★** (+11 vs §101 **1984**); jevlike
+**1002★** **flat**; TypeAR-AI/TypeAR
+**11★** **flat**. AnotiaWang/awesome-jev
+**86★** (+2 vs §101 **84**) still a
+**different object** from user-provided
+Awesomejev 561/27007 (§99 pin). Archer still
+**NOT landed**. Hub `archerhume/4rcherhume`
+not re-fetched as a rewrite (last pin §101:
+HTTP **401**; tracker likes **54**;
+lastModified `2026-09-20T02:59:13Z`).
+Qwen3.8-27B ≠ Archer. X MCP not used this
+hour; no invented tweets. `invented_signal:
+false`.
+
+### Not
+
+Not a TypeSafe how-to. Not a jevq / laya_ex /
+IC-Laya / jev48 / ember / XERON / jev-kit
+install guide. Not wrappers. Do not copy
+keys / `npm` / `pip` / `npx` / `uv` / `mix`
+/ `curl | sh` / `.env`. Do not re-fold 2041
+/ §101 / 1943 / §100 / 1843 / §99 / 1740 /
+§98 / 1639 / §96 / gliner-native-runtime /
+§97 / 1541 / §95 / jev-align *mechanism* /
+§93. Do not reply into finished agents. Do
+**not** merge from this review — parent
+merges after CLEAN.
+
+### Curated status
+
+2145 HIGH **folded** (10 HIGH / nine
+clusters: jevq question-lint PRIMARY; laya_ex
+open Laya binding; IC-Laya on-chain/edge
+deploy; jev48 auditable weekend replica;
+ember adversarial dual-judge / framing; XERON
+Laya specialist FT; daliborsb/laya Hub
+replica drop; jev-4b-distill-data student
+corpus; jevon non-LLM VIN; jev-kit
+source-bound evidence). §101 / §100 / §99 /
+§98 / §97 / §96 / §95 / §93 mechanism **not
+re-carded**. Archer still **NOT landed**. 0★
+HIGH still got a real card. `invented_signal:
+false`.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`judgment-class.md`; `validation.md`;
+`applied-mappings.md`; `mappings.md`;
+`toolbox-mapping.md`; `composition-algebra.md`
+items 120–128; `question-design.md`;
+`methods-catalog.md`; `formal-methods.md`;
+`agent-self-assessment.md`. Hunches labeled.
+No wrapper.

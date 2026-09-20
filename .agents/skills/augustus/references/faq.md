@@ -2963,3 +2963,49 @@ No, no, and no. provider-neutral Elixir/BEAM Noul/Choice/Score SDK. class infras
 ## Did Archer land this hour? Treat Qwen3.8-27B as Archer? Invent tweets?
 
 No, no, and no. Hub `archerhume/4rcherhume` HTTP **401**. Tracker likes **54** (+3 vs §100 pin **51**); lastModified **CHANGED** `2026-09-20T02:59:13Z` (was §100 `2026-09-19T18:37:18Z`). Not re-fetched as a rewrite. Live REST pulse: SemIf **1984★** (+30 vs §100 **1954**); jevlike **1002★** (+13 vs §100 **989**); TypeAR-AI/TypeAR **11★** flat. AnotiaWang/awesome-jev **84★** ≠ Awesomejev 561/27007. `invented_signal: false`. `notes.md` §101.
+
+Unique fragments (consecutive): question-linting of Jev questions themselves; nine jaggedness rules, no API key, no labelled data; static lint ≠ measured separation; yodablocks/jevq ≠ tenbin ≠ JevLint ≠ commitjev; open-weights Laya as class exemplar (binding); Nx/Bumblebee runtime; host chooses backend; ChristianAlexander/laya_ex ≠ system_one_sdk ≠ dannote/jev ≠ NandhaKishorM/laya; on-chain/edge Laya deploy; parity_verified stays false; model output never grants Tx; humandebri/IC-Laya ≠ laya_ex; auditable weekend replica; Jev outputs never used for training; soft human-vote distributions; unpaired 0.577 vs 0.727; agilabs-ai/jev48 ≠ JevBench ≠ Mapika/decider; adversarial dual-judge / framing attack surface; comparative framing is the usable judgment; prior injection crowds out evidence; copyleftdev/ember ≠ ember.js; Laya specialist fine-tune pipeline; training still GPU-pending; PIXELZX0/XERON ≠ convaiinnovations/laya; Hub Laya replica drop; daliborsb/laya ≠ convaiinnovations/laya ≠ NandhaKishorM/laya; System One student distillation corpus; gold is programmatic; teacher is closed-API clone; do not distill Jev as teacher of record; MagaBitmex/jev-4b-distill-data ≠ missing student checkpoint; non-LLM VIN System One; planning depth not chat; lewislululu/jevon ≠ douglance/jevon; source-bound evidence checks; local quote mismatch needs no API; exit 0 ≠ claim truth; WaynezProg/jev-kit ≠ jev-use ≠ jev-mcp
+
+## Is jevq tenbin or JevLint? Treat a clean run as measured separation? Fail CI on a warn?
+
+No, no, and no. question-linting of Jev questions themselves. nine jaggedness rules, no API key, no labelled data. static lint ≠ measured separation. Motivating receipt: commitjev "without" scored 0.75 on real deletions and **0.81 on commits that deleted nothing** *theirs*. Exit 0 clean / 1 warn / 2 run-failed. Python MIT; **0★**; HEAD `40b2dd90`; README SHA `3198dde0`; GitHub size **0** with contents. yodablocks/jevq ≠ tenbin ≠ huntedman/JevLint ≠ commitjev. Soft Noul ≠ hard safety. `notes.md` §102.
+
+## Is laya_ex system_one_sdk? Is it TypeSafe official? Copy mix backends as recipes?
+
+No, no, and no. open-weights Laya as class exemplar (binding). Nx/Bumblebee runtime. host chooses backend. Downloads convaiinnovations/laya. mix `:laya` **0.1.0**; elixir `~> 1.17`. Elixir Apache-2.0; **0★**; HEAD `99f9ce73`; README SHA `6361c920`; GitHub size **0** with contents. ChristianAlexander/laya_ex ≠ system_one_sdk ≠ dannote/jev ≠ NandhaKishorM/laya. `notes.md` §102.
+
+## Do 62 IC-Laya tests prove Laya parity? Can a Score grant Tx? Is parity_verified true?
+
+No, no, and no. on-chain/edge Laya deploy. parity_verified stays false. model output never grants Tx. `cargo test --workspace` **62 PASS**; Candle Wasm **4.8 MiB**; Python **45 PASS**; `LiveDisabled`. Fixture MASK 50283 is upstream PAD; real MASK 50284 *theirs*. Rust MIT; **0★**; HEAD `055ef42f`; README SHA `85431606`; GitHub size **0** with contents. humandebri/IC-Laya ≠ laya_ex. Soft Noul ≠ hard safety. `notes.md` §102.
+
+## Did jev48 beat Jev on phishing? Is unpaired 0.577 identity? Were Jev outputs used for training?
+
+No, no, and no. auditable weekend replica. Jev outputs never used for training. unpaired 0.577 vs 0.727 (teacher-agreement gold, not real-world correctness). Phish AUROC **0.769** vs 0.689 but 0.5-threshold acc **50.1%** vs **62.6%** *theirs*. JevBench 69.7 vs 86.6; CLASH **0.0** vs 98.6. Python MIT; **0★**; HEAD `aa697005`; README SHA `3f667dd4`; size **1439**. agilabs-ai/jev48 ≠ JevBench ≠ Mapika/decider. `notes.md` §102.
+
+## Is ember ember.js? Is v4 a pharmacy controller? Should we inject class priors as help?
+
+No, no, and no. adversarial dual-judge / framing attack surface. comparative framing is the usable judgment. prior injection crowds out evidence (paired worse; correlation with the prior **+0.815**). first-look **+0.199**; **0 of 2,816** crossed 0.5 on v1; v4 **+26,744** doses *theirs* on 120 nodes. Scaling red 11/40→0/40. TypeScript MIT; **0★**; HEAD `c02f622b`; README SHA `6db00b56`; size **479**. copyleftdev/ember ≠ ember.js. Do not copy attacks. `notes.md` §102.
+
+## Are XERON sequence counts trained quality? Did training finish? Never hallucinates?
+
+No, no, and no. Laya specialist fine-tune pipeline. training still GPU-pending. ALL-v2 **131,967** sequences *theirs*. Python; license **null** (README Apache-2.0); **0★**; HEAD `5e870a4d`; README SHA `8733e01f`; size **52**. PIXELZX0/XERON ≠ convaiinnovations/laya. `notes.md` §102.
+
+## Is daliborsb/laya a new species? Re-paste the copied vs-Jev table as a 2145 bake-off?
+
+No and no. Hub Laya replica drop. layout matches convaiinnovations/laya (encoder/multilingual/typed-decisions; 842.6MB safetensors). Copied 0.766 / post-T ECE 0.081 remain §76 receipts. HF Apache-2.0; 421.3M. daliborsb/laya ≠ convaiinnovations/laya ≠ NandhaKishorM/laya. `notes.md` §102.
+
+## Distill Jev as teacher of record? Is MagaBitmex/jev-4b-distill shipped? Is gold a teacher label?
+
+No, no, and no. System One student distillation corpus. gold is programmatic. teacher is closed-API clone. Hub model MagaBitmex/jev-4b-distill **not found** this pass. 1.5k train / 100 eval / 120 hard; ~$0.03/1k *theirs*. MagaBitmex/jev-4b-distill-data ≠ missing student checkpoint. Contrast jev48: Jev outputs never used for training. `notes.md` §102.
+
+## Is jevon douglance/jevon? Is maze 1.00 a general System One? Is Qwen3.8-27B Archer here?
+
+No, no, and no. non-LLM VIN System One. planning depth not chat. 20,105,047 params; maze/choice **1.0000** n=141; snake **0.9674** n=92 *theirs*; research artefact. HF AGPL; likes **3**. lewislululu/jevon ≠ douglance/jevon ≠ NanoJev. Qwen3.8-27B ≠ Archer. `notes.md` §102.
+
+## Is jev-kit exit 0 claim truth? Is "multi" extra repos? Copy curl|sh as a skill?
+
+No, no, and no. source-bound evidence checks. local quote mismatch needs no API. exit 0 ≠ claim truth (3 review / 2 invalid). "multi" = nine-host installer, not extra GitHub repos. TypeScript + Python MIT; **0★**; HEAD `4558554f`; README SHA `a7f14838`; GitHub size **0** with contents. WaynezProg/jev-kit ≠ jev-use ≠ jev-mcp. `notes.md` §102.
+
+## Did Archer land this hour? Treat Qwen3.8-27B as Archer? Invent tweets?
+
+No, no, and no. Hub `archerhume/4rcherhume` HTTP **401** (last pin §101; not re-fetched as a rewrite). Tracker likes **54**; lastModified `2026-09-20T02:59:13Z`. Live REST pulse: SemIf **1995★** (+11 vs §101 **1984**); jevlike **1002★** **flat**; TypeAR-AI/TypeAR **11★** **flat**. AnotiaWang/awesome-jev **86★** (+2 vs §101 **84**) ≠ Awesomejev 561/27007. `invented_signal: false`. `notes.md` §102.

@@ -1596,6 +1596,78 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   Hub `archerhume/4rcherhume` HTTP **401**. Archer still NOT
   landed. Do not copy keys / `uv` / `cargo` / `.env`. No
   wrapper. No invented metrics.
+- Hourly 2145 HIGH (`research/notes.md` §102): **Skip
+  Archer rewrite.** Docs-only on a **fresh PR off main**.
+  Never reopen merged #7–**#19**. Do **not** re-fold 2041
+  / §101 / 1943 / §100 / 1843 / §99 / 1740 / §98 / 1639
+  / §96 / gliner-native-runtime / §97 / 1541 / §95 /
+  jev-align *mechanism* / §93. How-to-apply / mental
+  models / architecture / Harbor-jevals / toolbelt — not
+  a thin Jev skill dump. Backend-agnostic
+  categorization/scoring/decision class. Formal methods
+  compose with scoring; a Noul is a SENSOR; treating a
+  clean jevq run as measured separation, treating 62
+  IC-Laya tests as Laya parity, letting a Score grant Tx,
+  pasting “Jev48 beats Jev on phishing” from AUROC,
+  injecting class priors as “help”, treating v4 as a
+  pharmacy controller, distilling Jev as teacher of
+  record, pasting maze 1.00 as a general System One, or
+  treating jev-kit exit 0 as claim truth is soundness
+  theater. Nine HIGH clusters: **question-linting of Jev
+  questions themselves**
+  ([yodablocks/jevq](https://github.com/yodablocks/jevq)
+  PRIMARY; nine jaggedness rules, no API key, no labelled
+  data; static lint ≠ measured separation;
+  yodablocks/jevq ≠ tenbin ≠ JevLint ≠ commitjev; Python
+  MIT; **0★**; HEAD `40b2dd90`; README SHA `3198dde0`);
+  **open-weights Laya as class exemplar (binding)**
+  ([ChristianAlexander/laya_ex](https://github.com/ChristianAlexander/laya_ex)
+  Nx/Bumblebee runtime; host chooses backend; Elixir
+  Apache-2.0; **0★**; HEAD `99f9ce73`; README SHA
+  `6361c920`; mix **0.1.0**);
+  **on-chain/edge Laya deploy**
+  ([humandebri/IC-Laya](https://github.com/humandebri/IC-Laya)
+  parity_verified stays false; model output never grants
+  Tx; Rust MIT; **0★**; HEAD `055ef42f`; README SHA
+  `85431606`); **auditable weekend replica**
+  ([agilabs-ai/jev48](https://github.com/agilabs-ai/jev48)
+  Jev outputs never used for training; unpaired 0.577 vs
+  0.727; Python MIT; **0★**; HEAD `aa697005`; README SHA
+  `3f667dd4`); **adversarial dual-judge / framing**
+  ([copyleftdev/ember](https://github.com/copyleftdev/ember)
+  comparative framing is the usable judgment; prior
+  injection crowds out evidence; TypeScript MIT; **0★**;
+  HEAD `c02f622b`; README SHA `6db00b56`); **Laya
+  specialist + Hub replica**
+  ([PIXELZX0/XERON](https://github.com/PIXELZX0/XERON)
+  training still GPU-pending; license null; **0★**; HEAD
+  `5e870a4d`) +
+  ([daliborsb/laya](https://huggingface.co/daliborsb/laya)
+  Hub Laya replica drop; ≠ convaiinnovations/laya);
+  **distillation economics**
+  ([MagaBitmex/jev-4b-distill-data](https://huggingface.co/datasets/MagaBitmex/jev-4b-distill-data)
+  gold is programmatic; teacher is closed-API clone; do
+  not distill Jev as teacher of record; student checkpoint
+  missing); **non-LLM VIN System One**
+  ([lewislululu/jevon](https://huggingface.co/lewislululu/jevon)
+  planning depth not chat; maze 1.0000 n=141 *theirs*;
+  AGPL; likes **3**; ≠ douglance/jevon); **source-bound
+  evidence**
+  ([WaynezProg/jev-kit](https://github.com/WaynezProg/jev-kit)
+  local quote mismatch needs no API; exit 0 ≠ claim
+  truth; MIT; **0★**; HEAD `4558554f`; README SHA
+  `a7f14838`). Soft Noul ≠ hard safety. 0★ HIGH still
+  got a real card. Census **live REST pulse**: SemIf
+  **1995★** (+11 vs §101 **1984**); jevlike **1002★**
+  **flat**; TypeAR **11★** **flat**. Tracker likes **54**;
+  lastModified `2026-09-20T02:59:13Z`; Hub
+  `archerhume/4rcherhume` HTTP **401** (not re-fetched as
+  a rewrite). Archer still NOT landed. Awesomejev
+  561/27007 user-provided (≠ AnotiaWang/awesome-jev
+  **86★**). Qwen3.8-27B ≠ Archer.
+  `invented_signal: false`. Do not copy keys / `npm` /
+  `pip` / `npx` / `uv` / `mix` / `curl | sh`. No wrapper.
+  No invented metrics.
 - Hourly 2041 HIGH (`research/notes.md` §101): **Skip
   Archer rewrite.** Docs-only on a **fresh PR off main**.
   Never reopen merged #7–**#18**. Do **not** re-fold 1943

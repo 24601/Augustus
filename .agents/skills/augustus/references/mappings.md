@@ -1452,6 +1452,25 @@ does not track ignorance; rh-guard owns injection);
 provider-neutral Elixir/BEAM Noul/Choice/Score SDK
 (class infrastructure). Soft Noul ≠ hard safety.
 `notes.md` §101.
+**2145 HIGH (`notes.md` §102):** question-linting of Jev
+questions themselves (yodablocks/jevq ≠ tenbin ≠ JevLint;
+static lint ≠ measured separation); open-weights Laya as
+class exemplar (binding; Nx/Bumblebee; host chooses backend;
+ChristianAlexander/laya_ex ≠ system_one_sdk ≠ dannote/jev);
+on-chain/edge Laya deploy (parity_verified stays false;
+model output never grants Tx); auditable weekend replica
+(Jev outputs never used for training; unpaired 0.577 vs
+0.727); adversarial dual-judge / framing attack surface
+(comparative framing is the usable judgment; prior
+injection crowds out evidence; copyleftdev/ember ≠ ember.js);
+Laya specialist + Hub replica (training still GPU-pending;
+daliborsb/laya ≠ convaiinnovations/laya); distillation
+economics (gold is programmatic; teacher is closed-API clone;
+do not distill Jev as teacher of record); non-LLM VIN
+System One (planning depth not chat; lewislululu/jevon ≠
+douglance/jevon); source-bound evidence (local quote
+mismatch needs no API; exit 0 ≠ claim truth). Soft Noul
+≠ hard safety. `notes.md` §102.
 **Authorship / jevtest-as-merge-seal (rh-guard owns the
 gate cousin; 2026-09-19 ~16:52):**
 [jev-authorship-check](https://github.com/webstercharly/jev-authorship-check)

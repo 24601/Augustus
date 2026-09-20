@@ -351,6 +351,12 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   pass|review|block; Fabric receipt ≠ authorization;
   jev-evaluation confidence does not track ignorance —
   do not hard-gate ≥0.95 (`notes.md` §101).
+  **2145:** jevq warn never a merge seal; static lint ≠
+  measured separation; IC-Laya model output never grants
+  Tx; parity_verified stays false; jev-kit exit 0 ≠ claim
+  truth; ember prior injection crowds out evidence;
+  comparative framing is the usable judgment
+  (`notes.md` §102).
   **Lease / retrieve:**
   [invalidate](https://github.com/chopratejas/invalidate) —
   memory leases ended by new evidence; unsure → review
