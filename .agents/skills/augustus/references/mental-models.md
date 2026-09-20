@@ -2712,6 +2712,54 @@ Soft Noul ≠ hard safety: 0.504 / 0.479 / likes 421 / 189
 are **sensors / engagement**. Treating a ZS softmax as a
 Noul or a bakeoff against GPT-5.6 as same-class is theater.
 
+
+## Apply 0843 (`notes.md` §114)
+
+Same pillars, hourly HIGH measurement / judgment cluster.
+Mathematical / logical / algorithmic mental models for
+Jev-class categorization/scoring across AI / SWE /
+business / knowledge work / life — not SWE-only. Do
+**not** re-fold §112 / §111 / §109 tunahan census as a
+sibling. Fresh PR off main; never reopen merged #7–**#33**.
+do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33.
+Do **not** reopen or amend merged #31. Skip Archer rewrite (still
+**promised_not_landed**). Quote *theirs*. Soft Noul ≠
+hard safety. Formal methods **compose** with scoring; a
+Noul is a SENSOR. Calibration does not compose. Ranking ≠
+calibration. Measurement theater ≠ a Harbor score.
+
+1. **Hysteresis / policy attached** — A hunch is a probability
+   with a policy attached. { enter: 0.8, exit: 0.6 } is hysteresis.
+   replay a policy change without inference. Decision models are
+   providers, not the product. huncho ≠ Kungie/gut ≠ carldaws/hunch ≠
+   tpellet/hunch. Life analogue: do not re-hire / re-page / re-cut
+   every time p flaps around 0.7.
+2. **Instruct-tuning honesty collapse** — pretrained Qwen2.5 base
+   ECE 0.030 (0.5B) / 0.040 (7B); instruct 0.302 / 0.269;
+   70.9% → 70.0% mean conf 74.1% → 96.7%. temperature scaling still
+   matches it in-distribution. No Jev API was called. Qwen2.5 ≠ Archer.
+3. **Binning + cost line** — pd.cut bins by equal width while jeval
+   bins by quantile; ECE 0.113 and ECE 0.076. jeval drift is not
+   implemented yet. Cost-optimal threshold is policy, not a proof.
+4. **Calibration does not compose** — ECE has exactly zero statistical
+   power to detect the failure mode that kills trajectories.
+   Deferred Crispification. TCE / AMS. 25–60× headline withdrawn.
+   P(all-correct): 0.0071 vs 0.0001. Qwen 3.8 sparring ≠ Archer.
+5. **Catalogs / advisory / screening / ranking theater** —
+   g0runmezadam/what-is-jev IS tunahansahin897/what-is-jev
+   (same GitHub id 1378007307). 947 repos scored; A 273 · B 302 · C 372;
+   LLM rubric ≠ benches. Probabilities are advisory, not calibrated
+   guarantees. light_cutoff_applied_to_combination 0. BANKING77
+   Accuracy BERT-Base 93.02 Jev 79.90 — BERT figures are published
+   supervised references, not zero-shot. AND: product (independence
+   assumed and recorded in the trace). circuit-vl-4b ≠ Archer.
+   档位措辞效应 分数极差中位 0.50、最大 1.32. 不是 benchmark.
+
+Soft Noul ≠ hard safety: 0.030 / 0.302 / 0.113 / 0.076 / 0.523 /
+0.8 / 0.6 / 0.49 / 93.02 / 79.90 are **sensors**. Treating hop-ECE
+as a trajectory proof, equal-width as the only ECE, 0.5 cutoff as
+100% sensitivity, or Qwen instruct recovery as Archer is theater.
+
 ## Decision-design extras (any domain)
 
 ```text
@@ -2732,3 +2780,5 @@ spreadsheet, a checklist, a two-person rule. Do not invent an API.
 Related: `mappings.md` §1–§18, `methods-catalog.md`, `toolbox-mapping.md`,
 `composition-algebra.md`, `formal-methods.md`, `formal-semi-formal.md`,
 `faq.md`.
+
+Hourly 0843 uniqueness lock: A hunch is a probability with a policy attached; { enter: 0.8, exit: 0.6 } is hysteresis; replay a policy change without inference; Decision models are providers, not the product; huncho ≠ Kungie/gut ≠ carldaws/hunch ≠ tpellet/hunch; pretrained Qwen2.5 base ECE 0.030 (0.5B) / 0.040 (7B); instruct 0.302 / 0.269; 70.9% → 70.0% mean conf 74.1% → 96.7%; temperature scaling still matches it in-distribution; No Jev API was called; Qwen2.5 ≠ Archer; Qwen/Qwen3.8-27B ≠ Archer; 学習済みモデル v0.1 は準備中です; bool AUROC 0.523; 先頭だと0件、末尾だと250件; 温度を渡さない場合、確率は較正されていません; このリポジトリには Jev を呼ぶコードが存在しません; g0runmezadam/what-is-jev IS tunahansahin897/what-is-jev (same GitHub id 1378007307); 947 repos scored; A 273 · B 302 · C 372; LLM rubric ≠ benches; Data as of 2026-09-20; HEAD 895b9498; README SHA 3ae98c56; 13 focused checks and one mutually exclusive outcome; Probabilities are advisory, not calibrated guarantees; omni-/ask-jev ≠ pedroknigge/mcp_jev; pd.cut bins by equal width while jeval bins by quantile; ECE 0.113 and ECE 0.076; jeval drift is not implemented yet; rlaope/jeval ≠ dayhaysoos/jevals; calibration does not compose; ECE has exactly zero statistical power to detect the failure mode that kills trajectories; 25–60× headline withdrawn; P(all-correct): 0.0071 vs 0.0001; TCE / AMS; Qwen 3.8 sparring ≠ Archer; Deferred Crispification; light_cutoff_applied_to_combination 0; recorded run, kinematic animation; BANKING77 Accuracy BERT-Base 93.02 Jev 79.90; Analyse jev calibration (NLL, ECE) backlog; BERT figures are published supervised references, not zero-shot; 档位措辞效应 分数极差中位 0.50、最大 1.32; 修好后对照组是 0.01; 不是 benchmark; 概率没做 calibration; ~1,430 API calls, about $0.15; xiaohuaxi/jev-study ≠ wjdjdakf17/jev-study ≠ baekenough/jev-study; AND: product (independence assumed and recorded in the trace); chat model's stated confidence is not calibrated; circuit-vl-4b ≠ Archer; Bring your own API key; vamsikrishna2421/jev-usecases ≠ whyashthakker/awesome-jev-use-cases; catalog ≠ endorsement; SemIf 2237★ (+30 vs §111 2207); jevlike 1049★ (+6 vs 1043); TypeLLM/TypeLLM 16★; AnotiaWang 98★; yibie/awesome-jev 520★ (+14 vs 506); Laya likes 861 (was 822); tracker likes 66 (+2 vs 64) lastModified UNCHANGED; Blackwood likes 2 gated manual; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33; notes.md §114

@@ -4773,11 +4773,7 @@
       "note": "sha eda59e0a. MASSIVE English 0.783 / Khmer 0.033 / Hindi 0.133. 40–48 rows too small to ship T. T never changes argmax. notes.md §113."
     },
     {
-      "kind": "github",
-      "title": "TypeLLM/TypeLLM",
-      "url": "https://github.com/TypeLLM/TypeLLM",
-      "note": "TypeAR-AI/TypeAR 301 → TypeLLM/TypeLLM. TypeLLM/TypeLLM 16★. Apache-2.0. notes.md §113 pulse.",
-    "kind": "x",
+      "kind": "x",
       "title": "@mervenoyann parent — Jev vs GPT-5.6 category error / ZS skill issue",
       "url": "https://x.com/mervenoyann/status/2101463303734067592",
       "note": "Created 2026-09-20T00:07:49Z. note_tweet full text. Live X ~2026-09-20T14:28Z: likes 420 / impressions 35498 / RTs 23 / bookmarks 89 / replies 30 / quotes 3. Author @mervenoyann merve 92246 followers. Quotes Maziyar 2101158867455320127. notes.md §112. invented_signal false."
@@ -4816,6 +4812,91 @@
       "kind": "huggingface-docs",
       "title": "Transformers zero-shot image classification",
       "url": "https://huggingface.co/docs/transformers/en/tasks/zero_shot_image_classification",
-      "note": "Merve multimodal image<>text pointer. Perception front-end, not the decision. Do not copy pip. notes.md §112."    }
+      "note": "Merve multimodal image<>text pointer. Perception front-end, not the decision. Do not copy pip. notes.md §112."
+    },
+    {
+      "kind": "github",
+      "title": "edgardcham/huncho",
+      "url": "https://github.com/edgardcham/huncho",
+      "note": "TypeScript MIT; 1★; HEAD 27ab90ca; README SHA 784fa32a; size 319. A hunch is a probability with a policy attached. { enter: 0.8, exit: 0.6 } is hysteresis. notes.md §114."
+    },
+    {
+      "kind": "github",
+      "title": "VladUZH/jev-calibration",
+      "url": "https://github.com/VladUZH/jev-calibration",
+      "note": "Python MIT; 0★; size 0 WITH CONTENTS; HEAD 4c50525e; README SHA 4e476362. PRIMARY. pretrained Qwen2.5 base ECE 0.030 (0.5B) / 0.040 (7B); instruct 0.302 / 0.269. No Jev API was called. Qwen2.5 ≠ Archer. notes.md §114."
+    },
+    {
+      "kind": "github",
+      "title": "hiroki-abe-58/sokudan",
+      "url": "https://github.com/hiroki-abe-58/sokudan",
+      "note": "Python Apache-2.0; 0★; HEAD 2cfe52c3; README SHA 71a60512; size 487. 学習済みモデル v0.1 は準備中です. bool AUROC 0.523. notes.md §114."
+    },
+    {
+      "kind": "github",
+      "title": "g0runmezadam/what-is-jev",
+      "url": "https://github.com/g0runmezadam/what-is-jev",
+      "note": "IS tunahansahin897/what-is-jev same GitHub id 1378007307. HEAD 895b9498; README SHA 3ae98c56; 947 repos scored; A 273 · B 302 · C 372; LLM rubric ≠ benches. notes.md §114."
+    },
+    {
+      "kind": "github",
+      "title": "omni-/ask-jev",
+      "url": "https://github.com/omni-/ask-jev",
+      "note": "PowerShell MIT; 1★; HEAD 74199ef9; README SHA dc006eba. 13 focused checks and one mutually exclusive outcome. Probabilities are advisory, not calibrated guarantees. ≠ pedroknigge/mcp_jev. notes.md §114."
+    },
+    {
+      "kind": "github",
+      "title": "rlaope/jeval",
+      "url": "https://github.com/rlaope/jeval",
+      "note": "Python Apache-2.0; 1★; size 0 WITH CONTENTS; HEAD cd3e59f7; README SHA 3018e112. PRIMARY. pd.cut equal-width vs quantile ECE 0.113 vs 0.076. jeval drift is not implemented yet. ≠ dayhaysoos/jevals. notes.md §114."
+    },
+    {
+      "kind": "github",
+      "title": "dnakhoa/jev-deferred-crispification",
+      "url": "https://github.com/dnakhoa/jev-deferred-crispification",
+      "note": "PRIMARY. HEAD 9e6fd643; README SHA e942c7ab. calibration does not compose. 25–60× headline withdrawn. P(all-correct): 0.0071 vs 0.0001. TCE / AMS. Deferred Crispification. Qwen 3.8 sparring ≠ Archer. DOI 10.5281/zenodo.22801506. notes.md §114."
+    },
+    {
+      "kind": "github",
+      "title": "matsuikentaro1/jev-title-abstract-screening",
+      "url": "https://github.com/matsuikentaro1/jev-title-abstract-screening",
+      "note": "JavaScript MIT; 0★; HEAD 9e5d2ee8; README SHA f642f7e8. light_cutoff_applied_to_combination 0. notes.md §114."
+    },
+    {
+      "kind": "github",
+      "title": "metrox-eth/moss-jev",
+      "url": "https://github.com/metrox-eth/moss-jev",
+      "note": "JavaScript license null; 0★; HEAD 8ca7012c; README SHA dbebf86a. recorded run, kinematic animation. notes.md §114."
+    },
+    {
+      "kind": "github",
+      "title": "thisisandreeeee/jev-benchmarks",
+      "url": "https://github.com/thisisandreeeee/jev-benchmarks",
+      "note": "Python MIT; 0★; HEAD e1186b74; README SHA 0ab2c7d3. BANKING77 Accuracy BERT-Base 93.02 Jev 79.90. BERT figures are published supervised references, not zero-shot. ranking ≠ calibration. notes.md §114."
+    },
+    {
+      "kind": "github",
+      "title": "vamsikrishna2421/jev-usecases",
+      "url": "https://github.com/vamsikrishna2421/jev-usecases",
+      "note": "MIT; 0★; HEAD d7dd94e1; README SHA 8bbb0121. ≠ whyashthakker/awesome-jev-use-cases. catalog ≠ endorsement. notes.md §114."
+    },
+    {
+      "kind": "github",
+      "title": "yuvalraviv1/highlight",
+      "url": "https://github.com/yuvalraviv1/highlight",
+      "note": "TypeScript license null; 0★; size 0 WITH CONTENTS; HEAD 56c9e05c; README SHA 188843b3. Bring your own API key. pointer-not-generator. notes.md §114."
+    },
+    {
+      "kind": "github",
+      "title": "Barneyjm/decision-circuits",
+      "url": "https://github.com/Barneyjm/decision-circuits",
+      "note": "Python MIT; 1★; HEAD e2aaff42; README SHA 76b13dd4. AND: product (independence assumed and recorded in the trace). chat model's stated confidence is not calibrated. circuit-vl-4b ≠ Archer. notes.md §114."
+    },
+    {
+      "kind": "github",
+      "title": "xiaohuaxi/jev-study",
+      "url": "https://github.com/xiaohuaxi/jev-study",
+      "note": "Python MIT; 0★; size 0 WITH CONTENTS; HEAD 9ba99ea8; README SHA 7dd211cf. ≠ wjdjdakf17 ≠ baekenough. 不是 benchmark; 概率没做 calibration. notes.md §114."
+    }
   ]
 }

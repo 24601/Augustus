@@ -28081,3 +28081,314 @@ Parent merge only after **CLEAN** adversarial review
   still a substring. No live Jev key. No wrappers.
 
 Hourly 0743 uniqueness lock: Heman10x-NGU/Verdict-open-jev ≠ Heman10x-NGU/openJev-verdict-2.0; TF-IDF + LogReg ECE 0.0207 vs Jev 0.1440; Verdict-open-jev 48.07% vs Jev 90.80%; abstention combined recall 10.00%; p50 35.58 ms; K=25 (maximum capacity) 72.00%; 0.85 coverage 84.60% selective risk 1.18%; 26.1× faster than standard Qwen JSON generation; Jevify 90.0% / 167 ms CUDA graphs disabled; Finding 1: Brier on stated confidence alone is a trap; grpo_rlcr 0.78 / ECE 0.084; reliability 0.007 but resolution 0.000; 27 900 schema-driven decisions; 13 600 / 13 600 questions; candidate mass min 0.99999624; 22 configs · 166,054 rows · 4 calibration-gold; sha a39eba3f; Student B MAE 0.148 / Pearson 0.836 / 86.0%; pngwn/open-jev-laya-bench README 404; sha 9f69c742 likes 2; HDFS 0.9933 (745/750) / retain 0.0084; BGL ERROR/FATAL protection 1.0000; 2,479 / 2,500 HDFS uncertain; cache hit 0.9648 (2412/2500); $0.153936 estimated; E2 recomputes from saved probabilities; Space sha eda59e0a; MASSIVE English 0.783 / Khmer 0.033 / Hindi 0.133; 40–48 rows too small to ship T; T never changes argmax; siren2345/jev-single-decode-transformers ≠ siren2345/jev-single-decode; Split Transformers experiment from llama.cpp runtime; tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab; Four experiments stress-testing TypeSafe's Jev: calibration, bundle bias, label bias, and ensembling; second pass must be $0.00 from cache; The pages never call Jev; Gemma 4 31B 77.0% / Jev 1.13.0 61.4% / Laya 322M 0.0%; restriction state 95.0% against 84.4%; None of the systems are particularly good at knowing when to stop and ask; They skip the question and call a tool directly; 100% schema pass; six-field joint 48.8% vs 72.8%; ywchiu/jev_benchmark ≠ Running-Dolphins/jev-bench ≠ Praveenrajus/jev-bench; ACT / REVIEW / FALLBACK; A provider failure, timeout, malformed output, or missing answer is **not** a policy outcome; confidence is descriptive provider output, not a substitute for probability; Quality denominators include only valid scored answers; an exact halfway tie chooses the lower level; aiwithenoch/Jev-Skill ≠ simplosophy/jev-skill ≠ laguagu/jev-skills; The local path does not claim to turn a smaller checkpoint into Jev; Low support becomes decision: "review"; MIT-0 SPDX NOASSERTION; current-llm; 结构兼容，不是 Jev 模型能力; altryne/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify; Find where Jev belongs. Design the questions. Measure the difference; TypeAR-AI/TypeAR 301 → TypeLLM/TypeLLM; TypeLLM/TypeLLM 16★; SemIf 2241★ (+34 vs §111 2207); jevlike 1051★ (+8 vs 1043); AnotiaWang 98★ (+1 vs 97); yibie/awesome-jev 525★ (+19 vs 506); Laya likes 864 (was 822); tracker likes 67 (+3 vs 64); lastModified UNCHANGED `2026-09-20T04:29:16.000Z`; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33; notes.md §113
+
+## 114. Hourly 0843 HIGH (2026-09-20 ~08:43 Boise / 2026-09-20T14:43Z)
+
+Measurement / judgment / skills fold on a **fresh PR off
+main** (`cursor/hourly-0843-augustus-fold-220d`) rebased onto
+latest `main` after merged #31 (0743, `notes.md` §113 /
+items 273–288 / batch #96), #32 (`486e93e`, Release v0.4.0),
+and #33 (README map). **HARD RULE:**
+do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33.
+Do **not** reply into the finished 0743 agent. Do **not**
+reopen or amend merged #31. This fold's IDs: `notes.md` §114 /
+composition 289–302 / findings batch #97.
+
+Never reopen merged #7–**#33**. Do **not** re-fold
+§112 Merve / §111 0646 / §110 0541 / §109 0439 / §85 Akshay /
+§78 JevBench v1.2 board / §71 claim-audit / §60 six-gates /
+§109 tunahansahin897/what-is-jev *as a second census* (this
+hour densifies a **rename**: g0runmezadam/what-is-jev IS
+tunahansahin897/what-is-jev, same GitHub id 1378007307).
+Skip Archer rewrite. Quote READMEs. Mark *theirs*. No
+wrappers, keys, `npm` / `pip` / `uv` / `powershell` install
+recipes. `invented_signal: false`. Hunches labeled.
+
+Lane is Augustus: **mathematical / logical / algorithmic
+mental models** for Jev-class categorization/scoring —
+AI / SWE / **business / knowledge work / life**, not
+SWE-only. PRIMARY this hour is **measurement honesty**:
+calibration ≠ ranking; equal-width ECE ≠ quantile ECE;
+hop-ECE is permutation-invariant (soundness theater if
+you treat it as a trajectory audit); hysteresis is
+policy, not a model property; instruct-tuning can wreck
+an already-calibrated readout; **calibration does not
+compose**. Soft Noul ≠ hard safety. Qwen2.5 ≠ Archer.
+Qwen 3.8 sparring ≠ Archer. Qwen/Qwen3.8-27B ≠ Archer.
+Archer still **promised_not_landed**.
+
+Unique consecutive fragments (this hour) must appear as
+**one substring** in overlays (see uniqueness gate):
+Hourly 0843 uniqueness lock: A hunch is a probability with a policy attached; { enter: 0.8, exit: 0.6 } is hysteresis; replay a policy change without inference; Decision models are providers, not the product; huncho ≠ Kungie/gut ≠ carldaws/hunch ≠ tpellet/hunch; pretrained Qwen2.5 base ECE 0.030 (0.5B) / 0.040 (7B); instruct 0.302 / 0.269; 70.9% → 70.0% mean conf 74.1% → 96.7%; temperature scaling still matches it in-distribution; No Jev API was called; Qwen2.5 ≠ Archer; Qwen/Qwen3.8-27B ≠ Archer; 学習済みモデル v0.1 は準備中です; bool AUROC 0.523; 先頭だと0件、末尾だと250件; 温度を渡さない場合、確率は較正されていません; このリポジトリには Jev を呼ぶコードが存在しません; g0runmezadam/what-is-jev IS tunahansahin897/what-is-jev (same GitHub id 1378007307); 947 repos scored; A 273 · B 302 · C 372; LLM rubric ≠ benches; Data as of 2026-09-20; HEAD 895b9498; README SHA 3ae98c56; 13 focused checks and one mutually exclusive outcome; Probabilities are advisory, not calibrated guarantees; omni-/ask-jev ≠ pedroknigge/mcp_jev; pd.cut bins by equal width while jeval bins by quantile; ECE 0.113 and ECE 0.076; jeval drift is not implemented yet; rlaope/jeval ≠ dayhaysoos/jevals; calibration does not compose; ECE has exactly zero statistical power to detect the failure mode that kills trajectories; 25–60× headline withdrawn; P(all-correct): 0.0071 vs 0.0001; TCE / AMS; Qwen 3.8 sparring ≠ Archer; Deferred Crispification; light_cutoff_applied_to_combination 0; recorded run, kinematic animation; BANKING77 Accuracy BERT-Base 93.02 Jev 79.90; Analyse jev calibration (NLL, ECE) backlog; BERT figures are published supervised references, not zero-shot; 档位措辞效应 分数极差中位 0.50、最大 1.32; 修好后对照组是 0.01; 不是 benchmark; 概率没做 calibration; ~1,430 API calls, about $0.15; xiaohuaxi/jev-study ≠ wjdjdakf17/jev-study ≠ baekenough/jev-study; AND: product (independence assumed and recorded in the trace); chat model's stated confidence is not calibrated; circuit-vl-4b ≠ Archer; Bring your own API key; vamsikrishna2421/jev-usecases ≠ whyashthakker/awesome-jev-use-cases; catalog ≠ endorsement; SemIf 2237★ (+30 vs §111 2207); jevlike 1049★ (+6 vs 1043); TypeLLM/TypeLLM 16★; AnotiaWang 98★; yibie/awesome-jev 520★ (+14 vs 506); Laya likes 861 (was 822); tracker likes 66 (+2 vs 64) lastModified UNCHANGED; Blackwood likes 2 gated manual; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33; notes.md §114
+
+### How-to-apply (five placements / measurement lenses)
+
+These are *class* lenses, not vendor tutorials. Same
+discipline as §111 (calibration is not alpha) and §110
+(“0.9 is not one number”). Formal methods **compose**
+with scoring: a Noul is a SENSOR; policy / hysteresis /
+cost table / replay / TCE window are exact work.
+
+1. **Hysteresis is policy attached to a probability**
+   (*theirs*, huncho): A hunch is a probability with a
+   policy attached. `{ enter: 0.8, exit: 0.6 }` is
+   hysteresis. Replay a policy change without inference.
+   Decision models are providers, not the product.
+   huncho ≠ Kungie/gut ≠ carldaws/hunch ≠ tpellet/hunch.
+   The model never actuates; the latch lives in code.
+   Cousin of decision-circuits gates (item 301) and gut
+   cost-of-error overlay (§99). Life/business analogue:
+   a hire / a page / a loan does not flap every time p
+   crosses 0.7.
+2. **Instruct-tuning can break an already-calibrated
+   readout** (VladUZH PRIMARY *theirs*): pretrained
+   Qwen2.5 base ECE 0.030 (0.5B) / 0.040 (7B); instruct
+   0.302 / 0.269; 70.9% → 70.0% mean conf 74.1% → 96.7%.
+   temperature scaling still matches it in-distribution.
+   No Jev API was called. Qwen2.5 ≠ Archer. Recovering
+   ECE with temperature / CE / Brier is **not** evidence
+   of a new training method. Ranking (acc) can stay flat
+   while honesty dies — that is measurement theater.
+3. **Binning is a real decision; ranking ≠ calibration**
+   (jeval PRIMARY + jev-benchmarks): pd.cut bins by
+   equal width while jeval bins by quantile; ECE 0.113
+   and ECE 0.076 on the same 91 records *theirs*.
+   BANKING77 Accuracy BERT-Base 93.02 Jev 79.90 — BERT
+   figures are published supervised references, not
+   zero-shot. Analyse jev calibration (NLL, ECE) backlog.
+   AUC / accuracy can be 1.0 while ECE blows up. Cost-
+   optimal threshold is policy arithmetic, not a Harbor
+   score. jeval drift is not implemented yet.
+   rlaope/jeval ≠ dayhaysoos/jevals.
+4. **Calibration does not compose** (deferred-
+   crispification PRIMARY *theirs*): hop-ECE is
+   permutation-invariant — ECE has exactly zero
+   statistical power to detect the failure mode that
+   kills trajectories. P(all-correct): 0.0071 vs 0.0001.
+   25–60× headline withdrawn (adversarial scar). TCE /
+   AMS. Deferred Crispification: collapse once at the
+   actuator. Qwen 3.8 sparring ≠ Archer. Soft Noul ≠
+   hard safety: composing calibrated hops with
+   thresholds is **cliff cascade** (Lemma 2), not a
+   proof. Formal methods compose: the filter / t-norm /
+   single defuzzification is exact given the model;
+   learning parameters is approximation.
+5. **Catalogs, advisory audits, and screening cutoffs
+   are lenses, not endorsements.** g0runmezadam/what-is-jev
+   IS tunahansahin897/what-is-jev (same GitHub id
+   1378007307) — densify §109, do not mint a sibling
+   census. 947 repos scored; A 273 · B 302 · C 372;
+   LLM rubric ≠ benches; Data as of 2026-09-20;
+   HEAD 895b9498; README SHA 3ae98c56. omni-/ask-jev:
+   13 focused checks and one mutually exclusive
+   outcome; Probabilities are advisory, not calibrated
+   guarantees; omni-/ask-jev ≠ pedroknigge/mcp_jev.
+   Screening: light_cutoff_applied_to_combination 0
+   (cutoff 0.49) — a 0.5 “100% sensitivity” claim does
+   not transfer. moss-jev is a recorded run, kinematic
+   animation. usecases catalog ≠ endorsement.
+   highlight: Bring your own API key; pointer-not-
+   generator. xiaohuaxi: 不是 benchmark; 概率没做
+   calibration; 档位措辞效应 分数极差中位 0.50、最大
+   1.32; 修好后对照组是 0.01. sokudan: 学習済みモデル
+   v0.1 は準備中です; bool AUROC 0.523; 先頭だと0件、
+   末尾だと250件; 温度を渡さない場合、確率は較正されていません;
+   このリポジトリには Jev を呼ぶコードが存在しません.
+
+### HIGH
+
+1. **[edgardcham/huncho](https://github.com/edgardcham/huncho)**
+   — NEW HIGH (TypeScript MIT; **1★**; size **319**;
+   HEAD `27ab90ca`; README SHA `784fa32a`). Decisions
+   as code. Quote *theirs*: “A hunch is a probability
+   with a policy attached.” `{ enter: 0.8, exit: 0.6 }`
+   is hysteresis. Replay a policy change without
+   inference. Decision models are providers, not the
+   product. huncho ≠ Kungie/gut ≠ carldaws/hunch ≠
+   tpellet/hunch. Do **not** copy `npm i huncho` /
+   `TYPESAFE_API_KEY`. Evaluator self-test locks
+   hysteresis vs single 0.7 chatter.
+2. **[VladUZH/jev-calibration](https://github.com/VladUZH/jev-calibration)**
+   — NEW HIGH PRIMARY (Python MIT; **0★**; size **0**
+   WITH CONTENTS; HEAD `4c50525e`; README SHA
+   `4e476362`; results/summary.md SHA `35f683de`).
+   15-bin ECE on max-probability. pretrained Qwen2.5
+   base ECE 0.030 (0.5B) / 0.040 (7B); instruct 0.302 /
+   0.269; 70.9% → 70.0% mean conf 74.1% → 96.7%.
+   temperature scaling still matches it
+   in-distribution. No Jev API was called. Qwen2.5 ≠
+   Archer. Do **not** paste Jev 84.6% MMLU-Pro *theirs*
+   as this-repo measurement (cited, not re-measured).
+3. **[hiroki-abe-58/sokudan](https://github.com/hiroki-abe-58/sokudan)**
+   — NEW HIGH (Python Apache-2.0; **0★**; size **487**;
+   HEAD `2cfe52c3`; README SHA `71a60512`). 日本語
+   System One encoder. 学習済みモデル v0.1 は準備中です.
+   bench_ja 300 *theirs*: laya-multilingual ja choice
+   acc 0.747 / score RPS 0.232 / bool acc 0.543 /
+   bool AUROC 0.523. 先頭だと0件、末尾だと250件.
+   温度を渡さない場合、確率は較正されていません.
+   このリポジトリには Jev を呼ぶコードが存在しません.
+   Qwen3 30b synth generator ≠ Archer. Do not copy GPU
+   recipes. Position bias is the *class* finding:
+   option order is a measurement, not a vibe.
+4. **[g0runmezadam/what-is-jev](https://github.com/g0runmezadam/what-is-jev)**
+   — DENSIFY / RENAME (Python SPDX NOASSERTION; **1★**;
+   size **7203**; HEAD `895b9498`; README SHA
+   `3ae98c56`). g0runmezadam/what-is-jev IS
+   tunahansahin897/what-is-jev (same GitHub id
+   1378007307). Previously folded §109 as tunahan HEAD
+   `71d53be2` 0★ size 6277. 947 repos scored; A 273 ·
+   B 302 · C 372; LLM rubric ≠ benches; Data as of
+   2026-09-20. Do **not** mint a second census. Catalog
+   ≠ endorsement. No benchmark winner is claimed.
+5. **[omni-/ask-jev](https://github.com/omni-/ask-jev)**
+   — NEW HIGH (PowerShell MIT; **1★**; size **48**;
+   HEAD `74199ef9`; README SHA `dc006eba`). Codex
+   UserPromptSubmit advisory audit. 13 focused checks
+   and one mutually exclusive outcome. Probabilities
+   are advisory, not calibrated guarantees.
+   omni-/ask-jev ≠ pedroknigge/mcp_jev. Do **not** copy
+   `install.ps1`. Judgment ≠ authorship attribution.
+6. **[rlaope/jeval](https://github.com/rlaope/jeval)**
+   — NEW HIGH PRIMARY (Python Apache-2.0; **1★**;
+   size **0** WITH CONTENTS; HEAD `cd3e59f7`; README
+   SHA `3018e112`). Provider-neutral calibration +
+   cost-optimal human/AI routing. pd.cut bins by equal
+   width while jeval bins by quantile; ECE 0.113 and
+   ECE 0.076 *theirs* on 91 example records. jeval
+   drift is not implemented yet (M2; specified, not a
+   captured run). rlaope/jeval ≠ dayhaysoos/jevals.
+   Without labels, jeval measures nothing. Cost table
+   owns the threshold; wrong costs → wrong line.
+   Evaluator locks equal-width ≠ quantile on piled mass.
+7. **[dnakhoa/jev-deferred-crispification](https://github.com/dnakhoa/jev-deferred-crispification)**
+   — NEW HIGH PRIMARY (TeX CC-BY-4.0 paper + MIT
+   experiments; **0★**; size **1469**; HEAD `9e6fd643`;
+   README SHA `e942c7ab`; DOI 10.5281/zenodo.22801506).
+   Lemma 1: calibration does not compose. ECE has
+   exactly zero statistical power to detect the failure
+   mode that kills trajectories. P(all-correct): 0.0071
+   vs 0.0001. Lemma 2: cliff cascade. Deferred
+   Crispification. TCE / AMS. 25–60× headline withdrawn.
+   Qwen 3.8 sparring ≠ Archer. Do **not** hard-gate a
+   hop-ECE dashboard as trajectory safety. Evaluator
+   locks hop-ECE permutation invariance.
+8. **[matsuikentaro1/jev-title-abstract-screening](https://github.com/matsuikentaro1/jev-title-abstract-screening)**
+   — NEW HIGH (JavaScript MIT; **0★**; size **26**;
+   HEAD `9e5d2ee8`; README SHA `f642f7e8`). Title /
+   abstract screening. Results *theirs*:
+   light_cutoff_applied_to_combination 0 (cutoff 0.49).
+   0.5 “100% sensitivity” does not transfer. Do **not**
+   dump 67k JSON. Screening is a judgment curriculum,
+   not a merge gate. Cousin of choxos/jev-reviewer
+   pointer-not-generator.
+9. **[metrox-eth/moss-jev](https://github.com/metrox-eth/moss-jev)**
+   — NEW HIGH (JavaScript; license **null**; **0★**;
+   size **8914**; HEAD `8ca7012c`; README SHA
+   `dbebf86a`). recorded run, kinematic animation.
+   No live API. Simulated object labels, no camera
+   perception, no physics validation. Demo ≠ controller.
+   Skip Archer (no pixels to a frontier for the
+   decision).
+10. **[thisisandreeeee/jev-benchmarks](https://github.com/thisisandreeeee/jev-benchmarks)**
+    — NEW HIGH (Python MIT; **0★**; size **165**;
+    HEAD `e1186b74`; README SHA `0ab2c7d3`). BANKING77
+    Accuracy BERT-Base 93.02 Jev 79.90 *theirs*. BERT
+    figures are published supervised references, not
+    zero-shot. Analyse jev calibration (NLL, ECE)
+    backlog. Ranking ≠ calibration. Do **not** treat
+    93.02 vs 79.90 as a System One bake-off against a
+    supervised encoder (Merve §112 category-error
+    cousin in the other direction: supervised BERT is
+    also not a zero-shot Noul).
+11. **[vamsikrishna2421/jev-usecases](https://github.com/vamsikrishna2421/jev-usecases)**
+    — NEW HIGH (MIT; **0★**; size **43**; HEAD
+    `d7dd94e1`; README SHA `8bbb0121`). Use-case
+    catalog + reality check. vamsikrishna2421/jev-usecases
+    ≠ whyashthakker/awesome-jev-use-cases. catalog ≠
+    endorsement. Vendor vs reported tags *theirs*.
+    Judgment lens: where a typed decision replaces an
+    expensive LLM call — not a 17-item how-to dump.
+12. **[yuvalraviv1/highlight](https://github.com/yuvalraviv1/highlight)**
+    — NEW HIGH (TypeScript; license **null**; **0★**;
+    size **0** WITH CONTENTS; HEAD `56c9e05c`; README
+    SHA `188843b3`). Sentence Noul/Score + paragraph
+    Choice. Bring your own API key (README: Bring your
+    own key). Pointer-not-generator. Do **not** copy
+    `npm install` / localStorage key recipes. The
+    server has no key of its own *theirs*.
+13. **[Barneyjm/decision-circuits](https://github.com/Barneyjm/decision-circuits)**
+    — NEW HIGH (Python MIT; **1★**; size **2778**;
+    HEAD `e2aaff42`; README SHA `76b13dd4`). Typed Q →
+    gates in code. AND: product (independence assumed
+    and recorded in the trace). chat model's stated
+    confidence is not calibrated. circuit-vl-4b ≠
+    Archer. ≠ voidning/jev-combinators ≠
+    Illusion47586/judge. Do **not** copy `pip install
+    decision-circuits`. Independence is an assumption
+    you record, not a free AND.
+14. **[xiaohuaxi/jev-study](https://github.com/xiaohuaxi/jev-study)**
+    — NEW HIGH (Python MIT; **0★**; size **0** WITH
+    CONTENTS; HEAD `9ba99ea8`; README SHA `7dd211cf`).
+    xiaohuaxi/jev-study ≠ wjdjdakf17/jev-study ≠
+    baekenough/jev-study. 不是 benchmark; 概率没做
+    calibration. 档位措辞效应 分数极差中位 0.50、最大
+    1.32; 修好后对照组是 0.01. ~1,430 API calls,
+    about $0.15. OpenRouter only; pin
+    `typesafe/jev-1.13-20260917` (jev-1.13.0 400 on
+    OpenRouter *theirs*). Do **not** paste constructed-
+    case “12/12” as accuracy. Control-bug honesty is
+    the class lesson: assert the negative control
+    actually lacks the target.
+
+### Skip Archer
+
+Text / option-logit / JA encoder / recorded rover demo /
+BYO-key highlighter / circuit-vl-4b images. Do not wait
+for Archer. Qwen2.5 ≠ Archer. Qwen 3.8 sparring ≠
+Archer. Qwen/Qwen3.8-27B ≠ Archer. Hub
+archerhume/4rcherhume HTTP 401. Tonic/4rcher-tracker
+401. Archer still promised_not_landed.
+
+### Pulse (live REST this pass; do not invent)
+
+SemIf 2237★ (+30 vs §111 2207); jevlike 1049★ (+6 vs
+1043); TypeLLM/TypeLLM 16★ (zmtomorrow/TypeAR and
+TypeAR-AI/TypeAR redirect); AnotiaWang 98★;
+yibie/awesome-jev 520★ (+14 vs 506); Laya likes 861
+(was 822); tracker likes 66 (+2 vs 64) lastModified
+UNCHANGED (2026-09-20T04:29:16.000Z); Blackwood likes
+2 gated manual PRESENT; Archer still
+promised_not_landed; Hub archerhume/4rcherhume HTTP 401.
+
+### Not
+
+Not a TypeSafe how-to. Not a huncho / jeval / sokudan
+install. Not a Harbor score. Do not treat hop-ECE as a
+trajectory proof. Do not treat equal-width ECE as the
+only ECE. Do not treat BERT-Base 93.02 as a zero-shot
+Noul. Do not treat A/B/C rubric classes as Harbor ranks.
+Do not treat Qwen instruct ECE recovery as Archer.
+Do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32.
+Do not dump 67k screening JSON. Soft Noul ≠ hard safety.
+
+### Curated status
+
+HIGH **folded** (14 cards; 1 rename densify; 3 PRIMARY
+measurement). Evaluator extended (Brier already;
+equal-width vs quantile ECE; ranking≠calibration;
+hysteresis; hop-ECE invariance; cost-optimal
+threshold). Uniqueness gate added. Archer still
+**promised_not_landed**. `invented_signal: false`.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table);
+`faq.md`; `mental-models.md` Apply 0843;
+`judgment-class.md`; `validation.md`;
+`applied-mappings.md`; `mappings.md`;
+`toolbox-mapping.md`; `composition-algebra.md`
+items 289–302; `question-design.md`;
+`methods-catalog.md`; `formal-methods.md`;
+`formal-semi-formal.md`; `agent-self-assessment.md`.
+Hunches labeled. No wrapper.
