@@ -27213,18 +27213,6 @@ tracker HTML. Archer still **promised_not_landed**.
 Hub `archerhume/4rcherhume` HTTP **401** (not a
 rewrite). Qwen3.8-27B ≠ Archer.
 typesafe-ai/skills still v0.5.7 HEAD `65a39f3`.
-Review remapped IDs off merged #30 (§112 / 268–272 / #95) onto
-§113 / 273–288 / #96. Live REST relock vs fold tip `6383671`:
-DecisionOps HEAD `9e061e84` / README `331a3301` → `fe4e7aff` /
-`4688009e` (policy quotes still *theirs* in
-`docs/technical-baseline.md`; README is now the index).
-ywchiu HEAD `c0df647c` / README `eb47c118` → `4322c350` / `75e6a338`
-(English README + results/summary.md quotes still *theirs*; HEAD also updated README.zh-TW.md).
-Verdict HEAD `643fa478` / README `b5571e20` → `465d542f` / `e2932455`
-(ECE/coverage quotes still *theirs*).
-tanayvasishtha HEAD `d9393730` → `7bfd37c1` (README SHA `33bc46e3` UNCHANGED).
-SemIf 2217→2225; jevlike 1044→1046; yibie 514→516; Laya 843→852.
-tracker likes 66 lastModified UNCHANGED. Archer Hub 401.
 X MCP not used this hour; no invented tweets.
 HEAD relock this pass: atlas `9856ab9b` (empty README holds);
 jev-single-decode `65df86a3` / README `51817d8c` (BBQ table
@@ -27331,6 +27319,251 @@ gallery); `faq.md`; `mental-models.md`;
 `applied-mappings.md`; `mappings.md`;
 `toolbox-mapping.md`; `composition-algebra.md`
 items 248–267; `question-design.md`;
+`methods-catalog.md`; `formal-methods.md`;
+`agent-self-assessment.md`. Hunches labeled.
+No wrapper.
+
+## 112. User-provided HIGH — Merve Noyan ZS classifier lineage (2026-09-20 ~08:06 Boise / ~14:06 UTC)
+
+Docs-only on a **fresh PR off main**
+(`cursor/merve-zeroshot-classifier-signal-f943`).
+**Never reopen merged** Augustus PR #7 / **#8** /
+**#9** / **#10** / **#12** / **#13** / **#14** /
+**#15** / **#16** / **#17** / **#18** / **#19** /
+**#20** / **#21** / **#22** / **#23** / **#24** /
+**#25** / **#26** / **#27** / **#28** / **#29**. After
+merged #29 (`a9c8b61`, hourly 0646 / `notes.md` §111).
+**HARD RULE:** do not reopen or amend PR #23 or #24
+or #25 or #26 or #27 or #28 or #29 (merged #23 owns
+`notes.md` §105 / items 149–160 / batch #88; merged
+#24 owns `notes.md` §106 / items 161–177 / batch #89;
+merged #25 owns `notes.md` §107 / items 178–185 /
+batch #90; merged #26 owns `notes.md` §108 / items
+186–201 / batch #91; merged #27 owns `notes.md` §109
+/ items 202–225 / batch #92; merged #28 owns
+`notes.md` §110 / items 226–247 / batch #93; merged
+#29 owns `notes.md` §111 / items 248–267 / batch #94
+— leave them alone). Do **not** re-fold §85 Akshay
+pedagogy, §37, §73, §69, or §110 64× Space as if
+they were this thread. Do **not** re-fold §78
+JevBench v1.2 board, §71 claim-audit, §60 six-gates,
+or hourly 0646 / §111. Quote **Merve’s** posts.
+Mark *theirs*. No invented accuracy. Hunches labeled.
+No wrappers, `pip` / `pipeline()` / `from transformers
+import` as recipes. X MCP **WAS** used this pass
+(retrieved ~2026-09-20T14:28Z). Hub likes locked
+only where cited. `invented_signal: false`. Skip
+Archer rewrite. Jev is the hot **exemplar**, not
+the mandate.
+
+Lane is Augustus: **mental models / architecture /
+class lineage**. Institutional HF voice, not a
+metric claim. Right lineage for the joke is encoder
+/ zero-shot classifiers (BERTForXYZ → DeBERTa →
+ModernBERT) — the same class as System One /
+categorization / scoring — not decoder-only GPT-5.6
+bakeoffs. Softmax/ZS scores still ≠ calibrated Noul.
+Soft scores ≠ hard gates.
+
+Unique consecutive fragments (this fold):
+people who compare Jev against GPT-5.6 has never fine-tuned BERTForXYZ for living and it shows;
+zero shot classifiers;
+scale them as much as decoder only models;
+many problems solved with LLMs could have been solved with them, it was a skill issue;
+opt for DeBERTa and ModernBERT ones;
+BERTForXYZ → DeBERTa → ModernBERT;
+Jev vs GPT-5.6 bakeoffs are a category error;
+encoder / ZS classifiers;
+institutional HF voice;
+quote *theirs*;
+do not invent accuracy numbers;
+softmax/ZS scores still ≠ calibrated Noul;
+soft scores ≠ hard gates;
+@mervenoyann;
+likes 421 / 189;
+impressions 35498 / 9613;
+multimodal image<>text ZS as perception front-end;
+hf:MoritzLaurer/deberta-v3-large-zeroshot-v2.0 likes 139;
+hf:MoritzLaurer/ModernBERT-large-zeroshot-v2.0 likes 72;
+Bart, bert, deberta, modernbert, these are all LLMs;
+Maziyar quoted;
+Jev is exemplar not the mandate;
+do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29.
+
+### How-to-apply (five placements / one voice)
+
+When someone pastes the Merve thread, extract the
+*lineage theses* and refuse the Jev-vs-GPT-5.6
+bakeoff as a category error. Same discipline as
+§85 (quote the explainer; do not steal a Harbor
+number) and §84 (likes ephemeral ≠ eval). Do not
+invent accuracy. Hub widget `bart-large-mnli`
+example scores 0.504 / 0.479 are *theirs* on the
+task page — **not** Merve’s pick and **not** a
+calibrated Noul.
+
+1. **Category error (Jev vs GPT-5.6 bakeoffs)** —
+   parent *theirs*: people who compare Jev against
+   GPT-5.6 has never fine-tuned BERTForXYZ for
+   living and it shows. Right comparison class is
+   encoder / ZS classifiers, not decoder-only
+   frontier chat. Jev is exemplar not the mandate.
+   Do **not** collapse into §110 aahf 64× Space
+   (that card already owns a synthetic GPT-5.6
+   *cost* table).
+2. **Skill-issue thesis** — parent *theirs*: many
+   problems solved with LLMs could have been solved
+   with them, it was a skill issue. Placement is
+   mixed architecture: replace-one-classifier-step,
+   not stack replacement. Same hole as “LLM hammer”
+   §85, from an institutional HF voice rather than
+   a TypeSafe explainer.
+3. **Prefer DeBERTa and ModernBERT (Hub pointers)**
+   — follow-up *theirs*: opt for DeBERTa and
+   ModernBERT ones. Pointers (not a how-to):
+   [Hub ZS trending](https://huggingface.co/models?pipeline_tag=zero-shot-classification&sort=trending);
+   [task page](https://huggingface.co/tasks/zero-shot-classification);
+   [multimodal image<>text](https://huggingface.co/docs/transformers/en/tasks/zero_shot_image_classification).
+   Live Hub likes this pass (cited because we
+   name the cards): hf:MoritzLaurer/deberta-v3-large-zeroshot-v2.0 likes 139;
+   hf:MoritzLaurer/ModernBERT-large-zeroshot-v2.0 likes 72.
+   Hub widget default `facebook/bart-large-mnli`
+   likes 1616 is **not** Merve’s recommendation.
+   answerdotai/ModernBERT-large likes 487 is the
+   MLM backbone, not a ZS head. Do **not** copy
+   `pip` / `pipeline()`.
+4. **Multimodal ZS as perception front-end** —
+   image<>text ZS classifies unseen labels from
+   aligned vision-language representations
+   (Transformers docs *theirs*). That is a
+   **perceive** hole: candidates in, scores out,
+   then a typed Choice / Noul on the *decision*.
+   Skip Archer. Do not send pixels to a frontier
+   chat model “because ZS exists.”
+5. **softmax/ZS scores still ≠ calibrated Noul;
+   soft scores ≠ hard gates** — Hub task-page
+   example *theirs* (`facebook/bart-large-mnli`):
+   scores `[0.504, 0.479, 0.013, 0.003, 0.002]`
+   on urgent/phone/… . Those are softmax-shaped
+   entailment scores, not a Harbor-calibrated
+   Noul and not a fail-closed safety bar. Formal
+   methods **compose**: policy / allowlist /
+   thresholds stay in code.
+
+Receipts: user-linked 2026-09-20 ~08:06 Boise.
+X MCP this pass ~2026-09-20T14:28Z.
+
+Parent https://x.com/mervenoyann/status/2101463303734067592
+created 2026-09-20T00:07:49Z; note_tweet full text
+*theirs*. This pass: **35498** impressions /
+**420** likes / **23** RTs / **89** bookmarks /
+30 replies / 3 quotes. Quotes Maziyar
+https://x.com/MaziyarPanahi/status/2101158867455320127
+(likes **446** / impressions **87625** *theirs*).
+
+Follow-up https://x.com/mervenoyann/status/2101592535835529527
+created 2026-09-20T08:41:20Z. This pass: **9613**
+impressions / **188** likes / **22** RTs /
+**138** bookmarks / 4 replies / 1 quote.
+
+Author @mervenoyann (merve; 92,246 followers
+*theirs*; “open-sourceress at @huggingface”).
+Engagement **ephemeral**. Institutional HF voice.
+Quote *theirs*. Do not invent accuracy numbers.
+
+Maziyar quoted (*theirs*, context not a new
+species): “Jev isn't an LLM” / Bart, bert,
+deberta, modernbert, these are all LLMs! Do
+people don’t know the meaning of language models
+and transformers? Augustus placement stays:
+encoder / ZS classifiers are the *class*; “LLM”
+as a transformer umbrella does not license a
+GPT-5.6 bakeoff. Charly Poly’s originating
+thread is **not** re-carded (accuracy claims
+stay *theirs* on that post; do not steal).
+
+### HIGH
+
+1. **[@mervenoyann parent / note](https://x.com/mervenoyann/status/2101463303734067592)**
+   — NEW HIGH (institutional HF pedagogy / class
+   lineage). Quote, don’t dump.
+
+   **Quote parent (*theirs*).** “people who
+   compare Jev against GPT-5.6 has never
+   fine-tuned BERTForXYZ for living and it shows”
+   “joke aside I always found zero shot
+   classifiers to be fascinating and was sad we
+   never got people to scale them as much as
+   decoder only models” “many problems solved
+   with LLMs could have been solved with them,
+   it was a skill issue”
+
+   **How to apply:** treat Jev vs GPT-5.6
+   bakeoffs as a category error. Right lineage =
+   encoder / ZS classifiers (BERTForXYZ →
+   DeBERTa → ModernBERT), same class as System
+   One / categorization / scoring. Skill-issue
+   thesis: many LLM deployments were failures to
+   use classifiers. Jev is exemplar not the
+   mandate.
+
+2. **[@mervenoyann follow-up](https://x.com/mervenoyann/status/2101592535835529527)**
+   — NEW HIGH (Hub pointers + family preference).
+   Quote, don’t dump.
+
+   **Quote follow-up (*theirs*).** “leaving a few
+   beginner friendly guides for classifiers
+   (normal and zero-shot) as well as where you
+   can find them on the Hub” “opt for DeBERTa
+   and ModernBERT ones” plus Hub URLs (trending
+   ZS models; task page; multimodal image<>text
+   Transformers guide).
+
+   **How to apply:** when the hole is
+   classify/route/score and labels can be named
+   in language, prefer a DeBERTa / ModernBERT
+   ZS (or fine-tuned encoder) family over a
+   decoder-only chat bakeoff. Multimodal ZS is
+   a perception front-end for a later typed
+   decision, not the decision. Hub likes locked
+   only on named cards (139 / 72). Do **not**
+   cite bart-large-mnli likes 1616 as Merve’s
+   pick. Do **not** copy `pipeline()`.
+
+### Skip Archer
+
+Text + optional image<>text ZS as **perceive**.
+Do not wait for Archer. Convert pixels to
+candidates first; the decision stays typed.
+
+### Not
+
+Not a TypeSafe how-to. Not a Hugging Face
+Transformers tutorial. Not a Hub download
+recipe. Not a Harbor score. Do not invent
+accuracy numbers. Do not paste 0.504 / 0.479
+as calibrated Noul. Do not hard-gate a ZS
+softmax. Do not reopen or amend PR #23/#24/
+#25/#26/#27/#28/#29. Do not re-fold §85 /
+§111 / §110 64× Space.
+
+### Curated status
+
+Pedagogy HIGH **folded** (institutional HF
+voice; two posts; Hub pointers). Archer still
+**promised_not_landed**. Named encoder species
+already in `judgment-class.md` **not
+re-derived** as new products. `invented_signal:
+false`.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`judgment-class.md`; `validation.md`;
+`applied-mappings.md`; `mappings.md`;
+`toolbox-mapping.md`; `composition-algebra.md`
+items 268–272; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.

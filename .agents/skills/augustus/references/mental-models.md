@@ -603,6 +603,11 @@ Use these as *existence proofs of a position*. Write your own card.
 | ASK throws | can HITL be silently skipped? | Default errors; wire `approveWith` (**Contract as README**: AgentGhost) | `AUTO_APPROVE` is a demo hatch, not a grant |
 | Genre atlas ≠ bake-off | is this a rank? | Apps by hole; stars research-time (**Empirical as tweet**: [@studio_yebisu](https://x.com/studio_yebisu/status/2101065176069886152)) | ≠ class census §77 ≠ v1.2 board. Likes ephemeral |
 | LLM hammer for bounded decisions | does this call need generation? | Typed answers when code already knows the options (**Empirical as article**: [@akshay_pachaar](https://x.com/akshay_pachaar/status/2101037514945597645)) | Mixed architecture, not stack replacement |
+| Jev vs GPT-5.6 bakeoffs are a category error | is this the same class as a decoder-only chat model? | Encoder / ZS classifiers (BERTForXYZ → DeBERTa → ModernBERT) (**Empirical as tweet**: [@mervenoyann](https://x.com/mervenoyann/status/2101463303734067592)) | Jev is exemplar not the mandate. Do not invent accuracy numbers |
+| Skill-issue classifier hole | could a ZS/fine-tuned encoder have done this? | many problems solved with LLMs could have been solved with them, it was a skill issue (**Empirical as tweet**: @mervenoyann) | Mixed architecture; replace-one-classifier-step |
+| opt for DeBERTa and ModernBERT ones | which encoder family for ZS? | Hub pointers, not a how-to (**Empirical as tweet**: [follow-up](https://x.com/mervenoyann/status/2101592535835529527); hf:MoritzLaurer/deberta-v3-large-zeroshot-v2.0 likes 139; hf:MoritzLaurer/ModernBERT-large-zeroshot-v2.0 likes 72) | Do not cite bart-large-mnli likes as her pick. Do not copy `pipeline()` |
+| multimodal image<>text ZS as perception front-end | pixels vs candidates? | ZS image classification is perceive; typed Choice/Noul is decide (**Empirical as HF docs**, Merve pointer) | Skip Archer. Soft scores ≠ hard gates |
+| softmax/ZS scores still ≠ calibrated Noul | is 0.504 a frequency? | Hub widget `[0.504, 0.479, …]` *theirs* (`facebook/bart-large-mnli`) | quote *theirs*; do not invent accuracy numbers |
 | schema-safe ≠ correct | can it still be wrong? | Cannot invent out of schema; can pick the wrong valid option (**Empirical as article**: Akshay; safer *theirs*: schema holds, judgment can fail) | Cousin of type-safe ≠ correct / jaggedness |
 | Questions-as-code / shadow rollout | may this branch go live? | Rubric first; shadow beside current; plot accuracy vs confidence; pin questions (**Empirical as article**: Akshay) | Do not rebuild the agent first. 200×/400× are TypeSafe ceiling |
 | Sentence-as-rule | does this named artifact contradict itself | Structural matcher × one sentence scored (**Empirical**: mizchi/jev-lint is jevlint rename; ~1 in 5 wrong *this README*; 13/15 older corpus *theirs*) | Mechanical defects stay with the compiler; qualify vs huntedman/JevLint |
@@ -2668,6 +2673,44 @@ calibration theater.
 Unique consecutive fragments (this hour):
 Calibration is not alpha; NO CURRENT ALPHA CANDIDATE; ΔR² approximately +0.00084; Brier 0.2131387; ECE 0.0421875; Adding Jev probability to deterministic volatility improved Brier by only 1.4058e-05; default 0.5 keeps zero non pinned; keepResult median 0.14 to 0.17; keepCall median 0.28 to 0.35; usable range is about 0.10 to 0.25; 7.8% to 57.9%; judges results it never sees; task-finish eval not built yet; $0.002 per compaction; slavadubrov/sgr-judge-bench ≠ slavadubrov/jev-judge-bench; Jev 108/120 $0.083 0.34 s; Luna SGR 114/120; paired Jev accuracy-difference intervals include zero; not evidence of equivalence; GLM SGR 26/120 93 format failures; Terra-planned Jev hybrid 55/120; rule-based by default, optionally Jev-backed; empty README; missing key cannot break the experience; prefill plus exactly one decode; softmax over A/B/C ≠ Noul; BBQ 9,053/10,000 (90.53%); ECE 0.0890; Mean confidence 0.9943; overconfident; score and noul not implemented; DGUI 12 rows (was 6); INSTRUCT 119 rows likes 2; encode the state once, decide everything in parallel; 0.740 accuracy against a 0.508 majority; ECE 0.047; fine-tune's advantage ends where its 384-token training data does; jasonkneen/open-jev ≠ pngwn/open-jev; same sha d41dc3cd; Space does not call Jev; recomputes routing from saved probabilities; 200-case Jev 97.0% / 100.0% / 95.0% / MAE 9.22; synthetic repository benchmark; Jev evaluations are advisory; YehuiTang0316/jev-nlgrep ≠ Bentlybro/jevgrep ≠ can1357/jegrep ≠ uehaj/jev-semgrep; default threshold 0.8 still soft; 40-line windows cannot prove whole function; token-native sequential start/end Choice; Gemini/Haiku stubs not configured yet; handful of hand-written examples, not a benchmark; Jev judged exactly what it was given; laguagu/jev-skills ≠ laguagu/jev-evidence-lab ≠ Pleo2/awesome-jev-agent-skills; contract_passed is not a claim of guaranteed factual truth; Wilson lower bound 0.85 floor; fixture mode no savings claim; SemIf 2207★ (+21 vs §110 2186); jevlike 1043★ (+5 vs 1038); TypeAR 15★ (+1 vs 14); AnotiaWang 97★ (+1 vs 96); yibie/awesome-jev 506★ (+16 vs 490); Laya likes 822 (was 802); tracker likes 64 flat, lastModified UNCHANGED; do not reopen or amend PR #23/#24/#25/#26/#27/#28.
 
+
+## Apply 0806 (`notes.md` §112)
+
+Same pillars, user-provided HIGH community / mental-model
+signal (institutional HF voice — Merve Noyan @mervenoyann).
+Do **not** re-fold §85 Akshay / §111 / §110 64× Space /
+0541 / §110. Fresh PR; never reopen merged #7–**#29**.
+do not reopen or amend PR #23 or #24 or #25 or #26 or
+#27 or #28 or #29. Skip Archer rewrite (still
+**promised_not_landed**). Quote *theirs*. Do not invent
+accuracy numbers. Soft Noul ≠ hard safety. Formal methods
+**compose** with scoring; a Noul is a SENSOR. Jev is
+exemplar not the mandate. Jev vs GPT-5.6 bakeoffs are a
+category error. Treating a ZS softmax as a calibrated
+Noul or a hard gate is the anti-pattern.
+
+1. **Category error** — people who compare Jev against GPT-5.6
+   has never fine-tuned BERTForXYZ for living and it shows.
+   Right lineage = encoder / ZS classifiers (BERTForXYZ →
+   DeBERTa → ModernBERT).
+2. **Skill-issue thesis** — many problems solved with LLMs
+   could have been solved with them, it was a skill issue.
+   Mixed architecture, not stack replacement.
+3. **opt for DeBERTa and ModernBERT ones** — Hub pointers,
+   not a how-to. hf:MoritzLaurer/deberta-v3-large-zeroshot-v2.0
+   likes 139; hf:MoritzLaurer/ModernBERT-large-zeroshot-v2.0
+   likes 72. bart-large-mnli likes 1616 is the widget default,
+   **not** Merve’s pick.
+4. **multimodal image<>text ZS as perception front-end** —
+   perceive, then typed decide. Skip Archer.
+5. **softmax/ZS scores still ≠ calibrated Noul** — Hub
+   widget 0.504/0.479 *theirs*. soft scores ≠ hard gates.
+
+people who compare Jev against GPT-5.6 has never fine-tuned BERTForXYZ for living and it shows; zero shot classifiers; scale them as much as decoder only models; many problems solved with LLMs could have been solved with them, it was a skill issue; opt for DeBERTa and ModernBERT ones; BERTForXYZ → DeBERTa → ModernBERT; Jev vs GPT-5.6 bakeoffs are a category error; encoder / ZS classifiers; institutional HF voice; quote *theirs*; do not invent accuracy numbers; softmax/ZS scores still ≠ calibrated Noul; soft scores ≠ hard gates; @mervenoyann; likes 421 / 189; impressions 35498 / 9613; multimodal image<>text ZS as perception front-end; hf:MoritzLaurer/deberta-v3-large-zeroshot-v2.0 likes 139; hf:MoritzLaurer/ModernBERT-large-zeroshot-v2.0 likes 72; Bart, bert, deberta, modernbert, these are all LLMs; Maziyar quoted; Jev is exemplar not the mandate; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29
+
+Soft Noul ≠ hard safety: 0.504 / 0.479 / likes 421 / 189
+are **sensors / engagement**. Treating a ZS softmax as a
+Noul or a bakeoff against GPT-5.6 as same-class is theater.
 
 ## Decision-design extras (any domain)
 
