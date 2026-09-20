@@ -4045,6 +4045,108 @@
       "title": "lirantal/discoprint",
       "url": "https://github.com/lirantal/discoprint",
       "note": "TypeScript Apache-2.0; 0\u2605; HEAD a9d3294f; README SHA 9a64f473; LICENSE SHA 3c011d11; GitHub size 239 (relock; was 0 with contents). discography theme/mood/complexity. five atomic questions one call. lirantal/discoprint. notes.md \u00a7105."
+    },
+    {
+      "kind": "github",
+      "title": "uspraveen/Jevify",
+      "url": "https://github.com/uspraveen/Jevify",
+      "note": "PRIMARY Augustus hourly 0145. license null; 0\u2605; HEAD 0f29d783; README SHA 32608473; GitHub size 0. Turn any open LLM into System-One Jev. uspraveen/Jevify \u2260 Mintzs/jevify \u2260 gulagala001/jevify. Jevify-any-LLM architecture probe. description-only stub / size 0. do not reopen or amend PR #23. notes.md \u00a7106."
+    },
+    {
+      "kind": "github",
+      "title": "Ruivalim/exu-base",
+      "url": "https://github.com/Ruivalim/exu-base",
+      "note": "Python MIT LICENSE SHA 336cde4c; 1\u2605; HEAD 7288cdca; README SHA 45244838; size 180. Train encoder-only calibrated decision models from a task sentence. Exu is a toolkit, not a method. strictly proper scoring rule. Pre-alpha. notes.md \u00a7106."
+    },
+    {
+      "kind": "github",
+      "title": "Colvin0315/MiniSystemOne (0145 recipe)",
+      "url": "https://github.com/Colvin0315/MiniSystemOne",
+      "note": "Python Apache-2.0 LICENSE SHA 261eeb9e; 0\u2605; HEAD d7f9f803 (was \u00a7104 ac5a0eea); README SHA a5b0d2fd (was f8c47847); size 814. scratch-trained calibrated decision model. typed Q \u2192 probability dists. Colvin0315/MiniSystemOne \u2260 hyusi2003/MiniSystemOne. no published weights download URL. 90.5 seconds / 29.2% pipeline evidence. p_i/p_j independent of other candidates. notes.md \u00a7106."
+    },
+    {
+      "kind": "github",
+      "title": "scienthoon/luce",
+      "url": "https://github.com/scienthoon/luce",
+      "note": "Python Apache-2.0 LICENSE SHA d6456956; 1\u2605; HEAD 8072b97d; README SHA 5fbe226d; size 10833. Recipe for calibrated decision models \u2014 small model out. init \u2192 synth \u2192 train \u2192 eval \u2192 serve. 91.1 % / ECE 0.022 *theirs*. Jev zero-shot 75.1. notes.md \u00a7106."
+    },
+    {
+      "kind": "github",
+      "title": "RichardoMrMu/jev-mini",
+      "url": "https://github.com/RichardoMrMu/jev-mini",
+      "note": "Python MIT LICENSE SHA cbdf24bb; 0\u2605; HEAD 5adef5dc; README SHA 154ae8b0; size 0 with contents. Put Jev's three headline claims on trial. 0.5B local GPU. 46x speedup / accuracy identical. ECE 0.624 sentiment catastrophe. bigger model worse calibration. RichardoMrMu/jev-mini \u2260 yuki-oshio/mini-jev \u2260 r-ms/mini-jev. notes.md \u00a7106."
+    },
+    {
+      "kind": "github",
+      "title": "tapsin/jev-local",
+      "url": "https://github.com/tapsin/jev-local",
+      "note": "Python; license null; 0\u2605; HEAD 96aac2a1; README SHA 4d728cbf; default master; size 0 with contents. System-1 decision engine for local LLMs. structured choices only. JSON parse of generated text \u2260 Noul. TypefAI JEV / Journal Entry Voucher. tapsin/jev-local \u2260 us/jev-local \u2260 Argos1111/jev_local. notes.md \u00a7106."
+    },
+    {
+      "kind": "github",
+      "title": "goya4140/jev-reward-model-evaluation",
+      "url": "https://github.com/goya4140/jev-reward-model-evaluation",
+      "note": "Python MIT LICENSE SHA 4588ffe5; 0\u2605; HEAD f16a06d1; README SHA 603587fd; size 0 with contents. Jev 1.13 reward-model eval across 8 benchmark tracks. 40,940 examples / 0 API errors. RewardBench v1 92.58%. Precise IF 50.63%. notes.md \u00a7106."
+    },
+    {
+      "kind": "github",
+      "title": "SarathChandraBellam/jev-vs-llm-ticket-router",
+      "url": "https://github.com/SarathChandraBellam/jev-vs-llm-ticket-router",
+      "note": "license null; 0\u2605; HEAD 0318ad72; README SHA 8223dd6f; default master; size 0. Jev vs LLM support-ticket routing. Scaffolding in progress. notes.md \u00a7106."
+    },
+    {
+      "kind": "github",
+      "title": "Shilin237/jev-vs-llm-cost",
+      "url": "https://github.com/Shilin237/jev-vs-llm-cost",
+      "note": "HTML; license null; 0\u2605; HEAD 2d4bd6a9; README SHA f4e98bbf; default master; size 0. static + live decision bench. TypeSafe's own published benchmark. illustrative simulations, not live API calls. notes.md \u00a7106."
+    },
+    {
+      "kind": "github",
+      "title": "fstandhartinger/jevbench (v1.2.3 0145)",
+      "url": "https://github.com/fstandhartinger/jevbench",
+      "note": "Python MIT LICENSE SHA ebdd5738; 6\u2605; HEAD c7ab99f5; README SHA 8fe07c41; size 8907. JevBench v1 \u2014 smart/cheap/fast/reliable. I/C/S/K 25% geometric mean. classifier.dev fast tier 84.8 is Jev behind its own API. do not re-fold \u00a778 v1.2 board as new. Laya (421M) 70.1 now on board. notes.md \u00a7106."
+    },
+    {
+      "kind": "github",
+      "title": "AIGNLAI/ReflexRoute",
+      "url": "https://github.com/AIGNLAI/ReflexRoute",
+      "note": "Python MIT LICENSE SHA 1be8631e; 1\u2605; HEAD 5f475d80; README SHA 6a1ae694; size 0 with contents. Zero-shot/few-shot LLM routing. hard budget filter before Jev. Jev never asked to perform budget arithmetic. notes.md \u00a7106."
+    },
+    {
+      "kind": "github",
+      "title": "priyankark/jev-state",
+      "url": "https://github.com/priyankark/jev-state",
+      "note": "TypeScript MIT LICENSE SHA 78745387; 0\u2605; HEAD c73aef65; README SHA 15410dbe; size 0 with contents. Jev judges the next state, XState enforces transitions. simulation uses synthetic keyword fixtures. notes.md \u00a7106."
+    },
+    {
+      "kind": "github",
+      "title": "v-modal/awesome-jev-tools",
+      "url": "https://github.com/v-modal/awesome-jev-tools",
+      "note": "license null; 339\u2605 live REST (watch 337); HEAD f117e0c3; README SHA 8ea9a669; size 83. catalog gravity. \u2605339 live REST. curation is not endorsement. notes.md \u00a7106."
+    },
+    {
+      "kind": "github",
+      "title": "RadRebelSam/awesome-jev",
+      "url": "https://github.com/RadRebelSam/awesome-jev",
+      "note": "JavaScript SPDX NOASSERTION LICENSE SHA 2aa7fe23; 0\u2605; HEAD 27629954; README SHA 21ec8d51; size 919. crawler-maintained directory. Daily GitHub + npm sweep, human-merged. RadRebelSam/awesome-jev \u2260 AnotiaWang \u2260 yibie \u2260 cobanov \u2260 logicrw \u2260 v-modal. notes.md \u00a7106."
+    },
+    {
+      "kind": "huggingface",
+      "title": "rdxtremity/jev-reranking",
+      "url": "https://huggingface.co/rdxtremity/jev-reranking",
+      "note": "apache-2.0; likes 0; sha cae796ea; lastModified 2026-09-20T07:44:00Z; peft LoRA r=8 on BGE-M3 + SPLADE. HF peft SPLADE/BGE reranker. rdxtremity/jev-reranking \u2260 carlaiau/jev-reranking. query-side encoders, not a Jev replica. notes.md \u00a7106."
+    },
+    {
+      "kind": "huggingface",
+      "title": "onnx-community/system-one-qwen3.5-4b-scorer-ONNX",
+      "url": "https://huggingface.co/onnx-community/system-one-qwen3.5-4b-scorer-ONNX",
+      "note": "CC-BY-NC-4.0; likes 0; sha fa0bed22; lastModified 2026-09-20T07:01:58Z. ONNX System One Qwen3.5-4B scorer. source:pngwn/system-one-qwen3.5-4b-scorer. temperature 1.75. transformers.js AutoModel cannot load this graph. notes.md \u00a7106."
+    },
+    {
+      "kind": "huggingface-space",
+      "title": "mjyoke1111/jev-consistency-benchmark",
+      "url": "https://huggingface.co/spaces/mjyoke1111/jev-consistency-benchmark",
+      "note": "apache-2.0; likes 0; lastModified 2026-09-20T05:29:45Z. Consistency benchmark Space. This Space contains no benchmark result yet. 12-case plumbing fixture. notes.md \u00a7106."
     }
   ]
 }

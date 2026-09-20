@@ -3155,3 +3155,77 @@ No and no. discography theme/mood/complexity. five atomic questions one call. Co
 ## Did Archer land this hour? Treat Qwen3.8-27B as Archer? Invent tweets?
 
 No, no, and no. Hub `archerhume/4rcherhume` HTTP **401**. Tracker likes **59** (+3 vs §104 **56**); lastModified `2026-09-20T04:29:16Z` **UNCHANGED** vs §104. Laya Hub HTTP **200** likes **705**. Blackwood Hub HTTP **200** likes **2** gated manual — user census **absent** from the tracker; do not rewrite as landed. Live REST pulse (independent review relock after `0558f7d`): SemIf **2069★** (+22 vs §104 **2047**); jevlike **1022★** (+4 vs §104 **1018**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **92★** (+1 vs §104 **91**) ≠ Awesomejev 561/27007 ≠ yibie/awesome-jev **450★**. Qwen3.8-27B ≠ Archer (likes **15796**). `invented_signal: false`. `notes.md` §105.
+
+Turn any open LLM into System-One Jev; uspraveen/Jevify ≠ Mintzs/jevify ≠ gulagala001/jevify; Jevify-any-LLM architecture probe; description-only stub / size 0; Train encoder-only calibrated decision models from a task sentence; Exu is a toolkit, not a method; strictly proper scoring rule; Pre-alpha; Ruivalim/exu-base; scratch-trained calibrated decision model; typed Q → probability dists; Colvin0315/MiniSystemOne ≠ hyusi2003/MiniSystemOne; no published weights download URL; 90.5 seconds / 29.2% pipeline evidence; p_i/p_j independent of other candidates; Recipe for calibrated decision models — small model out; init → synth → train → eval → serve; 91.1 % / ECE 0.022 *theirs*; Jev zero-shot 75.1; scienthoon/luce; Put Jev's three headline claims on trial; 0.5B local GPU; 46x speedup / accuracy identical; ECE 0.624 sentiment catastrophe; bigger model worse calibration; RichardoMrMu/jev-mini ≠ yuki-oshio/mini-jev ≠ r-ms/mini-jev; System-1 decision engine for local LLMs; structured choices only; JSON parse of generated text ≠ Noul; TypefAI JEV / Journal Entry Voucher; tapsin/jev-local ≠ us/jev-local ≠ Argos1111/jev_local; Jev 1.13 reward-model eval across 8 benchmark tracks; 40,940 examples / 0 API errors; RewardBench v1 92.58%; Precise IF 50.63%; goya4140/jev-reward-model-evaluation; Scaffolding in progress; Jev vs LLM support-ticket routing; static + live decision bench; TypeSafe's own published benchmark; illustrative simulations, not live API calls; JevBench v1 — smart/cheap/fast/reliable; I/C/S/K 25% geometric mean; classifier.dev fast tier 84.8 is Jev behind its own API; do not re-fold §78 v1.2 board as new; Laya (421M) 70.1 now on board; Zero-shot/few-shot LLM routing; hard budget filter before Jev; Jev never asked to perform budget arithmetic; Jev judges the next state, XState enforces transitions; simulation uses synthetic keyword fixtures; catalog gravity; v-modal/awesome-jev-tools; ★339 live REST; curation is not endorsement; crawler-maintained directory; Daily GitHub + npm sweep, human-merged; RadRebelSam/awesome-jev ≠ AnotiaWang ≠ yibie ≠ cobanov ≠ logicrw ≠ v-modal; HF peft SPLADE/BGE reranker; rdxtremity/jev-reranking ≠ carlaiau/jev-reranking; query-side encoders, not a Jev replica; ONNX System One Qwen3.5-4B scorer; source:pngwn/system-one-qwen3.5-4b-scorer; CC-BY-NC-4.0; temperature 1.75; transformers.js AutoModel cannot load this graph; Consistency benchmark Space; This Space contains no benchmark result yet; 12-case plumbing fixture; do not reopen or amend PR #23
+
+## Is uspraveen/Jevify a checkpoint? Collapse into Mintzs or gulagala001? Amend PR #23?
+
+No, no, and no. Turn any open LLM into System-One Jev. uspraveen/Jevify ≠ Mintzs/jevify ≠ gulagala001/jevify. Jevify-any-LLM architecture probe. description-only stub / size 0. license **null**; **0★**; HEAD `0f29d783`; README SHA `32608473`. do not reopen or amend PR #23. `notes.md` §106.
+
+## Is Exu a method? Skip `--mode baseline`? Treat Pre-alpha ECE as a proof?
+
+No, no, and no. Train encoder-only calibrated decision models from a task sentence. Exu is a toolkit, not a method. strictly proper scoring rule. Pre-alpha. Ruivalim/exu-base. Python MIT; **1★**; HEAD `7288cdca`; README SHA `45244838`; size **180**. `notes.md` §106.
+
+## Paste Colvin 90.5s / 29.2% as hyusi? Are published weights a download URL? Is p_i/p_j hev isolation?
+
+No, no, and no. scratch-trained calibrated decision model. typed Q → probability dists. Colvin0315/MiniSystemOne ≠ hyusi2003/MiniSystemOne. no published weights download URL. 90.5 seconds / 29.2% pipeline evidence. p_i/p_j independent of other candidates. Apache-2.0; **0★**; HEAD `d7f9f803`; README SHA `a5b0d2fd`; size **814**. hyusi remains description-only stub / size 5. `notes.md` §106.
+
+## Distill Jev as luce's teacher? Quote 91.1% as a class ceiling? Is `/v1/ask` TypeSafe?
+
+No, no, and no. Recipe for calibrated decision models — small model out. init → synth → train → eval → serve. 91.1 % / ECE 0.022 *theirs*. Jev zero-shot 75.1. Teacher is GPT-4o-mini, not Jev. scienthoon/luce. Apache-2.0; **1★**; HEAD `8072b97d`; README SHA `5fbe226d`; size **10833**. `notes.md` §106.
+
+## Quote 46x as Jev identity? Is ECE 0.624 calibrated? Is jev-mini mini-jev?
+
+No, no, and no. Put Jev's three headline claims on trial. 0.5B local GPU. 46x speedup / accuracy identical. ECE 0.624 sentiment catastrophe. bigger model worse calibration. n=18 tiny. RichardoMrMu/jev-mini ≠ yuki-oshio/mini-jev ≠ r-ms/mini-jev. Python MIT; **0★**; HEAD `5adef5dc`; README SHA `154ae8b0`; size **0** with contents. `notes.md` §106.
+
+## Is JSON parse a Noul? Is JEV a Journal Entry Voucher? Collapse tapsin into us/jev-local?
+
+No, no, and no. System-1 decision engine for local LLMs. structured choices only. JSON parse of generated text ≠ Noul. TypefAI JEV / Journal Entry Voucher. tapsin/jev-local ≠ us/jev-local ≠ Argos1111/jev_local. Python; license **null**; **0★**; HEAD `96aac2a1`; README SHA `4d728cbf`; default **master**. `notes.md` §106.
+
+## Quote RewardBench 92.58% as a class ceiling? Is Precise IF Harbor? Is this Harbor?
+
+No, no, and no. Jev 1.13 reward-model eval across 8 benchmark tracks. 40,940 examples / 0 API errors. RewardBench v1 92.58%. Precise IF 50.63%. goya4140/jev-reward-model-evaluation. Python MIT; **0★**; HEAD `f16a06d1`; README SHA `603587fd`. **Not Harbor**. `notes.md` §106.
+
+## Invent ticket-router numbers? Is the README a result?
+
+No and no. Jev vs LLM support-ticket routing. Scaffolding in progress. license **null**; **0★**; HEAD `0318ad72`; README SHA `8223dd6f`. Thin HIGH still gets a real card. `notes.md` §106.
+
+## Paste $0.042 as an Augustus fact? Are the live pages live API calls?
+
+No and no. static + live decision bench. TypeSafe's own published benchmark. illustrative simulations, not live API calls. HTML; license **null**; **0★**; HEAD `2d4bd6a9`; README SHA `f4e98bbf`. `notes.md` §106.
+
+## Is classifier.dev #1 a better model? Re-fold §78 as new? Quote 84.8 as a class ceiling?
+
+No, no, and no. JevBench v1 — smart/cheap/fast/reliable. I/C/S/K 25% geometric mean. classifier.dev fast tier 84.8 is Jev behind its own API. do not re-fold §78 v1.2 board as new. Laya (421M) 70.1 now on board. Python MIT; **6★**; HEAD `c7ab99f5`; README SHA `8fe07c41`; size **8907**. `notes.md` §106.
+
+## Let Jev do budget arithmetic? Treat bundled costs as a ledger? Is ReflexRoute production?
+
+No, no, and no. Zero-shot/few-shot LLM routing. hard budget filter before Jev. Jev never asked to perform budget arithmetic. AIGNLAI/ReflexRoute. Python MIT; **1★**; HEAD `5f475d80`; README SHA `6a1ae694`. Early-stage; bundled costs illustrative. `notes.md` §106.
+
+## Is XState Jev? Are synthetic keyword fixtures live calibration? Copy .env?
+
+No, no, and no. Jev judges the next state, XState enforces transitions. simulation uses synthetic keyword fixtures. TypeScript MIT; **0★**; HEAD `c73aef65`; README SHA `15410dbe`. Do not copy `.env`. `notes.md` §106.
+
+## Is the empty consistency Space a win? Collapse it into jev-lab safety eval?
+
+No and no. Consistency benchmark Space. This Space contains no benchmark result yet. 12-case plumbing fixture. apache-2.0; likes **0**. Companion to mjyoke1111/jev-lab HEAD `5c51bf93`. `notes.md` §106.
+
+## Paste v-modal listed as a bake-off? Is ★339 eval? Is it AnotiaWang?
+
+No, no, and no. catalog gravity. v-modal/awesome-jev-tools. ★339 live REST. curation is not endorsement. license **null**; **339★**; HEAD `f117e0c3`; README SHA `8ea9a669`. `notes.md` §106.
+
+## Is RadRebelSam AnotiaWang or yibie or logicrw? Paste crawler stars as eval?
+
+No and no. crawler-maintained directory. Daily GitHub + npm sweep, human-merged. RadRebelSam/awesome-jev ≠ AnotiaWang ≠ yibie ≠ cobanov ≠ logicrw ≠ v-modal. SPDX NOASSERTION; **0★**; HEAD `27629954`; README SHA `21ec8d51`; LICENSE SHA `2aa7fe23`. `notes.md` §106.
+
+## Is rdxtremity TypeSafe Jev? Collapse into carlaiau/jev-reranking?
+
+No and no. HF peft SPLADE/BGE reranker. rdxtremity/jev-reranking ≠ carlaiau/jev-reranking. query-side encoders, not a Jev replica. apache-2.0; likes **0**; sha `cae796ea`. `notes.md` §106.
+
+## Is the ONNX port Apache? Does transformers.js AutoModel load it? Re-card pngwn as new?
+
+No, no, and no. ONNX System One Qwen3.5-4B scorer. source:pngwn/system-one-qwen3.5-4b-scorer. CC-BY-NC-4.0. temperature 1.75. transformers.js AutoModel cannot load this graph. likes **0**; sha `fa0bed22`. `notes.md` §106.
+
+## Did Archer land this hour? Treat Qwen3.8-27B as Archer? Invent tweets?
+
+No, no, and no. Hub `archerhume/4rcherhume` HTTP **401** (not re-fetched as a rewrite). Tracker `multimodalart/jev-reproductions-tracker` likes **59**; lastModified `2026-09-20T04:29:16.000Z` **UNCHANGED**. `Tonic/4rcher-tracker` HTTP **401**. Live REST pulse: SemIf **2074★** (+27 vs §104 **2047**); jevlike **1022★** (+4 vs §104 **1018**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **92★** ≠ Awesomejev 561/27007 ≠ logicrw **146★** ≠ v-modal **339★**. Qwen/Qwen3.8-27B HTTP **200** likes **15796** lastModified `2026-08-14T15:00:01.000Z` — ≠ Archer. `invented_signal: false`. `notes.md` §106.

@@ -1851,6 +1851,107 @@ owned spans / catalog fetch+cache are exact
 work. Hard-gating a soft Noul as safety is the
 anti-pattern.
 
+
+## Apply 0145 (`notes.md` §106)
+
+Same pillars, seventeen HIGH clusters / four themes
+(architecture probes PRIMARY; measurement densifies;
+catalog gravity; HF class ports). Do **not** re-fold
+2340 / §104 / 2246 / §103 / 2145 / §102 / 2041 / §101 /
+1943 / §100 / 1843 / §99 / 1740 / §98 / 1639 / §96 /
+gliner-native-runtime / §97 / 1541 / §95 / jev-align
+*mechanism* / §93 / jev-orderby-bench *six-gates* / §60 /
+JevBench v1.2 *board* / §78. Fresh PR; never reopen
+merged #7–**#23**. do not reopen or amend PR #23.
+Skip Archer rewrite (still **NOT landed**; Hub 401).
+0★ HIGH still gets a real card. Soft Noul ≠ hard
+safety. Formal methods **compose** with scoring; a
+Noul is a SENSOR.
+
+1. **Jevify-any-LLM architecture probe** —
+   Turn any open LLM into System-One Jev.
+   uspraveen/Jevify ≠ Mintzs/jevify ≠ gulagala001/jevify.
+   Jevify-any-LLM architecture probe.
+   description-only stub / size 0.
+2. **Encoder-only from a task sentence** —
+   Train encoder-only calibrated decision models from a task sentence.
+   Exu is a toolkit, not a method. strictly proper scoring rule. Pre-alpha.
+   Ruivalim/exu-base.
+3. **Scratch-trained recipe upgrade** —
+   scratch-trained calibrated decision model. typed Q → probability dists.
+   Colvin0315/MiniSystemOne ≠ hyusi2003/MiniSystemOne.
+   no published weights download URL. 90.5 seconds / 29.2% pipeline evidence.
+   p_i/p_j independent of other candidates.
+4. **Recipe small model out** —
+   Recipe for calibrated decision models — small model out.
+   init → synth → train → eval → serve.
+   91.1 % / ECE 0.022 *theirs*. Jev zero-shot 75.1. scienthoon/luce.
+5. **Headline claims trial** —
+   Put Jev's three headline claims on trial. 0.5B local GPU.
+   46x speedup / accuracy identical. ECE 0.624 sentiment catastrophe.
+   bigger model worse calibration.
+   RichardoMrMu/jev-mini ≠ yuki-oshio/mini-jev ≠ r-ms/mini-jev.
+6. **Local structured-choice engine** —
+   System-1 decision engine for local LLMs. structured choices only.
+   JSON parse of generated text ≠ Noul. TypefAI JEV / Journal Entry Voucher.
+   tapsin/jev-local ≠ us/jev-local ≠ Argos1111/jev_local.
+7. **Reward-model 8-track** —
+   Jev 1.13 reward-model eval across 8 benchmark tracks.
+   40,940 examples / 0 API errors. RewardBench v1 92.58%. Precise IF 50.63%.
+   goya4140/jev-reward-model-evaluation.
+8. **Ticket-router scaffold** —
+   Jev vs LLM support-ticket routing. Scaffolding in progress.
+9. **Cost bench** —
+   static + live decision bench. TypeSafe's own published benchmark.
+   illustrative simulations, not live API calls.
+10. **JevBench v1.2.3 densify** —
+    JevBench v1 — smart/cheap/fast/reliable. I/C/S/K 25% geometric mean.
+    classifier.dev fast tier 84.8 is Jev behind its own API.
+    do not re-fold §78 v1.2 board as new. Laya (421M) 70.1 now on board.
+11. **Budget-in-code remainder** —
+    Zero-shot/few-shot LLM routing. hard budget filter before Jev.
+    Jev never asked to perform budget arithmetic.
+12. **XState compose** —
+    Jev judges the next state, XState enforces transitions.
+    simulation uses synthetic keyword fixtures.
+13. **Consistency Space** —
+    Consistency benchmark Space. This Space contains no benchmark result yet.
+    12-case plumbing fixture.
+14. **Catalog gravity** —
+    catalog gravity. v-modal/awesome-jev-tools. ★339 live REST.
+    curation is not endorsement.
+15. **Crawler directory** —
+    crawler-maintained directory. Daily GitHub + npm sweep, human-merged.
+    RadRebelSam/awesome-jev ≠ AnotiaWang ≠ yibie ≠ cobanov ≠ logicrw ≠ v-modal.
+16. **HF peft retrieval port** —
+    HF peft SPLADE/BGE reranker. rdxtremity/jev-reranking ≠ carlaiau/jev-reranking.
+    query-side encoders, not a Jev replica.
+17. **ONNX scorer port** —
+    ONNX System One Qwen3.5-4B scorer. source:pngwn/system-one-qwen3.5-4b-scorer.
+    CC-BY-NC-4.0. temperature 1.75. transformers.js AutoModel cannot load this graph.
+
+Soft Noul ≠ hard safety: 90.5s / 29.2% / 91.1% / 46x /
+0.624 / 92.58% / 84.8 / ★339 / T=1.75 are **sensors**.
+Treating a Jevify two-liner as a checkpoint, pasting
+Colvin as hyusi, treating JSON parse as a Noul, quoting
+46x / 91.1% / 92.58% / 84.8 as class ceilings, treating
+classifier.dev #1 as a better model, re-folding §78 as
+new, letting Jev do budget arithmetic, treating XState
+as Jev, pasting catalog ★ as eval, treating SPLADE as
+TypeSafe Jev, or treating an empty consistency Space as
+a win is the same theater as jev-gate §79.
+
+Formal methods **compose** with scoring. A Noul is a
+SENSOR. The any-open-LLM probe / encoder-only toolkit /
+from-scratch recipe / LoRA+head recipe / local GPU trial
+/ JSON-parse honesty / RM tracks / scaffold hole /
+vendor cost infographic / geometric-mean bench / budget
+filter in code / XState envelope / catalog map /
+crawler sweep / query-side encoders / ONNX port /
+empty consistency protocol are exact work. Jevify stub
+and JSON-parse-as-Noul are the anti-patterns.
+
+
 ## Decision-design extras (any domain)
 
 ```text

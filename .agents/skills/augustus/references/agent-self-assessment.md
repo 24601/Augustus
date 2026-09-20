@@ -379,6 +379,22 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   demo P(True) 0.5052 / Choice conf 0.2872 / Score conf 0.0055;
   do not paste listed radar numbers; do not quote 0.916 as a class ceiling
   (`notes.md` §104).
+  **0145:** description-only stub / size 0 never a checkpoint;
+  do not reopen or amend PR #23; Colvin0315/MiniSystemOne ≠ hyusi2003/MiniSystemOne;
+  no published weights download URL; 90.5 seconds / 29.2% pipeline evidence;
+  JSON parse of generated text ≠ Noul; TypefAI JEV / Journal Entry Voucher;
+  46x speedup / accuracy identical is not Jev identity; ECE 0.624 sentiment catastrophe;
+  do not quote 91.1% / 92.58% / 84.8 as class ceilings;
+  classifier.dev fast tier 84.8 is Jev behind its own API;
+  do not re-fold §78 v1.2 board as new; hard budget filter before Jev;
+  Jev never asked to perform budget arithmetic;
+  Jev judges the next state, XState enforces transitions;
+  simulation uses synthetic keyword fixtures;
+  curation is not endorsement; ★339 live REST is not eval;
+  query-side encoders, not a Jev replica;
+  transformers.js AutoModel cannot load this graph;
+  This Space contains no benchmark result yet
+  (`notes.md` §106).
   **Lease / retrieve:**
   [invalidate](https://github.com/chopratejas/invalidate) —
   memory leases ended by new evidence; unsure → review

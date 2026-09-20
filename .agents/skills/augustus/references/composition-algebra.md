@@ -1316,3 +1316,105 @@ items 120–128 / 2041 items 111–119 / 1943 items 102–110 /
 1843 items 97–101 / 1740 items 94–96 / SIGNAL §93
 mechanism. Do **not** merge from merged **#22**.
 Soft Noul ≠ hard safety.
+
+Turn any open LLM into System-One Jev; uspraveen/Jevify ≠ Mintzs/jevify ≠ gulagala001/jevify; Jevify-any-LLM architecture probe; description-only stub / size 0; Train encoder-only calibrated decision models from a task sentence; Exu is a toolkit, not a method; strictly proper scoring rule; Pre-alpha; Ruivalim/exu-base; scratch-trained calibrated decision model; typed Q → probability dists; Colvin0315/MiniSystemOne ≠ hyusi2003/MiniSystemOne; no published weights download URL; 90.5 seconds / 29.2% pipeline evidence; p_i/p_j independent of other candidates; Recipe for calibrated decision models — small model out; init → synth → train → eval → serve; 91.1 % / ECE 0.022 *theirs*; Jev zero-shot 75.1; scienthoon/luce; Put Jev's three headline claims on trial; 0.5B local GPU; 46x speedup / accuracy identical; ECE 0.624 sentiment catastrophe; bigger model worse calibration; RichardoMrMu/jev-mini ≠ yuki-oshio/mini-jev ≠ r-ms/mini-jev; System-1 decision engine for local LLMs; structured choices only; JSON parse of generated text ≠ Noul; TypefAI JEV / Journal Entry Voucher; tapsin/jev-local ≠ us/jev-local ≠ Argos1111/jev_local; Jev 1.13 reward-model eval across 8 benchmark tracks; 40,940 examples / 0 API errors; RewardBench v1 92.58%; Precise IF 50.63%; goya4140/jev-reward-model-evaluation; Scaffolding in progress; Jev vs LLM support-ticket routing; static + live decision bench; TypeSafe's own published benchmark; illustrative simulations, not live API calls; JevBench v1 — smart/cheap/fast/reliable; I/C/S/K 25% geometric mean; classifier.dev fast tier 84.8 is Jev behind its own API; do not re-fold §78 v1.2 board as new; Laya (421M) 70.1 now on board; Zero-shot/few-shot LLM routing; hard budget filter before Jev; Jev never asked to perform budget arithmetic; Jev judges the next state, XState enforces transitions; simulation uses synthetic keyword fixtures; catalog gravity; v-modal/awesome-jev-tools; ★339 live REST; curation is not endorsement; crawler-maintained directory; Daily GitHub + npm sweep, human-merged; RadRebelSam/awesome-jev ≠ AnotiaWang ≠ yibie ≠ cobanov ≠ logicrw ≠ v-modal; HF peft SPLADE/BGE reranker; rdxtremity/jev-reranking ≠ carlaiau/jev-reranking; query-side encoders, not a Jev replica; ONNX System One Qwen3.5-4B scorer; source:pngwn/system-one-qwen3.5-4b-scorer; CC-BY-NC-4.0; temperature 1.75; transformers.js AutoModel cannot load this graph; Consistency benchmark Space; This Space contains no benchmark result yet; 12-case plumbing fixture; do not reopen or amend PR #23
+
+161. **Jevify-any-LLM architecture probe** (uspraveen/Jevify; PRIMARY):
+     position 1 (Operand) as a probe, not a checkpoint.
+     Turn any open LLM into System-One Jev.
+     uspraveen/Jevify ≠ Mintzs/jevify ≠ gulagala001/jevify.
+     description-only stub / size 0.
+     Full cards: `judgment-class.md`, `faq.md`.
+162. **Encoder-only from a task sentence** (Ruivalim/exu-base):
+     position 1 (Operand) as trained decision-only open path.
+     Train encoder-only calibrated decision models from a task sentence.
+     Exu is a toolkit, not a method. strictly proper scoring rule. Pre-alpha.
+     Full cards: `judgment-class.md`, `faq.md`.
+163. **Scratch-trained recipe upgrade** (Colvin0315/MiniSystemOne):
+     position 1 (Operand) as from-scratch one-pass scorer.
+     scratch-trained calibrated decision model. typed Q → probability dists.
+     Colvin0315/MiniSystemOne ≠ hyusi2003/MiniSystemOne.
+     no published weights download URL. 90.5 seconds / 29.2% pipeline evidence.
+     p_i/p_j independent of other candidates.
+     Full cards: `judgment-class.md`, `faq.md`.
+164. **Recipe small model out** (scienthoon/luce):
+     position 1 (Operand) as LoRA + decision head on an open backbone.
+     Recipe for calibrated decision models — small model out.
+     init → synth → train → eval → serve.
+     do not distill Jev as teacher of record.
+     Full cards: `judgment-class.md`, `faq.md`.
+165. **Headline claims trial** (RichardoMrMu/jev-mini):
+     position 8 (Metric) as an instrument, not a score.
+     Put Jev's three headline claims on trial. 0.5B local GPU.
+     46x speedup / accuracy identical. ECE 0.624 sentiment catastrophe.
+     bigger model worse calibration.
+     RichardoMrMu/jev-mini ≠ yuki-oshio/mini-jev ≠ r-ms/mini-jev.
+     Full cards: `validation.md`, `faq.md`.
+166. **Local structured-choice engine** (tapsin/jev-local):
+     do **not** occupy Noul. JSON parse of generated text ≠ Noul.
+     System-1 decision engine for local LLMs. structured choices only.
+     TypefAI JEV / Journal Entry Voucher.
+     tapsin/jev-local ≠ us/jev-local ≠ Argos1111/jev_local.
+     Full cards: `judgment-class.md`, `faq.md`.
+167. **Reward-model 8-track eval** (goya4140/jev-reward-model-evaluation):
+     position 8 (Metric) as Harbor-jevals practice, not Harbor.
+     Jev 1.13 reward-model eval across 8 benchmark tracks.
+     40,940 examples / 0 API errors. RewardBench v1 92.58%. Precise IF 50.63%.
+     Full cards: `validation.md`, `faq.md`.
+168. **Ticket-router scaffold** (SarathChandraBellam/jev-vs-llm-ticket-router):
+     position 8 (Metric) as a hole, not a result.
+     Jev vs LLM support-ticket routing. Scaffolding in progress.
+     Full cards: `validation.md`, `faq.md`.
+169. **Cost bench** (Shilin237/jev-vs-llm-cost):
+     position 8 (Metric) as vendor-published economics.
+     static + live decision bench. TypeSafe's own published benchmark.
+     illustrative simulations, not live API calls.
+     Full cards: `applied-mappings.md`, `faq.md`.
+170. **JevBench v1.2.3 densify** (fstandhartinger/jevbench):
+     position 8 (Metric) as geometric-mean weak-axis pull.
+     JevBench v1 — smart/cheap/fast/reliable. I/C/S/K 25% geometric mean.
+     classifier.dev fast tier 84.8 is Jev behind its own API.
+     do not re-fold §78 v1.2 board as new. Laya (421M) 70.1 now on board.
+     Full cards: `validation.md`, `faq.md`.
+171. **Budget-in-code then Jev remainder** (AIGNLAI/ReflexRoute):
+     positions 3 (Gate) × 11 (Bounds). code proves budget; Jev selects remainder.
+     Zero-shot/few-shot LLM routing. hard budget filter before Jev.
+     Jev never asked to perform budget arithmetic.
+     Full cards: `formal-methods.md`, `faq.md`.
+172. **XState proves transitions** (priyankark/jev-state):
+     positions 3 (Gate) × 1 (Operand). FSM proves; Jev judges next state.
+     Jev judges the next state, XState enforces transitions.
+     simulation uses synthetic keyword fixtures.
+     Full cards: `formal-methods.md`, `faq.md`.
+173. **Catalog gravity** (v-modal/awesome-jev-tools):
+     position 1 (Operand) as class map, not a bake-off.
+     catalog gravity. v-modal/awesome-jev-tools. ★339 live REST.
+     curation is not endorsement.
+     Full cards: `judgment-class.md`, `faq.md`.
+174. **Crawler-maintained directory** (RadRebelSam/awesome-jev):
+     position 1 (Operand) as class map, not a species.
+     crawler-maintained directory. Daily GitHub + npm sweep, human-merged.
+     RadRebelSam/awesome-jev ≠ AnotiaWang ≠ yibie ≠ cobanov ≠ logicrw ≠ v-modal.
+     Full cards: `judgment-class.md`, `faq.md`.
+175. **HF peft retrieval port** (rdxtremity/jev-reranking):
+     position 4 (Selector of F) as dual-encoder retrieval, not Choice/Score/Noul.
+     HF peft SPLADE/BGE reranker. query-side encoders, not a Jev replica.
+     rdxtremity/jev-reranking ≠ carlaiau/jev-reranking.
+     Full cards: `judgment-class.md`, `faq.md`.
+176. **ONNX System One scorer port** (onnx-community/system-one-qwen3.5-4b-scorer-ONNX):
+     position 1 (Operand) as community port, not a new species.
+     ONNX System One Qwen3.5-4B scorer. source:pngwn/system-one-qwen3.5-4b-scorer.
+     CC-BY-NC-4.0. temperature 1.75. transformers.js AutoModel cannot load this graph.
+     Full cards: `judgment-class.md`, `faq.md`.
+177. **Consistency Space plumbing** (mjyoke1111/jev-consistency-benchmark):
+     position 8 (Metric) as a protocol, not a score.
+     Consistency benchmark Space. This Space contains no benchmark result yet.
+     12-case plumbing fixture.
+     Full cards: `validation.md`, `faq.md`.
+
+Hourly 0145 items 161–177 (`notes.md` §106). Do **not**
+re-fold 0042 items 149–160 / 2340 items 138–148 / 2246 items 129–137 / 2145
+items 120–128 / 2041 items 111–119 / 1943 items 102–110 /
+1843 items 97–101 / 1740 items 94–96 / SIGNAL §93
+mechanism / §60 six-gates / §78 v1.2 board.
+Soft Noul ≠ hard safety.

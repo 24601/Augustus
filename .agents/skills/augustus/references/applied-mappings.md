@@ -2087,3 +2087,43 @@ Soft Noul ≠ hard safety.
 
 
 
+**Hourly 0145 HIGH (`notes.md` §106).** Architecture-probe cousin:
+[uspraveen/Jevify](https://github.com/uspraveen/Jevify)
+Turn any open LLM into System-One Jev; uspraveen/Jevify ≠ Mintzs/jevify ≠ gulagala001/jevify;
+Jevify-any-LLM architecture probe; description-only stub / size 0.
+Encoder-only: [Ruivalim/exu-base](https://github.com/Ruivalim/exu-base)
+Train encoder-only calibrated decision models from a task sentence;
+Exu is a toolkit, not a method; strictly proper scoring rule; Pre-alpha.
+Recipe upgrade: [Colvin0315/MiniSystemOne](https://github.com/Colvin0315/MiniSystemOne)
+scratch-trained calibrated decision model; typed Q → probability dists;
+no published weights download URL; 90.5 seconds / 29.2% pipeline evidence.
+Small-model recipe: [scienthoon/luce](https://github.com/scienthoon/luce)
+Recipe for calibrated decision models — small model out; init → synth → train → eval → serve;
+91.1 % / ECE 0.022 *theirs*; Jev zero-shot 75.1.
+Trial: [RichardoMrMu/jev-mini](https://github.com/RichardoMrMu/jev-mini)
+Put Jev's three headline claims on trial; 46x speedup / accuracy identical;
+ECE 0.624 sentiment catastrophe; bigger model worse calibration.
+Local JSON: [tapsin/jev-local](https://github.com/tapsin/jev-local)
+JSON parse of generated text ≠ Noul; TypefAI JEV / Journal Entry Voucher.
+Measurement: [goya4140/jev-reward-model-evaluation](https://github.com/goya4140/jev-reward-model-evaluation)
+Jev 1.13 reward-model eval across 8 benchmark tracks; RewardBench v1 92.58%; Precise IF 50.63%.
+[fstandhartinger/jevbench](https://github.com/fstandhartinger/jevbench)
+classifier.dev fast tier 84.8 is Jev behind its own API; do not re-fold §78 v1.2 board as new;
+Laya (421M) 70.1 now on board.
+Formal compose: [AIGNLAI/ReflexRoute](https://github.com/AIGNLAI/ReflexRoute)
+hard budget filter before Jev; Jev never asked to perform budget arithmetic.
+[priyankark/jev-state](https://github.com/priyankark/jev-state)
+Jev judges the next state, XState enforces transitions; simulation uses synthetic keyword fixtures.
+Catalog: [v-modal/awesome-jev-tools](https://github.com/v-modal/awesome-jev-tools)
+catalog gravity; ★339 live REST; curation is not endorsement.
+[RadRebelSam/awesome-jev](https://github.com/RadRebelSam/awesome-jev)
+crawler-maintained directory; Daily GitHub + npm sweep, human-merged.
+HF ports: rdxtremity/jev-reranking query-side encoders, not a Jev replica;
+onnx-community/system-one-qwen3.5-4b-scorer-ONNX CC-BY-NC-4.0; temperature 1.75;
+transformers.js AutoModel cannot load this graph.
+Consistency: This Space contains no benchmark result yet; 12-case plumbing fixture.
+do not reopen or amend PR #23.
+Do not copy keys / `npx` / `pip` / `.env`. Soft Noul ≠ hard safety.
+
+
+

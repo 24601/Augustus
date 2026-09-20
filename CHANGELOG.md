@@ -16,6 +16,110 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
 
 ### Added
 
+- Hourly 0145 HIGH (`research/notes.md` §106): **Skip
+  Archer rewrite.** Docs-only on a **fresh PR off main**.
+  **HARD RULE:** do not reopen or amend PR #23 (merged
+  #23 owns `notes.md` §105 / items 149–160 / batch #88 —
+  leave it alone). Never reopen merged
+  #7–**#23**. Do **not** re-fold 0042 / §105 / 2340 / §104 / 2246 /
+  §103 / 2145 / §102 / 2041 / §101 / 1943 / §100 / 1843
+  / §99 / 1740 / §98 / 1639 / §96 / gliner-native-runtime
+  / §97 / 1541 / §95 / jev-align *mechanism* / §93 /
+  jev-orderby-bench *six-gates* / §60 / JevBench v1.2
+  *board* / §78. How-to-apply / mental models /
+  architecture / Harbor-jevals / toolbelt — not a thin
+  Jev skill dump. Backend-agnostic
+  categorization/scoring/decision class. Formal methods
+  compose with scoring; a Noul is a SENSOR; treating a
+  Jevify two-liner as a checkpoint, collapsing Jevify
+  into Mintzs or gulagala001, pasting Colvin as hyusi,
+  treating JSON parse as a Noul, quoting 46x / 91.1% /
+  92.58% / 84.8 as class ceilings, treating
+  classifier.dev #1 as a better model, re-folding §78
+  as new, letting Jev do budget arithmetic, treating
+  XState as Jev, pasting catalog ★ as eval, treating
+  SPLADE as TypeSafe Jev, or treating an empty
+  consistency Space as a win is soundness theater.
+  Jevify stub and JSON-parse-as-Noul are the
+  anti-patterns. Seventeen HIGH clusters / four themes:
+  **architecture probes PRIMARY**
+  ([uspraveen/Jevify](https://github.com/uspraveen/Jevify)
+  Turn any open LLM into System-One Jev;
+  uspraveen/Jevify ≠ Mintzs/jevify ≠ gulagala001/jevify;
+  Jevify-any-LLM architecture probe; description-only stub / size 0;
+  license null; **0★**; HEAD `0f29d783`; README SHA `32608473`);
+  ([Ruivalim/exu-base](https://github.com/Ruivalim/exu-base)
+  Train encoder-only calibrated decision models from a task sentence;
+  Exu is a toolkit, not a method; strictly proper scoring rule; Pre-alpha;
+  Python MIT LICENSE SHA `336cde4c`; **1★**; HEAD `7288cdca`; README SHA `45244838`; size **180**);
+  ([Colvin0315/MiniSystemOne](https://github.com/Colvin0315/MiniSystemOne)
+  scratch-trained calibrated decision model; typed Q → probability dists;
+  Colvin0315/MiniSystemOne ≠ hyusi2003/MiniSystemOne;
+  no published weights download URL; 90.5 seconds / 29.2% pipeline evidence;
+  p_i/p_j independent of other candidates;
+  Apache-2.0 LICENSE SHA `261eeb9e`; **0★**; HEAD `d7f9f803`; README SHA `a5b0d2fd`; size **814**);
+  ([scienthoon/luce](https://github.com/scienthoon/luce)
+  Recipe for calibrated decision models — small model out;
+  init → synth → train → eval → serve; 91.1 % / ECE 0.022 *theirs*;
+  Jev zero-shot 75.1; Apache-2.0 LICENSE SHA `d6456956`; **1★**; HEAD `8072b97d`; README SHA `5fbe226d`; size **10833**);
+  ([RichardoMrMu/jev-mini](https://github.com/RichardoMrMu/jev-mini)
+  Put Jev's three headline claims on trial; 0.5B local GPU;
+  46x speedup / accuracy identical; ECE 0.624 sentiment catastrophe;
+  bigger model worse calibration;
+  RichardoMrMu/jev-mini ≠ yuki-oshio/mini-jev ≠ r-ms/mini-jev;
+  Python MIT LICENSE SHA `cbdf24bb`; **0★**; HEAD `5adef5dc`; README SHA `154ae8b0`; size **0** with contents);
+  ([tapsin/jev-local](https://github.com/tapsin/jev-local)
+  System-1 decision engine for local LLMs; structured choices only;
+  JSON parse of generated text ≠ Noul; TypefAI JEV / Journal Entry Voucher;
+  tapsin/jev-local ≠ us/jev-local ≠ Argos1111/jev_local;
+  Python; license null; **0★**; HEAD `96aac2a1`; README SHA `4d728cbf`; default **master**; size **0** with contents);
+  **measurement densifies**
+  ([goya4140/jev-reward-model-evaluation](https://github.com/goya4140/jev-reward-model-evaluation)
+  Jev 1.13 reward-model eval across 8 benchmark tracks;
+  40,940 examples / 0 API errors; RewardBench v1 92.58%; Precise IF 50.63%;
+  Python MIT LICENSE SHA `4588ffe5`; **0★**; HEAD `f16a06d1`; README SHA `603587fd`; size **0** with contents);
+  ([SarathChandraBellam/jev-vs-llm-ticket-router](https://github.com/SarathChandraBellam/jev-vs-llm-ticket-router)
+  Jev vs LLM support-ticket routing; Scaffolding in progress;
+  license null; **0★**; HEAD `0318ad72`; README SHA `8223dd6f`; default **master**; size **0**);
+  ([Shilin237/jev-vs-llm-cost](https://github.com/Shilin237/jev-vs-llm-cost)
+  static + live decision bench; TypeSafe's own published benchmark;
+  illustrative simulations, not live API calls;
+  HTML; license null; **0★**; HEAD `2d4bd6a9`; README SHA `f4e98bbf`; default **master**; size **0**);
+  ([fstandhartinger/jevbench](https://github.com/fstandhartinger/jevbench)
+  JevBench v1 — smart/cheap/fast/reliable; I/C/S/K 25% geometric mean;
+  classifier.dev fast tier 84.8 is Jev behind its own API;
+  do not re-fold §78 v1.2 board as new; Laya (421M) 70.1 now on board;
+  Python MIT LICENSE SHA `ebdd5738`; **6★**; HEAD `c7ab99f5`; README SHA `8fe07c41`; size **8907**);
+  ([AIGNLAI/ReflexRoute](https://github.com/AIGNLAI/ReflexRoute)
+  Zero-shot/few-shot LLM routing; hard budget filter before Jev;
+  Jev never asked to perform budget arithmetic;
+  Python MIT LICENSE SHA `1be8631e`; **1★**; HEAD `5f475d80`; README SHA `6a1ae694`; size **0** with contents);
+  ([priyankark/jev-state](https://github.com/priyankark/jev-state)
+  Jev judges the next state, XState enforces transitions;
+  simulation uses synthetic keyword fixtures;
+  TypeScript MIT LICENSE SHA `78745387`; **0★**; HEAD `c73aef65`; README SHA `15410dbe`; size **0** with contents);
+  (hfspace:mjyoke1111/jev-consistency-benchmark
+  Consistency benchmark Space; This Space contains no benchmark result yet;
+  12-case plumbing fixture; apache-2.0; likes **0**; lastModified `2026-09-20T05:29:45Z`);
+  **catalog gravity**
+  ([v-modal/awesome-jev-tools](https://github.com/v-modal/awesome-jev-tools)
+  catalog gravity; ★339 live REST; curation is not endorsement;
+  license null; **339★**; HEAD `f117e0c3`; README SHA `8ea9a669`; size **83**);
+  ([RadRebelSam/awesome-jev](https://github.com/RadRebelSam/awesome-jev)
+  crawler-maintained directory; Daily GitHub + npm sweep, human-merged;
+  RadRebelSam/awesome-jev ≠ AnotiaWang ≠ yibie ≠ cobanov ≠ logicrw ≠ v-modal;
+  SPDX NOASSERTION LICENSE SHA `2aa7fe23`; **0★**; HEAD `27629954`; README SHA `21ec8d51`; size **919**);
+  **HF class ports**
+  (hf:rdxtremity/jev-reranking
+  HF peft SPLADE/BGE reranker; rdxtremity/jev-reranking ≠ carlaiau/jev-reranking;
+  query-side encoders, not a Jev replica; apache-2.0; likes **0**; sha `cae796ea`);
+  (hf:onnx-community/system-one-qwen3.5-4b-scorer-ONNX
+  ONNX System One Qwen3.5-4B scorer; source:pngwn/system-one-qwen3.5-4b-scorer;
+  CC-BY-NC-4.0; temperature 1.75; transformers.js AutoModel cannot load this graph;
+  likes **0**; sha `fa0bed22`).
+  0★ HIGH still got a real card. Soft Noul ≠ hard safety.
+  `invented_signal: false`.
+
 - Hourly 0042 HIGH (`research/notes.md` §105): **Skip
   Archer rewrite.** Docs-only on a **fresh PR off main**.
   Never reopen merged #7–**#22**. Do **not** merge from

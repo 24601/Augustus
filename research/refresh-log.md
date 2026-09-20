@@ -2235,6 +2235,93 @@
   `invented_signal: false`. Do **not** merge from this
   review — parent merges after CLEAN.
 
+## 2026-09-20T07:45Z — hourly 0145 HIGH (Boise ~01:45 MDT)
+
+- Fresh PR off main after merged #23 (`44e6b9ac` / §105).
+  **HARD RULE:** do not reopen or amend PR #23.
+  Never reopen merged #7–**#23**. Branch
+  `cursor/hourly-0145-augustus-fold-78c6`.
+  Skip Archer rewrite. Quote READMEs. Mark *theirs*.
+  No wrappers / keys / install recipes. Do not dump
+  source. 0★ HIGH still gets a real card. Quote live
+  REST over watch. `invented_signal: false`.
+- Architecture probes PRIMARY (train-or-local recipes,
+  not TypeSafe drop-in): uspraveen/Jevify (**0★**;
+  description-only stub / size 0; HEAD `0f29d783`;
+  README SHA `32608473`); Ruivalim/exu-base (**1★**;
+  Exu is a toolkit, not a method); Colvin0315/MiniSystemOne
+  (**0★**; HEAD `d7f9f803` / README SHA `a5b0d2fd`
+  changed vs §104; 90.5 seconds / 29.2% pipeline
+  evidence); scienthoon/luce (**1★**; 91.1 % / ECE 0.022
+  *theirs*); RichardoMrMu/jev-mini (**0★**; 46x speedup /
+  accuracy identical; ECE 0.624 sentiment catastrophe);
+  tapsin/jev-local (**0★**; JSON parse of generated text ≠ Noul).
+- Measurement densifies: goya4140/jev-reward-model-evaluation
+  (**0★**; RewardBench v1 92.58%; Precise IF 50.63%);
+  SarathChandraBellam/jev-vs-llm-ticket-router (**0★**;
+  Scaffolding in progress); Shilin237/jev-vs-llm-cost
+  (**0★**; TypeSafe's own published benchmark);
+  fstandhartinger/jevbench (**6★**; HEAD `c7ab99f5`;
+  do not re-fold §78 v1.2 board as new; Laya (421M) 70.1
+  now on board; classifier.dev fast tier 84.8 is Jev
+  behind its own API); AIGNLAI/ReflexRoute (**1★**;
+  hard budget filter before Jev); priyankark/jev-state
+  (**0★**; Jev judges the next state, XState enforces
+  transitions); hfspace mjyoke1111/jev-consistency-benchmark
+  (This Space contains no benchmark result yet).
+- Catalog gravity: v-modal/awesome-jev-tools (**339★**
+  live REST; watch said 337; curation is not endorsement);
+  RadRebelSam/awesome-jev (**0★**; crawler-maintained
+  directory; Daily GitHub + npm sweep, human-merged).
+- HF class ports: rdxtremity/jev-reranking (likes **0**;
+  query-side encoders, not a Jev replica);
+  onnx-community/system-one-qwen3.5-4b-scorer-ONNX
+  (CC-BY-NC-4.0; temperature 1.75; transformers.js
+  AutoModel cannot load this graph).
+- Formal methods compose with scoring; a Noul is a SENSOR.
+  Treating a Jevify two-liner as a checkpoint, pasting
+  Colvin as hyusi, treating JSON parse as a Noul, quoting
+  46x / 91.1% / 92.58% / 84.8 as class ceilings, treating
+  classifier.dev #1 as a better model, re-folding §78 as
+  new, letting Jev do budget arithmetic, treating XState
+  as Jev, pasting catalog ★ as eval, treating SPLADE as
+  TypeSafe Jev, or treating an empty consistency Space as
+  a win is soundness theater. Jevify stub and
+  JSON-parse-as-Noul are the anti-patterns.
+- Pulse (do not invent): Archer still NOT landed. Hub
+  archerhume/4rcherhume HTTP **401**. Tracker likes **59**;
+  lastModified `2026-09-20T04:29:16.000Z` **UNCHANGED**.
+  Live REST: SemIf **2074★** (+27 vs §104 2047);
+  jevlike **1022★** (+4 vs §104 1018); TypeAR **12★**
+  **flat**. AnotiaWang/awesome-jev **92★** ≠ Awesomejev
+  561/27007 ≠ logicrw **146★** ≠ v-modal **339★**.
+  yibie **450★**; cobanov **228★**. Qwen3.8-27B ≠ Archer
+  (likes **15796**; lastModified UNCHANGED). Laya Hub
+  likes **704**. typesafe-ai/skills still v0.5.7 HEAD
+  `65a39f3`. X MCP not used; no invented tweets.
+- Cards: SKILL.md, mixed-architecture fail table +
+  gallery, faq, mental-models Apply 0145, judgment-class,
+  validation, applied-mappings, mappings, toolbox,
+  composition-algebra items 161–177, question-design,
+  methods-catalog, formal-methods, agent-self-assessment,
+  ecosystem, CHANGELOG, README.
+- notes.md §106; sources.json; findings.md batch #89.
+  No wrapper. Do **not** merge from this review.
+- Adversarial review honesty locks: Jevify size **0**
+  HEAD `0f29d783` README SHA `32608473`; Colvin HEAD
+  `d7f9f803` README SHA `a5b0d2fd` (was §104 `ac5a0eea` /
+  `f8c47847`); awesome-jev-tools **339★** (watch 337)
+  HEAD `f117e0c3`; jevbench **6★** HEAD `c7ab99f5`
+  README SHA `8fe07c41` (was `27ed3d6c` / `bf1e79ba`);
+  logicrw **146★** HEAD `8dce5fa8` (was **136★** /
+  `97057cc1`); SemIf **2074★** (was §104 **2047★**);
+  tracker likes **59** lastModified unchanged;
+  size **0** with contents (Jevify, jev-mini, tapsin,
+  goya, ticket-router, cost, ReflexRoute, jev-state);
+  0★ HIGH still get real cards (v-modal 339★; jevbench
+  6★; exu/luce/ReflexRoute 1★). YAML frontmatter must
+  still parse. do not reopen or amend PR #23.
+
 ## 2026-09-20T06:17Z — hourly 2340 independent adversarial relock (PR #22)
 
 - Independent review of first-review `3255a57` (claimed live REST
