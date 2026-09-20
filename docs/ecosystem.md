@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Ecosystem
+page_class: dense
 ---
 
 # The judgment-model class, analyzed (Jev is exemplar)
