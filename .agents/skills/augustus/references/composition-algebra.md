@@ -1743,6 +1743,105 @@ bonzi-27b-v2 / ternary-8b / 27b-v1 GGUF family densify; Hub still does not ship 
      fast/full/max are ceilings not sizes. Solar writes, Jev chooses NEXT ACTION.
      Full cards: `mental-models.md`, `formal-methods.md`, `faq.md`.
 
+
+248. **calibration ≠ alpha** (alakise/calibration-is-not-alpha):
+     position 8 (Metric). Calibration is not alpha. NO CURRENT ALPHA CANDIDATE.
+     ΔR² approximately +0.00084. Brier 0.2131387. ECE 0.0421875.
+     Adding Jev probability to deterministic volatility improved Brier by only 1.4058e-05.
+     Full cards: `validation.md`, `mental-models.md`, `faq.md`.
+249. **compaction 0.5 theater** (OrMizL/jev-compaction-bench):
+     positions 3 (Gate) × 8 (Metric). default 0.5 keeps zero non pinned.
+     keepResult median 0.14 to 0.17. keepCall median 0.28 to 0.35.
+     usable range is about 0.10 to 0.25. 7.8% to 57.9%.
+     judges results it never sees. task-finish eval not built yet. $0.002 per compaction.
+     Full cards: `validation.md`, `formal-methods.md`, `faq.md`.
+250. **SGR vs native TabFact** (slavadubrov/sgr-judge-bench):
+     positions 8 (Metric) × 9 (Verifier). slavadubrov/sgr-judge-bench ≠ slavadubrov/jev-judge-bench.
+     Jev 108/120 $0.083 0.34 s. Luna SGR 114/120.
+     paired Jev accuracy-difference intervals include zero. not evidence of equivalence.
+     GLM SGR 26/120 93 format failures. Terra-planned Jev hybrid 55/120.
+     Full cards: `validation.md`, `faq.md`.
+251. **atlas replay remainder** (elyashium/atlas-replay-lab):
+     positions 2 (Post-judge) × 7 (State estimator). rule-based by default, optionally Jev-backed.
+     empty README. missing key cannot break the experience.
+     Full cards: `mixed-architecture.md`, `faq.md`.
+252. **one-decode softmax ≠ Noul** (siren2345/jev-single-decode):
+     position 1 (Operand). prefill plus exactly one decode. softmax over A/B/C ≠ Noul.
+     BBQ 9,053/10,000 (90.53%). ECE 0.0890. Mean confidence 0.9943. overconfident.
+     score and noul not implemented.
+     Full cards: `judgment-class.md`, `validation.md`, `faq.md`.
+253. **DGUI flywheel densify** (hf:ctaxnagomi/DGUI_HYPERMEM-JEV):
+     position 1 (Operand). DGUI 12 rows (was 6).
+     Full cards: `faq.md`.
+254. **INSTRUCT densify** (hf:ctaxnagomi/INSTRUCT_JEV):
+     position 8 (Metric). INSTRUCT 119 rows likes 2.
+     Full cards: `faq.md`.
+255. **encode-once Space** (hfspace:pngwn/open-jev):
+     positions 1 (Operand) × 8 (Metric). encode the state once, decide everything in parallel.
+     0.740 accuracy against a 0.508 majority. ECE 0.047.
+     fine-tune's advantage ends where its 384-token training data does.
+     Full cards: `judgment-class.md`, `validation.md`, `faq.md`.
+256. **jasonkneen Space twin** (hfspace:jasonkneen/open-jev):
+     position 1 (Operand). jasonkneen/open-jev ≠ pngwn/open-jev. same sha d41dc3cd.
+     Full cards: `faq.md`.
+257. **IkerMoel Space densify** (hfspace:IkerMoel/open-alternative-jev):
+     position 1 (Operand). Packed one-forward Space of §49.
+     Full cards: `faq.md`.
+258. **schema-scorer Space densify** (hfspace:mobarmg/jev-schema-scorer):
+     position 8 (Metric). Peaked ranking ≠ calibration.
+     Full cards: `faq.md`.
+259. **jevlogs re-policy** (hfspace:reachjalil/jevlogs-triage-explorer):
+     position 3 (Gate). Space does not call Jev. recomputes routing from saved probabilities.
+     Full cards: `mixed-architecture.md`, `faq.md`.
+260. **financial recorded lab** (IslamBaraka90/jev-typesafe-real-financial-use-cases):
+     positions 8 (Metric) × 4 (Selector). Recorded ≠ alpha.
+     Full cards: `applied-mappings.md`, `faq.md`.
+261. **mailordinal 200-case densify** (Milo318/mailordinal):
+     positions 4 (Selector) × 7 (Policy). 200-case Jev 97.0% / 100.0% / 95.0% / MAE 9.22.
+     synthetic repository benchmark.
+     Full cards: `applied-mappings.md`, `faq.md`.
+262. **Pleo2 skills catalog** (Pleo2/awesome-jev-agent-skills):
+     position 2 (Post-judge). Jev evaluations are advisory. catalog ≠ endorsement.
+     Full cards: `faq.md`.
+263. **nlgrep meaning-search** (YehuiTang0316/jev-nlgrep):
+     position 5 (Comparator). YehuiTang0316/jev-nlgrep ≠ Bentlybro/jevgrep ≠ can1357/jegrep ≠ uehaj/jev-semgrep.
+     default threshold 0.8 still soft. 40-line windows cannot prove whole function.
+     Full cards: `applied-mappings.md`, `formal-methods.md`, `faq.md`.
+264. **token-native extract** (dangquan1402/jev-extract):
+     position 10 (Discretizer). token-native sequential start/end Choice.
+     Gemini/Haiku stubs not configured yet.
+     Full cards: `applied-mappings.md`, `faq.md`.
+265. **jyje LangGraph pilot** (jyje/pilot-typesafeai-jev):
+     positions 4 (Selector) × 3 (Gate). handful of hand-written examples, not a benchmark.
+     Jev judged exactly what it was given.
+     Full cards: `mixed-architecture.md`, `faq.md`.
+266. **laguagu skills sibling** (laguagu/jev-skills):
+     position 1 (Operand). laguagu/jev-skills ≠ laguagu/jev-evidence-lab ≠ Pleo2/awesome-jev-agent-skills.
+     Full cards: `faq.md`.
+267. **cost-optimizer 0.85 floor** (lorensation/llm-cost-optimizer-jev):
+     positions 4 (Selector) × 11 (Bounds). contract_passed is not a claim of guaranteed factual truth.
+     Wilson lower bound 0.85 floor. fixture mode no savings claim.
+     Full cards: `formal-methods.md`, `faq.md`.
+
+Hourly 0646 items 248–267 (`notes.md` §111). Do **not**
+re-fold 0541 items 226–247 / 0439 items 202–225 / 0345 items 186–201 / 0243 items 178–185 / 0145 items 161–177 / 0042 items 149–160 / 2340 items 138–148 / 2246 items 129–137 / 2145
+items 120–128 / 2041 items 111–119 / 1943 items 102–110 /
+1843 items 97–101 / 1740 items 94–96 / SIGNAL §93
+mechanism / §60 six-gates / §78 v1.2 board / §71 claim-audit /
+jev-judge-bench SLA-150 *contract* /
+yuki-oshio/mini-jev *93.25%*.
+Calibration is not alpha; ranking ≠ calibration theater;
+default 0.5 keeps zero non pinned;
+softmax over A/B/C ≠ Noul;
+SemIf 2198★ (+12 vs §110 2186);
+tracker likes 64 flat, lastModified UNCHANGED;
+Laya likes 811 (was 802); Blackwood tracker ABSENT;
+Archer still promised_not_landed;
+do not reopen or amend PR #23/#24/#25/#26/#27/#28.
+Soft Noul ≠ hard safety.
+
+Hourly 0646 uniqueness lock: Calibration is not alpha; NO CURRENT ALPHA CANDIDATE; ΔR² approximately +0.00084; Brier 0.2131387; ECE 0.0421875; Adding Jev probability to deterministic volatility improved Brier by only 1.4058e-05; default 0.5 keeps zero non pinned; keepResult median 0.14 to 0.17; keepCall median 0.28 to 0.35; usable range is about 0.10 to 0.25; 7.8% to 57.9%; judges results it never sees; task-finish eval not built yet; $0.002 per compaction; slavadubrov/sgr-judge-bench ≠ slavadubrov/jev-judge-bench; Jev 108/120 $0.083 0.34 s; Luna SGR 114/120; paired Jev accuracy-difference intervals include zero; not evidence of equivalence; GLM SGR 26/120 93 format failures; Terra-planned Jev hybrid 55/120; rule-based by default, optionally Jev-backed; empty README; missing key cannot break the experience; prefill plus exactly one decode; softmax over A/B/C ≠ Noul; BBQ 9,053/10,000 (90.53%); ECE 0.0890; Mean confidence 0.9943; overconfident; score and noul not implemented; DGUI 12 rows (was 6); INSTRUCT 119 rows likes 2; encode the state once, decide everything in parallel; 0.740 accuracy against a 0.508 majority; ECE 0.047; fine-tune's advantage ends where its 384-token training data does; jasonkneen/open-jev ≠ pngwn/open-jev; same sha d41dc3cd; Space does not call Jev; recomputes routing from saved probabilities; 200-case Jev 97.0% / 100.0% / 95.0% / MAE 9.22; synthetic repository benchmark; Jev evaluations are advisory; YehuiTang0316/jev-nlgrep ≠ Bentlybro/jevgrep ≠ can1357/jegrep ≠ uehaj/jev-semgrep; default threshold 0.8 still soft; 40-line windows cannot prove whole function; token-native sequential start/end Choice; Gemini/Haiku stubs not configured yet; handful of hand-written examples, not a benchmark; Jev judged exactly what it was given; laguagu/jev-skills ≠ laguagu/jev-evidence-lab ≠ Pleo2/awesome-jev-agent-skills; contract_passed is not a claim of guaranteed factual truth; Wilson lower bound 0.85 floor; fixture mode no savings claim; SemIf 2198★ (+12 vs §110 2186); jevlike 1039★ (+1 vs 1038); TypeAR 14★ flat; AnotiaWang 96★ flat; yibie/awesome-jev 498★ (+8 vs 490); Laya likes 811 (was 802); tracker likes 64 flat, lastModified UNCHANGED; do not reopen or amend PR #23/#24/#25/#26/#27/#28.
+
 Hourly 0541 items 226–247 (`notes.md` §110). Do **not**
 re-fold 0439 items 202–225 / 0345 items 186–201 / 0243 items 178–185 / 0145 items 161–177 / 0042 items 149–160 / 2340 items 138–148 / 2246 items 129–137 / 2145
 items 120–128 / 2041 items 111–119 / 1943 items 102–110 /
