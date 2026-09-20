@@ -2069,8 +2069,8 @@
 - Independent review of `babb111` (prior PASS claimed live REST).
   HIGH HEAD/README pins still unchanged. Named pulse drifted:
   SemIf **2046★** (was **2041★**; +27 vs §103 **2019**).
-  jevlike **1016★** (was **1011★**; +10 vs §103 **1006**).
-  TypeAR **12★** **flat**. AnotiaWang **90★** (was **88★**).
+  jevlike **1017★** (was **1011★**; +11 vs §103 **1006**).
+  TypeAR **12★** **flat**. AnotiaWang **91★** (was **88★**).
   yibie **429★** (was **423★**). cobanov **224★** (was **221★**).
   simple-jev **318★** (was **314★**). logicrw **136★** (size **7677**, was **7136**; HEAD/README unchanged) /
   openjev-sglang **205★** / OpenJevPro size **64** unchanged.

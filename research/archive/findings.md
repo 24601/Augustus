@@ -3084,8 +3084,8 @@ Pulse: Archer still NOT landed. Hub
 archerhume/4rcherhume HTTP **401**. Tracker
 multimodalart/jev-reproductions-tracker likes **56**;
 lastModified `2026-09-20T04:29:16Z`. Live REST: SemIf
-**2046★**; jevlike **1016★**; TypeAR **12★** **flat**.
-AnotiaWang/awesome-jev **90★** ≠ Awesomejev 561/27007 ≠
+**2046★**; jevlike **1017★**; TypeAR **12★** **flat**.
+AnotiaWang/awesome-jev **91★** ≠ Awesomejev 561/27007 ≠
 logicrw **136★**. Qwen3.8-27B ≠ Archer.
 `invented_signal: false`.
 

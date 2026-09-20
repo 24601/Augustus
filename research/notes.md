@@ -22459,7 +22459,7 @@ shuffled-context control 0.335.
       **Name lock:** always write
       **logicrw/awesome-jev-projects**.
       logicrw/awesome-jev-projects ≠
-      AnotiaWang/awesome-jev (**90★**) ≠
+      AnotiaWang/awesome-jev (**91★**) ≠
       yibie/awesome-jev (**429★**) ≠
       cobanov/awesome-jev (**224★**) ≠
       fatwang2/awesome-jev ≠
@@ -22576,9 +22576,9 @@ keys / install recipes.
 Census **not provided this hour** (not
 re-derived). Live REST pulse only: SemIf
 **2046★** (+27 vs §103 **2019**; +21 vs first 2340 pin **2025**; +15 vs first-review pin **2031**; +5 vs `babb111` **2041**); jevlike
-**1016★** (+10 vs §103 **1006**; +6 vs first-review **1010**; +5 vs `babb111` **1011**);
+**1017★** (+11 vs §103 **1006**; +7 vs first-review **1010**; +6 vs `babb111` **1011**);
 TypeAR-AI/TypeAR **12★** **flat**;
-AnotiaWang/awesome-jev **90★** (+3 vs §103 **87**) still
+AnotiaWang/awesome-jev **91★** (+4 vs §103 **87**) still
 a **different object** from user-provided
 Awesomejev 561/27007 (§99 pin) and from
 logicrw/awesome-jev-projects **136★** (this
@@ -22603,7 +22603,7 @@ HIGH HEAD/README pins unchanged.
 logicrw **136★** (was **134★** / first pin **132★**;
 HEAD `97057cc1` / README SHA `25a19b31`
 unchanged — auto GitHub sync). SemIf **2046★** /
-jevlike **1016★**. AnotiaWang **90★** (was **88★** / §103 **87**).
+jevlike **1017★**. AnotiaWang **91★** (was **88★** / §103 **87**).
 OpenJevPro GitHub size **64** (was **62**; HEAD
 `94d77bcb` / README SHA `50c77ace` unchanged).
 simple-jev **318★** (was **314★** / first-review **311★**). openjev-sglang
