@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: Augustus
+message: If you use this skill, please cite it using these metadata.
+type: software
+authors:
+  - name: Augustus contributors
+    website: https://github.com/24601/Augustus
+  - family-names: Mustafa
+    given-names: Basit
+    alias: "24601"
+repository-code: https://github.com/24601/Augustus
+url: https://24601.github.io/Augustus/
+abstract: >-
+  Design-judgment skill for placing typed probabilistic judgment
+  (the Jev-class of System One / decision models) using mathematical,
+  logical, and algorithmic mental models. TypeSafe Jev is the
+  documented exemplar, not the monopoly. Formal methods are one pillar.
+  Not a TypeSafe product.
+keywords:
+  - system-one
+  - decision-judgment
+  - jev-class
+  - zero-shot-classification
+  - formal-methods
+  - agentic-ai
+license: MIT
+version: 0.4.0
+date-released: "2026-09-20"

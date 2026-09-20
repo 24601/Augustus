@@ -1,7 +1,8 @@
 title: Augustus
 description: >-
-  Agent skill for placing TypeSafe Jev Choice/Score/Noul with classical
-  decision methods, composition algebra, and a validation gate.
+  System One decision-judgment skill for the Jev-class of typed
+  probabilistic models. Place TypeSafe Jev Choice/Score/Noul — Jev is
+  the exemplar, not the monopoly — beside code, policy, and proof.
 url: https://24601.github.io
 baseurl: /Augustus
 theme: jekyll-theme-cayman

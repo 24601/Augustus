@@ -2758,7 +2758,7 @@
 ## 2026-09-20T13:43Z — hourly 0743 HIGH (Boise ~07:43 MDT)
 
 - Fresh PR off main after merged #29 (`a9c8b61` / §111).
-  **HARD RULE:** do not reopen or amend PR #23 or #24 or #25 or #26 or #27 or #28 or #29 or #30.
+  **HARD RULE:** do not reopen or amend PR #23 or #24 or #25 or #26 or #27 or #28 or #29 or #30 or #32.
   Never reopen merged #7–**#29** / merged **#30**. Branch
   `cursor/fold-hourly-0743-high-794b`.
   Skip Archer rewrite. Quote READMEs. Mark *theirs*.
@@ -2767,19 +2767,19 @@
   WITH CONTENTS still gets a real card. Quote live
   REST over watch. `invented_signal: false`.
 - Measurement densifies PRIMARY: ywchiu/jev_benchmark
-  (**0★**; HEAD `4322c350`; size **0** WITH CONTENTS;
+  (**1★**; HEAD `4322c350`; size **173**;
   Gemma 4 31B 77.0% / Jev 1.13.0 61.4% / Laya 322M 0.0%;
   restriction state 95.0% against 84.4%; None of the systems are particularly good at knowing when to stop and ask;
   They skip the question and call a tool directly; 100% schema pass; six-field joint 48.8% vs 72.8%);
   siren2345/jev-single-decode-transformers (**0★**; HEAD `2aa5fea7`;
   siren2345/jev-single-decode-transformers ≠ siren2345/jev-single-decode;
   Split Transformers experiment from llama.cpp runtime);
-  tanayvasishtha/jev-lab (**0★**; HEAD `7bfd37c1`;
+  tanayvasishtha/jev-lab (**0★**; HEAD `bfd2be53`;
   Four experiments stress-testing TypeSafe's Jev: calibration, bundle bias, label bias, and ensembling;
   second pass must be $0.00 from cache; The pages never call Jev);
   plus dataset/Space densifies (Praveenrajus sha a39eba3f; pngwn README 404;
   jevlogs HDFS 0.9933; BunsDev sha eda59e0a; mini-jev-runs 27 900).
-- Open-weight / RLCD: Verdict-open-jev (**33★**; HEAD `465d542f`;
+- Open-weight / RLCD: Verdict-open-jev (**33★**; HEAD `30f15564`;
   TF-IDF + LogReg ECE 0.0207 vs Jev 0.1440; Verdict-open-jev 48.07% vs Jev 90.80%);
   Mintzs densify 26.1× / 90.0% / 167 ms; rlcd-lite Finding 1 trap;
   distill-corpus Student B MAE 0.148 / Pearson 0.836 / 86.0%;
@@ -2805,7 +2805,7 @@
   question-design, agent-self-assessment, mappings,
   CHANGELOG, README, docs/ecosystem, findings batch #96,
   sources.json. Hunches labeled. No wrapper.
-  Hourly 0743 uniqueness lock: Heman10x-NGU/Verdict-open-jev ≠ Heman10x-NGU/openJev-verdict-2.0; TF-IDF + LogReg ECE 0.0207 vs Jev 0.1440; Verdict-open-jev 48.07% vs Jev 90.80%; abstention combined recall 10.00%; p50 35.58 ms; K=25 (maximum capacity) 72.00%; 0.85 coverage 84.60% selective risk 1.18%; 26.1× faster than standard Qwen JSON generation; Jevify 90.0% / 167 ms CUDA graphs disabled; Finding 1: Brier on stated confidence alone is a trap; grpo_rlcr 0.78 / ECE 0.084; reliability 0.007 but resolution 0.000; 27 900 schema-driven decisions; 13 600 / 13 600 questions; candidate mass min 0.99999624; 22 configs · 166,054 rows · 4 calibration-gold; sha a39eba3f; Student B MAE 0.148 / Pearson 0.836 / 86.0%; pngwn/open-jev-laya-bench README 404; sha 9f69c742 likes 2; HDFS 0.9933 (745/750) / retain 0.0084; BGL ERROR/FATAL protection 1.0000; 2,479 / 2,500 HDFS uncertain; cache hit 0.9648 (2412/2500); $0.153936 estimated; E2 recomputes from saved probabilities; Space sha eda59e0a; MASSIVE English 0.783 / Khmer 0.033 / Hindi 0.133; 40–48 rows too small to ship T; T never changes argmax; siren2345/jev-single-decode-transformers ≠ siren2345/jev-single-decode; Split Transformers experiment from llama.cpp runtime; tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab; Four experiments stress-testing TypeSafe's Jev: calibration, bundle bias, label bias, and ensembling; second pass must be $0.00 from cache; The pages never call Jev; Gemma 4 31B 77.0% / Jev 1.13.0 61.4% / Laya 322M 0.0%; restriction state 95.0% against 84.4%; None of the systems are particularly good at knowing when to stop and ask; They skip the question and call a tool directly; 100% schema pass; six-field joint 48.8% vs 72.8%; ywchiu/jev_benchmark ≠ Running-Dolphins/jev-bench ≠ Praveenrajus/jev-bench; ACT / REVIEW / FALLBACK; A provider failure, timeout, malformed output, or missing answer is **not** a policy outcome; confidence is descriptive provider output, not a substitute for probability; Quality denominators include only valid scored answers; an exact halfway tie chooses the lower level; aiwithenoch/Jev-Skill ≠ simplosophy/jev-skill ≠ laguagu/jev-skills; The local path does not claim to turn a smaller checkpoint into Jev; Low support becomes decision: "review"; MIT-0 SPDX NOASSERTION; current-llm; 结构兼容，不是 Jev 模型能力; altryne/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify; Find where Jev belongs. Design the questions. Measure the difference; TypeAR-AI/TypeAR 301 → TypeLLM/TypeLLM; TypeLLM/TypeLLM 16★; SemIf 2225★ (+18 vs §111 2207); jevlike 1046★ (+3 vs 1043); AnotiaWang 98★ (+1 vs 97); yibie/awesome-jev 516★ (+10 vs 506); Laya likes 852 (was 822); tracker likes 66 (+2 vs 64); lastModified UNCHANGED `2026-09-20T04:29:16.000Z`; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30; notes.md §113
+  Hourly 0743 uniqueness lock: Heman10x-NGU/Verdict-open-jev ≠ Heman10x-NGU/openJev-verdict-2.0; TF-IDF + LogReg ECE 0.0207 vs Jev 0.1440; Verdict-open-jev 48.07% vs Jev 90.80%; abstention combined recall 10.00%; p50 35.58 ms; K=25 (maximum capacity) 72.00%; 0.85 coverage 84.60% selective risk 1.18%; 26.1× faster than standard Qwen JSON generation; Jevify 90.0% / 167 ms CUDA graphs disabled; Finding 1: Brier on stated confidence alone is a trap; grpo_rlcr 0.78 / ECE 0.084; reliability 0.007 but resolution 0.000; 27 900 schema-driven decisions; 13 600 / 13 600 questions; candidate mass min 0.99999624; 22 configs · 166,054 rows · 4 calibration-gold; sha a39eba3f; Student B MAE 0.148 / Pearson 0.836 / 86.0%; pngwn/open-jev-laya-bench README 404; sha 9f69c742 likes 2; HDFS 0.9933 (745/750) / retain 0.0084; BGL ERROR/FATAL protection 1.0000; 2,479 / 2,500 HDFS uncertain; cache hit 0.9648 (2412/2500); $0.153936 estimated; E2 recomputes from saved probabilities; Space sha eda59e0a; MASSIVE English 0.783 / Khmer 0.033 / Hindi 0.133; 40–48 rows too small to ship T; T never changes argmax; siren2345/jev-single-decode-transformers ≠ siren2345/jev-single-decode; Split Transformers experiment from llama.cpp runtime; tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab; Four experiments stress-testing TypeSafe's Jev: calibration, bundle bias, label bias, and ensembling; second pass must be $0.00 from cache; The pages never call Jev; Gemma 4 31B 77.0% / Jev 1.13.0 61.4% / Laya 322M 0.0%; restriction state 95.0% against 84.4%; None of the systems are particularly good at knowing when to stop and ask; They skip the question and call a tool directly; 100% schema pass; six-field joint 48.8% vs 72.8%; ywchiu/jev_benchmark ≠ Running-Dolphins/jev-bench ≠ Praveenrajus/jev-bench; ACT / REVIEW / FALLBACK; A provider failure, timeout, malformed output, or missing answer is **not** a policy outcome; confidence is descriptive provider output, not a substitute for probability; Quality denominators include only valid scored answers; an exact halfway tie chooses the lower level; aiwithenoch/Jev-Skill ≠ simplosophy/jev-skill ≠ laguagu/jev-skills; The local path does not claim to turn a smaller checkpoint into Jev; Low support becomes decision: "review"; MIT-0 SPDX NOASSERTION; current-llm; 结构兼容，不是 Jev 模型能力; altryne/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify; Find where Jev belongs. Design the questions. Measure the difference; TypeAR-AI/TypeAR 301 → TypeLLM/TypeLLM; TypeLLM/TypeLLM 16★; SemIf 2237★ (+30 vs §111 2207); jevlike 1049★ (+6 vs 1043); AnotiaWang 98★ (+1 vs 97); yibie/awesome-jev 521★ (+15 vs 506); Laya likes 861 (was 822); tracker likes 66 (+2 vs 64); lastModified UNCHANGED `2026-09-20T04:29:16.000Z`; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32; notes.md §113
 
 ## 2026-09-20T12:46Z — hourly 0646 HIGH (Boise ~06:46 MDT)
 
