@@ -21951,7 +21951,7 @@ shuffled-context control 0.335.
    language is a red flag, not a recipe.
 10. **Source-backed Awesome radar** — 306+
     commit-pinned projects, auto GitHub sync,
-    Issue-only submissions. **135★** live REST.
+    Issue-only submissions. **136★** live REST.
     Do **not** paste listed numbers as Augustus
     facts. Gacha dispatcher is UX, not evidence.
     Many awesome-jev namesakes.
@@ -22422,12 +22422,12 @@ shuffled-context control 0.335.
 10. **Source-backed Awesome radar**
 
     - **[`logicrw/awesome-jev-projects`](https://github.com/logicrw/awesome-jev-projects)**
-      (JavaScript MIT; **135★** live REST; 14
+      (JavaScript MIT; **136★** live REST; 14
       forks; created 2026-09-18T06:41:50Z;
       pushed 2026-09-20T05:49:54Z; updated
       2026-09-20T05:49:54Z; HEAD `97057cc1` (relock; was `45bab8c4`; README SHA unchanged);
       README SHA `25a19b31`; LICENSE SHA
-      `6d7dc130`; GitHub `size` **7136**;
+      `6d7dc130`; GitHub `size` **7677** (relock; was **7136**);
       default `main`). GitHub description
       *theirs*: "Awesome Jev: source-backed
       open-source ecosystem radar,
@@ -22461,12 +22461,12 @@ shuffled-context control 0.335.
       logicrw/awesome-jev-projects ≠
       AnotiaWang/awesome-jev (**90★**) ≠
       yibie/awesome-jev (**429★**) ≠
-      cobanov/awesome-jev (**223★**) ≠
+      cobanov/awesome-jev (**224★**) ≠
       fatwang2/awesome-jev ≠
       Anil-matcha/awesome-jev-by-typesafe ≠
       rupeshpoojary9/awesome-open-system-one ≠
       OmniJev/awesome-jev.
-      Soft Noul ≠ hard safety: 135★ / 306+
+      Soft Noul ≠ hard safety: 136★ / 306+
       are **sensors**. Treating a radar as a
       scored board is theater.
 
@@ -22575,13 +22575,13 @@ keys / install recipes.
 
 Census **not provided this hour** (not
 re-derived). Live REST pulse only: SemIf
-**2045★** (+26 vs §103 **2019**; +20 vs first 2340 pin **2025**; +14 vs first-review pin **2031**; +4 vs `babb111` **2041**); jevlike
-**1015★** (+9 vs §103 **1006**; +5 vs first-review **1010**; +4 vs `babb111` **1011**);
+**2046★** (+27 vs §103 **2019**; +21 vs first 2340 pin **2025**; +15 vs first-review pin **2031**; +5 vs `babb111` **2041**); jevlike
+**1016★** (+10 vs §103 **1006**; +6 vs first-review **1010**; +5 vs `babb111` **1011**);
 TypeAR-AI/TypeAR **12★** **flat**;
 AnotiaWang/awesome-jev **90★** (+3 vs §103 **87**) still
 a **different object** from user-provided
 Awesomejev 561/27007 (§99 pin) and from
-logicrw/awesome-jev-projects **135★** (this
+logicrw/awesome-jev-projects **136★** (this
 hour). yibie/awesome-jev **429★** is another
 namesake, not re-carded. Archer still **NOT
 landed**. Hub `archerhume/4rcherhume` HTTP
@@ -22600,10 +22600,10 @@ invented tweets. `invented_signal: false`.
 Independent adversarial review relock
 (PR #22; after `babb111`):
 HIGH HEAD/README pins unchanged.
-logicrw **135★** (was **134★** / first pin **132★**;
+logicrw **136★** (was **134★** / first pin **132★**;
 HEAD `97057cc1` / README SHA `25a19b31`
-unchanged — auto GitHub sync). SemIf **2045★** /
-jevlike **1015★**. AnotiaWang **90★** (was **88★** / §103 **87**).
+unchanged — auto GitHub sync). SemIf **2046★** /
+jevlike **1016★**. AnotiaWang **90★** (was **88★** / §103 **87**).
 OpenJevPro GitHub size **64** (was **62**; HEAD
 `94d77bcb` / README SHA `50c77ace` unchanged).
 simple-jev **318★** (was **314★** / first-review **311★**). openjev-sglang
@@ -22611,7 +22611,7 @@ simple-jev **318★** (was **314★** / first-review **311★**). openjev-sglang
 (HEAD `62b103b3` unchanged). Colvin0315/MiniSystemOne
 size **814** (HEAD `ac5a0eea` / README SHA
 `f8c47847` unchanged). yibie **429★** (was **423★** / first-review **417★**);
-cobanov **223★** (was **221★**). Do not paste Colvin as hyusi.
+cobanov **224★** (was **221★**). Do not paste Colvin as hyusi.
 
 ### Not
 
@@ -22640,12 +22640,12 @@ jev-opportunities scored map; jevinize →
 simple-jev; jev-diff saved-decision regression;
 OpenJevPro constrained-logprob theater;
 jev-system-one-rlcd SmolLM NAR; awesome-jev-projects
-source-backed radar **135★**; jevbetter
+source-backed radar **136★**; jevbetter
 rival-aware vs jevlike). §103 / §102 / §101 /
 §100 / §99 / §98 / §97 / §96 / §95 / §93
 mechanism / §60 six-gates **not re-carded**.
 Archer still **NOT landed**. 0★ HIGH still
-got a real card (awesome-jev-projects **135★**;
+got a real card (awesome-jev-projects **136★**;
 jevbetter **12★**). `invented_signal: false`.
 
 ### Cross-links

@@ -87,7 +87,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   ([logicrw/awesome-jev-projects](https://github.com/logicrw/awesome-jev-projects)
   source-backed Awesome Jev radar / 306+ commit-pinned; auto GitHub sync / Issue-only submissions;
   logicrw/awesome-jev-projects ≠ AnotiaWang/awesome-jev ≠ yibie/awesome-jev ≠ cobanov/awesome-jev ≠ rupeshpoojary9/awesome-open-system-one;
-  JavaScript MIT; **135★**; HEAD `97057cc1`; README SHA `25a19b31`; size **7136**);
+  JavaScript MIT; **136★**; HEAD `97057cc1`; README SHA `25a19b31`; size **7677** (relock; was **7136**));
   **rival-aware one-pass scorer**
   ([olanotolu/jevbetter](https://github.com/olanotolu/jevbetter)
   hashed n-gram encoder / rival-aware attention; olanotolu/jevbetter vs jevlike starter;
@@ -95,23 +95,23 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   shuffled-context control 0.335; Python MIT; **12★**; HEAD `bb0ebc82`;
   README SHA `5cbe01d4`; size **324**).
   Soft Noul ≠ hard safety. 0★ HIGH still got a real card
-  (awesome-jev-projects **135★**; jevbetter **12★**). Census
-  **live REST pulse**: SemIf **2045★** (+26 vs §103 **2019**);
-  jevlike **1015★** (+9 vs §103 **1006**); TypeAR **12★**
+  (awesome-jev-projects **136★**; jevbetter **12★**). Census
+  **live REST pulse**: SemIf **2046★** (+27 vs §103 **2019**);
+  jevlike **1016★** (+10 vs §103 **1006**); TypeAR **12★**
   **flat**. Tracker `multimodalart/jev-reproductions-tracker`
   likes **56**; lastModified
   `2026-09-20T04:29:16.000Z`; Hub `archerhume/4rcherhume`
   HTTP **401** (not re-fetched as a rewrite). Archer
   still NOT landed. Awesomejev 561/27007 user-provided
-  (≠ AnotiaWang/awesome-jev **90★** ≠ logicrw **135★**).
+  (≠ AnotiaWang/awesome-jev **90★** ≠ logicrw **136★**).
   Qwen3.8-27B ≠ Archer (likes **15787**).
   Independent adversarial review relock (PR #22
   after `babb111`): HIGH HEAD/README unchanged;
-  star/size lag locked (awesome **135★**; SemIf
-  **2045★**; jevlike **1015★**; AnotiaWang **90★**;
+  star/size lag locked (awesome **136★**; SemIf
+  **2046★**; jevlike **1016★**; AnotiaWang **90★**;
   OpenJevPro size **64**; simple-jev **318★**;
   openjev-sglang **205★**; RLCD size **1513**;
-  Colvin size **814**; yibie **429★**; cobanov **223★**).
+  Colvin size **814**; yibie **429★**; cobanov **224★**).
   `invented_signal: false`. Do not
   copy keys / `npm` / `pip` / `npx` / `uv` /
   `.env`. No wrapper. No invented metrics.

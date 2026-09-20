@@ -1724,7 +1724,7 @@ card. Soft Noul ≠ hard safety. Formal methods
     shuffled-context control 0.335.
 
 Soft Noul ≠ hard safety. ~27M / 4.7h / 0.242 / 0.255 /
-size 1 / 0.81→0.79 / 95.5% pasted / 0.5052 / 135★ /
+size 1 / 0.81→0.79 / 95.5% pasted / 0.5052 / 136★ /
 0.916 are **sensors**. Treating a description-only
 stub as a checkpoint, re-folding six-gates as new,
 distilling Jev as teacher of record, pasting

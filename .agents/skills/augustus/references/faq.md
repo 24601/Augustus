@@ -3092,7 +3092,7 @@ No, no, and no. SmolLM-135M / sub-70ms / 0 output tokens. demo P(True) 0.5052 / 
 
 ## Is awesome-jev-projects AnotiaWang or yibie? Paste listed von/cua numbers? Is 306+ a bake-off?
 
-No, no, and no. source-backed Awesome Jev radar / 306+ commit-pinned. logicrw/awesome-jev-projects ≠ AnotiaWang/awesome-jev ≠ yibie/awesome-jev ≠ cobanov/awesome-jev ≠ rupeshpoojary9/awesome-open-system-one. auto GitHub sync / Issue-only submissions. JavaScript MIT; **135★**; HEAD `97057cc1`; README SHA `25a19b31`; size **7136**. `notes.md` §104.
+No, no, and no. source-backed Awesome Jev radar / 306+ commit-pinned. logicrw/awesome-jev-projects ≠ AnotiaWang/awesome-jev ≠ yibie/awesome-jev ≠ cobanov/awesome-jev ≠ rupeshpoojary9/awesome-open-system-one. auto GitHub sync / Issue-only submissions. JavaScript MIT; **136★**; HEAD `97057cc1`; README SHA `25a19b31`; size **7677** (relock; was **7136**). `notes.md` §104.
 
 ## Quote jevbetter 0.916 as a class ceiling? Is rival-aware the same as hev isolation?
 
@@ -3100,4 +3100,4 @@ No and no (opposite of option isolation). hashed n-gram encoder / rival-aware at
 
 ## Did Archer land this hour? Treat Qwen3.8-27B as Archer? Invent tweets?
 
-No, no, and no. Hub `archerhume/4rcherhume` HTTP **401** (not re-fetched as a rewrite). Tracker `multimodalart/jev-reproductions-tracker` likes **56**; lastModified `2026-09-20T04:29:16.000Z`. `Tonic/4rcher-tracker` HTTP **401**. Live REST pulse: SemIf **2045★** (+26 vs §103 **2019**); jevlike **1015★** (+9 vs §103 **1006**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **90★** (+3 vs §103 **87**) ≠ Awesomejev 561/27007 ≠ logicrw/awesome-jev-projects **135★**. Qwen/Qwen3.8-27B HTTP **200** likes **15787** lastModified `2026-08-14T15:00:01.000Z` — ≠ Archer. `invented_signal: false`. `notes.md` §104.
+No, no, and no. Hub `archerhume/4rcherhume` HTTP **401** (not re-fetched as a rewrite). Tracker `multimodalart/jev-reproductions-tracker` likes **56**; lastModified `2026-09-20T04:29:16.000Z`. `Tonic/4rcher-tracker` HTTP **401**. Live REST pulse: SemIf **2046★** (+27 vs §103 **2019**); jevlike **1016★** (+10 vs §103 **1006**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **90★** (+3 vs §103 **87**) ≠ Awesomejev 561/27007 ≠ logicrw/awesome-jev-projects **136★**. Qwen/Qwen3.8-27B HTTP **200** likes **15787** lastModified `2026-08-14T15:00:01.000Z` — ≠ Archer. `invented_signal: false`. `notes.md` §104.
