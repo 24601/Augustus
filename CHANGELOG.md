@@ -1670,6 +1670,91 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   `invented_signal: false`. Do not copy keys / `npm` /
   `pip` / `npx` / `uv` / `mix` / `curl | sh`. No wrapper.
   No invented metrics.
+- Hourly 2246 HIGH (`research/notes.md` §103): **Skip
+  Archer rewrite.** Docs-only on a **fresh PR off main**.
+  Never reopen merged #7–**#20**. Do **not** re-fold 2145
+  / §102 / 2041 / §101 / 1943 / §100 / 1843 / §99 / 1740
+  / §98 / 1639 / §96 / gliner-native-runtime / §97 / 1541
+  / §95 / jev-align *mechanism* / §93. How-to-apply /
+  mental models / architecture / Harbor-jevals / toolbelt
+  — not a thin Jev skill dump. Backend-agnostic
+  categorization/scoring/decision class. Formal methods
+  compose with scoring; a Noul is a SENSOR; treating a
+  catalog row as a bake-off win, treating constructed
+  scenes as production logs, pasting Hev 80.00% as Jev
+  identity, quoting mini-jev 93.25% as family-disjoint,
+  putting Jev in an AR next-token loop, laundering a Noul
+  as a Lean step, treating parallel rank-k as a sort
+  proof, pasting a curated list’s von sub-15ms as an
+  Augustus fact, or hard-thresholding paper-radar 0.5 as
+  frequency is soundness theater. ChatJev-style soundness
+  theater is the anti-pattern. Nine HIGH clusters:
+  **independent System One evidence catalog**
+  ([reachjalil/system-one-bench](https://github.com/reachjalil/system-one-bench)
+  PRIMARY; scores not one leaderboard; no external record
+  currently reproduced; TokenTrim no-Jev matched hybrid
+  62.4%; JavaScript MIT; **0★**; HEAD `4a83bae6`; README
+  SHA `3e7109bf`; ≠ mallahyari/system-one-benchmark);
+  **typed eval freeze**
+  ([SivletLabs/jev-eval](https://github.com/SivletLabs/jev-eval)
+  21 tasks · 134 items · 208 questions; scenes from public
+  GitHub contracts, not production logs; Python MIT;
+  **0★**; HEAD `3f9d976f`; README SHA `df16766c`; ≠
+  willkelly/jev-evaluation ≠ 4esv/jev-eval);
+  **option-isolated tiny replica**
+  ([nafisazizir/hev](https://github.com/nafisazizir/hev)
+  option isolation (sibling-blind); permutation-equivariant;
+  Hub OWNER not published; Apache-2.0; **0★**; HEAD
+  `79a486f9`; README SHA `b995dce3`; ≠ jaredpalmer/kev);
+  **frozen-LLM typed decisions**
+  ([yuki-oshio/mini-jev](https://github.com/yuki-oshio/mini-jev)
+  frozen local LLM logits, no trained decision head;
+  residual-head 9,222-param decreased 73/96→67/96;
+  confidence = 1−normalized entropy, not P(correct);
+  Python MIT; **0★**; HEAD `dff5b323`; README SHA
+  `363441b6`; ≠ r-ms/mini-jev);
+  **AR next-token anti-pattern**
+  ([erik-dunteman/ChatJev](https://github.com/erik-dunteman/ChatJev)
+  Jev classifier as autoregressive next-token predictor;
+  ChatJev-style soundness theater; license null; **0★**;
+  HEAD `ea33ab8d`; README SHA `c763be19`; ≠ dannote/jev ≠
+  jev-gpt);
+  **formal compose with scoring**
+  ([wufuju2023-cell/jev-alpha-proof-analysis](https://github.com/wufuju2023-cell/jev-alpha-proof-analysis)
+  calibrated decision head × AlphaProof value head;
+  implementation-layer isomorphism, semantic difference;
+  timeout = censoring; do not launder Noul as proof;
+  license null; **0★**; HEAD `afd9bb6f`; README SHA
+  `1810d7f6`);
+  **parallel rank vs serial selection**
+  ([zzzzzec/jevsort](https://github.com/zzzzzec/jevsort)
+  parallel rank-prediction vs serial selection;
+  independent questions can conflict; HTML; license null;
+  **1★**; HEAD `2d960ab9`; README SHA `cbe5e6bf`; ≠
+  keltokhy/jsort);
+  **open-side ecosystem catalog**
+  ([rupeshpoojary9/awesome-open-system-one](https://github.com/rupeshpoojary9/awesome-open-system-one)
+  curated open System One ecosystem catalog; CC0 1.0;
+  SPDX NOASSERTION; **0★**; HEAD `637ee3d3`; README SHA
+  `0007e343`; ≠ AnotiaWang/awesome-jev);
+  **knowledge-work paper radar**
+  ([LYchoon/paper-radar-jev](https://github.com/LYchoon/paper-radar-jev)
+  arXiv paper radar with Jev relevance scoring; ranking ≠
+  calibration / 0.5 still soft; fail-open failed evals
+  not marked seen; Python MIT; **0★**; HEAD `fbadf01c`;
+  README SHA `1cb8a9c3`; size **73**; default master).
+  Soft Noul ≠ hard safety. 0★ HIGH still got a real card
+  (jevsort **1★**). Census **live REST pulse** (review
+  relock): SemIf **2012★** (+12 vs §102 **2000**);
+  jevlike **1006★** (+4 vs §102 **1002**); TypeAR **12★**
+  **flat**. Tracker likes **54**; lastModified
+  `2026-09-20T02:59:13Z`; Hub `archerhume/4rcherhume`
+  HTTP **401** (not re-fetched as a rewrite). Archer
+  still NOT landed. Awesomejev 561/27007 user-provided
+  (≠ AnotiaWang/awesome-jev **86★**). Qwen3.8-27B ≠
+  Archer. `invented_signal: false`. Do not copy keys /
+  `npm` / `pip` / `npx` / `uv` / `.env`. No wrapper.
+  No invented metrics.
 - Hourly 2041 HIGH (`research/notes.md` §101): **Skip
   Archer rewrite.** Docs-only on a **fresh PR off main**.
   Never reopen merged #7–**#18**. Do **not** re-fold 1943

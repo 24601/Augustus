@@ -1579,6 +1579,84 @@ schema stamp / weekend freeze / kernel+doctrine /
 FT pipeline / Hub layout / programmatic gold / VIN
 recurrence / local quote match is exact work.
 
+## Apply 2246 (`notes.md` §103)
+
+Same pillars, nine HIGH clusters (independent System
+One evidence catalog PRIMARY; typed eval freeze;
+option-isolated tiny replica; frozen-LLM typed
+decisions; AR next-token anti-pattern; formal compose
+with scoring; parallel rank vs serial selection;
+open-side ecosystem catalog; knowledge-work paper
+radar). Do **not** re-fold 2145 / §102 / 2041 / §101 /
+1943 / §100 / 1843 / §99 / 1740 / §98 / 1639 / §96 /
+gliner-native-runtime / §97 / 1541 / §95 / jev-align
+*mechanism* / §93. Fresh PR; never reopen merged
+#7–**#20**. Skip Archer rewrite (still **NOT landed**;
+Hub 401 last pin §101). 0★ HIGH still gets a real
+card. Soft Noul ≠ hard safety. Formal methods
+**compose** with scoring; a Noul is a SENSOR.
+
+1. **Independent System One evidence catalog** —
+   scores not one leaderboard.
+   no external record currently reproduced.
+   TokenTrim no-Jev matched hybrid 62.4%.
+   reachjalil/system-one-bench ≠ mallahyari/system-one-benchmark.
+2. **Typed eval freeze** —
+   21 tasks · 134 items · 208 questions.
+   scenes from public GitHub contracts, not production logs.
+   SivletLabs/jev-eval ≠ willkelly/jev-evaluation ≠ 4esv/jev-eval ≠ xxkuboxx/jev-eval ≠ onlyoneaman/jev-eval ≠ dayhaysoos/jevals.
+3. **Option-isolated tiny replica** —
+   option isolation (sibling-blind).
+   permutation-equivariant.
+   Hub OWNER not published.
+   nafisazizir/hev ≠ jaredpalmer/kev.
+4. **Frozen-LLM typed decisions** —
+   frozen local LLM logits, no trained decision head.
+   residual-head 9,222-param decreased 73/96→67/96.
+   confidence = 1−normalized entropy, not P(correct).
+   yuki-oshio/mini-jev ≠ r-ms/mini-jev.
+5. **AR next-token anti-pattern** —
+   Jev classifier as autoregressive next-token predictor.
+   ChatJev-style soundness theater.
+   erik-dunteman/ChatJev ≠ dannote/jev ≠ jev-gpt.
+6. **Formal compose with scoring** —
+   calibrated decision head × AlphaProof value head.
+   implementation-layer isomorphism, semantic difference.
+   timeout = censoring.
+   do not launder Noul as proof.
+7. **Parallel rank vs serial selection** —
+   parallel rank-prediction vs serial selection.
+   independent questions can conflict.
+   zzzzzec/jevsort ≠ keltokhy/jsort.
+8. **Open-side ecosystem catalog** —
+   curated open System One ecosystem catalog.
+   rupeshpoojary9/awesome-open-system-one ≠ AnotiaWang/awesome-jev.
+9. **Knowledge-work paper radar** —
+   arXiv paper radar with Jev relevance scoring.
+   ranking ≠ calibration / 0.5 still soft.
+   fail-open failed evals not marked seen.
+
+Soft Noul ≠ hard safety. 62.4% / 208 questions /
+80.00% / 0/696 / 93.25% / 73/96→67/96 / “kinda works”
+/ softmax-head isomorphism / 1★ / 0.5 are
+**sensors**. Treating a catalog row as a bake-off
+win, treating constructed scenes as production logs,
+pasting Hev 80.00% as Jev identity, quoting 93.25% as
+family-disjoint, putting Jev in an AR next-token
+loop, laundering a Noul as a Lean step, treating
+parallel rank-k as a sort proof, pasting a curated
+list’s von sub-15ms as an Augustus fact, or
+hard-thresholding paper-radar 0.5 as frequency is
+the same theater as jev-gate §79.
+
+Formal methods **compose** with scoring. A Noul is a
+SENSOR. The catalog labels / freeze / option mask /
+logit read / Choice tree (jev-gpt) / Lean kernel /
+serial selection / open-side list / fetch+persist
+are exact work. ChatJev-style soundness theater is
+the anti-pattern.
+
+
 ## Decision-design extras (any domain)
 
 ```text

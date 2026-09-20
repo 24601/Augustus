@@ -1473,6 +1473,34 @@ mismatch needs no API; exit 0 ≠ claim truth;
 WaynezProg/jev-kit ≠ jonathanavis96/jev-kit
 (Airlock)). Soft Noul
 ≠ hard safety. `notes.md` §102.
+**2246 HIGH (`notes.md` §103):** independent System One
+evidence catalog (scores not one leaderboard; no external
+record currently reproduced; TokenTrim no-Jev matched
+hybrid 62.4%; reachjalil/system-one-bench ≠
+mallahyari/system-one-benchmark); typed eval freeze
+(21 tasks · 134 items · 208 questions; scenes from public
+GitHub contracts, not production logs;
+SivletLabs/jev-eval ≠ willkelly/jev-evaluation ≠
+4esv/jev-eval); option isolation (sibling-blind);
+permutation-equivariant; Hub OWNER not published;
+nafisazizir/hev ≠ jaredpalmer/kev; frozen local LLM
+logits, no trained decision head; residual-head
+9,222-param decreased 73/96→67/96; confidence =
+1−normalized entropy, not P(correct);
+yuki-oshio/mini-jev ≠ r-ms/mini-jev; Jev classifier as
+autoregressive next-token predictor; ChatJev-style
+soundness theater; erik-dunteman/ChatJev ≠ dannote/jev ≠
+jev-gpt; calibrated decision head × AlphaProof value
+head; implementation-layer isomorphism, semantic
+difference; timeout = censoring; do not launder Noul as
+proof; parallel rank-prediction vs serial selection;
+independent questions can conflict; zzzzzec/jevsort ≠
+keltokhy/jsort; curated open System One ecosystem
+catalog; rupeshpoojary9/awesome-open-system-one ≠
+AnotiaWang/awesome-jev; arXiv paper radar with Jev
+relevance scoring; ranking ≠ calibration / 0.5 still
+soft; fail-open failed evals not marked seen. Soft Noul
+≠ hard safety. `notes.md` §103.
 **Authorship / jevtest-as-merge-seal (rh-guard owns the
 gate cousin; 2026-09-19 ~16:52):**
 [jev-authorship-check](https://github.com/webstercharly/jev-authorship-check)

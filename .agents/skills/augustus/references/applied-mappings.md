@@ -1987,4 +1987,31 @@ comparative framing is the usable judgment; prior
 injection crowds out evidence; ≠ ember.js. Do not copy
 keys / `mix` / `curl | sh`. Soft Noul ≠ hard safety.
 
+**Hourly 2246 HIGH (`notes.md` §103).** Evidence-catalog
+cousin: [reachjalil/system-one-bench](https://github.com/reachjalil/system-one-bench)
+independent System One evidence catalog; scores not one
+leaderboard; no external record currently reproduced;
+TokenTrim no-Jev matched hybrid 62.4%; ≠ mallahyari.
+Eval cousin: [SivletLabs/jev-eval](https://github.com/SivletLabs/jev-eval)
+21 tasks · 134 items · 208 questions; scenes from public
+GitHub contracts, not production logs; ≠ willkelly ≠ 4esv.
+Knowledge-work cousin:
+[LYchoon/paper-radar-jev](https://github.com/LYchoon/paper-radar-jev)
+arXiv paper radar with Jev relevance scoring; ranking ≠
+calibration / 0.5 still soft; fail-open failed evals not
+marked seen. Anti-pattern:
+[erik-dunteman/ChatJev](https://github.com/erik-dunteman/ChatJev)
+Jev classifier as autoregressive next-token predictor;
+ChatJev-style soundness theater; ≠ dannote/jev ≠ jev-gpt.
+Algorithmic cousin: [zzzzzec/jevsort](https://github.com/zzzzzec/jevsort)
+parallel rank-prediction vs serial selection; independent
+questions can conflict; ≠ jsort. Formal cousin:
+[wufuju2023-cell/jev-alpha-proof-analysis](https://github.com/wufuju2023-cell/jev-alpha-proof-analysis)
+calibrated decision head × AlphaProof value head;
+implementation-layer isomorphism, semantic difference;
+timeout = censoring; do not launder Noul as proof.
+Do not copy keys / `npm` / `uv` / `.env`. Soft Noul ≠ hard
+safety.
+
+
 

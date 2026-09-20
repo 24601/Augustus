@@ -1093,3 +1093,66 @@ Hourly 2145 items 120–128 (`notes.md` §102). Do **not**
 re-fold 2041 items 111–119 / 1943 items 102–110 / 1843
 items 97–101 / 1740 items 94–96 / SIGNAL §93 mechanism.
 Soft Noul ≠ hard safety.
+
+independent System One evidence catalog; scores not one leaderboard; no external record currently reproduced; TokenTrim no-Jev matched hybrid 62.4%; reachjalil/system-one-bench ≠ mallahyari/system-one-benchmark; 21 tasks · 134 items · 208 questions; scenes from public GitHub contracts, not production logs; SivletLabs/jev-eval ≠ willkelly/jev-evaluation ≠ 4esv/jev-eval ≠ xxkuboxx/jev-eval ≠ onlyoneaman/jev-eval ≠ dayhaysoos/jevals; option isolation (sibling-blind); permutation-equivariant; Hub OWNER not published; nafisazizir/hev ≠ jaredpalmer/kev; frozen local LLM logits, no trained decision head; residual-head 9,222-param decreased 73/96→67/96; confidence = 1−normalized entropy, not P(correct); yuki-oshio/mini-jev ≠ r-ms/mini-jev; Jev classifier as autoregressive next-token predictor; ChatJev-style soundness theater; erik-dunteman/ChatJev ≠ dannote/jev ≠ jev-gpt; calibrated decision head × AlphaProof value head; implementation-layer isomorphism, semantic difference; timeout = censoring; do not launder Noul as proof; parallel rank-prediction vs serial selection; independent questions can conflict; zzzzzec/jevsort ≠ keltokhy/jsort; curated open System One ecosystem catalog; rupeshpoojary9/awesome-open-system-one ≠ AnotiaWang/awesome-jev; arXiv paper radar with Jev relevance scoring; ranking ≠ calibration / 0.5 still soft; fail-open failed evals not marked seen
+
+129. **Independent evidence catalog** (reachjalil/system-one-bench; PRIMARY):
+     position 8 (Metric) as reviewed receipts, not a leaderboard.
+     scores not one leaderboard.
+     no external record currently reproduced.
+     TokenTrim no-Jev matched hybrid 62.4%.
+     reachjalil/system-one-bench ≠ mallahyari/system-one-benchmark.
+     Full cards: `validation.md`, `faq.md`.
+130. **Typed eval freeze** (SivletLabs/jev-eval):
+     position 8 (Metric) as Harbor-jevals practice, not Harbor.
+     21 tasks · 134 items · 208 questions.
+     scenes from public GitHub contracts, not production logs.
+     SivletLabs/jev-eval ≠ willkelly/jev-evaluation ≠ 4esv/jev-eval ≠ xxkuboxx/jev-eval ≠ onlyoneaman/jev-eval ≠ dayhaysoos/jevals.
+     Full cards: `validation.md`, `faq.md`.
+131. **Option-isolated tiny replica** (nafisazizir/hev):
+     position 1 (Operand) as trained decision-only open path.
+     option isolation (sibling-blind). permutation-equivariant.
+     Hub OWNER not published.
+     nafisazizir/hev ≠ jaredpalmer/kev.
+     Full cards: `judgment-class.md`, `faq.md`.
+132. **Frozen-LLM typed decisions** (yuki-oshio/mini-jev):
+     position 1 (Operand) as logit-read, not a trained head.
+     frozen local LLM logits, no trained decision head.
+     residual-head 9,222-param decreased 73/96→67/96.
+     confidence = 1−normalized entropy, not P(correct).
+     yuki-oshio/mini-jev ≠ r-ms/mini-jev.
+     Full cards: `judgment-class.md`, `faq.md`.
+133. **AR next-token anti-pattern** (erik-dunteman/ChatJev):
+     do **not** occupy generation. Jev classifier as autoregressive
+     next-token predictor. ChatJev-style soundness theater.
+     erik-dunteman/ChatJev ≠ dannote/jev ≠ jev-gpt.
+     Full cards: `mixed-architecture.md`, `faq.md`.
+134. **Formal compose with scoring** (wufuju2023-cell/jev-alpha-proof-analysis):
+     positions 3 (Gate) × 11 (Bounds) × searchlight. calibrated
+     decision head × AlphaProof value head. implementation-layer
+     isomorphism, semantic difference. timeout = censoring.
+     do not launder Noul as proof.
+     Full cards: `formal-methods.md`, `faq.md`.
+135. **Parallel rank vs serial selection** (zzzzzec/jevsort):
+     position 5 (Comparator) as algorithmic scoring mental model.
+     parallel rank-prediction vs serial selection.
+     independent questions can conflict.
+     zzzzzec/jevsort ≠ keltokhy/jsort.
+     Full cards: `mental-models.md`, `faq.md`.
+136. **Open-side ecosystem catalog** (rupeshpoojary9/awesome-open-system-one):
+     position 1 (Operand) as class map, not a species.
+     curated open System One ecosystem catalog.
+     rupeshpoojary9/awesome-open-system-one ≠ AnotiaWang/awesome-jev.
+     Full cards: `judgment-class.md`, `faq.md`.
+137. **Knowledge-work paper radar** (LYchoon/paper-radar-jev):
+     position 4 (Selector of F) as relevance ranking.
+     arXiv paper radar with Jev relevance scoring.
+     ranking ≠ calibration / 0.5 still soft.
+     fail-open failed evals not marked seen.
+     Full cards: `applied-mappings.md`, `faq.md`.
+
+Hourly 2246 items 129–137 (`notes.md` §103). Do **not**
+re-fold 2145 items 120–128 / 2041 items 111–119 / 1943
+items 102–110 / 1843 items 97–101 / 1740 items 94–96 /
+SIGNAL §93 mechanism.
+Soft Noul ≠ hard safety.
