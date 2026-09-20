@@ -26821,12 +26821,12 @@ laguagu/jev-skills ≠ laguagu/jev-evidence-lab ≠ Pleo2/awesome-jev-agent-skil
 contract_passed is not a claim of guaranteed factual truth;
 Wilson lower bound 0.85 floor;
 fixture mode no savings claim;
-SemIf 2206★ (+20 vs §110 2186);
-jevlike 1042★ (+4 vs 1038);
-TypeAR 14★ flat;
+SemIf 2207★ (+21 vs §110 2186);
+jevlike 1043★ (+5 vs 1038);
+TypeAR 15★ (+1 vs 14);
 AnotiaWang 97★ (+1 vs 96);
-yibie/awesome-jev 503★ (+13 vs 490);
-Laya likes 817 (was 802);
+yibie/awesome-jev 506★ (+16 vs 490);
+Laya likes 822 (was 802);
 tracker likes 64 flat, lastModified UNCHANGED;
 do not reopen or amend PR #23/#24/#25/#26/#27/#28.
 
@@ -26879,9 +26879,9 @@ PRIMARY**
 2. **OrMizL/jev-compaction-bench** (PRIMARY compaction
    measurement) — OrMizL/jev-compaction-bench JavaScript
    MIT; **0★**; HEAD `92fd33e6`; README SHA `c7cd8b6e`;
-   LICENSE SHA `3f4e7f2b`; size **0** WITH CONTENTS.
+   LICENSE SHA `3f4e7f2b`; size **35**.
    Built against tamaratran/fast-jev-compaction (commit
-   `e3f262a`, v0.2.0; **4707★** this pass — densify
+   `e3f262a`, v0.2.0; **4715★** this pass — densify
    pointer, not a rewrite). Three real sessions 99 / 153
    / 78 tool calls. default 0.5 keeps zero non pinned.
    keepResult median 0.14 to 0.17; keepCall median 0.28
@@ -26943,8 +26943,8 @@ PRIMARY**
    Do **not** copy keys.
 
 5. **siren2345/jev-single-decode** — siren2345/jev-single-decode
-   Python MIT; **0★**; HEAD `fda74a09`; README SHA
-   `33d755d6`; LICENSE SHA `3551844d`; size **432**.
+   Python MIT; **0★**; HEAD `65df86a3`; README SHA
+   `51817d8c`; LICENSE SHA `3551844d`; size **432**.
    BBQ table *theirs* still 9,053/10,000 (90.53%) / ECE 0.0890 /
    Mean confidence 0.9943 after README SHA move. Prefill plus exactly one decode over A/B/C.
    softmax over A/B/C ≠ Noul. score and noul not
@@ -27131,7 +27131,7 @@ PRIMARY**
 19. **laguagu/jev-skills** — laguagu/jev-skills; language
     **null**; MIT LICENSE SHA `e5ede121` (same SHA as
     laguagu/jev-evidence-lab §109); **0★**; HEAD
-    `871ec586`; README SHA `a315944d`; size **36**.
+    `871ec586`; README SHA `a315944d`; size **72**.
     laguagu/jev-skills ≠ laguagu/jev-evidence-lab ≠
     Pleo2/awesome-jev-agent-skills ≠ typesafe-ai/skills.
     Three skills: jev-builder / jev-evidence-workflow /
@@ -27194,18 +27194,18 @@ reopen or amend PR #23 or #24 or #25 or #26 or #27 or #28.
 
 Census **not provided this hour** (not
 re-derived). Live REST pulse only: SemIf
-**2206★** (+20 vs §110 **2186**; +40 vs §109
-**2166**); jevlike **1042★** (+4 vs §110 **1038**);
-TypeAR-AI/TypeAR **14★** **flat** vs §110;
+**2207★** (+21 vs §110 **2186**; +41 vs §109
+**2166**); jevlike **1043★** (+5 vs §110 **1038**);
+TypeAR-AI/TypeAR **15★** (+1 vs §110 **14**);
 AnotiaWang/awesome-jev **97★** (+1 vs §110 **96**)
 still a **different object** from
-yibie/awesome-jev **503★** (+13 vs §110 **490**).
+yibie/awesome-jev **506★** (+16 vs §110 **490**).
 Tracker `multimodalart/jev-reproductions-tracker`
 likes **64** **flat** vs §109–§110;
 lastModified **UNCHANGED**
 `2026-09-20T04:29:16.000Z`. Tracker as *model*
 HTTP **401**; as *space* HTTP 200. Laya **present**
-(`convaiinnovations/laya` likes **817** vs §110
+(`convaiinnovations/laya` likes **822** vs §110
 **802**). Blackwood Hub HTTP 200 likes **2** gated
 **manual** sha `3b9e29df` lastModified
 2026-09-18T21:49:56Z **UNCHANGED** **ABSENT** from
@@ -27215,7 +27215,7 @@ rewrite). Qwen3.8-27B ≠ Archer.
 typesafe-ai/skills still v0.5.7 HEAD `65a39f3`.
 X MCP not used this hour; no invented tweets.
 HEAD relock this pass: atlas `9856ab9b` (empty README holds);
-jev-single-decode `fda74a09` / README `33d755d6` (BBQ table
+jev-single-decode `65df86a3` / README `51817d8c` (BBQ table
 unchanged *theirs*); financial `9d2eb48c`; jev-extract
 `20c2f19f`; cost-optimizer `db200b7e` (README SHA HOLD).
 GitHub size lag caught up as in the 0★ card list.
@@ -27231,12 +27231,11 @@ mechanism §69 (row count 6→12 only); ikermoel GH
 family §50/§53/§96; pngwn/open-jev-laya-bench §46.
 
 0★ HIGH still got a real card (nlgrep **1★**; jevlogs
-GH **8★**; the rest **0★**. Size **0** WITH CONTENTS: compaction-bench,
-sgr-judge-bench. GitHub size lag caught up this lock:
-calibration-is-not-alpha **268**; jev-single-decode **432**;
+GH **8★**; the rest **0★**. Size **0** WITH CONTENTS: sgr-judge-bench. GitHub size lag caught up this lock:
+compaction-bench **35**; calibration-is-not-alpha **268**; jev-single-decode **432**;
 Pleo2 **18**; nlgrep **6734**; jev-extract **105**. Size **197** atlas empty README; **6168**
 financial lab; **109** mailordinal; **245** jyje;
-**36** laguagu; **227** cost-optimizer). License
+**72** laguagu; **227** cost-optimizer). License
 **null** (atlas GitHub; sgr SPDX NOASSERTION) still
 got a real card.
 
