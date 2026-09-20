@@ -3978,7 +3978,7 @@
       "kind": "github",
       "title": "Arohtea/jev-readout",
       "url": "https://github.com/Arohtea/jev-readout",
-      "note": "PRIMARY Augustus hourly 0042. JavaScript; GitHub license null (README MIT); 0\u2605; HEAD 03734993; README SHA 76a99fe5; GitHub size 0 with contents. structured probability readouts. distribution > argmax. Noul 0.5 midpoint. score is expectation not integer. bare HTTP not SDK. notes.md \u00a7105."
+      "note": "PRIMARY Augustus hourly 0042. JavaScript; GitHub license null (README MIT); 0\u2605; HEAD 6f1e5900; README SHA 67ee1e96; GitHub size 0 with contents. structured probability readouts. distribution > argmax. Noul 0.5 midpoint. score is expectation not integer. bare HTTP not SDK. notes.md \u00a7105."
     },
     {
       "kind": "github",
@@ -4014,13 +4014,13 @@
       "kind": "github",
       "title": "yibie/laya-jev-lab",
       "url": "https://github.com/yibie/laya-jev-lab",
-      "note": "Python MIT; 0\u2605; HEAD 30ba64dc; README SHA 57bd1832; LICENSE SHA fd19e322; GitHub size 0 with contents. independent Jev API vs Laya. cascade 0.60 matches 78% at 1.8\u00d7. noul facts not judgements. yibie/laya-jev-lab \u2260 dairui1/jev-lab \u2260 BrendanH18/jev-lab. notes.md \u00a7105."
+      "note": "Python MIT; 0\u2605; HEAD 30ba64dc; README SHA 57bd1832; LICENSE SHA fd19e322; GitHub size 49 (relock; was 0 with contents). independent Jev API vs Laya. cascade 0.60 matches 78% at 1.8\u00d7. noul facts not judgements. yibie/laya-jev-lab \u2260 dairui1/jev-lab \u2260 BrendanH18/jev-lab. notes.md \u00a7105."
     },
     {
       "kind": "github",
       "title": "umstek/zero-shot-ie-bench",
       "url": "https://github.com/umstek/zero-shot-ie-bench",
-      "note": "Python MIT; 0\u2605; HEAD 8770b16b; README SHA d69dc96a; LICENSE SHA 4396160e; GitHub size 33. GLiNER vs GLiFormer vs Laya vs Jev. extractors \u2260 decision engines. Laya dict-instructions collapse 58.3%. umstek/zero-shot-ie-bench. notes.md \u00a7105."
+      "note": "Python MIT; 0\u2605; HEAD 8770b16b; README SHA d69dc96a; LICENSE SHA 4396160e; GitHub size 50 (relock; was 33). GLiNER vs GLiFormer vs Laya vs Jev. extractors \u2260 decision engines. Laya dict-instructions collapse 58.3%. umstek/zero-shot-ie-bench. notes.md \u00a7105."
     },
     {
       "kind": "github",
@@ -4038,13 +4038,13 @@
       "kind": "github",
       "title": "GaneshVG18/upgrade-radar",
       "url": "https://github.com/GaneshVG18/upgrade-radar",
-      "note": "TypeScript MIT; 0\u2605; HEAD 1e91eb03; README SHA b7603c01; LICENSE SHA 588680c5; GitHub size 0 with contents. evidence-linked dependency upgrade. Jev never generates filenames. no_direct_evidence \u2260 safe to merge. Live rewrite vs prior-agent pin d7cfc80c. GaneshVG18/upgrade-radar \u2260 LYchoon/paper-radar-jev. notes.md \u00a7105."
+      "note": "TypeScript MIT; 0\u2605; HEAD e438f9bd; README SHA c32f7d18; LICENSE SHA 588680c5; GitHub size 0 with contents. evidence-linked dependency upgrade. Jev never generates filenames. no_direct_evidence \u2260 safe to merge. Live rewrite vs prior-agent pin d7cfc80c. GaneshVG18/upgrade-radar \u2260 LYchoon/paper-radar-jev. notes.md \u00a7105."
     },
     {
       "kind": "github",
       "title": "lirantal/discoprint",
       "url": "https://github.com/lirantal/discoprint",
-      "note": "TypeScript Apache-2.0; 0\u2605; HEAD c2a3d47e; README SHA 392efd29; LICENSE SHA 3c011d11; GitHub size 0 with contents. discography theme/mood/complexity. five atomic questions one call. lirantal/discoprint. notes.md \u00a7105."
+      "note": "TypeScript Apache-2.0; 0\u2605; HEAD a9d3294f; README SHA 9a64f473; LICENSE SHA 3c011d11; GitHub size 0 with contents. discography theme/mood/complexity. five atomic questions one call. lirantal/discoprint. notes.md \u00a7105."
     }
   ]
 }

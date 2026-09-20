@@ -45,7 +45,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   PRIMARY; structured probability readouts; distribution >
   argmax; Noul 0.5 midpoint; score is expectation not
   integer; bare HTTP not SDK; JavaScript; license null;
-  **0★**; HEAD `03734993`; README SHA `76a99fe5`);
+  **0★**; HEAD `6f1e5900`; README SHA `67ee1e96`);
   **ordinary-model Jev-shape**
   ([gulagala001/jevify](https://github.com/gulagala001/jevify)
   Jev-style Choice/Score/Noul from ordinary models;
@@ -106,25 +106,33 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   evidence-linked dependency upgrade; Jev never generates
   filenames; no_direct_evidence ≠ safe to merge;
   GaneshVG18/upgrade-radar ≠ LYchoon/paper-radar-jev;
-  TypeScript MIT; **0★**; HEAD `1e91eb03`; README SHA
-  `b7603c01`);
+  TypeScript MIT; **0★**; HEAD `e438f9bd`; README SHA
+  `c32f7d18`);
   **knowledge-work discography**
   ([lirantal/discoprint](https://github.com/lirantal/discoprint)
   discography theme/mood/complexity; five atomic questions
   one call; TypeScript Apache-2.0; **0★**; HEAD
-  `c2a3d47e`; README SHA `392efd29`). Soft Noul ≠ hard
+  `a9d3294f`; README SHA `9a64f473`). Soft Noul ≠ hard
   safety. 0★ HIGH still got a real card (all twelve
-  **0★**). Census **live REST pulse**: SemIf **2047★**
-  (flat vs §104 **2047**); jevlike **1018★** (+12 vs §103
-  **1006**); TypeAR **12★** **flat**. Tracker likes
-  **56**; lastModified `2026-09-20T04:29:16Z`; Hub
+  **0★**). Census **live REST pulse** (relock after first
+  PR): SemIf **2057★** (+10 vs §104 **2047**); jevlike
+  **1021★** (+3 vs §104 **1018**); TypeAR **12★** **flat**.
+  Tracker likes **56**; lastModified
+  `2026-09-20T04:29:16Z` **UNCHANGED** vs §104. Hub
   `archerhume/4rcherhume` HTTP **401**. Archer still NOT
-  landed. Laya Hub likes **672**. Blackwood Hub likes **2**
+  landed. Laya Hub likes **686**. Blackwood Hub likes **2**
   gated manual — user census absent from tracker. Awesomejev
   561/27007 user-provided (≠ AnotiaWang/awesome-jev
-  **91★**). Qwen3.8-27B ≠ Archer. `invented_signal:
-  false`. Do not copy keys / `npm` / `pip` / `npx` /
-  `uv` / `.env`. No wrapper. No invented metrics.
+  **92★**). Qwen3.8-27B ≠ Archer (likes **15793**).
+  `invented_signal: false`. Do not copy keys / `npm` /
+  `pip` / `npx` / `uv` / `.env`. No wrapper. No invented
+  metrics. Relock: Arohtea HEAD `03734993`→`6f1e5900` /
+  README `76a99fe5`→`67ee1e96`; upgrade-radar HEAD
+  `1e91eb03`→`e438f9bd` / README `b7603c01`→`c32f7d18`;
+  discoprint HEAD `c2a3d47e`→`a9d3294f` / README
+  `392efd29`→`9a64f473`; yibie/laya-jev-lab size **49**
+  (was **0** with contents); umstek size **50** (was
+  **33**). Design claims unchanged.
 - Hourly 2041 HIGH (`research/notes.md` §101): **Skip
   Archer rewrite.** Docs-only on a **fresh PR off main**.
   Never reopen merged #7–**#18**. Do **not** re-fold 1943

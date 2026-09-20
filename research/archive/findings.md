@@ -3038,7 +3038,7 @@ exemplar this hour. Quote live REST over watch.
 
 - **Structured probability readouts (PRIMARY).**
   Arohtea/jev-readout (JavaScript; license null; README
-  MIT; **0★**; HEAD `03734993`; README SHA `76a99fe5`;
+  MIT; **0★**; HEAD `6f1e5900`; README SHA `67ee1e96`;
   GitHub size 0 with contents). structured probability
   readouts. distribution > argmax. Noul 0.5 midpoint.
   score is expectation not integer. bare HTTP not SDK.
@@ -3095,26 +3095,25 @@ exemplar this hour. Quote live REST over watch.
   SivletLabs/jev-eval.
 - **Evidence-linked upgrade review.**
   GaneshVG18/upgrade-radar (TypeScript MIT; **0★**; HEAD
-  `1e91eb03`; README SHA `b7603c01`). evidence-linked
+  `e438f9bd`; README SHA `c32f7d18`). evidence-linked
   dependency upgrade. Jev never generates filenames.
   no_direct_evidence ≠ safe to merge.
   GaneshVG18/upgrade-radar ≠ LYchoon/paper-radar-jev.
 - **Knowledge-work discography.** lirantal/discoprint
-  (TypeScript Apache-2.0; **0★**; HEAD `c2a3d47e`;
-  README SHA `392efd29`). discography
+  (TypeScript Apache-2.0; **0★**; HEAD `a9d3294f`;
+  README SHA `9a64f473`). discography
   theme/mood/complexity. five atomic questions one call.
   lirantal/discoprint.
 
-Pulse: Archer still NOT landed. Hub
+Pulse (relock after first PR): Archer still NOT landed. Hub
 archerhume/4rcherhume HTTP **401**. Tracker likes **56**
 (flat vs §104 **56**); lastModified
-`2026-09-20T04:29:16Z` **CHANGED** vs §103
-`2026-09-20T02:59:13Z`. Laya Hub likes **672**.
+`2026-09-20T04:29:16Z` **UNCHANGED** vs §104. Laya Hub likes **686**.
 Blackwood Hub likes **2** gated manual — user census
-absent from tracker. Live REST: SemIf **2047★**; jevlike
-**1018★**; TypeAR **12★** flat. AnotiaWang/awesome-jev
-**91★** ≠ Awesomejev 561/27007. Qwen3.8-27B ≠ Archer.
-`invented_signal: false`.
+absent from tracker. Live REST: SemIf **2057★**; jevlike
+**1021★**; TypeAR **12★** flat. AnotiaWang/awesome-jev
+**92★** ≠ Awesomejev 561/27007. Qwen3.8-27B ≠ Archer
+(likes **15793**). `invented_signal: false`.
 
 Cross-repo addition: (nb) structured probability
 readouts; (nc) ordinary-model Jev-shape; (nd) open-weight

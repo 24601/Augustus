@@ -2087,7 +2087,7 @@
   vs Laya vs Jev); angelgalvisc/snake-arena-jev-vs-llms
   (**0★**; decisions-per-minute & cost);
   sathariels/jevcheck (**0★**; behavioral contracts);
-  GaneshVG18/upgrade-radar (**0★**; HEAD `1e91eb03` live
+  GaneshVG18/upgrade-radar (**0★**; HEAD `e438f9bd` live
   rewrite vs prior-agent `d7cfc80c`); lirantal/discoprint
   (**0★**; discography theme/mood/complexity).
 - Formal methods compose with scoring; a Noul is a SENSOR.
@@ -2102,18 +2102,10 @@
   merge-safe, or treating theme Choice as a music-theory
   certificate is soundness theater. Hard-gating a soft
   Noul as safety is the anti-pattern.
-- Pulse (do not invent): Archer still NOT landed. Hub
-  archerhume/4rcherhume HTTP **401**. Tracker likes **56**
-  (flat vs §104 **56**; +1 vs the incoming watch);
-  lastModified **UNCHANGED** `2026-09-20T04:29:16Z`
-  vs §104 / 2340. Laya Hub likes
-  **672**. Blackwood Hub likes **2** gated manual — user
-  census **absent** from tracker. Live REST: SemIf
-  **2047★** (flat vs §104 **2047**); jevlike **1018★**
-  (flat vs §104 **1018**); TypeAR **12★** **flat**.
-  AnotiaWang/awesome-jev **91★** (flat vs §104 **91**) ≠
-  Awesomejev 561/27007. Qwen3.8-27B ≠ Archer. X MCP not
-  used; no invented tweets.
+- Pulse (do not invent; superseded by post-PR relock
+  below): first-fold pin SemIf **2047★** / jevlike
+  **1018★** / AnotiaWang **91★** / Laya **672**. Tracker
+  likes **56**; lastModified **UNCHANGED** vs §104.
 - Cards: SKILL.md, mixed-architecture fail table +
   gallery, faq, mental-models Apply 0042, judgment-class,
   validation, applied-mappings, mappings, toolbox,
@@ -2125,11 +2117,12 @@
 - Adversarial review honesty locks: GitHub size 0 with
   contents (jev-readout / gulagala001/jevify /
   laya-rlcd-benchmark / jev-fastloop / jev-fanout /
-  reflexrl / laya-jev-lab / upgrade-radar / discoprint);
-  zero-shot-ie-bench size **33**; snake-arena size **194**;
+  reflexrl / upgrade-radar / discoprint);
+  laya-jev-lab size **49** (relock; was **0** with contents);
+  zero-shot-ie-bench size **50** (relock; was **33**); snake-arena size **194**;
   jevcheck size **117**; license null (Arohtea README MIT;
   mourad); gulagala001 SPDX MIT this pass; upgrade-radar
-  HEAD `d7cfc80c`→`1e91eb03` / README `d1094805`→`b7603c01`;
+  HEAD `d7cfc80c`→`e438f9bd` / README `d1094805`→`c32f7d18`;
   0★ HIGH still got a real card (all twelve **0★**).
   Name locks: gulagala001/jevify ≠ Mintzs/jevify;
   mourad ≠ yibie/laya-jev-lab; jev-fastloop ≠ jev-ultrafast;
@@ -2137,6 +2130,39 @@
   BrendanH18; snake-arena ≠ jev-plays-games; jevcheck ≠
   jevals ≠ SivletLabs/jev-eval; upgrade-radar ≠
   paper-radar-jev.
+
+## 2026-09-20T07:20Z — hourly 0042 live REST relock after first PR (#23)
+
+- Independent live REST after `be7f95b` (PR #23). Design
+  claims unchanged. Unique consecutive fragments unchanged.
+  Skip Archer rewrite. `invented_signal: false`.
+- HIGH HEAD/README **moved** (relock): Arohtea/jev-readout
+  HEAD `03734993`→`6f1e5900`, README `76a99fe5`→`67ee1e96`
+  (still distribution > argmax / Noul 0.5 / Score as
+  expectation / bare HTTP); GaneshVG18/upgrade-radar HEAD
+  `1e91eb03`→`e438f9bd`, README `b7603c01`→`c32f7d18`
+  (still Jev never generates filenames /
+  `no_direct_evidence` ≠ merge-safe / Action `@v0.1.3`);
+  lirantal/discoprint HEAD `c2a3d47e`→`a9d3294f`, README
+  `392efd29`→`9a64f473` (still theme/mood/complexity /
+  five atomic questions one call). Size still **0** with
+  contents on those three.
+- HIGH HEAD/README **unchanged**: gulagala001/jevify,
+  mourad-ghafiri/laya-rlcd-benchmark, jev-fastloop,
+  jev-fanout, reflexrl, yibie/laya-jev-lab, umstek,
+  snake-arena, jevcheck. GitHub size lag: yibie/laya-jev-lab
+  **49** (was **0** with contents); umstek **50** (was
+  **33**). snake-arena **194**; jevcheck **117**.
+- Pulse vs first-fold / §104: SemIf **2057★** (+10 vs
+  **2047**); jevlike **1021★** (+3 vs **1018**); TypeAR
+  **12★** **flat**; AnotiaWang/awesome-jev **92★** (+1 vs
+  **91**); yibie/awesome-jev **442★** (was **430**). Laya
+  Hub likes **686** (+14 vs **672**). Qwen3.8-27B likes
+  **15793** (was **15787**) ≠ Archer. Tracker likes **56**
+  / lastModified `2026-09-20T04:29:16Z` **UNCHANGED**.
+  Blackwood likes **2** gated manual — census **absent**.
+  Archer Hub HTTP **401**. All twelve HIGH still **0★**.
+  Do **not** merge from this review.
 
 ## 2026-09-20T06:42Z — hourly 2340 independent adversarial relock after `babb111` (PR #22)
 

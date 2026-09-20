@@ -3106,7 +3106,7 @@ structured probability readouts; distribution > argmax; Noul 0.5 midpoint; score
 
 ## Is jev-readout an SDK tutorial? Treat displayed p as proof? Round Score to an integer?
 
-No, no, and no. structured probability readouts. distribution > argmax. Noul 0.5 midpoint. score is expectation not integer. bare HTTP not SDK. CORS so the key stays server-side. JavaScript; license **null** (README MIT); **0★**; HEAD `03734993`; README SHA `76a99fe5`; GitHub size **0** with contents. Arohtea/jev-readout. Soft Noul ≠ hard safety. `notes.md` §105.
+No, no, and no. structured probability readouts. distribution > argmax. Noul 0.5 midpoint. score is expectation not integer. bare HTTP not SDK. CORS so the key stays server-side. JavaScript; license **null** (README MIT); **0★**; HEAD `6f1e5900`; README SHA `67ee1e96`; GitHub size **0** with contents. Arohtea/jev-readout. Soft Noul ≠ hard safety. `notes.md` §105.
 
 ## Is gulagala001/jevify Mintzs/jevify? Is schema-valid JSON a calibrated Noul? Are questions independent parallel?
 
@@ -3130,11 +3130,11 @@ No, no, and no. Qwen3-VL perception + Jev decisions train RL. 0 model calls at d
 
 ## Is yibie/laya-jev-lab dairui1 or BrendanH18? Hard-gate cascade 0.60? Cite “choice is order-biased”?
 
-No, no, and no. independent Jev API vs Laya. cascade 0.60 matches 78% at 1.8× (45% local). noul facts not judgements. Retracted: “choice order-biased” (n=4) and “Laya confidence trustworthy above 0.7”. Confidence-to-accuracy not monotonic past 0.70. Python MIT; **0★**; HEAD `30ba64dc`; README SHA `57bd1832`; GitHub size **0** with contents. yibie/laya-jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab. `notes.md` §105.
+No, no, and no. independent Jev API vs Laya. cascade 0.60 matches 78% at 1.8× (45% local). noul facts not judgements. Retracted: “choice order-biased” (n=4) and “Laya confidence trustworthy above 0.7”. Confidence-to-accuracy not monotonic past 0.70. Python MIT; **0★**; HEAD `30ba64dc`; README SHA `57bd1832`; GitHub size **49** (relock; was **0** with contents). yibie/laya-jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab. `notes.md` §105.
 
 ## Are GLiNER/GLiFormer decision engines? Quote 100% sentiment as a class win? Collapse locate into decide?
 
-No, no, and no. GLiNER vs GLiFormer vs Laya vs Jev. extractors ≠ decision engines. Laya dict-instructions collapse 58.3% (strings 95.8%). Easy sentiment set. NER F1 GLiFormer-base 1.00 *theirs*. Python MIT; **0★**; HEAD `8770b16b`; README SHA `d69dc96a`; size **33**. umstek/zero-shot-ie-bench. `notes.md` §105.
+No, no, and no. GLiNER vs GLiFormer vs Laya vs Jev. extractors ≠ decision engines. Laya dict-instructions collapse 58.3% (strings 95.8%). Easy sentiment set. NER F1 GLiFormer-base 1.00 *theirs*. Python MIT; **0★**; HEAD `8770b16b`; README SHA `d69dc96a`; size **50** (relock; was **33**). umstek/zero-shot-ie-bench. `notes.md` §105.
 
 ## Is 21 snake points intelligence? Collapse into jev-plays-games? Ignore 36% of moves <0.90?
 
@@ -3146,12 +3146,12 @@ No, no, and no. behavioral contracts. pin expectations eval upgrades. raw 0.94 i
 
 ## Is `no_direct_evidence` safe to merge? Does Jev generate filenames? Is the screenshot live Jev? Collapse into paper-radar?
 
-No, no, no, and no. evidence-linked dependency upgrade. Jev never generates filenames. no_direct_evidence ≠ safe to merge. ILLUSTRATIVE FIXTURE is not live Jev. Exit 0 advisory. TypeScript MIT; **0★**; HEAD `1e91eb03`; README SHA `b7603c01`; GitHub size **0** with contents. GaneshVG18/upgrade-radar ≠ LYchoon/paper-radar-jev. `notes.md` §105.
+No, no, no, and no. evidence-linked dependency upgrade. Jev never generates filenames. no_direct_evidence ≠ safe to merge. ILLUSTRATIVE FIXTURE is not live Jev. Exit 0 advisory. TypeScript MIT; **0★**; HEAD `e438f9bd`; README SHA `c32f7d18`; GitHub size **0** with contents. GaneshVG18/upgrade-radar ≠ LYchoon/paper-radar-jev. `notes.md` §105.
 
 ## Is theme Choice a music-theory certificate? Copy npx/.env as a skill?
 
-No and no. discography theme/mood/complexity. five atomic questions one call. Code owns MusicBrainz/lrclib; Jev scores lyrics. TypeScript Apache-2.0; **0★**; HEAD `c2a3d47e`; README SHA `392efd29`; GitHub size **0** with contents. lirantal/discoprint. Do not copy `npx` / keys. `notes.md` §105.
+No and no. discography theme/mood/complexity. five atomic questions one call. Code owns MusicBrainz/lrclib; Jev scores lyrics. TypeScript Apache-2.0; **0★**; HEAD `a9d3294f`; README SHA `9a64f473`; GitHub size **0** with contents. lirantal/discoprint. Do not copy `npx` / keys. `notes.md` §105.
 
 ## Did Archer land this hour? Treat Qwen3.8-27B as Archer? Invent tweets?
 
-No, no, and no. Hub `archerhume/4rcherhume` HTTP **401**. Tracker likes **56** (flat vs §104 **56**); lastModified `2026-09-20T04:29:16Z` **UNCHANGED** vs §104. Laya Hub HTTP **200** likes **672**. Blackwood Hub HTTP **200** likes **2** gated manual — user census **absent** from the tracker; do not rewrite as landed. Live REST pulse: SemIf **2047★** (flat vs §104 **2047**); jevlike **1018★** (flat vs §104 **1018**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **91★** (flat vs §104 **91**) ≠ Awesomejev 561/27007. Qwen3.8-27B ≠ Archer. `invented_signal: false`. `notes.md` §105.
+No, no, and no. Hub `archerhume/4rcherhume` HTTP **401**. Tracker likes **56** (flat vs §104 **56**); lastModified `2026-09-20T04:29:16Z` **UNCHANGED** vs §104. Laya Hub HTTP **200** likes **686**. Blackwood Hub HTTP **200** likes **2** gated manual — user census **absent** from the tracker; do not rewrite as landed. Live REST pulse (relock after first PR): SemIf **2057★** (+10 vs §104 **2047**); jevlike **1021★** (+3 vs §104 **1018**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **92★** (+1 vs §104 **91**) ≠ Awesomejev 561/27007. Qwen3.8-27B ≠ Archer (likes **15793**). `invented_signal: false`. `notes.md` §105.
