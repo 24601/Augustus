@@ -3019,7 +3019,7 @@ rename; (ly) schema-compiler HIGH upgrade; (lz) ANE /
 local-logit / Pi-loop economics.
 ## Batch #95 (2026-09-20 ~14:10 UTC / ~08:06 Boise) — user-provided HIGH Merve Noyan ZS classifier lineage
 
-User-provided 0806 uniqueness lock: people who compare Jev against GPT-5.6 has never fine-tuned BERTForXYZ for living and it shows; zero shot classifiers; scale them as much as decoder only models; many problems solved with LLMs could have been solved with them, it was a skill issue; opt for DeBERTa and ModernBERT ones; BERTForXYZ → DeBERTa → ModernBERT; Jev vs GPT-5.6 bakeoffs are a category error; encoder / ZS classifiers; institutional HF voice; quote *theirs*; do not invent accuracy numbers; softmax/ZS scores still ≠ calibrated Noul; soft scores ≠ hard gates; @mervenoyann; likes 415 / 179; impressions 34844 / 9238; multimodal image<>text ZS as perception front-end; hf:MoritzLaurer/deberta-v3-large-zeroshot-v2.0 likes 139; hf:MoritzLaurer/ModernBERT-large-zeroshot-v2.0 likes 72; Bart, bert, deberta, modernbert, these are all LLMs; Maziyar quoted; Jev is exemplar not the mandate; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29.
+User-provided 0806 uniqueness lock: people who compare Jev against GPT-5.6 has never fine-tuned BERTForXYZ for living and it shows; zero shot classifiers; scale them as much as decoder only models; many problems solved with LLMs could have been solved with them, it was a skill issue; opt for DeBERTa and ModernBERT ones; BERTForXYZ → DeBERTa → ModernBERT; Jev vs GPT-5.6 bakeoffs are a category error; encoder / ZS classifiers; institutional HF voice; quote *theirs*; do not invent accuracy numbers; softmax/ZS scores still ≠ calibrated Noul; soft scores ≠ hard gates; @mervenoyann; likes 421 / 189; impressions 35498 / 9613; multimodal image<>text ZS as perception front-end; hf:MoritzLaurer/deberta-v3-large-zeroshot-v2.0 likes 139; hf:MoritzLaurer/ModernBERT-large-zeroshot-v2.0 likes 72; Bart, bert, deberta, modernbert, these are all LLMs; Maziyar quoted; Jev is exemplar not the mandate; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29.
 
 Note: `research/notes.md` §112. Docs-only on a fresh PR
 off main. **HARD RULE:** do not reopen or amend PR #23 or #24 or #25 or #26 or #27 or #28 or #29.
@@ -3035,14 +3035,14 @@ watch. `invented_signal: false`.
   status/2101463303734067592. people who compare Jev against
   GPT-5.6 has never fine-tuned BERTForXYZ for living and it shows.
   Jev vs GPT-5.6 bakeoffs are a category error. encoder / ZS
-  classifiers. BERTForXYZ → DeBERTa → ModernBERT. likes **415** /
-  impressions **34844**.
+  classifiers. BERTForXYZ → DeBERTa → ModernBERT. likes **421** /
+  impressions **35498**.
 - **Skill-issue thesis.** many problems solved with LLMs could
   have been solved with them, it was a skill issue. Mixed
   architecture, not stack replacement.
 - **DeBERTa / ModernBERT Hub pointers.** follow-up
   status/2101592535835529527. opt for DeBERTa and ModernBERT ones.
-  likes **179** / impressions **9238**. hf:MoritzLaurer/deberta-v3-large-zeroshot-v2.0
+  likes **189** / impressions **9613**. hf:MoritzLaurer/deberta-v3-large-zeroshot-v2.0
   likes **139**. hf:MoritzLaurer/ModernBERT-large-zeroshot-v2.0 likes **72**.
   bart-large-mnli likes 1616 is **not** her pick.
 - **Multimodal ZS perception front-end.** image<>text Transformers
@@ -3051,7 +3051,7 @@ watch. `invented_signal: false`.
   soft scores ≠ hard gates. do not invent accuracy numbers.
   Maziyar quoted: Bart, bert, deberta, modernbert, these are all LLMs.
 
-Pulse: X MCP used ~2026-09-20T14:10Z. Author @mervenoyann
+Pulse: X MCP used ~2026-09-20T14:28Z. Author @mervenoyann
 (merve; 92,246 followers). Archer still promised_not_landed.
 do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29.
 `invented_signal: false`.

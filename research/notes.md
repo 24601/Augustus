@@ -27351,7 +27351,7 @@ or hourly 0646 / §111. Quote **Merve’s** posts.
 Mark *theirs*. No invented accuracy. Hunches labeled.
 No wrappers, `pip` / `pipeline()` / `from transformers
 import` as recipes. X MCP **WAS** used this pass
-(retrieved ~2026-09-20T14:10Z). Hub likes locked
+(retrieved ~2026-09-20T14:28Z). Hub likes locked
 only where cited. `invented_signal: false`. Skip
 Archer rewrite. Jev is the hot **exemplar**, not
 the mandate.
@@ -27380,8 +27380,8 @@ do not invent accuracy numbers;
 softmax/ZS scores still ≠ calibrated Noul;
 soft scores ≠ hard gates;
 @mervenoyann;
-likes 415 / 179;
-impressions 34844 / 9238;
+likes 421 / 189;
+impressions 35498 / 9613;
 multimodal image<>text ZS as perception front-end;
 hf:MoritzLaurer/deberta-v3-large-zeroshot-v2.0 likes 139;
 hf:MoritzLaurer/ModernBERT-large-zeroshot-v2.0 likes 72;
@@ -27451,20 +27451,20 @@ calibrated Noul.
    thresholds stay in code.
 
 Receipts: user-linked 2026-09-20 ~08:06 Boise.
-X MCP this pass ~2026-09-20T14:10Z.
+X MCP this pass ~2026-09-20T14:28Z.
 
 Parent https://x.com/mervenoyann/status/2101463303734067592
 created 2026-09-20T00:07:49Z; note_tweet full text
-*theirs*. This pass: **34844** impressions /
-**415** likes / **22** RTs / **89** bookmarks /
-29 replies / 3 quotes. Quotes Maziyar
+*theirs*. This pass: **35498** impressions /
+**420** likes / **23** RTs / **89** bookmarks /
+30 replies / 3 quotes. Quotes Maziyar
 https://x.com/MaziyarPanahi/status/2101158867455320127
-(likes **445** / impressions **87033** *theirs*).
+(likes **446** / impressions **87625** *theirs*).
 
 Follow-up https://x.com/mervenoyann/status/2101592535835529527
-created 2026-09-20T08:41:20Z. This pass: **9238**
-impressions / **179** likes / **21** RTs /
-**132** bookmarks / 4 replies / 1 quote.
+created 2026-09-20T08:41:20Z. This pass: **9613**
+impressions / **188** likes / **22** RTs /
+**138** bookmarks / 4 replies / 1 quote.
 
 Author @mervenoyann (merve; 92,246 followers
 *theirs*; “open-sourceress at @huggingface”).

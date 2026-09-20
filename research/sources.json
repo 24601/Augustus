@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-20T14:10Z",
+  "retrieved": "2026-09-20T14:28Z",
   "sources": [
     {
       "kind": "docs",
@@ -4674,19 +4674,19 @@
       "kind": "x",
       "title": "@mervenoyann parent — Jev vs GPT-5.6 category error / ZS skill issue",
       "url": "https://x.com/mervenoyann/status/2101463303734067592",
-      "note": "Created 2026-09-20T00:07:49Z. note_tweet full text. Live X ~2026-09-20T14:10Z: likes 415 / impressions 34844 / RTs 22 / bookmarks 89 / replies 29 / quotes 3. Author @mervenoyann merve 92246 followers. Quotes Maziyar 2101158867455320127. notes.md §112. invented_signal false."
+      "note": "Created 2026-09-20T00:07:49Z. note_tweet full text. Live X ~2026-09-20T14:28Z: likes 420 / impressions 35498 / RTs 23 / bookmarks 89 / replies 30 / quotes 3. Author @mervenoyann merve 92246 followers. Quotes Maziyar 2101158867455320127. notes.md §112. invented_signal false."
     },
     {
       "kind": "x",
       "title": "@mervenoyann follow-up — opt for DeBERTa and ModernBERT ones",
       "url": "https://x.com/mervenoyann/status/2101592535835529527",
-      "note": "Created 2026-09-20T08:41:20Z. Live X ~2026-09-20T14:10Z: likes 179 / impressions 9238 / RTs 21 / bookmarks 132 / replies 4 / quotes 1. Hub pointers: trending ZS, task page, multimodal image<>text. notes.md §112."
+      "note": "Created 2026-09-20T08:41:20Z. Live X ~2026-09-20T14:28Z: likes 188 / impressions 9613 / RTs 22 / bookmarks 138 / replies 4 / quotes 1. Hub pointers: trending ZS, task page, multimodal image<>text. notes.md §112."
     },
     {
       "kind": "x",
       "title": "@MaziyarPanahi quoted — Bart, bert, deberta, modernbert, these are all LLMs",
       "url": "https://x.com/MaziyarPanahi/status/2101158867455320127",
-      "note": "Context only, not a new species. likes 445 / impressions 87033 this pass. Quoted by Merve parent. notes.md §112."
+      "note": "Context only, not a new species. likes 446 / impressions 87625 this pass. Quoted by Merve parent. notes.md §112."
     },
     {
       "kind": "huggingface-model",
