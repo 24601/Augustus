@@ -752,3 +752,69 @@ default threshold 0.1 still soft.
 
 SIGNAL §97 item 93 (`notes.md` §97). Do **not**
 re-fold 1639 items 91–92. Soft Noul ≠ hard safety.
+
+Hourly 1740 unique consecutive fragments:
+Decision Graph Protocol frame→assess→commit;
+app retains permissions/effects;
+Jev-first assessor-neutral;
+guarded commit / receipt/next frame;
+assessment batching;
+hard-gating DGP as safety theater;
+numerous-com/dgp ≠ TypeSafe official;
+jegrep calibrated path+range Nouls;
+no embeddings/index/daemon;
+~$0.01–0.03 typical;
+agent --json;
+can1357/jegrep ≠ Bentlybro/jevgrep ≠ uehaj/jev-semgrep;
+Archer-arch fidelity;
+kev family OOD 0.76–0.77 vs Jev 0.86;
+block-causal isolation;
+pointer/readout CE-trained;
+/v1/systemone drop-in;
+replica honesty.
+
+94. **Decision Graph Protocol envelope**
+    (numerous-com/dgp):
+    position 3 (guard / authorize) × host-owned
+    remainder. Immutable frame → typed assessment →
+    guarded commit → receipt/next frame. App retains
+    permissions/effects. Jev-first assessor-neutral.
+    assessment batching. Commit fail-closed in the
+    application; assessment is a sensor.
+    hard-gating DGP as safety theater.
+    numerous-com/dgp ≠ TypeSafe official.
+    **≠** waymode **≠** ctmx/openrouter-jev-mcp
+    Decision-as-Plugin **≠** petercr/jev-orchestrator
+    **≠** AgentGhost wrap-as-execution.
+    Full cards: `mixed-architecture.md`, `faq.md`,
+    `formal-methods.md`.
+95. **Calibrated meaning-grep over a live tree**
+    (can1357/jegrep):
+    position 4 (Selector of F) × cascade IR.
+    jegrep calibrated path+range Nouls.
+    no embeddings/index/daemon.
+    ~$0.01–0.03 typical. agent --json.
+    Ranking fail-open. No published Harbor.
+    OpenRouter/TypeSafe auto-failover is silent
+    FALLBACK, not the same Noul. Auto-τ-lowering
+    is not a 0.4 proof. beam “gate Noul” is ranking,
+    not a safety envelope.
+    can1357/jegrep ≠ Bentlybro/jevgrep ≠ uehaj/jev-semgrep.
+    Full cards: `applied-mappings.md` §4, `faq.md`.
+96. **Archer-arch fidelity + measured calibration
+    gap** (jaredpalmer/kev family; not a rewrite of
+    §45):
+    position 1 (replacement of a classifier step) ×
+    trained decision-only family.
+    Archer-arch fidelity. block-causal isolation.
+    pointer/readout CE-trained. /v1/systemone drop-in.
+    kev family OOD 0.76–0.77 vs Jev 0.86.
+    replica honesty. Architecture confirmation ≠
+    Jev identity. Score confidence is a stand-in
+    (*theirs*); wire ≠ TypeSafe confidence.
+    Jev-omni owns the replica/code fold.
+    Full cards: `judgment-class.md`, `faq.md`.
+
+Hourly 1740 items 94–96 (`notes.md` §98). Do **not**
+re-fold 1639 items 91–92 / SIGNAL §97 item 93.
+Soft Noul ≠ hard safety.

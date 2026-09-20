@@ -237,6 +237,13 @@ request, and treat a stale pin as a prior, never a setting.
 | Collapse it into compaction / ultrafast / Eran-BA / JevSwiftSDK / jevmlx | Namesake lock | ≠ gliner25-compaction ≠ gliner2-ultrafast ≠ Eran-BA/Jev_from_GLiNER2 ≠ NSStudent/JevSwiftSDK ≠ jevmlx. honesty locks. `notes.md` §97 |
 | Paste README 0.99 as Harbor / hard-gate 0.1 | Fixture; sensor | default threshold 0.1 still soft. `notes.md` §97 |
 | File it as keep/drop / position 4 Selector | Locate; position 10 | schema→spans. Not keep/drop of held candidates. Not Selector of F. `notes.md` §97 |
+| Treat DGP as official TypeSafe / assessment p as a grant / receipt as proof | Protocol envelope; sensor ≠ constraint | Decision Graph Protocol frame→assess→commit. app retains permissions/effects. Jev-first assessor-neutral. guarded commit / receipt/next frame. numerous-com/dgp ≠ TypeSafe official. `notes.md` §98 |
+| Hard-gate DGP as a safety proof / collapse ThreadDesk mocks into live Jev | Safety theater | hard-gating DGP as safety theater. assessment batching. Mock resolver ≠ Jev. `notes.md` §98 |
+| Collapse can1357/jegrep into jevgrep or jev-semgrep / paste 79% | Namesake lock | can1357/jegrep ≠ Bentlybro/jevgrep ≠ uehaj/jev-semgrep. jegrep calibrated path+range Nouls. no embeddings/index/daemon. `notes.md` §98 |
+| Hard-gate 0.4/0.2 as “concept absent” / paste $0.01–0.03 as a ceiling | Ranking fail-open; sensor | ~$0.01–0.03 typical. agent --json. Soft Noul ≠ hard safety. `notes.md` §98 |
+| Treat OpenRouter/TypeSafe auto-failover as one Noul / later-round auto-τ as a 0.4 proof | Silent FALLBACK; sensor | Pin `--endpoint`. Auto-τ-lowering is ranking fail-open. rh-guard owns the cousin. `notes.md` §98 |
+| Treat kev OOD 0.76 as Jev / isolation as identity / wire as a Noul | Replica honesty | Archer-arch fidelity. kev family OOD 0.76–0.77 vs Jev 0.86. block-causal isolation. pointer/readout CE-trained. /v1/systemone drop-in. replica honesty. Score confidence is a stand-in (*theirs*). Do not rewrite §45. `notes.md` §98 |
+| Treat Archer as landed / kev-8b as the 27B drop | Watch | Tracker likes 51; lastModified UNCHANGED. Hub 401. `notes.md` §98 |
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 
 ## Revision discipline

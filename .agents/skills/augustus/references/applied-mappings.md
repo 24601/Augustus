@@ -95,6 +95,22 @@ indiejoseph/opencode-jev-pruner ≠ nrdz-labs/fast-jev-opencode
 (session compaction, §62). **≠** tamaratran/jev-pruner.
 Do not copy tamaratran 24/24 / 83%. Do not copy the plugin
 (`notes.md` §96).
+**Decision Graph Protocol envelope, host-owned remainder
+(Empirical as README + spec, 2026-09-19 ~17:40):**
+[numerous-com/dgp](https://github.com/numerous-com/dgp)
+— Decision Graph Protocol frame→assess→commit.
+app retains permissions/effects.
+Jev-first assessor-neutral.
+guarded commit / receipt/next frame.
+assessment batching.
+Protocol around a judgment-class assessor; commit
+fail-closed in the application; assessment is a
+sensor. numerous-com/dgp ≠ TypeSafe official.
+hard-gating DGP as safety theater.
+**≠** waymode **≠** ctmx/openrouter-jev-mcp
+Decision-as-Plugin **≠** petercr/jev-orchestrator
+**≠** AgentGhost. Do not copy tokens / `uv`
+(`notes.md` §98).
 **Session-ledger cousin, same family, different job (Empirical as
 README behavior, 2026-09-18 ~17:48):**
 [carryforward](https://github.com/Dharundp6/jev-carryforward) —
@@ -717,6 +733,23 @@ NOASSERTION). **51★** this pass (ephemeral; SIGNAL ★42;
 §61 0★). Their judge test: precision 0.94, recall 0.98
 on 10×51 lines — not Harbor. Do not copy npm / `npx` /
 `.env` / marketplace how-to (`notes.md` §61, §86).
+**Calibrated meaning-grep over a live tree (Empirical as
+README architecture + economics, 2026-09-19 ~17:40):**
+[jegrep](https://github.com/can1357/jegrep) — describe
+meaning; absolute yes/no per path + line range.
+jegrep calibrated path+range Nouls.
+no embeddings/index/daemon.
+~$0.01–0.03 typical. agent --json.
+Cascade default; `-t 0.4,0.2`; `--max-batch` ≤255.
+Ranking fail-open (false drop loses the file; keyword
+still wins exact strings). **No published Harbor
+needle/noise table** — do **not** copy jevgrep 79%.
+OpenRouter/TypeSafe auto-failover is silent FALLBACK,
+not the same Noul. Pin `--endpoint`. Auto-τ-lowering
+is not a 0.4 proof.
+can1357/jegrep ≠ Bentlybro/jevgrep ≠ uehaj/jev-semgrep.
+**≠** JevFind **≠** quarry **≠** jevex. Do not copy
+`cargo install` / OpenRouter keys (`notes.md` §98).
 **Pointer path-then-window (Empirical as README;
 2026-09-19 ~16:52):** sibling of meaning-grep, not a
 boolean composer — [JevFind](https://github.com/Peu77/JevFind)
@@ -1249,6 +1282,29 @@ seb4ez/jevguard ≠ AseemPrasad/JevGuard ≠ pablozr/JevGuard.
 webNeat/llama-jev ≠ WiktorB2004/llama-index-jev.
 rh-guard owns injection-firewall / CI-gate cousins
 (`notes.md` §95).
+**Decision Graph Protocol / calibrated meaning-grep /
+Archer-arch family gap (Empirical as README + spec;
+2026-09-19 ~17:40):**
+Decision Graph Protocol frame→assess→commit.
+app retains permissions/effects.
+Jev-first assessor-neutral.
+guarded commit / receipt/next frame.
+assessment batching.
+hard-gating DGP as safety theater.
+numerous-com/dgp ≠ TypeSafe official.
+jegrep calibrated path+range Nouls.
+no embeddings/index/daemon.
+~$0.01–0.03 typical. agent --json.
+can1357/jegrep ≠ Bentlybro/jevgrep ≠ uehaj/jev-semgrep.
+Archer-arch fidelity.
+kev family OOD 0.76–0.77 vs Jev 0.86.
+block-causal isolation.
+pointer/readout CE-trained.
+/v1/systemone drop-in.
+replica honesty.
+rh-guard owns the silent-FALLBACK cousin; rh-guard
+**does not own** protocol envelope / ranking fail-open /
+replica honesty (`notes.md` §98).
 
 ## 6. Expensive observation router
 
@@ -1319,6 +1375,21 @@ Distinct from [toolgate](https://github.com/fdemir/toolgate)
 real args may already be in scope). rh-guard crossover: eval-
 integrity is a different hole from a ring-0 kernel; do not merge
 products. Do not copy pip / `INTERLOCK_ARMED` how-to.
+**Protocol envelope cousin (Empirical as README + spec,
+2026-09-19 ~17:40):**
+[dgp](https://github.com/numerous-com/dgp) —
+Decision Graph Protocol frame→assess→commit.
+app retains permissions/effects.
+Jev-first assessor-neutral.
+guarded commit / receipt/next frame.
+assessment batching.
+The application owns state, permissions, guards, and
+execution. A model is neither a security boundary nor
+the source of execution authority (*theirs*).
+hard-gating DGP as safety theater.
+numerous-com/dgp ≠ TypeSafe official.
+**≠** waymode **≠** AgentGhost **≠** actiongate.
+Soft Noul ≠ hard safety (`notes.md` §98).
 **Human-confirmed cousin (Empirical as README safety model):**
 [port-cleanup](https://github.com/epiphany-dynamics/port-cleanup)
 — Jev Stop/Keep/Your-decision; kill recs need conf ≥ 0.8;

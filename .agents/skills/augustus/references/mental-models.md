@@ -1077,6 +1077,86 @@ Formal methods **compose** with scoring. A span
 confidence is a SENSOR. Hard-gating it as a safety
 proof is theater.
 
+## Apply 1740 (`notes.md` §98)
+
+Same pillars, three HIGH clusters (protocol envelope,
+calibrated meaning-grep, Archer-arch family gap).
+Do **not** re-fold 1639 / §96 / gliner-native-runtime
+/ §97 / 1541 / §95. Fresh PR; never reopen merged
+#7–**#15**. Skip Archer rewrite (still **NOT
+landed**; likes 51; lastModified UNCHANGED). Census
+not re-derived. Do not rewrite §45.
+
+Unique consecutive fragments:
+Decision Graph Protocol frame→assess→commit;
+app retains permissions/effects;
+Jev-first assessor-neutral;
+guarded commit / receipt/next frame;
+assessment batching;
+hard-gating DGP as safety theater;
+numerous-com/dgp ≠ TypeSafe official;
+jegrep calibrated path+range Nouls;
+no embeddings/index/daemon;
+~$0.01–0.03 typical;
+agent --json;
+can1357/jegrep ≠ Bentlybro/jevgrep ≠ uehaj/jev-semgrep;
+Archer-arch fidelity;
+kev family OOD 0.76–0.77 vs Jev 0.86;
+block-causal isolation;
+pointer/readout CE-trained;
+/v1/systemone drop-in;
+replica honesty.
+
+1. **Decision Graph Protocol** —
+   Decision Graph Protocol frame→assess→commit.
+   app retains permissions/effects.
+   Jev-first assessor-neutral.
+   guarded commit / receipt/next frame.
+   assessment batching.
+   Protocol envelope around a judgment-class
+   assessor. Pillar: Leveson sensor≠constraint +
+   runtime-assurance sandwich + EU (assessment is
+   belief; commit is the act). Commit fail-closed
+   in the application; assessment is a sensor.
+   hard-gating DGP as safety theater.
+   numerous-com/dgp ≠ TypeSafe official.
+2. **Calibrated meaning-grep (Rust, live tree)** —
+   jegrep calibrated path+range Nouls.
+   no embeddings/index/daemon.
+   ~$0.01–0.03 typical.
+   agent --json.
+   SDT / cascade IR. Ranking fail-open.
+   OpenRouter/TypeSafe auto-failover is silent
+   FALLBACK, not the same Noul. Auto-τ-lowering
+   is not a 0.4 proof.
+   can1357/jegrep ≠ Bentlybro/jevgrep ≠ uehaj/jev-semgrep.
+3. **Archer-arch fidelity + measured calibration
+   gap** (secondary) —
+   Archer-arch fidelity.
+   block-causal isolation.
+   pointer/readout CE-trained.
+   /v1/systemone drop-in.
+   kev family OOD 0.76–0.77 vs Jev 0.86.
+   replica honesty.
+   Runnable family ≠ Jev identity. A wire drop-in
+   is not a Noul. Score confidence is a stand-in
+   (*theirs*). Do not rewrite §45.
+
+Soft Noul ≠ hard safety. Assessment p / mock
+outcomes / 106 tests / 0.4/0.2 / $0.01–0.03 /
+0.76 / 0.77 / 0.86 / ECE ~0.1 / 0.62 rule-pairs
+are **sensors**. A receipt proves the commit
+happened under the guards, not that the assessor
+was correct. Hard-gating a miss as “the concept
+is absent,” treating OpenRouter/TypeSafe
+auto-failover as one Noul (silent FALLBACK),
+or pasting OOD acc as “close enough to ship as
+Jev,” is the same theater as jev-gate §79.
+
+Formal methods **compose** with scoring. A Noul
+is a SENSOR. Hard-gating DGP as safety theater
+is theater.
+
 ## Decision-design extras (any domain)
 
 ```text
