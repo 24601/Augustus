@@ -22460,8 +22460,8 @@ shuffled-context control 0.335.
       **logicrw/awesome-jev-projects**.
       logicrw/awesome-jev-projects ≠
       AnotiaWang/awesome-jev (**90★**) ≠
-      yibie/awesome-jev (**427★**) ≠
-      cobanov/awesome-jev (**222★**) ≠
+      yibie/awesome-jev (**429★**) ≠
+      cobanov/awesome-jev (**223★**) ≠
       fatwang2/awesome-jev ≠
       Anil-matcha/awesome-jev-by-typesafe ≠
       rupeshpoojary9/awesome-open-system-one ≠
@@ -22576,13 +22576,13 @@ keys / install recipes.
 Census **not provided this hour** (not
 re-derived). Live REST pulse only: SemIf
 **2045★** (+26 vs §103 **2019**; +20 vs first 2340 pin **2025**; +14 vs first-review pin **2031**; +4 vs `babb111` **2041**); jevlike
-**1014★** (+8 vs §103 **1006**; +4 vs first-review **1010**; +3 vs `babb111` **1011**);
+**1015★** (+9 vs §103 **1006**; +5 vs first-review **1010**; +4 vs `babb111` **1011**);
 TypeAR-AI/TypeAR **12★** **flat**;
 AnotiaWang/awesome-jev **90★** (+3 vs §103 **87**) still
 a **different object** from user-provided
 Awesomejev 561/27007 (§99 pin) and from
 logicrw/awesome-jev-projects **135★** (this
-hour). yibie/awesome-jev **427★** is another
+hour). yibie/awesome-jev **429★** is another
 namesake, not re-carded. Archer still **NOT
 landed**. Hub `archerhume/4rcherhume` HTTP
 **401** (not a rewrite). Tracker
@@ -22603,15 +22603,15 @@ HIGH HEAD/README pins unchanged.
 logicrw **135★** (was **134★** / first pin **132★**;
 HEAD `97057cc1` / README SHA `25a19b31`
 unchanged — auto GitHub sync). SemIf **2045★** /
-jevlike **1014★**. AnotiaWang **90★** (was **88★** / §103 **87**).
+jevlike **1015★**. AnotiaWang **90★** (was **88★** / §103 **87**).
 OpenJevPro GitHub size **64** (was **62**; HEAD
 `94d77bcb` / README SHA `50c77ace` unchanged).
 simple-jev **318★** (was **314★** / first-review **311★**). openjev-sglang
 **205★** (was **202★**). RLCD GitHub size **1513**
 (HEAD `62b103b3` unchanged). Colvin0315/MiniSystemOne
 size **814** (HEAD `ac5a0eea` / README SHA
-`f8c47847` unchanged). yibie **427★** (was **423★** / first-review **417★**);
-cobanov **222★** (was **221★**). Do not paste Colvin as hyusi.
+`f8c47847` unchanged). yibie **429★** (was **423★** / first-review **417★**);
+cobanov **223★** (was **221★**). Do not paste Colvin as hyusi.
 
 ### Not
 
