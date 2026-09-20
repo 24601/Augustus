@@ -1,0 +1,104 @@
+<section class="section recipes" id="recipes" aria-labelledby="recipes-title">
+  <div class="section-head">
+    <p class="kicker">Recipes</p>
+    <h2 id="recipes-title">Same split, whole class</h2>
+    <p>
+      Not Jev-only. Problem → without → with → what to measure. Full cards
+      in the
+      <a href="{{ '/release-notes-v0.5.0.html' | relative_url }}">v0.5.0 notes</a>.
+      No invented scores.
+    </p>
+  </div>
+  <div class="recipe-grid">
+    <article class="recipe panel">
+      <p class="kicker">Encoder</p>
+      <h3>GLiNER / GLiClass</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>Locate or categorize treated as a decision head.</dd>
+        <dt>Without</dt>
+        <dd>Swap, hard-gate spans, bake off a chat LLM.</dd>
+        <dt>With</dt>
+        <dd>Species map. Extractive remainder. Soft scores ≠ hard gates.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">Span quality separately from ECE. Softmax ≠ Noul.</dd>
+      </dl>
+    </article>
+    <article class="recipe panel">
+      <p class="kicker">Open heads</p>
+      <h3>Laya, SemIf, kev, Jeff-1</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>Wire-compat or argmax agree treated as a replica.</dd>
+        <dt>Without</dt>
+        <dd>Drop-in swap. Ship the speedup. Skip OOD.</dd>
+        <dt>With</dt>
+        <dd>Softmax ≠ calibrated Noul. Systems timing ≠ semantic equivalence.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">Held-out ECE/Brier and accuracy. In-distribution vs OOD.</dd>
+      </dl>
+    </article>
+    <article class="recipe panel">
+      <p class="kicker">Gameplay</p>
+      <h3>NanoJev</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>Game success treated as a calibrated Noul.</dd>
+        <dt>Without</dt>
+        <dd>Quote a win rate as a production gate.</dd>
+        <dt>With</dt>
+        <dd>Specialist S1. Local boolean ≠ TypeSafe noul.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">Held-out game metrics on one ledger. ECE on another.</dd>
+      </dl>
+    </article>
+    <article class="recipe panel">
+      <p class="kicker">Conversion</p>
+      <h3>llm-to-jev</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>A chat prompt assumed equivalent to Choice/Score/Noul.</dd>
+        <dt>Without</dt>
+        <dd>Paste, convert, ship.</dd>
+        <dt>With</dt>
+        <dd>Heuristic on-ramp. Review the Score rubric. Prose stays with the LLM. heuristic conversion ≠ calibrated Noul.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">Suitability labels and human review. Not equivalent behavior.</dd>
+      </dl>
+    </article>
+    <article class="recipe panel">
+      <p class="kicker">Lookup</p>
+      <h3>jcr</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>Finding a documented command treated as permission to run it.</dd>
+        <dt>Without</dt>
+        <dd>The agent executes whatever the tree returned.</dd>
+        <dt>With</dt>
+        <dd>Returns context. <strong>Does not execute.</strong> Routing ≠ permission.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">Lookup+explain only. Not Harbor task-execution.</dd>
+      </dl>
+    </article>
+    <article class="recipe panel">
+      <p class="kicker">Readout</p>
+      <h3>localjev / prompted JSON</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>Parsed JSON from a generator treated as a Noul.</dd>
+        <dt>Without</dt>
+        <dd>Schema-valid taken as picked-right.</dd>
+        <dt>With</dt>
+        <dd>Prompted JSON ≠ structured logit read. Schema-valid ≠ picked-right.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">Schema pass separately from calibration and from the effect.</dd>
+      </dl>
+    </article>
+  </div>
+  <p class="compare-caption">
+    Measurement recipe (hysteresis, equal-width vs quantile ECE, hop-ECE,
+    Harbor schema-pass ≠ joint, DecisionOps FALLBACK):
+    <a href="{{ '/release-notes-v0.5.0.html' | relative_url }}">v0.5.0 notes</a>.
+    Ranking ≠ calibration. Soft Noul ≠ hard gate.
+  </p>
+</section>

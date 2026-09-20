@@ -4,9 +4,9 @@
 
 | Version | Supported |
 | ------- | --------- |
-| 0.4.x   | Yes       |
-| 0.3.x   | No        |
-| < 0.3   | No        |
+| 0.5.x   | Yes       |
+| 0.4.x   | No        |
+| < 0.4   | No        |
 
 This repo is a design-judgment skill plus offline scripts. There is no
 hosted API and no runtime that accepts untrusted input by default.

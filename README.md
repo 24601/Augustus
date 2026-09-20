@@ -34,7 +34,22 @@ never launder a Noul as a proof.
 
 ![Jev-class models with vs without Augustus. Without: call the model, act on the score, then quiet failure modes (soft Noul treated as hard gate, GPT bakeoff framing, no falsifier, polarity unchosen). With Augustus: state, pillar and family map, question design, fail-open vs fail-closed, typed Choice Score Noul, code owns effects, named falsifying experiment.](docs/assets/with-without-augustus.svg)
 
-Jev-class: Jev, kev, Laya, OpenJev. Call and act, or place the judgment.
+Jev-class: Jev, kev, Laya, OpenJev, GLiNER, SemIf, NanoJev, Jeff-1, localjev.
+Call and act, or place the judgment. Same split for any typed probabilistic
+judgment tool, not Jev-only.
+
+## Recipes
+
+Class-wide, not a TypeSafe how-to. Full cards:
+[`docs/release-notes-v0.5.0.md`](docs/release-notes-v0.5.0.md) ·
+[Pages recipes](https://24601.github.io/Augustus/#recipes).
+
+- **Encoder (GLiNER / GLiClass).** Without: treat locate/categorize as a decision head and hard-gate spans. With: species map; remainder after extractive spans. Measure span quality separately from ECE.
+- **Open heads (Laya, SemIf, kev, Jeff-1).** Without: wire-compat or argmax agree as replica. With: softmax ≠ calibrated Noul; systems timing ≠ semantic equivalence. Measure ECE/Brier on held-out, not only speed.
+- **NanoJev.** Without: game wins as calibration. With: specialist gameplay S1; local boolean ≠ TypeSafe noul. Measure held-out game separately from ECE.
+- **llm-to-jev.** Without: ship converted prompts as equivalent behavior. With: heuristic on-ramp; review the Score rubric. heuristic conversion ≠ calibrated Noul.
+- **jcr.** Without: run what the tree found. With: lookup returns context; **does not execute**. Routing ≠ permission; docs ≠ authority to run.
+- **localjev / prompted JSON.** Without: parse generated JSON as a Noul. With: schema-valid ≠ picked-right.
 
 ## The skill
 
@@ -113,7 +128,7 @@ GPT's instructions or a Project's knowledge and it will follow the protocol.
 ## Versioning
 
 See [CHANGELOG.md](CHANGELOG.md) and
-[releases](https://github.com/24601/Augustus/releases). Current: **0.4.0**,
+[releases](https://github.com/24601/Augustus/releases). Current: **0.5.0**,
 written against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skills/tree/v0.5.7)
 (`65a39f3`; live HEAD still this commit). Re-read live TypeSafe docs
 before treating that pin as current API behavior.

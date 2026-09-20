@@ -1,11 +1,9 @@
-# Hourly uniqueness dump (pre-0.4.0 + 0743 + 0843 + 0915 + 0920 jcr + 0922 SemIf)
+# Hourly uniqueness dump (pre-0.4.0 + 0743 + 0843 + 0915 + 0920 jcr + 0922 SemIf + 0940 llm-to-jev)
 
-This is the pre-0.4.0 `CHANGELOG.md` after hourly folds (#2–#30 / notes
-§44–§112) stuffed uniqueness locks into Keep-a-Changelog sections, plus
-the merged **0743 HIGH** dump (PR #31 / notes.md §113 / items 273–288
-/ batch #96), **0843 HIGH** dump (PR #35 / notes.md §114 / items 289–302
-/ batch #97), and **0915 HIGH** dump (PR #36 / notes.md §115 / items
-303–308 / batch #98). It is **not** release notes.
+This is the uniqueness-lock archive after hourly folds (#2–#40 / notes
+§44–§118). It is **not** release notes. v0.5.0 Keep-a-Changelog lives in
+[`CHANGELOG.md`](../CHANGELOG.md). Recipe cards:
+[`docs/release-notes-v0.5.0.md`](../docs/release-notes-v0.5.0.md).
 
 - Release-facing notes: [`CHANGELOG.md`](../CHANGELOG.md)
 - Canonical folds: [`notes.md`](notes.md)

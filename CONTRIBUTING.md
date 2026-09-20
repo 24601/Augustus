@@ -45,7 +45,7 @@ re-opened as "new." Before folding:
 - Do not re-fold an already-landed section as a new beat
 - Do not reopen or amend a merged fold PR (#23–#40)
 - Do not push onto an in-flight fold PR (open #41)
-- Pre-0.4.0 uniqueness dump: `research/changelog-hourly.md` (archive,
+- Hourly uniqueness dump: `research/changelog-hourly.md` (archive,
   not release notes)
 
 ## Secrets

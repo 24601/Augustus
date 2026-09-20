@@ -7,7 +7,7 @@ page_class: home
 
 <section class="hero" aria-labelledby="hero-title">
   <div>
-    <p class="kicker hero-reveal" style="--d: 0ms">v0.4.0, System One</p>
+    <p class="kicker hero-reveal" style="--d: 0ms">v0.5.0, System One</p>
     <h1 id="hero-title" class="hero-title">
       <span class="line hero-reveal" style="--d: 50ms">Place judgment.</span>
       <span class="line hero-reveal" style="--d: 110ms">Keep proof exact.</span>
@@ -18,6 +18,7 @@ page_class: home
     </p>
     <div class="cta-row hero-reveal" style="--d: 250ms">
       <a class="btn btn-primary" href="https://github.com/24601/Augustus#install">Install the skill</a>
+      <a class="btn btn-ghost" href="#recipes">Recipes</a>
       <a class="btn btn-ghost" href="{{ '/ecosystem.html' | relative_url }}">Ecosystem</a>
     </div>
   </div>
@@ -43,6 +44,7 @@ page_class: home
 </section>
 
 {% include comparison.html %}
+{% include recipes.html %}
 
 <section class="section" aria-labelledby="what-title">
   <div class="section-head">
@@ -153,5 +155,5 @@ claude plugin install augustus@augustus</code></pre>
       </a>
     </li>
   </ul>
-  <p class="meta-line">Last updated 2026-09-20 (v0.4.0).</p>
+  <p class="meta-line">Last updated 2026-09-20 (v0.5.0).</p>
 </section>
