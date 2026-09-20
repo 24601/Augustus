@@ -1,11 +1,18 @@
 ---
 layout: default
-title: Home
+title: Augustus — System One decision judgment
 permalink: /
 ---
 
-Agent skill for placing TypeSafe Jev Choice/Score/Noul with classical
-decision methods, composition algebra, and a validation gate.
+**Last updated:** 2026-09-20 (v0.4.0)
+
+Agent skill for placing TypeSafe Jev Choice/Score/Noul — and the wider
+Jev-class of System One / decision models — with classical decision
+methods, composition algebra, and a validation gate.
+
+v0.4.0: Jev is the exemplar, not the monopoly (Laya, kev, OpenJev,
+TypeAR, GLiNER, encoder zero-shot). Ranking is not calibration. A soft
+Noul is not a hard gate. Formal methods stay a pillar.
 
 - [Install the skill](https://github.com/24601/Augustus#install)
 - [Ecosystem](ecosystem.md)
@@ -19,4 +26,5 @@ Companion to the official
 [`typesafe-ai` skill](https://github.com/typesafe-ai/skills)
 (Jev contracts). Augustus owns **where** judgment belongs: pillar,
 family, fail polarity, and the experiment that could prove a design
-wrong.
+wrong. Not a TypeSafe product. Integrity / reward-hack companion:
+[`rh-guard`](https://github.com/24601/rh-guard).

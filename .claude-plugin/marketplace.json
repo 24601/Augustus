@@ -4,10 +4,10 @@
   },
   "plugins": [
     {
-      "description": "Design judgment for placing typed probabilistic judgment (Jev-class) using math, logic, and algorithmic mental models — across AI, SWE, business, knowledge work, and life. Not SWE-only. Formal methods are one pillar (Alloy vs Apalache; DST trio Antithesis/Resonate/PufferLib). GLiNER locate / GLiClass categorize are class peers, not footnotes. Expected utility, VOI, MCDA, signal detection, search/control, Leveson safety. Never launder a Noul as a proof. Not an API skill — load typesafe-ai for Jev contracts. Named for Augustus De Morgan, mentor of W. S. Jevons.",
+      "description": "Design judgment for placing typed probabilistic judgment (Jev-class System One) using math, logic, and algorithmic mental models — across AI, SWE, business, knowledge work, and life. Jev is the exemplar, not the monopoly (Laya, kev, OpenJev, TypeAR, GLiNER, encoder ZS). Ranking ≠ calibration; soft Noul ≠ hard gate. Formal methods are one pillar. Never launder a Noul as a proof. Not a TypeSafe product — load typesafe-ai for Jev contracts. Named for Augustus De Morgan, mentor of W. S. Jevons.",
       "name": "augustus",
       "source": "./.agents/skills/augustus",
-      "version": "0.3.0"
+      "version": "0.4.0"
     }
   ]
 }
