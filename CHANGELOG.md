@@ -96,7 +96,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   README SHA `5cbe01d4`; size **324**).
   Soft Noul ≠ hard safety. 0★ HIGH still got a real card
   (awesome-jev-projects **135★**; jevbetter **12★**). Census
-  **live REST pulse**: SemIf **2040★** (+21 vs §103 **2019**);
+  **live REST pulse**: SemIf **2041★** (+22 vs §103 **2019**);
   jevlike **1011★** (+5 vs §103 **1006**); TypeAR **12★**
   **flat**. Tracker likes **56**; lastModified
   `2026-09-20T04:29:16.000Z`; Hub `archerhume/4rcherhume`
@@ -107,7 +107,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   Independent adversarial review relock (PR #22
   after `3255a57`): HIGH HEAD/README unchanged;
   star/size lag locked (awesome **135★**; SemIf
-  **2040★**; jevlike **1011★**; AnotiaWang **88★**;
+  **2041★**; jevlike **1011★**; AnotiaWang **88★**;
   OpenJevPro size **64**; simple-jev **314★**;
   openjev-sglang **204★**; RLCD size **1513**;
   Colvin size **814**; yibie **423★**).

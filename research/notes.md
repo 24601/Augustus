@@ -22575,7 +22575,7 @@ keys / install recipes.
 
 Census **not provided this hour** (not
 re-derived). Live REST pulse only: SemIf
-**2040★** (+21 vs §103 **2019**; +15 vs first 2340 pin **2025**; +9 vs first-review pin **2031**); jevlike
+**2041★** (+22 vs §103 **2019**; +16 vs first 2340 pin **2025**; +10 vs first-review pin **2031**); jevlike
 **1011★** (+5 vs §103 **1006**; +1 vs first-review **1010**);
 TypeAR-AI/TypeAR **12★** **flat**;
 AnotiaWang/awesome-jev **88★** (+1 vs §103 **87**) still
@@ -22600,7 +22600,7 @@ Independent adversarial review relock
 HIGH HEAD/README pins unchanged.
 logicrw **135★** (was **134★** / first pin **132★**;
 HEAD `97057cc1` / README SHA `25a19b31`
-unchanged — auto GitHub sync). SemIf **2040★** /
+unchanged — auto GitHub sync). SemIf **2041★** /
 jevlike **1011★**. AnotiaWang **88★** (was **87★**).
 OpenJevPro GitHub size **64** (was **62**; HEAD
 `94d77bcb` / README SHA `50c77ace` unchanged).
