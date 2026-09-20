@@ -2,6 +2,45 @@
 
 
 
+## Batch #102 (2026-09-20 ~09:47 Boise / ~15:47 UTC) — hourly 0947 HIGH
+
+Hourly 0947 uniqueness lock: Fast and cheap agent evals. jev as judge.; 18,041 skills from the 200 most-starred repos; Not a security scanner; 最简 Jev 调用演示器; confidence 不是正确率; q93304989-bit/jev-lab ≠ tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab; 75% cheaper and 18% faster withdrawn; jev @0.15 100% recall 87% savings; 33Audits/jev-auto ≠ gargpratyush/jev-router; no Typesafe key, no PI_API_BASE, zero deps; tool-emitted Score/Noul ≠ calibrated Noul; semantic_compatibility: false; candidate_mass; Qwen3.5-2B ≠ Archer; Jev evaluates decisions; it cannot run a coding-agent session; Status: no model yet; S1LV3RJ1NX/openjev ≠ TheoLeeCJ/openjev; 28 accepted decisions; 3 targets; score 800; health 100; arcade game not a flight trainer; A successful live TypeSafe call has not been verified for v0.1.0; abhibansal60/tidy ≠ MANISH007700/tidy; No model, Jev included, predicted which channels its owner keeps; seed 1 selected on a held-out 400-item validation split; Brier 0.342 → 0.378; more accurate and more overconfident; Qwen3.5-4B ≠ Archer; static quants of kushalpatil/jevify-gemma4-26b-a4b; The labels were corrected, and one earlier result was retracted; zero of 23,869 eligible rows; Do not compare cost without checking task success; Exit 1 is not a proof; kisshan13/typesafe-ai-go ≠ Nibir1/typesafe-go ≠ official; 38 tests that cannot fail in a 356-model warehouse; if a parser can answer it, Jev is never asked; 359 of them; Games & Simulation 82; Education & Learning 1; Ratings are heuristics; syedabbasshaheer-art/jev-atlas ≠ ZeroX-01/jev-atlas ≠ Zaious/jev-capability-atlas ≠ gorock007/jev-atlas; anandi1989/awesome-jev-usecases ≠ whyashthakker/awesome-jev-use-cases ≠ walidboulanouar/awesome-jev-use-cases ≠ vamsikrishna2421/jev-usecases; Every headline result above is self-reported; Archer Hume 84.6% MMLU-Pro is a third-party probe not landed Archer; catalog ≠ endorsement; judge ≠ actuator; softmax over A–H ≠ Noul; SemIf 2270★; jevlike 1054★; TypeLLM/TypeLLM 16★; AnotiaWang 98★; yibie/awesome-jev 538★; Laya likes 889; tracker likes 68 lastModified UNCHANGED; Blackwood likes 2 gated manual; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#35/#36/#37/#38/#40; do not push onto open #39; notes.md §119
+
+Note: `research/notes.md` §119. Docs + evaluator, rebased
+onto latest `main` (`fb15455` / merged #42 v0.5.0) after
+`38e4e92` / merged #39 §114 hygiene after `9824aa2` / merged
+#40 llm-to-jev after `501ba28` / merged #37 SemIf after
+`be9fe1c` / merged #38 jcr. Merged #40 owns §118 / 322–329 /
+#101. Merged #39 is hygiene on §114 (IDs unchanged). Merged
+#38 owns §116 / 309–316 / #99. Merged #37 owns §117 / 330–336 /
+#100. Merged #36 owns §115 / 303–308 / #98. Merged #35 owns
+§114 / 289–302 / #97. Does **not** bump 0.5.0.
+This fold stays §119 / items 337–352 / batch #102.
+**HARD RULE:** do not reopen or amend PR #23–#40.
+Quote READMEs. Soft Noul ≠ hard safety. Augustus owns
+placement. `invented_signal: false`.
+
+- **jev-as-judge.** memovai/openevals densify. 48Nauts-Operator/skill-dash. jkaloger/spec-judge.
+  Fast and cheap agent evals. jev as judge. 18,041 skills from the 200 most-starred repos.
+  Not a security scanner. Exit 1 is not a proof. judge ≠ actuator.
+- **OneForward PRIMARY.** Embodied-AI-System/Qwen3.5-OneForward. semantic_compatibility: false.
+  candidate_mass. softmax over A–H ≠ Noul. Qwen3.5-2B ≠ Archer.
+- **Catalogs.** anandi1989/awesome-jev-usecases. syedabbasshaheer-art/jev-atlas.
+  Every headline result above is self-reported. 359 of them; Games & Simulation 82; Education & Learning 1; Ratings are heuristics. catalog ≠ endorsement.
+- **Replay / withdrawn.** Tomdachs/jev-replay-lab. 33Audits/jev-auto. shreyanbr/system-one-training-pairs.
+  A successful live TypeSafe call has not been verified for v0.1.0. 75% cheaper and 18% faster withdrawn.
+  zero of 23,869 eligible rows.
+- **RLCD *theirs*.** AstroHan Brier 0.342 → 0.378. more accurate and more overconfident. Qwen3.5-4B ≠ Archer.
+  static quants of kushalpatil/jevify-gemma4-26b-a4b.
+- **Namesakes.** q93304989-bit/jev-lab ≠ tanay/dairui1/BrendanH18/yibie. S1LV3RJ1NX/openjev ≠ TheoLeeCJ/openjev.
+  abhibansal60/tidy ≠ MANISH007700/tidy. kisshan13/typesafe-ai-go ≠ Nibir1/typesafe-go ≠ official.
+
+Pulse: Archer still NOT landed. Hub archerhume/4rcherhume HTTP **401**.
+tracker likes **68** lastModified UNCHANGED. Laya likes **889**.
+Blackwood likes **2** gated manual. Live REST: SemIf **2270★**;
+jevlike **1054★**; TypeLLM/TypeLLM **16★**; AnotiaWang **98★**;
+yibie/awesome-jev **538★**. `invented_signal: false`.
+
 ## Batch #100 (2026-09-20 ~15:22 UTC / ~09:22 Boise) — user-provided SemIf densify
 
 User-provided 0922 uniqueness lock: SemIf was formerly OpenJev; independent; not affiliated with Jev or TypeSafe; homepage openjev.com; default master; MIT; HEAD ca3ba65f1429; Tolerate float roundoff in MLX evidence verification; pushed 2026-09-19; live REST 2282★ / 140 forks; size 9177; README SHA 74ab7f7f; LICENSE SHA ca562883; interface pattern reproduction with open models; does not reproduce Jev undisclosed model/training; Direct option logits; 0 output tokens; shared-state parallel; MLX backend for Apple Silicon (`--backend mlx`); Qwen3.5-4B 3090 direct 1.023s vs AR JSON 5.332s (**5.21×**); argmax agree 18/21; systems comparison ≠ semantic equivalence; Parallel suffixes 20.03 dec/s on 777 decisions; Browser ladder Qwen3.5-4B authored BA 0.813, pert 0.766, TypeSafe subset agreement 0.845 vs Published Jev 0.883 (102 across 20 cases); Softmax over options ≠ calibrated Noul; typed output does not guarantee semantic correctness; wire/agreement ≠ replica of TypeSafe; SemIf ≠ kw2828/OpenJev playground ≠ zhihz/openjev ≠ apiplant/semif-rs port ≠ dddanielliu/semif-serve; rename is densify not a second census; JevBench 74.6 is §78 not this ladder; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#38; do not push onto open #39/#40; notes.md §117

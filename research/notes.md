@@ -29317,3 +29317,318 @@ Apply 0940; `applied-mappings.md`; `judgment-class.md`;
 `mixed-architecture.md`; `validation.md`;
 `composition-algebra.md` items 322–329. Hunches labeled.
 No wrapper.
+## 119. Hourly 0947 HIGH (2026-09-20 ~09:47 Boise / 2026-09-20T15:47Z)
+
+Measurement / judgment / catalog fold on a **fresh PR off
+latest `main`** (`cursor/fold-hourly-0947-high-c6e6`),
+rebased onto `fb15455` (merged #42 v0.5.0) after
+`38e4e92` (merged #39 §114 hygiene) after
+`9824aa2` (merged #40 llm-to-jev, `notes.md` §118 / items
+322–329 / batch #101) after `501ba28` (merged #37 SemIf,
+`notes.md` §117 / items 330–336 / batch #100) after `be9fe1c`
+(merged #38 jcr, `notes.md` §116 / items 309–316 / batch #99)
+and merged #36 (NanoJev unified-games-v1, `notes.md` §115 /
+items 303–308 / batch #98). **HARD RULE:** do not reopen or
+amend PR #23–#40. Merged #39 is hygiene on §114 (IDs
+unchanged). This fold's IDs:
+`notes.md` §119 / composition 337–352 / findings batch #102.
+
+Never reopen merged #7–**#40**. Do **not** re-fold §118 llm-to-jev / §117 SemIf / §116 jcr / §115
+NanoJev / §114 0843 / §113 0743 / §111 0646 / §110 0541 /
+§109 kushalpatil jevify *as a second census* (this hour
+densifies **static quants** of that Hub card). Densify
+`memovai/openevals` from §42 MED. Skip Archer rewrite.
+Quote READMEs. Mark *theirs*. No wrappers, keys, `npm` /
+`pip` / `uv` / `go get` install recipes.
+`invented_signal: false`. Hunches labeled.
+
+Lane is Augustus: **mathematical / logical / algorithmic
+mental models** for Jev-class categorization/scoring across
+AI / SWE / **business / knowledge work / life**, not
+SWE-only. PRIMARY this hour is **jev-as-judge plus
+readout honesty**: judge ≠ actuator; softmax over A–H ≠
+Noul; candidate_mass vs a renormalized bag; catalog ≠
+endorsement; withdrawn claims stay withdrawn. Soft Noul ≠
+hard safety. Qwen3.5-2B ≠ Archer. Qwen3.5-4B ≠ Archer.
+Qwen/Qwen3.8-27B ≠ Archer. Archer still
+**promised_not_landed**.
+
+Unique consecutive fragments (this hour) must appear as
+**one substring** in overlays (see uniqueness gate):
+Hourly 0947 uniqueness lock: Fast and cheap agent evals. jev as judge.; 18,041 skills from the 200 most-starred repos; Not a security scanner; 最简 Jev 调用演示器; confidence 不是正确率; q93304989-bit/jev-lab ≠ tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab; 75% cheaper and 18% faster withdrawn; jev @0.15 100% recall 87% savings; 33Audits/jev-auto ≠ gargpratyush/jev-router; no Typesafe key, no PI_API_BASE, zero deps; tool-emitted Score/Noul ≠ calibrated Noul; semantic_compatibility: false; candidate_mass; Qwen3.5-2B ≠ Archer; Jev evaluates decisions; it cannot run a coding-agent session; Status: no model yet; S1LV3RJ1NX/openjev ≠ TheoLeeCJ/openjev; 28 accepted decisions; 3 targets; score 800; health 100; arcade game not a flight trainer; A successful live TypeSafe call has not been verified for v0.1.0; abhibansal60/tidy ≠ MANISH007700/tidy; No model, Jev included, predicted which channels its owner keeps; seed 1 selected on a held-out 400-item validation split; Brier 0.342 → 0.378; more accurate and more overconfident; Qwen3.5-4B ≠ Archer; static quants of kushalpatil/jevify-gemma4-26b-a4b; The labels were corrected, and one earlier result was retracted; zero of 23,869 eligible rows; Do not compare cost without checking task success; Exit 1 is not a proof; kisshan13/typesafe-ai-go ≠ Nibir1/typesafe-go ≠ official; 38 tests that cannot fail in a 356-model warehouse; if a parser can answer it, Jev is never asked; 359 of them; Games & Simulation 82; Education & Learning 1; Ratings are heuristics; syedabbasshaheer-art/jev-atlas ≠ ZeroX-01/jev-atlas ≠ Zaious/jev-capability-atlas ≠ gorock007/jev-atlas; anandi1989/awesome-jev-usecases ≠ whyashthakker/awesome-jev-use-cases ≠ walidboulanouar/awesome-jev-use-cases ≠ vamsikrishna2421/jev-usecases; Every headline result above is self-reported; Archer Hume 84.6% MMLU-Pro is a third-party probe not landed Archer; catalog ≠ endorsement; judge ≠ actuator; softmax over A–H ≠ Noul; SemIf 2270★; jevlike 1054★; TypeLLM/TypeLLM 16★; AnotiaWang 98★; yibie/awesome-jev 538★; Laya likes 889; tracker likes 68 lastModified UNCHANGED; Blackwood likes 2 gated manual; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#35/#36/#37/#38/#40; do not push onto open #39; notes.md §119
+
+### How-to-apply (five placements / measurement lenses)
+
+These are *class* lenses, not vendor tutorials. Same
+discipline as §114 (calibration does not compose) and
+§42 (full-traffic jev-as-judge). Formal methods
+**compose** with scoring: a Noul is a SENSOR; the judge
+never actuates; policy / parser / replay / cost table
+are exact work.
+
+1. **jev-as-judge is a sensor, not an actuator**
+   (*theirs*, openevals densify + skill-dash +
+   spec-judge). Fast and cheap agent evals. jev as
+   judge. 18,041 skills from the 200 most-starred repos.
+   Not a security scanner. Exit 1 is not a proof. The
+   model grades; code owns keep / rewrite / merge /
+   delete / CI status. Cousin of Harbor-jevals
+   production-traffic portent (§42). Life analogue: a
+   referee does not also play.
+2. **OneForward / logit readout: candidate_mass vs
+   renormalized bag** (Embodied-AI-System PRIMARY
+   *theirs*). semantic_compatibility: false.
+   candidate_mass. softmax over A–H ≠ Noul. Qwen3.5-2B ≠
+   Archer. A peaked distribution after dropping the rest
+   of the vocabulary is ranking theater. Evaluator
+   self-test locks the trap: mass outside the bag can be
+   <0.01 while the renormalized slice still looks
+   decided. Status: no model yet on S1LV3RJ1NX/openjev
+   (namesake ≠ TheoLeeCJ/openjev, which IS SemIf).
+3. **Catalogs and atlases are indexes, not
+   endorsements.** anandi1989/awesome-jev-usecases ≠
+   whyashthakker/awesome-jev-use-cases ≠
+   walidboulanouar/awesome-jev-use-cases ≠
+   vamsikrishna2421/jev-usecases. Every headline result
+   above is self-reported. Archer Hume 84.6% MMLU-Pro is
+   a third-party probe not landed Archer. 359 of them;
+   Games & Simulation 82; Education & Learning 1.
+   Ratings are heuristics.
+   syedabbasshaheer-art/jev-atlas ≠ ZeroX-01/jev-atlas ≠
+   Zaious/jev-capability-atlas ≠ gorock007/jev-atlas.
+   catalog ≠ endorsement.
+4. **Replay / withdrawn-claim honesty.** A successful
+   live TypeSafe call has not been verified for v0.1.0
+   (replay-lab). 75% cheaper and 18% faster withdrawn
+   (jev-auto). jev @0.15 100% recall 87% savings *theirs*
+   n=1. The labels were corrected, and one earlier
+   result was retracted; zero of 23,869 eligible rows.
+   Do not compare cost without checking task success.
+   33Audits/jev-auto ≠ gargpratyush/jev-router.
+5. **RLCD decision heads are *theirs*, not Archer.**
+   seed 1 selected on a held-out 400-item validation
+   split. Brier 0.342 → 0.378; more accurate and more
+   overconfident. Qwen3.5-4B ≠ Archer. static quants of
+   kushalpatil/jevify-gemma4-26b-a4b (densify §109).
+   Ranking can climb while calibration dies. That is the
+   VladUZH instruct-tuning lesson (§114) on a different
+   base.
+
+### HIGH
+
+1. **[anandi1989/awesome-jev-usecases](https://github.com/anandi1989/awesome-jev-usecases)**
+   — NEW HIGH (MIT; **11★**; size **31**; HEAD
+   `6020d6fa`; README SHA `33ee5470`). Evidence-backed
+   index of real-world Jev use cases. Quote *theirs*:
+   Every headline result above is self-reported. Archer
+   Hume 84.6% MMLU-Pro is a third-party probe not landed
+   Archer. anandi1989/awesome-jev-usecases ≠
+   whyashthakker/awesome-jev-use-cases ≠
+   walidboulanouar/awesome-jev-use-cases ≠
+   vamsikrishna2421/jev-usecases. catalog ≠ endorsement.
+   Do **not** paste listed numbers as ours.
+2. **[memovai/openevals](https://github.com/memovai/openevals)**
+   — DENSIFY §42 MED (TypeScript MIT; **2★**; size
+   **244**; HEAD `ea462da2`; README SHA `222500f5`).
+   Quote *theirs*: Fast and cheap agent evals. jev as
+   judge. Production-traffic sensor. judge ≠ actuator.
+   Do **not** copy `.env` keys. Same full-traffic
+   portent already in `judgment-class.md`.
+3. **[48Nauts-Operator/skill-dash](https://github.com/48Nauts-Operator/skill-dash)**
+   — NEW HIGH (Python MIT; **1★**; size **173**; HEAD
+   `fc131766`; README SHA `7c3c78fd`). Quote *theirs*:
+   18,041 skills from the 200 most-starred repos. Not a
+   security scanner. Jev judges keep/rewrite/merge/
+   delete; code owns the row. Do **not** copy
+   `TYPESAFE_API_KEY`.
+4. **[q93304989-bit/jev-lab](https://github.com/q93304989-bit/jev-lab)**
+   — NEW HIGH (HTML MIT; **1★**; size **0** WITH
+   CONTENTS; HEAD `8a6a84af`; README SHA `6e64fa7e`).
+   Quote *theirs*: 最简 Jev 调用演示器. confidence
+   不是正确率. q93304989-bit/jev-lab ≠
+   tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠
+   BrendanH18/jev-lab ≠ yibie/laya-jev-lab. Demo, not a
+   bench. Do **not** copy the local proxy recipe.
+5. **[33Audits/jev-auto](https://github.com/33Audits/jev-auto)**
+   — NEW HIGH (JavaScript MIT; **0★**; size **346**;
+   HEAD `e72e64fb`; README SHA `2ca280cc`). Quote
+   *theirs*: 75% cheaper and 18% faster withdrawn. jev
+   @0.15 100% recall 87% savings. Caveat n=1.
+   33Audits/jev-auto ≠ gargpratyush/jev-router. Fail-open
+   router. Do **not** copy `npm i -g`.
+6. **[Danu28/pi-jev-harness](https://github.com/Danu28/pi-jev-harness)**
+   — NEW HIGH (TypeScript MIT; **0★**; size **197**;
+   HEAD `e1d319a6`; README SHA `07e2dfec`). Quote
+   *theirs*: no Typesafe key, no PI_API_BASE, zero deps.
+   tool-emitted Score/Noul ≠ calibrated Noul. The pi
+   model fills JSON; that is not a System One Noul.
+   Do **not** copy `pi install`.
+7. **[Embodied-AI-System/Qwen3.5-OneForward](https://github.com/Embodied-AI-System/Qwen3.5-OneForward)**
+   — NEW HIGH PRIMARY (Python Apache-2.0; **0★**; size
+   **0** WITH CONTENTS; created 15:47Z; HEAD
+   `b5110513`; README SHA `97cbeaf3`). Quote *theirs*:
+   semantic_compatibility: false. candidate_mass.
+   softmax over A–H ≠ Noul. Qwen3.5-2B ≠ Archer. One
+   forward pass, zero decoding, zero fine-tuning.
+   Evaluator locks the renormalization trap. Do **not**
+   copy GPU serve.
+8. **[HiepPP/hiep-paseo-plugin](https://github.com/HiepPP/hiep-paseo-plugin)**
+   — NEW HIGH (TypeScript; license **null**; **0★**;
+   size **294**; HEAD `cbb70fa3`; README SHA
+   `e51b69b1`). Quote *theirs*: Jev evaluates decisions;
+   it cannot run a coding-agent session. judge ≠
+   actuator. Do **not** copy gateway keys.
+9. **[S1LV3RJ1NX/openjev](https://github.com/S1LV3RJ1NX/openjev)**
+   — NEW HIGH (Python Apache-2.0; **0★**; size **0**
+   WITH CONTENTS; HEAD `7cb5ba37`; README SHA
+   `cf8eea54`). Quote *theirs*: Status: no model yet.
+   S1LV3RJ1NX/openjev ≠ TheoLeeCJ/openjev (IS SemIf,
+   GitHub id 1372482979, **2270★**). Publishing the
+   eval before the checkpoint is honesty, not a replica.
+10. **[Sunwood-ai-labs/jev-flight-combat](https://github.com/Sunwood-ai-labs/jev-flight-combat)**
+    — NEW HIGH (TypeScript MIT; **0★**; size **3487**;
+    HEAD `1abc9449`; README SHA `12bac482`). Quote
+    *theirs*: 28 accepted decisions; 3 targets; score
+    800; health 100. arcade game not a flight trainer.
+    Jev LIVE is local-only. Do **not** treat the HUD as
+    a calibrated Noul.
+11. **[Tomdachs/jev-replay-lab](https://github.com/Tomdachs/jev-replay-lab)**
+    — NEW HIGH (TypeScript MIT; **0★**; size **0** WITH
+    CONTENTS; HEAD `d59cd353`; README SHA `20e7b76f`).
+    Quote *theirs*: A successful live TypeSafe call has
+    not been verified for v0.1.0. Replay a threshold
+    without inference. Cousin of huncho policy-replay
+    (§114). Demo results are never evidence of model
+    quality.
+12. **[abhibansal60/tidy](https://github.com/abhibansal60/tidy)**
+    — NEW HIGH (Python MIT; **0★**; size **5460**; HEAD
+    `bfa95e33`; README SHA `a3cd8abd`). Quote *theirs*:
+    No model, Jev included, predicted which channels
+    its owner keeps. abhibansal60/tidy ≠
+    MANISH007700/tidy (Downloads filer, already folded). Watch
+    history beat models. Jev judges; code sets limits;
+    you approve. Do **not** copy OAuth.
+13. **[hf:AstroHan/decision-head-qwen3.5-4b-rlcd-32k](https://huggingface.co/AstroHan/decision-head-qwen3.5-4b-rlcd-32k)**
+    — NEW HIGH (peft Apache-2.0; likes **0**; sha
+    `8349ce99`). Quote *theirs*: seed 1 selected on a
+    held-out 400-item validation split. Brier 0.342 →
+    0.378. more accurate and more overconfident.
+    Qwen3.5-4B ≠ Archer. RLCD head *theirs*. Do **not**
+    paste JevBench 0.779 as class Harbor.
+14. **[hf:mradermacher/jevify-gemma4-26b-a4b-GGUF](https://huggingface.co/mradermacher/jevify-gemma4-26b-a4b-GGUF)**
+    — DENSIFY §109 (transformers GGUF; likes **0**; sha
+    `8917f8f4`). Quote *theirs*: static quants of
+    kushalpatil/jevify-gemma4-26b-a4b. Not a new
+    training run. Quant ≠ calibration. Do **not** mint
+    a sibling census.
+15. **[hfdataset:shreyanbr/system-one-training-pairs](https://huggingface.co/datasets/shreyanbr/system-one-training-pairs)**
+    — NEW HIGH (Apache-2.0; likes **0**; sha
+    `813f34c0`). Quote *theirs*: The labels were
+    corrected, and one earlier result was retracted.
+    zero of 23,869 eligible rows. Do not distill Jev as
+    teacher of record (they distilled Haiku). Label
+    leakage is a measurement finding, not a model win.
+16. **[javierBrenesAI/jev_tool_calling_experiment](https://github.com/javierBrenesAI/jev_tool_calling_experiment)**
+    — NEW HIGH (Python; license **null**; **0★**; size
+    **52**; HEAD `c0114780`; README SHA `c49a3248`).
+    Quote *theirs*: Do not compare cost without checking
+    task success. Cheap wrong tool is not an
+    improvement. judge ≠ actuator.
+17. **[jkaloger/spec-judge](https://github.com/jkaloger/spec-judge)**
+    — NEW HIGH (TypeScript MIT; **0★**; size **0** WITH
+    CONTENTS; HEAD `8dadbbe7`; README SHA `08f23314`).
+    grade code <-> specs with jev. Exit 1 is not a
+    proof. CI status is policy over a sensor. Do **not**
+    copy `AI_GATEWAY_API_KEY`.
+18. **[kisshan13/typesafe-ai-go](https://github.com/kisshan13/typesafe-ai-go)**
+    — NEW HIGH (Go MIT; **0★**; size **0** WITH
+    CONTENTS; HEAD `c18752f4`; README SHA `6e765a45`).
+    Quote *theirs*: community-maintained. kisshan13/typesafe-ai-go
+    ≠ Nibir1/typesafe-go ≠ official. Kit, not a new
+    species. Do **not** copy `go get`.
+19. **[ryan-sunny/dbt-assay](https://github.com/ryan-sunny/dbt-assay)**
+    — NEW HIGH (Python Apache-2.0; **0★**; size
+    **1165**; HEAD `f0271105`; README SHA `4c110d0f`).
+    Quote *theirs*: if a parser can answer it, Jev is
+    never asked. 38 tests that cannot fail in a
+    356-model warehouse. Exact work first; remainder
+    judged. Formal compose: sqlglot proves structure;
+    Jev is SENSOR for meaning.
+20. **[syedabbasshaheer-art/jev-atlas](https://github.com/syedabbasshaheer-art/jev-atlas)**
+    — NEW HIGH (HTML MIT; **0★**; size **310**; HEAD
+    `3b7b4e64`; README SHA `1949dcbe`). Quote *theirs*:
+    359 of them. Games & Simulation 82. Education &
+    Learning 1. Ratings are heuristics.
+    syedabbasshaheer-art/jev-atlas ≠ ZeroX-01/jev-atlas
+    ≠ Zaious/jev-capability-atlas ≠ gorock007/jev-atlas.
+    catalog ≠ endorsement.
+
+### Pulse (live REST this hour)
+
+SemIf **2270★** (TheoLeeCJ/openjev 301 → SemIf same id
+1372482979). jevlike **1054★**. TypeLLM/TypeLLM **16★**.
+AnotiaWang **98★**. yibie/awesome-jev **538★**. Laya likes
+**889** (sha `1c5edc17`; lastModified
+2026-09-20T01:43:36Z). tracker likes **68** lastModified
+**UNCHANGED** 2026-09-20T04:29:16Z sha `da1dd2d7`.
+Blackwood likes **2** gated manual. Archer still
+promised_not_landed. Hub archerhume/4rcherhume HTTP
+**401**.
+
+### Formal compose + anti-patterns
+
+Formal methods **compose** with scoring. A Noul is a
+SENSOR. Parsers / CI exit codes / replay ledgers /
+cost tables / hysteresis latches are exact work.
+Treating Exit 1 as a proof, a renormalized A–H softmax
+as a Noul, a catalog row as endorsement, a withdrawn
+75% as a live saving, or Qwen3.5-2B/4B as Archer is
+soundness theater. Ranking ≠ calibration. Soft Noul ≠
+hard safety. judge ≠ actuator. catalog ≠ endorsement.
+softmax over A–H ≠ Noul.
+
+### Adversarial review + testing hooks (Basit standing
+order)
+
+Parent merge only after **CLEAN** adversarial review
+**AND** testing. Hooks for the reviewer:
+
+- Uniqueness-gate: the consecutive `Hourly 0947
+  uniqueness lock:` string must appear in every overlay
+  listed below. The 0843 consecutive string must remain
+  a substring (do not mutate it; do not reopen
+  #23–#36). 0915 lock stays overlay-only.
+- Namesake locks: q93304989-bit/jev-lab ≠ tanay / dairui1
+  / BrendanH18 / yibie labs; 33Audits/jev-auto ≠
+  gargpratyush/jev-router; S1LV3RJ1NX/openjev ≠
+  TheoLeeCJ/openjev; abhibansal60/tidy ≠ MANISH007700/tidy;
+  kisshan13/typesafe-ai-go ≠ Nibir1/typesafe-go ≠ official;
+  syedabbasshaheer-art/jev-atlas ≠ ZeroX-01 / Zaious /
+  gorock007; anandi1989/awesome-jev-usecases ≠ whyash /
+  walid / vamsikrishna.
+- Densify vs new: openevals densifies §42; mradermacher
+  GGUF densifies §109 kushalpatil. Others are first
+  sightings this hour, including size-0 WITH CONTENTS.
+- Harbor-jevals: 18,041 is a census count *theirs*, not
+  Harbor. 128/128 stays NanoJev §115. 0.779 JevBench is
+  *theirs*.
+- Anti-patterns to refuse: TypeSafe drop-in; Qwen3.5-2B
+  or Qwen3.5-4B or Qwen3.8-27B as Archer; softmax over
+  A–H as Noul; Exit 1 as proof; catalog as endorsement;
+  tool-emitted Score as calibrated Noul; comparing cost
+  without task success; copying keys / `npm` / `pip` /
+  `go get`.
+- Overlay set: SKILL.md body (not YAML surgery),
+  mental-models Apply 0947, composition-algebra items
+  337–352, faq, mixed-architecture, validation,
+  toolbox-mapping, methods-catalog, formal-methods,
+  formal-semi-formal, applied-mappings, judgment-class,
+  question-design, agent-self-assessment, mappings,
+  CHANGELOG, README, docs/ecosystem, findings batch #102,
+  refresh-log, sources.json, changelog-hourly.md.
+- Offline check: `evaluate_decisions.py --self-test`
+  (now includes candidate_mass renormalization trap)
+  and `uniqueness_gate.py` (0843 + 0915 + jcr + 0922 + 0940 + 0947). No live Jev
+  key. No wrappers.
+
+Hourly 0947 uniqueness lock: Fast and cheap agent evals. jev as judge.; 18,041 skills from the 200 most-starred repos; Not a security scanner; 最简 Jev 调用演示器; confidence 不是正确率; q93304989-bit/jev-lab ≠ tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab; 75% cheaper and 18% faster withdrawn; jev @0.15 100% recall 87% savings; 33Audits/jev-auto ≠ gargpratyush/jev-router; no Typesafe key, no PI_API_BASE, zero deps; tool-emitted Score/Noul ≠ calibrated Noul; semantic_compatibility: false; candidate_mass; Qwen3.5-2B ≠ Archer; Jev evaluates decisions; it cannot run a coding-agent session; Status: no model yet; S1LV3RJ1NX/openjev ≠ TheoLeeCJ/openjev; 28 accepted decisions; 3 targets; score 800; health 100; arcade game not a flight trainer; A successful live TypeSafe call has not been verified for v0.1.0; abhibansal60/tidy ≠ MANISH007700/tidy; No model, Jev included, predicted which channels its owner keeps; seed 1 selected on a held-out 400-item validation split; Brier 0.342 → 0.378; more accurate and more overconfident; Qwen3.5-4B ≠ Archer; static quants of kushalpatil/jevify-gemma4-26b-a4b; The labels were corrected, and one earlier result was retracted; zero of 23,869 eligible rows; Do not compare cost without checking task success; Exit 1 is not a proof; kisshan13/typesafe-ai-go ≠ Nibir1/typesafe-go ≠ official; 38 tests that cannot fail in a 356-model warehouse; if a parser can answer it, Jev is never asked; 359 of them; Games & Simulation 82; Education & Learning 1; Ratings are heuristics; syedabbasshaheer-art/jev-atlas ≠ ZeroX-01/jev-atlas ≠ Zaious/jev-capability-atlas ≠ gorock007/jev-atlas; anandi1989/awesome-jev-usecases ≠ whyashthakker/awesome-jev-use-cases ≠ walidboulanouar/awesome-jev-use-cases ≠ vamsikrishna2421/jev-usecases; Every headline result above is self-reported; Archer Hume 84.6% MMLU-Pro is a third-party probe not landed Archer; catalog ≠ endorsement; judge ≠ actuator; softmax over A–H ≠ Noul; SemIf 2270★; jevlike 1054★; TypeLLM/TypeLLM 16★; AnotiaWang 98★; yibie/awesome-jev 538★; Laya likes 889; tracker likes 68 lastModified UNCHANGED; Blackwood likes 2 gated manual; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#35/#36/#37/#38/#40; do not push onto open #39; notes.md §119
