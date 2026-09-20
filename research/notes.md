@@ -29136,4 +29136,184 @@ sources.json, changelog-hourly.md, uniqueness_gate.py.
 Offline check: uniqueness_gate.py (0843 + 0915 + jcr + 0922
 consecutive locks) and `evaluate_decisions.py
 --self-test`. No live Jev key. No wrappers.
+## 118. User-provided HIGH — alexwestco/llm-to-jev (2026-09-20 ~09:40 Boise / ~15:40 UTC)
 
+PRIMARY fold of
+[alexwestco/llm-to-jev](https://github.com/alexwestco/llm-to-jev)
+on a **fresh PR off latest `main`**
+(`cursor/fold-llm-to-jev-onramp-59db`) after merged #35
+(`0189825`, hourly 0843 / `notes.md` §114 / items 289–302 /
+batch #97), merged **#36** (`7de41ef`, NanoJev §115 /
+items 303–308 / batch #98), and merged **#38** (`be9fe1c`,
+jcr §116 / 309–316 / #99). **HARD RULE:** do not reopen
+or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#38.
+Do **not** push onto open **#37** (SemIf §117 / 315–321 /
+#100) or **#39** (§114 hygiene — do not reopen). Merged
+**#38** owns §116 / 309–316 / #99. This
+fold is `notes.md` §118 / composition **322–329** /
+findings batch **#101**. `invented_signal: false`. Skip
+Archer rewrite. Quote **theirs**. Hunches labeled. No
+wrappers, `npm` / `git clone` / `TYPESAFE_API_KEY` recipes.
+
+Lane is Augustus: **migration / question-design on-ramp**.
+This finds where typed judgment belongs inside existing
+LLM prompts. Soft Noul / Choice / Score proposal ≠
+production gate; human review required. Partial
+convertibility: keep generative work with the LLM; place
+only bounded decisions. Category error: not every prompt
+is a Jev candidate (prose stays LLM). Companion to the
+Augustus decision-design card + validation gate (a
+falsifying experiment is still required). Softmax /
+heuristic conversion ≠ calibrated Noul.
+
+Unique consecutive fragments (this fold) must appear as
+**one substring** in overlays (see uniqueness gate):
+User-provided 0940 uniqueness lock: Turn decision-shaped LLM prompts into proposed Jev primitives; This is a conversion assistant, not an automatic guarantee of equivalent behavior; The compiler uses deterministic heuristics, not an LLM or evaluation model; It understands a deliberately small set of common prompt patterns; Generated instructions and criteria must be reviewed before production use; Score ranges such as 0 to 1 are translated into ordered Jev criteria; Prompts requiring open-ended prose are not a fit; suitability strong/partial/not_a_fit; compatibility full/partial/none; Writing new text stays with an LLM; Review the generated Score rubric; Jev scores ordered criteria, not an arbitrary 0-to-1 range; Everything runs locally in the browser; There is no framework, database, account, API, or server-side prompt processing; The key is read from the process environment and is never stored or printed; connect-src 'none'; alexwestco/llm-to-jev ≠ altryne/jevify ≠ ryana/jevify ≠ fidecastro/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify; HEAD 234058ab372d; README SHA 43cd94fb; LICENSE SHA 5f334006; compiler SHA fdf235d0; 2★; MIT; JavaScript; size 29; Pages https://alexwestco.github.io/llm-to-jev/; invented_signal false; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35; notes.md §118
+
+### How-to-apply (six placements / question-design on-ramp)
+
+These are *class* lenses, not a vendor how-to. Same
+discipline as §113 altryne/jevify (“Find where Jev
+belongs. Design the questions. Measure the difference”)
+and §2 rubric discipline (Score levels are ordered
+situations, not a 0–1 slider). Formal methods **compose**:
+the heuristic compiler is a SENSOR of *shape*; code /
+human review owns the question that ships.
+
+1. **This is the migration / question-design on-ramp.**
+   Quote *theirs*: “Turn decision-shaped LLM prompts into
+   proposed Jev primitives.” Paste an existing GPT /
+   Claude / Gemini prompt; the compiler proposes Choice /
+   Score / Noul. It does **not** replace Augustus
+   placement, typesafe-ai/skills contracts, or a labeled
+   Harbor. Cousin of altryne/jevify (skill: find / design /
+   measure) — this repo is a **prompt compiler**, not that
+   skill and not a replica.
+2. **Soft proposal ≠ production gate.** Quote *theirs*:
+   “This is a conversion assistant, not an automatic
+   guarantee of equivalent behavior.” “Generated
+   instructions and criteria must be reviewed before
+   production use.” Exporting `@typesafe-ai/sdk` /
+   `typesafe-sdk` / HTTP examples is a draft, not a
+   shipped question. The validation gate (falsifying
+   experiment) still has to run.
+3. **Partial convertibility.** Suitability *theirs*:
+   `strong` / `partial` / `not_a_fit`. Compatibility
+   *theirs*: `full` / `partial` / `none`. Mixed prompts
+   separate Jev-compatible decisions from writing /
+   summarization / translation. Quote the UI: “Writing new
+   text stays with an LLM.” Keep generative work with the
+   LLM; place only bounded decisions.
+4. **Category error: not every prompt is a Jev
+   candidate.** Quote *theirs*: “Prompts requiring
+   open-ended prose are not a fit.” The welcome-email
+   example compiles to `compatibility: none` /
+   `suitability: not_a_fit` with generationTasks
+   `["Writing new text"]` and **no** `systemOne` export.
+   Prose stays LLM. Do not force a Choice onto a draft.
+5. **Companion to the decision-design card + validation
+   gate.** The compiler is deterministic heuristics, **not**
+   an LLM or evaluation model; “It understands a
+   deliberately small set of common prompt patterns.”
+   Roadmap *theirs* (not landed): fixture eval set,
+   editable criteria, multi-step decomposition, compare
+   LLM vs Jev latency/cost. Until those exist, do not
+   quote conversion as Harbor.
+6. **Heuristic conversion ≠ calibrated Noul.** Score
+   ranges like `0 to 1` are translated into ordered Jev
+   criteria *theirs*. Compiler warning: “Review the
+   generated Score rubric; Jev scores ordered criteria,
+   not an arbitrary 0-to-1 range.” Default urgency rubric
+   is `Not urgent` / `Moderately urgent` /
+   `Extremely urgent` — a pattern, not a calibrated
+   instrument. Softmax over heuristic options is still
+   not a Noul. Soft scores ≠ hard gates.
+
+### HIGH
+
+1. **[alexwestco/llm-to-jev](https://github.com/alexwestco/llm-to-jev)**
+   — NEW HIGH PRIMARY (JavaScript MIT; GitHub id
+   **1377308198**; **2★**; forks **0**; open issues **0**;
+   size **29**; default **main**; homepage field **null**;
+   README Points to Pages). HEAD
+   `234058ab372d7754833c6279601755f8fda55d98` (“fix
+   deployment issues on heroku”, 2026-09-20T12:05:59Z).
+   README SHA `43cd94fba7527d78635b148628485c0cd1b1ad66`;
+   LICENSE SHA `5f3340068a565a3417469985fdbb93631611336b`
+   (Copyright (c) 2026 Alex West); `src/compiler.js` SHA
+   `fdf235d01247e799fe35003e6c46192124c236f2`; `index.html`
+   SHA `bb6fc9a6e0e0a40ad19e5a60cbfa38bd87674e84`. GitHub
+   description: “Convert LLM prompts to Jev prompts.”
+   Topics empty. No tags / releases. Created
+   2026-09-19T15:20:36Z; pushed 2026-09-20T12:06:01Z;
+   updated 2026-09-20T15:39:57Z. Pages
+   https://alexwestco.github.io/llm-to-jev/ HTTP **200**
+   (last-modified 2026-09-20 12:06:27 GMT). CSP
+   `connect-src 'none'` — the demo never calls Jev.
+   Optional live smoke (`scripts/live-smoke.js`) reads
+   `TYPESAFE_API_KEY` from the process environment and
+   never stores or prints it *theirs*. Everything runs
+   locally in the browser; no framework, database,
+   account, API, or server-side prompt processing.
+   Exports JS/TS `@typesafe-ai/sdk`, Python
+   `typesafe-sdk`, Ruby/Go/cURL HTTP, neutral JSON.
+   Example prompt *theirs*: “Classify this support ticket
+   as billing, technical, account access, or other. Score
+   its urgency from 0 to 1, and decide whether it needs
+   human review.” Tests lock `full`/`strong` plus Choice
+   options `billing` / `technical` / `account_access` /
+   `other`. Namesake:
+   alexwestco/llm-to-jev ≠ altryne/jevify ≠ ryana/jevify ≠
+   fidecastro/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠
+   uspraveen/Jevify ≠ karanb192/jev-architect ≠
+   gavinHuang/jevinize ≠ dbreunig/building-with-jev-skill ≠
+   typesafe-ai/skills. Do **not** copy `npm run dev` /
+   `npm test` / `npm run test:live`. Do **not** treat the
+   compiler as Jev. Do **not** treat exported SDK as a
+   measured equivalent. Star counts ephemeral.
+
+### Adversarial review + testing hooks
+
+- Uniqueness-gate: the consecutive
+  `User-provided 0940 uniqueness lock:` string must appear
+  in every overlay listed by
+  `scripts/uniqueness_gate.py`. The 0843 consecutive
+  string must remain a substring (do not mutate it; do
+  not reopen #35).
+- ID skip: merged #31 owns §113 / 273–288 / #96; merged
+  #35 owns §114 / 289–302 / #97; merged #36 owns §115 /
+  303–308 / #98; merged #38 owns §116 / 309–316 / #99;
+  open #37 §117 / 315–321 / #100; open #39 is hygiene on §114
+  (do not reopen). This fold is §118 / 322–329 / #101.
+- Namesake lock vs the jevify placement/replica family.
+- Anti-patterns to refuse: heuristic compile as Harbor;
+  0–1 Score as a Noul; exported SDK as equivalent
+  behavior; `npm` recipes; stored API keys; collapsing
+  into altryne/jevify; treating `not_a_fit` prose as a
+  Choice; treating roadmap fixture-eval as landed.
+- Overlay set: SKILL.md YAML+triggers, mental-models
+  Apply 0940, composition-algebra items 322–329, faq,
+  mixed-architecture fail table, question-design,
+  applied-mappings, judgment-class, validation,
+  uniqueness lock across 21 overlays, CHANGELOG
+  Unreleased (lock dump in `research/changelog-hourly.md`),
+  findings batch #101, refresh-log, sources.json,
+  docs/ecosystem. README stays scannable (one lock line;
+  no extra skill-list dump).
+- Offline check: `python3 .agents/skills/augustus/scripts/evaluate_decisions.py --self-test`
+  and `python3 .agents/skills/augustus/scripts/uniqueness_gate.py`.
+  No live Jev key. No wrappers.
+
+### Curated status
+
+HIGH **folded** (1 PRIMARY card). Conversion assistant,
+not a replica, not a gate. Archer still
+**promised_not_landed**. `invented_signal: false`.
+
+### Cross-links
+
+Cards: `question-design.md`; `faq.md`; `mental-models.md`
+Apply 0940; `applied-mappings.md`; `judgment-class.md`;
+`mixed-architecture.md`; `validation.md`;
+`composition-algebra.md` items 322–329. Hunches labeled.
+No wrapper.

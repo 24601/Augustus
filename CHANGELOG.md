@@ -52,11 +52,13 @@ Merged #35 owns §114 / 289–302 / #97. Merged #36 owns §115 /
 Hourly 0843 HIGH (`research/notes.md` §114 / composition
 items 289–302 / findings batch #97) plus merged #36 NanoJev
 (`research/notes.md` §115 / items 303–308 / batch #98) plus
-user-provided HIGH NiazMorshed2007/jcr (`research/notes.md`
-§116 / composition items 309–316 / findings batch #99). Does
-**not** bump the 0.4.0 pin. Do not reopen or amend PR #23–#36.
-Open #37 owns §117 / 315–321 / #100 (item overlap 315–316 is
-#37's remap).
+merged #38 NiazMorshed2007/jcr (`research/notes.md`
+§116 / composition items 309–316 / findings batch #99) plus
+user-provided HIGH alexwestco/llm-to-jev (`research/notes.md`
+§118 / composition items 322–329 / findings batch #101). Does
+**not** bump the 0.4.0 pin. Do not reopen or amend PR #23–#38.
+Merged #37 owns §117 / 330–336 / #100. Open #39 is §114 hygiene
+(do not reopen). Do not push onto open #39/#41.
 
 ### Added
 
@@ -84,6 +86,33 @@ Open #37 owns §117 / 315–321 / #100 (item overlap 315–316 is
 - Uniqueness dump for this fold lives in
   [`research/changelog-hourly.md`](research/changelog-hourly.md).
   User-provided 0915 uniqueness lock: TianyuCodings/NanoJev unified-games-v1 densify; A 0.6B parallel decision model: states and questions in, complete probability distributions out. Zero output-token decoding.; One model, four games; ViZDoom Basic 128/128 vs Jev 56/128; Predict Position 27/128 vs Jev 11/128; Maze 225 attempts vs Jev 2738; Snake 30 food / 256 steps; held-out Maze 4/10 Snake 8/8 Basic 128/128 Predict 27/128; Untuned Qwen3-0.6B baseline; 18,760 questions per variant; 16,333 ViZDoom; 896 Predict Position expert episodes; hard_lr1e5; mix weights 1/3, 1/3, 1/6, 1/6; Hub C-Tianyu/NanoJev revision unified-games-v1 likes 58; dataset C-Tianyu/NanoJev-Data likes 5; HEAD 618cea6d906d54e128360786d12f703fff2b1245; 1289★ / 158 forks / size 64035; README SHA 4190093c64ee75b26e9726daa3b00cbcf6d3157a; MIT; caijinchun/nanojev-arena ≠ liao96312/jev-arena-nanojev ≠ zwliJay/jev-forge ≠ NanoJev; not TypeSafe Jev; open replica / specialist gameplay S1; soft scores ≠ hard gates; Game success ≠ calibrated Noul; local type boolean ≠ TypeSafe noul; invented_signal false; do not reopen or amend PR #31/#32/#33/#35; notes.md §115
+
+
+User-provided 0940 HIGH (`research/notes.md` §118 /
+composition items 322–329 / findings batch #101). Does
+**not** bump the 0.4.0 pin. Rebased onto merged **#37**
+(SemIf / §117 / 330–336 / #100). Merged #36 owns §115 /
+items 303–308 / batch #98. Merged #38 owns §116 /
+309–316 / #99. Do **not** push onto open #39/#41.
+Do not reopen #39.
+
+### Added
+
+- **User-provided 0940 HIGH (`notes.md` §118).** Migration /
+  question-design on-ramp: [alexwestco/llm-to-jev](https://github.com/alexwestco/llm-to-jev)
+  turns decision-shaped LLM prompts into proposed Choice/Score/Noul.
+  Conversion assistant, not an automatic guarantee of equivalent
+  behavior. Deterministic heuristics, not an LLM. Partial
+  convertibility; prose stays with the LLM. Heuristic conversion ≠
+  calibrated Noul. Companion to the decision-design card +
+  validation gate. Composition items 322–329 / batch #101.
+  **HARD RULE:** do not reopen or amend PR #23–#38. Merged #36
+  owns §115. Merged #38 owns §116. Merged #37 owns §117.
+  Do not push onto open #39/#41. Does **not** bump 0.4.0.
+
+Hourly 0743 HIGH (`research/notes.md` §113 / composition
+items 273–288 / findings batch #96). Does **not** bump
+the 0.4.0 pin. Do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33.
 
 ### Added
 
