@@ -2064,3 +2064,56 @@
   jev-recall despite attached JSON (quote README demos);
   JevPi GitHub size 0 with contents (same honesty as gut);
   0★ HIGH still got a real card.
+## 2026-09-20T02:41Z — hourly 2041 HIGH (Boise ~20:41 MDT)
+
+- Fresh PR off main after merged #18 (`7ef9613` / §100).
+  Never reopen merged #7–**#18**. Branch
+  `cursor/hourly-2041-bias-bench-jev-eval-bca1`.
+  Skip Archer rewrite. Quote READMEs. Mark *theirs*.
+  No wrappers / keys / install recipes. Do not dump
+  source / SDK / weights / eval logs.
+  `invented_signal: false`.
+- Nine HIGH: natemoo-re/bias-bench (PRIMARY; **0★**;
+  resume-screening bias audit methodology);
+  austindixson/planalyzer (**0★**; code-owned
+  pass|review|block); cannacre8ive/switchboard-ai
+  (**0★**; cost-aware routing; package 0.3.0);
+  elcronos/jev-vs-open-decision-models (**0★**;
+  frozen-protocol bake-off); cvsgireesh/jevusher
+  (**0★**; VOI admission); MokiMeow/jev-fabric
+  (**0★**; typed control plane); jose-troche/live-rubric
+  (**0★**; scoring economics); willkelly/jev-evaluation
+  (**0★**; pre-registered science); nshkrdotcom/system_one_sdk
+  (**0★**; class infrastructure).
+- Formal methods compose with scoring; a Noul is a SENSOR.
+  Treating a zero binary name gap as a fairness
+  certificate, letting Jev emit the verdict string,
+  pasting PrismNLI's lead without the contamination
+  caveat, treating J7 pass as safe to obey, treating a
+  receipt as authorization, or hard-gating confidence
+  ≥0.95 is soundness theater. rh-guard owns injection.
+- Pulse (do not invent): Archer still NOT landed last pin
+  from §99. Hub archerhume/4rcherhume HTTP **401**. Tracker
+  likes **51** flat; lastModified UNCHANGED
+  2026-09-19T18:37:18Z. Live REST: SemIf **1976★**; jevlike
+  **999★**; TypeAR **11★** flat. AnotiaWang/awesome-jev
+  **83★** ≠ Awesomejev 561/27007. X MCP not used; no
+  invented tweets.
+- Cards: SKILL.md, mixed-architecture fail table +
+  gallery, faq, mental-models Apply 2041, judgment-class,
+  validation, applied-mappings, mappings, toolbox,
+  composition-algebra items 111–119, question-design,
+  methods-catalog, formal-methods, agent-self-assessment,
+  ecosystem, CHANGELOG, README.
+- notes.md §101; sources.json; findings.md batch #84.
+  No wrapper. Do **not** merge from this review.
+- Adversarial review honesty locks: GitHub size 0 with
+  contents (bias-bench / planalyzer / switchboard /
+  elcronos / jevusher / system_one_sdk); license null
+  (bias-bench / elcronos / live-rubric); switchboard
+  README V0.3 / package 0.3.0 / M4 adapters next / M5
+  not done; live-rubric ~$0.000004 desc / ~$0.000006
+  README Costs; system_one_sdk GitHub desc provider-neutral
+  / README opening TypeSafe-first; jev-fabric historical-v0
+  zero retained cases; 0★ HIGH still got a real card.
+

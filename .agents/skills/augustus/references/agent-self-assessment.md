@@ -345,6 +345,12 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   [probably](https://github.com/southpolesteve/probably) —
   Jev IS the if-statement; otherwise maybe / confidence
   gate; chaos samples after the gate (`notes.md` §100).
+  **2041:** fail polarity per lens (jevusher ADMISSION
+  unsure→let in / SELECTION unsure→surface none / SAFETY
+  unsure→flag never pass); planalyzer code-owned
+  pass|review|block; Fabric receipt ≠ authorization;
+  jev-evaluation confidence does not track ignorance —
+  do not hard-gate ≥0.95 (`notes.md` §101).
   **Lease / retrieve:**
   [invalidate](https://github.com/chopratejas/invalidate) —
   memory leases ended by new evidence; unsure → review

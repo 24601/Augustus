@@ -1596,6 +1596,80 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   Hub `archerhume/4rcherhume` HTTP **401**. Archer still NOT
   landed. Do not copy keys / `uv` / `cargo` / `.env`. No
   wrapper. No invented metrics.
+- Hourly 2041 HIGH (`research/notes.md` §101): **Skip
+  Archer rewrite.** Docs-only on a **fresh PR off main**.
+  Never reopen merged #7–**#18**. Do **not** re-fold 1943
+  / §100 / 1843 / §99 / 1740 / §98 / 1639 / §96 /
+  gliner-native-runtime / §97 / 1541 / §95 / jev-align
+  *mechanism* / §93. How-to-apply / mental models /
+  architecture / Harbor-jevals / toolbelt — not a thin
+  Jev skill dump. Backend-agnostic
+  categorization/scoring/decision class. Formal methods
+  compose with scoring; a Noul is a SENSOR; treating a
+  zero binary name gap as a fairness certificate, letting
+  Jev emit the verdict string, pasting PrismNLI's lead
+  without the contamination caveat, treating J7 pass as
+  safe to obey, treating a receipt as authorization, or
+  hard-gating confidence ≥0.95 is soundness theater. Nine
+  HIGH clusters: **resume-screening bias audit**
+  ([natemoo-re/bias-bench](https://github.com/natemoo-re/bias-bench)
+  PRIMARY; name×resume factorial independent Nouls;
+  callback determined by resume quality; mean-probability
+  name gaps operationally negligible; natemoo-re/bias-bench
+  ≠ BBQ; JavaScript; license null; **0★**; HEAD
+  `ff06548c`; README SHA `a1c3e604`); **MCDA panel
+  code-owned verdict**
+  ([austindixson/planalyzer](https://github.com/austindixson/planalyzer)
+  Plan/PRD panel → code-owned pass|review|block;
+  cheerleading out of scope; Python MIT; **0★**; HEAD
+  `39fc161f`; README SHA `6e4d8da3`); **EU cost-aware
+  routing**
+  ([cannacre8ive/switchboard-ai](https://github.com/cannacre8ive/switchboard-ai)
+  cost-aware multi-model routing/escalation; decide vs do;
+  successful-task cost; JavaScript MIT; **0★**; HEAD
+  `284585ce`; README SHA `e0468005`; package **0.3.0**);
+  **frozen-protocol class bake-off**
+  ([elcronos/jev-vs-open-decision-models](https://github.com/elcronos/jev-vs-open-decision-models)
+  TypeSafe Jev vs PrismNLI vs Laya; contamination caveat;
+  Python; license null; **0★**; HEAD `b61e6cfc`; README
+  SHA `b7256888`); **VOI admission**
+  ([cvsgireesh/jevusher](https://github.com/cvsgireesh/jevusher)
+  context-window admission control; fail polarity per
+  lens; on small inputs lenses lose money; TypeScript MIT;
+  **0★**; HEAD `d830d344`; README SHA `428a4a59`);
+  **Leveson control plane**
+  ([MokiMeow/jev-fabric](https://github.com/MokiMeow/jev-fabric)
+  typed decision control plane; receipt ≠ authorization;
+  historical-v0 zero retained cases; Apache-2.0; **0★**;
+  HEAD `95b9a4f3`; README SHA `f485dbdd`); **scoring
+  economics**
+  ([jose-troche/live-rubric](https://github.com/jose-troche/live-rubric)
+  live 15-dim typed rubric re-score per pause; OpenJev/Codiv
+  ≠ TypeSafe hosted; ~$0.000004 desc / ~$0.000006 README;
+  TypeScript; license null; **0★**; HEAD `db8da8db`;
+  README SHA `4a0be084`); **pre-registered calibration
+  science**
+  ([willkelly/jev-evaluation](https://github.com/willkelly/jev-evaluation)
+  28 predictions before data; 123,805 requests; confidence
+  does not track ignorance; polite injection 65% / crude
+  0%; Python MIT; **0★**; HEAD `06512e82`; README SHA
+  `c6aa7e71`; rh-guard owns injection); **class
+  infrastructure SDK**
+  ([nshkrdotcom/system_one_sdk](https://github.com/nshkrdotcom/system_one_sdk)
+  provider-neutral Elixir/BEAM Noul/Choice/Score SDK;
+  GitHub desc provider-neutral / README TypeSafe-first;
+  Elixir MIT; **0★**; HEAD `77a050bd`; README SHA
+  `2806a75b`; mix **0.5.0**). Soft Noul ≠ hard safety.
+  0★ HIGH still got a real card. Census **live REST
+  pulse**: SemIf **1976★**; jevlike **999★**; TypeAR
+  **11★** flat. Tracker likes **51** flat; lastModified
+  UNCHANGED 2026-09-19T18:37:18Z; Hub
+  `archerhume/4rcherhume` HTTP **401** (not re-fetched as
+  a rewrite). Archer still NOT landed. Awesomejev
+  561/27007 user-provided (≠ AnotiaWang/awesome-jev 83★).
+  `invented_signal: false`. Do not copy keys / `npm` /
+  `pip` / `npx` / `uv` / `mix`. No wrapper. No invented
+  metrics.
 - Hourly 1943 HIGH (`research/notes.md` §100): **Skip
   Archer rewrite.** Docs-only on a **fresh PR off main**.
   Never reopen merged #7–**#17**. Do **not** re-fold 1843

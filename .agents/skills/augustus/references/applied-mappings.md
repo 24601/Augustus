@@ -1953,4 +1953,19 @@ Jev `completed`.
 0.65/0.70 still soft. **≠** BrendanH18/jev-lab.
 `notes.md` §89.
 
+**Hourly 2041 HIGH (`notes.md` §101).** Context-sieve
+cousin: [cvsgireesh/jevusher](https://github.com/cvsgireesh/jevusher)
+context-window admission control; VOI gate which tokens
+are worth the expensive model; fail polarity per lens;
+on small inputs lenses lose money; ≠ jev-sift ≠ winnow.
+Skill/tool routing cousin:
+[cannacre8ive/switchboard-ai](https://github.com/cannacre8ive/switchboard-ai)
+cost-aware multi-model routing/escalation; decide vs do;
+successful-task cost; ≠ ha-switchboard ≠ hermes-switchyard.
+Capability-kernel cousin:
+[MokiMeow/jev-fabric](https://github.com/MokiMeow/jev-fabric)
+typed decision control plane; receipt ≠ authorization;
+historical-v0 zero retained cases; ≠ jev-forge ≠ dgp.
+Do not copy keys / `npm`. Soft Noul ≠ hard safety.
+
 

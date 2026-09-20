@@ -3017,3 +3017,86 @@ Cross-repo addition: (lt) judgment-as-language primitive;
 memories; (lw) memory-lease HIGH upgrade; (lx) jevlint
 rename; (ly) schema-compiler HIGH upgrade; (lz) ANE /
 local-logit / Pi-loop economics.
+## Batch #84 (2026-09-20 ~02:41 UTC / ~20:41 Boise) — hourly 2041 HIGH
+
+Note: `research/notes.md` §101. Docs-only on a fresh PR
+off main. Never reopen merged #7 / **#8** / **#9** /
+**#10** / **#12** / **#13** / **#14** / **#15** /
+**#16** / **#17** / **#18**. Do **not** re-fold §93
+mechanism / §94 / §95 / §96 / §97 / §98 / §99 / §100.
+Skip Archer rewrite. Do **not** re-fold 1943 / 1843 /
+1740 / gliner-native-runtime / 1639 / 1541. No invented
+metrics. Hunches labeled. Quote READMEs. Soft Noul ≠
+hard safety. Augustus owns placement. rh-guard owns
+injection/steer. Quote live REST over watch.
+`invented_signal: false`.
+
+- **Resume-screening bias audit (PRIMARY).**
+  natemoo-re/bias-bench (JavaScript; license null; **0★**;
+  HEAD `ff06548c`; README SHA `a1c3e604`; GitHub size 0
+  with contents). resume-screening bias audit methodology.
+  name×resume factorial independent Nouls. callback
+  determined by resume quality. mean-probability name
+  gaps operationally negligible. natemoo-re/bias-bench ≠
+  BBQ.
+- **MCDA panel + code-owned verdict.**
+  austindixson/planalyzer (Python MIT; **0★**; HEAD
+  `39fc161f`; README SHA `6e4d8da3`). Plan/PRD panel →
+  code-owned pass|review|block. cheerleading out of
+  scope. austindixson/planalyzer ≠ single-goodness Noul.
+- **EU cost-aware routing.** cannacre8ive/switchboard-ai
+  (JavaScript MIT; **0★**; HEAD `284585ce`; README SHA
+  `e0468005`; package 0.3.0). cost-aware multi-model
+  routing/escalation. decide vs do. successful-task cost.
+  cannacre8ive/switchboard-ai ≠ ha-switchboard ≠
+  hermes-switchyard.
+- **Frozen-protocol class bake-off.**
+  elcronos/jev-vs-open-decision-models (Python; license
+  null; **0★**; HEAD `b61e6cfc`; README SHA `b7256888`).
+  frozen-protocol zero-shot bench. TypeSafe Jev vs
+  PrismNLI vs Laya. contamination caveat.
+  elcronos/jev-vs-open-decision-models ≠ JevBench ≠ DMB.
+- **VOI admission.** cvsgireesh/jevusher (TypeScript MIT;
+  **0★**; HEAD `d830d344`; README SHA `428a4a59`).
+  context-window admission control. VOI gate which tokens
+  are worth the expensive model. fail polarity per lens.
+  on small inputs lenses lose money. cvsgireesh/jevusher ≠
+  jev-sift ≠ winnow.
+- **Typed decision control plane.** MokiMeow/jev-fabric
+  (TypeScript Apache-2.0; **0★**; HEAD `95b9a4f3`; README
+  SHA `f485dbdd`). typed decision control plane. receipt ≠
+  authorization. historical-v0 zero retained cases.
+  MokiMeow/jev-fabric ≠ jev-forge ≠ dgp.
+- **Scoring economics.** jose-troche/live-rubric
+  (TypeScript; license null; **0★**; HEAD `db8da8db`;
+  README SHA `4a0be084`). live 15-dim typed rubric
+  re-score per pause. scoring economics exemplar.
+  OpenJev/Codiv ≠ TypeSafe hosted. jose-troche/live-rubric
+  ~$0.000004 desc / ~$0.000006 README.
+- **Pre-registered calibration science.**
+  willkelly/jev-evaluation (Python MIT; **0★**; HEAD
+  `06512e82`; README SHA `c6aa7e71`). adversarial
+  pre-registered Jev eval. 28 predictions before data.
+  123,805 requests. confidence does not track ignorance.
+  polite injection 65% / crude 0%. willkelly/jev-evaluation
+  ≠ jevals ≠ jev-baselines-eval. rh-guard owns injection.
+- **Class infrastructure SDK.** nshkrdotcom/system_one_sdk
+  (Elixir MIT; **0★**; HEAD `77a050bd`; README SHA
+  `2806a75b`; mix 0.5.0). provider-neutral Elixir/BEAM
+  Noul/Choice/Score SDK. class infrastructure.
+  nshkrdotcom/system_one_sdk ≠ typesafe_sdk ≠ dannote/jev.
+
+Pulse: Archer still NOT landed last pin from §99. Hub
+archerhume/4rcherhume HTTP **401**. Tracker likes **51**
+flat; lastModified UNCHANGED 2026-09-19T18:37:18Z. Live
+REST: SemIf **1976★**; jevlike **999★**; TypeAR **11★**
+flat. AnotiaWang/awesome-jev **83★** ≠ Awesomejev
+561/27007. `invented_signal: false`.
+
+Cross-repo addition: (ma) resume-audit methodology;
+(mb) code-owned MCDA panel; (mc) cost-aware S1/S2
+routing; (md) frozen-protocol bake-off; (me) VOI
+admission; (mf) typed control plane; (mg) scoring
+economics; (mh) pre-registered eval; (mi) BEAM class
+SDK.
+
