@@ -2219,4 +2219,70 @@ confidence ≠ top-label p; easy probe set refused;
 do not reopen or amend PR #23 or #24 or #25.
 Do not copy keys / `npx` / `pip` / `uv` / `.env` / `TYPESAFE_API_KEY` / `ANTHROPIC_API_KEY` / `HF_TOKEN` / `GEMINI_API_KEY`. Soft Noul ≠ hard safety.
 
-
+**Hourly 0439 HIGH (`notes.md` §109).** Open-reproduction + measurement PRIMARY + applied class placements:
+Hub jevify: hf:kushalpatil/jevify-gemma4-26b-a4b
+Gemma-4 26B-A4B jevify classification+calibration;
+Hub jevify merged LoRA ships weights;
+PAWS 0.580/ece 0.288 is the weak cell;
+kushalpatil/jevify-gemma4 ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify;
+GH kushalpatil07/jevify 404.
+hf:kushalpatil/jevify-gemma4-26b-a4b-lora LoRA adapter twin not independent eval.
+hf:kushalpatil/jevify-gemma4-e4b Gemma-4 E4B jevify;
+smaller E4B slightly better OOD ECE than 26B-A4B.
+hf:kushalpatil/jevify-gemma4-e4b-lora E4B LoRA stub card.
+Family fill: hf:NicolaiMTLassen/bonzi-8b-v1-jev
+bonzi Bonsai-8B v1 GGUF densify;
+Bonsai-1.7B v1; Bonsai-4B v1;
+WANLI-256 64.5% / 60.2% / 52.0% *theirs*;
+rank #4 / #5 / #6 of 6.
+Fork: [roadius2/ultra_laya](https://github.com/roadius2/ultra_laya)
+roadus2 watch misspelling; lock roadius2/ultra_laya;
+ultra_laya REVIEW defects;
+default branch claude/laya-jev-review-gg5ppo.
+Measurement PRIMARY: [AHTOOOXA/jev-cyrillic-audit](https://github.com/AHTOOOXA/jev-cyrillic-audit)
+XNLI EN 88.3% ECE 0.032 → RU 77.3% ECE 0.096;
+Δ −11.0 pp [−14.2,−7.8]; ECE +0.063;
+MASSIVE no detectable difference at n=600;
+confidence is function of p_max (r=1.000).
+[JulesHuisman/jev-eval](https://github.com/JulesHuisman/jev-eval)
+JulesHuisman/jev-eval scaffolding / README SHA c356a584 (was empty e69de29b);
+JulesHuisman/jev-eval ≠ SivletLabs/jev-eval ≠ willkelly/jev-evaluation ≠ 4esv ≠ xxkuboxx ≠ onlyoneaman ≠ dayhaysoos/jevals.
+[tunahansahin897/what-is-jev](https://github.com/tunahansahin897/what-is-jev)
+947 repos scored; A 273 / B 302 / C 372; LLM rubric ≠ benches.
+[Mishkun/judge-jev](https://github.com/Mishkun/judge-jev)
+judge-jev 0.5 still soft.
+Applied: [LiuHao-1443/jev-table-tennis](https://github.com/LiuHao-1443/jev-table-tennis)
+7 bands 6/10 vs 40 bands 0/10.
+[laguagu/jev-evidence-lab](https://github.com/laguagu/jev-evidence-lab)
+source receipts + confidence slider re-policy without re-inference;
+32/32 synthetic is smoke not production.
+[hemanth/hfjev](https://github.com/hemanth/hfjev)
+classify HF datasets across typed semantic dimensions.
+[akash-kamat/jev-llm](https://github.com/akash-kamat/jev-llm)
+pointer-not-generator 400 human-authored responses.
+[chenmingtang830/jevgraph](https://github.com/chenmingtang830/jevgraph)
+proposed ≠ authorized;
+FewRel 160: Jev 85.0% vs lexical 13.125%;
+gated 100% (95/95) coverage 59.375%.
+[Towow-ai/jpp](https://github.com/Towow-ai/jpp)
+J++ composable semantic computation language.
+[whyashthakker/awesome-jev-use-cases](https://github.com/whyashthakker/awesome-jev-use-cases)
+No benchmark winner is claimed.
+[dog-last/awesome-jev](https://github.com/dog-last/awesome-jev)
+phishing: naive 62.6% vs regex 91.8%; 5-atomic + LR 95.0% *theirs*.
+[shinshin86/jev-aituber-tension-sample](https://github.com/shinshin86/jev-aituber-tension-sample)
+AITuber tension ±15.
+[shinpr/jev-reranker](https://github.com/shinpr/jev-reranker)
+README npm global; repo is Rust.
+[AHTOOOXA/git-confess](https://github.com/AHTOOOXA/git-confess)
+git-confess code owns counting/blame/ratio;
+httpx exhibit 11% (13/119) *theirs*.
+[waterme7on/jev-paper-trader](https://github.com/waterme7on/jev-paper-trader)
+90d trend +12.40% vs random +12.75% vs BH +41.71%;
+5m win rate 25%.
+Awesomejev 656 entries / 38,160 stars;
+tracker likes 64 (+4) lastModified UNCHANGED;
+Laya present; Blackwood ABSENT; Archer still promised_not_landed.
+do not reopen or amend PR #23 or #24 or #25 or #26.
+do not reopen or amend PR #23/#24/#25/#26.
+Do not copy keys / `npx` / `pip` / `uv` / `.env` / `TYPESAFE_API_KEY` / `ANTHROPIC_API_KEY` / `HF_TOKEN` / `OPENAI_API_KEY` / `OPENROUTER_API_KEY`. Soft Noul ≠ hard safety.

@@ -1549,6 +1549,119 @@ bonzi-27b-v2 / ternary-8b / 27b-v1 GGUF family densify; Hub still does not ship 
      easy probe set refused. 40–48 rows too small to ship T.
      Full cards: `validation.md`, `faq.md`.
 
+202. **Gemma-4 26B-A4B jevify** (hf:kushalpatil/jevify-gemma4-26b-a4b):
+     positions 1 (Operand) × 8 (Metric). Gemma-4 26B-A4B jevify classification+calibration.
+     Hub jevify merged LoRA ships weights.
+     PAWS 0.580/ece 0.288 is the weak cell.
+     kushalpatil/jevify-gemma4 ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify.
+     GH kushalpatil07/jevify 404.
+     Full cards: `judgment-class.md`, `validation.md`, `faq.md`.
+203. **26B-A4B LoRA twin** (hf:kushalpatil/jevify-gemma4-26b-a4b-lora):
+     position 1 (Operand). LoRA adapter twin not independent eval.
+     Full cards: `faq.md`.
+204. **Gemma-4 E4B jevify** (hf:kushalpatil/jevify-gemma4-e4b):
+     positions 1 (Operand) × 8 (Metric).
+     smaller E4B slightly better OOD ECE than 26B-A4B.
+     Full cards: `validation.md`, `faq.md`.
+205. **E4B LoRA stub** (hf:kushalpatil/jevify-gemma4-e4b-lora):
+     position 1 (Operand). E4B LoRA stub card.
+     Full cards: `faq.md`.
+206. **Bonsai-8B v1** (hf:NicolaiMTLassen/bonzi-8b-v1-jev):
+     position 1 (Operand). bonzi Bonsai-8B v1 GGUF densify.
+     WANLI-256 64.5% *theirs*. rank #4 of 6.
+     Full cards: `validation.md`, `faq.md`.
+207. **Bonsai-1.7B v1** (hf:NicolaiMTLassen/bonzi-1.7b-v1-jev):
+     position 1 (Operand). Bonsai-1.7B v1. WANLI-256 52.0% *theirs*.
+     Full cards: `validation.md`.
+208. **Bonsai-4B v1** (hf:NicolaiMTLassen/bonzi-4b-v1-jev):
+     position 1 (Operand). Bonsai-4B v1. WANLI-256 60.2% *theirs*.
+     Full cards: `validation.md`.
+209. **JulesHuisman scaffolding** (JulesHuisman/jev-eval):
+     position 8 (Metric) as scaffolding, not a board.
+     JulesHuisman/jev-eval scaffolding / README SHA c356a584 (was empty e69de29b).
+     JulesHuisman/jev-eval ≠ SivletLabs/jev-eval ≠ willkelly/jev-evaluation ≠ 4esv ≠ xxkuboxx ≠ onlyoneaman ≠ dayhaysoos/jevals.
+     Full cards: `faq.md`.
+210. **Table-tennis typed paddle** (LiuHao-1443/jev-table-tennis):
+     positions 1 (Operand) × 11 (Bounds). physics local; option label IS the pixel.
+     7 bands 6/10 vs 40 bands 0/10. Knowledge work / play.
+     Full cards: `mental-models.md`, `faq.md`.
+211. **Evidence lab receipts** (laguagu/jev-evidence-lab):
+     positions 3 (Gate) × 8 (Metric). 0.8 still soft.
+     source receipts + confidence slider re-policy without re-inference.
+     32/32 synthetic is smoke not production.
+     Full cards: `formal-methods.md`, `faq.md`.
+212. **HF dataset typed classify** (hemanth/hfjev):
+     position 1 (Operand). classify HF datasets across typed semantic dimensions.
+     Full cards: `faq.md`.
+213. **ultra_laya REVIEW fork** (roadius2/ultra_laya):
+     position 1 (Operand). roadus2 watch misspelling; lock roadius2/ultra_laya.
+     ultra_laya REVIEW defects. default branch claude/laya-jev-review-gg5ppo.
+     Full cards: `judgment-class.md`, `faq.md`.
+214. **RU calibration audit** (AHTOOOXA/jev-cyrillic-audit; PRIMARY):
+     positions 3 (Gate) × 8 (Metric). language OOD.
+     XNLI EN 88.3% ECE 0.032 → RU 77.3% ECE 0.096.
+     Δ −11.0 pp [−14.2,−7.8]; ECE +0.063.
+     MASSIVE no detectable difference at n=600.
+     confidence is function of p_max (r=1.000).
+     Full cards: `formal-methods.md`, `validation.md`, `faq.md`.
+215. **Pointer-not-generator “LLM”** (akash-kamat/jev-llm):
+     positions 1 (Operand) × 11 (Bounds). bank of replies is exact.
+     pointer-not-generator 400 human-authored responses.
+     Full cards: `mixed-architecture.md`, `faq.md`.
+216. **Evidence-backed KG** (chenmingtang830/jevgraph):
+     positions 3 (Gate) × 11 (Bounds). proposed ≠ authorized.
+     FewRel 160: Jev 85.0% vs lexical 13.125%.
+     gated 100% (95/95) coverage 59.375%.
+     Full cards: `formal-methods.md`, `faq.md`.
+217. **J++ composition language** (Towow-ai/jpp):
+     position 1 (Operand) as a language, not a vendor.
+     J++ composable semantic computation language.
+     Full cards: `composition-algebra.md`, `faq.md`.
+218. **judge-jev Worker** (Mishkun/judge-jev):
+     position 3 (Gate). judge-jev 0.5 still soft.
+     Full cards: `faq.md`.
+219. **what-is-jev rubric census** (tunahansahin897/what-is-jev):
+     position 8 (Metric) as a rubric, not a board.
+     947 repos scored; A 273 / B 302 / C 372. LLM rubric ≠ benches.
+     Full cards: `faq.md`.
+220. **Use-case gallery** (whyashthakker/awesome-jev-use-cases):
+     position 8 (Metric) as a catalog, not eval.
+     No benchmark winner is claimed.
+     Full cards: `faq.md`.
+221. **System One guide** (dog-last/awesome-jev):
+     positions 1 (Operand) × 8 (Metric). atomize then sense.
+     phishing: naive 62.6% vs regex 91.8%; 5-atomic + LR 95.0% *theirs*.
+     Full cards: `mental-models.md`, `faq.md`.
+222. **AITuber tension** (shinshin86/jev-aituber-tension-sample):
+     position 1 (Operand). life/knowledge-work.
+     AITuber tension ±15.
+     Full cards: `mental-models.md`.
+223. **JSON reranker** (shinpr/jev-reranker):
+     position 1 (Operand). README npm global; repo is Rust.
+     Full cards: `faq.md`.
+224. **git-confess** (AHTOOOXA/git-confess):
+     positions 1 (Operand) × 11 (Bounds). git-confess code owns counting/blame/ratio.
+     httpx exhibit 11% (13/119) *theirs*.
+     Full cards: `formal-methods.md`, `faq.md`.
+225. **Paper trader honest negative** (waterme7on/jev-paper-trader):
+     position 8 (Metric). 90d trend +12.40% vs random +12.75% vs BH +41.71%.
+     5m win rate 25%.
+     Full cards: `mental-models.md`, `validation.md`, `faq.md`.
+
+Hourly 0439 items 202–225 (`notes.md` §109). Do **not**
+re-fold 0345 items 186–201 / 0243 items 178–185 / 0145 items 161–177 / 0042 items 149–160 / 2340 items 138–148 / 2246 items 129–137 / 2145
+items 120–128 / 2041 items 111–119 / 1943 items 102–110 /
+1843 items 97–101 / 1740 items 94–96 / SIGNAL §93
+mechanism / §60 six-gates / §78 v1.2 board / §71 claim-audit /
+yuki-oshio/mini-jev *93.25%*.
+WANLI-256 64.5% / 60.2% / 52.0% *theirs*;
+rank #4 / #5 / #6 of 6;
+Awesomejev 656 entries / 38,160 stars;
+tracker likes 64 (+4) lastModified UNCHANGED;
+Laya present; Blackwood ABSENT; Archer still promised_not_landed;
+do not reopen or amend PR #23/#24/#25/#26.
+Soft Noul ≠ hard safety.
+
 Hourly 0345 items 186–201 (`notes.md` §108). Do **not**
 re-fold 0243 items 178–185 / 0145 items 161–177 / 0042 items 149–160 / 2340 items 138–148 / 2246 items 129–137 / 2145
 items 120–128 / 2041 items 111–119 / 1943 items 102–110 /

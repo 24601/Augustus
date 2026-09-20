@@ -16,6 +16,143 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
 
 ### Added
 
+- Hourly 0439 HIGH (`research/notes.md` §109): **Skip
+  Archer rewrite.** Docs-only on a **fresh PR off main**.
+  **HARD RULE:** do not reopen or amend PR #23 or #24 or #25
+  or #26 (do not reopen or amend PR #23/#24/#25/#26.
+  merged #23 owns `notes.md` §105 / items 149–160 /
+  batch #88; merged #24 owns `notes.md` §106 / items 161–177 /
+  batch #89; merged #25 owns `notes.md` §107 / items 178–185 /
+  batch #90; merged #26 owns `notes.md` §108 / items 186–201 /
+  batch #91 — leave them alone). Never reopen merged
+  #7–**#26**. Do **not** re-fold 0345 / §108 / 0243 / §107 /
+  0145 / §106 / 0042 / §105 / 2340 / §104 / 2246 / §103 /
+  2145 / §102 / 2041 / §101 / 1943 / §100 / 1843 / §99 /
+  1740 / §98 / 1639 / §96 / gliner-native-runtime / §97 /
+  1541 / §95 / jev-align *mechanism* / §93 /
+  jev-orderby-bench *six-gates* / §60 / JevBench v1.2
+  *board* / §78 / openJev-verdict *claim-audit* / §71 /
+  yuki-oshio/mini-jev *93.25%* / §103. How-to-apply / mental
+  models / architecture / Harbor-jevals / toolbelt — not a
+  thin Jev skill dump. Backend-agnostic
+  categorization/scoring/decision class. Formal methods
+  compose with scoring; a Noul is a SENSOR; treating
+  WANLI-256 64.5/60.2/52.0 as Harbor, label_mass as
+  correctness, Hub v1 family cards as shipping GGUF,
+  re-folding §108 27B/ternary as new, treating LoRA stub
+  cards as independent eval, hard-gating jevify n=307 ECE
+  0.061 as “honest probabilities”, collapsing kushalpatil
+  into Mintzs/gulagala001/uspraveen, treating GH
+  kushalpatil07/jevify as an existing repo, collapsing
+  JulesHuisman into SivletLabs/4esv, quoting 32/32 synthetic
+  as production, hard-gating 0.8 evidence as proof, quoting
+  40-band 0/10 without 7-band, treating /judge 0.5 as truth,
+  treating git-confess 11% as a person verdict, treating
+  paper-trader +12.40% as edge, treating Awesomejev
+  656/38160 as eval, treating tracker likes as Archer
+  landing, using roadus2 spelling, pasting ultra_laya vs-Jev
+  as this-fork win, or treating jevgraph 100% gated as
+  production is soundness theater. jevify ECE 0.061 as a
+  hard gate, 0.8 evidence as proof, and paper-trader fills
+  as edge are the anti-patterns. Twenty-four HIGH clusters /
+  three themes:
+  **open reproduction densifies**
+  (hf:kushalpatil/jevify-gemma4-26b-a4b
+  Gemma-4 26B-A4B jevify classification+calibration;
+  Hub jevify merged LoRA ships weights;
+  PAWS 0.580/ece 0.288 is the weak cell;
+  kushalpatil/jevify-gemma4 ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify;
+  GH kushalpatil07/jevify 404;
+  license gemma; likes **0**; sha `d4c0d1d4`);
+  (hf:kushalpatil/jevify-gemma4-26b-a4b-lora
+  LoRA adapter twin not independent eval;
+  license null; likes **0**; sha `ec4a3d22`);
+  (hf:kushalpatil/jevify-gemma4-e4b
+  Gemma-4 E4B jevify;
+  smaller E4B slightly better OOD ECE than 26B-A4B;
+  license gemma; likes **0**; sha `a6b5a716`);
+  (hf:kushalpatil/jevify-gemma4-e4b-lora
+  E4B LoRA stub card; license null; likes **0**; sha `cca1f55e`);
+  (hf:NicolaiMTLassen/bonzi-8b-v1-jev
+  bonzi Bonsai-8B v1 GGUF densify; WANLI-256 64.5% *theirs*;
+  rank #4 of 6; MIT; likes **0**; sha `588bc44e`);
+  (hf:NicolaiMTLassen/bonzi-1.7b-v1-jev
+  Bonsai-1.7B v1; WANLI-256 52.0% *theirs*; rank #6 of 6;
+  MIT; likes **0**; sha `48148bf9`);
+  (hf:NicolaiMTLassen/bonzi-4b-v1-jev
+  Bonsai-4B v1; WANLI-256 60.2% *theirs*; rank #5 of 6;
+  MIT; likes **0**; sha `d5545084`);
+  ([roadius2/ultra_laya](https://github.com/roadius2/ultra_laya)
+  roadus2 watch misspelling; lock roadius2/ultra_laya;
+  ultra_laya REVIEW defects;
+  default branch claude/laya-jev-review-gg5ppo;
+  Python Apache-2.0 LICENSE SHA `d9a10c0d`; **0★**; HEAD `0dff5bd2`; README SHA `da95bc05`; size **0** WITH CONTENTS);
+  **measurement densifies PRIMARY**
+  ([AHTOOOXA/jev-cyrillic-audit](https://github.com/AHTOOOXA/jev-cyrillic-audit)
+  XNLI EN 88.3% ECE 0.032 → RU 77.3% ECE 0.096;
+  Δ −11.0 pp [−14.2,−7.8]; ECE +0.063;
+  MASSIVE no detectable difference at n=600;
+  confidence is function of p_max (r=1.000);
+  Python MIT LICENSE SHA `f9b9193e`; **0★**; HEAD `7167894a`; README SHA `d36a36f5`; size **1302**);
+  ([JulesHuisman/jev-eval](https://github.com/JulesHuisman/jev-eval)
+  JulesHuisman/jev-eval scaffolding / README SHA c356a584 (was empty e69de29b);
+  JulesHuisman/jev-eval ≠ SivletLabs/jev-eval ≠ willkelly/jev-evaluation ≠ 4esv ≠ xxkuboxx ≠ onlyoneaman ≠ dayhaysoos/jevals;
+  Python; license null; **0★**; HEAD `96c2a110`; size **0** WITH CONTENTS);
+  ([tunahansahin897/what-is-jev](https://github.com/tunahansahin897/what-is-jev)
+  947 repos scored; A 273 / B 302 / C 372; LLM rubric ≠ benches;
+  Python; SPDX NOASSERTION LICENSE SHA `790f3358`; **0★**; HEAD `71d53be2`; README SHA `3ae98c56`; size **6277**);
+  ([Mishkun/judge-jev](https://github.com/Mishkun/judge-jev)
+  judge-jev 0.5 still soft;
+  TS; license null; **0★**; HEAD `1bf495d3`; README SHA `3788ab6e`; size **65**);
+  **applied class placements**
+  ([LiuHao-1443/jev-table-tennis](https://github.com/LiuHao-1443/jev-table-tennis)
+  7 bands 6/10 vs 40 bands 0/10;
+  Python MIT LICENSE SHA `777dc3d6`; **1★**; HEAD `0224c21c`; README SHA `3a54bc93`; size **0** WITH CONTENTS);
+  ([laguagu/jev-evidence-lab](https://github.com/laguagu/jev-evidence-lab)
+  source receipts + confidence slider re-policy without re-inference;
+  32/32 synthetic is smoke not production;
+  Python MIT LICENSE SHA `e5ede121`; **0★**; HEAD `a9669e94`; README SHA `1be53f55`; size **0** WITH CONTENTS);
+  ([hemanth/hfjev](https://github.com/hemanth/hfjev)
+  classify HF datasets across typed semantic dimensions;
+  Python MIT LICENSE SHA `0ac06d77`; **1★**; HEAD `6f2aa501`; README SHA `20651a25`; size **48**);
+  ([akash-kamat/jev-llm](https://github.com/akash-kamat/jev-llm)
+  pointer-not-generator 400 human-authored responses;
+  JS; license null; **0★**; HEAD `194db1a6`; README SHA `c42907a6`; size **54**);
+  ([chenmingtang830/jevgraph](https://github.com/chenmingtang830/jevgraph)
+  proposed ≠ authorized; FewRel 160: Jev 85.0% vs lexical 13.125%;
+  gated 100% (95/95) coverage 59.375%;
+  Python Apache-2.0 LICENSE SHA `57bc88a1`; **0★**; HEAD `7a6f7d05`; README SHA `bda2ed37`; size **125**);
+  ([Towow-ai/jpp](https://github.com/Towow-ai/jpp)
+  J++ composable semantic computation language;
+  Python MIT LICENSE SHA `b1a46fbc`; **3★**; HEAD `14d77789`; README SHA `0a82d97f`; size **1071**);
+  ([whyashthakker/awesome-jev-use-cases](https://github.com/whyashthakker/awesome-jev-use-cases)
+  No benchmark winner is claimed;
+  HTML MIT LICENSE SHA `13b5a2a6`; **3★**; HEAD `74583663`; README SHA `a6d96b87`; size **426**);
+  ([dog-last/awesome-jev](https://github.com/dog-last/awesome-jev)
+  phishing: naive 62.6% vs regex 91.8%; 5-atomic + LR 95.0% *theirs*;
+  Python MIT LICENSE SHA `cd31b9aa`; **1★**; HEAD `206fdcab`; README SHA `1ca65f69`; size **85**);
+  ([shinshin86/jev-aituber-tension-sample](https://github.com/shinshin86/jev-aituber-tension-sample)
+  AITuber tension ±15;
+  TS MIT LICENSE SHA `8b20d89e`; **0★**; HEAD `8c0a8ffb`; README SHA `06536d19`; size **105**);
+  ([shinpr/jev-reranker](https://github.com/shinpr/jev-reranker)
+  README npm global; repo is Rust;
+  Rust MIT LICENSE SHA `4306a712`; **1★**; HEAD `731deba3`; README SHA `e2818c0e`; size **163**);
+  ([AHTOOOXA/git-confess](https://github.com/AHTOOOXA/git-confess)
+  git-confess code owns counting/blame/ratio;
+  httpx exhibit 11% (13/119) *theirs*;
+  Python MIT LICENSE SHA `f9b9193e`; **0★**; HEAD `54cd2849`; README SHA `764076a6`; size **3**);
+  ([waterme7on/jev-paper-trader](https://github.com/waterme7on/jev-paper-trader)
+  90d trend +12.40% vs random +12.75% vs BH +41.71%;
+  5m win rate 25%;
+  JS; license null; **0★**; HEAD `73662f79`; README SHA `4eded35a`; size **145**).
+  Awesomejev 656 entries / 38,160 stars;
+  WANLI-256 64.5% / 60.2% / 52.0% *theirs*;
+  rank #4 / #5 / #6 of 6;
+  tracker likes 64 (+4) lastModified UNCHANGED;
+  Laya present; Blackwood ABSENT; Archer still promised_not_landed.
+  0★ HIGH still got a real card. Soft Noul ≠ hard safety.
+  `invented_signal: false`.
+
 - Hourly 0345 HIGH (`research/notes.md` §108): **Skip
   Archer rewrite.** Docs-only on a **fresh PR off main**.
   **HARD RULE:** do not reopen or amend PR #23 or #24 or #25 (merged

@@ -337,6 +337,20 @@ request, and treat a stale pin as a prior, never a setting.
 | Treat atlas listed counts as eval | Catalog ≠ endorsement | ZeroX-01/jev-atlas ≠ Zaious/jev-capability-atlas ≠ gorock007/jev-atlas. `notes.md` §108 |
 | Hard-gate flopcheck composite / let Jev count em dashes | Mechanical tells in code | flopcheck 16 calibrated tweet judgments. mechanical tells in code. `notes.md` §108 |
 | Ship 40-row T / treat T as changing argmax / confidence as top-label p | T never changes argmax | Laya calibration lab Gradio MCP. T never changes argmax. confidence ≠ top-label p. easy probe set refused. 40–48 rows too small to ship T. `notes.md` §108 |
+| Collapse kushalpatil into Mintzs / gulagala001 / uspraveen / treat LoRA stubs as eval | Replica honesty | Gemma-4 26B-A4B jevify classification+calibration. Hub jevify merged LoRA ships weights. LoRA adapter twin not independent eval. GH kushalpatil07/jevify 404. `notes.md` §109 |
+| Treat WANLI-256 64.5/60.2/52.0 as Harbor / re-card §108 27B | Family fill | bonzi Bonsai-8B v1 GGUF densify. Bonsai-1.7B v1. Bonsai-4B v1. rank #4 / #5 / #6 of 6. `notes.md` §109 |
+| Treat thin README scaffolding as a Harbor harness / collapse JulesHuisman into SivletLabs | Scaffolding | JulesHuisman/jev-eval scaffolding / README SHA c356a584 (was empty e69de29b). `notes.md` §109 |
+| Quote 40-band 0/10 without 7-band | Menu resolution | 7 bands 6/10 vs 40 bands 0/10. `notes.md` §109 |
+| Quote 32/32 as production / hard-gate 0.8 | Smoke | source receipts + confidence slider re-policy without re-inference. 32/32 synthetic is smoke not production. `notes.md` §109 |
+| Use roadus2 / paste vs-Jev as this-fork win | Watch misspelling | roadus2 watch misspelling; lock roadius2/ultra_laya. ultra_laya REVIEW defects. default branch claude/laya-jev-review-gg5ppo. `notes.md` §109 |
+| Treat MASSIVE as equal / ignore p_max identity | Language OOD | XNLI EN 88.3% ECE 0.032 → RU 77.3% ECE 0.096. MASSIVE no detectable difference at n=600. confidence is function of p_max (r=1.000). `notes.md` §109 |
+| Treat jev-llm as a generator | Pointer-not-generator | pointer-not-generator 400 human-authored responses. `notes.md` §109 |
+| Treat proposed as authorized / gated 100% as production | Evidence ≠ authority | proposed ≠ authorized. gated 100% (95/95) coverage 59.375%. `notes.md` §109 |
+| Treat /judge 0.5 as truth | 0.5 still soft | judge-jev 0.5 still soft. `notes.md` §109 |
+| Treat A/B/C as Harbor / Awesomejev 656 as eval | Catalog ≠ endorsement | 947 repos scored; A 273 / B 302 / C 372. LLM rubric ≠ benches. No benchmark winner is claimed. Awesomejev 656 entries / 38,160 stars. `notes.md` §109 |
+| Copy npm install for a Cargo crate | README honesty | README npm global; repo is Rust. `notes.md` §109 |
+| Treat 11% as a person verdict | Code owns count | git-confess code owns counting/blame/ratio. httpx exhibit 11% (13/119) *theirs*. `notes.md` §109 |
+| Treat +12.40% as edge | Honest negative | 90d trend +12.40% vs random +12.75% vs BH +41.71%. 5m win rate 25%. `notes.md` §109 |
 
 | Each answer right, decision wrong | Policy wrong | Change weights/thresholds in code, leave questions alone |
 

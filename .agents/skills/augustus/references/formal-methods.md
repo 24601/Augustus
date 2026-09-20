@@ -1217,6 +1217,28 @@ not generated are exact work. Treating injection ECE
 pipeline equality, rank 1 without question-asymmetry,
 or WANLI-256 as Harbor is the same theater.
 
+0439 envelopes (`notes.md` §109), still outside the extras
+template:
+Gemma-4 26B-A4B jevify classification+calibration;
+Hub jevify merged LoRA ships weights;
+PAWS 0.580/ece 0.288 is the weak cell;
+proposed ≠ authorized;
+git-confess code owns counting/blame/ratio;
+source receipts + confidence slider re-policy without re-inference;
+7 bands 6/10 vs 40 bands 0/10;
+pointer-not-generator 400 human-authored responses;
+confidence is function of p_max (r=1.000);
+MASSIVE no detectable difference at n=600;
+do not reopen or amend PR #23 or #24 or #25 or #26.
+Soft Noul ≠ hard safety: 0.834 / 0.844 / 88.3→77.3 /
+32/32 / 85.0% / 11% / +12.40% are **sensors**. Physics /
+git blame / KG authorization / reply bank / fills/PnL /
+Worker thresholds / pre-registration are exact work.
+Treating jevify ECE 0.061 as a hard gate, 0.8 evidence as
+proof, /judge 0.5 as truth, 32/32 as production, gated
+100% as production, git-confess 11% as a person verdict,
+or paper-trader fills as edge is the same theater.
+
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a
 hybrid "verified by Noul" API.

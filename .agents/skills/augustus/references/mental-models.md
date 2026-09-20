@@ -621,6 +621,12 @@ Use these as *existence proofs of a position*. Write your own card.
 | Question-asymmetry / abstention F1 | did the model refuse, or was it asked? | Jev is asked whether the question can be answered; published models saw the bare question (**Empirical as cached AbstentionBench**; rank 1 of 20 vs 2025 field; forward-looking 0.465 never extreme; `notes.md` §108) | Rank 1 is not current SOTA; forecasting is ignorance |
 | Catalog ≠ endorsement | is listed a bake-off? | Continuously updated public index; auto-ingest marked pending (**Empirical as README index**; ZeroX-01/jev-atlas ≠ Zaious/jev-capability-atlas ≠ gorock007/jev-atlas; `notes.md` §108) | Stars / listed counts are not eval |
 | Mechanical tells in code | can Jev count em dashes? | Regex owns countable tells; Jev owns soft judgment (**Empirical as flopcheck**; 16 calibrated tweet judgments; hold-before-publish; `notes.md` §108) | Composite band is not a proof |
+| Language OOD / p_max identity | does RU drop track ignorance? | Pre-registered n=600; XNLI Δ −11.0 pp; MASSIVE not detected at this n; confidence is function of p_max (r=1.000) (**Empirical as README 4,800 calls**; AHTOOOXA/jev-cyrillic-audit; `notes.md` §109) | MASSIVE “not detected at this n” not “equal” |
+| Option-band resolution | is a finer menu better? | 7 bands 6/10 vs 40 bands 0/10; option label IS the pixel (**Empirical as README table-tennis**; LiuHao-1443/jev-table-tennis; `notes.md` §109) | Physics/collisions/scoring local |
+| Proposed ≠ authorized | may a typed relation write? | Blocking O(nk) then Choice; gated 100% (95/95) coverage 59.375% (**Empirical as README FewRel 160**; chenmingtang830/jevgraph; `notes.md` §109) | Graph write is exact authorization |
+| Code owns count | is 11% a person verdict? | git blame/ratio exact; Jev 10 questions/commit (**Empirical as README httpx 13/119**; AHTOOOXA/git-confess; `notes.md` §109) | squash-merge caveat |
+| Paper PnL vs random | did the criteria make edge? | 90d trend +12.40% vs random +12.75% vs BH +41.71%; 5m win rate 25% (**Empirical as README paper trader**; waterme7on/jev-paper-trader; `notes.md` §109) | Default switched to trend so UI shows fills |
+| Catalog jump ≠ eval | is 656/38160 a bake-off? | Awesomejev 656 entries / 38,160 stars (was 561/27007); tracker likes 64 (+4) lastModified UNCHANGED (**Empirical as live REST**; `notes.md` §109) | Laya present; Blackwood ABSENT; Archer still promised_not_landed |
 | Dual-channel ECE / claim-audit | is this NAR "better calibrated"? | Like-for-like channels; n and CI before SOTA (**Hypothesis until independent run**; openJev-verdict-2.0; PR #1 now closed unmerged; 107★ densify; GH 151M vs README 149.6M; do not re-fold §71 claim-audit as a beat; `notes.md` §107) | Throughput ≠ latency; correctness-head ≠ distribution ECE; ≠ IamBusy/OpenJev |
 | 1-token logprob ≠ Noul | can a generic LLM's next-token mass be the judge? | Constrained decode over caller-enumerated labels; coverage is format-mass (**Empirical as 336-case GUI**: chakuho 27B 95%/92% vs Jev 89%/82% *theirs*) | Softmax ≠ Noul; 8B coverage 1.00 while `__none__` collapses; arithmetic in code |
 | Open replica runtime | same wire, faster forwards | Prefix reuse + family adapters; argmax-parity is the honesty check (**Empirical as README**: jevinf 2.57×/2.27× 100% argmax *theirs*) | MPS only; not ECE; not TypeSafe |
@@ -2144,6 +2150,127 @@ inf / generative-AI-ban-on-plots cousin (titles selected not
 generated) / PrismML-fork vs stock llama.cpp split are exact
 work. Injection ECE 0.058 as a hard gate and 40-row T as
 production are the anti-patterns.
+
+
+## Apply 0439 (`notes.md` §109)
+
+Same pillars, twenty-four HIGH clusters / three themes
+(open reproduction densifies; measurement densifies PRIMARY
+for Harbor-jevals; applied class placements across AI, SWE,
+business, knowledge work — not SWE-only). Do **not** re-fold
+0345 / §108 / 0243 / §107 / 0145 / §106 / 0042 / §105 / 2340 / §104 / 2246 / §103 /
+2145 / §102 / 2041 / §101 / 1943 / §100 / 1843 / §99 /
+1740 / §98 / 1639 / §96 / gliner-native-runtime / §97 /
+1541 / §95 / jev-align *mechanism* / §93 /
+jev-orderby-bench *six-gates* / §60 / JevBench v1.2
+*board* / §78 / openJev-verdict *claim-audit* / §71 /
+yuki-oshio/mini-jev *93.25%* / §103. Fresh PR; never reopen
+merged #7–**#26**. do not reopen or amend PR #23 or #24
+or #25 or #26. Skip Archer rewrite (still
+**promised_not_landed**; Hub 401). 0★ HIGH still gets a
+real card. Size **0** WITH CONTENTS still gets a real card.
+Soft Noul ≠ hard safety. Formal methods **compose** with
+scoring; a Noul is a SENSOR. Jev is the hot exemplar, not
+the whole mandate. Mathematical / logical / algorithmic
+mental models across AI, SWE, business, knowledge work —
+not SWE-only.
+
+1. **Gemma-4 26B-A4B jevify** —
+   Gemma-4 26B-A4B jevify classification+calibration.
+   Hub jevify merged LoRA ships weights. PAWS 0.580/ece 0.288
+   is the weak cell. kushalpatil/jevify-gemma4 ≠ Mintzs/jevify
+   ≠ gulagala001/jevify ≠ uspraveen/Jevify. GH kushalpatil07/jevify
+   404. Do **not** hard-gate n=307 ECE 0.061.
+2. **26B-A4B LoRA twin** —
+   LoRA adapter twin not independent eval. Stub card.
+3. **Gemma-4 E4B jevify** —
+   Gemma-4 E4B jevify. Smaller E4B slightly better OOD ECE
+   than 26B-A4B.
+4. **E4B LoRA stub** —
+   E4B LoRA stub card. Not independent eval.
+5. **Bonsai-8B v1** —
+   bonzi Bonsai-8B v1 GGUF densify. WANLI-256 64.5% *theirs*.
+   rank #4 of 6. Hub still does not ship weights.
+6. **Bonsai-1.7B v1** —
+   Bonsai-1.7B v1. WANLI-256 52.0% *theirs*. rank #6 of 6.
+7. **Bonsai-4B v1** —
+   Bonsai-4B v1. WANLI-256 60.2% *theirs*. rank #5 of 6.
+   Do **not** re-card §108 27B/ternary as new.
+8. **ultra_laya REVIEW** —
+   roadus2 watch misspelling; lock roadius2/ultra_laya.
+   ultra_laya REVIEW defects. default branch
+   claude/laya-jev-review-gg5ppo. Do **not** paste vs-Jev
+   table as this-fork win.
+9. **JulesHuisman/jev-eval** (thin; still a card) —
+   JulesHuisman/jev-eval scaffolding / README SHA c356a584 (was empty e69de29b).
+   JulesHuisman/jev-eval ≠ SivletLabs/jev-eval ≠ willkelly/jev-evaluation
+   ≠ 4esv ≠ xxkuboxx ≠ onlyoneaman ≠ dayhaysoos/jevals.
+10. **RU accuracy/calibration audit** (PRIMARY) —
+    XNLI EN 88.3% ECE 0.032 → RU 77.3% ECE 0.096.
+    Δ −11.0 pp [−14.2,−7.8]; ECE +0.063.
+    MASSIVE no detectable difference at n=600.
+    confidence is function of p_max (r=1.000).
+11. **what-is-jev rubric** —
+    947 repos scored; A 273 / B 302 / C 372. LLM rubric ≠ benches.
+12. **judge-jev** —
+    judge-jev 0.5 still soft. Worker owns parse/thresholds.
+13. **table-tennis** —
+    7 bands 6/10 vs 40 bands 0/10. Physics local; Jev SENSOR.
+14. **evidence-lab** —
+    source receipts + confidence slider re-policy without re-inference.
+    32/32 synthetic is smoke not production. 0.8 still soft.
+15. **hfjev** —
+    classify HF datasets across typed semantic dimensions. No numbers.
+16. **jev-llm** —
+    pointer-not-generator 400 human-authored responses.
+    Zero hallucination = bank constraint.
+17. **jevgraph** —
+    proposed ≠ authorized. FewRel 160: Jev 85.0% vs lexical 13.125%.
+    gated 100% (95/95) coverage 59.375%.
+18. **J++** —
+    J++ composable semantic computation language.
+19. **whyashthakker gallery** —
+    No benchmark winner is claimed. ≠ walidboulanouar.
+20. **dog-last guide** —
+    phishing: naive 62.6% vs regex 91.8%; 5-atomic + LR 95.0% *theirs*.
+21. **AITuber** —
+    AITuber tension ±15. Thin demo; still a card.
+22. **shinpr reranker** —
+    README npm global; repo is Rust. 0.5 still soft.
+23. **git-confess** —
+    git-confess code owns counting/blame/ratio.
+    httpx exhibit 11% (13/119) *theirs*. Not a person verdict.
+24. **paper-trader** —
+    90d trend +12.40% vs random +12.75% vs BH +41.71%.
+    5m win rate 25%. Do **not** treat fills as edge.
+
+Soft Noul ≠ hard safety: 0.834 / 0.844 / 0.061 / 0.043 /
+64.5% / 60.2% / 52.0% / 88.3→77.3 / 32/32 / 85.0% /
++12.40% / 11% are **sensors**. Treating WANLI-256 as Harbor,
+label_mass as correctness, LoRA stubs as independent eval,
+jevify n=307 ECE as a hard gate, 32/32 as production,
+0.8 evidence as proof, 40-band 0/10 without 7-band,
+/judge 0.5 as truth, git-confess 11% as a person verdict,
+paper-trader +12.40% as edge, Awesomejev 656/38160 as eval,
+tracker likes as Archer landing, or jevgraph 100% gated as
+production is the same theater as jev-gate §79.
+
+Formal methods **compose** with scoring. A Noul is a SENSOR.
+Physics / git blame / KG authorization / reply bank /
+fills/PnL / Worker thresholds are exact work. Hard-gating
+jevify ECE 0.061, 0.8 evidence, /judge 0.5, or paper-trader
+fills as edge are the anti-patterns.
+
+Unique consecutive fragments (this hour):
+kushalpatil/jevify-gemma4 ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify;
+GH kushalpatil07/jevify 404;
+PAWS 0.580/ece 0.288 is the weak cell;
+smaller E4B slightly better OOD ECE than 26B-A4B;
+WANLI-256 64.5% / 60.2% / 52.0% *theirs*;
+rank #4 / #5 / #6 of 6;
+JulesHuisman/jev-eval ≠ SivletLabs/jev-eval ≠ willkelly/jev-evaluation ≠ 4esv ≠ xxkuboxx ≠ onlyoneaman ≠ dayhaysoos/jevals;
+default branch claude/laya-jev-review-gg5ppo;
+do not reopen or amend PR #23/#24/#25/#26.
 
 
 ## Decision-design extras (any domain)
