@@ -16,6 +16,543 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
 
 ### Added
 
+- Hourly 0042 HIGH (`research/notes.md` §105): **Skip
+  Archer rewrite.** Docs-only on a **fresh PR off main**.
+  Never reopen merged #7–**#22**. Do **not** merge from
+  merged **#22** (hourly 2340 / §104). Do **not** re-fold 2340
+  / §104 / 2246 / §103 / 2145 / §102 / 2041 / §101 / 1943 / §100 /
+  1843 / §99 / 1740 / §98 / 1639 / §96 /
+  gliner-native-runtime / §97 / 1541 / §95 / jev-align
+  *mechanism* / §93. How-to-apply / mental models /
+  architecture / Harbor-jevals / toolbelt — not a thin
+  Jev skill dump. Backend-agnostic
+  categorization/scoring/decision class. Formal methods
+  compose with scoring; a Noul is a SENSOR; treating
+  displayed p as proof, schema-valid ordinary-model JSON
+  as a calibrated Noul, collapsing gulagala001/jevify into
+  Mintzs/jevify, quoting 40.3% without the constant-answer
+  baseline, hard-gating fastloop confidence as safety,
+  treating fan-out 0.0000 sd as universal determinism,
+  treating 2.95× RL as Harbor, hard-gating Laya cascade
+  0.60, collapsing locate into decide, treating snake
+  points as intelligence, treating jevcheck as a
+  correctness proof, treating `no_direct_evidence` as
+  merge-safe, or treating a theme Choice as a music-theory
+  certificate is soundness theater. Hard-gating a soft
+  Noul as safety is the anti-pattern. Unique consecutive fragments: structured probability readouts; distribution > argmax; Noul 0.5 midpoint; score is expectation not integer; bare HTTP not SDK; Arohtea/jev-readout; Jev-style Choice/Score/Noul from ordinary models; optional DSH plugin; schema-valid ≠ calibrated; gulagala001/jevify ≠ Mintzs/jevify; Laya RLCD benchmark; 40.3% below constant-answer; open-weight measurement; mourad-ghafiri/laya-rlcd-benchmark ≠ yibie/laya-jev-lab; cheap fail-open semantic edge; second signal not sole; FastLoopError catch; SupremeDreamZ/jev-fastloop ≠ jev-ultrafast; asking more questions in one call; 0.980 at every N; nearly not fully deterministic; TheWebDevel/jev-fanout; Qwen3-VL perception + Jev decisions train RL; 0 model calls at deployment; VLM alone 1.7 vs +Jev 4.4; harneet2512/reflexrl ≠ khordoo/jev-reflex-autonomy-lab; independent Jev API vs Laya; cascade 0.60 matches 78% at 1.8×; noul facts not judgements; yibie/laya-jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab; GLiNER vs GLiFormer vs Laya vs Jev; extractors ≠ decision engines; Laya dict-instructions collapse 58.3%; umstek/zero-shot-ie-bench; decisions-per-minute & cost; 204 moves vs 73; throughput not intelligence; angelgalvisc/snake-arena-jev-vs-llms ≠ vtrivedy/jev-plays-games; behavioral contracts; pin expectations eval upgrades; raw 0.94 is not a release; sathariels/jevcheck ≠ dayhaysoos/jevals ≠ SivletLabs/jev-eval; evidence-linked dependency upgrade; Jev never generates filenames; no_direct_evidence ≠ safe to merge; GaneshVG18/upgrade-radar ≠ LYchoon/paper-radar-jev; discography theme/mood/complexity; five atomic questions one call; lirantal/discoprint. Twelve HIGH
+  clusters: **structured probability readouts**
+  ([Arohtea/jev-readout](https://github.com/Arohtea/jev-readout)
+  PRIMARY; structured probability readouts; distribution >
+  argmax; Noul 0.5 midpoint; score is expectation not
+  integer; bare HTTP not SDK; JavaScript; license null;
+  **0★**; HEAD `03734993`; README SHA `76a99fe5`);
+  **ordinary-model Jev-shape**
+  ([gulagala001/jevify](https://github.com/gulagala001/jevify)
+  Jev-style Choice/Score/Noul from ordinary models;
+  optional DSH plugin; schema-valid ≠ calibrated;
+  gulagala001/jevify ≠ Mintzs/jevify; JavaScript MIT;
+  **0★**; HEAD `3d3e904a`; README SHA `0e2f8536`);
+  **open-weight Laya measurement**
+  ([mourad-ghafiri/laya-rlcd-benchmark](https://github.com/mourad-ghafiri/laya-rlcd-benchmark)
+  Laya RLCD benchmark; 40.3% below constant-answer;
+  open-weight measurement;
+  mourad-ghafiri/laya-rlcd-benchmark ≠ yibie/laya-jev-lab;
+  Python; license null; **0★**; HEAD `3401ff26`; README SHA
+  `d8d4859e`);
+  **cheap fail-open semantic edge**
+  ([SupremeDreamZ/jev-fastloop](https://github.com/SupremeDreamZ/jev-fastloop)
+  cheap fail-open semantic edge; second signal not sole;
+  FastLoopError catch; SupremeDreamZ/jev-fastloop ≠
+  jev-ultrafast; Python MIT; **0★**; HEAD `1157841a`;
+  README SHA `053a0885`);
+  **fan-out measurement**
+  ([TheWebDevel/jev-fanout](https://github.com/TheWebDevel/jev-fanout)
+  asking more questions in one call; 0.980 at every N;
+  nearly not fully deterministic; Python MIT; **0★**; HEAD
+  `b30aaadc`; README SHA `394b2e1e`);
+  **VLM+Jev RL teacher**
+  ([harneet2512/reflexrl](https://github.com/harneet2512/reflexrl)
+  Qwen3-VL perception + Jev decisions train RL; 0 model
+  calls at deployment; VLM alone 1.7 vs +Jev 4.4;
+  harneet2512/reflexrl ≠ khordoo/jev-reflex-autonomy-lab;
+  Python MIT; **0★**; HEAD `aa36be84`; README SHA
+  `e6ff13cd`; default master);
+  **independent Jev API vs Laya**
+  ([yibie/laya-jev-lab](https://github.com/yibie/laya-jev-lab)
+  independent Jev API vs Laya; cascade 0.60 matches 78% at
+  1.8×; noul facts not judgements; yibie/laya-jev-lab ≠
+  dairui1/jev-lab ≠ BrendanH18/jev-lab; Python MIT; **0★**;
+  HEAD `30ba64dc`; README SHA `57bd1832`);
+  **locate vs decide**
+  ([umstek/zero-shot-ie-bench](https://github.com/umstek/zero-shot-ie-bench)
+  GLiNER vs GLiFormer vs Laya vs Jev; extractors ≠
+  decision engines; Laya dict-instructions collapse 58.3%;
+  Python MIT; **0★**; HEAD `8770b16b`; README SHA
+  `d69dc96a`);
+  **throughput arena**
+  ([angelgalvisc/snake-arena-jev-vs-llms](https://github.com/angelgalvisc/snake-arena-jev-vs-llms)
+  decisions-per-minute & cost; 204 moves vs 73; throughput
+  not intelligence; angelgalvisc/snake-arena-jev-vs-llms ≠
+  vtrivedy/jev-plays-games; Python MIT; **0★**; HEAD
+  `985a1c70`; README SHA `0db6f528`);
+  **behavioral contracts**
+  ([sathariels/jevcheck](https://github.com/sathariels/jevcheck)
+  behavioral contracts; pin expectations eval upgrades;
+  raw 0.94 is not a release; sathariels/jevcheck ≠
+  dayhaysoos/jevals ≠ SivletLabs/jev-eval; Python MIT;
+  **0★**; HEAD `fc49c795`; README SHA `5c832f81`);
+  **evidence-linked upgrade review**
+  ([GaneshVG18/upgrade-radar](https://github.com/GaneshVG18/upgrade-radar)
+  evidence-linked dependency upgrade; Jev never generates
+  filenames; no_direct_evidence ≠ safe to merge;
+  GaneshVG18/upgrade-radar ≠ LYchoon/paper-radar-jev;
+  TypeScript MIT; **0★**; HEAD `1e91eb03`; README SHA
+  `b7603c01`);
+  **knowledge-work discography**
+  ([lirantal/discoprint](https://github.com/lirantal/discoprint)
+  discography theme/mood/complexity; five atomic questions
+  one call; TypeScript Apache-2.0; **0★**; HEAD
+  `c2a3d47e`; README SHA `392efd29`). Soft Noul ≠ hard
+  safety. 0★ HIGH still got a real card (all twelve
+  **0★**). Census **live REST pulse**: SemIf **2047★**
+  (flat vs §104 **2047**); jevlike **1018★** (+12 vs §103
+  **1006**); TypeAR **12★** **flat**. Tracker likes
+  **56**; lastModified `2026-09-20T04:29:16Z`; Hub
+  `archerhume/4rcherhume` HTTP **401**. Archer still NOT
+  landed. Laya Hub likes **672**. Blackwood Hub likes **2**
+  gated manual — user census absent from tracker. Awesomejev
+  561/27007 user-provided (≠ AnotiaWang/awesome-jev
+  **91★**). Qwen3.8-27B ≠ Archer. `invented_signal:
+  false`. Do not copy keys / `npm` / `pip` / `npx` /
+  `uv` / `.env`. No wrapper. No invented metrics.
+- Hourly 2041 HIGH (`research/notes.md` §101): **Skip
+  Archer rewrite.** Docs-only on a **fresh PR off main**.
+  Never reopen merged #7–**#18**. Do **not** re-fold 1943
+  / §100 / 1843 / §99 / 1740 / §98 / 1639 / §96 /
+  gliner-native-runtime / §97 / 1541 / §95 / jev-align
+  *mechanism* / §93. How-to-apply / mental models /
+  architecture / Harbor-jevals / toolbelt — not a thin
+  Jev skill dump. Backend-agnostic
+  categorization/scoring/decision class. Formal methods
+  compose with scoring; a Noul is a SENSOR; treating a
+  zero binary name gap as a fairness certificate, letting
+  Jev emit the verdict string, pasting PrismNLI's lead
+  without the contamination caveat, treating J7 pass as
+  safe to obey, treating a receipt as authorization, or
+  hard-gating confidence ≥0.95 is soundness theater. Nine
+  HIGH clusters: **resume-screening bias audit**
+  ([natemoo-re/bias-bench](https://github.com/natemoo-re/bias-bench)
+  PRIMARY; name×resume factorial independent Nouls;
+  callback determined by resume quality; mean-probability
+  name gaps operationally negligible; natemoo-re/bias-bench
+  ≠ BBQ; JavaScript; license null; **0★**; HEAD
+  `fe2f2535`; README SHA `a1c3e604`); **MCDA panel
+  code-owned verdict**
+  ([austindixson/planalyzer](https://github.com/austindixson/planalyzer)
+  Plan/PRD panel → code-owned pass|review|block;
+  cheerleading out of scope; Python MIT; **0★**; HEAD
+  `39fc161f`; README SHA `6e4d8da3`); **EU cost-aware
+  routing**
+  ([cannacre8ive/switchboard-ai](https://github.com/cannacre8ive/switchboard-ai)
+  cost-aware multi-model routing/escalation; decide vs do;
+  successful-task cost; JavaScript MIT; **1★**; HEAD
+  `5cae9d1c`; README SHA `872de837`; package **0.4.0**);
+  **frozen-protocol class bake-off**
+  ([elcronos/jev-vs-open-decision-models](https://github.com/elcronos/jev-vs-open-decision-models)
+  TypeSafe Jev vs PrismNLI vs Laya; contamination caveat;
+  Python; license null; **0★**; HEAD `b61e6cfc`; README
+  SHA `b7256888`); **VOI admission**
+  ([cvsgireesh/jevusher](https://github.com/cvsgireesh/jevusher)
+  context-window admission control; fail polarity per
+  lens; on small inputs lenses lose money; TypeScript MIT;
+  **0★**; HEAD `d830d344`; README SHA `428a4a59`);
+  **Leveson control plane**
+  ([MokiMeow/jev-fabric](https://github.com/MokiMeow/jev-fabric)
+  typed decision control plane; receipt ≠ authorization;
+  historical-v0 zero retained cases; Apache-2.0; **0★**;
+  HEAD `95b9a4f3`; README SHA `f485dbdd`); **scoring
+  economics**
+  ([jose-troche/live-rubric](https://github.com/jose-troche/live-rubric)
+  live 15-dim typed rubric re-score per pause; OpenJev/Codiv
+  ≠ TypeSafe hosted; ~$0.000004 desc / ~$0.000006 README;
+  TypeScript; license null; **0★**; HEAD `db8da8db`;
+  README SHA `4a0be084`); **pre-registered calibration
+  science**
+  ([willkelly/jev-evaluation](https://github.com/willkelly/jev-evaluation)
+  28 predictions before data; 123,805 requests; confidence
+  does not track ignorance; polite injection 65% / crude
+  0%; Python MIT; **0★**; HEAD `c168c093`; README SHA
+  `2d66ac22`; rh-guard owns injection); **class
+  infrastructure SDK**
+  ([nshkrdotcom/system_one_sdk](https://github.com/nshkrdotcom/system_one_sdk)
+  provider-neutral Elixir/BEAM Noul/Choice/Score SDK;
+  GitHub desc provider-neutral / README TypeSafe-first;
+  Elixir MIT; **0★**; HEAD `c2a522ee`; README SHA
+  `c117b4c4`; mix **0.5.0**). Soft Noul ≠ hard safety.
+  0★ HIGH still got a real card (switchboard now **1★**
+  live REST). Census **live REST pulse**: SemIf **1984★**;
+  jevlike **1002★**; TypeAR **11★** flat. Tracker likes
+  **54** (+3 vs §100 pin **51**); lastModified **CHANGED**
+  2026-09-20T02:59:13Z; Hub `archerhume/4rcherhume` HTTP
+  **401** (not re-fetched as a rewrite). Archer still NOT
+  landed. Awesomejev 561/27007 user-provided (≠
+  AnotiaWang/awesome-jev 84★).
+  `invented_signal: false`. Do not copy keys / `npm` /
+  `pip` / `npx` / `uv` / `mix`. No wrapper. No invented
+  metrics.
+- Hourly 1943 HIGH (`research/notes.md` §100): **Skip
+  Archer rewrite.** Docs-only on a **fresh PR off main**.
+  Never reopen merged #7–**#17**. Do **not** re-fold 1843
+  / §99 / 1740 / §98 / 1639 / §96 / gliner-native-runtime
+  / §97 / 1541 / §95 / jev-align *mechanism* / §93.
+  How-to-apply / mental models / architecture /
+  Harbor-jevals / toolbelt — not a thin Jev skill dump.
+  Backend-agnostic categorization/scoring/decision class.
+  Formal methods compose with scoring; a Noul is a SENSOR;
+  hard-gating `feels` 80%, pasting 17/18 as Harbor,
+  hard-gating 0 of 157, treating boolean @ 0.5 as a proof,
+  claiming 10×, treating softmax as a Noul, or treating 62
+  tests as quality is soundness theater. Six HIGH clusters:
+  **Jev IS the if-statement**
+  ([southpolesteve/probably](https://github.com/southpolesteve/probably)
+  PRIMARY; judgments/probabilities drive branches; text
+  model only writes prose; interpreter owns
+  variables/loops/budgets/replay; otherwise maybe /
+  confidence gate; chaos samples after the gate;
+  southpolesteve/probably ≠ carldaws/hunch ≠ feelings ≠
+  Kungie/gut ≠ Illusion47586/judge ≠ tidymodels/probably;
+  TypeScript MIT; **3★**; HEAD `6bf671a4`; README SHA
+  `c28570a9`); **GEPA live delta**
+  ([sutro-sh/jev-align](https://github.com/sutro-sh/jev-align)
+  133★ / forks 10 live; build calibrated classifiers from
+  human feedback; HEAD `49753df9` / README SHA `363fccb7`
+  unchanged vs §93); **retrieve by relevance not
+  resemblance**
+  ([samdotmak/jev-recall](https://github.com/samdotmak/jev-recall)
+  one calibrated yes/no per memory in one request; pointer
+  mode 17/18 19/20 *theirs*; embedding resemblance misses
+  the allergy; MIT; **6★**; HEAD `d3e4acfb`; README SHA
+  `ea774519`); **memory leases ended by new evidence**
+  ([chopratejas/invalidate](https://github.com/chopratejas/invalidate)
+  HIGH upgrade; six Nouls then fixed rules in code; 0 of
+  157 false invalidations; questions/plans/directives are
+  not evidence; unsure → review queue; host keeps the
+  store; Apache-2.0; **11★**; HEAD `d6ade601`; README SHA
+  `8cccad5f`); **contract-of-artifact lint rename**
+  ([mizchi/jev-lint](https://github.com/mizchi/jev-lint)
+  is mizchi/jevlint rename; name↔body / comment truth /
+  test-claims; no shipped rule has severity error; ~1 in 5
+  findings wrong *theirs*; TypeScript MIT; **13★**; HEAD
+  `62d73f8e`; README SHA `4c0e37cd`); **JSON Schema
+  question compiler**
+  ([Kiln-AI/jev_jsonschema](https://github.com/Kiln-AI/jev_jsonschema)
+  HIGH upgrade; JSON Schema → typed JSON via Jev;
+  noul_threshold 0.5 decoder not a proof;
+  IncompatibleSchemaError lists every bad property; MIT;
+  **5★**; HEAD `fccea8c2` unchanged); **local System One
+  economics**
+  ([mizorewww/laya-coreml](https://github.com/mizorewww/laya-coreml)
+  on-device Laya CoreML ANE; ~5 ms P50 short decisions;
+  189/189 FP16 checkpoint parity; 10× not achieved;
+  Apache-2.0; **0★**; HEAD `47f4baf0`; README SHA
+  `2068c661`) +
+  ([Micha0827/snapjudge](https://github.com/Micha0827/snapjudge)
+  softmax over allowed tokens ≠ Noul; question-first
+  cache; Python MIT; **3★**; HEAD `2df5ce27`; README SHA
+  `64a91458`) +
+  ([direwolfiy/JevPi](https://github.com/direwolfiy/JevPi)
+  Jev-first Pi agent loop; slow-LLM fallback; explicit
+  action menu / CandidateSource unimplemented; 62 tests
+  wiring not quality; license null; **0★**; HEAD
+  `980f8895`; README SHA `88ec1a55`). Soft Noul ≠ hard
+  safety. 0★ HIGH still got a real card. Census **live
+  REST pulse**: SemIf **1954★**; jevlike **989★**; TypeAR
+  **11★** flat. Tracker likes **51** flat; lastModified
+  UNCHANGED 2026-09-19T18:37:18Z; Hub
+  `archerhume/4rcherhume` HTTP **401** (not re-fetched as
+  a rewrite). Archer still NOT landed. Awesomejev
+  561/27007 user-provided (≠ AnotiaWang/awesome-jev 83★).
+  `invented_signal: false`. Do not copy keys / `bun` /
+  `pip` / `npx` / `uv` / HF download. No wrapper. No
+  invented metrics.
+- Hourly 1843 HIGH (`research/notes.md` §99): **Skip
+  Archer rewrite.** Docs-only on a **fresh PR off main**.
+  Never reopen merged #7–**#16**. Do **not** re-fold 1740
+  / §98 / 1639 / §96 / gliner-native-runtime / §97 /
+  1541 / §95. How-to-apply / mental models /
+  architecture / Harbor-jevals / toolbelt — not a thin
+  Jev skill dump. Backend-agnostic
+  categorization/scoring/decision class. Formal methods
+  compose with scoring; a Noul is a SENSOR; hard-gating
+  cost-derived 0.038 as a proof, merging von Needle
+  52.6% with n=78 93%, “guaranteeing” calibration, or
+  pasting “Jev wins guardrailing” is soundness theater.
+  Five HIGH clusters: **cost-derived YES/NO/UNSURE
+  control flow**
+  ([Kungie/gut](https://github.com/Kungie/gut)
+  PRIMARY; cost-sensitive decision theory × System One
+  probabilities → control flow; thresholds derived from
+  costs not hard-coded; YES / NO / UNSURE from
+  cost_false_yes / cost_false_no / cost_human;
+  auto-batching same-object questions; Kungie/gut ≠
+  tpellet/hunch ≠ carldaws/hunch; GitHub Apache-2.0 /
+  LICENSE MIT / pyproject Apache-2.0 *theirs*; **0★**;
+  HEAD `cb56c875`; README SHA `630474f6`; pre-alpha);
+  **typed-callback twin**
+  ([Illusion47586/judge](https://github.com/Illusion47586/judge)
+  judgment vs generation; deterministic execution after
+  probabilistic judgment; exactly one app-owned
+  callback; explicit uncertain branch;
+  Illusion47586/judge ≠ lexingtonhibiki/judgekit ≠
+  Ascurse/typed-judge-kit; TypeScript MIT; **0★**; HEAD
+  `e69f65a1`; README SHA `08554c6f`; `@brkn-labs/judge`
+  0.1.0); **variable-N option scoring as the trainable
+  object**
+  ([zwliJay/jev-forge](https://github.com/zwliJay/jev-forge)
+  dynamic candidate bags not fixed label sets;
+  zwliJay/jev-forge ≠ NanoJev; class-architecture note,
+  not a sixth species; GitHub NOASSERTION / LICENSE MIT;
+  **1★**; HEAD `eb3e4a2d`; README SHA `359f3f57`; do not
+  clone Hub weights); **open NAR replica economics**
+  ([wfzyx/von](https://github.com/wfzyx/von) late-catch
+  HIGH of the same repo; NAR local drop-in; open replica
+  economics / latency vs closed Jev; competing NAR
+  claims / replica honesty; Apache-2.0; **43★**; HEAD
+  `b9e42b26`; README SHA `574aa628`; do not merge Needle
+  52.6% with n=78 93.0%); **typed vs chat judges on
+  guardrailing**
+  ([ishaannk/llm-vs-jev](https://github.com/ishaannk/llm-vs-jev)
+  cross-note only; nothing wins outright; can be argued
+  out of guarding; deeper integrity fold is rh-guard;
+  Apache-2.0; **0★**; HEAD `182e0864`; README SHA
+  `d9ebd40f`). gut/judge are **control-flow /
+  decision-theory overlays, not new class-table
+  species**. Soft Noul ≠ hard safety. 0★ HIGH still got
+  a real card. Census **live REST quoted**: SemIf
+  **1936★**; jevlike **983★** (watch claimed 984);
+  TypeAR **11★** flat. Tracker likes **51** flat;
+  lastModified UNCHANGED 2026-09-19T18:37:18Z; Hub
+  `archerhume/4rcherhume` HTTP **401**. Archer still NOT
+  landed. Awesomejev 561/27007 user-provided (≠
+  AnotiaWang/awesome-jev 83★). X MCP `since_id` held;
+  pages_archived 0; no invented tweets.
+  `invented_signal: false`. Do not copy keys / `pip` /
+  `npm` / `uv` / Hub download. No wrapper. No invented
+  metrics.
+- Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
+  ZIO client keeps Jev as the outer Choice and the handler as the
+  effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard
+  schema-conditioned categorize, not a Noul.
+- Boundary-audit stop conditions for TOCTOU-of-Noul and vacuous specs;
+  FAQ rows for Alloy vs Apalache and PufferLib-as-DST-trio
+- Research pointer to [dayhaysoos/jevals](https://github.com/dayhaysoos/jevals):
+  local MIT workbench for Jev questions vs labeled Noul/Choice/Score cases
+  (compare runs, WebMCP + agent skill). Empirical acceptance-test surface
+  for Hypothesis mapping cards; complements `evaluate_decisions.py`. Not a
+  jevals how-to (`research/notes.md` §24; one sentence in `validation.md`)
+- Mental-models card: Augustus is design judgment across AI, SWE,
+  business, knowledge work, and life — not SWE-only. Pillars: expected
+  utility / selective classification, calibration and cost-sensitive
+  thresholds, VOI, MCDA, search/control substitutions, signal detection,
+  Leveson org/safety, NATM/snap-fit/Norman/Kent/Shirky as general
+  intuition. Domain gallery labeled Hypothesis except launch-week
+  Empirical SWE rows.
+- Archer Hume architecture reconstruction (17 Sep 2026 essay, ~10k
+  probes of `jev-1.13.0`): direct readout vs generated confidence,
+  isolated questions, listwise IIA and order sensitivity, confidence as
+  arithmetic on the distribution. Independent envelope probe; does not
+  override live TypeSafe docs. Announced open-weight drop is **WATCH**
+  (27B dense, AU healthcare residency, prefers "decision models"; still
+  no Hub weights). `research/notes.md` §31, §33; `judgment-class.md`
+  when-to-use table; FAQ confidence / surfaces questions.
+- Entropy as allocator (**Hypothesis**, `judgment-class.md`): Atallah's
+  low / medium / high buckets place System One on typed decisions and a
+  frontier decoder on high-entropy synthesis — same axis as marginals
+  vs joint and as VOI. "Review this PR" as medium is still partly
+  generative; "first model ever" is a claim. `research/notes.md` §38
+- Marginals, not a probabilistic program (`judgment-class.md`, FAQ):
+  Erik Meijer — Jev is a cool API and not a PPL; Kleisli qualifications
+  exaggerate; "Jev gives you the marginals; a decoder gives you the
+  joint." Joints and invariants stay with TLA+ / Alloy / contracts.
+  `research/notes.md` §34
+- Bespoke Nimble: open contrastive recipe, not a Jev distill. Model
+  card Apache-2.0 LoRA on Qwen3.5-9B (repo license absent). Their
+  324-example holdout is a named receipt (Nimble 90.12%, Jev 1.13.0
+  93.21%), not a ranking. 9B-vs-Jev on your labels stays Hypothesis.
+  `research/notes.md` §35; one sentence in `validation.md`
+- djev-spark: third compute graph (diffusion structured reads,
+  Jev-shaped I/O, image-in). Empirical as the public interface;
+  Hypothesis that it beats a decision head on your task. Archer's
+  multimodal drop stays WATCH. `research/notes.md` §36
+- Perception specialist then judgment specialist vs shared multimodal
+  System One (**Hypothesis**): SAM 3.1 (masks and tracks) or an ASR
+  transcript, then typed decisions on that state, is an application
+  pattern, not native omni. Information dies at the interface. Prefer
+  a shared multimodal decision model when the joint matters (Archer
+  Watch, not Empirical; djev-spark images; future audio). Basit ask,
+  primary post not retrieved. `research/notes.md` §39
+- Perception→decision pipeline, measure, and hill-climb
+  (**Hypothesis**, `validation.md`): stages with a versioned state
+  contract; stage metrics plus a frozen taskset; HoH changes one stage
+  or one interface. DSPy/Ax only on LM-program knobs; jevals and
+  calibration for the decision slice; Harbor names product
+  end-to-end, not a tutorial. `research/notes.md` §41
+- Eval & hill-climb (`validation.md`): jevals decision-stage hygiene
+  (independent keys, correctness is not confidence, held-out, immutable
+  runs) and Harbor as the product taskset substrate; one composition
+  table. `research/notes.md` §40
+
+### Changed
+
+- Skill description rewritten as trigger conditions (mixed architecture,
+  prefilter, routing, preference lint, classification skepticism, family
+  choice including GLiNER/GLiClass/listwise/vision) plus an explicit `not_for`
+  against the official `typesafe-ai` skill
+- Identity lock vs neighbor skills (`typesafe-ai`, `tenbin`, `decision-first`)
+  so Augustus stays the design-judgment layer — class-wide, not TypeSafe-only
+- Design cards name hole, family, and typed judgment provider (Jev default;
+  other family only with self-eval)
+- Protocol fan-out step is family-aware (Jev batch, GLiClass one-pass,
+  dual-encoder prompt scoring); ranking vs decision fail policy is a
+  non-negotiable
+- Protocol and FAQ branch for "formally verify with Jev"; methods-catalog
+  and composition-algebra verifier position point at the ownership split
+- Skill mission and description are domain-general (AI / SWE / business /
+  knowledge work / life); FAQ "is this only for software?"; mappings.md
+  beyond-SWE examples labeled Hypothesis; boundary-audit red flags for
+  TOCTOU-of-Noul and vacuous specs; formal-methods expanded with Alloy vs
+  Apalache and the DST trio including PufferLib; GLiNER promoted from
+  cousin footnote to species-map peer
+
+### Fixed
+
+Adversarial review of the whole skill against its own non-negotiables
+(findings in `research/notes.md` §27).
+
+- Gate fail policy is per action, not universally open
+  (`composition-algebra.md` position 3, `agent-self-assessment.md`):
+  advisory guards fail open *because* an interlock sits underneath;
+  selection and authorization gates fail closed
+- Dual-orchestration topology A selects from a closed catalog instead of
+  "planning" MCP calls, which contradicted the standing planner rejection
+- Species map applied to the skill's own advice: GLiClass (categorize) is
+  the large-catalog substitute for a 255-option Choice; GLiNER spans are
+  not (`SKILL.md`, `judgment-class.md`, `applied-mappings.md`)
+- Han Xiao trolley relabeled an Empirical **rejection** (one tweet, no
+  repo), not a recipe
+- openjev-lm caveat moved to the figure it belongs to: 92.9% is against 70
+  hand-labelled gold, 98.1% is teacher *agreement*
+- Contract surface removed from design cards: the Ax constructor call and
+  the `instructions` key enumeration point at live docs instead
+  (`optimizer-integration.md`, `question-design.md`)
+- `mappings.md` preamble no longer claims uniform Hypothesis where card
+  bodies say Contract/Empirical; §17 forbids reusing jevgate's ≤0.18 as a
+  constant; all Hypothesis-range references aligned to §6–§19
+- Ownership split labeled Contract in `toolbox-mapping.md`, matching
+  `mappings.md` §8; done-check splits structure from the Noul
+
+Second pass on `7b3a0c3` (`research/notes.md` §43). Zero blockers.
+Dropped the unpublished `npx jevals` line; SAM and ASR are upstream
+producers, not the perceive species; removed two call shapes from
+`optimizer-integration.md`; tagged the $0.042/MTok cell as a vendor
+figure; marked GodsBoy 94.4% exploratory.
+- Skill description gained trigger terms for boundary audit, question
+  diagnosis, agent self-supervision, and optimizer placement
+
+## [0.2.0] - 2026-09-18
+
+Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skills/tree/v0.5.7)
+(`65a39f3`, 2026-09-12).
+
+### Added
+
+- Boundary-audit card for existing systems: three-way split (exact /
+  bounded judgment / generation), code-smell catalog, fit test, opportunity
+  map, smallest-viable-boundary rule, Jev-around-LLM sandwich, centralized
+  policy + raw-judgment retention, red flags, completion questions
+- Protocol branch: audit a codebase/PR before inventing mappings; per-action
+  risk gates; keep questions/thresholds in one reviewable module
+- Skill description trigger terms for brittle parsers, prompt-to-JSON
+  classifiers, and agent loops that are really bounded decisions
+
+## [0.1.0] - 2026-09-18
+
+Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skills/tree/v0.5.7)
+(`65a39f3`, 2026-09-12) — the only tagged revision of the official skill at
+Augustus launch.
+
+### Added
+
+- Skill protocol, decision-design card, and evidence labels (Contract /
+  Empirical recipe / Hypothesis)
+- Classical-method mappings: features/utility, selective decisions, decision
+  circuits, bounded rerank, hierarchy/beam search
+- Agent self-assessment, optimizer coupling (Ax, DSPy, ProgramAsWeights)
+- Toolbox sweep, named-methods catalog, 11-position composition algebra,
+  question-design diagnosis
+- Validation gates and `scripts/evaluate_decisions.py`
+- Launch-week evidence archive (187 repos) and public ecosystem index
+- Claude Code marketplace manifest; public GitHub mirror at
+  [`24601/Augustus`](https://github.com/24601/Augustus)
+
+### Research log (pre-tag)
+
+The dated passes below are how 0.1.0 was assembled.
+
+### 2026-09-18 (refresh pass 2)
+- Research: Gemini Deep Research report retrieved and archived (interaction ID
+  saved in jev-archive/state); GitHub census doubled to ~60 Jev repos +
+  framework integrations (LiteLLM, LangChain, Vercel AI, Mastra, Eliza, Ax,
+  Composio); all 87 repos cloned to /home/user/workspace/jev-archive for
+  hourly refresh.
+- New measured recipes added to notes.md: foreman supervision loop, pi-jev
+  gate thresholds, pi-warden 6→0 paired-run result, winnow relevance sieve,
+  fast-jev-compaction two-noul rule, skill-router gates (0.30/0.40, shortlist
+  3, 94.4% vs 70.8%), calibration ECE 0.0313 vs 32% OOD collapse (Archer
+  Hume), Every 777-judgment eval, Near Here moderation numbers.
+- Skill: added references/agent-self-assessment.md (agent self-supervision
+  lifecycle, grounding/citation checks, skill callability testing) and two
+  mapping-index rows; validation.md dogfooding section still canonical.
+
+### 2026-09-17/18 (initial)
+- Baseline research archive (sources.json, notes.md), augustus skill with
+  mappings + validation references, evaluator script, hourly refresh script,
+  Claude plugin marketplace manifest.
+
+### 2026-09-18 (topic-index pass 3)
+- Fixed census method: exact GitHub search paginated (700 repos created since
+  09-14 captured; 700-result cap noted) + topics/jev crawl → ~80 additional
+  repos; archive now 184 clones. Miss-cause documented: earlier star-sorted
+  limit-40 search cut the low-star tail (incl. both MCTS repos).
+- Skill: MCTS mapping promoted experimental → empirical recipe (grounded vs
+  speculative fidelity in types; probes-only concession; measured 24/24 vs
+  1/24 greedy); agent-self-assessment.md gains the judge-variance recipe
+  (Jev judge 224-279x more consistent than LLM judge over 100 reps).
+
+### 2026-09-18 (pass 4 — optimizers + official skills + clone audit)
+- ax Jev support documented from source (native adapter details, trueThreshold
+  semantics, fail-closed mapping validation); new reference
+  optimizer-integration.md covering Ax + DSPy typesafeify + jev-dspy-lab.
+- typesafeainate/dspy-typesafeify cloned; official typesafe-ai/skills already
+  archived and layered-on (never duplicated).
+- Clone audit: repos.txt deduped (185 unique), 0 missing on disk, no failures.
+
+### 2026-09-18 (pass 5 — toolbox sweep meta-method)
+- New references/toolbox-mapping.md: the how-to-find-approaches-and-
+  applications procedure (judgment-shaped-hole substitution, newly-feasible
+  classification via economics inversion, standing rejections list); wired
+  into SKILL.md central model + index row.
+
+### 2026-09-18 (pass 6 — named-methods + operators/theorems tier)
+- references/methods-catalog.md: ~20 named algorithms (CatBoost row is
+  Empirical via autoresearch cookbook) + operators/theorems tier with
+  precondition-carrying rule; wired into SKILL.md index and toolbox sweep.
+
+### 2026-09-18 (pass 7 — composition algebra as application generator)
+- references/composition-algebra.md: 11-position grammar of Jev-vs-construct
+  relations, logical-operator combination rules, and the position×construct
+  traversal as the systematic application generator; wired into SKILL.md
+  index + toolbox sweep.
 - Hourly 2340 HIGH (`research/notes.md` §104): **Skip
   Archer rewrite.** Docs-only on a **fresh PR off main**.
   Never reopen merged #7–**#21**. Do **not** re-fold 2246

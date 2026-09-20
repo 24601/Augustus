@@ -26,6 +26,108 @@ analysis. **Transfers**: turning unstructured evidence into named, reusable
 numeric features (Noul probabilities, Score distributions, stable Choice
 categories). Judge once; explore many policies without rerunning inference —
 sliders, weights, filters, Pareto views, or a supervised model on top.
+**0042 HIGH (`notes.md` §105):** structured probability
+readouts (distribution > argmax; Noul 0.5 midpoint; score
+is expectation not integer; bare HTTP not SDK;
+Arohtea/jev-readout); Jev-style Choice/Score/Noul from
+ordinary models (optional DSH plugin; schema-valid ≠
+calibrated; gulagala001/jevify ≠ Mintzs/jevify); Laya RLCD
+benchmark (40.3% below constant-answer; open-weight
+measurement; mourad-ghafiri/laya-rlcd-benchmark ≠
+yibie/laya-jev-lab); cheap fail-open semantic edge (second
+signal not sole; FastLoopError catch;
+SupremeDreamZ/jev-fastloop ≠ jev-ultrafast); asking more
+questions in one call (0.980 at every N; nearly not fully
+deterministic; TheWebDevel/jev-fanout); Qwen3-VL
+perception + Jev decisions train RL (0 model calls at
+deployment; VLM alone 1.7 vs +Jev 4.4;
+harneet2512/reflexrl ≠ khordoo/jev-reflex-autonomy-lab);
+independent Jev API vs Laya (cascade 0.60 matches 78% at
+1.8×; noul facts not judgements; yibie/laya-jev-lab ≠
+dairui1/jev-lab ≠ BrendanH18/jev-lab); GLiNER vs GLiFormer
+vs Laya vs Jev (extractors ≠ decision engines; Laya
+dict-instructions collapse 58.3%; umstek/zero-shot-ie-bench);
+decisions-per-minute & cost (204 moves vs 73; throughput
+not intelligence; angelgalvisc/snake-arena-jev-vs-llms ≠
+vtrivedy/jev-plays-games); behavioral contracts (pin
+expectations eval upgrades; raw 0.94 is not a release;
+sathariels/jevcheck ≠ dayhaysoos/jevals ≠
+SivletLabs/jev-eval); evidence-linked dependency upgrade
+(Jev never generates filenames; no_direct_evidence ≠ safe
+to merge; GaneshVG18/upgrade-radar ≠
+LYchoon/paper-radar-jev); discography
+theme/mood/complexity (five atomic questions one call;
+lirantal/discoprint). Soft Noul ≠ hard safety.
+`notes.md` §105.
+**Authorship / jevtest-as-merge-seal (rh-guard owns the
+gate cousin; 2026-09-19 ~16:52):**
+[jev-authorship-check](https://github.com/webstercharly/jev-authorship-check)
+named Choice `uncertain` is a sensor, not courtroom
+evidence. [jevtest](https://github.com/realZachi/jevtest)
+0.85 still soft; the 0.15–0.85 band fails both polarities
+— hard-gating a matcher as a merge seal is soundness
+theater. rh-guard owns the eval-integrity gate cousin
+(`notes.md` §87).
+**Empty findings ≠ approval (Empirical as README;
+2026-09-19 ~17:25):**
+[stanley-code](https://github.com/devagrawal09/stanley-code)
+— Jev is the SENSOR; `notChecked` is the coverage
+ledger; there is no `pass`/`approved`. Exact signals
+(`test.skip`, deleted assertions) prove before Jev.
+Human `--promote-candidate` is the actuator; the
+agent drafts. Soft Noul ≠ hard safety. rh-guard owns
+the gate cousin if someone CI-gates on empty findings
+(`notes.md` §88).
+**Human every action (Empirical as README; 2026-09-19
+~17:49):**
+[Essentiel-Jev](https://github.com/JacquesGariepy/Essentiel-Jev)
+— Jev SENSOR; human actuator; provider write +
+read-back is the probe. Essentiel-Jev never authority. 0.75
+provisional. **≠** jevmail **≠** mailjay. License null.
+`notes.md` §89.
+**Atom then sense (Empirical as README; 2026-09-19
+~17:49):**
+[enzo-mcp](https://github.com/mahawi1992/enzo-mcp)
+— deterministic evidence is the constraint; Jev is
+the remainder sensor; enzo-mcp UNKNOWN exposes gaps.
+`allow_external_jev` is consent, not a grant.
+**≠** jev-sift. `notes.md` §89.
+**Pause-if-no-Jev (Empirical as README; 2026-09-19
+~18:41):**
+[ORIGIN-CIVILIZATION](https://github.com/JacquesGariepy/ORIGIN-CIVILIZATION)
+— Jev SENSOR; world constraint is ORIGIN
+pause-if-no-Jev. validResponse sums-to-1. LLMs plan
+never decide. **≠** Essentiel-Jev. `notes.md` §90.
+**Local AUTO_ACT is not a Noul (Empirical as README;
+2026-09-19 ~18:41):**
+[jevbrain](https://github.com/Synxneuos/jevbrain)
+— n-gram/anchor overlap daemon. jevbrain AUTO_ACT is
+not a Noul. τ≥0.80 theater if sold as calibrated
+System One. README MIT vs SPDX null. **≠** TypeSafe
+Jev. `notes.md` §90.
+**Crawler risk bands (Empirical as README; 2026-09-19
+~18:41):**
+[jev-crawlers](https://github.com/russfranky/jev-crawlers)
+— jev-crawlers risk bands never raw boolean. Verify
+grounding, not exec. rh-guard owns the gate cousin.
+`notes.md` §90.
+
+## 9. Search / control loops → one substituted classifier step
+
+**Method**: beam, A*, MCTS, hiring funnel, literature snowball, sales
+stages, cook/rest/check. **Transfers**: the *algorithm* stays yours. The
+judgment-shaped hole is a prior, a prune, a leaf value, or a "does this
+branch still look live?" Noul (`methods-catalog.md` search rows;
+mapping §5 is the taxonomy-beam special case). Economics inversion:
+per-node judgments were known and too expensive; they are now default.
+Control: hysteresis, continue / stop / retry / verify — the model
+estimates named probabilities; the controller is a table with memory.
+**Bounded Pi supervisor (Empirical as README policy, 2026-09-18
+~16:48):** [jevons](https://github.com/LilDojd/jevons) — not a second
+agent; Jev interprets evidence; code owns freshness/limits; default
+recovery **shadow**; steering never generates commands
+(`notes.md` §51). Distinguish from pi-jev-approver / pi-jev-context.
+
 **Does not transfer**: Score has no natural units. Normalizing by the top
 level aligns ranges only — not spacing, importance, or cross-concept
 comparability. Weighted sums express a chosen compensating policy; hard

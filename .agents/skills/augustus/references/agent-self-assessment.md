@@ -567,6 +567,102 @@ required min-confidence; fail-closed on error / empty / low
 confidence. [jev-marshal](https://github.com/LightningK0ala/jev-marshal)
 is Watch / empty repo this pass (`notes.md` §51).
 
+  **0042:** displayed p never a proof; distribution >
+  argmax; Noul 0.5 midpoint; score is expectation not
+  integer; schema-valid ≠ calibrated; gulagala001/jevify ≠
+  Mintzs/jevify; 40.3% below constant-answer; FastLoopError
+  catch — do the expensive thing; second signal not sole;
+  0.980 at every N is not universal determinism; 0 model
+  calls at deployment — do not ship VLM+Jev as the
+  runtime; cascade 0.60 matches 78% at 1.8× but
+  confidence-to-accuracy is not monotonic; noul facts not
+  judgements; extractors ≠ decision engines; Laya
+  dict-instructions collapse 58.3%; throughput not
+  intelligence; raw 0.94 is not a release; Jev never
+  generates filenames; no_direct_evidence ≠ safe to merge
+  (`notes.md` §105).
+  **Lease / retrieve:**
+  [invalidate](https://github.com/chopratejas/invalidate) —
+  memory leases ended by new evidence; unsure → review
+  queue; host keeps the store.
+  [jev-recall](https://github.com/samdotmak/jev-recall) —
+  retrieve by relevance not resemblance.
+  **Lint / loop:**
+  [jev-lint](https://github.com/mizchi/jev-lint) — name↔body
+  / comment truth / test-claims; no shipped rule has
+  severity error.
+  [JevPi](https://github.com/direwolfiy/JevPi) — Jev-first
+  Pi agent loop; slow-LLM fallback; 62 tests wiring not
+  quality.
+  Session-ledger cousin:
+  [carryforward](https://github.com/Dharundp6/jev-carryforward) —
+  verbatim JSONL; Jev scores which facts are still live; constraints
+  and corrections always return; fail-open dump if the scorer is
+  down. Nine entries × three tasks is a hint, not proof
+  (`notes.md` §55). Eval: `recall` **0/4** — SessionStart
+  hook > hoping (`notes.md` §68). Do not copy mcp add.
+  Observational-memory sibling:
+  [pi-observational-memory-jev](https://github.com/willfish/pi-observational-memory-jev)
+  — keep/kind verbatim; model-free compact (`notes.md`
+  §68).
+  Pre-send cousin:
+  [jev-lens](https://github.com/dizk/jev-lens) — views
+  before first send; 79% fewer tokens *theirs*
+  (`notes.md` §68).
+  Classify-first cousin:
+  [jev-sift](https://github.com/kbhuw/jev-sift) — batch path/url/text
+  → Jev **before** the main agent reads; uncertain/errors/truncation
+  ≠ irrelevant. Transport tests ≠ accuracy. No LICENSE this pass
+  (`notes.md` §56). Do not copy plugin how-to.
+  Framework-agnostic compact+gate cousin
+  (2026-09-19 ~00:39; was empty skip §61):
+  [jev-compactor](https://github.com/edwardyen724-g/jev-compactor)
+  — Jev judges relevance; code decides structure; never rewrite;
+  regex floor independent of Jev. Compaction fail-open if Jev
+  down; safety fail-closed on pending destructive. OpenCode
+  fail-open port already §62: fast-jev-opencode (`notes.md` §65).
+  Later product-arm bench **73%** / 350 ms / 4 of 4
+  (`notes.md` §68).
+  WHETHER/HOW/WHAT cousin (license null; 2026-09-19
+  ~04:39):
+  [hermes-jev-router](https://github.com/rsdkrasen/hermes-jev-router)
+  — compact original chunks; skip next main-model when
+  evidence is enough (needs core patch); fail-open
+  (`notes.md` §69).
+  Pi summarizer-replacement cousin:
+  [pi-jev-compact](https://github.com/dev-willbird1936/pi-jev-compact)
+  — verbatim keep/drop of paired tool calls; fail-open to
+  LLM summary if <25% saved. **≠**
+  vava-nessa/pi-jev-compaction (`notes.md` §72).
+  Typed baton cousin:
+  [jev-handoff](https://github.com/shitianfang/jev-handoff)
+  — escalate/continue/abort; gate never grants; inverted
+  loop (`notes.md` §69).
+  Advice-only cousin:
+  [jev-decisions](https://github.com/bojansandhaus/jev-decisions)
+  — 25 prepared reviews; **never stop commands**
+  (`notes.md` §69).
+  Adversarial-browser cousin:
+  [browser-jev](https://github.com/DowLucas/browser-jev)
+  — Playwright executes, Jev chooses; sample from the
+  distribution (`notes.md` §69).
+  Decider≠executor cousin:
+  [jeffrey](https://github.com/thomasbrueggemann/jeffrey)
+  — Jev→tool→Jev; LLM fills args; risk≥0.5 pause
+  (`notes.md` §70).
+  Persist-constraints cousin:
+  [pi-heed](https://github.com/Nyarlathoteppppp/pi-heed)
+  — user constraints survive compaction; Jev never
+  writes policy (`notes.md` §70).
+  Plugin no-text cousin (2026-09-19 ~06:43):
+  [jev-use](https://github.com/shitianfang/jev-use)
+  — fail-open PreToolUse gate; Vercel margin fallback
+  (`notes.md` §71).
+  Pi control-plane cousin:
+  [pi-jev-control](https://github.com/goodruizhan/pi-jev-control)
+  — named sensors; GUI unknown never force-click
+  (`notes.md` §71).
+
 ## Using Jev to test and optimize the skill suite itself
 
 - Treat the skill directory as a routing problem: rank all frontmatter

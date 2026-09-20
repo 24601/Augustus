@@ -2064,6 +2064,80 @@
   jev-recall despite attached JSON (quote README demos);
   JevPi GitHub size 0 with contents (same honesty as gut);
   0★ HIGH still got a real card.
+## 2026-09-20T06:42Z — hourly 0042 HIGH (Boise ~00:42 MDT)
+
+- Fresh PR off main after merged #22 (`98ded82` / §104).
+  Never reopen merged #7–**#22**. Do **not** merge from
+  merged **#22** (hourly 2340 / §104). Branch
+  `cursor/hourly-0042-augustus-fold-3529`.
+  Skip Archer rewrite. Quote READMEs. Mark *theirs*.
+  No wrappers / keys / install recipes. Do not dump
+  source / SDK / weights / eval logs.
+  `invented_signal: false`.
+- Twelve HIGH: Arohtea/jev-readout (PRIMARY; **0★**;
+  structured probability readouts); gulagala001/jevify
+  (**0★**; ordinary-model Jev-shape; ≠ Mintzs/jevify);
+  mourad-ghafiri/laya-rlcd-benchmark (**0★**; 40.3% below
+  constant-answer); SupremeDreamZ/jev-fastloop (**0★**;
+  cheap fail-open semantic edge); TheWebDevel/jev-fanout
+  (**0★**; asking more questions in one call);
+  harneet2512/reflexrl (**0★**; VLM+Jev RL teacher);
+  yibie/laya-jev-lab (**0★**; independent Jev API vs Laya);
+  umstek/zero-shot-ie-bench (**0★**; GLiNER vs GLiFormer
+  vs Laya vs Jev); angelgalvisc/snake-arena-jev-vs-llms
+  (**0★**; decisions-per-minute & cost);
+  sathariels/jevcheck (**0★**; behavioral contracts);
+  GaneshVG18/upgrade-radar (**0★**; HEAD `1e91eb03` live
+  rewrite vs prior-agent `d7cfc80c`); lirantal/discoprint
+  (**0★**; discography theme/mood/complexity).
+- Formal methods compose with scoring; a Noul is a SENSOR.
+  Treating displayed p as proof, schema-valid JSON as a
+  calibrated Noul, collapsing gulagala001 into Mintzs,
+  quoting 40.3% without the constant-answer, hard-gating
+  fastloop confidence as safety, treating 0.0000 sd as
+  universal determinism, treating 2.95× as Harbor,
+  hard-gating cascade 0.60, collapsing locate into decide,
+  treating snake points as intelligence, treating jevcheck
+  as a correctness proof, treating `no_direct_evidence` as
+  merge-safe, or treating theme Choice as a music-theory
+  certificate is soundness theater. Hard-gating a soft
+  Noul as safety is the anti-pattern.
+- Pulse (do not invent): Archer still NOT landed. Hub
+  archerhume/4rcherhume HTTP **401**. Tracker likes **56**
+  (flat vs §104 **56**; +1 vs the incoming watch);
+  lastModified **UNCHANGED** `2026-09-20T04:29:16Z`
+  vs §104 / 2340. Laya Hub likes
+  **672**. Blackwood Hub likes **2** gated manual — user
+  census **absent** from tracker. Live REST: SemIf
+  **2047★** (flat vs §104 **2047**); jevlike **1018★**
+  (flat vs §104 **1018**); TypeAR **12★** **flat**.
+  AnotiaWang/awesome-jev **91★** (flat vs §104 **91**) ≠
+  Awesomejev 561/27007. Qwen3.8-27B ≠ Archer. X MCP not
+  used; no invented tweets.
+- Cards: SKILL.md, mixed-architecture fail table +
+  gallery, faq, mental-models Apply 0042, judgment-class,
+  validation, applied-mappings, mappings, toolbox,
+  composition-algebra items 149–160, question-design,
+  methods-catalog, formal-methods, agent-self-assessment,
+  ecosystem, CHANGELOG, README.
+- notes.md §105; sources.json; findings.md batch #88.
+  No wrapper. Do **not** merge from this review.
+- Adversarial review honesty locks: GitHub size 0 with
+  contents (jev-readout / gulagala001/jevify /
+  laya-rlcd-benchmark / jev-fastloop / jev-fanout /
+  reflexrl / laya-jev-lab / upgrade-radar / discoprint);
+  zero-shot-ie-bench size **33**; snake-arena size **194**;
+  jevcheck size **117**; license null (Arohtea README MIT;
+  mourad); gulagala001 SPDX MIT this pass; upgrade-radar
+  HEAD `d7cfc80c`→`1e91eb03` / README `d1094805`→`b7603c01`;
+  0★ HIGH still got a real card (all twelve **0★**).
+  Name locks: gulagala001/jevify ≠ Mintzs/jevify;
+  mourad ≠ yibie/laya-jev-lab; jev-fastloop ≠ jev-ultrafast;
+  reflexrl ≠ khordoo; yibie/laya-jev-lab ≠ dairui1 ≠
+  BrendanH18; snake-arena ≠ jev-plays-games; jevcheck ≠
+  jevals ≠ SivletLabs/jev-eval; upgrade-radar ≠
+  paper-radar-jev.
+
 ## 2026-09-20T06:42Z — hourly 2340 independent adversarial relock after `babb111` (PR #22)
 
 - Independent review of `babb111` (prior PASS claimed live REST).

@@ -1222,3 +1222,97 @@ re-fold 2246 items 129–137 / 2145 items 120–128 / 2041
 items 111–119 / 1943 items 102–110 / 1843 items 97–101 /
 1740 items 94–96 / SIGNAL §93 mechanism / §60 six-gates.
 Soft Noul ≠ hard safety.
+
+structured probability readouts; distribution > argmax; Noul 0.5 midpoint; score is expectation not integer; bare HTTP not SDK; Arohtea/jev-readout; Jev-style Choice/Score/Noul from ordinary models; optional DSH plugin; schema-valid ≠ calibrated; gulagala001/jevify ≠ Mintzs/jevify; Laya RLCD benchmark; 40.3% below constant-answer; open-weight measurement; mourad-ghafiri/laya-rlcd-benchmark ≠ yibie/laya-jev-lab; cheap fail-open semantic edge; second signal not sole; FastLoopError catch; SupremeDreamZ/jev-fastloop ≠ jev-ultrafast; asking more questions in one call; 0.980 at every N; nearly not fully deterministic; TheWebDevel/jev-fanout; Qwen3-VL perception + Jev decisions train RL; 0 model calls at deployment; VLM alone 1.7 vs +Jev 4.4; harneet2512/reflexrl ≠ khordoo/jev-reflex-autonomy-lab; independent Jev API vs Laya; cascade 0.60 matches 78% at 1.8×; noul facts not judgements; yibie/laya-jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab; GLiNER vs GLiFormer vs Laya vs Jev; extractors ≠ decision engines; Laya dict-instructions collapse 58.3%; umstek/zero-shot-ie-bench; decisions-per-minute & cost; 204 moves vs 73; throughput not intelligence; angelgalvisc/snake-arena-jev-vs-llms ≠ vtrivedy/jev-plays-games; behavioral contracts; pin expectations eval upgrades; raw 0.94 is not a release; sathariels/jevcheck ≠ dayhaysoos/jevals ≠ SivletLabs/jev-eval; evidence-linked dependency upgrade; Jev never generates filenames; no_direct_evidence ≠ safe to merge; GaneshVG18/upgrade-radar ≠ LYchoon/paper-radar-jev; discography theme/mood/complexity; five atomic questions one call; lirantal/discoprint
+
+149. **Structured probability readouts** (Arohtea/jev-readout; PRIMARY):
+     position 8 (Metric) as the displayed distribution, not the argmax.
+     structured probability readouts.
+     distribution > argmax.
+     Noul 0.5 midpoint.
+     score is expectation not integer.
+     bare HTTP not SDK.
+     Full cards: `mental-models.md`, `faq.md`.
+150. **Ordinary-model Jev-shape** (gulagala001/jevify):
+     position 1 (Operand) as adapter, not a replica.
+     Jev-style Choice/Score/Noul from ordinary models.
+     optional DSH plugin.
+     schema-valid ≠ calibrated.
+     gulagala001/jevify ≠ Mintzs/jevify.
+     Full cards: `judgment-class.md`, `faq.md`.
+151. **Open-weight Laya measurement** (mourad-ghafiri/laya-rlcd-benchmark):
+     position 8 (Metric) vs a constant-answer baseline.
+     Laya RLCD benchmark.
+     40.3% below constant-answer.
+     open-weight measurement.
+     mourad-ghafiri/laya-rlcd-benchmark ≠ yibie/laya-jev-lab.
+     Full cards: `validation.md`, `faq.md`.
+152. **Cheap fail-open semantic edge** (SupremeDreamZ/jev-fastloop):
+     positions 4 (Selector of F) × 3 (Gate, fail-open).
+     cheap fail-open semantic edge.
+     second signal not sole.
+     FastLoopError catch.
+     SupremeDreamZ/jev-fastloop ≠ jev-ultrafast.
+     Full cards: `mixed-architecture.md`, `faq.md`.
+153. **Fan-out measurement** (TheWebDevel/jev-fanout):
+     position 8 (Metric) on packed parallel questions.
+     asking more questions in one call.
+     0.980 at every N.
+     nearly not fully deterministic.
+     TheWebDevel/jev-fanout.
+     Full cards: `question-design.md`, `faq.md`.
+154. **VLM+Jev RL teacher** (harneet2512/reflexrl):
+     positions 6 (Advisor of F) × 10 (Teacher, then steps aside).
+     Qwen3-VL perception + Jev decisions train RL.
+     0 model calls at deployment.
+     VLM alone 1.7 vs +Jev 4.4.
+     harneet2512/reflexrl ≠ khordoo/jev-reflex-autonomy-lab.
+     Full cards: `mixed-architecture.md`, `faq.md`.
+155. **Independent Jev API vs Laya** (yibie/laya-jev-lab):
+     positions 4 (Selector) × 8 (Metric) as local-first cascade.
+     independent Jev API vs Laya.
+     cascade 0.60 matches 78% at 1.8×.
+     noul facts not judgements.
+     yibie/laya-jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab.
+     Full cards: `validation.md`, `faq.md`.
+156. **Locate vs decide** (umstek/zero-shot-ie-bench):
+     position 1 (Operand) as species map, not a bake-off win.
+     GLiNER vs GLiFormer vs Laya vs Jev.
+     extractors ≠ decision engines.
+     Laya dict-instructions collapse 58.3%.
+     umstek/zero-shot-ie-bench.
+     Full cards: `judgment-class.md`, `faq.md`.
+157. **Throughput arena** (angelgalvisc/snake-arena-jev-vs-llms):
+     position 8 (Metric) as decisions-per-minute, not intelligence.
+     decisions-per-minute & cost.
+     204 moves vs 73.
+     throughput not intelligence.
+     angelgalvisc/snake-arena-jev-vs-llms ≠ vtrivedy/jev-plays-games.
+     Full cards: `validation.md`, `faq.md`.
+158. **Behavioral contracts** (sathariels/jevcheck):
+     position 9 (Verifier) as pin-then-eval.
+     behavioral contracts.
+     pin expectations eval upgrades.
+     raw 0.94 is not a release.
+     sathariels/jevcheck ≠ dayhaysoos/jevals ≠ SivletLabs/jev-eval.
+     Full cards: `validation.md`, `faq.md`.
+159. **Evidence-linked upgrade review** (GaneshVG18/upgrade-radar):
+     positions 2 (exact spans) × 9 (Verifier); Jev remainder only.
+     evidence-linked dependency upgrade.
+     Jev never generates filenames.
+     no_direct_evidence ≠ safe to merge.
+     GaneshVG18/upgrade-radar ≠ LYchoon/paper-radar-jev.
+     Full cards: `applied-mappings.md`, `faq.md`.
+160. **Knowledge-work discography** (lirantal/discoprint):
+     position 4 (Selector of F) as theme/mood/complexity.
+     discography theme/mood/complexity.
+     five atomic questions one call.
+     lirantal/discoprint.
+     Full cards: `applied-mappings.md`, `faq.md`.
+
+Hourly 0042 items 149–160 (`notes.md` §105). Do **not**
+re-fold 2340 items 138–148 / 2246 items 129–137 / 2145
+items 120–128 / 2041 items 111–119 / 1943 items 102–110 /
+1843 items 97–101 / 1740 items 94–96 / SIGNAL §93
+mechanism. Do **not** merge from merged **#22**.
+Soft Noul ≠ hard safety.

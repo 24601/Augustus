@@ -3973,6 +3973,78 @@
       "title": "olanotolu/jevbetter",
       "url": "https://github.com/olanotolu/jevbetter",
       "note": "Python MIT; 12\u2605; HEAD bb0ebc82; README SHA 5cbe01d4; LICENSE SHA 0959fa02; size 324. hashed n-gram encoder / rival-aware attention. olanotolu/jevbetter vs jevlike starter. synthetic hard menus top-1 0.916 vs 0.873 / ECE 0.0182 vs 0.0367 / 40 vs 4608 menus/sec. shuffled-context control 0.335. notes.md \u00a7104."
+    },
+    {
+      "kind": "github",
+      "title": "Arohtea/jev-readout",
+      "url": "https://github.com/Arohtea/jev-readout",
+      "note": "PRIMARY Augustus hourly 0042. JavaScript; GitHub license null (README MIT); 0\u2605; HEAD 03734993; README SHA 76a99fe5; GitHub size 0 with contents. structured probability readouts. distribution > argmax. Noul 0.5 midpoint. score is expectation not integer. bare HTTP not SDK. notes.md \u00a7105."
+    },
+    {
+      "kind": "github",
+      "title": "gulagala001/jevify",
+      "url": "https://github.com/gulagala001/jevify",
+      "note": "JavaScript MIT; 0\u2605; HEAD 3d3e904a; README SHA 0e2f8536; LICENSE SHA 66869720; GitHub size 0 with contents. Jev-style Choice/Score/Noul from ordinary models. optional DSH plugin. schema-valid \u2260 calibrated. gulagala001/jevify \u2260 Mintzs/jevify. notes.md \u00a7105."
+    },
+    {
+      "kind": "github",
+      "title": "mourad-ghafiri/laya-rlcd-benchmark",
+      "url": "https://github.com/mourad-ghafiri/laya-rlcd-benchmark",
+      "note": "Python; GitHub license null; 0\u2605; HEAD 3401ff26; README SHA d8d4859e; GitHub size 0 with contents. Laya RLCD benchmark. 40.3% below constant-answer. open-weight measurement. mourad-ghafiri/laya-rlcd-benchmark \u2260 yibie/laya-jev-lab. notes.md \u00a7105."
+    },
+    {
+      "kind": "github",
+      "title": "SupremeDreamZ/jev-fastloop",
+      "url": "https://github.com/SupremeDreamZ/jev-fastloop",
+      "note": "Python MIT; 0\u2605; HEAD 1157841a; README SHA 053a0885; LICENSE SHA d14dfce2; GitHub size 0 with contents. cheap fail-open semantic edge. second signal not sole. FastLoopError catch. SupremeDreamZ/jev-fastloop \u2260 jev-ultrafast. notes.md \u00a7105."
+    },
+    {
+      "kind": "github",
+      "title": "TheWebDevel/jev-fanout",
+      "url": "https://github.com/TheWebDevel/jev-fanout",
+      "note": "Python MIT; 0\u2605; HEAD b30aaadc; README SHA 394b2e1e; LICENSE SHA b20a0007; GitHub size 0 with contents. asking more questions in one call. 0.980 at every N. nearly not fully deterministic. TheWebDevel/jev-fanout. notes.md \u00a7105."
+    },
+    {
+      "kind": "github",
+      "title": "harneet2512/reflexrl",
+      "url": "https://github.com/harneet2512/reflexrl",
+      "note": "Python MIT; 0\u2605; HEAD aa36be84; README SHA e6ff13cd; LICENSE SHA 0fb588bd; GitHub size 0 with contents; default master. Qwen3-VL perception + Jev decisions train RL. 0 model calls at deployment. VLM alone 1.7 vs +Jev 4.4. harneet2512/reflexrl \u2260 khordoo/jev-reflex-autonomy-lab. notes.md \u00a7105."
+    },
+    {
+      "kind": "github",
+      "title": "yibie/laya-jev-lab",
+      "url": "https://github.com/yibie/laya-jev-lab",
+      "note": "Python MIT; 0\u2605; HEAD 30ba64dc; README SHA 57bd1832; LICENSE SHA fd19e322; GitHub size 0 with contents. independent Jev API vs Laya. cascade 0.60 matches 78% at 1.8\u00d7. noul facts not judgements. yibie/laya-jev-lab \u2260 dairui1/jev-lab \u2260 BrendanH18/jev-lab. notes.md \u00a7105."
+    },
+    {
+      "kind": "github",
+      "title": "umstek/zero-shot-ie-bench",
+      "url": "https://github.com/umstek/zero-shot-ie-bench",
+      "note": "Python MIT; 0\u2605; HEAD 8770b16b; README SHA d69dc96a; LICENSE SHA 4396160e; GitHub size 33. GLiNER vs GLiFormer vs Laya vs Jev. extractors \u2260 decision engines. Laya dict-instructions collapse 58.3%. umstek/zero-shot-ie-bench. notes.md \u00a7105."
+    },
+    {
+      "kind": "github",
+      "title": "angelgalvisc/snake-arena-jev-vs-llms",
+      "url": "https://github.com/angelgalvisc/snake-arena-jev-vs-llms",
+      "note": "Python MIT; 0\u2605; HEAD 985a1c70; README SHA 0db6f528; LICENSE SHA 01bacbf4; GitHub size 194. decisions-per-minute & cost. 204 moves vs 73. throughput not intelligence. angelgalvisc/snake-arena-jev-vs-llms \u2260 vtrivedy/jev-plays-games. notes.md \u00a7105."
+    },
+    {
+      "kind": "github",
+      "title": "sathariels/jevcheck",
+      "url": "https://github.com/sathariels/jevcheck",
+      "note": "Python MIT; 0\u2605; HEAD fc49c795; README SHA 5c832f81; LICENSE SHA 877820f8; GitHub size 117. behavioral contracts. pin expectations eval upgrades. raw 0.94 is not a release. sathariels/jevcheck \u2260 dayhaysoos/jevals \u2260 SivletLabs/jev-eval. notes.md \u00a7105."
+    },
+    {
+      "kind": "github",
+      "title": "GaneshVG18/upgrade-radar",
+      "url": "https://github.com/GaneshVG18/upgrade-radar",
+      "note": "TypeScript MIT; 0\u2605; HEAD 1e91eb03; README SHA b7603c01; LICENSE SHA 588680c5; GitHub size 0 with contents. evidence-linked dependency upgrade. Jev never generates filenames. no_direct_evidence \u2260 safe to merge. Live rewrite vs prior-agent pin d7cfc80c. GaneshVG18/upgrade-radar \u2260 LYchoon/paper-radar-jev. notes.md \u00a7105."
+    },
+    {
+      "kind": "github",
+      "title": "lirantal/discoprint",
+      "url": "https://github.com/lirantal/discoprint",
+      "note": "TypeScript Apache-2.0; 0\u2605; HEAD c2a3d47e; README SHA 392efd29; LICENSE SHA 3c011d11; GitHub size 0 with contents. discography theme/mood/complexity. five atomic questions one call. lirantal/discoprint. notes.md \u00a7105."
     }
   ]
 }

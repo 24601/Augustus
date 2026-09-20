@@ -3101,3 +3101,57 @@ No and no (opposite of option isolation). hashed n-gram encoder / rival-aware at
 ## Did Archer land this hour? Treat Qwen3.8-27B as Archer? Invent tweets?
 
 No, no, and no. Hub `archerhume/4rcherhume` HTTP **401** (not re-fetched as a rewrite). Tracker `multimodalart/jev-reproductions-tracker` likes **56**; lastModified `2026-09-20T04:29:16.000Z`. `Tonic/4rcher-tracker` HTTP **401**. Live REST pulse: SemIf **2047★** (+28 vs §103 **2019**); jevlike **1018★** (+12 vs §103 **1006**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **91★** (+4 vs §103 **87**) ≠ Awesomejev 561/27007 ≠ logicrw/awesome-jev-projects **136★**. Qwen/Qwen3.8-27B HTTP **200** likes **15787** lastModified `2026-08-14T15:00:01.000Z` — ≠ Archer. `invented_signal: false`. `notes.md` §104.
+
+structured probability readouts; distribution > argmax; Noul 0.5 midpoint; score is expectation not integer; bare HTTP not SDK; Arohtea/jev-readout; Jev-style Choice/Score/Noul from ordinary models; optional DSH plugin; schema-valid ≠ calibrated; gulagala001/jevify ≠ Mintzs/jevify; Laya RLCD benchmark; 40.3% below constant-answer; open-weight measurement; mourad-ghafiri/laya-rlcd-benchmark ≠ yibie/laya-jev-lab; cheap fail-open semantic edge; second signal not sole; FastLoopError catch; SupremeDreamZ/jev-fastloop ≠ jev-ultrafast; asking more questions in one call; 0.980 at every N; nearly not fully deterministic; TheWebDevel/jev-fanout; Qwen3-VL perception + Jev decisions train RL; 0 model calls at deployment; VLM alone 1.7 vs +Jev 4.4; harneet2512/reflexrl ≠ khordoo/jev-reflex-autonomy-lab; independent Jev API vs Laya; cascade 0.60 matches 78% at 1.8×; noul facts not judgements; yibie/laya-jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab; GLiNER vs GLiFormer vs Laya vs Jev; extractors ≠ decision engines; Laya dict-instructions collapse 58.3%; umstek/zero-shot-ie-bench; decisions-per-minute & cost; 204 moves vs 73; throughput not intelligence; angelgalvisc/snake-arena-jev-vs-llms ≠ vtrivedy/jev-plays-games; behavioral contracts; pin expectations eval upgrades; raw 0.94 is not a release; sathariels/jevcheck ≠ dayhaysoos/jevals ≠ SivletLabs/jev-eval; evidence-linked dependency upgrade; Jev never generates filenames; no_direct_evidence ≠ safe to merge; GaneshVG18/upgrade-radar ≠ LYchoon/paper-radar-jev; discography theme/mood/complexity; five atomic questions one call; lirantal/discoprint
+
+## Is jev-readout an SDK tutorial? Treat displayed p as proof? Round Score to an integer?
+
+No, no, and no. structured probability readouts. distribution > argmax. Noul 0.5 midpoint. score is expectation not integer. bare HTTP not SDK. CORS so the key stays server-side. JavaScript; license **null** (README MIT); **0★**; HEAD `03734993`; README SHA `76a99fe5`; GitHub size **0** with contents. Arohtea/jev-readout. Soft Noul ≠ hard safety. `notes.md` §105.
+
+## Is gulagala001/jevify Mintzs/jevify? Is schema-valid JSON a calibrated Noul? Are questions independent parallel?
+
+No, no, and no. Jev-style Choice/Score/Noul from ordinary models. optional DSH plugin. schema-valid ≠ calibrated. Questions merged into one ordinary-model call. Confidence from the TypeSafe ordinary-model adapter, not P(correct), not bit-identical to Jev. JavaScript MIT; **0★**; HEAD `3d3e904a`; README SHA `0e2f8536`; LICENSE SHA `66869720`; GitHub size **0** with contents. gulagala001/jevify ≠ Mintzs/jevify. `notes.md` §105.
+
+## Is 40.3% a class ceiling? Collapse mourad into yibie/laya-jev-lab? Skip the constant-answer baseline?
+
+No, no, and no. Laya RLCD benchmark. 40.3% below constant-answer (12.8 points below a constant answer that reads no text). open-weight measurement. Routing/choice +10; booleans −26; ordinals −15. README title `laya-decision-bench`. Python; license **null**; **0★**; HEAD `3401ff26`; README SHA `d8d4859e`; GitHub size **0** with contents. mourad-ghafiri/laya-rlcd-benchmark ≠ yibie/laya-jev-lab ≠ pngwn/open-jev-laya-bench. `notes.md` §105.
+
+## Is jev-fastloop jev-ultrafast? Hard-gate fused confidence as safety? Is Jev the only signal?
+
+No, no, and no. cheap fail-open semantic edge. second signal not sole. FastLoopError catch (do the expensive thing). 4/5, 8/8, 2.00→0.18 fused *theirs* on jev-1.13-free $0. Python MIT; **0★**; HEAD `1157841a`; README SHA `053a0885`; GitHub size **0** with contents. SupremeDreamZ/jev-fastloop ≠ jev-ultrafast. `notes.md` §105.
+
+## Does asking more questions in one call change answers? Is 0.0000 sd universal determinism? Extrapolate to Score?
+
+Question count did not move the refund probe (0.980 at every N); no, and no. asking more questions in one call. nearly not fully deterministic (22 of 24 identical across 40 calls; two moved at conf 0.107/0.312). Two documents, one afternoon; Score untested. Python MIT; **0★**; HEAD `b30aaadc`; README SHA `394b2e1e`; GitHub size **0** with contents. TheWebDevel/jev-fanout. `notes.md` §105.
+
+## Is reflexrl khordoo? Ship VLM+Jev as the runtime? Quote 2.95× as Harbor?
+
+No, no, and no. Qwen3-VL perception + Jev decisions train RL. 0 model calls at deployment. VLM alone 1.7 vs +Jev 4.4. Pixels-only 0.75M policy; teacher influence anneals. Python MIT; **0★**; HEAD `aa36be84`; README SHA `e6ff13cd`; GitHub size **0** with contents; default **master**. harneet2512/reflexrl ≠ khordoo/jev-reflex-autonomy-lab. `notes.md` §105.
+
+## Is yibie/laya-jev-lab dairui1 or BrendanH18? Hard-gate cascade 0.60? Cite “choice is order-biased”?
+
+No, no, and no. independent Jev API vs Laya. cascade 0.60 matches 78% at 1.8× (45% local). noul facts not judgements. Retracted: “choice order-biased” (n=4) and “Laya confidence trustworthy above 0.7”. Confidence-to-accuracy not monotonic past 0.70. Python MIT; **0★**; HEAD `30ba64dc`; README SHA `57bd1832`; GitHub size **0** with contents. yibie/laya-jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab. `notes.md` §105.
+
+## Are GLiNER/GLiFormer decision engines? Quote 100% sentiment as a class win? Collapse locate into decide?
+
+No, no, and no. GLiNER vs GLiFormer vs Laya vs Jev. extractors ≠ decision engines. Laya dict-instructions collapse 58.3% (strings 95.8%). Easy sentiment set. NER F1 GLiFormer-base 1.00 *theirs*. Python MIT; **0★**; HEAD `8770b16b`; README SHA `d69dc96a`; size **33**. umstek/zero-shot-ie-bench. `notes.md` §105.
+
+## Is 21 snake points intelligence? Collapse into jev-plays-games? Ignore 36% of moves <0.90?
+
+No, no, and no. decisions-per-minute & cost. 204 moves vs 73. throughput not intelligence. One seed, one run. 45 output tokens sd 0.00. Python MIT; **0★**; HEAD `985a1c70`; README SHA `0db6f528`; size **194**. angelgalvisc/snake-arena-jev-vs-llms ≠ vtrivedy/jev-plays-games ≠ lewislululu/jevon. `notes.md` §105.
+
+## Is jevcheck jevals or SivletLabs/jev-eval? Is raw 0.94 a release? Is `jev-1.14` a verified live ID?
+
+No, no, and no. behavioral contracts. pin expectations eval upgrades. raw 0.94 is not a release. `jev-1.13`/`jev-1.14` are unverified example pin labels; documented pin `jev-1.13.0`. Gate helper optional, not the product. Python MIT; **0★**; HEAD `fc49c795`; README SHA `5c832f81`; size **117**. sathariels/jevcheck ≠ dayhaysoos/jevals ≠ SivletLabs/jev-eval. `notes.md` §105.
+
+## Is `no_direct_evidence` safe to merge? Does Jev generate filenames? Is the screenshot live Jev? Collapse into paper-radar?
+
+No, no, no, and no. evidence-linked dependency upgrade. Jev never generates filenames. no_direct_evidence ≠ safe to merge. ILLUSTRATIVE FIXTURE is not live Jev. Exit 0 advisory. TypeScript MIT; **0★**; HEAD `1e91eb03`; README SHA `b7603c01`; GitHub size **0** with contents. GaneshVG18/upgrade-radar ≠ LYchoon/paper-radar-jev. `notes.md` §105.
+
+## Is theme Choice a music-theory certificate? Copy npx/.env as a skill?
+
+No and no. discography theme/mood/complexity. five atomic questions one call. Code owns MusicBrainz/lrclib; Jev scores lyrics. TypeScript Apache-2.0; **0★**; HEAD `c2a3d47e`; README SHA `392efd29`; GitHub size **0** with contents. lirantal/discoprint. Do not copy `npx` / keys. `notes.md` §105.
+
+## Did Archer land this hour? Treat Qwen3.8-27B as Archer? Invent tweets?
+
+No, no, and no. Hub `archerhume/4rcherhume` HTTP **401**. Tracker likes **56** (flat vs §104 **56**); lastModified `2026-09-20T04:29:16Z` **UNCHANGED** vs §104. Laya Hub HTTP **200** likes **672**. Blackwood Hub HTTP **200** likes **2** gated manual — user census **absent** from the tracker; do not rewrite as landed. Live REST pulse: SemIf **2047★** (flat vs §104 **2047**); jevlike **1018★** (flat vs §104 **1018**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **91★** (flat vs §104 **91**) ≠ Awesomejev 561/27007. Qwen3.8-27B ≠ Archer. `invented_signal: false`. `notes.md` §105.
