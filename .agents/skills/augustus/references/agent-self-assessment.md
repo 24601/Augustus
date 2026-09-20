@@ -332,6 +332,15 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   is a sensor. hard-gating DGP as safety theater.
   numerous-com/dgp ≠ TypeSafe official
   (`notes.md` §98).
+  **Cost-derived / typed-callback overlays:**
+  [gut](https://github.com/Kungie/gut) —
+  YES / NO / UNSURE from costs; default
+  `on_unsure="raise"` is app policy, not a
+  System One hard gate; auto-batching
+  same-object questions.
+  [judge](https://github.com/Illusion47586/judge)
+  — exactly one app-owned callback; explicit
+  uncertain branch (`notes.md` §99).
   Session-ledger cousin:
   [carryforward](https://github.com/Dharundp6/jev-carryforward) —
   verbatim JSONL; Jev scores which facts are still live; constraints
@@ -429,7 +438,14 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   [dgp](https://github.com/numerous-com/dgp)
   Decision Graph Protocol frame→assess→commit;
   app retains permissions/effects; hard-gating DGP
-  as safety theater (`notes.md` §98). Tool *execution* is the
+  as safety theater (`notes.md` §98). Cost-derived
+  overlay: default UNSURE raises so the middle band
+  is refusal, not a silent `False`
+  ([gut](https://github.com/Kungie/gut)); typed
+  callback: invalid provider output runs **no**
+  callback
+  ([judge](https://github.com/Illusion47586/judge);
+  `notes.md` §99). Tool *execution* is the
   other polarity: [toolgate](https://github.com/fdemir/toolgate)
   stops on block / review-without-approval / guard error
   (`notes.md` §55). Capability kernel

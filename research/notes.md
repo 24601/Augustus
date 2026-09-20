@@ -17458,3 +17458,794 @@ items 94–96; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
+
+## 99. Hourly 1843 HIGH (2026-09-19 ~18:43 Boise / 2026-09-20T00:43:33Z)
+
+Docs-only on a **fresh PR off main**
+(`cursor/hourly-1843-gut-judge-von-7e93`).
+**Never reopen merged** Augustus PR #7 / **#8** /
+**#9** / **#10** / **#12** / **#13** / **#14** /
+**#15** / **#16**. After merged #16 (`ccf100b`,
+hourly 1740 / `notes.md` §98). Do **not** re-fold
+§93 / §94 / §95 / §96 / §97 / §98. Quote READMEs.
+Mark *theirs*. No invented metrics. Hunches labeled.
+No wrappers, `pip install` / `npm install` /
+`TYPESAFE_API_KEY` / `uv run` / `bash scripts/` /
+Hub download / Git LFS as recipes. 0★ HIGH still
+gets a real card. Do **not** dump full source / SDK
+/ model weights / training corpora. `invented_signal:
+false`. Prior fold agent
+`bc-37d98185-7b64-5345-8327-1414294cc9aa` is
+**finished**; do **not** reply to that agent or
+push onto its branch.
+
+Lane is Augustus: **mental models / architecture /
+Harbor-jevals / toolbelt**. Backend-agnostic
+categorization/scoring/decision class (Jev-like
+speed/econ), **not** a thin Jev-only dump. Design
+judgment, formal/semi-formal methods, decision
+theory, scoring class. Soft Noul ≠ hard safety.
+**gut / judge are control-flow / decision-theory
+overlays, not new class-table species.** jev-forge
+is a **class-architecture note** (variable-N option
+scoring as the trainable object), not a sixth
+species. llm-vs-jev is a **cross-note**; deeper
+integrity fold is rh-guard. Augustus **owns
+placement**. Quote live REST/stars over watch
+claims.
+
+Unique consecutive fragments (this hour):
+cost-sensitive decision theory × System One probabilities → control flow;
+thresholds derived from costs not hard-coded;
+YES / NO / UNSURE from cost_false_yes / cost_false_no / cost_human;
+auto-batching same-object questions;
+Kungie/gut ≠ tpellet/hunch ≠ carldaws/hunch;
+judgment vs generation;
+deterministic execution after probabilistic judgment;
+exactly one app-owned callback;
+explicit uncertain branch;
+Illusion47586/judge ≠ lexingtonhibiki/judgekit ≠ Ascurse/typed-judge-kit;
+variable-N option scoring as the trainable object;
+dynamic candidate bags not fixed label sets;
+zwliJay/jev-forge ≠ NanoJev;
+open replica economics / latency vs closed Jev;
+NAR local drop-in;
+wfzyx/von late-catch HIGH;
+competing NAR claims / replica honesty;
+typed judgments vs chat judges on guardrailing;
+ishaannk/llm-vs-jev cross-note only;
+deeper integrity fold is rh-guard;
+nothing wins outright;
+can be argued out of guarding.
+
+### How-to-apply (five HIGH clusters)
+
+1. **Cost-derived YES/NO/UNSURE as control flow**
+   (PRIMARY Augustus) — write the costs of false
+   yes / false no / asking a human; derive the
+   act from expected loss over a System One
+   probability. Thresholds are *policy*, not a
+   magic 0.7. Abstention is a first-class branch.
+   Auto-batch questions about the same object.
+   Overlay on EU / Chow / Elkan already in this
+   file; not a new species. Transfers to AI,
+   SWE, business, knowledge work, and life.
+2. **Typed-callback twin** — a model judges
+   structured context; runtime validates; code
+   runs **exactly one** application-owned
+   callback, including an explicit `uncertain`
+   branch. Judgment vs generation. Deterministic
+   execution after probabilistic judgment.
+   Provider-neutral core; Jev default.
+3. **Variable-N option scoring as the trainable
+   object** — dynamic candidate bags (page
+   elements, tools, routes), not a fixed label
+   ontology. Shared prefix + per-candidate
+   scalar head; softmax over that question's K.
+   Class-architecture note on the **decide**
+   family. Do not clone weights or training
+   corpora. Not a new class-table species.
+4. **Open NAR replica economics / latency**
+   (late-catch of the same repo) — local
+   non-autoregressive drop-in vs closed hosted
+   Jev. Wire shape ≠ Noul. Competing NAR claims.
+   Replica honesty. Do not dump model weights.
+5. **Typed vs chat judges on guardrailing**
+   (cross-note) — one spec, one policy, several
+   perception backends. When typed judgments
+   beat chat judges on cost / latency /
+   calibration; Pareto "nothing wins outright."
+   Deeper integrity (steerability / hostile
+   state) is rh-guard.
+
+### Cards
+
+1. **Judgment as a programming primitive
+   (PRIMARY)**
+
+   - **[`Kungie/gut`](https://github.com/Kungie/gut)**
+     (GitHub Apache-2.0 / LICENSE MIT /
+     pyproject Apache-2.0 *theirs*; **0★** live REST; 0 forks;
+     created 2026-09-20T00:27:05Z; pushed
+     2026-09-20T00:50:20Z; updated
+     2026-09-20T00:50:24Z; HEAD `cb56c875`;
+     README SHA `630474f6`; GitHub `size` **0**
+     this pass — contents present; language
+     Python; topics empty). GitHub description
+     *theirs*: "Judgment as a programming
+     primitive: YES / NO / UNSURE decisions
+     with explicit cost of error, on top of
+     TypeSafe AI's Jev." pyproject `0.0.1`;
+     `gut[jev]` optional extra. README *theirs*:
+     "**Status: pre-alpha, under construction.**
+     The API below is the target design."
+     Implementation order in
+     [DECISIONS.md](https://github.com/Kungie/gut/blob/cb56c875830cd9a4fbdece1cad9297929e8e8d6a/DECISIONS.md)
+     *theirs*: decision rule → Decision types →
+     FakeBackend → likely/classify/rate → …
+     Commits this pass cover the cost rule,
+     outcomes, Decision types, FakeBackend
+     (order 1–3 of 11). Do **not** treat the
+     README examples as a shipped product
+     bake-off. Do not dump `src/`.
+
+     Load-bearing design (README *theirs*):
+
+     ```text
+     expected cost of saying YES     = (1-p) · cost_false_yes
+     expected cost of saying NO      =     p  · cost_false_no
+     expected cost of asking a human =        cost_human
+     pick the cheapest of the three
+     ties prefer UNSURE, then NO
+     ```
+
+     With no human (`cost_human=None`):
+     `YES ⟺ p > cost_false_yes / (cost_false_yes
+     + cost_false_no)`. Worked example *theirs*:
+     `cost_false_yes=2, cost_false_no=50` →
+     `2/52 ≈ 0.038`. "You would not have guessed
+     `0.038`." Escape hatches `threshold=` /
+     `unsure_band=(lo, hi)` exist; costs are the
+     documented default. Given nothing: symmetric
+     costs, `p > 0.5`. Default `on_unsure="raise"`
+     so an unhandled UNSURE does not silently
+     become `False`. That default is **application
+     policy** (Python truthiness / exception), **not**
+     a System One hard gate. The Noul stays a SENSOR;
+     `raise` / ASK / fail-open is code. Auto-batching: `@semantic`
+     / `gut.judge(subject)` collapses same-object
+     questions into one backend call. "gut stays
+     model-agnostic: Jev is the first backend,
+     not the only possible one." Honest
+     limitations *theirs*: Jev is literal / weak
+     at counting; irrelevant state hurts;
+     untrusted input; "**Calibrated** is the
+     model's claim, not a guarantee for *your*
+     data"; pin versions. DECISIONS D3 *theirs*:
+     `confidence` on Choice/Score is a **spread
+     filter**, not P(correct); the cost rule for
+     `likely` runs on Noul, which *is* a
+     probability of yes; never synthesize
+     `P(no)` from a separately asked negation.
+
+     cost-sensitive decision theory × System One
+     probabilities → control flow.
+     thresholds derived from costs not hard-coded.
+     YES / NO / UNSURE from cost_false_yes /
+     cost_false_no / cost_human.
+     auto-batching same-object questions.
+
+     **Placement.** EU / Chow reject option /
+     Elkan cost-sensitive threshold as a
+     *programming primitive*. Pillar: decision
+     theory + selective classification. Hole:
+     gate / abstain / gather (human is VOI).
+     Family: TypeSafe Jev Noul/Choice/Score
+     first; backend-agnostic overlay. Fail
+     polarity: **per action** (same Noul can
+     clear a reversible reply and must not
+     clear an irreversible send). Eval path:
+     example YAML + record/replay *theirs*;
+     **no published Harbor**. **Empirical** as
+     README + DECISIONS target design.
+     **Hypothesis** that the cost table
+     transfers to *your* tickets / emails /
+     filings. Cross-domain (Hypothesis until
+     you log outcomes): SWE (is this hunk a
+     regression?); business (churn threat);
+     knowledge work (is this paper on-question?);
+     life (does this email need a reply today?);
+     AI harness (did this step fail silently?).
+     Compose with formal methods: the cost
+     table is policy; the Noul is a SENSOR.
+     Hard-gating 0.038 as a safety proof is
+     theater — the number is only as good as
+     calibration on *your* labels.
+
+     **Name lock:** always write **Kungie/gut**.
+     Kungie/gut ≠ tpellet/hunch ≠ carldaws/hunch.
+     **≠** feelings `.feels()` **≠** probably-lang
+     **≠** Illusion47586/judge (twin on the
+     typed-callback axis, different cost rule)
+     **≠** judgekit YAML **≠** typed-judge-kit.
+     Soft Noul ≠ hard safety: 0.038 / 0.5 /
+     `min_confidence` / example `min_accuracy
+     0.9` are **sensors**. Default
+     `on_unsure="raise"` is **application
+     policy**, not a System One hard gate.
+     Do not copy
+     `pip install` / `TYPESAFE_API_KEY`.
+
+2. **Typed callback / control-flow twin**
+
+   - **[`Illusion47586/judge`](https://github.com/Illusion47586/judge)**
+     (TypeScript MIT; **0★** live REST; 0 forks;
+     created 2026-09-19T11:07:57Z; pushed
+     2026-09-19T19:11:01Z; updated
+     2026-09-19T20:54:19Z; HEAD `e69f65a1`;
+     README SHA `08554c6f`; GitHub `size` 317;
+     language TypeScript; topics `ai`, `jev`,
+     `llm`, `sdk`). Package
+     `@brkn-labs/judge` **0.1.0**. GitHub
+     description *theirs*: "Probabilistic
+     judgment. Deterministic execution."
+     README *theirs*: "Judge is a TypeScript
+     SDK for placing constrained semantic
+     decisions inside ordinary application
+     control flow. A model judges structured
+     context; Judge validates the result and
+     selects exactly one callback written by
+     your application." "It does not generate
+     or execute code." "Judge is pre-release…
+     the v0.1 API may still change." Do **not**
+     dump the SDK.
+
+     Load-bearing loop (README +
+     [decision-lifecycle](https://github.com/Illusion47586/judge/blob/e69f65a16b631fbe672aa895b46fde84feb09ad3/docs/architecture/decision-lifecycle.md)
+     *theirs*):
+
+     ```text
+     structured context
+       → constrained provider decision
+       → runtime validation
+       → confidence policy
+       → exactly one application callback
+     ```
+
+     `judge.if()` Boolean; `judge.switch()`
+     derives the legal choice set from callback
+     keys; lower-level `boolean()` / `choice()`
+     / `score()` return decisions without
+     executing callbacks. Provider-neutral
+     `/core`; Jev default via direct TypeSafe
+     or optional gateways (Vercel / Cloudflare /
+     OpenRouter / `defineGateway`). Safety
+     boundary *theirs*: never executes
+     provider-generated code; never evaluates
+     multiple callbacks speculatively;
+     validates every provider result before
+     application code runs; low confidence is
+     an explicit `uncertain` branch; does not
+     silently select a gateway, retry, or fall
+     through after an error. Confidence policy
+     *theirs*: `confidence >= minimum` →
+     selected normal callback; `<` →
+     uncertainty callback; **does not infer
+     entropy, margin, or calibration
+     semantics.** Direct TypeSafe retries off
+     by default. Context-budget estimate is
+     advisory; Judge never blocks on it.
+     Credentials are explicit; Judge never
+     reads them from the environment itself.
+
+     judgment vs generation.
+     deterministic execution after probabilistic
+     judgment.
+     exactly one app-owned callback.
+     explicit uncertain branch.
+
+     **Placement.** Same overlay as gut on the
+     **control-flow** axis: the model returns a
+     belief; **code** owns the act. Twin, not a
+     duplicate: gut derives YES/NO/UNSURE from
+     **costs**; Judge selects **exactly one
+     typed callback** including `uncertain`.
+     Pillar: decision theory + search/control
+     (judgment as a sensor in a loop you own).
+     Hole: gate / route / abstain. Family:
+     TypeSafe Jev default; provider-neutral
+     core. Fail polarity: callback execution
+     is **fail-closed** on invalid provider
+     output (no callback runs); missing
+     confidence policy runs the selected
+     normal branch regardless of confidence
+     (*theirs* — name that). Eval path:
+     deterministic mock + type contracts
+     *theirs*; **no published Harbor**.
+     **Empirical** as README + lifecycle spec.
+     **Hypothesis** on *your* ticket /
+     transaction / incident / agent-routing
+     surfaces. Cross-domain: business
+     (screen a transaction → review);
+     knowledge work (route a request);
+     life (same `if` / `switch` shape over a
+     human-answered Noul). Compose with DGP
+     §98: Judge is the *assessor adapter*;
+     DGP is the *protocol envelope*. Compose
+     with gut: costs → outcome enum; Judge
+     maps outcome → one callback.
+
+     **Name lock:** always write
+     **Illusion47586/judge**.
+     Illusion47586/judge ≠ lexingtonhibiki/judgekit
+     ≠ Ascurse/typed-judge-kit ≠
+     2389-research/judgement ≠ Kungie/gut.
+     **≠** Vercel AI SDK (generation toolkit)
+     **≠** official `@typesafe-ai/sdk` (native
+     API; application branching is separate).
+     Soft Noul ≠ hard safety: `minimum: 0.85`
+     / UTF-8 token estimate / nine remote
+     examples are **sensors**. Do not copy
+     `npm install` / `TYPESAFE_API_KEY` /
+     gateway keys.
+
+3. **Variable-N option scoring as the trainable
+   object** (class-architecture note, **not** a
+   new species)
+
+   - **[`zwliJay/jev-forge`](https://github.com/zwliJay/jev-forge)**
+     (Python; GitHub license **NOASSERTION**;
+     LICENSE file *theirs* "MIT License.
+     Copyright (c) 2026 OpenJev contributors.";
+     **1★** live REST; 0 forks; created
+     2026-09-19T05:44:41Z; pushed
+     2026-09-19T17:40:28Z; updated
+     2026-09-19T17:40:31Z; HEAD `eb3e4a2d`;
+     README SHA `359f3f57`; GitHub `size`
+     2380; language Python; homepage
+     [jay-forge-web.vercel.app](https://jay-forge-web.vercel.app/)
+     vs README site
+     [jev-forge.vercel.app](https://jev-forge.vercel.app)
+     — quote both, do not invent a merge).
+     GitHub description *theirs*: "An open
+     training and inference stack for Jev-style
+     decision models. Train models to score
+     dynamic candidate branches from a shared
+     prefix, with support for high-cardinality
+     choice, calibration, and fast batched
+     inference." Do **not** clone Hub weights
+     ([AndeyTait/JevForge-0.8B](https://huggingface.co/AndeyTait/JevForge-0.8B)
+     HTTP **200**, apache-2.0, 0 likes,
+     lastModified 2026-09-19T11:38:46Z;
+     pipeline `text-classification`) or
+     Mind2Web training corpora
+     ([AndeyTait/JevForge-Mind2Web](https://huggingface.co/datasets/AndeyTait/JevForge-Mind2Web)).
+
+     Decision architecture (README *theirs*):
+     "JevForge expands one question into K
+     rows. Every row contains the same page
+     state and question plus one candidate
+     path. It pools the final valid token,
+     applies the same two-layer GELU scorer
+     to every candidate, then normalizes only
+     the K logits belonging to that question."
+     [DESIGN.md](https://github.com/zwliJay/jev-forge/blob/eb3e4a2d16084da7fe7d08ffdf806a5e41765391/docs/DESIGN.md)
+     *theirs*: each `(question, candidate)` is
+     a candidate path; shared state+question
+     prefix; scalar head; softmax over that
+     question's K; "训练因此是**概率学习**
+     (proper scoring),不是生成式 SFT."
+     Listwise-all-candidates-in-one-context
+     was **not adopted** (order effects; Score
+     "each level independent"). K varies with
+     the bag the caller supplies (browser
+     elements, tools, routes) — **dynamic
+     candidate bags, not a fixed label set**.
+     Same path for `choice` / `noul` / ordered
+     `score`. Speaks `POST /v1/systemone`.
+     Independent of NanoJev / TheoLeeCj-jevforge
+     code (*theirs*). Preliminary browser RLCD
+     path is an independent research arm, "不宣称复现 Jev."
+
+     Results table *theirs* (website-disjoint
+     splits; Jev-1.13 as a **separate reference
+     arm**, not a controlled ablation):
+     JevForge 0.8B test choice top-1 **0.579** /
+     OOD **0.637** vs Jev 0.543 / 0.610; noul
+     test 0.826 / Brier **0.128** vs Jev 0.910 /
+     0.092; OOD noul **0.860 / 0.117** vs Jev
+     0.825 / 0.131. Raw Qwen3.5-0.8B zero-shot
+     first-200 **0.235 / 0.340**. MODEL_CARD:
+     test 2,400 / OOD 1,158 questions;
+     calibration T **0.9717**; "Candidate sets
+     are supplied to the model; candidate
+     discovery is handled by the calling
+     application… should not be read as a
+     general browser-agent leaderboard."
+     Do **not** paste as Harbor. Do not copy
+     vs-Jev as identity.
+
+     variable-N option scoring as the trainable
+     object.
+     dynamic candidate bags not fixed label sets.
+
+     **Placement.** Class-architecture on the
+     **decide** family: the trainable object is
+     `score(state, question, candidate_k)` then
+     softmax over K, so K can change per
+     example. Contrast GLiClass (categorize a
+     large/changing *label schema* in one pass)
+     and TypeAR (constrained decode over a
+     caller-enumerated set at *inference*, no
+     trained decision head). Same hole as
+     observe→score-among-candidates→code-acts
+     (jev-ultrafast / GLiNER2 ultrafast /
+     typesafe-computer-use). Pillar: search /
+     control + proper scoring. Hole: selector
+     of F among *supplied* options. Family:
+     trained decision-only (Qwen3.5-0.8B /
+     0.6B backbone + scalar head), **not** a
+     Jev replica. Fail polarity: ranking among
+     supplied candidates is **fail-open** on
+     a miss (the element was never in the bag);
+     acting on the argmax is **fail-closed**
+     to host execute. Eval path: frozen
+     website-disjoint splits *theirs*; **not**
+     a Harbor taskset. **Empirical** as README
+     + DESIGN + MODEL_CARD. **Hypothesis** on
+     *your* candidate source. Roadmap
+     *theirs* still unchecked: intent routing /
+     tool selection / safety triage / document
+     classification / risk scoring.
+
+     **Name lock:** always write
+     **zwliJay/jev-forge**. zwliJay/jev-forge ≠
+     NanoJev ≠ TheoLeeCj-jevforge.
+     **≠** kev pointer **≠** TypeAR **≠**
+     encoder open-jev **≠** GLiClass
+     categorize **≠** Archer Watch.
+     Soft Noul ≠ hard safety: 0.579 / 0.637 /
+     T=0.9717 / RLCD +0.01 top-1 *theirs* are
+     **sensors**. Pasting OOD top-1 as "beats
+     Jev, ship as Jev" is theater. Do not copy
+     `pip install` / `run_mac_demo.sh` / Hub
+     download.
+
+4. **Open NAR replica economics / latency**
+   (late-catch HIGH of the same repo; created
+   2026-09-18)
+
+   - **[`wfzyx/von`](https://github.com/wfzyx/von)**
+     (Python Apache-2.0; **43★** live REST;
+     10 forks; 2 open issues; created
+     2026-09-18T05:03:47Z; pushed
+     2026-09-19T22:45:31Z; updated
+     2026-09-20T00:38:04Z; HEAD `b9e42b26`
+     on **master**; README SHA `574aa628`;
+     GitHub `size` 11888; language Python;
+     topics `decision-model`, `jev`,
+     `machine-learning`, `python`, `rlcd`,
+     `system-one`, `typesafe`). GitHub
+     description *theirs* (still): "The
+     open-source System One decision model.
+     Sub-15ms, non-autoregressive, local
+     drop-in alternative to TypeSafe Jev."
+     This is a **late-catch** of a repo
+     already carded in §49 as a 14 MB Needle
+     SAN (authored144 52.6%). Live README
+     this pass is a **rewrite**: subtitle
+     "Calibrated discrete, probabilistic, and
+     ordinal inference in sub-**25ms**";
+     Von-1.0 **395M params (1.5 GB)**; table
+     ~**62 ms** MPS / ~**300 ms** CPU on 78
+     cases; Hub
+     [`wfzyx/von-1.0`](https://huggingface.co/wfzyx/von-1.0)
+     HTTP **200**, apache-2.0, **10** likes,
+     lastModified **2026-09-19T22:38:37.000Z**,
+     tags include
+     `base_model:answerdotai/ModernBERT-large`.
+     Do **not** dump weights. Do **not** merge
+     the Needle 52.6% table with the 78-case
+     table. Replica honesty: competing NAR
+     claims.
+
+     Economics / latency mental model
+     (README *theirs*, quote as claims):
+     autoregressive classification is
+     500–2,000 ms + KV cache; Von is one
+     forward pass, `/v1/systemone` protocol
+     parity, local / free Apache-2.0 vs
+     TypeSafe `$0.042 / 1M tokens` (vendor
+     figure already in §1). 8-task / 78-case
+     peer suite
+     ([jabr/classifier-benchmark](https://github.com/jabr/classifier-benchmark))
+     *theirs*: Von-1.0 macro **93.0%** / micro
+     **92.3%** vs GLiNER2 78.5% / 79.5% vs
+     TypeSafe Jev 97.2% / 97.4%; "SOTA
+     Empirical Accuracy: **91.23%**" in the
+     overview vs 93.0% in the table — do not
+     invent a reconciliation. "Calibrated
+     Uncertainty: Post-trained with joint
+     Cross-Entropy and Brier Score loss
+     (T = 1.0367), **guaranteeing** that
+     output probabilities reflect true
+     predictive confidence" vs later
+     "Optimization converged at **T = 1.1692**"
+     — two temperatures in one README;
+     **guaranteeing** is soundness theater.
+     n=78 is not Harbor. **Do not copy the
+     vs-Jev ranking table** (same lock as §49).
+
+     open replica economics / latency vs closed
+     Jev.
+     NAR local drop-in.
+     wfzyx/von late-catch HIGH.
+     competing NAR claims / replica honesty.
+
+     **Placement.** Trained decision-only /
+     encoder NAR local drop-in on the **decide**
+     family (ModernBERT-large finetune this
+     pass; earlier Needle SAN remains the §49
+     snapshot). Pillar: calibration +
+     measurement economics. Hole: replace one
+     classifier step locally when hosted Jev
+     latency/cost/residency dominate. Family:
+     **not** a Jev replica; wire-compat ≠
+     logit-equiv ≠ ECE. Fail polarity: local
+     replica **fail-open** as a development
+     scorer; **fail-closed** if you ship it as
+     P(permit). Eval path: 78-case *theirs* +
+     Hub card; **not** a Harbor taskset.
+     **Empirical** as live REST + README
+     claims. **Hypothesis** that sub-15ms
+     GitHub-description latency holds on *your*
+     hardware — live README table is ~62 ms
+     MPS. Distinguish: jev-local **stub until
+     hf**; kev **trained pointer**;
+     githubnext/localjev **prompted JSON**;
+     jeff **GLiFormer**; openJev-verdict
+     competing NAR. Same replica-honesty
+     valve as kev §98: a `/v1/systemone`
+     drop-in is not a Noul.
+
+     **Name lock:** always write **wfzyx/von**.
+     **≠** kev **≠** jev-local **≠**
+     githubnext/localjev **≠** jeff **≠**
+     openJev-verdict **≠** TypeAR **≠** Archer
+     Watch. Soft Noul ≠ hard safety: 93.0% /
+     91.23% / 62 ms / 15 ms / T=1.0367 /
+     T=1.1692 / n=78 are **sensors**. Pasting
+     "beats GLiNER2, close enough to Jev" as a
+     class ranking is theater. Do not copy
+     `pip install von-sdk` / `von serve` as a
+     recipe. Do not dump Hub weights.
+
+5. **Typed vs chat judges on LLM guardrailing**
+   (cross-note only)
+
+   - **[`ishaannk/llm-vs-jev`](https://github.com/ishaannk/llm-vs-jev)**
+     (Python Apache-2.0; **0★** live REST; 0
+     forks; created 2026-09-19T23:41:22Z;
+     pushed 2026-09-19T23:52:45Z; updated
+     2026-09-19T23:53:04Z; HEAD `182e0864`;
+     README SHA `d9ebd40f`; GitHub `size`
+     2900; language Python). GitHub
+     description *theirs*: "LLMs vs Jev: a
+     controlled comparison on LLM
+     guardrailing." README *theirs*: "One
+     decision spec. One policy. Several
+     perception backends." Spec hash
+     `77f2a821072b1862`; policy *theirs*:
+     review ≥ 0.35, action ≥ 0.7, severity
+     blocks at 2.0. LLM backends go through
+     TypeSafe's own
+     [system-one-adapter](https://github.com/typesafe-ai/system-one-adapter-python)
+     (*theirs*: "removes the argument that
+     the LLM was handicapped").
+     `tests/test_spec_parity.py` asserts one
+     spec object. Do **not** dump RESULTS.md.
+     Do not copy `uv run` / `.env`.
+
+     Headline table *theirs* (strict accuracy;
+     ECE; p99; $/1000 screens warm-cache):
+
+     | backend | n | acc | ECE | p99 | $/1k |
+     |---|---:|---:|---:|---:|---:|
+     | jev-1.13.0 | 240×3 | 77.9% | 0.053 | 679 ms | $0.0444 |
+     | gpt-5.1 | 240×3 | 68.8% | 0.229 | 2824 ms | $1.2636 |
+     | gpt-5-mini | 240×3 | 69.3% | 0.280 | 3912 ms | $0.2994 |
+     | claude-opus-5 | 240×1 | 83.8% | 0.051 | 5731 ms | $5.2453 |
+     | gpt-6-astra | 120×1 | 85.8% | 0.107 | 7703 ms | $8.7300 |
+
+     "**Nothing wins outright.**" Pareto
+     frontier *theirs*: `jev`,
+     `anthropic-opus`, `openai-astra`. "Jev is
+     the cheap end of the frontier." On the
+     120 items every backend saw: Jev 81.1%
+     vs opus 83.3% vs astra 85.8%. "**And most
+     of them can be argued out of guarding.**"
+     Steer rates *theirs* (n=28 attempts):
+     opus **14.3%**, jev **10.7%**, mini
+     **7.1%**, gpt-5.1 **0.0%**; astra not
+     probed (credit exhausted). "This is the
+     failure mode TypeSafe documents for Jev
+     — state is data… text that argues for
+     its own classification can move the
+     answer — and the measurement says it is
+     not Jev's alone."
+
+     typed judgments vs chat judges on
+     guardrailing.
+     ishaannk/llm-vs-jev cross-note only.
+     deeper integrity fold is rh-guard.
+     nothing wins outright.
+     can be argued out of guarding.
+
+     **Placement (Augustus owns this slice).**
+     Signal detection + measurement economics:
+     a typed System One judge can sit on the
+     Pareto frontier of a **screening** task
+     against chat judges when cost and p99
+     matter, without winning accuracy. Pillar:
+     SDT / ROC / cost-sensitive criterion
+     (same policy for everyone *theirs*).
+     Hole: post-judge / gate on untrusted
+     text. Family: TypeSafe Jev vs
+     schema-guided LLM-as-judge (adapter).
+     Fail polarity: screening **fail-closed**
+     on BLOCK; **fail-open** REVIEW is the
+     abstain band. Eval path: RESULTS.md
+     generated from `eval/results/summary.json`
+     *theirs* ("No number on this page was
+     typed by hand"); **not** a Harbor
+     taskset; corpus 800 items from four
+     public datasets. **Empirical** as README
+     + RESULTS. **Hypothesis** on *your*
+     traffic. Cross-note only: do **not**
+     promote this as a general "Jev beats
+     LLM-as-judge" law. Compose with
+     jev-judge-bench / groundedness-judge-bench
+     (native vs schema-guided) without
+     collapsing namesakes.
+
+     **Integrity slice (rh-guard owns).**
+     Steerability / hostile state / "argued
+     out of guarding" is the load-bearing
+     failure. Augustus records the pointer
+     and stops. Do not fold jailbreak
+     suffixes as a recipe.
+
+     **Name lock:** always write
+     **ishaannk/llm-vs-jev**.
+     **≠** jev-judge-bench **≠**
+     groundedness-judge-bench **≠** dinostomp
+     **≠** GLiGuard. Soft Noul ≠ hard safety:
+     77.9% / ECE 0.053 / $0.0444 / 14.3%
+     steer are **sensors**. Pasting "Jev wins
+     guardrailing" or "Opus is the most
+     accurate so use Opus" is theater.
+     Nothing wins outright.
+
+### Archer drop + pulse (do not invent)
+
+Archer Hume open-weight still **NOT landed**.
+Hub
+[`archerhume/4rcherhume`](https://huggingface.co/archerhume/4rcherhume)
+HTTP **401** (empty / auth-gated this pass).
+[`Qwen/Qwen3.8-27B`](https://huggingface.co/Qwen/Qwen3.8-27B)
+HTTP **200**, likes **15762**, lastModified
+**2026-08-14T15:00:01.000Z**, author **Qwen**
+— **≠ Archer**. Do not treat kev-8b as the
+drop either.
+
+Tracker likes **51** **flat** vs §98 pin 51;
+`lastModified` **UNCHANGED**
+`2026-09-19T18:37:18.000Z` (user-provided;
+not independently re-derived). Laya **yes**
+on the tracker (user-provided); live Hub
+[`convaiinnovations/laya`](https://huggingface.co/convaiinnovations/laya)
+HTTP **200**, likes **535**, lastModified
+**2026-09-19T09:53:44.000Z**. Blackwood
+**ABSENT** from the tracker (user-provided).
+Do **not** conflate tracker absence with Hub
+deletion: live
+[`BlackwoodAI/blackwood-rlcd`](https://huggingface.co/BlackwoodAI/blackwood-rlcd)
+HTTP **200**, likes **2**, lastModified
+**2026-09-18T21:49:56.000Z**.
+
+Awesomejev **561 / 27007** **flat**
+(user-provided; not independently
+re-counted). Live
+[`AnotiaWang/awesome-jev`](https://github.com/AnotiaWang/awesome-jev)
+**83★** is a **different object**.
+
+Live REST (quote over watch):
+[`TheoLeeCJ/SemIf`](https://github.com/TheoLeeCJ/SemIf)
+**1936★** (watch +15 vs 1740; live 1936);
+[`vinnylarouge/jevlike`](https://github.com/vinnylarouge/jevlike)
+**983★** (watch claimed 984; **quote live
+983**);
+[`TypeAR-AI/TypeAR`](https://github.com/TypeAR-AI/TypeAR)
+**11★** **flat**.
+
+X MCP flap: `since_id` held
+`2100958005663568282`; `pages_archived` **0**;
+**no invented tweets**. `invented_signal:
+false`.
+
+### Theater (do not)
+
+Treat gut/judge as new class-table species;
+hard-gate cost-derived 0.038 as a safety
+proof; treat `on_unsure="raise"` as a System
+One hard gate; let UNSURE silently become `False`;
+treat `min_confidence` as P(correct); dump
+gut source or Judge SDK; copy `pip` / `npm`
+/ keys; collapse Kungie/gut into hunch /
+feelings / probably-lang; collapse
+Illusion47586/judge into judgekit /
+typed-judge-kit / 2389-research/judgement;
+treat jev-forge as a sixth species or as
+GLiClass; clone Hub weights / Mind2Web
+corpora; paste 0.579/0.637 as Harbor or as
+"beats Jev, ship as Jev"; merge von Needle
+52.6% with the 78-case 93% table; copy von
+vs-Jev ranking; treat sub-15ms GitHub
+description as the README 62 ms table;
+treat "guaranteeing" calibration as ECE;
+dump von-1.0 weights; treat `/v1/systemone`
+wire as a Noul; treat llm-vs-jev as "Jev
+wins guardrailing" or as a Harbor taskset;
+fold steerability recipes here (rh-guard
+owns); invent tweets / Archer drop /
+Awesomejev 83★ as 561/27007; treat
+Qwen3.8-27B as Archer; treat tracker
+Blackwood ABSENT as Hub deletion.
+
+### Census
+
+Pulse recorded above. Live REST quoted for
+SemIf / jevlike / TypeAR / the five HIGH
+repos. Awesomejev 561/27007 and tracker
+likes/lastModified are **user-provided**,
+not re-scraped. Do not invent X. Archer
+still **NOT landed**.
+
+### Not
+
+Not a TypeSafe how-to. Not a gut/Judge
+install guide. Not a jev-forge train/serve
+recipe. Not a von Hub download. Not an
+llm-vs-jev rerun. Not wrappers. Do not copy
+keys / `pip` / `npm` / `uv` / `.env`. Do
+not re-fold 1740 / §98 / 1639 / §96 /
+gliner-native-runtime / §97 / 1541 / §95.
+Do not re-card kev §45/§98 as this NAR
+replica. Do not reply into finished agents.
+Do **not** merge from this review — parent
+merges after CLEAN.
+
+### Curated status
+
+1843 HIGH **folded** (5 HIGH: gut
+cost-derived control flow; Judge typed
+callback twin; jev-forge variable-N
+training object; von late-catch NAR
+economics; llm-vs-jev guardrail cross-note).
+§98 / §97 / §96 / §95 **not re-carded**.
+Archer still **NOT landed** (likes 51
+flat, lastModified UNCHANGED). 0★ HIGH
+still got a real card. `invented_signal:
+false`.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`judgment-class.md`; `validation.md`;
+`applied-mappings.md`; `mappings.md`;
+`toolbox-mapping.md`; `composition-algebra.md`
+items 97–101; `question-design.md`;
+`methods-catalog.md`; `formal-methods.md`;
+`agent-self-assessment.md`. Hunches labeled.
+No wrapper.

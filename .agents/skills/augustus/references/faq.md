@@ -476,9 +476,15 @@ and carries no intelligence. `JEVLOCAL_SCORER=hf` turns on a frozen-model
 logprob scorer. Their README: an interface-compatible baseline, not a
 reproduction of Jev's undisclosed model. kev is the other local
 drop-in (trained pointer head, public gold). [von](https://github.com/wfzyx/von)
-is a **tiny SAN** (14 MB needle; authored144 52.6%) at the extreme of
-the speed/econ class — not the stub, not kev, **not a calibrated Jev
-replica**. Do not copy its vs-Jev table.
+is a **late-catch rewrite** of that same repo (`notes.md` §99):
+GitHub description still says sub-15ms NAR local drop-in (**43★**
+live REST); README this pass claims Von-1.0 **395M / 1.5 GB**,
+~**62 ms** MPS / ~**300 ms** CPU on **n=78**, Hub
+[`wfzyx/von-1.0`](https://huggingface.co/wfzyx/von-1.0) ModernBERT-large
+finetune. Do **not** merge the §49 Needle 52.6% table with the
+78-case 93.0% table. Competing NAR claims / replica honesty.
+"Guaranteeing" calibration is theater. Wire-compat ≠ Noul.
+Do not copy its vs-Jev table. Do not dump weights.
 [open-alternative-jev](https://github.com/ikermoel/open-alternative-jev)
 packs one-forward logprobs on an open LLM you already have (RACE-H
 92.9% @ 4.55 q/s); **not a Jev reproduction**.
@@ -2840,3 +2846,29 @@ No, and no. README *theirs*: with both keys set, 401/402/403/408/429/5xx, transp
 ## Is kev OOD 0.76 Jev-equivalent? Does isolation 4e-6 prove kev = Jev? Is `/v1/systemone` wire a calibrated Noul? Did Archer land?
 
 No, no, no, and no. Archer-arch fidelity. kev family OOD 0.76–0.77 vs Jev 0.86. block-causal isolation. pointer/readout CE-trained. /v1/systemone drop-in. replica honesty. Mechanism tests falsify “questions leak”; they do not prove identity. Score confidence is a stand-in (*theirs*); TypeSafe has not published theirs. Do not rewrite §45. Jev-omni owns the replica/code fold. Archer still **NOT landed** (tracker likes **51**; lastModified UNCHANGED 2026-09-19T18:37:18Z; Hub `archerhume/4rcherhume` HTTP **401**). Do not treat kev-8b or Qwen3.8-27B as the 27B drop. Apache-2.0; **507★**. `notes.md` §98.
+
+Unique fragments (consecutive): cost-sensitive decision theory × System One probabilities → control flow; thresholds derived from costs not hard-coded; YES / NO / UNSURE from cost_false_yes / cost_false_no / cost_human; auto-batching same-object questions; Kungie/gut ≠ tpellet/hunch ≠ carldaws/hunch; judgment vs generation; deterministic execution after probabilistic judgment; exactly one app-owned callback; explicit uncertain branch; Illusion47586/judge ≠ lexingtonhibiki/judgekit ≠ Ascurse/typed-judge-kit; variable-N option scoring as the trainable object; dynamic candidate bags not fixed label sets; zwliJay/jev-forge ≠ NanoJev; open replica economics / latency vs closed Jev; NAR local drop-in; wfzyx/von late-catch HIGH; competing NAR claims / replica honesty; typed judgments vs chat judges on guardrailing; ishaannk/llm-vs-jev cross-note only; deeper integrity fold is rh-guard; nothing wins outright; can be argued out of guarding
+
+## Are gut / Judge new class-table species? Hard-gate cost-derived 0.038 as a proof? Let UNSURE silently become False?
+
+No, no, and no. Overlays on EU / Chow / Elkan and on typed control flow. cost-sensitive decision theory × System One probabilities → control flow. thresholds derived from costs not hard-coded. YES / NO / UNSURE from cost_false_yes / cost_false_no / cost_human. auto-batching same-object questions. Default `on_unsure="raise"` *theirs* is **application policy** (truthiness / exception), **not** a System One hard gate. `min_confidence` is a spread filter, not P(correct) (DECISIONS *theirs*). Kungie/gut ≠ tpellet/hunch ≠ carldaws/hunch. GitHub Apache-2.0 / LICENSE MIT / pyproject Apache-2.0 *theirs*; **0★**; pre-alpha target design. Soft Noul ≠ hard safety. `notes.md` §99.
+
+## Is Illusion47586/judge lexingtonhibiki/judgekit? Does it generate or execute code? Is the uncertain branch optional theater?
+
+No, no, and no. judgment vs generation. deterministic execution after probabilistic judgment. exactly one app-owned callback. explicit uncertain branch. Provider-neutral core; Jev default. Never executes provider-generated code; never evaluates multiple callbacks speculatively (*theirs*). Illusion47586/judge ≠ lexingtonhibiki/judgekit ≠ Ascurse/typed-judge-kit ≠ 2389-research/judgement ≠ Kungie/gut. TypeScript MIT; **0★**; `@brkn-labs/judge` 0.1.0 pre-release. `notes.md` §99.
+
+## Is jev-forge a sixth species? Clone the Hub weights / Mind2Web corpora? Paste 0.579/0.637 as Harbor?
+
+No, no, and no. variable-N option scoring as the trainable object. dynamic candidate bags not fixed label sets. Class-architecture note on the decide family, not GLiClass categorize, not TypeAR decode. zwliJay/jev-forge ≠ NanoJev. GitHub license NOASSERTION; LICENSE file MIT *theirs*; **1★**. MODEL_CARD *theirs*: candidate discovery is the caller’s; not a browser-agent leaderboard. Do not clone weights. `notes.md` §99.
+
+## Is wfzyx/von still the 14 MB Needle? Is sub-15ms the 62 ms table? Does it guarantee calibration? Dump von-1.0 weights?
+
+No, no, no, and no. wfzyx/von late-catch HIGH. NAR local drop-in. open replica economics / latency vs closed Jev. competing NAR claims / replica honesty. GitHub description still sub-15ms (**43★**); README this pass 395M / ~62 ms MPS / n=78 93.0% *theirs*; Hub `wfzyx/von-1.0` ModernBERT-large. Do not merge §49 Needle 52.6% with this table. “Guaranteeing” calibration is theater (two temperatures T=1.0367 / T=1.1692 in one README). Wire ≠ Noul. Do not dump weights. `notes.md` §99.
+
+## Did Jev win LLM guardrailing? Is ishaannk/llm-vs-jev a Harbor taskset? Does Augustus own the steerability fold?
+
+No, no, and no. typed judgments vs chat judges on guardrailing. nothing wins outright. Pareto *theirs*: jev / opus / astra. Jev is the cheap end (77.9% / ECE 0.053 / 679 ms / $0.0444). can be argued out of guarding (opus 14.3% / jev 10.7% *theirs*). ishaannk/llm-vs-jev cross-note only. deeper integrity fold is rh-guard. Apache-2.0; **0★**. Do not copy `uv` / keys. `notes.md` §99.
+
+## Did Archer land this hour? Treat Qwen/Qwen3.8-27B as Archer? Invent tweets?
+
+No, no, and no. Hub `archerhume/4rcherhume` HTTP **401**. `Qwen/Qwen3.8-27B` HTTP **200** likes **15762** lastModified **2026-08-14T15:00:01Z**, author Qwen — ≠ Archer. Tracker likes **51** flat; lastModified UNCHANGED `2026-09-19T18:37:18.000Z`. X MCP flap: since_id held `2100958005663568282`; pages_archived 0; invented_signal: false. Live REST: SemIf **1936★**; jevlike **983★** (watch claimed 984); TypeAR-AI/TypeAR **11★** flat. Awesomejev 561/27007 user-provided. `notes.md` §99.

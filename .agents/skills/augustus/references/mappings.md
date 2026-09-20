@@ -212,6 +212,27 @@ carldaws/hunch **≠** feelings **≠** tpellet/hunch.
 (MIT; **0★**) — pick/why/is/run over *your* stdin/PATH.
 tpellet/hunch exit 3. never-execute list. **≠**
 carldaws/hunch. `notes.md` §90.
+**Cost-derived / typed-callback overlays (Empirical as
+README target design; 2026-09-19 ~18:43):**
+[Kungie/gut](https://github.com/Kungie/gut)
+(GitHub Apache-2.0 / LICENSE MIT / pyproject Apache-2.0
+*theirs*; **0★**; pre-alpha) — YES / NO / UNSURE
+from expected cost over a System One p. cost-sensitive
+decision theory × System One probabilities → control
+flow. thresholds derived from costs not hard-coded.
+YES / NO / UNSURE from cost_false_yes / cost_false_no /
+cost_human. auto-batching same-object questions.
+Default `on_unsure="raise"` is app policy, not a
+System One hard gate. Kungie/gut ≠ tpellet/hunch
+≠ carldaws/hunch.
+[Illusion47586/judge](https://github.com/Illusion47586/judge)
+(TypeScript MIT; **0★**; `@brkn-labs/judge` 0.1.0) —
+judgment vs generation. deterministic execution after
+probabilistic judgment. exactly one app-owned callback.
+explicit uncertain branch. Illusion47586/judge ≠
+lexingtonhibiki/judgekit ≠ Ascurse/typed-judge-kit.
+Overlays, not species. Soft Noul ≠ hard safety
+(`notes.md` §99).
 **Named circuit combinators (Empirical
 as README architecture, 2026-09-19 ~01:47):**
 [decision-combinators](https://github.com/voidning/decision-combinators)
@@ -876,6 +897,17 @@ frame→assess→commit. Speculative assessments cannot
 authorize effects. [can1357/jegrep](https://github.com/can1357/jegrep)
 — ~$0.01–0.03 typical per search; no embeddings/index/daemon.
 agent --json. `notes.md` §98.
+**Cost-human gather / same-object auto-batch VOI
+(Empirical as README target design; 2026-09-19
+~18:43):**
+[Kungie/gut](https://github.com/Kungie/gut) —
+`cost_human` is a gather act: pay a human iff that
+is cheaper than expected false-yes or false-no.
+auto-batching same-object questions is measurement
+economics (one backend call per object). YES / NO /
+UNSURE from cost_false_yes / cost_false_no /
+cost_human. thresholds derived from costs not
+hard-coded. Soft Noul ≠ hard safety. `notes.md` §99.
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs
@@ -933,7 +965,18 @@ for *redirect*, not for *block* (`notes.md` §68).
 is the rare-class warning in one table: seven distilled teacher scores
 that the card says are **not** calibrated probabilities, and `threat`
 F1@0.5 = 0.0000 while mean accuracy@0.5 looks fine. Criterion, not
-accuracy (`notes.md` §33). **Beyond SWE (Hypothesis until plotted):**
+accuracy (`notes.md` §33).
+**Typed vs chat judges on guardrailing (Empirical as
+RESULTS generated from summary.json; 2026-09-19
+~18:43):**
+[ishaannk/llm-vs-jev](https://github.com/ishaannk/llm-vs-jev)
+— one spec, one policy, several perception backends.
+typed judgments vs chat judges on guardrailing.
+nothing wins outright. can be argued out of guarding.
+ishaannk/llm-vs-jev cross-note only. deeper integrity
+fold is rh-guard. Not a Harbor taskset. Soft Noul ≠
+hard safety. `notes.md` §99.
+**Beyond SWE (Hypothesis until plotted):**
 phishing screen; "is this a real deadline?"; hiring screen (base rate of
 qualified applicants is the thing that moves). **Counterexample**:
 retrain the model because last week's incident made you "want fewer
@@ -1360,6 +1403,15 @@ hard-gating DGP as safety theater.
 numerous-com/dgp ≠ TypeSafe official.
 rh-guard **does not own** this hole.
 Soft Noul ≠ hard safety. `notes.md` §98.
+**Cost table is policy / Noul is SENSOR (Empirical as
+README target design; 2026-09-19 ~18:43):**
+[Kungie/gut](https://github.com/Kungie/gut) — the
+cost table is policy; the Noul is a SENSOR; default
+UNSURE raises. Hard-gating 0.038 as a safety proof
+is theater. [Illusion47586/judge](https://github.com/Illusion47586/judge)
+— exactly one app-owned callback; explicit uncertain
+branch. Deeper integrity fold is rh-guard
+(`notes.md` §99).
 **Authorship / jevtest-as-merge-seal (rh-guard owns the
 gate cousin; 2026-09-19 ~16:52):**
 [jev-authorship-check](https://github.com/webstercharly/jev-authorship-check)
@@ -1447,6 +1499,18 @@ Live `jev-latest` is an A/B of backends (**≠**
 githubnext/localjev). Seed = geometry ≠ replay. No
 pixels. 20% still soft. S2 never grants. Do not copy
 npm / `.dev.vars` (`notes.md` §46, §80).
+**Cost-derived / typed-callback overlay (Empirical as
+README target design; 2026-09-19 ~18:43):**
+[Kungie/gut](https://github.com/Kungie/gut) — the
+*algorithm* is ordinary control flow; the substituted
+classifier step is a System One p that becomes
+YES/NO/UNSURE from costs. cost-sensitive decision
+theory × System One probabilities → control flow.
+[Illusion47586/judge](https://github.com/Illusion47586/judge)
+— judgment vs generation; deterministic execution
+after probabilistic judgment; exactly one app-owned
+callback; explicit uncertain branch. Overlays, not
+species. Soft Noul ≠ hard safety (`notes.md` §99).
 **OCR+AX desktop cousin (Empirical as README;
 2026-09-19 ~09:51):**
 [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use)
@@ -1749,6 +1813,14 @@ hard-gating DGP as safety theater.
 numerous-com/dgp ≠ TypeSafe official.
 Speculative assessments cannot authorize effects
 (`notes.md` §98).
+
+**Named cost-table envelope (Empirical as README target
+design, 2026-09-19 ~18:43):**
+[Kungie/gut](https://github.com/Kungie/gut) — the
+monitor is **the cost table in code**. Thresholds
+derived from costs not hard-coded. The Noul may only
+inform YES/NO/UNSURE; it does not grant. Hard-gating
+0.038 is theater (`notes.md` §99).
 
 **Named computer-use envelope (Empirical as README / architecture,
 2026-09-18 ~16:56):**
@@ -2088,6 +2160,15 @@ remainder sensor. Decision Graph Protocol
 frame→assess→commit. app retains permissions/effects.
 hard-gating DGP as safety theater.
 numerous-com/dgp ≠ TypeSafe official (`notes.md` §98).
+**Cost-derived remainder after the cost table
+(Empirical as README target design, 2026-09-19
+~18:43):**
+[Kungie/gut](https://github.com/Kungie/gut) —
+costs prove the *rule*; the Noul is the remainder
+sensor. thresholds derived from costs not
+hard-coded. Default UNSURE raises so an unhandled
+middle band cannot become `False`. Soft Noul ≠ hard
+safety (`notes.md` §99).
 **Name the irreversible act (2026-09-18 ~16:48).** Wake *skip* is
 irreversible (the agent stays asleep) →
 [wakegate](https://github.com/shitianfang/wakegate) authorizes skip

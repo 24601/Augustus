@@ -826,6 +826,35 @@ to ship as Jev” is the same theater. rh-guard owns the
 silent-FALLBACK cousin. rh-guard **does not own**
 protocol envelope / ranking fail-open / replica honesty.
 
+1843 envelopes (`notes.md` §99), still outside the extras
+template: cost-sensitive decision theory × System One
+probabilities → control flow; thresholds derived from
+costs not hard-coded; YES / NO / UNSURE from
+cost_false_yes / cost_false_no / cost_human;
+auto-batching same-object questions; Kungie/gut ≠
+tpellet/hunch ≠ carldaws/hunch; judgment vs generation;
+deterministic execution after probabilistic judgment;
+exactly one app-owned callback; explicit uncertain
+branch; Illusion47586/judge ≠ lexingtonhibiki/judgekit ≠
+Ascurse/typed-judge-kit; variable-N option scoring as
+the trainable object; dynamic candidate bags not fixed
+label sets; zwliJay/jev-forge ≠ NanoJev; NAR local
+drop-in; open replica economics / latency vs closed Jev;
+wfzyx/von late-catch HIGH; competing NAR claims /
+replica honesty; typed judgments vs chat judges on
+guardrailing; ishaannk/llm-vs-jev cross-note only;
+deeper integrity fold is rh-guard; nothing wins
+outright; can be argued out of guarding.
+Soft Noul ≠ hard safety: 0.038 / `min_confidence` /
+0.579 / 0.637 / T=0.9717 / 93.0% / 91.23% / 62 ms /
+15 ms / T=1.0367 / T=1.1692 / n=78 / 77.9% / ECE 0.053
+/ 14.3% steer are **sensors**. The cost table is
+policy; the Noul is a SENSOR. Hard-gating 0.038 as a
+safety proof, merging Needle 52.6% with n=78 93%,
+“guaranteeing” calibration, or pasting “Jev wins
+guardrailing” is the same theater. gut/judge are
+overlays, not species. rh-guard owns steerability.
+
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a
 hybrid "verified by Noul" API.

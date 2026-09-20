@@ -1955,6 +1955,58 @@
   composition-algebra items 94–96, question-design,
   methods-catalog, formal-methods, agent-self-assessment,
   ecosystem, CHANGELOG, README.
-- notes.md §98; sources.json (607 sources, 604 unique URLs,
+-   notes.md §98; sources.json (607 sources, 604 unique URLs,
   retrieved 2026-09-19T23:40Z); findings.md batch #81.
   No wrapper.
+
+## 2026-09-20T00:43:33Z — hourly 1843 HIGH (Boise ~18:43 MDT)
+
+- Docs-only fold on a **fresh PR off main**. Never reopen
+  merged #7–**#16**. Prior fold agent
+  `bc-37d98185-7b64-5345-8327-1414294cc9aa` finished;
+  Augustus #16 MERGED. Do **not** re-fold 1740 / §98 /
+  1639 / §96 / gliner-native-runtime / §97 / 1541 / §95.
+  Skip Archer rewrite. Quote READMEs. Hunches labeled.
+  No wrappers / keys / install recipes. Do not dump
+  source / SDK / weights / training corpora.
+  `invented_signal: false`.
+- Five HIGH: Kungie/gut (PRIMARY; **0★**; cost-derived
+  YES/NO/UNSURE overlay); Illusion47586/judge (**0★**;
+  typed-callback twin); zwliJay/jev-forge (**1★**;
+  variable-N option scoring as the trainable object;
+  not a sixth species); wfzyx/von late-catch (**43★**;
+  NAR local drop-in; Needle snapshot ≠ 395M table);
+  ishaannk/llm-vs-jev (**0★**; typed vs chat judges
+  cross-note; rh-guard owns steerability).
+- gut/judge are **control-flow / decision-theory
+  overlays, not new class-table species**. Formal
+  methods compose with scoring; a Noul is a SENSOR.
+  Hard-gating 0.038, merging Needle 52.6% with n=78
+  93%, “guaranteeing” calibration, or pasting “Jev
+  wins guardrailing” is soundness theater.
+- Pulse (do not invent): Archer still NOT landed. Hub
+  archerhume/4rcherhume HTTP **401**. Qwen3.8-27B ≠
+  Archer. Tracker likes **51** flat; lastModified
+  UNCHANGED 2026-09-19T18:37:18Z. Laya yes. Blackwood
+  ABSENT from tracker (Hub still 200). Awesomejev
+  561/27007 flat (user-provided; ≠ AnotiaWang 83★).
+  Live REST: SemIf **1936★**; jevlike **983★** (watch
+  claimed 984); TypeAR **11★** flat. X MCP since_id
+  held `2100958005663568282`; pages_archived 0; no
+  invented tweets.
+- Cards: SKILL.md, mixed-architecture fail table +
+  gallery, faq, mental-models Apply 1843, judgment-class
+  von late-catch + jev-forge class-architecture,
+  validation, applied-mappings, mappings, toolbox,
+  composition-algebra items 97–101, question-design,
+  methods-catalog, formal-methods, agent-self-assessment,
+  ecosystem, CHANGELOG, README.
+- notes.md §99; sources.json; findings.md batch #82.
+  No wrapper. Do **not** merge from this review.
+- Adversarial review honesty locks: live SKILL/README
+  class index no longer presents von as current tiny
+  SAN (Needle §49 snapshot ≠ this-pass 395M / n=78);
+  `on_unsure="raise"` named as app policy, not a
+  System One hard gate; gut license quoted as GitHub
+  Apache-2.0 / LICENSE MIT / pyproject Apache-2.0
+  *theirs* (same split honesty as jev-forge).
