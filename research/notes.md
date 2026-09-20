@@ -2452,6 +2452,16 @@ Do not copy `--run` / publish flags into skill cards.
    becomes a wording shortcut. Cards: `question-design.md`; FAQ
    forced Choice; `validation.md`.
 
+### Since last look (2026-09-20T18 hourly 1248) — jaredpalmer/kev
+
+DENSIFY §45. Keep this section id. Do not mint a sibling first sighting.
+HEAD `a955202be6bc` README SHA `bd8f04d0747e` release tag **kev-family**.
+Weight tarballs with SHA-256 sums on the GitHub release. PLAN_Qwen35
+status: proposal for review. deadline 0.53→0.82 at 9B *theirs*.
+isolation would fail by construction on DeltaNet. Qwen3.5-9B ≠ Archer.
+SHA move is not a replica. Full card: `notes.md` §123.
+
+
 ## 46. 14:03 Boise hourly — open multimodal RLCD, bake-off substrate, decision-token LoRA (2026-09-18)
 
 America/Boise 14:03 = 20:03 UTC. Docs-only fold into PR #2
@@ -3293,6 +3303,15 @@ open-alternative-jev); `mixed-architecture.md` (dual-process;
 component node; DOM-as-text); `faq.md`; `mappings.md` §2 / §3 / §6 /
 §9; `applied-mappings.md`; `question-design.md`; `methods-catalog.md`;
 `toolbox-mapping.md`; `agent-self-assessment.md`. No wrapper.
+
+### Since last look (2026-09-20T18 hourly 1248) — wfzyx/von
+
+DENSIFY §49. Keep this section id. Do not mint a sibling first sighting.
+HEAD `bed7e7337791` README SHA `550243b6a701`. Option-Marker joint
+attention 93.5% macro *theirs* / 93.6% micro *theirs* n=78. Overview
+still 91.23%. T = 1.0367 vs T = 1.1692. guaranteeing is soundness
+theater. 93.5% *theirs* not Harbor. Full card: `notes.md` §123.
+
 
 ## 50. GLiNER2.5 extractive compaction — encoder backend, same keep/drop job (2026-09-18 ~16:22 Boise)
 
@@ -6117,6 +6136,14 @@ Domain LoRA vs teacher-copy distill); `mental-models.md`;
 `methods-catalog.md`; `toolbox-mapping.md`;
 `agent-self-assessment.md`; `optimizer-integration.md`.
 No wrapper.
+
+### Since last look (2026-09-20T18 hourly 1248) — logan-markewich/jeff
+
+DENSIFY §60. Keep this section id. Do not mint a sibling first sighting.
+HEAD `34b32f99a727` README SHA `6a476fda0616`. JevBench v1.2.2 jeff
+66.9 (#9) jev 75.3 (#2) *theirs*. ≠ GestaltLabs/Jeff-1. SHA move is
+not a replica. Full card: `notes.md` §123.
+
 
 ## 61. Active-learning triage / don't distill Jev as teacher, evidence-packet explorer, meaning-grep, closed-vote CU, Jev vs MLX PCD Harbor, host-owned waymode, OMP/pi fail-open gates (2026-09-18 ~21:39 Boise)
 
@@ -9412,6 +9439,16 @@ what-doesn't-count sentence); `composition-algebra.md`
 (selector of next word); `toolbox-mapping.md`;
 `methods-catalog.md`. Hunches labeled. No wrapper.
 
+### Since last look (2026-09-20T18 hourly 1248) — openJev-verdict-2.0
+
+DENSIFY §71. Keep this section id. Do not mint a sibling first sighting.
+HEAD `bff28567cff4` README SHA `d83e994730da`. Benchmark Heaven
+leaderboard #2 74.9 *theirs* (hourly densify claim; not in live README
+body). Live README still 77.10% N=2000. 77.10% still §71 claim-audit.
+do not re-fold as a beat. 74.9 *theirs* not Harbor. Full card:
+`notes.md` §123.
+
+
 ## 72. Hourly System One watch — 2026-09-19 ~07:49 Boise / 13:52 UTC
 
 Docs-only fold into PR #2. Archer still **Watch**. Do
@@ -10414,6 +10451,16 @@ gallery); `faq.md`; `mental-models.md`;
 `toolbox-mapping.md`; `composition-algebra.md`;
 `question-design.md`; `mappings.md` §7 (self-reported p).
 Hunches labeled. No wrapper.
+### Since last look (2026-09-20T18 hourly 1248) — razorback16/openjev
+
+DENSIFY the §75 openjev cite. Keep this section id. Do not mint a
+sibling first sighting. HEAD `794a81b87131` README SHA `3cbf28eb1e2d`.
+Docker Hub razorback16/openjev:0.2.1. 400 plain-text for unaskable
+question. FastAPI 422 wrong shape. wire-compat ≠ logit-equiv.
+Independent. Not affiliated. SHA move is not a replica. Full card:
+`notes.md` §123.
+
+
 ## 76. User-provided HIGH — NandhaKishorM/laya packaging (2026-09-19 ~09:07 Boise / ~15:07 UTC)
 
 Docs-only into PR #2. **Skip Archer.** Do **not**
@@ -17459,6 +17506,14 @@ items 94–96; `question-design.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
 
+### Since last look (2026-09-20T18 hourly 1248) — jaredpalmer/kev (from §98)
+
+DENSIFY §98 kev family card. Keep this section id. kev-family tarballs
++ PLAN_Qwen35 proposal for review. deadline 0.53→0.82 at 9B *theirs*.
+isolation would fail by construction on DeltaNet. Qwen3.5-9B ≠ Archer.
+Full card: `notes.md` §123.
+
+
 ## 99. Hourly 1843 HIGH (2026-09-19 ~18:43 Boise / 2026-09-20T00:43:33Z)
 
 Docs-only on a **fresh PR off main**
@@ -18249,6 +18304,14 @@ items 97–101; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
+
+### Since last look (2026-09-20T18 hourly 1248) — wfzyx/von (from §99)
+
+DENSIFY §99 late-catch rewrite. Keep this section id. Option-Marker
+joint attention 93.5% macro *theirs*. 93.6% micro *theirs*. n=78.
+Two temperatures. guaranteeing is soundness theater. Full card:
+`notes.md` §123.
+
 
 ## 100. Hourly 1943 HIGH (2026-09-19 ~19:43 Boise / 2026-09-20T01:43Z)
 
@@ -28082,6 +28145,15 @@ Parent merge only after **CLEAN** adversarial review
 
 Hourly 0743 uniqueness lock: Heman10x-NGU/Verdict-open-jev ≠ Heman10x-NGU/openJev-verdict-2.0; TF-IDF + LogReg ECE 0.0207 vs Jev 0.1440; Verdict-open-jev 48.07% vs Jev 90.80%; abstention combined recall 10.00%; p50 35.58 ms; K=25 (maximum capacity) 72.00%; 0.85 coverage 84.60% selective risk 1.18%; 26.1× faster than standard Qwen JSON generation; Jevify 90.0% / 167 ms CUDA graphs disabled; Finding 1: Brier on stated confidence alone is a trap; grpo_rlcr 0.78 / ECE 0.084; reliability 0.007 but resolution 0.000; 27 900 schema-driven decisions; 13 600 / 13 600 questions; candidate mass min 0.99999624; 22 configs · 166,054 rows · 4 calibration-gold; sha a39eba3f; Student B MAE 0.148 / Pearson 0.836 / 86.0%; pngwn/open-jev-laya-bench README 404; sha 9f69c742 likes 2; HDFS 0.9933 (745/750) / retain 0.0084; BGL ERROR/FATAL protection 1.0000; 2,479 / 2,500 HDFS uncertain; cache hit 0.9648 (2412/2500); $0.153936 estimated; E2 recomputes from saved probabilities; Space sha eda59e0a; MASSIVE English 0.783 / Khmer 0.033 / Hindi 0.133; 40–48 rows too small to ship T; T never changes argmax; siren2345/jev-single-decode-transformers ≠ siren2345/jev-single-decode; Split Transformers experiment from llama.cpp runtime; tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab; Four experiments stress-testing TypeSafe's Jev: calibration, bundle bias, label bias, and ensembling; second pass must be $0.00 from cache; The pages never call Jev; Gemma 4 31B 77.0% / Jev 1.13.0 61.4% / Laya 322M 0.0%; restriction state 95.0% against 84.4%; None of the systems are particularly good at knowing when to stop and ask; They skip the question and call a tool directly; 100% schema pass; six-field joint 48.8% vs 72.8%; ywchiu/jev_benchmark ≠ Running-Dolphins/jev-bench ≠ Praveenrajus/jev-bench; ACT / REVIEW / FALLBACK; A provider failure, timeout, malformed output, or missing answer is **not** a policy outcome; confidence is descriptive provider output, not a substitute for probability; Quality denominators include only valid scored answers; an exact halfway tie chooses the lower level; aiwithenoch/Jev-Skill ≠ simplosophy/jev-skill ≠ laguagu/jev-skills; The local path does not claim to turn a smaller checkpoint into Jev; Low support becomes decision: "review"; MIT-0 SPDX NOASSERTION; current-llm; 结构兼容，不是 Jev 模型能力; altryne/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify; Find where Jev belongs. Design the questions. Measure the difference; TypeAR-AI/TypeAR 301 → TypeLLM/TypeLLM; TypeLLM/TypeLLM 16★; SemIf 2241★ (+34 vs §111 2207); jevlike 1051★ (+8 vs 1043); AnotiaWang 98★ (+1 vs 97); yibie/awesome-jev 525★ (+19 vs 506); Laya likes 864 (was 822); tracker likes 67 (+3 vs 64); lastModified UNCHANGED `2026-09-20T04:29:16.000Z`; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33; notes.md §113
 
+### Since last look (2026-09-20T18 hourly 1248) — TypeLLM/TypeLLM
+
+DENSIFY §113 rename. Keep this section id. Do not mint a sibling first
+sighting. HEAD `c4b03ba9e792` README SHA `116ca5f89352`.
+thinking=True/False per-field budget. type safety does not guarantee
+factual accuracy. Thinking mode is constrained AR, not a Noul.
+Qwen/Qwen3.8-27B ≠ Archer. Full card: `notes.md` §123.
+
+
 ## 114. Hourly 0843 HIGH (2026-09-20 ~08:43 Boise / 2026-09-20T14:43Z)
 
 Measurement / judgment / skills fold on a **fresh PR off
@@ -30347,3 +30419,323 @@ still star-noise. A SHA move on a 0-star repo is still material.
 
 Checklist: `research/revisit-checklist.md`. Skill heading: **REVISIT /
 since last look**. Merged #44 owns §121. This protocol is §122.
+
+## 123. Hourly 1248 HIGH (2026-09-20 ~12:48 Boise / 2026-09-20T18:48Z)
+
+Measurement / class-member fold on a **fresh PR off latest `main`**
+(`cursor/fold-hourly-1248-high-5f62`) after `1c9c367` (merged #45
+revisit protocol, `notes.md` §122; merged #44 hourly 1143, `notes.md`
+§121 / items 369–384 / batch #104). **HARD RULE:** do not reopen or
+amend PR #23–#45. Do **not** push onto merged 1143 / 1049 / 0947
+tracks. This fold's IDs: `notes.md` §123 / composition 385–400 /
+findings batch #105.
+
+Never reopen merged #7–**#45**. Do **not** re-fold §122 protocol /
+§121 1143 / §120 1049 / §119 0947 / §118 llm-to-jev / §117 SemIf /
+§116 jcr / §115 NanoJev / §114 0843 *as a second census*. Densify
+`razorback16/openjev` (§75 cite), `wfzyx/von` (§49 + §99),
+`Heman10x-NGU/openJev-verdict-2.0` (§71 + later densify),
+`jaredpalmer/kev` (§45 / §98), `logan-markewich/jeff` (§60),
+`TypeLLM/TypeLLM` (§113 rename). Skip Archer rewrite. Quote READMEs.
+Mark *theirs*. No wrappers, keys, `npm` / `pip` / `uv` / `docker`
+install recipes. `invented_signal: false`. Hunches labeled.
+
+Lane is Augustus: **mathematical / logical / algorithmic mental models**
+for Jev-class categorization/scoring across AI / SWE / **business /
+knowledge work / life**, not SWE-only. PRIMARY this hour is **decide
+is not generate**: juspay/neurolink `tryDecide` returns typed
+calibrated judgments, not a token stream. GLiNER/GLiClass ports are
+class members (locate / categorize), not Jev replicas. Third-party
+benches (von 93.5% macro, verdict 74.9 Heaven, hermes 8.7x / 9.8x)
+stay *theirs*. Wire-compat is still not logit-equiv. SHA move is not
+a replica. Catalogs are indexes. Soft scores ≠ hard gates. Archer
+still **promised_not_landed**.
+
+Unique consecutive fragments (this hour) must appear as **one
+substring** in overlays (see uniqueness gate):
+Hourly 1248 uniqueness lock: decide is not generate; tryDecide returns typed calibrated judgments not a token stream; juspay/neurolink 133★ MIT HEAD 268b0fe83130 README SHA e709cadfa6b6 tag v12.19.0; GLiNER/GLiClass ports are class members not Jev replicas; MacPaw/Gliner2Swift ≠ Knowledgator/GLiClass.c ≠ fbilhaut/gliclass-rs ≠ Knowledgator/GLiClass.js ≠ gravitee-io/GLiNER4j ≠ apiplant/gliner-rs ≠ codesoda/gliner2-rs; 8.7x faster 4.4x fewer prompts *theirs*; 153 was a reporting error; corrected 156-case 9.8x faster 4.2x fewer prompts *theirs*; independent v0.2.1 1.24x vs Mini *theirs*; Approvals only; anpicasso/hermes-jev-approvals ≠ hermes-switchyard; scx-router GLiClass ranks candidate LLMs in one non-generative pass; typesafeai-dotnet-sdk Not affiliated with TypeSafe AI; hyperspaceai/jevcache ≠ kushals256/jevcache; ST-jeved measures each reply; 400 plain-text for unaskable question; razorback16/openjev:0.2.1 Docker densify HEAD 794a81b87131; wire-compat ≠ logit-equiv; Option-Marker joint attention 93.5% macro *theirs*; 93.6% micro *theirs*; n=78; T = 1.0367 vs T = 1.1692 two temperatures; guaranteeing is soundness theater; wfzyx/von densify HEAD bed7e7337791; Benchmark Heaven leaderboard #2 74.9 *theirs*; NLL calibration assets; 77.10% still §71 claim-audit; do not re-fold as a beat; Heman10x-NGU/openJev-verdict-2.0 densify HEAD bff28567cff4; kev-family weight tarballs; PLAN_Qwen35 proposal for review; deadline 0.53→0.82 at 9B *theirs*; Qwen3.5-9B ≠ Archer; isolation would fail by construction on DeltaNet; jaredpalmer/kev densify; JevBench v1.2.2 jeff 66.9 (#9) jev 75.3 (#2) *theirs*; logan-markewich/jeff densify HEAD 34b32f99a727; thinking=True/False per-field budget; type safety does not guarantee factual accuracy; TypeLLM/TypeLLM densify HEAD c4b03ba9e792; us/jev-local stub until hf; Eran-BA/Jev_from_GLiNER2 spec ≠ replica; lsu-ub-uu/systemone ≠ TypeSafe System One; Layan/Laya HF spaces name-match; catalog ≠ endorsement; decide ≠ generate ≠ stream; 93.5% *theirs* not Harbor; 74.9 *theirs* not Harbor; 8.7x *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45; notes.md §123
+
+### How-to-apply (five placements / measurement lenses)
+
+These are *class* lenses, not vendor tutorials. Same discipline as
+§122 (densify prior notes; SHA move is not a replica) and §121 (open
+recreation ≠ calibrated replica). Formal methods **compose** with
+scoring: a Noul is a SENSOR; a decide API is a third inference type;
+a GLiClass ranker is a categorize pass; policy / parser / replay /
+cost table are exact work.
+
+1. **Decide is not generate**
+   (*theirs*, juspay/neurolink PRIMARY). Quote *theirs*: three genuine
+   inference types, not one dressed up three ways. `generate` and
+   `stream` produce text; `decide` produces a calibrated
+   boolean/choice/score judgment. `tryDecide` returns typed calibrated
+   judgments not a token stream. Life analogue: asking the waiter
+   "which of these three?" is not asking them to write the menu.
+2. **GLiNER/GLiClass ports are class members, not Jev replicas**
+   (MacPaw/Gliner2Swift, Knowledgator/GLiClass.c, fbilhaut/gliclass-rs,
+   Knowledgator/GLiClass.js, gravitee-io/GLiNER4j, apiplant/gliner-rs,
+   codesoda/gliner2-rs, sahibzada-allahyar/gliner2-ultrafast,
+   SouthernCrossAI/scx-router). GLiNER locate / GLiClass categorize.
+   scx-router: GLiClass ranks candidate LLMs in one non-generative
+   pass. Ports are substrates. Locate ≠ decide. Categorize ≠ Noul.
+3. **Third-party benches are *theirs***
+   (von Option-Marker 93.5% macro / 93.6% micro n=78; verdict
+   Benchmark Heaven #2 74.9 + 77.10% still §71; hermes 8.7x GitHub
+   desc vs corrected 9.8x / 156-case / independent 1.24x; jeff
+   JevBench v1.2.2 66.9 (#9) vs jev 75.3 (#2)). 93.5% *theirs* not
+   Harbor. 74.9 *theirs* not Harbor. 8.7x *theirs* not Harbor.
+   jeff 66.9 ≠ verdict 74.9 ≠ SemIf 74.6 (§78). Do not invent a
+   reconciliation of von 91.23% overview vs 93.5% table. Two
+   temperatures (T = 1.0367 vs T = 1.1692); guaranteeing is
+   soundness theater.
+4. **Wire-compat ≠ logit-equiv; serving is still substrate**
+   (razorback16/openjev:0.2.1 Docker densify; 400 plain-text for
+   unaskable question; FastAPI 422 wrong shape; GET /v1/models
+   openjev-0.1 alias openjev-latest). Independent. Not affiliated.
+   Error contract is not a Noul. Do **not** copy `docker run`.
+5. **Densify prior notes; SHA move is not a replica**
+   (kev-family weight tarballs + PLAN_Qwen35 proposal for review;
+   TypeLLM thinking=True/False per-field budget; type safety does
+   not guarantee factual accuracy; us/jev-local stub until hf;
+   Eran-BA/Jev_from_GLiNER2 spec ≠ replica). Isolation would fail
+   by construction on DeltaNet. Qwen3.5-9B ≠ Archer. deadline
+   0.53→0.82 at 9B *theirs* is a probe, not a port. Do not mint a
+   sibling first sighting.
+
+### HIGH (novel)
+
+1. **[juspay/neurolink](https://github.com/juspay/neurolink)**
+   - NEW HIGH PRIMARY (TypeScript MIT; **133★**; HEAD
+   `268b0fe83130`; README SHA `e709cadfa6b6`; tag **v12.19.0**).
+   Quote *theirs*: One TypeScript interface for 40 AI providers
+   across three inference types: generate, stream, and decide.
+   Decide returns typed, calibrated judgments (boolean/choice/score)
+   via TypeSafe Jev, not text. `tryDecide` returns typed calibrated
+   judgments not a token stream. decide is not generate. decide ≠
+   generate ≠ stream. Do **not** copy keys / `npm`.
+2. **[MacPaw/Gliner2Swift](https://github.com/MacPaw/Gliner2Swift)**
+   + **[Knowledgator/GLiClass.c](https://github.com/Knowledgator/GLiClass.c)**
+   + **[fbilhaut/gliclass-rs](https://github.com/fbilhaut/gliclass-rs)**
+   + **[Knowledgator/GLiClass.js](https://github.com/Knowledgator/GLiClass.js)**
+   + **[gravitee-io/GLiNER4j](https://github.com/gravitee-io/GLiNER4j)**
+   + **[apiplant/gliner-rs](https://github.com/apiplant/gliner-rs)**
+   + **[codesoda/gliner2-rs](https://github.com/codesoda/gliner2-rs)**
+   + **[sahibzada-allahyar/gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)**
+   - NEW HIGH class cluster. GLiNER/GLiClass ports are class members
+   not Jev replicas. MacPaw/Gliner2Swift ≠ Knowledgator/GLiClass.c ≠
+   fbilhaut/gliclass-rs ≠ Knowledgator/GLiClass.js ≠
+   gravitee-io/GLiNER4j ≠ apiplant/gliner-rs ≠ codesoda/gliner2-rs.
+   Locate ≠ decide. Categorize ≠ Noul. Do **not** copy install
+   recipes.
+3. **[anpicasso/hermes-jev-approvals](https://github.com/anpicasso/hermes-jev-approvals)**
+   - NEW HIGH measurement (TypeScript MIT; **9★**; HEAD
+   `71b564fa8889`; README SHA `c20d5dec11ff`; tag **v0.2.1**).
+   GitHub description *theirs*: 8.7x faster, 4.4x fewer prompts,
+   measured on 153 real commands. Approvals only. README /
+   docs/METRICS.md *theirs*: An earlier version of this file
+   reported 153 cases. That sample was a real reporting error,
+   fixed by stratifying the sampler. Corrected 156-case **9.8x
+   faster**, **4.2x fewer interruptions**. Independent v0.2.1
+   live-sandbox study: **1.24x** vs Mini *theirs*, 28 unique
+   synthetic commands, not a reproduction of the private corpus.
+   Quote both ledgers. 8.7x *theirs* not Harbor. anpicasso/hermes-jev-approvals
+   ≠ hermes-switchyard. Do **not** copy keys.
+4. **[SouthernCrossAI/scx-router](https://github.com/SouthernCrossAI/scx-router)**
+   - NEW HIGH (Apache-2.0; **7★**; HEAD `75392085f85f`; README SHA
+   `45a6c4ebc7ba`). scx-router GLiClass ranks candidate LLMs in one
+   non-generative pass. Ranker is GLiClass categorize, not a Noul.
+   Catalog, do not elevate as Harbor routing.
+5. **[saibimajdi/typesafeai-dotnet-sdk](https://github.com/saibimajdi/typesafeai-dotnet-sdk)**
+   - NEW HIGH honesty (C# MIT; **5★**; HEAD `6be669e0d0b1`; README
+   SHA `b2dcbf0ec2b6`). Quote *theirs*: Not affiliated with TypeSafe
+   AI. Community SDK. Wire client ≠ calibrated replica.
+6. **[kushals256/jevcache](https://github.com/kushals256/jevcache)**
+   - NEW HIGH namesake (TypeScript MIT; **3★**; HEAD `b0e0418fa3ea`;
+   README SHA `a50ff146f7b0`; tag **v0.1.5**). hyperspaceai/jevcache
+   ≠ kushals256/jevcache. Intent-cache proxy is not a Noul. Do
+   **not** copy `npx`.
+7. **[mossyfield/ST-jeved](https://github.com/mossyfield/ST-jeved)**
+   - NEW HIGH (JavaScript MIT; **6★**; HEAD `f742afa24ffc`; README
+   SHA `5edc31337b74`). ST-jeved measures each reply and instructs
+   the narrator only when a rule matches. Sensor, not a proof.
+   Soft scores ≠ hard gates.
+
+### HIGH (revisit densify; keep original section ids)
+
+8. **[razorback16/openjev](https://github.com/razorback16/openjev)**
+   - DENSIFY §75 cite (Apache-2.0; **192★**; HEAD `794a81b87131`;
+   README SHA `3cbf28eb1e2d`). Release **0.2.1** already on Docker
+   Hub `razorback16/openjev:0.2.1`. Quote *theirs*: OpenJev is an
+   independent project. It is not affiliated with or endorsed by
+   TypeSafe AI. 400 with the reason as plain text for a question
+   that cannot be asked. FastAPI 422 for a field of the wrong
+   shape. GET /v1/models `openjev-0.1` alias `openjev-latest`.
+   400 plain-text for unaskable question. wire-compat ≠ logit-equiv.
+   Error contract is not a Noul. Do **not** copy `docker run`. SHA
+   move is not a replica.
+9. **[wfzyx/von](https://github.com/wfzyx/von)**
+   - DENSIFY §49 + §99 (Apache-2.0; **144★**; HEAD `bed7e7337791`;
+   README SHA `550243b6a701`). Quote *theirs*: Option-Marker joint
+   attention. Von-1.0 395M params (1.5 GB). Macro Acc **93.5%** /
+   Micro Acc **93.6%** across 78 test cases. Overview still says
+   SOTA Empirical Accuracy **91.23%**. Do not invent a
+   reconciliation. T = 1.0367 in the guaranteeing sentence vs
+   T = 1.1692 in the temperature-scaling section; two temperatures;
+   guaranteeing is soundness theater. 93.5% *theirs* not Harbor.
+   n=78 is not Harbor. Do **not** copy the vs-Jev ranking table
+   (same lock as §49).
+10. **[Heman10x-NGU/openJev-verdict-2.0](https://github.com/Heman10x-NGU/openJev-verdict-2.0)**
+    - DENSIFY §71 + later densify (NOASSERTION; **165★**; HEAD
+    `bff28567cff4`; README SHA `d83e994730da`). Hourly densify
+    claim *theirs*: Benchmark Heaven leaderboard #2 **74.9** with
+    NLL calibration assets. That 74.9 figure is **not** in the live
+    README body this pass; the README still quotes **77.10%** on
+    N=2000 typed-decisions and links Benchmark Heaven Jev Models,
+    plus v1.4 inference-engine fixes on 231 public JevBench tasks.
+    Quote both. 74.9 *theirs* not Harbor. 77.10% still §71
+    claim-audit. do not re-fold as a beat. jeff 66.9 ≠ verdict 74.9
+    ≠ SemIf 74.6 (§78).
+11. **[jaredpalmer/kev](https://github.com/jaredpalmer/kev)**
+    - DENSIFY §45 / §98 (Apache-2.0; **895★**; HEAD `a955202be6bc`;
+    README SHA `bd8f04d0747e`; release tag **kev-family**). Quote
+    *theirs*: the same three checkpoints, as tarballs with SHA-256
+    sums, are attached to the GitHub release kev-family. Out of
+    domain: Kev-4B 0.79, Kev-8B 0.80, Jev 0.86 *theirs*.
+    PLAN_Qwen35.md SHA `ed1eb0a1eddd`; Status: **proposal for
+    review**. deadline 0.53→0.82 at 9B *theirs* (Qwen3-8B 0.53 vs
+    Qwen3.5-9B 0.82 zero-shot on the frozen transfer-v4 deadline
+    family). Isolation would fail by construction on DeltaNet:
+    packed-mask isolation is attention-mask arithmetic; Gated
+    DeltaNet recurrent state does not respect that mask. Qwen3.5-9B
+    ≠ Archer. Probe ≠ port. Do **not** copy `uv` / train flags.
+12. **[logan-markewich/jeff](https://github.com/logan-markewich/jeff)**
+    - DENSIFY §60 (Python MIT; **160★**; HEAD `34b32f99a727`; README
+    SHA `6a476fda0616`). Quote *theirs*: JevBench v1.2.2 score
+    (official, rank of 18) jeff **66.9 (#9)** / jev **75.3 (#2)**.
+    T=3.2 still the temperature story from §60. logan-markewich/jeff
+    ≠ GestaltLabs/Jeff-1. *theirs*, not Harbor.
+13. **[TypeLLM/TypeLLM](https://github.com/TypeLLM/TypeLLM)**
+    - DENSIFY §113 rename (Apache-2.0; **16★**; HEAD `c4b03ba9e792`;
+    README SHA `116ca5f89352`). Quote *theirs*: thinking=True/False
+    and a configurable per-field thinking budget, followed by
+    type-safe constrained decoding. Integer and float via
+    tokenizer-native constrained decoding. type safety does not
+    guarantee factual accuracy. Thinking mode is constrained AR,
+    not a Noul. Qwen/Qwen3.8-27B ≠ Archer.
+
+### Remainder (short cards, same hour)
+
+socai-io/jev-social is a typed-routing browser research app.
+shantanugoel/iPaste is GLiNER extract + cua-s1 decide.
+us/jev-local is still stub until hf (same lock as §49 / §60).
+Eran-BA/Jev_from_GLiNER2 is an architecture spec with a
+Jev-compatible Choice/Score/Noul interface; spec ≠ replica.
+freinold/GLiNER-API, henrikalbihn/gliclass-as-a-service,
+lucataco/gliner-cua, sir-marcin/gliner-decide, slogsdon/gliner-browser
+are locate/categorize serving. FFatTiger/new-api-plugin-typesafe,
+brightshore/jev-net, mheers/typesafeai-systemone-jev-go, mhmdkzr/jev,
+lu-zero/systemone, SC0d3r/jev-systemone, realbogart/jev are community
+clients. kyle-pena-nlp/jevchat turns Jev into a chatbot (generate
+wearing decide clothes). QuicqDev/Jev-vs-ML, maybern-tripp-smith/fedjev-bench,
+jmanhype/jev-dspy-lab, villagertim/neonhop-3d are measurement
+sketches. Catalog, do not elevate. catalog ≠ endorsement.
+
+### Skips (thin / collision / name-match)
+
+- Layan/Laya Hugging Face spaces (Laya9553, Layan04, Layan22,
+  Layanal, LayanePfister, layaco9405, layasripusapati, layavishalk,
+  eminsy/layalina, nblbila22/layanan-doc-convert, nikitravel/layaresortphuketru)
+  are **name-match**. Layan/Laya HF spaces name-match. Not TypeSafe
+  Laya. Not a serving port.
+- Indonesian `layanan` repos (butabuyan-ux/Layanan_bukablokir,
+  woori10/*-layanan-agroklimat, nblbila22/layanan-doc-convert) are
+  ordinary "service" collisions.
+- lsu-ub-uu/systemone + systemone-docker + apache + fitnesse +
+  postgresql + gatekeeper-war + metadata: university SystemOne
+  stack. lsu-ub-uu/systemone ≠ TypeSafe System One.
+- zetxek/systemone is a Hugo theme (editorial neubrutalism).
+- condeadriankeith/SystemOneEngine README is empty (`e69de29bb2d1`).
+  skip-thin. Description claims a calibrated NAR; no README to quote.
+- Franzferdinan51/SystemOne, KathanModh259/system-one,
+  Michaelmutunga/systemone-ltd, Andika-Bagus/systemone-sci,
+  babybear-labs/system-one, chasejarrett988/systemone,
+  zd16104-ops/teacher-systemone: name-match / desc-match, thin.
+- imohitmayank/jevfill, mgarlabx/Jev-Enem, Xubqpanda/JevRepo,
+  mayank953/Jev, mayank953ai/Jev, bharat1704/jev, cfuentea/jev,
+  chimsedibui/jev, kmtshn/jev, cnrveysel/jevsaidso,
+  thehumanworks/jevdir, jevrl/jevrl.github.io: name-match.
+- hfdataset Jevvan123 / jevtor / jev217 / jeveuxaider / Nuser84
+  Jeverlyn / bwang0911/jev3-air and hfspace JeVaderHoud / Jevine /
+  jevenus / jevimaster1234 / jevon12138 / jevonlauai / nomealeatorio123/jevddi
+  / raychen2024/jevoorder2: name-match.
+- hf:Emerald7664/laya and tseanard/laya: name-match, not TypeSafe Laya.
+- Archer rewrite: **promised_not_landed**. Hub archerhume/4rcherhume
+  HTTP **401**.
+
+### Pulse (live REST this hour)
+
+Archer still promised_not_landed. Hub archerhume/4rcherhume HTTP **401**.
+This hour does not re-census SemIf / Laya likes / tracker; those
+numbers stay §119 until a dedicated pulse. neurolink **133★**.
+openjev **192★**. von **144★**. verdict **165★**. kev **895★**.
+jeff **160★**. TypeLLM **16★**. gliner2-ultrafast **60★**.
+Gliner2Swift **42★**. `invented_signal: false`.
+
+### Formal compose + anti-patterns
+
+Formal methods **compose** with scoring. A Noul is a SENSOR. A
+decide API is a third inference type. A GLiClass ranker is a
+categorize pass. Treating tryDecide as a chat completion, a Swift
+GLiNER port as Jev, 93.5% as Harbor, 74.9 as a beat of §71, 8.7x
+as a universal speedup, Docker 0.2.1 as logit-equiv, PLAN_Qwen35
+as a shipped port, thinking mode as a Noul, a university SystemOne
+docker family as TypeSafe, or a Layan HF space as Laya is
+soundness theater. decide is not generate. GLiNER/GLiClass ports
+are class members not Jev replicas. wire-compat ≠ logit-equiv.
+SHA move is not a replica. catalog ≠ endorsement. 93.5% *theirs*
+not Harbor. 74.9 *theirs* not Harbor. 8.7x *theirs* not Harbor.
+
+### Adversarial review + testing hooks (Basit standing
+order)
+
+Parent merge only after **CLEAN** adversarial review **AND** testing.
+Hooks for the reviewer:
+
+- Uniqueness-gate: the consecutive `Hourly 1248 uniqueness lock:`
+  string must appear in every overlay listed below. Prior walls 0843 /
+  0915 / jcr / 0922 / 0940 / 0947 / 1049 / 1143 stay one substring
+  each (do not mutate them; do not reopen #23–#45).
+- Namesake locks: MacPaw/Gliner2Swift ≠ Knowledgator/GLiClass.c ≠
+  fbilhaut/gliclass-rs ≠ Knowledgator/GLiClass.js ≠ gravitee-io/GLiNER4j
+  ≠ apiplant/gliner-rs ≠ codesoda/gliner2-rs; anpicasso/hermes-jev-approvals
+  ≠ hermes-switchyard; hyperspaceai/jevcache ≠ kushals256/jevcache;
+  lsu-ub-uu/systemone ≠ TypeSafe System One; Layan/Laya HF spaces
+  name-match; logan-markewich/jeff ≠ GestaltLabs/Jeff-1.
+- Densify vs new: openjev densifies §75; von densifies §49 + §99;
+  verdict densifies §71 (77.10% still claim-audit; 74.9 is a new
+  published Heaven claim *theirs*); kev densifies §45 / §98; jeff
+  densifies §60; TypeLLM densifies §113. Do not mint sibling
+  first-sighting sections.
+- Harbor-jevals: 93.5% / 93.6% / 74.9 / 77.10% / 8.7x / 9.8x /
+  1.24x / 66.9 / 75.3 / deadline 0.53→0.82 are *theirs*, not Harbor.
+  74.6 JevBench stays §78. 128/128 stays NanoJev §115.
+- Anti-patterns to refuse: TypeSafe drop-in; Qwen3.5-9B as Archer;
+  thinking mode as a Noul; 400 status as a Noul; Docker image as
+  logit-equiv; catalog as endorsement; copying keys / `npm` /
+  `pip` / `uv` / `docker`.
+- Overlay set: SKILL.md body (not YAML surgery beyond protocol
+  fragments), mental-models Apply 1248, composition-algebra items
+  385–400, faq, mixed-architecture, validation, toolbox-mapping,
+  methods-catalog, formal-methods, formal-semi-formal,
+  applied-mappings, judgment-class, question-design,
+  agent-self-assessment, mappings, CHANGELOG, README, docs/ecosystem,
+  findings batch #105, refresh-log, sources.json, changelog-hourly.md,
+  revisit_fingerprints.json (six densify seeds).
+- Offline check: `evaluate_decisions.py --self-test` (now includes
+  400 error-contract / theirs-not-harbor / decide-is-not-generate /
+  DeltaNet isolation fail-by-construction / thinking mode is
+  constrained AR) and `uniqueness_gate.py` (0843 + 0915 + jcr +
+  0922 + 0940 + 0947 + 1049 + 1143 + 1248). No live Jev key. No
+  wrappers.
+
+Hourly 1248 uniqueness lock: decide is not generate; tryDecide returns typed calibrated judgments not a token stream; juspay/neurolink 133★ MIT HEAD 268b0fe83130 README SHA e709cadfa6b6 tag v12.19.0; GLiNER/GLiClass ports are class members not Jev replicas; MacPaw/Gliner2Swift ≠ Knowledgator/GLiClass.c ≠ fbilhaut/gliclass-rs ≠ Knowledgator/GLiClass.js ≠ gravitee-io/GLiNER4j ≠ apiplant/gliner-rs ≠ codesoda/gliner2-rs; 8.7x faster 4.4x fewer prompts *theirs*; 153 was a reporting error; corrected 156-case 9.8x faster 4.2x fewer prompts *theirs*; independent v0.2.1 1.24x vs Mini *theirs*; Approvals only; anpicasso/hermes-jev-approvals ≠ hermes-switchyard; scx-router GLiClass ranks candidate LLMs in one non-generative pass; typesafeai-dotnet-sdk Not affiliated with TypeSafe AI; hyperspaceai/jevcache ≠ kushals256/jevcache; ST-jeved measures each reply; 400 plain-text for unaskable question; razorback16/openjev:0.2.1 Docker densify HEAD 794a81b87131; wire-compat ≠ logit-equiv; Option-Marker joint attention 93.5% macro *theirs*; 93.6% micro *theirs*; n=78; T = 1.0367 vs T = 1.1692 two temperatures; guaranteeing is soundness theater; wfzyx/von densify HEAD bed7e7337791; Benchmark Heaven leaderboard #2 74.9 *theirs*; NLL calibration assets; 77.10% still §71 claim-audit; do not re-fold as a beat; Heman10x-NGU/openJev-verdict-2.0 densify HEAD bff28567cff4; kev-family weight tarballs; PLAN_Qwen35 proposal for review; deadline 0.53→0.82 at 9B *theirs*; Qwen3.5-9B ≠ Archer; isolation would fail by construction on DeltaNet; jaredpalmer/kev densify; JevBench v1.2.2 jeff 66.9 (#9) jev 75.3 (#2) *theirs*; logan-markewich/jeff densify HEAD 34b32f99a727; thinking=True/False per-field budget; type safety does not guarantee factual accuracy; TypeLLM/TypeLLM densify HEAD c4b03ba9e792; us/jev-local stub until hf; Eran-BA/Jev_from_GLiNER2 spec ≠ replica; lsu-ub-uu/systemone ≠ TypeSafe System One; Layan/Laya HF spaces name-match; catalog ≠ endorsement; decide ≠ generate ≠ stream; 93.5% *theirs* not Harbor; 74.9 *theirs* not Harbor; 8.7x *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45; notes.md §123

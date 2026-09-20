@@ -20,7 +20,7 @@
     "forks_count",
     "likes"
   ],
-  "note": "Last-look snapshots for already-catalogued sources. Hourly diffs these four fingerprints. Star-noise is not a fold. SHA move is not a replica. Seeded from merged notes (SemIf §117, NanoJev §115), not a live census this pass. default_sha is the full HEAD from those cards. pushed_at is the GitHub push clock from §117 (not the commit timestamp). description_hash is sha256[:12] of the GitHub/Space description, or null when notes do not quote it. README SHA is an optional extra, not a substitute for description_hash.",
+  "note": "Last-look snapshots for already-catalogued sources. Hourly diffs these four fingerprints. Star-noise is not a fold. SHA move is not a replica. Seeded from merged notes (SemIf \u00a7117, NanoJev \u00a7115) plus hourly 1248 densify (openjev \u00a775, von \u00a749, verdict \u00a771, kev \u00a745, jeff \u00a760, TypeLLM \u00a7113). default_sha is the full HEAD. pushed_at is the GitHub push clock. description_hash is sha256[:12] of the GitHub/Space description, or null when notes do not quote it. README SHA is an optional extra, not a substitute for description_hash.",
   "looks": [
     {
       "id": "github:TheoLeeCJ/SemIf",
@@ -45,6 +45,78 @@
         "release_tag": "unified-games-v1"
       },
       "readme_sha": "4190093c64ee75b26e9726daa3b00cbcf6d3157a"
+    },
+    {
+      "id": "github:razorback16/openjev",
+      "notes_section": "75",
+      "last_look": "2026-09-20T18:48Z",
+      "fingerprints": {
+        "default_sha": "794a81b871312973116df22bd26c6c303d0acffb",
+        "pushed_at": "2026-09-20T18:26:28Z",
+        "description_hash": "3da60ee053e0",
+        "release_tag": null
+      },
+      "readme_sha": "3cbf28eb1e2de694079a7587bf2f52196b5c9faa"
+    },
+    {
+      "id": "github:wfzyx/von",
+      "notes_section": "49",
+      "last_look": "2026-09-20T18:48Z",
+      "fingerprints": {
+        "default_sha": "bed7e7337791c5124a557eb59ad918cb6747b276",
+        "pushed_at": "2026-09-20T13:38:37Z",
+        "description_hash": "34db25cb81c1",
+        "release_tag": null
+      },
+      "readme_sha": "550243b6a701e821068cdf251b6f8d1fbabbfae0"
+    },
+    {
+      "id": "github:Heman10x-NGU/openJev-verdict-2.0",
+      "notes_section": "71",
+      "last_look": "2026-09-20T18:48Z",
+      "fingerprints": {
+        "default_sha": "bff28567cff463b833bf044f351a8b7945d53e07",
+        "pushed_at": "2026-09-20T14:54:40Z",
+        "description_hash": "381fe3962d42",
+        "release_tag": null
+      },
+      "readme_sha": "d83e994730daa8a4b029932e4a7760d758c9cb38"
+    },
+    {
+      "id": "github:jaredpalmer/kev",
+      "notes_section": "45",
+      "last_look": "2026-09-20T18:48Z",
+      "fingerprints": {
+        "default_sha": "a955202be6bc70bca56d916b3250326143f2e3ec",
+        "pushed_at": "2026-09-20T18:56:09Z",
+        "description_hash": "8f68dcc43f12",
+        "release_tag": "kev-family"
+      },
+      "readme_sha": "bd8f04d0747e56e59e60cc8ba9a122f4e24a0707"
+    },
+    {
+      "id": "github:logan-markewich/jeff",
+      "notes_section": "60",
+      "last_look": "2026-09-20T18:48Z",
+      "fingerprints": {
+        "default_sha": "34b32f99a727c47b679adde33f4702a001e02979",
+        "pushed_at": "2026-09-20T00:59:58Z",
+        "description_hash": "3af718ea4a25",
+        "release_tag": null
+      },
+      "readme_sha": "6a476fda061665dfc182eee83274295de7f7ff10"
+    },
+    {
+      "id": "github:TypeLLM/TypeLLM",
+      "notes_section": "113",
+      "last_look": "2026-09-20T18:48Z",
+      "fingerprints": {
+        "default_sha": "c4b03ba9e792ef80095bb66f239b08835fbe155d",
+        "pushed_at": "2026-09-20T13:11:30Z",
+        "description_hash": "4e7869c96688",
+        "release_tag": null
+      },
+      "readme_sha": "116ca5f89352a8a2ffbe411bae5eeb5c8b342ee2"
     }
   ]
 }

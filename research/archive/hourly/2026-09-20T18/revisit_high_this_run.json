@@ -1,0 +1,62 @@
+[
+  {
+    "id": "razorback16/openjev",
+    "source": "github",
+    "stars": 192,
+    "change_type": "release_api_docker",
+    "what_changed": "Release 0.2.1 (sha 794a81b871) already on Docker Hub razorback16/openjev:0.2.1; prior commit matches Jev error contract (400 plain-text for unaskable question). Material serving-port + API-contract densify.",
+    "pushed_at": "2026-09-20T18:16:54Z",
+    "material": true,
+    "default_branch_sha": "794a81b871312973116df22bd26c6c303d0acffb"
+  },
+  {
+    "id": "wfzyx/von",
+    "source": "github",
+    "stars": 142,
+    "change_type": "architecture_bench",
+    "what_changed": "feat(arch): Option-Marker joint attention backend with 93.5% macro benchmark accuracy (sha a94aa368ff); follow-up fix(hub) restore 174-tensor sequence classification head + option-marker CLI / TypeSafe model wiring (sha bed7e73377, pushed 2026-09-20T13:38Z). Architecture + calibration/bench densify.",
+    "pushed_at": "2026-09-20T13:38:35Z",
+    "material": true,
+    "default_branch_sha": "bed7e7337791c5124a557eb59ad918cb6747b276"
+  },
+  {
+    "id": "Heman10x-NGU/openJev-verdict-2.0",
+    "source": "github",
+    "stars": 165,
+    "change_type": "bench_calibration",
+    "what_changed": "docs: Benchmark Heaven leaderboard #2 (74.9) with NLL calibration assets (sha bff28567cf, 2026-09-20T14:54Z). New published bench/calibration claim \u2014 densify card numbers.",
+    "pushed_at": "2026-09-20T14:54:38Z",
+    "material": true,
+    "default_branch_sha": "bff28567cff463b833bf044f351a8b7945d53e07"
+  },
+  {
+    "id": "jaredpalmer/kev",
+    "source": "github",
+    "stars": 888,
+    "change_type": "weights_release_port_plan",
+    "what_changed": "README links GitHub release with weight tarballs (sha 86db6d924c); PLAN_Qwen35 probe of Qwen3.5 bases (parity; deadline 0.53\u21920.82 at 9B) + port plan (sha 193c48cb26, 2026-09-20T18:52Z). New serving weights + architecture port plan.",
+    "pushed_at": "2026-09-20T18:52:03Z",
+    "material": true,
+    "default_branch_sha": "193c48cb2658ecb026ca0432f657415bd9846ed2"
+  },
+  {
+    "id": "logan-markewich/jeff",
+    "source": "github",
+    "stars": 159,
+    "change_type": "bench_results",
+    "what_changed": "update jevbench results (sha 34b32f99a7, 2026-09-20T00:59Z) after prior add jevbench results. Material bench densify for GliFormer open replica.",
+    "pushed_at": "2026-09-20T00:59:42Z",
+    "material": true,
+    "default_branch_sha": "34b32f99a727c47b679adde33f4702a001e02979"
+  },
+  {
+    "id": "TypeLLM/TypeLLM",
+    "source": "github",
+    "stars": 16,
+    "change_type": "readme_api_docs",
+    "what_changed": "README Updates: thinking mode (2026/09/19) thinking=True/False + per-field budget; integer/float via tokenizer-native constrained decoding (2026/09/18); pushed 2026-09-20 highlight Supported output types (Text/Integer/Number/Boolean/Enum). API/head-shape densify for TypeAR\u2192TypeLLM card.",
+    "pushed_at": "2026-09-20T13:11:30Z",
+    "material": true,
+    "default_branch_sha": "c4b03ba9e792ef80095bb66f239b08835fbe155d"
+  }
+]

@@ -11,6 +11,20 @@
   </div>
   <div class="recipe-grid">
     <article class="recipe panel">
+      <p class="kicker">Inference type</p>
+      <h3>Decide vs generate</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>A typed judgment treated as another token stream.</dd>
+        <dt>Without</dt>
+        <dd>Call tryDecide, then parse the chat. Ship the speedup.</dd>
+        <dt>With</dt>
+        <dd>decide is not generate. tryDecide returns typed calibrated judgments, not a token stream.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">Type of the return value. Third-party benches stay *theirs*.</dd>
+      </dl>
+    </article>
+    <article class="recipe panel">
       <p class="kicker">Encoder</p>
       <h3>GLiNER / GLiClass</h3>
       <dl>

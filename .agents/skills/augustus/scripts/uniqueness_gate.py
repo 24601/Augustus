@@ -2,7 +2,7 @@
 """Uniqueness gate for merged 0843 (§114), merged 0915 NanoJev (§115),
 merged 0920 jcr (§116), merged 0922 SemIf (§117), merged 0940
 llm-to-jev (§118), hourly 0947 HIGH (§119), hourly 1049 HIGH (§120),
-and hourly 1143 HIGH (§121).
+hourly 1143 HIGH (§121), and hourly 1248 HIGH (§123).
 
 Each lock must appear as one consecutive substring in every listed overlay.
 Fragments scattered across files do not count.
@@ -11,9 +11,9 @@ Revisit / since-last-look protocol (`notes.md` §122) is a consecutive
 substring in the skill + research files (not a 21-overlay dump wall).
 Hourly must treat revisit HIGH like novel HIGH. Star-noise is not a fold.
 
-Also: YAML-parse SKILL.md frontmatter; notes.md owns §114–§122;
-composition items 289–316, 322–329, 330–336, 337–352, 353–368, and 369–384 exist;
-findings batches #97–#104 exist. Items 317–321 stay unused.
+Also: YAML-parse SKILL.md frontmatter; notes.md owns §114–§123;
+composition items 289–316, 322–329, 330–336, 337–352, 353–368, 369–384, and 385–400 exist;
+findings batches #97–#105 exist. Items 317–321 stay unused.
 CHANGELOG.md must not hold uniqueness dump walls (dumps live in
 changelog-hourly.md). README.md must not hold the 0743 dump wall.
 Pages greps stay in docs/index.md and docs/_layouts/default.html.
@@ -134,6 +134,10 @@ UNIQ_1143 = (
     'Hourly 1143 uniqueness lock: open recreation ≠ calibrated replica; Qwen3.5-4B ≠ Archer; It is an open re-creation of Jev; less calibrated; perch 164★ MIT HEAD ba775a9940b6 README SHA 7ad0403b; semantic lint is a sensor not a proof; oxlint-plugin-jev cutoff 0.8 still soft; nassim-arifette/jevgrep ≠ Bentlybro/jevgrep ≠ can1357/jegrep ≠ uehaj/jev-semgrep; patdown fuzzy linter; PanAchy/jevvy ≠ Atominac/jevvy; No orders, no advice; SmartMoney-Cub 25★ HEAD d93cf493853d; paired bootstrap CIs *theirs*; emretheus/jev-rag-benchmark ≠ erendikmenn/jev-rag-benchmark; +0.82 pts XQuAD-EN 95% CI +0.35 to +1.31; +7.62 pts SciFact CI +4.88 to +10.38; Same accuracy, 35x faster *theirs*; systems comparison ≠ semantic equivalence; BANKING77 500 Jev 81.0% GPT-OSS 82.8% Mercury 73.2% Gemini 85.4% *theirs*; frozen cascade missed its evaluation accuracy target 430/500 vs GPT-5 432/500; This is not demonstrated equal-quality savings; 24 invented tickets; Routing errors caught by the gate 0 of 3; sample too small to establish calibration; This is not TypeSafe Jev; No real API requests were made; wire-compat ≠ replica; KonghaYao/laya-jev 按官方接口写的客户端只改一个 base URL; gqgs/laya-onnx densify 496.8 MiB; tozp/laya-onnx ≠ Mattepiu/laya-onnx ≠ gqgs/laya-onnx; serving substrate ≠ calibrated replica; BeatAPI/awesome-jev ≠ 99hansling/awesome-jev ≠ Vishnurr2k01/awesome-jev ≠ robokrunch/awesome-jev ≠ rudy2steiner/awesome-jev-hub; All 125 projects; catalog ≠ endorsement; Pasblinn/jev-lab ≠ tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab ≠ q93304989-bit/jev-lab; Independent project. Not affiliated with TypeSafe; Kevthetech143/super-jev densify experimental V0.2.0; permission ≠ confidence; allay-team/openjev ≠ piyush-infocusp/openjev ≠ TheoLeeCJ/openjev; 2022 Mineflayer Jevalent collision; kushalpatil/jevify-gemma4-e4b GGUF densify; static quants; This dataset and model are independent research artifacts, not reproductions of Jev or RLCD; pngwn demo accuracy 0.705 ECE 0.046 ~112 ms *theirs*; cutoff 0.8 still soft; soft scores ≠ hard gates; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43; notes.md §121'
 )
 
+UNIQ_1248 = (
+    'Hourly 1248 uniqueness lock: decide is not generate; tryDecide returns typed calibrated judgments not a token stream; juspay/neurolink 133★ MIT HEAD 268b0fe83130 README SHA e709cadfa6b6 tag v12.19.0; GLiNER/GLiClass ports are class members not Jev replicas; MacPaw/Gliner2Swift ≠ Knowledgator/GLiClass.c ≠ fbilhaut/gliclass-rs ≠ Knowledgator/GLiClass.js ≠ gravitee-io/GLiNER4j ≠ apiplant/gliner-rs ≠ codesoda/gliner2-rs; 8.7x faster 4.4x fewer prompts *theirs*; 153 was a reporting error; corrected 156-case 9.8x faster 4.2x fewer prompts *theirs*; independent v0.2.1 1.24x vs Mini *theirs*; Approvals only; anpicasso/hermes-jev-approvals ≠ hermes-switchyard; scx-router GLiClass ranks candidate LLMs in one non-generative pass; typesafeai-dotnet-sdk Not affiliated with TypeSafe AI; hyperspaceai/jevcache ≠ kushals256/jevcache; ST-jeved measures each reply; 400 plain-text for unaskable question; razorback16/openjev:0.2.1 Docker densify HEAD 794a81b87131; wire-compat ≠ logit-equiv; Option-Marker joint attention 93.5% macro *theirs*; 93.6% micro *theirs*; n=78; T = 1.0367 vs T = 1.1692 two temperatures; guaranteeing is soundness theater; wfzyx/von densify HEAD bed7e7337791; Benchmark Heaven leaderboard #2 74.9 *theirs*; NLL calibration assets; 77.10% still §71 claim-audit; do not re-fold as a beat; Heman10x-NGU/openJev-verdict-2.0 densify HEAD bff28567cff4; kev-family weight tarballs; PLAN_Qwen35 proposal for review; deadline 0.53→0.82 at 9B *theirs*; Qwen3.5-9B ≠ Archer; isolation would fail by construction on DeltaNet; jaredpalmer/kev densify; JevBench v1.2.2 jeff 66.9 (#9) jev 75.3 (#2) *theirs*; logan-markewich/jeff densify HEAD 34b32f99a727; thinking=True/False per-field budget; type safety does not guarantee factual accuracy; TypeLLM/TypeLLM densify HEAD c4b03ba9e792; us/jev-local stub until hf; Eran-BA/Jev_from_GLiNER2 spec ≠ replica; lsu-ub-uu/systemone ≠ TypeSafe System One; Layan/Laya HF spaces name-match; catalog ≠ endorsement; decide ≠ generate ≠ stream; 93.5% *theirs* not Harbor; 74.9 *theirs* not Harbor; 8.7x *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45; notes.md §123'
+)
+
 REVISIT_LOCK = (
     "Revisit / since-last-look lock: catalogued repos are not done; "
     "store fingerprints default_sha, pushed_at, description_hash, release_tag; "
@@ -213,6 +217,8 @@ def main() -> int:
             failed.append(f"1049 lock missing as one substring: {rel}")
         if UNIQ_1143 not in body:
             failed.append(f"1143 lock missing as one substring: {rel}")
+        if UNIQ_1248 not in body:
+            failed.append(f"1248 lock missing as one substring: {rel}")
     for rel in REVISIT_OVERLAYS:
         path = ROOT / rel
         if not path.is_file():
@@ -240,6 +246,8 @@ def main() -> int:
         failed.append("notes.md missing §121 heading")
     if "## 122. Revisit / since-last-look" not in notes:
         failed.append("notes.md missing §122 heading")
+    if "## 123. Hourly 1248 HIGH" not in notes:
+        failed.append("notes.md missing §123 heading")
     algebra = (ROOT / ".agents/skills/augustus/references/composition-algebra.md").read_text(
         encoding="utf-8"
     )
@@ -261,6 +269,7 @@ def main() -> int:
         "## Batch #102",
         "## Batch #103",
         "## Batch #104",
+        "## Batch #105",
     ):
         if batch not in findings:
             failed.append(f"findings.md missing {batch}")
@@ -317,6 +326,19 @@ def main() -> int:
             "This is not demonstrated equal-quality savings",
             "permission ≠ confidence",
             "wire-compat ≠ replica",
+            "decide is not generate",
+            "tryDecide returns typed calibrated judgments not a token stream",
+            "GLiNER/GLiClass ports are class members not Jev replicas",
+            "93.5% *theirs* not Harbor",
+            "74.9 *theirs* not Harbor",
+            "8.7x *theirs* not Harbor",
+            "Option-Marker joint attention",
+            "openjev:0.2.1",
+            "thinking=True/False per-field budget",
+            "PLAN_Qwen35",
+            "hyperspaceai/jevcache ≠ kushals256/jevcache",
+            "wire-compat ≠ logit-equiv",
+            "SHA move is not a replica",
         ):
             if frag not in haystack:
                 failed.append(f"SKILL.md missing fragment {frag!r}")
@@ -353,6 +375,20 @@ def main() -> int:
                 "catalogued repo changed",
                 "star-noise vs material change",
                 "densify prior notes without inventing equivalence",
+                "decide is not generate",
+                "tryDecide returns typed calibrated judgments not a token stream",
+                "GLiNER/GLiClass ports are class members not Jev replicas",
+                "93.5% *theirs* not Harbor",
+                "74.9 *theirs* not Harbor",
+                "8.7x *theirs* not Harbor",
+                "Option-Marker joint attention",
+                "openjev:0.2.1",
+                "thinking=True/False per-field budget",
+                "PLAN_Qwen35",
+                "hyperspaceai/jevcache ≠ kushals256/jevcache",
+                "wire-compat ≠ logit-equiv",
+                "SHA move is not a replica",
+                "hourly 1248 / notes.md §123",
             ):
                 if frag not in proto_line:
                     failed.append(f"SKILL.md protocol missing {frag!r}")
@@ -366,6 +402,7 @@ def main() -> int:
         ("0947", UNIQ_0947),
         ("1049", UNIQ_1049),
         ("1143", UNIQ_1143),
+        ("1248", UNIQ_1248),
     ):
         if lock in changelog:
             failed.append(
@@ -435,6 +472,7 @@ def main() -> int:
         f"0940 chars={len(UNIQ_0940)} 0947 chars={len(UNIQ_0947)} "
         f"1049 chars={len(UNIQ_1049)} "
         f"1143 chars={len(UNIQ_1143)} "
+        f"1248 chars={len(UNIQ_1248)} "
         f"revisit chars={len(REVISIT_LOCK)} "
         f"overlays={len(OVERLAYS)} "
         f"revisit_overlays={len(REVISIT_OVERLAYS)}"
