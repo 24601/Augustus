@@ -1,10 +1,11 @@
-# Hourly uniqueness dump (pre-0.4.0 + 0743 + 0843)
+# Hourly uniqueness dump (pre-0.4.0 + 0743 + 0843 + 0915)
 
 This is the pre-0.4.0 `CHANGELOG.md` after hourly folds (#2–#30 / notes
 §44–§112) stuffed uniqueness locks into Keep-a-Changelog sections, plus
 the merged **0743 HIGH** dump (PR #31 / notes.md §113 / items 273–288
-/ batch #96) and **0843 HIGH** dump (PR #35 / notes.md §114 / items 289–302
-/ batch #97). It is **not** release notes.
+/ batch #96), **0843 HIGH** dump (PR #35 / notes.md §114 / items 289–302
+/ batch #97), and **0915 HIGH** dump (PR #36 / notes.md §115 / items
+303–308 / batch #98). It is **not** release notes.
 
 - Release-facing notes: [`CHANGELOG.md`](../CHANGELOG.md)
 - Canonical folds: [`notes.md`](notes.md)
@@ -32,9 +33,8 @@ batch #97. Soft Noul ≠ hard safety.
   Archer rewrite.** Docs-only on a **fresh PR off main**.
   **HARD RULE:** do not reopen or amend PR #31 or #32 or #33
   or #35. Merged #31 owns §113 / items 273–288 / batch #96.
-  Open #35 still claims §113 with remap; reserve §114 / items
-  289–302 / batch #97. This fold is §115 / items 303–308 /
-  batch #98. Already a light citation (§7 / §72); this is the
+  Merged #35 owns §114 / items 289–302 / batch #97.
+  This fold stays §115 / items 303–308 / batch #98. Already a light citation (§7 / §72); this is the
   **unified-games-v1 densify**. Quote *theirs*. Soft Noul ≠
   hard gate. Game success ≠ calibrated Noul. local type
   boolean ≠ TypeSafe noul. not TypeSafe Jev; open replica /

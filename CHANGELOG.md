@@ -19,8 +19,9 @@ folds: `research/notes.md`.
 User-provided 0915 HIGH (`research/notes.md` §115 /
 composition items 303–308 / findings batch #98). Does
 **not** bump the 0.4.0 pin. Do not reopen or amend PR
-#31/#32/#33/#35. Open #35 remap reserved at §114 /
-items 289–302 / batch #97.
+#31/#32/#33/#35. Merged #35 owns §114 /
+items 289–302 / batch #97. This fold stays §115 /
+303–308 / #98.
 
 ### Added
 

@@ -3126,8 +3126,8 @@ User-provided 0915 uniqueness lock: TianyuCodings/NanoJev unified-games-v1 densi
 
 Note: `research/notes.md` §115. Docs-only on a fresh PR
 off main. Merged #31 owns `notes.md` §113 / items 273–288 / batch #96.
-Open #35 still claims §113 with remap; reserve §114 / items 289–302 /
-batch #97. This fold is §115 / items 303–308 / batch #98.
+Merged #35 owns §114 / items 289–302 / batch #97.
+This fold stays §115 / items 303–308 / batch #98.
 **HARD RULE:** do not reopen or amend PR #31 or #32 or #33 or #35.
 Do **not** re-fold §7 / §72 light NanoJev as a first sighting.
 Do **not** re-fold §99 jev-forge. Quote READMEs. Soft

@@ -1926,68 +1926,6 @@ User-provided 0806 uniqueness lock: people who compare Jev against GPT-5.6 has n
      position 1 (Operand). current-llm. 结构兼容，不是 Jev 模型能力.
      Full cards: `applied-mappings.md`, `faq.md`.
 
-303. **NanoJev unified-games-v1 PRIMARY** (TianyuCodings/NanoJev):
-     positions 1 (Operand) × 4 (Selector) × 10 (Discretizer).
-     A 0.6B parallel decision model: states and questions in, complete probability distributions out. Zero output-token decoding.
-     not TypeSafe Jev; open replica / specialist gameplay S1.
-     Full cards: `judgment-class.md`, `mixed-architecture.md`, `faq.md`.
-304. **Zero-token parallel / dynamic candidates** (TianyuCodings/NanoJev):
-     positions 1 (Operand) × 10 (Discretizer).
-     Parallel decisions; Choice 2–255; Boolean; Score 2–10 ordered levels.
-     Softmax over a supplied bag ≠ a Noul.
-     Full cards: `judgment-class.md`, `faq.md`.
-305. **One model, four games / held-out table** (TianyuCodings/NanoJev):
-     position 8 (Metric). One model, four games.
-     ViZDoom Basic 128/128 vs Jev 56/128; Predict Position 27/128 vs Jev 11/128;
-     Maze 225 attempts vs Jev 2738; Snake 30 food / 256 steps;
-     held-out Maze 4/10 Snake 8/8 Basic 128/128 Predict 27/128.
-     Untuned Qwen3-0.6B baseline. Game success ≠ calibrated Noul.
-     Full cards: `validation.md`, `faq.md`.
-306. **Dataset / mix / hard_lr1e5** (hf:C-Tianyu/NanoJev + C-Tianyu/NanoJev-Data):
-     position 8 (Metric). 18,760 questions per variant; 16,333 ViZDoom;
-     896 Predict Position expert episodes; hard_lr1e5;
-     mix weights 1/3, 1/3, 1/6, 1/6; Hub C-Tianyu/NanoJev revision unified-games-v1 likes 57;
-     dataset C-Tianyu/NanoJev-Data likes 5.
-     Full cards: `validation.md`.
-307. **Name collisions** (caijinchun/nanojev-arena / liao96312/jev-arena-nanojev / zwliJay/jev-forge):
-     namesake lock. caijinchun/nanojev-arena ≠ liao96312/jev-arena-nanojev ≠ zwliJay/jev-forge ≠ NanoJev.
-     Full cards: `faq.md`, `judgment-class.md`.
-308. **boolean ≠ noul / demo 401 / calibration honesty** (TianyuCodings/NanoJev):
-     positions 1 (Operand) × 9 (Verifier — rejected as proof).
-     local type boolean ≠ TypeSafe noul.
-     A normalized distribution alone does not establish empirical probability calibration.
-     Demo HTTP 401 gated; recordings local. soft scores ≠ hard gates.
-     Full cards: `formal-methods.md`, `mixed-architecture.md`, `faq.md`.
-
-User-provided 0915 items 303–308 (`notes.md` §115). Do **not**
-re-fold §113 items 273–288 / reserved §114 items 289–302
-(#35 remap) / merged #30 items 268–272 / 0646 items 248–267.
-Skip Archer rewrite. Game success ≠ calibrated Noul;
-local type boolean ≠ TypeSafe noul;
-caijinchun/nanojev-arena ≠ liao96312/jev-arena-nanojev ≠ zwliJay/jev-forge ≠ NanoJev;
-do not reopen or amend PR #31/#32/#33/#35.
-Soft Noul ≠ hard safety.
-
-User-provided 0915 uniqueness lock: TianyuCodings/NanoJev unified-games-v1 densify; A 0.6B parallel decision model: states and questions in, complete probability distributions out. Zero output-token decoding.; One model, four games; ViZDoom Basic 128/128 vs Jev 56/128; Predict Position 27/128 vs Jev 11/128; Maze 225 attempts vs Jev 2738; Snake 30 food / 256 steps; held-out Maze 4/10 Snake 8/8 Basic 128/128 Predict 27/128; Untuned Qwen3-0.6B baseline; 18,760 questions per variant; 16,333 ViZDoom; 896 Predict Position expert episodes; hard_lr1e5; mix weights 1/3, 1/3, 1/6, 1/6; Hub C-Tianyu/NanoJev revision unified-games-v1 likes 57; dataset C-Tianyu/NanoJev-Data likes 5; HEAD 618cea6d906d54e128360786d12f703fff2b1245; 1284★ / 158 forks / size 64035; README SHA 4190093c64ee75b26e9726daa3b00cbcf6d3157a; MIT; caijinchun/nanojev-arena ≠ liao96312/jev-arena-nanojev ≠ zwliJay/jev-forge ≠ NanoJev; not TypeSafe Jev; open replica / specialist gameplay S1; soft scores ≠ hard gates; Game success ≠ calibrated Noul; local type boolean ≠ TypeSafe noul; invented_signal false; do not reopen or amend PR #31/#32/#33/#35; notes.md §115
-
-Hourly 0743 items 273–288 (`notes.md` §113). Do **not**
-re-fold merged #30 items 268–272 / 0646 items 248–267 / 0541 items 226–247 / 0439 items 202–225 / 0345 items 186–201 / 0243 items 178–185 / 0145 items 161–177 / 0042 items 149–160 / 2340 items 138–148 / 2246 items 129–137 / 2145
-items 120–128 / 2041 items 111–119 / 1943 items 102–110 /
-1843 items 97–101 / 1740 items 94–96 / SIGNAL §93
-mechanism / §60 six-gates / §78 v1.2 board / §71 claim-audit /
-pngwn RESULTS / yuki-oshio/mini-jev *93.25%*.
-Ranking ≠ calibration theater; softmax over A/B/C ≠ Noul;
-0.85 still soft; ACT is policy not proof;
-SemIf 2241★ (+34 vs §111 2207);
-tracker likes 67 (+3 vs 64), lastModified UNCHANGED;
-Laya likes 864 (was 822); Blackwood tracker ABSENT;
-Archer still promised_not_landed;
-TypeAR-AI/TypeAR 301 → TypeLLM/TypeLLM;
-do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33.
-Soft Noul ≠ hard safety.
-
-Hourly 0743 uniqueness lock: Heman10x-NGU/Verdict-open-jev ≠ Heman10x-NGU/openJev-verdict-2.0; TF-IDF + LogReg ECE 0.0207 vs Jev 0.1440; Verdict-open-jev 48.07% vs Jev 90.80%; abstention combined recall 10.00%; p50 35.58 ms; K=25 (maximum capacity) 72.00%; 0.85 coverage 84.60% selective risk 1.18%; 26.1× faster than standard Qwen JSON generation; Jevify 90.0% / 167 ms CUDA graphs disabled; Finding 1: Brier on stated confidence alone is a trap; grpo_rlcr 0.78 / ECE 0.084; reliability 0.007 but resolution 0.000; 27 900 schema-driven decisions; 13 600 / 13 600 questions; candidate mass min 0.99999624; 22 configs · 166,054 rows · 4 calibration-gold; sha a39eba3f; Student B MAE 0.148 / Pearson 0.836 / 86.0%; pngwn/open-jev-laya-bench README 404; sha 9f69c742 likes 2; HDFS 0.9933 (745/750) / retain 0.0084; BGL ERROR/FATAL protection 1.0000; 2,479 / 2,500 HDFS uncertain; cache hit 0.9648 (2412/2500); $0.153936 estimated; E2 recomputes from saved probabilities; Space sha eda59e0a; MASSIVE English 0.783 / Khmer 0.033 / Hindi 0.133; 40–48 rows too small to ship T; T never changes argmax; siren2345/jev-single-decode-transformers ≠ siren2345/jev-single-decode; Split Transformers experiment from llama.cpp runtime; tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab; Four experiments stress-testing TypeSafe's Jev: calibration, bundle bias, label bias, and ensembling; second pass must be $0.00 from cache; The pages never call Jev; Gemma 4 31B 77.0% / Jev 1.13.0 61.4% / Laya 322M 0.0%; restriction state 95.0% against 84.4%; None of the systems are particularly good at knowing when to stop and ask; They skip the question and call a tool directly; 100% schema pass; six-field joint 48.8% vs 72.8%; ywchiu/jev_benchmark ≠ Running-Dolphins/jev-bench ≠ Praveenrajus/jev-bench; ACT / REVIEW / FALLBACK; A provider failure, timeout, malformed output, or missing answer is **not** a policy outcome; confidence is descriptive provider output, not a substitute for probability; Quality denominators include only valid scored answers; an exact halfway tie chooses the lower level; aiwithenoch/Jev-Skill ≠ simplosophy/jev-skill ≠ laguagu/jev-skills; The local path does not claim to turn a smaller checkpoint into Jev; Low support becomes decision: "review"; MIT-0 SPDX NOASSERTION; current-llm; 结构兼容，不是 Jev 模型能力; altryne/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify; Find where Jev belongs. Design the questions. Measure the difference; TypeAR-AI/TypeAR 301 → TypeLLM/TypeLLM; TypeLLM/TypeLLM 16★; SemIf 2241★ (+34 vs §111 2207); jevlike 1051★ (+8 vs 1043); AnotiaWang 98★ (+1 vs 97); yibie/awesome-jev 525★ (+19 vs 506); Laya likes 864 (was 822); tracker likes 67 (+3 vs 64); lastModified UNCHANGED `2026-09-20T04:29:16.000Z`; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33; notes.md §113
-
 289. **Hysteresis as policy** (edgardcham/huncho):
      positions 3 (Gate) × 7 (Policy). A hunch is a probability with a policy attached.
      { enter: 0.8, exit: 0.6 } is hysteresis. replay a policy change without inference.
@@ -2064,6 +2002,68 @@ tunahan census as a sibling. Merged #31 owns items 273–288 / `notes.md` §113 
 Archer still promised_not_landed.
 Soft Noul ≠ hard safety.
 
+
+303. **NanoJev unified-games-v1 PRIMARY** (TianyuCodings/NanoJev):
+     positions 1 (Operand) × 4 (Selector) × 10 (Discretizer).
+     A 0.6B parallel decision model: states and questions in, complete probability distributions out. Zero output-token decoding.
+     not TypeSafe Jev; open replica / specialist gameplay S1.
+     Full cards: `judgment-class.md`, `mixed-architecture.md`, `faq.md`.
+304. **Zero-token parallel / dynamic candidates** (TianyuCodings/NanoJev):
+     positions 1 (Operand) × 10 (Discretizer).
+     Parallel decisions; Choice 2–255; Boolean; Score 2–10 ordered levels.
+     Softmax over a supplied bag ≠ a Noul.
+     Full cards: `judgment-class.md`, `faq.md`.
+305. **One model, four games / held-out table** (TianyuCodings/NanoJev):
+     position 8 (Metric). One model, four games.
+     ViZDoom Basic 128/128 vs Jev 56/128; Predict Position 27/128 vs Jev 11/128;
+     Maze 225 attempts vs Jev 2738; Snake 30 food / 256 steps;
+     held-out Maze 4/10 Snake 8/8 Basic 128/128 Predict 27/128.
+     Untuned Qwen3-0.6B baseline. Game success ≠ calibrated Noul.
+     Full cards: `validation.md`, `faq.md`.
+306. **Dataset / mix / hard_lr1e5** (hf:C-Tianyu/NanoJev + C-Tianyu/NanoJev-Data):
+     position 8 (Metric). 18,760 questions per variant; 16,333 ViZDoom;
+     896 Predict Position expert episodes; hard_lr1e5;
+     mix weights 1/3, 1/3, 1/6, 1/6; Hub C-Tianyu/NanoJev revision unified-games-v1 likes 57;
+     dataset C-Tianyu/NanoJev-Data likes 5.
+     Full cards: `validation.md`.
+307. **Name collisions** (caijinchun/nanojev-arena / liao96312/jev-arena-nanojev / zwliJay/jev-forge):
+     namesake lock. caijinchun/nanojev-arena ≠ liao96312/jev-arena-nanojev ≠ zwliJay/jev-forge ≠ NanoJev.
+     Full cards: `faq.md`, `judgment-class.md`.
+308. **boolean ≠ noul / demo 401 / calibration honesty** (TianyuCodings/NanoJev):
+     positions 1 (Operand) × 9 (Verifier — rejected as proof).
+     local type boolean ≠ TypeSafe noul.
+     A normalized distribution alone does not establish empirical probability calibration.
+     Demo HTTP 401 gated; recordings local. soft scores ≠ hard gates.
+     Full cards: `formal-methods.md`, `mixed-architecture.md`, `faq.md`.
+
+User-provided 0915 items 303–308 (`notes.md` §115). Do **not**
+re-fold §113 items 273–288 / merged #35 §114 items 289–302
+/ merged #30 items 268–272 / 0646 items 248–267.
+Skip Archer rewrite. Game success ≠ calibrated Noul;
+local type boolean ≠ TypeSafe noul;
+caijinchun/nanojev-arena ≠ liao96312/jev-arena-nanojev ≠ zwliJay/jev-forge ≠ NanoJev;
+do not reopen or amend PR #31/#32/#33/#35.
+Soft Noul ≠ hard safety.
+
+User-provided 0915 uniqueness lock: TianyuCodings/NanoJev unified-games-v1 densify; A 0.6B parallel decision model: states and questions in, complete probability distributions out. Zero output-token decoding.; One model, four games; ViZDoom Basic 128/128 vs Jev 56/128; Predict Position 27/128 vs Jev 11/128; Maze 225 attempts vs Jev 2738; Snake 30 food / 256 steps; held-out Maze 4/10 Snake 8/8 Basic 128/128 Predict 27/128; Untuned Qwen3-0.6B baseline; 18,760 questions per variant; 16,333 ViZDoom; 896 Predict Position expert episodes; hard_lr1e5; mix weights 1/3, 1/3, 1/6, 1/6; Hub C-Tianyu/NanoJev revision unified-games-v1 likes 57; dataset C-Tianyu/NanoJev-Data likes 5; HEAD 618cea6d906d54e128360786d12f703fff2b1245; 1284★ / 158 forks / size 64035; README SHA 4190093c64ee75b26e9726daa3b00cbcf6d3157a; MIT; caijinchun/nanojev-arena ≠ liao96312/jev-arena-nanojev ≠ zwliJay/jev-forge ≠ NanoJev; not TypeSafe Jev; open replica / specialist gameplay S1; soft scores ≠ hard gates; Game success ≠ calibrated Noul; local type boolean ≠ TypeSafe noul; invented_signal false; do not reopen or amend PR #31/#32/#33/#35; notes.md §115
+
+Hourly 0743 items 273–288 (`notes.md` §113). Do **not**
+re-fold merged #30 items 268–272 / 0646 items 248–267 / 0541 items 226–247 / 0439 items 202–225 / 0345 items 186–201 / 0243 items 178–185 / 0145 items 161–177 / 0042 items 149–160 / 2340 items 138–148 / 2246 items 129–137 / 2145
+items 120–128 / 2041 items 111–119 / 1943 items 102–110 /
+1843 items 97–101 / 1740 items 94–96 / SIGNAL §93
+mechanism / §60 six-gates / §78 v1.2 board / §71 claim-audit /
+pngwn RESULTS / yuki-oshio/mini-jev *93.25%*.
+Ranking ≠ calibration theater; softmax over A/B/C ≠ Noul;
+0.85 still soft; ACT is policy not proof;
+SemIf 2241★ (+34 vs §111 2207);
+tracker likes 67 (+3 vs 64), lastModified UNCHANGED;
+Laya likes 864 (was 822); Blackwood tracker ABSENT;
+Archer still promised_not_landed;
+TypeAR-AI/TypeAR 301 → TypeLLM/TypeLLM;
+do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33.
+Soft Noul ≠ hard safety.
+
+Hourly 0743 uniqueness lock: Heman10x-NGU/Verdict-open-jev ≠ Heman10x-NGU/openJev-verdict-2.0; TF-IDF + LogReg ECE 0.0207 vs Jev 0.1440; Verdict-open-jev 48.07% vs Jev 90.80%; abstention combined recall 10.00%; p50 35.58 ms; K=25 (maximum capacity) 72.00%; 0.85 coverage 84.60% selective risk 1.18%; 26.1× faster than standard Qwen JSON generation; Jevify 90.0% / 167 ms CUDA graphs disabled; Finding 1: Brier on stated confidence alone is a trap; grpo_rlcr 0.78 / ECE 0.084; reliability 0.007 but resolution 0.000; 27 900 schema-driven decisions; 13 600 / 13 600 questions; candidate mass min 0.99999624; 22 configs · 166,054 rows · 4 calibration-gold; sha a39eba3f; Student B MAE 0.148 / Pearson 0.836 / 86.0%; pngwn/open-jev-laya-bench README 404; sha 9f69c742 likes 2; HDFS 0.9933 (745/750) / retain 0.0084; BGL ERROR/FATAL protection 1.0000; 2,479 / 2,500 HDFS uncertain; cache hit 0.9648 (2412/2500); $0.153936 estimated; E2 recomputes from saved probabilities; Space sha eda59e0a; MASSIVE English 0.783 / Khmer 0.033 / Hindi 0.133; 40–48 rows too small to ship T; T never changes argmax; siren2345/jev-single-decode-transformers ≠ siren2345/jev-single-decode; Split Transformers experiment from llama.cpp runtime; tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab; Four experiments stress-testing TypeSafe's Jev: calibration, bundle bias, label bias, and ensembling; second pass must be $0.00 from cache; The pages never call Jev; Gemma 4 31B 77.0% / Jev 1.13.0 61.4% / Laya 322M 0.0%; restriction state 95.0% against 84.4%; None of the systems are particularly good at knowing when to stop and ask; They skip the question and call a tool directly; 100% schema pass; six-field joint 48.8% vs 72.8%; ywchiu/jev_benchmark ≠ Running-Dolphins/jev-bench ≠ Praveenrajus/jev-bench; ACT / REVIEW / FALLBACK; A provider failure, timeout, malformed output, or missing answer is **not** a policy outcome; confidence is descriptive provider output, not a substitute for probability; Quality denominators include only valid scored answers; an exact halfway tie chooses the lower level; aiwithenoch/Jev-Skill ≠ simplosophy/jev-skill ≠ laguagu/jev-skills; The local path does not claim to turn a smaller checkpoint into Jev; Low support becomes decision: "review"; MIT-0 SPDX NOASSERTION; current-llm; 结构兼容，不是 Jev 模型能力; altryne/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify; Find where Jev belongs. Design the questions. Measure the difference; TypeAR-AI/TypeAR 301 → TypeLLM/TypeLLM; TypeLLM/TypeLLM 16★; SemIf 2241★ (+34 vs §111 2207); jevlike 1051★ (+8 vs 1043); AnotiaWang 98★ (+1 vs 97); yibie/awesome-jev 525★ (+19 vs 506); Laya likes 864 (was 822); tracker likes 67 (+3 vs 64); lastModified UNCHANGED `2026-09-20T04:29:16.000Z`; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33; notes.md §113
 
 Hourly 0646 items 248–267 (`notes.md` §111). Do **not**
 re-fold 0541 items 226–247 / 0439 items 202–225 / 0345 items 186–201 / 0243 items 178–185 / 0145 items 161–177 / 0042 items 149–160 / 2340 items 138–148 / 2246 items 129–137 / 2145

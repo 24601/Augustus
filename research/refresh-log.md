@@ -3096,9 +3096,8 @@ Hourly 0843 uniqueness lock: A hunch is a probability with a policy attached; { 
 ## 2026-09-20 ~15:15 UTC — user-provided HIGH NanoJev unified-games-v1 densify
 - Docs-only on a **fresh PR off main** (`cursor/nanojev-unified-games-v1-densify-9049`).
   After merged #31 (`35bec95`, hourly 0743 / `notes.md` §113).
-  Open #35 still claims §113 with remap; reserve §114 / items
-  289–302 / batch #97. This fold is §115 / items 303–308 /
-  batch #98.
+  Merged #35 owns §114 / items 289–302 / batch #97.
+  This fold stays §115 / items 303–308 / batch #98.
   **HARD RULE:** do not reopen or amend PR #31 or #32 or #33
   or #35.
 - Live REST: TianyuCodings/NanoJev **1284★** / **158** forks /

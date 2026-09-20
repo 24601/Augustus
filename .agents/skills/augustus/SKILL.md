@@ -254,8 +254,8 @@ decoding. One model, four games. Game success ≠ calibrated
 Noul. local type boolean ≠ TypeSafe noul. caijinchun/nanojev-arena
 ≠ liao96312/jev-arena-nanojev ≠ zwliJay/jev-forge ≠ NanoJev.
 Do not copy `pip` / `snapshot_download` / `serve_decisions`.
-Do not reopen or amend PR #31/#32/#33/#35. Reserve §114 for
-open #35 remap. Skip Archer. `invented_signal: false`.
+Do not reopen or amend PR #31/#32/#33/#35. Merged #35 owns
+§114. This fold stays §115. Skip Archer. `invented_signal: false`.
 Protocol: quote *theirs*; mixed-architecture fail polarity
 per act; judgment-class replica honesty.
 

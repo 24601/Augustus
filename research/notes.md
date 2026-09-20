@@ -28399,11 +28399,10 @@ Docs-only on a **fresh PR off main**
 **HARD RULE:** do not reopen or amend PR **#31** or
 **#32** or **#33** or **#35**. After merged #31
 (`35bec95`, hourly 0743 / `notes.md` §113 / items
-273–288 / batch #96). Open #35 still claims §113 /
-items 273–286 / batch #96 with remap-if-#31-merges;
-reserve **§114 / items 289–302 / batch #97** for
-that remap. This fold is **§115 / composition items
-303–308 / findings batch #98**. Already referenced
+273–288 / batch #96). Merged #35 owns **§114 /
+items 289–302 / batch #97**. This fold stays
+**§115 / composition items 303–308 / findings
+batch #98**. Already referenced
 lightly in §7 / §72 jevinf / ecosystem / faq /
 judgment-class — **unified-games-v1 densify**, not a
 first sighting. Do **not** re-fold §99 jev-forge as

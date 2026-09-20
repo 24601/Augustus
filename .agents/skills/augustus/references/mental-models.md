@@ -2766,7 +2766,7 @@ unified-games-v1 — open replica / specialist gameplay S1,
 not SWE-only). Do **not** re-fold §7 / §72 light NanoJev as
 a first sighting. Do **not** re-fold §99 jev-forge / §113 /
 §112. Fresh PR; never reopen merged **#31** / **#32** /
-**#33** or open **#35**. do not reopen or amend PR #31 or
+**#33** / **#35**. do not reopen or amend PR #31 or
 #32 or #33 or #35. Skip Archer rewrite (still
 **promised_not_landed**). Quote *theirs*. Do not invent
 accuracy numbers. Soft Noul ≠ hard safety. Formal methods
