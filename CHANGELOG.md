@@ -19,7 +19,8 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
 - Hourly 0439 HIGH (`research/notes.md` §109): **Skip
   Archer rewrite.** Docs-only on a **fresh PR off main**.
   **HARD RULE:** do not reopen or amend PR #23 or #24 or #25
-  or #26 (merged #23 owns `notes.md` §105 / items 149–160 /
+  or #26 (do not reopen or amend PR #23/#24/#25/#26.
+  merged #23 owns `notes.md` §105 / items 149–160 /
   batch #88; merged #24 owns `notes.md` §106 / items 161–177 /
   batch #89; merged #25 owns `notes.md` §107 / items 178–185 /
   batch #90; merged #26 owns `notes.md` §108 / items 186–201 /
@@ -145,6 +146,8 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   5m win rate 25%;
   JS; license null; **0★**; HEAD `ed98ca8e`; README SHA `4eded35a`; size **91**).
   Awesomejev 656 entries / 38,160 stars;
+  WANLI-256 64.5% / 60.2% / 52.0% *theirs*;
+  rank #4 / #5 / #6 of 6;
   tracker likes 64 (+4) lastModified UNCHANGED;
   Laya present; Blackwood ABSENT; Archer still promised_not_landed.
   0★ HIGH still got a real card. Soft Noul ≠ hard safety.

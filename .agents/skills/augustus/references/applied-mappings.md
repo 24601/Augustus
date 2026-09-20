@@ -2284,4 +2284,5 @@ Awesomejev 656 entries / 38,160 stars;
 tracker likes 64 (+4) lastModified UNCHANGED;
 Laya present; Blackwood ABSENT; Archer still promised_not_landed.
 do not reopen or amend PR #23 or #24 or #25 or #26.
+do not reopen or amend PR #23/#24/#25/#26.
 Do not copy keys / `npx` / `pip` / `uv` / `.env` / `TYPESAFE_API_KEY` / `ANTHROPIC_API_KEY` / `HF_TOKEN` / `OPENAI_API_KEY` / `OPENROUTER_API_KEY`. Soft Noul ≠ hard safety.

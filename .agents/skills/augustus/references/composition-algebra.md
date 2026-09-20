@@ -1550,7 +1550,8 @@ bonzi-27b-v2 / ternary-8b / 27b-v1 GGUF family densify; Hub still does not ship 
      Full cards: `validation.md`, `faq.md`.
 
 202. **Gemma-4 26B-A4B jevify** (hf:kushalpatil/jevify-gemma4-26b-a4b):
-     positions 1 (Operand) × 8 (Metric). Hub jevify merged LoRA ships weights.
+     positions 1 (Operand) × 8 (Metric). Gemma-4 26B-A4B jevify classification+calibration.
+     Hub jevify merged LoRA ships weights.
      PAWS 0.580/ece 0.288 is the weak cell.
      kushalpatil/jevify-gemma4 ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify.
      GH kushalpatil07/jevify 404.
@@ -1639,7 +1640,7 @@ bonzi-27b-v2 / ternary-8b / 27b-v1 GGUF family densify; Hub still does not ship 
      position 1 (Operand). README npm global; repo is Rust.
      Full cards: `faq.md`.
 224. **git-confess** (AHTOOOXA/git-confess):
-     positions 1 (Operand) × 11 (Bounds). code owns counting/blame/ratio.
+     positions 1 (Operand) × 11 (Bounds). git-confess code owns counting/blame/ratio.
      httpx exhibit 11% (13/119) *theirs*.
      Full cards: `formal-methods.md`, `faq.md`.
 225. **Paper trader honest negative** (waterme7on/jev-paper-trader):
@@ -1653,6 +1654,12 @@ items 120–128 / 2041 items 111–119 / 1943 items 102–110 /
 1843 items 97–101 / 1740 items 94–96 / SIGNAL §93
 mechanism / §60 six-gates / §78 v1.2 board / §71 claim-audit /
 yuki-oshio/mini-jev *93.25%*.
+WANLI-256 64.5% / 60.2% / 52.0% *theirs*;
+rank #4 / #5 / #6 of 6;
+Awesomejev 656 entries / 38,160 stars;
+tracker likes 64 (+4) lastModified UNCHANGED;
+Laya present; Blackwood ABSENT; Archer still promised_not_landed;
+do not reopen or amend PR #23/#24/#25/#26.
 Soft Noul ≠ hard safety.
 
 Hourly 0345 items 186–201 (`notes.md` §108). Do **not**

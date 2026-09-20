@@ -2261,6 +2261,17 @@ fills/PnL / Worker thresholds are exact work. Hard-gating
 jevify ECE 0.061, 0.8 evidence, /judge 0.5, or paper-trader
 fills as edge are the anti-patterns.
 
+Unique consecutive fragments (this hour):
+kushalpatil/jevify-gemma4 ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify;
+GH kushalpatil07/jevify 404;
+PAWS 0.580/ece 0.288 is the weak cell;
+smaller E4B slightly better OOD ECE than 26B-A4B;
+WANLI-256 64.5% / 60.2% / 52.0% *theirs*;
+rank #4 / #5 / #6 of 6;
+JulesHuisman/jev-eval ≠ SivletLabs/jev-eval ≠ willkelly/jev-evaluation ≠ 4esv ≠ xxkuboxx ≠ onlyoneaman ≠ dayhaysoos/jevals;
+default branch claude/laya-jev-review-gg5ppo;
+do not reopen or amend PR #23/#24/#25/#26.
+
 
 ## Decision-design extras (any domain)
 
