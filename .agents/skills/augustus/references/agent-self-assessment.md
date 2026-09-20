@@ -452,6 +452,41 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   easy probe set refused;
   40–48 rows too small to ship T
   (`notes.md` §108).
+  **0439 HIGH:** Gemma-4 26B-A4B jevify classification+calibration;
+  LoRA adapter twin not independent eval; Gemma-4 E4B jevify;
+  E4B LoRA stub card; Hub jevify merged LoRA ships weights;
+  PAWS 0.580/ece 0.288 is the weak cell;
+  kushalpatil/jevify-gemma4 ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify;
+  GH kushalpatil07/jevify 404;
+  bonzi Bonsai-8B v1 GGUF densify; Bonsai-1.7B v1; Bonsai-4B v1;
+  WANLI-256 64.5% / 60.2% / 52.0% *theirs*; rank #4 / #5 / #6 of 6;
+  JulesHuisman/jev-eval scaffolding / empty README SHA e69de29b;
+  7 bands 6/10 vs 40 bands 0/10;
+  source receipts + confidence slider re-policy without re-inference;
+  32/32 synthetic is smoke not production;
+  roadus2 watch misspelling; lock roadius2/ultra_laya;
+  ultra_laya REVIEW defects;
+  XNLI EN 88.3% ECE 0.032 → RU 77.3% ECE 0.096;
+  Δ −11.0 pp [−14.2,−7.8]; ECE +0.063;
+  MASSIVE no detectable difference at n=600;
+  confidence is function of p_max (r=1.000);
+  pointer-not-generator 400 human-authored responses;
+  proposed ≠ authorized;
+  FewRel 160: Jev 85.0% vs lexical 13.125%;
+  gated 100% (95/95) coverage 59.375%;
+  J++ composable semantic computation language;
+  judge-jev 0.5 still soft;
+  947 repos scored; A 273 / B 302 / C 372;
+  LLM rubric ≠ benches;
+  No benchmark winner claimed;
+  git-confess code owns counting/blame/ratio;
+  httpx exhibit 11% (13/119) *theirs*;
+  90d trend +12.40% vs random +12.75% vs BH +41.71%;
+  5m win rate 25%;
+  Awesomejev 656 entries / 38,160 stars;
+  tracker likes 64 (+4) lastModified UNCHANGED;
+  Laya present; Blackwood ABSENT; Archer still promised_not_landed
+  (`notes.md` §109).
   **Lease / retrieve:**
   [invalidate](https://github.com/chopratejas/invalidate) —
   memory leases ended by new evidence; unsure → review

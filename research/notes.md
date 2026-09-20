@@ -25534,3 +25534,617 @@ items 186–201; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
+
+## 109. Hourly 0439 HIGH (2026-09-20 ~04:39 Boise / 2026-09-20T10:39Z)
+
+Docs-only on a **fresh PR off main**
+(`cursor/hourly-0439-augustus-fold-7118`).
+**Never reopen merged** Augustus PR #7 / **#8** /
+**#9** / **#10** / **#12** / **#13** / **#14** /
+**#15** / **#16** / **#17** / **#18** / **#19** /
+**#20** / **#21** / **#22** / **#23** / **#24** /
+**#25** / **#26**. After merged #26 (`58a05ab`, hourly 0345 /
+`notes.md` §108).
+**HARD RULE:** do not reopen or amend PR #23 or #24
+or #25 or #26 (merged #23 owns `notes.md` §105 / items
+149–160 / batch #88; merged #24 owns `notes.md`
+§106 / items 161–177 / batch #89; merged #25 owns
+`notes.md` §107 / items 178–185 / batch #90; merged
+#26 owns `notes.md` §108 / items 186–201 / batch #91
+— leave them alone). Do **not** re-fold
+§93 / §94 / §95 / §96 / §97 / §98 / §99 / §100 /
+§101 / §102 / §103 / §104 / §105 / §106 / §107 /
+§108. Do **not** re-fold §78 JevBench v1.2 board as if
+it were new. Do **not** re-fold §71 openJev-verdict-2.0
+claim-audit as a beat. Do **not** re-card
+NicolaiMTLassen/open-bonzi-jev as a new species (0243
+recipe; 0345 27B/ternary family; this hour is the
+**1.7B / 4B / 8B v1** fill). Do **not** re-fold
+yuki-oshio/mini-jev 93.25% as Harbor. Do **not**
+collapse kushalpatil/jevify-gemma4 into Mintzs/jevify
+/ gulagala001/jevify / uspraveen/Jevify. Quote
+READMEs. Mark *theirs*. No invented metrics. Hunches
+labeled. No wrappers, `npm` / `pip` / `npx` / `uv` /
+`mix` / `TYPESAFE_API_KEY` / `.env` /
+`OPENROUTER_API_KEY` as recipes. 0★ HIGH still gets a
+real card. GitHub size **0** WITH CONTENTS still gets
+a real card. Do **not** dump source / SDK / weights /
+eval logs. `invented_signal: false`. Skip Archer
+rewrite. Qwen3.8-27B ≠ Archer.
+
+Lane is Augustus: **mental models / architecture /
+Harbor-jevals / toolbelt**. Backend-agnostic
+categorization/scoring/decision class (Jev-like
+speed/econ), **not** a thin Jev-only dump. Design
+judgment, formal/semi-formal methods, decision
+theory, scoring class. Soft Noul ≠ hard safety.
+Formal methods **compose** with scoring; a Noul is a
+SENSOR. Avoid soundness theater / hard-gating
+soft judgment. Jev is the hot exemplar, not the
+whole mandate. Open reproduction densifies (Gemma-4
+jevify Hub cards that **ship weights**, bonzi 1.7/4/8
+v1 GGUF family fill, ultra_laya Laya-fork REVIEW) and
+measurement densifies PRIMARY (independent RU
+accuracy/calibration audit) plus applied class
+placements (table-tennis typed-decision demo,
+evidence-lab receipts, pointer-not-generator
+“LLM”, evidence-backed KG, J++ composition language,
+paper-trader honest negative) are the *class*
+exemplars this hour, not TypeSafe drop-ins.
+
+Unique consecutive fragments (this hour):
+Gemma-4 26B-A4B jevify classification+calibration;
+LoRA adapter twin not independent eval;
+Gemma-4 E4B jevify;
+E4B LoRA stub card;
+kushalpatil/jevify-gemma4 ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify;
+GH kushalpatil07/jevify 404;
+PAWS 0.580/ece 0.288 is the weak cell;
+smaller E4B slightly better OOD ECE than 26B-A4B;
+Hub jevify merged LoRA ships weights;
+bonzi Bonsai-8B v1 GGUF densify;
+Bonsai-1.7B v1;
+Bonsai-4B v1;
+WANLI-256 64.5% / 60.2% / 52.0% *theirs*;
+rank #4 / #5 / #6 of 6;
+JulesHuisman/jev-eval scaffolding / empty README SHA e69de29b;
+JulesHuisman/jev-eval ≠ SivletLabs/jev-eval ≠ willkelly/jev-evaluation ≠ 4esv ≠ xxkuboxx ≠ onlyoneaman ≠ dayhaysoos/jevals;
+7 bands 6/10 vs 40 bands 0/10;
+source receipts + confidence slider re-policy without re-inference;
+32/32 synthetic is smoke not production;
+classify HF datasets across typed semantic dimensions;
+roadus2 watch misspelling; lock roadius2/ultra_laya;
+ultra_laya REVIEW defects;
+default branch claude/laya-jev-review-gg5ppo;
+XNLI EN 88.3% ECE 0.032 → RU 77.3% ECE 0.096;
+Δ −11.0 pp [−14.2,−7.8]; ECE +0.063;
+MASSIVE no detectable difference at n=600;
+confidence is function of p_max (r=1.000);
+pointer-not-generator 400 human-authored responses;
+proposed ≠ authorized;
+FewRel 160: Jev 85.0% vs lexical 13.125%;
+gated 100% (95/95) coverage 59.375%;
+J++ composable semantic computation language;
+judge-jev 0.5 still soft;
+947 repos scored; A 273 / B 302 / C 372;
+LLM rubric ≠ benches;
+No benchmark winner claimed;
+phishing: naive 62.6% vs regex 91.8%; 5-atomic + LR 95.0% *theirs*;
+AITuber tension ±15;
+README npm global; repo is Rust;
+git-confess code owns counting/blame/ratio;
+httpx exhibit 11% (13/119) *theirs*;
+90d trend +12.40% vs random +12.75% vs BH +41.71%;
+5m win rate 25%;
+Awesomejev 656 entries / 38,160 stars;
+tracker likes 64 (+4) lastModified UNCHANGED;
+Laya present; Blackwood ABSENT; Archer still promised_not_landed;
+do not reopen or amend PR #23/#24/#25/#26.
+
+### How-to-apply (twenty-four HIGH clusters / three themes)
+
+Open reproduction densifies (Hub family/ports that
+ship or honestly do not), measurement densifies
+PRIMARY (Harbor-jevals this hour is the RU
+pre-registered audit), and applied class placements
+(knowledge work / life / business / SWE habits —
+not SWE-only). Measurement is PRIMARY for
+Harbor-jevals this hour (cyrillic-audit XNLI Δ,
+MASSIVE n=600 non-detection, p_max identity). Open
+reproduction rides along as class ports, not
+TypeSafe drop-ins. Applied placements show
+formal/semi-formal **compose** with Jev-class
+models (code owns count/blame/ratio/physics/KG
+authorization; Jev is SENSOR).
+
+**Theme A — Open reproduction densifies**
+
+1. **Gemma-4 26B-A4B jevify** (theme Open
+   reproduction densifies) — Gemma-4 26B-A4B jevify
+   classification+calibration. Hub
+   kushalpatil/jevify-gemma4-26b-a4b license
+   **gemma**; likes **0**; sha `d4c0d1d4`;
+   lastModified 2026-09-20T10:26:23Z. **Ships
+   weights** (2 safetensors shards). Merged LoRA on
+   google/gemma-4-26B-A4B-it. Nothing generated:
+   one prefill, read next-token over labels.
+   KL(target||label dist); no teacher; ~47k items /
+   16 sources / LoRA r=64 / 2 epochs. OOD n=307
+   *theirs*: acc 0.834 nll 0.450 brier 0.241 ece
+   0.061 conf 0.875; PAWS 0.580/ece 0.288 is the
+   weak cell. ID 800: step0 acc 0.757 conf 0.991
+   ece 0.234 → step 1215 acc 0.821 conf 0.829 ece
+   0.032. POST /v1/systemone. GH kushalpatil07/jevify
+   **404**. kushalpatil/jevify-gemma4 ≠ Mintzs/jevify
+   ≠ gulagala001/jevify ≠ uspraveen/Jevify. Do
+   **not** treat n=307 ECE 0.061 as a hard gate of
+   “honest probabilities.” Hub jevify merged LoRA
+   ships weights (contrast §108 Hub family cards
+   that do not).
+
+2. **26B-A4B LoRA adapter twin** — Hub
+   kushalpatil/jevify-gemma4-26b-a4b-lora likes
+   **0**; sha `ec4a3d22`; lastModified
+   2026-09-20T10:32:49Z; license **null**; 4 files
+   (adapter_config + adapter_model.safetensors).
+   Auto-generated “More Information Needed” card.
+   LoRA adapter twin not independent eval. Do
+   **not** treat the stub card as a second bake-off.
+
+3. **Gemma-4 E4B jevify** — Hub
+   kushalpatil/jevify-gemma4-e4b license **gemma**;
+   likes **0**; sha `a6b5a716`; lastModified
+   2026-09-20T10:34:00Z. **Ships**
+   model.safetensors. OOD n=307 *theirs*: acc 0.844
+   nll 0.435 brier 0.237 ece 0.043 conf 0.849; PAWS
+   0.540. ID 800: 0.745/0.962/0.217 →
+   0.823/0.823/0.028. Smaller E4B slightly better
+   OOD ECE than 26B-A4B. Same KL recipe; same
+   namesake lock vs Mintzs/gulagala001/uspraveen.
+
+4. **E4B LoRA stub card** — Hub
+   kushalpatil/jevify-gemma4-e4b-lora likes **0**;
+   sha `cca1f55e`; lastModified
+   2026-09-20T10:23:02Z; license **null**. E4B LoRA
+   stub card. Twin adapter, not independent eval.
+
+5. **Bonsai-8B v1 GGUF densify** — Hub
+   NicolaiMTLassen/bonzi-8b-v1-jev MIT; likes **0**;
+   sha `588bc44e`; lastModified
+   2026-09-20T09:20:12Z. **No weights** (README +
+   LICENSE + .gitattributes). Bonsai-8B-Q1_0
+   **1.16 GB**; stock llama.cpp; WANLI-256 **64.5%**
+   (model-index 0.6445) / easy100 **98%** / 230/min
+   / 245 ms / label_mass **1.000** *theirs*; rank
+   #4 of 6. Code NicolaiLassen/open-bonzi-jev
+   (already §107). Do **not** re-card
+   open-bonzi-jev or §108 27B/ternary as new.
+   bonzi Bonsai-8B v1 GGUF densify. WANLI-256 is
+   256 rows. label_mass ≠ correctness. 98/100 easy
+   T/F ≠ Harbor.
+
+6. **Bonsai-1.7B v1** — Hub
+   NicolaiMTLassen/bonzi-1.7b-v1-jev MIT; likes
+   **0**; sha `48148bf9`. Q1_0 **0.25 GB**;
+   WANLI-256 **52.0%** (0.5195) / easy100 **79%** /
+   925/min / 57 ms / label_mass **0.941**; rank #6
+   of 6. Sky-blue p 0.639 / label_mass 0.925
+   *theirs*. Bonsai-1.7B v1. Smallest family fill;
+   ranking ≠ calibration.
+
+7. **Bonsai-4B v1** — Hub
+   NicolaiMTLassen/bonzi-4b-v1-jev MIT; likes **0**;
+   sha `d5545084`. Q1_0 **0.57 GB**; WANLI-256
+   **60.2%** (0.6016) / easy100 **97%** / 398/min /
+   140 ms / label_mass **0.734**; rank #5 of 6.
+   Bonsai-4B v1. Do **not** treat the 1.7/4/8 v1
+   trio as shipping GGUF.
+
+8. **ultra_laya Laya-fork REVIEW** —
+   **roadius2/ultra_laya** (watch wrote
+   **roadus2** — lock like NicolaiMTLassen vs
+   NicolaiLassen). Python Apache-2.0; **0★**; HEAD
+   `0dff5bd2`; README SHA `da95bc05`; LICENSE SHA
+   `d9a10c0d`; size **0** WITH CONTENTS; default
+   branch **`claude/laya-jev-review-gg5ppo`**. Desc
+   “A laya fork with extra spice.” Verbatim copy of
+   NandhaKishorM/laya commit `d113dca` v0.3.4 +
+   REVIEW.md plan. REVIEW: not production-ready;
+   512-tok silent truncation; no service layer; ECE
+   0.081 after T-refit; multilingual ships no T;
+   short Latin non-English misrouted;
+   typed-decisions 0.36 vs 0.32 chance. ≠
+   NandhaKishorM/laya ≠ convaiinnovations/laya ≠
+   daliborsb/laya ≠ PIXELZX0/XERON ≠ mizchi ONNX.
+   README still largely upstream Laya packaging (do
+   **not** paste vs-Jev table as ultra_laya win).
+   ultra_laya REVIEW defects. roadus2 watch
+   misspelling; lock roadius2/ultra_laya.
+
+**Theme B — Measurement densifies PRIMARY**
+
+9. **JulesHuisman/jev-eval scaffolding** (theme
+   Measurement; **thin / still a real card**) —
+   Python; license **null**; **0★**; HEAD
+   `15cf3b83`; README SHA `e69de29b` **empty**;
+   size **0** WITH CONTENTS; default **master**;
+   created 2026-09-20T10:39:43Z (watch hour).
+   pyproject placeholder “Add your description
+   here”; deps chromadb/deepeval/langchain/
+   langchain-typesafe; Makefile
+   synthesize/evaluate; example.env fake OPENAI/
+   TYPESAFE keys — **do not copy**. evaluate.py:
+   ChatOpenAI gpt-5.6-terra generates answers then
+   DeepEval JevCorrectnessMetric; assets/
+   attention-is-all-you-need.pdf + dataset.json.
+   Scaffolding / empty README. JulesHuisman/jev-eval
+   scaffolding / empty README SHA e69de29b.
+   JulesHuisman/jev-eval ≠ SivletLabs/jev-eval ≠
+   willkelly/jev-evaluation ≠ 4esv ≠ xxkuboxx ≠
+   onlyoneaman ≠ dayhaysoos/jevals. Do **not**
+   treat an empty README as a Harbor harness.
+
+10. **Independent RU accuracy/calibration audit**
+    (PRIMARY Harbor-jevals this hour) —
+    AHTOOOXA/jev-cyrillic-audit Python MIT; **0★**;
+    HEAD `7167894a`; README SHA `d36a36f5`; LICENSE
+    SHA `f9b9193e`; size **0** WITH CONTENTS.
+    Pre-registered; n=600 paired/dataset;
+    jev-1.13.0. XNLI EN 88.3% ECE 0.032 → RU 77.3%
+    ECE 0.096; Δ −11.0 pp [−14.2,−7.8]; ECE +0.063.
+    MASSIVE no detectable difference at n=600
+    (86.7 vs 85.2; ECE 0.066 vs 0.071). English
+    instructions both arms. confidence is function
+    of p_max (r=1.000). RU tokens ~3× state-only.
+    4,800 calls 0 errors $0.19. Raw responses
+    committed. MASSIVE “not detected at this n”
+    not “equal”. ≠ laya-multilingual OOD. Formal
+    compose: pre-registration is the exact
+    envelope; Jev is SENSOR. Do **not** hard-gate
+    Δ −11.0 pp as “Jev cannot do Russian.”
+
+11. **what-is-jev 947-repo rubric** —
+    tunahansahin897/what-is-jev Python; README
+    MIT+CC-BY-4.0 / GitHub SPDX **NOASSERTION**;
+    **0★**; HEAD `71d53be2`; README SHA `3ae98c56`;
+    LICENSE SHA `790f3358`; size **6277**. 947
+    repos scored; A 273 / B 302 / C 372. LLM rubric
+    ≠ benches; first 12k README not code; star
+    counts never affect score; Data as of
+    2026-09-20. GH desc still says 780. Catalog /
+    critical research file + runnable notes on
+    System One. Do **not** treat A/B/C as Harbor
+    ranks.
+
+12. **judge-jev measurement** —
+    Mishkun/judge-jev TypeScript; license **null**;
+    **0★**; HEAD `1bf495d3`; README SHA `3788ab6e`;
+    size **65**. Telegram Guest Mode Cloudflare
+    Worker; OpenRouter `POST /api/alpha/decisions`
+    model ~typesafe/jev-latest. Worker owns
+    parse/thresholds/labels/formatting. /judge
+    Noul≥0.5 then Choice; 0.5 still soft. Opaque
+    c_0 labels. Heuristic RU examples not accuracy.
+    Unit tests never call a model. judge-jev 0.5
+    still soft. Do **not** treat /judge 0.5 as
+    truth. Formal compose: Worker owns policy;
+    Jev is SENSOR.
+
+**Theme C — Applied class placements**
+(knowledge work / life / business / SWE habits)
+
+13. **Table-tennis paddle decisions** —
+    LiuHao-1443/jev-table-tennis Python MIT;
+    **1★**; HEAD `2c80dec3`; README SHA `fe5d0c37`;
+    LICENSE SHA `777dc3d6`; size **0** WITH
+    CONTENTS. Option label IS the pixel; lookup
+    table + servo; no local prediction. 7 bands
+    6/10 vs 40 bands **0/10**. type:number 400.
+    Physics/collisions/scoring local. Speed cap
+    back-solved from latency (not derived from
+    measured latency as a moving target). ~350ms/
+    step of which model thinks 24ms. Offline tests
+    with stubs. Knowledge work / play as
+    typed-decision instrument. Formal compose:
+    physics is exact; Jev SENSOR on band choice.
+    Do **not** quote 40-band 0/10 without 7-band
+    6/10.
+
+14. **Evidence-backed decisions + receipts** —
+    laguagu/jev-evidence-lab Python MIT; **0★**;
+    HEAD `a9669e94`; README SHA `1be53f55`; LICENSE
+    SHA `e5ede121`; size **0** WITH CONTENTS.
+    Source receipts + confidence slider re-policy
+    without re-inference. 16 synthetic cases ×2:
+    **32/32** matched authored labels; median
+    0.68s; $0.00061; 0.8 threshold 30 accept / 2
+    review — **smoke not production**. Copied quote
+    proves provenance not interpretation. npx
+    skills add — do not copy as recipe. 32/32
+    synthetic is smoke not production. 0.8 still
+    soft.
+
+15. **Classify HF datasets** —
+    hemanth/hfjev Python MIT; **1★**; HEAD
+    `6f2aa501`; README SHA `20651a25`; LICENSE SHA
+    `0ac06d77`; size **0** WITH CONTENTS. Classify
+    HF datasets across typed semantic dimensions;
+    adapt() Choice/Noul/Score; pip/npm claims;
+    **no numbers**. Thin vs cyrillic-audit but
+    real class placement. Do **not** invent
+    accuracy.
+
+16. **Pointer-not-generator “LLM”** —
+    akash-kamat/jev-llm JavaScript; README **ISC**
+    / GitHub license **null** / no LICENSE; **0★**;
+    HEAD `b7d0b04c`; README SHA `c42907a6`; size
+    **54**; default **master**. package name
+    generative-jev. Pointer-not-generator 400
+    human-authored responses; 2 calls classify
+    then score; needs_human>0.8 escalate;
+    conf<0.3 fallback. Optional Anthropic fallback.
+    ~$0.0001 / ~800ms *theirs*. Zero hallucination
+    = bank constraint. Do not copy npm/.env.
+    Formal compose: bank of replies is exact;
+    Jev SENSOR on which reply.
+
+17. **Evidence-backed KG** —
+    chenmingtang830/jevgraph Python Apache-2.0;
+    **0★**; HEAD `85cebe00`; README SHA `e57a7b97`;
+    LICENSE SHA `57bc88a1`; size **125**. Blocking
+    O(nk) then Choice; proposed ≠ authorized.
+    FewRel 160: Jev 85.0% vs lexical 13.125%;
+    gated 100% (95/95) coverage 59.375% —
+    **risk/coverage not production guarantee**. vs
+    Luna 80.0% / DeepSeek 83.75% (batch shrink).
+    0.85/0.80 gate theater if treated as proof.
+    one 503 no retry. proposed ≠ true. Formal
+    compose: graph write is exact authorization;
+    Jev SENSOR on typed relation.
+
+18. **J++ composition language** —
+    Towow-ai/jpp Python MIT; **2★**; HEAD
+    `18e8a2d7`; README SHA `0a82d97f`; LICENSE SHA
+    `b1a46fbc`; size **241**. J++ composable
+    semantic computation; questions/methods as
+    values; Python 3.12 embedded; default demo
+    offline synthetic; ≠ Microsoft Visual J++ ≠
+    southpolesteve/probably. Class infrastructure:
+    composition algebra as a language, not a
+    vendor how-to.
+
+19. **Use-case awesome vs GPT** —
+    whyashthakker/awesome-jev-use-cases HTML MIT;
+    **3★**; HEAD `96dfcb30`; README SHA `6b4fcff4`;
+    LICENSE SHA `13b5a2a6`; size **426**. 50 visual
+    Jev vs gpt-4o-mini; **No benchmark winner
+    claimed**; preview fixtures. ≠
+    walidboulanouar/awesome-jev-use-cases (§92).
+    GH desc “Compared with GPT Models across on
+    cost and speed” vs README “No benchmark
+    winner”. Catalog ≠ endorsement.
+
+20. **Curated System One guide** —
+    dog-last/awesome-jev Python MIT; **1★**; HEAD
+    `206fdcab`; README SHA `1ca65f69`; LICENSE SHA
+    `cd31b9aa`; size **85**. Guide not directory.
+    Phishing: naive 62.6% vs regex 91.8%; 5-atomic
+    + LR **95.0%** *theirs*
+    (anisselbd/jev-phishing-bench). ≠ AnotiaWang ≠
+    Frank-ZY-Dou ≠ RadRebelSam ≠ yibie ≠ cobanov ≠
+    logicrw ≠ v-modal ≠ awesomejev.com. Atomize
+    then sense; regex owns countable tells.
+
+21. **AITuber tension** —
+    shinshin86/jev-aituber-tension-sample
+    TypeScript MIT; **0★**; HEAD `8c0a8ffb`; README
+    SHA `06536d19`; LICENSE SHA `8b20d89e`; size
+    **94**. Choice UP/SAME/DOWN → tension ±15;
+    CORS forces Vite proxy for TypeSafe; OpenRouter
+    Decisions API. Life/knowledge-work. argmax
+    drives tension; missing probs → 1/0. Thin demo;
+    still a real card. AITuber tension ±15.
+
+22. **JSON rerank/filter/compress** —
+    shinpr/jev-reranker **Rust** MIT; **1★**; HEAD
+    `731deba3`; README SHA `e2818c0e`; LICENSE SHA
+    `4306a712`; size **163**. JSON stdin/stdout;
+    rerank/filter/compress; filter threshold 0.5
+    still soft; wording copied not generated. ≠
+    1441 Jev-Reranker (live Jev not yet measured) ≠
+    carlaiau/jev-reranking ≠ rdxtremity. Honesty:
+    README npm global; repo is Rust. Do **not**
+    copy an npm install for a Cargo crate.
+
+23. **git-confess own-commit repair fraction** —
+    AHTOOOXA/git-confess Python MIT; **0★**; HEAD
+    `54cd2849`; README SHA `764076a6`; LICENSE SHA
+    `f9b9193e`; size **3**. Code owns
+    counting/blame/ratio; Jev 10 questions/commit.
+    httpx exhibit 11% (13/119) *theirs* cached 0
+    requests. squash-merge caveat. ≠ commitjev.
+    Knowledge work / SWE habits. Same LICENSE SHA
+    as cyrillic-audit (same author MIT text). Do
+    **not** treat 11% as a person verdict. Formal
+    compose: git blame/ratio is exact; Jev SENSOR
+    on “is this a repair of own work?”
+
+24. **BTC/ETH paper trader honest negative** —
+    waterme7on/jev-paper-trader JavaScript; license
+    **null**; **0★**; HEAD `ed98ca8e`; README SHA
+    `4eded35a`; size **91**. Paper trading not
+    live. Jev evaluates not predicts. 90d trend
+    +12.40% vs random +12.75% vs BH +41.71%; 5m
+    win rate 25%; bear trend −12.60% vs BH −64.85%
+    first outside noise; naive if-rule baseline.
+    Criteria wording owns buy rate (strict/
+    reversion 0 buys in bull). Default switched to
+    trend so UI shows fills — **do not treat fills
+    as edge**. Business / knowledge-work
+    measurement. Formal compose: fills/PnL are
+    exact; Jev SENSOR on typed criteria.
+
+### Theater (do not)
+
+Treat WANLI-256 64.5/60.2/52.0 as Harbor /
+treat label_mass as correctness /
+treat Hub family cards as shipping GGUF /
+re-fold §108 27B/ternary as new /
+treat LoRA stub cards as independent eval /
+treat jevify n=307 ECE 0.061 as “honest
+probabilities” hard gate /
+collapse kushalpatil into Mintzs/gulagala001/
+uspraveen /
+treat GH kushalpatil07/jevify recipe as an
+existing repo /
+collapse JulesHuisman into SivletLabs/4esv /
+treat empty README scaffolding as a Harbor
+harness /
+quote 32/32 synthetic as production /
+hard-gate 0.8 evidence as proof /
+quote 40-band 0/10 without 7-band 6/10 /
+treat /judge 0.5 as truth /
+treat git-confess 11% as a person verdict /
+treat paper-trader +12.40% as edge /
+treat Awesomejev 656/38160 as eval /
+treat tracker likes as Archer landing /
+use roadus2 spelling /
+paste ultra_laya README vs-Jev table as this-fork
+win /
+treat jevgraph 100% gated as production /
+treat proposed as authorized /
+treat LLM rubric A/B/C as benches /
+collapse whyashthakker into walidboulanouar /
+collapse dog-last into AnotiaWang/Frank-ZY-Dou /
+collapse shinpr into 1441 Jev-Reranker /
+copy keys / `uv` / `npm` / `pip` /
+invent tweets / Archer /
+dump source /
+reopen or amend PR #23 or #24 or #25 or #26.
+
+### Census
+
+Census **not provided this hour** (not
+re-derived). Live REST pulse only: SemIf
+**2153★** (this-pass fetch; +25 vs §108
+**2128**; +59 vs §107 **2094**); jevlike
+**1030★** (+4 vs §108 **1026**);
+TypeAR-AI/TypeAR **13★** (+1 vs §108 **12**);
+AnotiaWang/awesome-jev **95★** (+1 vs §108
+**94**) still a **different object** from
+user-provided Awesomejev **656 entries /
+38,160 stars** (was 561/27007). Tracker
+`multimodalart/jev-reproductions-tracker`
+likes **64** (+4 vs §108 **60**);
+lastModified **UNCHANGED**
+`2026-09-20T04:29:16.000Z` vs §106–§108.
+Tracker as *model* HTTP **401**; as *space*
+HTTP 200. Laya **present**
+(`convaiinnovations/laya` likes **776** vs
+§108 **765**). Blackwood Hub HTTP 200 likes
+**2** **ABSENT** from tracker ITEMS. Archer
+still **promised_not_landed**. Hub
+`archerhume/4rcherhume` HTTP **401** (not a
+rewrite). Qwen/Qwen3.8-27B ≠ Archer.
+typesafe-ai/skills still v0.5.7 HEAD
+`65a39f3`. X MCP not used this hour; no
+invented tweets. `invented_signal: false`.
+
+0★ HIGH still got a real card (table-tennis
+**1★**; hfjev **1★**; jpp **2★**;
+whyashthakker **3★**; dog-last **1★**;
+shinpr **1★**; the rest **0★** including
+size **0** WITH CONTENTS JulesHuisman /
+table-tennis / evidence-lab / hfjev /
+ultra_laya / cyrillic-audit). License
+**null** (JulesHuisman, jev-llm, judge-jev,
+paper-trader, jevify LoRA Hub cards) still
+got a real card. Hub jevify merged cards
+**do ship weights** (contrast §108 Hub
+family cards).
+
+### Noise vs material (adversarial-review partition)
+
+**Material upgrade:** cyrillic-audit
+(PRIMARY Harbor); jevify OOD tables + ships
+weights; bonzi 1.7/4/8 family fill;
+paper-trader honest negative; git-confess
+code-owns-count; table-tennis 7 vs 40;
+jevgraph proposed≠authorized; jpp composition
+language; what-is-jev 947-repo rubric
+honesty; evidence-lab 0.8 still soft;
+jev-llm pointer-not-generator; ultra_laya
+REVIEW defects; shinpr JSON rerank honesty
+(README npm / repo Rust); dog-last phishing
+atomization; whyashthakker no-winner gallery.
+
+**Noise / thin still get cards:**
+JulesHuisman empty README scaffolding;
+jevify LoRA stub cards; hfjev no numbers;
+aituber small demo. 0★ HIGH still gets a
+real card. Size **0** WITH CONTENTS still
+gets a real card.
+
+### Not
+
+Not a TypeSafe how-to. Not a jevify / bonzi /
+ultra_laya / cyrillic-audit / table-tennis /
+evidence-lab / hfjev / jev-llm / jevgraph /
+jpp / judge-jev / what-is-jev / awesome /
+aituber / reranker / git-confess /
+paper-trader install guide. Not wrappers.
+Do not copy keys / `npm` / `pip` / `npx` /
+`uv` / `mix` / `curl | sh` / `.env` /
+`OPENROUTER_API_KEY` / `TYPESAFE_API_KEY` /
+`ANTHROPIC_API_KEY` / `HF_TOKEN` /
+`OPENAI_API_KEY`. Do not re-fold 0345 /
+§108 / 0243 / §107 / 0145 / §106 / 0042 /
+§105 / 2340 / §104 / 2246 / §103 / 2145 /
+§102 / 2041 / §101 / 1943 / §100 / 1843 /
+§99 / 1740 / §98 / 1639 / §96 /
+gliner-native-runtime / §97 / 1541 / §95 /
+jev-align *mechanism* / §93 /
+jev-orderby-bench *six-gates* / §60 /
+JevBench v1.2 *board* / §78 /
+openJev-verdict *claim-audit* / §71 /
+yuki-oshio/mini-jev *93.25%* / §103. Do not
+reply into finished agents (prior 0345 fold
+agent bc-385ec507 finished; PR #26 MERGED
+2026-09-20T10:21:04Z). Do **not** merge from
+this review — parent merges after CLEAN
+adversarial review AND testing (standing
+order). do not reopen or amend PR #23 or
+#24 or #25 or #26.
+
+### Curated status
+
+0439 HIGH **folded** (24 HIGH / twenty-four
+clusters / three themes: Open reproduction
+densifies — Gemma-4 26B-A4B / E4B jevify +
+LoRA twins, bonzi 1.7/4/8 v1 GGUF family
+fill, ultra_laya REVIEW fork; Measurement
+densifies PRIMARY — cyrillic-audit XNLI/RU,
+JulesHuisman scaffolding, what-is-jev 947
+rubric, judge-jev 0.5 still soft; Applied
+class placements — table-tennis, evidence-lab,
+hfjev, jev-llm, jevgraph, jpp, whyashthakker,
+dog-last, aituber, shinpr, git-confess,
+paper-trader). §108 / §107 / §106 / §105 /
+§104 / §103 / §102 / §101 / §100 / §99 /
+§98 / §97 / §96 / §95 / §93 mechanism /
+§78 v1.2 board / §71 claim-audit / §60
+six-gates **not re-carded**. Archer still
+**promised_not_landed**. 0★ HIGH still got a
+real card. `invented_signal: false`.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`judgment-class.md`; `validation.md`;
+`applied-mappings.md`; `mappings.md`;
+`toolbox-mapping.md`; `composition-algebra.md`
+items 202–225; `question-design.md`;
+`methods-catalog.md`; `formal-methods.md`;
+`agent-self-assessment.md`. Hunches labeled.
+No wrapper.

@@ -3017,6 +3017,108 @@ Cross-repo addition: (lt) judgment-as-language primitive;
 memories; (lw) memory-lease HIGH upgrade; (lx) jevlint
 rename; (ly) schema-compiler HIGH upgrade; (lz) ANE /
 local-logit / Pi-loop economics.
+## Batch #92 (2026-09-20 ~10:39 UTC / ~04:39 Boise) — hourly 0439 HIGH
+
+Note: `research/notes.md` §109. Docs-only on a fresh PR
+off main. **HARD RULE:** do not reopen or amend PR #23 or #24 or #25 or #26.
+Never reopen merged #7 / **#8** / **#9** /
+**#10** / **#12** / **#13** / **#14** / **#15** /
+**#16** / **#17** / **#18** / **#19** / **#20** /
+**#21** / **#22** / **#23** / **#24** / **#25** / **#26**. Do **not** re-fold §93 mechanism /
+§94 / §95 / §96 / §97 / §98 / §99 / §100 / §101 /
+§102 / §103 / §104 / §105 / §106 / §107 / §108 / JevBench v1.2 board / §78 /
+jev-orderby-bench six-gates / §60 / openJev-verdict claim-audit / §71 /
+yuki-oshio/mini-jev 93.25%. Skip Archer rewrite.
+Do **not** re-fold 0345 / 0243 / 0145 / 0042 / 2340 / 2246 / 2145 / 2041 / 1943 /
+1843 / 1740 / gliner-native-runtime / 1639 / 1541. No
+invented metrics. Hunches labeled. Quote READMEs. Soft
+Noul ≠ hard safety. Augustus owns placement.
+Open reproduction densifies (Gemma-4 jevify Hub cards that
+ship weights, bonzi 1.7/4/8 v1 family fill, ultra_laya REVIEW),
+measurement densifies PRIMARY (cyrillic-audit XNLI/RU), and
+applied class placements (table-tennis, evidence-lab,
+pointer-not-generator, jevgraph, J++, paper-trader honest
+negative) are the *class* exemplars this hour. Quote live REST
+over watch. `invented_signal: false`.
+
+- **Gemma-4 26B-A4B jevify.** hf kushalpatil/jevify-gemma4-26b-a4b
+  (license gemma; likes **0**; sha `d4c0d1d4`). Hub jevify merged LoRA ships weights.
+  PAWS 0.580/ece 0.288 is the weak cell. ≠ Mintzs/jevify. GH kushalpatil07/jevify 404.
+- **26B-A4B LoRA twin.** hf kushalpatil/jevify-gemma4-26b-a4b-lora
+  (license null; likes **0**; sha `ec4a3d22`). LoRA adapter twin not independent eval.
+- **Gemma-4 E4B jevify.** hf kushalpatil/jevify-gemma4-e4b
+  (license gemma; likes **0**; sha `a6b5a716`). smaller E4B slightly better OOD ECE than 26B-A4B.
+- **E4B LoRA stub.** hf kushalpatil/jevify-gemma4-e4b-lora
+  (license null; likes **0**; sha `cca1f55e`). E4B LoRA stub card.
+- **Bonsai-8B v1.** hf NicolaiMTLassen/bonzi-8b-v1-jev
+  (MIT; likes **0**; sha `588bc44e`). WANLI-256 64.5% *theirs*. rank #4 of 6.
+- **Bonsai-1.7B v1.** hf NicolaiMTLassen/bonzi-1.7b-v1-jev
+  (MIT; likes **0**; sha `48148bf9`). WANLI-256 52.0% *theirs*. rank #6 of 6.
+- **Bonsai-4B v1.** hf NicolaiMTLassen/bonzi-4b-v1-jev
+  (MIT; likes **0**; sha `d5545084`). WANLI-256 60.2% *theirs*. rank #5 of 6.
+- **JulesHuisman scaffolding.** JulesHuisman/jev-eval
+  (Python; license null; **0★**; HEAD `15cf3b83`; README SHA `e69de29b`).
+  JulesHuisman/jev-eval scaffolding / empty README SHA e69de29b.
+- **Table-tennis.** LiuHao-1443/jev-table-tennis
+  (Python MIT; **1★**; HEAD `2c80dec3`). 7 bands 6/10 vs 40 bands 0/10.
+- **Evidence lab.** laguagu/jev-evidence-lab
+  (Python MIT; **0★**; HEAD `a9669e94`). 32/32 synthetic is smoke not production.
+- **hfjev.** hemanth/hfjev (Python MIT; **1★**; HEAD `6f2aa501`).
+  classify HF datasets across typed semantic dimensions.
+- **ultra_laya.** roadius2/ultra_laya
+  (Python Apache-2.0; **0★**; HEAD `0dff5bd2`).
+  roadus2 watch misspelling; lock roadius2/ultra_laya. ultra_laya REVIEW defects.
+- **RU calibration audit (PRIMARY).** AHTOOOXA/jev-cyrillic-audit
+  (Python MIT; **0★**; HEAD `7167894a`).
+  XNLI EN 88.3% ECE 0.032 → RU 77.3% ECE 0.096.
+  Δ −11.0 pp [−14.2,−7.8]; ECE +0.063.
+  MASSIVE no detectable difference at n=600.
+  confidence is function of p_max (r=1.000).
+- **jev-llm.** akash-kamat/jev-llm (JS; license null; **0★**; HEAD `b7d0b04c`).
+  pointer-not-generator 400 human-authored responses.
+- **jevgraph.** chenmingtang830/jevgraph
+  (Python Apache-2.0; **0★**; HEAD `85cebe00`).
+  proposed ≠ authorized. FewRel 160: Jev 85.0% vs lexical 13.125%.
+  gated 100% (95/95) coverage 59.375%.
+- **J++.** Towow-ai/jpp (Python MIT; **2★**; HEAD `18e8a2d7`).
+  J++ composable semantic computation language.
+- **judge-jev.** Mishkun/judge-jev (TS; license null; **0★**; HEAD `1bf495d3`).
+  judge-jev 0.5 still soft.
+- **what-is-jev.** tunahansahin897/what-is-jev
+  (Python; SPDX NOASSERTION; **0★**; HEAD `71d53be2`).
+  947 repos scored; A 273 / B 302 / C 372. LLM rubric ≠ benches.
+- **whyashthakker gallery.** whyashthakker/awesome-jev-use-cases
+  (HTML MIT; **3★**; HEAD `96dfcb30`). No benchmark winner claimed.
+- **dog-last guide.** dog-last/awesome-jev (Python MIT; **1★**; HEAD `206fdcab`).
+  phishing: naive 62.6% vs regex 91.8%; 5-atomic + LR 95.0% *theirs*.
+- **AITuber.** shinshin86/jev-aituber-tension-sample
+  (TS MIT; **0★**; HEAD `8c0a8ffb`). AITuber tension ±15.
+- **shinpr reranker.** shinpr/jev-reranker (Rust MIT; **1★**; HEAD `731deba3`).
+  README npm global; repo is Rust.
+- **git-confess.** AHTOOOXA/git-confess (Python MIT; **0★**; HEAD `54cd2849`).
+  git-confess code owns counting/blame/ratio. httpx exhibit 11% (13/119) *theirs*.
+- **paper-trader.** waterme7on/jev-paper-trader
+  (JS; license null; **0★**; HEAD `ed98ca8e`).
+  90d trend +12.40% vs random +12.75% vs BH +41.71%. 5m win rate 25%.
+
+Pulse: Archer still promised_not_landed. Hub
+archerhume/4rcherhume HTTP **401**. Tracker
+multimodalart/jev-reproductions-tracker likes **64**;
+lastModified `2026-09-20T04:29:16Z` UNCHANGED. Live REST: SemIf
+**2153★**; jevlike **1030★**; TypeAR **13★**.
+AnotiaWang/awesome-jev **95★** ≠ Awesomejev 656 entries / 38,160 stars.
+Hub Laya likes **776**. Blackwood ABSENT. Qwen3.8-27B ≠ Archer.
+do not reopen or amend PR #23 or #24 or #25 or #26.
+`invented_signal: false`.
+
+Cross-repo addition: (pb) jevify 26B-A4B; (pc) 26B LoRA twin;
+(pd) jevify E4B; (pe) E4B LoRA stub; (pf) bonzi-8b-v1;
+(pg) bonzi-1.7b-v1; (ph) bonzi-4b-v1; (pi) JulesHuisman scaffolding;
+(pj) table-tennis; (pk) evidence-lab; (pl) hfjev; (pm) ultra_laya;
+(pn) cyrillic-audit PRIMARY; (po) jev-llm; (pp) jevgraph; (pq) jpp;
+(pr) judge-jev; (ps) what-is-jev; (pt) whyashthakker; (pu) dog-last;
+(pv) aituber; (pw) shinpr; (px) git-confess; (py) paper-trader.
+
 ## Batch #91 (2026-09-20 ~09:45 UTC / ~03:45 Boise) — hourly 0345 HIGH
 
 Note: `research/notes.md` §108. Docs-only on a fresh PR

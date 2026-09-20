@@ -3329,3 +3329,74 @@ No, no, and no. Laya calibration lab Gradio MCP. T never changes argmax. confide
 
 No, no, no, and no. Hub `archerhume/4rcherhume` HTTP **401** (not re-fetched as a rewrite). Tracker `multimodalart/jev-reproductions-tracker` likes **60**; lastModified `2026-09-20T04:29:16.000Z` **UNCHANGED** vs §107. Live REST pulse: SemIf **2128★** (+34 vs §107 **2094**); jevlike **1026★** (+3 vs §107 **1023**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **94★** (+1 vs §107 **93**) ≠ Awesomejev 561/27007. Hub Laya likes **765**. Qwen3.8-27B ≠ Archer. do not reopen or amend PR #23 or #24 or #25. `invented_signal: false`. `notes.md` §108.
 
+## Collapse kushalpatil/jevify-gemma4 into Mintzs / gulagala001 / uspraveen? Treat LoRA stubs as independent eval? Hard-gate n=307 ECE 0.061?
+
+No, no, and no. Gemma-4 26B-A4B jevify classification+calibration. Hub jevify merged LoRA ships weights. PAWS 0.580/ece 0.288 is the weak cell. Smaller E4B slightly better OOD ECE than 26B-A4B. LoRA adapter twin not independent eval. E4B LoRA stub card. GH kushalpatil07/jevify 404. kushalpatil/jevify-gemma4 ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify. license **gemma** / LoRA license **null**; likes **0**; shas `d4c0d1d4` / `ec4a3d22` / `a6b5a716` / `cca1f55e`. `notes.md` §109.
+
+## Re-card open-bonzi-jev or §108 27B/ternary as new? Did Hub ship the 1.7/4/8 v1 GGUF? Is WANLI-256 64.5/60.2/52.0 Harbor?
+
+No, no, and no. bonzi Bonsai-8B v1 GGUF densify. Bonsai-1.7B v1. Bonsai-4B v1. WANLI-256 64.5% / 60.2% / 52.0% *theirs*. rank #4 / #5 / #6 of 6. Hub still does not ship weights. label_mass ≠ correctness. MIT; likes **0**; shas `588bc44e` / `48148bf9` / `d5545084`. Do **not** re-card NicolaiMTLassen/open-bonzi-jev. `notes.md` §109.
+
+## Is JulesHuisman/jev-eval a Harbor harness? Collapse into SivletLabs / 4esv / dayhaysoos/jevals?
+
+No and no. JulesHuisman/jev-eval scaffolding / empty README SHA e69de29b. Python; license **null**; **0★**; HEAD `15cf3b83`; size **0** WITH CONTENTS; default **master**. JulesHuisman/jev-eval ≠ SivletLabs/jev-eval ≠ willkelly/jev-evaluation ≠ 4esv ≠ xxkuboxx ≠ onlyoneaman ≠ dayhaysoos/jevals. Do not copy example.env keys. `notes.md` §109.
+
+## Quote 40-band 0/10 without 7-band? Does Jev run the physics?
+
+No and no. 7 bands 6/10 vs 40 bands 0/10. Option label IS the pixel; physics/collisions/scoring local. Python MIT; **1★**; HEAD `2c80dec3`; size **0** WITH CONTENTS. LiuHao-1443/jev-table-tennis. `notes.md` §109.
+
+## Is 32/32 synthetic production? Hard-gate 0.8 evidence as proof?
+
+No and no. source receipts + confidence slider re-policy without re-inference. 32/32 synthetic is smoke not production. 0.8 still soft. Python MIT; **0★**; HEAD `a9669e94`. laguagu/jev-evidence-lab. `notes.md` §109.
+
+## Invent hfjev accuracy? Collapse ultra_laya into NandhaKishorM/laya? Use the watch spelling roadus2?
+
+No, no, and no. classify HF datasets across typed semantic dimensions. **no numbers**. hemanth/hfjev Python MIT; **1★**; HEAD `6f2aa501`. roadus2 watch misspelling; lock roadius2/ultra_laya. ultra_laya REVIEW defects. default branch claude/laya-jev-review-gg5ppo. Do **not** paste vs-Jev table as this-fork win. Apache-2.0; **0★**; HEAD `0dff5bd2`. `notes.md` §109.
+
+## Did MASSIVE prove RU = EN? Is confidence independent of p_max? Hard-gate Δ −11.0 pp as “Jev cannot do Russian”?
+
+No, no, and no. XNLI EN 88.3% ECE 0.032 → RU 77.3% ECE 0.096. Δ −11.0 pp [−14.2,−7.8]; ECE +0.063. MASSIVE no detectable difference at n=600. confidence is function of p_max (r=1.000). Pre-registered; n=600; 4,800 calls. Python MIT; **0★**; HEAD `7167894a`; size **0** WITH CONTENTS. AHTOOOXA/jev-cyrillic-audit. PRIMARY. `notes.md` §109.
+
+## Is jev-llm a generator? Treat “zero hallucination” without the bank constraint?
+
+No and no. pointer-not-generator 400 human-authored responses. Zero hallucination = bank constraint. JS; README ISC / GitHub license **null**; **0★**; HEAD `b7d0b04c`; size **54**; default **master**. akash-kamat/jev-llm. `notes.md` §109.
+
+## Is proposed authorized? Treat gated 100% (95/95) as a production guarantee?
+
+No and no. proposed ≠ authorized. FewRel 160: Jev 85.0% vs lexical 13.125%. gated 100% (95/95) coverage 59.375%. Python Apache-2.0; **0★**; HEAD `85cebe00`. chenmingtang830/jevgraph. `notes.md` §109.
+
+## Is J++ Visual J++? Collapse into southpolesteve/probably?
+
+No and no. J++ composable semantic computation language. Python MIT; **2★**; HEAD `18e8a2d7`. Towow-ai/jpp ≠ Microsoft Visual J++ ≠ southpolesteve/probably. `notes.md` §109.
+
+## Treat /judge 0.5 as truth? Do unit tests call a model?
+
+No and no. judge-jev 0.5 still soft. Worker owns parse/thresholds/labels/formatting. Unit tests never call a model. TS; license **null**; **0★**; HEAD `1bf495d3`. Mishkun/judge-jev. `notes.md` §109.
+
+## Are A/B/C Harbor ranks? Do stars affect the score?
+
+No and no. 947 repos scored; A 273 / B 302 / C 372. LLM rubric ≠ benches. Star counts never affect score. Python; README MIT+CC-BY-4.0 / SPDX NOASSERTION; **0★**; HEAD `71d53be2`; size **6277**. tunahansahin897/what-is-jev. `notes.md` §109.
+
+## Did whyashthakker crown a GPT winner? Collapse into walidboulanouar?
+
+No and no. No benchmark winner claimed. HTML MIT; **3★**; HEAD `96dfcb30`. whyashthakker/awesome-jev-use-cases ≠ walidboulanouar/awesome-jev-use-cases. GH desc vs README honesty. `notes.md` §109.
+
+## Collapse dog-last into AnotiaWang / Frank-ZY-Dou / awesomejev.com? Skip the regex baseline?
+
+No and no. Guide not directory. phishing: naive 62.6% vs regex 91.8%; 5-atomic + LR 95.0% *theirs*. Python MIT; **1★**; HEAD `206fdcab`. dog-last/awesome-jev ≠ AnotiaWang ≠ Frank-ZY-Dou ≠ RadRebelSam ≠ yibie ≠ cobanov ≠ logicrw ≠ v-modal ≠ awesomejev.com. `notes.md` §109.
+
+## Copy npm install for shinpr/jev-reranker? Collapse into 1441 Jev-Reranker?
+
+No and no. README npm global; repo is Rust. Rust MIT; **1★**; HEAD `731deba3`. shinpr/jev-reranker ≠ 1441 Jev-Reranker ≠ carlaiau/jev-reranking ≠ rdxtremity. Filter 0.5 still soft. `notes.md` §109.
+
+## Is git-confess 11% a person verdict? Does Jev own the ratio?
+
+No and no. git-confess code owns counting/blame/ratio. httpx exhibit 11% (13/119) *theirs*. Python MIT; **0★**; HEAD `54cd2849`; size **3**. AHTOOOXA/git-confess ≠ commitjev. squash-merge caveat. `notes.md` §109.
+
+## Treat paper-trader +12.40% as edge? Are fills a strategy win?
+
+No and no. 90d trend +12.40% vs random +12.75% vs BH +41.71%. 5m win rate 25%. Default switched to trend so UI shows fills — do not treat fills as edge. Paper trading not live. JS; license **null**; **0★**; HEAD `ed98ca8e`. waterme7on/jev-paper-trader. `notes.md` §109.
+
+## Did Archer land this hour? Treat tracker likes 64 as a landing? Treat Awesomejev 656/38160 as eval? Reopen PR #23–#26?
+
+No, no, no, and no. Hub `archerhume/4rcherhume` HTTP **401** (not re-fetched as a rewrite). Tracker likes **64** (+4 vs §108 **60**); lastModified `2026-09-20T04:29:16.000Z` **UNCHANGED**. Laya present (likes **776**); Blackwood ABSENT from tracker ITEMS; Archer still promised_not_landed. Live REST pulse: SemIf **2153★** (+25 vs §108 **2128**); jevlike **1030★** (+4 vs §108 **1026**); TypeAR-AI/TypeAR **13★** (+1 vs §108 **12**). AnotiaWang/awesome-jev **95★** (+1 vs §108 **94**) ≠ Awesomejev 656 entries / 38,160 stars (was 561/27007). Qwen3.8-27B ≠ Archer. do not reopen or amend PR #23 or #24 or #25 or #26. `invented_signal: false`. `notes.md` §109.

@@ -2755,3 +2755,78 @@
   CHANGELOG, README, docs/ecosystem, findings batch #91,
   sources.json. Hunches labeled. No wrapper.
 
+## 2026-09-20T10:39Z — hourly 0439 HIGH (Boise ~04:39 MDT)
+
+- Fresh PR off main after merged #26 (`58a05ab` / §108).
+  **HARD RULE:** do not reopen or amend PR #23 or #24 or #25 or #26.
+  Never reopen merged #7–**#26**. Branch
+  `cursor/hourly-0439-augustus-fold-7118`.
+  Skip Archer rewrite. Quote READMEs. Mark *theirs*.
+  No wrappers / keys / install recipes. Do not dump
+  source. 0★ HIGH still gets a real card. Size **0**
+  WITH CONTENTS still gets a real card. Quote live
+  REST over watch. `invented_signal: false`.
+- Open reproduction densifies: hf kushalpatil/jevify-gemma4-26b-a4b
+  (likes **0**; sha `d4c0d1d4`; Hub jevify merged LoRA ships weights;
+  PAWS 0.580/ece 0.288 is the weak cell; GH kushalpatil07/jevify 404);
+  26b-a4b-lora (sha `ec4a3d22`; LoRA adapter twin not independent eval);
+  e4b (sha `a6b5a716`; smaller E4B slightly better OOD ECE than 26B-A4B);
+  e4b-lora (sha `cca1f55e`; E4B LoRA stub card);
+  NicolaiMTLassen/bonzi-8b-v1-jev (sha `588bc44e`; WANLI-256 64.5%; rank #4 of 6);
+  bonzi-1.7b-v1-jev (sha `48148bf9`; WANLI-256 52.0%; rank #6 of 6);
+  bonzi-4b-v1-jev (sha `d5545084`; WANLI-256 60.2%; rank #5 of 6);
+  roadius2/ultra_laya (**0★**; HEAD `0dff5bd2`; roadus2 watch misspelling;
+  ultra_laya REVIEW defects; default branch claude/laya-jev-review-gg5ppo).
+- Measurement densifies PRIMARY: AHTOOOXA/jev-cyrillic-audit
+  (**0★**; HEAD `7167894a`; size **0** WITH CONTENTS;
+  XNLI EN 88.3% ECE 0.032 → RU 77.3% ECE 0.096;
+  Δ −11.0 pp [−14.2,−7.8]; ECE +0.063;
+  MASSIVE no detectable difference at n=600;
+  confidence is function of p_max (r=1.000));
+  JulesHuisman/jev-eval (**0★**; HEAD `15cf3b83`;
+  JulesHuisman/jev-eval scaffolding / empty README SHA e69de29b);
+  tunahansahin897/what-is-jev (**0★**; HEAD `71d53be2`;
+  947 repos scored; A 273 / B 302 / C 372; LLM rubric ≠ benches);
+  Mishkun/judge-jev (**0★**; HEAD `1bf495d3`; judge-jev 0.5 still soft).
+- Applied class placements: LiuHao-1443/jev-table-tennis (**1★**;
+  7 bands 6/10 vs 40 bands 0/10); laguagu/jev-evidence-lab
+  (32/32 synthetic is smoke not production); hemanth/hfjev;
+  akash-kamat/jev-llm (pointer-not-generator 400 human-authored responses);
+  chenmingtang830/jevgraph (proposed ≠ authorized;
+  gated 100% (95/95) coverage 59.375%); Towow-ai/jpp
+  (J++ composable semantic computation language);
+  whyashthakker/awesome-jev-use-cases (No benchmark winner claimed);
+  dog-last/awesome-jev (phishing 5-atomic + LR 95.0% *theirs*);
+  shinshin86/jev-aituber-tension-sample (AITuber tension ±15);
+  shinpr/jev-reranker (README npm global; repo is Rust);
+  AHTOOOXA/git-confess (httpx exhibit 11% (13/119) *theirs*);
+  waterme7on/jev-paper-trader (90d trend +12.40% vs random +12.75% vs BH +41.71%;
+  5m win rate 25%).
+- Formal methods compose with scoring; a Noul is a SENSOR.
+  Treating WANLI-256 as Harbor, LoRA stubs as independent eval,
+  jevify n=307 ECE as a hard gate, 32/32 as production, 0.8
+  evidence as proof, 40-band 0/10 without 7-band, /judge 0.5
+  as truth, git-confess 11% as a person verdict, paper-trader
+  +12.40% as edge, Awesomejev 656/38160 as eval, tracker likes
+  as Archer landing, roadus2 spelling, or jevgraph 100% gated
+  as production is soundness theater. jevify ECE 0.061 as a
+  hard gate, 0.8 evidence as proof, and paper-trader fills as
+  edge are the anti-patterns.
+- Pulse (do not invent): Archer still promised_not_landed. Hub
+  archerhume/4rcherhume HTTP **401**. Tracker likes **64**;
+  lastModified `2026-09-20T04:29:16.000Z` **UNCHANGED**.
+  Laya present (likes **776**); Blackwood ABSENT. Live REST:
+  SemIf **2153★** (+25 vs §108 2128); jevlike **1030★**
+  (+4 vs §108 1026); TypeAR **13★** (+1 vs §108 12).
+  AnotiaWang/awesome-jev **95★** ≠ Awesomejev 656 entries /
+  38,160 stars (was 561/27007). Qwen3.8-27B ≠ Archer.
+  X MCP not used. `invented_signal: false`.
+- Folded into SKILL.md (description + protocol +
+  mapping-index), mental-models Apply 0439, faq,
+  mixed-architecture fail table + gallery, applied-mappings,
+  validation, judgment-class, composition-algebra items
+  202–225, toolbox-mapping, methods-catalog, formal-methods,
+  question-design, agent-self-assessment, mappings,
+  CHANGELOG, README, docs/ecosystem, findings batch #92,
+  sources.json. Hunches labeled. No wrapper.
+
