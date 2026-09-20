@@ -3060,6 +3060,38 @@
   likes 421 / 189; impressions 35498 / 9613.
 - User-provided 0806 uniqueness lock: people who compare Jev against GPT-5.6 has never fine-tuned BERTForXYZ for living and it shows; zero shot classifiers; scale them as much as decoder only models; many problems solved with LLMs could have been solved with them, it was a skill issue; opt for DeBERTa and ModernBERT ones; BERTForXYZ → DeBERTa → ModernBERT; Jev vs GPT-5.6 bakeoffs are a category error; encoder / ZS classifiers; institutional HF voice; quote *theirs*; do not invent accuracy numbers; softmax/ZS scores still ≠ calibrated Noul; soft scores ≠ hard gates; @mervenoyann; likes 421 / 189; impressions 35498 / 9613; multimodal image<>text ZS as perception front-end; hf:MoritzLaurer/deberta-v3-large-zeroshot-v2.0 likes 139; hf:MoritzLaurer/ModernBERT-large-zeroshot-v2.0 likes 72; Bart, bert, deberta, modernbert, these are all LLMs; Maziyar quoted; Jev is exemplar not the mandate; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29.
 
+
+
+## 2026-09-20 ~15:20 UTC — user-provided HIGH NiazMorshed2007/jcr
+- Docs-only on a **fresh PR off latest main**
+  (`cursor/fold-jcr-capability-resolver-19c4`) rebased onto
+  merged #35 (`0189825`, hourly 0843 / `notes.md` §114 /
+  items 289–302 / batch #97) after merged #34 Pages and
+  merged #31 (`35bec95`, §113 / 273–288 / #96). Merged #36
+  owns §115 / 303–308 / #98; open #37 owns §117 / 315–321 /
+  #100. This fold keeps §116 / items 309–316 / batch #99.
+  **HARD RULE:** do not reopen or amend PR #23–#36. Do not
+  push onto #37. Do not bump 0.4.0. Do not merge.
+- Live REST: NiazMorshed2007/jcr JavaScript MIT; **4★**;
+  forks 0; topics ai-agents,jev,mcp; site
+  https://jcr.niazmorshed.dev; HEAD `138b3832`; README SHA
+  `2a49dbc1`; LICENSE SHA `46231303`; size **14850**;
+  created 2026-09-20T12:55:26Z; pushed 2026-09-20T15:00:32Z;
+  updated 2026-09-20T15:20:06Z. GitHub search `jcr jev` = 1 repo.
+- Quote README + site. X MCP not used. No wrappers / keys.
+  `invented_signal: false`.
+- Folded into `notes.md` §116, SKILL.md (description uniqueness +
+  protocol triggers + mapping index), mental-models Apply 0920 jcr,
+  faq, mixed-architecture fail table, applied-mappings, validation,
+  judgment-class, composition-algebra items 309–316, toolbox-mapping,
+  methods-catalog, formal-methods, question-design,
+  agent-self-assessment, mappings, CHANGELOG, README,
+  docs/ecosystem, findings batch #99, sources.json,
+  changelog-hourly.md. Hunches labeled. No wrapper.
+
+
+User-provided 0920 jcr uniqueness lock: NiazMorshed2007/jcr MIT; site https://jcr.niazmorshed.dev; topics ai-agents,jev,mcp; **4★**; HEAD `138b3832`; README SHA `2a49dbc1`; LICENSE SHA `46231303`; size **14850**; Jev Capability Resolver; one tool to find documented deterministic commands in a nested capability tree; returns context; **does not execute**; skills = workflow+judgment; capabilities = individual operations; format independent of Jev; proposed open standard exploration; classify (Jev) → optional OpenAI decompose compound → beam search geometric mean of routing probs; keep up to 3 paths ≥60% of best (JCR_BAND_RATIO 0.6); ambiguity / no-match / depth-limit explicit; soft scores ≠ hard gates; 0.6 band is application policy; routing ≠ permission; docs ≠ authority to run; sol-vs-opus5-20 *theirs*: 20 scenarios × 4 variants = 80 runs; lookup+explain only, no execution; Claude Opus 5: agent input 108,585→15,819 (−85%), cost $0.3700→$0.1222 (−67%), wall 105.5s→77.7s; Codex GPT-5.6-Sol: 61,952→47,669 (−23%), $0.1377→$0.1151 (−16%), wall 25.3s→62.4s (Sol slower with JCR in 19/20); One Sol outlier 372.6s / 193 Jev calls; n=1 per cell; Not Harbor task-execution; Claude/Codex harnesses; compare mode; 50 scenarios bundled; 11 groups, 960 nodes, 11,360 items; 16 routing rounds per step; NiazMorshed2007/jcr ≠ skill-broker ≠ skillranker ≠ jev-sift ≠ jev-lens ≠ jevusher ≠ jev_select_capability; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34; notes.md §116
+
 ## 2026-09-20 ~14:43 UTC — hourly 0843 HIGH measurement / judgment
 - Docs + evaluator on a **fresh PR off main** (`cursor/hourly-0843-augustus-fold-220d`).
   Rebased onto latest `main` after merged #31 (0743, `notes.md` §113 /

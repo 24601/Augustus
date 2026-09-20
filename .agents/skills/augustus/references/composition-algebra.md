@@ -1926,6 +1926,7 @@ User-provided 0806 uniqueness lock: people who compare Jev against GPT-5.6 has n
      position 1 (Operand). current-llm. 结构兼容，不是 Jev 模型能力.
      Full cards: `applied-mappings.md`, `faq.md`.
 
+
 289. **Hysteresis as policy** (edgardcham/huncho):
      positions 3 (Gate) × 7 (Policy). A hunch is a probability with a policy attached.
      { enter: 0.8, exit: 0.6 } is hysteresis. replay a policy change without inference.
@@ -2047,6 +2048,55 @@ Soft Noul ≠ hard safety.
 
 User-provided 0915 uniqueness lock: TianyuCodings/NanoJev unified-games-v1 densify; A 0.6B parallel decision model: states and questions in, complete probability distributions out. Zero output-token decoding.; One model, four games; ViZDoom Basic 128/128 vs Jev 56/128; Predict Position 27/128 vs Jev 11/128; Maze 225 attempts vs Jev 2738; Snake 30 food / 256 steps; held-out Maze 4/10 Snake 8/8 Basic 128/128 Predict 27/128; Untuned Qwen3-0.6B baseline; 18,760 questions per variant; 16,333 ViZDoom; 896 Predict Position expert episodes; hard_lr1e5; mix weights 1/3, 1/3, 1/6, 1/6; Hub C-Tianyu/NanoJev revision unified-games-v1 likes 58; dataset C-Tianyu/NanoJev-Data likes 5; HEAD 618cea6d906d54e128360786d12f703fff2b1245; 1289★ / 158 forks / size 64035; README SHA 4190093c64ee75b26e9726daa3b00cbcf6d3157a; MIT; caijinchun/nanojev-arena ≠ liao96312/jev-arena-nanojev ≠ zwliJay/jev-forge ≠ NanoJev; not TypeSafe Jev; open replica / specialist gameplay S1; soft scores ≠ hard gates; Game success ≠ calibrated Noul; local type boolean ≠ TypeSafe noul; invented_signal false; do not reopen or amend PR #31/#32/#33/#35; notes.md §115
 
+309. **Capability-tree retrieve-wide→decide→evidence-set** (NiazMorshed2007/jcr):
+     positions 2 (Post-judge) × 4 (Selector) × 5 (Prior).
+     NiazMorshed2007/jcr ≠ skill-broker ≠ skillranker ≠ jev-sift ≠ jev-lens ≠ jevusher ≠ jev_select_capability.
+     one tool to find documented deterministic commands in a nested capability tree.
+     returns context. **does not execute**.
+     Full cards: `mappings.md` §4, `faq.md`, `mental-models.md`.
+310. **Skills vs capability catalogs** (NiazMorshed2007/jcr):
+     position 2 (Post-judge). skills = workflow+judgment; capabilities = individual operations.
+     format independent of Jev. proposed open standard exploration.
+     Full cards: `applied-mappings.md`, `faq.md`.
+311. **0.6 band is application policy** (NiazMorshed2007/jcr):
+     positions 3 (Gate) × 7 (Policy).
+     keep up to 3 paths ≥60% of best (JCR_BAND_RATIO 0.6).
+     soft scores ≠ hard gates. 0.6 band is application policy.
+     Full cards: `mixed-architecture.md`, `validation.md`.
+312. **Routing ≠ permission / docs ≠ authority to run** (NiazMorshed2007/jcr):
+     positions 7 (Policy) × 11 (Bounds).
+     routing ≠ permission. docs ≠ authority to run.
+     JCR returns documentation. It does not execute commands.
+     Full cards: `formal-methods.md`, `faq.md`.
+313. **Beam as control (geometric mean)** (NiazMorshed2007/jcr):
+     position 4 (Selector). Cookbook cousin (`notes.md` §2 K=3), not a new species.
+     classify (Jev) → optional OpenAI decompose compound → beam search geometric mean of routing probs.
+     ambiguity / no-match / depth-limit explicit. 16 routing rounds per step.
+     Full cards: `mental-models.md`, `question-design.md`.
+314. **VOI of context admission** (NiazMorshed2007/jcr):
+     position 5 (Prior). Search stays outside the main agent; selected `context` is the evidence set.
+     11 groups, 960 nodes, 11,360 items.
+     Full cards: `mixed-architecture.md`, `agent-self-assessment.md`.
+315. **Measurement honesty / wall-time mixed** (NiazMorshed2007/jcr):
+     position 8 (Metric). sol-vs-opus5-20 *theirs*: 20 scenarios × 4 variants = 80 runs.
+     lookup+explain only, no execution. n=1 per cell. Not Harbor task-execution.
+     Claude Opus 5: agent input 108,585→15,819 (−85%), cost $0.3700→$0.1222 (−67%), wall 105.5s→77.7s.
+     Codex GPT-5.6-Sol: 61,952→47,669 (−23%), $0.1377→$0.1151 (−16%), wall 25.3s→62.4s (Sol slower with JCR in 19/20).
+     One Sol outlier 372.6s / 193 Jev calls.
+     Full cards: `validation.md`, `faq.md`.
+316. **Lookup+explain only / Claude and Codex harnesses** (NiazMorshed2007/jcr):
+     positions 8 (Metric) × 11 (Bounds). Claude/Codex harnesses. compare mode. 50 scenarios bundled.
+     Full cards: `validation.md`.
+
+User-provided 0920 jcr items 309–316 (`notes.md` §116). Do **not**
+re-fold 0743 items 273–288 / merged #30 items 268–272 / 0646 items 248–267.
+Merged #35 owns §114 / items 289–302 / batch #97. Merged #36 owns §115 / 303–308 / #98. Open #37 owns §117 / 315–321 / #100 (item overlap 315–316 is #37's remap).
+NiazMorshed2007/jcr ≠ skill-broker ≠ skillranker ≠ jev-sift ≠ jev-lens ≠ jevusher ≠ jev_select_capability.
+soft scores ≠ hard gates; 0.6 band is application policy;
+routing ≠ permission; docs ≠ authority to run;
+n=1 per cell; Not Harbor task-execution;
+do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34.
+Soft Noul ≠ hard safety.
 Hourly 0743 items 273–288 (`notes.md` §113). Do **not**
 re-fold merged #30 items 268–272 / 0646 items 248–267 / 0541 items 226–247 / 0439 items 202–225 / 0345 items 186–201 / 0243 items 178–185 / 0145 items 161–177 / 0042 items 149–160 / 2340 items 138–148 / 2246 items 129–137 / 2145
 items 120–128 / 2041 items 111–119 / 1943 items 102–110 /
@@ -2140,3 +2190,5 @@ mechanism / §60 six-gates / §78 v1.2 board.
 Soft Noul ≠ hard safety.
 
 Hourly 0843 uniqueness lock: A hunch is a probability with a policy attached; { enter: 0.8, exit: 0.6 } is hysteresis; replay a policy change without inference; Decision models are providers, not the product; huncho ≠ Kungie/gut ≠ carldaws/hunch ≠ tpellet/hunch; pretrained Qwen2.5 base ECE 0.030 (0.5B) / 0.040 (7B); instruct 0.302 / 0.269; 70.9% → 70.0% mean conf 74.1% → 96.7%; temperature scaling still matches it in-distribution; No Jev API was called; Qwen2.5 ≠ Archer; Qwen/Qwen3.8-27B ≠ Archer; 学習済みモデル v0.1 は準備中です; bool AUROC 0.523; 先頭だと0件、末尾だと250件; 温度を渡さない場合、確率は較正されていません; このリポジトリには Jev を呼ぶコードが存在しません; g0runmezadam/what-is-jev IS tunahansahin897/what-is-jev (same GitHub id 1378007307); 947 repos scored; A 273 · B 302 · C 372; LLM rubric ≠ benches; Data as of 2026-09-20; HEAD 895b9498; README SHA 3ae98c56; 13 focused checks and one mutually exclusive outcome; Probabilities are advisory, not calibrated guarantees; omni-/ask-jev ≠ pedroknigge/mcp_jev; pd.cut bins by equal width while jeval bins by quantile; ECE 0.113 and ECE 0.076; jeval drift is not implemented yet; rlaope/jeval ≠ dayhaysoos/jevals; calibration does not compose; ECE has exactly zero statistical power to detect the failure mode that kills trajectories; 25–60× headline withdrawn; P(all-correct): 0.0071 vs 0.0001; TCE / AMS; Qwen 3.8 sparring ≠ Archer; Deferred Crispification; light_cutoff_applied_to_combination 0; recorded run, kinematic animation; BANKING77 Accuracy BERT-Base 93.02 Jev 79.90; Analyse jev calibration (NLL, ECE) backlog; BERT figures are published supervised references, not zero-shot; 档位措辞效应 分数极差中位 0.50、最大 1.32; 修好后对照组是 0.01; 不是 benchmark; 概率没做 calibration; ~1,430 API calls, about $0.15; xiaohuaxi/jev-study ≠ wjdjdakf17/jev-study ≠ baekenough/jev-study; AND: product (independence assumed and recorded in the trace); chat model's stated confidence is not calibrated; circuit-vl-4b ≠ Archer; Bring your own API key; vamsikrishna2421/jev-usecases ≠ whyashthakker/awesome-jev-use-cases; catalog ≠ endorsement; SemIf 2237★ (+30 vs §111 2207); jevlike 1049★ (+6 vs 1043); TypeLLM/TypeLLM 16★; AnotiaWang 98★; yibie/awesome-jev 520★ (+14 vs 506); Laya likes 861 (was 822); tracker likes 66 (+2 vs 64) lastModified UNCHANGED; Blackwood likes 2 gated manual; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33; notes.md §114
+
+User-provided 0920 jcr uniqueness lock: NiazMorshed2007/jcr MIT; site https://jcr.niazmorshed.dev; topics ai-agents,jev,mcp; **4★**; HEAD `138b3832`; README SHA `2a49dbc1`; LICENSE SHA `46231303`; size **14850**; Jev Capability Resolver; one tool to find documented deterministic commands in a nested capability tree; returns context; **does not execute**; skills = workflow+judgment; capabilities = individual operations; format independent of Jev; proposed open standard exploration; classify (Jev) → optional OpenAI decompose compound → beam search geometric mean of routing probs; keep up to 3 paths ≥60% of best (JCR_BAND_RATIO 0.6); ambiguity / no-match / depth-limit explicit; soft scores ≠ hard gates; 0.6 band is application policy; routing ≠ permission; docs ≠ authority to run; sol-vs-opus5-20 *theirs*: 20 scenarios × 4 variants = 80 runs; lookup+explain only, no execution; Claude Opus 5: agent input 108,585→15,819 (−85%), cost $0.3700→$0.1222 (−67%), wall 105.5s→77.7s; Codex GPT-5.6-Sol: 61,952→47,669 (−23%), $0.1377→$0.1151 (−16%), wall 25.3s→62.4s (Sol slower with JCR in 19/20); One Sol outlier 372.6s / 193 Jev calls; n=1 per cell; Not Harbor task-execution; Claude/Codex harnesses; compare mode; 50 scenarios bundled; 11 groups, 960 nodes, 11,360 items; 16 routing rounds per step; NiazMorshed2007/jcr ≠ skill-broker ≠ skillranker ≠ jev-sift ≠ jev-lens ≠ jevusher ≠ jev_select_capability; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34; notes.md §116
