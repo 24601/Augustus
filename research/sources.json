@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-20T15:47Z",
+  "retrieved": "2026-09-20T17:43Z",
   "sources": [
     {
       "kind": "docs",
@@ -5233,6 +5233,78 @@
       "title": "ghubnab99/jev-enterprise-decision-fabric",
       "url": "https://github.com/ghubnab99/jev-enterprise-decision-fabric",
       "note": "MIT HEAD 51dce51c359b 111-case benchmark *theirs*. notes.md §120."
+    },
+    {
+      "kind": "github",
+      "title": "kshetrajna12/reflex",
+      "url": "https://github.com/kshetrajna12/reflex",
+      "note": "MIT 85★ HEAD 19586a1374dc open re-creation of Jev on Qwen3.5-4B; less calibrated. notes.md §121."
+    },
+    {
+      "kind": "github",
+      "title": "lakeday-org/perch",
+      "url": "https://github.com/lakeday-org/perch",
+      "note": "MIT 164★ HEAD ba775a9940b6 semantic lint is a sensor not a proof. notes.md §121."
+    },
+    {
+      "kind": "github",
+      "title": "wobsoriano/oxlint-plugin-jev",
+      "url": "https://github.com/wobsoriano/oxlint-plugin-jev",
+      "note": "MIT 36★ HEAD 82703b841f93 cutoff 0.8 still soft. notes.md §121."
+    },
+    {
+      "kind": "github",
+      "title": "myc0576/SmartMoney-Cub",
+      "url": "https://github.com/myc0576/SmartMoney-Cub",
+      "note": "MIT 25★ HEAD d93cf493853d No orders, no advice. notes.md §121."
+    },
+    {
+      "kind": "github",
+      "title": "emretheus/jev-rag-benchmark",
+      "url": "https://github.com/emretheus/jev-rag-benchmark",
+      "note": "MIT HEAD f02b0f1e44d5 paired bootstrap CIs *theirs* +0.82 / +7.62. notes.md §121."
+    },
+    {
+      "kind": "github",
+      "title": "glukicov/laya_router",
+      "url": "https://github.com/glukicov/laya_router",
+      "note": "Apache-2.0 HEAD c9b83958112a Same accuracy, 35x faster *theirs*. notes.md §121."
+    },
+    {
+      "kind": "github",
+      "title": "MohtashamMurshid/jev-speed-test",
+      "url": "https://github.com/MohtashamMurshid/jev-speed-test",
+      "note": "HEAD 14b9632ea270 BANKING77 500 Jev 81.0% *theirs*. notes.md §121."
+    },
+    {
+      "kind": "github",
+      "title": "saurabhkumar8112/jev-gpt5-routing-study",
+      "url": "https://github.com/saurabhkumar8112/jev-gpt5-routing-study",
+      "note": "HEAD 6fca78deb7b0 430/500 vs 432/500 not demonstrated equal-quality savings. notes.md §121."
+    },
+    {
+      "kind": "github",
+      "title": "KonghaYao/laya-jev",
+      "url": "https://github.com/KonghaYao/laya-jev",
+      "note": "HEAD 4e940441bab0 wire-compat ≠ replica. notes.md §121."
+    },
+    {
+      "kind": "github",
+      "title": "BeatAPI/awesome-jev",
+      "url": "https://github.com/BeatAPI/awesome-jev",
+      "note": "MIT 5★ HEAD 32685ae0aab7 All 125 projects catalog ≠ endorsement. notes.md §121."
+    },
+    {
+      "kind": "hf-space",
+      "title": "pngwn/system-one-demo",
+      "url": "https://huggingface.co/spaces/pngwn/system-one-demo",
+      "note": "sha 70450cb7d8e2 accuracy 0.705 ECE 0.046 ~112 ms *theirs*. notes.md §121."
+    },
+    {
+      "kind": "hf-dataset",
+      "title": "DavidHatley/system-one-mini-data",
+      "url": "https://huggingface.co/datasets/DavidHatley/system-one-mini-data",
+      "note": "sha 319c9329b417 independent research artifacts, not reproductions of Jev or RLCD. notes.md §121."
     }
   ]
 }

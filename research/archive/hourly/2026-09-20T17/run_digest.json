@@ -1,0 +1,13 @@
+{
+  "label": "1143",
+  "utc": "2026-09-20T17:43Z",
+  "notes": "\u00a7121",
+  "composition": "369-384",
+  "findings": "#104",
+  "invented_signal": false,
+  "primary": [
+    "kshetrajna12/reflex",
+    "lakeday-org/perch",
+    "emretheus/jev-rag-benchmark"
+  ]
+}

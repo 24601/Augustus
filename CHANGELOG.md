@@ -16,6 +16,34 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 1143 HIGH (`research/notes.md` §121 / composition items
+369–384 / findings batch #104). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#43. Do not amend released 0.5.0
+(#42). Merged #43 owns §120.
+
+### Added
+
+- **Hourly 1143 HIGH (`notes.md` §121).** open recreation / semantic
+  lint sensor / third-party benches *theirs* / Laya serving densify /
+  catalogs. open recreation ≠ calibrated replica. semantic lint is a
+  sensor not a proof. cutoff 0.8 still soft. paired bootstrap CIs
+  *theirs*. Same accuracy, 35x faster *theirs*. systems comparison ≠
+  semantic equivalence. permission ≠ confidence. catalog ≠ endorsement.
+  Evaluator: paired-CI / same-accuracy speedup / lint-cutoff still
+  soft. uniqueness_gate.py now checks 0843 + 0915 + jcr + 0922 + 0940
+  + 0947 + 1049 + 1143. Composition items 369–384 / batch #104.
+  **HARD RULE:** do not reopen or amend PR #23–#43. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat a Qwen3.5-4B
+  recreation as TypeSafe Jev, fire a 0.8 lint cutoff as a proof, or
+  quote 35x as semantic equivalence. With Augustus: open recreation ≠
+  calibrated replica; semantic lint is a sensor not a proof; paired
+  bootstrap CIs stay *theirs*; serving substrate ≠ calibrated replica.
+  Same split for any Choice/Score/Noul-style head, not only hosted Jev.
+
 Hourly 1049 HIGH (`research/notes.md` §120 / composition items
 353–368 / findings batch #103). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in

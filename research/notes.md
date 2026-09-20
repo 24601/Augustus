@@ -29987,3 +29987,315 @@ Parent merge only after **CLEAN** adversarial review
   0947 + 1049). No live Jev key. No wrappers.
 
 Hourly 1049 uniqueness lock: ggmlc GGUF is not llama.cpp; Loading them in llama.cpp will fail; one encoder pass; hf:mys/laya-GGUF sha 713ae6f6e39f likes 0 apache-2.0; hf:mys/laya-multilingual-GGUF sha 3b645ae54281; hf:mys/laya-typed-decisions-GGUF sha 1e9e8ba1f527; hf:tozp/laya-onnx sha 0862aeba1e65 Opset 14 FP32 and INT8; tozp/laya-onnx ≠ Mattepiu/laya-onnx ≠ gqgs/laya-onnx; docker-laya MIT HEAD 1b8239a51ddd README SHA 9cb7bdc3; laya.cpp RTX ggml CUDA HEAD 8590937c79a2 README SHA cdd429b9; serving substrate ≠ calibrated replica; Softmax over options ≠ calibrated Noul; Qwen3.5-4B ≠ Archer; Qwen3.5-9B ≠ Archer; jev-position-test n=6 HEAD 7a56ca1c2698 README SHA 23f194c9; jevmlx slots 5 of 6; hosted Jev 0 of 6; prior_correction made it worse; jevSweeper mean Spearman ρ −0.274; picked exact-optimal 1/25 (4%); 31 of 36 still logically decidable; 86% of the time we should not have been asking; game success ≠ calibrated Noul; LLM2Jev 64★ Apache-2.0 HEAD 924618721277 README SHA da35fe61; not affiliated with or endorsed by Jev or TypeSafe; No answer tokens are generated; OpenSourceJev llama.cpp Qwen3-1.7B HEAD 3c41fba3681d; JEV-MLX Qwen3.5-9B HEAD dec24cd929ea; decision-head-rlcd Qwen3.5-4B 4.9M LoRA; AUTO_ACT is not a Noul; closed-set fail-open stdlib-only; verified=False; soft scores ≠ hard gates; 22 to 40% cheaper *theirs*; first version 70% more expensive; 111-case benchmark *theirs*; CDC 5,000 Jev 72.2% AUC 0.7725 *theirs*; accuracy is a trap; 9.0% base rate always-no 91.0%; catalog ≠ endorsement; jev-skill 109★ 90 scenarios HEAD 4f6e899a24d4; awesome-jev-live 673 entries 4★; minecraft-agent 214★ 131 JEV decisions 35 Astra calls; nether-final-08 8 minutes 43.300 seconds; planner writes JEV selects; RoboJEV structured simulator state not images; ashare-trader 策略未通过自己的回测门槛; 36 组参数全部净期望为负; no positive expectation under real costs; typed_evals NOT an official TypeSafe AI product; jev-as-judge is a sensor; third-person-audit 40% & 60% watermarks still soft; The included experience uses a handwritten demo provider; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42; notes.md §120
+
+## 121. Hourly 1143 HIGH (2026-09-20 ~11:43 Boise / 2026-09-20T17:43Z)
+
+Measurement / class-member fold on a **fresh PR off latest `main`**
+(`cursor/fold-hourly-1143-high-a434`) after `a61372f` (merged #43 hourly
+1049, `notes.md` §120 / items 353–368 / batch #103). **HARD RULE:** do
+not reopen or amend PR #23–#43. Do **not** push onto merged 1049 / 0947
+tracks. This fold's IDs: `notes.md` §121 / composition 369–384 /
+findings batch #104.
+
+Never reopen merged #7–**#43**. Do **not** re-fold §120 1049 / §119 0947
+/ §118 llm-to-jev / §117 SemIf / §116 jcr / §115 NanoJev / §114 0843 *as
+a second census*. Densify `gqgs/laya-onnx` (496.8 MiB browser int8,
+already named in the 1049 lock), `Kevthetech143/super-jev` (experimental
+V0.2.0), and `mradermacher/jevify-gemma4-e4b-GGUF` (static quants of
+§119 `kushalpatil/jevify-gemma4-e4b`). Skip Archer rewrite. Quote
+READMEs. Mark *theirs*. No wrappers, keys, `npm` / `pip` / `uv` /
+`docker` install recipes. `invented_signal: false`. Hunches labeled.
+
+Lane is Augustus: **mathematical / logical / algorithmic mental models**
+for Jev-class categorization/scoring across AI / SWE / **business /
+knowledge work / life**, not SWE-only. PRIMARY this hour is **open
+recreation ≠ calibrated replica**: kshetrajna12/reflex is an open
+re-creation of Jev on Qwen3.5-4B; the WebGPU 0.8B path is "less
+calibrated"; Qwen3.5-4B ≠ Archer. Semantic lint is a sensor not a
+proof. Third-party benches (paired bootstrap CIs, BANKING77, cascade
+parity miss, invented-ticket gate) are *theirs*. Local Laya serving is
+still substrate ≠ replica. Catalogs are indexes. Soft scores ≠ hard
+gates. Archer still **promised_not_landed**.
+
+Unique consecutive fragments (this hour) must appear as **one
+substring** in overlays (see uniqueness gate):
+Hourly 1143 uniqueness lock: open recreation ≠ calibrated replica; Qwen3.5-4B ≠ Archer; It is an open re-creation of Jev; less calibrated; perch 164★ MIT HEAD ba775a9940b6 README SHA 7ad0403b; semantic lint is a sensor not a proof; oxlint-plugin-jev cutoff 0.8 still soft; nassim-arifette/jevgrep ≠ Bentlybro/jevgrep ≠ can1357/jegrep ≠ uehaj/jev-semgrep; patdown fuzzy linter; PanAchy/jevvy ≠ Atominac/jevvy; No orders, no advice; SmartMoney-Cub 25★ HEAD d93cf493853d; paired bootstrap CIs *theirs*; emretheus/jev-rag-benchmark ≠ erendikmenn/jev-rag-benchmark; +0.82 pts XQuAD-EN 95% CI +0.35 to +1.31; +7.62 pts SciFact CI +4.88 to +10.38; Same accuracy, 35x faster *theirs*; systems comparison ≠ semantic equivalence; BANKING77 500 Jev 81.0% GPT-OSS 82.8% Mercury 73.2% Gemini 85.4% *theirs*; frozen cascade missed its evaluation accuracy target 430/500 vs GPT-5 432/500; This is not demonstrated equal-quality savings; 24 invented tickets; Routing errors caught by the gate 0 of 3; sample too small to establish calibration; This is not TypeSafe Jev; No real API requests were made; wire-compat ≠ replica; KonghaYao/laya-jev 按官方接口写的客户端只改一个 base URL; gqgs/laya-onnx densify 496.8 MiB; tozp/laya-onnx ≠ Mattepiu/laya-onnx ≠ gqgs/laya-onnx; serving substrate ≠ calibrated replica; BeatAPI/awesome-jev ≠ 99hansling/awesome-jev ≠ Vishnurr2k01/awesome-jev ≠ robokrunch/awesome-jev ≠ rudy2steiner/awesome-jev-hub; All 125 projects; catalog ≠ endorsement; Pasblinn/jev-lab ≠ tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab ≠ q93304989-bit/jev-lab; Independent project. Not affiliated with TypeSafe; Kevthetech143/super-jev densify experimental V0.2.0; permission ≠ confidence; allay-team/openjev ≠ piyush-infocusp/openjev ≠ TheoLeeCJ/openjev; 2022 Mineflayer Jevalent collision; kushalpatil/jevify-gemma4-e4b GGUF densify; static quants; This dataset and model are independent research artifacts, not reproductions of Jev or RLCD; pngwn demo accuracy 0.705 ECE 0.046 ~112 ms *theirs*; cutoff 0.8 still soft; soft scores ≠ hard gates; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43; notes.md §121
+
+### How-to-apply (five placements / measurement lenses)
+
+These are *class* lenses, not vendor tutorials. Same discipline as
+§120 (serving substrate ≠ calibrated replica) and §119 (judge ≠
+actuator). Formal methods **compose** with scoring: a Noul is a SENSOR;
+a lint plugin is a sensor; a recreation is a class member; policy /
+parser / replay / cost table are exact work.
+
+1. **Open recreation ≠ calibrated replica**
+   (*theirs*, kshetrajna12/reflex PRIMARY + pngwn demo + DavidHatley
+   + kiroclawai blueprint + ahm-ge18/jev_replica). Quote *theirs*: It
+   is an open re-creation of Jev. Built on Qwen3.5-4B. WebGPU 0.8B is
+   less calibrated. pngwn demo accuracy 0.705 ECE 0.046 ~112 ms.
+   This dataset and model are independent research artifacts, not
+   reproductions of Jev or RLCD. Qwen3.5-4B ≠ Archer. Life analogue:
+   a cover band can play the set list; it is not the studio master.
+2. **Third-party benches are *theirs***
+   (emretheus RAG CIs + BANKING77 speed-test + gpt5 routing +
+   confidence-gate + cartpole + SmartMoney-Cub). paired bootstrap CIs
+   *theirs*. +0.82 pts XQuAD-EN 95% CI +0.35 to +1.31. +7.62 pts
+   SciFact CI +4.88 to +10.38. BANKING77 500 Jev 81.0% GPT-OSS 82.8%
+   Mercury 73.2% Gemini 85.4% *theirs*. frozen cascade missed its
+   evaluation accuracy target 430/500 vs GPT-5 432/500. This is not
+   demonstrated equal-quality savings. 24 invented tickets. Routing
+   errors caught by the gate 0 of 3. sample too small to establish
+   calibration. This is not TypeSafe Jev. No real API requests were
+   made. No orders, no advice. Same accuracy, 35x faster *theirs* is
+   a systems comparison ≠ semantic equivalence. Evaluator: CI that
+   includes zero is not equivalence; cutoff fire is not a proof.
+3. **Semantic lint is a sensor not a proof**
+   (*theirs*, perch 164★ PRIMARY + oxlint-plugin-jev + patdown +
+   nassim-arifette/jevgrep + PanAchy/jevvy). Semantic code linting
+   with Jev. The plugin reports an error when the yes-probability
+   clears your cutoff. cutoff 0.8 still soft. patdown fuzzy linter.
+   nassim-arifette/jevgrep ≠ Bentlybro/jevgrep ≠ can1357/jegrep ≠
+   uehaj/jev-semgrep. PanAchy/jevvy ≠ Atominac/jevvy. A sensor can
+   flag; code owns the gate. Life analogue: a smoke alarm is not a
+   fire marshal.
+4. **Local Laya serving densify, still substrate ≠ replica**
+   (KonghaYao/laya-jev + gqgs/laya-onnx densify + glukicov/laya_router
+   + Pidbid/laya-deploy + wsargent/laya-mcp). Quote *theirs*:
+   按官方接口写的客户端只改一个 base URL. wire-compat ≠ replica.
+   gqgs/laya-onnx densify 496.8 MiB (520,921,501 bytes).
+   tozp/laya-onnx ≠ Mattepiu/laya-onnx ≠ gqgs/laya-onnx. serving
+   substrate ≠ calibrated replica. Same accuracy, 35x faster *theirs*
+   (Laya 0.600 / 184 ms vs GPT-5 nano 0.600 / 6,415 ms on 180 labelled
+   requests) is systems comparison ≠ semantic equivalence. Do **not**
+   copy `uv` / `npm` / `docker`.
+5. **Catalogs, harnesses, and games are indexes**
+   (BeatAPI/awesome-jev + cousins + super-jev densify + Pasblinn/jev-lab
+   + allay-team/openjev collision). All 125 projects. catalog ≠
+   endorsement. BeatAPI/awesome-jev ≠ 99hansling/awesome-jev ≠
+   Vishnurr2k01/awesome-jev ≠ robokrunch/awesome-jev ≠
+   rudy2steiner/awesome-jev-hub. Pasblinn/jev-lab ≠ tanay / dairui1 /
+   BrendanH18 / yibie / q93304989-bit. Independent project. Not
+   affiliated with TypeSafe. Kevthetech143/super-jev densify
+   experimental V0.2.0. permission ≠ confidence. allay-team/openjev ≠
+   piyush-infocusp/openjev ≠ TheoLeeCJ/openjev. 2022 Mineflayer
+   Jevalent collision. Skip-thin: 4OH4/jev-compare Nothing to run yet.
+
+### HIGH
+
+1. **[kshetrajna12/reflex](https://github.com/kshetrajna12/reflex)**
+   - NEW HIGH PRIMARY recreation (Python MIT; **85★**; HEAD
+   `19586a1374dc`; README SHA `8f39fc38`). Quote *theirs*: It is an
+   open re-creation of Jev. Qwen3.5-4B by default. WebGPU 0.8B is
+   the same request format, just smaller and less calibrated.
+   open recreation ≠ calibrated replica. Qwen3.5-4B ≠ Archer. Do
+   **not** copy `pip` / keys.
+2. **[lakeday-org/perch](https://github.com/lakeday-org/perch)**
+   - NEW HIGH PRIMARY sensor (JavaScript MIT; **164★**; HEAD
+   `ba775a9940b6`; README SHA `7ad0403b`). Quote *theirs*: Semantic
+   code linting with Jev. semantic lint is a sensor not a proof.
+   Do **not** copy `npm i @lakeday/perch`.
+3. **[wobsoriano/oxlint-plugin-jev](https://github.com/wobsoriano/oxlint-plugin-jev)**
+   - NEW HIGH (TypeScript MIT; **36★**; HEAD `82703b841f93`; README
+   SHA `af703de3`). Quote *theirs*: the plugin reports an error when
+   the yes-probability clears your cutoff. Example cutoff 0.8.
+   cutoff 0.8 still soft. soft scores ≠ hard gates. Do **not** copy
+   `npm i` / `TYPESAFE_API_KEY`.
+4. **[myc0576/SmartMoney-Cub](https://github.com/myc0576/SmartMoney-Cub)**
+   - NEW HIGH life/honesty (Python MIT; **25★**; HEAD `d93cf493853d`;
+   README SHA `678a9565`). GitHub description *theirs*: No orders, no
+   advice. Read-only journal. Human-in-the-loop required. Do **not**
+   paste finance scores as Harbor.
+5. **[nassim-arifette/jevgrep](https://github.com/nassim-arifette/jevgrep)**
+   - NEW HIGH namesake (TypeScript MIT; **12★**; HEAD `52e2d895b69d`;
+   README SHA `82b93522`). Find code by what it does. nassim-arifette/jevgrep
+   ≠ Bentlybro/jevgrep ≠ can1357/jegrep ≠ uehaj/jev-semgrep. Sensor,
+   not a proof. Do **not** copy `npm`.
+6. **[tyler-dot-earth/patdown](https://github.com/tyler-dot-earth/patdown)**
+   - NEW HIGH (TypeScript NOASSERTION; **10★**; HEAD `ae0e277fdd64`;
+   README SHA `275f4b9c`). Quote *theirs*: fuzzy rules in one markdown
+   file. Swappable judge. cutoff still soft. Do **not** copy `npx`.
+7. **[PanAchy/jevvy](https://github.com/PanAchy/jevvy)**
+   - NEW HIGH namesake (TypeScript MIT; **9★**; HEAD `f682078c0362`;
+   README SHA `f2a69efc`). Permission plugin for coding agents.
+   PanAchy/jevvy ≠ Atominac/jevvy. permission ≠ confidence.
+8. **[Kevthetech143/super-jev](https://github.com/Kevthetech143/super-jev)**
+   - DENSIFY (TypeScript MIT; **6★**; HEAD `6710de64e7ad`; README SHA
+   `5754c76d`). Quote *theirs*: Status: experimental V0.2.0. independent
+   community project, not affiliated with TypeSafe AI. permission ≠
+   confidence. Do **not** mint a second census.
+9. **[BeatAPI/awesome-jev](https://github.com/BeatAPI/awesome-jev)**
+   - NEW HIGH catalog (MIT; **5★**; HEAD `32685ae0aab7`; README SHA
+   `8f821542`). Quote *theirs*: All 125 projects. 100+ GitHub stars
+   filter. catalog ≠ endorsement. BeatAPI/awesome-jev ≠ 99hansling ≠
+   Vishnurr2k01 ≠ robokrunch ≠ rudy2steiner/awesome-jev-hub.
+10. **[KonghaYao/laya-jev](https://github.com/KonghaYao/laya-jev)**
+    - NEW HIGH serving (license **null**; **1★**; HEAD `4e940441bab0`;
+    README SHA `e7450b77`). Quote *theirs*: 按官方接口写的客户端只改一个
+    base URL. wire-compat ≠ replica. serving substrate ≠ calibrated
+    replica. Do **not** copy `uv pip` / serve recipes.
+11. **[Pasblinn/jev-lab](https://github.com/Pasblinn/jev-lab)**
+    - NEW HIGH namesake (MIT; **1★**; size **0** WITH CONTENTS; HEAD
+    `eafb858c0c65`; README SHA `f98704d2`). Quote *theirs*: Independent
+    project. Not affiliated with TypeSafe. Builds on gargpratyush/jev-router.
+    Pasblinn/jev-lab ≠ tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠
+    BrendanH18/jev-lab ≠ yibie/laya-jev-lab ≠ q93304989-bit/jev-lab.
+12. **[gqgs/laya-onnx](https://github.com/gqgs/laya-onnx)**
+    - DENSIFY §120 namesake (license **null**; **1★**; HEAD
+    `7ae05e1f1c04`; README SHA `9aa8b9e6`). Quote *theirs*:
+    520,921,501 bytes (496.8 MiB). Complete browser int8. tozp/laya-onnx
+    ≠ Mattepiu/laya-onnx ≠ gqgs/laya-onnx. serving substrate ≠
+    calibrated replica. Do **not** mint a second census.
+13. **[emretheus/jev-rag-benchmark](https://github.com/emretheus/jev-rag-benchmark)**
+    - NEW HIGH measurement (Python MIT; **0★**; size **0** WITH
+    CONTENTS; HEAD `f02b0f1e44d5`; README SHA `1ee58b90`). Quote
+    *theirs*: +0.82 pts XQuAD-EN 95% CI +0.35 to +1.31. +7.62 pts
+    SciFact CI +4.88 to +10.38. paired bootstrap CIs *theirs*.
+    emretheus/jev-rag-benchmark ≠ erendikmenn/jev-rag-benchmark
+    (§89). Do **not** paste CIs as Harbor.
+14. **[glukicov/laya_router](https://github.com/glukicov/laya_router)**
+    - NEW HIGH systems comparison (Python Apache-2.0; **0★**; HEAD
+    `c9b83958112a`; README SHA `9e17af89`). GitHub description
+    *theirs*: Same accuracy, 35x faster. Table: Laya 0.600 / 184 ms /
+    $0 vs GPT-5 nano 0.600 / 6,415 ms / $0.58 on 180 labelled
+    requests. They disagree on 84 of 180. systems comparison ≠
+    semantic equivalence. Do **not** copy `uv`.
+15. **[MohtashamMurshid/jev-speed-test](https://github.com/MohtashamMurshid/jev-speed-test)**
+    - NEW HIGH (license **null**; **0★**; HEAD `14b9632ea270`; README
+    SHA `78ea7973`). Quote *theirs*: BANKING77 500. Jev 81.0% 347 ms
+    $0.068. GPT-OSS 82.8%. Mercury 73.2%. Gemini 85.4%. Confidence
+    was useful, not a guarantee. *theirs*, not Harbor.
+16. **[saurabhkumar8112/jev-gpt5-routing-study](https://github.com/saurabhkumar8112/jev-gpt5-routing-study)**
+    - NEW HIGH (NOASSERTION; **0★**; HEAD `6fca78deb7b0`; README SHA
+    `33126c29`). Quote *theirs*: The frozen cascade missed its
+    evaluation accuracy target: 430/500 vs GPT-5 432/500. This is
+    not demonstrated equal-quality savings. Do not compare cost
+    without task success (§119).
+17. **[abh2050/jev-test-confidence-gate](https://github.com/abh2050/jev-test-confidence-gate)**
+    - NEW HIGH (license **null**; **0★**; HEAD `aee1451ed8dc`; README
+    SHA `d8b6783d`). Quote *theirs*: 24 invented tickets. Routing
+    errors caught by the gate 0 of 3. sample too small to establish
+    calibration. Evaluator: n=24 is not a calibration proof.
+18. **[tinmanlab/cartpole-jev](https://github.com/tinmanlab/cartpole-jev)**
+    - NEW HIGH honesty (Python MIT; **0★**; HEAD `282d294d1fae`;
+    README SHA `803270e3`). Quote *theirs*: This is not TypeSafe Jev.
+    No real API requests were made for the committed results.
+    Controller owns force. Decision head is a supervisor.
+19. **[hf:mradermacher/jevify-gemma4-e4b-GGUF](https://huggingface.co/mradermacher/jevify-gemma4-e4b-GGUF)**
+    - DENSIFY §119 (likes **0**; sha `174d1e3c9432`). Quote *theirs*:
+    static quants of kushalpatil/jevify-gemma4-e4b. Quant ≠
+    calibration. Qwen3.5-4B ≠ Archer stays the class lock.
+20. **[hfdataset:DavidHatley/system-one-mini-data](https://huggingface.co/datasets/DavidHatley/system-one-mini-data)**
+    - NEW HIGH honesty (likes **0**; sha `319c9329b417`). Quote
+    *theirs*: This dataset and model are independent research
+    artifacts, not reproductions of Jev or RLCD.
+21. **[hfspace:pngwn/system-one-demo](https://huggingface.co/spaces/pngwn/system-one-demo)**
+    - NEW HIGH (likes **0**; sha `70450cb7d8e2`). Quote *theirs*:
+    accuracy 0.705, ECE 0.046, ~112 ms. Qwen3.5-4B-Base + LoRA.
+    Qwen3.5-4B ≠ Archer. Trackio cousins densify the same card.
+22. **[kiroclawai/system-one-blueprint](https://github.com/kiroclawai/system-one-blueprint)**
+    - NEW HIGH (license **null**; **0★**; HEAD `c455d741bc50`; README
+    SHA `76ee0a23`). Quote *theirs*: Status: Blueprint / design
+    document. A blueprint is not a replica.
+23. **[Pidbid/laya-deploy](https://github.com/Pidbid/laya-deploy)** +
+    **[wsargent/laya-mcp](https://github.com/wsargent/laya-mcp)**
+    - NEW HIGH serving (HEADs `9e0b9ac0228f` / `344d1b0a0513`). Local
+    omp / MCP Laya backends. serving substrate ≠ calibrated replica.
+    Do **not** copy install scripts.
+24. **[TonyP-MR/jev-curation-engine](https://github.com/TonyP-MR/jev-curation-engine)**
+    - NEW HIGH (HEAD `caed0279bf27`; README SHA `980f4fcd`). Read-only
+    feasibility test rig. Not a production claim.
+25. **[chr-kelly/jev-cookbook](https://github.com/chr-kelly/jev-cookbook)**
+    - NEW HIGH (MIT; HEAD `3727b8b4d2fb`; README SHA `25d83f1d`).
+    Runnable question sets. Catalog of shapes, not Harbor.
+
+### Remainder (short cards, same hour)
+
+sah1l/jev-battleship is a game measurement (web + CLI arena).
+crman/jev-ai-output-judge is planned, not measured. ahm-ge18/jev_replica
+is a Laya sentiment dashboard, not a Jev replica. 99hansling /
+Vishnurr2k01 / robokrunch / rudy2steiner are catalog cousins of BeatAPI
+(namesake lock). Games, proxies, n8n nodes, and thin apps
+(jev-battleship, jev-joust, jev-flappy-bird, jobfit, jev-proxy, jevqa,
+traceassert, jev-audit, jev-nfl, jev-affected, sudoku-jev, garmin-jev-buddy,
+jev-adrank, Twitter-keyword-shield, jevenator2, TheFishGame, jev-sts2-agent,
+innovation-poc-jev, trying-jev, playground-jev, and similar) are first
+sightings or thin applications: catalog, do not elevate.
+
+### Skips (thin / collision / 404)
+
+- 4OH4/jev-compare README **610 B**: Nothing to run yet. skip-thin.
+- Kaos599/jev-writer GitHub **404**.
+- ayshrosine/Jev_Typesafe.Ai no HEAD.
+- piyush-infocusp/openjev empty (size 0, no HEAD).
+- shaduf-labs/jev-catalog empty.
+- AparnaDhinakaran/jev-as-judge README **15 B**.
+- jyothepro/jev-games README **11 B**.
+- smithclay/dbt_jev README **10 B**.
+- OsirianLegacy/JevSimulation, Vazool/jev-escape-room, jdubpark/jevcode,
+  nsillik/jevvin-off: no README.
+- allay-team/openjev created **2022-07-11**: Mineflayer/Jevalent
+  collision, not TypeSafe Jev. Namesake lock only.
+- Archer rewrite: **promised_not_landed**. Hub archerhume/4rcherhume
+  HTTP **401**.
+
+### Pulse (live REST this hour)
+
+Archer still promised_not_landed. Hub archerhume/4rcherhume HTTP **401**.
+This hour does not re-census SemIf / Laya likes / tracker; those numbers
+stay §119 until a dedicated pulse. perch **164★**. reflex **85★**.
+oxlint-plugin-jev **36★**. SmartMoney-Cub **25★**.
+
+### Formal compose + anti-patterns
+
+Formal methods **compose** with scoring. A Noul is a SENSOR. A lint
+plugin is a SENSOR. A recreation on Qwen3.5-4B is a class member, not
+Archer. Serving (ONNX / local HTTP / MCP) is a substrate. Treating
+reflex as TypeSafe Jev, cutoff 0.8 as a proof, paired CIs as Harbor,
+35x as semantic equivalence, 430/500 as equal-quality savings, 24
+invented tickets as a calibration study, a catalog row as endorsement,
+or permission-plugin confidence as authorization is soundness theater.
+open recreation ≠ calibrated replica. semantic lint is a sensor not a
+proof. systems comparison ≠ semantic equivalence. wire-compat ≠ replica.
+permission ≠ confidence. catalog ≠ endorsement.
+
+### Adversarial review + testing hooks (Basit standing
+order)
+
+Parent merge only after **CLEAN** adversarial review **AND** testing.
+Hooks for the reviewer:
+
+- Uniqueness-gate: the consecutive `Hourly 1143 uniqueness lock:`
+  string must appear in every overlay listed below. Prior walls 0843 /
+  0915 / jcr / 0922 / 0940 / 0947 / 1049 stay one substring each (do
+  not mutate them; do not reopen #23–#43).
+- Namesake locks: nassim-arifette/jevgrep ≠ Bentlybro / can1357 /
+  uehaj; PanAchy/jevvy ≠ Atominac/jevvy; emretheus/jev-rag-benchmark ≠
+  erendikmenn; BeatAPI/awesome-jev ≠ 99hansling ≠ Vishnurr2k01 ≠
+  robokrunch ≠ rudy2steiner; Pasblinn/jev-lab ≠ tanay / dairui1 /
+  BrendanH18 / yibie / q93304989-bit; allay-team/openjev ≠
+  piyush-infocusp ≠ TheoLeeCJ; tozp/laya-onnx ≠ Mattepiu ≠ gqgs.
+- Densify vs new: gqgs/laya-onnx densifies §120; super-jev densifies
+  experimental V0.2.0; mradermacher GGUF densifies §119 e4b. reflex /
+  perch / oxlint / RAG CIs / BANKING77 / cascade miss are first
+  sightings this hour.
+- Harbor-jevals: +0.82 / +7.62 / 81.0% / 430/500 / 0.705 / 35x are
+  *theirs*, not Harbor. 128/128 stays NanoJev §115. 0.779 JevBench is
+  *theirs* from §119.
+- Anti-patterns to refuse: TypeSafe drop-in; Qwen3.5-4B as Archer;
+  cutoff 0.8 as a proof; paired CI as Harbor; 35x as semantic
+  equivalence; catalog as endorsement; permission as confidence;
+  copying keys / `npm` / `pip` / `uv`.
+- Overlay set: SKILL.md body (not YAML surgery beyond protocol
+  fragments), mental-models Apply 1143, composition-algebra items
+  369–384, faq, mixed-architecture, validation, toolbox-mapping,
+  methods-catalog, formal-methods, formal-semi-formal,
+  applied-mappings, judgment-class, question-design,
+  agent-self-assessment, mappings, CHANGELOG, README, docs/ecosystem,
+  findings batch #104, refresh-log, sources.json, changelog-hourly.md.
+- Offline check: `evaluate_decisions.py --self-test` (now includes
+  paired-CI / same-accuracy speedup / lint-cutoff still soft) and
+  `uniqueness_gate.py` (0843 + 0915 + jcr + 0922 + 0940 + 0947 + 1049
+  + 1143). No live Jev key. No wrappers.
+
+Hourly 1143 uniqueness lock: open recreation ≠ calibrated replica; Qwen3.5-4B ≠ Archer; It is an open re-creation of Jev; less calibrated; perch 164★ MIT HEAD ba775a9940b6 README SHA 7ad0403b; semantic lint is a sensor not a proof; oxlint-plugin-jev cutoff 0.8 still soft; nassim-arifette/jevgrep ≠ Bentlybro/jevgrep ≠ can1357/jegrep ≠ uehaj/jev-semgrep; patdown fuzzy linter; PanAchy/jevvy ≠ Atominac/jevvy; No orders, no advice; SmartMoney-Cub 25★ HEAD d93cf493853d; paired bootstrap CIs *theirs*; emretheus/jev-rag-benchmark ≠ erendikmenn/jev-rag-benchmark; +0.82 pts XQuAD-EN 95% CI +0.35 to +1.31; +7.62 pts SciFact CI +4.88 to +10.38; Same accuracy, 35x faster *theirs*; systems comparison ≠ semantic equivalence; BANKING77 500 Jev 81.0% GPT-OSS 82.8% Mercury 73.2% Gemini 85.4% *theirs*; frozen cascade missed its evaluation accuracy target 430/500 vs GPT-5 432/500; This is not demonstrated equal-quality savings; 24 invented tickets; Routing errors caught by the gate 0 of 3; sample too small to establish calibration; This is not TypeSafe Jev; No real API requests were made; wire-compat ≠ replica; KonghaYao/laya-jev 按官方接口写的客户端只改一个 base URL; gqgs/laya-onnx densify 496.8 MiB; tozp/laya-onnx ≠ Mattepiu/laya-onnx ≠ gqgs/laya-onnx; serving substrate ≠ calibrated replica; BeatAPI/awesome-jev ≠ 99hansling/awesome-jev ≠ Vishnurr2k01/awesome-jev ≠ robokrunch/awesome-jev ≠ rudy2steiner/awesome-jev-hub; All 125 projects; catalog ≠ endorsement; Pasblinn/jev-lab ≠ tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab ≠ q93304989-bit/jev-lab; Independent project. Not affiliated with TypeSafe; Kevthetech143/super-jev densify experimental V0.2.0; permission ≠ confidence; allay-team/openjev ≠ piyush-infocusp/openjev ≠ TheoLeeCJ/openjev; 2022 Mineflayer Jevalent collision; kushalpatil/jevify-gemma4-e4b GGUF densify; static quants; This dataset and model are independent research artifacts, not reproductions of Jev or RLCD; pngwn demo accuracy 0.705 ECE 0.046 ~112 ms *theirs*; cutoff 0.8 still soft; soft scores ≠ hard gates; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43; notes.md §121
