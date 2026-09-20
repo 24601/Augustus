@@ -16,6 +16,39 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+User-provided 0922 HIGH (`research/notes.md` §117 / composition
+items 330–336 / findings batch #100). SemIf rename + MLX +
+accuracy-ladder densify onto latest main after merged **#38**
+(jcr / §116). Does **not** bump the 0.4.0 pin.
+Do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#38.
+Do not push onto open #39/#40. Merged #38 owns §116 / 309–316 / #99.
+Merged #35 owns §114 / 289–302 / #97. Merged #36 owns §115 /
+303–308 / #98 — leave them alone. Open #40 claims §118 / 322–329 / #101.
+
+### Added
+
+- **SemIf densify (PRIMARY, `notes.md` §117).** [TheoLeeCJ/SemIf](https://github.com/TheoLeeCJ/SemIf)
+  MIT; homepage openjev.com; default **master**; live REST
+  **2282★** / **140** forks; HEAD `ca3ba65f1429` (Tolerate float
+  roundoff in MLX evidence verification, 2026-09-19). SemIf was
+  formerly OpenJev; independent; not affiliated with Jev or
+  TypeSafe. Interface pattern reproduction with open models;
+  does not reproduce Jev undisclosed model/training. Direct option
+  logits; 0 output tokens; shared-state parallel; MLX backend
+  (`--backend mlx`). Speed *theirs* Qwen3.5-4B 3090: direct
+  1.023s vs AR JSON 5.332s (**5.21×**); argmax agree 18/21
+  (systems comparison ≠ semantic equivalence). Parallel suffixes
+  20.03 dec/s on 777. Browser ladder *theirs*: authored BA 0.813,
+  pert 0.766, TypeSafe subset 0.845 vs Published Jev 0.883
+  (102 across 20 cases). Softmax over options ≠ calibrated Noul;
+  wire/agreement ≠ replica. SemIf ≠ kw2828/OpenJev playground ≠
+  zhihz/openjev ≠ apiplant/semif-rs ≠ dddanielliu/semif-serve.
+  Rename is densify not a second census. JevBench 74.6 is §78
+  not this ladder. Skip Archer rewrite. Quote *theirs*.
+  `invented_signal: false`. Composition items 330–336 / batch #100.
+  Uniqueness dump in [`research/changelog-hourly.md`](research/changelog-hourly.md).
+
+
 Hourly 0843 HIGH (`research/notes.md` §114 / composition
 items 289–302 / findings batch #97) plus merged #36 NanoJev
 (`research/notes.md` §115 / items 303–308 / batch #98) plus

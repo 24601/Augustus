@@ -28906,3 +28906,234 @@ Cards: `mixed-architecture.md` (fail table);
 
 
 User-provided 0920 jcr uniqueness lock: NiazMorshed2007/jcr MIT; site https://jcr.niazmorshed.dev; topics ai-agents,jev,mcp; **4★**; HEAD `138b3832`; README SHA `2a49dbc1`; LICENSE SHA `46231303`; size **14850**; Jev Capability Resolver; one tool to find documented deterministic commands in a nested capability tree; returns context; **does not execute**; skills = workflow+judgment; capabilities = individual operations; format independent of Jev; proposed open standard exploration; classify (Jev) → optional OpenAI decompose compound → beam search geometric mean of routing probs; keep up to 3 paths ≥60% of best (JCR_BAND_RATIO 0.6); ambiguity / no-match / depth-limit explicit; soft scores ≠ hard gates; 0.6 band is application policy; routing ≠ permission; docs ≠ authority to run; sol-vs-opus5-20 *theirs*: 20 scenarios × 4 variants = 80 runs; lookup+explain only, no execution; Claude Opus 5: agent input 108,585→15,819 (−85%), cost $0.3700→$0.1222 (−67%), wall 105.5s→77.7s; Codex GPT-5.6-Sol: 61,952→47,669 (−23%), $0.1377→$0.1151 (−16%), wall 25.3s→62.4s (Sol slower with JCR in 19/20); One Sol outlier 372.6s / 193 Jev calls; n=1 per cell; Not Harbor task-execution; Claude/Codex harnesses; compare mode; 50 scenarios bundled; 11 groups, 960 nodes, 11,360 items; 16 routing rounds per step; NiazMorshed2007/jcr ≠ skill-broker ≠ skillranker ≠ jev-sift ≠ jev-lens ≠ jevusher ≠ jev_select_capability; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34; notes.md §116
+User-provided 0922 uniqueness lock: SemIf was formerly OpenJev; independent; not affiliated with Jev or TypeSafe; homepage openjev.com; default master; MIT; HEAD ca3ba65f1429; Tolerate float roundoff in MLX evidence verification; pushed 2026-09-19; live REST 2282★ / 140 forks; size 9177; README SHA 74ab7f7f; LICENSE SHA ca562883; interface pattern reproduction with open models; does not reproduce Jev undisclosed model/training; Direct option logits; 0 output tokens; shared-state parallel; MLX backend for Apple Silicon (`--backend mlx`); Qwen3.5-4B 3090 direct 1.023s vs AR JSON 5.332s (**5.21×**); argmax agree 18/21; systems comparison ≠ semantic equivalence; Parallel suffixes 20.03 dec/s on 777 decisions; Browser ladder Qwen3.5-4B authored BA 0.813, pert 0.766, TypeSafe subset agreement 0.845 vs Published Jev 0.883 (102 across 20 cases); Softmax over options ≠ calibrated Noul; typed output does not guarantee semantic correctness; wire/agreement ≠ replica of TypeSafe; SemIf ≠ kw2828/OpenJev playground ≠ zhihz/openjev ≠ apiplant/semif-rs port ≠ dddanielliu/semif-serve; rename is densify not a second census; JevBench 74.6 is §78 not this ladder; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#38; do not push onto open #39/#40; notes.md §117
+
+## 117. User-provided HIGH — SemIf rename + MLX + ladder densify (2026-09-20 ~09:22 Boise / 2026-09-20T15:22Z)
+
+Docs-only reconstructed onto latest `main` after merged **#34** (Pages),
+merged **#35** (hourly 0843 / §114), merged **#36** (NanoJev / §115),
+and merged **#38** (jcr / §116).
+Branch `cursor/densify-semif-rename-mlx-ladder-1d85` (PR #37).
+**Never reopen merged** Augustus PR #7 / **#8** /
+**#9** / **#10** / **#12** / **#13** / **#14** /
+**#15** / **#16** / **#17** / **#18** / **#19** /
+**#20** / **#21** / **#22** / **#23** / **#24** /
+**#25** / **#26** / **#27** / **#28** / **#29** /
+**#30** / **#31** / **#32** / **#33** / **#34** /
+**#35** / **#36** / **#38**. **HARD RULE:** do not reopen or amend
+PR #23–#36 or **#38** (merged #35 owns `notes.md` §114 / items 289–302 /
+batch #97; merged **#36** owns `notes.md` §115 / items 303–308 / batch #98;
+merged **#38** owns `notes.md` §116 / items 309–316 / batch #99 —
+leave them alone). Do **not** push onto open **#39** (post-#35 hygiene;
+IDs unchanged §114) or open **#40** (llm-to-jev; claims §118 /
+items 322–329 / batch #101). This fold **keeps** `notes.md` §116
+from merged #38 and **skips** §118 / composition items 317–329 /
+findings batch #101. Remap: merged #38 took 309–316 (overrunning the
+original 315–321 claim) and open #40 took 322–329, so this fold's
+composition items stay **330–336** (still `notes.md` §117 / batch **#100**).
+
+**Not a first sighting.** SemIf is already in the
+census (stars since §48 spotcheck 1551★; §113 live
+REST **2241★**; §114 hourly pulse **2237★**) and on
+the JevBench v1.2 board (§78: SemIf Qwen3.5-4B **74.6**,
+geometric mean — **do not merge** that protocol with
+this ladder). This pass densifies **rename + MLX +
+accuracy ladder**. Do **not** re-fold §69 semif-serve
+runoff (`1164 vs 178 ms`, wire-compat ≠ replica) as if
+it were this card. Do **not** re-fold §78 JevBench
+74.6 as this authored BA. Do **not** re-fold
+IamBusy/OpenJev `/v1/decide` 45/60. Quote **their**
+README / `docs/MLX.md`. Mark *theirs*. No invented
+metrics. Hunches labeled. No wrappers, `pip` /
+`venv` / `semif-score` install recipes /
+`TYPESAFE_API_KEY` / `.env`. `invented_signal:
+false`. Skip Archer rewrite. Qwen3.8-27B ≠ Archer.
+X MCP **not** used this pass; no invented tweets.
+
+Lane is Augustus: **mental models / architecture /
+class lineage / measurement honesty**. Backend-agnostic
+categorization/scoring/decision class. SemIf is an
+**open-model interface-pattern reproduction**, not a
+TypeSafe replica and not a new species. Softmax over
+options ≠ calibrated Noul. Wire/agreement ≠ replica.
+Systems comparison ≠ semantic equivalence. Formal
+methods **compose** with scoring; a Noul is a SENSOR.
+Jev is the hot exemplar, not the whole mandate.
+Mathematical / logical / algorithmic mental models
+across AI, SWE, business, knowledge work — not
+SWE-only.
+
+### Live REST relock (this pass; quote over watch)
+
+[`TheoLeeCJ/SemIf`](https://github.com/TheoLeeCJ/SemIf)
+MIT; homepage [openjev.com](https://openjev.com);
+default **master**; **2282★** / **140** forks; GitHub
+size **9177**; HEAD
+`ca3ba65f142967030ecb453346e94d6f476a69df`
+(`ca3ba65f1429`); commit *theirs* **Tolerate float
+roundoff in MLX evidence verification**
+(2026-09-19T04:46:33Z); pushed 2026-09-19T04:46:36Z.
+README SHA `74ab7f7ffa3d492c2dc905c1e75410dca3e0677e`;
+LICENSE SHA `ca562883550941229de6555a8374fe2c83a18e08`;
+`docs/MLX.md` SHA
+`e1d81a75a04aa457deeea1d601686c5529fc5854`.
+Pulse vs §113: **2282★** (+41 vs **2241**). Pulse vs
+§114 hourly: **2282★** (+45 vs **2237**). Prior PR #37
+lock cited 2282★ — **quote live 2282**.
+
+Cousins (live REST this pass; distinction, not
+census-as-endorsement):
+[`kw2828/OpenJev`](https://github.com/kw2828/OpenJev)
+MIT; **1★**; playground; size **656095**;
+[`zhihz/openjev`](https://github.com/zhihz/openjev)
+**19★**;
+[`apiplant/semif-rs`](https://github.com/apiplant/semif-rs)
+**0★** Rust+candle port;
+[`dddanielliu/semif-serve`](https://github.com/dddanielliu/semif-serve)
+**0★** (already §69). Live `gh api
+repos/IamBusy/OpenJev` **resolved to**
+[`IamBusy/OpenJev-Vision`](https://github.com/IamBusy/OpenJev-Vision)
+this pass — do **not** collapse SemIf into Vision,
+and do **not** treat that resolve as a deletion of
+the §69 `/v1/decide` card.
+
+### HIGH (densify, one host)
+
+1. **[`TheoLeeCJ/SemIf`](https://github.com/TheoLeeCJ/SemIf)
+   (PRIMARY densify)** — Python MIT; formerly OpenJev
+   (**rename is IS, not ≠**). Independent; not
+   affiliated with Jev or TypeSafe. README *theirs*:
+   SemIf was formerly called OpenJev. It is not
+   affiliated with or endorsed by TypeSafe. Interface
+   pattern reproduction with open models; **does not
+   reproduce Jev's undisclosed model or training**.
+   Direct option logits; **0 output tokens**;
+   shared-state parallel; MLX backend for Apple
+   Silicon (`--backend mlx`). Speed *theirs*
+   Qwen3.5-4B 3090: direct **1.023 s** vs AR JSON
+   **5.332 s** (**5.21×**); argmax agree **18/21**
+   with the generative path — *theirs*: systems
+   comparison rather than a claim that the two
+   readouts are semantically equivalent. Parallel
+   suffixes **20.03** dec/s on **777** decisions
+   *theirs*. Browser ladder *theirs*: Qwen3.5-4B
+   authored BA **0.813**, pert **0.766**, TypeSafe
+   subset agreement **0.845** vs Published Jev
+   **0.883** (102 across 20 cases). Softmax over
+   options ≠ calibrated Noul. Wire/agreement ≠ replica
+   of TypeSafe. SemIf ≠ kw2828/OpenJev playground ≠
+   zhihz/openjev ≠ apiplant/semif-rs port ≠
+   dddanielliu/semif-serve. Do not copy `pip` /
+   `semif-score` / MLX install. Do not dump
+   `docs/MLX.md` recipes. MLX *theirs*: typed output
+   does not guarantee semantic correctness, and
+   softmax scores are not calibrated confidence.
+   HEAD this pass is the float-roundoff tolerate
+   commit on MLX evidence verification.
+
+   **Hunch:** the product is **0 output tokens** plus
+   a named serving surface, not a closed-model clone.
+   Agreement 0.845 on 102 aligned public rows is a
+   **subset agreement**, not Harbor and not ECE.
+   5.21× is a **systems** ratio on their owned 21
+   binary criteria, not TypeSafe's latency envelope.
+
+### How-to-apply (five placements / one host)
+
+When someone pastes SemIf / OpenJev.com / "the open
+Jev", extract the **rename + interface-pattern +
+measurement-honesty** theses. Do not steal a Harbor
+number. Do not copy the installer.
+
+1. **Rename is densify, not a second census** —
+   SemIf **IS** formerly OpenJev (same GitHub
+   `TheoLeeCJ/SemIf`; homepage still openjev.com).
+   Quote *theirs*. Do not open a new species row.
+   Do not treat the rename as a retraction of prior
+   star pulses (§48 1551★ → §113 2241★ → §114 2237★
+   → this pass 2282★).
+2. **Interface pattern ≠ replica** — reproduces the
+   **typed-decision interface** (state + runtime
+   criteria + option logits) with **open models**.
+   Explicitly does **not** reproduce Jev's
+   undisclosed model or training. Softmax over
+   supplied options is conditional on those options
+   *theirs* — calibrate on the workload. ≠ TypeSafe
+   hosted Noul.
+3. **Direct logits / 0 tokens / shared-state / MLX**
+   — one forward pass reads declared option logits;
+   no answer token is sampled. Shared-state prefill
+   once, then branch criteria. Apple Silicon path is
+   `--backend mlx` (PR #8 / float-roundoff HEAD).
+   MLX is a **backend**, not a new class. Do not
+   copy install. Default backend remains Torch/CUDA
+   *theirs*. MLX reranker mode is explicitly
+   unsupported *theirs*.
+4. **Systems comparison ≠ semantic equivalence** —
+   1.023 s vs 5.332 s (**5.21×**), 0 vs 111 output
+   tokens, argmax **18/21**. Quote the disagreement
+   as the honesty. Parallel suffixes **20.03** dec/s
+   on 777; BF16 reuse changed 5–6 of 777 argmaxes
+   *theirs* (experimental). Do not paste 5.21× as
+   "beats Jev" or as a replica latency.
+5. **Browser ladder ≠ Harbor; cousins ≠ host** —
+   Qwen3.5-4B authored BA **0.813** / pert **0.766**
+   / TypeSafe subset **0.845** vs Published Jev
+   **0.883** on **102 across 20 cases**. Jev number
+   *theirs* is read from TypeSafe's published
+   records; they did not run a live Jev endpoint.
+   **Do not merge** with §78 JevBench **74.6**
+   (different protocol, 534-row geometric mean).
+   WANLI-256 BA **0.637** *theirs* is not bonzi
+   WANLI-256 64.5%. SemIf ≠ kw2828 playground ≠
+   zhihz/openjev ≠ semif-rs port ≠ semif-serve
+   `/v1/systemone` wire.
+
+### Theater (do not)
+
+Treat 0.813 / 0.845 / 0.883 as Harbor or as
+calibrated Noul; treat 5.21× as TypeSafe latency or
+as semantic equivalence; treat 18/21 as "the same
+model"; softmax-over-options as a Noul; copy `pip`
+/ `venv` / `--backend mlx` install as a recipe;
+collapse SemIf into kw2828 / zhihz / semif-rs /
+semif-serve / IamBusy `/v1/decide` / OpenJev-Vision;
+re-fold §78 74.6 as this ladder; re-fold §69
+1164 vs 178 ms as this speed table; treat MLX as a
+new species; invent tweets / Archer drop; reopen
+merged #23–#36 or #38; push onto open #39/#40; steal
+§114 from merged #35, §115 from merged #36, §116
+from merged #38, or §118 / 322–329 from #40.
+
+### Census
+
+Live REST quoted above. SemIf **2282★** (+34 vs
+§113 **2241**; +38 vs §114 **2237**). Cousin stars
+quoted for distinction only. Awesomejev / tracker /
+Laya / jevlike **not re-derived** this pass
+(user-linked SemIf densify, not an hourly watch).
+Archer still **NOT landed**. `invented_signal: false`.
+
+### Not
+
+Not a TypeSafe how-to. Not a SemIf/MLX install
+guide. Not a second OpenJev census. Not a JevBench
+v1.2 rerun. Not wrappers. Do not copy keys /
+commands. Do not dump source / weights / eval JSON.
+Skip Archer rewrite.
+
+### Overlay set
+
+SKILL.md YAML+protocol+mapping-index, mental-models
+Apply 0922, composition-algebra items 330–336, faq,
+mixed-architecture, validation, toolbox-mapping,
+methods-catalog, formal-methods, formal-semi-formal,
+applied-mappings, judgment-class, question-design,
+agent-self-assessment, mappings, CHANGELOG, README,
+docs/ecosystem, findings batch #100, refresh-log,
+sources.json, changelog-hourly.md, uniqueness_gate.py.
+
+Offline check: uniqueness_gate.py (0843 + 0915 + jcr + 0922
+consecutive locks) and `evaluate_decisions.py
+--self-test`. No live Jev key. No wrappers.
+
