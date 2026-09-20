@@ -278,6 +278,21 @@ def self_test() -> None:
     assert isinstance(nano_readme, str) and nano_readme.startswith("4190093c64ee")
     semif_readme = by_id["github:TheoLeeCJ/SemIf"].get("readme_sha")
     assert isinstance(semif_readme, str) and semif_readme.startswith("74ab7f7f")
+    densify_original_ids = {
+        "github:razorback16/openjev": "75",
+        "github:wfzyx/von": "49",
+        "github:Heman10x-NGU/openJev-verdict-2.0": "71",
+        "github:jaredpalmer/kev": "45",
+        "github:logan-markewich/jeff": "60",
+        "github:TypeLLM/TypeLLM": "113",
+    }
+    for look_id, section in densify_original_ids.items():
+        assert look_id in by_id, look_id
+        assert by_id[look_id]["notes_section"] == section, (
+            look_id,
+            by_id[look_id].get("notes_section"),
+            section,
+        )
     rules = densify_card_rules()
     assert any("sibling first-sighting" in r for r in rules)
     assert any("revisit HIGH like novel HIGH" in r for r in rules)

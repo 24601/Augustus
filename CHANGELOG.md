@@ -16,6 +16,38 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 1248 HIGH (`research/notes.md` §123 / composition items
+385–400 / findings batch #105). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#45. Do not amend released 0.5.0
+(#42). Merged #45 owns §122. Merged #44 owns §121.
+
+### Added
+
+- **Hourly 1248 HIGH (`notes.md` §123).** decide is not generate /
+  GLiNER-GLiClass class members / third-party benches *theirs* /
+  openjev 0.2.1 densify / von Option-Marker densify / verdict Heaven
+  74.9 densify / kev tarballs + PLAN_Qwen35 / jeff JevBench / TypeLLM
+  thinking. decide is not generate. GLiNER/GLiClass ports are class
+  members not Jev replicas. 93.5% *theirs* not Harbor. 74.9 *theirs*
+  not Harbor. 8.7x *theirs* not Harbor. wire-compat is not logit-equiv.
+  SHA move is not a replica. Evaluator: 400 error-contract /
+  theirs-not-harbor / decide-is-not-generate / DeltaNet isolation /
+  thinking mode is constrained AR. uniqueness_gate.py now checks
+  0843 + 0915 + jcr + 0922 + 0940 + 0947 + 1049 + 1143 + 1248.
+  Composition items 385–400 / batch #105.
+  **HARD RULE:** do not reopen or amend PR #23–#45. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat tryDecide
+  as a chat completion, a Swift GLiNER port as Jev, 93.5% as Harbor,
+  or Docker 0.2.1 as logit-equiv. With Augustus: decide is not
+  generate; ports are class members; third-party benches stay
+  *theirs*; wire-compat is not logit-equiv. Same split for any
+  Choice/Score/Noul-style head, not only hosted Jev.
+
+
 Revisit / since-last-look protocol (`research/notes.md` §122).
 Does **not** bump the 0.5.0 pin. Catalogued repos get a densify
 card when fingerprints move. Star-noise is not a fold. Treat

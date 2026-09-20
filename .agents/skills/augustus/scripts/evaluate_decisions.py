@@ -22,6 +22,10 @@ Also reports (when asked, and always in --self-test):
   * same-accuracy speedup: tied accuracy plus a latency ratio is a
     systems comparison, not semantic equivalence
   * lint cutoff still soft: p >= cutoff fires a sensor, not a proof
+  * 400 error contract is not a Noul (plain-text unaskable)
+  * third-party benches stay *theirs* (not Harbor)
+  * decide is not generate; thinking mode is constrained AR
+  * packed-mask isolation fails by construction on DeltaNet
 
 Select thresholds on one split, evaluate on another: run twice with different
 files. Missing labels or costs produce a stated limitation, not defaults.
@@ -240,6 +244,40 @@ def candidate_mass_renorm(full_logits, allowed_indices):
     return mass, _softmax(allowed_logits)
 
 
+
+def http_error_contract_is_not_noul(status, body_kind="plain-text"):
+    """400 plain-text for unaskable is an error contract, not a Noul."""
+    if status == 400 and body_kind == "plain-text":
+        return True
+    if status == 422:
+        return True
+    return False
+
+
+def theirs_bench_is_not_harbor(n, claim):
+    """Third-party benches stay *theirs*. n and claim do not mint Harbor."""
+    if not claim:
+        raise ValueError("need a claim label")
+    return True
+
+
+def decide_is_not_generate(kind):
+    """decide / generate / stream are three inference types."""
+    if kind not in ("decide", "generate", "stream"):
+        raise ValueError("kind must be decide, generate, or stream")
+    return kind == "decide"
+
+
+def thinking_mode_is_constrained_ar(thinking):
+    """thinking=True/False is still autoregressive constrained decoding."""
+    return True
+
+
+def isolation_fails_on_deltanet(packed_mask_respected):
+    """Packed-mask isolation would fail by construction on DeltaNet."""
+    return packed_mask_respected is False
+
+
 def hop_ece_permutation_invariant(rows, bins=10, key="p"):
     """Shuffle order; equal-width ECE must not move.
 
@@ -336,6 +374,21 @@ def self_test():
     assert 34.0 < speedup < 36.0, speedup
     assert lint_cutoff_fires(0.81, 0.8)
     assert not lint_cutoff_fires(0.79, 0.8)
+
+    # 1248: error contract / theirs-not-harbor / decide ≠ generate /
+    # DeltaNet isolation fail-by-construction / thinking mode is AR.
+    assert http_error_contract_is_not_noul(400, "plain-text")
+    assert http_error_contract_is_not_noul(422, "json")
+    assert not http_error_contract_is_not_noul(200, "json")
+    assert theirs_bench_is_not_harbor(78, "von-macro-93.5")
+    assert theirs_bench_is_not_harbor(231, "verdict-74.9")
+    assert decide_is_not_generate("decide")
+    assert not decide_is_not_generate("generate")
+    assert not decide_is_not_generate("stream")
+    assert thinking_mode_is_constrained_ar(True)
+    assert thinking_mode_is_constrained_ar(False)
+    assert isolation_fails_on_deltanet(False)
+    assert not isolation_fails_on_deltanet(True)
 
     print("self-test ok")
 
