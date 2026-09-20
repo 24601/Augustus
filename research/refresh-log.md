@@ -2064,6 +2064,63 @@
   jev-recall despite attached JSON (quote README demos);
   JevPi GitHub size 0 with contents (same honesty as gut);
   0★ HIGH still got a real card.
+## 2026-09-20T03:45Z — hourly 2145 HIGH (Boise ~21:45 MDT)
+
+- Fresh PR off main after merged #19 (`320aff9` / §101).
+  Never reopen merged #7–**#19**. Branch
+  `cursor/hourly-2145-fold-282d`.
+  Skip Archer rewrite. Quote READMEs. Mark *theirs*.
+  No wrappers / keys / install recipes. Do not dump
+  source / SDK / weights / eval logs.
+  `invented_signal: false`.
+- Nine HIGH: yodablocks/jevq (PRIMARY; **0★**;
+  question-linting of Jev questions themselves);
+  ChristianAlexander/laya_ex (**0★**; open Laya binding);
+  humandebri/IC-Laya (**0★**; on-chain/edge);
+  agilabs-ai/jev48 (**0★**; auditable weekend replica);
+  copyleftdev/ember (**0★**; dual-judge / framing);
+  PIXELZX0/XERON (**0★**; Laya specialist FT, GPU-pending)
+  + daliborsb/laya (Hub replica drop);
+  MagaBitmex/jev-4b-distill-data (student corpus;
+  student checkpoint missing);
+  lewislululu/jevon (non-LLM VIN; likes **3**);
+  WaynezProg/jev-kit (**0★**; source-bound evidence).
+- Formal methods compose with scoring; a Noul is a SENSOR.
+  Treating a clean jevq run as measured separation,
+  treating 62 IC-Laya tests as Laya parity, letting a
+  Score grant Tx, pasting AUROC as a phishing win,
+  injecting priors as help, treating v4 as a controller,
+  distilling Jev as teacher of record, pasting maze 1.00
+  as a general System One, or treating exit 0 as claim
+  truth is soundness theater.
+- Pulse (do not invent): Archer still NOT landed. Hub
+  archerhume/4rcherhume HTTP **401**. Tracker likes **54**;
+  lastModified `2026-09-20T02:59:13Z` (not re-fetched as
+  a rewrite). Live REST (review relock): SemIf **2000★**;
+  jevlike **1002★** flat; TypeAR **12★** (+1 vs §101 11).
+  AnotiaWang/awesome-jev **86★** ≠ Awesomejev 561/27007.
+  Qwen3.8-27B ≠ Archer. X MCP not used; no invented tweets.
+- Cards: SKILL.md, mixed-architecture fail table +
+  gallery, faq, mental-models Apply 2145, judgment-class,
+  validation, applied-mappings, mappings, toolbox,
+  composition-algebra items 120–128, question-design,
+  methods-catalog, formal-methods, agent-self-assessment,
+  ecosystem, CHANGELOG, README.
+- notes.md §102; sources.json; findings.md batch #85.
+  No wrapper. Do **not** merge from this review.
+- Adversarial review honesty locks: GitHub size 0 with
+  contents (jevq / laya_ex / IC-Laya / jev-kit); jev48
+  size **1439**; ember size **479**; XERON size **52**;
+  license null (XERON; README Apache-2.0); MagaBitmex/jev-4b-distill
+  model NOT FOUND; daliborsb copied vs-Jev is §76;
+  IC-Laya parity_verified false / MASK 50284 vs PAD 50283;
+  0★ HIGH still got a real card (jevon likes **3**).
+  **Review FAIL then lock:** WaynezProg/jev-kit ≠
+  jonathanavis96/jev-kit (Airlock); ember SCALING.md at
+  locked HEAD `c02f622b` is **7/24 → 1/24 → 0/24**
+  (SPECTRAL 11/40 is later, not this pin); live REST
+  SemIf **2000★** / TypeAR **12★**.
+
 ## 2026-09-20T02:41Z — hourly 2041 HIGH (Boise ~20:41 MDT)
 
 - Fresh PR off main after merged #18 (`7ef9613` / §100).

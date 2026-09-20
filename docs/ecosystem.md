@@ -743,6 +743,23 @@ Architecture / mental models / Harbor-jevals / toolbelt, not a bias-bench/planal
 
 Pulse (do not invent): Archer still NOT landed. Hub `archerhume/4rcherhume` HTTP **401** — not re-fetched as a rewrite. Tracker likes **54** (+3 vs §100 pin **51**); lastModified **CHANGED** `2026-09-20T02:59:13Z` (was §100 `2026-09-19T18:37:18Z`). Live REST: SemIf **1984★** (+30 vs §100 **1954**); jevlike **1002★** (+13 vs §100 **989**); TypeAR-AI/TypeAR **11★** flat. AnotiaWang/awesome-jev **84★** ≠ Awesomejev 561/27007. X MCP not used this hour; no invented tweets. `invented_signal: false`.
 
+### Hourly ~21:45 Boise 2026-09-19 / 2026-09-20T03:45Z (2145 HIGH)
+
+Architecture / mental models / Harbor-jevals / toolbelt, not a jevq/laya_ex/IC-Laya/jev48/ember/jev-kit tutorial. `notes.md` §102. Skip Archer rewrite. Quote READMEs. Soft Noul ≠ hard safety. Do **not** re-fold 2041 / §101 / 1943 / §100 / 1843 / §99 / 1740 / §98 / 1639 / §96 / gliner-native-runtime / §97 / 1541 / §95 / jev-align *mechanism* / §93. Fresh PR; never reopen merged #7–**#19**. 0★ HIGH still gets a real card. Open-weights Laya is the *class* exemplar this hour, not a TypeSafe drop-in. Quote live REST over watch claims. `invented_signal: false`.
+
+- **yodablocks/jevq** — Python MIT; **0★**; README SHA `3198dde0`; HEAD `40b2dd90`; GitHub size **0** with contents. PRIMARY. question-linting of Jev questions themselves. nine jaggedness rules, no API key, no labelled data. static lint ≠ measured separation. yodablocks/jevq ≠ tenbin ≠ JevLint ≠ commitjev. 0.75 vs 0.81 *theirs*. Do not copy `pip` / keys.
+- **ChristianAlexander/laya_ex** — Elixir Apache-2.0; **0★**; README SHA `6361c920`; HEAD `99f9ce73`; mix **0.1.0**; GitHub size **0** with contents. open-weights Laya as class exemplar (binding). Nx/Bumblebee runtime. host chooses backend. ChristianAlexander/laya_ex ≠ system_one_sdk ≠ dannote/jev ≠ NandhaKishorM/laya. Do not copy `mix` / keys.
+- **humandebri/IC-Laya** — Rust MIT; **0★**; README SHA `85431606`; HEAD `055ef42f`; GitHub size **0** with contents. on-chain/edge Laya deploy. parity_verified stays false. model output never grants Tx. 62 cargo PASS / 4.8 MiB Wasm *theirs*. humandebri/IC-Laya ≠ laya_ex. Do not copy `dfx`.
+- **agilabs-ai/jev48** — Python MIT; **0★**; README SHA `3f667dd4`; HEAD `aa697005`; size **1439**. auditable weekend replica. Jev outputs never used for training. unpaired 0.577 vs 0.727. agilabs-ai/jev48 ≠ JevBench ≠ Mapika/decider. Do not copy secrets.
+- **copyleftdev/ember** — TypeScript MIT; **0★**; README SHA `6db00b56`; HEAD `c02f622b`; size **479**. adversarial dual-judge / framing attack surface. comparative framing is the usable judgment. prior injection crowds out evidence. copyleftdev/ember ≠ ember.js. Do not copy attacks.
+- **PIXELZX0/XERON** — Python; license **null**; **0★**; README SHA `8733e01f`; HEAD `5e870a4d`; size **52**. Laya specialist fine-tune pipeline. training still GPU-pending. PIXELZX0/XERON ≠ convaiinnovations/laya. Do not copy `HF_TOKEN`.
+- **daliborsb/laya** — HF Apache-2.0; 421.3M. Hub Laya replica drop. daliborsb/laya ≠ convaiinnovations/laya ≠ NandhaKishorM/laya. Do not re-paste copied vs-Jev.
+- **MagaBitmex/jev-4b-distill-data** — HF dataset Apache-2.0. System One student distillation corpus. gold is programmatic. teacher is closed-API clone. MagaBitmex/jev-4b-distill model **not found**. Do not distill Jev as teacher of record.
+- **lewislululu/jevon** — HF AGPL; likes **3**. non-LLM VIN System One. planning depth not chat. maze 1.0000 n=141 *theirs*. lewislululu/jevon ≠ douglance/jevon. Qwen3.8-27B ≠ Archer.
+- **WaynezProg/jev-kit** — MIT; **0★**; README SHA `a7f14838`; HEAD `4558554f`; GitHub size **0** with contents. source-bound evidence checks. local quote mismatch needs no API. exit 0 ≠ claim truth. WaynezProg/jev-kit ≠ jonathanavis96/jev-kit (Airlock) ≠ jev-use ≠ jev-mcp. Do not copy `curl | sh`.
+
+Pulse (do not invent): Archer still NOT landed. Hub `archerhume/4rcherhume` HTTP **401** — not re-fetched as a rewrite. Tracker likes **54**; lastModified `2026-09-20T02:59:13Z`. Live REST (review relock): SemIf **2000★** (+16 vs §101 **1984**); jevlike **1002★** **flat**; TypeAR-AI/TypeAR **12★** (+1 vs §101 **11**). AnotiaWang/awesome-jev **86★** (+2 vs §101 **84**) ≠ Awesomejev 561/27007. X MCP not used this hour; no invented tweets. `invented_signal: false`.
+
 See `references/mixed-architecture.md` in the skill. Class-level family
 choice: `references/judgment-class.md`. Proof vs judgment (Alloy vs
 Apalache; DST trio Antithesis / Resonate HQ / PufferLib):

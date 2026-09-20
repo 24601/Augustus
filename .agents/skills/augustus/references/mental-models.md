@@ -1496,6 +1496,89 @@ routing policy / PROTOCOL / fail polarity / Fabric
 packs / rubric compiler / pre-registered plan / OTP
 client is exact work.
 
+## Apply 2145 (`notes.md` §102)
+
+Same pillars, nine HIGH clusters (question-linting of
+Jev questions themselves PRIMARY; open-weights Laya as
+class exemplar (binding); on-chain/edge Laya deploy;
+auditable weekend replica; adversarial dual-judge /
+framing attack surface; Laya specialist + Hub replica
+drop; distillation economics / teacher-of-record;
+non-LLM VIN System One; source-bound evidence + bounded
+judgments). Do **not** re-fold 2041 / §101 / 1943 /
+§100 / 1843 / §99 / 1740 / §98 / 1639 / §96 /
+gliner-native-runtime / §97 / 1541 / §95 / jev-align
+*mechanism* / §93. Fresh PR; never reopen merged
+#7–**#19**. Skip Archer rewrite (still **NOT landed**;
+last pin §101: likes **54**; lastModified
+`2026-09-20T02:59:13Z`; Hub HTTP **401**). Quote live
+REST over watch claims. `invented_signal: false`.
+0★ HIGH still gets a real card. Open-weights Laya is
+the *class* exemplar this hour, not a TypeSafe drop-in.
+
+Unique consecutive fragments:
+question-linting of Jev questions themselves; nine jaggedness rules, no API key, no labelled data; static lint ≠ measured separation; yodablocks/jevq ≠ tenbin ≠ JevLint ≠ commitjev; open-weights Laya as class exemplar (binding); Nx/Bumblebee runtime; host chooses backend; ChristianAlexander/laya_ex ≠ system_one_sdk ≠ dannote/jev ≠ NandhaKishorM/laya; on-chain/edge Laya deploy; parity_verified stays false; model output never grants Tx; humandebri/IC-Laya ≠ laya_ex; auditable weekend replica; Jev outputs never used for training; soft human-vote distributions; unpaired 0.577 vs 0.727; agilabs-ai/jev48 ≠ JevBench ≠ Mapika/decider; adversarial dual-judge / framing attack surface; comparative framing is the usable judgment; prior injection crowds out evidence; copyleftdev/ember ≠ ember.js; Laya specialist fine-tune pipeline; training still GPU-pending; PIXELZX0/XERON ≠ convaiinnovations/laya; Hub Laya replica drop; daliborsb/laya ≠ convaiinnovations/laya ≠ NandhaKishorM/laya; System One student distillation corpus; gold is programmatic; teacher is closed-API clone; do not distill Jev as teacher of record; MagaBitmex/jev-4b-distill-data ≠ missing student checkpoint; non-LLM VIN System One; planning depth not chat; lewislululu/jevon ≠ douglance/jevon; source-bound evidence checks; local quote mismatch needs no API; exit 0 ≠ claim truth; WaynezProg/jev-kit ≠ jonathanavis96/jev-kit (Airlock) ≠ jev-use ≠ jev-mcp;
+
+1. **Question-linting of Jev questions themselves** (PRIMARY) —
+   nine jaggedness rules, no API key, no labelled data.
+   static lint ≠ measured separation.
+   yodablocks/jevq ≠ tenbin ≠ JevLint ≠ commitjev.
+2. **Open-weights Laya as class exemplar (binding)** —
+   Nx/Bumblebee runtime.
+   host chooses backend.
+   ChristianAlexander/laya_ex ≠ system_one_sdk ≠ dannote/jev
+   ≠ NandhaKishorM/laya.
+3. **On-chain/edge Laya deploy** —
+   parity_verified stays false.
+   model output never grants Tx.
+   humandebri/IC-Laya ≠ laya_ex.
+4. **Auditable weekend replica** —
+   Jev outputs never used for training.
+   unpaired 0.577 vs 0.727.
+   agilabs-ai/jev48 ≠ JevBench ≠ Mapika/decider.
+5. **Adversarial dual-judge / framing attack surface** —
+   comparative framing is the usable judgment.
+   prior injection crowds out evidence.
+   copyleftdev/ember ≠ ember.js.
+6. **Laya specialist + Hub replica drop** —
+   Laya specialist fine-tune pipeline.
+   training still GPU-pending.
+   PIXELZX0/XERON ≠ convaiinnovations/laya.
+   daliborsb/laya ≠ convaiinnovations/laya ≠ NandhaKishorM/laya.
+7. **Distillation economics / teacher-of-record** —
+   gold is programmatic.
+   teacher is closed-API clone.
+   do not distill Jev as teacher of record.
+   MagaBitmex/jev-4b-distill-data ≠ missing student checkpoint.
+8. **Non-LLM VIN System One** —
+   planning depth not chat.
+   lewislululu/jevon ≠ douglance/jevon.
+9. **Source-bound evidence + bounded judgments** —
+   local quote mismatch needs no API.
+   exit 0 ≠ claim truth.
+   WaynezProg/jev-kit ≠ jonathanavis96/jev-kit (Airlock) ≠ jev-use ≠ jev-mcp.
+
+Soft Noul ≠ hard safety. 0.03s / 0.75 vs 0.81 / 62 tests /
+4.8 MiB / 0.577 vs 0.727 / AUROC 0.769 vs acc 50.1 /
++0.199 / +26,744 / 0 of 2,816 / 131,967 sequences /
+$0.03/1k / maze 1.0000 / snake 0.9674 / exit 0 are
+**sensors**. Treating a clean jevq run as measured
+separation, treating 62 IC-Laya tests as Laya parity,
+letting a Score tail grant Tx, pasting "Jev48 beats Jev
+on phishing" from AUROC, injecting class priors as
+"help", treating v4 as a pharmacy controller, pasting
+sequence counts as trained quality, re-pasting a copied
+vs-Jev table, distilling Jev as teacher of record,
+pasting maze 1.00 as a general System One, or treating
+jev-kit exit 0 as claim truth is the same theater as
+jev-gate §79.
+
+Formal methods **compose** with scoring. A Noul is a
+SENSOR. The jaggedness regex / Nx backend / canister
+schema stamp / weekend freeze / kernel+doctrine /
+FT pipeline / Hub layout / programmatic gold / VIN
+recurrence / local quote match is exact work.
+
 ## Decision-design extras (any domain)
 
 ```text

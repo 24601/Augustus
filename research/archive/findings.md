@@ -3017,6 +3017,77 @@ Cross-repo addition: (lt) judgment-as-language primitive;
 memories; (lw) memory-lease HIGH upgrade; (lx) jevlint
 rename; (ly) schema-compiler HIGH upgrade; (lz) ANE /
 local-logit / Pi-loop economics.
+## Batch #85 (2026-09-20 ~03:45 UTC / ~21:45 Boise) — hourly 2145 HIGH
+
+Note: `research/notes.md` §102. Docs-only on a fresh PR
+off main. Never reopen merged #7 / **#8** / **#9** /
+**#10** / **#12** / **#13** / **#14** / **#15** /
+**#16** / **#17** / **#18** / **#19**. Do **not** re-fold
+§93 mechanism / §94 / §95 / §96 / §97 / §98 / §99 /
+§100 / §101. Skip Archer rewrite. Do **not** re-fold 2041
+/ 1943 / 1843 / 1740 / gliner-native-runtime / 1639 /
+1541. No invented metrics. Hunches labeled. Quote
+READMEs. Soft Noul ≠ hard safety. Augustus owns
+placement. Open-weights Laya is the *class* exemplar this
+hour. Quote live REST over watch.
+`invented_signal: false`.
+
+- **Question-linting of Jev questions themselves (PRIMARY).**
+  yodablocks/jevq (Python MIT; **0★**; HEAD `40b2dd90`;
+  README SHA `3198dde0`; GitHub size 0 with contents).
+  question-linting of Jev questions themselves. nine
+  jaggedness rules, no API key, no labelled data. static
+  lint ≠ measured separation. yodablocks/jevq ≠ tenbin ≠
+  JevLint ≠ commitjev.
+- **Open-weights Laya as class exemplar (binding).**
+  ChristianAlexander/laya_ex (Elixir Apache-2.0; **0★**;
+  HEAD `99f9ce73`; README SHA `6361c920`). Nx/Bumblebee
+  runtime. host chooses backend. ChristianAlexander/laya_ex
+  ≠ system_one_sdk ≠ dannote/jev ≠ NandhaKishorM/laya.
+- **On-chain/edge Laya deploy.** humandebri/IC-Laya
+  (Rust MIT; **0★**; HEAD `055ef42f`; README SHA
+  `85431606`). parity_verified stays false. model output
+  never grants Tx. humandebri/IC-Laya ≠ laya_ex.
+- **Auditable weekend replica.** agilabs-ai/jev48
+  (Python MIT; **0★**; HEAD `aa697005`; README SHA
+  `3f667dd4`). Jev outputs never used for training.
+  unpaired 0.577 vs 0.727. agilabs-ai/jev48 ≠ JevBench ≠
+  Mapika/decider.
+- **Adversarial dual-judge / framing.** copyleftdev/ember
+  (TypeScript MIT; **0★**; HEAD `c02f622b`; README SHA
+  `6db00b56`). comparative framing is the usable judgment.
+  prior injection crowds out evidence. copyleftdev/ember ≠
+  ember.js.
+- **Laya specialist + Hub replica.** PIXELZX0/XERON
+  (Python; license null; **0★**; HEAD `5e870a4d`) training
+  still GPU-pending. daliborsb/laya Hub replica drop ≠
+  convaiinnovations/laya ≠ NandhaKishorM/laya.
+- **Distillation economics.** MagaBitmex/jev-4b-distill-data
+  gold is programmatic; teacher is closed-API clone; do
+  not distill Jev as teacher of record; student checkpoint
+  missing.
+- **Non-LLM VIN System One.** lewislululu/jevon (HF AGPL;
+  likes 3). planning depth not chat. lewislululu/jevon ≠
+  douglance/jevon.
+- **Source-bound evidence.** WaynezProg/jev-kit (MIT;
+  **0★**; HEAD `4558554f`; README SHA `a7f14838`). local
+  quote mismatch needs no API. exit 0 ≠ claim truth.
+  WaynezProg/jev-kit ≠ jonathanavis96/jev-kit (Airlock) ≠ jev-use ≠ jev-mcp.
+
+Pulse: Archer still NOT landed. Hub
+archerhume/4rcherhume HTTP **401**. Tracker likes **54**;
+lastModified `2026-09-20T02:59:13Z`. Live REST (review relock): SemIf
+**2000★**; jevlike **1002★** flat; TypeAR **12★** (+1 vs §101 11).
+AnotiaWang/awesome-jev **86★** ≠ Awesomejev 561/27007.
+Qwen3.8-27B ≠ Archer. `invented_signal: false`.
+
+Cross-repo addition: (mj) question-lint of questions;
+(mk) open Laya BEAM binding; (ml) on-chain/edge deploy;
+(mm) weekend replica honesty; (mn) dual-judge framing;
+(mo) Laya specialist + Hub replica; (mp) distill corpus
+≠ teacher-of-record; (mq) non-LLM VIN; (mr) source-bound
+evidence.
+
 ## Batch #84 (2026-09-20 ~02:41 UTC / ~20:41 Boise) — hourly 2041 HIGH
 
 Note: `research/notes.md` §101. Docs-only on a fresh PR

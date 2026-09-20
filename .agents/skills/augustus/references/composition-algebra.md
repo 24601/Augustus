@@ -1036,3 +1036,60 @@ Hourly 2041 items 111–119 (`notes.md` §101). Do **not**
 re-fold 1943 items 102–110 / 1843 items 97–101 / 1740
 items 94–96 / SIGNAL §93 mechanism. Soft Noul ≠ hard
 safety.
+
+question-linting of Jev questions themselves; nine jaggedness rules, no API key, no labelled data; static lint ≠ measured separation; yodablocks/jevq ≠ tenbin ≠ JevLint ≠ commitjev; open-weights Laya as class exemplar (binding); Nx/Bumblebee runtime; host chooses backend; ChristianAlexander/laya_ex ≠ system_one_sdk ≠ dannote/jev ≠ NandhaKishorM/laya; on-chain/edge Laya deploy; parity_verified stays false; model output never grants Tx; humandebri/IC-Laya ≠ laya_ex; auditable weekend replica; Jev outputs never used for training; soft human-vote distributions; unpaired 0.577 vs 0.727; agilabs-ai/jev48 ≠ JevBench ≠ Mapika/decider; adversarial dual-judge / framing attack surface; comparative framing is the usable judgment; prior injection crowds out evidence; copyleftdev/ember ≠ ember.js; Laya specialist fine-tune pipeline; training still GPU-pending; PIXELZX0/XERON ≠ convaiinnovations/laya; Hub Laya replica drop; daliborsb/laya ≠ convaiinnovations/laya ≠ NandhaKishorM/laya; System One student distillation corpus; gold is programmatic; teacher is closed-API clone; do not distill Jev as teacher of record; MagaBitmex/jev-4b-distill-data ≠ missing student checkpoint; non-LLM VIN System One; planning depth not chat; lewislululu/jevon ≠ douglance/jevon; source-bound evidence checks; local quote mismatch needs no API; exit 0 ≠ claim truth; WaynezProg/jev-kit ≠ jonathanavis96/jev-kit (Airlock) ≠ jev-use ≠ jev-mcp
+
+120. **Question-lint of the question text** (yodablocks/jevq; PRIMARY):
+     position 9 (Verifier) as static checker, not a System One.
+     nine jaggedness rules, no API key, no labelled data.
+     static lint ≠ measured separation.
+     yodablocks/jevq ≠ tenbin ≠ JevLint ≠ commitjev.
+     Full cards: `question-design.md`, `faq.md`.
+121. **Open Laya BEAM binding** (ChristianAlexander/laya_ex):
+     position 1 (Operand) as unofficial class head, not a species.
+     open-weights Laya as class exemplar (binding).
+     Nx/Bumblebee runtime. host chooses backend.
+     ChristianAlexander/laya_ex ≠ system_one_sdk ≠ dannote/jev ≠
+     NandhaKishorM/laya.
+     Full cards: `judgment-class.md`, `faq.md`.
+122. **On-chain/edge Laya deploy** (humandebri/IC-Laya):
+     positions 3 (Gate) × 11 (Bounds). model output never grants Tx.
+     parity_verified stays false.
+     humandebri/IC-Laya ≠ laya_ex.
+     Full cards: `formal-methods.md`, `faq.md`.
+123. **Auditable weekend replica** (agilabs-ai/jev48):
+     position 8 (Metric) as unpaired public aggregates.
+     Jev outputs never used for training. unpaired 0.577 vs 0.727.
+     agilabs-ai/jev48 ≠ JevBench ≠ Mapika/decider.
+     Full cards: `validation.md`, `faq.md`.
+124. **Adversarial dual-judge / framing** (copyleftdev/ember):
+     positions 5 (Comparator) × 9 (Verifier). comparative framing
+     is the usable judgment. prior injection crowds out evidence.
+     copyleftdev/ember ≠ ember.js.
+     Full cards: `question-design.md`, `faq.md`.
+125. **Laya specialist FT + Hub replica** (PIXELZX0/XERON; daliborsb/laya):
+     position 1 (Operand) densifies the open head. training still
+     GPU-pending. Hub Laya replica drop.
+     PIXELZX0/XERON ≠ convaiinnovations/laya.
+     daliborsb/laya ≠ convaiinnovations/laya ≠ NandhaKishorM/laya.
+     Full cards: `judgment-class.md`, `faq.md`.
+126. **Student distillation corpus** (MagaBitmex/jev-4b-distill-data):
+     position 8 (Metric) as training-data VOI. gold is programmatic.
+     teacher is closed-API clone. do not distill Jev as teacher of record.
+     MagaBitmex/jev-4b-distill-data ≠ missing student checkpoint.
+     Full cards: `toolbox-mapping.md`, `faq.md`.
+127. **Non-LLM VIN System One** (lewislululu/jevon):
+     position 4 (Selector of F) on a grid, not chat.
+     planning depth not chat.
+     lewislululu/jevon ≠ douglance/jevon.
+     Full cards: `judgment-class.md`, `faq.md`.
+128. **Source-bound evidence + bounded judgments** (WaynezProg/jev-kit):
+     positions 9 (Verifier) × 2 (exact quote match). local quote
+     mismatch needs no API. exit 0 ≠ claim truth.
+     WaynezProg/jev-kit ≠ jonathanavis96/jev-kit (Airlock) ≠ jev-use ≠ jev-mcp.
+     Full cards: `applied-mappings.md`, `faq.md`.
+
+Hourly 2145 items 120–128 (`notes.md` §102). Do **not**
+re-fold 2041 items 111–119 / 1943 items 102–110 / 1843
+items 97–101 / 1740 items 94–96 / SIGNAL §93 mechanism.
+Soft Noul ≠ hard safety.

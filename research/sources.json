@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-20T02:41Z",
+  "retrieved": "2026-09-20T03:45Z",
   "sources": [
     {
       "kind": "docs",
@@ -3793,6 +3793,66 @@
       "title": "nshkrdotcom/system_one_sdk",
       "url": "https://github.com/nshkrdotcom/system_one_sdk",
       "note": "Elixir MIT; 0★; HEAD c2a522ee; README SHA c117b4c4; LICENSE SHA fa8ed9a6; mix 0.5.0; GitHub size 0 with contents. provider-neutral Elixir/BEAM Noul/Choice/Score SDK. class infrastructure. GitHub desc provider-neutral; README opening TypeSafe-first. nshkrdotcom/system_one_sdk ≠ typesafe_sdk ≠ dannote/jev. notes.md §101."
+    },
+    {
+      "kind": "github",
+      "title": "yodablocks/jevq",
+      "url": "https://github.com/yodablocks/jevq",
+      "note": "PRIMARY Augustus hourly 2145. Python MIT; 0★; HEAD 40b2dd90; README SHA 3198dde0; LICENSE SHA a0843a75; GitHub size 0 with contents. question-linting of Jev questions themselves. nine jaggedness rules, no API key, no labelled data. static lint ≠ measured separation. yodablocks/jevq ≠ tenbin ≠ JevLint ≠ commitjev. 0.75 vs 0.81 *theirs*. Do not copy pip/keys. notes.md §102."
+    },
+    {
+      "kind": "github",
+      "title": "ChristianAlexander/laya_ex",
+      "url": "https://github.com/ChristianAlexander/laya_ex",
+      "note": "Elixir Apache-2.0; 0★; HEAD 99f9ce73; README SHA 6361c920; LICENSE SHA 261eeb9e; NOTICE SHA d0b8b5bc; mix :laya 0.1.0 elixir ~>1.17; GitHub size 0 with contents. open-weights Laya as class exemplar (binding). Nx/Bumblebee runtime. host chooses backend. ChristianAlexander/laya_ex ≠ system_one_sdk ≠ dannote/jev ≠ NandhaKishorM/laya. notes.md §102."
+    },
+    {
+      "kind": "github",
+      "title": "humandebri/IC-Laya",
+      "url": "https://github.com/humandebri/IC-Laya",
+      "note": "Rust MIT; 0★; HEAD 055ef42f; README SHA 85431606; LICENSE SHA 5ea60a55; GitHub size 0 with contents. on-chain/edge Laya deploy. parity_verified stays false. model output never grants Tx. 62 cargo PASS; Candle Wasm 4.8 MiB; MASK 50284 vs fixture PAD 50283. humandebri/IC-Laya ≠ laya_ex. notes.md §102."
+    },
+    {
+      "kind": "github",
+      "title": "agilabs-ai/jev48",
+      "url": "https://github.com/agilabs-ai/jev48",
+      "note": "Python MIT; 0★; HEAD aa697005; README SHA 3f667dd4; LICENSE SHA c6fda1e9; size 1439. auditable weekend replica. Jev outputs never used for training. unpaired 0.577 vs 0.727. agilabs-ai/jev48 ≠ JevBench ≠ Mapika/decider. notes.md §102."
+    },
+    {
+      "kind": "github",
+      "title": "copyleftdev/ember",
+      "url": "https://github.com/copyleftdev/ember",
+      "note": "TypeScript MIT; 0★; HEAD c02f622b; README SHA 6db00b56; LICENSE SHA fbf4d76c; size 479. adversarial dual-judge / framing attack surface. comparative framing is the usable judgment. prior injection crowds out evidence. SCALING.md at locked HEAD 7/24→1/24→0/24 (SPECTRAL 11/40 is later). copyleftdev/ember ≠ ember.js. Do not copy attacks. notes.md §102."
+    },
+    {
+      "kind": "github",
+      "title": "PIXELZX0/XERON",
+      "url": "https://github.com/PIXELZX0/XERON",
+      "note": "Python; GitHub license null (README Apache-2.0); 0★; HEAD 5e870a4d; README SHA 8733e01f; size 52. Laya specialist fine-tune pipeline. training still GPU-pending. PIXELZX0/XERON ≠ convaiinnovations/laya. notes.md §102."
+    },
+    {
+      "kind": "huggingface",
+      "title": "daliborsb/laya",
+      "url": "https://huggingface.co/daliborsb/laya",
+      "note": "HF model Apache-2.0; 421.3M. Hub Laya replica drop. daliborsb/laya ≠ convaiinnovations/laya ≠ NandhaKishorM/laya. Copied vs-Jev is §76 not a 2145 bake-off. notes.md §102."
+    },
+    {
+      "kind": "huggingface",
+      "title": "MagaBitmex/jev-4b-distill-data",
+      "url": "https://huggingface.co/datasets/MagaBitmex/jev-4b-distill-data",
+      "note": "HF dataset Apache-2.0; 1.5k train/100 eval/120 hard. System One student distillation corpus. gold is programmatic. teacher is closed-API clone. MagaBitmex/jev-4b-distill model NOT FOUND. do not distill Jev as teacher of record. notes.md §102."
+    },
+    {
+      "kind": "huggingface",
+      "title": "lewislululu/jevon",
+      "url": "https://huggingface.co/lewislululu/jevon",
+      "note": "HF model AGPL; 20,105,047 params; likes 3. non-LLM VIN System One. planning depth not chat. maze/choice 1.0000 n=141; snake 0.9674 n=92 *theirs*. lewislululu/jevon ≠ douglance/jevon. Qwen3.8-27B ≠ Archer. notes.md §102."
+    },
+    {
+      "kind": "github",
+      "title": "WaynezProg/jev-kit",
+      "url": "https://github.com/WaynezProg/jev-kit",
+      "note": "TypeScript+Python MIT; 0★; HEAD 4558554f; README SHA a7f14838; LICENSE SHA 19937317; GitHub size 0 with contents. source-bound evidence checks. local quote mismatch needs no API. exit 0 ≠ claim truth. WaynezProg/jev-kit ≠ jonathanavis96/jev-kit (Airlock) ≠ jev-use ≠ jev-mcp. Airlock is the PreToolUse guard component of jonathanavis96/jev-kit, not a sandbox and not this card. nine-host installer not extra repos. notes.md §102."
     }
 
   ]

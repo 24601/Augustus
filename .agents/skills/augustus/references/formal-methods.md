@@ -949,6 +949,58 @@ caveat, treating J7 pass as safe to obey, treating a
 receipt as authorization, or hard-gating confidence
 ≥0.95 is the same theater. rh-guard owns injection.
 
+2145 envelopes (`notes.md` §102), still outside the extras
+template:
+question-linting of Jev questions themselves;
+nine jaggedness rules, no API key, no labelled data;
+static lint ≠ measured separation;
+yodablocks/jevq ≠ tenbin ≠ JevLint ≠ commitjev;
+open-weights Laya as class exemplar (binding);
+Nx/Bumblebee runtime;
+host chooses backend;
+ChristianAlexander/laya_ex ≠ system_one_sdk ≠ dannote/jev ≠ NandhaKishorM/laya;
+on-chain/edge Laya deploy;
+parity_verified stays false;
+model output never grants Tx;
+humandebri/IC-Laya ≠ laya_ex;
+auditable weekend replica;
+Jev outputs never used for training;
+soft human-vote distributions;
+unpaired 0.577 vs 0.727;
+agilabs-ai/jev48 ≠ JevBench ≠ Mapika/decider;
+adversarial dual-judge / framing attack surface;
+comparative framing is the usable judgment;
+prior injection crowds out evidence;
+copyleftdev/ember ≠ ember.js;
+Laya specialist fine-tune pipeline;
+training still GPU-pending;
+PIXELZX0/XERON ≠ convaiinnovations/laya;
+Hub Laya replica drop;
+daliborsb/laya ≠ convaiinnovations/laya ≠ NandhaKishorM/laya;
+System One student distillation corpus;
+gold is programmatic;
+teacher is closed-API clone;
+do not distill Jev as teacher of record;
+MagaBitmex/jev-4b-distill-data ≠ missing student checkpoint;
+non-LLM VIN System One;
+planning depth not chat;
+lewislululu/jevon ≠ douglance/jevon;
+source-bound evidence checks;
+local quote mismatch needs no API;
+exit 0 ≠ claim truth;
+WaynezProg/jev-kit ≠ jonathanavis96/jev-kit (Airlock) ≠ jev-use ≠ jev-mcp.
+Soft Noul ≠ hard safety: 0.03s / 62 tests / 4.8 MiB /
+0.577 / +26,744 / maze 1.0000 / exit 0 are **sensors**.
+The jaggedness regex / Nx backend / canister schema
+stamp + mock ledger / weekend freeze / kernel+doctrine /
+programmatic gold / VIN recurrence / local quote match
+is exact work. Treating a clean jevq run as measured
+separation, treating 62 tests as Laya parity, letting a
+Score grant Tx, pasting AUROC as a phishing win,
+injecting priors as help, treating v4 as a controller,
+distilling Jev as teacher of record, or treating exit 0
+as claim truth is the same theater.
+
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a
 hybrid "verified by Noul" API.

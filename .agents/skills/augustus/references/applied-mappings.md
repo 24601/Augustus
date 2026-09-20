@@ -1968,4 +1968,23 @@ typed decision control plane; receipt ≠ authorization;
 historical-v0 zero retained cases; ≠ jev-forge ≠ dgp.
 Do not copy keys / `npm`. Soft Noul ≠ hard safety.
 
+**Hourly 2145 HIGH (`notes.md` §102).** Question-lint
+cousin: [yodablocks/jevq](https://github.com/yodablocks/jevq)
+question-linting of Jev questions themselves; nine
+jaggedness rules, no API key, no labelled data; static
+lint ≠ measured separation; ≠ tenbin ≠ JevLint ≠
+commitjev. Evidence cousin:
+[WaynezProg/jev-kit](https://github.com/WaynezProg/jev-kit)
+source-bound evidence checks; local quote mismatch
+needs no API; exit 0 ≠ claim truth; ≠ jonathanavis96/jev-kit
+(Airlock) ≠ jev-use ≠
+jev-mcp. On-chain/edge cousin:
+[humandebri/IC-Laya](https://github.com/humandebri/IC-Laya)
+parity_verified stays false; model output never grants
+Tx. Dual-judge cousin:
+[copyleftdev/ember](https://github.com/copyleftdev/ember)
+comparative framing is the usable judgment; prior
+injection crowds out evidence; ≠ ember.js. Do not copy
+keys / `mix` / `curl | sh`. Soft Noul ≠ hard safety.
+
 
