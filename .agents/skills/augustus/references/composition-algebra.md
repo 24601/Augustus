@@ -1648,6 +1648,120 @@ bonzi-27b-v2 / ternary-8b / 27b-v1 GGUF family densify; Hub still does not ship 
      5m win rate 25%.
      Full cards: `mental-models.md`, `validation.md`, `faq.md`.
 
+
+226. **Blackwood census densify** (hf:BlackwoodAI/blackwood-rlcd):
+     position 1 (Operand). Blackwood tracker ABSENT; likes 2 gated manual.
+     Census densify, not landed. Archer still promised_not_landed.
+     Full cards: `judgment-class.md`, `faq.md`.
+227. **Qwen3-0.6B RLCD** (hf:anthonym21/qwen3-0.6b-rlcd-decision):
+     positions 1 (Operand) × 8 (Metric). r = c - p_a.
+     ECE 0.021; acc 0.807 vs warmup 0.746. calibration beyond ~500 tokens unmeasured.
+     Full cards: `mental-models.md`, `validation.md`, `faq.md`.
+228. **Gemma E2B Independent** (hf:larkooo/gemma-e2b-rlcd):
+     positions 1 (Operand) × 8 (Metric). Independent primitive.
+     11.57s vs 54.10s · 4.67× · 120/128 *theirs*.
+     default path is pretrained Gemma probs not trained RLCD head.
+     Full cards: `judgment-class.md`, `faq.md`.
+229. **Hub JEV-CPU twin** (hf:Meanblock/JEV-CPU):
+     position 1 (Operand). GH Meanblock 404; lock leesk212/JEV-CPU.
+     softmax over letter slots ≠ Noul.
+     Full cards: `faq.md`, `judgment-class.md`.
+230. **Mímir LFM openjev** (hf:impacte/mimir-lfm-openjev):
+     positions 1 (Operand) × 8 (Metric). WANLI 0.741 vs openjev v2 0.77 *theirs*.
+     3-way NLI ≠ Noul.
+     Full cards: `validation.md`, `faq.md`.
+231. **System One distilled** (hf:shreyanbr/system-one-distilled):
+     positions 1 (Operand) × 8 (Metric). priority 0.464 = majority floor.
+     banking77 contaminated. raw margins not probabilities.
+     do not distill Jev as teacher of record (they distilled Haiku).
+     Full cards: `judgment-class.md`, `faq.md`.
+232. **System One gold** (hf:shreyanbr/system-one-gold):
+     position 1 (Operand). Gold = dataset labels. Teacher-copy vs gold vs zeroshot.
+     Full cards: `faq.md`.
+233. **System One zeroshot** (hf:shreyanbr/system-one-zeroshot):
+     position 1 (Operand). Zeroshot = base NLI.
+     Full cards: `faq.md`.
+234. **jev-bench ranking ≠ calibration** (Running-Dolphins/jev-bench):
+     position 8 (Metric). “0.9 is not one number”. ranking ≠ calibration.
+     banking77 0.8–0.9 stated 0.86 actual 0.73 over-confident *theirs*.
+     ≠ Praveenrajus/jev-bench ≠ fstandhartinger/jevbench.
+     Full cards: `validation.md`, `mental-models.md`, `faq.md`.
+235. **jev-measured economics** (WallerChen/jev-measured):
+     position 8 (Metric). $0.0000153–$0.0000226 vs circulating $0.0004 (~20×).
+     Score is 0..n-1 expectation not 0–1. Noul has no confidence field.
+     TCP floor 198.8 ms. type reliability is not a reason to choose Jev (json_schema 5/5).
+     gateway tax not one number.
+     Full cards: `validation.md`, `formal-methods.md`, `faq.md`.
+236. **decision-lab hybrid** (RadRebelSam/jev-decision-lab):
+     positions 2 (Filter) × 11 (Bounds). Function-only 5/8 vs hybrid 8/8.
+     4/8 without Jev. 8 designed cases not conversion lift.
+     ≠ RadRebelSam/awesome-jev.
+     Full cards: `mixed-architecture.md`, `faq.md`.
+237. **BigQuery 200-row pilot** (jackojacko05/compare-jev-bigquery-ai-functions):
+     position 8 (Metric). 200-row pilot Jev 86.5% 173/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 87.0% 174/200 *theirs*.
+     not a ranking.
+     Full cards: `validation.md`, `faq.md`.
+238. **NLI Tetris fighting ring** (Trecto34/openjev-fighting-ring):
+     position 4 (Selector). NLI Tetris argmax P(entail)−P(contradict).
+     Full cards: `applied-mappings.md`, `faq.md`.
+239. **情緒測謊器** (joshhu/jevtest):
+     positions 3 (Gate) × 8 (Metric). 情緒測謊器. 1q 396ms / 30q 567ms. ±0.03.
+     33q $0.000045 vs Gemini ~5× slower ~60× cost *theirs*.
+     ≠ realZachi/jevtest. Knowledge work / life.
+     Full cards: `mental-models.md`, `faq.md`.
+240. **JevBenchmark Space** (hfspace:aahf/JevBenchmark):
+     position 8 (Metric). 8-example Jev vs GPT-5.6 Sol ~64× cost 5.4× latency *theirs*.
+     synthetic; no inference. ≠ JevBench v1.2 §78.
+     Full cards: `validation.md`, `faq.md`.
+241. **rhc98 catalog** (rhc98/awesome-jev):
+     position 1 (Operand). Judged 3317 / listed 2560. Jev judges, code applies policy.
+     catalog ≠ endorsement.
+     Full cards: `faq.md`.
+242. **APA catalog** (AiPersonacademy/Awesome-jev-use):
+     position 1 (Operand). APA “microsecond policy / zero hallucination” overclaim.
+     catalog ≠ endorsement.
+     Full cards: `faq.md`.
+243. **questionator** (erseco/questionator):
+     positions 1 (Operand) × 4 (Selector). Client-side quiz; pointer from held docs; scanned-PDF warn.
+     CSP only api.typesafe.ai. Knowledge work.
+     Full cards: `applied-mappings.md`, `faq.md`.
+244. **grill-jev user decides** (grgy078033/grill-jev):
+     positions 3 (Gate) × 11 (Bounds). Jev judges / agent reasons / user decides.
+     selecting an option is not permission to implement. degraded fallback.
+     Full cards: `formal-methods.md`, `faq.md`.
+245. **jev-lsp pattern exact** (makefunstuff/jev-lsp):
+     positions 2 (Filter) × 3 (Gate). pattern exact, judgement must clear floor.
+     no matching pattern → no model call. not a correctness oracle.
+     $0.00022 vs chat $0.00306 *theirs*.
+     Full cards: `formal-methods.md`, `applied-mappings.md`, `faq.md`.
+246. **jev-spec remainder** (nozomi-koborinai/jev-spec):
+     positions 3 (Gate) × 9 (Invariant). Spec vs artifact remainder.
+     treating 0.85 as 85% / minProbability hard-gate as Harbor.
+     Full cards: `formal-methods.md`, `question-design.md`, `faq.md`.
+247. **Jev-LLM VERIFY** (202620325-spec/Jev-LLM):
+     positions 5 (Gather) × 7 (Policy). VERIFY acquires discriminating evidence, never same-pool confidence-only rescoring.
+     fast/full/max are ceilings not sizes. Solar writes, Jev chooses NEXT ACTION.
+     Full cards: `mental-models.md`, `formal-methods.md`, `faq.md`.
+
+Hourly 0541 items 226–247 (`notes.md` §110). Do **not**
+re-fold 0439 items 202–225 / 0345 items 186–201 / 0243 items 178–185 / 0145 items 161–177 / 0042 items 149–160 / 2340 items 138–148 / 2246 items 129–137 / 2145
+items 120–128 / 2041 items 111–119 / 1943 items 102–110 /
+1843 items 97–101 / 1740 items 94–96 / SIGNAL §93
+mechanism / §60 six-gates / §78 v1.2 board / §71 claim-audit /
+yuki-oshio/mini-jev *93.25%*.
+“0.9 is not one number”; ranking ≠ calibration;
+Score is 0..n-1 expectation not 0–1;
+Noul has no confidence field;
+treating 0.85 as 85% / minProbability hard-gate as Harbor;
+SemIf 2186★ (+20 vs §109 2166);
+tracker likes 64 flat, lastModified UNCHANGED;
+Laya likes 802 (was 783); Blackwood tracker ABSENT;
+Archer still promised_not_landed;
+do not reopen or amend PR #23/#24/#25/#26/#27.
+Soft Noul ≠ hard safety.
+
+Hourly 0541 uniqueness lock: GH jev-haiku-benchmarking 404; jevlike 1038★ (+7 vs 1031); TypeAR 14★ flat; AnotiaWang 96★ (+1 vs 95); yibie/awesome-jev 490★.
+
 Hourly 0439 items 202–225 (`notes.md` §109). Do **not**
 re-fold 0345 items 186–201 / 0243 items 178–185 / 0145 items 161–177 / 0042 items 149–160 / 2340 items 138–148 / 2246 items 129–137 / 2145
 items 120–128 / 2041 items 111–119 / 1943 items 102–110 /

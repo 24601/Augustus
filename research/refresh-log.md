@@ -2755,6 +2755,78 @@
   CHANGELOG, README, docs/ecosystem, findings batch #91,
   sources.json. Hunches labeled. No wrapper.
 
+## 2026-09-20T11:41Z — hourly 0541 HIGH (Boise ~05:41 MDT)
+
+- Fresh PR off main after merged #27 (`39d6520` / §109).
+  **HARD RULE:** do not reopen or amend PR #23 or #24 or #25 or #26 or #27.
+  Never reopen merged #7–**#27**. Branch
+  `cursor/hourly-0541-augustus-fold-9585`.
+  Skip Archer rewrite. Quote READMEs. Mark *theirs*.
+  No wrappers / keys / install recipes. Do not dump
+  source. 0★ HIGH still gets a real card. Size **0**
+  WITH CONTENTS still gets a real card. Quote live
+  REST over watch. `invented_signal: false`.
+- Open-weight / RLCD / Blackwood watch: hf BlackwoodAI/blackwood-rlcd
+  (likes **2**; gated **manual**; sha `3b9e29df`; Blackwood tracker ABSENT);
+  anthonym21/qwen3-0.6b-rlcd-decision (sha `b327ec5e`; r = c - p_a;
+  ECE 0.021; acc 0.807 vs warmup 0.746);
+  larkooo/gemma-e2b-rlcd (sha `e099c730`; Independent primitive;
+  11.57s vs 54.10s · 4.67× · 120/128 *theirs*;
+  default path is pretrained Gemma probs not trained RLCD head);
+  Meanblock/JEV-CPU (sha `759fa606`; GH Meanblock 404; lock leesk212/JEV-CPU;
+  softmax over letter slots ≠ Noul);
+  impacte/mimir-lfm-openjev (sha `5f9173bb`; WANLI 0.741 vs openjev v2 0.77 *theirs*;
+  3-way NLI ≠ Noul);
+  shreyanbr/system-one-distilled/gold/zeroshot
+  (priority 0.464 = majority floor; banking77 contaminated;
+  raw margins not probabilities;
+  do not distill Jev as teacher of record (they distilled Haiku)).
+- Measurement densifies PRIMARY: Running-Dolphins/jev-bench
+  (**0★**; HEAD `67d2ee42`; size **1070**;
+  “0.9 is not one number”; ranking ≠ calibration;
+  banking77 0.8–0.9 stated 0.86 actual 0.73 over-confident *theirs*);
+  WallerChen/jev-measured (**0★**; HEAD `4a12dfb3`;
+  $0.0000153–$0.0000226 vs circulating $0.0004 (~20×);
+  Score is 0..n-1 expectation not 0–1; Noul has no confidence field;
+  TCP floor 198.8 ms; type reliability is not a reason to choose Jev (json_schema 5/5);
+  gateway tax not one number);
+  RadRebelSam/jev-decision-lab (**0★**; HEAD `e6d6d42d`; size **128**;
+  Function-only 5/8 vs hybrid 8/8; 8 designed cases not conversion lift);
+  jackojacko05/compare-jev-bigquery-ai-functions (**0★**; HEAD `cb9ef56b`;
+  200-row pilot Jev 86.5% 173/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 87.0% 174/200 *theirs*;
+  not a ranking).
+- Applied/theory: questionator (Client-side quiz; pointer from held docs; scanned-PDF warn);
+  grill-jev (Jev judges / agent reasons / user decides);
+  jev-lsp (pattern exact, judgement must clear floor);
+  jev-spec (treating 0.85 as 85% / minProbability hard-gate as Harbor);
+  Jev-LLM (VERIFY acquires discriminating evidence, never same-pool confidence-only rescoring;
+  Solar writes, Jev chooses NEXT ACTION).
+- Formal methods compose with scoring; a Noul is a SENSOR.
+  Treating 0.9 as one number, 8/8 as conversion lift, 200-row as
+  ranking, 0.85 as 85%, Score as 0–1, Noul.confidence as existing,
+  json_schema gap as typed-model win, circulating $0.0004 as
+  measured, 64× Space as Harbor, or minProbability 0.85 as Harbor
+  is soundness theater. treating 0.85 as 85% / minProbability
+  hard-gate as Harbor, 0.9 as one number, and 8/8 as conversion
+  lift are the anti-patterns.
+- Pulse (do not invent): Archer still promised_not_landed. Hub
+  archerhume/4rcherhume HTTP **401**. Tracker likes **64**;
+  lastModified `2026-09-20T04:29:16.000Z` **UNCHANGED**.
+  Laya present (likes **793**); Blackwood ABSENT. Live REST:
+  SemIf **2186★** (+20 vs §109 2166); jevlike **1038★**
+  (+1 vs §109 1031); TypeAR **14★** flat vs §109.
+  AnotiaWang/awesome-jev **96★** ≠ yibie/awesome-jev **490★**.
+  Qwen3.8-27B ≠ Archer.
+  X MCP not used. `invented_signal: false`.
+- Folded into SKILL.md (description + protocol +
+  mapping-index), mental-models Apply 0541, faq,
+  mixed-architecture fail table + gallery, applied-mappings,
+  validation, judgment-class, composition-algebra items
+  226–247, toolbox-mapping, methods-catalog, formal-methods,
+  question-design, agent-self-assessment, mappings,
+  CHANGELOG, README, docs/ecosystem, findings batch #93,
+  sources.json. Hunches labeled. No wrapper.
+
 ## 2026-09-20T10:39Z — hourly 0439 HIGH (Boise ~04:39 MDT)
 
 - Fresh PR off main after merged #26 (`58a05ab` / §108).

@@ -3400,3 +3400,51 @@ No and no. 90d trend +12.40% vs random +12.75% vs BH +41.71%. 5m win rate 25%. D
 ## Did Archer land this hour? Treat tracker likes 64 as a landing? Treat Awesomejev 656/38160 as eval? Reopen PR #23–#26?
 
 No, no, no, and no. Hub `archerhume/4rcherhume` HTTP **401** (not re-fetched as a rewrite). tracker likes 64 (+4) lastModified UNCHANGED. Tracker likes **64** (+4 vs §108 **60**); lastModified `2026-09-20T04:29:16.000Z` **UNCHANGED**. Laya present; Blackwood ABSENT; Archer still promised_not_landed. Laya present (likes **783**); Blackwood ABSENT from tracker ITEMS; Archer still promised_not_landed. Live REST pulse: SemIf **2166★** (+38 vs §108 **2128**); jevlike **1031★** (+5 vs §108 **1026**); TypeAR-AI/TypeAR **14★** (+2 vs §108 **12**). AnotiaWang/awesome-jev **95★** (+1 vs §108 **94**) ≠ Awesomejev 656 entries / 38,160 stars (was 561/27007). Qwen3.8-27B ≠ Archer. AITuber tension ±15. do not reopen or amend PR #23 or #24 or #25 or #26. do not reopen or amend PR #23/#24/#25/#26. `invented_signal: false`. `notes.md` §109.
+
+## Treat Blackwood tracker-absent as landed? Treat Hub Meanblock as a new species vs leesk212?
+
+No and no. Blackwood tracker ABSENT; likes 2 gated manual. Census densify only. GH Meanblock 404; lock leesk212/JEV-CPU. softmax over letter slots ≠ Noul. Hub `archerhume/4rcherhume` HTTP **401**. `notes.md` §110.
+
+## Treat ECE 0.021 as a hard gate of honest probabilities? Treat Independent `{cat,dog}` as Choice?
+
+No and no. r = c - p_a. ECE 0.021; acc 0.807 vs warmup 0.746. calibration beyond ~500 tokens unmeasured. Independent primitive. 11.57s vs 54.10s · 4.67× · 120/128 *theirs*. default path is pretrained Gemma probs not trained RLCD head. Independent is a fourth primitive beside Choice/Score/Noul. `notes.md` §110.
+
+## Distill Jev as teacher of record? Treat priority 0.464 without the majority floor? Treat 3-way NLI as a Noul?
+
+No, no, and no. do not distill Jev as teacher of record (they distilled Haiku). priority 0.464 = majority floor. banking77 contaminated. raw margins not probabilities. GH jev-haiku-benchmarking 404. WANLI 0.741 vs openjev v2 0.77 *theirs*. 3-way NLI ≠ Noul. Teacher-copy vs gold vs zeroshot is three supervision regimes, one schema. `notes.md` §110.
+
+## Treat 0.9 as one number? Collapse Running-Dolphins/jev-bench into Praveenrajus/jevbench?
+
+No and no. “0.9 is not one number”. ranking ≠ calibration. banking77 0.8–0.9 stated 0.86 actual 0.73 over-confident *theirs*. ≠ Praveenrajus/jev-bench ≠ fstandhartinger/jevbench. Python MIT; **0★**; HEAD `67d2ee42`; size **1070**. Running-Dolphins/jev-bench. PRIMARY. `notes.md` §110.
+
+## Treat circulating $0.0004 as measured? Treat Score as 0–1? Treat Noul.confidence as existing? Treat json_schema gap as a typed-model win?
+
+No, no, no, and no. $0.0000153–$0.0000226 vs circulating $0.0004 (~20×). Score is 0..n-1 expectation not 0–1. Noul has no confidence field. TCP floor 198.8 ms. type reliability is not a reason to choose Jev (json_schema 5/5). gateway tax not one number. WallerChen/jev-measured Python MIT; **0★**; HEAD `4a12dfb3`. PRIMARY. `notes.md` §110.
+
+## Treat 8/8 as conversion lift? Collapse RadRebelSam/jev-decision-lab into RadRebelSam/awesome-jev?
+
+No and no. Function-only 5/8 vs hybrid 8/8. 4/8 without Jev. 8 designed cases not conversion lift. ≠ RadRebelSam/awesome-jev. TypeScript MIT; **0★**; HEAD `e6d6d42d`; size **128**. `notes.md` §110.
+
+## Treat a 200-row BigQuery pilot as a ranking? Treat Tetris play as a bake-off?
+
+No and no. 200-row pilot Jev 86.5% 173/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 87.0% 174/200 *theirs*. not a ranking. NLI Tetris argmax P(entail)−P(contradict). Jupyter MIT; **0★**; HEAD `cb9ef56b`; size **307**. jackojacko05/compare-jev-bigquery-ai-functions. Trecto34/openjev-fighting-ring Python; license **null**; **0★**; HEAD `ac544f1e`. `notes.md` §110.
+
+## Collapse joshhu/jevtest into realZachi/jevtest? Treat 64× Space as Harbor / JevBench v1.2?
+
+No and no. 情緒測謊器. 1q 396ms / 30q 567ms. ±0.03. 33q $0.000045 vs Gemini ~5× slower ~60× cost *theirs*. ≠ realZachi/jevtest. 8-example Jev vs GPT-5.6 Sol ~64× cost 5.4× latency *theirs*. synthetic; no inference. ≠ JevBench v1.2 §78. joshhu size **34**. `notes.md` §110.
+
+## Treat awesome listed counts as eval? Paste APA “microsecond policy / zero hallucination”?
+
+No and no. Judged 3317 / listed 2560. Jev judges, code applies policy. catalog ≠ endorsement. APA “microsecond policy / zero hallucination” overclaim. rhc98/awesome-jev TypeScript; **1★**; HEAD `82898f25`. AiPersonacademy/Awesome-jev-use CC0-1.0; **2★**; HEAD `29246f12`. `notes.md` §110.
+
+## Copy keys / cargo for questionator / grill-jev / jev-lsp? Treat selecting an option as permission? Treat LSP diagnostics as a proof?
+
+No, no, and no. Client-side quiz; pointer from held docs; scanned-PDF warn. CSP only api.typesafe.ai. Jev judges / agent reasons / user decides. selecting an option is not permission to implement. degraded fallback. pattern exact, judgement must clear floor. no matching pattern → no model call. not a correctness oracle. $0.00022 vs chat $0.00306 *theirs*. Do not copy keys / `uv` / `npm` / `pip` / `cargo`. `notes.md` §110.
+
+## Treat 0.85 as 85% / minProbability as Harbor? Treat :max as a mandatory search size? VERIFY by rescoring the same pool?
+
+No, no, and no. Spec vs artifact remainder. treating 0.85 as 85% / minProbability hard-gate as Harbor. VERIFY acquires discriminating evidence, never same-pool confidence-only rescoring. fast/full/max are ceilings not sizes. Solar writes, Jev chooses NEXT ACTION. Hard-gating minProbability 0.85 as a CI proof is soundness theater. nozomi-koborinai/jev-spec TypeScript MIT; **1★**; HEAD `86f14198`. 202620325-spec/Jev-LLM Python MIT; **0★**; HEAD `da06b6d1`. `notes.md` §110.
+
+## Did Archer land this hour? Treat tracker likes 64 as a landing? Reopen PR #23–#27?
+
+No, no, and no. Hub `archerhume/4rcherhume` HTTP **401** (not re-fetched as a rewrite). tracker likes 64 flat, lastModified UNCHANGED. Tracker likes **64** **flat** vs §109; lastModified `2026-09-20T04:29:16.000Z` **UNCHANGED**. Laya likes 802 (was 783). Blackwood tracker ABSENT; likes 2 gated manual. Archer still promised_not_landed. Live REST pulse: SemIf 2186★ (+20 vs §109 2166); jevlike 1038★ (+7 vs 1031); TypeAR 14★ flat. AnotiaWang 96★ (+1 vs 95) ≠ yibie/awesome-jev 490★. Qwen3.8-27B ≠ Archer. do not reopen or amend PR #23/#24/#25/#26/#27. `invented_signal: false`. `notes.md` §110.
