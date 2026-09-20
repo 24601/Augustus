@@ -23421,7 +23421,7 @@ Archer; invent tweets.
 
 Census **not provided this hour** (not
 re-derived). Live REST pulse (independent review
-relock after `0558f7d`): SemIf **2067★** (+20 vs §104 **2047**); jevlike
+relock after `0558f7d`): SemIf **2069★** (+22 vs §104 **2047**); jevlike
 ([vinnylarouge/jevlike](https://github.com/vinnylarouge/jevlike))
 **1022★** (+4 vs §104 **1018**); TypeAR-AI/TypeAR
 **12★** **flat**; AnotiaWang/awesome-jev **92★**
@@ -23431,7 +23431,7 @@ yibie/awesome-jev **450★** ≠ Awesomejev.
 Archer still **NOT landed**. Hub
 `archerhume/4rcherhume` HTTP **401**. Tracker
 [multimodalart/jev-reproductions-tracker](https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker)
-likes **58** (+2 vs §104 **56**; +3 vs the
+likes **59** (+3 vs §104 **56**; +4 vs the
 incoming watch); lastModified
 `2026-09-20T04:29:16Z` **UNCHANGED** vs §104 /
 2340. Laya Hub
@@ -23440,7 +23440,7 @@ Blackwood Hub `BlackwoodAI/blackwood-rlcd` HTTP
 **200** likes **2** gated **manual** — user census
 **Blackwood absent** from the tracker; do not
 rewrite as landed. Qwen/Qwen3.8-27B HTTP **200**
-likes **15795** ≠ Archer. X MCP not used this
+likes **15796** ≠ Archer. X MCP not used this
 hour; no invented tweets. `invented_signal:
 false`.
 
