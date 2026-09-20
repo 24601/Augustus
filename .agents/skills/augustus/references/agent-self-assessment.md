@@ -411,6 +411,47 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   structured ≠ correct; mock not live API; 26 tests;
   wjdjdakf17/jev-study ≠ baekenough/jev-study
   (`notes.md` §107).
+  **0345:** do not reopen or amend PR #23 or #24 or #25;
+  bonzi-27b-v2 / ternary-8b / 27b-v1 GGUF family densify;
+  WANLI-256 74.6% / 65.2% / 71.1% *theirs*;
+  Bonsai 1 27B Q1_0 runs on stock llama.cpp;
+  ternary still needs PrismML fork;
+  hf:heman10x/openJev-verdict-2.0 twin tokenizer-only;
+  OpenJev Vision image classification + uncertainty;
+  CLEVR-4 held-out joint 0%;
+  hfdataset:IamBusy/OpenJev-Vision-Research-v0.1 12,832;
+  294,912 derived targets not independent samples;
+  Laya multilingual ONNX WebGPU typed-decisions port;
+  63/63 selected answers / 5.1e-4 CPU / 1.2e-2 WebGPU;
+  UpHash-Network/mini-jev is yuki-oshio transfer;
+  jev-injection-bench 11,900 labelled prompts;
+  Jev best ranking / Haiku better ECE 0.021 vs 0.058;
+  0.5–0.9 band is where Jev's numbers do not mean what they say;
+  Prompt wording moves panic 28%;
+  manojlds/jev-dspy-bench ≠ dspachos/jev-dspy ≠ jmanhype/jev-dspy-lab;
+  Jev agreement is similarity, never ground truth;
+  no aggregate quality grade or merge gate;
+  AbstentionBench-on-Jev rank 1 of 20 vs 2025 field;
+  question-asymmetry;
+  forward-looking 0.465 never extreme;
+  openkev calibration layer not a runtime;
+  ECE vs coverage independent;
+  select_threshold returns inf;
+  escalation catches uncertainty not ignorance;
+  misakaikato/openkev ≠ jaredpalmer/kev;
+  pdf-race Docling→Jev vs Gemini;
+  parser owns the wall clock;
+  12/12 tie is a tie;
+  titles selected not generated;
+  flopcheck 16 calibrated tweet judgments;
+  mechanical tells in code;
+  ZeroX-01/jev-atlas ≠ Zaious/jev-capability-atlas ≠ gorock007/jev-atlas;
+  Laya calibration lab Gradio MCP;
+  T never changes argmax;
+  confidence ≠ top-label p;
+  easy probe set refused;
+  40–48 rows too small to ship T
+  (`notes.md` §108).
   **Lease / retrieve:**
   [invalidate](https://github.com/chopratejas/invalidate) —
   memory leases ended by new evidence; unsure → review

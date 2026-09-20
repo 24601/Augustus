@@ -616,6 +616,11 @@ Use these as *existence proofs of a position*. Write your own card.
 | Generation as a tree of Choices | next word without free generation | One typed question per choice over a closed lexicon (**Empirical as README**: jev-gpt ~400 calls / 75 s / 2¢ *theirs*) | Architecture demo; not a product writer; still pick ≠ fill |
 | Recipe atlas (code prepares) | which narrow questions fit this job | Samples show technique; policy in code (**Empirical as recipes**: jev-cookbook; 16–36 not benches) | Thresholds are a dial; numbers/dates stay exact |
 | Personal history without a social graph | what to show next from *your* trail | Rank outbound links; distribution *is* ranking (**Empirical as README**: jevfeed) | Generating the next look converges on a mirror; history never uploaded |
+| Ranking ≠ calibration / injection ECE | is catch-rate a frequency? | AUPRC ranking and ECE move independently; 0.5–0.9 is the dangerous band (**Empirical as README 11,900**; Jev v2 AUPRC 0.980 ECE 0.058 vs Haiku ECE 0.021; Prompt wording moves panic 28%; `notes.md` §108) | Jev best ranking; Haiku better calibrated; rh-guard owns injection integrity |
+| Temperature never changes argmax | can T fix a wrong pick? | 1-D search; accuracy identical; Laya `confidence` ≠ top-label p (**Empirical as Space + README**; Laya calibration lab Gradio MCP; easy probe set refused; 40–48 rows too small to ship T; `notes.md` §108) | ECE vs coverage independent; select_threshold returns inf |
+| Question-asymmetry / abstention F1 | did the model refuse, or was it asked? | Jev is asked whether the question can be answered; published models saw the bare question (**Empirical as cached AbstentionBench**; rank 1 of 20 vs 2025 field; forward-looking 0.465 never extreme; `notes.md` §108) | Rank 1 is not current SOTA; forecasting is ignorance |
+| Catalog ≠ endorsement | is listed a bake-off? | Continuously updated public index; auto-ingest marked pending (**Empirical as README index**; ZeroX-01/jev-atlas ≠ Zaious/jev-capability-atlas ≠ gorock007/jev-atlas; `notes.md` §108) | Stars / listed counts are not eval |
+| Mechanical tells in code | can Jev count em dashes? | Regex owns countable tells; Jev owns soft judgment (**Empirical as flopcheck**; 16 calibrated tweet judgments; hold-before-publish; `notes.md` §108) | Composite band is not a proof |
 | Dual-channel ECE / claim-audit | is this NAR "better calibrated"? | Like-for-like channels; n and CI before SOTA (**Hypothesis until independent run**; openJev-verdict-2.0; PR #1 now closed unmerged; 107★ densify; GH 151M vs README 149.6M; do not re-fold §71 claim-audit as a beat; `notes.md` §107) | Throughput ≠ latency; correctness-head ≠ distribution ECE; ≠ IamBusy/OpenJev |
 | 1-token logprob ≠ Noul | can a generic LLM's next-token mass be the judge? | Constrained decode over caller-enumerated labels; coverage is format-mass (**Empirical as 336-case GUI**: chakuho 27B 95%/92% vs Jev 89%/82% *theirs*) | Softmax ≠ Noul; 8B coverage 1.00 while `__none__` collapses; arithmetic in code |
 | Open replica runtime | same wire, faster forwards | Prefix reuse + family adapters; argmax-parity is the honesty check (**Empirical as README**: jevinf 2.57×/2.27× 100% argmax *theirs*) | MPS only; not ECE; not TypeSafe |
@@ -2029,6 +2034,116 @@ ECE audit / code-consumes-p study notes are exact work.
 Figure-router 0.85 hard-gate and 100/100 easy T/F as
 Harbor are the anti-patterns.
 
+
+
+
+
+## Apply 0345 (`notes.md` §108)
+
+Same pillars, sixteen HIGH clusters / two themes
+(open reproduction densifies; measurement densifies PRIMARY
+for Harbor-jevals). Do **not** re-fold
+0243 / §107 / 0145 / §106 / 0042 / §105 / 2340 / §104 / 2246 / §103 /
+2145 / §102 / 2041 / §101 / 1943 / §100 / 1843 / §99 /
+1740 / §98 / 1639 / §96 / gliner-native-runtime / §97 /
+1541 / §95 / jev-align *mechanism* / §93 /
+jev-orderby-bench *six-gates* / §60 / JevBench v1.2
+*board* / §78 / openJev-verdict *claim-audit* / §71 /
+yuki-oshio/mini-jev *93.25%* / §103. Fresh PR; never reopen
+merged #7–**#25**. do not reopen or amend PR #23 or #24
+or #25. Skip Archer rewrite (still **NOT landed**; Hub 401).
+0★ HIGH still gets a real card. Size **0** WITH CONTENTS
+still gets a real card. Soft Noul ≠ hard safety. Formal methods
+**compose** with scoring; a Noul is a SENSOR. Jev is the hot
+exemplar, not the whole mandate. Mathematical / logical /
+algorithmic mental models across AI, SWE, business, knowledge
+work — not SWE-only.
+
+1. **Bonsai 27B v2 family card** —
+   bonzi-27b-v2 / ternary-8b / 27b-v1 GGUF family densify.
+   Hub still does not ship weights. WANLI-256 74.6% *theirs*.
+   ternary still needs PrismML fork. 100/100 easy T/F ≠ Harbor.
+   label_mass ≠ correctness.
+2. **Ternary Bonsai 8B family card** —
+   WANLI-256 65.2% / 200/min / 281 ms / label_mass 0.999 *theirs*.
+   Same PrismML-fork requirement.
+3. **Bonsai 1 27B family card** —
+   Bonsai 1 27B Q1_0 runs on stock llama.cpp. WANLI-256 71.1%
+   *theirs*. Do **not** collapse stock Q1_0 into §107 Q2_0
+   gibberish.
+4. **Laya multilingual ONNX WebGPU** —
+   Laya multilingual ONNX WebGPU typed-decisions port.
+   63/63 selected answers / 5.1e-4 CPU / 1.2e-2 WebGPU.
+   Independent port; 63/63 argmax ≠ ECE. Script-before-p OOD
+   still applies.
+5. **OpenJev Vision** —
+   OpenJev Vision image classification + uncertainty.
+   CLEVR-4 held-out joint 0%. Pets 93.24% 740-subset ≠ official
+   full-dataset. Not TypeSafe Jev; not a VLM.
+6. **HF verdict twin** —
+   hf:heman10x/openJev-verdict-2.0 twin tokenizer-only.
+   No 149.6M weights. likes **5** ≠ GH **107★**. Do **not**
+   re-fold §71 as a beat.
+7. **Vision research dataset** —
+   hfdataset:IamBusy/OpenJev-Vision-Research-v0.1 12,832.
+   294,912 derived targets not independent samples.
+8. **mini-jev residual-head densify** —
+   UpHash-Network/mini-jev is yuki-oshio transfer.
+   residual-head 9,222-param decreased 73/96→67/96.
+   Do **not** re-fold 93.25% as Harbor.
+9. **Prompt-injection ranking vs calibration** (PRIMARY) —
+   jev-injection-bench 11,900 labelled prompts.
+   Jev best ranking / Haiku better ECE 0.021 vs 0.058.
+   0.5–0.9 band is where Jev's numbers do not mean what they say.
+   Prompt wording moves panic 28%.
+10. **Jev vs DSPy quality-evaluator** —
+    manojlds/jev-dspy-bench ≠ dspachos/jev-dspy ≠ jmanhype/jev-dspy-lab.
+    Jev agreement is similarity, never ground truth.
+    no aggregate quality grade or merge gate.
+11. **AbstentionBench-on-Jev** —
+    AbstentionBench-on-Jev rank 1 of 20 vs 2025 field.
+    question-asymmetry. forward-looking 0.465 never extreme.
+12. **openkev calibration layer** —
+    openkev calibration layer not a runtime.
+    ECE vs coverage independent. select_threshold returns inf.
+    escalation catches uncertainty not ignorance.
+    misakaikato/openkev ≠ jaredpalmer/kev.
+13. **Docling→Jev vs Gemini race** —
+    pdf-race Docling→Jev vs Gemini. parser owns the wall clock.
+    12/12 tie is a tie. titles selected not generated.
+14. **Public TypeSafe JEV index** —
+    ZeroX-01/jev-atlas ≠ Zaious/jev-capability-atlas ≠ gorock007/jev-atlas.
+    catalog not endorsement.
+15. **flopcheck tweet judgments** —
+    flopcheck 16 calibrated tweet judgments. mechanical tells in code.
+    Knowledge work / life: hold-before-publish.
+16. **Laya calibration lab** —
+    Laya calibration lab Gradio MCP. T never changes argmax.
+    confidence ≠ top-label p. easy probe set refused.
+    40–48 rows too small to ship T.
+
+Soft Noul ≠ hard safety: 74.6% / 65.2% / 71.1% / 93.24% /
+joint 0% / 0.980 / 0.058 / 0.855 / 12/12 / 0.466→0.081 are
+**sensors**. Treating WANLI-256 as Harbor, label_mass as
+correctness, Hub family cards as shipping weights, collapsing
+stock Q1_0 into §107 Q2_0 gibberish, treating the HF twin as
+a weights drop, quoting 93.25% as family-disjoint, hard-gating
+injection ECE 0.058 as “Jev is calibrated”, quoting rank 1
+without question-asymmetry / 2025 field, treating dspy-bench
+as a quality claim, hard-gating pdf-race 12/12 as pipeline
+equality, treating atlas listed counts as eval, hard-gating
+flopcheck composite as truth, treating calibration-lab 40-row
+T as production, treating CLEVR joint 0% as “vision Jev
+works”, treating ONNX 63/63 as ECE, treating openkev T as
+transferable, or treating select_threshold inf as a bug is
+the same theater as jev-gate §79.
+
+Formal methods **compose** with scoring. A Noul is a SENSOR.
+The parser clock / regex mechanical tells / select_threshold
+inf / generative-AI-ban-on-plots cousin (titles selected not
+generated) / PrismML-fork vs stock llama.cpp split are exact
+work. Injection ECE 0.058 as a hard gate and 40-row T as
+production are the anti-patterns.
 
 
 ## Decision-design extras (any domain)

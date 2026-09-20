@@ -16,6 +16,108 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
 
 ### Added
 
+- Hourly 0345 HIGH (`research/notes.md` §108): **Skip
+  Archer rewrite.** Docs-only on a **fresh PR off main**.
+  **HARD RULE:** do not reopen or amend PR #23 or #24 or #25 (merged
+  #23 owns `notes.md` §105 / items 149–160 / batch #88;
+  merged #24 owns `notes.md` §106 / items 161–177 / batch #89;
+  merged #25 owns `notes.md` §107 / items 178–185 / batch #90 —
+  leave them alone). Never reopen merged
+  #7–**#25**. Do **not** re-fold 0243 / §107 / 0145 / §106 / 0042 / §105 / 2340 / §104 / 2246 /
+  §103 / 2145 / §102 / 2041 / §101 / 1943 / §100 / 1843
+  / §99 / 1740 / §98 / 1639 / §96 / gliner-native-runtime
+  / §97 / 1541 / §95 / jev-align *mechanism* / §93 /
+  jev-orderby-bench *six-gates* / §60 / JevBench v1.2
+  *board* / §78 / openJev-verdict *claim-audit* / §71 /
+  yuki-oshio/mini-jev *93.25%* / §103. How-to-apply / mental models /
+  architecture / Harbor-jevals / toolbelt — not a thin
+  Jev skill dump. Backend-agnostic
+  categorization/scoring/decision class. Formal methods
+  compose with scoring; a Noul is a SENSOR; treating
+  WANLI-256 as Harbor, label_mass as correctness, Hub
+  family cards as shipping weights, collapsing stock Q1_0
+  into §107 Q2_0 gibberish, treating the HF twin as a
+  weights drop, quoting 93.25% as family-disjoint,
+  hard-gating injection ECE 0.058 as “Jev is calibrated”,
+  quoting AbstentionBench rank 1 without question-asymmetry /
+  2025 field, treating dspy-bench as a quality claim,
+  hard-gating pdf-race 12/12 as pipeline equality, treating
+  atlas listed counts as eval, hard-gating flopcheck
+  composite as truth, treating calibration-lab 40-row T as
+  production, treating CLEVR joint 0% as “vision Jev works”,
+  treating ONNX 63/63 as ECE, treating openkev T as
+  transferable, or treating select_threshold inf as a bug
+  is soundness theater. Injection ECE 0.058 as a hard gate
+  and 40-row T as production are the anti-patterns. Sixteen
+  HIGH clusters / two themes:
+  **open reproduction densifies**
+  (hf:NicolaiMTLassen/bonzi-27b-v2-jev
+  ternary Bonsai 27B v2 open-bonzi GGUF family densify;
+  Hub still does not ship weights; WANLI-256 74.6% *theirs*;
+  ternary still needs PrismML fork; MIT; likes **0**; sha `c4d21b74`);
+  (hf:NicolaiMTLassen/bonzi-8b-ternary-v1-jev
+  ternary Bonsai 8B open-bonzi GGUF; WANLI-256 65.2% *theirs*;
+  MIT; likes **0**; sha `47b66187`);
+  (hf:NicolaiMTLassen/bonzi-27b-v1-jev
+  Bonsai 27B v1 open-bonzi GGUF; Bonsai 1 27B Q1_0 runs on stock llama.cpp;
+  WANLI-256 71.1% *theirs*; MIT; likes **0**; sha `2fb8061a`);
+  (hf:mizchi/laya-multilingual-onnx
+  Laya multilingual ONNX WebGPU typed-decisions port;
+  63/63 selected answers / 5.1e-4 CPU / 1.2e-2 WebGPU;
+  ships model.onnx 646.9MB; apache-2.0; likes **0**; sha `b6314ec9`);
+  (hf:IamBusy/OpenJev-Vision
+  OpenJev Vision image classification + uncertainty;
+  CLEVR-4 held-out joint 0%; license other; likes **0**; sha `8cf6cbd3`);
+  (hf:heman10x/openJev-verdict-2.0
+  twin tokenizer-only; no 149.6M weights; likes **5** ≠ GH **107★**;
+  apache-2.0; sha `794d5e0d`);
+  (hfdataset:IamBusy/OpenJev-Vision-Research-v0.1
+  12,832 images; 294,912 derived targets not independent samples;
+  license other; likes **0**; sha `43e49184`);
+  ([UpHash-Network/mini-jev](https://github.com/UpHash-Network/mini-jev)
+  UpHash-Network/mini-jev is yuki-oshio transfer;
+  residual-head 9,222-param decreased 73/96→67/96;
+  Python MIT LICENSE SHA `79e2cff7`; **0★**; HEAD `52fbae12`; README SHA `363441b6`; size **38388**);
+  **measurement densifies PRIMARY**
+  ([ASEVlad/jev-injection-bench](https://github.com/ASEVlad/jev-injection-bench)
+  jev-injection-bench 11,900 labelled prompts;
+  Jev best ranking / Haiku better ECE 0.021 vs 0.058;
+  0.5–0.9 band is where Jev's numbers do not mean what they say;
+  Prompt wording moves panic 28%;
+  Python MIT LICENSE SHA `0dab34c6`; **0★**; HEAD `c0d0f25d`; README SHA `1b28498c`; size **107**);
+  ([manojlds/jev-dspy-bench](https://github.com/manojlds/jev-dspy-bench)
+  Jev agreement is similarity, never ground truth;
+  no aggregate quality grade or merge gate;
+  manojlds/jev-dspy-bench ≠ dspachos/jev-dspy ≠ jmanhype/jev-dspy-lab;
+  Python Apache-2.0 LICENSE SHA `261eeb9e`; **0★**; HEAD `d8c68d72`; README SHA `16100deb`; size **0** WITH CONTENTS);
+  ([sshariqali/jev-abstentionbench](https://github.com/sshariqali/jev-abstentionbench)
+  AbstentionBench-on-Jev rank 1 of 20 vs 2025 field;
+  question-asymmetry; forward-looking 0.465 never extreme;
+  Python; README MIT / GitHub SPDX NOASSERTION LICENSE SHA `7f6fb3ba`; **0★**; HEAD `f5c0c068`; README SHA `26393f0f`; size **0** WITH CONTENTS);
+  ([misakaikato/openkev](https://github.com/misakaikato/openkev)
+  openkev calibration layer not a runtime;
+  ECE vs coverage independent; select_threshold returns inf;
+  escalation catches uncertainty not ignorance;
+  misakaikato/openkev ≠ jaredpalmer/kev;
+  Python MIT LICENSE SHA `8c3231cb`; **0★**; HEAD `babcab1c`; README SHA `974d97f9`; size **484**);
+  ([goodrahstar/pdf-race](https://github.com/goodrahstar/pdf-race)
+  pdf-race Docling→Jev vs Gemini; parser owns the wall clock;
+  12/12 tie is a tie; titles selected not generated;
+  JS MIT LICENSE SHA `182ac1d5`; **0★**; HEAD `1c687fc6`; README SHA `05730787`; size **0** WITH CONTENTS);
+  ([ZeroX-01/jev-atlas](https://github.com/ZeroX-01/jev-atlas)
+  ZeroX-01/jev-atlas ≠ Zaious/jev-capability-atlas ≠ gorock007/jev-atlas;
+  catalog not endorsement;
+  JS; license null; **0★**; HEAD `bc94bf50`; README SHA `8dd3d308`; size **0** WITH CONTENTS);
+  ([samyakjain0606/jev-is-here](https://github.com/samyakjain0606/jev-is-here)
+  flopcheck 16 calibrated tweet judgments; mechanical tells in code;
+  TS; license null; **0★**; HEAD `eb0de0ba`; README SHA `cefb8f96`; size **0** WITH CONTENTS);
+  (hfspace:BunsDev/laya-calibration-lab
+  Laya calibration lab Gradio MCP; T never changes argmax;
+  confidence ≠ top-label p; easy probe set refused;
+  40–48 rows too small to ship T; apache-2.0; likes **0**; sha `a3fc13ba`).
+  0★ HIGH still got a real card. Soft Noul ≠ hard safety.
+  `invented_signal: false`.
+
 - Hourly 0243 HIGH (`research/notes.md` §107): **Skip
   Archer rewrite.** Docs-only on a **fresh PR off main**.
   **HARD RULE:** do not reopen or amend PR #23 or #24 (merged

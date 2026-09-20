@@ -2167,3 +2167,56 @@ Do not copy keys / `npx` / `pip` / `uv` / `.env` / `OPENROUTER_API_KEY`. Soft No
 
 
 
+
+
+**Hourly 0345 HIGH (`notes.md` §108).** Open-reproduction + measurement-densify cousin:
+Family cards: hf:NicolaiMTLassen/bonzi-27b-v2-jev
+bonzi-27b-v2 / ternary-8b / 27b-v1 GGUF family densify;
+WANLI-256 74.6% / 65.2% / 71.1% *theirs*;
+Bonsai 1 27B Q1_0 runs on stock llama.cpp;
+ternary still needs PrismML fork.
+Ports: hf:mizchi/laya-multilingual-onnx
+Laya multilingual ONNX WebGPU typed-decisions port;
+63/63 selected answers / 5.1e-4 CPU / 1.2e-2 WebGPU.
+hf:IamBusy/OpenJev-Vision
+OpenJev Vision image classification + uncertainty;
+CLEVR-4 held-out joint 0%.
+hf:heman10x/openJev-verdict-2.0 twin tokenizer-only.
+hfdataset:IamBusy/OpenJev-Vision-Research-v0.1 12,832;
+294,912 derived targets not independent samples.
+[UpHash-Network/mini-jev](https://github.com/UpHash-Network/mini-jev)
+UpHash-Network/mini-jev is yuki-oshio transfer;
+residual-head 9,222-param decreased 73/96→67/96.
+Measurement PRIMARY: [ASEVlad/jev-injection-bench](https://github.com/ASEVlad/jev-injection-bench)
+jev-injection-bench 11,900 labelled prompts;
+Jev best ranking / Haiku better ECE 0.021 vs 0.058;
+0.5–0.9 band is where Jev's numbers do not mean what they say;
+Prompt wording moves panic 28%.
+[manojlds/jev-dspy-bench](https://github.com/manojlds/jev-dspy-bench)
+manojlds/jev-dspy-bench ≠ dspachos/jev-dspy ≠ jmanhype/jev-dspy-lab;
+Jev agreement is similarity, never ground truth;
+no aggregate quality grade or merge gate.
+[sshariqali/jev-abstentionbench](https://github.com/sshariqali/jev-abstentionbench)
+AbstentionBench-on-Jev rank 1 of 20 vs 2025 field;
+question-asymmetry; forward-looking 0.465 never extreme.
+[misakaikato/openkev](https://github.com/misakaikato/openkev)
+openkev calibration layer not a runtime;
+ECE vs coverage independent; select_threshold returns inf;
+escalation catches uncertainty not ignorance;
+misakaikato/openkev ≠ jaredpalmer/kev.
+[goodrahstar/pdf-race](https://github.com/goodrahstar/pdf-race)
+pdf-race Docling→Jev vs Gemini; parser owns the wall clock;
+12/12 tie is a tie; titles selected not generated.
+[ZeroX-01/jev-atlas](https://github.com/ZeroX-01/jev-atlas)
+ZeroX-01/jev-atlas ≠ Zaious/jev-capability-atlas ≠ gorock007/jev-atlas;
+catalog not endorsement.
+[samyakjain0606/jev-is-here](https://github.com/samyakjain0606/jev-is-here)
+flopcheck 16 calibrated tweet judgments; mechanical tells in code.
+hfspace:BunsDev/laya-calibration-lab
+Laya calibration lab Gradio MCP; T never changes argmax;
+confidence ≠ top-label p; easy probe set refused;
+40–48 rows too small to ship T.
+do not reopen or amend PR #23 or #24 or #25.
+Do not copy keys / `npx` / `pip` / `uv` / `.env` / `TYPESAFE_API_KEY` / `ANTHROPIC_API_KEY` / `HF_TOKEN` / `GEMINI_API_KEY`. Soft Noul ≠ hard safety.
+
+

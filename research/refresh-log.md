@@ -2677,3 +2677,81 @@
   CHANGELOG, README, docs/ecosystem, findings batch #90,
   sources.json. Hunches labeled. No wrapper.
 
+
+## 2026-09-20T09:45Z — hourly 0345 HIGH (Boise ~03:45 MDT)
+
+- Fresh PR off main after merged #25 (`6fbd019` / §107).
+  **HARD RULE:** do not reopen or amend PR #23 or #24 or #25.
+  Never reopen merged #7–**#25**. Branch
+  `cursor/hourly-0345-augustus-fold-7a07`.
+  Skip Archer rewrite. Quote READMEs. Mark *theirs*.
+  No wrappers / keys / install recipes. Do not dump
+  source. 0★ HIGH still gets a real card. Size **0**
+  WITH CONTENTS still gets a real card. Quote live
+  REST over watch. `invented_signal: false`.
+- Open reproduction densifies: hf NicolaiMTLassen/bonzi-27b-v2-jev
+  (likes **0**; sha `c4d21b74`; Hub still does not ship weights;
+  WANLI-256 74.6% *theirs*; ternary still needs PrismML fork);
+  bonzi-8b-ternary-v1-jev (sha `47b66187`; WANLI-256 65.2%);
+  bonzi-27b-v1-jev (sha `2fb8061a`; Bonsai 1 27B Q1_0 runs on
+  stock llama.cpp; WANLI-256 71.1%); mizchi/laya-multilingual-onnx
+  (sha `b6314ec9`; ships 646.9MB; 63/63 / 5.1e-4 CPU / 1.2e-2 WebGPU);
+  IamBusy/OpenJev-Vision (sha `8cf6cbd3`; CLEVR-4 held-out joint 0%);
+  heman10x/openJev-verdict-2.0 (likes **5**; sha `794d5e0d`;
+  twin tokenizer-only); IamBusy/OpenJev-Vision-Research-v0.1
+  (sha `43e49184`; 12,832; 294,912 derived targets not independent
+  samples); UpHash-Network/mini-jev (**0★**; HEAD `52fbae12`;
+  yuki-oshio transfer; residual-head decreased 73/96→67/96).
+- Measurement densifies PRIMARY: ASEVlad/jev-injection-bench
+  (**0★**; HEAD `c0d0f25d`; size **107**; 11,900;
+  Jev best ranking / Haiku better ECE 0.021 vs 0.058;
+  0.5–0.9 band is where Jev's numbers do not mean what they say;
+  Prompt wording moves panic 28%); manojlds/jev-dspy-bench
+  (**0★**; HEAD `d8c68d72`; Jev agreement is similarity, never
+  ground truth; no aggregate quality grade or merge gate);
+  sshariqali/jev-abstentionbench (**0★**; HEAD `f5c0c068`;
+  rank 1 of 20 vs 2025 field; question-asymmetry;
+  forward-looking 0.465 never extreme); misakaikato/openkev
+  (**0★**; HEAD `babcab1c`; calibration layer not a runtime;
+  select_threshold returns inf); goodrahstar/pdf-race
+  (**0★**; HEAD `1c687fc6`; parser owns the wall clock;
+  12/12 tie is a tie; titles selected not generated);
+  ZeroX-01/jev-atlas (**0★**; license null; HEAD `bc94bf50`;
+  catalog not endorsement); samyakjain0606/jev-is-here
+  (**0★**; license null; HEAD `eb0de0ba`; flopcheck 16
+  calibrated tweet judgments; mechanical tells in code);
+  hfspace BunsDev/laya-calibration-lab (likes **0**; sha
+  `a3fc13ba`; T never changes argmax; confidence ≠ top-label p;
+  40–48 rows too small to ship T).
+- Formal methods compose with scoring; a Noul is a SENSOR.
+  Treating WANLI-256 as Harbor, label_mass as correctness,
+  Hub family cards as shipping weights, collapsing stock Q1_0
+  into §107 Q2_0 gibberish, treating the HF twin as a weights
+  drop, quoting 93.25% as family-disjoint, hard-gating injection
+  ECE 0.058 as “Jev is calibrated”, quoting rank 1 without
+  question-asymmetry / 2025 field, treating dspy-bench as a
+  quality claim, hard-gating pdf-race 12/12 as pipeline
+  equality, treating atlas listed counts as eval, hard-gating
+  flopcheck composite as truth, treating calibration-lab 40-row
+  T as production, treating CLEVR joint 0% as “vision Jev
+  works”, treating ONNX 63/63 as ECE, treating openkev T as
+  transferable, or treating select_threshold inf as a bug is
+  soundness theater. Injection ECE 0.058 as a hard gate and
+  40-row T as production are the anti-patterns.
+- Pulse (do not invent): Archer still NOT landed. Hub
+  archerhume/4rcherhume HTTP **401**. Tracker likes **60**;
+  lastModified `2026-09-20T04:29:16.000Z` **UNCHANGED**.
+  Live REST: SemIf **2128★** (+34 vs §107 2094);
+  jevlike **1026★** (+3 vs §107 1023); TypeAR **12★**
+  **flat**. AnotiaWang/awesome-jev **94★** ≠ Awesomejev
+  561/27007. Hub Laya likes **765**. Qwen3.8-27B ≠ Archer.
+  X MCP not used. `invented_signal: false`.
+- Folded into SKILL.md (description + protocol +
+  mapping-index), mental-models Apply 0345, faq,
+  mixed-architecture fail table + gallery, applied-mappings,
+  validation, judgment-class, composition-algebra items
+  186–201, toolbox-mapping, methods-catalog, formal-methods,
+  question-design, agent-self-assessment, mappings,
+  CHANGELOG, README, docs/ecosystem, findings batch #91,
+  sources.json. Hunches labeled. No wrapper.
+

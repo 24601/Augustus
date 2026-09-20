@@ -3268,3 +3268,64 @@ No, no, and no. typed decisions, RLCD, confidence-gated routing. structured ≠ 
 ## Did Archer land this hour? Treat Qwen3.8-27B as Archer? Invent tweets? Reopen PR #23 or #24?
 
 No, no, no, and no. Hub `archerhume/4rcherhume` HTTP **401** (not re-fetched as a rewrite). Tracker `multimodalart/jev-reproductions-tracker` likes **59**; lastModified `2026-09-20T04:29:16.000Z` **UNCHANGED** vs §106. Live REST pulse: SemIf **2094★** (+20 vs §106 **2074**); jevlike **1023★** (+1 vs §106 **1022**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **93★** (+1 vs §106 **92**) ≠ Awesomejev 561/27007. Hub Laya likes **729**. Qwen3.8-27B ≠ Archer. do not reopen or amend PR #23 or #24. `invented_signal: false`. `notes.md` §107.
+
+## Did Hub ship Bonsai family weights this hour? Is WANLI-256 Harbor? Collapse stock Q1_0 into §107 Q2_0 gibberish?
+
+No, no, and no. bonzi-27b-v2 / ternary-8b / 27b-v1 GGUF family densify. Hub still does not ship weights. WANLI-256 74.6% / 65.2% / 71.1% *theirs*. ternary still needs PrismML fork. Bonsai 1 27B Q1_0 runs on stock llama.cpp. label_mass ≠ correctness. 100/100 easy T/F ≠ Harbor. Hub MIT likes **0** shas `c4d21b74` / `47b66187` / `2fb8061a`. Do **not** re-card NicolaiMTLassen/open-bonzi-jev as a new species. `notes.md` §108.
+
+## Treat the HF verdict twin as a weights drop? Are Hub likes 5 the same as GH 107★? Re-fold §71 as a beat?
+
+No, no, and no. hf:heman10x/openJev-verdict-2.0 twin tokenizer-only. tokenizer + config + README; **no 149.6M weights**. apache-2.0; likes **5**; sha `794d5e0d`. Still Hypothesis until independent run. ≠ IamBusy/OpenJev `/v1/decide`. `notes.md` §108 (twin of §71 / §107).
+
+## Does OpenJev Vision work on CLEVR joint? Is Pets 93.24% the official full-dataset number? Is it TypeSafe Jev?
+
+No, no, and no. OpenJev Vision image classification + uncertainty. CLEVR-4 held-out joint 0% / independent 63.75% / binding 56.25% *theirs*. Pets 740-subset **93.24%** ≠ official full-dataset. Not TypeSafe Jev; not a VLM. license **other**; likes **0**; sha `8cf6cbd3`. `notes.md` §108.
+
+## Are 294,912 derived targets independent samples?
+
+No. hfdataset:IamBusy/OpenJev-Vision-Research-v0.1 12,832. 36 Boolean questions per synthetic image yield **294,912** derived targets, **not** independent samples. likes **0**; sha `43e49184`. `notes.md` §108.
+
+## Is Laya ONNX 63/63 ECE? Collapse mizchi into gqgs or Mattepiu? Does it ship weights?
+
+No, no, and it does ship model.onnx **646.9 MB**. Laya multilingual ONNX WebGPU typed-decisions port. 63/63 selected answers / 5.1e-4 CPU / 1.2e-2 WebGPU *theirs*. Independent port, not official Convai. 63/63 argmax ≠ ECE. apache-2.0; likes **0**; sha `b6314ec9`. ≠ gqgs ≠ Mattepiu. `notes.md` §108.
+
+## Is UpHash-Network/mini-jev a new species? Quote 93.25% as Harbor?
+
+No and no. UpHash-Network/mini-jev is yuki-oshio transfer. README SHA `363441b6` unchanged. residual-head 9,222-param decreased 73/96→67/96. Python MIT; **0★**; HEAD `52fbae12`. ≠ r-ms/mini-jev (**26★**). Do **not** re-fold 93.25% as Harbor. `notes.md` §108.
+
+## Is Jev the best *calibrated* injection detector? Should we hard-gate ECE 0.058? Route on 0.5–0.9 as a frequency?
+
+No, no, and no. jev-injection-bench 11,900 labelled prompts. Jev best ranking / Haiku better ECE 0.021 vs 0.058. 0.5–0.9 band is where Jev's numbers do not mean what they say. Prompt wording moves panic 28%. Python MIT; **0★**; HEAD `c0d0f25d`; size **107**. rh-guard owns injection integrity. `notes.md` §108.
+
+## Is jev-dspy-bench a quality grade / merge gate? Collapse into dspachos or jmanhype?
+
+No and no. manojlds/jev-dspy-bench ≠ dspachos/jev-dspy ≠ jmanhype/jev-dspy-lab. Jev agreement is similarity, never ground truth. no aggregate quality grade or merge gate. Python Apache-2.0; **0★**; HEAD `d8c68d72`. `notes.md` §108.
+
+## Quote AbstentionBench rank 1 as current SOTA? Skip question-asymmetry? Is forward-looking 0.465 extreme?
+
+No, no, and no. AbstentionBench-on-Jev rank 1 of 20 vs 2025 field. question-asymmetry. forward-looking 0.465 never extreme. Python; README MIT / SPDX NOASSERTION; **0★**; HEAD `f5c0c068`; size **0** WITH CONTENTS. `notes.md` §108.
+
+## Is openkev a decision runtime? Is select_threshold inf a bug? Does T transfer? Collapse into jaredpalmer/kev?
+
+No, no, no, and no. openkev calibration layer not a runtime. ECE vs coverage independent. select_threshold returns inf. escalation catches uncertainty not ignorance. misakaikato/openkev ≠ jaredpalmer/kev. Python MIT; **0★**; HEAD `babcab1c`. `notes.md` §108.
+
+## Did Docling→Jev beat Gemini? Do titles get generated? Who owns the wall clock?
+
+A tie on 12 documents is a tie. titles selected not generated. parser owns the wall clock (~24 s of 24.5 s is Docling). pdf-race Docling→Jev vs Gemini. JS MIT; **0★**; HEAD `1c687fc6`; size **0** WITH CONTENTS. `notes.md` §108.
+
+## Is jev-atlas a bake-off? Collapse into Zaious or gorock007? Are listed counts eval?
+
+No, no, and no. ZeroX-01/jev-atlas ≠ Zaious/jev-capability-atlas ≠ gorock007/jev-atlas. catalog not endorsement. JS; license **null**; **0★**; HEAD `bc94bf50`. `notes.md` §108.
+
+## Is flopcheck composite a proof? Can Jev count em dashes?
+
+No and no. flopcheck 16 calibrated tweet judgments. mechanical tells in code. Confidence = peaked distribution, not correctness. TS; license **null**; **0★**; HEAD `eb0de0ba`. Knowledge work / life: hold-before-publish. `notes.md` §108.
+
+## Ship the Space T? Does temperature change argmax? Is Laya confidence top-label p?
+
+No, no, and no. Laya calibration lab Gradio MCP. T never changes argmax. confidence ≠ top-label p. easy probe set refused. 40–48 rows too small to ship T. apache-2.0; likes **0**; sha `a3fc13ba`. `notes.md` §108.
+
+## Did Archer land this hour? Treat Qwen3.8-27B as Archer? Invent tweets? Reopen PR #23 or #24 or #25?
+
+No, no, no, and no. Hub `archerhume/4rcherhume` HTTP **401** (not re-fetched as a rewrite). Tracker `multimodalart/jev-reproductions-tracker` likes **60**; lastModified `2026-09-20T04:29:16.000Z` **UNCHANGED** vs §107. Live REST pulse: SemIf **2128★** (+34 vs §107 **2094**); jevlike **1026★** (+3 vs §107 **1023**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **94★** (+1 vs §107 **93**) ≠ Awesomejev 561/27007. Hub Laya likes **765**. Qwen3.8-27B ≠ Archer. do not reopen or amend PR #23 or #24 or #25. `invented_signal: false`. `notes.md` §108.
+

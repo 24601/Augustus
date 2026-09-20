@@ -4201,6 +4201,103 @@
       "title": "wjdjdakf17/jev-study",
       "url": "https://github.com/wjdjdakf17/jev-study",
       "note": "TypeScript MIT LICENSE SHA 00bbf5f9; 0\u2605; HEAD 24b5d7d7; README SHA 4ca30c93; size 34; default master; created 2026-09-20T07:04:11Z. typed decisions, RLCD, confidence-gated routing. structured \u2260 correct. mock not live API. 26 tests. wjdjdakf17/jev-study \u2260 baekenough/jev-study. notes.md \u00a7107."
+    },
+    {
+      "kind": "huggingface",
+      "title": "NicolaiMTLassen/bonzi-27b-v2-jev",
+      "url": "https://huggingface.co/NicolaiMTLassen/bonzi-27b-v2-jev",
+      "note": "PRIMARY family card hourly 0345. MIT; likes 0; sha c4d21b74; lastModified 2026-09-20T09:20:17Z. Hub still does not ship weights. WANLI-256 74.6% *theirs*. ternary still needs PrismML fork. notes.md §108."
+    },
+    {
+      "kind": "huggingface",
+      "title": "NicolaiMTLassen/bonzi-8b-ternary-v1-jev",
+      "url": "https://huggingface.co/NicolaiMTLassen/bonzi-8b-ternary-v1-jev",
+      "note": "MIT; likes 0; sha 47b66187. WANLI-256 65.2% *theirs*. PrismML fork. notes.md §108."
+    },
+    {
+      "kind": "huggingface",
+      "title": "NicolaiMTLassen/bonzi-27b-v1-jev",
+      "url": "https://huggingface.co/NicolaiMTLassen/bonzi-27b-v1-jev",
+      "note": "MIT; likes 0; sha 2fb8061a. Bonsai 1 27B Q1_0 runs on stock llama.cpp. WANLI-256 71.1% *theirs*. notes.md §108."
+    },
+    {
+      "kind": "huggingface",
+      "title": "mizchi/laya-multilingual-onnx",
+      "url": "https://huggingface.co/mizchi/laya-multilingual-onnx",
+      "note": "apache-2.0; likes 0; sha b6314ec9; lastModified 2026-09-20T09:40:04Z. ships model.onnx 646.9MB. Laya multilingual ONNX WebGPU typed-decisions port. 63/63 selected answers / 5.1e-4 CPU / 1.2e-2 WebGPU. notes.md §108."
+    },
+    {
+      "kind": "huggingface",
+      "title": "IamBusy/OpenJev-Vision",
+      "url": "https://huggingface.co/IamBusy/OpenJev-Vision",
+      "note": "license other; likes 0; sha 8cf6cbd3. OpenJev Vision image classification + uncertainty. CLEVR-4 held-out joint 0%. notes.md §108."
+    },
+    {
+      "kind": "huggingface",
+      "title": "heman10x/openJev-verdict-2.0",
+      "url": "https://huggingface.co/heman10x/openJev-verdict-2.0",
+      "note": "apache-2.0; likes 5; sha 794d5e0d. twin tokenizer-only; no 149.6M weights. likes 5 ≠ GH 107★. do not re-fold §71 as a beat. notes.md §108."
+    },
+    {
+      "kind": "huggingface-dataset",
+      "title": "IamBusy/OpenJev-Vision-Research-v0.1",
+      "url": "https://huggingface.co/datasets/IamBusy/OpenJev-Vision-Research-v0.1",
+      "note": "license other; likes 0; sha 43e49184. 12,832 images. 294,912 derived targets not independent samples. notes.md §108."
+    },
+    {
+      "kind": "github",
+      "title": "UpHash-Network/mini-jev",
+      "url": "https://github.com/UpHash-Network/mini-jev",
+      "note": "Python MIT LICENSE SHA 79e2cff7; 0★; HEAD 52fbae12; README SHA 363441b6; size 38388. UpHash-Network/mini-jev is yuki-oshio transfer. residual-head 9,222-param decreased 73/96→67/96. notes.md §108."
+    },
+    {
+      "kind": "github",
+      "title": "ASEVlad/jev-injection-bench",
+      "url": "https://github.com/ASEVlad/jev-injection-bench",
+      "note": "PRIMARY Augustus hourly 0345. Python MIT LICENSE SHA 0dab34c6; 0★; HEAD c0d0f25d; README SHA 1b28498c; GitHub size 107. 11,900 labelled prompts. Jev best ranking / Haiku better ECE 0.021 vs 0.058. 0.5–0.9 band is where Jev's numbers do not mean what they say. Prompt wording moves panic 28%. notes.md §108."
+    },
+    {
+      "kind": "github",
+      "title": "manojlds/jev-dspy-bench",
+      "url": "https://github.com/manojlds/jev-dspy-bench",
+      "note": "Python Apache-2.0 LICENSE SHA 261eeb9e; 0★; HEAD d8c68d72; README SHA 16100deb; size 0 WITH CONTENTS. Jev agreement is similarity, never ground truth. no aggregate quality grade or merge gate. manojlds/jev-dspy-bench ≠ dspachos/jev-dspy ≠ jmanhype/jev-dspy-lab. notes.md §108."
+    },
+    {
+      "kind": "github",
+      "title": "sshariqali/jev-abstentionbench",
+      "url": "https://github.com/sshariqali/jev-abstentionbench",
+      "note": "Python; README MIT / GitHub SPDX NOASSERTION LICENSE SHA 7f6fb3ba; 0★; HEAD f5c0c068; README SHA 26393f0f; size 0 WITH CONTENTS. AbstentionBench-on-Jev rank 1 of 20 vs 2025 field. question-asymmetry. forward-looking 0.465 never extreme. notes.md §108."
+    },
+    {
+      "kind": "github",
+      "title": "misakaikato/openkev",
+      "url": "https://github.com/misakaikato/openkev",
+      "note": "Python MIT LICENSE SHA 8c3231cb; 0★; HEAD babcab1c; README SHA 974d97f9; size 484. openkev calibration layer not a runtime. ECE vs coverage independent. select_threshold returns inf. escalation catches uncertainty not ignorance. misakaikato/openkev ≠ jaredpalmer/kev. notes.md §108."
+    },
+    {
+      "kind": "github",
+      "title": "goodrahstar/pdf-race",
+      "url": "https://github.com/goodrahstar/pdf-race",
+      "note": "JS MIT LICENSE SHA 182ac1d5; 0★; HEAD 1c687fc6; README SHA 05730787; size 0 WITH CONTENTS. pdf-race Docling→Jev vs Gemini. parser owns the wall clock. 12/12 tie is a tie. titles selected not generated. notes.md §108."
+    },
+    {
+      "kind": "github",
+      "title": "ZeroX-01/jev-atlas",
+      "url": "https://github.com/ZeroX-01/jev-atlas",
+      "note": "JS; license null; 0★; HEAD bc94bf50; README SHA 8dd3d308; size 0 WITH CONTENTS. ZeroX-01/jev-atlas ≠ Zaious/jev-capability-atlas ≠ gorock007/jev-atlas. catalog not endorsement. notes.md §108."
+    },
+    {
+      "kind": "github",
+      "title": "samyakjain0606/jev-is-here",
+      "url": "https://github.com/samyakjain0606/jev-is-here",
+      "note": "TS; license null; 0★; HEAD eb0de0ba; README SHA cefb8f96; size 0 WITH CONTENTS. flopcheck 16 calibrated tweet judgments. mechanical tells in code. notes.md §108."
+    },
+    {
+      "kind": "huggingface-space",
+      "title": "BunsDev/laya-calibration-lab",
+      "url": "https://huggingface.co/spaces/BunsDev/laya-calibration-lab",
+      "note": "apache-2.0; likes 0; sha a3fc13ba; lastModified 2026-09-20T08:33:23Z. Laya calibration lab Gradio MCP. T never changes argmax. confidence ≠ top-label p. easy probe set refused. 40–48 rows too small to ship T. notes.md §108."
     }
+
   ]
 }

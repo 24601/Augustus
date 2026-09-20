@@ -3017,6 +3017,103 @@ Cross-repo addition: (lt) judgment-as-language primitive;
 memories; (lw) memory-lease HIGH upgrade; (lx) jevlint
 rename; (ly) schema-compiler HIGH upgrade; (lz) ANE /
 local-logit / Pi-loop economics.
+## Batch #91 (2026-09-20 ~09:45 UTC / ~03:45 Boise) — hourly 0345 HIGH
+
+Note: `research/notes.md` §108. Docs-only on a fresh PR
+off main. **HARD RULE:** do not reopen or amend PR #23 or #24 or #25.
+Never reopen merged #7 / **#8** / **#9** /
+**#10** / **#12** / **#13** / **#14** / **#15** /
+**#16** / **#17** / **#18** / **#19** / **#20** /
+**#21** / **#22** / **#23** / **#24** / **#25**. Do **not** re-fold §93 mechanism /
+§94 / §95 / §96 / §97 / §98 / §99 / §100 / §101 /
+§102 / §103 / §104 / §105 / §106 / §107 / JevBench v1.2 board / §78 /
+jev-orderby-bench six-gates / §60 / openJev-verdict claim-audit / §71 /
+yuki-oshio/mini-jev 93.25%. Skip Archer rewrite.
+Do **not** re-fold 0243 / 0145 / 0042 / 2340 / 2246 / 2145 / 2041 / 1943 /
+1843 / 1740 / gliner-native-runtime / 1639 / 1541. No
+invented metrics. Hunches labeled. Quote READMEs. Soft
+Noul ≠ hard safety. Augustus owns placement.
+Open reproduction densifies (bonzi GGUF family, HF verdict
+twin, OpenJev Vision + dataset, Laya ONNX WebGPU, mini-jev
+transfer) and measurement densifies PRIMARY (injection-bench
+11.9k, dspy-bench, AbstentionBench-on-Jev, openkev, pdf-race,
+flopcheck, Laya calibration lab, jev-atlas) are the *class*
+exemplars this hour. Quote live REST over watch.
+`invented_signal: false`.
+
+- **Bonsai 27B v2 family card.** hf NicolaiMTLassen/bonzi-27b-v2-jev
+  (MIT; likes **0**; sha `c4d21b74`). Hub still does not ship weights.
+  WANLI-256 74.6% *theirs*. ternary still needs PrismML fork.
+- **Ternary Bonsai 8B family card.** hf NicolaiMTLassen/bonzi-8b-ternary-v1-jev
+  (MIT; likes **0**; sha `47b66187`). WANLI-256 65.2% *theirs*.
+- **Bonsai 1 27B family card.** hf NicolaiMTLassen/bonzi-27b-v1-jev
+  (MIT; likes **0**; sha `2fb8061a`). Bonsai 1 27B Q1_0 runs on stock llama.cpp.
+  WANLI-256 71.1% *theirs*. Do not collapse into §107 Q2_0 gibberish.
+- **Laya multilingual ONNX WebGPU.** hf mizchi/laya-multilingual-onnx
+  (apache-2.0; likes **0**; sha `b6314ec9`). ships model.onnx 646.9MB.
+  63/63 selected answers / 5.1e-4 CPU / 1.2e-2 WebGPU. Independent port.
+- **OpenJev Vision.** hf IamBusy/OpenJev-Vision (license other; likes **0**; sha `8cf6cbd3`).
+  OpenJev Vision image classification + uncertainty. CLEVR-4 held-out joint 0%.
+- **HF verdict twin.** hf heman10x/openJev-verdict-2.0 (apache-2.0; likes **5**; sha `794d5e0d`).
+  twin tokenizer-only. likes **5** ≠ GH **107★**. do not re-fold §71 as a beat.
+- **Vision research dataset.** hfdataset IamBusy/OpenJev-Vision-Research-v0.1
+  (license other; likes **0**; sha `43e49184`). 12,832 images.
+  294,912 derived targets not independent samples.
+- **mini-jev residual-head densify.** UpHash-Network/mini-jev
+  (Python MIT; **0★**; HEAD `52fbae12`; README SHA `363441b6`).
+  UpHash-Network/mini-jev is yuki-oshio transfer.
+  residual-head 9,222-param decreased 73/96→67/96.
+- **Prompt-injection ranking vs calibration (PRIMARY).** ASEVlad/jev-injection-bench
+  (Python MIT; **0★**; HEAD `c0d0f25d`; README SHA `1b28498c`; size **107**).
+  11,900 labelled prompts. Jev best ranking / Haiku better ECE 0.021 vs 0.058.
+  0.5–0.9 band is where Jev's numbers do not mean what they say.
+  Prompt wording moves panic 28%.
+- **Jev vs DSPy quality-evaluator.** manojlds/jev-dspy-bench
+  (Python Apache-2.0; **0★**; HEAD `d8c68d72`; README SHA `16100deb`).
+  Jev agreement is similarity, never ground truth.
+  no aggregate quality grade or merge gate.
+  manojlds/jev-dspy-bench ≠ dspachos/jev-dspy ≠ jmanhype/jev-dspy-lab.
+- **AbstentionBench-on-Jev.** sshariqali/jev-abstentionbench
+  (Python; README MIT / SPDX NOASSERTION; **0★**; HEAD `f5c0c068`).
+  rank 1 of 20 vs 2025 field. question-asymmetry.
+  forward-looking 0.465 never extreme.
+- **openkev calibration layer.** misakaikato/openkev
+  (Python MIT; **0★**; HEAD `babcab1c`; README SHA `974d97f9`).
+  openkev calibration layer not a runtime. ECE vs coverage independent.
+  select_threshold returns inf. escalation catches uncertainty not ignorance.
+  misakaikato/openkev ≠ jaredpalmer/kev.
+- **Docling→Jev vs Gemini race.** goodrahstar/pdf-race
+  (JS MIT; **0★**; HEAD `1c687fc6`; README SHA `05730787`).
+  parser owns the wall clock. 12/12 tie is a tie. titles selected not generated.
+- **Public TypeSafe JEV index.** ZeroX-01/jev-atlas
+  (JS; license null; **0★**; HEAD `bc94bf50`).
+  ZeroX-01/jev-atlas ≠ Zaious/jev-capability-atlas ≠ gorock007/jev-atlas.
+  catalog not endorsement.
+- **flopcheck tweet judgments.** samyakjain0606/jev-is-here
+  (TS; license null; **0★**; HEAD `eb0de0ba`).
+  flopcheck 16 calibrated tweet judgments. mechanical tells in code.
+- **Laya calibration lab.** hfspace BunsDev/laya-calibration-lab
+  (apache-2.0; likes **0**; sha `a3fc13ba`).
+  T never changes argmax. confidence ≠ top-label p.
+  easy probe set refused. 40–48 rows too small to ship T.
+
+Pulse: Archer still NOT landed. Hub
+archerhume/4rcherhume HTTP **401**. Tracker
+multimodalart/jev-reproductions-tracker likes **60**;
+lastModified `2026-09-20T04:29:16Z` UNCHANGED. Live REST: SemIf
+**2128★**; jevlike **1026★**; TypeAR **12★** **flat**.
+AnotiaWang/awesome-jev **94★** ≠ Awesomejev 561/27007.
+Hub Laya likes **765**. Qwen3.8-27B ≠ Archer.
+do not reopen or amend PR #23 or #24 or #25.
+`invented_signal: false`.
+
+Cross-repo addition: (ol) bonzi-27b-v2 family; (om) ternary-8b;
+(on) 27b-v1 stock Q1_0; (oo) Laya ONNX WebGPU; (op) OpenJev Vision;
+(oq) HF verdict twin tokenizer-only; (or) Vision-Research-v0.1;
+(os) mini-jev transfer; (ot) injection-bench PRIMARY; (ou) dspy-bench;
+(ov) AbstentionBench-on-Jev; (ow) openkev; (ox) pdf-race;
+(oy) jev-atlas; (oz) flopcheck; (pa) Laya calibration lab.
+
 ## Batch #90 (2026-09-20 ~08:43 UTC / ~02:43 Boise) — hourly 0243 HIGH
 
 Note: `research/notes.md` §107. Docs-only on a fresh PR
