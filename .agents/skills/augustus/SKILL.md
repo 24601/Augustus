@@ -281,8 +281,8 @@ Skip Archer. `invented_signal: false`.
 ## Hourly 1049 HIGH (`notes.md` §120)
 
 ggmlc GGUF is not llama.cpp. serving substrate ≠ calibrated replica.
-Qwen3.5-9B ≠ Archer. planner writes JEV selects. pick_by_id vs
-pick_second. Soft scores ≠ hard gates. catalog ≠ endorsement.
+Qwen3.5-9B ≠ Archer. planner writes JEV selects. pick_by_id vs pick_second.
+Soft scores ≠ hard gates. catalog ≠ endorsement.
 Do not copy keys. Rebased onto `8f446c4` (merged #41) after
 `fb15455` (merged #42 v0.5.0). Do not reopen or amend PR #23–#42.
 Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
