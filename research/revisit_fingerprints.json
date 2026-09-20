@@ -315,8 +315,8 @@
       "notes_section": "126",
       "last_look": "2026-09-20T21:42Z",
       "fingerprints": {
-        "default_sha": "7beac18983e6",
-        "pushed_at": null,
+        "default_sha": "7beac18983e6df5a12e1038c6ce44762cc937dcc",
+        "pushed_at": "2026-09-20T21:04:09.000Z",
         "description_hash": null,
         "release_tag": null
       },
@@ -327,8 +327,8 @@
       "notes_section": "126",
       "last_look": "2026-09-20T21:42Z",
       "fingerprints": {
-        "default_sha": "070a6e609763",
-        "pushed_at": null,
+        "default_sha": "070a6e6097632683a455c1b9180953f0ef8d6d1d",
+        "pushed_at": "2026-09-20T21:57:38.000Z",
         "description_hash": null,
         "release_tag": null
       },
@@ -339,8 +339,8 @@
       "notes_section": "126",
       "last_look": "2026-09-20T21:42Z",
       "fingerprints": {
-        "default_sha": "f6029af5253c",
-        "pushed_at": null,
+        "default_sha": "f6029af5253c735c891f0678ba49879469ba4cf8",
+        "pushed_at": "2026-09-20T21:16:06.000Z",
         "description_hash": null,
         "release_tag": null
       },
