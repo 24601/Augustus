@@ -1,0 +1,24 @@
+[
+  {
+    "id": "razorback16/openjev",
+    "source": "github",
+    "stars": 193,
+    "change_type": "sdk_compat_mlx_error_contract",
+    "what_changed": "HEAD 6e91dfc031bc (was 794a81b871): Test against typesafe-sdk 0.7 (Pydantic response models; msgspec dropped); MLX backend brought to 400 plain-text error contract for unaskable questions (e4098ff60ca1). Material API/SDK-compat + serving-port densify. *theirs*",
+    "pushed_at": "2026-09-20T19:31:01Z",
+    "material": true,
+    "default_branch_sha": "6e91dfc031bc1841ac819e9cf831a9889cb4de7d",
+    "prior_sha": "794a81b871312973116df22bd26c6c303d0acffb"
+  },
+  {
+    "id": "jaredpalmer/kev",
+    "source": "github",
+    "stars": 918,
+    "change_type": "architecture_calibration_plan",
+    "what_changed": "HEAD 75cc15ddb8e2 (was 193c48cb2658): PLAN_Qwen35 densify \u2014 corrected Qwen3.5 LoRA target names (verified), peft 0.21 existence proof, OOD-calibration study + coverage-at-error-budget metric in Phase 0; prior commits fold SemIf review (hybrid cache/MLX/cross-bench) and Laya review (encoder vs decoder, high-cardinality, calibration grouping, multilingual). Material architecture + calibration densify. *theirs*",
+    "pushed_at": "2026-09-20T19:08:13Z",
+    "material": true,
+    "default_branch_sha": "75cc15ddb8e2d84bb85e68200c32d31da7f09f54",
+    "prior_sha": "193c48cb2658ecb026ca0432f657415bd9846ed2"
+  }
+]

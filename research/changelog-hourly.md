@@ -15,6 +15,19 @@ This is the uniqueness-lock archive after hourly folds (#2–#40 / notes
 
 ---
 
+## Hourly 1340 HIGH (notes.md §124 / items 401–416 / batch #106)
+
+- Fresh PR off latest `main` after merged #46 (hourly 1248 / §123) and
+  merged #45 (revisit protocol / §122). **HARD RULE:** do not reopen or amend
+  PR #23–#46. Does not bump 0.5.0. Skip Archer. Quote *theirs*. No wrappers.
+  `invented_signal: false`.
+- typesafe-sdk 0.7 Pydantic response models. msgspec dropped.
+  Pydantic response models ≠ logit-equiv. Error contract is not a Noul.
+  PLAN_Qwen35 densify. coverage-at-error-budget *theirs* not Harbor.
+  GLiNER locate ports are class members not Jev replicas. Locate ≠ decide.
+  ~160 ms *theirs* not Harbor. SHA move is not a replica.
+- Hourly 1340 uniqueness lock: typesafe-sdk 0.7 Pydantic response models; msgspec dropped; The server's output is unchanged and was never wrong; MLX backend 400 plain-text error contract; SchemaError is 400 plain-string detail not 422 list; razorback16/openjev densify HEAD 6e91dfc031bc README SHA cbdcc8de0304; Pydantic response models ≠ logit-equiv; msgspec dropped is not a replica; Error contract is not a Noul; wire-compat ≠ logit-equiv; PLAN_Qwen35 densify; corrected Qwen3.5 LoRA target names verified; in_proj_qkv in_proj_z in_proj_a in_proj_b out_proj; peft 0.21 existence proof; OOD-calibration study; coverage-at-error-budget metric in Phase 0; PLAN_Qwen35 still proposal for review; deadline 0.53→0.82 at 9B *theirs*; isolation would fail by construction on DeltaNet; Qwen3.5-9B ≠ Archer; jaredpalmer/kev densify HEAD 75cc15ddb8e2 PLAN SHA eca543246f50; GLiNER locate ports are class members not Jev replicas; urchade/GLiNER ≠ fbilhaut/gline-rs ≠ lmoe/gliner-onnx.js ≠ shershah1024/gliner-native-runtime; Locate ≠ decide; Jev-Vision skip 0.936 effect 0.967 done 0.896 157 ms *theirs*; ~160 ms *theirs* not Harbor; 0.971 F1 *theirs* not Harbor; coverage-at-error-budget *theirs* not Harbor; hf:fr0stbit3/laya-gguf serving substrate ≠ calibrated replica; jkcdarunday/SystemOne-Next ≠ TypeSafe System One; catalog ≠ endorsement; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46; notes.md §124
+
 ## Hourly 1248 HIGH (notes.md §123 / items 385–400 / batch #105)
 
 - Fresh PR off latest `main` after merged #45 (revisit protocol / §122) and

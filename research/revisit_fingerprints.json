@@ -20,7 +20,7 @@
     "forks_count",
     "likes"
   ],
-  "note": "Last-look snapshots for already-catalogued sources. Hourly diffs these four fingerprints. Star-noise is not a fold. SHA move is not a replica. Seeded from merged notes (SemIf \u00a7117, NanoJev \u00a7115) plus hourly 1248 densify (openjev \u00a775, von \u00a749, verdict \u00a771, kev \u00a745, jeff \u00a760, TypeLLM \u00a7113). default_sha is the full HEAD. pushed_at is the GitHub push clock. description_hash is sha256[:12] of the GitHub/Space description, or null when notes do not quote it. README SHA is an optional extra, not a substitute for description_hash.",
+  "note": "Last-look snapshots for already-catalogued sources. Hourly diffs these four fingerprints. Star-noise is not a fold. SHA move is not a replica. Seeded from merged notes (SemIf \u00a7117, NanoJev \u00a7115) plus hourly 1248 densify (openjev \u00a775, von \u00a749, verdict \u00a771, kev \u00a745, jeff \u00a760, TypeLLM \u00a7113) plus hourly 1340 densify (openjev sdk 0.7 + MLX 400, kev PLAN_Qwen35) and Jev-Vision first sighting. default_sha is the full HEAD. pushed_at is the GitHub push clock. description_hash is sha256[:12] of the GitHub/Space description, or null when notes do not quote it. README SHA is an optional extra, not a substitute for description_hash.",
   "looks": [
     {
       "id": "github:TheoLeeCJ/SemIf",
@@ -49,14 +49,14 @@
     {
       "id": "github:razorback16/openjev",
       "notes_section": "75",
-      "last_look": "2026-09-20T18:48Z",
+      "last_look": "2026-09-20T19:40Z",
       "fingerprints": {
-        "default_sha": "794a81b871312973116df22bd26c6c303d0acffb",
-        "pushed_at": "2026-09-20T18:26:28Z",
+        "default_sha": "6e91dfc031bc1841ac819e9cf831a9889cb4de7d",
+        "pushed_at": "2026-09-20T19:31:01Z",
         "description_hash": "3da60ee053e0",
         "release_tag": null
       },
-      "readme_sha": "3cbf28eb1e2de694079a7587bf2f52196b5c9faa"
+      "readme_sha": "cbdcc8de030432ed865c6ef0bd4693b7cfa8ac9c"
     },
     {
       "id": "github:wfzyx/von",
@@ -85,10 +85,10 @@
     {
       "id": "github:jaredpalmer/kev",
       "notes_section": "45",
-      "last_look": "2026-09-20T18:48Z",
+      "last_look": "2026-09-20T19:40Z",
       "fingerprints": {
-        "default_sha": "a955202be6bc70bca56d916b3250326143f2e3ec",
-        "pushed_at": "2026-09-20T18:56:09Z",
+        "default_sha": "75cc15ddb8e2d84bb85e68200c32d31da7f09f54",
+        "pushed_at": "2026-09-20T19:08:13Z",
         "description_hash": "8f68dcc43f12",
         "release_tag": "kev-family"
       },
@@ -117,6 +117,18 @@
         "release_tag": null
       },
       "readme_sha": "116ca5f89352a8a2ffbe411bae5eeb5c8b342ee2"
+    },
+    {
+      "id": "github:sseanliu/Jev-Vision",
+      "notes_section": "124",
+      "last_look": "2026-09-20T19:40Z",
+      "fingerprints": {
+        "default_sha": "dbd230b57fae9a3f2a3a6b1917910bde981935d7",
+        "pushed_at": "2026-09-20T19:45:30Z",
+        "description_hash": "762003ca13b6",
+        "release_tag": null
+      },
+      "readme_sha": "16d479e1d8b664ce0d352f92922f750f08c1b551"
     }
   ]
 }
