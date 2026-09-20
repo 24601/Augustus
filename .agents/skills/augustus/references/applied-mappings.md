@@ -2245,7 +2245,7 @@ XNLI EN 88.3% ECE 0.032 → RU 77.3% ECE 0.096;
 MASSIVE no detectable difference at n=600;
 confidence is function of p_max (r=1.000).
 [JulesHuisman/jev-eval](https://github.com/JulesHuisman/jev-eval)
-JulesHuisman/jev-eval scaffolding / empty README SHA e69de29b;
+JulesHuisman/jev-eval scaffolding / README SHA c356a584 (was empty e69de29b);
 JulesHuisman/jev-eval ≠ SivletLabs/jev-eval ≠ willkelly/jev-evaluation ≠ 4esv ≠ xxkuboxx ≠ onlyoneaman ≠ dayhaysoos/jevals.
 [tunahansahin897/what-is-jev](https://github.com/tunahansahin897/what-is-jev)
 947 repos scored; A 273 / B 302 / C 372; LLM rubric ≠ benches.
@@ -2267,7 +2267,7 @@ gated 100% (95/95) coverage 59.375%.
 [Towow-ai/jpp](https://github.com/Towow-ai/jpp)
 J++ composable semantic computation language.
 [whyashthakker/awesome-jev-use-cases](https://github.com/whyashthakker/awesome-jev-use-cases)
-No benchmark winner claimed.
+No benchmark winner is claimed.
 [dog-last/awesome-jev](https://github.com/dog-last/awesome-jev)
 phishing: naive 62.6% vs regex 91.8%; 5-atomic + LR 95.0% *theirs*.
 [shinshin86/jev-aituber-tension-sample](https://github.com/shinshin86/jev-aituber-tension-sample)

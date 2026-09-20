@@ -25607,7 +25607,7 @@ Bonsai-1.7B v1;
 Bonsai-4B v1;
 WANLI-256 64.5% / 60.2% / 52.0% *theirs*;
 rank #4 / #5 / #6 of 6;
-JulesHuisman/jev-eval scaffolding / empty README SHA e69de29b;
+JulesHuisman/jev-eval scaffolding / README SHA c356a584 (was empty e69de29b);
 JulesHuisman/jev-eval ≠ SivletLabs/jev-eval ≠ willkelly/jev-evaluation ≠ 4esv ≠ xxkuboxx ≠ onlyoneaman ≠ dayhaysoos/jevals;
 7 bands 6/10 vs 40 bands 0/10;
 source receipts + confidence slider re-policy without re-inference;
@@ -25628,7 +25628,7 @@ J++ composable semantic computation language;
 judge-jev 0.5 still soft;
 947 repos scored; A 273 / B 302 / C 372;
 LLM rubric ≠ benches;
-No benchmark winner claimed;
+No benchmark winner is claimed;
 phishing: naive 62.6% vs regex 91.8%; 5-atomic + LR 95.0% *theirs*;
 AITuber tension ±15;
 README npm global; repo is Rust;
@@ -25766,7 +25766,7 @@ authorization; Jev is SENSOR).
 9. **JulesHuisman/jev-eval scaffolding** (theme
    Measurement; **thin / still a real card**) —
    Python; license **null**; **0★**; HEAD
-   `15cf3b83`; README SHA `e69de29b` **empty**;
+   `96c2a110`; README SHA `c356a584` (was empty `e69de29b`);
    size **0** WITH CONTENTS; default **master**;
    created 2026-09-20T10:39:43Z (watch hour).
    pyproject placeholder “Add your description
@@ -25777,18 +25777,18 @@ authorization; Jev is SENSOR).
    ChatOpenAI gpt-5.6-terra generates answers then
    DeepEval JevCorrectnessMetric; assets/
    attention-is-all-you-need.pdf + dataset.json.
-   Scaffolding / empty README. JulesHuisman/jev-eval
-   scaffolding / empty README SHA e69de29b.
+   Scaffolding / thin README (was empty). JulesHuisman/jev-eval
+   scaffolding / README SHA c356a584 (was empty e69de29b).
    JulesHuisman/jev-eval ≠ SivletLabs/jev-eval ≠
    willkelly/jev-evaluation ≠ 4esv ≠ xxkuboxx ≠
    onlyoneaman ≠ dayhaysoos/jevals. Do **not**
-   treat an empty README as a Harbor harness.
+   treat a thin README as a Harbor harness.
 
 10. **Independent RU accuracy/calibration audit**
     (PRIMARY Harbor-jevals this hour) —
     AHTOOOXA/jev-cyrillic-audit Python MIT; **0★**;
     HEAD `7167894a`; README SHA `d36a36f5`; LICENSE
-    SHA `f9b9193e`; size **0** WITH CONTENTS.
+    SHA `f9b9193e`; size **1302**.
     Pre-registered; n=600 paired/dataset;
     jev-1.13.0. XNLI EN 88.3% ECE 0.032 → RU 77.3%
     ECE 0.096; Δ −11.0 pp [−14.2,−7.8]; ECE +0.063.
@@ -25835,7 +25835,7 @@ authorization; Jev is SENSOR).
 
 13. **Table-tennis paddle decisions** —
     LiuHao-1443/jev-table-tennis Python MIT;
-    **1★**; HEAD `2c80dec3`; README SHA `fe5d0c37`;
+    **1★**; HEAD `0224c21c`; README SHA `3a54bc93`;
     LICENSE SHA `777dc3d6`; size **0** WITH
     CONTENTS. Option label IS the pixel; lookup
     table + servo; no local prediction. 7 bands
@@ -25867,7 +25867,7 @@ authorization; Jev is SENSOR).
 15. **Classify HF datasets** —
     hemanth/hfjev Python MIT; **1★**; HEAD
     `6f2aa501`; README SHA `20651a25`; LICENSE SHA
-    `0ac06d77`; size **0** WITH CONTENTS. Classify
+    `0ac06d77`; size **48**. Classify
     HF datasets across typed semantic dimensions;
     adapt() Choice/Noul/Score; pip/npm claims;
     **no numbers**. Thin vs cyrillic-audit but
@@ -25877,7 +25877,7 @@ authorization; Jev is SENSOR).
 16. **Pointer-not-generator “LLM”** —
     akash-kamat/jev-llm JavaScript; README **ISC**
     / GitHub license **null** / no LICENSE; **0★**;
-    HEAD `b7d0b04c`; README SHA `c42907a6`; size
+    HEAD `194db1a6`; README SHA `c42907a6`; size
     **54**; default **master**. package name
     generative-jev. Pointer-not-generator 400
     human-authored responses; 2 calls classify
@@ -25890,22 +25890,24 @@ authorization; Jev is SENSOR).
 
 17. **Evidence-backed KG** —
     chenmingtang830/jevgraph Python Apache-2.0;
-    **0★**; HEAD `85cebe00`; README SHA `e57a7b97`;
+    **0★**; HEAD `7a6f7d05`; README SHA `bda2ed37`;
     LICENSE SHA `57bc88a1`; size **125**. Blocking
     O(nk) then Choice; proposed ≠ authorized.
     FewRel 160: Jev 85.0% vs lexical 13.125%;
     gated 100% (95/95) coverage 59.375% —
     **risk/coverage not production guarantee**. vs
     Luna 80.0% / DeepSeek 83.75% (batch shrink).
+    Track 2 episodic 85.6% *theirs* ≠ Track 1
+    FewRel 85.0% — do not replace Track 1 locks.
     0.85/0.80 gate theater if treated as proof.
     one 503 no retry. proposed ≠ true. Formal
     compose: graph write is exact authorization;
     Jev SENSOR on typed relation.
 
 18. **J++ composition language** —
-    Towow-ai/jpp Python MIT; **2★**; HEAD
-    `18e8a2d7`; README SHA `0a82d97f`; LICENSE SHA
-    `b1a46fbc`; size **241**. J++ composable
+    Towow-ai/jpp Python MIT; **3★**; HEAD
+    `14d77789`; README SHA `0a82d97f`; LICENSE SHA
+    `b1a46fbc`; size **1071**. J++ composable
     semantic computation; questions/methods as
     values; Python 3.12 embedded; default demo
     offline synthetic; ≠ Microsoft Visual J++ ≠
@@ -25915,14 +25917,14 @@ authorization; Jev is SENSOR).
 
 19. **Use-case awesome vs GPT** —
     whyashthakker/awesome-jev-use-cases HTML MIT;
-    **3★**; HEAD `96dfcb30`; README SHA `6b4fcff4`;
+    **3★**; HEAD `74583663`; README SHA `a6d96b87`;
     LICENSE SHA `13b5a2a6`; size **426**. 50 visual
     Jev vs gpt-4o-mini; **No benchmark winner
-    claimed**; preview fixtures. ≠
+    is claimed**; preview fixtures. ≠
     walidboulanouar/awesome-jev-use-cases (§92).
     GH desc “Compared with GPT Models across on
     cost and speed” vs README “No benchmark
-    winner”. Catalog ≠ endorsement.
+    winner is claimed.” Catalog ≠ endorsement.
 
 20. **Curated System One guide** —
     dog-last/awesome-jev Python MIT; **1★**; HEAD
@@ -25939,7 +25941,7 @@ authorization; Jev is SENSOR).
     shinshin86/jev-aituber-tension-sample
     TypeScript MIT; **0★**; HEAD `8c0a8ffb`; README
     SHA `06536d19`; LICENSE SHA `8b20d89e`; size
-    **94**. Choice UP/SAME/DOWN → tension ±15;
+    **105**. Choice UP/SAME/DOWN → tension ±15;
     CORS forces Vite proxy for TypeSafe; OpenRouter
     Decisions API. Life/knowledge-work. argmax
     drives tension; missing probs → 1/0. Thin demo;
@@ -25971,8 +25973,8 @@ authorization; Jev is SENSOR).
 
 24. **BTC/ETH paper trader honest negative** —
     waterme7on/jev-paper-trader JavaScript; license
-    **null**; **0★**; HEAD `ed98ca8e`; README SHA
-    `4eded35a`; size **91**. Paper trading not
+    **null**; **0★**; HEAD `73662f79`; README SHA
+    `4eded35a`; size **145**. Paper trading not
     live. Jev evaluates not predicts. 90d trend
     +12.40% vs random +12.75% vs BH +41.71%; 5m
     win rate 25%; bear trend −12.60% vs BH −64.85%
@@ -25998,7 +26000,7 @@ uspraveen /
 treat GH kushalpatil07/jevify recipe as an
 existing repo /
 collapse JulesHuisman into SivletLabs/4esv /
-treat empty README scaffolding as a Harbor
+treat thin README scaffolding as a Harbor
 harness /
 quote 32/32 synthetic as production /
 hard-gate 0.8 evidence as proof /
@@ -26026,10 +26028,10 @@ reopen or amend PR #23 or #24 or #25 or #26.
 
 Census **not provided this hour** (not
 re-derived). Live REST pulse only: SemIf
-**2153★** (this-pass fetch; +25 vs §108
-**2128**; +59 vs §107 **2094**); jevlike
-**1030★** (+4 vs §108 **1026**);
-TypeAR-AI/TypeAR **13★** (+1 vs §108 **12**);
+**2166★** (this-pass fetch; +38 vs §108
+**2128**; +72 vs §107 **2094**); jevlike
+**1031★** (+5 vs §108 **1026**);
+TypeAR-AI/TypeAR **14★** (+2 vs §108 **12**);
 AnotiaWang/awesome-jev **95★** (+1 vs §108
 **94**) still a **different object** from
 user-provided Awesomejev **656 entries /
@@ -26040,7 +26042,7 @@ lastModified **UNCHANGED**
 `2026-09-20T04:29:16.000Z` vs §106–§108.
 Tracker as *model* HTTP **401**; as *space*
 HTTP 200. Laya **present**
-(`convaiinnovations/laya` likes **776** vs
+(`convaiinnovations/laya` likes **783** vs
 §108 **765**). Blackwood Hub HTTP 200 likes
 **2** **ABSENT** from tracker ITEMS. Archer
 still **promised_not_landed**. Hub
@@ -26051,12 +26053,12 @@ typesafe-ai/skills still v0.5.7 HEAD
 invented tweets. `invented_signal: false`.
 
 0★ HIGH still got a real card (table-tennis
-**1★**; hfjev **1★**; jpp **2★**;
+**1★**; hfjev **1★**; jpp **3★**;
 whyashthakker **3★**; dog-last **1★**;
 shinpr **1★**; the rest **0★** including
 size **0** WITH CONTENTS JulesHuisman /
-table-tennis / evidence-lab / hfjev /
-ultra_laya / cyrillic-audit). License
+table-tennis / evidence-lab /
+ultra_laya; hfjev size **48**; cyrillic-audit size **1302**). License
 **null** (JulesHuisman, jev-llm, judge-jev,
 paper-trader, jevify LoRA Hub cards) still
 got a real card. Hub jevify merged cards
@@ -26079,7 +26081,7 @@ REVIEW defects; shinpr JSON rerank honesty
 atomization; whyashthakker no-winner gallery.
 
 **Noise / thin still get cards:**
-JulesHuisman empty README scaffolding;
+JulesHuisman scaffolding / README SHA c356a584 (was empty e69de29b);
 jevify LoRA stub cards; hfjev no numbers;
 aituber small demo. 0★ HIGH still gets a
 real card. Size **0** WITH CONTENTS still

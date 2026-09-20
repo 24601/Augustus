@@ -460,7 +460,7 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   GH kushalpatil07/jevify 404;
   bonzi Bonsai-8B v1 GGUF densify; Bonsai-1.7B v1; Bonsai-4B v1;
   WANLI-256 64.5% / 60.2% / 52.0% *theirs*; rank #4 / #5 / #6 of 6;
-  JulesHuisman/jev-eval scaffolding / empty README SHA e69de29b;
+  JulesHuisman/jev-eval scaffolding / README SHA c356a584 (was empty e69de29b);
   7 bands 6/10 vs 40 bands 0/10;
   source receipts + confidence slider re-policy without re-inference;
   32/32 synthetic is smoke not production;
@@ -478,7 +478,7 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   judge-jev 0.5 still soft;
   947 repos scored; A 273 / B 302 / C 372;
   LLM rubric ≠ benches;
-  No benchmark winner claimed;
+  No benchmark winner is claimed;
   git-confess code owns counting/blame/ratio;
   httpx exhibit 11% (13/119) *theirs*;
   90d trend +12.40% vs random +12.75% vs BH +41.71%;

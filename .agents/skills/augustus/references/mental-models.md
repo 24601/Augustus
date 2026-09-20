@@ -2202,7 +2202,7 @@ not SWE-only.
    claude/laya-jev-review-gg5ppo. Do **not** paste vs-Jev
    table as this-fork win.
 9. **JulesHuisman/jev-eval** (thin; still a card) —
-   JulesHuisman/jev-eval scaffolding / empty README SHA e69de29b.
+   JulesHuisman/jev-eval scaffolding / README SHA c356a584 (was empty e69de29b).
    JulesHuisman/jev-eval ≠ SivletLabs/jev-eval ≠ willkelly/jev-evaluation
    ≠ 4esv ≠ xxkuboxx ≠ onlyoneaman ≠ dayhaysoos/jevals.
 10. **RU accuracy/calibration audit** (PRIMARY) —
@@ -2230,7 +2230,7 @@ not SWE-only.
 18. **J++** —
     J++ composable semantic computation language.
 19. **whyashthakker gallery** —
-    No benchmark winner claimed. ≠ walidboulanouar.
+    No benchmark winner is claimed. ≠ walidboulanouar.
 20. **dog-last guide** —
     phishing: naive 62.6% vs regex 91.8%; 5-atomic + LR 95.0% *theirs*.
 21. **AITuber** —

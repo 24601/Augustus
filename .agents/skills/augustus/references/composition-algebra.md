@@ -1578,7 +1578,7 @@ bonzi-27b-v2 / ternary-8b / 27b-v1 GGUF family densify; Hub still does not ship 
      Full cards: `validation.md`.
 209. **JulesHuisman scaffolding** (JulesHuisman/jev-eval):
      position 8 (Metric) as scaffolding, not a board.
-     JulesHuisman/jev-eval scaffolding / empty README SHA e69de29b.
+     JulesHuisman/jev-eval scaffolding / README SHA c356a584 (was empty e69de29b).
      JulesHuisman/jev-eval ≠ SivletLabs/jev-eval ≠ willkelly/jev-evaluation ≠ 4esv ≠ xxkuboxx ≠ onlyoneaman ≠ dayhaysoos/jevals.
      Full cards: `faq.md`.
 210. **Table-tennis typed paddle** (LiuHao-1443/jev-table-tennis):
@@ -1626,7 +1626,7 @@ bonzi-27b-v2 / ternary-8b / 27b-v1 GGUF family densify; Hub still does not ship 
      Full cards: `faq.md`.
 220. **Use-case gallery** (whyashthakker/awesome-jev-use-cases):
      position 8 (Metric) as a catalog, not eval.
-     No benchmark winner claimed.
+     No benchmark winner is claimed.
      Full cards: `faq.md`.
 221. **System One guide** (dog-last/awesome-jev):
      positions 1 (Operand) × 8 (Metric). atomize then sense.

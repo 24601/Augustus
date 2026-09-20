@@ -3057,10 +3057,10 @@ over watch. `invented_signal: false`.
 - **Bonsai-4B v1.** hf NicolaiMTLassen/bonzi-4b-v1-jev
   (MIT; likes **0**; sha `d5545084`). WANLI-256 60.2% *theirs*. rank #5 of 6.
 - **JulesHuisman scaffolding.** JulesHuisman/jev-eval
-  (Python; license null; **0★**; HEAD `15cf3b83`; README SHA `e69de29b`).
-  JulesHuisman/jev-eval scaffolding / empty README SHA e69de29b.
+  (Python; license null; **0★**; HEAD `96c2a110`; README SHA `c356a584` (was empty `e69de29b`)).
+  JulesHuisman/jev-eval scaffolding / README SHA c356a584 (was empty e69de29b).
 - **Table-tennis.** LiuHao-1443/jev-table-tennis
-  (Python MIT; **1★**; HEAD `2c80dec3`). 7 bands 6/10 vs 40 bands 0/10.
+  (Python MIT; **1★**; HEAD `0224c21c`). 7 bands 6/10 vs 40 bands 0/10.
 - **Evidence lab.** laguagu/jev-evidence-lab
   (Python MIT; **0★**; HEAD `a9669e94`). 32/32 synthetic is smoke not production.
 - **hfjev.** hemanth/hfjev (Python MIT; **1★**; HEAD `6f2aa501`).
@@ -3074,13 +3074,13 @@ over watch. `invented_signal: false`.
   Δ −11.0 pp [−14.2,−7.8]; ECE +0.063.
   MASSIVE no detectable difference at n=600.
   confidence is function of p_max (r=1.000).
-- **jev-llm.** akash-kamat/jev-llm (JS; license null; **0★**; HEAD `b7d0b04c`).
+- **jev-llm.** akash-kamat/jev-llm (JS; license null; **0★**; HEAD `194db1a6`).
   pointer-not-generator 400 human-authored responses.
 - **jevgraph.** chenmingtang830/jevgraph
-  (Python Apache-2.0; **0★**; HEAD `85cebe00`).
+  (Python Apache-2.0; **0★**; HEAD `7a6f7d05`).
   proposed ≠ authorized. FewRel 160: Jev 85.0% vs lexical 13.125%.
   gated 100% (95/95) coverage 59.375%.
-- **J++.** Towow-ai/jpp (Python MIT; **2★**; HEAD `18e8a2d7`).
+- **J++.** Towow-ai/jpp (Python MIT; **3★**; HEAD `14d77789`).
   J++ composable semantic computation language.
 - **judge-jev.** Mishkun/judge-jev (TS; license null; **0★**; HEAD `1bf495d3`).
   judge-jev 0.5 still soft.
@@ -3088,7 +3088,7 @@ over watch. `invented_signal: false`.
   (Python; SPDX NOASSERTION; **0★**; HEAD `71d53be2`).
   947 repos scored; A 273 / B 302 / C 372. LLM rubric ≠ benches.
 - **whyashthakker gallery.** whyashthakker/awesome-jev-use-cases
-  (HTML MIT; **3★**; HEAD `96dfcb30`). No benchmark winner claimed.
+  (HTML MIT; **3★**; HEAD `74583663`). No benchmark winner is claimed.
 - **dog-last guide.** dog-last/awesome-jev (Python MIT; **1★**; HEAD `206fdcab`).
   phishing: naive 62.6% vs regex 91.8%; 5-atomic + LR 95.0% *theirs*.
 - **AITuber.** shinshin86/jev-aituber-tension-sample
@@ -3098,16 +3098,16 @@ over watch. `invented_signal: false`.
 - **git-confess.** AHTOOOXA/git-confess (Python MIT; **0★**; HEAD `54cd2849`).
   git-confess code owns counting/blame/ratio. httpx exhibit 11% (13/119) *theirs*.
 - **paper-trader.** waterme7on/jev-paper-trader
-  (JS; license null; **0★**; HEAD `ed98ca8e`).
+  (JS; license null; **0★**; HEAD `73662f79`).
   90d trend +12.40% vs random +12.75% vs BH +41.71%. 5m win rate 25%.
 
 Pulse: Archer still promised_not_landed. Hub
 archerhume/4rcherhume HTTP **401**. Tracker
 multimodalart/jev-reproductions-tracker likes **64**;
 lastModified `2026-09-20T04:29:16Z` UNCHANGED. Live REST: SemIf
-**2153★**; jevlike **1030★**; TypeAR **13★**.
+**2166★**; jevlike **1031★**; TypeAR **14★**.
 AnotiaWang/awesome-jev **95★** ≠ Awesomejev 656 entries / 38,160 stars.
-Hub Laya likes **776**. Blackwood ABSENT. Qwen3.8-27B ≠ Archer.
+Hub Laya likes **783**. Blackwood ABSENT. Qwen3.8-27B ≠ Archer.
 do not reopen or amend PR #23 or #24 or #25 or #26.
 `invented_signal: false`.
 

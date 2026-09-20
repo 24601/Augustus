@@ -3339,11 +3339,11 @@ No, no, and no. bonzi Bonsai-8B v1 GGUF densify. Bonsai-1.7B v1. Bonsai-4B v1. W
 
 ## Is JulesHuisman/jev-eval a Harbor harness? Collapse into SivletLabs / 4esv / dayhaysoos/jevals?
 
-No and no. JulesHuisman/jev-eval scaffolding / empty README SHA e69de29b. Python; license **null**; **0★**; HEAD `15cf3b83`; size **0** WITH CONTENTS; default **master**. JulesHuisman/jev-eval ≠ SivletLabs/jev-eval ≠ willkelly/jev-evaluation ≠ 4esv ≠ xxkuboxx ≠ onlyoneaman ≠ dayhaysoos/jevals. Do not copy example.env keys. `notes.md` §109.
+No and no. JulesHuisman/jev-eval scaffolding / README SHA c356a584 (was empty e69de29b). Python; license **null**; **0★**; HEAD `96c2a110`; size **0** WITH CONTENTS; default **master**. JulesHuisman/jev-eval ≠ SivletLabs/jev-eval ≠ willkelly/jev-evaluation ≠ 4esv ≠ xxkuboxx ≠ onlyoneaman ≠ dayhaysoos/jevals. Do not copy example.env keys. `notes.md` §109.
 
 ## Quote 40-band 0/10 without 7-band? Does Jev run the physics?
 
-No and no. 7 bands 6/10 vs 40 bands 0/10. Option label IS the pixel; physics/collisions/scoring local. Python MIT; **1★**; HEAD `2c80dec3`; size **0** WITH CONTENTS. LiuHao-1443/jev-table-tennis. `notes.md` §109.
+No and no. 7 bands 6/10 vs 40 bands 0/10. Option label IS the pixel; physics/collisions/scoring local. Python MIT; **1★**; HEAD `0224c21c`; size **0** WITH CONTENTS. LiuHao-1443/jev-table-tennis. `notes.md` §109.
 
 ## Is 32/32 synthetic production? Hard-gate 0.8 evidence as proof?
 
@@ -3355,19 +3355,19 @@ No, no, and no. classify HF datasets across typed semantic dimensions. **no numb
 
 ## Did MASSIVE prove RU = EN? Is confidence independent of p_max? Hard-gate Δ −11.0 pp as “Jev cannot do Russian”?
 
-No, no, and no. XNLI EN 88.3% ECE 0.032 → RU 77.3% ECE 0.096. Δ −11.0 pp [−14.2,−7.8]; ECE +0.063. MASSIVE no detectable difference at n=600. confidence is function of p_max (r=1.000). Pre-registered; n=600; 4,800 calls. Python MIT; **0★**; HEAD `7167894a`; size **0** WITH CONTENTS. AHTOOOXA/jev-cyrillic-audit. PRIMARY. `notes.md` §109.
+No, no, and no. XNLI EN 88.3% ECE 0.032 → RU 77.3% ECE 0.096. Δ −11.0 pp [−14.2,−7.8]; ECE +0.063. MASSIVE no detectable difference at n=600. confidence is function of p_max (r=1.000). Pre-registered; n=600; 4,800 calls. Python MIT; **0★**; HEAD `7167894a`; size **1302**. AHTOOOXA/jev-cyrillic-audit. PRIMARY. `notes.md` §109.
 
 ## Is jev-llm a generator? Treat “zero hallucination” without the bank constraint?
 
-No and no. pointer-not-generator 400 human-authored responses. Zero hallucination = bank constraint. JS; README ISC / GitHub license **null**; **0★**; HEAD `b7d0b04c`; size **54**; default **master**. akash-kamat/jev-llm. `notes.md` §109.
+No and no. pointer-not-generator 400 human-authored responses. Zero hallucination = bank constraint. JS; README ISC / GitHub license **null**; **0★**; HEAD `194db1a6`; size **54**; default **master**. akash-kamat/jev-llm. `notes.md` §109.
 
 ## Is proposed authorized? Treat gated 100% (95/95) as a production guarantee?
 
-No and no. proposed ≠ authorized. FewRel 160: Jev 85.0% vs lexical 13.125%. gated 100% (95/95) coverage 59.375%. Python Apache-2.0; **0★**; HEAD `85cebe00`. chenmingtang830/jevgraph. `notes.md` §109.
+No and no. proposed ≠ authorized. FewRel 160: Jev 85.0% vs lexical 13.125%. gated 100% (95/95) coverage 59.375%. Track 2 episodic 85.6% *theirs* ≠ Track 1 FewRel 85.0%. Python Apache-2.0; **0★**; HEAD `7a6f7d05`. chenmingtang830/jevgraph. `notes.md` §109.
 
 ## Is J++ Visual J++? Collapse into southpolesteve/probably?
 
-No and no. J++ composable semantic computation language. Python MIT; **2★**; HEAD `18e8a2d7`. Towow-ai/jpp ≠ Microsoft Visual J++ ≠ southpolesteve/probably. `notes.md` §109.
+No and no. J++ composable semantic computation language. Python MIT; **3★**; HEAD `14d77789`. Towow-ai/jpp ≠ Microsoft Visual J++ ≠ southpolesteve/probably. `notes.md` §109.
 
 ## Treat /judge 0.5 as truth? Do unit tests call a model?
 
@@ -3379,7 +3379,7 @@ No and no. 947 repos scored; A 273 / B 302 / C 372. LLM rubric ≠ benches. Star
 
 ## Did whyashthakker crown a GPT winner? Collapse into walidboulanouar?
 
-No and no. No benchmark winner claimed. HTML MIT; **3★**; HEAD `96dfcb30`. whyashthakker/awesome-jev-use-cases ≠ walidboulanouar/awesome-jev-use-cases. GH desc vs README honesty. `notes.md` §109.
+No and no. No benchmark winner is claimed. HTML MIT; **3★**; HEAD `74583663`. whyashthakker/awesome-jev-use-cases ≠ walidboulanouar/awesome-jev-use-cases. GH desc vs README honesty. `notes.md` §109.
 
 ## Collapse dog-last into AnotiaWang / Frank-ZY-Dou / awesomejev.com? Skip the regex baseline?
 
@@ -3395,8 +3395,8 @@ No and no. git-confess code owns counting/blame/ratio. httpx exhibit 11% (13/119
 
 ## Treat paper-trader +12.40% as edge? Are fills a strategy win?
 
-No and no. 90d trend +12.40% vs random +12.75% vs BH +41.71%. 5m win rate 25%. Default switched to trend so UI shows fills — do not treat fills as edge. Paper trading not live. JS; license **null**; **0★**; HEAD `ed98ca8e`. waterme7on/jev-paper-trader. `notes.md` §109.
+No and no. 90d trend +12.40% vs random +12.75% vs BH +41.71%. 5m win rate 25%. Default switched to trend so UI shows fills — do not treat fills as edge. Paper trading not live. JS; license **null**; **0★**; HEAD `73662f79`. waterme7on/jev-paper-trader. `notes.md` §109.
 
 ## Did Archer land this hour? Treat tracker likes 64 as a landing? Treat Awesomejev 656/38160 as eval? Reopen PR #23–#26?
 
-No, no, no, and no. Hub `archerhume/4rcherhume` HTTP **401** (not re-fetched as a rewrite). tracker likes 64 (+4) lastModified UNCHANGED. Tracker likes **64** (+4 vs §108 **60**); lastModified `2026-09-20T04:29:16.000Z` **UNCHANGED**. Laya present; Blackwood ABSENT; Archer still promised_not_landed. Laya present (likes **776**); Blackwood ABSENT from tracker ITEMS; Archer still promised_not_landed. Live REST pulse: SemIf **2153★** (+25 vs §108 **2128**); jevlike **1030★** (+4 vs §108 **1026**); TypeAR-AI/TypeAR **13★** (+1 vs §108 **12**). AnotiaWang/awesome-jev **95★** (+1 vs §108 **94**) ≠ Awesomejev 656 entries / 38,160 stars (was 561/27007). Qwen3.8-27B ≠ Archer. AITuber tension ±15. do not reopen or amend PR #23 or #24 or #25 or #26. do not reopen or amend PR #23/#24/#25/#26. `invented_signal: false`. `notes.md` §109.
+No, no, no, and no. Hub `archerhume/4rcherhume` HTTP **401** (not re-fetched as a rewrite). tracker likes 64 (+4) lastModified UNCHANGED. Tracker likes **64** (+4 vs §108 **60**); lastModified `2026-09-20T04:29:16.000Z` **UNCHANGED**. Laya present; Blackwood ABSENT; Archer still promised_not_landed. Laya present (likes **783**); Blackwood ABSENT from tracker ITEMS; Archer still promised_not_landed. Live REST pulse: SemIf **2166★** (+38 vs §108 **2128**); jevlike **1031★** (+5 vs §108 **1026**); TypeAR-AI/TypeAR **14★** (+2 vs §108 **12**). AnotiaWang/awesome-jev **95★** (+1 vs §108 **94**) ≠ Awesomejev 656 entries / 38,160 stars (was 561/27007). Qwen3.8-27B ≠ Archer. AITuber tension ±15. do not reopen or amend PR #23 or #24 or #25 or #26. do not reopen or amend PR #23/#24/#25/#26. `invented_signal: false`. `notes.md` §109.

@@ -2778,13 +2778,13 @@
   roadius2/ultra_laya (**0★**; HEAD `0dff5bd2`; roadus2 watch misspelling;
   ultra_laya REVIEW defects; default branch claude/laya-jev-review-gg5ppo).
 - Measurement densifies PRIMARY: AHTOOOXA/jev-cyrillic-audit
-  (**0★**; HEAD `7167894a`; size **0** WITH CONTENTS;
+  (**0★**; HEAD `7167894a`; size **1302**;
   XNLI EN 88.3% ECE 0.032 → RU 77.3% ECE 0.096;
   Δ −11.0 pp [−14.2,−7.8]; ECE +0.063;
   MASSIVE no detectable difference at n=600;
   confidence is function of p_max (r=1.000));
-  JulesHuisman/jev-eval (**0★**; HEAD `15cf3b83`;
-  JulesHuisman/jev-eval scaffolding / empty README SHA e69de29b);
+  JulesHuisman/jev-eval (**0★**; HEAD `96c2a110`;
+  JulesHuisman/jev-eval scaffolding / README SHA c356a584 (was empty e69de29b));
   tunahansahin897/what-is-jev (**0★**; HEAD `71d53be2`;
   947 repos scored; A 273 / B 302 / C 372; LLM rubric ≠ benches);
   Mishkun/judge-jev (**0★**; HEAD `1bf495d3`; judge-jev 0.5 still soft).
@@ -2795,7 +2795,7 @@
   chenmingtang830/jevgraph (proposed ≠ authorized;
   gated 100% (95/95) coverage 59.375%); Towow-ai/jpp
   (J++ composable semantic computation language);
-  whyashthakker/awesome-jev-use-cases (No benchmark winner claimed);
+  whyashthakker/awesome-jev-use-cases (No benchmark winner is claimed);
   dog-last/awesome-jev (phishing 5-atomic + LR 95.0% *theirs*);
   shinshin86/jev-aituber-tension-sample (AITuber tension ±15);
   shinpr/jev-reranker (README npm global; repo is Rust);
@@ -2815,9 +2815,9 @@
 - Pulse (do not invent): Archer still promised_not_landed. Hub
   archerhume/4rcherhume HTTP **401**. Tracker likes **64**;
   lastModified `2026-09-20T04:29:16.000Z` **UNCHANGED**.
-  Laya present (likes **776**); Blackwood ABSENT. Live REST:
-  SemIf **2153★** (+25 vs §108 2128); jevlike **1030★**
-  (+4 vs §108 1026); TypeAR **13★** (+1 vs §108 12).
+  Laya present (likes **783**); Blackwood ABSENT. Live REST:
+  SemIf **2166★** (+38 vs §108 2128); jevlike **1031★**
+  (+5 vs §108 1026); TypeAR **14★** (+2 vs §108 12).
   AnotiaWang/awesome-jev **95★** ≠ Awesomejev 656 entries /
   38,160 stars (was 561/27007). Qwen3.8-27B ≠ Archer.
   X MCP not used. `invented_signal: false`.

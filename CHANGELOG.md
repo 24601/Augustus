@@ -93,11 +93,11 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   Δ −11.0 pp [−14.2,−7.8]; ECE +0.063;
   MASSIVE no detectable difference at n=600;
   confidence is function of p_max (r=1.000);
-  Python MIT LICENSE SHA `f9b9193e`; **0★**; HEAD `7167894a`; README SHA `d36a36f5`; size **0** WITH CONTENTS);
+  Python MIT LICENSE SHA `f9b9193e`; **0★**; HEAD `7167894a`; README SHA `d36a36f5`; size **1302**);
   ([JulesHuisman/jev-eval](https://github.com/JulesHuisman/jev-eval)
-  JulesHuisman/jev-eval scaffolding / empty README SHA e69de29b;
+  JulesHuisman/jev-eval scaffolding / README SHA c356a584 (was empty e69de29b);
   JulesHuisman/jev-eval ≠ SivletLabs/jev-eval ≠ willkelly/jev-evaluation ≠ 4esv ≠ xxkuboxx ≠ onlyoneaman ≠ dayhaysoos/jevals;
-  Python; license null; **0★**; HEAD `15cf3b83`; size **0** WITH CONTENTS);
+  Python; license null; **0★**; HEAD `96c2a110`; size **0** WITH CONTENTS);
   ([tunahansahin897/what-is-jev](https://github.com/tunahansahin897/what-is-jev)
   947 repos scored; A 273 / B 302 / C 372; LLM rubric ≠ benches;
   Python; SPDX NOASSERTION LICENSE SHA `790f3358`; **0★**; HEAD `71d53be2`; README SHA `3ae98c56`; size **6277**);
@@ -107,33 +107,33 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   **applied class placements**
   ([LiuHao-1443/jev-table-tennis](https://github.com/LiuHao-1443/jev-table-tennis)
   7 bands 6/10 vs 40 bands 0/10;
-  Python MIT LICENSE SHA `777dc3d6`; **1★**; HEAD `2c80dec3`; README SHA `fe5d0c37`; size **0** WITH CONTENTS);
+  Python MIT LICENSE SHA `777dc3d6`; **1★**; HEAD `0224c21c`; README SHA `3a54bc93`; size **0** WITH CONTENTS);
   ([laguagu/jev-evidence-lab](https://github.com/laguagu/jev-evidence-lab)
   source receipts + confidence slider re-policy without re-inference;
   32/32 synthetic is smoke not production;
   Python MIT LICENSE SHA `e5ede121`; **0★**; HEAD `a9669e94`; README SHA `1be53f55`; size **0** WITH CONTENTS);
   ([hemanth/hfjev](https://github.com/hemanth/hfjev)
   classify HF datasets across typed semantic dimensions;
-  Python MIT LICENSE SHA `0ac06d77`; **1★**; HEAD `6f2aa501`; README SHA `20651a25`; size **0** WITH CONTENTS);
+  Python MIT LICENSE SHA `0ac06d77`; **1★**; HEAD `6f2aa501`; README SHA `20651a25`; size **48**);
   ([akash-kamat/jev-llm](https://github.com/akash-kamat/jev-llm)
   pointer-not-generator 400 human-authored responses;
-  JS; license null; **0★**; HEAD `b7d0b04c`; README SHA `c42907a6`; size **54**);
+  JS; license null; **0★**; HEAD `194db1a6`; README SHA `c42907a6`; size **54**);
   ([chenmingtang830/jevgraph](https://github.com/chenmingtang830/jevgraph)
   proposed ≠ authorized; FewRel 160: Jev 85.0% vs lexical 13.125%;
   gated 100% (95/95) coverage 59.375%;
-  Python Apache-2.0 LICENSE SHA `57bc88a1`; **0★**; HEAD `85cebe00`; README SHA `e57a7b97`; size **125**);
+  Python Apache-2.0 LICENSE SHA `57bc88a1`; **0★**; HEAD `7a6f7d05`; README SHA `bda2ed37`; size **125**);
   ([Towow-ai/jpp](https://github.com/Towow-ai/jpp)
   J++ composable semantic computation language;
-  Python MIT LICENSE SHA `b1a46fbc`; **2★**; HEAD `18e8a2d7`; README SHA `0a82d97f`; size **241**);
+  Python MIT LICENSE SHA `b1a46fbc`; **3★**; HEAD `14d77789`; README SHA `0a82d97f`; size **1071**);
   ([whyashthakker/awesome-jev-use-cases](https://github.com/whyashthakker/awesome-jev-use-cases)
-  No benchmark winner claimed;
-  HTML MIT LICENSE SHA `13b5a2a6`; **3★**; HEAD `96dfcb30`; README SHA `6b4fcff4`; size **426**);
+  No benchmark winner is claimed;
+  HTML MIT LICENSE SHA `13b5a2a6`; **3★**; HEAD `74583663`; README SHA `a6d96b87`; size **426**);
   ([dog-last/awesome-jev](https://github.com/dog-last/awesome-jev)
   phishing: naive 62.6% vs regex 91.8%; 5-atomic + LR 95.0% *theirs*;
   Python MIT LICENSE SHA `cd31b9aa`; **1★**; HEAD `206fdcab`; README SHA `1ca65f69`; size **85**);
   ([shinshin86/jev-aituber-tension-sample](https://github.com/shinshin86/jev-aituber-tension-sample)
   AITuber tension ±15;
-  TS MIT LICENSE SHA `8b20d89e`; **0★**; HEAD `8c0a8ffb`; README SHA `06536d19`; size **94**);
+  TS MIT LICENSE SHA `8b20d89e`; **0★**; HEAD `8c0a8ffb`; README SHA `06536d19`; size **105**);
   ([shinpr/jev-reranker](https://github.com/shinpr/jev-reranker)
   README npm global; repo is Rust;
   Rust MIT LICENSE SHA `4306a712`; **1★**; HEAD `731deba3`; README SHA `e2818c0e`; size **163**);
@@ -144,7 +144,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   ([waterme7on/jev-paper-trader](https://github.com/waterme7on/jev-paper-trader)
   90d trend +12.40% vs random +12.75% vs BH +41.71%;
   5m win rate 25%;
-  JS; license null; **0★**; HEAD `ed98ca8e`; README SHA `4eded35a`; size **91**).
+  JS; license null; **0★**; HEAD `73662f79`; README SHA `4eded35a`; size **145**).
   Awesomejev 656 entries / 38,160 stars;
   WANLI-256 64.5% / 60.2% / 52.0% *theirs*;
   rank #4 / #5 / #6 of 6;
