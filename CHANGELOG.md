@@ -108,9 +108,9 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   after `3255a57`): HIGH HEAD/README unchanged;
   star/size lag locked (awesome **135★**; SemIf
   **2040★**; jevlike **1011★**; AnotiaWang **88★**;
-  OpenJevPro size **64**; simple-jev **313★**;
+  OpenJevPro size **64**; simple-jev **314★**;
   openjev-sglang **204★**; RLCD size **1513**;
-  Colvin size **814**; yibie **421★**).
+  Colvin size **814**; yibie **423★**).
   `invented_signal: false`. Do not
   copy keys / `npm` / `pip` / `npx` / `uv` /
   `.env`. No wrapper. No invented metrics.

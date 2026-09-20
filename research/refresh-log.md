@@ -2072,10 +2072,10 @@
   **135★** (was **134★**; HEAD `97057cc1` / README SHA `25a19b31`
   unchanged — auto GitHub sync). SemIf **2040★** (was **2031★**;
   +21 vs §103 **2019**). jevlike **1011★** (was **1010★**). TypeAR **12★**
-  **flat**. AnotiaWang **88★** (was **87★**). yibie **421★** (was
+  **flat**. AnotiaWang **88★** (was **87★**). yibie **423★** (was
   **417★**). cobanov **221★** **flat**. OpenJevPro size **64** (was
   **62**; HEAD `94d77bcb` / README SHA `50c77ace` unchanged).
-  simple-jev **313★** (was **311★**). openjev-sglang **204★** (was
+  simple-jev **314★** (was **311★**). openjev-sglang **204★** (was
   **202★**). Tracker likes **56** / lastModified
   `2026-09-20T04:29:16.000Z` unchanged. Archer Hub still HTTP **401**.
   Qwen likes **15787** unchanged. Qwen3.8-27B ≠ Archer.

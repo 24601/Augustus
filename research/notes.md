@@ -22221,7 +22221,7 @@ shuffled-context control 0.335.
      flags what stays generative; scaffolds a
      client against
      [`featherless-ai/simple-jev`](https://github.com/featherless-ai/simple-jev)
-     (**313★** live REST; not TypeSafe). Do
+     (**314★** live REST; not TypeSafe). Do
      **not** copy `git clone` / `cp -r` /
      Featherless demo endpoint. Do not dump
      `skills/`.
@@ -22460,7 +22460,7 @@ shuffled-context control 0.335.
       **logicrw/awesome-jev-projects**.
       logicrw/awesome-jev-projects ≠
       AnotiaWang/awesome-jev (**87★**) ≠
-      yibie/awesome-jev (**421★**) ≠
+      yibie/awesome-jev (**423★**) ≠
       cobanov/awesome-jev (**221★**) ≠
       fatwang2/awesome-jev ≠
       Anil-matcha/awesome-jev-by-typesafe ≠
@@ -22582,7 +22582,7 @@ AnotiaWang/awesome-jev **88★** (+1 vs §103 **87**) still
 a **different object** from user-provided
 Awesomejev 561/27007 (§99 pin) and from
 logicrw/awesome-jev-projects **135★** (this
-hour). yibie/awesome-jev **421★** is another
+hour). yibie/awesome-jev **423★** is another
 namesake, not re-carded. Archer still **NOT
 landed**. Hub `archerhume/4rcherhume` HTTP
 **401** (not a rewrite). Tracker
@@ -22604,11 +22604,11 @@ unchanged — auto GitHub sync). SemIf **2040★** /
 jevlike **1011★**. AnotiaWang **88★** (was **87★**).
 OpenJevPro GitHub size **64** (was **62**; HEAD
 `94d77bcb` / README SHA `50c77ace` unchanged).
-simple-jev **313★** (was **311★**). openjev-sglang
+simple-jev **314★** (was **311★**). openjev-sglang
 **204★** (was **202★**). RLCD GitHub size **1513**
 (HEAD `62b103b3` unchanged). Colvin0315/MiniSystemOne
 size **814** (HEAD `ac5a0eea` / README SHA
-`f8c47847` unchanged). yibie **421★** (was **417★**);
+`f8c47847` unchanged). yibie **423★** (was **417★**);
 cobanov **221★**. Do not paste Colvin as hyusi.
 
 ### Not
