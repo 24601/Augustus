@@ -2507,6 +2507,94 @@ Soft Noul ≠ hard safety.
      Qwen3.5-9B ≠ Archer. Hub archerhume/4rcherhume HTTP 401.
      Full cards: `faq.md`.
 
+
+417. **openjev STE backends + Codiv densify PRIMARY** (razorback16/openjev):
+     densify §75. HEAD cddbd962c88a README SHA a5943415cb92. 195★.
+     vLLM NVIDIA + MLX Apple Silicon. Codiv hosted free endpoint.
+     STE README rewrite. serving-port densify.
+     Hosted Codiv ≠ TypeSafe. SHA move is not a replica.
+     Full cards: `judgment-class.md`, `validation.md`.
+418. **dual serving is not generate** (razorback16/openjev):
+     dual /v1/systemone + /v1/chat/completions. chat 501 on MLX.
+     dual serving is not generate. wire-compat ≠ logit-equiv.
+     Error contract is not a Noul. Full cards: `faq.md`, `mixed-architecture.md`.
+419. **Hosted Codiv ≠ TypeSafe** (openjev serving port):
+     Codiv hosted free endpoint. Independent. Not affiliated.
+     Hosted Codiv ≠ TypeSafe. serving substrate ≠ calibrated replica.
+     Full cards: `faq.md`, `judgment-class.md`.
+420. **jev-visual candidate scoring PRIMARY** (hr98w/jev-visual):
+     167★ HEAD 19af545f096e README SHA 9f1cf521fc2b.
+     Apple Silicon visual candidate scoring.
+     candidate probabilities are relative not correctness.
+     37.30s → 2.40s at 64 decisions *theirs*.
+     hr98w/jev-visual ≠ sseanliu/Jev-Vision.
+     Full cards: `judgment-class.md`, `validation.md`.
+421. **Breakout 9 bricks *theirs*** (hr98w/jev-visual):
+     Breakout 9 bricks 6 returns 2 lives *theirs*.
+     80 decisions. simplified demo, not general game-playing.
+     Full cards: `validation.md`.
+422. **jev-mcp ten tools PRIMARY** (jkudish/jev-mcp):
+     156★ HEAD 0b5a3f6d6f57 README SHA 1d7394500edd.
+     ten MCP tools. recommendation is advisory.
+     the server never blocks on its own.
+     jkudish/jev-mcp ≠ burnigtm/jev-mcp.
+     Full cards: `mixed-architecture.md`, `faq.md`.
+423. **TypeSafe CLERC 5% to 18% *theirs*** (jkudish/jev-mcp rerank cookbook):
+     TypeSafe CLERC 5% to 18% *theirs*. not Harbor.
+     Full cards: `validation.md`.
+424. **litjev off-the-shelf Qwen** (zhengxuyu/litjev):
+     28★ HEAD f21216c9fe5a. off-the-shelf Qwen decision layer.
+     Probabilities are not calibrated by default.
+     Qwen/Qwen3.8-27B ≠ Archer.
+     zhengxuyu/litjev ≠ alexwestco/llm-to-jev.
+     Full cards: `judgment-class.md`, `faq.md`.
+425. **Open-Jev LoRA + scalar head** (Zefan-Cai/Open-Jev):
+     HEAD 6d8de5ed72a0. LoRA adapters plus a trained scalar decision head.
+     2B 94.71% 9B 97.54% hard test *theirs*.
+     LoRA ≠ RLCD replica.
+     Zefan-Cai/Open-Jev ≠ TheoLeeCJ/openjev ≠ razorback16/openjev.
+     Full cards: `judgment-class.md`, `validation.md`.
+426. **Open-Jev OOD + 27B in progress** (ZefanCai/Open-Jev-2B / 9B):
+     2B OOD 86.02% 9B OOD 91.97% *theirs*. 80,816 training rows.
+     27B still in progress. Hub 2B 0c7aa498b162 / 9B 47e966881e48.
+     Full cards: `validation.md`.
+427. **jeq pipe judgments** (cristianoliveira/jeq):
+     3★ HEAD 44ea80c90903. intelligence you can pipe.
+     pass-min 0.8 still soft. JEQ does not own actions.
+     Full cards: `faq.md`, `mixed-architecture.md`.
+428. **laya-coreai serving substrate** (hf:AndyInQtr/laya-coreai):
+     AndyInQtr/laya-coreai CoreML serving substrate ≠ calibrated replica.
+     AndyInQtr/laya-coreai ≠ mizorewww/laya-coreml.
+     Full cards: `faq.md`, `judgment-class.md`.
+429. **already-catalogued remainder** (pngwn/open-jev / jev-bench 401 / jevify / bonzi):
+     densify is not a second census. SHA move is not a replica.
+     Hub Praveenrajus/jev-bench HTTP 401. Full cards: `applied-mappings.md`.
+430. **gate/router cousins measurement notes** (jev-gate / JevRoute / kev-model-router):
+     rh-guard owns primary gates. catalog ≠ endorsement.
+     Full cards: `faq.md`.
+431. **skip-thin** (empty README, marketing sites, 0★ name-match):
+     SHA move is not a replica. skip-thin. Full cards: `faq.md`.
+432. **skip Archer** (promised_not_landed):
+     Qwen/Qwen3.8-27B ≠ Archer. Hub archerhume/4rcherhume HTTP 401.
+     Archer still promised_not_landed. Full cards: `faq.md`.
+
+Hourly 1441 items 417–432 (`notes.md` §125). Do **not**
+re-fold §124 items 401–416 / §123 items 385–400 / §122 protocol / §121 items 369–384
+/ §120 items 353–368 / §119 items 337–352 / §118 items 322–329
+/ §117 items 330–336 / §116 items 309–316 / §115 items 303–308
+/ §114 items 289–302.
+Skip Archer rewrite.
+dual serving is not generate; Hosted Codiv ≠ TypeSafe;
+candidate probabilities are relative not correctness;
+recommendation is advisory; LoRA ≠ RLCD replica;
+pass-min 0.8 still soft; 37.30s → 2.40s at 64 decisions *theirs*;
+2B 94.71% 9B 97.54% hard test *theirs*;
+wire-compat ≠ logit-equiv;
+SHA move is not a replica; catalog ≠ endorsement.
+do not reopen or amend PR #23–#47.
+Soft Noul ≠ hard safety.
+
+
 Hourly 1340 items 401–416 (`notes.md` §124). Do **not**
 re-fold §123 items 385–400 / §122 protocol / §121 items 369–384
 / §120 items 353–368 / §119 items 337–352 / §118 items 322–329
@@ -2653,3 +2741,6 @@ Hourly 1248 uniqueness lock: decide is not generate; tryDecide returns typed cal
 
 **Hourly 1340 HIGH (`notes.md` §124).** typesafe-sdk 0.7 Pydantic response models. msgspec dropped. MLX backend 400 plain-text error contract. Pydantic response models ≠ logit-equiv. msgspec dropped is not a replica. Error contract is not a Noul. PLAN_Qwen35 densify. coverage-at-error-budget *theirs* not Harbor. GLiNER locate ports are class members not Jev replicas. Locate ≠ decide. ~160 ms *theirs* not Harbor. SHA move is not a replica. catalog ≠ endorsement. Do not reopen or amend PR #23–#46. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
 Hourly 1340 uniqueness lock: typesafe-sdk 0.7 Pydantic response models; msgspec dropped; The server's output is unchanged and was never wrong; MLX backend 400 plain-text error contract; SchemaError is 400 plain-string detail not 422 list; razorback16/openjev densify HEAD 6e91dfc031bc README SHA cbdcc8de0304; Pydantic response models ≠ logit-equiv; msgspec dropped is not a replica; Error contract is not a Noul; wire-compat ≠ logit-equiv; PLAN_Qwen35 densify; corrected Qwen3.5 LoRA target names verified; in_proj_qkv in_proj_z in_proj_a in_proj_b out_proj; peft 0.21 existence proof; OOD-calibration study; coverage-at-error-budget metric in Phase 0; PLAN_Qwen35 still proposal for review; deadline 0.53→0.82 at 9B *theirs*; isolation would fail by construction on DeltaNet; Qwen3.5-9B ≠ Archer; jaredpalmer/kev densify HEAD 75cc15ddb8e2 PLAN SHA eca543246f50; GLiNER locate ports are class members not Jev replicas; urchade/GLiNER ≠ fbilhaut/gline-rs ≠ lmoe/gliner-onnx.js ≠ shershah1024/gliner-native-runtime; Locate ≠ decide; Jev-Vision skip 0.936 effect 0.967 done 0.896 157 ms *theirs*; ~160 ms *theirs* not Harbor; 0.971 F1 *theirs* not Harbor; coverage-at-error-budget *theirs* not Harbor; hf:fr0stbit3/laya-gguf serving substrate ≠ calibrated replica; jkcdarunday/SystemOne-Next ≠ TypeSafe System One; catalog ≠ endorsement; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46; notes.md §124
+
+**Hourly 1441 HIGH (`notes.md` §125).** vLLM NVIDIA + MLX Apple Silicon. Codiv hosted free endpoint. dual /v1/systemone + /v1/chat/completions. chat 501 on MLX. dual serving is not generate. Hosted Codiv ≠ TypeSafe. candidate probabilities are relative not correctness. recommendation is advisory. the server never blocks on its own. LoRA ≠ RLCD replica. pass-min 0.8 still soft. 37.30s → 2.40s at 64 decisions *theirs*. 2B 94.71% 9B 97.54% hard test *theirs*. wire-compat ≠ logit-equiv. SHA move is not a replica. catalog ≠ endorsement. Do not reopen or amend PR #23–#47. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+Hourly 1441 uniqueness lock: vLLM NVIDIA + MLX Apple Silicon; Codiv hosted free endpoint; dual /v1/systemone + /v1/chat/completions; razorback16/openjev densify HEAD cddbd962c88a README SHA a5943415cb92; STE README rewrite; serving-port densify; chat 501 on MLX; dual serving is not generate; Hosted Codiv ≠ TypeSafe; wire-compat ≠ logit-equiv; SHA move is not a replica; Error contract is not a Noul; hr98w/jev-visual 167★ Apple Silicon visual candidate scoring; 37.30s → 2.40s at 64 decisions *theirs*; Breakout 9 bricks 6 returns 2 lives *theirs*; candidate probabilities are relative not correctness; jkudish/jev-mcp 156★ ten MCP tools; recommendation is advisory; the server never blocks on its own; TypeSafe CLERC 5% to 18% *theirs*; jkudish/jev-mcp ≠ burnigtm/jev-mcp; zhengxuyu/litjev off-the-shelf Qwen decision layer; Probabilities are not calibrated by default; Qwen/Qwen3.8-27B ≠ Archer; zhengxuyu/litjev ≠ alexwestco/llm-to-jev; Zefan-Cai/Open-Jev LoRA + scalar head; 2B 94.71% 9B 97.54% hard test *theirs*; 2B OOD 86.02% 9B OOD 91.97% *theirs*; 80,816 training rows; 27B still in progress; LoRA ≠ RLCD replica; Zefan-Cai/Open-Jev ≠ TheoLeeCJ/openjev ≠ razorback16/openjev; cristianoliveira/jeq intelligence you can pipe; pass-min 0.8 still soft; JEQ does not own actions; AndyInQtr/laya-coreai CoreML serving substrate ≠ calibrated replica; AndyInQtr/laya-coreai ≠ mizorewww/laya-coreml; catalog ≠ endorsement; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47; notes.md §125

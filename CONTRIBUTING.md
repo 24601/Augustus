@@ -45,7 +45,7 @@ re-opened as "new." Before folding:
   `.agents/skills/augustus/SKILL.md`
 - Do not re-fold an already-landed section as a new beat
 - Do not reopen or amend a merged fold PR (#23–#45)
-- uniqueness_gate.py checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 + 1049 + 1143 + 1248 consecutive locks, plus the revisit / since-last-look protocol substring in the skill and research files.
+- uniqueness_gate.py checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 + 1049 + 1143 + 1248 + 1340 + 1441 consecutive locks, plus the revisit / since-last-look protocol substring in the skill and research files.
 - Hourly uniqueness dump: `research/changelog-hourly.md` (archive,
   not release notes)
 - Treat **revisit HIGH like novel HIGH**. Catalogued repos are not

@@ -16,6 +16,43 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 1441 HIGH (`research/notes.md` §125 / composition items
+417–432 / findings batch #107). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#47. Do not amend released 0.5.0
+(#42). Merged #47 owns §124. Merged #46 owns §123.
+
+### Added
+
+- **Hourly 1441 HIGH (`notes.md` §125).** vLLM NVIDIA + MLX Apple
+  Silicon / Codiv hosted free endpoint / dual serving densify /
+  jev-visual *theirs* / jev-mcp advisory / litjev uncalibrated /
+  Open-Jev LoRA / jeq pipe / laya-coreai serving substrate.
+  dual serving is not generate. Hosted Codiv ≠ TypeSafe.
+  candidate probabilities are relative not correctness.
+  recommendation is advisory. LoRA ≠ RLCD replica.
+  pass-min 0.8 still soft. 37.30s → 2.40s at 64 decisions *theirs*.
+  2B 94.71% 9B 97.54% hard test *theirs*. wire-compat is not
+  logit-equiv. SHA move is not a replica.
+  Evaluator: dual serving is not generate / Hosted Codiv ≠ TypeSafe /
+  candidate probabilities relative / MCP advisory / LoRA ≠ RLCD /
+  pass-min 0.8 still soft. uniqueness_gate.py now
+  checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 + 1049 + 1143 +
+  1248 + 1340 + 1441. Composition items 417–432 / batch #107.
+  **HARD RULE:** do not reopen or amend PR #23–#47. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat a hosted
+  Codiv URL as TypeSafe, `/v1/chat/completions` as decide, 37.30s →
+  2.40s as Harbor, a LoRA adapter as an RLCD replica, or pass-min 0.8
+  as a hard gate. With Augustus: dual serving is not generate; Hosted
+  Codiv ≠ TypeSafe; candidate probabilities are relative not
+  correctness; recommendation is advisory; LoRA ≠ RLCD replica;
+  pass-min 0.8 still soft. Same split for any Choice/Score/Noul-style
+  head, not only hosted Jev.
+
+
 Hourly 1340 HIGH (`research/notes.md` §124 / composition items
 401–416 / findings batch #106). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in

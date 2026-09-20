@@ -1,4 +1,24 @@
 
+## 2026-09-20 ~20:41 UTC / ~14:41 Boise - Hourly 1441 HIGH
+- Fresh PR off latest `main` after merged #47 (hourly 1340 / `notes.md` §124
+  / items 401–416 / batch #106) and merged #46 (hourly 1248 / `notes.md`
+  §123). Next free IDs: `notes.md` §125 / composition 417–432 / findings
+  batch #107.
+  **HARD RULE:** do not reopen or amend PR #23–#47.
+- PRIMARY: razorback16/openjev STE README rewrite. vLLM NVIDIA + MLX Apple Silicon.
+  Codiv hosted free endpoint. dual /v1/systemone + /v1/chat/completions.
+  dual serving is not generate. Hosted Codiv ≠ TypeSafe.
+  Novel HIGH: jev-visual / jev-mcp / litjev / Open-Jev / jeq / laya-coreai.
+  SHA move is not a replica.
+- Evidence: `research/archive/hourly/2026-09-20T20/` (novel HIGH + revisit HIGH).
+- uniqueness_gate 0843+0915+jcr+0922+0940+0947+1049+1143+1248+1340+1441.
+  Evaluator: dual serving is not generate / Hosted Codiv ≠ TypeSafe /
+  candidate probabilities relative / MCP advisory / LoRA ≠ RLCD /
+  pass-min 0.8 still soft.
+  Quote *theirs*. No wrappers. `invented_signal: false`.
+- Hourly 1441 uniqueness lock: vLLM NVIDIA + MLX Apple Silicon; Codiv hosted free endpoint; dual /v1/systemone + /v1/chat/completions; razorback16/openjev densify HEAD cddbd962c88a README SHA a5943415cb92; STE README rewrite; serving-port densify; chat 501 on MLX; dual serving is not generate; Hosted Codiv ≠ TypeSafe; wire-compat ≠ logit-equiv; SHA move is not a replica; Error contract is not a Noul; hr98w/jev-visual 167★ Apple Silicon visual candidate scoring; 37.30s → 2.40s at 64 decisions *theirs*; Breakout 9 bricks 6 returns 2 lives *theirs*; candidate probabilities are relative not correctness; jkudish/jev-mcp 156★ ten MCP tools; recommendation is advisory; the server never blocks on its own; TypeSafe CLERC 5% to 18% *theirs*; jkudish/jev-mcp ≠ burnigtm/jev-mcp; zhengxuyu/litjev off-the-shelf Qwen decision layer; Probabilities are not calibrated by default; Qwen/Qwen3.8-27B ≠ Archer; zhengxuyu/litjev ≠ alexwestco/llm-to-jev; Zefan-Cai/Open-Jev LoRA + scalar head; 2B 94.71% 9B 97.54% hard test *theirs*; 2B OOD 86.02% 9B OOD 91.97% *theirs*; 80,816 training rows; 27B still in progress; LoRA ≠ RLCD replica; Zefan-Cai/Open-Jev ≠ TheoLeeCJ/openjev ≠ razorback16/openjev; cristianoliveira/jeq intelligence you can pipe; pass-min 0.8 still soft; JEQ does not own actions; AndyInQtr/laya-coreai CoreML serving substrate ≠ calibrated replica; AndyInQtr/laya-coreai ≠ mizorewww/laya-coreml; catalog ≠ endorsement; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47; notes.md §125
+
+
 ## 2026-09-20 ~19:40 UTC / ~13:40 Boise - Hourly 1340 HIGH
 - Fresh PR off latest `main` after merged #46 (hourly 1248 / `notes.md` §123
   / items 385–400 / batch #105) and merged #45 (revisit protocol / `notes.md`

@@ -15,6 +15,19 @@ This is the uniqueness-lock archive after hourly folds (#2–#40 / notes
 
 ---
 
+## Hourly 1441 HIGH (notes.md §125 / items 417–432 / batch #107)
+
+- Fresh PR off latest `main` after merged #47 (hourly 1340 / §124) and
+  merged #46 (hourly 1248 / §123). **HARD RULE:** do not reopen or amend
+  PR #23–#47. Does not bump 0.5.0. Skip Archer. Quote *theirs*. No wrappers.
+  `invented_signal: false`.
+- vLLM NVIDIA + MLX Apple Silicon. Codiv hosted free endpoint.
+  dual serving is not generate. Hosted Codiv ≠ TypeSafe.
+  candidate probabilities are relative not correctness.
+  LoRA ≠ RLCD replica. pass-min 0.8 still soft.
+  SHA move is not a replica.
+- Hourly 1441 uniqueness lock: vLLM NVIDIA + MLX Apple Silicon; Codiv hosted free endpoint; dual /v1/systemone + /v1/chat/completions; razorback16/openjev densify HEAD cddbd962c88a README SHA a5943415cb92; STE README rewrite; serving-port densify; chat 501 on MLX; dual serving is not generate; Hosted Codiv ≠ TypeSafe; wire-compat ≠ logit-equiv; SHA move is not a replica; Error contract is not a Noul; hr98w/jev-visual 167★ Apple Silicon visual candidate scoring; 37.30s → 2.40s at 64 decisions *theirs*; Breakout 9 bricks 6 returns 2 lives *theirs*; candidate probabilities are relative not correctness; jkudish/jev-mcp 156★ ten MCP tools; recommendation is advisory; the server never blocks on its own; TypeSafe CLERC 5% to 18% *theirs*; jkudish/jev-mcp ≠ burnigtm/jev-mcp; zhengxuyu/litjev off-the-shelf Qwen decision layer; Probabilities are not calibrated by default; Qwen/Qwen3.8-27B ≠ Archer; zhengxuyu/litjev ≠ alexwestco/llm-to-jev; Zefan-Cai/Open-Jev LoRA + scalar head; 2B 94.71% 9B 97.54% hard test *theirs*; 2B OOD 86.02% 9B OOD 91.97% *theirs*; 80,816 training rows; 27B still in progress; LoRA ≠ RLCD replica; Zefan-Cai/Open-Jev ≠ TheoLeeCJ/openjev ≠ razorback16/openjev; cristianoliveira/jeq intelligence you can pipe; pass-min 0.8 still soft; JEQ does not own actions; AndyInQtr/laya-coreai CoreML serving substrate ≠ calibrated replica; AndyInQtr/laya-coreai ≠ mizorewww/laya-coreml; catalog ≠ endorsement; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47; notes.md §125
+
 ## Hourly 1340 HIGH (notes.md §124 / items 401–416 / batch #106)
 
 - Fresh PR off latest `main` after merged #46 (hourly 1248 / §123) and

@@ -1,6 +1,44 @@
 # Deep-read findings (evidence for research/notes.md)
 
 
+## Batch #107 (2026-09-20 ~14:41 Boise / ~20:41 UTC) - hourly 1441 HIGH
+
+Hourly 1441 uniqueness lock: vLLM NVIDIA + MLX Apple Silicon; Codiv hosted free endpoint; dual /v1/systemone + /v1/chat/completions; razorback16/openjev densify HEAD cddbd962c88a README SHA a5943415cb92; STE README rewrite; serving-port densify; chat 501 on MLX; dual serving is not generate; Hosted Codiv ≠ TypeSafe; wire-compat ≠ logit-equiv; SHA move is not a replica; Error contract is not a Noul; hr98w/jev-visual 167★ Apple Silicon visual candidate scoring; 37.30s → 2.40s at 64 decisions *theirs*; Breakout 9 bricks 6 returns 2 lives *theirs*; candidate probabilities are relative not correctness; jkudish/jev-mcp 156★ ten MCP tools; recommendation is advisory; the server never blocks on its own; TypeSafe CLERC 5% to 18% *theirs*; jkudish/jev-mcp ≠ burnigtm/jev-mcp; zhengxuyu/litjev off-the-shelf Qwen decision layer; Probabilities are not calibrated by default; Qwen/Qwen3.8-27B ≠ Archer; zhengxuyu/litjev ≠ alexwestco/llm-to-jev; Zefan-Cai/Open-Jev LoRA + scalar head; 2B 94.71% 9B 97.54% hard test *theirs*; 2B OOD 86.02% 9B OOD 91.97% *theirs*; 80,816 training rows; 27B still in progress; LoRA ≠ RLCD replica; Zefan-Cai/Open-Jev ≠ TheoLeeCJ/openjev ≠ razorback16/openjev; cristianoliveira/jeq intelligence you can pipe; pass-min 0.8 still soft; JEQ does not own actions; AndyInQtr/laya-coreai CoreML serving substrate ≠ calibrated replica; AndyInQtr/laya-coreai ≠ mizorewww/laya-coreml; catalog ≠ endorsement; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47; notes.md §125
+
+Note: `research/notes.md` §125. Docs + evaluator, fresh PR off latest
+`main` (`fea7c0b` / merged #47 hourly 1340). Merged #47 owns §124.
+Merged #46 owns §123. Merged #45 owns §122. This fold
+stays §125 / items 417–432 / batch #107.
+**HARD RULE:** do not reopen or amend PR #23–#47.
+Quote READMEs. Soft Noul ≠ hard safety. Augustus owns
+placement. `invented_signal: false`.
+
+- **openjev densify PRIMARY.** STE README rewrite. vLLM NVIDIA + MLX Apple Silicon.
+  Codiv hosted free endpoint. dual /v1/systemone + /v1/chat/completions.
+  chat 501 on MLX. dual serving is not generate. Hosted Codiv ≠ TypeSafe.
+  HEAD cddbd962c88a. serving-port densify. SHA move is not a replica.
+- **jev-visual.** 167★. candidate probabilities are relative not correctness.
+  37.30s → 2.40s at 64 decisions *theirs*. Breakout 9 bricks 6 returns 2 lives *theirs*.
+  hr98w/jev-visual ≠ sseanliu/Jev-Vision.
+- **jev-mcp.** 156★ ten MCP tools. recommendation is advisory.
+  the server never blocks on its own. TypeSafe CLERC 5% to 18% *theirs*.
+  jkudish/jev-mcp ≠ burnigtm/jev-mcp.
+- **litjev / Open-Jev / jeq / laya-coreai.** Probabilities are not calibrated by default.
+  Qwen/Qwen3.8-27B ≠ Archer. LoRA ≠ RLCD replica.
+  2B 94.71% 9B 97.54% hard test *theirs*. 2B OOD 86.02% 9B OOD 91.97% *theirs*.
+  80,816 training rows. 27B still in progress. pass-min 0.8 still soft.
+  JEQ does not own actions. AndyInQtr/laya-coreai CoreML serving substrate ≠ calibrated replica.
+- **Namesakes / skip.** Zefan-Cai/Open-Jev ≠ TheoLeeCJ/openjev ≠ razorback16/openjev.
+  zhengxuyu/litjev ≠ alexwestco/llm-to-jev.
+  AndyInQtr/laya-coreai ≠ mizorewww/laya-coreml.
+  catalog ≠ endorsement. Archer still promised_not_landed.
+
+Pulse: Archer still NOT landed. Hub archerhume/4rcherhume HTTP **401**.
+openjev **195★**; jev-visual **167★**; jev-mcp **156★**; litjev **28★**.
+`invented_signal: false`.
+
+
+
 ## Batch #106 (2026-09-20 ~13:40 Boise / ~19:40 UTC) - hourly 1340 HIGH
 
 Hourly 1340 uniqueness lock: typesafe-sdk 0.7 Pydantic response models; msgspec dropped; The server's output is unchanged and was never wrong; MLX backend 400 plain-text error contract; SchemaError is 400 plain-string detail not 422 list; razorback16/openjev densify HEAD 6e91dfc031bc README SHA cbdcc8de0304; Pydantic response models ≠ logit-equiv; msgspec dropped is not a replica; Error contract is not a Noul; wire-compat ≠ logit-equiv; PLAN_Qwen35 densify; corrected Qwen3.5 LoRA target names verified; in_proj_qkv in_proj_z in_proj_a in_proj_b out_proj; peft 0.21 existence proof; OOD-calibration study; coverage-at-error-budget metric in Phase 0; PLAN_Qwen35 still proposal for review; deadline 0.53→0.82 at 9B *theirs*; isolation would fail by construction on DeltaNet; Qwen3.5-9B ≠ Archer; jaredpalmer/kev densify HEAD 75cc15ddb8e2 PLAN SHA eca543246f50; GLiNER locate ports are class members not Jev replicas; urchade/GLiNER ≠ fbilhaut/gline-rs ≠ lmoe/gliner-onnx.js ≠ shershah1024/gliner-native-runtime; Locate ≠ decide; Jev-Vision skip 0.936 effect 0.967 done 0.896 157 ms *theirs*; ~160 ms *theirs* not Harbor; 0.971 F1 *theirs* not Harbor; coverage-at-error-budget *theirs* not Harbor; hf:fr0stbit3/laya-gguf serving substrate ≠ calibrated replica; jkcdarunday/SystemOne-Next ≠ TypeSafe System One; catalog ≠ endorsement; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46; notes.md §124
