@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-20T14:28Z",
+  "retrieved": "2026-09-20T14:43Z",
   "sources": [
     {
       "kind": "docs",
@@ -4671,7 +4671,113 @@
       "note": "Python Apache-2.0 LICENSE SHA 261eeb9e; 0★; HEAD db200b7e; README SHA 6f2a595a; size 227. contract_passed is not a claim of guaranteed factual truth. Wilson lower bound 0.85 floor. fixture mode no savings claim. notes.md §111."
     },
     {
-      "kind": "x",
+      "kind": "notes",
+      "title": "Hourly 0743 HIGH uniqueness lock",
+      "url": "https://github.com/24601/Augustus/blob/main/research/notes.md",
+      "note": "Hourly 0743 uniqueness lock: Heman10x-NGU/Verdict-open-jev ≠ Heman10x-NGU/openJev-verdict-2.0; TF-IDF + LogReg ECE 0.0207 vs Jev 0.1440; Verdict-open-jev 48.07% vs Jev 90.80%; abstention combined recall 10.00%; p50 35.58 ms; K=25 (maximum capacity) 72.00%; 0.85 coverage 84.60% selective risk 1.18%; 26.1× faster than standard Qwen JSON generation; Jevify 90.0% / 167 ms CUDA graphs disabled; Finding 1: Brier on stated confidence alone is a trap; grpo_rlcr 0.78 / ECE 0.084; reliability 0.007 but resolution 0.000; 27 900 schema-driven decisions; 13 600 / 13 600 questions; candidate mass min 0.99999624; 22 configs · 166,054 rows · 4 calibration-gold; sha a39eba3f; Student B MAE 0.148 / Pearson 0.836 / 86.0%; pngwn/open-jev-laya-bench README 404; sha 9f69c742 likes 2; HDFS 0.9933 (745/750) / retain 0.0084; BGL ERROR/FATAL protection 1.0000; 2,479 / 2,500 HDFS uncertain; cache hit 0.9648 (2412/2500); $0.153936 estimated; E2 recomputes from saved probabilities; Space sha eda59e0a; MASSIVE English 0.783 / Khmer 0.033 / Hindi 0.133; 40–48 rows too small to ship T; T never changes argmax; siren2345/jev-single-decode-transformers ≠ siren2345/jev-single-decode; Split Transformers experiment from llama.cpp runtime; tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab; Four experiments stress-testing TypeSafe's Jev: calibration, bundle bias, label bias, and ensembling; second pass must be $0.00 from cache; The pages never call Jev; Gemma 4 31B 77.0% / Jev 1.13.0 61.4% / Laya 322M 0.0%; restriction state 95.0% against 84.4%; None of the systems are particularly good at knowing when to stop and ask; They skip the question and call a tool directly; 100% schema pass; six-field joint 48.8% vs 72.8%; ywchiu/jev_benchmark ≠ Running-Dolphins/jev-bench ≠ Praveenrajus/jev-bench; ACT / REVIEW / FALLBACK; A provider failure, timeout, malformed output, or missing answer is **not** a policy outcome; confidence is descriptive provider output, not a substitute for probability; Quality denominators include only valid scored answers; an exact halfway tie chooses the lower level; aiwithenoch/Jev-Skill ≠ simplosophy/jev-skill ≠ laguagu/jev-skills; The local path does not claim to turn a smaller checkpoint into Jev; Low support becomes decision: \"review\"; MIT-0 SPDX NOASSERTION; current-llm; 结构兼容，不是 Jev 模型能力; altryne/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify; Find where Jev belongs. Design the questions. Measure the difference; TypeAR-AI/TypeAR 301 → TypeLLM/TypeLLM; TypeLLM/TypeLLM 16★; SemIf 2241★ (+34 vs §111 2207); jevlike 1051★ (+8 vs 1043); AnotiaWang 98★ (+1 vs 97); yibie/awesome-jev 525★ (+19 vs 506); Laya likes 864 (was 822); tracker likes 67 (+3 vs 64); lastModified UNCHANGED `2026-09-20T04:29:16.000Z`; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32"
+    },
+    {
+      "kind": "github",
+      "title": "ywchiu/jev_benchmark",
+      "url": "https://github.com/ywchiu/jev_benchmark",
+      "note": "GitHub license null; 0★; HEAD 4322c350; README SHA 75e6a338; size 0 WITH CONTENTS. ywchiu/jev_benchmark ≠ Running-Dolphins/jev-bench ≠ Praveenrajus/jev-bench. Gemma 4 31B 77.0% / Jev 1.13.0 61.4% / Laya 322M 0.0%. notes.md §113."
+    },
+    {
+      "kind": "github",
+      "title": "siren2345/jev-single-decode-transformers",
+      "url": "https://github.com/siren2345/jev-single-decode-transformers",
+      "note": "Python MIT LICENSE SHA 3551844d; 0★; HEAD 2aa5fea7; README SHA 65ba3335; size 0 WITH CONTENTS. siren2345/jev-single-decode-transformers ≠ siren2345/jev-single-decode. Split Transformers experiment from llama.cpp runtime. notes.md §113."
+    },
+    {
+      "kind": "github",
+      "title": "tanayvasishtha/jev-lab",
+      "url": "https://github.com/tanayvasishtha/jev-lab",
+      "note": "0★; HEAD 96c90cdd; README SHA 33bc46e3; size 43. The pages never call Jev. notes.md §113."
+    },
+    {
+      "kind": "github",
+      "title": "Heman10x-NGU/Verdict-open-jev",
+      "url": "https://github.com/Heman10x-NGU/Verdict-open-jev",
+      "note": "Python SPDX NOASSERTION LICENSE SHA 84d35485; 33★; HEAD 30f15564; README SHA c6f317ae; size 6709. TF-IDF + LogReg ECE 0.0207 vs Jev 0.1440. Verdict-open-jev 48.07% vs Jev 90.80%. notes.md §113."
+    },
+    {
+      "kind": "github",
+      "title": "Mintzs/jevify",
+      "url": "https://github.com/Mintzs/jevify",
+      "note": "3★; HEAD 20c112e3; README SHA 77126815; size 3086. 26.1× faster than standard Qwen JSON generation. Jevify 90.0% / 167 ms CUDA graphs disabled. notes.md §113."
+    },
+    {
+      "kind": "github",
+      "title": "arnabgho/rlcd-lite",
+      "url": "https://github.com/arnabgho/rlcd-lite",
+      "note": "Python Apache-2.0 LICENSE SHA d6456956; 1★; HEAD b0f981fa; README SHA 560f24e5; size 602. Finding 1: Brier on stated confidence alone is a trap. grpo_rlcr 0.78 / ECE 0.084. notes.md §113."
+    },
+    {
+      "kind": "github",
+      "title": "altryne/jevify",
+      "url": "https://github.com/altryne/jevify",
+      "note": "TS MIT LICENSE SHA d66fef3a; 13★; HEAD 9b50ba13; README SHA 9a4ec045; size 48. altryne/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify. Find where Jev belongs. Design the questions. Measure the difference. notes.md §113."
+    },
+    {
+      "kind": "github",
+      "title": "erayyilmmaz/jev-decisionops",
+      "url": "https://github.com/erayyilmmaz/jev-decisionops",
+      "note": "0★; HEAD 652aa07d; README SHA 0e81c2aa; size 67. ACT / REVIEW / FALLBACK. A provider failure, timeout, malformed output, or missing answer is **not** a policy outcome. notes.md §113."
+    },
+    {
+      "kind": "github",
+      "title": "aiwithenoch/Jev-Skill",
+      "url": "https://github.com/aiwithenoch/Jev-Skill",
+      "note": "MIT-0 SPDX NOASSERTION LICENSE SHA f6bbe085; 0★; HEAD f0cf6d6e; README SHA 2aae6d3c; size 42. The local path does not claim to turn a smaller checkpoint into Jev. notes.md §113."
+    },
+    {
+      "kind": "github",
+      "title": "simplosophy/jev-skill",
+      "url": "https://github.com/simplosophy/jev-skill",
+      "note": "Python MIT LICENSE SHA 036a757d; 0★; HEAD 5cba50e7; README SHA 5fa4f079; size 0 WITH CONTENTS. current-llm. 结构兼容，不是 Jev 模型能力. notes.md §113."
+    },
+    {
+      "kind": "hfdataset",
+      "title": "Mikhail/mini-jev-runs",
+      "url": "https://huggingface.co/datasets/Mikhail/mini-jev-runs",
+      "note": "sha 8f84bb1a likes 0 downloads 69. 27 900 schema-driven decisions. 13 600 / 13 600 questions. candidate mass min 0.99999624. notes.md §113."
+    },
+    {
+      "kind": "hfdataset",
+      "title": "Praveenrajus/jev-bench",
+      "url": "https://huggingface.co/datasets/Praveenrajus/jev-bench",
+      "note": "sha a39eba3f. 22 configs · 166,054 rows · 4 calibration-gold. notes.md §113."
+    },
+    {
+      "kind": "hfdataset",
+      "title": "SargeDev/jev-distill-corpus",
+      "url": "https://huggingface.co/datasets/SargeDev/jev-distill-corpus",
+      "note": "sha ebb133f0. Student B MAE 0.148 / Pearson 0.836 / 86.0%. notes.md §113."
+    },
+    {
+      "kind": "hfdataset",
+      "title": "pngwn/open-jev-laya-bench",
+      "url": "https://huggingface.co/datasets/pngwn/open-jev-laya-bench",
+      "note": "sha 9f69c742 likes 2. pngwn/open-jev-laya-bench README 404. notes.md §113."
+    },
+    {
+      "kind": "hfdataset",
+      "title": "reachjalil/jevlogs-log-triage-benchmark",
+      "url": "https://huggingface.co/datasets/reachjalil/jevlogs-log-triage-benchmark",
+      "note": "sha 4c80b79c. HDFS 0.9933 (745/750) / retain 0.0084. E2 recomputes from saved probabilities. notes.md §113."
+    },
+    {
+      "kind": "hfspace",
+      "title": "BunsDev/laya-calibration-lab",
+      "url": "https://huggingface.co/spaces/BunsDev/laya-calibration-lab",
+      "note": "sha eda59e0a. MASSIVE English 0.783 / Khmer 0.033 / Hindi 0.133. 40–48 rows too small to ship T. T never changes argmax. notes.md §113."
+    },
+    {
+      "kind": "github",
+      "title": "TypeLLM/TypeLLM",
+      "url": "https://github.com/TypeLLM/TypeLLM",
+      "note": "TypeAR-AI/TypeAR 301 → TypeLLM/TypeLLM. TypeLLM/TypeLLM 16★. Apache-2.0. notes.md §113 pulse.",
+    "kind": "x",
       "title": "@mervenoyann parent — Jev vs GPT-5.6 category error / ZS skill issue",
       "url": "https://x.com/mervenoyann/status/2101463303734067592",
       "note": "Created 2026-09-20T00:07:49Z. note_tweet full text. Live X ~2026-09-20T14:28Z: likes 420 / impressions 35498 / RTs 23 / bookmarks 89 / replies 30 / quotes 3. Author @mervenoyann merve 92246 followers. Quotes Maziyar 2101158867455320127. notes.md §112. invented_signal false."
@@ -4710,7 +4816,6 @@
       "kind": "huggingface-docs",
       "title": "Transformers zero-shot image classification",
       "url": "https://huggingface.co/docs/transformers/en/tasks/zero_shot_image_classification",
-      "note": "Merve multimodal image<>text pointer. Perception front-end, not the decision. Do not copy pip. notes.md §112."
-    }
+      "note": "Merve multimodal image<>text pointer. Perception front-end, not the decision. Do not copy pip. notes.md §112."    }
   ]
 }

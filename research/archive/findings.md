@@ -3017,6 +3017,103 @@ Cross-repo addition: (lt) judgment-as-language primitive;
 memories; (lw) memory-lease HIGH upgrade; (lx) jevlint
 rename; (ly) schema-compiler HIGH upgrade; (lz) ANE /
 local-logit / Pi-loop economics.
+## Batch #96 (2026-09-20 ~13:43 UTC / ~07:43 Boise) — hourly 0743 HIGH
+
+Hourly 0743 uniqueness lock: Heman10x-NGU/Verdict-open-jev ≠ Heman10x-NGU/openJev-verdict-2.0; TF-IDF + LogReg ECE 0.0207 vs Jev 0.1440; Verdict-open-jev 48.07% vs Jev 90.80%; abstention combined recall 10.00%; p50 35.58 ms; K=25 (maximum capacity) 72.00%; 0.85 coverage 84.60% selective risk 1.18%; 26.1× faster than standard Qwen JSON generation; Jevify 90.0% / 167 ms CUDA graphs disabled; Finding 1: Brier on stated confidence alone is a trap; grpo_rlcr 0.78 / ECE 0.084; reliability 0.007 but resolution 0.000; 27 900 schema-driven decisions; 13 600 / 13 600 questions; candidate mass min 0.99999624; 22 configs · 166,054 rows · 4 calibration-gold; sha a39eba3f; Student B MAE 0.148 / Pearson 0.836 / 86.0%; pngwn/open-jev-laya-bench README 404; sha 9f69c742 likes 2; HDFS 0.9933 (745/750) / retain 0.0084; BGL ERROR/FATAL protection 1.0000; 2,479 / 2,500 HDFS uncertain; cache hit 0.9648 (2412/2500); $0.153936 estimated; E2 recomputes from saved probabilities; Space sha eda59e0a; MASSIVE English 0.783 / Khmer 0.033 / Hindi 0.133; 40–48 rows too small to ship T; T never changes argmax; siren2345/jev-single-decode-transformers ≠ siren2345/jev-single-decode; Split Transformers experiment from llama.cpp runtime; tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab; Four experiments stress-testing TypeSafe's Jev: calibration, bundle bias, label bias, and ensembling; second pass must be $0.00 from cache; The pages never call Jev; Gemma 4 31B 77.0% / Jev 1.13.0 61.4% / Laya 322M 0.0%; restriction state 95.0% against 84.4%; None of the systems are particularly good at knowing when to stop and ask; They skip the question and call a tool directly; 100% schema pass; six-field joint 48.8% vs 72.8%; ywchiu/jev_benchmark ≠ Running-Dolphins/jev-bench ≠ Praveenrajus/jev-bench; ACT / REVIEW / FALLBACK; A provider failure, timeout, malformed output, or missing answer is **not** a policy outcome; confidence is descriptive provider output, not a substitute for probability; Quality denominators include only valid scored answers; an exact halfway tie chooses the lower level; aiwithenoch/Jev-Skill ≠ simplosophy/jev-skill ≠ laguagu/jev-skills; The local path does not claim to turn a smaller checkpoint into Jev; Low support becomes decision: "review"; MIT-0 SPDX NOASSERTION; current-llm; 结构兼容，不是 Jev 模型能力; altryne/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify; Find where Jev belongs. Design the questions. Measure the difference; TypeAR-AI/TypeAR 301 → TypeLLM/TypeLLM; TypeLLM/TypeLLM 16★; SemIf 2241★ (+34 vs §111 2207); jevlike 1051★ (+8 vs 1043); AnotiaWang 98★ (+1 vs 97); yibie/awesome-jev 525★ (+19 vs 506); Laya likes 864 (was 822); tracker likes 67 (+3 vs 64); lastModified UNCHANGED `2026-09-20T04:29:16.000Z`; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33; notes.md §113
+
+Note: `research/notes.md` §113. Docs-only on a fresh PR
+off main. Merged #30 owns `notes.md` §112 / items 268–272 / batch #95.
+This fold is §113 / items 273–288 / batch #96.
+**HARD RULE:** do not reopen or amend PR #23 or #24 or #25 or #26 or #27 or #28 or #29 or #30 or #32.
+Never reopen merged #7 / **#8** / **#9** /
+**#10** / **#12** / **#13** / **#14** / **#15** /
+**#16** / **#17** / **#18** / **#19** / **#20** /
+**#21** / **#22** / **#23** / **#24** / **#25** / **#26** / **#27** / **#28** / **#29** / **#30**. Do **not** re-fold §93 mechanism /
+§94 / §95 / §96 / §97 / §98 / §99 / §100 / §101 /
+§102 / §103 / §104 / §105 / §106 / §107 / §108 / §109 / §110 / §111 / JevBench v1.2 board / §78 /
+jev-orderby-bench six-gates / §60 / openJev-verdict claim-audit / §71 /
+pngwn RESULTS / §46 / yuki-oshio/mini-jev 93.25%. Skip Archer rewrite.
+Do **not** re-fold 0646 / 0541 / 0439 / 0345 / 0243 / 0145 / 0042 / 2340 / 2246 / 2145 / 2041 / 1943 /
+1843 / 1740 / gliner-native-runtime / 1639 / 1541. No
+invented metrics. Hunches labeled. Quote READMEs. Soft
+Noul ≠ hard safety. Augustus owns placement.
+Measurement densifies PRIMARY (ywchiu Harbor-jevals),
+open-weight/RLCD, and skills/DecisionOps are the *class*
+exemplars this hour. Quote live REST over watch.
+`invented_signal: false`.
+
+- **ywchiu/jev_benchmark (PRIMARY).** ywchiu/jev_benchmark
+  (GitHub license null; **0★**; HEAD `4322c350`; size **0** WITH CONTENTS).
+  ywchiu/jev_benchmark ≠ Running-Dolphins/jev-bench ≠ Praveenrajus/jev-bench.
+  Gemma 4 31B 77.0% / Jev 1.13.0 61.4% / Laya 322M 0.0%.
+  restriction state 95.0% against 84.4%. None of the systems are particularly good at knowing when to stop and ask.
+  They skip the question and call a tool directly. 100% schema pass. six-field joint 48.8% vs 72.8%.
+- **jev-single-decode-transformers.** siren2345/jev-single-decode-transformers
+  (Python MIT; **0★**; HEAD `2aa5fea7`).
+  siren2345/jev-single-decode-transformers ≠ siren2345/jev-single-decode.
+  Split Transformers experiment from llama.cpp runtime.
+- **tanayvasishtha/jev-lab.** tanayvasishtha/jev-lab (**0★**; HEAD `96c90cdd`).
+  tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab.
+  Four experiments stress-testing TypeSafe's Jev: calibration, bundle bias, label bias, and ensembling.
+  second pass must be $0.00 from cache. The pages never call Jev.
+- **Praveenrajus densify.** hfdataset Praveenrajus/jev-bench (sha `a39eba3f`).
+  22 configs · 166,054 rows · 4 calibration-gold.
+- **pngwn densify.** hfdataset pngwn/open-jev-laya-bench.
+  pngwn/open-jev-laya-bench README 404. sha 9f69c742 likes 2.
+- **jevlogs dataset.** hfdataset reachjalil/jevlogs-log-triage-benchmark (sha `4c80b79c`).
+  HDFS 0.9933 (745/750) / retain 0.0084. BGL ERROR/FATAL protection 1.0000.
+  2,479 / 2,500 HDFS uncertain. cache hit 0.9648 (2412/2500). $0.153936 estimated.
+  E2 recomputes from saved probabilities.
+- **BunsDev densify.** hfspace BunsDev/laya-calibration-lab (sha `eda59e0a`).
+  MASSIVE English 0.783 / Khmer 0.033 / Hindi 0.133. 40–48 rows too small to ship T.
+  T never changes argmax.
+- **mini-jev-runs densify.** hfdataset Mikhail/mini-jev-runs (sha `8f84bb1a`).
+  27 900 schema-driven decisions. 13 600 / 13 600 questions. candidate mass min 0.99999624.
+- **Verdict-open-jev.** Heman10x-NGU/Verdict-open-jev (Python; **33★**; HEAD `30f15564`; size **6709**).
+  Heman10x-NGU/Verdict-open-jev ≠ Heman10x-NGU/openJev-verdict-2.0.
+  TF-IDF + LogReg ECE 0.0207 vs Jev 0.1440. Verdict-open-jev 48.07% vs Jev 90.80%.
+  abstention combined recall 10.00%. p50 35.58 ms. K=25 (maximum capacity) 72.00%.
+  0.85 coverage 84.60% selective risk 1.18%.
+- **Mintzs densify.** Mintzs/jevify (**3★**; HEAD `20c112e3`).
+  26.1× faster than standard Qwen JSON generation. Jevify 90.0% / 167 ms CUDA graphs disabled.
+- **rlcd-lite densify.** arnabgho/rlcd-lite (**1★**; HEAD `b0f981fa`).
+  Finding 1: Brier on stated confidence alone is a trap. grpo_rlcr 0.78 / ECE 0.084.
+  reliability 0.007 but resolution 0.000.
+- **distill-corpus.** hfdataset SargeDev/jev-distill-corpus (sha `ebb133f0`).
+  Student B MAE 0.148 / Pearson 0.836 / 86.0%.
+- **altryne/jevify.** altryne/jevify (**13★**; HEAD `9b50ba13`).
+  altryne/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify.
+  Find where Jev belongs. Design the questions. Measure the difference.
+- **DecisionOps.** erayyilmmaz/jev-decisionops (**0★**; HEAD `652aa07d`; size **67**).
+  ACT / REVIEW / FALLBACK. A provider failure, timeout, malformed output, or missing answer is **not** a policy outcome.
+  confidence is descriptive provider output, not a substitute for probability.
+  Quality denominators include only valid scored answers.
+  an exact halfway tie chooses the lower level.
+- **Jev-Skill.** aiwithenoch/Jev-Skill (MIT-0 SPDX NOASSERTION; **0★**; HEAD `f0cf6d6e`).
+  aiwithenoch/Jev-Skill ≠ simplosophy/jev-skill ≠ laguagu/jev-skills.
+  The local path does not claim to turn a smaller checkpoint into Jev.
+  Low support becomes decision: "review".
+- **simplosophy/jev-skill.** simplosophy/jev-skill (**0★**; HEAD `5cba50e7`).
+  current-llm. 结构兼容，不是 Jev 模型能力.
+
+Pulse: Archer still promised_not_landed. Hub
+archerhume/4rcherhume HTTP **401**. Tracker
+multimodalart/jev-reproductions-tracker likes **66**;
+lastModified `2026-09-20T04:29:16Z` UNCHANGED. Live REST: SemIf
+**2225★**; jevlike **1046★**; TypeAR-AI/TypeAR 301 → TypeLLM/TypeLLM **16★**.
+AnotiaWang/awesome-jev **98★** ≠ yibie/awesome-jev **516★**.
+Hub Laya likes **852**. Blackwood ABSENT. Qwen3.8-27B ≠ Archer.
+do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33.
+`invented_signal: false`.
+
+Cross-repo addition: (ra) ywchiu Harbor-jevals PRIMARY;
+(rb) transformers one-decode sibling; (rc) tanay lab;
+(rd) Praveenrajus densify; (re) pngwn densify;
+(rf) jevlogs dataset; (rg) BunsDev densify; (rh) mini-jev-runs;
+(ri) Verdict-open-jev; (rj) Mintzs densify; (rk) rlcd-lite;
+(rl) distill-corpus; (rm) altryne jevify; (rn) DecisionOps;
+(ro) Jev-Skill; (rp) simplosophy jev-skill.
+
 ## Batch #95 (2026-09-20 ~14:10 UTC / ~08:06 Boise) — user-provided HIGH Merve Noyan ZS classifier lineage
 
 User-provided 0806 uniqueness lock: people who compare Jev against GPT-5.6 has never fine-tuned BERTForXYZ for living and it shows; zero shot classifiers; scale them as much as decoder only models; many problems solved with LLMs could have been solved with them, it was a skill issue; opt for DeBERTa and ModernBERT ones; BERTForXYZ → DeBERTa → ModernBERT; Jev vs GPT-5.6 bakeoffs are a category error; encoder / ZS classifiers; institutional HF voice; quote *theirs*; do not invent accuracy numbers; softmax/ZS scores still ≠ calibrated Noul; soft scores ≠ hard gates; @mervenoyann; likes 421 / 189; impressions 35498 / 9613; multimodal image<>text ZS as perception front-end; hf:MoritzLaurer/deberta-v3-large-zeroshot-v2.0 likes 139; hf:MoritzLaurer/ModernBERT-large-zeroshot-v2.0 likes 72; Bart, bert, deberta, modernbert, these are all LLMs; Maziyar quoted; Jev is exemplar not the mandate; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29.

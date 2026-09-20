@@ -3482,6 +3482,45 @@ No, no, and no. 200-case Jev 97.0% / 100.0% / 95.0% / MAE 9.22. synthetic reposi
 
 No, no, and no. Hub `archerhume/4rcherhume` HTTP **401**. tracker likes 64 flat, lastModified UNCHANGED. Laya likes 822 (was 802). Blackwood tracker ABSENT. Archer still promised_not_landed. Live REST pulse: SemIf 2207★ (+21 vs §110 2186); jevlike 1043★ (+5 vs 1038); TypeAR 15★ (+1 vs 14). AnotiaWang 97★ (+1 vs 96) ≠ yibie/awesome-jev 506★ (+16 vs 490). do not reopen or amend PR #23/#24/#25/#26/#27/#28. `invented_signal: false`. `notes.md` §111.
 
+
+## Collapse ywchiu into Running-Dolphins/jev-bench or Praveenrajus/jev-bench? Treat 77.0% as Harbor / 100% schema as correctness?
+
+No, no, and no. ywchiu/jev_benchmark ≠ Running-Dolphins/jev-bench ≠ Praveenrajus/jev-bench. Gemma 4 31B 77.0% / Jev 1.13.0 61.4% / Laya 322M 0.0%. restriction state 95.0% against 84.4%. None of the systems are particularly good at knowing when to stop and ask. They skip the question and call a tool directly. 100% schema pass. six-field joint 48.8% vs 72.8%. GitHub license null; **1★**; HEAD `4322c350`; README SHA `75e6a338`; size **173**. PRIMARY. `notes.md` §113.
+
+## Collapse jev-single-decode-transformers into jev-single-decode? Treat softmax over A/B/C as a Noul / 90.53% as calibrated?
+
+No, no, and no. siren2345/jev-single-decode-transformers ≠ siren2345/jev-single-decode. Split Transformers experiment from llama.cpp runtime. BBQ 9,053/10,000 (90.53%). ECE 0.0890. Mean confidence 0.9943. overconfident. score and noul not implemented. Python MIT; **0★**; HEAD `2aa5fea7`; size **0** WITH CONTENTS. `notes.md` §113.
+
+## Collapse tanayvasishtha/jev-lab into dairui1 / BrendanH18 / yibie/laya-jev-lab? Treat the scaffold as a bake-off?
+
+No and no. tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab. Four experiments stress-testing TypeSafe's Jev: calibration, bundle bias, label bias, and ensembling. second pass must be $0.00 from cache. The pages never call Jev. **0★**; HEAD `96c90cdd`. `notes.md` §113.
+
+## Treat TF-IDF ECE 0.0207 as beating Jev? Collapse Verdict-open-jev into openJev-verdict-2.0? Treat 0.85 as 85%?
+
+No, no, and no. Heman10x-NGU/Verdict-open-jev ≠ Heman10x-NGU/openJev-verdict-2.0. TF-IDF + LogReg ECE 0.0207 vs Jev 0.1440. Verdict-open-jev 48.07% vs Jev 90.80%. abstention combined recall 10.00%. p50 35.58 ms. K=25 (maximum capacity) 72.00%. 0.85 coverage 84.60% selective risk 1.18%. Python; **33★**; HEAD `30f15564`; size **6709**. `notes.md` §113.
+
+## Treat Mintzs 90.0% as calibrated? Collapse altryne/jevify into Mintzs/jevify? Invent tweets?
+
+No, no, and no. 26.1× faster than standard Qwen JSON generation. Jevify 90.0% / 167 ms CUDA graphs disabled. Uncalibrated. altryne/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify. Find where Jev belongs. Design the questions. Measure the difference. Do not invent X/Twitter discourse. `notes.md` §113.
+
+## Treat Brier on stated confidence as RLCD? Treat Student B 86.0% as independent gold?
+
+No and no. Finding 1: Brier on stated confidence alone is a trap. grpo_rlcr 0.78 / ECE 0.084. reliability 0.007 but resolution 0.000. Student B MAE 0.148 / Pearson 0.836 / 86.0%. do not distill Jev as teacher of record. `notes.md` §113.
+
+## Treat HDFS 0.9933 as Harbor? Treat 40–48-row T as production? Re-fold pngwn RESULTS as new?
+
+No, no, and no. HDFS 0.9933 (745/750) / retain 0.0084. BGL ERROR/FATAL protection 1.0000. 2,479 / 2,500 HDFS uncertain. cache hit 0.9648 (2412/2500). $0.153936 estimated. E2 recomputes from saved probabilities. Space sha eda59e0a. MASSIVE English 0.783 / Khmer 0.033 / Hindi 0.133. 40–48 rows too small to ship T. T never changes argmax. pngwn/open-jev-laya-bench README 404. sha 9f69c742 likes 2. 22 configs · 166,054 rows · 4 calibration-gold. sha a39eba3f. 27 900 schema-driven decisions. 13 600 / 13 600 questions. candidate mass min 0.99999624. `notes.md` §113.
+
+## Treat ACT as a provider proof? Collapse Jev-Skill into simplosophy/jev-skill? Treat current-llm as a Jev replica?
+
+No, no, and no. ACT / REVIEW / FALLBACK. A provider failure, timeout, malformed output, or missing answer is **not** a policy outcome. confidence is descriptive provider output, not a substitute for probability. Quality denominators include only valid scored answers. an exact halfway tie chooses the lower level. aiwithenoch/Jev-Skill ≠ simplosophy/jev-skill ≠ laguagu/jev-skills. The local path does not claim to turn a smaller checkpoint into Jev. Low support becomes decision: "review". MIT-0 SPDX NOASSERTION. current-llm. 结构兼容，不是 Jev 模型能力. `notes.md` §113.
+
+## Did Archer land this hour? Treat TypeAR-AI/TypeAR as the live name? Reopen PR #23–#30?
+
+No, no, and no. Hub `archerhume/4rcherhume` HTTP **401**. TypeAR-AI/TypeAR 301 → TypeLLM/TypeLLM. TypeLLM/TypeLLM 16★. tracker likes 67 (+3 vs 64). lastModified UNCHANGED `2026-09-20T04:29:16.000Z`. Laya likes 864 (was 822). Blackwood tracker ABSENT. Archer still promised_not_landed. Live REST pulse: SemIf 2241★ (+34 vs §111 2207); jevlike 1051★ (+8 vs 1043). AnotiaWang 98★ (+1 vs 97) ≠ yibie/awesome-jev 525★ (+19 vs 506). Qwen3.8-27B ≠ Archer. do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33. `invented_signal: false`. `notes.md` §113.
+
+Hourly 0743 uniqueness lock: Heman10x-NGU/Verdict-open-jev ≠ Heman10x-NGU/openJev-verdict-2.0; TF-IDF + LogReg ECE 0.0207 vs Jev 0.1440; Verdict-open-jev 48.07% vs Jev 90.80%; abstention combined recall 10.00%; p50 35.58 ms; K=25 (maximum capacity) 72.00%; 0.85 coverage 84.60% selective risk 1.18%; 26.1× faster than standard Qwen JSON generation; Jevify 90.0% / 167 ms CUDA graphs disabled; Finding 1: Brier on stated confidence alone is a trap; grpo_rlcr 0.78 / ECE 0.084; reliability 0.007 but resolution 0.000; 27 900 schema-driven decisions; 13 600 / 13 600 questions; candidate mass min 0.99999624; 22 configs · 166,054 rows · 4 calibration-gold; sha a39eba3f; Student B MAE 0.148 / Pearson 0.836 / 86.0%; pngwn/open-jev-laya-bench README 404; sha 9f69c742 likes 2; HDFS 0.9933 (745/750) / retain 0.0084; BGL ERROR/FATAL protection 1.0000; 2,479 / 2,500 HDFS uncertain; cache hit 0.9648 (2412/2500); $0.153936 estimated; E2 recomputes from saved probabilities; Space sha eda59e0a; MASSIVE English 0.783 / Khmer 0.033 / Hindi 0.133; 40–48 rows too small to ship T; T never changes argmax; siren2345/jev-single-decode-transformers ≠ siren2345/jev-single-decode; Split Transformers experiment from llama.cpp runtime; tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠ yibie/laya-jev-lab; Four experiments stress-testing TypeSafe's Jev: calibration, bundle bias, label bias, and ensembling; second pass must be $0.00 from cache; The pages never call Jev; Gemma 4 31B 77.0% / Jev 1.13.0 61.4% / Laya 322M 0.0%; restriction state 95.0% against 84.4%; None of the systems are particularly good at knowing when to stop and ask; They skip the question and call a tool directly; 100% schema pass; six-field joint 48.8% vs 72.8%; ywchiu/jev_benchmark ≠ Running-Dolphins/jev-bench ≠ Praveenrajus/jev-bench; ACT / REVIEW / FALLBACK; A provider failure, timeout, malformed output, or missing answer is **not** a policy outcome; confidence is descriptive provider output, not a substitute for probability; Quality denominators include only valid scored answers; an exact halfway tie chooses the lower level; aiwithenoch/Jev-Skill ≠ simplosophy/jev-skill ≠ laguagu/jev-skills; The local path does not claim to turn a smaller checkpoint into Jev; Low support becomes decision: "review"; MIT-0 SPDX NOASSERTION; current-llm; 结构兼容，不是 Jev 模型能力; altryne/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify; Find where Jev belongs. Design the questions. Measure the difference; TypeAR-AI/TypeAR 301 → TypeLLM/TypeLLM; TypeLLM/TypeLLM 16★; SemIf 2241★ (+34 vs §111 2207); jevlike 1051★ (+8 vs 1043); AnotiaWang 98★ (+1 vs 97); yibie/awesome-jev 525★ (+19 vs 506); Laya likes 864 (was 822); tracker likes 67 (+3 vs 64); lastModified UNCHANGED `2026-09-20T04:29:16.000Z`; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#32/#33; notes.md §113
+
 ## Compare Jev against GPT-5.6? Is that the right bakeoff?
 
 No. Jev vs GPT-5.6 bakeoffs are a category error. [@mervenoyann](https://x.com/mervenoyann/status/2101463303734067592)
