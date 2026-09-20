@@ -4897,6 +4897,42 @@
       "title": "xiaohuaxi/jev-study",
       "url": "https://github.com/xiaohuaxi/jev-study",
       "note": "Python MIT; 0★; size 0 WITH CONTENTS; HEAD 9ba99ea8; README SHA 7dd211cf. ≠ wjdjdakf17 ≠ baekenough. 不是 benchmark; 概率没做 calibration. notes.md §114."
+    },
+    {
+      "kind": "github",
+      "title": "TianyuCodings/NanoJev",
+      "url": "https://github.com/TianyuCodings/NanoJev",
+      "note": "unified-games-v1 densify. Python MIT; 1289★ / 158 forks / size 64035; HEAD 618cea6d906d54e128360786d12f703fff2b1245; README SHA 4190093c64ee75b26e9726daa3b00cbcf6d3157a; LICENSE SHA f6cd1f1b. notes.md §115. invented_signal false."
+    },
+    {
+      "kind": "huggingface-model",
+      "title": "C-Tianyu/NanoJev",
+      "url": "https://huggingface.co/C-Tianyu/NanoJev",
+      "note": "revision unified-games-v1 likes 58 downloads 1267; main sha 047b927b; tag 456cea98; base_model Qwen/Qwen3-0.6B; lastModified 2026-09-20T10:19:01.000Z. notes.md §115."
+    },
+    {
+      "kind": "huggingface-dataset",
+      "title": "C-Tianyu/NanoJev-Data",
+      "url": "https://huggingface.co/datasets/C-Tianyu/NanoJev-Data",
+      "note": "likes 5 downloads 1073; main sha 7afc5257; tag unified-games-v1 fd4d07b6; 18,760 questions per variant; 16,333 ViZDoom; 896 Predict Position expert episodes. notes.md §115."
+    },
+    {
+      "kind": "github",
+      "title": "caijinchun/nanojev-arena",
+      "url": "https://github.com/caijinchun/nanojev-arena",
+      "note": "namesake lock. MIT 1★ HEAD 3cdad2d21716 README SHA 463ef4b3000f size 380. caijinchun/nanojev-arena ≠ NanoJev. notes.md §115."
+    },
+    {
+      "kind": "github",
+      "title": "liao96312/jev-arena-nanojev",
+      "url": "https://github.com/liao96312/jev-arena-nanojev",
+      "note": "namesake lock. license null 2★ HEAD 9cf503d7e88f README SHA f26f426d7e2d size 10015. ≠ NanoJev. notes.md §115."
+    },
+    {
+      "kind": "web",
+      "title": "NanoJev demo (gated)",
+      "url": "https://nanojev-dev.tianyuchen99.chatgpt.site/?autoplay=1",
+      "note": "HTTP 401 gated this pass. Recordings local *theirs*. notes.md §115."
     }
   ]
 }

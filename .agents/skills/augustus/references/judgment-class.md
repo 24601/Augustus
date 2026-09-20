@@ -967,6 +967,27 @@ T=1.1692); “guaranteeing” calibration is theater. NAR local
 drop-in. open replica economics / latency vs closed Jev.
 wfzyx/von late-catch HIGH. competing NAR claims / replica honesty.
 Wire-compat ≠ Noul. Do not dump weights.
+**NanoJev unified-games-v1 densify (open replica / specialist
+gameplay S1, not TypeSafe Jev; `notes.md` §115):**
+[`TianyuCodings/NanoJev`](https://github.com/TianyuCodings/NanoJev)
+(Python MIT; **1289★** / **158** forks / size **64035**; HEAD
+`618cea6d906d54e128360786d12f703fff2b1245`; README SHA
+`4190093c64ee75b26e9726daa3b00cbcf6d3157a`). README *theirs*:
+A 0.6B parallel decision model: states and questions in,
+complete probability distributions out. Zero output-token
+decoding. One model, four games. Qwen3-0.6B + decision heads;
+Choice 2–255 / Boolean / Score 2–10. Hub
+[`C-Tianyu/NanoJev`](https://huggingface.co/C-Tianyu/NanoJev)
+revision **unified-games-v1** likes **58**; dataset likes **5**.
+hard_lr1e5; mix weights 1/3, 1/3, 1/6, 1/6. Held-out *theirs*:
+Maze 4/10 Snake 8/8 Basic 128/128 Predict 27/128 vs Jev 7/10
+8/8 56/128 11/128 vs Untuned Qwen3-0.6B 2/10 0/8 56/128 11/128.
+caijinchun/nanojev-arena ≠ liao96312/jev-arena-nanojev ≠
+zwliJay/jev-forge ≠ NanoJev. local type boolean ≠ TypeSafe noul.
+A normalized distribution alone does not establish empirical
+probability calibration. Game success ≠ calibrated Noul. Wire-
+compat ≠ replica. Do not copy `pip`. Already cited lightly via
+jevinf (§72); this is the densify.
 **Variable-N option scoring as the trainable object
 (class-architecture note, not a sixth species; `notes.md` §99):**
 [`zwliJay/jev-forge`](https://github.com/zwliJay/jev-forge)
@@ -1431,3 +1452,4 @@ User-provided 0806 uniqueness lock: people who compare Jev against GPT-5.6 has n
 
 
 Hourly 0843 uniqueness lock: A hunch is a probability with a policy attached; { enter: 0.8, exit: 0.6 } is hysteresis; replay a policy change without inference; Decision models are providers, not the product; huncho ≠ Kungie/gut ≠ carldaws/hunch ≠ tpellet/hunch; pretrained Qwen2.5 base ECE 0.030 (0.5B) / 0.040 (7B); instruct 0.302 / 0.269; 70.9% → 70.0% mean conf 74.1% → 96.7%; temperature scaling still matches it in-distribution; No Jev API was called; Qwen2.5 ≠ Archer; Qwen/Qwen3.8-27B ≠ Archer; 学習済みモデル v0.1 は準備中です; bool AUROC 0.523; 先頭だと0件、末尾だと250件; 温度を渡さない場合、確率は較正されていません; このリポジトリには Jev を呼ぶコードが存在しません; g0runmezadam/what-is-jev IS tunahansahin897/what-is-jev (same GitHub id 1378007307); 947 repos scored; A 273 · B 302 · C 372; LLM rubric ≠ benches; Data as of 2026-09-20; HEAD 895b9498; README SHA 3ae98c56; 13 focused checks and one mutually exclusive outcome; Probabilities are advisory, not calibrated guarantees; omni-/ask-jev ≠ pedroknigge/mcp_jev; pd.cut bins by equal width while jeval bins by quantile; ECE 0.113 and ECE 0.076; jeval drift is not implemented yet; rlaope/jeval ≠ dayhaysoos/jevals; calibration does not compose; ECE has exactly zero statistical power to detect the failure mode that kills trajectories; 25–60× headline withdrawn; P(all-correct): 0.0071 vs 0.0001; TCE / AMS; Qwen 3.8 sparring ≠ Archer; Deferred Crispification; light_cutoff_applied_to_combination 0; recorded run, kinematic animation; BANKING77 Accuracy BERT-Base 93.02 Jev 79.90; Analyse jev calibration (NLL, ECE) backlog; BERT figures are published supervised references, not zero-shot; 档位措辞效应 分数极差中位 0.50、最大 1.32; 修好后对照组是 0.01; 不是 benchmark; 概率没做 calibration; ~1,430 API calls, about $0.15; xiaohuaxi/jev-study ≠ wjdjdakf17/jev-study ≠ baekenough/jev-study; AND: product (independence assumed and recorded in the trace); chat model's stated confidence is not calibrated; circuit-vl-4b ≠ Archer; Bring your own API key; vamsikrishna2421/jev-usecases ≠ whyashthakker/awesome-jev-use-cases; catalog ≠ endorsement; SemIf 2237★ (+30 vs §111 2207); jevlike 1049★ (+6 vs 1043); TypeLLM/TypeLLM 16★; AnotiaWang 98★; yibie/awesome-jev 520★ (+14 vs 506); Laya likes 861 (was 822); tracker likes 66 (+2 vs 64) lastModified UNCHANGED; Blackwood likes 2 gated manual; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33; notes.md §114
+User-provided 0915 uniqueness lock: TianyuCodings/NanoJev unified-games-v1 densify; A 0.6B parallel decision model: states and questions in, complete probability distributions out. Zero output-token decoding.; One model, four games; ViZDoom Basic 128/128 vs Jev 56/128; Predict Position 27/128 vs Jev 11/128; Maze 225 attempts vs Jev 2738; Snake 30 food / 256 steps; held-out Maze 4/10 Snake 8/8 Basic 128/128 Predict 27/128; Untuned Qwen3-0.6B baseline; 18,760 questions per variant; 16,333 ViZDoom; 896 Predict Position expert episodes; hard_lr1e5; mix weights 1/3, 1/3, 1/6, 1/6; Hub C-Tianyu/NanoJev revision unified-games-v1 likes 58; dataset C-Tianyu/NanoJev-Data likes 5; HEAD 618cea6d906d54e128360786d12f703fff2b1245; 1289★ / 158 forks / size 64035; README SHA 4190093c64ee75b26e9726daa3b00cbcf6d3157a; MIT; caijinchun/nanojev-arena ≠ liao96312/jev-arena-nanojev ≠ zwliJay/jev-forge ≠ NanoJev; not TypeSafe Jev; open replica / specialist gameplay S1; soft scores ≠ hard gates; Game success ≠ calibrated Noul; local type boolean ≠ TypeSafe noul; invented_signal false; do not reopen or amend PR #31/#32/#33/#35; notes.md §115

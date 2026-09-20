@@ -2759,6 +2759,49 @@ Soft Noul ≠ hard safety: 0.030 / 0.302 / 0.113 / 0.076 / 0.523 /
 0.8 / 0.6 / 0.49 / 93.02 / 79.90 are **sensors**. Treating hop-ECE
 as a trajectory proof, equal-width as the only ECE, 0.5 cutoff as
 100% sensitivity, or Qwen instruct recovery as Archer is theater.
+## Apply 0915 (`notes.md` §115)
+
+Same pillars, user-provided HIGH densify (TianyuCodings/NanoJev
+unified-games-v1 — open replica / specialist gameplay S1,
+not SWE-only). Do **not** re-fold §7 / §72 light NanoJev as
+a first sighting. Do **not** re-fold §99 jev-forge / §113 /
+§112. Fresh PR; never reopen merged **#31** / **#32** /
+**#33** / **#35**. do not reopen or amend PR #31 or
+#32 or #33 or #35. Skip Archer rewrite (still
+**promised_not_landed**). Quote *theirs*. Do not invent
+accuracy numbers. Soft Noul ≠ hard safety. Formal methods
+**compose** with scoring; a Noul is a SENSOR. Jev is
+exemplar not the mandate. Game success ≠ calibrated Noul.
+local type boolean ≠ TypeSafe noul. Treating 128/128 as
+Harbor or a normalized bag as a Noul is the anti-pattern.
+
+1. **Open replica / specialist gameplay S1** — A 0.6B
+   parallel decision model: states and questions in,
+   complete probability distributions out. Zero
+   output-token decoding. not TypeSafe Jev.
+2. **One model, four games** — ViZDoom Basic 128/128 vs
+   Jev 56/128; Predict Position 27/128 vs Jev 11/128;
+   Maze 225 attempts vs Jev 2738; Snake 30 food / 256
+   steps; held-out Maze 4/10 Snake 8/8 Basic 128/128
+   Predict 27/128. Untuned Qwen3-0.6B baseline.
+3. **Dataset / mix / hard_lr1e5** — 18,760 questions per
+   variant; 16,333 ViZDoom; 896 Predict Position expert
+   episodes; mix weights 1/3, 1/3, 1/6, 1/6. Hub
+   C-Tianyu/NanoJev revision unified-games-v1 likes 58.
+4. **Namesake lock** — caijinchun/nanojev-arena ≠
+   liao96312/jev-arena-nanojev ≠ zwliJay/jev-forge ≠
+   NanoJev.
+5. **boolean ≠ noul / calibration honesty** — local type
+   boolean ≠ TypeSafe noul. A normalized distribution
+   alone does not establish empirical probability
+   calibration. Demo HTTP 401; recordings local. soft
+   scores ≠ hard gates.
+
+User-provided 0915 uniqueness lock: TianyuCodings/NanoJev unified-games-v1 densify; A 0.6B parallel decision model: states and questions in, complete probability distributions out. Zero output-token decoding.; One model, four games; ViZDoom Basic 128/128 vs Jev 56/128; Predict Position 27/128 vs Jev 11/128; Maze 225 attempts vs Jev 2738; Snake 30 food / 256 steps; held-out Maze 4/10 Snake 8/8 Basic 128/128 Predict 27/128; Untuned Qwen3-0.6B baseline; 18,760 questions per variant; 16,333 ViZDoom; 896 Predict Position expert episodes; hard_lr1e5; mix weights 1/3, 1/3, 1/6, 1/6; Hub C-Tianyu/NanoJev revision unified-games-v1 likes 58; dataset C-Tianyu/NanoJev-Data likes 5; HEAD 618cea6d906d54e128360786d12f703fff2b1245; 1289★ / 158 forks / size 64035; README SHA 4190093c64ee75b26e9726daa3b00cbcf6d3157a; MIT; caijinchun/nanojev-arena ≠ liao96312/jev-arena-nanojev ≠ zwliJay/jev-forge ≠ NanoJev; not TypeSafe Jev; open replica / specialist gameplay S1; soft scores ≠ hard gates; Game success ≠ calibrated Noul; local type boolean ≠ TypeSafe noul; invented_signal false; do not reopen or amend PR #31/#32/#33/#35; notes.md §115
+
+Soft Noul ≠ hard safety: 128/128 / 4/10 / 8/8 / 27/128
+are **gameplay sensors**. Treating them as Harbor or as
+calibrated Nouls is theater.
 
 ## Decision-design extras (any domain)
 

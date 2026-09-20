@@ -28392,3 +28392,261 @@ items 289–302; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
 `formal-semi-formal.md`; `agent-self-assessment.md`.
 Hunches labeled. No wrapper.
+## 115. User-provided HIGH — TianyuCodings/NanoJev unified-games-v1 densify (2026-09-20 ~09:15 Boise)
+
+Docs-only on a **fresh PR off main**
+(`cursor/nanojev-unified-games-v1-densify-9049`).
+**HARD RULE:** do not reopen or amend PR **#31** or
+**#32** or **#33** or **#35**. After merged #31
+(`35bec95`, hourly 0743 / `notes.md` §113 / items
+273–288 / batch #96). Merged #35 owns **§114 /
+items 289–302 / batch #97**. This fold stays
+**§115 / composition items 303–308 / findings
+batch #98**. Already referenced
+lightly in §7 / §72 jevinf / ecosystem / faq /
+judgment-class — **unified-games-v1 densify**, not a
+first sighting. Do **not** re-fold §99 jev-forge as
+this species. Do **not** re-fold §113 / §112 / §111.
+Quote **their** README / Hub / `docs/TYPESAFE_CONTRACT.md`.
+Mark *theirs*. No invented accuracy. Hunches labeled.
+No wrappers, `pip` / `snapshot_download` /
+`serve_decisions` / UNIFIED_GAMES bash as recipes.
+`invented_signal: false`. Skip Archer rewrite. Jev is
+the hot **exemplar**, not the mandate. Not TypeSafe
+Jev. Open replica / specialist gameplay S1.
+
+Lane is Augustus: **mental models / architecture /
+class port**. Soft scores ≠ hard gates. Game success ≠
+calibrated Noul. local type boolean ≠ TypeSafe noul.
+
+Unique consecutive fragments (this fold):
+TianyuCodings/NanoJev unified-games-v1 densify;
+A 0.6B parallel decision model: states and questions in, complete probability distributions out. Zero output-token decoding.;
+One model, four games;
+ViZDoom Basic 128/128 vs Jev 56/128;
+Predict Position 27/128 vs Jev 11/128;
+Maze 225 attempts vs Jev 2738;
+Snake 30 food / 256 steps;
+held-out Maze 4/10 Snake 8/8 Basic 128/128 Predict 27/128;
+Untuned Qwen3-0.6B baseline;
+18,760 questions per variant;
+16,333 ViZDoom;
+896 Predict Position expert episodes;
+hard_lr1e5;
+mix weights 1/3, 1/3, 1/6, 1/6;
+Hub C-Tianyu/NanoJev revision unified-games-v1 likes 58;
+dataset C-Tianyu/NanoJev-Data likes 5;
+HEAD 618cea6d906d54e128360786d12f703fff2b1245;
+1289★ / 158 forks / size 64035;
+README SHA 4190093c64ee75b26e9726daa3b00cbcf6d3157a;
+MIT;
+caijinchun/nanojev-arena ≠ liao96312/jev-arena-nanojev ≠ zwliJay/jev-forge ≠ NanoJev;
+not TypeSafe Jev;
+open replica / specialist gameplay S1;
+soft scores ≠ hard gates;
+Game success ≠ calibrated Noul;
+local type boolean ≠ TypeSafe noul;
+invented_signal false;
+do not reopen or amend PR #31/#32/#33/#35.
+
+### Live REST (re-lock this pass, ~2026-09-20T15:52Z; review +1★ vs 1288 / Hub likes 58 held)
+
+1. **[TianyuCodings/NanoJev](https://github.com/TianyuCodings/NanoJev)**
+   — Python MIT (LICENSE SHA `f6cd1f1b6511c81f43c8be48004a53332ed4f73c`;
+   copyright OpenJev contributors *theirs*); **1289★** /
+   **158** forks / size **64035**; id **1374702542**;
+   created 2026-09-17T16:08:30Z; subscribers **9**;
+   open_issues **7**; default `main`; language Python.
+   HEAD `618cea6d906d54e128360786d12f703fff2b1245`
+   (2026-09-20T11:12:31Z, “Feature ViZDoom Basic in
+   README autoplay demos”). README SHA
+   `4190093c64ee75b26e9726daa3b00cbcf6d3157a`. No
+   GitHub tags/releases this pass. Demo
+   `https://nanojev-dev.tianyuchen99.chatgpt.site/?autoplay=1`
+   HTTP **401** gated. Recordings local *theirs*.
+
+2. **Hub [C-Tianyu/NanoJev](https://huggingface.co/C-Tianyu/NanoJev)**
+   — likes **58**; downloads **1267**; library pytorch;
+   gated **false**; base_model `Qwen/Qwen3-0.6B`.
+   main sha `047b927b30882a1138fc504821b82ac145a4b81a`
+   lastModified 2026-09-20T10:19:01.000Z. Tag
+   **unified-games-v1** →
+   `456cea98b6eb4990c48a52ddcbb3d097189c19cc`. Tag
+   `legacy-before-unified-games-v1` →
+   `d81297234123739db56a1c9d42f034676631a6bc`.
+
+3. **Hub dataset [C-Tianyu/NanoJev-Data](https://huggingface.co/datasets/C-Tianyu/NanoJev-Data)**
+   — likes **5**; downloads **1073**; gated **false**.
+   main sha `7afc5257c0f3ff0ba08512729888a51d94b40e7e`
+   lastModified 2026-09-20T10:18:55.000Z. Tag
+   **unified-games-v1** →
+   `fd4d07b63aec3ba8dda483e9434c9855964b5931`. Configs
+   `hard` (default) + `soft`. Dataset tag
+   `legacy-before-unified-games-v1` →
+   `284ecd1948b3627304d0f2c16e644dd74ef46e99`.
+
+4. **Name collisions (not this fold):**
+   caijinchun/nanojev-arena MIT **1★** HEAD
+   `3cdad2d21716` README SHA `463ef4b3000f` size **380**;
+   liao96312/jev-arena-nanojev license **null** **2★**
+   HEAD `9cf503d7e88f` README SHA `f26f426d7e2d` size
+   **10015**; zwliJay/jev-forge NOASSERTION **1★** HEAD
+   `eb3e4a2d` README SHA `359f3f57` size **2380**
+   (already §99). caijinchun/nanojev-arena ≠
+   liao96312/jev-arena-nanojev ≠ zwliJay/jev-forge ≠
+   NanoJev.
+
+### Claim (quote *theirs*)
+
+README *theirs*: **A 0.6B parallel decision model:
+states and questions in, complete probability
+distributions out. Zero output-token decoding.**
+**September 20, 2026 — One model, four games.**
+Qwen3-0.6B + decision heads. Each request supplies a
+**state**, a **question** and its **candidates**.
+Choice 2–255 / Boolean / Score 2–10 ordered levels.
+Direct probabilities; no output-token decoding.
+
+### How-to-apply (six placements / one densify)
+
+When someone pastes NanoJev as “open Jev” or a
+Harbor win, extract the *class port* and refuse the
+TypeSafe drop-in / calibrated-Noul / hard-gate
+readings. Same discipline as §72 jevinf (wire-compat
+≠ replica) and §99 jev-forge (dynamic candidates ≠
+sixth species). Do not copy `pip`. Demo site access
+may be gated; recordings local *theirs*.
+
+1. **PRIMARY — open replica / specialist gameplay
+   S1** — TianyuCodings/NanoJev is a 0.6B parallel
+   decision model on independent game gold, not
+   TypeSafe hosted Jev. Placement: specialist S1 on
+   Maze / Snake / ViZDoom Basic / Predict Position
+   with code-owned controllers. Formal compose:
+   candidate minting / epsilon-greedy / simulator
+   replay are exact; NanoJev SENSOR on Choice /
+   Boolean / Score. Do **not** treat as a TypeSafe
+   drop-in. Do **not** copy `pip` /
+   `snapshot_download` / `serve_decisions`.
+
+2. **Zero output-token decoding / parallel /
+   dynamic candidates** — README *theirs*: Parallel
+   decisions: batch independent states, questions
+   and candidate paths in one backbone forward.
+   Dynamic candidates: Choice returns a distribution
+   over 2–255 supplied candidates using a shared
+   scoring head. Boolean and ordered scores. Direct
+   probabilities. Cousin of packed one-forward
+   replicas (jevify / TypeAR / jevinf) with a
+   **trained decision head**, not constrained-AR
+   softmax over letters. Formal compose: set
+   attention / softmax / sigmoid / probability-
+   weighted level are the SENSOR envelope;
+   controller code owns act selection. Softmax over
+   a supplied bag ≠ a Noul.
+
+3. **One model, four games / held-out table
+   (Empirical as README *theirs*, not Harbor)** —
+   ViZDoom Basic **128/128** vs Jev **56/128**.
+   Predict Position **27/128** vs Jev **11/128**.
+   Maze **225** attempts vs Jev **2,738** vs Untuned
+   Qwen **4,726**. Snake **30 food items** during a
+   full **256-step** run. Held-out 274-case table
+   *theirs*: NanoJev Maze **4/10** Snake **8/8**
+   Basic **128/128** Predict **27/128** vs Jev
+   **7/10** **8/8** **56/128** **11/128** vs Untuned
+   Qwen3-0.6B **2/10** **0/8** **56/128** **11/128**.
+   Untuned Qwen3-0.6B baseline in table *theirs*.
+   Test and OOD together contain **548 cases per
+   model**. Every evaluated trajectory passes
+   independent simulator replay *theirs*. Do **not**
+   treat 128/128 as Harbor. Do **not** treat Maze
+   4/10 as a class ceiling. Game success ≠
+   calibrated Noul.
+
+4. **Dataset / mix / hard_lr1e5** —
+   **18,760** decision questions per target variant,
+   including **16,333** ViZDoom. **896** Predict
+   Position expert episodes with **17,498** recorded
+   decisions. Mix weights Maze/Snake/Basic/Predict
+   **1/3, 1/3, 1/6, 1/6** *theirs*.
+   **`unified-games-v1` packages the step-400
+   checkpoint from the `hard_lr1e5` training run.**
+   Both names refer to the same selected model.
+   hard (one-hot) action targets for Predict
+   Position; backbone lr `1e-5`; decision-head lr
+   `1e-4`. Roadmap still unchecked: RLCD
+   post-training. Do **not** copy training bash.
+
+5. **Name collisions** — caijinchun/nanojev-arena ≠
+   liao96312/jev-arena-nanojev ≠ zwliJay/jev-forge ≠
+   NanoJev. Arena forks are not this checkpoint.
+   jev-forge already owns variable-N option scoring
+   as class-architecture (§99). Do **not** collapse
+   the four names.
+
+6. **Game success ≠ calibrated Noul / boolean ≠
+   noul / demo 401** — `docs/TYPESAFE_CONTRACT.md`
+   *theirs*: This project's AI SDK gateway wrapper
+   and local schema use `type: "boolean"`. Local
+   `type: "noul"` currently fails validation. **A
+   normalized distribution alone does not establish
+   empirical probability calibration.** Good local
+   safety accuracy is not evidence of long-horizon
+   navigation performance. Demo HTTP **401** gated
+   this pass; recordings local. Soft scores ≠ hard
+   gates. Do **not** hard-gate 128/128. Do **not**
+   treat local boolean as TypeSafe noul.
+
+### Formal compose + anti-patterns
+
+Formal methods **compose** with scoring. A Noul is a
+SENSOR. Candidate bags / seeded controllers /
+simulator replay / mix weights are exact work.
+Treating 128/128 as Harbor, Maze 4/10 as a class
+win, a normalized Choice bag as calibrated Noul,
+local `boolean` as TypeSafe noul, or the gated demo
+as a live product is soundness theater. Ranking ≠
+calibration. Soft Noul ≠ hard safety.
+
+### Adversarial review + testing hooks (Basit standing
+order)
+
+Parent merge only after **CLEAN** adversarial review
+**AND** testing. Hooks for the reviewer:
+
+- Uniqueness-gate: the consecutive
+  `User-provided 0915 uniqueness lock:` string
+  (fragments joined by `"; "`) must appear in every
+  overlay listed below. The 0743 / 0646 / 0806
+  consecutive strings must remain substrings (do not
+  mutate them; do not reopen #31/#32/#33/#35).
+- Namesake locks: caijinchun/nanojev-arena ≠
+  liao96312/jev-arena-nanojev ≠ zwliJay/jev-forge ≠
+  TianyuCodings/NanoJev.
+- Densify vs new: this is the unified-games-v1
+  densify of an already-light NanoJev citation
+  (§7 / §72), not a first sighting and not jev-forge.
+- Harbor-jevals: game success ≠ Harbor. 128/128 is
+  a README gameplay table *theirs*.
+- Anti-patterns to refuse: TypeSafe drop-in; local
+  boolean as noul; 128/128 as a hard gate;
+  normalized distribution as calibration; collapsing
+  arena forks; copying `pip` / `snapshot_download` /
+  `serve_decisions`; Qwen3.8-27B as Archer.
+- Overlay set: SKILL.md body (not YAML surgery),
+  mental-models Apply 0915, composition-algebra
+  items 303–308, faq, mixed-architecture, validation,
+  toolbox-mapping, methods-catalog, formal-methods,
+  formal-semi-formal, applied-mappings,
+  judgment-class, question-design,
+  agent-self-assessment, mappings, CHANGELOG, README,
+  docs/ecosystem, findings batch #98, refresh-log,
+  sources.json, changelog-hourly.md.
+- Offline check: `python3 -c` that the consecutive
+  lock is in every overlay and that the 0743 lock is
+  still a substring. No live Jev key. No wrappers.
+  Existing `evaluate_decisions.py --self-test` only;
+  do not extend.
+
+User-provided 0915 uniqueness lock: TianyuCodings/NanoJev unified-games-v1 densify; A 0.6B parallel decision model: states and questions in, complete probability distributions out. Zero output-token decoding.; One model, four games; ViZDoom Basic 128/128 vs Jev 56/128; Predict Position 27/128 vs Jev 11/128; Maze 225 attempts vs Jev 2738; Snake 30 food / 256 steps; held-out Maze 4/10 Snake 8/8 Basic 128/128 Predict 27/128; Untuned Qwen3-0.6B baseline; 18,760 questions per variant; 16,333 ViZDoom; 896 Predict Position expert episodes; hard_lr1e5; mix weights 1/3, 1/3, 1/6, 1/6; Hub C-Tianyu/NanoJev revision unified-games-v1 likes 58; dataset C-Tianyu/NanoJev-Data likes 5; HEAD 618cea6d906d54e128360786d12f703fff2b1245; 1289★ / 158 forks / size 64035; README SHA 4190093c64ee75b26e9726daa3b00cbcf6d3157a; MIT; caijinchun/nanojev-arena ≠ liao96312/jev-arena-nanojev ≠ zwliJay/jev-forge ≠ NanoJev; not TypeSafe Jev; open replica / specialist gameplay S1; soft scores ≠ hard gates; Game success ≠ calibrated Noul; local type boolean ≠ TypeSafe noul; invented_signal false; do not reopen or amend PR #31/#32/#33/#35; notes.md §115
