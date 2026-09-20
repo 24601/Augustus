@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """Uniqueness gate for merged 0843 (§114), merged 0915 NanoJev (§115),
-and user-provided 0920 jcr (§116).
+user-provided 0920 jcr (§116), and user-provided 0922 SemIf (§117).
 
 Each lock must appear as one consecutive substring in every listed overlay.
 Fragments scattered across files do not count.
 
-Also: YAML-parse SKILL.md frontmatter; notes.md owns §114, §115, and §116;
-composition items 289–302, 303–308, and 309–316 exist; findings batches
-#97, #98, and #99 exist. Does not fetch the network. Does not treat a lock
+Also: YAML-parse SKILL.md frontmatter; notes.md owns §114, §115, §116, and §117;
+composition items 289–316 and 330–336 exist; findings batches
+#97, #98, #99, and #100 exist. §118 and items 317–329 are reserved. Does not fetch the network. Does not treat a lock
 as a Harbor score.
 """
 
@@ -28,6 +28,11 @@ UNIQ_0915 = (
 
 UNIQ_JCR = (
     'User-provided 0920 jcr uniqueness lock: NiazMorshed2007/jcr MIT; site https://jcr.niazmorshed.dev; topics ai-agents,jev,mcp; **4★**; HEAD `138b3832`; README SHA `2a49dbc1`; LICENSE SHA `46231303`; size **14850**; Jev Capability Resolver; one tool to find documented deterministic commands in a nested capability tree; returns context; **does not execute**; skills = workflow+judgment; capabilities = individual operations; format independent of Jev; proposed open standard exploration; classify (Jev) → optional OpenAI decompose compound → beam search geometric mean of routing probs; keep up to 3 paths ≥60% of best (JCR_BAND_RATIO 0.6); ambiguity / no-match / depth-limit explicit; soft scores ≠ hard gates; 0.6 band is application policy; routing ≠ permission; docs ≠ authority to run; sol-vs-opus5-20 *theirs*: 20 scenarios × 4 variants = 80 runs; lookup+explain only, no execution; Claude Opus 5: agent input 108,585→15,819 (−85%), cost $0.3700→$0.1222 (−67%), wall 105.5s→77.7s; Codex GPT-5.6-Sol: 61,952→47,669 (−23%), $0.1377→$0.1151 (−16%), wall 25.3s→62.4s (Sol slower with JCR in 19/20); One Sol outlier 372.6s / 193 Jev calls; n=1 per cell; Not Harbor task-execution; Claude/Codex harnesses; compare mode; 50 scenarios bundled; 11 groups, 960 nodes, 11,360 items; 16 routing rounds per step; NiazMorshed2007/jcr ≠ skill-broker ≠ skillranker ≠ jev-sift ≠ jev-lens ≠ jevusher ≠ jev_select_capability; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34; notes.md §116'
+)
+
+
+UNIQ_0922 = (
+'User-provided 0922 uniqueness lock: SemIf was formerly OpenJev; independent; not affiliated with Jev or TypeSafe; homepage openjev.com; default master; MIT; HEAD ca3ba65f1429; Tolerate float roundoff in MLX evidence verification; pushed 2026-09-19; live REST 2275★ / 140 forks; size 9177; README SHA 74ab7f7f; LICENSE SHA ca562883; interface pattern reproduction with open models; does not reproduce Jev undisclosed model/training; Direct option logits; 0 output tokens; shared-state parallel; MLX backend for Apple Silicon (`--backend mlx`); Qwen3.5-4B 3090 direct 1.023s vs AR JSON 5.332s (**5.21×**); argmax agree 18/21; systems comparison ≠ semantic equivalence; Parallel suffixes 20.03 dec/s on 777 decisions; Browser ladder Qwen3.5-4B authored BA 0.813, pert 0.766, TypeSafe subset agreement 0.845 vs Published Jev 0.883 (102 across 20 cases); Softmax over options ≠ calibrated Noul; typed output does not guarantee semantic correctness; wire/agreement ≠ replica of TypeSafe; SemIf ≠ kw2828/OpenJev playground ≠ zhihz/openjev ≠ apiplant/semif-rs port ≠ dddanielliu/semif-serve; rename is densify not a second census; JevBench 74.6 is §78 not this ladder; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#38; do not push onto open #39/#40; notes.md §117'
 )
 
 OVERLAYS = [
@@ -81,6 +86,8 @@ def main() -> int:
             failed.append(f"0915 lock missing as one substring: {rel}")
         if UNIQ_JCR not in body:
             failed.append(f"jcr lock missing as one substring: {rel}")
+        if UNIQ_0922 not in body:
+            failed.append(f"0922 lock missing as one substring: {rel}")
     notes = (ROOT / "research/notes.md").read_text(encoding="utf-8")
     if "## 114. Hourly 0843 HIGH" not in notes:
         failed.append("notes.md missing §114 heading")
@@ -88,15 +95,23 @@ def main() -> int:
         failed.append("notes.md missing §115 heading")
     if "## 116. User-provided HIGH — NiazMorshed2007/jcr" not in notes:
         failed.append("notes.md missing §116 heading")
+    if "## 117. User-provided HIGH" not in notes:
+        failed.append("notes.md missing §117 heading")
+    if "## 118." in notes:
+        failed.append("notes.md stole reserved §118")
     algebra = (ROOT / ".agents/skills/augustus/references/composition-algebra.md").read_text(
         encoding="utf-8"
     )
-    for n in list(range(289, 303)) + list(range(303, 309)) + list(range(309, 317)):
+    for n in list(range(289, 317)) + list(range(330, 337)):
         needle = f"{n}. **"
         if needle not in algebra:
             failed.append(f"composition-algebra missing item {n}")
+    for n in range(317, 330):
+        needle = f"{n}. **"
+        if needle in algebra:
+            failed.append(f"composition-algebra stole reserved item {n}")
     findings = (ROOT / "research/archive/findings.md").read_text(encoding="utf-8")
-    for batch in ("## Batch #97", "## Batch #98", "## Batch #99"):
+    for batch in ("## Batch #97", "## Batch #98", "## Batch #99", "## Batch #100"):
         if batch not in findings:
             failed.append(f"findings.md missing {batch}")
     skill = (ROOT / ".agents/skills/augustus/SKILL.md").read_text(encoding="utf-8")
@@ -120,6 +135,11 @@ def main() -> int:
             "docs ≠ authority to run",
             "Not Harbor task-execution",
             "TianyuCodings/NanoJev",
+            "SemIf was formerly OpenJev",
+            "systems comparison ≠ semantic equivalence",
+            "Softmax over options ≠ calibrated Noul",
+            "live REST 2275★",
+            "JevBench 74.6 is §78 not this ladder",
         ):
             if frag not in combined:
                 failed.append(f"SKILL.md missing fragment {frag!r}")
@@ -131,7 +151,7 @@ def main() -> int:
     print("uniqueness-gate ok")
     print(
         f"0843 chars={len(UNIQ_0843)} 0915 chars={len(UNIQ_0915)} "
-        f"jcr chars={len(UNIQ_JCR)} overlays={len(OVERLAYS)}"
+        f"jcr chars={len(UNIQ_JCR)} lock0922 chars={len(UNIQ_0922)} overlays={len(OVERLAYS)}"
     )
     return 0
 

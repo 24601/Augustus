@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-20T14:43Z",
+  "retrieved": "2026-09-20T16:10Z",
   "sources": [
     {
       "kind": "docs",
@@ -1428,7 +1428,7 @@
       "kind": "github",
       "title": "TheoLeeCJ/SemIf (star spotcheck)",
       "url": "https://github.com/TheoLeeCJ/SemIf",
-      "note": "1551 stars this pass (2026-09-18T20:51Z); +60 vs awesome claim 1491. Independent. notes.md §48."
+      "note": "PRIMARY densify 0922. formerly OpenJev; independent not TypeSafe; MIT; homepage openjev.com; default master; live REST 2275★ / 140 forks; size 9177; HEAD ca3ba65f1429; README SHA 74ab7f7f; LICENSE SHA ca562883. 5.21× systems≠semantic; Softmax ≠ Noul. notes.md §117 / items 330–336 / batch #100."
     },
     {
       "kind": "github",
@@ -4945,6 +4945,30 @@
       "title": "How I’m using Jev in an agent harness — JCR",
       "url": "https://jcr.niazmorshed.dev",
       "note": "Author article 2026-09-20. Quote *theirs*. Complement to README. notes.md §116."
+    },
+    {
+      "kind": "web",
+      "title": "openjev.com",
+      "url": "https://openjev.com",
+      "note": "SemIf homepage field. rename densify not a second census. notes.md §117."
+    },
+    {
+      "kind": "github",
+      "title": "kw2828/OpenJev",
+      "url": "https://github.com/kw2828/OpenJev",
+      "note": "cousin playground ≠ SemIf. 1★. notes.md §117."
+    },
+    {
+      "kind": "github",
+      "title": "zhihz/openjev",
+      "url": "https://github.com/zhihz/openjev",
+      "note": "cousin ≠ SemIf. 19★. notes.md §117."
+    },
+    {
+      "kind": "github",
+      "title": "apiplant/semif-rs",
+      "url": "https://github.com/apiplant/semif-rs",
+      "note": "Rust+candle port ≠ SemIf. 0★. notes.md §117."
     }
   ]
 }
