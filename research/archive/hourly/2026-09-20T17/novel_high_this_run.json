@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "lakeday-org/perch",
+    "source": "github",
+    "stars": 164,
+    "desc": "Semantic code linting with Jev",
+    "created": "2026-09-16T04:55:38Z",
+    "pushed": "2026-09-20T17:36:34Z",
+    "url": "https://github.com/lakeday-org/perch"
+  },
+  {
+    "id": "kshetrajna12/reflex",
+    "source": "github",
+    "stars": 85,
+    "desc": "A small open decision model: state + typed questions -> calibrated probabilities. A Jev / System One re-creation on Qwen3.5.",
+    "created": "2026-09-17T23:03:08Z",
+    "pushed": "2026-09-20T17:28:58Z",
+    "url": "https://github.com/kshetrajna12/reflex"
+  },
+  {
+    "id": "wobsoriano/oxlint-plugin-jev",
+    "source": "github",
+    "stars": 36,
+    "desc": "",
+    "created": "2026-09-19T05:44:11Z",
+    "pushed": "2026-09-20T17:40:26Z",
+    "url": "https://github.com/wobsoriano/oxlint-plugin-jev"
+  },
+  {
+    "id": "myc0576/SmartMoney-Cub",
+    "source": "github",
+    "stars": 25,
+    "desc": "Read-only trading journal and review harness: Jev typed judgments, agent integration, and a reproducible finance benchmark. No orders, no advice.",
+    "created": "2026-06-25T05:56:49Z",
+    "pushed": "2026-09-20T15:37:19Z",
+    "url": "https://github.com/myc0576/SmartMoney-Cub"
+  },
+  {
+    "id": "nassim-arifette/jevgrep",
+    "source": "github",
+    "stars": 12,
+    "desc": "Jev-powered semantic code search for coding agents \u2014 find behavior across repositories via CLI or MCP, with exact source excerpts and line numbers.",
+    "created": "2026-09-20T00:27:29Z",
+    "pushed": "2026-09-20T17:01:42Z",
+    "url": "https://github.com/nassim-arifette/jevgrep"
+  },
+  {
+    "id": "tyler-dot-earth/patdown",
+    "source": "github",
+    "stars": 10,
+    "desc": "typesafe's jev as a \"fuzzy linter\". give your code an ocular patdown.",
+    "created": "2026-09-18T16:00:08Z",
+    "pushed": "2026-09-20T17:43:08Z",
+    "url": "https://github.com/tyler-dot-earth/patdown"
+  },
+  {
+    "id": "PanAchy/jevvy",
+    "source": "github",
+    "stars": 9,
+    "desc": "Jev-powered plugins for coding agents",
+    "created": "2026-09-18T21:41:30Z",
+    "pushed": "2026-09-20T17:16:50Z",
+    "url": "https://github.com/PanAchy/jevvy"
+  },
+  {
+    "id": "Kevthetech143/super-jev",
+    "source": "github",
+    "stars": 6,
+    "desc": "A small, extensible decision-to-action harness for TypeSafe Jev",
+    "created": "2026-09-17T03:56:36Z",
+    "pushed": "2026-09-20T17:42:11Z",
+    "url": "https://github.com/Kevthetech143/super-jev"
+  },
+  {
+    "id": "BeatAPI/awesome-jev",
+    "source": "github",
+    "stars": 5,
+    "desc": "We only curate source-reviewed JEV-related projects with 100+ GitHub stars \u2014 integrations, tools, open models, and experiments. Live gallery: beatapi.io/awesome-jev",
+    "created": "2026-09-20T04:52:51Z",
+    "pushed": "2026-09-20T16:11:39Z",
+    "url": "https://github.com/BeatAPI/awesome-jev"
+  },
+  {
+    "id": "KonghaYao/laya-jev",
+    "source": "github",
+    "stars": 1,
+    "desc": "",
+    "created": "2026-09-19T13:30:46Z",
+    "pushed": "2026-09-19T14:11:24Z",
+    "url": "https://github.com/KonghaYao/laya-jev"
+  },
+  {
+    "id": "Pasblinn/jev-lab",
+    "source": "github",
+    "stars": 1,
+    "desc": "Open lab: Jev (TypeSafe System One) routing in front of Claude Code - measured bugs, patch, and a hard fallback with alerts",
+    "created": "2026-09-20T17:26:55Z",
+    "pushed": "2026-09-20T17:40:55Z",
+    "url": "https://github.com/Pasblinn/jev-lab"
+  },
+  {
+    "id": "gqgs/laya-onnx",
+    "source": "github",
+    "stars": 1,
+    "desc": "Laya ONNX for browsers",
+    "created": "2026-09-19T06:24:24Z",
+    "pushed": "2026-09-19T06:24:51Z",
+    "url": "https://github.com/gqgs/laya-onnx"
+  },
+  {
+    "id": "hfspace:pngwn/system-one-v2-retrain-trackio",
+    "source": "hf_space",
+    "stars": 1,
+    "desc": "",
+    "created": "2026-09-16T23:50:02.000Z",
+    "pushed": "2026-09-16T23:50:04.000Z",
+    "url": "https://huggingface.co/spaces/pngwn/system-one-v2-retrain-trackio"
+  },
+  {
+    "id": "sah1l/jev-battleship",
+    "source": "github",
+    "stars": 1,
+    "desc": "Battleship against Jev, a model that answers in probabilities instead of text. Web game plus a CLI arena that plays it against general-purpose LLMs on identical fleets.",
+    "created": "2026-09-20T08:27:07Z",
+    "pushed": "2026-09-20T17:17:13Z",
+    "url": "https://github.com/sah1l/jev-battleship"
+  },
+  {
+    "id": "4OH4/jev-compare",
+    "source": "github",
+    "stars": 0,
+    "desc": "Evaluating Jev for zero-shot evaluation",
+    "created": "2026-09-20T17:11:43Z",
+    "pushed": "2026-09-20T17:41:14Z",
+    "url": "https://github.com/4OH4/jev-compare"
+  },
+  {
+    "id": "4esv/jev-joust",
+    "source": "github",
+    "stars": 0,
+    "desc": "TypeSafe Jev vs Jev in NES Joust, bring your own ROM",
+    "created": "2026-09-18T19:37:50Z",
+    "pushed": "2026-09-20T17:20:50Z",
+    "url": "https://github.com/4esv/jev-joust"
+  },
+  {
+    "id": "99hansling/awesome-jev",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T16:16:46Z",
+    "pushed": "2026-09-20T16:43:54Z",
+    "url": "https://github.com/99hansling/awesome-jev"
+  },
+  {
+    "id": "99hansling/bb-jev-browser",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T16:44:30Z",
+    "pushed": "2026-09-20T16:44:35Z",
+    "url": "https://github.com/99hansling/bb-jev-browser"
+  },
+  {
+    "id": "AndreRochaDev/innovation-poc-jev",
+    "source": "github",
+    "stars": 0,
+    "desc": "Poc with jev",
+    "created": "2026-09-20T17:28:47Z",
+    "pushed": "2026-09-20T17:45:01Z",
+    "url": "https://github.com/AndreRochaDev/innovation-poc-jev"
+  },
+  {
+    "id": "AparnaDhinakaran/jev-as-judge",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T17:39:25Z",
+    "pushed": "2026-09-20T17:40:45Z",
+    "url": "https://github.com/AparnaDhinakaran/jev-as-judge"
+  },
+  {
+    "id": "ArronHC/windows2text",
+    "source": "github",
+    "stars": 0,
+    "desc": "Windows UI Automation screen-to-text, MCP server, and Jev-gated computer use",
+    "created": "2026-09-20T16:52:15Z",
+    "pushed": "2026-09-20T17:11:21Z",
+    "url": "https://github.com/ArronHC/windows2text"
+  },
+  {
+    "id": "Atominac/jevvy",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T17:44:58Z",
+    "pushed": "2026-09-20T17:44:59Z",
+    "url": "https://github.com/Atominac/jevvy"
+  },
+  {
+    "id": "CodeIA-Academy/jev-mcp",
+    "source": "github",
+    "stars": 0,
+    "desc": "MCP local que expone Jev (TypeSafe) como herramienta para Claude Code, Codex, Hermes y cualquier agente: ask_jev y list_jev_models, sin dependencias",
+    "created": "2026-09-20T17:24:10Z",
+    "pushed": "2026-09-20T17:34:43Z",
+    "url": "https://github.com/CodeIA-Academy/jev-mcp"
+  },
+  {
+    "id": "Coditan/system-one-axi",
+    "source": "github",
+    "stars": 0,
+    "desc": "Unofficial AXI-style CLI for TypeSafe System One models, including Jev.",
+    "created": "2026-09-20T17:36:39Z",
+    "pushed": "2026-09-20T17:39:49Z",
+    "url": "https://github.com/Coditan/system-one-axi"
+  },
+  {
+    "id": "Cyberesia/jev-traps",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T07:37:03Z",
+    "pushed": "2026-09-20T16:43:39Z",
+    "url": "https://github.com/Cyberesia/jev-traps"
+  },
+  {
+    "id": "Hinstein/jevhub",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T16:47:32Z",
+    "pushed": "2026-09-20T17:41:16Z",
+    "url": "https://github.com/Hinstein/jevhub"
+  },
+  {
+    "id": "Hugo-DDT/JevTape",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T14:28:24Z",
+    "pushed": "2026-09-20T17:32:29Z",
+    "url": "https://github.com/Hugo-DDT/JevTape"
+  },
+  {
+    "id": "Je1zzz/Jev-Codex-accelerator",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T10:46:01Z",
+    "pushed": "2026-09-20T17:30:16Z",
+    "url": "https://github.com/Je1zzz/Jev-Codex-accelerator"
+  },
+  {
+    "id": "JohnsonRan/pi-jev",
+    "source": "github",
+    "stars": 0,
+    "desc": "Claude-style auto-mode classifier for Pi, powered by TypeSafe Jev",
+    "created": "2026-09-20T14:51:02Z",
+    "pushed": "2026-09-20T17:28:24Z",
+    "url": "https://github.com/JohnsonRan/pi-jev"
+  },
+  {
+    "id": "Kaos599/jev-writer",
+    "source": "github",
+    "stars": 0,
+    "desc": "Find out which qualities of your writing actually predict engagement. Analyses (never generates) your published posts with Jev, TypeSafe AI's System One model, using pre-registered rubrics and statist",
+    "created": "2026-09-20T17:32:54Z",
+    "pushed": "2026-09-20T17:39:01Z",
+    "url": "https://github.com/Kaos599/jev-writer"
+  },
+  {
+    "id": "KaranSiddhu/jev-flappy-bird",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T17:18:14Z",
+    "pushed": "2026-09-20T17:21:16Z",
+    "url": "https://github.com/KaranSiddhu/jev-flappy-bird"
+  },
+  {
+    "id": "Lancer59/SystemOneModels",
+    "source": "github",
+    "stars": 0,
+    "desc": "Testing out System One Models",
+    "created": "2026-09-20T15:45:21Z",
+    "pushed": "2026-09-20T16:51:01Z",
+    "url": "https://github.com/Lancer59/SystemOneModels"
+  },
+  {
+    "id": "LouisUltra/jev-deep-dive",
+    "source": "github",
+    "stars": 0,
+    "desc": "An evidence-graded deep dive into Jev (TypeSafe AI's System One model): interface, verification, reproduction comparison, and field guide. Bilingual (EN/\u4e2d\u6587), with runnable probe tools.",
+    "created": "2026-09-20T17:19:10Z",
+    "pushed": "2026-09-20T17:23:34Z",
+    "url": "https://github.com/LouisUltra/jev-deep-dive"
+  },
+  {
+    "id": "Mawfyy/jevflow",
+    "source": "github",
+    "stars": 0,
+    "desc": "Probabilistic AI decisions as composable backend programming primitives.",
+    "created": "2026-09-20T17:43:53Z",
+    "pushed": "2026-09-20T17:44:01Z",
+    "url": "https://github.com/Mawfyy/jevflow"
+  },
+  {
+    "id": "MohtashamMurshid/jev-speed-test",
+    "source": "github",
+    "stars": 0,
+    "desc": "Reproducible Jev vs fast LLM experiment: BANKING77 data, raw responses, confidence evaluation, and analysis",
+    "created": "2026-09-20T17:43:40Z",
+    "pushed": "2026-09-20T17:44:10Z",
+    "url": "https://github.com/MohtashamMurshid/jev-speed-test"
+  },
+  {
+    "id": "OsirianLegacy/JevSimulation",
+    "source": "github",
+    "stars": 0,
+    "desc": "Building a Simulated world using Typesafe Ai's Jev to run entity choices, C++ 20, JSON for Jev Interactions, Clay for TUI, and Raylib 6 for Rendering",
+    "created": "2026-09-20T17:02:59Z",
+    "pushed": "2026-09-20T17:04:02Z",
+    "url": "https://github.com/OsirianLegacy/JevSimulation"
+  },
+  {
+    "id": "PavelLizunov/jev-minecraft-factory-sorter",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T16:48:13Z",
+    "pushed": "2026-09-20T16:48:22Z",
+    "url": "https://github.com/PavelLizunov/jev-minecraft-factory-sorter"
+  },
+  {
+    "id": "PavelLizunov/jev-sentinel",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T12:35:08Z",
+    "pushed": "2026-09-20T16:59:51Z",
+    "url": "https://github.com/PavelLizunov/jev-sentinel"
+  },
+  {
+    "id": "Pidbid/laya-deploy",
+    "source": "github",
+    "stars": 0,
+    "desc": "Deploy the Laya System 1 decision engine as a local judgment backend for omp (oh-my-pi): TypeSafe-compatible /v1/systemone bridge, MCP tools, systemd unit, installer, verification probes and the pitfa",
+    "created": "2026-09-20T17:10:40Z",
+    "pushed": "2026-09-20T17:17:02Z",
+    "url": "https://github.com/Pidbid/laya-deploy"
+  },
+  {
+    "id": "Sahilll15/jobfit",
+    "source": "github",
+    "stars": 0,
+    "desc": "Check your CV against a job posting, one requirement at a time. Built on TypeSafe Jev.",
+    "created": "2026-09-20T15:48:26Z",
+    "pushed": "2026-09-20T17:40:57Z",
+    "url": "https://github.com/Sahilll15/jobfit"
+  },
+  {
+    "id": "Santiago-j-s/jev-proxy",
+    "source": "github",
+    "stars": 0,
+    "desc": "Local observability proxy and playground for TypeSafe Jev",
+    "created": "2026-09-20T17:29:43Z",
+    "pushed": "2026-09-20T17:29:48Z",
+    "url": "https://github.com/Santiago-j-s/jev-proxy"
+  },
+  {
+    "id": "Sskift/jev-sts2-agent",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-19T13:18:49Z",
+    "pushed": "2026-09-20T17:38:02Z",
+    "url": "https://github.com/Sskift/jev-sts2-agent"
+  },
+  {
+    "id": "SwiftFaze/Jev-Studio",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T15:15:22Z",
+    "pushed": "2026-09-20T17:42:27Z",
+    "url": "https://github.com/SwiftFaze/Jev-Studio"
+  },
+  {
+    "id": "Todmy/jevqa",
+    "source": "github",
+    "stars": 0,
+    "desc": "Jev-guided monkey tester: $0.35 and 5 minutes to find missing features, validation gaps and dead controls before QA",
+    "created": "2026-09-20T10:27:40Z",
+    "pushed": "2026-09-20T17:40:29Z",
+    "url": "https://github.com/Todmy/jevqa"
+  },
+  {
+    "id": "TonyP-MR/jev-curation-engine",
+    "source": "github",
+    "stars": 0,
+    "desc": "Read-only TypeSafe Jev feasibility test rig for comparing structured Curation Engine classification decisions with existing LLM audit results.",
+    "created": "2026-09-18T12:14:14Z",
+    "pushed": "2026-09-20T17:42:49Z",
+    "url": "https://github.com/TonyP-MR/jev-curation-engine"
+  },
+  {
+    "id": "Vazool/jev-escape-room",
+    "source": "github",
+    "stars": 0,
+    "desc": "An experiment using Jev System One as a probabilistic semantic layer within a deterministic Python game world.",
+    "created": "2026-09-20T17:17:56Z",
+    "pushed": "2026-09-20T17:19:42Z",
+    "url": "https://github.com/Vazool/jev-escape-room"
+  },
+  {
+    "id": "VirtualMachinist/omapi-overlay",
+    "source": "github",
+    "stars": 0,
+    "desc": "Stock omp pin + overlay flake (skills, thin omapi wrap, Jev/cursor-agent gates). Not an omp source fork.",
+    "created": "2026-09-20T13:59:27Z",
+    "pushed": "2026-09-20T17:44:43Z",
+    "url": "https://github.com/VirtualMachinist/omapi-overlay"
+  },
+  {
+    "id": "Vishnurr2k01/awesome-jev",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T16:18:11Z",
+    "pushed": "2026-09-20T16:52:28Z",
+    "url": "https://github.com/Vishnurr2k01/awesome-jev"
+  },
+  {
+    "id": "a3ro-dev/jev-clone",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T16:53:07Z",
+    "pushed": "2026-09-20T17:25:30Z",
+    "url": "https://github.com/a3ro-dev/jev-clone"
+  },
+  {
+    "id": "abdelrahmanmagdii/jevci",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-19T19:50:38Z",
+    "pushed": "2026-09-20T17:09:46Z",
+    "url": "https://github.com/abdelrahmanmagdii/jevci"
+  },
+  {
+    "id": "abh2050/jev-test-confidence-gate",
+    "source": "github",
+    "stars": 0,
+    "desc": "One graph, one policy, two judgment engines. This experiment tests TypeSafe\u2019s published claims about Jev in a support-triage workflow, with a confidence gate that sends uncertain cases to a human.",
+    "created": "2026-09-20T17:01:34Z",
+    "pushed": "2026-09-20T17:32:11Z",
+    "url": "https://github.com/abh2050/jev-test-confidence-gate"
+  },
+  {
+    "id": "agentik-os/jev-radar",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-18T19:01:25Z",
+    "pushed": "2026-09-20T17:38:58Z",
+    "url": "https://github.com/agentik-os/jev-radar"
+  },
+  {
+    "id": "ahm-ge18/jev_replica",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T17:38:49Z",
+    "pushed": "2026-09-20T17:41:49Z",
+    "url": "https://github.com/ahm-ge18/jev_replica"
+  },
+  {
+    "id": "allay-team/openjev",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2022-07-11T19:11:20Z",
+    "pushed": "2022-07-12T19:20:08Z",
+    "url": "https://github.com/allay-team/openjev"
+  },
+  {
+    "id": "api-evangelist/typesafe-ai",
+    "source": "github",
+    "stars": 0,
+    "desc": "TypeSafe AI is a San Francisco AI lab building System One models \u2014 a class of model trained to return typed, calibrated decisions for software instead of generated text. Its flagship and first System ",
+    "created": "2026-09-19T15:09:23Z",
+    "pushed": "2026-09-20T16:51:20Z",
+    "url": "https://github.com/api-evangelist/typesafe-ai"
+  },
+  {
+    "id": "apurv101/jev-browser-use",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T16:47:26Z",
+    "pushed": "2026-09-20T16:47:26Z",
+    "url": "https://github.com/apurv101/jev-browser-use"
+  },
+  {
+    "id": "aryamangoenka/traceassert",
+    "source": "github",
+    "stars": 0,
+    "desc": "Semantic assertions for coding agents \u2014 test what your agent actually did, powered by Jev",
+    "created": "2026-09-20T17:07:42Z",
+    "pushed": "2026-09-20T17:07:47Z",
+    "url": "https://github.com/aryamangoenka/traceassert"
+  },
+  {
+    "id": "ayshrosine/Jev_Typesafe.Ai",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T17:45:05Z",
+    "pushed": "2026-09-20T17:45:06Z",
+    "url": "https://github.com/ayshrosine/Jev_Typesafe.Ai"
+  },
+  {
+    "id": "ba8eman/trying-jev",
+    "source": "github",
+    "stars": 0,
+    "desc": "a small repo to try out jev and get a feel for it",
+    "created": "2026-09-20T17:04:11Z",
+    "pushed": "2026-09-20T17:21:15Z",
+    "url": "https://github.com/ba8eman/trying-jev"
+  },
+  {
+    "id": "bahramzada/jev-canvas",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T17:15:45Z",
+    "pushed": "2026-09-20T17:36:45Z",
+    "url": "https://github.com/bahramzada/jev-canvas"
+  },
+  {
+    "id": "bavovna/jev-like-srv",
+    "source": "github",
+    "stars": 0,
+    "desc": "jev test backend compatible with https://docs.typesafe.ai/api",
+    "created": "2026-09-20T16:56:28Z",
+    "pushed": "2026-09-20T17:37:20Z",
+    "url": "https://github.com/bavovna/jev-like-srv"
+  },
+  {
+    "id": "blck-snwmn/playground-jev",
+    "source": "github",
+    "stars": 0,
+    "desc": "Small apps for experimenting with Jev.",
+    "created": "2026-09-19T05:56:15Z",
+    "pushed": "2026-09-20T17:29:57Z",
+    "url": "https://github.com/blck-snwmn/playground-jev"
+  },
+  {
+    "id": "bogusweb/ship-game-with-jev",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-19T21:38:31Z",
+    "pushed": "2026-09-20T17:03:02Z",
+    "url": "https://github.com/bogusweb/ship-game-with-jev"
+  },
+  {
+    "id": "chaseai-yt/jev-audit",
+    "source": "github",
+    "stars": 0,
+    "desc": "Find where TypeSafe Jev fits your real workflows. An evidence-based audit skill for Claude Code, Codex, and compatible agents.",
+    "created": "2026-09-20T17:18:11Z",
+    "pushed": "2026-09-20T17:18:14Z",
+    "url": "https://github.com/chaseai-yt/jev-audit"
+  },
+  {
+    "id": "chr-kelly/jev-cookbook",
+    "source": "github",
+    "stars": 0,
+    "desc": "Runnable question sets for TypeSafe's Jev, an eval harness with measured CLINC150 results, and a linter for the request shapes the API silently mis-reads.",
+    "created": "2026-09-20T17:21:07Z",
+    "pushed": "2026-09-20T17:21:13Z",
+    "url": "https://github.com/chr-kelly/jev-cookbook"
+  },
+  {
+    "id": "cleiton1231/Jev-mine",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T17:07:48Z",
+    "pushed": "2026-09-20T17:40:50Z",
+    "url": "https://github.com/cleiton1231/Jev-mine"
+  },
+  {
+    "id": "crman/jev-ai-output-judge",
+    "source": "github",
+    "stars": 0,
+    "desc": "Benchmarking Jev and LLMs for RAG answer evaluation and hallucination detection",
+    "created": "2026-09-20T16:58:55Z",
+    "pushed": "2026-09-20T17:33:20Z",
+    "url": "https://github.com/crman/jev-ai-output-judge"
+  },
+  {
+    "id": "curajorge/judgment-map",
+    "source": "github",
+    "stars": 0,
+    "desc": "A typed, reviewable AI judgment map for contract analysis with TypeSafe.",
+    "created": "2026-09-20T17:39:07Z",
+    "pushed": "2026-09-20T17:40:03Z",
+    "url": "https://github.com/curajorge/judgment-map"
+  },
+  {
+    "id": "davidmasp/url-jev",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T16:52:12Z",
+    "pushed": "2026-09-20T16:54:46Z",
+    "url": "https://github.com/davidmasp/url-jev"
+  },
+  {
+    "id": "ddwolfer/jev_play_guildrun",
+    "source": "github",
+    "stars": 0,
+    "desc": "jev_play_guildrun",
+    "created": "2026-09-20T15:33:43Z",
+    "pushed": "2026-09-20T17:20:46Z",
+    "url": "https://github.com/ddwolfer/jev_play_guildrun"
+  },
+  {
+    "id": "emretheus/jev-rag-benchmark",
+    "source": "github",
+    "stars": 0,
+    "desc": "Free English RAG benchmark for TypeSafe Jev 1.13 \u2014 frozen candidate pools, calibration, paired bootstrap CIs, $0 runs. Compared with OpenJev and NVIDIA cross-encoders.",
+    "created": "2026-09-20T17:07:21Z",
+    "pushed": "2026-09-20T17:37:47Z",
+    "url": "https://github.com/emretheus/jev-rag-benchmark"
+  },
+  {
+    "id": "expanso-io/demo-expanso-jev",
+    "source": "github",
+    "stars": 0,
+    "desc": "Expanso x Jev demos: live edge-pipeline dashboard, pipeline configs, and flow UI.",
+    "created": "2026-09-19T05:58:07Z",
+    "pushed": "2026-09-20T17:26:39Z",
+    "url": "https://github.com/expanso-io/demo-expanso-jev"
+  },
+  {
+    "id": "glukicov/laya_router",
+    "source": "github",
+    "stars": 0,
+    "desc": "Model routing is a System 1 job: a 421M local decision engine (Laya) against a GPT-5 nano reasoning router. Same accuracy, 35x faster, free.",
+    "created": "2026-09-20T17:20:59Z",
+    "pushed": "2026-09-20T17:44:33Z",
+    "url": "https://github.com/glukicov/laya_router"
+  },
+  {
+    "id": "gregjonesio/jev-nfl",
+    "source": "github",
+    "stars": 0,
+    "desc": "Before every NFL snap, a decision-only AI model (TypeSafe Jev) calls run or pass and go/punt/kick on fourth down, graded live against the coach.",
+    "created": "2026-09-20T04:19:01Z",
+    "pushed": "2026-09-20T17:19:19Z",
+    "url": "https://github.com/gregjonesio/jev-nfl"
+  },
+  {
+    "id": "hf:mradermacher/jevify-gemma4-e4b-GGUF",
+    "source": "hf_model",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T17:04:35.000Z",
+    "pushed": "2026-09-20T17:41:16.000Z",
+    "url": "https://huggingface.co/mradermacher/jevify-gemma4-e4b-GGUF"
+  },
+  {
+    "id": "hfdataset:DavidHatley/system-one-mini-data",
+    "source": "hf_dataset",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-16T17:02:50.000Z",
+    "pushed": "2026-09-16T17:30:11.000Z",
+    "url": "https://huggingface.co/datasets/DavidHatley/system-one-mini-data"
+  },
+  {
+    "id": "hfdataset:emretheus/jev-rag-benchmark",
+    "source": "hf_dataset",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T17:34:41.000Z",
+    "pushed": "2026-09-20T17:35:01.000Z",
+    "url": "https://huggingface.co/datasets/emretheus/jev-rag-benchmark"
+  },
+  {
+    "id": "hfdataset:pngwn/system-one-decisions",
+    "source": "hf_dataset",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-16T13:58:47.000Z",
+    "pushed": "2026-09-16T14:07:53.000Z",
+    "url": "https://huggingface.co/datasets/pngwn/system-one-decisions"
+  },
+  {
+    "id": "hfspace:emretheus/jev-rag-benchmark-leaderboard",
+    "source": "hf_space",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T17:35:10.000Z",
+    "pushed": "2026-09-20T17:35:12.000Z",
+    "url": "https://huggingface.co/spaces/emretheus/jev-rag-benchmark-leaderboard"
+  },
+  {
+    "id": "hfspace:pngwn/system-one-demo",
+    "source": "hf_space",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-16T19:03:01.000Z",
+    "pushed": "2026-09-16T19:48:13.000Z",
+    "url": "https://huggingface.co/spaces/pngwn/system-one-demo"
+  },
+  {
+    "id": "hfspace:pngwn/system-one-qwen3-5-4b-scorer-trackio",
+    "source": "hf_space",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-16T14:21:41.000Z",
+    "pushed": "2026-09-16T14:21:43.000Z",
+    "url": "https://huggingface.co/spaces/pngwn/system-one-qwen3-5-4b-scorer-trackio"
+  },
+  {
+    "id": "hobbs/jev-turn-analysis",
+    "source": "github",
+    "stars": 0,
+    "desc": "Jev Turn Analysis is a Rust CLI for analyzing completed Claude Code and Codex sessions.",
+    "created": "2026-09-20T17:12:32Z",
+    "pushed": "2026-09-20T17:40:20Z",
+    "url": "https://github.com/hobbs/jev-turn-analysis"
+  },
+  {
+    "id": "i-priyanshuverma/laravel-jev",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T16:26:30Z",
+    "pushed": "2026-09-20T16:43:20Z",
+    "url": "https://github.com/i-priyanshuverma/laravel-jev"
+  },
+  {
+    "id": "jammaru/jev-affected",
+    "source": "github",
+    "stars": 0,
+    "desc": "Semantic task routing for software development, powered by Jev.",
+    "created": "2026-09-20T17:08:51Z",
+    "pushed": "2026-09-20T17:25:21Z",
+    "url": "https://github.com/jammaru/jev-affected"
+  },
+  {
+    "id": "jaysonsantos/sudoku-jev",
+    "source": "github",
+    "stars": 0,
+    "desc": "Sudoku game played by the TypeSafe Jev decision model through OpenRouter",
+    "created": "2026-09-19T09:12:20Z",
+    "pushed": "2026-09-20T17:10:40Z",
+    "url": "https://github.com/jaysonsantos/sudoku-jev"
+  },
+  {
+    "id": "jdubpark/jevcode",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-19T22:05:37Z",
+    "pushed": "2026-09-20T17:30:03Z",
+    "url": "https://github.com/jdubpark/jevcode"
+  },
+  {
+    "id": "jpollard-cs/jev-observatory",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-19T16:13:43Z",
+    "pushed": "2026-09-20T17:20:44Z",
+    "url": "https://github.com/jpollard-cs/jev-observatory"
+  },
+  {
+    "id": "just-be-dev/jev-sat",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-19T13:54:20Z",
+    "pushed": "2026-09-20T17:11:02Z",
+    "url": "https://github.com/just-be-dev/jev-sat"
+  },
+  {
+    "id": "jyothepro/jev-games",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T17:38:04Z",
+    "pushed": "2026-09-20T17:44:52Z",
+    "url": "https://github.com/jyothepro/jev-games"
+  },
+  {
+    "id": "kaiyes/fast-jev-compaction-laya",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T14:39:01Z",
+    "pushed": "2026-09-20T14:50:47Z",
+    "url": "https://github.com/kaiyes/fast-jev-compaction-laya"
+  },
+  {
+    "id": "kiroclawai/system-one-blueprint",
+    "source": "github",
+    "stars": 0,
+    "desc": "Jev-class System One model blueprint \u2014 built from open components (50M encoder + parallel decision heads, Needle3 distillation, RLCD path)",
+    "created": "2026-09-20T17:15:21Z",
+    "pushed": "2026-09-20T17:15:49Z",
+    "url": "https://github.com/kiroclawai/system-one-blueprint"
+  },
+  {
+    "id": "klukacin/JEV_Claude_plugin",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T17:43:38Z",
+    "pushed": "2026-09-20T17:45:08Z",
+    "url": "https://github.com/klukacin/JEV_Claude_plugin"
+  },
+  {
+    "id": "kuromoka/garmin-jev-buddy",
+    "source": "github",
+    "stars": 0,
+    "desc": "A playful Garmin Connect IQ character that reacts to running data using Jev, with Japanese and English display",
+    "created": "2026-09-20T16:39:04Z",
+    "pushed": "2026-09-20T17:38:37Z",
+    "url": "https://github.com/kuromoka/garmin-jev-buddy"
+  },
+  {
+    "id": "leepokai/jev-adrank",
+    "source": "github",
+    "stars": 0,
+    "desc": "Real-time ad ranking and creative review on a typed evaluation model \u2014 one call prices a whole auction, no trained CTR model, no logged clicks.",
+    "created": "2026-09-20T17:05:17Z",
+    "pushed": "2026-09-20T17:28:12Z",
+    "url": "https://github.com/leepokai/jev-adrank"
+  },
+  {
+    "id": "marcosnovaesq/laya-playground",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-19T00:58:17Z",
+    "pushed": "2026-09-19T01:07:40Z",
+    "url": "https://github.com/marcosnovaesq/laya-playground"
+  },
+  {
+    "id": "michelbrigante46-art/Twitter-keyword-shield",
+    "source": "github",
+    "stars": 0,
+    "desc": "A high-performance content filtering userscript for X (Twitter), combining instant local rules with Jev (TypeSafe System One) semantic decisions to block spam and hidden promotions with sub-100ms late",
+    "created": "2026-09-20T17:33:37Z",
+    "pushed": "2026-09-20T17:38:42Z",
+    "url": "https://github.com/michelbrigante46-art/Twitter-keyword-shield"
+  },
+  {
+    "id": "mmastrac/jevenator2",
+    "source": "github",
+    "stars": 0,
+    "desc": "Jevenator 2: Judgement Day - region-scan localisation on a diffusion LLM",
+    "created": "2026-09-20T16:29:22Z",
+    "pushed": "2026-09-20T17:14:58Z",
+    "url": "https://github.com/mmastrac/jevenator2"
+  },
+  {
+    "id": "morre95/Laya-GuardRails-Harness",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T15:22:53Z",
+    "pushed": "2026-09-20T16:30:54Z",
+    "url": "https://github.com/morre95/Laya-GuardRails-Harness"
+  },
+  {
+    "id": "muratcanberber/JEV-TheFishGame",
+    "source": "github",
+    "stars": 0,
+    "desc": "\ud83d\udc20 A multiplayer fish game where every AI decision is a TypeSafe Jev (System One) call \u2014 flee, hunt, roam, with live confidence bars. Node + WebSocket + Three.js.",
+    "created": "2026-09-20T00:16:07Z",
+    "pushed": "2026-09-20T17:44:26Z",
+    "url": "https://github.com/muratcanberber/JEV-TheFishGame"
+  },
+  {
+    "id": "nayan-kunwar/jev-customer-support-triage",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T08:02:22Z",
+    "pushed": "2026-09-20T17:17:48Z",
+    "url": "https://github.com/nayan-kunwar/jev-customer-support-triage"
+  },
+  {
+    "id": "ngallodev-software/agent-workflow-typesafe-ai",
+    "source": "github",
+    "stars": 0,
+    "desc": "Optional TypeSafe AI/Jev advisory decision evidence for Agent-Workflow, without transferring lifecycle authority from deterministic orchestration.",
+    "created": "2026-09-18T20:12:54Z",
+    "pushed": "2026-09-20T17:33:23Z",
+    "url": "https://github.com/ngallodev-software/agent-workflow-typesafe-ai"
+  },
+  {
+    "id": "nsillik/jevvin-off",
+    "source": "github",
+    "stars": 0,
+    "desc": "Prototyping against TypeSafe's Jev System One API: a one-ticket quickstart and a Bluesky Jetstream firehose demo.",
+    "created": "2026-09-17T16:12:56Z",
+    "pushed": "2026-09-20T17:20:46Z",
+    "url": "https://github.com/nsillik/jevvin-off"
+  },
+  {
+    "id": "nvkudva/laya-web",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T15:53:02Z",
+    "pushed": "2026-09-20T17:19:44Z",
+    "url": "https://github.com/nvkudva/laya-web"
+  },
+  {
+    "id": "omerfeyzioglu/JevOps",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-19T21:59:11Z",
+    "pushed": "2026-09-20T17:42:02Z",
+    "url": "https://github.com/omerfeyzioglu/JevOps"
+  },
+  {
+    "id": "piyush-infocusp/openjev",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-17T12:36:44Z",
+    "pushed": "2026-09-17T12:36:45Z",
+    "url": "https://github.com/piyush-infocusp/openjev"
+  },
+  {
+    "id": "rahulthakore16/n8n-nodes-jev",
+    "source": "github",
+    "stars": 0,
+    "desc": "Jev by TypeSafe AI for n8n: typed decisions, probabilities, and confidence-aware workflows",
+    "created": "2026-09-20T17:03:41Z",
+    "pushed": "2026-09-20T17:40:05Z",
+    "url": "https://github.com/rahulthakore16/n8n-nodes-jev"
+  },
+  {
+    "id": "remotehostai/jg",
+    "source": "github",
+    "stars": 0,
+    "desc": "Proprietary jevgrep CLI preview: semantic code search for coding agents. Hosted search is not yet available.",
+    "created": "2026-09-20T03:29:39Z",
+    "pushed": "2026-09-20T17:35:45Z",
+    "url": "https://github.com/remotehostai/jg"
+  },
+  {
+    "id": "renatobardi/jev-o-matic",
+    "source": "github",
+    "stars": 0,
+    "desc": "Lab of Jev",
+    "created": "2026-09-19T22:20:05Z",
+    "pushed": "2026-09-20T17:37:20Z",
+    "url": "https://github.com/renatobardi/jev-o-matic"
+  },
+  {
+    "id": "robokrunch/awesome-jev",
+    "source": "github",
+    "stars": 0,
+    "desc": "A curated list of resources for Jev \u2014 TypeSafe AI's System One decision model. Maintained by RoboKrunch.",
+    "created": "2026-09-19T23:11:42Z",
+    "pushed": "2026-09-20T17:26:00Z",
+    "url": "https://github.com/robokrunch/awesome-jev"
+  },
+  {
+    "id": "rudy2steiner/awesome-jev-hub",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T15:33:24Z",
+    "pushed": "2026-09-20T16:59:09Z",
+    "url": "https://github.com/rudy2steiner/awesome-jev-hub"
+  },
+  {
+    "id": "rustybladerunner/jev-skills",
+    "source": "github",
+    "stars": 0,
+    "desc": "Practical Jev integration and experiment workflows, with runnable evidence-check examples.",
+    "created": "2026-09-20T17:03:48Z",
+    "pushed": "2026-09-20T17:03:51Z",
+    "url": "https://github.com/rustybladerunner/jev-skills"
+  },
+  {
+    "id": "saurabhkumar8112/jev-gpt5-routing-study",
+    "source": "github",
+    "stars": 0,
+    "desc": "Reproducible offline Jev and GPT-5 routing study: cost, accuracy, and failed held-out parity",
+    "created": "2026-09-20T15:09:20Z",
+    "pushed": "2026-09-20T16:52:06Z",
+    "url": "https://github.com/saurabhkumar8112/jev-gpt5-routing-study"
+  },
+  {
+    "id": "shaduf-labs/jev-catalog",
+    "source": "github",
+    "stars": 0,
+    "desc": "Jev use cases, open-source alternatives, real products and current access prices.",
+    "created": "2026-09-20T16:59:48Z",
+    "pushed": "2026-09-20T16:59:49Z",
+    "url": "https://github.com/shaduf-labs/jev-catalog"
+  },
+  {
+    "id": "shinjiyu/jev-debug",
+    "source": "github",
+    "stars": 0,
+    "desc": "Locate a bug file, or flag a diff, by cross-checking small source batches with JEV.",
+    "created": "2026-09-20T17:17:44Z",
+    "pushed": "2026-09-20T17:17:52Z",
+    "url": "https://github.com/shinjiyu/jev-debug"
+  },
+  {
+    "id": "smithclay/dbt_jev",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T16:39:40Z",
+    "pushed": "2026-09-20T16:40:06Z",
+    "url": "https://github.com/smithclay/dbt_jev"
+  },
+  {
+    "id": "stevenke1981/jev-codex-harness",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-20T17:05:45Z",
+    "pushed": "2026-09-20T17:30:44Z",
+    "url": "https://github.com/stevenke1981/jev-codex-harness"
+  },
+  {
+    "id": "sumanmichael/jevlang",
+    "source": "github",
+    "stars": 0,
+    "desc": "Python with a smart if statement, backed by TypeSafe's Jev model",
+    "created": "2026-09-20T17:27:50Z",
+    "pushed": "2026-09-20T17:44:34Z",
+    "url": "https://github.com/sumanmichael/jevlang"
+  },
+  {
+    "id": "taodav/jev_deep_rl",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-19T17:13:05Z",
+    "pushed": "2026-09-20T17:31:56Z",
+    "url": "https://github.com/taodav/jev_deep_rl"
+  },
+  {
+    "id": "tinmanlab/cartpole-jev",
+    "source": "github",
+    "stars": 0,
+    "desc": "CartPole lab for calibrated decision supervision: Jev-inspired local heads, optional TypeSafe Jev, deterministic control, and evidence-first robotics research.",
+    "created": "2026-09-20T17:09:00Z",
+    "pushed": "2026-09-20T17:09:01Z",
+    "url": "https://github.com/tinmanlab/cartpole-jev"
+  },
+  {
+    "id": "toorop/pi-jev-router",
+    "source": "github",
+    "stars": 0,
+    "desc": "",
+    "created": "2026-09-19T15:19:10Z",
+    "pushed": "2026-09-20T17:02:13Z",
+    "url": "https://github.com/toorop/pi-jev-router"
+  },
+  {
+    "id": "wsargent/laya-mcp",
+    "source": "github",
+    "stars": 0,
+    "desc": "Local MCP server exposing laya-mlx typed-decision inference on Apple Silicon via fastmcp",
+    "created": "2026-09-20T16:58:30Z",
+    "pushed": "2026-09-20T17:00:23Z",
+    "url": "https://github.com/wsargent/laya-mcp"
+  },
+  {
+    "id": "xiaohu0x/jevaimodel",
+    "source": "github",
+    "stars": 0,
+    "desc": "Source for jevaimodel.app",
+    "created": "2026-09-20T04:13:09Z",
+    "pushed": "2026-09-20T17:22:02Z",
+    "url": "https://github.com/xiaohu0x/jevaimodel"
+  },
+  {
+    "id": "xiaohu0x/jevhunt",
+    "source": "github",
+    "stars": 0,
+    "desc": "jevhunt project",
+    "created": "2026-09-20T07:17:25Z",
+    "pushed": "2026-09-20T17:39:50Z",
+    "url": "https://github.com/xiaohu0x/jevhunt"
+  },
+  {
+    "id": "zebedelu/chess-vs-jev",
+    "source": "github",
+    "stars": 0,
+    "desc": "A pygame chess game with Jev as the AI opponent. Play Human vs Human, Human vs Jev, or watch Jev vs Jev.",
+    "created": "2026-09-20T17:25:47Z",
+    "pushed": "2026-09-20T17:28:18Z",
+    "url": "https://github.com/zebedelu/chess-vs-jev"
+  },
+  {
+    "id": "zurfyx/jev-browser-skill",
+    "source": "github",
+    "stars": 0,
+    "desc": "Let Jev, TypeSafe's ~100ms decision model, drive your browser. A plug-and-play skill for Claude Code and Codex.",
+    "created": "2026-09-19T22:05:25Z",
+    "pushed": "2026-09-20T17:40:21Z",
+    "url": "https://github.com/zurfyx/jev-browser-skill"
+  }
+]

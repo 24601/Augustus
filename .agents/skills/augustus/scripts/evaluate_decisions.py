@@ -17,6 +17,11 @@ Also reports (when asked, and always in --self-test):
     peaked ranking, not a Noul (mass outside the bag can be hidden)
   * pick_by_id vs pick_second: the same scores, shuffled option order;
     slot-two is ranking theater, not a Noul
+  * paired CI includes-zero: a bootstrap interval that covers 0 is not
+    evidence of equivalence (paired bootstrap CIs are *theirs*)
+  * same-accuracy speedup: tied accuracy plus a latency ratio is a
+    systems comparison, not semantic equivalence
+  * lint cutoff still soft: p >= cutoff fires a sensor, not a proof
 
 Select thresholds on one split, evaluate on another: run twice with different
 files. Missing labels or costs produce a stated limitation, not defaults.
@@ -177,6 +182,29 @@ def _softmax(xs):
     return [e / total for e in exps]
 
 
+def ci_includes_zero(lo, hi):
+    """Paired bootstrap CIs are *theirs*. Covering zero is not equivalence."""
+    if lo > hi:
+        raise ValueError("need lo <= hi")
+    return lo <= 0.0 <= hi
+
+
+def same_accuracy_speedup(acc_a, acc_b, lat_a, lat_b):
+    """Tied accuracy plus a latency ratio is systems comparison, not meaning.
+
+    Same accuracy, 35x faster *theirs* is not semantic equivalence.
+    """
+    if lat_a <= 0 or lat_b <= 0:
+        raise ValueError("latencies must be positive")
+    tied = abs(acc_a - acc_b) < 1e-12
+    speedup = lat_b / lat_a
+    return tied, speedup
+
+
+def lint_cutoff_fires(p, cutoff):
+    """cutoff 0.8 still soft. A sensor fire is not a proof."""
+    return p >= cutoff
+
 
 def pick_by_id(scores_by_id):
     """Max score wins regardless of presentation order."""
@@ -299,6 +327,15 @@ def self_test():
     second = [pick_second(order) for order in orders]
     assert by_id == ["B", "B", "B", "B"], by_id
     assert second == ["B", "A", "B", "C"], second
+
+    # paired CI / same-accuracy speedup / lint cutoff still soft (1143).
+    assert not ci_includes_zero(0.35, 1.31)  # emretheus XQuAD *theirs*
+    assert ci_includes_zero(-0.10, 0.20)  # covering zero is not equivalence
+    tied, speedup = same_accuracy_speedup(0.600, 0.600, 184.0, 6415.0)
+    assert tied
+    assert 34.0 < speedup < 36.0, speedup
+    assert lint_cutoff_fires(0.81, 0.8)
+    assert not lint_cutoff_fires(0.79, 0.8)
 
     print("self-test ok")
 
