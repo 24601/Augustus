@@ -3017,6 +3017,123 @@ Cross-repo addition: (lt) judgment-as-language primitive;
 memories; (lw) memory-lease HIGH upgrade; (lx) jevlint
 rename; (ly) schema-compiler HIGH upgrade; (lz) ANE /
 local-logit / Pi-loop economics.
+## Batch #88 (2026-09-20 ~06:42 UTC / ~00:42 Boise) — hourly 0042 HIGH
+
+Note: `research/notes.md` §105. Docs-only on a fresh PR
+off main. Never reopen merged #7 / **#8** / **#9** /
+**#10** / **#12** / **#13** / **#14** / **#15** /
+**#16** / **#17** / **#18** / **#19** / **#20** /
+**#21** / **#22**. After merged #22 (`98ded82`, hourly
+2340 / `notes.md` §104). Do **not** merge from merged
+**#22**. Do **not** re-fold §93 mechanism / §94 / §95 /
+§96 / §97 / §98 / §99 / §100 / §101 / §102 / §103 / §104.
+Skip Archer rewrite. Do **not** re-fold 2340 / 2246 /
+2145 / 2041 / 1943 / 1843 / 1740 /
+gliner-native-runtime / 1639 / 1541. No invented
+metrics. Hunches labeled. Quote READMEs. Soft Noul ≠
+hard safety. Augustus owns placement. Seeing the
+distribution, measuring the instrument, and refusing to
+hard-gate a soft Noul as safety are the *class*
+exemplar this hour. Quote live REST over watch.
+`invented_signal: false`.
+
+- **Structured probability readouts (PRIMARY).**
+  Arohtea/jev-readout (JavaScript; license null; README
+  MIT; **0★**; HEAD `6f1e5900`; README SHA `67ee1e96`;
+  GitHub size **44** (relock; was **0** with contents)).
+  structured probability
+  readouts. distribution > argmax. Noul 0.5 midpoint.
+  score is expectation not integer. bare HTTP not SDK.
+  Arohtea/jev-readout.
+- **Ordinary-model Jev-shape.** gulagala001/jevify
+  (JavaScript MIT; **0★**; HEAD `3d3e904a`; README SHA
+  `0e2f8536`; GitHub size **145** (relock; was **0** with
+  contents)). Jev-style Choice/Score/Noul from ordinary
+  models. optional DSH plugin. schema-valid ≠ calibrated.
+  gulagala001/jevify ≠ Mintzs/jevify.
+- **Open-weight Laya measurement.**
+  mourad-ghafiri/laya-rlcd-benchmark (Python; license
+  null; **0★**; HEAD `3401ff26`; README SHA `d8d4859e`;
+  GitHub size **164** (relock; was **0** with contents)).
+  Laya RLCD benchmark. 40.3% below constant-answer.
+  open-weight measurement.
+  mourad-ghafiri/laya-rlcd-benchmark ≠ yibie/laya-jev-lab.
+- **Cheap fail-open semantic edge.**
+  SupremeDreamZ/jev-fastloop (Python MIT; **0★**; HEAD
+  `1157841a`; README SHA `053a0885`; GitHub size **12**
+  (relock; was **0** with contents)). cheap fail-open
+  semantic edge. second signal not sole. FastLoopError
+  catch. SupremeDreamZ/jev-fastloop ≠ jev-ultrafast.
+- **Fan-out measurement.** TheWebDevel/jev-fanout
+  (Python MIT; **0★**; HEAD `b30aaadc`; README SHA
+  `394b2e1e`; GitHub size **206** (relock; was **0** with
+  contents)). asking more questions in one call. 0.980
+  at every N. nearly not fully deterministic.
+  TheWebDevel/jev-fanout.
+- **VLM+Jev RL teacher.** harneet2512/reflexrl (Python
+  MIT; **0★**; HEAD `aa36be84`; README SHA `e6ff13cd`;
+  default master; GitHub size **749** (relock; was **0**
+  with contents)). Qwen3-VL perception + Jev decisions
+  train RL. 0 model calls at deployment. VLM alone 1.7
+  vs +Jev 4.4. harneet2512/reflexrl ≠
+  khordoo/jev-reflex-autonomy-lab.
+- **Independent Jev API vs Laya.** yibie/laya-jev-lab
+  (Python MIT; **0★**; HEAD `30ba64dc`; README SHA
+  `57bd1832`). independent Jev API vs Laya. cascade 0.60
+  matches 78% at 1.8×. noul facts not judgements.
+  yibie/laya-jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab.
+- **Locate vs decide.** umstek/zero-shot-ie-bench
+  (Python MIT; **0★**; HEAD `8770b16b`; README SHA
+  `d69dc96a`; size **50** (relock; was **33**)). GLiNER vs GLiFormer vs Laya vs
+  Jev. extractors ≠ decision engines. Laya
+  dict-instructions collapse 58.3%.
+  umstek/zero-shot-ie-bench.
+- **Throughput arena.** angelgalvisc/snake-arena-jev-vs-llms
+  (Python MIT; **0★**; HEAD `985a1c70`; README SHA
+  `0db6f528`; size 194). decisions-per-minute & cost.
+  204 moves vs 73. throughput not intelligence.
+  angelgalvisc/snake-arena-jev-vs-llms ≠
+  vtrivedy/jev-plays-games.
+- **Behavioral contracts.** sathariels/jevcheck
+  (Python MIT; **0★**; HEAD `fc49c795`; README SHA
+  `5c832f81`; size 117). behavioral contracts. pin
+  expectations eval upgrades. raw 0.94 is not a release.
+  sathariels/jevcheck ≠ dayhaysoos/jevals ≠
+  SivletLabs/jev-eval.
+- **Evidence-linked upgrade review.**
+  GaneshVG18/upgrade-radar (TypeScript MIT; **0★**; HEAD
+  `e438f9bd`; README SHA `c32f7d18`; GitHub size **908**
+  (relock; was **0** with contents)). evidence-linked
+  dependency upgrade. Jev never generates filenames.
+  no_direct_evidence ≠ safe to merge.
+  GaneshVG18/upgrade-radar ≠ LYchoon/paper-radar-jev.
+- **Knowledge-work discography.** lirantal/discoprint
+  (TypeScript Apache-2.0; **0★**; HEAD `a9d3294f`;
+  README SHA `9a64f473`; GitHub size **239** (relock; was
+  **0** with contents)). discography
+  theme/mood/complexity. five atomic questions one call.
+  lirantal/discoprint.
+
+Pulse (independent review relock after `0558f7d`): Archer still NOT landed. Hub
+archerhume/4rcherhume HTTP **401**. Tracker likes **59**
+(+3 vs §104 **56**); lastModified
+`2026-09-20T04:29:16Z` **UNCHANGED** vs §104. Laya Hub likes **705**.
+Blackwood Hub likes **2** gated manual — user census
+absent from tracker. Live REST: SemIf **2069★**; jevlike
+**1022★**; TypeAR **12★** flat. AnotiaWang/awesome-jev
+**92★** ≠ Awesomejev 561/27007 ≠ yibie/awesome-jev
+**450★**. Qwen3.8-27B ≠ Archer
+(likes **15796**). `invented_signal: false`.
+
+Cross-repo addition: (nb) structured probability
+readouts; (nc) ordinary-model Jev-shape; (nd) open-weight
+constant-answer bench; (ne) fail-open second-signal
+edge; (nf) packed fan-out measurement; (ng) perceive≠
+decide≠deploy RL; (nh) local-first cascade; (ni) locate
+vs decide; (nj) decisions-per-minute arena; (nk)
+behavioral pin-then-eval; (nl) evidence-linked remainder;
+(nm) knowledge-work discography.
+
 ## Batch #87 (2026-09-20 ~05:40 UTC / ~23:40 Boise) — hourly 2340 HIGH
 
 Note: `research/notes.md` §104. Docs-only on a fresh PR

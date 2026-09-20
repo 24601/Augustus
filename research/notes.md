@@ -22659,3 +22659,832 @@ items 138–148; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
+
+## 105. Hourly 0042 HIGH (2026-09-20 ~00:42 Boise / 2026-09-20T06:42Z)
+
+Docs-only on a **fresh PR off main**
+(`cursor/hourly-0042-augustus-fold-3529`).
+**Never reopen merged** Augustus PR #7 / **#8** /
+**#9** / **#10** / **#12** / **#13** / **#14** /
+**#15** / **#16** / **#17** / **#18** / **#19** /
+**#20** / **#21** / **#22**. After merged #22 (`98ded82`, hourly
+2340 / `notes.md` §104). Do **not** merge from
+merged **#22**. Do **not** re-fold §93 / §94 / §95 /
+§96 / §97 / §98 / §99 / §100 / §101 / §102 / §103
+/ §104. Quote READMEs. Mark
+*theirs*. No invented metrics. Hunches labeled. No
+wrappers, `npm` / `pip` / `npx` / `uv` / `mix` /
+`TYPESAFE_API_KEY` / `.env` as recipes. 0★ HIGH still
+gets a real card. Do **not** dump source / SDK /
+weights / eval logs. `invented_signal: false`. Skip
+Archer rewrite. Qwen3.8-27B ≠ Archer.
+
+Lane is Augustus: **mental models / architecture /
+Harbor-jevals / toolbelt**. Backend-agnostic
+categorization/scoring/decision class (Jev-like
+speed/econ), **not** a thin Jev-only dump. Design
+judgment, formal/semi-formal methods, decision
+theory, scoring class. Soft Noul ≠ hard safety.
+Formal methods **compose** with scoring; a Noul is a
+SENSOR. Avoid soundness theater. Jev is the hot
+exemplar, not the whole mandate. Seeing the
+distribution, measuring the instrument, and refusing
+to hard-gate a soft Noul as safety are the *class*
+exemplar this hour, not a TypeSafe drop-in.
+
+Unique consecutive fragments (this hour):
+structured probability readouts;
+distribution > argmax;
+Noul 0.5 midpoint;
+score is expectation not integer;
+bare HTTP not SDK;
+Arohtea/jev-readout;
+Jev-style Choice/Score/Noul from ordinary models;
+optional DSH plugin;
+schema-valid ≠ calibrated;
+gulagala001/jevify ≠ Mintzs/jevify;
+Laya RLCD benchmark;
+40.3% below constant-answer;
+open-weight measurement;
+mourad-ghafiri/laya-rlcd-benchmark ≠ yibie/laya-jev-lab;
+cheap fail-open semantic edge;
+second signal not sole;
+FastLoopError catch;
+SupremeDreamZ/jev-fastloop ≠ jev-ultrafast;
+asking more questions in one call;
+0.980 at every N;
+nearly not fully deterministic;
+TheWebDevel/jev-fanout;
+Qwen3-VL perception + Jev decisions train RL;
+0 model calls at deployment;
+VLM alone 1.7 vs +Jev 4.4;
+harneet2512/reflexrl ≠ khordoo/jev-reflex-autonomy-lab;
+independent Jev API vs Laya;
+cascade 0.60 matches 78% at 1.8×;
+noul facts not judgements;
+yibie/laya-jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab;
+GLiNER vs GLiFormer vs Laya vs Jev;
+extractors ≠ decision engines;
+Laya dict-instructions collapse 58.3%;
+umstek/zero-shot-ie-bench;
+decisions-per-minute & cost;
+204 moves vs 73;
+throughput not intelligence;
+angelgalvisc/snake-arena-jev-vs-llms ≠ vtrivedy/jev-plays-games;
+behavioral contracts;
+pin expectations eval upgrades;
+raw 0.94 is not a release;
+sathariels/jevcheck ≠ dayhaysoos/jevals ≠ SivletLabs/jev-eval;
+evidence-linked dependency upgrade;
+Jev never generates filenames;
+no_direct_evidence ≠ safe to merge;
+GaneshVG18/upgrade-radar ≠ LYchoon/paper-radar-jev;
+discography theme/mood/complexity;
+five atomic questions one call;
+lirantal/discoprint.
+
+### How-to-apply (twelve HIGH clusters)
+
+1. **Structured probability readouts**
+   (PRIMARY Augustus) — display the distribution,
+   not the argmax. A 59/41 Choice is a swing, not
+   a winner. Noul 0.5 midpoint is "I don't know";
+   Score is a probability-weighted mean, not a
+   rounded integer. Bare HTTP, not SDK, so the
+   bytes on the wire stay the instrument. Transfers
+   to any domain that must *see* uncertainty
+   (triage, credit, hiring, playlist mood). Not a
+   TypeSafe how-to.
+2. **Ordinary-model Jev-shape adapter** — wire-compat
+   Choice/Score/Noul from ordinary models + optional
+   DSH plugin. Questions **merged into one ordinary
+   call**, not independent parallel. Confidence from
+   the TypeSafe ordinary-model adapter, **not**
+   P(correct), **not** bit-identical to Jev.
+   schema-valid ≠ calibrated. gulagala001/jevify ≠
+   Mintzs/jevify (CUDA packed-logprob cousin).
+3. **Open-weight Laya measurement** — 40.3% on 305
+   graded decisions, **12.8 points below a constant
+   answer that reads no text**. Routing/choice beats
+   that baseline +10; booleans −26, ordinals −15.
+   Negative result is load-bearing. ≠ yibie/laya-jev-lab
+   ≠ pngwn/open-jev-laya-bench.
+4. **Cheap fail-open semantic edge** — first signal
+   retrieval, Jev second, policy on confidence.
+   FastLoopError catch: do the expensive thing.
+   Never the only signal on expensive decisions.
+   4/5, 8/8, 2.00→0.18 fused *theirs* on
+   jev-1.13-free $0. ≠ jev-ultrafast ≠
+   fast-jev-compaction.
+5. **Fan-out measurement** — does asking more
+   questions in one call change answers? Refund p
+   0.980 at every N, sd 0.0000; 60 ms/q at N=6 →
+   1.8 ms at N=400; 22 of 24 identical across 40
+   calls; two that moved at conf 0.107/0.312;
+   ~$0.015. Nearly not fully deterministic. Score
+   untested. Two documents, one afternoon. Measures
+   the docs pattern; is not the docs pattern.
+6. **Perception + decision as RL teacher** —
+   Qwen3-VL perception + Jev decisions train a
+   0.75M pixels-only policy. VLM alone ~1.7 kills vs
+   +Jev 4.40; 2.95× fewer env steps; **0 model calls
+   at deployment**; real-time 7.25 vs teacher −0.38;
+   $0.05 Jev *theirs*. Teacher influence anneals.
+   Action cloning the teacher fails (0.88). ≠
+   khordoo/jev-reflex-autonomy-lab (S1 flight, no
+   pixels). **not Harbor**.
+7. **Independent Jev API vs Laya** — 31/40=78% Jev
+   vs 23/40=57% Laya *theirs*; cascade at 0.60
+   matches 78% at 1.8× (45% local). noul facts not
+   judgements. Retracted: "choice order-biased"
+   (n=4) and "Laya confidence trustworthy above
+   0.7". Confidence-to-accuracy not monotonic past
+   0.70. ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab ≠
+   yibie/awesome-jev.
+8. **Locate vs decide bake-off** — GLiNER 2.5 vs
+   GLiFormer vs Laya vs Jev. Extractors ≠ decision
+   engines. Laya dict-instructions collapse 58.3%
+   sentiment; strings 95.8%. 100% determinism over
+   5 runs including cloud Jev. Easy sentiment set.
+   NER F1 GLiFormer-base 1.00 *theirs*. Decision
+   engines have no span output.
+9. **Decisions-per-minute & cost arena** — one seed,
+   one run: Jev 21 pts / 204 moves / 263 ms / 0.591¢
+   vs Haiku 9/73, Opus 3/25. Throughput not
+   intelligence. 45 output tokens sd 0.00.
+   Confidence 36% of moves <0.90. ≠
+   vtrivedy/jev-plays-games ≠ lewislululu/jevon.
+10. **Behavioral contracts** — pin production
+    expectations, eval upgrades. Raw 0.94 is not a
+    release. `jev-1.13`/`jev-1.14` strings are
+    **unverified example pin labels**; documented pin
+    `jev-1.13.0`. Exit 0 compatible / 1 breaking.
+    Gate helper optional, not the product. ≠
+    dayhaysoos/jevals ≠ SivletLabs/jev-eval ≠
+    willkelly/jev-evaluation.
+11. **Evidence-linked upgrade review** — code owns
+    identity/spans/hashes; Jev never generates
+    filenames/line numbers/release facts/patches.
+    `no_direct_evidence` ≠ safe to merge.
+    ILLUSTRATIVE FIXTURE screenshot is not live Jev.
+    Exit 0 advisory; findings alone do not fail.
+    Live rewrite this pass: HEAD `e438f9bd` / README
+    SHA `c32f7d18`. ≠ LYchoon/paper-radar-jev.
+12. **Knowledge-work discography categorization** —
+    theme Choice / mood Score / complexity Score /
+    explicit Noul / firstPerson Noul; five atomic
+    questions, one `systemOne` call per track. Code
+    owns MusicBrainz/lrclib fetch+cache; Jev scores
+    lyrics. Theme Choice is not a music-theory
+    certificate.
+
+### Cards (twelve HIGH)
+
+1. **Judgment-surface readout** (PRIMARY)
+
+   - **[`Arohtea/jev-readout`](https://github.com/Arohtea/jev-readout)**
+     (JavaScript; GitHub license **null**; README says
+     MIT; no LICENSE file; **0★** live REST; 0 forks;
+     created 2026-09-20T06:44:37Z; pushed
+     2026-09-20T07:01:17Z; updated
+     2026-09-20T07:01:20Z; HEAD `6f1e5900`;
+     README SHA `67ee1e96`; GitHub `size` **44** (relock; was **0** with
+     contents). GitHub description *theirs*:
+     "把一段内容交给 TypeSafe AI 的 Jev 模型，得到带概率分布的结构化判断".
+     README *theirs*: structured probability
+     readouts from TypeSafe Jev; distribution >
+     argmax; Noul 0.5 midpoint; Score is weighted
+     mean not rounded integer; bare HTTP not SDK;
+     CORS so key stays server-side. Do **not** copy
+     `npm` / `.env.local` / keys. Do not dump
+     `server.js`.
+
+     structured probability readouts.
+     distribution > argmax.
+     Noul 0.5 midpoint.
+     score is expectation not integer.
+     bare HTTP not SDK.
+
+     **Placement.** Pillar: SDT / ranking ≠
+     calibration + question-design. Hole: make the
+     distribution the product, not the argmax.
+     Family: TypeSafe Jev as SENSOR (judgment
+     surface tooling). Fail polarity: do not treat
+     displayed p as proof. Eval path: none.
+     **Empirical** as README architecture.
+     **Hypothesis** that seeing the swing changes
+     the act in *your* domain.
+
+     **Name lock:** always write
+     **Arohtea/jev-readout**. Soft Noul ≠ hard
+     safety: 0.5 / 59/41 / 2.69 are **sensors**.
+     Treating displayed p as a proof, or rounding
+     Score to an integer, is theater.
+
+2. **Ordinary-model Jev-shape (not a replica)**
+
+   - **[`gulagala001/jevify`](https://github.com/gulagala001/jevify)**
+     (JavaScript MIT LICENSE SHA `66869720`; GitHub
+     SPDX **MIT**; **0★** live REST; 0 forks;
+     created 2026-09-20T06:38:28Z; pushed
+     2026-09-20T06:39:18Z; updated
+     2026-09-20T06:38:36Z; HEAD `3d3e904a`;
+     README SHA `0e2f8536`; GitHub `size` **145** (relock; was **0** with
+     contents). GitHub description *theirs*:
+     "Jev-style Choice, Score and Noul decisions
+     from ordinary models. An optional DSH plugin."
+     README *theirs*: wire-compat shape; questions
+     merged into one ordinary-model call (not
+     independent parallel); confidence from TypeSafe
+     ordinary-model adapter, not P(correct), not
+     bit-identical to Jev; schema validation + at
+     most one format retry; no prompt-only third
+     mode. Do **not** copy `pnpm` / `dsh plugin` /
+     keys / ports.
+
+     Jev-style Choice/Score/Noul from ordinary models.
+     optional DSH plugin.
+     schema-valid ≠ calibrated.
+     gulagala001/jevify ≠ Mintzs/jevify.
+
+     **Placement.** Pillar: class map (constrained
+     JSON ≠ proper-scoring head). Hole: keep the
+     *shape* when the backend is an ordinary model;
+     code still computes argmax / weighted score.
+     Family: adapter, **not** TypeSafe, **not** the
+     CUDA/PyTorch packed-logprob cousin. Fail
+     polarity: **fail closed** on treating schema-
+     shaped JSON as a calibrated Noul. Eval path:
+     Playwright + mocked channels *theirs*; live
+     `test:live` is paid — **not Harbor**.
+     **Empirical** as README boundary. **Hypothesis**
+     on calibration vs hosted Jev.
+
+     **Name lock:** always write
+     **gulagala001/jevify**.
+     gulagala001/jevify ≠ Mintzs/jevify ≠
+     typesafe-ai/system-one-adapter-python.
+     Soft Noul ≠ hard safety: adapter confidence is
+     a **sensor**. Collapsing this into Mintzs/jevify
+     or treating schema-valid JSON as Jev identity
+     is theater.
+
+3. **Open-weight Laya RLCD benchmark**
+
+   - **[`mourad-ghafiri/laya-rlcd-benchmark`](https://github.com/mourad-ghafiri/laya-rlcd-benchmark)**
+     (Python; GitHub license **null**; no LICENSE
+     file; **0★** live REST; 0 forks; created
+     2026-09-20T06:37:14Z; pushed
+     2026-09-20T06:37:44Z; updated
+     2026-09-20T06:37:48Z; HEAD `3401ff26`;
+     README SHA `d8d4859e`; GitHub `size` **164** (relock; was **0** with
+     contents). GitHub description **null**. README
+     title *theirs*: `laya-decision-bench`. README
+     *theirs*: zero-shot on
+     `convaiinnovations/laya-multilingual`; 40.3% on
+     305 graded decisions — **12.8 points below a
+     constant answer that reads no text**. Routing
+     (`choice`) beats that baseline +10; booleans
+     −26, ordinals −15. 100 hand-written adversarial
+     scenarios. Do **not** dump `scenarios/` /
+     `results/`. Do not copy `uv` / 647 MB download
+     recipes.
+
+     Laya RLCD benchmark.
+     40.3% below constant-answer.
+     open-weight measurement.
+     mourad-ghafiri/laya-rlcd-benchmark ≠ yibie/laya-jev-lab.
+
+     **Placement.** Pillar: Harbor-jevals /
+     experimental design. Hole: measure the open
+     head against a **constant-answer** baseline,
+     not against a slogan. Family: open trained
+     decision-only (Laya multilingual). Fail
+     polarity: do not quote 40.3% as "Laya is bad"
+     without the constant-answer. Eval path:
+     `analyze.py` *theirs*; **not Harbor**.
+     **Empirical** as README one-liner.
+     **Hypothesis** on other Laya checkpoints.
+
+     **Name lock:** always write
+     **mourad-ghafiri/laya-rlcd-benchmark**.
+     mourad-ghafiri/laya-rlcd-benchmark ≠
+     yibie/laya-jev-lab ≠ pngwn/open-jev-laya-bench ≠
+     NandhaKishorM/laya. Soft Noul ≠ hard safety:
+     40.3% / +10 / −26 are **sensors**. Treating
+     40.3% as a class ceiling without the
+     constant-answer baseline is theater.
+
+4. **Cheap fail-open semantic edge**
+
+   - **[`SupremeDreamZ/jev-fastloop`](https://github.com/SupremeDreamZ/jev-fastloop)**
+     (Python MIT LICENSE SHA `d14dfce2`; **0★** live
+     REST; 0 forks; created 2026-09-20T06:34:00Z;
+     pushed 2026-09-20T06:34:04Z; updated
+     2026-09-20T06:34:08Z; HEAD `1157841a`;
+     README SHA `053a0885`; GitHub `size` **12** (relock; was **0** with
+     contents). GitHub description *theirs*: cheap
+     fail-open semantic edge layer; skill router
+     over 1,000+ skills; stdlib-only Python. README
+     *theirs*: first signal retrieval, Jev second,
+     policy on confidence; FastLoopError catch;
+     skill router over 1,248 skills; 4/5, 8/8,
+     2.00→0.18 fused *theirs* on jev-1.13-free $0.
+     Jev alone ≈ no-Jev baseline on routing; fused
+     with a first signal beat either. One giant
+     verdict 62.6% vs decomposed ~95% *theirs*
+     (cited as independent early evidence). Do
+     **not** copy keys / Zen UA workaround as a
+     skill. Do not dump `~/.hermes/fastloop/`.
+
+     cheap fail-open semantic edge.
+     second signal not sole.
+     FastLoopError catch.
+     SupremeDreamZ/jev-fastloop ≠ jev-ultrafast.
+
+     **Placement.** Pillar: mixed architecture +
+     VOI (pay for Jev iff retrieval already
+     surfaced candidates). Hole: Jev as second
+     semantic signal, never sole, never the chat
+     model. Family: TypeSafe Jev as SENSOR behind
+     a replaceable service. Fail polarity:
+     **fail-open** on FastLoopError (do the
+     expensive thing); do **not** hard-gate
+     fused confidence as safety. Eval path:
+     blind site QA 4/5 *theirs*; **not Harbor**.
+     **Empirical** as README architecture + live
+     table. **Hypothesis** on *your* skill roster.
+
+     **Name lock:** always write
+     **SupremeDreamZ/jev-fastloop**.
+     SupremeDreamZ/jev-fastloop ≠ jev-ultrafast ≠
+     nrdz-labs/fast-jev-opencode ≠
+     tamaratran/jev-pruner. Soft Noul ≠ hard
+     safety: 0.99/1.0 / 2.00→0.18 / 4/5 are
+     **sensors**. Hard-gating fastloop confidence
+     as safety is theater.
+
+5. **Fan-out measurement (docs pattern as experiment)**
+
+   - **[`TheWebDevel/jev-fanout`](https://github.com/TheWebDevel/jev-fanout)**
+     (Python MIT LICENSE SHA `b20a0007`; **0★** live
+     REST; 0 forks; created 2026-09-20T06:30:00Z;
+     pushed 2026-09-20T06:30:05Z; updated
+     2026-09-20T06:30:09Z; HEAD `b30aaadc`;
+     README SHA `394b2e1e`; GitHub `size` **206** (relock; was **0** with
+     contents). GitHub description *theirs*: "Does
+     asking Jev more questions in one call change
+     its answers?" README *theirs*: 0.980 at every
+     N, sd 0.0000; 60 ms/q at N=6 → 1.8 ms at
+     N=400; 22 of 24 identical across 40 calls;
+     two that moved at conf 0.107/0.312; ~$0.015;
+     two documents, one afternoon; Score untested.
+     Measures the fan-out pattern, is not the docs
+     pattern itself. Do **not** copy `uv` / `.env`.
+     Do not dump `out/*.jsonl`.
+
+     asking more questions in one call.
+     0.980 at every N.
+     nearly not fully deterministic.
+     TheWebDevel/jev-fanout.
+
+     **Placement.** Pillar: experimental design /
+     question mechanics. Hole: test whether packed
+     parallel questions contaminate probes.
+     Family: measurement of TypeSafe fan-out, not
+     a species. Fail polarity: do not treat
+     0.0000 sd as universal determinism; do not
+     extrapolate to Score / long states. Eval
+     path: three-condition + 40-call stability
+     *theirs*; **not Harbor**. **Empirical** as
+     README findings. **Hypothesis** on other
+     models / Score.
+
+     **Name lock:** always write
+     **TheWebDevel/jev-fanout**. Soft Noul ≠ hard
+     safety: 0.980 / 0.0000 / 22 of 24 are
+     **sensors**. Treating fan-out 0.0000 sd as
+     universal determinism is theater.
+
+6. **VLM perceives, Jev decides, student deploys**
+
+   - **[`harneet2512/reflexrl`](https://github.com/harneet2512/reflexrl)**
+     (Python MIT LICENSE SHA `0fb588bd`; **0★** live
+     REST; 0 forks; created 2026-09-20T06:28:29Z;
+     pushed 2026-09-20T06:28:34Z; updated
+     2026-09-20T06:28:40Z; HEAD `aa36be84`;
+     README SHA `e6ff13cd`; GitHub `size` **749** (relock; was **0** with
+     contents; default **master**). GitHub
+     description *theirs*: Qwen3-VL perception +
+     Jev decisions train a 0.75M real-time Doom
+     policy (2.95x faster RL, 0 model calls at
+     deployment). README *theirs*: VLM alone ~1.7
+     vs +Jev 4.40; 0.75M policy; 2.95× fewer env
+     steps; 0 model calls at deployment; real-time
+     7.25 vs teacher −0.38; $0.05 Jev; pixels-only
+     policy; teacher influence anneals; action
+     cloning 0.88 vs perception-distill 2.53;
+     fp16 silently corrupted the teacher (25% vs
+     100% on a synthetic control). Do **not** dump
+     `results/` / demo mp4. Do not copy Kaggle
+     recipes.
+
+     Qwen3-VL perception + Jev decisions train RL.
+     0 model calls at deployment.
+     VLM alone 1.7 vs +Jev 4.4.
+     harneet2512/reflexrl ≠ khordoo/jev-reflex-autonomy-lab.
+
+     **Placement.** Pillar: search/control + mixed
+     architecture (perceive ≠ decide ≠ execute).
+     Hole: foundation models teach perception;
+     a structured decision head teaches the act;
+     the deployed policy is neither. Family:
+     RL teacher, not a deployed Jev controller.
+     Fail polarity: do not treat 2.95× as Harbor;
+     do not ship VLM+Jev as the runtime. Eval
+     path: 3 seeds / held-out map *theirs*;
+     **not Harbor**. **Empirical** as README
+     scoreboard. **Hypothesis** on other games.
+
+     **Name lock:** always write
+     **harneet2512/reflexrl**.
+     harneet2512/reflexrl ≠
+     khordoo/jev-reflex-autonomy-lab ≠
+     laya-doom. Soft Noul ≠ hard safety: 4.40 /
+     2.95× / 7.25 / $0.05 are **sensors**.
+     Treating 2.95× RL as Harbor, or VLM+Jev as
+     a deployed controller, is theater.
+
+7. **Independent Jev API vs Laya + cascade**
+
+   - **[`yibie/laya-jev-lab`](https://github.com/yibie/laya-jev-lab)**
+     (Python MIT LICENSE SHA `fd19e322`; **0★** live
+     REST; 0 forks; created 2026-09-20T06:00:15Z;
+     pushed 2026-09-20T06:00:22Z; updated
+     2026-09-20T06:00:26Z; HEAD `30ba64dc`;
+     README SHA `57bd1832`; GitHub `size` **49** (relock; was **0** with
+     contents). GitHub description *theirs*:
+     independent measurements of typed-decision
+     models; cascade matches Jev accuracy at 1.8x
+     the speed. README *theirs*: 31/40=78% Jev vs
+     23/40=57% Laya; cascade at 0.60 matches 78%
+     at 1.8× (45% local); noul facts not
+     judgements; retracted "choice order-biased"
+     (n=4) and "Laya confidence trustworthy above
+     0.7"; confidence-to-accuracy not monotonic
+     past 0.70. One task domain (Chinese support
+     tickets). Do **not** copy `pip` / keys /
+     `~/.pi/...config.json`. Do not dump
+     `results/`.
+
+     independent Jev API vs Laya.
+     cascade 0.60 matches 78% at 1.8×.
+     noul facts not judgements.
+     yibie/laya-jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab.
+
+     **Placement.** Pillar: Harbor-jevals + VOI
+     (escalate iff local confidence is low). Hole:
+     local-first cascade; a single global
+     threshold is a compromise. Family: open Laya
+     + hosted Jev, not a new species. Fail
+     polarity: do **not** hard-gate cascade 0.60
+     as safety (curve not monotonic). Eval path:
+     40-case *theirs*; **not Harbor**.
+     **Empirical** as README + retracted
+     conclusions. **Hypothesis** outside Chinese
+     tickets.
+
+     **Name lock:** always write
+     **yibie/laya-jev-lab**.
+     yibie/laya-jev-lab ≠ dairui1/jev-lab ≠
+     BrendanH18/jev-lab ≠ yibie/awesome-jev ≠
+     mourad-ghafiri/laya-rlcd-benchmark. Soft Noul ≠
+     hard safety: 78% / 0.60 / 1.8× are
+     **sensors**. Hard-gating Laya cascade 0.60,
+     or citing a retracted n=4 order-bias, is
+     theater.
+
+8. **Locate vs decide (encoder ≠ engine)**
+
+   - **[`umstek/zero-shot-ie-bench`](https://github.com/umstek/zero-shot-ie-bench)**
+     (Python MIT LICENSE SHA `4396160e`; **0★** live
+     REST; 0 forks;      created 2026-09-20T04:48:58Z;
+     pushed 2026-09-20T07:25:24Z; updated
+     2026-09-20T05:19:56Z; HEAD `8770b16b`;
+     README SHA `d69dc96a`; GitHub `size` **50** (relock; was **33**)).
+     GitHub description *theirs*: GLiNER 2.5 vs
+     GLiFormer vs Laya vs Jev. README *theirs*:
+     extractors ≠ decision engines; Laya
+     dict-instructions collapse 58.3% sentiment;
+     strings 95.8%; 100% determinism over 5 runs
+     including cloud Jev; easy sentiment set; NER
+     F1 GLiFormer-base **1.00** *theirs*; decision
+     engines have no span output. Do **not** copy
+     `uv` / `.env`. Do not dump
+     `bench_results.json`.
+
+     GLiNER vs GLiFormer vs Laya vs Jev.
+     extractors ≠ decision engines.
+     Laya dict-instructions collapse 58.3%.
+     umstek/zero-shot-ie-bench.
+
+     **Placement.** Pillar: judgment-class species
+     map (locate vs categorize vs decide). Hole:
+     do not collapse span extractors into Choice
+     engines. Family: cross-family bake-off, not
+     a species. Fail polarity: do not treat 100%
+     on an easy sentiment set as a class ceiling;
+     do not ask Laya/Jev for NER spans. Eval
+     path: 5-run CPU *theirs*; **not Harbor**.
+     **Empirical** as README tables.
+     **Hypothesis** on hard sets.
+
+     **Name lock:** always write
+     **umstek/zero-shot-ie-bench**. Soft Noul ≠
+     hard safety: 100% / 1.00 / 58.3% are
+     **sensors**. Collapsing locate into decide,
+     or quoting 100% sentiment as a class win,
+     is theater.
+
+9. **Throughput arena, not intelligence**
+
+   - **[`angelgalvisc/snake-arena-jev-vs-llms`](https://github.com/angelgalvisc/snake-arena-jev-vs-llms)**
+     (Python MIT LICENSE SHA `01bacbf4`; **0★** live
+     REST; 0 forks; created 2026-09-20T05:15:14Z;
+     pushed 2026-09-20T06:09:42Z; updated
+     2026-09-20T06:09:46Z; HEAD `985a1c70`;
+     README SHA `0db6f528`; GitHub `size` **194**).
+     GitHub description *theirs*: how many
+     decisions in a minute, and what do they cost.
+     README *theirs*: one seed one run; Jev 21 pts
+     / 204 moves / 263 ms / 0.591¢ vs Haiku 9/73,
+     Opus 3/25; throughput not intelligence; 45
+     output tokens sd 0.00; confidence 36% of
+     moves <0.90; matched score at the same move
+     number. Do **not** copy `.env` / keys. Do not
+     dump `race_seven.jsonl`.
+
+     decisions-per-minute & cost.
+     204 moves vs 73.
+     throughput not intelligence.
+     angelgalvisc/snake-arena-jev-vs-llms ≠ vtrivedy/jev-plays-games.
+
+     **Placement.** Pillar: EU / latency-as-cost +
+     mixed architecture (decision contract vs
+     generator). Hole: when the clock is part of
+     the answer, a decision model is a different
+     object from a chat model with a reasoning
+     dial. Family: arena, not a species. Fail
+     polarity: do not quote 21 points as
+     intelligence. Eval path: one seed one run
+     *theirs*; **not Harbor**. **Empirical** as
+     README race table. **Hypothesis** on other
+     seeds.
+
+     **Name lock:** always write
+     **angelgalvisc/snake-arena-jev-vs-llms**.
+     angelgalvisc/snake-arena-jev-vs-llms ≠
+     vtrivedy/jev-plays-games ≠ lewislululu/jevon
+     ≠ golergka/jev-plays-starcraft-2. Soft Noul ≠
+     hard safety: 21 / 204 / 0.591¢ / 36% <0.90
+     are **sensors**. Treating snake points as
+     intelligence is theater.
+
+10. **Behavioral contracts (pin, then eval)**
+
+    - **[`sathariels/jevcheck`](https://github.com/sathariels/jevcheck)**
+      (Python MIT LICENSE SHA `877820f8`; **0★** live
+      REST; 0 forks; created 2026-09-19T22:53:24Z;
+      pushed 2026-09-20T05:10:46Z; updated
+      2026-09-20T05:10:51Z; HEAD `fc49c795`;
+      README SHA `5c832f81`; GitHub `size` **117**).
+      GitHub description *theirs*: behavioral
+      contracts for TypeSafe Jev — pin production
+      expectations, eval model upgrades. README
+      *theirs*: raw 0.94 is not a release;
+      `jev-1.13`/`jev-1.14` strings are unverified
+      example pin labels; documented pin
+      `jev-1.13.0`; exit 0 compatible / 1 breaking;
+      Gate helper optional, not the product. Do
+      **not** copy `pip` / Action `uses:` / keys.
+      Do not dump fixtures.
+
+      behavioral contracts.
+      pin expectations eval upgrades.
+      raw 0.94 is not a release.
+      sathariels/jevcheck ≠ dayhaysoos/jevals ≠ SivletLabs/jev-eval.
+
+      **Placement.** Pillar: Harbor-jevals practice
+      (pin the instrument, then eval the upgrade).
+      Hole: a probability is not a release
+      decision; a flip/regression contract is.
+      Family: eval harness, not a species. Fail
+      polarity: exit 1 is a **breaking contract**,
+      not a proof the candidate is worse in the
+      world. Eval path: replay fixtures *theirs*;
+      **not Harbor**. **Empirical** as README +
+      ADR. **Hypothesis** on live catalog IDs.
+
+      **Name lock:** always write
+      **sathariels/jevcheck**.
+      sathariels/jevcheck ≠ dayhaysoos/jevals ≠
+      SivletLabs/jev-eval ≠ willkelly/jev-evaluation
+      ≠ 4esv/jev-eval. Soft Noul ≠ hard safety:
+      0.94 / exit 0/1 are **sensors**. Treating
+      jevcheck as a correctness proof, or
+      `jev-1.14` as a verified live ID, is theater.
+
+11. **Evidence-linked upgrade review (code owns facts)**
+
+    - **[`GaneshVG18/upgrade-radar`](https://github.com/GaneshVG18/upgrade-radar)**
+      (TypeScript MIT LICENSE SHA `588680c5`; **0★**
+      live REST; 0 forks;       created
+      2026-09-20T06:36:24Z; pushed
+      2026-09-20T07:09:10Z; updated
+      2026-09-20T07:07:57Z; HEAD `e438f9bd`;
+      README SHA `c32f7d18`; GitHub `size` **908** (relock; was **0** with
+      contents). GitHub description *theirs*:
+      evidence-linked dependency upgrade review
+      powered by Jev. README *theirs*: code owns
+      identity/spans/hashes; Jev never generates
+      filenames, line numbers, release facts,
+      citations, patches, or commands;
+      `no_direct_evidence` ≠ safe to merge;
+      ILLUSTRATIVE FIXTURE screenshot is not live
+      Jev; exit 0 advisory; findings alone do not
+      fail; missing credentials fail 69 — never
+      silently fall back to fixture. Honesty lock:
+      HEAD moved this pass vs a prior-agent pin
+      `d7cfc80c` / README `d1094805`. Do **not**
+      copy `npm` / Action / keys.
+
+      evidence-linked dependency upgrade.
+      Jev never generates filenames.
+      no_direct_evidence ≠ safe to merge.
+      GaneshVG18/upgrade-radar ≠ LYchoon/paper-radar-jev.
+
+      **Placement.** Pillar: formal compose
+      (exact spans in code; remainder judgment) +
+      Leveson (sensor ≠ merge authority). Hole:
+      Jev answers closed relevance questions over
+      a compact note/usage pair; host maps
+      ambiguity to `unknown`. Family: TypeSafe Jev
+      as SENSOR. Fail polarity: **fail-open**
+      advisory (exit 0); **fail-closed** on missing
+      credentials (69, no silent fixture). Eval
+      path: 48 authored cases *theirs*; live Jev
+      private; **not Harbor**. **Empirical** as
+      README architecture. **Hypothesis** outside
+      Express 4→5 / Zod 3→4.
+
+      **Name lock:** always write
+      **GaneshVG18/upgrade-radar**.
+      GaneshVG18/upgrade-radar ≠
+      LYchoon/paper-radar-jev ≠ WaynezProg/jev-kit.
+      Soft Noul ≠ hard safety: `review` /
+      `no_direct_evidence` / `unknown` are
+      **sensors**. Treating `no_direct_evidence` as
+      merge-safe, or the screenshot as live Jev,
+      is theater.
+
+12. **Knowledge-work discography categorization**
+
+    - **[`lirantal/discoprint`](https://github.com/lirantal/discoprint)**
+      (TypeScript Apache-2.0 LICENSE SHA
+      `3c011d11`; **0★** live REST; 0 forks;
+      created 2026-09-20T06:37:50Z; pushed
+      2026-09-20T07:00:03Z; updated
+      2026-09-20T07:00:06Z; HEAD `a9d3294f`;
+      README SHA `9a64f473`; GitHub `size` **239** (relock; was **0** with
+      contents). GitHub description *theirs*:
+      classify an artist's discography by theme,
+      mood, and lyrical complexity with Jev.
+      README *theirs*: five atomic questions one
+      `systemOne` call per track (theme Choice,
+      mood Score 0–4, complexity Score 0–3,
+      explicit Noul, firstPerson Noul); code owns
+      MusicBrainz + lrclib fetch/cache; dashboard
+      from already-classified JSON. Do **not** copy
+      `npx` / `.env` / 1Password refs. Do not dump
+      lyrics caches.
+
+      discography theme/mood/complexity.
+      five atomic questions one call.
+      lirantal/discoprint.
+
+      **Placement.** Pillar: MCDA / ranking +
+      question-design (atomic, batched). Hole:
+      knowledge-work categorization outside SWE;
+      exact work is catalog identity + lyrics
+      fetch; judgment is theme/mood/complexity.
+      Family: TypeSafe Jev as SENSOR. Fail
+      polarity: do not treat theme Choice as a
+      music-theory certificate; ranking ≠
+      calibration. Eval path: none published.
+      **Empirical** as README architecture.
+      **Hypothesis** on *your* artist / rubric.
+
+      **Name lock:** always write
+      **lirantal/discoprint**. Soft Noul ≠ hard
+      safety: theme/mood/complexity confidences
+      are **sensors**. Treating a theme Choice as
+      a music-theory certificate is theater.
+
+### Theater (do not)
+
+Treat displayed p as proof / round Score to an
+integer / collapse Arohtea into an SDK tutorial;
+treat schema-shaped ordinary-model JSON as a
+calibrated Noul / collapse gulagala001/jevify into
+Mintzs/jevify; quote 40.3% as "Laya is bad"
+without the constant-answer baseline / collapse
+mourad into yibie/laya-jev-lab; hard-gate fastloop
+confidence as safety / collapse into jev-ultrafast;
+treat fan-out 0.0000 sd as universal determinism /
+extrapolate to Score; treat 2.95× RL as Harbor /
+ship VLM+Jev as the deployed controller / collapse
+reflexrl into khordoo; hard-gate Laya cascade 0.60
+(confidence-to-accuracy not monotonic) / cite
+retracted n=4 order-bias; collapse locate into
+decide / quote 100% easy sentiment as a class win;
+treat snake points as intelligence / collapse into
+jev-plays-games; treat jevcheck as a correctness
+proof / treat `jev-1.14` as a verified live ID /
+collapse into jevals or SivletLabs/jev-eval; treat
+`no_direct_evidence` as merge-safe / treat the
+ILLUSTRATIVE FIXTURE as live Jev / collapse into
+paper-radar-jev; treat theme Choice as a
+music-theory certificate; treat Qwen3.8-27B as
+Archer; invent tweets.
+
+### Census
+
+Census **not provided this hour** (not
+re-derived). Live REST pulse (independent review
+relock after `0558f7d`): SemIf **2069★** (+22 vs §104 **2047**); jevlike
+([vinnylarouge/jevlike](https://github.com/vinnylarouge/jevlike))
+**1022★** (+4 vs §104 **1018**); TypeAR-AI/TypeAR
+**12★** **flat**; AnotiaWang/awesome-jev **92★**
+(+1 vs §104 **91**) still a **different object**
+from user-provided Awesomejev 561/27007 (§99 pin).
+yibie/awesome-jev **450★** ≠ Awesomejev.
+Archer still **NOT landed**. Hub
+`archerhume/4rcherhume` HTTP **401**. Tracker
+[multimodalart/jev-reproductions-tracker](https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker)
+likes **59** (+3 vs §104 **56**; +4 vs the
+incoming watch); lastModified
+`2026-09-20T04:29:16Z` **UNCHANGED** vs §104 /
+2340. Laya Hub
+`convaiinnovations/laya` HTTP **200** likes **705**.
+Blackwood Hub `BlackwoodAI/blackwood-rlcd` HTTP
+**200** likes **2** gated **manual** — user census
+**Blackwood absent** from the tracker; do not
+rewrite as landed. Qwen/Qwen3.8-27B HTTP **200**
+likes **15796** ≠ Archer. X MCP not used this
+hour; no invented tweets. `invented_signal:
+false`.
+
+### Not
+
+Not a TypeSafe how-to. Not a jev-readout / jevify /
+laya-rlcd-benchmark / jev-fastloop / jev-fanout /
+reflexrl / laya-jev-lab / zero-shot-ie-bench /
+snake-arena / jevcheck / upgrade-radar / discoprint
+install guide. Not wrappers. Do not copy keys /
+`npm` / `pip` / `npx` / `uv` / `mix` / `curl | sh`
+/ `.env`. Do not re-fold 2340 / §104 /
+2246 / §103 / 2145 / §102 / 2041 / §101 / 1943 /
+§100 / 1843 / §99 / 1740 / §98 / 1639 / §96 /
+gliner-native-runtime / §97 / 1541 / §95 /
+jev-align *mechanism* / §93. Do not reply into
+finished agents. Do **not** merge from this
+review — parent merges after CLEAN. Do **not**
+merge from merged **#22**.
+
+### Curated status
+
+0042 HIGH **folded** (12 HIGH / twelve clusters:
+structured probability readouts PRIMARY;
+ordinary-model Jev-shape; Laya RLCD benchmark;
+cheap fail-open semantic edge; fan-out
+measurement; VLM+Jev RL teacher; independent Jev
+API vs Laya; locate vs decide bake-off;
+decisions-per-minute arena; behavioral contracts;
+evidence-linked upgrade review; knowledge-work
+discography categorization). §104 / §103 / §102 / §101 /
+§100 / §99 / §98 / §97 / §96 / §95 / §93
+mechanism **not re-carded**. Archer still **NOT
+landed**. 0★ HIGH still got a real card (all
+twelve **0★**). `invented_signal: false`.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`judgment-class.md`; `validation.md`;
+`applied-mappings.md`; `mappings.md`;
+`toolbox-mapping.md`; `composition-algebra.md`
+items 149–160; `question-design.md`;
+`methods-catalog.md`; `formal-methods.md`;
+`agent-self-assessment.md`. Hunches labeled.
+No wrapper.

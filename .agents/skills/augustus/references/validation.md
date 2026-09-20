@@ -899,6 +899,14 @@ is not that bake-off either (`notes.md` §49). DMB is the frozen-protocol
 exemplar for decision-model vs constrained-LLM vs baselines; jevals-data
 is the public log feedstock. Do not promote a vendor table into a ranking.
 
+| Laya RLCD vs constant-answer (not Harbor) | [mourad-ghafiri/laya-rlcd-benchmark](https://github.com/mourad-ghafiri/laya-rlcd-benchmark) | Python; license null; **0★**; README SHA `d8d4859e`. Laya RLCD benchmark. 40.3% below constant-answer. open-weight measurement. ≠ yibie/laya-jev-lab. `notes.md` §105 |
+| Fan-out packed-question (not Harbor) | [TheWebDevel/jev-fanout](https://github.com/TheWebDevel/jev-fanout) | Python MIT; **0★**; README SHA `394b2e1e`. asking more questions in one call. 0.980 at every N. nearly not fully deterministic. Score untested. `notes.md` §105 |
+| Locate vs decide CPU bench (not Harbor) | [umstek/zero-shot-ie-bench](https://github.com/umstek/zero-shot-ie-bench) | Python MIT; **0★**; README SHA `d69dc96a`. GLiNER vs GLiFormer vs Laya vs Jev. extractors ≠ decision engines. Laya dict-instructions collapse 58.3%. 100% determinism over 5 runs *theirs*. `notes.md` §105 |
+| Snake throughput arena (not Harbor) | [angelgalvisc/snake-arena-jev-vs-llms](https://github.com/angelgalvisc/snake-arena-jev-vs-llms) | Python MIT; **0★**; README SHA `0db6f528`. decisions-per-minute & cost. 204 moves vs 73. throughput not intelligence. One seed one run. ≠ vtrivedy/jev-plays-games. `notes.md` §105 |
+| ReflexRL teacher (not Harbor) | [harneet2512/reflexrl](https://github.com/harneet2512/reflexrl) | Python MIT; **0★**; README SHA `e6ff13cd`. Qwen3-VL perception + Jev decisions train RL. 0 model calls at deployment. VLM alone 1.7 vs +Jev 4.4. 2.95× *theirs*. ≠ khordoo. `notes.md` §105 |
+| Independent Jev vs Laya cascade (not Harbor) | [yibie/laya-jev-lab](https://github.com/yibie/laya-jev-lab) | Python MIT; **0★**; README SHA `57bd1832`. independent Jev API vs Laya. cascade 0.60 matches 78% at 1.8×. noul facts not judgements. Retracted n=4 order-bias. ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab. `notes.md` §105 |
+| jevcheck pin/eval (not Harbor) | [sathariels/jevcheck](https://github.com/sathariels/jevcheck) | Python MIT; **0★**; README SHA `5c832f81`. behavioral contracts. pin expectations eval upgrades. raw 0.94 is not a release. ≠ jevals ≠ SivletLabs/jev-eval. `notes.md` §105 |
+| Upgrade-radar authored cases (not Harbor) | [GaneshVG18/upgrade-radar](https://github.com/GaneshVG18/upgrade-radar) | TypeScript MIT; **0★**; README SHA `c32f7d18`. evidence-linked dependency upgrade. Jev never generates filenames. no_direct_evidence ≠ safe to merge. 48 authored cases *theirs*; live Jev private. `notes.md` §105 |
 **Shared bake-off exemplar (Empirical as that named receipt, not a
 ranking).** [`pngwn/open-jev-laya-bench`](https://huggingface.co/datasets/pngwn/open-jev-laya-bench)
 (`RESULTS.md` this pass): System One Qwen3.5-4B scorer vs Laya 421M,

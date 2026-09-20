@@ -1074,6 +1074,72 @@ pasting openjev-sglang as OpenJevPro, treating constrained
 logprob as a Noul, or quoting 0.916 as a class ceiling is
 the same theater.
 
+0042 envelopes (`notes.md` §105), still outside the extras
+template:
+structured probability readouts;
+distribution > argmax;
+Noul 0.5 midpoint;
+score is expectation not integer;
+bare HTTP not SDK;
+Arohtea/jev-readout;
+Jev-style Choice/Score/Noul from ordinary models;
+optional DSH plugin;
+schema-valid ≠ calibrated;
+gulagala001/jevify ≠ Mintzs/jevify;
+Laya RLCD benchmark;
+40.3% below constant-answer;
+open-weight measurement;
+mourad-ghafiri/laya-rlcd-benchmark ≠ yibie/laya-jev-lab;
+cheap fail-open semantic edge;
+second signal not sole;
+FastLoopError catch;
+SupremeDreamZ/jev-fastloop ≠ jev-ultrafast;
+asking more questions in one call;
+0.980 at every N;
+nearly not fully deterministic;
+TheWebDevel/jev-fanout;
+Qwen3-VL perception + Jev decisions train RL;
+0 model calls at deployment;
+VLM alone 1.7 vs +Jev 4.4;
+harneet2512/reflexrl ≠ khordoo/jev-reflex-autonomy-lab;
+independent Jev API vs Laya;
+cascade 0.60 matches 78% at 1.8×;
+noul facts not judgements;
+yibie/laya-jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab;
+GLiNER vs GLiFormer vs Laya vs Jev;
+extractors ≠ decision engines;
+Laya dict-instructions collapse 58.3%;
+umstek/zero-shot-ie-bench;
+decisions-per-minute & cost;
+204 moves vs 73;
+throughput not intelligence;
+angelgalvisc/snake-arena-jev-vs-llms ≠ vtrivedy/jev-plays-games;
+behavioral contracts;
+pin expectations eval upgrades;
+raw 0.94 is not a release;
+sathariels/jevcheck ≠ dayhaysoos/jevals ≠ SivletLabs/jev-eval;
+evidence-linked dependency upgrade;
+Jev never generates filenames;
+no_direct_evidence ≠ safe to merge;
+GaneshVG18/upgrade-radar ≠ LYchoon/paper-radar-jev;
+discography theme/mood/complexity;
+five atomic questions one call;
+lirantal/discoprint.
+Soft Noul ≠ hard safety: 0.5 / 40.3% / 0.980 / 4.40 /
+78% / 0.60 / 21 pts / 0.94 / `no_direct_evidence` are
+**sensors**. Bare HTTP bytes / adapter normalization /
+constant-answer / first-signal retrieval / packed-question
+experiment / pixels-only policy / cascade as compromise /
+extractor spans / pin+replay / code-owned spans / catalog
+fetch are exact work. Treating displayed p as proof,
+schema-valid JSON as a calibrated Noul, 40.3% without the
+constant-answer, fused fastloop p as safety, 0.0000 sd as
+universal determinism, 2.95× as Harbor, cascade 0.60 as a
+hard gate, locate as decide, snake points as intelligence,
+jevcheck as a correctness proof, `no_direct_evidence` as
+merge-safe, or a theme Choice as a music-theory certificate
+is the same theater.
+
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a
 hybrid "verified by Noul" API.

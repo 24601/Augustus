@@ -2040,5 +2040,50 @@ Rival-aware scorer: [olanotolu/jevbetter](https://github.com/olanotolu/jevbetter
 hashed n-gram encoder / rival-aware attention; olanotolu/jevbetter vs jevlike starter.
 Do not copy keys / `npx` / `pip` / `.env`. Soft Noul ≠ hard safety.
 
+**Hourly 0042 HIGH (`notes.md` §105).** Judgment-surface
+cousin: [Arohtea/jev-readout](https://github.com/Arohtea/jev-readout)
+structured probability readouts; distribution > argmax;
+Noul 0.5 midpoint; score is expectation not integer; bare
+HTTP not SDK. Adapter cousin:
+[gulagala001/jevify](https://github.com/gulagala001/jevify)
+Jev-style Choice/Score/Noul from ordinary models; optional
+DSH plugin; schema-valid ≠ calibrated; ≠ Mintzs/jevify.
+Open-weight measurement:
+[mourad-ghafiri/laya-rlcd-benchmark](https://github.com/mourad-ghafiri/laya-rlcd-benchmark)
+Laya RLCD benchmark; 40.3% below constant-answer; ≠
+yibie/laya-jev-lab. Edge cousin:
+[SupremeDreamZ/jev-fastloop](https://github.com/SupremeDreamZ/jev-fastloop)
+cheap fail-open semantic edge; second signal not sole;
+FastLoopError catch; ≠ jev-ultrafast. Fan-out measurement:
+[TheWebDevel/jev-fanout](https://github.com/TheWebDevel/jev-fanout)
+asking more questions in one call; 0.980 at every N;
+nearly not fully deterministic. RL teacher:
+[harneet2512/reflexrl](https://github.com/harneet2512/reflexrl)
+Qwen3-VL perception + Jev decisions train RL; 0 model
+calls at deployment; VLM alone 1.7 vs +Jev 4.4; ≠
+khordoo/jev-reflex-autonomy-lab. Independent cascade:
+[yibie/laya-jev-lab](https://github.com/yibie/laya-jev-lab)
+independent Jev API vs Laya; cascade 0.60 matches 78% at
+1.8×; noul facts not judgements; ≠ dairui1/jev-lab ≠
+BrendanH18/jev-lab. Locate vs decide:
+[umstek/zero-shot-ie-bench](https://github.com/umstek/zero-shot-ie-bench)
+GLiNER vs GLiFormer vs Laya vs Jev; extractors ≠ decision
+engines; Laya dict-instructions collapse 58.3%. Throughput
+arena: [angelgalvisc/snake-arena-jev-vs-llms](https://github.com/angelgalvisc/snake-arena-jev-vs-llms)
+decisions-per-minute & cost; 204 moves vs 73; throughput
+not intelligence; ≠ vtrivedy/jev-plays-games. Contract
+cousin: [sathariels/jevcheck](https://github.com/sathariels/jevcheck)
+behavioral contracts; pin expectations eval upgrades; raw
+0.94 is not a release; ≠ jevals ≠ SivletLabs/jev-eval.
+Evidence-linked SWE cousin:
+[GaneshVG18/upgrade-radar](https://github.com/GaneshVG18/upgrade-radar)
+evidence-linked dependency upgrade; Jev never generates
+filenames; no_direct_evidence ≠ safe to merge; ≠
+LYchoon/paper-radar-jev. Knowledge-work cousin:
+[lirantal/discoprint](https://github.com/lirantal/discoprint)
+discography theme/mood/complexity; five atomic questions
+one call. Do not copy keys / `npm` / `npx` / `uv` / `.env`.
+Soft Noul ≠ hard safety.
+
 
 

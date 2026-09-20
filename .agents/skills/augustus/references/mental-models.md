@@ -1743,6 +1743,114 @@ attention are exact work. Distill-Jev UI stub and
 constrained-logprob-as-Noul are the anti-patterns.
 
 
+## Apply 0042 (`notes.md` §105)
+
+Same pillars, twelve HIGH clusters (structured
+probability readouts PRIMARY; ordinary-model
+Jev-shape; open-weight Laya measurement; cheap
+fail-open semantic edge; fan-out measurement;
+VLM+Jev RL teacher; independent Jev API vs Laya;
+locate vs decide; throughput arena; behavioral
+contracts; evidence-linked upgrade review;
+knowledge-work discography). Do **not** re-fold
+2340 / §104 / 2246 / §103 / 2145 / §102 /
+2041 / §101 / 1943 / §100 / 1843 / §99 / 1740 /
+§98 / 1639 / §96 / gliner-native-runtime / §97 /
+1541 / §95 / jev-align *mechanism* / §93. Fresh
+PR; never reopen merged #7–**#22**. Skip Archer
+rewrite (still **NOT landed**; Hub 401). 0★ HIGH
+still gets a real card. Soft Noul ≠ hard safety.
+Formal methods **compose** with scoring; a Noul is
+a SENSOR.
+
+1. **Structured probability readouts** —
+   structured probability readouts.
+   distribution > argmax.
+   Noul 0.5 midpoint.
+   score is expectation not integer.
+   bare HTTP not SDK.
+   Arohtea/jev-readout.
+2. **Ordinary-model Jev-shape** —
+   Jev-style Choice/Score/Noul from ordinary models.
+   optional DSH plugin.
+   schema-valid ≠ calibrated.
+   gulagala001/jevify ≠ Mintzs/jevify.
+3. **Open-weight Laya measurement** —
+   Laya RLCD benchmark.
+   40.3% below constant-answer.
+   open-weight measurement.
+   mourad-ghafiri/laya-rlcd-benchmark ≠ yibie/laya-jev-lab.
+4. **Cheap fail-open semantic edge** —
+   cheap fail-open semantic edge.
+   second signal not sole.
+   FastLoopError catch.
+   SupremeDreamZ/jev-fastloop ≠ jev-ultrafast.
+5. **Fan-out measurement** —
+   asking more questions in one call.
+   0.980 at every N.
+   nearly not fully deterministic.
+   TheWebDevel/jev-fanout.
+6. **VLM+Jev RL teacher** —
+   Qwen3-VL perception + Jev decisions train RL.
+   0 model calls at deployment.
+   VLM alone 1.7 vs +Jev 4.4.
+   harneet2512/reflexrl ≠ khordoo/jev-reflex-autonomy-lab.
+7. **Independent Jev API vs Laya** —
+   independent Jev API vs Laya.
+   cascade 0.60 matches 78% at 1.8×.
+   noul facts not judgements.
+   yibie/laya-jev-lab ≠ dairui1/jev-lab ≠ BrendanH18/jev-lab.
+8. **Locate vs decide** —
+   GLiNER vs GLiFormer vs Laya vs Jev.
+   extractors ≠ decision engines.
+   Laya dict-instructions collapse 58.3%.
+   umstek/zero-shot-ie-bench.
+9. **Throughput arena** —
+   decisions-per-minute & cost.
+   204 moves vs 73.
+   throughput not intelligence.
+   angelgalvisc/snake-arena-jev-vs-llms ≠ vtrivedy/jev-plays-games.
+10. **Behavioral contracts** —
+    behavioral contracts.
+    pin expectations eval upgrades.
+    raw 0.94 is not a release.
+    sathariels/jevcheck ≠ dayhaysoos/jevals ≠ SivletLabs/jev-eval.
+11. **Evidence-linked upgrade review** —
+    evidence-linked dependency upgrade.
+    Jev never generates filenames.
+    no_direct_evidence ≠ safe to merge.
+    GaneshVG18/upgrade-radar ≠ LYchoon/paper-radar-jev.
+12. **Knowledge-work discography** —
+    discography theme/mood/complexity.
+    five atomic questions one call.
+    lirantal/discoprint.
+
+Soft Noul ≠ hard safety. 0.5 / 59/41 / 2.69 /
+schema JSON / 40.3% / 4/5 / 0.980 / 0.0000 /
+4.40 / 2.95× / 78% / 0.60 / 58.3% / 21 pts /
+0.94 / `no_direct_evidence` / theme Choice are
+**sensors**. Treating displayed p as proof,
+schema-valid JSON as a calibrated Noul,
+40.3% without the constant-answer, fused
+fastloop p as safety, 0.0000 sd as universal
+determinism, 2.95× as Harbor, cascade 0.60 as
+a hard gate, locate as decide, snake points as
+intelligence, jevcheck as a correctness proof,
+`no_direct_evidence` as merge-safe, or a theme
+Choice as a music-theory certificate is the
+same theater as jev-gate §79.
+
+Formal methods **compose** with scoring. A Noul
+is a SENSOR. Bare HTTP bytes / adapter
+normalization / constant-answer baseline /
+keyword first-signal / packed-question
+experiment / pixels-only policy / cascade
+threshold as a compromise / extractor spans /
+fixed output-token shape / pin+replay / code-
+owned spans / catalog fetch+cache are exact
+work. Hard-gating a soft Noul as safety is the
+anti-pattern.
+
 ## Decision-design extras (any domain)
 
 ```text

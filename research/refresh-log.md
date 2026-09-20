@@ -2064,6 +2064,158 @@
   jev-recall despite attached JSON (quote README demos);
   JevPi GitHub size 0 with contents (same honesty as gut);
   0★ HIGH still got a real card.
+## 2026-09-20T06:42Z — hourly 0042 HIGH (Boise ~00:42 MDT)
+
+- Fresh PR off main after merged #22 (`98ded82` / §104).
+  Never reopen merged #7–**#22**. Do **not** merge from
+  merged **#22** (hourly 2340 / §104). Branch
+  `cursor/hourly-0042-augustus-fold-3529`.
+  Skip Archer rewrite. Quote READMEs. Mark *theirs*.
+  No wrappers / keys / install recipes. Do not dump
+  source / SDK / weights / eval logs.
+  `invented_signal: false`.
+- Twelve HIGH: Arohtea/jev-readout (PRIMARY; **0★**;
+  structured probability readouts); gulagala001/jevify
+  (**0★**; ordinary-model Jev-shape; ≠ Mintzs/jevify);
+  mourad-ghafiri/laya-rlcd-benchmark (**0★**; 40.3% below
+  constant-answer); SupremeDreamZ/jev-fastloop (**0★**;
+  cheap fail-open semantic edge); TheWebDevel/jev-fanout
+  (**0★**; asking more questions in one call);
+  harneet2512/reflexrl (**0★**; VLM+Jev RL teacher);
+  yibie/laya-jev-lab (**0★**; independent Jev API vs Laya);
+  umstek/zero-shot-ie-bench (**0★**; GLiNER vs GLiFormer
+  vs Laya vs Jev); angelgalvisc/snake-arena-jev-vs-llms
+  (**0★**; decisions-per-minute & cost);
+  sathariels/jevcheck (**0★**; behavioral contracts);
+  GaneshVG18/upgrade-radar (**0★**; HEAD `e438f9bd` live
+  rewrite vs prior-agent `d7cfc80c`); lirantal/discoprint
+  (**0★**; discography theme/mood/complexity).
+- Formal methods compose with scoring; a Noul is a SENSOR.
+  Treating displayed p as proof, schema-valid JSON as a
+  calibrated Noul, collapsing gulagala001 into Mintzs,
+  quoting 40.3% without the constant-answer, hard-gating
+  fastloop confidence as safety, treating 0.0000 sd as
+  universal determinism, treating 2.95× as Harbor,
+  hard-gating cascade 0.60, collapsing locate into decide,
+  treating snake points as intelligence, treating jevcheck
+  as a correctness proof, treating `no_direct_evidence` as
+  merge-safe, or treating theme Choice as a music-theory
+  certificate is soundness theater. Hard-gating a soft
+  Noul as safety is the anti-pattern.
+- Pulse (do not invent; superseded by post-PR relock
+  below): first-fold pin SemIf **2047★** / jevlike
+  **1018★** / AnotiaWang **91★** / Laya **672**. Tracker
+  likes **56**; lastModified **UNCHANGED** vs §104.
+- Cards: SKILL.md, mixed-architecture fail table +
+  gallery, faq, mental-models Apply 0042, judgment-class,
+  validation, applied-mappings, mappings, toolbox,
+  composition-algebra items 149–160, question-design,
+  methods-catalog, formal-methods, agent-self-assessment,
+  ecosystem, CHANGELOG, README.
+- notes.md §105; sources.json; findings.md batch #88.
+  No wrapper. Do **not** merge from this review.
+- Adversarial review honesty locks: GitHub size 0 with
+  contents (jev-readout / gulagala001/jevify /
+  laya-rlcd-benchmark / jev-fastloop / jev-fanout /
+  reflexrl / upgrade-radar / discoprint);
+  laya-jev-lab size **49** (relock; was **0** with contents);
+  zero-shot-ie-bench size **50** (relock; was **33**); snake-arena size **194**;
+  jevcheck size **117**; license null (Arohtea README MIT;
+  mourad); gulagala001 SPDX MIT this pass; upgrade-radar
+  HEAD `d7cfc80c`→`e438f9bd` / README `d1094805`→`c32f7d18`;
+  0★ HIGH still got a real card (all twelve **0★**).
+  Name locks: gulagala001/jevify ≠ Mintzs/jevify;
+  mourad ≠ yibie/laya-jev-lab; jev-fastloop ≠ jev-ultrafast;
+  reflexrl ≠ khordoo; yibie/laya-jev-lab ≠ dairui1 ≠
+  BrendanH18; snake-arena ≠ jev-plays-games; jevcheck ≠
+  jevals ≠ SivletLabs/jev-eval; upgrade-radar ≠
+  paper-radar-jev.
+
+## 2026-09-20T07:20Z — hourly 0042 live REST relock after first PR (#23)
+
+- Independent live REST after `be7f95b` (PR #23). Design
+  claims unchanged. Unique consecutive fragments unchanged.
+  Skip Archer rewrite. `invented_signal: false`.
+- HIGH HEAD/README **moved** (relock): Arohtea/jev-readout
+  HEAD `03734993`→`6f1e5900`, README `76a99fe5`→`67ee1e96`
+  (still distribution > argmax / Noul 0.5 / Score as
+  expectation / bare HTTP); GaneshVG18/upgrade-radar HEAD
+  `1e91eb03`→`e438f9bd`, README `b7603c01`→`c32f7d18`
+  (still Jev never generates filenames /
+  `no_direct_evidence` ≠ merge-safe / Action `@v0.1.3`);
+  lirantal/discoprint HEAD `c2a3d47e`→`a9d3294f`, README
+  `392efd29`→`9a64f473` (still theme/mood/complexity /
+  five atomic questions one call). Size still **0** with
+  contents on those three.
+- HIGH HEAD/README **unchanged**: gulagala001/jevify,
+  mourad-ghafiri/laya-rlcd-benchmark, jev-fastloop,
+  jev-fanout, reflexrl, yibie/laya-jev-lab, umstek,
+  snake-arena, jevcheck. GitHub size lag: yibie/laya-jev-lab
+  **49** (was **0** with contents); umstek **50** (was
+  **33**). snake-arena **194**; jevcheck **117**.
+- Pulse vs first-fold / §104: SemIf **2057★** (+10 vs
+  **2047**); jevlike **1021★** (+3 vs **1018**); TypeAR
+  **12★** **flat**; AnotiaWang/awesome-jev **92★** (+1 vs
+  **91**); yibie/awesome-jev **442★** (was **430**). Laya
+  Hub likes **686** (+14 vs **672**). Qwen3.8-27B likes
+  **15793** (was **15787**) ≠ Archer. Tracker likes **56**
+  / lastModified `2026-09-20T04:29:16Z` **UNCHANGED**.
+  Blackwood likes **2** gated manual — census **absent**.
+  Archer Hub HTTP **401**. All twelve HIGH still **0★**.
+  Do **not** merge from this review.
+
+## 2026-09-20T07:26Z — hourly 0042 independent adversarial relock after `92577f5` (PR #23)
+
+- Independent review of claimed live-REST pin `92577f5` (relock
+  after first fold `be7f95b`). HIGH HEAD/README **unchanged**.
+  GitHub pushed timestamps moved without commit: Arohtea
+  `07:01:17Z`; upgrade-radar `07:09:10Z`; discoprint
+  `07:00:03Z`; umstek `07:25:24Z` (HEAD/README still
+  `8770b16b` / `d69dc96a`). Named pulse drifted vs `92577f5`:
+  SemIf **2059★** (was **2057★**; +12 vs §104 **2047**).
+  jevlike **1022★** (was **1021★**; +4 vs §104 **1018**).
+  TypeAR **12★** **flat**. AnotiaWang **92★** **flat**.
+  yibie/awesome-jev **443★** (was **442★**). Laya Hub likes
+  **690** (was **686**). Qwen3.8-27B likes **15794** (was
+  **15793**) ≠ Archer. Tracker likes **56** / lastModified
+  `2026-09-20T04:29:16.000Z` **UNCHANGED**. Blackwood likes
+  **2** gated manual — census **absent**. Archer Hub HTTP
+  **401**. findings.md batch #88 still said `notes.md` §104 /
+  open PR #22 and umstek size 33 — corrected to §105 / merged
+  #22 / size 50. All twelve HIGH still **0★**. Design claims
+  unchanged. Unique consecutive fragments unchanged. Skip
+  Archer rewrite. `invented_signal: false`. Do **not** merge
+  from this review.
+
+## 2026-09-20T07:37Z — hourly 0042 independent adversarial relock after `0558f7d` (PR #23)
+
+- Independent review of claimed live-REST pin `0558f7d`.
+  HIGH HEAD/README **unchanged**. All twelve still **0★**.
+  GitHub size lag (HEAD/README unchanged):
+  SupremeDreamZ/jev-fastloop **12**; TheWebDevel/jev-fanout
+  **206**; harneet2512/reflexrl **749**;
+  GaneshVG18/upgrade-radar **908**; gulagala001/jevify
+  **145**; mourad-ghafiri/laya-rlcd-benchmark **164**;
+  lirantal/discoprint **239**; Arohtea **44** (all were **0**
+  with contents). No remaining size-0 HIGH.
+  yibie/laya-jev-lab **49**; umstek
+  **50**; snake-arena **194**; jevcheck **117**.
+- Named pulse vs `0558f7d`: SemIf **2069★** (was **2059★**;
+  +22 vs §104 **2047**). jevlike **1022★** **flat**.
+  TypeAR **12★** **flat**. AnotiaWang **92★** **flat**.
+  yibie/awesome-jev **450★** (was **443★** at `0558f7d`).
+  Laya Hub likes **705** (was **690** at `0558f7d`).
+  Qwen3.8-27B likes **15796** (was **15794**) ≠ Archer.
+  Tracker likes **59** (+3 vs §104 **56**) / lastModified
+  `2026-09-20T04:29:16.000Z` **UNCHANGED**. Arohtea GitHub
+  size **44** (was **0** with contents; HEAD/README
+  unchanged). No remaining size-0 HIGH. Blackwood likes
+  **2** gated manual — census **absent**. Archer Hub HTTP
+  **401**. Design claims unchanged. Unique consecutive
+  fragments unchanged. Skip Archer rewrite.
+  `invented_signal: false`. Do **not** merge from this
+  review.
+
 ## 2026-09-20T06:42Z — hourly 2340 independent adversarial relock after `babb111` (PR #22)
 
 - Independent review of `babb111` (prior PASS claimed live REST).
