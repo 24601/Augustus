@@ -359,7 +359,7 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   comparative framing is the usable judgment
   (`notes.md` §102).
   **2246:** catalog `reported` never becomes `reproduced`;
-  scores not one leaderboard; TokenTrim no-Jev matched
+  19 reviewed records; scores not one leaderboard; TokenTrim no-Jev matched
   hybrid 62.4%; constructed scenes are not production
   logs; Hub OWNER not published; confidence =
   1−normalized entropy, not P(correct); ChatJev-style

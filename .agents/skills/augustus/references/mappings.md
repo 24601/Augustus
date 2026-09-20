@@ -1474,7 +1474,7 @@ WaynezProg/jev-kit ≠ jonathanavis96/jev-kit
 (Airlock)). Soft Noul
 ≠ hard safety. `notes.md` §102.
 **2246 HIGH (`notes.md` §103):** independent System One
-evidence catalog (scores not one leaderboard; no external
+evidence catalog (19 reviewed records; scores not one leaderboard; no external
 record currently reproduced; TokenTrim no-Jev matched
 hybrid 62.4%; reachjalil/system-one-bench ≠
 mallahyari/system-one-benchmark); typed eval freeze

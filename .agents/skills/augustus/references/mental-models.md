@@ -1597,6 +1597,7 @@ card. Soft Noul ≠ hard safety. Formal methods
 **compose** with scoring; a Noul is a SENSOR.
 
 1. **Independent System One evidence catalog** —
+   19 reviewed records.
    scores not one leaderboard.
    no external record currently reproduced.
    TokenTrim no-Jev matched hybrid 62.4%.

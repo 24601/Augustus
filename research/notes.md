@@ -21127,6 +21127,7 @@ evidence catalogs and negative results are the
 
 Unique consecutive fragments (this hour):
 independent System One evidence catalog;
+19 reviewed records;
 scores not one leaderboard;
 no external record currently reproduced;
 TokenTrim no-Jev matched hybrid 62.4%;
@@ -21162,10 +21163,11 @@ fail-open failed evals not marked seen.
 
 1. **Independent System One evidence catalog**
    (PRIMARY Augustus) — catalog of reviewed records,
-   not one leaderboard. Evidence labels
-   `reported` / `first-party` / `reproduced` /
-   `reference`. No external record currently
-   `reproduced`. Negative result is load-bearing:
+   not one leaderboard. **19 reviewed records.**
+   Evidence labels `reported` / `first-party` /
+   `reproduced` / `reference`. No external
+   record currently `reproduced`. Negative
+   result is load-bearing:
    TokenTrim routing ablation, no-Jev matched hybrid
    **62.4%** vs best fixed **60.3%** (cached
    answers). `npm test` checks catalog without
@@ -21234,34 +21236,39 @@ fail-open failed evals not marked seen.
    - **[`reachjalil/system-one-bench`](https://github.com/reachjalil/system-one-bench)**
      (JavaScript MIT; **0★** live REST; 0 forks;
      created 2026-09-20T04:07:31Z; pushed
-     2026-09-20T04:47:11Z; updated
-     2026-09-20T04:47:14Z; HEAD `4a83bae6`;
-     README SHA `3e7109bf`; LICENSE SHA
-     `c49c6fba`; GitHub `size` **0** with
+     2026-09-20T05:21:57Z; updated
+     2026-09-20T05:22:01Z; HEAD `ceb17269`;
+     README SHA `d9e0c7b7`; LICENSE SHA
+     `c49c6fba`; GitHub `size` **90** with
      contents; default `main`). GitHub
      description *theirs*: "System One Bench:
      Jev evidence, practical findings, negative
      results and reproducible decision
-     benchmarks". README *theirs*: "Find a Jev
-     use case, inspect the evidence and design a
-     test for your own workflow." "12 reviewed
-     records. Scores from different tasks are
-     not one leaderboard." "External results
-     below are author-reported; we have not
-     independently rerun them." Evidence columns
-     *theirs*: `reported` / `first-party` /
-     `reproduced` / `reference`. **no external
-     record currently reproduced**. Routing
-     ablation *theirs*: TokenTrim; hybrid
-     accuracy **62.4%**; best fixed **60.3%**;
-     no-Jev ablation **62.4%**; cached
-     downstream answers. `npm test` checks the
-     catalog, guide references and generated-file
-     links **without model calls**. Do **not**
-     dump `records/` / `catalog.json`. Do not
-     copy `npm` / keys.
+     benchmarks". README *theirs*: "A reference
+     for what Jev can help an agent do."
+     "19 reviewed records. Scores from
+     different tasks are not one leaderboard."
+     "External results below are
+     author-reported; we have not independently
+     rerun them." "Neither is a model
+     probability or a savings promise."
+     Evidence columns *theirs*
+     (METHODOLOGY.md): `reported` /
+     `first-party` / `reproduced` /
+     `reference`. **no external record
+     currently reproduced**. Routing ablation
+     *theirs* (`records/routing-ablation.md`):
+     TokenTrim; hybrid accuracy **62.4%**; best
+     fixed **60.3%**; no-Jev ablation
+     **62.4%**; cached downstream answers.
+     `npm test` checks the catalog, guide
+     references and generated-file links
+     **without model calls**. Do **not** dump
+     `records/` / `catalog.json`. Do not copy
+     `npm` / keys.
 
      independent System One evidence catalog.
+     19 reviewed records.
      scores not one leaderboard.
      no external record currently reproduced.
      TokenTrim no-Jev matched hybrid 62.4%.
@@ -21282,7 +21289,7 @@ fail-open failed evals not marked seen.
      **reachjalil/system-one-bench**.
      reachjalil/system-one-bench ≠
      mallahyari/system-one-benchmark.
-     Soft Noul ≠ hard safety: 62.4% / 12 records
+     Soft Noul ≠ hard safety: 62.4% / 19 records
      / `npm test` are **sensors**. Treating a
      catalog row as a bake-off win, or treating
      "no-Jev matched hybrid" as "Jev never
@@ -21350,7 +21357,7 @@ fail-open failed evals not marked seen.
      pushed 2026-09-20T04:20:53Z; updated
      2026-09-20T04:20:57Z; HEAD `79a486f9`;
      README SHA `b995dce3`; LICENSE SHA
-     `54baf100`; GitHub `size` **0** with
+     `54baf100`; GitHub `size` **2318** with
      contents). GitHub description *theirs*:
      "tiny Jev-like model. Jev and Kev
      inspired." README *theirs*: LoRA adapter
@@ -21405,7 +21412,7 @@ fail-open failed evals not marked seen.
      2026-09-20T04:17:19Z; updated
      2026-09-20T04:17:25Z; HEAD `dff5b323`;
      README SHA `363441b6`; LICENSE SHA
-     `79e2cff7`; GitHub `size` **0** with
+     `79e2cff7`; GitHub `size` **38370** with
      contents). GitHub description *theirs*:
      "Typed decisions from frozen local LLMs,
      with reproducible evaluation and
@@ -21462,10 +21469,10 @@ fail-open failed evals not marked seen.
 
    - **[`erik-dunteman/ChatJev`](https://github.com/erik-dunteman/ChatJev)**
      (Python; GitHub license **null**; no
-     LICENSE file; **0★** live REST; 0 forks;
+     LICENSE file; **1★** live REST; 0 forks;
      created 2026-09-20T04:25:41Z; pushed
      2026-09-20T04:36:28Z; updated
-     2026-09-20T04:36:32Z; HEAD `ea33ab8d`;
+     2026-09-20T05:17:52Z; HEAD `ea33ab8d`;
      README SHA `c763be19`; GitHub `size`
      **0** with contents; `main.py` **6171**
      bytes — **do not dump**). GitHub
@@ -21568,20 +21575,25 @@ fail-open failed evals not marked seen.
 
    - **[`zzzzzec/jevsort`](https://github.com/zzzzzec/jevsort)**
      (HTML; GitHub license **null**; **1★**
-     live REST; 0 forks; created
+     live REST; 0 forks;      created
      2026-09-20T04:15:21Z; pushed
-     2026-09-20T04:44:17Z; updated
-     2026-09-20T04:44:20Z; HEAD `2d960ab9`;
-     README SHA `cbe5e6bf`; GitHub `size`
-     **0** with contents). GitHub
+     2026-09-20T05:08:16Z; updated
+     2026-09-20T05:08:20Z; HEAD `57067b90`;
+     README SHA `85044740`; GitHub `size`
+     **70** with contents). GitHub
      description *theirs*: "Jev-powered
      integer sorting experiment: serial
      selection versus parallel rank
      prediction." README *theirs*: serial
-     max vs parallel rank-k; independent
-     questions can conflict; integers
-     −1,000,000..1,000,000; visitor-supplied
-     key in page memory only. Do **not** dump
+     选最大 vs parallel 猜第 k 大;
+     independent decisions can conflict
+     (重复 / 遗漏 / 冲突); visitor-supplied
+     key in page memory only. Integers
+     −1,000,000..1,000,000 live in the page
+     (do **not** dump `index.html`). Joke
+     table (+67 years / O(1) parallel /
+     100% AI Native) is marketing, not a
+     sort proof. Do **not** dump
      `functions/`. Do not copy wrangler /
      keys.
 
@@ -21606,8 +21618,10 @@ fail-open failed evals not marked seen.
      Soft Noul ≠ hard safety: O(log n)
      "vibes" / 1★ are **sensors**. Treating
      parallel rank questions as a
-     comparison-sort, or scores as
-     frequencies, is theater.
+     comparison-sort, quoting +67 years /
+     O(1) / 100% AI Native as complexity
+     facts, or scores as frequencies, is
+     theater.
 
 8. **Open-side ecosystem catalog**
 
@@ -21618,7 +21632,7 @@ fail-open failed evals not marked seen.
      pushed 2026-09-20T04:14:06Z; updated
      2026-09-20T04:14:10Z; HEAD `637ee3d3`;
      README SHA `0007e343`; GitHub `size`
-     **0** with contents; language **null**).
+     **4** with contents; language **null**).
      GitHub description *theirs*: "Curated
      list of the open System One ecosystem:
      open models, independent benchmarks,
@@ -21724,7 +21738,9 @@ a Lean step / treat softmax-head
 isomorphism as semantic identity / treat
 timeout-dropped samples as a full
 distribution; treat parallel rank-k as a
-sort proof / collapse jevsort into jsort;
+sort proof / quote +67 years / O(1) /
+100% AI Native as complexity facts /
+collapse jevsort into jsort;
 paste awesome-open-system-one's von
 sub-15ms or 4esv/jev-eval as Augustus
 facts / collapse into AnotiaWang; hard-
@@ -21737,10 +21753,10 @@ keys / install recipes.
 
 Census **not provided this hour** (not
 re-derived). Live REST pulse only (review
-relock): SemIf **2012★** (+12 vs §102
+relock): SemIf **2019★** (+19 vs §102
 **2000**); jevlike **1006★** (+4 vs §102
 **1002**); TypeAR-AI/TypeAR **12★** **flat**;
-AnotiaWang/awesome-jev **86★** **flat** still
+AnotiaWang/awesome-jev **87★** (+1 vs §102 **86**) still
 a **different object** from user-provided
 Awesomejev 561/27007 (§99 pin). Archer still
 **NOT landed**. Hub `archerhume/4rcherhume`

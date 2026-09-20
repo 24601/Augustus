@@ -1989,7 +1989,7 @@ keys / `mix` / `curl | sh`. Soft Noul ≠ hard safety.
 
 **Hourly 2246 HIGH (`notes.md` §103).** Evidence-catalog
 cousin: [reachjalil/system-one-bench](https://github.com/reachjalil/system-one-bench)
-independent System One evidence catalog; scores not one
+independent System One evidence catalog; 19 reviewed records; scores not one
 leaderboard; no external record currently reproduced;
 TokenTrim no-Jev matched hybrid 62.4%; ≠ mallahyari.
 Eval cousin: [SivletLabs/jev-eval](https://github.com/SivletLabs/jev-eval)

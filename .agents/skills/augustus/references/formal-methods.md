@@ -1004,6 +1004,7 @@ as claim truth is the same theater.
 2246 envelopes (`notes.md` §103), still outside the extras
 template:
 independent System One evidence catalog;
+19 reviewed records;
 scores not one leaderboard;
 no external record currently reproduced;
 TokenTrim no-Jev matched hybrid 62.4%;

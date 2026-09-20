@@ -1691,10 +1691,10 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   theater is the anti-pattern. Nine HIGH clusters:
   **independent System One evidence catalog**
   ([reachjalil/system-one-bench](https://github.com/reachjalil/system-one-bench)
-  PRIMARY; scores not one leaderboard; no external record
+  PRIMARY; 19 reviewed records; scores not one leaderboard; no external record
   currently reproduced; TokenTrim no-Jev matched hybrid
-  62.4%; JavaScript MIT; **0★**; HEAD `4a83bae6`; README
-  SHA `3e7109bf`; ≠ mallahyari/system-one-benchmark);
+  62.4%; JavaScript MIT; **0★**; HEAD `ceb17269`; README
+  SHA `d9e0c7b7`; ≠ mallahyari/system-one-benchmark);
   **typed eval freeze**
   ([SivletLabs/jev-eval](https://github.com/SivletLabs/jev-eval)
   21 tasks · 134 items · 208 questions; scenes from public
@@ -1716,7 +1716,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   **AR next-token anti-pattern**
   ([erik-dunteman/ChatJev](https://github.com/erik-dunteman/ChatJev)
   Jev classifier as autoregressive next-token predictor;
-  ChatJev-style soundness theater; license null; **0★**;
+  ChatJev-style soundness theater; license null; **1★**;
   HEAD `ea33ab8d`; README SHA `c763be19`; ≠ dannote/jev ≠
   jev-gpt);
   **formal compose with scoring**
@@ -1730,7 +1730,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   ([zzzzzec/jevsort](https://github.com/zzzzzec/jevsort)
   parallel rank-prediction vs serial selection;
   independent questions can conflict; HTML; license null;
-  **1★**; HEAD `2d960ab9`; README SHA `cbe5e6bf`; ≠
+  **1★**; HEAD `57067b90`; README SHA `85044740`; ≠
   keltokhy/jsort);
   **open-side ecosystem catalog**
   ([rupeshpoojary9/awesome-open-system-one](https://github.com/rupeshpoojary9/awesome-open-system-one)
@@ -1745,13 +1745,13 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   README SHA `1cb8a9c3`; size **73**; default master).
   Soft Noul ≠ hard safety. 0★ HIGH still got a real card
   (jevsort **1★**). Census **live REST pulse** (review
-  relock): SemIf **2012★** (+12 vs §102 **2000**);
+  relock): SemIf **2019★** (+19 vs §102 **2000**);
   jevlike **1006★** (+4 vs §102 **1002**); TypeAR **12★**
   **flat**. Tracker likes **54**; lastModified
   `2026-09-20T02:59:13Z`; Hub `archerhume/4rcherhume`
   HTTP **401** (not re-fetched as a rewrite). Archer
   still NOT landed. Awesomejev 561/27007 user-provided
-  (≠ AnotiaWang/awesome-jev **86★**). Qwen3.8-27B ≠
+  (≠ AnotiaWang/awesome-jev **87★**). Qwen3.8-27B ≠
   Archer. `invented_signal: false`. Do not copy keys /
   `npm` / `pip` / `npx` / `uv` / `.env`. No wrapper.
   No invented metrics.

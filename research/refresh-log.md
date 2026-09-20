@@ -2078,7 +2078,7 @@
   SivletLabs/jev-eval (**0★**; typed eval freeze);
   nafisazizir/hev (**0★**; option-isolated replica);
   yuki-oshio/mini-jev (**0★**; frozen-LLM logits);
-  erik-dunteman/ChatJev (**0★**; AR next-token
+  erik-dunteman/ChatJev (**1★**; AR next-token
   anti-pattern);
   wufuju2023-cell/jev-alpha-proof-analysis (**0★**;
   scoring × proof-search);
@@ -2100,9 +2100,9 @@
 - Pulse (do not invent): Archer still NOT landed. Hub
   archerhume/4rcherhume HTTP **401**. Tracker likes **54**;
   lastModified `2026-09-20T02:59:13Z` (not re-fetched as
-  a rewrite). Live REST (review relock): SemIf **2012★**;
+  a rewrite). Live REST (review relock): SemIf **2019★**;
   jevlike **1006★** (+4 vs §102 1002); TypeAR **12★**
-  **flat**. AnotiaWang/awesome-jev **86★** ≠ Awesomejev
+  **flat**. AnotiaWang/awesome-jev **87★** (+1 vs §102 **86**) ≠ Awesomejev
   561/27007. Qwen3.8-27B ≠ Archer. X MCP not used; no
   invented tweets.
 - Cards: SKILL.md, mixed-architecture fail table +
@@ -2113,9 +2113,12 @@
   ecosystem, CHANGELOG, README.
 - notes.md §103; sources.json; findings.md batch #86.
   No wrapper. Do **not** merge from this review.
-- Adversarial review honesty locks: GitHub size 0 with
-  contents (system-one-bench / jev-eval / hev / mini-jev /
-  ChatJev / alpha-proof / jevsort / awesome-open-system-one);
+- Adversarial review honesty locks: system-one-bench size
+  **90** HEAD `ceb17269` README SHA `d9e0c7b7` (live
+  rewrite after pin `4a83bae6` / `3e7109bf`; 19 reviewed
+  records); hev size **2318**; GitHub size 0 with
+  contents (jev-eval / ChatJev / alpha-proof);
+  mini-jev size **38370**; awesome-open-system-one size **4**;
   paper-radar size **73** default **master**; license null
   (ChatJev / alpha-proof / jevsort); CC0 SPDX NOASSERTION
   (awesome-open-system-one); Hub OWNER not published (hev);
@@ -2123,8 +2126,19 @@
   **Review FAIL then lock:** reachjalil/system-one-bench ≠
   mallahyari/system-one-benchmark; SivletLabs/jev-eval ≠
   willkelly/jev-evaluation ≠ 4esv/jev-eval; ChatJev ≠
-  jev-gpt; live REST SemIf **2012★** / jevlike **1006★** /
+  jev-gpt; live REST SemIf **2019★** / jevlike **1006★** /
   TypeAR **12★**.
+  **PR #21 adversarial FAIL then lock:** PRIMARY HEAD
+  `4a83bae6`→`ceb17269` / README `3e7109bf`→`d9e0c7b7` /
+  12→19 reviewed records; jevsort HEAD `2d960ab9`→`57067b90`
+  / README `cbe5e6bf`→`85044740`; SemIf **2012★**→**2019★**
+  (+19 vs §102 **2000**); ChatJev **0★**→**1★**; mini-jev
+  size **0**→**38370**; awesome-open-system-one size **0**→**4**.
+  TokenTrim 62.4% still *theirs* in `records/routing-ablation.md`.
+  PRIMARY HEAD continued `6ff27aa8`→`ceb17269` (recipe-smoke
+  commits; README SHA unchanged `d9e0c7b7`; 19 records).
+  Do not dump smoke JSON / invent Harbor numbers.
+  AnotiaWang/awesome-jev **86★**→**87★**.
 
 ## 2026-09-20T03:45Z — hourly 2145 HIGH (Boise ~21:45 MDT)
 

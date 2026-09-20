@@ -3035,9 +3035,9 @@ Quote live REST over watch.
 
 - **Independent System One evidence catalog (PRIMARY).**
   reachjalil/system-one-bench (JavaScript MIT; **0★**;
-  HEAD `4a83bae6`; README SHA `3e7109bf`; GitHub size 0
-  with contents). independent System One evidence catalog.
-  scores not one leaderboard. no external record currently
+  HEAD `ceb17269`; README SHA `d9e0c7b7`; GitHub size 90).
+  independent System One evidence catalog. 19 reviewed
+  records. scores not one leaderboard. no external record currently
   reproduced. TokenTrim no-Jev matched hybrid 62.4%.
   reachjalil/system-one-bench ≠ mallahyari/system-one-benchmark.
 - **Typed eval freeze.** SivletLabs/jev-eval (Python MIT;
@@ -3054,12 +3054,12 @@ Quote live REST over watch.
   nafisazizir/hev ≠ jaredpalmer/kev.
 - **Frozen-LLM typed decisions.** yuki-oshio/mini-jev
   (Python MIT; **0★**; HEAD `dff5b323`; README SHA
-  `363441b6`). frozen local LLM logits, no trained
+  `363441b6`; GitHub size **38370**). frozen local LLM logits, no trained
   decision head. residual-head 9,222-param decreased
   73/96→67/96. confidence = 1−normalized entropy, not
   P(correct). yuki-oshio/mini-jev ≠ r-ms/mini-jev.
 - **AR next-token anti-pattern.** erik-dunteman/ChatJev
-  (Python; license null; **0★**; HEAD `ea33ab8d`; README
+  (Python; license null; **1★**; HEAD `ea33ab8d`; README
   SHA `c763be19`). Jev classifier as autoregressive
   next-token predictor. ChatJev-style soundness theater.
   erik-dunteman/ChatJev ≠ dannote/jev ≠ jev-gpt.
@@ -3071,14 +3071,14 @@ Quote live REST over watch.
   difference. timeout = censoring. do not launder Noul as
   proof.
 - **Parallel rank vs serial selection.** zzzzzec/jevsort
-  (HTML; license null; **1★**; HEAD `2d960ab9`; README SHA
-  `cbe5e6bf`). parallel rank-prediction vs serial
+  (HTML; license null; **1★**; HEAD `57067b90`; README SHA
+  `85044740`). parallel rank-prediction vs serial
   selection. independent questions can conflict.
   zzzzzec/jevsort ≠ keltokhy/jsort.
 - **Open-side ecosystem catalog.**
   rupeshpoojary9/awesome-open-system-one (CC0 1.0; SPDX
   NOASSERTION; **0★**; HEAD `637ee3d3`; README SHA
-  `0007e343`). curated open System One ecosystem catalog.
+  `0007e343`; GitHub size **4**). curated open System One ecosystem catalog.
   rupeshpoojary9/awesome-open-system-one ≠
   AnotiaWang/awesome-jev.
 - **Knowledge-work paper radar.** LYchoon/paper-radar-jev
@@ -3090,9 +3090,9 @@ Quote live REST over watch.
 Pulse: Archer still NOT landed. Hub
 archerhume/4rcherhume HTTP **401**. Tracker likes **54**;
 lastModified `2026-09-20T02:59:13Z`. Live REST (review
-relock): SemIf **2012★**; jevlike **1006★** (+4 vs §102
+relock): SemIf **2019★**; jevlike **1006★** (+4 vs §102
 1002); TypeAR **12★** **flat**. AnotiaWang/awesome-jev
-**86★** ≠ Awesomejev 561/27007. Qwen3.8-27B ≠ Archer.
+**87★** (+1 vs §102 **86**) ≠ Awesomejev 561/27007. Qwen3.8-27B ≠ Archer.
 `invented_signal: false`.
 
 Cross-repo addition: (ms) independent evidence catalog;
