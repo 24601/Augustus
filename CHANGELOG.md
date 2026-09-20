@@ -16,6 +16,28 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Revisit / since-last-look protocol (`research/notes.md` §122).
+Does **not** bump the 0.5.0 pin. Catalogued repos get a densify
+card when fingerprints move. Star-noise is not a fold. Treat
+revisit HIGH like novel HIGH. uniqueness_gate.py checks the
+protocol substring in the skill and research files (not a
+21-overlay dump). Do not reopen or amend PR #23–#44. Merged #44
+owns §121.
+
+### Added
+
+- **Revisit / since-last-look protocol (`notes.md` §122).** Store
+  fingerprints `default_sha`, `pushed_at`, `description_hash`,
+  `release_tag` so hourly can diff. Material change is README /
+  API / release / calibration claim / serving port / bench
+  rewrite. Star-noise is stars / likes / forks alone. Densify
+  the prior notes section; do not mint a sibling first
+  sighting; do not invent equivalence; SHA move is not a
+  replica. Treat revisit HIGH like novel HIGH for Augustus.
+  Helper: `research/revisit_fingerprints.py`. Checklist:
+  `research/revisit-checklist.md`. **HARD RULE:** do not reopen
+  or amend PR #23–#44. Does **not** bump 0.5.0.
+
 Hourly 1143 HIGH (`research/notes.md` §121 / composition items
 369–384 / findings batch #104). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in

@@ -13,6 +13,23 @@ This is the uniqueness-lock archive after hourly folds (#2–#40 / notes
 
 ---
 
+## Revisit / since-last-look protocol (notes.md §122)
+
+- Fresh PR off latest `main` after merged #44 (1143 / §121). **HARD RULE:**
+  do not reopen or amend PR #23–#44. Does not bump 0.5.0. Skip Archer.
+  Quote *theirs*. No wrappers. `invented_signal: false`.
+- Treat revisit HIGH like novel HIGH. Fingerprints: `default_sha`,
+  `pushed_at`, `description_hash`, `release_tag`. Material change is
+  README / API / release / calibration claim / serving port / bench
+  rewrite. Star-noise is stars / likes / forks alone. Densify the prior
+  notes section. Do not mint a sibling first sighting. SHA move is not
+  a replica.
+- Helper: `research/revisit_fingerprints.py`. Checklist:
+  `research/revisit-checklist.md`. uniqueness_gate checks the protocol
+  substring in the skill and research files (not a 21-overlay dump).
+
+---
+
 ## Hourly 1143 HIGH (notes.md §121 / items 369–384 / batch #104)
 
 - Fresh PR off latest `main` after merged #43 (1049 / §120). **HARD RULE:**

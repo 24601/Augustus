@@ -2,9 +2,16 @@
 # Hourly refresh during US business hours (Mon-Fri 13:00-21:00 UTC = 9am-5pm ET).
 # Runs the deterministic checks, re-sweeps GitHub for NEW jev repos not yet in the
 # archive, clones them, appends refresh-log, and pushes any repo changes to main.
+#
+# Revisit / since last look (notes.md §122): already-catalogued clones are
+# not done. Star-noise is not a fold. Fingerprint diffs
+# (default_sha, pushed_at, description_hash, release_tag) belong on the
+# fold path as revisit HIGH, treated like novel HIGH. See
+# research/revisit-checklist.md. Do not invent equivalence.
 set -u
 cd "$(dirname "$0")/.."
 scripts/refresh-jev-research.sh
+python3 research/revisit_fingerprints.py --self-test || exit 1
 
 # GitHub re-sweep: repos mentioning jev created in last 3 days, not yet archived.
 ARCHIVE=/home/user/workspace/jev-archive
