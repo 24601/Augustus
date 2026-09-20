@@ -1,0 +1,13 @@
+[
+  {
+    "id": "razorback16/openjev",
+    "source": "github",
+    "stars": 195,
+    "change_type": "readme_backends_codiv_ste",
+    "what_changed": "HEAD cddbd962c88a (was 6e91dfc031bc): README rewrite in Simplified Technical English documenting both backends (vLLM NVIDIA + MLX Apple Silicon), Codiv hosted free endpoint, dual /v1/systemone + /v1/chat/completions serving surface, error-contract densify. Material README rewrite + serving-port densify. *theirs*",
+    "pushed_at": "2026-09-20T19:45:43Z",
+    "material": true,
+    "default_branch_sha": "cddbd962c88a76d7344c09273ebc581f7658566e",
+    "prior_sha": "6e91dfc031bc1841ac819e9cf831a9889cb4de7d"
+  }
+]

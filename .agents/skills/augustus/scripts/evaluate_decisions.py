@@ -308,6 +308,53 @@ def coverage_at_error_budget_is_theirs(metric_name, harbor=False):
     return harbor is False
 
 
+
+
+def dual_serving_is_not_generate(systemone_kind, chat_kind, mlx_chat_status):
+    """dual /v1/systemone + /v1/chat/completions. decide is not generate.
+
+    chat 501 on MLX. Dual serving is not generate.
+    """
+    if systemone_kind != "decide":
+        return False
+    if chat_kind != "generate":
+        return False
+    return mlx_chat_status == 501
+
+
+def hosted_codiv_is_not_typesafe(host, affiliated=False):
+    """Hosted Codiv ≠ TypeSafe."""
+    if host != "codiv":
+        raise ValueError("unexpected host")
+    return affiliated is False
+
+
+def candidate_probs_are_relative_not_correctness(relative, correctness_claim=False):
+    """Candidate probabilities are relative to supplied options, not correctness."""
+    return relative is True and correctness_claim is False
+
+
+def recommendation_is_advisory(action, server_blocks=False):
+    """The recommendation is advisory. The server never blocks on its own."""
+    if action not in ("pass", "review", "block", "skip"):
+        raise ValueError("unexpected action")
+    return server_blocks is False
+
+
+def lora_is_not_rlcd_replica(adapter_kind, rlcd_claimed=False):
+    """LoRA adapters plus a scalar head ≠ RLCD replica."""
+    if adapter_kind != "lora_plus_scalar_head":
+        return False
+    return rlcd_claimed is False
+
+
+def pass_min_still_soft(threshold, hard_gate=False):
+    """pass-min 0.8 still soft. JEQ does not own actions."""
+    if threshold != 0.8:
+        raise ValueError("unexpected threshold")
+    return hard_gate is False
+
+
 def hop_ece_permutation_invariant(rows, bins=10, key="p"):
     """Shuffle order; equal-width ECE must not move.
 
@@ -429,6 +476,25 @@ def self_test():
     assert coverage_at_error_budget_is_theirs("coverage-at-error-budget", harbor=False)
     assert theirs_bench_is_not_harbor(1, "jev-vision-skip-0.936")
     assert theirs_bench_is_not_harbor(1, "pii-f1-0.971")
+
+
+    # 1441: dual serving is not generate / Hosted Codiv ≠ TypeSafe /
+    # candidate probabilities relative / MCP advisory / LoRA ≠ RLCD /
+    # pass-min 0.8 still soft.
+    assert dual_serving_is_not_generate("decide", "generate", 501)
+    assert not dual_serving_is_not_generate("decide", "generate", 200)
+    assert hosted_codiv_is_not_typesafe("codiv", affiliated=False)
+    assert not hosted_codiv_is_not_typesafe("codiv", affiliated=True)
+    assert candidate_probs_are_relative_not_correctness(True, False)
+    assert not candidate_probs_are_relative_not_correctness(True, True)
+    assert recommendation_is_advisory("block", server_blocks=False)
+    assert not recommendation_is_advisory("block", server_blocks=True)
+    assert lora_is_not_rlcd_replica("lora_plus_scalar_head", False)
+    assert not lora_is_not_rlcd_replica("lora_plus_scalar_head", True)
+    assert pass_min_still_soft(0.8, hard_gate=False)
+    assert not pass_min_still_soft(0.8, hard_gate=True)
+    assert theirs_bench_is_not_harbor(64, "jev-visual-37.30s-2.40s")
+    assert theirs_bench_is_not_harbor(10046, "open-jev-2b-94.71")
 
     print("self-test ok")
 

@@ -122,6 +122,34 @@
         <dd class="recipe-measure">Server logits separately from client decode. coverage-at-error-budget stays *theirs*.</dd>
       </dl>
     </article>
+    <article class="recipe panel">
+      <p class="kicker">Serving</p>
+      <h3>Dual surface / hosted port</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>A second HTTP path or a free hosted URL treated as the same species as decide.</dd>
+        <dt>Without</dt>
+        <dd>Point chat at /v1/chat/completions and call it System One. Treat Codiv as TypeSafe.</dd>
+        <dt>With</dt>
+        <dd>dual serving is not generate. chat 501 on MLX. Hosted Codiv ≠ TypeSafe.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">Which path returned the answer. Third-party benches stay *theirs*.</dd>
+      </dl>
+    </article>
+    <article class="recipe panel">
+      <p class="kicker">Scores / tools</p>
+      <h3>Relative p, advisory MCP, LoRA</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>Candidate p, an MCP recommendation, or a LoRA adapter treated as calibrated truth.</dd>
+        <dt>Without</dt>
+        <dd>Hard-gate 0.8. Block on the server. Quote 94.71% as Harbor.</dd>
+        <dt>With</dt>
+        <dd>candidate probabilities are relative not correctness. recommendation is advisory. LoRA ≠ RLCD replica. pass-min 0.8 still soft.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">Relative ranking separately from ECE. The server never blocks on its own.</dd>
+      </dl>
+    </article>
   </div>
   <p class="compare-caption">
     Measurement recipe (hysteresis, equal-width vs quantile ECE, hop-ECE,
