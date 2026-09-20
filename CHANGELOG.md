@@ -84,7 +84,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   Jev best ranking / Haiku better ECE 0.021 vs 0.058;
   0.5–0.9 band is where Jev's numbers do not mean what they say;
   Prompt wording moves panic 28%;
-  Python MIT LICENSE SHA `0dab34c6`; **0★**; HEAD `c0d0f25d`; README SHA `1b28498c`; size **0** WITH CONTENTS);
+  Python MIT LICENSE SHA `0dab34c6`; **0★**; HEAD `c0d0f25d`; README SHA `1b28498c`; size **107**);
   ([manojlds/jev-dspy-bench](https://github.com/manojlds/jev-dspy-bench)
   Jev agreement is similarity, never ground truth;
   no aggregate quality grade or merge gate;
@@ -93,13 +93,13 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   ([sshariqali/jev-abstentionbench](https://github.com/sshariqali/jev-abstentionbench)
   AbstentionBench-on-Jev rank 1 of 20 vs 2025 field;
   question-asymmetry; forward-looking 0.465 never extreme;
-  Python; README MIT / GitHub SPDX NOASSERTION LICENSE SHA `7f6fb3ba`; **0★**; HEAD `47a4ca0f`; README SHA `26393f0f`; size **0** WITH CONTENTS);
+  Python; README MIT / GitHub SPDX NOASSERTION LICENSE SHA `7f6fb3ba`; **0★**; HEAD `f5c0c068`; README SHA `26393f0f`; size **0** WITH CONTENTS);
   ([misakaikato/openkev](https://github.com/misakaikato/openkev)
   openkev calibration layer not a runtime;
   ECE vs coverage independent; select_threshold returns inf;
   escalation catches uncertainty not ignorance;
   misakaikato/openkev ≠ jaredpalmer/kev;
-  Python MIT LICENSE SHA `8c3231cb`; **0★**; HEAD `864a2207`; README SHA `974d97f9`; size **484**);
+  Python MIT LICENSE SHA `8c3231cb`; **0★**; HEAD `babcab1c`; README SHA `974d97f9`; size **484**);
   ([goodrahstar/pdf-race](https://github.com/goodrahstar/pdf-race)
   pdf-race Docling→Jev vs Gemini; parser owns the wall clock;
   12/12 tie is a tie; titles selected not generated;

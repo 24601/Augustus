@@ -25237,8 +25237,7 @@ TypeSafe drop-ins.
    densifies) — ASEVlad/jev-injection-bench
    Python MIT; **0★**; HEAD `c0d0f25d`; README
    SHA `1b28498c`; LICENSE SHA `0dab34c6`;
-   GitHub size **0** WITH CONTENTS (src/tests/
-   docs/pyproject). 11,900 labelled prompts
+   GitHub size **107**. 11,900 labelled prompts
    (3,464 attacks / 8,436 benign / 339
    NotInject). Five detectors at default 0.5.
    Jev v2 *theirs*: catch 77.6% / false alarms
@@ -25286,7 +25285,7 @@ TypeSafe drop-ins.
 11. **AbstentionBench-on-Jev** —
     sshariqali/jev-abstentionbench Python;
     README MIT / GitHub SPDX **NOASSERTION**;
-    **0★**; HEAD `47a4ca0f`; README SHA
+    **0★**; HEAD `f5c0c068`; README SHA
     `26393f0f`; LICENSE SHA `7f6fb3ba`; size
     **0** WITH CONTENTS. Meta AbstentionBench
     against Jev; cached responses committed so
@@ -25313,7 +25312,7 @@ TypeSafe drop-ins.
 
 12. **Calibration layer for typed-decision
     models** — misakaikato/openkev Python MIT;
-    **0★**; HEAD `864a2207`; README SHA
+    **0★**; HEAD `babcab1c`; README SHA
     `974d97f9`; LICENSE SHA `8c3231cb`; size
     **484**. Calibration + decision-quality
     eval; **not** another decision runtime
@@ -25475,9 +25474,9 @@ verdict twin likes **5**; GH verdict remains
 **107★** from §107). License **null**
 (jev-atlas, jev-is-here) still got a real
 card. Size **0** WITH CONTENTS
-(injection-bench, dspy-bench, abstentionbench,
+(dspy-bench, abstentionbench,
 pdf-race, jev-atlas, flopcheck) still got a
-real card.
+real card. injection-bench size **107**.
 
 ### Not
 

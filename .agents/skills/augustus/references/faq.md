@@ -3295,7 +3295,7 @@ No and no. UpHash-Network/mini-jev is yuki-oshio transfer. README SHA `363441b6`
 
 ## Is Jev the best *calibrated* injection detector? Should we hard-gate ECE 0.058? Route on 0.5–0.9 as a frequency?
 
-No, no, and no. jev-injection-bench 11,900 labelled prompts. Jev best ranking / Haiku better ECE 0.021 vs 0.058. 0.5–0.9 band is where Jev's numbers do not mean what they say. Prompt wording moves panic 28%. Python MIT; **0★**; HEAD `c0d0f25d`; size **0** WITH CONTENTS. rh-guard owns injection integrity. `notes.md` §108.
+No, no, and no. jev-injection-bench 11,900 labelled prompts. Jev best ranking / Haiku better ECE 0.021 vs 0.058. 0.5–0.9 band is where Jev's numbers do not mean what they say. Prompt wording moves panic 28%. Python MIT; **0★**; HEAD `c0d0f25d`; size **107**. rh-guard owns injection integrity. `notes.md` §108.
 
 ## Is jev-dspy-bench a quality grade / merge gate? Collapse into dspachos or jmanhype?
 
@@ -3303,11 +3303,11 @@ No and no. manojlds/jev-dspy-bench ≠ dspachos/jev-dspy ≠ jmanhype/jev-dspy-l
 
 ## Quote AbstentionBench rank 1 as current SOTA? Skip question-asymmetry? Is forward-looking 0.465 extreme?
 
-No, no, and no. AbstentionBench-on-Jev rank 1 of 20 vs 2025 field. question-asymmetry. forward-looking 0.465 never extreme. Python; README MIT / SPDX NOASSERTION; **0★**; HEAD `47a4ca0f`; size **0** WITH CONTENTS. `notes.md` §108.
+No, no, and no. AbstentionBench-on-Jev rank 1 of 20 vs 2025 field. question-asymmetry. forward-looking 0.465 never extreme. Python; README MIT / SPDX NOASSERTION; **0★**; HEAD `f5c0c068`; size **0** WITH CONTENTS. `notes.md` §108.
 
 ## Is openkev a decision runtime? Is select_threshold inf a bug? Does T transfer? Collapse into jaredpalmer/kev?
 
-No, no, no, and no. openkev calibration layer not a runtime. ECE vs coverage independent. select_threshold returns inf. escalation catches uncertainty not ignorance. misakaikato/openkev ≠ jaredpalmer/kev. Python MIT; **0★**; HEAD `864a2207`. `notes.md` §108.
+No, no, no, and no. openkev calibration layer not a runtime. ECE vs coverage independent. select_threshold returns inf. escalation catches uncertainty not ignorance. misakaikato/openkev ≠ jaredpalmer/kev. Python MIT; **0★**; HEAD `babcab1c`. `notes.md` §108.
 
 ## Did Docling→Jev beat Gemini? Do titles get generated? Who owns the wall clock?
 

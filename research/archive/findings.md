@@ -3064,7 +3064,7 @@ exemplars this hour. Quote live REST over watch.
   UpHash-Network/mini-jev is yuki-oshio transfer.
   residual-head 9,222-param decreased 73/96→67/96.
 - **Prompt-injection ranking vs calibration (PRIMARY).** ASEVlad/jev-injection-bench
-  (Python MIT; **0★**; HEAD `c0d0f25d`; README SHA `1b28498c`; size **0** WITH CONTENTS).
+  (Python MIT; **0★**; HEAD `c0d0f25d`; README SHA `1b28498c`; size **107**).
   11,900 labelled prompts. Jev best ranking / Haiku better ECE 0.021 vs 0.058.
   0.5–0.9 band is where Jev's numbers do not mean what they say.
   Prompt wording moves panic 28%.
@@ -3074,11 +3074,11 @@ exemplars this hour. Quote live REST over watch.
   no aggregate quality grade or merge gate.
   manojlds/jev-dspy-bench ≠ dspachos/jev-dspy ≠ jmanhype/jev-dspy-lab.
 - **AbstentionBench-on-Jev.** sshariqali/jev-abstentionbench
-  (Python; README MIT / SPDX NOASSERTION; **0★**; HEAD `47a4ca0f`).
+  (Python; README MIT / SPDX NOASSERTION; **0★**; HEAD `f5c0c068`).
   rank 1 of 20 vs 2025 field. question-asymmetry.
   forward-looking 0.465 never extreme.
 - **openkev calibration layer.** misakaikato/openkev
-  (Python MIT; **0★**; HEAD `864a2207`; README SHA `974d97f9`).
+  (Python MIT; **0★**; HEAD `babcab1c`; README SHA `974d97f9`).
   openkev calibration layer not a runtime. ECE vs coverage independent.
   select_threshold returns inf. escalation catches uncertainty not ignorance.
   misakaikato/openkev ≠ jaredpalmer/kev.

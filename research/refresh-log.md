@@ -2703,16 +2703,16 @@
   samples); UpHash-Network/mini-jev (**0★**; HEAD `52fbae12`;
   yuki-oshio transfer; residual-head decreased 73/96→67/96).
 - Measurement densifies PRIMARY: ASEVlad/jev-injection-bench
-  (**0★**; HEAD `c0d0f25d`; size **0** WITH CONTENTS; 11,900;
+  (**0★**; HEAD `c0d0f25d`; size **107**; 11,900;
   Jev best ranking / Haiku better ECE 0.021 vs 0.058;
   0.5–0.9 band is where Jev's numbers do not mean what they say;
   Prompt wording moves panic 28%); manojlds/jev-dspy-bench
   (**0★**; HEAD `d8c68d72`; Jev agreement is similarity, never
   ground truth; no aggregate quality grade or merge gate);
-  sshariqali/jev-abstentionbench (**0★**; HEAD `47a4ca0f`;
+  sshariqali/jev-abstentionbench (**0★**; HEAD `f5c0c068`;
   rank 1 of 20 vs 2025 field; question-asymmetry;
   forward-looking 0.465 never extreme); misakaikato/openkev
-  (**0★**; HEAD `864a2207`; calibration layer not a runtime;
+  (**0★**; HEAD `babcab1c`; calibration layer not a runtime;
   select_threshold returns inf); goodrahstar/pdf-race
   (**0★**; HEAD `1c687fc6`; parser owns the wall clock;
   12/12 tie is a tie; titles selected not generated);
