@@ -17,7 +17,7 @@ folds: `research/notes.md`.
 ## [0.4.0] - 2026-09-20
 
 Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skills/tree/v0.5.7)
-(`65a39f3`, 2026-09-12). Live HEAD of that repo is still this commit —
+(`65a39f3`, 2026-09-12). Live HEAD of that repo is still this commit,
 the only tagged official-skill revision.
 
 Twenty-eight commits on `main` after the v0.3.0 tag (merged #2–#30,
@@ -35,7 +35,7 @@ branch and is not part of this release.
   encoder zero-shot classifiers.
 - **Encoder / ZS lineage (Merve Noyan, `notes.md` §112).** Institutional
   HF voice: BERTForXYZ → DeBERTa → ModernBERT. Many problems solved with
-  LLMs could have been solved with zero-shot classifiers — it was a
+  LLMs could have been solved with zero-shot classifiers. It was a
   skill issue. Prefer DeBERTa and ModernBERT heads. Jev vs GPT-5.6
   bakeoffs are a category error. Softmax / ZS scores still ≠ calibrated
   Noul; soft scores ≠ hard gates. Multimodal image↔text ZS is a
@@ -152,7 +152,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   (jev-gate-student-b 148k corpus, jp-sns-jev7 ONNX, open-jev-deberta,
   mini-jev-runs 27.9k logits, jev-tree-choice-cap); device/harness
   (jev-mobile MCP, jev-macos-loop, jev-harness, routeKit); HacksonClark
-  SREGym-Lite 20/50→24/50 — rank tests, do not diagnose
+  SREGym-Lite 20/50→24/50: rank tests, do not diagnose
 - Hourly ~11:59 Boise fold (`research/notes.md` §42): Archer still
   Watch. Three open paths (encoder / AR constrained decode / trained
   decision-only). Native constrained serving
@@ -178,7 +178,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   for Hypothesis mapping cards; complements `evaluate_decisions.py`. Not a
   jevals how-to (`research/notes.md` §24; one sentence in `validation.md`)
 - Mental-models card: Augustus is design judgment across AI, SWE,
-  business, knowledge work, and life — not SWE-only. Pillars: expected
+  business, knowledge work, and life, not SWE-only. Pillars: expected
   utility / selective classification, calibration and cost-sensitive
   thresholds, VOI, MCDA, search/control substitutions, signal detection,
   Leveson org/safety, NATM/snap-fit/Norman/Kent/Shirky as general
@@ -194,11 +194,11 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   when-to-use table; FAQ confidence / surfaces questions.
 - Entropy as allocator (**Hypothesis**, `judgment-class.md`): Atallah's
   low / medium / high buckets place System One on typed decisions and a
-  frontier decoder on high-entropy synthesis — same axis as marginals
+  frontier decoder on high-entropy synthesis, same axis as marginals
   vs joint and as VOI. "Review this PR" as medium is still partly
   generative; "first model ever" is a claim. `research/notes.md` §38
 - Marginals, not a probabilistic program (`judgment-class.md`, FAQ):
-  Erik Meijer — Jev is a cool API and not a PPL; Kleisli qualifications
+  Erik Meijer: Jev is a cool API and not a PPL; Kleisli qualifications
   exaggerate; "Jev gives you the marginals; a decoder gives you the
   joint." Joints and invariants stay with TLA+ / Alloy / contracts.
   `research/notes.md` §34
@@ -236,7 +236,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   choice including GLiNER/GLiClass/listwise/vision) plus an explicit `not_for`
   against the official `typesafe-ai` skill
 - Identity lock vs neighbor skills (`typesafe-ai`, `tenbin`, `decision-first`)
-  so Augustus stays the design-judgment layer — class-wide, not TypeSafe-only
+  so Augustus stays the design-judgment layer, class-wide, not TypeSafe-only
 - Design cards name hole, family, and typed judgment provider (Jev default;
   other family only with self-eval)
 - Protocol fan-out step is family-aware (Jev batch, GLiClass one-pass,
@@ -305,7 +305,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
 ## [0.1.0] - 2026-09-18
 
 Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skills/tree/v0.5.7)
-(`65a39f3`, 2026-09-12) — the only tagged revision of the official skill at
+(`65a39f3`, 2026-09-12), the only tagged revision of the official skill at
 Augustus launch.
 
 ### Added

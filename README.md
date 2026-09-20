@@ -1,7 +1,7 @@
 # Augustus
 
-Place typed probabilistic judgment — Jev-class System One / decision
-models — using classical mental models. Jev is the exemplar, not the monopoly.
+Place typed probabilistic judgment (Jev-class System One / decision
+models) using classical mental models. Jev is the exemplar, not the monopoly.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Release](https://img.shields.io/github/v/release/24601/Augustus)](https://github.com/24601/Augustus/releases)
@@ -14,11 +14,11 @@ models — using classical mental models. Jev is the exemplar, not the monopoly.
 Agent skill for placing TypeSafe Jev Choice/Score/Noul with classical
 decision methods, composition algebra, and a validation gate.
 
-**Augustus** — named for Augustus De Morgan (1806–1871), mentor and professor
-of William Stanley Jevons — is the design-judgment skill for **where** typed
+**Augustus**, named for Augustus De Morgan (1806–1871), mentor and professor
+of William Stanley Jevons, is the design-judgment skill for **where** typed
 probabilistic judgment belongs (the Jev-class of System One models), using
 mathematical, logical, and algorithmic mental models. It applies across
-**AI, software, business, knowledge work, and life** — not only SWE.
+**AI, software, business, knowledge work, and life**, not only SWE.
 [TypeSafe](https://docs.typesafe.ai/) Jev is the documented exemplar
 (Choice, Score, Noul), not the monopoly. Formal methods are one pillar.
 Exact work stays in code or policy; the model owns narrow judgment;
@@ -34,30 +34,29 @@ never launder a Noul as a proof.
 
 ## The skill
 
-One line per file. Repo names, metrics, ≠ collisions, and hourly folds live
-in the reference cards and [`research/notes.md`](research/notes.md) — not
-this README.
+One line per file. The living catalog is in the reference cards and
+[`research/notes.md`](research/notes.md), not this README.
 
-- `.agents/skills/augustus/SKILL.md` — working protocol + decision-design card
-- `.agents/skills/augustus/references/mental-models.md` — cross-domain frames (EU, VOI, MCDA, SDT, …); not SWE-only
-- `.agents/skills/augustus/references/judgment-class.md` — the class (Jev exemplar, not monopoly) and peer families
-- `.agents/skills/augustus/references/formal-methods.md` — judgment vs proof; soundness theater; DST trio
-- `.agents/skills/augustus/references/formal-semi-formal.md` — one-screen alias of the formal-methods pillar
-- `.agents/skills/augustus/references/mixed-architecture.md` — where S1 judgment sits next to LLM + code
-- `.agents/skills/augustus/references/composition-algebra.md` — positions a typed judgment can occupy relative to any method
-- `.agents/skills/augustus/references/applied-mappings.md` — sieves, keep/drop, triage, rank, and route placements
-- `.agents/skills/augustus/references/faq.md` — design-judgment FAQ (not an API how-to)
-- `.agents/skills/augustus/references/mappings.md` — classical-method mappings with boundaries and tests
-- `.agents/skills/augustus/references/methods-catalog.md` — named algorithms → judgment-shaped substitution
-- `.agents/skills/augustus/references/toolbox-mapping.md` — how to find a substitution in a method you already trust
-- `.agents/skills/augustus/references/question-design.md` — writing and diagnosing well-formed questions
-- `.agents/skills/augustus/references/validation.md` — design gate, eval recipes, Harbor/jevals practice
-- `.agents/skills/augustus/references/boundary-audit.md` — existing-system insertion: smallest boundary, red flags
-- `.agents/skills/augustus/references/optimizer-integration.md` — Jev inside Ax/DSPy optimizer loops
-- `.agents/skills/augustus/references/agent-self-assessment.md` — agent self-supervision gates (pre-action, done, stuck)
-- `.agents/skills/augustus/scripts/evaluate_decisions.py` — offline Brier / reliability / cost-threshold evaluator
-- `research/notes.md` — living hourly catalog (dense; not the README)
-- `research/README.md` — evidence archive index (sources, refresh log, hourly dumps)
+- `.agents/skills/augustus/SKILL.md`: working protocol and decision-design card
+- `.agents/skills/augustus/references/mental-models.md`: cross-domain frames (EU, VOI, MCDA, SDT, ...); not SWE-only
+- `.agents/skills/augustus/references/judgment-class.md`: the class (Jev exemplar, not monopoly) and peer families
+- `.agents/skills/augustus/references/formal-methods.md`: judgment vs proof; soundness theater; DST trio
+- `.agents/skills/augustus/references/formal-semi-formal.md`: one-screen alias of the formal-methods pillar
+- `.agents/skills/augustus/references/mixed-architecture.md`: where S1 judgment sits next to LLM + code
+- `.agents/skills/augustus/references/composition-algebra.md`: positions a typed judgment can occupy relative to any method
+- `.agents/skills/augustus/references/applied-mappings.md`: sieves, keep/drop, triage, rank, and route placements
+- `.agents/skills/augustus/references/faq.md`: design-judgment FAQ (not an API how-to)
+- `.agents/skills/augustus/references/mappings.md`: classical-method mappings with boundaries and tests
+- `.agents/skills/augustus/references/methods-catalog.md`: named algorithms → judgment-shaped substitution
+- `.agents/skills/augustus/references/toolbox-mapping.md`: how to find a substitution in a method you already trust
+- `.agents/skills/augustus/references/question-design.md`: writing and diagnosing well-formed questions
+- `.agents/skills/augustus/references/validation.md`: design gate, eval recipes, Harbor/jevals practice
+- `.agents/skills/augustus/references/boundary-audit.md`: existing-system insertion: smallest boundary, red flags
+- `.agents/skills/augustus/references/optimizer-integration.md`: Jev inside Ax/DSPy optimizer loops
+- `.agents/skills/augustus/references/agent-self-assessment.md`: agent self-supervision gates (pre-action, done, stuck)
+- `.agents/skills/augustus/scripts/evaluate_decisions.py`: offline Brier / reliability / cost-threshold evaluator
+- `research/notes.md`: living hourly catalog (dense)
+- `research/README.md`: evidence archive index (sources, refresh log, hourly dumps)
 
 ## Install
 
@@ -82,7 +81,7 @@ git clone https://github.com/24601/Augustus.git
 # skill lives at .agents/skills/augustus/
 ```
 
-**ChatGPT**: skills are not a native ChatGPT primitive — paste
+**ChatGPT**: skills are not a native ChatGPT primitive. Paste
 `.agents/skills/augustus/SKILL.md` plus the `references/` files into a
 GPT's instructions or a Project's knowledge and it will follow the protocol.
 
@@ -111,5 +110,5 @@ before treating that pin as current API behavior.
 
 ## License
 
-MIT — see [LICENSE](LICENSE). Security reports: [SECURITY.md](SECURITY.md).
+MIT. See [LICENSE](LICENSE). Security reports: [SECURITY.md](SECURITY.md).
 Contributions: [CONTRIBUTING.md](CONTRIBUTING.md).
