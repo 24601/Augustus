@@ -16,6 +16,34 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 1049 HIGH (`research/notes.md` §120 / composition items
+353–368 / findings batch #103). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#42. Do not amend released 0.5.0
+(#42). Merged #41 owns §119.
+
+### Added
+
+- **Hourly 1049 HIGH (`notes.md` §120).** ggmlc GGUF serving /
+  option-order / exact-p Minesweeper / adapters / catalogs.
+  ggmlc GGUF is not llama.cpp. Serving substrate is not a
+  calibrated replica. Qwen3.5-9B ≠ Archer. planner writes
+  JEV selects. pick_by_id vs pick_second. Soft scores ≠ hard
+  gates. catalog ≠ endorsement. Evaluator: option-order
+  trap. uniqueness_gate.py now checks 0843 + 0915 + jcr +
+  0922 + 0940 + 0947 + 1049. Composition items 353–368 /
+  batch #103. **HARD RULE:** do not reopen or amend PR
+  #23–#42. Does **not** bump 0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: load a
+  GGUF or ONNX graph and treat the new bottle as a replica,
+  or pick whatever sits second in a shuffled menu. With
+  Augustus: serving substrate ≠ calibrated replica; measure
+  option-order with pick_by_id vs pick_second; keep exact-p
+  oracles in code; adapters stay class members. Same split
+  for any Choice/Score/Noul-style head, not only hosted Jev.
+
 Hourly 0947 HIGH (`research/notes.md` §119 / composition items
 337–352 / findings batch #102). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in

@@ -1,0 +1,1540 @@
+[
+  {
+    "id": "ashleyotooligan/jevbrain",
+    "source": "github",
+    "why_high": "s1_family,decision_scoring",
+    "url": "https://github.com/ashleyotooligan/jevbrain",
+    "description_snip": "Add the decision engine, optional Jev AI integration, offline replay workbench, original pixel-brain logo, 18 reproducible demo experiments, visualizations, tes",
+    "stars": 1,
+    "created": "2026-09-20T16:29:19Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Add the decision engine, optional Jev AI integration, offline replay workbench, original pixel-brain logo, 18 reproducible demo experiments, visualizations, tests and detailed documentation.",
+    "fold_targets": [
+      "Augustus"
+    ]
+  },
+  {
+    "id": "vladzima/jev-x",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/vladzima/jev-x",
+    "description_snip": "Cut the noise on your X timeline: Jev (TypeSafe System One) scores posts on firsthand experience, promo, bait, depth, and relevance; your sliders decide what ge",
+    "stars": 1,
+    "created": "2026-09-20T16:30:45Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Cut the noise on your X timeline: Jev (TypeSafe System One) scores posts on firsthand experience, promo, bait, depth, and relevance; your sliders decide what gets dimmed or collapsed.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "AliZareh-CoE/JevRev",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/AliZareh-CoE/JevRev",
+    "description_snip": "Narrow a literature review with Jev: typed, calibrated relevance judgments over abstracts and paragraphs.",
+    "stars": 0,
+    "created": "2026-09-20T16:17:09Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Narrow a literature review with Jev: typed, calibrated relevance judgments over abstracts and paragraphs.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "Ashfaqbs/jev-mcp-spring",
+    "source": "github",
+    "why_high": "s1_family,kit_runtime",
+    "url": "https://github.com/Ashfaqbs/jev-mcp-spring",
+    "description_snip": "Java/Spring Boot MCP server for TypeSafe Jev",
+    "stars": 0,
+    "created": "2026-09-20T16:24:45Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Java/Spring Boot MCP server for TypeSafe Jev",
+    "fold_targets": [
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "HorusJiang/dsh-jev-tools",
+    "source": "github",
+    "why_high": "s1_family,guardrail,kit_runtime",
+    "url": "https://github.com/HorusJiang/dsh-jev-tools",
+    "description_snip": "Jev judgment, not generation: prune long tool output, screen fetched pages for injected instructions, and gate completion claims inside DeepSeek Harness.",
+    "stars": 0,
+    "created": "2026-09-20T16:32:55Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Jev judgment, not generation: prune long tool output, screen fetched pages for injected instructions, and gate completion claims inside DeepSeek Harness.",
+    "fold_targets": [
+      "rh-guard",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "Hugeliz/jev.mixrnation.ch",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/Hugeliz/jev.mixrnation.ch",
+    "description_snip": "A test with Jev - rate a website",
+    "stars": 0,
+    "created": "2026-09-20T16:23:54Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "A test with Jev - rate a website",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "Md-Zaid-Ahmed/GMAIL-JEV-DEV",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/Md-Zaid-Ahmed/GMAIL-JEV-DEV",
+    "description_snip": "Email classification using jev - Gmail (dev)",
+    "stars": 0,
+    "created": "2026-09-20T16:43:28Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Email classification using jev - Gmail (dev)",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "MrSAO666/jev-file-explorer",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/MrSAO666/jev-file-explorer",
+    "description_snip": "Windows \u6587\u4ef6\u68c0\u7d22\u4e0e\u6e05\u7406\u684c\u9762\u8f6f\u4ef6 \u00b7 Jev \u8bed\u4e49\u68c0\u7d22 \u00b7 SHA-256 \u91cd\u590d\u68c0\u6d4b \u00b7 PySide6 + Anaconda",
+    "stars": 0,
+    "created": "2026-09-20T16:21:38Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Windows \u6587\u4ef6\u68c0\u7d22\u4e0e\u6e05\u7406\u684c\u9762\u8f6f\u4ef6 \u00b7 Jev \u8bed\u4e49\u68c0\u7d22 \u00b7 SHA-256 \u91cd\u590d\u68c0\u6d4b \u00b7 PySide6 + Anaconda",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "Steven04hub/qq_clinet",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/Steven04hub/qq_clinet",
+    "description_snip": "\u57fa\u4e8e NapCat \u7684 QQ AI \u7fa4\u804a\u673a\u5668\u4eba\uff0c\u652f\u6301 Web \u63a7\u5236\u53f0\u3001\u7fa4\u52a9\u624b\u4e0e\u804a\u5929\u6a21\u5f0f\u3001\u8bb0\u5fc6\u68c0\u7d22\u548c Jev \u51b3\u7b56\u3002",
+    "stars": 0,
+    "created": "2026-09-20T16:22:24Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "\u57fa\u4e8e NapCat \u7684 QQ AI \u7fa4\u804a\u673a\u5668\u4eba\uff0c\u652f\u6301 Web \u63a7\u5236\u53f0\u3001\u7fa4\u52a9\u624b\u4e0e\u804a\u5929\u6a21\u5f0f\u3001\u8bb0\u5fc6\u68c0\u7d22\u548c Jev \u51b3\u7b56\u3002",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "VarSamLewis/eval-diff",
+    "source": "github",
+    "why_high": "s1_family,measurement_bench",
+    "url": "https://github.com/VarSamLewis/eval-diff",
+    "description_snip": "CI tool to send PR diff to a system one model for change evaluation",
+    "stars": 0,
+    "created": "2026-09-20T16:27:16Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "CI tool to send PR diff to a system one model for change evaluation",
+    "fold_targets": [
+      "Augustus"
+    ]
+  },
+  {
+    "id": "YuyaForest/JEV-Prompt-Injection-Guardian",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/YuyaForest/JEV-Prompt-Injection-Guardian",
+    "description_snip": "JEV Prompt Injection Guardian is a prompt injection quarantine and risk-scoring system for LLMs powered by JEV (jev-1.13.0), TypeSafe AI's innovative \"System On",
+    "stars": 0,
+    "created": "2026-09-20T16:11:09Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "JEV Prompt Injection Guardian is a prompt injection quarantine and risk-scoring system for LLMs powered by JEV (jev-1.13.0), TypeSafe AI's innovative \"System One\" model, as its primary engine.  By eliminating ambiguous, long-winded natural language explanations, it instantly computes rigorously calibrated probability risk-scores.",
+    "fold_targets": [
+      "rh-guard",
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "bhaskarpraveen/jev-healthcare-support-router",
+    "source": "github",
+    "why_high": "s1_family,guardrail,decision_scoring",
+    "url": "https://github.com/bhaskarpraveen/jev-healthcare-support-router",
+    "description_snip": "TypeScript demo using Jev as a decision layer for healthcare customer-support routing, urgency detection, and human escalation.",
+    "stars": 0,
+    "created": "2026-09-20T16:44:50Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "TypeScript demo using Jev as a decision layer for healthcare customer-support routing, urgency detection, and human escalation.",
+    "fold_targets": [
+      "rh-guard",
+      "Augustus"
+    ]
+  },
+  {
+    "id": "chneau/docker-laya",
+    "source": "github",
+    "why_high": "s1_family,guardrail,decision_scoring",
+    "url": "https://github.com/chneau/docker-laya",
+    "description_snip": "Dockerized FastAPI service for Laya typed-decision predictions: multi-checkpoint routing, API-key/Basic auth, presets and bulk inference.",
+    "stars": 0,
+    "created": "2026-09-20T16:29:10Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Dockerized FastAPI service for Laya typed-decision predictions: multi-checkpoint routing, API-key/Basic auth, presets and bulk inference.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "daniel-farina/nitro",
+    "source": "github",
+    "why_high": "s1_family,guardrail",
+    "url": "https://github.com/daniel-farina/nitro",
+    "description_snip": "Grok Build with TypeSafe Jev routing tool selection once per turn: 22 to 40% cheaper on the same tasks",
+    "stars": 0,
+    "created": "2026-09-20T16:40:44Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Grok Build with TypeSafe Jev routing tool selection once per turn: 22 to 40% cheaper on the same tasks",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "dillera/prMonster",
+    "source": "github",
+    "why_high": "s1_family,kit_runtime",
+    "url": "https://github.com/dillera/prMonster",
+    "description_snip": "Jev-based PR triage harness for FujiNet firmware: gates, typed model questions, human-confirmed actions",
+    "stars": 0,
+    "created": "2026-09-20T16:31:56Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Jev-based PR triage harness for FujiNet firmware: gates, typed model questions, human-confirmed actions",
+    "fold_targets": [
+      "rh-guard",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "dingw530/playwright-jev",
+    "source": "github",
+    "why_high": "s1_family,kit_runtime",
+    "url": "https://github.com/dingw530/playwright-jev",
+    "description_snip": "\u57fa\u4e8e Jev + playwright-cli \u7684\u81ea\u7136\u8bed\u8a00 Web E2E \u6d4b\u8bd5\u5de5\u5177\uff1aJev \u8d1f\u8d23\u51b3\u7b56\uff0cPlaywright \u8d1f\u8d23\u6267\u884c\uff0c\u4ee3\u7801\u8d1f\u8d23\u65ad\u8a00\u4e0e\u5b89\u5168\u8fb9\u754c\u3002Goal-driven web E2E testing with Jev + playwright-cli: bounded AI decisions, rea",
+    "stars": 0,
+    "created": "2026-09-20T15:54:04Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "\u57fa\u4e8e Jev + playwright-cli \u7684\u81ea\u7136\u8bed\u8a00 Web E2E \u6d4b\u8bd5\u5de5\u5177\uff1aJev \u8d1f\u8d23\u51b3\u7b56\uff0cPlaywright \u8d1f\u8d23\u6267\u884c\uff0c\u4ee3\u7801\u8d1f\u8d23\u65ad\u8a00\u4e0e\u5b89\u5168\u8fb9\u754c\u3002Goal-driven web E2E testing with Jev + playwright-cli: bounded AI decisions, real browser execution, and deterministic assertions.",
+    "fold_targets": [
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "fly2abhishek/jev-field-tests",
+    "source": "github",
+    "why_high": "s1_family,guardrail,measurement_bench",
+    "url": "https://github.com/fly2abhishek/jev-field-tests",
+    "description_snip": "Twelve field tests for TypeSafe's Jev model: calibration, guardrails, r\u00e9sum\u00e9 screening, interview rubrics and its failure modes. Bring your own API key.",
+    "stars": 0,
+    "created": "2026-09-20T16:22:16Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Twelve field tests for TypeSafe's Jev model: calibration, guardrails, r\u00e9sum\u00e9 screening, interview rubrics and its failure modes. Bring your own API key.",
+    "fold_targets": [
+      "Augustus"
+    ]
+  },
+  {
+    "id": "fredrsat/stil-lint",
+    "source": "github",
+    "why_high": "s1_family,kit_runtime",
+    "url": "https://github.com/fredrsat/stil-lint",
+    "description_snip": "Style and quality linter for Norwegian and English text - MCP server for agents, with TypeSafe's Jev as the judgment layer. Reports findings, never authorship v",
+    "stars": 0,
+    "created": "2026-09-20T16:05:22Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Style and quality linter for Norwegian and English text - MCP server for agents, with TypeSafe's Jev as the judgment layer. Reports findings, never authorship verdicts.",
+    "fold_targets": [
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "gyu-don/jev-othello",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/gyu-don/jev-othello",
+    "description_snip": "TypeSafe AI \u306e\u8a55\u4fa1\u30e2\u30c7\u30eb Jev \u3068\u30ed\u30fc\u30ab\u30eb\u3067\u5bfe\u6226\u3059\u308b\u30aa\u30bb\u30ed",
+    "stars": 0,
+    "created": "2026-09-20T16:37:09Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "TypeSafe AI \u306e\u8a55\u4fa1\u30e2\u30c7\u30eb Jev \u3068\u30ed\u30fc\u30ab\u30eb\u3067\u5bfe\u6226\u3059\u308b\u30aa\u30bb\u30ed",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "havietkok-sys/BizzJev",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/havietkok-sys/BizzJev",
+    "description_snip": "Experiments with TypeSafe/Jev semantic gates and a Semantic Operations Lab demo.",
+    "stars": 0,
+    "created": "2026-09-20T15:49:29Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Experiments with TypeSafe/Jev semantic gates and a Semantic Operations Lab demo.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "hf:mys/laya-GGUF",
+    "source": "hf_model",
+    "why_high": "s1_family,open_weights_or_port,decision_scoring",
+    "url": "https://huggingface.co/mys/laya-GGUF",
+    "description_snip": "gguf ggmlc laya jev modernbert decision system-1 en base_model:convaiinnovations/laya base_model:quantized:convaiinnovations/laya license:apache-2.0 region:us",
+    "stars": 0,
+    "created": "2026-09-20T15:54:02.000Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "gguf ggmlc laya jev modernbert decision system-1 en base_model:convaiinnovations/laya base_model:quantized:convaiinnovations/laya license:apache-2.0 region:us",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "hf:mys/laya-multilingual-GGUF",
+    "source": "hf_model",
+    "why_high": "s1_family,open_weights_or_port,decision_scoring",
+    "url": "https://huggingface.co/mys/laya-multilingual-GGUF",
+    "description_snip": "gguf ggmlc laya jev mmbert multilingual decision system-1 base_model:convaiinnovations/laya-multilingual base_model:quantized:convaiinnovations/laya-multilingua",
+    "stars": 0,
+    "created": "2026-09-20T16:06:41.000Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "gguf ggmlc laya jev mmbert multilingual decision system-1 base_model:convaiinnovations/laya-multilingual base_model:quantized:convaiinnovations/laya-multilingual license:apache-2.0 region:us",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "hf:mys/laya-typed-decisions-GGUF",
+    "source": "hf_model",
+    "why_high": "s1_family,open_weights_or_port,decision_scoring",
+    "url": "https://huggingface.co/mys/laya-typed-decisions-GGUF",
+    "description_snip": "gguf ggmlc laya jev modernbert decision system-1 en base_model:convaiinnovations/laya-typed-decisions base_model:quantized:convaiinnovations/laya-typed-decision",
+    "stars": 0,
+    "created": "2026-09-20T16:16:06.000Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "gguf ggmlc laya jev modernbert decision system-1 en base_model:convaiinnovations/laya-typed-decisions base_model:quantized:convaiinnovations/laya-typed-decisions license:apache-2.0 region:us",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "hf:tozp/laya-onnx",
+    "source": "hf_model",
+    "why_high": "s1_family,open_weights_or_port,decision_scoring",
+    "url": "https://huggingface.co/tozp/laya-onnx",
+    "description_snip": "onnx modernbert onnxruntime laya system-one decision-making text-classification en base_model:convaiinnovations/laya base_model:quantized:convaiinnovations/laya",
+    "stars": 0,
+    "created": "2026-09-20T16:23:55.000Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "onnx modernbert onnxruntime laya system-one decision-making text-classification en base_model:convaiinnovations/laya base_model:quantized:convaiinnovations/laya region:us",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "hoaphm/jev-decision-maker",
+    "source": "github",
+    "why_high": "s1_family,kit_runtime,decision_scoring",
+    "url": "https://github.com/hoaphm/jev-decision-maker",
+    "description_snip": "omp plugin: JEV (TypeSafe System One) picks the next coding step from agent-supplied candidates",
+    "stars": 0,
+    "created": "2026-09-20T16:04:55Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "omp plugin: JEV (TypeSafe System One) picks the next coding step from agent-supplied candidates",
+    "fold_targets": [
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "javierdv7/calibrated-decisions-iot-demo",
+    "source": "github",
+    "why_high": "s1_family,guardrail,open_weights_or_port",
+    "url": "https://github.com/javierdv7/calibrated-decisions-iot-demo",
+    "description_snip": "Interactive smart home demo comparing local Laya (MLX) with Jev (TypeSafe API) using shared routing and safety rules.",
+    "stars": 0,
+    "created": "2026-09-20T16:12:16Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Interactive smart home demo comparing local Laya (MLX) with Jev (TypeSafe API) using shared routing and safety rules.",
+    "fold_targets": [
+      "Jev-omni",
+      "Augustus"
+    ]
+  },
+  {
+    "id": "kuromoka/garmin-fuel-guide",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/kuromoka/garmin-fuel-guide",
+    "description_snip": "Experimental Garmin Connect IQ data field for Forerunner 265 with a Jev relay for fueling-plan review",
+    "stars": 0,
+    "created": "2026-09-20T16:39:04Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Experimental Garmin Connect IQ data field for Forerunner 265 with a Jev relay for fueling-plan review",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "litshing/jevcore",
+    "source": "github",
+    "why_high": "s1_family,kit_runtime,measurement_bench",
+    "url": "https://github.com/litshing/jevcore",
+    "description_snip": "JEV core \u2014 the judgement primitive and harness for TypeSafe System One (Jev). Closed-set, fail-open, stdlib-only.",
+    "stars": 0,
+    "created": "2026-09-20T16:33:34Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "JEV core \u2014 the judgement primitive and harness for TypeSafe System One (Jev). Closed-set, fail-open, stdlib-only.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "lvk901/jevSweeper",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/lvk901/jevSweeper",
+    "description_snip": "Jev (TypeSafe System One) plays Minesweeper, scored against an exact probability oracle. Its judgments came out worse than random \u2014 and 86% of the model calls t",
+    "stars": 0,
+    "created": "2026-09-20T16:32:37Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Jev (TypeSafe System One) plays Minesweeper, scored against an exact probability oracle. Its judgments came out worse than random \u2014 and 86% of the model calls turned out to be unnecessary.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "netiqus/sema-jev-framework",
+    "source": "github",
+    "why_high": "s1_family,decision_scoring",
+    "url": "https://github.com/netiqus/sema-jev-framework",
+    "description_snip": "Semantic decision gates for Python: explicit outcomes, versioned policies and per-request accounting with Jev.",
+    "stars": 0,
+    "created": "2026-09-20T16:18:49Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Semantic decision gates for Python: explicit outcomes, versioned policies and per-request accounting with Jev.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "rubinagentagi-tech/jev-heart-risk-bench",
+    "source": "github",
+    "why_high": "s1_family,measurement_bench",
+    "url": "https://github.com/rubinagentagi-tech/jev-heart-risk-bench",
+    "description_snip": "Benchmarking Jev (TypeSafe System One) on 5,000 real CDC survey respondents, with an interactive demo where every profile has a real model answer",
+    "stars": 0,
+    "created": "2026-09-20T15:54:21Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Benchmarking Jev (TypeSafe System One) on 5,000 real CDC survey respondents, with an interactive demo where every profile has a real model answer",
+    "fold_targets": [
+      "Augustus"
+    ]
+  },
+  {
+    "id": "sriannamalai/Jev.UI",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/sriannamalai/Jev.UI",
+    "description_snip": "Easy to use User Interface for System One's Jev Model interaction.",
+    "stars": 0,
+    "created": "2026-09-20T16:11:46Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Easy to use User Interface for System One's Jev Model interaction.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "timsamart/jev-graph-walk",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/timsamart/jev-graph-walk",
+    "description_snip": "Context-carrying graph retrieval with Jev: branching walks, reproducible ablations, and a visual replay.",
+    "stars": 0,
+    "created": "2026-09-20T15:56:25Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Context-carrying graph retrieval with Jev: branching walks, reproducible ablations, and a visual replay.",
+    "fold_targets": [
+      "Augustus"
+    ]
+  },
+  {
+    "id": "tr1v3r/dsh-jev",
+    "source": "github",
+    "why_high": "s1_family,guardrail,kit_runtime,decision_scoring",
+    "url": "https://github.com/tr1v3r/dsh-jev",
+    "description_snip": "jev \u00d7 DeepSeek Harness: System One decision client, MCP server, per-turn router and effort plugins",
+    "stars": 0,
+    "created": "2026-09-20T15:59:47Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "jev \u00d7 DeepSeek Harness: System One decision client, MCP server, per-turn router and effort plugins",
+    "fold_targets": [
+      "rh-guard",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "rmalde/minecraft-agent",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/rmalde/minecraft-agent",
+    "description_snip": "Astra planner and JEV controller for Minecraft, with native recording, tested routes, and run verification.",
+    "stars": 206,
+    "created": "2026-09-20T05:05:12Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Astra planner and JEV controller for Minecraft, with native recording, tested routes, and run verification.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "wuyoscar/jev-skill",
+    "source": "github",
+    "why_high": "s1_family,kit_runtime,measurement_bench",
+    "url": "https://github.com/wuyoscar/jev-skill",
+    "description_snip": "An awesome collection of Jev use cases, workflows, and agent skills.",
+    "stars": 108,
+    "created": "2026-09-20T02:35:26Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "An awesome collection of Jev use cases, workflows, and agent skills.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "Yinsongxu/LLM2Jev",
+    "source": "github",
+    "why_high": "s1_family,decision_scoring",
+    "url": "https://github.com/Yinsongxu/LLM2Jev",
+    "description_snip": "Adapt local language models into Jev-compatible structured decision engines with Choice, Score, and Noul outputs   powered by prefill-only binary inference.",
+    "stars": 64,
+    "created": "2026-09-19T10:59:33Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Adapt local language models into Jev-compatible structured decision engines with Choice, Score, and Noul outputs   powered by prefill-only binary inference.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "FerryCorleone/crush-monitor",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/FerryCorleone/crush-monitor",
+    "description_snip": "Crush \u597d\u611f\u76d1\u63a7\u5668\uff1a\u7528 Jev \u5206\u6790\u5fae\u4fe1\u804a\u5929\u7684\u60c5\u7eea\u3001\u610f\u56fe\u548c\u56de\u590d\u8868\u73b0\u3002\u672c\u673a\u90e8\u7f72\uff0c\u4f7f\u7528\u81ea\u5df1\u7684 API Key\u3002",
+    "stars": 28,
+    "created": "2026-09-20T12:46:10Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Crush \u597d\u611f\u76d1\u63a7\u5668\uff1a\u7528 Jev \u5206\u6790\u5fae\u4fe1\u804a\u5929\u7684\u60c5\u7eea\u3001\u610f\u56fe\u548c\u56de\u590d\u8868\u73b0\u3002\u672c\u673a\u90e8\u7f72\uff0c\u4f7f\u7528\u81ea\u5df1\u7684 API Key\u3002",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "sabeel111/OpenSourceJev",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/sabeel111/OpenSourceJev",
+    "description_snip": "Turning an LLM model into a Jev like System.",
+    "stars": 10,
+    "created": "2026-09-19T18:44:34Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Turning an LLM model into a Jev like System.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "shitianfang/jev-use",
+    "source": "github",
+    "why_high": "s1_family,guardrail,kit_runtime",
+    "url": "https://github.com/shitianfang/jev-use",
+    "description_snip": "Claude Code / Codex / pi plugin that hands agent steps needing no text output to Jev (TypeSafe's judgment model) \u2014 measured p50 ~230 ms and ~$0.02 per 1,000 jud",
+    "stars": 10,
+    "created": "2026-09-19T10:13:56Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Claude Code / Codex / pi plugin that hands agent steps needing no text output to Jev (TypeSafe's judgment model) \u2014 measured p50 ~230 ms and ~$0.02 per 1,000 judgments, with typed escalation back to the LLM",
+    "fold_targets": [
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "keeltrace/hermes-jev",
+    "source": "github",
+    "why_high": "s1_family,guardrail",
+    "url": "https://github.com/keeltrace/hermes-jev",
+    "description_snip": "Typed System One decisions, ranking, verification, and an opt-in Hermes tool gate using TypeSafe Jev.",
+    "stars": 9,
+    "created": "2026-09-18T02:10:22Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Typed System One decisions, ranking, verification, and an opt-in Hermes tool gate using TypeSafe Jev.",
+    "fold_targets": [
+      "rh-guard",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "lykycy123/RoboJEV",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/lykycy123/RoboJEV",
+    "description_snip": "Two-stage JEV control of a Franka Panda in MuJoCo: pick/place, surface pushing, and fixed-pedestal stacking.",
+    "stars": 6,
+    "created": "2026-09-20T09:36:44Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Two-stage JEV control of a Franka Panda in MuJoCo: pick/place, surface pushing, and fixed-pedestal stacking.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "hoangnb24/paseo-supervision",
+    "source": "github",
+    "why_high": "s1_family,kit_runtime",
+    "url": "https://github.com/hoangnb24/paseo-supervision",
+    "description_snip": "Paseo plugin for supervising Lead\u2013Peer communication protocol drift with Jev",
+    "stars": 4,
+    "created": "2026-09-20T01:49:27Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Paseo plugin for supervising Lead\u2013Peer communication protocol drift with Jev",
+    "fold_targets": [
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "wh000wh000/awesome-jev-live",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/wh000wh000/awesome-jev-live",
+    "description_snip": "Evidence-graded index of the Jev / TypeSafe System One ecosystem. Rebuilt every 2 hours in 20 languages.",
+    "stars": 4,
+    "created": "2026-09-18T13:37:03Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Evidence-graded index of the Jev / TypeSafe System One ecosystem. Rebuilt every 2 hours in 20 languages.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "ChosenXu/newsletter-link-harvester",
+    "source": "github",
+    "why_high": "s1_family,kit_runtime",
+    "url": "https://github.com/ChosenXu/newsletter-link-harvester",
+    "description_snip": "Agent Skill: harvest links from newsletter emails into Raindrop.io with the author editorial context attached - Gmail read-only, three-layer dedup, zero-context",
+    "stars": 3,
+    "created": "2026-09-18T05:40:35Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Agent Skill: harvest links from newsletter emails into Raindrop.io with the author editorial context attached - Gmail read-only, three-layer dedup, zero-context library compare",
+    "fold_targets": [
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "hraness/algal",
+    "source": "github",
+    "why_high": "s1_family,kit_runtime",
+    "url": "https://github.com/hraness/algal",
+    "description_snip": "ALGAL is a new take on the agent graph: a language and runtime for agentic program evolution.",
+    "stars": 3,
+    "created": "2026-09-18T19:19:06Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "ALGAL is a new take on the agent graph: a language and runtime for agentic program evolution.",
+    "fold_targets": [
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "imaddde867/jev-position-test",
+    "source": "github",
+    "why_high": "s1_family,measurement_bench",
+    "url": "https://github.com/imaddde867/jev-position-test",
+    "description_snip": "Reorder the enum options: a Jev clone changes its answer, Jev doesn't. n=6, raw data included.",
+    "stars": 3,
+    "created": "2026-09-20T15:04:23Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Reorder the enum options: a Jev clone changes its answer, Jev doesn't. n=6, raw data included.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "mizchi/jev-lexer",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/mizchi/jev-lexer",
+    "description_snip": "Language-agnostic syntax highlighter: split like gpu-lexer, classify every part with Jev, render Shiki-compatible tokens, HTML and ANSI",
+    "stars": 3,
+    "created": "2026-09-20T10:25:42Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Language-agnostic syntax highlighter: split like gpu-lexer, classify every part with Jev, render Shiki-compatible tokens, HTML and ANSI",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "455-dIAO/windows-save-token-jev-setup",
+    "source": "github",
+    "why_high": "s1_family,guardrail,kit_runtime",
+    "url": "https://github.com/455-dIAO/windows-save-token-jev-setup",
+    "description_snip": "Windows Codex Skill\uff1a\u901a\u8fc7 npx \u6216 Git \u5b89\u88c5\uff0c\u5b89\u5168\u914d\u7f6e save-token-jev \u7684 PreCompact/SessionStart Hooks\uff0c\u5e76\u63d0\u4f9b\u4fe1\u4efb\u3001\u539f\u751f\u538b\u7f29\u4e0e\u65e7\u5185\u5bb9\u9694\u79bb\u9a8c\u8bc1\u3002",
+    "stars": 2,
+    "created": "2026-09-20T07:47:44Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Windows Codex Skill\uff1a\u901a\u8fc7 npx \u6216 Git \u5b89\u88c5\uff0c\u5b89\u5168\u914d\u7f6e save-token-jev \u7684 PreCompact/SessionStart Hooks\uff0c\u5e76\u63d0\u4f9b\u4fe1\u4efb\u3001\u539f\u751f\u538b\u7f29\u4e0e\u65e7\u5185\u5bb9\u9694\u79bb\u9a8c\u8bc1\u3002",
+    "fold_targets": [
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "Bald0Wang/jev-docs-zh",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/Bald0Wang/jev-docs-zh",
+    "description_snip": "Jev \u6a21\u578b\uff08TypeSafe AI\uff09\u5b98\u65b9\u4f7f\u7528\u6587\u6863\u7684\u4e2d\u6587\u7ffb\u8bd1 | Unofficial Chinese translation of the official Jev (TypeSafe AI) docs \u2014 https://docs.typesafe.ai",
+    "stars": 2,
+    "created": "2026-09-20T06:39:31Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Jev \u6a21\u578b\uff08TypeSafe AI\uff09\u5b98\u65b9\u4f7f\u7528\u6587\u6863\u7684\u4e2d\u6587\u7ffb\u8bd1 | Unofficial Chinese translation of the official Jev (TypeSafe AI) docs \u2014 https://docs.typesafe.ai",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "ChristianAlexander/effect-jev-cwe",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/ChristianAlexander/effect-jev-cwe",
+    "description_snip": "A demonstration of the Jev System 1 model in Effect, matching vulnerabilities to their underlying CWEs",
+    "stars": 2,
+    "created": "2026-09-20T04:03:06Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "A demonstration of the Jev System 1 model in Effect, matching vulnerabilities to their underlying CWEs",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "CompleteTech-LLC-AI-Research/jev-311-heatmap",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/CompleteTech-LLC-AI-Research/jev-311-heatmap",
+    "description_snip": "NYC 311 complaint heatmaps with TypeSafe JEV: reproducible pipeline, live research results, and interactive geographic visualizations.",
+    "stars": 2,
+    "created": "2026-09-20T00:20:04Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "NYC 311 complaint heatmaps with TypeSafe JEV: reproducible pipeline, live research results, and interactive geographic visualizations.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "aovestdipaperino/laya-pong",
+    "source": "github",
+    "why_high": "s1_family,kit_runtime,decision_scoring",
+    "url": "https://github.com/aovestdipaperino/laya-pong",
+    "description_snip": "Browser pong whose paddle is decided by a Laya typed decision, one question per frame at 18.7 ms",
+    "stars": 2,
+    "created": "2026-09-20T13:48:34Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Browser pong whose paddle is decided by a Laya typed decision, one question per frame at 18.7 ms",
+    "fold_targets": [
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "hoangngochuong24947-gif/jev-patent-disclosure",
+    "source": "github",
+    "why_high": "s1_family,kit_runtime,decision_scoring",
+    "url": "https://github.com/hoangngochuong24947-gif/jev-patent-disclosure",
+    "description_snip": "Patent disclosure and application drafting skill powered by TypeSafe Jev / Jeb System-1",
+    "stars": 2,
+    "created": "2026-09-20T06:55:05Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Patent disclosure and application drafting skill powered by TypeSafe Jev / Jeb System-1",
+    "fold_targets": [
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "minorun365/jev-cloud-quiz",
+    "source": "github",
+    "why_high": "s1_family,kit_runtime",
+    "url": "https://github.com/minorun365/jev-cloud-quiz",
+    "description_snip": "\u4e09\u5927\u30af\u30e9\u30a6\u30c9\u306e\u6a5f\u80fd\u540d\u3092\u3001TypeSafe AI \u306e System One \u30e2\u30c7\u30eb Jev \u304c\u78ba\u7387\u3064\u304d\u3067\u5224\u5b9a\u3059\u308b\u30c7\u30e2",
+    "stars": 2,
+    "created": "2026-09-20T03:54:01Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "\u4e09\u5927\u30af\u30e9\u30a6\u30c9\u306e\u6a5f\u80fd\u540d\u3092\u3001TypeSafe AI \u306e System One \u30e2\u30c7\u30eb Jev \u304c\u78ba\u7387\u3064\u304d\u3067\u5224\u5b9a\u3059\u308b\u30c7\u30e2",
+    "fold_targets": [
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "nabendu82/jev-reflex",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/nabendu82/jev-reflex",
+    "description_snip": "Multimodal Mac controller using Hand gestures and voice",
+    "stars": 2,
+    "created": "2026-09-20T07:59:15Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Multimodal Mac controller using Hand gestures and voice",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "win4r/pi-jev-router",
+    "source": "github",
+    "why_high": "s1_family,guardrail",
+    "url": "https://github.com/win4r/pi-jev-router",
+    "description_snip": "Task-boundary model routing for Pi Coding Agent, powered by TypeSafe Jev. Conservative policies, exact caching, and observable failover.",
+    "stars": 2,
+    "created": "2026-09-20T13:51:07Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Task-boundary model routing for Pi Coding Agent, powered by TypeSafe Jev. Conservative policies, exact caching, and observable failover.",
+    "fold_targets": [
+      "rh-guard"
+    ]
+  },
+  {
+    "id": "cheeaun/jevmoji",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/cheeaun/jevmoji",
+    "description_snip": "Type anything. Get related emojis scored 0\u20133 with Jev.",
+    "stars": 1,
+    "created": "2026-09-20T10:49:23Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Type anything. Get related emojis scored 0\u20133 with Jev.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "glamboyosa/docket",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/glamboyosa/docket",
+    "description_snip": "A Go TUI that uses Jev to classify documents, assess sensitivity and urgency, and determine whether action is required.",
+    "stars": 1,
+    "created": "2026-09-19T15:52:34Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "A Go TUI that uses Jev to classify documents, assess sensitivity and urgency, and determine whether action is required.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "hfdataset:roskosmos19/SystemOne",
+    "source": "hf_dataset",
+    "why_high": "s1_family,open_weights_or_port",
+    "url": "https://huggingface.co/datasets/roskosmos19/SystemOne",
+    "description_snip": "region:us",
+    "stars": 1,
+    "created": "2026-09-19T07:20:09.000Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "region:us",
+    "fold_targets": [
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "Ashadeepa/typesafe-showcase",
+    "source": "github",
+    "why_high": "s1_family,decision_scoring",
+    "url": "https://github.com/Ashadeepa/typesafe-showcase",
+    "description_snip": "Next.js UI showing off TypeSafe's System One model (Jev) \u2014 parallel Noul judgments and a Choice-based citation checker, deployable to Vercel",
+    "stars": 0,
+    "created": "2026-09-19T05:04:11Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Next.js UI showing off TypeSafe's System One model (Jev) \u2014 parallel Noul judgments and a Choice-based citation checker, deployable to Vercel",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "Astro-Han/decision-head-rlcd",
+    "source": "github",
+    "why_high": "s1_family,open_weights_or_port,decision_scoring",
+    "url": "https://github.com/Astro-Han/decision-head-rlcd",
+    "description_snip": "Where does a decision model's generalisation come from? RLCD on Qwen3.5-4B, held-out sets grouped by training-data coverage, JevBench and three external suites.",
+    "stars": 0,
+    "created": "2026-09-20T15:18:34Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Where does a decision model's generalisation come from? RLCD on Qwen3.5-4B, held-out sets grouped by training-data coverage, JevBench and three external suites.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "Bigthap/canvas-quiz-ai-solver",
+    "source": "github",
+    "why_high": "s1_family,decision_scoring",
+    "url": "https://github.com/Bigthap/canvas-quiz-ai-solver",
+    "description_snip": "High-performance Canvas LMS quiz assistant & scraper designed for TypeSafe AI System One decision primitives",
+    "stars": 0,
+    "created": "2026-09-19T10:28:06Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "High-performance Canvas LMS quiz assistant & scraper designed for TypeSafe AI System One decision primitives",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "CoderInPajamas/JEV-MLX",
+    "source": "github",
+    "why_high": "s1_family,guardrail,open_weights_or_port",
+    "url": "https://github.com/CoderInPajamas/JEV-MLX",
+    "description_snip": "JEV-inspired local decisions for Apple Silicon, powered by MLX.",
+    "stars": 0,
+    "created": "2026-09-20T13:09:46Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "JEV-inspired local decisions for Apple Silicon, powered by MLX.",
+    "fold_targets": [
+      "Jev-omni",
+      "Augustus"
+    ]
+  },
+  {
+    "id": "JJRPF/antigravity-auto-mode",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/JJRPF/antigravity-auto-mode",
+    "description_snip": "Claude Code Auto Mode emulation for Google Antigravity (AGY) powered by TypeSafe AI System One",
+    "stars": 0,
+    "created": "2026-09-20T14:00:20Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Claude Code Auto Mode emulation for Google Antigravity (AGY) powered by TypeSafe AI System One",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "LingyeNBird/codesafe",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/LingyeNBird/codesafe",
+    "description_snip": "Fast per-file safety/bug triage via TypeSafe System One API",
+    "stars": 0,
+    "created": "2026-09-20T14:49:46Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Fast per-file safety/bug triage via TypeSafe System One API",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "Mrmimee/hermes-plugin-jev",
+    "source": "github",
+    "why_high": "s1_family,kit_runtime,decision_scoring",
+    "url": "https://github.com/Mrmimee/hermes-plugin-jev",
+    "description_snip": "Jev (TypeSafe AI) System One decision engine plugin for Hermes Agent, backed by Agnes AI Flash.",
+    "stars": 0,
+    "created": "2026-09-19T13:42:27Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Jev (TypeSafe AI) System One decision engine plugin for Hermes Agent, backed by Agnes AI Flash.",
+    "fold_targets": [
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "StephenChan-1/Jev-usecases",
+    "source": "github",
+    "why_high": "s1_family,measurement_bench",
+    "url": "https://github.com/StephenChan-1/Jev-usecases",
+    "description_snip": "open source hub for Jev use cases",
+    "stars": 0,
+    "created": "2026-09-20T12:38:22Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "open source hub for Jev use cases",
+    "fold_targets": [
+      "Augustus"
+    ]
+  },
+  {
+    "id": "Sunwood-ai-labs/jev-colab-lab",
+    "source": "github",
+    "why_high": "s1_family,decision_scoring",
+    "url": "https://github.com/Sunwood-ai-labs/jev-colab-lab",
+    "description_snip": "Reproducible Google Colab GPU experiments for decision-model inference",
+    "stars": 0,
+    "created": "2026-09-20T14:33:33Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Reproducible Google Colab GPU experiments for decision-model inference",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "TrustifAI/typed_evals",
+    "source": "github",
+    "why_high": "s1_family,measurement_bench",
+    "url": "https://github.com/TrustifAI/typed_evals",
+    "description_snip": "Fast, typed, calibrated evaluations for LLM and agent outputs, powered by Jev \u2014 with simple, framework-agnostic Python APIs",
+    "stars": 0,
+    "created": "2026-09-20T07:58:36Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Fast, typed, calibrated evaluations for LLM and agent outputs, powered by Jev \u2014 with simple, framework-agnostic Python APIs",
+    "fold_targets": [
+      "Augustus"
+    ]
+  },
+  {
+    "id": "WiredMind2/jev",
+    "source": "github",
+    "why_high": "s1_family,measurement_bench,open_weights_or_port,decision_scoring",
+    "url": "https://github.com/WiredMind2/jev",
+    "description_snip": "Independent research notes toward an open Jev-like decision model: public facts, API contract, training and eval plan.",
+    "stars": 0,
+    "created": "2026-09-20T00:59:36Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Independent research notes toward an open Jev-like decision model: public facts, API contract, training and eval plan.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "az9713/jev-projects",
+    "source": "github",
+    "why_high": "s1_family,kit_runtime",
+    "url": "https://github.com/az9713/jev-projects",
+    "description_snip": "Small demos of Jev (TypeSafe) through the Vercel AI Gateway: wiki race, town of agents, bullet chess, and more",
+    "stars": 0,
+    "created": "2026-09-19T16:50:01Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Small demos of Jev (TypeSafe) through the Vercel AI Gateway: wiki race, town of agents, bullet chess, and more",
+    "fold_targets": [
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "breymander/grocery-finder",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/breymander/grocery-finder",
+    "description_snip": "Ingredient-matching PoC: Jev ranks catalog items across stores",
+    "stars": 0,
+    "created": "2026-09-19T20:22:47Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Ingredient-matching PoC: Jev ranks catalog items across stores",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "chalkychalk42/jev",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/chalkychalk42/jev",
+    "description_snip": "A guide-directed leveling agent for a private TBC 2.4.3 server, built so it gets cheaper to run the longer it runs",
+    "stars": 0,
+    "created": "2026-09-20T12:47:49Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "A guide-directed leveling agent for a private TBC 2.4.3 server, built so it gets cheaper to run the longer it runs",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "ddlaws0n/jevportfolio",
+    "source": "github",
+    "why_high": "s1_family,guardrail",
+    "url": "https://github.com/ddlaws0n/jevportfolio",
+    "description_snip": "1,000 synthetic SaaS accounts, 6,000 constrained judgments from TypeSafe's Jev, and ordinary TypeScript deciding who needs a human today. TanStack Start on Bun.",
+    "stars": 0,
+    "created": "2026-09-20T12:50:21Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "1,000 synthetic SaaS accounts, 6,000 constrained judgments from TypeSafe's Jev, and ordinary TypeScript deciding who needs a human today. TanStack Start on Bun.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "eclecticv/jev-adcp-decision-economics",
+    "source": "github",
+    "why_high": "s1_family,decision_scoring",
+    "url": "https://github.com/eclecticv/jev-adcp-decision-economics",
+    "description_snip": "Jev System One vs LLM cost/latency estimates for AdCP buyer and seller agent decisions (verified 2026-09-20)",
+    "stars": 0,
+    "created": "2026-09-20T15:29:46Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Jev System One vs LLM cost/latency estimates for AdCP buyer and seller agent decisions (verified 2026-09-20)",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "ghubnab99/jev-enterprise-decision-fabric",
+    "source": "github",
+    "why_high": "s1_family,guardrail,measurement_bench,decision_scoring",
+    "url": "https://github.com/ghubnab99/jev-enterprise-decision-fabric",
+    "description_snip": "Architecture for running many semantic decisions through one validated path, with a labelled 111-case benchmark comparing TypeSafe Jev against a Claude baseline",
+    "stars": 0,
+    "created": "2026-09-19T11:04:08Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Architecture for running many semantic decisions through one validated path, with a labelled 111-case benchmark comparing TypeSafe Jev against a Claude baseline, and a dashboard for inspecting any single decision. Experimental, not production.",
+    "fold_targets": [
+      "Augustus"
+    ]
+  },
+  {
+    "id": "hama-jp/laya-tetris-finetuning",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/hama-jp/laya-tetris-finetuning",
+    "description_snip": "Fine-tuning 421M Laya for real-time Tetris decisions: code, reproduction guide and experiment results",
+    "stars": 0,
+    "created": "2026-09-20T14:10:43Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Fine-tuning 421M Laya for real-time Tetris decisions: code, reproduction guide and experiment results",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "hfspace:AlexWortega/openjev",
+    "source": "hf_space",
+    "why_high": "s1_family,open_weights_or_port,kit_runtime",
+    "url": "https://huggingface.co/spaces/AlexWortega/openjev",
+    "description_snip": "gradio region:us",
+    "stars": 0,
+    "created": "2026-09-19T20:41:59.000Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "gradio region:us",
+    "fold_targets": [
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "hraness/sys1",
+    "source": "github",
+    "why_high": "s1_family,guardrail,kit_runtime",
+    "url": "https://github.com/hraness/sys1",
+    "description_snip": "Typed decisions for agents: a local model router, Jev-compatible gateway, and Node/Bun client.",
+    "stars": 0,
+    "created": "2026-09-19T02:32:00Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Typed decisions for agents: a local model router, Jev-compatible gateway, and Node/Bun client.",
+    "fold_targets": [
+      "rh-guard",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "hraness/system-one-skills",
+    "source": "github",
+    "why_high": "s1_family,kit_runtime",
+    "url": "https://github.com/hraness/system-one-skills",
+    "description_snip": "System One skills for Devin, Claude Code and Codex. Cut noisy validation-log tokens with one deterministic skill, private full logs, and measured evidence.",
+    "stars": 0,
+    "created": "2026-09-19T06:04:33Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "System One skills for Devin, Claude Code and Codex. Cut noisy validation-log tokens with one deterministic skill, private full logs, and measured evidence.",
+    "fold_targets": [
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "ignitewala/system-one",
+    "source": "github",
+    "why_high": "s1_family,measurement_bench",
+    "url": "https://github.com/ignitewala/system-one",
+    "description_snip": "System-one model evaluation and example",
+    "stars": 0,
+    "created": "2026-09-20T14:52:21Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "System-one model evaluation and example",
+    "fold_targets": [
+      "Augustus"
+    ]
+  },
+  {
+    "id": "lkarlslund/laya.cpp",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/lkarlslund/laya.cpp",
+    "description_snip": "RTX-optimized C++ inference for Laya typed decisions",
+    "stars": 0,
+    "created": "2026-09-20T09:18:04Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "RTX-optimized C++ inference for Laya typed decisions",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "matchstick-trading/jev-regime-gate",
+    "source": "github",
+    "why_high": "s1_family,guardrail",
+    "url": "https://github.com/matchstick-trading/jev-regime-gate",
+    "description_snip": "Jev-powered regime gate for trading strategy backtests. Research experiment, not investment advice.",
+    "stars": 0,
+    "created": "2026-09-20T00:40:51Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Jev-powered regime gate for trading strategy backtests. Research experiment, not investment advice.",
+    "fold_targets": [
+      "rh-guard"
+    ]
+  },
+  {
+    "id": "minhlucvan/dsh-plugin-system-one",
+    "source": "github",
+    "why_high": "s1_family,kit_runtime,measurement_bench",
+    "url": "https://github.com/minhlucvan/dsh-plugin-system-one",
+    "description_snip": "TypeSafe Jev (System One) as DeepSeek Harness agent tools, with the token accounting and benchmark to prove what they cost",
+    "stars": 0,
+    "created": "2026-09-20T10:17:06Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "TypeSafe Jev (System One) as DeepSeek Harness agent tools, with the token accounting and benchmark to prove what they cost",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "muratmirgun/owncode",
+    "source": "github",
+    "why_high": "s1_family,kit_runtime",
+    "url": "https://github.com/muratmirgun/owncode",
+    "description_snip": "An experimental terminal coding agent with configurable models, Witch orchestration, and multiple context compaction methods.",
+    "stars": 0,
+    "created": "2026-09-18T22:26:06Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "An experimental terminal coding agent with configurable models, Witch orchestration, and multiple context compaction methods.",
+    "fold_targets": [
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "n0nuser/battlesnake-jev",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/n0nuser/battlesnake-jev",
+    "description_snip": "A Battlesnake in Go where deterministic code owns tactics and a TypeSafe Jev classifier gets the judgment calls \u2014 with controls measuring whether that actually ",
+    "stars": 0,
+    "created": "2026-09-19T22:58:49Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "A Battlesnake in Go where deterministic code owns tactics and a TypeSafe Jev classifier gets the judgment calls \u2014 with controls measuring whether that actually helped.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "noelserdna/cartas-ciberseguridad-jev",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/noelserdna/cartas-ciberseguridad-jev",
+    "description_snip": "Puntuar curr\u00edculums de ciberseguridad con JEV, el modelo System One de TypeSafe, sobre Cloudflare Workers. Clasificaci\u00f3n contra NICE, ECSF y SFIA, con cada n\u00fame",
+    "stars": 0,
+    "created": "2026-09-20T14:06:32Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Puntuar curr\u00edculums de ciberseguridad con JEV, el modelo System One de TypeSafe, sobre Cloudflare Workers. Clasificaci\u00f3n contra NICE, ECSF y SFIA, con cada n\u00famero trazable hasta la pregunta que lo produjo.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "nyattoh/model-effort-router",
+    "source": "github",
+    "why_high": "s1_family,guardrail,decision_scoring",
+    "url": "https://github.com/nyattoh/model-effort-router",
+    "description_snip": "Provider-neutral task decomposition and model-effort routing with optional Jev decision signals",
+    "stars": 0,
+    "created": "2026-09-20T14:25:12Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Provider-neutral task decomposition and model-effort routing with optional Jev decision signals",
+    "fold_targets": [
+      "rh-guard",
+      "Augustus"
+    ]
+  },
+  {
+    "id": "osuki-dev/opencode-osuki-agent",
+    "source": "github",
+    "why_high": "s1_family,guardrail",
+    "url": "https://github.com/osuki-dev/opencode-osuki-agent",
+    "description_snip": "Effect-native OpenCode coordinator with Jev routing and persistent goals",
+    "stars": 0,
+    "created": "2026-09-20T05:21:02Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Effect-native OpenCode coordinator with Jev routing and persistent goals",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "royosherove/graphlin",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/royosherove/graphlin",
+    "description_snip": "Live architecture and activity diagrams for coding agents using JEV.",
+    "stars": 0,
+    "created": "2026-09-20T12:24:22Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Live architecture and activity diagrams for coding agents using JEV.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "saifullahshafin/system1-third-person-audit",
+    "source": "github",
+    "why_high": "s1_family,measurement_bench,decision_scoring",
+    "url": "https://github.com/saifullahshafin/system1-third-person-audit",
+    "description_snip": "System One Deterministic Decision Layer & Third-Person Audit (TPA) for Autonomous AI Agents. Arrests human-agent echo chambers and false completion at mid-fligh",
+    "stars": 0,
+    "created": "2026-09-20T14:54:32Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "System One Deterministic Decision Layer & Third-Person Audit (TPA) for Autonomous AI Agents. Arrests human-agent echo chambers and false completion at mid-flight (40% & 60% watermarks).",
+    "fold_targets": [
+      "Augustus"
+    ]
+  },
+  {
+    "id": "suidouble/let-jev-speak",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/suidouble/let-jev-speak",
+    "description_snip": "Experiment to trick Typesafe\u2019s Jev, aka \u201cthe language model that won\u2019t talk\u201d into actually talking.",
+    "stars": 0,
+    "created": "2026-09-20T02:51:44Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Experiment to trick Typesafe\u2019s Jev, aka \u201cthe language model that won\u2019t talk\u201d into actually talking.",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "swarooppatilx/oxox",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/swarooppatilx/oxox",
+    "description_snip": "Probably the least useful thing you can build with Jev",
+    "stars": 0,
+    "created": "2026-09-19T21:52:53Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Probably the least useful thing you can build with Jev",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "wquguru/dasheng",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/wquguru/dasheng",
+    "description_snip": "\u5927\u58f0\u8bfb \u2014 R2T2 \u6d41\u5f0f ASR \u542c\uff0cJev \u9010\u8bcd\u5224\uff0c\u82f1\u6587\u6717\u8bfb\u8bc4\u5206",
+    "stars": 0,
+    "created": "2026-09-20T15:33:25Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "\u5927\u58f0\u8bfb \u2014 R2T2 \u6d41\u5f0f ASR \u542c\uff0cJev \u9010\u8bcd\u5224\uff0c\u82f1\u6587\u6717\u8bfb\u8bc4\u5206",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "xpressabhi/jev-browser",
+    "source": "github",
+    "why_high": "s1_family,kit_runtime",
+    "url": "https://github.com/xpressabhi/jev-browser",
+    "description_snip": "Jev decides. The harness acts.",
+    "stars": 0,
+    "created": "2026-09-18T07:37:02Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "Jev decides. The harness acts.",
+    "fold_targets": [
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "xuboboo/ashare-trader",
+    "source": "github",
+    "why_high": "s1_family",
+    "url": "https://github.com/xuboboo/ashare-trader",
+    "description_snip": "\u9996\u4e2a\u57fa\u4e8eJev\u6a21\u578b\u7684A \u80a1 T+1 \u5f00\u6e90\u91cf\u5316\u51b3\u7b56\u53f0\uff1a\u5c3e\u76d8\u9009\u80a1 + \u4eba\u5de5\u6267\u884c\u56de\u586b + \u5f71\u5b50\u8bb0\u8d26 + \u65e5\u7ebf\u56de\u6d4b\u3002\u5f53\u524d\u7b56\u7565\u5728\u771f\u5b9e\u6210\u672c\u4e0b\u6ca1\u6709\u6b63\u671f\u671b\uff0c\u5df2\u505c\u5728\u56de\u6d4b\u5c42\uff08README \u6709\u5168\u90e8\u6570\u636e\uff09\u3002",
+    "stars": 0,
+    "created": "2026-09-20T15:06:31Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "\u9996\u4e2a\u57fa\u4e8eJev\u6a21\u578b\u7684A \u80a1 T+1 \u5f00\u6e90\u91cf\u5316\u51b3\u7b56\u53f0\uff1a\u5c3e\u76d8\u9009\u80a1 + \u4eba\u5de5\u6267\u884c\u56de\u586b + \u5f71\u5b50\u8bb0\u8d26 + \u65e5\u7ebf\u56de\u6d4b\u3002\u5f53\u524d\u7b56\u7565\u5728\u771f\u5b9e\u6210\u672c\u4e0b\u6ca1\u6709\u6b63\u671f\u671b\uff0c\u5df2\u505c\u5728\u56de\u6d4b\u5c42\uff08README \u6709\u5168\u90e8\u6570\u636e\uff09\u3002",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  },
+  {
+    "id": "zebedelu/sudoku-vs-jev",
+    "source": "github",
+    "why_high": "s1_family,decision_scoring",
+    "url": "https://github.com/zebedelu/sudoku-vs-jev",
+    "description_snip": "A terminal Sudoku game where TypeSafe's Jev model plays the game, built to probe its decision-making move by move",
+    "stars": 0,
+    "created": "2026-09-19T19:13:18Z",
+    "recent": true,
+    "tier": "HIGH",
+    "description": "A terminal Sudoku game where TypeSafe's Jev model plays the game, built to probe its decision-making move by move",
+    "fold_targets": [
+      "Augustus",
+      "Jev-omni"
+    ]
+  }
+]
