@@ -2775,14 +2775,14 @@
   default path is pretrained Gemma probs not trained RLCD head);
   Meanblock/JEV-CPU (sha `759fa606`; GH Meanblock 404; lock leesk212/JEV-CPU;
   softmax over letter slots ≠ Noul);
-  impacte/mimir-lfm-openjev (sha `2b999b3a`; WANLI 0.741 vs openjev v2 0.77 *theirs*;
+  impacte/mimir-lfm-openjev (sha `5f9173bb`; WANLI 0.741 vs openjev v2 0.77 *theirs*;
   3-way NLI ≠ Noul);
   shreyanbr/system-one-distilled/gold/zeroshot
   (priority 0.464 = majority floor; banking77 contaminated;
   raw margins not probabilities;
   do not distill Jev as teacher of record (they distilled Haiku)).
 - Measurement densifies PRIMARY: Running-Dolphins/jev-bench
-  (**0★**; HEAD `67d2ee42`; size **0** WITH CONTENTS;
+  (**0★**; HEAD `67d2ee42`; size **1070**;
   “0.9 is not one number”; ranking ≠ calibration;
   banking77 0.8–0.9 stated 0.86 actual 0.73 over-confident *theirs*);
   WallerChen/jev-measured (**0★**; HEAD `4a12dfb3`;
@@ -2790,10 +2790,10 @@
   Score is 0..n-1 expectation not 0–1; Noul has no confidence field;
   TCP floor 198.8 ms; type reliability is not a reason to choose Jev (json_schema 5/5);
   gateway tax not one number);
-  RadRebelSam/jev-decision-lab (**0★**; HEAD `e6d6d42d`;
+  RadRebelSam/jev-decision-lab (**0★**; HEAD `e6d6d42d`; size **128**;
   Function-only 5/8 vs hybrid 8/8; 8 designed cases not conversion lift);
-  jackojacko05/compare-jev-bigquery-ai-functions (**0★**; HEAD `fca3771a`;
-  200-row pilot Jev 85.5% 171/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 88.5% 177/200 *theirs*;
+  jackojacko05/compare-jev-bigquery-ai-functions (**0★**; HEAD `cb9ef56b`;
+  200-row pilot Jev 86.5% 173/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 87.0% 174/200 *theirs*;
   not a ranking).
 - Applied/theory: questionator (Client-side quiz; pointer from held docs; scanned-PDF warn);
   grill-jev (Jev judges / agent reasons / user decides);
@@ -2813,9 +2813,9 @@
   archerhume/4rcherhume HTTP **401**. Tracker likes **64**;
   lastModified `2026-09-20T04:29:16.000Z` **UNCHANGED**.
   Laya present (likes **793**); Blackwood ABSENT. Live REST:
-  SemIf **2178★** (+12 vs §109 2166); jevlike **1032★**
+  SemIf **2186★** (+20 vs §109 2166); jevlike **1038★**
   (+1 vs §109 1031); TypeAR **14★** flat vs §109.
-  AnotiaWang/awesome-jev **96★** ≠ yibie/awesome-jev **488★**.
+  AnotiaWang/awesome-jev **96★** ≠ yibie/awesome-jev **490★**.
   Qwen3.8-27B ≠ Archer.
   X MCP not used. `invented_signal: false`.
 - Folded into SKILL.md (description + protocol +

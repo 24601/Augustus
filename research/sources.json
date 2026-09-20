@@ -4458,13 +4458,13 @@
       "kind": "huggingface",
       "title": "Meanblock/JEV-CPU",
       "url": "https://huggingface.co/Meanblock/JEV-CPU",
-      "note": "mit; likes 6; sha 759fa606. GH Meanblock 404; lock leesk212/JEV-CPU. softmax over letter slots ≠ Noul. notes.md §110."
+      "note": "mit; likes 7; sha 759fa606. GH Meanblock 404; lock leesk212/JEV-CPU. softmax over letter slots ≠ Noul. notes.md §110."
     },
     {
       "kind": "huggingface",
       "title": "impacte/mimir-lfm-openjev",
       "url": "https://huggingface.co/impacte/mimir-lfm-openjev",
-      "note": "LFM Open License; likes 0; sha 2b999b3a. WANLI 0.741 vs openjev v2 0.77 *theirs*. 3-way NLI ≠ Noul. notes.md §110."
+      "note": "LFM Open License; likes 0; sha 5f9173bb. WANLI 0.741 vs openjev v2 0.77 *theirs*. 3-way NLI ≠ Noul. notes.md §110."
     },
     {
       "kind": "huggingface",
@@ -4488,7 +4488,7 @@
       "kind": "github",
       "title": "Running-Dolphins/jev-bench",
       "url": "https://github.com/Running-Dolphins/jev-bench",
-      "note": "PRIMARY Harbor-jevals hourly 0541. Python MIT LICENSE SHA 891c70c6; 0★; HEAD 67d2ee42; README SHA ae2c5003; size 0 WITH CONTENTS. “0.9 is not one number”. ranking ≠ calibration. banking77 0.8–0.9 stated 0.86 actual 0.73 over-confident *theirs*. ≠ Praveenrajus/jev-bench ≠ fstandhartinger/jevbench. notes.md §110."
+      "note": "PRIMARY Harbor-jevals hourly 0541. Python MIT LICENSE SHA 891c70c6; 0★; HEAD 67d2ee42; README SHA ae2c5003; size 1070. “0.9 is not one number”. ranking ≠ calibration. banking77 0.8–0.9 stated 0.86 actual 0.73 over-confident *theirs*. ≠ Praveenrajus/jev-bench ≠ fstandhartinger/jevbench. notes.md §110."
     },
     {
       "kind": "github",
@@ -4500,13 +4500,13 @@
       "kind": "github",
       "title": "RadRebelSam/jev-decision-lab",
       "url": "https://github.com/RadRebelSam/jev-decision-lab",
-      "note": "TS MIT LICENSE SHA ae6f994c; 0★; HEAD e6d6d42d; README SHA 52a0071d; size 0 WITH CONTENTS. Function-only 5/8 vs hybrid 8/8. 4/8 without Jev. 8 designed cases not conversion lift. ≠ RadRebelSam/awesome-jev. notes.md §110."
+      "note": "TS MIT LICENSE SHA ae6f994c; 0★; HEAD e6d6d42d; README SHA 52a0071d; size 128. Function-only 5/8 vs hybrid 8/8. 4/8 without Jev. 8 designed cases not conversion lift. ≠ RadRebelSam/awesome-jev. notes.md §110."
     },
     {
       "kind": "github",
       "title": "jackojacko05/compare-jev-bigquery-ai-functions",
       "url": "https://github.com/jackojacko05/compare-jev-bigquery-ai-functions",
-      "note": "Jupyter MIT LICENSE SHA 0248c4b0; 0★; HEAD fca3771a; README SHA 37dc973e; size 0 WITH CONTENTS. 200-row pilot Jev 85.5% 171/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 88.5% 177/200 *theirs*. not a ranking. notes.md §110."
+      "note": "Jupyter MIT LICENSE SHA 0248c4b0; 0★; HEAD cb9ef56b; README SHA d3db5d6c; size 307. 200-row pilot Jev 86.5% 173/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 87.0% 174/200 *theirs*. not a ranking. notes.md §110."
     },
     {
       "kind": "github",
@@ -4536,7 +4536,7 @@
       "kind": "github",
       "title": "AiPersonacademy/Awesome-jev-use",
       "url": "https://github.com/AiPersonacademy/Awesome-jev-use",
-      "note": "CC0-1.0 LICENSE SHA 7ba0a23e; 2★; HEAD 7cd1064c; README SHA 32b0ddf5; size 124. APA “microsecond policy / zero hallucination” overclaim. catalog ≠ endorsement. notes.md §110."
+      "note": "CC0-1.0 LICENSE SHA 7ba0a23e; 2★; HEAD 29246f12; README SHA d506c11f; size 124. APA “microsecond policy / zero hallucination” overclaim. catalog ≠ endorsement. notes.md §110."
     },
     {
       "kind": "github",
@@ -4554,13 +4554,13 @@
       "kind": "github",
       "title": "makefunstuff/jev-lsp",
       "url": "https://github.com/makefunstuff/jev-lsp",
-      "note": "Rust MIT LICENSE SHA fb5bc4a5; 0★; HEAD 734c0f59; README SHA c7ecbf8f; size 1696. pattern exact, judgement must clear floor. no matching pattern → no model call. not a correctness oracle. $0.00022 vs chat $0.00306 *theirs*. notes.md §110."
+      "note": "Rust MIT LICENSE SHA fb5bc4a5; 0★; HEAD bce3d8ed; README SHA c7ecbf8f; size 1696. pattern exact, judgement must clear floor. no matching pattern → no model call. not a correctness oracle. $0.00022 vs chat $0.00306 *theirs*. notes.md §110."
     },
     {
       "kind": "github",
       "title": "nozomi-koborinai/jev-spec",
       "url": "https://github.com/nozomi-koborinai/jev-spec",
-      "note": "TS MIT LICENSE SHA e43f732a; 1★; HEAD 9f8cece7; README SHA 7c5b08d0; size 73. Spec vs artifact remainder. treating 0.85 as 85% / minProbability hard-gate as Harbor. notes.md §110."
+      "note": "TS MIT LICENSE SHA e43f732a; 1★; HEAD 86f14198; README SHA c0f29baa; size 73. Spec vs artifact remainder. treating 0.85 as 85% / minProbability hard-gate as Harbor. notes.md §110."
     },
     {
       "kind": "github",

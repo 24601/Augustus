@@ -3415,7 +3415,7 @@ No, no, and no. do not distill Jev as teacher of record (they distilled Haiku). 
 
 ## Treat 0.9 as one number? Collapse Running-Dolphins/jev-bench into Praveenrajus/jevbench?
 
-No and no. “0.9 is not one number”. ranking ≠ calibration. banking77 0.8–0.9 stated 0.86 actual 0.73 over-confident *theirs*. ≠ Praveenrajus/jev-bench ≠ fstandhartinger/jevbench. Python MIT; **0★**; HEAD `67d2ee42`; size **0** WITH CONTENTS. Running-Dolphins/jev-bench. PRIMARY. `notes.md` §110.
+No and no. “0.9 is not one number”. ranking ≠ calibration. banking77 0.8–0.9 stated 0.86 actual 0.73 over-confident *theirs*. ≠ Praveenrajus/jev-bench ≠ fstandhartinger/jevbench. Python MIT; **0★**; HEAD `67d2ee42`; size **1070**. Running-Dolphins/jev-bench. PRIMARY. `notes.md` §110.
 
 ## Treat circulating $0.0004 as measured? Treat Score as 0–1? Treat Noul.confidence as existing? Treat json_schema gap as a typed-model win?
 
@@ -3423,19 +3423,19 @@ No, no, no, and no. $0.0000153–$0.0000226 vs circulating $0.0004 (~20×). Scor
 
 ## Treat 8/8 as conversion lift? Collapse RadRebelSam/jev-decision-lab into RadRebelSam/awesome-jev?
 
-No and no. Function-only 5/8 vs hybrid 8/8. 4/8 without Jev. 8 designed cases not conversion lift. ≠ RadRebelSam/awesome-jev. TypeScript MIT; **0★**; HEAD `e6d6d42d`; size **0** WITH CONTENTS. `notes.md` §110.
+No and no. Function-only 5/8 vs hybrid 8/8. 4/8 without Jev. 8 designed cases not conversion lift. ≠ RadRebelSam/awesome-jev. TypeScript MIT; **0★**; HEAD `e6d6d42d`; size **128**. `notes.md` §110.
 
 ## Treat a 200-row BigQuery pilot as a ranking? Treat Tetris play as a bake-off?
 
-No and no. 200-row pilot Jev 85.5% 171/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 88.5% 177/200 *theirs*. not a ranking. NLI Tetris argmax P(entail)−P(contradict). Jupyter MIT; **0★**; HEAD `fca3771a`; size **0** WITH CONTENTS. jackojacko05/compare-jev-bigquery-ai-functions. Trecto34/openjev-fighting-ring Python; license **null**; **0★**; HEAD `ac544f1e`. `notes.md` §110.
+No and no. 200-row pilot Jev 86.5% 173/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 87.0% 174/200 *theirs*. not a ranking. NLI Tetris argmax P(entail)−P(contradict). Jupyter MIT; **0★**; HEAD `cb9ef56b`; size **307**. jackojacko05/compare-jev-bigquery-ai-functions. Trecto34/openjev-fighting-ring Python; license **null**; **0★**; HEAD `ac544f1e`. `notes.md` §110.
 
 ## Collapse joshhu/jevtest into realZachi/jevtest? Treat 64× Space as Harbor / JevBench v1.2?
 
-No and no. 情緒測謊器. 1q 396ms / 30q 567ms. ±0.03. 33q $0.000045 vs Gemini ~5× slower ~60× cost *theirs*. ≠ realZachi/jevtest. 8-example Jev vs GPT-5.6 Sol ~64× cost 5.4× latency *theirs*. synthetic; no inference. ≠ JevBench v1.2 §78. Size **0** WITH CONTENTS. `notes.md` §110.
+No and no. 情緒測謊器. 1q 396ms / 30q 567ms. ±0.03. 33q $0.000045 vs Gemini ~5× slower ~60× cost *theirs*. ≠ realZachi/jevtest. 8-example Jev vs GPT-5.6 Sol ~64× cost 5.4× latency *theirs*. synthetic; no inference. ≠ JevBench v1.2 §78. joshhu size **34**. `notes.md` §110.
 
 ## Treat awesome listed counts as eval? Paste APA “microsecond policy / zero hallucination”?
 
-No and no. Judged 3317 / listed 2560. Jev judges, code applies policy. catalog ≠ endorsement. APA “microsecond policy / zero hallucination” overclaim. rhc98/awesome-jev TypeScript; **1★**; HEAD `82898f25`. AiPersonacademy/Awesome-jev-use CC0-1.0; **2★**; HEAD `7cd1064c`. `notes.md` §110.
+No and no. Judged 3317 / listed 2560. Jev judges, code applies policy. catalog ≠ endorsement. APA “microsecond policy / zero hallucination” overclaim. rhc98/awesome-jev TypeScript; **1★**; HEAD `82898f25`. AiPersonacademy/Awesome-jev-use CC0-1.0; **2★**; HEAD `29246f12`. `notes.md` §110.
 
 ## Copy keys / cargo for questionator / grill-jev / jev-lsp? Treat selecting an option as permission? Treat LSP diagnostics as a proof?
 
@@ -3443,8 +3443,8 @@ No, no, and no. Client-side quiz; pointer from held docs; scanned-PDF warn. CSP 
 
 ## Treat 0.85 as 85% / minProbability as Harbor? Treat :max as a mandatory search size? VERIFY by rescoring the same pool?
 
-No, no, and no. Spec vs artifact remainder. treating 0.85 as 85% / minProbability hard-gate as Harbor. VERIFY acquires discriminating evidence, never same-pool confidence-only rescoring. fast/full/max are ceilings not sizes. Solar writes, Jev chooses NEXT ACTION. Hard-gating minProbability 0.85 as a CI proof is soundness theater. nozomi-koborinai/jev-spec TypeScript MIT; **1★**; HEAD `9f8cece7`. 202620325-spec/Jev-LLM Python MIT; **0★**; HEAD `da06b6d1`. `notes.md` §110.
+No, no, and no. Spec vs artifact remainder. treating 0.85 as 85% / minProbability hard-gate as Harbor. VERIFY acquires discriminating evidence, never same-pool confidence-only rescoring. fast/full/max are ceilings not sizes. Solar writes, Jev chooses NEXT ACTION. Hard-gating minProbability 0.85 as a CI proof is soundness theater. nozomi-koborinai/jev-spec TypeScript MIT; **1★**; HEAD `86f14198`. 202620325-spec/Jev-LLM Python MIT; **0★**; HEAD `da06b6d1`. `notes.md` §110.
 
 ## Did Archer land this hour? Treat tracker likes 64 as a landing? Reopen PR #23–#27?
 
-No, no, and no. Hub `archerhume/4rcherhume` HTTP **401** (not re-fetched as a rewrite). tracker likes 64 flat, lastModified UNCHANGED. Tracker likes **64** **flat** vs §109; lastModified `2026-09-20T04:29:16.000Z` **UNCHANGED**. Laya likes 793 (was 783). Blackwood tracker ABSENT; likes 2 gated manual. Archer still promised_not_landed. Live REST pulse: SemIf 2178★ (+12 vs §109 2166); jevlike 1032★ (+1 vs 1031); TypeAR 14★ flat. AnotiaWang 96★ (+1 vs 95) ≠ yibie/awesome-jev 488★. Qwen3.8-27B ≠ Archer. do not reopen or amend PR #23/#24/#25/#26/#27. `invented_signal: false`. `notes.md` §110.
+No, no, and no. Hub `archerhume/4rcherhume` HTTP **401** (not re-fetched as a rewrite). tracker likes 64 flat, lastModified UNCHANGED. Tracker likes **64** **flat** vs §109; lastModified `2026-09-20T04:29:16.000Z` **UNCHANGED**. Laya likes 802 (was 783). Blackwood tracker ABSENT; likes 2 gated manual. Archer still promised_not_landed. Live REST pulse: SemIf 2186★ (+20 vs §109 2166); jevlike 1038★ (+7 vs 1031); TypeAR 14★ flat. AnotiaWang 96★ (+1 vs 95) ≠ yibie/awesome-jev 490★. Qwen3.8-27B ≠ Archer. do not reopen or amend PR #23/#24/#25/#26/#27. `invented_signal: false`. `notes.md` §110.

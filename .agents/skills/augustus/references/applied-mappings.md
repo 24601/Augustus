@@ -2322,7 +2322,7 @@ gateway tax not one number.
 Function-only 5/8 vs hybrid 8/8; 4/8 without Jev;
 8 designed cases not conversion lift; ≠ RadRebelSam/awesome-jev.
 [jackojacko05/compare-jev-bigquery-ai-functions](https://github.com/jackojacko05/compare-jev-bigquery-ai-functions)
-200-row pilot Jev 85.5% 171/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 88.5% 177/200 *theirs*;
+200-row pilot Jev 86.5% 173/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 87.0% 174/200 *theirs*;
 not a ranking.
 [Trecto34/openjev-fighting-ring](https://github.com/Trecto34/openjev-fighting-ring)
 NLI Tetris argmax P(entail)−P(contradict).
@@ -2357,12 +2357,12 @@ treating 0.85 as 85% / minProbability hard-gate as Harbor.
 VERIFY acquires discriminating evidence, never same-pool confidence-only rescoring;
 fast/full/max are ceilings not sizes;
 Solar writes, Jev chooses NEXT ACTION.
-SemIf 2178★ (+12 vs §109 2166);
-jevlike 1032★ (+1 vs 1031);
+SemIf 2186★ (+20 vs §109 2166);
+jevlike 1038★ (+7 vs 1031);
 TypeAR 14★ flat;
 AnotiaWang 96★ (+1 vs 95);
-yibie/awesome-jev 488★;
-Laya likes 793 (was 783);
+yibie/awesome-jev 490★;
+Laya likes 802 (was 783);
 tracker likes 64 flat, lastModified UNCHANGED;
 Blackwood tracker ABSENT; Archer still promised_not_landed.
 do not reopen or amend PR #23/#24/#25/#26/#27.

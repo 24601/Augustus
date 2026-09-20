@@ -506,7 +506,7 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   type reliability is not a reason to choose Jev (json_schema 5/5);
   Function-only 5/8 vs hybrid 8/8; 4/8 without Jev;
   8 designed cases not conversion lift;
-  200-row pilot Jev 85.5% 171/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 88.5% 177/200 *theirs*;
+  200-row pilot Jev 86.5% 173/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 87.0% 174/200 *theirs*;
   not a ranking; 情緒測謊器;
   8-example Jev vs GPT-5.6 Sol ~64× cost 5.4× latency *theirs*;
   synthetic; no inference; ≠ JevBench v1.2 §78;
@@ -524,11 +524,11 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   fast/full/max are ceilings not sizes;
   Solar writes, Jev chooses NEXT ACTION;
   tracker likes 64 flat, lastModified UNCHANGED;
-  Laya likes 793 (was 783); Blackwood tracker ABSENT;
+  Laya likes 802 (was 783); Blackwood tracker ABSENT;
   Archer still promised_not_landed
   (`notes.md` §110).
 
-Hourly 0541 uniqueness lock: calibration beyond ~500 tokens unmeasured; GH jev-haiku-benchmarking 404; ≠ Praveenrajus/jev-bench ≠ fstandhartinger/jevbench; gateway tax not one number; ≠ RadRebelSam/awesome-jev; NLI Tetris argmax P(entail)−P(contradict); 1q 396ms / 30q 567ms; ±0.03; 33q $0.000045 vs Gemini ~5× slower ~60× cost *theirs*; ≠ realZachi/jevtest; CSP only api.typesafe.ai; degraded fallback; $0.00022 vs chat $0.00306 *theirs*; SemIf 2178★ (+12 vs §109 2166); jevlike 1032★ (+1 vs 1031); TypeAR 14★ flat; AnotiaWang 96★ (+1 vs 95); yibie/awesome-jev 488★; do not reopen or amend PR #23/#24/#25/#26/#27.
+Hourly 0541 uniqueness lock: calibration beyond ~500 tokens unmeasured; GH jev-haiku-benchmarking 404; ≠ Praveenrajus/jev-bench ≠ fstandhartinger/jevbench; gateway tax not one number; ≠ RadRebelSam/awesome-jev; NLI Tetris argmax P(entail)−P(contradict); 1q 396ms / 30q 567ms; ±0.03; 33q $0.000045 vs Gemini ~5× slower ~60× cost *theirs*; ≠ realZachi/jevtest; CSP only api.typesafe.ai; degraded fallback; $0.00022 vs chat $0.00306 *theirs*; SemIf 2186★ (+20 vs §109 2166); jevlike 1038★ (+7 vs 1031); TypeAR 14★ flat; AnotiaWang 96★ (+1 vs 95); yibie/awesome-jev 490★; do not reopen or amend PR #23/#24/#25/#26/#27.
   **Lease / retrieve:**
   [invalidate](https://github.com/chopratejas/invalidate) —
   memory leases ended by new evidence; unsure → review

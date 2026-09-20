@@ -2339,7 +2339,7 @@ as Harbor is the anti-pattern.
 9. **Running-Dolphins/jev-bench** (PRIMARY Harbor-jevals) —
    “0.9 is not one number”. ranking ≠ calibration. banking77 0.8–0.9
    stated 0.86 actual 0.73 over-confident *theirs*. ≠ Praveenrajus/jev-bench
-   ≠ fstandhartinger/jevbench. Size **0** WITH CONTENTS. Do **not**
+   ≠ fstandhartinger/jevbench. Size **1070**. Do **not**
    treat 0.9 as one number.
 10. **WallerChen/jev-measured** (PRIMARY economics) —
     $0.0000153–$0.0000226 vs circulating $0.0004 (~20×). Score is
@@ -2349,18 +2349,17 @@ as Harbor is the anti-pattern.
     circulating $0.0004 as measured.
 11. **RadRebelSam/jev-decision-lab** —
     Function-only 5/8 vs hybrid 8/8; 4/8 without Jev. 8 designed
-    cases not conversion lift. ≠ RadRebelSam/awesome-jev. Size **0**
-    WITH CONTENTS. Do **not** treat 8/8 as conversion lift.
+    cases not conversion lift. ≠ RadRebelSam/awesome-jev. Size **128**
+    (was 0 WITH CONTENTS lag). Do **not** treat 8/8 as conversion lift.
 12. **jackojacko05 BigQuery pilot** —
-    200-row pilot Jev 85.5% 171/200 vs Gemini Flash-Lite 86.0%
-    172/200 vs Pro 88.5% 177/200 *theirs*. not a ranking. Size **0**
-    WITH CONTENTS. Do **not** treat a 200-row as a ranking.
+    200-row pilot Jev 86.5% 173/200 vs Gemini Flash-Lite 86.0%
+    172/200 vs Pro 87.0% 174/200 *theirs*. not a ranking. Size **307**. Do **not** treat a 200-row as a ranking.
 13. **openjev fighting ring** —
     NLI Tetris argmax P(entail)−P(contradict). Not Harbor.
 14. **joshhu/jevtest 情緒測謊器** —
     情緒測謊器. 1q 396ms / 30q 567ms. ±0.03. 33q $0.000045 vs Gemini
-    ~5× slower ~60× cost *theirs*. ≠ realZachi/jevtest. Size **0**
-    WITH CONTENTS. Knowledge work / life.
+    ~5× slower ~60× cost *theirs*. ≠ realZachi/jevtest. Size **34**.
+    Knowledge work / life.
 15. **aahf/JevBenchmark Space** —
     8-example Jev vs GPT-5.6 Sol ~64× cost 5.4× latency *theirs*.
     synthetic; no inference. ≠ JevBench v1.2 §78. Do **not** treat
@@ -2440,7 +2439,7 @@ Function-only 5/8 vs hybrid 8/8;
 4/8 without Jev;
 8 designed cases not conversion lift;
 ≠ RadRebelSam/awesome-jev;
-200-row pilot Jev 85.5% 171/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 88.5% 177/200 *theirs*;
+200-row pilot Jev 86.5% 173/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 87.0% 174/200 *theirs*;
 not a ranking;
 NLI Tetris argmax P(entail)−P(contradict);
 情緒測謊器;
@@ -2469,12 +2468,12 @@ treating 0.85 as 85% / minProbability hard-gate as Harbor;
 VERIFY acquires discriminating evidence, never same-pool confidence-only rescoring;
 fast/full/max are ceilings not sizes;
 Solar writes, Jev chooses NEXT ACTION;
-SemIf 2178★ (+12 vs §109 2166);
-jevlike 1032★ (+1 vs 1031);
+SemIf 2186★ (+20 vs §109 2166);
+jevlike 1038★ (+7 vs 1031);
 TypeAR 14★ flat;
 AnotiaWang 96★ (+1 vs 95);
-yibie/awesome-jev 488★;
-Laya likes 793 (was 783);
+yibie/awesome-jev 490★;
+Laya likes 802 (was 783);
 tracker likes 64 flat, lastModified UNCHANGED;
 do not reopen or amend PR #23/#24/#25/#26/#27.
 

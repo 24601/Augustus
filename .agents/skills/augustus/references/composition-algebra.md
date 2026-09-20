@@ -1698,7 +1698,7 @@ bonzi-27b-v2 / ternary-8b / 27b-v1 GGUF family densify; Hub still does not ship 
      ≠ RadRebelSam/awesome-jev.
      Full cards: `mixed-architecture.md`, `faq.md`.
 237. **BigQuery 200-row pilot** (jackojacko05/compare-jev-bigquery-ai-functions):
-     position 8 (Metric). 200-row pilot Jev 85.5% 171/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 88.5% 177/200 *theirs*.
+     position 8 (Metric). 200-row pilot Jev 86.5% 173/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 87.0% 174/200 *theirs*.
      not a ranking.
      Full cards: `validation.md`, `faq.md`.
 238. **NLI Tetris fighting ring** (Trecto34/openjev-fighting-ring):
@@ -1753,14 +1753,14 @@ yuki-oshio/mini-jev *93.25%*.
 Score is 0..n-1 expectation not 0–1;
 Noul has no confidence field;
 treating 0.85 as 85% / minProbability hard-gate as Harbor;
-SemIf 2178★ (+12 vs §109 2166);
+SemIf 2186★ (+20 vs §109 2166);
 tracker likes 64 flat, lastModified UNCHANGED;
-Laya likes 793 (was 783); Blackwood tracker ABSENT;
+Laya likes 802 (was 783); Blackwood tracker ABSENT;
 Archer still promised_not_landed;
 do not reopen or amend PR #23/#24/#25/#26/#27.
 Soft Noul ≠ hard safety.
 
-Hourly 0541 uniqueness lock: GH jev-haiku-benchmarking 404; jevlike 1032★ (+1 vs 1031); TypeAR 14★ flat; AnotiaWang 96★ (+1 vs 95); yibie/awesome-jev 488★.
+Hourly 0541 uniqueness lock: GH jev-haiku-benchmarking 404; jevlike 1038★ (+7 vs 1031); TypeAR 14★ flat; AnotiaWang 96★ (+1 vs 95); yibie/awesome-jev 490★.
 
 Hourly 0439 items 202–225 (`notes.md` §109). Do **not**
 re-fold 0345 items 186–201 / 0243 items 178–185 / 0145 items 161–177 / 0042 items 149–160 / 2340 items 138–148 / 2246 items 129–137 / 2145

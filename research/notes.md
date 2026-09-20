@@ -26241,7 +26241,7 @@ Function-only 5/8 vs hybrid 8/8;
 4/8 without Jev;
 8 designed cases not conversion lift;
 ≠ RadRebelSam/awesome-jev;
-200-row pilot Jev 85.5% 171/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 88.5% 177/200 *theirs*;
+200-row pilot Jev 86.5% 173/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 87.0% 174/200 *theirs*;
 not a ranking;
 NLI Tetris argmax P(entail)−P(contradict);
 情緒測謊器;
@@ -26270,12 +26270,12 @@ treating 0.85 as 85% / minProbability hard-gate as Harbor;
 VERIFY acquires discriminating evidence, never same-pool confidence-only rescoring;
 fast/full/max are ceilings not sizes;
 Solar writes, Jev chooses NEXT ACTION;
-SemIf 2178★ (+12 vs §109 2166);
-jevlike 1032★ (+1 vs 1031);
+SemIf 2186★ (+20 vs §109 2166);
+jevlike 1038★ (+7 vs 1031);
 TypeAR 14★ flat;
 AnotiaWang 96★ (+1 vs 95);
-yibie/awesome-jev 488★;
-Laya likes 793 (was 783);
+yibie/awesome-jev 490★;
+Laya likes 802 (was 783);
 tracker likes 64 flat, lastModified UNCHANGED;
 do not reopen or amend PR #23/#24/#25/#26/#27.
 
@@ -26338,7 +26338,7 @@ as Harbor is the anti-pattern.
    drop-in.
 
 4. **Hub JEV-CPU twin** — Hub Meanblock/JEV-CPU mit;
-   likes **6**; sha `759fa606`. Hub twin of
+   likes **7**; sha `759fa606`. Hub twin of
    leesk212/JEV-CPU. GH **Meanblock/JEV-CPU 404**; lock
    **leesk212/JEV-CPU** for code (**2★**, size
    **14336**). CPU SemIf; Qwen3-0.6B float32 ~2.4GB;
@@ -26348,8 +26348,8 @@ as Harbor is the anti-pattern.
 
 5. **Mímir LFM openjev** — Hub
    impacte/mimir-lfm-openjev license **other** (LFM
-   Open License v1.0); likes **0**; sha `2b999b3a`;
-   lastModified 2026-09-20T11:46:52Z. LFM2.5-8B-A1B
+   Open License v1.0); likes **0**; sha `5f9173bb`;
+   lastModified 2026-09-20T11:57:28Z. LFM2.5-8B-A1B
    MoE NLI jev (AlexWortega/openjev recipe); n=1000
    *theirs* WANLI 0.741 vs openjev v2 0.77. 3-way NLI
    ≠ Noul. `trust_remote_code`. Sequence length 256 at
@@ -26386,7 +26386,7 @@ as Harbor is the anti-pattern.
    Harbor-jevals this hour) —
    Running-Dolphins/jev-bench Python MIT; **0★**; HEAD
    `67d2ee42`; README SHA `ae2c5003`; LICENSE SHA
-   `891c70c6`; size **0** WITH CONTENTS; created this
+   `891c70c6`; size **1070**; created this
    hour. 12 tasks / 7 experiments. “0.9 is not one
    number”. ranking ≠ calibration. banking77 0.8–0.9
    stated 0.86 actual 0.73 over-confident *theirs*.
@@ -26421,7 +26421,7 @@ as Harbor is the anti-pattern.
 11. **RadRebelSam/jev-decision-lab** —
     RadRebelSam/jev-decision-lab TypeScript MIT;
     **0★**; HEAD `e6d6d42d`; README SHA `52a0071d`;
-    LICENSE SHA `ae6f994c`; size **0** WITH CONTENTS.
+    LICENSE SHA `ae6f994c`; size **128**.
     Function-only 5/8 vs hybrid 8/8; 4/8 without Jev.
     8 designed cases not conversion lift. ≠
     RadRebelSam/awesome-jev. Rules for the obvious;
@@ -26431,13 +26431,13 @@ as Harbor is the anti-pattern.
 
 12. **jackojacko05 BigQuery pilot** —
     jackojacko05/compare-jev-bigquery-ai-functions
-    Jupyter MIT; **0★**; HEAD `fca3771a`; README SHA
-    `37dc973e`; LICENSE SHA `0248c4b0`; size **0**
-    WITH CONTENTS. 200-row pilot Jev 85.5% 171/200 vs
-    Gemini Flash-Lite 86.0% 172/200 vs Pro 88.5%
-    177/200 *theirs*. not a ranking. Same BQ → Remote
+    Jupyter MIT; **0★**; HEAD `cb9ef56b`; README SHA
+    `d3db5d6c`; LICENSE SHA `0248c4b0`; size **307**. 200-row pilot Jev 86.5% 173/200 vs
+    Gemini Flash-Lite 86.0% 172/200 vs Pro 87.0%
+    174/200 *theirs*. not a ranking. Same BQ → Remote
     Function → Cloud Run → Vercel AI Gateway path.
-    Costs exclude BQ/Cloud Run. Do **not** treat a
+    Costs exclude BQ/Cloud Run. README also lists
+    Jev→Pro rerank 86.0% 172/200 *theirs*. Do **not** treat a
     200-row as a ranking.
 
 13. **openjev fighting ring** —
@@ -26451,7 +26451,7 @@ as Harbor is the anti-pattern.
 
 14. **joshhu/jevtest 情緒測謊器** — joshhu/jevtest
     HTML; license **null**; **0★**; HEAD `6a4df41d`;
-    README SHA `57d99325`; size **0** WITH CONTENTS.
+    README SHA `57d99325`; size **34**.
     情緒測謊器. 1q 396ms / 30q 567ms. ±0.03. 33q
     $0.000045 vs Gemini ~5× slower ~60× cost *theirs*.
     ≠ realZachi/jevtest. Knowledge work / life.
@@ -26477,8 +26477,8 @@ as Harbor is the anti-pattern.
 
 17. **AiPersonacademy/Awesome-jev-use** —
     AiPersonacademy/Awesome-jev-use CC0-1.0; LICENSE
-    SHA `7ba0a23e`; **2★**; HEAD `7cd1064c`; README
-    SHA `32b0ddf5`; size **124**. Catalog not eval. ≠
+    SHA `7ba0a23e`; **2★**; HEAD `29246f12`; README
+    SHA `d506c11f`; size **124**. Catalog not eval. ≠
     whyashthakker ≠ walidboulanouar. APA “microsecond
     policy / zero hallucination” overclaim (lock §89
     apa-harness). Catalog ≠ endorsement. Do **not**
@@ -26507,7 +26507,7 @@ as Harbor is the anti-pattern.
     leftover text.
 
 20. **makefunstuff/jev-lsp** — makefunstuff/jev-lsp
-    Rust MIT; **0★**; HEAD `734c0f59`; README SHA
+    Rust MIT; **0★**; HEAD `bce3d8ed`; README SHA
     `c7ecbf8f`; LICENSE SHA `fb5bc4a5`; size **1696**.
     WIP. pattern exact, judgement must clear floor.
     no matching pattern → no model call. not a
@@ -26519,7 +26519,7 @@ as Harbor is the anti-pattern.
 
 21. **nozomi-koborinai/jev-spec** —
     nozomi-koborinai/jev-spec TypeScript MIT; **1★**;
-    HEAD `9f8cece7`; README SHA `7c5b08d0`; LICENSE
+    HEAD `86f14198`; README SHA `c0f29baa`; LICENSE
     SHA `e43f732a`; size **73**. Spec vs artifact
     remainder. **Anti-pattern:** treating 0.85 as 85%
     / minProbability hard-gate as Harbor. Static lint
@@ -26576,25 +26576,25 @@ reopen or amend PR #23 or #24 or #25 or #26 or #27.
 
 Census **not provided this hour** (not
 re-derived). Live REST pulse only: SemIf
-**2178★** (this-pass fetch; +12 vs §109
-**2166**; +50 vs §108 **2128**); jevlike
-**1032★** (+1 vs §109 **1031**);
+**2186★** (relock fetch; +18 vs §109
+**2166**; +6 vs fold **2178**; +56 vs §108 **2128**); jevlike
+**1038★** (+7 vs §109 **1031**);
 TypeAR-AI/TypeAR **14★** **flat** vs §109;
 AnotiaWang/awesome-jev **96★** (+1 vs §109
 **95**) still a **different object** from
-yibie/awesome-jev **488★**. Tracker
+yibie/awesome-jev **490★**. Tracker
 `multimodalart/jev-reproductions-tracker`
 likes **64** **flat** vs §109;
 lastModified **UNCHANGED**
 `2026-09-20T04:29:16.000Z` vs §106–§109.
 Tracker as *model* HTTP **401**; as *space*
 HTTP 200. Laya **present**
-(`convaiinnovations/laya` likes **793** vs
+(`convaiinnovations/laya` likes **802** vs
 §109 **783**). Blackwood Hub HTTP 200 likes
 **2** gated **manual** **ABSENT** from tracker
 HTML. Archer still **promised_not_landed**. Hub
 `archerhume/4rcherhume` HTTP **401** (not a
-rewrite). Qwen/Qwen3.8-27B likes **15817** ≠ Archer.
+rewrite). Qwen/Qwen3.8-27B likes **15818** ≠ Archer.
 typesafe-ai/skills still v0.5.7 HEAD
 `65a39f3`. X MCP not used this hour; no
 invented tweets. `invented_signal: false`.
@@ -26606,13 +26606,15 @@ unchanged vs §99; jaswanthsanjay88/jev-0.5b sha
 likes **7** (§94); com-kotobalabs/open-jev-deberta-v3-large
 likes **29** (§33/§107); Luni/laya-grounded (§87);
 thaitea/laya-vision-smolvlm-256m likes **9** (§87);
-async-dime/jevloop (§87).
+async-dime/jevloop (§87; Hub HTTP **401** this
+pass, not re-carded). Praveenrajus/jev-bench GH
+**404** this pass (namesake lock; do **not** reopen
+§107 / PR #25).
 
 0★ HIGH still got a real card (grill-jev **1★**;
 rhc98 **1★**; jev-spec **1★**; APA **2★**; the
-rest **0★** including size **0** WITH CONTENTS
-Running-Dolphins / RadRebelSam / jackojacko05 /
-joshhu). License **null** (Trecto34, joshhu,
+rest **0★**. Size **128** (was 0 WITH CONTENTS lag) RadRebelSam/jev-decision-lab;
+Running-Dolphins size **1070**; jackojacko05 size **307**; joshhu size **34**). License **null** (Trecto34, joshhu,
 aahf Space) still got a real card. Hub Meanblock
 **does ship** a twin card; GH Meanblock 404.
 

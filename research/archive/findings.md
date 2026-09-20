@@ -3019,7 +3019,7 @@ rename; (ly) schema-compiler HIGH upgrade; (lz) ANE /
 local-logit / Pi-loop economics.
 ## Batch #93 (2026-09-20 ~11:41 UTC / ~05:41 Boise) — hourly 0541 HIGH
 
-Hourly 0541 uniqueness lock: GH jev-haiku-benchmarking 404; ≠ RadRebelSam/awesome-jev; SemIf 2178★ (+12 vs §109 2166); jevlike 1032★ (+1 vs 1031); TypeAR 14★ flat; AnotiaWang 96★ (+1 vs 95); yibie/awesome-jev 488★; Laya likes 793 (was 783); tracker likes 64 flat, lastModified UNCHANGED.
+Hourly 0541 uniqueness lock: GH jev-haiku-benchmarking 404; ≠ RadRebelSam/awesome-jev; SemIf 2186★ (+20 vs §109 2166); jevlike 1038★ (+7 vs 1031); TypeAR 14★ flat; AnotiaWang 96★ (+1 vs 95); yibie/awesome-jev 490★; Laya likes 802 (was 783); tracker likes 64 flat, lastModified UNCHANGED.
 
 Note: `research/notes.md` §110. Docs-only on a fresh PR
 off main. **HARD RULE:** do not reopen or amend PR #23 or #24 or #25 or #26 or #27.
@@ -3054,16 +3054,16 @@ exemplars this hour. Quote live REST over watch.
   11.57s vs 54.10s · 4.67× · 120/128 *theirs*.
   default path is pretrained Gemma probs not trained RLCD head.
 - **Hub JEV-CPU twin.** hf Meanblock/JEV-CPU
-  (mit; likes **6**; sha `759fa606`). GH Meanblock 404; lock leesk212/JEV-CPU.
+  (mit; likes **7**; sha `759fa606`). GH Meanblock 404; lock leesk212/JEV-CPU.
   softmax over letter slots ≠ Noul.
 - **Mímir LFM.** hf impacte/mimir-lfm-openjev
-  (likes **0**; sha `2b999b3a`). WANLI 0.741 vs openjev v2 0.77 *theirs*. 3-way NLI ≠ Noul.
+  (likes **0**; sha `5f9173bb`). WANLI 0.741 vs openjev v2 0.77 *theirs*. 3-way NLI ≠ Noul.
 - **System One distilled.** hf shreyanbr/system-one-distilled
   (sha `56c9dba8`). priority 0.464 = majority floor. banking77 contaminated.
   raw margins not probabilities. do not distill Jev as teacher of record (they distilled Haiku).
   Gold `93e22fcf`; zeroshot `4b6659d5`.
 - **jev-bench (PRIMARY).** Running-Dolphins/jev-bench
-  (Python MIT; **0★**; HEAD `67d2ee42`; size **0** WITH CONTENTS).
+  (Python MIT; **0★**; HEAD `67d2ee42`; size **1070**).
   “0.9 is not one number”. ranking ≠ calibration.
   banking77 0.8–0.9 stated 0.86 actual 0.73 over-confident *theirs*.
   ≠ Praveenrajus/jev-bench ≠ fstandhartinger/jevbench.
@@ -3074,17 +3074,17 @@ exemplars this hour. Quote live REST over watch.
   TCP floor 198.8 ms. type reliability is not a reason to choose Jev (json_schema 5/5).
   gateway tax not one number.
 - **decision-lab.** RadRebelSam/jev-decision-lab
-  (TS MIT; **0★**; HEAD `e6d6d42d`; size **0** WITH CONTENTS).
+  (TS MIT; **0★**; HEAD `e6d6d42d`; size **128**).
   Function-only 5/8 vs hybrid 8/8. 4/8 without Jev. 8 designed cases not conversion lift.
 - **BigQuery pilot.** jackojacko05/compare-jev-bigquery-ai-functions
-  (Jupyter MIT; **0★**; HEAD `fca3771a`; size **0** WITH CONTENTS).
-  200-row pilot Jev 85.5% 171/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 88.5% 177/200 *theirs*.
+  (Jupyter MIT; **0★**; HEAD `cb9ef56b`; size **307**).
+  200-row pilot Jev 86.5% 173/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 87.0% 174/200 *theirs*.
   not a ranking.
 - **fighting-ring.** Trecto34/openjev-fighting-ring
   (Python; license null; **0★**; HEAD `ac544f1e`).
   NLI Tetris argmax P(entail)−P(contradict).
 - **joshhu 情緒測謊器.** joshhu/jevtest
-  (HTML; license null; **0★**; HEAD `6a4df41d`; size **0** WITH CONTENTS).
+  (HTML; license null; **0★**; HEAD `6a4df41d`; size **34**).
   情緒測謊器. 1q 396ms / 30q 567ms. ±0.03.
   33q $0.000045 vs Gemini ~5× slower ~60× cost *theirs*. ≠ realZachi/jevtest.
 - **aahf Space.** hfspace aahf/JevBenchmark (likes **1**; sha `36c28088`).
@@ -3092,17 +3092,17 @@ exemplars this hour. Quote live REST over watch.
   synthetic; no inference. ≠ JevBench v1.2 §78.
 - **rhc98 catalog.** rhc98/awesome-jev (**1★**; HEAD `82898f25`).
   Judged 3317 / listed 2560. Jev judges, code applies policy. catalog ≠ endorsement.
-- **APA catalog.** AiPersonacademy/Awesome-jev-use (**2★**; HEAD `7cd1064c`).
+- **APA catalog.** AiPersonacademy/Awesome-jev-use (**2★**; HEAD `29246f12`).
   APA “microsecond policy / zero hallucination” overclaim.
 - **questionator.** erseco/questionator (JS MIT; **0★**; HEAD `b498f10b`).
   Client-side quiz; pointer from held docs; scanned-PDF warn. CSP only api.typesafe.ai.
 - **grill-jev.** grgy078033/grill-jev (Python MIT; **1★**; HEAD `5ce6cbe8`).
   Jev judges / agent reasons / user decides. selecting an option is not permission to implement.
   degraded fallback.
-- **jev-lsp.** makefunstuff/jev-lsp (Rust MIT; **0★**; HEAD `734c0f59`).
+- **jev-lsp.** makefunstuff/jev-lsp (Rust MIT; **0★**; HEAD `bce3d8ed`).
   pattern exact, judgement must clear floor. no matching pattern → no model call.
   not a correctness oracle. $0.00022 vs chat $0.00306 *theirs*.
-- **jev-spec.** nozomi-koborinai/jev-spec (TS MIT; **1★**; HEAD `9f8cece7`).
+- **jev-spec.** nozomi-koborinai/jev-spec (TS MIT; **1★**; HEAD `86f14198`).
   Spec vs artifact remainder. treating 0.85 as 85% / minProbability hard-gate as Harbor.
 - **Jev-LLM.** 202620325-spec/Jev-LLM (Python MIT; **0★**; HEAD `da06b6d1`).
   VERIFY acquires discriminating evidence, never same-pool confidence-only rescoring.
@@ -3112,9 +3112,9 @@ Pulse: Archer still promised_not_landed. Hub
 archerhume/4rcherhume HTTP **401**. Tracker
 multimodalart/jev-reproductions-tracker likes **64**;
 lastModified `2026-09-20T04:29:16Z` UNCHANGED. Live REST: SemIf
-**2178★**; jevlike **1032★**; TypeAR **14★** flat.
-AnotiaWang/awesome-jev **96★** ≠ yibie/awesome-jev **488★**.
-Hub Laya likes **793**. Blackwood ABSENT. Qwen3.8-27B ≠ Archer.
+**2186★**; jevlike **1038★**; TypeAR **14★** flat.
+AnotiaWang/awesome-jev **96★** ≠ yibie/awesome-jev **490★**.
+Hub Laya likes **802**. Blackwood ABSENT. Qwen3.8-27B ≠ Archer.
 do not reopen or amend PR #23/#24/#25/#26/#27.
 `invented_signal: false`.
 

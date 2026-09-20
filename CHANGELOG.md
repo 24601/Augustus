@@ -17,7 +17,9 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
 ### Added
 
 - Hourly 0541 HIGH (`research/notes.md` §110): **Skip
-  Archer rewrite.** Docs-only on a **fresh PR off main**.
+  Archer rewrite.** Live-REST relock after adversarial
+  review (HEAD/README/size/stars/likes; Brier/Independent
+  design claims unchanged). Docs-only on a **fresh PR off main**.
   **HARD RULE:** do not reopen or amend PR #23 or #24 or #25
   or #26 or #27 (do not reopen or amend PR #23/#24/#25/#26/#27.
   merged #23 owns `notes.md` §105 / items 149–160 /
@@ -67,10 +69,10 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   (hf:Meanblock/JEV-CPU
   GH Meanblock 404; lock leesk212/JEV-CPU;
   softmax over letter slots ≠ Noul;
-  mit; likes **6**; sha `759fa606`);
+  mit; likes **7**; sha `759fa606`);
   (hf:impacte/mimir-lfm-openjev
   WANLI 0.741 vs openjev v2 0.77 *theirs*;
-  3-way NLI ≠ Noul; likes **0**; sha `2b999b3a`);
+  3-way NLI ≠ Noul; likes **0**; sha `5f9173bb`);
   (hf:shreyanbr/system-one-distilled | gold | zeroshot
   priority 0.464 = majority floor;
   banking77 contaminated;
@@ -83,7 +85,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   “0.9 is not one number”; ranking ≠ calibration;
   banking77 0.8–0.9 stated 0.86 actual 0.73 over-confident *theirs*;
   ≠ Praveenrajus/jev-bench ≠ fstandhartinger/jevbench;
-  Python MIT LICENSE SHA `891c70c6`; **0★**; HEAD `67d2ee42`; README SHA `ae2c5003`; size **0** WITH CONTENTS);
+  Python MIT LICENSE SHA `891c70c6`; **0★**; HEAD `67d2ee42`; README SHA `ae2c5003`; size **1070**);
   ([WallerChen/jev-measured](https://github.com/WallerChen/jev-measured)
   $0.0000153–$0.0000226 vs circulating $0.0004 (~20×);
   Score is 0..n-1 expectation not 0–1;
@@ -96,11 +98,11 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   Function-only 5/8 vs hybrid 8/8; 4/8 without Jev;
   8 designed cases not conversion lift;
   ≠ RadRebelSam/awesome-jev;
-  TS MIT LICENSE SHA `ae6f994c`; **0★**; HEAD `e6d6d42d`; README SHA `52a0071d`; size **0** WITH CONTENTS);
+  TS MIT LICENSE SHA `ae6f994c`; **0★**; HEAD `e6d6d42d`; README SHA `52a0071d`; size **128**);
   ([jackojacko05/compare-jev-bigquery-ai-functions](https://github.com/jackojacko05/compare-jev-bigquery-ai-functions)
-  200-row pilot Jev 85.5% 171/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 88.5% 177/200 *theirs*;
+  200-row pilot Jev 86.5% 173/200 vs Gemini Flash-Lite 86.0% 172/200 vs Pro 87.0% 174/200 *theirs*;
   not a ranking;
-  Jupyter MIT LICENSE SHA `0248c4b0`; **0★**; HEAD `fca3771a`; README SHA `37dc973e`; size **0** WITH CONTENTS);
+  Jupyter MIT LICENSE SHA `0248c4b0`; **0★**; HEAD `cb9ef56b`; README SHA `d3db5d6c`; size **307**);
   ([Trecto34/openjev-fighting-ring](https://github.com/Trecto34/openjev-fighting-ring)
   NLI Tetris argmax P(entail)−P(contradict);
   Python; license null; **0★**; HEAD `ac544f1e`; README SHA `b3fe2907`; size **1159**);
@@ -108,7 +110,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   情緒測謊器; 1q 396ms / 30q 567ms; ±0.03;
   33q $0.000045 vs Gemini ~5× slower ~60× cost *theirs*;
   ≠ realZachi/jevtest;
-  HTML; license null; **0★**; HEAD `6a4df41d`; README SHA `57d99325`; size **0** WITH CONTENTS);
+  HTML; license null; **0★**; HEAD `6a4df41d`; README SHA `57d99325`; size **34**);
   (hfspace:aahf/JevBenchmark
   8-example Jev vs GPT-5.6 Sol ~64× cost 5.4× latency *theirs*;
   synthetic; no inference; ≠ JevBench v1.2 §78;
@@ -119,7 +121,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   TS; SPDX NOASSERTION LICENSE SHA `d491d714`; **1★**; HEAD `82898f25`; README SHA `e1f12080`; size **2529**);
   ([AiPersonacademy/Awesome-jev-use](https://github.com/AiPersonacademy/Awesome-jev-use)
   APA “microsecond policy / zero hallucination” overclaim;
-  CC0-1.0 LICENSE SHA `7ba0a23e`; **2★**; HEAD `7cd1064c`; README SHA `32b0ddf5`; size **124**);
+  CC0-1.0 LICENSE SHA `7ba0a23e`; **2★**; HEAD `29246f12`; README SHA `d506c11f`; size **124**);
   **applied / theory placements**
   ([erseco/questionator](https://github.com/erseco/questionator)
   Client-side quiz; pointer from held docs; scanned-PDF warn;
@@ -135,22 +137,22 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   no matching pattern → no model call;
   not a correctness oracle;
   $0.00022 vs chat $0.00306 *theirs*;
-  Rust MIT LICENSE SHA `fb5bc4a5`; **0★**; HEAD `734c0f59`; README SHA `c7ecbf8f`; size **1696**);
+  Rust MIT LICENSE SHA `fb5bc4a5`; **0★**; HEAD `bce3d8ed`; README SHA `c7ecbf8f`; size **1696**);
   ([nozomi-koborinai/jev-spec](https://github.com/nozomi-koborinai/jev-spec)
   Spec vs artifact remainder;
   treating 0.85 as 85% / minProbability hard-gate as Harbor;
-  TS MIT LICENSE SHA `e43f732a`; **1★**; HEAD `9f8cece7`; README SHA `7c5b08d0`; size **73**);
+  TS MIT LICENSE SHA `e43f732a`; **1★**; HEAD `86f14198`; README SHA `c0f29baa`; size **73**);
   ([202620325-spec/Jev-LLM](https://github.com/202620325-spec/Jev-LLM)
   VERIFY acquires discriminating evidence, never same-pool confidence-only rescoring;
   fast/full/max are ceilings not sizes;
   Solar writes, Jev chooses NEXT ACTION;
   Python MIT LICENSE SHA `5d699c97`; **0★**; HEAD `da06b6d1`; README SHA `f371ba83`; size **150**).
-  SemIf 2178★ (+12 vs §109 2166);
-  jevlike 1032★ (+1 vs 1031);
+  SemIf 2186★ (+20 vs §109 2166);
+  jevlike 1038★ (+7 vs 1031);
   TypeAR 14★ flat;
   AnotiaWang 96★ (+1 vs 95);
-  yibie/awesome-jev 488★;
-  Laya likes 793 (was 783);
+  yibie/awesome-jev 490★;
+  Laya likes 802 (was 783);
   tracker likes 64 flat, lastModified UNCHANGED;
   Laya present; Blackwood ABSENT; Archer still promised_not_landed.
   0★ HIGH still got a real card. Soft Noul ≠ hard safety.
