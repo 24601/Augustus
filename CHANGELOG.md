@@ -64,19 +64,22 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   cheap fail-open semantic edge; second signal not sole;
   FastLoopError catch; SupremeDreamZ/jev-fastloop ≠
   jev-ultrafast; Python MIT; **0★**; HEAD `1157841a`;
-  README SHA `053a0885`);
+  README SHA `053a0885`; GitHub size **12** (relock; was
+  **0** with contents));
   **fan-out measurement**
   ([TheWebDevel/jev-fanout](https://github.com/TheWebDevel/jev-fanout)
   asking more questions in one call; 0.980 at every N;
   nearly not fully deterministic; Python MIT; **0★**; HEAD
-  `b30aaadc`; README SHA `394b2e1e`);
+  `b30aaadc`; README SHA `394b2e1e`; GitHub size **206**
+  (relock; was **0** with contents));
   **VLM+Jev RL teacher**
   ([harneet2512/reflexrl](https://github.com/harneet2512/reflexrl)
   Qwen3-VL perception + Jev decisions train RL; 0 model
   calls at deployment; VLM alone 1.7 vs +Jev 4.4;
   harneet2512/reflexrl ≠ khordoo/jev-reflex-autonomy-lab;
   Python MIT; **0★**; HEAD `aa36be84`; README SHA
-  `e6ff13cd`; default master);
+  `e6ff13cd`; default master; GitHub size **749** (relock;
+  was **0** with contents));
   **independent Jev API vs Laya**
   ([yibie/laya-jev-lab](https://github.com/yibie/laya-jev-lab)
   independent Jev API vs Laya; cascade 0.60 matches 78% at
@@ -115,15 +118,15 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   `a9d3294f`; README SHA `9a64f473`). Soft Noul ≠ hard
   safety. 0★ HIGH still got a real card (all twelve
   **0★**). Census **live REST pulse** (independent review
-  relock after `92577f5`): SemIf **2059★** (+12 vs §104 **2047**); jevlike
+  relock after `0558f7d`): SemIf **2062★** (+15 vs §104 **2047**); jevlike
   **1022★** (+4 vs §104 **1018**); TypeAR **12★** **flat**.
-  Tracker likes **56**; lastModified
+  Tracker likes **58** (+2 vs §104 **56**); lastModified
   `2026-09-20T04:29:16Z` **UNCHANGED** vs §104. Hub
   `archerhume/4rcherhume` HTTP **401**. Archer still NOT
-  landed. Laya Hub likes **690**. Blackwood Hub likes **2**
+  landed. Laya Hub likes **697**. Blackwood Hub likes **2**
   gated manual — user census absent from tracker. Awesomejev
   561/27007 user-provided (≠ AnotiaWang/awesome-jev
-  **92★** ≠ yibie/awesome-jev **443★**). Qwen3.8-27B ≠ Archer (likes **15794**).
+  **92★** ≠ yibie/awesome-jev **443★**). Qwen3.8-27B ≠ Archer (likes **15795**).
   `invented_signal: false`. Do not copy keys / `npm` /
   `pip` / `npx` / `uv` / `.env`. No wrapper. No invented
   metrics. Relock: Arohtea HEAD `03734993`→`6f1e5900` /
@@ -132,7 +135,14 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   discoprint HEAD `c2a3d47e`→`a9d3294f` / README
   `392efd29`→`9a64f473`; yibie/laya-jev-lab size **49**
   (was **0** with contents); umstek size **50** (was
-  **33**). Design claims unchanged.
+  **33**); jev-fastloop size **12** (was **0** with
+  contents); jev-fanout size **206** (was **0** with
+  contents); reflexrl size **749** (was **0** with
+  contents); upgrade-radar size **908** (was **0** with
+  contents); gulagala001/jevify size **145** (was **0**
+  with contents); mourad size **164** (was **0** with
+  contents); discoprint size **239** (was **0** with
+  contents). Design claims unchanged.
 - Hourly 2041 HIGH (`research/notes.md` §101): **Skip
   Archer rewrite.** Docs-only on a **fresh PR off main**.
   Never reopen merged #7–**#18**. Do **not** re-fold 1943

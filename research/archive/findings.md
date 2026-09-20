@@ -3046,28 +3046,33 @@ exemplar this hour. Quote live REST over watch.
   Arohtea/jev-readout.
 - **Ordinary-model Jev-shape.** gulagala001/jevify
   (JavaScript MIT; **0★**; HEAD `3d3e904a`; README SHA
-  `0e2f8536`). Jev-style Choice/Score/Noul from ordinary
+  `0e2f8536`; GitHub size **145** (relock; was **0** with
+  contents)). Jev-style Choice/Score/Noul from ordinary
   models. optional DSH plugin. schema-valid ≠ calibrated.
   gulagala001/jevify ≠ Mintzs/jevify.
 - **Open-weight Laya measurement.**
   mourad-ghafiri/laya-rlcd-benchmark (Python; license
-  null; **0★**; HEAD `3401ff26`; README SHA `d8d4859e`).
+  null; **0★**; HEAD `3401ff26`; README SHA `d8d4859e`;
+  GitHub size **164** (relock; was **0** with contents)).
   Laya RLCD benchmark. 40.3% below constant-answer.
   open-weight measurement.
   mourad-ghafiri/laya-rlcd-benchmark ≠ yibie/laya-jev-lab.
 - **Cheap fail-open semantic edge.**
   SupremeDreamZ/jev-fastloop (Python MIT; **0★**; HEAD
-  `1157841a`; README SHA `053a0885`). cheap fail-open
+  `1157841a`; README SHA `053a0885`; GitHub size **12**
+  (relock; was **0** with contents)). cheap fail-open
   semantic edge. second signal not sole. FastLoopError
   catch. SupremeDreamZ/jev-fastloop ≠ jev-ultrafast.
 - **Fan-out measurement.** TheWebDevel/jev-fanout
   (Python MIT; **0★**; HEAD `b30aaadc`; README SHA
-  `394b2e1e`). asking more questions in one call. 0.980
+  `394b2e1e`; GitHub size **206** (relock; was **0** with
+  contents)). asking more questions in one call. 0.980
   at every N. nearly not fully deterministic.
   TheWebDevel/jev-fanout.
 - **VLM+Jev RL teacher.** harneet2512/reflexrl (Python
   MIT; **0★**; HEAD `aa36be84`; README SHA `e6ff13cd`;
-  default master). Qwen3-VL perception + Jev decisions
+  default master; GitHub size **749** (relock; was **0**
+  with contents)). Qwen3-VL perception + Jev decisions
   train RL. 0 model calls at deployment. VLM alone 1.7
   vs +Jev 4.4. harneet2512/reflexrl ≠
   khordoo/jev-reflex-autonomy-lab.
@@ -3096,26 +3101,28 @@ exemplar this hour. Quote live REST over watch.
   SivletLabs/jev-eval.
 - **Evidence-linked upgrade review.**
   GaneshVG18/upgrade-radar (TypeScript MIT; **0★**; HEAD
-  `e438f9bd`; README SHA `c32f7d18`). evidence-linked
+  `e438f9bd`; README SHA `c32f7d18`; GitHub size **908**
+  (relock; was **0** with contents)). evidence-linked
   dependency upgrade. Jev never generates filenames.
   no_direct_evidence ≠ safe to merge.
   GaneshVG18/upgrade-radar ≠ LYchoon/paper-radar-jev.
 - **Knowledge-work discography.** lirantal/discoprint
   (TypeScript Apache-2.0; **0★**; HEAD `a9d3294f`;
-  README SHA `9a64f473`). discography
+  README SHA `9a64f473`; GitHub size **239** (relock; was
+  **0** with contents)). discography
   theme/mood/complexity. five atomic questions one call.
   lirantal/discoprint.
 
-Pulse (independent review relock after `92577f5`): Archer still NOT landed. Hub
-archerhume/4rcherhume HTTP **401**. Tracker likes **56**
-(flat vs §104 **56**); lastModified
-`2026-09-20T04:29:16Z` **UNCHANGED** vs §104. Laya Hub likes **690**.
+Pulse (independent review relock after `0558f7d`): Archer still NOT landed. Hub
+archerhume/4rcherhume HTTP **401**. Tracker likes **58**
+(+2 vs §104 **56**); lastModified
+`2026-09-20T04:29:16Z` **UNCHANGED** vs §104. Laya Hub likes **697**.
 Blackwood Hub likes **2** gated manual — user census
-absent from tracker. Live REST: SemIf **2059★**; jevlike
+absent from tracker. Live REST: SemIf **2062★**; jevlike
 **1022★**; TypeAR **12★** flat. AnotiaWang/awesome-jev
 **92★** ≠ Awesomejev 561/27007 ≠ yibie/awesome-jev
 **443★**. Qwen3.8-27B ≠ Archer
-(likes **15794**). `invented_signal: false`.
+(likes **15795**). `invented_signal: false`.
 
 Cross-repo addition: (nb) structured probability
 readouts; (nc) ordinary-model Jev-shape; (nd) open-weight

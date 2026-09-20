@@ -3984,31 +3984,31 @@
       "kind": "github",
       "title": "gulagala001/jevify",
       "url": "https://github.com/gulagala001/jevify",
-      "note": "JavaScript MIT; 0\u2605; HEAD 3d3e904a; README SHA 0e2f8536; LICENSE SHA 66869720; GitHub size 0 with contents. Jev-style Choice/Score/Noul from ordinary models. optional DSH plugin. schema-valid \u2260 calibrated. gulagala001/jevify \u2260 Mintzs/jevify. notes.md \u00a7105."
+      "note": "JavaScript MIT; 0\u2605; HEAD 3d3e904a; README SHA 0e2f8536; LICENSE SHA 66869720; GitHub size 145 (relock; was 0 with contents). Jev-style Choice/Score/Noul from ordinary models. optional DSH plugin. schema-valid \u2260 calibrated. gulagala001/jevify \u2260 Mintzs/jevify. notes.md \u00a7105."
     },
     {
       "kind": "github",
       "title": "mourad-ghafiri/laya-rlcd-benchmark",
       "url": "https://github.com/mourad-ghafiri/laya-rlcd-benchmark",
-      "note": "Python; GitHub license null; 0\u2605; HEAD 3401ff26; README SHA d8d4859e; GitHub size 0 with contents. Laya RLCD benchmark. 40.3% below constant-answer. open-weight measurement. mourad-ghafiri/laya-rlcd-benchmark \u2260 yibie/laya-jev-lab. notes.md \u00a7105."
+      "note": "Python; GitHub license null; 0\u2605; HEAD 3401ff26; README SHA d8d4859e; GitHub size 164 (relock; was 0 with contents). Laya RLCD benchmark. 40.3% below constant-answer. open-weight measurement. mourad-ghafiri/laya-rlcd-benchmark \u2260 yibie/laya-jev-lab. notes.md \u00a7105."
     },
     {
       "kind": "github",
       "title": "SupremeDreamZ/jev-fastloop",
       "url": "https://github.com/SupremeDreamZ/jev-fastloop",
-      "note": "Python MIT; 0\u2605; HEAD 1157841a; README SHA 053a0885; LICENSE SHA d14dfce2; GitHub size 0 with contents. cheap fail-open semantic edge. second signal not sole. FastLoopError catch. SupremeDreamZ/jev-fastloop \u2260 jev-ultrafast. notes.md \u00a7105."
+      "note": "Python MIT; 0\u2605; HEAD 1157841a; README SHA 053a0885; LICENSE SHA d14dfce2; GitHub size 12 (relock; was 0 with contents). cheap fail-open semantic edge. second signal not sole. FastLoopError catch. SupremeDreamZ/jev-fastloop \u2260 jev-ultrafast. notes.md \u00a7105."
     },
     {
       "kind": "github",
       "title": "TheWebDevel/jev-fanout",
       "url": "https://github.com/TheWebDevel/jev-fanout",
-      "note": "Python MIT; 0\u2605; HEAD b30aaadc; README SHA 394b2e1e; LICENSE SHA b20a0007; GitHub size 0 with contents. asking more questions in one call. 0.980 at every N. nearly not fully deterministic. TheWebDevel/jev-fanout. notes.md \u00a7105."
+      "note": "Python MIT; 0\u2605; HEAD b30aaadc; README SHA 394b2e1e; LICENSE SHA b20a0007; GitHub size 206 (relock; was 0 with contents). asking more questions in one call. 0.980 at every N. nearly not fully deterministic. TheWebDevel/jev-fanout. notes.md \u00a7105."
     },
     {
       "kind": "github",
       "title": "harneet2512/reflexrl",
       "url": "https://github.com/harneet2512/reflexrl",
-      "note": "Python MIT; 0\u2605; HEAD aa36be84; README SHA e6ff13cd; LICENSE SHA 0fb588bd; GitHub size 0 with contents; default master. Qwen3-VL perception + Jev decisions train RL. 0 model calls at deployment. VLM alone 1.7 vs +Jev 4.4. harneet2512/reflexrl \u2260 khordoo/jev-reflex-autonomy-lab. notes.md \u00a7105."
+      "note": "Python MIT; 0\u2605; HEAD aa36be84; README SHA e6ff13cd; LICENSE SHA 0fb588bd; GitHub size 749 (relock; was 0 with contents); default master. Qwen3-VL perception + Jev decisions train RL. 0 model calls at deployment. VLM alone 1.7 vs +Jev 4.4. harneet2512/reflexrl \u2260 khordoo/jev-reflex-autonomy-lab. notes.md \u00a7105."
     },
     {
       "kind": "github",
@@ -4038,13 +4038,13 @@
       "kind": "github",
       "title": "GaneshVG18/upgrade-radar",
       "url": "https://github.com/GaneshVG18/upgrade-radar",
-      "note": "TypeScript MIT; 0\u2605; HEAD e438f9bd; README SHA c32f7d18; LICENSE SHA 588680c5; GitHub size 0 with contents. evidence-linked dependency upgrade. Jev never generates filenames. no_direct_evidence \u2260 safe to merge. Live rewrite vs prior-agent pin d7cfc80c. GaneshVG18/upgrade-radar \u2260 LYchoon/paper-radar-jev. notes.md \u00a7105."
+      "note": "TypeScript MIT; 0\u2605; HEAD e438f9bd; README SHA c32f7d18; LICENSE SHA 588680c5; GitHub size 908 (relock; was 0 with contents). evidence-linked dependency upgrade. Jev never generates filenames. no_direct_evidence \u2260 safe to merge. Live rewrite vs prior-agent pin d7cfc80c. GaneshVG18/upgrade-radar \u2260 LYchoon/paper-radar-jev. notes.md \u00a7105."
     },
     {
       "kind": "github",
       "title": "lirantal/discoprint",
       "url": "https://github.com/lirantal/discoprint",
-      "note": "TypeScript Apache-2.0; 0\u2605; HEAD a9d3294f; README SHA 9a64f473; LICENSE SHA 3c011d11; GitHub size 0 with contents. discography theme/mood/complexity. five atomic questions one call. lirantal/discoprint. notes.md \u00a7105."
+      "note": "TypeScript Apache-2.0; 0\u2605; HEAD a9d3294f; README SHA 9a64f473; LICENSE SHA 3c011d11; GitHub size 239 (relock; was 0 with contents). discography theme/mood/complexity. five atomic questions one call. lirantal/discoprint. notes.md \u00a7105."
     }
   ]
 }

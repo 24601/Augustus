@@ -22889,7 +22889,7 @@ lirantal/discoprint.
      created 2026-09-20T06:38:28Z; pushed
      2026-09-20T06:39:18Z; updated
      2026-09-20T06:38:36Z; HEAD `3d3e904a`;
-     README SHA `0e2f8536`; GitHub `size` **0** with
+     README SHA `0e2f8536`; GitHub `size` **145** (relock; was **0** with
      contents). GitHub description *theirs*:
      "Jev-style Choice, Score and Noul decisions
      from ordinary models. An optional DSH plugin."
@@ -22937,7 +22937,7 @@ lirantal/discoprint.
      2026-09-20T06:37:14Z; pushed
      2026-09-20T06:37:44Z; updated
      2026-09-20T06:37:48Z; HEAD `3401ff26`;
-     README SHA `d8d4859e`; GitHub `size` **0** with
+     README SHA `d8d4859e`; GitHub `size` **164** (relock; was **0** with
      contents). GitHub description **null**. README
      title *theirs*: `laya-decision-bench`. README
      *theirs*: zero-shot on
@@ -22982,7 +22982,7 @@ lirantal/discoprint.
      REST; 0 forks; created 2026-09-20T06:34:00Z;
      pushed 2026-09-20T06:34:04Z; updated
      2026-09-20T06:34:08Z; HEAD `1157841a`;
-     README SHA `053a0885`; GitHub `size` **0** with
+     README SHA `053a0885`; GitHub `size` **12** (relock; was **0** with
      contents). GitHub description *theirs*: cheap
      fail-open semantic edge layer; skill router
      over 1,000+ skills; stdlib-only Python. README
@@ -23031,7 +23031,7 @@ lirantal/discoprint.
      REST; 0 forks; created 2026-09-20T06:30:00Z;
      pushed 2026-09-20T06:30:05Z; updated
      2026-09-20T06:30:09Z; HEAD `b30aaadc`;
-     README SHA `394b2e1e`; GitHub `size` **0** with
+     README SHA `394b2e1e`; GitHub `size` **206** (relock; was **0** with
      contents). GitHub description *theirs*: "Does
      asking Jev more questions in one call change
      its answers?" README *theirs*: 0.980 at every
@@ -23073,7 +23073,7 @@ lirantal/discoprint.
      REST; 0 forks; created 2026-09-20T06:28:29Z;
      pushed 2026-09-20T06:28:34Z; updated
      2026-09-20T06:28:40Z; HEAD `aa36be84`;
-     README SHA `e6ff13cd`; GitHub `size` **0** with
+     README SHA `e6ff13cd`; GitHub `size` **749** (relock; was **0** with
      contents; default **master**). GitHub
      description *theirs*: Qwen3-VL perception +
      Jev decisions train a 0.75M real-time Doom
@@ -23302,7 +23302,7 @@ lirantal/discoprint.
       2026-09-20T06:36:24Z; pushed
       2026-09-20T07:09:10Z; updated
       2026-09-20T07:07:57Z; HEAD `e438f9bd`;
-      README SHA `c32f7d18`; GitHub `size` **0** with
+      README SHA `c32f7d18`; GitHub `size` **908** (relock; was **0** with
       contents). GitHub description *theirs*:
       evidence-linked dependency upgrade review
       powered by Jev. README *theirs*: code owns
@@ -23355,7 +23355,7 @@ lirantal/discoprint.
       created 2026-09-20T06:37:50Z; pushed
       2026-09-20T07:00:03Z; updated
       2026-09-20T07:00:06Z; HEAD `a9d3294f`;
-      README SHA `9a64f473`; GitHub `size` **0** with
+      README SHA `9a64f473`; GitHub `size` **239** (relock; was **0** with
       contents). GitHub description *theirs*:
       classify an artist's discography by theme,
       mood, and lyrical complexity with Jev.
@@ -23421,7 +23421,7 @@ Archer; invent tweets.
 
 Census **not provided this hour** (not
 re-derived). Live REST pulse (independent review
-relock after `92577f5`): SemIf **2059★** (+12 vs §104 **2047**); jevlike
+relock after `0558f7d`): SemIf **2062★** (+15 vs §104 **2047**); jevlike
 ([vinnylarouge/jevlike](https://github.com/vinnylarouge/jevlike))
 **1022★** (+4 vs §104 **1018**); TypeAR-AI/TypeAR
 **12★** **flat**; AnotiaWang/awesome-jev **92★**
@@ -23431,16 +23431,16 @@ yibie/awesome-jev **443★** ≠ Awesomejev.
 Archer still **NOT landed**. Hub
 `archerhume/4rcherhume` HTTP **401**. Tracker
 [multimodalart/jev-reproductions-tracker](https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker)
-likes **56** (flat vs §104 **56**; +1 vs the
+likes **58** (+2 vs §104 **56**; +3 vs the
 incoming watch); lastModified
 `2026-09-20T04:29:16Z` **UNCHANGED** vs §104 /
 2340. Laya Hub
-`convaiinnovations/laya` HTTP **200** likes **690**.
+`convaiinnovations/laya` HTTP **200** likes **697**.
 Blackwood Hub `BlackwoodAI/blackwood-rlcd` HTTP
 **200** likes **2** gated **manual** — user census
 **Blackwood absent** from the tracker; do not
 rewrite as landed. Qwen/Qwen3.8-27B HTTP **200**
-likes **15794** ≠ Archer. X MCP not used this
+likes **15795** ≠ Archer. X MCP not used this
 hour; no invented tweets. `invented_signal:
 false`.
 

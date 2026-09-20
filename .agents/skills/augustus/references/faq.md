@@ -3110,23 +3110,23 @@ No, no, and no. structured probability readouts. distribution > argmax. Noul 0.5
 
 ## Is gulagala001/jevify Mintzs/jevify? Is schema-valid JSON a calibrated Noul? Are questions independent parallel?
 
-No, no, and no. Jev-style Choice/Score/Noul from ordinary models. optional DSH plugin. schema-valid ≠ calibrated. Questions merged into one ordinary-model call. Confidence from the TypeSafe ordinary-model adapter, not P(correct), not bit-identical to Jev. JavaScript MIT; **0★**; HEAD `3d3e904a`; README SHA `0e2f8536`; LICENSE SHA `66869720`; GitHub size **0** with contents. gulagala001/jevify ≠ Mintzs/jevify. `notes.md` §105.
+No, no, and no. Jev-style Choice/Score/Noul from ordinary models. optional DSH plugin. schema-valid ≠ calibrated. Questions merged into one ordinary-model call. Confidence from the TypeSafe ordinary-model adapter, not P(correct), not bit-identical to Jev. JavaScript MIT; **0★**; HEAD `3d3e904a`; README SHA `0e2f8536`; LICENSE SHA `66869720`; GitHub size **145** (relock; was **0** with contents). gulagala001/jevify ≠ Mintzs/jevify. `notes.md` §105.
 
 ## Is 40.3% a class ceiling? Collapse mourad into yibie/laya-jev-lab? Skip the constant-answer baseline?
 
-No, no, and no. Laya RLCD benchmark. 40.3% below constant-answer (12.8 points below a constant answer that reads no text). open-weight measurement. Routing/choice +10; booleans −26; ordinals −15. README title `laya-decision-bench`. Python; license **null**; **0★**; HEAD `3401ff26`; README SHA `d8d4859e`; GitHub size **0** with contents. mourad-ghafiri/laya-rlcd-benchmark ≠ yibie/laya-jev-lab ≠ pngwn/open-jev-laya-bench. `notes.md` §105.
+No, no, and no. Laya RLCD benchmark. 40.3% below constant-answer (12.8 points below a constant answer that reads no text). open-weight measurement. Routing/choice +10; booleans −26; ordinals −15. README title `laya-decision-bench`. Python; license **null**; **0★**; HEAD `3401ff26`; README SHA `d8d4859e`; GitHub size **164** (relock; was **0** with contents). mourad-ghafiri/laya-rlcd-benchmark ≠ yibie/laya-jev-lab ≠ pngwn/open-jev-laya-bench. `notes.md` §105.
 
 ## Is jev-fastloop jev-ultrafast? Hard-gate fused confidence as safety? Is Jev the only signal?
 
-No, no, and no. cheap fail-open semantic edge. second signal not sole. FastLoopError catch (do the expensive thing). 4/5, 8/8, 2.00→0.18 fused *theirs* on jev-1.13-free $0. Python MIT; **0★**; HEAD `1157841a`; README SHA `053a0885`; GitHub size **0** with contents. SupremeDreamZ/jev-fastloop ≠ jev-ultrafast. `notes.md` §105.
+No, no, and no. cheap fail-open semantic edge. second signal not sole. FastLoopError catch (do the expensive thing). 4/5, 8/8, 2.00→0.18 fused *theirs* on jev-1.13-free $0. Python MIT; **0★**; HEAD `1157841a`; README SHA `053a0885`; GitHub size **12** (relock; was **0** with contents). SupremeDreamZ/jev-fastloop ≠ jev-ultrafast. `notes.md` §105.
 
 ## Does asking more questions in one call change answers? Is 0.0000 sd universal determinism? Extrapolate to Score?
 
-Question count did not move the refund probe (0.980 at every N); no, and no. asking more questions in one call. nearly not fully deterministic (22 of 24 identical across 40 calls; two moved at conf 0.107/0.312). Two documents, one afternoon; Score untested. Python MIT; **0★**; HEAD `b30aaadc`; README SHA `394b2e1e`; GitHub size **0** with contents. TheWebDevel/jev-fanout. `notes.md` §105.
+Question count did not move the refund probe (0.980 at every N); no, and no. asking more questions in one call. nearly not fully deterministic (22 of 24 identical across 40 calls; two moved at conf 0.107/0.312). Two documents, one afternoon; Score untested. Python MIT; **0★**; HEAD `b30aaadc`; README SHA `394b2e1e`; GitHub size **206** (relock; was **0** with contents). TheWebDevel/jev-fanout. `notes.md` §105.
 
 ## Is reflexrl khordoo? Ship VLM+Jev as the runtime? Quote 2.95× as Harbor?
 
-No, no, and no. Qwen3-VL perception + Jev decisions train RL. 0 model calls at deployment. VLM alone 1.7 vs +Jev 4.4. Pixels-only 0.75M policy; teacher influence anneals. Python MIT; **0★**; HEAD `aa36be84`; README SHA `e6ff13cd`; GitHub size **0** with contents; default **master**. harneet2512/reflexrl ≠ khordoo/jev-reflex-autonomy-lab. `notes.md` §105.
+No, no, and no. Qwen3-VL perception + Jev decisions train RL. 0 model calls at deployment. VLM alone 1.7 vs +Jev 4.4. Pixels-only 0.75M policy; teacher influence anneals. Python MIT; **0★**; HEAD `aa36be84`; README SHA `e6ff13cd`; GitHub size **749** (relock; was **0** with contents); default **master**. harneet2512/reflexrl ≠ khordoo/jev-reflex-autonomy-lab. `notes.md` §105.
 
 ## Is yibie/laya-jev-lab dairui1 or BrendanH18? Hard-gate cascade 0.60? Cite “choice is order-biased”?
 
@@ -3146,12 +3146,12 @@ No, no, and no. behavioral contracts. pin expectations eval upgrades. raw 0.94 i
 
 ## Is `no_direct_evidence` safe to merge? Does Jev generate filenames? Is the screenshot live Jev? Collapse into paper-radar?
 
-No, no, no, and no. evidence-linked dependency upgrade. Jev never generates filenames. no_direct_evidence ≠ safe to merge. ILLUSTRATIVE FIXTURE is not live Jev. Exit 0 advisory. TypeScript MIT; **0★**; HEAD `e438f9bd`; README SHA `c32f7d18`; GitHub size **0** with contents. GaneshVG18/upgrade-radar ≠ LYchoon/paper-radar-jev. `notes.md` §105.
+No, no, no, and no. evidence-linked dependency upgrade. Jev never generates filenames. no_direct_evidence ≠ safe to merge. ILLUSTRATIVE FIXTURE is not live Jev. Exit 0 advisory. TypeScript MIT; **0★**; HEAD `e438f9bd`; README SHA `c32f7d18`; GitHub size **908** (relock; was **0** with contents). GaneshVG18/upgrade-radar ≠ LYchoon/paper-radar-jev. `notes.md` §105.
 
 ## Is theme Choice a music-theory certificate? Copy npx/.env as a skill?
 
-No and no. discography theme/mood/complexity. five atomic questions one call. Code owns MusicBrainz/lrclib; Jev scores lyrics. TypeScript Apache-2.0; **0★**; HEAD `a9d3294f`; README SHA `9a64f473`; GitHub size **0** with contents. lirantal/discoprint. Do not copy `npx` / keys. `notes.md` §105.
+No and no. discography theme/mood/complexity. five atomic questions one call. Code owns MusicBrainz/lrclib; Jev scores lyrics. TypeScript Apache-2.0; **0★**; HEAD `a9d3294f`; README SHA `9a64f473`; GitHub size **239** (relock; was **0** with contents). lirantal/discoprint. Do not copy `npx` / keys. `notes.md` §105.
 
 ## Did Archer land this hour? Treat Qwen3.8-27B as Archer? Invent tweets?
 
-No, no, and no. Hub `archerhume/4rcherhume` HTTP **401**. Tracker likes **56** (flat vs §104 **56**); lastModified `2026-09-20T04:29:16Z` **UNCHANGED** vs §104. Laya Hub HTTP **200** likes **690**. Blackwood Hub HTTP **200** likes **2** gated manual — user census **absent** from the tracker; do not rewrite as landed. Live REST pulse (independent review relock after `92577f5`): SemIf **2059★** (+12 vs §104 **2047**); jevlike **1022★** (+4 vs §104 **1018**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **92★** (+1 vs §104 **91**) ≠ Awesomejev 561/27007 ≠ yibie/awesome-jev **443★**. Qwen3.8-27B ≠ Archer (likes **15794**). `invented_signal: false`. `notes.md` §105.
+No, no, and no. Hub `archerhume/4rcherhume` HTTP **401**. Tracker likes **58** (+2 vs §104 **56**); lastModified `2026-09-20T04:29:16Z` **UNCHANGED** vs §104. Laya Hub HTTP **200** likes **697**. Blackwood Hub HTTP **200** likes **2** gated manual — user census **absent** from the tracker; do not rewrite as landed. Live REST pulse (independent review relock after `0558f7d`): SemIf **2062★** (+15 vs §104 **2047**); jevlike **1022★** (+4 vs §104 **1018**); TypeAR-AI/TypeAR **12★** **flat**. AnotiaWang/awesome-jev **92★** (+1 vs §104 **91**) ≠ Awesomejev 561/27007 ≠ yibie/awesome-jev **443★**. Qwen3.8-27B ≠ Archer (likes **15795**). `invented_signal: false`. `notes.md` §105.
