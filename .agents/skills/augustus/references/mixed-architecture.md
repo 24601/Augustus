@@ -368,7 +368,7 @@ not a global virtue:
 | Treat a public arena as a leaderboard | **Fail closed** until measured findings (`chenmingtang830/jevarena`) | Failure-finding, not crowning winners. Distinct from `meetr1912/jev-arena`. Harness ≠ findings |
 | Certify a model "unbiased" from one BBQ run | **Fail closed** (do not) (`jev-bbq-experiment`) | 97.28% / bias 0.04/0.34 *theirs* is one frozen English/U.S. QA template. Not hiring/lending/healthcare |
 | Let the LLM plan *and* fill in jeffrey | **Fail closed** to the split | Jev owns next-tool/progress/risk/done; LLM only fills args. Risk ≥ 0.5 pauses mutating tools |
-| Fail a build on a missing jevlint verdict | **Fail open** (no verdict ≠ clean) (`mizchi/jevlint`) | Failed request never reads as a clean repo. Distinct from huntedman/JevLint |
+| Fail a build on a missing jev-lint verdict | **Fail open** (no verdict ≠ clean) (`mizchi/jev-lint` is jevlint rename) | Failed request never reads as a clean repo. Distinct from huntedman/JevLint |
 | Skip generative review of a safety-escarpment hunk | **Fail closed** (always keep) (`prune-review`) | Concurrency/auth/a11y/startup stay in the packet regardless of Jev. Cost 1.18% with 305% outlier *theirs* |
 | Treat empty intent-search as VERIFIED | **Fail closed** to UNKNOWN (`jev-intent-review`) | Empty search ≠ proof. VERIFIED is only as complete as the search |
 | Treat GLiNER2 spec JSON numbers as measurements | **Fail closed** (spec-only) (`Jev_from_GLiNER2`) | Design for implementation; no service, no training. Interface ≠ replica. Distinct from jeff |
@@ -738,12 +738,15 @@ Related placements:
   generated names, no auto-fix. Sibling of jev-pref. Independent, not
   TypeSafe. Pointer: `notes.md` §26.
 - **Sentence-as-rule lint (ast-grep × Jev)** —
-  [`mizchi/jevlint`](https://github.com/mizchi/jevlint): matcher
+  [`mizchi/jev-lint`](https://github.com/mizchi/jev-lint)
+  (GitHub rename of [`mizchi/jevlint`](https://github.com/mizchi/jevlint);
+  same SHA; not a second product): matcher
   decides *which* code is looked at (silent miss); a sentence
   `ask:` decides whether it is a problem (loud). 13/15 1.00/1.00
-  on their corpus; review mode 2 req / $0.00013. Fail-open no
+  on their older corpus; ~1 in 5 findings wrong *this README*;
+  review mode 2 req / $0.00013. Fail-open no
   verdict. **Always qualify** vs huntedman/JevLint. Independent of
-  eslint-plugin-jev (`notes.md` §70).
+  eslint-plugin-jev (`notes.md` §70, §100).
 - **Malicious-before-run** — `luantak/is-malicious`. High-stakes gate:
   fail closed, shadow first, never treat a Jev yes as authorization to
   execute untrusted code. Code still sandboxes.
@@ -766,7 +769,7 @@ decision-design card. Do not clone APIs from READMEs.
 |---|---|---|---|
 | Hold-before-publish moderation | Hazard Nouls + harm Score | Block/review/pass policy | Near Here / firehose family; **x-reply-filter** (local rules first; never auto-train on own hides) |
 | Tool / engine / skill select | Choice + fits-Noul | Dispatch, auth, reject-all | skillranker, LlamaIndex selectors, Toolrouter |
-| Preference lint | Per-rule Score/Noul on a diff; or ast-grep subject × sentence | Rule text, linter for hard rules, bands + fail-open; matcher silent / Jev loud | jev-pref (contract), Abide (productized), huntedman/JevLint; **mizchi/jevlint** (13/15 1.00/1.00 *theirs*); if-ai (plain-English PR check, fail-closed on error); jev-marshal (Watch / empty repo) |
+| Preference lint | Per-rule Score/Noul on a diff; or ast-grep subject × sentence | Rule text, linter for hard rules, bands + fail-open; matcher silent / Jev loud | jev-pref (contract), Abide (productized), huntedman/JevLint; **mizchi/jev-lint** (jevlint rename; ~1 in 5 wrong *this README*; 13/15 older corpus); if-ai (plain-English PR check, fail-closed on error); jev-marshal (Watch / empty repo) |
 | Context / log prune | Per-line or per-block relevance; or a retention Choice + spans; or a Noul per stdout chunk; or keep/kind on a verbatim ledger; or pre-send views of a tool result | Always-keep set, recall keys; mutation envelope in code; shadow before replace; size/format envelope then Noul; archive dropped spans; kind-keyed topic files | jevprune, winnow; fast-jev-compaction / pi-jev-compaction / fast-jev-compaction-pi; gliner25-compaction; jev-pruner; **indiejoseph/opencode-jev-pruner** (OpenCode host; jev-zen / jev-1.13-free; `notes.md` §96); **jev-compactor** (73% / 350 ms product-arm *theirs*); **dizk/jev-lens** (pre-send; 79% fewer tokens); **pi-observational-memory-jev** (keep/kind verbatim) |
 | Exact hunk staging | Per-hunk include/exclude/mixed | `git diff`, atomic apply | git-jev-stage |
 | Semantic `WHERE` | Noul/`jev_prob` over a row | SQL, indexes, LIMIT | **jevql** (CLI judges; vanilla Postgres never sees `jev()` — judgment outside the store); sqlite-jev / pg-jev (in-engine) |
@@ -893,7 +896,7 @@ decision-design card. Do not clone APIs from READMEs.
 | Failure-finding judgment arena | pairwise chosen/rejected; native vs verbalized p | Reviewed failure atlas, not a leaderboard; mock runs never enter a ranking | chenmingtang830/jevarena (Apache-2.0; JevJudge-Bench harness **not** findings). **≠** meetr1912/jev-arena |
 | BBQ stereotype/uncertainty/cost | 3-way Choice on BBQ passages | Frozen instruction; unknown is the abstention option; not a bias cert | jev-bbq-experiment (R; license null; 58,492 / 97.28% / $0.3429 *theirs*) |
 | Decider ≠ executor agent | next_action / progress / risk / stuck / done | LLM fills args only; risk≥0.5 pause; stuck ladder 2 Jev / 0 steps | jeffrey (MIT). Distinct from jev-handoff baton |
-| Sentence-as-rule lint | ast-grep `rule:` × sentence `ask:` | Matcher silent-fail (over-match); Jev loud; fail-open no-verdict | mizchi/jevlint (MIT; 13/15 1.00/1.00 *theirs*). **≠** huntedman/JevLint |
+| Sentence-as-rule lint | ast-grep `rule:` × sentence `ask:` | Matcher silent-fail (over-match); Jev loud; fail-open no-verdict | mizchi/jev-lint is mizchi/jevlint rename (MIT; ~1 in 5 wrong *this README*; 13/15 older corpus). **≠** huntedman/JevLint |
 | VOI hunk prune before generative review | per-hunk actionable-finding + required-context | Safety escarpment always keeps; cost not quality | prune-review (README Apache-2.0 / GitHub NOASSERTION; 22-run 1.18% / 305% outlier *theirs*) |
 | Whole-repo intent vs the diff | VERIFIED / VIOLATION / UNKNOWN / NOT_APPLICABLE | Empty search ≠ proof; CLI works, Action not written | jev-intent-review (MIT/Apache-2.0; under construction) |
 | Persist constraints across compaction | KEEP/LIFT/NARROW/EXCEPTION/REPLACE/UNKNOWN | Jev never writes policy; resources from user words; fail-open | pi-heed (MIT; 3★; v0.8.0+Jev 98.5% / 0 false block *theirs*) |

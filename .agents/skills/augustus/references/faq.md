@@ -1459,13 +1459,16 @@ Distinct from jev-handoff (baton around an existing host).
 
 ## Is jevlint the same as JevLint?
 
-No. **Always qualify the owner.**
-[mizchi/jevlint](https://github.com/mizchi/jevlint):
+No. **Always qualify the owner.** Canonical GitHub name
+is now [mizchi/jev-lint](https://github.com/mizchi/jev-lint)
+(rename of [mizchi/jevlint](https://github.com/mizchi/jevlint);
+same SHA; `jevlint` redirects — not a second product).
 ast-grep subjects × sentence `ask:` (matcher silent, Jev
-loud; 13/15 1.00/1.00 *theirs*).
+loud; 13/15 1.00/1.00 older corpus *theirs*; ~1 in 5
+findings wrong *this README*).
 [huntedman/JevLint](https://github.com/huntedman/JevLint)
 is file-level convention Nouls (§26). Independent of
-eslint-plugin-jev. `notes.md` §26, §70.
+eslint-plugin-jev. `notes.md` §26, §70, §100.
 
 ## Can I treat a local `/v1/systemone` as Jev?
 
