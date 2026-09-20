@@ -2003,3 +2003,10 @@
   ecosystem, CHANGELOG, README.
 - notes.md §99; sources.json; findings.md batch #82.
   No wrapper. Do **not** merge from this review.
+- Adversarial review honesty locks: live SKILL/README
+  class index no longer presents von as current tiny
+  SAN (Needle §49 snapshot ≠ this-pass 395M / n=78);
+  `on_unsure="raise"` named as app policy, not a
+  System One hard gate; gut license quoted as GitHub
+  Apache-2.0 / LICENSE MIT / pyproject Apache-2.0
+  *theirs* (same split honesty as jev-forge).

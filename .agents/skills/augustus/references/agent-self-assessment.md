@@ -335,7 +335,8 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   **Cost-derived / typed-callback overlays:**
   [gut](https://github.com/Kungie/gut) —
   YES / NO / UNSURE from costs; default
-  `on_unsure="raise"`; auto-batching
+  `on_unsure="raise"` is app policy, not a
+  System One hard gate; auto-batching
   same-object questions.
   [judge](https://github.com/Illusion47586/judge)
   — exactly one app-owned callback; explicit

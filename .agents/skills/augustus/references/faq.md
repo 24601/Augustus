@@ -2851,7 +2851,7 @@ Unique fragments (consecutive): cost-sensitive decision theory × System One pro
 
 ## Are gut / Judge new class-table species? Hard-gate cost-derived 0.038 as a proof? Let UNSURE silently become False?
 
-No, no, and no. Overlays on EU / Chow / Elkan and on typed control flow. cost-sensitive decision theory × System One probabilities → control flow. thresholds derived from costs not hard-coded. YES / NO / UNSURE from cost_false_yes / cost_false_no / cost_human. auto-batching same-object questions. Default `on_unsure="raise"` *theirs*. `min_confidence` is a spread filter, not P(correct) (DECISIONS *theirs*). Kungie/gut ≠ tpellet/hunch ≠ carldaws/hunch. Python MIT; **0★**; pre-alpha target design. Soft Noul ≠ hard safety. `notes.md` §99.
+No, no, and no. Overlays on EU / Chow / Elkan and on typed control flow. cost-sensitive decision theory × System One probabilities → control flow. thresholds derived from costs not hard-coded. YES / NO / UNSURE from cost_false_yes / cost_false_no / cost_human. auto-batching same-object questions. Default `on_unsure="raise"` *theirs* is **application policy** (truthiness / exception), **not** a System One hard gate. `min_confidence` is a spread filter, not P(correct) (DECISIONS *theirs*). Kungie/gut ≠ tpellet/hunch ≠ carldaws/hunch. GitHub Apache-2.0 / LICENSE MIT / pyproject Apache-2.0 *theirs*; **0★**; pre-alpha target design. Soft Noul ≠ hard safety. `notes.md` §99.
 
 ## Is Illusion47586/judge lexingtonhibiki/judgekit? Does it generate or execute code? Is the uncertain branch optional theater?
 

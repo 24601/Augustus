@@ -17564,7 +17564,8 @@ can be argued out of guarding.
    (PRIMARY)**
 
    - **[`Kungie/gut`](https://github.com/Kungie/gut)**
-     (Python MIT; **0★** live REST; 0 forks;
+     (GitHub Apache-2.0 / LICENSE MIT /
+     pyproject Apache-2.0 *theirs*; **0★** live REST; 0 forks;
      created 2026-09-20T00:27:05Z; pushed
      2026-09-20T00:50:20Z; updated
      2026-09-20T00:50:24Z; HEAD `cb56c875`;
@@ -17608,7 +17609,10 @@ can be argued out of guarding.
      documented default. Given nothing: symmetric
      costs, `p > 0.5`. Default `on_unsure="raise"`
      so an unhandled UNSURE does not silently
-     become `False`. Auto-batching: `@semantic`
+     become `False`. That default is **application
+     policy** (Python truthiness / exception), **not**
+     a System One hard gate. The Noul stays a SENSOR;
+     `raise` / ASK / fail-open is code. Auto-batching: `@semantic`
      / `gut.judge(subject)` collapses same-object
      questions into one backend call. "gut stays
      model-agnostic: Jev is the first backend,
@@ -17666,7 +17670,10 @@ can be argued out of guarding.
      **≠** judgekit YAML **≠** typed-judge-kit.
      Soft Noul ≠ hard safety: 0.038 / 0.5 /
      `min_confidence` / example `min_accuracy
-     0.9` are **sensors**. Do not copy
+     0.9` are **sensors**. Default
+     `on_unsure="raise"` is **application
+     policy**, not a System One hard gate.
+     Do not copy
      `pip install` / `TYPESAFE_API_KEY`.
 
 2. **Typed callback / control-flow twin**
@@ -18170,7 +18177,8 @@ false`.
 
 Treat gut/judge as new class-table species;
 hard-gate cost-derived 0.038 as a safety
-proof; let UNSURE silently become `False`;
+proof; treat `on_unsure="raise"` as a System
+One hard gate; let UNSURE silently become `False`;
 treat `min_confidence` as P(correct); dump
 gut source or Judge SDK; copy `pip` / `npm`
 / keys; collapse Kungie/gut into hunch /

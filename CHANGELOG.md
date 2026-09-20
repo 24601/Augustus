@@ -1616,7 +1616,8 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   costs not hard-coded; YES / NO / UNSURE from
   cost_false_yes / cost_false_no / cost_human;
   auto-batching same-object questions; Kungie/gut ≠
-  tpellet/hunch ≠ carldaws/hunch; Python MIT; **0★**;
+  tpellet/hunch ≠ carldaws/hunch; GitHub Apache-2.0 /
+  LICENSE MIT / pyproject Apache-2.0 *theirs*; **0★**;
   HEAD `cb56c875`; README SHA `630474f6`; pre-alpha);
   **typed-callback twin**
   ([Illusion47586/judge](https://github.com/Illusion47586/judge)

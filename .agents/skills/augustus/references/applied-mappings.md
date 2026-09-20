@@ -1308,12 +1308,14 @@ replica honesty (`notes.md` §98).
 **Cost-derived / typed-callback overlays (Empirical as
 README target design; 2026-09-19 ~18:43):**
 [Kungie/gut](https://github.com/Kungie/gut)
-(Python MIT; **0★**; pre-alpha) — cost-sensitive
+(GitHub Apache-2.0 / LICENSE MIT / pyproject Apache-2.0
+*theirs*; **0★**; pre-alpha) — cost-sensitive
 decision theory × System One probabilities → control
 flow. thresholds derived from costs not hard-coded.
 YES / NO / UNSURE from cost_false_yes / cost_false_no /
 cost_human. auto-batching same-object questions.
-Default `on_unsure="raise"`. Kungie/gut ≠ tpellet/hunch
+Default `on_unsure="raise"` is app policy, not a
+System One hard gate. Kungie/gut ≠ tpellet/hunch
 ≠ carldaws/hunch.
 [Illusion47586/judge](https://github.com/Illusion47586/judge)
 (TypeScript MIT; **0★**; `@brkn-labs/judge` 0.1.0) —

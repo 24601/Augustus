@@ -215,14 +215,16 @@ quality; selection/auth is control.
 Life/business reading of the same math: write the two costs in dollars,
 hours, or harm, *then* pick t. Do not copy 0.7 from a blog.
 **Programming primitive overlay (`notes.md` §99):**
-[gut](https://github.com/Kungie/gut) (MIT; **0★**; pre-alpha
+[gut](https://github.com/Kungie/gut) (GitHub Apache-2.0 /
+LICENSE MIT / pyproject Apache-2.0 *theirs*; **0★**; pre-alpha
 target design *theirs*) makes that table a control-flow
 outcome — YES / NO / UNSURE from `cost_false_yes` /
 `cost_false_no` / `cost_human`. Thresholds derived from
 costs not hard-coded. Worked example *theirs*: 2/52 ≈
 0.038. Ties prefer UNSURE, then NO. Default
 `on_unsure="raise"` so UNSURE does not silently become
-`False`. Auto-batching same-object questions. Twin:
+`False` — **application policy**, not a System One hard
+gate. Auto-batching same-object questions. Twin:
 [Illusion47586/judge](https://github.com/Illusion47586/judge)
 maps the belief onto **exactly one** application callback
 including an explicit `uncertain` branch (judgment vs

@@ -36,7 +36,7 @@ never launder a Noul as a proof.
   exemplar, not monopoly): open heads (Laya, kev, encoder DeBERTa, LoRA
   distill, domain specialist on independent gold), constrained-AR (TypeAR, pcdServer), announced decision-model (Watch),
   open multimodal RLCD (blackwood-rlcd; not Archer), Laya ONNX port,
-  contract-compatible local `/v1/systemone` (stub until hf scorer; also kev pointer / von tiny SAN — not replicas; **jevify** CUDA/PyTorch packed-logprob cousin — uncalibrated likelihoods ≠ Noul; **jeff** GLiFormer-400M encoder drop-in — not a Jev replica; **sysone** loopback gateway routes hosted + local, not a model; **githubnext/localjev** prompted JSON ≠ structured-read logits — ≠ kunchenguid/local-jev),
+  contract-compatible local `/v1/systemone` (stub until hf scorer; also kev pointer / von §49 Needle SAN snapshot ≠ this-pass 395M / n=78 — not replicas; **jevify** CUDA/PyTorch packed-logprob cousin — uncalibrated likelihoods ≠ Noul; **jeff** GLiFormer-400M encoder drop-in — not a Jev replica; **sysone** loopback gateway routes hosted + local, not a model; **githubnext/localjev** prompted JSON ≠ structured-read logits — ≠ kunchenguid/local-jev),
   GLiNER/GLiClass species (locate vs categorize vs local multi-head;
   GLiNER2.5 extractive compaction as a named job, not a new species;
   GLiNER code-graph indexer + escalate-S2, 10–50× unfilled;
