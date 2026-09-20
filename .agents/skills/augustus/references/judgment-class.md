@@ -580,7 +580,7 @@ program.
 | Need | Place | Do not |
 |---|---|---|
 | Calibrated p(y\|x) over a closed set | Trained decision-only head (Jev, or an open head you have proper-scored and measured on your labels) | Threshold a generated "90%", an affinity you have not calibrated, TypeAR constrained scores, or a LoRA student's agreement with the teacher |
-| Laptop-local System One API for development / eval | **kev** — trained decision-only readout; official SDK with a `base_url` change (`notes.md` §45) | Treat 0.5B ID ECE as a knowledge or frontier substitute, or as OOD calibration |
+| Laptop-local System One API for development / eval | **kev** — trained decision-only readout; family 0.5B–8B; official SDK with a `base_url` change (`notes.md` §45, §98) | Treat 0.5B ID ECE as a knowledge or frontier substitute; treat kev family OOD 0.76–0.77 vs Jev 0.86 as identity; treat isolation 4e-6 or `/v1/systemone` wire as a Noul |
 | Dependent sequential decisions | Constrained AR that conditions later steps on earlier answers (TypeAR sequential), or code-owned transitions and a new request per stage | Treat sibling questions on one request as if they attend each other |
 | Open multimodal self-host / data-residency *now* | **blackwood-rlcd** — trained decision-only readout with image-in; Jev-compatible shim; CC BY-NC (`notes.md` §46) | Wait for Archer's 27B. Treat screenshot-vs-Jev-text as the same input. Threshold a commercial workflow on a non-commercial license. Skip self-eval because web-element acc is 0.907 |
 | Open multimodal self-host / data-residency *when it ships* | Hume's announced **decision-model** drop **when it ships** (Qwen3.8 27B **dense**, 265k, multimodal, no audio; one forward pass locally once AR is removed; MoE next then shrink). Driver: healthcare AU residency, not anti-TypeSafe | Ship on "smarter than Jev." That is his early claim, against his own order-sensitivity and in-distribution calibration warnings. **WATCH** — no Hub weights this pass. Laya remains text-only. kev is text-only. jev-visual is region Choice, not this drop |
@@ -609,7 +609,7 @@ is the generator, not a sixth surface.
 | **Tiny LoRA distill** (jev-gate-student-b) | Teacher-copy. P(relevant) from yes/no logits. Held-out n=60 vs vanilla 0.5B; 148,160-row corpus. HF card **unchanged** ~17:48 vs §33 (MAE 0.187 / Pearson 0.791 / 90%; ~59 ms RTX 3060; fail-open) | Memory-gating / context sieve; **fail-open** on errors | Qwen2.5-0.5B LoRA; ~59 ms RTX 3060 | Local, apache-2.0 | Text | Binary relevance |
 | **Domain LoRA specialist** (Domain-jev-maker) | Independent CLINC gold, soft targets, pointer readout. **Not** a Jev teacher-copy. Calibration gap is the product: KL 0.168 vs hosted 0.580 banking; few-shot hosted matches argmax (McNemar n.s.) | Threshold / deferral / EU that *reads* p; skip when only argmax | ~0.5 s / request on 8 GB GPU *theirs*; 1.5B LoRA | Self-host; MIT | Text | Domain K + abstain; one forward pass |
 | **Nimble** (open LoRA recipe, not a distill) | Hard synthetic labels. They say temperature was not tuned to correctness rates. 324-row agreement is their receipt, not an ECE (`notes.md` §35) | Not a gather primitive | Their latency table, not re-run | Self-host the adapter. Model card Apache-2.0; repo license absent | Text only | Enum ≤26; 2,048 tokens |
-| **kev** (Qwen2.5-0.5B LoRA + pointer; Apache-2.0) | Public gold, CE. Held-out ECE 0.065 (0.031 after T=1.47); acc 0.799 on 1,350 ID questions. Isolation exact. **Not** a Jev teacher-copy (`notes.md` §45) | Laptop-local System One drop-in for development/eval; independent questions, one prefill | ~160 ms / 6 questions; ~1h45m train on M5; 38 MB adapter | Self-host; official `typesafe-sdk` with `base_url` | Text. Not multimodal. 0.5B knowledge | noul / choice 2–255 / score |
+| **kev** (Qwen2.5-0.5B LoRA + pointer; Apache-2.0) | Public gold, CE. Held-out ECE 0.065 (0.031 after T=1.47); acc 0.799 on 1,350 ID questions. Isolation exact. **Not** a Jev teacher-copy (`notes.md` §45). **Family delta (`notes.md` §98):** Archer-arch fidelity; kev family OOD 0.76–0.77 vs Jev 0.86; block-causal isolation; pointer/readout CE-trained; `/v1/systemone` drop-in; replica honesty | Laptop-local System One drop-in for development/eval; independent questions, one prefill. Family bake-off candidate, not a Jev substitute | ~160 ms / 6 questions; ~1h45m train on M5; 38 MB adapter. Family: kev-4b ~1 s / kev-8b ~2 s bf16 *theirs* | Self-host; official `typesafe-sdk` with `base_url` | Text. Not multimodal. 0.5B knowledge; 4B/8B OOD still a gap | noul / choice 2–255 / score |
 | **Diffusion structured reads** (djev-spark) | Interface claim only. **Hypothesis** it beats a decision head on your labels (`notes.md` §36) | Optional sequential chunks, text-only | Their GX10 tables, not a class benchmark | DGX Spark container. Do not copy the route | Images are an extension; think and sequential reject images | README criteria, not copied here |
 
 **Three open paths** (not three species, not extra when-to-use rows):
@@ -1012,6 +1012,7 @@ default, jeff confidently flat, do not invent Laya),
 §95 (llama-jev llama.cpp replica; numbered-choice softmax ≠ Noul; **≠** TypeSafe **≠** pcdServer **≠** chakuho; 80 ms cold / 40 ms cache *theirs* on minicpm5-2b-q8; packaging / WIP replica, not a new species),
 §96 (indiejoseph/opencode-jev-pruner OpenCode host-port of tamaratran/jev-pruner; jev-zen / jev-1.13-free; zen-chat ≠ Noul; **≠** nrdz-labs/fast-jev-opencode; Kiln-AI/jev_jsonschema / NSStudent/JevSwiftSDK unofficial packaging, not new species; jev-webagent-bench empty stub),
 §97 (shershah1024/gliner-native-runtime GLiNER2 native Apple path; unofficial Swift/Core ML GLiNER 2.5-small; entity spans + confidence; not Choice/Score/Noul; not TypeSafe; label descriptions as schema; on-device ANE economics; honesty locks; shershah1024/gliner-native-runtime ≠ Fastino; ≠ gliner25-compaction ≠ gliner2-ultrafast ≠ Eran-BA/Jev_from_GLiNER2 ≠ NSStudent/JevSwiftSDK ≠ jevmlx; default threshold 0.1 still soft),
+§98 (numerous-com/dgp Decision Graph Protocol frame→assess→commit; app retains permissions/effects; Jev-first assessor-neutral; guarded commit / receipt/next frame; assessment batching; hard-gating DGP as safety theater; numerous-com/dgp ≠ TypeSafe official; can1357/jegrep calibrated path+range Nouls; no embeddings/index/daemon; ~$0.01–0.03 typical; agent --json; can1357/jegrep ≠ Bentlybro/jevgrep ≠ uehaj/jev-semgrep; jaredpalmer/kev family Archer-arch fidelity; kev family OOD 0.76–0.77 vs Jev 0.86; block-causal isolation; pointer/readout CE-trained; /v1/systemone drop-in; replica honesty — do not rewrite §45),
 §49 (boundary map; DMB vs constrained LLMs; von; open-alternative-jev). Before
 adopting a surface, the bake-off is a jevals-shaped suite and, for a
 product loop, a Harbor taskset (`validation.md`, Eval & hill-climb).
@@ -1164,6 +1165,36 @@ candidate** on the jevals/Harbor path (`validation.md`); mechanism
 tests (isolation, permute, IIA, boundary forgery) mirror Archer probes
 — they falsify the reconstruction, they do not prove kev = Jev.
 `notes.md` §45.
+
+**Family delta (judgment / architecture; `notes.md` §98).**
+Do **not** rewrite this card as a train/serve how-to.
+Primary replica/code fold lives in Jev-omni. README
+*theirs* now ships a family (0.5B / 0.6B / 4B / 8B),
+not the 0.5B-only note. Archer-arch fidelity.
+block-causal isolation. pointer/readout CE-trained.
+`/v1/systemone` drop-in. Isolation exact: packed vs
+separate agree to **4e-6**. Frozen `transfer-v4` dev
+(764 records) *theirs*: kev-4b acc **0.759**, kev-8b
+**0.774**, Jev **0.857** — highlights round to
+kev family OOD 0.76–0.77 vs Jev 0.86. Brier kev-8b
+**0.339** vs Jev **0.211**; confident errors kev-8b
+**8.2%** vs Jev **3.7%**; held-out policy both-siblings
+kev-4b **0.62** / kev-8b **0.61** vs Jev **0.86**.
+Previews fail the ≥70% screen (best **0.67**). Locked-test
+OOD: kev-4b **0.794** / kev-8b **0.799** (single read).
+ECE OOD ~0.1. replica honesty: a `/v1/systemone`
+drop-in is not a Noul; architecture confirmation ≠
+Jev identity. Hub:
+[`jaredpalmer/kev-4b`](https://huggingface.co/jaredpalmer/kev-4b),
+[`jaredpalmer/kev-8b`](https://huggingface.co/jaredpalmer/kev-8b),
+[`jaredpalmer/kev-0.6b`](https://huggingface.co/jaredpalmer/kev-0.6b).
+Collection
+[kev](https://huggingface.co/collections/jaredpalmer/kev-6aad9d0ea49f2589665e07cd).
+Do not copy `uv run` / ports / Modal / train flags.
+Soft Noul ≠ hard safety: 0.76 / 0.77 / 0.86 / ECE ~0.1
+/ 0.62 are **sensors**. Pasting OOD acc as “close
+enough to ship as Jev” is theater. Archer still
+**NOT landed**.
 
 ### blackwood-rlcd — open multimodal RLCD (not Archer, not CLIP)
 

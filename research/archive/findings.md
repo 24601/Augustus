@@ -2808,3 +2808,48 @@ tracker likes **50** lastModified UNCHANGED
 TypeAR 10; Awesomejev 561/27007.
 
 Cross-repo addition: (lp) GLiNER2 native Apple path.
+
+## Batch #81 (2026-09-19 ~23:40 UTC / ~17:40 Boise) — hourly 1740 HIGH
+
+Note: `research/notes.md` §98. Docs-only on a fresh PR
+off main. Never reopen merged #7 / **#8** / **#9** /
+**#10** / **#12** / **#13** / **#14** / **#15**. Do **not**
+re-fold §93 / §94 / §95 / §96 / §97. Skip Archer rewrite.
+Do **not** re-fold 1639 / gliner-native-runtime / 1541.
+No invented metrics. Hunches labeled. Quote READMEs.
+Soft Noul ≠ hard safety. Augustus owns placement.
+rh-guard does not own these holes.
+
+- **Decision Graph Protocol envelope.** numerous-com/dgp
+  (Python MIT; **0★**; HEAD `a9cb3c4`; README SHA
+  `655fc638`; size 303). Decision Graph Protocol
+  frame→assess→commit. app retains permissions/effects.
+  Jev-first assessor-neutral. guarded commit /
+  receipt/next frame. assessment batching. hard-gating
+  DGP as safety theater. numerous-com/dgp ≠ TypeSafe
+  official. 106 tests *theirs*. Mock resolver ≠ Jev.
+- **Calibrated meaning-grep over a live tree.**
+  can1357/jegrep (Rust MIT; **13★**; HEAD `a280f14`;
+  README SHA `6f241390`; size 511; v0.1.1). jegrep
+  calibrated path+range Nouls. no embeddings/index/daemon.
+  ~$0.01–0.03 typical. agent --json. can1357/jegrep ≠
+  Bentlybro/jevgrep ≠ uehaj/jev-semgrep. No published
+  Harbor. Do not copy 79%.
+- **Archer-arch fidelity + measured calibration gap.**
+  jaredpalmer/kev family (Apache-2.0; **507★**; HEAD
+  `2e9069be`; README SHA `50f828ea`). Archer-arch
+  fidelity. kev family OOD 0.76–0.77 vs Jev 0.86.
+  block-causal isolation. pointer/readout CE-trained.
+  /v1/systemone drop-in. replica honesty. Do not rewrite
+  §45. Jev-omni owns the replica/code fold.
+
+Census not provided this hour except Archer tracker
+likes **51** (+1); lastModified UNCHANGED
+2026-09-19T18:37:18Z; Hub archerhume/4rcherhume HTTP
+**401**. Archer still NOT landed. Last remaining pin
+from §92: SemIf 1873; jevlike 969; TypeAR 10;
+Awesomejev 561/27007.
+
+Cross-repo addition: (lq) Decision Graph Protocol
+envelope; (lr) calibrated meaning-grep live tree;
+(ls) Archer-arch family OOD gap.

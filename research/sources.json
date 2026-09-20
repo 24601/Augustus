@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-19T23:17Z",
+  "retrieved": "2026-09-19T23:40Z",
   "sources": [
     {
       "kind": "docs",
@@ -3577,6 +3577,72 @@
       "title": "fastino/gliner2.5-small-v1",
       "url": "https://huggingface.co/fastino/gliner2.5-small-v1",
       "note": "Apache-2.0 Fastino GLiNER 2.5 small checkpoint. Pinned rev cab1bddfd30fda7b803a4691c41f90378a2d517a by shershah1024/gliner-native-runtime. Distinct from fastino/gliner2.5-base-v1 (compaction, notes.md §50). Do not copy Hub download into Augustus. notes.md §97."
+    },
+    {
+      "kind": "github",
+      "title": "numerous-com/dgp",
+      "url": "https://github.com/numerous-com/dgp",
+      "note": "Python MIT; 0 stars. Created 2026-09-19T22:45:07Z; pushed 2026-09-19T22:51:50Z. HEAD a9cb3c4. README SHA 655fc638. size 303. Decision Graph Protocol frame→assess→commit. app retains permissions/effects. Jev-first assessor-neutral. guarded commit / receipt/next frame. assessment batching. hard-gating DGP as safety theater. numerous-com/dgp ≠ TypeSafe official. 106 tests. Mock resolver ≠ Jev. Do not copy tokens/uv. notes.md §98."
+    },
+    {
+      "kind": "github",
+      "title": "numerous-com/dgp SPECIFICATION.md",
+      "url": "https://github.com/numerous-com/dgp/blob/main/SPECIFICATION.md",
+      "note": "Experimental DGP 0.1 (19 September 2026). Model is neither a security boundary nor the source of execution authority. Speculative assessments cannot authorize effects. notes.md §98."
+    },
+    {
+      "kind": "github",
+      "title": "numerous-com/dgp docs/TYPESAFE_JEV.md",
+      "url": "https://github.com/numerous-com/dgp/blob/main/docs/TYPESAFE_JEV.md",
+      "note": "Layer table: DGP application publishes evidence and offered decisions; Jev assessor evaluates; host retains authority. Not a live provider certification. notes.md §98."
+    },
+    {
+      "kind": "docs",
+      "title": "Numerous ApS",
+      "url": "https://numerous.com",
+      "note": "Homepage for numerous-com/dgp. Independent Numerous ApS project, not an official TypeSafe specification. notes.md §98."
+    },
+    {
+      "kind": "github",
+      "title": "can1357/jegrep",
+      "url": "https://github.com/can1357/jegrep",
+      "note": "Rust MIT; 13 stars this pass (watch 12). Created 2026-09-19T22:01:25Z. HEAD a280f14. README SHA 6f241390. size 511. v0.1.1. jegrep calibrated path+range Nouls. no embeddings/index/daemon. ~$0.01–0.03 typical. agent --json. can1357/jegrep ≠ Bentlybro/jevgrep ≠ uehaj/jev-semgrep. No published Harbor. Do not copy cargo/keys. notes.md §98."
+    },
+    {
+      "kind": "huggingface",
+      "title": "jaredpalmer/kev-4b",
+      "url": "https://huggingface.co/jaredpalmer/kev-4b",
+      "note": "kev family preview. Qwen3-4B-Base. transfer-v4 OOD 0.759/0.794 *theirs*. Archer-arch fidelity. Do not copy uv/serve. notes.md §98. Primary replica fold in Jev-omni."
+    },
+    {
+      "kind": "huggingface",
+      "title": "jaredpalmer/kev-8b",
+      "url": "https://huggingface.co/jaredpalmer/kev-8b",
+      "note": "kev family preview. Qwen3-8B-Base. transfer-v4 OOD 0.774/0.799; Brier 0.339 vs Jev 0.211 *theirs*. kev family OOD 0.76–0.77 vs Jev 0.86. replica honesty. notes.md §98."
+    },
+    {
+      "kind": "huggingface",
+      "title": "jaredpalmer/kev-0.6b",
+      "url": "https://huggingface.co/jaredpalmer/kev-0.6b",
+      "note": "kev family preview. Qwen3-0.6B-Base. Family table *theirs*. Do not rewrite notes.md §45. notes.md §98."
+    },
+    {
+      "kind": "huggingface",
+      "title": "jaredpalmer/kev collection",
+      "url": "https://huggingface.co/collections/jaredpalmer/kev-6aad9d0ea49f2589665e07cd",
+      "note": "Hub collection for kev family checkpoints. notes.md §98."
+    },
+    {
+      "kind": "huggingface",
+      "title": "jaredpalmer/kev-suites",
+      "url": "https://huggingface.co/datasets/jaredpalmer/kev-suites",
+      "note": "Frozen checksummed eval suites mirror. transfer-v4 OOD. notes.md §98."
+    },
+    {
+      "kind": "huggingface",
+      "title": "archerhume/4rcherhume",
+      "url": "https://huggingface.co/archerhume/4rcherhume",
+      "note": "Archer Hume open-weight still NOT landed. HTTP 401 this pass (empty Hub). Tracker likes 51; lastModified UNCHANGED 2026-09-19T18:37:18Z. Do not treat kev-8b or Qwen3.8-27B as the drop. notes.md §98."
     }
   ]
 }

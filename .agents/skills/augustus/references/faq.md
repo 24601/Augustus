@@ -2814,3 +2814,25 @@ No, no, and no. default threshold 0.1 still soft. README fixture is a demo. No p
 ## File it as extractive keep/drop of held candidates? Call it composition position 4 Selector?
 
 No, and no. schema→spans locate. Position 10 discretizer/encoder, not position 4 Selector of F, not keep/drop of offsets code already holds. `notes.md` §97.
+
+Unique fragments (consecutive): Decision Graph Protocol frame→assess→commit; app retains permissions/effects; Jev-first assessor-neutral; guarded commit / receipt/next frame; assessment batching; hard-gating DGP as safety theater; numerous-com/dgp ≠ TypeSafe official; jegrep calibrated path+range Nouls; no embeddings/index/daemon; ~$0.01–0.03 typical; agent --json; can1357/jegrep ≠ Bentlybro/jevgrep ≠ uehaj/jev-semgrep; Archer-arch fidelity; kev family OOD 0.76–0.77 vs Jev 0.86; block-causal isolation; pointer/readout CE-trained; /v1/systemone drop-in; replica honesty
+
+## Is numerous-com/dgp an official TypeSafe spec? Does an assessment p grant an effect? Is a receipt proof the decision was right?
+
+No, no, and no. Decision Graph Protocol frame→assess→commit. app retains permissions/effects. Jev-first assessor-neutral. guarded commit / receipt/next frame. assessment batching. A model is neither a security boundary nor the source of execution authority (*theirs*). Speculative assessments cannot authorize effects. numerous-com/dgp ≠ TypeSafe official. **≠** waymode **≠** ctmx/openrouter-jev-mcp Decision-as-Plugin **≠** petercr/jev-orchestrator **≠** AgentGhost. ThreadDesk mocks ≠ live Jev. 106 tests are sensors, not a Harbor quality headline. Python MIT; **0★**. `notes.md` §98.
+
+## Hard-gate DGP as a safety proof / collapse ThreadDesk mocks into live Jev quality / copy mock tokens as a recipe?
+
+No, no, and no. hard-gating DGP as safety theater. Treating a typed assessment p as permission, or the receipt as a proof the decision was *right*, is the same theater as jev-gate §79. Soft Noul ≠ hard safety. Do not copy `DGP_AGENT_TOKEN` / `uv run` / keys. `notes.md` §98.
+
+## Is can1357/jegrep Bentlybro/jevgrep? Is it uehaj/jev-semgrep? Paste jevgrep 79% onto jegrep?
+
+No, no, and no. can1357/jegrep ≠ Bentlybro/jevgrep ≠ uehaj/jev-semgrep. jegrep calibrated path+range Nouls. no embeddings/index/daemon. ~$0.01–0.03 typical. agent --json. Rust MIT; **13★** this pass (watch ★12). No published Harbor needle/noise table. Ranking fail-open. **≠** JevFind **≠** quarry **≠** jevex. `notes.md` §98.
+
+## Hard-gate 0.4/0.2 as “the concept is absent”? Paste $0.01–0.03 as a class ceiling? Copy cargo install / OpenRouter keys?
+
+No, no, and no. Thresholds are sensors. Live tree means no stale index; it also means you pay per search. Soft Noul ≠ hard safety. Do not copy `cargo install` / `OPENROUTER_API_KEY` / `TYPESAFE_API_KEY` / `~/.env`. `notes.md` §98.
+
+## Is kev OOD 0.76 Jev-equivalent? Does isolation 4e-6 prove kev = Jev? Is `/v1/systemone` wire a calibrated Noul? Did Archer land?
+
+No, no, no, and no. Archer-arch fidelity. kev family OOD 0.76–0.77 vs Jev 0.86. block-causal isolation. pointer/readout CE-trained. /v1/systemone drop-in. replica honesty. Mechanism tests falsify “questions leak”; they do not prove identity. Do not rewrite §45. Jev-omni owns the replica/code fold. Archer still **NOT landed** (tracker likes **51**; lastModified UNCHANGED 2026-09-19T18:37:18Z; Hub `archerhume/4rcherhume` HTTP **401**). Do not treat kev-8b or Qwen3.8-27B as the 27B drop. Apache-2.0; **507★**. `notes.md` §98.

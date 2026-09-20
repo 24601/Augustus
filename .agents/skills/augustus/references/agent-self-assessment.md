@@ -321,6 +321,17 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   [indiejoseph/opencode-jev-pruner](https://github.com/indiejoseph/opencode-jev-pruner)
   — `tool.execute.after` on `bash`; jev-zen / jev-1.13-free;
   zen-chat ≠ Noul; hook fail-open (`notes.md` §96).
+  **Decision Graph Protocol envelope:**
+  [dgp](https://github.com/numerous-com/dgp) —
+  Decision Graph Protocol frame→assess→commit.
+  app retains permissions/effects.
+  Jev-first assessor-neutral.
+  guarded commit / receipt/next frame.
+  assessment batching.
+  Commit fail-closed in the application; assessment
+  is a sensor. hard-gating DGP as safety theater.
+  numerous-com/dgp ≠ TypeSafe official
+  (`notes.md` §98).
   Session-ledger cousin:
   [carryforward](https://github.com/Dharundp6/jev-carryforward) —
   verbatim JSONL; Jev scores which facts are still live; constraints
@@ -413,7 +424,12 @@ relying: foreman, pi-jev, pi-warden, winnow, fast-jev-compaction, jev-judgment.
   to original output (`notes.md` §53). OpenCode host-port same
   polarity, hook fail-open:
   [indiejoseph/opencode-jev-pruner](https://github.com/indiejoseph/opencode-jev-pruner)
-  (`notes.md` §96). Tool *execution* is the
+  (`notes.md` §96). Protocol envelope: commit
+  fail-closed, assessment is a sensor:
+  [dgp](https://github.com/numerous-com/dgp)
+  Decision Graph Protocol frame→assess→commit;
+  app retains permissions/effects; hard-gating DGP
+  as safety theater (`notes.md` §98). Tool *execution* is the
   other polarity: [toolgate](https://github.com/fdemir/toolgate)
   stops on block / review-without-approval / guard error
   (`notes.md` §55). Capability kernel

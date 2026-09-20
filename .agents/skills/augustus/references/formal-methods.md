@@ -802,6 +802,29 @@ spans as Choice/Score/Noul, filing it as keep/drop of
 held candidates or as position 4 Selector, or inventing
 ANE Harbor is the same theater.
 
+1740 envelopes (`notes.md` §98), still outside the extras
+template: Decision Graph Protocol frame→assess→commit;
+app retains permissions/effects; Jev-first
+assessor-neutral; guarded commit / receipt/next frame;
+assessment batching; hard-gating DGP as safety theater;
+numerous-com/dgp ≠ TypeSafe official; jegrep calibrated
+path+range Nouls; no embeddings/index/daemon;
+~$0.01–0.03 typical; agent --json;
+can1357/jegrep ≠ Bentlybro/jevgrep ≠ uehaj/jev-semgrep;
+Archer-arch fidelity; kev family OOD 0.76–0.77 vs Jev
+0.86; block-causal isolation; pointer/readout
+CE-trained; /v1/systemone drop-in; replica honesty.
+Soft Noul ≠ hard safety: assessment p / mock outcomes /
+106 tests / 0.4/0.2 / $0.01–0.03 / 0.76 / 0.77 / 0.86
+/ ECE ~0.1 / 0.62 rule-pairs are **sensors**. A receipt
+proves the *commit happened under the guards*, not that
+the assessor was correct. Hard-gating DGP as safety
+theater, hard-gating a miss as “the concept is absent,”
+or pasting OOD acc as “close enough to ship as Jev” is
+the same theater. rh-guard **does not own** these holes
+(protocol envelope / meaning-search ranking / replica
+honesty).
+
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a
 hybrid "verified by Noul" API.

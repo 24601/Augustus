@@ -1907,3 +1907,53 @@
 - notes.md §97; sources.json (596 sources, 593 unique URLs,
   retrieved 2026-09-19T23:17Z); findings.md batch #80.
   No wrapper.
+
+## 2026-09-19 ~23:40 UTC — hourly 1740 HIGH (~17:40 Boise)
+- Docs-only on a **fresh PR off main**. Never reopen
+  merged #7 / **#8** / **#9** / **#10** / **#12** /
+  **#13** / **#14** / **#15**. Do **not** re-fold §93 /
+  §94 / §95 / §96 / §97. `notes.md` §98. Skip Archer
+  rewrite. Do **not** re-fold 1639 / gliner-native-runtime
+  / 1541. Hunches labeled. No wrapper. No invented
+  metrics. Quote READMEs. Soft Noul ≠ hard safety.
+  0★ HIGH still gets a real card. Not a Jev skill
+  dump. Backend-agnostic categorization/scoring/
+  decision class. Augustus owns placement (rh-guard
+  does not own protocol envelope / meaning-search
+  ranking / replica honesty).
+- Folded how-to-apply: Decision Graph Protocol
+  (numerous-com/dgp; Decision Graph Protocol
+  frame→assess→commit; app retains permissions/effects;
+  Jev-first assessor-neutral; guarded commit /
+  receipt/next frame; assessment batching; hard-gating
+  DGP as safety theater; numerous-com/dgp ≠ TypeSafe
+  official). Calibrated meaning-grep (can1357/jegrep;
+  jegrep calibrated path+range Nouls; no
+  embeddings/index/daemon; ~$0.01–0.03 typical; agent
+  --json; can1357/jegrep ≠ Bentlybro/jevgrep ≠
+  uehaj/jev-semgrep). Archer-arch fidelity + measured
+  calibration gap (jaredpalmer/kev family; Archer-arch
+  fidelity; kev family OOD 0.76–0.77 vs Jev 0.86;
+  block-causal isolation; pointer/readout CE-trained;
+  /v1/systemone drop-in; replica honesty; do not
+  rewrite §45).
+- Formal compose: a Noul is a SENSOR. Hard-gating DGP
+  as safety theater, hard-gating a miss as “the concept
+  is absent,” or pasting OOD acc as “close enough to
+  ship as Jev” is soundness theater. Soft Noul ≠ hard
+  safety.
+- Census not provided this hour except Archer tracker
+  likes **51** (+1 vs last pin **50**); lastModified
+  UNCHANGED 2026-09-19T18:37:18Z; Hub
+  archerhume/4rcherhume HTTP **401**. Archer still NOT
+  landed. Last remaining pin from §92: SemIf 1873;
+  jevlike 969; TypeAR 10; Awesomejev 561/27007.
+- Cards: SKILL.md, mixed-architecture fail table +
+  gallery, faq, mental-models, judgment-class,
+  validation, applied-mappings, mappings, toolbox,
+  composition-algebra items 94–96, question-design,
+  methods-catalog, formal-methods, agent-self-assessment,
+  ecosystem, CHANGELOG, README.
+- notes.md §98; sources.json (607 sources, 604 unique URLs,
+  retrieved 2026-09-19T23:40Z); findings.md batch #81.
+  No wrapper.

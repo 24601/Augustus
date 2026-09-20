@@ -1559,6 +1559,42 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   this hour** (not re-derived). Archer still NOT landed.
   Do not copy `swift build` / Git LFS / Hub weights.
   No wrapper. No invented metrics.
+- Hourly 1740 HIGH (`research/notes.md` §98): **Skip
+  Archer rewrite.** Docs-only on a **fresh PR off main**.
+  Never reopen merged #7–**#15**. Do **not** re-fold 1639
+  / §96 / gliner-native-runtime / §97 / 1541 / §95. How-to-apply
+  / mental models / architecture / Harbor-jevals / toolbelt —
+  not a thin Jev skill dump. Backend-agnostic
+  categorization/scoring/decision class. Formal methods
+  compose with scoring; a Noul is a SENSOR; hard-gating DGP
+  as safety theater, hard-gating 0.4/0.2 as “concept absent,”
+  or pasting kev OOD 0.76 as Jev-equivalent is soundness
+  theater. Three HIGH clusters: **Decision Graph Protocol
+  envelope**
+  ([numerous-com/dgp](https://github.com/numerous-com/dgp)
+  Decision Graph Protocol frame→assess→commit; app retains
+  permissions/effects; Jev-first assessor-neutral; guarded
+  commit / receipt/next frame; assessment batching;
+  numerous-com/dgp ≠ TypeSafe official; Python MIT; **0★**;
+  HEAD `a9cb3c4`; README SHA `655fc638`); **calibrated
+  meaning-grep over a live tree**
+  ([can1357/jegrep](https://github.com/can1357/jegrep)
+  jegrep calibrated path+range Nouls; no
+  embeddings/index/daemon; ~$0.01–0.03 typical; agent --json;
+  can1357/jegrep ≠ Bentlybro/jevgrep ≠ uehaj/jev-semgrep;
+  Rust MIT; **13★**; HEAD `a280f14`; README SHA `6f241390`);
+  **Archer-arch fidelity + measured calibration gap**
+  ([jaredpalmer/kev](https://github.com/jaredpalmer/kev)
+  Archer-arch fidelity; kev family OOD 0.76–0.77 vs Jev 0.86;
+  block-causal isolation; pointer/readout CE-trained;
+  /v1/systemone drop-in; replica honesty; Apache-2.0; **507★**;
+  do not rewrite §45; Jev-omni owns the replica fold). Soft
+  Noul ≠ hard safety. 0★ HIGH still got a real card. Census
+  **not provided this hour** except Archer tracker likes
+  **51** (+1); lastModified UNCHANGED 2026-09-19T18:37:18Z;
+  Hub `archerhume/4rcherhume` HTTP **401**. Archer still NOT
+  landed. Do not copy keys / `uv` / `cargo` / `.env`. No
+  wrapper. No invented metrics.
 - Effect-oriented loops (`notes.md` §28, `mappings.md` §19): Ward's
   ZIO client keeps Jev as the outer Choice and the handler as the
   effect. Not Effect.ts. GLiNER author: GLiNER2 "like jev" is GLiGuard

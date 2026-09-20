@@ -360,6 +360,15 @@ Distinct from jevgrep (file/chunk) and jev-combinators
 (metaphor). Precision 0.94 / recall 0.98 *theirs* (not
 Harbor). **51★** ephemeral. LICENSE MIT (GitHub
 NOASSERTION). `notes.md` §61, §86.
+**Calibrated meaning-grep over a live tree (Empirical as
+README architecture + economics, 2026-09-19 ~17:40):**
+[jegrep](https://github.com/can1357/jegrep) — absolute
+yes/no per path + line range. jegrep calibrated
+path+range Nouls. no embeddings/index/daemon.
+~$0.01–0.03 typical. agent --json. Ranking fail-open.
+No published Harbor. can1357/jegrep ≠ Bentlybro/jevgrep
+≠ uehaj/jev-semgrep. Do not copy 79% / `cargo`
+(`notes.md` §98).
 **Pointer path-then-window (Empirical as README,
 2026-09-19 ~16:52):**
 [JevFind](https://github.com/Peu77/JevFind) — score paths,
@@ -430,6 +439,15 @@ kazuhideoki/jev-search **≠** superagents-lab/jev-search.
 Fetch to disk; Jev scores line ranges. Pointer, never
 paraphrase. 5 s fail-open. p&lt;0.5 dropped; top 3.
 **≠** savka777/jev-search. `notes.md` §95.
+**Calibrated meaning-grep VOI (Empirical as README
+economics; 2026-09-19 ~17:40):**
+[can1357/jegrep](https://github.com/can1357/jegrep)
+— pay per search over a live tree; no index to
+amortize. jegrep calibrated path+range Nouls.
+no embeddings/index/daemon. ~$0.01–0.03 typical.
+agent --json. Ranking fail-open. can1357/jegrep ≠
+Bentlybro/jevgrep ≠ uehaj/jev-semgrep. Do not copy
+79%. `notes.md` §98.
 
 ## 5. Hierarchy → bounded heuristic search
 
@@ -847,6 +865,16 @@ ha-conversation-jev Jev→Grok. dsh-jev can only gate.
 — pay Jev only for which *spans* to read; agent
 reads the file. quarry evidence projection.
 Fail-open 5 s. Score ≠ truth. `notes.md` §95.
+**Assessment-batching / live-tree search VOI (Empirical as
+README; 2026-09-19 ~17:40):**
+[numerous-com/dgp](https://github.com/numerous-com/dgp)
+— assessment batching: pay the assessor for many
+offered decisions on one immutable frame; commit
+is the expensive act. Decision Graph Protocol
+frame→assess→commit. Speculative assessments cannot
+authorize effects. [can1357/jegrep](https://github.com/can1357/jegrep)
+— ~$0.01–0.03 typical per search; no embeddings/index/daemon.
+agent --json. `notes.md` §98.
 **Beyond SWE (Hypothesis until you log
 act/outcome pairs):** full PDF vs abstract; customer call vs CRM fields
 that already fail a hard rule (credit limit is exact); blood test vs
@@ -1316,6 +1344,21 @@ an experiment. Mandatory/path rules beat Jev.
 Jev is SENSOR; blocklist is the exact remainder.
 README has no ASR/FPR. rh-guard owns.
 `notes.md` §95.
+**Decision Graph Protocol envelope (Empirical as README
++ spec; 2026-09-19 ~17:40):**
+[numerous-com/dgp](https://github.com/numerous-com/dgp)
+— Decision Graph Protocol frame→assess→commit.
+app retains permissions/effects.
+Jev-first assessor-neutral.
+guarded commit / receipt/next frame.
+assessment batching.
+The application owns state, permissions, guards, and
+execution. A model is neither a security boundary nor
+the source of execution authority (*theirs*).
+hard-gating DGP as safety theater.
+numerous-com/dgp ≠ TypeSafe official.
+rh-guard **does not own** this hole.
+Soft Noul ≠ hard safety. `notes.md` §98.
 **Authorship / jevtest-as-merge-seal (rh-guard owns the
 gate cousin; 2026-09-19 ~16:52):**
 [jev-authorship-check](https://github.com/webstercharly/jev-authorship-check)
@@ -1691,6 +1734,21 @@ same envelope on `tool.execute.after`; default
 `jev-zen` / `jev-1.13-free`; zen-chat ≠ Noul;
 keepScore >0.1 floor; hook fail-open (`notes.md` §96).
 
+**Named Decision Graph Protocol envelope (Empirical as README
++ spec, 2026-09-19 ~17:40):**
+[numerous-com/dgp](https://github.com/numerous-com/dgp)
+— the monitor is **application code** (freshness,
+authorization, idempotency, provenance, side-effect
+handling). Typed assessment may only record a judgment;
+commit is the guarded act. Decision Graph Protocol
+frame→assess→commit. app retains permissions/effects.
+Jev-first assessor-neutral. guarded commit /
+receipt/next frame. assessment batching.
+hard-gating DGP as safety theater.
+numerous-com/dgp ≠ TypeSafe official.
+Speculative assessments cannot authorize effects
+(`notes.md` §98).
+
 **Named computer-use envelope (Empirical as README / architecture,
 2026-09-18 ~16:56):**
 [gliner2-ultrafast](https://github.com/sahibzada-allahyar/gliner2-ultrafast)
@@ -2019,6 +2077,16 @@ comments, 2026-09-19 ~17:17):**
 policy; default 0.1 still soft; not a Noul;
 not keep/drop of held candidates; not position 4
 Selector (`notes.md` §97).
+**Decision Graph Protocol remainder after exact guards
+(Empirical as README + spec, 2026-09-19 ~17:40):**
+[numerous-com/dgp](https://github.com/numerous-com/dgp)
+— JSON Schema proves record structure; the spec owns
+freshness / authorization / idempotency; a structural
+validator cannot prove those. Assessment is the
+remainder sensor. Decision Graph Protocol
+frame→assess→commit. app retains permissions/effects.
+hard-gating DGP as safety theater.
+numerous-com/dgp ≠ TypeSafe official (`notes.md` §98).
 **Name the irreversible act (2026-09-18 ~16:48).** Wake *skip* is
 irreversible (the agent stays asleep) →
 [wakegate](https://github.com/shitianfang/wakegate) authorizes skip

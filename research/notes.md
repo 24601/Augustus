@@ -16994,3 +16994,442 @@ item 93; `question-design.md`;
 `methods-catalog.md`; `formal-methods.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
+
+## 98. Hourly 1740 HIGH (2026-09-19 ~17:40 Boise / ~23:40 UTC)
+
+Docs-only on a **fresh PR off main**
+(`cursor/hourly-1740-watch-c9aa`).
+**Never reopen merged** Augustus PR #7 / **#8** /
+**#9** / **#10** / **#12** / **#13** / **#14** /
+**#15**. After merged #15 (`51bc85d`, SIGNAL
+gliner-native-runtime / `notes.md` §97). Do **not**
+re-fold §93 / §94 / §95 / §96 / §97. Quote READMEs.
+Mark *theirs*. No invented metrics. Hunches labeled.
+No wrappers, `uv run` / `cargo install` / `npm` /
+`TYPESAFE_API_KEY` / `OPENROUTER_API_KEY` /
+`OPENAI_API_KEY` / `.env` as recipes. 0★ HIGH still
+gets a real card. Do **not** re-card §45 as a SWE
+tutorial. Primary kev replica/code fold lives in
+Jev-omni; Augustus owns judgment / architecture
+implications.
+
+Lane is Augustus: **mental models / architecture /
+Harbor-jevals / toolbelt**. Backend-agnostic
+categorization/scoring/decision class (Jev-like
+speed/econ), **not** a thin Jev-only dump. Design
+judgment, formal/semi-formal methods, decision
+theory, scoring class. Soft Noul ≠ hard safety.
+rh-guard **does not own** these holes (protocol
+envelope / meaning-search ranking / replica honesty).
+Augustus **owns placement**.
+
+Unique consecutive fragments (this hour):
+Decision Graph Protocol frame→assess→commit;
+app retains permissions/effects;
+Jev-first assessor-neutral;
+guarded commit / receipt/next frame;
+assessment batching;
+hard-gating DGP as safety theater;
+numerous-com/dgp ≠ TypeSafe official;
+jegrep calibrated path+range Nouls;
+no embeddings/index/daemon;
+~$0.01–0.03 typical;
+agent --json;
+can1357/jegrep ≠ Bentlybro/jevgrep ≠ uehaj/jev-semgrep;
+Archer-arch fidelity;
+kev family OOD 0.76–0.77 vs Jev 0.86;
+block-causal isolation;
+pointer/readout CE-trained;
+/v1/systemone drop-in;
+replica honesty.
+
+### How-to-apply (three HIGH clusters)
+
+1. **Decision Graph Protocol** — immutable frame of
+   evidence + offered decisions → typed assessment
+   (Jev-first, assessor-neutral) → guarded commit →
+   receipt / next frame. App code retains permissions
+   and effects. Protocol-level System One
+   orchestration, not a new head. Compose with
+   Jev-class judgment tools. Anti-pattern: hard-gating
+   a soft assessment as a safety proof.
+2. **Calibrated meaning-grep (Rust, live tree)** —
+   describe meaning; get absolute yes/no probabilities
+   per path + line range. No embeddings, no index, no
+   daemon. Agent `--json`. Economics + SDT metaphor
+   for Jev-class search over codebases.
+3. **Archer-arch fidelity + measured calibration
+   gap** (secondary) — kev family implements Hume’s
+   reconstruction (shared-state encode, block-causal
+   isolation, pointer/readout, CE-trained probs,
+   `/v1/systemone` drop-in). OOD vs Jev ~0.76–0.77 vs
+   0.86 *theirs*. Architecture confirmation ≠ Jev
+   identity. Replica honesty.
+
+### Cards
+
+1. **Decision Graph Protocol (primary)**
+
+   - **[`numerous-com/dgp`](https://github.com/numerous-com/dgp)**
+     (Python MIT; **0★**; created
+     2026-09-19T22:45:07Z; pushed 2026-09-19T22:51:50Z;
+     HEAD `a9cb3c4`; README SHA `655fc638`; GitHub
+     `size` 303; topics agent-protocol, ai-agents,
+     decision-based-agents, decision-graph-protocol,
+     jev, json-schema, python, typesafe-ai). GitHub
+     description *theirs*: “Decision Graph Protocol
+     (DGP) by Numerous ApS: open-source contracts for
+     decision-based AI agents, TypeSafe Jev
+     orchestration, guarded actions, and assessment
+     batching.” Homepage
+     [numerous.com](https://numerous.com). README
+     *theirs*: “Applications expose evidence, typed
+     decisions, and guarded actions; an agent assesses
+     the choices while application code retains
+     control of permissions and effects.” “DGP is
+     designed for **Jev-first orchestration**…
+     Its core is assessor-neutral: deterministic
+     resolvers, other models, and humans can use the
+     same decision contracts. This is an independent
+     Numerous ApS project, not an official TypeSafe
+     specification.”
+
+     Load-bearing loop (README *theirs*):
+
+     ```text
+     Read an immutable frame containing evidence and
+     currently offered decisions.
+     Produce a typed assessment, using Jev or another
+     eligible assessor.
+     Request a commit; the application checks current
+     state and authorization.
+     Inspect the receipt and fetch the next frame.
+     ```
+
+     Decision Graph Protocol frame→assess→commit.
+     app retains permissions/effects.
+     Jev-first assessor-neutral.
+     guarded commit / receipt/next frame.
+
+     **[SPECIFICATION.md](https://github.com/numerous-com/dgp/blob/main/SPECIFICATION.md)
+     *theirs* (experimental 0.1, 19 September 2026).**
+     “The protocol distinguishes an assessment from
+     an authorized effect. The application owns
+     state, permissions, guards, and execution. A
+     model is neither a security boundary nor the
+     source of execution authority.” “DGP 0.1 is not
+     a model inference API, a reasoning algorithm, an
+     optimizer, or a system for proving model answers
+     correct.” JSON Schema defines record structure;
+     the spec owns freshness, authorization,
+     idempotency, provenance, and side-effect
+     handling — “a structural validator cannot
+     prove” those. Speculative assessments “cannot
+     authorize effects.” Optional
+     `assessment-batching@0.1` / `coding-tools@0.1`
+     are schema/examples/selected tests, not
+     ThreadDesk runtime features. assessment
+     batching.
+
+     **[docs/TYPESAFE_JEV.md](https://github.com/numerous-com/dgp/blob/main/docs/TYPESAFE_JEV.md)
+     *theirs*.** Layer table: DGP application
+     publishes evidence and offered decisions and
+     enforces permissions/commits; Jev assessor
+     evaluates bounded questions; deterministic
+     controller binds results and selects the next
+     step; optional LLM produces a requested draft.
+     “The host retains authority regardless of the
+     assessor.” Provider contracts are
+     fixture-tested; “this repository does not claim
+     a live provider certification.”
+
+     **Included (README table *theirs*).** Protocol
+     core + optional profiles: finalized spec with
+     schemas and examples. ThreadDesk: runnable
+     local HTTP + browser UI + controller CLI;
+     simulated domain effects. Farm Energy
+     Calculator: specified design, **not** a running
+     simulator. GraphQL/MCP: contracts/mappings, no
+     runtime servers. Validation: **106** Python
+     tests (91 original + 15 harness-profile). Mock
+     demo is loopback-only; mock resolver is
+     deterministic fixture logic, **not** Jev; mock
+     assistant is canned text, **not** LLM.
+     “Nothing in this demo runs Git, launches real
+     tests, sends email, or controls hardware.”
+     Publication is **human-only**. Speculative
+     assessment records a judgment and stops — “It
+     does not branch the real world or run
+     speculative tools.” Image evidence: adapter
+     rejects required images because verified Jev
+     is text-only; protocol/UI may still carry
+     images; no silent captioning. Do not copy
+     `DGP_AGENT_TOKEN` / `uv run` /
+     `TYPESAFE_API_KEY` / `OPENAI_API_KEY`.
+
+     **Placement.** Protocol envelope around a
+     judgment-class assessor. Pillar: Leveson
+     sensor≠constraint + runtime-assurance sandwich
+     + EU (assessment is belief; commit is the act).
+     Hole: gate / route / gather (speculative
+     assess without commit). Family: TypeSafe Jev
+     first, **assessor-neutral** (deterministic /
+     other model / human on the same contracts).
+     Fail polarity: commit **fail-closed** in the
+     application (stale frame / unauthorized /
+     conflicting commit rejected); assessment is a
+     **sensor**. Eval path: 106 tests *theirs*
+     (schema, stale/expired frames, changed policy,
+     conflicting commits, speculative rejection,
+     human-only publication) — **not** a Harbor
+     quality headline. **Empirical** as README +
+     spec. **Hypothesis** that the envelope
+     transfers to *your* product surfaces.
+     hard-gating DGP as safety theater: treating a
+     typed assessment p as permission, or the
+     receipt as a proof the decision was *right*,
+     is the same theater as jev-gate §79.
+
+     **Name lock:** always write
+     **numerous-com/dgp**. numerous-com/dgp ≠
+     TypeSafe official. **≠** waymode host-owned
+     handlers **≠** ctmx/openrouter-jev-mcp
+     Decision-as-Plugin **≠** petercr/jev-orchestrator
+     **≠** AgentGhost wrap-as-execution. Soft Noul ≠
+     hard safety: assessment p / mock outcomes /
+     106 tests are **sensors**. A receipt proves
+     the *commit happened under the guards*, not
+     that the assessor was correct.
+
+2. **Calibrated meaning-grep over a live tree**
+
+   - **[`can1357/jegrep`](https://github.com/can1357/jegrep)**
+     (Rust MIT; **13★** this pass, watch ★12; 1
+     fork; created 2026-09-19T22:01:25Z; pushed
+     2026-09-19T22:16:43Z; HEAD `a280f14`; README
+     SHA `6f241390`; GitHub `size` 511; release
+     bump 0.1.1). GitHub description *theirs*:
+     “Semantic grep: find code by describing what
+     you're looking for, powered by Jev.” README
+     *theirs*: “Natural-language search that works
+     like `grep`. No embeddings, no index, no
+     daemon.” “**Calibrated:** Every path gets an
+     absolute yes/no probability, so thresholds
+     mean something and batches stay comparable.”
+     “**Precise:** Returns files *and* line ranges,
+     with original line numbers and merged adjacent
+     passages.” “A typical search over a few
+     thousand files runs **$0.01–0.03**.”
+     “**Agent-Ready:** `--json` output for scripts
+     and coding agents.” jegrep calibrated
+     path+range Nouls. no embeddings/index/daemon.
+     ~$0.01–0.03 typical. agent --json.
+
+     Strategies (README table *theirs*; pluggable
+     `src/strategies/`): `cascade` (default;
+     sketch-routed global budget of verified
+     full-source passages), `baseline`, `beam`
+     (per-folder Choice + gate Noul), `sniff`,
+     `budget`, `deep`, paged-grep family, inline
+     family, `window`, `hybrid-window`. Same
+     primitives: lazily listed `Tree`, worker
+     `Pool`, question builders, `jev::Client`.
+     Default thresholds `-t 0.4,0.2` (lower across
+     rounds). `--max-batch` ≤ **255** (Choice
+     option ceiling). `--bytes` 32768 content
+     check; `--ranges` 16 heatmap ranges.
+     Respects `.gitignore`; no config file. Jev
+     billed $0.042/MTok input, output free
+     (vendor figure already in §1 — do not paste
+     as a new Harbor). OpenRouter preferred when
+     its key exists; failover on 401/402/403/408/
+     429/5xx. Do not copy `cargo install` /
+     `OPENROUTER_API_KEY` / `TYPESAFE_API_KEY` /
+     `~/.env`.
+
+     **Placement.** SDT / cascade IR over a live
+     tree: describe the meaning, threshold
+     calibrated Nouls, return pointers. Ranking
+     **fail-open** (false drop loses the file;
+     keyword still wins exact strings — same
+     polarity as jevgrep). Hole: rank / gather.
+     Family: TypeSafe Jev Noul (+ Choice in beam).
+     Eval path: README names a “benchmark harness
+     for regressions”; **no published Harbor
+     needle/noise table this pass** — do **not**
+     invent one, and do **not** copy jevgrep 79%
+     top-5 onto this binary. **Empirical** as
+     README architecture + economics. **Hypothesis**
+     that cascade τ transfers to *your* repo mix.
+
+     **Name lock:** always write
+     **can1357/jegrep**. can1357/jegrep ≠
+     Bentlybro/jevgrep ≠ uehaj/jev-semgrep.
+     **≠** JevFind path-then-window **≠**
+     jackboykin/quarry evidence projection **≠**
+     kazuhideoki/jev-search **≠** jevex.
+     Soft Noul ≠ hard safety: 0.4/0.2 / cascade
+     cutoff 0.45 / $0.01–0.03 are **sensors**.
+     Hard-gating a miss as “the concept is absent”
+     is theater. Live tree means no stale index;
+     it also means you pay per search.
+
+3. **Archer-arch fidelity + measured calibration
+   gap** (secondary; not a thin SWE tutorial)
+
+   - **[`jaredpalmer/kev`](https://github.com/jaredpalmer/kev)**
+     (Python Apache-2.0; **507★** this pass, §45
+     delta was 61★; 31 forks; created
+     2026-09-17T20:49:39Z; pushed 2026-09-19T23:46:08Z;
+     HEAD `2e9069be`; README SHA `50f828ea`; GitHub
+     `size` 22446). Do **not** rewrite §45. Do
+     **not** copy `uv run` / ports / Modal / train
+     flags. Primary replica/code fold lives in
+     Jev-omni. This card is the **judgment /
+     architecture** implication.
+
+     README *theirs* (family, not the 0.5B-only
+     note): “The architecture follows the
+     reconstruction of TypeSafe's Jev in
+     [Jev's Architecture Unmasked](https://archerhume.com/posts/jevs-architecture-unmasked).”
+     Shared state encode once; questions as
+     isolated branches under a **block-causal**
+     mask; pointer head scores option hidden
+     states against the `<decide>` token;
+     softmax; **cross-entropy** on labelled
+     outcomes — “the probabilities are learned
+     rather than generated as text.” Speaks
+     `POST /v1/systemone`; official
+     `typesafe-sdk` with a `base_url` change.
+     Isolation exact: packed vs separate agree
+     to **4e-6** (4B/8B reproduce; checked on
+     every trial). Archer-arch fidelity.
+     block-causal isolation. pointer/readout
+     CE-trained. /v1/systemone drop-in.
+
+     **Family, frozen `transfer-v4` dev (764
+     records) *theirs*:** kev-4b acc **0.759**,
+     kev-8b **0.774**, Jev **0.857**. Highlights
+     round that to “Out of domain: kev-4b 0.76,
+     kev-8b 0.77, Jev 0.86.” kev family OOD
+     0.76–0.77 vs Jev 0.86. Brier kev-8b
+     **0.339** vs Jev **0.211**; confident errors
+     (p≥0.9 and wrong) kev-8b **8.2%** vs Jev
+     **3.7%**; held-out policy rules both
+     siblings correct kev-4b **0.62** / kev-8b
+     **0.61** vs Jev **0.86**. Previews fail the
+     predeclared release screen (both siblings
+     ≥70%; best **0.67**). Locked-test OOD:
+     kev-4b **0.794** / kev-8b **0.799** (single
+     read). Capacity dominates OOD *theirs*:
+     0.6B→4B **+14–19 pp**; 4B→8B **+1.5–2 pp**.
+     Fine-tuning erodes base capability; lr
+     **5e-5** recovers most of it. “Calibration
+     is in-distribution… out-of-domain
+     probabilities are usable but not calibrated
+     (ECE ~0.1).” “Jev is the hosted reference
+     product; its training exposure to these
+     public datasets is unknown, so this is a
+     shared-item comparison, not a controlled
+     ablation.” replica honesty.
+
+     **Mental model.** Hume’s reconstruction is
+     now a *runnable family*, not a blog diagram:
+     isolation/packing probes still pass at 4e-6
+     (architecture confirmation). The **gap that
+     matters for placement** is OOD calibration
+     and held-out rule reasoning, not wire shape.
+     A `/v1/systemone` drop-in is not a Noul.
+     Mechanism tests falsify “questions leak”;
+     they do not prove kev = Jev. Use as
+     laptop-local development/eval and as a
+     jevals/Harbor bake-off candidate; do not
+     substitute for hosted Jev on knowledge /
+     paraphrase / date-arithmetic / product-shaped
+     questions without *your* labels. **Empirical**
+     as README family table. **Hypothesis** on
+     *your* workflow.
+
+     **Name lock:** always write
+     **jaredpalmer/kev**. **≠**
+     Kevthetech143/super-jev **≠** TypeAR /
+     pcdServer (decode) **≠** encoder open-jev
+     **≠** openjev-lm teacher-copy **≠**
+     githubnext/localjev prompted JSON **≠**
+     webNeat/llama-jev softmax **≠** Archer 27B
+     Watch. Soft Noul ≠ hard safety: 0.76 / 0.77
+     / 0.86 / ECE ~0.1 / 0.62 rule-pairs are
+     **sensors**. Pasting OOD acc as “close
+     enough to ship as Jev” is theater.
+
+### Archer drop (brief; not a rewrite)
+
+Archer Hume open-weight still **NOT landed**.
+Tracker likes **51** (+1 vs last pin **50**);
+`lastModified` **UNCHANGED**
+2026-09-19T18:37:18Z (user-provided; not
+re-derived). Hub
+[`archerhume/4rcherhume`](https://huggingface.co/archerhume/4rcherhume)
+empty this pass (HTTP **401** on the Hub card /
+API). Do not treat Qwen3.8-27B or kev-8b as the
+drop. Census otherwise **not provided this
+hour** (not re-derived). Last remaining pin from
+§92: SemIf 1873; jevlike 969; TypeAR 10;
+Awesomejev 561/27007.
+
+### Theater (do not)
+
+Treat DGP as an official TypeSafe spec; treat an
+assessment p as a grant; treat a receipt as
+proof the decision was right; copy mock tokens /
+`uv run` as a recipe; collapse ThreadDesk mocks
+into live Jev quality; collapse jegrep into
+jevgrep or jev-semgrep; paste jevgrep 79% onto
+jegrep; hard-gate 0.4/0.2 as “concept absent”;
+paste $0.01–0.03 as a class ceiling; copy
+`cargo install` / OpenRouter keys; rewrite §45
+as a train/serve how-to; treat kev OOD 0.76 as
+Jev-equivalent; treat isolation 4e-6 as identity
+with Jev; treat `/v1/systemone` wire as a
+calibrated Noul; treat Archer as landed; treat
+kev-8b or Qwen3.8-27B as the 27B drop.
+
+### Census (not re-derived)
+
+Census **not provided this hour** except the
+Archer tracker note above. Archer still **NOT
+landed**. Do not invent SemIf / jevlike /
+Awesomejev deltas.
+
+### Not
+
+Not a TypeSafe how-to. Not a DGP/ThreadDesk
+tutorial. Not a jegrep install guide. Not a kev
+training recipe (Jev-omni owns the replica
+fold). Not wrappers. Do not copy keys / `uv` /
+`cargo` / `.env`. Do not re-fold 1639 / §96 /
+gliner-native-runtime / §97 / 1541 / §95. Do
+not re-card Bentlybro/jevgrep or uehaj/jev-semgrep
+as this binary. Do not reply into finished
+agents.
+
+### Curated status
+
+1740 HIGH **folded** (3 HIGH: DGP protocol;
+jegrep meaning-search; kev family architecture
+gap). §97 / §96 / §95 **not re-carded**. Archer
+still **NOT landed** (likes 51, lastModified
+unchanged). Census not re-derived. 0★ HIGH still
+got a real card.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`judgment-class.md`; `validation.md`;
+`applied-mappings.md`; `mappings.md`;
+`toolbox-mapping.md`; `composition-algebra.md`
+items 94–96; `question-design.md`;
+`methods-catalog.md`; `formal-methods.md`;
+`agent-self-assessment.md`. Hunches labeled.
+No wrapper.
