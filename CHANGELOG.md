@@ -118,7 +118,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   `a9d3294f`; README SHA `9a64f473`). Soft Noul ≠ hard
   safety. 0★ HIGH still got a real card (all twelve
   **0★**). Census **live REST pulse** (independent review
-  relock after `0558f7d`): SemIf **2067★** (+20 vs §104 **2047**); jevlike
+  relock after `0558f7d`): SemIf **2068★** (+21 vs §104 **2047**); jevlike
   **1022★** (+4 vs §104 **1018**); TypeAR **12★** **flat**.
   Tracker likes **58** (+2 vs §104 **56**); lastModified
   `2026-09-20T04:29:16Z` **UNCHANGED** vs §104. Hub

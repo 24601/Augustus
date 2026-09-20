@@ -3119,7 +3119,7 @@ archerhume/4rcherhume HTTP **401**. Tracker likes **58**
 (+2 vs §104 **56**); lastModified
 `2026-09-20T04:29:16Z` **UNCHANGED** vs §104. Laya Hub likes **704**.
 Blackwood Hub likes **2** gated manual — user census
-absent from tracker. Live REST: SemIf **2067★**; jevlike
+absent from tracker. Live REST: SemIf **2068★**; jevlike
 **1022★**; TypeAR **12★** flat. AnotiaWang/awesome-jev
 **92★** ≠ Awesomejev 561/27007 ≠ yibie/awesome-jev
 **449★**. Qwen3.8-27B ≠ Archer
