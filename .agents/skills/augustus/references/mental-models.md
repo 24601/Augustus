@@ -1406,6 +1406,96 @@ Formal methods **compose** with scoring. A Noul is a
 SENSOR. The interpreter / lease policy / schema
 envelope / AST matcher is exact work.
 
+## Apply 2041 (`notes.md` §101)
+
+Same pillars, nine HIGH clusters (resume-screening
+bias audit PRIMARY; MCDA panel + code-owned
+pass|review|block; EU cost-aware routing; frozen-protocol
+class bake-off; VOI admission; Leveson sensor≠authority
+control plane; scoring economics / live MCDA;
+pre-registered calibration/safety science; class
+infrastructure SDK). Do **not** re-fold 1943 / §100 /
+1843 / §99 / 1740 / §98 / 1639 / §96 /
+gliner-native-runtime / §97 / 1541 / §95 / jev-align
+*mechanism* / §93. Fresh PR; never reopen merged
+#7–**#18**. Skip Archer rewrite (still **NOT landed**;
+likes **54** vs §100 pin **51**; lastModified
+**CHANGED** `2026-09-20T02:59:13Z`). Quote live
+REST over watch claims. `invented_signal: false`.
+0★ HIGH still gets a real card. rh-guard owns
+injection/steer. Augustus owns placement.
+
+Unique consecutive fragments:
+resume-screening bias audit methodology; name×resume factorial independent Nouls; callback determined by resume quality; mean-probability name gaps operationally negligible; natemoo-re/bias-bench ≠ BBQ; Plan/PRD panel → code-owned pass|review|block; cheerleading out of scope; austindixson/planalyzer ≠ single-goodness Noul; cost-aware multi-model routing/escalation; decide vs do; successful-task cost; cannacre8ive/switchboard-ai ≠ ha-switchboard ≠ hermes-switchyard; frozen-protocol zero-shot bench; TypeSafe Jev vs PrismNLI vs Laya; contamination caveat; elcronos/jev-vs-open-decision-models ≠ JevBench ≠ DMB; context-window admission control; VOI gate which tokens are worth the expensive model; fail polarity per lens; on small inputs lenses lose money; cvsgireesh/jevusher ≠ jev-sift ≠ winnow; typed decision control plane; receipt ≠ authorization; historical-v0 zero retained cases; MokiMeow/jev-fabric ≠ jev-forge ≠ dgp; live 15-dim typed rubric re-score per pause; scoring economics exemplar; OpenJev/Codiv ≠ TypeSafe hosted; jose-troche/live-rubric ~$0.000004 desc / ~$0.000006 README; adversarial pre-registered Jev eval; 28 predictions before data; 123,805 requests; confidence does not track ignorance; polite injection 65% / crude 0%; willkelly/jev-evaluation ≠ jevals ≠ jev-baselines-eval; provider-neutral Elixir/BEAM Noul/Choice/Score SDK; class infrastructure; nshkrdotcom/system_one_sdk ≠ typesafe_sdk ≠ dannote/jev;
+
+1. **Resume-screening bias audit methodology** (PRIMARY) —
+   name×resume factorial independent Nouls.
+   callback determined by resume quality.
+   mean-probability name gaps operationally negligible.
+   natemoo-re/bias-bench ≠ BBQ.
+2. **MCDA panel + code-owned aggregation** —
+   Plan/PRD panel → code-owned pass|review|block.
+   cheerleading out of scope.
+   austindixson/planalyzer ≠ single-goodness Noul.
+3. **EU cost-aware routing / escalation** —
+   cost-aware multi-model routing/escalation.
+   decide vs do.
+   successful-task cost.
+   cannacre8ive/switchboard-ai ≠ ha-switchboard ≠
+   hermes-switchyard.
+4. **Frozen-protocol class bake-off** —
+   frozen-protocol zero-shot bench.
+   TypeSafe Jev vs PrismNLI vs Laya.
+   contamination caveat.
+   elcronos/jev-vs-open-decision-models ≠ JevBench ≠ DMB.
+5. **VOI admission control** —
+   context-window admission control.
+   VOI gate which tokens are worth the expensive model.
+   fail polarity per lens.
+   on small inputs lenses lose money.
+   cvsgireesh/jevusher ≠ jev-sift ≠ winnow.
+6. **Leveson sensor ≠ authority** —
+   typed decision control plane.
+   receipt ≠ authorization.
+   historical-v0 zero retained cases.
+   MokiMeow/jev-fabric ≠ jev-forge ≠ dgp.
+7. **Scoring economics / live MCDA** —
+   live 15-dim typed rubric re-score per pause.
+   scoring economics exemplar.
+   OpenJev/Codiv ≠ TypeSafe hosted.
+   jose-troche/live-rubric ~$0.000004 desc /
+   ~$0.000006 README.
+8. **Pre-registered calibration/safety science** —
+   adversarial pre-registered Jev eval.
+   28 predictions before data.
+   123,805 requests.
+   confidence does not track ignorance.
+   polite injection 65% / crude 0%.
+   willkelly/jev-evaluation ≠ jevals ≠
+   jev-baselines-eval. rh-guard owns injection.
+9. **Class infrastructure SDK** —
+   provider-neutral Elixir/BEAM Noul/Choice/Score SDK.
+   class infrastructure.
+   nshkrdotcom/system_one_sdk ≠ typesafe_sdk ≠
+   dannote/jev.
+
+Soft Noul ≠ hard safety. 25.0% / 0.72 / V0.4 / 0.587 /
+0.725 / 6,866-to-keep-out-143 / zero retained cases /
+$0.000004 / $0.000006 / ECE 0.075 / 47% / 65% are
+**sensors**. Treating a zero binary name gap as a
+fairness certificate, letting Jev emit the verdict
+string, pasting PrismNLI's lead without the
+contamination caveat, treating J7 pass as safe to
+obey, treating a receipt as authorization, hard-gating
+confidence ≥0.95, or treating an unofficial SDK as
+TypeSafe official is the same theater as jev-gate §79.
+
+Formal methods **compose** with scoring. A Noul is a
+SENSOR. The factorial design / panel aggregation /
+routing policy / PROTOCOL / fail polarity / Fabric
+packs / rubric compiler / pre-registered plan / OTP
+client is exact work.
+
 ## Decision-design extras (any domain)
 
 ```text

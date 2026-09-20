@@ -977,6 +977,62 @@ Jev IS the if-statement; judgments/probabilities drive branches; text model only
      direwolfiy/JevPi ≠ standardagents/jevpilot ≠ pi-jev-control.
      Full cards: `agent-self-assessment.md`, `faq.md`.
 
-Hourly 1943 items 102–110 (`notes.md` §100). Do **not**
-re-fold 1843 items 97–101 / 1740 items 94–96 / SIGNAL §93
-mechanism. Soft Noul ≠ hard safety.
+resume-screening bias audit methodology; name×resume factorial independent Nouls; callback determined by resume quality; mean-probability name gaps operationally negligible; natemoo-re/bias-bench ≠ BBQ; Plan/PRD panel → code-owned pass|review|block; cheerleading out of scope; austindixson/planalyzer ≠ single-goodness Noul; cost-aware multi-model routing/escalation; decide vs do; successful-task cost; cannacre8ive/switchboard-ai ≠ ha-switchboard ≠ hermes-switchyard; frozen-protocol zero-shot bench; TypeSafe Jev vs PrismNLI vs Laya; contamination caveat; elcronos/jev-vs-open-decision-models ≠ JevBench ≠ DMB; context-window admission control; VOI gate which tokens are worth the expensive model; fail polarity per lens; on small inputs lenses lose money; cvsgireesh/jevusher ≠ jev-sift ≠ winnow; typed decision control plane; receipt ≠ authorization; historical-v0 zero retained cases; MokiMeow/jev-fabric ≠ jev-forge ≠ dgp; live 15-dim typed rubric re-score per pause; scoring economics exemplar; OpenJev/Codiv ≠ TypeSafe hosted; jose-troche/live-rubric ~$0.000004 desc / ~$0.000006 README; adversarial pre-registered Jev eval; 28 predictions before data; 123,805 requests; confidence does not track ignorance; polite injection 65% / crude 0%; willkelly/jev-evaluation ≠ jevals ≠ jev-baselines-eval; provider-neutral Elixir/BEAM Noul/Choice/Score SDK; class infrastructure; nshkrdotcom/system_one_sdk ≠ typesafe_sdk ≠ dannote/jev
+
+111. **Resume-screening bias audit** (natemoo-re/bias-bench; PRIMARY):
+     position 9 (Verifier) × SDT operating point. name×resume
+     factorial independent Nouls. callback determined by resume
+     quality. mean-probability name gaps operationally negligible.
+     natemoo-re/bias-bench ≠ BBQ.
+     Full cards: `mental-models.md`, `faq.md`.
+112. **MCDA panel + code-owned verdict** (austindixson/planalyzer):
+     positions 5 (Comparator) × 3 (Gate). Plan/PRD panel →
+     code-owned pass|review|block. cheerleading out of scope.
+     austindixson/planalyzer ≠ single-goodness Noul.
+     Full cards: `mixed-architecture.md`, `faq.md`.
+113. **EU cost-aware routing** (cannacre8ive/switchboard-ai):
+     positions 4 (Selector) × 3 (Gate) with S2 leftover.
+     cost-aware multi-model routing/escalation. decide vs do.
+     successful-task cost.
+     cannacre8ive/switchboard-ai ≠ ha-switchboard ≠ hermes-switchyard.
+     Full cards: `mixed-architecture.md`, `faq.md`.
+114. **Frozen-protocol class bake-off** (elcronos/jev-vs-open-decision-models):
+     position 8 (Metric). frozen-protocol zero-shot bench.
+     TypeSafe Jev vs PrismNLI vs Laya. contamination caveat.
+     elcronos/jev-vs-open-decision-models ≠ JevBench ≠ DMB.
+     Full cards: `validation.md`, `faq.md`.
+115. **VOI admission** (cvsgireesh/jevusher):
+     position 3 (Gate) × 6 (VOI gather). context-window admission
+     control. VOI gate which tokens are worth the expensive model.
+     fail polarity per lens. on small inputs lenses lose money.
+     cvsgireesh/jevusher ≠ jev-sift ≠ winnow.
+     Full cards: `applied-mappings.md`, `faq.md`.
+116. **Typed decision control plane** (MokiMeow/jev-fabric):
+     positions 3 (Gate) × 11 (Bounds). typed decision control plane.
+     receipt ≠ authorization. historical-v0 zero retained cases.
+     MokiMeow/jev-fabric ≠ jev-forge ≠ dgp.
+     Full cards: `formal-methods.md`, `faq.md`.
+117. **Scoring economics / live MCDA** (jose-troche/live-rubric):
+     position 8 (Metric) × fan-out. live 15-dim typed rubric
+     re-score per pause. scoring economics exemplar.
+     OpenJev/Codiv ≠ TypeSafe hosted.
+     jose-troche/live-rubric ~$0.000004 desc / ~$0.000006 README.
+     Full cards: `judgment-class.md`, `faq.md`.
+118. **Pre-registered calibration science** (willkelly/jev-evaluation):
+     position 8 (Metric) as Harbor-jevals practice. adversarial
+     pre-registered Jev eval. 28 predictions before data.
+     123,805 requests. confidence does not track ignorance.
+     polite injection 65% / crude 0%.
+     willkelly/jev-evaluation ≠ jevals ≠ jev-baselines-eval.
+     Full cards: `validation.md`, `faq.md`.
+119. **Class infrastructure SDK** (nshkrdotcom/system_one_sdk):
+     position 1 (Operand) as unofficial client, not a species.
+     provider-neutral Elixir/BEAM Noul/Choice/Score SDK.
+     class infrastructure.
+     nshkrdotcom/system_one_sdk ≠ typesafe_sdk ≠ dannote/jev.
+     Full cards: `judgment-class.md`, `faq.md`.
+
+Hourly 2041 items 111–119 (`notes.md` §101). Do **not**
+re-fold 1943 items 102–110 / 1843 items 97–101 / 1740
+items 94–96 / SIGNAL §93 mechanism. Soft Noul ≠ hard
+safety.

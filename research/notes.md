@@ -19377,3 +19377,814 @@ table + gallery); `faq.md`;
 `optimizer-integration.md`;
 `agent-self-assessment.md`. Hunches
 labeled. No wrapper.
+
+## 101. Hourly 2041 HIGH (2026-09-19 ~20:41 Boise / 2026-09-20T02:41Z)
+
+Docs-only on a **fresh PR off main**
+(`cursor/hourly-2041-bias-bench-jev-eval-bca1`).
+**Never reopen merged** Augustus PR #7 / **#8** /
+**#9** / **#10** / **#12** / **#13** / **#14** /
+**#15** / **#16** / **#17** / **#18**. After merged
+#18 (`7ef9613`, hourly 1943 / `notes.md` §100). Do
+**not** re-fold §93 / §94 / §95 / §96 / §97 / §98 /
+§99 / §100. Quote READMEs. Mark *theirs*. No
+invented metrics. Hunches labeled. No wrappers,
+`npm` / `pip` / `npx` / `uv` / `mix` /
+`TYPESAFE_API_KEY` / `CODIV_API_KEY` / `.env` as
+recipes. 0★ HIGH still gets a real card. Do **not**
+dump source / SDK / weights / eval logs. `invented_signal:
+false`. Skip Archer rewrite.
+
+Lane is Augustus: **mental models / architecture /
+Harbor-jevals / toolbelt**. Backend-agnostic
+categorization/scoring/decision class (Jev-like
+speed/econ), **not** a thin Jev-only dump. Design
+judgment, formal/semi-formal methods, decision
+theory, scoring class. Soft Noul ≠ hard safety.
+Formal methods **compose** with scoring; a Noul is a
+SENSOR. Avoid soundness theater. Jev is the hot
+exemplar, not the whole mandate.
+
+Unique consecutive fragments (this hour):
+resume-screening bias audit methodology;
+name×resume factorial independent Nouls;
+callback determined by resume quality;
+mean-probability name gaps operationally negligible;
+natemoo-re/bias-bench ≠ BBQ;
+Plan/PRD panel → code-owned pass|review|block;
+cheerleading out of scope;
+austindixson/planalyzer ≠ single-goodness Noul;
+cost-aware multi-model routing/escalation;
+decide vs do;
+successful-task cost;
+cannacre8ive/switchboard-ai ≠ ha-switchboard ≠ hermes-switchyard;
+frozen-protocol zero-shot bench;
+TypeSafe Jev vs PrismNLI vs Laya;
+contamination caveat;
+elcronos/jev-vs-open-decision-models ≠ JevBench ≠ DMB;
+context-window admission control;
+VOI gate which tokens are worth the expensive model;
+fail polarity per lens;
+on small inputs lenses lose money;
+cvsgireesh/jevusher ≠ jev-sift ≠ winnow;
+typed decision control plane;
+receipt ≠ authorization;
+historical-v0 zero retained cases;
+MokiMeow/jev-fabric ≠ jev-forge ≠ dgp;
+live 15-dim typed rubric re-score per pause;
+scoring economics exemplar;
+OpenJev/Codiv ≠ TypeSafe hosted;
+jose-troche/live-rubric ~$0.000004 desc / ~$0.000006 README;
+adversarial pre-registered Jev eval;
+28 predictions before data;
+123,805 requests;
+confidence does not track ignorance;
+polite injection 65% / crude 0%;
+willkelly/jev-evaluation ≠ jevals ≠ jev-baselines-eval;
+provider-neutral Elixir/BEAM Noul/Choice/Score SDK;
+class infrastructure;
+nshkrdotcom/system_one_sdk ≠ typesafe_sdk ≠ dannote/jev.
+
+### How-to-apply (nine HIGH clusters)
+
+1. **Resume-screening bias audit methodology**
+   (PRIMARY Augustus) — factorial name×resume
+   independent Nouls; callback is an operating
+   point, not a proof. Audit *this* model on *this*
+   task the way Bertrand & Mullainathan / Kline,
+   Rose & Walters audit humans. SDT + calibration:
+   read magnitudes, not permutation p-values of a
+   near-deterministic function. Transfers to hiring,
+   lending, moderation, any group-sensitive
+   criterion. Not BBQ.
+2. **MCDA panel + code-owned aggregation** — one
+   batched System One call; diversified seats
+   (Noul/Score/Choice); **code** owns
+   `pass|review|block`. Cheerleading is out of
+   scope. Do not let Jev emit the verdict string.
+3. **EU cost-aware routing / escalation** — decide
+   vs do. Cheap typed judgments route; expensive
+   generative models execute. Optimize
+   **successful-task cost**, not raw token price.
+   Escalate on uncertainty and risk, not prestige.
+4. **Frozen-protocol class bake-off** — TypeSafe Jev
+   vs PrismNLI vs Laya on one public labelled set.
+   PROTOCOL frozen before test inference.
+   Calibration/latency/cost reported raw; remote e2e
+   ≠ local compute. Contamination caveat is the
+   honesty. Not JevBench / DMB.
+5. **VOI admission control** — which tokens are
+   worth the expensive model. Fail polarity **per
+   lens** (ADMISSION unsure→let in; SELECTION
+   unsure→surface none; SAFETY unsure→flag never
+   pass). On small inputs the lenses lose money;
+   measure on *your* workload.
+6. **Leveson sensor ≠ authority control plane** —
+   typed bounded semantic choices; provider proposes;
+   host/policy execute. Receipt ≠ authorization.
+   Default abstain (risk escalate). Historical ECE
+   with zero retained cases is invalid.
+7. **Scoring economics / live MCDA** — 15 typed
+   dimensions re-scored per pause in one call.
+   Price is the placement. OpenJev/Codiv ≠ TypeSafe
+   hosted. Quote both ~$0.000004 (GitHub desc /
+   README opening) and ~$0.000006 (README Costs for
+   ~150 tokens).
+8. **Pre-registered calibration/safety science** —
+   28 predictions before data; 123,805 requests.
+   Confidence does not track ignorance. Augustus
+   owns pre-registration / ECE / VOI of batching.
+   rh-guard owns injection/steer (polite 65% /
+   crude 0%).
+9. **Class infrastructure SDK** — provider-neutral
+   Elixir/BEAM Noul/Choice/Score. GitHub desc
+   provider-neutral; README opening TypeSafe-first.
+   First built-in provider via `typesafe_api_sdk`
+   path dep. Not a species. Not typesafe_sdk. Not
+   dannote/jev.
+
+### Cards
+
+1. **Resume-screening bias audit methodology
+   (PRIMARY)**
+
+   - **[`natemoo-re/bias-bench`](https://github.com/natemoo-re/bias-bench)**
+     (JavaScript; GitHub license **null**; no
+     LICENSE file; **0★** live REST; 0 forks;
+     created 2026-09-20T02:41:51Z; pushed
+     2026-09-20T03:06:17Z; updated
+     2026-09-20T03:06:21Z; HEAD `fe2f2535`;
+     README SHA `a1c3e604`; GitHub `size` **0**
+     this pass — contents present; language
+     JavaScript; topics empty; package
+     `bias-bench` **0.1.0** private). GitHub
+     description *theirs*: "Resume-screening bias
+     benchmark for decision models — starts with
+     Jev (TypeSafe System One), modeled on
+     resume-audit methodology". README *theirs*:
+     modeled on Bertrand & Mullainathan (2004),
+     extended by Kline, Rose & Walters (2022).
+     76 names × 8 resumes × 3 reps = **1,824
+     independent evaluations**. One API request
+     per candidate. Pinned `jev-1.13.0`. Callback
+     = `noul ≥ 0.5` (0.7/0.9 sensitivity). Do
+     **not** dump `run.js` / `analyze.js`. Do not
+     copy `npm` / keys.
+
+     Headline *theirs* (README +
+     `results/jev-1.13.0/report.md`): callback
+     decisions are perfectly determined by resume
+     quality (zero binary-decision name
+     differences); mean-probability name gaps are
+     ~0.4–0.6pp — statistically detectable only
+     because the model is near-deterministic,
+     opposite in sign to the human audit-study
+     direction, and operationally negligible.
+     Group callback rate **25.0%** all four
+     groups. Repeatability: mean within-cell SD
+     **0.0054**; **24.8%** of name×resume cells
+     identical across reps. Report gaps
+     White−Black mean noul **−0.004**; Men−Women
+     mean noul **−0.006**. Threats *theirs*: one
+     domain; permutation p-values are properties
+     of the measured function, not sampling
+     statements about a noisy model — read the
+     magnitudes, not the p-values.
+
+     resume-screening bias audit methodology.
+     name×resume factorial independent Nouls.
+     callback determined by resume quality.
+     mean-probability name gaps operationally
+     negligible.
+
+     **Placement.** Pillar: signal detection +
+     calibration. Hole: audit a group-sensitive
+     operating point without confounding resume
+     quality. Family: TypeSafe Jev as the first
+     model under a model-agnostic runner. Fail
+     polarity: **report**, not gate — callback
+     @ 0.5 is an analysis cut, not a hiring
+     proof. Eval path: 1,824 independent Nouls
+     *theirs*; **not Harbor**; **not BBQ**.
+     **Empirical** as README + report.md.
+     **Hypothesis** that other domains / prompts
+     look the same.
+
+     **Name lock:** always write
+     **natemoo-re/bias-bench**.
+     natemoo-re/bias-bench ≠ BBQ
+     ([simonmesmith/jev-bbq-experiment](https://github.com/simonmesmith/jev-bbq-experiment)
+     stereotype/uncertainty/cost; not a general
+     bias cert). Soft Noul ≠ hard safety: 25.0% /
+     0.0054 / permutation p < 0.0001 are
+     **sensors**. Treating a zero binary name gap
+     as a fairness certificate is theater. Do
+     not copy `npm` / keys.
+
+2. **Plan/PRD panel → code-owned pass|review|block**
+
+   - **[`austindixson/planalyzer`](https://github.com/austindixson/planalyzer)**
+     (Python MIT; **0★** live REST; 0 forks;
+     created 2026-09-20T02:40:58Z; pushed
+     2026-09-20T02:42:46Z; updated
+     2026-09-20T02:42:49Z; HEAD `39fc161f`;
+     README SHA `6e4d8da3`; LICENSE SHA
+     `c74bef92`; GitHub `size` **0** this pass —
+     contents present). GitHub description
+     *theirs*: "Jev plan/PRD analyzer —
+     diversified System One panel, code-owned
+     pass|review|block". README *theirs*: "One
+     batched System One call. **Code** owns
+     `pass` | `review` | `block`. Cheerleading is
+     out of scope." Default model `jev-latest`.
+     `panel.json` `fm`: `FM-BENCH-PLANALYZER-1`.
+     Do **not** dump `planalyze.py`. Do not copy
+     `npx skills add` / keys.
+
+     Panel seats *theirs*: literalist / skeptic /
+     reward_hack / scope **Nouls**; severity /
+     strategic_coherence / execution_risk /
+     product_fit **Scores**; recommended_next_step
+     **Choice** (advisory, not the verdict).
+     Aggregation in code from `panel.json`
+     *theirs*: precedence block > review > pass;
+     `noul_block_threshold` **0.72**;
+     `noul_review_threshold` **0.4**;
+     `severity_block_at` **2.0**; `invert_for_fire`
+     `[literalist, scope]`. Anti-pattern: letting
+     Jev emit the verdict string.
+
+     Plan/PRD panel → code-owned
+     pass|review|block.
+     cheerleading out of scope.
+
+     **Placement.** Pillar: MCDA + Leveson
+     (sensor ≠ constraint). Hole: diversified
+     seats then **code** owns the act. Family:
+     TypeSafe Jev panel, not a single-goodness
+     Noul. Fail polarity: **code-owned** —
+     Choice is advisory. Eval path: no published
+     Harbor. **Empirical** as README +
+     `panel.json`. **Hypothesis** on *your*
+     plans.
+
+     **Name lock:** always write
+     **austindixson/planalyzer**.
+     austindixson/planalyzer ≠ single-goodness
+     Noul ≠ Illusion47586/judge (callback twin)
+     ≠ Kungie/gut (cost overlay). Soft Noul ≠
+     hard safety: 0.72 / 0.4 / 2.0 are
+     **sensors**. Hard-gating a panel Noul as a
+     merge seal is theater. Do not copy `npx` /
+     keys.
+
+3. **Cost-aware multi-model routing/escalation**
+
+   - **[`cannacre8ive/switchboard-ai`](https://github.com/cannacre8ive/switchboard-ai)**
+     (JavaScript MIT; **1★** live REST; 0 forks;
+     created 2026-09-20T02:39:47Z; pushed
+     2026-09-20T03:03:19Z; updated
+     2026-09-20T03:09:01Z; HEAD `5cae9d1c`;
+     README SHA `872de837`; LICENSE SHA
+     `85b5651c`; GitHub `size` **0** this pass —
+     contents present; package `switchboard-ai`
+     **0.4.0**). GitHub description *theirs*:
+     "Adaptive multi-model AI orchestration
+     runtime using Jev for cost-aware routing,
+     confidence-based escalation, tool
+     selection, and model execution". README
+     *theirs*: "A cost-aware, vendor-neutral
+     **System One / System Two AI orchestration
+     runtime**"; separates **deciding** from
+     **doing**. Status *theirs*: "**Status:
+     V0.4**" with working TypeSafe Jev adapter,
+     zero-key deterministic routing fallback,
+     least-privilege logical tool plans,
+     supervisor + generative DAG planner,
+     bounded-concurrency scheduler. Package
+     description *theirs*: "Cost-aware
+     System One/System Two AI orchestration
+     runtime using Jev for routing and frontier
+     models for execution." ARCHITECTURE.md
+     milestones *theirs*: **M1 — Routing kernel:
+     complete**; **M2 — Model registry +
+     economics: functional**; **M3 — Verification
+     loop: functional**; **M4 — Least-privilege
+     tool/context planning: functional**; **M5 —
+     Supervisor + workflow DAG runtime:
+     functional**. Honesty: README V0.4 /
+     package **0.4.0** match this pass; M4/M5
+     are functional as logical plans + DAG.
+     Not yet *theirs*: provider-specific MCP /
+     tool transport adapters; live held-out
+     Jev-vs-rules benchmark; learned routing
+     policy; web UI. Do **not** dump
+     `src/`. Do not copy `npm` / `.env` / keys.
+
+     Loop *theirs*: `objective -> Jev/rules
+     decision layer -> task contract +
+     risk/confidence policy -> optional
+     supervisor decomposition ->
+     dependency-aware subtask DAG -> model +
+     tool + context routing per step ->
+     execution -> verification ->
+     accept / retry / escalate -> telemetry +
+     economics`. Modes: economy / balanced /
+     premium / max. Offline deterministic router
+     default. Optimize **successful-task cost**,
+     not raw token price. Escalate based on
+     uncertainty and risk, not prestige. Deny
+     external mutations by default
+     (`--allow-writes`). Routing smoke corpus is
+     **not** held-out evidence of
+     generalization.
+
+     cost-aware multi-model routing/escalation.
+     decide vs do.
+     successful-task cost.
+
+     **Placement.** Pillar: expected utility +
+     search/control. Hole: route/escalate, not
+     generate the route. Family: TypeSafe Jev
+     for typed routing/verification; generative
+     models for leftover work. Fail polarity:
+     writes **fail-closed** without
+     `--allow-writes`; missing Jev degrades to
+     rules, not empty execution. Eval path:
+     smoke/regression corpus *theirs*; **not
+     Harbor**. **Empirical** as README +
+     ARCHITECTURE. **Hypothesis** that Jev
+     routing beats rules on *your* tasks.
+
+     **Name lock:** always write
+     **cannacre8ive/switchboard-ai**.
+     cannacre8ive/switchboard-ai ≠ ha-switchboard
+     (HA remains execution) ≠ hermes-switchyard
+     ≠ hermes-jev-router ≠ hermes-plugin-jev.
+     Soft Noul ≠ hard safety: V0.4 / smoke
+     corpus / successful-task cost are
+     **sensors**. Treating a routing smoke bench
+     as generalization is theater. Do not copy
+     `npm` / keys.
+
+4. **Frozen-protocol zero-shot class bake-off**
+
+   - **[`elcronos/jev-vs-open-decision-models`](https://github.com/elcronos/jev-vs-open-decision-models)**
+     (Python; GitHub license **null**; no LICENSE
+     file; **0★** live REST; 0 forks; created
+     2026-09-20T02:27:10Z; pushed
+     2026-09-20T02:43:42Z; updated
+     2026-09-20T02:43:45Z; HEAD `b61e6cfc`;
+     README SHA `b7256888`; GitHub `size` **0**
+     this pass — contents present). GitHub
+     description *theirs*: "Zero-shot benchmark
+     of TypeSafe Jev 1.13 (decision model) vs
+     open-weight non-generative models
+     PrismNLI-0.4B and Laya: frozen protocol,
+     raw predictions, calibration, latency,
+     report". README *theirs*:
+     `PROTOCOL.md` is the binding contract;
+     frozen before any test-set inference.
+     Dataset: `dair-ai/emotion` official test,
+     n = **2000**. Do **not** dump parquet /
+     caches. Do not copy `uv` / OpenRouter keys.
+
+     Primary `plain` *theirs* (n=2000,
+     2026-09-20): Jev 0.587 [0.565, 0.608]
+     Brier 0.667 ECE 0.281 p50 349 ms remote
+     $0.0284; PrismNLI-0.4B 0.725 [0.705, 0.744]
+     Brier 0.441 ECE 0.174 p50 58 ms local;
+     Laya 0.587 [0.565, 0.609] Brier 0.707 ECE
+     0.307 p50 31 ms local. Jev≈Laya McNemar
+     p=1.000. All three over-confident in every
+     bin that carries meaningful mass. Remote e2e
+     **not comparable** to local compute.
+     **Contamination caveat** *theirs*: PrismNLI
+     init from `deberta-v3-large-zeroshot-v2.0`
+     trained on emotion train/val (test held
+     out); an unknown but non-zero part of the
+     14-point lead is dataset familiarity.
+     Not JevBench / AbdelStark/jev-benchmarks /
+     nibzard/decision-model-benchmark.
+
+     frozen-protocol zero-shot bench.
+     TypeSafe Jev vs PrismNLI vs Laya.
+     contamination caveat.
+
+     **Placement.** Pillar: calibration + class
+     bake-off (Harbor-jevals practice). Hole:
+     one public labelled set, native
+     probabilities, paired tests, no composite
+     score. Family: closed Jev vs open NLI vs
+     open NAR. Fail polarity: **report**, not
+     rank-as-physics. Eval path: frozen
+     PROTOCOL + checksummed snapshot *theirs*;
+     **not Harbor taskset**. **Empirical** as
+     README + REPORT.md.
+
+     **Name lock:** always write
+     **elcronos/jev-vs-open-decision-models**.
+     elcronos/jev-vs-open-decision-models ≠
+     JevBench ≠ AbdelStark/jev-benchmarks ≠
+     DMB. Soft Noul ≠ hard safety: 0.587 /
+     0.725 / ECE 0.281 are **sensors**. Pasting
+     "PrismNLI wins the class" without the
+     contamination caveat is theater. Do not
+     copy `uv` / keys.
+
+5. **Context-window admission control (VOI gate)**
+
+   - **[`cvsgireesh/jevusher`](https://github.com/cvsgireesh/jevusher)**
+     (TypeScript MIT; **0★** live REST; 0 forks;
+     created 2026-09-20T02:08:59Z; pushed
+     2026-09-20T02:48:45Z; updated
+     2026-09-20T02:48:49Z; HEAD `d830d344`;
+     README SHA `428a4a59`; LICENSE SHA
+     `9f72a3d7`; GitHub `size` **81**; package
+     `jevusher`
+     **0.1.0**; topics agents / claude /
+     context-engineering / jev / llm /
+     token-optimization / typesafe). GitHub
+     description *theirs*: "The doorman for your
+     context window. Jev-powered admission
+     control: decide which tokens are worth
+     sending to an expensive model." README
+     *theirs*: "An usher does not decide the
+     show. It decides who gets through the door,
+     and where they sit." Independent project,
+     not affiliated with TypeSafe. Do **not**
+     dump `src/`. Do not copy `npm` / keys.
+
+     Seven lenses *theirs*: J1 ROUTE / J2 GATE /
+     J3 USHER / J4 FILTER / J5 COMPACT / J6 STOP
+     / J7 SCREEN. Fail polarity *theirs*:
+     ADMISSION (J3 J4 J5) unsure → let it in;
+     SELECTION (J1 J2) unsure → surface none;
+     SAFETY (J7) unsure → flag, never pass. J7
+     `pass` means *nothing detected*, never
+     *safe to obey*. Honest numbers *theirs*:
+     offered 261 / sent 118 / kept out 143 / jev
+     read 6,866 — **on small inputs these lenses
+     lose money**. Provider outage degrades to
+     *no lens installed*, never to an empty
+     context.
+
+     context-window admission control.
+     VOI gate which tokens are worth the
+     expensive model.
+     fail polarity per lens.
+     on small inputs lenses lose money.
+
+     **Placement.** Pillar: VOI + selective
+     classification. Hole: admit/drop tokens
+     before the expensive model reads them.
+     Family: TypeSafe Jev as the cheap reader.
+     Fail polarity: **per lens** as above. Eval
+     path: `jevusher report` on *your*
+     workload; README 261/118 is a toy, not
+     Harbor. **Empirical** as README
+     architecture. **Hypothesis** on large
+     catalogs / fetches.
+
+     **Name lock:** always write
+     **cvsgireesh/jevusher**.
+     cvsgireesh/jevusher ≠ jev-sift ≠
+     ThinkyMiner/Winnow ≠ kevinpita/winnow ≠
+     tamaratran/jev-pruner. Soft Noul ≠ hard
+     safety: 6,866-to-keep-out-143 / J7 pass
+     are **sensors**. Treating J7 pass as "safe
+     to obey" is theater. Do not copy `npm` /
+     keys.
+
+6. **Typed decision control plane**
+
+   - **[`MokiMeow/jev-fabric`](https://github.com/MokiMeow/jev-fabric)**
+     (TypeScript Apache-2.0; **0★** live REST;
+     0 forks; created 2026-09-19T22:47:31Z;
+     pushed 2026-09-20T02:43:06Z; updated
+     2026-09-20T02:40:43Z; HEAD `95b9a4f3`;
+     README SHA `f485dbdd`; LICENSE SHA
+     `261eeb9e`; GitHub `size` **400**; package
+     `jev-fabric` **0.1.0-alpha.1**; topics
+     ai-agents / decision-intelligence / llm /
+     mcp / open-source / typesafe-ai /
+     typescript). GitHub description *theirs*:
+     "A typed decision control plane for bounded
+     semantic choices with Jev and AI agents."
+     README *theirs*: "Alpha status: the
+     repository is public source code, not a
+     claim that every deployment is ready for
+     every risk level." "A receipt is redacted
+     provenance, not authorization." The
+     provider cannot mint identity, grant a
+     permission, bypass a static denial, execute
+     a command, or make a browser action. Do
+     **not** dump packs. Do not copy `pnpm` /
+     live `--live` keys.
+
+     Packs *theirs*: route / screen / rank /
+     verify / progress / completion default
+     **abstain**; risk default **escalate**.
+     historical-v0 *theirs*: evidence class
+     `local_exploratory`, imported 2026-09-19,
+     **zero retained cases**, old ECE invalid
+     (used TypeSafe confidence not max p); no
+     corrected ECE. Tool-environment benchmark
+     contract **NOT_RUN**. Host live results
+     **NOT RUN** unless an artifact says
+     otherwise.
+
+     typed decision control plane.
+     receipt ≠ authorization.
+     historical-v0 zero retained cases.
+
+     **Placement.** Pillar: Leveson sensor ≠
+     constraint + mixed architecture. Hole:
+     bounded semantic selection among declared
+     choices; host still executes. Family:
+     TypeSafe Jev (opt-in live) as provider,
+     Fabric as the control plane. Fail polarity:
+     packs **abstain** (risk **escalate**);
+     never treat a receipt as a grant. Eval
+     path: historical-v0 is **not** ECE;
+     tool-env **NOT_RUN**. **Empirical** as
+     README architecture. **Hypothesis** on
+     *your* bounded choices.
+
+     **Name lock:** always write
+     **MokiMeow/jev-fabric**.
+     MokiMeow/jev-fabric ≠ zwliJay/jev-forge
+     (variable-N scoring object) ≠
+     numerous-com/dgp (Decision Graph Protocol)
+     ≠ NanoJev. Soft Noul ≠ hard safety:
+     0.1.0-alpha.1 / zero retained cases /
+     NOT_RUN are **sensors**. Pasting the old
+     ECE as a class ceiling is theater. Do not
+     copy live keys.
+
+7. **Live 15-dim typed rubric (scoring economics)**
+
+   - **[`jose-troche/live-rubric`](https://github.com/jose-troche/live-rubric)**
+     (TypeScript; GitHub license **null**; no
+     LICENSE file; **0★** live REST; 0 forks;
+     created 2026-09-19T22:40:42Z; pushed
+     2026-09-20T00:56:23Z; updated
+     2026-09-20T00:56:26Z; HEAD `db8da8db`;
+     README SHA `4a0be084`; GitHub `size`
+     **60**; package `live-rubric` **1.0.0**).
+     GitHub description *theirs*: "A writing
+     editor that re-scores 15 typed rubric
+     dimensions on every typing pause — one Jev
+     System One call per pause, ~$0.000004
+     each." README opening *theirs*: "for
+     roughly **$0.000004 each**." README Costs
+     *theirs*: a ~600-character document is about
+     150 input tokens, so one full 15-dimension
+     evaluation costs around **$0.000006**.
+     Honesty lock: quote **both** ~$0.000004
+     (GitHub desc + README opening) and
+     ~$0.000006 (README Costs). Do **not** dump
+     `lib/rubric.ts`. Do not copy `npm` /
+     `CODIV_API_KEY`.
+
+     Provider *theirs*: **OpenJev via Codiv**
+     (`https://api.codiv.ai` / `openjev-latest`
+     / `CODIV_API_KEY`) — same wire API as
+     TypeSafe, **not** TypeSafe hosted. Key
+     never in the browser. 15 questions one
+     `systemOne` call (6 Score / 5 Choice / 4
+     Noul). Circuit breaker *theirs*: 60s after
+     rejected key, 30s on rate limit, 15s
+     unreachable. Debounce 400ms / max 1.4s
+     while typing. Failures classified (400/422
+     = bad request, not provider). Previous
+     reading stays on failure.
+
+     live 15-dim typed rubric re-score per
+     pause.
+     scoring economics exemplar.
+     OpenJev/Codiv ≠ TypeSafe hosted.
+
+     **Placement.** Pillar: MCDA + scoring-class
+     economics. Hole: live multi-criterion
+     scores where a chat model per pause would
+     be absurd. Family: OpenJev wire-compat ≠
+     TypeSafe hosted. Fail polarity: keep last
+     reading on failure; circuit-break a dead
+     provider. Eval path: no published Harbor;
+     price is a token-math estimate *theirs*.
+     **Empirical** as README economics.
+
+     **Name lock:** always write
+     **jose-troche/live-rubric**.
+     jose-troche/live-rubric ~$0.000004 desc /
+     ~$0.000006 README. OpenJev/Codiv ≠
+     TypeSafe hosted ≠ IamBusy/OpenJev product
+     card. Soft Noul ≠ hard safety: $0.000004 /
+     $0.000006 / 15 dims are **sensors**.
+     Treating the price as a class ceiling is
+     theater. Do not copy keys.
+
+8. **Adversarial pre-registered Jev eval**
+
+   - **[`willkelly/jev-evaluation`](https://github.com/willkelly/jev-evaluation)**
+     (Python MIT; **0★** live REST; 0 forks;
+     created 2026-09-20T01:18:12Z; pushed
+     2026-09-20T03:14:53Z; updated
+     2026-09-20T02:58:53Z; HEAD `c168c093`;
+     README SHA `2d66ac22`; LICENSE SHA
+     `369b7234`; GitHub `size` **5145**; topics
+     ai-safety / benchmark / calibration /
+     llm-evaluation / prompt-injection). GitHub
+     description *theirs*: "An adversarial
+     evaluation of TypeSafe's jev decision
+     model: nine experiments and 28 predictions
+     fixed before any data was collected.
+     123,805 requests, $12.69." README *theirs*:
+     plan written before any request; nine
+     experiments; twenty-eight predictions, each
+     with the result that would prove it wrong.
+     One run: **123,805 requests, 138 minutes,
+     $12.69, five failures**, all `jev-1.13.0`.
+     Independent, not affiliated with TypeSafe.
+     Do **not** dump 1.3 GB logs. Do not copy
+     `pip` / keys / injection strings as a
+     recipe.
+
+     Findings *theirs*: 12 of 25 testable
+     predictions held; 13 were wrong.
+     Calibration holds on support-ticket (ECE
+     **0.075**) and fails on random 3-SAT
+     (answers *satisfiable* for every formula).
+     Asking many questions at once is genuinely
+     free (accuracy at question 200 matches
+     question 1). **Confidence does not track
+     ignorance**: ≥0.95 still admits **47%** of
+     unanswerable states. Crude injection moved
+     the answer **0%**; polite "support lead
+     already decided" moved it **65%**,
+     confidence 1.00→0.62. Phase 0 control
+     **0.980**. Ground truth from a solver or
+     construction, never from a model.
+
+     adversarial pre-registered Jev eval.
+     28 predictions before data.
+     123,805 requests.
+     confidence does not track ignorance.
+     polite injection 65% / crude 0%.
+
+     **Placement.** Pillar: calibration science
+     + safety/systems. Hole: pre-register, then
+     measure; confidence is not a wake/escalate
+     signal until it tracks ignorance. Family:
+     TypeSafe Jev under an adversarial protocol.
+     Fail polarity: **report**; do not hard-gate
+     confidence ≥0.95. Eval path: plan + one
+     published run *theirs*; **not Harbor**;
+     **not jevals**. **Empirical** as README +
+     report. rh-guard **owns** injection/steer;
+     Augustus **owns** pre-registration /
+     calibration / batching-VOI placement.
+
+     **Name lock:** always write
+     **willkelly/jev-evaluation**.
+     willkelly/jev-evaluation ≠ dayhaysoos/jevals
+     ≠ ickma2311/jev-baselines-eval (AMBIGUOUS
+     cascade). Soft Noul ≠ hard safety: ECE
+     0.075 / 0.980 / 47% / 65% are **sensors**.
+     Treating confidence ≥0.95 as "act" after
+     this card is theater. Do not copy attacks
+     as a how-to.
+
+9. **Provider-neutral Elixir/BEAM class SDK**
+
+   - **[`nshkrdotcom/system_one_sdk`](https://github.com/nshkrdotcom/system_one_sdk)**
+     (Elixir MIT; **0★** live REST; 0 forks;
+     created 2026-09-20T02:32:11Z; pushed
+     2026-09-20T03:13:54Z; updated
+     2026-09-20T03:13:58Z; HEAD `c2a522ee`;
+     README SHA `c117b4c4`; LICENSE SHA
+     `fa8ed9a6`; GitHub `size` **0** this pass —
+     contents present; mix **0.5.0**; topics
+     include provider-abstraction / system-one /
+     typesafe / otp). GitHub description
+     *theirs*: "Provider-neutral Elixir/BEAM SDK
+     for System One semantics: typed Noul,
+     Choice and Score decisions … TypeSafe is
+     the first built-in provider via
+     typesafe_api_sdk." README opening *theirs*:
+     "`system_one_sdk` is the Elixir SDK for
+     TypeSafe AI and its first System One model,
+     **Jev**." Honesty: GitHub desc
+     **provider-neutral**; README opening
+     **TypeSafe-first**. First provider via
+     `{:typesafe_api_sdk, path:
+     "../typesafe_api_sdk"}`. Do **not** dump
+     `lib/`. Do not copy `mix` / keys.
+
+     provider-neutral Elixir/BEAM
+     Noul/Choice/Score SDK.
+     class infrastructure.
+
+     **Placement.** Pillar: class infrastructure
+     (not a species). Hole: typed Choice / Score
+     / Noul in OTP without inventing a new
+     decision head. Family: unofficial SDK;
+     TypeSafe is the first provider, not the
+     monopoly. Fail polarity: N/A (client). Eval
+     path: none claimed. **Empirical** as
+     README + mix.exs.
+
+     **Name lock:** always write
+     **nshkrdotcom/system_one_sdk**.
+     nshkrdotcom/system_one_sdk ≠
+     nshkrdotcom/typesafe_sdk (**3★** Elixir
+     TypeSafe client) ≠ dannote/jev (**16★**
+     OTP peer: "reply to Jev from a GenServer").
+     Soft Noul ≠ hard safety: 0.5.0 / path dep
+     are **sensors**. Treating an unofficial SDK
+     as TypeSafe official is theater. Do not
+     copy `mix` / keys.
+
+### Theater (do not)
+
+Treat a zero binary name gap as a fairness
+certificate / collapse bias-bench into BBQ;
+let Jev emit planalyzer's verdict string /
+hard-gate 0.72 as a merge seal; treat
+switchboard smoke as generalization / collapse
+into ha-switchboard or hermes-switchyard;
+paste "PrismNLI wins the class" without the
+contamination caveat / treat remote 349 ms as
+local 31 ms; treat J7 pass as safe to obey /
+paste 261/118 as Harbor; treat a Fabric
+receipt as authorization / paste historical-v0
+ECE; quote only $0.000004 or only $0.000006 /
+treat Codiv as TypeSafe hosted; hard-gate
+confidence ≥0.95 after jev-evaluation / copy
+injection as a how-to / collapse into jevals
+or jev-baselines-eval; treat system_one_sdk as
+typesafe_sdk or dannote/jev / as TypeSafe
+official; invent tweets / Archer drop; dump
+source / keys / install recipes.
+
+### Census
+
+Census **not provided this hour** (not
+re-derived). Live REST pulse only: SemIf
+**1984★** (+30 vs §100 **1954**); jevlike
+**1002★** (+13 vs §100 **989**); TypeAR-AI/TypeAR
+**11★** **flat**. AnotiaWang/awesome-jev
+**84★** still a **different object** from
+user-provided Awesomejev 561/27007 (§99 pin).
+Archer still **NOT landed**. Tracker likes
+**54** (+3 vs §100 pin **51**); lastModified
+**CHANGED** `2026-09-20T02:59:13Z` (was §100
+`2026-09-19T18:37:18Z`). Hub
+archerhume/4rcherhume HTTP **401** — not
+re-fetched as a rewrite. Qwen3.8-27B ≠
+Archer. X MCP not used this hour; no
+invented tweets. `invented_signal:
+false`.
+
+### Not
+
+Not a TypeSafe how-to. Not a bias-bench /
+planalyzer / switchboard / jevusher /
+jev-fabric / live-rubric / jev-evaluation /
+system_one_sdk install guide. Not wrappers.
+Do not copy keys / `npm` / `pip` / `npx` /
+`uv` / `mix` / `.env` / injection strings.
+Do not re-fold 1943 / §100 / 1843 / §99 /
+1740 / §98 / 1639 / §96 /
+gliner-native-runtime / §97 / 1541 / §95 /
+jev-align *mechanism* / §93. Do not reply
+into finished agents. Do **not** merge from
+this review — parent merges after CLEAN.
+
+### Curated status
+
+2041 HIGH **folded** (9 HIGH: bias-bench
+resume-audit PRIMARY; planalyzer code-owned
+panel; switchboard cost-aware routing;
+jev-vs-open frozen-protocol bake-off;
+jevusher VOI admission; jev-fabric control
+plane; live-rubric scoring economics;
+jev-evaluation pre-registered science;
+system_one_sdk class infrastructure). §100 /
+§99 / §98 / §97 / §96 / §95 / §93 mechanism
+**not re-carded**. Archer still **NOT
+landed**. 0★ HIGH still got a real card.
+`invented_signal: false`.
+
+### Cross-links
+
+Cards: `mixed-architecture.md` (fail table +
+gallery); `faq.md`; `mental-models.md`;
+`judgment-class.md`; `validation.md`;
+`applied-mappings.md`; `mappings.md`;
+`toolbox-mapping.md`; `composition-algebra.md`
+items 111–119; `question-design.md`;
+`methods-catalog.md`; `formal-methods.md`;
+`agent-self-assessment.md`. Hunches labeled.
+No wrapper.

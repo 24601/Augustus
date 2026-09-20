@@ -1433,6 +1433,25 @@ fixed rules in code. 0 of 157 false invalidations.
 questions/plans/directives are not evidence. unsure →
 review queue. host keeps the store. Soft Noul ≠ hard
 safety. `notes.md` §100.
+**2041 HIGH (`notes.md` §101):** resume-screening bias
+audit methodology (SDT; natemoo-re/bias-bench ≠ BBQ);
+Plan/PRD panel → code-owned pass|review|block
+(austindixson/planalyzer); cost-aware multi-model
+routing/escalation (decide vs do; successful-task cost;
+cannacre8ive/switchboard-ai ≠ ha-switchboard ≠
+hermes-switchyard); frozen-protocol zero-shot bench
+(TypeSafe Jev vs PrismNLI vs Laya; contamination caveat);
+context-window admission control (VOI gate; fail polarity
+per lens; on small inputs lenses lose money);
+typed decision control plane (receipt ≠ authorization;
+historical-v0 zero retained cases); live 15-dim typed
+rubric re-score per pause (scoring economics; OpenJev/Codiv
+≠ TypeSafe hosted); adversarial pre-registered Jev eval
+(28 predictions before data; 123,805 requests; confidence
+does not track ignorance; rh-guard owns injection);
+provider-neutral Elixir/BEAM Noul/Choice/Score SDK
+(class infrastructure). Soft Noul ≠ hard safety.
+`notes.md` §101.
 **Authorship / jevtest-as-merge-seal (rh-guard owns the
 gate cousin; 2026-09-19 ~16:52):**
 [jev-authorship-check](https://github.com/webstercharly/jev-authorship-check)

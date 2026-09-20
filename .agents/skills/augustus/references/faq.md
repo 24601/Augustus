@@ -2921,3 +2921,45 @@ No, no, and no. Jev-first Pi agent loop. slow-LLM fallback. explicit action menu
 ## Did Archer land this hour? Treat Qwen3.8-27B as Archer? Invent tweets?
 
 No, no, and no. Last pin from §99: Hub `archerhume/4rcherhume` HTTP **401**. Tracker likes **51** flat; lastModified UNCHANGED `2026-09-19T18:37:18.000Z`. Not re-fetched as a rewrite. Live REST pulse: SemIf **1954★** (+18 vs §99 **1936**); jevlike **989★** (+6 vs §99 **983**); TypeAR **11★** flat. AnotiaWang/awesome-jev **83★** ≠ Awesomejev 561/27007. `invented_signal: false`. `notes.md` §100.
+
+Unique fragments (consecutive): resume-screening bias audit methodology; name×resume factorial independent Nouls; callback determined by resume quality; mean-probability name gaps operationally negligible; natemoo-re/bias-bench ≠ BBQ; Plan/PRD panel → code-owned pass|review|block; cheerleading out of scope; austindixson/planalyzer ≠ single-goodness Noul; cost-aware multi-model routing/escalation; decide vs do; successful-task cost; cannacre8ive/switchboard-ai ≠ ha-switchboard ≠ hermes-switchyard; frozen-protocol zero-shot bench; TypeSafe Jev vs PrismNLI vs Laya; contamination caveat; elcronos/jev-vs-open-decision-models ≠ JevBench ≠ DMB; context-window admission control; VOI gate which tokens are worth the expensive model; fail polarity per lens; on small inputs lenses lose money; cvsgireesh/jevusher ≠ jev-sift ≠ winnow; typed decision control plane; receipt ≠ authorization; historical-v0 zero retained cases; MokiMeow/jev-fabric ≠ jev-forge ≠ dgp; live 15-dim typed rubric re-score per pause; scoring economics exemplar; OpenJev/Codiv ≠ TypeSafe hosted; jose-troche/live-rubric ~$0.000004 desc / ~$0.000006 README; adversarial pre-registered Jev eval; 28 predictions before data; 123,805 requests; confidence does not track ignorance; polite injection 65% / crude 0%; willkelly/jev-evaluation ≠ jevals ≠ jev-baselines-eval; provider-neutral Elixir/BEAM Noul/Choice/Score SDK; class infrastructure; nshkrdotcom/system_one_sdk ≠ typesafe_sdk ≠ dannote/jev
+
+## Is bias-bench BBQ? Treat a zero binary name gap as a fairness certificate? Hard-gate callback @ 0.5 as hiring policy?
+
+No, no, and no. resume-screening bias audit methodology. name×resume factorial independent Nouls. callback determined by resume quality. mean-probability name gaps operationally negligible. 1,824 independent Nouls; callback perfectly determined by resume quality; mean-p gaps ~0.4–0.6pp *theirs*, opposite the human audit, operationally negligible. Permutation p-values are function properties — read the magnitudes. JavaScript; license **null**; **0★**; HEAD `fe2f2535`; README SHA `a1c3e604`; GitHub size **0** with contents. natemoo-re/bias-bench ≠ BBQ. Soft Noul ≠ hard safety. `notes.md` §101.
+
+## Does planalyzer let Jev emit pass|review|block? Is it a single-goodness Noul? Hard-gate 0.72 as a merge seal?
+
+No, no, and no. Plan/PRD panel → code-owned pass|review|block. cheerleading out of scope. One batched System One call; **code** owns the verdict from `panel.json` (`noul_block_threshold` 0.72 / `noul_review_threshold` 0.4 / `severity_block_at` 2.0; invert literalist/scope). Choice `recommended_next_step` is advisory. Python MIT; **0★**; HEAD `39fc161f`; README SHA `6e4d8da3`. austindixson/planalyzer ≠ single-goodness Noul. `notes.md` §101.
+
+## Is switchboard-ai ha-switchboard? Is the routing smoke a Harbor? Are M4 provider adapters done?
+
+No, no, and no. cost-aware multi-model routing/escalation. decide vs do. successful-task cost. README V0.4 / package **0.4.0** match this pass; ARCHITECTURE M1–M5 functional (M4 least-privilege logical tool plans; M5 supervisor + workflow DAG); provider-specific MCP adapters and learned economics **not** done. JavaScript MIT; **1★**; HEAD `5cae9d1c`; README SHA `872de837`. cannacre8ive/switchboard-ai ≠ ha-switchboard ≠ hermes-switchyard. `notes.md` §101.
+
+## Did PrismNLI win the decision-model class? Is this JevBench / DMB? Treat remote 349 ms as local 31 ms?
+
+No, no, and no. frozen-protocol zero-shot bench. TypeSafe Jev vs PrismNLI vs Laya. contamination caveat. Jev 0.587 Brier 0.667 ECE 0.281 p50 349 ms remote $0.0284; PrismNLI 0.725 Brier 0.441 ECE 0.174 p50 58 ms local; Laya 0.587 Brier 0.707 ECE 0.307 p50 31 ms; Jev≈Laya McNemar p=1.000 *theirs*. All three overconfident. PrismNLI init from deberta-v3-large-zeroshot-v2.0 trained on emotion train/val. Python; license **null**; **0★**; HEAD `b61e6cfc`; README SHA `b7256888`. elcronos/jev-vs-open-decision-models ≠ JevBench ≠ DMB. `notes.md` §101.
+
+## Is jevusher jev-sift / winnow? Treat J7 pass as safe to obey? Paste 261/118 as Harbor?
+
+No, no, and no. context-window admission control. VOI gate which tokens are worth the expensive model. fail polarity per lens. on small inputs lenses lose money (offered 261 / sent 118 / jev read 6,866 to keep out 143 *theirs*). J7 pass = nothing detected, never safe to obey. TypeScript MIT; **0★**; HEAD `d830d344`; README SHA `428a4a59`; package 0.1.0. cvsgireesh/jevusher ≠ jev-sift ≠ winnow. `notes.md` §101.
+
+## Does a jev-fabric receipt authorize an effect? Is historical-v0 ECE usable? Is it jev-forge or DGP?
+
+No, no, and no. typed decision control plane. receipt ≠ authorization. historical-v0 zero retained cases (old ECE invalid: used TypeSafe confidence not max p). Tool-env **NOT_RUN**. Alpha 0.1.0-alpha.1. TypeScript Apache-2.0; **0★**; HEAD `95b9a4f3`; README SHA `f485dbdd`. MokiMeow/jev-fabric ≠ jev-forge ≠ dgp. `notes.md` §101.
+
+## Is live-rubric TypeSafe hosted? Is the price $0.000004 or $0.000006? Copy CODIV_API_KEY into the browser?
+
+No, no, and no. live 15-dim typed rubric re-score per pause. scoring economics exemplar. OpenJev/Codiv ≠ TypeSafe hosted. jose-troche/live-rubric ~$0.000004 desc / ~$0.000006 README (quote **both**). Key never in the browser. TypeScript; license **null**; **0★**; HEAD `db8da8db`; README SHA `4a0be084`. `notes.md` §101.
+
+## Is jev-evaluation jevals? Hard-gate confidence ≥0.95? Does Augustus own the injection fold?
+
+No, no, and no. adversarial pre-registered Jev eval. 28 predictions before data. 123,805 requests. confidence does not track ignorance (≥0.95 still admits 47% unanswerable *theirs*). polite injection 65% / crude 0%. 12/25 testable held; 13 wrong. ECE 0.075 on support-ticket; fails on 3-SAT. Python MIT; **0★**; HEAD `c168c093`; README SHA `2d66ac22`. willkelly/jev-evaluation ≠ jevals ≠ jev-baselines-eval. rh-guard owns injection/steer; Augustus owns pre-registration/calibration science. `notes.md` §101.
+
+## Is system_one_sdk typesafe_sdk? Is it dannote/jev? Is it TypeSafe official?
+
+No, no, and no. provider-neutral Elixir/BEAM Noul/Choice/Score SDK. class infrastructure. GitHub desc provider-neutral; README opening TypeSafe-first. First provider via `typesafe_api_sdk` path dep. mix **0.5.0**. Elixir MIT; **0★**; HEAD `c2a522ee`; README SHA `c117b4c4`; GitHub size **0** with contents. nshkrdotcom/system_one_sdk ≠ typesafe_sdk (**3★**) ≠ dannote/jev (**16★**). `notes.md` §101.
+
+## Did Archer land this hour? Treat Qwen3.8-27B as Archer? Invent tweets?
+
+No, no, and no. Hub `archerhume/4rcherhume` HTTP **401**. Tracker likes **54** (+3 vs §100 pin **51**); lastModified **CHANGED** `2026-09-20T02:59:13Z` (was §100 `2026-09-19T18:37:18Z`). Not re-fetched as a rewrite. Live REST pulse: SemIf **1984★** (+30 vs §100 **1954**); jevlike **1002★** (+13 vs §100 **989**); TypeAR-AI/TypeAR **11★** flat. AnotiaWang/awesome-jev **84★** ≠ Awesomejev 561/27007. `invented_signal: false`. `notes.md` §101.

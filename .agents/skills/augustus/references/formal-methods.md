@@ -897,6 +897,57 @@ treating boolean @ 0.5 as safety, claiming 10×, treating
 softmax as a Noul, or treating wiring tests as quality
 is the same theater.
 
+2041 envelopes (`notes.md` §101), still outside the extras
+template: resume-screening bias audit methodology;
+name×resume factorial independent Nouls;
+callback determined by resume quality;
+mean-probability name gaps operationally negligible;
+natemoo-re/bias-bench ≠ BBQ;
+Plan/PRD panel → code-owned pass|review|block;
+cheerleading out of scope;
+austindixson/planalyzer ≠ single-goodness Noul;
+cost-aware multi-model routing/escalation;
+decide vs do;
+successful-task cost;
+cannacre8ive/switchboard-ai ≠ ha-switchboard ≠ hermes-switchyard;
+frozen-protocol zero-shot bench;
+TypeSafe Jev vs PrismNLI vs Laya;
+contamination caveat;
+elcronos/jev-vs-open-decision-models ≠ JevBench ≠ DMB;
+context-window admission control;
+VOI gate which tokens are worth the expensive model;
+fail polarity per lens;
+on small inputs lenses lose money;
+cvsgireesh/jevusher ≠ jev-sift ≠ winnow;
+typed decision control plane;
+receipt ≠ authorization;
+historical-v0 zero retained cases;
+MokiMeow/jev-fabric ≠ jev-forge ≠ dgp;
+live 15-dim typed rubric re-score per pause;
+scoring economics exemplar;
+OpenJev/Codiv ≠ TypeSafe hosted;
+jose-troche/live-rubric ~$0.000004 desc / ~$0.000006 README;
+adversarial pre-registered Jev eval;
+28 predictions before data;
+123,805 requests;
+confidence does not track ignorance;
+polite injection 65% / crude 0%;
+willkelly/jev-evaluation ≠ jevals ≠ jev-baselines-eval;
+provider-neutral Elixir/BEAM Noul/Choice/Score SDK;
+class infrastructure;
+nshkrdotcom/system_one_sdk ≠ typesafe_sdk ≠ dannote/jev.
+Soft Noul ≠ hard safety: 25.0% / 0.72 / V0.4 / 0.587 /
+0.725 / 6,866 / zero retained cases / $0.000004 /
+$0.000006 / ECE 0.075 / 47% / 65% are **sensors**.
+The factorial design / panel aggregation / routing
+policy / PROTOCOL / fail polarity / Fabric packs /
+rubric compiler / pre-registered plan is exact work.
+Treating a zero binary name gap as a fairness
+certificate, letting Jev emit the verdict string,
+pasting PrismNLI's lead without the contamination
+caveat, treating J7 pass as safe to obey, treating a
+receipt as authorization, or hard-gating confidence
+≥0.95 is the same theater. rh-guard owns injection.
 
 Propose two placements if the hole is mixed (e.g. TLA+ on the protocol
 + DST on the SDK + judgment triaging failing seeds). Do not invent a

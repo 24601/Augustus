@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-20T01:43Z",
+  "retrieved": "2026-09-20T02:41Z",
   "sources": [
     {
       "kind": "docs",
@@ -3739,6 +3739,61 @@
       "title": "mizorewww/laya-mlx",
       "url": "https://github.com/mizorewww/laya-mlx",
       "note": "Apache-2.0; 4★. Sibling MLX comparison arm of laya-coreml (7–14 ms short decisions on M3 Max). Not the 1943 ANE card. notes.md §100."
+    },
+    {
+      "kind": "github",
+      "title": "natemoo-re/bias-bench",
+      "url": "https://github.com/natemoo-re/bias-bench",
+      "note": "PRIMARY Augustus hourly 2041. JavaScript; GitHub license null; 0★; HEAD fe2f2535; README SHA a1c3e604; GitHub size 0 with contents; package 0.1.0. resume-screening bias audit methodology. name×resume factorial independent Nouls. callback determined by resume quality. mean-probability name gaps operationally negligible. natemoo-re/bias-bench ≠ BBQ. 1824 independent Nouls *theirs*. Do not copy npm/keys. notes.md §101."
+    },
+    {
+      "kind": "github",
+      "title": "austindixson/planalyzer",
+      "url": "https://github.com/austindixson/planalyzer",
+      "note": "Python MIT; 0★; HEAD 39fc161f; README SHA 6e4d8da3; LICENSE SHA c74bef92; size 0 with contents. Plan/PRD panel → code-owned pass|review|block. cheerleading out of scope. austindixson/planalyzer ≠ single-goodness Noul. noul_block 0.72 / review 0.4 / severity_block_at 2.0 *theirs*. notes.md §101."
+    },
+    {
+      "kind": "github",
+      "title": "cannacre8ive/switchboard-ai",
+      "url": "https://github.com/cannacre8ive/switchboard-ai",
+      "note": "JavaScript MIT; 1★ live REST; HEAD 5cae9d1c; README SHA 872de837; LICENSE SHA 85b5651c; package 0.4.0. cost-aware multi-model routing/escalation. decide vs do. successful-task cost. cannacre8ive/switchboard-ai ≠ ha-switchboard ≠ hermes-switchyard. V0.4 / M4–M5 functional as logical plans+DAG; MCP adapters / learned economics not done *theirs*. notes.md §101."
+    },
+    {
+      "kind": "github",
+      "title": "elcronos/jev-vs-open-decision-models",
+      "url": "https://github.com/elcronos/jev-vs-open-decision-models",
+      "note": "Python; GitHub license null; 0★; HEAD b61e6cfc; README SHA b7256888; size 0 with contents. frozen-protocol zero-shot bench. TypeSafe Jev vs PrismNLI vs Laya. contamination caveat. elcronos/jev-vs-open-decision-models ≠ JevBench ≠ DMB. Jev 0.587 / PrismNLI 0.725 / Laya 0.587 *theirs*. notes.md §101."
+    },
+    {
+      "kind": "github",
+      "title": "cvsgireesh/jevusher",
+      "url": "https://github.com/cvsgireesh/jevusher",
+      "note": "TypeScript MIT; 0★; HEAD d830d344; README SHA 428a4a59; LICENSE SHA 9f72a3d7; package 0.1.0; GitHub size 81. context-window admission control. VOI gate which tokens are worth the expensive model. fail polarity per lens. on small inputs lenses lose money. cvsgireesh/jevusher ≠ jev-sift ≠ winnow. notes.md §101."
+    },
+    {
+      "kind": "github",
+      "title": "MokiMeow/jev-fabric",
+      "url": "https://github.com/MokiMeow/jev-fabric",
+      "note": "TypeScript Apache-2.0; 0★; HEAD 95b9a4f3; README SHA f485dbdd; LICENSE SHA 261eeb9e; package 0.1.0-alpha.1; size 400. typed decision control plane. receipt ≠ authorization. historical-v0 zero retained cases. MokiMeow/jev-fabric ≠ jev-forge ≠ dgp. notes.md §101."
+    },
+    {
+      "kind": "github",
+      "title": "jose-troche/live-rubric",
+      "url": "https://github.com/jose-troche/live-rubric",
+      "note": "TypeScript; GitHub license null; 0★; HEAD db8da8db; README SHA 4a0be084; package 1.0.0. live 15-dim typed rubric re-score per pause. scoring economics exemplar. OpenJev/Codiv ≠ TypeSafe hosted. jose-troche/live-rubric ~$0.000004 desc / ~$0.000006 README. notes.md §101."
+    },
+    {
+      "kind": "github",
+      "title": "willkelly/jev-evaluation",
+      "url": "https://github.com/willkelly/jev-evaluation",
+      "note": "Python MIT; 0★; HEAD c168c093; README SHA 2d66ac22; LICENSE SHA 369b7234; size 5145. adversarial pre-registered Jev eval. 28 predictions before data. 123,805 requests. confidence does not track ignorance. polite injection 65% / crude 0%. willkelly/jev-evaluation ≠ jevals ≠ jev-baselines-eval. rh-guard owns injection. notes.md §101."
+    },
+    {
+      "kind": "github",
+      "title": "nshkrdotcom/system_one_sdk",
+      "url": "https://github.com/nshkrdotcom/system_one_sdk",
+      "note": "Elixir MIT; 0★; HEAD c2a522ee; README SHA c117b4c4; LICENSE SHA fa8ed9a6; mix 0.5.0; GitHub size 0 with contents. provider-neutral Elixir/BEAM Noul/Choice/Score SDK. class infrastructure. GitHub desc provider-neutral; README opening TypeSafe-first. nshkrdotcom/system_one_sdk ≠ typesafe_sdk ≠ dannote/jev. notes.md §101."
     }
+
   ]
 }
