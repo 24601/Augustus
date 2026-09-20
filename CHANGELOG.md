@@ -96,7 +96,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   README SHA `5cbe01d4`; size **324**).
   Soft Noul ≠ hard safety. 0★ HIGH still got a real card
   (awesome-jev-projects **135★**; jevbetter **12★**). Census
-  **live REST pulse**: SemIf **2044★** (+25 vs §103 **2019**);
+  **live REST pulse**: SemIf **2045★** (+26 vs §103 **2019**);
   jevlike **1013★** (+7 vs §103 **1006**); TypeAR **12★**
   **flat**. Tracker `multimodalart/jev-reproductions-tracker`
   likes **56**; lastModified
@@ -108,8 +108,8 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
   Independent adversarial review relock (PR #22
   after `babb111`): HIGH HEAD/README unchanged;
   star/size lag locked (awesome **135★**; SemIf
-  **2044★**; jevlike **1013★**; AnotiaWang **89★**;
-  OpenJevPro size **64**; simple-jev **316★**;
+  **2045★**; jevlike **1013★**; AnotiaWang **89★**;
+  OpenJevPro size **64**; simple-jev **317★**;
   openjev-sglang **204★**; RLCD size **1513**;
   Colvin size **814**; yibie **427★**; cobanov **222★**).
   `invented_signal: false`. Do not

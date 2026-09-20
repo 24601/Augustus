@@ -22221,7 +22221,7 @@ shuffled-context control 0.335.
      flags what stays generative; scaffolds a
      client against
      [`featherless-ai/simple-jev`](https://github.com/featherless-ai/simple-jev)
-     (**316★** live REST; not TypeSafe). Do
+     (**317★** live REST; not TypeSafe). Do
      **not** copy `git clone` / `cp -r` /
      Featherless demo endpoint. Do not dump
      `skills/`.
@@ -22575,7 +22575,7 @@ keys / install recipes.
 
 Census **not provided this hour** (not
 re-derived). Live REST pulse only: SemIf
-**2044★** (+25 vs §103 **2019**; +19 vs first 2340 pin **2025**; +13 vs first-review pin **2031**; +3 vs `babb111` **2041**); jevlike
+**2045★** (+26 vs §103 **2019**; +20 vs first 2340 pin **2025**; +14 vs first-review pin **2031**; +4 vs `babb111` **2041**); jevlike
 **1013★** (+7 vs §103 **1006**; +3 vs first-review **1010**; +2 vs `babb111` **1011**);
 TypeAR-AI/TypeAR **12★** **flat**;
 AnotiaWang/awesome-jev **89★** (+2 vs §103 **87**) still
@@ -22602,11 +22602,11 @@ Independent adversarial review relock
 HIGH HEAD/README pins unchanged.
 logicrw **135★** (was **134★** / first pin **132★**;
 HEAD `97057cc1` / README SHA `25a19b31`
-unchanged — auto GitHub sync). SemIf **2044★** /
+unchanged — auto GitHub sync). SemIf **2045★** /
 jevlike **1013★**. AnotiaWang **89★** (was **88★** / §103 **87**).
 OpenJevPro GitHub size **64** (was **62**; HEAD
 `94d77bcb` / README SHA `50c77ace` unchanged).
-simple-jev **316★** (was **314★** / first-review **311★**). openjev-sglang
+simple-jev **317★** (was **314★** / first-review **311★**). openjev-sglang
 **204★** (was **202★**). RLCD GitHub size **1513**
 (HEAD `62b103b3` unchanged). Colvin0315/MiniSystemOne
 size **814** (HEAD `ac5a0eea` / README SHA

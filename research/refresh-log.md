@@ -2064,15 +2064,15 @@
   jev-recall despite attached JSON (quote README demos);
   JevPi GitHub size 0 with contents (same honesty as gut);
   0★ HIGH still got a real card.
-## 2026-09-20T06:36Z — hourly 2340 independent adversarial relock after `babb111` (PR #22)
+## 2026-09-20T06:37Z — hourly 2340 independent adversarial relock after `babb111` (PR #22)
 
 - Independent review of `babb111` (prior PASS claimed live REST).
   HIGH HEAD/README pins still unchanged. Named pulse drifted:
-  SemIf **2044★** (was **2041★**; +25 vs §103 **2019**).
+  SemIf **2045★** (was **2041★**; +26 vs §103 **2019**).
   jevlike **1013★** (was **1011★**; +7 vs §103 **1006**).
   TypeAR **12★** **flat**. AnotiaWang **89★** (was **88★**).
   yibie **427★** (was **423★**). cobanov **222★** (was **221★**).
-  simple-jev **316★** (was **314★**). logicrw **135★** /
+  simple-jev **317★** (was **314★**). logicrw **135★** /
   openjev-sglang **204★** / OpenJevPro size **64** unchanged.
   Tracker `multimodalart/jev-reproductions-tracker` likes **56** /
   lastModified `2026-09-20T04:29:16.000Z` unchanged.
