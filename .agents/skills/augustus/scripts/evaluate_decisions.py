@@ -753,6 +753,49 @@ def evaluate_load_bf16_honour(weights_dtype, merged=False):
     return merged is False
 
 
+
+def v3_prepared_is_not_retrained(kind, retrained=False):
+    """v3 data prepared ≠ retrained released models."""
+    if kind != "openjev_v3_data":
+        raise ValueError("unexpected kind")
+    return retrained is False
+
+
+def held_out_protocol_is_not_harbor(kind, harbor=False):
+    """held-out protocol ≠ Harbor."""
+    if kind != "openjev_held_out":
+        raise ValueError("unexpected kind")
+    return harbor is False
+
+
+def panel_1280_is_not_harbor(n_rows, n_groups, harbor=False):
+    """1,280-row / 840-group comparison panel ≠ Harbor."""
+    if (n_rows, n_groups) != (1280, 840):
+        raise ValueError("unexpected panel")
+    return harbor is False
+
+
+def finite_loss_is_not_quality(kind, quality=False):
+    """finite training loss ≠ quality improvement."""
+    if kind != "finite_training_loss":
+        raise ValueError("unexpected kind")
+    return quality is False
+
+
+def website_redesign_is_not_calibration(kind, calibrated=False):
+    """website redesign ≠ calibration."""
+    if kind != "project_site_redesign":
+        raise ValueError("unexpected kind")
+    return calibrated is False
+
+
+def naive_merge_throws_83(kind, recovered=False):
+    """naive throws away 83% *theirs*."""
+    if kind != "naive_chunk_merge":
+        raise ValueError("unexpected kind")
+    return recovered is False
+
+
 def five_to_ten_x_is_not_harbor(kind, harbor=False):
     """5-10× *theirs* not Harbor."""
     if kind != "browser_ops_speedup":
@@ -1156,6 +1199,26 @@ def self_test():
     assert theirs_bench_is_not_harbor(550, "kev-35b-mmlu-pro-0.550")
     assert theirs_bench_is_not_harbor(644, "system-one-gemma-64.4")
     assert theirs_bench_is_not_harbor(8658, "jevbench-public-jev-86.58")
+
+    # 0151: v3 prepared ≠ retrained / held-out protocol ≠ Harbor /
+    # 1,280-row panel ≠ Harbor / finite loss ≠ quality / website
+    # redesign ≠ calibration / naive merge throws 83.
+    assert v3_prepared_is_not_retrained("openjev_v3_data", False)
+    assert not v3_prepared_is_not_retrained("openjev_v3_data", True)
+    assert held_out_protocol_is_not_harbor("openjev_held_out", False)
+    assert not held_out_protocol_is_not_harbor("openjev_held_out", True)
+    assert panel_1280_is_not_harbor(1280, 840, False)
+    assert not panel_1280_is_not_harbor(1280, 840, True)
+    assert finite_loss_is_not_quality("finite_training_loss", False)
+    assert not finite_loss_is_not_quality("finite_training_loss", True)
+    assert website_redesign_is_not_calibration("project_site_redesign", False)
+    assert not website_redesign_is_not_calibration("project_site_redesign", True)
+    assert naive_merge_throws_83("naive_chunk_merge", False)
+    assert not naive_merge_throws_83("naive_chunk_merge", True)
+    assert theirs_bench_is_not_harbor(83, "jev-wide-naive-83")
+    assert theirs_bench_is_not_harbor(8, "certo-kl-0.008")
+    assert theirs_bench_is_not_harbor(781, "first-instinct-78.1")
+
 
     print("self-test ok")
 

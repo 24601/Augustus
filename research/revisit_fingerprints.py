@@ -277,10 +277,10 @@ def self_test() -> None:
     nano_readme = by_id["github:TianyuCodings/NanoJev"].get("readme_sha")
     assert isinstance(nano_readme, str) and nano_readme.startswith("4190093c64ee")
     openjev = by_id["github:Zefan-Cai/Open-Jev"]["fingerprints"]
-    assert openjev["default_sha"] == "f46ff604f794b1932d1a6f34725c8163e550952a"
-    assert openjev["pushed_at"] == "2026-09-21T06:58:07Z"
+    assert openjev["default_sha"] == "ed45657bf726c3b77408942830e5578f99df904e"
+    assert openjev["pushed_at"] == "2026-09-21T07:40:27Z"
     openjev_readme = by_id["github:Zefan-Cai/Open-Jev"].get("readme_sha")
-    assert isinstance(openjev_readme, str) and openjev_readme.startswith("e32c4bbd519c")
+    assert isinstance(openjev_readme, str) and openjev_readme.startswith("12e0f581e15d")
     assert by_id["hf:ZefanCai/Open-Jev-2B"]["fingerprints"]["default_sha"].startswith("0c7aa498b162")
     assert by_id["hf:ZefanCai/Open-Jev-9B"]["fingerprints"]["default_sha"].startswith("47e966881e48")
     assert by_id["hf:ds:ZefanCai/Open-Jev"]["fingerprints"]["default_sha"].startswith("c67699e13d0a")

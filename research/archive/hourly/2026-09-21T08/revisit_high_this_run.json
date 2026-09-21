@@ -1,0 +1,18 @@
+[
+  {
+    "id": "Zefan-Cai/Open-Jev",
+    "kind": "revisit",
+    "stars": 34,
+    "description": "REVISIT densify: HEAD f46ff604f794\u2192ed45657bf726; audited v3 community data + held-out eval + project site (*theirs*)",
+    "html_url": "https://github.com/Zefan-Cai/Open-Jev",
+    "source": "github",
+    "material": [
+      "new_bench",
+      "readme",
+      "head_sha",
+      "website"
+    ],
+    "prior_sha": "f46ff604f794b1932d1a6f34725c8163e550952a",
+    "new_sha": "ed45657bf726c3b77408942830e5578f99df904e"
+  }
+]

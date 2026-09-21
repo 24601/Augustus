@@ -16,6 +16,43 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 0151 HIGH (`research/notes.md` §137 / composition items
+601–616 / findings batch #119). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#60.
+Do not amend released 0.5.0 (#42). Merged #60 owns §136. Merged #59
+owns §135. Merged #58 owns §134.
+
+### Added
+
+- **Hourly 0151 HIGH (`notes.md` §137).** Open-Jev v3 densify HEAD
+  ed45657bf726 / README SHA 12e0f581e15d. v3 data prepared ≠ retrained
+  released models. held-out protocol ≠ Harbor. 1,280-row panel ≠ Harbor.
+  finite training loss ≠ quality improvement. website redesign ≠
+  calibration. jev-wide naive throws away 83% *theirs*. certo KL 0.008
+  acc 0.844 ECE 0.004 *theirs*. first-instinct 63.3%→78.1% *theirs* not
+  Harbor. Jev is a gate not a generator. community port ≠ TypeSafe.
+  skip-thin empty SHA.
+  Evaluator: v3 prepared ≠ retrained / held-out protocol ≠ Harbor /
+  1,280-row panel ≠ Harbor / finite loss ≠ quality / website redesign ≠
+  calibration / naive merge throws 83.
+  uniqueness_gate.py now checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 +
+  1049 + 1143 + 1248 + 1340 + 1441 + 1542 + 1643 + 1746 + 1843 + 1936 +
+  Open-Jev densify + 1946 + 2049 + 2146 + 2246 + 2347 + 0049 + 0151.
+  Composition items 601–616 / batch #119.
+  **HARD RULE:** do not reopen or amend PR #23–#60. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat v3 rows as a
+  released replica, a held-out protocol as Harbor, 83% as Harbor, or Jev
+  as a Lean writer. With Augustus: v3 data prepared ≠ retrained released
+  models; held-out protocol ≠ Harbor; 1,280-row panel ≠ Harbor; finite
+  training loss ≠ quality improvement; website redesign ≠ calibration;
+  Jev is a gate not a generator; *theirs* not Harbor.
+  Same split for any Choice/Score/Noul-style head, not only hosted Jev.
+
+
 Hourly 0049 HIGH (`research/notes.md` §136 / composition items
 585–600 / findings batch #118). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in

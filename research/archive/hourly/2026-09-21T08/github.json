@@ -1,0 +1,689 @@
+[
+  {
+    "id": "flyryan/ai-news-aggregator",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Multi-agent AI news pipeline powered by GLM-5.3-Flash and Jev",
+    "full_name": "flyryan/ai-news-aggregator",
+    "html_url": "https://github.com/flyryan/ai-news-aggregator",
+    "license": "Apache-2.0",
+    "pushed_at": "2026-09-21T07:38:04Z",
+    "stars": 26,
+    "date": "2026-09-21T07:37:57Z",
+    "sha": "e54181085185164336da94d2fbfda3d4a769f030",
+    "readme": {
+      "readme_sha": "68dadec86d575d6911653c48911c366aec1a540d",
+      "size": 38802
+    }
+  },
+  {
+    "id": "chy4pro/jev-for-chrome",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Jev for Chrome: drives the tab you are looking at with TypeSafe Jev, a sub-second decision model. Community port of browser-use/jev-ultrafast, not affiliated with TypeSafe.",
+    "full_name": "chy4pro/jev-for-chrome",
+    "html_url": "https://github.com/chy4pro/jev-for-chrome",
+    "license": "MIT",
+    "pushed_at": "2026-09-21T07:03:07Z",
+    "stars": 12,
+    "date": "2026-09-21T07:02:11Z",
+    "sha": "a6ddd3a608102f4372e0be9e9de55f29f6dcccd0",
+    "readme": {
+      "readme_sha": "423ce99eff366c15eaf7967c4ec9802cffa96d18",
+      "size": 17227
+    }
+  },
+  {
+    "id": "endomorphosis/JevOps",
+    "ok": true,
+    "default_branch": "main",
+    "description": null,
+    "full_name": "endomorphosis/JevOps",
+    "html_url": "https://github.com/endomorphosis/JevOps",
+    "license": "AGPL-3.0",
+    "pushed_at": "2026-09-21T07:35:07Z",
+    "stars": 5,
+    "date": "2026-09-21T07:35:01Z",
+    "sha": "77a384d2c3e4b6b8236d8be1814421fdd77a6b77",
+    "readme": {
+      "readme_sha": "431e972fe0008c218b70276aebc8c44616f959d2",
+      "size": 17639
+    }
+  },
+  {
+    "id": "PsiACE/dohnuts",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Dohnuts builds small multimodal models for direct decisions. -> System One model",
+    "full_name": "PsiACE/dohnuts",
+    "html_url": "https://github.com/PsiACE/dohnuts",
+    "license": "Apache-2.0",
+    "pushed_at": "2026-09-21T06:18:44Z",
+    "stars": 4,
+    "date": "2026-09-21T06:18:37Z",
+    "sha": "a5049834489cbfcfbd2fb0f7a41610ddd5cf80d5",
+    "readme": {
+      "readme_sha": "e1b448c440b511acb57c47498b3ca0df03ba0169",
+      "size": 3003
+    }
+  },
+  {
+    "id": "buluoray/JevOnly",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Pure Jev that can \"type\" and drive towards task completion.",
+    "full_name": "buluoray/JevOnly",
+    "html_url": "https://github.com/buluoray/JevOnly",
+    "license": "Apache-2.0",
+    "pushed_at": "2026-09-21T07:44:01Z",
+    "stars": 2,
+    "date": "2026-09-21T07:44:01Z",
+    "sha": "2b1c79e5b0e4e5b67aefaa260510832e5a63520e",
+    "readme": {
+      "readme_sha": "48e84788ef6789d8c6013167f4ed0c525af2c8c3",
+      "size": 3415
+    }
+  },
+  {
+    "id": "Dililianxice/jev-inner-speech-bci",
+    "ok": true,
+    "default_branch": "main",
+    "description": "A reproducible benchmark connecting Jev semantic priors with intracortical inner-speech BCI decoding.",
+    "full_name": "Dililianxice/jev-inner-speech-bci",
+    "html_url": "https://github.com/Dililianxice/jev-inner-speech-bci",
+    "license": "MIT",
+    "pushed_at": "2026-09-21T07:02:25Z",
+    "stars": 1,
+    "date": "2026-09-21T07:02:25Z",
+    "sha": "f5090f297125caf0d88e65feaefc3b2f8d8643b1",
+    "readme": {
+      "readme_sha": "705abf3194e282726a4873c9869831066a6dce66",
+      "size": 8418
+    }
+  },
+  {
+    "id": "catoenm/first-instinct",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Train and inspect a small decision model on your Mac. Public data, full fine-tuning, honest evaluation, and downloadable weights.",
+    "full_name": "catoenm/first-instinct",
+    "html_url": "https://github.com/catoenm/first-instinct",
+    "license": "MIT",
+    "pushed_at": "2026-09-21T07:56:19Z",
+    "stars": 1,
+    "date": "2026-09-21T07:56:17Z",
+    "sha": "7f439e5a84032de584e3a640c95492eb4244418b",
+    "readme": {
+      "readme_sha": "070f6b856f61d5751a8c0cbc47d5f7ed3653ead0",
+      "size": 29478
+    }
+  },
+  {
+    "id": "jimmyliao/jev-storyboard-lab",
+    "ok": true,
+    "default_branch": "master",
+    "description": "Google ADK vs Microsoft Agent Framework for structured-output agents, with TypeSafe Jev as a vendor-neutral QC gate",
+    "full_name": "jimmyliao/jev-storyboard-lab",
+    "html_url": "https://github.com/jimmyliao/jev-storyboard-lab",
+    "license": "MIT",
+    "pushed_at": "2026-09-21T07:47:02Z",
+    "stars": 1,
+    "date": "2026-09-21T07:47:00Z",
+    "sha": "bde47c2eb14624569a7c50639bffc544f07e59e6",
+    "readme": {
+      "readme_sha": "88889e743a3aa5373ffea41904f88e4fd834e819",
+      "size": 6866
+    }
+  },
+  {
+    "id": "karminski/Jev-Quantum",
+    "ok": true,
+    "default_branch": "main",
+    "description": "\u4e9a\u5fae\u79d2\u7ea7 System-1 \u6a21\u578b\uff0c\u51c6\u786e\u7387\u670d\u4ece\u9ad8\u65af\u5206\u5e03",
+    "full_name": "karminski/Jev-Quantum",
+    "html_url": "https://github.com/karminski/Jev-Quantum",
+    "license": "MIT",
+    "pushed_at": "2026-09-21T07:44:22Z",
+    "stars": 1,
+    "date": "2026-09-21T07:44:11Z",
+    "sha": "b54ec4759f69c6e7a36f385ba45d5e5b0d0e3e70",
+    "readme": {
+      "readme_sha": "1736926f079865f922c5666643c564de4cec353b",
+      "size": 2033
+    }
+  },
+  {
+    "id": "muhandis525/jev-esp32s3-gateway",
+    "ok": true,
+    "default_branch": "main",
+    "description": "ESP32-S3 Jev firmware and secure BLE/Wi-Fi IoT gateway",
+    "full_name": "muhandis525/jev-esp32s3-gateway",
+    "html_url": "https://github.com/muhandis525/jev-esp32s3-gateway",
+    "license": "Apache-2.0",
+    "pushed_at": "2026-09-21T07:51:10Z",
+    "stars": 1,
+    "date": "2026-09-21T07:50:41Z",
+    "sha": "e14cc8048e23de66ef31ab40cbd95356a921e410",
+    "readme": {
+      "readme_sha": "001467e81296f0d6c3e63712a9de2ce13573af20",
+      "size": 7188
+    }
+  },
+  {
+    "id": "venumadhav7484/jev-bot",
+    "ok": true,
+    "default_branch": "main",
+    "description": null,
+    "full_name": "venumadhav7484/jev-bot",
+    "html_url": "https://github.com/venumadhav7484/jev-bot",
+    "license": null,
+    "pushed_at": "2026-09-21T07:29:56Z",
+    "stars": 1,
+    "date": "2026-09-21T07:29:54Z",
+    "sha": "3ccb0ee807d335ded82811719c69fc2c215dda8f",
+    "readme": {
+      "readme_sha": "ffd8b19ba1f7b2d00c407e07ff6b6b6decc40b36",
+      "size": 18687
+    }
+  },
+  {
+    "id": "vsekhar/DecisionModels",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Decision model framework for Swift apps",
+    "full_name": "vsekhar/DecisionModels",
+    "html_url": "https://github.com/vsekhar/DecisionModels",
+    "license": "Apache-2.0",
+    "pushed_at": "2026-09-21T05:52:57Z",
+    "stars": 1,
+    "date": "2026-09-21T05:52:56Z",
+    "sha": "d5a4914184c41d70a7948049d0b78915cc1bbd6f",
+    "readme": {
+      "readme_sha": "eceab7f3679d7532bd9befffe96b22b6837b3345",
+      "size": 8077
+    }
+  },
+  {
+    "id": "zzz1YAO/DataJev",
+    "ok": true,
+    "default_branch": "main",
+    "description": "\u26a1 DataJev  LLM \u2192 Analyze Jev \u2192 Continue / Switch / Verify / Stop  System-1 control for System-2 data agents",
+    "full_name": "zzz1YAO/DataJev",
+    "html_url": "https://github.com/zzz1YAO/DataJev",
+    "license": "MIT",
+    "pushed_at": "2026-09-21T07:29:33Z",
+    "stars": 1,
+    "date": "2026-09-21T07:28:16Z",
+    "sha": "b42d67c7f2034a802451615c7e60e2c39c174fc3",
+    "readme": {
+      "readme_sha": "14cb376e2b3c4f7d7aaa4011925e745f0947f5e5",
+      "size": 4884
+    }
+  },
+  {
+    "id": "123Satyajeet123/jev-wide",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Rank or pick from more candidates than Jev can see in one call. The documented limit is 255 options; the real one is ~32,768 tokens. Naive chunk-merging throws away 83% of reranking's value -- measured on BEIR scifact, with controls.",
+    "full_name": "123Satyajeet123/jev-wide",
+    "html_url": "https://github.com/123Satyajeet123/jev-wide",
+    "license": "MIT",
+    "pushed_at": "2026-09-21T07:14:24Z",
+    "stars": 0,
+    "date": "2026-09-21T07:14:22Z",
+    "sha": "51c67c79b9f77b09e73109b11b4dc92fa7f6d006",
+    "readme": {
+      "readme_sha": "43e528cd7c038ac5c4c8573e63913e1d45743f3b",
+      "size": 11397
+    }
+  },
+  {
+    "id": "Akashdb5/jev-router",
+    "ok": true,
+    "default_branch": "master",
+    "description": "Jev-powered security screening and cost-aware routing for OpenAI, Anthropic, and OpenRouter LLMs.",
+    "full_name": "Akashdb5/jev-router",
+    "html_url": "https://github.com/Akashdb5/jev-router",
+    "license": "MIT",
+    "pushed_at": "2026-09-21T07:44:49Z",
+    "stars": 0,
+    "date": "2026-09-21T07:41:11Z",
+    "sha": "2a137e11e2e25e8d351dead6d64b9412e0960feb",
+    "readme": {
+      "readme_sha": "075eeff3f2d8b56a2eef5479527189462cfb20e5",
+      "size": 1067
+    }
+  },
+  {
+    "id": "AltSlate-Labs/certo",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Small models that know how sure they are \u2014 a toolkit for narrow, calibrated decision models. Research preview.",
+    "full_name": "AltSlate-Labs/certo",
+    "html_url": "https://github.com/AltSlate-Labs/certo",
+    "license": "MIT",
+    "pushed_at": "2026-09-21T01:29:25Z",
+    "stars": 0,
+    "date": "2026-09-21T01:29:23Z",
+    "sha": "ed4d1333e5269418c1a519cd966a36b6559c0f15",
+    "readme": {
+      "readme_sha": "af57eb5603f7118c0616336c97a417f46fde1ae7",
+      "size": 8274
+    }
+  },
+  {
+    "id": "DowLucas/browser-jev",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Adversarial browser testing: personas explore your web app while Jev judges every page state",
+    "full_name": "DowLucas/browser-jev",
+    "html_url": "https://github.com/DowLucas/browser-jev",
+    "license": "MIT",
+    "pushed_at": "2026-09-21T07:53:59Z",
+    "stars": 0,
+    "date": "2026-09-21T07:53:57Z",
+    "sha": "dcfeb0da71e559e1b51830da8f5cb3c218416e95",
+    "readme": {
+      "readme_sha": "35e8787e31859a45976ce36a0fe9997b69ece784",
+      "size": 16782
+    }
+  },
+  {
+    "id": "Iskandeur/system1-system2",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Hybrid System 1 (TypeSafe Jev decisions) + System 2 (Claude Fable) demo with confidence-gated routing and cost/accuracy benchmarks.",
+    "full_name": "Iskandeur/system1-system2",
+    "html_url": "https://github.com/Iskandeur/system1-system2",
+    "license": null,
+    "pushed_at": "2026-09-21T07:47:01Z",
+    "stars": 0,
+    "readme_err": "gh: This repository is empty. (HTTP 404)\n"
+  },
+  {
+    "id": "Joker666/Reflex",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Minimal native macOS intent router for browser and profile selection",
+    "full_name": "Joker666/Reflex",
+    "html_url": "https://github.com/Joker666/Reflex",
+    "license": null,
+    "pushed_at": "2026-09-21T07:27:54Z",
+    "stars": 0,
+    "date": "2026-09-21T07:27:47Z",
+    "sha": "70c728376c07469db9d66a6658a56414cd0cd646",
+    "readme": {
+      "readme_sha": "f8b17a5299523e8487942c3567f995269dacd254",
+      "size": 2156
+    }
+  },
+  {
+    "id": "RadRebelSam/whichjudge.dev",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Replacement matrix for cheap judge / decision models.",
+    "full_name": "RadRebelSam/whichjudge.dev",
+    "html_url": "https://github.com/RadRebelSam/whichjudge.dev",
+    "license": "NOASSERTION",
+    "pushed_at": "2026-09-21T07:38:18Z",
+    "stars": 0,
+    "date": "2026-09-21T07:38:11Z",
+    "sha": "54b563447171d7f9a65c3207a81704c0cbb71493",
+    "readme": {
+      "readme_sha": "d834e0a0f8a570333a54707e752f3beddd3211ff",
+      "size": 27979
+    }
+  },
+  {
+    "id": "chengyongru/fastjev",
+    "ok": true,
+    "default_branch": "main",
+    "description": "SDK-first, independently maintained SemIf fork for fast, self-hosted semantic decisions.",
+    "full_name": "chengyongru/fastjev",
+    "html_url": "https://github.com/chengyongru/fastjev",
+    "license": "MIT",
+    "pushed_at": "2026-09-21T08:03:28Z",
+    "stars": 0,
+    "date": "2026-09-21T08:00:26Z",
+    "sha": "2867179155b9088e44262bfd8ee8fdde410d6634",
+    "readme": {
+      "readme_sha": "573cd5d4face2ee860416d6eb69e3dccb5914eac",
+      "size": 11538
+    }
+  },
+  {
+    "id": "gbesse/decision-solver",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Combine Jev preferences with finite constraints, exact bounded search and verifiable backend adapters.",
+    "full_name": "gbesse/decision-solver",
+    "html_url": "https://github.com/gbesse/decision-solver",
+    "license": "MIT",
+    "pushed_at": "2026-09-21T06:52:01Z",
+    "stars": 0,
+    "date": "2026-09-21T06:50:56Z",
+    "sha": "dbf261daccf0145c479cdcbf8869a0aa2a51187f",
+    "readme": {
+      "readme_sha": "8d7a48227c1f02cb43856675c5d2a68046b63d4f",
+      "size": 3810
+    }
+  },
+  {
+    "id": "gbesse/question-forge",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Compare question formulations with held-out evaluation, bounded experiments and DecisionPack export.",
+    "full_name": "gbesse/question-forge",
+    "html_url": "https://github.com/gbesse/question-forge",
+    "license": "MIT",
+    "pushed_at": "2026-09-21T06:52:11Z",
+    "stars": 0,
+    "date": "2026-09-21T06:51:20Z",
+    "sha": "0754a0c4bc0baa10e1f34bf7311d0d1020f81a09",
+    "readme": {
+      "readme_sha": "6246d294901bff18e2302f48c535ec4948634aaa",
+      "size": 4077
+    }
+  },
+  {
+    "id": "gbesse/agent-mandates",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Bound agent actions with signed mandates, attenuated delegation and an idempotent budget ledger.",
+    "full_name": "gbesse/agent-mandates",
+    "html_url": "https://github.com/gbesse/agent-mandates",
+    "license": "MIT",
+    "pushed_at": "2026-09-21T06:02:58Z",
+    "stars": 0,
+    "date": "2026-09-21T06:02:51Z",
+    "sha": "e2bc3d629de0ddac02a6b0dec50c9eca0ebcdf8e",
+    "readme": {
+      "readme_sha": "2d41e540be9d31345aae331f019ce91f966c3bc3",
+      "size": 5864
+    }
+  },
+  {
+    "id": "grapefruit0205/jev-save",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Runtime efficiency guard for coding agents (Claude Code, Codex): Jev judges each tool call for necessity, redundancy and scope before it runs. Built on jev-guard.",
+    "full_name": "grapefruit0205/jev-save",
+    "html_url": "https://github.com/grapefruit0205/jev-save",
+    "license": "NOASSERTION",
+    "pushed_at": "2026-09-21T07:28:47Z",
+    "stars": 0,
+    "date": "2026-09-21T07:28:45Z",
+    "sha": "fac1bc21d1fc014b35bde8b25e83356768fba9a5",
+    "readme": {
+      "readme_sha": "4f98c6eaecfcc0c37f906c18fe2a5a32abc67a0e",
+      "size": 15194
+    }
+  },
+  {
+    "id": "xienda/dsh-jev-verify",
+    "ok": true,
+    "default_branch": "master",
+    "description": "Jev (TypeSafe System One) decision tools + live verification benchmark for DeepSeek Harness: jev_decision (choice/score/noul) and jev_verify, honest by design.",
+    "full_name": "xienda/dsh-jev-verify",
+    "html_url": "https://github.com/xienda/dsh-jev-verify",
+    "license": "MIT",
+    "pushed_at": "2026-09-21T07:17:45Z",
+    "stars": 0,
+    "date": "2026-09-21T07:17:45Z",
+    "sha": "be731a656dacaf891b079ca9fe1f5fdc0d4af024",
+    "readme": {
+      "readme_sha": "4df3f67921c24dd66330e0cded22289ea579e9b5",
+      "size": 5803
+    }
+  },
+  {
+    "id": "zavocc/ground-zero",
+    "ok": true,
+    "default_branch": "master",
+    "description": "Eval framework library to evaluate AI hallucinations, correctness, and instruction following, powered by Jev AI.",
+    "full_name": "zavocc/ground-zero",
+    "html_url": "https://github.com/zavocc/ground-zero",
+    "license": null,
+    "pushed_at": "2026-09-21T07:41:16Z",
+    "stars": 0,
+    "date": "2026-09-21T07:27:37Z",
+    "sha": "18ff3a38e8736315bf8cf5958484020cf9f2280f",
+    "readme": {
+      "readme_sha": "fd728a72953fff5da2ea1a310daa3cec62a9f43a",
+      "size": 7400
+    }
+  },
+  {
+    "id": "taifoon-io/n8n-nodes-typesafe",
+    "ok": true,
+    "default_branch": "main",
+    "description": "TypeSafe for n8n: ask yes/no, pick-one and rate-it questions about any item and route on calibrated answers (Pass / Fail / Review)",
+    "full_name": "taifoon-io/n8n-nodes-typesafe",
+    "html_url": "https://github.com/taifoon-io/n8n-nodes-typesafe",
+    "license": "MIT",
+    "pushed_at": "2026-09-21T08:00:08Z",
+    "stars": 0,
+    "date": "2026-09-21T08:00:06Z",
+    "sha": "dccdcb65e9581c1a93724db3e9670e231aa75e78",
+    "readme": {
+      "readme_sha": "9c12b588de43c4c7776508cf3a68a4e08217c3b0",
+      "size": 10631
+    }
+  },
+  {
+    "id": "tegersdorfer-collab/jevkit",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Decision kernel for TypeSafe Jev (System One): typed questions, bands, state building, composition",
+    "full_name": "tegersdorfer-collab/jevkit",
+    "html_url": "https://github.com/tegersdorfer-collab/jevkit",
+    "license": null,
+    "pushed_at": "2026-09-21T07:55:12Z",
+    "stars": 0,
+    "date": "2026-09-21T07:55:11Z",
+    "sha": "855c97582797aa82d381479f7449ac3dd77eaeab",
+    "readme": {
+      "readme_sha": "b6f5b13e2cab9fbef9bce532d28806cd7a1fef6e",
+      "size": 3060
+    }
+  },
+  {
+    "id": "stefanoCassola/jev-governor",
+    "ok": true,
+    "default_branch": "main",
+    "description": "In-loop control of under-relaxation in OpenFOAM (SIMPLE and PIMPLE), with rules or the Jev judgment model, plus the benchmark study that tested it",
+    "full_name": "stefanoCassola/jev-governor",
+    "html_url": "https://github.com/stefanoCassola/jev-governor",
+    "license": null,
+    "pushed_at": "2026-09-21T08:02:00Z",
+    "stars": 0,
+    "date": "2026-09-21T08:01:53Z",
+    "sha": "05f242e0be4e37ef6e03bd7b96199d90a00c8b84",
+    "readme": {
+      "readme_sha": "fe92ff293f09d76936f720c56a5247d6e996d33c",
+      "size": 5119
+    }
+  },
+  {
+    "id": "raindragon14/kalshi-diffusion-tracker",
+    "ok": true,
+    "default_branch": "main",
+    "description": "System that measures how quickly new information is absorbed into Kalshi prediction market prices \u2014 built on Jev, TypeSafe AI's structured decision model live on OpenRouter, ready to use today.",
+    "full_name": "raindragon14/kalshi-diffusion-tracker",
+    "html_url": "https://github.com/raindragon14/kalshi-diffusion-tracker",
+    "license": null,
+    "pushed_at": "2026-09-21T07:25:31Z",
+    "stars": 0,
+    "date": "2026-09-21T07:25:23Z",
+    "sha": "f100bda450d2c6b4d5bb24116654fbdd814b9bc7",
+    "readme": {
+      "readme_sha": "051343c497163ff9a6e0553e7aa1164ff957e5c9",
+      "size": 5812
+    }
+  },
+  {
+    "id": "r4ai/laya-web",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Laya typed decisions in the browser with ONNX Runtime WebGPU and Wasm",
+    "full_name": "r4ai/laya-web",
+    "html_url": "https://github.com/r4ai/laya-web",
+    "license": "Apache-2.0",
+    "pushed_at": "2026-09-21T07:11:09Z",
+    "stars": 0,
+    "date": "2026-09-21T07:10:51Z",
+    "sha": "aff91ef86345485c2984c265b3ad61f15bfa3b4c",
+    "readme": {
+      "readme_sha": "41066cbd078901d1953b76f544a957183b3a128a",
+      "size": 6415
+    }
+  },
+  {
+    "id": "afshinm/laya-mps",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Run Jev-style typed decisions locally on your Mac with low RAM usage and fast responses",
+    "full_name": "afshinm/laya-mps",
+    "html_url": "https://github.com/afshinm/laya-mps",
+    "license": "MIT",
+    "pushed_at": "2026-09-21T07:20:36Z",
+    "stars": 0,
+    "date": "2026-09-21T07:20:33Z",
+    "sha": "cdbf19e1aa5bd763ce4777d7a915849510514349",
+    "readme": {
+      "readme_sha": "5f97695c51df53d9db7f3d0278d2c850f447e518",
+      "size": 14494
+    }
+  },
+  {
+    "id": "Mannedood/local-system-one-student",
+    "ok": false,
+    "err": "gh: Not Found (HTTP 404)\n"
+  },
+  {
+    "id": "zhlei07/open-system-one",
+    "ok": true,
+    "default_branch": "main",
+    "description": null,
+    "full_name": "zhlei07/open-system-one",
+    "html_url": "https://github.com/zhlei07/open-system-one",
+    "license": null,
+    "pushed_at": "2026-09-21T06:12:42Z",
+    "stars": 0,
+    "readme_err": "gh: This repository is empty. (HTTP 404)\n"
+  },
+  {
+    "id": "Hand-In/openjev-multimodal",
+    "ok": true,
+    "default_branch": "main",
+    "description": null,
+    "full_name": "Hand-In/openjev-multimodal",
+    "html_url": "https://github.com/Hand-In/openjev-multimodal",
+    "license": null,
+    "pushed_at": "2026-09-21T07:26:13Z",
+    "stars": 0,
+    "readme_err": "gh: This repository is empty. (HTTP 404)\n"
+  },
+  {
+    "id": "daviddl9/jev-router",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Jev-powered routing for OMP and Pi: complex planning and review, focused cheaper workers.",
+    "full_name": "daviddl9/jev-router",
+    "html_url": "https://github.com/daviddl9/jev-router",
+    "license": "NOASSERTION",
+    "pushed_at": "2026-09-21T07:39:19Z",
+    "stars": 0,
+    "date": "2026-09-21T07:37:55Z",
+    "sha": "c192d4e860b8d3e65fdd0ad7f72f961e23878906",
+    "readme": {
+      "readme_sha": "f35d940c45fca79ee127acf5b38feb76d81d35b9",
+      "size": 9242
+    }
+  },
+  {
+    "id": "oceanByte/tsai-cli",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Unofficial CLI for the TypeSafe AI System One API.",
+    "full_name": "oceanByte/tsai-cli",
+    "html_url": "https://github.com/oceanByte/tsai-cli",
+    "license": "MIT",
+    "pushed_at": "2026-09-21T07:23:15Z",
+    "stars": 0,
+    "date": "2026-09-21T07:23:14Z",
+    "sha": "1e24b146c075bed8bcb5c97fee1d1b661a510748",
+    "readme": {
+      "readme_sha": "e1230ec1c726b15352821de1cd653604c4b89aa8",
+      "size": 9525
+    }
+  },
+  {
+    "id": "svitaTLCO/jev-skill",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Empirical research, agent skills, and a production-grade swarm engine coordinating local SLMs under TypeSafe AI System One (Jev) supervision.",
+    "full_name": "svitaTLCO/jev-skill",
+    "html_url": "https://github.com/svitaTLCO/jev-skill",
+    "license": "MIT",
+    "pushed_at": "2026-09-21T07:42:05Z",
+    "stars": 0,
+    "date": "2026-09-21T07:41:55Z",
+    "sha": "dc4d8db7859f55986e46ea7c0b7bda8b6ca6ad0b",
+    "readme": {
+      "readme_sha": "b7634c2651721733aebe67bbb0cb4de55593cbe0",
+      "size": 15974
+    }
+  },
+  {
+    "id": "yottayoshida/jev-intent-review",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Verify a pull request against the intent that caused it, across the whole repository, with small typed judgments from Jev",
+    "full_name": "yottayoshida/jev-intent-review",
+    "html_url": "https://github.com/yottayoshida/jev-intent-review",
+    "license": "Apache-2.0",
+    "pushed_at": "2026-09-21T07:42:03Z",
+    "stars": 0,
+    "date": "2026-09-21T07:35:02Z",
+    "sha": "da94ab073f7e5ac7644a1b39ea400d47aa127d29",
+    "readme": {
+      "readme_sha": "0265a1500a300fbeaf956156ef502b7f2e78976a",
+      "size": 11725
+    }
+  },
+  {
+    "id": "kiuckhuang/laya-jev",
+    "ok": true,
+    "default_branch": "main",
+    "description": "Laya vs JEV",
+    "full_name": "kiuckhuang/laya-jev",
+    "html_url": "https://github.com/kiuckhuang/laya-jev",
+    "license": "MIT",
+    "pushed_at": "2026-09-21T07:18:47Z",
+    "stars": 0,
+    "date": "2026-09-21T07:18:43Z",
+    "sha": "afee973494efdb794f0e339e46337d07648083ec",
+    "readme": {
+      "readme_sha": "f9d0a61c5814c06e9eed900ddb5e128cf17c04eb",
+      "size": 9616
+    }
+  },
+  {
+    "id": "Zefan-Cai/Open-Jev",
+    "ok": true,
+    "default_branch": "main",
+    "description": null,
+    "full_name": "Zefan-Cai/Open-Jev",
+    "html_url": "https://github.com/Zefan-Cai/Open-Jev",
+    "license": "MIT",
+    "pushed_at": "2026-09-21T07:40:27Z",
+    "stars": 34,
+    "date": "2026-09-21T07:40:26Z",
+    "sha": "ed45657bf726c3b77408942830e5578f99df904e",
+    "readme": {
+      "readme_sha": "12e0f581e15d8a7b79c598b6d77f5591e83da088",
+      "size": 17421
+    }
+  }
+]
