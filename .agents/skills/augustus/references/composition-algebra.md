@@ -4717,6 +4717,91 @@ Soft Noul ≠ hard safety.
      Full cards: `faq.md`.
 
 
+869. **document class and split is a judgment**:
+     docjev asks TypeSafe Jev which category a parsed document is, and
+     where a packet splits. Page bytes and PDF ranges stay in code.
+     Full cards: `research/notes.md` §156.
+870. **40/40 and 7/8 stay theirs**:
+     Classification 40/40 and splitting 7/8 exact packets are *theirs*,
+     not Harbor. Jev 1.13.0 median 138.6 ms. The one extra split stays
+     visible. A preparation protocol is not another measured result.
+     Full cards: `research/notes.md` §156.
+871. **local wire is not a replica**:
+     Argos1111/jev_local densify §94, not a sibling first sighting.
+     HEAD 70a1ed6f197a was 8ccc04d. Release sarashina-llama-b11042-pre1.
+     Sarashina is not Archer. LFM default is not the ModernBERT backend.
+     Star 14 to 20 is star-noise beside the rewrite.
+     Full cards: `research/notes.md` §156.
+872. **rank a bounded file set**:
+     dfinke/jev-experiments ranks at most 12 of the first 200 files.
+     Weights 0.65, 0.20, and 0.15 stay in code. Offline fallback sends
+     nothing. Ranking is not calibration. The user still opens the file.
+     Full cards: `research/notes.md` §156.
+873. **multimodal merged head is not Archer**:
+     hf:akhilaaa3/Jev-Omni is Gemma 4 12B-it text-classification.
+     DecisionBench Medium 87.57% and JevBench 86.15% of 231 are *theirs*.
+     Gemma 4 is not Archer. This head is not the openjev-v1 merges.
+     Full cards: `research/notes.md` §156.
+874. **ONNX export is not a calibrated replica**:
+     hf:inferenceprince/laya-onnx is fp16, 842.6 MB beside a 3.3 MB graph.
+     A calibrated-distribution sentence is their claim. This card is not
+     the fp16 sibling, not the int8 sibling, and not tozp, Mattepiu,
+     gqgs, or rarha.
+     Full cards: `research/notes.md` §156.
+875. **Laya ultrafast is not jev-ultrafast**:
+     ipenywis/laya-ultrafast is Apple Silicon only. Median about 33 ms
+     on M1 Max is *theirs*. A serving substrate is not a calibrated replica.
+     Full cards: `research/notes.md` §156.
+876. **tag probabilities are not a write**:
+     osrim/readwise-jev-classifier scores 23 noul tags. Probability
+     0.80 still soft. It never writes back to Readwise.
+     Full cards: `research/notes.md` §156.
+877. **beam over a taxonomy is search**:
+     BeeboLab/Laya_IAB_domain_classification_demo has no README.
+     Beam search is not a grant. No accuracy is stated.
+     Full cards: `research/notes.md` §156.
+878. **game pick is not a calibrated Noul**:
+     Tetris rejects an unknown id. The keyboard does not play.
+     Mario, Doom, Pong, and Pokemon runs are control loops.
+     Game success is not a calibrated Noul.
+     Full cards: `research/notes.md` §156.
+879. **controller proposes, host grants**:
+     ColomboAI-com/c3r does not grant itself authority. System-One
+     never decides permissions, price, or commitment. Measured
+     calibration is not claimed yet. C3R is not a fork of Laya.
+     Full cards: `research/notes.md` §156.
+880. **densify FluidUse v0.2.0**:
+     Same card as notes.md §143. Release v0.2.0. HEAD e9e95935075b
+     was c18071d791eb. Forms 0.9 ms on a 24,370-row synthetic test.
+     Laya 3.6 ms, about 7× versus the upstream ~27 ms on M1 Max, is *theirs*.
+     Submit is never clicked unless enabled. Cua-S1 is not TypeSafe.
+     Full cards: `research/notes.md` §156.
+881. **densify prior sections, not siblings**:
+     laya-ft stays §148. Banking77 51.3% to 79.4% versus Jev 80.0%
+     is *theirs*. Unattended moderation is not established.
+     jev-shadow stays §153. Demo numbers say nothing about Jev.
+     inside-jev stays §154 and is not an official project.
+     wellposed stays §46. Confidence 1.00 on a missing other.
+     Full cards: `research/notes.md` §156.
+882. **sensors and routers are not permission**:
+     A mute, a slop stamp at 0.5, an intrusion cut at 0.5, and a
+     route choice stay soft. Soft judgment never sole veto.
+     Wire-compat is not logit-equiv. Ranking is not calibration.
+     Full cards: `research/notes.md` §156.
+883. **namesakes and empty SHA**:
+     Four empty trees record empty SHA HTTP 409. Qwen3.5 is not Archer.
+     Gemma 3 is not Archer. A catalog paste is not a new measurement.
+     Full cards: `research/notes.md` §156.
+884. **skip Archer** (promised_not_landed):
+     Archer still promised_not_landed. Parent merges only after ADV_PASS.
+     hourly 1556 §154 and rawwerks/one-system §155 are on main.
+     This fold is §156 only.
+     Do not reclaim §147 through §155. Do not reopen or amend PR #23 through #81.
+     Does not bump 0.5.0 or 0.5.1.
+     notes.md §156. composition 869-884. findings batch #136.
+     Full cards: `faq.md`.
+
+
 
 
 

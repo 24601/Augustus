@@ -1,0 +1,11 @@
+{
+  "hour": "2026-09-21T22",
+  "label": "1653",
+  "notes_section": "156",
+  "composition": "869-884",
+  "findings_batch": 136,
+  "revisit_high": 4,
+  "novel_high": 57,
+  "invented_signal": false,
+  "primary": "jerryjliu/docjev classify 40/40 split 7/8 *theirs* not Harbor; jev_local densify §94; FluidUse v0.2.0 densify §143; this fold is §156 only"
+}
