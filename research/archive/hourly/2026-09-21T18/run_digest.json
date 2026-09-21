@@ -1,0 +1,11 @@
+{
+  "hour": "2026-09-21T18",
+  "label": "1203",
+  "notes_section": "148",
+  "composition": "761-776",
+  "findings_batch": 129,
+  "revisit_high": 6,
+  "novel_high": 73,
+  "invented_signal": false,
+  "primary": "peterfriese/jev-foundation-models Swift 6 bridge not an on-device replica; laya-ft false alarms 24.8% to 65.2% to 47.2% *theirs*; calibration 0.612 against 0.740 *theirs*; verified:false; densify \u00a7145 \u00a7146 \u00a7131 \u00a7129 not a sibling first sighting"
+}
