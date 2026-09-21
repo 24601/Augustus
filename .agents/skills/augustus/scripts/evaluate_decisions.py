@@ -892,6 +892,42 @@ def vision_hard_overconfidence_is_not_calibrated(acc, conf, calibrated=False):
     return calibrated is False
 
 
+
+
+def text_only_cu_is_not_screenshot(kind, screenshot=False):
+    """只传文字，不传截图. Text only no screenshots."""
+    if kind != "jev_cu_text_only":
+        raise ValueError("unexpected kind")
+    return screenshot is False
+
+
+def tax_corpus_100pct_is_not_harbor(kind, harbor=False):
+    """100% of our tax document corpus at $0.001 per page. 100% of corpus *theirs* not Harbor."""
+    if kind != "tax_doc_corpus":
+        raise ValueError("unexpected kind")
+    return harbor is False
+
+
+def mario_game_success_is_not_noul(kind, noul=False):
+    """The model does not receive screenshots. game success ≠ calibrated Noul."""
+    if kind != "typesafe_mario":
+        raise ValueError("unexpected kind")
+    return noul is False
+
+
+def mobile_jev_booking_not_demonstrated(kind, demonstrated=False):
+    """21 seconds for 9 actions *theirs*. A completed booking is not demonstrated."""
+    if kind != "mobile_jev_uber":
+        raise ValueError("unexpected kind")
+    return demonstrated is False
+
+
+def enem_bench_is_not_harbor(acc, harbor=False):
+    """ENEM 2025 *theirs* not Harbor. 56.6% (103/182) *theirs*."""
+    if abs(acc - 56.6) > 1e-9:
+        raise ValueError("unexpected acc")
+    return harbor is False
+
 def gliner_locate_is_not_decide(kind, decide=False):
     """Locate ≠ decide. Zero Hallucinations marketing."""
     if kind != "gliner_locate":
@@ -1466,6 +1502,24 @@ def self_test():
     assert theirs_bench_is_not_harbor(852, "kev-night2-ood-0.852")
     assert theirs_bench_is_not_harbor(850, "apus-frozen80-85.0")
     assert theirs_bench_is_not_harbor(901, "nimble-90.1")
+
+    # 0707: text-only CU is not screenshots / 100% of corpus is not Harbor /
+    # Mario game success is not Noul / completed booking is not demonstrated /
+    # ENEM bench is not Harbor.
+    assert text_only_cu_is_not_screenshot("jev_cu_text_only", False)
+    assert not text_only_cu_is_not_screenshot("jev_cu_text_only", True)
+    assert tax_corpus_100pct_is_not_harbor("tax_doc_corpus", False)
+    assert not tax_corpus_100pct_is_not_harbor("tax_doc_corpus", True)
+    assert mario_game_success_is_not_noul("typesafe_mario", False)
+    assert not mario_game_success_is_not_noul("typesafe_mario", True)
+    assert mobile_jev_booking_not_demonstrated("mobile_jev_uber", False)
+    assert not mobile_jev_booking_not_demonstrated("mobile_jev_uber", True)
+    assert enem_bench_is_not_harbor(56.6, False)
+    assert not enem_bench_is_not_harbor(56.6, True)
+    assert theirs_bench_is_not_harbor(100, "tax-corpus-100pct")
+    assert theirs_bench_is_not_harbor(21, "mobile-jev-21s")
+    assert theirs_bench_is_not_harbor(566, "enem-56.6")
+
 
 
 

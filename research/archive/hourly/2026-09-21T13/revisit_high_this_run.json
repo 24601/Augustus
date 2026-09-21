@@ -1,0 +1,57 @@
+[
+  {
+    "id": "AbdelStark/awesome-typesafe-jev",
+    "kind": "revisit",
+    "stars": 417,
+    "description": "Awesome Jev: a source-backed field guide to TypeSafe's System One model, with SDKs, live demos, agent tools, and independent evaluations.",
+    "html_url": "https://github.com/AbdelStark/awesome-typesafe-jev",
+    "source": "github",
+    "material": [
+      "description_rewrite"
+    ],
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "hf:Praveenrajus/jev-bench",
+    "kind": "revisit",
+    "stars": 1,
+    "description": "\n\n\n\t\n\t\t\n\t\n\t\n\t\tjev-bench\n\t\n\nReal human-labeled data, reformatted into System One questions \u2014 with human label distributions wherever they exist.\n22 configs \u00b7 166,054 rows \u00b7 22,773 test records \u00b7 4 calibration-gold configs \u00b7 v0.1.1\nRepo & engine \u00b7 Source rationale \u00b7 What we verified about Jev's API \u00b7 Other independent Jev evaluations\n\n\n\njev-1.13.0 on every test record: crisp, grounded decisions land in the accurate-and-calibrated corner; ordinal ratings and anything humans disagree about do not.\u2026 See the full description on the dataset page: https://huggingface.co/datasets/Praveenrajus/jev-bench.",
+    "html_url": "https://huggingface.co/datasets/Praveenrajus/jev-bench",
+    "source": "huggingface",
+    "material": [
+      "description_rewrite",
+      "architecture_claim"
+    ],
+    "prior_sha": "ae4a4027179f1cf3175f39ec15ac697251c331ac",
+    "new_sha": "ae4a4027179f1cf3175f39ec15ac697251c331ac"
+  },
+  {
+    "id": "hf:wayfind/metask-jev-4b-policy-mix",
+    "kind": "revisit",
+    "stars": 0,
+    "description": "tags: transformers safetensors qwen3_5 image-text-to-text typed-decisions calibrated-classification system-one classification structured-prediction candidate-logit jev single-forward-pass commercial-use text-classification en arxiv:2510.01237 base_model:Qwen/Qwen3.5-4B base_model:finetune:Qwen/Qwen3.5-4B license:apache-2.0 endpoints_compatible region:us",
+    "html_url": "https://huggingface.co/wayfind/metask-jev-4b-policy-mix",
+    "source": "huggingface",
+    "material": [
+      "description_rewrite",
+      "architecture_claim"
+    ],
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "patryckalves/jev-no-enem",
+    "kind": "revisit",
+    "stars": 0,
+    "description": "Reproducible benchmark evaluating TypeSafe AI's Jev (System One paradigm) on Brazil's ENEM 2025 standardized exam. Evaluates typed decision-making, domain-specific accuracy, and RLCD uncertainty calibration against open LLM baselines with an interactive GitHub Pages dashboard.",
+    "html_url": "https://github.com/patryckalves/jev-no-enem",
+    "source": "github",
+    "material": [
+      "description_rewrite",
+      "calibration"
+    ],
+    "prior_sha": null,
+    "new_sha": null
+  }
+]

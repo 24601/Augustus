@@ -346,6 +346,9 @@ def self_test() -> None:
         "github:TianyuCodings/NanoJev": "115",
         "github:bespokelabsai/nimble": "35",
         "github:evoke-build/evoke": "139",
+        "github:AbdelStark/awesome-typesafe-jev": "141",
+        "hf:wayfind/metask-jev-4b-policy-mix": "134",
+        "hf:ds:Praveenrajus/jev-bench": "125",
     }
     for look_id, section in densify_original_ids.items():
         assert look_id in by_id, look_id
@@ -380,8 +383,16 @@ def self_test() -> None:
     assert gliner["default_sha"].startswith("485cf8045f73")
     assert by_id["github:47thtechcorner/RayCodes_GLiNER_V1_Multi"]["notes_section"] == "141"
     awesome_jev = by_id["github:AbdelStark/awesome-typesafe-jev"]["fingerprints"]
-    assert awesome_jev["default_sha"].startswith("a6a68b57888a")
+    assert awesome_jev["default_sha"].startswith("d6ea2a0d6cf4")
     assert by_id["github:AbdelStark/awesome-typesafe-jev"]["notes_section"] == "141"
+    jevcu = by_id["github:Sac-Y/Jev-cu"]["fingerprints"]
+    assert jevcu["default_sha"].startswith("e2cc92d731fa")
+    assert by_id["github:Sac-Y/Jev-cu"]["notes_section"] == "142"
+    tax = by_id["github:kyotofin/tax-doc-classifier"]["fingerprints"]
+    assert tax["default_sha"].startswith("3e95a77f763c")
+    assert by_id["github:patryckalves/jev-no-enem"]["notes_section"] == "142"
+    assert by_id["hf:wayfind/metask-jev-4b-policy-mix"]["notes_section"] == "134"
+    assert by_id["hf:ds:Praveenrajus/jev-bench"]["notes_section"] == "125"
     assert any("revisit HIGH like novel HIGH" in r for r in rules)
     print("revisit-fingerprints self-test ok")
 
