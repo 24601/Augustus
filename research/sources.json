@@ -5376,7 +5376,7 @@
       "kind": "github",
       "title": "yoheinakajima/glance",
       "url": "https://github.com/yoheinakajima/glance",
-      "note": "Apache-2.0; 3★; HEAD 8f36e063bffb; README SHA b57280394bc1; LICENSE SHA d645695673349e; size 51490; tag v0.3.1; PyPI glance-vlm 0.3.1. Frozen Qwen3-VL-4B logit harness, not a trained head. soft scores ≠ hard gates. notes.md §147."
+      "note": "Apache-2.0; 4★; 1 fork; HEAD 8f36e063bffb; README SHA b57280394bc1; LICENSE SHA d645695673349e; size 51490; tag v0.3.1; PyPI glance-vlm 0.3.1. Frozen Qwen3-VL-4B logit harness, not a trained head. soft scores ≠ hard gates. star-noise is not the fold. notes.md §147."
     },
     {
       "kind": "site",
