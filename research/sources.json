@@ -5371,6 +5371,24 @@
       "title": "Zefan_Cai Open-Jev website reply",
       "url": "https://x.com/Zefan_Cai/status/2101789698947793231",
       "note": "Website reply in launch thread. notes.md §125."
+    },
+    {
+      "kind": "github",
+      "title": "yoheinakajima/glance",
+      "url": "https://github.com/yoheinakajima/glance",
+      "note": "Apache-2.0; 4★; 1 fork; HEAD 8f36e063bffb; README SHA b57280394bc1; LICENSE SHA d645695673349e; size 51490; tag v0.3.1; PyPI glance-vlm 0.3.1. Frozen Qwen3-VL-4B logit harness, not a trained head. soft scores ≠ hard gates. star-noise is not the fold. notes.md §147."
+    },
+    {
+      "kind": "site",
+      "title": "Glance project page",
+      "url": "https://glance.yohei.me",
+      "note": "Author project page for yoheinakajima/glance. Author numbers are theirs. notes.md §147."
+    },
+    {
+      "kind": "pypi",
+      "title": "glance-vlm",
+      "url": "https://pypi.org/project/glance-vlm/",
+      "note": "PyPI 0.3.1. Distribution name glance-vlm; import and command stay glance. notes.md §147."
     }
   ]
 }

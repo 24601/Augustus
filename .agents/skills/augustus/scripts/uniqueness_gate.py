@@ -258,6 +258,11 @@ UNIQ_1110 = (
 )
 
 
+
+UNIQ_GLANCE = (
+"User-provided glance uniqueness lock: yoheinakajima/glance Apache-2.0 Py HEAD 8f36e063bffb README SHA b57280394bc1 LICENSE SHA d645695673349e; 4★; 1 fork; star-noise is not the fold; size 51490; pushed 2026-09-21T17:37:40Z; created 2026-09-21T06:51:38Z; PyPI glance-vlm 0.3.1; tag v0.3.1; site https://glance.yohei.me; topics calibration, image-classification, vision-language-model, vlm, zero-shot; Ask an open vision-language model typed questions about an image and get probabilities back, on your own machine; frozen open VLM default Qwen3-VL-4B Apache-2.0; yes/no pick-one and default unfitted rating read from answer-token logits in one forward pass; default unfitted rating is jsondigits (1 pass, exact 0.669); labeled glance fit uses ens4d (4 passes); four-pass zero-shot rating 0.570 behind write JSON 0.672; glance fit --unlabeled uses jsondigits; fast2 (2 passes) and digits (1 pass) remain available; Glance is a calibration and measurement harness around that readout. It is not a model; trains no weights; images never leave the machine; local server binds 127.0.0.1; noul yes/no choice pick-one score ordered rating; POST /v1/decide; zero-shot table only yes/no 0.939 pick-one 0.933 rating exact 0.669 *theirs*; Gemini 3.1 Flash-Lite yes/no 0.961 pick-one 0.933 rating 0.763 *theirs*; fitted readout marked fitted do not say zero-shot or no training: unlabeled image-quality 0.67 to 0.76 exact (README; CLAIMS one-pass 0.758 at 16 unlabeled images) *theirs*; labeled about 32 images 0.86 exact ECE about 0.03 per rubric does not transfer *theirs*; Glance is not an image-quality metric; on KADID-10k it misses their own targets; do not quote interim KADID numbers; Q-SiT-mini 0.9B trained for image quality is level under the same 32-label fit; hand-built features beat it on low-level artifacts when labels are plentiful; non-image-quality rubrics 0.55 exact with 300 labels *theirs*; tilt 0.33 *theirs*; geometric probes diagonals 0.30 largest of four shapes 0.52 eight objects 0.56 *theirs*; stripe direction hidden-state linear probe 0.99 *theirs*; raw yes/no ECE 0.111 and 0.179 *theirs*; pooled two-number Platt map on those suites ECE 0.061 and 0.053 *theirs*; transfer to a new yes/no task untested; glance fit is a per-rubric rating map not that Platt map; explicit other held-out breeds 7.7% *theirs*; claims ledger: faster or cheaper than Jev do not claim; shares inference object with featherless-ai/simple-jev hr98w/jev-visual zhengxuyu/litjev; request and response shapes follow TypeSafe Jev hosted text; yoheinakajima/glance ≠ TypeSafe Jev; POST /v1/decide ≠ TypeSafe /v1/systemone ≠ IamBusy/OpenJev /v1/decide is a wire lock not OpenJev v2 identity; OpenJev v2 is Hub AlexWortega/openjev trained 4B multimodal claim scorer census §77 do not mint a sibling card; OpenJev v2 ≠ Zefan-Cai/Open-Jev ≠ razorback16/openjev ≠ IamBusy/OpenJev-Vision; Zefan-Cai/Open-Jev §125 is a separate trained-head namesake; trains no weights unlike YOFO and unlike hf:thaitea/laya-vision §146 and unlike OpenJev v2 and unlike IamBusy/OpenJev-Vision; harness not weights; soft probs for threshold abstain rank; soft scores ≠ hard gates; logits are not calibrated probabilities of correctness; *theirs* not Harbor; catalog ≠ endorsement; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62/#63/#64/#65/#66/#67/#68/#69/#70/#71/#72; notes.md §147"
+)
+
 REVISIT_LOCK = (
     "Revisit / since-last-look lock: catalogued repos are not done; "
     "store fingerprints default_sha, pushed_at, description_hash, release_tag; "
@@ -498,6 +503,8 @@ def main() -> int:
             failed.append(f"1019 lock missing as one substring: {rel}")
         if UNIQ_1110 not in body:
             failed.append(f"1110 lock missing as one substring: {rel}")
+        if UNIQ_GLANCE not in body:
+            failed.append(f"glance lock missing as one substring: {rel}")
         if "meijustory123/OpenJev-Kit ≠ meijustory123/openjev" in body:
             failed.append(
                 "0348 false namesake lock still present "
@@ -584,6 +591,32 @@ def main() -> int:
         failed.append("UNIQ_1110 missing SystemOneDotNet densify lock")
     if "densify §145 not a sibling first sighting" not in UNIQ_1110:
         failed.append("UNIQ_1110 missing §145 densify lock")
+    if "harness not weights" not in UNIQ_GLANCE:
+        failed.append("UNIQ_GLANCE missing harness lock")
+    if "soft scores ≠ hard gates" not in UNIQ_GLANCE:
+        failed.append("UNIQ_GLANCE missing soft-score lock")
+    if "notes.md §147" not in UNIQ_GLANCE:
+        failed.append("UNIQ_GLANCE missing §147")
+    if "yoheinakajima/glance" not in UNIQ_GLANCE:
+        failed.append("UNIQ_GLANCE missing catalog id")
+    if "OpenJev v2 ≠ Zefan-Cai/Open-Jev ≠ razorback16/openjev ≠ IamBusy/OpenJev-Vision" not in UNIQ_GLANCE:
+        failed.append("UNIQ_GLANCE missing four-way OpenJev namesake")
+    if "AlexWortega/openjev" not in UNIQ_GLANCE:
+        failed.append("UNIQ_GLANCE missing OpenJev v2 Hub id")
+    if "do not mint a sibling card" not in UNIQ_GLANCE:
+        failed.append("UNIQ_GLANCE missing no-sibling-card lock")
+    if "wire lock not OpenJev v2 identity" not in UNIQ_GLANCE:
+        failed.append("UNIQ_GLANCE missing wire-not-identity lock")
+    if "jsondigits" not in UNIQ_GLANCE or "ens4d" not in UNIQ_GLANCE:
+        failed.append("UNIQ_GLANCE missing jsondigits/ens4d pass lock")
+    if "do not say zero-shot or no training" not in UNIQ_GLANCE:
+        failed.append("UNIQ_GLANCE missing fitted-readout caveat")
+    if "Platt" not in UNIQ_GLANCE:
+        failed.append("UNIQ_GLANCE missing Platt map")
+    if "Q-SiT-mini" not in UNIQ_GLANCE:
+        failed.append("UNIQ_GLANCE missing Q-SiT-mini rating limit")
+    if "do not quote interim KADID numbers" not in UNIQ_GLANCE:
+        failed.append("UNIQ_GLANCE missing KADID non-quote lock")
     if "#70" not in UNIQ_1110:
         failed.append("UNIQ_1110 missing HARD RULE #70")
     for rel in REVISIT_OVERLAYS:
@@ -661,6 +694,8 @@ def main() -> int:
         failed.append("notes.md missing §145 heading")
     if "## 146. Hourly 1110 HIGH" not in notes:
         failed.append("notes.md missing §146 heading")
+    if "## 147. User-provided glance HIGH" not in notes:
+        failed.append("notes.md missing §147 heading")
 
     notes140 = notes[notes.find("## 140. Hourly 0445 HIGH"):]
     for remainder_id in (
@@ -2620,6 +2655,7 @@ def main() -> int:
         ("0923", UNIQ_0923),
         ("1019", UNIQ_1019),
         ("1110", UNIQ_1110),
+        ("glance", UNIQ_GLANCE),
     ):
         if lock in changelog:
             failed.append(
@@ -2702,7 +2738,7 @@ def main() -> int:
         f"2146 chars={len(UNIQ_2146)} "
         f"2246 chars={len(UNIQ_2246)} "
         f"2347 chars={len(UNIQ_2347)} "
-        f"0049 chars={len(UNIQ_0049)} 0151 chars={len(UNIQ_0151)} 0248 chars={len(UNIQ_0248)} 0348 chars={len(UNIQ_0348)} 0445 chars={len(UNIQ_0445)} 0551 chars={len(UNIQ_0551)} 0707 chars={len(UNIQ_0707)} 0823 chars={len(UNIQ_0823)} 0923 chars={len(UNIQ_0923)} 1019 chars={len(UNIQ_1019)}  1110 chars={len(UNIQ_1110)} "
+        f"0049 chars={len(UNIQ_0049)} 0151 chars={len(UNIQ_0151)} 0248 chars={len(UNIQ_0248)} 0348 chars={len(UNIQ_0348)} 0445 chars={len(UNIQ_0445)} 0551 chars={len(UNIQ_0551)} 0707 chars={len(UNIQ_0707)} 0823 chars={len(UNIQ_0823)} 0923 chars={len(UNIQ_0923)} 1019 chars={len(UNIQ_1019)}  1110 chars={len(UNIQ_1110)} glance chars={len(UNIQ_GLANCE)} "
         f"revisit chars={len(REVISIT_LOCK)} "
         f"overlays={len(OVERLAYS)} "
         f"revisit_overlays={len(REVISIT_OVERLAYS)}"
