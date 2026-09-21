@@ -20,7 +20,7 @@
     "forks_count",
     "likes"
   ],
-  "note": "Last-look snapshots for already-catalogued sources. Hourly diffs these four fingerprints. Star-noise is not a fold. SHA move is not a replica. Seeded from merged notes (SemIf \u00a7117, NanoJev \u00a7115) plus hourly 1248 densify (openjev \u00a775, von \u00a749, verdict \u00a771, kev \u00a745, jeff \u00a760, TypeLLM \u00a7113) plus hourly 1340 densify (openjev sdk 0.7 + MLX 400, kev PLAN_Qwen35) plus hourly 1441 densify (openjev STE backends+Codiv dual serving) and 1441 first sightings plus hourly 1542 densify (TypeLLM README 3k\u219212k B, kev family new-source) and 1542 first sightings (pi-jev densify, jev-sentinel, tool-routers, leanest, jevals, MrJev, jev-firewall, jev-codex-approval, HF encoder/quanto). default_sha is the full HEAD. pushed_at is the GitHub push clock. description_hash is sha256[:12] of the GitHub/Space description, or null when notes do not quote it. README SHA is an optional extra, not a substitute for description_hash. plus hourly 1746 densify (TypeLLM truncated thinking + qwen35_small, kev 0.8B Qwen3.5 family, jev-pruner \u00a753, jevassert \u00a770, jev-packs \u00a764) and 1746 first sightings (vexjoy, Canny, jev-engineering, five-lines, jev-table, kev-ane) plus hourly 1843 densify (kev own-data JSONL / --init_from warm-start, SHA 8465c4c4c294 \u2192 bd058057ad0a) and 1843 first sightings (assay-001, kyegomez reconstruction, jev-ra, catalogs). plus user-provided 1936 first sightings (sgoedecke/system-one, mithalouni/system-one-open, kotoba-lang/typed-decisions). plus Open-Jev densify 2026-09-21 (github:Zefan-Cai/Open-Jev SHA 6d8de5ed72a0 \u2192 4933ee84951f; README 771bf3135f50 \u2192 ce1a587219e4; HF 2B/9B packs + dataset last_look; densify \u00a7125 not a sibling) plus hourly 1946 densify (alexwestco/llm-to-jev description rewrite Convert LLM prompts to Jev prompts, SHA unchanged 234058ab372d, 3\u2605) and 1946 first sightings (X-sentiment, awesome-jev 485, jev-arena, robot-control, Qwen3.8-JevLike, jev-acento). plus hourly 2049 densify (kev night-2 PLAN SHA 8d77dd271c66 HEAD c096660c8da2, kotoba OpenJev runtime HEAD ff7f84e74d04 notes_section 130). plus hourly 2146 densify (Zefan-Cai/Open-Jev SHA 4933ee84951f\u2192a00559ea0ab2 README unchanged ce1a587219e4 provider quality pipeline; tinmanlab/cartpole-jev HEAD 922cc61490a0 notes_section 121; xuboboo/ashare-trader HEAD 26c7e95e6828 notes_section 120; gauravsaini/kevin first card notes_section 133). plus hourly 2246 densify (Open-Jev TREC prep HEAD 48346d0630f1 README SHA unchanged, TypeLLM PyPI 0.1.1 HEAD 8a8b4aefd443, simple-jev first card b02aa81c915a) plus hourly 0049 densify (Open-Jev JevBench public-subset HEAD 48346d0630f1\u2192f46ff604f794 README ce1a587219e4\u2192e32c4bbd519c; kev night-2 35B HEAD c096660c8da2\u2192e0bcf50153f1 README unchanged 84b872488915) and 0049 first sightings (jev-browser-use, gargpratyush/jev-router, JevRouter, daseinlabs/open-jev, jev-recruiter, jevcal, system-one-gemma). plus hourly 0248 first sightings (tacticocc/Jevbridge, tshmieldev/sharp, kavehmz/typesafe-playground, himomohi/aside-jev, nico-martin/open-jev; GLiClass Hub class-peer notes_section 138) plus hourly 0348 densify (moritzkremb/jev-voice-browser HEAD 054db0f3\u2192198a0764395a README fa033303\u2192816309fc22e6 context is the conversation so far densify \u00a782; luantak/is-malicious A clean report is not proof does not sandbox) and 0348 first sightings (open-cricket, jev-decision-arena, typesafe-ai-test, werr, OpenJev-Kit; notes_section 139). plus hourly 0445 densify (TianyuCodings/NanoJev SHA 618cea6d\u219276fdfc9e README 4190093c64ee\u2192a8f8afeb7e44 Add JevHarness project link densify \u00a7115) and 0445 first sightings (lcc, Jev-Compatible, any2jev, jev-synthetic-survey, jev-arcade, rlcd, AXERA-TECH/Laya, openjev-MLX-4bit; notes_section 140). plus hourly 0551 densify (kev Night-2 HEAD e0bcf50153f1\u21924f8110a3f862 README 84b872488915\u2192d497d4b89427 v7-base tags densify \u00a745; nimble HEAD f136b3f75721 densify \u00a735; evoke HEAD 310840b56f1d\u2192ca8a311743fe densify \u00a7139; GLiNER description rewrite; APUS-OpenJev / Jev-Vision first cards; notes_section 141) plus hourly 0707 densify (AbdelStark/awesome-typesafe-jev HEAD a6a68b57888a\u2192d6ea2a0d6cf4 README e47993484e3a\u2192234ae59a0b16 The field guide to typed decisions densify \u00a7141; hf:ds:Praveenrajus/jev-bench HTTP 401 was 200 densify \u00a7107/\u00a7125 remainder; hf:wayfind/metask-jev-4b-policy-mix sha 5ecdd272ab4a densify \u00a7134) and 0707 first sightings (Sac-Y/Jev-cu, tax-doc-classifier, typesafe-mario, mobile-jev, pg-jev, skillbox, typesafe-mcp, jev-no-enem; notes_section 142).",
+  "note": "Last-look snapshots for already-catalogued sources. Hourly diffs these four fingerprints. Star-noise is not a fold. SHA move is not a replica. Seeded from merged notes (SemIf §117, NanoJev §115) plus hourly 1248 densify (openjev §75, von §49, verdict §71, kev §45, jeff §60, TypeLLM §113) plus hourly 1340 densify (openjev sdk 0.7 + MLX 400, kev PLAN_Qwen35) plus hourly 1441 densify (openjev STE backends+Codiv dual serving) and 1441 first sightings plus hourly 1542 densify (TypeLLM README 3k→12k B, kev family new-source) and 1542 first sightings (pi-jev densify, jev-sentinel, tool-routers, leanest, jevals, MrJev, jev-firewall, jev-codex-approval, HF encoder/quanto). default_sha is the full HEAD. pushed_at is the GitHub push clock. description_hash is sha256[:12] of the GitHub/Space description, or null when notes do not quote it. README SHA is an optional extra, not a substitute for description_hash. plus hourly 1746 densify (TypeLLM truncated thinking + qwen35_small, kev 0.8B Qwen3.5 family, jev-pruner §53, jevassert §70, jev-packs §64) and 1746 first sightings (vexjoy, Canny, jev-engineering, five-lines, jev-table, kev-ane) plus hourly 1843 densify (kev own-data JSONL / --init_from warm-start, SHA 8465c4c4c294 → bd058057ad0a) and 1843 first sightings (assay-001, kyegomez reconstruction, jev-ra, catalogs). plus user-provided 1936 first sightings (sgoedecke/system-one, mithalouni/system-one-open, kotoba-lang/typed-decisions). plus Open-Jev densify 2026-09-21 (github:Zefan-Cai/Open-Jev SHA 6d8de5ed72a0 → 4933ee84951f; README 771bf3135f50 → ce1a587219e4; HF 2B/9B packs + dataset last_look; densify §125 not a sibling) plus hourly 1946 densify (alexwestco/llm-to-jev description rewrite Convert LLM prompts to Jev prompts, SHA unchanged 234058ab372d, 3★) and 1946 first sightings (X-sentiment, awesome-jev 485, jev-arena, robot-control, Qwen3.8-JevLike, jev-acento). plus hourly 2049 densify (kev night-2 PLAN SHA 8d77dd271c66 HEAD c096660c8da2, kotoba OpenJev runtime HEAD ff7f84e74d04 notes_section 130). plus hourly 2146 densify (Zefan-Cai/Open-Jev SHA 4933ee84951f→a00559ea0ab2 README unchanged ce1a587219e4 provider quality pipeline; tinmanlab/cartpole-jev HEAD 922cc61490a0 notes_section 121; xuboboo/ashare-trader HEAD 26c7e95e6828 notes_section 120; gauravsaini/kevin first card notes_section 133). plus hourly 2246 densify (Open-Jev TREC prep HEAD 48346d0630f1 README SHA unchanged, TypeLLM PyPI 0.1.1 HEAD 8a8b4aefd443, simple-jev first card b02aa81c915a) plus hourly 0049 densify (Open-Jev JevBench public-subset HEAD 48346d0630f1→f46ff604f794 README ce1a587219e4→e32c4bbd519c; kev night-2 35B HEAD c096660c8da2→e0bcf50153f1 README unchanged 84b872488915) and 0049 first sightings (jev-browser-use, gargpratyush/jev-router, JevRouter, daseinlabs/open-jev, jev-recruiter, jevcal, system-one-gemma). plus hourly 0248 first sightings (tacticocc/Jevbridge, tshmieldev/sharp, kavehmz/typesafe-playground, himomohi/aside-jev, nico-martin/open-jev; GLiClass Hub class-peer notes_section 138) plus hourly 0348 densify (moritzkremb/jev-voice-browser HEAD 054db0f3→198a0764395a README fa033303→816309fc22e6 context is the conversation so far densify §82; luantak/is-malicious A clean report is not proof does not sandbox) and 0348 first sightings (open-cricket, jev-decision-arena, typesafe-ai-test, werr, OpenJev-Kit; notes_section 139). plus hourly 0445 densify (TianyuCodings/NanoJev SHA 618cea6d→76fdfc9e README 4190093c64ee→a8f8afeb7e44 Add JevHarness project link densify §115) and 0445 first sightings (lcc, Jev-Compatible, any2jev, jev-synthetic-survey, jev-arcade, rlcd, AXERA-TECH/Laya, openjev-MLX-4bit; notes_section 140). plus hourly 0551 densify (kev Night-2 HEAD e0bcf50153f1→4f8110a3f862 README 84b872488915→d497d4b89427 v7-base tags densify §45; nimble HEAD f136b3f75721 densify §35; evoke HEAD 310840b56f1d→ca8a311743fe densify §139; GLiNER description rewrite; APUS-OpenJev / Jev-Vision first cards; notes_section 141) plus hourly 0707 densify (AbdelStark/awesome-typesafe-jev HEAD a6a68b57888a→d6ea2a0d6cf4 README e47993484e3a→234ae59a0b16 The field guide to typed decisions densify §141; hf:ds:Praveenrajus/jev-bench HTTP 401 was 200 densify §107/§125 remainder; hf:wayfind/metask-jev-4b-policy-mix sha 5ecdd272ab4a densify §134) and 0707 first sightings (Sac-Y/Jev-cu, tax-doc-classifier, typesafe-mario, mobile-jev, pg-jev, skillbox, typesafe-mcp, jev-no-enem; notes_section 142). plus hourly 0823 densify (dohnuts §137 MODEL_CARD + JevBench 65.80%, laya-drift §142 description rewrite, jev-ultrafast §4 description rewrite) and 0823 first sightings (FluidUse, third-hand, official SDK GitHub faces, mini-jev, a3m-router, jev-benchmarks, pii-masker first card).",
   "looks": [
     {
       "id": "github:TheoLeeCJ/SemIf",
@@ -979,7 +979,7 @@
       },
       "readme_sha": null,
       "http": 401,
-      "note": "HTTP 401 was 200; densify \u00a7107/\u00a7125 remainder; do not invent card content"
+      "note": "HTTP 401 was 200; densify §107/§125 remainder; do not invent card content"
     },
     {
       "id": "hf:ds:ctaxnagomi/DGUI_HYPERMEM-JEV",
@@ -3380,6 +3380,163 @@
         "release_tag": null
       },
       "readme_sha": "ec386a81e12c1a4a93420980851cdcaf592ee2fdf764dd84988ac0f2cd7f6fcd"
+    },
+    {
+      "id": "github:PsiACE/dohnuts",
+      "notes_section": "137",
+      "last_look": "2026-09-21T14:23Z",
+      "fingerprints": {
+        "default_sha": "253766e5fcb70c9f52ad8222a86cc0863e1cbc7e",
+        "pushed_at": "2026-09-21T12:17:52Z",
+        "description_hash": "7c88c1a8e32e",
+        "release_tag": null
+      },
+      "readme_sha": "4b5b019deba9cf43b8b09a443d141efb53455a39",
+      "note": "0823 densify §137 MODEL_CARD + JevBench 65.80% *theirs*; densify §137 not a sibling first sighting"
+    },
+    {
+      "id": "github:pythongiant/laya-drift",
+      "notes_section": "142",
+      "last_look": "2026-09-21T14:23Z",
+      "fingerprints": {
+        "default_sha": "334953e5cb8f61d5754d70a17ea3b7bc0be2de44",
+        "pushed_at": "2026-09-21T14:00:55Z",
+        "description_hash": "a199a954ee75",
+        "release_tag": null
+      },
+      "readme_sha": "6662121ba0f3440db6e8220929c26b82534c5d85",
+      "note": "0823 densify §142 description rewrite; densify §142 not a sibling first sighting"
+    },
+    {
+      "id": "github:browser-use/jev-ultrafast",
+      "notes_section": "4",
+      "last_look": "2026-09-21T14:23Z",
+      "fingerprints": {
+        "default_sha": "1231850a0bf1a0c0341fe408ef1668dbbfdfac46",
+        "pushed_at": "2026-09-18T16:28:35Z",
+        "description_hash": "098261d40fdc",
+        "release_tag": null
+      },
+      "readme_sha": "fa7d079f9192f8ad47d4016c0d534cfe72207f33",
+      "note": "0823 densify §4 description rewrite Fastest and cheapest web agent *theirs*"
+    },
+    {
+      "id": "github:BlinkWrite/pii-masker",
+      "notes_section": "143",
+      "last_look": "2026-09-21T14:23Z",
+      "fingerprints": {
+        "default_sha": "6ad202ab4443c12ddd34becd28cebf10c63f4dfe",
+        "pushed_at": "2026-09-18T07:46:02Z",
+        "description_hash": "8833538c9e57",
+        "release_tag": null
+      },
+      "readme_sha": "27931758af6c815491a3277acbc1d5a8b512e50b",
+      "note": "0823 first card (revisit tag, no prior notes card); Locate ≠ decide"
+    },
+    {
+      "id": "github:FluidInference/FluidUse",
+      "notes_section": "143",
+      "last_look": "2026-09-21T14:23Z",
+      "fingerprints": {
+        "default_sha": "c18071d791eb1c2305508507905c9c81e89ae079",
+        "pushed_at": "2026-09-21T14:14:33Z",
+        "description_hash": "ddacb829949a",
+        "release_tag": null
+      },
+      "readme_sha": "f1cba4a244bbd64f516aa45538a9944666977120",
+      "note": "0823 first card; field→value not free text; Cua-S1 ≠ TypeSafe"
+    },
+    {
+      "id": "github:shhivv/third-hand",
+      "notes_section": "143",
+      "last_look": "2026-09-21T14:23Z",
+      "fingerprints": {
+        "default_sha": "430394b35dbb44ff8b303bf19da29b0828d92bd2",
+        "pushed_at": "2026-09-19T17:01:39Z",
+        "description_hash": "df8bdd536cb6",
+        "release_tag": null
+      },
+      "readme_sha": "b615d7c3fd194a595e8155bf201b1a39fef299f3",
+      "note": "0823 first card; Screenshots aren't uploaded"
+    },
+    {
+      "id": "github:r-ms/mini-jev",
+      "notes_section": "143",
+      "last_look": "2026-09-21T14:23Z",
+      "fingerprints": {
+        "default_sha": "ca612198bfb69f538f029a4615f6d0a18b4f814c",
+        "pushed_at": "2026-09-18T12:05:38Z",
+        "description_hash": "fcb6bd936378",
+        "release_tag": null
+      },
+      "readme_sha": "565b70c4cf4dd27958d81a304a6770613cb9299c",
+      "note": "0823 first card; JSON 0.909 letters 0.907 *theirs*"
+    },
+    {
+      "id": "github:Das-rebel/a3m-router",
+      "notes_section": "143",
+      "last_look": "2026-09-21T14:23Z",
+      "fingerprints": {
+        "default_sha": "62caefe5931595b91bc90c4262b6714b55c5ac70",
+        "pushed_at": "2026-09-19T14:41:04Z",
+        "description_hash": "8d195dcaeac4",
+        "release_tag": null
+      },
+      "readme_sha": "c19e802d5cf20ddb2c649c30f0ca8606f6ae1e79",
+      "note": "0823 first card; model=jev-auto"
+    },
+    {
+      "id": "github:AbdelStark/jev-benchmarks",
+      "notes_section": "143",
+      "last_look": "2026-09-21T14:23Z",
+      "fingerprints": {
+        "default_sha": "0d610cc53e79bcbec691312b0c4adb4a0e371642",
+        "pushed_at": "2026-09-17T07:55:14Z",
+        "description_hash": "ba3772161d4c",
+        "release_tag": null
+      },
+      "readme_sha": "5fd3627f7de46b789ecbb84796b3a96354434aeb",
+      "note": "0823 first card; AG News 0.910 *theirs*"
+    },
+    {
+      "id": "github:typesafe-ai/system-one-adapter-python",
+      "notes_section": "143",
+      "last_look": "2026-09-21T14:23Z",
+      "fingerprints": {
+        "default_sha": "adffc2eab300a4fa3c0e92252d4ffd6ceaa53700",
+        "pushed_at": "2026-09-18T10:47:48Z",
+        "description_hash": "c415d9355016",
+        "release_tag": null
+      },
+      "readme_sha": "d01afbf0499ebe7e4b6e94e24d5008c5345a0844",
+      "note": "0823 first card GitHub face; wire-compat ≠ logit-equiv"
+    },
+    {
+      "id": "github:typesafe-ai/typesafe-sdk-js",
+      "notes_section": "143",
+      "last_look": "2026-09-21T14:23Z",
+      "fingerprints": {
+        "default_sha": "66880ccded6cb642dc1809620c2b108c33730214",
+        "pushed_at": "2026-09-15T18:16:49Z",
+        "description_hash": "38d4d45a89a9",
+        "release_tag": null
+      },
+      "readme_sha": "7e834076c14e955e7fa943a1405c1c304fabfe56",
+      "note": "0823 first card GitHub face"
+    },
+    {
+      "id": "github:typesafe-ai/typesafe-sdk-python",
+      "notes_section": "143",
+      "last_look": "2026-09-21T14:23Z",
+      "fingerprints": {
+        "default_sha": "2ce5c65f13646cab6e6f782328194c9d85f3300a",
+        "pushed_at": "2026-09-18T09:11:54Z",
+        "description_hash": "f0855a25af32",
+        "release_tag": null
+      },
+      "readme_sha": "361a3bc13e198b897e253126103fb8e874c48653",
+      "note": "0823 first card GitHub face"
     }
-  ]
+  ],
+  "entries": null
 }
