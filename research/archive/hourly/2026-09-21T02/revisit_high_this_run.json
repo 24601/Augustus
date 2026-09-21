@@ -1,0 +1,35 @@
+[
+  {
+    "id": "jaredpalmer/kev",
+    "why": "REVISIT densify: HEAD bd058057ad0a\u2192c096660c8da2 (+18 commits); night-2 evals (dates/unknowable/assertion), KEV_TEMPERATURE serve calibration, Qwen3.6-35B-A3B smoke, MMLU-Pro external eval, Hub publish --revision (*theirs*)",
+    "material": [
+      "head_sha",
+      "night2_evals",
+      "serve_calibration",
+      "new_base_smoke",
+      "external_bench",
+      "publish_revision"
+    ],
+    "stars": 1103,
+    "sha": "c096660c8da2",
+    "prior_sha": "bd058057ad0a",
+    "prior_pushed_at": "2026-09-21T00:06:11Z",
+    "pushed_at": "2026-09-21T02:49:06Z",
+    "bench_mark": "*theirs*"
+  },
+  {
+    "id": "kotoba-lang/typed-decisions",
+    "why": "REVISIT densify: HEAD 10d7834d3b99\u2192ff7f84e74d04; feat expose trained OpenJev decision runtime (+open_jev.py, tests) (*theirs*)",
+    "material": [
+      "head_sha",
+      "api_runtime",
+      "open_jev_export"
+    ],
+    "stars": 1,
+    "sha": "ff7f84e74d04",
+    "prior_sha": "10d7834d3b99",
+    "prior_pushed_at": "2026-09-20T02:58:24Z",
+    "pushed_at": "2026-09-21T02:25:59Z",
+    "bench_mark": "*theirs*"
+  }
+]

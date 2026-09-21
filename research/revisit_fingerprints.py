@@ -287,6 +287,10 @@ def self_test() -> None:
     assert by_id["hf:ds:ZefanCai/Open-Jev"]["notes_section"] == "125"
     semif_readme = by_id["github:TheoLeeCJ/SemIf"].get("readme_sha")
     assert isinstance(semif_readme, str) and semif_readme.startswith("74ab7f7f")
+    kev = by_id["github:jaredpalmer/kev"]["fingerprints"]
+    assert kev["default_sha"].startswith("c096660c8da2")
+    kotoba = by_id["github:kotoba-lang/typed-decisions"]["fingerprints"]
+    assert kotoba["default_sha"].startswith("ff7f84e74d04")
     densify_original_ids = {
         "github:razorback16/openjev": "75",
         "github:wfzyx/von": "49",
@@ -303,6 +307,7 @@ def self_test() -> None:
         "hf:ZefanCai/Open-Jev-9B": "125",
         "hf:ds:ZefanCai/Open-Jev": "125",
         "github:alexwestco/llm-to-jev": "118",
+        "github:kotoba-lang/typed-decisions": "130",
     }
     for look_id, section in densify_original_ids.items():
         assert look_id in by_id, look_id

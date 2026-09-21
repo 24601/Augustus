@@ -614,6 +614,47 @@ def rule_table_is_not_model(source, model_claimed=False):
         raise ValueError("unexpected source")
     return model_claimed is False
 
+
+
+def temperature_scaling_is_not_ece(kind, ece_claimed=False):
+    """temperature scaling ≠ ECE unless measured."""
+    if kind != "temperature_scaling":
+        raise ValueError("unexpected kind")
+    return ece_claimed is False
+
+
+def hub_revision_is_not_replica(kind, replica_claimed=False):
+    """Hub --revision is a pin not a replica."""
+    if kind != "hub_revision":
+        raise ValueError("unexpected kind")
+    return replica_claimed is False
+
+
+def grouped_t_is_rejected(grouped_t, adopted=False):
+    """grouped T rejected."""
+    if grouped_t is not True:
+        raise ValueError("unexpected grouped_t")
+    return adopted is False
+
+
+def trained_runtime_is_not_typesafe(kind, typesafe_claimed=False):
+    """trained runtime ≠ TypeSafe."""
+    if kind != "trained_openjev_runtime":
+        raise ValueError("unexpected kind")
+    return typesafe_claimed is False
+
+
+def generated_text_is_false(generated_text):
+    """generated_text: False."""
+    return generated_text is False
+
+
+def qwen36_is_not_archer(model, archer=False):
+    """Qwen3.6 ≠ Archer."""
+    if model != "Qwen3.6-35B-A3B":
+        raise ValueError("unexpected model")
+    return archer is False
+
 def hop_ece_permutation_invariant(rows, bins=10, key="p"):
     """Shuffle order; equal-width ECE must not move.
 
@@ -880,6 +921,25 @@ def self_test():
     assert theirs_bench_is_not_harbor(1, "robot-seed-0")
     assert theirs_bench_is_not_harbor(10, "qwen38-jevlike-10.59x")
     assert theirs_bench_is_not_harbor(3200, "jev-acento-paired")
+
+    # 2049: temperature scaling ≠ ECE unless measured / Hub --revision is a
+    # pin not a replica / grouped T rejected / trained runtime ≠ TypeSafe /
+    # generated_text: False / Qwen3.6 ≠ Archer.
+    assert temperature_scaling_is_not_ece("temperature_scaling", False)
+    assert not temperature_scaling_is_not_ece("temperature_scaling", True)
+    assert hub_revision_is_not_replica("hub_revision", False)
+    assert not hub_revision_is_not_replica("hub_revision", True)
+    assert grouped_t_is_rejected(True, False)
+    assert not grouped_t_is_rejected(True, True)
+    assert trained_runtime_is_not_typesafe("trained_openjev_runtime", False)
+    assert not trained_runtime_is_not_typesafe("trained_openjev_runtime", True)
+    assert generated_text_is_false(False)
+    assert not generated_text_is_false(True)
+    assert qwen36_is_not_archer("Qwen3.6-35B-A3B", False)
+    assert not qwen36_is_not_archer("Qwen3.6-35B-A3B", True)
+    assert theirs_bench_is_not_harbor(511, "mmlu-pro-1000-kev9b")
+    assert theirs_bench_is_not_harbor(812, "qwen36-semif-0.812")
+    assert theirs_bench_is_not_harbor(39, "kev-temp-ece-0.039")
 
     print("self-test ok")
 

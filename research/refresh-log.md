@@ -1,3 +1,23 @@
+## 2026-09-21 ~02:49 UTC / ~20:49 Boise - Hourly 2049 HIGH
+- Fresh PR off latest `main` after merged #55 (hourly 1946 / `notes.md` §131
+  / items 505–520 / batch #113) and merged #54 (aisearchio / `notes.md` §130
+  / items 497–504 / batch #112). This fold: `notes.md` §132 / composition
+  521–536 / findings batch #114. Do not reclaim §131 / 505–520 / #113.
+  **HARD RULE:** do not reopen or amend PR #23–#55.
+- PRIMARY: kev night-2 densify. KEV_TEMPERATURE T≈2.0.
+  temperature scaling ≠ ECE unless measured.
+  Hub --revision is a pin not a replica.
+  Qwen3.6-35B-A3B smoke 0.812 *theirs*.
+  REVISIT: kotoba-lang/typed-decisions OpenJev runtime.
+  trained runtime ≠ TypeSafe. generated_text: False.
+- Evidence: `research/archive/hourly/2026-09-21T02/`.
+- uniqueness_gate 0843+0915+jcr+0922+0940+0947+1049+1143+1248+1340+1441+1542+1643+1746+1843+1936+1946+2049.
+  Evaluator: temperature scaling ≠ ECE unless measured /
+  Hub --revision is a pin not a replica / grouped T rejected /
+  trained runtime ≠ TypeSafe / generated_text: False / Qwen3.6 ≠ Archer.
+  Quote *theirs*. No wrappers. `invented_signal: false`.
+- Hourly 2049 uniqueness lock: jaredpalmer/kev densify HEAD c096660c8da2 PLAN SHA 8d77dd271c66 README SHA unchanged 84b872488915; night-2 dates/unknowable/assertion; KEV_TEMPERATURE T≈2.0; Brier 0.291→0.267 ECE 0.105→0.039 *theirs*; 7.5%→3.2% *theirs*; grouped T rejected; Qwen3.6-35B-A3B smoke 0.812 *theirs*; 21M LoRA experts frozen; Hub --revision night2-du; MMLU-Pro 1000 Kev-9B 0.511 Jev 0.829 *theirs*; Qwen3.6 ≠ Archer; temperature scaling ≠ ECE unless measured; kotoba-lang/typed-decisions densify HEAD ff7f84e74d04 README SHA unchanged 4d6bbf4c4e44; feat expose trained OpenJev decision runtime; open_jev.py; tests/test_open_jev.py; generated_text: False; trained runtime ≠ TypeSafe; OpenJev.from_pretrained; decide_request kind typed-decisions/open-jev-v1; daftAI2026/awesome-jev ≠ heyjunpenn/awesome-jev ≠ yibie/awesome-jev ≠ MrJev/awesome-jev ≠ Promethe-us/awesome-jev; danielamitay/swev CoreML; serving substrate ≠ calibrated replica; smlayero/jev-debtgate CI gate cutoff still soft; Octalab-Inc/jqv stock Qwen3 decision API; franckverrot/lev ≠ jaredpalmer/kev; neko233-com/laya-go ≠ convaiinnovations/laya; tryAGI/TypeSafeAI ≠ official; abgregs/jev-experiments ≠ nak1b/jev-experiments ≠ dabit3/jev-experiments; jaanavit/gliner2-skill Locate ≠ decide; prasanthj/duckdb-jev SQL predicates; hf:Nebulaw1 legal LoRA ≠ RLCD replica; Qwen3.5 ≠ Archer; catalog ≠ endorsement; *theirs* not Harbor; SHA move is not a replica; skip-thin KadePrice123/jev-state-tracking hideri777/jev-application-sample; Hub --revision is a pin not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55; notes.md §132
+
 ## 2026-09-21 ~01:46 UTC / ~19:46 Boise - Hourly 1946 HIGH
 - Fresh PR off latest `main` after merged #54 (aisearchio / `notes.md` §130
   / items 497–504 / batch #112) and merged #52 (hourly 1843 / `notes.md` §129

@@ -377,6 +377,62 @@
         <dd class="recipe-measure">SHA unchanged 234058ab372d. 485 is an index. *theirs* not Harbor.</dd>
       </dl>
     </article>
+    <article class="recipe panel">
+      <p class="kicker">Serve calibration</p>
+      <h3>Temperature scaling vs ECE</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>A serve temperature treated as proof the head is calibrated.</dd>
+        <dt>Without</dt>
+        <dd>Ship T≈2.0 as Harbor. Fold grouped T into the raw row.</dd>
+        <dt>With</dt>
+        <dd>temperature scaling ≠ ECE unless measured. grouped T rejected. Report a calibrated row separately.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">Brier 0.291→0.267 ECE 0.105→0.039 *theirs*. 7.5%→3.2% *theirs*. Not Harbor.</dd>
+      </dl>
+    </article>
+    <article class="recipe panel">
+      <p class="kicker">Hub pin</p>
+      <h3>Revision vs replica</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>A Hub --revision treated as hosted Jev logits.</dd>
+        <dt>Without</dt>
+        <dd>Swap the serving URL to night2-du. Skip the locked-test costs.</dd>
+        <dt>With</dt>
+        <dd>Hub --revision is a pin not a replica. SHA move is not a replica. main untouched awaiting sign-off.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">0.852 OOD *theirs*. coverage@5% 0.62 from 0.66 *theirs*. *theirs* not Harbor.</dd>
+      </dl>
+    </article>
+    <article class="recipe panel">
+      <p class="kicker">Trained encoder runtime</p>
+      <h3>OpenJev runtime vs TypeSafe</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>A trained OpenJev loader treated as the hosted System One API.</dd>
+        <dt>Without</dt>
+        <dd>Point the .NET SDK at DeBERTa. Treat generated_text: False as TypeSafe.</dd>
+        <dt>With</dt>
+        <dd>trained runtime ≠ TypeSafe. OpenJev.from_pretrained. encoder class member not Jev replica.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">kind typed-decisions/open-jev-v1. generated_text: False. DeBERTa 0.855 / 42 ms *theirs*.</dd>
+      </dl>
+    </article>
+    <article class="recipe panel">
+      <p class="kicker">Class members</p>
+      <h3>Stock Qwen, CoreML, SQL, locate, legal LoRA</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>A letter readout, on-device bundle, SQL predicate, span locator, or legal LoRA treated as RLCD Jev.</dd>
+        <dt>Without</dt>
+        <dd>Quote 0.812 as Archer. Treat DuckDB as a Noul. Collapse GLiNER into Choice.</dd>
+        <dt>With</dt>
+        <dd>Qwen3.6 ≠ Archer. serving substrate ≠ calibrated replica. Locate ≠ decide. legal LoRA ≠ RLCD replica. catalog ≠ endorsement.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">jqv stock Qwen3. swev CoreML. duckdb-jev SQL predicates. gliner2-skill locate. *theirs* not Harbor.</dd>
+      </dl>
+    </article>
   </div>
   <p class="compare-caption">
     Measurement recipe (hysteresis, equal-width vs quantile ECE, hop-ECE,
