@@ -487,6 +487,41 @@ def reconstruction_is_not_replica(kind, replica_claimed=False):
     return replica_claimed is False
 
 
+
+
+def typesafe_compatible_is_not_replica(compatible, replica_claimed=False):
+    """TypeSafe-compatible ≠ TypeSafe replica.
+
+    SDK Choice types plus a logit trick on a stock LM is not hosted Jev.
+    """
+    return compatible is True and replica_claimed is False
+
+
+def replica_is_not_typesafe(is_replica, typesafe_claimed=False):
+    """replica ≠ TypeSafe. A Gemma LoRA replica is not hosted Jev."""
+    return is_replica is True and typesafe_claimed is False
+
+
+def kotoba_is_not_laya(repo, hub):
+    """kotoba-lang/typed-decisions ≠ convaiinnovations/laya-typed-decisions."""
+    if repo != "kotoba-lang/typed-decisions":
+        raise ValueError("unexpected repo")
+    if hub != "convaiinnovations/laya-typed-decisions":
+        raise ValueError("unexpected hub")
+    return True
+
+
+def census_is_not_endorsement(is_index, endorsement=False):
+    """aisearchio 15-link census catalog ≠ endorsement."""
+    return is_index is True and endorsement is False
+
+
+def soft_scores_are_not_hard_gates(score, hard_gate=False):
+    """soft scores ≠ hard gates. 0.855 / 76.7% stay *theirs*."""
+    if not (0.0 <= score <= 1.0 or score > 1.0):
+        raise ValueError("unexpected score")
+    return hard_gate is False
+
 def hop_ece_permutation_invariant(rows, bins=10, key="p"):
     """Shuffle order; equal-width ECE must not move.
 
@@ -694,6 +729,21 @@ def self_test():
     assert not reconstruction_is_not_replica("reconstruction", True)
     assert theirs_bench_is_not_harbor(836, "kev-init-from-836")
     assert theirs_bench_is_not_harbor(2, "assay-001-split")
+
+    # 1936: TypeSafe-compatible ≠ TypeSafe replica / replica ≠ TypeSafe /
+    # kotoba ≠ laya / census ≠ endorsement / soft scores ≠ hard gates.
+    assert typesafe_compatible_is_not_replica(True, False)
+    assert not typesafe_compatible_is_not_replica(True, True)
+    assert replica_is_not_typesafe(True, False)
+    assert not replica_is_not_typesafe(True, True)
+    assert kotoba_is_not_laya("kotoba-lang/typed-decisions",
+                             "convaiinnovations/laya-typed-decisions")
+    assert census_is_not_endorsement(True, False)
+    assert not census_is_not_endorsement(True, True)
+    assert soft_scores_are_not_hard_gates(0.855, False)
+    assert not soft_scores_are_not_hard_gates(0.767, True)
+    assert theirs_bench_is_not_harbor(343, "mithalouni-76.7-vs-jev-86.9")
+    assert theirs_bench_is_not_harbor(1500, "kotoba-deberta-0.855-42ms")
 
     print("self-test ok")
 

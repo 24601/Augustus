@@ -3051,3 +3051,50 @@ Soft Noul ≠ hard safety.
 
 **Hourly 1843 HIGH (`notes.md` §129).** kev own-data JSONL densify. --init_from warm-start LoRA/head PR #9. from-scratch ≠ warm-start. JSONL labels ≠ Harbor. 4B new-source 0.794/0.832 *theirs*. 9B new-source 0.812/0.837 *theirs*. 0.33 vs 0.84 vs 0.83/0.88 *theirs*. reconstruction ≠ replica. assay-001 split verdict. catalog ≠ endorsement. SHA move is not a replica. Do not reopen or amend PR #23–#51. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
 Hourly 1843 uniqueness lock: jaredpalmer/kev densify HEAD bd058057ad0a README SHA 84b872488915; Fine-tuning on your own data; --data JSONL; --init_from warm-start LoRA/head PR #9; Kev-0.8B 4B 9B Qwen3.5 family; 4B new-source 0.794/0.832 *theirs*; 9B new-source 0.812/0.837 *theirs*; 0.33 vs 0.84 vs 0.83/0.88 *theirs*; from-scratch ≠ warm-start; JSONL labels ≠ Harbor; Kev-0.5B card Qwen3.5 family pointer; No Jev outputs were used for training; option order can change an answer; 8.2% ≥0.9 on wrong *theirs*; Kev-9B 7.5% ≥0.9 on wrong *theirs*; dabit3/jev-experiments densify 340★; simota/tenbin densify neighbor skill; Promethe-us/awesome-jev ≠ MrJev/awesome-jev ≠ yibie/awesome-jev; kyegomez/open-jev reconstruction ≠ replica; unofficial research implementation with random weights; kyegomez/open-jev ≠ razorback16/openjev ≠ TheoLeeCJ/openjev ≠ Zefan-Cai/Open-Jev ≠ Shalimov04/open-jev; jourdanlabs/assay-001 split verdict; CLINC150 ECE 0.0204 *theirs*; Banking77 ECE 0.0936 *theirs*; 8,576 responses zero type errors *theirs*; brnyxx/jev-ra 3-5x / ~300 ms *theirs*; 8.50× Wikipedia *theirs*; ThePFMind/jev-mcp ≠ jkudish/jev-mcp ≠ burnigtm/jev-mcp; namenu/pi-jev-effort ≠ TheoOliveira/pi-jev; samatv256/mini-Jev ≠ r-ms/mini-jev; comoc/jev-minesweeper ≠ EnesYilmazcode/JevMinesweeper; game success ≠ calibrated Noul; Nutlope/jev-fraud Kimi K3; jeffloo886/jev-notion; hf:akhilaaa3/openjev-v1-allmix-r512-merged ≠ hf:akhilaaa3/openjev-r512-handoff-demo; serving substrate ≠ calibrated replica; catalog ≠ endorsement; SHA move is not a replica; wire-compat ≠ logit-equiv; Qwen3.5 ≠ Archer; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51; notes.md §129
+
+
+497. **sgoedecke/system-one first-sighting PRIMARY** (sgoedecke/system-one):
+     position 1 (Operand). Batched single-token choice inference.
+     SystemOne.from_pretrained. TypeSafe-compatible ≠ TypeSafe replica.
+     cache_prefix=True. LICENSE absent. 20★ HEAD ebde2a2db706.
+     Full cards: `judgment-class.md`, `mixed-architecture.md`.
+498. **TypeSafe-compatible ≠ TypeSafe replica** (sgoedecke/system-one):
+     positions 1 (Operand) × 11 (Bounds). Prefill `choice_index:` and
+     constrain logits to index tokens. Open LM logit trick, not RLCD
+     and not hosted jev-1.13. Full cards: `faq.md`, `validation.md`.
+499. **system-one namesake lock** (sgoedecke / mithalouni / Kathan / babybear):
+     sgoedecke/system-one ≠ mithalouni/system-one-open ≠ KathanModh259/system-one ≠ babybear-labs/system-one.
+     Full cards: `faq.md`.
+500. **mithalouni/system-one-open first-sighting** (mithalouni/system-one-open):
+     position 1 (Operand). Gemma 4 E2B / Gemma 3 270M Modal. replica ≠ TypeSafe.
+     18★ MIT HEAD 77f1f7cccf8a. HF upload pending. §78 table stays the board.
+     Full cards: `judgment-class.md`, `validation.md`.
+501. **76.7% vs Jev 86.9% *theirs*** (mithalouni/system-one-open):
+     position 8 (Metric). 76.7% vs Jev 86.9% strict common subset *theirs*.
+     97 ms H100 *theirs*. 74.8% held-out *theirs*. Soft scores ≠ hard gates.
+     *theirs* not Harbor. Full cards: `validation.md`, `faq.md`.
+502. **kotoba-lang/typed-decisions first-sighting** (kotoba-lang/typed-decisions):
+     position 1 (Operand). ModernBERT / DeBERTa / LLaDA-MoE training record.
+     DeBERTa-v3-large 0.855 / 42 ms *theirs*. ModernBERT-base 0.717 / 68 ms *theirs*.
+     LLaDA-MoE 0.835 / 676 ms *theirs*. Hub encoder stays §33.
+     encoder class member not Jev replica. Full cards: `judgment-class.md`.
+503. **kotoba ≠ Laya HF namesake** (kotoba-lang/typed-decisions):
+     kotoba-lang/typed-decisions ≠ convaiinnovations/laya-typed-decisions.
+     Full cards: `faq.md`.
+504. **aisearchio census catalog ≠ endorsement** (@aisearchio 15-link list):
+     position 11 (Bounds). 12 already carded 3 gaps this fold.
+     catalog ≠ endorsement. Skip Archer. SHA move is not a replica.
+     Full cards: `faq.md`, `mental-models.md`.
+
+User-provided 1936 items 497–504 (`notes.md` §130). Do **not**
+re-fold §129 items 481–496 / §128 items 465–480 / §127 items 449–464.
+Skip Archer rewrite.
+TypeSafe-compatible ≠ TypeSafe replica; replica ≠ TypeSafe;
+kotoba-lang/typed-decisions ≠ convaiinnovations/laya-typed-decisions;
+aisearchio 15-link census catalog ≠ endorsement;
+soft scores ≠ hard gates; SHA move is not a replica.
+do not reopen or amend PR #23–#52.
+Soft Noul ≠ hard safety.
+
+**User-provided 1936 HIGH (`notes.md` §130).** sgoedecke/system-one first-sighting. SystemOne.from_pretrained. TypeSafe-compatible ≠ TypeSafe replica. mithalouni/system-one-open first-sighting. 76.7% vs Jev 86.9% *theirs*. replica ≠ TypeSafe. kotoba-lang/typed-decisions first-sighting. DeBERTa-v3-large 0.855 / 42 ms *theirs*. kotoba-lang/typed-decisions ≠ convaiinnovations/laya-typed-decisions. aisearchio 15-link census catalog ≠ endorsement. soft scores ≠ hard gates. SHA move is not a replica. Do not reopen or amend PR #23–#52. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+User-provided 1936 uniqueness lock: sgoedecke/system-one 20★ HEAD ebde2a2db706 README SHA d331b567e2c3; SystemOne.from_pretrained; Batched single-token choice inference; TypeSafe-compatible; cache_prefix=True; LICENSE absent; sgoedecke/system-one ≠ mithalouni/system-one-open ≠ KathanModh259/system-one ≠ babybear-labs/system-one; TypeSafe-compatible ≠ TypeSafe replica; mithalouni/system-one-open 18★ MIT HEAD 77f1f7cccf8a README SHA 535f33028a68 LICENSE SHA 2f6f2cf1064e; Gemma 4 E2B / Gemma 3 270M Modal; 76.7% vs Jev 86.9% strict common subset *theirs*; 97 ms H100 *theirs*; 74.8% held-out *theirs*; replica ≠ TypeSafe; HF upload pending; kotoba-lang/typed-decisions 1★ Apache-2.0 HEAD 10d7834d3b99 README SHA 4d6bbf4c4e44 LICENSE SHA 513bb5e3cb4c; ModernBERT / DeBERTa / LLaDA-MoE; DeBERTa-v3-large 0.855 / 42 ms *theirs*; ModernBERT-base 0.717 / 68 ms *theirs*; LLaDA-MoE 0.835 / 676 ms *theirs*; kotoba-lang/typed-decisions ≠ convaiinnovations/laya-typed-decisions; encoder class member not Jev replica; aisearchio 15-link census catalog ≠ endorsement; 12 already carded 3 gaps this fold; soft scores ≠ hard gates; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52; notes.md §130

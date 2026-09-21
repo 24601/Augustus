@@ -1,6 +1,6 @@
 {
   "refresh_cadence": "hourly",
-  "retrieved": "2026-09-21T00:43Z",
+  "retrieved": "2026-09-21T01:36Z",
   "sources": [
     {
       "kind": "docs",
@@ -5305,6 +5305,24 @@
       "title": "DavidHatley/system-one-mini-data",
       "url": "https://huggingface.co/datasets/DavidHatley/system-one-mini-data",
       "note": "sha 319c9329b417 independent research artifacts, not reproductions of Jev or RLCD. notes.md §121."
+    },
+    {
+      "kind": "github",
+      "title": "sgoedecke/system-one",
+      "url": "https://github.com/sgoedecke/system-one",
+      "note": "20★ HEAD ebde2a2db706 SystemOne.from_pretrained TypeSafe-compatible ≠ TypeSafe replica. notes.md §130."
+    },
+    {
+      "kind": "github",
+      "title": "mithalouni/system-one-open",
+      "url": "https://github.com/mithalouni/system-one-open",
+      "note": "18★ MIT HEAD 77f1f7cccf8a 76.7% vs Jev 86.9% *theirs* replica ≠ TypeSafe. notes.md §130."
+    },
+    {
+      "kind": "x",
+      "title": "aisearchio open-source Jev alternatives list",
+      "url": "https://x.com/aisearchio/status/2101720039779086414",
+      "note": "15-link census catalog ≠ endorsement. 12 already carded 3 gaps this fold. notes.md §130."
     }
   ]
 }
