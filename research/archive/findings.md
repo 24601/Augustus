@@ -27,6 +27,10 @@ README still ends at License. Does not bump 0.5.0 or 0.5.1.
   Export parity is not Harbor. Not MatteoGauthier/laya-onnx.
 - **strombolini/Armada.** Codiv OpenJev is not TypeSafe. Ranking is
   not calibration. The 99% line is an illustration. Release v1.2.0.
+- **hf:lostargon/Tiny-Jev.** In-distribution ECE 0.004 *theirs* is not
+  the held-out ECE 0.299 *theirs*. Fitted public rows are not zero-shot.
+  About 20 to 50 ms on Apple M is a latency claim, not Harbor.
+  Qwen3-0.6B is not Archer.
 - **Class benches *theirs*.** GaNotch 84.0%. JMLE 88.58% (3,150/3,556),
   medRxiv screening, not peer reviewed. Mind2Web one train shard,
   test splits not run, described-element 79.2%. Jevals 1/28 of the
