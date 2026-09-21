@@ -1,5 +1,60 @@
 # Deep-read findings (evidence for research/notes.md)
 
+## Batch #136 (2026-09-21 ~16:53 Boise / ~22:53 UTC) - hourly 1653 HIGH
+
+Note: `research/notes.md` §156. Composition 869-884.
+hourly 1556 §154 and rawwerks/one-system §155 are on main.
+This fold is §156 only. Do not reclaim §147 through §155.
+Hourly 1556 stays §154 / composition 837-852 / batch #134.
+one-system stays §155 / items 853-868 / batch #135.
+This fold stays §156 / items 869-884 / batch #136.
+**HARD RULE:** do not reopen or amend PR #23 through #81.
+The consecutive lock string lives in notes.md and uniqueness_gate.py only.
+README still ends at License. Does not bump 0.5.0 or 0.5.1.
+`invented_signal: false`. Parent merges only after ADV_PASS.
+
+- **jerryjliu/docjev PRIMARY.** 189 stars. Apache-2.0. TypeSafe Jev
+  classifies a parsed document and judges a packet split. Page bytes
+  stay in code. Classification 40/40 and splitting 7/8 exact packets
+  are *theirs*, not Harbor. Jev 1.13.0 median 138.6 ms. The one extra
+  split stays visible. A preparation protocol is not another measured result.
+- **Argos1111/jev_local densify §94.** HEAD 70a1ed6f197a was 8ccc04d.
+  Release sarashina-llama-b11042-pre1. The Japanese card says the project
+  does not reproduce TypeSafe training. Sarashina is not Archer.
+  Star 14 to 20 is star-noise beside the rewrite.
+- **dfinke/jev-experiments.** Rank at most 12 of the first 200 files.
+  Weights 0.65, 0.20, and 0.15 stay in code. Offline fallback sends nothing.
+  Ranking is not calibration.
+- **hf:akhilaaa3/Jev-Omni.** Gemma 4 12B-it. DecisionBench Medium 87.57%
+  and JevBench 86.15% of 231 are *theirs*. Gemma 4 is not Archer.
+- **hf:inferenceprince/laya-onnx.** fp16 weights, 842.6 MB. A calibrated
+  distribution is their claim. Serving substrate is not a calibrated replica.
+- **ipenywis/laya-ultrafast.** Apple Silicon only. About 33 ms on M1 Max
+  is *theirs*. Not browser-use/jev-ultrafast.
+- **osrim/readwise-jev-classifier.** 23 noul tags. 0.80 still soft.
+  It never writes back to Readwise.
+- **BeeboLab IAB demo.** README absent. Beam search is not a grant.
+- **Bethamil/tetris-jev.** Unknown id is rejected. The keyboard does not play.
+  Game success is not a calibrated Noul.
+- **ColomboAI-com/c3r.** The controller does not grant itself authority.
+  System-One never decides permissions, price, or commitment.
+  Measured calibration is not claimed yet.
+- **FluidInference/FluidUse densify §143.** Release v0.2.0.
+  HEAD e9e95935075b was c18071d791eb. Forms 0.9 ms on a 24,370-row
+  synthetic test is *theirs*. Laya 3.6 ms. Submit is never clicked unless
+  enabled. Cua-S1 is not TypeSafe.
+- **Alexander-Ollman/laya-ft densify §148.** Banking77 51.3% to 79.4%
+  versus Jev 80.0% is *theirs*. Unattended moderation is not established.
+- **jonkthomas/jev-shadow densify §153.** Demo numbers say nothing about Jev.
+  A cutoff does not carry to jev-latest. Shadow changes nothing.
+- **ChiyuSONG/inside-jev densify §154.** Not an official project.
+  A model comment on itself is not a training proof.
+- **suraj-phanindra/wellposed** stays the §46 card. Confidence 1.00 on a
+  missing other. Not a sibling first sighting.
+- Empty trees record empty SHA HTTP 409. Qwen3.5 is not Archer.
+  Gemma 3 is not Archer. Soft judgment never sole veto. Skip Archer.
+
+
 ## Batch #135 (2026-09-21 ~22:25 UTC) - user-provided rawwerks/one-system HIGH
 
 Note: `research/notes.md` §155. Composition 853-868.

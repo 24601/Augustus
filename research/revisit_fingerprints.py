@@ -415,6 +415,42 @@ def self_test() -> None:
     assert os_fp["description_hash"] == "4576d70e542f"
     assert os_fp["pushed_at"] == "2026-09-21T21:37:02Z"
     assert onesystem["readme_sha"].startswith("fd20bacaade7")
+    fluid = by_id["github:FluidInference/FluidUse"]
+    assert fluid["notes_section"] == "143"
+    fl = fluid["fingerprints"]
+    assert fl["default_sha"].startswith("e9e95935075b")
+    assert fl["release_tag"] == "v0.2.0"
+    assert fl["description_hash"] == "ddacb829949a"
+    assert fl["pushed_at"] == "2026-09-21T22:18:09Z"
+    assert fluid["readme_sha"].startswith("7d246df7270a")
+    docjev = by_id["github:jerryjliu/docjev"]
+    assert docjev["notes_section"] == "156"
+    dj = docjev["fingerprints"]
+    assert dj["default_sha"].startswith("7e6b48d3f7ee")
+    assert dj["description_hash"] == "3dace90930ca"
+    assert dj["release_tag"] is None
+    assert dj["pushed_at"] == "2026-09-21T22:40:31Z"
+    assert docjev["readme_sha"].startswith("2ce22c98a411")
+    local = by_id["github:Argos1111/jev_local"]
+    assert local["notes_section"] == "94"
+    assert local["fingerprints"]["default_sha"].startswith("70a1ed6f197a")
+    assert local["fingerprints"]["release_tag"] == "sarashina-llama-b11042-pre1"
+    assert local["fingerprints"]["description_hash"] == "ea606aeb1f82"
+    well = by_id["github:suraj-phanindra/wellposed"]
+    assert well["notes_section"] == "46"
+    assert well["fingerprints"]["default_sha"].startswith("86e6f8cb17e4")
+    empty = by_id["github:DumoeDss/jev-demos"]
+    assert empty["notes_section"] == "156"
+    assert empty["fingerprints"]["default_sha"] is None
+    shadow = by_id["github:jonkthomas/jev-shadow"]
+    assert shadow["notes_section"] == "153"
+    assert shadow["fingerprints"]["default_sha"].startswith("fd17ee44ecb2")
+    inside = by_id["github:ChiyuSONG/inside-jev"]
+    assert inside["notes_section"] == "154"
+    assert inside["fingerprints"]["description_hash"] == "42d9e077390e"
+    laya_ft = by_id["github:Alexander-Ollman/laya-ft"]
+    assert laya_ft["notes_section"] == "148"
+    assert laya_ft["fingerprints"]["default_sha"].startswith("32c1cb32557a")
     print("revisit-fingerprints self-test ok")
 
 

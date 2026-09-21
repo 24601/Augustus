@@ -1,0 +1,734 @@
+[
+  {
+    "id": "jerryjliu/docjev",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "7e6b48d3f7eec8db7b582e7276f2778c0d12ca3d",
+      "pushed_at": "2026-09-21T22:40:31Z",
+      "description_hash": "3dace90930ca",
+      "release_tag": null
+    },
+    "readme_sha": "2ce22c98a4112c293139812d06ca1aa6d7a87074"
+  },
+  {
+    "id": "Argos1111/jev_local",
+    "kind": "novel",
+    "notes_section": "94",
+    "fingerprints": {
+      "default_sha": "70a1ed6f197aed993b3a76ee5eed8fa073930514",
+      "pushed_at": "2026-09-21T22:25:42Z",
+      "description_hash": "ea606aeb1f82",
+      "release_tag": "sarashina-llama-b11042-pre1"
+    },
+    "readme_sha": "abb2477edd07ee68ab29b642ce680bb78b7ebafe"
+  },
+  {
+    "id": "dfinke/jev-experiments",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "e03c3a21009bc66358cd63a212b1ebdc14f167c5",
+      "pushed_at": "2026-09-21T22:09:01Z",
+      "description_hash": "4f77dde818b4",
+      "release_tag": null
+    },
+    "readme_sha": "73e7271800e96d7844f6088028f089556243d399"
+  },
+  {
+    "id": "hf:akhilaaa3/Jev-Omni",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "3e885f2951a126c41c7599ed719f98cc3088d8ed",
+      "pushed_at": "2026-09-21T23:00:06.000Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": null
+  },
+  {
+    "id": "hf:inferenceprince/laya-onnx",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "dd0f4db73e24ef4c646d47d0e48e74024f439e6c",
+      "pushed_at": "2026-09-21T22:48:58.000Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": null
+  },
+  {
+    "id": "ipenywis/laya-ultrafast",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "3581665d1b2e45f6c085a77e59aaeb14a442e65b",
+      "pushed_at": "2026-09-21T22:46:52Z",
+      "description_hash": "aab5037d2c17",
+      "release_tag": null
+    },
+    "readme_sha": "1b503cdba58b9e113c831a6e1f579dfc5fa082af"
+  },
+  {
+    "id": "osrim/readwise-jev-classifier",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "578cb548a6e2a6deba1671e4301ef5d46766a65d",
+      "pushed_at": "2026-09-21T22:22:16Z",
+      "description_hash": "f0a72656aad9",
+      "release_tag": null
+    },
+    "readme_sha": "2e3c0d8756fda448049ab7fe00d8ba4004984414"
+  },
+  {
+    "id": "BeeboLab/Laya_IAB_domain_classification_demo",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "794e18f52e4620a9c24efb3270956529d16abe74",
+      "pushed_at": "2026-09-21T22:20:46Z",
+      "description_hash": "efccd5f6f86d",
+      "release_tag": null
+    },
+    "readme_sha": null
+  },
+  {
+    "id": "Bethamil/tetris-jev",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "15b648b12fb700802b80b8b4dc7e87fede644187",
+      "pushed_at": "2026-09-21T23:00:06Z",
+      "description_hash": "b74dea955e92",
+      "release_tag": null
+    },
+    "readme_sha": "5a6b49c3375b234b54fcd400a9873165fcbbd080"
+  },
+  {
+    "id": "ColomboAI-com/c3r",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "bff9067495728c2b7b5010c0ab952eef1a4400a5",
+      "pushed_at": "2026-09-21T22:57:03Z",
+      "description_hash": "462e15054b34",
+      "release_tag": null
+    },
+    "readme_sha": "fd952eef8a8cdf76982b95cec6ca3fb14fb7c8d8"
+  },
+  {
+    "id": "DavidDevGt/laya-plays-mario",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "838423efb8a23f9bd7ae72771f15025695cb67e7",
+      "pushed_at": "2026-09-21T22:32:47Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "b00b114952a8559f2ed769f3f2e53cf7769dee13"
+  },
+  {
+    "id": "DumoeDss/jev-demos",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": null,
+      "pushed_at": "2026-09-21T22:19:10Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": null
+  },
+  {
+    "id": "EvanGruhlkey/JevSweep",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "e2b2631f1d0baa6a5066e042c8b55c0110c54e48",
+      "pushed_at": "2026-09-21T22:39:52Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "4afc1be8bbf63993216f2ac6d1b5b74aa5c412b2"
+  },
+  {
+    "id": "Hangzhi/diffusion-jev-sglang",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "560dbbbe4865050297a787f4ce97a8b062badab7",
+      "pushed_at": "2026-09-21T22:55:52Z",
+      "description_hash": "5b5992767e66",
+      "release_tag": null
+    },
+    "readme_sha": "508a1897bfc5ad0825ba7c3e0a572e305a77b47d"
+  },
+  {
+    "id": "Jhonnyr97/JevGuard",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "ecdba7a1c9097b7512fab83db89630e3a67a390f",
+      "pushed_at": "2026-09-21T22:07:48Z",
+      "description_hash": "329287d619c0",
+      "release_tag": null
+    },
+    "readme_sha": "3c6a3f9e1c9cfb78d178df85585e0e9e79eed386"
+  },
+  {
+    "id": "MrDesjardins/jev-send-guard",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "d432d77fabe26dd81d3377ad665ff3b99c6dafc2",
+      "pushed_at": "2026-09-21T22:37:52Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "5689dabcf982ce34198de1fc69b107b88643e116"
+  },
+  {
+    "id": "Rocketstradingco/memory-router",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "72ce3c2b10d12e4aa97474a7ddb7be5aeb5f2a7c",
+      "pushed_at": "2026-09-21T22:37:04Z",
+      "description_hash": "275d22da9c57",
+      "release_tag": null
+    },
+    "readme_sha": "41cbe4255e1f5dc1f530e7cdbf705a2139f069b1"
+  },
+  {
+    "id": "SilentBless/omp-classifier",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "e31f583a029bb6e606c6185c2743835f0a0f850d",
+      "pushed_at": "2026-09-21T22:02:41Z",
+      "description_hash": "46d00a44786f",
+      "release_tag": null
+    },
+    "readme_sha": "bf141b693d833c63fb9f7c9a9ac5d49bd7da8cd7"
+  },
+  {
+    "id": "Sofiyaan12/jev-support-routing",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "bbf198e233da2fcfd5902e9431c3ffa09668eab0",
+      "pushed_at": "2026-09-21T22:16:38Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "0fe70f3581c14f427e77c7661ec18b3e863daa26"
+  },
+  {
+    "id": "SoundBlaster/SwiftJev",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "b9ba495efa0dbe53d8eff2771708418bff16096d",
+      "pushed_at": "2026-09-21T22:24:29Z",
+      "description_hash": "6df8360ec0a4",
+      "release_tag": null
+    },
+    "readme_sha": "0c4c8aa93d54a92561ecfb2cae6d888d3220dc20"
+  },
+  {
+    "id": "alliansimoveis/jev",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "ab359a279d1522e5a37e796c318fcab3eb9b340d",
+      "pushed_at": "2026-09-21T22:30:13Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "f54ec4447f8438501eb7b43b4713b17e03be0563"
+  },
+  {
+    "id": "ayushworks/Jev",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "8b6e4ebc56dea81e69174d8dbd2838bd1c46c850",
+      "pushed_at": "2026-09-21T22:38:48Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "690a6e0e6185bb6d03c24bc65f9621e8f6c45a3f"
+  },
+  {
+    "id": "cohenom/laya-doom",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "0bc19dbda0ff0d09e16a73595ee00c06557af587",
+      "pushed_at": "2026-09-21T22:59:53Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "dee3a61a7588ffe3337354da9a8fe5be7db13865"
+  },
+  {
+    "id": "danielyedaniel/jevme",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "110bf6ba7ad321aa76f229d324a4a409fde9319f",
+      "pushed_at": "2026-09-21T22:09:24Z",
+      "description_hash": "b60978d41618",
+      "release_tag": null
+    },
+    "readme_sha": "bae95f9f5cfcc6aa741b4c2d992aa01219bb3bc3"
+  },
+  {
+    "id": "devthinker-ai/laya-mcp",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "20136b3f3a0bf16270895ff27f982b0e83aea45c",
+      "pushed_at": "2026-09-21T22:37:56Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "aafa1eaec186237a171a60a5a9d62d46f6584998"
+  },
+  {
+    "id": "ennsharma/scrollpatrol",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "ee563ec30abb34391d8aafe2b959279ec13972f8",
+      "pushed_at": "2026-09-21T22:57:24Z",
+      "description_hash": "9fc28c68800f",
+      "release_tag": null
+    },
+    "readme_sha": "f4910964aa23749cf5b47dbaba9263dd5ba2f2cf"
+  },
+  {
+    "id": "ethereumdegen/jev-discord-bot",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "a2e2a791031bfa1b184cb255d24e045cfa46be1e",
+      "pushed_at": "2026-09-21T22:35:31Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "15d82a84e78cba3b79683f6692299b47103fbec1"
+  },
+  {
+    "id": "evan-zhang/openclaw-typesafe-plugin",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "a67b4f4d3f9fda1996b001b197df598f379b7041",
+      "pushed_at": "2026-09-21T22:37:44Z",
+      "description_hash": "193ee4ff97b4",
+      "release_tag": "v0.1.0"
+    },
+    "readme_sha": "374326675e54a309fef1df32226ecf120e387aec"
+  },
+  {
+    "id": "fataakromulmuttaqin/pulse-research-engine",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "43cf67f30319d907c6aad4c2bdc2bdb9489b2508",
+      "pushed_at": "2026-09-21T22:22:47Z",
+      "description_hash": "f3e1fae21f16",
+      "release_tag": null
+    },
+    "readme_sha": "4301f539314e32c00b88a84160b28bb3c29a6ab2"
+  },
+  {
+    "id": "frontend-army/jev-test",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "27f72eee0ebbc181b0788e98e65cdf54f27822ef",
+      "pushed_at": "2026-09-21T22:39:45Z",
+      "description_hash": "0f8ba553ee42",
+      "release_tag": null
+    },
+    "readme_sha": "aa5b17f5731e14808a645e7c7de6eda79b966d6d"
+  },
+  {
+    "id": "hf:AlquimiaAi/openjev",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "6f4488f39623b18da6fc5af328996593537fa956",
+      "pushed_at": "2026-09-21T22:27:13.000Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": null
+  },
+  {
+    "id": "hf:TracNetwork/mayhem-catalog-convaiinnovations-laya",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "d288cbfe560a0ff904401f57e28820aa140c11e7",
+      "pushed_at": "2026-09-21T21:58:08.000Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": null
+  },
+  {
+    "id": "hf:argos1111/sarashina2.2-vision-3b-mmproj-jev-f16",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "aabea115c03f21dbd5b0018c24770f632cb8c93d",
+      "pushed_at": "2026-09-21T22:21:51.000Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": null
+  },
+  {
+    "id": "hf:kaivoss/system-one-270m",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "a9572e32bbd8b79c03add60d708e505667ff4c9a",
+      "pushed_at": "2026-09-21T22:53:21.000Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": null
+  },
+  {
+    "id": "hf:thaitea/laya-vision-modernvbert-250m",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "4081dc6e00284a0d7da2071baedb9f8bf2f9d451",
+      "pushed_at": "2026-09-21T22:41:24.000Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": null
+  },
+  {
+    "id": "jev-ids/jev-ids",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "2b1c287465e49cc435f825b8591d9c13295beeef",
+      "pushed_at": "2026-09-21T22:58:15Z",
+      "description_hash": "f4ff90fe89d6",
+      "release_tag": null
+    },
+    "readme_sha": "535341316879b1fb6589224e1033679821ed83db"
+  },
+  {
+    "id": "koteitan/laya-int8",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "482f1c2e24efba7b16e98d3043bdf9641a4b564d",
+      "pushed_at": "2026-09-21T22:29:42Z",
+      "description_hash": "ad85ca2912f6",
+      "release_tag": null
+    },
+    "readme_sha": "15917dd427a016507517a9a155fb2e10aaf0a182"
+  },
+  {
+    "id": "kyr0/typed-decision-bench",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "67b590ddae82fbd5e263428d38701693dd7ae882",
+      "pushed_at": "2026-09-21T22:49:47Z",
+      "description_hash": "e98ae12fcec6",
+      "release_tag": null
+    },
+    "readme_sha": "93bc038e338b492cab5b32345aa4ca4b90c3a6b6"
+  },
+  {
+    "id": "liujitcn/jev-game",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "e332da568c1cb0c0c00c1e5926981a7d2f716795",
+      "pushed_at": "2026-09-21T22:31:54Z",
+      "description_hash": "bebdd29f5fea",
+      "release_tag": null
+    },
+    "readme_sha": "6132668e7345eac477c739e4420f8c68fa9af4b4"
+  },
+  {
+    "id": "lucasbaruj4/jev-context-gate",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "bc3c965b66581eb47fdb1698ee7f3f4c7fd531a0",
+      "pushed_at": "2026-09-21T22:08:56Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "474c7659943c2b3cfc2e87d80d0318a9ea6258e4"
+  },
+  {
+    "id": "maciejczub/skill-siujev",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "486e4dd1e0fad95413232228e064243a317bc6cd",
+      "pushed_at": "2026-09-21T22:41:36Z",
+      "description_hash": "5a81fc41772b",
+      "release_tag": null
+    },
+    "readme_sha": "83dc2b768cd30930143f24be610b41e3065d6c31"
+  },
+  {
+    "id": "mannjasmine6850/jevjle",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "1b65284858f10c0d4f3a960e55879e137b0a0b47",
+      "pushed_at": "2026-09-21T22:46:58Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "83002ed8219826c3cf685f5fd98dbbf662df8ae4"
+  },
+  {
+    "id": "marwan404/Jev-gate",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "4906bbd661594fae8d0992b2863d404642f7d79a",
+      "pushed_at": "2026-09-21T22:44:41Z",
+      "description_hash": "b67f551efbe7",
+      "release_tag": null
+    },
+    "readme_sha": "42209f291d16c56179d91ee92b2263d40d3e7a8a"
+  },
+  {
+    "id": "mlnima/laya-api",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": null,
+      "pushed_at": "2026-09-21T22:29:32Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": null
+  },
+  {
+    "id": "moamenFathy/Jev_voice_computer_use",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "9b328aef20cce8b5f32715d9de63c010d8d4d148",
+      "pushed_at": "2026-09-21T22:40:48Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "d0c3e19fc38b99e66af0963f118d933ea293f8d5"
+  },
+  {
+    "id": "mooshee/typesafe-key-cli",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "c56f6abbf2e8f3810a6510fac4f2b73a38788913",
+      "pushed_at": "2026-09-21T22:37:54Z",
+      "description_hash": "26b3cd155584",
+      "release_tag": null
+    },
+    "readme_sha": "f9e79917f63576f2946deebea203fc33b768b079"
+  },
+  {
+    "id": "ogarciarevett/jev-claw",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": null,
+      "pushed_at": "2026-09-21T22:28:46Z",
+      "description_hash": "2182ec15561e",
+      "release_tag": null
+    },
+    "readme_sha": null
+  },
+  {
+    "id": "pedroteste00000008-stack/opencode-memory",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "c70e722cb75147a0fc9d2fc1869390f3ef8b6306",
+      "pushed_at": "2026-09-21T22:22:14Z",
+      "description_hash": "0e7a0968dea0",
+      "release_tag": null
+    },
+    "readme_sha": "d942ed3fd58cc69047349039880f35185feea92d"
+  },
+  {
+    "id": "prarolab/jev-migration-harness",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "7c82b642fb8880972c6fe378ac4103ad60880885",
+      "pushed_at": "2026-09-21T22:17:43Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "fe8f9d5ed5dce8b823936ed91ea01ebe07fec4f9"
+  },
+  {
+    "id": "prof-marcosbarbosa/jev-first-steps",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "c3656b5a74ebbc937004c3415621c08b7d6acb17",
+      "pushed_at": "2026-09-21T22:51:18Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "bebce27e0b48df1123a72464100c353204d7679d"
+  },
+  {
+    "id": "rishi-raj-jain/ping-pong-jev",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "653657e6b713d3403bf745b655a77f02b7852587",
+      "pushed_at": "2026-09-21T22:19:11Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "fe41400da92f77412b98be96d540523205b4216e"
+  },
+  {
+    "id": "shijianjian/RoboJEV",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": null,
+      "pushed_at": "2026-09-21T22:12:01Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": null
+  },
+  {
+    "id": "suraj-phanindra/wellposed",
+    "kind": "novel",
+    "notes_section": "46",
+    "fingerprints": {
+      "default_sha": "86e6f8cb17e464eab33dcf44a0015fdb616b1fc2",
+      "pushed_at": "2026-09-21T22:29:55Z",
+      "description_hash": "6fc0446870ee",
+      "release_tag": null
+    },
+    "readme_sha": "3e74205985155523c93c3aadf1c2ef2c66b3ff51"
+  },
+  {
+    "id": "takezou621/jev-mcp",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "09da9f7577f5c75ddbce0ebe0e05b8881add6ee6",
+      "pushed_at": "2026-09-21T22:50:02Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "2add09cd02841a84611a5004dac923a1ac3c3e5a"
+  },
+  {
+    "id": "toshinoritakata/music-cocktail",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "17e3962179c7c23beccabaa8da90c11f53721141",
+      "pushed_at": "2026-09-21T22:42:19Z",
+      "description_hash": "93c931e12501",
+      "release_tag": null
+    },
+    "readme_sha": "60bcf0fef4e114f17f4260f1b2a5e54363b8d3c7"
+  },
+  {
+    "id": "upcastr/codex-jevroid",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "42902245354db9088a531efcb92281f1c3d29ba4",
+      "pushed_at": "2026-09-21T22:49:31Z",
+      "description_hash": "de9175dc6d88",
+      "release_tag": null
+    },
+    "readme_sha": "5523a28c0bcf6793c19f38d51f71526a9ddccdeb"
+  },
+  {
+    "id": "zbloss/jev-plays-pokemon",
+    "kind": "novel",
+    "notes_section": "156",
+    "fingerprints": {
+      "default_sha": "6b3dbd45a32ca6e18b94908bfb438818ed4f29de",
+      "pushed_at": "2026-09-21T22:35:27Z",
+      "description_hash": "94e12633a24c",
+      "release_tag": null
+    },
+    "readme_sha": "7ee77178836fd6f35103af73449f3eb05db1a521"
+  },
+  {
+    "id": "FluidInference/FluidUse",
+    "kind": "revisit",
+    "notes_section": "143",
+    "fingerprints": {
+      "default_sha": "e9e95935075b626a203bb20c0645975be23f15b1",
+      "pushed_at": "2026-09-21T22:18:09Z",
+      "description_hash": "ddacb829949a",
+      "release_tag": "v0.2.0"
+    },
+    "readme_sha": "7d246df7270ab76e9b298a3b99fb01e83fa0e87c"
+  },
+  {
+    "id": "Alexander-Ollman/laya-ft",
+    "kind": "revisit",
+    "notes_section": "148",
+    "fingerprints": {
+      "default_sha": "32c1cb32557a5c504c880e0755921c5aaa660573",
+      "pushed_at": "2026-09-21T22:27:50Z",
+      "description_hash": "44aade72bcbf",
+      "release_tag": null
+    },
+    "readme_sha": "3db22c6790e995a3ef6afbf00456c4a2a6a8886b"
+  },
+  {
+    "id": "ChiyuSONG/inside-jev",
+    "kind": "revisit",
+    "notes_section": "154",
+    "fingerprints": {
+      "default_sha": "bb666454edae202991a7ffc4ac31e2cea37c9c58",
+      "pushed_at": "2026-09-21T22:14:28Z",
+      "description_hash": "42d9e077390e",
+      "release_tag": null
+    },
+    "readme_sha": "f6a639ce9f9584b8662963f303a6f5836d2f3e28"
+  },
+  {
+    "id": "jonkthomas/jev-shadow",
+    "kind": "revisit",
+    "notes_section": "153",
+    "fingerprints": {
+      "default_sha": "fd17ee44ecb29f9078e70fb3e3bd080f5354fad1",
+      "pushed_at": "2026-09-21T22:01:08Z",
+      "description_hash": "456eefc71fff",
+      "release_tag": null
+    },
+    "readme_sha": "e13487f47576fe38e23b302bc74d2935f8772f7f"
+  }
+]

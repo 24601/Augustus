@@ -1,3 +1,20 @@
+## Hourly 1653 HIGH (notes.md §156 / items 869-884 / batch #136)
+
+- Folded onto post-#81 `main` (`3e3fa42`). hourly 1556 §154 and
+  rawwerks/one-system §155 are on main. This fold is §156 only.
+  Do not reclaim §147 through §155.
+  **HARD RULE:** do not reopen or amend PR #23 through #81.
+  Does not bump 0.5.0 or 0.5.1. Skip Archer. `invented_signal: false`.
+- PRIMARY: jerryjliu/docjev. Category and split are judgments. Page bytes
+  stay exact. 40/40 and 7/8 exact packets are *theirs*, not Harbor.
+  Argos1111/jev_local densifies §94. A local wire is not a replica.
+  Sarashina is not Archer. dfinke/jev-experiments ranks a bounded file set.
+  Offline fallback sends nothing.
+- REVISIT densify: FluidUse v0.2.0 §143, laya-ft §148, jev-shadow §153,
+  inside-jev §154. wellposed stays the §46 card. Do not mint a sibling
+  first sighting.
+- Uniqueness lock lives in `research/notes.md` and `uniqueness_gate.py` only.
+
 ## User-provided rawwerks/one-system (notes.md §155 / items 853-868 / batch #135)
 
 - First proper card off post-#80 `main` (`e178310`). hourly 1556 §154 is on main.

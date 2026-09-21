@@ -1,3 +1,17 @@
+## 2026-09-21 ~22:53 UTC / ~16:53 Boise - Hourly 1653 HIGH
+- Folded onto post-#81 `main` (`3e3fa42`). hourly 1556 §154 and
+  rawwerks/one-system §155 are on main. This fold is §156 only.
+  This fold: `notes.md` §156 / composition 869-884 / findings batch #136.
+  Do not reclaim §147 through §155.
+  **HARD RULE:** do not reopen or amend PR #23 through #81.
+- PRIMARY: jerryjliu/docjev. Category and split are judgments. Class benches
+  are *theirs*, not Harbor. Densify §94, §143, §148, §153, §154, and the
+  §46 wellposed card. A serving export is not a calibrated replica.
+  A controller proposes. The host grants.
+- Evidence: `research/archive/hourly/2026-09-21T22/`.
+- Uniqueness lock lives in `research/notes.md` only (plus the gate fixture).
+  `invented_signal: false`. No Augustus call site. X disabled. No new X quotes.
+
 ## 2026-09-21 ~22:25 UTC - user-provided rawwerks/one-system HIGH
 - First proper card off post-#80 `main` (`e178310`). hourly 1556 §154 is on main.
   This fold is §155 only. This fold: `notes.md` §155 / composition 853-868 /

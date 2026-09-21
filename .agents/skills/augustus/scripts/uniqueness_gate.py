@@ -294,6 +294,10 @@ UNIQ_ONESYSTEM = (
 'User-provided rawwerks/one-system uniqueness lock: rawwerks/one-system first proper card; gateway between apps and compatible TypeSafe System One servers; POST /v1/systemone only; no chat-completions; Choice Noul Score; description_hash 4576d70e542f unchanged; live REST stargazers_count 1; forks_count 0; license MIT; language TypeScript; also Go gateway and Hono Node/Workers; topics jev, jev-ai; GitHub id 1380477472; size 313; HEAD 1104500a0197737d25334472a42a5a790098105c; README SHA fd20bacaade7267c4f8379ff41dfad862b4afcfa; pushed 2026-09-21T21:37:02Z; release tag v0.2.0 published 2026-09-21T20:39:18Z pins 7a1fd8253ca6636bea074be298f3e2ccdb0172b5; live HEAD is the later install-command commit; release tag is not live HEAD; SHA move is not a replica; prior thin port listing notes.md §153 HEAD 7a1fd8253ca6 README SHA ea10bf3eeedd; star 0 to 1 is star-noise beside the README move; Privacy Demo is not a privacy filter; classifies task domain not whether input contains private data; math_or_logic; a request with only one eligible backend skips model-based selection even if that backend is hosted; A single eligible backend receives the original request directly; local-demo when requests must stay local; threshold 0.5 is a soft example not a recommendation and not a safety envelope; strictly above; Limits are not privacy or authorization controls; Omitting original state from selection is not anonymization; capabilities fail closed HTTP 422 unsupported_capability; questions are not dropped; installer verifies checksum; installs under ~/.local; does not use sudo; review the installer before trusting it; this card is not an install recipe; Hono Node and Workers same HTTP interface; a Worker cannot reach loopback Laya; simple-jev confidence is maximum candidate probability not calibrated correctness; TypeSafe Jev remains the default recommended path; Laya is a class peer local option not equal in adoption; English-only 421M *theirs*; gateway is not a calibrated replica; serving port is not a calibrated replica; wire-compat ≠ logit-equiv; routing selection is not permission; Soft judgment never sole veto; catalog ≠ endorsement; third-party claims stay *theirs* not Harbor; rawwerks/one-system ≠ asynq-io/system-one ≠ sgoedecke/system-one ≠ heyaozh/system-one ≠ lsu-ub-uu/systemone ≠ jkcdarunday/SystemOne-Next; heyaozh/system-one is heyaozh/jev-rust-crate; densify fingerprints not a sibling census; first proper card notes.md §155; invented_signal: false; Skip Archer; do not reclaim §147 through §154; composition 853-868; findings batch #135; hourly 1556 §154 are on main; this fold is §155 only; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62/#63/#64/#65/#66/#67/#68/#69/#70/#71/#72/#73/#74/#75/#76/#77/#78/#79/#80; does not bump 0.5.0 or 0.5.1; Parent merges only after ADV_PASS; notes.md §155'
 )
 
+UNIQ_1653 = (
+"Hourly 1653 uniqueness lock: TypeSafe Jev default path; jerryjliu/docjev classify 40/40; split 7/8 exact packets; *theirs* not Harbor; Jev 1.13.0 median 138.6 ms; one extra split; preparation protocol is not another measured result; page bytes stay exact; Argos1111/jev_local densify §94 not a sibling first sighting; HEAD 70a1ed6f197a was 8ccc04d; README SHA abb2477edd07 was ee7b536a; release sarashina-llama-b11042-pre1; Jev本体のモデル・学習・精度を再現するものではありません; JNLI 17% / 34% / 93%; Sarashina ≠ Archer; LFM default ≠ ModernBERT backend; star 14 to 20 is star-noise beside the rewrite; dfinke rank at most 12 of the first 200; 0.65 / 0.20 / 0.15; offline fallback sends nothing; ranking ≠ calibration; dfinke/jev-experiments ≠ dabit3/jev-experiments ≠ nak1b/jev-experiments ≠ abgregs/jev-experiments; Jev-Omni Gemma 4 12B; DecisionBench Medium 87.57%; JevBench 86.15% of 231; MMAU 63.10%; Gemma 4 ≠ Archer; ≠ openjev-v1; laya-onnx fp16 842.6 MB; calibrated distribution is their claim; hf:inferenceprince/laya-onnx ≠ hf:inferenceprince/laya-onnx-fp16 ≠ hf:inferenceprince/laya-onnx-int8; serving substrate ≠ calibrated replica; about 33 ms; Apple Silicon only; ipenywis/laya-ultrafast ≠ browser-use/jev-ultrafast; 23 noul tags; 0.80 still soft; never writes back to Readwise; README absent; beam search is not a grant; unknown id is rejected; keyboard does not play; game success ≠ calibrated Noul; does not grant itself authority; never decides permissions, price, or commitment; measured calibration is not claimed yet; C3R is not a fork of Laya; FluidUse densify §143; release v0.2.0; HEAD e9e95935075b was c18071d791eb; 0.9 ms; 24,370-row synthetic; laya 3.6 ms; about 7×; Submit is never clicked unless enabled; field match is not free text; Cua-S1 ≠ TypeSafe; laya-ft densify §148; Banking77 51.3% to 79.4% vs Jev 80.0%; Jev XSTest 94.0% / 7.6%; false alarms 24.8% to 65.2% to 47.2%; unattended moderation is not established; private pilot is not a public benchmark; inside-jev densify §154; 模型对自身的回答不是架构或训练配方的证明; not an official project; jev-shadow densify §153; demo numbers say nothing about Jev; shadow changes nothing; a cutoff does not carry to jev-latest; wellposed already carded §46; confidence 1.00 on a missing other; empty SHA HTTP 409; Qwen3.5 ≠ Archer; Gemma 3 ≠ Archer; 未修正のllama.cppでは使えません; Soft judgment never sole veto; wire-compat ≠ logit-equiv; catalog ≠ endorsement; SHA move is not a replica; Skip Archer; invented_signal: false; Parent merges only after ADV_PASS; hourly 1556 §154 and rawwerks/one-system §155 are on main; this fold is §156 only; composition 869-884; findings batch #136; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62/#63/#64/#65/#66/#67/#68/#69/#70/#71/#72/#73/#74/#75/#76/#77/#78/#79/#80/#81; does not bump 0.5.0 or 0.5.1; notes.md §156; jerryjliu/docjev 189★ Apache-2.0 Python HEAD 7e6b48d3f7ee README SHA 2ce22c98a411; Argos1111/jev_local 20★ NOASSERTION Python HEAD 70a1ed6f197a README SHA abb2477edd07; dfinke/jev-experiments 2★ NOASSERTION PowerShell HEAD e03c3a21009b README SHA 73e7271800e9; hf:akhilaaa3/Jev-Omni 1 likes sha 3e885f2951a1 apache-2.0; hf:inferenceprince/laya-onnx 1 likes sha dd0f4db73e24 apache-2.0; ipenywis/laya-ultrafast 2★ MIT Python HEAD 3581665d1b2e README SHA 1b503cdba58b; osrim/readwise-jev-classifier 1★ MIT TypeScript HEAD 578cb548a6e2 README SHA 2e3c0d8756fd; BeeboLab/Laya_IAB_domain_classification_demo 0★ NOASSERTION Python HEAD 794e18f52e46 README absent; Bethamil/tetris-jev 0★ NOASSERTION TypeScript HEAD 15b648b12fb7 README SHA 5a6b49c3375b; ColomboAI-com/c3r 0★ Apache-2.0 Python HEAD bff906749572 README SHA fd952eef8a8c; DavidDevGt/laya-plays-mario 0★ NOASSERTION Python HEAD 838423efb8a2 README SHA b00b114952a8; DumoeDss/jev-demos empty SHA HTTP 409; EvanGruhlkey/JevSweep 0★ MIT Python HEAD e2b2631f1d0b README SHA 4afc1be8bbf6; Hangzhi/diffusion-jev-sglang 0★ MIT Python HEAD 560dbbbe4865 README SHA 508a1897bfc5; Jhonnyr97/JevGuard 0★ MIT TypeScript HEAD ecdba7a1c909 README SHA 3c6a3f9e1c9c; MrDesjardins/jev-send-guard 0★ NOASSERTION Python HEAD d432d77fabe2 README SHA 5689dabcf982; Rocketstradingco/memory-router 0★ MIT Python HEAD 72ce3c2b10d1 README SHA 41cbe4255e1f; SilentBless/omp-classifier 0★ MIT TypeScript HEAD e31f583a029b README SHA bf141b693d83; Sofiyaan12/jev-support-routing 0★ NOASSERTION Python HEAD bbf198e233da README SHA 0fe70f3581c1; SoundBlaster/SwiftJev 0★ MIT None HEAD b9ba495efa0d README SHA 0c4c8aa93d54; alliansimoveis/jev 0★ NOASSERTION TypeScript HEAD ab359a279d15 README SHA f54ec4447f84; ayushworks/Jev 0★ NOASSERTION Python HEAD 8b6e4ebc56de README SHA 690a6e0e6185; cohenom/laya-doom 0★ NOASSERTION Python HEAD 0bc19dbda0ff README SHA dee3a61a7588; danielyedaniel/jevme 0★ NOASSERTION Python HEAD 110bf6ba7ad3 README SHA bae95f9f5cfc; devthinker-ai/laya-mcp 0★ MIT Python HEAD 20136b3f3a0b README SHA aafa1eaec186; ennsharma/scrollpatrol 0★ MIT TypeScript HEAD ee563ec30abb README SHA f4910964aa23; ethereumdegen/jev-discord-bot 0★ MIT Rust HEAD a2e2a791031b README SHA 15d82a84e78c; evan-zhang/openclaw-typesafe-plugin 0★ NOASSERTION TypeScript HEAD a67b4f4d3f9f README SHA 374326675e54; fataakromulmuttaqin/pulse-research-engine 0★ NOASSERTION TypeScript HEAD 43cf67f30319 README SHA 4301f539314e; frontend-army/jev-test 0★ NOASSERTION JavaScript HEAD 27f72eee0ebb README SHA aa5b17f5731e; hf:AlquimiaAi/openjev 0 likes sha 6f4488f39623 cc-by-nc-4.0; hf:TracNetwork/mayhem-catalog-convaiinnovations-laya 0 likes sha d288cbfe560a apache-2.0; hf:argos1111/sarashina2.2-vision-3b-mmproj-jev-f16 0 likes sha aabea115c03f mit; hf:kaivoss/system-one-270m 0 likes sha a9572e32bbd8 gemma; hf:thaitea/laya-vision-modernvbert-250m 0 likes sha 4081dc6e0028 cc-by-nc-sa-4.0; jev-ids/jev-ids 0★ NOASSERTION Python HEAD 2b1c287465e4 README SHA 535341316879; koteitan/laya-int8 0★ Apache-2.0 None HEAD 482f1c2e24ef README SHA 15917dd427a0; kyr0/typed-decision-bench 0★ NOASSERTION Python HEAD 67b590ddae82 README SHA 93bc038e338b; liujitcn/jev-game 0★ MIT TypeScript HEAD e332da568c1c README SHA 6132668e7345; lucasbaruj4/jev-context-gate 0★ NOASSERTION None HEAD bc3c965b6658 README SHA 474c7659943c; maciejczub/skill-siujev 0★ MIT Python HEAD 486e4dd1e0fa README SHA 83dc2b768cd3; mannjasmine6850/jevjle 0★ NOASSERTION None HEAD 1b65284858f1 README SHA 83002ed82198; marwan404/Jev-gate 0★ NOASSERTION Python HEAD 4906bbd66159 README SHA 42209f291d16; mlnima/laya-api empty SHA HTTP 409; moamenFathy/Jev_voice_computer_use 0★ NOASSERTION Python HEAD 9b328aef20cc README SHA d0c3e19fc38b; mooshee/typesafe-key-cli 0★ MIT Python HEAD c56f6abbf2e8 README SHA f9e79917f635; ogarciarevett/jev-claw empty SHA HTTP 409; pedroteste00000008-stack/opencode-memory 0★ MIT TypeScript HEAD c70e722cb751 README SHA d942ed3fd58c; prarolab/jev-migration-harness 0★ MIT Python HEAD 7c82b642fb88 README SHA fe8f9d5ed5dc; prof-marcosbarbosa/jev-first-steps 0★ NOASSERTION Python HEAD c3656b5a74eb README SHA bebce27e0b48; rishi-raj-jain/ping-pong-jev 0★ NOASSERTION TypeScript HEAD 653657e6b713 README SHA fe41400da92f; shijianjian/RoboJEV empty SHA HTTP 409; suraj-phanindra/wellposed 0★ MIT JavaScript HEAD 86e6f8cb17e4 README SHA 3e7420598515; takezou621/jev-mcp 0★ NOASSERTION TypeScript HEAD 09da9f7577f5 README SHA 2add09cd0284; toshinoritakata/music-cocktail 0★ AGPL-3.0 JavaScript HEAD 17e3962179c7 README SHA 60bcf0fef4e1; upcastr/codex-jevroid 0★ MIT TypeScript HEAD 42902245354d README SHA 5523a28c0bcf; zbloss/jev-plays-pokemon 0★ MIT Python HEAD 6b3dbd45a32c README SHA 7ee77178836f; FluidInference/FluidUse 3★ Apache-2.0 Swift HEAD e9e95935075b README SHA 7d246df7270a; Alexander-Ollman/laya-ft 0★ NOASSERTION Python HEAD 32c1cb32557a README SHA 3db22c6790e9; ChiyuSONG/inside-jev 0★ NOASSERTION HTML HEAD bb666454edae README SHA f6a639ce9f95; jonkthomas/jev-shadow 0★ MIT JavaScript HEAD fd17ee44ecb2 README SHA e13487f47576"
+)
+
 
 REVISIT_LOCK = (
     "Revisit / since-last-look lock: catalogued repos are not done; "
@@ -1237,6 +1241,195 @@ def main() -> int:
             failed.append(
                 f"one-system lock must stay in notes.md and the gate fixture, not {rel}"
             )
+
+    if "## 156. Hourly 1653 HIGH" not in notes:
+        failed.append("notes.md missing §156 heading")
+    if notes.count(UNIQ_1653) != 1:
+        failed.append(
+            f"notes.md 1653 lock count {notes.count(UNIQ_1653)} != 1"
+        )
+    i156 = notes.find("## 156. Hourly 1653 HIGH")
+    if not (i155 >= 0 and i156 > i155):
+        failed.append("notes.md must stay contiguous §155 then §156")
+    notes156 = notes[i156:] if i156 >= 0 else ""
+    if "this fold is §156 only" not in notes156:
+        failed.append("notes.md §156 missing §156-only occupancy")
+    if "hourly 1556 §154 and rawwerks/one-system §155 are on main" not in notes156:
+        failed.append("notes.md §156 missing merged §154 and §155 occupancy")
+    if "do not push onto open #77" in notes156 or "open #77 owns" in notes156:
+        failed.append("notes.md §156 claims open #77")
+    if UNIQ_1653 not in notes156:
+        failed.append("1653 lock missing inside notes.md §156")
+    for frag in (
+        "TypeSafe Jev default path",
+        "classify 40/40",
+        "7/8 exact packets",
+        "*theirs* not Harbor",
+        "138.6 ms",
+        "preparation protocol is not another measured result",
+        "page bytes stay exact",
+        "densify §94 not a sibling first sighting",
+        "HEAD 70a1ed6f197a was 8ccc04d",
+        "README SHA abb2477edd07 was ee7b536a",
+        "sarashina-llama-b11042-pre1",
+        "再現するものではありません",
+        "JNLI 17%",
+        "Sarashina ≠ Archer",
+        "LFM default ≠ ModernBERT backend",
+        "star 14 to 20 is star-noise",
+        "at most 12 of the first 200",
+        "0.65 / 0.20 / 0.15",
+        "offline fallback sends nothing",
+        "ranking ≠ calibration",
+        "dfinke/jev-experiments ≠ dabit3/jev-experiments",
+        "DecisionBench Medium 87.57%",
+        "JevBench 86.15% of 231",
+        "MMAU 63.10%",
+        "Gemma 4 ≠ Archer",
+        "≠ openjev-v1",
+        "842.6 MB",
+        "calibrated distribution is their claim",
+        "serving substrate ≠ calibrated replica",
+        "about 33 ms",
+        "Apple Silicon only",
+        "ipenywis/laya-ultrafast ≠ browser-use/jev-ultrafast",
+        "23 noul tags",
+        "0.80 still soft",
+        "never writes back to Readwise",
+        "README absent",
+        "beam search is not a grant",
+        "unknown id is rejected",
+        "keyboard does not play",
+        "game success ≠ calibrated Noul",
+        "does not grant itself authority",
+        "never decides permissions, price, or commitment",
+        "measured calibration is not claimed yet",
+        "C3R is not a fork of Laya",
+        "FluidUse densify §143",
+        "release v0.2.0",
+        "HEAD e9e95935075b was c18071d791eb",
+        "0.9 ms",
+        "24,370-row synthetic",
+        "laya 3.6 ms",
+        "about 7×",
+        "Submit is never clicked unless enabled",
+        "field match is not free text",
+        "Cua-S1 ≠ TypeSafe",
+        "laya-ft densify §148",
+        "Banking77 51.3% to 79.4% vs Jev 80.0%",
+        "94.0% / 7.6%",
+        "24.8% to 65.2% to 47.2%",
+        "unattended moderation is not established",
+        "private pilot is not a public benchmark",
+        "inside-jev densify §154",
+        "不是架构或训练配方的证明",
+        "not an official project",
+        "jev-shadow densify §153",
+        "demo numbers say nothing about Jev",
+        "shadow changes nothing",
+        "cutoff does not carry to jev-latest",
+        "wellposed already carded §46",
+        "confidence 1.00 on a missing other",
+        "empty SHA HTTP 409",
+        "Qwen3.5 ≠ Archer",
+        "Gemma 3 ≠ Archer",
+        "未修正のllama.cppでは使えません",
+        "Soft judgment never sole veto",
+        "wire-compat ≠ logit-equiv",
+        "catalog ≠ endorsement",
+        "SHA move is not a replica",
+        "Skip Archer",
+        "invented_signal: false",
+        "Parent merges only after ADV_PASS",
+        "hourly 1556 §154 and rawwerks/one-system §155 are on main",
+        "this fold is §156 only",
+        "composition 869-884",
+        "findings batch #136",
+        "#81",
+        "does not bump 0.5.0 or 0.5.1",
+        "notes.md §156"
+    ):
+        if frag not in UNIQ_1653:
+            failed.append(f"UNIQ_1653 missing {frag!r}")
+    readme_1653 = (ROOT / "README.md").read_text(encoding="utf-8")
+    if UNIQ_1653 in readme_1653:
+        failed.append("README.md must not hold the 1653 uniqueness lock")
+    if "uniqueness lock" in readme_1653.split("## License", 1)[-1]:
+        failed.append("README.md License ending holds a uniqueness lock")
+    for rel in OVERLAYS:
+        if rel == "research/notes.md":
+            continue
+        overlay_1653 = (ROOT / rel).read_text(encoding="utf-8")
+        if UNIQ_1653 in overlay_1653:
+            failed.append(
+                f"1653 lock must stay in notes.md and the gate fixture, not {rel}"
+            )
+    for remainder_id in (
+        "jerryjliu/docjev",
+        "Argos1111/jev_local",
+        "dfinke/jev-experiments",
+        "hf:akhilaaa3/Jev-Omni",
+        "hf:inferenceprince/laya-onnx",
+        "ipenywis/laya-ultrafast",
+        "osrim/readwise-jev-classifier",
+        "BeeboLab/Laya_IAB_domain_classification_demo",
+        "Bethamil/tetris-jev",
+        "ColomboAI-com/c3r",
+        "DavidDevGt/laya-plays-mario",
+        "DumoeDss/jev-demos",
+        "EvanGruhlkey/JevSweep",
+        "Hangzhi/diffusion-jev-sglang",
+        "Jhonnyr97/JevGuard",
+        "MrDesjardins/jev-send-guard",
+        "Rocketstradingco/memory-router",
+        "SilentBless/omp-classifier",
+        "Sofiyaan12/jev-support-routing",
+        "SoundBlaster/SwiftJev",
+        "alliansimoveis/jev",
+        "ayushworks/Jev",
+        "cohenom/laya-doom",
+        "danielyedaniel/jevme",
+        "devthinker-ai/laya-mcp",
+        "ennsharma/scrollpatrol",
+        "ethereumdegen/jev-discord-bot",
+        "evan-zhang/openclaw-typesafe-plugin",
+        "fataakromulmuttaqin/pulse-research-engine",
+        "frontend-army/jev-test",
+        "hf:AlquimiaAi/openjev",
+        "hf:TracNetwork/mayhem-catalog-convaiinnovations-laya",
+        "hf:argos1111/sarashina2.2-vision-3b-mmproj-jev-f16",
+        "hf:kaivoss/system-one-270m",
+        "hf:thaitea/laya-vision-modernvbert-250m",
+        "jev-ids/jev-ids",
+        "koteitan/laya-int8",
+        "kyr0/typed-decision-bench",
+        "liujitcn/jev-game",
+        "lucasbaruj4/jev-context-gate",
+        "maciejczub/skill-siujev",
+        "mannjasmine6850/jevjle",
+        "marwan404/Jev-gate",
+        "mlnima/laya-api",
+        "moamenFathy/Jev_voice_computer_use",
+        "mooshee/typesafe-key-cli",
+        "ogarciarevett/jev-claw",
+        "pedroteste00000008-stack/opencode-memory",
+        "prarolab/jev-migration-harness",
+        "prof-marcosbarbosa/jev-first-steps",
+        "rishi-raj-jain/ping-pong-jev",
+        "shijianjian/RoboJEV",
+        "suraj-phanindra/wellposed",
+        "takezou621/jev-mcp",
+        "toshinoritakata/music-cocktail",
+        "upcastr/codex-jevroid",
+        "zbloss/jev-plays-pokemon",
+        "FluidInference/FluidUse",
+        "Alexander-Ollman/laya-ft",
+        "ChiyuSONG/inside-jev",
+        "jonkthomas/jev-shadow"
+    ):
+        if remainder_id not in notes156:
+            failed.append(f"notes.md §156 missing card {remainder_id}")
+
     for remainder_id in (
         "ishantanu/jevmetrics",
         "4esv/jev-eval",
@@ -1922,7 +2115,7 @@ def main() -> int:
     algebra = (ROOT / ".agents/skills/augustus/references/composition-algebra.md").read_text(
         encoding="utf-8"
     )
-    for n in list(range(289, 317)) + list(range(322, 330)) + list(range(330, 337)) + list(range(337, 353)) + list(range(353, 369)) + list(range(369, 385)) + list(range(385, 401)) + list(range(401, 417)) + list(range(417, 433)) + list(range(433, 449)) + list(range(449, 465)) + list(range(465, 481)) + list(range(481, 497)) + list(range(497, 505)) + list(range(505, 521)) + list(range(521, 537)) + list(range(537, 553)) + list(range(553, 569)) + list(range(569, 585)) + list(range(585, 601)) + list(range(601, 617)) + list(range(617, 633)) + list(range(633, 649)) + list(range(649, 665)) + list(range(665, 681)) + list(range(681, 697)) + list(range(697, 713)) + list(range(713, 729)) + list(range(729, 745)) + list(range(745, 761)) + list(range(761, 777)) + list(range(777, 793)) + list(range(793, 869)):
+    for n in list(range(289, 317)) + list(range(322, 330)) + list(range(330, 337)) + list(range(337, 353)) + list(range(353, 369)) + list(range(369, 385)) + list(range(385, 401)) + list(range(401, 417)) + list(range(417, 433)) + list(range(433, 449)) + list(range(449, 465)) + list(range(465, 481)) + list(range(481, 497)) + list(range(497, 505)) + list(range(505, 521)) + list(range(521, 537)) + list(range(537, 553)) + list(range(553, 569)) + list(range(569, 585)) + list(range(585, 601)) + list(range(601, 617)) + list(range(617, 633)) + list(range(633, 649)) + list(range(649, 665)) + list(range(665, 681)) + list(range(681, 697)) + list(range(697, 713)) + list(range(713, 729)) + list(range(729, 745)) + list(range(745, 761)) + list(range(761, 777)) + list(range(777, 793)) + list(range(793, 885)):
         needle = f"{n}. **"
         if needle not in algebra:
             failed.append(f"composition-algebra missing item {n}")
@@ -1942,6 +2135,8 @@ def main() -> int:
         failed.append("composition item 837 is not the 1556 metric judgment")
     if "853. **one client across local and hosted**" not in algebra:
         failed.append("composition item 853 is not the one-system client")
+    if "869. **document class and split is a judgment**" not in algebra:
+        failed.append("composition item 869 is not the 1653 document judgment")
     findings = (ROOT / "research/archive/findings.md").read_text(encoding="utf-8")
     for batch in (
         "## Batch #97",
@@ -1983,6 +2178,7 @@ def main() -> int:
         "## Batch #133",
         "## Batch #134",
         "## Batch #135",
+        "## Batch #136",
     ):
         if batch not in findings:
             failed.append(f"findings.md missing {batch}")
@@ -1994,6 +2190,8 @@ def main() -> int:
         failed.append("findings.md holds the 1556 uniqueness lock")
     if UNIQ_ONESYSTEM in findings:
         failed.append("findings.md holds the one-system uniqueness lock")
+    if UNIQ_1653 in findings:
+        failed.append("findings.md holds the 1653 uniqueness lock")
     digest_path_2146 = ROOT / "research/archive/hourly/2026-09-21T03/run_digest.json"
     if not digest_path_2146.is_file():
         failed.append("missing 2146 run_digest.json")
