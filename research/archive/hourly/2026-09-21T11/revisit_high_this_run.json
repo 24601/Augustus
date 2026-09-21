@@ -1,0 +1,76 @@
+[
+  {
+    "id": "TianyuCodings/NanoJev",
+    "source": "github",
+    "stars": 1680,
+    "why": "head SHA change 618cea6d\u219276fdfc9e \u2014 A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline.",
+    "html_url": "https://github.com/TianyuCodings/NanoJev",
+    "pushed_at": "2026-09-21T09:58:28Z",
+    "created_at": null,
+    "found_via": [
+      "watchlist"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "revisit",
+    "revisit_reasons": [
+      "head SHA change 618cea6d\u219276fdfc9e"
+    ]
+  },
+  {
+    "id": "Manta-Boardgame/jev-chat",
+    "source": "github",
+    "stars": 0,
+    "why": "description rewrite \u2014 Ask questions about your documents and get answers with probabilities. Windows & Android app for Jev (TypeSafe AI) via Vercel AI Gateway \u2014 reads whole books, PDFs, Word and images,",
+    "html_url": "https://github.com/Manta-Boardgame/jev-chat",
+    "pushed_at": "2026-09-21T10:29:40Z",
+    "created_at": "2026-09-21T09:25:25Z",
+    "found_via": [
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "revisit",
+    "revisit_reasons": [
+      "description rewrite"
+    ]
+  },
+  {
+    "id": "hf:dataset:syvai/danish-dynaword-laya",
+    "source": "huggingface",
+    "stars": 0,
+    "likes": 0,
+    "why": "HF card/tag rewrite \u2014 task_categories:text-classification, language:da, license:other, size_categories:100K<n<1M, format:parquet, modality:text, library:datasets, library:pandas, library:polars, library",
+    "html_url": "https://huggingface.co/datasets/syvai/danish-dynaword-laya",
+    "pushed_at": "2026-09-21T09:58:13.000Z",
+    "created_at": "2026-09-21T09:31:04.000Z",
+    "found_via": [
+      "datasets_laya"
+    ],
+    "hf_kind": "dataset",
+    "fork": false,
+    "kind": "revisit",
+    "revisit_reasons": [
+      "HF card/tag rewrite"
+    ]
+  },
+  {
+    "id": "ximing/jev-snake-game",
+    "source": "github",
+    "stars": 0,
+    "why": "description rewrite \u2014 \u7528 TypeSafe Jev\uff08System One\uff09\u9a71\u52a8\u7684\u81ea\u52a8\u8d2a\u5403\u86c7\uff1a\u6bcf\u4e00\u6b65\u90fd\u662f\u7ed3\u6784\u5316\u5224\u65ad\uff0c\u7531\u4ee3\u7801\u7ec4\u5408\u3002",
+    "html_url": "https://github.com/ximing/jev-snake-game",
+    "pushed_at": "2026-09-21T10:26:20Z",
+    "created_at": "2026-09-21T09:45:44Z",
+    "found_via": [
+      "search_system-one_created",
+      "search_system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "revisit",
+    "revisit_reasons": [
+      "description rewrite"
+    ]
+  }
+]

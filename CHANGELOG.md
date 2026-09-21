@@ -16,6 +16,46 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 0445 HIGH (`research/notes.md` §140 / composition items
+649–664 / findings batch #122). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#63.
+Do not amend released 0.5.0 (#42). Merged #63 owns §139. Merged #62
+owns §138. Merged #61 owns §137.
+
+### Added
+
+- **Hourly 0445 HIGH (`notes.md` §140).** lcc real Laya keep-all.
+  Token reduction alone is not cost reduction. keeps essentially every
+  block 0.0%/−0.5% *theirs*. mock Laya = Jev −22.6% on XL withdrawn.
+  Chat 1282.3 ms vs gateway 232.1 ms ~1/5.5 *theirs*. Softmax over
+  candidate logprobs. any2jev acc 0.796 ECE 0.027 *theirs*. How you
+  ask mattered more. Calibration is not yet measured. NanoJev densify
+  JevHarness §115. Awesomejev 691→802 quote watch not re-derive.
+  serving substrate ≠ calibrated replica. skip-thin empty SHA.
+  Remainder densify: traffic sim is not a digital twin; xiangqi Score
+  fan-out ≠ chess engine; KorWF-Pi Jev cannot waive a failing check.
+  Evaluator: lcc keep-all is not cost reduction / softmax gateway is
+  not logit-equiv / acc 0.796 ECE 0.027 *theirs* / How you ask mattered
+  more / Calibration is not yet measured / not a digital twin / Score
+  fan-out ≠ chess engine / Jev cannot waive a failing check.
+  uniqueness_gate.py now checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 +
+  1049 + 1143 + 1248 + 1340 + 1441 + 1542 + 1643 + 1746 + 1843 + 1936 +
+  Open-Jev densify + 1946 + 2049 + 2146 + 2246 + 2347 + 0049 + 0151 +
+  0248 + 0348 + 0445.
+  Composition items 649–664 / batch #122.
+  **HARD RULE:** do not reopen or amend PR #23–#63. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat lcc keep-all
+  as cost reduction, 232.1 ms as logit-equiv, ECE 0.027 as Harbor, or
+  arcade 70/80 as calibrated Noul. With Augustus: Token reduction alone
+  is not cost reduction; wire-compat ≠ logit-equiv; Softmax over options
+  ≠ calibrated Noul; How you ask mattered more; Calibration is not yet
+  measured; densify §115 not a sibling first sighting; *theirs* not Harbor.
+
+
 Hourly 0348 HIGH (`research/notes.md` §139 / composition items
 633–648 / findings batch #121). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in
