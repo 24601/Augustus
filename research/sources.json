@@ -5323,6 +5323,54 @@
       "title": "aisearchio open-source Jev alternatives list",
       "url": "https://x.com/aisearchio/status/2101720039779086414",
       "note": "15-link census catalog ≠ endorsement. 12 already carded 3 gaps this fold. notes.md §130."
+    },
+    {
+      "kind": "github",
+      "title": "Zefan-Cai/Open-Jev",
+      "url": "https://github.com/Zefan-Cai/Open-Jev",
+      "note": "Densify notes.md §125. HEAD 4933ee84951f README SHA ce1a587219e4. LoRA + scalar head, not merged base. LoRA ≠ RLCD replica. systems latency ≠ semantic equivalence. Open-Jev TREC pending."
+    },
+    {
+      "kind": "hf-model",
+      "title": "ZefanCai/Open-Jev-2B",
+      "url": "https://huggingface.co/ZefanCai/Open-Jev-2B",
+      "note": "rev 0c7aa498b162. LoRA adapters plus scalar head, not merged base. notes.md §125."
+    },
+    {
+      "kind": "hf-model",
+      "title": "ZefanCai/Open-Jev-9B",
+      "url": "https://huggingface.co/ZefanCai/Open-Jev-9B",
+      "note": "rev 47e966881e48. LoRA adapters plus scalar head, not merged base. notes.md §125."
+    },
+    {
+      "kind": "hf-dataset",
+      "title": "ZefanCai/Open-Jev",
+      "url": "https://huggingface.co/datasets/ZefanCai/Open-Jev",
+      "note": "rev c67699e13d0a. 80,816 training rows *theirs* not Harbor. notes.md §125."
+    },
+    {
+      "kind": "site",
+      "title": "Open-Jev website",
+      "url": "https://zefan-cai.github.io/open-jev/",
+      "note": "Project site + demos. notes.md §125 densify."
+    },
+    {
+      "kind": "tweet",
+      "title": "Zefan_Cai Open-Jev launch demo",
+      "url": "https://x.com/Zefan_Cai/status/2101782158658695388",
+      "note": "Launch quote / demo. conversation 2101782158658695388. notes.md §125."
+    },
+    {
+      "kind": "tweet",
+      "title": "Zefan_Cai Open-Jev introduction reply",
+      "url": "https://x.com/Zefan_Cai/status/2101786019607740436",
+      "note": "Introduction reply in launch thread. notes.md §125."
+    },
+    {
+      "kind": "tweet",
+      "title": "Zefan_Cai Open-Jev website reply",
+      "url": "https://x.com/Zefan_Cai/status/2101789698947793231",
+      "note": "Website reply in launch thread. notes.md §125."
     }
   ]
 }

@@ -34,6 +34,8 @@ Also reports (when asked, and always in --self-test):
   * LoRA + scalar-head packs are not merged base models
   * prefix caching experimental/off by default
   * TREC-DL Jev/Luna/Astra completed; Open-Jev TREC pending
+  * Qwen/Qwen3.8-27B is not Archer
+  * latency does not establish equal task quality
 
 Select thresholds on one split, evaluate on another: run twice with different
 files. Missing labels or costs produce a stated limitation, not defaults.
@@ -558,6 +560,20 @@ def open_jev_trec_is_pending(completed_providers, open_jev_done=False):
     if set(completed_providers) != expected:
         raise ValueError("unexpected providers")
     return open_jev_done is False
+
+
+def qwen38_27b_is_not_archer(checkpoint, claimed_archer=False):
+    """Qwen/Qwen3.8-27B ≠ Archer (Open-Jev 27B still in progress; litjev default)."""
+    if checkpoint != "Qwen/Qwen3.8-27B":
+        raise ValueError("unexpected checkpoint")
+    return claimed_archer is False
+
+
+def latency_is_not_task_quality(quality_claimed=False):
+    """Latency does not establish equal task quality *theirs*."""
+    return quality_claimed is False
+
+
 def hop_ece_permutation_invariant(rows, bins=10, key="p"):
     """Shuffle order; equal-width ECE must not move.
 
@@ -799,6 +815,10 @@ def self_test():
     assert theirs_bench_is_not_harbor(85, "open-jev-cs-p50-85ms")
     assert theirs_bench_is_not_harbor(1015, "open-jev-1024-32-1015ms")
     assert theirs_bench_is_not_harbor(97, "trec-dl-jev-luna-astra")
+    assert qwen38_27b_is_not_archer("Qwen/Qwen3.8-27B", False)
+    assert not qwen38_27b_is_not_archer("Qwen/Qwen3.8-27B", True)
+    assert latency_is_not_task_quality(False)
+    assert not latency_is_not_task_quality(True)
 
     print("self-test ok")
 
