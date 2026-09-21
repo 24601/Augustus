@@ -4,7 +4,7 @@
   },
   "plugins": [
     {
-      "description": "Design judgment for placing typed probabilistic judgment (Jev-class System One) using math, logic, and algorithmic mental models — across AI, SWE, business, knowledge work, and life. Jev is the exemplar, not the monopoly (Laya, kev, OpenJev, TypeAR, GLiNER, encoder ZS). Ranking ≠ calibration; soft Noul ≠ hard gate. Formal methods are one pillar. Never launder a Noul as a proof. Not a TypeSafe product — load typesafe-ai for Jev contracts. Named for Augustus De Morgan, mentor of W. S. Jevons.",
+      "description": "Design judgment for the decision-model class: classifiers, encoders/decoders, specialized AR and constrained heads, vision and listwise scorers, and what TypeSafe calls System One. TypeSafe Jev (Choice, Score, Noul) is the dominant product most users will call. Peers include Laya, kev, OpenJev, and GLiNER; they are not equal in adoption. Ranking ≠ calibration; soft Noul ≠ hard gate. Formal methods are one pillar. Never launder a Noul as a proof. Not a TypeSafe product; load typesafe-ai for Jev contracts. Named for Augustus De Morgan, mentor of W. S. Jevons.",
       "name": "augustus",
       "source": "./.agents/skills/augustus",
       "version": "0.5.0"

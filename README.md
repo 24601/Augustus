@@ -1,7 +1,7 @@
 # Augustus
 
-Place typed probabilistic judgment (Jev-class System One / decision
-models) using classical mental models. Jev is the exemplar, not the monopoly.
+Design judgment for the decision-model class. TypeSafe Jev
+(Choice, Score, Noul) is the dominant product most users will call.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Release](https://img.shields.io/github/v/release/24601/Augustus)](https://github.com/24601/Augustus/releases)
@@ -11,16 +11,19 @@ models) using classical mental models. Jev is the exemplar, not the monopoly.
 
 **Homepage:** [24601.github.io/Augustus](https://24601.github.io/Augustus/)
 
-Agent skill for placing TypeSafe Jev Choice/Score/Noul with classical
+Design-judgment skill for where the decision-model class belongs.
+TypeSafe Jev (Choice, Score, Noul) is the dominant exemplar. Classical
 decision methods, composition algebra, and a validation gate.
 
 **Augustus**, named for Augustus De Morgan (1806–1871), mentor and professor
-of William Stanley Jevons, is the design-judgment skill for **where** typed
-probabilistic judgment belongs (the Jev-class of System One models), using
-mathematical, logical, and algorithmic mental models. It applies across
-**AI, software, business, knowledge work, and life**, not only SWE.
-[TypeSafe](https://docs.typesafe.ai/) Jev is the documented exemplar
-(Choice, Score, Noul), not the monopoly. Formal methods are one pillar.
+of William Stanley Jevons, is the design-judgment skill for **where** the
+decision-model class belongs (classifiers, encoders and decoders, specialized
+AR and constrained heads, vision and listwise scorers, and what TypeSafe
+calls System One), using mathematical, logical, and algorithmic mental
+models. It applies across **AI, software, business, knowledge work, and
+life**, not only SWE.
+[TypeSafe](https://docs.typesafe.ai/) Jev is the dominant product most
+users will call (Choice, Score, Noul). Formal methods are one pillar.
 Exact work stays in code or policy; the model owns narrow judgment;
 never launder a Noul as a proof.
 
