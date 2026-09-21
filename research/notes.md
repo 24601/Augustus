@@ -351,7 +351,7 @@ awesome-jev (AnotiaWang) 48★, jevmlx 19★, HA-Jev, jev-harness, jev-pref.
 - `frostney/clean-code-review`, `Eliran-Turgeman/repear`,
   `DanRWilloughby/snifftest` — rubric/smell/prose linters; snifftest makes
   the 0.5-unsure-band a non-flag.
-- `luantak/is-malicious` — high-stakes pre-run Noul; fail closed + sandbox.
+- `luantak/is-malicious` — high-stakes pre-run Noul; fail closed + sandbox. Densify 0348 (`notes.md` §139): A clean report is not proof; does not sandbox. 18★ MIT HEAD faf6ba61d7e1 README SHA 4ae098b4b7ae.
 - `FirasSX914/Janus` — measure Jev vs other models on your data, then route
   (calibre's lesson as a product).
 - `rongxinzy/LightJev` — train lightweight decision backbones. Record as
@@ -12031,6 +12031,12 @@ this pass. JavaScript; MIT; **103★** / 12 forks /
 2026-09-17T22:40:26Z; updated 2026-09-19T15:49:09Z.
 HEAD `054db0f3`. README SHA `fa033303`. Star counts
 **ephemeral**.
+
+**Densify hourly 0348 (`notes.md` §139), not a sibling first sighting.**
+HEAD `198a0764395a` (was `054db0f3`). README SHA `816309fc22e6` (was
+`fa033303`). Quote *theirs*: context is the conversation so far: the
+page you came from and the last three executed actions. Conversation
+context is still a SENSOR, not a replica. SHA move is not a replica.
 
 ### HIGH
 
@@ -35072,3 +35078,237 @@ Hooks for the reviewer:
 
 **Hourly 0248 HIGH (`notes.md` §138).** GLiClass knowledgator Hub family class-peer catalog not Jev equivalent. typed-decision-leaderboard *theirs* not Harbor. JEV 0.7350 ZTC 27B 0.7289 *theirs*. Jevbridge ACP and MCP adapter. wire-compat ≠ logit-equiv. Cut the slop. Not a Cua binding. open reproductions of the shape. 82.3% ECE 0.017 *theirs*. serving substrate ≠ calibrated replica. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#61. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
 Hourly 0248 uniqueness lock: hf:knowledgator/gliclass-instruct-large-v1.0 43 likes sha 825e5478c1bf apache-2.0; Efficient zero-shot and few-shot multi-task model via sequence classification; GLiClass knowledgator Hub family class-peer catalog not Jev equivalent; Knowledgator/GLiClass.c already §123; Hub models first card as class-peer entries; GLiNER/GLiClass ports are class members not Jev replicas; hf:space:mayafree/typed-decision-leaderboard 33 likes sha f4fc44077818; typed-decision-leaderboard *theirs* not Harbor; JEV 0.7350 ZTC 27B 0.7289 ZTC 397B 0.7272 *theirs* not Harbor; 2,018 items same labels; three-way tie; tacticocc/Jevbridge 33★ MIT HEAD da443ea453ac README SHA 2178333c4c3b; Jevbridge ACP and MCP adapter; does not generate text; Any LLM as System One; wire-compat ≠ logit-equiv; tshmieldev/sharp 29★ MIT HEAD 17cbd8d9cc9e README SHA 783a5cde519c; Cut the slop; Filter your X timeline; kavehmz/typesafe-playground 11★ HEAD 733991a2924a README SHA 04c0b1f6e7da; real API calls not polished benchmarks; himomohi/aside-jev 7★ MIT HEAD e570db43b0e1 README SHA 288e7c91c307; Jev picks the next action from your defined candidates; Not a Cua binding; Jev is the model Aside is the browser runtime; nico-martin/open-jev 6★ MIT HEAD 52667199e8a5 README SHA 81c0485d5833; open reproductions of the shape; Nothing is generated; nico-martin/open-jev ≠ razorback16/openjev ≠ Zefan-Cai/Open-Jev ≠ meijustory123/openjev; hf:chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-GGUF 82.3% ECE 0.017 *theirs*; Same decision as bf16 94.4% *theirs*; Qwen3.5-2B ≠ Archer; serving substrate ≠ calibrated replica; hf:pngwn/nanodiff-350m-typed-decisions ECE 0.065 → 0.036 *theirs*; hf:litert-community/laya-LiteRT 144/144 *theirs*; gargpratyush/journey-evals A page that says Success is never accepted as proof; mpnikhil/dev-0.4b Banking77 91.33% BoolQ 85.20% *theirs*; encoder class member not Jev replica; n4ze3m/typed-decisions-synth 7,414 cases 25,859 questions; Nobody checked it; Zaious/jev-capability-atlas already carded; LocalLLaMA/typed-decisions already carded; fengyiqicoder/jevfeed already carded; Zhao-Tian-yi/awesome-jev ≠ Gerry9000/awesome-jev ≠ heyjunpenn/awesome-jev ≠ yibie/awesome-jev; kaustav1996/reflex ≠ vuckuola619/reflex; tphakala/jev-mcp ≠ jkudish/jev-mcp; ninthspace/hunch ≠ carldaws/hunch ≠ tpellet/hunch; ruban-24/switchboard ≠ cannacre8ive/switchboard-ai; hf:openjev/openjev ≠ razorback16/openjev; catalog ≠ endorsement; skip-thin Fibonaccirabbit/Jev-VLN imanshu03/jev-browser-use luca-saggese/laya.c empty SHA; game success ≠ calibrated Noul; does not execute; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61; notes.md §138
+
+## 139. Hourly 0348 HIGH (2026-09-21 ~03:48 Boise / 2026-09-21T09:48Z)
+
+Measurement / class-member fold on a **fresh PR off latest `main`**
+(`cursor/fold-hourly-0348-high-ca3f`) after `04c8a44` (merged #62 hourly
+0248 HIGH, `notes.md` §138 / items 617–632 / batch #120; merged #61 hourly
+0151 HIGH, `notes.md` §137).
+**HARD RULE:** do not reopen or amend PR #23–#62.
+Do **not** re-fold §138 0248 / §137 0151 / §82 voice-browser *as a second census*.
+Do not amend #62/#61/#60. Do not treat open-cricket as TypeSafe. Do not
+treat Greedy 0.90 as P(correct). Do not treat JevBench 81.65 as Harbor.
+This fold's IDs: `notes.md` §139 / composition 633–648 / findings batch #121.
+
+Never reopen merged #7–**#62**. Quote READMEs / release notes.
+Mark *theirs*. No wrappers, keys, `npm` / `pip` / `uv` / `docker`
+install recipes. `invented_signal: false`. Hunches labeled.
+
+Lane is Augustus: **mathematical / logical / algorithmic mental models**
+for Jev-class categorization/scoring across AI / SWE / **business /
+knowledge work / life**, not SWE-only. PRIMARY this hour is
+**JonathanHHenson/open-cricket** as a BYOM causal-LM classifier that
+follows Jev call shapes (wire-compat ≠ logit-equiv), plus
+**virtualman333/jev-decision-arena** (confidence ≠ P(correct); seed 42
+n=1 is not Harbor), **dopeCape/typesafe-ai-test** (8,400 calls $0.39
+*theirs*; Noul 0.7 true 44% *theirs*), **pCwOrM/werr** (JevBench 81.65
+*theirs* not Harbor; 0-byte Mandelbrot is not a replica), and
+**meijustory123/OpenJev-Kit** (training not complete). Densify
+moritzkremb/jev-voice-browser on §82 (context is the conversation so far)
+and luantak/is-malicious (A clean report is not proof; does not sandbox).
+Jev is exemplar, not the mandate. Third-party benches stay *theirs*.
+Catalogs are indexes. Soft scores ≠ hard gates. SHA move is not a replica.
+Archer still **promised_not_landed**.
+
+Unique consecutive fragments (this fold) must appear as **one
+substring** in overlays (see uniqueness gate):
+Hourly 0348 uniqueness lock: JonathanHHenson/open-cricket MIT HEAD d75af22125ed README SHA 7d288a741089; Local structured decisions using causal language models; default Qwen/Qwen2.5-1.5B-Instruct; independent of TypeSafe; API follows Jev's general call shapes but model predictions and confidence calibration differ; wire-compat ≠ logit-equiv; Qwen2.5 ≠ Archer; replica ≠ TypeSafe; virtualman333/jev-decision-arena MIT HEAD cf6ae4ed31e8 README SHA 037f75d9610d; Greedy 0.90 vs Oracle 0.82 *theirs*; Random conf 0.00 still 20.5% *theirs*; ECE 0.180 / 0.106 / 0.205 *theirs*; confidence ≠ P(correct); game success ≠ calibrated Noul; seed 42 n=1 is not Harbor; dopeCape/typesafe-ai-test HEAD ed2adb7740d7 README SHA 183f91c36471; 8,400 calls $0.39 *theirs*; Noul 0.7 true 44% *theirs*; ≥0.9 conf 91.7% AG News *theirs*; versioned model ids rejected; *theirs* not Harbor; pCwOrM/werr 2★ MIT HEAD 2526cae98891 README SHA b29476734a09; JevBench 81.65 *theirs* not Harbor; WindTunnel 49/49 *theirs* not Harbor; 0-byte Mandelbrot is not a replica; meijustory123/OpenJev-Kit HEAD c53125982f80 README SHA a4e72c61a973; training not complete; no accuracy; Qwen3.5-0.8B ≠ Archer; meijustory123/OpenJev-Kit ≠ meijustory123/openjev ≠ Zefan-Cai/Open-Jev; microchipgnu/jev-hooks HEAD cbf40e64d7b2 README SHA af25fb0aaf70; Compose meaning like state; rashedInt32/jury.nvim 1★ MIT HEAD bf31e9509e7e README SHA a2b088dd0787; Code enumerates the candidates; evoke-build/evoke 1★ Apache-2.0 HEAD 310840b56f1d README SHA 02b91962cef4; Jev is the first classifier the design is bound to none; moritzkremb/jev-voice-browser densify HEAD 198a0764395a README SHA 816309fc22e6 was fa033303; context is the conversation so far; densify §82 not a sibling first sighting; luantak/is-malicious densify 18★ MIT HEAD faf6ba61d7e1 README SHA 4ae098b4b7ae; A clean report is not proof; does not sandbox; skillseedorg/ChatJEVs MIT HEAD 346e7347cf90 README SHA 6ff81d54040f; ChatJEVs ≠ erik-dunteman/ChatJev; generation from Choice is not a language model replica; chrisns/laya-mac-serve MIT HEAD f294500821b6 README SHA 00e39a7d04e2; serving substrate ≠ calibrated replica; rimusz/localjev-mlx HEAD 297836a0d95e README SHA 2d96d20e0b80; rimusz/localjev-mlx ≠ githubnext/localjev; luhayes/jev-agent-router 1★ MIT HEAD bba795a4dc4e README SHA 17a2f44993d1; does not execute; cutoff 0.8 still soft; gbesse/decision-workbench MIT HEAD 8889cf3750a3 README SHA 14a3bf79da7a; demo scores are not accuracy measurements; zhuyansen/x-reply-filter already carded; kylemclaren/jev-search ≠ kazuhideoki/jev-search; xinwang-nwpu/jev-mobile ≠ Friedjof/jev-mobile; kcd-dev/jev-skill ≠ raphael-liu/jev-skill; yanmad27/ask-jev ≠ kuhung/ask-jev; hf:s1lv3rj1nx/openjev-router-healthcare encoder class member not Jev replica; hf:akhilaaa3/openjev-v1-40705-nimble-r512-merged ≠ hf:akhilaaa3/openjev-v1-allmix-r512-merged; jevai spaces catalog ≠ endorsement; skip-thin Fibonaccirabbit/Jev-GalGame MadhavBahl/jev-guide advance-lion/dsh-jev-hooks amithgc/local-jev hiro1202/jev-review-gate-poc inlight37-design/decision-model_lab kuhung/ask-jev mmiguez314/jev-lab pomodorozhong/exp-jev vanthiet1/JevGuarAgent empty SHA; catalog ≠ endorsement; game success ≠ calibrated Noul; does not execute; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62; notes.md §139
+
+### How-to-apply (class lenses, not vendor tutorials)
+
+These are *class* lenses. Same discipline as §138 (wire-compat ≠
+logit-equiv; serving substrate ≠ calibrated replica) and §137 (held-out
+protocol ≠ Harbor). Formal methods **compose**: a Noul is a SENSOR; a
+BYOM Qwen2.5 checkpoint is not TypeSafe; maze Greedy 0.90 is not
+P(correct); a Mandelbrot 0-byte engine is not a replica; a scanner
+report is not a sandbox.
+
+1. **open-cricket BYOM / wire-compat ≠ logit-equiv**
+   (JonathanHHenson/open-cricket MIT HEAD d75af22125ed README SHA
+   7d288a741089). Quote *theirs*: Local structured decisions using causal
+   language models. default Qwen/Qwen2.5-1.5B-Instruct. independent of
+   TypeSafe. API follows Jev's general call shapes but model predictions
+   and confidence calibration differ. Qwen2.5 ≠ Archer. replica ≠
+   TypeSafe. Do **not** copy `uv sync --extra hf`.
+2. **Greedy 0.90 vs Oracle 0.82 *theirs* / confidence ≠ P(correct)**
+   (virtualman333/jev-decision-arena MIT HEAD cf6ae4ed31e8 README SHA
+   037f75d9610d). Quote *theirs*: Greedy 0.90 vs Oracle 0.82. Random conf
+   0.00 still 20.5%. ECE 0.180 / 0.106 / 0.205. game success ≠ calibrated
+   Noul. seed 42 n=1 is not Harbor.
+3. **8,400 calls $0.39 *theirs* / Noul 0.7 true 44% *theirs***
+   (dopeCape/typesafe-ai-test HEAD ed2adb7740d7 README SHA 183f91c36471).
+   Quote *theirs*: ≥0.9 conf 91.7% AG News. versioned model ids rejected.
+   *theirs* not Harbor.
+4. **JevBench 81.65 *theirs* not Harbor / 0-byte Mandelbrot is not a replica**
+   (pCwOrM/werr 2★ MIT HEAD 2526cae98891 README SHA b29476734a09). Quote
+   *theirs*: WindTunnel 49/49. Do not treat Mandelbrot waves as Jev.
+5. **training not complete / Compose meaning like state / densify §82**
+   (meijustory123/OpenJev-Kit HEAD c53125982f80; microchipgnu/jev-hooks
+   HEAD cbf40e64d7b2; rashedInt32/jury.nvim HEAD bf31e9509e7e;
+   evoke-build/evoke HEAD 310840b56f1d; moritzkremb/jev-voice-browser
+   densify HEAD 198a0764395a README SHA 816309fc22e6 was fa033303). Quote
+   *theirs*: no accuracy. Compose meaning like state. Code enumerates the
+   candidates. Jev is the first classifier the design is bound to none.
+   context is the conversation so far. densify §82 not a sibling first
+   sighting. A clean report is not proof. does not sandbox.
+
+### HIGH (this hour)
+
+1. **[`JonathanHHenson/open-cricket`](https://github.com/JonathanHHenson/open-cricket)
+   PRIMARY novel.** MIT HEAD `d75af22125ed` README SHA `7d288a741089`.
+   Quote *theirs*: Local structured decisions using causal language models.
+   default Qwen/Qwen2.5-1.5B-Instruct. independent of TypeSafe. API follows
+   Jev's general call shapes but model predictions and confidence
+   calibration differ. wire-compat ≠ logit-equiv. Qwen2.5 ≠ Archer.
+   replica ≠ TypeSafe.
+2. **[`virtualman333/jev-decision-arena`](https://github.com/virtualman333/jev-decision-arena)
+   PRIMARY novel.** MIT HEAD `cf6ae4ed31e8` README SHA `037f75d9610d`.
+   Quote *theirs*: Greedy 0.90 vs Oracle 0.82. Random conf 0.00 still
+   20.5%. ECE 0.180 / 0.106 / 0.205. confidence ≠ P(correct). game success
+   ≠ calibrated Noul. seed 42 n=1 is not Harbor.
+3. **[`dopeCape/typesafe-ai-test`](https://github.com/dopeCape/typesafe-ai-test)
+   PRIMARY novel.** HEAD `ed2adb7740d7` README SHA `183f91c36471`. Quote
+   *theirs*: 8,400 calls $0.39. Noul 0.7 true 44%. ≥0.9 conf 91.7% AG News.
+   versioned model ids rejected. *theirs* not Harbor.
+4. **[`pCwOrM/werr`](https://github.com/pCwOrM/werr) PRIMARY novel.**
+   2★ MIT HEAD `2526cae98891` README SHA `b29476734a09`. Quote *theirs*:
+   JevBench 81.65. WindTunnel 49/49. 0-byte Mandelbrot is not a replica.
+   *theirs* not Harbor.
+5. **[`meijustory123/OpenJev-Kit`](https://github.com/meijustory123/OpenJev-Kit)
+   PRIMARY novel.** HEAD `c53125982f80` README SHA `a4e72c61a973`. Quote
+   *theirs*: training not complete. no accuracy. Qwen3.5-0.8B ≠ Archer.
+   meijustory123/OpenJev-Kit ≠ meijustory123/openjev ≠ Zefan-Cai/Open-Jev.
+6. **First cards: jev-hooks / jury.nvim / evoke / ChatJEVs / laya-mac-serve /
+   localjev-mlx / jev-agent-router / decision-workbench.**
+   [`microchipgnu/jev-hooks`](https://github.com/microchipgnu/jev-hooks)
+   HEAD `cbf40e64d7b2` README SHA `af25fb0aaf70`. Compose meaning like state.
+   [`rashedInt32/jury.nvim`](https://github.com/rashedInt32/jury.nvim) 1★
+   MIT HEAD `bf31e9509e7e` README SHA `a2b088dd0787`. Code enumerates the
+   candidates.
+   [`evoke-build/evoke`](https://github.com/evoke-build/evoke) 1★
+   Apache-2.0 HEAD `310840b56f1d` README SHA `02b91962cef4`. Jev is the
+   first classifier the design is bound to none.
+   [`skillseedorg/ChatJEVs`](https://github.com/skillseedorg/ChatJEVs) MIT
+   HEAD `346e7347cf90` README SHA `6ff81d54040f`. ChatJEVs ≠
+   erik-dunteman/ChatJev. generation from Choice is not a language model
+   replica.
+   [`chrisns/laya-mac-serve`](https://github.com/chrisns/laya-mac-serve)
+   MIT HEAD `f294500821b6` README SHA `00e39a7d04e2`. serving substrate ≠
+   calibrated replica.
+   [`rimusz/localjev-mlx`](https://github.com/rimusz/localjev-mlx) HEAD
+   `297836a0d95e` README SHA `2d96d20e0b80`. rimusz/localjev-mlx ≠
+   githubnext/localjev.
+   [`luhayes/jev-agent-router`](https://github.com/luhayes/jev-agent-router)
+   1★ MIT HEAD `bba795a4dc4e` README SHA `17a2f44993d1`. does not execute.
+   cutoff 0.8 still soft.
+   [`gbesse/decision-workbench`](https://github.com/gbesse/decision-workbench)
+   MIT HEAD `8889cf3750a3` README SHA `14a3bf79da7a`. demo scores are not
+   accuracy measurements.
+7. **Densify / already carded / namesakes / skip-thin / remainder.**
+   moritzkremb/jev-voice-browser densify HEAD `198a0764395a` README SHA
+   `816309fc22e6` was `fa033303`. context is the conversation so far.
+   densify §82 not a sibling first sighting.
+   luantak/is-malicious densify 18★ MIT HEAD `faf6ba61d7e1` README SHA
+   `4ae098b4b7ae`. A clean report is not proof. does not sandbox.
+   zhuyansen/x-reply-filter already carded.
+   kylemclaren/jev-search ≠ kazuhideoki/jev-search.
+   xinwang-nwpu/jev-mobile ≠ Friedjof/jev-mobile.
+   kcd-dev/jev-skill ≠ raphael-liu/jev-skill.
+   yanmad27/ask-jev ≠ kuhung/ask-jev.
+   hf:s1lv3rj1nx/openjev-router-healthcare encoder class member not Jev
+   replica. hf:akhilaaa3/openjev-v1-40705-nimble-r512-merged ≠
+   hf:akhilaaa3/openjev-v1-allmix-r512-merged. jevai spaces catalog ≠
+   endorsement. skip-thin: Fibonaccirabbit/Jev-GalGame MadhavBahl/jev-guide
+   advance-lion/dsh-jev-hooks amithgc/local-jev hiro1202/jev-review-gate-poc
+   inlight37-design/decision-model_lab kuhung/ask-jev mmiguez314/jev-lab
+   pomodorozhong/exp-jev vanthiet1/JevGuarAgent empty SHA.
+   walkertiffany8/jevmdk spam. marufsyahbana2005 homework unrelated.
+   Remainder 0-star adapters, games, and catalogs stay indexes.
+   catalog ≠ endorsement. game success ≠ calibrated Noul. does not execute.
+   routing ≠ permission. *theirs* not Harbor.
+
+### Pulse (live REST this hour)
+
+Archer still promised_not_landed. Hub archerhume/4rcherhume HTTP **401**.
+moritzkremb/jev-voice-browser **186★**. luantak/is-malicious **18★**.
+pCwOrM/werr **2★**. open-cricket **0★**. jev-decision-arena **0★**.
+This hour does not re-census SemIf / Laya likes / tracker; those numbers
+stay §119 until a dedicated pulse. `invented_signal: false`.
+
+### Formal compose + anti-patterns
+
+Formal methods **compose** with scoring. A Noul is a SENSOR. A catalog
+is an index. A BYOM Qwen2.5 head is not TypeSafe. Maze confidence is not
+P(correct). A Mandelbrot 0-byte engine is not a replica. A clean scanner
+report is not a sandbox. Treating open-cricket as Jev, Greedy 0.90 as
+calibrated Noul, JevBench 81.65 as Harbor, or ChatJEVs as a language
+model replica is soundness theater.
+wire-compat ≠ logit-equiv.
+Qwen2.5 ≠ Archer.
+confidence ≠ P(correct).
+seed 42 n=1 is not Harbor.
+0-byte Mandelbrot is not a replica.
+training not complete.
+A clean report is not proof.
+does not sandbox.
+generation from Choice is not a language model replica.
+serving substrate ≠ calibrated replica.
+demo scores are not accuracy measurements.
+catalog ≠ endorsement. *theirs* not Harbor.
+SHA move is not a replica.
+
+### Adversarial review + testing hooks (Basit standing
+order)
+
+Parent merge only after **CLEAN** adversarial review **AND** testing.
+Hooks for the reviewer:
+
+- Uniqueness-gate: the consecutive `Hourly 0348 uniqueness lock:`
+  string must appear in every overlay listed below. Prior walls 0843 /
+  0915 / jcr / 0922 / 0940 / 0947 / 1049 / 1143 / 1248 / 1340 / 1441 /
+  1542 / 1643 / 1746 / 1843 / 1936 / Open-Jev densify / 1946 / 2049 /
+  2146 / 2246 / 2347 / 0049 / 0151 / 0248 stay one substring each (do not
+  mutate them; do not reopen #23–#62).
+- Namesake locks: meijustory123/OpenJev-Kit ≠ meijustory123/openjev ≠
+  Zefan-Cai/Open-Jev; ChatJEVs ≠ erik-dunteman/ChatJev;
+  rimusz/localjev-mlx ≠ githubnext/localjev;
+  kylemclaren/jev-search ≠ kazuhideoki/jev-search;
+  xinwang-nwpu/jev-mobile ≠ Friedjof/jev-mobile;
+  kcd-dev/jev-skill ≠ raphael-liu/jev-skill;
+  yanmad27/ask-jev ≠ kuhung/ask-jev;
+  hf:akhilaaa3/openjev-v1-40705-nimble-r512-merged ≠
+  hf:akhilaaa3/openjev-v1-allmix-r512-merged.
+- Densify vs new: moritzkremb/jev-voice-browser densify §82.
+  luantak/is-malicious densify. zhuyansen/x-reply-filter already carded.
+  Do not mint sibling first-sighting sections for the already-carded.
+- Harbor-jevals: Greedy 0.90 / Oracle 0.82 / ECE 0.180 / 8,400 calls
+  $0.39 / Noul 0.7 true 44% / 91.7% AG News / JevBench 81.65 / WindTunnel
+  49/49 stay *theirs*, not Harbor. seed 42 n=1 is not Harbor.
+  confidence ≠ P(correct).
+- Anti-patterns to refuse: TypeSafe drop-in; catalog as endorsement;
+  open-cricket as Jev replica; Greedy 0.90 as P(correct); JevBench 81.65
+  as Harbor; Mandelbrot as a replica; ChatJEVs as an LM replica; a clean
+  scanner report as a sandbox; key-farming how-tos; copying keys /
+  `npm` / `pip` / `uv` / `docker`.
+- Overlay set: SKILL.md body (protocol fragments + class-table densify
+  + Hourly 0348), mental-models Apply 0348, composition-algebra items
+  633–648, faq, mixed-architecture, validation, toolbox-mapping,
+  methods-catalog, formal-methods, formal-semi-formal,
+  applied-mappings, judgment-class, question-design,
+  agent-self-assessment, mappings, CHANGELOG, README, docs/ecosystem,
+  findings batch #121, refresh-log, changelog-hourly.md,
+  revisit_fingerprints.json (first cards open-cricket / jev-decision-arena
+  / typesafe-ai-test / werr / OpenJev-Kit).
+- Offline check: `evaluate_decisions.py --self-test` (now includes
+  open-cricket wire-compat ≠ logit-equiv / Greedy 0.90 is not P(correct) /
+  Noul 0.7 true 44% *theirs* / JevBench 81.65 *theirs* not Harbor /
+  training not complete / 0-byte Mandelbrot is not a replica) and
+  `uniqueness_gate.py` (0843 + 0915 + jcr / 0922 / 0940 / 0947 /
+  1049 / 1143 / 1248 / 1340 / 1441 / 1542 / 1643 / 1746 / 1843 / 1936 /
+  Open-Jev densify / 1946 / 2049 / 2146 / 2246 / 2347 / 0049 / 0151 /
+  0248 / 0348).
+  No live Jev key. No wrappers.
+
+**Hourly 0348 HIGH (`notes.md` §139).** open-cricket BYOM Qwen2.5-1.5B. wire-compat ≠ logit-equiv. Qwen2.5 ≠ Archer. replica ≠ TypeSafe. Greedy 0.90 vs Oracle 0.82 *theirs*. Random conf 0.00 still 20.5% *theirs*. confidence ≠ P(correct). seed 42 n=1 is not Harbor. 8,400 calls $0.39 *theirs*. Noul 0.7 true 44% *theirs*. JevBench 81.65 *theirs* not Harbor. WindTunnel 49/49 *theirs* not Harbor. 0-byte Mandelbrot is not a replica. training not complete. Compose meaning like state. Code enumerates the candidates. Jev is the first classifier the design is bound to none. context is the conversation so far. A clean report is not proof. does not sandbox. ChatJEVs ≠ erik-dunteman/ChatJev. generation from Choice is not a language model replica. serving substrate ≠ calibrated replica. does not execute. cutoff 0.8 still soft. demo scores are not accuracy measurements. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#62. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+Hourly 0348 uniqueness lock: JonathanHHenson/open-cricket MIT HEAD d75af22125ed README SHA 7d288a741089; Local structured decisions using causal language models; default Qwen/Qwen2.5-1.5B-Instruct; independent of TypeSafe; API follows Jev's general call shapes but model predictions and confidence calibration differ; wire-compat ≠ logit-equiv; Qwen2.5 ≠ Archer; replica ≠ TypeSafe; virtualman333/jev-decision-arena MIT HEAD cf6ae4ed31e8 README SHA 037f75d9610d; Greedy 0.90 vs Oracle 0.82 *theirs*; Random conf 0.00 still 20.5% *theirs*; ECE 0.180 / 0.106 / 0.205 *theirs*; confidence ≠ P(correct); game success ≠ calibrated Noul; seed 42 n=1 is not Harbor; dopeCape/typesafe-ai-test HEAD ed2adb7740d7 README SHA 183f91c36471; 8,400 calls $0.39 *theirs*; Noul 0.7 true 44% *theirs*; ≥0.9 conf 91.7% AG News *theirs*; versioned model ids rejected; *theirs* not Harbor; pCwOrM/werr 2★ MIT HEAD 2526cae98891 README SHA b29476734a09; JevBench 81.65 *theirs* not Harbor; WindTunnel 49/49 *theirs* not Harbor; 0-byte Mandelbrot is not a replica; meijustory123/OpenJev-Kit HEAD c53125982f80 README SHA a4e72c61a973; training not complete; no accuracy; Qwen3.5-0.8B ≠ Archer; meijustory123/OpenJev-Kit ≠ meijustory123/openjev ≠ Zefan-Cai/Open-Jev; microchipgnu/jev-hooks HEAD cbf40e64d7b2 README SHA af25fb0aaf70; Compose meaning like state; rashedInt32/jury.nvim 1★ MIT HEAD bf31e9509e7e README SHA a2b088dd0787; Code enumerates the candidates; evoke-build/evoke 1★ Apache-2.0 HEAD 310840b56f1d README SHA 02b91962cef4; Jev is the first classifier the design is bound to none; moritzkremb/jev-voice-browser densify HEAD 198a0764395a README SHA 816309fc22e6 was fa033303; context is the conversation so far; densify §82 not a sibling first sighting; luantak/is-malicious densify 18★ MIT HEAD faf6ba61d7e1 README SHA 4ae098b4b7ae; A clean report is not proof; does not sandbox; skillseedorg/ChatJEVs MIT HEAD 346e7347cf90 README SHA 6ff81d54040f; ChatJEVs ≠ erik-dunteman/ChatJev; generation from Choice is not a language model replica; chrisns/laya-mac-serve MIT HEAD f294500821b6 README SHA 00e39a7d04e2; serving substrate ≠ calibrated replica; rimusz/localjev-mlx HEAD 297836a0d95e README SHA 2d96d20e0b80; rimusz/localjev-mlx ≠ githubnext/localjev; luhayes/jev-agent-router 1★ MIT HEAD bba795a4dc4e README SHA 17a2f44993d1; does not execute; cutoff 0.8 still soft; gbesse/decision-workbench MIT HEAD 8889cf3750a3 README SHA 14a3bf79da7a; demo scores are not accuracy measurements; zhuyansen/x-reply-filter already carded; kylemclaren/jev-search ≠ kazuhideoki/jev-search; xinwang-nwpu/jev-mobile ≠ Friedjof/jev-mobile; kcd-dev/jev-skill ≠ raphael-liu/jev-skill; yanmad27/ask-jev ≠ kuhung/ask-jev; hf:s1lv3rj1nx/openjev-router-healthcare encoder class member not Jev replica; hf:akhilaaa3/openjev-v1-40705-nimble-r512-merged ≠ hf:akhilaaa3/openjev-v1-allmix-r512-merged; jevai spaces catalog ≠ endorsement; skip-thin Fibonaccirabbit/Jev-GalGame MadhavBahl/jev-guide advance-lion/dsh-jev-hooks amithgc/local-jev hiro1202/jev-review-gate-poc inlight37-design/decision-model_lab kuhung/ask-jev mmiguez314/jev-lab pomodorozhong/exp-jev vanthiet1/JevGuarAgent empty SHA; catalog ≠ endorsement; game success ≠ calibrated Noul; does not execute; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62; notes.md §139

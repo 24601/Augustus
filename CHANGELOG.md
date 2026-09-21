@@ -16,6 +16,43 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 0348 HIGH (`research/notes.md` §139 / composition items
+633–648 / findings batch #121). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#62.
+Do not amend released 0.5.0 (#42). Merged #62 owns §138. Merged #61
+owns §137. Merged #60 owns §136.
+
+### Added
+
+- **Hourly 0348 HIGH (`notes.md` §139).** open-cricket BYOM Qwen2.5-1.5B.
+  wire-compat ≠ logit-equiv. Qwen2.5 ≠ Archer. replica ≠ TypeSafe.
+  Greedy 0.90 vs Oracle 0.82 *theirs*. Random conf 0.00 still 20.5%
+  *theirs*. confidence ≠ P(correct). seed 42 n=1 is not Harbor.
+  8,400 calls $0.39 *theirs*. Noul 0.7 true 44% *theirs*.
+  JevBench 81.65 *theirs* not Harbor. WindTunnel 49/49 *theirs* not Harbor.
+  0-byte Mandelbrot is not a replica. training not complete.
+  Compose meaning like state. A clean report is not proof.
+  does not sandbox. skip-thin empty SHA.
+  Evaluator: open-cricket wire-compat ≠ logit-equiv / Greedy 0.90 is not
+  P(correct) / Noul 0.7 true 44% *theirs* / JevBench 81.65 *theirs* not
+  Harbor / training not complete / 0-byte Mandelbrot is not a replica.
+  uniqueness_gate.py now checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 +
+  1049 + 1143 + 1248 + 1340 + 1441 + 1542 + 1643 + 1746 + 1843 + 1936 +
+  Open-Jev densify + 1946 + 2049 + 2146 + 2246 + 2347 + 0049 + 0151 +
+  0248 + 0348.
+  Composition items 633–648 / batch #121.
+  **HARD RULE:** do not reopen or amend PR #23–#62. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat open-cricket
+  as TypeSafe, Greedy 0.90 as P(correct), JevBench 81.65 as Harbor, or a
+  clean scanner report as a sandbox. With Augustus: wire-compat ≠
+  logit-equiv; confidence ≠ P(correct); seed 42 n=1 is not Harbor;
+  *theirs* not Harbor; 0-byte Mandelbrot is not a replica; A clean report
+  is not proof; does not sandbox.
+
 Hourly 0248 HIGH (`research/notes.md` §138 / composition items
 617–632 / findings batch #120). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in

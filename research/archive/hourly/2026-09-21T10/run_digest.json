@@ -1,0 +1,11 @@
+{
+  "hour": "2026-09-21T10",
+  "label": "0348",
+  "notes_section": "139",
+  "composition": "633-648",
+  "findings_batch": 121,
+  "revisit_high": 0,
+  "novel_high": 92,
+  "invented_signal": false,
+  "primary": "open-cricket BYOM wire-compat \u2260 logit-equiv; Greedy 0.90 vs Oracle 0.82 *theirs*; confidence \u2260 P(correct); JevBench 81.65 *theirs* not Harbor; 0-byte Mandelbrot is not a replica; training not complete"
+}
