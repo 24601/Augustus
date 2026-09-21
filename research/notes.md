@@ -474,7 +474,7 @@ open; selection/auth → control → fail closed, needs a decision-shaped
 number. A listwise reranker *as* the gate is the rejected design.
 
 **Vision scoring patterns.** Perception = candidate generation + scoring
-(keep/drop card with pixels or an AX tree as the parser). Four postures:
+(keep/drop card with pixels or an AX tree as the parser). Five postures:
 
 1. Pixel-free (preferred when the environment is structured): RAM / AX /
    object JSON → closed action or region set → Choice. Launch-week:
@@ -489,6 +489,15 @@ number. A listwise reranker *as* the gate is the rejected design.
    conditional coverage can collapse under shift even when marginal
    coverage looks fine ([2608.19376](https://arxiv.org/abs/2608.19376)).
 4. VLM-as-judge is *generation*. Verbal scores are not calibrated.
+5. Frozen-VLM answer-token logit readout. Harness, not weights.
+   [`yoheinakajima/glance`](https://github.com/yoheinakajima/glance)
+   (`notes.md` §147): default Qwen3-VL-4B, one forward pass, local
+   noul / choice / score. Soft probabilities are for threshold, abstain,
+   or rank. They are not a safety gate. Shares the inference object with
+   simple-jev, jev-visual, and LitJev. Request shapes follow TypeSafe Jev
+   (hosted text). Distinct from trained vision heads (hf:thaitea/laya-vision,
+   §146) and from Open-Jev heads that train weights. Author numbers are
+   *theirs*.
 
 Laya is text-only / 512 tok: a vision hole is not "run Laya on a
 caption."
@@ -37533,3 +37542,128 @@ methods compose: a Noul is a SENSOR; code owns the block.
    [`uzuraDev/cookie-clicker-jev`](https://github.com/uzuraDev/cookie-clicker-jev) 0★ NOASSERTION TypeScript HEAD 12aa3215229c README SHA 4336e501a697. browser loop. game success ≠ calibrated Noul.
    [`walidboulanouar/jev-agent-kit`](https://github.com/walidboulanouar/jev-agent-kit) 0★ MIT JavaScript HEAD 214407ba2f37 README SHA a10255fbe3b8. CLI and MCP. Jev does not write text. walidboulanouar/jev-agent-kit ≠ WaynezProg/jev-kit ≠ isiomaC/jevkit. routing ≠ permission.
 
+
+## 147. User-provided glance HIGH (2026-09-21)
+
+Novel HIGH off latest `main` (`8676280`, hourly 1110 / `notes.md` §146 /
+PR #72, plus release v0.5.1 / PR #71).
+**HARD RULE:** do not reopen or amend PR #23 through #72.
+Do **not** re-fold §146 laya-vision as this card. Glance is a harness
+around a frozen VLM. Catalogued Laya Vision (§146) is a trained SmolVLM
+head. Same decision-model class, different job.
+This fold's ID: `notes.md` §147.
+`invented_signal: false`. Author numbers are *theirs*. Soft scores ≠
+hard gates. No Augustus call site: this card does not wire glance into
+the skill runtime.
+
+Lane is the decision-model class (classifiers, encoders/decoders,
+specialized AR / constrained heads, vision and listwise scorers, and
+what TypeSafe calls System One). TypeSafe Jev Choice/Score/Noul is the
+dominant exemplar, not the whole mandate. Name Jev where the shapes
+match. Do not thin the class down to Jev-only.
+
+### How-to-apply (class lenses)
+
+1. **Harness, not weights.** Quote *theirs*: Glance is a calibration
+   and measurement harness around that readout. It is not a model.
+   Nothing is generated or trained. A fit writes calibration numbers
+   for a rubric. It does not update VLM weights.
+2. **Soft probabilities for threshold, abstain, or rank.** They are
+   not a safety gate. Raw yes/no is overconfident until a fit
+   (ECE 0.111 and 0.179 *theirs*). Explicit `other` on held-out breeds
+   lands 7.7% *theirs*: "knows when none of the options fits" is not
+   supported as shipped.
+3. **Jev-shaped surface, local vision readout.** noul / choice / score
+   follow TypeSafe Jev (hosted text). The local server is
+   `POST /v1/decide` on 127.0.0.1. That wire is not TypeSafe
+   `/v1/systemone` and not IamBusy/OpenJev `/v1/decide`. The class
+   still includes trained vision heads (hf:thaitea/laya-vision, §146)
+   and text System One.
+4. **Author calibration honesty.** Zero-shot exact ratings lag the
+   cheapest Gemini. Non-image-quality rubrics stay weak at 300 labels.
+   Geometric probe limits of the 4B are published. Claims ledger
+   *theirs*: do not claim faster or cheaper than Jev (Jev does not
+   accept images).
+
+### HIGH
+
+**[`yoheinakajima/glance`](https://github.com/yoheinakajima/glance)**
+PRIMARY novel. Apache-2.0. Python. **3★**. 0 forks. HEAD
+`8f36e063bffb` (full `8f36e063bffb76e71d1f4cea6792872fec25cfd6`).
+README SHA `b57280394bc1`. LICENSE SHA `d645695673349e`. size **51490**.
+pushed 2026-09-21T17:37:40Z. created 2026-09-21T06:51:38Z. Annotated tag
+`v0.3.1` points at that HEAD. Topics: calibration,
+image-classification, vision-language-model, vlm, zero-shot.
+PyPI [`glance-vlm` 0.3.1](https://pypi.org/project/glance-vlm/)
+(distribution name, because `glance` is taken; import and command stay
+`glance`). Site [https://glance.yohei.me](https://glance.yohei.me).
+
+Quote *theirs*: Ask an open vision-language model typed questions about
+an image and get probabilities back, on your own machine.
+
+Quote *theirs*: Yes/no, pick-one and ratings are READ from the logits
+of one forward pass of a frozen open model (Qwen3-VL-4B by default,
+Apache-2.0). Nothing is generated, nothing is trained, no image leaves
+the machine.
+
+Typed surface (shapes follow TypeSafe Jev, a hosted text model):
+noul (yes/no), choice (pick-one), score (ordered rating, expected level
+plus probabilities). Python `Glance` methods `noul`, `choice`, `score`,
+`ask`. Local HTTP `POST /v1/decide` (`glance serve`; binds 127.0.0.1;
+`HF_HUB_OFFLINE` set). `glance fit --unlabeled` writes a rubric offset
+from unlabeled images. Do **not** copy install commands.
+
+Author table *theirs* (README, zero-shot, same items; not Harbor):
+
+- yes/no **0.939** (541 questions, three fresh photo sets) vs Gemini
+  3.1 Flash-Lite **0.961**
+- pick-one **0.933** (270 photos) vs Gemini 3.1 Flash-Lite **0.933**
+  and vs Gemini 3.1 Pro **0.937**
+- rating exact level **0.669** vs Gemini 3.1 Flash-Lite **0.763**
+  (cheapest Google is ahead on exact level)
+- unlabeled fit on image-quality scales: **0.67 to 0.76** exact (16 or
+  more images, no labels). Did not help on rubrics that are not image
+  quality.
+- labeled fit, about 32 images: **0.86** exact, ECE about **0.03** on
+  image-quality scales. Fits are per rubric and do not transfer.
+- non-image-quality rubrics (tilt, cut-off, occlusion, caption
+  legibility, watermark): **0.55** exact with 300 labels; tilt **0.33**
+- geometric probes of the 4B *theirs*: look-alike words **1.00**,
+  left/right/above/below **0.94**, counts up to five **0.99**, two
+  diagonal directions **0.30**, which of four shapes is largest
+  **0.52** (0.73 at twice the area), eight objects **0.56**. Stripe
+  direction is in the hidden state (**0.99** by a linear probe) and
+  the relative size is not.
+- seconds and dollars *theirs* on Commons photographs: **1.1 s** yes/no
+  on a full-size photo (0.33 s on a small image); **0.07 to 0.32** US
+  dollars per 1,000 answers on a rented GPU. `docs/CLAIMS.md` withdraws
+  leading with "0.33 s" and "about five times cheaper". Do not lead
+  with cost.
+
+`docs/CLAIMS.md` *theirs*: raw yes/no probabilities are overconfident
+(ECE **0.111** and **0.179**). A pooled Platt map on those two suites
+is not a transfer proof. "Faster or cheaper than Jev" is **Do not
+claim** (Jev does not accept images). Held-out breeds land on an
+explicit `other` option only **7.7%** of the time.
+
+Class placement. The inference object is shared with Simple Jev
+(featherless-ai/simple-jev), jev-visual (hr98w/jev-visual), and LitJev
+(zhengxuyu/litjev): frozen model, one-pass answer-token logits, shared
+prefix. What Glance adds is the harness: fresh-photo hosted comparison,
+write-versus-read, unlabeled self-calibration, labeled rating fit, and
+published dollars and milliseconds. It trains no weights, unlike the
+author's named cousins YOFO, Laya Vision, and OpenJev v2. Catalogued
+Laya Vision is hf:thaitea/laya-vision (§146; trained SmolVLM head; act
+head untrained, do not gate on it). Catalogued Open-Jev with a trained
+head is Zefan-Cai/Open-Jev. YOFO is the author's name in that sentence;
+this fold does not mint a YOFO repo card.
+
+Namesake locks: yoheinakajima/glance ≠ TypeSafe Jev; POST /v1/decide ≠
+TypeSafe /v1/systemone ≠ IamBusy/OpenJev /v1/decide; yoheinakajima/glance
+≠ hf:thaitea/laya-vision ≠ thaitea/laya-vision-smolvlm-256m;
+yoheinakajima/glance ≠ Zefan-Cai/Open-Jev ≠ razorback16/openjev;
+harness not weights; soft scores ≠ hard gates; logits are not
+calibrated probabilities of correctness; *theirs* not Harbor; SHA move
+is not a replica.
+
+User-provided glance uniqueness lock: yoheinakajima/glance Apache-2.0 Py HEAD 8f36e063bffb README SHA b57280394bc1 LICENSE SHA d645695673349e; 3★; size 51490; pushed 2026-09-21T17:37:40Z; created 2026-09-21T06:51:38Z; PyPI glance-vlm 0.3.1; tag v0.3.1; site https://glance.yohei.me; topics calibration, image-classification, vision-language-model, vlm, zero-shot; Ask an open vision-language model typed questions about an image and get probabilities back, on your own machine; frozen open VLM default Qwen3-VL-4B Apache-2.0; answer-token logit readout in one forward pass; Glance is a calibration and measurement harness around that readout. It is not a model; trains no weights; images never leave the machine; local server binds 127.0.0.1; noul yes/no choice pick-one score ordered rating; POST /v1/decide; glance fit --unlabeled; yes/no 0.939 pick-one 0.933 rating exact 0.669 *theirs*; Gemini 3.1 Flash-Lite yes/no 0.961 pick-one 0.933 rating 0.763 *theirs*; unlabeled image-quality 0.67 to 0.76 exact *theirs*; about 32 labeled images 0.86 exact ECE about 0.03 *theirs*; non-image-quality rubrics 0.55 exact with 300 labels *theirs*; tilt 0.33 *theirs*; geometric probes diagonals 0.30 largest of four shapes 0.52 eight objects 0.56 *theirs*; stripe direction hidden-state linear probe 0.99 *theirs*; raw yes/no ECE 0.111 and 0.179 overconfident *theirs*; explicit other held-out breeds 7.7% *theirs*; claims ledger: faster or cheaper than Jev do not claim; shares inference object with featherless-ai/simple-jev hr98w/jev-visual zhengxuyu/litjev; request and response shapes follow TypeSafe Jev hosted text; yoheinakajima/glance ≠ TypeSafe Jev; POST /v1/decide ≠ TypeSafe /v1/systemone ≠ IamBusy/OpenJev /v1/decide; trains no weights unlike YOFO and unlike hf:thaitea/laya-vision §146 and unlike Zefan-Cai/Open-Jev; harness not weights; soft probs for threshold abstain rank; soft scores ≠ hard gates; logits are not calibrated probabilities of correctness; *theirs* not Harbor; catalog ≠ endorsement; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62/#63/#64/#65/#66/#67/#68/#69/#70/#71/#72; notes.md §147
