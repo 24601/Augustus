@@ -1,3 +1,15 @@
+## 2026-09-21 ~20:54 UTC / ~14:54 Boise - Hourly 1454 HIGH
+- Folded onto post-#78 `main` (`c8785c4`). ryana/jevify §152 is on main.
+  This fold is §153 only. This fold: `notes.md` §153 / composition 821-836 /
+  findings batch #133. Do not reclaim §147 through §152.
+  **HARD RULE:** do not reopen or amend PR #23 through #78.
+- PRIMARY: NobleSpartan6/otto. Jev chooses concrete actions. Code acts.
+  A model score is not a guarantee of success. Class benches are *theirs*,
+  not Harbor. Densify §132, §145, and §151, not sibling first sightings.
+- Evidence: `research/archive/hourly/2026-09-21T20/`.
+- Uniqueness lock lives in `research/notes.md` only (plus the gate fixture).
+  `invented_signal: false`. No Augustus call site.
+
 ## 2026-09-21 ~19:52 UTC / ~13:52 Boise - Hourly 1352 HIGH
 - Rebased onto post-#75 `main` (`bdb0acb`). glance §147, hourly 1203 §148,
   lev §149, and hourly 1256 §150 are on main. This fold is §151 only.

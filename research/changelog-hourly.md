@@ -1,3 +1,20 @@
+## Hourly 1454 HIGH (notes.md §153 / items 821-836 / batch #133)
+
+- Folded onto post-#78 `main` (`c8785c4`). ryana/jevify §152 is on main.
+  This fold is §153 only. Do not reclaim §147 through §152.
+  **HARD RULE:** do not reopen or amend PR #23 through #78.
+  Does not bump 0.5.0 or 0.5.1. Skip Archer. `invented_signal: false`.
+- PRIMARY: NobleSpartan6/otto. Jev chooses concrete actions. Code acts.
+  A model score is not a guarantee. nourhelmi/pi-jev-compaction keeps
+  0.25 soft and clears nothing new on API failure.
+  LiamSherline/jev-lead-scorer: nothing sends itself.
+  MatteoGauthier/laya-portable: same answers is their claim.
+  strombolini/Armada: Codiv OpenJev is not TypeSafe. Ranking is not calibration.
+- Class benches stay *theirs*: 84.0%, 88.58%, one Mind2Web shard, n=40.
+- REVISIT densify: swev §132 (MLX was CoreML), zero-shot-classifier §145,
+  rarha/laya-onnx sha unchanged, TokyoHunter SHA moved, aleksvega SHA unchanged.
+- Uniqueness lock lives in `research/notes.md` and `uniqueness_gate.py` only.
+
 ## Hourly 1352 HIGH (notes.md §151 / items 793-808 / batch #131)
 
 - Rebased onto post-#75 `main` (`bdb0acb`). glance §147, hourly 1203 §148,
