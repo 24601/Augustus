@@ -29613,7 +29613,8 @@ human review owns the question that ships.
    human review.” Tests lock `full`/`strong` plus Choice
    options `billing` / `technical` / `account_access` /
    `other`. Namesake:
-   alexwestco/llm-to-jev ≠ altryne/jevify ≠ ryana/jevify ≠
+   alexwestco/llm-to-jev ≠ altryne/jevify ≠ ryana/jevify
+   (first dedicated card `notes.md` §152) ≠
    fidecastro/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠
    uspraveen/Jevify ≠ karanb192/jev-architect ≠
    gavinHuang/jevinize ≠ dbreunig/building-with-jev-skill ≠
@@ -29629,6 +29630,9 @@ human review owns the question that ships.
    **3★** (0940 uniqueness lock stays 2★; star-noise is not the
    fold). desc rewrite ≠ SHA/behavior change. heuristic conversion
    ≠ calibrated Noul. Do not mint a sibling first sighting.
+   ryana/jevify is no longer only this namesake line. Its first
+   card is `notes.md` §152 (prompt-only investigation aid). This
+   compiler stays §118. The 0940 uniqueness lock string is unchanged.
 
 
 ### Adversarial review + testing hooks
@@ -39328,3 +39332,178 @@ glance §147, hourly 1203 §148, lev §149, and hourly 1256 §150 are on main.
 This fold is §151 only. Do not reclaim §147–§150.
 Do not reopen or amend PR #23 through #76.
 notes.md §151.
+
+## 152. User-provided ryana/jevify HIGH (2026-09-21 ~20:20Z)
+
+Novel HIGH off current `main` (`1442ea6`, hourly 1352 / `notes.md` §151 /
+merged #77). yoheinakajima/glance stays `notes.md` §147 (merged #73).
+Hourly 1203 stays `notes.md` §148 / items 761-776 / batch #129 (merged #74).
+Merged #76 owns peterpme/lev `notes.md` §149. Merged #75 owns hourly 1256
+`notes.md` §150 / composition 777-792 / findings batch #130.
+Merged #77 owns hourly 1352 `notes.md` §151 / composition 793-808 /
+findings batch #131.
+glance §147, hourly 1203 §148, lev §149, hourly 1256 §150, and hourly 1352 §151 are on main.
+This fold is §152 only. Do not reclaim §147–§151.
+**HARD RULE:** do not reopen or amend PR #23 through #77.
+This fold's IDs: `notes.md` §152 / composition 809-820 /
+findings batch #132.
+`invented_signal: false`. The prompt ships no measured result. Soft
+scores ≠ hard gates. The prompt is not a runtime gate. Catalog ≠
+endorsement. No Augustus call site: this card does not wire the prompt
+into the skill runtime. Does not bump 0.5.0 or 0.5.1. Skip Archer as a
+landed product. The Archer essay the prompt cites is hypotheses only.
+
+Lane is the decision-model class (classifiers, encoders and decoders,
+specialized AR and constrained heads, vision and listwise scorers, and
+what TypeSafe calls System One). TypeSafe Jev (Choice, Score, Noul) is
+the dominant exemplar, not the whole mandate. This repository is not a
+member of that class. It is a paste-into-coding-agent prompt that asks
+an agent to look for TypeSafe Jev opportunities inside some other
+codebase. Augustus-adjacent: opportunity audit / boundary-audit flavor.
+The artifact is the prompt. It is not Augustus, and it is not a
+TypeSafe product.
+
+### How-to-apply (class lenses)
+
+1. **Prompt, not a runtime.** Quote *theirs*: A prompt for investigating
+   what Jev could make possible in an existing project. Paste the prompt
+   below into your coding agent while it is working in your project.
+   Pasting text does not install a gate, a server, or a skill package.
+   The prompt is not a runtime gate. Soft scores ≠ hard gates.
+2. **Boundary audit of someone else's tree.** The agent is told to
+   inspect the actual code, architecture, data flows, prompts, tests,
+   and available performance evidence, and to tie observations to
+   concrete files. Exact work stays in code. Bounded semantic judgments
+   are the candidates. Open-ended writing stays generated. Do not assume
+   the project needs existing LLM calls to benefit.
+3. **Three evidence classes stay apart.** Quote *theirs*: Separate
+   vendor claims, independently measured results, and your own
+   hypotheses. This repository contains none of the three as data. Do
+   not invent results. Quote *theirs*: Continue the analysis without
+   inventing results.
+4. **Archer essay is hypotheses only.** The prompt points at
+   [Jev architecture investigation](https://archerhume.com/posts/jevs-architecture-unmasked)
+   and says to use it to generate hypotheses; its architectural
+   deductions are not verified implementation details. That sentence is
+   the lock. Skip Archer as a landed product. Archer still
+   promised_not_landed. This fold did not re-fetch Hub status.
+5. **Design Choice / Score / Noul; code combines.** Quote *theirs*: The
+   documented interface evaluates a shared state against multiple typed
+   questions, returning choices, rubric scores, and yes/no probabilities.
+   Questions in one request are evaluated independently; application code
+   combines their answers. Do not hide a complex reasoning task inside a
+   vaguely worded classification question. This repo does not serve those
+   primitives.
+6. **Economics, then an eval that can fail.** Quote *theirs*: Distinguish
+   lower latency per request from lower end-to-end latency. Do not assume
+   that more questions are free, that batching scales indefinitely, or
+   that provider-side parallelism eliminates client-visible costs.
+   Quote *theirs*: Treat returned probabilities as signals whose
+   calibration needs testing on our workload. The prompt asks for
+   held-out cases, asymmetric false-positive and false-negative costs,
+   thresholds, abstention, and go/no-go criteria. This repo ships no
+   such eval. If credentials, suitable data, and an established
+   experiment budget are absent, the prompt says to produce a runnable
+   plan and name what remains unmeasured.
+
+### HIGH
+
+**[`ryana/jevify`](https://github.com/ryana/jevify)** PRIMARY novel.
+First dedicated card. Prior Augustus mention is only the namesake line
+under alexwestco/llm-to-jev (`notes.md` §118). That line now points
+here. The 0940 uniqueness lock string is unchanged.
+
+Live REST `GET /repos/ryana/jevify` (quoted, not recalled):
+`full_name` `ryana/jevify`. `description` "Prompts to jev-ify your
+projects". `description_hash` `0e539a1e865b` (sha256[:12] of that
+description). `stargazers_count` **6**. `forks_count` **0**.
+`license` **null**. `language` **null**. `topics` **[]**. `size` **3**.
+`id` **1376670432**. `default_branch` `main`. `created_at`
+`2026-09-19T03:16:52Z`. `pushed_at` `2026-09-19T03:18:52Z`.
+`updated_at` `2026-09-21T20:18:38Z` (metadata clock; HEAD did not move).
+Homepage null. No GitHub releases (`GET /repos/ryana/jevify/releases`
+length **0**). `release_tag` null.
+
+One commit. `GET /repos/ryana/jevify/commits` returns a single object:
+HEAD `87a9ef3674f111c74bb33cccd3bfa56bd0c4a15c`, message "docs: add Jev
+project investigation prompt", author Ryan Angilly, login `ryana`,
+commit date `2026-09-19T03:18:50Z`. Tree at that HEAD is one blob:
+`README.md` SHA `227e2324818375e1f73d044af6a56a5b933c496b`, size
+**7567** bytes. `GET /repos/ryana/jevify/contents/README.md` returns
+the same SHA and size. No `LICENSE` file. Root is README-only. There
+is no code.
+
+Quote *theirs* (opening): A prompt for investigating what Jev could
+make possible in an existing project. Paste the prompt below into your
+coding agent while it is working in your project.
+
+The prompt then tells the agent to read the TypeSafe introduction,
+typed decision primitives, API reference, and documentation index, and
+to follow documentation links for current pricing, limits, batching,
+and integration options. This fold does not re-audit those docs and
+does not copy a price. The prompt's own rule is to separate vendor
+claims from measurements and from hypotheses.
+
+Species. Prompt-only design-investigation aid for TypeSafe Jev
+opportunity discovery in an existing codebase. Not a decision model.
+Not a serving head. Not a converter. Not an agent skill package. Not
+an Augustus skill. Not a TypeSafe product. Augustus-adjacent only in
+the sense that the questions it asks are an opportunity audit: where
+semantic judgment was treated as too expensive, where Choice / Score /
+Noul might sit, what code still owns, and which eval could prove the
+recommendation wrong.
+
+Namesakes, live REST, not this card:
+
+- **altryne/jevify** — description *theirs*: An agent skill to discover
+  TypeSafe Jev opportunities, design typed questions, and learn from
+  recent community experiments. **21★**. MIT. Agent skill, not this
+  README prompt.
+- **fidecastro/jevify** — description *theirs*: Supersimple way to
+  serve LLMs as a Jev-like endpoint. **24★**. MIT. Serving head, not
+  this prompt.
+- **Mintzs/jevify** — description *theirs*: An optimized inference
+  engine to turn LLMs into Jev-like machines. **3★**. License null.
+  README *theirs*: optional CUDA graphs, off by default. Inference
+  engine, not this prompt. Do not paste that repo's latency numbers
+  onto ryana/jevify.
+- **gulagala001/jevify** — description *theirs*: Jev-style Choice,
+  Score and Noul decisions from ordinary models. An optional DSH
+  plugin. **0★**. MIT. Plugin, not this prompt.
+- **uspraveen/Jevify** — description *theirs*: Turn Any Open-LLM into
+  a System-one Jev model. **1★**. License SPDX `NOASSERTION`. Not this
+  prompt.
+- **apurv101/jevify** — `description` null. **0★**. License null.
+  `GET` tree returns empty repository HTTP **409**. Stub. Not this
+  prompt.
+- **arzkr/jevify-demo** — description *theirs*: Jev-ify. **0★**.
+  License null. size **44**. Demo namesake, not this prompt.
+- **alexwestco/llm-to-jev** — heuristic converter. Already
+  `notes.md` §118. Live description *theirs*: Convert LLM prompts to
+  Jev prompts. This fold does not densify that card. Star movement
+  there is not this fold.
+
+Decision-design card for the *prompt's job*, not a claim that this
+repo executes it:
+
+```text
+Domain: SWE / knowledge work (audit of an existing project)
+Desired behavior and non-judgment baseline: a ranked opportunity table; exact work stays in code
+Semantic judgment(s): proposed Choice / Score / Noul questions; this repo returns none
+Pillar: VOI (where semantic judgment was treated as too expensive) plus EU on the ranked acts
+Hole: gather / triage (opportunity map, smallest insertion)
+Family: none — the artifact proposes closed-decision-API placements; it is not a head
+Evidence/candidate source: the target tree, TypeSafe docs (vendor claims), Archer essay (hypotheses only)
+Deterministic policy: application code combines independent answers; generation stays generation
+Batchable vs dependent: questions in one request are independent; sequence only when a later question needs an earlier answer
+Failure/abstention: probabilities are signals; calibration is unmeasured here; fail policy belongs to the target project
+Smallest experiment: the prompt's own go/no-go eval; this repo does not run it
+Eval path: specified, not shipped (held-out cases, asymmetric costs, thresholds, abstention)
+Typed judgment provider: the prompt names TypeSafe Jev; this repo does not call it
+Live references: HEAD 87a9ef3674f111c74bb33cccd3bfa56bd0c4a15c; README SHA 227e2324818375e1f73d044af6a56a5b933c496b
+```
+
+Soft scores ≠ hard gates. A prompt is not a runtime gate. Catalog ≠
+endorsement. SHA move is not a replica. `invented_signal: false`.
+
+User-provided ryana/jevify uniqueness lock: ryana/jevify prompt-only design-investigation aid; Prompts to jev-ify your projects; description_hash 0e539a1e865b; live REST stargazers_count 6; forks_count 0; license null; no LICENSE file; no releases; release_tag null; language null; topics empty; GitHub id 1376670432; size 3; README blob 7567 bytes; HEAD 87a9ef3674f111c74bb33cccd3bfa56bd0c4a15c; README SHA 227e2324818375e1f73d044af6a56a5b933c496b; created 2026-09-19T03:16:52Z; pushed 2026-09-19T03:18:52Z; single commit docs: add Jev project investigation prompt by Ryan Angilly (ryana); root is README-only; Paste the prompt below into your coding agent while it is working in your project; architectural deductions are not verified implementation details; Separate vendor claims, independently measured results, and your own hypotheses; Questions in one request are evaluated independently; application code combines their answers; Treat returned probabilities as signals whose calibration needs testing on our workload; Continue the analysis without inventing results; Do not assume that more questions are free; prompt is not a runtime gate; not a decision model; not a serving head; not a converter; not an agent skill package; not an Augustus skill; not a TypeSafe product; soft scores ≠ hard gates; catalog ≠ endorsement; invented_signal false; ryana/jevify ≠ altryne/jevify ≠ fidecastro/jevify ≠ Mintzs/jevify ≠ gulagala001/jevify ≠ uspraveen/Jevify ≠ apurv101/jevify ≠ arzkr/jevify-demo ≠ alexwestco/llm-to-jev; altryne/jevify is an agent skill; fidecastro/jevify serves LLMs as a Jev-like endpoint; Mintzs/jevify is an inference engine (optional CUDA graphs off by default); gulagala001/jevify is a DSH plugin; uspraveen/Jevify turns an open LLM into a System One shape; apurv101/jevify empty repo HTTP 409; arzkr/jevify-demo is a demo namesake; alexwestco/llm-to-jev stays notes.md §118 heuristic converter; first dedicated card notes.md §152; do not reclaim §147 glance §148 1203 §149 lev §150 1256 §151 1352; composition 809-820; findings batch #132; glance §147, hourly 1203 §148, lev §149, hourly 1256 §150, and hourly 1352 §151 are on main; this fold is §152 only; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62/#63/#64/#65/#66/#67/#68/#69/#70/#71/#72/#73/#74/#75/#76/#77; does not bump 0.5.0 or 0.5.1; notes.md §152
