@@ -1,0 +1,512 @@
+[
+  {
+    "id": "zcoder-run/rust-sysone",
+    "ok": true,
+    "stars": 2,
+    "sha": "943216d076eb3a01f708b14239f24aa65260a158"
+  },
+  {
+    "id": "Sauhard74/mem-jev",
+    "ok": true,
+    "stars": 1,
+    "sha": "9dfe1b06268b30c7750ac9d4edaff754726345f7"
+  },
+  {
+    "id": "mizchi/jev-playground",
+    "ok": true,
+    "stars": 19,
+    "sha": "64cc9fc97370a1d0c727cacc14378a5e748caa78"
+  },
+  {
+    "id": "hj01857655/jev-router",
+    "ok": true,
+    "stars": 1,
+    "sha": "d14c78cb98b1996b4327b271fbd78119833bce8e"
+  },
+  {
+    "id": "ajaman190/lumen",
+    "ok": true,
+    "stars": 1,
+    "sha": "2801fc8da74396705b675b58f8d84a4feb3acb70"
+  },
+  {
+    "id": "jagsan-cyber/reflex-gate",
+    "ok": true,
+    "stars": 4,
+    "sha": "18e0d918586ef6b78936ed24f649fc389e171f26"
+  },
+  {
+    "id": "KaLM-Embedding/KaLM-Jev",
+    "ok": true,
+    "stars": 2,
+    "sha": "d8b1385d6776dbdf93d918306db6ebda7160db25"
+  },
+  {
+    "id": "epergaboni/jevseo",
+    "ok": true,
+    "stars": 1,
+    "sha": "7718608450869897920d017c3551fa39f54c7b9d"
+  },
+  {
+    "id": "Alex314618-create/JevRev",
+    "ok": true,
+    "stars": 0,
+    "sha": "d1d8e9a15f7be50966b0d9cb4b5129e6a88ab9e5"
+  },
+  {
+    "id": "Aitejiu/jev-harness-lab",
+    "ok": true,
+    "stars": 0,
+    "sha": "ec75c374797300ee3cd8d32cb80b5967e75d8d36"
+  },
+  {
+    "id": "0xagentlabs/jev-five",
+    "ok": true,
+    "stars": 0,
+    "sha": "2182a4831cb70f6ac6616766b3b9c070d714c65a"
+  },
+  {
+    "id": "ABilenduke/jev-agent-tools",
+    "ok": true,
+    "stars": 0,
+    "sha": "4ad826c69500c61dfcdbba0176042843ebf958e6"
+  },
+  {
+    "id": "DefensiveSniper/jev-subagent-router",
+    "ok": true,
+    "stars": 0,
+    "sha": "341fbd9d52b214b36cc41f864b52fd5068917f64"
+  },
+  {
+    "id": "Haslab-dev/pandu-jev",
+    "ok": true,
+    "stars": 0,
+    "sha": "1e670beeb00f4334ceef8f1b09e4922ead31ab7e"
+  },
+  {
+    "id": "245678000000/pkulaw-deep-research",
+    "ok": true,
+    "stars": 0,
+    "sha": "fb77f2c310d20fa905bfb872d59c39f9731ae1d6"
+  },
+  {
+    "id": "Andriy-Kulak/meta-ads-library-analyzer",
+    "ok": true,
+    "stars": 0,
+    "sha": "0ccb15cdb09c3c0be0ec73bb20f78465764df67f"
+  },
+  {
+    "id": "LiNan1984/typesafe-curl",
+    "ok": true,
+    "stars": 0,
+    "sha": "fee7a62a1bfc0c548d919d01aa9e51fa50d1eae4"
+  },
+  {
+    "id": "NoName1116/fkqt-jevInvestor",
+    "ok": true,
+    "stars": 0,
+    "sha": "1ff159ad2ae400bc0447c839fe425dc713d923ed"
+  },
+  {
+    "id": "RileyCarney/JevTools",
+    "ok": true,
+    "stars": 0,
+    "sha": "7b0bf0497d7cf8b42e26a61efdb867e466d4173f"
+  },
+  {
+    "id": "PeterP22/jev-triage",
+    "ok": true,
+    "stars": 0,
+    "sha": "d71b05fd4fcdc8fe7d5afc400caa56d95b29a6fc"
+  },
+  {
+    "id": "WangYu0611/jevymarket-direct",
+    "ok": true,
+    "stars": 0,
+    "sha": null
+  },
+  {
+    "id": "YikaiZheng/Jev_Benchmarking",
+    "ok": true,
+    "stars": 0,
+    "sha": null
+  },
+  {
+    "id": "TomasThrawat/typesafe-mcp-key",
+    "ok": true,
+    "stars": 0,
+    "sha": "3c38408f86847d6cb1d07e2e3119c301c69af1e1"
+  },
+  {
+    "id": "Titanium-Devops/jde",
+    "ok": true,
+    "stars": 0,
+    "sha": "27d8b76ef796e76f16f5fb2d74fe17f476ed1751"
+  },
+  {
+    "id": "ZephyrDeng/ego-jev",
+    "ok": true,
+    "stars": 0,
+    "sha": "19555b7b2a973ce6c30c5fa5444ec527a046a5ee"
+  },
+  {
+    "id": "a1325127730-cyber/jev-quiz-router",
+    "ok": true,
+    "stars": 0,
+    "sha": "a5800ed94cffc58c7aac02f6f188f07c0bbcf091"
+  },
+  {
+    "id": "anpicasso/hermes-jev-curator",
+    "ok": true,
+    "stars": 0,
+    "sha": "e03ccabcc26bb8a93239cc60d2a6e85fc4a87218"
+  },
+  {
+    "id": "aquental/jev-guardrail",
+    "ok": true,
+    "stars": 0,
+    "sha": "fb13c2d2d25933e5da355486afbaabe61d67ab22"
+  },
+  {
+    "id": "bo7/jev_test",
+    "ok": true,
+    "stars": 0,
+    "sha": "501365f816a64699a02aac8163b1cb8a433e9524"
+  },
+  {
+    "id": "ardada2468/typedecide",
+    "ok": true,
+    "stars": 0,
+    "sha": "b08a0ae353719ab07386f600f9c0bc12b0abb7f9"
+  },
+  {
+    "id": "cexll/train-your-first-jev",
+    "ok": true,
+    "stars": 0,
+    "sha": "07e4f7c61b2f0bbe3774586c0490176953c0f70c"
+  },
+  {
+    "id": "blobfishai/jevfish",
+    "ok": true,
+    "stars": 0,
+    "sha": "80262b5c7049179a5def5e15fc85c51e3f9d7314"
+  },
+  {
+    "id": "chen-junluo/jev-measure",
+    "ok": true,
+    "stars": 0,
+    "sha": null
+  },
+  {
+    "id": "devsangho/jev-robotics-example",
+    "ok": true,
+    "stars": 0,
+    "sha": "6384390252467953db6fe01b4609bff4132bd65d"
+  },
+  {
+    "id": "edom18/jev-playground",
+    "ok": true,
+    "stars": 0,
+    "sha": "b1abfa4f01b5d6b4c6f448b4c549b33e26c655d5"
+  },
+  {
+    "id": "crizpy7-sketch/extreme-motion-demo",
+    "ok": true,
+    "stars": 0,
+    "sha": "926717787452b533cecbae5cb7ea55c003a1ec8f"
+  },
+  {
+    "id": "fellowship-dev/jev-second-brain",
+    "ok": true,
+    "stars": 0,
+    "sha": "df33f878bf748431843ce794284df22d177f495f"
+  },
+  {
+    "id": "ehui1226/hookmeter-jev",
+    "ok": true,
+    "stars": 1,
+    "sha": "0f495b9bf21dfb6ca0c14489dce288c1346f5178"
+  },
+  {
+    "id": "formulahendry/jev-acp",
+    "ok": true,
+    "stars": 0,
+    "sha": "a19327aeb19a8b06317d2aa8d151e68da6b3a1fe"
+  },
+  {
+    "id": "frederickrohn/jev-harness",
+    "ok": true,
+    "stars": 0,
+    "sha": "9093aa42ca10140e53dcd3dd5b4bccece15d2ec8"
+  },
+  {
+    "id": "fstandhartinger/jev-cascade",
+    "ok": true,
+    "stars": 0,
+    "sha": "f4516ccbcf8044b02804171a956bfe1674d63a01"
+  },
+  {
+    "id": "hc-nolan/IOCArena",
+    "ok": true,
+    "stars": 0,
+    "sha": null
+  },
+  {
+    "id": "generallymatthew/factlabel",
+    "ok": true,
+    "stars": 0,
+    "sha": "fabf8c411753a65cef02c339391f8e08c1111e19"
+  },
+  {
+    "id": "heheebei-rgb/laya-mirror",
+    "ok": true,
+    "stars": 0,
+    "sha": null
+  },
+  {
+    "id": "gualican/jev-model-router",
+    "ok": true,
+    "stars": 0,
+    "sha": "1c2c4eb1e511db163ba16c070f91341d0446304c"
+  },
+  {
+    "id": "hectorlcastro09/jev-torneo-animales",
+    "ok": true,
+    "stars": 0,
+    "sha": "e02ba65bf71fac641370b71f31a958607e2c5ee9"
+  },
+  {
+    "id": "huaaudio/jevsim",
+    "ok": true,
+    "stars": 0,
+    "sha": "fa2ba17fc16784b1d198a2dfbc9c519b7aa4e972"
+  },
+  {
+    "id": "jcardama/bird-jev",
+    "ok": true,
+    "stars": 0,
+    "sha": "4554117585f99e8b072b49eabbbeff7ff52617bc"
+  },
+  {
+    "id": "jevnewsdev/jev-news",
+    "ok": true,
+    "stars": 0,
+    "sha": "a71f00f1f53df10d4e7c4f2463f693bff1989543"
+  },
+  {
+    "id": "jspi-fu/jev-vs-ml",
+    "ok": true,
+    "stars": 0,
+    "sha": null
+  },
+  {
+    "id": "lalitsonawane/jev-snake",
+    "ok": true,
+    "stars": 0,
+    "sha": "83ca088571340013aabdec01135cec4b9ea19e90"
+  },
+  {
+    "id": "metask-ai/metask-jev",
+    "ok": true,
+    "stars": 1,
+    "sha": "335737bde475cd6d430cf3610d5a8019543179b9"
+  },
+  {
+    "id": "liuwengood123gmail/jev-playground",
+    "ok": true,
+    "stars": 0,
+    "sha": "1ad789d91db73535f51118db21cc9f5b4e6f68fb"
+  },
+  {
+    "id": "matu79go/jev-hanko",
+    "ok": true,
+    "stars": 0,
+    "sha": "b139d842f18c7178a42fa0f3117051a93ada77c2"
+  },
+  {
+    "id": "mjyoke1111/jev-lab",
+    "ok": true,
+    "stars": 0,
+    "sha": "0bd66957283a7d81dd045452c10dc3621f353533"
+  },
+  {
+    "id": "onlyjq04/jev-agent-hooks",
+    "ok": true,
+    "stars": 0,
+    "sha": "e8f4f42214ba01bc9dc00ccd204f246e9a9c49a9"
+  },
+  {
+    "id": "rezamonangg/pi-intentgate-jev",
+    "ok": true,
+    "stars": 0,
+    "sha": "491659558c0fda4780b02c9a6ecf055b94001391"
+  },
+  {
+    "id": "orange233-g/quick-decision-assistant",
+    "ok": true,
+    "stars": 0,
+    "sha": "46e6a6269b0082693aed44e8fa1db0e20e8c401e"
+  },
+  {
+    "id": "s-hiraoku/jev-checkkit",
+    "ok": true,
+    "stars": 0,
+    "sha": "8924bf509bde0e1cbc06d81581c65c700c464a75"
+  },
+  {
+    "id": "sankaku-tech/jev-kit",
+    "ok": true,
+    "stars": 0,
+    "sha": "87f2873f3980466f02dd15c0614c1c4768abc84e"
+  },
+  {
+    "id": "sambawy01/jevistication",
+    "ok": true,
+    "stars": 0,
+    "sha": "a8900860a489298bf33096b758f961af115496de"
+  },
+  {
+    "id": "shailesh-svg/Jev-POC-Lead-Gen",
+    "ok": true,
+    "stars": 0,
+    "sha": "291fe28cfad41305f0114e916a809781b4b51367"
+  },
+  {
+    "id": "sbhand22/jev-agent-eval-example",
+    "ok": true,
+    "stars": 0,
+    "sha": "3fc5820a1dd633b9dcbf52083377f5b9ab35e7f1"
+  },
+  {
+    "id": "rubinagentagi-tech/jev-recycling-game",
+    "ok": true,
+    "stars": 0,
+    "sha": "783d9d5fd6f7ff660e5053ec36229bab4aff00fe"
+  },
+  {
+    "id": "sriram-um/jev-vs-llm-benchmark",
+    "ok": true,
+    "stars": 0,
+    "sha": "521606cab555a1ad1fd2b260df358b7373408f10"
+  },
+  {
+    "id": "snsk/jev-laya-japanese-business-benchmark",
+    "ok": true,
+    "stars": 0,
+    "sha": "743e233f69e898f4d576f31b0ba4668df7f26765"
+  },
+  {
+    "id": "tinmanlab/jev-qwen3.8-27b",
+    "ok": true,
+    "stars": 0,
+    "sha": "73ef77ca85b22e3e9860c3c1547f34dc654ab577"
+  },
+  {
+    "id": "victorbvieira/system-one-lab",
+    "ok": true,
+    "stars": 0,
+    "sha": "af784a769909193ce23ebc568f190a8790d29035"
+  },
+  {
+    "id": "vineetagarwal54/jev-mcp-middleware",
+    "ok": true,
+    "stars": 0,
+    "sha": null
+  },
+  {
+    "id": "vercel-labs/jev-ai-sdk-form-router",
+    "ok": true,
+    "stars": 0,
+    "sha": "692abd4b5489a68c5f840b207033449fb5f879b9"
+  },
+  {
+    "id": "vinsonws/jev-page-tester",
+    "ok": true,
+    "stars": 0,
+    "sha": "f0d94764342f7b706f3436f954a24ebf450d0dc9"
+  },
+  {
+    "id": "wayfind/metask-jev",
+    "ok": true,
+    "stars": 0,
+    "sha": "7d318a469f5f9db42061e4cee183e97e4d0dd9b7"
+  },
+  {
+    "id": "work4life2/jev-fc-buddy",
+    "ok": true,
+    "stars": 0,
+    "sha": null
+  },
+  {
+    "id": "yagi469/playground-Jev",
+    "ok": true,
+    "stars": 0,
+    "sha": "8fb160cd4799ae1761be8c0fb3e60accaa6c2e3c"
+  },
+  {
+    "id": "wowthatsfair/jev-plays-doom",
+    "ok": true,
+    "stars": 0,
+    "sha": "e97922a61f93cc9642b5e8aad0718e2c27ca6cc4"
+  },
+  {
+    "id": "yamatoya/textbook-jev",
+    "ok": true,
+    "stars": 0,
+    "sha": "6705d159646d1564763aabb47e8d3f581734061a"
+  },
+  {
+    "id": "yunhe-dev/awesomejev",
+    "ok": true,
+    "stars": 0,
+    "sha": "2f4961b0fd0e74390cfe4625e66379e1288d0dc7"
+  },
+  {
+    "id": "zjl1985/zero-jev",
+    "ok": true,
+    "stars": 0,
+    "sha": "79b1d75d2175e630876d4104a8c56c7ab0cbe2ef"
+  },
+  {
+    "id": "yamyam-rvc/bonsai-decision-engine",
+    "ok": true,
+    "stars": 0,
+    "sha": "bb1944817e77bfe0c48cf7283cd132326b354298"
+  },
+  {
+    "id": "zer0-industries/corroborate",
+    "ok": true,
+    "stars": 0,
+    "sha": "0ee06ea2ec8b7e370ffbd652e3167535c81bfc0b"
+  },
+  {
+    "id": "zm2231/skill-router",
+    "ok": true,
+    "stars": 0,
+    "sha": "7365c846453d0cfe2f88ab2fcdf41795c525eb98"
+  },
+  {
+    "id": "Zefan-Cai/Open-Jev",
+    "ok": true,
+    "stars": 10,
+    "sha": "a00559ea0ab2c022a149c0afa54dde30941419a8"
+  },
+  {
+    "id": "xuboboo/ashare-trader",
+    "ok": true,
+    "stars": 0,
+    "sha": "26c7e95e6828623de15d8eaeede3dcbd398cc5db"
+  },
+  {
+    "id": "tinmanlab/cartpole-jev",
+    "ok": true,
+    "stars": 0,
+    "sha": "922cc61490a0dd648911d5878ac52ab12091167d"
+  },
+  {
+    "id": "gauravsaini/kevin",
+    "ok": true,
+    "stars": 0,
+    "sha": "96336428dc159109f47a0b8b47532de3df9c973b"
+  }
+]

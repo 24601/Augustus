@@ -1,0 +1,832 @@
+[
+  {
+    "id": "mizchi/jev-playground",
+    "kind": "novel",
+    "stars": 19,
+    "description": "",
+    "html_url": "https://github.com/mizchi/jev-playground",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "jagsan-cyber/reflex-gate",
+    "kind": "novel",
+    "stars": 4,
+    "description": "A local, privacy-focused alternative to JEv \u2014 fast, lightweight, and fully offline.",
+    "html_url": "https://github.com/jagsan-cyber/reflex-gate",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "KaLM-Embedding/KaLM-Jev",
+    "kind": "novel",
+    "stars": 2,
+    "description": "",
+    "html_url": "https://github.com/KaLM-Embedding/KaLM-Jev",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "zcoder-run/rust-sysone",
+    "kind": "novel",
+    "stars": 2,
+    "description": "System One TypeSafe AI Rust Client (unofficial)",
+    "html_url": "https://github.com/zcoder-run/rust-sysone",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "Sauhard74/mem-jev",
+    "kind": "novel",
+    "stars": 1,
+    "description": "Deterministic procedural memory for agents",
+    "html_url": "https://github.com/Sauhard74/mem-jev",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "ajaman190/lumen",
+    "kind": "novel",
+    "stars": 1,
+    "description": "Open-source System One decision model built on Qwen3.5. Lumen leverages mixture-of-LoRA adapters, conformal prediction, and block-causal attention to deliver highly calibrated, multi-format decisions (discrete, ordinal, binary) optimized with focal PSR loss.",
+    "html_url": "https://github.com/ajaman190/lumen",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "epergaboni/jevseo",
+    "kind": "novel",
+    "stars": 1,
+    "description": "Typed SEO, AEO and GEO judgments powered by Jev, a System One decision model. Code owns the rules, the model owns the meaning.",
+    "html_url": "https://github.com/epergaboni/jevseo",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "hj01857655/jev-router",
+    "kind": "novel",
+    "stars": 1,
+    "description": "Jev-powered support ticket router \u2014 parallel structured decisions via TypeSafe AI",
+    "html_url": "https://github.com/hj01857655/jev-router",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "0xagentlabs/jev-five",
+    "kind": "novel",
+    "stars": 0,
+    "description": "TypeSafe Jev System One powered Gomoku arena",
+    "html_url": "https://github.com/0xagentlabs/jev-five",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "245678000000/pkulaw-deep-research",
+    "kind": "novel",
+    "stars": 0,
+    "description": "\u4e2d\u56fd\u6cd5\u5f8b\u6df1\u5ea6\u7814\u7a76\u6d41\u6c34\u7ebf\uff1a\u5317\u5927\u6cd5\u5b9d\u5b98\u65b9 MCP \u68c0\u7d22 + \u53ef\u66ff\u6362\u51b3\u7b56\u6a21\u578b(Jev/Heuristic) + \u53cd\u5e7b\u89c9\u53cc\u5411\u6838\u9a8c + \u6848\u4f8b\u77e9\u9635\u751f\u6210",
+    "html_url": "https://github.com/245678000000/pkulaw-deep-research",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "ABilenduke/jev-agent-tools",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/ABilenduke/jev-agent-tools",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "Aitejiu/jev-harness-lab",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/Aitejiu/jev-harness-lab",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "Alex314618-create/JevRev",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Think 100. Run 5. Ship 1.",
+    "html_url": "https://github.com/Alex314618-create/JevRev",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "Andriy-Kulak/meta-ads-library-analyzer",
+    "kind": "novel",
+    "stars": 0,
+    "description": "using ai gateway sdk (gemini + jev under the hood) we can analyze hundreds of ads per minute",
+    "html_url": "https://github.com/Andriy-Kulak/meta-ads-library-analyzer",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "DefensiveSniper/jev-subagent-router",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Use TypeSafe Jev to select subagent models and reasoning effort in Codex and Claude Code.",
+    "html_url": "https://github.com/DefensiveSniper/jev-subagent-router",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "Haslab-dev/pandu-jev",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Pandu, is mini Jev model, inspired by Jev. Tiny policy models for fast, local, uncertainty-aware decisions in closed-loop AI environments.",
+    "html_url": "https://github.com/Haslab-dev/pandu-jev",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "LiNan1984/typesafe-curl",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Claude Code skill: verified curl reference for the TypeSafe System One API (Jev) \u2014 noul, choice, score, mixed and structured requests, errors, retries.",
+    "html_url": "https://github.com/LiNan1984/typesafe-curl",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "NoName1116/fkqt-jevInvestor",
+    "kind": "novel",
+    "stars": 0,
+    "description": "A-share daily Jev + LLM signal research and backtesting system.",
+    "html_url": "https://github.com/NoName1116/fkqt-jevInvestor",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "PeterP22/jev-triage",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Confidence-gated creator inbox triage on TypeSafe's Jev (System One) model",
+    "html_url": "https://github.com/PeterP22/jev-triage",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "RileyCarney/JevTools",
+    "kind": "novel",
+    "stars": 0,
+    "description": "A lightweight collection of developer utilities and scripts designed to streamline Jev development process.",
+    "html_url": "https://github.com/RileyCarney/JevTools",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "Titanium-Devops/jde",
+    "kind": "novel",
+    "stars": 0,
+    "description": "JDE, the Jev Decision Engine: one place where an agent's judgments are asked, thresholded and recorded",
+    "html_url": "https://github.com/Titanium-Devops/jde",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "TomasThrawat/typesafe-mcp-key",
+    "kind": "novel",
+    "stars": 0,
+    "description": "HTTP MCP server for TypeSafe AI System One, designed for adding as a custom MCP.",
+    "html_url": "https://github.com/TomasThrawat/typesafe-mcp-key",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "WangYu0611/jevymarket-direct",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/WangYu0611/jevymarket-direct",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "YikaiZheng/Jev_Benchmarking",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/YikaiZheng/Jev_Benchmarking",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "ZephyrDeng/ego-jev",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Jev (TypeSafe System One) inner loop for ego-browser \u2014 one ~0.4s typed decision per DOM step instead of an LLM turn. Agent skill for ego lite.",
+    "html_url": "https://github.com/ZephyrDeng/ego-jev",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "a1325127730-cyber/jev-quiz-router",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Jev-first quiz automation with reasoning-model fallback, CSV/Excel import, confidence routing, and a Streamlit UI.",
+    "html_url": "https://github.com/a1325127730-cyber/jev-quiz-router",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "anpicasso/hermes-jev-curator",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Typed Jev relation governance and safe archive plans for Hermes Curator",
+    "html_url": "https://github.com/anpicasso/hermes-jev-curator",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "aquental/jev-guardrail",
+    "kind": "novel",
+    "stars": 0,
+    "description": "A safety guardrail that screens a user message against an assistant's policy before the assistant ever sees it.",
+    "html_url": "https://github.com/aquental/jev-guardrail",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "ardada2468/typedecide",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Open-source implementation of the typed-decision pattern popularised by TypeSafe's Jev: read a decision out of a small language model's logits, in the browser. Library, benchmarks and paper. Not affiliated with TypeSafe.",
+    "html_url": "https://github.com/ardada2468/typedecide",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "blobfishai/jevfish",
+    "kind": "novel",
+    "stars": 0,
+    "description": "An open judge for agent runs: typed decision model, trainer, server and the Typed Decision Bench",
+    "html_url": "https://github.com/blobfishai/jevfish",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "bo7/jev_test",
+    "kind": "novel",
+    "stars": 0,
+    "description": " Compare TypeSafe Jev vs Codex/Claude Code for inbox triage \u2014 tokens, latency, and label agreement.",
+    "html_url": "https://github.com/bo7/jev_test",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "cexll/train-your-first-jev",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Train your own Jev-style decision model: Chinese interactive course, Qwen LoRA on Mac, and online learning exercises.",
+    "html_url": "https://github.com/cexll/train-your-first-jev",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "chen-junluo/jev-measure",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/chen-junluo/jev-measure",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "crizpy7-sketch/extreme-motion-demo",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Cinematic extreme-motion landing demo paced by Jev (System One) intensity choices",
+    "html_url": "https://github.com/crizpy7-sketch/extreme-motion-demo",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "devsangho/jev-robotics-example",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/devsangho/jev-robotics-example",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "edom18/jev-playground",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/edom18/jev-playground",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "ehui1226/hookmeter-jev",
+    "kind": "novel",
+    "stars": 0,
+    "description": "\u26a1 Millisecond-level Viral Hook Telemetry & Co-pilot for Social Media (Chrome Extension + JEV System 1)",
+    "html_url": "https://github.com/ehui1226/hookmeter-jev",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "fellowship-dev/jev-second-brain",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Local-first Markdown memory alignment and source-linked search with optional Jev judgments",
+    "html_url": "https://github.com/fellowship-dev/jev-second-brain",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "formulahendry/jev-acp",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Use Jev typed decisions from any Agent Client Protocol client or IDE",
+    "html_url": "https://github.com/formulahendry/jev-acp",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "frederickrohn/jev-harness",
+    "kind": "novel",
+    "stars": 0,
+    "description": "experimenting with Jev",
+    "html_url": "https://github.com/frederickrohn/jev-harness",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "fstandhartinger/jev-cascade",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Transparent confidence cascade and failover gateway for typed decision models",
+    "html_url": "https://github.com/fstandhartinger/jev-cascade",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "generallymatthew/factlabel",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Open-source media literacy audit layer for AI agent content, powered by Jev",
+    "html_url": "https://github.com/generallymatthew/factlabel",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "gualican/jev-model-router",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Routes prompts to the right Claude tier (Haiku/Sonnet/Opus) using TypeSafe's Jev model",
+    "html_url": "https://github.com/gualican/jev-model-router",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "hc-nolan/IOCArena",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Self-hosted console to compare System One decision models (Jev, Von, Laya) against each other using VirusTotal API data.",
+    "html_url": "https://github.com/hc-nolan/IOCArena",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "hectorlcastro09/jev-torneo-animales",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Winner-stays-on animal tournament refereed by Jev (TypeSafe System One): a local game to feel how fast typed decisions are. UI in Spanish.",
+    "html_url": "https://github.com/hectorlcastro09/jev-torneo-animales",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "heheebei-rgb/laya-mirror",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Mirror of convaiinnovations/laya (HF): 3 checkpoints, chunked weights + merge_and_verify",
+    "html_url": "https://github.com/heheebei-rgb/laya-mirror",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "hf:Raymond1122/metask-jev-4b-policy-mix",
+    "kind": "novel",
+    "stars": 0,
+    "description": "text-classification transformers safetensors qwen3_5 image-text-to-text typed-decisions calibrated-classification system-one classification structured-prediction candidate-logit jev single-forward-pass",
+    "html_url": "https://huggingface.co/Raymond1122/metask-jev-4b-policy-mix",
+    "source": "huggingface",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "hfsp:shigeshige/laya-prompt-backend",
+    "kind": "novel",
+    "stars": 0,
+    "description": "gradio region:us",
+    "html_url": "https://huggingface.co/spaces/shigeshige/laya-prompt-backend",
+    "source": "huggingface",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "huaaudio/jevsim",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Run verified iOS and Android UI workflows in one agent tool call with Jev.",
+    "html_url": "https://github.com/huaaudio/jevsim",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "jcardama/bird-jev",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Private maintenance fork of Bird for reading and searching X; JEV integration planned",
+    "html_url": "https://github.com/jcardama/bird-jev",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "jevnewsdev/jev-news",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/jevnewsdev/jev-news",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "jspi-fu/jev-vs-ml",
+    "kind": "novel",
+    "stars": 0,
+    "description": "\u5728 weibo21 \u4e0e LIAR \u6570\u636e\u96c6\u4e0a\u5bf9 jev \u6a21\u578b\u8fdb\u884c\u6d4b\u8bd5\uff0c\u5e76\u4e0e\u4f20\u7edf\u673a\u5668\u5b66\u4e60\u6a21\u578b\u505a\u6bd4\u8f83",
+    "html_url": "https://github.com/jspi-fu/jev-vs-ml",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "lalitsonawane/jev-snake",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Snake autoplay powered by TypeSafe Jev (System One)",
+    "html_url": "https://github.com/lalitsonawane/jev-snake",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "liuwengood123gmail/jev-playground",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Local test harness for TypeSafe's Jev (System One) API",
+    "html_url": "https://github.com/liuwengood123gmail/jev-playground",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "matu79go/jev-hanko",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Measuring TypeSafe AI's Jev on 41-clause contract review (CUAD, 20,500 decisions) against fast, cheap LLMs \u2014 latency, cost and F1",
+    "html_url": "https://github.com/matu79go/jev-hanko",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "metask-ai/metask-jev",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Metask-Jev: calibrated typed-decision models (Jev-class). Single forward pass, candidate-logit readout. metask-jev-4b beats Bespoke Nimble-9B and Jev on JevBench.",
+    "html_url": "https://github.com/metask-ai/metask-jev",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "mjyoke1111/jev-lab",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Real browser-agent safety evaluation: Jev versus a baseline on benign and injected tasks",
+    "html_url": "https://github.com/mjyoke1111/jev-lab",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "onlyjq04/jev-agent-hooks",
+    "kind": "novel",
+    "stars": 0,
+    "description": "TypeSafe Jev hooks for Claude Code, Codex and pi: per-turn skill suggestion and subagent model routing",
+    "html_url": "https://github.com/onlyjq04/jev-agent-hooks",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "orange233-g/quick-decision-assistant",
+    "kind": "novel",
+    "stars": 0,
+    "description": "\u57fa\u4e8e Jev System One \u7684\u5feb\u901f\u51b3\u7b56\u5de5\u5177",
+    "html_url": "https://github.com/orange233-g/quick-decision-assistant",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "rezamonangg/pi-intentgate-jev",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Pi extension for intent gate by using jev",
+    "html_url": "https://github.com/rezamonangg/pi-intentgate-jev",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "rubinagentagi-tech/jev-recycling-game",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Interactive game: a decision model sorts everyday objects into Toronto's bins, scored against the City's published rules. 1,840 items, offline single file.",
+    "html_url": "https://github.com/rubinagentagi-tech/jev-recycling-game",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "s-hiraoku/jev-checkkit",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/s-hiraoku/jev-checkkit",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "sambawy01/jevistication",
+    "kind": "novel",
+    "stars": 0,
+    "description": "A calibrated decision engine for developer workflows, built on fast structured-decision models.",
+    "html_url": "https://github.com/sambawy01/jevistication",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "sankaku-tech/jev-kit",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Jev \u5c0e\u5165\u30de\u30cb\u30e5\u30a2\u30eb\uff08Claude Code\u30fbCodex \u4e21\u5bfe\u5fdc\uff09\u2014 \u3057\u3083\u3079\u3089\u306a\u3044AI\u3092\u3001\u81ea\u5206\u306e\u9053\u5177\u306b\u5165\u308c\u308b",
+    "html_url": "https://github.com/sankaku-tech/jev-kit",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "sbhand22/jev-agent-eval-example",
+    "kind": "novel",
+    "stars": 0,
+    "description": "A runnable decision-first agent evaluation example using Jev and TypeSafe AI.",
+    "html_url": "https://github.com/sbhand22/jev-agent-eval-example",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "shailesh-svg/Jev-POC-Lead-Gen",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/shailesh-svg/Jev-POC-Lead-Gen",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "snsk/jev-laya-japanese-business-benchmark",
+    "kind": "novel",
+    "stars": 0,
+    "description": "\u5b9f\u52d9\u5224\u65ad\u30d9\u30f3\u30c1\u30de\u30fc\u30afJP\uff1a\u540c\u4e0040\u554f\u306b\u3088\u308bJev\u3068Laya\u306e\u8a08\u6e2c\u30fb\u8a2d\u554f\u3068\u56de\u7b54\u4f8b\u30fb\u9759\u7684\u6bd4\u8f03\u30ec\u30dd\u30fc\u30c8",
+    "html_url": "https://github.com/snsk/jev-laya-japanese-business-benchmark",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "sriram-um/jev-vs-llm-benchmark",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/sriram-um/jev-vs-llm-benchmark",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "tinmanlab/jev-qwen3.8-27b",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Jev-compatible semantic decision service on Qwen3.8-27B/SGLang",
+    "html_url": "https://github.com/tinmanlab/jev-qwen3.8-27b",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "vercel-labs/jev-ai-sdk-form-router",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Route form submissions to the right people with Jev and AI SDK.",
+    "html_url": "https://github.com/vercel-labs/jev-ai-sdk-form-router",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "victorbvieira/system-one-lab",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Benchmarking System One models against LLMs for typed decisions in Python. Jev vs. LLM on routing, urgency triage and content selection, with reproducible evals.",
+    "html_url": "https://github.com/victorbvieira/system-one-lab",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "vineetagarwal54/jev-mcp-middleware",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Semantic MCP middleware that intercepts AI-agent tool calls and combines deterministic policy with TypeSafe Jev risk judgments before actions reach upstream MCP servers.",
+    "html_url": "https://github.com/vineetagarwal54/jev-mcp-middleware",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "vinsonws/jev-page-tester",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/vinsonws/jev-page-tester",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "wayfind/metask-jev",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Metask-Jev: calibrated typed-decision models (Jev-class). Single forward pass, candidate-logit readout. metask-jev-4b beats Bespoke Nimble-9B and Jev on JevBench.",
+    "html_url": "https://github.com/wayfind/metask-jev",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "work4life2/jev-fc-buddy",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/work4life2/jev-fc-buddy",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "wowthatsfair/jev-plays-doom",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Fun little project to test out if jev is fast enough to play doom (it is).",
+    "html_url": "https://github.com/wowthatsfair/jev-plays-doom",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "yagi469/playground-Jev",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/yagi469/playground-Jev",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "yamatoya/textbook-jev",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/yamatoya/textbook-jev",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "yamyam-rvc/bonsai-decision-engine",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Generation-free typed decisions with Ternary Bonsai 2 27B on a consumer 8GB GPU.",
+    "html_url": "https://github.com/yamyam-rvc/bonsai-decision-engine",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "yunhe-dev/awesomejev",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Awesome Jev \u2014 curated directory of open-source projects and real-world apps built on TypeSafe Jev (System One). Live site: https://awesomejev.dev",
+    "html_url": "https://github.com/yunhe-dev/awesomejev",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "zer0-industries/corroborate",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Evidence readiness for any control framework, judged by any System One model. 106 NIST CSF 2.0 control packs. Local-first, zero dependencies.",
+    "html_url": "https://github.com/zer0-industries/corroborate",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "zjl1985/zero-jev",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Jev research and experiments for browser, computer use, and typed decision workflows",
+    "html_url": "https://github.com/zjl1985/zero-jev",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  },
+  {
+    "id": "zm2231/skill-router",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Route an agent's intent to the one installed skill that fits, using TypeSafe's Jev",
+    "html_url": "https://github.com/zm2231/skill-router",
+    "source": "github",
+    "why": "novel HIGH not in prior_seen",
+    "role": "Augustus"
+  }
+]

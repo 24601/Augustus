@@ -20,7 +20,7 @@
     "forks_count",
     "likes"
   ],
-  "note": "Last-look snapshots for already-catalogued sources. Hourly diffs these four fingerprints. Star-noise is not a fold. SHA move is not a replica. Seeded from merged notes (SemIf §117, NanoJev §115) plus hourly 1248 densify (openjev §75, von §49, verdict §71, kev §45, jeff §60, TypeLLM §113) plus hourly 1340 densify (openjev sdk 0.7 + MLX 400, kev PLAN_Qwen35) plus hourly 1441 densify (openjev STE backends+Codiv dual serving) and 1441 first sightings plus hourly 1542 densify (TypeLLM README 3k→12k B, kev family new-source) and 1542 first sightings (pi-jev densify, jev-sentinel, tool-routers, leanest, jevals, MrJev, jev-firewall, jev-codex-approval, HF encoder/quanto). default_sha is the full HEAD. pushed_at is the GitHub push clock. description_hash is sha256[:12] of the GitHub/Space description, or null when notes do not quote it. README SHA is an optional extra, not a substitute for description_hash. plus hourly 1746 densify (TypeLLM truncated thinking + qwen35_small, kev 0.8B Qwen3.5 family, jev-pruner §53, jevassert §70, jev-packs §64) and 1746 first sightings (vexjoy, Canny, jev-engineering, five-lines, jev-table, kev-ane) plus hourly 1843 densify (kev own-data JSONL / --init_from warm-start, SHA 8465c4c4c294 → bd058057ad0a) and 1843 first sightings (assay-001, kyegomez reconstruction, jev-ra, catalogs). plus user-provided 1936 first sightings (sgoedecke/system-one, mithalouni/system-one-open, kotoba-lang/typed-decisions). plus Open-Jev densify 2026-09-21 (github:Zefan-Cai/Open-Jev SHA 6d8de5ed72a0 → 4933ee84951f; README 771bf3135f50 → ce1a587219e4; HF 2B/9B packs + dataset last_look; densify §125 not a sibling) plus hourly 1946 densify (alexwestco/llm-to-jev description rewrite Convert LLM prompts to Jev prompts, SHA unchanged 234058ab372d, 3★) and 1946 first sightings (X-sentiment, awesome-jev 485, jev-arena, robot-control, Qwen3.8-JevLike, jev-acento). plus hourly 2049 densify (kev night-2 PLAN SHA 8d77dd271c66 HEAD c096660c8da2, kotoba OpenJev runtime HEAD ff7f84e74d04 notes_section 130).",
+  "note": "Last-look snapshots for already-catalogued sources. Hourly diffs these four fingerprints. Star-noise is not a fold. SHA move is not a replica. Seeded from merged notes (SemIf §117, NanoJev §115) plus hourly 1248 densify (openjev §75, von §49, verdict §71, kev §45, jeff §60, TypeLLM §113) plus hourly 1340 densify (openjev sdk 0.7 + MLX 400, kev PLAN_Qwen35) plus hourly 1441 densify (openjev STE backends+Codiv dual serving) and 1441 first sightings plus hourly 1542 densify (TypeLLM README 3k→12k B, kev family new-source) and 1542 first sightings (pi-jev densify, jev-sentinel, tool-routers, leanest, jevals, MrJev, jev-firewall, jev-codex-approval, HF encoder/quanto). default_sha is the full HEAD. pushed_at is the GitHub push clock. description_hash is sha256[:12] of the GitHub/Space description, or null when notes do not quote it. README SHA is an optional extra, not a substitute for description_hash. plus hourly 1746 densify (TypeLLM truncated thinking + qwen35_small, kev 0.8B Qwen3.5 family, jev-pruner §53, jevassert §70, jev-packs §64) and 1746 first sightings (vexjoy, Canny, jev-engineering, five-lines, jev-table, kev-ane) plus hourly 1843 densify (kev own-data JSONL / --init_from warm-start, SHA 8465c4c4c294 → bd058057ad0a) and 1843 first sightings (assay-001, kyegomez reconstruction, jev-ra, catalogs). plus user-provided 1936 first sightings (sgoedecke/system-one, mithalouni/system-one-open, kotoba-lang/typed-decisions). plus Open-Jev densify 2026-09-21 (github:Zefan-Cai/Open-Jev SHA 6d8de5ed72a0 → 4933ee84951f; README 771bf3135f50 → ce1a587219e4; HF 2B/9B packs + dataset last_look; densify §125 not a sibling) plus hourly 1946 densify (alexwestco/llm-to-jev description rewrite Convert LLM prompts to Jev prompts, SHA unchanged 234058ab372d, 3★) and 1946 first sightings (X-sentiment, awesome-jev 485, jev-arena, robot-control, Qwen3.8-JevLike, jev-acento). plus hourly 2049 densify (kev night-2 PLAN SHA 8d77dd271c66 HEAD c096660c8da2, kotoba OpenJev runtime HEAD ff7f84e74d04 notes_section 130). plus hourly 2146 densify (Zefan-Cai/Open-Jev SHA 4933ee84951f→a00559ea0ab2 README unchanged ce1a587219e4 provider quality pipeline; tinmanlab/cartpole-jev HEAD 922cc61490a0 notes_section 121; xuboboo/ashare-trader HEAD 26c7e95e6828 notes_section 120; gauravsaini/kevin first card notes_section 133).",
   "looks": [
     {
       "id": "github:TheoLeeCJ/SemIf",
@@ -169,10 +169,10 @@
     {
       "id": "github:Zefan-Cai/Open-Jev",
       "notes_section": "125",
-      "last_look": "2026-09-21T01:34Z",
+      "last_look": "2026-09-21T03:46Z",
       "fingerprints": {
-        "default_sha": "4933ee84951f1a3b94b8be1f7490f02a4fa4ba24",
-        "pushed_at": "2026-09-21T01:34:47Z",
+        "default_sha": "a00559ea0ab2c022a149c0afa54dde30941419a8",
+        "pushed_at": "2026-09-21T02:50:45Z",
         "description_hash": null,
         "release_tag": null
       },
@@ -2178,6 +2178,54 @@
         "release_tag": null
       },
       "readme_sha": "16ce8de2c97629a47e4d427b875a7a160913c937"
+    },
+    {
+      "id": "github:tinmanlab/cartpole-jev",
+      "notes_section": "121",
+      "last_look": "2026-09-21T03:46Z",
+      "fingerprints": {
+        "default_sha": "922cc61490a0dd648911d5878ac52ab12091167d",
+        "pushed_at": "2026-09-21T03:34:15Z",
+        "description_hash": "09e00d8a8915",
+        "release_tag": null
+      },
+      "readme_sha": "0860958714f3c2114f8ba1d3fc6ad4a304914e6e"
+    },
+    {
+      "id": "github:xuboboo/ashare-trader",
+      "notes_section": "120",
+      "last_look": "2026-09-21T03:46Z",
+      "fingerprints": {
+        "default_sha": "26c7e95e6828623de15d8eaeede3dcbd398cc5db",
+        "pushed_at": "2026-09-21T03:47:13Z",
+        "description_hash": "b52582cba98d",
+        "release_tag": null
+      },
+      "readme_sha": "7a860bdfa97bf395efe766abe1db9014019c26fb"
+    },
+    {
+      "id": "github:gauravsaini/kevin",
+      "notes_section": "133",
+      "last_look": "2026-09-21T03:46Z",
+      "fingerprints": {
+        "default_sha": "96336428dc159109f47a0b8b47532de3df9c973b",
+        "pushed_at": "2026-09-21T03:51:25Z",
+        "description_hash": "801b1491e4de",
+        "release_tag": null
+      },
+      "readme_sha": "cfbbedb4957a99c159580fd380c3898b51a1eb20"
+    },
+    {
+      "id": "github:metask-ai/metask-jev",
+      "notes_section": "133",
+      "last_look": "2026-09-21T03:46Z",
+      "fingerprints": {
+        "default_sha": "335737bde475cd6d430cf3610d5a8019543179b9",
+        "pushed_at": "2026-09-21T03:46:28Z",
+        "description_hash": "ee5aa79901fe",
+        "release_tag": null
+      },
+      "readme_sha": "a0bfefcc5947716e6e75ab89605c49e21c95ccfa"
     }
   ]
 }
