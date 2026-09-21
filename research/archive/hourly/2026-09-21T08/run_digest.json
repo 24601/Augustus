@@ -1,0 +1,11 @@
+{
+  "hour": "2026-09-21T08",
+  "label": "0151",
+  "notes_section": "137",
+  "composition": "601-616",
+  "findings_batch": 119,
+  "revisit_high": 1,
+  "novel_high": 104,
+  "invented_signal": false,
+  "primary": "Open-Jev v3 densify; v3 data prepared \u2260 retrained released models; held-out protocol \u2260 Harbor; 1,280-row panel \u2260 Harbor; finite training loss \u2260 quality improvement; website redesign \u2260 calibration"
+}

@@ -31624,6 +31624,31 @@ hard-data pipeline whose new-model gains have not been measured. Star-noise
   Qwen3.5-9B ≠ Archer. densify §125 not a sibling first sighting. Full card:
   §125 / §136.
 
+### Since last look (2026-09-21T07:40Z Open-Jev v3 community data + held-out + site)
+
+DENSIFY §125 item 5 / the 2026-09-21T06:58Z JevBench public-subset card. Do **not**
+mint a sibling first-sighting section. Material change is audited v3 community
+data plus a held-out evaluation protocol, then a readable project site that
+consolidates benchmark results. Star-noise 28★→34★ is not the fold. SHA move
+is not a replica. v3 data prepared ≠ retrained released models. held-out
+protocol ≠ Harbor. 1,280-row panel ≠ Harbor. finite training loss ≠ quality
+improvement. website redesign ≠ calibration.
+
+**[Zefan-Cai/Open-Jev](https://github.com/Zefan-Cai/Open-Jev)**
+- DENSIFY §125 (MIT source; live **34★**; HEAD `ed45657bf726`; README SHA
+  `12e0f581e15d` (was `e32c4bbd519c`); pushed `2026-09-21T07:40:27Z`; via
+  `748ae3024294` "Publish audited v3 community data and held-out evaluation
+  protocol"; then `ed45657bf726` "Redesign readable project site and
+  consolidate benchmark results"; was HEAD `f46ff604f794` at the 06:49Z
+  look). Quote *theirs*: 129,288 decision rows / 74,921 training. frozen
+  mixture 96,849 training. 1,280-row / 840-group comparison panel. v3 data
+  prepared ≠ retrained released models. held-out protocol ≠ Harbor.
+  1,280-row panel ≠ Harbor. finite training loss ≠ quality improvement.
+  website redesign ≠ calibration. 27B step 616 pending. Open-Jev TREC
+  pending. LoRA ≠ RLCD replica. Qwen3.5-2B ≠ Archer. Qwen3.5-9B ≠ Archer.
+  densify §125 not a sibling first sighting. Full card: §125 / §137.
+
+
 
 User-provided Open-Jev densify uniqueness lock: Zefan-Cai/Open-Jev densify HEAD 4933ee84951f README SHA ce1a587219e4; pushed 2026-09-21T01:34Z; Astra TREC commit 1dd56990be7e pushed 2026-09-21T01:17Z; live 3★ (was 0★; star-noise is not the fold); LoRA adapters plus trained scalar decision head and calibration temperature; not merged base models; dataset ZefanCai/Open-Jev rev c67699e13d0a; Open-Jev-2B rev 0c7aa498b162; Open-Jev-9B rev 47e966881e48; 27B still in progress; Independent of TypeSafe; no RLCD/parity claims; LoRA ≠ RLCD replica; customer-service P50 local HTTP 85.03 ms vs Jev HTTPS 295.26 ms *theirs*; 1024 tokens/32 candidates Open-Jev slower 1015.90 vs 301.37 *theirs*; prefix caching experimental/off by default; CUDA prefix caching exceeded tolerance on 9/11 workloads; systems latency ≠ semantic equivalence; GPT Luna P50 918.13 ms Astra 1938.39 ms *theirs*; TREC-DL Jev/Luna/Astra completed; Open-Jev TREC pending; 80,816 training rows; 2B 94.71% / OOD 86.02%; 9B 97.54% / 91.97% *theirs* not Harbor; hard acc ≠ calibrated Noul; type-valid ≠ exact; Qwen/Qwen3.8-27B ≠ Archer; website https://zefan-cai.github.io/open-jev/; launch X thread https://x.com/Zefan_Cai/status/2101782158658695388 https://x.com/Zefan_Cai/status/2101786019607740436 https://x.com/Zefan_Cai/status/2101789698947793231; densify §125 not a sibling first sighting; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52; notes.md §125
 
@@ -34615,3 +34640,223 @@ Hooks for the reviewer:
 
 **Hourly 0049 HIGH (`notes.md` §136).** Open-Jev JevBench public-subset densify HEAD f46ff604f794. README SHA e32c4bbd519c. public-subset ≠ Harbor. 231 ≠ 534. kev night-2 35B densify HEAD e0bcf50153f1. README SHA unchanged 84b872488915. PLAN correct 35B MMLU-Pro (0.550). evaluate.load honour weights_dtype=bf16. 5-10× *theirs* not Harbor. fail-open routing ≠ permission. ordered routing ≠ end-to-end. softmax next-token ≠ calibrated Noul. potential_match ≠ hiring decision. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#59. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
 Hourly 0049 uniqueness lock: Zefan-Cai/Open-Jev densify HEAD f46ff604f794 via afb5226982c7 README SHA e32c4bbd519c was ce1a587219e4; Publish audited JevBench public-subset baselines; community benchmark plan; diverse hard-data pipeline New model gains have not been measured; 231 public tasks 72 original 48 easy 111 hard; full 534 303 private unavailable; do not report full-534; 2B 150/231 64.94% 9B 179/231 77.49% Jev 200/231 86.58% Luna 206/231 89.18% Astra 231/231 100.00% *theirs*; Brier 0.4751 0.3219 0.1811 0.2074 0.0085 *theirs*; ECE 0.1274 0.0858 0.0318 0.0932 0.0149 *theirs*; P50 138.0 189.2 291.3 953.8 2206.4 ms *theirs*; candidate order 119 of 139 Choice; native vs verbalized; public-subset ≠ Harbor; 231 ≠ 534; Open-Jev TREC pending; 27B training not complete; LoRA ≠ RLCD replica; Qwen3.5-2B ≠ Archer; Qwen3.5-9B ≠ Archer; densify §125 not a sibling first sighting; jaredpalmer/kev densify HEAD e0bcf50153f1 README SHA unchanged 84b872488915; PLAN correct 35B MMLU-Pro (0.550); evaluate.load honour weights_dtype=bf16; Kev Qwen3.6-35B-A3B MMLU-Pro 0.550 Kev-9B 0.545 Jev 0.840 *theirs*; Not shipped; Qwen3.6 ≠ Archer; Hub --revision is a pin not a replica; wy-coliney/jev-browser-use 282★ 5-10× *theirs* not Harbor; Jev clicks Codex thinks and verifies; wy-coliney/jev-browser-use ≠ browser-use/jev-ultrafast ≠ Mrlyk/jev-browser ≠ akras14/jevbro; gargpratyush/jev-router 270★ first card fail-open routing ≠ permission; 33Audits/jev-auto ≠ gargpratyush/jev-router; BillionsBobby/JevRouter 124★ 38% 44% vs 24% *theirs* not Harbor; ordered routing ≠ end-to-end; BillionsBobby/JevRouter ≠ gargpratyush/jev-router; daseinlabs/open-jev 75★ Gemma 3 4B MLX; softmax next-token ≠ calibrated Noul; head 0.970 ECE 0.027 *theirs*; shuffled-context 0.258; daseinlabs/open-jev ≠ Zefan-Cai/Open-Jev ≠ razorback16/openjev ≠ zhlei07/openjev; skeptrunedev/jev-recruiter potential_match ≠ hiring decision; abhixhek/jevcal threshold on held-out; simulator not a Jev bench; fail-closed without fallback; AntonioCoppe/jev-harness already carded; akash-kamat/system-one-gemma 64.4% ECE 0.047 *theirs*; 200x *theirs* not Harbor; Premo-Cloud/typesafe-sdk-java unofficial; AgentBuff/awesome-jev catalog ≠ endorsement; AgentBuff/awesome-jev ≠ yibie/awesome-jev ≠ heyjunpenn/awesome-jev; Alpha-Harper-Franklin/jev-drive ≠ VennIntelligence/jev-drive; skip-thin zhlei07/openjev empty SHA khmuhtadin/n8n-nodes-jev-classification empty SHA; game success ≠ calibrated Noul; does not execute; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59; notes.md §136
+**Hourly 0151 HIGH (`notes.md` §137).** Open-Jev v3 densify HEAD ed45657bf726. README SHA 12e0f581e15d. v3 data prepared ≠ retrained released models. held-out protocol ≠ Harbor. 1,280-row panel ≠ Harbor. finite training loss ≠ quality improvement. website redesign ≠ calibration. jev-wide naive throws away 83% *theirs*. certo KL 0.008 *theirs*. first-instinct 63.3%→78.1% *theirs* not Harbor. Jev is a gate not a generator. community port ≠ TypeSafe. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#60. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+Hourly 0151 uniqueness lock: Zefan-Cai/Open-Jev densify HEAD ed45657bf726 via 748ae3024294 README SHA 12e0f581e15d was e32c4bbd519c; Publish audited v3 community data and held-out evaluation protocol; Redesign readable project site and consolidate benchmark results; 129,288 decision rows 74,921 training; frozen mixture 96,849 training; 1,280-row / 840-group comparison panel; v3 data prepared ≠ retrained released models; held-out protocol ≠ Harbor; 1,280-row panel ≠ Harbor; finite training loss ≠ quality improvement; website redesign ≠ calibration; 27B step 616 pending; Open-Jev TREC pending; LoRA ≠ RLCD replica; Qwen3.5-2B ≠ Archer; Qwen3.5-9B ≠ Archer; densify §125 not a sibling first sighting; chy4pro/jev-for-chrome 12★ community port ≠ TypeSafe; chy4pro/jev-for-chrome ≠ browser-use/jev-ultrafast; PsiACE/dohnuts 4★ small multimodal direct decisions; joint RLCD *theirs*; Dohnuts ≠ TypeSafe; catoenm/first-instinct 9B 63.3%→78.1% *theirs* not Harbor; 371,278 prepared ≠ consumed; RL did not reliably improve held-out; independent educational not a recovered Jev recipe; 123Satyajeet123/jev-wide naive throws away 83% *theirs*; 255 documented ~32,768 tokens real; two-decimal 95.8% floored *theirs*; IIA fails +0.31 ... +0.50 *theirs*; AltSlate-Labs/certo KL 0.008 acc 0.844 ECE 0.004 *theirs*; research preview independent not affiliated; endomorphosis/JevOps Jev is a gate not a generator; Lake remains admission; Jev never writes Lean; gbesse/question-forge held-out before winner; demo accuracy is synthetic not a Jev benchmark; flyryan/ai-news-aggregator 26★ does not execute; Akashdb5/jev-router ≠ gargpratyush/jev-router ≠ daviddl9/jev-router; kiuckhuang/laya-jev ≠ KonghaYao/laya-jev; tegersdorfer-collab/jevkit ≠ isiomaC/jevkit ≠ WaynezProg/jev-kit; buluoray/JevOnly already carded; yottayoshida/jev-intent-review already carded; skip-thin Iskandeur/system1-system2 zhlei07/open-system-one Hand-In/openjev-multimodal gwxcsny53/jev-watchtower empty SHA; serving substrate ≠ calibrated replica; game success ≠ calibrated Noul; does not execute; catalog ≠ endorsement; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60; notes.md §137
+
+## 137. Hourly 0151 HIGH (2026-09-21 ~01:51 Boise / 2026-09-21T07:51Z)
+
+Measurement / class-member fold on a **fresh PR off latest `main`**
+(`cursor/fold-hourly-0151-high-4b8a`) after `9b0bc2c` (merged #60 hourly
+0049 HIGH, `notes.md` §136 / items 585–600 / batch #118; merged #59 hourly
+2347 HIGH, `notes.md` §135).
+**HARD RULE:** do not reopen or amend PR #23–#60.
+Do **not** re-fold §136 0049 / §135 2347 / §134 2246 *as a second census*.
+Do not amend #60/#59/#58. Do not mint a sibling Open-Jev first
+sighting. Densify `Zefan-Cai/Open-Jev` on §125 only. This fold's IDs:
+`notes.md` §137 / composition 601–616 / findings batch #119.
+
+Never reopen merged #7–**#60**. Quote READMEs / release notes.
+Mark *theirs*. No wrappers, keys, `npm` / `pip` / `uv` / `docker`
+install recipes. `invented_signal: false`. Hunches labeled.
+
+Lane is Augustus: **mathematical / logical / algorithmic mental models**
+for Jev-class categorization/scoring across AI / SWE / **business /
+knowledge work / life**, not SWE-only. PRIMARY this hour is **REVISIT
+densify** of Open-Jev audited v3 community data plus held-out evaluation
+protocol and a readable project site, with novel HIGH class members
+(wide ranking, calibrated small models, first-instinct educational
+recipe, JevOps Lean gate, multimodal dohnuts, Chrome community port,
+question-forge held-out, router/kit namesakes). Jev is exemplar, not the
+mandate. Third-party benches stay *theirs*. Catalogs are indexes. Soft
+scores ≠ hard gates. SHA move is not a replica. v3 data prepared ≠
+retrained released models. held-out protocol ≠ Harbor. 1,280-row panel ≠
+Harbor. finite training loss ≠ quality improvement. website redesign ≠
+calibration. Jev is a gate not a generator. community port ≠ TypeSafe.
+Archer still **promised_not_landed**.
+
+Unique consecutive fragments (this fold) must appear as **one
+substring** in overlays (see uniqueness gate):
+Hourly 0151 uniqueness lock: Zefan-Cai/Open-Jev densify HEAD ed45657bf726 via 748ae3024294 README SHA 12e0f581e15d was e32c4bbd519c; Publish audited v3 community data and held-out evaluation protocol; Redesign readable project site and consolidate benchmark results; 129,288 decision rows 74,921 training; frozen mixture 96,849 training; 1,280-row / 840-group comparison panel; v3 data prepared ≠ retrained released models; held-out protocol ≠ Harbor; 1,280-row panel ≠ Harbor; finite training loss ≠ quality improvement; website redesign ≠ calibration; 27B step 616 pending; Open-Jev TREC pending; LoRA ≠ RLCD replica; Qwen3.5-2B ≠ Archer; Qwen3.5-9B ≠ Archer; densify §125 not a sibling first sighting; chy4pro/jev-for-chrome 12★ community port ≠ TypeSafe; chy4pro/jev-for-chrome ≠ browser-use/jev-ultrafast; PsiACE/dohnuts 4★ small multimodal direct decisions; joint RLCD *theirs*; Dohnuts ≠ TypeSafe; catoenm/first-instinct 9B 63.3%→78.1% *theirs* not Harbor; 371,278 prepared ≠ consumed; RL did not reliably improve held-out; independent educational not a recovered Jev recipe; 123Satyajeet123/jev-wide naive throws away 83% *theirs*; 255 documented ~32,768 tokens real; two-decimal 95.8% floored *theirs*; IIA fails +0.31 ... +0.50 *theirs*; AltSlate-Labs/certo KL 0.008 acc 0.844 ECE 0.004 *theirs*; research preview independent not affiliated; endomorphosis/JevOps Jev is a gate not a generator; Lake remains admission; Jev never writes Lean; gbesse/question-forge held-out before winner; demo accuracy is synthetic not a Jev benchmark; flyryan/ai-news-aggregator 26★ does not execute; Akashdb5/jev-router ≠ gargpratyush/jev-router ≠ daviddl9/jev-router; kiuckhuang/laya-jev ≠ KonghaYao/laya-jev; tegersdorfer-collab/jevkit ≠ isiomaC/jevkit ≠ WaynezProg/jev-kit; buluoray/JevOnly already carded; yottayoshida/jev-intent-review already carded; skip-thin Iskandeur/system1-system2 zhlei07/open-system-one Hand-In/openjev-multimodal gwxcsny53/jev-watchtower empty SHA; serving substrate ≠ calibrated replica; game success ≠ calibrated Noul; does not execute; catalog ≠ endorsement; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60; notes.md §137
+
+### How-to-apply (class lenses, not vendor tutorials)
+
+These are *class* lenses. Same discipline as §136 (public-subset ≠ Harbor)
+and §125 (LoRA ≠ RLCD replica). Formal methods **compose**: a Noul is a
+SENSOR; prepared data is not a retrained release; a held-out protocol is
+not Harbor; a website is not calibration; a gate is not a generator.
+
+1. **v3 data prepared ≠ retrained released models / held-out protocol ≠ Harbor /
+   1,280-row panel ≠ Harbor**
+   (Zefan-Cai/Open-Jev densify §125). Quote *theirs*: Publish audited v3
+   community data and held-out evaluation protocol. Redesign readable
+   project site and consolidate benchmark results. 129,288 decision rows /
+   74,921 training. frozen mixture 96,849 training. 1,280-row / 840-group
+   comparison panel. finite training loss ≠ quality improvement. website
+   redesign ≠ calibration. 27B step 616 pending. Open-Jev TREC pending.
+   LoRA ≠ RLCD replica. densify §125 not a sibling first sighting. SHA
+   move is not a replica. Do **not** copy `pip` / train flags.
+2. **naive throws away 83% *theirs* / certo KL 0.008 / first-instinct
+   63.3%→78.1% *theirs* not Harbor**
+   (123Satyajeet123/jev-wide; AltSlate-Labs/certo; catoenm/first-instinct).
+   Quote *theirs*: 255 documented / ~32,768 tokens real. two-decimal 95.8%
+   floored *theirs*. IIA fails +0.31 ... +0.50 *theirs*. certo acc 0.844
+   ECE 0.004 *theirs*. research preview independent not affiliated.
+   371,278 prepared ≠ consumed. RL did not reliably improve held-out.
+   independent educational not a recovered Jev recipe.
+3. **Jev is a gate not a generator / community port ≠ TypeSafe / joint RLCD *theirs***
+   (endomorphosis/JevOps; chy4pro/jev-for-chrome; PsiACE/dohnuts). Quote
+   *theirs*: Lake remains admission. Jev never writes Lean. chy4pro/jev-for-chrome
+   ≠ browser-use/jev-ultrafast. Dohnuts ≠ TypeSafe. flyryan/ai-news-aggregator
+   26★ does not execute.
+4. **held-out before winner / namesakes / already carded / skip-thin**
+   (gbesse/question-forge; gbesse/decision-solver; Akashdb5/jev-router;
+   daviddl9/jev-router; kiuckhuang/laya-jev; tegersdorfer-collab/jevkit).
+   Quote *theirs*: demo accuracy is synthetic not a Jev benchmark.
+   bounded exact enumerator Jev prefs ≠ joint P. Akashdb5/jev-router ≠
+   gargpratyush/jev-router ≠ daviddl9/jev-router. kiuckhuang/laya-jev ≠
+   KonghaYao/laya-jev. tegersdorfer-collab/jevkit ≠ isiomaC/jevkit ≠
+   WaynezProg/jev-kit. buluoray/JevOnly already carded.
+   yottayoshida/jev-intent-review already carded. skip-thin empty SHA.
+   catalog ≠ endorsement. serving substrate ≠ calibrated replica.
+
+### HIGH
+
+1. **[`Zefan-Cai/Open-Jev`](https://github.com/Zefan-Cai/Open-Jev) v3
+   community data + held-out + site densify §125 PRIMARY.** DENSIFY the
+   original card. Keep section id 125. Do not mint a sibling first
+   sighting. Live REST **34★** (was 28★; star-noise is not the fold).
+   HEAD `ed45657bf726c3b77408942830e5578f99df904e` via `748ae3024294`.
+   README SHA `12e0f581e15d8a7b79c598b6d77f5591e83da088` (was
+   `e32c4bbd519c`). v3 data prepared ≠ retrained released models.
+   held-out protocol ≠ Harbor. 1,280-row panel ≠ Harbor. finite training
+   loss ≠ quality improvement. website redesign ≠ calibration. Full card:
+   §125.
+2. **[`123Satyajeet123/jev-wide`](https://github.com/123Satyajeet123/jev-wide)
+   first card PRIMARY novel.** MIT; HEAD `51c67c79b9f7`; README SHA
+   `43e528cd7c03`. Quote *theirs*: naive throws away 83%. 255 documented
+   ~32,768 tokens real. two-decimal 95.8% floored *theirs*. IIA fails
+   +0.31 ... +0.50 *theirs*. *theirs* not Harbor.
+3. **[`AltSlate-Labs/certo`](https://github.com/AltSlate-Labs/certo) +
+   [`catoenm/first-instinct`](https://github.com/catoenm/first-instinct).**
+   certo MIT HEAD `ed4d1333e526` README SHA `af57eb5603f7`. KL 0.008 acc
+   0.844 ECE 0.004 *theirs*. research preview independent not affiliated.
+   first-instinct MIT HEAD `7f439e5a8403` README SHA `070f6b856f61`. 9B
+   63.3%→78.1% *theirs* not Harbor. 371,278 prepared ≠ consumed. RL did
+   not reliably improve held-out. independent educational not a recovered
+   Jev recipe.
+4. **Gate / port / multimodal**
+   ([`endomorphosis/JevOps`](https://github.com/endomorphosis/JevOps)
+   AGPL-3.0 **5★** HEAD `77a384d2c3e4` README SHA `431e972fe000`;
+   [`chy4pro/jev-for-chrome`](https://github.com/chy4pro/jev-for-chrome)
+   MIT **12★** HEAD `a6ddd3a60810` README SHA `423ce99eff36`;
+   [`PsiACE/dohnuts`](https://github.com/PsiACE/dohnuts) Apache-2.0 **4★**
+   HEAD `a5049834489c` README SHA `e1b448c440b5`;
+   [`flyryan/ai-news-aggregator`](https://github.com/flyryan/ai-news-aggregator)
+   Apache-2.0 **26★** HEAD `e54181085185` README SHA `68dadec86d57`).
+   Jev is a gate not a generator. Lake remains admission. Jev never writes
+   Lean. community port ≠ TypeSafe. chy4pro/jev-for-chrome ≠
+   browser-use/jev-ultrafast. joint RLCD *theirs*. Dohnuts ≠ TypeSafe.
+   does not execute.
+5. **Question-forge / decision-solver / namesakes**
+   ([`gbesse/question-forge`](https://github.com/gbesse/question-forge)
+   MIT HEAD `0754a0c4bc0b` README SHA `6246d294901b`;
+   [`gbesse/decision-solver`](https://github.com/gbesse/decision-solver)
+   MIT HEAD `dbf261daccf0` README SHA `8d7a48227c1f`;
+   [`Akashdb5/jev-router`](https://github.com/Akashdb5/jev-router) MIT
+   HEAD `2a137e11e2e2`;
+   [`daviddl9/jev-router`](https://github.com/daviddl9/jev-router) HEAD
+   `c192d4e860b8`;
+   [`kiuckhuang/laya-jev`](https://github.com/kiuckhuang/laya-jev) MIT
+   HEAD `afee973494ef`;
+   [`tegersdorfer-collab/jevkit`](https://github.com/tegersdorfer-collab/jevkit)
+   HEAD `855c97582797`). held-out before winner. demo accuracy is
+   synthetic not a Jev benchmark. bounded exact enumerator Jev prefs ≠
+   joint P. Akashdb5/jev-router ≠ gargpratyush/jev-router ≠
+   daviddl9/jev-router. kiuckhuang/laya-jev ≠ KonghaYao/laya-jev.
+   tegersdorfer-collab/jevkit ≠ isiomaC/jevkit ≠ WaynezProg/jev-kit.
+6. **Already carded / remainder / skip-thin / serving**
+   buluoray/JevOnly already carded (~notes 6359). yottayoshida/jev-intent-review
+   already carded (~7632). Do not mint sibling first-sighting sections.
+   Remainder: karminski/Jev-Quantum PRNG dummy gaussian accuracy *theirs*
+   wire-compat ≠ logit-equiv; zzz1YAO/DataJev CONTINUE/SWITCH/VERIFY/STOP;
+   hf:JonusNattapong/jev-my-bro-dataset 8,508 cases / 34,032 typed
+   decisions *theirs*; hf:Mannedood/local-system-one-student do not distill
+   Jev as teacher; hf:liodon-ai/LFM2.5-350M-RLCD-FP8 serving substrate ≠
+   calibrated replica; game success ≠ calibrated Noul; catalog ≠
+   endorsement; routing ≠ permission; does not execute. skip-thin:
+   Iskandeur/system1-system2 zhlei07/open-system-one Hand-In/openjev-multimodal
+   gwxcsny53/jev-watchtower empty SHA. *theirs* not Harbor.
+
+### Pulse (live REST this hour)
+
+Archer still promised_not_landed. Hub archerhume/4rcherhume HTTP **401**.
+Open-Jev **34★** (was 28★; star-noise is not the fold). jev-for-chrome
+**12★**. dohnuts **4★**. JevOps **5★**. ai-news-aggregator **26★**. This
+hour does not re-census SemIf / Laya likes / tracker; those numbers stay
+§119 until a dedicated pulse. `invented_signal: false`.
+
+### Formal compose + anti-patterns
+
+Formal methods **compose** with scoring. A Noul is a SENSOR. A catalog
+is an index. Prepared data is not a retrained release. A held-out
+protocol is not Harbor. A 1,280-row panel is not Harbor. Finite training
+loss is not quality. A website is not calibration. A gate is not a
+generator. A community port is not TypeSafe. Treating v3 rows as a
+released replica, 83% as Harbor, KL 0.008 as a drop-in, or first-instinct
+as a recovered Jev recipe is soundness theater.
+v3 data prepared ≠ retrained released models.
+held-out protocol ≠ Harbor.
+1,280-row panel ≠ Harbor.
+finite training loss ≠ quality improvement.
+website redesign ≠ calibration.
+Jev is a gate not a generator.
+community port ≠ TypeSafe.
+catalog ≠ endorsement. *theirs* not Harbor.
+SHA move is not a replica.
+
+### Adversarial review + testing hooks (Basit standing
+order)
+
+Parent merge only after **CLEAN** adversarial review **AND** testing.
+Hooks for the reviewer:
+
+- Uniqueness-gate: the consecutive `Hourly 0151 uniqueness lock:`
+  string must appear in every overlay listed below. Prior walls 0843 /
+  0915 / jcr / 0922 / 0940 / 0947 / 1049 / 1143 / 1248 / 1340 / 1441 /
+  1542 / 1643 / 1746 / 1843 / 1936 / Open-Jev densify / 1946 / 2049 /
+  2146 / 2246 / 2347 / 0049 stay one substring each (do not mutate them; do not
+  reopen #23–#60).
+- Namesake locks: chy4pro/jev-for-chrome ≠ browser-use/jev-ultrafast;
+  Akashdb5/jev-router ≠ gargpratyush/jev-router ≠ daviddl9/jev-router;
+  kiuckhuang/laya-jev ≠ KonghaYao/laya-jev;
+  tegersdorfer-collab/jevkit ≠ isiomaC/jevkit ≠ WaynezProg/jev-kit;
+  Dohnuts ≠ TypeSafe.
+- Densify vs new: Open-Jev densifies §125. buluoray/JevOnly already
+  carded. yottayoshida/jev-intent-review already carded. Do not mint
+  sibling first-sighting sections for the densifies.
+- Harbor-jevals: 129,288 / 74,921 / 1,280-row panel / 83% / KL 0.008 /
+  63.3%→78.1% stay *theirs*, not Harbor. v3 data prepared ≠ retrained
+  released models. held-out protocol ≠ Harbor. 1,280-row panel ≠ Harbor.
+- Anti-patterns to refuse: TypeSafe drop-in; catalog as endorsement;
+  v3 rows as a released replica; held-out protocol as Harbor; 83% as
+  Harbor; website as calibration; Jev as Lean writer; key-farming
+  how-tos; copying keys / `npm` / `pip` / `uv` / `docker`.
+- Overlay set: SKILL.md body (protocol fragments + class-table densify
+  + Hourly 0151), mental-models Apply 0151, composition-algebra items
+  601–616, faq, mixed-architecture, validation, toolbox-mapping,
+  methods-catalog, formal-methods, formal-semi-formal,
+  applied-mappings, judgment-class, question-design,
+  agent-self-assessment, mappings, CHANGELOG, README, docs/ecosystem,
+  findings batch #119, refresh-log, changelog-hourly.md,
+  revisit_fingerprints.json (Open-Jev SHA ed45657bf726).
+- Offline check: `evaluate_decisions.py --self-test` (now includes
+  v3 prepared ≠ retrained / held-out protocol ≠ Harbor / 1,280-row
+  panel ≠ Harbor / finite loss ≠ quality / website redesign ≠
+  calibration / naive merge throws 83) and
+  `uniqueness_gate.py` (0843 + 0915 + jcr / 0922 / 0940 / 0947 /
+  1049 / 1143 / 1248 / 1340 / 1441 / 1542 / 1643 / 1746 / 1843 / 1936 /
+  Open-Jev densify / 1946 / 2049 / 2146 / 2246 / 2347 / 0049 / 0151).
+  No live Jev key. No wrappers.
+
+**Hourly 0151 HIGH (`notes.md` §137).** Open-Jev v3 densify HEAD ed45657bf726. README SHA 12e0f581e15d. v3 data prepared ≠ retrained released models. held-out protocol ≠ Harbor. 1,280-row panel ≠ Harbor. finite training loss ≠ quality improvement. website redesign ≠ calibration. jev-wide naive throws away 83% *theirs*. certo KL 0.008 *theirs*. first-instinct 63.3%→78.1% *theirs* not Harbor. Jev is a gate not a generator. community port ≠ TypeSafe. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#60. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+Hourly 0151 uniqueness lock: Zefan-Cai/Open-Jev densify HEAD ed45657bf726 via 748ae3024294 README SHA 12e0f581e15d was e32c4bbd519c; Publish audited v3 community data and held-out evaluation protocol; Redesign readable project site and consolidate benchmark results; 129,288 decision rows 74,921 training; frozen mixture 96,849 training; 1,280-row / 840-group comparison panel; v3 data prepared ≠ retrained released models; held-out protocol ≠ Harbor; 1,280-row panel ≠ Harbor; finite training loss ≠ quality improvement; website redesign ≠ calibration; 27B step 616 pending; Open-Jev TREC pending; LoRA ≠ RLCD replica; Qwen3.5-2B ≠ Archer; Qwen3.5-9B ≠ Archer; densify §125 not a sibling first sighting; chy4pro/jev-for-chrome 12★ community port ≠ TypeSafe; chy4pro/jev-for-chrome ≠ browser-use/jev-ultrafast; PsiACE/dohnuts 4★ small multimodal direct decisions; joint RLCD *theirs*; Dohnuts ≠ TypeSafe; catoenm/first-instinct 9B 63.3%→78.1% *theirs* not Harbor; 371,278 prepared ≠ consumed; RL did not reliably improve held-out; independent educational not a recovered Jev recipe; 123Satyajeet123/jev-wide naive throws away 83% *theirs*; 255 documented ~32,768 tokens real; two-decimal 95.8% floored *theirs*; IIA fails +0.31 ... +0.50 *theirs*; AltSlate-Labs/certo KL 0.008 acc 0.844 ECE 0.004 *theirs*; research preview independent not affiliated; endomorphosis/JevOps Jev is a gate not a generator; Lake remains admission; Jev never writes Lean; gbesse/question-forge held-out before winner; demo accuracy is synthetic not a Jev benchmark; flyryan/ai-news-aggregator 26★ does not execute; Akashdb5/jev-router ≠ gargpratyush/jev-router ≠ daviddl9/jev-router; kiuckhuang/laya-jev ≠ KonghaYao/laya-jev; tegersdorfer-collab/jevkit ≠ isiomaC/jevkit ≠ WaynezProg/jev-kit; buluoray/JevOnly already carded; yottayoshida/jev-intent-review already carded; skip-thin Iskandeur/system1-system2 zhlei07/open-system-one Hand-In/openjev-multimodal gwxcsny53/jev-watchtower empty SHA; serving substrate ≠ calibrated replica; game success ≠ calibrated Noul; does not execute; catalog ≠ endorsement; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60; notes.md §137

@@ -169,14 +169,14 @@
     {
       "id": "github:Zefan-Cai/Open-Jev",
       "notes_section": "125",
-      "last_look": "2026-09-21T06:49Z",
+      "last_look": "2026-09-21T07:51Z",
       "fingerprints": {
-        "default_sha": "f46ff604f794b1932d1a6f34725c8163e550952a",
-        "pushed_at": "2026-09-21T06:58:07Z",
+        "default_sha": "ed45657bf726c3b77408942830e5578f99df904e",
+        "pushed_at": "2026-09-21T07:40:27Z",
         "description_hash": null,
         "release_tag": null
       },
-      "readme_sha": "e32c4bbd519c9d3204bc9c8a9f66213d672b9594"
+      "readme_sha": "12e0f581e15d8a7b79c598b6d77f5591e83da088"
     },
     {
       "id": "hf:ZefanCai/Open-Jev-2B",
