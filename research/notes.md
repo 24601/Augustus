@@ -90,6 +90,10 @@ regex/LLM/code, Jev selects).
 - browser-use/jev-ultrafast (~2100★, 2026-09-16): dynamic indexed action
   space, operation+target heads in ONE request (speculative targets), small
   LLM only for TYPE_TEXT; 7.1s Flights demo, $0.0039; 1092→101 browser calls.
+- Hourly 0823 densify (description rewrite, not a sibling first sighting):
+  browser-use/jev-ultrafast 14622★ MIT HEAD `1231850a0bf1` README SHA
+  `fa7d079f9192`. Quote *theirs*: Fastest and cheapest web agent.
+  densify description rewrite. SHA move is not a replica.
 - jarrodwatts/jev-trader (453★, 2026-09-16): per-Monad-block buy/sell Choice,
   ~81ms model latency, 2-RPC hot loop, dry-run mode.
 - devagrawal09/jev-review: staged code review (Noul risk matrix →
@@ -34806,6 +34810,14 @@ not Harbor; a website is not calibration; a gate is not a generator.
    MIT **12★** HEAD `a6ddd3a60810` README SHA `423ce99eff36`;
    [`PsiACE/dohnuts`](https://github.com/PsiACE/dohnuts) Apache-2.0 **4★**
    HEAD `a5049834489c` README SHA `e1b448c440b5`;
+   Hourly 0823 densify (MODEL_CARD + training dataset refs, not a sibling
+   first sighting): 11★ Apache-2.0 HEAD `253766e5fcb7` README SHA
+   `4b5b019deba9` was `a5049834489c` / `e1b448c440b5`. Quote *theirs*:
+   JevBench 65.80% vs Jev 86.58% / Laya multi 47.62%. 152 / 231. 78.21%
+   macro accuracy. 180,031 decisions. Qwen3.5-0.8B. Joint RLCD. Hub
+   PsiACE/Dohnuts-0.1.0-0.8B. Dohnuts ≠ TypeSafe. same-species serving
+   not an 18th scoring row. densify §137 not a sibling first sighting.
+   SHA move is not a replica. *theirs* not Harbor.
    [`flyryan/ai-news-aggregator`](https://github.com/flyryan/ai-news-aggregator)
    Apache-2.0 **26★** HEAD `e54181085185` README SHA `68dadec86d57`).
    Jev is a gate not a generator. Lake remains admission. Jev never writes
@@ -36168,6 +36180,11 @@ move is densify not a sibling first sighting.
    [`pythongiant/laya-drift`](https://github.com/pythongiant/laya-drift)
    4★ HEAD `fc94b71cf7dd` README SHA `55ef2343ee5d`. drift calculator.
    serving substrate ≠ calibrated replica.
+   Hourly 0823 densify (description rewrite, not a sibling first sighting):
+   HEAD `334953e5cb8f` README SHA `6662121ba0f3` was `fc94b71cf7dd` /
+   `55ef2343ee5d`. Quote *theirs*: opencode plugin to calculate agentic
+   drift over time. densify §142 not a sibling first sighting. SHA move
+   is not a replica.
    [`seanthomasevans/typesafe-nes`](https://github.com/seanthomasevans/typesafe-nes)
    0★ MIT HEAD `cb9e249df1ef` README SHA `51595aeb8be8`. Quote *theirs*:
    Jev plays Super Mario Bros, Contra, and Mega Man. game success ≠
@@ -36257,3 +36274,296 @@ Hooks for the reviewer:
   No live Jev key. No wrappers.
 
 **Hourly 0707 HIGH (`notes.md` §142).** Jev-cu text-only CU. 只传文字，不传截图. tax-doc 100% of corpus *theirs* not Harbor. The model does not receive screenshots. A completed booking is not demonstrated. The field guide to typed decisions. densify §141 not a sibling first sighting. ENEM 2025 *theirs* not Harbor. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#65. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+
+## 143. Hourly 0823 HIGH (2026-09-21 ~08:23 Boise / 2026-09-21T14:23Z)
+
+Measurement / class-member fold on a **fresh PR off latest `main`**
+(`cursor/0823-fold-novel-high-revisit-8e5d`) after `41fa40c` (merged #66 hourly
+0707 HIGH, `notes.md` §142 / items 681–696 / batch #124; merged #65 hourly
+0551 HIGH, `notes.md` §141).
+**HARD RULE:** do not reopen or amend PR #23–#66.
+Do **not** re-fold §142 0707 / §141 0551 / first-party 0707 SHA bumps
+*as a second census*. Densify prior cards in place. Do not mint sibling
+first-sighting sections for dohnuts (§137), laya-drift (§142), or
+jev-ultrafast (§4 description rewrite). Do not treat JevBench 65.80% as
+Harbor. Do not treat same-species serving as an 18th scoring row. Do not
+treat field→value form fill as free text. Soft scores ≠ hard gates.
+This fold's IDs: `notes.md` §143 / composition 697–712 / findings batch #125.
+
+Never reopen merged #7–**#66**. Quote READMEs / Hub cards.
+Mark *theirs*. No wrappers, keys, `npm` / `pip` / `uv` / `docker`
+install recipes. `invented_signal: false`. Hunches labeled.
+
+Lane is Augustus: **mathematical / logical / algorithmic mental models**
+for Jev-class categorization/scoring across AI / SWE / **business /
+knowledge work / life**, not SWE-only. PRIMARY this hour is
+**PsiACE/dohnuts densify** (MODEL_CARD + training dataset refs; JevBench
+65.80% vs Jev 86.58% / Laya multi 47.62% *theirs*) plus first card
+**FluidInference/FluidUse** (on-device Mac form CU; Accessibility API;
+CUA-S1-FORMS CoreML ~706K params ~1ms Neural Engine; field→value match
+among supplied options not free text). Official SDK GitHub faces get
+first cards (already one-liners in §4). Jev is exemplar, not the mandate.
+Third-party benches stay *theirs*. Catalogs are indexes. Soft scores ≠
+hard gates. SHA move is not a replica. Archer still **promised_not_landed**.
+
+Unique consecutive fragments (this fold) must appear as **one
+substring** in overlays (see uniqueness gate):
+Hourly 0823 uniqueness lock: PsiACE/dohnuts densify 11★ Apache-2.0 HEAD 253766e5fcb7 README SHA 4b5b019deba9 was a5049834489c / e1b448c440b5; MODEL_CARD + training dataset refs; JevBench 65.80% vs Jev 86.58% / Laya multi 47.62% *theirs*; 152 / 231 *theirs*; 78.21% macro accuracy *theirs*; 180,031 decisions *theirs*; Qwen3.5-0.8B; Joint RLCD *theirs*; Dohnuts ≠ TypeSafe; densify §137 not a sibling first sighting; same-species serving not an 18th scoring row; SHA move is not a replica; FluidInference/FluidUse 3★ Apache-2.0 Swift HEAD c18071d791eb README SHA f1cba4a244bb; on-device Mac form CU; Accessibility API; CUA-S1-FORMS CoreML ~706K params ~1ms Neural Engine; field→value match among supplied options not free text; Cua-S1 ≠ TypeSafe; FluidInference/FluidUse ≠ FluidInference/laya-coreml ≠ AndyInQtr/laya-coreai ≠ mizorewww/laya-coreml; serving substrate ≠ calibrated replica; shhivv/third-hand 274★ MIT Swift HEAD 430394b35dbb README SHA b615d7c3fd19; Screenshots aren't uploaded; Jev is the only model; not fully offline; typesafe-ai/system-one-adapter-python 226★ MIT HEAD adffc2eab300 README SHA d01afbf0499e; Drop-in TypeSafeClient replacement backed by LLM APIs; wire-compat ≠ logit-equiv; typesafe-ai/typesafe-sdk-js 203★ MIT HEAD 66880ccded6c README SHA 7e834076c14e; typesafe-ai/typesafe-sdk-python 175★ MIT HEAD 2ce5c65f1364 README SHA 361a3bc13e19; catalog ≠ endorsement; r-ms/mini-jev 40★ MIT HEAD ca612198bfb6 README SHA 565b70c4cf4d; read the option letter's logits instead of generating JSON; yuki-oshio/mini-jev ≠ r-ms/mini-jev; JSON 0.909 letters 0.907 *theirs*; 13 600 / 13 600 *theirs*; softmax over letters ≠ calibrated Noul; Das-rebel/a3m-router 16★ MIT HEAD 62caefe59315 README SHA c19e802d5cf2; model=jev-auto; routing ≠ permission; AbdelStark/jev-benchmarks 13★ Apache-2.0 HEAD 0d610cc53e79 README SHA 5fd3627f7de4; AG News 0.910 *theirs*; Banking77 0.870 *theirs*; DAIR Emotion 0.480 *theirs*; *theirs* not Harbor; browser-use/jev-ultrafast densify 14622★ MIT HEAD 1231850a0bf1 README SHA fa7d079f9192; Fastest and cheapest web agent *theirs*; densify description rewrite; pythongiant/laya-drift densify 4★ HEAD 334953e5cb8f README SHA 6662121ba0f3 was fc94b71cf7dd / 55ef2343ee5d; opencode plugin to calculate agentic drift over time *theirs*; densify §142 not a sibling first sighting; BlinkWrite/pii-masker densify 1★ MIT HEAD 6ad202ab4443 README SHA 27931758af6c; On-device reversible PII masking *theirs*; Locate ≠ decide; TypeSafeAI/typesafe-playground ≠ kavehmz/typesafe-playground ≠ nickthompson480/typesafe-ai-playground; siliconkernel/vllm-jev-decison 8★ MIT HEAD a9362d52b9a8; No generative fallback; Stumble/jev-go 3★ MIT HEAD a475dc925ba6; Twister915/typesafe-ai 11★ Apache-2.0 Rust HEAD d4455efb1d06; rorshopping/jev-on-a-laptop 23★ HEAD 5821d9106103; Unofficial research repo. Not affiliated with TypeSafe AI; Qwen2.5 ≠ Archer; skip-thin GokhanCalkap/LayaCode fredzhaozonghui/LAYA1 empty SHA; Abhi895/Laya ≠ convaiinnovations/laya; mjdileep/OpenJev ≠ Zefan-Cai/Open-Jev; Abhi001vj/system-one-open ≠ mithalouni/system-one-open ≠ sgoedecke/system-one; ZulfiFazhar/system-one ≠ sgoedecke/system-one; Futureppo/typesafe_register key-farming skip; soft scores ≠ hard gates; catalog ≠ endorsement; game success ≠ calibrated Noul; does not execute; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62/#63/#64/#65/#66; notes.md §143
+
+### How-to-apply (class lenses, not vendor tutorials)
+
+These are *class* lenses. Same discipline as §142 (text-only CU is not
+screenshots; 100% of a corpus is not Harbor) and §120 (serving substrate
+≠ calibrated replica). Formal methods **compose**: a Noul is a SENSOR;
+a MODEL_CARD score is *theirs*; a CoreML form specialist is not TypeSafe
+Jev; a README SHA move is densify not a sibling first sighting.
+
+1. **JevBench 65.80% vs Jev 86.58% / Laya multi 47.62% *theirs* /
+   same-species serving not an 18th scoring row**
+   (PsiACE/dohnuts densify 11★ Apache-2.0 HEAD 253766e5fcb7 README SHA
+   4b5b019deba9 was a5049834489c / e1b448c440b5). Quote *theirs*:
+   152 / 231. 78.21% macro accuracy. 180,031 decisions. Qwen3.5-0.8B.
+   Joint RLCD. MODEL_CARD + training dataset refs. Dohnuts ≠ TypeSafe.
+   densify §137 not a sibling first sighting. Do **not** copy keys.
+2. **field→value match among supplied options not free text /
+   Cua-S1 ≠ TypeSafe**
+   (FluidInference/FluidUse 3★ Apache-2.0 Swift HEAD c18071d791eb
+   README SHA f1cba4a244bb). Quote *theirs*: The model matches a field
+   to a value it is given. It does not write free text. Accessibility
+   API. CUA-S1-FORMS CoreML ~706K params ~1ms Neural Engine.
+   FluidInference/FluidUse ≠ FluidInference/laya-coreml ≠
+   AndyInQtr/laya-coreai ≠ mizorewww/laya-coreml.
+   serving substrate ≠ calibrated replica.
+3. **Screenshots aren't uploaded / Jev is the only model /
+   not fully offline**
+   (shhivv/third-hand 274★ MIT Swift HEAD 430394b35dbb README SHA
+   b615d7c3fd19). Accessibility reads controls. Apple Vision stays
+   local. TypeSafe API key required.
+4. **JSON 0.909 letters 0.907 *theirs* / 13 600 / 13 600 *theirs* /
+   softmax over letters ≠ calibrated Noul**
+   (r-ms/mini-jev 40★ MIT HEAD ca612198bfb6 README SHA 565b70c4cf4d).
+   Quote *theirs*: read the option letter's logits instead of generating
+   JSON. yuki-oshio/mini-jev ≠ r-ms/mini-jev.
+5. **AG News 0.910 *theirs* / Banking77 0.870 *theirs* /
+   DAIR Emotion 0.480 *theirs* / Fastest and cheapest web agent *theirs***
+   (AbdelStark/jev-benchmarks; browser-use/jev-ultrafast densify
+   description rewrite; Das-rebel/a3m-router model=jev-auto).
+   *theirs* not Harbor. routing ≠ permission.
+   densify description rewrite. densify §142 not a sibling first sighting.
+
+### HIGH (this hour)
+
+1. **[`PsiACE/dohnuts`](https://github.com/PsiACE/dohnuts)
+   PRIMARY densify §137.** 11★ Apache-2.0 HEAD `253766e5fcb7` README SHA
+   `4b5b019deba9` was `a5049834489c` / `e1b448c440b5`. Quote *theirs*:
+   MODEL_CARD + training dataset refs. JevBench 65.80% vs Jev 86.58% /
+   Laya multi 47.62%. 152 / 231. 78.21% macro accuracy. 180,031
+   decisions. Qwen3.5-0.8B. Joint RLCD. Hub PsiACE/Dohnuts-0.1.0-0.8B.
+   code Apache-2.0, weights CC BY-NC-SA 4.0. Dohnuts ≠ TypeSafe.
+   densify §137 not a sibling first sighting. same-species serving not
+   an 18th scoring row. SHA move is not a replica. *theirs* not Harbor.
+2. **[`FluidInference/FluidUse`](https://github.com/FluidInference/FluidUse)
+   PRIMARY novel.** 3★ Apache-2.0 Swift HEAD `c18071d791eb` README SHA
+   `f1cba4a244bb`. Quote *theirs*: Local computer use on Apple silicon.
+   on-device Mac form CU. Accessibility API. CUA-S1-FORMS CoreML ~706K
+   params ~1ms Neural Engine. The model matches a field to a value it
+   is given. field→value match among supplied options not free text.
+   Cua-S1 ≠ TypeSafe. FluidInference/FluidUse ≠ FluidInference/laya-coreml
+   ≠ AndyInQtr/laya-coreai ≠ mizorewww/laya-coreml. serving substrate ≠
+   calibrated replica.
+3. **[`shhivv/third-hand`](https://github.com/shhivv/third-hand)
+   PRIMARY novel.** 274★ MIT Swift HEAD `430394b35dbb` README SHA
+   `b615d7c3fd19`. Quote *theirs*: Screenshots aren't uploaded. Jev is
+   the only model. not fully offline. Accessibility reads controls.
+   does not execute the user's intent without TypeSafe.
+4. **Official SDK first cards (GitHub faces; already one-liners in §4).**
+   [`typesafe-ai/system-one-adapter-python`](https://github.com/typesafe-ai/system-one-adapter-python)
+   226★ MIT HEAD `adffc2eab300` README SHA `d01afbf0499e`. Quote *theirs*:
+   Drop-in TypeSafeClient replacement backed by LLM APIs. wire-compat ≠
+   logit-equiv.
+   [`typesafe-ai/typesafe-sdk-js`](https://github.com/typesafe-ai/typesafe-sdk-js)
+   203★ MIT HEAD `66880ccded6c` README SHA `7e834076c14e`. catalog ≠
+   endorsement.
+   [`typesafe-ai/typesafe-sdk-python`](https://github.com/typesafe-ai/typesafe-sdk-python)
+   175★ MIT HEAD `2ce5c65f1364` README SHA `361a3bc13e19`. catalog ≠
+   endorsement.
+5. **[`r-ms/mini-jev`](https://github.com/r-ms/mini-jev)
+   PRIMARY novel.** 40★ MIT HEAD `ca612198bfb6` README SHA `565b70c4cf4d`.
+   Quote *theirs*: read the option letter's logits instead of generating
+   JSON. JSON 0.909 letters 0.907. 13 600 / 13 600. yuki-oshio/mini-jev ≠
+   r-ms/mini-jev. softmax over letters ≠ calibrated Noul. *theirs* not
+   Harbor.
+6. **[`Das-rebel/a3m-router`](https://github.com/Das-rebel/a3m-router) /
+   [`AbdelStark/jev-benchmarks`](https://github.com/AbdelStark/jev-benchmarks).**
+   a3m-router 16★ MIT HEAD `62caefe59315` README SHA `c19e802d5cf2`.
+   Quote *theirs*: model=jev-auto. routing ≠ permission.
+   jev-benchmarks 13★ Apache-2.0 HEAD `0d610cc53e79` README SHA
+   `5fd3627f7de4`. Quote *theirs*: AG News 0.910. Banking77 0.870. DAIR
+   Emotion 0.480. *theirs* not Harbor. First GitHub-face card (cited in
+   §49).
+7. **REVISIT densify jev-ultrafast / laya-drift / pii-masker first card.**
+   [`browser-use/jev-ultrafast`](https://github.com/browser-use/jev-ultrafast)
+   densify 14622★ MIT HEAD `1231850a0bf1` README SHA `fa7d079f9192`.
+   Quote *theirs*: Fastest and cheapest web agent. densify description
+   rewrite. Do not mint a sibling first sighting for §4.
+   [`pythongiant/laya-drift`](https://github.com/pythongiant/laya-drift)
+   densify 4★ HEAD `334953e5cb8f` README SHA `6662121ba0f3` was
+   `fc94b71cf7dd` / `55ef2343ee5d`. Quote *theirs*: opencode plugin to
+   calculate agentic drift over time. densify §142 not a sibling first
+   sighting.
+   [`BlinkWrite/pii-masker`](https://github.com/BlinkWrite/pii-masker)
+   first card (revisit tag, no prior notes card) 1★ MIT HEAD
+   `6ad202ab4443` README SHA `27931758af6c`. Quote *theirs*: On-device
+   reversible PII masking. GLiNER ONNX INT8. Locate ≠ decide.
+8. **Namesakes / skip-thin / remainder / key-farming skip.**
+   TypeSafeAI/typesafe-playground ≠ kavehmz/typesafe-playground ≠
+   nickthompson480/typesafe-ai-playground.
+   Abhi895/Laya ≠ convaiinnovations/laya.
+   mjdileep/OpenJev ≠ Zefan-Cai/Open-Jev.
+   Abhi001vj/system-one-open ≠ mithalouni/system-one-open ≠
+   sgoedecke/system-one.
+   ZulfiFazhar/system-one ≠ sgoedecke/system-one.
+   skip-thin: GokhanCalkap/LayaCode fredzhaozonghui/LAYA1 empty SHA.
+   Collision skip-thin: Laya16052/Laya16052.github.io, Lelemuku/layar,
+   Ywenxiao/layaframe3, adamhasani/layarkaca2, adamhasani/layarzona1,
+   adamhasani/layarzona3, loayhegazi/LayaliZaman,
+   nexuspoint653-hue/laya-boutique-theme (Shopify), adelelwan24/NER-Tutorial
+   (Locate ≠ decide remainder), tjpajala/laya-demo empty README.
+   Thin Hub spaces: hf:dylantom2012/open-system-one-demo points at
+   zhlei07/open-system-one (empty SHA skip-thin already);
+   hf:fgdsgfdsg/jev-response-reader; hf:piratehack009/laya-cn-finance-relevance;
+   hf:xiq/xiq-vl-jev; hf:aungthuhein-dev/laya-burmese-sib200-demo.
+   Futureppo/typesafe_register key-farming skip (anti-pattern; no
+   wrapper/key recipe).
+   Named remainder (substance, not a dump wall):
+   [`typesafeainate/dspy-typesafeify`](https://github.com/typesafeainate/dspy-typesafeify)
+   61★ MIT HEAD `708f1d109fc9` README SHA `c0bf0a0ed080`. Quote *theirs*:
+   Add a decorator for dspy Signatures that automatically uses TypeSafe
+   where relevant. typed control plane around DSPy. catalog ≠ endorsement.
+   [`rorshopping/jev-on-a-laptop`](https://github.com/rorshopping/jev-on-a-laptop)
+   23★ HEAD `5821d9106103` README SHA `81e81888eca1`. Quote *theirs*:
+   Unofficial research repo. Not affiliated with TypeSafe AI. Qwen2.5 ≠
+   Archer. replica ≠ TypeSafe.
+   [`TypeSafeAI/typesafe-playground`](https://github.com/TypeSafeAI/typesafe-playground)
+   17★ MIT HEAD `84e99e00265e` README SHA `ade37168801a`. catalog ≠
+   endorsement.
+   [`Twister915/typesafe-ai`](https://github.com/Twister915/typesafe-ai)
+   11★ Apache-2.0 Rust HEAD `d4455efb1d06` README SHA `b77cf8fa3424`.
+   catalog ≠ endorsement.
+   [`siliconkernel/vllm-jev-decison`](https://github.com/siliconkernel/vllm-jev-decison)
+   8★ MIT HEAD `a9362d52b9a8` README SHA `f9d6f9364ad2`. Quote *theirs*:
+   No generative fallback. Classification-only typed decisions.
+   [`wmoto-ai/local-decision-playground`](https://github.com/wmoto-ai/local-decision-playground)
+   5★ HEAD `f8e2fad91678` README SHA `632d15bafd6a`. serving substrate ≠
+   calibrated replica.
+   [`Stumble/jev-go`](https://github.com/Stumble/jev-go)
+   3★ MIT HEAD `a475dc925ba6` README SHA `cba10a9e95bb`. Community Go SDK.
+   catalog ≠ endorsement.
+   [`nickthompson480/typesafe-ai-playground`](https://github.com/nickthompson480/typesafe-ai-playground)
+   3★ MIT HEAD `8ee3d0b36d0c` README SHA `5d5f9b2be5f4`. namesake of
+   TypeSafeAI/typesafe-playground.
+   [`arczhi/jet`](https://github.com/arczhi/jet)
+   1★ HEAD `8335028ba6d2` README SHA `8bce825380dc`. Quote *theirs*:
+   Recursive LLM Context Decomposition (RLCD). RLCD name collision is
+   not TypeSafe RLCD.
+   [`djhoomin/local-system-one`](https://github.com/djhoomin/local-system-one)
+   1★ MIT HEAD `5e0ecde782a1` README SHA `6a958400b9c6`. replica ≠ TypeSafe.
+   [`Abhi001vj/system-one-open`](https://github.com/Abhi001vj/system-one-open)
+   HEAD `e96cc5d60979` README SHA `063c263838e2`. Abhi001vj/system-one-open ≠
+   mithalouni/system-one-open ≠ sgoedecke/system-one.
+   [`JabbaKadabra/SystemOneDotNet`](https://github.com/JabbaKadabra/SystemOneDotNet)
+   MIT C# HEAD `5bff3394281c` README SHA `76a9188c180a`. Quote *theirs*:
+   DotNet Wrapper for the Jev Model. catalog ≠ endorsement.
+   [`ZulfiFazhar/system-one`](https://github.com/ZulfiFazhar/system-one)
+   HEAD `46e421a33209` README SHA `737af2678f2f`. ZulfiFazhar/system-one ≠
+   sgoedecke/system-one. wire-compat ≠ logit-equiv.
+   [`fathiyul/system-one-exploration`](https://github.com/fathiyul/system-one-exploration)
+   HEAD `7bf87db07e52` README SHA `510ed1fff384`.
+   [`raaulc/jev-projects`](https://github.com/raaulc/jev-projects)
+   HEAD `472f920448d1` README SHA `d53af17b8e3c`. catalog ≠ endorsement.
+   [`mjdileep/OpenJev`](https://github.com/mjdileep/OpenJev)
+   MIT HEAD `14b50097e4b4` README SHA `d1bdda84523e`. mjdileep/OpenJev ≠
+   Zefan-Cai/Open-Jev.
+   hf:SargeDev/jev-distill-corpus-v3 sha `fc99c6357a9f`. Quote *theirs*:
+   740,957-row calibrated typed-decision corpus. Labels distilled from
+   Jev 1.13. do not distill Jev as teacher of record.
+   hf:aungthuhein-dev/laya-burmese-sib200 sha `407ae7276528`. Quote
+   *theirs*: test acc 0.716 ECE 0.051 T=6.018. *theirs* not Harbor.
+   catalog ≠ endorsement. game success ≠ calibrated Noul. does not execute.
+   routing ≠ permission. *theirs* not Harbor.
+
+### Pulse (live REST this hour)
+
+Archer still promised_not_landed. Hub archerhume/4rcherhume HTTP **401**.
+dohnuts **11★**. FluidUse **3★**. third-hand **274★**. adapter **226★**.
+sdk-js **203★**. sdk-python **175★**. mini-jev **40★**. jev-ultrafast
+**14622★**. `invented_signal: false`.
+
+### Formal compose + anti-patterns
+
+Formal methods **compose** with scoring. A Noul is a SENSOR. A MODEL_CARD
+percentage is *theirs*. A CoreML form specialist is a candidate list over
+supplied options, not free text. Treating JevBench 65.80% as Harbor,
+same-species serving as an 18th scoring row, field→value as free text,
+Cua-S1 as TypeSafe, a catalog as endorsement, or a SHA move as a replica
+is soundness theater. Soft scores ≠ hard gates. game success ≠ calibrated
+Noul. does not execute. routing ≠ permission. catalog ≠ endorsement.
+*theirs* not Harbor. SHA move is not a replica.
+
+### Adversarial review + testing hooks (Basit standing
+order)
+
+Parent merge only after **CLEAN** adversarial review **AND** testing.
+Hooks for the reviewer:
+
+- Uniqueness-gate: the consecutive `Hourly 0823 uniqueness lock:`
+  string must appear in every overlay listed below. Prior walls 0843 /
+  0915 / jcr / 0922 / 0940 / 0947 / 1049 / 1143 / 1248 / 1340 / 1441 /
+  1542 / 1643 / 1746 / 1843 / 1936 / Open-Jev densify / 1946 / 2049 /
+  2146 / 2246 / 2347 / 0049 / 0151 / 0248 / 0348 / 0445 / 0551 / 0707 stay
+  one substring each (do not mutate them; do not reopen #23–#66).
+- Namesake locks: FluidInference/FluidUse ≠ FluidInference/laya-coreml ≠
+  AndyInQtr/laya-coreai ≠ mizorewww/laya-coreml;
+  TypeSafeAI/typesafe-playground ≠ kavehmz/typesafe-playground ≠
+  nickthompson480/typesafe-ai-playground;
+  yuki-oshio/mini-jev ≠ r-ms/mini-jev;
+  Abhi895/Laya ≠ convaiinnovations/laya;
+  mjdileep/OpenJev ≠ Zefan-Cai/Open-Jev;
+  Abhi001vj/system-one-open ≠ mithalouni/system-one-open ≠
+  sgoedecke/system-one;
+  ZulfiFazhar/system-one ≠ sgoedecke/system-one;
+  Dohnuts ≠ TypeSafe; Cua-S1 ≠ TypeSafe.
+- Densify vs new: PsiACE/dohnuts densify §137;
+  pythongiant/laya-drift densify §142;
+  browser-use/jev-ultrafast densify description rewrite §4.
+  Do not mint sibling first-sighting sections for those three.
+  BlinkWrite/pii-masker is a first card this hour (no prior notes card).
+- Harbor-jevals: JevBench 65.80% / 78.21% macro / 180,031 decisions /
+  JSON 0.909 / AG News 0.910 / Banking77 0.870 / DAIR Emotion 0.480 /
+  Burmese test acc 0.716 stay *theirs*, not Harbor.
+- Anti-patterns to refuse: TypeSafe drop-in; catalog as endorsement;
+  JevBench 65.80% as Harbor; same-species serving as an 18th scoring row;
+  field→value as free text; Cua-S1 as TypeSafe; SHA move as a replica;
+  Futureppo/typesafe_register key-farming; copying keys / `npm` / `pip` /
+  `uv` / `docker`.
+- Overlay set: SKILL.md body (protocol fragments + class-table densify
+  + Hourly 0823), mental-models Apply 0823, composition-algebra items
+  697–712, faq, mixed-architecture, validation, toolbox-mapping,
+  methods-catalog, formal-methods, formal-semi-formal,
+  applied-mappings, judgment-class, question-design,
+  agent-self-assessment, mappings, CHANGELOG, README, docs/ecosystem,
+  findings batch #125, refresh-log, changelog-hourly.md,
+  revisit_fingerprints.json (dohnuts densify §137, laya-drift densify
+  §142, jev-ultrafast densify §4, pii-masker first card, FluidUse first
+  card).
+- Offline check: `evaluate_decisions.py --self-test` (now includes
+  dohnuts JevBench 65.80% is not Harbor / FluidUse field→value is not
+  free text / same-species serving is not an 18th scoring row / Cua-S1
+  is not TypeSafe / densify §137 not sibling) and
+  `uniqueness_gate.py` (0843 + 0915 + jcr / 0922 / 0940 / 0947 /
+  1049 / 1143 / 1248 / 1340 / 1441 / 1542 / 1643 / 1746 / 1843 / 1936 /
+  Open-Jev densify / 1946 / 2049 / 2146 / 2246 / 2347 / 0049 / 0151 /
+  0248 / 0348 / 0445 / 0551 / 0707 / 0823).
+  No live Jev key. No wrappers.
+
+**Hourly 0823 HIGH (`notes.md` §143).** dohnuts densify MODEL_CARD. JevBench 65.80% vs Jev 86.58% / Laya multi 47.62% *theirs*. same-species serving not an 18th scoring row. FluidUse field→value match among supplied options not free text. Screenshots aren't uploaded. Jev is the only model. not fully offline. JSON 0.909 letters 0.907 *theirs*. 13 600 / 13 600 *theirs*. softmax over letters ≠ calibrated Noul. model=jev-auto. AG News 0.910 *theirs*. Banking77 0.870 *theirs*. DAIR Emotion 0.480 *theirs*. Fastest and cheapest web agent *theirs*. densify §137 not a sibling first sighting. densify §142 not a sibling first sighting. densify description rewrite. Cua-S1 ≠ TypeSafe. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#66. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.

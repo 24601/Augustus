@@ -16,6 +16,45 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 0823 HIGH (`research/notes.md` §143 / composition items
+697–712 / findings batch #125). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#66.
+Do not amend released 0.5.0 (#42). Merged #66 owns §142. Merged #65
+owns §141. Merged #64 owns §140.
+
+### Added
+
+- **Hourly 0823 HIGH (`notes.md` §143).** dohnuts densify MODEL_CARD.
+  JevBench 65.80% vs Jev 86.58% / Laya multi 47.62% *theirs*. 78.21%
+  macro accuracy *theirs*. 180,031 decisions *theirs*. same-species
+  serving not an 18th scoring row. densify §137 not a sibling first
+  sighting. FluidUse field→value match among supplied options not free
+  text. Screenshots aren't uploaded. Jev is the only model. not fully
+  offline. JSON 0.909 letters 0.907 *theirs*. model=jev-auto. AG News
+  0.910 *theirs*. Fastest and cheapest web agent *theirs*. densify
+  description rewrite. skip-thin empty SHA. Futureppo/typesafe_register
+  key-farming skip.
+  Evaluator: dohnuts JevBench 65.80% is not Harbor / FluidUse
+  field→value is not free text / same-species serving is not an 18th
+  scoring row / Cua-S1 is not TypeSafe / densify §137 not sibling.
+  uniqueness_gate.py now checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 +
+  1049 + 1143 + 1248 + 1340 + 1441 + 1542 + 1643 + 1746 + 1843 + 1936 +
+  Open-Jev densify + 1946 + 2049 + 2146 + 2246 + 2347 + 0049 + 0151 +
+  0248 + 0348 + 0445 + 0551 + 0707 + 0823.
+  Composition items 697–712 / batch #125.
+  **HARD RULE:** do not reopen or amend PR #23–#66. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat JevBench
+  65.80% as Harbor, same-species serving as an 18th scoring row, or
+  field→value form fill as free text. With Augustus: *theirs* not
+  Harbor; field→value match among supplied options not free text;
+  densify §137 not a sibling first sighting; Cua-S1 ≠ TypeSafe;
+  Screenshots aren't uploaded; softmax over letters ≠ calibrated Noul.
+
+
 Hourly 0707 HIGH (`research/notes.md` §142 / composition items
 681–696 / findings batch #124). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in

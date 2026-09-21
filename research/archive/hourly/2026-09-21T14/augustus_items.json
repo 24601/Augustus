@@ -1,0 +1,551 @@
+[
+  {
+    "id": "browser-use/jev-ultrafast",
+    "kind": "revisit",
+    "stars": 14604,
+    "description": "REVISIT densify: description rewrite \u2014 Fastest and cheapest web agent (*theirs*)",
+    "html_url": "https://github.com/browser-use/jev-ultrafast",
+    "source": "github",
+    "material": [
+      "description_rewrite"
+    ],
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "shhivv/third-hand",
+    "kind": "novel",
+    "stars": 274,
+    "description": "computer-use assistant w/ decision models",
+    "html_url": "https://github.com/shhivv/third-hand",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "typesafe-ai/system-one-adapter-python",
+    "kind": "novel",
+    "stars": 225,
+    "description": "Drop-in TypeSafeClient replacement backed by LLM APIs",
+    "html_url": "https://github.com/typesafe-ai/system-one-adapter-python",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "typesafe-ai/typesafe-sdk-js",
+    "kind": "novel",
+    "stars": 203,
+    "description": "The official TypeScript/JavaScript library for the TypeSafe API",
+    "html_url": "https://github.com/typesafe-ai/typesafe-sdk-js",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "typesafe-ai/typesafe-sdk-python",
+    "kind": "novel",
+    "stars": 174,
+    "description": "The official Python library for the TypeSafe API",
+    "html_url": "https://github.com/typesafe-ai/typesafe-sdk-python",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "typesafeainate/dspy-typesafeify",
+    "kind": "novel",
+    "stars": 61,
+    "description": "Add a decorator for dspy Signatures that automatically uses TypeSafe where relevant",
+    "html_url": "https://github.com/typesafeainate/dspy-typesafeify",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "Futureppo/typesafe_register",
+    "kind": "novel",
+    "stars": 48,
+    "description": "typesafe(jev)\u6ce8\u518c\u673a",
+    "html_url": "https://github.com/Futureppo/typesafe_register",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "r-ms/mini-jev",
+    "kind": "novel",
+    "stars": 40,
+    "description": "mini-Jev: what a Jev-style typed-decision interface looks like on a frozen Qwen3-4B \u2014 read the option letter's logits instead of generating JSON. Preregistered experiment, results, teaching bench.",
+    "html_url": "https://github.com/r-ms/mini-jev",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "rorshopping/jev-on-a-laptop",
+    "kind": "novel",
+    "stars": 23,
+    "description": "Unofficial study: Jev-style parallel typed decisions on stock 1.5B-8B models on an Apple Silicon laptop. Benchmarks, research notes, and a Hugging Face Space demo.",
+    "html_url": "https://github.com/rorshopping/jev-on-a-laptop",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "TypeSafeAI/typesafe-playground",
+    "kind": "novel",
+    "stars": 17,
+    "description": "Community TypeSafe AI playground: 110 use cases, games, dilemmas and model challenges, with editable prompts, A/B comparisons and a mobile-friendly UI.",
+    "html_url": "https://github.com/TypeSafeAI/typesafe-playground",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "Das-rebel/a3m-router",
+    "kind": "novel",
+    "stars": 16,
+    "description": "\u26a1 Adaptive multi-model LLM router \u2014 80+ providers, Jev System One single-pass routing (model=jev-auto), pheromone-trail failover, parallel ensemble merge. npm: adaptive-memory-multi-model-router",
+    "html_url": "https://github.com/Das-rebel/a3m-router",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "AbdelStark/jev-benchmarks",
+    "kind": "novel",
+    "stars": 13,
+    "description": "Probability-aware evaluation for typed decision models: calibration, selective risk, latency, and reproducible benchmarks.",
+    "html_url": "https://github.com/AbdelStark/jev-benchmarks",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "PsiACE/dohnuts",
+    "kind": "revisit",
+    "stars": 11,
+    "description": "REVISIT densify: user-forced densify MODEL_CARD + training dataset refs + JevBench 65.80% vs Jev 86.58% *theirs* (stars 11, HEAD 253766e5)",
+    "html_url": "https://github.com/PsiACE/dohnuts",
+    "source": "github",
+    "material": [
+      "forced_user_densify",
+      "MODEL_CARD_training_refs",
+      "bench_numbers"
+    ],
+    "prior_sha": null,
+    "new_sha": "253766e5fcb70c9f52ad8222a86cc0863e1cbc7e"
+  },
+  {
+    "id": "Twister915/typesafe-ai",
+    "kind": "novel",
+    "stars": 11,
+    "description": "Typed TypeSafe AI clients for Rust, with async and blocking backends and observable retries.",
+    "html_url": "https://github.com/Twister915/typesafe-ai",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "siliconkernel/vllm-jev-decison",
+    "kind": "novel",
+    "stars": 8,
+    "description": "Classification-only typed decisions for vLLM: finite-schema candidate scoring, probabilities, and abstention. No generative fallback.",
+    "html_url": "https://github.com/siliconkernel/vllm-jev-decison",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "wmoto-ai/local-decision-playground",
+    "kind": "novel",
+    "stars": 5,
+    "description": "Minimal vLLM-backed playground for typed decisions and candidate probabilities.",
+    "html_url": "https://github.com/wmoto-ai/local-decision-playground",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "pythongiant/laya-drift",
+    "kind": "revisit",
+    "stars": 4,
+    "description": "REVISIT densify: description rewrite \u2014 opencode plugin to calculate agentic drift over time (*theirs*)",
+    "html_url": "https://github.com/pythongiant/laya-drift",
+    "source": "github",
+    "material": [
+      "description_rewrite"
+    ],
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "FluidInference/FluidUse",
+    "kind": "novel",
+    "stars": 3,
+    "description": "Local computer use on Apple silicon: on-device form filling with CUA-S1-FORMS, driven through the macOS Accessibility API",
+    "html_url": "https://github.com/FluidInference/FluidUse",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "Stumble/jev-go",
+    "kind": "novel",
+    "stars": 3,
+    "description": "Community Go SDK for TypeSafe AI Jev / System One",
+    "html_url": "https://github.com/Stumble/jev-go",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "nickthompson480/typesafe-ai-playground",
+    "kind": "novel",
+    "stars": 3,
+    "description": "Community TypeSafe AI playground: 110 use cases, games, dilemmas and model challenges, with editable prompts, A/B comparisons and a mobile-friendly UI.",
+    "html_url": "https://github.com/nickthompson480/typesafe-ai-playground",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "BlinkWrite/pii-masker",
+    "kind": "revisit",
+    "stars": 1,
+    "description": "REVISIT densify: description rewrite \u2014 On-device reversible PII masking for macOS and Windows. GLiNER ONNX INT8, fail-closed. (*theirs*)",
+    "html_url": "https://github.com/BlinkWrite/pii-masker",
+    "source": "github",
+    "material": [
+      "description_rewrite"
+    ],
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "arczhi/jet",
+    "kind": "novel",
+    "stars": 1,
+    "description": "A TypeSafe-native coding agent built on Recursive LLM Context Decomposition (RLCD), with a native macOS client",
+    "html_url": "https://github.com/arczhi/jet",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "djhoomin/local-system-one",
+    "kind": "novel",
+    "stars": 1,
+    "description": "Local stand-ins for TypeSafe Jev's System One interface: typed calibrated decisions from small models, with a routing benchmark and a distilled 19 ms encoder",
+    "html_url": "https://github.com/djhoomin/local-system-one",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "Abhi001vj/system-one-open",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Turn any open model into a fast, typed, calibrated decision function (parallel scoring, no generation)",
+    "html_url": "https://github.com/Abhi001vj/system-one-open",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "Abhi895/Laya",
+    "kind": "novel",
+    "stars": 0,
+    "description": "novel first-seen peer",
+    "html_url": "https://github.com/Abhi895/Laya",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "GokhanCalkap/LayaCode",
+    "kind": "novel",
+    "stars": 0,
+    "description": "novel first-seen peer",
+    "html_url": "https://github.com/GokhanCalkap/LayaCode",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "JabbaKadabra/SystemOneDotNet",
+    "kind": "novel",
+    "stars": 0,
+    "description": "DotNet Wrapper for the Jev Model",
+    "html_url": "https://github.com/JabbaKadabra/SystemOneDotNet",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "Laya16052/Laya16052.github.io",
+    "kind": "novel",
+    "stars": 0,
+    "description": "novel first-seen peer",
+    "html_url": "https://github.com/Laya16052/Laya16052.github.io",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "Lelemuku/layar",
+    "kind": "novel",
+    "stars": 0,
+    "description": "monitor live",
+    "html_url": "https://github.com/Lelemuku/layar",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "Ywenxiao/layaframe3",
+    "kind": "novel",
+    "stars": 0,
+    "description": "novel first-seen peer",
+    "html_url": "https://github.com/Ywenxiao/layaframe3",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "ZulfiFazhar/system-one",
+    "kind": "novel",
+    "stars": 0,
+    "description": "System One Model API for Laya compatible with TypeSafe Jev",
+    "html_url": "https://github.com/ZulfiFazhar/system-one",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "adamhasani/layarkaca2",
+    "kind": "novel",
+    "stars": 0,
+    "description": "apa ya",
+    "html_url": "https://github.com/adamhasani/layarkaca2",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "adamhasani/layarzona1",
+    "kind": "novel",
+    "stars": 0,
+    "description": "novel first-seen peer",
+    "html_url": "https://github.com/adamhasani/layarzona1",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "adamhasani/layarzona3",
+    "kind": "novel",
+    "stars": 0,
+    "description": "novel first-seen peer",
+    "html_url": "https://github.com/adamhasani/layarzona3",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "adelelwan24/NER-Tutorial",
+    "kind": "novel",
+    "stars": 0,
+    "description": "It is a linear path from zero knowledge to production judgment, with a shared running sentence (Apple CEO Tim Cook announced the iPhone 15 in Cupertino.), spaCy and Hugging Face treated as equal training paths, plus CRF and LLM/GLiNER-style NER. Each lesson has prerequisites, a short self-check, and",
+    "html_url": "https://github.com/adelelwan24/NER-Tutorial",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "fathiyul/system-one-exploration",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Exploration of System One models like Jev",
+    "html_url": "https://github.com/fathiyul/system-one-exploration",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "fredzhaozonghui/LAYA1",
+    "kind": "novel",
+    "stars": 0,
+    "description": "novel first-seen peer",
+    "html_url": "https://github.com/fredzhaozonghui/LAYA1",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "hf:SargeDev/jev-distill-corpus-v3",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Jev Distill Corpus v3\n\t\n\nA 740,957-row calibrated typed-decision corpus in the TypeSafe System One schema\n(noul / choice / score). Built for training small local \"System One\" judges\n(fine-tuned BERT-class encoders or small Qwens) that read a state and a typed\nquestion and return a calibrated probabi",
+    "html_url": "https://huggingface.co/datasets/SargeDev/jev-distill-corpus-v3",
+    "source": "huggingface",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "hf:aungthuhein-dev/laya-burmese-sib200",
+    "kind": "novel",
+    "stars": 0,
+    "description": "text-classification laya safetensors burmese myanmar sib-200 topic-classification calibrated-classification system-one text-classification my dataset:Davlan/sib200 base_model:convaiinnovations/laya",
+    "html_url": "https://huggingface.co/aungthuhein-dev/laya-burmese-sib200",
+    "source": "huggingface",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "hf:aungthuhein-dev/laya-burmese-sib200-demo",
+    "kind": "novel",
+    "stars": 0,
+    "description": "gradio region:us",
+    "html_url": "https://huggingface.co/spaces/aungthuhein-dev/laya-burmese-sib200-demo",
+    "source": "huggingface",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "hf:dylantom2012/open-system-one-demo",
+    "kind": "novel",
+    "stars": 0,
+    "description": "gradio region:us",
+    "html_url": "https://huggingface.co/spaces/dylantom2012/open-system-one-demo",
+    "source": "huggingface",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "hf:fgdsgfdsg/jev-response-reader",
+    "kind": "novel",
+    "stars": 0,
+    "description": "static region:us",
+    "html_url": "https://huggingface.co/spaces/fgdsgfdsg/jev-response-reader",
+    "source": "huggingface",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "hf:piratehack009/laya-cn-finance-relevance",
+    "kind": "novel",
+    "stars": 0,
+    "description": "safetensors region:us",
+    "html_url": "https://huggingface.co/spaces/piratehack009/laya-cn-finance-relevance",
+    "source": "huggingface",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "hf:xiq/xiq-vl-jev",
+    "kind": "novel",
+    "stars": 0,
+    "description": "region:us",
+    "html_url": "https://huggingface.co/xiq/xiq-vl-jev",
+    "source": "huggingface",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "loayhegazi/LayaliZaman",
+    "kind": "novel",
+    "stars": 0,
+    "description": "novel first-seen peer",
+    "html_url": "https://github.com/loayhegazi/LayaliZaman",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "mjdileep/OpenJev",
+    "kind": "novel",
+    "stars": 0,
+    "description": "OpenJev",
+    "html_url": "https://github.com/mjdileep/OpenJev",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "nexuspoint653-hue/laya-boutique-theme",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Custom Shopify theme for Laya Boutique.",
+    "html_url": "https://github.com/nexuspoint653-hue/laya-boutique-theme",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "raaulc/jev-projects",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Small projects built with Jev (TypeSafe AI's typed-decision model)",
+    "html_url": "https://github.com/raaulc/jev-projects",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "tjpajala/laya-demo",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Demo for Laya vs. local small LLM",
+    "html_url": "https://github.com/tjpajala/laya-demo",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null
+  }
+]

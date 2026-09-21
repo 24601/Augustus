@@ -928,6 +928,42 @@ def enem_bench_is_not_harbor(acc, harbor=False):
         raise ValueError("unexpected acc")
     return harbor is False
 
+
+
+def dohnuts_jevbench_is_not_harbor(acc, harbor=False):
+    """JevBench 65.80% vs Jev 86.58% *theirs*. *theirs* not Harbor."""
+    if abs(acc - 65.80) > 1e-9:
+        raise ValueError("unexpected acc")
+    return harbor is False
+
+
+def fluiduse_field_value_is_not_free_text(kind, free_text=False):
+    """field→value match among supplied options not free text."""
+    if kind != "fluiduse_form_cu":
+        raise ValueError("unexpected kind")
+    return free_text is False
+
+
+def same_species_serving_is_not_18th_row(kind, scoring_row=False):
+    """same-species serving not an 18th scoring row."""
+    if kind != "dohnuts_same_species":
+        raise ValueError("unexpected kind")
+    return scoring_row is False
+
+
+def cua_s1_is_not_typesafe(kind, typesafe=False):
+    """Cua-S1 ≠ TypeSafe."""
+    if kind != "cua_s1_forms":
+        raise ValueError("unexpected kind")
+    return typesafe is False
+
+
+def densify_137_not_sibling(kind, sibling=False):
+    """densify §137 not a sibling first sighting."""
+    if kind != "dohnuts_densify_137":
+        raise ValueError("unexpected kind")
+    return sibling is False
+
 def gliner_locate_is_not_decide(kind, decide=False):
     """Locate ≠ decide. Zero Hallucinations marketing."""
     if kind != "gliner_locate":
@@ -1525,6 +1561,24 @@ def self_test():
 
 
 
+
+
+    # 0823: dohnuts JevBench 65.80% is not Harbor / FluidUse field→value
+    # is not free text / same-species serving is not an 18th scoring row /
+    # Cua-S1 ≠ TypeSafe / densify §137 not sibling.
+    assert dohnuts_jevbench_is_not_harbor(65.80, False)
+    assert not dohnuts_jevbench_is_not_harbor(65.80, True)
+    assert fluiduse_field_value_is_not_free_text("fluiduse_form_cu", False)
+    assert not fluiduse_field_value_is_not_free_text("fluiduse_form_cu", True)
+    assert same_species_serving_is_not_18th_row("dohnuts_same_species", False)
+    assert not same_species_serving_is_not_18th_row("dohnuts_same_species", True)
+    assert cua_s1_is_not_typesafe("cua_s1_forms", False)
+    assert not cua_s1_is_not_typesafe("cua_s1_forms", True)
+    assert densify_137_not_sibling("dohnuts_densify_137", False)
+    assert not densify_137_not_sibling("dohnuts_densify_137", True)
+    assert theirs_bench_is_not_harbor(6580, "dohnuts-jevbench-65.80")
+    assert theirs_bench_is_not_harbor(910, "jev-benchmarks-ag-news-0.910")
+    assert theirs_bench_is_not_harbor(909, "mini-jev-json-0.909")
 
     print("self-test ok")
 
