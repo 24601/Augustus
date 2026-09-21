@@ -4484,6 +4484,90 @@ Soft Noul ≠ hard safety.
      batch #132. Full cards: `boundary-audit.md`.
 
 
+821. **Jev chooses, code acts, review before write** (NobleSpartan6/otto):
+     TypeSafe Jev chooses a concrete action. Optional planner text is a draft.
+     The person approves. Native code writes and reads back. Fill-a-form is
+     exact: no model call, no submit. A model score is not a guarantee.
+     Stop cannot undo an input already delivered.
+     Full cards: `research/notes.md` §153.
+822. **OCR and accessibility are observation** (otto):
+     Local OCR and AX/UIA observe. OCR clicks need approval. Keys stay in
+     the main process. Screenshots to a planner need a separate opt-in.
+     Published typesafe-computer-use cost figures are not Otto benchmarks.
+     Full cards: `research/notes.md` §153.
+823. **context clearing keep threshold** (nourhelmi/pi-jev-compaction):
+     Clear only when p(still needed) is below 0.25. 0.25 still soft.
+     API failure clears nothing new. jev_read returns stored output and
+     does not rerun the command. Original messages stay.
+     Full cards: `research/notes.md` §153.
+824. **fit score is not a send** (LiamSherline/jev-lead-scorer):
+     One Jev call returns fit, angle, and skip. P near 0.5 is NULL and
+     human review, not a logged fact. Drafts only. Nothing sends itself.
+     The pricing sentence is an illustration, not a bench.
+     Full cards: `research/notes.md` §153.
+825. **browser Laya is a serving substrate** (MatteoGauthier/laya-portable):
+     Same answers is their claim. Measured export drift is *theirs*.
+     Export parity is not Harbor. laya-portable is not laya-onnx.
+     Full cards: `research/notes.md` §153.
+826. **ranking walk is not calibration** (strombolini/Armada):
+     Codiv OpenJev choice walk orders files. Codiv OpenJev is not TypeSafe.
+     The example 99% is an illustration. Ranking is not calibration.
+     Full cards: `research/notes.md` §153.
+827. **from-scratch logprob is not a Noul** (Yushenggg/zero-shot-classifier):
+     Densify §145, not a sibling first sighting. Open recreation is not a
+     calibrated replica. Qwen3-4B is not Archer. KV cache can move a near-tie.
+     Full cards: `research/notes.md` §153.
+828. **MLX Swift is not the prior CoreML card** (danielamitay/swev):
+     Densify §132, not a sibling first sighting. MLX was CoreML on the
+     prior card. SHA move is not a replica. Serving substrate is not a
+     calibrated replica.
+     Full cards: `research/notes.md` §153.
+829. **class benches *theirs*** (GaNotch, JMLE, Mind2Web, Jevals, system-one-bench):
+     84.0% *theirs*. 88.58% *theirs*. One Mind2Web shard. Test splits are
+     not run. 1/28 of the price *theirs*. n=40 ECE 0.3292 *theirs* is not Harbor.
+     Full cards: `research/notes.md` §153.
+830. **shadow and stop hooks are sensors**:
+     jev-shadow, stop-rules, hermes fail-open, watchdog. A sensor is not
+     an interlock. Soft judgment never sole veto.
+     Full cards: `research/notes.md` §153.
+831. **exact envelope then judgment**:
+     Vale or a record enumerates. Jev classifies. Code maps, routes, or
+     refuses to sign. A NULL band is not a fact.
+     Full cards: `research/notes.md` §153.
+832. **namesakes**:
+     ajmeese7/jev-chess is not dperezcabrera/jev-chess.
+     ppradyoth/jev-guard is not leepokai/jev-guard.
+     echohello-dev/jev-mcp-server is not emlama/jev-mcp.
+     MatteoGauthier/laya-portable is not MatteoGauthier/laya-onnx.
+     Emlembow/jev-graph-search is not Emlembow/jevgraph.
+     hf:juspay/jev-one is not hf:juspay/jev-trained.
+     xosi/laya is not mizorewww/laya-mlx.
+     Full cards: `research/notes.md` §153.
+833. **densify description rewrites**:
+     swev densify §132. zero-shot densify §145. rarha sha b5eb4528c941
+     unchanged. TokyoHunter SHA moved. aleksvega SHA unchanged e360f3ff5b13.
+     Star or like movement alone is star-noise.
+     Full cards: `research/notes.md` §153.
+834. **skip-thin empty SHA HTTP 409 / README HTTP 404**:
+     xuan7zhang/jev-toolspace empty SHA HTTP 409. DarkWanderer/laya,
+     Sourav19o7/jev-examples, gopaljigaur/decide, jose-salcedo-sp/recall,
+     layareddy10-source/layareddy10-source.github.io README HTTP 404.
+     The payment-receipt repository name is a name collision. Do not
+     reproduce payment details.
+     Full cards: `research/notes.md` §153.
+835. **catalogs and clients are not replicas**:
+     Jevals, jevkit, FYIsoft, asynq-io/system-one, rawwerks/one-system.
+     Wire-compat is not logit-equiv. A playground is not a bench.
+     Illustrative impact numbers are not measurements.
+     Full cards: `research/notes.md` §153.
+836. **skip Archer** (promised_not_landed):
+     Archer still promised_not_landed. Parent merges only after ADV_PASS.
+     ryana/jevify §152 are on main. This fold is §153 only.
+     notes.md §153. composition 821-836. findings batch #133.
+     Full cards: `faq.md`.
+
+
+
 
 
 **Hourly 2049 HIGH (`notes.md` §132).** kev night-2 densify HEAD c096660c8da2. PLAN SHA 8d77dd271c66. README SHA unchanged 84b872488915. KEV_TEMPERATURE T≈2.0. Brier 0.291→0.267 ECE 0.105→0.039 *theirs*. 7.5%→3.2% *theirs*. grouped T rejected. Qwen3.6-35B-A3B smoke 0.812 *theirs*. Hub --revision night2-du. MMLU-Pro 1000 Kev-9B 0.511 Jev 0.829 *theirs*. Qwen3.6 ≠ Archer. temperature scaling ≠ ECE unless measured. Hub --revision is a pin not a replica. kotoba OpenJev runtime densify HEAD ff7f84e74d04. generated_text: False. trained runtime ≠ TypeSafe. OpenJev.from_pretrained. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#55. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.

@@ -1,5 +1,52 @@
 # Deep-read findings (evidence for research/notes.md)
 
+## Batch #133 (2026-09-21 ~14:54 Boise / ~20:54 UTC) - hourly 1454 HIGH
+
+Note: `research/notes.md` §153. Composition 821-836.
+ryana/jevify §152, hourly 1352 §151, hourly 1256 §150, lev §149,
+hourly 1203 §148, and glance §147 are on main.
+This fold is §153 only. Do not reclaim §147 through §152.
+Hourly 1352 stays §151 / composition 793-808 / batch #131.
+ryana/jevify stays §152 / composition 809-820 / batch #132.
+This fold stays §153 / items 821-836 / batch #133.
+**HARD RULE:** do not reopen or amend PR #23 through #78.
+The consecutive lock string lives in notes.md and uniqueness_gate.py only.
+README still ends at License. Does not bump 0.5.0 or 0.5.1.
+`invented_signal: false`. Parent merges only after ADV_PASS.
+
+- **NobleSpartan6/otto PRIMARY.** 4 star MIT. HEAD 80681ef1bc11.
+  Jev chooses concrete actions. Fill-a-form is exact. A model score is
+  not a guarantee. Stop cannot undo a delivered input. Alpha: task
+  success unverified. Published typesafe-computer-use figures are not
+  Otto benchmarks.
+- **nourhelmi/pi-jev-compaction.** 0.25 still soft. API failure clears
+  nothing new. jev_read does not rerun. Release v0.1.0.
+- **LiamSherline/jev-lead-scorer.** Nothing sends itself. P near 0.5
+  is NULL. The four-cent sentence is a pricing illustration.
+- **MatteoGauthier/laya-portable.** Same answers is their claim.
+  Export parity is not Harbor. Not MatteoGauthier/laya-onnx.
+- **strombolini/Armada.** Codiv OpenJev is not TypeSafe. Ranking is
+  not calibration. The 99% line is an illustration. Release v1.2.0.
+- **hf:lostargon/Tiny-Jev.** In-distribution ECE 0.004 *theirs* is not
+  the held-out ECE 0.299 *theirs*. Fitted public rows are not zero-shot.
+  About 20 to 50 ms on Apple M is a latency claim, not Harbor.
+  Qwen3-0.6B is not Archer.
+- **Class benches *theirs*.** GaNotch 84.0%. JMLE 88.58% (3,150/3,556),
+  medRxiv screening, not peer reviewed. Mind2Web one train shard,
+  test splits not run, described-element 79.2%. Jevals 1/28 of the
+  price, release 2026-09-18. system-one-bench n=40, ECE 0.3292,
+  confidence 0.94 when right and 0.93 when wrong. n=40 is not Harbor.
+- **REVISIT.** swev densify §132: MLX was CoreML. zero-shot densify
+  §145: open recreation, Qwen3-4B is not Archer. rarha/laya-onnx sha
+  b5eb4528c941 unchanged, likes 0 to 1 is star-noise. TokyoHunter SHA
+  moved. aleksvega SHA unchanged e360f3ff5b13. A scan is not a grant.
+- **skip-thin.** xuan7zhang/jev-toolspace empty SHA HTTP 409.
+  Six README HTTP 404 cards, including a payment-receipt name
+  collision. Do not reproduce payment details.
+
+catalog is not endorsement. Soft judgment never sole veto.
+*theirs* not Harbor. SHA move is not a replica.
+
 ## Batch #132 (2026-09-21 ~20:20 UTC) - user-provided ryana/jevify
 
 Note: `research/notes.md` §152. First card for ryana/jevify.
