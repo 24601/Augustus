@@ -1,3 +1,21 @@
+## 2026-09-21 ~04:46 UTC / ~22:46 Boise - Hourly 2246 HIGH
+- Fresh PR off latest `main` after merged #57 (hourly 2146 / `notes.md` §133
+  / items 537–552 / batch #115) and merged #56 (hourly 2049 / `notes.md` §132).
+  This fold: `notes.md` §134 / composition
+  553–568 / findings batch #116. Do not reclaim §133 / 537–552 / #115.
+  **HARD RULE:** do not reopen or amend PR #23–#57.
+- PRIMARY: Open-Jev TREC densify. TREC prep ≠ completed Open-Jev TREC.
+  context proof ≠ nDCG. CPU tests ≠ GPU scores.
+  REVISIT: TypeLLM PyPI packaging. PyPI packaging ≠ calibrated Noul.
+  Constrained AR ≠ calibrated Noul.
+- Evidence: `research/archive/hourly/2026-09-21T04/`.
+- uniqueness_gate 0843+0915+jcr+0922+0940+0947+1049+1143+1248+1340+1441+1542+1643+1746+1843+1936+1946+2049+2146+2246.
+  Evaluator: TREC prep ≠ completed Open-Jev TREC /
+  context proof ≠ nDCG / PyPI packaging ≠ calibrated Noul /
+  logits are not calibrated probabilities of correctness.
+  Quote *theirs*. No wrappers. `invented_signal: false`.
+- Hourly 2246 uniqueness lock: Zefan-Cai/Open-Jev densify HEAD 48346d0630f1 README SHA unchanged ce1a587219e4; Publish strict Open-Jev TREC evaluation preparation and context proof; Actual Open-Jev TREC model inference is pending; All 79 combined CPU tests pass; 97 queries 43 DL19 54 DL20; at most 873 requests per model; No GPU or model inference was used; TREC prep ≠ completed Open-Jev TREC; context proof ≠ nDCG; CPU tests ≠ GPU scores; Open-Jev TREC pending; TypeLLM/TypeLLM densify HEAD 8a8b4aefd443 README SHA 9f6dea3a4c8c; Add PyPI packaging and publish workflow; typellm 0.1.1; Drop fixed banner height so it scales on PyPI; Constrained AR ≠ calibrated Noul; PyPI packaging ≠ calibrated Noul; type safety does not guarantee factual accuracy; featherless-ai/simple-jev 408★ HEAD b02aa81c915a README SHA 4c5be59e9738; logits are not calibrated probabilities of correctness; does not reproduce TypeSafe; /v1/systemone alias of /v1/classifier; wire-compat ≠ logit-equiv; everyai-com/jev-directory 13★ 50 runnable evals 1300+ builds catalog ≠ endorsement; Jev-Mem 11.0% 6.6× 36.7% *theirs* not Harbor; Nyarlathoteppppp/pi-jev-context ≠ kevinpita/pi-jev-context; FogMoe/necro abandoned LoRA retrospective; LoRA ≠ RLCD replica; Qwen3.5-0.8B ≠ Archer; clarity-judge independent community project; hearim Jev-compatible Go gateway; yijunyu/jev-rs any LLM one prefill; alongL/openJev ≠ Zefan-Cai/Open-Jev; huaizuo2022/jev-ultrafast ≠ browser-use/jev-ultrafast; FluidInference/laya-coreml ≠ AndyInQtr/laya-coreai ≠ mizorewww/laya-coreml; serving substrate ≠ calibrated replica; wayfind/metask-jev-4b-policy-mix ≠ metask-ai/metask-jev; majiayu000/awesome-jev ≠ heyjunpenn/awesome-jev ≠ yibie/awesome-jev; rajasekharponakala/jev-mcp ≠ thedv91/jev-mcp ≠ jkudish/jev-mcp; skip-thin jev-droid 404 mach empty SHA; game success ≠ calibrated Noul; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57; notes.md §134
+
 ## 2026-09-21 ~03:46 UTC / ~21:46 Boise - Hourly 2146 HIGH
 - Fresh PR off latest `main` after merged #56 (hourly 2049 / `notes.md` §132
   / items 521–536 / batch #114) and merged #55 (hourly 1946 / `notes.md` §131).

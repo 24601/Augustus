@@ -277,8 +277,8 @@ def self_test() -> None:
     nano_readme = by_id["github:TianyuCodings/NanoJev"].get("readme_sha")
     assert isinstance(nano_readme, str) and nano_readme.startswith("4190093c64ee")
     openjev = by_id["github:Zefan-Cai/Open-Jev"]["fingerprints"]
-    assert openjev["default_sha"] == "a00559ea0ab2c022a149c0afa54dde30941419a8"
-    assert openjev["pushed_at"] == "2026-09-21T02:50:45Z"
+    assert openjev["default_sha"] == "48346d0630f14327041928b4b3ecbe07ef65ad6c"
+    assert openjev["pushed_at"] == "2026-09-21T04:05:14Z"
     openjev_readme = by_id["github:Zefan-Cai/Open-Jev"].get("readme_sha")
     assert isinstance(openjev_readme, str) and openjev_readme.startswith("ce1a587219e4")
     assert by_id["hf:ZefanCai/Open-Jev-2B"]["fingerprints"]["default_sha"].startswith("0c7aa498b162")
@@ -299,6 +299,10 @@ def self_test() -> None:
     assert kevin["default_sha"].startswith("96336428dc15")
     jevlab = by_id["github:mjyoke1111/jev-lab"]["fingerprints"]
     assert jevlab["default_sha"].startswith("0bd66957283a")
+    typellm = by_id["github:TypeLLM/TypeLLM"]["fingerprints"]
+    assert typellm["default_sha"].startswith("8a8b4aefd443")
+    simple = by_id["github:featherless-ai/simple-jev"]["fingerprints"]
+    assert simple["default_sha"].startswith("b02aa81c915a")
     densify_original_ids = {
         "github:razorback16/openjev": "75",
         "github:wfzyx/von": "49",

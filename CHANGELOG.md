@@ -16,6 +16,48 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 2246 HIGH (`research/notes.md` §134 / composition items
+553–568 / findings batch #116). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#57.
+Do not amend released 0.5.0 (#42). Merged #57 owns §133. Merged #56
+owns §132. Merged #55 owns §131. Merged #54 owns §130. Merged #53
+owns Open-Jev densify on §125.
+
+### Added
+
+- **Hourly 2246 HIGH (`notes.md` §134).** Open-Jev TREC densify HEAD
+  48346d0630f1 / README SHA unchanged. TREC prep ≠ completed Open-Jev
+  TREC / context proof ≠ nDCG / CPU tests ≠ GPU scores / 79 CPU tests
+  *theirs* / Open-Jev TREC pending. TypeLLM PyPI densify HEAD
+  8a8b4aefd443 / typellm 0.1.1 / PyPI packaging ≠ calibrated Noul /
+  Constrained AR ≠ calibrated Noul. simple-jev 408★ first card /
+  logits are not calibrated probabilities of correctness /
+  wire-compat ≠ logit-equiv. jev-directory catalog ≠ endorsement.
+  Jev-Mem 11.0% 6.6× 36.7% *theirs* not Harbor.
+  FogMoe/necro abandoned LoRA retrospective.
+  Evaluator: TREC prep ≠ completed Open-Jev TREC / context proof ≠
+  nDCG / PyPI packaging ≠ calibrated Noul / logits are not calibrated
+  probabilities of correctness.
+  uniqueness_gate.py now checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 +
+  1049 + 1143 + 1248 + 1340 + 1441 + 1542 + 1643 + 1746 + 1843 + 1936 +
+  Open-Jev densify + 1946 + 2049 + 2146 + 2246.
+  Composition items 553–568 / batch #116.
+  **HARD RULE:** do not reopen or amend PR #23–#57. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat a CPU-passing
+  TREC prep as completed Open-Jev nDCG, a PyPI wheel as a calibrated Noul,
+  next-token logits as P(correct), a 50-eval directory as endorsement,
+  or LoCoMo 11.0% as Harbor. With Augustus: TREC prep ≠ completed
+  Open-Jev TREC; context proof ≠ nDCG; CPU tests ≠ GPU scores; PyPI
+  packaging ≠ calibrated Noul; Constrained AR ≠ calibrated Noul;
+  logits are not calibrated probabilities of correctness;
+  wire-compat ≠ logit-equiv; catalog ≠ endorsement; *theirs* not Harbor.
+  Same split for any Choice/Score/Noul-style head, not only hosted Jev.
+
+
 Hourly 2146 HIGH (`research/notes.md` §133 / composition items
 537–552 / findings batch #115). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in
