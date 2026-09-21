@@ -1368,7 +1368,7 @@
       "kind": "github",
       "title": "ktaletsk/jevframe",
       "url": "https://github.com/ktaletsk/jevframe",
-      "note": "MIT, PyPI. pandas and Polars .jev accessor; full p__ columns; no silent renormalize. Sibling of jevpandas. notes.md §48."
+      "note": "MIT, PyPI. pandas and Polars .jev accessor; full p__ columns; no silent renormalize. Sibling of jevpandas. notes.md §48. Hourly 1256 densify HEAD 16bd3eae69b7 README SHA 6e0a9ef1ba79. no result thresholded or silently renormalized. densify §48 not a sibling first sighting. notes.md §150."
     },
     {
       "kind": "github",
@@ -5395,6 +5395,438 @@
       "title": "peterpme/lev",
       "url": "https://github.com/peterpme/lev",
       "note": "Primary repo. Educational Kev pointer: Qwen2.5-0.5B + LoRA rank 16 + pointer head. POST /v1/systemone choice only; noul and score later. License file absent. 1 star. HEAD 9b379262e45f4bc2ebecccc2c7927800c61bdc99. GitHub release 1.0.0 published 2026-09-21T17:30:54Z at 49d23ff319dacc266e44b55ed1f6c74fb18c34b9; HEAD is one commit ahead of the tag. banking77-v1 accuracy 0.88 on 150 *theirs*. Soft scores are not hard gates. Not glance, not trained Laya, not OpenJev, not a replacement for jaredpalmer/kev. notes.md §149."
-    }
+    },
+  {
+    "kind": "github",
+    "title": "a1393323447/jevapi",
+    "url": "https://github.com/a1393323447/jevapi",
+    "note": "1★ MIT HEAD 6781d2b03626 README SHA 5b45be0a5d56 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "AboveColin/jevclient",
+    "url": "https://github.com/AboveColin/jevclient",
+    "note": "2★ MIT HEAD a225eadd6eb0 README SHA 5e102cbaa555 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "actions-marketplace-validations/sathariels_jevtriage",
+    "url": "https://github.com/actions-marketplace-validations/sathariels_jevtriage",
+    "note": "0★ MIT HEAD fe35077d9aa8 README SHA 6bb9e43350aa HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "adorosario/jev-rag-claim-verification",
+    "url": "https://github.com/adorosario/jev-rag-claim-verification",
+    "note": "0★ MIT HEAD 2bdb4d9f3935 README SHA 9b6547d48a39 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "allebee/jevgrep",
+    "url": "https://github.com/allebee/jevgrep",
+    "note": "0★ MIT HEAD 5cebf4c046ac README SHA e30654352e5f HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "antodiazcano/jev",
+    "url": "https://github.com/antodiazcano/jev",
+    "note": "0★ MIT HEAD 102389748e36 README SHA d64554387885 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "AviroopPaul/jev-playground",
+    "url": "https://github.com/AviroopPaul/jev-playground",
+    "note": "0★ NOASSERTION HEAD c10f5c8fab75 README SHA 6e743b9d1cba HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "breejesh/gen1",
+    "url": "https://github.com/breejesh/gen1",
+    "note": "0★ Apache-2.0 HEAD 61651fe0b311 README SHA aaec8e06be89 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "bytelabs-oss/clash-jev",
+    "url": "https://github.com/bytelabs-oss/clash-jev",
+    "note": "1★ MIT HEAD 04d420669966 README SHA 31f93aa3c8d7 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "caramellumm/jev-crap",
+    "url": "https://github.com/caramellumm/jev-crap",
+    "note": "0★ MIT HEAD 1f76f61ea1cd README SHA 8714238be457 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "Cognition-Forge/snake-laya",
+    "url": "https://github.com/Cognition-Forge/snake-laya",
+    "note": "0★ MIT HEAD 20629e8371fe README SHA 8a9ab3cde76d HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "colin-hofer/will-it-jev",
+    "url": "https://github.com/colin-hofer/will-it-jev",
+    "note": "0★ NOASSERTION HEAD 13fc38b28c1a README SHA empty HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "Debasishhh/jevguard",
+    "url": "https://github.com/Debasishhh/jevguard",
+    "note": "0★ MIT HEAD 29124d49d2de README SHA f144a8ec782a HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "dedene/jevspin",
+    "url": "https://github.com/dedene/jevspin",
+    "note": "0★ MIT HEAD 8d5be44aa3a3 README SHA 9088c69a4593 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "dipendra-sharma/jev-cli",
+    "url": "https://github.com/dipendra-sharma/jev-cli",
+    "note": "0★ MIT HEAD ba88b49d5100 README SHA cbe725d38036 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "DKim50/Jev-Beater-Reranker",
+    "url": "https://github.com/DKim50/Jev-Beater-Reranker",
+    "note": "0★ NOASSERTION HEAD 7f86882e2e7a README SHA aaac5c2ca33e HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "fstandhartinger/who-is-right",
+    "url": "https://github.com/fstandhartinger/who-is-right",
+    "note": "0★ MIT HEAD 0a5382474f91 README SHA cbecaeb3721c HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "GodModeAI2025/JevCoreML",
+    "url": "https://github.com/GodModeAI2025/JevCoreML",
+    "note": "0★ Apache-2.0 HEAD cb5c261a1412 README SHA f61f018eee8f HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "harlanljones/jev-roster-shapes",
+    "url": "https://github.com/harlanljones/jev-roster-shapes",
+    "note": "0★ MIT HEAD 1d94f9e07fe8 README SHA 4653c58a6459 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "harlanljones/sabr-jev",
+    "url": "https://github.com/harlanljones/sabr-jev",
+    "note": "0★ NOASSERTION HEAD 1b145d7155dd README SHA df55c694a0f0 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "harrisonmuskat/jev-codenames",
+    "url": "https://github.com/harrisonmuskat/jev-codenames",
+    "note": "0★ MIT HEAD 4187a625f029 README SHA f3c163239ed5 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "heyaozh/jev-rust-crater",
+    "url": "https://github.com/heyaozh/jev-rust-crater",
+    "note": "0★ NOASSERTION HEAD 4d4e00226575 README SHA c0824bf32590 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "hfnissum-byte/Hunkpick",
+    "url": "https://github.com/hfnissum-byte/Hunkpick",
+    "note": "1★ NOASSERTION HEAD 25af4c00c663 README SHA 328492928c7a HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "hqvdvn-cmd/astra-jev-benchmark",
+    "url": "https://github.com/hqvdvn-cmd/astra-jev-benchmark",
+    "note": "0★ NOASSERTION HEAD a3ae89f21eb1 README SHA 9ca9973befd4 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "ilumn/jev-proof-selector",
+    "url": "https://github.com/ilumn/jev-proof-selector",
+    "note": "0★ NOASSERTION HEAD empty README SHA empty HTTP 409. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "imranrkhan13/jevscope",
+    "url": "https://github.com/imranrkhan13/jevscope",
+    "note": "0★ NOASSERTION HEAD 192850a3d21f README SHA 0ace34dbeda3 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "INV-32549632/account-notices-x4jevw5t",
+    "url": "https://github.com/INV-32549632/account-notices-x4jevw5t",
+    "note": "0★ NOASSERTION HEAD 9717a0f6804e README SHA empty HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "jverhoeks/claude-laya",
+    "url": "https://github.com/jverhoeks/claude-laya",
+    "note": "0★ MIT HEAD 17e3906bd44b README SHA c38619b1bfa6 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "khursheed33/laya-routing-and-descision-making",
+    "url": "https://github.com/khursheed33/laya-routing-and-descision-making",
+    "note": "0★ Apache-2.0 HEAD 30be863d3826 README SHA d98e14e275bf HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "knishika62/laya-mlx-demo",
+    "url": "https://github.com/knishika62/laya-mlx-demo",
+    "note": "0★ NOASSERTION HEAD 426fbd6cbfb9 README SHA 5b886f400a29 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "krisitown/jev-router",
+    "url": "https://github.com/krisitown/jev-router",
+    "note": "0★ NOASSERTION HEAD e2809e09f497 README SHA fa27068d3876 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "krushideep/Worldtour",
+    "url": "https://github.com/krushideep/Worldtour",
+    "note": "0★ NOASSERTION HEAD 30ba1a6f5e52 README SHA d76692924217 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "lldois/dsh-jev",
+    "url": "https://github.com/lldois/dsh-jev",
+    "note": "0★ MIT HEAD 749bb3b7cbd3 README SHA 952d2399542c HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "lvzhaobo/jev-loop",
+    "url": "https://github.com/lvzhaobo/jev-loop",
+    "note": "1★ NOASSERTION HEAD 280e04672df0 README SHA 09145f842f82 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "midorisawa/Shirakawa",
+    "url": "https://github.com/midorisawa/Shirakawa",
+    "note": "0★ NOASSERTION HEAD empty README SHA empty HTTP 409. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "MikeBinstock/llm2jev.com",
+    "url": "https://github.com/MikeBinstock/llm2jev.com",
+    "note": "0★ NOASSERTION HEAD ea3b01a297e0 README SHA empty HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "mraad/lunar-mpc-laya",
+    "url": "https://github.com/mraad/lunar-mpc-laya",
+    "note": "0★ Apache-2.0 HEAD 0917288790a5 README SHA feb05afef74c HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "mrebbert/Jev-CustomerService-Demo",
+    "url": "https://github.com/mrebbert/Jev-CustomerService-Demo",
+    "note": "0★ MIT HEAD 850cbcacca38 README SHA 63085820dd67 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "mrrasmussendk/jev.net",
+    "url": "https://github.com/mrrasmussendk/jev.net",
+    "note": "0★ MIT HEAD a95096a888ca README SHA fd20f3657856 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "Nachi-Kulkarni/jev_voice_agents",
+    "url": "https://github.com/Nachi-Kulkarni/jev_voice_agents",
+    "note": "0★ NOASSERTION HEAD cf91077a84db README SHA 48b75fd2f5f1 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "nadeemcite/jev-crash-course",
+    "url": "https://github.com/nadeemcite/jev-crash-course",
+    "note": "0★ NOASSERTION HEAD 07e235496f87 README SHA 055646fdef9a HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "nadyth/jev-crash-course",
+    "url": "https://github.com/nadyth/jev-crash-course",
+    "note": "0★ NOASSERTION HEAD 464e1814fc0c README SHA 055646fdef9a HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "navidkashani/jev-guard",
+    "url": "https://github.com/navidkashani/jev-guard",
+    "note": "0★ GPL-2.0 HEAD e81213ae2a45 README SHA e93d3d631ab5 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "Neoo-Blue/vibecheck",
+    "url": "https://github.com/Neoo-Blue/vibecheck",
+    "note": "0★ NOASSERTION HEAD cfd6c46899f8 README SHA 718ab09e0442 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "nvkudva/laya-server",
+    "url": "https://github.com/nvkudva/laya-server",
+    "note": "0★ Apache-2.0 HEAD 8c8214866ce4 README SHA bb1ccbf22c09 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "paddix/JEV",
+    "url": "https://github.com/paddix/JEV",
+    "note": "0★ NOASSERTION HEAD d85457fc12b9 README SHA f71f34849291 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "pb-crackers/Jev-Cognigy-QA-Suite",
+    "url": "https://github.com/pb-crackers/Jev-Cognigy-QA-Suite",
+    "note": "0★ MIT HEAD ee8761443a5f README SHA 1e1647f2309e HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "RavenValentin/TypeSafe.Jev",
+    "url": "https://github.com/RavenValentin/TypeSafe.Jev",
+    "note": "0★ MIT HEAD 5868475507e5 README SHA 6a4cf10feb67 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "revsmoke/promptrejectormcp",
+    "url": "https://github.com/revsmoke/promptrejectormcp",
+    "note": "2★ ISC HEAD 752217d26fe9 README SHA dab9c144b5f2 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "seethinajayadileep/jev-desk",
+    "url": "https://github.com/seethinajayadileep/jev-desk",
+    "note": "0★ NOASSERTION HEAD 862cd15814d4 README SHA empty HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "sirkirby/routr",
+    "url": "https://github.com/sirkirby/routr",
+    "note": "1★ MIT HEAD baf0ff1701fe README SHA 0de53c21b5c2 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "smartaces/jev-plays-streetfighter-2",
+    "url": "https://github.com/smartaces/jev-plays-streetfighter-2",
+    "note": "6★ NOASSERTION HEAD 24c62c9fa4c1 README SHA 6f8c7547708d HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "sonson0910/jev-router",
+    "url": "https://github.com/sonson0910/jev-router",
+    "note": "0★ MIT HEAD cadeffefd373 README SHA 933b7973c5b4 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "SuperInstance/jev-receipts",
+    "url": "https://github.com/SuperInstance/jev-receipts",
+    "note": "0★ NOASSERTION HEAD 3c3cd6a65d5d README SHA 4c5ce7395fdb HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "SuperInstance/jeviter",
+    "url": "https://github.com/SuperInstance/jeviter",
+    "note": "0★ NOASSERTION HEAD 3fe97c617f85 README SHA 4aca686183e2 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "TheNerdMan/docker-laya-api",
+    "url": "https://github.com/TheNerdMan/docker-laya-api",
+    "note": "0★ NOASSERTION HEAD f91b093ae0ab README SHA c64518af06fe HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "TheSeriousProgrammer/QwenJev",
+    "url": "https://github.com/TheSeriousProgrammer/QwenJev",
+    "note": "0★ NOASSERTION HEAD empty README SHA empty HTTP 409. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "tomfrazier/slopmop",
+    "url": "https://github.com/tomfrazier/slopmop",
+    "note": "0★ MIT HEAD 39b8385346fd README SHA e20a4ea79dc4 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "treble-maker123/jev-playground",
+    "url": "https://github.com/treble-maker123/jev-playground",
+    "note": "0★ NOASSERTION HEAD 943d28ae2e58 README SHA 7057fd41b434 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "v60samurai/jev-atlas",
+    "url": "https://github.com/v60samurai/jev-atlas",
+    "note": "0★ MIT HEAD e780e4d6f2f4 README SHA 2de502d2ab25 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "vincentlauriat/ClaudeMenu",
+    "url": "https://github.com/vincentlauriat/ClaudeMenu",
+    "note": "0★ MIT HEAD 19bdaa52e812 README SHA d9e869633f8d HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "vishalbitit/jev-prior-auth-triage",
+    "url": "https://github.com/vishalbitit/jev-prior-auth-triage",
+    "note": "0★ NOASSERTION HEAD 737f9e79c9f0 README SHA empty HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "WanLanglin/jev-wikirace",
+    "url": "https://github.com/WanLanglin/jev-wikirace",
+    "note": "n/a★ NOASSERTION HEAD empty README SHA empty HTTP 404. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "wbuecksler/jev-voice-browser-chrome-extension",
+    "url": "https://github.com/wbuecksler/jev-voice-browser-chrome-extension",
+    "note": "0★ MIT HEAD c7edce23b526 README SHA a802b76822f6 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "zsoist/BUILD-DAY---Danis-Project",
+    "url": "https://github.com/zsoist/BUILD-DAY---Danis-Project",
+    "note": "0★ NOASSERTION HEAD 992160fa56eb README SHA b7d4f02b0a47 HTTP 200. Hourly 1256. *theirs* not Harbor. catalog ≠ endorsement. notes.md §150."
+  },
+  {
+    "kind": "hf-space",
+    "title": "hf:libingzheren/Jev-Mem",
+    "url": "https://huggingface.co/spaces/libingzheren/Jev-Mem",
+    "note": "2 likes sha 04a14aef0a1f README SHA bda71e05e76f. Hourly 1256. *theirs* not Harbor. notes.md §150."
+  },
+  {
+    "kind": "hf-model",
+    "title": "hf:Cruzex/laya-typed-decisions-smoketest",
+    "url": "https://huggingface.co/Cruzex/laya-typed-decisions-smoketest",
+    "note": "0 likes sha a3d15d7b009e README SHA 4f77e7f2ed6a. Hourly 1256. *theirs* not Harbor. notes.md §150."
+  },
+  {
+    "kind": "hf-space",
+    "title": "hf:abidlabs/jev-typed-decisions-causal-0-6b-trackio",
+    "url": "https://huggingface.co/spaces/abidlabs/jev-typed-decisions-causal-0-6b-trackio",
+    "note": "0 likes sha 826f832f7e21 README SHA a86989fd473a. Hourly 1256. *theirs* not Harbor. notes.md §150."
+  },
+  {
+    "kind": "hf-model",
+    "title": "hf:abidlabs/jev-typed-decisions-causal-0.6b",
+    "url": "https://huggingface.co/abidlabs/jev-typed-decisions-causal-0.6b",
+    "note": "0 likes sha 440a8931d8db README SHA b5075891650a. Hourly 1256. *theirs* not Harbor. notes.md §150."
+  },
+  {
+    "kind": "hf-model",
+    "title": "hf:abidlabs/jev-typed-decisions-causal-0.6b-smoke",
+    "url": "https://huggingface.co/abidlabs/jev-typed-decisions-causal-0.6b-smoke",
+    "note": "0 likes sha 8f3ce099e101 README SHA 0336368f8274. Hourly 1256. *theirs* not Harbor. notes.md §150."
+  },
+  {
+    "kind": "hf-model",
+    "title": "hf:s1lv3rj1nx/openjev-general-lora",
+    "url": "https://huggingface.co/s1lv3rj1nx/openjev-general-lora",
+    "note": "0 likes sha ec7ce42f6a47 README SHA aaa16b539792. Hourly 1256. *theirs* not Harbor. notes.md §150."
+  },
+  {
+    "kind": "hf-space",
+    "title": "hf:suryatmodulus/open-jev-demo",
+    "url": "https://huggingface.co/spaces/suryatmodulus/open-jev-demo",
+    "note": "0 likes sha ad21fca3000f README SHA df7074d7d94a. Hourly 1256. *theirs* not Harbor. notes.md §150."
+  }
   ]
 }
