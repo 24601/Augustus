@@ -1409,7 +1409,10 @@ Watch until weights, license, and evals exist.
    28 ms e2e / 10 questions H100 bf16. Code:
    [kotoba-lang/typed-decisions](https://github.com/kotoba-lang/typed-decisions).
    Independent of TypeSafe. Self-eval duty unchanged. Do not copy the
-   client signature.
+   client signature. GitHub training-record first-sighting is
+   `notes.md` §130. This Hub encoder card stays here.
+   kotoba-lang/typed-decisions ≠ convaiinnovations/laya-typed-decisions.
+   encoder class member not Jev replica.
 
 4. **Constrained-decoding / calibration gold (no token generated).**
    [`Mikhail/mini-jev-runs`](https://huggingface.co/datasets/Mikhail/mini-jev-runs)
@@ -10870,7 +10873,8 @@ fxtwitter) + uploaded raw JSON + live X MCP
 **Verbatim list** (tweet; last line is three
 products — ~18 named as the user said):
 
-- system-one-open
+- system-one-open — GitHub first-sighting `notes.md` §130
+  (mithalouni/system-one-open). Table row stays this board.
 - openjev-sglang
 - open-jev-deberta-v3-large
 - Needle 3
@@ -10881,7 +10885,8 @@ products — ~18 named as the user said):
 - open-jev (JoshuaSP)
 - OpenJev (razorback16 / Codiv)
 - mini-jev (Mikhail Rakutko (r-ms))
-- system-one (Sean Goedecke)
+- system-one (Sean Goedecke) — GitHub first-sighting `notes.md` §130
+  (sgoedecke/system-one). This tweet stays a census pointer.
 - system-one-gemma (Akash Kamat)
 - jevlike (Vincent Wang-Maścianica)
 - AlexWortega/openjev (Alex Wortega)
@@ -11149,6 +11154,11 @@ Treat **75.3 as a class ceiling** only after naming
 the four axes and the ×2/est. assumptions. Luna
 Intelligence **96.8** at rank **#7** is the teaching
 example: a weak Cost axis cannot be bought back.
+
+GitHub first-sighting of mithalouni/system-one-open (and of
+sgoedecke/system-one on this board's Qwen3-8B row) is `notes.md`
+§130. This table stays §78 *theirs*. replica ≠ TypeSafe.
+TypeSafe-compatible ≠ TypeSafe replica. Soft scores ≠ hard gates.
 
 ### Weighting is a product design *theirs*
 
@@ -32514,3 +32524,274 @@ Hooks for the reviewer:
   No live Jev key. No wrappers.
 
 Hourly 1843 uniqueness lock: jaredpalmer/kev densify HEAD bd058057ad0a README SHA 84b872488915; Fine-tuning on your own data; --data JSONL; --init_from warm-start LoRA/head PR #9; Kev-0.8B 4B 9B Qwen3.5 family; 4B new-source 0.794/0.832 *theirs*; 9B new-source 0.812/0.837 *theirs*; 0.33 vs 0.84 vs 0.83/0.88 *theirs*; from-scratch ≠ warm-start; JSONL labels ≠ Harbor; Kev-0.5B card Qwen3.5 family pointer; No Jev outputs were used for training; option order can change an answer; 8.2% ≥0.9 on wrong *theirs*; Kev-9B 7.5% ≥0.9 on wrong *theirs*; dabit3/jev-experiments densify 340★; simota/tenbin densify neighbor skill; Promethe-us/awesome-jev ≠ MrJev/awesome-jev ≠ yibie/awesome-jev; kyegomez/open-jev reconstruction ≠ replica; unofficial research implementation with random weights; kyegomez/open-jev ≠ razorback16/openjev ≠ TheoLeeCJ/openjev ≠ Zefan-Cai/Open-Jev ≠ Shalimov04/open-jev; jourdanlabs/assay-001 split verdict; CLINC150 ECE 0.0204 *theirs*; Banking77 ECE 0.0936 *theirs*; 8,576 responses zero type errors *theirs*; brnyxx/jev-ra 3-5x / ~300 ms *theirs*; 8.50× Wikipedia *theirs*; ThePFMind/jev-mcp ≠ jkudish/jev-mcp ≠ burnigtm/jev-mcp; namenu/pi-jev-effort ≠ TheoOliveira/pi-jev; samatv256/mini-Jev ≠ r-ms/mini-jev; comoc/jev-minesweeper ≠ EnesYilmazcode/JevMinesweeper; game success ≠ calibrated Noul; Nutlope/jev-fraud Kimi K3; jeffloo886/jev-notion; hf:akhilaaa3/openjev-v1-allmix-r512-merged ≠ hf:akhilaaa3/openjev-r512-handoff-demo; serving substrate ≠ calibrated replica; catalog ≠ endorsement; SHA move is not a replica; wire-compat ≠ logit-equiv; Qwen3.5 ≠ Archer; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51; notes.md §129
+
+## 130. User-provided HIGH - aisearchio census gaps (2026-09-20 ~19:36 Boise / 2026-09-21T01:36Z)
+
+Coverage audit on a **fresh PR off latest `main`**
+(`cursor/aisearchio-census-gaps-5171`) after `d26578f` (merged #52
+hourly 1843, `notes.md` §129 / items 481–496 / batch #111; merged #51
+hourly 1746, `notes.md` §128). **HARD RULE:** do not reopen or
+amend PR #23–#52. Do **not** re-fold §129 1843 / §128 1746 / §127 1643
+*as a second census*. This fold's IDs: `notes.md` §130 / composition
+497–504 / findings batch #112.
+
+Never reopen merged #7–**#52**. Do **not** bump the 0.5.0 pin.
+Skip Archer rewrite. Quote READMEs. Mark *theirs*. No wrappers, keys,
+`npm` / `pip` / `uv` / `docker` / Modal deploy recipes.
+`invented_signal: false`. Hunches labeled. Soft scores ≠ hard gates.
+replica ≠ TypeSafe. TypeSafe-compatible ≠ TypeSafe replica.
+
+Basit asked to cover every repo in
+[@aisearchio](https://x.com/aisearchio/status/2101720039779086414)
+(open-source Jev alternatives list, 2026-09-20 17:08 UTC). The tweet is
+a **community census pointer**. catalog ≠ endorsement. 15 GitHub links.
+12 already carded or densified (laya, open-alternative-jev, openjev,
+jeff, kev, openjev-sglang, openJev-verdict-2.0, nimble, classifier-dev,
+SemIf, fast-jev-compaction, jevlike). Three gaps this fold:
+
+1. **[sgoedecke/system-one](https://github.com/sgoedecke/system-one)**
+   MISSING. First-sighting card below.
+2. **[mithalouni/system-one-open](https://github.com/mithalouni/system-one-open)**
+   name-drop / Benchmark Heaven table only (§78). Promote to a real
+   first-sighting card. Do not mint a sibling of the table row.
+3. **[kotoba-lang/typed-decisions](https://github.com/kotoba-lang/typed-decisions)**
+   thin one-link under the Hub encoder (§33). Proper first-sighting.
+   Namesake lock vs
+   [`convaiinnovations/laya-typed-decisions`](https://huggingface.co/convaiinnovations/laya-typed-decisions).
+   The Hub encoder card stays §33.
+
+Lane is Augustus: **mathematical / logical / algorithmic mental models**
+for Jev-class categorization/scoring across AI / SWE / **business /
+knowledge work / life**, not SWE-only. PRIMARY this fold is the three
+gap first-sightings plus the census pointer. Third-party benches stay
+*theirs*. Softmax over option letters is still not a Noul. SHA move is
+not a replica. Archer still **promised_not_landed**.
+
+Unique consecutive fragments (this fold) must appear as **one
+substring** in overlays (see uniqueness gate):
+User-provided 1936 uniqueness lock: sgoedecke/system-one 20★ HEAD ebde2a2db706 README SHA d331b567e2c3; SystemOne.from_pretrained; Batched single-token choice inference; TypeSafe-compatible; cache_prefix=True; LICENSE absent; sgoedecke/system-one ≠ mithalouni/system-one-open ≠ KathanModh259/system-one ≠ babybear-labs/system-one; TypeSafe-compatible ≠ TypeSafe replica; mithalouni/system-one-open 18★ MIT HEAD 77f1f7cccf8a README SHA 535f33028a68 LICENSE SHA 2f6f2cf1064e; Gemma 4 E2B / Gemma 3 270M Modal; 76.7% vs Jev 86.9% strict common subset *theirs*; 97 ms H100 *theirs*; 74.8% held-out *theirs*; replica ≠ TypeSafe; HF upload pending; kotoba-lang/typed-decisions 1★ Apache-2.0 HEAD 10d7834d3b99 README SHA 4d6bbf4c4e44 LICENSE SHA 513bb5e3cb4c; ModernBERT / DeBERTa / LLaDA-MoE; DeBERTa-v3-large 0.855 / 42 ms *theirs*; ModernBERT-base 0.717 / 68 ms *theirs*; LLaDA-MoE 0.835 / 676 ms *theirs*; kotoba-lang/typed-decisions ≠ convaiinnovations/laya-typed-decisions; encoder class member not Jev replica; aisearchio 15-link census catalog ≠ endorsement; 12 already carded 3 gaps this fold; soft scores ≠ hard gates; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52; notes.md §130
+
+### How-to-apply (four placements / class lenses)
+
+These are *class* lenses, not vendor tutorials. Same discipline as
+§129 (reconstruction ≠ replica) and §126 (Constrained AR ≠ calibrated
+Noul). Formal methods **compose**: a Noul is a SENSOR; a batched
+single-token Choice is not hosted Jev; a Gemma LoRA replica is not
+TypeSafe; a census list is an index.
+
+1. **TypeSafe-compatible ≠ TypeSafe replica**
+   (sgoedecke/system-one PRIMARY). Quote *theirs*: Turn any LLM into a
+   System One model like Jev: a fast general classifier that you can
+   supply a set of questions to and get an answer in a single forward
+   pass. `SystemOne.from_pretrained`. Compatible with TypeSafe
+   (`typesafe_sdk.Choice`). Prefill `choice_index:` and constrain
+   logits to index tokens. `cache_prefix=True` batches question
+   suffixes after one prefill. That is an **open LM logit trick** on
+   stock Qwen, not RLCD and not hosted `jev-1.13`. TypeSafe-compatible
+   ≠ TypeSafe replica. Do **not** copy `pip install -e .`.
+2. **replica ≠ TypeSafe**
+   (mithalouni/system-one-open). Quote *theirs*: State in, typed
+   calibrated decisions out, one forward pass, no decoding. Open
+   replica of TypeSafe's Jev on Gemma 4 E2B (attention LoRA) and
+   Gemma 3 270M, trained and served on Modal. MIT. TypeSafe public
+   eval, strict common subset (343 pairs): Jev **86.9%** vs this
+   replica **76.7%** *theirs*. Stock Qwen 7B 73.8% *theirs*. 27-question
+   launch-demo 97 ms H100 vs Jev 114 ms *theirs*. Held-out task types
+   74.8% *theirs*. Demo families 98.8% / ECE 0.003 *theirs*. Weights:
+   open on the Modal volume; HF upload pending. replica ≠ TypeSafe.
+   Those numbers are the author's eval, not Harbor. Soft scores ≠
+   hard gates. Do **not** copy Modal `deploy` / `S1_GPU`.
+3. **Namesake lock: kotoba-lang/typed-decisions ≠ Laya HF**
+   (kotoba-lang/typed-decisions). Quote *theirs*: A lightweight
+   reproduction of the Jev shape (state + Choice / Score / Noul) on
+   two backbones so speed, accuracy/calibration, and training cost
+   can be read side by side. ModernBERT-base 0.717 / 68 ms *theirs*.
+   DeBERTa-v3-large **0.855 / 42 ms** *theirs*. LLaDA-MoE-7B-A1B LoRA
+   0.835 / 676 ms *theirs* (H100, 1,500 test states / 3,508 questions).
+   Public gold only (banking77 / sst5 / boolq). Jev's 67.8% on four
+   private workflows is **not comparable**. Hub
+   `com-kotobalabs/open-jev-deberta-v3-large` stays §33 (encoder open-jev,
+   in-domain 0.854 / OOD 0.690). This GitHub repo is the training
+   record, not Laya.
+   kotoba-lang/typed-decisions ≠ convaiinnovations/laya-typed-decisions
+   ≠ mys/laya-typed-decisions-GGUF. encoder class member not Jev replica.
+4. **catalog ≠ endorsement**
+   (aisearchio 15-link list). Quote *theirs*: Jev is closed and paid.
+   Here's a list of open source Jev alternatives I've found so far.
+   (There are likely more.) A vibe-clone census is an **index**, not a
+   grant and not a bake-off. Life analogue: a restaurant roundup is
+   not a health inspection. Do not treat the 15 URLs as Augustus
+   endorsements. The 12 already-carded links stay on their original
+   sections. This fold only mints first-sightings for the three gaps.
+
+### HIGH
+
+1. **[`sgoedecke/system-one`](https://github.com/sgoedecke/system-one)**
+   : NEW HIGH PRIMARY (Python; GitHub id **1374382889**; **20★**;
+   forks **3**; open issues **0**; size **125589**; default **main**;
+   homepage **null**; LICENSE **absent** this pass). HEAD
+   `ebde2a2db7067b920dfe51e9ce785613e66613d5` ("Revise README for
+   System One model details", 2026-09-18T03:22:06Z). README SHA
+   `d331b567e2c37146a6194004ee494d5f9bbc345d`. Created
+   2026-09-17T12:13:54Z; pushed 2026-09-18T03:22:07Z; updated
+   2026-09-20T21:23:45Z. Description *theirs*: "Batched single-token
+   choice inference for open language models, compatible with
+   TypeSafe." PyPI-style name `system-one-inference` 0.1.0; depends
+   `typesafe-sdk>=0.6,<0.7`. Quote README *theirs*: The code is
+   vibe-coded but I wrote this README by hand. `SystemOne.from_pretrained`
+   example uses `Qwen/Qwen2.5-0.5B-Instruct` plus `typesafe_sdk.Choice`.
+   How it works *theirs*: chat template, prefill `choice_index:`,
+   constrain sampling to index tokens; most likely index is the
+   choice in one forward pass. `cache_prefix=True` prefills once then
+   evaluates question suffixes. Demos *theirs* on **Qwen3-8B**: Doom
+   (Freedoom MAP0) 600 ms ordinary tool-calls vs 172 ms median System
+   One (3.5x); Wikipedia race Baseball → Scientific American →
+   Amateur astronomy → Sun in 3 hops (labels, not choice indexes,
+   because >1k links). Game success ≠ calibrated Noul. TypeSafe-compatible
+   ≠ TypeSafe replica. Namesake: sgoedecke/system-one ≠
+   mithalouni/system-one-open ≠ KathanModh259/system-one ≠
+   babybear-labs/system-one. Do **not** copy `pip` / demo MP4 recipes.
+   Star counts ephemeral.
+
+2. **[`mithalouni/system-one-open`](https://github.com/mithalouni/system-one-open)**
+   : NEW HIGH (was table-only §78). Python MIT; GitHub id
+   **1374004718**; **18★**; forks **4**; open issues **1**; size
+   **13272**; default **main**. HEAD
+   `77f1f7cccf8aa752e0ed7edcc8d2094bac707bdc` ("Add preset-scenarios
+   demo recording", 2026-09-17T07:06:53Z). README SHA
+   `535f33028a685b909fbc287409697be55da6756a`. LICENSE SHA
+   `2f6f2cf1064edf9f585eb7c4ed56269f981dd407` (Copyright (c) 2026
+   Rami Mithalouni; demo presets adapted from
+   rorshopping/jev-on-a-laptop MIT). Created 2026-09-17T05:56:58Z;
+   pushed 2026-09-17T07:06:55Z; updated 2026-09-20T18:12:14Z.
+   Description *theirs*: "Open replica of TypeSafe's Jev: typed
+   calibrated decisions in one forward pass, on Gemma 4 E2B / Gemma 3
+   270M (Modal)". Three primitives *theirs*: `choice`, `score`,
+   `noul`. Up to 52 options in one pass (A–Z, a–z single tokens in
+   Gemma). Quote table *theirs*: TypeSafe public eval, strict common
+   subset (343 pairs) Jev **86.9%** / replica **76.7%**; same eval
+   stock Qwen 7B 73.8%; 27-question launch-demo 114 ms vs 97 ms
+   (H100); 1,000 emails × 4 decisions 13.4 s / 74.6 emails/s / 95.4%
+   spam accuracy; demo task families 98.8% · ECE 0.003; held-out task
+   types 74.8%. Weights closed-API vs open safetensors on Modal; HF
+   upload pending. replica ≠ TypeSafe. *theirs* not Harbor. Soft
+   scores ≠ hard gates. Live demo *theirs* scales to zero (first
+   request after idle ~60 s). Do **not** copy Modal `run` / `deploy`.
+   Namesake: mithalouni/system-one-open ≠ sgoedecke/system-one.
+   §78 Benchmark Heaven row "system-one-open Gemma 4 E2B LoRA 68.7"
+   stays that board's *theirs*, not this README table.
+
+3. **[`kotoba-lang/typed-decisions`](https://github.com/kotoba-lang/typed-decisions)**
+   : NEW HIGH (was one-link §33). Python Apache-2.0; GitHub id
+   **1375505368**; **1★**; forks **0**; open issues **0**; size
+   **14217**; default **main**. HEAD
+   `10d7834d3b99041f890db4615fb38ef95ced50cc` (merge PR #6
+   code-holes, 2026-09-20T02:57:51Z). README SHA
+   `4d6bbf4c4e446270dea99bb8b9d70bf2df628f09`. LICENSE SHA
+   `513bb5e3cb4c876f35e941c1dcee1c64bfa1f4d5` (Apache-2.0,
+   Copyright 2026 kotoba-lang contributors). Created
+   2026-09-18T07:03:52Z; pushed 2026-09-20T02:58:24Z; updated
+   2026-09-20T02:57:55Z. Description *theirs*: Jev-shaped
+   typed-decision model (state + Choice/Score/Noul questions ->
+   calibrated probabilities, one pass) on ModernBERT / DeBERTa /
+   LLaDA-MoE, with measured latency, accuracy, calibration and
+   training cost. Quote *theirs*: the subject is the typed-decision
+   model, not a role and not an origin. Jev is the reference point,
+   not a spec we implement. Head-to-head H100 2026-09-18 *theirs*
+   (1,500 states / 3,508 questions): ModernBERT-base 149M 0.717 acc
+   / Brier 0.359 / ECE 0.013 / e2e 68 ms; DeBERTa-v3-large 435M
+   **0.855** / 0.204 / 0.014 / **42 ms**; LLaDA-MoE-7B-A1B LoRA
+   0.835 / 0.231 / 0.028 / 676 ms. Product path *theirs* is the
+   encoder, specifically DeBERTa-v3-large, not ModernBERT-large.
+   Public gold only. Jev 67.8% is a different target. Published Hub
+   `com-kotobalabs/open-jev-deberta-v3-large` stays §33 (in-domain
+   0.854 / OOD 0.690). encoder class member not Jev replica.
+   **Namesake lock:** kotoba-lang/typed-decisions ≠
+   convaiinnovations/laya-typed-decisions ≠
+   mys/laya-typed-decisions-GGUF. Do **not** copy `uv` / Modal
+   training. Star counts ephemeral.
+
+4. **[@aisearchio census](https://x.com/aisearchio/status/2101720039779086414)**
+   : community census pointer, not a first-sighting of a model.
+   Tweet id `2101720039779086414`; 2026-09-20 17:08 UTC; likes 128 /
+   bookmarks 135 / views 7619 this pass (ephemeral). Quote *theirs*:
+   Jev is closed and paid. But the nice thing about AI nowadays is
+   that it can vibe clone almost anything in just a few hours.
+   Here's a list of open source Jev alternatives I've found so far.
+   (There are likely more). **15 links.** Already carded/densified
+   (12): NandhaKishorM/laya (§76), ikermoel/open-alternative-jev
+   (§49), razorback16/openjev (§75), logan-markewich/jeff (§60),
+   jaredpalmer/kev (§45), ekzhang/openjev-sglang, Heman10x-NGU/openJev-verdict-2.0
+   (§71), bespokelabsai/nimble, mrmps/classifier-dev (§73),
+   TheoLeeCJ/SemIf (§117), tamaratran/fast-jev-compaction,
+   vinnylarouge/jevlike. Gaps folded here (3): mithalouni/system-one-open,
+   kotoba-lang/typed-decisions, sgoedecke/system-one. catalog ≠
+   endorsement. Do not treat the list as Harbor, as a bake-off, or as
+   Augustus picking winners. Cousin of §77 @airesearch12 Benchmark
+   Heaven tweet (different author, different artifact).
+
+### Theater (do not)
+
+Treat 76.7% / 86.9% as Harbor or as "the replica is Jev"; treat
+0.855 as a TypeSafe Noul; treat `SystemOne.from_pretrained` as hosted
+`jev-1.13`; treat TypeSafe-compatible SDK types as logit-equiv;
+collapse kotoba-lang/typed-decisions into
+convaiinnovations/laya-typed-decisions; treat the aisearchio list as
+an endorsement; copy `pip` / Modal / `uv`; reopen merged #23–#52;
+steal §129 from merged #52; bump 0.5.0; invent Archer.
+
+### Census
+
+Live REST quoted above. sgoedecke **20★**. mithalouni **18★**.
+kotoba-lang/typed-decisions **1★**. Star counts ephemeral. Archer
+still **NOT landed**. Hub archerhume/4rcherhume HTTP **401**.
+`invented_signal: false`.
+
+### Not
+
+Not a TypeSafe how-to. Not a System One / Gemma / DeBERTa install
+guide. Not a second Benchmark Heaven census. Not wrappers. Do not
+copy keys / commands. Do not dump source / weights / eval JSON.
+Skip Archer rewrite.
+
+### Adversarial review + testing hooks (Basit standing
+order)
+
+Parent merge only after **CLEAN** adversarial review **AND** testing.
+Hooks for the reviewer:
+
+- Uniqueness-gate: the consecutive
+  `User-provided 1936 uniqueness lock:` string must appear in every
+  overlay listed below. Prior walls 0843 / 0915 / jcr / 0922 / 0940 /
+  0947 / 1049 / 1143 / 1248 / 1340 / 1441 / 1542 / 1643 / 1746 / 1843
+  stay one substring each (do not mutate them; do not reopen #23–#52).
+- Namesake locks: sgoedecke/system-one ≠ mithalouni/system-one-open ≠
+  KathanModh259/system-one ≠ babybear-labs/system-one;
+  kotoba-lang/typed-decisions ≠ convaiinnovations/laya-typed-decisions.
+- Densify vs new: mithalouni was a table name-drop (§78); this is the
+  first-sighting card, not a sibling of the board. kotoba Hub encoder
+  stays §33; this is the GitHub training-record first-sighting.
+  sgoedecke was missing.
+- Harbor-jevals: 76.7% / 86.9% / 97 ms / 74.8% / 0.855 / 42 ms /
+  0.717 / 68 ms / 0.835 / 676 ms are *theirs*, not Harbor.
+- Anti-patterns to refuse: TypeSafe drop-in; TypeSafe-compatible as
+  replica; replica as TypeSafe; 0.855 as a hard gate; census as
+  endorsement; collapsing kotoba into Laya HF; copying keys /
+  `npm` / `pip` / `uv` / `docker` / Modal.
+- Overlay set: SKILL.md body (protocol fragments + User-provided 1936),
+  mental-models Apply 1936, composition-algebra items 497–504, faq,
+  mixed-architecture, validation, toolbox-mapping, methods-catalog,
+  formal-methods, formal-semi-formal, applied-mappings, judgment-class,
+  question-design, agent-self-assessment, mappings, CHANGELOG, README,
+  docs/ecosystem, findings batch #112, refresh-log, sources.json,
+  changelog-hourly.md, revisit_fingerprints.json (three first looks).
+- Offline check: `evaluate_decisions.py --self-test` (now includes
+  TypeSafe-compatible ≠ TypeSafe replica / replica ≠ TypeSafe /
+  kotoba ≠ laya-typed-decisions / census ≠ endorsement) and
+  `uniqueness_gate.py` (0843 + 0915 + jcr + 0922 + 0940 + 0947 +
+  1049 + 1143 + 1248 + 1340 + 1441 + 1542 + 1643 + 1746 + 1843 +
+  1936). No live Jev key. No wrappers.
+
+User-provided 1936 uniqueness lock: sgoedecke/system-one 20★ HEAD ebde2a2db706 README SHA d331b567e2c3; SystemOne.from_pretrained; Batched single-token choice inference; TypeSafe-compatible; cache_prefix=True; LICENSE absent; sgoedecke/system-one ≠ mithalouni/system-one-open ≠ KathanModh259/system-one ≠ babybear-labs/system-one; TypeSafe-compatible ≠ TypeSafe replica; mithalouni/system-one-open 18★ MIT HEAD 77f1f7cccf8a README SHA 535f33028a68 LICENSE SHA 2f6f2cf1064e; Gemma 4 E2B / Gemma 3 270M Modal; 76.7% vs Jev 86.9% strict common subset *theirs*; 97 ms H100 *theirs*; 74.8% held-out *theirs*; replica ≠ TypeSafe; HF upload pending; kotoba-lang/typed-decisions 1★ Apache-2.0 HEAD 10d7834d3b99 README SHA 4d6bbf4c4e44 LICENSE SHA 513bb5e3cb4c; ModernBERT / DeBERTa / LLaDA-MoE; DeBERTa-v3-large 0.855 / 42 ms *theirs*; ModernBERT-base 0.717 / 68 ms *theirs*; LLaDA-MoE 0.835 / 676 ms *theirs*; kotoba-lang/typed-decisions ≠ convaiinnovations/laya-typed-decisions; encoder class member not Jev replica; aisearchio 15-link census catalog ≠ endorsement; 12 already carded 3 gaps this fold; soft scores ≠ hard gates; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52; notes.md §130
+
+**User-provided 1936 HIGH (`notes.md` §130).** sgoedecke/system-one first-sighting. SystemOne.from_pretrained. TypeSafe-compatible ≠ TypeSafe replica. mithalouni/system-one-open first-sighting. 76.7% vs Jev 86.9% *theirs*. replica ≠ TypeSafe. kotoba-lang/typed-decisions first-sighting. DeBERTa-v3-large 0.855 / 42 ms *theirs*. kotoba-lang/typed-decisions ≠ convaiinnovations/laya-typed-decisions. aisearchio 15-link census catalog ≠ endorsement. soft scores ≠ hard gates. SHA move is not a replica. Do not reopen or amend PR #23–#52. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.

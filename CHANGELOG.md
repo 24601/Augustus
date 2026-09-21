@@ -16,6 +16,40 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+User-provided 1936 HIGH (`research/notes.md` §130 / composition items
+497–504 / findings batch #112). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#52.
+Do not amend released 0.5.0 (#42). Merged #52 owns §129. Merged #51 owns §128.
+
+### Added
+
+- **User-provided 1936 HIGH (`notes.md` §130).** sgoedecke/system-one
+  first-sighting / SystemOne.from_pretrained /
+  TypeSafe-compatible ≠ TypeSafe replica /
+  mithalouni/system-one-open first-sighting / 76.7% vs Jev 86.9% *theirs* /
+  replica ≠ TypeSafe / kotoba-lang/typed-decisions first-sighting /
+  DeBERTa-v3-large 0.855 / 42 ms *theirs* /
+  kotoba-lang/typed-decisions ≠ convaiinnovations/laya-typed-decisions /
+  aisearchio 15-link census catalog ≠ endorsement.
+  Soft scores ≠ hard gates. SHA move is not a replica.
+  Evaluator: TypeSafe-compatible ≠ TypeSafe replica / replica ≠ TypeSafe /
+  kotoba ≠ laya-typed-decisions / census ≠ endorsement.
+  uniqueness_gate.py now checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 +
+  1049 + 1143 + 1248 + 1340 + 1441 + 1542 + 1643 + 1746 + 1843 + 1936.
+  Composition items 497–504 / batch #112.
+  **HARD RULE:** do not reopen or amend PR #23–#52. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat
+  TypeSafe-compatible as a replica, 76.7% as Harbor, 0.855 as a hard
+  gate, kotoba as Laya HF, or a 15-link list as an endorsement. With
+  Augustus: TypeSafe-compatible ≠ TypeSafe replica; replica ≠ TypeSafe;
+  catalog ≠ endorsement; *theirs* not Harbor. Same split for any
+  Choice/Score/Noul-style head, not only hosted Jev.
+
+
 Hourly 1843 HIGH (`research/notes.md` §129 / composition items
 481–496 / findings batch #111). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in

@@ -20,7 +20,7 @@
     "forks_count",
     "likes"
   ],
-  "note": "Last-look snapshots for already-catalogued sources. Hourly diffs these four fingerprints. Star-noise is not a fold. SHA move is not a replica. Seeded from merged notes (SemIf §117, NanoJev §115) plus hourly 1248 densify (openjev §75, von §49, verdict §71, kev §45, jeff §60, TypeLLM §113) plus hourly 1340 densify (openjev sdk 0.7 + MLX 400, kev PLAN_Qwen35) plus hourly 1441 densify (openjev STE backends+Codiv dual serving) and 1441 first sightings plus hourly 1542 densify (TypeLLM README 3k→12k B, kev family new-source) and 1542 first sightings (pi-jev densify, jev-sentinel, tool-routers, leanest, jevals, MrJev, jev-firewall, jev-codex-approval, HF encoder/quanto). default_sha is the full HEAD. pushed_at is the GitHub push clock. description_hash is sha256[:12] of the GitHub/Space description, or null when notes do not quote it. README SHA is an optional extra, not a substitute for description_hash. plus hourly 1746 densify (TypeLLM truncated thinking + qwen35_small, kev 0.8B Qwen3.5 family, jev-pruner §53, jevassert §70, jev-packs §64) and 1746 first sightings (vexjoy, Canny, jev-engineering, five-lines, jev-table, kev-ane) plus hourly 1843 densify (kev own-data JSONL / --init_from warm-start, SHA 8465c4c4c294 → bd058057ad0a) and 1843 first sightings (assay-001, kyegomez reconstruction, jev-ra, catalogs).",
+  "note": "Last-look snapshots for already-catalogued sources. Hourly diffs these four fingerprints. Star-noise is not a fold. SHA move is not a replica. Seeded from merged notes (SemIf \u00a7117, NanoJev \u00a7115) plus hourly 1248 densify (openjev \u00a775, von \u00a749, verdict \u00a771, kev \u00a745, jeff \u00a760, TypeLLM \u00a7113) plus hourly 1340 densify (openjev sdk 0.7 + MLX 400, kev PLAN_Qwen35) plus hourly 1441 densify (openjev STE backends+Codiv dual serving) and 1441 first sightings plus hourly 1542 densify (TypeLLM README 3k\u219212k B, kev family new-source) and 1542 first sightings (pi-jev densify, jev-sentinel, tool-routers, leanest, jevals, MrJev, jev-firewall, jev-codex-approval, HF encoder/quanto). default_sha is the full HEAD. pushed_at is the GitHub push clock. description_hash is sha256[:12] of the GitHub/Space description, or null when notes do not quote it. README SHA is an optional extra, not a substitute for description_hash. plus hourly 1746 densify (TypeLLM truncated thinking + qwen35_small, kev 0.8B Qwen3.5 family, jev-pruner \u00a753, jevassert \u00a770, jev-packs \u00a764) and 1746 first sightings (vexjoy, Canny, jev-engineering, five-lines, jev-table, kev-ane) plus hourly 1843 densify (kev own-data JSONL / --init_from warm-start, SHA 8465c4c4c294 \u2192 bd058057ad0a) and 1843 first sightings (assay-001, kyegomez reconstruction, jev-ra, catalogs). plus user-provided 1936 first sightings (sgoedecke/system-one, mithalouni/system-one-open, kotoba-lang/typed-decisions).",
   "looks": [
     {
       "id": "github:TheoLeeCJ/SemIf",
@@ -1530,6 +1530,42 @@
         "release_tag": null
       },
       "readme_sha": null
+    },
+    {
+      "id": "github:sgoedecke/system-one",
+      "notes_section": "130",
+      "last_look": "2026-09-21T01:36Z",
+      "fingerprints": {
+        "default_sha": "ebde2a2db7067b920dfe51e9ce785613e66613d5",
+        "pushed_at": "2026-09-18T03:22:07Z",
+        "description_hash": "88c6ac90a44e",
+        "release_tag": null
+      },
+      "readme_sha": "d331b567e2c37146a6194004ee494d5f9bbc345d"
+    },
+    {
+      "id": "github:mithalouni/system-one-open",
+      "notes_section": "130",
+      "last_look": "2026-09-21T01:36Z",
+      "fingerprints": {
+        "default_sha": "77f1f7cccf8aa752e0ed7edcc8d2094bac707bdc",
+        "pushed_at": "2026-09-17T07:06:55Z",
+        "description_hash": "8755f1023081",
+        "release_tag": null
+      },
+      "readme_sha": "535f33028a685b909fbc287409697be55da6756a"
+    },
+    {
+      "id": "github:kotoba-lang/typed-decisions",
+      "notes_section": "130",
+      "last_look": "2026-09-21T01:36Z",
+      "fingerprints": {
+        "default_sha": "10d7834d3b99041f890db4615fb38ef95ced50cc",
+        "pushed_at": "2026-09-20T02:58:24Z",
+        "description_hash": "8588e6be9350",
+        "release_tag": null
+      },
+      "readme_sha": "4d6bbf4c4e446270dea99bb8b9d70bf2df628f09"
     }
   ]
 }
