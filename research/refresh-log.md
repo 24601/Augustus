@@ -1,3 +1,16 @@
+## 2026-09-21 ~21:56 UTC / ~15:56 Boise - Hourly 1556 HIGH
+- Folded onto post-#79 `main` (`eaba901`). hourly 1454 §153 is on main.
+  This fold is §154 only. This fold: `notes.md` §154 / composition 837-852 /
+  findings batch #134. Do not reclaim §147 through §153.
+  **HARD RULE:** do not reopen or amend PR #23 through #79.
+- PRIMARY: ishantanu/jevmetrics. Annotate preserves metrics. Class benches
+  are *theirs*, not Harbor. Densify §145, §146, §150, and §153, not
+  sibling first sightings. The traffic experiment closed with no
+  demonstrated advantage.
+- Evidence: `research/archive/hourly/2026-09-21T21/`.
+- Uniqueness lock lives in `research/notes.md` only (plus the gate fixture).
+  `invented_signal: false`. No Augustus call site.
+
 ## 2026-09-21 ~20:54 UTC / ~14:54 Boise - Hourly 1454 HIGH
 - Folded onto post-#78 `main` (`c8785c4`). ryana/jevify §152 is on main.
   This fold is §153 only. This fold: `notes.md` §153 / composition 821-836 /

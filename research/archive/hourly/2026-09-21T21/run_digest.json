@@ -1,0 +1,11 @@
+{
+  "hour": "2026-09-21T21",
+  "label": "1556",
+  "notes_section": "154",
+  "composition": "837-852",
+  "findings_batch": 134,
+  "revisit_high": 5,
+  "novel_high": 66,
+  "invented_signal": false,
+  "primary": "ishantanu/jevmetrics annotate preserves metrics; 4esv/jev-eval 300 items *theirs* not Harbor; no order placement; file review is not a merge gate; 0.60 still soft; 0.75 still soft; mock mode is not inference; densify \u00a7145 \u00a7146 \u00a7150 \u00a7153; this fold is \u00a7154 only"
+}

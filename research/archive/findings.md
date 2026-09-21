@@ -1,5 +1,53 @@
 # Deep-read findings (evidence for research/notes.md)
 
+## Batch #134 (2026-09-21 ~15:56 Boise / ~21:56 UTC) - hourly 1556 HIGH
+
+Note: `research/notes.md` §154. Composition 837-852.
+hourly 1454 §153, ryana/jevify §152, hourly 1352 §151, hourly 1256 §150,
+lev §149, hourly 1203 §148, and glance §147 are on main.
+This fold is §154 only. Do not reclaim §147 through §153.
+Hourly 1454 stays §153 / composition 821-836 / batch #133.
+This fold stays §154 / items 837-852 / batch #134.
+**HARD RULE:** do not reopen or amend PR #23 through #79.
+The consecutive lock string lives in notes.md and uniqueness_gate.py only.
+README still ends at License. Does not bump 0.5.0 or 0.5.1.
+`invented_signal: false`. Parent merges only after ADV_PASS.
+
+- **ishantanu/jevmetrics PRIMARY.** 3 star Apache-2.0 Go. HEAD d8d9c325242d.
+  Annotate preserves metrics. Filtering effectiveness is unevaluated.
+  Not ishantanu/jevtraces.
+- **4esv/jev-eval.** 300 items per task *theirs*, not Harbor. Jev clinc
+  0.897, ECE 0.039 *theirs*. Banking77 Jev 0.780, Terra 0.847, open-jev
+  0.873 *theirs*. open-jev is not TypeSafe. Kev is not TypeSafe.
+- **Bodila51/jev-hft-model-router.** No order placement. Synthetic-demo
+  is not a strategy. Up to 254 registered models.
+- **Tech-Byte-Frontier/jevgate.** File review is not a merge gate. Not
+  ruslanlap/jev-gate.
+- **TheMarco/token-saver.** Not proof of token savings.
+- **jon-devlapaz/tink-route.** 0.60 still soft. 6/6 is not Harbor.
+  Routing is not permission. Release v0.3.1.
+- **0x7067/claude-jev.** Fail open. 0.75 still soft. Does not write code.
+- **A79-ai/jev-incall-assistance.** Mock mode is a scripted UI fixture,
+  not Jev inference.
+- **REVISIT.** jev_codex densify §145. laya-mlx-swift densify §153,
+  release 0.1.2, native Swift. traffic-control densify §146: experiment
+  closed, did not demonstrate an advantage. jev-oncall densify §153:
+  Jev never pages anyone. prior-auth densify §150: synthetic PHI-free,
+  not a validated clinical system. heyaozh/system-one is
+  heyaozh/jev-rust-crate, same HEAD e04bd414c838.
+- **Open heads.** Qwen3-VL-2B is not Archer. Qwen2.5 is not Archer.
+  dev3 macro 0.6885 *theirs* lost on the untouched split. int8
+  weight-only block 64. Logits are not calibrated probabilities of
+  correctness. Von is not TypeSafe.
+- **skip-thin.** ReallyArtificial/jev-by-example and
+  klausbegnis/make-jev-talk empty SHA HTTP 409. README HTTP 404 on
+  jevs-home, JEVLite, jev-hints, and an order-confirm name collision.
+  Do not expand a cheating how-to. Do not reproduce payment details.
+  README SHA e215bc4ccf13 is a template collision.
+
+catalog is not endorsement. Soft judgment never sole veto.
+*theirs* not Harbor. SHA move is not a replica.
+
 ## Batch #133 (2026-09-21 ~14:54 Boise / ~20:54 UTC) - hourly 1454 HIGH
 
 Note: `research/notes.md` §153. Composition 821-836.

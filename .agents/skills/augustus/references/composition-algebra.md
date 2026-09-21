@@ -4566,6 +4566,86 @@ Soft Noul ≠ hard safety.
      notes.md §153. composition 821-836. findings batch #133.
      Full cards: `faq.md`.
 
+837. **metric value is a judgment, retention is policy** (ishantanu/jevmetrics):
+     TypeSafe Jev estimates operational value. Code owns retention.
+     Annotate preserves metrics. Filtering effectiveness is unevaluated
+     until measured on your own telemetry.
+     Full cards: `research/notes.md` §154.
+838. **labelled bakeoff is *theirs*** (4esv/jev-eval):
+     300 items per task. Not Harbor. open-jev and Kev are not TypeSafe.
+     A training overlap can decide a cell. Read the cell.
+     Full cards: `research/notes.md` §154.
+839. **router does not place orders** (Bodila51/jev-hft-model-router):
+     Choice among a closed registry, then stop. Paper test required.
+     Synthetic-demo profiles are not strategies. No order placement.
+     Full cards: `research/notes.md` §154.
+840. **file review is not a merge gate** (Tech-Byte-Frontier/jevgate):
+     Three maintainability verdicts. Not ruslanlap/jev-gate. Not the
+     structural-prove name. Soft review, not a merge gate.
+     Full cards: `research/notes.md` §154.
+841. **context selection is not measured savings** (TheMarco/token-saver):
+     Instructions plus caps are not proof of token savings. Codex keeps
+     the decision and the final review.
+     Full cards: `research/notes.md` §154.
+842. **CLI questions are not a bench** (andrueandersoncs/jev-cli):
+     One call, a question map, the TypeSafe JavaScript SDK. A wire client
+     is not a bench.
+     Full cards: `research/notes.md` §154.
+843. **skill route threshold still soft** (jon-devlapaz/tink-route):
+     0.60 still soft. 6/6 is not Harbor. Code loads the skill. Jev does
+     not grant it. Routing is not permission.
+     Full cards: `research/notes.md` §154.
+844. **catalog is not endorsement** (onmyway133/awesome-jev):
+     A curated list is not a recommendation and not a replica.
+     Full cards: `research/notes.md` §154.
+845. **fail-open hooks** (0x7067/claude-jev):
+     All five hooks fail open. 0.75 still soft. The plugin does not write
+     code. A sensor is not an interlock.
+     Full cards: `research/notes.md` §154.
+846. **mock in-call is not inference** (A79-ai/jev-incall-assistance):
+     Eight questions, one request. Mock mode is a scripted UI fixture,
+     not Jev inference. A sales signal is not a close.
+     Full cards: `research/notes.md` §154.
+847. **densify description rewrites**:
+     jev_codex densify §145. laya-mlx-swift densify §153, release 0.1.2.
+     traffic-control densify §146: experiment closed, no demonstrated
+     advantage. jev-oncall densify §153: Jev never pages anyone.
+     prior-auth densify §150: synthetic, not a validated clinical system.
+     heyaozh/system-one is heyaozh/jev-rust-crate, same HEAD, densify §153.
+     Full cards: `research/notes.md` §154.
+848. **serving substrates and open heads**:
+     Laya ONNX fp16 and int8. jevify VL recipe, no merged weights.
+     mchen negative heads. simple-jev logits. Von membership. TinySystemOne.
+     Qwen3-VL-2B is not Archer. Qwen2.5 is not Archer. A serving substrate
+     is not a calibrated replica.
+     Full cards: `research/notes.md` §154.
+849. **sensors and exact envelopes**:
+     RuleGuard, command guard, fallow-verdict, Agent-Defense, stopspam,
+     janitor, token-saver, tell-me-jev, claude-jev. Deterministic deny
+     stays above a score. Soft judgment never sole veto.
+     Full cards: `research/notes.md` §154.
+850. **namesakes**:
+     Tech-Byte-Frontier/jevgate is not ruslanlap/jev-gate.
+     andrueandersoncs/jev-cli is not echohello-dev/jevctl.
+     onmyway133/awesome-jev is not yibie/awesome-jev.
+     vtavakkoli/simple-jev is not featherless-ai/simple-jev.
+     pablokan/jev-lab is not the earlier jev-lab namesakes.
+     layar is not Laya. jevi-ops is not Jev. One Link is not System One.
+     README SHA e215bc4ccf13 is a template collision.
+     Full cards: `research/notes.md` §154.
+851. **skip-thin empty SHA HTTP 409 / README HTTP 404**:
+     ReallyArtificial/jev-by-example and klausbegnis/make-jev-talk are
+     empty SHA HTTP 409. jevs-home, JEVLite, jev-hints, and the
+     order-confirm name are README HTTP 404. Do not expand a cheating
+     how-to. Do not reproduce payment details. pablokan/jev-lab has an
+     empty README blob.
+     Full cards: `research/notes.md` §154.
+852. **skip Archer** (promised_not_landed):
+     Archer still promised_not_landed. Parent merges only after ADV_PASS.
+     hourly 1454 §153 are on main. This fold is §154 only.
+     notes.md §154. composition 837-852. findings batch #134.
+     Full cards: `faq.md`.
+
 
 
 
