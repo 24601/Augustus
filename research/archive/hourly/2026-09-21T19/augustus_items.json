@@ -1,0 +1,1116 @@
+[
+  {
+    "id": "benjamincanac/tia",
+    "kind": "novel",
+    "stars": 3,
+    "description": "Triage Issue Agent for GitHub, built with Eve and Jev.",
+    "html_url": "https://github.com/benjamincanac/tia",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Triage Issue Agent for GitHub, built with Eve and Jev.",
+    "hf_kind": null,
+    "found_via": [
+      "topic_jev"
+    ]
+  },
+  {
+    "id": "MorrisZJ/AnyJev",
+    "kind": "novel",
+    "stars": 1,
+    "description": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training.",
+    "html_url": "https://github.com/MorrisZJ/AnyJev",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training.",
+    "hf_kind": null,
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm",
+      "jev_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "andududu/jeview",
+    "kind": "novel",
+    "stars": 1,
+    "description": "An unofficial local visualizer for Jev (TypeSafe): a live view of every call your code makes. Not affiliated with TypeSafe AI.",
+    "html_url": "https://github.com/andududu/jeview",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "An unofficial local visualizer for Jev (TypeSafe): a live view of every call your code makes. Not affiliated with TypeSafe AI.",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "topic_typesafe",
+      "topic_jev",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "karozi/awesome-jev-resources",
+    "kind": "novel",
+    "stars": 1,
+    "description": "A curated list of Jev guides, official documentation, and community projects for AI practitioners, product managers, and builders.",
+    "html_url": "https://github.com/karozi/awesome-jev-resources",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "A curated list of Jev guides, official documentation, and community projects for AI practitioners, product managers, and builders.",
+    "hf_kind": null,
+    "found_via": [
+      "topic_typesafe"
+    ]
+  },
+  {
+    "id": "satiricalguru/Fast-Jev-Agents",
+    "kind": "novel",
+    "stars": 1,
+    "description": "High-performance verbatim context compaction for coding agents (Claude, Codex, Antigravity, Gemini, OpenCode)",
+    "html_url": "https://github.com/satiricalguru/Fast-Jev-Agents",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "High-performance verbatim context compaction for coding agents (Claude, Codex, Antigravity, Gemini, OpenCode)",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "247arjun/JevPlayground",
+    "kind": "novel",
+    "stars": 0,
+    "description": "A sandbox to evaluate Jev",
+    "html_url": "https://github.com/247arjun/JevPlayground",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "A sandbox to evaluate Jev",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "Alberto-Codes/judgevet",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Typed client, CLI and MCP server for TypeSafe's Jev (System One) judgment model",
+    "html_url": "https://github.com/Alberto-Codes/judgevet",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Typed client, CLI and MCP server for TypeSafe's Jev (System One) judgment model",
+    "hf_kind": null,
+    "found_via": [
+      "system-one_pushed",
+      "jev_pushed",
+      "system-one_created",
+      "system_one_spaced_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "DanM3rcurius/po-radar",
+    "kind": "novel",
+    "stars": 0,
+    "description": "psyop radar, powered b jev and design by roemmele",
+    "html_url": "https://github.com/DanM3rcurius/po-radar",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "psyop radar, powered b jev and design by roemmele",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "Emlembow/jevgraph",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Jev-powered graph retrieval for agent memory. CLI and agent skill for local documents and Notion snapshots.",
+    "html_url": "https://github.com/Emlembow/jevgraph",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Jev-powered graph retrieval for agent memory. CLI and agent skill for local documents and Notion snapshots.",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "Faresabdelghany/jev-browser-test",
+    "kind": "novel",
+    "stars": 0,
+    "description": null,
+    "html_url": "https://github.com/Faresabdelghany/jev-browser-test",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "novel first-seen peer",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "Ivanovskyi/typesafe-ai-gateway",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Spring Boot API gateway using TypeSafe AI for confidence-based request routing.",
+    "html_url": "https://github.com/Ivanovskyi/typesafe-ai-gateway",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Spring Boot API gateway using TypeSafe AI for confidence-based request routing.",
+    "hf_kind": null,
+    "found_via": [
+      "topic_jev"
+    ]
+  },
+  {
+    "id": "MatteoGauthier/laya-onnx",
+    "kind": "novel",
+    "stars": 0,
+    "description": null,
+    "html_url": "https://github.com/MatteoGauthier/laya-onnx",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "novel first-seen peer",
+    "hf_kind": null,
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ]
+  },
+  {
+    "id": "SAITS-Swiss-AI-Tech-Services/jev-mcp",
+    "kind": "novel",
+    "stars": 0,
+    "description": "MCP server that lets Claude Code and Claude Desktop drive the jev-ultrafast browser agent in your real Chrome, with a domain-bound safeguard",
+    "html_url": "https://github.com/SAITS-Swiss-AI-Tech-Services/jev-mcp",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "MCP server that lets Claude Code and Claude Desktop drive the jev-ultrafast browser agent in your real Chrome, with a domain-bound safeguard",
+    "hf_kind": null,
+    "found_via": [
+      "topic_jev"
+    ]
+  },
+  {
+    "id": "SimonKaran13/DOOMJEV",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Doom running on Jev",
+    "html_url": "https://github.com/SimonKaran13/DOOMJEV",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Doom running on Jev",
+    "hf_kind": null,
+    "found_via": [
+      "jev_created"
+    ]
+  },
+  {
+    "id": "TokyoHunter/jev-animal-finder",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Floating animal emoji finder with a search bar in the middle. Search in plain English (\"birds\", \"animals that fly\") using Jev AI, with a built-in search as fallback. Click any emoji to copy it.",
+    "html_url": "https://github.com/TokyoHunter/jev-animal-finder",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Floating animal emoji finder with a search bar in the middle. Search in plain English (\"birds\", \"animals that fly\") using Jev AI, with a built-in search as fallback. Click any emoji to copy it.",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "abe17124/jev-laya-chess-bench",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Chess head-to-head bench: TypeSafe Jev vs Laya (System One legal-move decisions)",
+    "html_url": "https://github.com/abe17124/jev-laya-chess-bench",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Chess head-to-head bench: TypeSafe Jev vs Laya (System One legal-move decisions)",
+    "hf_kind": null,
+    "found_via": [
+      "system-one_pushed",
+      "Laya_pushed",
+      "jev_pushed",
+      "system-one_created",
+      "Laya_created",
+      "system_one_spaced_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "adelaserna82/jev-model-net-sdk",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Unofficial community Jev SDK for .NET 10. Typed decisions, examples, tests and NuGet packages.",
+    "html_url": "https://github.com/adelaserna82/jev-model-net-sdk",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Unofficial community Jev SDK for .NET 10. Typed decisions, examples, tests and NuGet packages.",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "aitofy-dev/jev-awesome-skills",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Open-source Jev skills for Claude Code, Codex, Cursor, and Grok. TypeSafe System One: choice, noul, score. Proceed, ask, or stop.",
+    "html_url": "https://github.com/aitofy-dev/jev-awesome-skills",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Open-source Jev skills for Claude Code, Codex, Cursor, and Grok. TypeSafe System One: choice, noul, score. Proceed, ask, or stop.",
+    "hf_kind": null,
+    "found_via": [
+      "system-one_pushed",
+      "topic_system-one",
+      "jev_pushed",
+      "system-one_created",
+      "system_one_spaced_pushed",
+      "topic_typesafe",
+      "topic_jev",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "aleksvega/jev-skill-router",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Jev-powered skill router & security auditor for any AI agent \u2014 request analysis, skill choice, prompt-injection scan",
+    "html_url": "https://github.com/aleksvega/jev-skill-router",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Jev-powered skill router & security auditor for any AI agent \u2014 request analysis, skill choice, prompt-injection scan",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "alibowbow/jev",
+    "kind": "novel",
+    "stars": 0,
+    "description": null,
+    "html_url": "https://github.com/alibowbow/jev",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "novel first-seen peer",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed"
+    ]
+  },
+  {
+    "id": "anchorshell/relay",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Fast. Flexible. Intuitive. Built for agents \u2014 and the people behind them. One API. 100+ LLM providers. System One Ready. Smarter routing, queue-first scheduling, limits & pacing, guardrails, cost tracking, and realtime visibility.",
+    "html_url": "https://github.com/anchorshell/relay",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Fast. Flexible. Intuitive. Built for agents \u2014 and the people behind them. One API. 100+ LLM providers. System One Ready. Smarter routing, queue-first scheduling, limits & pacing, guardrails, cost tracking, and realtime visibility.",
+    "hf_kind": null,
+    "found_via": [
+      "system-one_pushed",
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ]
+  },
+  {
+    "id": "ankurlamichhane90/mac-voice-assistant",
+    "kind": "novel",
+    "stars": 0,
+    "description": "A tiny macOS voice assistant that opens apps and websites from spoken commands, using local whisper + TypeSafe's Jev.",
+    "html_url": "https://github.com/ankurlamichhane90/mac-voice-assistant",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "A tiny macOS voice assistant that opens apps and websites from spoken commands, using local whisper + TypeSafe's Jev.",
+    "hf_kind": null,
+    "found_via": [
+      "jev_created"
+    ]
+  },
+  {
+    "id": "canok07/jev-router",
+    "kind": "novel",
+    "stars": 0,
+    "description": null,
+    "html_url": "https://github.com/canok07/jev-router",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "novel first-seen peer",
+    "hf_kind": null,
+    "found_via": [
+      "jev_created"
+    ]
+  },
+  {
+    "id": "codeJRV/openjev-hermes-plugin",
+    "kind": "novel",
+    "stars": 0,
+    "description": "A plugin to make Hermes 2.2x faster by offloading decision making to OpenJev",
+    "html_url": "https://github.com/codeJRV/openjev-hermes-plugin",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "A plugin to make Hermes 2.2x faster by offloading decision making to OpenJev",
+    "hf_kind": null,
+    "found_via": [
+      "openjev_pushed",
+      "openjev_created"
+    ]
+  },
+  {
+    "id": "d-callan/bionym",
+    "kind": "novel",
+    "stars": 0,
+    "description": "gene identifiers to confidence aware knowledge graphs with jev",
+    "html_url": "https://github.com/d-callan/bionym",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "gene identifiers to confidence aware knowledge graphs with jev",
+    "hf_kind": null,
+    "found_via": [
+      "jev_created"
+    ]
+  },
+  {
+    "id": "deemkeen/jevgeni",
+    "kind": "novel",
+    "stars": 0,
+    "description": "JevGeni \u2014 a fly brain at the claw machine. Tech demo for Jev (typesafe.ai) + Whisper v3 Turbo (Groq). Voice only.",
+    "html_url": "https://github.com/deemkeen/jevgeni",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "JevGeni \u2014 a fly brain at the claw machine. Tech demo for Jev (typesafe.ai) + Whisper v3 Turbo (Groq). Voice only.",
+    "hf_kind": null,
+    "found_via": [
+      "topic_jev"
+    ]
+  },
+  {
+    "id": "devanshbatham/nyx",
+    "kind": "novel",
+    "stars": 0,
+    "description": "A compact 4B decision model",
+    "html_url": "https://github.com/devanshbatham/nyx",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "A compact 4B decision model",
+    "hf_kind": null,
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ]
+  },
+  {
+    "id": "diluteoxygen/JevMood",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Intelligent procedural ambient soundscape generator powered by TypeSafe JEV System One",
+    "html_url": "https://github.com/diluteoxygen/JevMood",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Intelligent procedural ambient soundscape generator powered by TypeSafe JEV System One",
+    "hf_kind": null,
+    "found_via": [
+      "system-one_pushed",
+      "system-one_created",
+      "system_one_spaced_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "emipaz/jev",
+    "kind": "novel",
+    "stars": 0,
+    "description": null,
+    "html_url": "https://github.com/emipaz/jev",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "novel first-seen peer",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "fedorpark/jev-inbox-lab",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Six Instagram DMs. One hidden near-term buyer. Try the decision layer and own the handoff.",
+    "html_url": "https://github.com/fedorpark/jev-inbox-lab",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Six Instagram DMs. One hidden near-term buyer. Try the decision layer and own the handoff.",
+    "hf_kind": null,
+    "found_via": [
+      "jev_created"
+    ]
+  },
+  {
+    "id": "fredp74/calibrus",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Open-source calibrated decision model (route + confidence) for algorithmic trading",
+    "html_url": "https://github.com/fredp74/calibrus",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Open-source calibrated decision model (route + confidence) for algorithmic trading",
+    "hf_kind": null,
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ]
+  },
+  {
+    "id": "gbesse/bevy-jev",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Non-blocking, provenance-checked Jev decisions for Bevy ECS.",
+    "html_url": "https://github.com/gbesse/bevy-jev",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Non-blocking, provenance-checked Jev decisions for Bevy ECS.",
+    "hf_kind": null,
+    "found_via": [
+      "topic_jev",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "gbesse/figma-jev-review",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Review selected Figma copy with typed Jev criteria and exact TextNode citations.",
+    "html_url": "https://github.com/gbesse/figma-jev-review",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Review selected Figma copy with typed Jev criteria and exact TextNode citations.",
+    "hf_kind": null,
+    "found_via": [
+      "topic_jev",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "gbesse/jev-premiere-markers",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Turn typed Jev review findings into exact, undoable Premiere timeline markers.",
+    "html_url": "https://github.com/gbesse/jev-premiere-markers",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Turn typed Jev review findings into exact, undoable Premiere timeline markers.",
+    "hf_kind": null,
+    "found_via": [
+      "topic_jev",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "gbesse/jev-unreal-statetree",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Native Unreal Engine 5.8 StateTree tasks for finite, revision-guarded Jev decisions.",
+    "html_url": "https://github.com/gbesse/jev-unreal-statetree",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Native Unreal Engine 5.8 StateTree tasks for finite, revision-guarded Jev decisions.",
+    "hf_kind": null,
+    "found_via": [
+      "topic_jev",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "ham-zax/awesome-jev",
+    "kind": "novel",
+    "stars": 0,
+    "description": null,
+    "html_url": "https://github.com/ham-zax/awesome-jev",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "novel first-seen peer",
+    "hf_kind": null,
+    "found_via": [
+      "jev_created"
+    ]
+  },
+  {
+    "id": "harrymunro/jev-laya-benchmark",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Speed and accuracy benchmark: TypeSafe's Jev API vs the local Laya MLX typed-decision model on synthetic tasks",
+    "html_url": "https://github.com/harrymunro/jev-laya-benchmark",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Speed and accuracy benchmark: TypeSafe's Jev API vs the local Laya MLX typed-decision model on synthetic tasks",
+    "hf_kind": null,
+    "found_via": [
+      "decision_model_llm_pushed",
+      "Laya_pushed",
+      "decision_model_llm",
+      "Laya_created"
+    ]
+  },
+  {
+    "id": "hf:Wouze/laya-ara",
+    "kind": "novel",
+    "stars": 0,
+    "description": "text-classification laya safetensors arabic nlu intent-classification natural-language-inference text-classification ar dataset:AmazonScience/massive dataset:facebook/xnli base_model:convaiinnovations/laya-multilingual base_model:finetune:convaiinnovations/laya-multilingual",
+    "html_url": "https://huggingface.co/Wouze/laya-ara",
+    "source": "huggingface",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "text-classification laya safetensors arabic nlu intent-classification natural-language-inference text-classification ar dataset:AmazonScience/massive dataset:facebook/xnli base_model:convaiinnovations/laya-multilingual base_model:finetune:convaiinnovations/laya-multilingual",
+    "hf_kind": "model",
+    "found_via": [
+      "models_laya"
+    ]
+  },
+  {
+    "id": "hf:Wouze/laya-ara-rag",
+    "kind": "novel",
+    "stars": 0,
+    "description": "text-ranking laya safetensors arabic information-retrieval reranking rag text-ranking ar dataset:miracl/miracl dataset:AmazonScience/massive base_model:convaiinnovations/laya-multilingual base_model:finetune:convaiinnovations/laya-multilingual",
+    "html_url": "https://huggingface.co/Wouze/laya-ara-rag",
+    "source": "huggingface",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "text-ranking laya safetensors arabic information-retrieval reranking rag text-ranking ar dataset:miracl/miracl dataset:AmazonScience/massive base_model:convaiinnovations/laya-multilingual base_model:finetune:convaiinnovations/laya-multilingual",
+    "hf_kind": "model",
+    "found_via": [
+      "models_laya"
+    ]
+  },
+  {
+    "id": "hf:abidlabs/jev-typed-decisions-causal-0.6b",
+    "kind": "revisit",
+    "stars": 0,
+    "description": "peft safetensors lora typed-decisions cached-causal-scorer base_model:Qwen/Qwen3-0.6B-Base base_model:adapter:Qwen/Qwen3-0.6B-Base license:apache-2.0 region:us",
+    "html_url": "https://huggingface.co/abidlabs/jev-typed-decisions-causal-0.6b",
+    "source": "huggingface",
+    "material": [
+      "description_rewrite"
+    ],
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "REVISIT densify: description rewrite \u2014 peft safetensors lora typed-decisions cached-causal-scorer base_model:Qwen/Qwen3-0.6B-Base (*theirs*)",
+    "hf_kind": "model",
+    "found_via": [
+      "models_jev",
+      "models_typed-decision"
+    ]
+  },
+  {
+    "id": "hf:abidlabs/jev-typed-decisions-demo",
+    "kind": "novel",
+    "stars": 0,
+    "description": "gradio decision-model calibration mcp-server region:us",
+    "html_url": "https://huggingface.co/spaces/abidlabs/jev-typed-decisions-demo",
+    "source": "huggingface",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "gradio decision-model calibration mcp-server region:us",
+    "hf_kind": "space",
+    "found_via": [
+      "spaces_jev",
+      "spaces_typed-decision"
+    ]
+  },
+  {
+    "id": "hf:akhilaaa3/openjev-train",
+    "kind": "novel",
+    "stars": 0,
+    "description": "\n\t\n\t\t\n\t\n\t\n\t\tOpenJev training data (private)\n\t\n\nLarge data files for adola700/OpenJev (private). The code that\nbuilds them, the per-item source files and the full documentation live in that repository; this repo\nexists because the built files are too large for GitHub.\n\n\t\n\t\t\npath\nwhat it is\n\n\n\t\t\nbank/items.jsonl\nevery labelled state, one row per state\n\n\nbank/by_source/*.jsonl\nthe same rows split by source, because their labels were made differently\n\n\nbank/index.json\ncounts per source and per\u2026 See the full description on the dataset page: https://huggingface.co/datasets/akhilaaa3/openjev-train.",
+    "html_url": "https://huggingface.co/datasets/akhilaaa3/openjev-train",
+    "source": "huggingface",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "OpenJev training data (private)\n\t\n\nLarge data files for adola700/OpenJev (private). The code that\nbuilds them, the per-item source files and the full documentation live in that repository; this repo\nexists because the built files are too large for GitHub.\n\n\t\n\t\t\npath\nwhat it is\n\n\n\t\t\nbank/items.jsonl\n",
+    "hf_kind": "dataset",
+    "found_via": [
+      "datasets_openjev"
+    ]
+  },
+  {
+    "id": "hf:juspay/jev-trained",
+    "kind": "novel",
+    "stars": 0,
+    "description": "text-generation transformers safetensors qwen3_5_moe image-text-to-text sglang mixture-of-experts typed-classification text-generation conversational base_model:Qwen/Qwen3.6-35B-A3B base_model:finetune:Qwen/Qwen3.6-35B-A3B license:apache-2.0",
+    "html_url": "https://huggingface.co/juspay/jev-trained",
+    "source": "huggingface",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "text-generation transformers safetensors qwen3_5_moe image-text-to-text sglang mixture-of-experts typed-classification text-generation conversational base_model:Qwen/Qwen3.6-35B-A3B base_model:finetune:Qwen/Qwen3.6-35B-A3B license:apache-2.0",
+    "hf_kind": "model",
+    "found_via": [
+      "models_jev"
+    ]
+  },
+  {
+    "id": "hf:rarha/laya-onnx",
+    "kind": "novel",
+    "stars": 0,
+    "description": "license:apache-2.0 region:us",
+    "html_url": "https://huggingface.co/rarha/laya-onnx",
+    "source": "huggingface",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "license:apache-2.0 region:us",
+    "hf_kind": "model",
+    "found_via": [
+      "models_laya"
+    ]
+  },
+  {
+    "id": "htpu/mailaya",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Local AI mail triage for Gmail & Outlook \u2014 a Chrome extension backed by a Laya model running on your own computer. Mail never leaves your machine.",
+    "html_url": "https://github.com/htpu/mailaya",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Local AI mail triage for Gmail & Outlook \u2014 a Chrome extension backed by a Laya model running on your own computer. Mail never leaves your machine.",
+    "hf_kind": null,
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ]
+  },
+  {
+    "id": "ilyaryabchinski/jevss",
+    "kind": "novel",
+    "stars": 0,
+    "description": null,
+    "html_url": "https://github.com/ilyaryabchinski/jevss",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "novel first-seen peer",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "individual11/jev-feedbin-filter",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Using jev to filter out articles from RSS feed that clog it up.",
+    "html_url": "https://github.com/individual11/jev-feedbin-filter",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Using jev to filter out articles from RSS feed that clog it up.",
+    "hf_kind": null,
+    "found_via": [
+      "jev_created"
+    ]
+  },
+  {
+    "id": "jpvajda/jev-demo",
+    "kind": "novel",
+    "stars": 0,
+    "description": "a demo of Typesafe's Jev a System One Model for structured decsion making",
+    "html_url": "https://github.com/jpvajda/jev-demo",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "a demo of Typesafe's Jev a System One Model for structured decsion making",
+    "hf_kind": null,
+    "found_via": [
+      "system-one_pushed",
+      "jev_pushed",
+      "system-one_created",
+      "system_one_spaced_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "kevinaaaquil/jev-rubix",
+    "kind": "novel",
+    "stars": 0,
+    "description": null,
+    "html_url": "https://github.com/kevinaaaquil/jev-rubix",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "novel first-seen peer",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "koolerkx/vibe-discord-bot-jev",
+    "kind": "novel",
+    "stars": 0,
+    "description": "by ChatGPT",
+    "html_url": "https://github.com/koolerkx/vibe-discord-bot-jev",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "by ChatGPT",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "marcelormendes/diffninja",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Focused local PR reviews with calldiff and Jev",
+    "html_url": "https://github.com/marcelormendes/diffninja",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Focused local PR reviews with calldiff and Jev",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed"
+    ]
+  },
+  {
+    "id": "mbburabak/jev-safety-benchmark",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Benchmark harness evaluating TypeSafe's Jev model on six public safety benchmarks against Shieldstral-1.0-3B and top SOTA guard models",
+    "html_url": "https://github.com/mbburabak/jev-safety-benchmark",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Benchmark harness evaluating TypeSafe's Jev model on six public safety benchmarks against Shieldstral-1.0-3B and top SOTA guard models",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "mwatkins03-netizen/The-Complaint-Atlas-Fable-5",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Jev api reviews and ranks consumer complaints ",
+    "html_url": "https://github.com/mwatkins03-netizen/The-Complaint-Atlas-Fable-5",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Jev api reviews and ranks consumer complaints",
+    "hf_kind": null,
+    "found_via": [
+      "jev_created"
+    ]
+  },
+  {
+    "id": "nautahakk/jev-codex-router",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Jev-powered model and reasoning-effort router for Codex in DeepSeek Harness",
+    "html_url": "https://github.com/nautahakk/jev-codex-router",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Jev-powered model and reasoning-effort router for Codex in DeepSeek Harness",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "topic_typesafe",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "pavan142/jev-experiments",
+    "kind": "novel",
+    "stars": 0,
+    "description": null,
+    "html_url": "https://github.com/pavan142/jev-experiments",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "novel first-seen peer",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "pedro-pscunha/guideme-python",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Type-safe inline judgments from TypeSafe Jev, for Python",
+    "html_url": "https://github.com/pedro-pscunha/guideme-python",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Type-safe inline judgments from TypeSafe Jev, for Python",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "topic_typesafe",
+      "topic_jev",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "photuris/overseer-judge",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Typed verdicts for overseer judgments (pane state, task-file lint, review typing) via TypeSafe's Jev",
+    "html_url": "https://github.com/photuris/overseer-judge",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Typed verdicts for overseer judgments (pane state, task-file lint, review typing) via TypeSafe's Jev",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "qasimhammad1/applyguard",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Safety-first job application automation with TypeSafe Jev and Browser Use",
+    "html_url": "https://github.com/qasimhammad1/applyguard",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Safety-first job application automation with TypeSafe Jev and Browser Use",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "rscottstevens-byte/jev",
+    "kind": "novel",
+    "stars": 0,
+    "description": null,
+    "html_url": "https://github.com/rscottstevens-byte/jev",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "novel first-seen peer",
+    "hf_kind": null,
+    "found_via": [
+      "jev_created"
+    ]
+  },
+  {
+    "id": "sed-ndi/test-jev",
+    "kind": "novel",
+    "stars": 0,
+    "description": null,
+    "html_url": "https://github.com/sed-ndi/test-jev",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "novel first-seen peer",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "tgallice/jev-go",
+    "kind": "novel",
+    "stars": 0,
+    "description": null,
+    "html_url": "https://github.com/tgallice/jev-go",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "novel first-seen peer",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "vaibhavgupta5/Jev-Email-Classifier",
+    "kind": "novel",
+    "stars": 0,
+    "description": null,
+    "html_url": "https://github.com/vaibhavgupta5/Jev-Email-Classifier",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "novel first-seen peer",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "vishalyadav28/resume-jev-match",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Resume-to-job-description fit classification using TypeSafe AI's Jev model via LangChain",
+    "html_url": "https://github.com/vishalyadav28/resume-jev-match",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Resume-to-job-description fit classification using TypeSafe AI's Jev model via LangChain",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "yangda611/omarchy-smart-paste",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Smart Paste for Omarchy \u2014 copy anything, click a form field, press SUPER+V: the value that belongs in that field is typed in, decided by Jev and read from the form over AT-SPI",
+    "html_url": "https://github.com/yangda611/omarchy-smart-paste",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Smart Paste for Omarchy \u2014 copy anything, click a form field, press SUPER+V: the value that belongs in that field is typed in, decided by Jev and read from the form over AT-SPI",
+    "hf_kind": null,
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ]
+  },
+  {
+    "id": "zerowidth-ai/shims-sdk",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Tiny task-specific decision models that run in the client",
+    "html_url": "https://github.com/zerowidth-ai/shims-sdk",
+    "source": "github",
+    "material": null,
+    "prior_sha": null,
+    "new_sha": null,
+    "why": "Tiny task-specific decision models that run in the client",
+    "hf_kind": null,
+    "found_via": [
+      "decision_model_llm_pushed"
+    ]
+  }
+]

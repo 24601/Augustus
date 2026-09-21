@@ -1,3 +1,16 @@
+## Hourly 1352 HIGH (notes.md §151 / items 793-808 / batch #131)
+
+- Rebased onto post-#75 `main` (`bdb0acb`). glance §147, hourly 1203 §148,
+  lev §149, and hourly 1256 §150 are on main. This fold is §151 only.
+  Do not reclaim §147–§150.
+  **HARD RULE:** do not reopen or amend PR #23 through #76.
+  Does not bump 0.5.0 or 0.5.1. Skip Archer. `invented_signal: false`.
+- PRIMARY: benjamincanac/tia. Jev decides, generator writes, code owns irreversible writes.
+  MorrisZJ/AnyJev L0 is not calibration. 0.227 to 0.077 and L1 ECE 0.100 *theirs*.
+  Jev 1.13.0 acc 0.727 is published and not rerun.
+- REVISIT: hf:abidlabs/jev-typed-decisions-causal-0.6b first card revisit tag no prior notes card.
+  quick_eval acc 0.6234 NLL 1.2755 n=640 *theirs*. do not quote 0.7518.
+- Uniqueness lock lives in `research/notes.md` and `uniqueness_gate.py` only.
 ## Hourly 1256 HIGH (notes.md §150 / items 777-792 / batch #130)
 
 - Rebased onto post-#76 `main` (`6ef49bc`). glance stays §147. Hourly 1203

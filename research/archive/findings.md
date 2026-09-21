@@ -1,5 +1,30 @@
 # Deep-read findings (evidence for research/notes.md)
 
+## Batch #131 (2026-09-21 ~13:52 Boise / ~19:52 UTC) - hourly 1352 HIGH
+
+Note: `research/notes.md` §151. Rebased onto post-#75 `main` (`bdb0acb`).
+glance §147, hourly 1203 §148, lev §149, and hourly 1256 §150 are on main.
+This fold is §151 only. Do not reclaim §147–§150.
+Hourly 1256 stays §150 / composition 777-792 / batch #130.
+This fold stays §151 / items 793-808 / batch #131.
+**HARD RULE:** do not reopen or amend PR #23 through #76.
+Quote READMEs / Hub cards. Mark *theirs*. Parent merges only after ADV_PASS.
+Soft judgment never sole veto. `invented_signal: false`.
+The uniqueness lock lives in `research/notes.md` and `uniqueness_gate.py` only.
+
+- **tia PRIMARY.** Jev decides generator writes code owns irreversible. never classifies. dry-run default.
+- **AnyJev PRIMARY.** L0 is not calibration. 0.227 to 0.077. L1 ECE 0.100 *theirs*. Jev 0.727 not rerun.
+- **jeview / Fast-Jev / judgevet / jevgraph / gateway / chess / .NET / catalogs.**
+  answers nothing itself. never summarizes. noul carries no confidence. 63.9% to 81.8% *theirs*.
+  0.75 still soft. legal UCI. simulation first. catalog ≠ endorsement.
+- **REVISIT densify.** hf:abidlabs/jev-typed-decisions-causal-0.6b first card revisit tag no prior notes card.
+  quick_eval 0.6234. do not quote 0.7518.
+- **Class benches *theirs*.** nyx 2,277. harrymunro 92.9% vs 65.3%. safety 12,254 live calls.
+  Wouze named-task accuracies. top-1 among k≤12 not corpus nDCG@10.
+- **skip-thin.** empty SHA HTTP 409. openjev-hermes-plugin HTTP 404. test-jev README HTTP 404.
+
+Pulse: Archer still NOT landed. `invented_signal: false`.
+
 ## Batch #130 (2026-09-21 ~12:56 Boise / ~18:56 UTC) - hourly 1256 HIGH
 
 Hourly 1256 uniqueness lock: AboveColin/jevclient 2★ MIT Py HEAD a225eadd6eb0 README SHA 5e102cbaa555; typed client is not a replica; wire-compat ≠ logit-equiv; revsmoke/promptrejectormcp 2★ ISC TS HEAD 752217d26fe9 README SHA dab9c144b5f2; screen is a sensor; application must act; soft judgment is not a sole veto; GodModeAI2025/JevCoreML 0★ Apache-2.0 Swift HEAD cb5c261a1412 README SHA f61f018eee8f; CoreML serving substrate ≠ calibrated replica; kev ≠ TypeSafe; Neoo-Blue/vibecheck 0★ Kotlin HEAD cfd6c46899f8 README SHA 718ab09e0442; Jev never writes the reply; RavenValentin/TypeSafe.Jev 0★ MIT C# HEAD 5868475507e5 README SHA 6a4cf10feb67; unofficial .NET client; pin jev-1.13.0; adorosario/jev-rag-claim-verification 0★ MIT Py HEAD 2bdb4d9f3935 README SHA 9b6547d48a39; Jev 1.13.0 balanced acc 73.3 CI [68.5, 77.9] false-verification 23.2% *theirs*; Astra task-optimised 73.8 *theirs*; difference -0.6 points; 187× *theirs* not Harbor; bytelabs-oss/clash-jev 1★ MIT Py HEAD 04d420669966 README SHA 31f93aa3c8d7; no trained policy; fallback never logged as Jev; game success ≠ calibrated Noul; krisitown/jev-router HEAD e2809e09f497 README SHA fa27068d3876; routing ≠ permission; allebee/jevgrep revisit 0★ MIT Py HEAD 5cebf4c046ac README SHA e30654352e5f; first card revisit tag no prior notes card; default threshold 0.5 still soft; meaning-grep is not a gate; allebee/jevgrep ≠ Bentlybro/jevgrep ≠ nassim-arifette/jevgrep ≠ can1357/jegrep ≠ uehaj/jev-semgrep; harlanljones/jev-roster-shapes densify HEAD 1d94f9e07fe8 README SHA 4653c58a6459; missing data stays missing; geometry never creates value; 8.8 ms is UI latency not a Jev bench; densify §134 not a sibling first sighting; ktaletsk/jevframe densify HEAD 16bd3eae69b7 README SHA 6e0a9ef1ba79; no result thresholded or silently renormalized; densify §48 not a sibling first sighting; hfnissum-byte/Hunkpick 77% *theirs* not Harbor; code enumerates model picks code gates; breejesh/gen1 schema-valid is not the same as correct; 100% schema is not calibrated Noul; hf:Cruzex/laya-typed-decisions-smoketest smoke accuracy 0.460 *theirs* not Harbor; reference 0.727 is not comparable; hf:abidlabs/jev-typed-decisions-causal-0.6b quick_eval acc 0.6234 NLL 1.2755 n=640 *theirs*; unre-run report 0.7518 ECE 0.0154 was not re-run; hf:s1lv3rj1nx/openjev-general-lora Banking77 0.728 vs TypeSafe Jev 0.820 *theirs*; hf:libingzheren/Jev-Mem 0.777 LLM-as-a-Judge *theirs* not Harbor; LLM-as-a-Judge ≠ gold; not the §134 11.0% figure; smartaces/jev-plays-streetfighter-2 6★ text state not video; catalog ≠ endorsement; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62/#63/#64/#65/#66/#67/#68/#69/#70/#71/#72/#73/#74; notes.md §150

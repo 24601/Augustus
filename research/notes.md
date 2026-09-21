@@ -38765,3 +38765,566 @@ Skip Archer. Archer still promised_not_landed. No fresh Hub status
 code this hour.
 
 Hourly 1256 uniqueness lock: AboveColin/jevclient 2★ MIT Py HEAD a225eadd6eb0 README SHA 5e102cbaa555; typed client is not a replica; wire-compat ≠ logit-equiv; revsmoke/promptrejectormcp 2★ ISC TS HEAD 752217d26fe9 README SHA dab9c144b5f2; screen is a sensor; application must act; soft judgment is not a sole veto; GodModeAI2025/JevCoreML 0★ Apache-2.0 Swift HEAD cb5c261a1412 README SHA f61f018eee8f; CoreML serving substrate ≠ calibrated replica; kev ≠ TypeSafe; Neoo-Blue/vibecheck 0★ Kotlin HEAD cfd6c46899f8 README SHA 718ab09e0442; Jev never writes the reply; RavenValentin/TypeSafe.Jev 0★ MIT C# HEAD 5868475507e5 README SHA 6a4cf10feb67; unofficial .NET client; pin jev-1.13.0; adorosario/jev-rag-claim-verification 0★ MIT Py HEAD 2bdb4d9f3935 README SHA 9b6547d48a39; Jev 1.13.0 balanced acc 73.3 CI [68.5, 77.9] false-verification 23.2% *theirs*; Astra task-optimised 73.8 *theirs*; difference -0.6 points; 187× *theirs* not Harbor; bytelabs-oss/clash-jev 1★ MIT Py HEAD 04d420669966 README SHA 31f93aa3c8d7; no trained policy; fallback never logged as Jev; game success ≠ calibrated Noul; krisitown/jev-router HEAD e2809e09f497 README SHA fa27068d3876; routing ≠ permission; allebee/jevgrep revisit 0★ MIT Py HEAD 5cebf4c046ac README SHA e30654352e5f; first card revisit tag no prior notes card; default threshold 0.5 still soft; meaning-grep is not a gate; allebee/jevgrep ≠ Bentlybro/jevgrep ≠ nassim-arifette/jevgrep ≠ can1357/jegrep ≠ uehaj/jev-semgrep; harlanljones/jev-roster-shapes densify HEAD 1d94f9e07fe8 README SHA 4653c58a6459; missing data stays missing; geometry never creates value; 8.8 ms is UI latency not a Jev bench; densify §134 not a sibling first sighting; ktaletsk/jevframe densify HEAD 16bd3eae69b7 README SHA 6e0a9ef1ba79; no result thresholded or silently renormalized; densify §48 not a sibling first sighting; hfnissum-byte/Hunkpick 77% *theirs* not Harbor; code enumerates model picks code gates; breejesh/gen1 schema-valid is not the same as correct; 100% schema is not calibrated Noul; hf:Cruzex/laya-typed-decisions-smoketest smoke accuracy 0.460 *theirs* not Harbor; reference 0.727 is not comparable; hf:abidlabs/jev-typed-decisions-causal-0.6b quick_eval acc 0.6234 NLL 1.2755 n=640 *theirs*; unre-run report 0.7518 ECE 0.0154 was not re-run; hf:s1lv3rj1nx/openjev-general-lora Banking77 0.728 vs TypeSafe Jev 0.820 *theirs*; hf:libingzheren/Jev-Mem 0.777 LLM-as-a-Judge *theirs* not Harbor; LLM-as-a-Judge ≠ gold; not the §134 11.0% figure; smartaces/jev-plays-streetfighter-2 6★ text state not video; catalog ≠ endorsement; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62/#63/#64/#65/#66/#67/#68/#69/#70/#71/#72/#73/#74; notes.md §150
+
+## 151. Hourly 1352 HIGH (2026-09-21 ~13:52 Boise / 2026-09-21T19:52Z)
+
+Measurement / class-member fold on `cursor/hourly-1352-fold-137d`,
+rebased onto post-#75 `main` (`bdb0acb`, hourly 1256 / `notes.md` §150 /
+merged #75). yoheinakajima/glance stays `notes.md` §147 (merged #73).
+Hourly 1203 stays `notes.md` §148 / items 761-776 / batch #129 (merged #74).
+Merged #76 owns peterpme/lev `notes.md` §149. Merged #75 owns hourly 1256
+`notes.md` §150 / composition 777-792 / findings batch #130.
+glance §147, hourly 1203 §148, lev §149, and hourly 1256 §150 are on main.
+This fold is §151 only. Do not reclaim §147–§150.
+**HARD RULE:** do not reopen or amend PR #23 through #76.
+This fold's IDs: `notes.md` §151 / composition 793-808 / findings
+batch #131.
+
+Never reopen merged #7-**#76**. Quote READMEs / Hub cards.
+Mark *theirs*. No wrappers, keys, `npm` / `pip` / `uv` / `docker`
+install recipes. `invented_signal: false`. Hunches labeled.
+Does not bump 0.5.0 or 0.5.1. Skip Archer. No Augustus call site.
+Parent merges only after ADV_PASS. This fold stays draft.
+
+Lane is Augustus: **mathematical / logical / algorithmic mental models**
+for the decision-model class (classifiers, encoders and decoders,
+specialized AR and constrained heads, vision and listwise scorers, and
+what TypeSafe calls System One) across AI / SWE / **business /
+knowledge work / life**. TypeSafe Jev (Choice, Score, Noul) is the
+dominant exemplar most users will call, and the default recommended
+path. It is not the whole mandate. PRIMARY this hour starts with
+**benjamincanac/tia** (3★): Jev takes each triage decision, the
+generator writes the leftover comment, and code owns every irreversible
+write. Peers in the same hour include a training-free logit debiaser
+(AnyJev), a local visualizer, catalogs, a verbatim compactor, a typed
+client, a graph reranker, a Spring gateway, a chess harness, and an
+unofficial .NET SDK. REVISIT densify is
+**hf:abidlabs/jev-typed-decisions-causal-0.6b**: first card, revisit
+tag, no prior notes card. Third-party benches stay *theirs*. Soft
+judgment never sole veto. SHA move is not a replica. Archer still
+**promised_not_landed**.
+
+The Hourly 1352 uniqueness lock is one consecutive substring in
+`research/notes.md` and in `uniqueness_gate.py`. It is not copied into
+README, skill overlays, or the other fold files.
+
+Hourly 1352 uniqueness lock: benjamincanac/tia Jev decides generator writes code owns irreversible; the model never classifies and never sees a probability; dry-run default; human labels stay; Soft judgment never sole veto; MorrisZJ/AnyJev L0 is not calibration; decision.level raw L0 L1; not affiliated with TypeSafe; Qwen3-8B banking20 raw flip 0.227 to 0.077; L0 acc 0.807; L1 ECE 0.100 *theirs*; Jev 1.13.0 acc 0.727 published not rerun; laya-typed-decisions measured 0.768 ECE 0.215 *theirs*; headline 0.766 is a different author sentence; do not average 0.768 and 0.766; MorrisZJ/AnyJev ≠ hwfengcs/any2jev; Qwen3 ≠ Archer; Qwen2.5 ≠ Archer; andududu/jeview answers nothing itself; key stored as plain text; a live view is not a calibration claim; satiricalguru/Fast-Jev-Agents never summarizes or rewrites text; pinned text stays; 100 ms to 1 s *theirs*; 50 to 80% *theirs*; README badge 50/50 *theirs* not Harbor; Alberto-Codes/judgevet noul carries no confidence; score is continuous; jev-latest returned jev-1.13.0; later sentence every answer carries a confidence is their tension; wire-compat ≠ logit-equiv; Alberto-Codes/judgevet ≠ jkudish/jev-mcp; Emlembow/jevgraph 63.9% to 81.8% *theirs*; unanswerable still returns; ranking ≠ an answer; Ivanovskyi/typesafe-ai-gateway 0.75 still soft; MANUAL_REVIEW; routing ≠ permission; abe17124/jev-laya-chess-bench legal UCI; no W/D/L table; do not invent scores; game success ≠ calibrated Noul; GitHub license null README Apache-2.0 *theirs*; adelaserna82/jev-model-net-sdk unofficial simulation first; planned NuGet names are not a published contract; adelaserna82/jev-model-net-sdk ≠ JabbaKadabra/SystemOneDotNet ≠ saibimajdi/typesafeai-dotnet-sdk; karozi/awesome-jev-resources catalog ≠ endorsement; karozi/awesome-jev-resources ≠ ham-zax/awesome-jev; hf:abidlabs/jev-typed-decisions-causal-0.6b first card revisit tag no prior notes card; prior_sha null; sha 440a8931d8db; quick_eval acc 0.6234 NLL 1.2755 n=640 *theirs*; do not quote 0.7518; ECE 0.0154 not re-run here; restricted letter CE ≠ calibrated Noul; LoRA ≠ RLCD replica; Qwen/Qwen3-0.6B-Base ≠ Archer; Qwen3-0.6B ≠ Archer; hf:abidlabs/jev-typed-decisions-demo is the Gradio not the weights; devanshbatham/nyx 2,277 frozen requests *theirs*; Qwen3.5-4B ≠ Archer; latency clocks are different operating points; harrymunro/jev-laya-benchmark 92.9% vs 65.3% *theirs* not Harbor; mbburabak/jev-safety-benchmark 12,254 live calls *theirs*; HateCheck Shieldstral cell empty; hf:Wouze/laya-ara MASSIVE intent 0.816 scenario 0.865 XNLI-ar 0.723 OSACT4-A 0.862 *theirs*; top-1 among k≤12 not corpus nDCG@10; hf:Wouze/laya-ara-rag ≠ hf:Wouze/laya-ara; hf:juspay/jev-trained Qwen3.6 ≠ Archer; inference false; serving substrate ≠ calibrated replica; MatteoGauthier/laya-onnx export parity is not Harbor; zerowidth-ai/shims-sdk example 0.86 is a README illustration; encoder class member not Jev replica; skip-thin canok07/jev-router fedorpark/jev-inbox-lab rscottstevens-byte/jev tgallice/jev-go empty SHA HTTP 409; codeJRV/openjev-hermes-plugin HTTP 404; sed-ndi/test-jev README HTTP 404; canok07/jev-router ≠ gargpratyush/jev-router; codeJRV/openjev-hermes-plugin ≠ Zefan-Cai/Open-Jev; does not execute; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; Skip Archer; invented_signal: false; Parent merges only after ADV_PASS; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62/#63/#64/#65/#66/#67/#68/#69/#70/#71/#72/#73/#74/#75/#76; glance §147, hourly 1203 §148, lev §149, and hourly 1256 §150 are on main; this fold is §151 only; notes.md §151; benjamincanac/tia 3★ NOASSERTION TS HEAD fb1f3fc5a08b README SHA 8e72540ed19d; MorrisZJ/AnyJev 1★ Apache-2.0 Py HEAD 39612ea0dbad README SHA 13000620bb24; andududu/jeview 1★ MIT JS HEAD 313fb25fdbb6 README SHA b11e9eecafc9; karozi/awesome-jev-resources 1★ NOASSERTION HEAD 6fc7b2bbb484 README SHA e43f103fa149; satiricalguru/Fast-Jev-Agents 1★ MIT TS HEAD d2a2cf0c27f9 README SHA aec74c017e2a; 247arjun/JevPlayground 0★ MIT JS HEAD 7eb341853c14 README SHA 5771aae9f263; Alberto-Codes/judgevet 0★ MIT Py HEAD 8baf10bdb9a9 README SHA 3534d0bca3bf; DanM3rcurius/po-radar 0★ Apache-2.0 Py HEAD cd367c978747 README SHA 6d6f0e9423b9; Emlembow/jevgraph 0★ NOASSERTION JS HEAD 9b76d0dfaa03 README SHA 5a292aa627df; Faresabdelghany/jev-browser-test 0★ NOASSERTION Py HEAD 0ced4fc4d510 README SHA a892d7502e65; Ivanovskyi/typesafe-ai-gateway 0★ NOASSERTION Java HEAD b7a07bab1f47 README SHA 57c4b2ea4d00; MatteoGauthier/laya-onnx 0★ Apache-2.0 TS HEAD e2578f5eb4a9 README SHA 1a2d0d6ab6b5; SAITS-Swiss-AI-Tech-Services/jev-mcp 0★ MIT Py HEAD b63834b57c47 README SHA 803d4028db3f; SimonKaran13/DOOMJEV 0★ NOASSERTION HEAD 57335641e9dc README SHA aa909c20f1ca; TokyoHunter/jev-animal-finder 0★ NOASSERTION HTML HEAD 039eebdc3d93 README SHA 0b3f142ea401; abe17124/jev-laya-chess-bench 0★ NOASSERTION Py HEAD 25cb0b542c33 README SHA 6ae7b84d046c; adelaserna82/jev-model-net-sdk 0★ MIT C# HEAD adfd02bff8b6 README SHA 0c134d84847a; aitofy-dev/jev-awesome-skills 0★ MIT TS HEAD 544f447cc1f2 README SHA 4358da54ba3f; aleksvega/jev-skill-router 0★ MIT JS HEAD e360f3ff5b13 README SHA 5a8868bfd7bb; alibowbow/jev 0★ NOASSERTION JS HEAD 6865532303fe README SHA 405d7aa47ef4; anchorshell/relay 0★ NOASSERTION Go HEAD fb9c68c44f10 README SHA 8abce1477026; ankurlamichhane90/mac-voice-assistant 0★ MIT Py HEAD 9616c9e0d3ba README SHA 129f0a1fc6b9; canok07/jev-router empty SHA HTTP 409; codeJRV/openjev-hermes-plugin HTTP 404; d-callan/bionym 0★ NOASSERTION Py HEAD 50c3f20d8903 README SHA 9f08f9b86509; deemkeen/jevgeni 0★ NOASSERTION TS HEAD 45e4739961e5 README SHA a1aa02587139; devanshbatham/nyx 0★ Apache-2.0 Py HEAD f54400f5b3c7 README SHA 685e5326d87e; diluteoxygen/JevMood 0★ NOASSERTION JS HEAD 2f1d518c9bb7 README SHA 46dfefe14ee8; emipaz/jev 0★ NOASSERTION Py HEAD 24ebc8f4aa96 README SHA 4ba7873f5fef; fedorpark/jev-inbox-lab empty SHA HTTP 409; fredp74/calibrus 0★ MIT Py HEAD 99857011694c README SHA 996140762c25; gbesse/bevy-jev 0★ MIT Rust HEAD 7c2d856c5a4f README SHA 6968b772a169; gbesse/figma-jev-review 0★ MIT TS HEAD 5c2bd09b869e README SHA 94b9f2259e4a; gbesse/jev-premiere-markers 0★ MIT JS HEAD 0b86a810aea9 README SHA 1fdbe504ca02; gbesse/jev-unreal-statetree 0★ MIT C++ HEAD 7a29d778b02e README SHA 6d9a0daf14a8; ham-zax/awesome-jev 0★ NOASSERTION Py HEAD 2feee30987c1 README SHA b2f54fb300b5; harrymunro/jev-laya-benchmark 0★ MIT Py HEAD 0f977d20641e README SHA f8e5830655b1; hf:Wouze/laya-ara 0 likes sha e6de79f74226 other; hf:Wouze/laya-ara-rag 0 likes sha c6a917f43fee apache-2.0; hf:abidlabs/jev-typed-decisions-causal-0.6b 0 likes sha 440a8931d8db apache-2.0; hf:abidlabs/jev-typed-decisions-demo 0 likes sha c03353154801 apache-2.0; hf:akhilaaa3/openjev-train 0 likes sha 91c04ef1cf2e other; hf:juspay/jev-trained 0 likes sha fc03bb699dbd apache-2.0; hf:rarha/laya-onnx 0 likes sha b5eb4528c941 apache-2.0; htpu/mailaya 0★ Apache-2.0 JS HEAD 30b97f46b419 README SHA fe273b722191; ilyaryabchinski/jevss 0★ NOASSERTION Py HEAD 4fd5fec4dc9f README SHA 1ae319334fff; individual11/jev-feedbin-filter 0★ NOASSERTION TS HEAD 432c89194fa2 README SHA 2f4cf5a66173; jpvajda/jev-demo 0★ NOASSERTION TS HEAD 6e8d6da7c083 README SHA d891f3d4a17c; kevinaaaquil/jev-rubix 0★ NOASSERTION JS HEAD 1dbab869b1b4 README SHA eca7d0acdc45; koolerkx/vibe-discord-bot-jev 0★ NOASSERTION TS HEAD 65cb426d514a README SHA 4372e4cd36c3; marcelormendes/diffninja 0★ MIT TS HEAD b53d5427e0ad README SHA 513dbfeaea61; mbburabak/jev-safety-benchmark 0★ MIT Py HEAD 1bf1eacfc37e README SHA 8b4ae44b8b96; mwatkins03-netizen/The-Complaint-Atlas-Fable-5 0★ NOASSERTION JS HEAD 296f7bfeb9be README SHA 4d5333f02168; nautahakk/jev-codex-router 0★ MIT JS HEAD 49d75e9230ce README SHA f51077559a4d; pavan142/jev-experiments 0★ NOASSERTION TS HEAD 92f96ac4023d README SHA 69a29f87649d; pedro-pscunha/guideme-python 0★ Apache-2.0 Py HEAD 9a9d4d574de7 README SHA e2fc4d164b29; photuris/overseer-judge 0★ MIT Go HEAD 9bdd94ada9b1 README SHA 30a2e39174df; qasimhammad1/applyguard 0★ MIT TS HEAD 28897637e064 README SHA 8b5cdfbead1c; rscottstevens-byte/jev empty SHA HTTP 409; sed-ndi/test-jev 0★ NOASSERTION HTML HEAD ccde5849b930 README HTTP 404; tgallice/jev-go empty SHA HTTP 409; vaibhavgupta5/Jev-Email-Classifier 0★ NOASSERTION JS HEAD 92d9abf9f97b README SHA 66bb426ffe6e; vishalyadav28/resume-jev-match 0★ NOASSERTION Py HEAD e78a1ec2d2c8 README SHA f1def63ffeb0; yangda611/omarchy-smart-paste 0★ MIT Shell HEAD a55dabf2ba59 README SHA 54d4a399ca1b; zerowidth-ai/shims-sdk 0★ Apache-2.0 JS HEAD ae1bf6afa440 README SHA 16f2357b158d
+
+
+### How-to-apply (class lenses, not vendor tutorials)
+
+These are *class* lenses. Same discipline as §149 (a pointer head is
+a learning prototype) and §148 (a bridge is not a weights replica).
+TypeSafe Jev remains the default path when the caller wants hosted
+Choice, Score, and Noul. The other artifacts are class members,
+adapters, catalogs, or *theirs* benches.
+
+1. **Jev decides, the generator writes, code owns irreversible writes**
+   (benjamincanac/tia). Eve follows a skill and writes one short
+   comment. Jev, inside a tool, takes every decision and the code
+   compares it with repository thresholds. The generator never
+   classifies and never sees a probability. `apply_triage` is the only
+   write: dry-run by default, one comment, a label allow-list, and
+   human-applied labels stay. The agent never closes, transfers, or
+   converts an issue. Anything irreversible is handed to maintainers.
+   Soft judgment never sole veto.
+2. **L0 is not calibration** (MorrisZJ/AnyJev). One prefill, no
+   generation. `raw` is a restricted softmax over label tokens. `L0`
+   removes position bias and label-prior bias with zero labels and
+   does not make the model's uncertainty calibrated. `L1` is
+   temperature scaling on about 100 to 500 labels and does not survive
+   a shift past that calibration set. `decision.level` is `raw`, `L0`,
+   or `L1` so downstream code can refuse the wrong level. Independent
+   of TypeSafe. Qwen3 ≠ Archer. Qwen2.5 ≠ Archer.
+   MorrisZJ/AnyJev ≠ hwfengcs/any2jev (§140).
+3. **A live view answers nothing itself** (andududu/jeview). The
+   process listens on 127.0.0.1 and forwards to the hosted API. A
+   timeline is not a calibration claim. The local sqlite file stores
+   the API key as plain text, so it is not a secret store.
+4. **Verbatim compaction keeps pinned text** (satiricalguru/Fast-Jev-Agents).
+   User prompts and assistant thoughts stay verbatim. Heuristics prune
+   superseded tool results. Recent turns and the initial instructions
+   stay pinned. A relevance score is not permission to drop a pinned
+   user constraint. Code owns the pin set.
+5. **Probe the wire before trusting the prose** (Alberto-Codes/judgevet).
+   A 2026-09-21 probe: a noul answer carries no confidence field while
+   choice and score do; score is continuous; sending `jev-latest`
+   returned `jev-1.13.0`. A later README sentence says every answer
+   carries a confidence. Card the probe. Treat the later sentence as
+   their tension. wire-compat ≠ logit-equiv.
+6. **Retrieval recall is not an answer** (Emlembow/jevgraph). On one
+   tax-code graph, top-five source recall moved from 63.9% to 81.8%
+   *theirs*. Both modes still returned hits for all 16 unanswerable
+   questions. Their own line: this single test does not establish
+   generated-answer accuracy. Ranking ≠ calibration.
+7. **A confidence threshold is still a soft route**
+   (Ivanovskyi/typesafe-ai-gateway). `0.75` sends the low band to
+   manual review. routing ≠ permission. Soft judgment never sole veto.
+8. **Legal moves are code** (abe17124/jev-laya-chess-bench). The
+   harness accepts legal UCI moves only. The README describes a
+   W/D/L scoreboard and does not publish a W/D/L table. Do not invent
+   game scores. game success ≠ calibrated Noul.
+9. **Simulation first on an unofficial SDK**
+   (adelaserna82/jev-model-net-sdk). Choice, Score, Noul. The console
+   starts in simulation with fictional responses. Live tests stay off
+   unless the operator sets the live flag. NuGet names are planned,
+   not a published contract. adelaserna82/jev-model-net-sdk ≠
+   JabbaKadabra/SystemOneDotNet (§143/§146) ≠
+   saibimajdi/typesafeai-dotnet-sdk (§123).
+10. **Quote the quick eval that was actually run**
+    (hf:abidlabs/jev-typed-decisions-causal-0.6b). In-training
+    quick_eval on n=640: acc 0.6234, NLL 1.2755 *theirs*. The report's
+    arm B accuracy 0.7518 and ECE 0.0154 were produced by a separate
+    pipeline not re-run on this checkpoint. Do not quote 0.7518 as
+    this checkpoint. Restricted letter CE ≠ calibrated Noul. LoRA ≠
+    RLCD replica. Qwen/Qwen3-0.6B-Base ≠ Archer. First card revisit
+    tag no prior notes card.
+
+### HIGH
+
+**[`benjamincanac/tia`](https://github.com/benjamincanac/tia)** PRIMARY
+novel. GitHub license null (NOASSERTION). Do not invent an SPDX.
+TypeScript. **3★**. HEAD `fb1f3fc5a08b`. README SHA `8e72540ed19d`.
+Description *theirs*: Triage Issue Agent for GitHub, built with Eve
+and Jev.
+
+Quote *theirs*: it never closes, transfers, or converts an issue, and
+never removes a label a human applied. Anything irreversible is handed
+to the maintainers. Every decision is taken by Jev (`typesafe-ai/jev`)
+inside a tool and compared with the repository's thresholds. The model
+never classifies and never sees a probability. It follows the skill
+and writes the comment. `apply_triage` is the only write tool: dry-run,
+one comment of 80 words, the label allow-list, and human-applied
+labels stay. Default `dryRun: true`. A repository without a valid config file is
+ignored. When the app is installed on a repository that has no file,
+tia opens one setup pull request with `dryRun: true`. Closing that
+pull request is a final no. It can remove labels that the repository's
+issue forms apply, such as `triage`. Human-applied labels stay. User
+text never reaches the model prompt; an @-mention is reduced by Jev to
+whether it is a triage request. Raw Jev answers are stored next to
+every action. Runs that need an approval happen in a Discord channel
+with Approve and Cancel. Without that channel they are forced to
+dry-run.
+
+Class placement. Jev is the sensor. Code owns irreversible writes.
+The generator writes leftover comment text. Soft judgment never sole
+veto. *theirs* not Harbor. No Augustus call site.
+
+**[`MorrisZJ/AnyJev`](https://github.com/MorrisZJ/AnyJev)** PRIMARY
+novel. Apache-2.0. Python. **1★**. HEAD `39612ea0dbad`. README SHA
+`13000620bb24`. Description *theirs*: Turn any LLM into a Jev-style
+decision model. Typed decisions, real probabilities, no training.
+Quote *theirs*: not affiliated with, endorsed by, or derived from
+TypeSafe AI or Jev.
+
+One prefill, no generation. Levels, from their table: `raw` is a
+restricted softmax over label tokens and does nothing about bias or
+calibration. `L0` removes position bias and label-prior bias, needs
+zero labels, and does not make uncertainty calibrated. `L1` fits a
+temperature per (model, question) on about 100 to 500 labels and does
+not survive a shift beyond that set. `decision.level` records which
+one the caller got.
+
+Banking20, K=20, Qwen3-8B, *theirs* not Harbor: raw flip 0.227, L0
+flip 0.077, raw acc 0.750, L0 acc 0.807, raw ECE 0.235, L1 ECE 0.100.
+On Laya's bench, same README: Jev 1.13.0 published by TypeSafe / Laya
+and **not rerun**, acc 0.727. laya-typed-decisions fine-tuned,
+measured here, acc 0.768, ECE 0.215. Their prose also cites a Laya
+headline of 0.766. Keep 0.768 and 0.766 as two author sentences. Do
+not average them. Qwen3-32B AnyJev L1 ECE 0.034 *theirs*. Laya
+zero-shot rows sit at 0.340 and 0.359 *theirs*. Maze rows exist in
+the README. game success ≠ calibrated Noul. Do not headline the maze.
+Qwen3 ≠ Archer. Qwen2.5 ≠ Archer. MorrisZJ/AnyJev ≠ hwfengcs/any2jev.
+*theirs* not Harbor.
+
+**[`andududu/jeview`](https://github.com/andududu/jeview)** PRIMARY
+novel. MIT. JavaScript. **1★**. HEAD `313fb25fdbb6`. README SHA
+`b11e9eecafc9`. Unofficial local visualizer. Quote *theirs*: Jeview
+is a gateway: it sits between your code and TypeSafe and answers
+nothing itself. Listens on 127.0.0.1:4777 and forwards to
+api.typesafe.ai. Calls and the key live in `jeview.sqlite`. The key
+is stored as plain text. Independent, not affiliated. A live view is
+not a calibration claim. Not a bench.
+
+**[`karozi/awesome-jev-resources`](https://github.com/karozi/awesome-jev-resources)**
+PRIMARY novel. GitHub license null (NOASSERTION). **1★**. HEAD
+`6fc7b2bbb484`. README SHA `e43f103fa149`. Curated Jev guides and
+community projects. Independent community list. catalog ≠ endorsement.
+karozi/awesome-jev-resources ≠ ham-zax/awesome-jev ≠
+heyjunpenn/awesome-jev ≠ yibie/awesome-jev.
+
+**[`satiricalguru/Fast-Jev-Agents`](https://github.com/satiricalguru/Fast-Jev-Agents)**
+PRIMARY novel. MIT. TypeScript. **1★**. HEAD `d2a2cf0c27f9`. README
+SHA `aec74c017e2a`. Quote *theirs*: Fast-Jev-Agents never summarizes
+or rewrites text. User prompts and assistant thoughts stay verbatim.
+Recent turns and initial instructions are pinned. Latency cell on the
+README: 100 ms to 1 s *theirs*. Heuristic pre-compaction cuts state by
+50 to 80% *theirs*. README badge says npm v0.3.0 and tests 50/50
+*theirs*. Those badges are not Harbor. Offline rule-based fallback
+exists. A relevance score is not permission to drop a pinned
+constraint. Code owns the pin set.
+
+**[`Alberto-Codes/judgevet`](https://github.com/Alberto-Codes/judgevet)**
+PRIMARY novel. MIT. Python. **0★**. HEAD `8baf10bdb9a9`. README SHA
+`3534d0bca3bf`. Typed client, CLI, and MCP server. Quote the probe
+*theirs* (2026-09-21): a noul answer carries no confidence field while
+choice and score do; score is continuous, not an index; legend is
+keyed by stringified position; probabilities summed to 1.0; sending
+`jev-latest` returned `jev-1.13.0`; error `detail` is an object for
+auth and an array for validation. README and the API doc are marked
+draft, not stable. A later sentence says every answer carries a
+confidence. That sentence conflicts with the probe. Card the probe.
+Flag the later sentence as their tension. The library is the
+artifact. CLI and MCP are adapters. wire-compat ≠ logit-equiv.
+Alberto-Codes/judgevet ≠ jkudish/jev-mcp.
+
+**[`Emlembow/jevgraph`](https://github.com/Emlembow/jevgraph)** PRIMARY
+novel. GitHub license null (NOASSERTION). JavaScript. **0★**. HEAD
+`9b76d0dfaa03`. README SHA `5a292aa627df`. Package name jevgraph@0.2.0
+on the README. Evidence-preserving retrieval. On one 8,851-node
+tax-code graph, top-five source recall 63.9% to 81.8% *theirs*.
+Top-1 33.2% to 73.2%, top-3 53.5% to 80.1% *theirs*. Median cold
+lookup 190 to 323 ms. Output tokens +2.2% *theirs*. 120 reviewed
+questions, 104 answerable, 16 unanswerable. Same 20-candidate
+shortlist, five-result limit, 6,000-character budget. Semantic run
+used `jev-1.13.0`. Both modes returned results for all 16
+unanswerable questions. Quote *theirs*: this single test does not
+establish generated-answer accuracy. Ranking ≠ an answer. An offline
+lexical ranker exists. *theirs* not Harbor.
+
+**[`Ivanovskyi/typesafe-ai-gateway`](https://github.com/Ivanovskyi/typesafe-ai-gateway)**
+PRIMARY novel. GitHub license null (NOASSERTION). Java. **0★**. HEAD
+`b7a07bab1f47`. README SHA `57c4b2ea4d00`. Spring Boot API gateway.
+README pins `typesafe.model=jev-latest` and
+`typesafe.confidence-threshold=0.75`. Below the threshold the sample
+path is manual review. The README example "I think something is wrong
+with my account" returns route MANUAL_REVIEW at confidence 0.52
+*theirs*. That example is a sample response, not a bench. Fallback
+on API failure is their design. routing ≠ permission. 0.75 still
+soft. Soft judgment never sole veto. Do not copy any placeholder key.
+
+**[`abe17124/jev-laya-chess-bench`](https://github.com/abe17124/jev-laya-chess-bench)**
+PRIMARY novel. GitHub license null (NOASSERTION). README says
+Apache-2.0 for the harness *theirs*. Python. **0★**. HEAD
+`25cb0b542c33`. README SHA `6ae7b84d046c`. Legal UCI moves only.
+Scoreboard is described as W/D/L, avg ms, p50, and illegal count.
+The README has no numeric W/D/L table. Do not invent scores. GitHub
+Pages is static and cannot call TypeSafe or run Laya. Players are
+jev, laya, or random. Laya weights Apache-2.0 (Convai) *theirs*.
+game success ≠ calibrated Noul. The engine owns legality.
+abe17124/jev-laya-chess-bench ≠ harrymunro/jev-laya-benchmark.
+Never commit or log `TYPESAFE_API_KEY`.
+
+**[`adelaserna82/jev-model-net-sdk`](https://github.com/adelaserna82/jev-model-net-sdk)**
+PRIMARY novel. MIT. C#. **0★**. HEAD `adfd02bff8b6`. README SHA
+`0c134d84847a`. Spanish README. Unofficial community SDK, not
+affiliated. Choice, Score, Noul. Simulation uses fictional responses
+and the console starts in simulation. Live tests stay off unless
+`JEV_RUN_LIVE_TESTS=1`. Planned NuGet names `Jev.Sdk` and
+`Jev.Sdk.Extensions.DependencyInjection` are not yet a published
+contract. The web sample keeps the key on the server. wire-compat ≠
+logit-equiv. adelaserna82/jev-model-net-sdk ≠
+JabbaKadabra/SystemOneDotNet ≠ saibimajdi/typesafeai-dotnet-sdk.
+
+**[`hf:abidlabs/jev-typed-decisions-causal-0.6b`](https://huggingface.co/abidlabs/jev-typed-decisions-causal-0.6b)**
+REVISIT densify. material `description_rewrite`. `prior_sha` null in
+the hourly payload. No prior notes card. First card revisit tag no
+prior notes card. Do not invent a previous SHA. 0 likes. apache-2.0.
+Hub sha `440a8931d8db` (full `440a8931d8db317855a6ff3ad519bd3b19a3a22f`).
+peft LoRA. Base `Qwen/Qwen3-0.6B-Base`.
+
+Quote *theirs*: cached causal typed scorer (arm B, Jev-like
+reproduction). LM head frozen. Only adapters train. LoRA r=16,
+alpha=32, dropout=0.05, targets q_proj, k_proj, v_proj, o_proj,
+gate_proj, up_proj, down_proj. Branch mode is prompt plus suffix plus
+letter. Loss at the single answer-letter. Restricted cross-entropy
+over candidate option-letter tokens. Corpus
+`pngwn/typed-decisions-v2` at
+`74a8ed2d0d28955351805f7829d7149961172f88` (train 31,109 states /
+45,932 decisions). Steps 5,742 (2 epochs). Wall 37 min 21 s on
+a100-large. Final calibration-split quick_eval n=640: acc 0.6234,
+NLL 1.2755 *theirs* (eval acc 0.473 at step 200 to 0.623 at the end).
+Their note: this is in-training quick-eval, not the report's matched
+5,214-decision test harness. Report arm B accuracy 0.7518 and ECE
+0.0154 after temperature scaling were produced by a separate
+evaluation pipeline not re-run here. Do not quote 0.7518 as this
+checkpoint. Restricted letter CE ≠ calibrated Noul. LoRA ≠ RLCD
+replica. Qwen3-0.6B ≠ Archer. Qwen/Qwen3-0.6B-Base ≠ Archer.
+Distinct from hf:pngwn/typed-decisions-causal-0.6b-scorer, which
+stayed in an archive hour and was never a notes card. The Gradio
+space hf:abidlabs/jev-typed-decisions-demo is the demo, not the
+weights. The card links a Trackio space
+`abidlabs/jev-typed-decisions-causal-0-6b-trackio`. That space is
+not in this hour's 65 and is not a sibling census.
+
+### Class members (same hour, not thin-Jev-only)
+
+**[`devanshbatham/nyx`](https://github.com/devanshbatham/nyx)** novel.
+Apache-2.0. Python. **0★**. HEAD `f54400f5b3c7`. README SHA
+`685e5326d87e`. 4B decision model. 3.29 GB GGUF. Public API
+`POST /v1/systemone`. 2,277 frozen classification requests *theirs*
+not Harbor. Base / nyx / Jev 1.13: AG News 87.75 / 85.75 / 86.50; TREC
+86.60 / 84.20 / 93.00; CoLA 77.75 / 81.50 / 77.75; RTE 84.12 / 88.09 /
+91.34; Emotion 47.67 / 46.33 / 47.00; IMDb 95.75 / 95.75 / 97.00;
+dataset-macro 79.94 / 80.27 / 82.10; pooled 81.42 / 81.51 / 83.62.
+Round trip median / p95 ms: base 54.85 / 67.96, nyx 55.56 / 72.77,
+Jev 182.33 / 245.12 *theirs*. Local Qwen and nyx latency is MI325X at
+concurrency 1. Jev latency is remote HTTPS at concurrency 8. Do not
+read those clocks as the same operating point. GGUF matched the nyx
+reference on 98.73% of a separate 1,024-case fidelity set *theirs*.
+Not affiliated with TypeSafe. Qwen3.5-4B ≠ Archer. wire-compat ≠
+logit-equiv. devanshbatham/nyx ≠ jaredpalmer/kev.
+
+**[`harrymunro/jev-laya-benchmark`](https://github.com/harrymunro/jev-laya-benchmark)**
+novel. MIT. Python. **0★**. HEAD `0f977d20641e`. README SHA
+`f8e5830655b1`. 1,470 synthetic items, eight tasks, 3,386 judgments
+per backend *theirs* not Harbor. Jev 1.13.0 correct 92.9% vs Laya
+local 65.3%. Choice / Noul / Score 99.3 / 98.6 / 76.1 vs 68.3 / 71.3 /
+51.5. p50 136 ms (about 50 ms network) vs 42 ms. README: Jev won all
+19 questions with paired confidence intervals excluding zero *theirs*.
+Systems latency ≠ semantic equivalence.
+harrymunro/jev-laya-benchmark ≠ abe17124/jev-laya-chess-bench.
+
+**[`mbburabak/jev-safety-benchmark`](https://github.com/mbburabak/jev-safety-benchmark)**
+novel. MIT. Python. **0★**. HEAD `1bf1eacfc37e`. README SHA
+`8b4ae44b8b96`. Six public safety benches: HateCheck 3,728, ToxicChat
+2,853, Aegis v1 359, Aegis v2 1,928, WildGuardTest 1,699 assessable,
+HarmBench 239 plus 596. Typed questions. A deterministic decision
+layer maps answers to verdicts. No LLM generates a label. 12,254 live
+calls (0 mock, 1 error record) *theirs* not Harbor. Quote rows against
+Shieldstral announced numbers *theirs*: ToxicChat 75.72% vs 84.1 F1
+(delta -8.38 pp); Aegis v2 prompt 83.57% vs 86.2; Aegis v2 response
+80.17% vs 87.2; WildGuard prompt 88.43% vs 88.1 (delta +0.33 pp);
+HarmBench response 87.46% vs 87.0. HateCheck Jev 99.23% Wilson, and
+the Shieldstral cell is empty. Do not invent that delta. WildGuard
+response tasks are NOT-ASSESSABLE on the prompt-only mirror. Deltas
+are aggregate-level: no paired test, because Mistral published no
+per-sample predictions. Soft judgment never sole veto.
+
+**[`hf:Wouze/laya-ara`](https://huggingface.co/Wouze/laya-ara)** novel.
+0 likes. sha `e6de79f74226`. License other (card carries xnli-cc-by-nc
+on the NLI slice). Base `convaiinnovations/laya-multilingual`. Arabic
+fine-tune. Accuracy *theirs*, named tasks: MASSIVE ar-SA intent
+(20-option) 0.816; MASSIVE scenario (18-way) 0.865; XNLI-ar 0.723;
+OSACT4-A offensive macro-F1 0.862. Protocol line *theirs*: retrieval
+transfer is top-1 among k≤12, not corpus nDCG@10. Sentence selection
+is not span EM/F1. *theirs* not Harbor. LoRA ≠ RLCD replica.
+
+**[`hf:Wouze/laya-ara-rag`](https://huggingface.co/Wouze/laya-ara-rag)**
+novel. 0 likes. sha `c6a917f43fee`. apache-2.0. Text ranking on the
+same multilingual base. Top-1 among k≤12 *theirs*: MIRACL-ar 0.588,
+Mr.TyDi-ar 0.632, SadeemQuestion 0.871, MLQA-ar 0.582, XPQA-ar 0.665.
+Pairwise relevance on MIRACL-ar 0.788 *theirs*. Those figures are
+top-1 among a shortlist, not corpus nDCG@10. ranking ≠ calibration.
+hf:Wouze/laya-ara-rag ≠ hf:Wouze/laya-ara.
+
+**[`hf:juspay/jev-trained`](https://huggingface.co/juspay/jev-trained)**
+novel. 0 likes. sha `fc03bb699dbd`. apache-2.0. Base
+`Qwen/Qwen3.6-35B-A3B`. Card name JevOne. `POST /v1/systemone` on the
+card, inference false. Serving claim ≠ a measured calibration table.
+Qwen3.6 ≠ Archer. wire-compat ≠ logit-equiv.
+
+**[`hf:rarha/laya-onnx`](https://huggingface.co/rarha/laya-onnx)** novel.
+0 likes. sha `b5eb4528c941`. apache-2.0. README is license frontmatter
+only. serving substrate ≠ calibrated replica. hf:rarha/laya-onnx ≠
+MatteoGauthier/laya-onnx ≠ tozp/laya-onnx ≠ Mattepiu/laya-onnx ≠
+gqgs/laya-onnx.
+
+**[`MatteoGauthier/laya-onnx`](https://github.com/MatteoGauthier/laya-onnx)**
+novel. Apache-2.0. TypeScript. **0★**. HEAD `e2578f5eb4a9`. README SHA
+`1a2d0d6ab6b5`. Portable ONNX / WASM. Quote *theirs*: faithful FP32
+pipeline plus a measured FP16 option, same tokenizer path. FP32 ONNX
+vs torch: logits at most 7.7e-06, 5/5 fixtures, 13/13 accuracy checks
+*theirs*. FP16 split 806MB, calibrated drift at most 1.04e-03 on
+CPU/WASM, 13/13 accuracy *theirs*. Those checks are export parity, not
+a Harbor calibration. serving substrate ≠ calibrated replica.
+
+**[`zerowidth-ai/shims-sdk`](https://github.com/zerowidth-ai/shims-sdk)**
+novel. Apache-2.0. JavaScript. **0★**. HEAD `ae1bf6afa440`. README SHA
+`16f2357b158d`. Client-side tiny heads. Shared encoder about 32.4MB.
+A three-answer shim about 18KB. The example confidence 0.86 is a
+README illustration, not a bench. Encoder class member, not a Jev
+replica. No server call at decision time is their design.
+
+**[`hf:abidlabs/jev-typed-decisions-demo`](https://huggingface.co/spaces/abidlabs/jev-typed-decisions-demo)**
+novel space. 0 likes. sha `c03353154801`. apache-2.0. Gradio. Loads
+the LoRA above. The space is not the checkpoint. Do not quote the
+space as the 0.6234 eval.
+
+**[`hf:akhilaaa3/openjev-train`](https://huggingface.co/datasets/akhilaaa3/openjev-train)**
+novel dataset. 0 likes. sha `91c04ef1cf2e`. License other. Private
+OpenJev training data for adola700/OpenJev, per the card. A dataset
+is not a scored replica. hf:akhilaaa3/openjev-train ≠
+Zefan-Cai/Open-Jev.
+
+**[`247arjun/JevPlayground`](https://github.com/247arjun/JevPlayground)**
+novel. MIT. JavaScript. **0★**. HEAD `7eb341853c14`. README SHA
+`5771aae9f263`. Experimental analysis workspace. 28 security
+categories. Quote *theirs*: not a vulnerability scanner with verified
+detection accuracy. Model classifications guide human review. Rankings
+prioritize review candidates. Probabilities are not calibrated
+vulnerability severity. Soft judgment never sole veto.
+
+**[`DanM3rcurius/po-radar`](https://github.com/DanM3rcurius/po-radar)**
+novel. Apache-2.0. Python. **0★**. HEAD `cd367c978747`. README SHA
+`6d6f0e9423b9`. A generative model writes the brief. Jev or a local
+model answers bounded Choice, Score, and Noul. Code owns thresholds,
+permission, and consequence. Quote *theirs*: signals to investigate,
+not an attribution of intent or actor.
+
+**[`Faresabdelghany/jev-browser-test`](https://github.com/Faresabdelghany/jev-browser-test)**
+novel. GitHub license null. Python. **0★**. HEAD `0ced4fc4d510`.
+README SHA `a892d7502e65`. A text model writes the spec and judges.
+Jev picks click, type, or scroll from a numbered element table.
+Playwright executes. Quote *theirs*: Jev never generates text.
+
+**[`qasimhammad1/applyguard`](https://github.com/qasimhammad1/applyguard)**
+novel. MIT. TypeScript. **0★**. HEAD `28897637e064`. README SHA
+`8b5cdfbead1c`. Browser Use fills from verified facts. Jev audits
+invented demographics, contradictions, unauthorized consent, invented
+free text, and accidental submission. Code combines probabilities into
+BLOCK, NEEDS_CORRECTION, or REVIEW. Public demo is fictional and does
+not submit. README thresholds such as `was_submitted >= 0.50` map to
+BLOCK are their policy, still soft until the code says otherwise.
+Soft judgment never sole veto.
+
+**[`marcelormendes/diffninja`](https://github.com/marcelormendes/diffninja)**
+novel. MIT. TypeScript. **0★**. HEAD `b53d5427e0ad`. README SHA
+`513dbfeaea61`. Jev triages hunks. Quote *theirs*: it never writes
+review text. You stay the reviewer. Deterministic checks run first.
+Failed or malformed runs fail closed for the whole hunk.
+
+**[`photuris/overseer-judge`](https://github.com/photuris/overseer-judge)**
+novel. MIT. Go. **0★**. HEAD `9bdd94ada9b1`. README SHA `30a2e39174df`.
+Stdout carries data. Failures are JSON on stderr plus exit codes.
+Code owns the exit.
+
+**[`nautahakk/jev-codex-router`](https://github.com/nautahakk/jev-codex-router)**
+novel. MIT. JavaScript. **0★**. HEAD `49d75e9230ce`. README SHA
+`f51077559a4d`. Independent of DeepSeek, TypeSafe, and OpenAI.
+Routes named lanes. routing ≠ permission.
+nautahakk/jev-codex-router ≠ gargpratyush/jev-router.
+
+**[`aleksvega/jev-skill-router`](https://github.com/aleksvega/jev-skill-router)**
+novel. MIT. JavaScript. **0★**. HEAD `e360f3ff5b13`. README SHA
+`5a8868bfd7bb`. One cheap decision about which skill to load.
+routing ≠ permission.
+
+**[`SAITS-Swiss-AI-Tech-Services/jev-mcp`](https://github.com/SAITS-Swiss-AI-Tech-Services/jev-mcp)**
+novel. MIT. Python. **0★**. HEAD `b63834b57c47`. README SHA
+`803d4028db3f`. Hands a browser tool to a text model. Jev picks
+steps. A separate text model types. Without `TYPESAFE_API_KEY` no
+run starts. SAITS-Swiss-AI-Tech-Services/jev-mcp ≠ jkudish/jev-mcp ≠
+emlama/jev-mcp.
+
+**[`anchorshell/relay`](https://github.com/anchorshell/relay)** novel.
+GitHub license null. Go. **0★**. HEAD `fb9c68c44f10`. README SHA
+`8abce1477026`. Model router. System One ready. Ships with Laya.
+routing ≠ permission.
+
+**[`gbesse/bevy-jev`](https://github.com/gbesse/bevy-jev)** novel. MIT.
+Rust. **0★**. HEAD `7c2d856c5a4f`. README SHA `6968b772a169`.
+Non-blocking provenance-checked decisions inside Bevy. Code owns the
+act. Soft scores ≠ hard gates.
+
+**[`gbesse/figma-jev-review`](https://github.com/gbesse/figma-jev-review)**
+novel. MIT. TypeScript. **0★**. HEAD `5c2bd09b869e`. README SHA
+`94b9f2259e4a`. Review comments cite exact TextNodes. The citation
+is code. The judgment is the sensor.
+
+**[`gbesse/jev-premiere-markers`](https://github.com/gbesse/jev-premiere-markers)**
+novel. MIT. JavaScript. **0★**. HEAD `0b86a810aea9`. README SHA
+`1fdbe504ca02`. Markers are undoable. Code owns the timeline edit.
+
+**[`gbesse/jev-unreal-statetree`](https://github.com/gbesse/jev-unreal-statetree)**
+novel. MIT. C++. **0★**. HEAD `7a29d778b02e`. README SHA
+`6d9a0daf14a8`. Unreal 5.8 StateTree. Finite revision-guarded tasks.
+Code owns the transition.
+
+**[`d-callan/bionym`](https://github.com/d-callan/bionym)** novel.
+GitHub license null. Python. **0★**. HEAD `50c3f20d8903`. README SHA
+`9f08f9b86509`. Gene identifiers to confidence-scored graphs. Public
+APIs gather evidence. Jev scores claims. A confidence is not a
+biological finding.
+
+**[`fredp74/calibrus`](https://github.com/fredp74/calibrus)** novel.
+MIT. Python. **0★**. HEAD `99857011694c`. README SHA `996140762c25`.
+Trading route long / short / hold plus a calibrated confidence via
+temperature scaling and ECE. Research. Their motivation: a 99%
+classifier confidence can be wrong half the time. The README does not
+publish a measured ECE for this repo. Do not invent one. The score
+does not execute a trade.
+
+**[`htpu/mailaya`](https://github.com/htpu/mailaya)** novel.
+Apache-2.0. JavaScript. **0★**. HEAD `30b97f46b419`. README SHA
+`fe273b722191`. Local Laya Chrome mail triage. Mail stays on the
+machine. htpu/mailaya ≠ hosted Jev.
+
+**[`ankurlamichhane90/mac-voice-assistant`](https://github.com/ankurlamichhane90/mac-voice-assistant)**
+novel. MIT. Python. **0★**. HEAD `9616c9e0d3ba`. README SHA
+`129f0a1fc6b9`. Local whisper plus Jev opens apps. A spoken command
+is not authentication.
+
+**[`yangda611/omarchy-smart-paste`](https://github.com/yangda611/omarchy-smart-paste)**
+novel. MIT. Shell. **0★**. HEAD `a55dabf2ba59`. README SHA
+`54d4a399ca1b`. Jev decides which clipboard value belongs in a field.
+AT-SPI reads the form. Code types. Never embed keys.
+
+**[`pedro-pscunha/guideme-python`](https://github.com/pedro-pscunha/guideme-python)**
+novel. Apache-2.0. Python. **0★**. HEAD `9a9d4d574de7`. README SHA
+`e2fc4d164b29`. Inline judgments. A typed call is not authorization.
+
+**[`individual11/jev-feedbin-filter`](https://github.com/individual11/jev-feedbin-filter)**
+novel. GitHub license null. TypeScript. **0★**. HEAD `432c89194fa2`.
+README SHA `2f4cf5a66173`. Relevance filter. Relevance is not delete
+authority.
+
+**[`aitofy-dev/jev-awesome-skills`](https://github.com/aitofy-dev/jev-awesome-skills)**
+novel. MIT. TypeScript. **0★**. HEAD `544f447cc1f2`. README SHA
+`4358da54ba3f`. proceed / ask / stop. The threshold is still policy.
+
+**[`ham-zax/awesome-jev`](https://github.com/ham-zax/awesome-jev)**
+novel. GitHub license null. Python. **0★**. HEAD `2feee30987c1`.
+README SHA `b2f54fb300b5`. Inclusion is not endorsement. catalog ≠
+endorsement. ham-zax/awesome-jev ≠ karozi/awesome-jev-resources.
+
+### Remainder
+
+Short cards. Stars, license, HEAD, and README SHA sit in the
+uniqueness lock census. Judgment only here.
+
+- **SimonKaran13/DOOMJEV**. Doom running on Jev. game success ≠ calibrated Noul.
+- **deemkeen/jevgeni**. Toy. game success ≠ calibrated Noul.
+- **diluteoxygen/JevMood**. Toy. game success ≠ calibrated Noul.
+- **kevinaaaquil/jev-rubix**. Toy. game success ≠ calibrated Noul.
+- **TokyoHunter/jev-animal-finder**. HTML finder. A label is not a biological ID.
+- **alibowbow/jev**. Jev Atlas, Korean video demos, independent. alibowbow/jev ≠ emipaz/jev ≠ rscottstevens-byte/jev.
+- **emipaz/jev**. Spanish Jev guide. emipaz/jev ≠ alibowbow/jev.
+- **vaibhavgupta5/Jev-Email-Classifier**. Email labels. A label is not a send.
+- **vishalyadav28/resume-jev-match**. Resume match. A score is not a hiring decision.
+- **mwatkins03-netizen/The-Complaint-Atlas-Fable-5**. Complaint atlas. A score is not a finding of fact.
+- **jpvajda/jev-demo**. Demo. A demo is not a bench.
+- **pavan142/jev-experiments**. Experiments. Unpublished numbers stay unpublished.
+- **koolerkx/vibe-discord-bot-jev**. Discord bot. README credits ChatGPT. A bot reply is not a calibrated Noul.
+- **ilyaryabchinski/jevss**. Short Python surface. No bench numbers copied.
+- **canok07/jev-router**. empty SHA HTTP 409. canok07/jev-router ≠ gargpratyush/jev-router.
+- **fedorpark/jev-inbox-lab**. empty SHA HTTP 409.
+- **rscottstevens-byte/jev**. empty SHA HTTP 409. Name collision, not a decision model.
+- **tgallice/jev-go**. empty SHA HTTP 409. tgallice/jev-go ≠ Stumble/jev-go.
+- **codeJRV/openjev-hermes-plugin**. HTTP 404. codeJRV/openjev-hermes-plugin ≠ Zefan-Cai/Open-Jev.
+- **sed-ndi/test-jev**. HEAD exists. README HTTP 404. No README claim to quote.
+
+skip-thin: canok07/jev-router, fedorpark/jev-inbox-lab,
+rscottstevens-byte/jev, tgallice/jev-go empty SHA HTTP 409.
+codeJRV/openjev-hermes-plugin HTTP 404. sed-ndi/test-jev README HTTP 404.
+
+catalog ≠ endorsement. game success ≠ calibrated Noul. does not
+execute. routing ≠ permission. *theirs* not Harbor. SHA move is not
+a replica. wire-compat ≠ logit-equiv. serving substrate ≠ calibrated
+replica. Soft judgment never sole veto. restricted letter CE ≠
+calibrated Noul. LoRA ≠ RLCD replica. Skip Archer.
+`invented_signal: false`. Parent merges only after ADV_PASS.
+glance §147, hourly 1203 §148, lev §149, and hourly 1256 §150 are on main.
+This fold is §151 only. Do not reclaim §147–§150.
+Do not reopen or amend PR #23 through #76.
+notes.md §151.
