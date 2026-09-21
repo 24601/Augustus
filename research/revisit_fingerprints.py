@@ -407,6 +407,14 @@ def self_test() -> None:
     assert by_id["hf:wayfind/metask-jev-4b-policy-mix"]["notes_section"] == "134"
     assert by_id["hf:ds:Praveenrajus/jev-bench"]["notes_section"] == "125"
     assert any("revisit HIGH like novel HIGH" in r for r in rules)
+    onesystem = by_id["github:rawwerks/one-system"]
+    assert onesystem["notes_section"] == "155"
+    os_fp = onesystem["fingerprints"]
+    assert os_fp["default_sha"] == "1104500a0197737d25334472a42a5a790098105c"
+    assert os_fp["release_tag"] == "v0.2.0"
+    assert os_fp["description_hash"] == "4576d70e542f"
+    assert os_fp["pushed_at"] == "2026-09-21T21:37:02Z"
+    assert onesystem["readme_sha"].startswith("fd20bacaade7")
     print("revisit-fingerprints self-test ok")
 
 

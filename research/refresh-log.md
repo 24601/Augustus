@@ -1,3 +1,15 @@
+## 2026-09-21 ~22:25 UTC - user-provided rawwerks/one-system HIGH
+- First proper card off post-#80 `main` (`e178310`). hourly 1556 §154 is on main.
+  This fold is §155 only. This fold: `notes.md` §155 / composition 853-868 /
+  findings batch #135. Do not reclaim §147 through §154.
+  **HARD RULE:** do not reopen or amend PR #23 through #80.
+- PRIMARY: rawwerks/one-system. One client across local and hosted.
+  Privacy Demo classifies task domain. Capabilities fail closed.
+  TypeSafe Jev remains the default path. Laya is a local class peer,
+  not equal in adoption. Release tag v0.2.0 is not live HEAD.
+- Uniqueness lock lives in `research/notes.md` only (plus the gate fixture).
+  `invented_signal: false`. No Augustus call site. No X API call.
+
 ## 2026-09-21 ~21:56 UTC / ~15:56 Boise - Hourly 1556 HIGH
 - Folded onto post-#79 `main` (`eaba901`). hourly 1454 §153 is on main.
   This fold is §154 only. This fold: `notes.md` §154 / composition 837-852 /

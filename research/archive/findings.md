@@ -1,5 +1,40 @@
 # Deep-read findings (evidence for research/notes.md)
 
+## Batch #135 (2026-09-21 ~22:25 UTC) - user-provided rawwerks/one-system HIGH
+
+Note: `research/notes.md` §155. Composition 853-868.
+hourly 1556 §154 is on main. This fold is §155 only.
+Do not reclaim §147 through §154.
+Hourly 1556 stays §154 / composition 837-852 / batch #134.
+This fold stays §155 / items 853-868 / batch #135.
+**HARD RULE:** do not reopen or amend PR #23 through #80.
+The consecutive lock string lives in notes.md and uniqueness_gate.py only.
+README still ends at License. Does not bump 0.5.0 or 0.5.1.
+`invented_signal: false`. Parent merges only after ADV_PASS.
+
+- **rawwerks/one-system PRIMARY.** 1 star MIT. TypeScript primary, Go
+  gateway, Hono on Node and Workers. HEAD 1104500a0197. Release v0.2.0
+  pins 7a1fd8253ca6. The release tag is not live HEAD.
+- **One client.** POST /v1/systemone only. No chat-completions. TypeSafe
+  Jev remains the default recommended path. Laya is a class peer local
+  option, not equal in adoption.
+- **Privacy Demo is not a privacy filter.** It classifies task domain
+  (math_or_logic), not whether the input contains private data.
+- **Singleton eligibility.** One eligible backend skips model-based
+  selection even if that backend is hosted. local-demo when the request
+  must stay local.
+- **Threshold 0.5.** A soft example, strictly above. Not a recommendation
+  and not a safety envelope.
+- **Capabilities.** Unsupported requests return HTTP 422. Questions are
+  not dropped.
+- **Installer.** Verifies checksum, installs under ~/.local, does not use
+  sudo. This card is not an install recipe.
+- **Gateway.** A serving port is not a calibrated replica. Wire-compat is
+  not logit-equiv. Routing selection is not permission. Soft judgment
+  never sole veto. Catalog is not endorsement. Third-party claims stay
+  *theirs*, not Harbor.
+- Skip Archer. Densify the fingerprint. Do not mint a sibling census.
+
 ## Batch #134 (2026-09-21 ~15:56 Boise / ~21:56 UTC) - hourly 1556 HIGH
 
 Note: `research/notes.md` §154. Composition 837-852.

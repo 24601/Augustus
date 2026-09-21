@@ -1,3 +1,17 @@
+## User-provided rawwerks/one-system (notes.md §155 / items 853-868 / batch #135)
+
+- First proper card off post-#80 `main` (`e178310`). hourly 1556 §154 is on main.
+  This fold is §155 only. Do not reclaim §147 through §154.
+  **HARD RULE:** do not reopen or amend PR #23 through #80.
+  Does not bump 0.5.0 or 0.5.1. Skip Archer. `invented_signal: false`.
+- PRIMARY: rawwerks/one-system. One typed client across local and hosted.
+  Privacy Demo classifies task domain and is not a privacy filter.
+  One eligible backend skips model selection even if hosted.
+  Threshold 0.5 is a soft example, not a safety envelope.
+  Capabilities fail closed. TypeSafe Jev remains the default path.
+  Release v0.2.0 is not live HEAD.
+- Uniqueness lock lives in `research/notes.md` and `uniqueness_gate.py` only.
+
 ## Hourly 1556 HIGH (notes.md §154 / items 837-852 / batch #134)
 
 - Folded onto post-#79 `main` (`eaba901`). hourly 1454 §153 is on main.
