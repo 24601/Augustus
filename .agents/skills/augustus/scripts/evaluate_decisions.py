@@ -466,6 +466,27 @@ def five_lines_threshold_still_soft(threshold, hard_gate=False):
         raise ValueError("unexpected threshold")
     return hard_gate is False
 
+def from_scratch_is_not_warm_start(init_from, from_scratch=False):
+    """--init_from warm-start LoRA/head is not from-scratch."""
+    if init_from != "warm_start":
+        raise ValueError("unexpected init")
+    return from_scratch is False
+
+
+def jsonl_labels_are_not_harbor(kind, harbor=False):
+    """JSONL labels ≠ Harbor."""
+    if kind != "jsonl_labels":
+        raise ValueError("unexpected kind")
+    return harbor is False
+
+
+def reconstruction_is_not_replica(kind, replica_claimed=False):
+    """from-first-principles reconstruction ≠ replica."""
+    if kind != "reconstruction":
+        raise ValueError("unexpected kind")
+    return replica_claimed is False
+
+
 def hop_ece_permutation_invariant(rows, bins=10, key="p"):
     """Shuffle order; equal-width ECE must not move.
 
@@ -663,6 +684,16 @@ def self_test():
     assert theirs_bench_is_not_harbor(300, "jev-engineering-371ms")
     assert constrained_ar_is_not_noul("constrained_ar", False)
 
+
+    # 1843: own-data JSONL / from-scratch ≠ warm-start / reconstruction ≠ replica.
+    assert from_scratch_is_not_warm_start("warm_start", False)
+    assert not from_scratch_is_not_warm_start("warm_start", True)
+    assert jsonl_labels_are_not_harbor("jsonl_labels", False)
+    assert not jsonl_labels_are_not_harbor("jsonl_labels", True)
+    assert reconstruction_is_not_replica("reconstruction", False)
+    assert not reconstruction_is_not_replica("reconstruction", True)
+    assert theirs_bench_is_not_harbor(836, "kev-init-from-836")
+    assert theirs_bench_is_not_harbor(2, "assay-001-split")
 
     print("self-test ok")
 

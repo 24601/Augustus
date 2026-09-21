@@ -278,6 +278,49 @@
         <dd class="recipe-measure">Sim metrics separately from Brier/ECE. *theirs* not Harbor.</dd>
       </dl>
     </article>
+
+    <article class="recipe panel">
+      <p class="kicker">Open-head training</p>
+      <h3>From-scratch vs warm-start</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>A from-scratch adapter treated as equal to a released head plus your labels.</dd>
+        <dt>Without</dt>
+        <dd>Train from the base. Quote 0.88 as Harbor. Skip the held-out file.</dd>
+        <dt>With</dt>
+        <dd>from-scratch ≠ warm-start. JSONL labels ≠ Harbor. --init_from keeps what the head already knows.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">0.33 vs 0.84 vs 0.83/0.88 *theirs*. Same split for any Choice/Score/Noul head.</dd>
+      </dl>
+    </article>
+    <article class="recipe panel">
+      <p class="kicker">Independent assay</p>
+      <h3>Split verdict vs global certificate</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>One corpus ECE treated as the model's calibration everywhere.</dd>
+        <dt>Without</dt>
+        <dd>Ship CLINC150 as proof. Ignore Banking77 overconfidence.</dd>
+        <dt>With</dt>
+        <dd>assay-001 split verdict. A result applies to the artifacts examined.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">CLINC150 ECE 0.0204 *theirs*. Banking77 ECE 0.0936 *theirs*. Not Harbor.</dd>
+      </dl>
+    </article>
+    <article class="recipe panel">
+      <p class="kicker">Reconstruction</p>
+      <h3>Random weights vs replica</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>A from-first-principles sketch treated as TypeSafe logits.</dd>
+        <dt>Without</dt>
+        <dd>Swap the serving URL. Quote the catalog as a grant.</dd>
+        <dt>With</dt>
+        <dd>reconstruction ≠ replica. unofficial research implementation with random weights. catalog ≠ endorsement.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">Namesake lock first. Third-party benches stay *theirs*.</dd>
+      </dl>
+    </article>
   </div>
   <p class="compare-caption">
     Measurement recipe (hysteresis, equal-width vs quantile ECE, hop-ECE,

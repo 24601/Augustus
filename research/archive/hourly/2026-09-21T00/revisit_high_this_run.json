@@ -1,0 +1,12 @@
+[
+  {
+    "id": "jaredpalmer/kev",
+    "kind": "REVISIT_HIGH",
+    "why": "HEAD bd058057ad0a (was 38087aa0301d): 6 commits \u2014 Fine-tuning on your own data (--data JSONL for kev.train/benchmark), --init_from warm-start LoRA/head (PR #9), Kev-0.5B card Qwen3.5 family pointer, README recipe, tests. Material training-API + README densify *theirs*",
+    "stars": 1032,
+    "source": "github",
+    "note": "densify existing card; mark *theirs*; no equivalence guarantee",
+    "prior_sha": "38087aa0301d800e12d59bbf848f582a80c207bc",
+    "new_sha": "bd058057ad0aa9df3dd6d14e3542c95a5ce367b2"
+  }
+]

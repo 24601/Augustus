@@ -2505,6 +2505,22 @@ SHA move is not a replica. Full card: `notes.md` §128.
 
 
 
+### Since last look (2026-09-21T00 hourly 1843) — jaredpalmer/kev
+
+DENSIFY §45. Keep this section id. Do not mint a sibling first sighting.
+HEAD `bd058057ad0a` README SHA `84b872488915` (was `8465c4c4c294` / 1746).
+Quote *theirs*: Fine-tuning on your own data. `--data` JSONL for
+`kev.train` / `kev.benchmark`. `--init_from` warm-start LoRA/head (PR #9).
+Kev-0.8B 4B 9B Qwen3.5 family. 4B new-source 0.794/0.832 *theirs*.
+9B new-source 0.812/0.837 *theirs*. Jev hosted 0.857 *theirs*.
+From-scratch on 836 support-tool decisions scored 0.33 against 0.84 for
+the released model; `--init_from` kept 0.83 there and reached 0.88 on
+the new domain *theirs*. from-scratch ≠ warm-start. JSONL labels ≠ Harbor.
+Kev-0.5B card now points at the Qwen3.5 family. No Jev outputs were used
+for training. option order can change an answer.
+8.2% ≥0.9 on wrong *theirs* (Kev-9B 7.5%). Qwen3.5 ≠ Archer.
+SHA move is not a replica. Full card: `notes.md` §129.
+
 ## 46. 14:03 Boise hourly — open multimodal RLCD, bake-off substrate, decision-token LoRA (2026-09-18)
 
 America/Boise 14:03 = 20:03 UTC. Docs-only fold into PR #2
@@ -32211,3 +32227,290 @@ Hooks for the reviewer:
   No live Jev key. No wrappers.
 
 Hourly 1746 uniqueness lock: TypeLLM/TypeLLM densify HEAD 702e6a287f3c README SHA 08180db0450b; truncated thinking then constrained decode; typellm_runtime.py typellm_sglang.py; evals/qwen35_small; 0.8B thinking On 0/18 *theirs*; forced closure 20/20 type-valid *theirs*; Constrained AR ≠ calibrated Noul; type safety does not guarantee factual accuracy; Qwen/Qwen3.8-27B ≠ Archer; jaredpalmer/kev densify live HEAD 8465c4c4c294 watch 38087aa0301d README SHA 19664b9ae546; Kev-0.8B completes family; Kev-0.8B 4B 9B Qwen3.5; 4B new-source 0.794/0.832 *theirs*; 9B new-source 0.812/0.837 *theirs*; transfer-v9 Kev-9B 5% Jev 9% Kev-8B 26% *theirs*; SemIf Kev-9B 0.917 Jev 0.965 *theirs*; scienthoon 0.952/0.911 vs 0.897/0.914 *theirs*; transformers >= 5.17; Qwen3.5 ≠ Archer; wire-compat ≠ logit-equiv; SHA move is not a replica; notque/vexjoy-agent 421★ /d routes /do fallback; tamaratran/jev-pruner densify HEAD 47d017c34eab; qkal/Canny Facts go to code. Judgments go to Jev. Only facts can block.; Jev never blocks; jqueryscript/awesome-jev 231 entries catalog ≠ endorsement; jqueryscript/awesome-jev ≠ MrJev/awesome-jev ≠ yibie/awesome-jev; jamescazzetta/five-lines threshold 0.80 still soft; eugeniughelbur/jev-engineering 371ms $0.0000189 300-call *theirs*; tpellet/jevify ≠ altryne/jevify; seb4ez/jevguard-mcp ≠ seb4ez/jevguard; resumocast/jev-mcp ≠ jkudish/jev-mcp; dtduc-git/jev-table first sighting; Adrian-Ernesto/jevsort ≠ zzzzzec/jevsort; MidasMulli/kev-ane 155/155 argmax *theirs*; MidasMulli/kev-ane ≠ jaredpalmer/kev; serving substrate ≠ calibrated replica; empty repo skip-thin; loktar00/llm-lan-party empty repo; rh-guard owns primary gates; catalog ≠ endorsement; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50; notes.md §128
+
+**Hourly 1843 HIGH (`notes.md` §129).** kev own-data JSONL densify. --init_from warm-start LoRA/head PR #9. from-scratch ≠ warm-start. JSONL labels ≠ Harbor. 4B new-source 0.794/0.832 *theirs*. 9B new-source 0.812/0.837 *theirs*. 0.33 vs 0.84 vs 0.83/0.88 *theirs*. reconstruction ≠ replica. assay-001 split verdict. catalog ≠ endorsement. SHA move is not a replica. Do not reopen or amend PR #23–#51. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+Hourly 1843 uniqueness lock: jaredpalmer/kev densify HEAD bd058057ad0a README SHA 84b872488915; Fine-tuning on your own data; --data JSONL; --init_from warm-start LoRA/head PR #9; Kev-0.8B 4B 9B Qwen3.5 family; 4B new-source 0.794/0.832 *theirs*; 9B new-source 0.812/0.837 *theirs*; 0.33 vs 0.84 vs 0.83/0.88 *theirs*; from-scratch ≠ warm-start; JSONL labels ≠ Harbor; Kev-0.5B card Qwen3.5 family pointer; No Jev outputs were used for training; option order can change an answer; 8.2% ≥0.9 on wrong *theirs*; Kev-9B 7.5% ≥0.9 on wrong *theirs*; dabit3/jev-experiments densify 340★; simota/tenbin densify neighbor skill; Promethe-us/awesome-jev ≠ MrJev/awesome-jev ≠ yibie/awesome-jev; kyegomez/open-jev reconstruction ≠ replica; unofficial research implementation with random weights; kyegomez/open-jev ≠ razorback16/openjev ≠ TheoLeeCJ/openjev ≠ Zefan-Cai/Open-Jev ≠ Shalimov04/open-jev; jourdanlabs/assay-001 split verdict; CLINC150 ECE 0.0204 *theirs*; Banking77 ECE 0.0936 *theirs*; 8,576 responses zero type errors *theirs*; brnyxx/jev-ra 3-5x / ~300 ms *theirs*; 8.50× Wikipedia *theirs*; ThePFMind/jev-mcp ≠ jkudish/jev-mcp ≠ burnigtm/jev-mcp; namenu/pi-jev-effort ≠ TheoOliveira/pi-jev; samatv256/mini-Jev ≠ r-ms/mini-jev; comoc/jev-minesweeper ≠ EnesYilmazcode/JevMinesweeper; game success ≠ calibrated Noul; Nutlope/jev-fraud Kimi K3; jeffloo886/jev-notion; hf:akhilaaa3/openjev-v1-allmix-r512-merged ≠ hf:akhilaaa3/openjev-r512-handoff-demo; serving substrate ≠ calibrated replica; catalog ≠ endorsement; SHA move is not a replica; wire-compat ≠ logit-equiv; Qwen3.5 ≠ Archer; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51; notes.md §129
+
+## 129. Hourly 1843 HIGH (2026-09-20 ~18:43 Boise / 2026-09-21T00:43Z)
+
+Measurement / class-member fold on a **fresh PR off latest `main`**
+(`cursor/fold-hourly-1843-high-737b`) after `26915ca` (merged #51
+hourly 1746, `notes.md` §128 / items 465–480 / batch #110; merged #50
+hourly 1643, `notes.md` §127). **HARD RULE:** do not reopen or
+amend PR #23–#51. Do **not** re-fold §128 1746 / §127 1643 / §126 1542 *as a second census*.
+This fold's IDs: `notes.md` §129 / composition 481–496 /
+findings batch #111.
+
+Never reopen merged #7–**#51**. Densify `jaredpalmer/kev` (§45).
+`dabit3/jev-experiments` and `simota/tenbin` are already catalogued;
+densify, do not mint sibling first-sighting sections. Skip Archer
+rewrite. Quote READMEs. Mark *theirs*. No wrappers, keys, `npm` /
+`pip` / `uv` / `docker` install recipes. `invented_signal: false`.
+Hunches labeled.
+
+Lane is Augustus: **mathematical / logical / algorithmic mental models**
+for Jev-class categorization/scoring across AI / SWE / **business /
+knowledge work / life**, not SWE-only. PRIMARY this hour is **REVISIT
+densify**: jaredpalmer/kev own-data JSONL fine-tune and `--init_from`
+warm-start LoRA/head (PR #9), Kev-0.8B/4B/9B Qwen3.5 family. Class claim
+is backend-agnostic: own-data labels plus a warm-started open head is
+not a Jev-only trick. from-scratch ≠ warm-start. JSONL labels ≠ Harbor.
+Novel HIGH: independent assay split verdict, from-first-principles
+reconstruction with random weights, catalogs that are indexes, browser
+RA latency *theirs*. Third-party benches stay *theirs*. Wire-compat is
+still not logit-equiv. SHA move is not a replica. Catalogs are indexes.
+Soft scores ≠ hard gates. reconstruction ≠ replica. Qwen3.5 ≠ Archer.
+Archer still **promised_not_landed**.
+
+Unique consecutive fragments (this hour) must appear as **one
+substring** in overlays (see uniqueness gate):
+Hourly 1843 uniqueness lock: jaredpalmer/kev densify HEAD bd058057ad0a README SHA 84b872488915; Fine-tuning on your own data; --data JSONL; --init_from warm-start LoRA/head PR #9; Kev-0.8B 4B 9B Qwen3.5 family; 4B new-source 0.794/0.832 *theirs*; 9B new-source 0.812/0.837 *theirs*; 0.33 vs 0.84 vs 0.83/0.88 *theirs*; from-scratch ≠ warm-start; JSONL labels ≠ Harbor; Kev-0.5B card Qwen3.5 family pointer; No Jev outputs were used for training; option order can change an answer; 8.2% ≥0.9 on wrong *theirs*; Kev-9B 7.5% ≥0.9 on wrong *theirs*; dabit3/jev-experiments densify 340★; simota/tenbin densify neighbor skill; Promethe-us/awesome-jev ≠ MrJev/awesome-jev ≠ yibie/awesome-jev; kyegomez/open-jev reconstruction ≠ replica; unofficial research implementation with random weights; kyegomez/open-jev ≠ razorback16/openjev ≠ TheoLeeCJ/openjev ≠ Zefan-Cai/Open-Jev ≠ Shalimov04/open-jev; jourdanlabs/assay-001 split verdict; CLINC150 ECE 0.0204 *theirs*; Banking77 ECE 0.0936 *theirs*; 8,576 responses zero type errors *theirs*; brnyxx/jev-ra 3-5x / ~300 ms *theirs*; 8.50× Wikipedia *theirs*; ThePFMind/jev-mcp ≠ jkudish/jev-mcp ≠ burnigtm/jev-mcp; namenu/pi-jev-effort ≠ TheoOliveira/pi-jev; samatv256/mini-Jev ≠ r-ms/mini-jev; comoc/jev-minesweeper ≠ EnesYilmazcode/JevMinesweeper; game success ≠ calibrated Noul; Nutlope/jev-fraud Kimi K3; jeffloo886/jev-notion; hf:akhilaaa3/openjev-v1-allmix-r512-merged ≠ hf:akhilaaa3/openjev-r512-handoff-demo; serving substrate ≠ calibrated replica; catalog ≠ endorsement; SHA move is not a replica; wire-compat ≠ logit-equiv; Qwen3.5 ≠ Archer; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51; notes.md §129
+
+### How-to-apply (five placements / measurement lenses)
+
+These are *class* lenses, not vendor tutorials. Same discipline as
+§126 (Constrained AR ≠ calibrated Noul) and §127 (restructured vLLM
+head ≠ logit-equiv). Formal methods **compose** with scoring: a Noul
+is a SENSOR; a JSONL file is not Harbor; a reconstruction with random
+weights is not a replica; a catalog is an index.
+
+1. **from-scratch ≠ warm-start**
+   (*theirs*, jaredpalmer/kev PRIMARY densify). Quote *theirs*:
+   Fine-tuning on your own data. Put examples in a JSONL file, one
+   request per line, with a `label` on every question. `--init_from`
+   loads the adapter and pointer head from the released model before
+   training. Starting from the base model instead throws that away:
+   in one user's test on 836 support-tool decisions, a fine-tune from
+   the base scored 0.33 on Kev's own evaluation set, against 0.84 for
+   the released model; the same data with `--init_from` kept 0.83
+   there and reached 0.88 on the new domain. from-scratch ≠ warm-start.
+   This is class-wide for any open Choice/Score/Noul head, not a
+   Jev-only recipe. Do **not** copy `uv` / Modal / ports.
+2. **JSONL labels ≠ Harbor**
+   (kev.train / kev.benchmark). Quote *theirs*: the same shape as an
+   API request, plus a label. Keep 10–20% aside for evaluation. The
+   benchmark reports accuracy, Brier, and calibration per question
+   type. Those numbers are the author's labelled file, not a frozen
+   Harbor protocol. JSONL labels ≠ Harbor. SHA move is not a replica.
+   Life analogue: grading your own homework is not an independent exam.
+3. **reconstruction ≠ replica**
+   (kyegomez/open-jev). Quote *theirs*: an open-source, from-first-
+   principles reconstruction of the ideas behind TypeSafe AI's Jev,
+   written in pytorch. Unofficial research implementation with random
+   weights. It is not the production Jev model, does not reproduce
+   TypeSafe AI's training data or weights, and makes no claim of
+   matching their published results. reconstruction ≠ replica.
+   kyegomez/open-jev ≠ razorback16/openjev ≠ TheoLeeCJ/openjev ≠
+   Zefan-Cai/Open-Jev ≠ Shalimov04/open-jev. wire-compat ≠ logit-equiv.
+4. **assay-001 split verdict**
+   (jourdanlabs/assay-001). Quote *theirs*: on CLINC150, Jev's chosen-
+   option probabilities were calibrated (ECE 0.0204); on Banking77
+   they were not (ECE 0.0936, systematically overconfident). Across
+   8,576 responses there were zero type errors. A result applies to
+   the artifacts and criteria examined. It is not a statement about
+   Jev on any other task, corpus, or day. Split verdict is not a
+   global calibration certificate. *theirs* not Harbor.
+5. **catalog ≠ endorsement / game success ≠ calibrated Noul**
+   (Promethe-us/awesome-jev; minesweeper cousins; brnyxx/jev-ra).
+   Quote *theirs* awesome-jev: a curated list, community compiled,
+   not affiliated with TypeSafe. Promethe-us/awesome-jev ≠
+   MrJev/awesome-jev ≠ yibie/awesome-jev. Quote *theirs* jev-ra:
+   3-5x faster than browser-use; TypeSafe Jev decides every step in
+   ~300 ms; Wikipedia 8.50× *theirs*. Latency is a systems comparison,
+   not ECE. comoc/jev-minesweeper ≠ EnesYilmazcode/JevMinesweeper.
+   game success ≠ calibrated Noul.
+
+### HIGH (revisit densify; keep original section ids)
+
+1. **[jaredpalmer/kev](https://github.com/jaredpalmer/kev)**
+   - DENSIFY §45 (Apache-2.0; **1033★**; HEAD `bd058057ad0a`;
+   README SHA `84b872488915`; was `b339f446a0ef` / 1542 densify).
+   Fine-tuning on your own data. --data JSONL.
+   --init_from warm-start LoRA/head PR #9. Kev-0.8B 4B 9B Qwen3.5
+   family. 4B new-source 0.794/0.832 *theirs*. 9B new-source
+   0.812/0.837 *theirs*. 0.33 vs 0.84 vs 0.83/0.88 *theirs*.
+   from-scratch ≠ warm-start. JSONL labels ≠ Harbor. Kev-0.5B card
+   Qwen3.5 family pointer. No Jev outputs were used for training.
+   option order can change an answer. 8.2% ≥0.9 on wrong *theirs*.
+   Kev-9B 7.5% ≥0.9 on wrong *theirs*. Qwen3.5 ≠ Archer. SHA move
+   is not a replica. training-API densify *theirs*. Do **not**
+   copy `uv` / Modal / keys.
+
+2. **[dabit3/jev-experiments](https://github.com/dabit3/jev-experiments)**
+   - DENSIFY the latency-first archive card (license null; **340★**;
+   HEAD `c469e5bfdc73`; README SHA `ce01b8ab7f38`). Already in the
+   census (21 apps). Hourly tagged NOVEL; this is densify, not a
+   sibling first sighting. catalog ≠ endorsement.
+
+3. **[simota/tenbin](https://github.com/simota/tenbin)**
+   - DENSIFY neighbor skill (MIT; **2★**; HEAD `354aafa5d229`;
+   README SHA `90ac8803c13e`). Design-time lint / eval / thresholds.
+   Augustus does not absorb it. densify is not a sibling first
+   sighting.
+
+### HIGH (novel)
+
+4. **[kyegomez/open-jev](https://github.com/kyegomez/open-jev)**
+   - NEW HIGH measurement (Apache-2.0; **1★**; HEAD `fa57b06e23b8`;
+   README SHA `81139143b804`). Quote *theirs*: reconstruction ≠ replica.
+   unofficial research implementation with random weights.
+   kyegomez/open-jev ≠ razorback16/openjev ≠ TheoLeeCJ/openjev ≠
+   Zefan-Cai/Open-Jev ≠ Shalimov04/open-jev. Do **not** copy pip.
+
+5. **[jourdanlabs/assay-001](https://github.com/jourdanlabs/assay-001)**
+   - NEW HIGH measurement (license null; **0★**; HEAD `b7f71053a880`;
+   README SHA `eff9f28cfe3e`). Quote *theirs*: assay-001 split verdict.
+   CLINC150 ECE 0.0204 *theirs*. Banking77 ECE 0.0936 *theirs*.
+   8,576 responses zero type errors *theirs*. Not Harbor. Do **not**
+   copy TypeSafe keys.
+
+6. **[brnyxx/jev-ra](https://github.com/brnyxx/jev-ra)**
+   - NEW HIGH measurement (MIT; **1★**; HEAD `ead323aa4fc2`;
+   README SHA `952bdd78cbc1`). Quote *theirs*: 3-5x / ~300 ms.
+   8.50× Wikipedia *theirs*. systems comparison ≠ semantic
+   equivalence. Do **not** copy `uv` / CDP recipes.
+
+7. **[Promethe-us/awesome-jev](https://github.com/Promethe-us/awesome-jev)**
+   - NEW HIGH measurement (MIT; **15★**; HEAD `d1d7c0dcb05e`;
+   README SHA `cc682a221236`). Catalog, not a bench.
+   Promethe-us/awesome-jev ≠ MrJev/awesome-jev ≠ yibie/awesome-jev.
+   catalog ≠ endorsement.
+
+8. **[ThePFMind/jev-mcp](https://github.com/ThePFMind/jev-mcp)**
+   - NEW HIGH measurement (license null; **0★**; HEAD `ef7733eb9822`;
+   README SHA `90593eb2cac3`). stdio, two tools: jev_evaluate,
+   jev_route. ThePFMind/jev-mcp ≠ jkudish/jev-mcp ≠ burnigtm/jev-mcp.
+   serving substrate ≠ calibrated replica. Do **not** copy keys.
+
+### Remainder (short cards, same hour)
+
+- **[DragosTana/JEV-FC](https://github.com/DragosTana/JEV-FC)** : (empty description; name JEV-FC) (license null; **2★**; HEAD `a67ed576cf6c`). *theirs*. catalog ≠ endorsement.
+- **[Nutlope/jev-fraud](https://github.com/Nutlope/jev-fraud)** : Use Jev with Kimi K3 for hard classification (license MIT; **2★**; HEAD `9b015f5782f5`). *theirs*. catalog ≠ endorsement.
+- **[jeffloo886/jev-notion](https://github.com/jeffloo886/jev-notion)** : 🚀 Blazing-fast native macOS menu bar companion for Notion. Pure Swift & SwiftUI (<3MB), 8 languages. (license MIT; **2★**; HEAD `cbb7a215b2ad`). *theirs*. catalog ≠ endorsement.
+- **[2456868764/jevguide](https://github.com/2456868764/jevguide)** : Curated Jev showcases from X, organized by category with media previews and direct source links. (license null; **1★**; HEAD `d68cc751a71f`). *theirs*. catalog ≠ endorsement.
+- **[Solido/jev_dart](https://github.com/Solido/jev_dart)** : Typesafe Jev Api (license MIT; **1★**; HEAD `33b8ffe39c30`). *theirs*. catalog ≠ endorsement.
+- **[andyhorn/jev](https://github.com/andyhorn/jev)** : (empty description; name jev) (license null; **1★**; HEAD `814d6a3e8214`). *theirs*. catalog ≠ endorsement.
+- **[1npo/jev-gmail-labeler](https://github.com/1npo/jev-gmail-labeler)** : A tool that uses Jev to label my emails (license null; **0★**; HEAD `b4ec82ad88a1`). *theirs*. catalog ≠ endorsement.
+- **[Aley3567/awsome-jev-sight](https://github.com/Aley3567/awsome-jev-sight)** : bright-sight 的独立优化副本：把一句中文指令变成受控的应用操作，每一步执行完都由代码回读验证 (license MIT; **0★**; HEAD `224d169a556e`). *theirs*. catalog ≠ endorsement.
+- **[Carl-Lee91/Jev-VoC](https://github.com/Carl-Lee91/Jev-VoC)** : Jev 토이 프로젝트 (license null; **0★**; HEAD `dbe187b14b2b`). *theirs*. catalog ≠ endorsement.
+- **[MartinPuli/f1](https://github.com/MartinPuli/f1)** : JEV Prix: five AI drivers, unknown procedural circuits, Formula-inspired racing, BYOK Jev and saved replays. (license MIT; **0★**; HEAD `83e0bcdf2eaf`). *theirs*. catalog ≠ endorsement.
+- **[SeanPlusPlus/hellojev](https://github.com/SeanPlusPlus/hellojev)** : 👋 jev (license null; **0★**; HEAD `c3c419efafcf`). *theirs*. catalog ≠ endorsement.
+- **[SuperInstance/jev-quilt](https://github.com/SuperInstance/jev-quilt)** : JEV for quilt as understood output: cellular-first decision substrate ,  typed cells, hook-and-drop deltas, bookkeeper WAL, last-mile projection decoupled (license null; **0★**; HEAD `a0f055593c9a`). *theirs*. catalog ≠ endorsement.
+- **[asmirrr/DriftLab](https://github.com/asmirrr/DriftLab)** : Reproducible quantitative research CLI for testing momentum strategies and auditing research methodology with TypeSafe Jev. (license MIT; **0★**; HEAD `a6e750d17172`). *theirs*. catalog ≠ endorsement.
+- **[bouncerguy/jevwrapper](https://github.com/bouncerguy/jevwrapper)** : English in. Typed JEV decisions out. Inspectable LLM-to-JEV middleware, a browser sandbox, and reusable examples. MIT licensed. (license MIT; **0★**; HEAD `17d0cd778052`). *theirs*. catalog ≠ endorsement.
+- **[cristiancolon/jev-hft](https://github.com/cristiancolon/jev-hft)** : Research pipeline testing whether TypeSafe's Jev (via Vercel AI Gateway) can judge news and market data fast enough to matter. Bitcoin and US stocks, paper trading only. (license null; **0★**; HEAD `34a726317b4e`). *theirs*. catalog ≠ endorsement.
+- **[digitalfoudnry-vb/JevBrowser](https://github.com/digitalfoudnry-vb/JevBrowser)** : JEV Browser (license MIT; **0★**; HEAD `6c9322302c3a`). *theirs*. catalog ≠ endorsement.
+- **[dtduc-git/jevnav](https://github.com/dtduc-git/jevnav)** : Browser automation whose decisions you can replay, test and audit ,  Jev picks the element, traces replay offline in CI (license Apache-2.0; **0★**; HEAD `96f5438bea96`). *theirs*. catalog ≠ endorsement.
+- **[gyozameronpanofficial/human-exe-jev](https://github.com/gyozameronpanofficial/human-exe-jev)** : HUMAN.exe ,  Jev-powered psychological checkpoint game (license null; **0★**; HEAD `dbb201dea114`). *theirs*. catalog ≠ endorsement.
+- **[hawkyre/jevx](https://github.com/hawkyre/jevx)** : Find relevant conversations on X and score your drafts. Open-source Chrome and Firefox extension powered by Jev. (license MIT; **0★**; HEAD `50c311181da5`). *theirs*. catalog ≠ endorsement.
+- **[kijung4290/maeum-on-attendance-care](https://github.com/kijung4290/maeum-on-attendance-care)** : 어르신 프로그램 출석 위험 모니터링 대시보드 · TypeSafe AI JEV 연동 (license null; **0★**; HEAD `0c845a7b57e1`). *theirs*. catalog ≠ endorsement.
+- **[lafollett-labs/typesafe-jev-dojo](https://github.com/lafollett-labs/typesafe-jev-dojo)** : A live, graphical dojo for TypeSafe's Jev (System One) typed decision model ,  routing, a Tetris-playing agent, parallel swarms, and an honest Jev-vs-Claude gauntlet. (license MIT; **0★**; HEAD `0fc61808f691`). *theirs*. catalog ≠ endorsement.
+- **[mateoromano-personal/contact-cleaner](https://github.com/mateoromano-personal/contact-cleaner)** : Sorts the thousands of addresses Google saved automatically into keep, review and remove. Next.js + Jev. (license null; **0★**; HEAD `be33eb9fdbe2`). *theirs*. catalog ≠ endorsement.
+- **[nanami-0713/dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide)** : DSH plugin: register TypeSafe Jev (System One decision model) as an agent tool ,  jev_decide returns calibrated probabilities (noul/choice/score) for routing/triage/guardrail judgments, no text generation. 把 TypeSafe Jev 决策模型注册为 DSH agent 工具 (license MIT; **0★**; HEAD `7209540b15c0`). *theirs*. catalog ≠ endorsement.
+- **[peterrauscher/x-bookmark-sorter](https://github.com/peterrauscher/x-bookmark-sorter)** : Chrome extension (Manifest V3) that auto-sorts your X bookmarks into your own folders using TypeSafe's Jev decision model. (license MIT; **0★**; HEAD `7c27c711cf88`). *theirs*. catalog ≠ endorsement.
+- **[sindunarasimhan/murmur](https://github.com/sindunarasimhan/murmur)** : Voice-first podcast listening with Jev and OpenAI. (license null; **0★**; HEAD `e089c25649a8`). *theirs*. catalog ≠ endorsement.
+- **[treycausey/semantic-find](https://github.com/treycausey/semantic-find)** : Local evidence search with optional Jev semantic ranking (license MIT; **0★**; HEAD `f739609f9420`). *theirs*. catalog ≠ endorsement.
+- **[ttlequals0/MinusPodJev](https://github.com/ttlequals0/MinusPodJev)** : MinusPod Jev Proxy (license MIT; **0★**; HEAD `ed5e8e0b7473`). *theirs*. catalog ≠ endorsement.
+- **[yangzhou-chaofan/awesome-jev-prompt](https://github.com/yangzhou-chaofan/awesome-jev-prompt)** : latest top 100 showcases for jev (keep updating) from x / github / latest sources (license CC0-1.0; **0★**; HEAD `5071e882fa4a`). *theirs*. catalog ≠ endorsement.
+- **[yasuhito/jev-computer-use](https://github.com/yasuhito/jev-computer-use)** : Safe computer-use automation guided by typed Jev decisions (license null; **0★**; HEAD `f5e99dea249a`). *theirs*. catalog ≠ endorsement.
+
+- **hf:samatv256/mini-Jev** : decision-model system-one. sha `6d142c6f062b` likes 1 apache-2.0. samatv256/mini-Jev ≠ r-ms/mini-jev. serving substrate ≠ calibrated replica. *theirs*.
+- **hf:BlueAquilae/laya-pack-shaped** : safetensors region:us. sha `f5b89f979514` likes 0. serving substrate ≠ calibrated replica. *theirs*.
+- **hf:akhilaaa3/openjev-v1-allmix-r512-merged** : gemma-4-12B-it merged r512. sha `558329a4e7ea`. hf:akhilaaa3/openjev-v1-allmix-r512-merged ≠ hf:akhilaaa3/openjev-r512-handoff-demo. serving substrate ≠ calibrated replica. *theirs*.
+- **hf:cklxx/laya-browser** : laya system-1 browser-agent. sha `580ed2b8cc78`. serving substrate ≠ calibrated replica. Locate ≠ decide. *theirs*.
+- **hf:frankyy03/laya-pt-es-nli** : laya pt/es NLI. sha `71459abd38f4`. serving substrate ≠ calibrated replica. *theirs*.
+
+Minesweeper cousins this hour (`comoc/jev-minesweeper`,
+`EnesYilmazcode/JevMinesweeper`) are measurement notes only.
+game success ≠ calibrated Noul. `namenu/pi-jev-effort` is a quota-
+capped effort sibling of `TheoOliveira/pi-jev`, not a new species.
+`Nutlope/jev-fraud` is Kimi K3 plus Jev for hard classification;
+classifier ≠ authorizer. `jeffloo886/jev-notion` is a native macOS
+companion. catalogs (`Promethe-us/awesome-jev`,
+`2456868764/jevguide`, `yangzhou-chaofan/awesome-jev-prompt`) are
+indexes. catalog ≠ endorsement.
+
+### Skips (thin / collision / name-match)
+
+- dabit3/jev-experiments already catalogued: densify, not a sibling.
+- simota/tenbin already a neighbor skill: densify, not a sibling.
+- kyegomez/open-jev ≠ razorback16/openjev ≠ TheoLeeCJ/openjev ≠ Zefan-Cai/Open-Jev ≠ Shalimov04/open-jev.
+- Promethe-us/awesome-jev ≠ MrJev/awesome-jev ≠ yibie/awesome-jev.
+- ThePFMind/jev-mcp ≠ jkudish/jev-mcp ≠ burnigtm/jev-mcp.
+- namenu/pi-jev-effort ≠ TheoOliveira/pi-jev.
+- samatv256/mini-Jev ≠ r-ms/mini-jev.
+- comoc/jev-minesweeper ≠ EnesYilmazcode/JevMinesweeper.
+- hf:akhilaaa3/openjev-v1-allmix-r512-merged ≠ hf:akhilaaa3/openjev-r512-handoff-demo.
+- Empty-README / 0★ playgrounds / name-match `Jev`: skip-thin.
+- Archer rewrite: **promised_not_landed**. Hub archerhume/4rcherhume HTTP **401**.
+
+### Pulse (live REST this hour)
+
+Archer still promised_not_landed. Hub archerhume/4rcherhume HTTP **401**.
+kev **1033★** (star-noise vs 1542 970; SHA move is the fold).
+dabit3/jev-experiments **340★**. Promethe-us/awesome-jev **15★**.
+tenbin **2★**. assay-001 **0★**. open-jev reconstruction **1★**.
+This hour does not re-census SemIf / Laya likes / tracker; those numbers
+stay §119 until a dedicated pulse. `invented_signal: false`.
+
+### Formal compose + anti-patterns
+
+Formal methods **compose** with scoring. A Noul is a SENSOR. A JSONL
+file is labelled data, not Harbor. `--init_from` is a warm start, not
+a replica of TypeSafe. A pytorch reconstruction with random weights
+is an architecture sketch. A catalog is an index. A minesweeper win
+is not a Noul. Treating 0.88 as Harbor, from-scratch as equal to
+warm-start, kyegomez as razorback16, assay-001 as a global certificate,
+8.50× as ECE, or Qwen3.5 as Archer is soundness theater.
+from-scratch ≠ warm-start. JSONL labels ≠ Harbor.
+reconstruction ≠ replica. catalog ≠ endorsement.
+game success ≠ calibrated Noul. SHA move is not a replica.
+Qwen3.5 ≠ Archer.
+
+### Adversarial review + testing hooks (Basit standing
+order)
+
+Parent merge only after **CLEAN** adversarial review **AND** testing.
+Hooks for the reviewer:
+
+- Uniqueness-gate: the consecutive `Hourly 1843 uniqueness lock:`
+  string must appear in every overlay listed below. Prior walls 0843 /
+  0915 / jcr / 0922 / 0940 / 0947 / 1049 / 1143 / 1248 / 1340 / 1441 /
+  1542 / 1643 / 1746 stay one substring each (do not mutate them; do not
+  reopen #23–#51).
+- Namesake locks: Promethe-us/awesome-jev ≠ MrJev/awesome-jev ≠
+  yibie/awesome-jev; kyegomez/open-jev ≠ razorback16/openjev ≠
+  TheoLeeCJ/openjev ≠ Zefan-Cai/Open-Jev ≠ Shalimov04/open-jev;
+  ThePFMind/jev-mcp ≠ jkudish/jev-mcp ≠ burnigtm/jev-mcp;
+  namenu/pi-jev-effort ≠ TheoOliveira/pi-jev;
+  samatv256/mini-Jev ≠ r-ms/mini-jev;
+  comoc/jev-minesweeper ≠ EnesYilmazcode/JevMinesweeper;
+  hf:akhilaaa3/openjev-v1-allmix-r512-merged ≠
+  hf:akhilaaa3/openjev-r512-handoff-demo.
+- Densify vs new: kev densifies §45. dabit3 / tenbin densify existing
+  mentions. Do not mint sibling first-sighting sections for those.
+  kyegomez / assay-001 / jev-ra / Promethe-us / ThePFMind are first
+  sightings this hour.
+- Harbor-jevals: 0.794/0.832 / 0.812/0.837 / 0.33 vs 0.84 vs 0.83/0.88
+  / ECE 0.0204 / ECE 0.0936 / 8.50× / ~300 ms are *theirs*, not Harbor.
+  Batch 5.8x / 4B 0.790/0.806 stay §126. 0.3.0 pin stays §127.
+- Anti-patterns to refuse: TypeSafe drop-in; from-scratch as warm-start;
+  JSONL as Harbor; reconstruction as replica; catalog as endorsement;
+  minesweeper as Noul; 8.50× as ECE; Qwen3.5 as Archer; copying keys /
+  `npm` / `pip` / `uv` / `docker`.
+- Overlay set: SKILL.md body (protocol fragments + class-table densify
+  + Hourly 1843), mental-models Apply 1843, composition-algebra items
+  481–496, faq, mixed-architecture, validation, toolbox-mapping,
+  methods-catalog, formal-methods, formal-semi-formal,
+  applied-mappings, judgment-class, question-design,
+  agent-self-assessment, mappings, CHANGELOG, README, docs/ecosystem,
+  findings batch #111, refresh-log, sources.json, changelog-hourly.md,
+  revisit_fingerprints.json (kev SHA/README move; novel HIGH seeds).
+- Offline check: `evaluate_decisions.py --self-test` (now includes
+  from-scratch ≠ warm-start / JSONL labels ≠ Harbor / reconstruction
+  ≠ replica) and `uniqueness_gate.py` (0843 +
+  0915 + jcr / 0922 / 0940 / 0947 / 1049 / 1143 / 1248 / 1340 / 1441 /
+  1542 / 1643 / 1746 / 1843).
+  No live Jev key. No wrappers.
+
+Hourly 1843 uniqueness lock: jaredpalmer/kev densify HEAD bd058057ad0a README SHA 84b872488915; Fine-tuning on your own data; --data JSONL; --init_from warm-start LoRA/head PR #9; Kev-0.8B 4B 9B Qwen3.5 family; 4B new-source 0.794/0.832 *theirs*; 9B new-source 0.812/0.837 *theirs*; 0.33 vs 0.84 vs 0.83/0.88 *theirs*; from-scratch ≠ warm-start; JSONL labels ≠ Harbor; Kev-0.5B card Qwen3.5 family pointer; No Jev outputs were used for training; option order can change an answer; 8.2% ≥0.9 on wrong *theirs*; Kev-9B 7.5% ≥0.9 on wrong *theirs*; dabit3/jev-experiments densify 340★; simota/tenbin densify neighbor skill; Promethe-us/awesome-jev ≠ MrJev/awesome-jev ≠ yibie/awesome-jev; kyegomez/open-jev reconstruction ≠ replica; unofficial research implementation with random weights; kyegomez/open-jev ≠ razorback16/openjev ≠ TheoLeeCJ/openjev ≠ Zefan-Cai/Open-Jev ≠ Shalimov04/open-jev; jourdanlabs/assay-001 split verdict; CLINC150 ECE 0.0204 *theirs*; Banking77 ECE 0.0936 *theirs*; 8,576 responses zero type errors *theirs*; brnyxx/jev-ra 3-5x / ~300 ms *theirs*; 8.50× Wikipedia *theirs*; ThePFMind/jev-mcp ≠ jkudish/jev-mcp ≠ burnigtm/jev-mcp; namenu/pi-jev-effort ≠ TheoOliveira/pi-jev; samatv256/mini-Jev ≠ r-ms/mini-jev; comoc/jev-minesweeper ≠ EnesYilmazcode/JevMinesweeper; game success ≠ calibrated Noul; Nutlope/jev-fraud Kimi K3; jeffloo886/jev-notion; hf:akhilaaa3/openjev-v1-allmix-r512-merged ≠ hf:akhilaaa3/openjev-r512-handoff-demo; serving substrate ≠ calibrated replica; catalog ≠ endorsement; SHA move is not a replica; wire-compat ≠ logit-equiv; Qwen3.5 ≠ Archer; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51; notes.md §129
