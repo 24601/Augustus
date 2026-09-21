@@ -34860,3 +34860,215 @@ Hooks for the reviewer:
 
 **Hourly 0151 HIGH (`notes.md` §137).** Open-Jev v3 densify HEAD ed45657bf726. README SHA 12e0f581e15d. v3 data prepared ≠ retrained released models. held-out protocol ≠ Harbor. 1,280-row panel ≠ Harbor. finite training loss ≠ quality improvement. website redesign ≠ calibration. jev-wide naive throws away 83% *theirs*. certo KL 0.008 *theirs*. first-instinct 63.3%→78.1% *theirs* not Harbor. Jev is a gate not a generator. community port ≠ TypeSafe. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#60. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
 Hourly 0151 uniqueness lock: Zefan-Cai/Open-Jev densify HEAD ed45657bf726 via 748ae3024294 README SHA 12e0f581e15d was e32c4bbd519c; Publish audited v3 community data and held-out evaluation protocol; Redesign readable project site and consolidate benchmark results; 129,288 decision rows 74,921 training; frozen mixture 96,849 training; 1,280-row / 840-group comparison panel; v3 data prepared ≠ retrained released models; held-out protocol ≠ Harbor; 1,280-row panel ≠ Harbor; finite training loss ≠ quality improvement; website redesign ≠ calibration; 27B step 616 pending; Open-Jev TREC pending; LoRA ≠ RLCD replica; Qwen3.5-2B ≠ Archer; Qwen3.5-9B ≠ Archer; densify §125 not a sibling first sighting; chy4pro/jev-for-chrome 12★ community port ≠ TypeSafe; chy4pro/jev-for-chrome ≠ browser-use/jev-ultrafast; PsiACE/dohnuts 4★ small multimodal direct decisions; joint RLCD *theirs*; Dohnuts ≠ TypeSafe; catoenm/first-instinct 9B 63.3%→78.1% *theirs* not Harbor; 371,278 prepared ≠ consumed; RL did not reliably improve held-out; independent educational not a recovered Jev recipe; 123Satyajeet123/jev-wide naive throws away 83% *theirs*; 255 documented ~32,768 tokens real; two-decimal 95.8% floored *theirs*; IIA fails +0.31 ... +0.50 *theirs*; AltSlate-Labs/certo KL 0.008 acc 0.844 ECE 0.004 *theirs*; research preview independent not affiliated; endomorphosis/JevOps Jev is a gate not a generator; Lake remains admission; Jev never writes Lean; gbesse/question-forge held-out before winner; demo accuracy is synthetic not a Jev benchmark; flyryan/ai-news-aggregator 26★ does not execute; Akashdb5/jev-router ≠ gargpratyush/jev-router ≠ daviddl9/jev-router; kiuckhuang/laya-jev ≠ KonghaYao/laya-jev; tegersdorfer-collab/jevkit ≠ isiomaC/jevkit ≠ WaynezProg/jev-kit; buluoray/JevOnly already carded; yottayoshida/jev-intent-review already carded; skip-thin Iskandeur/system1-system2 zhlei07/open-system-one Hand-In/openjev-multimodal gwxcsny53/jev-watchtower empty SHA; serving substrate ≠ calibrated replica; game success ≠ calibrated Noul; does not execute; catalog ≠ endorsement; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60; notes.md §137
+
+**Hourly 0248 HIGH (`notes.md` §138).** GLiClass knowledgator Hub family class-peer catalog not Jev equivalent. typed-decision-leaderboard *theirs* not Harbor. JEV 0.7350 ZTC 27B 0.7289 *theirs*. Jevbridge ACP and MCP adapter. wire-compat ≠ logit-equiv. Cut the slop. Not a Cua binding. open reproductions of the shape. 82.3% ECE 0.017 *theirs*. serving substrate ≠ calibrated replica. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#61. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+Hourly 0248 uniqueness lock: hf:knowledgator/gliclass-instruct-large-v1.0 43 likes sha 825e5478c1bf apache-2.0; Efficient zero-shot and few-shot multi-task model via sequence classification; GLiClass knowledgator Hub family class-peer catalog not Jev equivalent; Knowledgator/GLiClass.c already §123; Hub models first card as class-peer entries; GLiNER/GLiClass ports are class members not Jev replicas; hf:space:mayafree/typed-decision-leaderboard 33 likes sha f4fc44077818; typed-decision-leaderboard *theirs* not Harbor; JEV 0.7350 ZTC 27B 0.7289 ZTC 397B 0.7272 *theirs* not Harbor; 2,018 items same labels; three-way tie; tacticocc/Jevbridge 33★ MIT HEAD da443ea453ac README SHA 2178333c4c3b; Jevbridge ACP and MCP adapter; does not generate text; Any LLM as System One; wire-compat ≠ logit-equiv; tshmieldev/sharp 29★ MIT HEAD 17cbd8d9cc9e README SHA 783a5cde519c; Cut the slop; Filter your X timeline; kavehmz/typesafe-playground 11★ HEAD 733991a2924a README SHA 04c0b1f6e7da; real API calls not polished benchmarks; himomohi/aside-jev 7★ MIT HEAD e570db43b0e1 README SHA 288e7c91c307; Jev picks the next action from your defined candidates; Not a Cua binding; Jev is the model Aside is the browser runtime; nico-martin/open-jev 6★ MIT HEAD 52667199e8a5 README SHA 81c0485d5833; open reproductions of the shape; Nothing is generated; nico-martin/open-jev ≠ razorback16/openjev ≠ Zefan-Cai/Open-Jev ≠ meijustory123/openjev; hf:chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-GGUF 82.3% ECE 0.017 *theirs*; Same decision as bf16 94.4% *theirs*; Qwen3.5-2B ≠ Archer; serving substrate ≠ calibrated replica; hf:pngwn/nanodiff-350m-typed-decisions ECE 0.065 → 0.036 *theirs*; hf:litert-community/laya-LiteRT 144/144 *theirs*; gargpratyush/journey-evals A page that says Success is never accepted as proof; mpnikhil/dev-0.4b Banking77 91.33% BoolQ 85.20% *theirs*; encoder class member not Jev replica; n4ze3m/typed-decisions-synth 7,414 cases 25,859 questions; Nobody checked it; Zaious/jev-capability-atlas already carded; LocalLLaMA/typed-decisions already carded; fengyiqicoder/jevfeed already carded; Zhao-Tian-yi/awesome-jev ≠ Gerry9000/awesome-jev ≠ heyjunpenn/awesome-jev ≠ yibie/awesome-jev; kaustav1996/reflex ≠ vuckuola619/reflex; tphakala/jev-mcp ≠ jkudish/jev-mcp; ninthspace/hunch ≠ carldaws/hunch ≠ tpellet/hunch; ruban-24/switchboard ≠ cannacre8ive/switchboard-ai; hf:openjev/openjev ≠ razorback16/openjev; catalog ≠ endorsement; skip-thin Fibonaccirabbit/Jev-VLN imanshu03/jev-browser-use luca-saggese/laya.c empty SHA; game success ≠ calibrated Noul; does not execute; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61; notes.md §138
+
+## 138. Hourly 0248 HIGH (2026-09-21 ~02:48 Boise / 2026-09-21T08:48Z)
+
+Measurement / class-member fold on a **fresh PR off latest `main`**
+(`cursor/fold-hourly-0248-high-78bb`) after `5b56b54` (merged #61 hourly
+0151 HIGH, `notes.md` §137 / items 601–616 / batch #119; merged #60 hourly
+0049 HIGH, `notes.md` §136).
+**HARD RULE:** do not reopen or amend PR #23–#61.
+Do **not** re-fold §137 0151 / §136 0049 / §125 Open-Jev *as a second census*.
+Do not amend #61/#60/#59. Do not treat GLiClass Hub weights as a Jev replica.
+This fold's IDs: `notes.md` §138 / composition 617–632 / findings batch #120.
+
+Never reopen merged #7–**#61**. Quote READMEs / release notes.
+Mark *theirs*. No wrappers, keys, `npm` / `pip` / `uv` / `docker`
+install recipes. `invented_signal: false`. Hunches labeled.
+
+Lane is Augustus: **mathematical / logical / algorithmic mental models**
+for Jev-class categorization/scoring across AI / SWE / **business /
+knowledge work / life**, not SWE-only. PRIMARY this hour is the
+**Knowledgator GLiClass Hub family** as class-peer catalog entries (not
+Jev equivalents), plus a typed-decision leaderboard that stays *theirs*,
+an ACP/MCP adapter that is wire-compat not logit-equiv, first cards for
+Sharp / TypeSafe playground / Aside Jev, and serving-substrate GGUF /
+MLX / LiteRT / nanodiff ports. Jev is exemplar, not the mandate.
+Third-party benches stay *theirs*. Catalogs are indexes. Soft scores ≠
+hard gates. SHA move is not a replica. GLiClass class-peer catalog not
+Jev equivalent. typed-decision-leaderboard *theirs* not Harbor.
+wire-compat ≠ logit-equiv. serving substrate ≠ calibrated replica.
+Not a Cua binding. Archer still **promised_not_landed**.
+
+Unique consecutive fragments (this fold) must appear as **one
+substring** in overlays (see uniqueness gate):
+Hourly 0248 uniqueness lock: hf:knowledgator/gliclass-instruct-large-v1.0 43 likes sha 825e5478c1bf apache-2.0; Efficient zero-shot and few-shot multi-task model via sequence classification; GLiClass knowledgator Hub family class-peer catalog not Jev equivalent; Knowledgator/GLiClass.c already §123; Hub models first card as class-peer entries; GLiNER/GLiClass ports are class members not Jev replicas; hf:space:mayafree/typed-decision-leaderboard 33 likes sha f4fc44077818; typed-decision-leaderboard *theirs* not Harbor; JEV 0.7350 ZTC 27B 0.7289 ZTC 397B 0.7272 *theirs* not Harbor; 2,018 items same labels; three-way tie; tacticocc/Jevbridge 33★ MIT HEAD da443ea453ac README SHA 2178333c4c3b; Jevbridge ACP and MCP adapter; does not generate text; Any LLM as System One; wire-compat ≠ logit-equiv; tshmieldev/sharp 29★ MIT HEAD 17cbd8d9cc9e README SHA 783a5cde519c; Cut the slop; Filter your X timeline; kavehmz/typesafe-playground 11★ HEAD 733991a2924a README SHA 04c0b1f6e7da; real API calls not polished benchmarks; himomohi/aside-jev 7★ MIT HEAD e570db43b0e1 README SHA 288e7c91c307; Jev picks the next action from your defined candidates; Not a Cua binding; Jev is the model Aside is the browser runtime; nico-martin/open-jev 6★ MIT HEAD 52667199e8a5 README SHA 81c0485d5833; open reproductions of the shape; Nothing is generated; nico-martin/open-jev ≠ razorback16/openjev ≠ Zefan-Cai/Open-Jev ≠ meijustory123/openjev; hf:chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-GGUF 82.3% ECE 0.017 *theirs*; Same decision as bf16 94.4% *theirs*; Qwen3.5-2B ≠ Archer; serving substrate ≠ calibrated replica; hf:pngwn/nanodiff-350m-typed-decisions ECE 0.065 → 0.036 *theirs*; hf:litert-community/laya-LiteRT 144/144 *theirs*; gargpratyush/journey-evals A page that says Success is never accepted as proof; mpnikhil/dev-0.4b Banking77 91.33% BoolQ 85.20% *theirs*; encoder class member not Jev replica; n4ze3m/typed-decisions-synth 7,414 cases 25,859 questions; Nobody checked it; Zaious/jev-capability-atlas already carded; LocalLLaMA/typed-decisions already carded; fengyiqicoder/jevfeed already carded; Zhao-Tian-yi/awesome-jev ≠ Gerry9000/awesome-jev ≠ heyjunpenn/awesome-jev ≠ yibie/awesome-jev; kaustav1996/reflex ≠ vuckuola619/reflex; tphakala/jev-mcp ≠ jkudish/jev-mcp; ninthspace/hunch ≠ carldaws/hunch ≠ tpellet/hunch; ruban-24/switchboard ≠ cannacre8ive/switchboard-ai; hf:openjev/openjev ≠ razorback16/openjev; catalog ≠ endorsement; skip-thin Fibonaccirabbit/Jev-VLN imanshu03/jev-browser-use luca-saggese/laya.c empty SHA; game success ≠ calibrated Noul; does not execute; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61; notes.md §138
+
+### How-to-apply (class lenses, not vendor tutorials)
+
+These are *class* lenses. Same discipline as §123 (GLiNER/GLiClass ports
+are class members not Jev replicas) and §137 (held-out protocol ≠ Harbor).
+Formal methods **compose**: a Noul is a SENSOR; a Hub GLiClass weight is
+not a Jev replica; a leaderboard AUC is not Harbor; an ACP/MCP adapter
+is not logit-equiv; a GGUF/MLX/LiteRT file is not a calibrated replica.
+
+1. **GLiClass knowledgator Hub family class-peer catalog not Jev equivalent**
+   (hf:knowledgator/gliclass-instruct-large-v1.0 likes 43 sha 825e5478c1bf;
+   instruct-base/edge; multilang mini/ultra/edge; v1.0/v2.0/v2.0-RAC/v3-logic;
+   GLiClass_SandBox). Quote *theirs*: Efficient zero-shot and few-shot
+   multi-task model via sequence classification. Knowledgator/GLiClass.c
+   already §123. Hub models first card as class-peer entries.
+   GLiNER/GLiClass ports are class members not Jev replicas. Do **not**
+   copy `pip install gliclass`.
+2. **typed-decision-leaderboard *theirs* not Harbor / Jevbridge wire-compat ≠ logit-equiv**
+   (hf:space:mayafree/typed-decision-leaderboard likes 33 sha f4fc44077818;
+   tacticocc/Jevbridge MIT HEAD da443ea453ac README SHA 2178333c4c3b).
+   Quote *theirs*: JEV 0.7350 ZTC 27B 0.7289 ZTC 397B 0.7272. 2,018 items
+   same labels. three-way tie. ACP and MCP adapter. does not generate text.
+   Any LLM as System One. *theirs* not Harbor.
+3. **Cut the slop / Not a Cua binding / open reproductions of the shape**
+   (tshmieldev/sharp MIT HEAD 17cbd8d9cc9e; kavehmz/typesafe-playground
+   HEAD 733991a2924a; himomohi/aside-jev MIT HEAD e570db43b0e1;
+   nico-martin/open-jev MIT HEAD 52667199e8a5). Quote *theirs*: Filter your
+   X timeline. real API calls not polished benchmarks. Jev picks the next
+   action from your defined candidates. Jev is the model. Aside is the
+   browser runtime. Nothing is generated. nico-martin/open-jev ≠
+   razorback16/openjev ≠ Zefan-Cai/Open-Jev ≠ meijustory123/openjev.
+4. **serving substrate ≠ calibrated replica / already carded / namesakes / skip-thin**
+   (chaoliangUNSW GGUF/MLX 82.3% ECE 0.017 *theirs*; pngwn nanodiff ECE
+   0.065 → 0.036 *theirs*; litert-community/laya-LiteRT 144/144 *theirs*;
+   journey-evals; mpnikhil/dev-0.4b Banking77 91.33% BoolQ 85.20% *theirs*).
+   Quote *theirs*: Same decision as bf16 94.4%. A page that says Success is
+   never accepted as proof. Nobody checked it. Qwen3.5-2B ≠ Archer.
+   encoder class member not Jev replica. Zaious/jev-capability-atlas already
+   carded. LocalLLaMA/typed-decisions already carded. fengyiqicoder/jevfeed
+   already carded. skip-thin empty SHA. catalog ≠ endorsement.
+
+### HIGH
+
+1. **Knowledgator GLiClass Hub family PRIMARY class-peer.** First catalog
+   of Hub artifacts as class-peer entries, not Jev equivalents.
+   [`knowledgator/gliclass-instruct-large-v1.0`](https://huggingface.co/knowledgator/gliclass-instruct-large-v1.0)
+   apache-2.0 **43 likes** sha `825e5478c1bf`. instruct-base sha
+   `4f6a108b08a5` **9 likes**. instruct-edge sha `727be8a417f6` **6 likes**.
+   multilang-mini sha `0bd888b6c3ef` / ultra sha `33c3ffec6405` **14 likes**.
+   multilang-edge sha `d16c08ef7054` **5 likes**. datasets v1.0 / v2.0 /
+   v2.0-RAC / v3-logic. Space GLiClass_SandBox **15 likes** sha
+   `17182f952476`. Quote *theirs*: Efficient zero-shot and few-shot
+   multi-task model via sequence classification. Knowledgator/GLiClass.c
+   already §123. GLiNER/GLiClass ports are class members not Jev replicas.
+2. **[`mayafree/typed-decision-leaderboard`](https://huggingface.co/spaces/mayafree/typed-decision-leaderboard)
+   PRIMARY novel.** apache-2.0 **33 likes** sha `f4fc44077818`. Quote
+   *theirs*: JEV 0.7350 ZTC 27B 0.7289 ZTC 397B 0.7272. 2,018 items same
+   labels. three-way tie. *theirs* not Harbor.
+3. **[`tacticocc/Jevbridge`](https://github.com/tacticocc/Jevbridge)
+   PRIMARY novel.** MIT **33★** HEAD `da443ea453ac` README SHA
+   `2178333c4c3b`. Quote *theirs*: ACP and MCP adapter. does not generate
+   text. Any LLM as System One. wire-compat ≠ logit-equiv.
+4. **First cards: Sharp / playground / Aside / nico-martin/open-jev.**
+   [`tshmieldev/sharp`](https://github.com/tshmieldev/sharp) MIT **29★**
+   HEAD `17cbd8d9cc9e` README SHA `783a5cde519c`. Cut the slop. Filter your
+   X timeline.
+   [`kavehmz/typesafe-playground`](https://github.com/kavehmz/typesafe-playground)
+   **11★** HEAD `733991a2924a` README SHA `04c0b1f6e7da`. real API calls
+   not polished benchmarks.
+   [`himomohi/aside-jev`](https://github.com/himomohi/aside-jev) MIT **7★**
+   HEAD `e570db43b0e1` README SHA `288e7c91c307`. Not a Cua binding. Jev is
+   the model. Aside is the browser runtime.
+   [`nico-martin/open-jev`](https://github.com/nico-martin/open-jev) MIT
+   **6★** HEAD `52667199e8a5` README SHA `81c0485d5833`. open reproductions
+   of the shape. Nothing is generated. nico-martin/open-jev ≠
+   razorback16/openjev ≠ Zefan-Cai/Open-Jev ≠ meijustory123/openjev.
+5. **Serving substrate / encoder class members / journey-evals.**
+   chaoliangUNSW Jev-Style Qwen3.5-2B GGUF/MLX 82.3% ECE 0.017 *theirs*.
+   Same decision as bf16 94.4% *theirs*. Qwen3.5-2B ≠ Archer.
+   pngwn nanodiff ECE 0.065 → 0.036 *theirs*. litert-community/laya-LiteRT
+   144/144 *theirs*. serving substrate ≠ calibrated replica.
+   [`gargpratyush/journey-evals`](https://github.com/gargpratyush/journey-evals)
+   HEAD `578bd13075a9`. A page that says Success is never accepted as proof.
+   [`mpnikhil/dev-0.4b`](https://github.com/mpnikhil/dev-0.4b) Banking77
+   91.33% BoolQ 85.20% *theirs*. encoder class member not Jev replica.
+   n4ze3m/typed-decisions-synth 7,414 cases 25,859 questions. Nobody
+   checked it.
+6. **Already carded / namesakes / remainder / skip-thin.**
+   Zaious/jev-capability-atlas already carded. LocalLLaMA/typed-decisions
+   already carded. fengyiqicoder/jevfeed already carded. Do not mint
+   sibling first-sighting sections.
+   Zhao-Tian-yi/awesome-jev ≠ Gerry9000/awesome-jev ≠ heyjunpenn/awesome-jev
+   ≠ yibie/awesome-jev. kaustav1996/reflex ≠ vuckuola619/reflex.
+   tphakala/jev-mcp ≠ jkudish/jev-mcp. ninthspace/hunch ≠ carldaws/hunch ≠
+   tpellet/hunch. ruban-24/switchboard ≠ cannacre8ive/switchboard-ai.
+   hf:openjev/openjev ≠ razorback16/openjev. catalog ≠ endorsement.
+   skip-thin: Fibonaccirabbit/Jev-VLN imanshu03/jev-browser-use
+   luca-saggese/laya.c empty SHA. Remainder 0-star adapters, games, and
+   catalogs stay indexes. game success ≠ calibrated Noul. routing ≠
+   permission. does not execute. *theirs* not Harbor.
+
+### Pulse (live REST this hour)
+
+Archer still promised_not_landed. Hub archerhume/4rcherhume HTTP **401**.
+GLiClass instruct-large **43 likes**. typed-decision-leaderboard **33 likes**.
+Jevbridge **33★**. Sharp **29★**. typesafe-playground **11★**. aside-jev
+**7★**. nico-martin/open-jev **6★**. This hour does not re-census SemIf /
+Laya likes / tracker; those numbers stay §119 until a dedicated pulse.
+`invented_signal: false`.
+
+### Formal compose + anti-patterns
+
+Formal methods **compose** with scoring. A Noul is a SENSOR. A catalog
+is an index. A GLiClass Hub weight is not a Jev replica. A leaderboard
+AUC is not Harbor. An ACP/MCP adapter is not logit-equiv. A GGUF file is
+not a calibrated replica. A Cua binding is not Aside. Treating Hub
+GLiClass as Jev, 0.7350 as Harbor, Jevbridge as a replica, or LiteRT as
+calibrated Noul is soundness theater.
+GLiClass class-peer catalog not Jev equivalent.
+typed-decision-leaderboard *theirs* not Harbor.
+wire-compat ≠ logit-equiv.
+serving substrate ≠ calibrated replica.
+Not a Cua binding.
+catalog ≠ endorsement. *theirs* not Harbor.
+SHA move is not a replica.
+
+### Adversarial review + testing hooks (Basit standing
+order)
+
+Parent merge only after **CLEAN** adversarial review **AND** testing.
+Hooks for the reviewer:
+
+- Uniqueness-gate: the consecutive `Hourly 0248 uniqueness lock:`
+  string must appear in every overlay listed below. Prior walls 0843 /
+  0915 / jcr / 0922 / 0940 / 0947 / 1049 / 1143 / 1248 / 1340 / 1441 /
+  1542 / 1643 / 1746 / 1843 / 1936 / Open-Jev densify / 1946 / 2049 /
+  2146 / 2246 / 2347 / 0049 / 0151 stay one substring each (do not mutate
+  them; do not reopen #23–#61).
+- Namesake locks: nico-martin/open-jev ≠ razorback16/openjev ≠
+  Zefan-Cai/Open-Jev ≠ meijustory123/openjev;
+  Zhao-Tian-yi/awesome-jev ≠ Gerry9000/awesome-jev ≠ heyjunpenn/awesome-jev
+  ≠ yibie/awesome-jev; kaustav1996/reflex ≠ vuckuola619/reflex;
+  tphakala/jev-mcp ≠ jkudish/jev-mcp; ninthspace/hunch ≠ carldaws/hunch ≠
+  tpellet/hunch; ruban-24/switchboard ≠ cannacre8ive/switchboard-ai;
+  hf:openjev/openjev ≠ razorback16/openjev.
+- Densify vs new: GLiClass.c/js already §123. Hub models are first cards
+  as class-peer entries. Zaious/jev-capability-atlas already carded.
+  LocalLLaMA/typed-decisions already carded. fengyiqicoder/jevfeed already
+  carded. Do not mint sibling first-sighting sections for the already-carded.
+- Harbor-jevals: 0.7350 / 0.7289 / 82.3% / ECE 0.017 / 91.33% / 144/144
+  stay *theirs*, not Harbor. typed-decision-leaderboard *theirs* not Harbor.
+  GLiClass class-peer catalog not Jev equivalent.
+- Anti-patterns to refuse: TypeSafe drop-in; catalog as endorsement;
+  GLiClass Hub as Jev replica; 0.7350 as Harbor; Jevbridge as logit-equiv;
+  LiteRT as calibrated Noul; Aside as a Cua binding; key-farming how-tos;
+  copying keys / `npm` / `pip` / `uv` / `docker`.
+- Overlay set: SKILL.md body (protocol fragments + class-table densify
+  + Hourly 0248), mental-models Apply 0248, composition-algebra items
+  617–632, faq, mixed-architecture, validation, toolbox-mapping,
+  methods-catalog, formal-methods, formal-semi-formal,
+  applied-mappings, judgment-class, question-design,
+  agent-self-assessment, mappings, CHANGELOG, README, docs/ecosystem,
+  findings batch #120, refresh-log, changelog-hourly.md,
+  revisit_fingerprints.json (first cards Jevbridge / sharp / playground /
+  aside-jev / nico-martin/open-jev).
+- Offline check: `evaluate_decisions.py --self-test` (now includes
+  GLiClass class-peer ≠ Jev replica / typed-decision-leaderboard *theirs*
+  not Harbor / Jevbridge wire-compat ≠ logit-equiv / Not a Cua binding /
+  serving substrate ≠ calibrated replica / 82.3% ECE 0.017 *theirs*) and
+  `uniqueness_gate.py` (0843 + 0915 + jcr / 0922 / 0940 / 0947 /
+  1049 / 1143 / 1248 / 1340 / 1441 / 1542 / 1643 / 1746 / 1843 / 1936 /
+  Open-Jev densify / 1946 / 2049 / 2146 / 2246 / 2347 / 0049 / 0151 / 0248).
+  No live Jev key. No wrappers.
+
+**Hourly 0248 HIGH (`notes.md` §138).** GLiClass knowledgator Hub family class-peer catalog not Jev equivalent. typed-decision-leaderboard *theirs* not Harbor. JEV 0.7350 ZTC 27B 0.7289 *theirs*. Jevbridge ACP and MCP adapter. wire-compat ≠ logit-equiv. Cut the slop. Not a Cua binding. open reproductions of the shape. 82.3% ECE 0.017 *theirs*. serving substrate ≠ calibrated replica. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#61. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+Hourly 0248 uniqueness lock: hf:knowledgator/gliclass-instruct-large-v1.0 43 likes sha 825e5478c1bf apache-2.0; Efficient zero-shot and few-shot multi-task model via sequence classification; GLiClass knowledgator Hub family class-peer catalog not Jev equivalent; Knowledgator/GLiClass.c already §123; Hub models first card as class-peer entries; GLiNER/GLiClass ports are class members not Jev replicas; hf:space:mayafree/typed-decision-leaderboard 33 likes sha f4fc44077818; typed-decision-leaderboard *theirs* not Harbor; JEV 0.7350 ZTC 27B 0.7289 ZTC 397B 0.7272 *theirs* not Harbor; 2,018 items same labels; three-way tie; tacticocc/Jevbridge 33★ MIT HEAD da443ea453ac README SHA 2178333c4c3b; Jevbridge ACP and MCP adapter; does not generate text; Any LLM as System One; wire-compat ≠ logit-equiv; tshmieldev/sharp 29★ MIT HEAD 17cbd8d9cc9e README SHA 783a5cde519c; Cut the slop; Filter your X timeline; kavehmz/typesafe-playground 11★ HEAD 733991a2924a README SHA 04c0b1f6e7da; real API calls not polished benchmarks; himomohi/aside-jev 7★ MIT HEAD e570db43b0e1 README SHA 288e7c91c307; Jev picks the next action from your defined candidates; Not a Cua binding; Jev is the model Aside is the browser runtime; nico-martin/open-jev 6★ MIT HEAD 52667199e8a5 README SHA 81c0485d5833; open reproductions of the shape; Nothing is generated; nico-martin/open-jev ≠ razorback16/openjev ≠ Zefan-Cai/Open-Jev ≠ meijustory123/openjev; hf:chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-GGUF 82.3% ECE 0.017 *theirs*; Same decision as bf16 94.4% *theirs*; Qwen3.5-2B ≠ Archer; serving substrate ≠ calibrated replica; hf:pngwn/nanodiff-350m-typed-decisions ECE 0.065 → 0.036 *theirs*; hf:litert-community/laya-LiteRT 144/144 *theirs*; gargpratyush/journey-evals A page that says Success is never accepted as proof; mpnikhil/dev-0.4b Banking77 91.33% BoolQ 85.20% *theirs*; encoder class member not Jev replica; n4ze3m/typed-decisions-synth 7,414 cases 25,859 questions; Nobody checked it; Zaious/jev-capability-atlas already carded; LocalLLaMA/typed-decisions already carded; fengyiqicoder/jevfeed already carded; Zhao-Tian-yi/awesome-jev ≠ Gerry9000/awesome-jev ≠ heyjunpenn/awesome-jev ≠ yibie/awesome-jev; kaustav1996/reflex ≠ vuckuola619/reflex; tphakala/jev-mcp ≠ jkudish/jev-mcp; ninthspace/hunch ≠ carldaws/hunch ≠ tpellet/hunch; ruban-24/switchboard ≠ cannacre8ive/switchboard-ai; hf:openjev/openjev ≠ razorback16/openjev; catalog ≠ endorsement; skip-thin Fibonaccirabbit/Jev-VLN imanshu03/jev-browser-use luca-saggese/laya.c empty SHA; game success ≠ calibrated Noul; does not execute; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61; notes.md §138

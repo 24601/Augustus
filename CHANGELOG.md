@@ -16,6 +16,41 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 0248 HIGH (`research/notes.md` §138 / composition items
+617–632 / findings batch #120). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#61.
+Do not amend released 0.5.0 (#42). Merged #61 owns §137. Merged #60
+owns §136. Merged #59 owns §135.
+
+### Added
+
+- **Hourly 0248 HIGH (`notes.md` §138).** GLiClass knowledgator Hub
+  family class-peer catalog not Jev equivalent. instruct-large sha
+  825e5478c1bf. typed-decision-leaderboard *theirs* not Harbor. JEV
+  0.7350 ZTC 27B 0.7289 *theirs*. Jevbridge ACP and MCP adapter.
+  wire-compat ≠ logit-equiv. Cut the slop. Not a Cua binding. open
+  reproductions of the shape. 82.3% ECE 0.017 *theirs*. serving
+  substrate ≠ calibrated replica. skip-thin empty SHA.
+  Evaluator: GLiClass class-peer ≠ Jev replica / typed-decision-leaderboard
+  *theirs* not Harbor / Jevbridge wire-compat ≠ logit-equiv / Not a Cua
+  binding.
+  uniqueness_gate.py now checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 +
+  1049 + 1143 + 1248 + 1340 + 1441 + 1542 + 1643 + 1746 + 1843 + 1936 +
+  Open-Jev densify + 1946 + 2049 + 2146 + 2246 + 2347 + 0049 + 0151 + 0248.
+  Composition items 617–632 / batch #120.
+  **HARD RULE:** do not reopen or amend PR #23–#61. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat Hub GLiClass
+  as a Jev replica, 0.7350 as Harbor, Jevbridge as logit-equiv, or LiteRT
+  as calibrated Noul. With Augustus: GLiClass class-peer catalog not Jev
+  equivalent; typed-decision-leaderboard *theirs* not Harbor; wire-compat
+  ≠ logit-equiv; serving substrate ≠ calibrated replica; Not a Cua
+  binding.
+
+
 Hourly 0151 HIGH (`research/notes.md` §137 / composition items
 601–616 / findings batch #119). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in
