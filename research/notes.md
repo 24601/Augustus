@@ -31216,7 +31216,7 @@ replica; a 0.8 pass-min is application policy, not a proof.
    burnigtm/jev-mcp. Ten MCP tools. Gate cousins stay measurement
    notes; rh-guard owns primary gates.
 5. **LoRA ≠ RLCD replica**
-   (Zefan-Cai/Open-Jev; zhengxuyu/litjev). Quote *theirs* Open-Jev:
+   (Zefan-Cai/Open-Jev; zhengxuyu/litjev).    Quote *theirs* Open-Jev:
    LoRA adapters plus a trained scalar decision head and calibration
    temperature. Does not reproduce proprietary RLCD. 2B 94.71% /
    9B 97.54% hard test *theirs*. 2B OOD 86.02% / 9B OOD 91.97%
@@ -31224,6 +31224,13 @@ replica; a 0.8 pass-min is application policy, not a proof.
    *theirs* litjev: Probabilities are not calibrated by default.
    Qwen/Qwen3.8-27B ≠ Archer. zhengxuyu/litjev ≠ alexwestco/llm-to-jev.
    Zefan-Cai/Open-Jev ≠ TheoLeeCJ/openjev ≠ razorback16/openjev.
+   Since last look (2026-09-21): not merged base models.
+   customer-service P50 local HTTP 85.03 ms vs Jev HTTPS 295.26 ms
+   *theirs*. 1024 tokens/32 candidates Open-Jev slower 1015.90 vs
+   301.37 *theirs*. systems latency ≠ semantic equivalence.
+   prefix caching experimental/off by default. TREC-DL Jev/Luna/Astra
+   completed. Open-Jev TREC pending. hard acc ≠ calibrated Noul.
+   type-valid ≠ exact.
 
 ### HIGH (revisit densify; keep original section ids)
 
@@ -31284,6 +31291,11 @@ replica; a 0.8 pass-min is application policy, not a proof.
    Hub revisions 2B `0c7aa498b162` / 9B `47e966881e48`.
    Zefan-Cai/Open-Jev ≠ TheoLeeCJ/openjev ≠ razorback16/openjev.
    Do **not** copy train flags.
+   Since last look 2026-09-21: densify this card (HEAD
+   `4933ee84951f` / README SHA `ce1a587219e4` / live **3★**).
+   not merged base models. systems latency ≠ semantic equivalence.
+   Open-Jev TREC pending. hard acc ≠ calibrated Noul.
+   See **Since last look** below. Do not mint a sibling section.
 
 6. **[cristianoliveira/jeq](https://github.com/cristianoliveira/jeq)**
    - NEW HIGH measurement (MIT; **3★**; HEAD `44ea80c90903`;
@@ -31389,6 +31401,69 @@ Hooks for the reviewer:
   No live Jev key. No wrappers.
 
 Hourly 1441 uniqueness lock: vLLM NVIDIA + MLX Apple Silicon; Codiv hosted free endpoint; dual /v1/systemone + /v1/chat/completions; razorback16/openjev densify HEAD cddbd962c88a README SHA a5943415cb92; STE README rewrite; serving-port densify; chat 501 on MLX; dual serving is not generate; Hosted Codiv ≠ TypeSafe; wire-compat ≠ logit-equiv; SHA move is not a replica; Error contract is not a Noul; hr98w/jev-visual 167★ Apple Silicon visual candidate scoring; 37.30s → 2.40s at 64 decisions *theirs*; Breakout 9 bricks 6 returns 2 lives *theirs*; candidate probabilities are relative not correctness; jkudish/jev-mcp 156★ ten MCP tools; recommendation is advisory; the server never blocks on its own; TypeSafe CLERC 5% to 18% *theirs*; jkudish/jev-mcp ≠ burnigtm/jev-mcp; zhengxuyu/litjev off-the-shelf Qwen decision layer; Probabilities are not calibrated by default; Qwen/Qwen3.8-27B ≠ Archer; zhengxuyu/litjev ≠ alexwestco/llm-to-jev; Zefan-Cai/Open-Jev LoRA + scalar head; 2B 94.71% 9B 97.54% hard test *theirs*; 2B OOD 86.02% 9B OOD 91.97% *theirs*; 80,816 training rows; 27B still in progress; LoRA ≠ RLCD replica; Zefan-Cai/Open-Jev ≠ TheoLeeCJ/openjev ≠ razorback16/openjev; cristianoliveira/jeq intelligence you can pipe; pass-min 0.8 still soft; JEQ does not own actions; AndyInQtr/laya-coreai CoreML serving substrate ≠ calibrated replica; AndyInQtr/laya-coreai ≠ mizorewww/laya-coreml; catalog ≠ endorsement; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47; notes.md §125
+
+### Since last look (2026-09-21T01:34Z Open-Jev densify)
+
+DENSIFY §125 item 5. Do **not** mint a sibling first-sighting
+section. Material change is README / latency report / provider
+comparison / TREC-DL / public HF packs, not the 0★→3★ star
+move. SHA move is not a replica.
+
+**[Zefan-Cai/Open-Jev](https://github.com/Zefan-Cai/Open-Jev)**
+- DENSIFY §125 (MIT source; Apache-2.0 adapters; live **3★**;
+  HEAD `4933ee84951f`; README SHA `ce1a587219e4`; pushed
+  `2026-09-21T01:34:47Z`; was HEAD `6d8de5ed72a0` / README SHA
+  `771bf3135f50` / 0★ at first sighting). Astra TREC commit
+  `1dd56990be7e` (pushed 2026-09-21T01:17Z). Quote *theirs*:
+  the 2B/9B artifacts are LoRA adapters plus a trained scalar
+  decision head and calibration temperature. They are not
+  merged base models or ordinary text-generation checkpoints.
+  Independent of TypeSafe. Does not reproduce proprietary RLCD
+  and does not claim TypeSafe speedups or parity. LoRA ≠ RLCD
+  replica. not merged base models.
+- Public HF packs (revisions unchanged this look): dataset
+  [`ZefanCai/Open-Jev`](https://huggingface.co/datasets/ZefanCai/Open-Jev)
+  rev `c67699e13d0a`; [`Open-Jev-2B`](https://huggingface.co/ZefanCai/Open-Jev-2B)
+  rev `0c7aa498b162`; [`Open-Jev-9B`](https://huggingface.co/ZefanCai/Open-Jev-9B)
+  rev `47e966881e48`. 27B still in progress.
+- Latency vs Jev-1.13.0 *theirs*: customer-service P50 local
+  HTTP **85.03 ms** versus Jev HTTPS **295.26 ms**. At 1024
+  state tokens and 32 candidates Open-Jev is slower:
+  **1015.90 ms** versus **301.37 ms**. Hardware and network
+  paths differ; this is observed deployment latency, not
+  matched-hardware speedup. systems latency ≠ semantic
+  equivalence. Prefix caching is experimental and off by
+  default. CUDA prefix caching exceeded the probability
+  tolerance on 9/11 workloads; all selected decisions matched.
+- Provider comparison *theirs*: same customer-service request
+  OpenAI Luna P50 **918.13 ms** and Astra **1938.39 ms** with
+  recorded reasoning settings. Latency does not establish
+  equal task quality.
+- TREC-DL *theirs*: Jev / Luna / Astra completed (97 queries).
+  Open-Jev TREC pending. Do not quote Jev/Luna/Astra nDCG as
+  an Open-Jev result.
+- Training restated *theirs* not Harbor: 80,816 training rows;
+  2B hard test 9,515 / 10,046 (94.71%) / OOD 13,287 / 15,446
+  (86.02%); 9B 9,799 / 10,046 (97.54%) / OOD 14,205 / 15,446
+  (91.97%). hard acc ≠ calibrated Noul. type-valid ≠ exact.
+  Qwen/Qwen3.8-27B ≠ Archer.
+- Website https://zefan-cai.github.io/open-jev/ plus launch X
+  thread *theirs*. Quote *theirs*: Inspired by Jev, we built
+  Open-Jev: open-source decision models. 2B/9B: LoRA adapters
+  + decision heads. Demo
+  [2101782158658695388](https://x.com/Zefan_Cai/status/2101782158658695388).
+  Intro reply
+  [2101786019607740436](https://x.com/Zefan_Cai/status/2101786019607740436)
+  (52-second intro; HF collection
+  ZefanCai/open-jev-6ab049b9d43a267bae4dedc8). Website reply
+  [2101789698947793231](https://x.com/Zefan_Cai/status/2101789698947793231).
+  Do **not** copy `pip` / train flags / `hf download`.
+  Zefan-Cai/Open-Jev ≠ TheoLeeCJ/openjev ≠ razorback16/openjev
+  ≠ Shalimov04/open-jev ≠ kyegomez/open-jev.
+  Do not reopen or amend PR #23–#52. Does not bump 0.5.0.
+  `invented_signal: false`.
+
+User-provided Open-Jev densify uniqueness lock: Zefan-Cai/Open-Jev densify HEAD 4933ee84951f README SHA ce1a587219e4; pushed 2026-09-21T01:34Z; Astra TREC commit 1dd56990be7e pushed 2026-09-21T01:17Z; live 3★ (was 0★; star-noise is not the fold); LoRA adapters plus trained scalar decision head and calibration temperature; not merged base models; dataset ZefanCai/Open-Jev rev c67699e13d0a; Open-Jev-2B rev 0c7aa498b162; Open-Jev-9B rev 47e966881e48; 27B still in progress; Independent of TypeSafe; no RLCD/parity claims; LoRA ≠ RLCD replica; customer-service P50 local HTTP 85.03 ms vs Jev HTTPS 295.26 ms *theirs*; 1024 tokens/32 candidates Open-Jev slower 1015.90 vs 301.37 *theirs*; prefix caching experimental/off by default; CUDA prefix caching exceeded tolerance on 9/11 workloads; systems latency ≠ semantic equivalence; GPT Luna P50 918.13 ms Astra 1938.39 ms *theirs*; TREC-DL Jev/Luna/Astra completed; Open-Jev TREC pending; 80,816 training rows; 2B 94.71% / OOD 86.02%; 9B 97.54% / 91.97% *theirs* not Harbor; hard acc ≠ calibrated Noul; type-valid ≠ exact; Qwen/Qwen3.8-27B ≠ Archer; website https://zefan-cai.github.io/open-jev/; launch X thread https://x.com/Zefan_Cai/status/2101782158658695388 https://x.com/Zefan_Cai/status/2101786019607740436 https://x.com/Zefan_Cai/status/2101789698947793231; densify §125 not a sibling first sighting; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52; notes.md §125
 
 
 ## 126. Hourly 1542 HIGH (2026-09-20 ~15:42 Boise / 2026-09-20T21:42Z)
@@ -32795,3 +32870,6 @@ Hooks for the reviewer:
 User-provided 1936 uniqueness lock: sgoedecke/system-one 20★ HEAD ebde2a2db706 README SHA d331b567e2c3; SystemOne.from_pretrained; Batched single-token choice inference; TypeSafe-compatible; cache_prefix=True; LICENSE absent; sgoedecke/system-one ≠ mithalouni/system-one-open ≠ KathanModh259/system-one ≠ babybear-labs/system-one; TypeSafe-compatible ≠ TypeSafe replica; mithalouni/system-one-open 18★ MIT HEAD 77f1f7cccf8a README SHA 535f33028a68 LICENSE SHA 2f6f2cf1064e; Gemma 4 E2B / Gemma 3 270M Modal; 76.7% vs Jev 86.9% strict common subset *theirs*; 97 ms H100 *theirs*; 74.8% held-out *theirs*; replica ≠ TypeSafe; HF upload pending; kotoba-lang/typed-decisions 1★ Apache-2.0 HEAD 10d7834d3b99 README SHA 4d6bbf4c4e44 LICENSE SHA 513bb5e3cb4c; ModernBERT / DeBERTa / LLaDA-MoE; DeBERTa-v3-large 0.855 / 42 ms *theirs*; ModernBERT-base 0.717 / 68 ms *theirs*; LLaDA-MoE 0.835 / 676 ms *theirs*; kotoba-lang/typed-decisions ≠ convaiinnovations/laya-typed-decisions; encoder class member not Jev replica; aisearchio 15-link census catalog ≠ endorsement; 12 already carded 3 gaps this fold; soft scores ≠ hard gates; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52; notes.md §130
 
 **User-provided 1936 HIGH (`notes.md` §130).** sgoedecke/system-one first-sighting. SystemOne.from_pretrained. TypeSafe-compatible ≠ TypeSafe replica. mithalouni/system-one-open first-sighting. 76.7% vs Jev 86.9% *theirs*. replica ≠ TypeSafe. kotoba-lang/typed-decisions first-sighting. DeBERTa-v3-large 0.855 / 42 ms *theirs*. kotoba-lang/typed-decisions ≠ convaiinnovations/laya-typed-decisions. aisearchio 15-link census catalog ≠ endorsement. soft scores ≠ hard gates. SHA move is not a replica. Do not reopen or amend PR #23–#52. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+
+**Open-Jev densify (`notes.md` §125).** DENSIFY the original 1441 card, not a sibling first sighting. HEAD 4933ee84951f README SHA ce1a587219e4. LoRA + scalar head + calibration temperature. not merged base models. customer-service P50 85.03 vs Jev 295.26 *theirs*. 1024/32 slower 1015.90 vs 301.37 *theirs*. systems latency ≠ semantic equivalence. Open-Jev TREC pending. hard acc ≠ calibrated Noul. type-valid ≠ exact. LoRA ≠ RLCD replica. Qwen/Qwen3.8-27B ≠ Archer. SHA move is not a replica. Do not reopen or amend PR #23–#52. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+User-provided Open-Jev densify uniqueness lock: Zefan-Cai/Open-Jev densify HEAD 4933ee84951f README SHA ce1a587219e4; pushed 2026-09-21T01:34Z; Astra TREC commit 1dd56990be7e pushed 2026-09-21T01:17Z; live 3★ (was 0★; star-noise is not the fold); LoRA adapters plus trained scalar decision head and calibration temperature; not merged base models; dataset ZefanCai/Open-Jev rev c67699e13d0a; Open-Jev-2B rev 0c7aa498b162; Open-Jev-9B rev 47e966881e48; 27B still in progress; Independent of TypeSafe; no RLCD/parity claims; LoRA ≠ RLCD replica; customer-service P50 local HTTP 85.03 ms vs Jev HTTPS 295.26 ms *theirs*; 1024 tokens/32 candidates Open-Jev slower 1015.90 vs 301.37 *theirs*; prefix caching experimental/off by default; CUDA prefix caching exceeded tolerance on 9/11 workloads; systems latency ≠ semantic equivalence; GPT Luna P50 918.13 ms Astra 1938.39 ms *theirs*; TREC-DL Jev/Luna/Astra completed; Open-Jev TREC pending; 80,816 training rows; 2B 94.71% / OOD 86.02%; 9B 97.54% / 91.97% *theirs* not Harbor; hard acc ≠ calibrated Noul; type-valid ≠ exact; Qwen/Qwen3.8-27B ≠ Archer; website https://zefan-cai.github.io/open-jev/; launch X thread https://x.com/Zefan_Cai/status/2101782158658695388 https://x.com/Zefan_Cai/status/2101786019607740436 https://x.com/Zefan_Cai/status/2101789698947793231; densify §125 not a sibling first sighting; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52; notes.md §125

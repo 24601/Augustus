@@ -2,7 +2,7 @@
 """Uniqueness gate for merged 0843 (§114), merged 0915 NanoJev (§115),
 merged 0920 jcr (§116), merged 0922 SemIf (§117), merged 0940
 llm-to-jev (§118), hourly 0947 HIGH (§119), hourly 1049 HIGH (§120),
-hourly 1143 HIGH (§121), hourly 1248 HIGH (§123), hourly 1340 HIGH (§124), hourly 1441 HIGH (§125), hourly 1542 HIGH (§126), hourly 1643 HIGH (§127), hourly 1746 HIGH (§128), hourly 1843 HIGH (§129), and user-provided 1936 HIGH (§130).
+hourly 1143 HIGH (§121), hourly 1248 HIGH (§123), hourly 1340 HIGH (§124), hourly 1441 HIGH (§125), hourly 1542 HIGH (§126), hourly 1643 HIGH (§127), hourly 1746 HIGH (§128), hourly 1843 HIGH (§129), user-provided 1936 HIGH (§130), and Open-Jev densify (§125).
 
 Each lock must appear as one consecutive substring in every listed overlay.
 Fragments scattered across files do not count.
@@ -169,6 +169,10 @@ UNIQ_1843 = (
     "Hourly 1843 uniqueness lock: jaredpalmer/kev densify HEAD bd058057ad0a README SHA 84b872488915; Fine-tuning on your own data; --data JSONL; --init_from warm-start LoRA/head PR #9; Kev-0.8B 4B 9B Qwen3.5 family; 4B new-source 0.794/0.832 *theirs*; 9B new-source 0.812/0.837 *theirs*; 0.33 vs 0.84 vs 0.83/0.88 *theirs*; from-scratch ≠ warm-start; JSONL labels ≠ Harbor; Kev-0.5B card Qwen3.5 family pointer; No Jev outputs were used for training; option order can change an answer; 8.2% ≥0.9 on wrong *theirs*; Kev-9B 7.5% ≥0.9 on wrong *theirs*; dabit3/jev-experiments densify 340★; simota/tenbin densify neighbor skill; Promethe-us/awesome-jev ≠ MrJev/awesome-jev ≠ yibie/awesome-jev; kyegomez/open-jev reconstruction ≠ replica; unofficial research implementation with random weights; kyegomez/open-jev ≠ razorback16/openjev ≠ TheoLeeCJ/openjev ≠ Zefan-Cai/Open-Jev ≠ Shalimov04/open-jev; jourdanlabs/assay-001 split verdict; CLINC150 ECE 0.0204 *theirs*; Banking77 ECE 0.0936 *theirs*; 8,576 responses zero type errors *theirs*; brnyxx/jev-ra 3-5x / ~300 ms *theirs*; 8.50× Wikipedia *theirs*; ThePFMind/jev-mcp ≠ jkudish/jev-mcp ≠ burnigtm/jev-mcp; namenu/pi-jev-effort ≠ TheoOliveira/pi-jev; samatv256/mini-Jev ≠ r-ms/mini-jev; comoc/jev-minesweeper ≠ EnesYilmazcode/JevMinesweeper; game success ≠ calibrated Noul; Nutlope/jev-fraud Kimi K3; jeffloo886/jev-notion; hf:akhilaaa3/openjev-v1-allmix-r512-merged ≠ hf:akhilaaa3/openjev-r512-handoff-demo; serving substrate ≠ calibrated replica; catalog ≠ endorsement; SHA move is not a replica; wire-compat ≠ logit-equiv; Qwen3.5 ≠ Archer; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51; notes.md §129"
 )
 
+UNIQ_OPENJEV = (
+    'User-provided Open-Jev densify uniqueness lock: Zefan-Cai/Open-Jev densify HEAD 4933ee84951f README SHA ce1a587219e4; pushed 2026-09-21T01:34Z; Astra TREC commit 1dd56990be7e pushed 2026-09-21T01:17Z; live 3★ (was 0★; star-noise is not the fold); LoRA adapters plus trained scalar decision head and calibration temperature; not merged base models; dataset ZefanCai/Open-Jev rev c67699e13d0a; Open-Jev-2B rev 0c7aa498b162; Open-Jev-9B rev 47e966881e48; 27B still in progress; Independent of TypeSafe; no RLCD/parity claims; LoRA ≠ RLCD replica; customer-service P50 local HTTP 85.03 ms vs Jev HTTPS 295.26 ms *theirs*; 1024 tokens/32 candidates Open-Jev slower 1015.90 vs 301.37 *theirs*; prefix caching experimental/off by default; CUDA prefix caching exceeded tolerance on 9/11 workloads; systems latency ≠ semantic equivalence; GPT Luna P50 918.13 ms Astra 1938.39 ms *theirs*; TREC-DL Jev/Luna/Astra completed; Open-Jev TREC pending; 80,816 training rows; 2B 94.71% / OOD 86.02%; 9B 97.54% / 91.97% *theirs* not Harbor; hard acc ≠ calibrated Noul; type-valid ≠ exact; Qwen/Qwen3.8-27B ≠ Archer; website https://zefan-cai.github.io/open-jev/; launch X thread https://x.com/Zefan_Cai/status/2101782158658695388 https://x.com/Zefan_Cai/status/2101786019607740436 https://x.com/Zefan_Cai/status/2101789698947793231; densify §125 not a sibling first sighting; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52; notes.md §125'
+)
+
 REVISIT_LOCK = (
     "Revisit / since-last-look lock: catalogued repos are not done; "
     "store fingerprints default_sha, pushed_at, description_hash, release_tag; "
@@ -264,6 +268,8 @@ def main() -> int:
             failed.append(f"1843 lock missing as one substring: {rel}")
         if UNIQ_1936 not in body:
             failed.append(f"1936 lock missing as one substring: {rel}")
+        if UNIQ_OPENJEV not in body:
+            failed.append(f"openjev densify lock missing as one substring: {rel}")
     for rel in REVISIT_OVERLAYS:
         path = ROOT / rel
         if not path.is_file():
@@ -603,6 +609,22 @@ def main() -> int:
             '12 already carded 3 gaps this fold',
             'user-provided 1936 / notes.md §130',
             "hourly 1843 / notes.md §129",
+            "Open-Jev densify HEAD 4933ee84951f",
+            "Astra TREC commit 1dd56990be7e",
+            "not merged base models",
+            "customer-service P50 local HTTP 85.03 ms vs Jev HTTPS 295.26 ms *theirs*",
+            "1024 tokens/32 candidates Open-Jev slower 1015.90 vs 301.37 *theirs*",
+            "prefix caching experimental/off by default",
+            "systems latency ≠ semantic equivalence",
+            "GPT Luna P50 918.13 ms Astra 1938.39 ms *theirs*",
+            "TREC-DL Jev/Luna/Astra completed",
+            "Open-Jev TREC pending",
+            "hard acc ≠ calibrated Noul",
+            "densify §125 not a sibling first sighting",
+            "Open-Jev densify / notes.md §125",
+            "launch X thread https://x.com/Zefan_Cai/status/2101782158658695388",
+            "2101786019607740436",
+            "2101789698947793231",
         ):
             if frag not in haystack:
                 failed.append(f"SKILL.md missing fragment {frag!r}")
@@ -807,6 +829,22 @@ def main() -> int:
                 'aisearchio 15-link census catalog ≠ endorsement',
                 'user-provided 1936 / notes.md §130',
                 "hourly 1843 / notes.md §129",
+                "Open-Jev densify HEAD 4933ee84951f",
+                "Astra TREC commit 1dd56990be7e",
+                "not merged base models",
+                "customer-service P50 local HTTP 85.03 ms vs Jev HTTPS 295.26 ms *theirs*",
+                "1024 tokens/32 candidates Open-Jev slower 1015.90 vs 301.37 *theirs*",
+                "prefix caching experimental/off by default",
+                "systems latency ≠ semantic equivalence",
+                "GPT Luna P50 918.13 ms Astra 1938.39 ms *theirs*",
+                "TREC-DL Jev/Luna/Astra completed",
+                "Open-Jev TREC pending",
+                "hard acc ≠ calibrated Noul",
+                "densify §125 not a sibling first sighting",
+                "Open-Jev densify / notes.md §125",
+                "launch X thread https://x.com/Zefan_Cai/status/2101782158658695388",
+                "2101786019607740436",
+                "2101789698947793231",
             ):
                 if frag not in proto_line:
                     failed.append(f"SKILL.md protocol missing {frag!r}")
@@ -828,6 +866,7 @@ def main() -> int:
         ("1746", UNIQ_1746),
         ("1843", UNIQ_1843),
         ("1936", UNIQ_1936),
+        ("openjev_densify", UNIQ_OPENJEV),
     ):
         if lock in changelog:
             failed.append(
@@ -905,6 +944,7 @@ def main() -> int:
         f"1746 chars={len(UNIQ_1746)} "
         f"1843 chars={len(UNIQ_1843)} "
         f"1936 chars={len(UNIQ_1936)} "
+        f"openjev_densify chars={len(UNIQ_OPENJEV)} "
         f"revisit chars={len(REVISIT_LOCK)} "
         f"overlays={len(OVERLAYS)} "
         f"revisit_overlays={len(REVISIT_OVERLAYS)}"

@@ -16,6 +16,36 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Open-Jev densify (`research/notes.md` §125). Does **not** bump the
+0.5.0 pin. Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#52.
+Do not amend released 0.5.0 (#42). Merged #52 owns §129.
+
+### Added
+
+- **Open-Jev densify (`notes.md` §125).** HEAD 4933ee84951f /
+  README SHA ce1a587219e4 / Astra TREC commit 1dd56990be7e.
+  LoRA + scalar head + calibration temperature. not merged base
+  models. customer-service P50 85.03 vs Jev 295.26 *theirs*.
+  1024/32 slower 1015.90 vs 301.37 *theirs*. systems latency ≠
+  semantic equivalence. Open-Jev TREC pending. hard acc ≠
+  calibrated Noul. type-valid ≠ exact. LoRA ≠ RLCD replica.
+  Evaluator: systems latency ≠ semantic equivalence / hard acc ≠
+  Noul / LoRA pack ≠ merged base / prefix cache off / TREC pending.
+  uniqueness_gate.py now checks 0843 + 0915 + jcr + 0922 + 0940 +
+  0947 + 1049 + 1143 + 1248 + 1340 + 1441 + 1542 + 1643 + 1746 +
+  1843 + Open-Jev densify. Densify original section. Do not mint
+  a sibling first sighting.
+  **HARD RULE:** do not reopen or amend PR #23–#52. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat 85 ms as
+  parity, 94.71% as a Noul, or a LoRA pack as a merged RLCD replica.
+  With Augustus: systems latency ≠ semantic equivalence; hard acc ≠
+  calibrated Noul; LoRA ≠ RLCD replica; not merged base models;
+  Open-Jev TREC pending. Same split for any Choice/Score/Noul-style
+  head, not only hosted Jev.
 User-provided 1936 HIGH (`research/notes.md` §130 / composition items
 497–504 / findings batch #112). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in
@@ -48,7 +78,6 @@ Do not amend released 0.5.0 (#42). Merged #52 owns §129. Merged #51 owns §128.
   Augustus: TypeSafe-compatible ≠ TypeSafe replica; replica ≠ TypeSafe;
   catalog ≠ endorsement; *theirs* not Harbor. Same split for any
   Choice/Score/Noul-style head, not only hosted Jev.
-
 
 Hourly 1843 HIGH (`research/notes.md` §129 / composition items
 481–496 / findings batch #111). Does **not** bump the 0.5.0 pin.

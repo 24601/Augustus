@@ -276,6 +276,15 @@ def self_test() -> None:
     assert nano["release_tag"] == "unified-games-v1"
     nano_readme = by_id["github:TianyuCodings/NanoJev"].get("readme_sha")
     assert isinstance(nano_readme, str) and nano_readme.startswith("4190093c64ee")
+    openjev = by_id["github:Zefan-Cai/Open-Jev"]["fingerprints"]
+    assert openjev["default_sha"] == "4933ee84951f1a3b94b8be1f7490f02a4fa4ba24"
+    assert openjev["pushed_at"] == "2026-09-21T01:34:47Z"
+    openjev_readme = by_id["github:Zefan-Cai/Open-Jev"].get("readme_sha")
+    assert isinstance(openjev_readme, str) and openjev_readme.startswith("ce1a587219e4")
+    assert by_id["hf:ZefanCai/Open-Jev-2B"]["fingerprints"]["default_sha"].startswith("0c7aa498b162")
+    assert by_id["hf:ZefanCai/Open-Jev-9B"]["fingerprints"]["default_sha"].startswith("47e966881e48")
+    assert by_id["hf:ds:ZefanCai/Open-Jev"]["fingerprints"]["default_sha"].startswith("c67699e13d0a")
+    assert by_id["hf:ds:ZefanCai/Open-Jev"]["notes_section"] == "125"
     semif_readme = by_id["github:TheoLeeCJ/SemIf"].get("readme_sha")
     assert isinstance(semif_readme, str) and semif_readme.startswith("74ab7f7f")
     densify_original_ids = {
@@ -289,6 +298,10 @@ def self_test() -> None:
         "github:tamaratran/jev-pruner": "53",
         "github:dtduc-git/jevassert": "70",
         "github:dtduc-git/jev-packs": "64",
+        "github:Zefan-Cai/Open-Jev": "125",
+        "hf:ZefanCai/Open-Jev-2B": "125",
+        "hf:ZefanCai/Open-Jev-9B": "125",
+        "hf:ds:ZefanCai/Open-Jev": "125",
     }
     for look_id, section in densify_original_ids.items():
         assert look_id in by_id, look_id
