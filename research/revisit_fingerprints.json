@@ -20,7 +20,7 @@
     "forks_count",
     "likes"
   ],
-  "note": "Last-look snapshots for already-catalogued sources. Hourly diffs these four fingerprints. Star-noise is not a fold. SHA move is not a replica. Seeded from merged notes (SemIf \u00a7117, NanoJev \u00a7115) plus hourly 1248 densify (openjev \u00a775, von \u00a749, verdict \u00a771, kev \u00a745, jeff \u00a760, TypeLLM \u00a7113) plus hourly 1340 densify (openjev sdk 0.7 + MLX 400, kev PLAN_Qwen35) plus hourly 1441 densify (openjev STE backends+Codiv dual serving) and 1441 first sightings plus hourly 1542 densify (TypeLLM README 3k\u219212k B, kev family new-source) and 1542 first sightings (pi-jev densify, jev-sentinel, tool-routers, leanest, jevals, MrJev, jev-firewall, jev-codex-approval, HF encoder/quanto). default_sha is the full HEAD. pushed_at is the GitHub push clock. description_hash is sha256[:12] of the GitHub/Space description, or null when notes do not quote it. README SHA is an optional extra, not a substitute for description_hash. plus hourly 1746 densify (TypeLLM truncated thinking + qwen35_small, kev 0.8B Qwen3.5 family) and 1746 first sightings (vexjoy, Canny, jev-engineering, five-lines, jev-table, kev-ane).",
+  "note": "Last-look snapshots for already-catalogued sources. Hourly diffs these four fingerprints. Star-noise is not a fold. SHA move is not a replica. Seeded from merged notes (SemIf \u00a7117, NanoJev \u00a7115) plus hourly 1248 densify (openjev \u00a775, von \u00a749, verdict \u00a771, kev \u00a745, jeff \u00a760, TypeLLM \u00a7113) plus hourly 1340 densify (openjev sdk 0.7 + MLX 400, kev PLAN_Qwen35) plus hourly 1441 densify (openjev STE backends+Codiv dual serving) and 1441 first sightings plus hourly 1542 densify (TypeLLM README 3k\u219212k B, kev family new-source) and 1542 first sightings (pi-jev densify, jev-sentinel, tool-routers, leanest, jevals, MrJev, jev-firewall, jev-codex-approval, HF encoder/quanto). default_sha is the full HEAD. pushed_at is the GitHub push clock. description_hash is sha256[:12] of the GitHub/Space description, or null when notes do not quote it. README SHA is an optional extra, not a substitute for description_hash. plus hourly 1746 densify (TypeLLM truncated thinking + qwen35_small, kev 0.8B Qwen3.5 family, jev-pruner §53, jevassert §70, jev-packs §64) and 1746 first sightings (vexjoy, Canny, jev-engineering, five-lines, jev-table, kev-ane).",
   "looks": [
     {
       "id": "github:TheoLeeCJ/SemIf",
@@ -1077,7 +1077,7 @@
     },
     {
       "id": "github:tamaratran/jev-pruner",
-      "notes_section": "128",
+      "notes_section": "53",
       "last_look": "2026-09-20T23:46Z",
       "fingerprints": {
         "default_sha": "47d017c34eab7690b95f075ce6f4839247c5dc0a",
@@ -1149,7 +1149,7 @@
     },
     {
       "id": "github:dtduc-git/jevassert",
-      "notes_section": "128",
+      "notes_section": "70",
       "last_look": "2026-09-20T23:46Z",
       "fingerprints": {
         "default_sha": "980f55d3012104da4c4a088ae15e818432d7408f",
@@ -1161,7 +1161,7 @@
     },
     {
       "id": "github:dtduc-git/jev-packs",
-      "notes_section": "128",
+      "notes_section": "64",
       "last_look": "2026-09-20T23:46Z",
       "fingerprints": {
         "default_sha": "8b650b1e572443fba629071038e27d886857d8b9",

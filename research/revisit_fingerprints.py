@@ -286,6 +286,9 @@ def self_test() -> None:
         "github:logan-markewich/jeff": "60",
         "github:TypeLLM/TypeLLM": "113",
         "github:TheoOliveira/pi-jev": "42",
+        "github:tamaratran/jev-pruner": "53",
+        "github:dtduc-git/jevassert": "70",
+        "github:dtduc-git/jev-packs": "64",
     }
     for look_id, section in densify_original_ids.items():
         assert look_id in by_id, look_id
