@@ -20,7 +20,7 @@
     "forks_count",
     "likes"
   ],
-  "note": "Last-look snapshots for already-catalogued sources. Hourly diffs these four fingerprints. Star-noise is not a fold. SHA move is not a replica. Seeded from merged notes (SemIf \u00a7117, NanoJev \u00a7115) plus hourly 1248 densify (openjev \u00a775, von \u00a749, verdict \u00a771, kev \u00a745, jeff \u00a760, TypeLLM \u00a7113) plus hourly 1340 densify (openjev sdk 0.7 + MLX 400, kev PLAN_Qwen35) plus hourly 1441 densify (openjev STE backends+Codiv dual serving) and 1441 first sightings plus hourly 1542 densify (TypeLLM README 3k\u219212k B, kev family new-source) and 1542 first sightings (pi-jev densify, jev-sentinel, tool-routers, leanest, jevals, MrJev, jev-firewall, jev-codex-approval, HF encoder/quanto). default_sha is the full HEAD. pushed_at is the GitHub push clock. description_hash is sha256[:12] of the GitHub/Space description, or null when notes do not quote it. README SHA is an optional extra, not a substitute for description_hash. plus hourly 1746 densify (TypeLLM truncated thinking + qwen35_small, kev 0.8B Qwen3.5 family, jev-pruner \u00a753, jevassert \u00a770, jev-packs \u00a764) and 1746 first sightings (vexjoy, Canny, jev-engineering, five-lines, jev-table, kev-ane) plus hourly 1843 densify (kev own-data JSONL / --init_from warm-start, SHA 8465c4c4c294 \u2192 bd058057ad0a) and 1843 first sightings (assay-001, kyegomez reconstruction, jev-ra, catalogs). plus user-provided 1936 first sightings (sgoedecke/system-one, mithalouni/system-one-open, kotoba-lang/typed-decisions). plus Open-Jev densify 2026-09-21 (github:Zefan-Cai/Open-Jev SHA 6d8de5ed72a0 → 4933ee84951f; README 771bf3135f50 → ce1a587219e4; HF 2B/9B packs + dataset last_look; densify §125 not a sibling).",
+"note": "Last-look snapshots for already-catalogued sources. Hourly diffs these four fingerprints. Star-noise is not a fold. SHA move is not a replica. Seeded from merged notes (SemIf §117, NanoJev §115) plus hourly 1248 densify (openjev §75, von §49, verdict §71, kev §45, jeff §60, TypeLLM §113) plus hourly 1340 densify (openjev sdk 0.7 + MLX 400, kev PLAN_Qwen35) plus hourly 1441 densify (openjev STE backends+Codiv dual serving) and 1441 first sightings plus hourly 1542 densify (TypeLLM README 3k→12k B, kev family new-source) and 1542 first sightings (pi-jev densify, jev-sentinel, tool-routers, leanest, jevals, MrJev, jev-firewall, jev-codex-approval, HF encoder/quanto). default_sha is the full HEAD. pushed_at is the GitHub push clock. description_hash is sha256[:12] of the GitHub/Space description, or null when notes do not quote it. README SHA is an optional extra, not a substitute for description_hash. plus hourly 1746 densify (TypeLLM truncated thinking + qwen35_small, kev 0.8B Qwen3.5 family, jev-pruner §53, jevassert §70, jev-packs §64) and 1746 first sightings (vexjoy, Canny, jev-engineering, five-lines, jev-table, kev-ane) plus hourly 1843 densify (kev own-data JSONL / --init_from warm-start, SHA 8465c4c4c294 → bd058057ad0a) and 1843 first sightings (assay-001, kyegomez reconstruction, jev-ra, catalogs). plus user-provided 1936 first sightings (sgoedecke/system-one, mithalouni/system-one-open, kotoba-lang/typed-decisions). plus Open-Jev densify 2026-09-21 (github:Zefan-Cai/Open-Jev SHA 6d8de5ed72a0 → 4933ee84951f; README 771bf3135f50 → ce1a587219e4; HF 2B/9B packs + dataset last_look; densify §125 not a sibling) plus hourly 1946 densify (alexwestco/llm-to-jev description rewrite Convert LLM prompts to Jev prompts, SHA unchanged 234058ab372d, 3★) and 1946 first sightings (X-sentiment, awesome-jev 485, jev-arena, robot-control, Qwen3.8-JevLike, jev-acento).",
   "looks": [
     {
       "id": "github:TheoLeeCJ/SemIf",
@@ -1590,6 +1590,162 @@
         "release_tag": null
       },
       "readme_sha": "4d6bbf4c4e446270dea99bb8b9d70bf2df628f09"
+    },
+    {
+      "id": "github:alexwestco/llm-to-jev",
+      "notes_section": "118",
+      "last_look": "2026-09-21T01:46Z",
+      "fingerprints": {
+        "default_sha": "234058ab372d7754833c6279601755f8fda55d98",
+        "pushed_at": "2026-09-20T12:06:01Z",
+        "description_hash": "9f521cf7cc20",
+        "release_tag": null
+      },
+      "readme_sha": "43cd94fba7527d78635b148628485c0cd1b1ad66"
+    },
+    {
+      "id": "github:brainstormity/Jev-X-Sentiment-Analysis",
+      "notes_section": "131",
+      "last_look": "2026-09-21T01:46Z",
+      "fingerprints": {
+        "default_sha": "5c932f941a92348781e8e5b471a9ddb6af980253",
+        "pushed_at": "2026-09-19T22:51:11Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "bf4134b44cda73599f005e9408391353a2ed9437"
+    },
+    {
+      "id": "github:heyjunpenn/awesome-jev",
+      "notes_section": "131",
+      "last_look": "2026-09-21T01:46Z",
+      "fingerprints": {
+        "default_sha": "8ecdef6a6fcb3acc0c498fe8a87855e5bcd21c0f",
+        "pushed_at": "2026-09-20T10:08:27Z",
+        "description_hash": "eed807328057",
+        "release_tag": null
+      },
+      "readme_sha": "0b24293bc84ff0cc828b67c7d5049b74d0d085ed"
+    },
+    {
+      "id": "github:NanmiCoder/jev-arena",
+      "notes_section": "131",
+      "last_look": "2026-09-21T01:46Z",
+      "fingerprints": {
+        "default_sha": "2ca160cc4aa9ac72a4341e2ac5903258e8c69c84",
+        "pushed_at": "2026-09-20T15:00:39Z",
+        "description_hash": "e2732659dccb",
+        "release_tag": null
+      },
+      "readme_sha": "4eb7f2dec20a2ecdf0d74a6254f311ee8bff19a7"
+    },
+    {
+      "id": "github:openroboto-ai/jev-robot-control",
+      "notes_section": "131",
+      "last_look": "2026-09-21T01:46Z",
+      "fingerprints": {
+        "default_sha": "7a4ed8b72c3c17d7aa790678ed9660df67c10dd3",
+        "pushed_at": "2026-09-19T13:39:07Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "0e749c38197e78c46dacbb1f61910ef2b244a823"
+    },
+    {
+      "id": "github:endman100/research-Qwen3.8-JevLike",
+      "notes_section": "131",
+      "last_look": "2026-09-21T01:46Z",
+      "fingerprints": {
+        "default_sha": "b406b17c3936e23ba588943cf05a15b8b27e0943",
+        "pushed_at": "2026-09-21T01:31:38Z",
+        "description_hash": "90a2bc4aa36a",
+        "release_tag": null
+      },
+      "readme_sha": "7c908289d0e8a5ba36dbef64034ecf281dd2d89a"
+    },
+    {
+      "id": "github:marcosmartinez/jev-acento",
+      "notes_section": "131",
+      "last_look": "2026-09-21T01:46Z",
+      "fingerprints": {
+        "default_sha": "7e007b4c2bd552471b56eff035f9a3df7593f9fe",
+        "pushed_at": "2026-09-21T01:12:19Z",
+        "description_hash": "1f8cc7248824",
+        "release_tag": null
+      },
+      "readme_sha": "994943244b6ba1fdaf3420b2dcf5a9066f158509"
+    },
+    {
+      "id": "github:okinaaudio/live-jev",
+      "notes_section": "131",
+      "last_look": "2026-09-21T01:46Z",
+      "fingerprints": {
+        "default_sha": "2446eb777ad9f59f77b96ee5b081ee8c2812e0a3",
+        "pushed_at": "2026-09-21T01:46:35Z",
+        "description_hash": "73f6f5c579e5",
+        "release_tag": null
+      },
+      "readme_sha": "52e7d45c799f9b4d20053d2c7e28b8caac0e1b07"
+    },
+    {
+      "id": "github:win4r/jev-skill-suggester",
+      "notes_section": "131",
+      "last_look": "2026-09-21T01:46Z",
+      "fingerprints": {
+        "default_sha": "05fbd7ce9ec74a2f193c09276a8d4d077d9d5e5c",
+        "pushed_at": "2026-09-19T15:31:40Z",
+        "description_hash": "a146a470c049",
+        "release_tag": null
+      },
+      "readme_sha": "2a03bec83f3c9915d7c8691523a7a489c65fee7e"
+    },
+    {
+      "id": "github:PyModel/typesafe-mcp",
+      "notes_section": "131",
+      "last_look": "2026-09-21T01:46Z",
+      "fingerprints": {
+        "default_sha": "cf01808bf27485a017cc6eebead6384556dab552",
+        "pushed_at": "2026-09-21T01:48:45Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "c7c36760aa1cfb1c4db3bafdc867b4bafd1dd241"
+    },
+    {
+      "id": "github:Xubqpanda/JevLoop",
+      "notes_section": "131",
+      "last_look": "2026-09-21T01:46Z",
+      "fingerprints": {
+        "default_sha": "50236bf2221bdc9b3f556ad4f6e067daf558c12b",
+        "pushed_at": "2026-09-21T01:46:46Z",
+        "description_hash": "ab62fbd74fcf",
+        "release_tag": null
+      },
+      "readme_sha": "0e3f67c72801630bee7149c7e8157ea1370c37fa"
+    },
+    {
+      "id": "github:elberacasa/omawish",
+      "notes_section": "131",
+      "last_look": "2026-09-21T01:46Z",
+      "fingerprints": {
+        "default_sha": "82c43e5425df4acf75459a9350115d0a849c5f0b",
+        "pushed_at": "2026-09-21T01:48:04Z",
+        "description_hash": "e53948cca959",
+        "release_tag": null
+      },
+      "readme_sha": "bb2be38501638237b1b16ea70f1302b48b78861d"
+    },
+    {
+      "id": "github:Rizzo-AI-Academy/rizzo-flow",
+      "notes_section": "131",
+      "last_look": "2026-09-21T01:46Z",
+      "fingerprints": {
+        "default_sha": "d97ef676a40e2ad47541835f8676b4be60331911",
+        "pushed_at": "2026-09-21T01:55:02Z",
+        "description_hash": "d006ffab3676",
+        "release_tag": null
+      },
+      "readme_sha": "529432bebd5f6692f1ccffe6bbb0176dbc446aa9"
     }
   ]
 }

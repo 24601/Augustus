@@ -574,6 +574,46 @@ def latency_is_not_task_quality(quality_claimed=False):
     return quality_claimed is False
 
 
+def platform_does_not_execute(executes=False):
+    """Dashboard Choice is not a fill."""
+    return executes is False
+
+
+def ai_reviewed_is_not_gold(ai_reviewed=True, gold=False):
+    """AI-reviewed labels ≠ gold."""
+    return ai_reviewed is True and gold is False
+
+
+def one_trial_is_not_harbor(n_trials, harbor=False):
+    """one seed-0 trial ≠ Harbor."""
+    if n_trials != 1:
+        raise ValueError("unexpected n")
+    return harbor is False
+
+
+def systems_speedup_is_not_ece(kind, ece_claimed=False):
+    """10.59× systems comparison ≠ ECE."""
+    if kind != "systems_timing":
+        raise ValueError("unexpected kind")
+    return ece_claimed is False
+
+
+def agreement_is_not_accuracy(agree, labeled=False):
+    """agreement ≠ accuracy when there are no labels."""
+    return agree is True and labeled is False
+
+
+def desc_rewrite_is_not_sha_change(desc_changed, sha_changed=False):
+    """desc rewrite ≠ SHA/behavior change."""
+    return desc_changed is True and sha_changed is False
+
+
+def rule_table_is_not_model(source, model_claimed=False):
+    """rule-table ≠ model."""
+    if source != "rule_table":
+        raise ValueError("unexpected source")
+    return model_claimed is False
+
 def hop_ece_permutation_invariant(rows, bins=10, key="p"):
     """Shuffle order; equal-width ECE must not move.
 
@@ -819,6 +859,27 @@ def self_test():
     assert not qwen38_27b_is_not_archer("Qwen/Qwen3.8-27B", True)
     assert latency_is_not_task_quality(False)
     assert not latency_is_not_task_quality(True)
+
+    # 1946: does not execute / AI-reviewed ≠ gold / one-trial ≠ Harbor /
+    # 10.59× ≠ ECE / agreement ≠ accuracy / desc rewrite ≠ SHA.
+    assert platform_does_not_execute(False)
+    assert not platform_does_not_execute(True)
+    assert ai_reviewed_is_not_gold(True, False)
+    assert not ai_reviewed_is_not_gold(True, True)
+    assert one_trial_is_not_harbor(1, False)
+    assert not one_trial_is_not_harbor(1, True)
+    assert systems_speedup_is_not_ece("systems_timing", False)
+    assert not systems_speedup_is_not_ece("systems_timing", True)
+    assert agreement_is_not_accuracy(True, False)
+    assert not agreement_is_not_accuracy(True, True)
+    assert desc_rewrite_is_not_sha_change(True, False)
+    assert not desc_rewrite_is_not_sha_change(True, True)
+    assert rule_table_is_not_model("rule_table", False)
+    assert not rule_table_is_not_model("rule_table", True)
+    assert theirs_bench_is_not_harbor(10000, "jev-arena-10k")
+    assert theirs_bench_is_not_harbor(1, "robot-seed-0")
+    assert theirs_bench_is_not_harbor(10, "qwen38-jevlike-10.59x")
+    assert theirs_bench_is_not_harbor(3200, "jev-acento-paired")
 
     print("self-test ok")
 
