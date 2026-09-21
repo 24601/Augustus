@@ -16,6 +16,48 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 0923 HIGH (`research/notes.md` §144 / composition items
+713–728 / findings batch #126). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#67.
+Do not amend released 0.5.0 (#42). Merged #67 owns §143. Merged #66
+owns §142. Merged #65 owns §141.
+
+### Added
+
+- **Hourly 0923 HIGH (`notes.md` §144).** intellyweave GLiNER OSINT.
+  Locate ≠ decide. openvons finite choices + none. 4B frozen+head
+  0.916 vs 27B zs 0.875 *theirs*. 8 questions 22.6 ms *theirs*.
+  softmax ≠ calibrated Noul. AgentBeam local security layer. soft
+  scores ≠ hard gates. unofficial not affiliated. wire-compat ≠
+  logit-equiv. chips virtual. game success ≠ calibrated Noul.
+  densify §121 not a sibling first sighting. densify §139 not a
+  sibling first sighting. densify §141 not a sibling first sighting.
+  Runs every rule against every line in parallel. No skimming.
+  Median 275 ms. trolley 0.99 vs 0.78. 11/11/7 match/differ/undecided
+  of 29 *theirs*. retired name reservation is not a replica.
+  skip-thin gnapse/jev-cli HTTP 404. hf:Skylarcc/Laya-Online HTTP 401
+  *theirs*. hf:piratehack009/laya-cn-flash-triage HTTP 404 *theirs*.
+  Evaluator: intellyweave GLiNER Locate ≠ decide / openvons softmax ≠
+  Noul / pokerbench not Harbor / beam policy not sole veto / densify
+  §121 not sibling / retired name is not a replica.
+  uniqueness_gate.py now checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 +
+  1049 + 1143 + 1248 + 1340 + 1441 + 1542 + 1643 + 1746 + 1843 + 1936 +
+  Open-Jev densify + 1946 + 2049 + 2146 + 2246 + 2347 + 0049 + 0151 +
+  0248 + 0348 + 0445 + 0551 + 0707 + 0823 + 0923.
+  Composition items 713–728 / batch #126.
+  **HARD RULE:** do not reopen or amend PR #23–#67. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat GLiNER OSINT
+  as decide, openvons 0.916 as Harbor, or poker chips as calibrated Noul.
+  With Augustus: Locate ≠ decide; softmax ≠ calibrated Noul; *theirs*
+  not Harbor; densify §121 not a sibling first sighting; retired name
+  reservation is not a replica; soft scores ≠ hard gates.
+
+
+
 Hourly 0823 HIGH (`research/notes.md` §143 / composition items
 697–712 / findings batch #125). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in

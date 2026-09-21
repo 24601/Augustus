@@ -964,6 +964,49 @@ def densify_137_not_sibling(kind, sibling=False):
         raise ValueError("unexpected kind")
     return sibling is False
 
+
+
+def intellyweave_gliner_locate_is_not_decide(kind, decide=False):
+    """GLiNER OSINT. Locate ≠ decide."""
+    if kind != "intellyweave_gliner":
+        raise ValueError("unexpected kind")
+    return decide is False
+
+
+def openvons_softmax_is_not_noul(kind, noul=False):
+    """finite choices + none. softmax ≠ calibrated Noul."""
+    if kind != "openvons_finite_choice":
+        raise ValueError("unexpected kind")
+    return noul is False
+
+
+def pokerbench_is_not_harbor(kind, harbor=False):
+    """chips virtual. game success ≠ calibrated Noul. *theirs* not Harbor."""
+    if kind != "jev_poker_bench":
+        raise ValueError("unexpected kind")
+    return harbor is False
+
+
+def beam_soft_scores_not_hard_gates(kind, hard_gate=False):
+    """AgentBeam local security layer. soft scores ≠ hard gates."""
+    if kind != "beam_cli_policy":
+        raise ValueError("unexpected kind")
+    return hard_gate is False
+
+
+def densify_121_not_sibling(kind, sibling=False):
+    """densify §121 not a sibling first sighting."""
+    if kind != "patdown_densify_121":
+        raise ValueError("unexpected kind")
+    return sibling is False
+
+
+def retired_name_is_not_replica(kind, replica=False):
+    """retired name reservation is not a replica."""
+    if kind != "layacore_retired_name":
+        raise ValueError("unexpected kind")
+    return replica is False
+
 def gliner_locate_is_not_decide(kind, decide=False):
     """Locate ≠ decide. Zero Hallucinations marketing."""
     if kind != "gliner_locate":
@@ -1579,6 +1622,24 @@ def self_test():
     assert theirs_bench_is_not_harbor(6580, "dohnuts-jevbench-65.80")
     assert theirs_bench_is_not_harbor(910, "jev-benchmarks-ag-news-0.910")
     assert theirs_bench_is_not_harbor(909, "mini-jev-json-0.909")
+
+    # 0923: intellyweave GLiNER Locate ≠ decide / openvons softmax ≠ Noul /
+    # pokerbench not Harbor / beam policy not sole veto / densify §121 not
+    # sibling / retired name is not a replica.
+    assert intellyweave_gliner_locate_is_not_decide("intellyweave_gliner", False)
+    assert not intellyweave_gliner_locate_is_not_decide("intellyweave_gliner", True)
+    assert openvons_softmax_is_not_noul("openvons_finite_choice", False)
+    assert not openvons_softmax_is_not_noul("openvons_finite_choice", True)
+    assert pokerbench_is_not_harbor("jev_poker_bench", False)
+    assert not pokerbench_is_not_harbor("jev_poker_bench", True)
+    assert beam_soft_scores_not_hard_gates("beam_cli_policy", False)
+    assert not beam_soft_scores_not_hard_gates("beam_cli_policy", True)
+    assert densify_121_not_sibling("patdown_densify_121", False)
+    assert not densify_121_not_sibling("patdown_densify_121", True)
+    assert retired_name_is_not_replica("layacore_retired_name", False)
+    assert not retired_name_is_not_replica("layacore_retired_name", True)
+    assert theirs_bench_is_not_harbor(916, "openvons-4b-frozen-head-0.916")
+    assert theirs_bench_is_not_harbor(275, "philosopher-median-275ms")
 
     print("self-test ok")
 
