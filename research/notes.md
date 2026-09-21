@@ -28712,6 +28712,12 @@ No wrappers, `pip` / `snapshot_download` /
 the hot **exemplar**, not the mandate. Not TypeSafe
 Jev. Open replica / specialist gameplay S1.
 
+**Densify hourly 0445 (`notes.md` §140), not a sibling first sighting.**
+HEAD `76fdfc9ecdca` (was `618cea6d`). README SHA `a8f8afeb7e44` (was
+`4190093c64ee`). Quote *theirs*: New project: JevHarness. Add JevHarness
+project link to READMEs. densify §115 not a sibling first sighting.
+SHA move is not a replica.
+
 Lane is Augustus: **mental models / architecture /
 class port**. Soft scores ≠ hard gates. Game success ≠
 calibrated Noul. local type boolean ≠ TypeSafe noul.
@@ -35313,3 +35319,236 @@ Hooks for the reviewer:
 
 **Hourly 0348 HIGH (`notes.md` §139).** open-cricket BYOM Qwen2.5-1.5B. wire-compat ≠ logit-equiv. Qwen2.5 ≠ Archer. replica ≠ TypeSafe. Greedy 0.90 vs Oracle 0.82 *theirs*. Random conf 0.00 still 20.5% *theirs*. confidence ≠ P(correct). seed 42 n=1 is not Harbor. 8,400 calls $0.39 *theirs*. Noul 0.7 true 44% *theirs*. JevBench 81.65 *theirs* not Harbor. WindTunnel 49/49 *theirs* not Harbor. 0-byte Mandelbrot is not a replica. training not complete. Compose meaning like state. Code enumerates the candidates. Jev is the first classifier the design is bound to none. context is the conversation so far. A clean report is not proof. does not sandbox. ChatJEVs ≠ erik-dunteman/ChatJev. generation from Choice is not a language model replica. serving substrate ≠ calibrated replica. does not execute. cutoff 0.8 still soft. demo scores are not accuracy measurements. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#62. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
 Hourly 0348 uniqueness lock: JonathanHHenson/open-cricket MIT HEAD d75af22125ed README SHA 7d288a741089; Local structured decisions using causal language models; default Qwen/Qwen2.5-1.5B-Instruct; independent of TypeSafe; API follows Jev's general call shapes but model predictions and confidence calibration differ; wire-compat ≠ logit-equiv; Qwen2.5 ≠ Archer; replica ≠ TypeSafe; virtualman333/jev-decision-arena MIT HEAD cf6ae4ed31e8 README SHA 037f75d9610d; Greedy 0.90 vs Oracle 0.82 *theirs*; Random conf 0.00 still 20.5% *theirs*; ECE 0.180 / 0.106 / 0.205 *theirs*; confidence ≠ P(correct); game success ≠ calibrated Noul; seed 42 n=1 is not Harbor; dopeCape/typesafe-ai-test HEAD ed2adb7740d7 README SHA 183f91c36471; 8,400 calls $0.39 *theirs*; Noul 0.7 true 44% *theirs*; ≥0.9 conf 91.7% AG News *theirs*; versioned model ids rejected; *theirs* not Harbor; pCwOrM/werr 2★ MIT HEAD 2526cae98891 README SHA b29476734a09; JevBench 81.65 *theirs* not Harbor; WindTunnel 49/49 *theirs* not Harbor; 0-byte Mandelbrot is not a replica; meijustory123/OpenJev-Kit HEAD c53125982f80 README SHA a4e72c61a973; training not complete; no accuracy; Qwen3.5-0.8B ≠ Archer; meijustory123/OpenJev-Kit IS meijustory123/openjev (same GitHub id 1379187719); meijustory123/OpenJev-Kit ≠ Zefan-Cai/Open-Jev; microchipgnu/jev-hooks HEAD cbf40e64d7b2 README SHA af25fb0aaf70; Compose meaning like state; rashedInt32/jury.nvim 1★ MIT HEAD bf31e9509e7e README SHA a2b088dd0787; Code enumerates the candidates; evoke-build/evoke 1★ Apache-2.0 HEAD 310840b56f1d README SHA 02b91962cef4; Jev is the first classifier the design is bound to none; moritzkremb/jev-voice-browser densify HEAD 198a0764395a README SHA 816309fc22e6 was fa033303; context is the conversation so far; densify §82 not a sibling first sighting; luantak/is-malicious densify 18★ MIT HEAD faf6ba61d7e1 README SHA 4ae098b4b7ae; A clean report is not proof; does not sandbox; skillseedorg/ChatJEVs MIT HEAD 346e7347cf90 README SHA 6ff81d54040f; ChatJEVs ≠ erik-dunteman/ChatJev; generation from Choice is not a language model replica; chrisns/laya-mac-serve MIT HEAD f294500821b6 README SHA 00e39a7d04e2; serving substrate ≠ calibrated replica; rimusz/localjev-mlx HEAD 297836a0d95e README SHA 2d96d20e0b80; rimusz/localjev-mlx ≠ githubnext/localjev; luhayes/jev-agent-router 1★ MIT HEAD bba795a4dc4e README SHA 17a2f44993d1; does not execute; cutoff 0.8 still soft; gbesse/decision-workbench MIT HEAD 8889cf3750a3 README SHA 14a3bf79da7a; demo scores are not accuracy measurements; zhuyansen/x-reply-filter already carded; kylemclaren/jev-search ≠ kazuhideoki/jev-search; xinwang-nwpu/jev-mobile ≠ Friedjof/jev-mobile; kcd-dev/jev-skill ≠ raphael-liu/jev-skill; yanmad27/ask-jev ≠ kuhung/ask-jev; hf:s1lv3rj1nx/openjev-router-healthcare encoder class member not Jev replica; hf:akhilaaa3/openjev-v1-40705-nimble-r512-merged ≠ hf:akhilaaa3/openjev-v1-allmix-r512-merged; jevai spaces catalog ≠ endorsement; skip-thin Fibonaccirabbit/Jev-GalGame MadhavBahl/jev-guide advance-lion/dsh-jev-hooks amithgc/local-jev hiro1202/jev-review-gate-poc inlight37-design/decision-model_lab kuhung/ask-jev mmiguez314/jev-lab pomodorozhong/exp-jev vanthiet1/JevGuarAgent empty SHA; catalog ≠ endorsement; game success ≠ calibrated Noul; does not execute; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62; notes.md §139
+Hourly 0445 uniqueness lock: lucasmartins-ai/lcc 7★ MIT HEAD a7e86fb60997 README SHA 877831764be9; keeps essentially every block 0.0%/−0.5% *theirs*; mechanical −70.0% Jev −52.1% *theirs*; mock Laya = Jev −22.6% on XL withdrawn; Token reduction alone is not cost reduction; N=18 pilot not Harbor; David-Lolly/Jev-Compatible 3★ HEAD e52e963d8539 README SHA 6e5ff22d40a6; Chat 1282.3 ms vs gateway 232.1 ms ~1/5.5 *theirs*; 3/3 n=3; Softmax over candidate logprobs; Qwen3.8-27B ≠ Archer; wire-compat ≠ logit-equiv; hwfengcs/any2jev 2★ Apache-2.0 HEAD 719b0eb9eefe README SHA 27e0af212cd5; independent not affiliated; acc 0.796 ECE 0.027 *theirs*; 42 ms vs JSON 778 ms *theirs*; Snake acc 0.953 ECE 0.034 *theirs*; Qwen3-0.6B ≠ Archer; /v1/systemone wire-compat ≠ logit-equiv; TianyuCodings/NanoJev densify HEAD 76fdfc9ecdca README SHA a8f8afeb7e44 was 618cea6d / 4190093c64ee; Add JevHarness project link to READMEs; densify §115 not a sibling first sighting; SHA move is not a replica; jjd-lab/jev-synthetic-survey MIT HEAD 9ca8c4ab94bb README SHA ec1664288d50; How you ask mattered more; Noul TVD 0.1530 vs GPT 0.1789 *theirs*; ECE 0.1472 *theirs* not Harbor; missed 0.05 bar; 67.28% vs 64.78% *theirs*; $4.02 vs ~$136 *theirs*; independent work; CankatSarac/jev-arcade MIT HEAD b2e45ed3c1c6 README SHA 1f06af0f4c74; snake 70/80 *theirs*; tetris 167 vs heuristic 2333 *theirs*; 74% conf <0.5 *theirs*; Calibration is not yet measured; three seeds not Harbor; game success ≠ calibrated Noul; sszxt/rlcd HEAD 66ca01664d6b README SHA 3da08d46758d; ECE 0.490→0.423 Brier 0.487→0.409 *theirs*; Yang 2023 contrastive ≠ TypeSafe RLCD; Qwen2.5 ≠ Archer; still overconfident; hf:AXERA-TECH/Laya sha 51a586cd14e2 apache; AX650 NPU 69.991/27.722/69.990 ms *theirs*; seq 256 up to 4 options; serving substrate ≠ calibrated replica; base convaiinnovations/laya; hf:openjev/openjev-MLX-4bit sha c59bf1eed7d8 cc-by-nc-4.0; ~15 GB 4-bit affine; independent not affiliated; hf:openjev/openjev-MLX-4bit ≠ razorback16/openjev; hf:GeekyAbs/laya sha b65d05b4d9eb; GeekyAbs/laya ≠ convaiinnovations/laya; hf:alfred361/laya-web sha 33f171161da5; 100% argmax *theirs*; multilingual-int8 93.8% / worst shift 16.9 pts *theirs*; 50bbx/laya-needle Apache HEAD 01961bade52f README SHA ecaff4dfd271; threshold 0.58 still soft; local Laya ≠ hosted Jev; yunhai-dev/laya2typesafeapi HEAD 4aeb89be286b README SHA d2e5d114fcd8; TypeSafe-compatible ≠ TypeSafe replica; iamdgarcia/openJev MIT HEAD 62bbc30eece2 README SHA 55614ad8caab; independent educational; not local inference; iamdgarcia/openJev ≠ alongL/openJev ≠ Zefan-Cai/Open-Jev; chrisns/homebrew-laya-mac-serve MIT HEAD 1b3c4c0bdb70 README SHA 5e58082b7e9b; tap for chrisns/laya-mac-serve §139; serving substrate ≠ calibrated replica; nk412/judgements MIT HEAD 6624e53c86cc README SHA 86fe465f7887; pydantic wrapper; threshold 0.5 still soft; JingHao-Leon/awesome-jev-apps MIT HEAD d3ef0254c4b2 README SHA fd38a3c4ff2e; catalog ≠ endorsement; JingHao-Leon/awesome-jev-apps ≠ heyjunpenn/awesome-jev; Manta-Boardgame/jev-chat HEAD 44721bae8c2e README SHA 03272e4b9a9f; unofficial; 98% confidence *theirs*; ximing/jev-snake-game HEAD 1e80283f458e README SHA 0a54b74eb095; 用 TypeSafe Jev 驱动的自动贪吃蛇; hf:dataset:syvai/danish-dynaword-laya gated HTTP 401; size_categories 10K<n<100K; devbackend/jevgo ≠ kisshan13/typesafe-ai-go ≠ peach-zhang/typesafe-go; qiudingkai-crypto/jevai and Strernd/beer-jev share README SHA e215bc4ccf13 template collision; skip-thin Adrian-lzr/jev-spire-brain Dililianxice/jev-robotic-arm-benchmark baltzparra/jev-study lzero07/jev-laya-statement qq150078158-lab/TDM-demo empty SHA; Awesomejev 691→802 (+111) / 38194→52151 stars quote watch not re-derive; tracker likes 81 lastModified UNCHANGED; Softmax over options ≠ calibrated Noul; catalog ≠ endorsement; game success ≠ calibrated Noul; does not execute; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62/#63; notes.md §140
+
+## 140. Hourly 0445 HIGH (2026-09-21 ~04:45 Boise / 2026-09-21T10:45Z)
+
+Measurement / class-member fold on a **fresh PR off latest `main`**
+(`cursor/fold-hourly-0445-high-c644`) after `777546f` (merged #63 hourly
+0348 HIGH, `notes.md` §139 / items 633–648 / batch #121; merged #62 hourly
+0248 HIGH, `notes.md` §138).
+**HARD RULE:** do not reopen or amend PR #23–#63.
+Do **not** re-fold §139 0348 / §138 0248 / §115 NanoJev *as a second census*.
+Do not amend #63/#62/#61. Do not treat lcc keep-all as Harbor. Do not
+treat 232.1 ms as logit-equiv. Do not treat ECE 0.027 as TypeSafe.
+This fold's IDs: `notes.md` §140 / composition 649–664 / findings batch #122.
+
+Never reopen merged #7–**#63**. Quote READMEs / release notes.
+Mark *theirs*. No wrappers, keys, `npm` / `pip` / `uv` / `docker`
+install recipes. `invented_signal: false`. Hunches labeled.
+
+Lane is Augustus: **mathematical / logical / algorithmic mental models**
+for Jev-class categorization/scoring across AI / SWE / **business /
+knowledge work / life**, not SWE-only. PRIMARY this hour is
+**lucasmartins-ai/lcc** (real Laya keeps essentially every block;
+mock Laya = Jev −22.6% on XL withdrawn; Token reduction alone is not
+cost reduction; N=18 pilot not Harbor), plus
+**David-Lolly/Jev-Compatible** (Chat 1282.3 ms vs gateway 232.1 ms
+~1/5.5 *theirs*; Softmax over candidate logprobs; wire-compat ≠
+logit-equiv), **hwfengcs/any2jev** (acc 0.796 ECE 0.027 *theirs*;
+independent not affiliated; Qwen3-0.6B ≠ Archer), and densify
+**TianyuCodings/NanoJev** on §115 (Add JevHarness project link to
+READMEs; densify §115 not a sibling first sighting). Survey
+**jjd-lab/jev-synthetic-survey** (How you ask mattered more) and
+**CankatSarac/jev-arcade** (Calibration is not yet measured).
+Jev is exemplar, not the mandate. Third-party benches stay *theirs*.
+Catalogs are indexes. Soft scores ≠ hard gates. SHA move is not a replica.
+Archer still **promised_not_landed**.
+
+Unique consecutive fragments (this fold) must appear as **one
+substring** in overlays (see uniqueness gate):
+Hourly 0445 uniqueness lock: lucasmartins-ai/lcc 7★ MIT HEAD a7e86fb60997 README SHA 877831764be9; keeps essentially every block 0.0%/−0.5% *theirs*; mechanical −70.0% Jev −52.1% *theirs*; mock Laya = Jev −22.6% on XL withdrawn; Token reduction alone is not cost reduction; N=18 pilot not Harbor; David-Lolly/Jev-Compatible 3★ HEAD e52e963d8539 README SHA 6e5ff22d40a6; Chat 1282.3 ms vs gateway 232.1 ms ~1/5.5 *theirs*; 3/3 n=3; Softmax over candidate logprobs; Qwen3.8-27B ≠ Archer; wire-compat ≠ logit-equiv; hwfengcs/any2jev 2★ Apache-2.0 HEAD 719b0eb9eefe README SHA 27e0af212cd5; independent not affiliated; acc 0.796 ECE 0.027 *theirs*; 42 ms vs JSON 778 ms *theirs*; Snake acc 0.953 ECE 0.034 *theirs*; Qwen3-0.6B ≠ Archer; /v1/systemone wire-compat ≠ logit-equiv; TianyuCodings/NanoJev densify HEAD 76fdfc9ecdca README SHA a8f8afeb7e44 was 618cea6d / 4190093c64ee; Add JevHarness project link to READMEs; densify §115 not a sibling first sighting; SHA move is not a replica; jjd-lab/jev-synthetic-survey MIT HEAD 9ca8c4ab94bb README SHA ec1664288d50; How you ask mattered more; Noul TVD 0.1530 vs GPT 0.1789 *theirs*; ECE 0.1472 *theirs* not Harbor; missed 0.05 bar; 67.28% vs 64.78% *theirs*; $4.02 vs ~$136 *theirs*; independent work; CankatSarac/jev-arcade MIT HEAD b2e45ed3c1c6 README SHA 1f06af0f4c74; snake 70/80 *theirs*; tetris 167 vs heuristic 2333 *theirs*; 74% conf <0.5 *theirs*; Calibration is not yet measured; three seeds not Harbor; game success ≠ calibrated Noul; sszxt/rlcd HEAD 66ca01664d6b README SHA 3da08d46758d; ECE 0.490→0.423 Brier 0.487→0.409 *theirs*; Yang 2023 contrastive ≠ TypeSafe RLCD; Qwen2.5 ≠ Archer; still overconfident; hf:AXERA-TECH/Laya sha 51a586cd14e2 apache; AX650 NPU 69.991/27.722/69.990 ms *theirs*; seq 256 up to 4 options; serving substrate ≠ calibrated replica; base convaiinnovations/laya; hf:openjev/openjev-MLX-4bit sha c59bf1eed7d8 cc-by-nc-4.0; ~15 GB 4-bit affine; independent not affiliated; hf:openjev/openjev-MLX-4bit ≠ razorback16/openjev; hf:GeekyAbs/laya sha b65d05b4d9eb; GeekyAbs/laya ≠ convaiinnovations/laya; hf:alfred361/laya-web sha 33f171161da5; 100% argmax *theirs*; multilingual-int8 93.8% / worst shift 16.9 pts *theirs*; 50bbx/laya-needle Apache HEAD 01961bade52f README SHA ecaff4dfd271; threshold 0.58 still soft; local Laya ≠ hosted Jev; yunhai-dev/laya2typesafeapi HEAD 4aeb89be286b README SHA d2e5d114fcd8; TypeSafe-compatible ≠ TypeSafe replica; iamdgarcia/openJev MIT HEAD 62bbc30eece2 README SHA 55614ad8caab; independent educational; not local inference; iamdgarcia/openJev ≠ alongL/openJev ≠ Zefan-Cai/Open-Jev; chrisns/homebrew-laya-mac-serve MIT HEAD 1b3c4c0bdb70 README SHA 5e58082b7e9b; tap for chrisns/laya-mac-serve §139; serving substrate ≠ calibrated replica; nk412/judgements MIT HEAD 6624e53c86cc README SHA 86fe465f7887; pydantic wrapper; threshold 0.5 still soft; JingHao-Leon/awesome-jev-apps MIT HEAD d3ef0254c4b2 README SHA fd38a3c4ff2e; catalog ≠ endorsement; JingHao-Leon/awesome-jev-apps ≠ heyjunpenn/awesome-jev; Manta-Boardgame/jev-chat HEAD 44721bae8c2e README SHA 03272e4b9a9f; unofficial; 98% confidence *theirs*; ximing/jev-snake-game HEAD 1e80283f458e README SHA 0a54b74eb095; 用 TypeSafe Jev 驱动的自动贪吃蛇; hf:dataset:syvai/danish-dynaword-laya gated HTTP 401; size_categories 10K<n<100K; devbackend/jevgo ≠ kisshan13/typesafe-ai-go ≠ peach-zhang/typesafe-go; qiudingkai-crypto/jevai and Strernd/beer-jev share README SHA e215bc4ccf13 template collision; skip-thin Adrian-lzr/jev-spire-brain Dililianxice/jev-robotic-arm-benchmark baltzparra/jev-study lzero07/jev-laya-statement qq150078158-lab/TDM-demo empty SHA; Awesomejev 691→802 (+111) / 38194→52151 stars quote watch not re-derive; tracker likes 81 lastModified UNCHANGED; Softmax over options ≠ calibrated Noul; catalog ≠ endorsement; game success ≠ calibrated Noul; does not execute; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62/#63; notes.md §140
+
+### How-to-apply (class lenses, not vendor tutorials)
+
+These are *class* lenses. Same discipline as §139 (wire-compat ≠
+logit-equiv; serving substrate ≠ calibrated replica) and §115
+(Game success ≠ calibrated Noul). Formal methods **compose**: a Noul
+is a SENSOR; a keep-all Laya pass is not cost reduction; a softmax
+gateway is not logit-equiv; ECE 0.027 is *theirs* not Harbor; a
+README JevHarness link is densify not a sibling first sighting.
+
+1. **lcc keep-all / Token reduction alone is not cost reduction**
+   (lucasmartins-ai/lcc 7★ MIT HEAD a7e86fb60997 README SHA
+   877831764be9). Quote *theirs*: keeps essentially every block
+   0.0%/−0.5%. mechanical −70.0% Jev −52.1%. mock Laya = Jev −22.6%
+   on XL withdrawn. N=18 pilot not Harbor. Do **not** copy `uv pip
+   install`.
+2. **Chat 1282.3 ms vs gateway 232.1 ms ~1/5.5 *theirs* / Softmax over candidate logprobs**
+   (David-Lolly/Jev-Compatible 3★ HEAD e52e963d8539 README SHA
+   6e5ff22d40a6). Quote *theirs*: 3/3 n=3. Qwen3.8-27B ≠ Archer.
+   wire-compat ≠ logit-equiv.
+3. **acc 0.796 ECE 0.027 *theirs* / independent not affiliated**
+   (hwfengcs/any2jev 2★ Apache-2.0 HEAD 719b0eb9eefe README SHA
+   27e0af212cd5). Quote *theirs*: 42 ms vs JSON 778 ms. Snake acc
+   0.953 ECE 0.034. Qwen3-0.6B ≠ Archer. /v1/systemone wire-compat ≠
+   logit-equiv.
+4. **How you ask mattered more / Calibration is not yet measured**
+   (jjd-lab/jev-synthetic-survey HEAD 9ca8c4ab94bb; CankatSarac/jev-arcade
+   HEAD b2e45ed3c1c6). Quote *theirs*: Noul TVD 0.1530 vs GPT 0.1789.
+   ECE 0.1472 missed 0.05 bar. snake 70/80. tetris 167 vs heuristic
+   2333. 74% conf <0.5. three seeds not Harbor. game success ≠
+   calibrated Noul.
+5. **densify §115 JevHarness / Yang 2023 contrastive ≠ TypeSafe RLCD**
+   (TianyuCodings/NanoJev densify HEAD 76fdfc9ecdca README SHA
+   a8f8afeb7e44 was 618cea6d / 4190093c64ee; sszxt/rlcd HEAD
+   66ca01664d6b). Quote *theirs*: Add JevHarness project link to
+   READMEs. densify §115 not a sibling first sighting. ECE
+   0.490→0.423 Brier 0.487→0.409. still overconfident. Qwen2.5 ≠
+   Archer.
+
+### HIGH (this hour)
+
+1. **[`lucasmartins-ai/lcc`](https://github.com/lucasmartins-ai/lcc)
+   PRIMARY novel.** 7★ MIT HEAD `a7e86fb60997` README SHA `877831764be9`.
+   Quote *theirs*: keeps essentially every block 0.0%/−0.5%. mechanical
+   −70.0% Jev −52.1%. mock Laya = Jev −22.6% on XL withdrawn. Token
+   reduction alone is not cost reduction. N=18 pilot not Harbor.
+2. **[`David-Lolly/Jev-Compatible`](https://github.com/David-Lolly/Jev-Compatible)
+   PRIMARY novel.** 3★ HEAD `e52e963d8539` README SHA `6e5ff22d40a6`.
+   Quote *theirs*: Chat 1282.3 ms vs gateway 232.1 ms ~1/5.5. 3/3 n=3.
+   Softmax over candidate logprobs. Qwen3.8-27B ≠ Archer. wire-compat ≠
+   logit-equiv.
+3. **[`hwfengcs/any2jev`](https://github.com/hwfengcs/any2jev)
+   PRIMARY novel.** 2★ Apache-2.0 HEAD `719b0eb9eefe` README SHA
+   `27e0af212cd5`. Quote *theirs*: independent not affiliated. acc 0.796
+   ECE 0.027. 42 ms vs JSON 778 ms. Snake acc 0.953 ECE 0.034. Qwen3-0.6B
+   ≠ Archer. /v1/systemone wire-compat ≠ logit-equiv.
+4. **[`jjd-lab/jev-synthetic-survey`](https://github.com/jjd-lab/jev-synthetic-survey)
+   PRIMARY novel.** MIT HEAD `9ca8c4ab94bb` README SHA `ec1664288d50`.
+   Quote *theirs*: How you ask mattered more. Noul TVD 0.1530 vs GPT
+   0.1789. ECE 0.1472 *theirs* not Harbor. missed 0.05 bar. 67.28% vs
+   64.78%. $4.02 vs ~$136. independent work.
+5. **[`CankatSarac/jev-arcade`](https://github.com/CankatSarac/jev-arcade)
+   PRIMARY novel.** MIT HEAD `b2e45ed3c1c6` README SHA `1f06af0f4c74`.
+   Quote *theirs*: snake 70/80. tetris 167 vs heuristic 2333. 74% conf
+   <0.5. Calibration is not yet measured. three seeds not Harbor. game
+   success ≠ calibrated Noul.
+6. **Densify NanoJev §115 / first cards: rlcd / AXERA Laya / openjev-MLX-4bit /
+   GeekyAbs/laya / alfred361/laya-web / laya-needle / laya2typesafeapi /
+   openJev / homebrew tap / judgements / awesome-jev-apps / jev-chat /
+   jev-snake-game.**
+   [`TianyuCodings/NanoJev`](https://github.com/TianyuCodings/NanoJev)
+   densify HEAD `76fdfc9ecdca` README SHA `a8f8afeb7e44` was `618cea6d` /
+   `4190093c64ee`. Add JevHarness project link to READMEs. densify §115
+   not a sibling first sighting.
+   [`sszxt/rlcd`](https://github.com/sszxt/rlcd) HEAD `66ca01664d6b`
+   README SHA `3da08d46758d`. ECE 0.490→0.423 Brier 0.487→0.409 *theirs*.
+   Yang 2023 contrastive ≠ TypeSafe RLCD. still overconfident.
+   hf:AXERA-TECH/Laya sha `51a586cd14e2`. AX650 NPU 69.991/27.722/69.990 ms
+   *theirs*. serving substrate ≠ calibrated replica.
+   hf:openjev/openjev-MLX-4bit sha `c59bf1eed7d8`. ~15 GB 4-bit affine.
+   hf:openjev/openjev-MLX-4bit ≠ razorback16/openjev.
+   hf:GeekyAbs/laya sha `b65d05b4d9eb`. GeekyAbs/laya ≠ convaiinnovations/laya.
+   hf:alfred361/laya-web sha `33f171161da5`. 100% argmax *theirs*.
+   multilingual-int8 93.8% / worst shift 16.9 pts *theirs*.
+   [`50bbx/laya-needle`](https://github.com/50bbx/laya-needle) Apache HEAD
+   `01961bade52f` README SHA `ecaff4dfd271`. threshold 0.58 still soft.
+   local Laya ≠ hosted Jev.
+   [`yunhai-dev/laya2typesafeapi`](https://github.com/yunhai-dev/laya2typesafeapi)
+   HEAD `4aeb89be286b`. TypeSafe-compatible ≠ TypeSafe replica.
+   [`iamdgarcia/openJev`](https://github.com/iamdgarcia/openJev) MIT HEAD
+   `62bbc30eece2`. independent educational. not local inference.
+   iamdgarcia/openJev ≠ alongL/openJev ≠ Zefan-Cai/Open-Jev.
+   [`chrisns/homebrew-laya-mac-serve`](https://github.com/chrisns/homebrew-laya-mac-serve)
+   MIT HEAD `1b3c4c0bdb70`. tap for chrisns/laya-mac-serve §139.
+   [`nk412/judgements`](https://github.com/nk412/judgements) MIT HEAD
+   `6624e53c86cc`. pydantic wrapper. threshold 0.5 still soft.
+   [`JingHao-Leon/awesome-jev-apps`](https://github.com/JingHao-Leon/awesome-jev-apps)
+   MIT HEAD `d3ef0254c4b2`. catalog ≠ endorsement.
+   JingHao-Leon/awesome-jev-apps ≠ heyjunpenn/awesome-jev.
+   [`Manta-Boardgame/jev-chat`](https://github.com/Manta-Boardgame/jev-chat)
+   HEAD `44721bae8c2e`. unofficial. 98% confidence *theirs*.
+   [`ximing/jev-snake-game`](https://github.com/ximing/jev-snake-game)
+   HEAD `1e80283f458e`. 用 TypeSafe Jev 驱动的自动贪吃蛇.
+7. **Namesakes / skip-thin / census / remainder.**
+   devbackend/jevgo ≠ kisshan13/typesafe-ai-go ≠ peach-zhang/typesafe-go.
+   qiudingkai-crypto/jevai and Strernd/beer-jev share README SHA
+   e215bc4ccf13 template collision.
+   hf:dataset:syvai/danish-dynaword-laya gated HTTP 401.
+   size_categories 10K<n<100K.
+   skip-thin: Adrian-lzr/jev-spire-brain Dililianxice/jev-robotic-arm-benchmark
+   baltzparra/jev-study lzero07/jev-laya-statement qq150078158-lab/TDM-demo
+   empty SHA.
+   Awesomejev 691→802 (+111) / 38194→52151 stars quote watch not re-derive.
+   tracker likes 81 lastModified UNCHANGED.
+   Remainder 0-star adapters, games, and catalogs stay indexes.
+   catalog ≠ endorsement. game success ≠ calibrated Noul. does not execute.
+   routing ≠ permission. Softmax over options ≠ calibrated Noul.
+   *theirs* not Harbor.
+
+### Pulse (live REST this hour)
+
+Archer still promised_not_landed. Hub archerhume/4rcherhume HTTP **401**.
+NanoJev **1685★**. lcc **7★**. Jev-Compatible **3★**. any2jev **2★**.
+Awesomejev 691→802 (+111) / 38194→52151 stars quote watch not re-derive.
+tracker likes 81 lastModified UNCHANGED. `invented_signal: false`.
+
+### Formal compose + anti-patterns
+
+Formal methods **compose** with scoring. A Noul is a SENSOR. A catalog
+is an index. A keep-all Laya pass is not cost reduction. A softmax
+gateway is not logit-equiv. ECE 0.027 is *theirs*. A JevHarness README
+link is densify, not a sibling. Treating lcc keep-all as Harbor, 232.1 ms
+as logit-equiv, ECE 0.027 as TypeSafe, or arcade 70/80 as calibrated Noul
+is soundness theater.
+Token reduction alone is not cost reduction.
+wire-compat ≠ logit-equiv.
+Softmax over options ≠ calibrated Noul.
+How you ask mattered more.
+Calibration is not yet measured.
+densify §115 not a sibling first sighting.
+serving substrate ≠ calibrated replica.
+catalog ≠ endorsement. *theirs* not Harbor.
+SHA move is not a replica.
+
+### Adversarial review + testing hooks (Basit standing
+order)
+
+Parent merge only after **CLEAN** adversarial review **AND** testing.
+Hooks for the reviewer:
+
+- Uniqueness-gate: the consecutive `Hourly 0445 uniqueness lock:`
+  string must appear in every overlay listed below. Prior walls 0843 /
+  0915 / jcr / 0922 / 0940 / 0947 / 1049 / 1143 / 1248 / 1340 / 1441 /
+  1542 / 1643 / 1746 / 1843 / 1936 / Open-Jev densify / 1946 / 2049 /
+  2146 / 2246 / 2347 / 0049 / 0151 / 0248 / 0348 stay one substring each (do not
+  mutate them; do not reopen #23–#63).
+- Namesake locks: GeekyAbs/laya ≠ convaiinnovations/laya;
+  hf:openjev/openjev-MLX-4bit ≠ razorback16/openjev;
+  iamdgarcia/openJev ≠ alongL/openJev ≠ Zefan-Cai/Open-Jev;
+  JingHao-Leon/awesome-jev-apps ≠ heyjunpenn/awesome-jev;
+  devbackend/jevgo ≠ kisshan13/typesafe-ai-go ≠ peach-zhang/typesafe-go;
+  local Laya ≠ hosted Jev; TypeSafe-compatible ≠ TypeSafe replica.
+- Densify vs new: TianyuCodings/NanoJev densify §115.
+  chrisns/homebrew-laya-mac-serve is a tap for §139 laya-mac-serve.
+  Do not mint sibling first-sighting sections for NanoJev.
+- Harbor-jevals: 0.0%/−0.5% keep-all / 232.1 ms / acc 0.796 ECE 0.027 /
+  TVD 0.1530 / snake 70/80 / ECE 0.490→0.423 stay *theirs*, not Harbor.
+  N=18 pilot not Harbor. three seeds not Harbor.
+- Anti-patterns to refuse: TypeSafe drop-in; catalog as endorsement;
+  lcc keep-all as cost reduction; softmax gateway as logit-equiv;
+  ECE 0.027 as Harbor; arcade 70/80 as calibrated Noul; NanoJev SHA
+  move as a replica; key-farming how-tos; copying keys /
+  `npm` / `pip` / `uv` / `docker`.
+- Overlay set: SKILL.md body (protocol fragments + class-table densify
+  + Hourly 0445), mental-models Apply 0445, composition-algebra items
+  649–664, faq, mixed-architecture, validation, toolbox-mapping,
+  methods-catalog, formal-methods, formal-semi-formal,
+  applied-mappings, judgment-class, question-design,
+  agent-self-assessment, mappings, CHANGELOG, README, docs/ecosystem,
+  findings batch #122, refresh-log, changelog-hourly.md,
+  revisit_fingerprints.json (NanoJev densify §115 plus first cards lcc /
+  Jev-Compatible / any2jev / survey / arcade).
+- Offline check: `evaluate_decisions.py --self-test` (now includes
+  lcc keep-all is not cost reduction / softmax gateway is not logit-equiv /
+  acc 0.796 ECE 0.027 *theirs* / How you ask mattered more /
+  Calibration is not yet measured) and
+  `uniqueness_gate.py` (0843 + 0915 + jcr / 0922 / 0940 / 0947 /
+  1049 / 1143 / 1248 / 1340 / 1441 / 1542 / 1643 / 1746 / 1843 / 1936 /
+  Open-Jev densify / 1946 / 2049 / 2146 / 2246 / 2347 / 0049 / 0151 /
+  0248 / 0348 / 0445).
+  No live Jev key. No wrappers.
+
+**Hourly 0445 HIGH (`notes.md` §140).** lcc real Laya keep-all vs withdrawn mock. keeps essentially every block 0.0%/−0.5% *theirs*. Token reduction alone is not cost reduction. any2jev acc 0.796 ECE 0.027 *theirs*. Chat 1282.3 ms vs gateway 232.1 ms ~1/5.5 *theirs*. Softmax over candidate logprobs. How you ask mattered more. Calibration is not yet measured. NanoJev densify JevHarness §115. Awesomejev 691→802. serving substrate ≠ calibrated replica. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#63. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+Hourly 0445 uniqueness lock: lucasmartins-ai/lcc 7★ MIT HEAD a7e86fb60997 README SHA 877831764be9; keeps essentially every block 0.0%/−0.5% *theirs*; mechanical −70.0% Jev −52.1% *theirs*; mock Laya = Jev −22.6% on XL withdrawn; Token reduction alone is not cost reduction; N=18 pilot not Harbor; David-Lolly/Jev-Compatible 3★ HEAD e52e963d8539 README SHA 6e5ff22d40a6; Chat 1282.3 ms vs gateway 232.1 ms ~1/5.5 *theirs*; 3/3 n=3; Softmax over candidate logprobs; Qwen3.8-27B ≠ Archer; wire-compat ≠ logit-equiv; hwfengcs/any2jev 2★ Apache-2.0 HEAD 719b0eb9eefe README SHA 27e0af212cd5; independent not affiliated; acc 0.796 ECE 0.027 *theirs*; 42 ms vs JSON 778 ms *theirs*; Snake acc 0.953 ECE 0.034 *theirs*; Qwen3-0.6B ≠ Archer; /v1/systemone wire-compat ≠ logit-equiv; TianyuCodings/NanoJev densify HEAD 76fdfc9ecdca README SHA a8f8afeb7e44 was 618cea6d / 4190093c64ee; Add JevHarness project link to READMEs; densify §115 not a sibling first sighting; SHA move is not a replica; jjd-lab/jev-synthetic-survey MIT HEAD 9ca8c4ab94bb README SHA ec1664288d50; How you ask mattered more; Noul TVD 0.1530 vs GPT 0.1789 *theirs*; ECE 0.1472 *theirs* not Harbor; missed 0.05 bar; 67.28% vs 64.78% *theirs*; $4.02 vs ~$136 *theirs*; independent work; CankatSarac/jev-arcade MIT HEAD b2e45ed3c1c6 README SHA 1f06af0f4c74; snake 70/80 *theirs*; tetris 167 vs heuristic 2333 *theirs*; 74% conf <0.5 *theirs*; Calibration is not yet measured; three seeds not Harbor; game success ≠ calibrated Noul; sszxt/rlcd HEAD 66ca01664d6b README SHA 3da08d46758d; ECE 0.490→0.423 Brier 0.487→0.409 *theirs*; Yang 2023 contrastive ≠ TypeSafe RLCD; Qwen2.5 ≠ Archer; still overconfident; hf:AXERA-TECH/Laya sha 51a586cd14e2 apache; AX650 NPU 69.991/27.722/69.990 ms *theirs*; seq 256 up to 4 options; serving substrate ≠ calibrated replica; base convaiinnovations/laya; hf:openjev/openjev-MLX-4bit sha c59bf1eed7d8 cc-by-nc-4.0; ~15 GB 4-bit affine; independent not affiliated; hf:openjev/openjev-MLX-4bit ≠ razorback16/openjev; hf:GeekyAbs/laya sha b65d05b4d9eb; GeekyAbs/laya ≠ convaiinnovations/laya; hf:alfred361/laya-web sha 33f171161da5; 100% argmax *theirs*; multilingual-int8 93.8% / worst shift 16.9 pts *theirs*; 50bbx/laya-needle Apache HEAD 01961bade52f README SHA ecaff4dfd271; threshold 0.58 still soft; local Laya ≠ hosted Jev; yunhai-dev/laya2typesafeapi HEAD 4aeb89be286b README SHA d2e5d114fcd8; TypeSafe-compatible ≠ TypeSafe replica; iamdgarcia/openJev MIT HEAD 62bbc30eece2 README SHA 55614ad8caab; independent educational; not local inference; iamdgarcia/openJev ≠ alongL/openJev ≠ Zefan-Cai/Open-Jev; chrisns/homebrew-laya-mac-serve MIT HEAD 1b3c4c0bdb70 README SHA 5e58082b7e9b; tap for chrisns/laya-mac-serve §139; serving substrate ≠ calibrated replica; nk412/judgements MIT HEAD 6624e53c86cc README SHA 86fe465f7887; pydantic wrapper; threshold 0.5 still soft; JingHao-Leon/awesome-jev-apps MIT HEAD d3ef0254c4b2 README SHA fd38a3c4ff2e; catalog ≠ endorsement; JingHao-Leon/awesome-jev-apps ≠ heyjunpenn/awesome-jev; Manta-Boardgame/jev-chat HEAD 44721bae8c2e README SHA 03272e4b9a9f; unofficial; 98% confidence *theirs*; ximing/jev-snake-game HEAD 1e80283f458e README SHA 0a54b74eb095; 用 TypeSafe Jev 驱动的自动贪吃蛇; hf:dataset:syvai/danish-dynaword-laya gated HTTP 401; size_categories 10K<n<100K; devbackend/jevgo ≠ kisshan13/typesafe-ai-go ≠ peach-zhang/typesafe-go; qiudingkai-crypto/jevai and Strernd/beer-jev share README SHA e215bc4ccf13 template collision; skip-thin Adrian-lzr/jev-spire-brain Dililianxice/jev-robotic-arm-benchmark baltzparra/jev-study lzero07/jev-laya-statement qq150078158-lab/TDM-demo empty SHA; Awesomejev 691→802 (+111) / 38194→52151 stars quote watch not re-derive; tracker likes 81 lastModified UNCHANGED; Softmax over options ≠ calibrated Noul; catalog ≠ endorsement; game success ≠ calibrated Noul; does not execute; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62/#63; notes.md §140

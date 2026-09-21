@@ -270,12 +270,12 @@ def self_test() -> None:
     assert semif["description_hash"] is None
     assert semif["release_tag"] is None
     nano = by_id["github:TianyuCodings/NanoJev"]["fingerprints"]
-    assert nano["default_sha"] == "618cea6d906d54e128360786d12f703fff2b1245"
-    assert nano["pushed_at"] is None
-    assert nano["description_hash"] is None
+    assert nano["default_sha"] == "76fdfc9ecdca45a9bcef17991a07d3041a87685a"
+    assert nano["pushed_at"] == "2026-09-21T09:58:28Z"
+    assert nano["description_hash"] == "92ce9454eeeb"
     assert nano["release_tag"] == "unified-games-v1"
     nano_readme = by_id["github:TianyuCodings/NanoJev"].get("readme_sha")
-    assert isinstance(nano_readme, str) and nano_readme.startswith("4190093c64ee")
+    assert isinstance(nano_readme, str) and nano_readme.startswith("a8f8afeb7e44")
     openjev = by_id["github:Zefan-Cai/Open-Jev"]["fingerprints"]
     assert openjev["default_sha"] == "ed45657bf726c3b77408942830e5578f99df904e"
     assert openjev["pushed_at"] == "2026-09-21T07:40:27Z"
@@ -341,6 +341,7 @@ def self_test() -> None:
         "github:mjyoke1111/jev-lab": "106",
         "github:moritzkremb/jev-voice-browser": "82",
         "github:luantak/is-malicious": "17",
+        "github:TianyuCodings/NanoJev": "115",
     }
     for look_id, section in densify_original_ids.items():
         assert look_id in by_id, look_id
@@ -351,6 +352,14 @@ def self_test() -> None:
         )
     rules = densify_card_rules()
     assert any("sibling first-sighting" in r for r in rules)
+
+    lcc = by_id["github:lucasmartins-ai/lcc"]["fingerprints"]
+    assert lcc["default_sha"].startswith("a7e86fb60997")
+    assert by_id["github:lucasmartins-ai/lcc"]["notes_section"] == "140"
+    jevc = by_id["github:David-Lolly/Jev-Compatible"]["fingerprints"]
+    assert jevc["default_sha"].startswith("e52e963d8539")
+    any2 = by_id["github:hwfengcs/any2jev"]["fingerprints"]
+    assert any2["default_sha"].startswith("719b0eb9eefe")
     assert any("revisit HIGH like novel HIGH" in r for r in rules)
     print("revisit-fingerprints self-test ok")
 

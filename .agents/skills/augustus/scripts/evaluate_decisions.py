@@ -861,6 +861,42 @@ def openjev_kit_training_is_not_complete(kind, complete=False):
     return complete is False
 
 
+
+
+def lcc_keep_all_is_not_cost_reduction(kind, cost_reduction=False):
+    """Token reduction alone is not cost reduction. N=18 pilot not Harbor."""
+    if kind != "lcc_keep_all":
+        raise ValueError("unexpected kind")
+    return cost_reduction is False
+
+
+def softmax_gateway_is_not_logit_equiv(chat_ms, gateway_ms, logit_equiv=False):
+    """Chat 1282.3 ms vs gateway 232.1 ms ~1/5.5 *theirs*. wire-compat ≠ logit-equiv."""
+    if abs(chat_ms - 1282.3) > 1e-9 or abs(gateway_ms - 232.1) > 1e-9:
+        raise ValueError("unexpected latency")
+    return logit_equiv is False
+
+
+def any2jev_ece_is_not_harbor(acc, ece, harbor=False):
+    """acc 0.796 ECE 0.027 *theirs*."""
+    if abs(acc - 0.796) > 1e-9 or abs(ece - 0.027) > 1e-9:
+        raise ValueError("unexpected scores")
+    return harbor is False
+
+
+def how_you_ask_mattered_more(kind, model_first=False):
+    """How you ask mattered more."""
+    if kind != "synthetic_survey_ask":
+        raise ValueError("unexpected kind")
+    return model_first is False
+
+
+def arcade_calibration_not_yet_measured(kind, measured=False):
+    """Calibration is not yet measured. three seeds not Harbor."""
+    if kind != "jev_arcade":
+        raise ValueError("unexpected kind")
+    return measured is False
+
 def clean_report_is_not_sandbox(kind, sandbox=False):
     """A clean report is not proof. does not sandbox."""
     if kind != "is_malicious_scan":
@@ -1333,6 +1369,24 @@ def self_test():
     assert theirs_bench_is_not_harbor(8165, "werr-jevbench-81.65")
     assert theirs_bench_is_not_harbor(39, "typesafe-ai-test-0.39")
     assert theirs_bench_is_not_harbor(4949, "werr-windtunnel-49-49")
+
+    # 0445: lcc keep-all is not cost reduction / softmax gateway is not
+    # logit-equiv / acc 0.796 ECE 0.027 *theirs* / How you ask mattered
+    # more / Calibration is not yet measured.
+    assert lcc_keep_all_is_not_cost_reduction("lcc_keep_all", False)
+    assert not lcc_keep_all_is_not_cost_reduction("lcc_keep_all", True)
+    assert softmax_gateway_is_not_logit_equiv(1282.3, 232.1, False)
+    assert not softmax_gateway_is_not_logit_equiv(1282.3, 232.1, True)
+    assert any2jev_ece_is_not_harbor(0.796, 0.027, False)
+    assert not any2jev_ece_is_not_harbor(0.796, 0.027, True)
+    assert how_you_ask_mattered_more("synthetic_survey_ask", False)
+    assert not how_you_ask_mattered_more("synthetic_survey_ask", True)
+    assert arcade_calibration_not_yet_measured("jev_arcade", False)
+    assert not arcade_calibration_not_yet_measured("jev_arcade", True)
+    assert theirs_bench_is_not_harbor(796, "any2jev-acc-0.796")
+    assert theirs_bench_is_not_harbor(2321, "jev-compatible-232.1ms")
+    assert theirs_bench_is_not_harbor(7080, "jev-arcade-snake-70-80")
+
 
 
 

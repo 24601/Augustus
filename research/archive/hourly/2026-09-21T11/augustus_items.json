@@ -1,0 +1,812 @@
+[
+  {
+    "id": "lucasmartins-ai/lcc",
+    "source": "github",
+    "stars": 7,
+    "why": "Local Context Compiler (lcc): clean, dedupe and compact prompt context before it reaches the model, then report every block dropped, the cache tokens a pass invalidates and when pruning pays off. Runs offline with a local 1K decision model. MIT, no API key, zero telemetry.",
+    "html_url": "https://github.com/lucasmartins-ai/lcc",
+    "pushed_at": "2026-09-21T09:54:21Z",
+    "created_at": "2026-06-19T21:02:05Z",
+    "found_via": [
+      "search_decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "hwfengcs/any2jev",
+    "source": "github",
+    "stars": 2,
+    "why": "novel first-seen github peer",
+    "html_url": "https://github.com/hwfengcs/any2jev",
+    "pushed_at": "2026-09-21T10:47:14Z",
+    "created_at": "2026-09-21T09:09:35Z",
+    "found_via": [
+      "search_jev_created",
+      "search_jev_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "David-Lolly/Jev-Compatible",
+    "source": "github",
+    "stars": 1,
+    "why": "Turn your existing SGLang / vLLM deployment into a Jev-compatible decision service. No training. No model changes. 兼容 Jev / System One 的轻量决策网关，将有限候选任务转换为 next-token 打分，直接复用 SGLang / vLLM，无需训练或修改模型。",
+    "html_url": "https://github.com/David-Lolly/Jev-Compatible",
+    "pushed_at": "2026-09-21T10:09:59Z",
+    "created_at": "2026-09-21T10:05:18Z",
+    "found_via": [
+      "search_system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "devbackend/jevgo",
+    "source": "github",
+    "stars": 1,
+    "why": "Unofficial Go client for the TypeSafe AI System One API (Jev) — typed questions in, calibrated answers out.",
+    "html_url": "https://github.com/devbackend/jevgo",
+    "pushed_at": "2026-09-21T10:05:45Z",
+    "created_at": "2026-09-21T10:02:15Z",
+    "found_via": [
+      "search_system_one_spaced_pushed",
+      "topic_system-one"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "qingshungLI/everything-about-jev",
+    "source": "github",
+    "stars": 1,
+    "why": "tell you everything about jev,TypeSafe AI's System One model for typed decisions.",
+    "html_url": "https://github.com/qingshungLI/everything-about-jev",
+    "pushed_at": "2026-09-21T10:50:03Z",
+    "created_at": "2026-09-21T10:02:03Z",
+    "found_via": [
+      "search_system-one_created",
+      "search_system-one_pushed",
+      "search_system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "ryanzen9/XFlow",
+    "source": "github",
+    "stars": 1,
+    "why": "Jev for your X. XFlow is a Manifest V3 browser extension powered by Jev, with customizable filtering policies for a cleaner, more personalized X timeline.",
+    "html_url": "https://github.com/ryanzen9/XFlow",
+    "pushed_at": "2026-09-21T10:34:26Z",
+    "created_at": "2026-09-21T10:34:08Z",
+    "found_via": [
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "50bbx/laya-needle",
+    "source": "github",
+    "stars": 0,
+    "why": "Find webpage passages by meaning, with Laya running locally. A port of Needle from hosted Jev to a local model. No API key.",
+    "html_url": "https://github.com/50bbx/laya-needle",
+    "pushed_at": "2026-09-21T10:47:52Z",
+    "created_at": "2026-09-21T10:47:35Z",
+    "found_via": [
+      "search_Laya_created",
+      "search_Laya_pushed",
+      "search_jev_created",
+      "search_jev_pushed",
+      "search_system-one_created",
+      "search_system-one_pushed",
+      "topic_laya",
+      "topic_system-one"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "Adrian-lzr/jev-spire-brain",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen github peer",
+    "html_url": "https://github.com/Adrian-lzr/jev-spire-brain",
+    "pushed_at": "2026-09-21T10:41:52Z",
+    "created_at": "2026-09-21T10:40:08Z",
+    "found_via": [
+      "search_jev_created",
+      "search_jev_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "Akhila14/jev-traffic-simulator",
+    "source": "github",
+    "stars": 0,
+    "why": "Synthetic Sony World Junction-inspired experiment comparing Jev typed decisions with deterministic traffic controllers",
+    "html_url": "https://github.com/Akhila14/jev-traffic-simulator",
+    "pushed_at": "2026-09-21T10:47:53Z",
+    "created_at": "2026-09-21T10:47:09Z",
+    "found_via": [
+      "search_jev_created",
+      "search_jev_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "CankatSarac/jev-arcade",
+    "source": "github",
+    "stars": 0,
+    "why": "Can a System One model play arcade games? TypeSafe's Jev plays Tetris, Snake and 2048 — benchmarked against random and heuristic baselines.",
+    "html_url": "https://github.com/CankatSarac/jev-arcade",
+    "pushed_at": "2026-09-21T10:34:42Z",
+    "created_at": "2026-09-21T10:34:37Z",
+    "found_via": [
+      "search_system-one_created",
+      "search_system-one_pushed",
+      "search_system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "ChuckNomis/linkedin-post-filtering-jev",
+    "source": "github",
+    "stars": 0,
+    "why": "Chrome extension that filters LinkedIn feed job posts using Jev AI classification",
+    "html_url": "https://github.com/ChuckNomis/linkedin-post-filtering-jev",
+    "pushed_at": "2026-09-21T10:48:36Z",
+    "created_at": "2026-09-21T10:48:32Z",
+    "found_via": [
+      "search_jev_created",
+      "search_jev_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "DanielJD1216/magic-computer-use",
+    "source": "github",
+    "stars": 0,
+    "why": "Meet Jev, Fastest Computer Use",
+    "html_url": "https://github.com/DanielJD1216/magic-computer-use",
+    "pushed_at": "2026-09-21T10:39:14Z",
+    "created_at": "2026-09-18T21:39:23Z",
+    "found_via": [
+      "search_jev_created",
+      "search_jev_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "Dililianxice/jev-robotic-arm-benchmark",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen github peer",
+    "html_url": "https://github.com/Dililianxice/jev-robotic-arm-benchmark",
+    "pushed_at": "2026-09-21T10:43:27Z",
+    "created_at": "2026-09-21T10:43:26Z",
+    "found_via": [
+      "search_jev_created",
+      "search_jev_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "JingHao-Leon/awesome-jev-apps",
+    "source": "github",
+    "stars": 0,
+    "why": "Jev 优质应用与生态精选｜System One 决策模型：开源应用·SDK·平台集成·开源复刻·教程 | curated apps & SDKs for TypeSafe AI's Jev model",
+    "html_url": "https://github.com/JingHao-Leon/awesome-jev-apps",
+    "pushed_at": "2026-09-21T10:13:26Z",
+    "created_at": "2026-09-21T10:13:05Z",
+    "found_via": [
+      "search_system_one_spaced_pushed",
+      "topic_system-one"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "Keitark/jev-cats-and-dogs",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen github peer",
+    "html_url": "https://github.com/Keitark/jev-cats-and-dogs",
+    "pushed_at": "2026-09-21T10:45:34Z",
+    "created_at": "2026-09-21T09:57:50Z",
+    "found_via": [
+      "search_jev_created",
+      "search_jev_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "OriginalByteMe/system-one-chess-arena",
+    "source": "github",
+    "stars": 0,
+    "why": "A chess arena where Jev-powered agents compete, with live matches and decision-by-decision replays.",
+    "html_url": "https://github.com/OriginalByteMe/system-one-chess-arena",
+    "pushed_at": "2026-09-21T10:17:39Z",
+    "created_at": "2026-09-21T10:17:32Z",
+    "found_via": [
+      "search_system-one_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "Strernd/beer-jev",
+    "source": "github",
+    "stars": 0,
+    "why": "Should I have a(nother) beer? A tiny second opinion powered by Jev.",
+    "html_url": "https://github.com/Strernd/beer-jev",
+    "pushed_at": "2026-09-21T10:49:05Z",
+    "created_at": "2026-09-21T10:28:19Z",
+    "found_via": [
+      "search_jev_created",
+      "search_jev_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "Tsagaanbayr1/jev-tetris",
+    "source": "github",
+    "stars": 0,
+    "why": "Real-time Tetris versus Jev, a TypeSafe decision model — spins, garbage, B2B chains, and decisions prefetched a piece ahead",
+    "html_url": "https://github.com/Tsagaanbayr1/jev-tetris",
+    "pushed_at": "2026-09-21T10:46:48Z",
+    "created_at": "2026-09-18T17:52:25Z",
+    "found_via": [
+      "search_decision_model_llm",
+      "search_jev_created",
+      "search_jev_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "Zafer-Liu/jev-xiangqi",
+    "source": "github",
+    "stars": 0,
+    "why": "Play Chinese Chess (Xiangqi) against Jev - TypeSafe System One decision model as the AI. Score fan-out over legal moves.",
+    "html_url": "https://github.com/Zafer-Liu/jev-xiangqi",
+    "pushed_at": "2026-09-21T10:36:39Z",
+    "created_at": "2026-09-21T10:28:29Z",
+    "found_via": [
+      "search_decision_model_llm",
+      "search_system-one_created",
+      "search_system-one_pushed",
+      "search_system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "agrogov/jev-system-one-study",
+    "source": "github",
+    "stars": 0,
+    "why": "Jev System One Black-Box Study - Complete Reproducibility Bundle",
+    "html_url": "https://github.com/agrogov/jev-system-one-study",
+    "pushed_at": "2026-09-21T10:03:15Z",
+    "created_at": "2026-09-21T09:56:43Z",
+    "found_via": [
+      "search_system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "baltzparra/jev-study",
+    "source": "github",
+    "stars": 0,
+    "why": "Estudo sobre Jev, o System One Model da TypeSafe AI: o que é, casos reais, onde é relevante",
+    "html_url": "https://github.com/baltzparra/jev-study",
+    "pushed_at": "2026-09-21T10:02:08Z",
+    "created_at": "2026-09-21T09:58:05Z",
+    "found_via": [
+      "search_system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "chrisns/homebrew-laya-mac-serve",
+    "source": "github",
+    "stars": 0,
+    "why": "Homebrew tap for Laya Serve",
+    "html_url": "https://github.com/chrisns/homebrew-laya-mac-serve",
+    "pushed_at": "2026-09-21T10:47:56Z",
+    "created_at": "2026-09-21T10:06:58Z",
+    "found_via": [
+      "search_Laya_created",
+      "search_Laya_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "emtay-com/fastlaya",
+    "source": "github",
+    "stars": 0,
+    "why": "Laya wrapped in fastapi",
+    "html_url": "https://github.com/emtay-com/fastlaya",
+    "pushed_at": "2026-09-21T10:05:50Z",
+    "created_at": "2026-09-21T10:02:24Z",
+    "found_via": [
+      "search_Laya_created",
+      "search_Laya_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "fajarhide/askgrep",
+    "source": "github",
+    "stars": 0,
+    "why": "grep for the questions you cannot write as a pattern. Reads every function instead of sampling a few. Powered by Jev, TypeSafe AI's System One model.",
+    "html_url": "https://github.com/fajarhide/askgrep",
+    "pushed_at": "2026-09-21T10:44:34Z",
+    "created_at": "2026-09-21T03:54:57Z",
+    "found_via": [
+      "search_jev_created",
+      "search_jev_pushed",
+      "search_system-one_created",
+      "search_system-one_pushed",
+      "search_system_one_spaced_pushed",
+      "topic_jev",
+      "topic_system-one"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "hf:model:AXERA-TECH/Laya",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "HF model: transformers, laya, typed-decisions, text-classification, non-autoregressive, axera, ax650, en, multilingual, base_model:convaiinnovations/laya",
+    "html_url": "https://huggingface.co/AXERA-TECH/Laya",
+    "pushed_at": "2026-09-21T10:03:01.000Z",
+    "created_at": "2026-09-21T09:56:30.000Z",
+    "found_via": [
+      "models_laya"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "likes": 0,
+    "kind": "novel"
+  },
+  {
+    "id": "hf:model:GeekyAbs/laya",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "HF model: transformers, safetensors, laya, system-one, calibrated-decisions, rlcd, classification, routing, scoring, guardrails",
+    "html_url": "https://huggingface.co/GeekyAbs/laya",
+    "pushed_at": "2026-09-21T10:27:27.000Z",
+    "created_at": "2026-09-21T10:27:27.000Z",
+    "found_via": [
+      "models_laya"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "likes": 0,
+    "kind": "novel"
+  },
+  {
+    "id": "hf:model:alfred361/laya-web",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "HF model: onnx, region:us",
+    "html_url": "https://huggingface.co/alfred361/laya-web",
+    "pushed_at": "2026-09-21T09:59:39.000Z",
+    "created_at": "2026-09-21T09:59:11.000Z",
+    "found_via": [
+      "models_laya"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "likes": 0,
+    "kind": "novel"
+  },
+  {
+    "id": "hf:model:openjev/openjev-MLX-4bit",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "HF model: mlx, safetensors, qwen3_5, decision-model, zero-shot-classification, agents, apple-silicon, 4-bit, base_model:openjev/openjev, base_model:quantized:openjev/openjev",
+    "html_url": "https://huggingface.co/openjev/openjev-MLX-4bit",
+    "pushed_at": "2026-09-21T10:03:51.000Z",
+    "created_at": "2026-09-21T09:57:32.000Z",
+    "found_via": [
+      "models_openjev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "likes": 0,
+    "kind": "novel"
+  },
+  {
+    "id": "iamdgarcia/openJev",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen github peer",
+    "html_url": "https://github.com/iamdgarcia/openJev",
+    "pushed_at": "2026-09-21T10:40:51Z",
+    "created_at": "2026-09-21T10:39:11Z",
+    "found_via": [
+      "search_jev_created",
+      "search_jev_pushed",
+      "search_openjev_created",
+      "search_openjev_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "igrejaborabora/lus222-jev-challenge",
+    "source": "github",
+    "stars": 0,
+    "why": "SAAM · JEV Decision Demo — drone FPV, três pilotos, Vercel AI Gateway",
+    "html_url": "https://github.com/igrejaborabora/lus222-jev-challenge",
+    "pushed_at": "2026-09-21T10:39:43Z",
+    "created_at": "2026-09-21T10:39:21Z",
+    "found_via": [
+      "search_jev_created",
+      "search_jev_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "jjd-lab/jev-synthetic-survey",
+    "source": "github",
+    "stars": 0,
+    "why": "Jev vs GPT-4.1 as synthetic survey respondents on Twin-2K-500. How you ask mattered more than which model you used.",
+    "html_url": "https://github.com/jjd-lab/jev-synthetic-survey",
+    "pushed_at": "2026-09-21T10:27:53Z",
+    "created_at": "2026-09-20T21:04:52Z",
+    "found_via": [
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "kofujimura/jev-obniz-led",
+    "source": "github",
+    "stars": 0,
+    "why": "Jev × obniz LED: Physical AI Hello World — text → typed decisions (TypeSafe System One) → WS2812B LEDs",
+    "html_url": "https://github.com/kofujimura/jev-obniz-led",
+    "pushed_at": "2026-09-21T10:26:24Z",
+    "created_at": "2026-09-21T10:26:20Z",
+    "found_via": [
+      "search_system-one_created",
+      "search_system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "korallis/KorWF-Pi",
+    "source": "github",
+    "stars": 0,
+    "why": "Jev-assisted autonomous development workflow package for Pi",
+    "html_url": "https://github.com/korallis/KorWF-Pi",
+    "pushed_at": "2026-09-21T10:40:15Z",
+    "created_at": "2026-09-21T10:03:58Z",
+    "found_via": [
+      "search_jev_created",
+      "search_jev_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "lzero07/jev-laya-statement",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen github peer",
+    "html_url": "https://github.com/lzero07/jev-laya-statement",
+    "pushed_at": "2026-09-21T10:02:44Z",
+    "created_at": "2026-09-21T09:55:57Z",
+    "found_via": [
+      "search_Laya_created",
+      "search_Laya_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "martijnd/jev-checkers-demo",
+    "source": "github",
+    "stars": 0,
+    "why": "Play English draughts against Jev",
+    "html_url": "https://github.com/martijnd/jev-checkers-demo",
+    "pushed_at": "2026-09-21T10:43:18Z",
+    "created_at": "2026-09-21T10:43:06Z",
+    "found_via": [
+      "search_jev_created",
+      "search_jev_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "neo4j-field/jev-graphrag",
+    "source": "github",
+    "stars": 0,
+    "why": "Small demos + use-case backlog: TypeSafe AI's Jev as a calibrated decision layer for GraphRAG pipelines on Neo4j.",
+    "html_url": "https://github.com/neo4j-field/jev-graphrag",
+    "pushed_at": "2026-09-21T10:47:57Z",
+    "created_at": "2026-09-21T10:47:30Z",
+    "found_via": [
+      "search_jev_created",
+      "search_jev_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "nk412/judgements",
+    "source": "github",
+    "stars": 0,
+    "why": "TypeSafe System One for pydantic users",
+    "html_url": "https://github.com/nk412/judgements",
+    "pushed_at": "2026-09-21T10:49:43Z",
+    "created_at": "2026-09-21T10:49:22Z",
+    "found_via": [
+      "search_system-one_created",
+      "search_system-one_pushed",
+      "search_system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "qiudingkai-crypto/jevai",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen github peer",
+    "html_url": "https://github.com/qiudingkai-crypto/jevai",
+    "pushed_at": "2026-09-21T10:45:07Z",
+    "created_at": "2026-09-21T10:35:40Z",
+    "found_via": [
+      "search_jev_created",
+      "search_jev_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "qq150078158-lab/TDM-demo",
+    "source": "github",
+    "stars": 0,
+    "why": "The demonstration page of the Trading Decision Model",
+    "html_url": "https://github.com/qq150078158-lab/TDM-demo",
+    "pushed_at": "2026-09-21T08:59:45Z",
+    "created_at": "2025-10-24T04:39:29Z",
+    "found_via": [
+      "search_decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "sszxt/rlcd",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen github peer",
+    "html_url": "https://github.com/sszxt/rlcd",
+    "pushed_at": "2026-09-21T10:39:30Z",
+    "created_at": "2026-09-21T10:35:34Z",
+    "found_via": [
+      "search_RLCD_created",
+      "search_RLCD_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "tikeda/jev-ux-ui-reference",
+    "source": "github",
+    "stars": 0,
+    "why": "Jevを判断するAIとしてUX/UIへ導入するための設計ガイドと公開事例リファレンス",
+    "html_url": "https://github.com/tikeda/jev-ux-ui-reference",
+    "pushed_at": "2026-09-21T10:47:58Z",
+    "created_at": "2026-09-21T10:39:56Z",
+    "found_via": [
+      "search_jev_created",
+      "search_jev_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "toreleon/JevGames",
+    "source": "github",
+    "stars": 0,
+    "why": "Pluggable decision-model training and benchmarking framework",
+    "html_url": "https://github.com/toreleon/JevGames",
+    "pushed_at": "2026-09-21T10:49:12Z",
+    "created_at": "2026-09-21T10:49:07Z",
+    "found_via": [
+      "search_decision_model_llm",
+      "search_jev_created",
+      "search_jev_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "umgbhalla/jevx",
+    "source": "github",
+    "stars": 0,
+    "why": "Jev (TypeSafe System One) research: API notes, benchmarks, community experiments, agent-loop patterns",
+    "html_url": "https://github.com/umgbhalla/jevx",
+    "pushed_at": "2026-09-21T10:13:32Z",
+    "created_at": "2026-09-19T08:02:09Z",
+    "found_via": [
+      "search_system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "wizicer/jev_info_site",
+    "source": "github",
+    "stars": 0,
+    "why": "Community index of tools, models, and real-world use cases built on Jev.",
+    "html_url": "https://github.com/wizicer/jev_info_site",
+    "pushed_at": "2026-09-21T10:39:05Z",
+    "created_at": "2026-09-19T04:15:31Z",
+    "found_via": [
+      "search_jev_created",
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "yunhai-dev/laya2typesafeapi",
+    "source": "github",
+    "stars": 0,
+    "why": "Self-hosted multilingual Laya decision model exposed through a TypeSafe-compatible API.",
+    "html_url": "https://github.com/yunhai-dev/laya2typesafeapi",
+    "pushed_at": "2026-09-21T10:38:07Z",
+    "created_at": "2026-09-21T10:31:23Z",
+    "found_via": [
+      "search_Laya_created",
+      "search_Laya_pushed",
+      "search_decision_model_llm",
+      "search_system-one_created",
+      "search_system-one_pushed",
+      "topic_laya",
+      "topic_system-one"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel"
+  },
+  {
+    "id": "TianyuCodings/NanoJev",
+    "source": "github",
+    "stars": 1680,
+    "why": "head SHA change 618cea6d→76fdfc9e — A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline.",
+    "html_url": "https://github.com/TianyuCodings/NanoJev",
+    "pushed_at": "2026-09-21T09:58:28Z",
+    "created_at": null,
+    "found_via": [
+      "watchlist"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "revisit",
+    "revisit_reasons": [
+      "head SHA change 618cea6d→76fdfc9e"
+    ]
+  },
+  {
+    "id": "Manta-Boardgame/jev-chat",
+    "source": "github",
+    "stars": 0,
+    "why": "description rewrite — Ask questions about your documents and get answers with probabilities. Windows & Android app for Jev (TypeSafe AI) via Vercel AI Gateway — reads whole books, PDFs, Word and images,",
+    "html_url": "https://github.com/Manta-Boardgame/jev-chat",
+    "pushed_at": "2026-09-21T10:29:40Z",
+    "created_at": "2026-09-21T09:25:25Z",
+    "found_via": [
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "revisit",
+    "revisit_reasons": [
+      "description rewrite"
+    ]
+  },
+  {
+    "id": "hf:dataset:syvai/danish-dynaword-laya",
+    "source": "huggingface",
+    "stars": 0,
+    "likes": 0,
+    "why": "HF card/tag rewrite — task_categories:text-classification, language:da, license:other, size_categories:100K<n<1M, format:parquet, modality:text, library:datasets, library:pandas, library:polars, library",
+    "html_url": "https://huggingface.co/datasets/syvai/danish-dynaword-laya",
+    "pushed_at": "2026-09-21T09:58:13.000Z",
+    "created_at": "2026-09-21T09:31:04.000Z",
+    "found_via": [
+      "datasets_laya"
+    ],
+    "hf_kind": "dataset",
+    "fork": false,
+    "kind": "revisit",
+    "revisit_reasons": [
+      "HF card/tag rewrite"
+    ]
+  },
+  {
+    "id": "ximing/jev-snake-game",
+    "source": "github",
+    "stars": 0,
+    "why": "description rewrite — 用 TypeSafe Jev（System One）驱动的自动贪吃蛇：每一步都是结构化判断，由代码组合。",
+    "html_url": "https://github.com/ximing/jev-snake-game",
+    "pushed_at": "2026-09-21T10:26:20Z",
+    "created_at": "2026-09-21T09:45:44Z",
+    "found_via": [
+      "search_system-one_created",
+      "search_system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "revisit",
+    "revisit_reasons": [
+      "description rewrite"
+    ]
+  }
+]
