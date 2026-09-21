@@ -7,7 +7,8 @@ refreshes diff against a known baseline instead of re-discovering the world.
 - `notes.md` — distilled findings (contracts, recipes, ecosystem, gaps).
 - `refresh-log.md` — dated log of each refresh pass and what changed.
 - `changelog-hourly.md` — uniqueness-lock dump after v0.3.0 (not release
-  notes; see root `CHANGELOG.md` and `docs/release-notes-v0.5.0.md`).
+  notes; see root `CHANGELOG.md`, `docs/release-notes-v0.5.1.md`, and
+  `docs/release-notes-v0.5.0.md`).
 - `archive/hourly/YYYY-MM-DDTHH/` — raw scan dumps for that UTC hour
   (X theme digest + `topic:jev` JSON when a live scan lands).
 - `archive/curriculum/` — attached research briefs folded into the skill

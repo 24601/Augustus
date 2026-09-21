@@ -1305,12 +1305,31 @@ def main() -> int:
         if fm.get("name") != "augustus":
             failed.append("SKILL.md name != augustus")
         meta = fm.get("metadata") or {}
-        if meta.get("version") != "0.5.0":
+        if meta.get("version") != "0.5.1":
             failed.append(
-                f"SKILL.md metadata.version {meta.get('version')!r} != '0.5.0'"
+                f"SKILL.md metadata.version {meta.get('version')!r} != '0.5.1'"
             )
         desc = fm.get("description") or ""
-        haystack = desc + "\n" + skill
+        if len(desc) > 1024:
+            failed.append(
+                f"SKILL.md description is {len(desc)} chars "
+                "(registry blurb must stay under 1024; trigger wall "
+                "lives in references/activation-triggers.md)"
+            )
+        triggers_rel = (
+            ".agents/skills/augustus/references/activation-triggers.md"
+        )
+        triggers_path = ROOT / triggers_rel
+        if not triggers_path.is_file():
+            failed.append(f"missing {triggers_rel}")
+            triggers = ""
+        else:
+            triggers = triggers_path.read_text(encoding="utf-8")
+        if "references/activation-triggers.md" not in skill:
+            failed.append(
+                "SKILL.md must point at references/activation-triggers.md"
+            )
+        haystack = desc + "\n" + skill + "\n" + triggers
         for frag in (
             "A hunch is a probability with a policy attached",
             "calibration does not compose",
@@ -1905,13 +1924,17 @@ def main() -> int:
         ):
             if frag not in haystack:
                 failed.append(f"SKILL.md missing fragment {frag!r}")
-        proto_line = ""
-        for line in skill.splitlines():
-            if "cascade sign-flip / calibration theater" in line:
-                proto_line = line
-                break
+        proto_candidates = [
+            line
+            for line in list(skill.splitlines()) + list(triggers.splitlines())
+            if "cascade sign-flip / calibration theater" in line
+        ]
+        proto_line = max(proto_candidates, key=len) if proto_candidates else ""
         if not proto_line:
-            failed.append("SKILL.md protocol missing cascade sign-flip line")
+            failed.append(
+                "cascade sign-flip line missing from SKILL.md and "
+                "references/activation-triggers.md"
+            )
         else:
             for frag in (
                 "llm prompt to jev primitives",

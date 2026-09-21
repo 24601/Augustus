@@ -44,7 +44,8 @@ judgment tool, not Jev-only.
 ## Recipes
 
 Class-wide, not a TypeSafe how-to. Full cards:
-[`docs/release-notes-v0.5.0.md`](docs/release-notes-v0.5.0.md) ·
+[`docs/release-notes-v0.5.1.md`](docs/release-notes-v0.5.1.md) ·
+prior class recipes [`docs/release-notes-v0.5.0.md`](docs/release-notes-v0.5.0.md) ·
 [Pages recipes](https://24601.github.io/Augustus/#recipes).
 
 - **Decide vs generate.** Without: treat tryDecide as another token stream. With: decide is not generate; typed calibrated judgments, not chat. Third-party benches stay *theirs*.
@@ -66,6 +67,7 @@ One line per file. The living catalog is in the reference cards and
 [`research/notes.md`](research/notes.md), not this README.
 
 - `.agents/skills/augustus/SKILL.md`: working protocol and decision-design card
+- `.agents/skills/augustus/references/activation-triggers.md`: trigger-phrase wall and full mapping-index rows (YAML description stays a short class-first blurb)
 - `.agents/skills/augustus/references/mental-models.md`: cross-domain frames (EU, VOI, MCDA, SDT, ...); not SWE-only
 - `.agents/skills/augustus/references/judgment-class.md`: the class (Jev exemplar, not monopoly) and peer families
 - `.agents/skills/augustus/references/formal-methods.md`: judgment vs proof; soundness theater; DST trio
@@ -133,10 +135,10 @@ GPT's instructions or a Project's knowledge and it will follow the protocol.
 ## Versioning
 
 See [CHANGELOG.md](CHANGELOG.md) and
-[releases](https://github.com/24601/Augustus/releases). Current: **0.5.0**,
+[releases](https://github.com/24601/Augustus/releases). Current: **0.5.1**,
 written against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skills/tree/v0.5.7)
-(`65a39f3`; live HEAD still this commit). Re-read live TypeSafe docs
-before treating that pin as current API behavior.
+(`65a39f3`; live HEAD still this commit, checked 2026-09-21). Re-read live
+TypeSafe docs before treating that pin as current API behavior.
 
 ## License
 

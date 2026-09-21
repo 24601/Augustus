@@ -7,7 +7,7 @@ page_class: home
 
 <section class="hero" aria-labelledby="hero-title">
   <div>
-    <p class="kicker hero-reveal" style="--d: 0ms">v0.5.0, Jev the dominant exemplar</p>
+    <p class="kicker hero-reveal" style="--d: 0ms">v0.5.1, Jev the dominant exemplar</p>
     <h1 id="hero-title" class="hero-title">
       <span class="line hero-reveal" style="--d: 50ms">Place judgment.</span>
       <span class="line hero-reveal" style="--d: 110ms">Keep proof exact.</span>
@@ -156,5 +156,5 @@ claude plugin install augustus@augustus</code></pre>
       </a>
     </li>
   </ul>
-  <p class="meta-line">Last updated 2026-09-20 (v0.5.0).</p>
+  <p class="meta-line">Last updated 2026-09-21 (v0.5.1).</p>
 </section>
