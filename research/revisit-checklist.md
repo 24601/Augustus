@@ -65,6 +65,8 @@ A star jump on a thin README is still star-noise. A SHA move on a
 ## Paste into hourly fold prompts
 
 Treat **revisit HIGH** like **novel HIGH** for Augustus.
+Never append uniqueness locks or hourly HIGH digests to `README.md`.
+The human-facing README stops at License.
 
 If fingerprints moved on a catalogued repo (`default_sha`,
 `pushed_at`, `description_hash`, `release_tag`) or the README / API /

@@ -127,6 +127,10 @@ Hourly fold prompts must treat **revisit HIGH** like **novel HIGH**
 for Augustus. Skip is for star-noise and name collisions, not for "we
 already have a card."
 
+Never append uniqueness locks or hourly HIGH digests to `README.md`.
+The human-facing README stops at License. Locks live in
+`research/notes.md`, fold overlays, and uniqueness_gate fixtures.
+
 Revisit / since-last-look lock: catalogued repos are not done; store fingerprints default_sha, pushed_at, description_hash, release_tag; material change is README/API/release/calibration claim/serving port/bench rewrite; star-noise is stars/likes/forks alone; densify the prior notes section, do not mint a sibling first sighting; do not invent equivalence; SHA move is not a replica; treat revisit HIGH like novel HIGH for Augustus; notes.md §122
 
 **Fingerprints to store** (hourly diffs these): `default_sha`
