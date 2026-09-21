@@ -30467,6 +30467,12 @@ parser / replay / cost table are exact work.
    - NEW HIGH (TypeScript NOASSERTION; **10★**; HEAD `ae0e277fdd64`;
    README SHA `275f4b9c`). Quote *theirs*: fuzzy rules in one markdown
    file. Swappable judge. cutoff still soft. Do **not** copy `npx`.
+   Hourly 0923 densify (Block/steer/fuzzy lint, not a sibling first
+   sighting): 11★ NOASSERTION TS HEAD `8b2b2b591470` README SHA
+   `1052b6da2c25` was `ae0e277fdd64` / `275f4b9c`. Quote *theirs*: The
+   judge is swappable. The default backend currently uses TypeSafe/Jev;
+   rules and CLI commands use a provider-neutral interface. densify §121
+   not a sibling first sighting. SHA move is not a replica.
 7. **[PanAchy/jevvy](https://github.com/PanAchy/jevvy)**
    - NEW HIGH namesake (TypeScript MIT; **9★**; HEAD `f682078c0362`;
    README SHA `f2a69efc`). Permission plugin for coding agents.
@@ -35255,6 +35261,11 @@ report is not a sandbox.
    was `310840b56f1d` / `02b91962cef4`. Quote *theirs*: Jev is the first
    adapter the design is bound to no engine. densify §139 not a sibling
    first sighting. Full card: `notes.md` §141.
+   Hourly 0923 densify (description rewrite, not a sibling first
+   sighting): 8★ Apache-2.0 Rust HEAD `50c9637ef11f` README SHA
+   `72ec0e65c432` was `ca8a311743fe` / `fcce876e2cab`. Quote *theirs*:
+   Jev is the first adapter; the design is bound to no engine. densify
+   §139 not a sibling first sighting. SHA move is not a replica.
    [`skillseedorg/ChatJEVs`](https://github.com/skillseedorg/ChatJEVs) MIT
    HEAD `346e7347cf90` README SHA `6ff81d54040f`. ChatJEVs ≠
    erik-dunteman/ChatJev. generation from Choice is not a language model
@@ -35843,6 +35854,11 @@ a README SHA move is densify not a sibling first sighting.
    [`sumleo/prompt2jev`](https://github.com/sumleo/prompt2jev) 1★ MIT
    HEAD `bd9cd8a471a6` README SHA `afc36885861e`. heuristic conversion ≠
    calibrated Noul.
+   Hourly 0923 densify (description rewrite, not a sibling first
+   sighting): 2★ MIT Py HEAD `f3b6bc763b74` README SHA `3d58e8c10075`
+   was `bd9cd8a471a6` / `afc36885861e`. heuristic conversion ≠
+   calibrated Noul. densify §141 not a sibling first sighting. SHA move
+   is not a replica.
    [`stacklok/typesafe-go`](https://github.com/stacklok/typesafe-go) 1★
    Apache-2.0 HEAD `10b73028990b` README SHA `43525806ebcf`. Quote
    *theirs*: not an official TypeSafe SDK. community-maintained.
@@ -36567,3 +36583,301 @@ Hooks for the reviewer:
   No live Jev key. No wrappers.
 
 **Hourly 0823 HIGH (`notes.md` §143).** dohnuts densify MODEL_CARD. JevBench 65.80% vs Jev 86.58% / Laya multi 47.62% *theirs*. same-species serving not an 18th scoring row. FluidUse field→value match among supplied options not free text. Screenshots aren't uploaded. Jev is the only model. not fully offline. JSON 0.909 letters 0.907 *theirs*. 13 600 / 13 600 *theirs*. softmax over letters ≠ calibrated Noul. model=jev-auto. AG News 0.910 *theirs*. Banking77 0.870 *theirs*. DAIR Emotion 0.480 *theirs*. Fastest and cheapest web agent *theirs*. densify §137 not a sibling first sighting. densify §142 not a sibling first sighting. densify description rewrite. Cua-S1 ≠ TypeSafe. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#66. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+
+## 144. Hourly 0923 HIGH (2026-09-21 ~09:23 Boise / 2026-09-21T15:23Z)
+
+Measurement / class-member fold on a **fresh PR off latest `main`**
+(`cursor/hourly-0923-fold-1749`) after `89a26925295e` (merged #67 hourly
+0823 HIGH, `notes.md` §143 / items 697–712 / batch #125; merged #66 hourly
+0707 HIGH, `notes.md` §142).
+**HARD RULE:** do not reopen or amend PR #23–#67.
+Do **not** re-fold §143 0823 / §142 0707 / first-party 0823 SHA bumps
+*as a second census*. Densify prior cards in place. Do not mint sibling
+first-sighting sections for patdown (§121), evoke (§139), or prompt2jev
+(§141). slop-grader and jev_the_philosopher are first cards this hour
+(revisit tag, no prior notes card). Do not treat GLiNER locate as decide.
+Do not treat openvons softmax as calibrated Noul. Do not treat poker chips
+as Harbor. Soft scores ≠ hard gates. Retired name reservation is not a
+replica. This fold's IDs: `notes.md` §144 / composition 713–728 /
+findings batch #126.
+
+Never reopen merged #7–**#67**. Quote READMEs / Hub cards.
+Mark *theirs*. No wrappers, keys, `npm` / `pip` / `uv` / `docker`
+install recipes. `invented_signal: false`. Hunches labeled.
+
+Lane is Augustus: **mathematical / logical / algorithmic mental models**
+for Jev-class categorization/scoring across AI / SWE / **business /
+knowledge work / life**, not SWE-only. PRIMARY this hour is
+**vericle/intellyweave** (GLiNER OSINT; Locate ≠ decide) plus densify §68
+**genai-craft/openvons** (open-Jev finite-choice judgment; finite choices
++ none; 4B frozen+head 0.916 vs 27B zs 0.875 *theirs*; 8 questions 22.6 ms
+*theirs*; softmax ≠ calibrated Noul; densify §68 not a sibling first
+sighting). Jev is exemplar, not the mandate.
+Third-party benches stay *theirs*. Catalogs are indexes. Soft scores ≠
+hard gates. SHA move is not a replica. Archer still **promised_not_landed**.
+
+Unique consecutive fragments (this fold) must appear as **one
+substring** in overlays (see uniqueness gate):
+Hourly 0923 uniqueness lock: vericle/intellyweave 76★ BSD-3-Clause Py HEAD ff4152ce9d20 README SHA 3afa702012e8; GLiNER OSINT; Locate ≠ decide; genai-craft/openvons 13★ NOASSERTION Py HEAD c2683c4539a7 README SHA 85164d409725; finite choices + none; 4B frozen+head 0.916 vs 27B zs 0.875 *theirs*; 8 questions 22.6 ms *theirs*; softmax ≠ calibrated Noul; whyashthakker/beam-cli 11★ AGPL-3.0 TS HEAD 5162ec66179a README SHA d55847ca5681; AgentBeam local security layer; soft scores ≠ hard gates; atharvamhaske/typesafe-sdk-go 8★ MIT Go HEAD 6ea04182d356 README SHA 8d90abda1f58; unofficial not affiliated; wire-compat ≠ logit-equiv; atharvamhaske/typesafe-sdk-go ≠ kisshan13/typesafe-ai-go ≠ stacklok/typesafe-go ≠ Nibir1/typesafe-go ≠ peach-zhang/typesafe-go ≠ draganm/go-jev ≠ kataras/jev ≠ robertjndw/gosys1 ≠ Stumble/jev-go; Prophetlab/JevPokerBench 7★ MIT Py HEAD 9c9816688a3c README SHA 0fcd6807b9c3; chips virtual; game success ≠ calibrated Noul; *theirs* not Harbor; tyler-dot-earth/patdown densify 11★ NOASSERTION TS HEAD 8b2b2b591470 README SHA 1052b6da2c25 was ae0e277fdd64 / 275f4b9c; Block/steer/fuzzy lint; judge swappable; default TypeSafe/Jev; provider-neutral; densify §121 not a sibling first sighting; evoke-build/evoke densify 8★ Apache-2.0 Rust HEAD 50c9637ef11f README SHA 72ec0e65c432 was ca8a311743fe / fcce876e2cab; Jev is the first adapter; the design is bound to no engine; densify §139 not a sibling first sighting; lukstei/slop-grader 5★ MIT TS HEAD b60332684ff8 README SHA bbc1604754d3; Runs every rule against every line in parallel. No skimming; sumleo/prompt2jev densify 2★ MIT Py HEAD f3b6bc763b74 README SHA 3d58e8c10075 was bd9cd8a471a6 / afc36885861e; heuristic conversion ≠ calibrated Noul; densify §141 not a sibling first sighting; Andymulb/jev_the_philosopher 0★ MIT TeX HEAD 334e3f9b83e5 README SHA 8db05448b75f; Median 275 ms; trolley 0.99 vs 0.78; 11/11/7 match/differ/undecided of 29 *theirs*; PerryLink/layacore 0★ Apache HEAD 12afe3af5edc README SHA f78b73d21cf7; retired name reservation; the project is now PerryLink/laya-mcp; retired name reservation is not a replica; PerryLink/layacore-mcp HEAD b006cc7c3f87 README SHA 1177f286f3f8; PerryLink/laya-mcp-npm launcher not implementation HEAD 426e965b4c48 README SHA 98ed0d448b09; PerryLink/laya-mcp ≠ wsargent/laya-mcp; DreamBlooms/dohnuts.cpp ≠ PsiACE/dohnuts; ClemensSchartmueller/jev-guard ≠ leepokai/jev-guard ≠ seb4ez/jevguard; AABBAASS1/jev-router ≠ gargpratyush/jev-router ≠ Akashdb5/jev-router ≠ daviddl9/jev-router; wustep/jev-playground ≠ AbnormalPilot/jev-playground ≠ mizchi/jev-playground; Li-Evan/awesome-jev ≠ Omrigotlieb/awesome-jev ≠ youzizzz1028/Awesome-Jev ≠ heyjunpenn/awesome-jev ≠ yibie/awesome-jev; sunchojack/jev-cli ≠ gnapse/jev-cli; Alistair77/openjev ≠ Zefan-Cai/Open-Jev ≠ razorback16/openjev; jev-jarvis/jev-jarvis ≠ eatmoreduck/jev-jarvis; Renwang-Huang/typesafe-mcp ≠ itsmostafa/typesafe-mcp; inematds/laya ≠ convaiinnovations/laya ≠ NandhaKishorM/laya; kataras/jev ≠ okooo5km/jev ≠ sebastianbugal/jev ≠ dannote/jev; ai-ecoverse/kev.js ≠ jaredpalmer/kev; skip-thin gnapse/jev-cli HTTP 404 fr4j4/system-one-arena nothingmn/Jev.Sdk youniszhang/jev-local Vaibhaav-Tiwari/fly-doom-jev fengliner/jev-tank-battle ngouard5/jeveuxaider-design empty SHA; hf:Skylarcc/Laya-Online HTTP 401 *theirs*; hf:piratehack009/laya-cn-flash-triage HTTP 404 *theirs*; catalog ≠ endorsement; game success ≠ calibrated Noul; does not execute; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62/#63/#64/#65/#66/#67; notes.md §144
+
+### How-to-apply (class lenses, not vendor tutorials)
+
+These are *class* lenses. Same discipline as §143 (JevBench 65.80% is not
+Harbor; field→value is not free text) and §120 (serving substrate ≠
+calibrated replica). Formal methods **compose**: a Noul is a SENSOR;
+a GLiNER span is locate, not decide; a finite-choice softmax is *theirs*;
+a README SHA move is densify not a sibling first sighting.
+
+1. **GLiNER OSINT / Locate ≠ decide**
+   (vericle/intellyweave 76★ BSD-3-Clause Py HEAD ff4152ce9d20 README SHA
+   3afa702012e8). Quote *theirs*: archive discovery with hypothesis-driven
+   investigation, GLiNER entity extraction. Locate ≠ decide. Do **not**
+   copy keys.
+2. **finite choices + none / softmax ≠ calibrated Noul**
+   (genai-craft/openvons densify §68; 13★ NOASSERTION Py HEAD c2683c4539a7
+   README SHA 85164d409725). Quote *theirs*: answer a finite set of
+   options with a probability for each. None of the above is always one
+   of the options. 4B frozen+head 0.916 vs 27B zs 0.875. 8 questions
+   22.6 ms. softmax ≠ calibrated Noul. *theirs* not Harbor.
+   densify §68 not a sibling first sighting.
+3. **AgentBeam local security layer / soft scores ≠ hard gates**
+   (whyashthakker/beam-cli 11★ AGPL-3.0 TS HEAD 5162ec66179a README SHA
+   d55847ca5681). Quote *theirs*: AgentBeam is a local security layer for
+   AI agents. applies your AgentBeam policy locally. Soft scores ≠ hard
+   gates. does not execute.
+4. **chips virtual / game success ≠ calibrated Noul**
+   (Prophetlab/JevPokerBench 7★ MIT Py HEAD 9c9816688a3c README SHA
+   0fcd6807b9c3). Quote *theirs*: Chips are virtual. *theirs* not Harbor.
+5. **densify §121 / §139 / §141 not sibling first sightings**
+   (patdown Block/steer/fuzzy lint; evoke Jev is the first adapter the
+   design is bound to no engine; prompt2jev heuristic conversion ≠
+   calibrated Noul). SHA move is not a replica.
+
+### HIGH (this hour)
+
+1. **[`vericle/intellyweave`](https://github.com/vericle/intellyweave)
+   PRIMARY novel.** 76★ BSD-3-Clause Py HEAD `ff4152ce9d20` README SHA
+   `3afa702012e8`. Quote *theirs*: AI-powered platform for OSINT
+   intelligence analysis. GLiNER entity extraction. Locate ≠ decide.
+   catalog ≠ endorsement.
+2. **[`genai-craft/openvons`](https://github.com/genai-craft/openvons)
+   PRIMARY densify §68, not a sibling first sighting.** 13★ NOASSERTION
+   Py HEAD `c2683c4539a7` README SHA `85164d409725`. Quote *theirs*: a
+   decision layer that answers finite choices with probabilities.
+   finite choices + none. 4B frozen+head 0.916 vs 27B zs 0.875.
+   8 questions 22.6 ms. softmax ≠ calibrated Noul. *theirs* not Harbor.
+   densify §68 not a sibling first sighting. SHA move is not a replica.
+3. **[`whyashthakker/beam-cli`](https://github.com/whyashthakker/beam-cli)
+   PRIMARY novel.** 11★ AGPL-3.0 TS HEAD `5162ec66179a` README SHA
+   `d55847ca5681`. Quote *theirs*: AgentBeam is a local security layer
+   for AI agents. Monitoring & Safety layer. soft scores ≠ hard gates.
+   does not execute. Do **not** copy `npm i`.
+4. **[`atharvamhaske/typesafe-sdk-go`](https://github.com/atharvamhaske/typesafe-sdk-go)
+   PRIMARY novel.** 8★ MIT Go HEAD `6ea04182d356` README SHA
+   `8d90abda1f58`. Quote *theirs*: Unofficial Go SDK for TypeSafe AI.
+   Not affiliated with or endorsed by TypeSafe AI. unofficial not
+   affiliated. wire-compat ≠ logit-equiv.
+   atharvamhaske/typesafe-sdk-go ≠ kisshan13/typesafe-ai-go ≠
+   stacklok/typesafe-go ≠ Nibir1/typesafe-go ≠ peach-zhang/typesafe-go ≠
+   draganm/go-jev ≠ kataras/jev ≠ robertjndw/gosys1 ≠ Stumble/jev-go.
+5. **[`Prophetlab/JevPokerBench`](https://github.com/Prophetlab/JevPokerBench)
+   PRIMARY novel.** 7★ MIT Py HEAD `9c9816688a3c` README SHA
+   `0fcd6807b9c3`. Quote *theirs*: Texas Hold'em benchmark and playground
+   for decision models. Chips are virtual. chips virtual. game success ≠
+   calibrated Noul. *theirs* not Harbor.
+6. **REVISIT densify patdown §121 / evoke §139 / prompt2jev §141.**
+   [`tyler-dot-earth/patdown`](https://github.com/tyler-dot-earth/patdown)
+   densify 11★ NOASSERTION TS HEAD `8b2b2b591470` README SHA `1052b6da2c25`
+   was `ae0e277fdd64` / `275f4b9c`. Quote *theirs*: Block, steer, and
+   "fuzzy lint" with Jev. The judge is swappable. The default backend
+   currently uses TypeSafe/Jev; rules and CLI commands use a
+   provider-neutral interface. densify §121 not a sibling first sighting.
+   SHA move is not a replica. Do **not** copy `npx`.
+   [`evoke-build/evoke`](https://github.com/evoke-build/evoke)
+   densify 8★ Apache-2.0 Rust HEAD `50c9637ef11f` README SHA `72ec0e65c432`
+   was `ca8a311743fe` / `fcce876e2cab`. Quote *theirs*: Jev is the first
+   adapter. the design is bound to no engine. densify §139 not a sibling
+   first sighting.
+   [`sumleo/prompt2jev`](https://github.com/sumleo/prompt2jev)
+   densify 2★ MIT Py HEAD `f3b6bc763b74` README SHA `3d58e8c10075` was
+   `bd9cd8a471a6` / `afc36885861e`. heuristic conversion ≠ calibrated Noul.
+   densify §141 not a sibling first sighting.
+7. **First cards (revisit tag, no prior notes card): slop-grader /
+   jev_the_philosopher / layacore rename.**
+   [`lukstei/slop-grader`](https://github.com/lukstei/slop-grader)
+   5★ MIT TS HEAD `b60332684ff8` README SHA `bbc1604754d3`. Quote *theirs*:
+   Runs every rule against every line in parallel. No skimming.
+   [`Andymulb/jev_the_philosopher`](https://github.com/Andymulb/jev_the_philosopher)
+   0★ MIT TeX HEAD `334e3f9b83e5` README SHA `8db05448b75f`. Quote *theirs*:
+   Median 275 ms. trolley 0.99 vs 0.78. 11/11/7 match/differ/undecided of
+   29. *theirs* not Harbor.
+   [`PerryLink/layacore`](https://github.com/PerryLink/layacore)
+   0★ Apache HEAD `12afe3af5edc` README SHA `f78b73d21cf7`. GitHub
+   description *theirs*: Retired name reservation. The project is now
+   laya-mcp. retired name reservation is not a replica.
+   [`PerryLink/layacore-mcp`](https://github.com/PerryLink/layacore-mcp)
+   HEAD `b006cc7c3f87` README SHA `1177f286f3f8`.
+   [`PerryLink/laya-mcp-npm`](https://github.com/PerryLink/laya-mcp-npm)
+   launcher not implementation HEAD `426e965b4c48` README SHA `98ed0d448b09`.
+   PerryLink/laya-mcp ≠ wsargent/laya-mcp.
+8. **Namesakes / skip-thin / remainder / HF 401/404.**
+   DreamBlooms/dohnuts.cpp ≠ PsiACE/dohnuts.
+   ClemensSchartmueller/jev-guard ≠ leepokai/jev-guard ≠ seb4ez/jevguard.
+   AABBAASS1/jev-router ≠ gargpratyush/jev-router ≠ Akashdb5/jev-router ≠
+   daviddl9/jev-router.
+   wustep/jev-playground ≠ AbnormalPilot/jev-playground ≠ mizchi/jev-playground.
+   Li-Evan/awesome-jev ≠ Omrigotlieb/awesome-jev ≠ youzizzz1028/Awesome-Jev ≠
+   heyjunpenn/awesome-jev ≠ yibie/awesome-jev.
+   sunchojack/jev-cli ≠ gnapse/jev-cli.
+   Alistair77/openjev ≠ Zefan-Cai/Open-Jev ≠ razorback16/openjev.
+   jev-jarvis/jev-jarvis ≠ eatmoreduck/jev-jarvis.
+   Renwang-Huang/typesafe-mcp ≠ itsmostafa/typesafe-mcp.
+   inematds/laya ≠ convaiinnovations/laya ≠ NandhaKishorM/laya.
+   kataras/jev ≠ okooo5km/jev ≠ sebastianbugal/jev ≠ dannote/jev.
+   ai-ecoverse/kev.js ≠ jaredpalmer/kev.
+   skip-thin gnapse/jev-cli HTTP 404 fr4j4/system-one-arena nothingmn/Jev.Sdk
+   youniszhang/jev-local Vaibhaav-Tiwari/fly-doom-jev fengliner/jev-tank-battle
+   ngouard5/jeveuxaider-design empty SHA.
+   hf:Skylarcc/Laya-Online HTTP 401 *theirs*.
+   hf:piratehack009/laya-cn-flash-triage HTTP 404 *theirs*.
+   Named remainder (substance, not a dump wall):
+   [`jev-jarvis/jev-jarvis`](https://github.com/jev-jarvis/jev-jarvis)
+   4★ MIT Py HEAD `be68dd7993f0` README SHA `efe7e47a6fe8`. jev-jarvis/jev-jarvis ≠
+   eatmoreduck/jev-jarvis. does not execute.
+   [`ClemensSchartmueller/jev-guard`](https://github.com/ClemensSchartmueller/jev-guard)
+   3★ MIT Go HEAD `61bfcc4af5f8` README SHA `64748af6f948`.
+   ClemensSchartmueller/jev-guard ≠ leepokai/jev-guard ≠ seb4ez/jevguard.
+   [`stas4000/jev-papers`](https://github.com/stas4000/jev-papers)
+   3★ MIT Py HEAD `9889d544e648` README SHA `741d65c488b0`. Quote *theirs*:
+   1,000 arXiv AI papers classified with one Jev decision each. *theirs*
+   not Harbor.
+   [`DreamBlooms/dohnuts.cpp`](https://github.com/DreamBlooms/dohnuts.cpp)
+   2★ Apache-2.0 C++ HEAD `8ff4d638b9af` README SHA `1cd4db44cba7`.
+   DreamBlooms/dohnuts.cpp ≠ PsiACE/dohnuts. serving substrate ≠
+   calibrated replica.
+   [`HQarroum/laymbda`](https://github.com/HQarroum/laymbda)
+   2★ MIT Py HEAD `a5a08ffb2691` README SHA `a1d07f7cc728`. Quote *theirs*:
+   Laya engine on AWS Lambda, backed by Lambda SnapStart. serving
+   substrate ≠ calibrated replica.
+   [`hemanth/jev-chess`](https://github.com/hemanth/jev-chess)
+   2★ TS HEAD `654154fe6326` README SHA `3b74cfbeeaa6`. game success ≠
+   calibrated Noul.
+   [`unownone/jevsume`](https://github.com/unownone/jevsume)
+   2★ TS HEAD `1034af5c2c69` README SHA `5661c343b83c`. catalog ≠ endorsement.
+   [`AABBAASS1/jev-router`](https://github.com/AABBAASS1/jev-router)
+   1★ Py HEAD `69a8c7f7d5ff` README SHA `957f9d208bc2`. routing ≠ permission.
+   AABBAASS1/jev-router ≠ gargpratyush/jev-router ≠ Akashdb5/jev-router ≠
+   daviddl9/jev-router.
+   [`kataras/jev`](https://github.com/kataras/jev)
+   1★ MIT Go HEAD `afd2f189ecf1` README SHA `bd368a0a438b`.
+   kataras/jev ≠ okooo5km/jev ≠ sebastianbugal/jev ≠ dannote/jev.
+   unofficial not affiliated. wire-compat ≠ logit-equiv.
+   [`Li-Evan/awesome-jev`](https://github.com/Li-Evan/awesome-jev)
+   0★ CC0-1.0 HEAD `0e8cfdf70574` README SHA `340eda8efa37`. catalog ≠
+   endorsement. Li-Evan/awesome-jev ≠ Omrigotlieb/awesome-jev ≠
+   youzizzz1028/Awesome-Jev ≠ heyjunpenn/awesome-jev ≠ yibie/awesome-jev.
+   [`Alistair77/openjev`](https://github.com/Alistair77/openjev)
+   0★ Apache-2.0 Py HEAD `29bbd8e2f6f2` README SHA `b94be1cbeb98`.
+   Alistair77/openjev ≠ Zefan-Cai/Open-Jev ≠ razorback16/openjev.
+   replica ≠ TypeSafe.
+   [`inematds/laya`](https://github.com/inematds/laya)
+   0★ Apache-2.0 Py HEAD `112e6414c2b1` README SHA `46c6a09a5bde`.
+   inematds/laya ≠ convaiinnovations/laya ≠ NandhaKishorM/laya.
+   [`ai-ecoverse/kev.js`](https://github.com/ai-ecoverse/kev.js)
+   0★ Apache-2.0 TS HEAD `134eee4f877b` README SHA `4f4fe1c9b5c9`.
+   ai-ecoverse/kev.js ≠ jaredpalmer/kev. serving substrate ≠ calibrated
+   replica.
+   [`lBroth/nullpii`](https://github.com/lBroth/nullpii)
+   0★ Apache-2.0 TS HEAD `dc9eac8326f9` README SHA `616cc0d81523`. Quote
+   *theirs*: Local GLiNER ONNX + reversible in-memory vault. Locate ≠
+   decide.
+   [`wustep/jev-playground`](https://github.com/wustep/jev-playground)
+   1★ TS HEAD `d742a9dc07c3` README SHA `2ed314906d92`. wustep/jev-playground ≠
+   AbnormalPilot/jev-playground ≠ mizchi/jev-playground.
+   [`Renwang-Huang/typesafe-mcp`](https://github.com/Renwang-Huang/typesafe-mcp)
+   0★ MIT Py HEAD `e42e006ee8b6` README SHA `8d305a9b01fe`.
+   Renwang-Huang/typesafe-mcp ≠ itsmostafa/typesafe-mcp. catalog ≠
+   endorsement.
+   hf:VishalMysore/layaForWeb. Quote *theirs*: Quantized ONNX conversion
+   of the English checkpoint of convaiinnovations/laya. serving substrate ≠
+   calibrated replica.
+   catalog ≠ endorsement. game success ≠ calibrated Noul. does not execute.
+   routing ≠ permission. *theirs* not Harbor.
+
+### Pulse (live REST this hour)
+
+Archer still promised_not_landed. Hub archerhume/4rcherhume HTTP **401**.
+intellyweave **76★**. openvons **13★**. beam-cli **11★**. patdown **11★**.
+typesafe-sdk-go **8★**. evoke **8★**. JevPokerBench **7★**. slop-grader
+**5★**. `invented_signal: false`.
+
+### Formal compose + anti-patterns
+
+Formal methods **compose** with scoring. A Noul is a SENSOR. A GLiNER
+span is locate, not decide. A finite-choice softmax is *theirs*. Treating
+OSINT entity extract as a verdict, openvons 0.916 as Harbor, poker chips
+as calibrated Noul, AgentBeam scores as hard gates, an unofficial Go SDK
+as logit-equivalent, a SHA move as a replica, or a retired name
+reservation as an implementation is soundness theater. Soft scores ≠ hard
+gates. game success ≠ calibrated Noul. does not execute. routing ≠
+permission. catalog ≠ endorsement. Locate ≠ decide. *theirs* not Harbor.
+SHA move is not a replica. retired name reservation is not a replica.
+
+### Adversarial review + testing hooks (Basit standing
+order)
+
+Parent merge only after **CLEAN** adversarial review **AND** testing.
+Hooks for the reviewer:
+
+- Uniqueness-gate: the consecutive `Hourly 0923 uniqueness lock:`
+  string must appear in every overlay listed below. Prior walls 0843 /
+  0915 / jcr / 0922 / 0940 / 0947 / 1049 / 1143 / 1248 / 1340 / 1441 /
+  1542 / 1643 / 1746 / 1843 / 1936 / Open-Jev densify / 1946 / 2049 /
+  2146 / 2246 / 2347 / 0049 / 0151 / 0248 / 0348 / 0445 / 0551 / 0707 /
+  0823 stay one substring each (do not mutate them; do not reopen
+  #23–#67).
+- Namesake locks: DreamBlooms/dohnuts.cpp ≠ PsiACE/dohnuts;
+  ClemensSchartmueller/jev-guard ≠ leepokai/jev-guard ≠ seb4ez/jevguard;
+  atharvamhaske/typesafe-sdk-go ≠ kisshan13/typesafe-ai-go ≠
+  stacklok/typesafe-go; PerryLink/laya-mcp ≠ wsargent/laya-mcp;
+  Alistair77/openjev ≠ Zefan-Cai/Open-Jev ≠ razorback16/openjev;
+  ai-ecoverse/kev.js ≠ jaredpalmer/kev;
+  inematds/laya ≠ convaiinnovations/laya ≠ NandhaKishorM/laya.
+- Densify vs new: genai-craft/openvons densify §68;
+  tyler-dot-earth/patdown densify §121;
+  evoke-build/evoke densify §139;
+  sumleo/prompt2jev densify §141.
+  Do not mint sibling first-sighting sections for those four.
+  lukstei/slop-grader and Andymulb/jev_the_philosopher are first cards
+  this hour (no prior notes card). PerryLink/layacore is a first card
+  for a retired name reservation.
+- Harbor-jevals: 4B frozen+head 0.916 / 27B zs 0.875 / 8 questions
+  22.6 ms / Median 275 ms / trolley 0.99 vs 0.78 / 11/11/7 of 29 stay
+  *theirs*, not Harbor.
+- Anti-patterns to refuse: GLiNER as decide; softmax as calibrated Noul;
+  poker chips as Harbor; AgentBeam as a hard gate; unofficial SDK as
+  logit-equiv; SHA move as a replica; retired name reservation as a
+  replica; copying keys / `npm` / `pip` / `uv` / `docker`.
+- Overlay set: SKILL.md body (protocol fragments + class-table densify
+  + Hourly 0923), mental-models Apply 0923, composition-algebra items
+  713–728, faq, mixed-architecture, validation, toolbox-mapping,
+  methods-catalog, formal-methods, formal-semi-formal,
+  applied-mappings, judgment-class, question-design,
+  agent-self-assessment, mappings, CHANGELOG, docs/ecosystem,
+  findings batch #126, refresh-log, changelog-hourly.md.
+  README is not an overlay (human README stops at License).
+  revisit_fingerprints.json (openvons densify §68, patdown densify §121,
+  evoke densify §139, prompt2jev densify §141, slop-grader first card,
+  philosopher first card, layacore retired-name first card, intellyweave /
+  beam-cli / typesafe-sdk-go / JevPokerBench first cards).
+- Offline check: `evaluate_decisions.py --self-test` (now includes
+  intellyweave GLiNER Locate ≠ decide / openvons softmax ≠ Noul /
+  pokerbench not Harbor / beam policy not sole veto / densify §121
+  not sibling / retired name is not a replica) and
+  `uniqueness_gate.py` (0843 + 0915 + jcr / 0922 / 0940 / 0947 /
+  1049 / 1143 / 1248 / 1340 / 1441 / 1542 / 1643 / 1746 / 1843 / 1936 /
+  Open-Jev densify / 1946 / 2049 / 2146 / 2246 / 2347 / 0049 / 0151 /
+  0248 / 0348 / 0445 / 0551 / 0707 / 0823 / 0923).
+  No live Jev key. No wrappers.
+
+**Hourly 0923 HIGH (`notes.md` §144).** intellyweave GLiNER OSINT. Locate ≠ decide. openvons finite choices + none. 4B frozen+head 0.916 vs 27B zs 0.875 *theirs*. 8 questions 22.6 ms *theirs*. softmax ≠ calibrated Noul. AgentBeam local security layer. soft scores ≠ hard gates. unofficial not affiliated. wire-compat ≠ logit-equiv. chips virtual. game success ≠ calibrated Noul. densify §121 not a sibling first sighting. densify §139 not a sibling first sighting. densify §141 not a sibling first sighting. Runs every rule against every line in parallel. No skimming. Median 275 ms. trolley 0.99 vs 0.78. 11/11/7 match/differ/undecided of 29 *theirs*. retired name reservation is not a replica. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#67. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.

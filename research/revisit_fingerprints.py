@@ -346,6 +346,8 @@ def self_test() -> None:
         "github:TianyuCodings/NanoJev": "115",
         "github:bespokelabsai/nimble": "35",
         "github:evoke-build/evoke": "139",
+        "github:tyler-dot-earth/patdown": "121",
+        "github:sumleo/prompt2jev": "141",
         "github:AbdelStark/awesome-typesafe-jev": "141",
         "hf:wayfind/metask-jev-4b-policy-mix": "134",
         "hf:ds:Praveenrajus/jev-bench": "125",
@@ -377,8 +379,19 @@ def self_test() -> None:
     assert nimble["default_sha"].startswith("f136b3f75721")
     assert by_id["github:bespokelabsai/nimble"]["notes_section"] == "35"
     evoke = by_id["github:evoke-build/evoke"]["fingerprints"]
-    assert evoke["default_sha"].startswith("ca8a311743fe")
+    assert evoke["default_sha"].startswith("50c9637ef11f")
     assert by_id["github:evoke-build/evoke"]["notes_section"] == "139"
+    patdown = by_id["github:tyler-dot-earth/patdown"]["fingerprints"]
+    assert patdown["default_sha"].startswith("8b2b2b591470")
+    assert by_id["github:tyler-dot-earth/patdown"]["notes_section"] == "121"
+    p2j = by_id["github:sumleo/prompt2jev"]["fingerprints"]
+    assert p2j["default_sha"].startswith("f3b6bc763b74")
+    assert by_id["github:sumleo/prompt2jev"]["notes_section"] == "141"
+    assert by_id["github:lukstei/slop-grader"]["notes_section"] == "144"
+    assert by_id["github:Andymulb/jev_the_philosopher"]["notes_section"] == "144"
+    assert by_id["github:PerryLink/layacore"]["notes_section"] == "144"
+    assert by_id["github:vericle/intellyweave"]["fingerprints"]["default_sha"].startswith("ff4152ce9d20")
+    assert by_id["github:genai-craft/openvons"]["notes_section"] == "68"
     gliner = by_id["github:47thtechcorner/RayCodes_GLiNER_V1_Multi"]["fingerprints"]
     assert gliner["default_sha"].startswith("485cf8045f73")
     assert by_id["github:47thtechcorner/RayCodes_GLiNER_V1_Multi"]["notes_section"] == "141"
