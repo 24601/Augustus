@@ -20,7 +20,7 @@
     "forks_count",
     "likes"
   ],
-  "note": "Last-look snapshots for already-catalogued sources. Hourly diffs these four fingerprints. Star-noise is not a fold. SHA move is not a replica. Seeded from merged notes (SemIf \u00a7117, NanoJev \u00a7115) plus hourly 1248 densify (openjev \u00a775, von \u00a749, verdict \u00a771, kev \u00a745, jeff \u00a760, TypeLLM \u00a7113) plus hourly 1340 densify (openjev sdk 0.7 + MLX 400, kev PLAN_Qwen35) plus hourly 1441 densify (openjev STE backends+Codiv dual serving) and 1441 first sightings plus hourly 1542 densify (TypeLLM README 3k\u219212k B, kev family new-source) and 1542 first sightings (pi-jev densify, jev-sentinel, tool-routers, leanest, jevals, MrJev, jev-firewall, jev-codex-approval, HF encoder/quanto). default_sha is the full HEAD. pushed_at is the GitHub push clock. description_hash is sha256[:12] of the GitHub/Space description, or null when notes do not quote it. README SHA is an optional extra, not a substitute for description_hash. plus hourly 1746 densify (TypeLLM truncated thinking + qwen35_small, kev 0.8B Qwen3.5 family, jev-pruner \u00a753, jevassert \u00a770, jev-packs \u00a764) and 1746 first sightings (vexjoy, Canny, jev-engineering, five-lines, jev-table, kev-ane) plus hourly 1843 densify (kev own-data JSONL / --init_from warm-start, SHA 8465c4c4c294 \u2192 bd058057ad0a) and 1843 first sightings (assay-001, kyegomez reconstruction, jev-ra, catalogs). plus user-provided 1936 first sightings (sgoedecke/system-one, mithalouni/system-one-open, kotoba-lang/typed-decisions).",
+  "note": "Last-look snapshots for already-catalogued sources. Hourly diffs these four fingerprints. Star-noise is not a fold. SHA move is not a replica. Seeded from merged notes (SemIf \u00a7117, NanoJev \u00a7115) plus hourly 1248 densify (openjev \u00a775, von \u00a749, verdict \u00a771, kev \u00a745, jeff \u00a760, TypeLLM \u00a7113) plus hourly 1340 densify (openjev sdk 0.7 + MLX 400, kev PLAN_Qwen35) plus hourly 1441 densify (openjev STE backends+Codiv dual serving) and 1441 first sightings plus hourly 1542 densify (TypeLLM README 3k\u219212k B, kev family new-source) and 1542 first sightings (pi-jev densify, jev-sentinel, tool-routers, leanest, jevals, MrJev, jev-firewall, jev-codex-approval, HF encoder/quanto). default_sha is the full HEAD. pushed_at is the GitHub push clock. description_hash is sha256[:12] of the GitHub/Space description, or null when notes do not quote it. README SHA is an optional extra, not a substitute for description_hash. plus hourly 1746 densify (TypeLLM truncated thinking + qwen35_small, kev 0.8B Qwen3.5 family, jev-pruner \u00a753, jevassert \u00a770, jev-packs \u00a764) and 1746 first sightings (vexjoy, Canny, jev-engineering, five-lines, jev-table, kev-ane) plus hourly 1843 densify (kev own-data JSONL / --init_from warm-start, SHA 8465c4c4c294 \u2192 bd058057ad0a) and 1843 first sightings (assay-001, kyegomez reconstruction, jev-ra, catalogs). plus user-provided 1936 first sightings (sgoedecke/system-one, mithalouni/system-one-open, kotoba-lang/typed-decisions). plus Open-Jev densify 2026-09-21 (github:Zefan-Cai/Open-Jev SHA 6d8de5ed72a0 → 4933ee84951f; README 771bf3135f50 → ce1a587219e4; HF 2B/9B packs + dataset last_look; densify §125 not a sibling).",
   "looks": [
     {
       "id": "github:TheoLeeCJ/SemIf",
@@ -169,14 +169,38 @@
     {
       "id": "github:Zefan-Cai/Open-Jev",
       "notes_section": "125",
-      "last_look": "2026-09-20T20:41Z",
+      "last_look": "2026-09-21T01:34Z",
       "fingerprints": {
-        "default_sha": "6d8de5ed72a09e56cc6ee331f9181ea6ab2a5858",
-        "pushed_at": "2026-09-20T20:42:40Z",
+        "default_sha": "4933ee84951f1a3b94b8be1f7490f02a4fa4ba24",
+        "pushed_at": "2026-09-21T01:34:47Z",
         "description_hash": null,
         "release_tag": null
       },
-      "readme_sha": "771bf3135f50fd08c8607b25d52e0549a130e025"
+      "readme_sha": "ce1a587219e4b9bcb5db3787a654f248d9a84b92"
+    },
+    {
+      "id": "hf:ZefanCai/Open-Jev-2B",
+      "notes_section": "125",
+      "last_look": "2026-09-21T01:34Z",
+      "fingerprints": {
+        "default_sha": "0c7aa498b1627be8da4acf34c863ff0ee0a92785",
+        "pushed_at": "2026-09-20T20:22:14.000Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": null
+    },
+    {
+      "id": "hf:ZefanCai/Open-Jev-9B",
+      "notes_section": "125",
+      "last_look": "2026-09-21T01:34Z",
+      "fingerprints": {
+        "default_sha": "47e966881e489511c0c7f5633a9e1960a676a551",
+        "pushed_at": "2026-09-20T20:22:28.000Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": null
     },
     {
       "id": "github:cristianoliveira/jeq",
@@ -982,7 +1006,7 @@
     {
       "id": "hf:ds:ZefanCai/Open-Jev",
       "notes_section": "125",
-      "last_look": "2026-09-20T22:43Z",
+      "last_look": "2026-09-21T01:34Z",
       "fingerprints": {
         "default_sha": "c67699e13d0ae25e35b77165a4b6b079bedc8aba",
         "pushed_at": "2026-09-20T22:49:59.000Z",

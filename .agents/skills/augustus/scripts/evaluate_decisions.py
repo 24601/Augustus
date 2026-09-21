@@ -29,6 +29,11 @@ Also reports (when asked, and always in --self-test):
   * typesafe-sdk 0.7 Pydantic response models are not logit-equiv
   * MLX SchemaError 400 plain-string is the same contract as vLLM
   * coverage-at-error-budget stays *theirs* (not Harbor)
+  * systems latency is not semantic equivalence (Open-Jev vs Jev P50)
+  * hard accuracy is not a calibrated Noul
+  * LoRA + scalar-head packs are not merged base models
+  * prefix caching experimental/off by default
+  * TREC-DL Jev/Luna/Astra completed; Open-Jev TREC pending
 
 Select thresholds on one split, evaluate on another: run twice with different
 files. Missing labels or costs produce a stated limitation, not defaults.
@@ -521,7 +526,38 @@ def soft_scores_are_not_hard_gates(score, hard_gate=False):
     if not (0.0 <= score <= 1.0 or score > 1.0):
         raise ValueError("unexpected score")
     return hard_gate is False
+def systems_latency_is_not_semantic_equivalence(lat_a_ms, lat_b_ms, claimed_equiv=False):
+    """Observed deployment latency is not semantic equivalence."""
+    if lat_a_ms <= 0 or lat_b_ms <= 0:
+        raise ValueError("latencies must be positive")
+    return claimed_equiv is False
 
+
+def hard_acc_is_not_calibrated_noul(hard_acc, noul_claimed=False):
+    """Hard accuracy on synthetic rows ≠ calibrated Noul."""
+    if not (0.0 <= hard_acc <= 1.0):
+        raise ValueError("acc must be a rate")
+    return noul_claimed is False
+
+
+def lora_pack_is_not_merged_base(kind, merged=False):
+    """Open-Jev 2B/9B packs are LoRA + scalar head, not merged base models."""
+    if kind != "lora_plus_scalar_head":
+        return False
+    return merged is False
+
+
+def prefix_cache_off_by_default(enabled=False, experimental=True):
+    """Prefix caching is experimental and off by default."""
+    return enabled is False and experimental is True
+
+
+def open_jev_trec_is_pending(completed_providers, open_jev_done=False):
+    """TREC-DL Jev/Luna/Astra completed. Open-Jev TREC pending."""
+    expected = {"jev", "luna", "astra"}
+    if set(completed_providers) != expected:
+        raise ValueError("unexpected providers")
+    return open_jev_done is False
 def hop_ece_permutation_invariant(rows, bins=10, key="p"):
     """Shuffle order; equal-width ECE must not move.
 
@@ -744,6 +780,25 @@ def self_test():
     assert not soft_scores_are_not_hard_gates(0.767, True)
     assert theirs_bench_is_not_harbor(343, "mithalouni-76.7-vs-jev-86.9")
     assert theirs_bench_is_not_harbor(1500, "kotoba-deberta-0.855-42ms")
+    # Open-Jev densify §125: systems latency ≠ semantic equivalence /
+    # hard acc ≠ calibrated Noul / LoRA pack ≠ merged base /
+    # prefix cache off / TREC pending / *theirs* not Harbor.
+    assert systems_latency_is_not_semantic_equivalence(85.03, 295.26, False)
+    assert not systems_latency_is_not_semantic_equivalence(85.03, 295.26, True)
+    assert systems_latency_is_not_semantic_equivalence(1015.90, 301.37, False)
+    assert hard_acc_is_not_calibrated_noul(0.9471, False)
+    assert not hard_acc_is_not_calibrated_noul(0.9471, True)
+    assert lora_pack_is_not_merged_base("lora_plus_scalar_head", False)
+    assert not lora_pack_is_not_merged_base("lora_plus_scalar_head", True)
+    assert prefix_cache_off_by_default(False, True)
+    assert not prefix_cache_off_by_default(True, True)
+    assert open_jev_trec_is_pending(("jev", "luna", "astra"), False)
+    assert not open_jev_trec_is_pending(("jev", "luna", "astra"), True)
+    assert type_valid_is_not_exact(True, False)
+    assert lora_is_not_rlcd_replica("lora_plus_scalar_head", False)
+    assert theirs_bench_is_not_harbor(85, "open-jev-cs-p50-85ms")
+    assert theirs_bench_is_not_harbor(1015, "open-jev-1024-32-1015ms")
+    assert theirs_bench_is_not_harbor(97, "trec-dl-jev-luna-astra")
 
     print("self-test ok")
 
