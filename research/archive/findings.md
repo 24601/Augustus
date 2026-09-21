@@ -2,12 +2,12 @@
 
 ## Batch #131 (2026-09-21 ~13:52 Boise / ~19:52 UTC) - hourly 1352 HIGH
 
-Note: `research/notes.md` §151. Fresh fold off current `main` (`6ef49bc`,
-lev §149 / merged #76). Hourly 1203 stays §148 / items 761-776 / batch #129.
-Open PR #75 claims §150 / composition 777-792 / batch #130. This fold does
-not push onto that branch and does not reclaim those IDs.
+Note: `research/notes.md` §151. Rebased onto post-#75 `main` (`bdb0acb`).
+glance §147, hourly 1203 §148, lev §149, and hourly 1256 §150 are on main.
+This fold is §151 only. Do not reclaim §147–§150.
+Hourly 1256 stays §150 / composition 777-792 / batch #130.
 This fold stays §151 / items 793-808 / batch #131.
-**HARD RULE:** do not reopen or amend PR #23 through #76. Do not push onto open #75.
+**HARD RULE:** do not reopen or amend PR #23 through #76.
 Quote READMEs / Hub cards. Mark *theirs*. Parent merges only after ADV_PASS.
 Soft judgment never sole veto. `invented_signal: false`.
 The uniqueness lock lives in `research/notes.md` and `uniqueness_gate.py` only.

@@ -1,7 +1,8 @@
 ## 2026-09-21 ~19:52 UTC / ~13:52 Boise - Hourly 1352 HIGH
-- Fresh fold off current `main` (`6ef49bc`, lev / `notes.md` §149 / merged #76).
+- Rebased onto post-#75 `main` (`bdb0acb`). glance §147, hourly 1203 §148,
+  lev §149, and hourly 1256 §150 are on main. This fold is §151 only.
   This fold: `notes.md` §151 / composition 793-808 / findings batch #131.
-  Open PR #75 claims §150 / 777-792 / #130. Do not push onto that branch.
+  Do not reclaim §147–§150.
   **HARD RULE:** do not reopen or amend PR #23 through #76.
 - PRIMARY: benjamincanac/tia. Jev decides, generator writes, code owns irreversible.
   MorrisZJ/AnyJev: L0 is not calibration. *theirs* not Harbor.

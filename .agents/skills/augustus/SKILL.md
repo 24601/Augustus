@@ -644,7 +644,8 @@ Soft judgment never sole veto.
 catalog ≠ endorsement. *theirs* not Harbor.
 hourly 1352 / notes.md §151
 Parent merges only after ADV_PASS.
-Do not reopen or amend PR #23 through #76. Do not push onto open #75.
+glance §147, hourly 1203 §148, lev §149, and hourly 1256 §150 are on main. This fold is §151 only.
+Do not reopen or amend PR #23 through #76. Do not reclaim §147–§150.
 Does not bump 0.5.1. Skip Archer.
 `invented_signal: false`.
 The uniqueness lock lives in `research/notes.md` and the uniqueness gate fixture only.

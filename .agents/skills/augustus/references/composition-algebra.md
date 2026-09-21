@@ -4425,7 +4425,8 @@ Soft Noul ≠ hard safety.
      Full cards: `research/notes.md` §151.
 808. **skip Archer** (promised_not_landed):
      Archer still promised_not_landed. Parent merges only after ADV_PASS.
-     do not push onto open #75. notes.md §151.
+     glance §147, hourly 1203 §148, lev §149, and hourly 1256 §150 are on main. This fold is §151 only.
+     notes.md §151.
      Full cards: `faq.md`.
 
 
