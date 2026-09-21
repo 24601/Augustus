@@ -83,6 +83,20 @@ the source card; do not treat this page as a leaderboard.
 - **Measure.** Suitability / compatibility labels and human review of
   generated criteria. Not "equivalent behavior."
 
+
+### Domain adapt — GEPA on Jev
+
+- **Problem.** A schema-valid Choice is assumed correct, or API confidence is
+  treated as P(correct), or F1 is treated as a review-queue policy.
+- **Without.** Ship the adapted prompt. Treat GEPA as a new scoring-table
+  species.
+- **With.** schema-valid is not the same as correct. API confidence is not
+  P(correct). GEPA revises Choice instructions/criteria with weights fixed.
+  jev-1.13.0 weights fixed. review-queue policy is not F1. Soft is not gate.
+  Not an 18th scoring-table species.
+- **Measure.** Brier 0.1357→0.0747 *theirs*. F1 69.1%→79.7% *theirs*. FN 4→6.
+  Retention of positives under the review cutoff is a different ledger.
+
 ### Capability lookup — jcr
 
 - **Problem.** Finding a documented command is treated as permission to

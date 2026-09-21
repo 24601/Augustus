@@ -20,7 +20,7 @@
     "forks_count",
     "likes"
   ],
-  "note": "Last-look snapshots for already-catalogued sources. Hourly diffs these four fingerprints. Star-noise is not a fold. SHA move is not a replica. Seeded from merged notes (SemIf \u00a7117, NanoJev \u00a7115) plus hourly 1248 densify (openjev \u00a775, von \u00a749, verdict \u00a771, kev \u00a745, jeff \u00a760, TypeLLM \u00a7113) plus hourly 1340 densify (openjev sdk 0.7 + MLX 400, kev PLAN_Qwen35) plus hourly 1441 densify (openjev STE backends+Codiv dual serving) and 1441 first sightings plus hourly 1542 densify (TypeLLM README 3k\u219212k B, kev family new-source) and 1542 first sightings (pi-jev densify, jev-sentinel, tool-routers, leanest, jevals, MrJev, jev-firewall, jev-codex-approval, HF encoder/quanto). default_sha is the full HEAD. pushed_at is the GitHub push clock. description_hash is sha256[:12] of the GitHub/Space description, or null when notes do not quote it. README SHA is an optional extra, not a substitute for description_hash. plus hourly 1746 densify (TypeLLM truncated thinking + qwen35_small, kev 0.8B Qwen3.5 family, jev-pruner \u00a753, jevassert \u00a770, jev-packs \u00a764) and 1746 first sightings (vexjoy, Canny, jev-engineering, five-lines, jev-table, kev-ane) plus hourly 1843 densify (kev own-data JSONL / --init_from warm-start, SHA 8465c4c4c294 \u2192 bd058057ad0a) and 1843 first sightings (assay-001, kyegomez reconstruction, jev-ra, catalogs). plus user-provided 1936 first sightings (sgoedecke/system-one, mithalouni/system-one-open, kotoba-lang/typed-decisions). plus Open-Jev densify 2026-09-21 (github:Zefan-Cai/Open-Jev SHA 6d8de5ed72a0 \u2192 4933ee84951f; README 771bf3135f50 \u2192 ce1a587219e4; HF 2B/9B packs + dataset last_look; densify \u00a7125 not a sibling) plus hourly 1946 densify (alexwestco/llm-to-jev description rewrite Convert LLM prompts to Jev prompts, SHA unchanged 234058ab372d, 3\u2605) and 1946 first sightings (X-sentiment, awesome-jev 485, jev-arena, robot-control, Qwen3.8-JevLike, jev-acento). plus hourly 2049 densify (kev night-2 PLAN SHA 8d77dd271c66 HEAD c096660c8da2, kotoba OpenJev runtime HEAD ff7f84e74d04 notes_section 130). plus hourly 2146 densify (Zefan-Cai/Open-Jev SHA 4933ee84951f\u2192a00559ea0ab2 README unchanged ce1a587219e4 provider quality pipeline; tinmanlab/cartpole-jev HEAD 922cc61490a0 notes_section 121; xuboboo/ashare-trader HEAD 26c7e95e6828 notes_section 120; gauravsaini/kevin first card notes_section 133). plus hourly 2246 densify (Open-Jev TREC prep HEAD 48346d0630f1 README SHA unchanged, TypeLLM PyPI 0.1.1 HEAD 8a8b4aefd443, simple-jev first card b02aa81c915a) plus hourly 0049 densify (Open-Jev JevBench public-subset HEAD 48346d0630f1\u2192f46ff604f794 README ce1a587219e4\u2192e32c4bbd519c; kev night-2 35B HEAD c096660c8da2\u2192e0bcf50153f1 README unchanged 84b872488915) and 0049 first sightings (jev-browser-use, gargpratyush/jev-router, JevRouter, daseinlabs/open-jev, jev-recruiter, jevcal, system-one-gemma). plus hourly 0248 first sightings (tacticocc/Jevbridge, tshmieldev/sharp, kavehmz/typesafe-playground, himomohi/aside-jev, nico-martin/open-jev; GLiClass Hub class-peer notes_section 138) plus hourly 0348 densify (moritzkremb/jev-voice-browser HEAD 054db0f3\u2192198a0764395a README fa033303\u2192816309fc22e6 context is the conversation so far densify \u00a782; luantak/is-malicious A clean report is not proof does not sandbox) and 0348 first sightings (open-cricket, jev-decision-arena, typesafe-ai-test, werr, OpenJev-Kit; notes_section 139). plus hourly 0445 densify (TianyuCodings/NanoJev SHA 618cea6d\u219276fdfc9e README 4190093c64ee\u2192a8f8afeb7e44 Add JevHarness project link densify \u00a7115) and 0445 first sightings (lcc, Jev-Compatible, any2jev, jev-synthetic-survey, jev-arcade, rlcd, AXERA-TECH/Laya, openjev-MLX-4bit; notes_section 140). plus hourly 0551 densify (kev Night-2 HEAD e0bcf50153f1\u21924f8110a3f862 README 84b872488915\u2192d497d4b89427 v7-base tags densify \u00a745; nimble HEAD f136b3f75721 densify \u00a735; evoke HEAD 310840b56f1d\u2192ca8a311743fe densify \u00a7139; GLiNER description rewrite; APUS-OpenJev / Jev-Vision first cards; notes_section 141) plus hourly 0707 densify (AbdelStark/awesome-typesafe-jev HEAD a6a68b57888a\u2192d6ea2a0d6cf4 README e47993484e3a\u2192234ae59a0b16 The field guide to typed decisions densify \u00a7141; hf:ds:Praveenrajus/jev-bench HTTP 401 was 200 densify \u00a7107/\u00a7125 remainder; hf:wayfind/metask-jev-4b-policy-mix sha 5ecdd272ab4a densify \u00a7134) and 0707 first sightings (Sac-Y/Jev-cu, tax-doc-classifier, typesafe-mario, mobile-jev, pg-jev, skillbox, typesafe-mcp, jev-no-enem; notes_section 142). plus hourly 0823 densify (dohnuts \u00a7137 MODEL_CARD + JevBench 65.80%, laya-drift \u00a7142 description rewrite, jev-ultrafast \u00a74 description rewrite) and 0823 first sightings (FluidUse, third-hand, official SDK GitHub faces, mini-jev, a3m-router, jev-benchmarks, pii-masker first card).",
+  "note": "Last-look snapshots for already-catalogued sources. Hourly diffs these four fingerprints. Star-noise is not a fold. SHA move is not a replica. Seeded from merged notes (SemIf \u00a7117, NanoJev \u00a7115) plus hourly 1248 densify (openjev \u00a775, von \u00a749, verdict \u00a771, kev \u00a745, jeff \u00a760, TypeLLM \u00a7113) plus hourly 1340 densify (openjev sdk 0.7 + MLX 400, kev PLAN_Qwen35) plus hourly 1441 densify (openjev STE backends+Codiv dual serving) and 1441 first sightings plus hourly 1542 densify (TypeLLM README 3k\u219212k B, kev family new-source) and 1542 first sightings (pi-jev densify, jev-sentinel, tool-routers, leanest, jevals, MrJev, jev-firewall, jev-codex-approval, HF encoder/quanto). default_sha is the full HEAD. pushed_at is the GitHub push clock. description_hash is sha256[:12] of the GitHub/Space description, or null when notes do not quote it. README SHA is an optional extra, not a substitute for description_hash. plus hourly 1746 densify (TypeLLM truncated thinking + qwen35_small, kev 0.8B Qwen3.5 family, jev-pruner \u00a753, jevassert \u00a770, jev-packs \u00a764) and 1746 first sightings (vexjoy, Canny, jev-engineering, five-lines, jev-table, kev-ane) plus hourly 1843 densify (kev own-data JSONL / --init_from warm-start, SHA 8465c4c4c294 \u2192 bd058057ad0a) and 1843 first sightings (assay-001, kyegomez reconstruction, jev-ra, catalogs). plus user-provided 1936 first sightings (sgoedecke/system-one, mithalouni/system-one-open, kotoba-lang/typed-decisions). plus Open-Jev densify 2026-09-21 (github:Zefan-Cai/Open-Jev SHA 6d8de5ed72a0 \u2192 4933ee84951f; README 771bf3135f50 \u2192 ce1a587219e4; HF 2B/9B packs + dataset last_look; densify \u00a7125 not a sibling) plus hourly 1946 densify (alexwestco/llm-to-jev description rewrite Convert LLM prompts to Jev prompts, SHA unchanged 234058ab372d, 3\u2605) and 1946 first sightings (X-sentiment, awesome-jev 485, jev-arena, robot-control, Qwen3.8-JevLike, jev-acento). plus hourly 2049 densify (kev night-2 PLAN SHA 8d77dd271c66 HEAD c096660c8da2, kotoba OpenJev runtime HEAD ff7f84e74d04 notes_section 130). plus hourly 2146 densify (Zefan-Cai/Open-Jev SHA 4933ee84951f\u2192a00559ea0ab2 README unchanged ce1a587219e4 provider quality pipeline; tinmanlab/cartpole-jev HEAD 922cc61490a0 notes_section 121; xuboboo/ashare-trader HEAD 26c7e95e6828 notes_section 120; gauravsaini/kevin first card notes_section 133). plus hourly 2246 densify (Open-Jev TREC prep HEAD 48346d0630f1 README SHA unchanged, TypeLLM PyPI 0.1.1 HEAD 8a8b4aefd443, simple-jev first card b02aa81c915a) plus hourly 0049 densify (Open-Jev JevBench public-subset HEAD 48346d0630f1\u2192f46ff604f794 README ce1a587219e4\u2192e32c4bbd519c; kev night-2 35B HEAD c096660c8da2\u2192e0bcf50153f1 README unchanged 84b872488915) and 0049 first sightings (jev-browser-use, gargpratyush/jev-router, JevRouter, daseinlabs/open-jev, jev-recruiter, jevcal, system-one-gemma). plus hourly 0248 first sightings (tacticocc/Jevbridge, tshmieldev/sharp, kavehmz/typesafe-playground, himomohi/aside-jev, nico-martin/open-jev; GLiClass Hub class-peer notes_section 138) plus hourly 0348 densify (moritzkremb/jev-voice-browser HEAD 054db0f3\u2192198a0764395a README fa033303\u2192816309fc22e6 context is the conversation so far densify \u00a782; luantak/is-malicious A clean report is not proof does not sandbox) and 0348 first sightings (open-cricket, jev-decision-arena, typesafe-ai-test, werr, OpenJev-Kit; notes_section 139). plus hourly 0445 densify (TianyuCodings/NanoJev SHA 618cea6d\u219276fdfc9e README 4190093c64ee\u2192a8f8afeb7e44 Add JevHarness project link densify \u00a7115) and 0445 first sightings (lcc, Jev-Compatible, any2jev, jev-synthetic-survey, jev-arcade, rlcd, AXERA-TECH/Laya, openjev-MLX-4bit; notes_section 140). plus hourly 0551 densify (kev Night-2 HEAD e0bcf50153f1\u21924f8110a3f862 README 84b872488915\u2192d497d4b89427 v7-base tags densify \u00a745; nimble HEAD f136b3f75721 densify \u00a735; evoke HEAD 310840b56f1d\u2192ca8a311743fe densify \u00a7139; GLiNER description rewrite; APUS-OpenJev / Jev-Vision first cards; notes_section 141) plus hourly 0707 densify (AbdelStark/awesome-typesafe-jev HEAD a6a68b57888a\u2192d6ea2a0d6cf4 README e47993484e3a\u2192234ae59a0b16 The field guide to typed decisions densify \u00a7141; hf:ds:Praveenrajus/jev-bench HTTP 401 was 200 densify \u00a7107/\u00a7125 remainder; hf:wayfind/metask-jev-4b-policy-mix sha 5ecdd272ab4a densify \u00a7134) and 0707 first sightings (Sac-Y/Jev-cu, tax-doc-classifier, typesafe-mario, mobile-jev, pg-jev, skillbox, typesafe-mcp, jev-no-enem; notes_section 142). plus hourly 0823 densify (dohnuts \u00a7137 MODEL_CARD + JevBench 65.80%, laya-drift \u00a7142 description rewrite, jev-ultrafast \u00a74 description rewrite) and 0823 first sightings (FluidUse, third-hand, official SDK GitHub faces, mini-jev, a3m-router, jev-benchmarks, pii-masker first card). plus hourly 1019 densify (jev-jarvis \u00a7144 HEAD be68dd7993f0\u2192a94e3b967ef5 README efe7e47a6fe8\u2192e441335b1df0; Nyarlathoteppppp/pi-jev-context \u00a7134 HEAD f0128a86478f\u219296371e2bf144) and 1019 first sightings (praneeth16 GEPA, aliaihub/awesome-jev-usecases, rezoch340/jev-chat-JARVIS-windows, iamvatsalpatel/tiershift, Bring-AI/jev-rl, daniel4x/JevEmon, jebii/factlabel first cards; notes_section 145).",
   "looks": [
     {
       "id": "github:TheoLeeCJ/SemIf",
@@ -3667,6 +3667,1390 @@
       },
       "readme_sha": "f78b73d21cf7e81516701791a5d5e75766f92a90",
       "note": "0923 first card retired name reservation; not a replica"
+    },
+    {
+      "id": "github:aliaihub/awesome-jev-usecases",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "6cbde6bd35694608f57048c08b34333f33c6e409",
+        "pushed_at": "2026-09-21T15:36:53Z",
+        "description_hash": "6c31004e3f97",
+        "release_tag": null
+      },
+      "readme_sha": "7ea135c6345d9ead750f3852dde8e481b05e6f9b"
+    },
+    {
+      "id": "github:rezoch340/jev-chat-JARVIS-windows",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "26b686301437547b4738a85e448e55d230c8e585",
+        "pushed_at": "2026-09-21T16:28:08Z",
+        "description_hash": "01655e9562b8",
+        "release_tag": null
+      },
+      "readme_sha": "0714736b68c3d3d7227287394a72d11af9e3daee"
+    },
+    {
+      "id": "github:iamvatsalpatel/tiershift",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "16a0826b9f62eba6699240c4b53a7237a8c41617",
+        "pushed_at": "2026-09-21T13:02:14Z",
+        "description_hash": "14b9ccf94b0b",
+        "release_tag": null
+      },
+      "readme_sha": "46fcb1cb191bc853b36558641d37b991a8f8c1fd"
+    },
+    {
+      "id": "github:Bring-AI/jev-rl",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "36f89cec85a20ed4e667945b7fd3aa0e4c3c20d6",
+        "pushed_at": "2026-09-21T16:19:03Z",
+        "description_hash": "3ce9cbb15419",
+        "release_tag": null
+      },
+      "readme_sha": "6283da6011b7ea8760958f2378cb1d882a451f38"
+    },
+    {
+      "id": "github:daniel4x/JevEmon",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "572454c69bf791f766ece736ffa6d6c954c6a075",
+        "pushed_at": "2026-09-21T13:25:04Z",
+        "description_hash": "15ec5cd9edd4",
+        "release_tag": null
+      },
+      "readme_sha": "8fc00d12848d35f735446ee5c8d8496eeae8fd23"
+    },
+    {
+      "id": "github:spoonnotfound/soupbase",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "3e874e83e7102a5369e37bd06009573fb773c392",
+        "pushed_at": "2026-09-21T16:21:27Z",
+        "description_hash": "97cc2a1561ba",
+        "release_tag": null
+      },
+      "readme_sha": "3106bc96d6ab42723ee4d9e02e162bf7d2df1585"
+    },
+    {
+      "id": "github:Nabsku/pi-follow-through",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "c62ef28ff4aca70ea5ffcde7836c91d3e8c1c42e",
+        "pushed_at": "2026-09-21T16:08:04Z",
+        "description_hash": "884223fd54b7",
+        "release_tag": null
+      },
+      "readme_sha": "64000451b79eade4954867a7c8f8b0560a0d3cc8"
+    },
+    {
+      "id": "github:dashbi1/jev-sim",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "753c7397d73ca98df90101ad4bdf8ce7fc35bce2",
+        "pushed_at": "2026-09-21T12:54:39Z",
+        "description_hash": "b3e97af82fc0",
+        "release_tag": null
+      },
+      "readme_sha": "05fd960799d2337c5915b6142d508e21178d0b29"
+    },
+    {
+      "id": "github:newuser7171/jev-gamepilot",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "427c9497df4e9e4dc9b50a8cb7108418b8a10b79",
+        "pushed_at": "2026-09-21T16:16:57Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "e23f170307838b635f7df796412747921a15d44b"
+    },
+    {
+      "id": "github:sungatetop/Jev-robot",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "098521ef76126787fc2d1daa96c60a19212a4d12",
+        "pushed_at": "2026-09-21T15:33:58Z",
+        "description_hash": "8c557141b2ae",
+        "release_tag": null
+      },
+      "readme_sha": "d35786938d85649a7f6e629c8aef14aef1bf7c97"
+    },
+    {
+      "id": "github:007M7/jev-chat",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "3c884c7cff88071c036c40c2b5ad2f3ff9c84f79",
+        "pushed_at": "2026-09-21T16:28:54Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "12d6cd2e2e0c03ad2b0dc35eff70e2109553e519"
+    },
+    {
+      "id": "github:Adkid-Zephyr/chinese-workflow-decision-bench",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "6d0a7c2af303eea2c41ac79265e8affeaa18b003",
+        "pushed_at": "2026-09-21T16:29:21Z",
+        "description_hash": "6f547efe542b",
+        "release_tag": null
+      },
+      "readme_sha": "4ed71a36cd5107e5412fe8f3b0cb9fd351cae5d9"
+    },
+    {
+      "id": "github:Ahmadnmic/autocorrecter",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "f57c55cec7f35df8d0728d023cc984733bdfcb54",
+        "pushed_at": "2026-09-21T16:22:48Z",
+        "description_hash": "3f71787f8008",
+        "release_tag": null
+      },
+      "readme_sha": "af9d01de4a285bbebeb455dc63b924b001ab1ac5"
+    },
+    {
+      "id": "github:Anmol-Srv/jev-video-search",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "979c6500175be529073def053a233909b54713ff",
+        "pushed_at": "2026-09-21T15:00:39Z",
+        "description_hash": "8cd4b450a8e2",
+        "release_tag": null
+      },
+      "readme_sha": "a468945e04b8a022196ea38401f3eb3bfeb920d6"
+    },
+    {
+      "id": "github:Anson-gzy/jev-paste",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "eb7772b3d6aa876b77b303bea11cc427c96591ad",
+        "pushed_at": "2026-09-21T14:36:44Z",
+        "description_hash": "a7602f60b42c",
+        "release_tag": null
+      },
+      "readme_sha": "26f2fe9e5f9e85f0fdb16d91bad8bd1face4c4d9"
+    },
+    {
+      "id": "github:AnyEvalOrg/eval-jevbench",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "47f190a28519f7c266e23e2e1b89a72e027291a4",
+        "pushed_at": "2026-09-20T23:56:00Z",
+        "description_hash": "aa2c31c06c20",
+        "release_tag": null
+      },
+      "readme_sha": "6b33bed5472910223785917faeb1f13cdb11aa5f"
+    },
+    {
+      "id": "github:AravDharnikota/apush-debate-jev",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "b05c23457c839814fec02697ae0fe98c0433dee2",
+        "pushed_at": "2026-09-21T16:09:59Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "d6f9bc4f01a25b2670faa9fe477b48e21452928c"
+    },
+    {
+      "id": "github:BrunoAccorsi/reflex-lab",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "d181133f0194eca11e1d30dc5492aacdfb265db8",
+        "pushed_at": "2026-09-21T16:18:45Z",
+        "description_hash": "24067c203026",
+        "release_tag": null
+      },
+      "readme_sha": "946266267f847a91aba357d872c50caf18b9d3b2"
+    },
+    {
+      "id": "github:DanielTea/screenquest",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "19441909fd16a280ec11f12630e6d1d34af17e20",
+        "pushed_at": "2026-09-21T16:16:06Z",
+        "description_hash": "f8927c1b57d0",
+        "release_tag": null
+      },
+      "readme_sha": "22aca34d8c8564655ba076b52d4e26adef5277e0"
+    },
+    {
+      "id": "github:DeadPackets/UnitedStatesOfJev",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "73851f38746b5a9623e7e471f6b94095e28bb039",
+        "pushed_at": "2026-09-21T16:12:51Z",
+        "description_hash": "fadc3c6ccfde",
+        "release_tag": null
+      },
+      "readme_sha": "7622d2e66cb98d74ecb654dcbd7fa91b78576501"
+    },
+    {
+      "id": "github:F0Rextasy/omp-marketplace",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "c9a8c0cc2d1d325d0410812501bdcf5b04c7d886",
+        "pushed_at": "2026-09-21T15:59:39Z",
+        "description_hash": "dac00b638407",
+        "release_tag": null
+      },
+      "readme_sha": "1b930d895644e6f3813c572720e6e0c2f523e5bf"
+    },
+    {
+      "id": "github:FavianDT/layanan-fakultas-v1.0",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "480485fbbb6701b5c51cdb5b1daf18c1b19f4250",
+        "pushed_at": "2026-09-21T15:43:39Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "30f8a8421cfd25c5e91e08cd3015eca3fef8ee22"
+    },
+    {
+      "id": "github:Kelwing/laya-candle",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "a7953cd2d403e55313cb314cbadb837c272ca49a",
+        "pushed_at": "2026-09-21T16:10:55Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "28d463e27d7587b61f790386709f8a825710180e"
+    },
+    {
+      "id": "github:Kourin1996/jev-playground",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "7872b7d8dbb4585b6730427c02c42e6834b24f39",
+        "pushed_at": "2026-09-21T16:25:57Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "6e5dd98e2f78aac1ace645712ad95d679357090a"
+    },
+    {
+      "id": "github:LuisSleepy/layag-cms-auth",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "c7974014fa52c9ea3875455bdf5802885d3fbee5",
+        "pushed_at": "2026-09-21T16:21:19Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "1034760458e177732a36ac98f9d9d23b28172e0c"
+    },
+    {
+      "id": "github:Madikhan33/jev_codex",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "14dffbc7ab7081ff802dfc2a5bfb0803f4f6c7c1",
+        "pushed_at": "2026-09-21T16:12:31Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "7dec08deadf68d74aa7f9038b1e6002a687b53f3"
+    },
+    {
+      "id": "github:NoNFake/job-classifier-search",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "deeda7a55bcb38d1c53bb6054fd2b27dd603ebb3",
+        "pushed_at": "2026-09-21T16:15:49Z",
+        "description_hash": "0ae7cc9913a8",
+        "release_tag": null
+      },
+      "readme_sha": "813fa44bf5ff3b6b9e58038a2a5c7618c01c23e4"
+    },
+    {
+      "id": "github:ShiqinGuo/jev4jobhunter",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "d11712778d830c3129b07046e4790082cd7aff6c",
+        "pushed_at": "2026-09-21T15:42:24Z",
+        "description_hash": "2e86b19bf3ef",
+        "release_tag": null
+      },
+      "readme_sha": "7ad14d8e6d48f00cd09bc5fc3a26209c79e788a2"
+    },
+    {
+      "id": "github:TakumiNoguchi2004/jev-noul-vs-choice",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "9427234a4d119d86eb98ee86ee1bc27d7503c32f",
+        "pushed_at": "2026-09-21T16:27:43Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "5da03fa6310595f438e1fa7b37033272bd332286"
+    },
+    {
+      "id": "github:TerryAragorn/aliexpress-selection-first-principles",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "885b4afb8b5a5bd2cdff64a918a1741af08beae9",
+        "pushed_at": "2026-09-21T15:58:27Z",
+        "description_hash": "6c64583eeb0b",
+        "release_tag": null
+      },
+      "readme_sha": "0427dfb3c5d2d078141384364e1be6f98e278c23"
+    },
+    {
+      "id": "github:Unnati-23/jev-typesafe-guide",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "1fb513cf4486719239482589f2e1c560abea397a",
+        "pushed_at": "2026-09-21T16:11:54Z",
+        "description_hash": "3c337357db71",
+        "release_tag": null
+      }
+    },
+    {
+      "id": "github:Uri-cyber/typesafe-agent",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "8ce62a8596e39fd59b87fff2ca74510e6508d675",
+        "pushed_at": "2026-09-21T15:55:35Z",
+        "description_hash": "e7b20a5b7606",
+        "release_tag": null
+      },
+      "readme_sha": "1177c5583771a73feeb323443385073a856d1621"
+    },
+    {
+      "id": "github:XMoyas/web_attack_detection_jev",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "eaaabe290f2ee070f39ed3486b5a00d2caf6d4a9",
+        "pushed_at": "2026-09-21T16:02:43Z",
+        "description_hash": "88102890e94f",
+        "release_tag": null
+      },
+      "readme_sha": "6059cace37bd5d12baa3c86891c63f9af9bad4cc"
+    },
+    {
+      "id": "github:YiLight0/paperfocus",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "a1f5f9761e7931dc8cfd611cabb74455275f6e22",
+        "pushed_at": "2026-09-21T16:11:26Z",
+        "description_hash": "344670488d76",
+        "release_tag": null
+      },
+      "readme_sha": "4ebcb0d8b9b62057c02f00ff9d675effd2b277cb"
+    },
+    {
+      "id": "github:Yushenggg/zero-shot-classifier",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "841aeb422fc179fc15047b2e12a6e1b31d4ae54a",
+        "pushed_at": "2026-09-21T16:27:15Z",
+        "description_hash": "61af366d834d",
+        "release_tag": null
+      },
+      "readme_sha": "cc3c8d24af6a1b128dd421b4412b2e8ab0b19568"
+    },
+    {
+      "id": "github:aakgna/jevcal",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "166992c72fab970eeb3d7c82ffda3ad943d7c641",
+        "pushed_at": "2026-09-21T16:14:37Z",
+        "description_hash": "5bd8b3957f79",
+        "release_tag": null
+      },
+      "readme_sha": "d90a1be99c92684e5087bab0e4ce954ccf55c013"
+    },
+    {
+      "id": "github:aaronmeis/learn-jev",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "6487461db5426a99f37c9df964660330b5cd1577",
+        "pushed_at": "2026-09-21T16:29:09Z",
+        "description_hash": "6edbd947795e",
+        "release_tag": null
+      },
+      "readme_sha": "fa8e48dc05b4eac9bb51b00a4274812273f0f42e"
+    },
+    {
+      "id": "github:adams100111/typesafe-php",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "7135ea57f02d6b42bf014fc7d0a90d5236c3e932",
+        "pushed_at": "2026-09-21T15:54:06Z",
+        "description_hash": "2cab10ece9ba",
+        "release_tag": null
+      },
+      "readme_sha": "54f437628aefbca91081100d042ff8e03c4dffb1"
+    },
+    {
+      "id": "github:ai-ecoverse/cua-s1.js",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "bada56793d3dacb508391765c5f4e242cb076fec",
+        "pushed_at": "2026-09-21T16:15:25Z",
+        "description_hash": "520b829c8cf9",
+        "release_tag": null
+      },
+      "readme_sha": "2df8d03e97ed0983d9a2c97089736007d67dabd3"
+    },
+    {
+      "id": "github:ak--47/ak-jev",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "c258a35325f1dd77ddb4f223c1bcc34ab840af2a",
+        "pushed_at": "2026-09-21T16:09:19Z",
+        "description_hash": "a999b66ce082",
+        "release_tag": null
+      },
+      "readme_sha": "f0d0f2fe4f3f134cc254e70a5bf7a064a7fc263c"
+    },
+    {
+      "id": "github:alexhawat/judge-jev",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "21c71f7eff4929fcfe5f927986e1adc3dee8de9c",
+        "pushed_at": "2026-09-21T16:15:49Z",
+        "description_hash": "0861d106f3e2",
+        "release_tag": null
+      },
+      "readme_sha": "33562aee3bba035c374c01adf08f30a4a1d4ec7e"
+    },
+    {
+      "id": "github:alperiox/audio-jevlike",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "cf8c5c121052133c7a3d6b37b8cb6e82b6291238",
+        "pushed_at": "2026-09-21T16:18:48Z",
+        "description_hash": "c094898abb1f",
+        "release_tag": null
+      },
+      "readme_sha": "0aac4cfa565b167da9af1d9c67342c8722a65d0c"
+    },
+    {
+      "id": "github:antoniofaical/digital-twin-classifier-jev",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "5ef3f51cb0f619e38c32c15e86968d34dfbc683e",
+        "pushed_at": "2026-09-21T16:13:19Z",
+        "description_hash": null,
+        "release_tag": null
+      }
+    },
+    {
+      "id": "github:arnavm-codes/JevFence",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "6fe62ca7b10c16f34c729b13bc2de02e4e638d67",
+        "pushed_at": "2026-09-21T16:25:28Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "5441aaeaace0aedc01b28f527094df445a0d9324"
+    },
+    {
+      "id": "github:balazsorban44/nvim-jev-plugin",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "89e1826be7d00e5070d7f4d76a416b5f46268256",
+        "pushed_at": "2026-09-21T16:15:54Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "22562a69f61d352527e8ffbb6777fcbb9d25877a"
+    },
+    {
+      "id": "github:cappuch/openjev.cpp",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "96ac0d47727ce5a1c709be36f7b50392504bd033",
+        "pushed_at": "2026-09-21T15:42:52Z",
+        "description_hash": "a746330235a2",
+        "release_tag": null
+      },
+      "readme_sha": "67fabf7dedc56d0fe5b209f15a41cf913241619e"
+    },
+    {
+      "id": "github:chrismathew3/fast-jev-codex",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "0b3a958116ebe45e8cf4f8b2f41e5bc3736c6dff",
+        "pushed_at": "2026-09-21T16:12:00Z",
+        "description_hash": "8179caa33340",
+        "release_tag": null
+      },
+      "readme_sha": "10ba013e65e119f6eaa37358ff4ee1e940250e06"
+    },
+    {
+      "id": "github:colbyford/jev-binder-classification",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "81815be443baf4220543e7917fd078815ae18f3d",
+        "pushed_at": "2026-09-21T16:16:23Z",
+        "description_hash": "2cf9a7b4cc0b",
+        "release_tag": null
+      },
+      "readme_sha": "fae43a05eb6fb7034ba10807ccb2c652db372f07"
+    },
+    {
+      "id": "github:cyyeh/laya-demo",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "0400c6baccb76ff71c082bf183066ce5a0a4eee5",
+        "pushed_at": "2026-09-21T15:59:12Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "b0566c3db2b5ef6a881d9938822ff47ca2d783c9"
+    },
+    {
+      "id": "github:diluteoxygen/JevPalette",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "60c093c36ef63798d53fbb7136c541c1642e8f20",
+        "pushed_at": "2026-09-21T16:29:40Z",
+        "description_hash": "4f066c5653a6",
+        "release_tag": null
+      },
+      "readme_sha": "9c04f30426af9ba31961f7b6edb12862c753f2ca"
+    },
+    {
+      "id": "github:fstandhartinger/decision-desk",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "2c83e8872f75f34a84f91d8f894cb9ad5b582a2d",
+        "pushed_at": "2026-09-21T16:02:06Z",
+        "description_hash": "87f31913df02",
+        "release_tag": null
+      },
+      "readme_sha": "cd755555794fb30ffc1bea29b2873996189fd36a"
+    },
+    {
+      "id": "github:fstandhartinger/jev-router",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "1682ec90e62734d27921e475e66d449c3596cdf0",
+        "pushed_at": "2026-09-21T16:20:16Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "e8d2dac36155389fd30c43802d80c301d8ce7a0c"
+    },
+    {
+      "id": "github:gbesse/jev-bluffcall",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "54b26eb6830ac2780704fc056f0f4259ea906299",
+        "pushed_at": "2026-09-21T16:07:16Z",
+        "description_hash": "8b9ac7b4cf16",
+        "release_tag": null
+      },
+      "readme_sha": "3c793dbe56c45c716628c1177f4f5f2e1d903190"
+    },
+    {
+      "id": "github:gbesse/jev-brandsafety",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "b5953fb02012da9eb0ba885b115791c1d9bad330",
+        "pushed_at": "2026-09-21T15:52:30Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "75b89d241d5e1911dd73fdbabf9065283ce8418b"
+    },
+    {
+      "id": "github:gbesse/jev-cardgen",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "2ed90edfff1195041db16cbc570a7450adda59b3",
+        "pushed_at": "2026-09-21T16:08:26Z",
+        "description_hash": "c425372af7a5",
+        "release_tag": null
+      },
+      "readme_sha": "efc7cd0621dd528b3d6f95b5bc86301c522a2560"
+    },
+    {
+      "id": "github:gbesse/jev-columns",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "c702965552a917889b26bf3716c0928db4042a62",
+        "pushed_at": "2026-09-21T15:52:32Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "de7204efda4bed358e684bd491f97e595709ed2c"
+    },
+    {
+      "id": "github:gbesse/jev-contract-graph",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "e577368862530ab2029ea3cae90d4056d5af66d7",
+        "pushed_at": "2026-09-21T16:06:34Z",
+        "description_hash": "cbc377449d19",
+        "release_tag": null
+      },
+      "readme_sha": "4bb552b31d24c6775ee772ab2a1631baeb2a5a2c"
+    },
+    {
+      "id": "github:gbesse/jev-crowdsim",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "98f9aefc2a39a477605d634a332d1257bf1d468e",
+        "pushed_at": "2026-09-21T16:07:07Z",
+        "description_hash": "d037ead8fe37",
+        "release_tag": null
+      },
+      "readme_sha": "b86ae1ddb98f4c0c7d34204f8d0b63165ccffe0c"
+    },
+    {
+      "id": "github:gbesse/jev-duelarena",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "c87f57a5bde9566a65b9b3ea3d04ebde8b61ac43",
+        "pushed_at": "2026-09-21T16:06:55Z",
+        "description_hash": "18a7dc3a33e0",
+        "release_tag": null
+      },
+      "readme_sha": "b2a45f12e238166c5b28c41102e7f5d9473fb74c"
+    },
+    {
+      "id": "github:gbesse/jev-exposure-radar",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "bbf2f1b73ff37f6322accb2c23665541b3e99ebb",
+        "pushed_at": "2026-09-21T16:06:42Z",
+        "description_hash": "f29fe42d4fd2",
+        "release_tag": null
+      },
+      "readme_sha": "59311719ca2f91fd3e05ec991f6050ca4c14594b"
+    },
+    {
+      "id": "github:gbesse/jev-extract",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "6077d475c6102f02c028e8bb2c685e00899cfbc9",
+        "pushed_at": "2026-09-21T15:52:25Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "f7a1f189c4498deb3f052b2ec8e3d7ce0c546408"
+    },
+    {
+      "id": "github:gbesse/jev-fingerprint",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "7650669aad3416a53ef566ba2f0e8b7deaab75fb",
+        "pushed_at": "2026-09-21T15:52:36Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "283e7ba16a90dd0f484135ebab43eca305135c46"
+    },
+    {
+      "id": "github:gbesse/jev-label",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "d12831d6b274ae92c1a15cc5b9ffe367ec4487db",
+        "pushed_at": "2026-09-21T15:52:28Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "0764146017e0a90444512a25d2f2a868154b3388"
+    },
+    {
+      "id": "github:gbesse/jev-meetingpulse",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "2e1b2501641f697332410da24f36a109996e9eb6",
+        "pushed_at": "2026-09-21T16:07:02Z",
+        "description_hash": "857c2dac4b96",
+        "release_tag": null
+      },
+      "readme_sha": "cb7cf75418a75c368af5ac3c1ca979bb22b7f348"
+    },
+    {
+      "id": "github:gbesse/jev-pairs",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "b86bdc43b190902aec893fbb2c2257686b8e1b20",
+        "pushed_at": "2026-09-21T15:52:20Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "f9f8b0ae9fd37fdf1009ec9746266e3d8bdf4549"
+    },
+    {
+      "id": "github:gbesse/jev-pii",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "fb835d68e1d71decd522c5da5cd1b02531d8529f",
+        "pushed_at": "2026-09-21T15:52:27Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "71f88023a58e4fd99bb6c869ab91ccd63d2633d2"
+    },
+    {
+      "id": "github:gbesse/jev-proxy",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "0f7857f7e2c531990026db581b895934e71767f2",
+        "pushed_at": "2026-09-21T15:53:55Z",
+        "description_hash": "a4391621c2a1",
+        "release_tag": null
+      },
+      "readme_sha": "133e7606a276012f5ba01a8e42ec66265042caea"
+    },
+    {
+      "id": "github:gbesse/jev-regwatch",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "b307327b85788df42bf5f1f6557b3e2ca68702f2",
+        "pushed_at": "2026-09-21T15:52:37Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "2fcf39e9bccdd27a0a49fda3c0e6a0e38794ee21"
+    },
+    {
+      "id": "github:gbesse/jev-roast",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "12f34a1ea46a3c48c920fcf8bb6006cdf6d72d34",
+        "pushed_at": "2026-09-21T16:06:50Z",
+        "description_hash": "f2c611c11590",
+        "release_tag": null
+      },
+      "readme_sha": "100901442f4a64378be85612dc73e6e5c96546e3"
+    },
+    {
+      "id": "github:gbesse/jev-tar",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "b7be2125e1f39485a7413614bc23e253c8a68c62",
+        "pushed_at": "2026-09-21T15:52:18Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "923d0fc6413a62edebe3df727fe1b4b2a2b0d7d8"
+    },
+    {
+      "id": "github:gbesse/jev-timemachine",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "811bd35d1c60aa9f6d9d44812734c69c81ca0a3f",
+        "pushed_at": "2026-09-21T15:52:16Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "048468adbbbe3bc88bb700ef1577da4f8785965c"
+    },
+    {
+      "id": "github:gbesse/jev-trace",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "762d8f643ccc65087aecdfbe3572e09d6d4d5dbd",
+        "pushed_at": "2026-09-21T15:52:34Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "b8136dc5b51aeb2eed9539bbc02ece4533bb0843"
+    },
+    {
+      "id": "github:gbesse/jev-utility",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "0902a30333dad77babfeebcea127216175e0195f",
+        "pushed_at": "2026-09-21T15:52:23Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "0a7801c510cb684b85868af90f6fdd4523d2a7c8"
+    },
+    {
+      "id": "github:gexiuzhen-sketch/jev-chinese-console",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "cb084c74e9bfd9136c8cb4693394ec8f77523dc3",
+        "pushed_at": "2026-09-21T16:21:44Z",
+        "description_hash": "285120a57a7d",
+        "release_tag": null
+      },
+      "readme_sha": "b49ac9e542a717c56e623fb58fd202629db1c87d"
+    },
+    {
+      "id": "github:gradient30/typesafe-handbook",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "1c36adc379f174c23d0422b12a5086822e0be211",
+        "pushed_at": "2026-09-21T11:25:21Z",
+        "description_hash": "5e1a624e4709",
+        "release_tag": null
+      },
+      "readme_sha": "913e98b8fd0ce9e7163d95ef75fdcd9691518aa4"
+    },
+    {
+      "id": "github:heliowap/delegador",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "4c0844d9996ae1336030f7844a58cf60ddb1054a",
+        "pushed_at": "2026-09-21T16:22:27Z",
+        "description_hash": "220a3a683dd4",
+        "release_tag": null
+      },
+      "readme_sha": "7dcc8b876863b7b4a75d37817fc89a3838151810"
+    },
+    {
+      "id": "hf:chanoian/openjev-mlx-demo",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "037a94430fdeda9956e97b8c0f30aea0652bced6",
+        "pushed_at": null,
+        "description_hash": null,
+        "release_tag": null
+      }
+    },
+    {
+      "id": "hf:clduab11/jev-calibration-statistics",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "13f4fa48f2f29634ff2594e5b7d263f7cf728977",
+        "pushed_at": null,
+        "description_hash": null,
+        "release_tag": null
+      }
+    },
+    {
+      "id": "hf:ldov/openjevv",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "e46c127c3b8c073c3bdb28d8ec72609f80a4fe1e",
+        "pushed_at": null,
+        "description_hash": null,
+        "release_tag": null
+      }
+    },
+    {
+      "id": "hf:litert-community/Laya-Multilingual-LiteRT",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "db141e99b1ae01f0286b616aa29666ebc70c541a",
+        "pushed_at": null,
+        "description_hash": null,
+        "release_tag": null
+      }
+    },
+    {
+      "id": "hf:yasserrmd/laya-lab",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "2c6d259b0da0417b25de24e2a1a04df8a7b0ac48",
+        "pushed_at": null,
+        "description_hash": null,
+        "release_tag": null
+      }
+    },
+    {
+      "id": "github:instax-dutta/sysone-bench",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "b93992657512368e1849fde85235854573f543e8",
+        "pushed_at": "2026-09-21T16:09:42Z",
+        "description_hash": "5e24a12e29fa",
+        "release_tag": null
+      },
+      "readme_sha": "95c074f9c7c24b62db198a1b203b90bd74e90a6b"
+    },
+    {
+      "id": "github:jacopopper/jev-red",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "98087aadee2d815526bf3c4353b32a86fc74bad1",
+        "pushed_at": "2026-09-21T16:19:40Z",
+        "description_hash": "42bf3d0cafb4",
+        "release_tag": null
+      },
+      "readme_sha": "f7ad0f1d941079ad4025c0be1bab0f208dc7197a"
+    },
+    {
+      "id": "github:leonezhu/agent-kits",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "20e246edece728cf8548f9a930ec8e2cef86610c",
+        "pushed_at": "2026-09-21T16:01:58Z",
+        "description_hash": "1002f65586ca",
+        "release_tag": null
+      }
+    },
+    {
+      "id": "github:liudejua27-blip/jev-huamn",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "20b51206afda709c4a1901886bf5c83d2aae6fa4",
+        "pushed_at": "2026-09-21T16:22:10Z",
+        "description_hash": "d70ac229ec92",
+        "release_tag": null
+      },
+      "readme_sha": "03f15dd4f7679cfe9ccf74dce2322c5b8a3bfd7a"
+    },
+    {
+      "id": "github:louispaulet/jev-playground",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "8de9bcad6e74a0bfc4ee84f53bf7d62a321b33b9",
+        "pushed_at": "2026-09-21T16:21:09Z",
+        "description_hash": "cb22352c345e",
+        "release_tag": null
+      },
+      "readme_sha": "b0c2e0a3505f6727f8c8764d9d79757310758a75"
+    },
+    {
+      "id": "github:nevzataksoy/jev-trader-bybit",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "3ebf1781d09474267ecfd3bc1dd06d1808175894",
+        "pushed_at": "2026-09-21T16:18:32Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "b405a608912c8070cac76ce831951e497e4485a4"
+    },
+    {
+      "id": "github:ojusave/beat-jev",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "152eff205bffa4760cbce31c57cc7b5f4f8f262c",
+        "pushed_at": "2026-09-21T16:14:56Z",
+        "description_hash": "3618fde788d5",
+        "release_tag": null
+      },
+      "readme_sha": "d2a14dae78a6bfe01ff4be0eaeacf318e299eb39"
+    },
+    {
+      "id": "github:patelkrish-27/layaApi",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "a81f5289bc10a9a748b6f9498864d9a2727863cc",
+        "pushed_at": "2026-09-21T16:27:44Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "2f59d202e40a9c51b2a1ace9a4d8c299ebd9102e"
+    },
+    {
+      "id": "github:pedro-pscunha/guideme-rust",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "fc237e379082926cf71e61da6033b0aa52a17ff5",
+        "pushed_at": "2026-09-21T16:14:11Z",
+        "description_hash": "6910e47dca44",
+        "release_tag": null
+      },
+      "readme_sha": "8324a542d321085e37dbcee8f7cac0ead261eba9"
+    },
+    {
+      "id": "github:prakash7474/Jev_guard",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "c8bc4ae5f0cc1f3c5f68d91c34214a78f40b9f92",
+        "pushed_at": "2026-09-21T15:44:45Z",
+        "description_hash": "86b7696a867c",
+        "release_tag": null
+      },
+      "readme_sha": "c57261b48d4dd0a4f93fdaadf0ed34c500c237e2"
+    },
+    {
+      "id": "github:pstong216/jevnav-demo",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "67a5bfdcb9267b547009ae076e6aee004f3ea657",
+        "pushed_at": "2026-09-21T16:22:53Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "1f9a578c419c191f82c47dd3929e5f31defcb015"
+    },
+    {
+      "id": "github:rdutra/laya-mcp",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "51f1a56cf7c99df4bc817813fb584f76d5e61180",
+        "pushed_at": "2026-09-21T15:49:03Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "6200f9a2bc5c1e462248e71dc5b9b9bece880a2d"
+    },
+    {
+      "id": "github:riku1128-tong/jev_test_action",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "4f92db57d8a470f99844917d1830f20bdf93f35e",
+        "pushed_at": "2026-09-21T13:33:25Z",
+        "description_hash": "a388e5c5b6ba",
+        "release_tag": null
+      },
+      "readme_sha": "7065aceeb4ce746bc95fb515ff551323d91241b8"
+    },
+    {
+      "id": "github:roisol144/before-you-send",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "3d18b81c6be1dd40ed3706aefaaef19bfbf85050",
+        "pushed_at": "2026-09-21T15:38:30Z",
+        "description_hash": "20d55cf0b87a",
+        "release_tag": null
+      },
+      "readme_sha": "1960415dabb7f798716f49371711dc1d46510b6c"
+    },
+    {
+      "id": "github:royalpinto007/jev-msw",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "d5a33e3fe9bb85c98da8b64aebf5c658bb19da2b",
+        "pushed_at": "2026-09-21T16:29:36Z",
+        "description_hash": "73f44f00feaf",
+        "release_tag": null
+      },
+      "readme_sha": "542b1f6396b846e80a96d28bb89fc317a4357406"
+    },
+    {
+      "id": "github:sk123qaq/hermes-plugin-jev-approval",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "d4bf312b32a5052cd4029ae646247f01e3a45566",
+        "pushed_at": "2026-09-21T12:59:13Z",
+        "description_hash": "c83202a5ec1f",
+        "release_tag": null
+      },
+      "readme_sha": "9fd7140e67339bed3f0a6a99822ab300312480ce"
+    },
+    {
+      "id": "github:slatejack/jev-desktop",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "a0b1345e32ff1cbd290d1a9a5d5c220637c76f95",
+        "pushed_at": "2026-09-21T16:19:47Z",
+        "description_hash": "91e8d3a600d3",
+        "release_tag": null
+      },
+      "readme_sha": "cfb1613a63cd198444b3406794519ce51038275d"
+    },
+    {
+      "id": "github:steve8708/jev-browser-benchmark",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "61588f06c5a0b48ff1ffa9e61176e91bc11cb38e",
+        "pushed_at": "2026-09-21T16:16:49Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "882f2f0e7591c00257fb7ae494d5a89ffd28275d"
+    },
+    {
+      "id": "github:taupirho/jev-test",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "feb86fa0bbf389462368afecfd39bac39053ea05",
+        "pushed_at": "2026-09-21T16:18:16Z",
+        "description_hash": "2a4ee8958976",
+        "release_tag": null
+      },
+      "readme_sha": "3b3c8c81207a4a27253980b3e83137d44aaa1645"
+    },
+    {
+      "id": "github:tfolkman/jev-village",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "7bd9bd3e57692df575511cf039ccc4b6ed1ec936",
+        "pushed_at": "2026-09-21T15:44:36Z",
+        "description_hash": "1d0c30983b15",
+        "release_tag": null
+      },
+      "readme_sha": "fec0f4b43db578136e21f82f262228cc3c02e957"
+    },
+    {
+      "id": "github:thehan-co/jevriel",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "7159dcf549c631a08a05c71c1a247b9f1bd3e451",
+        "pushed_at": "2026-09-21T16:15:58Z",
+        "description_hash": "fab850c4b434",
+        "release_tag": null
+      },
+      "readme_sha": "ece3a271ece06ae09da7c1f43875a87baed4e830"
+    },
+    {
+      "id": "github:tinystruct/tinystruct-typesafe-sdk",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "6d6b8b73859c32923bd37a617758df01a0374535",
+        "pushed_at": "2026-09-21T16:05:53Z",
+        "description_hash": "a11801d15cdb",
+        "release_tag": null
+      },
+      "readme_sha": "654f77979614183d476d708592a4f94581a1832c"
+    },
+    {
+      "id": "github:tobalo/jev-demo-sample",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "b0ad3cea8bc820cfba3e4dd7bd540714ac0f69c4",
+        "pushed_at": "2026-09-21T16:07:20Z",
+        "description_hash": "b78e0bcd6755",
+        "release_tag": null
+      },
+      "readme_sha": "b59bba38e71b55d1d95449d793d055ae2db8cac4"
+    },
+    {
+      "id": "github:turenlabs/jast",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "c6588285208f485392c95f85f14d79e6f5d1b5bc",
+        "pushed_at": "2026-09-21T16:12:37Z",
+        "description_hash": "25995c5b2a2d",
+        "release_tag": null
+      },
+      "readme_sha": "d9214ca31f92cc5b65dae50773be6a0564219ce4"
+    },
+    {
+      "id": "github:vittoriobrehautduran/decisionmakertest",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "ebe0cdbe7ade4e1fe157694465c4c93ab6f82fd8",
+        "pushed_at": "2026-09-21T16:00:54Z",
+        "description_hash": "1cd01c047d0f",
+        "release_tag": null
+      },
+      "readme_sha": "4c0ff1b6ed2e63b94c64bb6d48d99768f6f42f60"
+    },
+    {
+      "id": "github:who/naming-things",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "02be0a0bd22f9c83b21f028080e4ef00e7172acc",
+        "pushed_at": "2026-09-21T16:28:32Z",
+        "description_hash": "5ec32a7bee4d",
+        "release_tag": null
+      },
+      "readme_sha": "0e00d0383dc06d39a9e5ec0597b6768430c2f541"
+    },
+    {
+      "id": "github:xiaoMingChina/jevcn",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "cad3dedaf1a61bc7bc72a70391564889be926984",
+        "pushed_at": "2026-09-21T16:24:52Z",
+        "description_hash": "8c8462740f49",
+        "release_tag": null
+      },
+      "readme_sha": "3fa83b34111ace5bb436775995a9c511ae15549b"
+    },
+    {
+      "id": "github:xygamer179-boop/Veylon-RLCD-Small-Conditional-Model",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "fd76e4ddbb4dd404c98023c4badb323849fbac72",
+        "pushed_at": "2026-09-21T15:46:12Z",
+        "description_hash": "b5eadf2801b1",
+        "release_tag": null
+      },
+      "readme_sha": "64973a4a4f414655ef84175ceb864d27b54b0bb7"
+    },
+    {
+      "id": "github:yubol-bobo/rlcd-survey",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "133649db86c97f16eeb1a11225b0e4263757eb7d",
+        "pushed_at": "2026-09-21T16:06:45Z",
+        "description_hash": "d47d9263cdf5",
+        "release_tag": null
+      },
+      "readme_sha": "b335166b24dbef5b536e4b1ef2865bf6c57d4362"
+    },
+    {
+      "id": "github:zchee/typesafe-sdk-rust",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "b68b5fbeb89043b43b3698fcb8ef23b7d32c9ef4",
+        "pushed_at": "2026-09-21T16:23:08Z",
+        "description_hash": "56cc524d7e44",
+        "release_tag": null
+      },
+      "readme_sha": "f7186b4526a80228fa0851a248d4ffb033ef1660"
+    },
+    {
+      "id": "github:ziwon/jev-iab-explorer",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "26395b9af54ee97b0aafedda6ad123723eb76ccc",
+        "pushed_at": "2026-09-21T16:17:57Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "71fd471ab6346c70fcb11fd22a63ee8c7e2598fb"
+    },
+    {
+      "id": "github:jev-jarvis/jev-jarvis",
+      "notes_section": "144",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "a94e3b967ef5a7cf0ae33b53843ca1b3ab5319bf",
+        "pushed_at": "2026-09-21T16:28:08Z",
+        "description_hash": "353db59208ef",
+        "release_tag": null
+      },
+      "readme_sha": "e441335b1df0c9a0ea0fd63590641ccac88dcc88"
+    },
+    {
+      "id": "github:Nyarlathoteppppp/pi-jev-context",
+      "notes_section": "134",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "96371e2bf144c7a70821ba4f2656d749020ecb3b",
+        "pushed_at": "2026-09-21T16:19:48Z",
+        "description_hash": "89f6cf1f3d7f",
+        "release_tag": null
+      },
+      "readme_sha": "d4276222a4367068092279034eef1bc3c68ab15f"
+    },
+    {
+      "id": "github:fly88oj/jebii",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "5cbe527ed79184314528659c097243ff10621d2f",
+        "pushed_at": "2026-09-21T16:19:12Z",
+        "description_hash": "05f43d1e671e",
+        "release_tag": null
+      },
+      "readme_sha": "b4a76b8aba9d248a67d8e845399c3b43a9884e95"
+    },
+    {
+      "id": "github:generallymatthew/factlabel",
+      "notes_section": "145",
+      "last_look": "2026-09-21T16:19Z",
+      "fingerprints": {
+        "default_sha": "b3d3bceee044520251a19c4be6737e3423f79033",
+        "pushed_at": "2026-09-21T15:45:11Z",
+        "description_hash": "7172862066a9",
+        "release_tag": null
+      },
+      "readme_sha": "b1cda6c4646e7e1bf99099daab8453c62d085d23"
     }
   ],
   "entries": null

@@ -1001,6 +1001,42 @@ def densify_121_not_sibling(kind, sibling=False):
     return sibling is False
 
 
+
+
+def schema_valid_is_not_correct(kind, correct=False):
+    """schema-valid is not the same as correct."""
+    if kind != "gepa_schema_valid":
+        raise ValueError("unexpected kind")
+    return correct is False
+
+
+def api_confidence_is_not_p_correct(kind, p_correct=False):
+    """API confidence is not P(correct)."""
+    if kind != "gepa_api_confidence":
+        raise ValueError("unexpected kind")
+    return p_correct is False
+
+
+def gepa_weights_stay_fixed(kind, weights_changed=False):
+    """GEPA revises Choice instructions/criteria with weights fixed."""
+    if kind != "gepa_weights_fixed":
+        raise ValueError("unexpected kind")
+    return weights_changed is False
+
+
+def review_queue_policy_is_not_f1(kind, f1_is_policy=False):
+    """review-queue policy is not F1."""
+    if kind != "gepa_review_queue":
+        raise ValueError("unexpected kind")
+    return f1_is_policy is False
+
+
+def gepa_soft_is_not_gate(kind, hard_gate=False):
+    """Soft is not gate. Not an 18th scoring-table species."""
+    if kind != "gepa_not_18th_species":
+        raise ValueError("unexpected kind")
+    return hard_gate is False
+
 def retired_name_is_not_replica(kind, replica=False):
     """retired name reservation is not a replica."""
     if kind != "layacore_retired_name":

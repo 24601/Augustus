@@ -1,0 +1,11 @@
+{
+  "hour": "2026-09-21T16",
+  "label": "1019",
+  "notes_section": "145",
+  "composition": "729-744",
+  "findings_batch": 127,
+  "revisit_high": 4,
+  "novel_high": 115,
+  "invented_signal": false,
+  "primary": "praneeth16/adapting-jev-with-gepa ADE Corpus V2 GEPA; schema-valid is not the same as correct; API confidence is not P(correct); Brier 0.1357\u21920.0747 *theirs*; F1 69.1%\u219279.7% *theirs*; FN 4\u21926; review-queue policy is not F1; Soft is not gate; Not an 18th scoring-table species; densify \u00a7144 not a sibling first sighting"
+}

@@ -67,6 +67,20 @@
       </dl>
     </article>
     <article class="recipe panel">
+      <p class="kicker">Domain adapt</p>
+      <h3>GEPA on Jev</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>A schema-valid Choice treated as a correct label, or API confidence treated as P(correct).</dd>
+        <dt>Without</dt>
+        <dd>Ship F1 as the review-queue policy. Treat GEPA as a new scoring-table species.</dd>
+        <dt>With</dt>
+        <dd>schema-valid is not the same as correct. API confidence is not P(correct). GEPA revises Choice instructions/criteria with weights fixed. review-queue policy is not F1. Soft is not gate. Not an 18th scoring-table species.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">Brier and F1 stay *theirs*. Track FN tradeoff separately from review-queue retention.</dd>
+      </dl>
+    </article>
+    <article class="recipe panel">
       <p class="kicker">Conversion</p>
       <h3>llm-to-jev</h3>
       <dl>

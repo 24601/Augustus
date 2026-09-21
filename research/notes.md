@@ -34063,9 +34063,11 @@ distribution, not calibration; a catalog is an index.
    [`libingzheren/Jev-Mem`](https://github.com/libingzheren/Jev-Mem)
    **4★** HEAD `9fc5b9349ff8`;
    [`Nyarlathoteppppp/pi-jev-context`](https://github.com/Nyarlathoteppppp/pi-jev-context)
-   **4★** HEAD `f0128a86478f`). 50 runnable evals / 1,300+ builds.
+   densify **5★** MIT TS HEAD `96371e2bf144` README SHA `d4276222a436` was
+   `f0128a86478f`). 50 runnable evals / 1,300+ builds.
    catalog ≠ endorsement. Jev-Mem 11.0% 6.6× 36.7% *theirs* not Harbor.
    Nyarlathoteppppp/pi-jev-context ≠ kevinpita/pi-jev-context.
+   pi-jev-context densify §134 not a sibling first sighting. SHA move is not a replica.
 5. **Akash toolchain / necro / clarity-judge**
    ([`AkashPriyadarshii/jev-superpowers`](https://github.com/AkashPriyadarshii/jev-superpowers)
    **11★**; [`jev-curate`](https://github.com/AkashPriyadarshii/jev-curate)
@@ -36742,8 +36744,10 @@ a README SHA move is densify not a sibling first sighting.
    hf:piratehack009/laya-cn-flash-triage HTTP 404 *theirs*.
    Named remainder (substance, not a dump wall):
    [`jev-jarvis/jev-jarvis`](https://github.com/jev-jarvis/jev-jarvis)
-   4★ MIT Py HEAD `be68dd7993f0` README SHA `efe7e47a6fe8`. jev-jarvis/jev-jarvis ≠
-   eatmoreduck/jev-jarvis. does not execute.
+   densify 8★ MIT Py HEAD `a94e3b967ef5` README SHA `e441335b1df0` was
+   `be68dd7993f0` / `efe7e47a6fe8`. jev-jarvis/jev-jarvis ≠
+   eatmoreduck/jev-jarvis. does not execute. densify §144 not a sibling first
+   sighting. SHA move is not a replica.
    [`ClemensSchartmueller/jev-guard`](https://github.com/ClemensSchartmueller/jev-guard)
    3★ MIT Go HEAD `61bfcc4af5f8` README SHA `64748af6f948`.
    ClemensSchartmueller/jev-guard ≠ leepokai/jev-guard ≠ seb4ez/jevguard.
@@ -36881,3 +36885,319 @@ Hooks for the reviewer:
   No live Jev key. No wrappers.
 
 **Hourly 0923 HIGH (`notes.md` §144).** intellyweave GLiNER OSINT. Locate ≠ decide. openvons finite choices + none. 4B frozen+head 0.916 vs 27B zs 0.875 *theirs*. 8 questions 22.6 ms *theirs*. softmax ≠ calibrated Noul. AgentBeam local security layer. soft scores ≠ hard gates. unofficial not affiliated. wire-compat ≠ logit-equiv. chips virtual. game success ≠ calibrated Noul. densify §121 not a sibling first sighting. densify §139 not a sibling first sighting. densify §141 not a sibling first sighting. Runs every rule against every line in parallel. No skimming. Median 275 ms. trolley 0.99 vs 0.78. 11/11/7 match/differ/undecided of 29 *theirs*. retired name reservation is not a replica. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#67. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+
+## 145. Hourly 1019 HIGH (2026-09-21 ~10:19 Boise / 2026-09-21T16:19Z)
+
+Measurement / class-member fold on a **fresh PR off latest `main`**
+(`cursor/hourly-1019-fold-7311`) after `c801b1a185c6` (merged #69 hourly
+0923 HIGH, `notes.md` §144 / items 713–728 / batch #126; merged #68
+framing lock).
+**HARD RULE:** do not reopen or amend PR #23–#69.
+Do **not** re-fold §144 0923 / §143 0823 *as a second census*. Densify
+prior cards in place. Do not mint sibling first-sighting sections for
+jev-jarvis (§144) or pi-jev-context (§134). jebii and factlabel are first
+cards this hour (revisit tag, no prior notes card). Schema-valid is not
+the same as correct. API confidence is not P(correct). Review-queue
+policy is not F1. Soft is not gate. Not an 18th scoring-table species.
+This fold's IDs: `notes.md` §145 / composition 729–744 /
+findings batch #127.
+
+Never reopen merged #7–**#69**. Quote READMEs / Hub cards.
+Mark *theirs*. No wrappers, keys, `npm` / `pip` / `uv` / `docker`
+install recipes. `invented_signal: false`. Hunches labeled.
+
+Lane is Augustus: **mathematical / logical / algorithmic mental models**
+for Jev-class categorization/scoring across AI / SWE / **business /
+knowledge work / life**, not SWE-only. PRIMARY this hour is
+**praneeth16/adapting-jev-with-gepa** (ADE Corpus V2; GEPA revises Choice
+instructions/criteria with weights fixed; jev-1.13.0 weights fixed;
+Brier 0.1357→0.0747 *theirs*; F1 69.1%→79.7% *theirs*; FN 4→6;
+schema-valid is not the same as correct; API confidence is not
+P(correct); review-queue policy is not F1) plus
+**aliaihub/awesome-jev-usecases** (Every claim is labeled and sourced;
+catalog ≠ endorsement). Jev is exemplar, not the mandate.
+Third-party benches stay *theirs*. Catalogs are indexes. Soft scores ≠
+hard gates. SHA move is not a replica. Archer still **promised_not_landed**.
+
+Unique consecutive fragments (this fold) must appear as **one
+substring** in overlays (see uniqueness gate):
+Hourly 1019 uniqueness lock: praneeth16/adapting-jev-with-gepa ADE Corpus V2 GEPA; schema-valid is not the same as correct; API confidence is not P(correct); GEPA revises Choice instructions/criteria with weights fixed; jev-1.13.0 weights fixed; Brier 0.1357→0.0747 *theirs*; F1 69.1%→79.7% *theirs*; FN 4→6; review-queue policy is not F1; Soft is not gate; Not an 18th scoring-table species; aliaihub/awesome-jev-usecases 15★ NOASSERTION HEAD 6cbde6bd3569 README SHA 7ea135c6345d; Every claim is labeled and sourced; catalog ≠ endorsement; aliaihub/awesome-jev-usecases ≠ anandi1989/awesome-jev-usecases ≠ whyashthakker/awesome-jev-use-cases; rezoch340/jev-chat-JARVIS-windows 6★ MIT Py HEAD 26b686301437 README SHA 0714736b68c3; 发送永远手动; rezoch340/jev-chat-JARVIS-windows ≠ Finderchangchang/jev-chat-JARVIS; iamvatsalpatel/tiershift 3★ MIT TS HEAD 16a0826b9f62 README SHA 46fcb1cb191b; About 180 ms; routing ≠ permission; Bring-AI/jev-rl 2★ MIT Py HEAD 36f89cec85a2 README SHA 6283da6011b7; $0.00241 *theirs*; daniel4x/JevEmon 2★ GPL-3.0 HEAD 572454c69bf7 README SHA 8fc00d12848d; Not a screenshot agent; game success ≠ calibrated Noul; spoonnotfound/soupbase 2★ MIT TS HEAD 3e874e83e710 README SHA 3106bc96d6ab; Nabsku/pi-follow-through 1★ MIT TS HEAD c62ef28ff4ac README SHA 64000451b79e; pi-follow-through threshold 0.8 still soft; dashbi1/jev-sim 1★ MIT Py HEAD 753c7397d73c README SHA 05fd960799d2; wire-compat ≠ logit-equiv; jev-jarvis/jev-jarvis densify 8★ MIT Py HEAD a94e3b967ef5 README SHA e441335b1df0 was be68dd7993f0 / efe7e47a6fe8; densify §144 not a sibling first sighting; Nyarlathoteppppp/pi-jev-context densify 5★ MIT TS HEAD 96371e2bf144 README SHA d4276222a436 was f0128a86478f; pi-jev-context densify §134 not a sibling first sighting; Nyarlathoteppppp/pi-jev-context ≠ kevinpita/pi-jev-context; fly88oj/jebii 0★ MIT JS HEAD 5cbe527ed791 README SHA b4a76b8aba9d; generallymatthew/factlabel 0★ Apache-2.0 Py HEAD b3d3bceee044 README SHA b1cda6c4646e; aakgna/jevcal ≠ abhixhek/jevcal; 007M7/jev-chat ≠ w3cj/jev-chat ≠ Manta-Boardgame/jev-chat; fstandhartinger/jev-router ≠ gargpratyush/jev-router; prakash7474/Jev_guard ≠ leepokai/jev-guard; rdutra/laya-mcp ≠ PerryLink/laya-mcp ≠ wsargent/laya-mcp; Kourin1996/jev-playground ≠ wustep/jev-playground; ai-ecoverse/cua-s1.js Cua-S1 ≠ TypeSafe; skip-thin Unnati-23/jev-typesafe-guide antoniofaical/digital-twin-classifier-jev leonezhu/agent-kits empty README; skip-thin wjw66/deepseek-harness-jev-pre-compaction ziwon/jev-actor empty SHA HTTP 409; hf:chanoian/openjev-mlx-demo HTTP 401 *theirs*; hf:clduab11/jev-calibration-statistics HTTP 401 *theirs*; hf:yasserrmd/laya-lab HTTP 401 *theirs*; catalog ≠ endorsement; game success ≠ calibrated Noul; does not execute; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62/#63/#64/#65/#66/#67/#68/#69; notes.md §145
+
+### How-to-apply (class lenses, not vendor tutorials)
+
+These are *class* lenses. Same discipline as §118 (llm-to-jev heuristic
+on-ramp) and §144 (Locate ≠ decide). Formal methods **compose**: a Noul
+is a SENSOR; a valid Choice schema is not a correct label; API
+confidence is distribution concentration, not P(correct); F1 is not a
+review-queue policy; a README SHA move is densify not a sibling first
+sighting.
+
+1. **schema-valid is not the same as correct**
+   (praneeth16/adapting-jev-with-gepa, ADE Corpus V2). Quote *theirs*:
+   TypeSafe's zero-hallucination framing concerns guaranteed schema
+   matching; a valid answer can still disagree with the evidence or
+   label. 54 of 300 valid answers disagreed with labels in Exp1
+   *theirs*. Do **not** copy keys.
+2. **API confidence is not P(correct)**
+   Quote *theirs*: the API's confidence field has a narrower meaning
+   than its name might suggest. Concentrating probability on one option
+   raises confidence. That field supplies no independent evidence that
+   the option is correct. confidence = 1.0 on 150 test sentences, ten
+   disagreed *theirs*.
+3. **GEPA revises Choice instructions/criteria with weights fixed**
+   Quote *theirs*: GEPA changes the instructions and the two class
+   descriptions; Jev evaluates the resulting question on labeled
+   sentences. The output labels, Choice schema, and jev-1.13.0 weights
+   stay fixed. Not an 18th scoring-table species.
+4. **Brier / F1 *theirs* with FN tradeoff; review-queue policy is not F1**
+   Exp2 identical 300 fresh test sentences *theirs*: Brier 0.1357→0.0747;
+   precision 54.8%→71.4%; recall 93.4%→90.2%; F1 69.1%→79.7%; FN 4→6;
+   FP 47→22. Review cutoff 0.4 defers 4 vs 6 positives. Higher F1 does
+   not establish that the review policy holds. Soft is not gate.
+5. **catalog ≠ endorsement / densify not sibling**
+   aliaihub/awesome-jev-usecases Every claim is labeled and sourced.
+   densify §144 not a sibling first sighting.
+   pi-jev-context densify §134 not a sibling first sighting.
+
+### HIGH (this hour)
+
+1. **[`praneeth16/adapting-jev-with-gepa`](https://praneeth16.github.io/blog/adapting-jev-with-gepa/)
+   PRIMARY novel (user-forced).** Blog, not a GitHub repo. Companion
+   Pages `Praneeth16/Praneeth16.github.io`. Domain-adapt TypeSafe Jev
+   with GEPA on ADE Corpus V2. Quote *theirs*: Obtaining a valid
+   decision was straightforward. Deciding whether to trust it required
+   more work. GEPA revises Choice instructions/criteria with weights
+   fixed. jev-1.13.0 weights fixed. Brier 0.1357→0.0747 *theirs*.
+   F1 69.1%→79.7% *theirs*. FN 4→6. precision 54.8%→71.4% *theirs*.
+   recall 93.4%→90.2% *theirs*. review-queue policy is not F1.
+   schema-valid is not the same as correct. API confidence is not
+   P(correct). Soft is not gate. Not an 18th scoring-table species.
+   Place beside llm-to-jev as a decision-model benefit recipe
+   (question-design / validation / applied-mappings). *theirs* not Harbor.
+2. **[`aliaihub/awesome-jev-usecases`](https://github.com/aliaihub/awesome-jev-usecases)
+   PRIMARY novel.** 15★ NOASSERTION HEAD `6cbde6bd3569` README SHA
+   `7ea135c6345d`. Quote *theirs*: Evidence-backed use cases, patterns,
+   and guidance for building with Jev, TypeSafe AI's System One model.
+   Every claim is labeled and sourced. catalog ≠ endorsement.
+   aliaihub/awesome-jev-usecases ≠ anandi1989/awesome-jev-usecases ≠
+   whyashthakker/awesome-jev-use-cases.
+3. **[`rezoch340/jev-chat-JARVIS-windows`](https://github.com/rezoch340/jev-chat-JARVIS-windows)
+   PRIMARY novel.** 6★ MIT Py HEAD `26b686301437` README SHA
+   `0714736b68c3`. Quote *theirs*: 发送永远手动，程序不替你按发送。
+   does not execute. rezoch340/jev-chat-JARVIS-windows ≠
+   Finderchangchang/jev-chat-JARVIS.
+4. **[`iamvatsalpatel/tiershift`](https://github.com/iamvatsalpatel/tiershift)
+   PRIMARY novel.** 3★ MIT TS HEAD `16a0826b9f62` README SHA
+   `46fcb1cb191b`. Quote *theirs*: About 180 ms. Four cents per thousand
+   routes. routing ≠ permission. Soft is not gate.
+5. **[`Bring-AI/jev-rl`](https://github.com/Bring-AI/jev-rl) /
+   [`daniel4x/JevEmon`](https://github.com/daniel4x/JevEmon) /**
+   [`spoonnotfound/soupbase`](https://github.com/spoonnotfound/soupbase).**
+   jev-rl 2★ MIT Py HEAD `36f89cec85a2` README SHA `6283da6011b7`.
+   Quote *theirs*: Recorded JEV API cost: ≈ $0.00241 (0.24 US cents).
+   $0.00241 *theirs*. game success ≠ calibrated Noul.
+   JevEmon 2★ GPL-3.0 HEAD `572454c69bf7` README SHA `8fc00d12848d`.
+   Quote *theirs*: Not a screenshot agent. Not a bot that mashes A.
+   soupbase 2★ MIT TS HEAD `3e874e83e710` README SHA `3106bc96d6ab`.
+   Quote *theirs*: Jev x 海龟汤. catalog ≠ endorsement.
+6. **[`Nabsku/pi-follow-through`](https://github.com/Nabsku/pi-follow-through) /
+   [`dashbi1/jev-sim`](https://github.com/dashbi1/jev-sim).**
+   pi-follow-through 1★ MIT TS HEAD `c62ef28ff4ac` README SHA
+   `64000451b79e`. Quote *theirs*: threshold 0.8. pi-follow-through
+   threshold 0.8 still soft. Soft is not gate.
+   jev-sim 1★ MIT Py HEAD `753c7397d73c` README SHA `05fd960799d2`.
+   Quote *theirs*: A wire-compatible re-implementation of TypeSafe's Jev.
+   wire-compat ≠ logit-equiv.
+7. **REVISIT densify jev-jarvis §144 / pi-jev-context §134; first cards
+   jebii / factlabel.**
+   [`jev-jarvis/jev-jarvis`](https://github.com/jev-jarvis/jev-jarvis)
+   densify 8★ MIT Py HEAD `a94e3b967ef5` README SHA `e441335b1df0` was
+   `be68dd7993f0` / `efe7e47a6fe8`. densify §144 not a sibling first
+   sighting. SHA move is not a replica. jev-jarvis/jev-jarvis ≠
+   eatmoreduck/jev-jarvis.
+   [`Nyarlathoteppppp/pi-jev-context`](https://github.com/Nyarlathoteppppp/pi-jev-context)
+   densify 5★ MIT TS HEAD `96371e2bf144` README SHA `d4276222a436` was
+   `f0128a86478f`. pi-jev-context densify §134 not a sibling first
+   sighting. Nyarlathoteppppp/pi-jev-context ≠ kevinpita/pi-jev-context.
+   [`fly88oj/jebii`](https://github.com/fly88oj/jebii)
+   0★ MIT JS HEAD `5cbe527ed791` README SHA `b4a76b8aba9d`. First card
+   (revisit tag, no prior notes card). Quote *theirs*: Live2D character
+   chat. Jev decides the emotion, SoulLink performs it. game success ≠
+   calibrated Noul.
+   [`generallymatthew/factlabel`](https://github.com/generallymatthew/factlabel)
+   0★ Apache-2.0 Py HEAD `b3d3bceee044` README SHA `b1cda6c4646e`. First
+   card (revisit tag, no prior notes card). Quote *theirs*: A nutrition
+   label for AI-written content. Soft is not gate. *theirs* not Harbor.
+8. **Namesakes / skip-thin / remainder / HF 401.**
+   aakgna/jevcal ≠ abhixhek/jevcal.
+   007M7/jev-chat ≠ w3cj/jev-chat ≠ Manta-Boardgame/jev-chat.
+   fstandhartinger/jev-router ≠ gargpratyush/jev-router.
+   prakash7474/Jev_guard ≠ leepokai/jev-guard.
+   rdutra/laya-mcp ≠ PerryLink/laya-mcp ≠ wsargent/laya-mcp.
+   Kourin1996/jev-playground ≠ wustep/jev-playground.
+   ai-ecoverse/cua-s1.js Cua-S1 ≠ TypeSafe.
+   skip-thin Unnati-23/jev-typesafe-guide antoniofaical/digital-twin-classifier-jev leonezhu/agent-kits empty README.
+   skip-thin wjw66/deepseek-harness-jev-pre-compaction ziwon/jev-actor empty SHA HTTP 409.
+   hf:chanoian/openjev-mlx-demo HTTP 401 *theirs*.
+   hf:clduab11/jev-calibration-statistics HTTP 401 *theirs*.
+   hf:yasserrmd/laya-lab HTTP 401 *theirs*.
+   Named remainder (substance, not a dump wall):
+   [`newuser7171/jev-gamepilot`](https://github.com/newuser7171/jev-gamepilot) 1★ NOASSERTION Py HEAD `427c9497df4e` README SHA `e23f17030783`. GitHub description empty; not a README quote. game success ≠ calibrated Noul. *theirs* not Harbor.
+   [`sungatetop/Jev-robot`](https://github.com/sungatetop/Jev-robot) 1★ MIT TS HEAD `098521ef7612` README SHA `d35786938d85`. Quote *theirs*: System One\Two Driven Robot demo. catalog ≠ endorsement. *theirs* not Harbor.
+   [`007M7/jev-chat`](https://github.com/007M7/jev-chat) 0★ MIT Py HEAD `3c884c7cff88` README SHA `12d6cd2e2e0c`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`Adkid-Zephyr/chinese-workflow-decision-bench`](https://github.com/Adkid-Zephyr/chinese-workflow-decision-bench) 0★ MIT Py HEAD `6d0a7c2af303` README SHA `4ed71a36cd51`. Quote *theirs*: CWDB-64: reusable Chinese workflow classification benchmark with frozen scenarios, classifier adapters, scorecards and audited Laya/Jev results.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`Ahmadnmic/autocorrecter`](https://github.com/Ahmadnmic/autocorrecter) 0★ NOASSERTION TS HEAD `f57c55cec7f3` README SHA `af9d01de4a28`. Quote *theirs*: Inline contextual autocorrect: web preview, desktop app (macOS/Windows), Android keyboard, Jev + Claude Haiku, self-improving library. catalog ≠ endorsement. *theirs* not Harbor.
+   [`Anmol-Srv/jev-video-search`](https://github.com/Anmol-Srv/jev-video-search) 0★ NOASSERTION Py HEAD `979c6500175b` README SHA `a468945e04b8`. Quote *theirs*: Semantic video scene search: embeddings retrieve, Jev decides. Measured on MSR-VTT :  +9 pts R@1, and it can say 'nothing here matches'.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`Anson-gzy/jev-paste`](https://github.com/Anson-gzy/jev-paste) 0★ MIT Swift HEAD `eb7772b3d6aa` README SHA `26f2fe9e5f9e`. Quote *theirs*: Contextual, inline clipboard decomposition for macOS :  Tab-to-paste with full history and time-decay ranking. Powered by TypeSafe JEF.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`AnyEvalOrg/eval-jevbench`](https://github.com/AnyEvalOrg/eval-jevbench) 0★ MIT Py HEAD `47f190a28519` README SHA `6b33bed54729`. Quote *theirs*: JevBench (typed decision models) as an AnyEval-format inspect_ai eval. catalog ≠ endorsement. *theirs* not Harbor.
+   [`AravDharnikota/apush-debate-jev`](https://github.com/AravDharnikota/apush-debate-jev) 0★ NOASSERTION TS HEAD `b05c23457c83` README SHA `d6f9bc4f01a2`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`BrunoAccorsi/reflex-lab`](https://github.com/BrunoAccorsi/reflex-lab) 0★ MIT TS HEAD `d181133f0194` README SHA `946266267f84`. Quote *theirs*: Jev playground and testing env. catalog ≠ endorsement. *theirs* not Harbor.
+   [`DanielTea/screenquest`](https://github.com/DanielTea/screenquest) 0★ MIT Py HEAD `19441909fd16` README SHA `22aca34d8c85`. Quote *theirs*: A local vision game agent for Apple Silicon. Screenshot perception, Laya/Core ML decisions, Qwen/MLX planning, camera control, loot clicks, and evidence-base.... game success ≠ calibrated Noul. *theirs* not Harbor.
+   [`DeadPackets/UnitedStatesOfJev`](https://github.com/DeadPackets/UnitedStatesOfJev) 0★ MIT TS HEAD `73851f38746b` README SHA `7622d2e66cb9`. Quote *theirs*: Just a silly political simulator.. game success ≠ calibrated Noul. *theirs* not Harbor.
+   [`F0Rextasy/omp-marketplace`](https://github.com/F0Rextasy/omp-marketplace) 0★ NOASSERTION HEAD `c9a8c0cc2d1d` README SHA `1b930d895644`. Quote *theirs*: oh-my-pi plugin marketplace: laya-judge, local System-1 judge. catalog ≠ endorsement. *theirs* not Harbor.
+   [`FavianDT/layanan-fakultas-v1.0`](https://github.com/FavianDT/layanan-fakultas-v1.0) 0★ NOASSERTION HEAD `480485fbbb67` README SHA `30f8a8421cfd`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`Kelwing/laya-candle`](https://github.com/Kelwing/laya-candle) 0★ Apache-2.0 Rust HEAD `a7953cd2d403` README SHA `28d463e27d75`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`Kourin1996/jev-playground`](https://github.com/Kourin1996/jev-playground) 0★ NOASSERTION TS HEAD `7872b7d8dbb4` README SHA `6e5dd98e2f78`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`LuisSleepy/layag-cms-auth`](https://github.com/LuisSleepy/layag-cms-auth) 0★ MIT JS HEAD `c7974014fa52` README SHA `1034760458e1`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`Madikhan33/jev_codex`](https://github.com/Madikhan33/jev_codex) 0★ MIT Py HEAD `14dffbc7ab70` README SHA `7dec08deadf6`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`NoNFake/job-classifier-search`](https://github.com/NoNFake/job-classifier-search) 0★ NOASSERTION Py HEAD `deeda7a55bcb` README SHA `813fa44bf5ff`. Quote *theirs*: Job search in Denmark: aggregates vacancies from jobnet.dk and jobindex.dk, filters them against a profile, ranks matches with the Laya decision model, and o.... catalog ≠ endorsement. *theirs* not Harbor.
+   [`ShiqinGuo/jev4jobhunter`](https://github.com/ShiqinGuo/jev4jobhunter) 0★ MIT Py HEAD `d11712778d83` README SHA `7ad14d8e6d48`. Quote *theirs*: Jev4JobHunter :  AI job application plugin with TypeSafe Jev for job matching. Screen BOSS Zhipin jobs, apply and follow up with Codex / Claude Code. 用 Jev 筛.... catalog ≠ endorsement. *theirs* not Harbor.
+   [`TakumiNoguchi2004/jev-noul-vs-choice`](https://github.com/TakumiNoguchi2004/jev-noul-vs-choice) 0★ MIT Py HEAD `9427234a4d11` README SHA `5da03fa63105`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`TerryAragorn/aliexpress-selection-first-principles`](https://github.com/TerryAragorn/aliexpress-selection-first-principles) 0★ MIT Py HEAD `885b4afb8b5a` README SHA `0427dfb3c5d2`. Quote *theirs*: 速卖通第一性原理选品方法论 | AliExpress product selection by first principles - a reusable skill for side-business sellers with small budgets. Includes Bayesian decision .... catalog ≠ endorsement. *theirs* not Harbor.
+   [`Uri-cyber/typesafe-agent`](https://github.com/Uri-cyber/typesafe-agent) 0★ MIT Py HEAD `8ce62a8596e3` README SHA `1177c5583771`. Quote *theirs*: General-purpose agent built on TypeSafe System One judgments: natural language in, typed confidence-gated function call out, one API call.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`XMoyas/web_attack_detection_jev`](https://github.com/XMoyas/web_attack_detection_jev) 0★ MIT Py HEAD `eaaabe290f2e` README SHA `6059cace37bd`. Quote *theirs*: 用 TypeSafe JEV 对 HTTP/应用 payload 做落地检测，覆盖 XSS、SQL 注入、XXE、命令注入、路径穿越、SSRF、SSTI 等常见类型。一次 system_one 调用同时给出攻击概率、攻击类型和严重度，再按阈值决策放行、复核或拦截。提供 CLI 与 FastAPI 接口，便于接入 .... catalog ≠ endorsement. *theirs* not Harbor.
+   [`YiLight0/paperfocus`](https://github.com/YiLight0/paperfocus) 0★ NOASSERTION JS HEAD `a1f5f9761e79` README SHA `4ebcb0d8b9b6`. Quote *theirs*: Question-guided evidence highlighting for research papers, powered by Jev.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`Yushenggg/zero-shot-classifier`](https://github.com/Yushenggg/zero-shot-classifier) 0★ MIT Py HEAD `841aeb422fc1` README SHA `cc3c8d24af6a`. Quote *theirs*: Inspired by Jev AI. catalog ≠ endorsement. *theirs* not Harbor.
+   [`aakgna/jevcal`](https://github.com/aakgna/jevcal) 0★ MIT Py HEAD `166992c72fab` README SHA `d90a1be99c92`. Quote *theirs*: Typed decision schemas and calibration tracking (ECE, Brier, reliability diagrams) for LLM-driven structured decisions. TypeScript + Python.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`aaronmeis/learn-jev`](https://github.com/aaronmeis/learn-jev) 0★ NOASSERTION JS HEAD `6487461db542` README SHA `fa8e48dc05b4`. Quote *theirs*: Learn Jev :  TypeSafe System One typed decisions for software. Personal GitHub Pages reference hub (deck, shorts, sources). Unofficial.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`adams100111/typesafe-php`](https://github.com/adams100111/typesafe-php) 0★ MIT PHP HEAD `7135ea57f02d` README SHA `54f437628aef`. Quote *theirs*: Unofficial PHP client for TypeSafe's System One API (Jev) :  typed noul, choice and score judgements. Not affiliated with TypeSafe.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`ai-ecoverse/cua-s1.js`](https://github.com/ai-ecoverse/cua-s1.js) 0★ NOASSERTION TS HEAD `bada56793d3d` README SHA `2df8d03e97ed`. Quote *theirs*: Cua's cua-s1 form-filling decision model in the browser via onnxruntime-web. catalog ≠ endorsement. *theirs* not Harbor.
+   [`ak--47/ak-jev`](https://github.com/ak--47/ak-jev) 0★ ISC JS HEAD `c258a35325f1` README SHA `f0d0f2fe4f3f`. Quote *theirs*: Node.js bindings for TypeSafe's Jev :  the System One model. Typed decisions, probabilities and confidence, with no text generation and no parsing.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`alexhawat/judge-jev`](https://github.com/alexhawat/judge-jev) 0★ NOASSERTION Rust HEAD `21c71f7eff49` README SHA `33562aee3bba`. Quote *theirs*: Jev-native LLM output judge kit (skill + agents + core). catalog ≠ endorsement. *theirs* not Harbor.
+   [`alperiox/audio-jevlike`](https://github.com/alperiox/audio-jevlike) 0★ NOASSERTION Py HEAD `cf8c5c121052` README SHA `0aac4cfa565b`. Quote *theirs*: Prosodia: an audio-native Jev-shaped decision model :  typed calibrated decisions from speech, no ASR. catalog ≠ endorsement. *theirs* not Harbor.
+   [`arnavm-codes/JevFence`](https://github.com/arnavm-codes/JevFence) 0★ NOASSERTION Py HEAD `6fe62ca7b10c` README SHA `5441aaeaace0`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`balazsorban44/nvim-jev-plugin`](https://github.com/balazsorban44/nvim-jev-plugin) 0★ MIT Lua HEAD `89e1826be7d0` README SHA `22562a69f61d`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`cappuch/openjev.cpp`](https://github.com/cappuch/openjev.cpp) 0★ MIT C++ HEAD `96ac0d47727c` README SHA `67fabf7dedc5`. Quote *theirs*: llama.cpp fork for jev-like models. catalog ≠ endorsement. *theirs* not Harbor.
+   [`chrismathew3/fast-jev-codex`](https://github.com/chrismathew3/fast-jev-codex) 0★ MIT TS HEAD `0b3a958116eb` README SHA `10ba013e65e1`. Quote *theirs*: Preserve exact context across Codex compaction with Jev. Open-source plugin, CLI, and library.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`colbyford/jev-binder-classification`](https://github.com/colbyford/jev-binder-classification) 0★ NOASSERTION Jupyter Notebook HEAD `81815be443ba` README SHA `fae43a05eb6f`. Quote *theirs*: Zero-Shot Classification of Protein Binders with Jev. catalog ≠ endorsement. *theirs* not Harbor.
+   [`cyyeh/laya-demo`](https://github.com/cyyeh/laya-demo) 0★ NOASSERTION Py HEAD `0400c6baccb7` README SHA `b0566c3db2b5`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`diluteoxygen/JevPalette`](https://github.com/diluteoxygen/JevPalette) 0★ NOASSERTION JS HEAD `60c093c36ef6` README SHA `9c04f30426af`. Quote *theirs*: TypeSafe JEV Color Guesser with Closed Beta Gate & Vercel deployment. catalog ≠ endorsement. *theirs* not Harbor.
+   [`fstandhartinger/decision-desk`](https://github.com/fstandhartinger/decision-desk) 0★ MIT JS HEAD `2c83e8872f75` README SHA `cd755555794f`. Quote *theirs*: A live support-triage demo for Jev-class decision models. catalog ≠ endorsement. *theirs* not Harbor.
+   [`fstandhartinger/jev-router`](https://github.com/fstandhartinger/jev-router) 0★ MIT Py HEAD `1682ec90e627` README SHA `e8d2dac36155`. GitHub description empty; not a README quote. routing ≠ permission. *theirs* not Harbor.
+   [`gbesse/jev-bluffcall`](https://github.com/gbesse/jev-bluffcall) 0★ MIT JS HEAD `54b26eb6830a` README SHA `3c793dbe56c4`. Quote *theirs*: Host a local two-truths-and-a-lie party game where Jev is a finite-choice guest.. game success ≠ calibrated Noul. *theirs* not Harbor.
+   [`gbesse/jev-brandsafety`](https://github.com/gbesse/jev-brandsafety) 0★ NOASSERTION JS HEAD `b5953fb02012` README SHA `75b89d241d5e`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`gbesse/jev-cardgen`](https://github.com/gbesse/jev-cardgen) 0★ MIT JS HEAD `2ed90edfff11` README SHA `efc7cd0621dd`. Quote *theirs*: Render a versioned verdict schema to self-contained SVG and optional PNG with zero runtime dependencies.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`gbesse/jev-columns`](https://github.com/gbesse/jev-columns) 0★ NOASSERTION JS HEAD `c702965552a9` README SHA `de7204efda4b`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`gbesse/jev-contract-graph`](https://github.com/gbesse/jev-contract-graph) 0★ MIT JS HEAD `e57736886253` README SHA `4bb552b31d24`. Quote *theirs*: Conditional payoff proofs for prediction-market contracts with optional Jev semantic review.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`gbesse/jev-crowdsim`](https://github.com/gbesse/jev-crowdsim) 0★ MIT JS HEAD `98f9aefc2a39` README SHA `b86ae1ddb98f`. Quote *theirs*: Run a declared factorial audience grid through typed Jev reactions and expose disagreement.. game success ≠ calibrated Noul. *theirs* not Harbor.
+   [`gbesse/jev-duelarena`](https://github.com/gbesse/jev-duelarena) 0★ MIT JS HEAD `c87f57a5bde9` README SHA `b2a45f12e238`. Quote *theirs*: Run visible criterion-by-criterion text duels and honestly progressive elimination brackets with Jev.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`gbesse/jev-exposure-radar`](https://github.com/gbesse/jev-exposure-radar) 0★ MIT JS HEAD `bbf2f1b73ff3` README SHA `59311719ca2f`. Quote *theirs*: Trace DeFi incident exposure through sourced portfolio dependencies with optional Jev classification.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`gbesse/jev-extract`](https://github.com/gbesse/jev-extract) 0★ NOASSERTION JS HEAD `6077d475c610` README SHA `f7a1f189c449`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`gbesse/jev-fingerprint`](https://github.com/gbesse/jev-fingerprint) 0★ NOASSERTION JS HEAD `7650669aad34` README SHA `283e7ba16a90`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`gbesse/jev-label`](https://github.com/gbesse/jev-label) 0★ NOASSERTION Py HEAD `d12831d6b274` README SHA `0764146017e0`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`gbesse/jev-meetingpulse`](https://github.com/gbesse/jev-meetingpulse) 0★ MIT JS HEAD `2e1b2501641f` README SHA `cb7cf75418a7`. Quote *theirs*: Watch a growing text transcript and update declared meeting signals with exact quoted lines.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`gbesse/jev-pairs`](https://github.com/gbesse/jev-pairs) 0★ MIT Py HEAD `b86bdc43b190` README SHA `f9f8b0ae9fd3`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`gbesse/jev-pii`](https://github.com/gbesse/jev-pii) 0★ NOASSERTION Py HEAD `fb835d68e1d7` README SHA `71f88023a58e`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`gbesse/jev-proxy`](https://github.com/gbesse/jev-proxy) 0★ MIT TS HEAD `0f7857f7e2c5` README SHA `133e7606a276`. Quote *theirs*: Policy firewall for MCP tool calls with one-time human approvals and JSONL audit.. does not execute. *theirs* not Harbor.
+   [`gbesse/jev-regwatch`](https://github.com/gbesse/jev-regwatch) 0★ NOASSERTION JS HEAD `b307327b8578` README SHA `2fcf39e9bccd`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`gbesse/jev-roast`](https://github.com/gbesse/jev-roast) 0★ MIT JS HEAD `12f34a1ea46a` README SHA `100901442f4a`. Quote *theirs*: Score declared writing dimensions and cite only exact source spans for weak results.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`gbesse/jev-tar`](https://github.com/gbesse/jev-tar) 0★ MIT Py HEAD `b7be2125e1f3` README SHA `923d0fc6413a`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`gbesse/jev-timemachine`](https://github.com/gbesse/jev-timemachine) 0★ MIT JS HEAD `811bd35d1c60` README SHA `048468adbbbe`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`gbesse/jev-trace`](https://github.com/gbesse/jev-trace) 0★ NOASSERTION JS HEAD `762d8f643ccc` README SHA `b8136dc5b51a`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`gbesse/jev-utility`](https://github.com/gbesse/jev-utility) 0★ MIT Py HEAD `0902a30333da` README SHA `0a7801c510cb`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`gexiuzhen-sketch/jev-chinese-console`](https://github.com/gexiuzhen-sketch/jev-chinese-console) 0★ NOASSERTION JS HEAD `cb084c74e9bf` README SHA `b49ac9e542a7`. Quote *theirs*: Jev中文体验台：TypeSafe Jev 的中文可视化操作台，支持手机访问、登录额度与结构化概率判断。. catalog ≠ endorsement. *theirs* not Harbor.
+   [`gradient30/typesafe-handbook`](https://github.com/gradient30/typesafe-handbook) 0★ NOASSERTION TS HEAD `1c36adc379f1` README SHA `913e98b8fd0c`. Quote *theirs*: TypeSafe AI 官方文档中文手册（明/暗/彩三套风格，官网同步日志，GitHub Pages）. catalog ≠ endorsement. *theirs* not Harbor.
+   [`heliowap/delegador`](https://github.com/heliowap/delegador) 0★ MIT Go HEAD `4c0844d9996a` README SHA `7dcc8b876863`. Quote *theirs*: Delega tarefa de codigo ao modelo escolhido pela tarefa, com permissao deterministica, verificacao por teste real e escalada so por falha provada. Jev (TypeS.... catalog ≠ endorsement. *theirs* not Harbor.
+   [`instax-dutta/sysone-bench`](https://github.com/instax-dutta/sysone-bench) 0★ NOASSERTION Py HEAD `b93992657512` README SHA `95c074f9c7c2`. Quote *theirs*: First independent head-to-head benchmark of System One decision models (Laya vs Jev) on byte-identical inputs. catalog ≠ endorsement. *theirs* not Harbor.
+   [`jacopopper/jev-red`](https://github.com/jacopopper/jev-red) 0★ NOASSERTION Py HEAD `98087aadee2d` README SHA `f7ad0f1d9410`. Quote *theirs*: Jev to superpower AutoDAN class of jailbreak attacks. catalog ≠ endorsement. *theirs* not Harbor.
+   [`liudejua27-blip/jev-huamn`](https://github.com/liudejua27-blip/jev-huamn) 1★ NOASSERTION Py HEAD `20b51206afda` README SHA `03f15dd4f767`. Quote *theirs*: 寻找用户弱点 → 计算最佳操纵话术 → 最大化服从/付费/接受. catalog ≠ endorsement. *theirs* not Harbor.
+   [`louispaulet/jev-playground`](https://github.com/louispaulet/jev-playground) 0★ NOASSERTION HEAD `8de9bcad6e74` README SHA `b0c2e0a3505f`. Quote *theirs*: Testing the brand new JEV model. catalog ≠ endorsement. *theirs* not Harbor.
+   [`nevzataksoy/jev-trader-bybit`](https://github.com/nevzataksoy/jev-trader-bybit) 0★ NOASSERTION TS HEAD `3ebf1781d094` README SHA `b405a608912c`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`ojusave/beat-jev`](https://github.com/ojusave/beat-jev) 0★ MIT TS HEAD `152eff205bff` README SHA `d2a14dae78a6`. Quote *theirs*: A penalty shootout powered by Render Workflows, TypeSafe Jev, and Render Postgres. Python and TypeScript examples.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`patelkrish-27/layaApi`](https://github.com/patelkrish-27/layaApi) 0★ NOASSERTION Py HEAD `a81f5289bc10` README SHA `2f59d202e40a`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`pedro-pscunha/guideme-rust`](https://github.com/pedro-pscunha/guideme-rust) 0★ Apache-2.0 Rust HEAD `fc237e379082` README SHA `8324a542d321`. Quote *theirs*: Judgments from TypeSafe Jev that read like Rust control flow: a yes/no is an if, a choice is an exhaustive match, a score is a comparison.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`prakash7474/Jev_guard`](https://github.com/prakash7474/Jev_guard) 0★ NOASSERTION Py HEAD `c8bc4ae5f0cc` README SHA `c57261b48d4d`. Quote *theirs*: Jev Guard is a real-time Windows process monitoring application powered by TypeSafe's Jev AI model. It tracks newly launched processes, logs event metadata (.... routing ≠ permission. *theirs* not Harbor.
+   [`pstong216/jevnav-demo`](https://github.com/pstong216/jevnav-demo) 0★ MIT Py HEAD `67a5bfdcb926` README SHA `1f9a578c419c`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`rdutra/laya-mcp`](https://github.com/rdutra/laya-mcp) 0★ Apache-2.0 Py HEAD `51f1a56cf7c9` README SHA `6200f9a2bc5c`. GitHub description empty; not a README quote. does not execute. *theirs* not Harbor.
+   [`riku1128-tong/jev_test_action`](https://github.com/riku1128-tong/jev_test_action) 0★ NOASSERTION HTML HEAD `4f92db57d8a4` README SHA `7065aceeb4ce`. Quote *theirs*: Side-scroller whose next platform is chosen in real time by TypeSafe Jev (System One) from the player's recent moves. catalog ≠ endorsement. *theirs* not Harbor.
+   [`roisol144/before-you-send`](https://github.com/roisol144/before-you-send) 0★ NOASSERTION Py HEAD `3d18b81c6be1` README SHA `1960415dabb7`. Quote *theirs*: Live message tone checker: see tone, formality and fight risk as you type. Powered by Laya, a non-generative decision model.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`royalpinto007/jev-msw`](https://github.com/royalpinto007/jev-msw) 1★ MIT TS HEAD `d5a33e3fe9bb` README SHA `542b1f6396b8`. Quote *theirs*: Mock Jev API decisions with MSW for deterministic tests without real API calls or credits.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`sk123qaq/hermes-plugin-jev-approval`](https://github.com/sk123qaq/hermes-plugin-jev-approval) 0★ MIT Py HEAD `d4bf312b32a5` README SHA `9fd7140e6733`. Quote *theirs*: Hermes 插件：被标记的危险命令交给 TypeSafe Jev 裁决: : 放行则执行，拒绝则拦截并弹出系统通知+提示音；clarify 提问同样提醒。. catalog ≠ endorsement. *theirs* not Harbor.
+   [`slatejack/jev-desktop`](https://github.com/slatejack/jev-desktop) 0★ NOASSERTION TS HEAD `a0b1345e32ff` README SHA `cfb1613a63cd`. Quote *theirs*: 基于 TypeSafe jev 模型（System One）的桌面端评估工作台. catalog ≠ endorsement. *theirs* not Harbor.
+   [`steve8708/jev-browser-benchmark`](https://github.com/steve8708/jev-browser-benchmark) 0★ MIT HTML HEAD `61588f06c5a0` README SHA `882f2f0e7591`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`taupirho/jev-test`](https://github.com/taupirho/jev-test) 0★ NOASSERTION Py HEAD `feb86fa0bbf3` README SHA `3b3c8c81207a`. Quote *theirs*: Python CLI for classifying ASCII text with Jev and returning sensitivity probabilities. catalog ≠ endorsement. *theirs* not Harbor.
+   [`tfolkman/jev-village`](https://github.com/tfolkman/jev-village) 0★ MIT JS HEAD `7bd9bd3e5769` README SHA `fec0f4b43db5`. Quote *theirs*: A village of silent AI villagers: every decision goes to a System One model (Jev) instead of a chat LLM, with live Jev-vs-frontier-LLM cost meters.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`thehan-co/jevriel`](https://github.com/thehan-co/jevriel) 0★ Apache-2.0 JS HEAD `7159dcf549c6` README SHA `ece3a271ece0`. Quote *theirs*: Give your AI JEV wings. A skill and plugin to build with TypeSafe Jev, upgrade LLM-only workflows and measure the result.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`tinystruct/tinystruct-typesafe-sdk`](https://github.com/tinystruct/tinystruct-typesafe-sdk) 0★ Apache-2.0 Java HEAD `6d6b8b73859c` README SHA `654f77979614`. Quote *theirs*: A tinystruct-based TypeSafe SDK with JEV model. catalog ≠ endorsement. *theirs* not Harbor.
+   [`tobalo/jev-demo-sample`](https://github.com/tobalo/jev-demo-sample) 0★ NOASSERTION TS HEAD `b0ad3cea8bc8` README SHA `b59bba38e71b`. Quote *theirs*: Demo comparing Jev with GPT 5.6 Luna. catalog ≠ endorsement. *theirs* not Harbor.
+   [`turenlabs/jast`](https://github.com/turenlabs/jast) 0★ MIT Rust HEAD `c6588285208f` README SHA `d9214ca31f92`. Quote *theirs*: JAST is an experimental SAST (static application security testing) desktop app that uses TypeSafe AI's Jev System One model.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`vittoriobrehautduran/decisionmakertest`](https://github.com/vittoriobrehautduran/decisionmakertest) 0★ NOASSERTION Py HEAD `ebe0cdbe7ade` README SHA `4c0ff1b6ed2e`. Quote *theirs*: Side-by-side speed/quality bench for TypeSafe Jev and Laya. catalog ≠ endorsement. *theirs* not Harbor.
+   [`who/naming-things`](https://github.com/who/naming-things) 0★ NOASSERTION TS HEAD `02be0a0bd22f` README SHA `0e00d0383dc0`. Quote *theirs*: Use Jev combined with an LLM, and your own rules/taste to make better names for things.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`xiaoMingChina/jevcn`](https://github.com/xiaoMingChina/jevcn) 0★ NOASSERTION Astro HEAD `cad3dedaf1a6` README SHA `3fa83b34111a`. Quote *theirs*: Jev 中文社区. catalog ≠ endorsement. *theirs* not Harbor.
+   [`xygamer179-boop/Veylon-RLCD-Small-Conditional-Model`](https://github.com/xygamer179-boop/Veylon-RLCD-Small-Conditional-Model) 0★ NOASSERTION Py HEAD `fd76e4ddbb4d` README SHA `64973a4a4f41`. Quote *theirs*: AI LLM. game success ≠ calibrated Noul. *theirs* not Harbor.
+   [`yubol-bobo/rlcd-survey`](https://github.com/yubol-bobo/rlcd-survey) 0★ NOASSERTION HTML HEAD `133649db86c9` README SHA `b335166b24db`. Quote *theirs*: Calibration-Aware Reinforcement Learning for Large Language Models: a survey of objectives, optimization, and decision-making.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`zchee/typesafe-sdk-rust`](https://github.com/zchee/typesafe-sdk-rust) 0★ Apache-2.0 Rust HEAD `b68b5fbeb890` README SHA `f7186b4526a8`. Quote *theirs*: Unofficial async Rust SDK for the TypeSafe AI System One API: typed questions via #[derive(QuestionSet)], a port of typesafe-sdk-python.. catalog ≠ endorsement. *theirs* not Harbor.
+   [`ziwon/jev-iab-explorer`](https://github.com/ziwon/jev-iab-explorer) 0★ MIT JS HEAD `26395b9af54e` README SHA `71fd471ab634`. GitHub description empty; not a README quote. catalog ≠ endorsement. *theirs* not Harbor.
+   [`hf:ldov/openjevv`](https://huggingface.co/ldov/openjevv) 0 likes sha `e46c127c3b8c` model. serving substrate ≠ calibrated replica. *theirs* not Harbor.
+   [`hf:litert-community/Laya-Multilingual-LiteRT`](https://huggingface.co/litert-community/Laya-Multilingual-LiteRT) 0 likes sha `db141e99b1ae` model. serving substrate ≠ calibrated replica. *theirs* not Harbor.
+   [`Unnati-23/jev-typesafe-guide`](https://github.com/Unnati-23/jev-typesafe-guide) skip-thin empty README. catalog ≠ endorsement.
+   [`antoniofaical/digital-twin-classifier-jev`](https://github.com/antoniofaical/digital-twin-classifier-jev) skip-thin empty README. catalog ≠ endorsement.
+   [`leonezhu/agent-kits`](https://github.com/leonezhu/agent-kits) skip-thin empty README. catalog ≠ endorsement.
+   [`wjw66/deepseek-harness-jev-pre-compaction`](https://github.com/wjw66/deepseek-harness-jev-pre-compaction) skip-thin empty README. catalog ≠ endorsement.
+   [`ziwon/jev-actor`](https://github.com/ziwon/jev-actor) skip-thin empty README. catalog ≠ endorsement.
+   `hf:chanoian/openjev-mlx-demo` HTTP 401 *theirs*. catalog ≠ endorsement.
+   `hf:clduab11/jev-calibration-statistics` HTTP 401 *theirs*. catalog ≠ endorsement.
+   `hf:yasserrmd/laya-lab` HTTP 401 *theirs*. catalog ≠ endorsement.
+   catalog ≠ endorsement. game success ≠ calibrated Noul. does not execute.
+   routing ≠ permission. *theirs* not Harbor.
+
+### Pulse (live REST this hour)
+
+Archer still promised_not_landed. Hub archerhume/4rcherhume HTTP **401**.
+aliaihub/awesome-jev-usecases **15★**. rezoch340/jev-chat-JARVIS-windows
+**6★**. jev-jarvis/jev-jarvis densify **8★** (was 4★).
+Nyarlathoteppppp/pi-jev-context densify **5★**. `invented_signal: false`.
+
+### Formal compose + anti-patterns
+
+Formal methods **compose** with scoring. A Noul is a SENSOR. A valid
+Choice schema is not a correct label. API confidence is distribution
+concentration, not P(correct). F1 is not a review-queue policy. Treating
+GEPA Brier/F1 as Harbor, a catalog as endorsement, JARVIS fill-in as
+send authority, 180 ms routing as permission, $0.00241 as a calibrated
+Noul, a Pokémon walk as a Noul, threshold 0.8 as a hard gate, wire-compat
+as logit-equiv, a SHA move as a replica, or GEPA as an 18th scoring-table
+species is soundness theater. Soft is not gate. schema-valid is not the
+same as correct. review-queue policy is not F1. *theirs* not Harbor.
+SHA move is not a replica. densify §144 not a sibling first sighting.
+pi-jev-context densify §134 not a sibling first sighting.
+
+### Adversarial review + testing hooks (Basit standing
+order)
+
+Parent merge only after **CLEAN** adversarial review **AND** testing.
+Hooks for the reviewer:
+
+- Uniqueness-gate: the consecutive `Hourly 1019 uniqueness lock:`
+  string must appear in every overlay listed below. Prior walls 0843 /
+  0915 / jcr / 0922 / 0940 / 0947 / 1049 / 1143 / 1248 / 1340 / 1441 /
+  1542 / 1643 / 1746 / 1843 / 1936 / Open-Jev densify / 1946 / 2049 /
+  2146 / 2246 / 2347 / 0049 / 0151 / 0248 / 0348 / 0445 / 0551 / 0707 /
+  0823 / 0923 stay one substring each (do not mutate them; do not reopen
+  #23–#69).
+- Namesake locks: aliaihub/awesome-jev-usecases ≠
+  anandi1989/awesome-jev-usecases ≠ whyashthakker/awesome-jev-use-cases;
+  rezoch340/jev-chat-JARVIS-windows ≠ Finderchangchang/jev-chat-JARVIS;
+  aakgna/jevcal ≠ abhixhek/jevcal;
+  007M7/jev-chat ≠ w3cj/jev-chat ≠ Manta-Boardgame/jev-chat;
+  fstandhartinger/jev-router ≠ gargpratyush/jev-router;
+  prakash7474/Jev_guard ≠ leepokai/jev-guard;
+  rdutra/laya-mcp ≠ PerryLink/laya-mcp ≠ wsargent/laya-mcp;
+  Kourin1996/jev-playground ≠ wustep/jev-playground;
+  ai-ecoverse/cua-s1.js Cua-S1 ≠ TypeSafe;
+  Nyarlathoteppppp/pi-jev-context ≠ kevinpita/pi-jev-context.
+- Evaluator: schema-valid is not the same as correct / API confidence is
+  not P(correct) / review-queue policy is not F1 / Soft is not gate /
+  Not an 18th scoring-table species / densify §144 not sibling.
+- Skip Archer. Hub archerhume/4rcherhume HTTP 401.
+

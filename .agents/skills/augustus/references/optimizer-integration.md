@@ -232,3 +232,14 @@ hard safety (`notes.md` §100).
 **Test** (any claimed integration must show): labeled-set agreement Jev vs
 PAW output on held-out data, per-class cost/latency comparison, and a drift
 measurement over a week of live inputs.
+
+**GEPA domain-adapt on hosted Jev (Empirical as blog; 2026-09-21 ~10:19):**
+[praneeth16/adapting-jev-with-gepa](https://praneeth16.github.io/blog/adapting-jev-with-gepa/)
+ADE Corpus V2. GEPA revises Choice instructions/criteria with weights
+fixed. jev-1.13.0 weights fixed. schema-valid is not the same as correct.
+API confidence is not P(correct). Brier 0.1357→0.0747 *theirs*.
+F1 69.1%→79.7% *theirs*. FN 4→6. review-queue policy is not F1.
+Soft is not gate. Not an 18th scoring-table species. Decision-model
+benefit recipe beside llm-to-jev (`notes.md` §145).
+
+
