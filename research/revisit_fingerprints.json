@@ -2725,14 +2725,15 @@
     {
       "id": "github:gbesse/decision-workbench",
       "notes_section": "139",
-      "last_look": "2026-09-21T09:48Z",
+      "last_look": "2026-09-21T17:10Z",
       "fingerprints": {
-        "default_sha": "8889cf3750a364e45521514b1a1bc31ad2aa7ec7",
-        "pushed_at": "2026-09-21T09:48:20Z",
-        "description_hash": "527965c946a7",
+        "default_sha": "877d1a9add5b2490c4271c7a2baa48d70d06637d",
+        "pushed_at": "2026-09-21T16:20:57Z",
+        "description_hash": "71d47f87f91a",
         "release_tag": null
       },
-      "readme_sha": "14a3bf79da7a55daa441de7eb4675f89e4209568"
+      "readme_sha": "24cce8900d6794e0e4084c24996f8fa6b6c2c059",
+      "note": "1110 densify human review separate from model output; densify \u00a7139 not a sibling first sighting"
     },
     {
       "id": "github:lucasmartins-ai/lcc",
@@ -3398,15 +3399,15 @@
     {
       "id": "github:pythongiant/laya-drift",
       "notes_section": "142",
-      "last_look": "2026-09-21T14:23Z",
+      "last_look": "2026-09-21T17:10Z",
       "fingerprints": {
-        "default_sha": "334953e5cb8f61d5754d70a17ea3b7bc0be2de44",
-        "pushed_at": "2026-09-21T14:00:55Z",
-        "description_hash": "a199a954ee75",
+        "default_sha": "d33db6736ed8c42b3a3ac2851e68f7bfd5a19b92",
+        "pushed_at": "2026-09-21T16:52:47Z",
+        "description_hash": "7a10307bc58e",
         "release_tag": null
       },
-      "readme_sha": "6662121ba0f3440db6e8220929c26b82534c5d85",
-      "note": "0823 densify \u00a7142 description rewrite; densify \u00a7142 not a sibling first sighting"
+      "readme_sha": "7af1781c28c5f1541fa8cb63ec6ed2daa623f565",
+      "note": "0823 densify \u00a7142 description rewrite; densify \u00a7142 not a sibling first sighting 1110 densify monitor agent drift; densify \u00a7142 not a sibling first sighting"
     },
     {
       "id": "github:browser-use/jev-ultrafast",
@@ -3803,14 +3804,15 @@
     {
       "id": "github:Adkid-Zephyr/chinese-workflow-decision-bench",
       "notes_section": "145",
-      "last_look": "2026-09-21T16:19Z",
+      "last_look": "2026-09-21T17:10Z",
       "fingerprints": {
-        "default_sha": "6d0a7c2af303eea2c41ac79265e8affeaa18b003",
-        "pushed_at": "2026-09-21T16:29:21Z",
-        "description_hash": "6f547efe542b",
+        "default_sha": "b694dc6dbcba12c5bcf8d51b60ec48ff6ab87d57",
+        "pushed_at": "2026-09-21T17:11:23Z",
+        "description_hash": "3f1e1fe34586",
         "release_tag": null
       },
-      "readme_sha": "4ed71a36cd5107e5412fe8f3b0cb9fd351cae5d9"
+      "readme_sha": "9ef2b7d76a37c001aef0b03aa53720ef6eedee7b",
+      "note": "1110 densify 64/64 and 63/64 *theirs* not Harbor; densify \u00a7145 not a sibling first sighting"
     },
     {
       "id": "github:Ahmadnmic/autocorrecter",
@@ -4185,14 +4187,15 @@
     {
       "id": "github:arnavm-codes/JevFence",
       "notes_section": "145",
-      "last_look": "2026-09-21T16:19Z",
+      "last_look": "2026-09-21T17:10Z",
       "fingerprints": {
-        "default_sha": "6fe62ca7b10c16f34c729b13bc2de02e4e638d67",
-        "pushed_at": "2026-09-21T16:25:28Z",
-        "description_hash": null,
+        "default_sha": "7e277474ff5ef62f1a6e88dd1349792505ab5670",
+        "pushed_at": "2026-09-21T17:13:40Z",
+        "description_hash": "1afcfb2f4e24",
         "release_tag": null
       },
-      "readme_sha": "5441aaeaace0aedc01b28f527094df445a0d9324"
+      "readme_sha": "2bbb684757dedaca9a87fee3e94663898d75b76f",
+      "note": "1110 densify soft scores \u2260 hard gates; densify \u00a7145 not a sibling first sighting"
     },
     {
       "id": "github:balazsorban44/nvim-jev-plugin",
@@ -4911,14 +4914,15 @@
     {
       "id": "github:turenlabs/jast",
       "notes_section": "145",
-      "last_look": "2026-09-21T16:19Z",
+      "last_look": "2026-09-21T17:10Z",
       "fingerprints": {
         "default_sha": "c6588285208f485392c95f85f14d79e6f5d1b5bc",
         "pushed_at": "2026-09-21T16:12:37Z",
         "description_hash": "25995c5b2a2d",
         "release_tag": null
       },
-      "readme_sha": "d9214ca31f92cc5b65dae50773be6a0564219ce4"
+      "readme_sha": "d9214ca31f92cc5b65dae50773be6a0564219ce4",
+      "note": "1110 star 0 to 1 star-noise SHA unchanged; densify \u00a7145 not a sibling first sighting"
     },
     {
       "id": "github:vittoriobrehautduran/decisionmakertest",
@@ -5051,6 +5055,45 @@
         "release_tag": null
       },
       "readme_sha": "b1cda6c4646e7e1bf99099daab8453c62d085d23"
+    },
+    {
+      "id": "hf:thaitea/laya-vision",
+      "notes_section": "146",
+      "last_look": "2026-09-21T17:10Z",
+      "fingerprints": {
+        "default_sha": "a2653db2831b9b03b875a6558618feda833b7ff0",
+        "pushed_at": null,
+        "description_hash": null,
+        "release_tag": null
+      },
+      "likes": 13,
+      "note": "1110 same-species serving not an 18th scoring row; act head untrained do not gate on it"
+    },
+    {
+      "id": "github:JabbaKadabra/SystemOneDotNet",
+      "notes_section": "143",
+      "last_look": "2026-09-21T17:10Z",
+      "fingerprints": {
+        "default_sha": "5120ffb84cc5a2ad834502c92bae8ea889a2789d",
+        "pushed_at": "2026-09-21T17:02:02Z",
+        "description_hash": "bee00f035ed1",
+        "release_tag": null
+      },
+      "readme_sha": "0809f98d4c932b542e5eb6bec08401378503afd7",
+      "note": "1110 densify unofficial .NET client; densify \u00a7143 not a sibling first sighting"
+    },
+    {
+      "id": "github:cloudbtl/JevRAG",
+      "notes_section": "146",
+      "last_look": "2026-09-21T17:10Z",
+      "fingerprints": {
+        "default_sha": "307ab19ee9cf9758c4cd9785803fced7efb3be45",
+        "pushed_at": "2026-09-21T17:07:47Z",
+        "description_hash": "804601c2b99e",
+        "release_tag": null
+      },
+      "readme_sha": "9b814bb6624b5dcccb05b3562ee2509589f179d0",
+      "note": "1110 first card; revisit tag had no prior notes card"
     }
   ],
   "entries": null

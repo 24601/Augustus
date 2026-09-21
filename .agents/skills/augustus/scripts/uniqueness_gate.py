@@ -253,6 +253,9 @@ UNIQ_1019 = (
     "Hourly 1019 uniqueness lock: praneeth16/adapting-jev-with-gepa ADE Corpus V2 GEPA; schema-valid is not the same as correct; API confidence is not P(correct); GEPA revises Choice instructions/criteria with weights fixed; jev-1.13.0 weights fixed; Brier 0.1357\u21920.0747 *theirs*; F1 69.1%\u219279.7% *theirs*; FN 4\u21926; review-queue policy is not F1; Soft is not gate; Not an 18th scoring-table species; aliaihub/awesome-jev-usecases 15\u2605 NOASSERTION HEAD 6cbde6bd3569 README SHA 7ea135c6345d; Every claim is labeled and sourced; catalog \u2260 endorsement; aliaihub/awesome-jev-usecases \u2260 anandi1989/awesome-jev-usecases \u2260 whyashthakker/awesome-jev-use-cases; rezoch340/jev-chat-JARVIS-windows 6\u2605 MIT Py HEAD 26b686301437 README SHA 0714736b68c3; \u53d1\u9001\u6c38\u8fdc\u624b\u52a8; rezoch340/jev-chat-JARVIS-windows \u2260 Finderchangchang/jev-chat-JARVIS; iamvatsalpatel/tiershift 3\u2605 MIT TS HEAD 16a0826b9f62 README SHA 46fcb1cb191b; About 180 ms; routing \u2260 permission; Bring-AI/jev-rl 2\u2605 MIT Py HEAD 36f89cec85a2 README SHA 6283da6011b7; $0.00241 *theirs*; daniel4x/JevEmon 2\u2605 GPL-3.0 HEAD 572454c69bf7 README SHA 8fc00d12848d; Not a screenshot agent; game success \u2260 calibrated Noul; spoonnotfound/soupbase 2\u2605 MIT TS HEAD 3e874e83e710 README SHA 3106bc96d6ab; Nabsku/pi-follow-through 1\u2605 MIT TS HEAD c62ef28ff4ac README SHA 64000451b79e; pi-follow-through threshold 0.8 still soft; dashbi1/jev-sim 1\u2605 MIT Py HEAD 753c7397d73c README SHA 05fd960799d2; wire-compat \u2260 logit-equiv; jev-jarvis/jev-jarvis densify 8\u2605 MIT Py HEAD a94e3b967ef5 README SHA e441335b1df0 was be68dd7993f0 / efe7e47a6fe8; densify \u00a7144 not a sibling first sighting; Nyarlathoteppppp/pi-jev-context densify 5\u2605 MIT TS HEAD 96371e2bf144 README SHA d4276222a436 was f0128a86478f; pi-jev-context densify \u00a7134 not a sibling first sighting; Nyarlathoteppppp/pi-jev-context \u2260 kevinpita/pi-jev-context; fly88oj/jebii 0\u2605 MIT JS HEAD 5cbe527ed791 README SHA b4a76b8aba9d; generallymatthew/factlabel 0\u2605 Apache-2.0 Py HEAD b3d3bceee044 README SHA b1cda6c4646e; aakgna/jevcal \u2260 abhixhek/jevcal; 007M7/jev-chat \u2260 w3cj/jev-chat \u2260 Manta-Boardgame/jev-chat; fstandhartinger/jev-router \u2260 gargpratyush/jev-router; prakash7474/Jev_guard \u2260 leepokai/jev-guard; rdutra/laya-mcp \u2260 PerryLink/laya-mcp \u2260 wsargent/laya-mcp; Kourin1996/jev-playground \u2260 wustep/jev-playground; ai-ecoverse/cua-s1.js Cua-S1 \u2260 TypeSafe; skip-thin Unnati-23/jev-typesafe-guide antoniofaical/digital-twin-classifier-jev leonezhu/agent-kits empty README; skip-thin wjw66/deepseek-harness-jev-pre-compaction ziwon/jev-actor empty SHA HTTP 409; hf:chanoian/openjev-mlx-demo HTTP 401 *theirs*; hf:clduab11/jev-calibration-statistics HTTP 401 *theirs*; hf:yasserrmd/laya-lab HTTP 401 *theirs*; catalog \u2260 endorsement; game success \u2260 calibrated Noul; does not execute; routing \u2260 permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62/#63/#64/#65/#66/#67/#68/#69; notes.md \u00a7145"
 )
 
+UNIQ_1110 = (
+    "Hourly 1110 uniqueness lock: hf:thaitea/laya-vision 13 likes sha a2653db2831b cc-by-nc-sa-4.0; SmolVLM-256M vision typed choice/score/noul; same-species serving not an 18th scoring row; independent not affiliated; A-OKVQA 63.1% ECE 0.266 to 0.094 *theirs*; ScienceQA 89.0% ECE 0.080 to 0.034 *theirs*; VQAv2 noul 73.2% ECE 0.085 to 0.042 *theirs*; All n=8235 75.9% ECE 0.035 *theirs* not Harbor; VQAv2 re-split not comparable to published VQAv2; about 71 ms *theirs*; option order varies 1.2 points *theirs*; act head untrained do not gate on it; not a drop-in replacement for Laya text checkpoint; usage loads thaitea/laya-vision-smolvlm-256m already \u00a787; hf:thaitea/laya-vision \u2260 thaitea/laya-vision-smolvlm-256m card id; AntonG87/codearia-sieve 1\u2605 MIT TS HEAD 64ecd4151726 README SHA b03a3d29ab22; page to typed fields; 6 of 6 *theirs*; 11 of 11 *theirs* not Harbor; robots-disallowed did not fetch; no model required for the parse; 7Zenox/gemma-jev 0\u2605 NOASSERTION Py HEAD 2eed119e03ff README SHA c3b58d6a15a9; generation-free letter slots; 144 authored decisions *theirs*; Gemma 3 270M 0.293 below chance 0.333 *theirs*; Gemma 4 E2B-it JSON chat 0.807 *theirs*; Qwen3.5-4B JSON chat 0.813 *theirs*; JSON chat \u2260 calibrated Noul; softmax over letter slots \u2260 calibrated Noul; bf16 vs fp32 argmax-agreement check not run; Gemma \u2260 Archer; Qwen3.5 \u2260 Archer; Pdbz199/local-decision-model 0\u2605 MIT Py HEAD ddceb5829849 README SHA 80659ec966f5; independent project built only from the public post; one pass no generation; schema-valid is not the same as correct; musubi-labs/musubi-jev 0\u2605 Apache-2.0 HEAD e943f21e4057 README SHA 8ffd43564204; README is a kev tree copy; copied kev numbers are not a musubi bench; musubi-labs/musubi-jev \u2260 jaredpalmer/kev; quaeast/vllm2jev 0\u2605 NOASSERTION Py HEAD 8a51f94961ea README SHA be92356f1176; does not reproduce Jev calibration; wire-compat \u2260 logit-equiv; IAmJSD/pg-laya 0\u2605 Apache-2.0 Rust HEAD 1bc66a4d6a7f README SHA 03476be41744; SQL choice score noul; serving substrate \u2260 calibrated replica; IAmJSD/pg-laya \u2260 realZachi/pg-jev \u2260 giuliosmall/pg_typesafe; gbesse/jev-rerank-server 0\u2605 MIT JS HEAD b28cef5e34a6 README SHA 91167c66c29c; SciFact n=25 nDCG@10 0.616377 to 0.718260 *theirs*; Recall@10 0.84 unchanged *theirs*; ranking \u2260 calibration; MarkChu-git/typesafe-mcp 0\u2605 MIT HEAD a064b14207c0 README SHA ae27210cc5af; decision act/review/abstain is code; act_above 0.8 still soft; MarkChu-git/typesafe-mcp \u2260 itsmostafa/typesafe-mcp \u2260 cyrusasco/typesafe-mcp \u2260 Renwang-Huang/typesafe-mcp; pythongiant/laya-drift densify 4\u2605 TS HEAD d33db6736ed8 README SHA 7af1781c28c5 was 334953e5cb8f / 6662121ba0f3; monitor agent drift; densify \u00a7142 not a sibling first sighting; Adkid-Zephyr/chinese-workflow-decision-bench densify 1\u2605 MIT Py HEAD b694dc6dbcba README SHA 9ef2b7d76a37 was 6d0a7c2af303 / 4ed71a36cd51; 64/64 and 63/64 *theirs* not Harbor; synthetic not a group-chat dump; densify \u00a7145 not a sibling first sighting; turenlabs/jast densify 1\u2605 MIT Rust HEAD c6588285208f README SHA d9214ca31f92 unchanged; star 0 to 1 is star-noise; densify \u00a7145 not a sibling first sighting; JabbaKadabra/SystemOneDotNet densify MIT C# HEAD 5120ffb84cc5 README SHA 0809f98d4c93 was 5bff3394281c / 76a9188c180a; unofficial .NET client; wire-compat \u2260 logit-equiv; densify \u00a7143 not a sibling first sighting; arnavm-codes/JevFence densify HEAD 7e277474ff5e README SHA 2bbb684757de was 6fe62ca7b10c / 5441aaeaace0; soft scores \u2260 hard gates; densify \u00a7145 not a sibling first sighting; cloudbtl/JevRAG 0\u2605 Apache-2.0 Py HEAD 307ab19ee9cf README SHA 9b814bb6624b; first card revisit tag no prior notes card; cloudbtl/JevRAG \u2260 emretheus/jev-rag-benchmark \u2260 erendikmenn/jev-rag-benchmark; gbesse/decision-workbench densify MIT JS HEAD 877d1a9add5b README SHA 24cce8900d67 was 8889cf3750a3 / 14a3bf79da7a; human review separate from model output; demo scores are not accuracy measurements; densify \u00a7139 not a sibling first sighting; 0xagentlabs/jev-xiangqi \u2260 Zafer-Liu/jev-xiangqi; RyanNg1403/jev-cli \u2260 gnapse/jev-cli \u2260 sunchojack/jev-cli; KennethAshley/awesome-jev \u2260 heyjunpenn/awesome-jev \u2260 yibie/awesome-jev; malevrigns/agent-jev \u2260 hf:aimeigaoshou/agent-jev; 79.25% 1585/2000 ECE 0.1687 *theirs* not Harbor; kidzik/jiffy probabilities are uncalibrated; s3rli/jevips name collision not a decision model; skip-thin Alpha-Harper-Franklin/astra-jev jonas050210/Laya_Playground pietrushka/jev-youtube-filter empty SHA HTTP 409; skip-thin THANK-YOU-FOR-YOUR-ORDER-ASDF123/repo-laya4qxd Ylr9933/JevForAgent empty README; hf:marcmagn1/jev-alt-systemone-eval dataset sha 95f679e8455b README 404 models HTTP 401 *theirs*; catalog \u2260 endorsement; game success \u2260 calibrated Noul; does not execute; routing \u2260 permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62/#63/#64/#65/#66/#67/#68/#69/#70; notes.md \u00a7146"
+)
 
 
 REVISIT_LOCK = (
@@ -493,6 +496,8 @@ def main() -> int:
             failed.append(f"0923 lock missing as one substring: {rel}")
         if UNIQ_1019 not in body:
             failed.append(f"1019 lock missing as one substring: {rel}")
+        if UNIQ_1110 not in body:
+            failed.append(f"1110 lock missing as one substring: {rel}")
         if "meijustory123/OpenJev-Kit ≠ meijustory123/openjev" in body:
             failed.append(
                 "0348 false namesake lock still present "
@@ -561,6 +566,26 @@ def main() -> int:
         failed.append("UNIQ_1019 missing HARD RULE #68")
     if "#69" not in UNIQ_1019:
         failed.append("UNIQ_1019 missing HARD RULE #69")
+    if "same-species serving not an 18th scoring row" not in UNIQ_1110:
+        failed.append("UNIQ_1110 missing same-species lock")
+    if "act head untrained do not gate on it" not in UNIQ_1110:
+        failed.append("UNIQ_1110 missing act-head lock")
+    if "JSON chat ≠ calibrated Noul" not in UNIQ_1110:
+        failed.append("UNIQ_1110 missing JSON chat lock")
+    if "copied kev numbers are not a musubi bench" not in UNIQ_1110:
+        failed.append("UNIQ_1110 missing musubi copy lock")
+    if "ranking ≠ calibration" not in UNIQ_1110:
+        failed.append("UNIQ_1110 missing ranking lock")
+    if "densify §142 not a sibling first sighting" not in UNIQ_1110:
+        failed.append("UNIQ_1110 missing laya-drift densify lock")
+    if "densify §139 not a sibling first sighting" not in UNIQ_1110:
+        failed.append("UNIQ_1110 missing decision-workbench densify lock")
+    if "densify §143 not a sibling first sighting" not in UNIQ_1110:
+        failed.append("UNIQ_1110 missing SystemOneDotNet densify lock")
+    if "densify §145 not a sibling first sighting" not in UNIQ_1110:
+        failed.append("UNIQ_1110 missing §145 densify lock")
+    if "#70" not in UNIQ_1110:
+        failed.append("UNIQ_1110 missing HARD RULE #70")
     for rel in REVISIT_OVERLAYS:
         path = ROOT / rel
         if not path.is_file():
@@ -634,6 +659,8 @@ def main() -> int:
         failed.append("notes.md missing §144 heading")
     if "## 145. Hourly 1019 HIGH" not in notes:
         failed.append("notes.md missing §145 heading")
+    if "## 146. Hourly 1110 HIGH" not in notes:
+        failed.append("notes.md missing §146 heading")
 
     notes140 = notes[notes.find("## 140. Hourly 0445 HIGH"):]
     for remainder_id in (
@@ -912,10 +939,91 @@ def main() -> int:
     ):
         if remainder_id not in notes145:
             failed.append(f"notes.md §145 missing remainder card {remainder_id}")
+    notes146 = notes[notes.find("## 146. Hourly 1110 HIGH"):]
+    for remainder_id in (
+        "hf:thaitea/laya-vision",
+        "AntonG87/codearia-sieve",
+        "0xagentlabs/jev-xiangqi",
+        "7Zenox/gemma-jev",
+        "7starsseeker/dsh-fact-check",
+        "Aimlessss/rust-jev-typesafe-trade-decision-engine",
+        "Alpha-Harper-Franklin/astra-jev",
+        "AltSlate-Labs/jev-dag",
+        "AnthonyAlcaraz/aiven-agentic-graphrag-demo",
+        "Anxiety471/idle-mmo-bot",
+        "DjTaNg-404/Laya-2048",
+        "DwainYu/laya-multilingual-playground",
+        "IAmJSD/pg-laya",
+        "KennethAshley/awesome-jev",
+        "MarkChu-git/typesafe-mcp",
+        "Obrais-cloud/ticket-rerank",
+        "Obrais-cloud/typesafe-translate",
+        "Pdbz199/local-decision-model",
+        "RyanNg1403/jev-cli",
+        "THANK-YOU-FOR-YOUR-ORDER-ASDF123/repo-laya4qxd",
+        "Tom-R-Main/Footwork",
+        "Tongyun1/Jev-in-the-Loop",
+        "Ylr9933/JevForAgent",
+        "Ylr9933/JevOS",
+        "andrew-monroe/twenty-questions",
+        "aninibread/jev-dino",
+        "apolenkov/jev-codex-router-lab",
+        "awoaCrim/pi-smart-subagents",
+        "baldm0mma/JevTheDev-PortfolioPage",
+        "blueOctopusAI/ai-accordion",
+        "chenrui333/jev-docs",
+        "chensheng43/jevtest",
+        "codejunkie99/jev-engineering",
+        "deesatzed/JevEdge0",
+        "emerson-buoy/jev-poc",
+        "erboland/jev-fund",
+        "gavansmyth-arch/jev-chrome-extension",
+        "gbesse/jev-rerank-server",
+        "hanshs474/jevx-client",
+        "hf:SargeDev/jev-gate-student-b-merged",
+        "hf:aimeigaoshou/agent-jev",
+        "hf:marcmagn1/jev-alt-systemone-eval",
+        "hf:sivasub987/mandate-1-laya",
+        "i-madhav/jevxlaya-mlx",
+        "iapp-technology/openthai-systemone-doom",
+        "jan-barg/jev-traffic-control",
+        "jonas050210/Laya_Playground",
+        "kidzik/jiffy",
+        "ksalk/laya-docker-api",
+        "lewisjohnvillamor/Jevfit",
+        "majonation/jev-plays-games",
+        "malevrigns/agent-jev",
+        "marcemarin/typesafe-laravel",
+        "musubi-labs/musubi-jev",
+        "narulaskaran/jev-data-questions",
+        "nathan1313/issue-triage-bot",
+        "ninjasweb/jev-blog-filter",
+        "notzSph/zjev",
+        "pavlealeksic/laya-hermes",
+        "pietrushka/jev-youtube-filter",
+        "proshunsuke/jev-tab-order",
+        "quaeast/vllm2jev",
+        "rahiseko-alt/jev-test1",
+        "s3rli/jevips",
+        "sisodias/jev-agent-skills",
+        "thundercat1/jev-clin-trial-extraction-benchmarks",
+        "unirt/jev-eval-ja",
+        "uzuraDev/cookie-clicker-jev",
+        "walidboulanouar/jev-agent-kit",
+        "pythongiant/laya-drift",
+        "turenlabs/jast",
+        "Adkid-Zephyr/chinese-workflow-decision-bench",
+        "JabbaKadabra/SystemOneDotNet",
+        "arnavm-codes/JevFence",
+        "cloudbtl/JevRAG",
+        "gbesse/decision-workbench",
+    ):
+        if remainder_id not in notes146:
+            failed.append(f"notes.md §146 missing remainder card {remainder_id}")
     algebra = (ROOT / ".agents/skills/augustus/references/composition-algebra.md").read_text(
         encoding="utf-8"
     )
-    for n in list(range(289, 317)) + list(range(322, 330)) + list(range(330, 337)) + list(range(337, 353)) + list(range(353, 369)) + list(range(369, 385)) + list(range(385, 401)) + list(range(401, 417)) + list(range(417, 433)) + list(range(433, 449)) + list(range(449, 465)) + list(range(465, 481)) + list(range(481, 497)) + list(range(497, 505)) + list(range(505, 521)) + list(range(521, 537)) + list(range(537, 553)) + list(range(553, 569)) + list(range(569, 585)) + list(range(585, 601)) + list(range(601, 617)) + list(range(617, 633)) + list(range(633, 649)) + list(range(649, 665)) + list(range(665, 681)) + list(range(681, 697)) + list(range(697, 713)) + list(range(713, 729)) + list(range(729, 745)):
+    for n in list(range(289, 317)) + list(range(322, 330)) + list(range(330, 337)) + list(range(337, 353)) + list(range(353, 369)) + list(range(369, 385)) + list(range(385, 401)) + list(range(401, 417)) + list(range(417, 433)) + list(range(433, 449)) + list(range(449, 465)) + list(range(465, 481)) + list(range(481, 497)) + list(range(497, 505)) + list(range(505, 521)) + list(range(521, 537)) + list(range(537, 553)) + list(range(553, 569)) + list(range(569, 585)) + list(range(585, 601)) + list(range(601, 617)) + list(range(617, 633)) + list(range(633, 649)) + list(range(649, 665)) + list(range(665, 681)) + list(range(681, 697)) + list(range(697, 713)) + list(range(713, 729)) + list(range(729, 745)) + list(range(745, 761)):
         needle = f"{n}. **"
         if needle not in algebra:
             failed.append(f"composition-algebra missing item {n}")
@@ -956,6 +1064,7 @@ def main() -> int:
         "## Batch #125",
         "## Batch #126",
         "## Batch #127",
+        "## Batch #128",
     ):
         if batch not in findings:
             failed.append(f"findings.md missing {batch}")
@@ -1190,6 +1299,27 @@ def main() -> int:
             )
         if digest1019.get("invented_signal") is not False:
             failed.append("1019 run_digest invented_signal is not false")
+    digest_path_1110 = ROOT / "research/archive/hourly/2026-09-21T17/run_digest.json"
+    if not digest_path_1110.is_file():
+        failed.append("missing 1110 run_digest.json")
+    else:
+        digest1110 = json.loads(digest_path_1110.read_text(encoding="utf-8"))
+        if digest1110.get("label") != "1110":
+            failed.append(f"1110 run_digest label {digest1110.get('label')!r} != '1110'")
+        if digest1110.get("notes_section") != "146":
+            failed.append(
+                f"1110 run_digest notes_section {digest1110.get('notes_section')!r} != '146'"
+            )
+        if digest1110.get("composition") != "745-760":
+            failed.append(
+                f"1110 run_digest composition {digest1110.get('composition')!r} != '745-760'"
+            )
+        if digest1110.get("findings_batch") != 128:
+            failed.append(
+                f"1110 run_digest findings_batch {digest1110.get('findings_batch')!r} != 128"
+            )
+        if digest1110.get("invented_signal") is not False:
+            failed.append("1110 run_digest invented_signal is not false")
     digest_path_0151 = ROOT / "research/archive/hourly/2026-09-21T08/run_digest.json"
     if not digest_path_0151.is_file():
         failed.append("missing 0151 run_digest.json")
@@ -2489,6 +2619,7 @@ def main() -> int:
         ("0823", UNIQ_0823),
         ("0923", UNIQ_0923),
         ("1019", UNIQ_1019),
+        ("1110", UNIQ_1110),
     ):
         if lock in changelog:
             failed.append(
@@ -2571,7 +2702,7 @@ def main() -> int:
         f"2146 chars={len(UNIQ_2146)} "
         f"2246 chars={len(UNIQ_2246)} "
         f"2347 chars={len(UNIQ_2347)} "
-        f"0049 chars={len(UNIQ_0049)} 0151 chars={len(UNIQ_0151)} 0248 chars={len(UNIQ_0248)} 0348 chars={len(UNIQ_0348)} 0445 chars={len(UNIQ_0445)} 0551 chars={len(UNIQ_0551)} 0707 chars={len(UNIQ_0707)} 0823 chars={len(UNIQ_0823)} 0923 chars={len(UNIQ_0923)} 1019 chars={len(UNIQ_1019)} "
+        f"0049 chars={len(UNIQ_0049)} 0151 chars={len(UNIQ_0151)} 0248 chars={len(UNIQ_0248)} 0348 chars={len(UNIQ_0348)} 0445 chars={len(UNIQ_0445)} 0551 chars={len(UNIQ_0551)} 0707 chars={len(UNIQ_0707)} 0823 chars={len(UNIQ_0823)} 0923 chars={len(UNIQ_0923)} 1019 chars={len(UNIQ_1019)}  1110 chars={len(UNIQ_1110)} "
         f"revisit chars={len(REVISIT_LOCK)} "
         f"overlays={len(OVERLAYS)} "
         f"revisit_overlays={len(REVISIT_OVERLAYS)}"
