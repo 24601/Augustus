@@ -20,7 +20,7 @@
     "forks_count",
     "likes"
   ],
-  "note": "Last-look snapshots for already-catalogued sources. Hourly diffs these four fingerprints. Star-noise is not a fold. SHA move is not a replica. Seeded from merged notes (SemIf §117, NanoJev §115) plus hourly 1248 densify (openjev §75, von §49, verdict §71, kev §45, jeff §60, TypeLLM §113) plus hourly 1340 densify (openjev sdk 0.7 + MLX 400, kev PLAN_Qwen35) plus hourly 1441 densify (openjev STE backends+Codiv dual serving) and 1441 first sightings plus hourly 1542 densify (TypeLLM README 3k→12k B, kev family new-source) and 1542 first sightings (pi-jev densify, jev-sentinel, tool-routers, leanest, jevals, MrJev, jev-firewall, jev-codex-approval, HF encoder/quanto). default_sha is the full HEAD. pushed_at is the GitHub push clock. description_hash is sha256[:12] of the GitHub/Space description, or null when notes do not quote it. README SHA is an optional extra, not a substitute for description_hash.",
+  "note": "Last-look snapshots for already-catalogued sources. Hourly diffs these four fingerprints. Star-noise is not a fold. SHA move is not a replica. Seeded from merged notes (SemIf \u00a7117, NanoJev \u00a7115) plus hourly 1248 densify (openjev \u00a775, von \u00a749, verdict \u00a771, kev \u00a745, jeff \u00a760, TypeLLM \u00a7113) plus hourly 1340 densify (openjev sdk 0.7 + MLX 400, kev PLAN_Qwen35) plus hourly 1441 densify (openjev STE backends+Codiv dual serving) and 1441 first sightings plus hourly 1542 densify (TypeLLM README 3k\u219212k B, kev family new-source) and 1542 first sightings (pi-jev densify, jev-sentinel, tool-routers, leanest, jevals, MrJev, jev-firewall, jev-codex-approval, HF encoder/quanto). default_sha is the full HEAD. pushed_at is the GitHub push clock. description_hash is sha256[:12] of the GitHub/Space description, or null when notes do not quote it. README SHA is an optional extra, not a substitute for description_hash. plus hourly 1746 densify (TypeLLM truncated thinking + qwen35_small, kev 0.8B Qwen3.5 family, jev-pruner §53, jevassert §70, jev-packs §64) and 1746 first sightings (vexjoy, Canny, jev-engineering, five-lines, jev-table, kev-ane).",
   "looks": [
     {
       "id": "github:TheoLeeCJ/SemIf",
@@ -85,14 +85,14 @@
     {
       "id": "github:jaredpalmer/kev",
       "notes_section": "45",
-      "last_look": "2026-09-20T21:42Z",
+      "last_look": "2026-09-20T23:46Z",
       "fingerprints": {
-        "default_sha": "b339f446a0ef0d691d9541daa42fb5416dfba63b",
-        "pushed_at": "2026-09-20T20:54:46Z",
-        "description_hash": "8f68dcc43f12",
+        "default_sha": "8465c4c4c2942e93f1458ff080624891febb6089",
+        "pushed_at": "2026-09-20T23:59:32Z",
+        "description_hash": "47fc60928c90",
         "release_tag": "kev-family"
       },
-      "readme_sha": "86b0a19909f30608fd0b404b30651f0812eeacdf"
+      "readme_sha": "19664b9ae54672326c7aee14fef932e3eec7a58c"
     },
     {
       "id": "github:logan-markewich/jeff",
@@ -109,14 +109,14 @@
     {
       "id": "github:TypeLLM/TypeLLM",
       "notes_section": "113",
-      "last_look": "2026-09-20T21:42Z",
+      "last_look": "2026-09-20T23:46Z",
       "fingerprints": {
-        "default_sha": "6a48f9f1e623500b936d978140d239d9c11ce82a",
-        "pushed_at": "2026-09-20T21:02:54Z",
+        "default_sha": "702e6a287f3cb2aa71329711a08bd0b35ec6dbc8",
+        "pushed_at": "2026-09-20T23:09:51Z",
         "description_hash": "4e7869c96688",
         "release_tag": null
       },
-      "readme_sha": "dbdc1f193537d57b6721bd42b623c4cf83d5977b"
+      "readme_sha": "08180db0450b84a6ec16b2d98dd04afac962daf9"
     },
     {
       "id": "github:sseanliu/Jev-Vision",
@@ -1062,6 +1062,270 @@
         "release_tag": null
       },
       "readme_sha": null
+    },
+    {
+      "id": "github:notque/vexjoy-agent",
+      "notes_section": "128",
+      "last_look": "2026-09-20T23:46Z",
+      "fingerprints": {
+        "default_sha": "fdf2052e18d2d9b93712c5b760e1ea32a872b2db",
+        "pushed_at": "2026-09-20T23:30:09Z",
+        "description_hash": "09596b053d70",
+        "release_tag": null
+      },
+      "readme_sha": "d0fa240c7cf481f4927ce9568a2d603dd2d064b7"
+    },
+    {
+      "id": "github:tamaratran/jev-pruner",
+      "notes_section": "53",
+      "last_look": "2026-09-20T23:46Z",
+      "fingerprints": {
+        "default_sha": "47d017c34eab7690b95f075ce6f4839247c5dc0a",
+        "pushed_at": "2026-09-20T23:58:52Z",
+        "description_hash": "7a52ba96cde0",
+        "release_tag": null
+      },
+      "readme_sha": "ded0340e595d359184d6766d9218131e8ec6f9bc"
+    },
+    {
+      "id": "github:qkal/Canny",
+      "notes_section": "128",
+      "last_look": "2026-09-20T23:46Z",
+      "fingerprints": {
+        "default_sha": "72cd816441ae260dce6cc73ca02820474044ac06",
+        "pushed_at": "2026-09-20T23:56:39Z",
+        "description_hash": "191502f76cc5",
+        "release_tag": null
+      },
+      "readme_sha": "dafe4140317a0deef4ebcc5ec6d46ddb756d2a40"
+    },
+    {
+      "id": "github:jqueryscript/awesome-jev",
+      "notes_section": "128",
+      "last_look": "2026-09-20T23:46Z",
+      "fingerprints": {
+        "default_sha": "ea807eb4b659376afcd1573281826a894c6e9fa1",
+        "pushed_at": "2026-09-20T23:43:18Z",
+        "description_hash": "56395f7d60b8",
+        "release_tag": null
+      },
+      "readme_sha": "24a7080b3b75d72fa7d8d39261f79fbb394a9069"
+    },
+    {
+      "id": "github:jamescazzetta/five-lines",
+      "notes_section": "128",
+      "last_look": "2026-09-20T23:46Z",
+      "fingerprints": {
+        "default_sha": "c5f233429e6fe6880c6656f4cc1b2531f00c0ae2",
+        "pushed_at": "2026-09-20T23:52:54Z",
+        "description_hash": "54ca75d1a184",
+        "release_tag": "v0.2.0"
+      },
+      "readme_sha": "9a4416eaa756c9676e4c71e5bc628221d60c3928"
+    },
+    {
+      "id": "github:eugeniughelbur/jev-engineering",
+      "notes_section": "128",
+      "last_look": "2026-09-20T23:46Z",
+      "fingerprints": {
+        "default_sha": "3161dbfb44f21bafa2ec7940ec18cfb090c7b43d",
+        "pushed_at": "2026-09-20T23:05:33Z",
+        "description_hash": "f0af97b5901c",
+        "release_tag": null
+      },
+      "readme_sha": "37ce746115315399d15ed149d41a17d54e190ae8"
+    },
+    {
+      "id": "github:dtduc-git/jev-table",
+      "notes_section": "128",
+      "last_look": "2026-09-20T23:46Z",
+      "fingerprints": {
+        "default_sha": "94c5cce8d1d342478f643daddd00d44de985cccd",
+        "pushed_at": "2026-09-20T23:26:09Z",
+        "description_hash": "b8fad42ae7cb",
+        "release_tag": "v0.1.1"
+      },
+      "readme_sha": "09a96283195774618bb404ef5994ece196498e0a"
+    },
+    {
+      "id": "github:dtduc-git/jevassert",
+      "notes_section": "70",
+      "last_look": "2026-09-20T23:46Z",
+      "fingerprints": {
+        "default_sha": "980f55d3012104da4c4a088ae15e818432d7408f",
+        "pushed_at": "2026-09-20T23:40:09Z",
+        "description_hash": "0a91a1b40c63",
+        "release_tag": "v0.2.0"
+      },
+      "readme_sha": "fc496d9d852b520f8b8f8460f8e74385e63ccdab"
+    },
+    {
+      "id": "github:dtduc-git/jev-packs",
+      "notes_section": "64",
+      "last_look": "2026-09-20T23:46Z",
+      "fingerprints": {
+        "default_sha": "8b650b1e572443fba629071038e27d886857d8b9",
+        "pushed_at": "2026-09-20T23:29:24Z",
+        "description_hash": "abc10eb9b177",
+        "release_tag": null
+      },
+      "readme_sha": "035243438e6d40d884b3d32655e689349d815dff"
+    },
+    {
+      "id": "github:MidasMulli/kev-ane",
+      "notes_section": "128",
+      "last_look": "2026-09-20T23:46Z",
+      "fingerprints": {
+        "default_sha": "1c6c390f3b628c8cf0a08ae4b9ea38c4ed66ac0b",
+        "pushed_at": "2026-09-20T23:01:22Z",
+        "description_hash": "630efd62374b",
+        "release_tag": null
+      },
+      "readme_sha": "31c46dc652bb17a9fc2907083551441ed24f9854"
+    },
+    {
+      "id": "github:Adrian-Ernesto/jevsort",
+      "notes_section": "128",
+      "last_look": "2026-09-20T23:46Z",
+      "fingerprints": {
+        "default_sha": "b256df5e2d173c4cb1949aaed31dad258062424a",
+        "pushed_at": "2026-09-20T23:08:24Z",
+        "description_hash": "50a7fced8224",
+        "release_tag": null
+      },
+      "readme_sha": "f8c0a6ba94d6becc397409ba4f90fb5586a2a395"
+    },
+    {
+      "id": "github:tpellet/jevify",
+      "notes_section": "128",
+      "last_look": "2026-09-20T23:46Z",
+      "fingerprints": {
+        "default_sha": "b6a186fb1e10ba8071356dec759d26e60fa70841",
+        "pushed_at": "2026-09-20T23:12:29Z",
+        "description_hash": "5682af5161ea",
+        "release_tag": "v0.4.0"
+      },
+      "readme_sha": "a5fb161c75a8bda3b2ba2f2e368925608c8a08c6"
+    },
+    {
+      "id": "github:seb4ez/jevguard-mcp",
+      "notes_section": "128",
+      "last_look": "2026-09-20T23:46Z",
+      "fingerprints": {
+        "default_sha": "5c49f9aed39f94d90077903a6706f28d1e330b7a",
+        "pushed_at": "2026-09-20T23:38:44Z",
+        "description_hash": "97b7e7e0651b",
+        "release_tag": "v1.0.0"
+      },
+      "readme_sha": "851feee8432b455ec18b6e98da1fffad3f14cfbe"
+    },
+    {
+      "id": "github:resumocast/jev-mcp",
+      "notes_section": "128",
+      "last_look": "2026-09-20T23:46Z",
+      "fingerprints": {
+        "default_sha": "0b23c0d7ede1e841659310458b55f8fa1bc621b9",
+        "pushed_at": "2026-09-20T23:55:23Z",
+        "description_hash": "e485c9400d80",
+        "release_tag": "v0.1.0"
+      },
+      "readme_sha": "5a48590cff980b7856cc45f228b63ee731266716"
+    },
+    {
+      "id": "github:waygatetech/jev-go",
+      "notes_section": "128",
+      "last_look": "2026-09-20T23:46Z",
+      "fingerprints": {
+        "default_sha": "ea45331205a5ca77c1d7715f22ca6d14d3cdf380",
+        "pushed_at": "2026-09-20T23:08:28Z",
+        "description_hash": "117c8ae3d802",
+        "release_tag": null
+      },
+      "readme_sha": "04bd5910ff0bf46502c9938068a561f63d4e43fd"
+    },
+    {
+      "id": "github:sathariels/jevtriage",
+      "notes_section": "128",
+      "last_look": "2026-09-20T23:46Z",
+      "fingerprints": {
+        "default_sha": "d9186d8aedf8562640392d48b459c872f0fd7548",
+        "pushed_at": "2026-09-20T23:55:16Z",
+        "description_hash": "aae2305fa912",
+        "release_tag": "v0.1.0"
+      },
+      "readme_sha": "7f97444877cc9eff7bca4c4d43a493c2eabb1803"
+    },
+    {
+      "id": "github:robokrunch/jev-physical-ai",
+      "notes_section": "128",
+      "last_look": "2026-09-20T23:46Z",
+      "fingerprints": {
+        "default_sha": "310fd577ca0759f6a1715b1326c4ea230b524145",
+        "pushed_at": "2026-09-20T23:30:18Z",
+        "description_hash": "f2f5185a5250",
+        "release_tag": null
+      },
+      "readme_sha": "82204aa4c05793733b61eb7c5bd0c43c11b3e4b5"
+    },
+    {
+      "id": "github:quinnjr/opencode-jev-compaction",
+      "notes_section": "128",
+      "last_look": "2026-09-20T23:46Z",
+      "fingerprints": {
+        "default_sha": "7f8932d1a266d8d60db252fe5575307c50963139",
+        "pushed_at": "2026-09-20T22:48:47Z",
+        "description_hash": "04835618dfce",
+        "release_tag": null
+      },
+      "readme_sha": "1a549aaf271d8b87e7b31e4b3cb4f9d9bd3c5ff3"
+    },
+    {
+      "id": "github:bramtechs/Focus",
+      "notes_section": "128",
+      "last_look": "2026-09-20T23:46Z",
+      "fingerprints": {
+        "default_sha": "412740c5dc0e689df037106ee3d3442d01ac9890",
+        "pushed_at": "2026-09-20T23:15:47Z",
+        "description_hash": "7d47dc73dd39",
+        "release_tag": null
+      },
+      "readme_sha": "64d3adbcadc8b86f114f94abdee5a49c789b073c"
+    },
+    {
+      "id": "github:kevinj507/jdhd",
+      "notes_section": "128",
+      "last_look": "2026-09-20T23:46Z",
+      "fingerprints": {
+        "default_sha": "246f19b1822477053780af9b2fea77294285b95f",
+        "pushed_at": "2026-09-20T23:29:51Z",
+        "description_hash": "fe86fc351e25",
+        "release_tag": "v0.7.0"
+      },
+      "readme_sha": "dd149d1cdf4a3abf4270b4a772905b84cd0a1868"
+    },
+    {
+      "id": "github:Clueless-Creations/jev-ios-ultrafast",
+      "notes_section": "128",
+      "last_look": "2026-09-20T23:46Z",
+      "fingerprints": {
+        "default_sha": "370cbff237d21273607f1627b5f804a6572dd3fe",
+        "pushed_at": "2026-09-21T00:00:56Z",
+        "description_hash": "7e7c9ab2846d",
+        "release_tag": null
+      },
+      "readme_sha": "50ff6810d69d43416910d4a9e096ed5a426d0b19"
+    },
+    {
+      "id": "github:AnthusAI/Jev-Flywheel",
+      "notes_section": "128",
+      "last_look": "2026-09-20T23:46Z",
+      "fingerprints": {
+        "default_sha": "1e57b71495dcef86d9fcb346c0cf94e53bff2fcf",
+        "pushed_at": "2026-09-20T23:48:58Z",
+        "description_hash": "c10574cd6e0e",
+        "release_tag": null
+      },
+      "readme_sha": "90f887e3935f3e673223e7f39a901e46ee6f88cd"
     }
   ]
 }

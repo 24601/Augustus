@@ -157,11 +157,11 @@
         <dt>Problem</dt>
         <dd>Typed constrained decode treated as a calibrated Noul.</dd>
         <dt>Without</dt>
-        <dd>Quote 5.8x. Ship thinking=True as a probability.</dd>
+        <dd>Quote 5.8x. Ship thinking=True as a probability. Treat 0.8B thinking On 0/18 as a Noul.</dd>
         <dt>With</dt>
-        <dd>Constrained AR ≠ calibrated Noul. type safety does not guarantee factual accuracy.</dd>
+        <dd>Constrained AR ≠ calibrated Noul. truncated thinking then constrained decode. type safety does not guarantee factual accuracy. type-valid ≠ exact.</dd>
         <dt>Measure</dt>
-        <dd class="recipe-measure">Batch 5.8x *theirs*. Thinking budget separately from ECE.</dd>
+        <dd class="recipe-measure">Batch 5.8x *theirs*. 0.8B thinking On 0/18 *theirs*. forced closure 20/20 type-valid *theirs*. Thinking budget separately from ECE.</dd>
       </dl>
     </article>
     <article class="recipe panel">
@@ -171,11 +171,11 @@
         <dt>Problem</dt>
         <dd>Sibling-blind questions treated as option-order immunity.</dd>
         <dt>Without</dt>
-        <dd>Quote 0.790 as Harbor. Hard-gate 0.9.</dd>
+        <dd>Quote 0.812 as Harbor. Hard-gate 0.9. Treat Kev-0.8B as Archer.</dd>
         <dt>With</dt>
-        <dd>Questions share the input text but cannot read each other. option order can change an answer.</dd>
+        <dd>Questions share the input text but cannot read each other. option order can change an answer. Kev-0.8B completes family. Qwen3.5 ≠ Archer.</dd>
         <dt>Measure</dt>
-        <dd class="recipe-measure">4B new-source 0.790/0.806 *theirs*. 8.2% ≥0.9 on wrong *theirs*.</dd>
+        <dd class="recipe-measure">4B new-source 0.794/0.832 *theirs*. 9B new-source 0.812/0.837 *theirs*. transfer-v9 Kev-9B 5% Jev 9% Kev-8B 26% *theirs*. SemIf Kev-9B 0.917 Jev 0.965 *theirs*.</dd>
       </dl>
     </article>
     <article class="recipe panel">
@@ -233,6 +233,35 @@
         <dd>Models participate. Real tools execute. documentation is read not judged. json-render is the only renderer. Thresholds are policy not model.</dd>
         <dt>Measure</dt>
         <dd class="recipe-measure">Who chose, who wrote, who rendered. Soft scores ≠ hard gates.</dd>
+      </dl>
+    </article>
+
+    <article class="recipe panel">
+      <p class="kicker">Done-check</p>
+      <h3>Facts block, Jev advises</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>A probability treated as the thing that stops an agent from claiming done.</dd>
+        <dt>Without</dt>
+        <dd>Refuse done because Jev said 0.8. Skip the ledger.</dd>
+        <dt>With</dt>
+        <dd>Facts go to code. Judgments go to Jev. Only facts can block. Jev never blocks.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">Replay the ledger. A missing passing check is the block, not a Noul.</dd>
+      </dl>
+    </article>
+    <article class="recipe panel">
+      <p class="kicker">Serving port</p>
+      <h3>ANE argmax vs replica</h3>
+      <dl>
+        <dt>Problem</dt>
+        <dd>155/155 argmax treated as logit-equivalent Kev.</dd>
+        <dt>Without</dt>
+        <dd>Ship ANE fp16 as the 0.8B family. Quote 7.16 ms as Harbor.</dd>
+        <dt>With</dt>
+        <dd>155/155 argmax *theirs*. serving substrate ≠ calibrated replica. MidasMulli/kev-ane ≠ jaredpalmer/kev.</dd>
+        <dt>Measure</dt>
+        <dd class="recipe-measure">Argmax separately from probability spread. *theirs* not Harbor.</dd>
       </dl>
     </article>
     <article class="recipe panel">

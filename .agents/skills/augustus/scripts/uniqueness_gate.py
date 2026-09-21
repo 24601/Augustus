@@ -2,7 +2,7 @@
 """Uniqueness gate for merged 0843 (§114), merged 0915 NanoJev (§115),
 merged 0920 jcr (§116), merged 0922 SemIf (§117), merged 0940
 llm-to-jev (§118), hourly 0947 HIGH (§119), hourly 1049 HIGH (§120),
-hourly 1143 HIGH (§121), hourly 1248 HIGH (§123), hourly 1340 HIGH (§124), hourly 1441 HIGH (§125), hourly 1542 HIGH (§126), and hourly 1643 HIGH (§127).
+hourly 1143 HIGH (§121), hourly 1248 HIGH (§123), hourly 1340 HIGH (§124), hourly 1441 HIGH (§125), hourly 1542 HIGH (§126), hourly 1643 HIGH (§127), and hourly 1746 HIGH (§128).
 
 Each lock must appear as one consecutive substring in every listed overlay.
 Fragments scattered across files do not count.
@@ -11,9 +11,9 @@ Revisit / since-last-look protocol (`notes.md` §122) is a consecutive
 substring in the skill + research files (not a 21-overlay dump wall).
 Hourly must treat revisit HIGH like novel HIGH. Star-noise is not a fold.
 
-Also: YAML-parse SKILL.md frontmatter; notes.md owns §114–§127;
-composition items 289–316, 322–329, 330–336, 337–352, 353–368, 369–384, 385–400, 401–416, 417–432, 433–448, and 449–464 exist;
-findings batches #97–#109 exist. Items 317–321 stay unused.
+Also: YAML-parse SKILL.md frontmatter; notes.md owns §114–§128;
+composition items 289–316, 322–329, 330–336, 337–352, 353–368, 369–384, 385–400, 401–416, 417–432, 433–448, 449–464, and 465–480 exist;
+findings batches #97–#110 exist. Items 317–321 stay unused.
 CHANGELOG.md must not hold uniqueness dump walls (dumps live in
 changelog-hourly.md). README.md must not hold the 0743 dump wall.
 Pages greps stay in docs/index.md and docs/_layouts/default.html.
@@ -154,6 +154,10 @@ UNIQ_1643 = (
     "Hourly 1643 uniqueness lock: razorback16/openjev densify HEAD febf02e88989 README SHA 242a737dba01; release 0.3.0; re-pin vLLM PR #57250 restructured head; VLLM_COMMIT baa8338; pyproject and __init__ agree 0.3.0; MODEL_VERSION stays openjev-0.1; uv.lock hygiene; dual serving is not generate; Hosted Codiv ≠ TypeSafe; restructured vLLM head ≠ logit-equiv; wire-compat ≠ logit-equiv; SHA move is not a replica; Error contract is not a Noul; frostney/clean-code-review 7★ typed judgments not opinions; documentation is read not judged; Luna writes from Jev findings; morcoan/JMP Joint Model Participation; Models participate. Real tools execute.; Jev routes actions generators supply arguments; not a swarm; zkjoie/jevbus Thresholds are policy not model; Drop < Review < Deliver; FanOut or Exclusive; Kelbie/hunch ≠ carldaws/hunch ≠ tpellet/hunch ≠ huncho; Agent Skills semantic review; SupratikB23/JevCanvas Jev never generates prose JSX or code; Diffusion never decides structure; json-render is the only renderer; skcache/jevtrafficsim Fixed Adaptive Jev; game success ≠ calibrated Noul; Shalimov04/open-jev ≠ razorback16/openjev ≠ TheoLeeCJ/openjev ≠ Zefan-Cai/Open-Jev; MstyAI/laya-onnx empty repo ≠ tozp/laya-onnx ≠ Mattepiu/laya-onnx ≠ gqgs/laya-onnx; SherifAshraf2003/jev-use ≠ shitianfang/jev-use; aniruddh-krovvidi/switchboard ≠ cannacre8ive/switchboard-ai; Visorian/TidyUp ≠ abhibansal60/tidy; isiomaC/jevkit ≠ WaynezProg/jev-kit; lee-lou2/jev-tree ≠ reachjalil/jev-tree; Royhu1/jev-poker-trainer empty repo; JoacoMarc/jev-harness-router ≠ jackbarunz/jev-tool-router; rh-guard owns primary gates; hf:Praveenrajus/jev-bench HTTP 200 was 401; hf:ZefanCai/Open-Jev densify dataset; LoRA ≠ RLCD replica; hf:emretheus/jev-rag-benchmark ≠ erendikmenn/jev-rag-benchmark; hf:ctaxnagomi/DGUI_HYPERMEM-JEV densify sha ab3d3529; hf:hugging-apps/open-jev-deberta-v3-large-demo encoder class member not Jev replica; serving substrate ≠ calibrated replica; catalog ≠ endorsement; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49; notes.md §127"
 )
 
+UNIQ_1746 = (
+    'Hourly 1746 uniqueness lock: TypeLLM/TypeLLM densify HEAD 702e6a287f3c README SHA 08180db0450b; truncated thinking then constrained decode; typellm_runtime.py typellm_sglang.py; evals/qwen35_small; 0.8B thinking On 0/18 *theirs*; forced closure 20/20 type-valid *theirs*; Constrained AR ≠ calibrated Noul; type safety does not guarantee factual accuracy; Qwen/Qwen3.8-27B ≠ Archer; jaredpalmer/kev densify live HEAD 8465c4c4c294 watch 38087aa0301d README SHA 19664b9ae546; Kev-0.8B completes family; Kev-0.8B 4B 9B Qwen3.5; 4B new-source 0.794/0.832 *theirs*; 9B new-source 0.812/0.837 *theirs*; transfer-v9 Kev-9B 5% Jev 9% Kev-8B 26% *theirs*; SemIf Kev-9B 0.917 Jev 0.965 *theirs*; scienthoon 0.952/0.911 vs 0.897/0.914 *theirs*; transformers >= 5.17; Qwen3.5 ≠ Archer; wire-compat ≠ logit-equiv; SHA move is not a replica; notque/vexjoy-agent 421★ /d routes /do fallback; tamaratran/jev-pruner densify HEAD 47d017c34eab; qkal/Canny Facts go to code. Judgments go to Jev. Only facts can block.; Jev never blocks; jqueryscript/awesome-jev 231 entries catalog ≠ endorsement; jqueryscript/awesome-jev ≠ MrJev/awesome-jev ≠ yibie/awesome-jev; jamescazzetta/five-lines threshold 0.80 still soft; eugeniughelbur/jev-engineering 371ms $0.0000189 300-call *theirs*; tpellet/jevify ≠ altryne/jevify; seb4ez/jevguard-mcp ≠ seb4ez/jevguard; resumocast/jev-mcp ≠ jkudish/jev-mcp; dtduc-git/jev-table first sighting; Adrian-Ernesto/jevsort ≠ zzzzzec/jevsort; MidasMulli/kev-ane 155/155 argmax *theirs*; MidasMulli/kev-ane ≠ jaredpalmer/kev; serving substrate ≠ calibrated replica; empty repo skip-thin; loktar00/llm-lan-party empty repo; rh-guard owns primary gates; catalog ≠ endorsement; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50; notes.md §128'
+)
+
 REVISIT_LOCK = (
     "Revisit / since-last-look lock: catalogued repos are not done; "
     "store fingerprints default_sha, pushed_at, description_hash, release_tag; "
@@ -243,6 +247,8 @@ def main() -> int:
             failed.append(f"1542 lock missing as one substring: {rel}")
         if UNIQ_1643 not in body:
             failed.append(f"1643 lock missing as one substring: {rel}")
+        if UNIQ_1746 not in body:
+            failed.append(f"1746 lock missing as one substring: {rel}")
     for rel in REVISIT_OVERLAYS:
         path = ROOT / rel
         if not path.is_file():
@@ -280,10 +286,12 @@ def main() -> int:
         failed.append("notes.md missing §126 heading")
     if "## 127. Hourly 1643 HIGH" not in notes:
         failed.append("notes.md missing §127 heading")
+    if "## 128. Hourly 1746 HIGH" not in notes:
+        failed.append("notes.md missing §128 heading")
     algebra = (ROOT / ".agents/skills/augustus/references/composition-algebra.md").read_text(
         encoding="utf-8"
     )
-    for n in list(range(289, 317)) + list(range(322, 330)) + list(range(330, 337)) + list(range(337, 353)) + list(range(353, 369)) + list(range(369, 385)) + list(range(385, 401)) + list(range(401, 417)) + list(range(417, 433)) + list(range(433, 449)) + list(range(449, 465)):
+    for n in list(range(289, 317)) + list(range(322, 330)) + list(range(330, 337)) + list(range(337, 353)) + list(range(353, 369)) + list(range(369, 385)) + list(range(385, 401)) + list(range(401, 417)) + list(range(417, 433)) + list(range(433, 449)) + list(range(449, 465)) + list(range(465, 481)):
         needle = f"{n}. **"
         if needle not in algebra:
             failed.append(f"composition-algebra missing item {n}")
@@ -306,6 +314,7 @@ def main() -> int:
         "## Batch #107",
         "## Batch #108",
         "## Batch #109",
+        "## Batch #110",
     ):
         if batch not in findings:
             failed.append(f"findings.md missing {batch}")
@@ -479,6 +488,31 @@ def main() -> int:
             "MstyAI/laya-onnx empty repo",
             "hf:Praveenrajus/jev-bench HTTP 200 was 401",
             "hourly 1643 / notes.md §127",
+            'TypeLLM/TypeLLM densify HEAD 702e6a287f3c',
+            'truncated thinking then constrained decode',
+            '0.8B thinking On 0/18 *theirs*',
+            'forced closure 20/20 type-valid *theirs*',
+            'jaredpalmer/kev densify live HEAD 8465c4c4c294',
+            'Kev-0.8B completes family',
+            '4B new-source 0.794/0.832 *theirs*',
+            '9B new-source 0.812/0.837 *theirs*',
+            'transfer-v9 Kev-9B 5% Jev 9% Kev-8B 26% *theirs*',
+            'SemIf Kev-9B 0.917 Jev 0.965 *theirs*',
+            'scienthoon 0.952/0.911 vs 0.897/0.914 *theirs*',
+            'transformers >= 5.17',
+            'Qwen3.5 ≠ Archer',
+            'notque/vexjoy-agent 421★ /d routes /do fallback',
+            'Facts go to code. Judgments go to Jev. Only facts can block.',
+            'Jev never blocks',
+            'jqueryscript/awesome-jev ≠ MrJev/awesome-jev ≠ yibie/awesome-jev',
+            'five-lines threshold 0.80 still soft',
+            '371ms $0.0000189 300-call *theirs*',
+            'tpellet/jevify ≠ altryne/jevify',
+            'seb4ez/jevguard-mcp ≠ seb4ez/jevguard',
+            'resumocast/jev-mcp ≠ jkudish/jev-mcp',
+            'Adrian-Ernesto/jevsort ≠ zzzzzec/jevsort',
+            'MidasMulli/kev-ane 155/155 argmax *theirs*',
+            'hourly 1746 / notes.md §128',
         ):
             if frag not in haystack:
                 failed.append(f"SKILL.md missing fragment {frag!r}")
@@ -635,6 +669,31 @@ def main() -> int:
                 "MstyAI/laya-onnx empty repo",
                 "hf:Praveenrajus/jev-bench HTTP 200 was 401",
                 "hourly 1643 / notes.md §127",
+                'TypeLLM/TypeLLM densify HEAD 702e6a287f3c',
+                'truncated thinking then constrained decode',
+                '0.8B thinking On 0/18 *theirs*',
+                'forced closure 20/20 type-valid *theirs*',
+                'jaredpalmer/kev densify live HEAD 8465c4c4c294',
+                'Kev-0.8B completes family',
+                '4B new-source 0.794/0.832 *theirs*',
+                '9B new-source 0.812/0.837 *theirs*',
+                'transfer-v9 Kev-9B 5% Jev 9% Kev-8B 26% *theirs*',
+                'SemIf Kev-9B 0.917 Jev 0.965 *theirs*',
+                'scienthoon 0.952/0.911 vs 0.897/0.914 *theirs*',
+                'transformers >= 5.17',
+                'Qwen3.5 ≠ Archer',
+                'notque/vexjoy-agent 421★ /d routes /do fallback',
+                'Facts go to code. Judgments go to Jev. Only facts can block.',
+                'Jev never blocks',
+                'jqueryscript/awesome-jev ≠ MrJev/awesome-jev ≠ yibie/awesome-jev',
+                'five-lines threshold 0.80 still soft',
+                '371ms $0.0000189 300-call *theirs*',
+                'tpellet/jevify ≠ altryne/jevify',
+                'seb4ez/jevguard-mcp ≠ seb4ez/jevguard',
+                'resumocast/jev-mcp ≠ jkudish/jev-mcp',
+                'Adrian-Ernesto/jevsort ≠ zzzzzec/jevsort',
+                'MidasMulli/kev-ane 155/155 argmax *theirs*',
+                'hourly 1746 / notes.md §128',
             ):
                 if frag not in proto_line:
                     failed.append(f"SKILL.md protocol missing {frag!r}")
@@ -653,6 +712,7 @@ def main() -> int:
         ("1441", UNIQ_1441),
         ("1542", UNIQ_1542),
         ("1643", UNIQ_1643),
+        ("1746", UNIQ_1746),
     ):
         if lock in changelog:
             failed.append(
@@ -727,6 +787,7 @@ def main() -> int:
         f"1441 chars={len(UNIQ_1441)} "
         f"1542 chars={len(UNIQ_1542)} "
         f"1643 chars={len(UNIQ_1643)} "
+        f"1746 chars={len(UNIQ_1746)} "
         f"revisit chars={len(REVISIT_LOCK)} "
         f"overlays={len(OVERLAYS)} "
         f"revisit_overlays={len(REVISIT_OVERLAYS)}"

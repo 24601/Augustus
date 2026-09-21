@@ -2492,6 +2492,18 @@ No Jev outputs were used for training. 8.2% ≥0.9 on wrong *theirs*.
 option order can change an answer. Qwen3 ≠ Archer.
 SHA move is not a replica. Full card: `notes.md` §126.
 
+### Since last look (2026-09-20T23 hourly 1746) — jaredpalmer/kev
+
+DENSIFY §45. Keep this section id. Do not mint a sibling first sighting.
+live HEAD `8465c4c4c294` (watch listed `38087aa0301d`) README SHA `19664b9ae546`
+(was `b339f446a0ef`). Kev-0.8B completes family. Kev-0.8B 4B 9B Qwen3.5.
+4B new-source 0.794/0.832 *theirs*. 9B new-source 0.812/0.837 *theirs*.
+transfer-v9 Kev-9B 5% Jev 9% Kev-8B 26% *theirs*.
+SemIf Kev-9B 0.917 Jev 0.965 *theirs*. scienthoon 0.952/0.911 vs 0.897/0.914 *theirs*.
+transformers >= 5.17. Qwen3.5 ≠ Archer.
+SHA move is not a replica. Full card: `notes.md` §128.
+
+
 
 ## 46. 14:03 Boise hourly — open multimodal RLCD, bake-off substrate, decision-token LoRA (2026-09-18)
 
@@ -4054,6 +4066,14 @@ be installed together. Marketplace / Claude plugin id is still
    pass). Plugin `claude plugin eval` cases predate the 10k gate
    and cannot reach Jev. Do not merge those tables. `keepThreshold`
    default 0.5 is **their** knob.
+
+### Since last look (2026-09-20T23 hourly 1746) — tamaratran/jev-pruner
+
+DENSIFY §53. Keep this section id. Do not mint a sibling first sighting.
+HEAD `47d017c34eab` README SHA `ded0340e595d`. **128★** this pass (star-noise
+vs first census). Same extractive prune: hard envelope then Noul; fail-safe
+keep original. stdout prune vs session compaction. Full card: `notes.md` §128.
+
 
    **Siblings — complementary, do not merge.**
 
@@ -28247,6 +28267,17 @@ batch 1.61 s K=16 5.8x *theirs*. Constrained AR ≠ calibrated Noul.
 Qwen/Qwen3.8-27B ≠ Archer. SHA move is not a replica.
 Full card: `notes.md` §126.
 
+### Since last look (2026-09-20T23 hourly 1746) — TypeLLM/TypeLLM
+
+DENSIFY §113 rename. Keep this section id. Do not mint a sibling first
+sighting. HEAD `702e6a287f3c` README SHA `08180db0450b` (was `6a48f9f1e623`).
+truncated thinking then constrained decode. typellm_runtime.py typellm_sglang.py.
+evals/qwen35_small. 0.8B thinking On 0/18 *theirs*. forced closure 20/20 type-valid *theirs*.
+type-valid ≠ exact. Constrained AR ≠ calibrated Noul.
+Qwen/Qwen3.8-27B ≠ Archer. SHA move is not a replica.
+Full card: `notes.md` §128.
+
+
 
 ## 114. Hourly 0843 HIGH (2026-09-20 ~08:43 Boise / 2026-09-20T14:43Z)
 
@@ -31885,3 +31916,298 @@ Hooks for the reviewer:
 
 Hourly 1643 uniqueness lock: razorback16/openjev densify HEAD febf02e88989 README SHA 242a737dba01; release 0.3.0; re-pin vLLM PR #57250 restructured head; VLLM_COMMIT baa8338; pyproject and __init__ agree 0.3.0; MODEL_VERSION stays openjev-0.1; uv.lock hygiene; dual serving is not generate; Hosted Codiv ≠ TypeSafe; restructured vLLM head ≠ logit-equiv; wire-compat ≠ logit-equiv; SHA move is not a replica; Error contract is not a Noul; frostney/clean-code-review 7★ typed judgments not opinions; documentation is read not judged; Luna writes from Jev findings; morcoan/JMP Joint Model Participation; Models participate. Real tools execute.; Jev routes actions generators supply arguments; not a swarm; zkjoie/jevbus Thresholds are policy not model; Drop < Review < Deliver; FanOut or Exclusive; Kelbie/hunch ≠ carldaws/hunch ≠ tpellet/hunch ≠ huncho; Agent Skills semantic review; SupratikB23/JevCanvas Jev never generates prose JSX or code; Diffusion never decides structure; json-render is the only renderer; skcache/jevtrafficsim Fixed Adaptive Jev; game success ≠ calibrated Noul; Shalimov04/open-jev ≠ razorback16/openjev ≠ TheoLeeCJ/openjev ≠ Zefan-Cai/Open-Jev; MstyAI/laya-onnx empty repo ≠ tozp/laya-onnx ≠ Mattepiu/laya-onnx ≠ gqgs/laya-onnx; SherifAshraf2003/jev-use ≠ shitianfang/jev-use; aniruddh-krovvidi/switchboard ≠ cannacre8ive/switchboard-ai; Visorian/TidyUp ≠ abhibansal60/tidy; isiomaC/jevkit ≠ WaynezProg/jev-kit; lee-lou2/jev-tree ≠ reachjalil/jev-tree; Royhu1/jev-poker-trainer empty repo; JoacoMarc/jev-harness-router ≠ jackbarunz/jev-tool-router; rh-guard owns primary gates; hf:Praveenrajus/jev-bench HTTP 200 was 401; hf:ZefanCai/Open-Jev densify dataset; LoRA ≠ RLCD replica; hf:emretheus/jev-rag-benchmark ≠ erendikmenn/jev-rag-benchmark; hf:ctaxnagomi/DGUI_HYPERMEM-JEV densify sha ab3d3529; hf:hugging-apps/open-jev-deberta-v3-large-demo encoder class member not Jev replica; serving substrate ≠ calibrated replica; catalog ≠ endorsement; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49; notes.md §127
 
+
+**Hourly 1746 HIGH (`notes.md` §128).** TypeLLM truncated thinking densify. 0.8B thinking On 0/18 *theirs*. forced closure 20/20 type-valid *theirs*. Constrained AR ≠ calibrated Noul. Kev-0.8B completes family. 4B new-source 0.794/0.832 *theirs*. 9B new-source 0.812/0.837 *theirs*. transfer-v9 5%/9%/26% *theirs*. Facts go to code. Judgments go to Jev. Only facts can block. Jev never blocks. five-lines threshold 0.80 still soft. 155/155 argmax *theirs*. Qwen3.5 ≠ Archer. catalog ≠ endorsement. SHA move is not a replica. Do not reopen or amend PR #23–#50. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+Hourly 1746 uniqueness lock: TypeLLM/TypeLLM densify HEAD 702e6a287f3c README SHA 08180db0450b; truncated thinking then constrained decode; typellm_runtime.py typellm_sglang.py; evals/qwen35_small; 0.8B thinking On 0/18 *theirs*; forced closure 20/20 type-valid *theirs*; Constrained AR ≠ calibrated Noul; type safety does not guarantee factual accuracy; Qwen/Qwen3.8-27B ≠ Archer; jaredpalmer/kev densify live HEAD 8465c4c4c294 watch 38087aa0301d README SHA 19664b9ae546; Kev-0.8B completes family; Kev-0.8B 4B 9B Qwen3.5; 4B new-source 0.794/0.832 *theirs*; 9B new-source 0.812/0.837 *theirs*; transfer-v9 Kev-9B 5% Jev 9% Kev-8B 26% *theirs*; SemIf Kev-9B 0.917 Jev 0.965 *theirs*; scienthoon 0.952/0.911 vs 0.897/0.914 *theirs*; transformers >= 5.17; Qwen3.5 ≠ Archer; wire-compat ≠ logit-equiv; SHA move is not a replica; notque/vexjoy-agent 421★ /d routes /do fallback; tamaratran/jev-pruner densify HEAD 47d017c34eab; qkal/Canny Facts go to code. Judgments go to Jev. Only facts can block.; Jev never blocks; jqueryscript/awesome-jev 231 entries catalog ≠ endorsement; jqueryscript/awesome-jev ≠ MrJev/awesome-jev ≠ yibie/awesome-jev; jamescazzetta/five-lines threshold 0.80 still soft; eugeniughelbur/jev-engineering 371ms $0.0000189 300-call *theirs*; tpellet/jevify ≠ altryne/jevify; seb4ez/jevguard-mcp ≠ seb4ez/jevguard; resumocast/jev-mcp ≠ jkudish/jev-mcp; dtduc-git/jev-table first sighting; Adrian-Ernesto/jevsort ≠ zzzzzec/jevsort; MidasMulli/kev-ane 155/155 argmax *theirs*; MidasMulli/kev-ane ≠ jaredpalmer/kev; serving substrate ≠ calibrated replica; empty repo skip-thin; loktar00/llm-lan-party empty repo; rh-guard owns primary gates; catalog ≠ endorsement; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50; notes.md §128
+
+## 128. Hourly 1746 HIGH (2026-09-20 ~17:46 Boise / 2026-09-20T23:46Z)
+
+Measurement / class-table / recipes fold on a **fresh PR off latest `main`**
+(`cursor/fold-hourly-1746-high-7b9f`) after `0f8279e` (merged #50
+hourly 1643, `notes.md` §127 / items 449–464 / batch #109; merged #49
+hourly 1542, `notes.md` §126). **HARD RULE:** do not reopen or
+amend PR #23–#50. Do **not** push onto merged 1643 / 1542 / 1441 /
+1340 tracks. This fold's IDs: `notes.md` §128 / composition 465–480 /
+findings batch #110.
+
+Never reopen merged #7–**#50**. Do **not** re-fold §127 1643 / §126 1542 /
+§125 1441 / §124 1340 / §123 1248 / §122 protocol *as a second census*.
+Densify `TypeLLM/TypeLLM` (§113) and `jaredpalmer/kev` (§45 / §98).
+Densify already-catalogued `tamaratran/jev-pruner` (§53), `dtduc-git/jevassert`
+and `dtduc-git/jev-packs`. First-sight `dtduc-git/jev-table` (was 404 in §64).
+Skip Archer rewrite. Quote READMEs. Mark *theirs*. No wrappers, keys, `npm` /
+`pip` / `uv` / `docker` install recipes. `invented_signal: false`. Hunches labeled.
+
+Lane is Augustus: **mathematical / logical / algorithmic mental models**
+for Jev-class categorization/scoring across AI / SWE / **business /
+knowledge work / life**, not SWE-only. PRIMARY this hour is **REVISIT
+densify**: TypeLLM truncated thinking (keeps partial reasoning, closes the
+block, then constrained decode; 0.8B thinking On 0/18 *theirs*; forced
+closure 20/20 type-valid *theirs*) and kev Qwen3.5 family (Kev-0.8B completes
+the set; 4B 0.794/0.832 *theirs*; 9B 0.812/0.837 *theirs*; transfer-v9
+5%/9%/26% *theirs*). Novel HIGH: /d routing, facts-block done-check, unofficial
+catalog, five-lines remainder, 371ms gate, ANE argmax port, jev-table.
+Third-party benches stay *theirs*. Wire-compat is still not logit-equiv.
+SHA move is not a replica. Catalogs are indexes. Soft scores ≠ hard gates.
+Jev never blocks. routing ≠ permission. Qwen3.5 ≠ Archer.
+Archer still **promised_not_landed**.
+
+Unique consecutive fragments (this hour) must appear as **one
+substring** in overlays (see uniqueness gate):
+Hourly 1746 uniqueness lock: TypeLLM/TypeLLM densify HEAD 702e6a287f3c README SHA 08180db0450b; truncated thinking then constrained decode; typellm_runtime.py typellm_sglang.py; evals/qwen35_small; 0.8B thinking On 0/18 *theirs*; forced closure 20/20 type-valid *theirs*; Constrained AR ≠ calibrated Noul; type safety does not guarantee factual accuracy; Qwen/Qwen3.8-27B ≠ Archer; jaredpalmer/kev densify live HEAD 8465c4c4c294 watch 38087aa0301d README SHA 19664b9ae546; Kev-0.8B completes family; Kev-0.8B 4B 9B Qwen3.5; 4B new-source 0.794/0.832 *theirs*; 9B new-source 0.812/0.837 *theirs*; transfer-v9 Kev-9B 5% Jev 9% Kev-8B 26% *theirs*; SemIf Kev-9B 0.917 Jev 0.965 *theirs*; scienthoon 0.952/0.911 vs 0.897/0.914 *theirs*; transformers >= 5.17; Qwen3.5 ≠ Archer; wire-compat ≠ logit-equiv; SHA move is not a replica; notque/vexjoy-agent 421★ /d routes /do fallback; tamaratran/jev-pruner densify HEAD 47d017c34eab; qkal/Canny Facts go to code. Judgments go to Jev. Only facts can block.; Jev never blocks; jqueryscript/awesome-jev 231 entries catalog ≠ endorsement; jqueryscript/awesome-jev ≠ MrJev/awesome-jev ≠ yibie/awesome-jev; jamescazzetta/five-lines threshold 0.80 still soft; eugeniughelbur/jev-engineering 371ms $0.0000189 300-call *theirs*; tpellet/jevify ≠ altryne/jevify; seb4ez/jevguard-mcp ≠ seb4ez/jevguard; resumocast/jev-mcp ≠ jkudish/jev-mcp; dtduc-git/jev-table first sighting; Adrian-Ernesto/jevsort ≠ zzzzzec/jevsort; MidasMulli/kev-ane 155/155 argmax *theirs*; MidasMulli/kev-ane ≠ jaredpalmer/kev; serving substrate ≠ calibrated replica; empty repo skip-thin; loktar00/llm-lan-party empty repo; rh-guard owns primary gates; catalog ≠ endorsement; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50; notes.md §128
+
+### How-to-apply (five placements / measurement lenses)
+
+These are *class* lenses, not vendor tutorials. Same discipline as
+§126 (Constrained AR ≠ calibrated Noul) and §127 (restructured head ≠
+logit-equiv). Formal methods **compose** with scoring: a Noul is a SENSOR;
+truncated thinking is not a Noul; type-valid is not exact; a 0.80 review
+cutoff is application policy, not a proof; facts block, Jev advises.
+
+1. **truncated thinking then constrained decode**
+   (*theirs*, TypeLLM/TypeLLM PRIMARY densify). Quote *theirs*: if thinking
+   reaches its length limit, it keeps the partial reasoning, closes the
+   thinking block, and proceeds with constrained decoding. evals/qwen35_small
+   0.8B thinking On 0/18 *theirs*. forced closure 20/20 type-valid *theirs*
+   with 13/20 exact on 0.8B. type-valid ≠ exact. Constrained AR ≠ calibrated
+   Noul. Qwen/Qwen3.8-27B ≠ Archer. HEAD `702e6a287f3c` README SHA `08180db0450b`.
+   Life analogue: closing a half-written draft so the form can still submit
+   is not a measured probability that the answers are true.
+2. **Kev-0.8B completes family / isolation ≠ option-order immunity**
+   (*theirs*, jaredpalmer/kev PRIMARY densify). Quote *theirs*: 0.8B, 4B, and
+   9B models. Questions share the input text but can't read each other.
+   4B new-source 0.794/0.832 *theirs*. 9B new-source 0.812/0.837 *theirs*.
+   transfer-v9 Kev-9B 5% Jev 9% Kev-8B 26% *theirs* on unknowable items at
+   ≥0.9. SemIf Kev-9B 0.917 Jev 0.965 *theirs*. scienthoon 0.952/0.911 vs
+   0.897/0.914 *theirs*. transformers >= 5.17. Qwen3.5 ≠ Archer. live HEAD
+   `8465c4c4c294` (watch `38087aa0301d`).
+3. **Facts go to code. Judgments go to Jev. Only facts can block.**
+   (qkal/Canny). Quote *theirs*: Jev never blocks. A "done" claim is refused
+   because the ledger holds no passing check, not because a probability
+   crossed a line. Contrast five-lines threshold 0.80 still soft (Jev remainder
+   after tree-sitter counting) and jev-engineering observe then honor (371ms
+   $0.0000189 300-call *theirs*; rh-guard owns primary gates).
+4. **routing ≠ permission / /d fallback**
+   (notque/vexjoy-agent). Quote *theirs*: `/d` uses Jev to classify and
+   dispatch; if Jev is unavailable, `/d` falls back to `/do`. A router is not
+   a grant. 421★ this pass.
+5. **serving substrate ≠ calibrated replica / catalog ≠ endorsement**
+   (MidasMulli/kev-ane; jqueryscript/awesome-jev; dtduc-git/jev-table). Quote
+   *theirs* kev-ane: 155/155 argmax *theirs*; ANE fp16 max probability
+   difference 3.80e-02. MidasMulli/kev-ane ≠ jaredpalmer/kev. Quote *theirs*
+   jqueryscript: 231 entries. Listing is not endorsement.
+   jqueryscript/awesome-jev ≠ MrJev/awesome-jev ≠ yibie/awesome-jev.
+   jev-table is the missing app from the §64 suite slogan.
+
+### HIGH (revisit densify; keep original section ids)
+
+1. **[TypeLLM/TypeLLM](https://github.com/TypeLLM/TypeLLM)**
+   - DENSIFY §113 rename (live name TypeLLM; **18★**; HEAD `702e6a287f3c`;
+   README SHA `08180db0450b`; was `6a48f9f1e623` / 1542 densify). truncated
+   thinking then constrained decode. typellm_runtime.py typellm_sglang.py.
+   evals/qwen35_small. 0.8B thinking On 0/18 *theirs*. 4B thinking On 7/18
+   returned *theirs*. 9B thinking On 10/18 *theirs*. forced closure 20/20
+   type-valid *theirs* (0.8B 13 exact, 4B/9B 20 exact). type-valid ≠ exact.
+   Constrained AR ≠ calibrated Noul. Qwen/Qwen3.8-27B ≠ Archer. Do **not**
+   copy SGLang flags.
+
+2. **[jaredpalmer/kev](https://github.com/jaredpalmer/kev)**
+   - DENSIFY §45 / §98 (Apache-2.0; watch **1008★** / live **1009★** is
+   star-noise; live HEAD `8465c4c4c294`; watch listed `38087aa0301d`; README
+   SHA `19664b9ae546`; was `b339f446a0ef` / 1542 densify). Description now
+   Qwen3.5. Kev-0.8B completes family (cards for 0.8B/4B/9B). 4B new-source
+   0.794/0.832 *theirs*. 9B new-source 0.812/0.837 *theirs*. transfer-v9
+   Kev-9B 5% Jev 9% Kev-8B 26% *theirs*. SemIf Kev-9B 0.917 Jev 0.965 *theirs*.
+   scienthoon 0.952/0.911 vs 0.897/0.914 *theirs*. transformers >= 5.17.
+   Qwen3.5 ≠ Archer. Do **not** copy `uv run`.
+
+3. **[tamaratran/jev-pruner](https://github.com/tamaratran/jev-pruner)**
+   - DENSIFY §53 (MIT; **128★**; HEAD `47d017c34eab`; README SHA `ded0340e595d`).
+   Same extractive prune: hard envelope then Noul; fail-safe keep original.
+   Star count is noise. stdout prune vs session compaction. Do **not** copy
+   plugin install.
+
+### HIGH (novel)
+
+4. **[notque/vexjoy-agent](https://github.com/notque/vexjoy-agent)**
+   - NEW HIGH measurement (MIT; **421★**; HEAD `fdf2052e18d2`). Quote *theirs*:
+   `/d` uses Jev to classify the request and dispatch; if Jev is unavailable,
+   `/d` falls back to `/do`. 43 agents, 59 skills, 78 hooks, 160 scripts
+   *theirs*. routing ≠ permission. Do **not** copy keys.
+
+5. **[qkal/Canny](https://github.com/qkal/Canny)**
+   - NEW HIGH measurement (MIT; **3★**; HEAD `72cd816441ae`). Quote *theirs*:
+   Facts go to code. Judgments go to Jev. Only facts can block. Jev never
+   blocks. Deterministic hooks decide; TypeSafe Jev advises. Replay from the
+   ledger. Do **not** copy install prompts.
+
+6. **[eugeniughelbur/jev-engineering](https://github.com/eugeniughelbur/jev-engineering)**
+   - NEW HIGH measurement (MIT; **1★**; HEAD `3161dbfb44f2`). Quote *theirs*:
+   median 371ms, $0.0000189 per call, 300-call attack test. Hard rules then
+   fast path then Jev then thresholds. Fails open to the harness prompt.
+   observe then honor. rh-guard owns primary gates. Do **not** copy keys.
+
+7. **[jamescazzetta/five-lines](https://github.com/jamescazzetta/five-lines)**
+   - NEW HIGH measurement (MIT; **1★**; HEAD `c5f233429e6f`). Quote *theirs*:
+   tree-sitter counts rules 1, 3, 5, 6, 8, 10; Jev remainder for 2, 7, 9.
+   threshold 0.80 still soft (0.55 up to the threshold is "worth a look").
+   structural-quality lens, not a correctness review. Do **not** copy
+   install scripts.
+
+8. **[jqueryscript/awesome-jev](https://github.com/jqueryscript/awesome-jev)**
+   - NEW HIGH catalog (**1★**; HEAD `ea807eb4b659`; 231 entries *theirs*).
+   Listing is not endorsement. jqueryscript/awesome-jev ≠ MrJev/awesome-jev ≠
+   yibie/awesome-jev. catalog ≠ endorsement.
+
+9. **[dtduc-git/jev-table](https://github.com/dtduc-git/jev-table)**
+   + densify **[dtduc-git/jevassert](https://github.com/dtduc-git/jevassert)**
+   + **[dtduc-git/jev-packs](https://github.com/dtduc-git/jev-packs)**
+   - NEW HIGH app (Apache-2.0; **0★**; HEAD `94c5cce8d1d3`). Was 404 in §64.
+   Quote *theirs*: typed answers, confidence, review queue; dry-run cost
+   preview. Suite slogan now has the app. Independent, not TypeSafe. Do **not**
+   copy `uvx`.
+
+10. **[MidasMulli/kev-ane](https://github.com/MidasMulli/kev-ane)**
+    - NEW HIGH serving (Apache-2.0; **0★**; HEAD `1c6c390f3b62`). Quote *theirs*:
+    Kev-0.6B on Apple Neural Engine. T=64 7.16 ms p50 *theirs*. 155/155 argmax
+    *theirs* (CPU fp32 and ANE fp16). ANE fp16 max p-diff 3.80e-02 *theirs*.
+    serving substrate ≠ calibrated replica. MidasMulli/kev-ane ≠ jaredpalmer/kev.
+    Do **not** copy CoreML flags.
+
+### Remainder (short cards, same hour)
+
+- **[tpellet/jevify](https://github.com/tpellet/jevify)**: grep for meaning via
+  Jev; classifier.dev; exit 3 when nothing fits. tpellet/jevify ≠ altryne/jevify.
+- **[waygatetech/jev-go](https://github.com/waygatetech/jev-go)**: unofficial Go
+  SDK. retries 429/529. unofficial ≠ TypeSafe.
+- **[shashwatc12/watermelon](https://github.com/shashwatc12/watermelon)**: weekly
+  status greens vs reds. Jev reads language; code reads numbers.
+- **[sharpninja/jev-codex-blazor](https://github.com/sharpninja/jev-codex-blazor)**:
+  Jev emulation over Codex CLI + Blazor. host owns workers.
+- **[seb4ez/jevguard-mcp](https://github.com/seb4ez/jevguard-mcp)**: MCP for
+  JevGuard. seb4ez/jevguard-mcp ≠ seb4ez/jevguard. 5 vs 5 *theirs* not Harbor.
+- **[sathariels/jevtriage](https://github.com/sathariels/jevtriage)**: PR Choice
+  ready/needs_review/risky; confidence gates. rh-guard owns primary gates.
+- **[robokrunch/jev-physical-ai](https://github.com/robokrunch/jev-physical-ai)**:
+  robots/fleets/edge with measured numbers *theirs*. not for locks.
+- **[resumocast/jev-mcp](https://github.com/resumocast/jev-mcp)**: experimental
+  MCP + Pi adapter. connectivity ≠ quality. resumocast/jev-mcp ≠ jkudish/jev-mcp.
+- **[quinnjr/opencode-jev-compaction](https://github.com/quinnjr/opencode-jev-compaction)**:
+  Jev drop/keep, never rewrite. fail-open if Jev down.
+- **[olandodeflexy/upgrade-lens](https://github.com/olandodeflexy/upgrade-lens)**:
+  Zod 3 vs 4 + Jev remainder. local demo.
+- **[montaguegabe/answerfit](https://github.com/montaguegabe/answerfit)**:
+  personalization overlay. Jev on concepts, not a writer.
+- **[michaelpersonal/jev-trade-cc](https://github.com/michaelpersonal/jev-trade-cc)**:
+  O'Neil backtest; Jev picks entries; code owns stops. $171,060 vs $159,500
+  *theirs*, not Harbor.
+- **[kevinj507/jdhd](https://github.com/kevinj507/jdhd)**: tab categories;
+  uncertain tabs left alone. abstention in the product.
+- **[jamubc/opencode-langsearch](https://github.com/jamubc/opencode-langsearch)**
+  + **[jamubc/langsearch-JEV-experimentation-interface](https://github.com/jamubc/langsearch-JEV-experimentation-interface)**:
+  optional Jev gate; tuning harness. WIP. Do not quote as a win.
+- **[chaewonkong/claude_evaluator](https://github.com/chaewonkong/claude_evaluator)**:
+  Claude writes; Jev scores. mixed architecture.
+- **[bramtechs/Focus](https://github.com/bramtechs/Focus)**: browser block via
+  Jev. allowlist/blocklist in code first.
+- **[b0xtch/laya-candle](https://github.com/b0xtch/laya-candle)**: Laya on
+  Candle/Metal. serving substrate ≠ calibrated replica.
+- **[advayc/instructional-agent](https://github.com/advayc/instructional-agent)**:
+  points at controls; human owns mouse.
+- **[YosAwed/python-jev-if](https://github.com/YosAwed/python-jev-if)**: `if jev(...)`.
+  threshold 0.8 still soft.
+- **[TomRichner/can-jev-bayes](https://github.com/TomRichner/can-jev-bayes)**:
+  title: Can Jev Bayes? No. thin README.
+- **[RevocGG/typesafe-jev-bridge](https://github.com/RevocGG/typesafe-jev-bridge)**:
+  OpenAI-compatible bridge. wire-compat ≠ logit-equiv.
+- **[RefoundAI/jev-editor-skill](https://github.com/RefoundAI/jev-editor-skill)**:
+  editorial gate: AI tells / voice / evidence. sensor not a proof.
+- **[KeWang0622/jev-board-game](https://github.com/KeWang0622/jev-board-game)**:
+  social-deduction beliefs as typed distributions. game success ≠ calibrated Noul.
+- **[Hol1kgmg/jev-trpg](https://github.com/Hol1kgmg/jev-trpg)**: TRPG; Jev interprets;
+  code owns dice. game success ≠ calibrated Noul.
+- **[Devonance/rover-claude-jev-demo](https://github.com/Devonance/rover-claude-jev-demo)**:
+  demo, not flight software. S1/S2 seam.
+- **[Clueless-Creations/jev-ios-ultrafast](https://github.com/Clueless-Creations/jev-ios-ultrafast)**:
+  iOS simulator; Jev chooses; runner acts and verifies.
+- **[AnthusAI/Jev-Flywheel](https://github.com/AnthusAI/Jev-Flywheel)**: planted
+  label bias; can the loop name it. experiment, not a product brain.
+- **[Adrian-Ernesto/jevsort](https://github.com/Adrian-Ernesto/jevsort)**: sort by
+  meaning; Jev is not a consistent comparator. Adrian-Ernesto/jevsort ≠ zzzzzec/jevsort.
+
+### Skips (thin / collision / name-match)
+
+- [loktar00/llm-lan-party](https://github.com/loktar00/llm-lan-party): empty repo
+  skip-thin (no SHA, no README).
+- [Rwinkah/token-tracker](https://github.com/Rwinkah/token-tracker): no README
+  skip-thin.
+- [Oaklight/jev-explore-site](https://github.com/Oaklight/jev-explore-site): no
+  README skip-thin.
+- Archer rewrite: **promised_not_landed**. Hub archerhume/4rcherhume HTTP **401**.
+  Qwen/Qwen3.8-27B ≠ Archer. Qwen3.5 ≠ Archer.
+
+### Pulse (live REST this hour)
+
+Archer still promised_not_landed. Hub archerhume/4rcherhume HTTP **401**.
+TypeLLM **18★**. kev **1009★** (star-noise vs watch 1008). vexjoy-agent **421★**.
+jev-pruner **128★**. Canny **3★**. five-lines **1★**. jev-engineering **1★**.
+jqueryscript/awesome-jev **1★**. This hour does not re-census SemIf / Laya likes /
+tracker; those numbers stay §119 until a dedicated pulse.
+`invented_signal: false`.
+
+### Formal compose + anti-patterns
+
+Formal methods **compose** with scoring. A Noul is a SENSOR. Truncated thinking
+is not a Noul. Type-valid is not exact. A 0.80 cutoff is policy. Facts block;
+Jev advises. Treating 0/18 as Harbor, 0.812 as a replica, 155/155 as
+logit-equiv, 231 entries as endorsement, a done-claim Noul as a grant, Qwen3.5
+as Archer, or an empty repo as a serving port is soundness theater.
+Constrained AR ≠ calibrated Noul. Jev never blocks. five-lines threshold 0.80
+still soft. serving substrate ≠ calibrated replica. wire-compat ≠ logit-equiv.
+SHA move is not a replica. catalog ≠ endorsement.
+
+### Adversarial review + testing hooks (Basit standing
+order)
+
+Parent merge only after **CLEAN** adversarial review **AND** testing.
+Hooks for the reviewer:
+
+- Uniqueness-gate: the consecutive `Hourly 1746 uniqueness lock:`
+  string must appear in every overlay listed below. Prior walls 0843 /
+  0915 / jcr / 0922 / 0940 / 0947 / 1049 / 1143 / 1248 / 1340 / 1441 / 1542 /
+  1643 stay one substring each (do not mutate them; do not reopen #23–#50).
+- Namesake locks: TypeLLM/TypeLLM densify §113; jaredpalmer/kev densify
+  §45; tamaratran/jev-pruner densify §53; jqueryscript/awesome-jev ≠
+  MrJev/awesome-jev ≠ yibie/awesome-jev; tpellet/jevify ≠ altryne/jevify;
+  seb4ez/jevguard-mcp ≠ seb4ez/jevguard; resumocast/jev-mcp ≠ jkudish/jev-mcp;
+  Adrian-Ernesto/jevsort ≠ zzzzzec/jevsort; MidasMulli/kev-ane ≠ jaredpalmer/kev;
+  Qwen3.5 ≠ Archer; Constrained AR ≠ calibrated Noul; Jev never blocks.
+- Evaluator: truncated thinking ≠ Noul / type-valid ≠ exact / facts block /
+  Jev never blocks / ANE argmax ≠ logit-equiv / 0.80 still soft.
+- Fingerprints: TypeLLM SHA 6a48f9f1e623 → 702e6a287f3c; kev SHA b339f446a0ef
+  → 8465c4c4c294 (watch 38087aa0301d); description_hash kev moved with Qwen3.5.
+- Harbor-jevals: 0.8B 0/18 / forced 20/20 / 0.794/0.832 / 0.812/0.837 /
+  transfer-v9 5%/9%/26% / SemIf 0.917/0.965 / scienthoon 0.952/0.911 /
+  371ms / 155/155 are *theirs*, not Harbor. Batch 5.8x stays §126.
+  0.3.0 pin stays §127. 93.5% / 74.9 / 8.7x stay §123. 74.6 JevBench stays §78.
+- Anti-patterns to refuse: TypeSafe drop-in; truncated thinking as a Noul;
+  type-valid as accuracy; Kev-0.8B as Archer; /d as permission; Jev as a
+  done-block; 0.80 as a proof; 155/155 as logit-equiv; 231 entries as
+  endorsement; empty repo as a serving port; copying keys / `npm` / `pip` /
+  `uv` / `docker`.
+- Overlay set: SKILL.md body (protocol fragments + class-table densify
+  + Hourly 1746), mental-models Apply 1746, composition-algebra items
+  465–480, faq, mixed-architecture, validation, toolbox-mapping,
+  methods-catalog, formal-methods, formal-semi-formal,
+  applied-mappings, judgment-class, question-design,
+  agent-self-assessment, mappings, CHANGELOG, README, docs/ecosystem,
+  findings batch #110, refresh-log, sources.json, changelog-hourly.md,
+  revisit_fingerprints.json (TypeLLM + kev SHA move; novel HIGH seeds).
+- Offline check: `evaluate_decisions.py --self-test` (now includes
+  truncated thinking ≠ Noul / type-valid ≠ exact / facts block /
+  Jev never blocks / ANE argmax ≠ logit-equiv / 0.80 still soft) and
+  `uniqueness_gate.py` (0843 + 0915 + jcr + 0922 + 0940 + 0947 + 1049 +
+  1143 + 1248 + 1340 + 1441 + 1542 + 1643 + 1746).
+  No live Jev key. No wrappers.
+
+Hourly 1746 uniqueness lock: TypeLLM/TypeLLM densify HEAD 702e6a287f3c README SHA 08180db0450b; truncated thinking then constrained decode; typellm_runtime.py typellm_sglang.py; evals/qwen35_small; 0.8B thinking On 0/18 *theirs*; forced closure 20/20 type-valid *theirs*; Constrained AR ≠ calibrated Noul; type safety does not guarantee factual accuracy; Qwen/Qwen3.8-27B ≠ Archer; jaredpalmer/kev densify live HEAD 8465c4c4c294 watch 38087aa0301d README SHA 19664b9ae546; Kev-0.8B completes family; Kev-0.8B 4B 9B Qwen3.5; 4B new-source 0.794/0.832 *theirs*; 9B new-source 0.812/0.837 *theirs*; transfer-v9 Kev-9B 5% Jev 9% Kev-8B 26% *theirs*; SemIf Kev-9B 0.917 Jev 0.965 *theirs*; scienthoon 0.952/0.911 vs 0.897/0.914 *theirs*; transformers >= 5.17; Qwen3.5 ≠ Archer; wire-compat ≠ logit-equiv; SHA move is not a replica; notque/vexjoy-agent 421★ /d routes /do fallback; tamaratran/jev-pruner densify HEAD 47d017c34eab; qkal/Canny Facts go to code. Judgments go to Jev. Only facts can block.; Jev never blocks; jqueryscript/awesome-jev 231 entries catalog ≠ endorsement; jqueryscript/awesome-jev ≠ MrJev/awesome-jev ≠ yibie/awesome-jev; jamescazzetta/five-lines threshold 0.80 still soft; eugeniughelbur/jev-engineering 371ms $0.0000189 300-call *theirs*; tpellet/jevify ≠ altryne/jevify; seb4ez/jevguard-mcp ≠ seb4ez/jevguard; resumocast/jev-mcp ≠ jkudish/jev-mcp; dtduc-git/jev-table first sighting; Adrian-Ernesto/jevsort ≠ zzzzzec/jevsort; MidasMulli/kev-ane 155/155 argmax *theirs*; MidasMulli/kev-ane ≠ jaredpalmer/kev; serving substrate ≠ calibrated replica; empty repo skip-thin; loktar00/llm-lan-party empty repo; rh-guard owns primary gates; catalog ≠ endorsement; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50; notes.md §128
