@@ -4607,13 +4607,14 @@
     {
       "id": "hf:clduab11/jev-calibration-statistics",
       "notes_section": "145",
-      "last_look": "2026-09-21T16:19Z",
+      "last_look": "2026-09-21T18:03Z",
       "fingerprints": {
-        "default_sha": "13f4fa48f2f29634ff2594e5b7d263f7cf728977",
+        "default_sha": "9bbe055ee8751a927f3ca94e1f4fa67e64846416",
         "pushed_at": null,
-        "description_hash": null,
+        "description_hash": "b8dddf9acc5d",
         "release_tag": null
-      }
+      },
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
     },
     {
       "id": "hf:ldov/openjevv",
@@ -5106,6 +5107,964 @@
       },
       "readme_sha": "9b814bb6624b5dcccb05b3562ee2509589f179d0",
       "note": "1110 first card; revisit tag had no prior notes card"
+    },
+    {
+      "id": "github:peterfriese/jev-foundation-models",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "27963995965d98eb6122e746bbfc6c3c284f75e6",
+        "pushed_at": "2026-09-21T18:02:22Z",
+        "description_hash": "ed5734546d4f",
+        "release_tag": null
+      },
+      "readme_sha": "b40b836f43969458ecef09bd8135d95699a11abe",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:AbdelStark/abdelstark.github.io",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "bd54fa76189c02c69a02216e19f030e3542a67a3",
+        "pushed_at": "2026-09-21T17:52:44Z",
+        "description_hash": "404ceb34debb",
+        "release_tag": null
+      },
+      "readme_sha": "8f7523bcaf571b8ed8c8095c9a3488cfeace3a51",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:Alexander-Ollman/laya-ft",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "41f8247c396960ed43da17ca162c480fa4b0096f",
+        "pushed_at": "2026-09-21T17:28:23Z",
+        "description_hash": "068605164517",
+        "release_tag": null
+      },
+      "readme_sha": "e97e314c88d562680e5b304407235092140fc68a",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:AustinDKB/grass-optimizer",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "6a0616ab83e1aaae6d707a5722461a02297c4e9d",
+        "pushed_at": "2026-09-21T17:57:19Z",
+        "description_hash": "e0a44de8539e",
+        "release_tag": null
+      },
+      "readme_sha": "e7ee8271da7e33f88ca4ff25f958816cebec6199",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:BipinRajC/Jev-api-experiments",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "e57a266df0eab8f6347f7d808a3f27a777642521",
+        "pushed_at": "2026-09-21T17:50:06Z",
+        "description_hash": "a338f5500a5e",
+        "release_tag": null
+      },
+      "readme_sha": "cee6481e2e5b6976a8b476286a7295fc78edf50b",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:Codercise/jev-in-practice",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "02be666a30ad39d4e9000199f7e8e2c612abfb4f",
+        "pushed_at": "2026-09-21T17:48:48Z",
+        "description_hash": "49cdd338ece0",
+        "release_tag": null
+      },
+      "readme_sha": "3f0c4716102831c025cca27ea390fb3ee4845284",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:DevvGwardo/ghost-route",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "ca4e40fd94b45d5a4dd0e1508cc246b49fd40305",
+        "pushed_at": "2026-09-21T18:02:31Z",
+        "description_hash": "4fda371e76dd",
+        "release_tag": null
+      },
+      "readme_sha": "b4be5c1f689373b309f13fd5e3fef9dbc354b861",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:Ejokey/lightjev",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "921fffb588b93247774d73d01ab70cfe84c0b6f2",
+        "pushed_at": "2026-09-21T17:37:38Z",
+        "description_hash": "eb9fd61b6ce5",
+        "release_tag": null
+      },
+      "readme_sha": "30fa74b9f7118980b916e9046886cf938ec8b8d8",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:Georgy-hook/laya-rimworld-director",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "fb82dbf3456208a4ba0de73f91b267969e92c722",
+        "pushed_at": "2026-09-21T17:58:42Z",
+        "description_hash": "36dee0399309",
+        "release_tag": null
+      },
+      "readme_sha": "f25b95e16247c39e8ea523bc871a358df15e4e7b",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:Jorgediamanto/jev-playground",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "b3b3d2d8f8db993af0c0f8bb2dc2aa681587fcb5",
+        "pushed_at": "2026-09-21T17:37:59Z",
+        "description_hash": "9937333d8907",
+        "release_tag": null
+      },
+      "readme_sha": "7b9972acca45e72ea9cbd7ef7bcbd9fca2d0d600",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:Lavenir7/Jev2048",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "9e8785ba82e11a8c768a6abbf480e0eeb53fe57d",
+        "pushed_at": "2026-09-21T18:06:02Z",
+        "description_hash": "16b4fb97ffaa",
+        "release_tag": null
+      },
+      "readme_sha": "aabbb986b7291a3fa845cb08775c1efd3484d63a",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:Makia9879/pi-jev-router",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "2f6aed131dc8d0e37e15c6dd5b0b8f3d12f59ca1",
+        "pushed_at": "2026-09-21T18:05:50Z",
+        "description_hash": "028bec8bbc84",
+        "release_tag": null
+      },
+      "readme_sha": "81b43e3994fd73f5d12e7be05f6ba91a3cb706ec",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:NikHeck/jev-benchmark",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "4997038a29020e7c4c3a5dfc80465e7db395d813",
+        "pushed_at": "2026-09-21T17:49:07Z",
+        "description_hash": "16b4fb97ffaa",
+        "release_tag": null
+      },
+      "readme_sha": "9e6d3a30ef4b21a38d249b4fb9a20b7a913d06fb",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:Renwang-Huang/arbitype",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "454cf2c4a3451d5179bb58d5c51eb86dd00ea228",
+        "pushed_at": "2026-09-21T17:57:58Z",
+        "description_hash": "ca96ffc7eb35",
+        "release_tag": null
+      },
+      "readme_sha": "ffa11f281a529ebd24c19689d30d222ed95f0aec",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:SoundBlaster/SwiftDecision-Examples",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "378c8bc4564f9702d0110545bd4bdbf91c64d3f6",
+        "pushed_at": "2026-09-21T17:47:42Z",
+        "description_hash": "8b5a27f0dfa6",
+        "release_tag": null
+      },
+      "readme_sha": "05e313ca7b00be4a5e5035601c1c48c53cc7fa0b",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:Sy3058/jev-evaluate",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "4e6424305b272f5e44028cb005d67cda8fe9acdd",
+        "pushed_at": "2026-09-21T18:00:55Z",
+        "description_hash": "16b4fb97ffaa",
+        "release_tag": null
+      },
+      "readme_sha": "9a4f7fc26e4338b6ad7734d9958ef218b0bd5407",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:UtpalJayNadiger/find",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "44247083ac903ffb98d0e827c271f2f31560f95d",
+        "pushed_at": "2026-09-21T18:03:20Z",
+        "description_hash": "cd495da6b1a1",
+        "release_tag": null
+      },
+      "readme_sha": "670a74958a9283faf3efb9072132de305f964aed",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:ahtcfg24/codex-speculator",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "8496757f0c86969eda0ec527d74b4e835f3a09f8",
+        "pushed_at": "2026-09-21T17:59:01Z",
+        "description_hash": "a4975bfecee3",
+        "release_tag": null
+      },
+      "readme_sha": "6caece2fcb2ebe2e6da6f73bd557c8622f7cb1c8",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:allebee/jevgrep",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "e7ec44aa801d2c900bbcc2a057d8a2d495691419",
+        "pushed_at": "2026-09-21T18:09:56Z",
+        "description_hash": "ea8ffdad28d0",
+        "release_tag": null
+      },
+      "readme_sha": "96102d2f6a2251a6cd466cf7da4064c5af0347a3",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:allebee/pytest-jev",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "b24310cccf43e760709105c8e91b03156b7559ba",
+        "pushed_at": "2026-09-21T18:04:38Z",
+        "description_hash": "023ad344f833",
+        "release_tag": null
+      },
+      "readme_sha": "7ab5e2e57a5aff00a46388319fa08d57064ddf9b",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:babanomania/linkedin-bullshit-filter",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "2838b3c6dc76d33fddecfe1f4b3ade5a323e61a6",
+        "pushed_at": "2026-09-21T17:45:37Z",
+        "description_hash": "9bd452d46370",
+        "release_tag": null
+      },
+      "readme_sha": "408ff814009007872c1232b145070ae6e0505e21",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:bangxiao0927/decidespeak",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "6558e1a9b157cc1dd38933ddbc9b2e2963028e38",
+        "pushed_at": "2026-09-21T17:01:52Z",
+        "description_hash": "5cc79814c792",
+        "release_tag": null
+      },
+      "readme_sha": "d1b95ca6b74bab50318c6072a70ff87b1120b62c",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:bitofant/laya",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "f9335cb99e9b665dcfbc4f7ad6f51bb996d3c125",
+        "pushed_at": "2026-09-21T18:06:44Z",
+        "description_hash": "8c8a7fb8ddb7",
+        "release_tag": null
+      },
+      "readme_sha": "1a26983aef620165a06dc15c28e4f45a3c3cef9d",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:coreywoo27/Jev-Empowered-Qwen-mlx",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "a14c9b92435140056f408e1e8c65b15afae8b76f",
+        "pushed_at": "2026-09-21T17:22:36Z",
+        "description_hash": "c8623190fbf7",
+        "release_tag": null
+      },
+      "readme_sha": "2131d40716fcf86149ab86b095a8a0a4706128f7",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:cornelflorea/jev-test",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "42cadf15cc7987f8d9bc3c57b0cb41fbc917b5ee",
+        "pushed_at": "2026-09-21T17:54:41Z",
+        "description_hash": "16b4fb97ffaa",
+        "release_tag": null
+      },
+      "readme_sha": "35db91381f382f12f45eed86f8f4a7f9451b8ba2",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:dannyowelch/jev-abstention-checker",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "fb2a0afa6220cc0093c9cf6d0bb12e034abb196a",
+        "pushed_at": "2026-09-21T17:50:35Z",
+        "description_hash": "ddae6a6b0107",
+        "release_tag": null
+      },
+      "readme_sha": "acf5b81da07f0c69509f95ba9c5fe94fbd1f7b91",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:dante01yoon/laya-jev-arena",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "4a723c55d31c165a26000d9d84a9f65f4bff1f96",
+        "pushed_at": "2026-09-21T17:37:26Z",
+        "description_hash": "31a216b0ec54",
+        "release_tag": null
+      },
+      "readme_sha": "a1280d76ddcd5c0b3c75de9437084ade21f988db",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:datamonsterr/jev_auto_select_skills",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "ffa748ef2cabd35e5598816e6e413d2d2234a581",
+        "pushed_at": "2026-09-21T17:46:01Z",
+        "description_hash": "16b4fb97ffaa",
+        "release_tag": null
+      },
+      "readme_sha": "37cd6e7ca9c4108f227f85d7bee23ee20e7611d9",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:diluteoxygen/JevName",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "08f239452851b91754c366a4071b59da1b9da563",
+        "pushed_at": "2026-09-21T18:01:52Z",
+        "description_hash": "8d72767d8a9a",
+        "release_tag": null
+      },
+      "readme_sha": "4598ba81b3219f9dc9b50460ef0b6b2248749eb8",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:edrache/jevworms",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "e79d677c77149da293924088a8a1f76f05d494d4",
+        "pushed_at": "2026-09-21T17:43:45Z",
+        "description_hash": "16b4fb97ffaa",
+        "release_tag": null
+      },
+      "readme_sha": "098a1d2d3af3bcf7cd52c6ed715fb5b81e7a8cf7",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:emerson-buoy/jev-ticket-classifier",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "a51bd3faf388821631647fb461281826f27a47df",
+        "pushed_at": "2026-09-21T18:05:34Z",
+        "description_hash": "0d2bfdaf27a5",
+        "release_tag": null
+      },
+      "readme_sha": "6a2f242d24098a6bf64661a08647dbdac72b1119",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:emlama/jev-mcp",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "4c7da93a21be3dfb5e4fed82d274b7cac4ea2fe2",
+        "pushed_at": "2026-09-21T18:04:39Z",
+        "description_hash": "b9179129a91d",
+        "release_tag": null
+      },
+      "readme_sha": "a258eb52829c72d526e22341cb0095c3cf2d3dc6",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:fblissjr/typesafe-experiments",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "0d21b21d3c0e02e4aa51012c8a6d8a0edf9a0bd7",
+        "pushed_at": "2026-09-21T17:48:31Z",
+        "description_hash": "9fb7ec7dd833",
+        "release_tag": null
+      },
+      "readme_sha": "81d2df816c34a9813efcb88ac62ed2fdf61418ac",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:frahlg/laya-ems-test",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "a7f72577dc0e7500d6c3959a958074ac34c8f9af",
+        "pushed_at": "2026-09-21T17:53:41Z",
+        "description_hash": "a7c22d300a5a",
+        "release_tag": null
+      },
+      "readme_sha": "35993b958438c08b07a5147a1973e42ffd442f16",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:hazlema/jev-connect4",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "be4f9757a820fb31d4058d4df7ce07914765206d",
+        "pushed_at": "2026-09-21T17:51:59Z",
+        "description_hash": "73238d606f06",
+        "release_tag": null
+      },
+      "readme_sha": "bcef5ccd085982b42bd36a1f1110a1b83b72b4a8",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "hf:marcmagn1/jev-alt-systemone-trackio",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "e8fe2df8f29c0615bbb731d374675aa236689e86",
+        "pushed_at": null,
+        "description_hash": "ac7eea240086",
+        "release_tag": null
+      },
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "hf:opg13/laya",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "99175af5d67919ae93b7ffc1a1db4835af14245e",
+        "pushed_at": null,
+        "description_hash": "81571f8d94cb",
+        "release_tag": null
+      },
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:hfnissum-byte/jevmerge",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "2b472ca7304b87cd102e5409bdd9a487daf3b767",
+        "pushed_at": "2026-09-21T17:45:49Z",
+        "description_hash": "ac421318edaa",
+        "release_tag": null
+      },
+      "readme_sha": "b32e85e4909c237bfcd9384014b0707076e60f74",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:ishantanu/jevtraces",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "7053acccc254857ee648cf049da9870c649486ba",
+        "pushed_at": "2026-09-21T18:02:40Z",
+        "description_hash": "16b4fb97ffaa",
+        "release_tag": null
+      },
+      "readme_sha": "f83ca85d1641d62633591367cc73968a43aadfe8",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:jayozer/jevzero",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "601228d24a8a12eb81a9182c150d3f6e9233cc74",
+        "pushed_at": "2026-09-21T17:44:15Z",
+        "description_hash": "ab3dc1ddc9ee",
+        "release_tag": null
+      },
+      "readme_sha": "1a6c376f01ef1d2dc84d18150d46e57f96cd57a1",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:jeonck/clinic-checklist",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "b693bfa56d42004415d26252ead7700bcfe418fb",
+        "pushed_at": "2026-09-21T17:49:59Z",
+        "description_hash": "1a4b4a45372a",
+        "release_tag": null
+      },
+      "readme_sha": "e2bb49fe9f2a4a9e80f5487b11f5dd4ff72c681b",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:jevonj05/jevonj05",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "eaf07387d30559de2f27b6fe3987a831badb82bb",
+        "pushed_at": "2026-09-21T17:55:49Z",
+        "description_hash": "16b4fb97ffaa",
+        "release_tag": null
+      },
+      "readme_sha": "3743fe2fb8191f24cb7f2c3ad75342d8e3640bfe",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:jordilopez/pi-smart-router",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "2cd38cc56af1081fd9396b60c093761100e8f796",
+        "pushed_at": "2026-09-21T17:57:25Z",
+        "description_hash": "44ac7b7eae7c",
+        "release_tag": null
+      },
+      "readme_sha": "89c03c160a8512880c8989ef60ba6832a2ce7e73",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:karanb192/jev-skill-scout",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "a10b1a1fe71bc9d6572ba4c2c79dcadc17d01fb0",
+        "pushed_at": "2026-09-21T18:07:27Z",
+        "description_hash": "f965e5028514",
+        "release_tag": null
+      },
+      "readme_sha": "638dd70428948ad3e14b8d97e6040e6dc1633241",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:ljbuturovic/jevgram",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "73185b0df270a38f0dd2c178d6840921964198ce",
+        "pushed_at": "2026-09-21T17:39:28Z",
+        "description_hash": "16b4fb97ffaa",
+        "release_tag": null
+      },
+      "readme_sha": "2af501753734b070db10f1dfc29bcf452f556ca8",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:luisrapalino/jev-smart-bets",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "a606f2b45195109134bd7ef304652c9e4b6fdd4a",
+        "pushed_at": "2026-09-21T17:56:00Z",
+        "description_hash": "d6fc3789e61a",
+        "release_tag": null
+      },
+      "readme_sha": "0f3714226f743a1ee5ec3f8be665e351efe1f01a",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:lvzhaobo/jev-assayer",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "795031c93e71547df7d797972b46b7dfbc01833f",
+        "pushed_at": "2026-09-21T18:01:24Z",
+        "description_hash": "16b4fb97ffaa",
+        "release_tag": null
+      },
+      "readme_sha": "7fe614bdf174d7b2623a4c79a3f62efe72787ff0",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:makiisthenes/JevAIExperimentation",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "dae1c2f867d049bd55615121c66c1d1ffd71c0d8",
+        "pushed_at": "2026-09-21T17:42:14Z",
+        "description_hash": "5556a16a1c69",
+        "release_tag": null
+      },
+      "readme_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:moelahmady/shunt-jev",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "47285110cf2afd9f75ad4d9873bf611ce2090eac",
+        "pushed_at": "2026-09-21T18:07:33Z",
+        "description_hash": "7f11d4fe32ea",
+        "release_tag": null
+      },
+      "readme_sha": "2332516baf237b609dadb4f9421eddd97a4d6363",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:naiersaidane/jev-demos",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "dd8d6fe03da6dca08c924a7c34cbdc8c736f305b",
+        "pushed_at": "2026-09-21T17:56:40Z",
+        "description_hash": "2d75c8ba9625",
+        "release_tag": null
+      },
+      "readme_sha": "6a41ac881196d418df83ba27c741af54724c1529",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:olivere/systemone",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "fe90e12af0a0caac340c8fc2798498f7fb2325bf",
+        "pushed_at": "2026-09-21T17:32:31Z",
+        "description_hash": "b768d3291e0c",
+        "release_tag": null
+      },
+      "readme_sha": "ede6fced042ef964259163e01ee8ad780941d227",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:p2kalita/Building-a-Harness-with-Jev-LangChain",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "7c7318ebe7032d3dc315eebb9c13fb1345ec9d5a",
+        "pushed_at": "2026-09-21T18:02:59Z",
+        "description_hash": "16b4fb97ffaa",
+        "release_tag": null
+      },
+      "readme_sha": "38bc6d9acddc334f6f3abd74af23fc59c1ba6344",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:pavlealeksic/jev-hermes",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "ff858e9573228433adfe45409e31ca8ab308f14c",
+        "pushed_at": "2026-09-21T18:02:27Z",
+        "description_hash": "16b4fb97ffaa",
+        "release_tag": null
+      },
+      "readme_sha": "2444a463e79c2cee6c7a5d38546a477dcab94c25",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:perezjohn0/jevpav",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "3185ac2bc377b6be956fe7b852cc78e26cee5628",
+        "pushed_at": "2026-09-21T17:55:20Z",
+        "description_hash": "16b4fb97ffaa",
+        "release_tag": null
+      },
+      "readme_sha": "ad253f8dfe83f7c45f8ab2cdcceaa2a1dda70630",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:piyushsonawane07/trueKeep",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "a072d99e603459e26b00f947cfc7ce29a79fb3db",
+        "pushed_at": "2026-09-21T18:09:04Z",
+        "description_hash": "35de08bf3687",
+        "release_tag": null
+      },
+      "readme_sha": "a217f090c99dacf7cfa1de2ce0b5ba321bc201e5",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:prakash5284/jev-vs-llm-resume-jd-eval",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "d9a80a8a00f4945ca70a44664f5148c7ffdd6101",
+        "pushed_at": "2026-09-21T18:04:21Z",
+        "description_hash": "8e58e3efd86b",
+        "release_tag": null
+      },
+      "readme_sha": "06b2104f5b63e62c9709c7da8dce30a2436fb477",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:pratik-codechef/jev-model",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "5b3a8fb21b50d6f76db638a514722bbbd84de2af",
+        "pushed_at": "2026-09-21T17:55:32Z",
+        "description_hash": "4af676fc0f82",
+        "release_tag": null
+      },
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:punitarani/jeve",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "c12c66b809da1e007d2beae31ee92dde7574edce",
+        "pushed_at": "2026-09-21T17:55:47Z",
+        "description_hash": "16b4fb97ffaa",
+        "release_tag": null
+      },
+      "readme_sha": "631ba86611e4609caa701750d999a2f545a4ff34",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:rishhavv/tabjev",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "9b4abd1ee7d633377b5cfb780ead9dc514082350",
+        "pushed_at": "2026-09-21T17:52:36Z",
+        "description_hash": "074c7bfe9894",
+        "release_tag": null
+      },
+      "readme_sha": "15cbe787df05965caea5ba68483bb783409e73aa",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:ruslanlap/jev-gate",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "300014a1bdea179cd4cdd7db0aba63c79f54cb46",
+        "pushed_at": "2026-09-21T18:11:48Z",
+        "description_hash": "5fb537cf089e",
+        "release_tag": null
+      },
+      "readme_sha": "96e31d8dc5d8917faec9d08db973f12b888a090f",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:sathwikkuncham/laya-snake-arena",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "e7227d7895011f3e22a0b5a27cf1848148c89874",
+        "pushed_at": "2026-09-21T17:42:07Z",
+        "description_hash": "80d991a3270e",
+        "release_tag": null
+      },
+      "readme_sha": "6947e635bc72026420105c15a2a00e9b5156d629",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:shivpratapsinghpanwar/edgefront",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "3b3771d69949e58f8dec9519aab21e1451644cfd",
+        "pushed_at": "2026-09-21T18:00:50Z",
+        "description_hash": "c8890beb4a5e",
+        "release_tag": null
+      },
+      "readme_sha": "7342f40028e9dc9e0e190532ed23b9fdd867b1ef",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:singhdevhub-lovepreet/firstlight",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "43378a949bcef2e4877d910d6aa8cf011402e332",
+        "pushed_at": "2026-09-21T17:36:11Z",
+        "description_hash": "b78b60847d62",
+        "release_tag": null
+      },
+      "readme_sha": "5efe948df249984d950daf577a442d5a5d68dc21",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:sliday/jev-chess-algo",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "4462ace0895b7435d18a91fb8adda3ef656711f4",
+        "pushed_at": "2026-09-21T17:50:45Z",
+        "description_hash": "9113705234a7",
+        "release_tag": null
+      },
+      "readme_sha": "24e42556378c29814d5a49b7d56ca50f8f685692",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:sunmont/pi-jev-dsk-agi",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "2aa1f06e5da69b6dc4ee80262c566a366993f19b",
+        "pushed_at": "2026-09-21T17:48:07Z",
+        "description_hash": "277fbff5ea11",
+        "release_tag": null
+      },
+      "readme_sha": "b25ef30d534b62b8c929ca407dacd16d43538e40",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:theglitcharchitect/muse-skills",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "f0cc9cc9cea66a8d99e7eff799e67ef055e90e05",
+        "pushed_at": "2026-09-21T17:39:00Z",
+        "description_hash": "7c4ac5991cdf",
+        "release_tag": null
+      },
+      "readme_sha": "a14927d3b12fcd8019e42841486b021c361a7b4a",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:uibuckets/ai-decision-lab",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "bd237978608f42373259ddf3d9fdd12ac16e1674",
+        "pushed_at": "2026-09-21T17:15:07Z",
+        "description_hash": "033a40b0c5b5",
+        "release_tag": null
+      },
+      "readme_sha": "bc88b74a1ba6288e0a71c5a17f81ac818b29f48b",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:uibuckets/laya-local-service",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "7b340cb7ab25e080b46667fa4ba9423d095a5984",
+        "pushed_at": "2026-09-21T17:14:40Z",
+        "description_hash": "1d74154aa6d0",
+        "release_tag": null
+      },
+      "readme_sha": "fbc8e3ca521aac8188f061d4e6800fc93cba4c6a",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:wuxie888/jev-yaba-wechat",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "b29bd3c42cecfe0d457d37852d356bee0959557d",
+        "pushed_at": "2026-09-21T17:40:29Z",
+        "description_hash": "945c2a3923bc",
+        "release_tag": null
+      },
+      "readme_sha": "0744b3dd626887567194ddcf9a6b90a5b32bcc98",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:AkashPriyadarshii/jev-seo",
+      "notes_section": "131",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "f42455ac951ac4ff487e6e2adac485a2e6d02198",
+        "pushed_at": "2026-09-21T17:52:57Z",
+        "description_hash": "ec17d4ad7463",
+        "release_tag": null
+      },
+      "readme_sha": "677171501c8e3516349c4927800a8d323f1ffabe",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:dtduc-git/jevnav",
+      "notes_section": "129",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "b7a12d2f54ced3334192fb9a551c661319cf21ed",
+        "pushed_at": "2026-09-21T17:51:01Z",
+        "description_hash": "bc447b422318",
+        "release_tag": null
+      },
+      "readme_sha": "61ea35cc8f322ad4890ace3e85cb787b05bf7977",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:SoundBlaster/SwiftDecision",
+      "notes_section": "148",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "7af9416e1ac486ae63ae545db753b1b34b46500f",
+        "pushed_at": "2026-09-21T16:19:45Z",
+        "description_hash": "34c2943b3a83",
+        "release_tag": null
+      },
+      "readme_sha": "54ad5d8e4886c4ee5d7fba9108728ef4ebda815e",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "github:Tongyun1/Jev-in-the-Loop",
+      "notes_section": "146",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "039c2117f4e3733fd338e0ca6551a68e6a6e0faa",
+        "pushed_at": "2026-09-21T17:52:40Z",
+        "description_hash": "36640ebe9ef9",
+        "release_tag": null
+      },
+      "readme_sha": "ffe54ee54576e8833bb2906ba78d265107756b6b",
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
+    },
+    {
+      "id": "hf:aimeigaoshou/agent-jev",
+      "notes_section": "146",
+      "last_look": "2026-09-21T18:03Z",
+      "fingerprints": {
+        "default_sha": "024a68eade838528b5373ed34b3494bba0c81444",
+        "pushed_at": null,
+        "description_hash": "ea9d94d1ba47",
+        "release_tag": null
+      },
+      "note": "1203 fold; SHA move is not a replica; densify keeps the prior section id"
     }
   ],
   "entries": null
