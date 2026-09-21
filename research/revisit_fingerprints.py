@@ -297,6 +297,8 @@ def self_test() -> None:
     assert ashare["default_sha"].startswith("26c7e95e6828")
     kevin = by_id["github:gauravsaini/kevin"]["fingerprints"]
     assert kevin["default_sha"].startswith("96336428dc15")
+    jevlab = by_id["github:mjyoke1111/jev-lab"]["fingerprints"]
+    assert jevlab["default_sha"].startswith("0bd66957283a")
     densify_original_ids = {
         "github:razorback16/openjev": "75",
         "github:wfzyx/von": "49",
@@ -316,6 +318,7 @@ def self_test() -> None:
         "github:kotoba-lang/typed-decisions": "130",
         "github:tinmanlab/cartpole-jev": "121",
         "github:xuboboo/ashare-trader": "120",
+        "github:mjyoke1111/jev-lab": "106",
     }
     for look_id, section in densify_original_ids.items():
         assert look_id in by_id, look_id
