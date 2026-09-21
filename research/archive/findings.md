@@ -2,6 +2,36 @@
 
 
 
+## Batch #113 (2026-09-20 ~19:46 Boise / ~01:46 UTC) - hourly 1946 HIGH
+
+Hourly 1946 uniqueness lock: brainstormity/Jev-X-Sentiment-Analysis 136★ HEAD 5c932f941a92 README SHA bf4134b44cda; platform does not execute trades; heyjunpenn/awesome-jev 485 catalog ≠ endorsement; heyjunpenn/awesome-jev ≠ yibie/awesome-jev ≠ MrJev/awesome-jev ≠ Promethe-us/awesome-jev ≠ ckaraca/awesome-jev ≠ yzfly/awesome-jev-zh ≠ shirenchuang/awsomejev ≠ andyrewlee/awesome-system-one; NanmiCoder/jev-arena 10k comments 62.69% vs 67.26% *theirs* not gold; 203.2s $0.84 vs 823.5s $1.50 *theirs*; AI-reviewed labels ≠ gold; openroboto-ai/jev-robot-control one seed-0 trial *theirs*; Jev $0.018825 vs Astra $5.93 *theirs*; one-trial robot ≠ Harbor; endman100/research-Qwen3.8-JevLike 10.59× *theirs*; 6 class flips; agreement ≠ accuracy; probabilities uncalibrated; Qwen3.8 ≠ Archer; 10.59× systems ≠ ECE; marcosmartinez/jev-acento Spanish −6.4 pp XNLI *theirs*; ECE 0.057→0.101 *theirs*; 72.2% vs 63.4% p_max≥0.9 coverage *theirs*; alexwestco/llm-to-jev description rewrite Convert LLM prompts to Jev prompts; SHA unchanged 234058ab372d; 3★; heuristic conversion ≠ calibrated Noul; desc rewrite ≠ SHA/behavior change; skip Zefan-Cai/Open-Jev densify open #53; skip sgoedecke/system-one mithalouni/system-one-open kotoba-lang/typed-decisions open #54; ikermoel/open-alternative-jev already §49; nrdz-labs/fast-jev-opencode already §62; mallahyari/system-one-benchmark already §61; does not execute; catalog ≠ endorsement; *theirs* not Harbor; SHA move is not a replica; local_only ≠ Jev; rule-table ≠ model; replica ≠ TypeSafe; arunav25/jev-mcp ≠ jkudish/jev-mcp ≠ ThePFMind/jev-mcp ≠ burnigtm/jev-mcp; luckberonne/mini-jev ≠ r-ms/mini-jev ≠ samatv256/mini-Jev; Kwwwww74/OpenJev ≠ razorback16/openjev ≠ kyegomez/open-jev ≠ Zefan-Cai/Open-Jev; peach-zhang/typesafe-go ≠ kisshan13/typesafe-ai-go ≠ Nibir1/typesafe-go; laidick/system-one-benchmark ≠ mallahyari/system-one-benchmark; sahasrarjn/system-one ≠ sgoedecke/system-one; aboisvert/jevvy ≠ PanAchy/jevvy; andrest04/jev-lab ≠ javsanesq/jevlab; twilwa/pi-typesafe ≠ TheoOliveira/pi-jev; RuipuCui/jev-harness ≠ ismaelsoilet/jev-harness ≠ AntonioCoppe/jev-harness; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52; notes.md §131
+
+Note: `research/notes.md` §131. Docs + evaluator, fresh PR off latest
+`main` (`6a7a557` / merged #54 aisearchio §130). Merged #54 owns §130 /
+497–504 / #112. Merged #52 owns §129. Merged #51 owns §128. Open #53 owns
+Open-Jev densify. This fold stays §131 / items 505–520 / batch #113.
+**HARD RULE:** do not reopen or amend PR #23–#52.
+Quote READMEs. Soft Noul ≠ hard safety. Augustus owns
+placement. `invented_signal: false`.
+
+- **X-sentiment / catalogs PRIMARY.** HEAD 5c932f941a92. platform does not execute trades.
+  heyjunpenn/awesome-jev 485 catalog ≠ endorsement.
+- **jev-arena / robot-control / JevLike.** 62.69% vs 67.26% *theirs* not gold.
+  203.2s $0.84 vs 823.5s $1.50 *theirs*. one seed-0 trial *theirs*.
+  Jev $0.018825 vs Astra $5.93 *theirs*. 10.59× *theirs*. 6 class flips.
+  agreement ≠ accuracy. probabilities uncalibrated. Qwen3.8 ≠ Archer.
+- **jev-acento / llm-to-jev densify.** Spanish −6.4 pp XNLI *theirs*.
+  ECE 0.057→0.101 *theirs*. 72.2% vs 63.4% p_max≥0.9 coverage *theirs*.
+  Convert LLM prompts to Jev prompts. SHA unchanged 234058ab372d. 3★.
+- **skips / namesakes.** skip Zefan-Cai/Open-Jev densify open #53.
+  skip sgoedecke/system-one mithalouni/system-one-open kotoba-lang/typed-decisions open #54.
+  ikermoel already §49. nrdz-labs already §62. catalog ≠ endorsement.
+  Archer still promised_not_landed.
+
+Pulse: Archer still NOT landed. Hub archerhume/4rcherhume HTTP **401**.
+Jev-X-Sentiment-Analysis **136★**. awesome-jev **32★**. jev-arena **31★**.
+llm-to-jev **3★**. `invented_signal: false`.
+
 ## Batch #112 (2026-09-20 ~19:36 Boise / 2026-09-21T01:36Z) - user-provided 1936 HIGH
 
 User-provided 1936 uniqueness lock: sgoedecke/system-one 20★ HEAD ebde2a2db706 README SHA d331b567e2c3; SystemOne.from_pretrained; Batched single-token choice inference; TypeSafe-compatible; cache_prefix=True; LICENSE absent; sgoedecke/system-one ≠ mithalouni/system-one-open ≠ KathanModh259/system-one ≠ babybear-labs/system-one; TypeSafe-compatible ≠ TypeSafe replica; mithalouni/system-one-open 18★ MIT HEAD 77f1f7cccf8a README SHA 535f33028a68 LICENSE SHA 2f6f2cf1064e; Gemma 4 E2B / Gemma 3 270M Modal; 76.7% vs Jev 86.9% strict common subset *theirs*; 97 ms H100 *theirs*; 74.8% held-out *theirs*; replica ≠ TypeSafe; HF upload pending; kotoba-lang/typed-decisions 1★ Apache-2.0 HEAD 10d7834d3b99 README SHA 4d6bbf4c4e44 LICENSE SHA 513bb5e3cb4c; ModernBERT / DeBERTa / LLaDA-MoE; DeBERTa-v3-large 0.855 / 42 ms *theirs*; ModernBERT-base 0.717 / 68 ms *theirs*; LLaDA-MoE 0.835 / 676 ms *theirs*; kotoba-lang/typed-decisions ≠ convaiinnovations/laya-typed-decisions; encoder class member not Jev replica; aisearchio 15-link census catalog ≠ endorsement; 12 already carded 3 gaps this fold; soft scores ≠ hard gates; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52; notes.md §130
@@ -33,7 +63,6 @@ placement. `invented_signal: false`.
 Pulse: Archer still NOT landed. Hub archerhume/4rcherhume HTTP **401**.
 sgoedecke **20★**. mithalouni **18★**. kotoba-lang/typed-decisions **1★**.
 `invented_signal: false`.
-
 
 ## Batch #111 (2026-09-20 ~18:43 Boise / ~00:43 UTC) - hourly 1843 HIGH
 

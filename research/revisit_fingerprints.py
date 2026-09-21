@@ -302,6 +302,7 @@ def self_test() -> None:
         "hf:ZefanCai/Open-Jev-2B": "125",
         "hf:ZefanCai/Open-Jev-9B": "125",
         "hf:ds:ZefanCai/Open-Jev": "125",
+        "github:alexwestco/llm-to-jev": "118",
     }
     for look_id, section in densify_original_ids.items():
         assert look_id in by_id, look_id

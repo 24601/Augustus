@@ -16,6 +16,36 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 1946 HIGH (`research/notes.md` §131 / composition items
+505–520 / findings batch #113). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#52.
+Do not amend released 0.5.0 (#42). Merged #53 owns Open-Jev densify on §125. Merged #54 owns §130. Merged #52 owns §129.
+
+### Added
+
+- **Hourly 1946 HIGH (`notes.md` §131).** X-sentiment does not execute /
+  heyjunpenn 485 catalog ≠ endorsement / jev-arena 62.69% vs 67.26%
+  *theirs* not gold / one seed-0 robot trial *theirs* /
+  10.59× systems ≠ ECE / Spanish −6.4 pp XNLI *theirs* /
+  llm-to-jev description rewrite SHA unchanged.
+  Evaluator: does not execute / AI-reviewed ≠ gold / one-trial ≠ Harbor /
+  10.59× ≠ ECE / agreement ≠ accuracy / desc rewrite ≠ SHA.
+  uniqueness_gate.py now checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 +
+  1049 + 1143 + 1248 + 1340 + 1441 + 1542 + 1643 + 1746 + 1843 + 1936 + Open-Jev densify + 1946.
+  Composition items 505–520 / batch #113.
+  **HARD RULE:** do not reopen or amend PR #23–#52. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat a dashboard
+  Choice as a fill, a catalog as a grant, AI-reviewed labels as gold, a
+  one-trial robot run as Harbor, 10.59× as ECE, or a description rewrite
+  as a SHA change. With Augustus: does not execute; catalog ≠ endorsement;
+  AI-reviewed labels ≠ gold; one-trial robot ≠ Harbor; 10.59× systems ≠
+  ECE; desc rewrite ≠ SHA/behavior change. Same split for any
+  Choice/Score/Noul-style head, not only hosted Jev.
+
 Open-Jev densify (`research/notes.md` §125). Does **not** bump the
 0.5.0 pin. Uniqueness dumps live in
 [`research/changelog-hourly.md`](research/changelog-hourly.md).
