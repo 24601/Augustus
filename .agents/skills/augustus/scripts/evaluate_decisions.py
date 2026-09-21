@@ -863,6 +863,42 @@ def openjev_kit_training_is_not_complete(kind, complete=False):
 
 
 
+
+def kev_night2_ood_is_not_harbor(score, harbor=False):
+    """locked OOD Kev-9B 0.852 *theirs* not Harbor."""
+    if abs(score - 0.852) > 1e-9:
+        raise ValueError("unexpected score")
+    return harbor is False
+
+
+def nimble_did_not_distill(kind, distilled=False):
+    """did not distill from Jev."""
+    if kind != "nimble_recipe":
+        raise ValueError("unexpected kind")
+    return distilled is False
+
+
+def apus_frozen80_is_not_harbor(acc, harbor=False):
+    """APUS-OpenJev 9B 85.0% vs Jev API 82.5% *theirs* not Harbor. Frozen80 n=80."""
+    if abs(acc - 85.0) > 1e-9:
+        raise ValueError("unexpected acc")
+    return harbor is False
+
+
+def vision_hard_overconfidence_is_not_calibrated(acc, conf, calibrated=False):
+    """JevBench hard 52% at 91% mean confidence *theirs*."""
+    if abs(acc - 0.52) > 1e-9 or abs(conf - 0.91) > 1e-9:
+        raise ValueError("unexpected scores")
+    return calibrated is False
+
+
+def gliner_locate_is_not_decide(kind, decide=False):
+    """Locate ≠ decide. Zero Hallucinations marketing."""
+    if kind != "gliner_locate":
+        raise ValueError("unexpected kind")
+    return decide is False
+
+
 def lcc_keep_all_is_not_cost_reduction(kind, cost_reduction=False):
     """Token reduction alone is not cost reduction. N=18 pilot not Harbor."""
     if kind != "lcc_keep_all":
@@ -1413,6 +1449,24 @@ def self_test():
     assert theirs_bench_is_not_harbor(796, "any2jev-acc-0.796")
     assert theirs_bench_is_not_harbor(2321, "jev-compatible-232.1ms")
     assert theirs_bench_is_not_harbor(7080, "jev-arcade-snake-70-80")
+
+    # 0551: kev Night-2 OOD is not Harbor / Nimble did not distill /
+    # APUS Frozen80 is not Harbor / Jev-Vision hard overconfidence is
+    # not calibrated / GLiNER Locate ≠ decide.
+    assert kev_night2_ood_is_not_harbor(0.852, False)
+    assert not kev_night2_ood_is_not_harbor(0.852, True)
+    assert nimble_did_not_distill("nimble_recipe", False)
+    assert not nimble_did_not_distill("nimble_recipe", True)
+    assert apus_frozen80_is_not_harbor(85.0, False)
+    assert not apus_frozen80_is_not_harbor(85.0, True)
+    assert vision_hard_overconfidence_is_not_calibrated(0.52, 0.91, False)
+    assert not vision_hard_overconfidence_is_not_calibrated(0.52, 0.91, True)
+    assert gliner_locate_is_not_decide("gliner_locate", False)
+    assert not gliner_locate_is_not_decide("gliner_locate", True)
+    assert theirs_bench_is_not_harbor(852, "kev-night2-ood-0.852")
+    assert theirs_bench_is_not_harbor(850, "apus-frozen80-85.0")
+    assert theirs_bench_is_not_harbor(901, "nimble-90.1")
+
 
 
 
