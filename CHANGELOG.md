@@ -16,6 +16,40 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 2049 HIGH (`research/notes.md` §132 / composition items
+521–536 / findings batch #114). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#55.
+Do not amend released 0.5.0 (#42). Merged #55 owns §131. Merged #54
+owns §130. Merged #53 owns Open-Jev densify on §125.
+
+### Added
+
+- **Hourly 2049 HIGH (`notes.md` §132).** kev night-2 densify HEAD
+  c096660c8da2 / PLAN SHA 8d77dd271c66 / README SHA unchanged.
+  KEV_TEMPERATURE T≈2.0 / Brier 0.291→0.267 ECE 0.105→0.039 *theirs* /
+  grouped T rejected / Qwen3.6-35B-A3B smoke 0.812 *theirs* /
+  Hub --revision night2-du / MMLU-Pro 1000 Kev-9B 0.511 Jev 0.829
+  *theirs*. kotoba OpenJev runtime densify HEAD ff7f84e74d04 /
+  generated_text: False / trained runtime ≠ TypeSafe.
+  Evaluator: temperature scaling ≠ ECE unless measured /
+  Hub --revision is a pin not a replica / grouped T rejected /
+  trained runtime ≠ TypeSafe / generated_text: False / Qwen3.6 ≠ Archer.
+  uniqueness_gate.py now checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 +
+  1049 + 1143 + 1248 + 1340 + 1441 + 1542 + 1643 + 1746 + 1843 + 1936 +
+  Open-Jev densify + 1946 + 2049.
+  Composition items 521–536 / batch #114.
+  **HARD RULE:** do not reopen or amend PR #23–#55. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat T≈2.0 as
+  Harbor ECE, a Hub `--revision` pin as hosted Jev, or a trained OpenJev
+  runtime as TypeSafe. With Augustus: temperature scaling ≠ ECE unless
+  measured; Hub --revision is a pin not a replica; grouped T rejected;
+  trained runtime ≠ TypeSafe; generated_text: False; Qwen3.6 ≠ Archer.
+  Same split for any Choice/Score/Noul-style head, not only hosted Jev.
+
 Hourly 1946 HIGH (`research/notes.md` §131 / composition items
 505–520 / findings batch #113). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in

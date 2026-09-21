@@ -1,0 +1,11 @@
+{
+  "hour": "2026-09-21T02",
+  "label": "2049",
+  "notes_section": "132",
+  "composition": "521-536",
+  "findings_batch": 114,
+  "revisit_high": 2,
+  "novel_high": 45,
+  "invented_signal": false,
+  "primary": "kev night-2 densify; KEV_TEMPERATURE T≈2.0; temperature scaling ≠ ECE unless measured; Hub --revision is a pin not a replica; kotoba trained OpenJev runtime ≠ TypeSafe"
+}

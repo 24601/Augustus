@@ -3184,3 +3184,75 @@ Soft Noul ≠ hard safety.
 
 **Hourly 1946 HIGH (`notes.md` §131).** X-sentiment does not execute trades. heyjunpenn/awesome-jev 485 catalog ≠ endorsement. jev-arena 62.69% vs 67.26% *theirs* not gold. 203.2s $0.84 vs 823.5s $1.50 *theirs*. one seed-0 trial *theirs*. Jev $0.018825 vs Astra $5.93 *theirs*. 10.59× *theirs*. 6 class flips. agreement ≠ accuracy. probabilities uncalibrated. Qwen3.8 ≠ Archer. Spanish −6.4 pp XNLI *theirs*. ECE 0.057→0.101 *theirs*. 72.2% vs 63.4% p_max≥0.9 coverage *theirs*. llm-to-jev description rewrite Convert LLM prompts to Jev prompts. SHA unchanged 234058ab372d. 3★. heuristic conversion ≠ calibrated Noul. skip Zefan-Cai/Open-Jev densify open #53. skip #54 three. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#52. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
 Hourly 1946 uniqueness lock: brainstormity/Jev-X-Sentiment-Analysis 136★ HEAD 5c932f941a92 README SHA bf4134b44cda; platform does not execute trades; heyjunpenn/awesome-jev 485 catalog ≠ endorsement; heyjunpenn/awesome-jev ≠ yibie/awesome-jev ≠ MrJev/awesome-jev ≠ Promethe-us/awesome-jev ≠ ckaraca/awesome-jev ≠ yzfly/awesome-jev-zh ≠ shirenchuang/awsomejev ≠ andyrewlee/awesome-system-one; NanmiCoder/jev-arena 10k comments 62.69% vs 67.26% *theirs* not gold; 203.2s $0.84 vs 823.5s $1.50 *theirs*; AI-reviewed labels ≠ gold; openroboto-ai/jev-robot-control one seed-0 trial *theirs*; Jev $0.018825 vs Astra $5.93 *theirs*; one-trial robot ≠ Harbor; endman100/research-Qwen3.8-JevLike 10.59× *theirs*; 6 class flips; agreement ≠ accuracy; probabilities uncalibrated; Qwen3.8 ≠ Archer; 10.59× systems ≠ ECE; marcosmartinez/jev-acento Spanish −6.4 pp XNLI *theirs*; ECE 0.057→0.101 *theirs*; 72.2% vs 63.4% p_max≥0.9 coverage *theirs*; alexwestco/llm-to-jev description rewrite Convert LLM prompts to Jev prompts; SHA unchanged 234058ab372d; 3★; heuristic conversion ≠ calibrated Noul; desc rewrite ≠ SHA/behavior change; skip Zefan-Cai/Open-Jev densify open #53; skip sgoedecke/system-one mithalouni/system-one-open kotoba-lang/typed-decisions open #54; ikermoel/open-alternative-jev already §49; nrdz-labs/fast-jev-opencode already §62; mallahyari/system-one-benchmark already §61; does not execute; catalog ≠ endorsement; *theirs* not Harbor; SHA move is not a replica; local_only ≠ Jev; rule-table ≠ model; replica ≠ TypeSafe; arunav25/jev-mcp ≠ jkudish/jev-mcp ≠ ThePFMind/jev-mcp ≠ burnigtm/jev-mcp; luckberonne/mini-jev ≠ r-ms/mini-jev ≠ samatv256/mini-Jev; Kwwwww74/OpenJev ≠ razorback16/openjev ≠ kyegomez/open-jev ≠ Zefan-Cai/Open-Jev; peach-zhang/typesafe-go ≠ kisshan13/typesafe-ai-go ≠ Nibir1/typesafe-go; laidick/system-one-benchmark ≠ mallahyari/system-one-benchmark; sahasrarjn/system-one ≠ sgoedecke/system-one; aboisvert/jevvy ≠ PanAchy/jevvy; andrest04/jev-lab ≠ javsanesq/jevlab; twilwa/pi-typesafe ≠ TheoOliveira/pi-jev; RuipuCui/jev-harness ≠ ismaelsoilet/jev-harness ≠ AntonioCoppe/jev-harness; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52; notes.md §131
+
+Hourly 2049 items 521–536 (`notes.md` §132). Do **not**
+re-fold §131 items 505–520 / §130 items 497–504 / §129 items 481–496.
+Skip Archer rewrite. Densify kev on §45. Densify kotoba on §130.
+temperature scaling ≠ ECE unless measured;
+Hub --revision is a pin not a replica;
+trained runtime ≠ TypeSafe; grouped T rejected;
+Qwen3.6 ≠ Archer; catalog ≠ endorsement;
+*theirs* not Harbor; SHA move is not a replica.
+do not reopen or amend PR #23–#55.
+Soft Noul ≠ hard safety.
+
+521. **kev night-2 densify PRIMARY** (jaredpalmer/kev):
+     HEAD c096660c8da2 PLAN SHA 8d77dd271c66 README SHA unchanged 84b872488915.
+     night-2 dates/unknowable/assertion. Full cards: `validation.md`.
+522. **KEV_TEMPERATURE T≈2.0** (kev.serve calibrated row):
+     KEV_TEMPERATURE T≈2.0. Brier 0.291→0.267 ECE 0.105→0.039 *theirs*.
+     7.5%→3.2% *theirs*. grouped T rejected.
+     temperature scaling ≠ ECE unless measured.
+     Full cards: `validation.md`.
+523. **Qwen3.6-35B-A3B smoke** (night-2 trial 1′):
+     Qwen3.6-35B-A3B smoke 0.812 *theirs*. 21M LoRA experts frozen.
+     Qwen3.6 ≠ Archer. Full cards: `faq.md`.
+524. **Hub --revision night2-du** (promotion pin):
+     Hub --revision night2-du. Hub --revision is a pin not a replica.
+     0.852 OOD *theirs*. Full cards: `judgment-class.md`.
+525. **MMLU-Pro 1000 *theirs*** (ekzhang sample):
+     MMLU-Pro 1000 Kev-9B 0.511 Jev 0.829 *theirs*.
+     *theirs* not Harbor. Full cards: `validation.md`.
+526. **kotoba OpenJev runtime densify** (kotoba-lang/typed-decisions):
+     HEAD ff7f84e74d04 README SHA unchanged 4d6bbf4c4e44.
+     feat expose trained OpenJev decision runtime. open_jev.py.
+     tests/test_open_jev.py. Full cards: `judgment-class.md`.
+527. **trained runtime ≠ TypeSafe** (OpenJev.from_pretrained):
+     OpenJev.from_pretrained. decide_request kind typed-decisions/open-jev-v1.
+     generated_text: False. trained runtime ≠ TypeSafe.
+     Full cards: `faq.md`.
+528. **daftAI2026 catalog namesake** (daftAI2026/awesome-jev):
+     daftAI2026/awesome-jev ≠ heyjunpenn/awesome-jev ≠ yibie/awesome-jev ≠ MrJev/awesome-jev ≠ Promethe-us/awesome-jev.
+     catalog ≠ endorsement. Full cards: `faq.md`.
+529. **swev CoreML on-device** (danielamitay/swev):
+     danielamitay/swev CoreML. serving substrate ≠ calibrated replica.
+     Full cards: `mixed-architecture.md`.
+530. **jev-debtgate CI still soft** (smlayero/jev-debtgate):
+     smlayero/jev-debtgate CI gate cutoff still soft.
+     Full cards: `validation.md`.
+531. **jqv stock Qwen3** (Octalab-Inc/jqv):
+     Octalab-Inc/jqv stock Qwen3 decision API. Qwen3.5 ≠ Archer.
+     Full cards: `judgment-class.md`.
+532. **lev ≠ kev / laya-go ≠ Laya** (franckverrot/lev, neko233-com/laya-go):
+     franckverrot/lev ≠ jaredpalmer/kev.
+     neko233-com/laya-go ≠ convaiinnovations/laya.
+     Full cards: `faq.md`.
+533. **Locate ≠ decide / DuckDB / unofficial SDK** (gliner2-skill, duckdb-jev, tryAGI/TypeSafeAI):
+     jaanavit/gliner2-skill Locate ≠ decide.
+     prasanthj/duckdb-jev SQL predicates.
+     tryAGI/TypeSafeAI ≠ official.
+     Full cards: `applied-mappings.md`.
+534. **legal LoRA ≠ RLCD** (hf:Nebulaw1):
+     hf:Nebulaw1 legal LoRA ≠ RLCD replica. Qwen3.5 ≠ Archer.
+     Full cards: `validation.md`.
+535. **remainder apps / skip-thin** (games, skills, empty repos):
+     skip-thin KadePrice123/jev-state-tracking hideri777/jev-application-sample.
+     catalog ≠ endorsement. game success ≠ calibrated Noul.
+     Full cards: `applied-mappings.md`, `faq.md`.
+536. **skip Archer** (promised_not_landed):
+     Qwen3.6 ≠ Archer. Qwen3.5 ≠ Archer.
+     Hub archerhume/4rcherhume HTTP 401.
+     Archer still promised_not_landed. Full cards: `faq.md`.
+
+**Hourly 2049 HIGH (`notes.md` §132).** kev night-2 densify HEAD c096660c8da2. PLAN SHA 8d77dd271c66. README SHA unchanged 84b872488915. KEV_TEMPERATURE T≈2.0. Brier 0.291→0.267 ECE 0.105→0.039 *theirs*. 7.5%→3.2% *theirs*. grouped T rejected. Qwen3.6-35B-A3B smoke 0.812 *theirs*. Hub --revision night2-du. MMLU-Pro 1000 Kev-9B 0.511 Jev 0.829 *theirs*. Qwen3.6 ≠ Archer. temperature scaling ≠ ECE unless measured. Hub --revision is a pin not a replica. kotoba OpenJev runtime densify HEAD ff7f84e74d04. generated_text: False. trained runtime ≠ TypeSafe. OpenJev.from_pretrained. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#55. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+Hourly 2049 uniqueness lock: jaredpalmer/kev densify HEAD c096660c8da2 PLAN SHA 8d77dd271c66 README SHA unchanged 84b872488915; night-2 dates/unknowable/assertion; KEV_TEMPERATURE T≈2.0; Brier 0.291→0.267 ECE 0.105→0.039 *theirs*; 7.5%→3.2% *theirs*; grouped T rejected; Qwen3.6-35B-A3B smoke 0.812 *theirs*; 21M LoRA experts frozen; Hub --revision night2-du; MMLU-Pro 1000 Kev-9B 0.511 Jev 0.829 *theirs*; Qwen3.6 ≠ Archer; temperature scaling ≠ ECE unless measured; kotoba-lang/typed-decisions densify HEAD ff7f84e74d04 README SHA unchanged 4d6bbf4c4e44; feat expose trained OpenJev decision runtime; open_jev.py; tests/test_open_jev.py; generated_text: False; trained runtime ≠ TypeSafe; OpenJev.from_pretrained; decide_request kind typed-decisions/open-jev-v1; daftAI2026/awesome-jev ≠ heyjunpenn/awesome-jev ≠ yibie/awesome-jev ≠ MrJev/awesome-jev ≠ Promethe-us/awesome-jev; danielamitay/swev CoreML; serving substrate ≠ calibrated replica; smlayero/jev-debtgate CI gate cutoff still soft; Octalab-Inc/jqv stock Qwen3 decision API; franckverrot/lev ≠ jaredpalmer/kev; neko233-com/laya-go ≠ convaiinnovations/laya; tryAGI/TypeSafeAI ≠ official; abgregs/jev-experiments ≠ nak1b/jev-experiments ≠ dabit3/jev-experiments; jaanavit/gliner2-skill Locate ≠ decide; prasanthj/duckdb-jev SQL predicates; hf:Nebulaw1 legal LoRA ≠ RLCD replica; Qwen3.5 ≠ Archer; catalog ≠ endorsement; *theirs* not Harbor; SHA move is not a replica; skip-thin KadePrice123/jev-state-tracking hideri777/jev-application-sample; Hub --revision is a pin not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55; notes.md §132
