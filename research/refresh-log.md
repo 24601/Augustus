@@ -7,6 +7,12 @@
   Banking77 figures are *theirs*. License file absent. No Augustus
   call site. `invented_signal: false`. Uniqueness lock lives in
   `research/notes.md` only.
+- Release correction (same §149 card): GitHub release Lev 1.0.0
+  published 2026-09-21T17:30:54Z. Tag `1.0.0` points at
+  `49d23ff319dacc266e44b55ed1f6c74fb18c34b9`. HEAD
+  `9b379262e45f4bc2ebecccc2c7927800c61bdc99` is one commit ahead.
+  Fingerprint `release_tag` is `1.0.0`. HEAD, README SHA, and baseline
+  SHA stay on `9b379262`.
 
 ## 2026-09-21 ~18:14 UTC - User-provided glance HIGH
 - Fresh card off latest `main` after merged #72 (hourly 1110 / `notes.md` §146)

@@ -30,9 +30,10 @@
         "default_sha": "9b379262e45f4bc2ebecccc2c7927800c61bdc99",
         "pushed_at": "2026-09-21T18:13:30Z",
         "description_hash": "77faa8872a8d",
-        "release_tag": null
+        "release_tag": "1.0.0"
       },
-      "readme_sha": "5c2e44b1c62faac4902c517f893fbcfa4006c353"
+      "readme_sha": "5c2e44b1c62faac4902c517f893fbcfa4006c353",
+      "release_sha": "49d23ff319dacc266e44b55ed1f6c74fb18c34b9"
     },
     {
       "id": "github:yoheinakajima/glance",

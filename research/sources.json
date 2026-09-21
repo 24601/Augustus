@@ -5394,7 +5394,7 @@
       "kind": "github",
       "title": "peterpme/lev",
       "url": "https://github.com/peterpme/lev",
-      "note": "Primary repo. Educational Kev pointer: Qwen2.5-0.5B + LoRA rank 16 + pointer head. POST /v1/systemone choice only; noul and score later. License file absent. 1 star. HEAD 9b379262e45f4bc2ebecccc2c7927800c61bdc99. banking77-v1 accuracy 0.88 on 150 *theirs*. Soft scores are not hard gates. Not glance, not trained Laya, not OpenJev, not a replacement for jaredpalmer/kev. notes.md §149."
+      "note": "Primary repo. Educational Kev pointer: Qwen2.5-0.5B + LoRA rank 16 + pointer head. POST /v1/systemone choice only; noul and score later. License file absent. 1 star. HEAD 9b379262e45f4bc2ebecccc2c7927800c61bdc99. GitHub release 1.0.0 published 2026-09-21T17:30:54Z at 49d23ff319dacc266e44b55ed1f6c74fb18c34b9; HEAD is one commit ahead of the tag. banking77-v1 accuracy 0.88 on 150 *theirs*. Soft scores are not hard gates. Not glance, not trained Laya, not OpenJev, not a replacement for jaredpalmer/kev. notes.md §149."
     }
   ]
 }
