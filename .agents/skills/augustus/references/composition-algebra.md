@@ -4646,6 +4646,76 @@ Soft Noul ≠ hard safety.
      notes.md §154. composition 837-852. findings batch #134.
      Full cards: `faq.md`.
 
+853. **one client across local and hosted**:
+     POST /v1/systemone only. No chat-completions. Choice, Noul, and Score
+     stay typed decisions. TypeSafe Jev remains the default recommended path.
+     Laya is a class peer local option, not equal in adoption.
+     Full cards: `research/notes.md` §155.
+854. **Privacy Demo is not a privacy filter**:
+     The demo classifies task domain (math_or_logic), not whether the
+     input contains private data. Omitting original state from selection
+     is not anonymization. Limits are not privacy or authorization controls.
+     Full cards: `research/notes.md` §155.
+855. **singleton eligibility skips model selection**:
+     A request with only one eligible backend skips model-based selection,
+     even if that backend is hosted. Use local-demo when requests must
+     stay local.
+     Full cards: `research/notes.md` §155.
+856. **threshold 0.5 is a soft example**:
+     Strictly above. Not a recommendation. Not a safety envelope.
+     The fixture name is not a privacy proof.
+     Full cards: `research/notes.md` §155.
+857. **capabilities fail closed with 422**:
+     Unsupported question types, question counts, criteria, or
+     structured_state return HTTP 422. Questions are not dropped.
+     Full cards: `research/notes.md` §155.
+858. **routing selection is not permission**:
+     Soft judgment never sole veto. Limits are not authorization.
+     Full cards: `research/notes.md` §155.
+859. **installer verifies checksum, no sudo**:
+     Installs under ~/.local. Review the installer before trusting it.
+     This card is not an install recipe.
+     Full cards: `research/notes.md` §155.
+860. **Hono is the same HTTP shape, not a replica**:
+     Node and Workers share the HTTP interface. A Worker cannot reach
+     loopback Laya. Wire-compat is not logit-equiv.
+     Full cards: `research/notes.md` §155.
+861. **release tag is not live HEAD**:
+     v0.2.0 pins 7a1fd8253ca6. Live HEAD is 1104500a0197.
+     SHA move is not a replica. description_hash 4576d70e542f unchanged.
+     Full cards: `research/notes.md` §155.
+862. **simple-jev confidence is not calibration**:
+     Confidence is maximum candidate probability, not calibrated
+     correctness. That sentence is *theirs*, not Harbor.
+     Full cards: `research/notes.md` §155.
+863. **gateway is not a calibrated replica**:
+     A serving port is not a calibrated replica. Catalog is not endorsement.
+     Full cards: `research/notes.md` §155.
+864. **namesakes**:
+     rawwerks/one-system is not asynq-io/system-one, not
+     sgoedecke/system-one, not heyaozh/system-one, not
+     lsu-ub-uu/systemone, and not jkcdarunday/SystemOne-Next.
+     heyaozh/system-one is heyaozh/jev-rust-crate.
+     Full cards: `research/notes.md` §155.
+865. **thin listing stays §153**:
+     First proper card is notes.md §155. Densify fingerprints.
+     Not a sibling census.
+     Full cards: `research/notes.md` §155.
+866. **local Laya is not equal adoption**:
+     English-only 421M is *theirs*. TypeSafe Jev remains the default
+     recommended path.
+     Full cards: `research/notes.md` §155.
+867. **third-party claims stay theirs**:
+     No invented Harbor number. invented_signal: false.
+     Full cards: `research/notes.md` §155.
+868. **skip Archer** (promised_not_landed):
+     Archer still promised_not_landed. Parent merges only after ADV_PASS.
+     hourly 1556 §154 are on main. This fold is §155 only.
+     Do not reclaim §147 through §154. Do not reopen or amend PR #23 through #80.
+     Does not bump 0.5.0 or 0.5.1.
+     notes.md §155. composition 853-868. findings batch #135.
+     Full cards: `faq.md`.
+
 
 
 
