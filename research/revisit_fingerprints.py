@@ -391,7 +391,7 @@ def self_test() -> None:
     assert by_id["github:Andymulb/jev_the_philosopher"]["notes_section"] == "144"
     assert by_id["github:PerryLink/layacore"]["notes_section"] == "144"
     assert by_id["github:vericle/intellyweave"]["fingerprints"]["default_sha"].startswith("ff4152ce9d20")
-    assert by_id["github:genai-craft/openvons"]["notes_section"] == "144"
+    assert by_id["github:genai-craft/openvons"]["notes_section"] == "68"
     gliner = by_id["github:47thtechcorner/RayCodes_GLiNER_V1_Multi"]["fingerprints"]
     assert gliner["default_sha"].startswith("485cf8045f73")
     assert by_id["github:47thtechcorner/RayCodes_GLiNER_V1_Multi"]["notes_section"] == "141"

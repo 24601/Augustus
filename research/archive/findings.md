@@ -18,9 +18,9 @@ owns placement. `invented_signal: false`.
 
 - **intellyweave PRIMARY.** 76★ HEAD ff4152ce9d20.
   GLiNER OSINT. Locate ≠ decide.
-- **openvons PRIMARY.** finite choices + none.
+- **openvons PRIMARY densify §68.** finite choices + none.
   4B frozen+head 0.916 vs 27B zs 0.875 *theirs*. 8 questions 22.6 ms *theirs*.
-  softmax ≠ calibrated Noul.
+  softmax ≠ calibrated Noul. densify §68 not a sibling first sighting.
 - **beam-cli / typesafe-sdk-go / JevPokerBench.** AgentBeam local security layer.
   unofficial not affiliated. chips virtual. game success ≠ calibrated Noul.
 - **REVISIT densify.** densify §121 not a sibling first sighting.

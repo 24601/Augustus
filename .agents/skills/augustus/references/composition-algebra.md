@@ -3987,11 +3987,11 @@ Soft Noul ≠ hard safety.
 713. **intellyweave GLiNER OSINT PRIMARY** (vericle/intellyweave):
      76★ BSD-3-Clause Py HEAD ff4152ce9d20 README SHA 3afa702012e8.
      GLiNER OSINT. Locate ≠ decide. Full cards: `judgment-class.md`.
-714. **openvons finite-choice PRIMARY** (genai-craft/openvons):
+714. **openvons finite-choice PRIMARY densify §68** (genai-craft/openvons):
      13★ NOASSERTION Py HEAD c2683c4539a7 README SHA 85164d409725.
      finite choices + none. 4B frozen+head 0.916 vs 27B zs 0.875 *theirs*.
      8 questions 22.6 ms *theirs*. softmax ≠ calibrated Noul.
-     Full cards: `validation.md`.
+     densify §68 not a sibling first sighting. Full cards: `validation.md`.
 715. **beam-cli AgentBeam local security layer** (whyashthakker/beam-cli):
      11★ AGPL-3.0 TS HEAD 5162ec66179a README SHA d55847ca5681.
      AgentBeam local security layer. soft scores ≠ hard gates.

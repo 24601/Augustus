@@ -36608,10 +36608,11 @@ install recipes. `invented_signal: false`. Hunches labeled.
 Lane is Augustus: **mathematical / logical / algorithmic mental models**
 for Jev-class categorization/scoring across AI / SWE / **business /
 knowledge work / life**, not SWE-only. PRIMARY this hour is
-**vericle/intellyweave** (GLiNER OSINT; Locate ≠ decide) plus first card
+**vericle/intellyweave** (GLiNER OSINT; Locate ≠ decide) plus densify §68
 **genai-craft/openvons** (open-Jev finite-choice judgment; finite choices
 + none; 4B frozen+head 0.916 vs 27B zs 0.875 *theirs*; 8 questions 22.6 ms
-*theirs*; softmax ≠ calibrated Noul). Jev is exemplar, not the mandate.
+*theirs*; softmax ≠ calibrated Noul; densify §68 not a sibling first
+sighting). Jev is exemplar, not the mandate.
 Third-party benches stay *theirs*. Catalogs are indexes. Soft scores ≠
 hard gates. SHA move is not a replica. Archer still **promised_not_landed**.
 
@@ -36633,11 +36634,12 @@ a README SHA move is densify not a sibling first sighting.
    investigation, GLiNER entity extraction. Locate ≠ decide. Do **not**
    copy keys.
 2. **finite choices + none / softmax ≠ calibrated Noul**
-   (genai-craft/openvons 13★ NOASSERTION Py HEAD c2683c4539a7 README SHA
-   85164d409725). Quote *theirs*: answer a finite set of options with a
-   probability for each. None of the above is always one of the options.
-   4B frozen+head 0.916 vs 27B zs 0.875. 8 questions 22.6 ms.
-   softmax ≠ calibrated Noul. *theirs* not Harbor.
+   (genai-craft/openvons densify §68; 13★ NOASSERTION Py HEAD c2683c4539a7
+   README SHA 85164d409725). Quote *theirs*: answer a finite set of
+   options with a probability for each. None of the above is always one
+   of the options. 4B frozen+head 0.916 vs 27B zs 0.875. 8 questions
+   22.6 ms. softmax ≠ calibrated Noul. *theirs* not Harbor.
+   densify §68 not a sibling first sighting.
 3. **AgentBeam local security layer / soft scores ≠ hard gates**
    (whyashthakker/beam-cli 11★ AGPL-3.0 TS HEAD 5162ec66179a README SHA
    d55847ca5681). Quote *theirs*: AgentBeam is a local security layer for
@@ -36659,11 +36661,12 @@ a README SHA move is densify not a sibling first sighting.
    intelligence analysis. GLiNER entity extraction. Locate ≠ decide.
    catalog ≠ endorsement.
 2. **[`genai-craft/openvons`](https://github.com/genai-craft/openvons)
-   PRIMARY novel.** 13★ NOASSERTION Py HEAD `c2683c4539a7` README SHA
-   `85164d409725`. Quote *theirs*: a decision layer that answers finite
-   choices with probabilities. finite choices + none. 4B frozen+head
-   0.916 vs 27B zs 0.875. 8 questions 22.6 ms. softmax ≠ calibrated Noul.
-   *theirs* not Harbor.
+   PRIMARY densify §68, not a sibling first sighting.** 13★ NOASSERTION
+   Py HEAD `c2683c4539a7` README SHA `85164d409725`. Quote *theirs*: a
+   decision layer that answers finite choices with probabilities.
+   finite choices + none. 4B frozen+head 0.916 vs 27B zs 0.875.
+   8 questions 22.6 ms. softmax ≠ calibrated Noul. *theirs* not Harbor.
+   densify §68 not a sibling first sighting. SHA move is not a replica.
 3. **[`whyashthakker/beam-cli`](https://github.com/whyashthakker/beam-cli)
    PRIMARY novel.** 11★ AGPL-3.0 TS HEAD `5162ec66179a` README SHA
    `d55847ca5681`. Quote *theirs*: AgentBeam is a local security layer
@@ -36840,10 +36843,11 @@ Hooks for the reviewer:
   Alistair77/openjev ≠ Zefan-Cai/Open-Jev ≠ razorback16/openjev;
   ai-ecoverse/kev.js ≠ jaredpalmer/kev;
   inematds/laya ≠ convaiinnovations/laya ≠ NandhaKishorM/laya.
-- Densify vs new: tyler-dot-earth/patdown densify §121;
+- Densify vs new: genai-craft/openvons densify §68;
+  tyler-dot-earth/patdown densify §121;
   evoke-build/evoke densify §139;
   sumleo/prompt2jev densify §141.
-  Do not mint sibling first-sighting sections for those three.
+  Do not mint sibling first-sighting sections for those four.
   lukstei/slop-grader and Andymulb/jev_the_philosopher are first cards
   this hour (no prior notes card). PerryLink/layacore is a first card
   for a retired name reservation.
@@ -36859,11 +36863,12 @@ Hooks for the reviewer:
   713–728, faq, mixed-architecture, validation, toolbox-mapping,
   methods-catalog, formal-methods, formal-semi-formal,
   applied-mappings, judgment-class, question-design,
-  agent-self-assessment, mappings, CHANGELOG, README, docs/ecosystem,
-  findings batch #126, refresh-log, changelog-hourly.md,
-  revisit_fingerprints.json (patdown densify §121, evoke densify §139,
-  prompt2jev densify §141, slop-grader first card, philosopher first
-  card, layacore retired-name first card, intellyweave / openvons /
+  agent-self-assessment, mappings, CHANGELOG, docs/ecosystem,
+  findings batch #126, refresh-log, changelog-hourly.md.
+  README is not an overlay (human README stops at License).
+  revisit_fingerprints.json (openvons densify §68, patdown densify §121,
+  evoke densify §139, prompt2jev densify §141, slop-grader first card,
+  philosopher first card, layacore retired-name first card, intellyweave /
   beam-cli / typesafe-sdk-go / JevPokerBench first cards).
 - Offline check: `evaluate_decisions.py --self-test` (now includes
   intellyweave GLiNER Locate ≠ decide / openvons softmax ≠ Noul /

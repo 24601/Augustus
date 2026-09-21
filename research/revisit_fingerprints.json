@@ -3553,7 +3553,7 @@
     },
     {
       "id": "github:genai-craft/openvons",
-      "notes_section": "144",
+      "notes_section": "68",
       "last_look": "2026-09-21T15:23Z",
       "fingerprints": {
         "default_sha": "c2683c4539a78b530b7c36a1536f91fcd8fbc70c",
@@ -3562,7 +3562,7 @@
         "release_tag": null
       },
       "readme_sha": "85164d409725e9f1c2097e58aee4293301c1ea25",
-      "note": "0923 first card; finite choices + none; softmax \u2260 calibrated Noul"
+      "note": "0923 densify \u00a768; finite choices + none; softmax \u2260 calibrated Noul; densify \u00a768 not a sibling first sighting"
     },
     {
       "id": "github:whyashthakker/beam-cli",
