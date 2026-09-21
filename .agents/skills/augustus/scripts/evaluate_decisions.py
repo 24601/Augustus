@@ -825,6 +825,49 @@ def jev_style_gguf_is_not_calibrated_replica(acc, ece, replica=False):
         raise ValueError("unexpected scores")
     return replica is False
 
+
+def open_cricket_wire_compat_is_not_logit_equiv(kind, logit_equiv=False):
+    """open-cricket BYOM. wire-compat ≠ logit-equiv. Qwen2.5 ≠ Archer."""
+    if kind != "open_cricket_byom":
+        raise ValueError("unexpected kind")
+    return logit_equiv is False
+
+
+def greedy_confidence_is_not_p_correct(greedy, oracle, p_correct=False):
+    """Greedy 0.90 vs Oracle 0.82 *theirs*. confidence ≠ P(correct)."""
+    if abs(greedy - 0.90) > 1e-9 or abs(oracle - 0.82) > 1e-9:
+        raise ValueError("unexpected scores")
+    return p_correct is False
+
+
+def noul_07_is_not_harbor(rate, harbor=False):
+    """Noul 0.7 true 44% *theirs*."""
+    if abs(rate - 0.44) > 1e-9:
+        raise ValueError("unexpected rate")
+    return harbor is False
+
+
+def werr_jevbench_is_not_harbor(score, harbor=False):
+    """JevBench 81.65 *theirs* not Harbor. 0-byte Mandelbrot is not a replica."""
+    if abs(score - 81.65) > 1e-9:
+        raise ValueError("unexpected score")
+    return harbor is False
+
+
+def openjev_kit_training_is_not_complete(kind, complete=False):
+    """training not complete. no accuracy."""
+    if kind != "openjev_kit_training":
+        raise ValueError("unexpected kind")
+    return complete is False
+
+
+def clean_report_is_not_sandbox(kind, sandbox=False):
+    """A clean report is not proof. does not sandbox."""
+    if kind != "is_malicious_scan":
+        raise ValueError("unexpected kind")
+    return sandbox is False
+
+
 def naive_merge_throws_83(kind, recovered=False):
     """naive throws away 83% *theirs*."""
     if kind != "naive_chunk_merge":
@@ -1271,6 +1314,26 @@ def self_test():
     assert theirs_bench_is_not_harbor(7350, "typed-decision-leaderboard-jev-0.7350")
     assert theirs_bench_is_not_harbor(823, "jev-style-qwen35-2b-82.3")
     assert theirs_bench_is_not_harbor(9133, "dev-0.4b-banking77-91.33")
+
+    # 0348: open-cricket wire-compat ≠ logit-equiv / Greedy 0.90 is not
+    # P(correct) / Noul 0.7 true 44% *theirs* / JevBench 81.65 *theirs*
+    # not Harbor / training not complete / 0-byte Mandelbrot is not a replica.
+    assert open_cricket_wire_compat_is_not_logit_equiv("open_cricket_byom", False)
+    assert not open_cricket_wire_compat_is_not_logit_equiv("open_cricket_byom", True)
+    assert greedy_confidence_is_not_p_correct(0.90, 0.82, False)
+    assert not greedy_confidence_is_not_p_correct(0.90, 0.82, True)
+    assert noul_07_is_not_harbor(0.44, False)
+    assert not noul_07_is_not_harbor(0.44, True)
+    assert werr_jevbench_is_not_harbor(81.65, False)
+    assert not werr_jevbench_is_not_harbor(81.65, True)
+    assert openjev_kit_training_is_not_complete("openjev_kit_training", False)
+    assert not openjev_kit_training_is_not_complete("openjev_kit_training", True)
+    assert clean_report_is_not_sandbox("is_malicious_scan", False)
+    assert not clean_report_is_not_sandbox("is_malicious_scan", True)
+    assert theirs_bench_is_not_harbor(8165, "werr-jevbench-81.65")
+    assert theirs_bench_is_not_harbor(39, "typesafe-ai-test-0.39")
+    assert theirs_bench_is_not_harbor(4949, "werr-windtunnel-49-49")
+
 
 
 

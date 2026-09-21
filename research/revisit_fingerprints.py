@@ -339,6 +339,8 @@ def self_test() -> None:
         "github:tinmanlab/cartpole-jev": "121",
         "github:xuboboo/ashare-trader": "120",
         "github:mjyoke1111/jev-lab": "106",
+        "github:moritzkremb/jev-voice-browser": "82",
+        "github:luantak/is-malicious": "17",
     }
     for look_id, section in densify_original_ids.items():
         assert look_id in by_id, look_id
