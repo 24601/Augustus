@@ -38895,11 +38895,15 @@ inside a tool and compared with the repository's thresholds. The model
 never classifies and never sees a probability. It follows the skill
 and writes the comment. `apply_triage` is the only write tool: dry-run,
 one comment of 80 words, the label allow-list, and human-applied
-labels stay. Default `dryRun: true`. A repository without a valid
-config file is ignored. User text never reaches the model prompt; an
-@-mention is reduced by Jev to whether it is a triage request. Raw Jev
-answers are stored next to every action. Approvals can go through a
-Discord Approve/Cancel channel; without that channel the run stays in
+labels stay. Default `dryRun: true`. A repository without a valid config file is
+ignored. When the app is installed on a repository that has no file,
+tia opens one setup pull request with `dryRun: true`. Closing that
+pull request is a final no. It can remove labels that the repository's
+issue forms apply, such as `triage`. Human-applied labels stay. User
+text never reaches the model prompt; an @-mention is reduced by Jev to
+whether it is a triage request. Raw Jev answers are stored next to
+every action. Runs that need an approval happen in a Discord channel
+with Approve and Cancel. Without that channel they are forced to
 dry-run.
 
 Class placement. Jev is the sensor. Code owns irreversible writes.
