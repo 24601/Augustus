@@ -1,0 +1,64 @@
+[
+  {
+    "id": "Zefan-Cai/Open-Jev",
+    "kind": "revisit",
+    "stars": 10,
+    "description": "REVISIT densify: HEAD 4933ee84951f\u2192a00559ea0ab2; Publish prepared Open-Jev provider quality evaluation pipeline (*theirs*)",
+    "html_url": "https://github.com/Zefan-Cai/Open-Jev",
+    "source": "github",
+    "why": "REVISIT densify: HEAD 4933ee84951f\u2192a00559ea0ab2; Publish prepared Open-Jev provider quality evaluation pipeline (*theirs*)",
+    "role": "Augustus",
+    "material": [
+      "head_sha",
+      "provider_quality_eval_pipeline",
+      "new_bench"
+    ],
+    "sha": "a00559ea0ab2",
+    "prior_sha": "4933ee84951f"
+  },
+  {
+    "id": "tinmanlab/cartpole-jev",
+    "kind": "revisit",
+    "stars": 0,
+    "description": "REVISIT densify: description rewrite \u2014 architecture claim flip: now fine-tuned Kev Transformer / English-first CartPole lab; explicitly not TypeSafe Jev (*theirs*)",
+    "html_url": "https://github.com/tinmanlab/cartpole-jev",
+    "source": "github",
+    "why": "REVISIT densify: description rewrite \u2014 architecture claim flip: now fine-tuned Kev Transformer / English-first CartPole lab; explicitly not TypeSafe Jev (*theirs*)",
+    "role": "Augustus",
+    "material": [
+      "description"
+    ],
+    "sha": null,
+    "prior_sha": null
+  },
+  {
+    "id": "xuboboo/ashare-trader",
+    "kind": "revisit",
+    "stars": 0,
+    "description": "REVISIT densify: description rewrite \u2014 strategy/runtime rewrite: premarket + intraday decisions, local probability model, QMT bridge (default no orders) (*theirs*)",
+    "html_url": "https://github.com/xuboboo/ashare-trader",
+    "source": "github",
+    "why": "REVISIT densify: description rewrite \u2014 strategy/runtime rewrite: premarket + intraday decisions, local probability model, QMT bridge (default no orders) (*theirs*)",
+    "role": "Augustus",
+    "material": [
+      "description"
+    ],
+    "sha": null,
+    "prior_sha": null
+  },
+  {
+    "id": "gauravsaini/kevin",
+    "kind": "revisit",
+    "stars": 0,
+    "description": "REVISIT densify: description rewrite \u2014 stack claim: added Playwright + Onyx alongside Laya/Kev friends (*theirs*)",
+    "html_url": "https://github.com/gauravsaini/kevin",
+    "source": "github",
+    "why": "REVISIT densify: description rewrite \u2014 stack claim: added Playwright + Onyx alongside Laya/Kev friends (*theirs*)",
+    "role": "Augustus",
+    "material": [
+      "description"
+    ],
+    "sha": null,
+    "prior_sha": null
+  }
+]

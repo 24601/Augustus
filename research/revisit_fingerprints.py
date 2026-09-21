@@ -277,8 +277,8 @@ def self_test() -> None:
     nano_readme = by_id["github:TianyuCodings/NanoJev"].get("readme_sha")
     assert isinstance(nano_readme, str) and nano_readme.startswith("4190093c64ee")
     openjev = by_id["github:Zefan-Cai/Open-Jev"]["fingerprints"]
-    assert openjev["default_sha"] == "4933ee84951f1a3b94b8be1f7490f02a4fa4ba24"
-    assert openjev["pushed_at"] == "2026-09-21T01:34:47Z"
+    assert openjev["default_sha"] == "a00559ea0ab2c022a149c0afa54dde30941419a8"
+    assert openjev["pushed_at"] == "2026-09-21T02:50:45Z"
     openjev_readme = by_id["github:Zefan-Cai/Open-Jev"].get("readme_sha")
     assert isinstance(openjev_readme, str) and openjev_readme.startswith("ce1a587219e4")
     assert by_id["hf:ZefanCai/Open-Jev-2B"]["fingerprints"]["default_sha"].startswith("0c7aa498b162")
@@ -291,6 +291,14 @@ def self_test() -> None:
     assert kev["default_sha"].startswith("c096660c8da2")
     kotoba = by_id["github:kotoba-lang/typed-decisions"]["fingerprints"]
     assert kotoba["default_sha"].startswith("ff7f84e74d04")
+    cartpole = by_id["github:tinmanlab/cartpole-jev"]["fingerprints"]
+    assert cartpole["default_sha"].startswith("922cc61490a0")
+    ashare = by_id["github:xuboboo/ashare-trader"]["fingerprints"]
+    assert ashare["default_sha"].startswith("26c7e95e6828")
+    kevin = by_id["github:gauravsaini/kevin"]["fingerprints"]
+    assert kevin["default_sha"].startswith("96336428dc15")
+    jevlab = by_id["github:mjyoke1111/jev-lab"]["fingerprints"]
+    assert jevlab["default_sha"].startswith("0bd66957283a")
     densify_original_ids = {
         "github:razorback16/openjev": "75",
         "github:wfzyx/von": "49",
@@ -308,6 +316,9 @@ def self_test() -> None:
         "hf:ds:ZefanCai/Open-Jev": "125",
         "github:alexwestco/llm-to-jev": "118",
         "github:kotoba-lang/typed-decisions": "130",
+        "github:tinmanlab/cartpole-jev": "121",
+        "github:xuboboo/ashare-trader": "120",
+        "github:mjyoke1111/jev-lab": "106",
     }
     for look_id, section in densify_original_ids.items():
         assert look_id in by_id, look_id

@@ -16,6 +16,46 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 2146 HIGH (`research/notes.md` §133 / composition items
+537–552 / findings batch #115). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#56.
+Do not amend released 0.5.0 (#42). Merged #56 owns §132. Merged #55
+owns §131. Merged #54 owns §130. Merged #53 owns Open-Jev densify on §125.
+
+### Added
+
+- **Hourly 2146 HIGH (`notes.md` §133).** Open-Jev provider quality
+  densify HEAD a00559ea0ab2 / README SHA unchanged.
+  provider pipeline ≠ completed Open-Jev quality / CPU tests ≠ GPU
+  scores / 65/76 72/76 66/76 60/76 71/76 *theirs* / Open-Jev TREC
+  pending. cartpole Kev flip HEAD 922cc61490a0 / fine-tuned Kev ≠
+  TypeSafe Jev / one record of 64 / 81.25% 52/64 *theirs*. ashare
+  rewrite HEAD 26c7e95e6828 / QMT mock/dry default no orders / AUC
+  0.532 *theirs* / does not execute. kevin Playwright + Onyx first
+  card / 3.69ms *theirs* not Harbor. metask-jev-4b 79.6% / 80.1%
+  *theirs*. cutoff 95% still soft.
+  Evaluator: provider pipeline ≠ completed Open-Jev quality / CPU
+  tests ≠ GPU scores / fine-tuned Kev ≠ TypeSafe Jev / one record of
+  64 / QMT mock/dry default no orders / cutoff 95% still soft.
+  uniqueness_gate.py now checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 +
+  1049 + 1143 + 1248 + 1340 + 1441 + 1542 + 1643 + 1746 + 1843 + 1936 +
+  Open-Jev densify + 1946 + 2049 + 2146.
+  Composition items 537–552 / batch #115.
+  **HARD RULE:** do not reopen or amend PR #23–#56. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat a
+  CPU-passing provider eval as GPU scores, CartPole as hosted Jev, a
+  QMT sidecar as live orders, 3.69ms as Harbor, 80.1% as gold, or 95%
+  as a hard gate. With Augustus: provider pipeline ≠ completed Open-Jev
+  quality; CPU tests ≠ GPU scores; fine-tuned Kev ≠ TypeSafe Jev; one
+  record of 64; softmax ≠ calibrated Noul; QMT mock/dry default no
+  orders; does not execute; cutoff 95% still soft; option order can
+  change an answer; catalog ≠ endorsement; *theirs* not Harbor. Same
+  split for any Choice/Score/Noul-style head, not only hosted Jev.
+
 Hourly 2049 HIGH (`research/notes.md` §132 / composition items
 521–536 / findings batch #114). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in

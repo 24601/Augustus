@@ -1,0 +1,102 @@
+# Fold hourly 2146 HIGH → Augustus
+
+Boise label **2146** (~2026-09-20 21:46 MDT / fired 2026-09-21T03:46:44Z).
+Mode: **NEW_OFF_MAIN** (#56 MERGED; agent bc-fac77c4c finished; do not reply finished agents).
+Repo: `24601/Augustus`
+
+## Items
+
+- `mizchi/jev-playground` [novel] stars=19 — novel HIGH not in prior_seen
+- `jagsan-cyber/reflex-gate` [novel] stars=4 — A local, privacy-focused alternative to JEv — fast, lightweight, and fully offline.
+- `KaLM-Embedding/KaLM-Jev` [novel] stars=2 — novel HIGH not in prior_seen
+- `zcoder-run/rust-sysone` [novel] stars=2 — System One TypeSafe AI Rust Client (unofficial)
+- `Sauhard74/mem-jev` [novel] stars=1 — Deterministic procedural memory for agents
+- `ajaman190/lumen` [novel] stars=1 — Open-source System One decision model built on Qwen3.5. Lumen leverages mixture-of-LoRA adapters, conformal prediction, and block-causal att
+- `epergaboni/jevseo` [novel] stars=1 — Typed SEO, AEO and GEO judgments powered by Jev, a System One decision model. Code owns the rules, the model owns the meaning.
+- `hj01857655/jev-router` [novel] stars=1 — Jev-powered support ticket router — parallel structured decisions via TypeSafe AI
+- `0xagentlabs/jev-five` [novel] stars=0 — TypeSafe Jev System One powered Gomoku arena
+- `245678000000/pkulaw-deep-research` [novel] stars=0 — 中国法律深度研究流水线：北大法宝官方 MCP 检索 + 可替换决策模型(Jev/Heuristic) + 反幻觉双向核验 + 案例矩阵生成
+- `ABilenduke/jev-agent-tools` [novel] stars=0 — novel HIGH not in prior_seen
+- `Aitejiu/jev-harness-lab` [novel] stars=0 — novel HIGH not in prior_seen
+- `Alex314618-create/JevRev` [novel] stars=0 — Think 100. Run 5. Ship 1.
+- `Andriy-Kulak/meta-ads-library-analyzer` [novel] stars=0 — using ai gateway sdk (gemini + jev under the hood) we can analyze hundreds of ads per minute
+- `DefensiveSniper/jev-subagent-router` [novel] stars=0 — Use TypeSafe Jev to select subagent models and reasoning effort in Codex and Claude Code.
+- `Haslab-dev/pandu-jev` [novel] stars=0 — Pandu, is mini Jev model, inspired by Jev. Tiny policy models for fast, local, uncertainty-aware decisions in closed-loop AI environments.
+- `LiNan1984/typesafe-curl` [novel] stars=0 — Claude Code skill: verified curl reference for the TypeSafe System One API (Jev) — noul, choice, score, mixed and structured requests, error
+- `NoName1116/fkqt-jevInvestor` [novel] stars=0 — A-share daily Jev + LLM signal research and backtesting system.
+- `PeterP22/jev-triage` [novel] stars=0 — Confidence-gated creator inbox triage on TypeSafe's Jev (System One) model
+- `RileyCarney/JevTools` [novel] stars=0 — A lightweight collection of developer utilities and scripts designed to streamline Jev development process.
+- `Titanium-Devops/jde` [novel] stars=0 — JDE, the Jev Decision Engine: one place where an agent's judgments are asked, thresholded and recorded
+- `TomasThrawat/typesafe-mcp-key` [novel] stars=0 — HTTP MCP server for TypeSafe AI System One, designed for adding as a custom MCP.
+- `WangYu0611/jevymarket-direct` [novel] stars=0 — novel HIGH not in prior_seen
+- `YikaiZheng/Jev_Benchmarking` [novel] stars=0 — novel HIGH not in prior_seen
+- `ZephyrDeng/ego-jev` [novel] stars=0 — Jev (TypeSafe System One) inner loop for ego-browser — one ~0.4s typed decision per DOM step instead of an LLM turn. Agent skill for ego lit
+- `a1325127730-cyber/jev-quiz-router` [novel] stars=0 — Jev-first quiz automation with reasoning-model fallback, CSV/Excel import, confidence routing, and a Streamlit UI.
+- `anpicasso/hermes-jev-curator` [novel] stars=0 — Typed Jev relation governance and safe archive plans for Hermes Curator
+- `aquental/jev-guardrail` [novel] stars=0 — A safety guardrail that screens a user message against an assistant's policy before the assistant ever sees it.
+- `ardada2468/typedecide` [novel] stars=0 — Open-source implementation of the typed-decision pattern popularised by TypeSafe's Jev: read a decision out of a small language model's logi
+- `blobfishai/jevfish` [novel] stars=0 — An open judge for agent runs: typed decision model, trainer, server and the Typed Decision Bench
+- `bo7/jev_test` [novel] stars=0 —  Compare TypeSafe Jev vs Codex/Claude Code for inbox triage — tokens, latency, and label agreement.
+- `cexll/train-your-first-jev` [novel] stars=0 — Train your own Jev-style decision model: Chinese interactive course, Qwen LoRA on Mac, and online learning exercises.
+- `chen-junluo/jev-measure` [novel] stars=0 — novel HIGH not in prior_seen
+- `crizpy7-sketch/extreme-motion-demo` [novel] stars=0 — Cinematic extreme-motion landing demo paced by Jev (System One) intensity choices
+- `devsangho/jev-robotics-example` [novel] stars=0 — novel HIGH not in prior_seen
+- `edom18/jev-playground` [novel] stars=0 — novel HIGH not in prior_seen
+- `ehui1226/hookmeter-jev` [novel] stars=0 — ⚡ Millisecond-level Viral Hook Telemetry & Co-pilot for Social Media (Chrome Extension + JEV System 1)
+- `fellowship-dev/jev-second-brain` [novel] stars=0 — Local-first Markdown memory alignment and source-linked search with optional Jev judgments
+- `formulahendry/jev-acp` [novel] stars=0 — Use Jev typed decisions from any Agent Client Protocol client or IDE
+- `frederickrohn/jev-harness` [novel] stars=0 — experimenting with Jev
+- `fstandhartinger/jev-cascade` [novel] stars=0 — Transparent confidence cascade and failover gateway for typed decision models
+- `generallymatthew/factlabel` [novel] stars=0 — Open-source media literacy audit layer for AI agent content, powered by Jev
+- `gualican/jev-model-router` [novel] stars=0 — Routes prompts to the right Claude tier (Haiku/Sonnet/Opus) using TypeSafe's Jev model
+- `hc-nolan/IOCArena` [novel] stars=0 — Self-hosted console to compare System One decision models (Jev, Von, Laya) against each other using VirusTotal API data.
+- `hectorlcastro09/jev-torneo-animales` [novel] stars=0 — Winner-stays-on animal tournament refereed by Jev (TypeSafe System One): a local game to feel how fast typed decisions are. UI in Spanish.
+- `heheebei-rgb/laya-mirror` [novel] stars=0 — Mirror of convaiinnovations/laya (HF): 3 checkpoints, chunked weights + merge_and_verify
+- `hf:Raymond1122/metask-jev-4b-policy-mix` [novel] stars=0 — text-classification transformers safetensors qwen3_5 image-text-to-text typed-decisions calibrated-classification system-one classification 
+- `hfsp:shigeshige/laya-prompt-backend` [novel] stars=0 — gradio region:us
+- `huaaudio/jevsim` [novel] stars=0 — Run verified iOS and Android UI workflows in one agent tool call with Jev.
+- `jcardama/bird-jev` [novel] stars=0 — Private maintenance fork of Bird for reading and searching X; JEV integration planned
+- `jevnewsdev/jev-news` [novel] stars=0 — novel HIGH not in prior_seen
+- `jspi-fu/jev-vs-ml` [novel] stars=0 — 在 weibo21 与 LIAR 数据集上对 jev 模型进行测试，并与传统机器学习模型做比较
+- `lalitsonawane/jev-snake` [novel] stars=0 — Snake autoplay powered by TypeSafe Jev (System One)
+- `liuwengood123gmail/jev-playground` [novel] stars=0 — Local test harness for TypeSafe's Jev (System One) API
+- `matu79go/jev-hanko` [novel] stars=0 — Measuring TypeSafe AI's Jev on 41-clause contract review (CUAD, 20,500 decisions) against fast, cheap LLMs — latency, cost and F1
+- `metask-ai/metask-jev` [novel] stars=0 — Metask-Jev: calibrated typed-decision models (Jev-class). Single forward pass, candidate-logit readout. metask-jev-4b beats Bespoke Nimble-9
+- `mjyoke1111/jev-lab` [novel] stars=0 — Real browser-agent safety evaluation: Jev versus a baseline on benign and injected tasks
+- `onlyjq04/jev-agent-hooks` [novel] stars=0 — TypeSafe Jev hooks for Claude Code, Codex and pi: per-turn skill suggestion and subagent model routing
+- `orange233-g/quick-decision-assistant` [novel] stars=0 — 基于 Jev System One 的快速决策工具
+- `rezamonangg/pi-intentgate-jev` [novel] stars=0 — Pi extension for intent gate by using jev
+- `rubinagentagi-tech/jev-recycling-game` [novel] stars=0 — Interactive game: a decision model sorts everyday objects into Toronto's bins, scored against the City's published rules. 1,840 items, offli
+- `s-hiraoku/jev-checkkit` [novel] stars=0 — novel HIGH not in prior_seen
+- `sambawy01/jevistication` [novel] stars=0 — A calibrated decision engine for developer workflows, built on fast structured-decision models.
+- `sankaku-tech/jev-kit` [novel] stars=0 — Jev 導入マニュアル（Claude Code・Codex 両対応）— しゃべらないAIを、自分の道具に入れる
+- `sbhand22/jev-agent-eval-example` [novel] stars=0 — A runnable decision-first agent evaluation example using Jev and TypeSafe AI.
+- `shailesh-svg/Jev-POC-Lead-Gen` [novel] stars=0 — novel HIGH not in prior_seen
+- `snsk/jev-laya-japanese-business-benchmark` [novel] stars=0 — 実務判断ベンチマークJP：同一40問によるJevとLayaの計測・設問と回答例・静的比較レポート
+- `sriram-um/jev-vs-llm-benchmark` [novel] stars=0 — novel HIGH not in prior_seen
+- `tinmanlab/jev-qwen3.8-27b` [novel] stars=0 — Jev-compatible semantic decision service on Qwen3.8-27B/SGLang
+- `vercel-labs/jev-ai-sdk-form-router` [novel] stars=0 — Route form submissions to the right people with Jev and AI SDK.
+- `victorbvieira/system-one-lab` [novel] stars=0 — Benchmarking System One models against LLMs for typed decisions in Python. Jev vs. LLM on routing, urgency triage and content selection, wit
+- `vineetagarwal54/jev-mcp-middleware` [novel] stars=0 — Semantic MCP middleware that intercepts AI-agent tool calls and combines deterministic policy with TypeSafe Jev risk judgments before action
+- `vinsonws/jev-page-tester` [novel] stars=0 — novel HIGH not in prior_seen
+- `wayfind/metask-jev` [novel] stars=0 — Metask-Jev: calibrated typed-decision models (Jev-class). Single forward pass, candidate-logit readout. metask-jev-4b beats Bespoke Nimble-9
+- `work4life2/jev-fc-buddy` [novel] stars=0 — novel HIGH not in prior_seen
+- `wowthatsfair/jev-plays-doom` [novel] stars=0 — Fun little project to test out if jev is fast enough to play doom (it is).
+- `yagi469/playground-Jev` [novel] stars=0 — novel HIGH not in prior_seen
+- `yamatoya/textbook-jev` [novel] stars=0 — novel HIGH not in prior_seen
+- `yamyam-rvc/bonsai-decision-engine` [novel] stars=0 — Generation-free typed decisions with Ternary Bonsai 2 27B on a consumer 8GB GPU.
+- `yunhe-dev/awesomejev` [novel] stars=0 — Awesome Jev — curated directory of open-source projects and real-world apps built on TypeSafe Jev (System One). Live site: https://awesomeje
+- `zer0-industries/corroborate` [novel] stars=0 — Evidence readiness for any control framework, judged by any System One model. 106 NIST CSF 2.0 control packs. Local-first, zero dependencies
+- `zjl1985/zero-jev` [novel] stars=0 — Jev research and experiments for browser, computer use, and typed decision workflows
+- `zm2231/skill-router` [novel] stars=0 — Route an agent's intent to the one installed skill that fits, using TypeSafe's Jev
+- `Zefan-Cai/Open-Jev` [revisit] stars=10 — REVISIT densify: HEAD 4933ee84951f→a00559ea0ab2; Publish prepared Open-Jev provider quality evaluation pipeline (*theirs*)
+- `tinmanlab/cartpole-jev` [revisit] stars=0 — REVISIT densify: description rewrite — architecture claim flip: now fine-tuned Kev Transformer / English-first CartPole lab; explicitly not 
+- `xuboboo/ashare-trader` [revisit] stars=0 — REVISIT densify: description rewrite — strategy/runtime rewrite: premarket + intraday decisions, local probability model, QMT bridge (defaul
+- `gauravsaini/kevin` [revisit] stars=0 — REVISIT densify: description rewrite — stack claim: added Playwright + Onyx alongside Laya/Kev friends (*theirs*)
+
+## Instructions
+- Design judgment / measurement / class table / recipes across the categorization/decision/scoring class (not Jev-only).
+- Include benefits-of-Augustus recipes when using decision models in the class.
+- Densify REVISIT items (Open-Jev provider quality eval; cartpole-jev Kev flip; ashare-trader rewrite; kevin Playwright+Onyx). Mark third-party benches *theirs*.
+- Human-facing prose: avoid AI tells (em dashes etc.). Leave dense research/catalog locks alone.
+- Adversarial review + testing before merge.

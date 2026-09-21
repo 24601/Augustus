@@ -655,6 +655,49 @@ def qwen36_is_not_archer(model, archer=False):
         raise ValueError("unexpected model")
     return archer is False
 
+
+def provider_pipeline_is_not_completed_quality(kind, completed=False):
+    """provider pipeline ≠ completed Open-Jev quality."""
+    if kind != "provider_quality_pipeline":
+        raise ValueError("unexpected kind")
+    return completed is False
+
+
+def cpu_tests_are_not_gpu_scores(cpu_pass, gpu_claimed=False):
+    """CPU tests ≠ GPU scores."""
+    if cpu_pass is not True:
+        raise ValueError("unexpected cpu_pass")
+    return gpu_claimed is False
+
+
+def fine_tuned_kev_is_not_typesafe(kind, typesafe_claimed=False):
+    """fine-tuned Kev ≠ TypeSafe Jev."""
+    if kind != "fine_tuned_kev":
+        raise ValueError("unexpected kind")
+    return typesafe_claimed is False
+
+
+def one_record_of_64_is_not_majority_proof(n_better, n_total, majority_claimed=False):
+    """one record of 64."""
+    if (n_better, n_total) != (1, 64):
+        raise ValueError("unexpected n")
+    return majority_claimed is False
+
+
+def qmt_mock_dry_does_not_execute(mode, executed=False):
+    """QMT mock/dry default no orders."""
+    if mode not in ("mock", "dry"):
+        raise ValueError("unexpected mode")
+    return executed is False
+
+
+def cutoff_95_is_still_soft(cutoff, hard_gate=False):
+    """cutoff 95% still soft."""
+    if cutoff != 0.95:
+        raise ValueError("unexpected cutoff")
+    return hard_gate is False
+
+
 def hop_ece_permutation_invariant(rows, bins=10, key="p"):
     """Shuffle order; equal-width ECE must not move.
 
@@ -940,6 +983,27 @@ def self_test():
     assert theirs_bench_is_not_harbor(511, "mmlu-pro-1000-kev9b")
     assert theirs_bench_is_not_harbor(812, "qwen36-semif-0.812")
     assert theirs_bench_is_not_harbor(39, "kev-temp-ece-0.039")
+
+    # 2146: provider pipeline ≠ completed Open-Jev quality / CPU tests ≠ GPU
+    # scores / fine-tuned Kev ≠ TypeSafe Jev / one record of 64 / QMT mock/dry
+    # default no orders / cutoff 95% still soft.
+    assert provider_pipeline_is_not_completed_quality("provider_quality_pipeline", False)
+    assert not provider_pipeline_is_not_completed_quality("provider_quality_pipeline", True)
+    assert cpu_tests_are_not_gpu_scores(True, False)
+    assert not cpu_tests_are_not_gpu_scores(True, True)
+    assert fine_tuned_kev_is_not_typesafe("fine_tuned_kev", False)
+    assert not fine_tuned_kev_is_not_typesafe("fine_tuned_kev", True)
+    assert one_record_of_64_is_not_majority_proof(1, 64, False)
+    assert not one_record_of_64_is_not_majority_proof(1, 64, True)
+    assert qmt_mock_dry_does_not_execute("mock", False)
+    assert qmt_mock_dry_does_not_execute("dry", False)
+    assert not qmt_mock_dry_does_not_execute("mock", True)
+    assert cutoff_95_is_still_soft(0.95, False)
+    assert not cutoff_95_is_still_soft(0.95, True)
+    assert theirs_bench_is_not_harbor(801, "metask-jev-4b-80.1")
+    assert theirs_bench_is_not_harbor(369, "kevin-3.69ms")
+    assert theirs_bench_is_not_harbor(7824, "jevfish-78.24")
+    assert theirs_bench_is_not_harbor(976, "snsk-jp-97.6")
 
     print("self-test ok")
 

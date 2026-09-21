@@ -23943,7 +23943,7 @@ HF class ports.
     Consistency benchmark Space. This Space
     contains no benchmark result yet. 12-case
     plumbing fixture. Companion to
-    mjyoke1111/jev-lab (0★; HEAD `5c51bf93`) —
+    mjyoke1111/jev-lab (0★; HEAD `0bd66957283a`) —
     do **not** collapse the Space into jev-lab
     safety eval. hfspace:mjyoke1111/jev-consistency-benchmark.
 14. **Catalog gravity (tools list)** (theme
@@ -24505,6 +24505,11 @@ HF class ports.
       [`mjyoke1111/jev-lab`](https://github.com/mjyoke1111/jev-lab)
       (0★; HEAD `5c51bf93`; size **165**;
       default **master**) harness/consistency.
+      DENSIFY §106 (hourly 2146). HEAD now `0bd66957283a` (was `5c51bf93`).
+      SHA move is not a replica. Do not mint a sibling first sighting.
+      Align evidence hash / canonical routes *theirs*. Full card stays
+      §106; this hour only records the fingerprint move.
+
       Do **not** collapse the Space into
       jev-lab as a safety eval.
 
@@ -30099,6 +30104,14 @@ replay / cost table are exact work.
     策略未通过自己的回测门槛. 36 组参数全部净期望为负. no
     positive expectation under real costs. Negative EV is
     a finding, not a product claim.
+
+    DENSIFY §120 (2026-09-21T03:47Z). Keep section id 120. Do not mint a
+    sibling first sighting. HEAD `26c7e95e6828` (was `048fd921b3d8`).
+    README SHA `7a860bdfa97b` (was `9691a9c1`). Quote *theirs*:
+    premarket + intradaily. local probability model. QMT sidecar
+    mock/dry default no orders. AUC 0.532 *theirs*. 36 组参数全部净期望为负.
+    PAPER=true. does not execute. SHA move is not a replica. Full card:
+    §133.
 21. **[TrustifAI/typed_evals](https://github.com/TrustifAI/typed_evals)**
     — NEW HIGH jev-as-judge (Python MIT; **0★**; HEAD
     `0d54b0ab6121`; README SHA `d0927206`). Quote *theirs*:
@@ -30427,6 +30440,15 @@ parser / replay / cost table are exact work.
     README SHA `803270e3`). Quote *theirs*: This is not TypeSafe Jev.
     No real API requests were made for the committed results.
     Controller owns force. Decision head is a supervisor.
+
+    DENSIFY §121 (2026-09-21T03:34Z). Keep section id 121. Do not mint a
+    sibling first sighting. HEAD `922cc61490a0` (was `282d294d1fae`).
+    README SHA `0860958714f3` (was `803270e3`). Quote *theirs*: Active
+    model: Kev. Not TypeSafe Jev. Architecture flip to fine-tuned Kev
+    Transformer (Qwen3-0.6B-Base + released Kev LoRA + pointer head),
+    not the old MLP. 81.25% (52/64) vs majority 79.69% (51/64) = one
+    record of 64. softmax ≠ calibrated Noul. fine-tuned Kev ≠ TypeSafe
+    Jev. SHA move is not a replica. Full card: §133.
 19. **[hf:mradermacher/jevify-gemma4-e4b-GGUF](https://huggingface.co/mradermacher/jevify-gemma4-e4b-GGUF)**
     - DENSIFY §119 (likes **0**; sha `174d1e3c9432`). Quote *theirs*:
     static quants of kushalpatil/jevify-gemma4-e4b. Quant ≠
@@ -31485,6 +31507,29 @@ move. SHA move is not a replica.
   ≠ Shalimov04/open-jev ≠ kyegomez/open-jev.
   Do not reopen or amend PR #23–#52. Does not bump 0.5.0.
   `invented_signal: false`.
+
+### Since last look (2026-09-21T02:50Z Open-Jev provider quality)
+
+DENSIFY §125 item 5 / the 2026-09-21T01:34Z densify card. Do **not**
+mint a sibling first-sighting section. Material change is the prepared
+provider quality evaluation pipeline (scripts, CPU tests, frozen-suite
+coverage table), not the 3★→10★ star move. README SHA unchanged.
+SHA move is not a replica.
+
+**[Zefan-Cai/Open-Jev](https://github.com/Zefan-Cai/Open-Jev)**
+- DENSIFY §125 (MIT source; live **10★**; HEAD `a00559ea0ab2`; README
+  SHA **unchanged** `ce1a587219e4`; pushed `2026-09-21T02:50:45Z`; was
+  HEAD `4933ee84951f` at the 01:34Z look). Quote *theirs*: Publish
+  prepared Open-Jev provider quality evaluation pipeline. 808 requests
+  1841 labelled decisions per model. Open-Jev GPU inference has not
+  started. 48 CPU tests pass. Open-Jev TREC pending. 65/76 72/76 66/76
+  60/76 71/76 *theirs*. 117/140 109/140 135/140 *theirs*. JF100 232/300
+  227/300 300/300 *theirs*. FizzBuzz 299/300 300/300 300/300 *theirs*.
+  mailroom 908/921 900/921 913/921 *theirs*. Jev TREC DL19/DL20
+  nDCG@10 0.275836/0.190667 strict *theirs*. Luna 0.729911/0.702082
+  *theirs*. Astra 0.736610/0.714484 *theirs*. provider pipeline ≠
+  completed Open-Jev quality. CPU tests ≠ GPU scores. Do **not** quote
+  Jev/Luna/Astra nDCG as an Open-Jev result. Full card: §125 / §133.
 
 User-provided Open-Jev densify uniqueness lock: Zefan-Cai/Open-Jev densify HEAD 4933ee84951f README SHA ce1a587219e4; pushed 2026-09-21T01:34Z; Astra TREC commit 1dd56990be7e pushed 2026-09-21T01:17Z; live 3★ (was 0★; star-noise is not the fold); LoRA adapters plus trained scalar decision head and calibration temperature; not merged base models; dataset ZefanCai/Open-Jev rev c67699e13d0a; Open-Jev-2B rev 0c7aa498b162; Open-Jev-9B rev 47e966881e48; 27B still in progress; Independent of TypeSafe; no RLCD/parity claims; LoRA ≠ RLCD replica; customer-service P50 local HTTP 85.03 ms vs Jev HTTPS 295.26 ms *theirs*; 1024 tokens/32 candidates Open-Jev slower 1015.90 vs 301.37 *theirs*; prefix caching experimental/off by default; CUDA prefix caching exceeded tolerance on 9/11 workloads; systems latency ≠ semantic equivalence; GPT Luna P50 918.13 ms Astra 1938.39 ms *theirs*; TREC-DL Jev/Luna/Astra completed; Open-Jev TREC pending; 80,816 training rows; 2B 94.71% / OOD 86.02%; 9B 97.54% / 91.97% *theirs* not Harbor; hard acc ≠ calibrated Noul; type-valid ≠ exact; Qwen/Qwen3.8-27B ≠ Archer; website https://zefan-cai.github.io/open-jev/; launch X thread https://x.com/Zefan_Cai/status/2101782158658695388 https://x.com/Zefan_Cai/status/2101786019607740436 https://x.com/Zefan_Cai/status/2101789698947793231; densify §125 not a sibling first sighting; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52; notes.md §125
 
@@ -33481,3 +33526,248 @@ Hooks for the reviewer:
 
 **Hourly 2049 HIGH (`notes.md` §132).** kev night-2 densify HEAD c096660c8da2. PLAN SHA 8d77dd271c66. README SHA unchanged 84b872488915. KEV_TEMPERATURE T≈2.0. Brier 0.291→0.267 ECE 0.105→0.039 *theirs*. 7.5%→3.2% *theirs*. grouped T rejected. Qwen3.6-35B-A3B smoke 0.812 *theirs*. Hub --revision night2-du. MMLU-Pro 1000 Kev-9B 0.511 Jev 0.829 *theirs*. Qwen3.6 ≠ Archer. temperature scaling ≠ ECE unless measured. Hub --revision is a pin not a replica. kotoba OpenJev runtime densify HEAD ff7f84e74d04. generated_text: False. trained runtime ≠ TypeSafe. OpenJev.from_pretrained. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#55. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
 Hourly 2049 uniqueness lock: jaredpalmer/kev densify HEAD c096660c8da2 PLAN SHA 8d77dd271c66 README SHA unchanged 84b872488915; night-2 dates/unknowable/assertion; KEV_TEMPERATURE T≈2.0; Brier 0.291→0.267 ECE 0.105→0.039 *theirs*; 7.5%→3.2% *theirs*; grouped T rejected; Qwen3.6-35B-A3B smoke 0.812 *theirs*; 21M LoRA experts frozen; Hub --revision night2-du; MMLU-Pro 1000 Kev-9B 0.511 Jev 0.829 *theirs*; Qwen3.6 ≠ Archer; temperature scaling ≠ ECE unless measured; kotoba-lang/typed-decisions densify HEAD ff7f84e74d04 README SHA unchanged 4d6bbf4c4e44; feat expose trained OpenJev decision runtime; open_jev.py; tests/test_open_jev.py; generated_text: False; trained runtime ≠ TypeSafe; OpenJev.from_pretrained; decide_request kind typed-decisions/open-jev-v1; daftAI2026/awesome-jev ≠ heyjunpenn/awesome-jev ≠ yibie/awesome-jev ≠ MrJev/awesome-jev ≠ Promethe-us/awesome-jev; danielamitay/swev CoreML; serving substrate ≠ calibrated replica; smlayero/jev-debtgate CI gate cutoff still soft; Octalab-Inc/jqv stock Qwen3 decision API; franckverrot/lev ≠ jaredpalmer/kev; neko233-com/laya-go ≠ convaiinnovations/laya; tryAGI/TypeSafeAI ≠ official; abgregs/jev-experiments ≠ nak1b/jev-experiments ≠ dabit3/jev-experiments; jaanavit/gliner2-skill Locate ≠ decide; prasanthj/duckdb-jev SQL predicates; hf:Nebulaw1 legal LoRA ≠ RLCD replica; Qwen3.5 ≠ Archer; catalog ≠ endorsement; *theirs* not Harbor; SHA move is not a replica; skip-thin KadePrice123/jev-state-tracking hideri777/jev-application-sample; Hub --revision is a pin not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55; notes.md §132
+
+**Hourly 2146 HIGH (`notes.md` §133).** Open-Jev provider quality densify HEAD a00559ea0ab2. README SHA unchanged ce1a587219e4. provider pipeline ≠ completed Open-Jev quality. CPU tests ≠ GPU scores. 65/76 72/76 66/76 60/76 71/76 *theirs*. Open-Jev TREC pending. cartpole Kev flip HEAD 922cc61490a0. fine-tuned Kev ≠ TypeSafe Jev. one record of 64. 81.25% 52/64 *theirs*. softmax ≠ calibrated Noul. ashare rewrite HEAD 26c7e95e6828. QMT mock/dry default no orders. AUC 0.532 *theirs*. does not execute. kevin Playwright + Onyx first card. 3.69ms *theirs* not Harbor. metask-jev-4b 79.6% / 80.1% *theirs*. cutoff 95% still soft. option order can change an answer. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#56. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+Hourly 2146 uniqueness lock: Zefan-Cai/Open-Jev densify HEAD a00559ea0ab2 README SHA unchanged ce1a587219e4; Publish prepared Open-Jev provider quality evaluation pipeline; 808 requests 1841 labelled decisions per model; Open-Jev GPU inference has not started; 48 CPU tests pass; Open-Jev TREC pending; 65/76 72/76 66/76 60/76 71/76 *theirs*; 117/140 109/140 135/140 *theirs*; JF100 232/300 227/300 300/300 *theirs*; FizzBuzz 299/300 300/300 300/300 *theirs*; mailroom 908/921 900/921 913/921 *theirs*; Jev TREC DL19/DL20 nDCG@10 0.275836/0.190667 strict *theirs*; Luna 0.729911/0.702082 *theirs*; Astra 0.736610/0.714484 *theirs*; provider pipeline ≠ completed Open-Jev quality; CPU tests ≠ GPU scores; tinmanlab/cartpole-jev densify HEAD 922cc61490a0 README SHA 0860958714f3; Active model Kev Not TypeSafe Jev; 81.25% 52/64 *theirs*; one record of 64; fine-tuned Kev ≠ TypeSafe Jev; softmax ≠ calibrated Noul; xuboboo/ashare-trader densify HEAD 26c7e95e6828 README SHA 7a860bdfa97b; premarket + intradaily; local probability model; QMT sidecar mock/dry default no orders; AUC 0.532 *theirs*; 36 组参数全部净期望为负; does not execute; gauravsaini/kevin first card Playwright + Onyx; Laya/Kev friends *theirs*; 3.69ms *theirs* not Harbor; metask-jev-4b 79.6% / 80.1% *theirs*; Bespoke Nimble-9B 74.8% / 63.5; Jev 76.0% / 75.3; lumen mixture-of-LoRA conformal; ardada2468/typedecide ≠ shkumbinhasani/typedecide; 87 of 144 order-unstable *theirs*; bonsai 192/231 ECE 0.037 *theirs*; 8GB; vercel-labs 95% Luna fallback; cutoff 95% still soft; tinmanlab/jev-qwen3.8-27b Qwen3.8 ≠ Archer; train-your-first-jev Qwen2.5-0.5B LoRA; sankaku-tech/jev-kit ≠ WaynezProg/jev-kit ≠ isiomaC/jevkit; jevfish DecisionScore 78.24 *theirs*; Typed Decision Bench 5387; reflex-gate CoT GBNF ≠ Noul; skip-thin IOCArena laya-mirror empty SHA; snsk JP 97.6 vs 36.9 *theirs*; yunhe-dev/awesomejev catalog ≠ endorsement; yunhe-dev/awesomejev ≠ heyjunpenn/awesome-jev ≠ daftAI2026/awesome-jev; wayfind/metask-jev ≠ metask-ai/metask-jev; mjyoke1111/jev-lab already §106; mizchi/jev-playground 19★; KaLM-Jev reranker ≠ Jev replica; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56; notes.md §133
+
+
+## 133. Hourly 2146 HIGH (2026-09-20 ~21:46 Boise / 2026-09-21T03:46Z)
+
+Measurement / class-member fold on a **fresh PR off latest `main`**
+(`cursor/fold-hourly-2146-high-0f47`) after `36b26ba` (merged #56 hourly
+2049 HIGH, `notes.md` §132 / items 521–536 / batch #114; merged #55 hourly
+1946 HIGH, `notes.md` §131; merged #54 aisearchio census gaps, `notes.md`
+§130; merged #53 Open-Jev densify on `notes.md` §125). **HARD RULE:** do
+not reopen or amend PR #23–#56.
+Do **not** re-fold §132 2049 / §131 1946 / §130 1936 *as a second census*.
+Do not amend #53/#54/#55/#56. Do not mint a sibling Open-Jev, cartpole-jev,
+or ashare-trader first sighting. Densify `Zefan-Cai/Open-Jev` on §125 only.
+Densify `tinmanlab/cartpole-jev` on §121 only. Densify `xuboboo/ashare-trader`
+on §120 only. Densify `mjyoke1111/jev-lab` on §106 only (SHA move is not a
+replica). `gauravsaini/kevin` is a first card this hour (hourly labeled
+revisit; no prior notes card). This fold's IDs:
+`notes.md` §133 / composition 537–552 / findings batch #115.
+
+Never reopen merged #7–**#56**. Quote READMEs / provider-quality docs.
+Mark *theirs*. No wrappers, keys, `npm` / `pip` / `uv` / `docker`
+install recipes. `invented_signal: false`. Hunches labeled.
+
+Lane is Augustus: **mathematical / logical / algorithmic mental models**
+for Jev-class categorization/scoring across AI / SWE / **business /
+knowledge work / life**, not SWE-only. PRIMARY this hour is **REVISIT
+densify** of the Open-Jev provider quality evaluation pipeline, plus the
+cartpole architecture flip to fine-tuned Kev and the ashare-trader
+premarket+intraday rewrite, with novel HIGH class members (metask / lumen /
+typedecide / bonsai / vercel form router / jevfish / snsk JP / catalogs).
+Jev is exemplar, not the mandate. Third-party benches stay *theirs*.
+Catalogs are indexes. Soft scores ≠ hard gates. SHA move is not a replica.
+provider pipeline ≠ completed Open-Jev quality. CPU tests ≠ GPU scores.
+fine-tuned Kev ≠ TypeSafe Jev. cutoff 95% still soft. Qwen3.8 ≠ Archer.
+Archer still **promised_not_landed**.
+
+Unique consecutive fragments (this fold) must appear as **one
+substring** in overlays (see uniqueness gate):
+Hourly 2146 uniqueness lock: Zefan-Cai/Open-Jev densify HEAD a00559ea0ab2 README SHA unchanged ce1a587219e4; Publish prepared Open-Jev provider quality evaluation pipeline; 808 requests 1841 labelled decisions per model; Open-Jev GPU inference has not started; 48 CPU tests pass; Open-Jev TREC pending; 65/76 72/76 66/76 60/76 71/76 *theirs*; 117/140 109/140 135/140 *theirs*; JF100 232/300 227/300 300/300 *theirs*; FizzBuzz 299/300 300/300 300/300 *theirs*; mailroom 908/921 900/921 913/921 *theirs*; Jev TREC DL19/DL20 nDCG@10 0.275836/0.190667 strict *theirs*; Luna 0.729911/0.702082 *theirs*; Astra 0.736610/0.714484 *theirs*; provider pipeline ≠ completed Open-Jev quality; CPU tests ≠ GPU scores; tinmanlab/cartpole-jev densify HEAD 922cc61490a0 README SHA 0860958714f3; Active model Kev Not TypeSafe Jev; 81.25% 52/64 *theirs*; one record of 64; fine-tuned Kev ≠ TypeSafe Jev; softmax ≠ calibrated Noul; xuboboo/ashare-trader densify HEAD 26c7e95e6828 README SHA 7a860bdfa97b; premarket + intradaily; local probability model; QMT sidecar mock/dry default no orders; AUC 0.532 *theirs*; 36 组参数全部净期望为负; does not execute; gauravsaini/kevin first card Playwright + Onyx; Laya/Kev friends *theirs*; 3.69ms *theirs* not Harbor; metask-jev-4b 79.6% / 80.1% *theirs*; Bespoke Nimble-9B 74.8% / 63.5; Jev 76.0% / 75.3; lumen mixture-of-LoRA conformal; ardada2468/typedecide ≠ shkumbinhasani/typedecide; 87 of 144 order-unstable *theirs*; bonsai 192/231 ECE 0.037 *theirs*; 8GB; vercel-labs 95% Luna fallback; cutoff 95% still soft; tinmanlab/jev-qwen3.8-27b Qwen3.8 ≠ Archer; train-your-first-jev Qwen2.5-0.5B LoRA; sankaku-tech/jev-kit ≠ WaynezProg/jev-kit ≠ isiomaC/jevkit; jevfish DecisionScore 78.24 *theirs*; Typed Decision Bench 5387; reflex-gate CoT GBNF ≠ Noul; skip-thin IOCArena laya-mirror empty SHA; snsk JP 97.6 vs 36.9 *theirs*; yunhe-dev/awesomejev catalog ≠ endorsement; yunhe-dev/awesomejev ≠ heyjunpenn/awesome-jev ≠ daftAI2026/awesome-jev; wayfind/metask-jev ≠ metask-ai/metask-jev; mjyoke1111/jev-lab already §106; mizchi/jev-playground 19★; KaLM-Jev reranker ≠ Jev replica; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56; notes.md §133
+
+### How-to-apply (class lenses, not vendor tutorials)
+
+These are *class* lenses. Same discipline as §132 (temperature scaling ≠
+ECE unless measured) and §125 (systems latency ≠ semantic equivalence).
+Formal methods **compose**: a Noul is a SENSOR; a CPU-passing eval suite
+is implementation evidence; a mock/dry broker is not a live order; a
+catalog is an index.
+
+1. **provider pipeline ≠ completed Open-Jev quality**
+   (Zefan-Cai/Open-Jev densify §125). Quote *theirs*: Publish prepared
+   Open-Jev provider quality evaluation pipeline. 808 requests 1841
+   labelled decisions per model. Open-Jev GPU inference has not started.
+   48 CPU tests pass. CPU tests ≠ GPU scores. Open-Jev TREC pending.
+   65/76 72/76 66/76 60/76 71/76 *theirs*. Star-noise 3★→10★ is not the
+   fold. README SHA unchanged. Same split for any Choice/Score/Noul-style
+   head, not only hosted Jev. Do **not** copy `pip` / train flags.
+2. **fine-tuned Kev ≠ TypeSafe Jev / one record of 64**
+   (tinmanlab/cartpole-jev densify §121). Quote *theirs*: Active model:
+   Kev. Not TypeSafe Jev. 81.25% (52/64) vs majority 79.69% (51/64) =
+   one record of 64. Displayed probabilities are raw softmax outputs.
+   softmax ≠ calibrated Noul. Fine-tuned Kev Transformer is not hosted
+   Jev. Game success ≠ calibrated Noul.
+3. **QMT mock/dry default no orders / does not execute**
+   (xuboboo/ashare-trader densify §120). Quote *theirs*: premarket +
+   intradaily. local probability model. AUC 0.532 *theirs*. 36
+   组参数全部净期望为负. QMT sidecar mock/dry records no orders.
+   PAPER=true. does not execute. Negative EV is a finding, not a product.
+4. **cutoff 95% still soft / option order can change an answer /
+   catalog ≠ endorsement / 3.69ms *theirs* not Harbor**
+   (vercel-labs form router; ardada2468/typedecide; yunhe-dev/awesomejev;
+   gauravsaini/kevin; metask-jev-4b; bonsai; jevfish; snsk JP). A 95%
+   accept cutoff is application policy. 87 of 144 order-unstable *theirs*.
+   A directory is an index. 3.69ms WebGPU is *theirs*, not Harbor.
+   80.1% / 78.24 / 97.6 vs 36.9 stay *theirs*. 40 Japanese questions are
+   not production evidence.
+
+### HIGH
+
+1. **[`Zefan-Cai/Open-Jev`](https://github.com/Zefan-Cai/Open-Jev) provider
+   quality densify §125 PRIMARY.** DENSIFY the original card. Keep
+   section id 125. Do not mint a sibling first sighting. Live REST
+   **10★** (was 3★; star-noise is not the fold). HEAD
+   `a00559ea0ab2c022a149c0afa54dde30941419a8` ("Publish prepared Open-Jev
+   provider quality evaluation pipeline", 2026-09-21T02:50:32Z). README
+   SHA **unchanged** `ce1a587219e4b9bcb5db3787a654f248d9a84b92`. Quote
+   *theirs*: 808 requests 1841 labelled / 1826 hard per model. Open-Jev
+   GPU inference has not started. 48 CPU tests pass. Open-Jev TREC
+   pending. 65/76 72/76 66/76 60/76 71/76 *theirs*. 117/140 109/140
+   135/140 *theirs*. JF100 232/300 227/300 300/300 *theirs*. FizzBuzz
+   299/300 300/300 300/300 *theirs*. mailroom 908/921 900/921 913/921
+   *theirs*. Jev TREC DL19/DL20 nDCG@10 0.275836/0.190667 strict
+   *theirs*. Luna 0.729911/0.702082 *theirs*. Astra 0.736610/0.714484
+   *theirs*. provider pipeline ≠ completed Open-Jev quality. CPU tests ≠
+   GPU scores. SHA move is not a replica. Full card: §125.
+2. **[`tinmanlab/cartpole-jev`](https://github.com/tinmanlab/cartpole-jev)
+   Kev flip densify §121.** DENSIFY the original card. Keep section id
+   121. HEAD `922cc61490a0dd648911d5878ac52ab12091167d`. README SHA
+   `0860958714f3c2114f8ba1d3fc6ad4a304914e6e`. Quote *theirs*: Active
+   model Kev. Not TypeSafe Jev. 81.25% 52/64 *theirs*. one record of 64.
+   fine-tuned Kev ≠ TypeSafe Jev. softmax ≠ calibrated Noul. Full card:
+   §121.
+3. **[`xuboboo/ashare-trader`](https://github.com/xuboboo/ashare-trader)
+   rewrite densify §120.** DENSIFY the original card. Keep section id
+   120. HEAD `26c7e95e6828623de15d8eaeede3dcbd398cc5db`. README SHA
+   `7a860bdfa97bf395efe766abe1db9014019c26fb`. Quote *theirs*: premarket
+   + intradaily. local probability model. QMT sidecar mock/dry default
+   no orders. AUC 0.532 *theirs*. 36 组参数全部净期望为负. does not
+   execute. Full card: §120.
+4. **[`gauravsaini/kevin`](https://github.com/gauravsaini/kevin) first
+   card.** Hourly labeled revisit; no prior notes card, so this is the
+   first sighting (not a sibling of a missing original). HEAD
+   `96336428dc159109f47a0b8b47532de3df9c973b`. README SHA
+   `cfbbedb4957a99c159580fd380c3898b51a1eb20`. Quote *theirs*: Playwright
+   + Onyx. Laya/Kev friends. 3.69ms *theirs* not Harbor. serving
+   substrate ≠ calibrated replica.
+5. **Metask / lumen / typedecide / bonsai PRIMARY novel**
+   ([`metask-ai/metask-jev`](https://github.com/metask-ai/metask-jev)
+   HEAD `335737bde475`; [`hf:Raymond1122/metask-jev-4b-policy-mix`](https://huggingface.co/Raymond1122/metask-jev-4b-policy-mix);
+   [`ajaman190/lumen`](https://github.com/ajaman190/lumen) GH license
+   NOASSERTION vs README Apache; [`ardada2468/typedecide`](https://github.com/ardada2468/typedecide);
+   [`yamyam-rvc/bonsai-decision-engine`](https://github.com/yamyam-rvc/bonsai-decision-engine)).
+   metask-jev-4b 79.6% / 80.1% *theirs*. Bespoke Nimble-9B 74.8% / 63.5.
+   Jev 76.0% / 75.3. ~24ms RTX 4090 *theirs*. lumen mixture-of-LoRA
+   conformal. ardada2468/typedecide ≠ shkumbinhasani/typedecide. 87 of
+   144 order-unstable *theirs*. cyclic BA 0.483 *theirs*. generation =
+   readout accuracy. bonsai 192/231 ECE 0.037 *theirs*. 8GB RTX 4060.
+   not TypeSafe replica. wayfind/metask-jev ≠ metask-ai/metask-jev.
+6. **Vercel form router / Qwen3.8 / train-your-first / jev-kit**
+   ([`vercel-labs/jev-ai-sdk-form-router`](https://github.com/vercel-labs/jev-ai-sdk-form-router);
+   [`tinmanlab/jev-qwen3.8-27b`](https://github.com/tinmanlab/jev-qwen3.8-27b);
+   [`cexll/train-your-first-jev`](https://github.com/cexll/train-your-first-jev);
+   [`sankaku-tech/jev-kit`](https://github.com/sankaku-tech/jev-kit)).
+   accept Jev at ≥95%, else Luna-fast. cutoff 95% still soft.
+   Qwen3.8 ≠ Archer. no fine-tune. Qwen2.5-0.5B LoRA, not official Jev.
+   unofficial install manual. sankaku-tech/jev-kit ≠ WaynezProg/jev-kit
+   ≠ isiomaC/jevkit.
+7. **jevfish / snsk JP / reflex-gate / KaLM-Jev**
+   ([`blobfishai/jevfish`](https://github.com/blobfishai/jevfish);
+   [`snsk/jev-laya-japanese-business-benchmark`](https://github.com/snsk/jev-laya-japanese-business-benchmark);
+   [`jagsan-cyber/reflex-gate`](https://github.com/jagsan-cyber/reflex-gate);
+   [`KaLM-Embedding/KaLM-Jev`](https://github.com/KaLM-Embedding/KaLM-Jev)).
+   jevfish DecisionScore 78.24 vs Jev 81.70 *theirs*. Typed Decision
+   Bench 5387. snsk JP 97.6 vs Laya 36.9 /100 *theirs*. 40 questions.
+   Do not use as production evidence. reflex-gate CoT GBNF ≠ Noul.
+   KaLM-Jev reranker ≠ Jev replica.
+8. **Catalogs / namesakes / playgrounds**
+   ([`yunhe-dev/awesomejev`](https://github.com/yunhe-dev/awesomejev)
+   live https://awesomejev.dev; [`mizchi/jev-playground`](https://github.com/mizchi/jev-playground)
+   **19★** MoonBit). catalog ≠ endorsement. yunhe-dev/awesomejev ≠
+   heyjunpenn/awesome-jev ≠ daftAI2026/awesome-jev. mizchi/jev-playground
+   ≠ edom18/jev-playground ≠ liuwengood123gmail/jev-playground.
+   anpicasso/hermes-jev-curator ≠ hermes-jev-approvals.
+9. **Already carded / skip-thin empty SHA**
+   mjyoke1111/jev-lab already §106 (HEAD 5c51bf93→0bd66957283a). SHA move
+   is not a replica. skip-thin empty SHA: WangYu0611/jevymarket-direct,
+   YikaiZheng/Jev_Benchmarking, chen-junluo/jev-measure, hc-nolan/IOCArena
+   (description only), heheebei-rgb/laya-mirror (description only),
+   jspi-fu/jev-vs-ml, vineetagarwal54/jev-mcp-middleware,
+   work4life2/jev-fc-buddy. RileyCarney/JevTools and
+   crizpy7-sketch/extreme-motion-demo: SHA present, README fetch error.
+10. **Remainder apps / agent skills / games.**
+    ego-jev / jev-snake / jev-plays-doom / jev-recycling-game /
+    jev-torneo-animales: game success ≠ calibrated Noul.
+    jev-guardrail / jev-triage / jev-subagent-router / skill-router:
+    cutoff still soft. classifier ≠ authorizer. does not execute.
+    corroborate / factlabel / zer0-industries: evidence packs are
+    catalogs of controls, not Harbor. catalog ≠ endorsement.
+    *theirs* not Harbor.
+
+### Pulse (live REST this hour)
+
+Archer still promised_not_landed. Hub archerhume/4rcherhume HTTP **401**.
+Zefan-Cai/Open-Jev **10★**. mizchi/jev-playground **19★**.
+ajaman190/lumen **1★**. metask-ai/metask-jev **1★**.
+This hour does not re-census SemIf / Laya likes / tracker; those
+numbers stay §119 until a dedicated pulse. `invented_signal: false`.
+
+### Formal compose + anti-patterns
+
+Formal methods **compose** with scoring. A Noul is a SENSOR. A catalog
+is an index. A CPU-passing provider suite is implementation evidence,
+not GPU quality. A mock/dry QMT sidecar is not a live order. A
+fine-tuned Kev checkpoint is not TypeSafe Jev. A 95% cutoff is
+application policy. Treating 65/76 as completed Open-Jev quality,
+81.25% as hosted Jev, AUC 0.532 as an edge, 3.69ms as Harbor, 80.1%
+as gold, or 95% as a hard gate is soundness theater.
+provider pipeline ≠ completed Open-Jev quality.
+CPU tests ≠ GPU scores.
+fine-tuned Kev ≠ TypeSafe Jev.
+QMT mock/dry default no orders. does not execute.
+cutoff 95% still soft. option order can change an answer.
+catalog ≠ endorsement. *theirs* not Harbor.
+SHA move is not a replica.
+
+### Adversarial review + testing hooks (Basit standing
+order)
+
+Parent merge only after **CLEAN** adversarial review **AND** testing.
+Hooks for the reviewer:
+
+- Uniqueness-gate: the consecutive `Hourly 2146 uniqueness lock:`
+  string must appear in every overlay listed below. Prior walls 0843 /
+  0915 / jcr / 0922 / 0940 / 0947 / 1049 / 1143 / 1248 / 1340 / 1441 /
+  1542 / 1643 / 1746 / 1843 / 1936 / Open-Jev densify / 1946 / 2049 stay
+  one substring each (do not mutate them; do not reopen #23–#56).
+- Namesake locks: ardada2468/typedecide ≠ shkumbinhasani/typedecide;
+  sankaku-tech/jev-kit ≠ WaynezProg/jev-kit ≠ isiomaC/jevkit;
+  yunhe-dev/awesomejev ≠ heyjunpenn/awesome-jev ≠ daftAI2026/awesome-jev;
+  wayfind/metask-jev ≠ metask-ai/metask-jev;
+  mizchi/jev-playground ≠ edom18/jev-playground;
+  anpicasso/hermes-jev-curator ≠ hermes-jev-approvals.
+- Densify vs new: Open-Jev densifies §125. cartpole densifies §121.
+  ashare densifies §120. mjyoke1111 densifies §106. kevin is a first
+  card (no prior notes section). Do not mint sibling first-sighting
+  sections for the densifies.
+- Harbor-jevals: 65/76 / 80.1% / 81.25% 52/64 / AUC 0.532 / 3.69ms /
+  78.24 / 97.6 vs 36.9 / ECE 0.037 stay *theirs*, not Harbor.
+- Anti-patterns to refuse: TypeSafe drop-in; catalog as endorsement;
+  CPU tests as GPU scores; provider pipeline as completed quality;
+  fine-tuned Kev as TypeSafe Jev; QMT mock as live orders; 95% as a
+  hard gate; Qwen3.8 as Archer; copying keys / `npm` / `pip` / `uv` /
+  `docker`.
+- Overlay set: SKILL.md body (protocol fragments + class-table densify
+  + Hourly 2146), mental-models Apply 2146, composition-algebra items
+  537–552, faq, mixed-architecture, validation, toolbox-mapping,
+  methods-catalog, formal-methods, formal-semi-formal,
+  applied-mappings, judgment-class, question-design,
+  agent-self-assessment, mappings, CHANGELOG, README, docs/ecosystem,
+  findings batch #115, refresh-log, changelog-hourly.md,
+  revisit_fingerprints.json (Open-Jev SHA a00559ea0ab2; cartpole SHA
+  922cc61490a0; ashare SHA 26c7e95e6828).
+- Offline check: `evaluate_decisions.py --self-test` (now includes
+  provider pipeline ≠ completed Open-Jev quality / CPU tests ≠ GPU
+  scores / fine-tuned Kev ≠ TypeSafe Jev / one record of 64 / QMT
+  mock/dry default no orders / cutoff 95% still soft) and
+  `uniqueness_gate.py` (0843 + 0915 + jcr / 0922 / 0940 / 0947 /
+  1049 / 1143 / 1248 / 1340 / 1441 / 1542 / 1643 / 1746 / 1843 / 1936 /
+  Open-Jev densify / 1946 / 2049 / 2146).
+  No live Jev key. No wrappers.
+
+**Hourly 2146 HIGH (`notes.md` §133).** Open-Jev provider quality densify HEAD a00559ea0ab2. README SHA unchanged ce1a587219e4. provider pipeline ≠ completed Open-Jev quality. CPU tests ≠ GPU scores. 65/76 72/76 66/76 60/76 71/76 *theirs*. Open-Jev TREC pending. cartpole Kev flip HEAD 922cc61490a0. fine-tuned Kev ≠ TypeSafe Jev. one record of 64. 81.25% 52/64 *theirs*. softmax ≠ calibrated Noul. ashare rewrite HEAD 26c7e95e6828. QMT mock/dry default no orders. AUC 0.532 *theirs*. does not execute. kevin Playwright + Onyx first card. 3.69ms *theirs* not Harbor. metask-jev-4b 79.6% / 80.1% *theirs*. cutoff 95% still soft. option order can change an answer. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#56. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+Hourly 2146 uniqueness lock: Zefan-Cai/Open-Jev densify HEAD a00559ea0ab2 README SHA unchanged ce1a587219e4; Publish prepared Open-Jev provider quality evaluation pipeline; 808 requests 1841 labelled decisions per model; Open-Jev GPU inference has not started; 48 CPU tests pass; Open-Jev TREC pending; 65/76 72/76 66/76 60/76 71/76 *theirs*; 117/140 109/140 135/140 *theirs*; JF100 232/300 227/300 300/300 *theirs*; FizzBuzz 299/300 300/300 300/300 *theirs*; mailroom 908/921 900/921 913/921 *theirs*; Jev TREC DL19/DL20 nDCG@10 0.275836/0.190667 strict *theirs*; Luna 0.729911/0.702082 *theirs*; Astra 0.736610/0.714484 *theirs*; provider pipeline ≠ completed Open-Jev quality; CPU tests ≠ GPU scores; tinmanlab/cartpole-jev densify HEAD 922cc61490a0 README SHA 0860958714f3; Active model Kev Not TypeSafe Jev; 81.25% 52/64 *theirs*; one record of 64; fine-tuned Kev ≠ TypeSafe Jev; softmax ≠ calibrated Noul; xuboboo/ashare-trader densify HEAD 26c7e95e6828 README SHA 7a860bdfa97b; premarket + intradaily; local probability model; QMT sidecar mock/dry default no orders; AUC 0.532 *theirs*; 36 组参数全部净期望为负; does not execute; gauravsaini/kevin first card Playwright + Onyx; Laya/Kev friends *theirs*; 3.69ms *theirs* not Harbor; metask-jev-4b 79.6% / 80.1% *theirs*; Bespoke Nimble-9B 74.8% / 63.5; Jev 76.0% / 75.3; lumen mixture-of-LoRA conformal; ardada2468/typedecide ≠ shkumbinhasani/typedecide; 87 of 144 order-unstable *theirs*; bonsai 192/231 ECE 0.037 *theirs*; 8GB; vercel-labs 95% Luna fallback; cutoff 95% still soft; tinmanlab/jev-qwen3.8-27b Qwen3.8 ≠ Archer; train-your-first-jev Qwen2.5-0.5B LoRA; sankaku-tech/jev-kit ≠ WaynezProg/jev-kit ≠ isiomaC/jevkit; jevfish DecisionScore 78.24 *theirs*; Typed Decision Bench 5387; reflex-gate CoT GBNF ≠ Noul; skip-thin IOCArena laya-mirror empty SHA; snsk JP 97.6 vs 36.9 *theirs*; yunhe-dev/awesomejev catalog ≠ endorsement; yunhe-dev/awesomejev ≠ heyjunpenn/awesome-jev ≠ daftAI2026/awesome-jev; wayfind/metask-jev ≠ metask-ai/metask-jev; mjyoke1111/jev-lab already §106; mizchi/jev-playground 19★; KaLM-Jev reranker ≠ Jev replica; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56; notes.md §133
