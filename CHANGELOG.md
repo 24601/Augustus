@@ -16,6 +16,44 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 0551 HIGH (`research/notes.md` §141 / composition items
+665–680 / findings batch #123). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#64.
+Do not amend released 0.5.0 (#42). Merged #64 owns §140. Merged #63
+owns §139. Merged #62 owns §138.
+
+### Added
+
+- **Hourly 0551 HIGH (`notes.md` §141).** kev Night-2 densify.
+  locked OOD 0.684/0.837/0.852 *theirs*. v7-base tags. Night-2
+  sign-off. Nimble densify: did not distill from Jev. Publish
+  original 2676 training examples and frozen 324 holdout. APUS-OpenJev
+  9B 85.0% vs Jev API 82.5% *theirs* not Harbor. Frozen80 n=80.
+  Candidate probabilities are not calibrated confidence. Jev-Vision
+  Hub LoRA. evoke densify: Jev is the first adapter the design is
+  bound to no engine. GLiNER Zero Hallucinations marketing. Locate ≠
+  decide. catalog ≠ endorsement. skip-thin empty SHA.
+  Evaluator: kev Night-2 OOD is not Harbor / Nimble did not distill /
+  APUS Frozen80 is not Harbor / Jev-Vision hard overconfidence is not
+  calibrated / GLiNER Locate ≠ decide.
+  uniqueness_gate.py now checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 +
+  1049 + 1143 + 1248 + 1340 + 1441 + 1542 + 1643 + 1746 + 1843 + 1936 +
+  Open-Jev densify + 1946 + 2049 + 2146 + 2246 + 2347 + 0049 + 0151 +
+  0248 + 0348 + 0445 + 0551.
+  Composition items 665–680 / batch #123.
+  **HARD RULE:** do not reopen or amend PR #23–#64. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat Night-2
+  OOD 0.852 as Harbor, Frozen80 85.0% as TypeSafe, or GLiNER locate as
+  a decision head. With Augustus: temperature scaling ≠ ECE unless
+  measured; Candidate probabilities are not calibrated confidence;
+  Locate ≠ decide; densify §45 not a sibling first sighting; *theirs*
+  not Harbor.
+
+
 Hourly 0445 HIGH (`research/notes.md` §140 / composition items
 649–664 / findings batch #122). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in

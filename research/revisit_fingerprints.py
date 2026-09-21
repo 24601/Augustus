@@ -288,7 +288,9 @@ def self_test() -> None:
     semif_readme = by_id["github:TheoLeeCJ/SemIf"].get("readme_sha")
     assert isinstance(semif_readme, str) and semif_readme.startswith("74ab7f7f")
     kev = by_id["github:jaredpalmer/kev"]["fingerprints"]
-    assert kev["default_sha"].startswith("e0bcf50153f1")
+    assert kev["default_sha"].startswith("4f8110a3f862")
+    kev_readme = by_id["github:jaredpalmer/kev"].get("readme_sha")
+    assert isinstance(kev_readme, str) and kev_readme.startswith("d497d4b89427")
     kotoba = by_id["github:kotoba-lang/typed-decisions"]["fingerprints"]
     assert kotoba["default_sha"].startswith("ff7f84e74d04")
     cartpole = by_id["github:tinmanlab/cartpole-jev"]["fingerprints"]
@@ -342,6 +344,8 @@ def self_test() -> None:
         "github:moritzkremb/jev-voice-browser": "82",
         "github:luantak/is-malicious": "17",
         "github:TianyuCodings/NanoJev": "115",
+        "github:bespokelabsai/nimble": "35",
+        "github:evoke-build/evoke": "139",
     }
     for look_id, section in densify_original_ids.items():
         assert look_id in by_id, look_id
@@ -366,6 +370,18 @@ def self_test() -> None:
     xiangqi = by_id["github:Zafer-Liu/jev-xiangqi"]["fingerprints"]
     assert xiangqi["default_sha"].startswith("7181fab5bb27")
     assert by_id["github:umgbhalla/jevx"]["notes_section"] == "140"
+    nimble = by_id["github:bespokelabsai/nimble"]["fingerprints"]
+    assert nimble["default_sha"].startswith("f136b3f75721")
+    assert by_id["github:bespokelabsai/nimble"]["notes_section"] == "35"
+    evoke = by_id["github:evoke-build/evoke"]["fingerprints"]
+    assert evoke["default_sha"].startswith("ca8a311743fe")
+    assert by_id["github:evoke-build/evoke"]["notes_section"] == "139"
+    gliner = by_id["github:47thtechcorner/RayCodes_GLiNER_V1_Multi"]["fingerprints"]
+    assert gliner["default_sha"].startswith("485cf8045f73")
+    assert by_id["github:47thtechcorner/RayCodes_GLiNER_V1_Multi"]["notes_section"] == "141"
+    awesome_jev = by_id["github:AbdelStark/awesome-typesafe-jev"]["fingerprints"]
+    assert awesome_jev["default_sha"].startswith("a6a68b57888a")
+    assert by_id["github:AbdelStark/awesome-typesafe-jev"]["notes_section"] == "141"
     assert any("revisit HIGH like novel HIGH" in r for r in rules)
     print("revisit-fingerprints self-test ok")
 

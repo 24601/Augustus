@@ -1,0 +1,397 @@
+[
+  {
+    "id": "bespokelabsai/nimble",
+    "stars": 1388,
+    "why": "Local typed decisions, contrastive data curation, and model evaluation."
+  },
+  {
+    "id": "AbdelStark/awesome-typesafe-jev",
+    "stars": 416,
+    "why": "A curated list of official resources and community projects for TypeSafe, System One models, and Jev."
+  },
+  {
+    "id": "cookiespiggy/agentic-rl",
+    "stars": 103,
+    "why": "Agentic RL \u4e2d\u6587\u96f6\u57fa\u7840\u6559\u7a0b\uff0825 \u7ae0\uff09\uff1a\u4ece\u6982\u5ff5\u5230 GRPO \u5b9e\u6218\uff0c\u542b TRL \u6700\u5c0f\u53ef\u8dd1\u793a\u4f8b\u3002\u7b2c 25 \u7ae0\u8bb2\u6e05 Jev / TypeSafe System One \u5224\u522b\u6a21\u578b\u4e0e RL \u7684\u80fd\u529b\u8fb9\u754c | Chinese Agentic RL tutorial, 25 chapters + Jev-vs-RL boun"
+  },
+  {
+    "id": "DevMortimer/pi-typesafe",
+    "stars": 27,
+    "why": "TypeSafe decisions for Pi: batched evaluation tool, terminal playground, and typed API for extension authors"
+  },
+  {
+    "id": "Finderchangchang/jev-chat-JARVIS",
+    "stars": 11,
+    "why": "novel first-seen github peer"
+  },
+  {
+    "id": "carlosedm10/agi-jev-containment",
+    "stars": 4,
+    "why": "AGI JEV Detection - local AI agent monitor: chain-level malicious-agent detection (TypeSafe Jev + Sentinel), escalate-only L1-L5 containment, Neo4j forensics, A"
+  },
+  {
+    "id": "0x7067/jev-browse",
+    "stars": 3,
+    "why": "Browser automation with Jev (TypeSafe) as decision model"
+  },
+  {
+    "id": "sumleo/prompt2jev",
+    "stars": 1,
+    "why": "Agent skill and CLI that turn an LLM prompt into a TypeSafe Jev decision: typed state, Choice/Score/Noul questions, and a runnable script"
+  },
+  {
+    "id": "stacklok/typesafe-go",
+    "stars": 1,
+    "why": "A security-focused, idiomatic Go client for TypeSafe\u2019s System One API. Community-maintained; not an official TypeSafe SDK."
+  },
+  {
+    "id": "sontakey/awesome-jev",
+    "stars": 1,
+    "why": "Unofficial list of insanely useful TypeSafe AI Jev / System One projects"
+  },
+  {
+    "id": "mattt/AnyDecisionModel",
+    "stars": 1,
+    "why": "A Swift package for typed decisions from language models (probabilities, choices, and scores), with support for local MLX models and the TypeSafe Jev API."
+  },
+  {
+    "id": "kylemclaren/jevsearch",
+    "stars": 1,
+    "why": "Site search that understands the question. Ranked by TypeSafe's Jev model."
+  },
+  {
+    "id": "jiawei686/jev-screen-mcp",
+    "stars": 1,
+    "why": "Single-purpose MCP server (one tool, one job): a content-moderation gate powered by TypeSafe Jev (System One decision model)."
+  },
+  {
+    "id": "jiawei686/jev-review-mcp",
+    "stars": 1,
+    "why": "Single-purpose MCP server (one tool, one job): a code-review gate powered by TypeSafe Jev (System One decision model)."
+  },
+  {
+    "id": "igloomatics/jev-ai-detector",
+    "stars": 1,
+    "why": "fast & ultra-light AI detector chrome extension. use JEV for super-fast AIGC detection."
+  },
+  {
+    "id": "alperenerol/jev-1.13-mini-benchmark",
+    "stars": 1,
+    "why": "Mini benchmark of TypeSafe's jev-1.13 structured decision model (OpenRouter Decisions API) on labeled support-triage: noul/choice/score, consistency, cost, less"
+  },
+  {
+    "id": "KranzL/Jevflake",
+    "stars": 1,
+    "why": "Ask TypeSafe's Jev decision model questions about your data from inside Snowflake. dbt package plus a Terraform module."
+  },
+  {
+    "id": "zohaibtanwir/jev-samsho2",
+    "stars": 0,
+    "why": "Jev plays Samurai Shodown II: two Jev agents fight each other in MAME, with a live telemetry panel"
+  },
+  {
+    "id": "yzyialy/crush-monitor",
+    "stars": 0,
+    "why": "\u672c\u673a\u8fd0\u884c\u7684\u4e2d\u6587\u804a\u5929\u5206\u6790\u5de5\u5177\uff1aJev \u9010\u53e5\u89c2\u5bdf\u60c5\u7eea\u4e0e\u610f\u56fe + DeepSeek \u89e3\u91ca\uff0c\u6570\u5b57\u5168\u90e8\u7531\u7a0b\u5e8f\u8ba1\u7b97\uff0c\u6570\u636e\u53ea\u5b58\u5728\u672c\u673a"
+  },
+  {
+    "id": "yuyosy/jev-file-sort",
+    "stars": 0,
+    "why": "novel first-seen github peer"
+  },
+  {
+    "id": "yamadashy/jev-labeler-action",
+    "stars": 0,
+    "why": "Zero-config AI issue labeling with TypeSafe's Jev. No generated text. Unofficial."
+  },
+  {
+    "id": "wendaoheri/jev-browser",
+    "stars": 0,
+    "why": "novel first-seen github peer"
+  },
+  {
+    "id": "trifleen/jev-vs-luna-phishing",
+    "stars": 0,
+    "why": "Phishing email triage: TypeSafe Jev 1.13 vs GPT-5.6 Luna on 100 labelled emails, accuracy, speed and cost"
+  },
+  {
+    "id": "slatinwine/jevy",
+    "stars": 0,
+    "why": "Jev-style typed-decision model distilled from official Jev. 118M, EN+CN, trains on a 4GB GPU in 10 minutes."
+  },
+  {
+    "id": "sidhasadhak/jev-perfume-advisor",
+    "stars": 0,
+    "why": "Perfume recommendation chatbot powered by TypeSafe Jev's typed decisions (no generated text) over FragDB-format fragrance data"
+  },
+  {
+    "id": "rxova/jev-planner",
+    "stars": 0,
+    "why": "novel first-seen github peer"
+  },
+  {
+    "id": "roprgm/tierjev",
+    "stars": 0,
+    "why": "Pick a set, state a criterion, let Jev sort it into tiers."
+  },
+  {
+    "id": "rodgco/playa",
+    "stars": 0,
+    "why": "Laya sandboxing with Elixir + NX"
+  },
+  {
+    "id": "rishi-raj-jain/hn-thread-judge",
+    "stars": 0,
+    "why": "The most-discussed Hacker News threads, each read comment by comment by Jev and reduced to one verdict. Live from Neon Lakebase Postgres with BM25 search."
+  },
+  {
+    "id": "petrixh/laya-test",
+    "stars": 0,
+    "why": "novel first-seen github peer"
+  },
+  {
+    "id": "patryckalves/jev-no-enem",
+    "stars": 0,
+    "why": "novel first-seen github peer"
+  },
+  {
+    "id": "nickorsk2017/horse-racing-ai-jev",
+    "stars": 0,
+    "why": "Horse racing simulator with real-time AI prediction. The TypeSafe Jev model is used to predict race changes in under a second."
+  },
+  {
+    "id": "ni3rav/jev-snake",
+    "stars": 0,
+    "why": "snake game with jev"
+  },
+  {
+    "id": "muffedd/jev-virality-predictor",
+    "stars": 0,
+    "why": "novel first-seen github peer"
+  },
+  {
+    "id": "mohamedAtoui/Jev-project",
+    "stars": 0,
+    "why": "novel first-seen github peer"
+  },
+  {
+    "id": "lanfeng123456/jev-hub",
+    "stars": 0,
+    "why": "Bilingual (zh/en) community guide for Jev - TypeSafe AI first System One decision model"
+  },
+  {
+    "id": "jayanthbagare/laya_examples",
+    "stars": 0,
+    "why": "Examples of Laya"
+  },
+  {
+    "id": "jackygu2006/reasonix-jev-compaction",
+    "stars": 0,
+    "why": "compaction for reasonix by Jev"
+  },
+  {
+    "id": "j341nono/jev-prompt-optimization",
+    "stars": 0,
+    "why": "automatically optimizing the instructions and decision criteria of TypeSafe Jev Choice from labeled data"
+  },
+  {
+    "id": "intjpatternrecogn-spec/jev-robotics",
+    "stars": 0,
+    "why": "novel first-seen github peer"
+  },
+  {
+    "id": "intjpatternrecogn-spec/jev-autonomous-driving",
+    "stars": 0,
+    "why": "novel first-seen github peer"
+  },
+  {
+    "id": "ideas-to-life/jev-cv-jd-evaluator",
+    "stars": 0,
+    "why": "novel first-seen github peer"
+  },
+  {
+    "id": "hyspacex/jev-router",
+    "stars": 0,
+    "why": "Route OpenAI-style chat requests to a model and reasoning effort, using TypeSafe's Jev decision model as the classifier"
+  },
+  {
+    "id": "hf:gump2049/APUS-OpenJev-v1",
+    "stars": 0,
+    "why": "tags: transformers safetensors decision-model dynamic-depth structured-output en zh base_model:Qwen/Qwen3.5-4B base_model:finetune:Qwen/Qwen3.5-4B endpoints_com"
+  },
+  {
+    "id": "hf:SeanLiu/Jev-Vision",
+    "stars": 0,
+    "why": "tags: safetensors decision-model vision computer-use process-reward verifier lora base_model:Qwen/Qwen3-VL-8B-Instruct base_model:adapter:Qwen/Qwen3-VL-8B-Instr"
+  },
+  {
+    "id": "hawkymisc/typed-decision-bert",
+    "stars": 0,
+    "why": "Unofficial PoC: a BERT-style encoder decision engine behind a typed-decision (noul / choice / score) HTTP API. Not affiliated with TypeSafe."
+  },
+  {
+    "id": "githubMJ/Laya4j",
+    "stars": 0,
+    "why": "Laya4j is a pure-Java 17+ SDK that ports the Laya System 1 decision framework - originally a Python research project - into a production-grade, deployable  infe"
+  },
+  {
+    "id": "fol2/jev-playground",
+    "stars": 0,
+    "why": "novel first-seen github peer"
+  },
+  {
+    "id": "erlonL/jev-is-you",
+    "stars": 0,
+    "why": "jev plays Baba is You"
+  },
+  {
+    "id": "egao1980/decision-backend-http",
+    "stars": 0,
+    "why": "HTTP System One backend for decision-protocol (Kev sidecar / hosted Jev)"
+  },
+  {
+    "id": "eatmoreduck/jev-jarvis",
+    "stars": 0,
+    "why": "novel first-seen github peer"
+  },
+  {
+    "id": "dagfinndybvig/Jev_Ontology",
+    "stars": 0,
+    "why": "Trying to combine Jev with ontology"
+  },
+  {
+    "id": "codewitheren/jev-openrouter-demo",
+    "stars": 0,
+    "why": "TypeSafe Jev support-ticket triage demo via OpenRouter"
+  },
+  {
+    "id": "codeChap/mcp-server-jev",
+    "stars": 0,
+    "why": "MCP server for TypeSafe Jev via OpenRouter - typed decisions (noul, choice, score), not chat"
+  },
+  {
+    "id": "cmd-siri-bot/llm-gateway",
+    "stars": 0,
+    "why": "A Jev-powered request router: one parallel call triages every query for security risk, intent, and complexity, then routes it to a cheap model, an escalation ti"
+  },
+  {
+    "id": "buzzo123/laya-chess",
+    "stars": 0,
+    "why": "novel first-seen github peer"
+  },
+  {
+    "id": "bonghancho/jev-ai-gateway-sample",
+    "stars": 0,
+    "why": "Sample: TypeSafe Jev via Vercel AI Gateway"
+  },
+  {
+    "id": "bnistor4/fotocopiatrice",
+    "stars": 0,
+    "why": "Emendamenti alla manovra letti uno per uno: fotocopie, firmatari, esiti. Dati Camera dei deputati, analisi TypeSafe Jev."
+  },
+  {
+    "id": "alikendir0/jev-pilot",
+    "stars": 0,
+    "why": "A simulated drone flown through an obstacle course by Jev, TypeSafe's System One decision model"
+  },
+  {
+    "id": "alexei-led/pi-model-router",
+    "stars": 0,
+    "why": "Independent Pi extension for four-tier model routing with optional privacy-gated Jev advice, deterministic baselines, budget controls, and safe fallbacks."
+  },
+  {
+    "id": "aldokruger/jev-skill",
+    "stars": 0,
+    "why": "novel first-seen github peer"
+  },
+  {
+    "id": "alaithuy385-byte/jev-decision-skill",
+    "stars": 0,
+    "why": "\u8ba9 AI Agent \u76f4\u63a5\u8c03\u7528 TypeSafe AI\u300cJev\u300d\u51b3\u7b56\u6a21\u578b\u7684 Skill -- \u514d API key\uff0c\u7eaf\u6807\u51c6\u5e93 CLI\u3002Agent Skill for TypeSafe AI Jev (System One)."
+  },
+  {
+    "id": "WesleySmits/spark-jev-email-triage",
+    "stars": 0,
+    "why": "Email triage app built around Spark CLI and TypeSafe Jev. Early development: TanStack Start, React and TypeScript; email integration is not implemented yet."
+  },
+  {
+    "id": "Waxmell114514/awesome-jev-compaction",
+    "stars": 0,
+    "why": "A context compactor that can only score, never write - so an agent's memory can't hold a fact the transcript never contained. Working demo, runs offline."
+  },
+  {
+    "id": "TS0047/jev-triage-demo",
+    "stars": 0,
+    "why": "novel first-seen github peer"
+  },
+  {
+    "id": "RobertKoval/jev-agent-tools",
+    "stars": 0,
+    "why": "Typed Jev decisions with automatic session context for Pi and Codex. One shared core, compact TOON output."
+  },
+  {
+    "id": "PhilPentatonic/hermes-model-routing",
+    "stars": 0,
+    "why": "Hermes skill: route tasks between a smart (planner) model and an implementer - validated Jev decision gate (82%/89% holdout), eval protocol, pitfalls."
+  },
+  {
+    "id": "MudraID/mudraid-adapter-node",
+    "stars": 0,
+    "why": "Framework-neutral TypeScript/Node adapter implementing the MudraID V2 enforcement decision core - typed decision vocabulary, deny-closed control loop, and /deci"
+  },
+  {
+    "id": "LilDojd/jevons",
+    "stars": 0,
+    "why": "A bounded Pi execution supervisor powered by TypeSafe Jev: decisions, recovery, review and verification."
+  },
+  {
+    "id": "JuneYaooo/housing-quality-radar",
+    "stars": 0,
+    "why": "\u4f18\u8d28\u623f\u5b50\u7b5b\u9009\u5668\uff1a\u5c0f\u7ea2\u4e66\u79df\u552e\u623f\u6e90\u8bc1\u636e\u7b5b\u9009\u3001\u8d26\u53f7\u4e0e\u5386\u53f2\u5206\u6790\uff0c\u53ef\u9009 Jev \u4f4e\u6210\u672c\u6587\u672c\u521d\u7b5b\u3002"
+  },
+  {
+    "id": "Juna1013/jev-quickstart",
+    "stars": 0,
+    "why": "novel first-seen github peer"
+  },
+  {
+    "id": "Giustino98/system-one-bench",
+    "stars": 0,
+    "why": "Benchmark riproducibile di TypeSafe Jev via API diretta/OpenRouter contro un modello locale MLX/Qwen su BANKING77."
+  },
+  {
+    "id": "Dearest/plotveil",
+    "stars": 0,
+    "why": "A quiet spoiler blocker for YouTube comments. One typed Jev (TypeSafe System One) Noul decision per comment; covered while checked, still covered if the check f"
+  },
+  {
+    "id": "DDnim/jev-vs-laya",
+    "stars": 0,
+    "why": "Jev vs Laya: SQL review benchmark for System-1 decision models"
+  },
+  {
+    "id": "Charlie-Qi394/jevrouter-prompt-tier-extension",
+    "stars": 0,
+    "why": "Reviewable Chrome MV3 prompt-tier recommendations using optional TypeSafe Jev, confidence gating, and transparent local fallback."
+  },
+  {
+    "id": "CeciliaW888/jev-town",
+    "stars": 0,
+    "why": "A 3D town where 50 AI citizens each decide how to react to your broadcast, in parallel, in under a second - powered by TypeSafe's Jev decision model."
+  },
+  {
+    "id": "Barba-Tech-CO/jev-claude-skill",
+    "stars": 0,
+    "why": "Claude Code skill for TypeSafe's Jev decision model - typed decisions via TypeSafe, Vercel AI Gateway or OpenRouter"
+  },
+  {
+    "id": "Autometrixai/jev-clinic-triage-eval",
+    "stars": 0,
+    "why": "Early evaluation of TypeSafe's Jev on clinic call triage: 98.6% accurate when confident, 116k decisions per dollar"
+  },
+  {
+    "id": "ASV-Labs/ask-jev-series",
+    "stars": 0,
+    "why": "Ask for the night you want. TypeSafe Jev weighs every flagship series on Netflix, Prime, Disney+, Max, Apple TV+, Hulu, Paramount+, Peacock, and Crunchyroll."
+  }
+]

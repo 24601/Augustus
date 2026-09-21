@@ -1,0 +1,104 @@
+[
+  {
+    "id": "hf:SeanLiu/Jev-Vision",
+    "source": "huggingface",
+    "kind": "novel",
+    "stars_listed": 0,
+    "why": "tags: safetensors decision-model vision computer-use process-reward verifier lora base_model:Qwen/Qwen3-VL-8B-Instruct base_model:adapter:Qwen/Qwen3-VL-8B-Instr",
+    "html_url": "https://huggingface.co/SeanLiu/Jev-Vision",
+    "http": 200,
+    "ok": true,
+    "modelId": "SeanLiu/Jev-Vision",
+    "sha": "9b77fa5fdcd0f30fbb4cabddaf9be62246e893ed",
+    "likes": 0,
+    "downloads": 0,
+    "pipeline_tag": null,
+    "tags": [
+      "safetensors",
+      "decision-model",
+      "vision",
+      "computer-use",
+      "process-reward",
+      "verifier",
+      "lora",
+      "base_model:Qwen/Qwen3-VL-8B-Instruct",
+      "base_model:adapter:Qwen/Qwen3-VL-8B-Instruct",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "library_name": null,
+    "license": "apache-2.0",
+    "cardData": {
+      "license": "apache-2.0",
+      "base_model": "Qwen/Qwen3-VL-8B-Instruct",
+      "tags": [
+        "decision-model",
+        "vision",
+        "computer-use",
+        "process-reward",
+        "verifier",
+        "lora"
+      ]
+    },
+    "createdAt": "2026-09-21T11:25:00.000Z",
+    "lastModified": "2026-09-21T11:25:31.000Z",
+    "gated": false,
+    "private": false,
+    "readme_preview": "---\nlicense: apache-2.0\nbase_model: Qwen/Qwen3-VL-8B-Instruct\ntags:\n- decision-model\n- vision\n- computer-use\n- process-reward\n- verifier\n- lora\n---\n\n# Jev-Vision (V9, 8B): an open-weight vision decision model\n\nA LoRA adapter (r=64 on the language model's attention and MLP projections, 175M trainable) plus typed decision\nheads (`heads.pt`) on Qwen3-VL-8B-Instruct. It is non-generative: one forward pass answers every typed question asked\nabout an image (or two images), returning one probability per question. Request and response follow TypeSafe's Jev\n`/v1/systemone` shape, so code written for Jev can point at this server. Trained on screens with labels derived from\nthe environment, and on typed questions built from public vision datasets. Code, benchmark, evals and the closed-loop\nharness: https://github.com/sseanliu/Jev-Vision\n\n## What it answers\n\n`noul` (yes/no probability), `choice` (a distribution over the supplied options, pointer readout over the option\ntokens) and `score` (ordered levels). Questions it was trained on: `ground` (which marked element to act on),\n`skip` (is this element already in the state the task needs), `effect` (did the last action change the page as\nintended; two images), `done` (is the goal achieved), the jev-ultrafast `operation` / `click_target` questions, and\ngeneral-image questions (object presence, VQA multiple choice, dish classification, two-image statement truth).\n\n## Measured (held out)\n\nScreens, 30 web sites never seen in training (labels from URL / DOM / field values):\n\n| track | skip | effect | done | ground |\n|---|---|---|---|---|\n| v0 candidate (marked screenshot + element table) | 0.955 | 0.946 | 0.944 | 0.939 |\n| v1 candidate, fresh episodes | 0.922 | 0.977 | 0.887 | 0.949 |\n| v1 pixel (raw screenshot + one marker, no table) | 0.931 | 0.931 | 0.891 | - |\n\nJev 1.13 on the same v1 items (text only): 0.870 / 0.733 / 0.887. jev-ultrafast `operation` question, 615 held-out\nrows: 0.911; `click_target` 0.969. As the decider inside jev-ultrafast it completes a Google Flights one-way search\n(10 actions, 33 s, all 7 independent page checks).\n\nGeneral images, 1,500 items from held-out splits: POPE 0.907, MME 0.927, NLVR2 0.930, A-OKVQA 0.893, Food-101 0.930\n(mean 0.917; the frozen backbone read from next-token logits: 0.911); yes/no ECE 0.034 to 0.047. Latency 74 ms per\ngeneral item, 150 to 190 ms per screenshot with all of a step's questions, on one H100 at batch 1.\n\n## Known limits\n\n- Out of its training domains it is over-confident: on JevBench's public hard tier (text-only long documents) it is\n  52% accurate at 91% mean confidence. Yes/no ranking on general images (AUROC 0.84 to 0.91) is below the frozen\n  backbone's (0.96). A temperature fitted on out-of-domain data is the intended fix; V10 tests a readout that keeps\n  the backbone's yes/no geometry.\n- Web grounding on Mind2Web-style pages 0.823 and macOS desktop grounding 0.822 are below the earlier grounding-only\n  checkpoint (0.850 / 0.914).\n- Trained and evaluated on 1280x1000 desktop web screenshots; not on mobile, logged-in or form-heavy flows.\n\n## Serving\n\n```sh\ngit clone https://github.com/sseanliu/Jev-Vision && cd Jev-Vision/model\npip install transformers==5.17.* peft accelerate pillow\nhf download SeanLiu/Jev-Vision --local-dir runs/v9-8b-ops/final\npython serve.py runs/v9-8b-ops/final --port 8811 --temp 0.5\n```\n\n`POST /v1/systemone` with `{\"state\": ..., \"image\": <base64 PNG> | \"images\": [...], \"questions\": {id: {\"type\": \"noul\" | \"choice\" | \"score\", \"instructions\": ..., \"criteria\": ...}}}`.\n\nFiles: `backbone/` (PEFT adapter), `heads.pt`, `s1_config.json`, `eval_*.json` (the numbers above).\n",
+    "readme_sha": "435a4b143b63",
+    "readme_len": 3651
+  },
+  {
+    "id": "hf:gump2049/APUS-OpenJev-v1",
+    "source": "huggingface",
+    "kind": "novel",
+    "stars_listed": 0,
+    "why": "tags: transformers safetensors decision-model dynamic-depth structured-output en zh base_model:Qwen/Qwen3.5-4B base_model:finetune:Qwen/Qwen3.5-4B endpoints_com",
+    "html_url": "https://huggingface.co/gump2049/APUS-OpenJev-v1",
+    "http": 200,
+    "ok": true,
+    "modelId": "gump2049/APUS-OpenJev-v1",
+    "sha": "e7e3cc0b9c82b91380ec6595120b7ce8abd32fd7",
+    "likes": 0,
+    "downloads": 0,
+    "pipeline_tag": null,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "decision-model",
+      "dynamic-depth",
+      "structured-output",
+      "en",
+      "zh",
+      "base_model:Qwen/Qwen3.5-4B",
+      "base_model:finetune:Qwen/Qwen3.5-4B",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "library_name": "transformers",
+    "license": null,
+    "cardData": {
+      "base_model": [
+        "Qwen/Qwen3.5-4B",
+        "Qwen/Qwen3.5-9B"
+      ],
+      "library_name": "transformers",
+      "language": [
+        "en",
+        "zh"
+      ],
+      "tags": [
+        "decision-model",
+        "dynamic-depth",
+        "structured-output"
+      ]
+    },
+    "createdAt": "2026-09-21T10:35:24.000Z",
+    "lastModified": "2026-09-21T11:54:41.000Z",
+    "gated": false,
+    "private": false,
+    "readme_preview": "---\nbase_model:\n- Qwen/Qwen3.5-4B\n- Qwen/Qwen3.5-9B\nlibrary_name: transformers\nlanguage:\n- en\n- zh\ntags:\n- decision-model\n- dynamic-depth\n- structured-output\n---\n\n# APUS-OpenJev-v1\n\n<p align=\"center\">\n  <a href=\"https://www.apusai.com\"><img alt=\"APUS Official Website\" src=\"https://img.shields.io/badge/APUS-Official_Website-007F73\"></a>\n  <a href=\"https://huggingface.co/apus-ailab\"><img alt=\"APUS AI Lab on Hugging Face\" src=\"https://img.shields.io/badge/Hugging_Face-APUS_AI_Lab-FFD21E\"></a>\n  <a href=\"https://github.com/APUS-AI-Lab\"><img alt=\"APUS AI Lab on GitHub\" src=\"https://img.shields.io/badge/GitHub-APUS_AI_Lab-181717?logo=github\"></a>\n  <a href=\"https://huggingface.co/gump2049/APUS-OpenJev-v1/blob/main/LICENSE\"><img alt=\"Original contributions: MIT\" src=\"https://img.shields.io/badge/Original_Contributions-MIT-007F73\"></a>\n</p>\n\n<p align=\"center\"><strong><a href=\"https://huggingface.co/gump2049/APUS-OpenJev-v1/blob/main/TECHNICAL_REPORT.pdf\">Technical Report</a></strong></p>\n\n**Decision models with selectable compute depth.**\n\n[Model weights](https://huggingface.co/gump2049/APUS-OpenJev-v1/tree/main) · [Architecture](ARCHITECTURE.md) · [Evaluation data](https://huggingface.co/datasets/gump2049/xDAN-openJet-Eval-Frozen80-20260921)\n\n## 1. Introduction\n\nWe introduce **APUS-OpenJev-v1**, a family of decision models for browser agents and business workflows. Given a task, context, and candidate actions, the model returns a scored choice that an application can execute. The family provides 4B and 9B variants with a common decision interface.\n\n**Architecture.** A shared language-model backbone supports multiple compute budgets. Task definitions and candidate meanings arrive through natural language, allowing the same model to handle different decision spaces. Applications select `effort=\"low\"` or `effort=\"high\"` through the included runtime.\n\n**Joint post-training.** Decision learning is coordinated across computation depths. Both execution paths learn from reference decisions, while the complete path supplies a distribution-level learning signal for the shorter path. This trains useful early decisions rather than relying on an untrained intermediate representation. The [architecture guide](ARCHITECTURE.md) explains the design and its trade-offs.\n\n**Decision-oriented inference.** The runtime scores candidate labels and maps them back to application actions. This removes the need to generate a structured answer token by token for bounded-choice tasks. Choose `effort=\"low\"` or `effort=\"high\"` to balance compute cost and decision quality.\n\nOn our frozen 80-question development panel, **APUS-OpenJev 9B achieves 85.0% accuracy**, compared with **82.5% for the Jev API**. Its historical local reference implementation records **77.76 ms median model-forward latency**. Accuracy and latency are reported with their evaluation settings below.\n\n![Decision accuracy on the same 80-question panel: APUS 9B 85%, APUS 4B and Jev 82.5%, Laya complete-input 68.75%.](assets/accuracy.svg)\n\n*Figure 1. Same-panel decision accuracy. APUS results use the full compute budget; Laya uses its higher-scoring complete-input configuration after truncation was corrected.*\n\n## 2. Evaluation Results\n\n### Decision quality\n\n| Model | Correct / total | Accuracy |\n| --- | ---: | ---: |\n| **APUS-OpenJev 9B** | **68 /80** | **85.00%** |\n| APUS-OpenJev 4B | 66 /80 | 82.50% |\n| Jev API | 66 /80 | 82.50% |\n| Laya · typed configuration, complete input | 55 /80 | 68.75% |\n\nAll models are compared on the same frozen question identities and reference labels. Laya's complete-input typed configuration reproduces 55/80 across three runs; its complete-input English configuration scores 54/80. Repetition establishes consistency on these questions, not additional independent evidence. The two-question advantage over Jev is a panel result and does not establish broad or statistically significant superiority.\n\n### Results by task\n\n![Per-task decision accuracy for APUS-OpenJev 4B and 9B, the Jev API, and Laya with complete input.](assets/task-accuracy.svg)\n\n*Figure 2. Correct answers and accuracy for each task family. APUS models use the full compute budget; Laya uses the complete-input typed configuration. Each family contains 16 questions, so one answer changes accuracy by 6.25 percentage points.*\n\nThe 4B model leads this panel's Browser subset, while 9B's gains come from principle-based judgments and natural language inference. Laya's corrected Browser result is 4/16. The task breakdown and source hashes are recorded in [subset-chart-data.json](subset-chart-data.json).\n\n### Response latency\n\n![P50 and P95 latency bars, with local model, local pipeline and remote API timing boundaries labeled.](assets/latency.svg)\n\n*Figure 3. Latency observations with explicit measurement boundaries. P50 and P95 use separately labeled linear scales. These measurements are not streaming first-token latency or text-generation throughput.*\n\n| Measured path | P50 | P95 | Timing boundary |\n| --- | ---: | ---: | --- |\n| APUS-OpenJev 9B reference | 77.76 ms | 505.16 ms | Local model forward |\n| APUS-OpenJev 4B reference | 85.43 ms | 406.30 ms | Local model forward |\n| Laya typed · complete input | 8.68 ms | 37.66 ms | Local `system_one`, including tokenization and output processing |\n| Jev API | 436.96 ms | 4874.61 ms | Complete public HTTP response |\n\nAPUS figures come from the historical RTX PRO 6000 reference implementation, not a new end-to-end test of this merged release. Laya's measured local path is faster; the displayed statistics are the medians of three per-run P50/P95 values. Public API times include network, queuing, and service overhead, so their ratio to a local forward time is not a model speedup. Exact values and aggregation are recorded in [chart-data.json](chart-data.json).\n\n## 3. Evaluation Set\n\n![Frozen80 composition: five task families with 16 questions each, 80 questions and 79 parent groups in total.](assets/dataset-subsets.svg)\n\n*Figure 4. Dataset composition, source datasets, and target capabilities. Parent groups identify related examples; equal question counts do not imply equal task difficulty or production traffic.*\n\n| Task family | Questions | Decision evaluated |\n| --- | ---: | --- |\n| Browser / Mind2Web | 16 | Select an action from a static page state |\n| HelpSteer3 | 16 | Check a response against a supplied principle |\n| BoolQ | 16 | Answer a binary question from evidence |\n| MNLI | 16 | Distinguish entailment, neutral, and contradiction |\n| Score / GoEmotions | 16 | Judge whether an individual attribute applies |\n\nThe panel contains **80 questions from 79 parent groups** and is released as `validation`. It has informed development and model selection. All 16 Score labels are No, so an always-No strategy scores 100% on that subset; these results cannot establish positive-case Score performance. Browser evaluation covers offline action selection, not complete website tasks.\n\nThe [dataset](https://huggingface.co/datasets/gump2049/xDAN-openJet-Eval-Frozen80-20260921) includes JSONL/Parquet, frozen identifiers, provenance, schema documentation, and verification code. It is a separate private repository with its own access permissions.\n\n## 4. Decision Encoding\n\nA request carries the task, supporting context, and 2–16 candidate descriptions. The runtime assigns request-local short labels, evaluates the legal candidate set, and returns the selected candidate ID with relative scores. Application code assembles the response. Candidate meanings can change between requests without adding a fixed business-category classifier.\n\nA legal output can still be the wrong decision. Candidate probabilities are not calibrated confidence, and business thresholds require validation. See the [runtime contract](9B-3000/RUNTIME.md) for the supported request format.\n\n## 5. Minimal Inference\n\nThe repository is a model-family bundle. Choose a subdirectory containing complete BF16 weights and the reference runtime:\n\n| Variant | Model directory | Suggested use |\n| --- | --- | --- |\n| **9B** | `9B-3000/` | Quality-focused evaluation |\n| **4B** | `4B-5949/` | Smaller parameter footprint |\n\nAn additional 9B research variant is listed in the [artifact manifest](bundle-manifest.json). Load a model subdirectory, not the repository root.\n\nUse a CUDA-capable PyTorch environment. This example pins the verified model-artifact revision:\n\n```bash\npython -m pip install huggingface_hub\nhf auth login\nhf download gump2049/APUS-OpenJev-v1 \\\n  --revision c0147785b363c38d80f8b1b9dac0603287864b45 \\\n  --include \"9B-3000/*\" --local-dir ./APUS-OpenJev-v1\ncd ./APUS-OpenJev-v1/9B-3000\npython -m pip install -r requirements.txt\npython examples.py . --device cuda:0 --effort high\n```\n\nFor 4B, download `4B-5949/*` and enter that directory. The included runtime implements the budget control; ordinary Transformers loading does not enable it automatically. Text generation should use `high`. See [inference documentation](9B-3000/RUNTIME.md) and [examples](9B-3000/examples.py).\n\n## 6. Reproducing the Evaluation\n\nUse the fixed dataset revision `f15c828a1d926912f28bf5a8bf1e83f9c6b45c72`, preserve question and candidate order, and record the model revision, runtime, dtype, and compute budget. Keep reference labels out of the model input. Report decision accuracy separately from latency, and state precisely where timing starts and ends.\n\nThe release records fixed source revisions and per-file hashes. Model files were downloaded and verified, with GPU checks on the source packages; this family bundle preserves those model bytes. Subsequent model-card changes do not represent new training or evaluation. Detailed merge results and diagnostic examples remain in the [9B evaluation records](9B-3000/merged-evaluation.json) and [4B evaluation records](4B-5949/merged-evaluation.json). BF16 merging changed some candidate probabilities, so calibration and routing thresholds must be revalidated.\n\n## 7. License\n\nOriginal APUS-OpenJev-v1 code and documentation contributed in this release are licensed under the [MIT License](LICENSE). Qwen-derived model weights and inherited code retain their applicable [Apache 2.0 license and notices](9B-3000/LICENSE); see the [license scope](LICENSE_NOTICES.md) for all variants. Dataset licenses are documented separately.\n\n## 8. Citation\n\n```bibtex\n@misc{apusopenjev2026,\n  title  = {APUS-OpenJev-v1: Decision Models with Selectable Compute Depth},\n  author = {gumpcheng and zhangxu and {APUS AI-LAB}},\n  year   = {2026},\n  url    = {https://huggingface.co/gump2049/APUS-OpenJev-v1}\n}\n```\n\n## 9. Contact\n\nVisit the [APUS official website](https://www.apusai.com) or [APUS AI Lab on Hugging Face](https://huggingface.co/apus-ailab). For model questions and feedback, open a discussion in this model repository's [Community tab](https://huggingface.co/gump2049/APUS-OpenJev-v1/discussions).\n\n**Authors:** gumpcheng ([https://huggingface.co/xDAN2099](https://huggingface.co/xDAN2099)), zhangxu, [APUS AI-LAB](https://github.com/APUS-AI-Lab).\n",
+    "readme_sha": "ffca46394fe5",
+    "readme_len": 11039
+  }
+]
