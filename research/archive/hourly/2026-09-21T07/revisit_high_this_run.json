@@ -1,0 +1,33 @@
+[
+  {
+    "id": "Zefan-Cai/Open-Jev",
+    "kind": "revisit",
+    "stars": 27,
+    "description": "REVISIT densify: HEAD 48346d0630f1\u2192afb5226982c7; Publish audited JevBench public-subset baselines + community benchmark plan (*theirs*)",
+    "html_url": "https://github.com/Zefan-Cai/Open-Jev",
+    "source": "github",
+    "material": [
+      "new_bench",
+      "readme",
+      "head_sha",
+      "api_shape"
+    ],
+    "prior_sha": "48346d0630f14327041928b4b3ecbe07ef65ad6c",
+    "new_sha": "afb5226982c7b3c1bfb2b49ae63f92eed64e3d3a"
+  },
+  {
+    "id": "jaredpalmer/kev",
+    "kind": "revisit",
+    "stars": 1244,
+    "description": "REVISIT densify: HEAD c096660c8da2\u2192e0bcf50153f1; night-2 35B/36B MMLU-Pro transfer numbers (0.550) + evaluate.load bf16 honour (*theirs*)",
+    "html_url": "https://github.com/jaredpalmer/kev",
+    "source": "github",
+    "material": [
+      "new_bench",
+      "calibration",
+      "head_sha"
+    ],
+    "prior_sha": "c096660c8da20a80ce7c61c63d224960f497623a",
+    "new_sha": "e0bcf50153f1bda4ca6a8be5e12cbd5f9ebbce1c"
+  }
+]

@@ -2538,6 +2538,18 @@ temperature scaling ≠ ECE unless measured.
 Hub --revision is a pin not a replica. SHA move is not a replica.
 Full card: `notes.md` §132.
 
+### Since last look (2026-09-21T07 hourly 0049) — jaredpalmer/kev
+
+DENSIFY §45. Keep this section id. Do not mint a sibling first sighting.
+HEAD `e0bcf50153f1` README SHA **unchanged** `84b872488915` (was
+`c096660c8da2` / 2049). Quote *theirs*: PLAN correct 35B MMLU-Pro (0.550).
+evaluate.load honour weights_dtype=bf16. Kev on Qwen3.6-35B-A3B transfer-v9
+MMLU-Pro 0.550 (Kev-9B 0.545, Jev 0.840) *theirs*. Not shipped. Fails the
+pre-registered bar (≥ Kev-9B + 2 pp). Qwen3.6 ≠ Archer. temperature scaling
+≠ ECE unless measured. Hub --revision is a pin not a replica. SHA move is
+not a replica. Full card: `notes.md` §132 / §136.
+
+
 ## 46. 14:03 Boise hourly — open multimodal RLCD, bake-off substrate, decision-token LoRA (2026-09-18)
 
 America/Boise 14:03 = 20:03 UTC. Docs-only fold into PR #2
@@ -31588,6 +31600,31 @@ star move. README SHA unchanged. SHA move is not a replica.
   Open-Jev TREC pending. Do **not** quote Jev/Luna/Astra nDCG as an
   Open-Jev result. Full card: §125 / §134.
 
+### Since last look (2026-09-21T06:58Z Open-Jev JevBench public-subset)
+
+DENSIFY §125 item 5 / the 2026-09-21T04:04Z TREC-prep card. Do **not**
+mint a sibling first-sighting section. Material change is audited JevBench
+public-subset baselines plus the community benchmark plan, then a diverse
+hard-data pipeline whose new-model gains have not been measured. Star-noise
+27★→28★ is not the fold. SHA move is not a replica.
+
+**[Zefan-Cai/Open-Jev](https://github.com/Zefan-Cai/Open-Jev)**
+- DENSIFY §125 (MIT source; live **28★**; HEAD `f46ff604f794`; README SHA
+  `e32c4bbd519c` (was `ce1a587219e4`); pushed `2026-09-21T06:58:07Z`; prompt
+  SHA `afb5226982c7` "Publish audited JevBench public-subset baselines"; was
+  HEAD `48346d0630f1` at the 04:04Z look). Quote *theirs*: 231 public tasks
+  (72 original / 48 easy / 111 hard). Full 534 has 303 private unavailable.
+  do not report full-534. 2B 150/231 64.94%; 9B 179/231 77.49%; Jev 200/231
+  86.58%; Luna 206/231 89.18%; Astra 231/231 100.00% *theirs*. Brier 0.4751 /
+  0.3219 / 0.1811 / 0.2074 / 0.0085 *theirs*. ECE 0.1274 / 0.0858 / 0.0318 /
+  0.0932 / 0.0149 *theirs*. P50 138.0 / 189.2 / 291.3 / 953.8 / 2206.4 ms
+  *theirs* (not matched-hardware). Candidate order differs 119 of 139 Choice.
+  native vs verbalized. public-subset ≠ Harbor. 231 ≠ 534. Open-Jev TREC
+  pending. 27B training not complete. LoRA ≠ RLCD replica. Qwen3.5-2B ≠ Archer.
+  Qwen3.5-9B ≠ Archer. densify §125 not a sibling first sighting. Full card:
+  §125 / §136.
+
+
 User-provided Open-Jev densify uniqueness lock: Zefan-Cai/Open-Jev densify HEAD 4933ee84951f README SHA ce1a587219e4; pushed 2026-09-21T01:34Z; Astra TREC commit 1dd56990be7e pushed 2026-09-21T01:17Z; live 3★ (was 0★; star-noise is not the fold); LoRA adapters plus trained scalar decision head and calibration temperature; not merged base models; dataset ZefanCai/Open-Jev rev c67699e13d0a; Open-Jev-2B rev 0c7aa498b162; Open-Jev-9B rev 47e966881e48; 27B still in progress; Independent of TypeSafe; no RLCD/parity claims; LoRA ≠ RLCD replica; customer-service P50 local HTTP 85.03 ms vs Jev HTTPS 295.26 ms *theirs*; 1024 tokens/32 candidates Open-Jev slower 1015.90 vs 301.37 *theirs*; prefix caching experimental/off by default; CUDA prefix caching exceeded tolerance on 9/11 workloads; systems latency ≠ semantic equivalence; GPT Luna P50 918.13 ms Astra 1938.39 ms *theirs*; TREC-DL Jev/Luna/Astra completed; Open-Jev TREC pending; 80,816 training rows; 2B 94.71% / OOD 86.02%; 9B 97.54% / 91.97% *theirs* not Harbor; hard acc ≠ calibrated Noul; type-valid ≠ exact; Qwen/Qwen3.8-27B ≠ Archer; website https://zefan-cai.github.io/open-jev/; launch X thread https://x.com/Zefan_Cai/status/2101782158658695388 https://x.com/Zefan_Cai/status/2101786019607740436 https://x.com/Zefan_Cai/status/2101789698947793231; densify §125 not a sibling first sighting; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52; notes.md §125
 
 
@@ -34340,3 +34377,241 @@ Hourly 2347 uniqueness lock: razorback16/openjev densify HEAD 2050fdb8280d READM
 
 **Hourly 2347 HIGH (`notes.md` §135).** openjev MLX densify HEAD 2050fdb8280d. README SHA d5322e16e565. MLX backend steps>1/think/text gen + image Qs. dual serving is not generate. Hosted Codiv ≠ TypeSafe. wire-compat ≠ logit-equiv. TypeLLM Release v0.1.1 densify HEAD 8a8b4aefd443. README SHA unchanged 9f6dea3a4c8c. GitHub Release v0.1.1. Constrained AR ≠ calibrated Noul. PyPI packaging ≠ calibrated Noul. JevLoop 6★ independent not affiliated. WANLI-256 74.6% *theirs*. option order 0.188 or 0.542 *theirs*. jevtok 0 mismatches *theirs* not Harbor. ockev 35ms 95.8% TomatoEggBench *theirs* not Harbor. n=8 is not Harbor. serving substrate ≠ calibrated replica. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#58. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
 Hourly 2347 uniqueness lock: razorback16/openjev densify HEAD 2050fdb8280d README SHA d5322e16e565; MLX backend steps>1/think/text gen + image Qs; dual serving is not generate; Hosted Codiv ≠ TypeSafe; wire-compat ≠ logit-equiv; SHA move is not a replica; TypeLLM/TypeLLM densify HEAD 8a8b4aefd443 README SHA unchanged 9f6dea3a4c8c; GitHub Release v0.1.1; Drop fixed banner height so it scales on PyPI; Constrained AR ≠ calibrated Noul; PyPI packaging ≠ calibrated Noul; type safety does not guarantee factual accuracy; zjunlp/JevLoop 6★ independent not affiliated; NicolaiLassen/open-bonsai-jev ≠ NicolaiMTLassen/open-bonzi-jev; WANLI-256 74.6% *theirs*; danielhirt/jev-lab ≠ tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ mjyoke1111/jev-lab; option order 0.188 or 0.542 *theirs*; novaleolin/jev-evolve; option order can change an answer; LabGuy94/jevtok 0 mismatches *theirs* not Harbor; ockev 35ms 95.8% TomatoEggBench *theirs* not Harbor; structured-decision-bench n=8 *theirs*; n=8 is not Harbor; Yang-SS-stack/jev-computer-use ≠ Mrchen116/jev-computer-use; amoreX/jevvy ≠ PanAchy/jevvy ≠ aboisvert/jevvy; smile-magic/laya-mlx-ddz ≠ smile-magic/laya-mlx-wzq; sriramkasyap/laya-api wire-compat ≠ logit-equiv; hf:space:Yuki131/KaLM-Jev ≠ KaLM-Embedding/KaLM-Jev; KaLM-Jev reranker ≠ Jev replica; hf:soyelmismo/laya-multilingual-onnx serving substrate ≠ calibrated replica; ranking before lossless condensation; llm-routing-jiv does not execute; jev-page-checker advisory does not block; 1deat0r/Jcua Cua-S1 ≠ TypeSafe; Jev-Register-Tool catalog only; nexibeo/jev-cookbook already carded; leesk212/JEV-CPU already carded; kazuhideoki/jev-search already carded; skip-thin layacm empty SHA; game success ≠ calibrated Noul; does not execute; catalog ≠ endorsement; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58; notes.md §135
+**Hourly 0049 HIGH (`notes.md` §136).** Open-Jev JevBench public-subset densify HEAD f46ff604f794. README SHA e32c4bbd519c. public-subset ≠ Harbor. 231 ≠ 534. kev night-2 35B densify HEAD e0bcf50153f1. README SHA unchanged 84b872488915. PLAN correct 35B MMLU-Pro (0.550). evaluate.load honour weights_dtype=bf16. 5-10× *theirs* not Harbor. fail-open routing ≠ permission. ordered routing ≠ end-to-end. softmax next-token ≠ calibrated Noul. potential_match ≠ hiring decision. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#59. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+Hourly 0049 uniqueness lock: Zefan-Cai/Open-Jev densify HEAD f46ff604f794 via afb5226982c7 README SHA e32c4bbd519c was ce1a587219e4; Publish audited JevBench public-subset baselines; community benchmark plan; diverse hard-data pipeline New model gains have not been measured; 231 public tasks 72 original 48 easy 111 hard; full 534 303 private unavailable; do not report full-534; 2B 150/231 64.94% 9B 179/231 77.49% Jev 200/231 86.58% Luna 206/231 89.18% Astra 231/231 100.00% *theirs*; Brier 0.4751 0.3219 0.1811 0.2074 0.0085 *theirs*; ECE 0.1274 0.0858 0.0318 0.0932 0.0149 *theirs*; P50 138.0 189.2 291.3 953.8 2206.4 ms *theirs*; candidate order 119 of 139 Choice; native vs verbalized; public-subset ≠ Harbor; 231 ≠ 534; Open-Jev TREC pending; 27B training not complete; LoRA ≠ RLCD replica; Qwen3.5-2B ≠ Archer; Qwen3.5-9B ≠ Archer; densify §125 not a sibling first sighting; jaredpalmer/kev densify HEAD e0bcf50153f1 README SHA unchanged 84b872488915; PLAN correct 35B MMLU-Pro (0.550); evaluate.load honour weights_dtype=bf16; Kev Qwen3.6-35B-A3B MMLU-Pro 0.550 Kev-9B 0.545 Jev 0.840 *theirs*; Not shipped; Qwen3.6 ≠ Archer; Hub --revision is a pin not a replica; wy-coliney/jev-browser-use 282★ 5-10× *theirs* not Harbor; Jev clicks Codex thinks and verifies; wy-coliney/jev-browser-use ≠ browser-use/jev-ultrafast ≠ Mrlyk/jev-browser ≠ akras14/jevbro; gargpratyush/jev-router 270★ first card fail-open routing ≠ permission; 33Audits/jev-auto ≠ gargpratyush/jev-router; BillionsBobby/JevRouter 124★ 38% 44% vs 24% *theirs* not Harbor; ordered routing ≠ end-to-end; BillionsBobby/JevRouter ≠ gargpratyush/jev-router; daseinlabs/open-jev 75★ Gemma 3 4B MLX; softmax next-token ≠ calibrated Noul; head 0.970 ECE 0.027 *theirs*; shuffled-context 0.258; daseinlabs/open-jev ≠ Zefan-Cai/Open-Jev ≠ razorback16/openjev ≠ zhlei07/openjev; skeptrunedev/jev-recruiter potential_match ≠ hiring decision; abhixhek/jevcal threshold on held-out; simulator not a Jev bench; fail-closed without fallback; AntonioCoppe/jev-harness already carded; akash-kamat/system-one-gemma 64.4% ECE 0.047 *theirs*; 200x *theirs* not Harbor; Premo-Cloud/typesafe-sdk-java unofficial; AgentBuff/awesome-jev catalog ≠ endorsement; AgentBuff/awesome-jev ≠ yibie/awesome-jev ≠ heyjunpenn/awesome-jev; Alpha-Harper-Franklin/jev-drive ≠ VennIntelligence/jev-drive; skip-thin zhlei07/openjev empty SHA khmuhtadin/n8n-nodes-jev-classification empty SHA; game success ≠ calibrated Noul; does not execute; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59; notes.md §136
+
+## 136. Hourly 0049 HIGH (2026-09-21 ~00:49 Boise / 2026-09-21T06:49Z)
+
+Measurement / class-member fold on a **fresh PR off latest `main`**
+(`cursor/fold-hourly-0049-high-a68c`) after `28d5c81` (merged #59 hourly
+2347 HIGH, `notes.md` §135 / items 569–584 / batch #117; merged #58 hourly
+2246 HIGH, `notes.md` §134).
+**HARD RULE:** do not reopen or amend PR #23–#59.
+Do **not** re-fold §135 2347 / §134 2246 / §133 2146 *as a second census*.
+Do not amend #59/#58/#57. Do not mint a sibling Open-Jev or kev first
+sighting. Densify `Zefan-Cai/Open-Jev` on §125 only. Densify
+`jaredpalmer/kev` on §45 only. This fold's IDs:
+`notes.md` §136 / composition 585–600 / findings batch #118.
+
+Never reopen merged #7–**#59**. Quote READMEs / release notes.
+Mark *theirs*. No wrappers, keys, `npm` / `pip` / `uv` / `docker`
+install recipes. `invented_signal: false`. Hunches labeled.
+
+Lane is Augustus: **mathematical / logical / algorithmic mental models**
+for Jev-class categorization/scoring across AI / SWE / **business /
+knowledge work / life**, not SWE-only. PRIMARY this hour is **REVISIT
+densify** of Open-Jev JevBench public-subset baselines plus kev night-2
+35B/36B MMLU-Pro transfer, with novel HIGH class members (browser-use
+speedup, fail-open and ordered routers, Gemma open heads, recruiter
+sensor, calibration harness, unofficial Java SDK, catalogs, design-stage
+drive/VLA/WAM). Jev is exemplar, not the mandate. Third-party benches
+stay *theirs*. Catalogs are indexes. Soft scores ≠ hard gates. SHA move
+is not a replica. public-subset ≠ Harbor. 231 ≠ 534. routing ≠ permission.
+softmax next-token ≠ calibrated Noul. potential_match ≠ hiring decision.
+evaluate.load honour weights_dtype=bf16. Archer still **promised_not_landed**.
+
+Unique consecutive fragments (this fold) must appear as **one
+substring** in overlays (see uniqueness gate):
+Hourly 0049 uniqueness lock: Zefan-Cai/Open-Jev densify HEAD f46ff604f794 via afb5226982c7 README SHA e32c4bbd519c was ce1a587219e4; Publish audited JevBench public-subset baselines; community benchmark plan; diverse hard-data pipeline New model gains have not been measured; 231 public tasks 72 original 48 easy 111 hard; full 534 303 private unavailable; do not report full-534; 2B 150/231 64.94% 9B 179/231 77.49% Jev 200/231 86.58% Luna 206/231 89.18% Astra 231/231 100.00% *theirs*; Brier 0.4751 0.3219 0.1811 0.2074 0.0085 *theirs*; ECE 0.1274 0.0858 0.0318 0.0932 0.0149 *theirs*; P50 138.0 189.2 291.3 953.8 2206.4 ms *theirs*; candidate order 119 of 139 Choice; native vs verbalized; public-subset ≠ Harbor; 231 ≠ 534; Open-Jev TREC pending; 27B training not complete; LoRA ≠ RLCD replica; Qwen3.5-2B ≠ Archer; Qwen3.5-9B ≠ Archer; densify §125 not a sibling first sighting; jaredpalmer/kev densify HEAD e0bcf50153f1 README SHA unchanged 84b872488915; PLAN correct 35B MMLU-Pro (0.550); evaluate.load honour weights_dtype=bf16; Kev Qwen3.6-35B-A3B MMLU-Pro 0.550 Kev-9B 0.545 Jev 0.840 *theirs*; Not shipped; Qwen3.6 ≠ Archer; Hub --revision is a pin not a replica; wy-coliney/jev-browser-use 282★ 5-10× *theirs* not Harbor; Jev clicks Codex thinks and verifies; wy-coliney/jev-browser-use ≠ browser-use/jev-ultrafast ≠ Mrlyk/jev-browser ≠ akras14/jevbro; gargpratyush/jev-router 270★ first card fail-open routing ≠ permission; 33Audits/jev-auto ≠ gargpratyush/jev-router; BillionsBobby/JevRouter 124★ 38% 44% vs 24% *theirs* not Harbor; ordered routing ≠ end-to-end; BillionsBobby/JevRouter ≠ gargpratyush/jev-router; daseinlabs/open-jev 75★ Gemma 3 4B MLX; softmax next-token ≠ calibrated Noul; head 0.970 ECE 0.027 *theirs*; shuffled-context 0.258; daseinlabs/open-jev ≠ Zefan-Cai/Open-Jev ≠ razorback16/openjev ≠ zhlei07/openjev; skeptrunedev/jev-recruiter potential_match ≠ hiring decision; abhixhek/jevcal threshold on held-out; simulator not a Jev bench; fail-closed without fallback; AntonioCoppe/jev-harness already carded; akash-kamat/system-one-gemma 64.4% ECE 0.047 *theirs*; 200x *theirs* not Harbor; Premo-Cloud/typesafe-sdk-java unofficial; AgentBuff/awesome-jev catalog ≠ endorsement; AgentBuff/awesome-jev ≠ yibie/awesome-jev ≠ heyjunpenn/awesome-jev; Alpha-Harper-Franklin/jev-drive ≠ VennIntelligence/jev-drive; skip-thin zhlei07/openjev empty SHA khmuhtadin/n8n-nodes-jev-classification empty SHA; game success ≠ calibrated Noul; does not execute; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59; notes.md §136
+
+### How-to-apply (class lenses, not vendor tutorials)
+
+These are *class* lenses. Same discipline as §135 (dual serving is not
+generate) and §125 (LoRA ≠ RLCD replica). Formal methods **compose**: a
+Noul is a SENSOR; a public subset is not the full bench; a transfer
+score is not a shipped model; routing is not permission.
+
+1. **public-subset ≠ Harbor / 231 ≠ 534**
+   (Zefan-Cai/Open-Jev densify §125). Quote *theirs*: Publish audited
+   JevBench public-subset baselines. 231 public tasks (72 original / 48
+   easy / 111 hard). Full 534 has 303 private unavailable. do not report
+   full-534. 2B 64.94% / 9B 77.49% / Jev 86.58% / Luna 89.18% / Astra
+   100.00% *theirs*. Brier and ECE as listed. Candidate order differs
+   119 of 139 Choice. native vs verbalized. P50 ms not matched-hardware.
+   Open-Jev TREC pending. 27B training not complete. LoRA ≠ RLCD replica.
+   densify §125 not a sibling first sighting. SHA move is not a replica.
+   Do **not** copy `pip` / train flags.
+2. **PLAN correct 35B MMLU-Pro (0.550) / evaluate.load honour weights_dtype=bf16**
+   (jaredpalmer/kev densify §45). HEAD `e0bcf50153f1`. README SHA
+   unchanged `84b872488915`. Quote *theirs*: Kev Qwen3.6-35B-A3B
+   MMLU-Pro 0.550 vs Kev-9B 0.545 vs Jev 0.840. Not shipped. evaluate.load
+   honour weights_dtype=bf16 (bf16 backbone, adapter unmerged). Qwen3.6 ≠
+   Archer. Hub --revision is a pin not a replica.
+3. **5-10× *theirs* not Harbor / fail-open routing ≠ permission /
+   ordered routing ≠ end-to-end**
+   (wy-coliney/jev-browser-use; gargpratyush/jev-router;
+   BillionsBobby/JevRouter). Quote *theirs*: Jev clicks, Codex thinks
+   and verifies. 5-10× at EZCollegeApp. Fail-open routing. Toolathlon
+   38%/44% vs DeepSeek 24% *theirs* not Harbor. routing ≠ permission.
+   low confidence never downgrades a permission. ordered routing ≠
+   end-to-end.
+4. **softmax next-token ≠ calibrated Noul / potential_match ≠ hiring
+   decision / catalog ≠ endorsement**
+   (daseinlabs/open-jev; akash-kamat/system-one-gemma;
+   skeptrunedev/jev-recruiter; abhixhek/jevcal; AgentBuff/awesome-jev).
+   Quote *theirs*: Gemma 3 4B MLX one-pass option scoring. head 0.970
+   ECE 0.027 *theirs*; shuffled-context 0.258. Gemma 270M overall acc
+   64.4% ECE 0.047 Brier 0.454 *theirs*. 200x *theirs* not Harbor.
+   simulator not a Jev bench. fail-closed without fallback. catalog ≠
+   endorsement. AntonioCoppe/jev-harness already carded.
+
+### HIGH
+
+1. **[`Zefan-Cai/Open-Jev`](https://github.com/Zefan-Cai/Open-Jev) JevBench
+   public-subset densify §125 PRIMARY.** DENSIFY the original card. Keep
+   section id 125. Do not mint a sibling first sighting. Live REST **28★**.
+   HEAD `f46ff604f794b1932d1a6f34725c8163e550952a`. README SHA
+   `e32c4bbd519c9d3204bc9c8a9f66213d672b9594` (was `ce1a587219e4`).
+   Prompt SHA `afb5226982c7`. public-subset ≠ Harbor. 231 ≠ 534.
+   Full card: §125.
+2. **[`jaredpalmer/kev`](https://github.com/jaredpalmer/kev) night-2 35B
+   densify §45.** DENSIFY the original card. Keep section id 45. Live REST
+   **1252★** (was 1244★; star-noise is not the fold). HEAD
+   `e0bcf50153f1bda4ca6a8be5e12cbd5f9ebbce1c`. README SHA **unchanged**
+   `84b8724889155d3fcc794abe96f8bf36700289c3`. PLAN correct 35B MMLU-Pro
+   (0.550). evaluate.load honour weights_dtype=bf16. Not shipped.
+   Full card: §45 / §132.
+3. **[`wy-coliney/jev-browser-use`](https://github.com/wy-coliney/jev-browser-use)
+   first card PRIMARY novel.** MIT; **282★**; JavaScript; HEAD
+   `f14b60e0ae1e`; README SHA `40ef994f5d31`. Quote *theirs*: Jev clicks,
+   Codex thinks and verifies. 5-10× *theirs* not Harbor. Built at
+   EZCollegeApp. wy-coliney/jev-browser-use ≠ browser-use/jev-ultrafast ≠
+   Mrlyk/jev-browser ≠ akras14/jevbro.
+4. **Routers / fail-open / ordered**
+   ([`gargpratyush/jev-router`](https://github.com/gargpratyush/jev-router)
+   **270★** MIT JS HEAD `38da6b84ea01` README SHA `eccc9c4bd1fa`;
+   [`BillionsBobby/JevRouter`](https://github.com/BillionsBobby/JevRouter)
+   **124★** MIT TS HEAD `7378f1d06b11` README SHA `847043fcca04`;
+   [`andrei10k/claude-jev-model-router`](https://github.com/andrei10k/claude-jev-model-router)
+   HEAD `9bad9757a6d3`). gargpratyush/jev-router 270★ first card (was
+   namesake of 33Audits/jev-auto in 0947). fail-open routing ≠ permission.
+   33Audits/jev-auto ≠ gargpratyush/jev-router. BillionsBobby/JevRouter:
+   Jev owns probabilities; JevRouter owns availability/permissions/risk/
+   confirmation. 38% 44% vs 24% *theirs* not Harbor. ordered routing ≠
+   end-to-end. BillionsBobby/JevRouter ≠ gargpratyush/jev-router.
+   routing ≠ permission. does not execute.
+5. **Open Gemma heads / calibration**
+   ([`daseinlabs/open-jev`](https://github.com/daseinlabs/open-jev) **75★**
+   Python HEAD `8a4fbdf712e7` README SHA `47b9ae620512`;
+   [`akash-kamat/system-one-gemma`](https://github.com/akash-kamat/system-one-gemma)
+   **3★** HEAD `cc75aa8042de` README SHA `20cec673b0dc`;
+   [`abhixhek/jevcal`](https://github.com/abhixhek/jevcal) **10★** MIT Py
+   HEAD `ae8f3144d69c` README SHA `f7240981a12f`). daseinlabs/open-jev:
+   Gemma 3 4B MLX one-pass option scoring. /v1/systemone wire-compat.
+   softmax next-token ≠ calibrated Noul. head 0.970 ECE 0.027 *theirs*.
+   shuffled-context 0.258. daseinlabs/open-jev ≠ Zefan-Cai/Open-Jev ≠
+   razorback16/openjev ≠ zhlei07/openjev. system-one-gemma: overall acc
+   64.4% ECE 0.047 Brier 0.454 *theirs*. 200x *theirs* not Harbor.
+   jevcal: calibrate/threshold/drift-check vs LLM teacher. threshold on
+   held-out. simulator not a Jev bench. fail-closed without fallback.
+6. **Recruiter / harness already carded / unofficial SDK**
+   ([`skeptrunedev/jev-recruiter`](https://github.com/skeptrunedev/jev-recruiter)
+   **42★** MIT Py HEAD `bed4083bf5a8` README SHA `ff6b0a19e077`;
+   [`AntonioCoppe/jev-harness`](https://github.com/AntonioCoppe/jev-harness)
+   **6★** already carded §33/§44; do not mint a sibling;
+   [`Premo-Cloud/typesafe-sdk-java`](https://github.com/Premo-Cloud/typesafe-sdk-java)
+   **3★** unofficial Java client HEAD `70a4c14dd793`).
+   potential_match ≠ hiring decision. catalog ≠ endorsement.
+7. **Browsers / catalogs / namesakes**
+   ([`Mrlyk/jev-browser`](https://github.com/Mrlyk/jev-browser) **2★**
+   Apache-2.0 Rust HEAD `8ab75375d420`;
+   [`akras14/jevbro`](https://github.com/akras14/jevbro) HEAD `0c74a831da37`;
+   [`wangdada8208/codex-cua-jev`](https://github.com/wangdada8208/codex-cua-jev)
+   HEAD `2d63aa789bd0`;
+   [`AgentBuff/awesome-jev`](https://github.com/AgentBuff/awesome-jev)
+   HEAD `5a12a57e41b6`;
+   [`Ryder-MHumble/Awsome-Jev-Router`](https://github.com/Ryder-MHumble/Awsome-Jev-Router)
+   HEAD `b50c3a5d1e9b`;
+   [`Alpha-Harper-Franklin/jev-drive`](https://github.com/Alpha-Harper-Franklin/jev-drive)
+   design-stage HEAD `8e352129be20`). AgentBuff/awesome-jev catalog ≠
+   endorsement. AgentBuff/awesome-jev ≠ yibie/awesome-jev ≠ heyjunpenn/awesome-jev.
+   Alpha-Harper-Franklin/jev-drive ≠ VennIntelligence/jev-drive.
+8. **Already carded / remainder / skip-thin**
+   AntonioCoppe/jev-harness already carded. Do not mint sibling
+   first-sighting sections.
+   Remainder apps / games / labs / design-stage: codaaiteam/jev-ai,
+   yldm-tech/loom, swang666/polymarket-jev, suetaketakaya/System_one,
+   sreekar2403/laya-email, ryokobachan/slither-jev, oppih/approval-judge-bridge,
+   mori-ikuri/jev-divination-lab, gaborishka/jev-wrapped,
+   corbitsdev/corbits-system-one, cipherTing/sael, ba2slk/jev-command-gate,
+   abhisheksharma001/jev-skill, Raunaksplanet/jev-research-sept-2026,
+   PromptEngineer48/laya-vs-jev-arena, Maverick-Ansh/jev-from-scratch,
+   House-of-Imaginations/rsdecider-inference (empty README),
+   CryptoJones/jev-testbed, Andymulb/jev_the_philosopher,
+   Alpha-Harper-Franklin/jev-wam, jev-vla, jev-multimodal.
+   game success ≠ calibrated Noul. catalog ≠ endorsement. does not execute.
+   skip-thin: zhlei07/openjev empty SHA. khmuhtadin/n8n-nodes-jev-classification
+   empty SHA. *theirs* not Harbor.
+
+### Pulse (live REST this hour)
+
+Archer still promised_not_landed. Hub archerhume/4rcherhume HTTP **401**.
+Open-Jev **28★**. kev **1252★**. wy-coliney/jev-browser-use **282★**.
+gargpratyush/jev-router **270★**. BillionsBobby/JevRouter **124★**.
+daseinlabs/open-jev **75★**. This hour does not re-census SemIf / Laya
+likes / tracker; those numbers stay §119 until a dedicated pulse.
+`invented_signal: false`.
+
+### Formal compose + anti-patterns
+
+Formal methods **compose** with scoring. A Noul is a SENSOR. A catalog
+is an index. A public subset is not the full bench. A 35B transfer
+score is not a shipped model. Routing is not permission. Treating 231
+as 534, 0.550 as Harbor, 5-10× as a replica, fail-open routing as a
+grant, or softmax next-token as a calibrated Noul is soundness theater.
+public-subset ≠ Harbor.
+231 ≠ 534.
+routing ≠ permission.
+softmax next-token ≠ calibrated Noul.
+potential_match ≠ hiring decision.
+catalog ≠ endorsement. *theirs* not Harbor.
+SHA move is not a replica.
+
+### Adversarial review + testing hooks (Basit standing
+order)
+
+Parent merge only after **CLEAN** adversarial review **AND** testing.
+Hooks for the reviewer:
+
+- Uniqueness-gate: the consecutive `Hourly 0049 uniqueness lock:`
+  string must appear in every overlay listed below. Prior walls 0843 /
+  0915 / jcr / 0922 / 0940 / 0947 / 1049 / 1143 / 1248 / 1340 / 1441 /
+  1542 / 1643 / 1746 / 1843 / 1936 / Open-Jev densify / 1946 / 2049 /
+  2146 / 2246 / 2347 stay one substring each (do not mutate them; do not
+  reopen #23–#59).
+- Namesake locks: wy-coliney/jev-browser-use ≠ browser-use/jev-ultrafast ≠
+  Mrlyk/jev-browser ≠ akras14/jevbro;
+  33Audits/jev-auto ≠ gargpratyush/jev-router;
+  BillionsBobby/JevRouter ≠ gargpratyush/jev-router;
+  daseinlabs/open-jev ≠ Zefan-Cai/Open-Jev ≠ razorback16/openjev ≠ zhlei07/openjev;
+  AgentBuff/awesome-jev ≠ yibie/awesome-jev ≠ heyjunpenn/awesome-jev;
+  Alpha-Harper-Franklin/jev-drive ≠ VennIntelligence/jev-drive.
+- Densify vs new: Open-Jev densifies §125. kev densifies §45.
+  AntonioCoppe/jev-harness already carded. Do not mint sibling
+  first-sighting sections for the densifies.
+- Harbor-jevals: JevBench public-subset 64.94%/77.49%/86.58%/89.18%/100.00% /
+  MMLU-Pro 0.550 / 5-10× / 38% 44% vs 24% / 64.4% ECE 0.047 stay *theirs*,
+  not Harbor. public-subset ≠ Harbor. 231 ≠ 534.
+- Anti-patterns to refuse: TypeSafe drop-in; catalog as endorsement;
+  231 as 534; 0.550 as Harbor; 5-10× as Harbor; fail-open routing as
+  permission; softmax next-token as a Noul; key-farming how-tos;
+  copying keys / `npm` / `pip` / `uv` / `docker`.
+- Overlay set: SKILL.md body (protocol fragments + class-table densify
+  + Hourly 0049), mental-models Apply 0049, composition-algebra items
+  585–600, faq, mixed-architecture, validation, toolbox-mapping,
+  methods-catalog, formal-methods, formal-semi-formal,
+  applied-mappings, judgment-class, question-design,
+  agent-self-assessment, mappings, CHANGELOG, README, docs/ecosystem,
+  findings batch #118, refresh-log, changelog-hourly.md,
+  revisit_fingerprints.json (Open-Jev SHA f46ff604f794; kev SHA
+  e0bcf50153f1).
+- Offline check: `evaluate_decisions.py --self-test` (now includes
+  JevBench public-subset ≠ Harbor / 231 ≠ 534 / MMLU-Pro 0.550 *theirs* /
+  evaluate.load bf16 honour / 5-10× is not Harbor) and
+  `uniqueness_gate.py` (0843 + 0915 + jcr / 0922 / 0940 / 0947 /
+  1049 / 1143 / 1248 / 1340 / 1441 / 1542 / 1643 / 1746 / 1843 / 1936 /
+  Open-Jev densify / 1946 / 2049 / 2146 / 2246 / 2347 / 0049).
+  No live Jev key. No wrappers.
+
+**Hourly 0049 HIGH (`notes.md` §136).** Open-Jev JevBench public-subset densify HEAD f46ff604f794. README SHA e32c4bbd519c. public-subset ≠ Harbor. 231 ≠ 534. kev night-2 35B densify HEAD e0bcf50153f1. README SHA unchanged 84b872488915. PLAN correct 35B MMLU-Pro (0.550). evaluate.load honour weights_dtype=bf16. 5-10× *theirs* not Harbor. fail-open routing ≠ permission. ordered routing ≠ end-to-end. softmax next-token ≠ calibrated Noul. potential_match ≠ hiring decision. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#59. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+Hourly 0049 uniqueness lock: Zefan-Cai/Open-Jev densify HEAD f46ff604f794 via afb5226982c7 README SHA e32c4bbd519c was ce1a587219e4; Publish audited JevBench public-subset baselines; community benchmark plan; diverse hard-data pipeline New model gains have not been measured; 231 public tasks 72 original 48 easy 111 hard; full 534 303 private unavailable; do not report full-534; 2B 150/231 64.94% 9B 179/231 77.49% Jev 200/231 86.58% Luna 206/231 89.18% Astra 231/231 100.00% *theirs*; Brier 0.4751 0.3219 0.1811 0.2074 0.0085 *theirs*; ECE 0.1274 0.0858 0.0318 0.0932 0.0149 *theirs*; P50 138.0 189.2 291.3 953.8 2206.4 ms *theirs*; candidate order 119 of 139 Choice; native vs verbalized; public-subset ≠ Harbor; 231 ≠ 534; Open-Jev TREC pending; 27B training not complete; LoRA ≠ RLCD replica; Qwen3.5-2B ≠ Archer; Qwen3.5-9B ≠ Archer; densify §125 not a sibling first sighting; jaredpalmer/kev densify HEAD e0bcf50153f1 README SHA unchanged 84b872488915; PLAN correct 35B MMLU-Pro (0.550); evaluate.load honour weights_dtype=bf16; Kev Qwen3.6-35B-A3B MMLU-Pro 0.550 Kev-9B 0.545 Jev 0.840 *theirs*; Not shipped; Qwen3.6 ≠ Archer; Hub --revision is a pin not a replica; wy-coliney/jev-browser-use 282★ 5-10× *theirs* not Harbor; Jev clicks Codex thinks and verifies; wy-coliney/jev-browser-use ≠ browser-use/jev-ultrafast ≠ Mrlyk/jev-browser ≠ akras14/jevbro; gargpratyush/jev-router 270★ first card fail-open routing ≠ permission; 33Audits/jev-auto ≠ gargpratyush/jev-router; BillionsBobby/JevRouter 124★ 38% 44% vs 24% *theirs* not Harbor; ordered routing ≠ end-to-end; BillionsBobby/JevRouter ≠ gargpratyush/jev-router; daseinlabs/open-jev 75★ Gemma 3 4B MLX; softmax next-token ≠ calibrated Noul; head 0.970 ECE 0.027 *theirs*; shuffled-context 0.258; daseinlabs/open-jev ≠ Zefan-Cai/Open-Jev ≠ razorback16/openjev ≠ zhlei07/openjev; skeptrunedev/jev-recruiter potential_match ≠ hiring decision; abhixhek/jevcal threshold on held-out; simulator not a Jev bench; fail-closed without fallback; AntonioCoppe/jev-harness already carded; akash-kamat/system-one-gemma 64.4% ECE 0.047 *theirs*; 200x *theirs* not Harbor; Premo-Cloud/typesafe-sdk-java unofficial; AgentBuff/awesome-jev catalog ≠ endorsement; AgentBuff/awesome-jev ≠ yibie/awesome-jev ≠ heyjunpenn/awesome-jev; Alpha-Harper-Franklin/jev-drive ≠ VennIntelligence/jev-drive; skip-thin zhlei07/openjev empty SHA khmuhtadin/n8n-nodes-jev-classification empty SHA; game success ≠ calibrated Noul; does not execute; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59; notes.md §136

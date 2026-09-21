@@ -277,10 +277,10 @@ def self_test() -> None:
     nano_readme = by_id["github:TianyuCodings/NanoJev"].get("readme_sha")
     assert isinstance(nano_readme, str) and nano_readme.startswith("4190093c64ee")
     openjev = by_id["github:Zefan-Cai/Open-Jev"]["fingerprints"]
-    assert openjev["default_sha"] == "48346d0630f14327041928b4b3ecbe07ef65ad6c"
-    assert openjev["pushed_at"] == "2026-09-21T04:05:14Z"
+    assert openjev["default_sha"] == "f46ff604f794b1932d1a6f34725c8163e550952a"
+    assert openjev["pushed_at"] == "2026-09-21T06:58:07Z"
     openjev_readme = by_id["github:Zefan-Cai/Open-Jev"].get("readme_sha")
-    assert isinstance(openjev_readme, str) and openjev_readme.startswith("ce1a587219e4")
+    assert isinstance(openjev_readme, str) and openjev_readme.startswith("e32c4bbd519c")
     assert by_id["hf:ZefanCai/Open-Jev-2B"]["fingerprints"]["default_sha"].startswith("0c7aa498b162")
     assert by_id["hf:ZefanCai/Open-Jev-9B"]["fingerprints"]["default_sha"].startswith("47e966881e48")
     assert by_id["hf:ds:ZefanCai/Open-Jev"]["fingerprints"]["default_sha"].startswith("c67699e13d0a")
@@ -288,7 +288,7 @@ def self_test() -> None:
     semif_readme = by_id["github:TheoLeeCJ/SemIf"].get("readme_sha")
     assert isinstance(semif_readme, str) and semif_readme.startswith("74ab7f7f")
     kev = by_id["github:jaredpalmer/kev"]["fingerprints"]
-    assert kev["default_sha"].startswith("c096660c8da2")
+    assert kev["default_sha"].startswith("e0bcf50153f1")
     kotoba = by_id["github:kotoba-lang/typed-decisions"]["fingerprints"]
     assert kotoba["default_sha"].startswith("ff7f84e74d04")
     cartpole = by_id["github:tinmanlab/cartpole-jev"]["fingerprints"]
@@ -310,6 +310,15 @@ def self_test() -> None:
     assert typellm["default_sha"].startswith("8a8b4aefd443")
     simple = by_id["github:featherless-ai/simple-jev"]["fingerprints"]
     assert simple["default_sha"].startswith("b02aa81c915a")
+
+    browser = by_id["github:wy-coliney/jev-browser-use"]["fingerprints"]
+    assert browser["default_sha"].startswith("f14b60e0ae1e")
+    grouter = by_id["github:gargpratyush/jev-router"]["fingerprints"]
+    assert grouter["default_sha"].startswith("38da6b84ea01")
+    brouter = by_id["github:BillionsBobby/JevRouter"]["fingerprints"]
+    assert brouter["default_sha"].startswith("7378f1d06b11")
+    dasein = by_id["github:daseinlabs/open-jev"]["fingerprints"]
+    assert dasein["default_sha"].startswith("8a4fbdf712e7")
     densify_original_ids = {
         "github:razorback16/openjev": "75",
         "github:wfzyx/von": "49",

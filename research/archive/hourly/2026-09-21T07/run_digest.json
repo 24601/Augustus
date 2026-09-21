@@ -1,0 +1,11 @@
+{
+  "hour": "2026-09-21T07",
+  "label": "0049",
+  "notes_section": "136",
+  "composition": "585-600",
+  "findings_batch": 118,
+  "revisit_high": 2,
+  "novel_high": 40,
+  "invented_signal": false,
+  "primary": "Open-Jev JevBench public-subset densify; public-subset \u2260 Harbor; 231 \u2260 534; kev 35B MMLU-Pro 0.550; evaluate.load bf16 honour; 5-10\u00d7 *theirs* not Harbor"
+}
