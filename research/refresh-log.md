@@ -1,3 +1,13 @@
+## 2026-09-21 ~19:31 UTC - User-provided lev HIGH
+- Fresh card off current `main` (`c9b744e`, hourly 1203 / `notes.md` §148 /
+  PR #74). This fold: `notes.md` §149. Glance stays §147. Kev stays §45.
+  **HARD RULE:** do not reopen or amend PR #23 through #74.
+- PRIMARY: peterpme/lev. Educational Kev pointer head. Qwen2.5-0.5B +
+  LoRA + pointer. Choice only. Soft scores ≠ hard gates. Author
+  Banking77 figures are *theirs*. License file absent. No Augustus
+  call site. `invented_signal: false`. Uniqueness lock lives in
+  `research/notes.md` only.
+
 ## 2026-09-21 ~18:14 UTC - User-provided glance HIGH
 - Fresh card off latest `main` after merged #72 (hourly 1110 / `notes.md` §146)
   and merged #71 (v0.5.1). This fold: `notes.md` §147.

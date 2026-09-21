@@ -5389,6 +5389,12 @@
       "title": "glance-vlm",
       "url": "https://pypi.org/project/glance-vlm/",
       "note": "PyPI 0.3.1. Distribution name glance-vlm; import and command stay glance. notes.md §147."
+    },
+    {
+      "kind": "github",
+      "title": "peterpme/lev",
+      "url": "https://github.com/peterpme/lev",
+      "note": "Primary repo. Educational Kev pointer: Qwen2.5-0.5B + LoRA rank 16 + pointer head. POST /v1/systemone choice only; noul and score later. License file absent. 1 star. HEAD 9b379262e45f4bc2ebecccc2c7927800c61bdc99. banking77-v1 accuracy 0.88 on 150 *theirs*. Soft scores are not hard gates. Not glance, not trained Laya, not OpenJev, not a replacement for jaredpalmer/kev. notes.md §149."
     }
   ]
 }
