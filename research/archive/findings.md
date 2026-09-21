@@ -1,5 +1,35 @@
 # Deep-read findings (evidence for research/notes.md)
 
+## Batch #132 (2026-09-21 ~20:20 UTC) - user-provided ryana/jevify
+
+Note: `research/notes.md` §152. First card for ryana/jevify.
+glance §147, hourly 1203 §148, lev §149, hourly 1256 §150, and hourly 1352 §151 are on main.
+This fold is §152 only. Do not reclaim §147–§151.
+Hourly 1352 stays §151 / composition 793-808 / batch #131.
+This fold stays §152 / composition 809-820 / batch #132.
+**HARD RULE:** do not reopen or amend PR #23 through #77.
+The consecutive lock string lives in notes.md and uniqueness_gate.py only.
+README still ends at License. Does not bump 0.5.0 or 0.5.1.
+`invented_signal: false`. Parent merges only after ADV_PASS.
+
+- **ryana/jevify PRIMARY.** Prompt-only investigation aid. Live REST
+  stargazers_count 6. License null. README-only. HEAD
+  87a9ef3674f111c74bb33cccd3bfa56bd0c4a15c. README SHA
+  227e2324818375e1f73d044af6a56a5b933c496b. size 3. README blob 7567 bytes.
+- **Not a runtime.** The prompt is not a gate. Not a decision model.
+  Not a serving head. Not a converter. Not an agent skill. Not an
+  Augustus skill. Not a TypeSafe product.
+- **Honesty.** Archer essay is hypotheses only. Separate vendor claims,
+  measured results, and hypotheses. Probabilities need calibration.
+  Do not invent results. More questions are not free.
+- **Namesakes.** altryne/jevify skill. fidecastro/jevify endpoint.
+  Mintzs/jevify inference engine. gulagala001/jevify DSH plugin.
+  uspraveen/Jevify. apurv101/jevify empty HTTP 409. arzkr/jevify-demo.
+  alexwestco/llm-to-jev stays §118.
+- **§118 pointer.** The llm-to-jev namesake line now points at this card.
+  The 0940 lock string is unchanged.
+
+catalog ≠ endorsement. soft scores ≠ hard gates.
 ## Batch #131 (2026-09-21 ~13:52 Boise / ~19:52 UTC) - hourly 1352 HIGH
 
 Note: `research/notes.md` §151. Rebased onto post-#75 `main` (`bdb0acb`).

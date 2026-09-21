@@ -4429,6 +4429,59 @@ Soft Noul ≠ hard safety.
      notes.md §151.
      Full cards: `faq.md`.
 
+809. **prompt-only investigation aid**:
+     ryana/jevify. README-only. Paste into a coding agent inside the
+     target project. The prompt is not a runtime and not a gate.
+     Full cards: `boundary-audit.md`.
+810. **inspect the project, then the docs**:
+     Start from the codebase, the TypeSafe docs the prompt names, and
+     the Archer architecture essay. Tie observations to files. Do not
+     assume the project needs existing LLM calls.
+     Full cards: `boundary-audit.md`.
+811. **Archer essay is hypotheses only**:
+     Architectural deductions are not verified implementation details.
+     Generate hypotheses. Do not treat the essay as a landed
+     implementation. Skip Archer as a product.
+     Full cards: `faq.md`.
+812. **vendor claims, measured results, hypotheses**:
+     Keep the three apart. This repo ships no measurement. Do not
+     invent results. Full cards: `validation.md`.
+813. **shared state, independent questions, code combines**:
+     One request, many typed questions, independent evaluation.
+     Application code combines answers. Do not hide a complex reasoning
+     task inside one vague classification question.
+     Full cards: `mixed-architecture.md`.
+814. **Choice, Score, Noul are proposed, not served**:
+     The prompt designs integrations. It does not serve them. Not a
+     serving head. Not a decision model. Full cards: `judgment-class.md`.
+815. **economics on the critical path**:
+     More questions are not free. Per-request latency is not
+     end-to-end latency. Compare deterministic code, cache, embeddings,
+     classifiers, and smaller generators. Full cards: `mental-models.md`.
+816. **an eval that could prove the idea wrong**:
+     Held-out cases, asymmetric false-positive and false-negative
+     costs, thresholds, abstention, go/no-go. Probabilities are signals
+     that need calibration on the workload. Full cards: `validation.md`.
+817. **do not invent results**:
+     If credentials, data, and a budget are absent, ship a runnable
+     plan and name what is unmeasured. Continue without fabricated
+     numbers. Full cards: `validation.md`.
+818. **ranked recommendations**:
+     Savings, quality, and new capabilities stay separate. Three
+     strongest designs, or fewer if fewer survive. Record rejected
+     ideas. Full cards: `boundary-audit.md`.
+819. **namesakes are other species**:
+     altryne/jevify is an agent skill. fidecastro/jevify serves an
+     endpoint. Mintzs/jevify is an inference engine. gulagala001/jevify
+     is a DSH plugin. uspraveen/Jevify turns an open LLM into a System
+     One shape. apurv101/jevify is an empty repo. arzkr/jevify-demo is
+     a demo namesake. alexwestco/llm-to-jev stays the heuristic
+     converter at notes.md §118. Full cards: `faq.md`.
+820. **not Augustus and not a TypeSafe product**:
+     Augustus-adjacent opportunity audit. This repository is the prompt
+     artifact. Catalog is not endorsement. Soft scores are not hard
+     gates. This fold is notes.md §152, composition 809-820, findings
+     batch #132. Full cards: `boundary-audit.md`.
 
 
 

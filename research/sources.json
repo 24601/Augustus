@@ -5827,6 +5827,18 @@
     "title": "hf:suryatmodulus/open-jev-demo",
     "url": "https://huggingface.co/spaces/suryatmodulus/open-jev-demo",
     "note": "0 likes sha ad21fca3000f README SHA df7074d7d94a. Hourly 1256. *theirs* not Harbor. notes.md §150."
+  },
+  {
+    "kind": "github",
+    "title": "ryana/jevify",
+    "url": "https://github.com/ryana/jevify",
+    "note": "Prompt-only investigation aid. Live REST stargazers_count 6; forks_count 0; license null; size 3; GitHub id 1376670432; HEAD 87a9ef3674f111c74bb33cccd3bfa56bd0c4a15c; README SHA 227e2324818375e1f73d044af6a56a5b933c496b; README 7567 bytes; created 2026-09-19T03:16:52Z; pushed 2026-09-19T03:18:52Z; description_hash 0e539a1e865b; no releases. Not a decision model, serving head, converter, or agent skill. First card. notes.md §152."
+  },
+  {
+    "kind": "site",
+    "title": "Archer essay cited by ryana/jevify",
+    "url": "https://archerhume.com/posts/jevs-architecture-unmasked",
+    "note": "Cited by the ryana/jevify prompt for hypotheses only. Architectural deductions are not verified implementation details. Not a landed Archer product. notes.md §152."
   }
   ]
 }
