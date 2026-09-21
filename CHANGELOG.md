@@ -34,9 +34,12 @@ owns §138. Merged #61 owns §137.
   ask mattered more. Calibration is not yet measured. NanoJev densify
   JevHarness §115. Awesomejev 691→802 quote watch not re-derive.
   serving substrate ≠ calibrated replica. skip-thin empty SHA.
+  Remainder densify: traffic sim is not a digital twin; xiangqi Score
+  fan-out ≠ chess engine; KorWF-Pi Jev cannot waive a failing check.
   Evaluator: lcc keep-all is not cost reduction / softmax gateway is
   not logit-equiv / acc 0.796 ECE 0.027 *theirs* / How you ask mattered
-  more / Calibration is not yet measured.
+  more / Calibration is not yet measured / not a digital twin / Score
+  fan-out ≠ chess engine / Jev cannot waive a failing check.
   uniqueness_gate.py now checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 +
   1049 + 1143 + 1248 + 1340 + 1441 + 1542 + 1643 + 1746 + 1843 + 1936 +
   Open-Jev densify + 1946 + 2049 + 2146 + 2246 + 2347 + 0049 + 0151 +

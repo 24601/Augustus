@@ -360,6 +360,12 @@ def self_test() -> None:
     assert jevc["default_sha"].startswith("e52e963d8539")
     any2 = by_id["github:hwfengcs/any2jev"]["fingerprints"]
     assert any2["default_sha"].startswith("719b0eb9eefe")
+    traffic = by_id["github:Akhila14/jev-traffic-simulator"]["fingerprints"]
+    assert traffic["default_sha"].startswith("7136542dffb5")
+    assert by_id["github:Akhila14/jev-traffic-simulator"]["notes_section"] == "140"
+    xiangqi = by_id["github:Zafer-Liu/jev-xiangqi"]["fingerprints"]
+    assert xiangqi["default_sha"].startswith("7181fab5bb27")
+    assert by_id["github:umgbhalla/jevx"]["notes_section"] == "140"
     assert any("revisit HIGH like novel HIGH" in r for r in rules)
     print("revisit-fingerprints self-test ok")
 

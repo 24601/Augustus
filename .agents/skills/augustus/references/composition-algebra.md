@@ -3760,10 +3760,15 @@ Soft Noul ≠ hard safety.
 661. **census Awesomejev 691→802**:
      Awesomejev 691→802 (+111) / 38194→52151 stars quote watch not re-derive.
      tracker likes 81 lastModified UNCHANGED. Full cards: `faq.md`.
-662. **namesakes / template collision / gated dataset**:
+662. **namesakes / template collision / gated dataset / remainder densify**:
      qiudingkai-crypto/jevai and Strernd/beer-jev share README SHA e215bc4ccf13 template collision.
      hf:dataset:syvai/danish-dynaword-laya gated HTTP 401.
-     size_categories 10K<n<100K. Full cards: `faq.md`.
+     size_categories 10K<n<100K.
+     umgbhalla/jevx ≠ hawkyre/jevx. ryanzen9/XFlow ≠ hawkyre/jevx.
+     Tsagaanbayr1/jev-tetris ≠ planstack-ai/jev-tetris-benchmark.
+     wizicer/jev_info_site ≠ JingHao-Leon/awesome-jev-apps ≠ heyjunpenn/awesome-jev.
+     not a digital twin. Score fan-out ≠ chess engine. Jev cannot waive a failing check.
+     Full cards: `faq.md`.
 663. ***theirs* not Harbor / Softmax over options ≠ calibrated Noul**:
      keep-all / 232.1 ms / ECE 0.027 / TVD 0.1530 / snake 70/80 stay *theirs*.
      N=18 pilot not Harbor. three seeds not Harbor. soft scores ≠ hard gates.

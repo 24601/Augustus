@@ -897,6 +897,27 @@ def arcade_calibration_not_yet_measured(kind, measured=False):
         raise ValueError("unexpected kind")
     return measured is False
 
+
+def traffic_sim_is_not_digital_twin(kind, digital_twin=False):
+    """Synthetic Sony World Junction. not a digital twin. Mean wait 24.15 s *theirs*."""
+    if kind != "sony_world_synthetic":
+        raise ValueError("unexpected kind")
+    return digital_twin is False
+
+
+def xiangqi_score_fanout_is_not_engine(kind, engine=False):
+    """Score fan-out ≠ chess engine. Opening 44 moves $0.000322 6.6 s *theirs*."""
+    if kind != "xiangqi_score_fanout":
+        raise ValueError("unexpected kind")
+    return engine is False
+
+
+def jev_cannot_waive_failing_check(kind, waived=False):
+    """KorWF-Pi: Jev cannot waive a failing check. implementation not started."""
+    if kind != "korwf_pi_gate":
+        raise ValueError("unexpected kind")
+    return waived is False
+
 def clean_report_is_not_sandbox(kind, sandbox=False):
     """A clean report is not proof. does not sandbox."""
     if kind != "is_malicious_scan":
@@ -1383,6 +1404,12 @@ def self_test():
     assert not how_you_ask_mattered_more("synthetic_survey_ask", True)
     assert arcade_calibration_not_yet_measured("jev_arcade", False)
     assert not arcade_calibration_not_yet_measured("jev_arcade", True)
+    assert traffic_sim_is_not_digital_twin("sony_world_synthetic", False)
+    assert not traffic_sim_is_not_digital_twin("sony_world_synthetic", True)
+    assert xiangqi_score_fanout_is_not_engine("xiangqi_score_fanout", False)
+    assert not xiangqi_score_fanout_is_not_engine("xiangqi_score_fanout", True)
+    assert jev_cannot_waive_failing_check("korwf_pi_gate", False)
+    assert not jev_cannot_waive_failing_check("korwf_pi_gate", True)
     assert theirs_bench_is_not_harbor(796, "any2jev-acc-0.796")
     assert theirs_bench_is_not_harbor(2321, "jev-compatible-232.1ms")
     assert theirs_bench_is_not_harbor(7080, "jev-arcade-snake-70-80")

@@ -18,7 +18,7 @@ weekdays. Jev is the densest public corpus, not the class monopoly.
 
 ## Categories
 
-- **Hourly 0445 class members (`notes.md` §140).** lcc keep-all vs withdrawn mock. Token reduction alone is not cost reduction. Chat 1282.3 ms vs gateway 232.1 ms ~1/5.5 *theirs*. acc 0.796 ECE 0.027 *theirs*. How you ask mattered more. Calibration is not yet measured. NanoJev densify JevHarness §115. Awesomejev 691→802. serving substrate ≠ calibrated replica. catalog ≠ endorsement. *theirs* not Harbor.
+- **Hourly 0445 class members (`notes.md` §140).** lcc keep-all vs withdrawn mock. Token reduction alone is not cost reduction. Chat 1282.3 ms vs gateway 232.1 ms ~1/5.5 *theirs*. acc 0.796 ECE 0.027 *theirs*. How you ask mattered more. Calibration is not yet measured. NanoJev densify JevHarness §115. Awesomejev 691→802. serving substrate ≠ calibrated replica. remainder densify: not a digital twin; Score fan-out ≠ chess engine; Jev cannot waive a failing check. catalog ≠ endorsement. *theirs* not Harbor.
 
 - **Hourly 0348 class members (`notes.md` §139).** open-cricket BYOM Qwen2.5-1.5B. wire-compat ≠ logit-equiv. Qwen2.5 ≠ Archer. replica ≠ TypeSafe. Greedy 0.90 vs Oracle 0.82 *theirs*. confidence ≠ P(correct). seed 42 n=1 is not Harbor. JevBench 81.65 *theirs* not Harbor. 0-byte Mandelbrot is not a replica. training not complete. A clean report is not proof. does not sandbox. serving substrate ≠ calibrated replica. catalog ≠ endorsement. *theirs* not Harbor.
 

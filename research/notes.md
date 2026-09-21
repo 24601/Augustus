@@ -35472,7 +35472,81 @@ README JevHarness link is densify not a sibling first sighting.
    empty SHA.
    Awesomejev 691→802 (+111) / 38194→52151 stars quote watch not re-derive.
    tracker likes 81 lastModified UNCHANGED.
-   Remainder 0-star adapters, games, and catalogs stay indexes.
+   Named remainder (substance, not a dump wall):
+   [`qingshungLI/everything-about-jev`](https://github.com/qingshungLI/everything-about-jev)
+   1★ MIT HEAD `f6e6b8c907b2` README SHA `693d78ec7ffc`. Quote *theirs*:
+   independent community guide. Noul is not a decided boolean. catalog ≠
+   endorsement.
+   [`ryanzen9/XFlow`](https://github.com/ryanzen9/XFlow) 1★ HEAD
+   `349623c381e0` README SHA `08d8675805d7`. Quote *theirs*: Manifest V3
+   filter for X. ryanzen9/XFlow ≠ hawkyre/jevx. does not execute.
+   [`Akhila14/jev-traffic-simulator`](https://github.com/Akhila14/jev-traffic-simulator)
+   HEAD `7136542dffb5` README SHA `30dee33e25e6`. Quote *theirs*: not a
+   digital twin. Mean wait 24.15 s. 558 live decisions. 36 runs three
+   seeds. Safety is outside Jev. three seeds not Harbor.
+   [`ChuckNomis/linkedin-post-filtering-jev`](https://github.com/ChuckNomis/linkedin-post-filtering-jev)
+   HEAD `de19ad4d2a07` README SHA `2b5b4d843964`. Quote *theirs*: Early
+   scaffold. does not execute.
+   [`DanielJD1216/magic-computer-use`](https://github.com/DanielJD1216/magic-computer-use)
+   HEAD `e46ae701ec3f` README SHA `a4483deb09f4`. Quote *theirs*:
+   Safari-fixture-first. live selector default-off. bounded computer-use
+   ≠ unbounded agent.
+   [`Keitark/jev-cats-and-dogs`](https://github.com/Keitark/jev-cats-and-dogs)
+   HEAD `97e7db75dad0` README SHA `36fa0338d96c`. Quote *theirs*: 64x64
+   ASCII. No image bytes sent. not a vision benchmark.
+   [`OriginalByteMe/system-one-chess-arena`](https://github.com/OriginalByteMe/system-one-chess-arena)
+   HEAD `f8419ef995c1` README SHA `9ef7fcae1757`. Quote *theirs*: comparing
+   decision architectures, not beating Stockfish. game success ≠
+   calibrated Noul.
+   [`Tsagaanbayr1/jev-tetris`](https://github.com/Tsagaanbayr1/jev-tetris)
+   HEAD `737cd8ae6f94` README SHA `ad28c5b592f1`. Quote *theirs*: versus
+   game with garbage, spins, combos. Tsagaanbayr1/jev-tetris ≠
+   planstack-ai/jev-tetris-benchmark. game success ≠ calibrated Noul.
+   [`Zafer-Liu/jev-xiangqi`](https://github.com/Zafer-Liu/jev-xiangqi)
+   BSD-2-Clause HEAD `7181fab5bb27` README SHA `6bf367189d9a`. Quote
+   *theirs*: Opening 44 moves $0.000322 6.6 s. Score fan-out ≠ chess
+   engine. It is not a search.
+   [`agrogov/jev-system-one-study`](https://github.com/agrogov/jev-system-one-study)
+   HEAD `2582528b6701` README SHA `e1682d1d8de2`. Quote *theirs*:
+   5,810-request exact probabilistic calibration run. *theirs* not Harbor.
+   [`emtay-com/fastlaya`](https://github.com/emtay-com/fastlaya) HEAD
+   `c314b99f4547` README SHA `5363adf64b53`. Quote *theirs*: three
+   identical decision routes. serving substrate ≠ calibrated replica.
+   TypeSafe-compatible ≠ TypeSafe replica.
+   [`fajarhide/askgrep`](https://github.com/fajarhide/askgrep) Apache-2.0
+   HEAD `c89bb7553a9e` README SHA `900f5acfa98c`. Quote *theirs*: 2 hits
+   in 11 chunks $0.0002. $0.028 vs Haiku $0.67. score ≠ grep proof.
+   [`igrejaborabora/lus222-jev-challenge`](https://github.com/igrejaborabora/lus222-jev-challenge)
+   MIT HEAD `a0b135dd0369` README SHA `40e7761f984e`. Quote *theirs*: Not
+   Detect-and-Avoid. does not execute.
+   [`kofujimura/jev-obniz-led`](https://github.com/kofujimura/jev-obniz-led)
+   HEAD `e38a60122fe9` README SHA `8804cc18b82d`. Quote *theirs*: one call,
+   three typed judgments. needs_reply 0.5 still soft.
+   [`korallis/KorWF-Pi`](https://github.com/korallis/KorWF-Pi) MIT HEAD
+   `15f053d22c0d` README SHA `075f4bc345df`. Quote *theirs*: planning
+   complete, implementation not started. Jev cannot waive a failing
+   check. does not execute.
+   [`martijnd/jev-checkers-demo`](https://github.com/martijnd/jev-checkers-demo)
+   HEAD `9b3ede577037` README SHA `f388198a451c`. Quote *theirs*: The app
+   owns the rules. Jev only ranks those moves. game success ≠ calibrated
+   Noul.
+   [`neo4j-field/jev-graphrag`](https://github.com/neo4j-field/jev-graphrag)
+   HEAD `8062e71178b8` README SHA `88095e76c544`. Quote *theirs*:
+   confidence gate then review queue. threshold still soft.
+   [`tikeda/jev-ux-ui-reference`](https://github.com/tikeda/jev-ux-ui-reference)
+   HEAD `897d681cc92a` README SHA `02a381230416`. Quote *theirs*: generated
+   static website only. catalog ≠ endorsement.
+   [`toreleon/JevGames`](https://github.com/toreleon/JevGames) HEAD
+   `bc17c2a3c7a0` README SHA `08ed3b9c609c`. Quote *theirs*: pluggable
+   training and benchmarking. Laya and Sokoban are plugins. training not
+   complete as a replica.
+   [`umgbhalla/jevx`](https://github.com/umgbhalla/jevx) HEAD `f7847a0df058`
+   README SHA `4ae64ae5b636`. umgbhalla/jevx ≠ hawkyre/jevx. catalog ≠
+   endorsement.
+   [`wizicer/jev_info_site`](https://github.com/wizicer/jev_info_site) HEAD
+   `50de5ec6efe2` README SHA `c7d0ab5f0106`. Quote *theirs*: 427 use cases
+   / 436 tools. wizicer/jev_info_site ≠ JingHao-Leon/awesome-jev-apps ≠
+   heyjunpenn/awesome-jev. catalog ≠ endorsement.
    catalog ≠ endorsement. game success ≠ calibrated Noul. does not execute.
    routing ≠ permission. Softmax over options ≠ calibrated Noul.
    *theirs* not Harbor.
@@ -35518,8 +35592,12 @@ Hooks for the reviewer:
   hf:openjev/openjev-MLX-4bit ≠ razorback16/openjev;
   iamdgarcia/openJev ≠ alongL/openJev ≠ Zefan-Cai/Open-Jev;
   JingHao-Leon/awesome-jev-apps ≠ heyjunpenn/awesome-jev;
+  wizicer/jev_info_site ≠ JingHao-Leon/awesome-jev-apps ≠ heyjunpenn/awesome-jev;
+  umgbhalla/jevx ≠ hawkyre/jevx; ryanzen9/XFlow ≠ hawkyre/jevx;
+  Tsagaanbayr1/jev-tetris ≠ planstack-ai/jev-tetris-benchmark;
   devbackend/jevgo ≠ kisshan13/typesafe-ai-go ≠ peach-zhang/typesafe-go;
   local Laya ≠ hosted Jev; TypeSafe-compatible ≠ TypeSafe replica.
+  not a digital twin. Score fan-out ≠ chess engine. Jev cannot waive a failing check.
 - Densify vs new: TianyuCodings/NanoJev densify §115.
   chrisns/homebrew-laya-mac-serve is a tap for §139 laya-mac-serve.
   Do not mint sibling first-sighting sections for NanoJev.
@@ -35539,7 +35617,7 @@ Hooks for the reviewer:
   agent-self-assessment, mappings, CHANGELOG, README, docs/ecosystem,
   findings batch #122, refresh-log, changelog-hourly.md,
   revisit_fingerprints.json (NanoJev densify §115 plus first cards lcc /
-  Jev-Compatible / any2jev / survey / arcade).
+  Jev-Compatible / any2jev / survey / arcade / remainder densify).
 - Offline check: `evaluate_decisions.py --self-test` (now includes
   lcc keep-all is not cost reduction / softmax gateway is not logit-equiv /
   acc 0.796 ECE 0.027 *theirs* / How you ask mattered more /

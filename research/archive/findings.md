@@ -25,6 +25,10 @@ owns placement. `invented_signal: false`.
 - **serving / namesakes / skip-thin.** serving substrate ≠ calibrated replica.
   GeekyAbs/laya ≠ convaiinnovations/laya. skip-thin empty SHA.
   Awesomejev 691→802 quote watch not re-derive.
+- **remainder densify.** not a digital twin. Mean wait 24.15 s *theirs*.
+  Score fan-out ≠ chess engine. Jev cannot waive a failing check.
+  umgbhalla/jevx ≠ hawkyre/jevx. wizicer/jev_info_site ≠ JingHao-Leon/awesome-jev-apps.
+  $0.028 vs Haiku $0.67 *theirs*. catalog ≠ endorsement.
 
 Pulse: Archer still NOT landed. Hub archerhume/4rcherhume HTTP **401**.
 NanoJev **1685★**. lcc **7★**. tracker likes 81 lastModified UNCHANGED.

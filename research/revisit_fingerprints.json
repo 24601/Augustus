@@ -2958,6 +2958,258 @@
         "release_tag": null
       },
       "readme_sha": "40a6bec31e5ae6ff5a2e07392d0ff90a9e834cd6"
+    },
+    {
+      "id": "github:qingshungLI/everything-about-jev",
+      "notes_section": "140",
+      "last_look": "2026-09-21T10:45Z",
+      "fingerprints": {
+        "default_sha": "f6e6b8c907b2c242f9c4bcb2b9ad5af48fc6886b",
+        "pushed_at": "2026-09-21T10:55:25Z",
+        "description_hash": "4a89b724e316",
+        "release_tag": null
+      },
+      "readme_sha": "693d78ec7ffccc786a753ed2afa56ec671ff261d"
+    },
+    {
+      "id": "github:ryanzen9/XFlow",
+      "notes_section": "140",
+      "last_look": "2026-09-21T10:45Z",
+      "fingerprints": {
+        "default_sha": "349623c381e0999e9117d75fb51d10a647235ce8",
+        "pushed_at": "2026-09-21T10:34:26Z",
+        "description_hash": "127d3487ecba",
+        "release_tag": null
+      },
+      "readme_sha": "08d8675805d78fa12c2606fcd91d016bc72a31fe"
+    },
+    {
+      "id": "github:Akhila14/jev-traffic-simulator",
+      "notes_section": "140",
+      "last_look": "2026-09-21T10:45Z",
+      "fingerprints": {
+        "default_sha": "7136542dffb5d8d80a642ee07d55599015878bd6",
+        "pushed_at": "2026-09-21T10:47:53Z",
+        "description_hash": "c545cd6bcf9a",
+        "release_tag": null
+      },
+      "readme_sha": "30dee33e25e60d6f274ecd874c763320fb94d746"
+    },
+    {
+      "id": "github:ChuckNomis/linkedin-post-filtering-jev",
+      "notes_section": "140",
+      "last_look": "2026-09-21T10:45Z",
+      "fingerprints": {
+        "default_sha": "de19ad4d2a07dcc4b534add2f9e7c98fe330b5d9",
+        "pushed_at": "2026-09-21T10:48:36Z",
+        "description_hash": "2f0c1a8fc11e",
+        "release_tag": null
+      },
+      "readme_sha": "2b5b4d8439640bd8a8ecbc8677c70e8167f18b9f"
+    },
+    {
+      "id": "github:DanielJD1216/magic-computer-use",
+      "notes_section": "140",
+      "last_look": "2026-09-21T10:45Z",
+      "fingerprints": {
+        "default_sha": "e46ae701ec3fb70fab62a35ea5d3e96d391ab993",
+        "pushed_at": "2026-09-21T10:55:23Z",
+        "description_hash": "d24f745e25cd",
+        "release_tag": null
+      },
+      "readme_sha": "a4483deb09f4e5fe620f3a6c3b342ec76f15a03c"
+    },
+    {
+      "id": "github:Keitark/jev-cats-and-dogs",
+      "notes_section": "140",
+      "last_look": "2026-09-21T10:45Z",
+      "fingerprints": {
+        "default_sha": "97e7db75dad07f4dc7d6505306e14bb06f9c6cd7",
+        "pushed_at": "2026-09-21T10:45:34Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "36fa0338d96cceca65ff7ce6058cd12e7129723d"
+    },
+    {
+      "id": "github:OriginalByteMe/system-one-chess-arena",
+      "notes_section": "140",
+      "last_look": "2026-09-21T10:45Z",
+      "fingerprints": {
+        "default_sha": "f8419ef995c1b030d93bd45741dd8d8a9cd76c9d",
+        "pushed_at": "2026-09-21T10:17:39Z",
+        "description_hash": "6a58e353fcea",
+        "release_tag": null
+      },
+      "readme_sha": "9ef7fcae17574821945af5b20a15592fc0cd772b"
+    },
+    {
+      "id": "github:Tsagaanbayr1/jev-tetris",
+      "notes_section": "140",
+      "last_look": "2026-09-21T10:45Z",
+      "fingerprints": {
+        "default_sha": "737cd8ae6f944db01845a90b563e743b0116b032",
+        "pushed_at": "2026-09-21T10:46:48Z",
+        "description_hash": "9833473756d4",
+        "release_tag": null
+      },
+      "readme_sha": "ad28c5b592f10e9936aefd84dd6c601599d4a6f1"
+    },
+    {
+      "id": "github:Zafer-Liu/jev-xiangqi",
+      "notes_section": "140",
+      "last_look": "2026-09-21T10:45Z",
+      "fingerprints": {
+        "default_sha": "7181fab5bb27d0ad057d52e30b6f019496972b33",
+        "pushed_at": "2026-09-21T10:36:39Z",
+        "description_hash": "d248171f0d86",
+        "release_tag": null
+      },
+      "readme_sha": "6bf367189d9ac63cb57109c0acf5fbc606a99c78"
+    },
+    {
+      "id": "github:agrogov/jev-system-one-study",
+      "notes_section": "140",
+      "last_look": "2026-09-21T10:45Z",
+      "fingerprints": {
+        "default_sha": "2582528b6701f84500bfb300c58e94000fd6b7e8",
+        "pushed_at": "2026-09-21T10:03:15Z",
+        "description_hash": "020628cc44d0",
+        "release_tag": null
+      },
+      "readme_sha": "e1682d1d8de258f56178c95ef3eef553fa9d7160"
+    },
+    {
+      "id": "github:emtay-com/fastlaya",
+      "notes_section": "140",
+      "last_look": "2026-09-21T10:45Z",
+      "fingerprints": {
+        "default_sha": "c314b99f4547a84c97e622f1f139e897511eecec",
+        "pushed_at": "2026-09-21T10:05:50Z",
+        "description_hash": "eaed8add1d34",
+        "release_tag": null
+      },
+      "readme_sha": "5363adf64b536a7018059db12114100be42ee9d0"
+    },
+    {
+      "id": "github:fajarhide/askgrep",
+      "notes_section": "140",
+      "last_look": "2026-09-21T10:45Z",
+      "fingerprints": {
+        "default_sha": "c89bb7553a9e8430a98da7f10bbe2bbff93d5c25",
+        "pushed_at": "2026-09-21T10:44:34Z",
+        "description_hash": "c363afdbbdfb",
+        "release_tag": null
+      },
+      "readme_sha": "900f5acfa98c1fe280a42248cb3ed47b1ecb709e"
+    },
+    {
+      "id": "github:igrejaborabora/lus222-jev-challenge",
+      "notes_section": "140",
+      "last_look": "2026-09-21T10:45Z",
+      "fingerprints": {
+        "default_sha": "a0b135dd0369301860af17cedb371cbafac77b31",
+        "pushed_at": "2026-09-21T10:56:07Z",
+        "description_hash": "9e0f4964214a",
+        "release_tag": null
+      },
+      "readme_sha": "40e7761f984e0b5a3680442fb5d1d55b64942cad"
+    },
+    {
+      "id": "github:kofujimura/jev-obniz-led",
+      "notes_section": "140",
+      "last_look": "2026-09-21T10:45Z",
+      "fingerprints": {
+        "default_sha": "e38a60122fe9f25d21dbac2000a7a9f3fa0dacb3",
+        "pushed_at": "2026-09-21T10:26:24Z",
+        "description_hash": "688c30d79374",
+        "release_tag": null
+      },
+      "readme_sha": "8804cc18b82dac0b5f036d01a32118c662567f30"
+    },
+    {
+      "id": "github:korallis/KorWF-Pi",
+      "notes_section": "140",
+      "last_look": "2026-09-21T10:45Z",
+      "fingerprints": {
+        "default_sha": "15f053d22c0df0ff37fdb7855bedbbcb35c7c82d",
+        "pushed_at": "2026-09-21T10:51:26Z",
+        "description_hash": "ebd4bdad59b7",
+        "release_tag": null
+      },
+      "readme_sha": "075f4bc345dfb54e6339e30fb2f2b5a6c157bf43"
+    },
+    {
+      "id": "github:martijnd/jev-checkers-demo",
+      "notes_section": "140",
+      "last_look": "2026-09-21T10:45Z",
+      "fingerprints": {
+        "default_sha": "9b3ede577037dfe816ddcdca07212bcf82fd9d5b",
+        "pushed_at": "2026-09-21T10:53:17Z",
+        "description_hash": "a4f6223e6c74",
+        "release_tag": null
+      },
+      "readme_sha": "f388198a451c13db81e1fd15dcf16bbbbc169fc1"
+    },
+    {
+      "id": "github:neo4j-field/jev-graphrag",
+      "notes_section": "140",
+      "last_look": "2026-09-21T10:45Z",
+      "fingerprints": {
+        "default_sha": "8062e71178b8a963c51af8c648ff0d91ad01439b",
+        "pushed_at": "2026-09-21T10:47:57Z",
+        "description_hash": "cc9545b7b18d",
+        "release_tag": null
+      },
+      "readme_sha": "88095e76c54442db3a161d3cc0c5956aa6a62228"
+    },
+    {
+      "id": "github:tikeda/jev-ux-ui-reference",
+      "notes_section": "140",
+      "last_look": "2026-09-21T10:45Z",
+      "fingerprints": {
+        "default_sha": "897d681cc92ab8e0d7539d91b76b6d29d11a0806",
+        "pushed_at": "2026-09-21T10:47:58Z",
+        "description_hash": "b7c42a19f2b8",
+        "release_tag": null
+      },
+      "readme_sha": "02a381230416460b903cc97469e52cfe514db0c1"
+    },
+    {
+      "id": "github:toreleon/JevGames",
+      "notes_section": "140",
+      "last_look": "2026-09-21T10:45Z",
+      "fingerprints": {
+        "default_sha": "bc17c2a3c7a0627f83adc3c81d3f90cf3a7ff126",
+        "pushed_at": "2026-09-21T10:49:12Z",
+        "description_hash": "a9c719410183",
+        "release_tag": null
+      },
+      "readme_sha": "08ed3b9c609cebfec3bcfc97043d5c26f04a95ef"
+    },
+    {
+      "id": "github:umgbhalla/jevx",
+      "notes_section": "140",
+      "last_look": "2026-09-21T10:45Z",
+      "fingerprints": {
+        "default_sha": "f7847a0df058b662e76b02777cbe1ae92f036406",
+        "pushed_at": "2026-09-21T10:13:32Z",
+        "description_hash": "4bba99783b7e",
+        "release_tag": null
+      },
+      "readme_sha": "4ae64ae5b6369a812f9e46561088b283f2296be4"
+    },
+    {
+      "id": "github:wizicer/jev_info_site",
+      "notes_section": "140",
+      "last_look": "2026-09-21T10:45Z",
+      "fingerprints": {
+        "default_sha": "50de5ec6efe27c66efbe212772f4f551e20f10c9",
+        "pushed_at": "2026-09-21T10:39:05Z",
+        "description_hash": "8639c6e5ef11",
+        "release_tag": null
+      },
+      "readme_sha": "c7d0ab5f0106bc9a5bc68e3a157adbba62e803ed"
     }
   ]
 }

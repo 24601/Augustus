@@ -416,6 +416,33 @@ def main() -> int:
         failed.append("notes.md missing §139 heading")
     if "## 140. Hourly 0445 HIGH" not in notes:
         failed.append("notes.md missing §140 heading")
+
+    notes140 = notes[notes.find("## 140. Hourly 0445 HIGH"):]
+    for remainder_id in (
+        "qingshungLI/everything-about-jev",
+        "ryanzen9/XFlow",
+        "Akhila14/jev-traffic-simulator",
+        "ChuckNomis/linkedin-post-filtering-jev",
+        "DanielJD1216/magic-computer-use",
+        "Keitark/jev-cats-and-dogs",
+        "OriginalByteMe/system-one-chess-arena",
+        "Tsagaanbayr1/jev-tetris",
+        "Zafer-Liu/jev-xiangqi",
+        "agrogov/jev-system-one-study",
+        "emtay-com/fastlaya",
+        "fajarhide/askgrep",
+        "igrejaborabora/lus222-jev-challenge",
+        "kofujimura/jev-obniz-led",
+        "korallis/KorWF-Pi",
+        "martijnd/jev-checkers-demo",
+        "neo4j-field/jev-graphrag",
+        "tikeda/jev-ux-ui-reference",
+        "toreleon/JevGames",
+        "umgbhalla/jevx",
+        "wizicer/jev_info_site",
+    ):
+        if remainder_id not in notes140:
+            failed.append(f"notes.md §140 missing remainder card {remainder_id}")
     algebra = (ROOT / ".agents/skills/augustus/references/composition-algebra.md").read_text(
         encoding="utf-8"
     )
@@ -1158,6 +1185,13 @@ def main() -> int:
             'Softmax over candidate logprobs',
             'skip-thin Adrian-lzr/jev-spire-brain Dililianxice/jev-robotic-arm-benchmark baltzparra/jev-study lzero07/jev-laya-statement qq150078158-lab/TDM-demo empty SHA',
             'hourly 0445 / notes.md §140',
+            'not a digital twin',
+            'Score fan-out ≠ chess engine',
+            'Jev cannot waive a failing check',
+            'umgbhalla/jevx ≠ hawkyre/jevx',
+            'ryanzen9/XFlow ≠ hawkyre/jevx',
+            'Tsagaanbayr1/jev-tetris ≠ planstack-ai/jev-tetris-benchmark',
+            'wizicer/jev_info_site ≠ JingHao-Leon/awesome-jev-apps',
         ):
             if frag not in haystack:
                 failed.append(f"SKILL.md missing fragment {frag!r}")
@@ -1547,6 +1581,13 @@ def main() -> int:
             'Softmax over candidate logprobs',
             'skip-thin Adrian-lzr/jev-spire-brain Dililianxice/jev-robotic-arm-benchmark baltzparra/jev-study lzero07/jev-laya-statement qq150078158-lab/TDM-demo empty SHA',
             'hourly 0445 / notes.md §140',
+            'not a digital twin',
+            'Score fan-out ≠ chess engine',
+            'Jev cannot waive a failing check',
+            'umgbhalla/jevx ≠ hawkyre/jevx',
+            'ryanzen9/XFlow ≠ hawkyre/jevx',
+            'Tsagaanbayr1/jev-tetris ≠ planstack-ai/jev-tetris-benchmark',
+            'wizicer/jev_info_site ≠ JingHao-Leon/awesome-jev-apps',
             ):
                 if frag not in proto_line:
                     failed.append(f"SKILL.md protocol missing {frag!r}")

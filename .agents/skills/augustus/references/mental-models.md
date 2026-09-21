@@ -3062,6 +3062,10 @@ the anti-pattern.
 4. **densify §115 JevHarness / serving substrate ≠ calibrated replica.**
    Add JevHarness project link to READMEs. densify §115 not a sibling
    first sighting. catalog ≠ endorsement.
+5. **remainder densify / not a digital twin / Score fan-out ≠ chess engine.**
+   Jev cannot waive a failing check. umgbhalla/jevx ≠ hawkyre/jevx.
+   wizicer/jev_info_site ≠ JingHao-Leon/awesome-jev-apps.
+   Tsagaanbayr1/jev-tetris ≠ planstack-ai/jev-tetris-benchmark.
 
 Soft Noul ≠ hard safety: ECE 0.027 / 232.1 ms / snake 70/80 / TVD 0.1530
 are **sensors**.
