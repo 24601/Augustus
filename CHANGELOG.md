@@ -16,6 +16,39 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 1746 HIGH (`research/notes.md` §128 / composition items
+465–480 / findings batch #110). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#50. Do not amend released 0.5.0
+(#42). Merged #50 owns §127. Merged #49 owns §126.
+
+### Added
+
+- **Hourly 1746 HIGH (`notes.md` §128).** TypeLLM truncated thinking densify /
+  qwen35_small 0.8B thinking On 0/18 *theirs* / forced closure 20/20 type-valid
+  *theirs* / Constrained AR ≠ calibrated Noul / Kev-0.8B completes family /
+  4B 0.794/0.832 *theirs* / 9B 0.812/0.837 *theirs* / transfer-v9 5%/9%/26%
+  *theirs* / Canny facts-block / Jev never blocks / five-lines 0.80 still soft /
+  kev-ane 155/155 argmax *theirs*. Qwen3.5 ≠ Archer. SHA move is not a replica.
+  Evaluator: truncated thinking ≠ Noul / type-valid ≠ exact / facts block /
+  Jev never blocks / ANE argmax ≠ logit-equiv / 0.80 still soft.
+  uniqueness_gate.py now checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 +
+  1049 + 1143 + 1248 + 1340 + 1441 + 1542 + 1643 + 1746. Composition items
+  465–480 / batch #110.
+  **HARD RULE:** do not reopen or amend PR #23–#50. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat truncated thinking
+  as a Noul, 0.8B 0/18 as Harbor, 0.812 as a replica, a done-claim Noul as a
+  block, or 155/155 argmax as logit-equiv. With Augustus: Constrained AR ≠
+  calibrated Noul; type-valid ≠ exact; Facts go to code. Judgments go to Jev.
+  Only facts can block; Jev never blocks; serving substrate ≠ calibrated
+  replica. Same split for any Choice/Score/Noul-style head, not only hosted Jev.
+
+
+
+
 Hourly 1643 HIGH (`research/notes.md` §127 / composition items
 449–464 / findings batch #109). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in

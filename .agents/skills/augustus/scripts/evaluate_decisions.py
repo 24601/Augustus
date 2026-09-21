@@ -431,6 +431,41 @@ def empty_repo_is_not_serving_substrate(empty, serving_claimed=False):
     """MstyAI/laya-onnx / Royhu1/jev-poker-trainer empty repo ≠ serving substrate."""
     return empty is True and serving_claimed is False
 
+
+
+def truncated_thinking_is_not_noul(closed_then_decode, noul_claimed=False):
+    """TypeLLM truncated thinking then constrained decode ≠ calibrated Noul."""
+    return closed_then_decode is True and noul_claimed is False
+
+
+def type_valid_is_not_exact(type_valid, exact_match):
+    """Forced closure type-valid ≠ exact match."""
+    return type_valid is True and exact_match is False
+
+
+def facts_block_jev_never_blocks(facts_block, jev_blocks=False):
+    """Canny: Only facts can block. Jev never blocks."""
+    return facts_block is True and jev_blocks is False
+
+
+def argmax_ane_is_not_logit_equiv(argmax_agree, logit_equiv_claimed=False):
+    """kev-ane 155/155 argmax ≠ logit-equiv."""
+    return argmax_agree is True and logit_equiv_claimed is False
+
+
+def qwen35_is_not_archer(base, claimed_archer=False):
+    """Qwen3.5 ≠ Archer."""
+    if base != "qwen3.5":
+        raise ValueError("unexpected base")
+    return claimed_archer is False
+
+
+def five_lines_threshold_still_soft(threshold, hard_gate=False):
+    """five-lines threshold 0.80 still soft."""
+    if threshold != 0.80:
+        raise ValueError("unexpected threshold")
+    return hard_gate is False
+
 def hop_ece_permutation_invariant(rows, bins=10, key="p"):
     """Shuffle order; equal-width ECE must not move.
 
@@ -607,6 +642,27 @@ def self_test():
     assert not empty_repo_is_not_serving_substrate(True, True)
     assert theirs_bench_is_not_harbor(1, "openjev-0.3.0-pin")
     assert decide_is_not_generate("decide")
+
+    # 1746: truncated thinking ≠ Noul / type-valid ≠ exact / facts block /
+    # Jev never blocks / ANE argmax ≠ logit-equiv / 0.80 still soft /
+    # Qwen3.5 ≠ Archer.
+    assert truncated_thinking_is_not_noul(True, False)
+    assert not truncated_thinking_is_not_noul(True, True)
+    assert type_valid_is_not_exact(True, False)
+    assert not type_valid_is_not_exact(True, True)
+    assert facts_block_jev_never_blocks(True, False)
+    assert not facts_block_jev_never_blocks(True, True)
+    assert argmax_ane_is_not_logit_equiv(True, False)
+    assert not argmax_ane_is_not_logit_equiv(True, True)
+    assert qwen35_is_not_archer("qwen3.5", False)
+    assert not qwen35_is_not_archer("qwen3.5", True)
+    assert five_lines_threshold_still_soft(0.80, hard_gate=False)
+    assert not five_lines_threshold_still_soft(0.80, hard_gate=True)
+    assert theirs_bench_is_not_harbor(18, "typellm-0.8B-thinking-on-0-18")
+    assert theirs_bench_is_not_harbor(155, "kev-ane-155-155-argmax")
+    assert theirs_bench_is_not_harbor(300, "jev-engineering-371ms")
+    assert constrained_ar_is_not_noul("constrained_ar", False)
+
 
     print("self-test ok")
 
