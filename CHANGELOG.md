@@ -33,6 +33,7 @@ owns §137. Merged #60 owns §136.
   8,400 calls $0.39 *theirs*. Noul 0.7 true 44% *theirs*.
   JevBench 81.65 *theirs* not Harbor. WindTunnel 49/49 *theirs* not Harbor.
   0-byte Mandelbrot is not a replica. training not complete.
+  OpenJev-Kit IS meijustory123/openjev (same GitHub id 1379187719).
   Compose meaning like state. A clean report is not proof.
   does not sandbox. skip-thin empty SHA.
   Evaluator: open-cricket wire-compat ≠ logit-equiv / Greedy 0.90 is not
