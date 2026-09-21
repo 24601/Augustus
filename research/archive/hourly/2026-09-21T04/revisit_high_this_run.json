@@ -1,0 +1,32 @@
+[
+  {
+    "id": "Zefan-Cai/Open-Jev",
+    "kind": "revisit",
+    "stars": 17,
+    "description": "REVISIT densify: HEAD a00559ea0ab2→48346d0630f1; Publish strict Open-Jev TREC evaluation preparation and context proof (*theirs*)",
+    "html_url": "https://github.com/Zefan-Cai/Open-Jev",
+    "source": "github",
+    "sha": "48346d0630f1",
+    "prior_sha": "a00559ea0ab2",
+    "material": [
+      "head_sha",
+      "trec_eval_prep",
+      "new_bench"
+    ]
+  },
+  {
+    "id": "TypeLLM/TypeLLM",
+    "kind": "revisit",
+    "stars": 23,
+    "description": "REVISIT densify: HEAD 702e6a287f3c→624460ed65fb; Add PyPI packaging and publish workflow + banner/CI fixes (*theirs*)",
+    "html_url": "https://github.com/TypeLLM/TypeLLM",
+    "source": "github",
+    "sha": "624460ed65fb",
+    "prior_sha": "702e6a287f3c",
+    "material": [
+      "head_sha",
+      "pypi_packaging",
+      "distribution_port"
+    ]
+  }
+]

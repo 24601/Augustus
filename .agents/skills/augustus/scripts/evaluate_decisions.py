@@ -698,6 +698,35 @@ def cutoff_95_is_still_soft(cutoff, hard_gate=False):
     return hard_gate is False
 
 
+
+
+def trec_prep_is_not_completed_trec(kind, completed=False):
+    """TREC prep ≠ completed Open-Jev TREC."""
+    if kind != "openjev_trec_prep":
+        raise ValueError("unexpected kind")
+    return completed is False
+
+
+def context_proof_is_not_ndcg(kind, ndcg_claimed=False):
+    """context proof ≠ nDCG."""
+    if kind != "tokenizer_context_proof":
+        raise ValueError("unexpected kind")
+    return ndcg_claimed is False
+
+
+def pypi_packaging_is_not_calibrated_noul(kind, calibrated=False):
+    """PyPI packaging ≠ calibrated Noul."""
+    if kind != "pypi_packaging":
+        raise ValueError("unexpected kind")
+    return calibrated is False
+
+
+def logits_are_not_calibrated_probabilities(kind, calibrated=False):
+    """logits are not calibrated probabilities of correctness."""
+    if kind != "next_token_logits":
+        raise ValueError("unexpected kind")
+    return calibrated is False
+
 def hop_ece_permutation_invariant(rows, bins=10, key="p"):
     """Shuffle order; equal-width ECE must not move.
 
@@ -1004,6 +1033,21 @@ def self_test():
     assert theirs_bench_is_not_harbor(369, "kevin-3.69ms")
     assert theirs_bench_is_not_harbor(7824, "jevfish-78.24")
     assert theirs_bench_is_not_harbor(976, "snsk-jp-97.6")
+
+    # 2246: TREC prep ≠ completed Open-Jev TREC / context proof ≠ nDCG /
+    # PyPI packaging ≠ calibrated Noul / logits are not calibrated
+    # probabilities of correctness.
+    assert trec_prep_is_not_completed_trec("openjev_trec_prep", False)
+    assert not trec_prep_is_not_completed_trec("openjev_trec_prep", True)
+    assert context_proof_is_not_ndcg("tokenizer_context_proof", False)
+    assert not context_proof_is_not_ndcg("tokenizer_context_proof", True)
+    assert pypi_packaging_is_not_calibrated_noul("pypi_packaging", False)
+    assert not pypi_packaging_is_not_calibrated_noul("pypi_packaging", True)
+    assert logits_are_not_calibrated_probabilities("next_token_logits", False)
+    assert not logits_are_not_calibrated_probabilities("next_token_logits", True)
+    assert theirs_bench_is_not_harbor(79, "openjev-trec-79-cpu")
+    assert theirs_bench_is_not_harbor(110, "jev-mem-11.0")
+    assert theirs_bench_is_not_harbor(408, "simple-jev-408")
 
     print("self-test ok")
 

@@ -1,0 +1,642 @@
+[
+  {
+    "id": "featherless-ai/simple-jev",
+    "kind": "novel",
+    "stars": 407,
+    "description": "Turn any open model into a classifier/jev endpoint",
+    "html_url": "https://github.com/featherless-ai/simple-jev",
+    "source": "github"
+  },
+  {
+    "id": "everyai-com/jev-directory",
+    "kind": "novel",
+    "stars": 13,
+    "description": "",
+    "html_url": "https://github.com/everyai-com/jev-directory",
+    "source": "github"
+  },
+  {
+    "id": "AkashPriyadarshii/jev-superpowers",
+    "kind": "novel",
+    "stars": 11,
+    "description": "Systematic software development framework for AI coding agents upgraded with TypeSafe Jev System One typed decisions",
+    "html_url": "https://github.com/AkashPriyadarshii/jev-superpowers",
+    "source": "github"
+  },
+  {
+    "id": "AkashPriyadarshii/jev-curate",
+    "kind": "novel",
+    "stars": 6,
+    "description": "High-throughput synthetic & pretraining dataset sifter powered by TypeSafe AI Jev (api.typesafe.ai). Stream, filter, and score Parquet & JSONL datasets at 1,500+ rows/sec using System One typed decisions (Choice, Score, Noul).",
+    "html_url": "https://github.com/AkashPriyadarshii/jev-curate",
+    "source": "github"
+  },
+  {
+    "id": "libingzheren/Jev-Mem",
+    "kind": "novel",
+    "stars": 4,
+    "description": "Jev-Mem: System-One Controlled Agentic Memory",
+    "html_url": "https://github.com/libingzheren/Jev-Mem",
+    "source": "github"
+  },
+  {
+    "id": "Nyarlathoteppppp/pi-jev-context",
+    "kind": "novel",
+    "stars": 4,
+    "description": "Cache-neutral context trimming for the pi coding agent, powered by TypeSafe Jev: long tool output cut to verbatim key lines before it enters context, with lossless recall. Measured, with pre-registered benchmarks.",
+    "html_url": "https://github.com/Nyarlathoteppppp/pi-jev-context",
+    "source": "github"
+  },
+  {
+    "id": "zhangxaochen/dsh-jev",
+    "kind": "novel",
+    "stars": 3,
+    "description": "Jev (System One decision model) plugin suite for DeepSeek Harness (dsh)",
+    "html_url": "https://github.com/zhangxaochen/dsh-jev",
+    "source": "github"
+  },
+  {
+    "id": "FogMoe/necro",
+    "kind": "novel",
+    "stars": 3,
+    "description": "Abandoned Qwen3.5-0.8B LoRA fine-tuning experiments for Jev-like typed judgments, with datasets, adapters, evaluations, and a full retrospective.",
+    "html_url": "https://github.com/FogMoe/necro",
+    "source": "github"
+  },
+  {
+    "id": "TypeSafeAI/clarity-judge",
+    "kind": "novel",
+    "stars": 2,
+    "description": "Multi-axis writing quality checker powered by TypeSafe AI's Jev model. Separate named checks, each with its own verdict and confidence.",
+    "html_url": "https://github.com/TypeSafeAI/clarity-judge",
+    "source": "github"
+  },
+  {
+    "id": "Programalyst/realtime-vision-decision-agent",
+    "kind": "novel",
+    "stars": 2,
+    "description": "Combining YOLO and Jev models to play a mobile game. ",
+    "html_url": "https://github.com/Programalyst/realtime-vision-decision-agent",
+    "source": "github"
+  },
+  {
+    "id": "AkashPriyadarshii/jev-scout",
+    "kind": "novel",
+    "stars": 2,
+    "description": "Zero-hallucination open-source repo and crate scout powered by TypeSafe AI Jev System One scoring",
+    "html_url": "https://github.com/AkashPriyadarshii/jev-scout",
+    "source": "github"
+  },
+  {
+    "id": "AkashPriyadarshii/jev-git",
+    "kind": "novel",
+    "stars": 2,
+    "description": "Sub-second Git pre-commit & pre-push semantic reflex gate powered by TypeSafe AI Jev",
+    "html_url": "https://github.com/AkashPriyadarshii/jev-git",
+    "source": "github"
+  },
+  {
+    "id": "rajasekharponakala/jev-mcp",
+    "kind": "novel",
+    "stars": 1,
+    "description": "MCP server wrapping TypeSafe's Jev System One models — typed noul/choice/score judgments for AI agents",
+    "html_url": "https://github.com/rajasekharponakala/jev-mcp",
+    "source": "github"
+  },
+  {
+    "id": "majiayu000/awesome-jev",
+    "kind": "novel",
+    "stars": 1,
+    "description": "A curated list of Jev / TypeSafe System One projects, SDKs, tutorials, and evaluations. English and 简体中文.",
+    "html_url": "https://github.com/majiayu000/awesome-jev",
+    "source": "github"
+  },
+  {
+    "id": "HisuiKoh/jev-vtuber-ime-core",
+    "kind": "novel",
+    "stars": 1,
+    "description": "読み→VTuber表記を Web検索の根拠 + Jev で解決。辞書データなし。",
+    "html_url": "https://github.com/HisuiKoh/jev-vtuber-ime-core",
+    "source": "github"
+  },
+  {
+    "id": "zohaibtanwir/jev-inbox-lab",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Local lab for exploring TypeSafe's Jev model on a frozen personal email corpus",
+    "html_url": "https://github.com/zohaibtanwir/jev-inbox-lab",
+    "source": "github"
+  },
+  {
+    "id": "zlw212481725-beep/jev-reflex",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/zlw212481725-beep/jev-reflex",
+    "source": "github"
+  },
+  {
+    "id": "ziozzang/hearim",
+    "kind": "novel",
+    "stars": 0,
+    "description": "hearim (헤아림) — Jev-compatible multi-backend System One gateway in Go",
+    "html_url": "https://github.com/ziozzang/hearim",
+    "source": "github"
+  },
+  {
+    "id": "yyy-router/QA-Classifier-Jev",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Question classification experiment using TypeSafe AI Jev for QA/RAG routing.",
+    "html_url": "https://github.com/yyy-router/QA-Classifier-Jev",
+    "source": "github"
+  },
+  {
+    "id": "yijunyu/jev-rs",
+    "kind": "novel",
+    "stars": 0,
+    "description": "System One judgments (noul/choice/score) from any LLM in one prefill — a Rust, Jev-compatible /v1/systemone engine",
+    "html_url": "https://github.com/yijunyu/jev-rs",
+    "source": "github"
+  },
+  {
+    "id": "xiaoMingChina/jecvn",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Jev 中文社区",
+    "html_url": "https://github.com/xiaoMingChina/jecvn",
+    "source": "github"
+  },
+  {
+    "id": "tsnAnh/pikachu",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Curated Pi coding agent configuration with Jev compaction, LSP, subagents, plan mode, safety tools, and automatic updates.",
+    "html_url": "https://github.com/tsnAnh/pikachu",
+    "source": "github"
+  },
+  {
+    "id": "thedv91/jev-mcp",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/thedv91/jev-mcp",
+    "source": "github"
+  },
+  {
+    "id": "smile-magic/laya-mlx-wzq",
+    "kind": "novel",
+    "stars": 0,
+    "description": "一着 · Laya-MLX 五子棋",
+    "html_url": "https://github.com/smile-magic/laya-mlx-wzq",
+    "source": "github"
+  },
+  {
+    "id": "slobodaapl/jev-vs-llm",
+    "kind": "novel",
+    "stars": 0,
+    "description": "A benchmark comparing TypeSafe's Jev versus local open-weight and API LLMs, as well as making Jev chat :) (ish)",
+    "html_url": "https://github.com/slobodaapl/jev-vs-llm",
+    "source": "github"
+  },
+  {
+    "id": "rohit9mehta/dwim",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Do what I mean: type what you want in plain words and it runs the right menu item in any Mac app. Powered by Jev (bring your own key).",
+    "html_url": "https://github.com/rohit9mehta/dwim",
+    "source": "github"
+  },
+  {
+    "id": "religa/jfind",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Find files by describing them in plain English: find(1) with a semantic --like predicate, answered by TypeSafe.ai's jev model",
+    "html_url": "https://github.com/religa/jfind",
+    "source": "github"
+  },
+  {
+    "id": "qlj215/Jev-projects",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Jev 文本判断工具：Noul、Choice、Score，深色本地网页与命令行，Python 标准库实现。",
+    "html_url": "https://github.com/qlj215/Jev-projects",
+    "source": "github"
+  },
+  {
+    "id": "qiaohaojie/Jev-MongoDB",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Real-time FMCG customer care triage: MongoDB Change Streams + TypeSafe Jev",
+    "html_url": "https://github.com/qiaohaojie/Jev-MongoDB",
+    "source": "github"
+  },
+  {
+    "id": "marioquer/jev-mdr",
+    "kind": "novel",
+    "stars": 0,
+    "description": "A Macrodata Refinement terminal you can actually work at, with a real classification model wired into the loop. Severance fan project.",
+    "html_url": "https://github.com/marioquer/jev-mdr",
+    "source": "github"
+  },
+  {
+    "id": "littlewindy123/jev-weekend-shopping-chrome",
+    "kind": "novel",
+    "stars": 0,
+    "description": "把对双休的支持，带进每一次购物。逛淘宝、京东时，JEV 实时猜测商品背后的工作制，疑似非双休直接盖上 PASS。原页生效，边逛边选。",
+    "html_url": "https://github.com/littlewindy123/jev-weekend-shopping-chrome",
+    "source": "github"
+  },
+  {
+    "id": "lauralin-lab/agent-50-jev",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Jev-powered competitive intelligence demo for agent companies with M+ funding rounds",
+    "html_url": "https://github.com/lauralin-lab/agent-50-jev",
+    "source": "github"
+  },
+  {
+    "id": "konaito/jev-fetch",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Ultra-fast, cost-effective intelligent web scraping powered by JEV (System One)",
+    "html_url": "https://github.com/konaito/jev-fetch",
+    "source": "github"
+  },
+  {
+    "id": "kevhill/jev-hierarchy",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Compute probabilities over a heierarchy of terms rather than a set with Jev from Typesafe",
+    "html_url": "https://github.com/kevhill/jev-hierarchy",
+    "source": "github"
+  },
+  {
+    "id": "junichikatsu/jev-receipt-classifier",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Jev (TypeSafe AI) で家計簿レシートを自動分類する TypeScript サンプル",
+    "html_url": "https://github.com/junichikatsu/jev-receipt-classifier",
+    "source": "github"
+  },
+  {
+    "id": "jeffhuen/omp-typesafe",
+    "kind": "novel",
+    "stars": 0,
+    "description": "OMP wrapper skill for TypeSafe System One judgments: eval judge() runtime contract, anti-flattery discipline, and workflow cookbooks",
+    "html_url": "https://github.com/jeffhuen/omp-typesafe",
+    "source": "github"
+  },
+  {
+    "id": "iLuzionsX/jev-arb",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/iLuzionsX/jev-arb",
+    "source": "github"
+  },
+  {
+    "id": "huangserva/hipporoute-jev-codex",
+    "kind": "novel",
+    "stars": 0,
+    "description": "面向 OpenAI Codex 的边界模型路由器，由 TypeSafe Jev 决策：只在线程开始、新轮次、压缩和子 agent 派生时选择模型与思考深度，工具循环内绝不切换，因此不会打掉 prompt 缓存。",
+    "html_url": "https://github.com/huangserva/hipporoute-jev-codex",
+    "source": "github"
+  },
+  {
+    "id": "huaizuo2022/jev-ultrafast",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/huaizuo2022/jev-ultrafast",
+    "source": "github"
+  },
+  {
+    "id": "hf:wayfind/metask-jev-4b-policy-mix",
+    "kind": "novel",
+    "stars": 0,
+    "description": "text-classification transformers safetensors qwen3_5 image-text-to-text typed-decisions calibrated-classification system-one classification structured-prediction candidate-logit jev single-forward-pass",
+    "html_url": "https://huggingface.co/wayfind/metask-jev-4b-policy-mix",
+    "source": "hf_model"
+  },
+  {
+    "id": "hf:v6543210/openJev-1.5B",
+    "kind": "novel",
+    "stars": 0,
+    "description": "text-classification peft safetensors openjev jev system-one qwen2.5-coder typed-decisions llm-guardrails browser-automation agent-eval text-classification en",
+    "html_url": "https://huggingface.co/v6543210/openJev-1.5B",
+    "source": "hf_model"
+  },
+  {
+    "id": "hf:smdesai/laya-multilingual-coreai",
+    "kind": "novel",
+    "stars": 0,
+    "description": "text-classification coreai laya apple-silicon decision-model local-ai ios text-classification base_model:convaiinnovations/laya-multilingual base_model:finetune:convaiinnovations/laya-multilingual license:apache-2.0 region:us",
+    "html_url": "https://huggingface.co/smdesai/laya-multilingual-coreai",
+    "source": "hf_model"
+  },
+  {
+    "id": "hf:ds:Nebulaw1/jev-legal-judgment-tests",
+    "kind": "novel",
+    "stars": 0,
+    "description": "task_categories:text-classification language:zh size_categories:n<1K format:json modality:text library:datasets library:pandas library:polars library:mlcroissant region:us legal synthetic",
+    "html_url": "https://huggingface.co/datasets/Nebulaw1/jev-legal-judgment-tests",
+    "source": "hf_dataset"
+  },
+  {
+    "id": "hf:Weidows/laya-multilingual-GGUF",
+    "kind": "novel",
+    "stars": 0,
+    "description": "text-classification llama.cpp gguf laya mmbert system-one text-classification multilingual base_model:convaiinnovations/laya-multilingual base_model:quantized:convaiinnovations/laya-multilingual license:apache-2.0 endpoints_compatible regio",
+    "html_url": "https://huggingface.co/Weidows/laya-multilingual-GGUF",
+    "source": "hf_model"
+  },
+  {
+    "id": "hf:Weidows/laya-multilingual-FP8",
+    "kind": "novel",
+    "stars": 0,
+    "description": "text-classification laya mmbert fp8 system-one text-classification multilingual base_model:convaiinnovations/laya-multilingual base_model:quantized:convaiinnovations/laya-multilingual license:apache-2.0 region:us",
+    "html_url": "https://huggingface.co/Weidows/laya-multilingual-FP8",
+    "source": "hf_model"
+  },
+  {
+    "id": "hf:JonusNattapong/jev-my-bro",
+    "kind": "novel",
+    "stars": 0,
+    "description": "reinforcement-learning safetensors decision-model system-one agent-governance tool-governance reinforcement-learning en th region:us",
+    "html_url": "https://huggingface.co/JonusNattapong/jev-my-bro",
+    "source": "hf_model"
+  },
+  {
+    "id": "hf:FluidInference/laya-coreml",
+    "kind": "novel",
+    "stars": 0,
+    "description": "text-classification coreml laya apple-silicon neural-engine decision-model fluidaudio text-classification base_model:convaiinnovations/laya base_model:finetune:convaiinnovations/laya license:apache-2.0 region:us",
+    "html_url": "https://huggingface.co/FluidInference/laya-coreml",
+    "source": "hf_model"
+  },
+  {
+    "id": "headertag/ai-revolution-study-labs",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Runnable micro-courses accompanying AI Revolution Part 2: tensors, autoencoders, distillation, vector similarity and GLiNER schemas. Verified on RTX 4090.",
+    "html_url": "https://github.com/headertag/ai-revolution-study-labs",
+    "source": "github"
+  },
+  {
+    "id": "harlanljones/jev-roster-shapes",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/harlanljones/jev-roster-shapes",
+    "source": "github"
+  },
+  {
+    "id": "gordan-code/jev-metrics",
+    "kind": "novel",
+    "stars": 0,
+    "description": "在现有 jev-review 结构基础上，加一个落库层 + 一层 CLI jev-report。 功能：把 Evaluation 落库（本地 SQLite 即可），生成 ①质量趋势报表 ②校准度审计（高置信 vs 实际回归相符率）",
+    "html_url": "https://github.com/gordan-code/jev-metrics",
+    "source": "github"
+  },
+  {
+    "id": "eziee-ai/jev-router-demo",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Can a half-second decision model read a DeFi request before the LLM speaks? The experiment, data, raw results and a guide to run it.",
+    "html_url": "https://github.com/eziee-ai/jev-router-demo",
+    "source": "github"
+  },
+  {
+    "id": "ethereumdegen/starkbot-neo",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Fast, local-first macOS agent with Jev navigation and Hypercanvas",
+    "html_url": "https://github.com/ethereumdegen/starkbot-neo",
+    "source": "github"
+  },
+  {
+    "id": "eriklee1895/jev-town",
+    "kind": "novel",
+    "stars": 0,
+    "description": "一个不停在做决定的小镇：每个居民每刻的判断都是一次 Jev（TypeSafe System One）调用，概率、犹豫和「哪些决定只是抛硬币」都看得见 · A town where every decision is a Jev call",
+    "html_url": "https://github.com/eriklee1895/jev-town",
+    "source": "github"
+  },
+  {
+    "id": "dys-org/pi-jev-gate",
+    "kind": "novel",
+    "stars": 0,
+    "description": "A fail-closed Jev permission gate for Pi",
+    "html_url": "https://github.com/dys-org/pi-jev-gate",
+    "source": "github"
+  },
+  {
+    "id": "connorodea/mach",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Mach · i. am. speed. — a chat-to-browser agent powered by Jev",
+    "html_url": "https://github.com/connorodea/mach",
+    "source": "github"
+  },
+  {
+    "id": "bonsai/furui",
+    "kind": "novel",
+    "stars": 0,
+    "description": "エラトステネスの篩 — jev + ML埋め込みでフォルダを意味ごとに振るう整理の槍 (py/ts/rs)",
+    "html_url": "https://github.com/bonsai/furui",
+    "source": "github"
+  },
+  {
+    "id": "binbandit/jev-demo",
+    "kind": "novel",
+    "stars": 0,
+    "description": "A concise TypeScript and Bun demo of TypeSafe Jev with live OpenAI comparisons.",
+    "html_url": "https://github.com/binbandit/jev-demo",
+    "source": "github"
+  },
+  {
+    "id": "ben0128/jev-fighter-demo",
+    "kind": "novel",
+    "stars": 0,
+    "description": "2D fighting demo where TypeSafe's Jev (System One) makes real-time decisions",
+    "html_url": "https://github.com/ben0128/jev-fighter-demo",
+    "source": "github"
+  },
+  {
+    "id": "beingcognitive/jev-go",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Is Jev a good Gomoku player? Is Jev a great Go player? Play TypeSafe's System One decision model on Cloudflare Pages, with every API call shown.",
+    "html_url": "https://github.com/beingcognitive/jev-go",
+    "source": "github"
+  },
+  {
+    "id": "atulify/omp-plugin-jev-router",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Route Oh My Pi prompts between simple and advanced models with TypeSafe AI's Jev classifier.",
+    "html_url": "https://github.com/atulify/omp-plugin-jev-router",
+    "source": "github"
+  },
+  {
+    "id": "alongL/openJev",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/alongL/openJev",
+    "source": "github"
+  },
+  {
+    "id": "aglowinthefield/hermes-typesafe-plugins",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Hermes agent plugins that put Jev (TypeSafe System One) in the loop: a tool-call gate and a per-turn model/effort router. Shadow mode, fail-open.",
+    "html_url": "https://github.com/aglowinthefield/hermes-typesafe-plugins",
+    "source": "github"
+  },
+  {
+    "id": "Zafer-Liu/jev-demo-screener",
+    "kind": "novel",
+    "stars": 0,
+    "description": "JD-anchored resume screener adapted for TypeSafe Jev - swap the job description, flip the verdict",
+    "html_url": "https://github.com/Zafer-Liu/jev-demo-screener",
+    "source": "github"
+  },
+  {
+    "id": "Zafer-Liu/jev-demo-rag",
+    "kind": "novel",
+    "stars": 0,
+    "description": "RAG quality gate adapted for TypeSafe Jev - relevance filtering + document injection detection, fan-out in one call",
+    "html_url": "https://github.com/Zafer-Liu/jev-demo-rag",
+    "source": "github"
+  },
+  {
+    "id": "Zafer-Liu/jev-demo-moderator",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Comment moderation console adapted for TypeSafe Jev - spam/abuse/borderline routing at ~$20 per million comments",
+    "html_url": "https://github.com/Zafer-Liu/jev-demo-moderator",
+    "source": "github"
+  },
+  {
+    "id": "Zafer-Liu/jev-demo-guardrails",
+    "kind": "novel",
+    "stars": 0,
+    "description": "LLM input gatekeeper MVP adapted for TypeSafe Jev - jailbreak/injection blocking with calibrated escalation",
+    "html_url": "https://github.com/Zafer-Liu/jev-demo-guardrails",
+    "source": "github"
+  },
+  {
+    "id": "WastedHippie/jev-demo",
+    "kind": "novel",
+    "stars": 0,
+    "description": "A concise TypeScript and Bun demo of Jev: customer support signals and semantic pull request labels.",
+    "html_url": "https://github.com/WastedHippie/jev-demo",
+    "source": "github"
+  },
+  {
+    "id": "SaremS/textscan",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Finding things in Text with JEV",
+    "html_url": "https://github.com/SaremS/textscan",
+    "source": "github"
+  },
+  {
+    "id": "STiFLeR7/Jev-LLM-Playground",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/STiFLeR7/Jev-LLM-Playground",
+    "source": "github"
+  },
+  {
+    "id": "Mrchen116/jev-computer-use",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Task-driven macOS computer use with Jev decisions, direct Codex CUA execution, and on-demand LLM help.",
+    "html_url": "https://github.com/Mrchen116/jev-computer-use",
+    "source": "github"
+  },
+  {
+    "id": "JonusNattapong/jev-my-bro",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/JonusNattapong/jev-my-bro",
+    "source": "github"
+  },
+  {
+    "id": "JiongLab/laya-snake-k3",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Offline Laya Snake demo for SpaceMIT K3: reproducible Bianbu RISC-V setup, ONNX AI Core adaptation, and tests",
+    "html_url": "https://github.com/JiongLab/laya-snake-k3",
+    "source": "github"
+  },
+  {
+    "id": "JiaWeiXie/jev-enhanced-plugin",
+    "kind": "novel",
+    "stars": 0,
+    "description": "A Claude Code plugin that takes skills already in use and adds one thing to each: a typed judgment from [TypeSafe](https://typesafe.ai) Jev (System One) at the points where the skill previously relied on the agent's own impression.",
+    "html_url": "https://github.com/JiaWeiXie/jev-enhanced-plugin",
+    "source": "github"
+  },
+  {
+    "id": "Hinstein/jev-vip",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/Hinstein/jev-vip",
+    "source": "github"
+  },
+  {
+    "id": "HiQS-Labs/Jev-unofficial-toolkit",
+    "kind": "novel",
+    "stars": 0,
+    "description": "HiQS' unofficial starter code for Jev model with examples and toolkit based on our testing",
+    "html_url": "https://github.com/HiQS-Labs/Jev-unofficial-toolkit",
+    "source": "github"
+  },
+  {
+    "id": "DomMonte/n8n-nodes-typesafe-ai",
+    "kind": "novel",
+    "stars": 0,
+    "description": "n8n community node for the TypeSafe AI System One API — typed yes/no, choice and score questions with calibrated probabilities",
+    "html_url": "https://github.com/DomMonte/n8n-nodes-typesafe-ai",
+    "source": "github"
+  },
+  {
+    "id": "DevItaliya22/jev-chess",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Jev (TypeSafe AI's System One model) playing chess against itself, graded by Stockfish",
+    "html_url": "https://github.com/DevItaliya22/jev-chess",
+    "source": "github"
+  },
+  {
+    "id": "CompleteDotTech/jev-factorio-agent",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Jev picks what, code owns how - a System One Factorio agent driven by TypeSafe's Jev on FLE",
+    "html_url": "https://github.com/CompleteDotTech/jev-factorio-agent",
+    "source": "github"
+  },
+  {
+    "id": "CodeAlex52/awesome-jev-cn",
+    "kind": "novel",
+    "stars": 0,
+    "description": "Jev 中文精选：System One决策模型中文教程/KOL/小红书/B站/实测",
+    "html_url": "https://github.com/CodeAlex52/awesome-jev-cn",
+    "source": "github"
+  },
+  {
+    "id": "AkashPriyadarshii/jev-droid",
+    "kind": "novel",
+    "stars": 0,
+    "description": "",
+    "html_url": "https://github.com/AkashPriyadarshii/jev-droid",
+    "source": "github"
+  }
+]

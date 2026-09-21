@@ -1,0 +1,11 @@
+{
+  "hour": "2026-09-21T04",
+  "label": "2246",
+  "notes_section": "134",
+  "composition": "553-568",
+  "findings_batch": 116,
+  "revisit_high": 2,
+  "novel_high": 80,
+  "invented_signal": false,
+  "primary": "Open-Jev TREC prep densify; TREC prep \u2260 completed Open-Jev TREC; context proof \u2260 nDCG; TypeLLM PyPI packaging \u2260 calibrated Noul; simple-jev logits are not calibrated probabilities of correctness"
+}

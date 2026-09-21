@@ -1,0 +1,446 @@
+[
+  {
+    "id": "featherless-ai/simple-jev",
+    "ok": true,
+    "stars": 408,
+    "sha": "b02aa81c915a8193759b3cd33fef74721d6e005b"
+  },
+  {
+    "id": "everyai-com/jev-directory",
+    "ok": true,
+    "stars": 13,
+    "sha": "59802ef8b31e35a32415cffb2d123d1f1627141b"
+  },
+  {
+    "id": "AkashPriyadarshii/jev-superpowers",
+    "ok": true,
+    "stars": 11,
+    "sha": "da29f37d3c7c1af0bea3e582254c5dc084b4927c"
+  },
+  {
+    "id": "AkashPriyadarshii/jev-curate",
+    "ok": true,
+    "stars": 6,
+    "sha": "e0f3d83fc8322a65dc3e4c476439c892054040c1"
+  },
+  {
+    "id": "libingzheren/Jev-Mem",
+    "ok": true,
+    "stars": 4,
+    "sha": "9fc5b9349ff892cd9523ab217bd18230351074df"
+  },
+  {
+    "id": "Nyarlathoteppppp/pi-jev-context",
+    "ok": true,
+    "stars": 4,
+    "sha": "f0128a86478f99472ab9d64f0f644f10a9b96c9f"
+  },
+  {
+    "id": "zhangxaochen/dsh-jev",
+    "ok": true,
+    "stars": 3,
+    "sha": "8204830bfa5132283db1a732a275f31a6da8bc29"
+  },
+  {
+    "id": "FogMoe/necro",
+    "ok": true,
+    "stars": 3,
+    "sha": "7321365b826b831105815a9616a9867822f5480d"
+  },
+  {
+    "id": "TypeSafeAI/clarity-judge",
+    "ok": true,
+    "stars": 2,
+    "sha": "d8e3f3e5e91a09cf1c6c4903f19aee3188f0ea14"
+  },
+  {
+    "id": "Programalyst/realtime-vision-decision-agent",
+    "ok": true,
+    "stars": 2,
+    "sha": "392dcf1071ff517062d56d3909af7a51ef2f690f"
+  },
+  {
+    "id": "AkashPriyadarshii/jev-scout",
+    "ok": true,
+    "stars": 2,
+    "sha": "f39713ad4a158d7058ba4059fe581835a1521a4d"
+  },
+  {
+    "id": "AkashPriyadarshii/jev-git",
+    "ok": true,
+    "stars": 2,
+    "sha": "f7c6bbc83f33c1cf0b283c1729c0286048a050fe"
+  },
+  {
+    "id": "rajasekharponakala/jev-mcp",
+    "ok": true,
+    "stars": 1,
+    "sha": "77b97a61022695427f20cadbf988781a90733c6b"
+  },
+  {
+    "id": "majiayu000/awesome-jev",
+    "ok": true,
+    "stars": 1,
+    "sha": "6c6cfb8e212d04792c9f90132771fcc2931bd184"
+  },
+  {
+    "id": "HisuiKoh/jev-vtuber-ime-core",
+    "ok": true,
+    "stars": 1,
+    "sha": "a7b0e9915c830d614e1d7a2775bc90852b264889"
+  },
+  {
+    "id": "zohaibtanwir/jev-inbox-lab",
+    "ok": true,
+    "stars": 0,
+    "sha": "cb8ac4e5877823035441462ec73706fddafa2339"
+  },
+  {
+    "id": "zlw212481725-beep/jev-reflex",
+    "ok": true,
+    "stars": 0,
+    "sha": "c6b1bd5bcec67ba11b2511eecd99b7e72ca6b860"
+  },
+  {
+    "id": "ziozzang/hearim",
+    "ok": true,
+    "stars": 0,
+    "sha": "a3915f331278512496b88d3b33df5f754ef3892a"
+  },
+  {
+    "id": "yyy-router/QA-Classifier-Jev",
+    "ok": true,
+    "stars": 0,
+    "sha": "4a8d737ca63d12429843cda7b844717baded88cb"
+  },
+  {
+    "id": "yijunyu/jev-rs",
+    "ok": true,
+    "stars": 0,
+    "sha": "93436cf548027e6d908e6b3c65cdfc356622ad1d"
+  },
+  {
+    "id": "xiaoMingChina/jecvn",
+    "ok": true,
+    "stars": 0,
+    "sha": "e596ff3d740ad11213bc61db3f72b805d0415985"
+  },
+  {
+    "id": "tsnAnh/pikachu",
+    "ok": true,
+    "stars": 0,
+    "sha": "4daa444f0a17041b378fba1fb2e77d82a8408c37"
+  },
+  {
+    "id": "thedv91/jev-mcp",
+    "ok": true,
+    "stars": 0,
+    "sha": "7dbaa741119ecb0a31dbb1af9f20ab066de693e8"
+  },
+  {
+    "id": "smile-magic/laya-mlx-wzq",
+    "ok": true,
+    "stars": 0,
+    "sha": "40efad4243b6f703c3cfe4ee13619f4ba785f603"
+  },
+  {
+    "id": "slobodaapl/jev-vs-llm",
+    "ok": true,
+    "stars": 0,
+    "sha": null
+  },
+  {
+    "id": "rohit9mehta/dwim",
+    "ok": true,
+    "stars": 0,
+    "sha": "503bae83073c0ba227e5fb61e24b4be034778b22"
+  },
+  {
+    "id": "religa/jfind",
+    "ok": true,
+    "stars": 0,
+    "sha": "51bfc3bcadc40c660c317d9a5db17759a55d5a2a"
+  },
+  {
+    "id": "qlj215/Jev-projects",
+    "ok": true,
+    "stars": 0,
+    "sha": "56a4712344d72eee00a5fc38615f62ed21e1f5df"
+  },
+  {
+    "id": "qiaohaojie/Jev-MongoDB",
+    "ok": true,
+    "stars": 0,
+    "sha": "1a4b2ccfad4dc4aa8bd10c1fcbd05c20527d6705"
+  },
+  {
+    "id": "marioquer/jev-mdr",
+    "ok": true,
+    "stars": 0,
+    "sha": "cf1673612b18c7c5c9aa303adb9eb624a9e91f4a"
+  },
+  {
+    "id": "littlewindy123/jev-weekend-shopping-chrome",
+    "ok": true,
+    "stars": 0,
+    "sha": "cb19557ec511d400391b07b446c031e09d8fca92"
+  },
+  {
+    "id": "lauralin-lab/agent-50-jev",
+    "ok": true,
+    "stars": 0,
+    "sha": "4d6485b55683287a1abe58a47d15652eaed2b19f"
+  },
+  {
+    "id": "konaito/jev-fetch",
+    "ok": true,
+    "stars": 0,
+    "sha": "db42d49b9f4eb651845913575c5e7b960c969754"
+  },
+  {
+    "id": "kevhill/jev-hierarchy",
+    "ok": true,
+    "stars": 0,
+    "sha": "3ddba42a143201d01395f627ab230da58fc0198e"
+  },
+  {
+    "id": "junichikatsu/jev-receipt-classifier",
+    "ok": true,
+    "stars": 0,
+    "sha": "f7b8cbba0cb2f4fa074a8c998822ca5dfab000c4"
+  },
+  {
+    "id": "jeffhuen/omp-typesafe",
+    "ok": true,
+    "stars": 0,
+    "sha": "8541dcd19c470b23bc08b3d18af97f59ab159bf6"
+  },
+  {
+    "id": "iLuzionsX/jev-arb",
+    "ok": true,
+    "stars": 0,
+    "sha": "899217b314394b6ccde9c3dcb4d43a1240b7dfcd"
+  },
+  {
+    "id": "huangserva/hipporoute-jev-codex",
+    "ok": true,
+    "stars": 0,
+    "sha": "100a9239a15f831518c476accd924d8a0082b3a1"
+  },
+  {
+    "id": "huaizuo2022/jev-ultrafast",
+    "ok": true,
+    "stars": 0,
+    "sha": "391bf0d85f41a21ac624dbf97e764a0ee52c292f"
+  },
+  {
+    "id": "headertag/ai-revolution-study-labs",
+    "ok": true,
+    "stars": 0,
+    "sha": "8f4da9c32a2a868d5f215b14029e402478411012"
+  },
+  {
+    "id": "harlanljones/jev-roster-shapes",
+    "ok": true,
+    "stars": 0,
+    "sha": "a1c5dd6af362436a710b19303f9cde716de1ef93"
+  },
+  {
+    "id": "gordan-code/jev-metrics",
+    "ok": true,
+    "stars": 0,
+    "sha": "1e20bb46dfd628a5b9fdf707f2c682297fbf4f6a"
+  },
+  {
+    "id": "eziee-ai/jev-router-demo",
+    "ok": true,
+    "stars": 0,
+    "sha": "961844219631ce6917023141e777d5b22d6ee46c"
+  },
+  {
+    "id": "ethereumdegen/starkbot-neo",
+    "ok": true,
+    "stars": 0,
+    "sha": "20da429a27a6e5c043113a12462c33eb9c8b1432"
+  },
+  {
+    "id": "eriklee1895/jev-town",
+    "ok": true,
+    "stars": 0,
+    "sha": "9145ce0768a2e4c330cb6a6c1e78c1b9a9c32b81"
+  },
+  {
+    "id": "dys-org/pi-jev-gate",
+    "ok": true,
+    "stars": 0,
+    "sha": "9e71d44b60c99636a652fdfb7ba2d40a410bc9f8"
+  },
+  {
+    "id": "connorodea/mach",
+    "ok": true,
+    "stars": 0,
+    "sha": null
+  },
+  {
+    "id": "bonsai/furui",
+    "ok": true,
+    "stars": 0,
+    "sha": "63f77852e42629c13c52c9f2ae2e894b849051d2"
+  },
+  {
+    "id": "binbandit/jev-demo",
+    "ok": true,
+    "stars": 0,
+    "sha": "8334812b3f8339f89eb9a0252129de9af11b15de"
+  },
+  {
+    "id": "ben0128/jev-fighter-demo",
+    "ok": true,
+    "stars": 0,
+    "sha": "f4aab0170b5c6f9f301306539cb2e82328871fbc"
+  },
+  {
+    "id": "beingcognitive/jev-go",
+    "ok": true,
+    "stars": 0,
+    "sha": "d43c1b38bf309d937200965b3d4d9f0f5fa6d098"
+  },
+  {
+    "id": "atulify/omp-plugin-jev-router",
+    "ok": true,
+    "stars": 0,
+    "sha": "2773d681accb31edfbf35513bd32e89e28f41d5e"
+  },
+  {
+    "id": "alongL/openJev",
+    "ok": true,
+    "stars": 0,
+    "sha": "4d3447d616568a75720d216af9b332ab3705b4d4"
+  },
+  {
+    "id": "aglowinthefield/hermes-typesafe-plugins",
+    "ok": true,
+    "stars": 0,
+    "sha": "b4196c608e26b918e1ad23b65932a60076462379"
+  },
+  {
+    "id": "Zafer-Liu/jev-demo-screener",
+    "ok": true,
+    "stars": 0,
+    "sha": "83d8e00a2f53462c83f41532981c55f249105d3a"
+  },
+  {
+    "id": "Zafer-Liu/jev-demo-rag",
+    "ok": true,
+    "stars": 0,
+    "sha": "9b989b594dd352f885052b1b9de49e71f4e75714"
+  },
+  {
+    "id": "Zafer-Liu/jev-demo-moderator",
+    "ok": true,
+    "stars": 0,
+    "sha": "cc47b255a7c10dc1fee2639d5a5626cd7fec7a7a"
+  },
+  {
+    "id": "Zafer-Liu/jev-demo-guardrails",
+    "ok": true,
+    "stars": 0,
+    "sha": "dcb806262e52d8c7c8126cb9fd5293f993b613cb"
+  },
+  {
+    "id": "WastedHippie/jev-demo",
+    "ok": true,
+    "stars": 0,
+    "sha": "ca1273f4ef4b493a203e3e101a907730a73b6326"
+  },
+  {
+    "id": "SaremS/textscan",
+    "ok": true,
+    "stars": 0,
+    "sha": "ab26c893889a3af238b2a8c466b69d376853bc66"
+  },
+  {
+    "id": "STiFLeR7/Jev-LLM-Playground",
+    "ok": true,
+    "stars": 0,
+    "sha": null
+  },
+  {
+    "id": "Mrchen116/jev-computer-use",
+    "ok": true,
+    "stars": 0,
+    "sha": "b25da64d6cb15e0e8aced155b5d35cfa9b350a30"
+  },
+  {
+    "id": "JonusNattapong/jev-my-bro",
+    "ok": true,
+    "stars": 0,
+    "sha": "c49e88b0f6b0b5e136d5976bab71b49beb2cad63"
+  },
+  {
+    "id": "JiongLab/laya-snake-k3",
+    "ok": true,
+    "stars": 0,
+    "sha": "521f493c2c221bb419e0c2faa1ae4da2a9a023de"
+  },
+  {
+    "id": "JiaWeiXie/jev-enhanced-plugin",
+    "ok": true,
+    "stars": 0,
+    "sha": "83e363c84a6c7132bee00a66cc67edaa830689c6"
+  },
+  {
+    "id": "Hinstein/jev-vip",
+    "ok": true,
+    "stars": 0,
+    "sha": "196b688a3d56d18c8b0acb18463257b5232a5e63"
+  },
+  {
+    "id": "HiQS-Labs/Jev-unofficial-toolkit",
+    "ok": true,
+    "stars": 0,
+    "sha": "7071a503110cd387c1c9d62d9bb8aa9d8badcc65"
+  },
+  {
+    "id": "DomMonte/n8n-nodes-typesafe-ai",
+    "ok": true,
+    "stars": 0,
+    "sha": "ff2afca0a90c8020db40e7c2dd2b13cad9514381"
+  },
+  {
+    "id": "DevItaliya22/jev-chess",
+    "ok": true,
+    "stars": 0,
+    "sha": "151f91b25c7b782cd7281ff151283517104f4459"
+  },
+  {
+    "id": "CompleteDotTech/jev-factorio-agent",
+    "ok": true,
+    "stars": 0,
+    "sha": "22c5144349caa89adf448c31602883c9a015eefd"
+  },
+  {
+    "id": "CodeAlex52/awesome-jev-cn",
+    "ok": true,
+    "stars": 0,
+    "sha": "3206e84a331e225be1775d14b7e2481146fd1356"
+  },
+  {
+    "id": "AkashPriyadarshii/jev-droid",
+    "ok": false,
+    "stars": null,
+    "sha": null
+  },
+  {
+    "id": "Zefan-Cai/Open-Jev",
+    "ok": true,
+    "stars": 19,
+    "sha": "48346d0630f14327041928b4b3ecbe07ef65ad6c"
+  },
+  {
+    "id": "TypeLLM/TypeLLM",
+    "ok": true,
+    "stars": 23,
+    "sha": "8a8b4aefd443e47e608bfdc2a679ede28bcc1d8e"
+  }
+]
