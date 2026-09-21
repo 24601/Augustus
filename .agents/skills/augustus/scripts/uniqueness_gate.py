@@ -310,7 +310,7 @@ def main() -> int:
     algebra = (ROOT / ".agents/skills/augustus/references/composition-algebra.md").read_text(
         encoding="utf-8"
     )
-    for n in list(range(289, 317)) + list(range(322, 330)) + list(range(330, 337)) + list(range(337, 353)) + list(range(353, 369)) + list(range(369, 385)) + list(range(385, 401)) + list(range(401, 417)) + list(range(417, 433)) + list(range(433, 449)) + list(range(449, 465)) + list(range(465, 481)) + list(range(481, 497)):
+    for n in list(range(289, 317)) + list(range(322, 330)) + list(range(330, 337)) + list(range(337, 353)) + list(range(353, 369)) + list(range(369, 385)) + list(range(385, 401)) + list(range(401, 417)) + list(range(417, 433)) + list(range(433, 449)) + list(range(449, 465)) + list(range(465, 481)) + list(range(481, 497)) + list(range(497, 505)):
         needle = f"{n}. **"
         if needle not in algebra:
             failed.append(f"composition-algebra missing item {n}")
@@ -369,6 +369,11 @@ def main() -> int:
     else:
         if fm.get("name") != "augustus":
             failed.append("SKILL.md name != augustus")
+        meta = fm.get("metadata") or {}
+        if meta.get("version") != "0.5.0":
+            failed.append(
+                f"SKILL.md metadata.version {meta.get('version')!r} != '0.5.0'"
+            )
         desc = fm.get("description") or ""
         haystack = desc + "\n" + skill
         for frag in (
