@@ -1,5 +1,7 @@
 # The judgment-model class (Jev is exemplar, not monopoly)
 
+> **Framing.** Augustus designs for the **decision-model class**. TypeSafe Jev (Choice / Score / Noul) is the dominant product most users will call. "System One" is TypeSafe's name for part of this class, not a synonym that erases the rest.
+
 Augustus designs for the whole class of **fast, cheap
 categorization / classification / scoring models** that return a bounded
 answer software can act on — not only TypeSafe Jev. Jev is the documented

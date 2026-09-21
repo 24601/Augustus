@@ -48,6 +48,9 @@ re-opened as "new." Before folding:
 - uniqueness_gate.py checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 + 1049 + 1143 + 1248 + 1340 + 1441 + 1542 + 1643 + 1746 + 1843 + 1936 + openjev + 1946 + 2049 + 2146 + 2246 + 2347 + 0049 + 0151 + 0248 consecutive locks, plus the revisit / since-last-look protocol substring in the skill and research files.
 - Hourly uniqueness dump: `research/changelog-hourly.md` (archive,
   not release notes)
+- **Never append uniqueness locks or hourly HIGH digests to
+  `README.md`.** The human-facing README stops at License. Locks live
+  in `research/notes.md`, fold overlays, and uniqueness_gate fixtures.
 - Treat **revisit HIGH like novel HIGH**. Catalogued repos are not
   done. If fingerprints moved (`default_sha`, `pushed_at`,
   `description_hash`, `release_tag`) or the README / API / release /

@@ -1,20 +1,21 @@
 ---
 layout: default
-title: "Augustus: System One decision judgment"
+title: "Augustus: decision-model class"
 permalink: /
 page_class: home
 ---
 
 <section class="hero" aria-labelledby="hero-title">
   <div>
-    <p class="kicker hero-reveal" style="--d: 0ms">v0.5.0, System One</p>
+    <p class="kicker hero-reveal" style="--d: 0ms">v0.5.0, Jev the dominant exemplar</p>
     <h1 id="hero-title" class="hero-title">
       <span class="line hero-reveal" style="--d: 50ms">Place judgment.</span>
       <span class="line hero-reveal" style="--d: 110ms">Keep proof exact.</span>
     </h1>
     <p class="lede hero-reveal" style="--d: 180ms">
-      Agent skill for placing TypeSafe Jev Choice/Score/Noul with classical
-      decision methods, composition algebra, and a validation gate.
+      Design-judgment skill for the decision-model class. TypeSafe Jev Choice/Score/Noul
+      is the dominant exemplar most users will call. Classical decision methods,
+      composition algebra, and a validation gate.
     </p>
     <div class="cta-row hero-reveal" style="--d: 250ms">
       <a class="btn btn-primary" href="https://github.com/24601/Augustus#install">Install the skill</a>
@@ -52,7 +53,7 @@ page_class: home
     <h2 id="what-title">A gate for where judgment belongs</h2>
     <p>
       Augustus is named for Augustus De Morgan, mentor of William Stanley
-      Jevons. TypeSafe Jev is the documented exemplar, not the monopoly.
+      Jevons. TypeSafe Jev is the dominant exemplar most users will call.
       Exact work stays in code or policy. The model owns narrow judgment.
       A soft Noul is not a proof. The atlas lives in
       <a href="https://github.com/24601/Augustus/tree/main/.agents/skills/augustus"><code>.agents/skills/augustus/</code></a>

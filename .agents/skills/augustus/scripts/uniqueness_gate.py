@@ -30,7 +30,9 @@ The 0551 archive run_digest must claim §141 / 665–680 / #123.
 The 0707 archive run_digest must claim §142 / 681–696 / #124.
 The 0823 archive run_digest must claim §143 / 697–712 / #125.
 CHANGELOG.md must not hold uniqueness dump walls (dumps live in
-changelog-hourly.md). README.md must not hold the 0743 dump wall.
+changelog-hourly.md). README.md is not a uniqueness overlay: the
+human-facing README stops at License and must not hold uniqueness
+locks or hourly HIGH digests.
 Pages greps stay in docs/index.md and docs/_layouts/default.html.
 The 0843 ecosystem blurb cites notes.md §114. Does not fetch the
 network. Does not treat a lock as a Harbor score.
@@ -38,6 +40,7 @@ network. Does not treat a lock as a Harbor score.
 
 from pathlib import Path
 import json
+import re
 import subprocess
 import sys
 import yaml
@@ -263,7 +266,6 @@ OVERLAYS = [
     "research/changelog-hourly.md",
     "research/refresh-log.md",
     "research/archive/findings.md",
-    "README.md",
     "docs/ecosystem.md",
     ".agents/skills/augustus/SKILL.md",
     ".agents/skills/augustus/references/applied-mappings.md",
@@ -295,8 +297,120 @@ def load_skill_frontmatter(text: str) -> dict:
     return data
 
 
+LICENSE_HEADING = "\n## License\n"
+LICENSE_END = (
+    "MIT. See [LICENSE](LICENSE). Security reports: [SECURITY.md](SECURITY.md).\n"
+    "Contributions: [CONTRIBUTING.md](CONTRIBUTING.md)."
+)
+_HOURLY_USER_LINE = re.compile(
+    r"(?im)^\s*(?:[-*]+\s+|\*\*)?(Hourly|User-provided)\b"
+)
+_FOLD_RESIDUE = re.compile(
+    r"(?is)(uniqueness lock|Hourly\s+\d|User-provided|"
+    r"notes\.md|invented_signal|does not bump|fold HIGH)"
+)
+
+
+def readme_after_license(readme: str):
+    """Return text after the License heading, or None if missing."""
+    idx = readme.find(LICENSE_HEADING)
+    if idx >= 0:
+        return readme[idx + len(LICENSE_HEADING) :]
+    if readme.startswith("## License\n"):
+        return readme[len("## License\n") :]
+    return None
+
+
+def readme_dump_wall_violations(readme: str) -> list[str]:
+    """Fail if the package README holds uniqueness locks or fold residue.
+
+    Human README stops at License. Locks live in notes.md / overlays /
+    uniqueness_gate fixtures, not README.md.
+    """
+    failed = []
+    if "README.md" in OVERLAYS:
+        failed.append("README.md must not be a uniqueness overlay")
+    if "uniqueness lock" in readme:
+        failed.append(
+            "README.md holds uniqueness lock "
+            "(human README is not a fold overlay)"
+        )
+    after = readme_after_license(readme)
+    if after is None:
+        failed.append("README.md missing ## License heading")
+        return failed
+    if LICENSE_END not in after:
+        failed.append(
+            "README.md License block is not the MIT / SECURITY / "
+            "CONTRIBUTING ending"
+        )
+        extra = after
+    else:
+        extra = after.split(LICENSE_END, 1)[1]
+    extra_stripped = extra.strip()
+    if extra_stripped:
+        failed.append(
+            "README.md continues after the License block "
+            "(human README must stop at License)"
+        )
+        if "uniqueness lock" in extra:
+            failed.append("README.md holds uniqueness lock after ## License")
+        if _HOURLY_USER_LINE.search(extra):
+            failed.append(
+                "README.md Hourly/User-provided uniqueness-lock or HIGH "
+                "prose after ## License"
+            )
+        for para in re.split(r"\n\s*\n", extra):
+            blob = para.strip()
+            if len(blob) > 200 and _FOLD_RESIDUE.search(blob):
+                failed.append(
+                    "README.md fold residue after ## License "
+                    f"(paragraph {len(blob)} chars)"
+                )
+                break
+    return failed
+
+
+def readme_dump_wall_self_test() -> list[str]:
+    """Negative fixture: a lock after License must fail the dump-wall check."""
+    failed = []
+    good = (
+        "# Augustus\n\nDesign judgment for the decision-model class.\n"
+        + LICENSE_HEADING
+        + "\n"
+        + LICENSE_END
+        + "\n"
+    )
+    if readme_dump_wall_violations(good):
+        failed.append(
+            "readme dump-wall self-test: clean License README must pass"
+        )
+    bad_lock = good + "Hourly 0823 uniqueness lock: dohnuts densify;\n"
+    if not any("uniqueness lock" in m for m in readme_dump_wall_violations(bad_lock)):
+        failed.append(
+            "readme dump-wall self-test: uniqueness lock after License must fail"
+        )
+    bad_high = good + "- Hourly 0823 HIGH (`research/notes.md` §143).\n"
+    if not readme_dump_wall_violations(bad_high):
+        failed.append(
+            "readme dump-wall self-test: Hourly HIGH after License must fail"
+        )
+    long_para = (
+        "Hourly fold residue that restates notes.md invented_signal false "
+        "and does not bump 0.5.0 " * 8
+    )
+    bad_long = good + long_para + "\n"
+    hits = readme_dump_wall_violations(bad_long)
+    if not any("fold residue" in m or "continues after" in m for m in hits):
+        failed.append(
+            "readme dump-wall self-test: long fold residue after License must fail"
+        )
+    return failed
+
+
 def main() -> int:
     failed = []
+    failed.extend(readme_dump_wall_self_test())
     for rel in OVERLAYS:
         path = ROOT / rel
         if not path.is_file():
@@ -2002,8 +2116,7 @@ def main() -> int:
     if "Hourly 0743 uniqueness lock:" in changelog:
         failed.append("CHANGELOG.md holds 0743 uniqueness dump")
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
-    if "Hourly 0743 uniqueness lock:" in readme:
-        failed.append("README.md holds 0743 uniqueness dump (#33 map + later lock lines)")
+    failed.extend(readme_dump_wall_violations(readme))
     index = (ROOT / "docs/index.md").read_text(encoding="utf-8")
     for s in ("TypeSafe Jev Choice/Score/Noul", "Install the skill"):
         if s not in index:
