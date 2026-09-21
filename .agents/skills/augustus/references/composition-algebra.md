@@ -4361,6 +4361,75 @@ Soft Noul ≠ hard safety.
      Merged #74 owns §148. Merged #76 owns §149. This fold is §150. Full cards: `faq.md`.
 
 
+793. **Jev decides, generator writes, code owns irreversible writes** (benjamincanac/tia):
+     Jev decides generator writes code owns irreversible. The model never classifies.
+     dry-run default. human labels stay. Soft judgment never sole veto.
+     Full cards: `research/notes.md` §151.
+794. **L0 is not calibration** (MorrisZJ/AnyJev):
+     L0 is not calibration. decision.level is raw, L0, or L1. not affiliated with TypeSafe.
+     MorrisZJ/AnyJev ≠ hwfengcs/any2jev. Qwen3 ≠ Archer.
+     Full cards: `research/notes.md` §151.
+795. **flips and L1 ECE *theirs*** (MorrisZJ/AnyJev):
+     raw flip 0.227 to 0.077. L1 ECE 0.100 *theirs*. Jev 1.13.0 acc 0.727 published not rerun.
+     measured 0.768 and headline 0.766 stay two sentences. *theirs* not Harbor.
+     Full cards: `research/notes.md` §151.
+796. **answers nothing itself** (andududu/jeview):
+     Jeview answers nothing itself. key stored as plain text. a live view is not a calibration claim.
+     Full cards: `research/notes.md` §151.
+797. **verbatim compaction** (satiricalguru/Fast-Jev-Agents):
+     never summarizes or rewrites text. pinned text stays. 100 ms to 1 s *theirs*.
+     Full cards: `research/notes.md` §151.
+798. **noul carries no confidence** (Alberto-Codes/judgevet):
+     noul carries no confidence. jev-latest returned jev-1.13.0. later confidence sentence is their tension.
+     wire-compat ≠ logit-equiv. Alberto-Codes/judgevet ≠ jkudish/jev-mcp.
+     Full cards: `research/notes.md` §151.
+799. **recall is not answer accuracy** (Emlembow/jevgraph):
+     63.9% to 81.8% *theirs*. unanswerable still returns. ranking ≠ an answer.
+     Full cards: `research/notes.md` §151.
+800. **0.75 still soft** (Ivanovskyi/typesafe-ai-gateway):
+     0.75 still soft. MANUAL_REVIEW. routing ≠ permission. Soft judgment never sole veto.
+     Full cards: `research/notes.md` §151.
+801. **legal UCI is code** (abe17124/jev-laya-chess-bench):
+     legal UCI. no W/D/L table. do not invent scores. game success ≠ calibrated Noul.
+     Full cards: `research/notes.md` §151.
+802. **unofficial .NET SDK** (adelaserna82/jev-model-net-sdk):
+     simulation first. planned NuGet names are not a published contract.
+     adelaserna82/jev-model-net-sdk ≠ JabbaKadabra/SystemOneDotNet.
+     Full cards: `research/notes.md` §151.
+803. **catalogs are not endorsement** (karozi/awesome-jev-resources):
+     catalog ≠ endorsement. karozi/awesome-jev-resources ≠ ham-zax/awesome-jev ≠ heyjunpenn/awesome-jev.
+     Full cards: `research/notes.md` §151.
+804. **quick_eval 0.6234 is not 0.7518** (hf:abidlabs/jev-typed-decisions-causal-0.6b):
+     first card revisit tag no prior notes card. acc 0.6234 NLL 1.2755 n=640 *theirs*.
+     do not quote 0.7518. restricted letter CE ≠ calibrated Noul. LoRA ≠ RLCD replica.
+     Qwen/Qwen3-0.6B-Base ≠ Archer.
+     Full cards: `research/notes.md` §151.
+805. **class benches *theirs*** (nyx, harrymunro, safety, Wouze):
+     nyx 2,277 frozen requests *theirs*. Qwen3.5-4B ≠ Archer. 92.9% vs 65.3% *theirs* not Harbor.
+     12,254 live calls *theirs*. MASSIVE intent 0.816 *theirs*. top-1 among k≤12 not corpus nDCG@10.
+     Full cards: `research/notes.md` §151.
+806. **namesakes**:
+     nautahakk/jev-codex-router ≠ gargpratyush/jev-router.
+     canok07/jev-router ≠ gargpratyush/jev-router.
+     SAITS-Swiss-AI-Tech-Services/jev-mcp ≠ jkudish/jev-mcp ≠ emlama/jev-mcp.
+     hf:rarha/laya-onnx ≠ MatteoGauthier/laya-onnx.
+     abe17124/jev-laya-chess-bench ≠ harrymunro/jev-laya-benchmark.
+     alibowbow/jev ≠ emipaz/jev ≠ rscottstevens-byte/jev.
+     devanshbatham/nyx ≠ jaredpalmer/kev.
+     hf:Wouze/laya-ara-rag ≠ hf:Wouze/laya-ara.
+     codeJRV/openjev-hermes-plugin ≠ Zefan-Cai/Open-Jev.
+     Full cards: `research/notes.md` §151.
+807. **skip-thin empty SHA / HTTP 404**:
+     skip-thin canok07/jev-router fedorpark/jev-inbox-lab rscottstevens-byte/jev tgallice/jev-go empty SHA HTTP 409.
+     codeJRV/openjev-hermes-plugin HTTP 404. sed-ndi/test-jev README HTTP 404.
+     Full cards: `research/notes.md` §151.
+808. **skip Archer** (promised_not_landed):
+     Archer still promised_not_landed. Parent merges only after ADV_PASS.
+     do not push onto open #75. notes.md §151.
+     Full cards: `faq.md`.
+
+
+
 
 
 **Hourly 2049 HIGH (`notes.md` §132).** kev night-2 densify HEAD c096660c8da2. PLAN SHA 8d77dd271c66. README SHA unchanged 84b872488915. KEV_TEMPERATURE T≈2.0. Brier 0.291→0.267 ECE 0.105→0.039 *theirs*. 7.5%→3.2% *theirs*. grouped T rejected. Qwen3.6-35B-A3B smoke 0.812 *theirs*. Hub --revision night2-du. MMLU-Pro 1000 Kev-9B 0.511 Jev 0.829 *theirs*. Qwen3.6 ≠ Archer. temperature scaling ≠ ECE unless measured. Hub --revision is a pin not a replica. kotoba OpenJev runtime densify HEAD ff7f84e74d04. generated_text: False. trained runtime ≠ TypeSafe. OpenJev.from_pretrained. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#55. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.

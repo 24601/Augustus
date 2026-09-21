@@ -1,3 +1,14 @@
+## 2026-09-21 ~19:52 UTC / ~13:52 Boise - Hourly 1352 HIGH
+- Fresh fold off current `main` (`6ef49bc`, lev / `notes.md` §149 / merged #76).
+  This fold: `notes.md` §151 / composition 793-808 / findings batch #131.
+  Open PR #75 claims §150 / 777-792 / #130. Do not push onto that branch.
+  **HARD RULE:** do not reopen or amend PR #23 through #76.
+- PRIMARY: benjamincanac/tia. Jev decides, generator writes, code owns irreversible.
+  MorrisZJ/AnyJev: L0 is not calibration. *theirs* not Harbor.
+- REVISIT: hf:abidlabs/jev-typed-decisions-causal-0.6b. first card revisit tag
+  no prior notes card. quick_eval 0.6234. do not quote 0.7518.
+  Uniqueness lock lives in `research/notes.md` only (plus the gate fixture).
+  `invented_signal: false`. No Augustus call site.
 ## 2026-09-21 ~18:56 UTC / ~12:56 Boise - Hourly 1256 HIGH
 - Rebased onto post-#76 `main` (`6ef49bc`). glance stays §147. Hourly 1203
   stays §148 / items 761-776 / batch #129. Merged #76 owns peterpme/lev §149
