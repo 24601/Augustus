@@ -10579,6 +10579,21 @@ is not a Noul. wire-compat ≠ logit-equiv. SHA move is not a replica.
 serving-stack / version densify. Full card: `notes.md` §127.
 
 
+### Since last look (2026-09-21T05:08Z hourly 2347) — razorback16/openjev
+
+DENSIFY the §75 openjev cite. Keep this section id. Do not mint a
+sibling first sighting. HEAD `2050fdb8280d` README SHA `d5322e16e565`
+(was `febf02e88989` / `242a737dba01`). MLX backend steps>1, think, and
+text generation. MLX backend: answer questions about images. Quote
+*theirs*: Both backends also serve text generation on an
+OpenAI-compatible `/v1/chat/completions`. dual serving is not generate.
+Hosted Codiv ≠ TypeSafe. The 1441 "chat 501 on MLX" line is stale; this
+hour the MLX port generates. Generating text is still generate, not a
+calibrated Noul. wire-compat ≠ logit-equiv. SHA move is not a replica.
+serving-port densify. Full card: `notes.md` §135.
+
+
+
 ## 76. User-provided HIGH — NandhaKishorM/laya packaging (2026-09-19 ~09:07 Boise / ~15:07 UTC)
 
 Docs-only into PR #2. **Skip Archer.** Do **not**
@@ -28333,6 +28348,19 @@ height so it scales on PyPI. Constrained AR ≠ calibrated Noul. PyPI
 packaging ≠ calibrated Noul. type safety does not guarantee factual
 accuracy. SHA move is not a replica. Full card: `notes.md` §134.
 
+
+### Since last look (2026-09-21T05:47Z hourly 2347) — TypeLLM/TypeLLM
+
+DENSIFY §113 rename. Keep this section id. Do not mint a sibling first
+sighting. HEAD **unchanged** `8a8b4aefd443` README SHA **unchanged**
+`9f6dea3a4c8c`. Material this hour is GitHub Release **v0.1.1**
+(published 2026-09-21T04:49:02Z) plus the already-carded banner/CI.
+Quote *theirs*: Drop fixed banner height so it scales on PyPI.
+Constrained AR ≠ calibrated Noul. PyPI packaging ≠ calibrated Noul.
+type safety does not guarantee factual accuracy. Star-noise 23★→26★ is
+not the fold. SHA move is not a replica. Full card: `notes.md` §135.
+
+
 ## 114. Hourly 0843 HIGH (2026-09-20 ~08:43 Boise / 2026-09-20T14:43Z)
 
 Measurement / judgment / skills fold on a **fresh PR off
@@ -34066,3 +34094,249 @@ Hooks for the reviewer:
 
 **Hourly 2246 HIGH (`notes.md` §134).** Open-Jev TREC densify HEAD 48346d0630f1. README SHA unchanged ce1a587219e4. TREC prep ≠ completed Open-Jev TREC. context proof ≠ nDCG. CPU tests ≠ GPU scores. 79 CPU tests *theirs*. Open-Jev TREC pending. TypeLLM PyPI densify HEAD 8a8b4aefd443. typellm 0.1.1. PyPI packaging ≠ calibrated Noul. Constrained AR ≠ calibrated Noul. simple-jev 408★ first card. logits are not calibrated probabilities of correctness. wire-compat ≠ logit-equiv. jev-directory catalog ≠ endorsement. Jev-Mem 11.0% 6.6× 36.7% *theirs* not Harbor. FogMoe/necro abandoned LoRA retrospective. serving substrate ≠ calibrated replica. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#57. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
 Hourly 2246 uniqueness lock: Zefan-Cai/Open-Jev densify HEAD 48346d0630f1 README SHA unchanged ce1a587219e4; Publish strict Open-Jev TREC evaluation preparation and context proof; Actual Open-Jev TREC model inference is pending; All 79 combined CPU tests pass; 97 queries 43 DL19 54 DL20; at most 873 requests per model; No GPU or model inference was used; TREC prep ≠ completed Open-Jev TREC; context proof ≠ nDCG; CPU tests ≠ GPU scores; Open-Jev TREC pending; TypeLLM/TypeLLM densify HEAD 8a8b4aefd443 README SHA 9f6dea3a4c8c; Add PyPI packaging and publish workflow; typellm 0.1.1; Drop fixed banner height so it scales on PyPI; Constrained AR ≠ calibrated Noul; PyPI packaging ≠ calibrated Noul; type safety does not guarantee factual accuracy; featherless-ai/simple-jev 408★ HEAD b02aa81c915a README SHA 4c5be59e9738; logits are not calibrated probabilities of correctness; does not reproduce TypeSafe; /v1/systemone alias of /v1/classifier; wire-compat ≠ logit-equiv; everyai-com/jev-directory 13★ 50 runnable evals 1300+ builds catalog ≠ endorsement; Jev-Mem 11.0% 6.6× 36.7% *theirs* not Harbor; Nyarlathoteppppp/pi-jev-context ≠ kevinpita/pi-jev-context; FogMoe/necro abandoned LoRA retrospective; LoRA ≠ RLCD replica; Qwen3.5-0.8B ≠ Archer; clarity-judge independent community project; hearim Jev-compatible Go gateway; yijunyu/jev-rs any LLM one prefill; alongL/openJev ≠ Zefan-Cai/Open-Jev; huaizuo2022/jev-ultrafast ≠ browser-use/jev-ultrafast; FluidInference/laya-coreml ≠ AndyInQtr/laya-coreai ≠ mizorewww/laya-coreml; serving substrate ≠ calibrated replica; wayfind/metask-jev-4b-policy-mix ≠ metask-ai/metask-jev; majiayu000/awesome-jev ≠ heyjunpenn/awesome-jev ≠ yibie/awesome-jev; rajasekharponakala/jev-mcp ≠ thedv91/jev-mcp ≠ jkudish/jev-mcp; skip-thin jev-droid 404 mach empty SHA; game success ≠ calibrated Noul; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57; notes.md §134
+
+## 135. Hourly 2347 HIGH (2026-09-20 ~23:47 Boise / 2026-09-21T05:47Z)
+
+Measurement / class-member fold on a **fresh PR off latest `main`**
+(`cursor/fold-hourly-2347-high-634c`) after `427dcf4` (merged #58 hourly
+2246 HIGH, `notes.md` §134 / items 553–568 / batch #116; merged #57 hourly
+2146 HIGH, `notes.md` §133; merged #56 hourly 2049 HIGH, `notes.md` §132).
+**HARD RULE:** do not reopen or amend PR #23–#58.
+Do **not** re-fold §134 2246 / §133 2146 / §132 2049 *as a second census*.
+Do not amend #58/#57/#56. Do not mint a sibling TypeLLM or openjev first
+sighting. Densify `TypeLLM/TypeLLM` on §113 only. Densify
+`razorback16/openjev` on §75 only. This fold's IDs:
+`notes.md` §135 / composition 569–584 / findings batch #117.
+
+Never reopen merged #7–**#58**. Quote READMEs / release notes.
+Mark *theirs*. No wrappers, keys, `npm` / `pip` / `uv` / `docker`
+install recipes. `invented_signal: false`. Hunches labeled.
+
+Lane is Augustus: **mathematical / logical / algorithmic mental models**
+for Jev-class categorization/scoring across AI / SWE / **business /
+knowledge work / life**, not SWE-only. PRIMARY this hour is **REVISIT
+densify** of the openjev MLX Apple-silicon serving port (steps>1 / think
+/ text gen + image Qs) plus TypeLLM GitHub Release v0.1.1, with novel
+HIGH class members (JevLoop independent loop, bonsai/bonzi namesake,
+option-order measurement, tokenizer cost model, TomatoEggBench, n=8
+pilot, compaction ranking, routing that does not execute, advisory
+page audit, Cua-S1 computer-use, Laya serving ports). Jev is exemplar,
+not the mandate. Third-party benches stay *theirs*. Catalogs are indexes.
+Soft scores ≠ hard gates. SHA move is not a replica.
+dual serving is not generate. Hosted Codiv ≠ TypeSafe.
+wire-compat ≠ logit-equiv. Constrained AR ≠ calibrated Noul.
+PyPI packaging ≠ calibrated Noul. n=8 is not Harbor.
+option order can change an answer. ranking before lossless condensation
+is still ranking. Cua-S1 ≠ TypeSafe. Archer still **promised_not_landed**.
+
+Unique consecutive fragments (this fold) must appear as **one
+substring** in overlays (see uniqueness gate):
+Hourly 2347 uniqueness lock: razorback16/openjev densify HEAD 2050fdb8280d README SHA d5322e16e565; MLX backend steps>1/think/text gen + image Qs; dual serving is not generate; Hosted Codiv ≠ TypeSafe; wire-compat ≠ logit-equiv; SHA move is not a replica; TypeLLM/TypeLLM densify HEAD 8a8b4aefd443 README SHA unchanged 9f6dea3a4c8c; GitHub Release v0.1.1; Drop fixed banner height so it scales on PyPI; Constrained AR ≠ calibrated Noul; PyPI packaging ≠ calibrated Noul; type safety does not guarantee factual accuracy; zjunlp/JevLoop 6★ independent not affiliated; NicolaiLassen/open-bonsai-jev ≠ NicolaiMTLassen/open-bonzi-jev; WANLI-256 74.6% *theirs*; danielhirt/jev-lab ≠ tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ mjyoke1111/jev-lab; option order 0.188 or 0.542 *theirs*; novaleolin/jev-evolve; option order can change an answer; LabGuy94/jevtok 0 mismatches *theirs* not Harbor; ockev 35ms 95.8% TomatoEggBench *theirs* not Harbor; structured-decision-bench n=8 *theirs*; n=8 is not Harbor; Yang-SS-stack/jev-computer-use ≠ Mrchen116/jev-computer-use; amoreX/jevvy ≠ PanAchy/jevvy ≠ aboisvert/jevvy; smile-magic/laya-mlx-ddz ≠ smile-magic/laya-mlx-wzq; sriramkasyap/laya-api wire-compat ≠ logit-equiv; hf:space:Yuki131/KaLM-Jev ≠ KaLM-Embedding/KaLM-Jev; KaLM-Jev reranker ≠ Jev replica; hf:soyelmismo/laya-multilingual-onnx serving substrate ≠ calibrated replica; ranking before lossless condensation; llm-routing-jiv does not execute; jev-page-checker advisory does not block; 1deat0r/Jcua Cua-S1 ≠ TypeSafe; Jev-Register-Tool catalog only; nexibeo/jev-cookbook already carded; leesk212/JEV-CPU already carded; kazuhideoki/jev-search already carded; skip-thin layacm empty SHA; game success ≠ calibrated Noul; does not execute; catalog ≠ endorsement; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58; notes.md §135
+
+### How-to-apply (class lenses, not vendor tutorials)
+
+These are *class* lenses. Same discipline as §134 (PyPI packaging ≠
+calibrated Noul) and §125 (dual serving is not generate). Formal methods
+**compose**: a Noul is a SENSOR; an MLX serving port is a substrate, not
+a replica; a GitHub Release is distribution, not calibration; ranking
+before lossless condensation is still ranking.
+
+1. **dual serving is not generate / Hosted Codiv ≠ TypeSafe /
+   wire-compat ≠ logit-equiv**
+   (razorback16/openjev densify §75). Quote *theirs*: MLX backend
+   steps>1, think, and text generation. MLX backend: answer questions
+   about images. Both backends also serve text generation on an
+   OpenAI-compatible `/v1/chat/completions`. Hosted for free on Codiv.
+   Independent. Not affiliated. The 1441 card's "chat 501 on MLX" is
+   stale; this hour the MLX port generates. Generating text on MLX is
+   still generate, not a calibrated Noul. SHA move is not a replica.
+   Do **not** copy `pip` / Codiv keys.
+2. **GitHub Release v0.1.1 / Constrained AR ≠ calibrated Noul /
+   PyPI packaging ≠ calibrated Noul**
+   (TypeLLM/TypeLLM densify §113). HEAD unchanged `8a8b4aefd443`.
+   README SHA unchanged `9f6dea3a4c8c`. Quote *theirs*: GitHub Release
+   v0.1.1 published 2026-09-21T04:49:02Z. Drop fixed banner height so
+   it scales on PyPI. type safety does not guarantee factual accuracy.
+   A release tag is not a Noul. Star-noise 23★→26★ is not the fold.
+3. **option order can change an answer / n=8 is not Harbor /
+   0 mismatches *theirs* not Harbor**
+   (novaleolin/jev-evolve; zhengbangbo/structured-decision-bench;
+   LabGuy94/jevtok; fancyboi999/ockev). Quote *theirs*: the same 96
+   items scored 0.188 or 0.542 depending on option order. n=8 per type
+   in a 24-case pilot. 0 mismatches on 20,034 strings. TomatoEggBench-120
+   95.8% Acc / 35ms. All *theirs*, not Harbor.
+4. **does not execute / advisory does not block / catalog ≠ endorsement /
+   serving substrate ≠ calibrated replica**
+   (llm-routing-jiv; jev-page-checker; JevLoop; laya-api; KaLM-Jev;
+   soyelmismo ONNX). Routing demo produces nothing executed. Page audit
+   does not block. JevLoop is independent not affiliated. Laya HTTP is
+   wire-compat, not logit-equiv. KaLM-Jev is a reranker, not a Jev replica.
+   ONNX INT8 is a serving substrate.
+
+### HIGH
+
+1. **[`razorback16/openjev`](https://github.com/razorback16/openjev) MLX
+   serving-port densify §75 PRIMARY.** DENSIFY the original card. Keep
+   section id 75. Do not mint a sibling first sighting. Live REST
+   **225★**. HEAD `2050fdb8280d3094180870ac4df962f1bb44edca` ("MLX
+   backend: steps > 1, think, and text generation"). README SHA
+   `d5322e16e565182766158937e8c50f3acf963117` (was `242a737dba01`).
+   Prompt SHA `bbd013e74630` is image Qs. Quote *theirs*: MLX backend
+   steps>1/think/text gen + image Qs. dual serving is not generate.
+   Hosted Codiv ≠ TypeSafe. wire-compat ≠ logit-equiv. SHA move is not
+   a replica. Full card: §75.
+2. **[`TypeLLM/TypeLLM`](https://github.com/TypeLLM/TypeLLM) Release
+   v0.1.1 densify §113.** DENSIFY the original card. Keep section id
+   113. Live REST **26★** (was 23★; star-noise is not the fold). HEAD
+   **unchanged** `8a8b4aefd443e47e608bfdc2a679ede28bcc1d8e`. README SHA
+   **unchanged** `9f6dea3a4c8c8033a051f5d1eba59ea438843127`. Material
+   this hour is GitHub Release **v0.1.1** (published 2026-09-21T04:49:02Z)
+   plus the already-carded banner/CI ("Drop fixed banner height so it
+   scales on PyPI"). Constrained AR ≠ calibrated Noul. PyPI packaging ≠
+   calibrated Noul. type safety does not guarantee factual accuracy.
+   Full card: §113.
+3. **[`zjunlp/JevLoop`](https://github.com/zjunlp/JevLoop) first card
+   PRIMARY novel.** Apache-2.0; **6★**; HEAD `56cbf2bd6b5d`; README SHA
+   `8444be05573a`. Quote *theirs*: independent not affiliated. The agent
+   loop where decisions don't cost a large language model call. Zero
+   deps, runs offline, no API key needed. Independent. Not a TypeSafe
+   product.
+4. **Bonsai namesake / WANLI *theirs***
+   ([`NicolaiLassen/open-bonsai-jev`](https://github.com/NicolaiLassen/open-bonsai-jev)
+   **1★** HEAD `dabe4f4a45c2`). NicolaiLassen/open-bonsai-jev ≠
+   NicolaiMTLassen/open-bonzi-jev. WANLI-256 74.6% *theirs*. openjev's
+   mechanism, Bonsai's weights. One forward pass. Not a calibrated replica.
+5. **Option order / tokenizer / TomatoEgg / n=8**
+   ([`novaleolin/jev-evolve`](https://github.com/novaleolin/jev-evolve)
+   HEAD `09b1b310827b`; [`LabGuy94/jevtok`](https://github.com/LabGuy94/jevtok)
+   HEAD `698c53b778ce`; [`fancyboi999/ockev`](https://github.com/fancyboi999/ockev)
+   HEAD `cd407175c770`; [`zhengbangbo/structured-decision-bench`](https://github.com/zhengbangbo/structured-decision-bench)
+   HEAD `32648f8cefa7`; [`danielhirt/jev-lab`](https://github.com/danielhirt/jev-lab)
+   **1★** HEAD `cb0c74edc246`). option order 0.188 or 0.542 *theirs*.
+   option order can change an answer. LabGuy94/jevtok 0 mismatches
+   *theirs* not Harbor. ockev 35ms 95.8% TomatoEggBench *theirs* not
+   Harbor. structured-decision-bench n=8 *theirs*. n=8 is not Harbor.
+   danielhirt/jev-lab ≠ tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠
+   mjyoke1111/jev-lab.
+6. **Does not execute / advisory / compaction ranking**
+   ([`JairajSustained/llm-routing-jiv`](https://github.com/JairajSustained/llm-routing-jiv)
+   HEAD `5b5bb786d508`; [`s-hiraoku/jev-page-checker`](https://github.com/s-hiraoku/jev-page-checker)
+   HEAD `ec3f76b9830b`; [`bojansandhaus/jev-lcm-dsh-compaction`](https://github.com/bojansandhaus/jev-lcm-dsh-compaction)
+   HEAD `4ad507806597`; [`bojansandhaus/jev-lcm-hermes-compaction`](https://github.com/bojansandhaus/jev-lcm-hermes-compaction)
+   HEAD `546c870bd6ce`; [`1deat0r/Jcua`](https://github.com/1deat0r/Jcua)
+   HEAD `374d99bf66c1`; [`2951461586/Jev-Register-Tool`](https://github.com/2951461586/Jev-Register-Tool)
+   **1★** HEAD `1d8449f4b762`). llm-routing-jiv does not execute.
+   jev-page-checker advisory does not block. ranking before lossless
+   condensation. 1deat0r/Jcua Cua-S1 ≠ TypeSafe. Jev-Register-Tool
+   catalog only. Do not copy key-farming how-tos.
+7. **Serving / namesakes / HF**
+   ([`sriramkasyap/laya-api`](https://github.com/sriramkasyap/laya-api)
+   HEAD `73cbd8d705a4`; [`sriramkasyap/laya-demo-web`](https://github.com/sriramkasyap/laya-demo-web);
+   [`Yang-SS-stack/jev-computer-use`](https://github.com/Yang-SS-stack/jev-computer-use)
+   HEAD `2e06ed53a85c`; [`amoreX/jevvy`](https://github.com/amoreX/jevvy)
+   HEAD `ff0da762aba3`; [`smile-magic/laya-mlx-ddz`](https://github.com/smile-magic/laya-mlx-ddz)
+   HEAD `18f265a5a3d2`; [`hf:space:Yuki131/KaLM-Jev`](https://huggingface.co/spaces/Yuki131/KaLM-Jev)
+   likes **2** sha `a160f504c718`; [`hf:soyelmismo/laya-multilingual-onnx`](https://huggingface.co/soyelmismo/laya-multilingual-onnx)
+   sha `0966c4fa58da`). sriramkasyap/laya-api wire-compat ≠ logit-equiv.
+   Yang-SS-stack/jev-computer-use ≠ Mrchen116/jev-computer-use.
+   amoreX/jevvy ≠ PanAchy/jevvy ≠ aboisvert/jevvy.
+   smile-magic/laya-mlx-ddz ≠ smile-magic/laya-mlx-wzq.
+   hf:space:Yuki131/KaLM-Jev ≠ KaLM-Embedding/KaLM-Jev.
+   KaLM-Jev reranker ≠ Jev replica.
+   hf:soyelmismo/laya-multilingual-onnx serving substrate ≠ calibrated replica.
+8. **Already carded / remainder / skip-thin**
+   nexibeo/jev-cookbook already carded (§70). leesk212/JEV-CPU already
+   carded (§64). kazuhideoki/jev-search already carded (§55). Do not mint
+   sibling first-sighting sections.
+   Remainder apps / games / labs: ASV-Labs/the-claw, AltSlate-Labs/jevable-code,
+   Bitcoindefi/Open-Stellar, CPPAlien/playwithjev, QCMaxcer/SRTMood,
+   Shraiyash/inbox_classification, VennIntelligence/jev-drive, amapara27/jev-pilot,
+   aninibread/jev-3s, bebe0307mz/jevs-kitchen-chaos, chuongtran-wego/jev_plays_dino,
+   deekshithtirumala-maker/System-One, df-yamashitamasashi/jev_blog,
+   enoyola/jev-grand-prix, hynace/jev-holdem-hano, k4its1t/jevlens,
+   liuhongzhang-create/comment-opportunity-radar, liushiliushi/JevTuner,
+   obetomuniz/auto-jev-codex-for-paseo, pjt3591oo/laya-server,
+   pmerlin1/sf-early-learning-mcp, shimo4228/jev-skill-router,
+   tubone24/jev-practice-speed, wangmiaozero/laya-router-skill, x96x64/ctxjev,
+   zxrneu/laya-snake, hf:space:nico-martin/open-jev-demo,
+   hf:space:shigeshige/laya-prompt-backend.
+   game success ≠ calibrated Noul. catalog ≠ endorsement.
+   skip-thin: s5juxbumjm/layacm empty SHA (spam). vlasvar/jev-research
+   placeholder MVP. *theirs* not Harbor.
+
+### Pulse (live REST this hour)
+
+Archer still promised_not_landed. Hub archerhume/4rcherhume HTTP **401**.
+razorback16/openjev **225★**. TypeLLM/TypeLLM **26★**. zjunlp/JevLoop **6★**.
+nexibeo/jev-cookbook **9★** already carded. leesk212/JEV-CPU **8★** already
+carded. This hour does not re-census SemIf / Laya likes / tracker; those
+numbers stay §119 until a dedicated pulse. `invented_signal: false`.
+
+### Formal compose + anti-patterns
+
+Formal methods **compose** with scoring. A Noul is a SENSOR. A catalog
+is an index. An MLX serving port is a substrate, not a replica. A GitHub
+Release is distribution, not calibration. Option order is a measurement
+fact. n=8 is a smoke pilot. Ranking before lossless condensation is
+still ranking. Treating MLX text gen as a calibrated Noul, Release
+v0.1.1 as a Noul, 95.8% as Harbor, 0.188/0.542 as gold, or Cua-S1 as
+TypeSafe Jev is soundness theater.
+dual serving is not generate.
+Hosted Codiv ≠ TypeSafe.
+wire-compat ≠ logit-equiv.
+Constrained AR ≠ calibrated Noul.
+PyPI packaging ≠ calibrated Noul.
+n=8 is not Harbor.
+option order can change an answer.
+catalog ≠ endorsement. *theirs* not Harbor.
+SHA move is not a replica.
+
+### Adversarial review + testing hooks (Basit standing
+order)
+
+Parent merge only after **CLEAN** adversarial review **AND** testing.
+Hooks for the reviewer:
+
+- Uniqueness-gate: the consecutive `Hourly 2347 uniqueness lock:`
+  string must appear in every overlay listed below. Prior walls 0843 /
+  0915 / jcr / 0922 / 0940 / 0947 / 1049 / 1143 / 1248 / 1340 / 1441 /
+  1542 / 1643 / 1746 / 1843 / 1936 / Open-Jev densify / 1946 / 2049 /
+  2146 / 2246 stay one substring each (do not mutate them; do not reopen
+  #23–#58).
+- Namesake locks: NicolaiLassen/open-bonsai-jev ≠ NicolaiMTLassen/open-bonzi-jev;
+  danielhirt/jev-lab ≠ tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ mjyoke1111/jev-lab;
+  Yang-SS-stack/jev-computer-use ≠ Mrchen116/jev-computer-use;
+  amoreX/jevvy ≠ PanAchy/jevvy ≠ aboisvert/jevvy;
+  smile-magic/laya-mlx-ddz ≠ smile-magic/laya-mlx-wzq;
+  hf:space:Yuki131/KaLM-Jev ≠ KaLM-Embedding/KaLM-Jev.
+- Densify vs new: openjev densifies §75. TypeLLM densifies §113.
+  cookbook / JEV-CPU / jev-search already carded. Do not mint sibling
+  first-sighting sections for the densifies.
+- Harbor-jevals: WANLI-256 74.6% / 0 mismatches / 35ms 95.8% / n=8 /
+  0.188 or 0.542 stay *theirs*, not Harbor.
+- Anti-patterns to refuse: TypeSafe drop-in; catalog as endorsement;
+  MLX text gen as a Noul; GitHub Release as a Noul; Cua-S1 as TypeSafe
+  Jev; n=8 as Harbor; key-farming how-tos; copying keys / `npm` / `pip`
+  / `uv` / `docker`.
+- Overlay set: SKILL.md body (protocol fragments + class-table densify
+  + Hourly 2347), mental-models Apply 2347, composition-algebra items
+  569–584, faq, mixed-architecture, validation, toolbox-mapping,
+  methods-catalog, formal-methods, formal-semi-formal,
+  applied-mappings, judgment-class, question-design,
+  agent-self-assessment, mappings, CHANGELOG, README, docs/ecosystem,
+  findings batch #117, refresh-log, changelog-hourly.md,
+  revisit_fingerprints.json (openjev SHA 2050fdb8280d; TypeLLM
+  release_tag v0.1.1).
+- Offline check: `evaluate_decisions.py --self-test` (now includes
+  MLX text gen ≠ calibrated Noul / GitHub Release v0.1.1 ≠ calibrated
+  Noul / n=8 is not Harbor / ranking before lossless condensation) and
+  `uniqueness_gate.py` (0843 + 0915 + jcr / 0922 / 0940 / 0947 /
+  1049 / 1143 / 1248 / 1340 / 1441 / 1542 / 1643 / 1746 / 1843 / 1936 /
+  Open-Jev densify / 1946 / 2049 / 2146 / 2246 / 2347).
+  No live Jev key. No wrappers.
+
+**Hourly 2347 HIGH (`notes.md` §135).** openjev MLX densify HEAD 2050fdb8280d. README SHA d5322e16e565. MLX backend steps>1/think/text gen + image Qs. dual serving is not generate. Hosted Codiv ≠ TypeSafe. wire-compat ≠ logit-equiv. TypeLLM Release v0.1.1 densify HEAD 8a8b4aefd443. README SHA unchanged 9f6dea3a4c8c. GitHub Release v0.1.1. Constrained AR ≠ calibrated Noul. PyPI packaging ≠ calibrated Noul. JevLoop 6★ independent not affiliated. WANLI-256 74.6% *theirs*. option order 0.188 or 0.542 *theirs*. jevtok 0 mismatches *theirs* not Harbor. ockev 35ms 95.8% TomatoEggBench *theirs* not Harbor. n=8 is not Harbor. serving substrate ≠ calibrated replica. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#58. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+Hourly 2347 uniqueness lock: razorback16/openjev densify HEAD 2050fdb8280d README SHA d5322e16e565; MLX backend steps>1/think/text gen + image Qs; dual serving is not generate; Hosted Codiv ≠ TypeSafe; wire-compat ≠ logit-equiv; SHA move is not a replica; TypeLLM/TypeLLM densify HEAD 8a8b4aefd443 README SHA unchanged 9f6dea3a4c8c; GitHub Release v0.1.1; Drop fixed banner height so it scales on PyPI; Constrained AR ≠ calibrated Noul; PyPI packaging ≠ calibrated Noul; type safety does not guarantee factual accuracy; zjunlp/JevLoop 6★ independent not affiliated; NicolaiLassen/open-bonsai-jev ≠ NicolaiMTLassen/open-bonzi-jev; WANLI-256 74.6% *theirs*; danielhirt/jev-lab ≠ tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ mjyoke1111/jev-lab; option order 0.188 or 0.542 *theirs*; novaleolin/jev-evolve; option order can change an answer; LabGuy94/jevtok 0 mismatches *theirs* not Harbor; ockev 35ms 95.8% TomatoEggBench *theirs* not Harbor; structured-decision-bench n=8 *theirs*; n=8 is not Harbor; Yang-SS-stack/jev-computer-use ≠ Mrchen116/jev-computer-use; amoreX/jevvy ≠ PanAchy/jevvy ≠ aboisvert/jevvy; smile-magic/laya-mlx-ddz ≠ smile-magic/laya-mlx-wzq; sriramkasyap/laya-api wire-compat ≠ logit-equiv; hf:space:Yuki131/KaLM-Jev ≠ KaLM-Embedding/KaLM-Jev; KaLM-Jev reranker ≠ Jev replica; hf:soyelmismo/laya-multilingual-onnx serving substrate ≠ calibrated replica; ranking before lossless condensation; llm-routing-jiv does not execute; jev-page-checker advisory does not block; 1deat0r/Jcua Cua-S1 ≠ TypeSafe; Jev-Register-Tool catalog only; nexibeo/jev-cookbook already carded; leesk212/JEV-CPU already carded; kazuhideoki/jev-search already carded; skip-thin layacm empty SHA; game success ≠ calibrated Noul; does not execute; catalog ≠ endorsement; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58; notes.md §135
+
+**Hourly 2347 HIGH (`notes.md` §135).** openjev MLX densify HEAD 2050fdb8280d. README SHA d5322e16e565. MLX backend steps>1/think/text gen + image Qs. dual serving is not generate. Hosted Codiv ≠ TypeSafe. wire-compat ≠ logit-equiv. TypeLLM Release v0.1.1 densify HEAD 8a8b4aefd443. README SHA unchanged 9f6dea3a4c8c. GitHub Release v0.1.1. Constrained AR ≠ calibrated Noul. PyPI packaging ≠ calibrated Noul. JevLoop 6★ independent not affiliated. WANLI-256 74.6% *theirs*. option order 0.188 or 0.542 *theirs*. jevtok 0 mismatches *theirs* not Harbor. ockev 35ms 95.8% TomatoEggBench *theirs* not Harbor. n=8 is not Harbor. serving substrate ≠ calibrated replica. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#58. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+Hourly 2347 uniqueness lock: razorback16/openjev densify HEAD 2050fdb8280d README SHA d5322e16e565; MLX backend steps>1/think/text gen + image Qs; dual serving is not generate; Hosted Codiv ≠ TypeSafe; wire-compat ≠ logit-equiv; SHA move is not a replica; TypeLLM/TypeLLM densify HEAD 8a8b4aefd443 README SHA unchanged 9f6dea3a4c8c; GitHub Release v0.1.1; Drop fixed banner height so it scales on PyPI; Constrained AR ≠ calibrated Noul; PyPI packaging ≠ calibrated Noul; type safety does not guarantee factual accuracy; zjunlp/JevLoop 6★ independent not affiliated; NicolaiLassen/open-bonsai-jev ≠ NicolaiMTLassen/open-bonzi-jev; WANLI-256 74.6% *theirs*; danielhirt/jev-lab ≠ tanayvasishtha/jev-lab ≠ dairui1/jev-lab ≠ mjyoke1111/jev-lab; option order 0.188 or 0.542 *theirs*; novaleolin/jev-evolve; option order can change an answer; LabGuy94/jevtok 0 mismatches *theirs* not Harbor; ockev 35ms 95.8% TomatoEggBench *theirs* not Harbor; structured-decision-bench n=8 *theirs*; n=8 is not Harbor; Yang-SS-stack/jev-computer-use ≠ Mrchen116/jev-computer-use; amoreX/jevvy ≠ PanAchy/jevvy ≠ aboisvert/jevvy; smile-magic/laya-mlx-ddz ≠ smile-magic/laya-mlx-wzq; sriramkasyap/laya-api wire-compat ≠ logit-equiv; hf:space:Yuki131/KaLM-Jev ≠ KaLM-Embedding/KaLM-Jev; KaLM-Jev reranker ≠ Jev replica; hf:soyelmismo/laya-multilingual-onnx serving substrate ≠ calibrated replica; ranking before lossless condensation; llm-routing-jiv does not execute; jev-page-checker advisory does not block; 1deat0r/Jcua Cua-S1 ≠ TypeSafe; Jev-Register-Tool catalog only; nexibeo/jev-cookbook already carded; leesk212/JEV-CPU already carded; kazuhideoki/jev-search already carded; skip-thin layacm empty SHA; game success ≠ calibrated Noul; does not execute; catalog ≠ endorsement; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58; notes.md §135

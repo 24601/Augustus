@@ -299,6 +299,13 @@ def self_test() -> None:
     assert kevin["default_sha"].startswith("96336428dc15")
     jevlab = by_id["github:mjyoke1111/jev-lab"]["fingerprints"]
     assert jevlab["default_sha"].startswith("0bd66957283a")
+    razor = by_id["github:razorback16/openjev"]["fingerprints"]
+    assert razor["default_sha"].startswith("2050fdb8280d")
+    razor_readme = by_id["github:razorback16/openjev"].get("readme_sha")
+    assert isinstance(razor_readme, str) and razor_readme.startswith("d5322e16e565")
+    assert by_id["github:TypeLLM/TypeLLM"]["fingerprints"]["release_tag"] == "v0.1.1"
+    jevloop = by_id["github:zjunlp/JevLoop"]["fingerprints"]
+    assert jevloop["default_sha"].startswith("56cbf2bd6b5d")
     typellm = by_id["github:TypeLLM/TypeLLM"]["fingerprints"]
     assert typellm["default_sha"].startswith("8a8b4aefd443")
     simple = by_id["github:featherless-ai/simple-jev"]["fingerprints"]

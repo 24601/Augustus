@@ -49,14 +49,14 @@
     {
       "id": "github:razorback16/openjev",
       "notes_section": "75",
-      "last_look": "2026-09-20T22:43Z",
+      "last_look": "2026-09-21T05:08Z",
       "fingerprints": {
-        "default_sha": "febf02e889892747ced5497f2a17323731621ccd",
-        "pushed_at": "2026-09-20T22:21:28Z",
+        "default_sha": "2050fdb8280d3094180870ac4df962f1bb44edca",
+        "pushed_at": "2026-09-21T05:08:27Z",
         "description_hash": "3da60ee053e0",
         "release_tag": "0.3.0"
       },
-      "readme_sha": "242a737dba017f403c06faa2fbd8358012062557"
+      "readme_sha": "d5322e16e565182766158937e8c50f3acf963117"
     },
     {
       "id": "github:wfzyx/von",
@@ -109,12 +109,12 @@
     {
       "id": "github:TypeLLM/TypeLLM",
       "notes_section": "113",
-      "last_look": "2026-09-21T04:49Z",
+      "last_look": "2026-09-21T05:47Z",
       "fingerprints": {
         "default_sha": "8a8b4aefd443e47e608bfdc2a679ede28bcc1d8e",
         "pushed_at": "2026-09-21T04:49:02Z",
         "description_hash": "4e7869c96688",
-        "release_tag": null
+        "release_tag": "v0.1.1"
       },
       "readme_sha": "9f6dea3a4c8c8033a051f5d1eba59ea438843127"
     },
@@ -2274,6 +2274,114 @@
         "release_tag": null
       },
       "readme_sha": "72e9c1a90f7efd4bb81789b1f2a0c2d667097400"
+    },
+    {
+      "id": "github:zjunlp/JevLoop",
+      "notes_section": "135",
+      "last_look": "2026-09-21T05:47Z",
+      "fingerprints": {
+        "default_sha": "56cbf2bd6b5d3608c8a19d0584d48c3499d726c6",
+        "pushed_at": "2026-09-21T05:54:06Z",
+        "description_hash": "96ff7003191d",
+        "release_tag": null
+      },
+      "readme_sha": "8444be05573abf1dd073c62dbf307de1d80f5cf6"
+    },
+    {
+      "id": "github:novaleolin/jev-evolve",
+      "notes_section": "135",
+      "last_look": "2026-09-21T05:47Z",
+      "fingerprints": {
+        "default_sha": "09b1b310827b20a278d87a333ce551bb7809ca3f",
+        "pushed_at": "2026-09-21T05:54:26Z",
+        "description_hash": "d1a0e72e9df7",
+        "release_tag": null
+      },
+      "readme_sha": "a616c5caa608328217ecbbaf6e8f51326574fc8b"
+    },
+    {
+      "id": "github:LabGuy94/jevtok",
+      "notes_section": "135",
+      "last_look": "2026-09-21T05:47Z",
+      "fingerprints": {
+        "default_sha": "698c53b778ce901be82c166d809e4b1f7948a465",
+        "pushed_at": "2026-09-21T05:35:24Z",
+        "description_hash": "1e6cb3d1a907",
+        "release_tag": "v0.1.0"
+      },
+      "readme_sha": "032c2ca3171266e0f7c95ffd0d3b3c6b02cbef18"
+    },
+    {
+      "id": "github:fancyboi999/ockev",
+      "notes_section": "135",
+      "last_look": "2026-09-21T05:47Z",
+      "fingerprints": {
+        "default_sha": "cd407175c770fb9d48bae96efa3e6998d1b1cb83",
+        "pushed_at": "2026-09-21T05:42:45Z",
+        "description_hash": "59725ae46107",
+        "release_tag": null
+      },
+      "readme_sha": "c055109c0b895618a0ee6edce8bfb7fa7260b08b"
+    },
+    {
+      "id": "github:zhengbangbo/structured-decision-bench",
+      "notes_section": "135",
+      "last_look": "2026-09-21T05:47Z",
+      "fingerprints": {
+        "default_sha": "32648f8cefa774cae6f9891562aecf19d4dd3c0f",
+        "pushed_at": "2026-09-21T05:47:55Z",
+        "description_hash": "ce584489bb7a",
+        "release_tag": null
+      },
+      "readme_sha": "92f77ce4f09c5f83fb97e530e4e1626ec8e77f6c"
+    },
+    {
+      "id": "github:NicolaiLassen/open-bonsai-jev",
+      "notes_section": "135",
+      "last_look": "2026-09-21T05:47Z",
+      "fingerprints": {
+        "default_sha": "dabe4f4a45c255edc72e49b5fc434df22a3e11ee",
+        "pushed_at": "2026-09-20T19:13:01Z",
+        "description_hash": "ade7e97ee4c6",
+        "release_tag": null
+      },
+      "readme_sha": "c6dece835656a1a459716f93b3a7de73699b29c4"
+    },
+    {
+      "id": "github:JairajSustained/llm-routing-jiv",
+      "notes_section": "135",
+      "last_look": "2026-09-21T05:47Z",
+      "fingerprints": {
+        "default_sha": "5b5bb786d50890ab66c179dd845b6163e9156dd5",
+        "pushed_at": "2026-09-19T12:44:37Z",
+        "description_hash": "a9d6b0078b66",
+        "release_tag": null
+      },
+      "readme_sha": "f5a191d7250b28438e8f45f63fce0dde3de1152c"
+    },
+    {
+      "id": "github:s-hiraoku/jev-page-checker",
+      "notes_section": "135",
+      "last_look": "2026-09-21T05:47Z",
+      "fingerprints": {
+        "default_sha": "ec3f76b9830bd2071ce38fdb670d36787d6aa99e",
+        "pushed_at": "2026-09-21T05:46:17Z",
+        "description_hash": "e3b0c44298fc",
+        "release_tag": "v0.0.1"
+      },
+      "readme_sha": "e5d4423c4cc2c243d8e4ae702446eea06afee05e"
+    },
+    {
+      "id": "github:1deat0r/Jcua",
+      "notes_section": "135",
+      "last_look": "2026-09-21T05:47Z",
+      "fingerprints": {
+        "default_sha": "374d99bf66c17237d971f73ac4fad766fbe6a35e",
+        "pushed_at": "2026-09-21T05:55:34Z",
+        "description_hash": "0cf0dc7c8629",
+        "release_tag": "v0.1.1"
+      },
+      "readme_sha": "dd0d9d8b2e82f61593b225abbad9ed0fb1ef7424"
     }
   ]
 }

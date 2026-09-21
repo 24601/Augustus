@@ -1,0 +1,31 @@
+[
+  {
+    "id": "TypeLLM/TypeLLM",
+    "kind": "revisit",
+    "stars": 26,
+    "description": "REVISIT densify: GitHub Release v0.1.1; HEAD unchanged 8a8b4aefd443; README SHA unchanged 9f6dea3a4c8c (*theirs*)",
+    "html_url": "https://github.com/TypeLLM/TypeLLM",
+    "source": "github",
+    "sha": "8a8b4aefd443",
+    "prior_sha": "8a8b4aefd443",
+    "material": [
+      "release_tag",
+      "banner_ci"
+    ]
+  },
+  {
+    "id": "razorback16/openjev",
+    "kind": "revisit",
+    "stars": 225,
+    "description": "REVISIT densify: HEAD febf02e88989\u21922050fdb8280d; MLX backend steps>1/think/text gen + image Qs (*theirs*)",
+    "html_url": "https://github.com/razorback16/openjev",
+    "source": "github",
+    "sha": "2050fdb8280d",
+    "prior_sha": "febf02e88989",
+    "material": [
+      "head_sha",
+      "serving_port",
+      "readme"
+    ]
+  }
+]

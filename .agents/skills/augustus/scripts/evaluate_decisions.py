@@ -721,6 +721,44 @@ def pypi_packaging_is_not_calibrated_noul(kind, calibrated=False):
     return calibrated is False
 
 
+
+
+def mlx_text_gen_is_not_calibrated_noul(kind, calibrated=False):
+    """MLX backend steps>1/think/text gen + image Qs. serving port ≠ replica."""
+    if kind != "mlx_text_gen":
+        raise ValueError("unexpected kind")
+    return calibrated is False
+
+
+def github_release_is_not_calibrated_noul(kind, calibrated=False):
+    """GitHub Release v0.1.1 ≠ calibrated Noul."""
+    if kind != "github_release_v0.1.1":
+        raise ValueError("unexpected kind")
+    return calibrated is False
+
+
+def n8_is_not_harbor(n, harbor=False):
+    """n=8 is not Harbor."""
+    if n != 8:
+        raise ValueError("unexpected n")
+    return harbor is False
+
+
+def ranking_before_lossless_is_not_generate(kind, generate=False):
+    """ranking before lossless condensation is still ranking."""
+    if kind != "calibrated_ranking_before_lossless":
+        raise ValueError("unexpected kind")
+    return generate is False
+
+
+def option_order_can_change_an_answer(p_a, p_b, same_schema=True):
+    """option order 0.188 or 0.542 *theirs*. option order can change an answer."""
+    if not same_schema:
+        raise ValueError("unexpected schema")
+    if (p_a, p_b) != (0.188, 0.542):
+        raise ValueError("unexpected pair")
+    return p_a != p_b
+
 def logits_are_not_calibrated_probabilities(kind, calibrated=False):
     """logits are not calibrated probabilities of correctness."""
     if kind != "next_token_logits":
@@ -1048,6 +1086,22 @@ def self_test():
     assert theirs_bench_is_not_harbor(79, "openjev-trec-79-cpu")
     assert theirs_bench_is_not_harbor(110, "jev-mem-11.0")
     assert theirs_bench_is_not_harbor(408, "simple-jev-408")
+
+    # 2347: MLX text gen ≠ calibrated Noul / GitHub Release v0.1.1 ≠
+    # calibrated Noul / n=8 is not Harbor / ranking before lossless
+    # condensation / option order can change an answer.
+    assert mlx_text_gen_is_not_calibrated_noul("mlx_text_gen", False)
+    assert not mlx_text_gen_is_not_calibrated_noul("mlx_text_gen", True)
+    assert github_release_is_not_calibrated_noul("github_release_v0.1.1", False)
+    assert not github_release_is_not_calibrated_noul("github_release_v0.1.1", True)
+    assert n8_is_not_harbor(8, False)
+    assert not n8_is_not_harbor(8, True)
+    assert ranking_before_lossless_is_not_generate("calibrated_ranking_before_lossless", False)
+    assert not ranking_before_lossless_is_not_generate("calibrated_ranking_before_lossless", True)
+    assert option_order_can_change_an_answer(0.188, 0.542, True)
+    assert theirs_bench_is_not_harbor(746, "wanli-256-74.6")
+    assert theirs_bench_is_not_harbor(958, "ockev-tomatoegg-95.8")
+    assert theirs_bench_is_not_harbor(0, "jevtok-0-mismatches")
 
     print("self-test ok")
 

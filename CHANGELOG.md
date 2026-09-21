@@ -16,6 +16,45 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 2347 HIGH (`research/notes.md` §135 / composition items
+569–584 / findings batch #117). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#58.
+Do not amend released 0.5.0 (#42). Merged #58 owns §134. Merged #57
+owns §133. Merged #56 owns §132.
+
+### Added
+
+- **Hourly 2347 HIGH (`notes.md` §135).** openjev MLX densify HEAD
+  2050fdb8280d / README SHA d5322e16e565. MLX backend steps>1/think/text
+  gen + image Qs. dual serving is not generate. Hosted Codiv ≠ TypeSafe.
+  wire-compat ≠ logit-equiv. TypeLLM Release v0.1.1 densify HEAD
+  8a8b4aefd443 / README SHA unchanged. GitHub Release v0.1.1.
+  Constrained AR ≠ calibrated Noul. PyPI packaging ≠ calibrated Noul.
+  JevLoop 6★ independent not affiliated. WANLI-256 74.6% *theirs*.
+  option order 0.188 or 0.542 *theirs*. jevtok 0 mismatches *theirs*
+  not Harbor. ockev 35ms 95.8% TomatoEggBench *theirs* not Harbor.
+  n=8 is not Harbor. Evaluator: MLX text gen ≠ calibrated Noul /
+  GitHub Release v0.1.1 ≠ calibrated Noul / n=8 is not Harbor /
+  ranking before lossless condensation.
+  uniqueness_gate.py now checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 +
+  1049 + 1143 + 1248 + 1340 + 1441 + 1542 + 1643 + 1746 + 1843 + 1936 +
+  Open-Jev densify + 1946 + 2049 + 2146 + 2246 + 2347.
+  Composition items 569–584 / batch #117.
+  **HARD RULE:** do not reopen or amend PR #23–#58. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat MLX text
+  gen as a calibrated replica, a GitHub Release as a Noul, n=8 as Harbor,
+  or option-order 0.188 as gold. With Augustus: dual serving is not
+  generate; Hosted Codiv ≠ TypeSafe; wire-compat ≠ logit-equiv; Constrained
+  AR ≠ calibrated Noul; PyPI packaging ≠ calibrated Noul; n=8 is not
+  Harbor; option order can change an answer; *theirs* not Harbor.
+  Same split for any Choice/Score/Noul-style head, not only hosted Jev.
+
+
+
 Hourly 2246 HIGH (`research/notes.md` §134 / composition items
 553–568 / findings batch #116). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in
