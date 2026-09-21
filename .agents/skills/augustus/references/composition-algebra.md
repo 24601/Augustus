@@ -2978,3 +2978,76 @@ truncated thinking then constrained decode; Constrained AR ≠ calibrated Noul;
 Facts go to code. Judgments go to Jev. Only facts can block; Jev never blocks;
 Kev-0.8B completes family; 155/155 argmax *theirs*.
 Hourly 1746 uniqueness lock: TypeLLM/TypeLLM densify HEAD 702e6a287f3c README SHA 08180db0450b; truncated thinking then constrained decode; typellm_runtime.py typellm_sglang.py; evals/qwen35_small; 0.8B thinking On 0/18 *theirs*; forced closure 20/20 type-valid *theirs*; Constrained AR ≠ calibrated Noul; type safety does not guarantee factual accuracy; Qwen/Qwen3.8-27B ≠ Archer; jaredpalmer/kev densify live HEAD 8465c4c4c294 watch 38087aa0301d README SHA 19664b9ae546; Kev-0.8B completes family; Kev-0.8B 4B 9B Qwen3.5; 4B new-source 0.794/0.832 *theirs*; 9B new-source 0.812/0.837 *theirs*; transfer-v9 Kev-9B 5% Jev 9% Kev-8B 26% *theirs*; SemIf Kev-9B 0.917 Jev 0.965 *theirs*; scienthoon 0.952/0.911 vs 0.897/0.914 *theirs*; transformers >= 5.17; Qwen3.5 ≠ Archer; wire-compat ≠ logit-equiv; SHA move is not a replica; notque/vexjoy-agent 421★ /d routes /do fallback; tamaratran/jev-pruner densify HEAD 47d017c34eab; qkal/Canny Facts go to code. Judgments go to Jev. Only facts can block.; Jev never blocks; jqueryscript/awesome-jev 231 entries catalog ≠ endorsement; jqueryscript/awesome-jev ≠ MrJev/awesome-jev ≠ yibie/awesome-jev; jamescazzetta/five-lines threshold 0.80 still soft; eugeniughelbur/jev-engineering 371ms $0.0000189 300-call *theirs*; tpellet/jevify ≠ altryne/jevify; seb4ez/jevguard-mcp ≠ seb4ez/jevguard; resumocast/jev-mcp ≠ jkudish/jev-mcp; dtduc-git/jev-table first sighting; Adrian-Ernesto/jevsort ≠ zzzzzec/jevsort; MidasMulli/kev-ane 155/155 argmax *theirs*; MidasMulli/kev-ane ≠ jaredpalmer/kev; serving substrate ≠ calibrated replica; empty repo skip-thin; loktar00/llm-lan-party empty repo; rh-guard owns primary gates; catalog ≠ endorsement; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50; notes.md §128
+
+481. **kev own-data JSONL densify PRIMARY** (jaredpalmer/kev):
+     densify §45. HEAD bd058057ad0a README SHA 84b872488915. 1033★.
+     Fine-tuning on your own data. --data JSONL.
+     --init_from warm-start LoRA/head PR #9.
+     Kev-0.8B 4B 9B Qwen3.5 family. SHA move is not a replica.
+     Full cards: `judgment-class.md`, `validation.md`.
+482. **from-scratch ≠ warm-start / JSONL labels ≠ Harbor** (jaredpalmer/kev):
+     4B new-source 0.794/0.832 *theirs*. 9B new-source 0.812/0.837 *theirs*.
+     0.33 vs 0.84 vs 0.83/0.88 *theirs*. from-scratch ≠ warm-start.
+     JSONL labels ≠ Harbor. Kev-0.5B card Qwen3.5 family pointer.
+     Full cards: `faq.md`, `mixed-architecture.md`.
+483. **dabit3 densify already catalogued** (dabit3/jev-experiments):
+     dabit3/jev-experiments densify 340★. densify is not a sibling first sighting.
+     Full cards: `applied-mappings.md`.
+484. **tenbin densify neighbor skill** (simota/tenbin):
+     simota/tenbin densify neighbor skill. Augustus does not absorb it.
+     Full cards: `faq.md`.
+485. **reconstruction ≠ replica** (kyegomez/open-jev):
+     unofficial research implementation with random weights.
+     reconstruction ≠ replica.
+     kyegomez/open-jev ≠ razorback16/openjev ≠ TheoLeeCJ/openjev ≠ Zefan-Cai/Open-Jev ≠ Shalimov04/open-jev.
+     Full cards: `judgment-class.md`, `faq.md`.
+486. **assay-001 split verdict** (jourdanlabs/assay-001):
+     assay-001 split verdict. CLINC150 ECE 0.0204 *theirs*.
+     Banking77 ECE 0.0936 *theirs*. 8,576 responses zero type errors *theirs*.
+     *theirs* not Harbor. Full cards: `validation.md`.
+487. **jev-ra latency *theirs*** (brnyxx/jev-ra):
+     brnyxx/jev-ra 3-5x / ~300 ms *theirs*. 8.50× Wikipedia *theirs*.
+     systems comparison ≠ semantic equivalence.
+     Full cards: `validation.md`.
+488. **awesome-jev catalog namesake** (Promethe-us/awesome-jev):
+     Promethe-us/awesome-jev ≠ MrJev/awesome-jev ≠ yibie/awesome-jev.
+     catalog ≠ endorsement. Full cards: `faq.md`.
+489. **jev-mcp namesake** (ThePFMind/jev-mcp):
+     ThePFMind/jev-mcp ≠ jkudish/jev-mcp ≠ burnigtm/jev-mcp.
+     serving substrate ≠ calibrated replica. Full cards: `faq.md`.
+490. **minesweeper cousins** (comoc/jev-minesweeper, EnesYilmazcode/JevMinesweeper):
+     comoc/jev-minesweeper ≠ EnesYilmazcode/JevMinesweeper.
+     game success ≠ calibrated Noul. Full cards: `validation.md`.
+491. **pi-jev-effort namesake** (namenu/pi-jev-effort):
+     namenu/pi-jev-effort ≠ TheoOliveira/pi-jev.
+     rh-guard owns primary gates. Full cards: `faq.md`.
+492. **HF first-sighting / densify** (mini-Jev / allmix-r512 / laya-*):
+     samatv256/mini-Jev ≠ r-ms/mini-jev.
+     hf:akhilaaa3/openjev-v1-allmix-r512-merged ≠ hf:akhilaaa3/openjev-r512-handoff-demo.
+     serving substrate ≠ calibrated replica.
+     Full cards: `judgment-class.md`, `faq.md`.
+493. **remainder apps** (fraud / notion / quilt / wrapper / DriftLab / jev-hft / others):
+     Nutlope/jev-fraud Kimi K3. jeffloo886/jev-notion.
+     classifier ≠ authorizer. catalog ≠ endorsement.
+     Full cards: `applied-mappings.md`, `faq.md`.
+494. **namesake remainder** (open-jev / awesome-jev / jev-mcp / mini-Jev / minesweeper):
+     reconstruction ≠ replica. catalog ≠ endorsement.
+     Full cards: `faq.md`.
+495. **skip-thin catalogs** (jevguide / awesome-jev-prompt / hellojev):
+     catalog ≠ endorsement. skip-thin. Full cards: `faq.md`.
+496. **skip Archer** (promised_not_landed):
+     Qwen3.5 ≠ Archer. Hub archerhume/4rcherhume HTTP 401.
+     Archer still promised_not_landed. Full cards: `faq.md`.
+
+Hourly 1843 items 481–496 (`notes.md` §129). Do **not**
+re-fold §128 items 465–480 / §127 items 449–464 / §126 items 433–448.
+Skip Archer rewrite.
+from-scratch ≠ warm-start; JSONL labels ≠ Harbor;
+reconstruction ≠ replica; assay-001 split verdict;
+catalog ≠ endorsement; game success ≠ calibrated Noul;
+SHA move is not a replica.
+do not reopen or amend PR #23–#51.
+Soft Noul ≠ hard safety.
+
+**Hourly 1843 HIGH (`notes.md` §129).** kev own-data JSONL densify. --init_from warm-start LoRA/head PR #9. from-scratch ≠ warm-start. JSONL labels ≠ Harbor. 4B new-source 0.794/0.832 *theirs*. 9B new-source 0.812/0.837 *theirs*. 0.33 vs 0.84 vs 0.83/0.88 *theirs*. reconstruction ≠ replica. assay-001 split verdict. catalog ≠ endorsement. SHA move is not a replica. Do not reopen or amend PR #23–#51. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
+Hourly 1843 uniqueness lock: jaredpalmer/kev densify HEAD bd058057ad0a README SHA 84b872488915; Fine-tuning on your own data; --data JSONL; --init_from warm-start LoRA/head PR #9; Kev-0.8B 4B 9B Qwen3.5 family; 4B new-source 0.794/0.832 *theirs*; 9B new-source 0.812/0.837 *theirs*; 0.33 vs 0.84 vs 0.83/0.88 *theirs*; from-scratch ≠ warm-start; JSONL labels ≠ Harbor; Kev-0.5B card Qwen3.5 family pointer; No Jev outputs were used for training; option order can change an answer; 8.2% ≥0.9 on wrong *theirs*; Kev-9B 7.5% ≥0.9 on wrong *theirs*; dabit3/jev-experiments densify 340★; simota/tenbin densify neighbor skill; Promethe-us/awesome-jev ≠ MrJev/awesome-jev ≠ yibie/awesome-jev; kyegomez/open-jev reconstruction ≠ replica; unofficial research implementation with random weights; kyegomez/open-jev ≠ razorback16/openjev ≠ TheoLeeCJ/openjev ≠ Zefan-Cai/Open-Jev ≠ Shalimov04/open-jev; jourdanlabs/assay-001 split verdict; CLINC150 ECE 0.0204 *theirs*; Banking77 ECE 0.0936 *theirs*; 8,576 responses zero type errors *theirs*; brnyxx/jev-ra 3-5x / ~300 ms *theirs*; 8.50× Wikipedia *theirs*; ThePFMind/jev-mcp ≠ jkudish/jev-mcp ≠ burnigtm/jev-mcp; namenu/pi-jev-effort ≠ TheoOliveira/pi-jev; samatv256/mini-Jev ≠ r-ms/mini-jev; comoc/jev-minesweeper ≠ EnesYilmazcode/JevMinesweeper; game success ≠ calibrated Noul; Nutlope/jev-fraud Kimi K3; jeffloo886/jev-notion; hf:akhilaaa3/openjev-v1-allmix-r512-merged ≠ hf:akhilaaa3/openjev-r512-handoff-demo; serving substrate ≠ calibrated replica; catalog ≠ endorsement; SHA move is not a replica; wire-compat ≠ logit-equiv; Qwen3.5 ≠ Archer; Archer still promised_not_landed; Hub archerhume/4rcherhume HTTP 401; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51; notes.md §129

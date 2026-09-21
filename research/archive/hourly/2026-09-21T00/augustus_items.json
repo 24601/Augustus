@@ -1,0 +1,452 @@
+[
+  {
+    "id": "dabit3/jev-experiments",
+    "kind": "NOVEL_HIGH",
+    "description": "TypeSafe / Jev latency-focused demos built by Devin. Each app in its own top-level directory.",
+    "stars": 340,
+    "html_url": "https://github.com/dabit3/jev-experiments",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "Promethe-us/awesome-jev",
+    "kind": "NOVEL_HIGH",
+    "description": "awesome-jev list (no description field)",
+    "stars": 15,
+    "html_url": "https://github.com/Promethe-us/awesome-jev",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "DragosTana/JEV-FC",
+    "kind": "NOVEL_HIGH",
+    "description": "(empty description; name JEV-FC)",
+    "stars": 2,
+    "html_url": "https://github.com/DragosTana/JEV-FC",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "Nutlope/jev-fraud",
+    "kind": "NOVEL_HIGH",
+    "description": "Use Jev with Kimi K3 for hard classification",
+    "stars": 2,
+    "html_url": "https://github.com/Nutlope/jev-fraud",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "comoc/jev-minesweeper",
+    "kind": "NOVEL_HIGH",
+    "description": "TypeSafe Jev (System One) \u306b\u30d6\u30e9\u30a6\u30b6\u4e0a\u306e\u30de\u30a4\u30f3\u30b9\u30a4\u30fc\u30d1\u30fc\u3092\u89e3\u304b\u305b\u308b\u30c7\u30e2",
+    "stars": 2,
+    "html_url": "https://github.com/comoc/jev-minesweeper",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "jeffloo886/jev-notion",
+    "kind": "NOVEL_HIGH",
+    "description": "Fill Notion database properties with calibrated AI judgments (TypeSafe Jev). Native macOS SwiftUI + CLI.",
+    "stars": 2,
+    "html_url": "https://github.com/jeffloo886/jev-notion",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "simota/tenbin",
+    "kind": "NOVEL_HIGH",
+    "description": "MCP server and agent skill for the TypeSafe AI System One API (Jev): decompose a judgment into Choice / Score / Noul questions, lint them, measure on labelled data, and put calibrated thresholds in code",
+    "stars": 2,
+    "html_url": "https://github.com/simota/tenbin",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "2456868764/jevguide",
+    "kind": "NOVEL_HIGH",
+    "description": "Curated Jev showcases from X, organized by category with media previews and direct source links.",
+    "stars": 1,
+    "html_url": "https://github.com/2456868764/jevguide",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "EnesYilmazcode/JevMinesweeper",
+    "kind": "NOVEL_HIGH",
+    "description": "Jev Plays Minesweeper",
+    "stars": 1,
+    "html_url": "https://github.com/EnesYilmazcode/JevMinesweeper",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "Solido/jev_dart",
+    "kind": "NOVEL_HIGH",
+    "description": "Typesafe Jev Api",
+    "stars": 1,
+    "html_url": "https://github.com/Solido/jev_dart",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "andyhorn/jev",
+    "kind": "NOVEL_HIGH",
+    "description": "(empty description; name jev)",
+    "stars": 1,
+    "html_url": "https://github.com/andyhorn/jev",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "brnyxx/jev-ra",
+    "kind": "NOVEL_HIGH",
+    "description": "Browser use for coding agents, 3-5x faster than browser-use. MCP server + CLI; TypeSafe Jev decides every step in ~300 ms.",
+    "stars": 1,
+    "html_url": "https://github.com/brnyxx/jev-ra",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "hf:samatv256/mini-Jev",
+    "kind": "NOVEL_HIGH",
+    "description": "decision-model system-one",
+    "stars": 1,
+    "html_url": "https://huggingface.co/samatv256/mini-Jev",
+    "source": "hf_model",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "kyegomez/open-jev",
+    "kind": "NOVEL_HIGH",
+    "description": "an open-source, from-first-principles reconstruction of the ideas behind TypeSafe AI's Jev, written in pytorch",
+    "stars": 1,
+    "html_url": "https://github.com/kyegomez/open-jev",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "1npo/jev-gmail-labeler",
+    "kind": "NOVEL_HIGH",
+    "description": "A tool that uses Jev to label my emails",
+    "stars": 0,
+    "html_url": "https://github.com/1npo/jev-gmail-labeler",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "Aley3567/awsome-jev-sight",
+    "kind": "NOVEL_HIGH",
+    "description": "bright-sight \u7684\u72ec\u7acb\u4f18\u5316\u526f\u672c\uff1a\u628a\u4e00\u53e5\u4e2d\u6587\u6307\u4ee4\u53d8\u6210\u53d7\u63a7\u7684\u5e94\u7528\u64cd\u4f5c\uff0c\u6bcf\u4e00\u6b65\u6267\u884c\u5b8c\u90fd\u7531\u4ee3\u7801\u56de\u8bfb\u9a8c\u8bc1",
+    "stars": 0,
+    "html_url": "https://github.com/Aley3567/awsome-jev-sight",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "Carl-Lee91/Jev-VoC",
+    "kind": "NOVEL_HIGH",
+    "description": "Jev \ud1a0\uc774 \ud504\ub85c\uc81d\ud2b8",
+    "stars": 0,
+    "html_url": "https://github.com/Carl-Lee91/Jev-VoC",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "MartinPuli/f1",
+    "kind": "NOVEL_HIGH",
+    "description": "JEV Prix: five AI drivers, unknown procedural circuits, Formula-inspired racing, BYOK Jev and saved replays.",
+    "stars": 0,
+    "html_url": "https://github.com/MartinPuli/f1",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "SeanPlusPlus/hellojev",
+    "kind": "NOVEL_HIGH",
+    "description": "\ud83d\udc4b jev",
+    "stars": 0,
+    "html_url": "https://github.com/SeanPlusPlus/hellojev",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "SuperInstance/jev-quilt",
+    "kind": "NOVEL_HIGH",
+    "description": "JEV for quilt as understood output: cellular-first decision substrate \u2014 typed cells, hook-and-drop deltas, bookkeeper WAL, last-mile projection decoupled",
+    "stars": 0,
+    "html_url": "https://github.com/SuperInstance/jev-quilt",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "ThePFMind/jev-mcp",
+    "kind": "NOVEL_HIGH",
+    "description": "MCP server exposing TypeSafe AI's Jev decision model to Claude (stdio, two tools: jev_evaluate, jev_route)",
+    "stars": 0,
+    "html_url": "https://github.com/ThePFMind/jev-mcp",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "asmirrr/DriftLab",
+    "kind": "NOVEL_HIGH",
+    "description": "Reproducible quantitative research CLI for testing momentum strategies and auditing research methodology with TypeSafe Jev.",
+    "stars": 0,
+    "html_url": "https://github.com/asmirrr/DriftLab",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "bouncerguy/jevwrapper",
+    "kind": "NOVEL_HIGH",
+    "description": "English in. Typed JEV decisions out. Inspectable LLM-to-JEV middleware, a browser sandbox, and reusable examples. MIT licensed.",
+    "stars": 0,
+    "html_url": "https://github.com/bouncerguy/jevwrapper",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "cristiancolon/jev-hft",
+    "kind": "NOVEL_HIGH",
+    "description": "Research pipeline testing whether TypeSafe's Jev (via Vercel AI Gateway) can judge news and market data fast enough to matter. Bitcoin and US stocks, paper trading only.",
+    "stars": 0,
+    "html_url": "https://github.com/cristiancolon/jev-hft",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "digitalfoudnry-vb/JevBrowser",
+    "kind": "NOVEL_HIGH",
+    "description": "JEV Browser",
+    "stars": 0,
+    "html_url": "https://github.com/digitalfoudnry-vb/JevBrowser",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "dtduc-git/jevnav",
+    "kind": "NOVEL_HIGH",
+    "description": "Browser automation whose decisions you can replay, test and audit \u2014 Jev picks the element, traces replay offline in CI",
+    "stars": 0,
+    "html_url": "https://github.com/dtduc-git/jevnav",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "gyozameronpanofficial/human-exe-jev",
+    "kind": "NOVEL_HIGH",
+    "description": "HUMAN.exe \u2014 Jev-powered psychological checkpoint game",
+    "stars": 0,
+    "html_url": "https://github.com/gyozameronpanofficial/human-exe-jev",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "hawkyre/jevx",
+    "kind": "NOVEL_HIGH",
+    "description": "Find relevant conversations on X and score your drafts. Open-source Chrome and Firefox extension powered by Jev.",
+    "stars": 0,
+    "html_url": "https://github.com/hawkyre/jevx",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "hf:BlueAquilae/laya-pack-shaped",
+    "kind": "NOVEL_HIGH",
+    "description": "safetensors region:us",
+    "stars": 0,
+    "html_url": "https://huggingface.co/BlueAquilae/laya-pack-shaped",
+    "source": "hf_model",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "hf:akhilaaa3/openjev-v1-allmix-r512-merged",
+    "kind": "NOVEL_HIGH",
+    "description": "safetensors text-classification merged base_model:google/gemma-4-12B-it base_model:finetune:google/gemma-4-12B-it license:apache-2.0 region:us",
+    "stars": 0,
+    "html_url": "https://huggingface.co/akhilaaa3/openjev-v1-allmix-r512-merged",
+    "source": "hf_model",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "hf:cklxx/laya-browser",
+    "kind": "NOVEL_HIGH",
+    "description": "safetensors laya system-1 browser-agent web-navigation decision-model modernbert mind2web tilelang en multilingual dataset:osunlp/Mind2Web",
+    "stars": 0,
+    "html_url": "https://huggingface.co/cklxx/laya-browser",
+    "source": "hf_model",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "hf:frankyy03/laya-pt-es-nli",
+    "kind": "NOVEL_HIGH",
+    "description": "laya safetensors mmbert natural-language-inference portuguese spanish calibrated-decisions rlcd audio-adapter-compatible text-classification pt es",
+    "stars": 0,
+    "html_url": "https://huggingface.co/frankyy03/laya-pt-es-nli",
+    "source": "hf_model",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "jourdanlabs/assay-001",
+    "kind": "NOVEL_HIGH",
+    "description": "ASSAY-001: independent, pre-registered verification of TypeSafe Jev's calibration and type-safety claims. Split verdict, published in full.",
+    "stars": 0,
+    "html_url": "https://github.com/jourdanlabs/assay-001",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "kijung4290/maeum-on-attendance-care",
+    "kind": "NOVEL_HIGH",
+    "description": "\uc5b4\ub974\uc2e0 \ud504\ub85c\uadf8\ub7a8 \ucd9c\uc11d \uc704\ud5d8 \ubaa8\ub2c8\ud130\ub9c1 \ub300\uc2dc\ubcf4\ub4dc \u00b7 TypeSafe AI JEV \uc5f0\ub3d9",
+    "stars": 0,
+    "html_url": "https://github.com/kijung4290/maeum-on-attendance-care",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "lafollett-labs/typesafe-jev-dojo",
+    "kind": "NOVEL_HIGH",
+    "description": "A live, graphical dojo for TypeSafe's Jev (System One) typed decision model \u2014 routing, a Tetris-playing agent, parallel swarms, and an honest Jev-vs-Claude gauntlet.",
+    "stars": 0,
+    "html_url": "https://github.com/lafollett-labs/typesafe-jev-dojo",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "mateoromano-personal/contact-cleaner",
+    "kind": "NOVEL_HIGH",
+    "description": "Sorts the thousands of addresses Google saved automatically into keep, review and remove. Next.js + Jev.",
+    "stars": 0,
+    "html_url": "https://github.com/mateoromano-personal/contact-cleaner",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "namenu/pi-jev-effort",
+    "kind": "NOVEL_HIGH",
+    "description": "Pi extension: per-prompt thinking level from a TypeSafe Jev judgement, capped by the quota you have left",
+    "stars": 0,
+    "html_url": "https://github.com/namenu/pi-jev-effort",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "nanami-0713/dsh-jev-decide",
+    "kind": "NOVEL_HIGH",
+    "description": "DSH plugin: register TypeSafe Jev (System One decision model) as an agent tool \u2014 jev_decide returns calibrated probabilities (noul/choice/score) for routing/triage/guardrail judgments, no text generation. \u628a TypeSafe Jev \u51b3\u7b56\u6a21\u578b\u6ce8\u518c\u4e3a DSH agent \u5de5\u5177",
+    "stars": 0,
+    "html_url": "https://github.com/nanami-0713/dsh-jev-decide",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "peterrauscher/x-bookmark-sorter",
+    "kind": "NOVEL_HIGH",
+    "description": "Chrome extension (Manifest V3) that auto-sorts your X bookmarks into your own folders using TypeSafe's Jev decision model.",
+    "stars": 0,
+    "html_url": "https://github.com/peterrauscher/x-bookmark-sorter",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "sindunarasimhan/murmur",
+    "kind": "NOVEL_HIGH",
+    "description": "Voice-first podcast listening with Jev and OpenAI.",
+    "stars": 0,
+    "html_url": "https://github.com/sindunarasimhan/murmur",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "treycausey/semantic-find",
+    "kind": "NOVEL_HIGH",
+    "description": "Local evidence search with optional Jev semantic ranking",
+    "stars": 0,
+    "html_url": "https://github.com/treycausey/semantic-find",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "ttlequals0/MinusPodJev",
+    "kind": "NOVEL_HIGH",
+    "description": "MinusPod Jev Proxy",
+    "stars": 0,
+    "html_url": "https://github.com/ttlequals0/MinusPodJev",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "yangzhou-chaofan/awesome-jev-prompt",
+    "kind": "NOVEL_HIGH",
+    "description": "latest top 100 showcases for jev (keep updating) from x / github / latest sources",
+    "stars": 0,
+    "html_url": "https://github.com/yangzhou-chaofan/awesome-jev-prompt",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "yasuhito/jev-computer-use",
+    "kind": "NOVEL_HIGH",
+    "description": "Safe computer-use automation guided by typed Jev decisions",
+    "stars": 0,
+    "html_url": "https://github.com/yasuhito/jev-computer-use",
+    "source": "github",
+    "why": "first-seen this run; class-relevant decision/System One tooling or model",
+    "note": "first-sighting card; mark third-party claims *theirs*"
+  },
+  {
+    "id": "jaredpalmer/kev",
+    "kind": "REVISIT_HIGH",
+    "why": "HEAD bd058057ad0a (was 38087aa0301d): 6 commits \u2014 Fine-tuning on your own data (--data JSONL for kev.train/benchmark), --init_from warm-start LoRA/head (PR #9), Kev-0.5B card Qwen3.5 family pointer, README recipe, tests. Material training-API + README densify *theirs*",
+    "stars": 1032,
+    "source": "github",
+    "note": "densify existing card; mark *theirs*; no equivalence guarantee",
+    "prior_sha": "38087aa0301d800e12d59bbf848f582a80c207bc",
+    "new_sha": "bd058057ad0aa9df3dd6d14e3542c95a5ce367b2"
+  }
+]

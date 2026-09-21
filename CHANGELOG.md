@@ -16,6 +16,37 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 1843 HIGH (`research/notes.md` §129 / composition items
+481–496 / findings batch #111). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#51. 
+Do not amend released 0.5.0 (#42). Merged #51 owns §128. Merged #50 owns §127.
+
+### Added
+
+- **Hourly 1843 HIGH (`notes.md` §129).** kev own-data JSONL densify /
+  --init_from warm-start LoRA/head PR #9 / Kev-0.8B 4B 9B Qwen3.5 family /
+  from-scratch ≠ warm-start / JSONL labels ≠ Harbor /
+  reconstruction ≠ replica / assay-001 split verdict /
+  catalogs as indexes. 4B new-source 0.794/0.832 *theirs*.
+  9B new-source 0.812/0.837 *theirs*. 0.33 vs 0.84 vs 0.83/0.88 *theirs*.
+  wire-compat is not logit-equiv. SHA move is not a replica.
+  Evaluator: from-scratch ≠ warm-start / JSONL labels ≠ Harbor /
+  reconstruction ≠ replica. uniqueness_gate.py now
+  checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 + 1049 + 1143 +
+  1248 + 1340 + 1441 + 1542 + 1643 + 1746 + 1843. Composition items 481–496 /
+  batch #111.
+  **HARD RULE:** do not reopen or amend PR #23–#51. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat a from-scratch
+  fine-tune as equal to a warm start, a JSONL file as Harbor, a random-
+  weight reconstruction as a replica, or a catalog as a grant. With
+  Augustus: from-scratch ≠ warm-start; JSONL labels ≠ Harbor;
+  reconstruction ≠ replica; catalog ≠ endorsement. Same split for any
+  Choice/Score/Noul-style head, not only hosted Jev.
+
 Hourly 1746 HIGH (`research/notes.md` §128 / composition items
 465–480 / findings batch #110). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in
