@@ -1,3 +1,23 @@
+## Hourly 1556 HIGH (notes.md §154 / items 837-852 / batch #134)
+
+- Folded onto post-#79 `main` (`eaba901`). hourly 1454 §153 is on main.
+  This fold is §154 only. Do not reclaim §147 through §153.
+  **HARD RULE:** do not reopen or amend PR #23 through #79.
+  Does not bump 0.5.0 or 0.5.1. Skip Archer. `invented_signal: false`.
+- PRIMARY: ishantanu/jevmetrics. Annotate preserves metrics. Filtering
+  effectiveness is unevaluated. 4esv/jev-eval: 300 items per task *theirs*,
+  not Harbor. Bodila51/jev-hft-model-router: no order placement.
+  Tech-Byte-Frontier/jevgate: a file review is not a merge gate.
+  jon-devlapaz/tink-route: 0.60 still soft. 6/6 is not Harbor.
+  0x7067/claude-jev fails open. 0.75 still soft.
+  A79-ai/jev-incall-assistance: mock mode is not inference.
+- REVISIT densify: jev_codex §145, laya-mlx-swift §153 (release 0.1.2),
+  jev-traffic-control §146 (experiment closed, no advantage),
+  jev-oncall §153 (Jev never pages anyone), prior-auth §150
+  (synthetic, not clinical validation). heyaozh/system-one is the
+  jev-rust-crate rename, same HEAD.
+- Uniqueness lock lives in `research/notes.md` and `uniqueness_gate.py` only.
+
 ## Hourly 1454 HIGH (notes.md §153 / items 821-836 / batch #133)
 
 - Folded onto post-#78 `main` (`c8785c4`). ryana/jevify §152 is on main.
