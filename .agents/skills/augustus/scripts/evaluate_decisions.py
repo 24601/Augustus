@@ -789,6 +789,42 @@ def website_redesign_is_not_calibration(kind, calibrated=False):
     return calibrated is False
 
 
+
+
+def gliclass_class_peer_is_not_jev_replica(kind, replica=False):
+    """GLiClass knowledgator Hub family class-peer catalog not Jev equivalent."""
+    if kind != "gliclass_hub_class_peer":
+        raise ValueError("unexpected kind")
+    return replica is False
+
+
+def typed_decision_leaderboard_is_not_harbor(auc, harbor=False):
+    """typed-decision-leaderboard *theirs* not Harbor. JEV 0.7350."""
+    if abs(auc - 0.7350) > 1e-9:
+        raise ValueError("unexpected auc")
+    return harbor is False
+
+
+def jevbridge_wire_compat_is_not_logit_equiv(kind, logit_equiv=False):
+    """Jevbridge ACP/MCP adapter. wire-compat ≠ logit-equiv."""
+    if kind != "jevbridge_acp_mcp":
+        raise ValueError("unexpected kind")
+    return logit_equiv is False
+
+
+def aside_is_not_cua_binding(kind, cua=False):
+    """Not a Cua binding. Jev is the model. Aside is the browser runtime."""
+    if kind != "aside_jev_runtime":
+        raise ValueError("unexpected kind")
+    return cua is False
+
+
+def jev_style_gguf_is_not_calibrated_replica(acc, ece, replica=False):
+    """82.3% ECE 0.017 *theirs*. serving substrate ≠ calibrated replica."""
+    if abs(acc - 82.3) > 1e-9 or abs(ece - 0.017) > 1e-9:
+        raise ValueError("unexpected scores")
+    return replica is False
+
 def naive_merge_throws_83(kind, recovered=False):
     """naive throws away 83% *theirs*."""
     if kind != "naive_chunk_merge":
@@ -1218,6 +1254,24 @@ def self_test():
     assert theirs_bench_is_not_harbor(83, "jev-wide-naive-83")
     assert theirs_bench_is_not_harbor(8, "certo-kl-0.008")
     assert theirs_bench_is_not_harbor(781, "first-instinct-78.1")
+
+    # 0248: GLiClass class-peer ≠ Jev replica / leaderboard *theirs* not
+    # Harbor / Jevbridge wire-compat ≠ logit-equiv / Not a Cua binding /
+    # serving substrate ≠ calibrated replica.
+    assert gliclass_class_peer_is_not_jev_replica("gliclass_hub_class_peer", False)
+    assert not gliclass_class_peer_is_not_jev_replica("gliclass_hub_class_peer", True)
+    assert typed_decision_leaderboard_is_not_harbor(0.7350, False)
+    assert not typed_decision_leaderboard_is_not_harbor(0.7350, True)
+    assert jevbridge_wire_compat_is_not_logit_equiv("jevbridge_acp_mcp", False)
+    assert not jevbridge_wire_compat_is_not_logit_equiv("jevbridge_acp_mcp", True)
+    assert aside_is_not_cua_binding("aside_jev_runtime", False)
+    assert not aside_is_not_cua_binding("aside_jev_runtime", True)
+    assert jev_style_gguf_is_not_calibrated_replica(82.3, 0.017, False)
+    assert not jev_style_gguf_is_not_calibrated_replica(82.3, 0.017, True)
+    assert theirs_bench_is_not_harbor(7350, "typed-decision-leaderboard-jev-0.7350")
+    assert theirs_bench_is_not_harbor(823, "jev-style-qwen35-2b-82.3")
+    assert theirs_bench_is_not_harbor(9133, "dev-0.4b-banking77-91.33")
+
 
 
     print("self-test ok")
