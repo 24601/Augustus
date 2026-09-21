@@ -2,7 +2,7 @@
 """Uniqueness gate for merged 0843 (§114), merged 0915 NanoJev (§115),
 merged 0920 jcr (§116), merged 0922 SemIf (§117), merged 0940
 llm-to-jev (§118), hourly 0947 HIGH (§119), hourly 1049 HIGH (§120),
-hourly 1143 HIGH (§121), hourly 1248 HIGH (§123), hourly 1340 HIGH (§124), hourly 1441 HIGH (§125), hourly 1542 HIGH (§126), hourly 1643 HIGH (§127), hourly 1746 HIGH (§128), hourly 1843 HIGH (§129), user-provided 1936 HIGH (§130), Open-Jev densify (§125), hourly 1946 HIGH (§131), hourly 2049 HIGH (§132), hourly 2146 HIGH (§133), hourly 2246 HIGH (§134), hourly 2347 HIGH (§135), hourly 0049 HIGH (§136), hourly 0151 HIGH (§137), hourly 0248 HIGH (§138), hourly 0348 HIGH (§139), and hourly 0445 HIGH (§140), and hourly 0551 HIGH (§141).
+hourly 1143 HIGH (§121), hourly 1248 HIGH (§123), hourly 1340 HIGH (§124), hourly 1441 HIGH (§125), hourly 1542 HIGH (§126), hourly 1643 HIGH (§127), hourly 1746 HIGH (§128), hourly 1843 HIGH (§129), user-provided 1936 HIGH (§130), Open-Jev densify (§125), hourly 1946 HIGH (§131), hourly 2049 HIGH (§132), hourly 2146 HIGH (§133), hourly 2246 HIGH (§134), hourly 2347 HIGH (§135), hourly 0049 HIGH (§136), hourly 0151 HIGH (§137), hourly 0248 HIGH (§138), hourly 0348 HIGH (§139), and hourly 0445 HIGH (§140), and hourly 0551 HIGH (§141), and hourly 0707 HIGH (§142).
 
 Each lock must appear as one consecutive substring in every listed overlay.
 Fragments scattered across files do not count.
@@ -11,9 +11,9 @@ Revisit / since-last-look protocol (`notes.md` §122) is a consecutive
 substring in the skill + research files (not a 21-overlay dump wall).
 Hourly must treat revisit HIGH like novel HIGH. Star-noise is not a fold.
 
-Also: YAML-parse SKILL.md frontmatter; notes.md owns §114–§141;
-composition items 289–316, 322–329, 330–336, 337–352, 353–368, 369–384, 385–400, 401–416, 417–432, 433–448, 449–464, 465–480, 481–496, 497–504, 505–520, 521–536, 537–552, 553–568, 569–584, 585–600, 601–616, 617–632, 633–648, 649–664, and 665–680 exist;
-findings batches #97–#123 exist. Items 317–321 stay unused.
+Also: YAML-parse SKILL.md frontmatter; notes.md owns §114–§142;
+composition items 289–316, 322–329, 330–336, 337–352, 353–368, 369–384, 385–400, 401–416, 417–432, 433–448, 449–464, 465–480, 481–496, 497–504, 505–520, 521–536, 537–552, 553–568, 569–584, 585–600, 601–616, 617–632, 633–648, 649–664, 665–680, and 681–696 exist;
+findings batches #97–#124 exist. Items 317–321 stay unused.
 The 1843 archive run_digest must claim §129 / 481–496 / #111.
 The 1946 archive run_digest must claim §131 / 505–520 / #113
 (not the 1746 IDs §128 / 465–480 / #110).
@@ -27,6 +27,7 @@ The 0248 archive run_digest must claim §138 / 617–632 / #120.
 The 0348 archive run_digest must claim §139 / 633–648 / #121.
 The 0445 archive run_digest must claim §140 / 649–664 / #122.
 The 0551 archive run_digest must claim §141 / 665–680 / #123.
+The 0707 archive run_digest must claim §142 / 681–696 / #124.
 CHANGELOG.md must not hold uniqueness dump walls (dumps live in
 changelog-hourly.md). README.md must not hold the 0743 dump wall.
 Pages greps stay in docs/index.md and docs/_layouts/default.html.
@@ -229,6 +230,11 @@ UNIQ_0551 = (
     'Hourly 0551 uniqueness lock: jaredpalmer/kev densify HEAD 4f8110a3f862 README SHA d497d4b89427 was e0bcf50153f1 / 84b872488915; Night-2 sign-off; dates+unknowable deltas promoted for 0.8B/4B/9B; v7-base tags; PLAN SHA 5e6d2fca508e; locked OOD 0.684/0.837/0.852 *theirs*; test Kev-9B 0.837→0.852 *theirs*; Kev-4B 0.832→0.837 *theirs*; Kev-0.8B 0.668→0.684 *theirs*; T≈2.0 Brier 0.291→0.267 ECE 0.105→0.039 *theirs*; 7.5%→3.2% *theirs*; grouped T rejected; date_facts deadline 9B 0.72→0.80 raw→0.90 preprocessor; unknowable ≥0.9 → 0.00; 35B Not shipped MMLU-Pro 0.550 *theirs*; coverage@5% 0.62 from 0.66 at 9B *theirs*; not a controlled architecture comparison; Qwen3.5 ≠ Archer; Qwen3.6 ≠ Archer; temperature scaling ≠ ECE unless measured; Hub --revision is a pin not a replica; densify §45 not a sibling first sighting; SHA move is not a replica; bespokelabsai/nimble densify HEAD f136b3f75721 README SHA b3a04a310f1e; Publish original 2676 training examples and frozen 324 holdout; 90.1% vs Jev 93.2% vs base 66.4% *theirs*; did not distill from Jev; densify §35 not a sibling first sighting; AbdelStark/awesome-typesafe-jev 416★ MIT HEAD a6a68b57888a README SHA e47993484e3a github_id 1374058281; Independent community project; catalog ≠ endorsement; AbdelStark/awesome-typesafe-jev IS AbdelStark/awesome-typesafe (same GitHub id 1374058281); cookiespiggy/agentic-rl 103★ MIT HEAD 072bdd8c69de README SHA f2cc68b4e214; ch.25 Jev vs RL; RL ≠ calibrated Noul; DevMortimer/pi-typesafe 27★ MIT HEAD 8dcaa887e22c README SHA 6a11fb9df8b9; DevMortimer/pi-typesafe ≠ twilwa/pi-typesafe ≠ TheoOliveira/pi-jev; hf:gump2049/APUS-OpenJev-v1 sha e7e3cc0b9c82; APUS-OpenJev 9B 85.0% vs Jev API 82.5% *theirs* not Harbor; Frozen80 n=80; Candidate probabilities are not calibrated confidence; Qwen3.5-4B ≠ Archer; Qwen3.5-9B ≠ Archer; hf:SeanLiu/Jev-Vision sha 9b77fa5fdcd0 apache-2.0; POPE 0.907 MME 0.927 NLVR2 0.930 *theirs*; yes/no ECE 0.034 to 0.047 *theirs*; JevBench hard 52% at 91% mean confidence *theirs*; Qwen3-VL-8B ≠ Archer; LoRA ≠ RLCD replica; wire-compat ≠ logit-equiv; hf:SeanLiu/Jev-Vision ≠ sseanliu/Jev-Vision; evoke-build/evoke densify 6★ HEAD ca8a311743fe README SHA fcce876e2cab was 310840b56f1d / 02b91962cef4; Jev is the first adapter the design is bound to no engine; densify §139 not a sibling first sighting; 47thtechcorner/RayCodes_GLiNER_V1_Multi densify HEAD 485cf8045f73 README SHA 035b339c3789; Zero Hallucinations marketing; Locate ≠ decide; kylemclaren/jevsearch ≠ kylemclaren/jev-search ≠ kazuhideoki/jev-search; stacklok/typesafe-go ≠ kisshan13/typesafe-ai-go ≠ peach-zhang/typesafe-go ≠ Nibir1/typesafe-go; sontakey/awesome-jev ≠ heyjunpenn/awesome-jev ≠ yibie/awesome-jev ≠ AbdelStark/awesome-typesafe-jev; Giustino98/system-one-bench ≠ mallahyari/system-one-benchmark; skip-thin eatmoreduck/jev-jarvis githubMJ/Laya4j hawkymisc/typed-decision-bert jayanthbagare/laya_examples mohamedAtoui/Jev-project petrixh/laya-test sidhasadhak/jev-perfume-advisor wendaoheri/jev-browser zohaibtanwir/jev-samsho2 empty SHA; game success ≠ calibrated Noul; does not execute; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62/#63/#64; notes.md §141'
 )
 
+UNIQ_0707 = (
+    'Hourly 0707 uniqueness lock: Sac-Y/Jev-cu 524★ HEAD e2cc92d731fa README SHA 3deeafbc870f; 只传文字，不传截图; Text only no screenshots; Codex CU executes; local policy gates; kyotofin/tax-doc-classifier 322★ Apache-2.0 HEAD 3e95a77f763c README SHA 72c4f74b542e; 100% of our tax document corpus at $0.001 per page; TaxCalcBench 0 strict errors *theirs*; blank IRS 38 strict errors 5.05% *theirs*; 34× cheaper and 6× faster *theirs*; 261 IRS forms; 100% of corpus *theirs* not Harbor; fhshaik/typesafe-mario 319★ HEAD ca22449ed187 README SHA c489f9350414; The model does not receive screenshots; game success ≠ calibrated Noul; droidrun/mobile-jev 307★ MIT HEAD 395fc222beac README SHA d257fed2c5f7; 21 seconds for 9 actions *theirs*; A completed booking is not demonstrated; droidrun/mobile-jev ≠ Friedjof/jev-mobile; realZachi/pg-jev 269★ HEAD afd11fa856d7 README SHA e8735928b57d; giuliosmall/pg_typesafe ≠ realZachi/pg-jev; kitze/skillbox 220★ MIT HEAD cda64ad3310a README SHA dedcb6be3c39; itsmostafa/typesafe-mcp 181★ MIT HEAD d4c110c7edd8 README SHA 2bd68aff4299; itsmostafa/typesafe-mcp ≠ cyrusasco/typesafe-mcp ≠ burnigtm/jev-mcp; kitze/unclutter 157★ MIT HEAD 9ef9beccc1e5 README SHA 5ad63c67fd02; standardagents/jevpilot 147★ HEAD e1beeb13b9a9 README SHA ec386a81e12c; AbdelStark/awesome-typesafe-jev densify 417★ MIT HEAD d6ea2a0d6cf4 README SHA 234ae59a0b16 was a6a68b57888a / e47993484e3a; The field guide to typed decisions; Independent community project; densify §141 not a sibling first sighting; SHA move is not a replica; hf:Praveenrajus/jev-bench HTTP 401 was 200; densify §107/§125 remainder; *theirs* not Harbor; hf:wayfind/metask-jev-4b-policy-mix densify sha 5ecdd272ab4a README SHA c534ee82b141; densify §134 not a sibling first sighting; wayfind/metask-jev-4b-policy-mix ≠ metask-ai/metask-jev; patryckalves/jev-no-enem HEAD 7f85f787e3d1 README SHA 237b308df062; ENEM 2025 *theirs* not Harbor; 56.6% (103/182) *theirs*; ECE 0.078 *theirs*; Ying-Kai-Liao/jev-browser ≠ wy-coliney/jev-browser-use; w3cj/jev-chat ≠ Manta-Boardgame/jev-chat; snellingio/system-one ≠ sgoedecke/system-one ≠ Luke458/system-one ≠ developerekene/System-One; stoleas/typesafe-computer-use ≠ awlevin/typesafe-computer-use; holotwist/laya ≠ NandhaKishorM/laya; RafalWilinski/vibecheck ≠ psyb0t/vibecheck; dannote/jev ≠ okooo5km/jev ≠ sebastianbugal/jev; skip-thin developerekene/System-One holotwist/laya wuzhiping/jev-laya empty SHA; hf:s1lv3rj1nx/openjev-healthcare-router HTTP 401 *theirs*; hf:s1lv3rj1nx/openjev-heldout HTTP 401 *theirs*; hf:s1lv3rj1nx/openjev-mixture HTTP 401 *theirs*; catalog ≠ endorsement; game success ≠ calibrated Noul; does not execute; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62/#63/#64/#65; notes.md §142'
+)
+
+
 REVISIT_LOCK = (
     "Revisit / since-last-look lock: catalogued repos are not done; "
     "store fingerprints default_sha, pushed_at, description_hash, release_tag; "
@@ -348,6 +354,8 @@ def main() -> int:
             failed.append(f"0445 lock missing as one substring: {rel}")
         if UNIQ_0551 not in body:
             failed.append(f"0551 lock missing as one substring: {rel}")
+        if UNIQ_0707 not in body:
+            failed.append(f"0707 lock missing as one substring: {rel}")
         if "meijustory123/OpenJev-Kit ≠ meijustory123/openjev" in body:
             failed.append(
                 "0348 false namesake lock still present "
@@ -368,6 +376,20 @@ def main() -> int:
         failed.append("UNIQ_0551 missing awesome-typesafe-jev same-id lock")
     if "Night-2 sign-off" not in UNIQ_0551:
         failed.append("UNIQ_0551 missing Night-2 sign-off")
+    if "densify §141 not a sibling first sighting" not in UNIQ_0707:
+        failed.append("UNIQ_0707 missing AbdelStark densify §141 lock")
+    if "densify §107/§125 remainder" not in UNIQ_0707:
+        failed.append("UNIQ_0707 missing jev-bench densify §107/§125 lock")
+    if "densify §134 not a sibling first sighting" not in UNIQ_0707:
+        failed.append("UNIQ_0707 missing metask densify §134 lock")
+    if "只传文字，不传截图" not in UNIQ_0707:
+        failed.append("UNIQ_0707 missing Jev-cu text-only lock")
+    if "A completed booking is not demonstrated" not in UNIQ_0707:
+        failed.append("UNIQ_0707 missing mobile-jev booking lock")
+    if "ENEM 2025 *theirs* not Harbor" not in UNIQ_0707:
+        failed.append("UNIQ_0707 missing ENEM *theirs* lock")
+    if "#65" not in UNIQ_0707:
+        failed.append("UNIQ_0707 missing HARD RULE #65")
     for rel in REVISIT_OVERLAYS:
         path = ROOT / rel
         if not path.is_file():
@@ -433,6 +455,8 @@ def main() -> int:
         failed.append("notes.md missing §140 heading")
     if "## 141. Hourly 0551 HIGH" not in notes:
         failed.append("notes.md missing §141 heading")
+    if "## 142. Hourly 0707 HIGH" not in notes:
+        failed.append("notes.md missing §142 heading")
 
     notes140 = notes[notes.find("## 140. Hourly 0445 HIGH"):]
     for remainder_id in (
@@ -487,10 +511,37 @@ def main() -> int:
     ):
         if remainder_id not in notes141:
             failed.append(f"notes.md §141 missing remainder card {remainder_id}")
+    notes142 = notes[notes.find("## 142. Hourly 0707 HIGH"):]
+    for remainder_id in (
+        "compozy/yoshi",
+        "jomatsu/pi-jev-auto-mode",
+        "sorrycc/typesafe-snake",
+        "rhighs/jev-code",
+        "smkrv/jev-calibrate",
+        "iammrduncan/typesafe-ai-benchmark",
+        "SAGAR-TAMANG/sarvam-jev",
+        "GhalebDweikat/winnow",
+        "IAmUnbounded/save-token-jev-clean",
+        "pithings/advocaat",
+        "mrnugget/jev-shell-history",
+        "giuliosmall/pg_typesafe",
+        "trungdq88/youtube-sponsor-detection",
+        "w3cj/jev-chat",
+        "Ying-Kai-Liao/jev-browser",
+        "realZachi/typesafe-adblock",
+        "snellingio/system-one",
+        "pythongiant/laya-drift",
+        "seanthomasevans/typesafe-nes",
+        "stoleas/typesafe-computer-use",
+        "FelineStateMachine/typesafe-go",
+        "patryckalves/jev-no-enem",
+    ):
+        if remainder_id not in notes142:
+            failed.append(f"notes.md §142 missing remainder card {remainder_id}")
     algebra = (ROOT / ".agents/skills/augustus/references/composition-algebra.md").read_text(
         encoding="utf-8"
     )
-    for n in list(range(289, 317)) + list(range(322, 330)) + list(range(330, 337)) + list(range(337, 353)) + list(range(353, 369)) + list(range(369, 385)) + list(range(385, 401)) + list(range(401, 417)) + list(range(417, 433)) + list(range(433, 449)) + list(range(449, 465)) + list(range(465, 481)) + list(range(481, 497)) + list(range(497, 505)) + list(range(505, 521)) + list(range(521, 537)) + list(range(537, 553)) + list(range(553, 569)) + list(range(569, 585)) + list(range(585, 601)) + list(range(601, 617)) + list(range(617, 633)) + list(range(633, 649)) + list(range(649, 665)) + list(range(665, 681)):
+    for n in list(range(289, 317)) + list(range(322, 330)) + list(range(330, 337)) + list(range(337, 353)) + list(range(353, 369)) + list(range(369, 385)) + list(range(385, 401)) + list(range(401, 417)) + list(range(417, 433)) + list(range(433, 449)) + list(range(449, 465)) + list(range(465, 481)) + list(range(481, 497)) + list(range(497, 505)) + list(range(505, 521)) + list(range(521, 537)) + list(range(537, 553)) + list(range(553, 569)) + list(range(569, 585)) + list(range(585, 601)) + list(range(601, 617)) + list(range(617, 633)) + list(range(633, 649)) + list(range(649, 665)) + list(range(665, 681)) + list(range(681, 697)):
         needle = f"{n}. **"
         if needle not in algebra:
             failed.append(f"composition-algebra missing item {n}")
@@ -527,6 +578,7 @@ def main() -> int:
         "## Batch #121",
         "## Batch #122",
         "## Batch #123",
+        "## Batch #124",
     ):
         if batch not in findings:
             failed.append(f"findings.md missing {batch}")
@@ -677,6 +729,27 @@ def main() -> int:
             )
         if digest0551.get("invented_signal") is not False:
             failed.append("0551 run_digest invented_signal is not false")
+    digest_path_0707 = ROOT / "research/archive/hourly/2026-09-21T13/run_digest.json"
+    if not digest_path_0707.is_file():
+        failed.append("missing 0707 run_digest.json")
+    else:
+        digest0707 = json.loads(digest_path_0707.read_text(encoding="utf-8"))
+        if digest0707.get("label") != "0707":
+            failed.append(f"0707 run_digest label {digest0707.get('label')!r} != '0707'")
+        if digest0707.get("notes_section") != "142":
+            failed.append(
+                f"0707 run_digest notes_section {digest0707.get('notes_section')!r} != '142'"
+            )
+        if digest0707.get("composition") != "681-696":
+            failed.append(
+                f"0707 run_digest composition {digest0707.get('composition')!r} != '681-696'"
+            )
+        if digest0707.get("findings_batch") != 124:
+            failed.append(
+                f"0707 run_digest findings_batch {digest0707.get('findings_batch')!r} != 124"
+            )
+        if digest0707.get("invented_signal") is not False:
+            failed.append("0707 run_digest invented_signal is not false")
     digest_path_0151 = ROOT / "research/archive/hourly/2026-09-21T08/run_digest.json"
     if not digest_path_0151.is_file():
         failed.append("missing 0151 run_digest.json")
@@ -1278,6 +1351,34 @@ def main() -> int:
             'skip-thin eatmoreduck/jev-jarvis',
             'densify §139 not a sibling first sighting',
             'AbdelStark/awesome-typesafe-jev IS AbdelStark/awesome-typesafe',
+            'hourly 0707 / notes.md §142',
+            '只传文字，不传截图',
+            'Text only no screenshots',
+            '100% of our tax document corpus at $0.001 per page',
+            'TaxCalcBench 0 strict errors *theirs*',
+            'blank IRS 38 strict errors 5.05% *theirs*',
+            '100% of corpus *theirs* not Harbor',
+            'The model does not receive screenshots',
+            '21 seconds for 9 actions *theirs*',
+            'A completed booking is not demonstrated',
+            'droidrun/mobile-jev ≠ Friedjof/jev-mobile',
+            'giuliosmall/pg_typesafe ≠ realZachi/pg-jev',
+            'itsmostafa/typesafe-mcp ≠ cyrusasco/typesafe-mcp ≠ burnigtm/jev-mcp',
+            'The field guide to typed decisions',
+            'densify §141 not a sibling first sighting',
+            'hf:Praveenrajus/jev-bench HTTP 401 was 200',
+            'densify §107/§125 remainder',
+            'densify §134 not a sibling first sighting',
+            'ENEM 2025 *theirs* not Harbor',
+            'Ying-Kai-Liao/jev-browser ≠ wy-coliney/jev-browser-use',
+            'w3cj/jev-chat ≠ Manta-Boardgame/jev-chat',
+            'snellingio/system-one ≠ sgoedecke/system-one ≠ Luke458/system-one ≠ developerekene/System-One',
+            'stoleas/typesafe-computer-use ≠ awlevin/typesafe-computer-use',
+            'holotwist/laya ≠ NandhaKishorM/laya',
+            'RafalWilinski/vibecheck ≠ psyb0t/vibecheck',
+            'dannote/jev ≠ okooo5km/jev ≠ sebastianbugal/jev',
+            'skip-thin developerekene/System-One holotwist/laya wuzhiping/jev-laya empty SHA',
+            'hf:s1lv3rj1nx/openjev-healthcare-router HTTP 401 *theirs*',
         ):
             if frag not in haystack:
                 failed.append(f"SKILL.md missing fragment {frag!r}")
@@ -1694,6 +1795,34 @@ def main() -> int:
             'skip-thin eatmoreduck/jev-jarvis',
             'densify §139 not a sibling first sighting',
             'AbdelStark/awesome-typesafe-jev IS AbdelStark/awesome-typesafe',
+            'hourly 0707 / notes.md §142',
+            '只传文字，不传截图',
+            'Text only no screenshots',
+            '100% of our tax document corpus at $0.001 per page',
+            'TaxCalcBench 0 strict errors *theirs*',
+            'blank IRS 38 strict errors 5.05% *theirs*',
+            '100% of corpus *theirs* not Harbor',
+            'The model does not receive screenshots',
+            '21 seconds for 9 actions *theirs*',
+            'A completed booking is not demonstrated',
+            'droidrun/mobile-jev ≠ Friedjof/jev-mobile',
+            'giuliosmall/pg_typesafe ≠ realZachi/pg-jev',
+            'itsmostafa/typesafe-mcp ≠ cyrusasco/typesafe-mcp ≠ burnigtm/jev-mcp',
+            'The field guide to typed decisions',
+            'densify §141 not a sibling first sighting',
+            'hf:Praveenrajus/jev-bench HTTP 401 was 200',
+            'densify §107/§125 remainder',
+            'densify §134 not a sibling first sighting',
+            'ENEM 2025 *theirs* not Harbor',
+            'Ying-Kai-Liao/jev-browser ≠ wy-coliney/jev-browser-use',
+            'w3cj/jev-chat ≠ Manta-Boardgame/jev-chat',
+            'snellingio/system-one ≠ sgoedecke/system-one ≠ Luke458/system-one ≠ developerekene/System-One',
+            'stoleas/typesafe-computer-use ≠ awlevin/typesafe-computer-use',
+            'holotwist/laya ≠ NandhaKishorM/laya',
+            'RafalWilinski/vibecheck ≠ psyb0t/vibecheck',
+            'dannote/jev ≠ okooo5km/jev ≠ sebastianbugal/jev',
+            'skip-thin developerekene/System-One holotwist/laya wuzhiping/jev-laya empty SHA',
+            'hf:s1lv3rj1nx/openjev-healthcare-router HTTP 401 *theirs*',
             ):
                 if frag not in proto_line:
                     failed.append(f"SKILL.md protocol missing {frag!r}")
@@ -1727,6 +1856,7 @@ def main() -> int:
         ("0348", UNIQ_0348),
         ("0445", UNIQ_0445),
         ("0551", UNIQ_0551),
+        ("0707", UNIQ_0707),
     ):
         if lock in changelog:
             failed.append(
@@ -1810,7 +1940,7 @@ def main() -> int:
         f"2146 chars={len(UNIQ_2146)} "
         f"2246 chars={len(UNIQ_2246)} "
         f"2347 chars={len(UNIQ_2347)} "
-        f"0049 chars={len(UNIQ_0049)} 0151 chars={len(UNIQ_0151)} 0248 chars={len(UNIQ_0248)} 0348 chars={len(UNIQ_0348)} 0445 chars={len(UNIQ_0445)} 0551 chars={len(UNIQ_0551)} "
+        f"0049 chars={len(UNIQ_0049)} 0151 chars={len(UNIQ_0151)} 0248 chars={len(UNIQ_0248)} 0348 chars={len(UNIQ_0348)} 0445 chars={len(UNIQ_0445)} 0551 chars={len(UNIQ_0551)} 0707 chars={len(UNIQ_0707)} "
         f"revisit chars={len(REVISIT_LOCK)} "
         f"overlays={len(OVERLAYS)} "
         f"revisit_overlays={len(REVISIT_OVERLAYS)}"

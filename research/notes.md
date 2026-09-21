@@ -25249,6 +25249,13 @@ items 178–185; `question-design.md`;
 `agent-self-assessment.md`. Hunches labeled.
 No wrapper.
 
+
+### Since last look (2026-09-21T13 hourly 0707) — hf:Praveenrajus/jev-bench
+
+DENSIFY §107/§125 remainder. Keep this section id. Do not mint a sibling first sighting.
+Hub HTTP **401** this hour (was 200 in 1643). densify is not a second census.
+Do not invent card content. *theirs* not Harbor. Full card: `notes.md` §142.
+
 ## 108. Hourly 0345 HIGH (2026-09-20 ~03:45 Boise / 2026-09-20T09:45Z)
 
 Docs-only on a **fresh PR off main**
@@ -31457,6 +31464,13 @@ demos: catalog, do not elevate. catalog ≠ endorsement.
 ### Skips (thin / collision / name-match)
 
 - hf:Praveenrajus/jev-bench HTTP **401**; already-catalogued remainder.
+### Since last look (2026-09-21T13 hourly 0707) — hf:Praveenrajus/jev-bench
+
+DENSIFY §107/§125 remainder. Keep this section id. Do not mint a sibling first sighting.
+Hub HTTP **401** this hour (was 200). densify is not a second census.
+Do not invent card content. *theirs* not Harbor. Full card: `notes.md` §142.
+
+
 - Empty-README / 0★ playgrounds / marketing sites / name-match
   `Jev` / Hub spaces already folded: skip-thin.
 - Archer rewrite: **promised_not_landed**. Hub archerhume/4rcherhume
@@ -34190,6 +34204,14 @@ Hooks for the reviewer:
 **Hourly 2246 HIGH (`notes.md` §134).** Open-Jev TREC densify HEAD 48346d0630f1. README SHA unchanged ce1a587219e4. TREC prep ≠ completed Open-Jev TREC. context proof ≠ nDCG. CPU tests ≠ GPU scores. 79 CPU tests *theirs*. Open-Jev TREC pending. TypeLLM PyPI densify HEAD 8a8b4aefd443. typellm 0.1.1. PyPI packaging ≠ calibrated Noul. Constrained AR ≠ calibrated Noul. simple-jev 408★ first card. logits are not calibrated probabilities of correctness. wire-compat ≠ logit-equiv. jev-directory catalog ≠ endorsement. Jev-Mem 11.0% 6.6× 36.7% *theirs* not Harbor. FogMoe/necro abandoned LoRA retrospective. serving substrate ≠ calibrated replica. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#57. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
 Hourly 2246 uniqueness lock: Zefan-Cai/Open-Jev densify HEAD 48346d0630f1 README SHA unchanged ce1a587219e4; Publish strict Open-Jev TREC evaluation preparation and context proof; Actual Open-Jev TREC model inference is pending; All 79 combined CPU tests pass; 97 queries 43 DL19 54 DL20; at most 873 requests per model; No GPU or model inference was used; TREC prep ≠ completed Open-Jev TREC; context proof ≠ nDCG; CPU tests ≠ GPU scores; Open-Jev TREC pending; TypeLLM/TypeLLM densify HEAD 8a8b4aefd443 README SHA 9f6dea3a4c8c; Add PyPI packaging and publish workflow; typellm 0.1.1; Drop fixed banner height so it scales on PyPI; Constrained AR ≠ calibrated Noul; PyPI packaging ≠ calibrated Noul; type safety does not guarantee factual accuracy; featherless-ai/simple-jev 408★ HEAD b02aa81c915a README SHA 4c5be59e9738; logits are not calibrated probabilities of correctness; does not reproduce TypeSafe; /v1/systemone alias of /v1/classifier; wire-compat ≠ logit-equiv; everyai-com/jev-directory 13★ 50 runnable evals 1300+ builds catalog ≠ endorsement; Jev-Mem 11.0% 6.6× 36.7% *theirs* not Harbor; Nyarlathoteppppp/pi-jev-context ≠ kevinpita/pi-jev-context; FogMoe/necro abandoned LoRA retrospective; LoRA ≠ RLCD replica; Qwen3.5-0.8B ≠ Archer; clarity-judge independent community project; hearim Jev-compatible Go gateway; yijunyu/jev-rs any LLM one prefill; alongL/openJev ≠ Zefan-Cai/Open-Jev; huaizuo2022/jev-ultrafast ≠ browser-use/jev-ultrafast; FluidInference/laya-coreml ≠ AndyInQtr/laya-coreai ≠ mizorewww/laya-coreml; serving substrate ≠ calibrated replica; wayfind/metask-jev-4b-policy-mix ≠ metask-ai/metask-jev; majiayu000/awesome-jev ≠ heyjunpenn/awesome-jev ≠ yibie/awesome-jev; rajasekharponakala/jev-mcp ≠ thedv91/jev-mcp ≠ jkudish/jev-mcp; skip-thin jev-droid 404 mach empty SHA; game success ≠ calibrated Noul; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57; notes.md §134
 
+
+### Since last look (2026-09-21T13 hourly 0707) — hf:wayfind/metask-jev-4b-policy-mix
+
+DENSIFY §134. Keep this section id. Do not mint a sibling first sighting.
+sha `5ecdd272ab4a` README SHA `c534ee82b141`. densify §134 not a sibling
+first sighting. wayfind/metask-jev-4b-policy-mix ≠ metask-ai/metask-jev.
+SHA move is not a replica. Full card: `notes.md` §142.
+
 ## 135. Hourly 2347 HIGH (2026-09-20 ~23:47 Boise / 2026-09-21T05:47Z)
 
 Measurement / class-member fold on a **fresh PR off latest `main`**
@@ -35861,6 +35883,14 @@ a README SHA move is densify not a sibling first sighting.
    catalog ≠ endorsement. game success ≠ calibrated Noul. does not execute.
    routing ≠ permission. *theirs* not Harbor.
 
+### Since last look (2026-09-21T13 hourly 0707) — AbdelStark/awesome-typesafe-jev
+
+DENSIFY §141. Keep this section id. Do not mint a sibling first sighting.
+HEAD `d6ea2a0d6cf4` README SHA `234ae59a0b16` was `a6a68b57888a` /
+`e47993484e3a`. Quote *theirs*: The field guide to typed decisions.
+Independent community project. description rewrite. densify §141 not a
+sibling first sighting. SHA move is not a replica. Full card: `notes.md` §142.
+
 ### Pulse (live REST this hour)
 
 Archer still promised_not_landed. Hub archerhume/4rcherhume HTTP **401**.
@@ -35940,3 +35970,290 @@ Hooks for the reviewer:
 
 **Hourly 0551 HIGH (`notes.md` §141).** kev Night-2 densify. locked OOD 0.684/0.837/0.852 *theirs*. v7-base tags. did not distill from Jev. APUS-OpenJev 9B 85.0% vs Jev API 82.5% *theirs* not Harbor. Frozen80 n=80. Candidate probabilities are not calibrated confidence. Jev is the first adapter the design is bound to no engine. Zero Hallucinations marketing. Locate ≠ decide. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#64. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
 Hourly 0551 uniqueness lock: jaredpalmer/kev densify HEAD 4f8110a3f862 README SHA d497d4b89427 was e0bcf50153f1 / 84b872488915; Night-2 sign-off; dates+unknowable deltas promoted for 0.8B/4B/9B; v7-base tags; PLAN SHA 5e6d2fca508e; locked OOD 0.684/0.837/0.852 *theirs*; test Kev-9B 0.837→0.852 *theirs*; Kev-4B 0.832→0.837 *theirs*; Kev-0.8B 0.668→0.684 *theirs*; T≈2.0 Brier 0.291→0.267 ECE 0.105→0.039 *theirs*; 7.5%→3.2% *theirs*; grouped T rejected; date_facts deadline 9B 0.72→0.80 raw→0.90 preprocessor; unknowable ≥0.9 → 0.00; 35B Not shipped MMLU-Pro 0.550 *theirs*; coverage@5% 0.62 from 0.66 at 9B *theirs*; not a controlled architecture comparison; Qwen3.5 ≠ Archer; Qwen3.6 ≠ Archer; temperature scaling ≠ ECE unless measured; Hub --revision is a pin not a replica; densify §45 not a sibling first sighting; SHA move is not a replica; bespokelabsai/nimble densify HEAD f136b3f75721 README SHA b3a04a310f1e; Publish original 2676 training examples and frozen 324 holdout; 90.1% vs Jev 93.2% vs base 66.4% *theirs*; did not distill from Jev; densify §35 not a sibling first sighting; AbdelStark/awesome-typesafe-jev 416★ MIT HEAD a6a68b57888a README SHA e47993484e3a github_id 1374058281; Independent community project; catalog ≠ endorsement; AbdelStark/awesome-typesafe-jev IS AbdelStark/awesome-typesafe (same GitHub id 1374058281); cookiespiggy/agentic-rl 103★ MIT HEAD 072bdd8c69de README SHA f2cc68b4e214; ch.25 Jev vs RL; RL ≠ calibrated Noul; DevMortimer/pi-typesafe 27★ MIT HEAD 8dcaa887e22c README SHA 6a11fb9df8b9; DevMortimer/pi-typesafe ≠ twilwa/pi-typesafe ≠ TheoOliveira/pi-jev; hf:gump2049/APUS-OpenJev-v1 sha e7e3cc0b9c82; APUS-OpenJev 9B 85.0% vs Jev API 82.5% *theirs* not Harbor; Frozen80 n=80; Candidate probabilities are not calibrated confidence; Qwen3.5-4B ≠ Archer; Qwen3.5-9B ≠ Archer; hf:SeanLiu/Jev-Vision sha 9b77fa5fdcd0 apache-2.0; POPE 0.907 MME 0.927 NLVR2 0.930 *theirs*; yes/no ECE 0.034 to 0.047 *theirs*; JevBench hard 52% at 91% mean confidence *theirs*; Qwen3-VL-8B ≠ Archer; LoRA ≠ RLCD replica; wire-compat ≠ logit-equiv; hf:SeanLiu/Jev-Vision ≠ sseanliu/Jev-Vision; evoke-build/evoke densify 6★ HEAD ca8a311743fe README SHA fcce876e2cab was 310840b56f1d / 02b91962cef4; Jev is the first adapter the design is bound to no engine; densify §139 not a sibling first sighting; 47thtechcorner/RayCodes_GLiNER_V1_Multi densify HEAD 485cf8045f73 README SHA 035b339c3789; Zero Hallucinations marketing; Locate ≠ decide; kylemclaren/jevsearch ≠ kylemclaren/jev-search ≠ kazuhideoki/jev-search; stacklok/typesafe-go ≠ kisshan13/typesafe-ai-go ≠ peach-zhang/typesafe-go ≠ Nibir1/typesafe-go; sontakey/awesome-jev ≠ heyjunpenn/awesome-jev ≠ yibie/awesome-jev ≠ AbdelStark/awesome-typesafe-jev; Giustino98/system-one-bench ≠ mallahyari/system-one-benchmark; skip-thin eatmoreduck/jev-jarvis githubMJ/Laya4j hawkymisc/typed-decision-bert jayanthbagare/laya_examples mohamedAtoui/Jev-project petrixh/laya-test sidhasadhak/jev-perfume-advisor wendaoheri/jev-browser zohaibtanwir/jev-samsho2 empty SHA; game success ≠ calibrated Noul; does not execute; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62/#63/#64; notes.md §141
+
+## 142. Hourly 0707 HIGH (2026-09-21 ~07:07 Boise / 2026-09-21T13:07Z)
+
+Measurement / class-member fold on a **fresh PR off latest `main`**
+(`cursor/0707-fold-novel-high-revisit-3202`) after `34edba4` (merged #65 hourly
+0551 HIGH, `notes.md` §141 / items 665–680 / batch #123; merged #64 hourly
+0445 HIGH, `notes.md` §140).
+**HARD RULE:** do not reopen or amend PR #23–#65.
+Do **not** re-fold §141 0551 / §140 0445 / first-party 0551 SHA bumps
+*as a second census*. First-party 0551 SHA bumps are not densify REVISIT.
+Do not amend #65/#64/#63. Do not treat text-only CU as screenshots.
+Do not treat 100% of a tax corpus as Harbor. Do not treat game success
+as calibrated Noul. Do not treat a completed booking as demonstrated.
+This fold's IDs: `notes.md` §142 / composition 681–696 / findings batch #124.
+
+Never reopen merged #7–**#65**. Quote READMEs / Hub cards.
+Mark *theirs*. No wrappers, keys, `npm` / `pip` / `uv` / `docker`
+install recipes. `invented_signal: false`. Hunches labeled.
+
+Lane is Augustus: **mathematical / logical / algorithmic mental models**
+for Jev-class categorization/scoring across AI / SWE / **business /
+knowledge work / life**, not SWE-only. PRIMARY this hour is
+**Sac-Y/Jev-cu** (text-only next-click; Codex CU executes; local policy
+gates; 只传文字，不传截图), plus first cards for tax-doc classifier,
+typesafe-mario, mobile-jev, pg-jev, skillbox, typesafe-mcp, unclutter,
+jevpilot, and REVISIT densify of **AbdelStark/awesome-typesafe-jev**
+(§141 description rewrite), **hf:Praveenrajus/jev-bench** (HTTP 401 was
+200; densify §107/§125 remainder), **hf:wayfind/metask-jev-4b-policy-mix**
+(densify §134), and first card **patryckalves/jev-no-enem** (ENEM 2025
+*theirs*). Jev is exemplar, not the mandate. Third-party benches stay
+*theirs*. Catalogs are indexes. Soft scores ≠ hard gates. SHA move is
+not a replica. Archer still **promised_not_landed**.
+
+Unique consecutive fragments (this fold) must appear as **one
+substring** in overlays (see uniqueness gate):
+Hourly 0707 uniqueness lock: Sac-Y/Jev-cu 524★ HEAD e2cc92d731fa README SHA 3deeafbc870f; 只传文字，不传截图; Text only no screenshots; Codex CU executes; local policy gates; kyotofin/tax-doc-classifier 322★ Apache-2.0 HEAD 3e95a77f763c README SHA 72c4f74b542e; 100% of our tax document corpus at $0.001 per page; TaxCalcBench 0 strict errors *theirs*; blank IRS 38 strict errors 5.05% *theirs*; 34× cheaper and 6× faster *theirs*; 261 IRS forms; 100% of corpus *theirs* not Harbor; fhshaik/typesafe-mario 319★ HEAD ca22449ed187 README SHA c489f9350414; The model does not receive screenshots; game success ≠ calibrated Noul; droidrun/mobile-jev 307★ MIT HEAD 395fc222beac README SHA d257fed2c5f7; 21 seconds for 9 actions *theirs*; A completed booking is not demonstrated; droidrun/mobile-jev ≠ Friedjof/jev-mobile; realZachi/pg-jev 269★ HEAD afd11fa856d7 README SHA e8735928b57d; giuliosmall/pg_typesafe ≠ realZachi/pg-jev; kitze/skillbox 220★ MIT HEAD cda64ad3310a README SHA dedcb6be3c39; itsmostafa/typesafe-mcp 181★ MIT HEAD d4c110c7edd8 README SHA 2bd68aff4299; itsmostafa/typesafe-mcp ≠ cyrusasco/typesafe-mcp ≠ burnigtm/jev-mcp; kitze/unclutter 157★ MIT HEAD 9ef9beccc1e5 README SHA 5ad63c67fd02; standardagents/jevpilot 147★ HEAD e1beeb13b9a9 README SHA ec386a81e12c; AbdelStark/awesome-typesafe-jev densify 417★ MIT HEAD d6ea2a0d6cf4 README SHA 234ae59a0b16 was a6a68b57888a / e47993484e3a; The field guide to typed decisions; Independent community project; densify §141 not a sibling first sighting; SHA move is not a replica; hf:Praveenrajus/jev-bench HTTP 401 was 200; densify §107/§125 remainder; *theirs* not Harbor; hf:wayfind/metask-jev-4b-policy-mix densify sha 5ecdd272ab4a README SHA c534ee82b141; densify §134 not a sibling first sighting; wayfind/metask-jev-4b-policy-mix ≠ metask-ai/metask-jev; patryckalves/jev-no-enem HEAD 7f85f787e3d1 README SHA 237b308df062; ENEM 2025 *theirs* not Harbor; 56.6% (103/182) *theirs*; ECE 0.078 *theirs*; Ying-Kai-Liao/jev-browser ≠ wy-coliney/jev-browser-use; w3cj/jev-chat ≠ Manta-Boardgame/jev-chat; snellingio/system-one ≠ sgoedecke/system-one ≠ Luke458/system-one ≠ developerekene/System-One; stoleas/typesafe-computer-use ≠ awlevin/typesafe-computer-use; holotwist/laya ≠ NandhaKishorM/laya; RafalWilinski/vibecheck ≠ psyb0t/vibecheck; dannote/jev ≠ okooo5km/jev ≠ sebastianbugal/jev; skip-thin developerekene/System-One holotwist/laya wuzhiping/jev-laya empty SHA; hf:s1lv3rj1nx/openjev-healthcare-router HTTP 401 *theirs*; hf:s1lv3rj1nx/openjev-heldout HTTP 401 *theirs*; hf:s1lv3rj1nx/openjev-mixture HTTP 401 *theirs*; catalog ≠ endorsement; game success ≠ calibrated Noul; does not execute; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62/#63/#64/#65; notes.md §142
+
+### How-to-apply (class lenses, not vendor tutorials)
+
+These are *class* lenses. Same discipline as §141 (Locate ≠ decide;
+catalog ≠ endorsement) and §120 (serving substrate ≠ calibrated replica).
+Formal methods **compose**: a Noul is a SENSOR; text-only CU is not a
+screenshot loop; 100% of a corpus is *theirs* not Harbor; game success
+is not a Noul; a demo timer is not a completed booking; a README SHA
+move is densify not a sibling first sighting.
+
+1. **只传文字，不传截图 / Text only no screenshots**
+   (Sac-Y/Jev-cu 524★ HEAD e2cc92d731fa README SHA 3deeafbc870f).
+   Quote *theirs*: 只传文字，不传截图. Codex CU executes. local policy
+   gates. Do **not** copy keys.
+2. **100% of our tax document corpus at $0.001 per page /
+   100% of corpus *theirs* not Harbor**
+   (kyotofin/tax-doc-classifier 322★ Apache-2.0 HEAD 3e95a77f763c
+   README SHA 72c4f74b542e). Quote *theirs*: TaxCalcBench 0 strict
+   errors. blank IRS 38 strict errors 5.05%. 34× cheaper and 6× faster.
+   261 IRS forms. Strict score is not Harbor.
+3. **The model does not receive screenshots /
+   game success ≠ calibrated Noul**
+   (fhshaik/typesafe-mario 319★ HEAD ca22449ed187 README SHA
+   c489f9350414). Structured emulator state. Not pixels.
+4. **21 seconds for 9 actions *theirs* /
+   A completed booking is not demonstrated**
+   (droidrun/mobile-jev 307★ MIT HEAD 395fc222beac README SHA
+   d257fed2c5f7). droidrun/mobile-jev ≠ Friedjof/jev-mobile.
+5. **The field guide to typed decisions / densify §141 not a sibling first sighting /
+   ENEM 2025 *theirs* not Harbor**
+   (AbdelStark/awesome-typesafe-jev densify HEAD d6ea2a0d6cf4;
+   patryckalves/jev-no-enem HEAD 7f85f787e3d1; hf:Praveenrajus/jev-bench
+   HTTP 401 was 200; hf:wayfind/metask-jev-4b-policy-mix sha 5ecdd272ab4a).
+   Independent community project. densify §107/§125 remainder.
+   densify §134 not a sibling first sighting.
+
+### HIGH (this hour)
+
+1. **[`Sac-Y/Jev-cu`](https://github.com/Sac-Y/Jev-cu)
+   PRIMARY novel.** 524★ HEAD `e2cc92d731fa` README SHA `3deeafbc870f`.
+   Quote *theirs*: 只传文字，不传截图. Text only no screenshots.
+   Codex CU executes. local policy gates. Computer Use next-click via
+   Jev. Does not execute the click itself. routing ≠ permission.
+2. **[`kyotofin/tax-doc-classifier`](https://github.com/kyotofin/tax-doc-classifier)
+   PRIMARY novel.** 322★ Apache-2.0 HEAD `3e95a77f763c` README SHA
+   `72c4f74b542e`. Quote *theirs*: 100% of our tax document corpus at
+   $0.001 per page. TaxCalcBench 0 strict errors. blank IRS 38 strict
+   errors 5.05%. 34× cheaper and 6× faster. 261 IRS forms. 100% of
+   corpus *theirs* not Harbor.
+3. **[`fhshaik/typesafe-mario`](https://github.com/fhshaik/typesafe-mario)
+   PRIMARY novel.** 319★ HEAD `ca22449ed187` README SHA `c489f9350414`.
+   Quote *theirs*: The model does not receive screenshots. game success
+   ≠ calibrated Noul.
+4. **[`droidrun/mobile-jev`](https://github.com/droidrun/mobile-jev)
+   PRIMARY novel.** 307★ MIT HEAD `395fc222beac` README SHA
+   `d257fed2c5f7`. Quote *theirs*: 21 seconds for 9 actions. A completed
+   booking is not demonstrated. droidrun/mobile-jev ≠ Friedjof/jev-mobile.
+5. **[`realZachi/pg-jev`](https://github.com/realZachi/pg-jev)
+   PRIMARY novel.** 269★ HEAD `afd11fa856d7` README SHA `e8735928b57d`.
+   Quote *theirs*: ask your Postgres tables questions in plain language.
+   giuliosmall/pg_typesafe ≠ realZachi/pg-jev.
+6. **[`kitze/skillbox`](https://github.com/kitze/skillbox) /
+   [`itsmostafa/typesafe-mcp`](https://github.com/itsmostafa/typesafe-mcp) /
+   [`kitze/unclutter`](https://github.com/kitze/unclutter) /
+   [`standardagents/jevpilot`](https://github.com/standardagents/jevpilot).**
+   skillbox 220★ MIT HEAD `cda64ad3310a` README SHA `dedcb6be3c39`.
+   Quote *theirs*: Self-hosted, versioned skills library. optional Jev
+   recommendations. catalog ≠ endorsement.
+   typesafe-mcp 181★ MIT HEAD `d4c110c7edd8` README SHA `2bd68aff4299`.
+   Quote *theirs*: typed decisions instead of free text. does not execute.
+   itsmostafa/typesafe-mcp ≠ cyrusasco/typesafe-mcp ≠ burnigtm/jev-mcp.
+   unclutter 157★ MIT HEAD `9ef9beccc1e5` README SHA `5ad63c67fd02`.
+   Quote *theirs*: Jev-powered page clutter removal.
+   jevpilot 147★ HEAD `e1beeb13b9a9` README SHA `ec386a81e12c`.
+   Quote *theirs*: A playable Three.js driving simulator. game success
+   ≠ calibrated Noul.
+7. **REVISIT densify AbdelStark / jev-bench / metask / ENEM first card.**
+   [`AbdelStark/awesome-typesafe-jev`](https://github.com/AbdelStark/awesome-typesafe-jev)
+   densify 417★ MIT HEAD `d6ea2a0d6cf4` README SHA `234ae59a0b16` was
+   `a6a68b57888a` / `e47993484e3a` github_id 1374058281. Quote *theirs*:
+   The field guide to typed decisions. Independent community project.
+   densify §141 not a sibling first sighting. SHA move is not a replica.
+   AbdelStark/awesome-typesafe-jev IS AbdelStark/awesome-typesafe
+   (same GitHub id 1374058281).
+   hf:Praveenrajus/jev-bench HTTP 401 was 200. densify §107/§125 remainder.
+   Do not invent card content. *theirs* not Harbor.
+   hf:wayfind/metask-jev-4b-policy-mix densify sha `5ecdd272ab4a` README
+   SHA `c534ee82b141`. densify §134 not a sibling first sighting.
+   wayfind/metask-jev-4b-policy-mix ≠ metask-ai/metask-jev.
+   [`patryckalves/jev-no-enem`](https://github.com/patryckalves/jev-no-enem)
+   HEAD `7f85f787e3d1` README SHA `237b308df062`. Quote *theirs*: ENEM 2025
+   Caderno Azul. 56.6% (103/182). ECE 0.078. ENEM 2025 *theirs* not Harbor.
+8. **Namesakes / skip-thin / remainder.**
+   Ying-Kai-Liao/jev-browser ≠ wy-coliney/jev-browser-use.
+   w3cj/jev-chat ≠ Manta-Boardgame/jev-chat.
+   snellingio/system-one ≠ sgoedecke/system-one ≠ Luke458/system-one ≠
+   developerekene/System-One.
+   stoleas/typesafe-computer-use ≠ awlevin/typesafe-computer-use.
+   holotwist/laya ≠ NandhaKishorM/laya.
+   RafalWilinski/vibecheck ≠ psyb0t/vibecheck.
+   dannote/jev ≠ okooo5km/jev ≠ sebastianbugal/jev.
+   skip-thin: developerekene/System-One holotwist/laya wuzhiping/jev-laya
+   empty SHA.
+   hf:s1lv3rj1nx/openjev-healthcare-router HTTP 401 *theirs*.
+   hf:s1lv3rj1nx/openjev-heldout HTTP 401 *theirs*.
+   hf:s1lv3rj1nx/openjev-mixture HTTP 401 *theirs*.
+   Named remainder (substance, not a dump wall):
+   [`compozy/yoshi`](https://github.com/compozy/yoshi)
+   21★ MIT HEAD `55c719718e50` README SHA `0f6bb18aeb43`. Quote *theirs*:
+   local context-pruning proxy. Jev judges new context once.
+   [`jomatsu/pi-jev-auto-mode`](https://github.com/jomatsu/pi-jev-auto-mode)
+   20★ MIT HEAD `06a560430881` README SHA `e89c769a4b76`. Quote *theirs*:
+   fails closed. routing ≠ permission.
+   [`sorrycc/typesafe-snake`](https://github.com/sorrycc/typesafe-snake)
+   20★ HEAD `8bf3f7c261ad` README SHA `d103baeb912d`. Quote *theirs*:
+   Code generates the legal moves. game success ≠ calibrated Noul.
+   [`rhighs/jev-code`](https://github.com/rhighs/jev-code)
+   19★ HEAD `2a915a266957` README SHA `6923cb1997b0`. Quote *theirs*:
+   Jev only picks one option. does not execute.
+   [`smkrv/jev-calibrate`](https://github.com/smkrv/jev-calibrate)
+   31★ MIT HEAD `28bc62065b95` README SHA `43933d67fcbb`. Quote *theirs*:
+   Calibrate Jev questions against your own labels. Unofficial.
+   [`iammrduncan/typesafe-ai-benchmark`](https://github.com/iammrduncan/typesafe-ai-benchmark)
+   33★ MIT HEAD `cf348cd291bb` README SHA `307e389ac96a`. Quote *theirs*:
+   LLM Gateway that mimics typesafe ai structured output. wire-compat ≠
+   logit-equiv. *theirs* not Harbor.
+   [`SAGAR-TAMANG/sarvam-jev`](https://github.com/SAGAR-TAMANG/sarvam-jev)
+   42★ HEAD `b0b9babe50ef` README SHA `a8ed70819d61`. Quote *theirs*:
+   Generation-free typed decisions on Indic LLMs. Softmax over options ≠
+   calibrated Noul.
+   [`GhalebDweikat/winnow`](https://github.com/GhalebDweikat/winnow)
+   38★ MIT HEAD `51d80b945c74` README SHA `0ebe29d9bc0c`. Quote *theirs*:
+   A calibrated context sieve. cutoff still soft.
+   [`IAmUnbounded/save-token-jev-clean`](https://github.com/IAmUnbounded/save-token-jev-clean)
+   62★ MIT HEAD `a7007354a8d3` README SHA `06e6075b2ed1`. catalog ≠ endorsement.
+   [`pithings/advocaat`](https://github.com/pithings/advocaat)
+   88★ MIT HEAD `bc46287fc110` README SHA `0b2735870693`. Quote *theirs*:
+   type-safe client for asking AI questions about your data.
+   [`mrnugget/jev-shell-history`](https://github.com/mrnugget/jev-shell-history)
+   85★ HEAD `4b2b75d26c0c` README SHA `7e6ea24738df`. Quote *theirs*:
+   Fish-style zsh history autosuggestions ranked by Jev.
+   [`giuliosmall/pg_typesafe`](https://github.com/giuliosmall/pg_typesafe)
+   81★ MIT HEAD `2530df994731` README SHA `8fdcb1b90e6a`. Quote *theirs*:
+   Pre-alpha. Not affiliated with TypeSafe AI.
+   [`trungdq88/youtube-sponsor-detection`](https://github.com/trungdq88/youtube-sponsor-detection)
+   81★ HEAD `de01f0568d04` README SHA `095eed873cf2`. Quote *theirs*:
+   Detect youtube sponsor segment. *theirs* not Harbor.
+   [`w3cj/jev-chat`](https://github.com/w3cj/jev-chat)
+   74★ MIT HEAD `e543aba8c21b` README SHA `07cf330ded5b`. Quote *theirs*:
+   without an LLM writing anything. the assistant cannot invent a fact.
+   [`Ying-Kai-Liao/jev-browser`](https://github.com/Ying-Kai-Liao/jev-browser)
+   64★ MIT HEAD `578cff6e701a` README SHA `9576a4bef9e9`. Quote *theirs*:
+   an LLM plans and Jev decides. Unofficial.
+   [`realZachi/typesafe-adblock`](https://github.com/realZachi/typesafe-adblock)
+   64★ MIT HEAD `7e067d243d87` README SHA `e3d24b532806`. Quote *theirs*:
+   not a real ad blocker.
+   [`snellingio/system-one`](https://github.com/snellingio/system-one)
+   40★ MIT HEAD `8ca10fd7dda8` README SHA `e7ec3b80662e`. Quote *theirs*:
+   System One Lite. replica ≠ TypeSafe.
+   [`pythongiant/laya-drift`](https://github.com/pythongiant/laya-drift)
+   4★ HEAD `fc94b71cf7dd` README SHA `55ef2343ee5d`. drift calculator.
+   serving substrate ≠ calibrated replica.
+   [`seanthomasevans/typesafe-nes`](https://github.com/seanthomasevans/typesafe-nes)
+   0★ MIT HEAD `cb9e249df1ef` README SHA `51595aeb8be8`. Quote *theirs*:
+   Jev plays Super Mario Bros, Contra, and Mega Man. game success ≠
+   calibrated Noul.
+   [`stoleas/typesafe-computer-use`](https://github.com/stoleas/typesafe-computer-use)
+   0★ MIT HEAD `3de69e8450f3` README SHA `870c579ba28a`. Quote *theirs*:
+   dry-run by default. does not execute.
+   [`FelineStateMachine/typesafe-go`](https://github.com/FelineStateMachine/typesafe-go)
+   0★ MIT HEAD `224e331036fb` README SHA `5ed2f266173e`. Go SDK namesake.
+   stacklok/typesafe-go ≠ kisshan13/typesafe-ai-go.
+   catalog ≠ endorsement. game success ≠ calibrated Noul. does not execute.
+   routing ≠ permission. *theirs* not Harbor.
+
+### Pulse (live REST this hour)
+
+Archer still promised_not_landed. Hub archerhume/4rcherhume HTTP **401**.
+Jev-cu **524★**. tax-doc-classifier **322★**. typesafe-mario **319★**.
+mobile-jev **307★**. pg-jev **269★**. skillbox **220★**. typesafe-mcp **181★**.
+awesome-typesafe-jev **417★**. `invented_signal: false`.
+
+### Formal compose + anti-patterns
+
+Formal methods **compose** with scoring. A Noul is a SENSOR. Text-only
+CU is a candidate list, not pixels. A tax corpus rate is *theirs*. A
+Mario win is not a Noul. A 21-second demo is not a booking. Treating
+100% of a corpus as Harbor, screenshots as this CU loop, game success
+as calibrated Noul, a completed booking as demonstrated, a catalog as
+endorsement, or a SHA move as a replica is soundness theater.
+game success ≠ calibrated Noul. does not execute. routing ≠ permission.
+catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica.
+
+### Adversarial review + testing hooks (Basit standing
+order)
+
+Parent merge only after **CLEAN** adversarial review **AND** testing.
+Hooks for the reviewer:
+
+- Uniqueness-gate: the consecutive `Hourly 0707 uniqueness lock:`
+  string must appear in every overlay listed below. Prior walls 0843 /
+  0915 / jcr / 0922 / 0940 / 0947 / 1049 / 1143 / 1248 / 1340 / 1441 /
+  1542 / 1643 / 1746 / 1843 / 1936 / Open-Jev densify / 1946 / 2049 /
+  2146 / 2246 / 2347 / 0049 / 0151 / 0248 / 0348 / 0445 / 0551 stay one
+  substring each (do not mutate them; do not reopen #23–#65).
+- Namesake locks: droidrun/mobile-jev ≠ Friedjof/jev-mobile;
+  giuliosmall/pg_typesafe ≠ realZachi/pg-jev;
+  itsmostafa/typesafe-mcp ≠ cyrusasco/typesafe-mcp ≠ burnigtm/jev-mcp;
+  Ying-Kai-Liao/jev-browser ≠ wy-coliney/jev-browser-use;
+  w3cj/jev-chat ≠ Manta-Boardgame/jev-chat;
+  snellingio/system-one ≠ sgoedecke/system-one ≠ Luke458/system-one ≠
+  developerekene/System-One;
+  stoleas/typesafe-computer-use ≠ awlevin/typesafe-computer-use;
+  holotwist/laya ≠ NandhaKishorM/laya;
+  RafalWilinski/vibecheck ≠ psyb0t/vibecheck;
+  dannote/jev ≠ okooo5km/jev ≠ sebastianbugal/jev;
+  wayfind/metask-jev-4b-policy-mix ≠ metask-ai/metask-jev;
+  AbdelStark/awesome-typesafe-jev IS AbdelStark/awesome-typesafe
+  (same GitHub id 1374058281).
+- Densify vs new: AbdelStark/awesome-typesafe-jev densify §141;
+  hf:Praveenrajus/jev-bench densify §107/§125 remainder;
+  hf:wayfind/metask-jev-4b-policy-mix densify §134.
+  Do not mint sibling first-sighting sections for those three.
+  First-party 0551 SHA bumps are not densify REVISIT.
+- Harbor-jevals: 100% of corpus / TaxCalcBench 0 strict errors /
+  blank IRS 5.05% / 21 seconds for 9 actions / ENEM 56.6% / ECE 0.078
+  stay *theirs*, not Harbor.
+- Anti-patterns to refuse: TypeSafe drop-in; catalog as endorsement;
+  text-only CU as screenshots; 100% of corpus as Harbor; Mario as Noul;
+  completed booking as demonstrated; SHA move as a replica; key-farming
+  how-tos; copying keys / `npm` / `pip` / `uv` / `docker`.
+- Overlay set: SKILL.md body (protocol fragments + class-table densify
+  + Hourly 0707), mental-models Apply 0707, composition-algebra items
+  681–696, faq, mixed-architecture, validation, toolbox-mapping,
+  methods-catalog, formal-methods, formal-semi-formal,
+  applied-mappings, judgment-class, question-design,
+  agent-self-assessment, mappings, CHANGELOG, README, docs/ecosystem,
+  findings batch #124, refresh-log, changelog-hourly.md,
+  revisit_fingerprints.json (AbdelStark densify §141, jev-bench densify
+  §107/§125, metask densify §134, jev-no-enem first card).
+- Offline check: `evaluate_decisions.py --self-test` (now includes
+  text-only CU is not screenshots / 100% of corpus is not Harbor /
+  Mario game success is not Noul / completed booking is not demonstrated /
+  ENEM bench is not Harbor) and
+  `uniqueness_gate.py` (0843 + 0915 + jcr / 0922 / 0940 / 0947 /
+  1049 / 1143 / 1248 / 1340 / 1441 / 1542 / 1643 / 1746 / 1843 / 1936 /
+  Open-Jev densify / 1946 / 2049 / 2146 / 2246 / 2347 / 0049 / 0151 /
+  0248 / 0348 / 0445 / 0551 / 0707).
+  No live Jev key. No wrappers.
+
+**Hourly 0707 HIGH (`notes.md` §142).** Jev-cu text-only CU. 只传文字，不传截图. tax-doc 100% of corpus *theirs* not Harbor. The model does not receive screenshots. A completed booking is not demonstrated. The field guide to typed decisions. densify §141 not a sibling first sighting. ENEM 2025 *theirs* not Harbor. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#65. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.

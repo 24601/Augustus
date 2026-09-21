@@ -1,0 +1,202 @@
+[
+  {
+    "id": "hf:apus-ailab/APUS-OpenJev-v1",
+    "kind": "novel",
+    "source": "hf",
+    "http": 200,
+    "sha": "c8a31769918d34e4142b9338b231a7bef59de3f3",
+    "sha12": "c8a31769918d",
+    "likes": 1,
+    "error": null,
+    "readme_sha12": "47b45662d335",
+    "pushed_at": "2026-09-21T13:18:56.000Z",
+    "cardData": {
+      "license": null,
+      "tags": [
+        "decision-model",
+        "dynamic-depth",
+        "structured-output"
+      ]
+    },
+    "readme_http": 200,
+    "readme_sha256": "47b45662d3356a3324062b84cb6bd381621865241744cbe9ff0c0928fb8f948d",
+    "readme_empty": false
+  },
+  {
+    "id": "hf:akhilaaa3/openjev-qwen3.5-4b-24k-r256-merged",
+    "kind": "novel",
+    "source": "hf",
+    "http": 200,
+    "sha": "33357ce28a87a3c3b27f03d211ec0f8861130bfa",
+    "sha12": "33357ce28a87",
+    "likes": 0,
+    "error": null,
+    "readme_sha12": "d3fc6c8db1b2",
+    "pushed_at": "2026-09-21T12:36:13.000Z",
+    "cardData": {
+      "license": "apache-2.0",
+      "tags": [
+        "classification",
+        "lora"
+      ]
+    },
+    "readme_http": 200,
+    "readme_sha256": "d3fc6c8db1b2937c913cab7b1fb26779f92550b769704958e8d2a4cf16486cab",
+    "readme_empty": false
+  },
+  {
+    "id": "hf:alfred361/laya-multilingual-typed-decisions",
+    "kind": "novel",
+    "source": "hf",
+    "http": 200,
+    "sha": "60ce5be491a7723df937b757e43b254a08898f8e",
+    "sha12": "60ce5be491a7",
+    "likes": 0,
+    "error": null,
+    "readme_sha12": "22d80e889423",
+    "pushed_at": "2026-09-21T12:52:51.000Z",
+    "cardData": {
+      "license": "apache-2.0",
+      "tags": [
+        "laya",
+        "system-one",
+        "typed-decisions",
+        "calibrated-decisions",
+        "multilingual"
+      ]
+    },
+    "readme_http": 200,
+    "readme_sha256": "22d80e889423cf3a2d955b6a953e828ba3e71897a8c65420d9cfade56f84f4ce",
+    "readme_empty": false
+  },
+  {
+    "id": "hf:s1lv3rj1nx/openjev-heldout",
+    "kind": "novel",
+    "source": "hf",
+    "http": 401,
+    "sha": null,
+    "sha12": null,
+    "likes": null,
+    "error": "{\"error\":\"Invalid username or password.\"}",
+    "readme_sha12": null
+  },
+  {
+    "id": "hf:s1lv3rj1nx/openjev-mixture",
+    "kind": "novel",
+    "source": "hf",
+    "http": 401,
+    "sha": null,
+    "sha12": null,
+    "likes": null,
+    "error": "{\"error\":\"Invalid username or password.\"}",
+    "readme_sha12": null
+  },
+  {
+    "id": "hf:s1lv3rj1nx/openjev-healthcare-router",
+    "kind": "novel",
+    "source": "hf",
+    "http": 401,
+    "sha": null,
+    "sha12": null,
+    "likes": null,
+    "error": "{\"error\":\"Invalid username or password.\"}",
+    "readme_sha12": null
+  },
+  {
+    "id": "hf:Praveenrajus/jev-bench",
+    "kind": "revisit",
+    "source": "hf",
+    "http": 401,
+    "sha": null,
+    "sha12": null,
+    "likes": null,
+    "error": "{\"error\":\"Invalid username or password.\"}",
+    "readme_sha12": null
+  },
+  {
+    "id": "hf:binoykunhi/laya-typed-decisions-endpoint",
+    "kind": "novel",
+    "source": "hf",
+    "http": 200,
+    "sha": "fbefb2d175df7314582b29c4e3168c5a1c5f0b7e",
+    "sha12": "fbefb2d175df",
+    "likes": 0,
+    "error": null,
+    "readme_sha12": "59e2d2cf0203",
+    "pushed_at": "2026-09-21T12:33:04.000Z",
+    "cardData": {
+      "license": "apache-2.0",
+      "tags": [
+        "laya",
+        "system-one",
+        "calibrated-decisions",
+        "rlcd",
+        "typed-decisions",
+        "classification",
+        "agent-observability",
+        "invoice-processing",
+        "security-incidents",
+        "customer-service",
+        "commercial-use"
+      ]
+    },
+    "readme_http": 200,
+    "readme_sha256": "59e2d2cf0203fb309d31ca6f51c4c6ab758fa32cecd82cfcd3ce20425edea7b6",
+    "readme_empty": false
+  },
+  {
+    "id": "hf:s1lv3rj1nx/openjev-router-lora",
+    "kind": "novel",
+    "source": "hf",
+    "http": 200,
+    "sha": "b95ff3c75c2d6bea4019487f929e6bb2627933e9",
+    "sha12": "b95ff3c75c2d",
+    "likes": 0,
+    "error": null,
+    "readme_sha12": "7c6c3eab52a8",
+    "pushed_at": "2026-09-21T13:03:46.000Z",
+    "cardData": {
+      "license": "apache-2.0",
+      "tags": [
+        "typed-decisions",
+        "routing",
+        "guardrails",
+        "lora",
+        "peft",
+        "openjev"
+      ]
+    },
+    "readme_http": 200,
+    "readme_sha256": "7c6c3eab52a87cf92880884726bdc8e069d68a86ae1b22247966dcd09ce84614",
+    "readme_empty": false
+  },
+  {
+    "id": "hf:wayfind/metask-jev-4b-policy-mix",
+    "kind": "revisit",
+    "source": "hf",
+    "http": 200,
+    "sha": "5ecdd272ab4acb7ffdaf61759606c7f4d3df7bf4",
+    "sha12": "5ecdd272ab4a",
+    "likes": 0,
+    "error": null,
+    "readme_sha12": "c534ee82b141",
+    "pushed_at": "2026-09-21T12:26:14.000Z",
+    "cardData": {
+      "license": "apache-2.0",
+      "tags": [
+        "typed-decisions",
+        "calibrated-classification",
+        "system-one",
+        "classification",
+        "structured-prediction",
+        "candidate-logit",
+        "jev",
+        "single-forward-pass",
+        "commercial-use"
+      ]
+    },
+    "readme_http": 200,
+    "readme_sha256": "c534ee82b141d4bdbc1d2389bfb38faa8db5ddd667f48f4690917dbd5f67c758",
+    "readme_empty": false
+  }
+]

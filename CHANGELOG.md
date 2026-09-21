@@ -16,6 +16,45 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 0707 HIGH (`research/notes.md` §142 / composition items
+681–696 / findings batch #124). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#65.
+Do not amend released 0.5.0 (#42). Merged #65 owns §141. Merged #64
+owns §140. Merged #63 owns §139.
+
+### Added
+
+- **Hourly 0707 HIGH (`notes.md` §142).** Jev-cu text-only CU.
+  只传文字，不传截图. Text only no screenshots. tax-doc 100% of our tax
+  document corpus at $0.001 per page. TaxCalcBench 0 strict errors
+  *theirs*. blank IRS 38 strict errors 5.05% *theirs*. 100% of corpus
+  *theirs* not Harbor. The model does not receive screenshots. game
+  success ≠ calibrated Noul. 21 seconds for 9 actions *theirs*. A
+  completed booking is not demonstrated. The field guide to typed
+  decisions. densify §141 not a sibling first sighting.
+  hf:Praveenrajus/jev-bench HTTP 401 was 200. ENEM 2025 *theirs* not
+  Harbor. skip-thin empty SHA.
+  Evaluator: text-only CU is not screenshots / 100% of corpus is not
+  Harbor / Mario game success is not Noul / completed booking is not
+  demonstrated / ENEM bench is not Harbor.
+  uniqueness_gate.py now checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 +
+  1049 + 1143 + 1248 + 1340 + 1441 + 1542 + 1643 + 1746 + 1843 + 1936 +
+  Open-Jev densify + 1946 + 2049 + 2146 + 2246 + 2347 + 0049 + 0151 +
+  0248 + 0348 + 0445 + 0551 + 0707.
+  Composition items 681–696 / batch #124.
+  **HARD RULE:** do not reopen or amend PR #23–#65. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat text-only CU
+  as screenshots, 100% of a tax corpus as Harbor, or a Mario win as a
+  Noul. With Augustus: Text only no screenshots; 100% of corpus *theirs*
+  not Harbor; game success ≠ calibrated Noul; A completed booking is not
+  demonstrated; densify §141 not a sibling first sighting; *theirs* not
+  Harbor.
+
+
 Hourly 0551 HIGH (`research/notes.md` §141 / composition items
 665–680 / findings batch #123). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in
