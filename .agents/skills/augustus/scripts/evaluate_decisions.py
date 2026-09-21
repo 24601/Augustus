@@ -723,6 +723,43 @@ def pypi_packaging_is_not_calibrated_noul(kind, calibrated=False):
 
 
 
+
+
+def jevbench_public_subset_is_not_harbor(n, harbor=False):
+    """public-subset ≠ Harbor. 231 public tasks."""
+    if n != 231:
+        raise ValueError("unexpected n")
+    return harbor is False
+
+
+def full_534_not_claimed(public_n, full_n, claimed_full=False):
+    """231 ≠ 534. do not report full-534."""
+    if (public_n, full_n) != (231, 534):
+        raise ValueError("unexpected pair")
+    return claimed_full is False
+
+
+def mmlu_pro_0550_is_theirs(score, harbor=False):
+    """Kev Qwen3.6-35B-A3B MMLU-Pro 0.550 *theirs*."""
+    if score != 0.550:
+        raise ValueError("unexpected score")
+    return harbor is False
+
+
+def evaluate_load_bf16_honour(weights_dtype, merged=False):
+    """evaluate.load honour weights_dtype=bf16 (bf16 backbone, adapter unmerged)."""
+    if weights_dtype != "bf16":
+        raise ValueError("unexpected dtype")
+    return merged is False
+
+
+def five_to_ten_x_is_not_harbor(kind, harbor=False):
+    """5-10× *theirs* not Harbor."""
+    if kind != "browser_ops_speedup":
+        raise ValueError("unexpected kind")
+    return harbor is False
+
+
 def mlx_text_gen_is_not_calibrated_noul(kind, calibrated=False):
     """MLX backend steps>1/think/text gen + image Qs. serving port ≠ replica."""
     if kind != "mlx_text_gen":
@@ -1102,6 +1139,23 @@ def self_test():
     assert theirs_bench_is_not_harbor(746, "wanli-256-74.6")
     assert theirs_bench_is_not_harbor(958, "ockev-tomatoegg-95.8")
     assert theirs_bench_is_not_harbor(0, "jevtok-0-mismatches")
+
+
+    # 0049: JevBench public-subset ≠ Harbor / 231 ≠ 534 / MMLU-Pro 0.550
+    # *theirs* / evaluate.load bf16 honour / 5-10× is not Harbor.
+    assert jevbench_public_subset_is_not_harbor(231, False)
+    assert not jevbench_public_subset_is_not_harbor(231, True)
+    assert full_534_not_claimed(231, 534, False)
+    assert not full_534_not_claimed(231, 534, True)
+    assert mmlu_pro_0550_is_theirs(0.550, False)
+    assert not mmlu_pro_0550_is_theirs(0.550, True)
+    assert evaluate_load_bf16_honour("bf16", False)
+    assert not evaluate_load_bf16_honour("bf16", True)
+    assert five_to_ten_x_is_not_harbor("browser_ops_speedup", False)
+    assert not five_to_ten_x_is_not_harbor("browser_ops_speedup", True)
+    assert theirs_bench_is_not_harbor(550, "kev-35b-mmlu-pro-0.550")
+    assert theirs_bench_is_not_harbor(644, "system-one-gemma-64.4")
+    assert theirs_bench_is_not_harbor(8658, "jevbench-public-jev-86.58")
 
     print("self-test ok")
 

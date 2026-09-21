@@ -16,6 +16,42 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 0049 HIGH (`research/notes.md` §136 / composition items
+585–600 / findings batch #118). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#59.
+Do not amend released 0.5.0 (#42). Merged #59 owns §135. Merged #58
+owns §134. Merged #57 owns §133. Merged #56 owns §132.
+
+### Added
+
+- **Hourly 0049 HIGH (`notes.md` §136).** Open-Jev JevBench public-subset
+  densify HEAD f46ff604f794 / README SHA e32c4bbd519c. public-subset ≠
+  Harbor. 231 ≠ 534. kev 35B densify HEAD e0bcf50153f1 / README SHA
+  unchanged. PLAN correct 35B MMLU-Pro (0.550). evaluate.load honour
+  weights_dtype=bf16. wy-coliney/jev-browser-use 282★ 5-10× *theirs*
+  not Harbor. gargpratyush/jev-router fail-open routing ≠ permission.
+  BillionsBobby/JevRouter 38% 44% vs 24% *theirs* not Harbor. ordered
+  routing ≠ end-to-end. daseinlabs/open-jev softmax next-token ≠
+  calibrated Noul. potential_match ≠ hiring decision. AntonioCoppe/jev-harness
+  already carded. skip-thin empty SHA.
+  Evaluator: JevBench public-subset ≠ Harbor / 231 ≠ 534 / MMLU-Pro 0.550
+  *theirs* / evaluate.load bf16 honour / 5-10× is not Harbor.
+  uniqueness_gate.py now checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 +
+  1049 + 1143 + 1248 + 1340 + 1441 + 1542 + 1643 + 1746 + 1843 + 1936 +
+  Open-Jev densify + 1946 + 2049 + 2146 + 2246 + 2347 + 0049.
+  Composition items 585–600 / batch #118.
+  **HARD RULE:** do not reopen or amend PR #23–#59. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat 231 as the
+  full 534, 0.550 as Harbor, 5-10× as a replica, or fail-open routing as
+  a grant. With Augustus: public-subset ≠ Harbor; 231 ≠ 534; evaluate.load
+  honour bf16; 5-10× *theirs* not Harbor; routing ≠ permission;
+  softmax next-token ≠ calibrated Noul; *theirs* not Harbor.
+  Same split for any Choice/Score/Noul-style head, not only hosted Jev.
+
 Hourly 2347 HIGH (`research/notes.md` §135 / composition items
 569–584 / findings batch #117). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in
