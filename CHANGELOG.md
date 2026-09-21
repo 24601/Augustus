@@ -16,6 +16,50 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+Hourly 1019 HIGH (`research/notes.md` §145 / composition items
+729–744 / findings batch #127). Does **not** bump the 0.5.0 pin.
+Uniqueness dumps live in
+[`research/changelog-hourly.md`](research/changelog-hourly.md).
+Do not reopen or amend PR #23–#69.
+Do not amend released 0.5.0 (#42). Merged #69 owns §144. Merged #68
+owns the framing lock. Merged #67 owns §143.
+
+### Added
+
+- **Hourly 1019 HIGH (`notes.md` §145).** praneeth16 GEPA ADE Corpus V2.
+  schema-valid is not the same as correct. API confidence is not
+  P(correct). GEPA revises Choice instructions/criteria with weights
+  fixed. jev-1.13.0 weights fixed. Brier 0.1357→0.0747 *theirs*.
+  F1 69.1%→79.7% *theirs*. FN 4→6. review-queue policy is not F1.
+  Soft is not gate. Not an 18th scoring-table species.
+  Every claim is labeled and sourced. catalog ≠ endorsement.
+  发送永远手动. About 180 ms. routing ≠ permission. $0.00241 *theirs*.
+  Not a screenshot agent. game success ≠ calibrated Noul.
+  pi-follow-through threshold 0.8 still soft. wire-compat ≠ logit-equiv.
+  densify §144 not a sibling first sighting. pi-jev-context densify §134
+  not a sibling first sighting.
+  Evaluator: schema-valid ≠ correct / confidence ≠ P(correct) /
+  review-queue ≠ F1 / Soft is not gate / not an 18th scoring-table
+  species.
+  uniqueness_gate.py now checks 0843 + 0915 + jcr + 0922 + 0940 + 0947 +
+  1049 + 1143 + 1248 + 1340 + 1441 + 1542 + 1643 + 1746 + 1843 + 1936 +
+  Open-Jev densify + 1946 + 2049 + 2146 + 2246 + 2347 + 0049 + 0151 +
+  0248 + 0348 + 0445 + 0551 + 0707 + 0823 + 0923 + 1019.
+  Composition items 729–744 / batch #127.
+  **HARD RULE:** do not reopen or amend PR #23–#69. Does **not** bump
+  0.5.0.
+
+- **Recipe (class, not Jev-only).** Without Augustus: treat schema-valid
+  Choice as correct, API confidence as P(correct), or F1 as a
+  review-queue policy. With Augustus: schema-valid is not the same as
+  correct; API confidence is not P(correct); GEPA revises Choice
+  instructions/criteria with weights fixed; Brier/F1 *theirs*;
+  review-queue policy is not F1; Soft is not gate; Not an 18th
+  scoring-table species.
+
+
+
+
 Hourly 0923 HIGH (`research/notes.md` §144 / composition items
 713–728 / findings batch #126). Does **not** bump the 0.5.0 pin.
 Uniqueness dumps live in

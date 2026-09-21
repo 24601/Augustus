@@ -2,7 +2,7 @@
 """Uniqueness gate for merged 0843 (§114), merged 0915 NanoJev (§115),
 merged 0920 jcr (§116), merged 0922 SemIf (§117), merged 0940
 llm-to-jev (§118), hourly 0947 HIGH (§119), hourly 1049 HIGH (§120),
-hourly 1143 HIGH (§121), hourly 1248 HIGH (§123), hourly 1340 HIGH (§124), hourly 1441 HIGH (§125), hourly 1542 HIGH (§126), hourly 1643 HIGH (§127), hourly 1746 HIGH (§128), hourly 1843 HIGH (§129), user-provided 1936 HIGH (§130), Open-Jev densify (§125), hourly 1946 HIGH (§131), hourly 2049 HIGH (§132), hourly 2146 HIGH (§133), hourly 2246 HIGH (§134), hourly 2347 HIGH (§135), hourly 0049 HIGH (§136), hourly 0151 HIGH (§137), hourly 0248 HIGH (§138), hourly 0348 HIGH (§139), and hourly 0445 HIGH (§140), and hourly 0551 HIGH (§141), and hourly 0707 HIGH (§142), and hourly 0823 HIGH (§143), and hourly 0923 HIGH (§144).
+hourly 1143 HIGH (§121), hourly 1248 HIGH (§123), hourly 1340 HIGH (§124), hourly 1441 HIGH (§125), hourly 1542 HIGH (§126), hourly 1643 HIGH (§127), hourly 1746 HIGH (§128), hourly 1843 HIGH (§129), user-provided 1936 HIGH (§130), Open-Jev densify (§125), hourly 1946 HIGH (§131), hourly 2049 HIGH (§132), hourly 2146 HIGH (§133), hourly 2246 HIGH (§134), hourly 2347 HIGH (§135), hourly 0049 HIGH (§136), hourly 0151 HIGH (§137), hourly 0248 HIGH (§138), hourly 0348 HIGH (§139), and hourly 0445 HIGH (§140), and hourly 0551 HIGH (§141), and hourly 0707 HIGH (§142), and hourly 0823 HIGH (§143), and hourly 0923 HIGH (§144), and hourly 1019 HIGH (§145).
 
 Each lock must appear as one consecutive substring in every listed overlay.
 Fragments scattered across files do not count.
@@ -11,9 +11,9 @@ Revisit / since-last-look protocol (`notes.md` §122) is a consecutive
 substring in the skill + research files (not a 21-overlay dump wall).
 Hourly must treat revisit HIGH like novel HIGH. Star-noise is not a fold.
 
-Also: YAML-parse SKILL.md frontmatter; notes.md owns §114–§144;
-composition items 289–316, 322–329, 330–336, 337–352, 353–368, 369–384, 385–400, 401–416, 417–432, 433–448, 449–464, 465–480, 481–496, 497–504, 505–520, 521–536, 537–552, 553–568, 569–584, 585–600, 601–616, 617–632, 633–648, 649–664, 665–680, and 681–696, and 697–712, and 713–728 exist;
-findings batches #97–#125 exist. Items 317–321 stay unused.
+Also: YAML-parse SKILL.md frontmatter; notes.md owns §114–§145;
+composition items 289–316, 322–329, 330–336, 337–352, 353–368, 369–384, 385–400, 401–416, 417–432, 433–448, 449–464, 465–480, 481–496, 497–504, 505–520, 521–536, 537–552, 553–568, 569–584, 585–600, 601–616, 617–632, 633–648, 649–664, 665–680, and 681–696, and 697–712, and 713–728, and 729–744 exist;
+findings batches #97–#126 exist. Items 317–321 stay unused.
 The 1843 archive run_digest must claim §129 / 481–496 / #111.
 The 1946 archive run_digest must claim §131 / 505–520 / #113
 (not the 1746 IDs §128 / 465–480 / #110).
@@ -30,6 +30,7 @@ The 0551 archive run_digest must claim §141 / 665–680 / #123.
 The 0707 archive run_digest must claim §142 / 681–696 / #124.
 The 0823 archive run_digest must claim §143 / 697–712 / #125.
 The 0923 archive run_digest must claim §144 / 713–728 / #126.
+The 1019 archive run_digest must claim §145 / 729–744 / #127.
 CHANGELOG.md must not hold uniqueness dump walls (dumps live in
 changelog-hourly.md). README.md is not a uniqueness overlay: the
 human-facing README stops at License and must not hold uniqueness
@@ -247,6 +248,11 @@ UNIQ_0823 = (
 UNIQ_0923 = (
     'Hourly 0923 uniqueness lock: vericle/intellyweave 76★ BSD-3-Clause Py HEAD ff4152ce9d20 README SHA 3afa702012e8; GLiNER OSINT; Locate ≠ decide; genai-craft/openvons 13★ NOASSERTION Py HEAD c2683c4539a7 README SHA 85164d409725; finite choices + none; 4B frozen+head 0.916 vs 27B zs 0.875 *theirs*; 8 questions 22.6 ms *theirs*; softmax ≠ calibrated Noul; whyashthakker/beam-cli 11★ AGPL-3.0 TS HEAD 5162ec66179a README SHA d55847ca5681; AgentBeam local security layer; soft scores ≠ hard gates; atharvamhaske/typesafe-sdk-go 8★ MIT Go HEAD 6ea04182d356 README SHA 8d90abda1f58; unofficial not affiliated; wire-compat ≠ logit-equiv; atharvamhaske/typesafe-sdk-go ≠ kisshan13/typesafe-ai-go ≠ stacklok/typesafe-go ≠ Nibir1/typesafe-go ≠ peach-zhang/typesafe-go ≠ draganm/go-jev ≠ kataras/jev ≠ robertjndw/gosys1 ≠ Stumble/jev-go; Prophetlab/JevPokerBench 7★ MIT Py HEAD 9c9816688a3c README SHA 0fcd6807b9c3; chips virtual; game success ≠ calibrated Noul; *theirs* not Harbor; tyler-dot-earth/patdown densify 11★ NOASSERTION TS HEAD 8b2b2b591470 README SHA 1052b6da2c25 was ae0e277fdd64 / 275f4b9c; Block/steer/fuzzy lint; judge swappable; default TypeSafe/Jev; provider-neutral; densify §121 not a sibling first sighting; evoke-build/evoke densify 8★ Apache-2.0 Rust HEAD 50c9637ef11f README SHA 72ec0e65c432 was ca8a311743fe / fcce876e2cab; Jev is the first adapter; the design is bound to no engine; densify §139 not a sibling first sighting; lukstei/slop-grader 5★ MIT TS HEAD b60332684ff8 README SHA bbc1604754d3; Runs every rule against every line in parallel. No skimming; sumleo/prompt2jev densify 2★ MIT Py HEAD f3b6bc763b74 README SHA 3d58e8c10075 was bd9cd8a471a6 / afc36885861e; heuristic conversion ≠ calibrated Noul; densify §141 not a sibling first sighting; Andymulb/jev_the_philosopher 0★ MIT TeX HEAD 334e3f9b83e5 README SHA 8db05448b75f; Median 275 ms; trolley 0.99 vs 0.78; 11/11/7 match/differ/undecided of 29 *theirs*; PerryLink/layacore 0★ Apache HEAD 12afe3af5edc README SHA f78b73d21cf7; retired name reservation; the project is now PerryLink/laya-mcp; retired name reservation is not a replica; PerryLink/layacore-mcp HEAD b006cc7c3f87 README SHA 1177f286f3f8; PerryLink/laya-mcp-npm launcher not implementation HEAD 426e965b4c48 README SHA 98ed0d448b09; PerryLink/laya-mcp ≠ wsargent/laya-mcp; DreamBlooms/dohnuts.cpp ≠ PsiACE/dohnuts; ClemensSchartmueller/jev-guard ≠ leepokai/jev-guard ≠ seb4ez/jevguard; AABBAASS1/jev-router ≠ gargpratyush/jev-router ≠ Akashdb5/jev-router ≠ daviddl9/jev-router; wustep/jev-playground ≠ AbnormalPilot/jev-playground ≠ mizchi/jev-playground; Li-Evan/awesome-jev ≠ Omrigotlieb/awesome-jev ≠ youzizzz1028/Awesome-Jev ≠ heyjunpenn/awesome-jev ≠ yibie/awesome-jev; sunchojack/jev-cli ≠ gnapse/jev-cli; Alistair77/openjev ≠ Zefan-Cai/Open-Jev ≠ razorback16/openjev; jev-jarvis/jev-jarvis ≠ eatmoreduck/jev-jarvis; Renwang-Huang/typesafe-mcp ≠ itsmostafa/typesafe-mcp; inematds/laya ≠ convaiinnovations/laya ≠ NandhaKishorM/laya; kataras/jev ≠ okooo5km/jev ≠ sebastianbugal/jev ≠ dannote/jev; ai-ecoverse/kev.js ≠ jaredpalmer/kev; skip-thin gnapse/jev-cli HTTP 404 fr4j4/system-one-arena nothingmn/Jev.Sdk youniszhang/jev-local Vaibhaav-Tiwari/fly-doom-jev fengliner/jev-tank-battle ngouard5/jeveuxaider-design empty SHA; hf:Skylarcc/Laya-Online HTTP 401 *theirs*; hf:piratehack009/laya-cn-flash-triage HTTP 404 *theirs*; catalog ≠ endorsement; game success ≠ calibrated Noul; does not execute; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62/#63/#64/#65/#66/#67; notes.md §144'
 )
+
+UNIQ_1019 = (
+    "Hourly 1019 uniqueness lock: praneeth16/adapting-jev-with-gepa ADE Corpus V2 GEPA; schema-valid is not the same as correct; API confidence is not P(correct); GEPA revises Choice instructions/criteria with weights fixed; jev-1.13.0 weights fixed; Brier 0.1357\u21920.0747 *theirs*; F1 69.1%\u219279.7% *theirs*; FN 4\u21926; review-queue policy is not F1; Soft is not gate; Not an 18th scoring-table species; aliaihub/awesome-jev-usecases 15\u2605 NOASSERTION HEAD 6cbde6bd3569 README SHA 7ea135c6345d; Every claim is labeled and sourced; catalog \u2260 endorsement; aliaihub/awesome-jev-usecases \u2260 anandi1989/awesome-jev-usecases \u2260 whyashthakker/awesome-jev-use-cases; rezoch340/jev-chat-JARVIS-windows 6\u2605 MIT Py HEAD 26b686301437 README SHA 0714736b68c3; \u53d1\u9001\u6c38\u8fdc\u624b\u52a8; rezoch340/jev-chat-JARVIS-windows \u2260 Finderchangchang/jev-chat-JARVIS; iamvatsalpatel/tiershift 3\u2605 MIT TS HEAD 16a0826b9f62 README SHA 46fcb1cb191b; About 180 ms; routing \u2260 permission; Bring-AI/jev-rl 2\u2605 MIT Py HEAD 36f89cec85a2 README SHA 6283da6011b7; $0.00241 *theirs*; daniel4x/JevEmon 2\u2605 GPL-3.0 HEAD 572454c69bf7 README SHA 8fc00d12848d; Not a screenshot agent; game success \u2260 calibrated Noul; spoonnotfound/soupbase 2\u2605 MIT TS HEAD 3e874e83e710 README SHA 3106bc96d6ab; Nabsku/pi-follow-through 1\u2605 MIT TS HEAD c62ef28ff4ac README SHA 64000451b79e; pi-follow-through threshold 0.8 still soft; dashbi1/jev-sim 1\u2605 MIT Py HEAD 753c7397d73c README SHA 05fd960799d2; wire-compat \u2260 logit-equiv; jev-jarvis/jev-jarvis densify 8\u2605 MIT Py HEAD a94e3b967ef5 README SHA e441335b1df0 was be68dd7993f0 / efe7e47a6fe8; densify \u00a7144 not a sibling first sighting; Nyarlathoteppppp/pi-jev-context densify 5\u2605 MIT TS HEAD 96371e2bf144 README SHA d4276222a436 was f0128a86478f; pi-jev-context densify \u00a7134 not a sibling first sighting; Nyarlathoteppppp/pi-jev-context \u2260 kevinpita/pi-jev-context; fly88oj/jebii 0\u2605 MIT JS HEAD 5cbe527ed791 README SHA b4a76b8aba9d; generallymatthew/factlabel 0\u2605 Apache-2.0 Py HEAD b3d3bceee044 README SHA b1cda6c4646e; aakgna/jevcal \u2260 abhixhek/jevcal; 007M7/jev-chat \u2260 w3cj/jev-chat \u2260 Manta-Boardgame/jev-chat; fstandhartinger/jev-router \u2260 gargpratyush/jev-router; prakash7474/Jev_guard \u2260 leepokai/jev-guard; rdutra/laya-mcp \u2260 PerryLink/laya-mcp \u2260 wsargent/laya-mcp; Kourin1996/jev-playground \u2260 wustep/jev-playground; ai-ecoverse/cua-s1.js Cua-S1 \u2260 TypeSafe; skip-thin Unnati-23/jev-typesafe-guide antoniofaical/digital-twin-classifier-jev leonezhu/agent-kits empty README; skip-thin wjw66/deepseek-harness-jev-pre-compaction ziwon/jev-actor empty SHA HTTP 409; hf:chanoian/openjev-mlx-demo HTTP 401 *theirs*; hf:clduab11/jev-calibration-statistics HTTP 401 *theirs*; hf:yasserrmd/laya-lab HTTP 401 *theirs*; catalog \u2260 endorsement; game success \u2260 calibrated Noul; does not execute; routing \u2260 permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62/#63/#64/#65/#66/#67/#68/#69; notes.md \u00a7145"
+)
+
 
 
 REVISIT_LOCK = (
@@ -485,6 +491,8 @@ def main() -> int:
             failed.append(f"0823 lock missing as one substring: {rel}")
         if UNIQ_0923 not in body:
             failed.append(f"0923 lock missing as one substring: {rel}")
+        if UNIQ_1019 not in body:
+            failed.append(f"1019 lock missing as one substring: {rel}")
         if "meijustory123/OpenJev-Kit ≠ meijustory123/openjev" in body:
             failed.append(
                 "0348 false namesake lock still present "
@@ -537,6 +545,22 @@ def main() -> int:
         failed.append("UNIQ_0923 missing openvons finite-choice lock")
     if "#67" not in UNIQ_0923:
         failed.append("UNIQ_0923 missing HARD RULE #67")
+    if "schema-valid is not the same as correct" not in UNIQ_1019:
+        failed.append("UNIQ_1019 missing schema-valid lock")
+    if "API confidence is not P(correct)" not in UNIQ_1019:
+        failed.append("UNIQ_1019 missing confidence lock")
+    if "review-queue policy is not F1" not in UNIQ_1019:
+        failed.append("UNIQ_1019 missing review-queue lock")
+    if "Not an 18th scoring-table species" not in UNIQ_1019:
+        failed.append("UNIQ_1019 missing 18th scoring-table lock")
+    if "densify §144 not a sibling first sighting" not in UNIQ_1019:
+        failed.append("UNIQ_1019 missing jev-jarvis densify §144 lock")
+    if "pi-jev-context densify §134 not a sibling first sighting" not in UNIQ_1019:
+        failed.append("UNIQ_1019 missing pi-jev-context densify lock")
+    if "#68" not in UNIQ_1019:
+        failed.append("UNIQ_1019 missing HARD RULE #68")
+    if "#69" not in UNIQ_1019:
+        failed.append("UNIQ_1019 missing HARD RULE #69")
     for rel in REVISIT_OVERLAYS:
         path = ROOT / rel
         if not path.is_file():
@@ -608,6 +632,8 @@ def main() -> int:
         failed.append("notes.md missing §143 heading")
     if "## 144. Hourly 0923 HIGH" not in notes:
         failed.append("notes.md missing §144 heading")
+    if "## 145. Hourly 1019 HIGH" not in notes:
+        failed.append("notes.md missing §145 heading")
 
     notes140 = notes[notes.find("## 140. Hourly 0445 HIGH"):]
     for remainder_id in (
@@ -762,10 +788,134 @@ def main() -> int:
     ):
         if remainder_id not in notes144:
             failed.append(f"notes.md §144 missing remainder card {remainder_id}")
+    notes145 = notes[notes.find("## 145. Hourly 1019 HIGH"):]
+    for remainder_id in (
+        'praneeth16/adapting-jev-with-gepa',
+        'aliaihub/awesome-jev-usecases',
+        'rezoch340/jev-chat-JARVIS-windows',
+        'iamvatsalpatel/tiershift',
+        'Bring-AI/jev-rl',
+        'daniel4x/JevEmon',
+        'spoonnotfound/soupbase',
+        'Nabsku/pi-follow-through',
+        'dashbi1/jev-sim',
+        'newuser7171/jev-gamepilot',
+        'sungatetop/Jev-robot',
+        '007M7/jev-chat',
+        'Adkid-Zephyr/chinese-workflow-decision-bench',
+        'Ahmadnmic/autocorrecter',
+        'Anmol-Srv/jev-video-search',
+        'Anson-gzy/jev-paste',
+        'AnyEvalOrg/eval-jevbench',
+        'AravDharnikota/apush-debate-jev',
+        'BrunoAccorsi/reflex-lab',
+        'DanielTea/screenquest',
+        'DeadPackets/UnitedStatesOfJev',
+        'F0Rextasy/omp-marketplace',
+        'FavianDT/layanan-fakultas-v1.0',
+        'Kelwing/laya-candle',
+        'Kourin1996/jev-playground',
+        'LuisSleepy/layag-cms-auth',
+        'Madikhan33/jev_codex',
+        'NoNFake/job-classifier-search',
+        'ShiqinGuo/jev4jobhunter',
+        'TakumiNoguchi2004/jev-noul-vs-choice',
+        'TerryAragorn/aliexpress-selection-first-principles',
+        'Unnati-23/jev-typesafe-guide',
+        'Uri-cyber/typesafe-agent',
+        'XMoyas/web_attack_detection_jev',
+        'YiLight0/paperfocus',
+        'Yushenggg/zero-shot-classifier',
+        'aakgna/jevcal',
+        'aaronmeis/learn-jev',
+        'adams100111/typesafe-php',
+        'ai-ecoverse/cua-s1.js',
+        'ak--47/ak-jev',
+        'alexhawat/judge-jev',
+        'alperiox/audio-jevlike',
+        'antoniofaical/digital-twin-classifier-jev',
+        'arnavm-codes/JevFence',
+        'balazsorban44/nvim-jev-plugin',
+        'cappuch/openjev.cpp',
+        'chrismathew3/fast-jev-codex',
+        'colbyford/jev-binder-classification',
+        'cyyeh/laya-demo',
+        'diluteoxygen/JevPalette',
+        'fstandhartinger/decision-desk',
+        'fstandhartinger/jev-router',
+        'gbesse/jev-bluffcall',
+        'gbesse/jev-brandsafety',
+        'gbesse/jev-cardgen',
+        'gbesse/jev-columns',
+        'gbesse/jev-contract-graph',
+        'gbesse/jev-crowdsim',
+        'gbesse/jev-duelarena',
+        'gbesse/jev-exposure-radar',
+        'gbesse/jev-extract',
+        'gbesse/jev-fingerprint',
+        'gbesse/jev-label',
+        'gbesse/jev-meetingpulse',
+        'gbesse/jev-pairs',
+        'gbesse/jev-pii',
+        'gbesse/jev-proxy',
+        'gbesse/jev-regwatch',
+        'gbesse/jev-roast',
+        'gbesse/jev-tar',
+        'gbesse/jev-timemachine',
+        'gbesse/jev-trace',
+        'gbesse/jev-utility',
+        'gexiuzhen-sketch/jev-chinese-console',
+        'gradient30/typesafe-handbook',
+        'heliowap/delegador',
+        'hf:chanoian/openjev-mlx-demo',
+        'hf:clduab11/jev-calibration-statistics',
+        'hf:ldov/openjevv',
+        'hf:litert-community/Laya-Multilingual-LiteRT',
+        'hf:yasserrmd/laya-lab',
+        'instax-dutta/sysone-bench',
+        'jacopopper/jev-red',
+        'leonezhu/agent-kits',
+        'liudejua27-blip/jev-huamn',
+        'louispaulet/jev-playground',
+        'nevzataksoy/jev-trader-bybit',
+        'ojusave/beat-jev',
+        'patelkrish-27/layaApi',
+        'pedro-pscunha/guideme-rust',
+        'prakash7474/Jev_guard',
+        'pstong216/jevnav-demo',
+        'rdutra/laya-mcp',
+        'riku1128-tong/jev_test_action',
+        'roisol144/before-you-send',
+        'royalpinto007/jev-msw',
+        'sk123qaq/hermes-plugin-jev-approval',
+        'slatejack/jev-desktop',
+        'steve8708/jev-browser-benchmark',
+        'taupirho/jev-test',
+        'tfolkman/jev-village',
+        'thehan-co/jevriel',
+        'tinystruct/tinystruct-typesafe-sdk',
+        'tobalo/jev-demo-sample',
+        'turenlabs/jast',
+        'vittoriobrehautduran/decisionmakertest',
+        'who/naming-things',
+        'wjw66/deepseek-harness-jev-pre-compaction',
+        'xiaoMingChina/jevcn',
+        'xygamer179-boop/Veylon-RLCD-Small-Conditional-Model',
+        'yubol-bobo/rlcd-survey',
+        'zchee/typesafe-sdk-rust',
+        'ziwon/jev-actor',
+        'ziwon/jev-iab-explorer',
+        'jev-jarvis/jev-jarvis',
+        'Nyarlathoteppppp/pi-jev-context',
+        'fly88oj/jebii',
+        'generallymatthew/factlabel',
+    ):
+        if remainder_id not in notes145:
+            failed.append(f"notes.md §145 missing remainder card {remainder_id}")
     algebra = (ROOT / ".agents/skills/augustus/references/composition-algebra.md").read_text(
         encoding="utf-8"
     )
-    for n in list(range(289, 317)) + list(range(322, 330)) + list(range(330, 337)) + list(range(337, 353)) + list(range(353, 369)) + list(range(369, 385)) + list(range(385, 401)) + list(range(401, 417)) + list(range(417, 433)) + list(range(433, 449)) + list(range(449, 465)) + list(range(465, 481)) + list(range(481, 497)) + list(range(497, 505)) + list(range(505, 521)) + list(range(521, 537)) + list(range(537, 553)) + list(range(553, 569)) + list(range(569, 585)) + list(range(585, 601)) + list(range(601, 617)) + list(range(617, 633)) + list(range(633, 649)) + list(range(649, 665)) + list(range(665, 681)) + list(range(681, 697)) + list(range(697, 713)) + list(range(713, 729)):
+    for n in list(range(289, 317)) + list(range(322, 330)) + list(range(330, 337)) + list(range(337, 353)) + list(range(353, 369)) + list(range(369, 385)) + list(range(385, 401)) + list(range(401, 417)) + list(range(417, 433)) + list(range(433, 449)) + list(range(449, 465)) + list(range(465, 481)) + list(range(481, 497)) + list(range(497, 505)) + list(range(505, 521)) + list(range(521, 537)) + list(range(537, 553)) + list(range(553, 569)) + list(range(569, 585)) + list(range(585, 601)) + list(range(601, 617)) + list(range(617, 633)) + list(range(633, 649)) + list(range(649, 665)) + list(range(665, 681)) + list(range(681, 697)) + list(range(697, 713)) + list(range(713, 729)) + list(range(729, 745)):
         needle = f"{n}. **"
         if needle not in algebra:
             failed.append(f"composition-algebra missing item {n}")
@@ -805,6 +955,7 @@ def main() -> int:
         "## Batch #124",
         "## Batch #125",
         "## Batch #126",
+        "## Batch #127",
     ):
         if batch not in findings:
             failed.append(f"findings.md missing {batch}")
@@ -1018,6 +1169,27 @@ def main() -> int:
             )
         if digest0923.get("invented_signal") is not False:
             failed.append("0923 run_digest invented_signal is not false")
+    digest_path_1019 = ROOT / "research/archive/hourly/2026-09-21T16/run_digest.json"
+    if not digest_path_1019.is_file():
+        failed.append("missing 1019 run_digest.json")
+    else:
+        digest1019 = json.loads(digest_path_1019.read_text(encoding="utf-8"))
+        if digest1019.get("label") != "1019":
+            failed.append(f"1019 run_digest label {digest1019.get('label')!r} != '1019'")
+        if digest1019.get("notes_section") != "145":
+            failed.append(
+                f"1019 run_digest notes_section {digest1019.get('notes_section')!r} != '145'"
+            )
+        if digest1019.get("composition") != "729-744":
+            failed.append(
+                f"1019 run_digest composition {digest1019.get('composition')!r} != '729-744'"
+            )
+        if digest1019.get("findings_batch") != 127:
+            failed.append(
+                f"1019 run_digest findings_batch {digest1019.get('findings_batch')!r} != 127"
+            )
+        if digest1019.get("invented_signal") is not False:
+            failed.append("1019 run_digest invented_signal is not false")
     digest_path_0151 = ROOT / "research/archive/hourly/2026-09-21T08/run_digest.json"
     if not digest_path_0151.is_file():
         failed.append("missing 0151 run_digest.json")
@@ -1699,6 +1871,37 @@ def main() -> int:
             'hf:Skylarcc/Laya-Online HTTP 401 *theirs*',
             'hf:piratehack009/laya-cn-flash-triage HTTP 404 *theirs*',
             'atharvamhaske/typesafe-sdk-go ≠ kisshan13/typesafe-ai-go ≠ stacklok/typesafe-go ≠ Nibir1/typesafe-go ≠ peach-zhang/typesafe-go ≠ draganm/go-jev ≠ kataras/jev ≠ robertjndw/gosys1 ≠ Stumble/jev-go',
+            'hourly 1019 / notes.md §145',
+            'schema-valid is not the same as correct',
+            'API confidence is not P(correct)',
+            'GEPA revises Choice instructions/criteria with weights fixed',
+            'Brier 0.1357→0.0747 *theirs*',
+            'F1 69.1%→79.7% *theirs*',
+            'FN 4→6',
+            'review-queue policy is not F1',
+            'Soft is not gate',
+            'Not an 18th scoring-table species',
+            '发送永远手动',
+            'About 180 ms',
+            '$0.00241 *theirs*',
+            'Not a screenshot agent',
+            'pi-follow-through threshold 0.8 still soft',
+            'densify §144 not a sibling first sighting',
+            'pi-jev-context densify §134 not a sibling first sighting',
+            'aliaihub/awesome-jev-usecases ≠ anandi1989/awesome-jev-usecases ≠ whyashthakker/awesome-jev-use-cases',
+            'rezoch340/jev-chat-JARVIS-windows ≠ Finderchangchang/jev-chat-JARVIS',
+            'aakgna/jevcal ≠ abhixhek/jevcal',
+            '007M7/jev-chat ≠ w3cj/jev-chat ≠ Manta-Boardgame/jev-chat',
+            'fstandhartinger/jev-router ≠ gargpratyush/jev-router',
+            'prakash7474/Jev_guard ≠ leepokai/jev-guard',
+            'rdutra/laya-mcp ≠ PerryLink/laya-mcp ≠ wsargent/laya-mcp',
+            'Kourin1996/jev-playground ≠ wustep/jev-playground',
+            'ai-ecoverse/cua-s1.js Cua-S1 ≠ TypeSafe',
+            'skip-thin Unnati-23/jev-typesafe-guide antoniofaical/digital-twin-classifier-jev leonezhu/agent-kits empty README',
+            'skip-thin wjw66/deepseek-harness-jev-pre-compaction ziwon/jev-actor empty SHA HTTP 409',
+            'hf:chanoian/openjev-mlx-demo HTTP 401 *theirs*',
+            'hf:clduab11/jev-calibration-statistics HTTP 401 *theirs*',
+            'hf:yasserrmd/laya-lab HTTP 401 *theirs*',
         ):
             if frag not in haystack:
                 failed.append(f"SKILL.md missing fragment {frag!r}")
@@ -2195,6 +2398,37 @@ def main() -> int:
             'hf:Skylarcc/Laya-Online HTTP 401 *theirs*',
             'hf:piratehack009/laya-cn-flash-triage HTTP 404 *theirs*',
             'atharvamhaske/typesafe-sdk-go ≠ kisshan13/typesafe-ai-go ≠ stacklok/typesafe-go ≠ Nibir1/typesafe-go ≠ peach-zhang/typesafe-go ≠ draganm/go-jev ≠ kataras/jev ≠ robertjndw/gosys1 ≠ Stumble/jev-go',
+            'hourly 1019 / notes.md §145',
+            'schema-valid is not the same as correct',
+            'API confidence is not P(correct)',
+            'GEPA revises Choice instructions/criteria with weights fixed',
+            'Brier 0.1357→0.0747 *theirs*',
+            'F1 69.1%→79.7% *theirs*',
+            'FN 4→6',
+            'review-queue policy is not F1',
+            'Soft is not gate',
+            'Not an 18th scoring-table species',
+            '发送永远手动',
+            'About 180 ms',
+            '$0.00241 *theirs*',
+            'Not a screenshot agent',
+            'pi-follow-through threshold 0.8 still soft',
+            'densify §144 not a sibling first sighting',
+            'pi-jev-context densify §134 not a sibling first sighting',
+            'aliaihub/awesome-jev-usecases ≠ anandi1989/awesome-jev-usecases ≠ whyashthakker/awesome-jev-use-cases',
+            'rezoch340/jev-chat-JARVIS-windows ≠ Finderchangchang/jev-chat-JARVIS',
+            'aakgna/jevcal ≠ abhixhek/jevcal',
+            '007M7/jev-chat ≠ w3cj/jev-chat ≠ Manta-Boardgame/jev-chat',
+            'fstandhartinger/jev-router ≠ gargpratyush/jev-router',
+            'prakash7474/Jev_guard ≠ leepokai/jev-guard',
+            'rdutra/laya-mcp ≠ PerryLink/laya-mcp ≠ wsargent/laya-mcp',
+            'Kourin1996/jev-playground ≠ wustep/jev-playground',
+            'ai-ecoverse/cua-s1.js Cua-S1 ≠ TypeSafe',
+            'skip-thin Unnati-23/jev-typesafe-guide antoniofaical/digital-twin-classifier-jev leonezhu/agent-kits empty README',
+            'skip-thin wjw66/deepseek-harness-jev-pre-compaction ziwon/jev-actor empty SHA HTTP 409',
+            'hf:chanoian/openjev-mlx-demo HTTP 401 *theirs*',
+            'hf:clduab11/jev-calibration-statistics HTTP 401 *theirs*',
+            'hf:yasserrmd/laya-lab HTTP 401 *theirs*',
             ):
                 if frag not in proto_line:
                     failed.append(f"SKILL.md protocol missing {frag!r}")
@@ -2231,6 +2465,7 @@ def main() -> int:
         ("0707", UNIQ_0707),
         ("0823", UNIQ_0823),
         ("0923", UNIQ_0923),
+        ("1019", UNIQ_1019),
     ):
         if lock in changelog:
             failed.append(
@@ -2313,7 +2548,7 @@ def main() -> int:
         f"2146 chars={len(UNIQ_2146)} "
         f"2246 chars={len(UNIQ_2246)} "
         f"2347 chars={len(UNIQ_2347)} "
-        f"0049 chars={len(UNIQ_0049)} 0151 chars={len(UNIQ_0151)} 0248 chars={len(UNIQ_0248)} 0348 chars={len(UNIQ_0348)} 0445 chars={len(UNIQ_0445)} 0551 chars={len(UNIQ_0551)} 0707 chars={len(UNIQ_0707)} 0823 chars={len(UNIQ_0823)} 0923 chars={len(UNIQ_0923)} "
+        f"0049 chars={len(UNIQ_0049)} 0151 chars={len(UNIQ_0151)} 0248 chars={len(UNIQ_0248)} 0348 chars={len(UNIQ_0348)} 0445 chars={len(UNIQ_0445)} 0551 chars={len(UNIQ_0551)} 0707 chars={len(UNIQ_0707)} 0823 chars={len(UNIQ_0823)} 0923 chars={len(UNIQ_0923)} 1019 chars={len(UNIQ_1019)} "
         f"revisit chars={len(REVISIT_LOCK)} "
         f"overlays={len(OVERLAYS)} "
         f"revisit_overlays={len(REVISIT_OVERLAYS)}"
