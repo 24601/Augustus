@@ -423,6 +423,16 @@ parser.
    `glance fit` stays on the rating bullets: it is a per-rubric rating
    map, not that Platt map.
 
+6. **Educational Kev pointer, text choice only.**
+   [`peterpme/lev`](https://github.com/peterpme/lev) (`notes.md` §149):
+   Qwen2.5-0.5B plus LoRA plus a pointer head over caller-supplied
+   options. Softmax probabilities are for rank or threshold. They are
+   not a safety gate. `POST /v1/systemone` is choice only; noul and
+   score are later. Not production. Distinct from trained Laya, from
+   OpenJev scalar heads, and from glance (this vision logit harness).
+   Does not erase jaredpalmer/kev (`notes.md` §45). Author Banking77
+   figures are *theirs*. License file absent.
+
 Laya's card is text-only / 512 tok: a vision hole is not "run Laya on a
 caption." Either pixel-free the state or pick a vision-family scorer.
 
@@ -699,6 +709,7 @@ is the generator, not a sixth surface.
 | **Domain LoRA specialist** (Domain-jev-maker) | Independent CLINC gold, soft targets, pointer readout. **Not** a Jev teacher-copy. Calibration gap is the product: KL 0.168 vs hosted 0.580 banking; few-shot hosted matches argmax (McNemar n.s.) | Threshold / deferral / EU that *reads* p; skip when only argmax | ~0.5 s / request on 8 GB GPU *theirs*; 1.5B LoRA | Self-host; MIT | Text | Domain K + abstain; one forward pass |
 | **Nimble** (open LoRA recipe, not a distill) | Hard synthetic labels. They say temperature was not tuned to correctness rates. 324-row agreement is their receipt, not an ECE (`notes.md` §35) | Not a gather primitive | Their latency table, not re-run | Self-host the adapter. Model card Apache-2.0; repo license absent | Text only | Enum ≤26; 2,048 tokens |
 | **kev** (Qwen3 0.6B/4B/8B family + pointer; Apache-2.0) | Public gold, CE. Held-out ECE 0.065 (0.031 after T=1.47); acc 0.799 on 1,350 ID questions. Isolation exact. **Not** a Jev teacher-copy (`notes.md` §45). **Family delta (`notes.md` §98):** Archer-arch fidelity; kev family OOD 0.76–0.77 vs Jev 0.86; block-causal isolation; pointer/readout CE-trained; `/v1/systemone` drop-in; replica honesty | Laptop-local System One drop-in for development/eval; independent questions, one prefill. Family bake-off candidate, not a Jev substitute | ~160 ms / 6 questions; ~1h45m train on M5; 38 MB adapter. Family: kev-4b ~1 s / kev-8b ~2 s bf16 *theirs* | Self-host; official `typesafe-sdk` with `base_url` | Text. Not multimodal. 0.5B knowledge; 4B/8B OOD still a gap | noul / choice 2–255 / score |
+| **lev** ([peterpme/lev](https://github.com/peterpme/lev); Qwen2.5-0.5B LoRA + pointer; license file absent) | Educational Kev-line readout on public Banking77 labels. Checked-in banking77-v1 accuracy 0.88, ECE 0.040830, NLL 0.517905, Brier 0.187623 on 150 records *theirs* (`notes.md` §149). Softmax over supplied options is not a calibrated Noul. Not a hosted Jev teacher-copy. Does not replace kev | Rank or threshold the choice distribution. Not a safety gate | median 117.241 ms *theirs* on that suite | Self-host. Not production. License file absent | Text. Not glance | choice now; noul and score later |
 | **Diffusion structured reads** (djev-spark) | Interface claim only. **Hypothesis** it beats a decision head on your labels (`notes.md` §36) | Optional sequential chunks, text-only | Their GX10 tables, not a class benchmark | DGX Spark container. Do not copy the route | Images are an extension; think and sequential reject images | README criteria, not copied here |
 
  **1542 densify:** Constrained AR ≠ calibrated Noul (TypeLLM Batch 5.8x *theirs*). kev 4B new-source 0.790/0.806 *theirs*; 8.2% ≥0.9 on wrong *theirs*; option order can change an answer (`notes.md` §126).

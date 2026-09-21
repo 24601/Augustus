@@ -37976,3 +37976,119 @@ Soft judgment never sole veto.
 
 Parent merges only after ADV_PASS. Soft judgment never sole veto.
 `invented_signal: false`.
+
+## 149. User-provided lev HIGH (2026-09-21 ~19:31Z)
+
+Novel HIGH off current `main` (`c9b744e`, hourly 1203 / `notes.md` §148 /
+PR #74). yoheinakajima/glance stays `notes.md` §147 (merged #73).
+jaredpalmer/kev stays `notes.md` §45. This fold does not re-card either.
+**HARD RULE:** do not reopen or amend PR #23 through #74.
+Do **not** collapse Lev into hosted TypeSafe Jev. Do **not** erase Kev.
+Do **not** treat Lev as trained Laya, as an OpenJev scalar head, or as
+glance (vision logit harness, §147).
+This fold's ID: `notes.md` §149.
+`invented_signal: false`. Author numbers are *theirs*. Soft scores ≠
+hard gates. No Augustus call site: this card does not wire lev into
+the skill runtime. Does not bump 0.5.0. Skip Archer.
+
+Lane is the decision-model class (classifiers, encoders and decoders,
+specialized AR and constrained heads, vision and listwise scorers, and
+what TypeSafe calls System One). TypeSafe Jev (Choice, Score, Noul) is
+the dominant exemplar, not the whole mandate. Lev sits on the open Kev
+line: a pointer head plus LoRA, with a choice surface that resembles
+TypeSafe `POST /v1/systemone`. Wire-compatible choice is not
+logit-equivalent to hosted Jev.
+
+### How-to-apply (class lenses)
+
+1. **Educational pointer, not a production system.** Quote *theirs*:
+   Lev is a small, educational decision model inspired by Kev. It
+   scores the choices supplied by the caller and returns JSON. This
+   is a learning project and a working prototype, not a production
+   decision system. Qwen is not trained from scratch, and it is not
+   generating JSON. The Python wrapper owns the response shape. The
+   model supplies the probabilities.
+2. **Soft probabilities for rank or threshold.** A pointer head writes
+   one score per supplied option. Softmax turns those scores into
+   probabilities. Those probabilities order options and can feed a
+   caller-owned threshold. They are not a safety gate. Softmax over
+   options is not a calibrated Noul. Soft scores ≠ hard gates.
+3. **Choice only.** `POST /v1/systemone` accepts `choice` today.
+   `noul` and `score` are later. Do not pretend the wire is the full
+   TypeSafe primitive set. Do not invent an Augustus runtime that
+   calls this server.
+4. **Author Banking77 figures stay *theirs*.** The checked-in
+   `banking77-v1` baseline is accuracy 0.88 on 150 records *theirs*.
+   GOAL.md also records 88.67% on 150 held-out rows *theirs*. Those
+   are two author sentences. Do not average them. Neither is Harbor.
+
+### HIGH
+
+**[`peterpme/lev`](https://github.com/peterpme/lev)** PRIMARY novel.
+License file absent (GitHub license null; `LICENSE` HTTP 404). Do not
+invent an SPDX. Python. **1★**. 0 forks. size **157**. GitHub id
+`1379945478`. HEAD `9b379262e45f4bc2ebecccc2c7927800c61bdc99`. README
+SHA `5c2e44b1c62faac4902c517f893fbcfa4006c353`. Baseline file SHA
+`6b90b5f51e7fd4264402b1290a2751b4e9b5871f`
+(`benchmarks/banking77-v1/baselines/lev-banking77-1500.json`).
+pushed 2026-09-21T18:13:30Z. created 2026-09-21T14:45:37Z. GitHub
+release [Lev 1.0.0](https://github.com/peterpme/lev/releases/tag/1.0.0)
+published 2026-09-21T17:30:54Z (created 2026-09-21T17:14:42Z; published
+release, not a draft, not a prerelease). Tag `1.0.0` points at
+`49d23ff319dacc266e44b55ed1f6c74fb18c34b9` (Rewrite README for public
+users). HEAD `9b379262e45f4bc2ebecccc2c7927800c61bdc99` is one commit
+ahead of that tag (Document benchmark iteration workflow,
+2026-09-21T18:13:28Z). HEAD, README SHA, and baseline SHA stay on
+`9b379262`. Description *theirs*: Educational reimplementation of Kev: Qwen
++ LoRA + pointer decisions. `description_hash` `77faa8872a8d`.
+
+Quote *theirs*: Qwen 0.5B provides general language understanding.
+LoRA makes a small adaptation. A pointer head produces one score for
+each supplied option. Softmax turns those scores into probabilities.
+FastAPI returns the selected option and its probabilities.
+
+Base `Qwen/Qwen2.5-0.5B`. LoRA rank 16. First dataset Banking77
+(`legacy-datasets/banking77`): one customer message, 77 intent
+options. Checked-in training row on the baseline: `n_per_source`
+1500, 2 epochs, gradient accumulation 8. Suite `banking77-v1`,
+benchmark version 1, test sha256
+`5c7a81279040508a39632df4ccffb396ad987b1d1a15cc1cf0451d7cc90abeb0`.
+
+Checked-in baseline metrics *theirs* (150 records, 77 options; not
+Harbor): accuracy **0.88**, NLL **0.517905**, Brier **0.187623**, ECE
+**0.040830**, mean confidence **0.881221**. Slice at confidence 0.9:
+coverage **0.686667**, accuracy **0.980583**. Median latency
+**117.241** ms. That high-confidence slice is a rank or threshold
+fact. It is not a permit and not a safety gate.
+
+GOAL.md step 12 *theirs*: 88.67% on 150 held-out rows. That sentence
+is earlier than the frozen JSON. Keep both. Do not replace 0.88 with
+88.67%, and do not replace 88.67% with 0.88.
+
+Class placement. Lev is on the open Kev line (pointer head, LoRA,
+caller-supplied options, softmax JSON). It is not a densify of
+jaredpalmer/kev and it does not replace that card. Kev remains the
+shipped family (`notes.md` §45), including later Qwen3.5 sizes and
+noul / choice / score. Lev's base is Qwen2.5-0.5B. Qwen2.5 ≠ Archer.
+Choice-only `/v1/systemone` resembles the TypeSafe surface and is
+not hosted TypeSafe Jev. Labels in the first suite are Banking77
+intent names, not a claim that TypeSafe outputs were the teacher.
+
+Distinct from trained Laya (text NAR / typed-decision heads, and
+hf:thaitea/laya-vision §146). Distinct from OpenJev heads
+(Zefan-Cai/Open-Jev §125 LoRA plus scalar head; IamBusy/OpenJev).
+Distinct from glance (yoheinakajima/glance §147): glance is a vision
+logit harness around a frozen VLM, trains no weights, and serves
+`POST /v1/decide`. Lev trains a text pointer and serves choice on
+`POST /v1/systemone`.
+
+Name collisions, not decision models: peterpme/lev ≠ heapwolf/lev
+(LevelDB CLI) ≠ YasserAsmi/lev ≠ connectFree/lev ≠ rgrinberg/lev
+(libev bindings).
+
+Soft scores ≠ hard gates. softmax over options ≠ calibrated Noul.
+wire-compat ≠ logit-equiv. *theirs* not Harbor. catalog ≠
+endorsement. SHA move is not a replica. No Augustus runtime call
+site.
+
+User-provided lev uniqueness lock: peterpme/lev educational reimplementation of Kev; license file absent; GitHub license null; 1★; 0 forks; size 157; Python; github id 1379945478; HEAD 9b379262e45f4bc2ebecccc2c7927800c61bdc99; README SHA 5c2e44b1c62faac4902c517f893fbcfa4006c353; baseline SHA 6b90b5f51e7fd4264402b1290a2751b4e9b5871f; pushed 2026-09-21T18:13:30Z; created 2026-09-21T14:45:37Z; release_tag 1.0.0; tag commit 49d23ff319dacc266e44b55ed1f6c74fb18c34b9; published 2026-09-21T17:30:54Z; HEAD one commit ahead of the tag; description_hash 77faa8872a8d; Educational reimplementation of Kev: Qwen + LoRA + pointer decisions; Qwen/Qwen2.5-0.5B; LoRA rank 16; pointer head; softmax over caller-supplied options; POST /v1/systemone choice only; noul and score later; not a production decision system; Banking77 first dataset; banking77-v1 accuracy 0.88 NLL 0.517905 Brier 0.187623 ECE 0.040830 mean confidence 0.881221 coverage at 0.9 0.686667 accuracy at 0.9 0.980583 median latency 117.241 ms records 150 options 77 *theirs*; GOAL 88.67% on 150 held-out is a different author sentence *theirs*; do not average 0.88 and 88.67%; soft probs for rank or threshold; soft scores ≠ hard gates; softmax over options ≠ calibrated Noul; wire-compat ≠ logit-equiv; Qwen2.5 ≠ Archer; peterpme/lev ≠ jaredpalmer/kev; does not erase Kev; peterpme/lev ≠ yoheinakajima/glance; glance is a vision logit harness; peterpme/lev ≠ trained Laya; peterpme/lev ≠ hf:thaitea/laya-vision; peterpme/lev ≠ Zefan-Cai/Open-Jev; peterpme/lev ≠ IamBusy/OpenJev; peterpme/lev ≠ heapwolf/lev ≠ YasserAsmi/lev ≠ connectFree/lev ≠ rgrinberg/lev; name collision not a decision model; *theirs* not Harbor; catalog ≠ endorsement; SHA move is not a replica; no Augustus runtime call site; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60/#61/#62/#63/#64/#65/#66/#67/#68/#69/#70/#71/#72/#73/#74; notes.md §149
