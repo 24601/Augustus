@@ -1,0 +1,412 @@
+[
+  {
+    "id": "1deat0r/Jcua",
+    "ok": true,
+    "stars": 0,
+    "sha": "374d99bf66c17237d971f73ac4fad766fbe6a35e",
+    "readme_sha": "dd0d9d8b2e82f61593b225abbad9ed0fb1ef7424",
+    "empty": true
+  },
+  {
+    "id": "2951461586/Jev-Register-Tool",
+    "ok": true,
+    "stars": 1,
+    "sha": "1d8449f4b7628a5660ad7c134d3464bc54f6bbf5",
+    "readme_sha": "f214c1f48a970936f4a7db1752a24f4ea1e0af19"
+  },
+  {
+    "id": "ASV-Labs/the-claw",
+    "ok": true,
+    "stars": 0,
+    "sha": "da7fe835bcda8977161bf9f9dca3b25ad142f992",
+    "readme_sha": "5fef81a67d643c28242f1a57e60674132896990a",
+    "empty": true
+  },
+  {
+    "id": "AltSlate-Labs/jevable-code",
+    "ok": true,
+    "stars": 0,
+    "sha": "862d5e279d3168d8a6c1177a50704ea58db40418",
+    "readme_sha": "c4f22da417d13b68add13714d6a819f0af18cc5a",
+    "empty": true
+  },
+  {
+    "id": "Bitcoindefi/Open-Stellar",
+    "ok": true,
+    "stars": 1,
+    "sha": "19a8685f49572760fd50ab4160077717201099f6",
+    "readme_sha": "f6c5ac353506e1307c53a9259cdd4d66e2578291"
+  },
+  {
+    "id": "CPPAlien/playwithjev",
+    "ok": true,
+    "stars": 0,
+    "sha": "b7774cb7703f99a5a800026f2b8cdad25636ffe0",
+    "readme_sha": "19176d3908ac101d5f5006e529e989d0fd4f30b3",
+    "empty": true
+  },
+  {
+    "id": "JairajSustained/llm-routing-jiv",
+    "ok": true,
+    "stars": 0,
+    "sha": "5b5bb786d50890ab66c179dd845b6163e9156dd5",
+    "readme_sha": "f5a191d7250b28438e8f45f63fce0dde3de1152c"
+  },
+  {
+    "id": "LabGuy94/jevtok",
+    "ok": true,
+    "stars": 0,
+    "sha": "698c53b778ce901be82c166d809e4b1f7948a465",
+    "readme_sha": "032c2ca3171266e0f7c95ffd0d3b3c6b02cbef18",
+    "empty": true
+  },
+  {
+    "id": "NicolaiLassen/open-bonsai-jev",
+    "ok": true,
+    "stars": 1,
+    "sha": "dabe4f4a45c255edc72e49b5fc434df22a3e11ee",
+    "readme_sha": "c6dece835656a1a459716f93b3a7de73699b29c4"
+  },
+  {
+    "id": "QCMaxcer/SRTMood",
+    "ok": true,
+    "stars": 0,
+    "sha": "33db97e284d57d967ac8669182c1164799540c02",
+    "readme_sha": "2ee3a3ae1646d742ccd1041aa9fb382bf4ad9429",
+    "empty": true
+  },
+  {
+    "id": "Shraiyash/inbox_classification",
+    "ok": true,
+    "stars": 0,
+    "sha": "0ede00731c861a936dddeecb5dbbca94e1896592",
+    "readme_sha": "31e928f29450641b0e4aea9f2dfc422789cc06da",
+    "empty": true
+  },
+  {
+    "id": "TypeLLM/TypeLLM",
+    "ok": true,
+    "stars": 26,
+    "sha": "8a8b4aefd443e47e608bfdc2a679ede28bcc1d8e",
+    "readme_sha": "9f6dea3a4c8c8033a051f5d1eba59ea438843127"
+  },
+  {
+    "id": "VennIntelligence/jev-drive",
+    "ok": true,
+    "stars": 0,
+    "sha": "20aad9d03f6cc37b5e5a21183563b6714a43d3d1",
+    "readme_sha": "93971df3e6f0bf234829fe465b1349fd93e1680d"
+  },
+  {
+    "id": "Yang-SS-stack/jev-computer-use",
+    "ok": true,
+    "stars": 0,
+    "sha": "2e06ed53a85c6b57e9768822eca46aabbde154ad",
+    "readme_sha": "d4e2df89ec04c6ad2e07027b93a7c2ebfb3a9196"
+  },
+  {
+    "id": "amapara27/jev-pilot",
+    "ok": true,
+    "stars": 0,
+    "sha": "9c252739cb25cb71207c194a764f0b821311d6d3",
+    "readme_sha": "d442bf7da457a76a671eb57d1569f1626e5c64c1"
+  },
+  {
+    "id": "amoreX/jevvy",
+    "ok": true,
+    "stars": 0,
+    "sha": "ff0da762aba3d2273f6d8ca7ceff101c4dda1ad1",
+    "readme_sha": "93edfa3f811ea45e7fc0db2b578c00565cd9a71e"
+  },
+  {
+    "id": "aninibread/jev-3s",
+    "ok": true,
+    "stars": 0,
+    "sha": "feee03612d6b35011542f586487a6e1a861eacdc",
+    "readme_sha": "ced8f953715ad29b0305ee4e3812cd8b562eeaa7",
+    "empty": true
+  },
+  {
+    "id": "bebe0307mz/jevs-kitchen-chaos",
+    "ok": true,
+    "stars": 0,
+    "sha": "56978d16691f2b755d2c741e3b878f9cdab7e68a",
+    "readme_sha": "1369fd72ff183af6d27f9a3388e1a97d70f34978"
+  },
+  {
+    "id": "bojansandhaus/jev-lcm-dsh-compaction",
+    "ok": true,
+    "stars": 0,
+    "sha": "4ad507806597d9960022a88f15dd67eb783abbc8",
+    "readme_sha": "8aeb30b0e576a7d41ac9dcfc34af69997d9187b5",
+    "empty": true
+  },
+  {
+    "id": "bojansandhaus/jev-lcm-hermes-compaction",
+    "ok": true,
+    "stars": 0,
+    "sha": "546c870bd6cead530b8df797e07d771b0f150a94",
+    "readme_sha": "a1b34141995f3ffdb9e38066880f78e15ff297a2",
+    "empty": true
+  },
+  {
+    "id": "chuongtran-wego/jev_plays_dino",
+    "ok": true,
+    "stars": 0,
+    "sha": "d8e5b8e061e4312cfa1a06a4996aa13695b824cb",
+    "readme_sha": "b2c87ffba4f354f6b6870569148d6169a0a7fb89",
+    "empty": true
+  },
+  {
+    "id": "danielhirt/jev-lab",
+    "ok": true,
+    "stars": 1,
+    "sha": "cb0c74edc246a0f9434d10d284643d55b33a2c17",
+    "readme_sha": "772f95564d683460e16dc18541798ea7ba2554f5"
+  },
+  {
+    "id": "deekshithtirumala-maker/System-One",
+    "ok": true,
+    "stars": 0,
+    "sha": "5583c1f315f3de3c45a71893ec929aecc629a1c8",
+    "readme_sha": "711d0d05e5f2b60a7ed7e4dcb8d61f805ddedeed",
+    "empty": true
+  },
+  {
+    "id": "df-yamashitamasashi/jev_blog",
+    "ok": true,
+    "stars": 0,
+    "sha": "c5494b7ee571ec16bc04e4d512dc09e0e209aa39",
+    "readme_sha": "4a082af5786bb5e461bfd0a9fa47abc32fe3be9a",
+    "empty": true
+  },
+  {
+    "id": "enoyola/jev-grand-prix",
+    "ok": true,
+    "stars": 0,
+    "sha": "351ebb50f9d94d255ad50e37433da62f0ba6cdf9",
+    "readme_sha": "e9a5f282773a72288dbfe115be35e4bea1bb1fcc"
+  },
+  {
+    "id": "fancyboi999/ockev",
+    "ok": true,
+    "stars": 0,
+    "sha": "cd407175c770fb9d48bae96efa3e6998d1b1cb83",
+    "readme_sha": "c055109c0b895618a0ee6edce8bfb7fa7260b08b",
+    "empty": true
+  },
+  {
+    "id": "hf:soyelmismo/laya-multilingual-onnx",
+    "ok": true,
+    "stars": null,
+    "sha": "0966c4fa58da6878b39e7e14cb5e93313b82d828"
+  },
+  {
+    "id": "hf:space:Yuki131/KaLM-Jev",
+    "ok": true,
+    "stars": null,
+    "sha": "a160f504c718df690d3cdbaec299d2956471e8a5"
+  },
+  {
+    "id": "hf:space:nico-martin/open-jev-demo",
+    "ok": true,
+    "stars": null,
+    "sha": "ad21fca3000f4c3b87deee3d26da81aec05dadd7"
+  },
+  {
+    "id": "hf:space:shigeshige/laya-prompt-backend",
+    "ok": true,
+    "stars": null,
+    "sha": "1912a20ad17e18781af0cee26e71ecee660fd5ae"
+  },
+  {
+    "id": "hynace/jev-holdem-hano",
+    "ok": true,
+    "stars": 0,
+    "sha": "5fe6b4dc0cfd3d38ffc83a11f3bc3a103950a3b8",
+    "readme_sha": "4a608e5a03085529e6394c8249711d6edcb84bf3",
+    "empty": true
+  },
+  {
+    "id": "k4its1t/jevlens",
+    "ok": true,
+    "stars": 0,
+    "sha": "cd21fce0bdde16f02856a55c792645bd3b18605b",
+    "readme_sha": "6f70d44990b80d813c13098b50eca4819446c5a7",
+    "empty": true
+  },
+  {
+    "id": "kazuhideoki/jev-search",
+    "ok": true,
+    "stars": 1,
+    "sha": "eab8181ea6025eee0c15e5a52a97702eef2bb731",
+    "readme_sha": "0d4abd2ef2cae42bd8586c84170040d34c1850c6"
+  },
+  {
+    "id": "leesk212/JEV-CPU",
+    "ok": true,
+    "stars": 8,
+    "sha": "b49b5bf5776af78495fa4900996042726f8e7c10",
+    "readme_sha": "8f603f5ee195123ade5c20b5593972228b0052f1"
+  },
+  {
+    "id": "liuhongzhang-create/comment-opportunity-radar",
+    "ok": true,
+    "stars": 0,
+    "sha": "84a72985b77a2d980cdd0235ba95922931a5e281",
+    "readme_sha": "7b6e5e64c66ae840c9ee73a55c295c654dc53774",
+    "empty": true
+  },
+  {
+    "id": "liushiliushi/JevTuner",
+    "ok": true,
+    "stars": 0,
+    "sha": "720ddc51b06446c863b6c3e621d904934d0615de",
+    "readme_sha": "23c9c1361220de42a57e5cfc44c8ab53b1f4afad",
+    "empty": true
+  },
+  {
+    "id": "nexibeo/jev-cookbook",
+    "ok": true,
+    "stars": 9,
+    "sha": "c1238b8529d0d275d54bc6eb4c39d4f39062238f",
+    "readme_sha": "4b5f7683bd6b1a87b234a1f8c2eddd0848ea2067"
+  },
+  {
+    "id": "novaleolin/jev-evolve",
+    "ok": true,
+    "stars": 0,
+    "sha": "09b1b310827b20a278d87a333ce551bb7809ca3f",
+    "readme_sha": "a616c5caa608328217ecbbaf6e8f51326574fc8b"
+  },
+  {
+    "id": "obetomuniz/auto-jev-codex-for-paseo",
+    "ok": true,
+    "stars": 0,
+    "sha": "72da7b89a78c67681ea03d725b42a5d82e273731",
+    "readme_sha": "286488d03666bcb0e47b37471a02e550edd585cb",
+    "empty": true
+  },
+  {
+    "id": "pjt3591oo/laya-server",
+    "ok": true,
+    "stars": 0,
+    "sha": "694dda94f025d8622e01ffdfa58db8f7da335581",
+    "readme_sha": "6e9b8a2914bb410e0eaa491be07e2473eed9315a",
+    "empty": true
+  },
+  {
+    "id": "pmerlin1/sf-early-learning-mcp",
+    "ok": true,
+    "stars": 0,
+    "sha": "4b62a2d9825df94268f20b1ee2e98dafc662a0bc",
+    "readme_sha": "99dabfc304ebb55c0fe938ed04e6a5d7cb949d78",
+    "empty": true
+  },
+  {
+    "id": "razorback16/openjev",
+    "ok": true,
+    "stars": 225,
+    "sha": "2050fdb8280d3094180870ac4df962f1bb44edca",
+    "readme_sha": "d5322e16e565182766158937e8c50f3acf963117"
+  },
+  {
+    "id": "s-hiraoku/jev-page-checker",
+    "ok": true,
+    "stars": 0,
+    "sha": "ec3f76b9830bd2071ce38fdb670d36787d6aa99e",
+    "readme_sha": "e5d4423c4cc2c243d8e4ae702446eea06afee05e"
+  },
+  {
+    "id": "s5juxbumjm/layacm",
+    "ok": true,
+    "stars": 0,
+    "sha": "4f0395e84af34dd08b36eb6be566884fa190953d",
+    "empty": true
+  },
+  {
+    "id": "shimo4228/jev-skill-router",
+    "ok": true,
+    "stars": 0,
+    "sha": "517c259f94e6c08aabb9c14d834b6e7e89538ab6",
+    "readme_sha": "284692d32e5121c3492bf086851bed00f39bf29d",
+    "empty": true
+  },
+  {
+    "id": "smile-magic/laya-mlx-ddz",
+    "ok": true,
+    "stars": 0,
+    "sha": "18f265a5a3d2b11935dc4be2b64e7c93151e8a19",
+    "readme_sha": "b62d3aa7ed9b986496785e913928720288e6a6f1",
+    "empty": true
+  },
+  {
+    "id": "sriramkasyap/laya-api",
+    "ok": true,
+    "stars": 0,
+    "sha": "73cbd8d705a4e9a3d27f0fce3a6adfb70f910104",
+    "readme_sha": "406306925eb838d526dcc35ce813611965bd6731",
+    "empty": true
+  },
+  {
+    "id": "sriramkasyap/laya-demo-web",
+    "ok": true,
+    "stars": 0,
+    "sha": "78d214cad6777c19f0f2a649ccb933bb7b97babb",
+    "readme_sha": "53334ec5ef525ed4fb7793fb4abeed014c2abe86",
+    "empty": true
+  },
+  {
+    "id": "tubone24/jev-practice-speed",
+    "ok": true,
+    "stars": 1,
+    "sha": "bbd53f5adcad29d609d8311822ae685270d841e6",
+    "readme_sha": "5debc195dde913a94e22f16f260b323ac36fb48d"
+  },
+  {
+    "id": "vlasvar/jev-research",
+    "ok": true,
+    "stars": 0,
+    "sha": "0710d3044401eb982ed69e996e646f7e6eced768",
+    "readme_sha": "516d8057a4f74abc010a6565205b7f152846617c",
+    "empty": true
+  },
+  {
+    "id": "wangmiaozero/laya-router-skill",
+    "ok": true,
+    "stars": 0,
+    "sha": "b2e13f5d62474783437292056693a3adc99b9dd2",
+    "readme_sha": "8f2623ff8babe5d04e027c4556c23e0b783a413d",
+    "empty": true
+  },
+  {
+    "id": "x96x64/ctxjev",
+    "ok": true,
+    "stars": 0,
+    "sha": "308320e8c079fa2d34230f70c8dc9f77e5d031f2",
+    "readme_sha": "9a047b99a200fedbc50dff0d5da6635d2c59990b"
+  },
+  {
+    "id": "zhengbangbo/structured-decision-bench",
+    "ok": true,
+    "stars": 0,
+    "sha": "32648f8cefa774cae6f9891562aecf19d4dd3c0f",
+    "readme_sha": "92f77ce4f09c5f83fb97e530e4e1626ec8e77f6c",
+    "empty": true
+  },
+  {
+    "id": "zjunlp/JevLoop",
+    "ok": true,
+    "stars": 6,
+    "sha": "56cbf2bd6b5d3608c8a19d0584d48c3499d726c6",
+    "readme_sha": "8444be05573abf1dd073c62dbf307de1d80f5cf6"
+  },
+  {
+    "id": "zxrneu/laya-snake",
+    "ok": true,
+    "stars": 1,
+    "sha": "01768bacc1783a693ffda7f202a9846d76712021",
+    "readme_sha": "3d4c173c4d4b8edec8dfe81c1da5beb6c027945a",
+    "empty": true
+  }
+]
