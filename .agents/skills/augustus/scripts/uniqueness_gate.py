@@ -14,6 +14,8 @@ Hourly must treat revisit HIGH like novel HIGH. Star-noise is not a fold.
 Also: YAML-parse SKILL.md frontmatter; notes.md owns §114–§129;
 composition items 289–316, 322–329, 330–336, 337–352, 353–368, 369–384, 385–400, 401–416, 417–432, 433–448, 449–464, 465–480, and 481–496 exist;
 findings batches #97–#111 exist. Items 317–321 stay unused.
+The 1843 archive run_digest must claim §129 / 481–496 / #111
+(not the 1746 IDs §128 / 465–480 / #110).
 CHANGELOG.md must not hold uniqueness dump walls (dumps live in
 changelog-hourly.md). README.md must not hold the 0743 dump wall.
 Pages greps stay in docs/index.md and docs/_layouts/default.html.
@@ -22,6 +24,7 @@ network. Does not treat a lock as a Harbor score.
 """
 
 from pathlib import Path
+import json
 import subprocess
 import sys
 import yaml
@@ -327,6 +330,27 @@ def main() -> int:
     ):
         if batch not in findings:
             failed.append(f"findings.md missing {batch}")
+    digest_path = ROOT / "research/archive/hourly/2026-09-21T00/run_digest.json"
+    if not digest_path.is_file():
+        failed.append("missing 1843 run_digest.json")
+    else:
+        digest = json.loads(digest_path.read_text(encoding="utf-8"))
+        if digest.get("label") != "1843":
+            failed.append(f"1843 run_digest label {digest.get('label')!r} != '1843'")
+        if digest.get("notes_section") != "129":
+            failed.append(
+                f"1843 run_digest notes_section {digest.get('notes_section')!r} != '129'"
+            )
+        if digest.get("composition") != "481-496":
+            failed.append(
+                f"1843 run_digest composition {digest.get('composition')!r} != '481-496'"
+            )
+        if digest.get("findings_batch") != 111:
+            failed.append(
+                f"1843 run_digest findings_batch {digest.get('findings_batch')!r} != 111"
+            )
+        if digest.get("invented_signal") is not False:
+            failed.append("1843 run_digest invented_signal is not false")
     skill = (ROOT / ".agents/skills/augustus/SKILL.md").read_text(encoding="utf-8")
     try:
         fm = load_skill_frontmatter(skill)
