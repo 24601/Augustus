@@ -5095,6 +5095,107 @@ Soft Noul ≠ hard safety.
      Does not bump 0.5.0 or 0.5.1.
      notes.md §159. composition 917-932. findings batch #139.
      Full cards: `faq.md`.
+933. **fills never send**:
+     jev-chat/jev-chat-jarvis reads the screen and fills a box. Send stays
+     with the person. jev-chat/jev-chat-windows is the Windows sidecar:
+     screenshot, local OCR, three candidates, send always manual. Neither
+     is Finderchangchang/jev-chat-JARVIS, rezoch340/jev-chat-JARVIS-windows,
+     or lbbbboom/jev-chat. Star counts are not the fold reason.
+     Full cards: `research/notes.md` §160.
+934. **ask whether a model is needed**:
+     wotai-dev/typesafe-jev-tools asks before a frontier call. The hook
+     never blocks. Regex, a one-second System One call, and a frontier
+     model are different bands. Accuracy splits. A cheaper claim that
+     404s on pricing is not checkable. TypeSafe Jev stays the default path.
+     Full cards: `research/notes.md` §160.
+935. **contract-compatible is not a replica**:
+     alitrack/jev-clone is an independent local server. Readout quality
+     moves with the model behind it. An option score is not a calibrated
+     decision. Wire-compat is not logit-equiv. Qwen3.5 and Qwen3.6 are
+     not Archer.
+     Full cards: `research/notes.md` §160.
+936. **compaction judgment is not the algorithm**:
+     yangyu666/dsh-jev-prune leaves the compaction algorithms untouched.
+     Relative quantiles are the recommended mode. keepThreshold 0.5 is a
+     config default, not a decision boundary. Needed results are never
+     trimmed however large. jasonjeske/hermes-jev-context-engine states a
+     benefit as a hypothesis, not a benchmark.
+     Full cards: `research/notes.md` §160.
+937. **code offers, Jev picks, code acts**:
+     ChubbyOtter/jevDemo keeps none_of_these. FahadArfin/Jev_Unreal lets
+     code validate. rakshita-devurkar/syncroute routes. A route is not
+     authorization. human_reviewed false. NatBrian/pokemon-showdown-jev-agent
+     stays on legal orders. Game success is not a calibrated Noul.
+     Full cards: `research/notes.md` §160.
+938. **white-box monitor is not a gate**:
+     YashDThapliyal/laya-whitebox-attack keeps p = 0.865 soft. Narration
+     swaps can flip a verdict. Flagging most benign traces is not a
+     precision claim. Laya is not TypeSafe. Do not copy an attack procedure.
+     Full cards: `research/notes.md` §160.
+939. **browser engine is not hosted Jev**:
+     bvolpato/kevala serves Laya and a Kev pointer head through WASM and
+     WebGPU. A serving substrate is not a calibrated replica. Kev is not
+     TypeSafe. Tetris success is not a calibrated Noul.
+     Full cards: `research/notes.md` §160.
+940. **fixed-token readout is not a trained head**:
+     hf:ohtaman/jev-gemma-4-E2B-it-choice-64 fine-tuned no weights. Sixty-four
+     fixed answer tokens. First-token logits are not a calibrated Noul.
+     ohtaman/jev-browser-classifier is the browser caller. Gemma 4 is not Archer.
+     Full cards: `research/notes.md` §160.
+941. **schema-conditioned head**:
+     lmbgithub/simple-system-one-model uses the schema as the output layer
+     and one encoder forward. Schema-valid is not correct. zlh1992/jev_local_qwen
+     is one forward of Qwen3-0.6B, not official Jev, and not a private RLCD.
+     Qwen3-0.6B is not Archer.
+     Full cards: `research/notes.md` §160.
+942. **local Qwen forward is not Jev**:
+     Same lesson as 941, named so the local forward stays distinct from
+     hosted TypeSafe Jev. No private RLCD. Do not copy a train command.
+     Full cards: `research/notes.md` §160.
+943. **missing menu is not a free generator**:
+     tnspacetime/system-one-plus: the menu is not the world. Absent
+     candidates cannot be chosen. Surfacing an option is not authorization.
+     Full cards: `research/notes.md` §160.
+944. **description rewrite is not a new bench**:
+     AdoCbl/JEV-RESUME-POLISHER densifies §158. Writer drafts, Jev judges,
+     code decides. tomtyiu/Jev-decision-plugin densifies §158. A plugin is
+     not a model. hf:aimeigaoshou/agent-jev densifies §146. 79.25% stays
+     the prior number. Do not re-fold it as a new Harbor. sperictao/dsh-auto-review-jev
+     is a first card under a revisit tag: no prior notes card.
+     Full cards: `research/notes.md` §160.
+945. **permission review combines numbers in code**:
+     sperictao/dsh-auto-review-jev fails closed. Allow once is one call.
+     Not free-text risk JSON. Permission is not confidence. TimMikeladze/JevLang
+     keeps policy in code. kellenGary/jev-lint is not mizchi/jev-lint.
+     VirtualMachinist/bezel is slug bezel with README title omapi-overlay.
+     Full cards: `research/notes.md` §160.
+946. **thin trees, copies, and closed cards**:
+     Chunshan-Theta/laya-service, maroofiums/LayaFlow, sheepice/Jev-WBC,
+     and aneesh-aparajit/jev are thin README bytes. HowBoring/haidass-kev-train
+     has no README. hf:henrybit/jev-vs-deepseek is HTTP 401. Do not invent
+     scores. hf:TypeSafeAI/Step-5-Preview-GGUF is a conversational GGUF,
+     not a decision head. README HTTP 404. clydechen0228/laya is not
+     NandhaKishorM/laya. danbao/jev-playwright is not browser-use/jev-ultrafast.
+     hf:ngila-ai/openjev is a 28-byte license, not Zefan-Cai/Open-Jev.
+     Full cards: `research/notes.md` §160.
+947. **catalog, games, and paper versus live trades**:
+     DeadPackets/SwipeRepublic: Luna writes, Jev judges. ARCJ137442/jev-life
+     has no heuristic fallback. raboija/PacmanLocalJev: the planner can
+     override and Laya votes. kitapplegate/commander-oracle offers
+     probabilities, not promises. pgarvie/jev-trade: a live key sends real
+     orders. Dry run when no private key. This card is not a trading
+     procedure. It is not klren0312/jev-trade and not jarrodwatts/jev-trader.
+     sujalgawas/Neurox has no README. Do not invent a trading procedure.
+     Kevin-HKUST/Time-Aware-Rare-Bird-Monitoring has ecological validation
+     pending and no labels for accuracy.
+     Full cards: `research/notes.md` §160.
+948. **skip Archer** (promised_not_landed):
+     Archer still promised_not_landed. Parent merges only after ADV_PASS.
+     user-provided jimothy §159 are on main. This fold is §160 only.
+     Do not reclaim §147 through §159. Do not reopen or amend PR #23 through #85.
+     Does not bump 0.5.0 or 0.5.1.
+     notes.md §160. composition 933-948. findings batch #140.
+     Full cards: `faq.md`.
 
 
 

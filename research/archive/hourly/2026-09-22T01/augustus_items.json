@@ -1,0 +1,814 @@
+[
+  {
+    "id": "jev-chat/jev-chat-jarvis",
+    "kind": "NOVEL_HIGH",
+    "stars": 1192,
+    "why": "\u88c5\u5728\u624b\u673a\u4e0a\u7684\u5bf9\u8bdd\u526f\u9a7e\uff1a\u5728\u5fae\u4fe1 / QQ / X / \u98de\u4e66\u91cc\u8bfb\u61c2\u5bf9\u65b9\u3001\u7ed9\u51fa\u5019\u9009\u56de\u590d\u3001\u4e00\u952e\u586b\u5165\u8f93\u5165\u6846\uff0c\u53d1\u4e0d\u53d1\u7531\u4f60\u3002\u975e\u4fb5\u5165\uff0c\u53ea\u8bfb\u5c4f\u5e55\uff0c\u4e0d hook \u4e0d\u6539\u5305\u3002",
+    "description": "",
+    "html_url": "https://github.com/jev-chat/jev-chat-jarvis",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "jev-chat/jev-chat-windows",
+    "kind": "NOVEL_HIGH",
+    "stars": 39,
+    "why": "\u5fae\u4fe1\uff08Windows 4.x\uff09\u65c1\u6302\u7684\u56de\u590d\u8f85\u52a9\uff1a\u7a97\u53e3\u622a\u56fe + \u672c\u5730\u79bb\u7ebf OCR \u8bfb\u5bf9\u65b9\u6d88\u606f \u2192 Jev \u5224\u65ad\u610f\u56fe \u2192 3 \u6761\u5019\u9009\u4e00\u952e\u586b\u5165\uff0c\u53d1\u9001\u6c38\u8fdc\u624b\u52a8",
+    "description": "",
+    "html_url": "https://github.com/jev-chat/jev-chat-windows",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "yangyu666/dsh-jev-prune",
+    "kind": "NOVEL_HIGH",
+    "stars": 3,
+    "why": "Jev-judged context compaction for DeepSeek Harness: semantic tool-result pruning + deterministic receipt compaction",
+    "description": "",
+    "html_url": "https://github.com/yangyu666/dsh-jev-prune",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "alitrack/jev-clone",
+    "kind": "NOVEL_HIGH",
+    "stars": 1,
+    "why": "Local, contract-compatible System One decision server (typed questions -> calibrated probabilities, zero generation). Independent reimplementation; not affiliated with TypeSafe.",
+    "description": "",
+    "html_url": "https://github.com/alitrack/jev-clone",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "wotai-dev/typesafe-jev-tools",
+    "kind": "NOVEL_HIGH",
+    "stars": 1,
+    "why": "A Claude Code hook that asks whether the decision you are writing needs a model at all. Includes a measured 149-row comparison of TypeSafe Jev against Claude Haiku 4.5.",
+    "description": "",
+    "html_url": "https://github.com/wotai-dev/typesafe-jev-tools",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "AI-PM-Wiki/aipm-annotation-server",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "AI-PM Wiki \u81ea\u5efa\u6279\u6ce8\u540e\u7aef:GitHub OAuth + \u516c\u5f00/\u79c1\u6709\u6279\u6ce8\u5b58\u50a8 + Jev/LLM \u667a\u80fd\u9ad8\u4eae judge(\u5b50\u6a21\u5757,\u4e3b\u4ed3\u5e93 AI-PM-Wiki/AIPM)",
+    "description": "",
+    "html_url": "https://github.com/AI-PM-Wiki/aipm-annotation-server",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "ARCJ137442/jev-life",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "Life Chess \u00d7 Jev \u2014 measuring how a decision model adapts to entirely new rules | \u751f\u547d\u68cb \u00d7 Jev\uff1a\u6d4b\u91cf\u51b3\u7b56\u6a21\u578b\u5728\u5168\u65b0\u89c4\u5219\u4e0b\u7684\u9002\u5e94\u80fd\u529b",
+    "description": "",
+    "html_url": "https://github.com/ARCJ137442/jev-life",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "ChubbyOtter/jevDemo",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "AI-native Android UI test runner using TypeSafe/Jev + Appium",
+    "description": "",
+    "html_url": "https://github.com/ChubbyOtter/jevDemo",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "Chunshan-Theta/laya-service",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "description": "",
+    "html_url": "https://github.com/Chunshan-Theta/laya-service",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "DeadPackets/SwipeRepublic",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "Reigns-style card game with Luna and Jev.",
+    "description": "",
+    "html_url": "https://github.com/DeadPackets/SwipeRepublic",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "FahadArfin/Jev_Unreal",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "Typed Jev decisions and a guarded MCP workflow for Unreal Engine editor development.",
+    "description": "",
+    "html_url": "https://github.com/FahadArfin/Jev_Unreal",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "GeekLinkDev/jev-subtitle-translator",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "Translate SRT subtitles with structured LLM output and check every translation with Jev.",
+    "description": "",
+    "html_url": "https://github.com/GeekLinkDev/jev-subtitle-translator",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "HowBoring/haidass-kev-train",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "Kev-style decision-model training for DALabCommunity/Haidass1.5-143M",
+    "description": "",
+    "html_url": "https://github.com/HowBoring/haidass-kev-train",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "Kevin-HKUST/Time-Aware-Rare-Bird-Monitoring",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "Time-aware Hong Kong rare-bird monitoring with Jev: prospective prototype, ecological validation pending",
+    "description": "",
+    "html_url": "https://github.com/Kevin-HKUST/Time-Aware-Rare-Bird-Monitoring",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "LufeMC/seen",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "Search your Mac screen history. Native SwiftUI app with automatic Jev search, your own API key, and local fallback.",
+    "description": "",
+    "html_url": "https://github.com/LufeMC/seen",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "NatBrian/pokemon-showdown-jev-agent",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "Autonomous Pokemon Showdown battle agent powered by Jev AI, with a validated poke-env harness, safe fallback decisions, and a live dashboard for transparent battle state, legal moves, probabilities, telemetry, and Jev decision history.",
+    "description": "",
+    "html_url": "https://github.com/NatBrian/pokemon-showdown-jev-agent",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "P3lerA/jev-computer-use",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "description": "",
+    "html_url": "https://github.com/P3lerA/jev-computer-use",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "Pavan14K/jev-agent-router",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "description": "",
+    "html_url": "https://github.com/Pavan14K/jev-agent-router",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "TimMikeladze/JevLang",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "A policy engine for LLM decisions: declare routes, gates and actions once in TypeScript or Python, and every decision comes validated, explainable, replayable and audited.",
+    "description": "",
+    "html_url": "https://github.com/TimMikeladze/JevLang",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "TimMikeladze/jevcloud-next",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "description": "",
+    "html_url": "https://github.com/TimMikeladze/jevcloud-next",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "VirtualMachinist/bezel",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "Stock omp + overlay flake (skills, Jev gates)",
+    "description": "",
+    "html_url": "https://github.com/VirtualMachinist/bezel",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "YashDThapliyal/laya-whitebox-attack",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "White-box attacks on an open-weight AI agent monitor (Laya): it can be steered by rewording the agent's narration, even when its recorded actions are unchanged.",
+    "description": "",
+    "html_url": "https://github.com/YashDThapliyal/laya-whitebox-attack",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "aneesh-aparajit/jev",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "exploring jev.",
+    "description": "",
+    "html_url": "https://github.com/aneesh-aparajit/jev",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "aviletek/jev-flow-harness",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "description": "",
+    "html_url": "https://github.com/aviletek/jev-flow-harness",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "bvolpato/kevala",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "Decision models (Laya, Kev) in any web page: a zero-dependency Rust engine compiled to WebAssembly, with WebGPU kernels. One import, no server.",
+    "description": "",
+    "html_url": "https://github.com/bvolpato/kevala",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "cerredz/Vidbyte-Jev-Skills",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "A public respository for community-driven jev skills that can be directly integrated into the vidbyte-sdk's JevAgent.",
+    "description": "",
+    "html_url": "https://github.com/cerredz/Vidbyte-Jev-Skills",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "clydechen0228/laya",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "description": "",
+    "html_url": "https://github.com/clydechen0228/laya",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "danbao/jev-playwright",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "description": "",
+    "html_url": "https://github.com/danbao/jev-playwright",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "dxx1958693250-ops/jev-experiment",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "Jev AI Decision Experiment",
+    "description": "",
+    "html_url": "https://github.com/dxx1958693250-ops/jev-experiment",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "herakles-dev/typesafe-claude-kit",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "Claude Code kit for TypeSafe (Jev): agents, skill, client, calibration tools",
+    "description": "",
+    "html_url": "https://github.com/herakles-dev/typesafe-claude-kit",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "hf:TypeSafeAI/Step-5-Preview-GGUF",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "gguf endpoints_compatible region:us conversational",
+    "description": "",
+    "html_url": "https://huggingface.co/TypeSafeAI/Step-5-Preview-GGUF",
+    "source": "huggingface",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "hf:henrybit/jev-vs-deepseek",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "gradio decision-models system-one deepseek benchmark region:us",
+    "description": "",
+    "html_url": "https://huggingface.co/spaces/henrybit/jev-vs-deepseek",
+    "source": "huggingface",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "hf:ngila-ai/openjev",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "license:apache-2.0 region:us",
+    "description": "",
+    "html_url": "https://huggingface.co/ngila-ai/openjev",
+    "source": "huggingface",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "hf:ohtaman/jev-gemma-4-E2B-it-choice-64",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "text-classification transformers.js onnx gemma4 image-text-to-text webgpu text-classification choice-scoring base_model:google/gemma-4-E2B-it base_model:quantized:google/gemma-4-E2B-it license:apache-2.0 region:us",
+    "description": "",
+    "html_url": "https://huggingface.co/ohtaman/jev-gemma-4-E2B-it-choice-64",
+    "source": "huggingface",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "jasonjeske/hermes-jev-context-engine",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "Experimental selective context compaction for Hermes Agent using TypeSafe Jev. Native plugin, local archives, bounded scoring and honest evaluation.",
+    "description": "",
+    "html_url": "https://github.com/jasonjeske/hermes-jev-context-engine",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "jev-chat/.github",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "jev-chat \u7ec4\u7ec7\u9996\u9875\u5bfc\u822a",
+    "description": "",
+    "html_url": "https://github.com/jev-chat/.github",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "jev-chat/jev-chat.github.io",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "chatjevs.com \u5b98\u7f51\u843d\u5730\u9875",
+    "description": "",
+    "html_url": "https://github.com/jev-chat/jev-chat.github.io",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "jfrader/jev-mcp",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "Unofficial stdio MCP client for TypeSafe Jev. Bring your own API key.",
+    "description": "",
+    "html_url": "https://github.com/jfrader/jev-mcp",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "jiangxiluning/Visual-Jev",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "description": "",
+    "html_url": "https://github.com/jiangxiluning/Visual-Jev",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "jumboly/cogp-jev-lens",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "COGP \u00d7 JEV: AI Lens \u3067\u540c\u3058\u5730\u56f3\u3092\u898b\u308b Web GIS \u5b9f\u9a13",
+    "description": "",
+    "html_url": "https://github.com/jumboly/cogp-jev-lens",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "kellenGary/jev-lint",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "description": "",
+    "html_url": "https://github.com/kellenGary/jev-lint",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "kieranklaassen/compound-cli",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "Jev-powered recall over Compound Engineering learnings and packs",
+    "description": "",
+    "html_url": "https://github.com/kieranklaassen/compound-cli",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "kitapplegate/commander-oracle",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "Buy/Hold/Sell outlook for new Magic: The Gathering cards, driven by Commander demand. Price history + EDHREC + TypeSafe Jev judgments.",
+    "description": "",
+    "html_url": "https://github.com/kitapplegate/commander-oracle",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "kzkhykw/jev-auto-ime",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "\u6253\u3063\u3066\u3044\u308b\u8a00\u8449\u304c\u65e5\u672c\u8a9e\u304b\u82f1\u8a9e\u304b\u3092Jev\u306b\u805e\u3044\u3066\u3001Mac\u306e\u5165\u529b\u30e2\u30fc\u30c9\u3092\u5207\u308a\u66ff\u3048\u308b\u9053\u5177\u3002\u500b\u4eba\u5229\u7528\u306e\u307f\u3002",
+    "description": "",
+    "html_url": "https://github.com/kzkhykw/jev-auto-ime",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "lmbgithub/simple-system-one-model",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "Non-autoregressive decision model whose output layer is a Pydantic-validated schema: schema-conditioned heads generalise to question sets never seen in training",
+    "description": "",
+    "html_url": "https://github.com/lmbgithub/simple-system-one-model",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "marceloatoledo/jevMcp",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "description": "",
+    "html_url": "https://github.com/marceloatoledo/jevMcp",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "markylaredo/openjev-mcp",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "MCP server exposing TypeSafe's Jev through the public OpenJEV API. Send one shared context and several independent questions; get typed judgments and probabilities back \u2014 choice, score, or yes/no \u2014 not prose. Built for DeepSeek Harness; runs unchanged in any MCP client.",
+    "description": "",
+    "html_url": "https://github.com/markylaredo/openjev-mcp",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "maroofiums/LayaFlow",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "description": "",
+    "html_url": "https://github.com/maroofiums/LayaFlow",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "murphykfk/ra2-grouping8-agent",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "Sanitized, configurable Grouping8 automation agent for compatible RA2Web deployments, with a local Jev bridge.",
+    "description": "",
+    "html_url": "https://github.com/murphykfk/ra2-grouping8-agent",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "ohtaman/jev-browser-classifier",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "description": "",
+    "html_url": "https://github.com/ohtaman/jev-browser-classifier",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "onepayzk-glitch/dsh-typesafe-ask",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "Ask TypeSafe (Jev) for structured decisions from inside DeepSeek Harness: typed questions in, calibrated probabilities out.",
+    "description": "",
+    "html_url": "https://github.com/onepayzk-glitch/dsh-typesafe-ask",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "pgarvie/jev-trade",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "description": "",
+    "html_url": "https://github.com/pgarvie/jev-trade",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "raboija/PacmanLocalJev",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "Local Laya 322M typed decisions in a Pac-Man-inspired Windows app. NVIDIA CUDA, live probabilities, transparent planner guidance and reproducible benchmarks.",
+    "description": "",
+    "html_url": "https://github.com/raboija/PacmanLocalJev",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "rakshita-devurkar/syncroute",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "Routes synthetic data-sync connector failures to seven simulated recovery workflows using deterministic rules plus a Jev System One classifier. Policy code owns retry limits and approvals.",
+    "description": "",
+    "html_url": "https://github.com/rakshita-devurkar/syncroute",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "renanlalier/jev-benchmark",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "description": "",
+    "html_url": "https://github.com/renanlalier/jev-benchmark",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "scd13150/st-extension",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "\u57fa\u4e8e TypeSafe Jev (System One) \u539f\u751f\u4e91\u7aef API \u7684\u5ba2\u89c2\u5fc3\u667a\u88c1\u51b3\u4e0e\u60c5\u611f\u52a8\u529b\u5b66\u7f57\u76d8",
+    "description": "",
+    "html_url": "https://github.com/scd13150/st-extension",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "sheepice/Jev-WBC",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "description": "",
+    "html_url": "https://github.com/sheepice/Jev-WBC",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "sheshisheri-hi/jev-vs-llm-stock-policy",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "Side-by-side showcase: traditional LLM vs TypeSafe Jev (System One) on stock order policy decisions",
+    "description": "",
+    "html_url": "https://github.com/sheshisheri-hi/jev-vs-llm-stock-policy",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "sk8metalme/jev-practice",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "description": "",
+    "html_url": "https://github.com/sk8metalme/jev-practice",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "sujalgawas/Neurox",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "A trading bot that is create with JEV",
+    "description": "",
+    "html_url": "https://github.com/sujalgawas/Neurox",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "tayaee/typesafe-ai-jev-demo",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "description": "",
+    "html_url": "https://github.com/tayaee/typesafe-ai-jev-demo",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "tnspacetime/system-one-plus",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "description": "",
+    "html_url": "https://github.com/tnspacetime/system-one-plus",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "zlh1992/jev_local_qwen",
+    "kind": "NOVEL_HIGH",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "description": "",
+    "html_url": "https://github.com/zlh1992/jev_local_qwen",
+    "source": "github",
+    "material": [
+      "first_seen"
+    ]
+  },
+  {
+    "id": "AdoCbl/JEV-RESUME-POLISHER",
+    "kind": "REVISIT_HIGH",
+    "stars": 0,
+    "why": "REVISIT densify: description rewrite \u2014 AI resume polisher that fact-checks every line it writes against your real resume \u2014 no inv (*theirs*)",
+    "description": "AI resume polisher that fact-checks every line it writes against your real resume \u2014 no invented metrics, no inflated scope.",
+    "html_url": "https://github.com/AdoCbl/JEV-RESUME-POLISHER",
+    "source": "github",
+    "material": [
+      "description_rewrite"
+    ],
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "hf:aimeigaoshou/agent-jev",
+    "kind": "REVISIT_HIGH",
+    "stars": 0,
+    "why": "REVISIT densify: description rewrite \u2014 safetensors qwen3 region:us (*theirs*)",
+    "description": "safetensors qwen3 region:us",
+    "html_url": "https://huggingface.co/aimeigaoshou/agent-jev",
+    "source": "huggingface",
+    "material": [
+      "description_rewrite"
+    ],
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "sperictao/dsh-auto-review-jev",
+    "kind": "REVISIT_HIGH",
+    "stars": 0,
+    "why": "REVISIT densify: description rewrite \u2014 DeepSeek Harness plugin: per-tool-call Auto-permission review powered by TypeSafe Jev, wit (*theirs*)",
+    "description": "DeepSeek Harness plugin: per-tool-call Auto-permission review powered by TypeSafe Jev, with account usage and API-key management inline on its settings page",
+    "html_url": "https://github.com/sperictao/dsh-auto-review-jev",
+    "source": "github",
+    "material": [
+      "description_rewrite"
+    ],
+    "prior_sha": null,
+    "new_sha": null
+  },
+  {
+    "id": "tomtyiu/Jev-decision-plugin",
+    "kind": "REVISIT_HIGH",
+    "stars": 0,
+    "why": "REVISIT densify: description rewrite \u2014 A Codex plugin that turns noisy input into small, typed, calibrated decisions using TypeSa (*theirs*)",
+    "description": "A Codex plugin that turns noisy input into small, typed, calibrated decisions using TypeSafe Jev.",
+    "html_url": "https://github.com/tomtyiu/Jev-decision-plugin",
+    "source": "github",
+    "material": [
+      "description_rewrite"
+    ],
+    "prior_sha": null,
+    "new_sha": null
+  }
+]
