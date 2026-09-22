@@ -54,6 +54,8 @@ Use an independent exact-rational or high-precision oracle where possible.
 Check constant-mean preservation, finite bounded results and permutation
 invariance. A named “overflow test” at `1e308` does not cover float maximum;
 an algebraically equivalent rearrangement can introduce another failure.
+Check relationships between outputs too: a strict-support flag must not
+contradict its reported bound, and evidence labels must survive failure paths.
 
 ### Site and installation smoke checks
 

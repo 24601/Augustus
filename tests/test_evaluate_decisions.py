@@ -112,7 +112,34 @@ class EvaluateDecisionsTests(unittest.TestCase):
                 for fn in range(6-fp):
                     counts = (fp, fn, 5-fp-fn)
                     expected = float(sum(Fraction(c)*n for c, n in zip(costs, counts)) / 5)
-                    self.assertEqual(evaluate._weighted_cost(5, *zip(costs, counts)), expected)
+                    self.assertEqual(evaluate._weighted_mean(5, *zip(costs, counts)), expected)
+
+    def test_metric_constant_means_are_preserved(self):
+        for p in (0., 5e-324, 1e-20, .7, 1.):
+            for n in (3, 7, 100):
+                rows = [{"p": p, "y": 0}] * n
+                with self.subTest(p=p, n=n):
+                    self.assertEqual(evaluate.brier(rows), p**2)
+                    self.assertEqual(evaluate.reliability(rows)[0]["mean_p"], p)
+                    self.assertEqual(evaluate.ece_equal_width(rows), p)
+                    self.assertEqual(evaluate.ece_quantile(rows), p)
+
+    def test_brier_and_reliability_match_ratio_oracle_for_either_order(self):
+        rows = [{"p": 1., "y": 0}] + [{"p": math.sqrt(1e-17), "y": 0}] * 10000
+        expected_brier = float(sum(Fraction(row["p"]**2) for row in rows) / len(rows))
+        expected_mean = float(sum(Fraction(row["p"]) for row in rows) / len(rows))
+        for ordered in (rows, list(reversed(rows))):
+            self.assertEqual(evaluate.brier(ordered), expected_brier)
+            self.assertEqual(evaluate.reliability(ordered, bins=1)[0]["mean_p"], expected_mean)
+            self.assertEqual(evaluate.ece_equal_width(ordered, bins=1), expected_mean)
+            self.assertEqual(evaluate.ece_quantile(ordered, bins=1), expected_mean)
+
+    def test_ece_weighted_gaps_match_exact_oracle(self):
+        rows = [{"p": .1, "y": 0}] + [{"p": .5, "y": 0}]*3 + [{"p": .9, "y": 0}]*7
+        expected = float((Fraction(.1) + Fraction(.5)*3 + Fraction(.9)*7) / 11)
+        for ordered in (rows, list(reversed(rows))):
+            self.assertEqual(evaluate.ece_equal_width(ordered, bins=10), expected)
+            self.assertEqual(evaluate.ece_quantile(ordered, bins=11), expected)
 
     def test_negative_class_log_loss_does_not_cancel_small_probabilities(self):
         for p in (5e-324, 1e-20, 1e-17, 1e-10, .5):

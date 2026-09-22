@@ -80,7 +80,8 @@ Search reports are descriptive. Confirmation additionally supplies `alpha`,
 independent paired units, losses in `[0,B]`, and K prespecified comparisons,
 the helper computes a conservative one-sided upper bound for candidate-minus-
 incumbent mean loss: `mean_delta + B * sqrt(2*log(K/alpha)/n)`, capped at B.
-It tests a strict improvement margin; insufficient support is inconclusive.
+The accumulated upper rounds upward; a reported equality never supports a
+strict margin. The transcendental radius uses ordinary floating-point math.
 This is a fixed-sample Hoeffding/union-bound calculation, not a sequential test.
 
 The helper rejects malformed/unpaired inputs, reports observed violations despite
@@ -90,6 +91,11 @@ verify caller-supplied labels, sampling, isolation or causal identification;
 fixture evidence stay labeled. A supported loss margin neither enforces separate
 SLAs nor authorizes deployment. Supply real complete-workflow costs and check all
 product gates separately. This local tool never calls models or executes actions.
+
+Optional `excluded_units` (nonnegative integer) and `missing_outcome_policy`
+(text) preserve declared attrition; absent/null is unknown, not zero exclusions.
+Summaries cover supplied pairs only. These fields do not correct selection bias
+or establish the confirmation assumptions.
 
 ## Judgment: what these optimizers may climb (Hypothesis)
 

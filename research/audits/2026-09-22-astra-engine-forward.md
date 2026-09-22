@@ -269,6 +269,12 @@ and deployment are not performed here.
 
 ## Complete reproduction artifacts
 
+Historical pin: this harness requires the helper bytes reviewed at `9b4d86d`,
+not the later 0.7.0 helper. Keep that pin for historical reproduction. Subsequent
+direct receipt replays and corrections are recorded in the
+[adversarial audit](2026-09-22-adversarial-070.md) and release PR; do not change
+the embedded hash and present a new run as the original blind exercise.
+
 Save the following code and CSV blocks as `eval_refund_intent.py` and
 `fixture.csv` in a fresh directory. With the reviewed Augustus runtime at
 the path shown, execute:

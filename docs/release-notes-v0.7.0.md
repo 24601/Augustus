@@ -50,12 +50,14 @@ and explicit constraints—not merely read about model placement.
   requested GPT-6 Astra/xhigh agents. Corrected unnecessary training/filtering
   requirements, a blanket calibration prerequisite, post-action enforcement
   claims, Alloy temporal limits, and distillation overstatements.
-- **Regression protection.** The offline suite grows from 53 to 98 tests.
+- **Regression protection.** The offline suite grows from 53 to 106 tests.
   Skill scenarios grow from 12 to 31, with fresh answers reviewed by the
   coordinator. Structural checks and behavioral smoke tests are distinct.
   Adversarial review additionally caught maximum-float overflow, subnormal
   aggregation/delta errors and log-loss cancellation; exact arithmetic oracles,
   randomized boundary probes and fixed-sample null checks now cover those paths.
+  Fable follow-up notes drove strict-bound/report consistency, stable Brier/ECE
+  aggregation, explicit exclusions and fixture-preserving violation labels.
 - **Discoverability checks.** Corrected About metadata, verified current directory
   presence and page layout, fixed encoded fragments, and added `noindex` checks.
   Audited existing awesome-list entries and drafted targeted positioning updates;

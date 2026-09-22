@@ -127,7 +127,7 @@ def _unique_object(pairs):
 
 def brier(rows, key="p"):
     _validate_rows(rows, key)
-    return sum((row[key] - row["y"]) ** 2 for row in rows) / len(rows)
+    return statistics.mean((row[key] - row["y"]) ** 2 for row in rows)
 
 
 def log_loss(rows, key="p"):
@@ -168,8 +168,8 @@ def reliability(rows, bins=10, key="p"):
             result.append({
                 "bin": f"[{_format_boundary(lo)},{_format_boundary(hi)}{right}",
                 "n": len(bucket),
-                "mean_p": sum(row[key] for row in bucket) / len(bucket),
-                "rate": sum(row["y"] for row in bucket) / len(bucket),
+                "mean_p": statistics.mean(row[key] for row in bucket),
+                "rate": statistics.mean(row["y"] for row in bucket),
             })
     return result
 
@@ -178,8 +178,8 @@ def ece_equal_width(rows, bins=10, key="p"):
     """Equal-width expected calibration error for a binary positive probability."""
     buckets = reliability(rows, bins=bins, key=key)
     total = len(rows)
-    return sum(bucket["n"] / total * abs(bucket["mean_p"] - bucket["rate"])
-               for bucket in buckets)
+    return _weighted_mean(total, *((abs(bucket["mean_p"] - bucket["rate"]), bucket["n"])
+                                   for bucket in buckets))
 
 
 def ece_quantile(rows, bins=10, key="p"):
@@ -188,7 +188,7 @@ def ece_quantile(rows, bins=10, key="p"):
     bins = min(_positive_bins(bins), len(rows))
     ordered = sorted(rows, key=lambda row: row[key])
     start = 0
-    total = 0.0
+    gaps = []
     for index in range(bins):
         if start == len(ordered):
             break
@@ -197,12 +197,11 @@ def ece_quantile(rows, bins=10, key="p"):
         while end < len(ordered) and ordered[end - 1][key] == ordered[end][key]:
             end += 1
         bucket = ordered[start:end]
-        total += len(bucket) / len(rows) * abs(
-            sum(row[key] for row in bucket) / len(bucket)
-            - sum(row["y"] for row in bucket) / len(bucket)
-        )
+        gap = abs(statistics.mean(row[key] for row in bucket)
+                  - statistics.mean(row["y"] for row in bucket))
+        gaps.append((gap, len(bucket)))
         start = end
-    return total
+    return _weighted_mean(len(rows), *gaps)
 
 
 def accuracy(rows, threshold=0.5, key="p"):
@@ -235,10 +234,10 @@ def pairwise_ranking_auc(rows, key="p"):
     return wins / (positive_total * negative_total)
 
 
-def _weighted_cost(total, *cost_counts):
+def _weighted_mean(total, *value_counts):
     # Exact rational accumulation avoids rounded shares overflowing a finite
-    # mean or erasing subnormal costs. Only the final result rounds to float.
-    return float(sum(Fraction(cost) * count for cost, count in cost_counts) / total)
+    # mean or erasing subnormal values. Only the final result rounds to float.
+    return float(sum(Fraction(value) * count for value, count in value_counts) / total)
 
 
 def _complete_cost(fp, fn, total, cost_fp, cost_fn):
@@ -250,7 +249,7 @@ def _complete_cost(fp, fn, total, cost_fp, cost_fn):
     cost_fn = _nonnegative_cost(cost_fn, "cost-fn")
     if cost_fp == 0.0 and cost_fn == 0.0:
         raise ValueError("at least one of cost-fp or cost-fn must be positive")
-    return _weighted_cost(total, (cost_fp, fp), (cost_fn, fn))
+    return _weighted_mean(total, (cost_fp, fp), (cost_fn, fn))
 
 
 def sweep(rows, thresholds, cost_fp=None, cost_fn=None, key="p"):
@@ -336,7 +335,7 @@ def selective_policy(rows, lower, upper, cost_fp=None, cost_fn=None, cost_abstai
         c_abstain = _nonnegative_cost(cost_abstain, "cost-abstain")
         if c_fp == c_fn == c_abstain == 0.0:
             raise ValueError("at least one policy cost must be positive")
-        cost = _weighted_cost(len(rows), (c_fp, fp), (c_fn, fn), (c_abstain, abstained))
+        cost = _weighted_mean(len(rows), (c_fp, fp), (c_fn, fn), (c_abstain, abstained))
     return {
         "lower_threshold": lower,
         "upper_threshold": upper,

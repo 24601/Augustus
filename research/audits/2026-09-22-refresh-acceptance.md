@@ -257,4 +257,16 @@ verdicts and staged hashes. The user's subsequently requested Claude Code
 Fable 5.1/xhigh review is a new pending acceptance gate, not a relabeling of
 earlier Astra work or an assertion that a requested review has already run.
 
+### Fable follow-up stage
+
+The user-requested Claude Code Fable 5.1/xhigh/permission-bypass review of
+`02f379a` returned ship; its [complete report](https://github.com/24601/Augustus/pull/91#issuecomment-5781351558)
+includes numerical and consistency notes the parent chose to correct before
+release. The [adversarial audit](2026-09-22-adversarial-070.md) records those
+corrections, 106 passing tests on three Python versions and the new runtime hash.
+The original 40 answers retain their original byte provenance. Three runtime
+references and both helpers changed in this follow-up; there is no claim that
+those earlier answers exercised the new bytes. A fresh final read-only Fable
+review and exact-candidate installation/publication checks remain gates.
+
 API-EQUIVALENT COST RECEIPT: unavailable—native tools did not expose complete usage.

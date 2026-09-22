@@ -72,7 +72,71 @@ class WorkflowComparisonTests(unittest.TestCase):
         result = compare.compare(data)
         self.assertTrue(result["confirmation"]["strict_margin_supported"])
         self.assertEqual(result["candidate"]["units_with_violations"], 1)
-        self.assertEqual(result["assessment"], "observed_candidate_constraint_violation")
+        self.assertEqual(result["assessment"], "adjudicated_candidate_constraint_violation")
+
+    def test_constraint_assessment_retains_each_evidence_kind(self):
+        for kind in ("fixture", "proxy", "observed", "adjudicated"):
+            data = receipt()
+            data["evidence_kind"] = kind
+            data["pairs"][0]["candidate"]["violations"] = ["test violation"]
+            with self.subTest(kind=kind):
+                result = compare.compare(data)
+                self.assertEqual(result["evidence_kind"], kind)
+                self.assertEqual(result["assessment"], f"{kind}_candidate_constraint_violation")
+
+    def test_exclusions_are_explicit_unknown_or_caller_declared_not_adjustments(self):
+        data = receipt()
+        unknown = compare.compare(data)
+        self.assertIsNone(unknown["excluded_units"])
+        self.assertIsNone(unknown["missing_outcome_policy"])
+        for excluded in (0, 3):
+            data.update(excluded_units=excluded, missing_outcome_policy="Prespecified complete-case analysis; attrition sensitivity required separately.")
+            result = compare.compare(data)
+            self.assertEqual(result["excluded_units"], excluded)
+            self.assertEqual(result["missing_outcome_policy"], data["missing_outcome_policy"])
+            self.assertEqual(result["paired_units"], 4)
+            self.assertEqual(result["confirmation"], unknown["confirmation"])
+            self.assertEqual(result["mean_loss_delta"], unknown["mean_loss_delta"])
+
+    def test_exclusion_metadata_validates_without_coercion(self):
+        for field, values in (("excluded_units", (True, False, -1, 0., "3", [])),
+                              ("missing_outcome_policy", (False, 0, "", " ", []))):
+            for value in values:
+                with self.subTest(field=field, value=value), self.assertRaises(ValueError):
+                    compare.compare(dict(receipt(), **{field: value}))
+
+    def test_strict_margin_cannot_claim_support_at_reported_equality(self):
+        data = receipt(16)
+        data.update(loss_bound=.7, minimum_improvement=.1649435713375823)
+        for pair in data["pairs"]:
+            pair["incumbent"]["loss"] = .7
+            pair["candidate"]["loss"] = .10670073329327479
+        result = compare.compare(data)["confirmation"]
+        self.assertGreaterEqual(result["upper_mean_loss_delta"], -data["minimum_improvement"])
+        self.assertFalse(result["strict_margin_supported"])
+
+    def test_confirmation_upper_rounds_outward_and_flag_matches_report(self):
+        rng = random.Random(70324)
+        for bound in (5e-324, 1e-300, .7, 1., 1e300, sys.float_info.max):
+            for _ in range(30):
+                data = receipt(rng.randrange(2, 20))
+                data["loss_bound"] = bound
+                exact_delta = Fraction(0)
+                for pair in data["pairs"]:
+                    old, new = rng.random()*bound, rng.random()*bound
+                    pair["incumbent"]["loss"], pair["candidate"]["loss"] = old, new
+                    exact_delta += Fraction(new) - Fraction(old)
+                exact_delta /= len(data["pairs"])
+                radius = math.sqrt(2 * -math.log(data["alpha"]) / len(data["pairs"]))
+                exact_upper = min(Fraction(bound), exact_delta + Fraction(radius)*Fraction(bound))
+                result = compare.compare(data)["confirmation"]
+                upper = result["upper_mean_loss_delta"]
+                self.assertGreaterEqual(Fraction(upper), exact_upper)
+                self.assertLessEqual(upper, bound)
+                self.assertEqual(result["strict_margin_supported"], upper < 0)
+                if upper < 0:
+                    data["minimum_improvement"] = -upper
+                    self.assertFalse(compare.compare(data)["confirmation"]["strict_margin_supported"])
 
     def test_unknown_cost_is_not_zero_or_known_only_average(self):
         data = receipt()

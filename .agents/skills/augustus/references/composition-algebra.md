@@ -74,9 +74,10 @@ agreement or confidence does not supply the unknown conditional TV. Unbounded
 loss, a different action set or an unidentified causal law breaks the transfer.
 
 **Information: augmentation is not substitution.** With fixed acts/loss and a
-common joint model, an optimal policy may ignore a free extra observation, so
-its Bayes risk cannot increase. Acquisition cost, delay, privacy and bounded
-computation can reverse the practical value. Blackwell experiment dominance
+correct joint model, a single decision-maker's optimal policy may ignore a free
+extra observation, so its Bayes risk cannot increase. Estimation, misspecification,
+strategic responses, acquisition cost, delay, privacy and bounded computation
+can reverse practical value. Blackwell experiment dominance
 is stronger than one accuracy score, but an isolated comparison need not hold
 beside arbitrary background evidence. For independent fair bits Y,C, signals
 `A=C` and `B=Y xor C` each reveal nothing about Y alone. Given C, B determines Y

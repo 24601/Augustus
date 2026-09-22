@@ -8,6 +8,8 @@ Each pair has a unique id and incumbent/candidate objects with loss in
 [0, loss_bound], cost (nonnegative or null), latency_ms (nonnegative or null),
 and violations (a list of nonempty strings). Confirmation also needs alpha,
 minimum_improvement, and a positive integer comparison_count fixed in advance.
+Optional excluded_units (nonnegative integer or null) and missing_outcome_policy
+(nonempty text or null) record caller-declared attrition; absent means unknown.
 
 Confirmation uses a one-sided Hoeffding bound on paired loss differences.
 Its assumptions are independent representative units, a fixed sample size,
@@ -80,6 +82,12 @@ def compare(receipt):
     kind = receipt.get("evidence_kind")
     if kind not in ("observed", "adjudicated", "proxy", "fixture"):
         raise ValueError("evidence_kind must be observed, adjudicated, proxy, or fixture")
+    excluded = receipt.get("excluded_units")
+    if excluded is not None and (type(excluded) is not int or excluded < 0):
+        raise ValueError("excluded_units must be a nonnegative integer or null")
+    missing_policy = receipt.get("missing_outcome_policy")
+    if missing_policy is not None:
+        missing_policy = _text(missing_policy, "missing_outcome_policy")
     bound = _number(receipt.get("loss_bound"), "loss_bound")
     if bound == 0:
         raise ValueError("loss_bound must be positive and fixed before evaluation")
@@ -135,7 +143,6 @@ def compare(receipt):
         for old, new in zip(arms["incumbent"], arms["candidate"])
     ) / len(pairs)
     delta = float(exact_delta)
-    mean_normalized_delta = float(exact_delta / Fraction(bound))
     confirmation = None
     assessment = "descriptive_search_only"
     if phase == "confirm":
@@ -149,9 +156,15 @@ def compare(receipt):
         # Bonferroni across the declared, prespecified family. log form avoids
         # alpha/count underflow. Hoeffding range of normalized differences is 2.
         radius = math.sqrt(2 * (math.log(count) - math.log(alpha)) / len(pairs))
-        normalized_upper = min(1.0, mean_normalized_delta + radius)
-        upper = normalized_upper * bound
-        supported = normalized_upper < -(margin / bound)
+        # Accumulate in loss units exactly, then round the reported upper
+        # toward +infinity. Test that same upper so a rounded equality never
+        # claims strict improvement. The transcendental radius still uses
+        # platform binary64 math, not a certified interval implementation.
+        exact_upper = min(Fraction(bound), exact_delta + Fraction(radius) * Fraction(bound))
+        upper = float(exact_upper)
+        if Fraction(upper) < exact_upper:
+            upper = math.nextafter(upper, math.inf)
+        supported = upper < -margin
         confirmation = {
             "method": "one-sided paired Hoeffding; fixed sample; Bonferroni family",
             "family_alpha": alpha,
@@ -164,7 +177,7 @@ def compare(receipt):
     if kind in ("proxy", "fixture"):
         assessment = f"{kind}_evidence_only"
     if summaries["candidate"]["units_with_violations"]:
-        assessment = "observed_candidate_constraint_violation"
+        assessment = f"{kind}_candidate_constraint_violation"
 
     return {
         "schema_version": 1,
@@ -172,6 +185,8 @@ def compare(receipt):
         "phase": phase,
         "evidence_kind": kind,
         "paired_units": len(pairs),
+        "excluded_units": excluded,
+        "missing_outcome_policy": missing_policy,
         "loss_bound": bound,
         "incumbent": summaries["incumbent"],
         "candidate": summaries["candidate"],
@@ -180,6 +195,7 @@ def compare(receipt):
         "assessment": assessment,
         "limits": [
             "Arithmetic on supplied outcomes, not verification of labels, independence, causal identification, or dataset isolation.",
+            "Paired summaries cover supplied pairs only; exclusions and missing-outcome policy are caller declarations, not attrition correction. Null means unknown.",
             "Confirmation needs a prespecified sample/family, frozen policies/loss, and representative independent units; no optional stopping or adaptive test reuse.",
             "Zero observed violations is not proof of constraint compliance; missing costs/latencies remain unknown.",
             "A loss bound does not satisfy separate latency, cost, subgroup, safety, or deployment gates. No policy is promoted or executed.",
