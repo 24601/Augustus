@@ -1,3 +1,20 @@
+## Hourly 1949 HIGH (notes.md §160 / items 933-948 / batch #140)
+
+- Folded onto post-#85 `main` (`dc09713`). user-provided jimothy §159 is on main.
+  This fold is §160 only. Do not reclaim §147 through §159.
+  **HARD RULE:** do not reopen or amend PR #23 through #85.
+  Does not bump 0.5.0 or 0.5.1. Skip Archer. `invented_signal: false`.
+- PRIMARY: jev-chat/jev-chat-jarvis fills a box and never sends.
+  TypeSafe Jev stays the default path. wotai-dev/typesafe-jev-tools
+  asks whether a model is needed and never blocks. alitrack/jev-clone
+  is contract-compatible and not a replica. Readout is model-dependent.
+  0.5 on a prune threshold is a config default, not a decision boundary.
+- REVISIT densify: AdoCbl/JEV-RESUME-POLISHER and tomtyiu/Jev-decision-plugin
+  stay §158. hf:aimeigaoshou/agent-jev stays §146. 79.25% stays the prior
+  number. sperictao/dsh-auto-review-jev is a first card under a revisit
+  tag. Do not mint a sibling first sighting.
+- Uniqueness lock lives in `research/notes.md` and `uniqueness_gate.py` only.
+
 ## User-provided jimothy (notes.md §159 / items 917-932 / batch #139)
 
 - Folded onto post-#84 `main` (`7d01516`). hourly 1851 §158 is on main.

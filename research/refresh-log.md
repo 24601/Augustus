@@ -1,3 +1,25 @@
+## 2026-09-22 ~01:49 UTC / ~19:49 Boise - Hourly 1949 HIGH
+- Folded onto post-#85 `main` (`dc09713`). user-provided jimothy §159 is on main.
+  This fold is §160 only. This fold: `notes.md` §160 / composition 933-948 /
+  findings batch #140. Do not reclaim §147 through §159.
+  **HARD RULE:** do not reopen or amend PR #23 through #85.
+- PRIMARY: jev-chat/jev-chat-jarvis is a screen sensor. Fills never send.
+  jev-chat/jev-chat-windows keeps send manual and uses local OCR.
+  wotai-dev/typesafe-jev-tools asks whether a model is needed.
+  alitrack/jev-clone is independent and not affiliated. Readout quality
+  moves with the backing model. yangyu666/dsh-jev-prune judges keep or
+  discard and does not rewrite the compaction algorithm. Class numbers
+  stay *theirs*, not Harbor. Qwen3.5, Qwen3.6, Qwen3-0.6B, and Gemma 4
+  are not Archer.
+  Densify §158 and §146, not sibling first sightings.
+- Evidence: live GitHub REST and Hugging Face HTTP on 2026-09-22.
+  Watch star counts are not the fold reason. hf:henrybit/jev-vs-deepseek
+  returned HTTP 401. Several README fetches returned HTTP 404. Empty
+  repos returned HTTP 409. Do not invent a HEAD or a score. No X API calls.
+  Archer stays promised_not_landed.
+- Uniqueness lock lives in `research/notes.md` only (plus the gate fixture).
+  `invented_signal: false`. No Augustus call site. X disabled. No new X quotes.
+
 ## 2026-09-22 - User-provided jimothy
 - Folded onto post-#84 `main` (`7d01516`). hourly 1851 §158 is on main.
   This fold is §159 only. This fold: `notes.md` §159 / composition 917-932 /

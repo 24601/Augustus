@@ -1,5 +1,52 @@
 # Deep-read findings (evidence for research/notes.md)
 
+## Batch #140 (2026-09-22 ~19:49 Boise) - hourly 1949 HIGH
+
+Note: `research/notes.md` §160. Composition 933-948.
+user-provided jimothy §159 is on main. This fold is §160 only.
+Do not reclaim §147 through §159.
+Jimothy stays §159 / composition 917-932 / batch #139.
+This fold stays §160 / items 933-948 / batch #140.
+**HARD RULE:** do not reopen or amend PR #23 through #85.
+The consecutive lock string lives in notes.md and uniqueness_gate.py only.
+README still ends at License. Does not bump 0.5.0 or 0.5.1.
+`invented_signal: false`. Parent merges only after ADV_PASS.
+X is disabled. No X API calls. No new X quotes.
+
+- **jev-chat/jev-chat-jarvis.** Phone copilot. Screen is a sensor.
+  Fills never send. Not a hook and not a package rewrite.
+  Live stars are not the fold reason.
+- **jev-chat/jev-chat-windows.** WeChat Windows sidecar. Local OCR.
+  Three candidates. Send always manual. Not the Android jarvis repo.
+- **wotai-dev/typesafe-jev-tools.** Asks whether a decision needs a
+  model. The hook never blocks. Accuracy splits across categories.
+  Pricing and limits 404, so a cheaper multiple is not checkable.
+- **alitrack/jev-clone.** Independent, not affiliated. Readout is
+  model-dependent. An option score is not a calibrated decision.
+  Qwen3.5 and Qwen3.6 are not Archer.
+- **yangyu666/dsh-jev-prune.** Compaction algorithms stay untouched.
+  Relative quantiles. keepThreshold 0.5 is a config default.
+  0.5 is not a decision boundary.
+- **YashDThapliyal/laya-whitebox-attack.** p = 0.865 still soft.
+  Narration swaps flip verdicts. Do not copy an attack procedure.
+  Laya is not TypeSafe.
+- **bvolpato/kevala.** WASM and WebGPU. Serving substrate is not a
+  calibrated replica. Kev is not TypeSafe.
+- **hf:ohtaman/jev-gemma-4-E2B-it-choice-64.** No weights were
+  fine-tuned. First-token logits are not a calibrated Noul.
+  Gemma 4 is not Archer.
+- **sperictao/dsh-auto-review-jev.** First card. Revisit tag, no prior
+  notes card. Fail closed. Allow once is one call. Permission is not
+  confidence.
+- **AdoCbl/JEV-RESUME-POLISHER** and **tomtyiu/Jev-decision-plugin**
+  densify §158. **hf:aimeigaoshou/agent-jev** densifies §146.
+  79.25% stays the prior number. SHA move is not a replica.
+- **pgarvie/jev-trade.** A live key sends real orders. Dry run when
+  no private key. This card is not a trading procedure.
+- Soft judgment never sole veto. Ranking is not calibration.
+  Accuracy is not calibration. Catalog is not endorsement.
+  *theirs* not Harbor. Skip Archer.
+
 ## Batch #139 (2026-09-22) - user-provided jimothy
 
 Note: `research/notes.md` §159. Composition 917-932.
