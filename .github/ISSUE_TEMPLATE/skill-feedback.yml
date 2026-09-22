@@ -1,0 +1,47 @@
+name: Skill or installation feedback
+description: Help us reproduce an installation problem or an unhelpful recommendation.
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Share a minimal, sanitized example. Do not include credentials, customer
+        data, private prompts, or confidential documents. Use SECURITY.md for
+        sensitive security reports.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Where did it fail?
+      options:
+        - Installation or discovery
+        - Skill activated for the wrong task
+        - Skill missed a relevant task
+        - Recommendation or evidence quality
+        - Documentation or evaluator
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Version and environment
+      description: Augustus version/commit, agent and version, installation method, operating system.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal request or reproduction
+      description: Include only what another person needs to reproduce the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and observed behavior
+      description: What would have been useful? What actually happened? Include commands/errors if relevant.
+    validations:
+      required: true
+  - type: input
+    id: discovery
+    attributes:
+      label: How did you find Augustus? (optional)
+      description: For example GitHub search, skills.sh, a colleague, or the website.

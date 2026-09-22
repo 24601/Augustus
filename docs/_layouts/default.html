@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light dark" />
     {% seo %}
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -31,6 +32,9 @@
         <ul class="nav-links">
           <li>
             <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
+          </li>
+          <li>
+            <a href="{{ '/examples.html' | relative_url }}"{% if page.url contains 'examples' %} aria-current="page"{% endif %}>Examples</a>
           </li>
           <li>
             <a href="{{ '/ecosystem.html' | relative_url }}"{% if page.url contains 'ecosystem' %} aria-current="page"{% endif %}>Ecosystem</a>

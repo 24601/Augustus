@@ -15,3 +15,8 @@ credentials.json
 .npmrc
 .pypirc
 *.sarif
+__pycache__/
+*.py[cod]
+.venv/
+_site/
+.jekyll-cache/

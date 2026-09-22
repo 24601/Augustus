@@ -1,245 +1,226 @@
-# Jev inside optimizer and program frameworks (Ax, DSPy, and the pattern)
+# Judgment models inside optimizer and program frameworks
 
-Grounded in live repos as of 2026-09-18: `ax-llm/ax` (native typesafe
-provider, TypeScript-only), `typesafeainate/dspy-typesafeify` (Python DSPy
-decorator PoC) + `jmanhype/jev-dspy-lab` (its measurement lab). Re-verify
-against the archive before relying; both are young.
+This card places bounded judgments around Ax/DSPy-style programs. It is not an
+API guide. [Ax](https://github.com/ax-llm/ax) and DSPy optimizers search an LM
+program's prompts, demonstrations, modules, and sometimes model choice. They do
+not inherit authority over application policy, permissions, or state.
 
-This card is the **placement** of a judgment-class model inside an
-optimizer loop — which seat it takes, which it must not, and what you owe
-before trusting its numbers. Option names below are named so you can find
-them, not transcribed as a call shape: the frameworks' own docs own their
-signatures, and `typesafe-ai` plus the live docs own Jev's request body.
-Do not write either from this page. DSPy and Ax tune the LM-program
-slice only. They are never the primary System One calibration score;
-that seat is a jevals-shaped labeled suite, and a product loop is a
-Harbor taskset (`validation.md`, Eval & hill-climb). Shared bake-off
-exemplar this hour: [`pngwn/open-jev-laya-bench`](https://huggingface.co/datasets/pngwn/open-jev-laya-bench)
-scores ECE/NLL/Brier — not an LLM-as-judge paragraph (`notes.md` §46).
+TypeSafe Jev is the project's default hosted decision exemplar. It is not an
+empirical adoption claim, and calibration-oriented training is not a guarantee
+of calibrated deployment behavior.
 
 ## Judgment: what these optimizers may climb (Hypothesis)
 
-DSPy is the Python LM-program optimizer. Ax is the DSPy-style
-TypeScript one
-([ax-llm/ax](https://github.com/ax-llm/ax); the README calls it DSPy
-for TypeScript). Both climb **LM program knobs** — prompts,
-demonstrations, module graphs, sometimes which model. That is a narrow
-yes. It is not a perception pipeline and not a calibration loop.
-`validation.md`; `research/notes.md` §41.
+An optimizer may search:
 
-Use them for criteria and instruction text, and for few-shot
-demonstrations, on a generative or constrained-AR decision head
-(TypeAR, a schema-prompted LLM), and for an optional LLM rewrite of a
-perception-to-state summary.
+- instructions and criteria text;
+- few-shot examples;
+- decomposition and module arrangement;
+- generator prompts and model choices;
+- a bounded rubric used as a semantic metric, if that metric is independently
+  validated.
 
-Do not expect them to climb SAM multiplex, which objects to keep, ASR
-decoding or diarization, Jev API calibration, or the choice between a
-staged pair and a native multimodal System One. Proprietary Jev has no
-prompt loop: schema, criteria, and policy thresholds, scored on labeled
-eval (jevals) — not a search over a decoder. Open recipes such as
-Nimble: climb data curation and LoRA, measured on holdout ECE and
-agreement. Nimble's published holdout is agreement on synthetic
-labels, not a measured ECE (`judgment-class.md`). kev: climb LoRA /
-public-gold labels; the published ID ECE is a receipt, not your
-workflow (`notes.md` §45).
+Keep outside the search:
 
-No call shape in this paragraph. The adapter notes below stay names of
-seats, not a request you copy.
+- authorization, tool grants, and irreversible-action policy;
+- exact ontology and schema invariants;
+- train/validation/test splits and frozen outcome labels;
+- candidate sources and coverage guarantees;
+- state-machine transitions and recovery rules;
+- the final confirmatory threshold.
+
+Do not ask an LM-program optimizer to tune perception, retrieval recall,
+calibration, and application policy as one opaque objective. Each stage needs
+its own evidence and acceptance test.
 
 ## The converging integration pattern
 
-Every framework lands on the same shape: **typed outputs → one Jev request;
-freeform outputs → the generative model; results recombined into the same
-program interface.** The program's signature/prediction API does not change.
+```text
+input state
+  → exact preparation and candidate construction
+  → one batched bounded-decision step for typed fields
+  → policy code
+  → generative program for freeform leftovers
+  → validation and observed outcome
+```
 
-| Framework | Mechanism | Typed outputs | Freeform outputs |
-|---|---|---|---|
-| Ax (typesafe provider) | signature adapter: field descriptions become Noul/Choice/Score criteria | `boolean` (Noul + `trueThreshold`, default 0.5), `class` (Choice) | unsupported — second generative program |
-| Ax native client | one request carrying the shared state plus all typed questions | Noul/Choice/Score with structured criteria | — |
-| DSPy (`@typesafeify`) | signature-output annotation → hybrid execution plan | `bool` (thresholded Noul), `Literal` (Choice), configured score field (Score) | generative LM **after** typed results known |
+Typed and freeform outputs should remain distinct even when a framework exposes
+one prediction interface. Boolean-like, enum, and ordered fields can use a
+decision provider; prose and code remain generative. If a later generated field
+depends on typed results, pass those results as explicit inputs rather than
+splicing them into hidden prompt state.
 
-## Design rules that transfer (from the adapter source, not vibes)
+Constrained autoregressive fields are a valid alternative, but their schema
+validity and token probabilities do not acquire a decision head's semantics.
+Classical supervised models may be better for stable labeled fields. Span
+extractors, rankers, and vision scorers keep their family-specific objectives.
 
-- Ax `trueThreshold` is **local conversion policy, never sent to the
-  provider**; it applies to every boolean on that provider instance. One
-  threshold per provider ≠ per-action costs — set per-action gates in your
-  own policy layer instead of different provider instances.
-- Field/description mapping is validated strictly: duplicate or unknown
-  criteria keys and empty descriptions **fail before network access**.
-  Quote class labels containing spaces/punctuation.
-- Adapter rejects optional, array, nested, numeric, and freeform outputs
-  pre-network. Numeric `min`/`max` does NOT become a Score rubric — use the
-  native client for Scores.
-- No streaming, no temperature, no samples, no media. `streamingForward()`
-  returns a completed result, not a stream.
-- Question keys are answer labels, not instructions — native entries need
-  explicit `instructions`; Choice 1–255 labels, Score 2–10 levels.
-- Chat log keeps `providerMetadata.typesafe.answers` — read distributions
-  from there, not from the booleanized program result, when calibrating.
+## Design rules that transfer
 
-## Optimizers (GEPA / DSPy teleprompters) — what to couple, what not
+- Validate field descriptions, criteria, labels, and duplicate keys before any
+  model call.
+- Keep threshold conversion in application policy. One global boolean threshold
+  rarely matches different action costs.
+- Preserve full distributions for evaluation; do not discard them after
+  booleanization.
+- Batch independent typed fields over shared state. Sequence only when later
+  candidates depend on earlier answers.
+- Include `other`/`none` when label coverage is open.
+- Record provider/model, rubric, candidates, optimizer version, policy version,
+  and dataset version.
+- Treat provider errors as a distinct outcome. Do not silently relabel a
+  generator or heuristic fallback as the primary decision model.
+- Re-check state and authority before executing the chosen action; optimization
+  does not remove time-of-check/time-of-use risk.
 
-- **Jev does not replace the optimizer's search role.** It replaces the
-  *executor* of typed fields and the *judge* of scalar metrics. Keep the
-  optimizer loop (GEPA Pareto / MIPRO-style proposal + selection) intact.
-- **Judge consistency is Jev's optimizer win.** Axiom: optimizer metrics must
-  be deterministic and cheap; an LLM-judge metric adds the judge's own
-  variance into the search signal. The measured judge-variance recipe
-  (100 reps over frozen outputs: Jev judge ratings varied 224–279× less than
-  a GPT judge's, danielgshea/jev-dspy-lab-adjacent result) makes a Jev judge
-  the defensible choice for optimizer metrics that need semantic judgment:
-  same frozen-output variance check first, then wire the Jev judge as a
-  deterministic-ish metric.
-- **Teacher/student split fits the primitives**: teacher (frontier model)
-  proposes candidates or distills criteria; student (Jev) executes the typed
-  path cheaply. In Ax terms: strong `teacherAI`, cheap `studentAI`
-  (seat names `teacherAI` and `studentAI`), `maxMetricCalls` bounded.
-- **Do not let the optimizer tune thresholds off the sweep it runs.** The
-  jev-dspy-lab rule: threshold sweep is exploratory; the confirmatory gate
-  is chosen before the run and reported from the same run, never the best
-  sweep row. This is standard train/confirm discipline — frameworks will
-  not enforce it for you.
-- **Hybrid signatures need an explicit plan**: DSPy's decorator splits
-  typed/freeform fields and feeds trusted typed results into the generative
-  call. If your framework lacks this, replicate it: one systemOne call for
-  all typed fields, then one generative call with those fields as inputs.
-  Never interleave Noul results as if they were generated text.
+## Optimizers (GEPA / DSPy teleprompters): what to couple, what not
 
-## Calibration and measurement obligations (jev-dspy-lab)
+[GEPA](https://arxiv.org/abs/2507.19457) uses reflective feedback from program
+traces to search prompts and maintains candidate tradeoffs. Its reported gains
+are task- and budget-specific, not proof that reflection will improve this
+judgment. Compare against a fixed prompt and a simpler search at equal total
+evaluation cost; keep the final test outside the reflection loop.
 
-Before trusting a Jev-decorated DSPy program: dataset-level calibration
-(with bootstrap CIs), selective risk/coverage curve across gates, a fail-closed
-abstention policy, and reproducible offline evidence with canonical request
-hashes. PoC benchmarks on 3 cases without caching are a lead, not a result.
+A bounded judgment can occupy two different seats:
+
+1. **Executor:** the optimizer improves criteria/examples for typed output, and
+   the decision model executes that surface cheaply.
+2. **Metric:** the decision model scores a generated artifact against a narrow
+   rubric while the optimizer searches the generator program.
+
+Do not collapse these seats. If the same model both generates labels and judges
+the candidates trained on those labels, the loop can optimize imitation rather
+than real outcomes.
+
+For a semantic metric:
+
+- first measure repeated-run variance on frozen outputs;
+- validate against independent human or outcome labels;
+- separate search, threshold selection, and confirmation data;
+- cap metric calls and account for correlated repeated judgments;
+- inspect failures, not only the optimizer's aggregate score.
+
+[sutro-sh/jev-align](https://github.com/sutro-sh/jev-align) is a useful example
+of the inverse arrangement: an optimizer edits the function definition, humans
+supply acceptance labels, and the bounded model is the executor. The score must
+not auto-accept its own new definition.
+
+## Calibration and measurement obligations
+
+Before relying on an optimized decision surface, evaluate:
+
+- accuracy/F1 or task-appropriate discrimination with class/base-rate context;
+- Brier or log loss and reliability plots where probabilities matter;
+- selective risk versus coverage across frozen thresholds;
+- subgroup, paraphrase, option-order, and distribution-shift slices;
+- candidate-generation recall and no-match behavior;
+- invalid output, provider failure, and fallback provenance;
+- end-to-end cascade and trajectory success.
+
+“Trained for calibration,” a low ECE on one split, or a temperature value is not
+a general guarantee. Re-measure after changing rubric, candidates, model,
+runtime, or population. A shared comparison dataset such as
+[open-jev-laya-bench](https://huggingface.co/datasets/pngwn/open-jev-laya-bench)
+can test instrumentation, but it does not replace product data.
+
+Freeze the confirmatory threshold before the final run. Do not select the best
+row from a sweep and report that same row as independent evidence.
 
 ## Where the gaps are
 
-- Ax typesafe support is **TypeScript-only** (AxIR backlog); no Python.
-- DSPy integration is a **stripped-down PoC**; optimizer-aware tuning of
-  Jev thresholds/criteria is not built — that work is open, and the
-  honest claim to date is "decorator executes typed fields," not "Jev is
-  optimizable inside DSPy."
-- Nothing yet covers optimizing *against* Jev as the metric model
-  end-to-end; if you build it, measure judge variance first (see above).
+Framework adapters often prove only that typed fields execute. They may not
+provide:
+
+- per-action thresholds;
+- independent calibration data;
+- candidate-coverage accounting;
+- robust error/fallback provenance;
+- optimizer-aware split discipline;
+- trajectory-level evaluation;
+- authority/state re-checks.
+
+Treat missing items as engineering work, not implied framework behavior. Read
+the actual adapter and current framework docs before writing integration code.
 
 ## Typed control plane around DSPy (not more knobs)
 
-Ax and DSPy remain LM-program climbers. A **typed control plane**
-is deterministic code *around* that program:
-classifier → ontology validation → security override →
-confidence thresholds → state-machine transition → tool
-allow-list. The LM may draft wording **after** route and action
-are fixed; it cannot add a route, change the action, or invoke
-an unapproved tool.
-[jev-dspy-control-plane](https://github.com/manikanda-kumar/jev-dspy-control-plane)
-is the Harbor-shaped bake-off of that split (OpenJEV / DSPy /
-JSON Schema share ontology, dataset, metrics). Offline smoke
-uses a heuristic + labelled contract stubs — a high score is
-plumbing, not quality. Metrics named: intent/sub-intent
-accuracy, invalid-output/policy-violation, abstention/coverage/
-selective accuracy, Brier/ECE, consistency, p50/p95, per-category
-stress. Accuracy alone is not enough; a negative result is
-valuable. Do not copy venv / `.env`. `notes.md` §59;
-`validation.md`.
+The control plane stays ordinary, reviewable code:
+
+```text
+decision output
+→ ontology validation
+→ deterministic security and business overrides
+→ per-action threshold / abstention
+→ state transition
+→ tool allowlist and authority check
+→ optional generator draft
+```
+
+The generator may write after route and action are fixed. It cannot introduce a
+new route, tool, or permission. [jev-dspy-control-plane](https://github.com/manikanda-kumar/jev-dspy-control-plane)
+illustrates comparing typed backends under a shared ontology; its offline wiring
+checks are not proof of model quality.
 
 ## Specialist as metric vs few-shot as classifier
 
-A typed judge used as an optimizer metric **reads the
-probability** (Brier/ECE, risk-coverage, expected cost). That
-is the Domain-jev-maker placement: train a specialist when the
-downstream consumer is the distribution; few-shot hosted is
-enough when the program only takes argmax. Do not substitute a
-verbalized `"confidence"` (jav-email-cascade gen-json mock) for
-a native Noul. `notes.md` §60.
+Use a hosted few-shot decision API when the surface changes frequently, volume
+is moderate, and downstream policy mostly consumes the winning label. Train a
+specialist when privacy, latency, scale, or distribution-level downstream use
+justifies the data and maintenance cost.
 
-**Do not distill Jev as teacher of record.**
-[jev-triage](https://github.com/ThyFriendlyFox/jev-triage)
-logs full distributions as a *bootstrap* for a local student;
-**real outcome labels** stay the training targets. Author
-~68% ceiling compounds errors. Soft labels are features, not
-the gold. Distinct from Domain-jev-maker (independent gold)
-and from PAW coupling (1) below — if you use Jev as a labeling
-teacher, measure the student against real outcomes and cut
-the cord when it wins. `notes.md` §61.
+Training requires independent gold. Provider or teacher distributions can be
+features, weak labels, or triage signals, but they are not ground truth.
+[jev-triage](https://github.com/ThyFriendlyFox/jev-triage) captures the useful
+pattern: use uncertainty to decide what deserves expensive labeling while real
+outcomes remain the target.
 
-## ProgramAsWeights: materializing a Jev judgment locally (Hypothesis)
+Compare specialists and hosted decisions on the same holdout and deployment
+runtime. Include serving latency, cold start, human-label cost, retraining, and
+fallback—not merely per-call price.
 
-PAW (programasweights, pre-dates Jev — Python SDK 0.4.6, Mar 2026 repo, MIT)
-compiles a natural-language spec into a **tiny neural program** — a `.paw`
-bundle of KV-cache prefix + optional LoRA adapter over a fixed interpreter
-(Qwen3-0.6B ~22 MB or GPT-2 ~5 MB, WebAssembly-capable) that then runs locally,
-deterministic, no API at runtime, on the order of 0.03–0.5 s. The
-compile step and the resulting local function are seat names in the
-PAW docs, not a call to copy. Fuzzy text tasks: classify, extract,
-repair, triage, route.
+## ProgramAsWeights: materializing a judgment locally (Hypothesis)
 
-**Why it pairs with Jev** — complementary, not overlapping. Jev is the
-calibrated semantic oracle (state → typed decision, network, per-call); PAW is
-a *materialized judgment*: once a decision surface is stable, compile it into
-a local artifact for high-volume/offline/zero-latency paths. No measured Jev+
-PAW integration exists in the wild (checked the full 187-repo archive), so
-this is Hypothesis-grade. Two candidate couplings:
+Compiling a stable fuzzy program into a small local artifact is plausible when
+the surface is high-volume and slow-changing. It is premature when criteria,
+labels, or population move daily.
 
-1. **Jev as the labeling teacher — with teeth.** Use Jev fan-outs to
-   score a labeled set, then train a local student on the *full
-   distributions*. **Do not** treat those labels as teacher-of-record
-   gold (jev-triage ~68% ceiling). Real outcome labels remain the
-   target; cut the cord when the student wins on held-out outcomes.
-   This is ordinary distillation with an unusually cheap *filter*,
-   not a substitute for independent gold (Domain-jev-maker).
-2. **Jev as the calibration gate on PAW.** Shadow both on live traffic;
-   a calibrated Jev judgment arbitrates disagreements and the disagreement
-   rate is the drift signal for when to recompile the PAW program. Threshold
-   obligations apply (per-dataset calibration; see validation.md).
+A safe materialization loop is:
 
-**When NOT to pair:** if the decision surface still changes daily, or inputs
-need long-tail reasoning beyond the fuzzy-task classes PAW is sized for,
-keep calling Jev — premature compilation freezes a moving judgment. The
-stability gate is the same shadow-mode behavioral-eval gate in validation.md.
+```text
+independent gold + optional teacher features
+→ train/compile local artifact
+→ frozen holdout and shift tests
+→ shadow comparison in the deployment runtime
+→ policy-controlled promotion
+→ drift monitor and rollback
+```
 
-**Full-distribution critic, no LM in the loop (Empirical as
-README / mock demo; 2026-09-19 ~16:52):**
-[jevloop](https://huggingface.co/spaces/async-dime/jevloop)
-treats Jev as a *value function* (UCB1 picks the
-weak+uncertain axis; CEM samples deterministic edit ops).
-**Not** an Ax/DSPy climb of LM-program knobs — there is
-**no LLM in the loop**. Mock mode is the Space default;
-do not quote mock-mode quality. Remix in jev2ui is the
-same idea without a loop (`notes.md` §87).
+Do not claim equivalence because a local service shares a wire format or agrees
+on a small sample. Distillation reproduces a teacher's errors unless independent
+outcomes correct them.
 
-**GEPA alignment loop (Empirical as README; inverse
-of Jev-as-metric; 2026-09-19 ~21:23):**
-[sutro-sh/jev-align](https://github.com/sutro-sh/jev-align)
-(Apache-2.0; **60★** this pass, SIGNAL ★56; HEAD
-`49753df`; README SHA `363fccb7`). GEPA edits the
-*function definition*; human taste is the accept
-gate. human labels only. score never auto-accepts.
-production capture flywheel. sutro-sh/jev-align ≠
-caiovicentino/jev-align. GEPA + System One. This
-is the inverse of position 8 (Jev as optimizer
-metric): here GEPA searches definitions and Jev
-is the cheap executor being aligned. Do not copy
-`uv` / keys (`notes.md` §93).
+[jevloop](https://huggingface.co/spaces/async-dime/jevloop) is a distinct idea:
+code searches deterministic edit operations using a full-distribution critic.
+It is not an Ax/DSPy prompt climb, and mock mode demonstrates control plumbing,
+not judgment quality.
 
-**GEPA live-star / framing delta (same SHA; 2026-09-19
-~19:43):** same repo. 133★ / forks 10 live. build
-calibrated classifiers from human feedback. HEAD
-`49753df9` **unchanged**. README SHA `363fccb7`
-**unchanged**. Do **not** re-dump the loop. Soft Noul ≠
-hard safety (`notes.md` §100).
+## Cascade and optimizer acceptance card
 
+```text
+Program slice being optimized:
+Typed executor and generator roles:
+Exact control-plane invariants:
+Evidence/candidate source and coverage gaps:
+Independent gold and split discipline:
+Metric validity and repeated-run variance:
+Threshold selection and frozen confirmation rule:
+Provider error and generator/human fallback:
+Authority/state re-check before action:
+Stage metrics and full trajectory metrics:
+Expected cost: model + latency + fallback + human + recovery:
+Rollback / drift trigger:
+Result that would reject the integration:
+```
 
-**Test** (any claimed integration must show): labeled-set agreement Jev vs
-PAW output on held-out data, per-class cost/latency comparison, and a drift
-measurement over a week of live inputs.
-
-**GEPA domain-adapt on hosted Jev (Empirical as blog; 2026-09-21 ~10:19):**
-[praneeth16/adapting-jev-with-gepa](https://praneeth16.github.io/blog/adapting-jev-with-gepa/)
-ADE Corpus V2. GEPA revises Choice instructions/criteria with weights
-fixed. jev-1.13.0 weights fixed. schema-valid is not the same as correct.
-API confidence is not P(correct). Brier 0.1357→0.0747 *theirs*.
-F1 69.1%→79.7% *theirs*. FN 4→6. review-queue policy is not F1.
-Soft is not gate. Not an 18th scoring-table species. Decision-model
-benefit recipe beside llm-to-jev (`notes.md` §145).
-
-
+The optimizer's best score is not the acceptance criterion. The product must
+improve on a frozen baseline under realistic errors, fallbacks, and trajectories.

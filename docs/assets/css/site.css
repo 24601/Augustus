@@ -48,6 +48,7 @@
 
 html {
   background: var(--bg);
+  scroll-padding-top: 7rem;
 }
 
 body {
@@ -407,6 +408,7 @@ a:hover {
 }
 
 .install-card {
+  min-width: 0;
   padding: 1.1rem 1.15rem 1.2rem;
 }
 
@@ -901,6 +903,14 @@ a:hover {
   text-align: left;
 }
 
+.page-examples .prose table {
+  table-layout: fixed;
+}
+
+.page-examples .prose th:first-child {
+  width: 32%;
+}
+
 .page-dense .prose {
   font-size: 0.94rem;
 }
@@ -972,7 +982,7 @@ html.hero-done .compare-step {
   .companion-list,
   .compare-grid,
   .recipe-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .compare-vs {

@@ -16,10 +16,26 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
-Hourly catalog densifies after this cut stay in
-[`research/notes.md`](research/notes.md) and
-[`research/changelog-hourly.md`](research/changelog-hourly.md).
-They do not bump the 0.5.1 pin.
+Development package: **0.6.0-dev**. No release or deployment is implied.
+
+- Rebuilt the skill as a concise entry point and focused references;
+  preserved historical source revisions in the research archive manifest.
+- Clarified probability, confidence, ranking, calibration, authority,
+  abstention, causal action effects, and scoped conformal guarantees.
+- Replaced repeated-prose uniqueness checks with structural lint, budgets,
+  metadata parity, link/reachability checks, regression tests, and CI.
+- Removed tautological evaluator assertions; added real selective-policy
+  metrics and strict input validation, including undefined all-abstain risk.
+- Added maintainer guidance, research promotion and review prompts, and
+  independent behavioral scenarios. Refresh collection no longer publishes.
+- Fixed Claude marketplace packaging and verified an isolated local install;
+  added Codex skill UI metadata and clearer activation exclusions.
+- Rebuilt onboarding around six placements and two worked examples; added
+  social-preview assets, sitemap, rendered-site checks, a feedback template,
+  and a discoverability audit. Corrected mobile install-card overflow.
+
+Catalog observations remain in [research](research/README.md). They need
+not change the installed skill. Last released version remains **0.5.1**.
 
 ## [0.5.1] - 2026-09-21
 
@@ -511,4 +527,3 @@ The dated passes below are how 0.1.0 was assembled.
   relations, logical-operator combination rules, and the position×construct
   traversal as the systematic application generator; wired into SKILL.md
   index + toolbox sweep.
-

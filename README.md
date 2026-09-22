@@ -1,144 +1,124 @@
 # Augustus
 
-Design judgment for the decision-model class. TypeSafe Jev
-(Choice, Score, Noul) is the dominant product most users will call.
+Place decision models where they improve the outcome. Keep policy in control.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Release](https://img.shields.io/github/v/release/24601/Augustus)](https://github.com/24601/Augustus/releases)
-[![Pages](https://img.shields.io/badge/docs-24601.github.io-blue.svg)](https://24601.github.io/Augustus/)
-[![Claude Code](https://img.shields.io/badge/Claude_Code-marketplace-purple.svg)](.claude-plugin/marketplace.json)
-[![Skills.sh](https://img.shields.io/badge/skills.sh-compatible-green.svg)](https://www.skills.sh/)
+[![Quality](https://github.com/24601/Augustus/actions/workflows/quality.yml/badge.svg)](https://github.com/24601/Augustus/actions/workflows/quality.yml)
+[![Docs](https://img.shields.io/badge/docs-24601.github.io-blue.svg)](https://24601.github.io/Augustus/)
 
-**Homepage:** [24601.github.io/Augustus](https://24601.github.io/Augustus/)
+Augustus is an agent skill for deciding **where a model belongs, what it
+should judge, and how to test whether it helps**. It combines decision
+theory, value of information, multi-criteria analysis, signal detection,
+search/control, and formal-methods boundaries. It applies to software,
+business, organizations, research, and everyday decisions.
 
-Design-judgment skill for where the decision-model class belongs.
-TypeSafe Jev (Choice, Score, Noul) is the dominant exemplar. Classical
-decision methods, composition algebra, and a validation gate.
+[TypeSafe Jev](https://docs.typesafe.ai/) (Choice, Score, Noul) is the
+default hosted exemplar. The skill also covers classical classifiers,
+encoders, open decision heads, constrained readouts, rankers, and vision
+scorers. Choose the family by the task, then test it against the baseline.
+Sometimes the best result is a formula, a checklist, or no new model.
 
-**Augustus**, named for Augustus De Morgan (1806–1871), mentor and professor
-of William Stanley Jevons, is the design-judgment skill for **where** the
-decision-model class belongs (classifiers, encoders and decoders, specialized
-AR and constrained heads, vision and listwise scorers, and what TypeSafe
-calls System One), using mathematical, logical, and algorithmic mental
-models. It applies across **AI, software, business, knowledge work, and
-life**, not only SWE.
-[TypeSafe](https://docs.typesafe.ai/) Jev is the dominant product most
-users will call (Choice, Score, Noul). Formal methods are one pillar.
-Exact work stays in code or policy; the model owns narrow judgment;
-never launder a Noul as a proof.
+The working model is:
 
-> **Not a TypeSafe product.** Companion, not replacement, to the official
-> [`typesafe-ai` skill](https://github.com/typesafe-ai/skills). That skill
-> owns Jev integration contracts; Augustus owns the **design judgment**:
-> which *pillar*, *family*, and classical method map, what the objective
-> implies for fail-open vs fail-closed, and what experiment would prove a
-> design wrong. Not a TypeSafe-only how-to. Integrity / reward-hack
-> companion: [`rh-guard`](https://github.com/24601/rh-guard).
+**evidence → bounded judgment → explicit policy → checked action → observed outcome**
 
-![Jev-class models with vs without Augustus. Without: call the model, act on the score, then quiet failure modes (soft Noul treated as hard gate, GPT bakeoff framing, no falsifier, polarity unchosen). With Augustus: state, pillar and family map, question design, fail-open vs fail-closed, typed Choice Score Noul, code owns effects, named falsifying experiment.](docs/assets/with-without-augustus.svg)
+Augustus is independent of TypeSafe. The
+[official TypeSafe skill](https://github.com/typesafe-ai/skills) and current
+provider docs own API contracts; Augustus owns design judgment. Named for
+Augustus De Morgan, mentor of William Stanley Jevons.
 
-Jev-class: Jev, kev, Laya, OpenJev, GLiNER, SemIf, NanoJev, Jeff-1, localjev.
-Call and act, or place the judgment. Same split for any typed probabilistic
-judgment tool, not Jev-only.
+## Try it
 
-## Recipes
+After installation, ask your agent:
 
-Class-wide, not a TypeSafe how-to. Full cards:
-[`docs/release-notes-v0.5.1.md`](docs/release-notes-v0.5.1.md) ·
-prior class recipes [`docs/release-notes-v0.5.0.md`](docs/release-notes-v0.5.0.md) ·
-[Pages recipes](https://24601.github.io/Augustus/#recipes).
+> Use Augustus to audit our refund-email workflow. Find the smallest
+> useful classifier insertion, keep eligibility and payments in code,
+> and propose an evaluation that could reject the change.
 
-- **Decide vs generate.** Without: treat tryDecide as another token stream. With: decide is not generate; typed calibrated judgments, not chat. Third-party benches stay *theirs*.
-- **Encoder (GLiNER / GLiClass).** Without: treat locate/categorize as a decision head and hard-gate spans. With: species map; remainder after extractive spans. Ports are class members, not Jev replicas. Measure span quality separately from ECE.
-- **Open heads (Laya, SemIf, kev, Jeff-1).** Without: wire-compat or argmax agree as replica. With: softmax ≠ calibrated Noul; systems timing ≠ semantic equivalence. Measure ECE/Brier on held-out, not only speed.
-- **NanoJev.** Without: game wins as calibration. With: specialist gameplay S1; local boolean ≠ TypeSafe noul. Measure held-out game separately from ECE.
-- **llm-to-jev.** Without: ship converted prompts as equivalent behavior. With: heuristic on-ramp; review the Score rubric. heuristic conversion ≠ calibrated Noul.
-- **GEPA domain-adapt.** Without: treat schema-valid Choice as correct, API confidence as P(correct), or F1 as a review-queue policy. With: schema-valid is not the same as correct; API confidence is not P(correct); GEPA revises Choice instructions/criteria with weights fixed; Brier/F1 *theirs*; review-queue policy is not F1; Soft is not gate; Not an 18th scoring-table species.
-- **jcr.** Without: run what the tree found. With: lookup returns context; **does not execute**. Routing ≠ permission; docs ≠ authority to run.
-- **localjev / prompted JSON.** Without: parse generated JSON as a Noul. With: schema-valid ≠ picked-right.
-- **Open-Jev v3 / held-out / wide ranking.** Without: treat v3 rows as a released replica, a held-out protocol as Harbor, 83% as Harbor, or Jev as a Lean writer. With: v3 data prepared ≠ retrained released models; held-out protocol ≠ Harbor; 1,280-row panel ≠ Harbor; finite training loss ≠ quality improvement; website redesign ≠ calibration; Jev is a gate not a generator; *theirs* not Harbor.
-- **JevBench public-subset / 35B transfer / browser 5-10x.** Without: treat 231 as the full 534, 0.550 as Harbor, 5-10× as a replica, or fail-open routing as a grant. With: public-subset ≠ Harbor; 231 ≠ 534; evaluate.load honour bf16; 5-10× *theirs* not Harbor; routing ≠ permission; softmax next-token ≠ calibrated Noul; *theirs* not Harbor.
-- **openjev MLX / TypeLLM v0.1.1.** Without: treat MLX text gen as a calibrated replica, a GitHub Release as a Noul, n=8 as Harbor, or option-order 0.188 as gold. With: dual serving is not generate; Hosted Codiv ≠ TypeSafe; wire-compat ≠ logit-equiv; Constrained AR ≠ calibrated Noul; PyPI packaging ≠ calibrated Noul; n=8 is not Harbor; option order can change an answer; *theirs* not Harbor.
-- **aisearchio census / open System One.** Without: treat TypeSafe-compatible as a replica, 76.7% as Harbor, or a 15-link list as an endorsement. With: TypeSafe-compatible ≠ TypeSafe replica; replica ≠ TypeSafe; catalog ≠ endorsement; *theirs* not Harbor.
+> Use Augustus to compare ways our library could choose three programs
+> under a fixed budget. Make the values, evidence gaps, and tradeoffs explicit.
 
-## The skill
+> Use Augustus to review this confidence threshold. Explain what the score
+> means, when to abstain, and what we should measure on held-out cases.
 
-One line per file. The living catalog is in the reference cards and
-[`research/notes.md`](research/notes.md), not this README.
+Expect a concise design card: desired behavior, baseline, pillar and model
+family, evidence, questions, policy, failure handling, and a falsifying
+experiment. The agent reads only the references relevant to your task.
 
-- `.agents/skills/augustus/SKILL.md`: working protocol and decision-design card
-- `.agents/skills/augustus/references/activation-triggers.md`: trigger-phrase wall and full mapping-index rows (YAML description stays a short class-first blurb)
-- `.agents/skills/augustus/references/mental-models.md`: cross-domain frames (EU, VOI, MCDA, SDT, ...); not SWE-only
-- `.agents/skills/augustus/references/judgment-class.md`: the class (Jev exemplar, not monopoly) and peer families
-- `.agents/skills/augustus/references/formal-methods.md`: judgment vs proof; soundness theater; DST trio
-- `.agents/skills/augustus/references/formal-semi-formal.md`: one-screen alias of the formal-methods pillar
-- `.agents/skills/augustus/references/mixed-architecture.md`: where S1 judgment sits next to LLM + code
-- `.agents/skills/augustus/references/composition-algebra.md`: positions a typed judgment can occupy relative to any method
-- `.agents/skills/augustus/references/applied-mappings.md`: sieves, keep/drop, triage, rank, and route placements
-- `.agents/skills/augustus/references/faq.md`: design-judgment FAQ (not an API how-to)
-- `.agents/skills/augustus/references/mappings.md`: classical-method mappings with boundaries and tests
-- `.agents/skills/augustus/references/methods-catalog.md`: named algorithms → judgment-shaped substitution
-- `.agents/skills/augustus/references/toolbox-mapping.md`: how to find a substitution in a method you already trust
-- `.agents/skills/augustus/references/question-design.md`: writing and diagnosing well-formed questions
-- `.agents/skills/augustus/references/validation.md`: design gate, eval recipes, Harbor/jevals practice
-- `.agents/skills/augustus/references/boundary-audit.md`: existing-system insertion: smallest boundary, red flags
-- `.agents/skills/augustus/references/optimizer-integration.md`: Jev inside Ax/DSPy optimizer loops
-- `.agents/skills/augustus/references/agent-self-assessment.md`: agent self-supervision gates (pre-action, done, stuck)
-- `.agents/skills/augustus/scripts/evaluate_decisions.py`: offline Brier / reliability / cost-threshold evaluator
-- `research/notes.md`: living hourly catalog (dense); §118 llm-to-jev conversion assistant (heuristic on-ramp, not a replica); §122 revisit / since-last-look protocol
-- `research/README.md`: evidence archive index (sources, refresh log, hourly dumps)
-- `research/revisit-checklist.md`: revisit already-catalogued repos when fingerprints move (revisit HIGH like novel HIGH)
-- `research/changelog-hourly.md`: hourly uniqueness dumps after v0.3.0
+## Examples
+
+| Problem | Placement | Evaluate |
+| --- | --- | --- |
+| Expensive generated-JSON email routing | Bounded intent classifier before existing handlers | Action errors, review coverage, total cost |
+| Search results need ordering | Retrieve candidates, then rank relevance | Recall, nDCG, final task success |
+| Many plausible projects under a budget | Explicit utility/MCDA with exact constraints | Sensitivity, feasibility, stakeholder outcomes |
+| Agent claims it is finished | Judge evidence gaps; verify artifacts and effects | False completion and recovery on real tasks |
+| Need a decision under uncertainty | Compare act, defer, and gather-more-evidence | Expected loss and value of information |
+| Model appears to approve a risky action | Treat judgment as evidence inside host policy | Unauthorized effects, failure paths, drift |
+
+A typed response is not proof of truth. Ranking scores, probability,
+confidence, calibration, and action success have different meanings.
+See [the working skill](.agents/skills/augustus/SKILL.md).
 
 ## Install
 
-**Claude Code** (plugin marketplace, mirrors the official TypeSafe layout):
+For agents supporting the Skills CLI:
+
+```bash
+npx skills add 24601/Augustus --skill augustus
+```
+
+This follows the repository's current default branch, which may contain
+unreleased work. For a reproducible source checkout of the last release:
+
+```bash
+git clone --branch v0.5.1 --depth 1 https://github.com/24601/Augustus.git
+```
+
+The skill directory is `.agents/skills/augustus/`. Use your agent's local
+skill installation mechanism to install that directory. Keep its references
+and scripts together. Merely cloning a repository does not install it into
+every agent.
+
+The skill needs no API key to provide design guidance. Calling Jev or another
+hosted provider is a separate, optional integration with its own credentials
+and costs. Review installed instructions before granting any agent access.
+
+Claude Code marketplace:
 
 ```bash
 claude plugin marketplace add 24601/Augustus
 claude plugin install augustus@augustus
 ```
 
-**Any skills-compatible agent** (Amp, Codex, Cursor, …):
+In Claude Code, invoke `/augustus:augustus`; in Codex, use `$augustus`.
+If it is not visible, reload your agent's skills/plugins and check its installed
+version. See [worked examples](https://24601.github.io/Augustus/examples.html)
+for the kind of result to expect. Avoid installing the same skill by multiple
+methods in one agent.
 
-```bash
-npx skills add 24601/Augustus --skill augustus
-```
+## Project and evidence
 
-**Copy the skill path** (Cursor / Amp / any agent that reads repo-local
-skills):
+- [Skill and reference index](.agents/skills/augustus/SKILL.md): runtime guidance.
+- [Research archive](research/README.md): primary sources, historical claims,
+  revisits, and the current decision-model review.
+- [Contributing](CONTRIBUTING.md): content boundaries, tests, behavioral review.
+- [Changelog](CHANGELOG.md): product changes, separate from research observations.
+- [Website](https://24601.github.io/Augustus/): examples and ecosystem orientation.
+- [Feedback](https://github.com/24601/Augustus/issues/new/choose): installation
+  problems, mistaken activation, and sanitized real-world failures.
 
-```bash
-git clone https://github.com/24601/Augustus.git
-# skill lives at .agents/skills/augustus/
-```
-
-**ChatGPT**: skills are not a native ChatGPT primitive. Paste
-`.agents/skills/augustus/SKILL.md` plus the `references/` files into a
-GPT's instructions or a Project's knowledge and it will follow the protocol.
-
-**Amp**: repo-local `.agents/skills/` are discovered automatically.
-
-## GitHub topics
-
-`jev` `typesafe` `typesafe-ai` `system-one` `system-one-models`
-`structured-output` `calibrated-confidence` `ai-agents` `agent-skills`
-`decision-systems` `reranking` `beam-search` `claude-code` `python` `llm`
-`decision-theory` `decision-making` `semantic-search` `agent-workflows`
-`mixed-architecture` `agentic-ai` `zero-shot-classification`
-`tool-routing` `skill-routing` `semantic-lint` `classification` `gliclass`
-`listwise-ranking` `vision-scoring` `open-weights` `formal-methods`
-`model-checking` `deterministic-simulation`
-`value-of-information` `signal-detection` `mcda` `calibration`
-`alloy` `apalache` `pufferlib` `stamp-stpa`
+For local development, install `requirements-dev.txt` and run `make check`.
+The offline evaluator accepts your labeled binary predictions; it never
+calls a model. Tests and structural lint do not establish model quality.
 
 ## Versioning
 
-See [CHANGELOG.md](CHANGELOG.md) and
-[releases](https://github.com/24601/Augustus/releases). Current: **0.5.1**,
-written against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skills/tree/v0.5.7)
-(`65a39f3`; live HEAD still this commit, checked 2026-09-21). Re-read live
-TypeSafe docs before treating that pin as current API behavior.
+Development package: **0.6.0-dev**, unreleased. Last released: **0.5.1**.
+Historical TypeSafe skill provenance: v0.5.7 (`65a39f3`). Read live provider
+docs before writing integration code; that pin is not a current API guarantee.
+No new release or deployment is implied by local repository changes.
 
 ## License
 

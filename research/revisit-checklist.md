@@ -1,86 +1,45 @@
-# Revisit / since last look
+# Revisit a catalogued source
 
-Catalogued repos are not done. Things change a lot. Hourly must
-diff fingerprints against the last look and densify when the change
-is material.
+Treat **revisit HIGH like novel HIGH** when behavior or evidence changes.
+Use the same canonical source identity and existing notes section.
 
-Revisit / since-last-look lock: catalogued repos are not done; store fingerprints default_sha, pushed_at, description_hash, release_tag; material change is README/API/release/calibration claim/serving port/bench rewrite; star-noise is stars/likes/forks alone; densify the prior notes section, do not mint a sibling first sighting; do not invent equivalence; SHA move is not a replica; treat revisit HIGH like novel HIGH for Augustus; notes.md §122
+## Fingerprints
 
-## Fingerprints to store
+The offline helper `revisit_fingerprints.py` requires all four fields:
 
-Default set, so hourly can diff without re-discovering the world:
-
-| Field | What it catches |
+| Field | Meaning |
 | --- | --- |
-| `default_sha` | Full default-branch HEAD moved (not a 12-char prefix) |
-| `pushed_at` | GitHub push clock moved (not the commit timestamp) |
-| `description_hash` | sha256[:12] of the GitHub / Space description. Null if notes do not quote it. |
-| `release_tag` | Latest release tag moved or appeared |
+| `default_sha` | Full lowercase 40-character HEAD, or explicit null when unavailable |
+| `pushed_at` | GitHub UTC push timestamp ending in Z, or null |
+| `description_hash` | SHA-256 first 12 lowercase hex characters of the description, or null |
+| `release_tag` | Nonempty release tag or explicit null |
 
-Optional extras after a fingerprint hit (not substitutes for the four):
-README SHA, OpenAPI / `/v1/systemone` surface, serving port or base URL,
-calibration claim, bench rewrite. README SHA is not `description_hash`.
+README hashes and commit timestamps are useful additional evidence but are
+not substitutes for description hashes and push timestamps. Source IDs must
+agree when comparing observations; verify renames using stable host identity.
+Collector entries use canonical `id`, retain `requested_id`, and record GitHub's
+stable `node_id`. Compare individual `sources[]` entries, not the whole receipt.
+If the canonical ID changed, inspect the stable identity and record the rename
+before updating a baseline; do not suppress a cross-source mismatch.
 
-Store lives in [`revisit_fingerprints.json`](revisit_fingerprints.json).
-Helper: `python3 research/revisit_fingerprints.py --self-test`.
+## Review a change
 
-## Material change vs star-noise
+1. Compare the new receipt with the stored snapshot. A moved SHA or timestamp
+   triggers inspection; it does not alone establish a material capability change.
+   The helper reports `review` / `inspect_diff` with
+   `capability_change_claimed: false`. Only explicitly supplied, inspected
+   `material_signals` yield `material` / `densify`; stars alone are `star_noise`.
+2. Inspect changes to README claims, APIs, release contents, calibration,
+   serving behavior, and benchmarks. Keep stars/likes/forks as observations.
+3. Record retrieval time, revision, the prior claim, the new claim, and its
+   evidence status. Missing evidence is not a negative finding.
+4. Add a dated update to the existing source card. Preserve retractions and
+   contradictory findings rather than silently overwriting them.
+5. Promote only an actual design lesson to its relevant reference. Keep
+   identity locks and hourly accounting out of runtime guidance and the site.
+6. Run `make check` and inspect the diff before handoff. Scripts do not
+   update baselines or publish on their own.
 
-**Material (revisit HIGH, treat like novel HIGH):**
-
-- README rewrite (claims, API, install surface, serving port)
-- API / primitive / `/v1/systemone` contract change
-- New or moved release tag
-- Calibration claim appeared, retracted, or restated
-- Serving port, base URL, or bottle (GGUF / ONNX / MLX / ggmlc)
-- Bench rewrite (new n, new metric, retracted headline)
-
-**Star-noise (pulse only, not a fold):**
-
-- Stars, watchers, forks, Hub likes
-- `lastModified UNCHANGED` with likes-only jitter
-- Issue-count flap, traffic graphs
-
-A star jump on a thin README is still star-noise. A SHA move on a
-0-star repo is still material.
-
-## How densify cards update prior notes
-
-1. Keep the original `notes.md` section id. Append a dated **since last
-   look** densify card under that section.
-2. Do not mint a sibling first-sighting section for the same source.
-   Rename densify is still densify (SemIf §117), not a second census.
-3. Quote the new README / API / release *theirs*. Keep the prior quotes
-   so the card shows what changed.
-4. Do not invent equivalence. SHA move is not a replica. Wire-compat is
-   not a calibrated Noul. A new bench number is not Harbor. Argmax
-   agree is not semantic equivalence.
-5. Namesake locks stay (`a/x ≠ b/x`). Prior uniqueness locks stay one
-   consecutive substring. Do not mutate them.
-6. Class-relevant revisit HIGH gets the same overlay care as novel HIGH
-   (notes, skill mapping if the class table moved, uniqueness if this
-   hour is a fold). Skip is for star-noise and collisions, not for "we
-   already have a card."
-
-## Paste into hourly fold prompts
-
-Treat **revisit HIGH** like **novel HIGH** for Augustus.
-Never append uniqueness locks or hourly HIGH digests to `README.md`.
-The human-facing README stops at License.
-
-If fingerprints moved on a catalogued repo (`default_sha`,
-`pushed_at`, `description_hash`, `release_tag`) or the README / API /
-release / calibration claim / serving port / bench rewrote, densify
-the prior notes card. Do not skip because it was already catalogued.
-Stars / likes / forks alone is star-noise, not a fold. Do not invent
-equivalence. SHA move is not a replica. Soft Noul ≠ hard gate.
-
-## Offline check
-
-```bash
-python3 research/revisit_fingerprints.py --self-test
-python3 .agents/skills/augustus/scripts/uniqueness_gate.py
-```
-
-Does not bump 0.5.0. Does not fetch the network. Merged #44 owns
-§121. This protocol is §122.
+Run `python3 research/revisit_fingerprints.py --help` for offline comparison
+and validation commands. The [research protocol](protocol.md) owns claim
+status and promotion; the [fold prompt](prompts/research-fold.md) is reusable.
