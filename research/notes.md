@@ -41811,9 +41811,9 @@ TypeSafe.
    class. A port, a readout, or a residual head does not become the
    recommended call because the README uses the same verbs.
 2. **An MLX port is not the PyTorch table.** IAMIbrahimmemon/von-mlx
-   serves a port of wfzyx/von. Do not restate the §49 Needle SAN
-   Option-Marker 93.5% macro / 93.6% micro n=78 as this port's score.
-   A serving substrate is not a calibrated replica.
+   serves a port of wfzyx/von. The §49 Needle SAN table stays on that
+   card. Do not copy it onto this port. A serving substrate is not a
+   calibrated replica.
 3. **Logprobs and early exit are not a trained head.**
    fooSynaptic/jev-any-llm and neilbauman21-hub/verdict read a causal
    LM. No new weights means a readout, not RLCD. Logprobs are not a
@@ -42167,7 +42167,7 @@ Batchable vs genuinely dependent steps: independent questions can share a batch;
 Failure/abstention behavior: plumbline-shaped check on your labels, or abstain; do not import a winner from a report that has no score table
 Smallest experiment that could reject this family, not just this vendor: a second seed, or a held-out source you did not tune, where the gap that looked like 0.02 disappears inside the 0.05 seed band
 Eval path: quote both slices (held-out source and seen-in-training); accuracy is not calibration; one seed is not Harbor
-Typed judgment provider: TypeSafe Jev 1.13.0 default; jevify port 8000 is wire-compat, not logit-equiv; von-mlx is not the §49 n=78 table
+Typed judgment provider: TypeSafe Jev 1.13.0 default; jevify port 8000 is wire-compat, not logit-equiv; von-mlx is not the §49 table
 Live references + versions: notes.md §158; kev HEAD 90990a5fac2995b9faa3190f7d437e84f2067768 densifies §45; Tidy and the crash courses densify §157 and §150
 ```
 
