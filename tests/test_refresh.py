@@ -168,7 +168,7 @@ class RefreshTests(unittest.TestCase):
             fake_python.write_text(
                 "#!/bin/sh\n"
                 "case \"$1\" in\n"
-                "  */refresh.py) printf '{\\\"schema_version\\\": 1}\\n' ;;\n"
+                "  */refresh.py) printf '%s\\n' '{\"schema_version\": 1}' ;;\n"
                 "  *) printf 'offline diagnostic\\n' ;;\n"
                 "esac\n",
                 encoding="utf-8",
