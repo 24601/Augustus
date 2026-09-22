@@ -468,6 +468,14 @@ def self_test() -> None:
     laya_ft = by_id["github:Alexander-Ollman/laya-ft"]
     assert laya_ft["notes_section"] == "148"
     assert laya_ft["fingerprints"]["default_sha"].startswith("32c1cb32557a")
+    jimothy = by_id["github:AndrewPrifer/jimothy"]
+    assert jimothy["notes_section"] == "159"
+    jt = jimothy["fingerprints"]
+    assert jt["default_sha"] == "f2ad9b40b88ea913d38fda758e564eac5f12fc0b"
+    assert jt["pushed_at"] == "2026-09-21T02:37:21Z"
+    assert jt["description_hash"] is None
+    assert jt["release_tag"] is None
+    assert jimothy["readme_sha"].startswith("124318338a4c")
     print("revisit-fingerprints self-test ok")
 
 

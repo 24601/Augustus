@@ -42182,3 +42182,211 @@ or amend PR #23 through #83. notes.md §158.
 
 
 Hourly 1851 uniqueness lock: TypeSafe Jev default path; IAMIbrahimmemon/von-mlx README SHA aa166f204e7b; MLX port of wfzyx/von; ModernBERT-Large 395M 28 layers; single forward pass; Hub weights IAMIbrahim/von-1.0-mlx; do not restate n=78; serving substrate ≠ calibrated replica; IAMIbrahimmemon/von-mlx ≠ wfzyx/von; fooSynaptic/jev-any-llm README SHA f7c3b097e06a; option logprobs or early-exit mean-pool; 15-88x vs free-text on AG News *theirs*; logprobs ≠ calibrated Noul; early-exit head is not a trained RLCD replica; fooSynaptic/jev-any-llm ≠ zhengxuyu/litjev ≠ alexwestco/llm-to-jev; maskedband1t/RLCD README SHA 60706479ba04; MIT; more than a hundred pre-registered experiments *theirs*; robot success ≠ calibrated Noul; not a TypeSafe product; hf:InfinimindCreations/laya-rlcd-training; 0.5 is not a decision boundary; AUC 1.000 and 15 of 20; majority class probability 1.0000; base 0.4556 vs 0.3333; urgency 0.733 to 0.648; student 0.665 vs teacher 0.631 *theirs*; keep best checkpoint not last; ≠ convaiinnovations/laya; hf:Praveenrajus/jevify-qwen3.5-4b-t2; 2,891,275 head params; rank-16 LoRA 21,233,664; residual on the model's own log-score; one seed; held-out sources 0.769/0.107 vs Jev 0.835/0.090 *theirs*; seen-in-training 0.739/0.111 vs Jev 0.694/0.122 *theirs*; macro acc 0.747 vs 0.733 ECE 0.110 vs 0.113 *theirs*; ±0.05 across seeds; held-out source is not a different data universe; jevify-serve port 8000 wire-compat ≠ logit-equiv; Qwen3.5 ≠ Archer; hf:SwagMessiah100/laya; republished card is not a new measurement; Khmer 0.000 at 0.952; raw ECE 0.466 to 0.081 *theirs*; Banking77 0.425 vs cited Jev 0.870 *theirs*; typed-decisions 0.766 is the fine-tune *theirs*; Jev figures third-party published never measured here; ≠ convaiinnovations/laya; neilbauman21-hub/verdict README SHA a59542c330e4; one forward pass no new weights; readout over a causal LM; mlx-community/Qwen3.5-9B-MLX-4bit; calibrated probabilities is their sentence; neilbauman21-hub/verdict ≠ NakliTechie/verdict ≠ Heman10x-NGU/openJev-verdict-2.0 ≠ lifeporterlab/jev-verdict; TMHSDigital/plumbline README SHA 6437af3f1cb1; not a leaderboard; haginot/decision-without-generation README SHA 302cc419318e; five LLM judges; do not import a winner; jaredpalmer/kev densify §45 not a sibling first sighting; HEAD 90990a5fac2995b9faa3190f7d437e84f2067768; watch prior prefix 35566d73bea1; stored look 4f8110a3f8620cc3a182ae9a708e4398492c4b1a; description_hash 47fc60928c90 unchanged; release_tag kev-family; modal_probe35.py folded into modal_app.py; entrypoints base_probe benchmarks smoke_base; no new benchmark result; SHA move is not a replica; Qwen3.5 ≠ Archer; AkhilBod/Tidy densify §157 not a sibling first sighting; prior_sha null; description_hash 43bc19349316 was 10755cc3be89; empty tree; never deletes is their sentence; not a measured interlock; nadeemcite/jev-crash-course densify §150; nadyth/jev-crash-course densify §150; description_hash fc0f510875fa; prior HEADs 07e235496f87 and 464e1814fc0c; shared README SHA 055646fdef9a stays the §150 card; 11-level description plus LiteLLM; pedagogy not a bench; gholtzap/jev-codex-model-and-effort-router; routing ≠ permission; AditiSonawane96/jev-model-test; AdoCbl/JEV-RESUME-POLISHER; 151 passing tests is their badge; AgriciDaniel/jev-seo; AidinZaeim/jev-fuzz; semantic layer is a sensor; JohnCari/rossrecall; cannot sign while any sentence is open; LBDavid98/jevidence; a wrapper is not a bench; NeerajMohanty/RFxCheck; Roasbeef/jevlar; wire client ≠ replica; Zyw052/astrbot_plugin_jev_radar; sensor ≠ actuator; baize7815/jev-mcp-open-source; c85/jev-smb; game success ≠ calibrated Noul; cyberspace-cs/jev-agent-routing; 10x *theirs*; dagote/JevBlock; dpshde/bible-jev-climb; dxd-dechao/jev-playground; a playground is not a bench; frankda/jev-poly-crypto-demo; TRADING_MODE=live rejected; galgoczy/JEVsniper; scaffold is not a procedure; gdamiani1/jev-feed-triage; never writes or posts; jackson-heylion/jev-gomoku; hard tactics stay in code; juanmaagd/jev-test-auditor; kangshifu1/jev-skills-market; 5/5 and 6/6 *theirs*; klren0312/jev-trade; paper trading; lbbbboom/jev-chat; fills the box never sends; romanmeclazcke/codex-sift; santmun/radar; ranking ≠ calibration; smaldd14/qavo; code offers options; sypei/jev-crowd; animation is not moral authority; tomohiro-owada/jev-mem; optional is not required; tomtyiu/Jev-decision-plugin; a plugin is not a model; tonghzhang/jevproof; a harness is not Harbor; wade56754/keyframe-to-motion; yoichiojima-2/deslop; zhijianzhouml/CELEUS-JEV; do not invent which won; awesomejev 726 links unchanged; tracker sha 8c3efe4cbe4deb09e09f58713e16b7be3177771e unchanged; one tracker like is star-noise; Qwen/Qwen3.8-27B ≠ Archer; Hub archerhume/4rcherhume HTTP 401; Soft judgment never sole veto; accuracy ≠ calibration; catalog ≠ endorsement; *theirs* not Harbor; Skip Archer; invented_signal: false; Parent merges only after ADV_PASS; hourly 1751 §157 are on main; this fold is §158 only; composition 901-916; findings batch #138; do not reopen or amend PR #23 through #83; does not bump 0.5.0 or 0.5.1; notes.md §158
+
+## 159. User-provided jimothy (2026-09-22, live verify after merged #84)
+
+Novel HIGH off current `main` (`7d01516`, hourly 1851 `notes.md` §158 /
+merged #84). glance stays `notes.md` §147. Hourly 1203 stays
+`notes.md` §148. Merged #76 owns peterpme/lev `notes.md` §149.
+Merged #75 owns hourly 1256 `notes.md` §150. Merged #77 owns hourly
+1352 `notes.md` §151. Merged #78 owns ryana/jevify `notes.md` §152.
+Merged #79 owns hourly 1454 `notes.md` §153. Merged #80 owns hourly
+1556 `notes.md` §154. Merged #81 owns rawwerks/one-system
+`notes.md` §155. Merged #82 owns hourly 1653 `notes.md` §156.
+Merged #83 owns hourly 1751 `notes.md` §157. Merged #84 owns hourly
+1851 `notes.md` §158.
+hourly 1851 §158 are on main. This fold is §159 only. Do not reclaim
+§147 through §158. **HARD RULE:** do not reopen or amend PR #23
+through #84. This fold's IDs: `notes.md` §159 / composition 917-932 /
+findings batch #139. `invented_signal: false`. Third-party benches
+stay *theirs*, not Harbor. Soft judgment never sole veto. Does not
+bump 0.5.0 or 0.5.1. Skip Archer as a landed product. No Augustus
+call site. No wrappers and no install recipe. X is disabled. No X
+API calls. No new X quotes.
+
+Lane is the decision-model class. TypeSafe Jev (Choice, Score, Noul)
+stays the dominant exemplar and the default recommended path.
+AndrewPrifer/jimothy is a distill and local-serving path inside that
+class. It is not equal in adoption. It is not a replacement for
+hosted Jev.
+
+### How-to-apply (class lenses)
+
+1. **TypeSafe Jev stays the default path.** A local classifier trained
+   from Jev-compatible rows does not become the recommended call
+   because the dataset uses the same answer types.
+2. **A distilled local classifier is not hosted Jev.** jimothy fits a
+   linear head on frozen MiniLM or on TF-IDF. That head is not a
+   calibrated replica of hosted Jev. Wire-compatible answer fields
+   are not logit-equivalent.
+3. **Teacher labeling is hosted; training is local.** The optional
+   teacher form calls `typesafe-ai/jev` when `AI_GATEWAY_API_KEY` is
+   set, caches responses, and then trains locally. Saved-answer forms
+   do not call a teacher. Do not copy the train command into this
+   skill as a recipe.
+4. **Do not distill Jev as teacher of record.** Their sentence: a
+   supplied teacher label is a reference for agreement, not
+   independent ground truth. Calibrated outputs may differ from the
+   teacher's original probabilities. They estimate agreement with the
+   winning supplied label. Real outcomes stay the targets. A human
+   `label` overrides the teacher target and is tracked separately.
+5. **A null threshold means no recommendation.** Status is
+   `insufficient_data` or `target_not_met`. The small quick-start and
+   the email-300 split (10 calibration examples) store a null cutoff.
+   Null is not a silent approve and not a default of 0.5.
+6. **The application applies the cutoff.** The SDK returns every
+   prediction. There is no `accepted` field and no threshold option.
+   Applying a cutoff is the application's choice. Soft judgment never
+   sole veto. Their target, 95% agreement with the supplied labels
+   among predictions above the cutoff, is not a guarantee on future
+   inputs.
+7. **Validate MiniLM cutoffs in the deployment environment.** The same
+   q8 weights can yield different probabilities on Node ONNX and
+   browser WASM. FP16 WebGPU needs a matching calibrated export.
+   Batch shape can change a winning label. Do not carry a Node cutoff
+   onto WASM or WebGPU without measuring there.
+8. **BANKING77 and the email table stay *theirs*.** They are not
+   Harbor. BANKING77 used human labels on a previously inspected test
+   set. The email experiment is a pipeline on synthetic mail, not
+   evidence of reliable six-category routing.
+
+### AndrewPrifer/jimothy
+
+Live REST 2026-09-22. MIT. TypeScript. GitHub id `1378408007`.
+5★. 0 forks. size 18002. Default branch `master`. Topics empty.
+Created 2026-09-20T14:13:18Z. Pushed 2026-09-21T02:37:21Z.
+HEAD `f2ad9b40b88ea913d38fda758e564eac5f12fc0b`, commit
+2026-09-21T02:37:20Z ("Add author social link to email browser footer").
+`updated_at` 2026-09-22T01:09:47Z is not a new HEAD.
+GitHub `description` is null, so `description_hash` is null. That null
+is not an empty README. README blob `124318338a4c21ddd256df4501f387cc11857e1f`,
+7205 bytes. LICENSE blob `81712734e28d7bcc4421ea1c57654591830af8c3`.
+No GitHub releases and no tags, so `release_tag` is null.
+npm registry `jimothy` 0.1.2 matches `package.json`, MIT, engines
+`node >=22`, description "Train portable local classifiers from
+Jev-compatible datasets." The browser guide still names
+`jimothy-0.1.0.tgz` in a pack example. That filename is not the
+package version. Homepage field `https://jimothy-r63s.vercel.app`.
+This card does not audit the site. 5★ is not the reason for the fold.
+
+Their title: "Jimothy: Turn your Jev-usage into small, task-specific
+classifiers." Their sentence: train small local classifiers from
+Jev-compatible examples, and run them in the browser or Node.
+Answers are `choice`, `boolean`, `noul`, and `score`. One question is
+trained per bundle. Format version 3 is required. Older bundles are
+unsupported. Encoder fine-tuning is not implemented in v0.1.
+
+Default encoder is the q8 ONNX export of `Xenova/all-MiniLM-L6-v2`,
+masked mean pooling, inputs over 256 wordpieces rejected rather than
+truncated, intended for short English text. TF-IDF is the lightweight
+baseline (word unigrams and bigrams, vocabulary from the training
+split only). Both train a linear softmax head. Optional dependency
+`@huggingface/transformers` 4.3.0. Node inference of a finished bundle
+needs no network. Checksums detect corruption. They are not signatures
+of who produced the model.
+
+`evaluate` returns `{ model, answers }` with Jev-compatible typed
+fields. Their sentence: Jev's derived `confidence` field is
+deliberately not reproduced with different semantics. That is
+wire-compat, not logit-equiv.
+
+`thresholdRecommendation` is `{ threshold, status, targetAccuracy }`.
+A `ready` cutoff is the highest-coverage grid point whose corrected
+lower bound meets the target, ties broken toward the lower cutoff.
+The grid includes 0 and 0.5. 0.5 on that grid is not a decision
+boundary. For Score, their accuracy means the winning level matches
+the reference, not an error bound on the expected score. Returned
+`score` is the expected level index. `maxProbability` on Score is the
+probability of the most likely level, not that expectation. On boolean
+and noul, `maxProbability` is `max(p, 1-p)`. Noul 0.5 remains
+uncertainty about a predicate, not medium intensity.
+
+### BANKING77 and email (*theirs*, not Harbor)
+
+Measured on an Apple M3 Max, macOS arm64, Node.js 25.6.0. BANKING77:
+8,023 training, 1,969 development, 3,079 test examples, 77 classes,
+human reference labels, a previously inspected test set, at most 100
+epochs per candidate. The CLI default is 200 epochs, so an ordinary
+run can take longer. Their table: TF-IDF train 37.6 s, warm median
+0.023 ms, overall test accuracy 82.20%, coverage 22.80%, accepted
+accuracy 99.57%. MiniLM train 7 min 26 s, warm median 1.72 ms,
+accuracy 92.37%, coverage 82.23%, accepted accuracy 97.95%.
+Macro F1 82.13% versus 92.36%. Their sentence: these measurements
+predate the advisory API, and they do not establish equivalent
+performance on a new task or on teacher-generated data. Do not read
+TF-IDF's higher accepted accuracy without its much lower coverage.
+
+Email: 300 synthetic emails from `openai/gpt-5-nano`, then labeled by
+`typesafe-ai/jev`. Six categories. Split 195 / 45 / 60, and development
+further into 25 tuning, 10 calibration, 10 acceptance. Teacher
+agreement on the 60 test emails: 75.0% (45/60) batched and 78.3%
+(47/60) single-email. Warm p50 / p95 6.80 / 8.33 ms. Local training
+3.80 s. Recommended threshold: none, insufficient calibration data.
+Five of 60 predicted labels changed between single-input and batched
+calls. The largest probability difference was 0.278. The fixed test
+set has no Jev-labeled social examples, so social is unmeasured.
+Generator intentions matched Jev on 224/300 emails. That match is a
+dataset diagnostic, not a correctness score. Their sentence: a working
+pipeline experiment, not evidence of reliable six-category automatic
+email routing. The API returned the alias `typesafe-ai/jev`, not an
+immutable version identifier. Gateway metadata reports $0.00839 market
+cost and $0 charged cost. Those figures are response metadata, not an
+account billing audit. GPT token-price estimate about $0.0068 is
+theirs. A second training run reused cached responses with no API key
+and produced identical head weights. That identity is their claim on
+this cache, not a replica of hosted Jev.
+
+### Browser runtimes (*theirs*)
+
+Chromium on the same machine: MiniLM about 7.5 ms with WASM and
+5.6–8.7 ms with FP16 WebGPU per warm input. FP16 batch throughput
+about 14–36× q8 WASM in those runs. The browser benchmark table
+(M3 Max, Chromium 153) is theirs: q8 WASM p50 7.47 ms, test accuracy
+92.40%; FP16 WebGPU p50 8.70 ms, accuracy 92.34%; later warmed FP16
+p50 5.63–6.43 ms. q8 WebGPU in that first table was slower per query
+(24.84 ms) at similar batch throughput to WASM. Do not collapse those
+rows into one speed.
+
+FP16 recalibration on the existing BANKING77 head, same machine,
+Transformers.js 4.3.0: temperature 0.823122 to 0.836752, threshold
+0.85 to 0.90, overall accuracy unchanged at 92.34%, batch accepted
+accuracy 98.66% at 77.75% coverage (2,394 / 3,079), single-input
+98.62% at 77.82%. ECE 0.83% to 1.11%. Test log loss 0.273554 to
+0.273790. Their sentence: this does not establish that the new
+temperature improves every calibration metric, and the test set had
+already been inspected. Not a new blind evaluation. Across batch
+versus single, 3 winning labels and 2 acceptance decisions changed.
+Maximum confidence differed by at most 0.008672. The saved FP16
+policy is an experimental artifact, separate from the unchanged q8
+bundle. The Node SDK does not load that policy. q8 fallback keeps
+the base model's metadata.
+
+### Decision-design card
+
+```text
+Domain (AI / SWE / knowledge work):
+Desired behavior and non-judgment baseline: a caller already holds Jev-compatible rows, or can pay a teacher to label inputs, and wants a small local classifier for one closed question; majority class and an exact ruleset stay in code
+Semantic judgment(s) and what each output means: choice, boolean, noul, or score from a linear head; the probability estimates agreement with the supplied labels after temperature scaling, not hosted Jev's uncertainty and not permission
+Pillar (EU / VOI / SDT): selective classification; the cutoff is an operating point on supplied-label agreement; pay for human labels where teacher error would compound
+Hole: distill / local-serve one closed question, then abstain in the application
+Family: local linear head on frozen MiniLM or TF-IDF; closed hosted API remains TypeSafe Jev
+Evidence/candidate source: saved human or teacher distributions; teacher labels are not independent gold; coverage gaps include distribution shift, rare classes, and out-of-scope inputs
+Deterministic policy, constraints, and action ownership: the SDK returns every prediction; a null threshold is no recommendation; the application owns the cutoff; irreversible acts stay behind policy and a human where the cost requires it
+Batchable vs genuinely dependent steps: one question per bundle; a second question is another bundle, not a free add on the same head
+Failure/abstention behavior: fail closed on irreversible acts by abstaining in the app; do not treat null as approve; do not treat 0.5 on their grid as a boundary
+Smallest experiment that could reject this family, not just this vendor: held-out human labels the teacher did not write, scored in the deployment runtime (Node, WASM, or FP16), where accepted accuracy misses the target or the Node cutoff mis-covers WASM
+Eval path: their report.json on a frozen test split, plus a deployment-runtime check; BANKING77 and email-300 stay *theirs*, not Harbor
+Typed judgment provider: TypeSafe Jev default for the live call; jimothy only after you measure the local head on your labels
+Live references + versions: notes.md §159; npm jimothy 0.1.2; HEAD f2ad9b40b88ea913d38fda758e564eac5f12fc0b; GitHub description null; release_tag null
+```
+
+catalog is not endorsement. A distilled local classifier is not
+TypeSafe Jev. A serving substrate is not a calibrated replica.
+Wire-compat is not logit-equiv. Teacher agreement is not independent
+gold. A null threshold is not a recommendation. Soft judgment never
+sole veto. *theirs* not Harbor. SHA move is not a replica. Skip Archer.
+`invented_signal: false`. Parent merges only after ADV_PASS.
+hourly 1851 §158 are on main. This fold is §159 only. Do not reopen
+or amend PR #23 through #84. notes.md §159.
+
+User-provided jimothy uniqueness lock: TypeSafe Jev default path; AndrewPrifer/jimothy distill local-serving path not a replacement; distilled local classifier ≠ TypeSafe Jev; ≠ calibrated replica of hosted Jev; MIT TypeScript; npm jimothy 0.1.2; engines node >=22; package.json description Train portable local classifiers from Jev-compatible datasets.; npm registry 0.1.2 matches package.json; GitHub description null; description_hash null; null GitHub description is not an empty README; README is full; README SHA 124318338a4c21ddd256df4501f387cc11857e1f; LICENSE SHA 81712734e28d7bcc4421ea1c57654591830af8c3; 5★; 0 forks; GitHub id 1378408007; size 18002; default branch master; HEAD f2ad9b40b88ea913d38fda758e564eac5f12fc0b; commit 2026-09-21T02:37:20Z; pushed_at 2026-09-21T02:37:21Z; created 2026-09-20T14:13:18Z; updated_at 2026-09-22T01:09:47Z is not a new HEAD; no GitHub releases; release_tag null; no tags; topics empty; homepage https://jimothy-r63s.vercel.app; teacher typesafe-ai/jev when configured; AI_GATEWAY_API_KEY; training itself is local; a supplied teacher label is a reference for agreement not independent ground truth; calibrated outputs may differ from the teacher's original probabilities; do not distill Jev as teacher of record; real outcomes stay the targets; null threshold means no recommendation; insufficient_data or target_not_met; small quick-start; email 300 threshold None; SDK returns every prediction; applying a cutoff is the application's choice; soft judgment never sole veto; MiniLM probabilities can differ across Node browser WASM WebGPU; validate cutoffs in the deployment environment; FP16 WebGPU needs a matching calibrated export; same q8 weights are not the same probabilities; BANKING77 TF-IDF 82.20% MiniLM 92.37% *theirs* not Harbor; 37.6 s and 7 min 26 s *theirs*; 0.023 ms and 1.72 ms *theirs*; coverage 22.80% vs 82.23% *theirs*; accepted accuracy 99.57% vs 97.95% *theirs*; previously inspected test set; email 300 synthetic; 75.0% (45/60) and 78.3% (47/60) *theirs*; 6.80 ms *theirs*; five of 60 labels changed; largest probability difference 0.278; social unmeasured; not evidence of reliable six-category routing; FP16 98.66% at 77.75% coverage *theirs*; 98.62% at 77.82% *theirs*; not a new blind evaluation; temperature 0.836752 threshold 0.90; ECE 1.11% vs 0.83% *theirs*; does not establish every calibration metric improved; 3 winning labels and 2 acceptance decisions; browser guide still names jimothy-0.1.0.tgz; Jev confidence field deliberately not reproduced; wire-compat ≠ logit-equiv; format version 3; one question per bundle; encoder fine-tuning not implemented in v0.1; Xenova/all-MiniLM-L6-v2 q8; checksums detect corruption not signatures; catalog ≠ endorsement; SHA move is not a replica; *theirs* not Harbor; Skip Archer; invented_signal: false; Parent merges only after ADV_PASS; hourly 1851 §158 are on main; this fold is §159 only; composition 917-932; findings batch #139; do not reopen or amend PR #23 through #84; does not bump 0.5.0 or 0.5.1; notes.md §159

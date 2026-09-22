@@ -80,6 +80,16 @@ is not a species win. Qwen3.5 is not Archer. TypeSafe Jev stays the
 default path. These peers are in the class. They are not equal in
 adoption.
 
+User-provided jimothy (`notes.md` §159) is a distill and local-serving
+path in the decide class. TypeSafe Jev stays the default path. A linear
+head on frozen MiniLM or TF-IDF is not a calibrated replica of hosted
+Jev. Teacher labels, when configured, come from typesafe-ai/jev.
+Training is local. A null threshold is no recommendation. The
+application owns the cutoff. MiniLM probabilities can differ across
+Node, WASM, and WebGPU, so validate the cutoff in the runtime that
+will serve it.
+
+
 - **Locate.** [GLiNER](https://arxiv.org/abs/2311.08526) (Zaratiana et al.,
   NAACL 2024): bidirectional encoder; open entity types in one forward
   pass; output is *spans*. Mental model: keep/drop over candidates the
