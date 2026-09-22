@@ -116,6 +116,22 @@ Report:
 - total expected cost, including review and recovery;
 - performance by action severity and distribution-shift slice.
 
+Keep a measurement boundary for each cost and timing claim: stages included,
+request granularity, concurrency, hardware, warm/cold state, cache reads/writes,
+retries, and missing usage. Reduced context tokens can lose to cache-friendly
+unfiltered input. A price from another model is a scenario estimate, not this
+model's measured serving cost; API-equivalent prices are not subscription
+charges. Unknown usage is not zero. Separate known subtotals from estimates.
+
+For a retrieval filter, pair the same questions and initial candidates, measure
+retained evidence recall and final answer quality, and include filtering and
+follow-up searches in elapsed time. A reused control or another answer model
+on a different question sample is not a fresh matched comparison. The
+[decision-model-testing export](https://github.com/dorkitude/decision-model-testing/blob/ba6a5e2e9a60161564ead92a932ccbf3f88e4497/REPRODUCTION.md)
+illustrates why code, numeric summaries, and complete replayable run evidence
+are separate artifacts. Keep the unfiltered baseline if savings disappear at
+the required quality and recall.
+
 ## Tool and skill routing
 
 Routing is selection, not permission.

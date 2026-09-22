@@ -9,12 +9,17 @@ unit test, and a successful model call answer different questions.
 Before inference, name the baseline, evidence source, representable answer,
 action owner, costs, fallback, and a result that rejects the proposal.
 Keep exact constraints enforced regardless of model output. Record model,
-rubric, candidate-source, calibration, policy, and runtime versions.
+adapter/aggregation, rubric, candidate-source, calibration, policy, and runtime versions.
 For each policy-consumed number, keep a score record: event/output semantics,
 resolved model/checkpoint, question and label-set hashes, population/window,
 calibrator, operating threshold, held-out metrics with intervals, and recheck
 trigger. A changed model, rubric, label set, route, or population requires
 requalification rather than inheriting a previous threshold.
+So does a wrapper that changes normalization, averaging, or score semantics
+without changing the response schema.
+Positive scalar temperature scaling preserves the top label but can change
+threshold crossings, abstention, and policy loss; label accuracy alone cannot
+establish policy equivalence.
 
 Separate three data uses: development (including prompt search), calibration
 and policy selection, and final evaluation. Split by source entity, document,
@@ -53,6 +58,19 @@ documents, tasks, or trajectories. A confidence interval crossing zero is
 not proof of equivalence; use a prespecified equivalence/noninferiority
 margin and sufficient power. Zero observed failures is not zero failure
 probability. State sample size and the range still compatible with it.
+
+Plan support for the **accepted cases in each required reporting unit**, not
+just total test rows. With a frozen policy, IID Bernoulli errors, `n > 0`
+accepted cases and zero errors, the one-sided exact upper error bound at
+confidence `1-delta` is `1-delta**(1/n)`. At 95% confidence, 20 error-free
+cases still permit about 13.9% error; certifying at most 1% needs at least
+299 error-free cases. This is not valid after an uncorrected threshold search
+on those same cases. Multiple units need simultaneous-error control; repeats
+of one case are not independent support. If support is insufficient, gather
+labels, retain review, or use a justified coarser reporting unit without
+silently dropping a required subgroup guarantee. Recent
+[availability research](https://arxiv.org/abs/2609.22048v1) studies this planning
+problem; its proposed optimizer is not implemented by Augustus.
 
 ## Costs, abstention, and operating points
 
@@ -101,6 +119,14 @@ irrelevant-option additions, paraphrase pairs, missing/conflicting evidence,
 hostile instructions, truncated inputs, unsupported languages, and stale
 observations. Record whether the **action** changes, not just the score.
 An API need not promise invariance for stability to matter to the product.
+For injection tests, pair attacks with clean and length-matched harmless
+controls. Verify the attack preserves the intended gold label; newly added
+substantive evidence may legitimately change it. Report clean failures and
+eligible denominators, not only answer flips. Without those controls, report
+an observed answer change, not an attack-caused error or an action change;
+neither the eligible denominator nor downstream effects are known yet. See
+[Decision Injection Bench](https://github.com/cwhy/decision-injection-bench/tree/f566360ffac91bfc50574aef722307dcbf51d5e1)
+for a reported controlled-test example, not a safety certificate.
 
 Exercise malformed responses, non-finite scores, duplicate IDs, unsupported
 operations, provider outages, and fallback activation. Distinguish primary
@@ -132,6 +158,9 @@ expose disagreement and workload, but cannot directly observe outcomes of
 actions that were never taken. Use an appropriate controlled rollout or
 causal design before claiming counterfactual benefit. Monitor distribution,
 policy overrides, error slices, and escalation load after deployment.
+Teacher agreement is not truth, including at the application-policy level.
+Before shadow fan-out or logging, authorize every destination and minimize
+sensitive state; adding a benchmark must not silently widen data access.
 
 ## Offline evaluator
 

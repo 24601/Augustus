@@ -25,13 +25,15 @@ code / policy / interlock           -> authority, effects, stop criteria
 | Check a TLA+ model | TLC or Apalache, according to task/fragment | triage counterexamples |
 | Prove code against contracts | Dafny/OpenJML/Frama-C/SPARK/proof assistant | rank obligations or repairs |
 | Search faulted executions reproducibly | DST/systematic tester | cluster failing traces |
-| Enforce a runtime temporal property | runtime monitor | anomaly signal beside monitor |
+| Monitor a stated trace property | runtime monitor | anomaly signal beside monitor |
+| Prevent an enforceable violation | interlock/shield/controller with explicit timing and recovery assumptions | proposal only; cannot waive the constraint |
 | Decide which artifact deserves attention | policy using model evidence | primary judgment role |
 
-**Alloy vs Apalache:** Alloy is a relational model finder/analyzer using finite
-scopes and SAT-style solving. Apalache is an SMT-backed symbolic checker/analyzer
-for supported TLA+ tasks/fragments. TLC explicitly explores TLA+ states. Do not
-collapse the tools or the claims their green runs support.
+**Alloy vs Apalache:** Alloy uses finite relational scopes; Alloy 6 can check
+bounded temporal traces or, with a suitable backend, all traces in that finite
+scope. Apalache is an SMT-backed symbolic checker/analyzer for supported TLA+
+tasks/fragments. TLC explicitly explores TLA+ states. Do not collapse object
+bounds, temporal horizons, tools, or the claims their green runs support.
 
 **DST boundary:** Antithesis-style deterministic execution, Resonate-style
 layered protocol/oracle/SDK testing, and simulator environments such as
@@ -45,8 +47,8 @@ They do not turn a learned “healthy” or “done” score into proof or settl
   unique-bug recall;
 - rank failed verification conditions or repair candidates;
 - map production traces to candidate spec behaviors for review;
-- place a soft anomaly sensor between exact preconditions and exact runtime
-  monitors;
+- place a soft anomaly sensor beside preventive interlocks and authoritative
+  outcome monitors; a post-action alarm cannot undo an irreversible effect;
 - use mutation and vacuity tests to reject weak generated properties.
 
 Each remains **Hypothesis** until its checker-backed acceptance test runs.

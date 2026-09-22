@@ -1,4 +1,6 @@
 import importlib.util
+import json
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -77,6 +79,35 @@ class RevisitFingerprintTests(unittest.TestCase):
         noise = fingerprints.classify(before, after)
         self.assertEqual(noise["grade"], "star_noise")
         self.assertEqual(noise["action"], "pulse_only")
+
+    def test_node_identity_conflict_cannot_be_classified_as_unchanged(self):
+        stored = dict(record(), node_id="R_original")
+        with self.assertRaisesRegex(ValueError, "node_id.*differ"):
+            fingerprints.classify(stored, dict(record(), node_id="R_replacement"))
+        self.assertEqual(fingerprints.classify(stored, dict(stored))["grade"], "unchanged")
+        # Legacy stores may lack a node ID. Absence is not a contradiction.
+        self.assertEqual(fingerprints.classify(record(), stored)["grade"], "unchanged")
+        for invalid in (None, "", True, 5):
+            with self.subTest(invalid=invalid), self.assertRaisesRegex(ValueError, "node_id"):
+                fingerprints.classify(stored, dict(record(), node_id=invalid))
+
+    def test_store_schema_version_requires_integer_not_bool_or_float(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "store.json"
+            for version in (True, 1.0, "1"):
+                path.write_text(json.dumps({"schema_version": version,
+                                           "stored_fields": list(fingerprints.STORED_FIELDS),
+                                           "looks": []}))
+                with self.subTest(version=version), self.assertRaisesRegex(ValueError, "schema_version"):
+                    fingerprints.load_store(path)
+
+    def test_duplicate_store_keys_are_rejected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "store.json"
+            content = json.dumps({"schema_version": 1, "stored_fields": list(fingerprints.STORED_FIELDS), "looks": []})
+            path.write_text(content[:-1] + ',"schema_version":1}')
+            with self.assertRaisesRegex(ValueError, "duplicate JSON key"):
+                fingerprints.load_store(path)
 
     def test_unknown_fingerprint_value_requests_review_without_capability_claim(self):
         unknown = fingerprints.classify(record(), record(description_hash=None))

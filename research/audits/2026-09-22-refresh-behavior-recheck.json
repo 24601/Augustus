@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-22",
+  "skill_version": "0.6.1-dev",
+  "agent": "/root/refresh_behavior_recheck",
+  "requested_model": "gpt-5.6-sol",
+  "requested_effort": "high",
+  "observed_model": "unobservable",
+  "observed_effort": "unobservable",
+  "expected_notes_withheld": true,
+  "references_read": [
+    "SKILL.md",
+    "validation.md",
+    "activation-triggers.md"
+  ],
+  "answers": [
+    {
+      "id": "attack_controls",
+      "prompt": "Appending hostile text changed 12 of 20 classifier answers. We repeated each case five times and want to publish a 60 percent injection vulnerability rate over 100 independent samples. Is that a sound claim?",
+      "answer": "No. Five repeats of each of 20 cases produce clustered measurements, not 100 independent samples. Report, at most, that 12/20 cases showed an answer change under the specified condition. Calling this an injection vulnerability rate also requires clean-failure accounting, length-matched harmless controls, confirmation that the attack preserved each gold label, an eligible denominator, and measurement of downstream action changes. Analyze repeats as within-case variability, not added independent support."
+    },
+    {
+      "id": "temperature_policy",
+      "prompt": "A positive scalar temperature calibration leaves every top label unchanged. Does this prove the approval workflow is unchanged when it uses a probability threshold?",
+      "answer": "No. Positive scalar temperature scaling preserves the argmax label but changes probability values. Cases can cross an approval threshold or abstention boundary, changing actions and policy loss. Requalify the calibrated scores and frozen threshold on held-out deployment-representative data, measuring workflow actions and errors. Label agreement alone does not prove policy equivalence."
+    },
+    {
+      "id": "plain_rewrite",
+      "prompt": "Rewrite this sentence more clearly: The meeting was moved because the room was unavailable.",
+      "answer": "“The meeting was relocated because the original room was unavailable.”\n\nIf “moved” meant time rather than location: “The meeting was rescheduled because the room was unavailable.”"
+    },
+    {
+      "id": "risk_support",
+      "prompt": "Our frozen routing rule made no mistakes on 20 independent accepted examples in a rare category. Can we claim its error is below 1 percent with 95 percent confidence? We also have 40 other categories.",
+      "answer": "No. With 20 independent accepted cases and zero errors, the one-sided exact 95% upper bound is about 13.9%, not 1%. Reaching a 1% upper bound requires at least 299 error-free accepted cases under the stated IID and frozen-policy assumptions. The claim applies only to accepted cases; coverage still matters. If guarantees are required for all 41 categories, each needs adequate support and simultaneous-error control. Pooling categories cannot silently establish every category’s bound."
+    }
+  ],
+  "parent_review": {
+    "verdict": "pass",
+    "reviewer": "parent coordinator",
+    "reasons": {
+      "attack_controls": "Now reports only an observed answer change and explicitly requires controls/eligible denominator/actions for stronger claims.",
+      "temperature_policy": "Correctly distinguishes argmax from policy actions and calls for held-out requalification.",
+      "plain_rewrite": "No unnecessary skill process; preserves the ambiguity of moved by giving conditional alternatives.",
+      "risk_support": "Numerical bound and single-unit support correct; scope, coverage and simultaneous claims bounded."
+    },
+    "limitations": "Qualitative smoke test on supplied prompts; no claim of measured generalization, real-user improvement, or native-host activation."
+  }
+}

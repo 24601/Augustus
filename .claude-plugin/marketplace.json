@@ -1,12 +1,12 @@
 {
   "name": "augustus",
-  "description": "Design and evaluate decision-model placements with explicit policy and authority.",
+  "description": "Find, build, evaluate, and improve decision-model systems with explicit policy.",
   "owner": {
     "name": "Augustus contributors"
   },
   "plugins": [
     {
-      "description": "Place decision models beside code, policy, and human judgment. Apply decision theory, calibration, routing, ranking, and falsifying evaluations across software, business, and everyday decisions. TypeSafe Jev is the default hosted exemplar. Independent of TypeSafe.",
+      "description": "Find, build, evaluate, and hill-climb decision-model systems. Apply composition, decision theory, calibration and outcome evaluation across software, business and everyday decisions. TypeSafe Jev is the default hosted exemplar. Independent of TypeSafe.",
       "name": "augustus",
       "source": "./.agents",
       "skills": ["./skills/augustus"],
@@ -15,7 +15,7 @@
       "repository": "https://github.com/24601/Augustus",
       "license": "MIT",
       "keywords": ["decision-models", "decision-theory", "calibration", "agent-skills", "jev"],
-      "version": "0.6.0"
+      "version": "0.7.0"
     }
   ]
 }

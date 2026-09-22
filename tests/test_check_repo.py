@@ -160,6 +160,43 @@ class RepositoryCheckTests(unittest.TestCase):
         reference.write_text("# Guide\n\n[missing](missing.md)\n", encoding="utf-8")
         self.assertIn("broken-link", self.codes(root))
 
+    def test_runtime_links_must_survive_standalone_skill_install(self) -> None:
+        root = self.make_repo(skill_body="[repo](../../../README.md)\n[guide](references/guide.md)\n")
+        reference = root / ".agents/skills/augustus/references/guide.md"
+        reference.parent.mkdir(parents=True)
+        reference.write_text("# Guide\n[repo](../../../../README.md)\n")
+        issues = [item for item in check_repository(root) if item.code == "broken-link"]
+        self.assertEqual(len(issues), 2)
+        self.assertTrue(all("escapes" in item.message for item in issues))
+
+    def test_nested_reference_budget_and_links_are_not_skipped(self) -> None:
+        root = self.make_repo(skill_body="[guide](references/nested/guide.md)\n")
+        reference = root / ".agents/skills/augustus/references/nested/guide.md"
+        reference.parent.mkdir(parents=True)
+        reference.write_text("# Guide\n[missing](missing.md)\n\n" + "x" * 181000)
+        self.assertTrue({"size-budget", "reference-total-budget", "broken-link"}.issubset(self.codes(root)))
+
+    def test_fence_with_trailing_text_does_not_hide_later_real_link(self) -> None:
+        root = self.make_repo(skill_body="```md\n```not-closing\n```\n[missing](missing.md)\n")
+        self.assertIn("broken-link", self.codes(root))
+
+    def test_semver_accepts_build_and_prerelease_but_rejects_malformed_versions(self) -> None:
+        for version in ("1.2.3-rc.1+build.07", "0.0.0", "0.6.1-dev"):
+            with self.subTest(version=version):
+                self.assertEqual([], check_repository(self.make_repo(version=version)))
+        for version in ("01.2.3", "1.2.3-01", "1.2.3-rc..1", "1.2.3+", "1.2.3+build..1"):
+            with self.subTest(version=version):
+                self.assertTrue({"skill-version", "marketplace-version"}.issubset(self.codes(self.make_repo(version=version))))
+
+    def test_malformed_urls_and_directory_cards_report_issues_not_tracebacks(self) -> None:
+        root = self.make_repo(skill_body="[bad](https://[)\n`references/directory.md`\n")
+        reference = root / ".agents/skills/augustus/references/directory.md"
+        reference.mkdir(parents=True)
+        codes = self.codes(root)
+        self.assertIn("broken-link", codes)
+        self.assertIn("active-reference", codes)
+        self.assertIn("unreadable-file", codes)
+
     def test_duplicate_runtime_heading_is_reported(self) -> None:
         root = self.make_repo(skill_body="# Augustus\n## Repeated\n## Repeated\n")
         self.assertIn("duplicate-anchor", self.codes(root))

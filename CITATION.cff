@@ -11,9 +11,9 @@ authors:
 repository-code: https://github.com/24601/Augustus
 url: https://24601.github.io/Augustus/
 abstract: >-
-  An agent skill for placing and evaluating bounded model judgments
-  across software, business, organizations, and everyday decisions.
-  Applies classical decision methods while keeping exact work, policy,
+  An agent skill for finding, building, evaluating, and improving systems
+  with decision models across software, business, organizations, and life.
+  Applies composition and classical decision methods while keeping exact work, policy,
   and authority explicit. TypeSafe Jev is the default hosted exemplar.
   Independent of TypeSafe.
 keywords:
@@ -24,5 +24,5 @@ keywords:
   - formal-methods
   - agentic-ai
 license: MIT
-version: 0.6.0
+version: 0.7.0
 date-released: "2026-09-22"

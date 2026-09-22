@@ -3,6 +3,7 @@ from __future__ import annotations
 from contextlib import redirect_stdout
 import importlib.util
 import io
+from http.client import IncompleteRead
 import json
 import os
 from pathlib import Path
@@ -10,6 +11,8 @@ import subprocess
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
+from urllib.error import HTTPError
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -147,6 +150,72 @@ class RefreshTests(unittest.TestCase):
                 refresh.fetch_url("https://api.github.com/repos/example/repo")
         finally:
             refresh.urlopen = original
+
+    def test_truncated_http_bodies_become_error_receipts(self) -> None:
+        class TruncatedResponse:
+            status = 200
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *_args):
+                return False
+
+            def read(self, _size):
+                raise IncompleteRead(b"partial", 100)
+
+        with patch.object(refresh, "urlopen", return_value=TruncatedResponse()):
+            receipt, failed = refresh.collect(["github:example/repo"], refresh.fetch_url)
+        self.assertTrue(failed)
+        self.assertEqual(receipt["sources"][0]["status"], "error")
+        self.assertIn("network error", receipt["sources"][0]["error"])
+
+        failure = HTTPError("https://api.github.com", 503, "Unavailable", {}, None)
+        with patch.object(refresh, "urlopen", side_effect=failure), patch.object(
+            failure, "read", side_effect=IncompleteRead(b"partial", 100)
+        ):
+            receipt, failed = refresh.collect(["github:example/repo"], refresh.fetch_url)
+        self.assertTrue(failed)
+        self.assertEqual(receipt["sources"][0]["status"], "error")
+
+    def test_deep_json_does_not_abort_later_source_receipts(self) -> None:
+        fetch = self.github_fetch()
+        fetch.replies["https://api.github.com/repos/bad/deep"] = refresh.HttpResponse(
+            200, b'{"decoder_failure_fixture":true}'
+        )
+        original = json.loads
+
+        def decode(value, **kwargs):
+            if value == '{"decoder_failure_fixture":true}':
+                raise RecursionError("too deep")
+            return original(value, **kwargs)
+
+        with patch.object(refresh.json, "loads", side_effect=decode):
+            receipt, failed = refresh.collect(["github:bad/deep", "github:example/repo"], fetch)
+        self.assertTrue(failed)
+        self.assertEqual([item["status"] for item in receipt["sources"]], ["error", "ok"])
+        self.assertIn("invalid JSON", receipt["sources"][0]["error"])
+
+    def test_duplicate_metadata_keys_are_not_silently_shadowed(self) -> None:
+        fetch = self.github_fetch()
+        url = "https://api.github.com/repos/example/repo"
+        body = fetch.replies[url].body
+        fetch.replies[url] = refresh.HttpResponse(200, body[:-1] + b',"node_id":"R_other"}')
+        receipt, failed = refresh.collect(["github:example/repo"], fetch)
+        self.assertTrue(failed)
+        self.assertIn("invalid JSON", receipt["sources"][0]["error"])
+
+    def test_collector_timestamp_grammar_matches_fingerprint_contract(self) -> None:
+        for stamp in ("2026-09-22 00:00:00Z", "2026-09-22Z"):
+            fetch = self.github_fetch()
+            url = "https://api.github.com/repos/example/repo"
+            metadata = json.loads(fetch.replies[url].body)
+            metadata["pushed_at"] = stamp
+            fetch.replies[url] = response(200, metadata)
+            receipt, failed = refresh.collect(["github:example/repo"], fetch)
+            with self.subTest(stamp=stamp):
+                self.assertTrue(failed)
+                self.assertIn("UTC ISO-8601", receipt["sources"][0]["error"])
 
     def test_output_refuses_to_overwrite_and_returns_json_error(self) -> None:
         fetch = self.github_fetch()

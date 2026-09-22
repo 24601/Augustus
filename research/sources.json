@@ -3,6 +3,158 @@
   "retrieved": "2026-09-21T01:36Z",
   "sources": [
     {
+      "kind": "paper",
+      "title": "Comparisons of Signals",
+      "url": "https://benjaminbrooks.net/downloads/bfk_comparisons.pdf",
+      "note": "March 2024 author PDF: definitions and relevant theorem statements inspected; isolated experiments versus joint signals. Later PDF digest in foundations audit; no empirical reproduction.",
+      "reviewed_at": "2026-09-22",
+      "review": "decision-engine-2026-09-22.md"
+    },
+    {
+      "kind": "paper",
+      "title": "Strong data-processing inequalities for channels and Bayesian networks",
+      "url": "https://arxiv.org/abs/1508.06025v4",
+      "note": "Section 1 channel/TV/information definitions inspected. Promoted only ordinary conditional data processing with learned parameters and all informative inputs explicit.",
+      "reviewed_at": "2026-09-22",
+      "review": "decision-engine-2026-09-22.md"
+    },
+    {
+      "kind": "paper",
+      "title": "Performative Prediction",
+      "url": "https://proceedings.mlr.press/v119/perdomo20a.html",
+      "note": "Definitions and restricted convergence assumptions inspected. Policy-induced distribution shift informs trajectory evaluation, not arbitrary agent-loop stability.",
+      "reviewed_at": "2026-09-22",
+      "review": "decision-engine-2026-09-22.md"
+    },
+    {
+      "kind": "paper",
+      "title": "Time-uniform confidence sequences",
+      "url": "https://arxiv.org/abs/1810.08240v4",
+      "note": "Introduction and method scope inspected. Sequential alternative under stated assumptions, not arbitrary test reuse; bundled comparator remains fixed-sample.",
+      "reviewed_at": "2026-09-22",
+      "review": "decision-engine-2026-09-22.md"
+    },
+    {
+      "kind": "paper",
+      "title": "Calibrate What You SHIP",
+      "url": "https://arxiv.org/abs/2608.21748v1",
+      "note": "Method, experimental protocol and finite-sample proof boundary inspected. Prespecified-grid guarantee excludes practical pointwise threshold search. T2I target-judge results reported, not reproduced.",
+      "reviewed_at": "2026-09-22",
+      "review": "decision-engine-2026-09-22.md"
+    },
+    {
+      "kind": "paper",
+      "title": "RECAP: Regression Evaluation for Continual Adaptation of Prompts",
+      "url": "https://arxiv.org/abs/2606.06698v2",
+      "note": "Method/setup/results inspected. Proactive updates without real eval feedback; preserve previous-constraint regressions, no general no-benefit claim for feedback-driven prompt search.",
+      "reviewed_at": "2026-09-22",
+      "review": "decision-engine-2026-09-22.md"
+    },
+    {
+      "kind": "paper",
+      "title": "Combee: Scaling Prompt Learning for Self-Improving Language Model Agents",
+      "url": "https://arxiv.org/abs/2604.04247v1",
+      "note": "Motivation, aggregation/shuffling/controller and current official GEPA integration inspected. Scaling experiment candidate, not mandatory parallelism or a reproduced gain.",
+      "reviewed_at": "2026-09-22",
+      "review": "decision-engine-2026-09-22.md"
+    },
+    {
+      "kind": "hf",
+      "title": "Jev-Omni",
+      "url": "https://huggingface.co/akhilaaa3/Jev-Omni",
+      "note": "Revisit notes section 156. Model card, loader, config and verification inspected at 55b53f2ec1b4c656c8a6172b0c7555ae578a9c3f. Reported multimodal results; no weight execution. See 2026-09-22 full review.",
+      "reviewed_at": "2026-09-22T16:05Z",
+      "review": "decision-model-review-2026-09-22.md"
+    },
+    {
+      "kind": "github",
+      "title": "dorkitude/decision-model-testing",
+      "url": "https://github.com/dorkitude/decision-model-testing",
+      "note": "Revisit notes section 163: now four public experiment exports at ba6a5e2e9a60161564ead92a932ccbf3f88e4497; private historical receipts absent. Reported, not locally reproduced.",
+      "reviewed_at": "2026-09-22T16:05Z",
+      "review": "decision-model-review-2026-09-22.md"
+    },
+    {
+      "kind": "github",
+      "title": "TypeLLM/pijev",
+      "url": "https://github.com/TypeLLM/pijev",
+      "note": "Label-aligned permutation averaging at bca3a73d6419b794d63cd780ba4a0254579d7ccc; confidence changes to winning mean probability. Jensen bounds mean loss, not best member or calibration.",
+      "reviewed_at": "2026-09-22T16:05Z",
+      "review": "decision-model-review-2026-09-22.md"
+    },
+    {
+      "kind": "site",
+      "title": "Jevusers tracked directory",
+      "url": "https://jevusers.com/",
+      "note": "Traversed homepage and linked API of 400 entries. Discovery only; Augustus already listed. See dated inventory.",
+      "reviewed_at": "2026-09-22T16:05Z",
+      "review": "decision-model-review-2026-09-22.md"
+    },
+    {
+      "kind": "site",
+      "title": "Jevusers apps",
+      "url": "https://jevusers.com/apps",
+      "note": "Traversed all 1299 observed rows, 12 categories. Not 1299 primary code audits; list inclusion is not independent validation.",
+      "reviewed_at": "2026-09-22T16:05Z",
+      "review": "decision-model-review-2026-09-22.md"
+    },
+    {
+      "kind": "hf",
+      "title": "DecisionBench",
+      "url": "https://huggingface.co/datasets/akhilaaa3/decision-bench",
+      "note": "Card inspected at 19334fec40b54b693a63e1ffd91636651d39e847. Synthetic benchmark; cost/request-shape caveats and missing-answer exclusions in full review.",
+      "reviewed_at": "2026-09-22T16:05Z",
+      "review": "decision-model-review-2026-09-22.md"
+    },
+    {
+      "kind": "github",
+      "title": "cwhy/decision-injection-bench",
+      "url": "https://github.com/cwhy/decision-injection-bench",
+      "note": "README inspected at f566360ffac91bfc50574aef722307dcbf51d5e1. Reported authored tests with clean/length-matched controls; no local replay.",
+      "reviewed_at": "2026-09-22T16:05Z",
+      "review": "decision-model-review-2026-09-22.md"
+    },
+    {
+      "kind": "github",
+      "title": "ReallyArtificial/stuntdouble",
+      "url": "https://github.com/ReallyArtificial/stuntdouble",
+      "note": "README inspected at d7126d6cf5ed91fbc425910213aba21dad80611c. Policy shadow comparison; launch compares Kev and Laya, not Jev; agreement is not truth.",
+      "reviewed_at": "2026-09-22T16:05Z",
+      "review": "decision-model-review-2026-09-22.md"
+    },
+    {
+      "kind": "github",
+      "title": "typesafe-ai/system-one-adapter-python",
+      "url": "https://github.com/typesafe-ai/system-one-adapter-python",
+      "note": "Revisit notes section 143 at e1d4cc938204b22fc5a3c3aca7044072fe3f712d, v0.2.1. Missing usage, nonanswers and new provider contracts; no equivalence guarantee.",
+      "reviewed_at": "2026-09-22T16:05Z",
+      "review": "decision-model-review-2026-09-22.md"
+    },
+    {
+      "kind": "paper",
+      "title": "Available Guardrails",
+      "url": "https://arxiv.org/abs/2609.22048v1",
+      "note": "Methods inspected: finite accepted support, exact-binomial certification, planning/certification split. September 18 catch-up, not new September 22 work. Optimizer unrun.",
+      "reviewed_at": "2026-09-22T16:05Z",
+      "review": "decision-model-review-2026-09-22.md"
+    },
+    {
+      "kind": "paper",
+      "title": "Strategic Decision Focused Learning",
+      "url": "https://arxiv.org/abs/2609.14907v1",
+      "note": "Relevant propositions inspected; strategic response can decouple accuracy and utility under game assumptions. Investigate, no new runtime recipe.",
+      "reviewed_at": "2026-09-22T16:05Z",
+      "review": "decision-model-review-2026-09-22.md"
+    },
+    {
+      "kind": "paper",
+      "title": "Drift-Aware LLM Routing",
+      "url": "https://arxiv.org/abs/2609.00662v1",
+      "note": "Architecture and evaluation scope inspected. Synthetic study; real-data protocol not deployment evidence. Research watch.",
+      "reviewed_at": "2026-09-22T16:05Z",
+      "review": "decision-model-review-2026-09-22.md"
+    },
+    {
       "kind": "docs",
       "note": "Master index; start every refresh here",
       "title": "TypeSafe docs llms.txt",

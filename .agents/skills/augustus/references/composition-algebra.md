@@ -1,4 +1,4 @@
-# Composition algebra: where a judgment-class model sits relative to any method, operator, or algorithm
+# Composition calculus: typed joins, decision loss, and useful placements
 
 Let `J(s)` be bounded model evidence about state `s`, `P` an explicit policy,
 and `F` any algorithm, tool, or action. TypeSafe Jev is the default hosted
@@ -11,6 +11,98 @@ state -> J(state) -> P(evidence, exact facts) -> F -> observed outcome
 The model supplies evidence; policy selects or authorizes acts. Position alone
 does not determine fail-open/fail-closed behavior. Consequence, reversibility,
 and an independent authority boundary do.
+
+## Build a typed decision graph
+
+This is a small conditional calculus, not a universal theory or proof that a
+learned component works. Use only the laws needed by the proposed system.
+First write the graph, including retrieval, human fallback, failed calls and
+outcome collection. For each learned edge, qualify more than its JSON type:
+
+```text
+quantity: probability / rank / ordinal / measurement / causal effect
+event/support; population and selection policy; evidence and prediction horizon
+units; candidate coverage; model/rubric/adapter/calibration versions
+assumptions; qualification artifact; missingness and outcome provenance
+consumer preconditions; exact constraints; fallback and effect owner
+```
+
+A 30-day purchase probability among contacted leads is not intervention uplift
+for all leads. Matching field names do not repair the population, horizon or
+causal mismatch. A join must satisfy the consumer's assumptions or use an
+explicit, independently qualified conversion. Declarations can be checked;
+their empirical truth cannot be established by a schema validator.
+
+### Laws for composing decisions
+
+**Branches: total expectation.** For a mutually exclusive, exhaustive terminal
+branch partition under one policy, `E[L] = sum_b P(b) E[L | b]`. Use common loss
+units and count shared overhead once. Include human delay, fallback and missed
+opportunities. A 90%-traffic branch losing 1 and a 10% branch losing 10 give
+1.9, not the unweighted 5.5. Zero-mass branches have no estimated conditional
+loss. Historical branch outcomes do not identify a new intervention's effects.
+
+**Cascades: condition on what reaches the next stage.**
+`P(G and H) = P(G) P(H | G)` when `P(G)>0`; if nobody passes G, joint coverage
+is zero and conditional qualification is undefined. Likewise measure
+`E[L | G and H]`, not the downstream model's global error. If `G=H` with
+probability .5, joint coverage is .5, not .25. A changed selector can invalidate
+downstream calibration without changing that downstream model's bytes.
+
+**Failure budgets: no independence required.**
+`P(union_i F_i) <= min(1, sum_i P(F_i))`. A system bound additionally needs
+every relevant system failure to lie in that union. Include common causes and
+the exposure horizon. Multiply conditional-on-reach rates by reach probability
+for tighter accounting, or conservatively bound reach by one. Operational error
+budgets and uncertainty in their estimates are
+different quantities; simultaneous statistical bounds need their own confidence
+allocation. A daily bound is not a lifetime guarantee.
+
+**Sensitivity of an expected-loss policy.** For the same finite outcome space,
+feasible acts and loss table `0 <= L(a,y) <= B`, let `a_p` and `a_q` minimize
+risk under true law p and estimated law q. Then:
+
+```text
+TV(p,q) = 0.5 * sum_y abs(p_y-q_y)
+E_p L(a_q,Y) - E_p L(a_p,Y) <= 2 B TV(p,q)
+```
+
+Each fixed action's risk changes by at most `B TV`; add/subtract the two q
+risks and use q-optimality. An approximate optimizer adds its risk slack.
+This connects estimation error to decision regret, not permission. ECE, teacher
+agreement or confidence does not supply the unknown conditional TV. Unbounded
+loss, a different action set or an unidentified causal law breaks the transfer.
+
+**Information: augmentation is not substitution.** With fixed acts/loss and a
+correct joint model, a single decision-maker's optimal policy may ignore a free
+extra observation, so its Bayes risk cannot increase. Estimation, misspecification,
+strategic responses, acquisition cost, delay, privacy and bounded computation
+can reverse practical value. Blackwell experiment dominance
+is stronger than one accuracy score, but an isolated comparison need not hold
+beside arbitrary background evidence. For independent fair bits Y,C, signals
+`A=C` and `B=Y xor C` each reveal nothing about Y alone. Given C, B determines Y
+and A still does not. Compare the relevant joint/conditional system.
+
+Processing can help a bounded agent compute without creating new world
+information. If Z uses only X and learned parameters Theta through a channel
+with no extra Y information, data processing gives
+`I(Y;Z | Theta) <= I(Y;X | Theta)` and `I(Y;Z) <= I(Y;X,Theta)`.
+Do not drop Theta, retrieval or memory from the inputs. Redaction may reveal
+prior knowledge rather than prove invalidity; check its permitted scope and age.
+
+**Feedback: qualify a trajectory, not a frozen stage.** Once actions affect
+future observations, log the policy-induced sequence and finite-horizon loss.
+Control stability, safe exploration and termination require their own dynamics,
+delay and disturbance assumptions. Perfectly predicting yesterday's labels can
+coexist with oscillating retraining or an overloaded review queue. Check the
+closed loop, interlocks and recovery; one-step accuracy is insufficient.
+
+These identities and conditional bounds are **Theory**; whether their assumptions
+hold and the composition improves the task remains an empirical question.
+Primary foundations include [comparisons of joint signals](https://benjaminbrooks.net/downloads/bfk_comparisons.pdf),
+[data-processing channels](https://arxiv.org/abs/1508.06025), and
+[performative prediction](https://proceedings.mlr.press/v119/perdomo20a.html).
+Do not import a paper's stronger theorem without its exact assumptions.
 
 ## The positions
 
@@ -46,6 +138,32 @@ semantic and decision quality.
   observe. Multi-hop claims in one question hide missing state and dependence.
 - **Voting/ensembles.** Repeats estimate variability only if the source of
   diversity is understood. Agreement among correlated judgments is not proof.
+
+### Averaging option permutations
+
+When order affects a Choice, test probability averaging as a bounded
+experiment, not an automatic repair. Align vectors by stable semantic label
+IDs, validate their support and mass, then average. Never average positions
+after shuffling; majority votes and probability averages are different rules.
+
+For fixed predictions `p_1...p_M`, label `y`, and convex loss `L`, Jensen gives
+`L(mean(p), y) <= mean(L(p_m, y))`. This covers Brier and log loss where
+defined. It does **not** promise improvement over the best ordering, better
+accuracy, calibration, or lower action cost. Correlation does not invalidate
+this inequality; it does limit claims about independent evidence.
+
+Full group averaging is order-invariant for a fixed predictor after aligning
+labels. A sampled subset needs its own argument: canonicalizing labels and
+freezing the sampled orders can stabilize the construction, but does not make
+it the full-group average or control server randomness. Record seed, orders,
+question IDs, ties, and aggregation version; separate those effects in tests.
+[pijev](https://github.com/TypeLLM/pijev/tree/bca3a73d6419b794d63cd780ba4a0254579d7ccc)
+is an implementation example, not evidence of universal gains.
+
+Compare one ordering, a deterministic canonical ordering, and a bounded
+ensemble on untouched paired cases. Include action flips, proper scores,
+coverage, and measured tokens/latency. Batched permutations still add questions
+and consume context; one HTTP request does not mean one decision's cost.
 
 ## Rules that hold across every position
 
@@ -85,6 +203,19 @@ Cross **positions (1–11)** with a classical construct from
 
 An untested candidate may enter `mappings.md` as a Hypothesis. Promote its
 evidence status only after the relevant acceptance test runs and is recorded.
+
+For a transfer from physics, biology, economics or another field, map its
+variables, units, conservation/transition assumptions, objective and observation
+process into this graph. Keep a useful derivation; reject a decorative analogy.
+For example, hysteresis can motivate a two-threshold controller, but does not
+transfer a physical stability theorem without a qualified dynamical model.
+
+Turn the graph into adapters, explicit policy, a trace recorder and an outcome
+evaluator when implementation is requested. Ablate the model and each added
+stage; test a deliberately invalid join and a dependence/selection counterexample.
+Then use the [incumbent–challenger workflow](optimizer-integration.md) to compare
+complete outcomes under a bounded budget. The calculus generates and rejects
+designs; it does not count as evidence that an unrun design wins.
 
 ## Worked position distinctions
 

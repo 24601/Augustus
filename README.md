@@ -1,14 +1,15 @@
 # Augustus
 
-Place decision models where they improve the outcome. Keep policy in control.
+Find, build, evaluate, and improve systems with decision models.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Release](https://img.shields.io/github/v/release/24601/Augustus)](https://github.com/24601/Augustus/releases)
 [![Quality](https://github.com/24601/Augustus/actions/workflows/quality.yml/badge.svg)](https://github.com/24601/Augustus/actions/workflows/quality.yml)
 [![Docs](https://img.shields.io/badge/docs-24601.github.io-blue.svg)](https://24601.github.io/Augustus/)
 
-Augustus is an agent skill for deciding **where a model belongs, what it
-should judge, and how to test whether it helps**. It combines decision
+Augustus equips agents to **find useful placements, build decision-driven
+systems, create evaluations, and hill-climb them against real outcomes**.
+It combines decision
 theory, value of information, multi-criteria analysis, signal detection,
 search/control, and formal-methods boundaries. It applies to software,
 business, organizations, research, and everyday decisions.
@@ -25,7 +26,8 @@ The working model is:
 
 Augustus is independent of TypeSafe. The
 [official TypeSafe skill](https://github.com/typesafe-ai/skills) and current
-provider docs own API contracts; Augustus owns design judgment. Named for
+provider docs own API contracts; Augustus supplies composition, implementation,
+evaluation, and improvement methods. Named for
 Augustus De Morgan, mentor of William Stanley Jevons.
 
 ## Try it
@@ -42,9 +44,14 @@ After installation, ask your agent:
 > Use Augustus to review this confidence threshold. Explain what the score
 > means, when to abstain, and what we should measure on held-out cases.
 
-Expect a concise design card: desired behavior, baseline, pillar and model
-family, evidence, questions, policy, failure handling, and a falsifying
-experiment. The agent reads only the references relevant to your task.
+> Use Augustus to build a decision-model router and its evaluation harness.
+> Keep our incumbent runnable, test complete episode outcomes, and set up a
+> bounded improvement loop with untouched confirmation data and rollback.
+
+Advice produces a concise design card and falsifier. Build requests produce
+working adapters, policy and evals; improvement requests produce a bounded
+incumbent–challenger loop. The agent reads only relevant references. Source
+popularity and proxy-score gains do not establish improvement.
 
 ## Examples
 
@@ -73,7 +80,7 @@ This follows the repository's current default branch, which may contain
 unreleased work. For a reproducible source checkout of the last release:
 
 ```bash
-git clone --branch v0.6.0 --depth 1 https://github.com/24601/Augustus.git
+git clone --branch v0.7.0 --depth 1 https://github.com/24601/Augustus.git
 ```
 
 The skill directory is `.agents/skills/augustus/`. Use your agent's local
@@ -110,16 +117,21 @@ methods in one agent.
   problems, mistaken activation, and sanitized real-world failures.
 
 For local development, install `requirements-dev.txt` and run `make check`.
-The offline evaluator accepts your labeled binary predictions; it never
-calls a model. Tests and structural lint do not establish model quality.
+The offline helpers evaluate labeled binary predictions and paired workflow
+outcomes; neither calls a model. The
+[composition calculus](.agents/skills/augustus/references/composition-algebra.md)
+and [build/improvement workflow](.agents/skills/augustus/references/optimizer-integration.md)
+connect methods to implementation and evidence. Tests and structural lint do
+not establish model quality or deployment benefit.
 
 ## Versioning
 
-Current release: **0.6.0**. See the
-[release notes](docs/release-notes-v0.6.0.md) for changes and migration details.
+Current release: **0.7.0**. See the
+[release notes](docs/release-notes-v0.7.0.md) for changes and migration details.
+
 Historical TypeSafe skill provenance: v0.5.7 (`65a39f3`). Read live provider
 docs before writing integration code; that pin is not a current API guarantee.
-Install from the `v0.6.0` tag when you need an exact source revision;
+Install from the `v0.7.0` tag when you need an exact source revision;
 default-branch installation may include later unreleased work.
 
 ## License

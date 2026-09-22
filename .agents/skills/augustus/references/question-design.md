@@ -34,6 +34,8 @@ reasoning or outside knowledge, split the task or change the family.
 Questions sharing available state can be batched when the provider supports
 it. A question whose candidate set or evidence depends on an earlier answer
 must wait. Parallel execution says nothing about error independence.
+For multiple subjects in one state, identify the intended record by stable,
+unambiguous attributes; test referent resolution as well as answer accuracy.
 
 ## Match the answer space
 
@@ -77,6 +79,11 @@ Read the provider's confidence definition. For example, Jev documents a
 Choice confidence statistic derived from the option distribution; it is
 not interchangeable with maximum probability or measured accuracy.
 See [TypeSafe confidence](https://docs.typesafe.ai/confidence).
+Check adapters and aggregators too: the same field name can acquire a new
+meaning. For example, [pijev's aggregation](https://github.com/TypeLLM/pijev/blob/bca3a73d6419b794d63cd780ba4a0254579d7ccc/pijev/__init__.py)
+sets Choice `confidence` to the winning mean probability. Version that
+transformation and requalify the policy; do not inherit native thresholds.
+For option-order averaging, see [composition algebra](composition-algebra.md).
 
 ## Diagnosis table
 

@@ -159,15 +159,21 @@ review efficiency at fixed discovery recall.
 
 ## 12. Runtime assurance sandwich (Hypothesis)
 
-Place a soft anomaly sensor between hard preconditions and hard runtime
-monitors:
+Separate preventive enforcement from outcome detection:
 
 ```text
-exact precheck -> judgment evidence -> policy -> action -> exact monitor/probe
+observe -> judgment proposal -> policy -> exact enforcement -> action
+        -> authoritative outcome monitor/probe
 ```
 
-The monitor can override; the sensor cannot waive constraints. Falsifier:
-model evidence can bypass the monitor, or stale judgment authorizes use.
+A monitor reports properties of the observed trace. Prevention needs an
+enforceable property and a mechanism that can block or switch before violation,
+with justified timing and recovery assumptions. A post-action probe cannot undo
+an irreversible act. Physical control needs a safe fallback and a justified
+recoverable region; software must validate and authorize the operation and target
+at the effect boundary. Unknown/pending monitor results are not satisfaction.
+Falsifier: the harmful effect can occur before the first veto, or stale judgment
+bypasses the interlock. See `formal-methods.md` for claim ownership.
 
 ## 13. DST multiverse triage (Hypothesis)
 

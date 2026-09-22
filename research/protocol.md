@@ -6,6 +6,15 @@ selective prediction, calibration, conformal methods, causal effects,
 decision-focused learning, extraction, routing, optimization, and human
 decision processes. Vendor discovery alone cannot cover this mission.
 
+Synthesize mechanisms rather than the median opinion of a catalog. Explain why
+an approach worked or failed and under which conditions a combination should
+help. Cross-field imports need an explicit mapping of variables, units, objective,
+observation process and theorem assumptions; attractive analogies stay hypotheses.
+Promotions should equip an agent to find, implement, evaluate or improve a decision
+program. Separate a valid derivation, an executed fixture, reported benchmark and
+observed deployment outcome. Neither a theorem about assumed inputs nor a rising
+optimizer proxy score establishes product benefit.
+
 ## Source and claim identity
 
 Use the canonical owner/repository, model-card ID, paper DOI/arXiv ID, or
@@ -13,6 +22,12 @@ official documentation URL. Store a revision and retrieval time when
 observable. Distinguish retrieval time, publication time, and the time an
 experiment ran. Renames preserve identity when evidence supports that join;
 matching names or copied READMEs do not.
+
+For mutable official pages, retain the resolved URL, actual retrieval timestamp,
+response digest and inspection depth; archive permitted bodies when needed for
+reconstruction. A later digest is not a capture of an earlier response. Keep
+known stable repository node IDs so name reuse cannot look like an unchanged
+source; legacy missing IDs remain an explicit identity limit.
 
 The existing `sources.json`, `revisit_fingerprints.json`, `notes.md`, and
 `archive/hourly/` retain the historical evidence. Search by canonical ID
@@ -42,6 +57,11 @@ a model does not exist. Do not quote search snippets as inspected papers.
 
 ## Discovery and revisits
 
+Use the [maintenance contract](maintenance.md) for recurring collection,
+changed-source review, aged-card sampling, and whole-skill reassessment. Verify
+scheduler liveness and completed-review receipts separately; a cadence written
+in a source registry or a script filename does not establish an active job.
+
 Treat revisit HIGH like novel HIGH. Compare fingerprints, then inspect the
 actual diff. A moved SHA or push time is a review trigger, not evidence of
 changed capability. Material changes include contracts, release contents,
@@ -53,6 +73,22 @@ Use primary papers, official docs, code, and model cards. Avoid star-sorted
 caps; disclose pagination limits, missing sources, and search coverage.
 Keep the existing preference against paid X/Twitter collection. Do not
 install or run third-party projects merely because a scan found them.
+
+For a full refresh, retain a coverage ledger: prior scan cutoff, broader-review
+date, retrieval window, queries, page counts and caps, requested URLs, failed
+fetches, and selection reasons. Distinguish catalog traversal, metadata triage,
+primary-artifact inspection, and reproduction. Split searches that exceed a
+host's result cap; disclose moving totals in a live index. A directory vote,
+star, or repeated appearance in correlated lists is not independent evidence.
+Identify older work newly discovered today separately from newly published work.
+Close every explicitly requested source with a disposition or an evidence gap.
+
+When inspecting a benchmark, trace its labels, denominators, splits, retries,
+cost/timing boundaries, and accessible raw artifacts. Note semantic changes
+inside API-compatible wrappers. Unknown usage must remain unknown, proxy rates
+must stay estimates, and public code must not be called a reproduced run.
+Update last-look fingerprints only for sources actually reviewed, with the
+review depth recorded; metadata collection alone does not reset their review age.
 
 The probe collector is deliberately narrower than discovery. It checks
 specified sources and returns evidence for review. It does not claim to

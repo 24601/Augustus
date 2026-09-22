@@ -1,0 +1,92 @@
+{
+  "scope": "Prior baseline retained before updating only inspected source identities.",
+  "looks": [
+    {
+      "id": "github:TheoLeeCJ/SemIf",
+      "notes_section": "117",
+      "last_look": "2026-09-20T16:10Z",
+      "fingerprints": {
+        "default_sha": "ca3ba65f142967030ecb453346e94d6f476a69df",
+        "pushed_at": "2026-09-19T04:46:36Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "readme_sha": "74ab7f7ffa3d492c2dc905c1e75410dca3e0677e"
+    },
+    {
+      "id": "github:wfzyx/von",
+      "notes_section": "49",
+      "last_look": "2026-09-20T18:48Z",
+      "fingerprints": {
+        "default_sha": "bed7e7337791c5124a557eb59ad918cb6747b276",
+        "pushed_at": "2026-09-20T13:38:37Z",
+        "description_hash": "34db25cb81c1",
+        "release_tag": null
+      },
+      "readme_sha": "550243b6a701e821068cdf251b6f8d1fbabbfae0"
+    },
+    {
+      "id": "github:jaredpalmer/kev",
+      "notes_section": "45",
+      "last_look": "2026-09-22T00:51Z",
+      "fingerprints": {
+        "default_sha": "90990a5fac2995b9faa3190f7d437e84f2067768",
+        "pushed_at": "2026-09-22T00:44:00Z",
+        "description_hash": "47fc60928c90",
+        "release_tag": "kev-family"
+      },
+      "readme_sha": "d497d4b89427a38b7232fab5a1dca27be0192ad4d0f444c9f8856cfcf68f7e5c",
+      "note": "1851 densify §45; stored look was 4f8110a3f862; watch prior prefix 35566d73bea1; HEAD 90990a5fac2995b9faa3190f7d437e84f2067768; modal_probe35.py folded into modal_app.py; no new benchmark result; SHA move is not a replica; description_hash unchanged 47fc60928c90; release_tag kev-family; README SHA not recorded as moved"
+    },
+    {
+      "id": "github:typesafe-ai/system-one-adapter-python",
+      "notes_section": "143",
+      "last_look": "2026-09-21T14:23Z",
+      "fingerprints": {
+        "default_sha": "adffc2eab300a4fa3c0e92252d4ffd6ceaa53700",
+        "pushed_at": "2026-09-18T10:47:48Z",
+        "description_hash": "c415d9355016",
+        "release_tag": null
+      },
+      "readme_sha": "d01afbf0499ebe7e4b6e94e24d5008c5345a0844",
+      "note": "0823 first card GitHub face; wire-compat ≠ logit-equiv"
+    },
+    {
+      "id": "github:typesafe-ai/typesafe-sdk-python",
+      "notes_section": "143",
+      "last_look": "2026-09-21T14:23Z",
+      "fingerprints": {
+        "default_sha": "2ce5c65f13646cab6e6f782328194c9d85f3300a",
+        "pushed_at": "2026-09-18T09:11:54Z",
+        "description_hash": "f0855a25af32",
+        "release_tag": null
+      },
+      "readme_sha": "361a3bc13e198b897e253126103fb8e874c48653",
+      "note": "0823 first card GitHub face"
+    },
+    {
+      "id": "hf:akhilaaa3/Jev-Omni",
+      "notes_section": "156",
+      "last_look": "2026-09-21T22:53Z",
+      "fingerprints": {
+        "default_sha": "3e885f2951a126c41c7599ed719f98cc3088d8ed",
+        "pushed_at": "2026-09-21T23:00:06.000Z",
+        "description_hash": null,
+        "release_tag": null
+      }
+    },
+    {
+      "id": "github:dorkitude/decision-model-testing",
+      "notes_section": "163",
+      "last_look": "2026-09-22T04:44Z",
+      "fingerprints": {
+        "default_sha": "7af400ed6c923146b0b03167372839e38b75b4f5",
+        "pushed_at": "2026-09-22T04:41:23Z",
+        "description_hash": "419a3ca66282",
+        "release_tag": null
+      },
+      "note": "2244 first sighting",
+      "readme_sha": "253a6c3f2a044c5c0d2cb5fcade78facd48131f2"
+    }
+  ]
+}

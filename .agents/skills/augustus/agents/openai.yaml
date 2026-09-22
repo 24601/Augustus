@@ -1,4 +1,4 @@
 interface:
   display_name: "Augustus"
-  short_description: "Design and evaluate bounded model judgments"
-  default_prompt: "Use $augustus to find one useful decision-model placement, keep authority explicit, and propose a test that could reject it."
+  short_description: "Build and improve decision-model systems with evals"
+  default_prompt: "Use $augustus to find a useful decision-model placement, build or improve it as requested, and evaluate complete outcomes against a runnable baseline."

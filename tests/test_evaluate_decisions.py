@@ -1,9 +1,12 @@
+from fractions import Fraction
 import importlib.util
 import json
+import math
 import subprocess
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
 
@@ -60,6 +63,92 @@ class EvaluateDecisionsTests(unittest.TestCase):
         self.assertEqual((result["fp"], result["fn"]), (1, 1))
         self.assertEqual(result["cost"], 1.25)
         self.assertAlmostEqual(evaluate.brier(rows), 0.375)
+
+    def test_ambiguous_json_and_oversized_numbers_are_input_errors(self):
+        for content in (
+            b'{"id":"a","p":0.01,"p":0.99,"y":0}\n',
+            ('{"id":"a","p":' + '1' * 401 + ',"y":0}\n').encode(),
+        ):
+            with self.subTest(prefix=content[:50]):
+                path = self.binary_jsonl(content)
+                run = subprocess.run([sys.executable, str(SCRIPT), path],
+                                     text=True, capture_output=True)
+                self.assertEqual(run.returncode, 2)
+                self.assertIn("line 1:", run.stderr)
+                self.assertNotIn("Traceback", run.stderr)
+                self.assertEqual(run.stdout, "")
+
+    def test_json_nesting_exhaustion_is_a_normal_input_error(self):
+        # Decoder recursion limits differ by Python version. Exercise the
+        # failure contract without demanding rejection of valid deep JSON.
+        path = self.jsonl([{"id": "a", "p": 0.5, "y": 0}])
+        with patch.object(evaluate.json, "loads", side_effect=RecursionError("too deep")):
+            with self.assertRaisesRegex(ValueError, "line 1: invalid JSON"):
+                evaluate.load(path)
+
+    def test_large_finite_costs_do_not_overflow_before_averaging(self):
+        rows = [{"id": str(i), "p": 0.9, "y": 0} for i in range(2)]
+        self.assertEqual(evaluate.sweep(rows, [0.5], 1e308, 1)[0]["cost"], 1e308)
+        self.assertEqual(evaluate.selective_policy(rows, 0.2, 0.8, 1e308, 1, 1)["cost"], 1e308)
+        rows = [{"id": str(i), "p": 0.5, "y": 0} for i in range(2)]
+        self.assertEqual(evaluate.selective_policy(rows, 0.2, 0.8, 1, 1, 1e308)["cost"], 1e308)
+
+    def test_selective_cost_preserves_maximum_and_subnormal_constant_means(self):
+        rows = [
+            {"p": .9, "y": 0},
+            {"p": .1, "y": 1}, {"p": .1, "y": 1},
+            {"p": .5, "y": 0}, {"p": .5, "y": 0},
+        ]
+        for value in (sys.float_info.max, 1e-323, 5e-324):
+            with self.subTest(value=value):
+                result = evaluate.selective_policy(rows, .2, .8, value, value, value)
+                self.assertEqual((result["fp"], result["fn"], result["abstentions"]), (1, 2, 2))
+                self.assertEqual(result["cost"], value)
+                self.assertEqual(evaluate._complete_cost(1, 1, 2, value, value), value)
+
+    def test_weighted_cost_matches_exact_oracle_for_mixed_magnitudes(self):
+        for costs in ((sys.float_info.max, 1e308, 0.0), (5e-324, 1e-323, 1.5e-323)):
+            for fp in range(6):
+                for fn in range(6-fp):
+                    counts = (fp, fn, 5-fp-fn)
+                    expected = float(sum(Fraction(c)*n for c, n in zip(costs, counts)) / 5)
+                    self.assertEqual(evaluate._weighted_mean(5, *zip(costs, counts)), expected)
+
+    def test_metric_constant_means_are_preserved(self):
+        for p in (0., 5e-324, 1e-20, .7, 1.):
+            for n in (3, 7, 100):
+                rows = [{"p": p, "y": 0}] * n
+                with self.subTest(p=p, n=n):
+                    self.assertEqual(evaluate.brier(rows), p**2)
+                    self.assertEqual(evaluate.reliability(rows)[0]["mean_p"], p)
+                    self.assertEqual(evaluate.ece_equal_width(rows), p)
+                    self.assertEqual(evaluate.ece_quantile(rows), p)
+
+    def test_brier_and_reliability_match_ratio_oracle_for_either_order(self):
+        rows = [{"p": 1., "y": 0}] + [{"p": math.sqrt(1e-17), "y": 0}] * 10000
+        expected_brier = float(sum(Fraction(row["p"]**2) for row in rows) / len(rows))
+        expected_mean = float(sum(Fraction(row["p"]) for row in rows) / len(rows))
+        for ordered in (rows, list(reversed(rows))):
+            self.assertEqual(evaluate.brier(ordered), expected_brier)
+            self.assertEqual(evaluate.reliability(ordered, bins=1)[0]["mean_p"], expected_mean)
+            self.assertEqual(evaluate.ece_equal_width(ordered, bins=1), expected_mean)
+            self.assertEqual(evaluate.ece_quantile(ordered, bins=1), expected_mean)
+
+    def test_ece_weighted_gaps_match_exact_oracle(self):
+        rows = [{"p": .1, "y": 0}] + [{"p": .5, "y": 0}]*3 + [{"p": .9, "y": 0}]*7
+        expected = float((Fraction(.1) + Fraction(.5)*3 + Fraction(.9)*7) / 11)
+        for ordered in (rows, list(reversed(rows))):
+            self.assertEqual(evaluate.ece_equal_width(ordered, bins=10), expected)
+            self.assertEqual(evaluate.ece_quantile(ordered, bins=11), expected)
+
+    def test_negative_class_log_loss_does_not_cancel_small_probabilities(self):
+        for p in (5e-324, 1e-20, 1e-17, 1e-10, .5):
+            expected = -math.log1p(-p)
+            with self.subTest(p=p):
+                self.assertGreater(expected, 0)
+                self.assertEqual(evaluate.log_loss([{"p": p, "y": 0}]*3), expected)
+        self.assertEqual(evaluate.log_loss([{"p": 1.0, "y": 0}]), math.inf)
+        self.assertEqual(evaluate.log_loss([{"p": 0.0, "y": 0}]), 0)
 
     def test_selective_policy_boundary_and_cost_arithmetic(self):
         rows = [

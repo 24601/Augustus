@@ -14,6 +14,7 @@ import argparse
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 import hashlib
+from http.client import HTTPException
 import json
 from pathlib import Path
 import re
@@ -61,15 +62,17 @@ def validate_source(value: str) -> tuple[str, str, str]:
 def fetch_url(url: str, timeout: int = DEFAULT_TIMEOUT_SECONDS, user_agent: str = USER_AGENT) -> HttpResponse:
     request = Request(url, headers={"Accept": "application/vnd.github+json", "User-Agent": user_agent})
     try:
-        with urlopen(request, timeout=timeout) as response:  # nosec B310: URLs are fixed or validated GitHub paths.
-            return HttpResponse(status=response.status, body=_read_limited(response.read))
-    except HTTPError as exc:
-        return HttpResponse(status=exc.code, body=_read_limited(exc.read))
+        try:
+            with urlopen(request, timeout=timeout) as response:  # nosec B310: URLs are fixed or validated GitHub paths.
+                return HttpResponse(status=response.status, body=_read_limited(response.read))
+        except HTTPError as exc:
+            with exc:
+                return HttpResponse(status=exc.code, body=_read_limited(exc.read))
     except URLError as exc:
         raise RefreshError(f"network error: {exc.reason}") from exc
     except TimeoutError as exc:
         raise RefreshError("network timeout") from exc
-    except OSError as exc:
+    except (HTTPException, OSError) as exc:
         raise RefreshError(f"network error: {exc}") from exc
 
 
@@ -84,12 +87,21 @@ def _json(response: HttpResponse, context: str) -> dict[str, Any]:
     if not 200 <= response.status < 300:
         raise RefreshError(f"{context}: HTTP {response.status}")
     try:
-        value = json.loads(response.body.decode("utf-8"))
-    except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+        value = json.loads(response.body.decode("utf-8"), object_pairs_hook=_unique_object)
+    except (UnicodeDecodeError, ValueError, RecursionError) as exc:
         raise RefreshError(f"{context}: invalid JSON response") from exc
     if not isinstance(value, dict):
         raise RefreshError(f"{context}: expected a JSON object")
     return value
+
+
+def _unique_object(pairs: list[tuple[str, Any]]) -> dict[str, Any]:
+    result: dict[str, Any] = {}
+    for key, value in pairs:
+        if key in result:
+            raise ValueError(f"duplicate JSON key {key!r}")
+        result[key] = value
+    return result
 
 
 def _description_hash(value: str | None) -> str | None:
@@ -97,7 +109,7 @@ def _description_hash(value: str | None) -> str | None:
 
 
 def _utc_timestamp(value: Any, context: str) -> str:
-    if not isinstance(value, str) or not value.endswith("Z"):
+    if not isinstance(value, str) or "T" not in value or not value.endswith("Z"):
         raise RefreshError(f"{context}: expected a UTC ISO-8601 timestamp ending in Z")
     try:
         parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))

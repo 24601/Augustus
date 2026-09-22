@@ -210,10 +210,12 @@ proposition. A softmax over answer tokens is not automatically calibrated
 
 ## Should RAG stop at Top-K / a reranker?
 
-Only if ranking is the product. For evidence selection, retrieve broadly, rank,
-then make an absolute keep/no-match judgment or send the shortlist to a human.
-Measure retrieval recall separately because later stages cannot recover omitted
-evidence.
+Yes, if that baseline meets the end-to-end quality, evidence-recall, latency, and
+cost targets. Ranking alone does not establish absolute relevance or that any
+candidate is adequate. Add a keep/no-match judgment or human review only when
+the downstream policy needs that distinction and evaluation justifies the added
+stage. Measure retrieval recall separately: later stages cannot recover omitted
+evidence without another retrieval path.
 
 ## Does Jev `done` mean the task succeeded?
 
@@ -228,22 +230,27 @@ outside the optimizer. See `optimizer-integration.md`.
 
 ## Train a specialist, or few-shot the hosted API?
 
-Few-shot a hosted decision API when volume is moderate, the surface changes,
-and only the final choice matters. Train a specialist when privacy/latency/scale
-requires it or downstream code consumes the probability distribution. Use
-independent gold and validate in the deployment runtime; teacher outputs alone
-are not ground truth.
+Start with a hosted few-shot baseline when it fits the task and deployment
+constraints. Train a specialist when measured task performance, privacy,
+latency, scale, or control requirements justify its data and maintenance cost.
+Consuming the full distribution does not itself require a specialist: qualify
+the actual scores and policy on either surface. Use independent gold and test
+the deployment runtime; teacher outputs alone are not ground truth.
 
 ## Is Noul 0.5 “maybe / medium”?
 
-It represents maximum uncertainty for a binary proposition, not medium
-intensity. For graded intensity, use an ordered Score rubric with concrete
-levels and inspect the full distribution.
+It assigns equal probability to the two outcomes, maximizing Bernoulli entropy;
+it is not medium intensity. The scalar alone cannot distinguish inherent
+variability, model ignorance, missing evidence, or conflicting evidence, and
+does not establish calibration. For graded intensity, use an ordered Score
+rubric with concrete levels and inspect the full distribution.
 
 ## When does a decision model hold?
 
 It holds when evidence is available, the output is bounded, candidate coverage
-is adequate, an abstention/fallback exists, and end-to-end evaluation beats a
-simpler baseline on quality, latency, and total expected cost. Total cost must
+is adequate, an abstention/fallback exists, and end-to-end evaluation improves
+the prespecified utility over a simpler baseline while meeting hard quality,
+latency, and cost constraints. Winning every dimension is not required; make
+the accepted tradeoff explicit. Total cost must
 include generator fallback, human review, retries, and recovery—not only model
 price.

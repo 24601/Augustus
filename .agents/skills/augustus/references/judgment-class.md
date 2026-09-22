@@ -15,7 +15,7 @@ does not establish semantic equivalence to another model.
 A component belongs here when its main product is a bounded answer rather than
 new prose. Usually:
 
-- inputs are text, structured state, or an image plus a declared question;
+- inputs are declared text, structured state, or supported media plus a question;
 - outputs are labels, spans, ranks, scores, or distributions;
 - the component can run at decision frequency; and
 - code owns control flow, authorization, and side effects.
@@ -136,6 +136,16 @@ Prefer the narrowest adequate observation:
 
 In computer use, “done” is a model judgment, not observed success. Verify the
 post-state through the host, server, DOM, or task oracle.
+
+For audio/video or combined media, inspect the actual loader, preprocessing,
+and observation window. A finite-option head does not establish support for
+every modality or option count. Record clipping, frame sampling, missing-media
+behavior, base-model dependencies, and precision/runtime changes; calibrate
+and test each relevant slice. [Jev-Omni](https://huggingface.co/akhilaaa3/Jev-Omni/tree/55b53f2ec1b4c656c8a6172b0c7555ae578a9c3f)
+is a reported open multimodal example, not TypeSafe's hosted text-only Jev.
+Compare with exact telemetry or a narrower perception baseline. Falsify the
+placement with decisive evidence outside the sampled window: a confident
+answer cannot recover an event the pipeline never observed.
 
 ## Marginals, not a probabilistic program
 

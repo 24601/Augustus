@@ -1,7 +1,7 @@
 # Activation examples
 
-Use Augustus when the task needs judgment about where a bounded model
-belongs or how its output should affect a decision. Examples:
+Use Augustus to place bounded judgment, build decision-model systems/evals,
+or improve them against outcomes. Examples:
 
 - “Which parts of this agent should be classifiers instead of generated JSON?”
 - “Should this route, rank, abstain, gather evidence, or ask a person?”
@@ -11,6 +11,8 @@ belongs or how its output should affect a decision. Examples:
 - “Which component of this classical algorithm could use semantic judgment?”
 - “Review this approval gate, context sieve, search loop, or done-check.”
 - “Does this use of a decision model actually replace proof or simulation?”
+- “Build a router and an episode-level evaluation harness.”
+- “Hill-climb this decision policy with bounded search and held-out confirmation.”
 
 The domain can be software, an operational process, research, business,
 or everyday planning. Bounded does not mean trivial: verify that the
@@ -22,8 +24,10 @@ generation, and provider installation do not need this skill. When the
 user asks to implement an already chosen API, its current official docs
 own the integration details; use Augustus only for a real placement or
 evaluation question that remains.
+“Rename this helper without changing behavior” is not a decision-model task.
 
 For an existing workflow, start with [boundary audit](boundary-audit.md).
 For a new problem, start with [mental models](mental-models.md), then
 [judgment class](judgment-class.md). Load further references by the task,
-not by matching every phrase in the request.
+not by matching every phrase. For builds/improvement, use the
+[execution loop](optimizer-integration.md).

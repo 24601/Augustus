@@ -1,0 +1,2505 @@
+{
+  "retrieved_at": "2026-09-22T15:58:19.621281+00:00",
+  "cutoff": "2026-09-22T04:44:00.000Z",
+  "scope": "model metadata discovery only; no weights or model code executed",
+  "queries": [
+    {
+      "term": "jev",
+      "pages": [
+        {
+          "url": "https://huggingface.co/api/models?search=jev&sort=lastModified&direction=-1&limit=100",
+          "count": 100,
+          "models": [
+            {
+              "id": "akhilaaa3/Jev-Omni",
+              "sha": null,
+              "lastModified": "2026-09-22T14:17:29.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "transformers"
+            },
+            {
+              "id": "alibiserikbay/JevK5",
+              "sha": null,
+              "lastModified": "2026-09-22T14:00:48.000Z",
+              "pipeline_tag": "text-generation",
+              "library_name": "transformers"
+            },
+            {
+              "id": "gionebeats/Open-Jev-2B",
+              "sha": null,
+              "lastModified": "2026-09-22T13:21:14.000Z",
+              "pipeline_tag": null,
+              "library_name": "peft"
+            },
+            {
+              "id": "guzus/jev-nyotti",
+              "sha": null,
+              "lastModified": "2026-09-22T10:25:03.000Z",
+              "pipeline_tag": null,
+              "library_name": "peft"
+            },
+            {
+              "id": "mogita/jev-decider-qwen3-4b",
+              "sha": null,
+              "lastModified": "2026-09-22T09:20:49.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "peft"
+            },
+            {
+              "id": "wayfind/metask-jev-4b-policy-mix",
+              "sha": null,
+              "lastModified": "2026-09-22T09:16:18.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "transformers"
+            },
+            {
+              "id": "jsaurabh/qwen3.5-9b-jev-data-mix-v2",
+              "sha": null,
+              "lastModified": "2026-09-22T08:46:21.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "peft"
+            },
+            {
+              "id": "Jeuner/jev-maboto",
+              "sha": null,
+              "lastModified": "2026-09-22T08:07:35.000Z",
+              "pipeline_tag": null,
+              "library_name": "mlx"
+            },
+            {
+              "id": "WIlfLin/JEV-Qwen3.8-27B-NVFP4-Runtime",
+              "sha": null,
+              "lastModified": "2026-09-22T07:58:31.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": null
+            },
+            {
+              "id": "WIlfLin/JEV-Qwen3.8-Flash-Next-Linear-Runtime",
+              "sha": null,
+              "lastModified": "2026-09-22T07:58:23.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": null
+            },
+            {
+              "id": "sshalimov04/open-jev-base",
+              "sha": null,
+              "lastModified": "2026-09-22T07:39:12.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "transformers"
+            },
+            {
+              "id": "Omarmahmoud83/jevlite",
+              "sha": null,
+              "lastModified": "2026-09-22T07:20:39.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "juspay/jev-one",
+              "sha": null,
+              "lastModified": "2026-09-22T07:11:55.000Z",
+              "pipeline_tag": "text-generation",
+              "library_name": "transformers"
+            },
+            {
+              "id": "WIlfLin/JEV-Qwen3.5-0.8B-Base",
+              "sha": null,
+              "lastModified": "2026-09-22T06:30:40.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": null
+            },
+            {
+              "id": "WIlfLin/JEV-Qwen3.5-9B-Base-NVFP4",
+              "sha": null,
+              "lastModified": "2026-09-22T05:59:38.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": null
+            },
+            {
+              "id": "aimeigaoshou/agent-jev",
+              "sha": null,
+              "lastModified": "2026-09-22T05:42:00.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "top7777/jev-schema-scorer-deberta-v3-large",
+              "sha": null,
+              "lastModified": "2026-09-22T03:49:57.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "transformers"
+            },
+            {
+              "id": "Praveenrajus/jevify-qwen3-vl-2b-t2",
+              "sha": null,
+              "lastModified": "2026-09-22T03:19:44.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "argos1111/sarashina2.2-vision-3b-mmproj-jev-f16",
+              "sha": null,
+              "lastModified": "2026-09-22T02:16:06.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "ohtaman/jev-gemma-4-E2B-it-choice-64",
+              "sha": null,
+              "lastModified": "2026-09-22T01:47:15.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "transformers.js"
+            },
+            {
+              "id": "Praveenrajus/jevify-qwen3.5-4b-t2",
+              "sha": null,
+              "lastModified": "2026-09-22T00:20:09.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "jevify"
+            },
+            {
+              "id": "mchen04/jevlite-decision-heads",
+              "sha": null,
+              "lastModified": "2026-09-22T00:15:48.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "mlx"
+            },
+            {
+              "id": "mchen04/jev-local-lab-decision-heads",
+              "sha": null,
+              "lastModified": "2026-09-22T00:15:37.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "mlx"
+            },
+            {
+              "id": "Praveenrajus/jevify-qwen3-vl-2b",
+              "sha": null,
+              "lastModified": "2026-09-21T23:56:51.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "MissingPackage/jev-d-0.4b-onnx",
+              "sha": null,
+              "lastModified": "2026-09-21T23:38:22.000Z",
+              "pipeline_tag": "feature-extraction",
+              "library_name": "onnxruntime"
+            },
+            {
+              "id": "lostargon/Tiny-Jev",
+              "sha": null,
+              "lastModified": "2026-09-21T21:48:21.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "transformers"
+            },
+            {
+              "id": "marcmagn1/jev-08b-typed-r1",
+              "sha": null,
+              "lastModified": "2026-09-21T20:23:15.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "abidlabs/jev-typed-decisions-causal-0.6b",
+              "sha": null,
+              "lastModified": "2026-09-21T19:05:38.000Z",
+              "pipeline_tag": null,
+              "library_name": "peft"
+            },
+            {
+              "id": "abidlabs/jev-typed-decisions-causal-0.6b-smoke",
+              "sha": null,
+              "lastModified": "2026-09-21T18:24:26.000Z",
+              "pipeline_tag": null,
+              "library_name": "transformers"
+            },
+            {
+              "id": "SargeDev/jev-gate-student-b-merged",
+              "sha": null,
+              "lastModified": "2026-09-21T16:39:18.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "SeanLiu/Jev-Vision",
+              "sha": null,
+              "lastModified": "2026-09-21T14:43:01.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "xiq/xiq-vl-jev",
+              "sha": null,
+              "lastModified": "2026-09-21T13:21:27.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "Raymond1122/metask-jev-4b-policy-mix",
+              "sha": null,
+              "lastModified": "2026-09-21T10:20:53.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "transformers"
+            },
+            {
+              "id": "chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-GGUF",
+              "sha": null,
+              "lastModified": "2026-09-21T09:00:32.000Z",
+              "pipeline_tag": "text-generation",
+              "library_name": null
+            },
+            {
+              "id": "chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-MLX-bf16",
+              "sha": null,
+              "lastModified": "2026-09-21T09:00:29.000Z",
+              "pipeline_tag": "text-generation",
+              "library_name": "mlx"
+            },
+            {
+              "id": "SargeDev/jev-distill-corpus",
+              "sha": null,
+              "lastModified": "2026-09-21T04:28:44.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "SargeDev/jev-gate-student-b",
+              "sha": null,
+              "lastModified": "2026-09-21T04:25:28.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "Praveenrajus/jevify-qwen3.5-2b",
+              "sha": null,
+              "lastModified": "2026-09-21T02:28:37.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "jevify"
+            },
+            {
+              "id": "Praveenrajus/jevify-qwen3.5-4b",
+              "sha": null,
+              "lastModified": "2026-09-21T02:28:07.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "jevify"
+            },
+            {
+              "id": "samatv256/mini-Jev",
+              "sha": null,
+              "lastModified": "2026-09-21T00:23:41.000Z",
+              "pipeline_tag": null,
+              "library_name": "pytorch"
+            },
+            {
+              "id": "rAVEUK/open-jev-deberta-v3-large",
+              "sha": null,
+              "lastModified": "2026-09-20T21:04:09.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "transformers"
+            },
+            {
+              "id": "ZefanCai/Open-Jev-9B",
+              "sha": null,
+              "lastModified": "2026-09-20T20:22:28.000Z",
+              "pipeline_tag": null,
+              "library_name": "peft"
+            },
+            {
+              "id": "ZefanCai/Open-Jev-2B",
+              "sha": null,
+              "lastModified": "2026-09-20T20:22:14.000Z",
+              "pipeline_tag": null,
+              "library_name": "peft"
+            },
+            {
+              "id": "azharmo/build-jev-from-scratch",
+              "sha": null,
+              "lastModified": "2026-09-20T18:54:23.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": null
+            },
+            {
+              "id": "mradermacher/jevify-gemma4-e4b-GGUF",
+              "sha": null,
+              "lastModified": "2026-09-20T18:00:08.000Z",
+              "pipeline_tag": null,
+              "library_name": "transformers"
+            },
+            {
+              "id": "mradermacher/jevify-gemma4-26b-a4b-GGUF",
+              "sha": null,
+              "lastModified": "2026-09-20T15:53:31.000Z",
+              "pipeline_tag": null,
+              "library_name": "transformers"
+            },
+            {
+              "id": "gopalanj/jevons-lfm25-1.2b-systemone",
+              "sha": null,
+              "lastModified": "2026-09-20T15:45:24.000Z",
+              "pipeline_tag": "text-generation",
+              "library_name": "mlx"
+            },
+            {
+              "id": "onnx-community/open-jev-deberta-v3-large-ONNX",
+              "sha": null,
+              "lastModified": "2026-09-20T12:30:02.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "transformers.js"
+            },
+            {
+              "id": "kushalpatil/jevify-gemma4-e4b",
+              "sha": null,
+              "lastModified": "2026-09-20T10:34:00.000Z",
+              "pipeline_tag": "image-text-to-text",
+              "library_name": "transformers"
+            },
+            {
+              "id": "kushalpatil/jevify-gemma4-26b-a4b-lora",
+              "sha": null,
+              "lastModified": "2026-09-20T10:32:49.000Z",
+              "pipeline_tag": "text-generation",
+              "library_name": "peft"
+            },
+            {
+              "id": "kushalpatil/jevify-gemma4-26b-a4b",
+              "sha": null,
+              "lastModified": "2026-09-20T10:26:23.000Z",
+              "pipeline_tag": "image-text-to-text",
+              "library_name": "transformers"
+            },
+            {
+              "id": "kushalpatil/jevify-gemma4-e4b-lora",
+              "sha": null,
+              "lastModified": "2026-09-20T10:23:02.000Z",
+              "pipeline_tag": "text-generation",
+              "library_name": "peft"
+            },
+            {
+              "id": "Nebulaw1/jev-qwen3.5-0.8b-legal-lora",
+              "sha": null,
+              "lastModified": "2026-09-20T09:56:30.000Z",
+              "pipeline_tag": "text-generation",
+              "library_name": "peft"
+            },
+            {
+              "id": "Nebulaw1/jev-qwen3.5-4b-legal-lora",
+              "sha": null,
+              "lastModified": "2026-09-20T09:56:07.000Z",
+              "pipeline_tag": "text-generation",
+              "library_name": "peft"
+            },
+            {
+              "id": "NicolaiMTLassen/bonzi-27b-v2-jev",
+              "sha": null,
+              "lastModified": "2026-09-20T09:20:17.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "llama.cpp"
+            },
+            {
+              "id": "NicolaiMTLassen/bonzi-8b-ternary-v1-jev",
+              "sha": null,
+              "lastModified": "2026-09-20T09:20:15.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "llama.cpp"
+            },
+            {
+              "id": "NicolaiMTLassen/bonzi-27b-v1-jev",
+              "sha": null,
+              "lastModified": "2026-09-20T09:20:14.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "llama.cpp"
+            },
+            {
+              "id": "NicolaiMTLassen/bonzi-8b-v1-jev",
+              "sha": null,
+              "lastModified": "2026-09-20T09:20:12.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "llama.cpp"
+            },
+            {
+              "id": "NicolaiMTLassen/bonzi-4b-v1-jev",
+              "sha": null,
+              "lastModified": "2026-09-20T09:20:10.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "llama.cpp"
+            },
+            {
+              "id": "NicolaiMTLassen/bonzi-1.7b-v1-jev",
+              "sha": null,
+              "lastModified": "2026-09-20T09:20:08.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "llama.cpp"
+            },
+            {
+              "id": "rdxtremity/jev-reranking",
+              "sha": null,
+              "lastModified": "2026-09-20T07:44:00.000Z",
+              "pipeline_tag": null,
+              "library_name": "peft"
+            },
+            {
+              "id": "vagmi/jev-lite",
+              "sha": null,
+              "lastModified": "2026-09-20T00:01:01.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "peft"
+            },
+            {
+              "id": "jaswanthsanjay88/jev-0.5b",
+              "sha": null,
+              "lastModified": "2026-09-19T20:28:58.000Z",
+              "pipeline_tag": null,
+              "library_name": "peft"
+            },
+            {
+              "id": "lewislululu/jevon",
+              "sha": null,
+              "lastModified": "2026-09-19T19:35:14.000Z",
+              "pipeline_tag": "reinforcement-learning",
+              "library_name": null
+            },
+            {
+              "id": "argos1111/modernbert-ja-310m-jev",
+              "sha": null,
+              "lastModified": "2026-09-19T16:35:38.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "transformers"
+            },
+            {
+              "id": "Meanblock/JEV-CPU",
+              "sha": null,
+              "lastModified": "2026-09-19T12:13:17.000Z",
+              "pipeline_tag": "zero-shot-classification",
+              "library_name": "transformers"
+            },
+            {
+              "id": "AndeyTait/JevForge-0.8B",
+              "sha": null,
+              "lastModified": "2026-09-19T11:38:46.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "transformers"
+            },
+            {
+              "id": "mobarmg/jev-schema-scorer-deberta-v3-large",
+              "sha": null,
+              "lastModified": "2026-09-19T00:57:17.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "transformers"
+            },
+            {
+              "id": "kokuren/jp-sns-jev7-estimator",
+              "sha": null,
+              "lastModified": "2026-09-18T14:55:44.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "onnxruntime"
+            },
+            {
+              "id": "com-kotobalabs/open-jev-deberta-v3-large",
+              "sha": null,
+              "lastModified": "2026-09-18T10:02:28.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "transformers"
+            },
+            {
+              "id": "Jevanleeuwen/mae-experiment",
+              "sha": null,
+              "lastModified": "2026-08-27T22:18:51.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "Jevanleeuwen/paper_005974006_self_supervised",
+              "sha": null,
+              "lastModified": "2026-08-23T10:13:27.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "jeviljester/Verity",
+              "sha": null,
+              "lastModified": "2026-08-13T19:47:57.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "JeverlinRamos/modeloQANoticiasDominicanas",
+              "sha": null,
+              "lastModified": "2026-07-30T09:22:30.000Z",
+              "pipeline_tag": "question-answering",
+              "library_name": null
+            },
+            {
+              "id": "jevoma4362/EuroLLM-1.7B-Instruct-mlx-4Bit",
+              "sha": null,
+              "lastModified": "2026-07-25T14:31:46.000Z",
+              "pipeline_tag": "text-generation",
+              "library_name": "transformers"
+            },
+            {
+              "id": "jevanse/DepoReporter1",
+              "sha": null,
+              "lastModified": "2026-07-19T23:08:28.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "jevonmao/llama31-8b-poker-mix-v1-step10k",
+              "sha": null,
+              "lastModified": "2026-06-04T22:44:05.000Z",
+              "pipeline_tag": "text-generation",
+              "library_name": "transformers"
+            },
+            {
+              "id": "jevuf/my-voice-dataset",
+              "sha": null,
+              "lastModified": "2026-06-02T15:39:04.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "bigfat/jeven_loras",
+              "sha": null,
+              "lastModified": "2026-05-31T19:46:40.000Z",
+              "pipeline_tag": "text-to-image",
+              "library_name": "diffusers"
+            },
+            {
+              "id": "jevonmao/llama31-8b-gtow-qdora-v4-postflop",
+              "sha": null,
+              "lastModified": "2026-05-25T08:05:42.000Z",
+              "pipeline_tag": "text-generation",
+              "library_name": "transformers"
+            },
+            {
+              "id": "jevonmao/llama31-8b-gtow-qdora-v4-postflop-step750",
+              "sha": null,
+              "lastModified": "2026-05-24T21:12:34.000Z",
+              "pipeline_tag": "text-generation",
+              "library_name": "transformers"
+            },
+            {
+              "id": "jevonmao/llama31-8b-gtow-lora-v4-postflop-step1050",
+              "sha": null,
+              "lastModified": "2026-05-24T21:07:58.000Z",
+              "pipeline_tag": "text-generation",
+              "library_name": "transformers"
+            },
+            {
+              "id": "jevonmao/llama31-8b-gtow-lora-v3",
+              "sha": null,
+              "lastModified": "2026-05-24T00:33:55.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "jevonmao/llama31-8b-gtow-lora-v2",
+              "sha": null,
+              "lastModified": "2026-05-21T22:36:34.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "jevonmao/llama31-8b-gtow-lora",
+              "sha": null,
+              "lastModified": "2026-05-20T14:00:23.000Z",
+              "pipeline_tag": "text-generation",
+              "library_name": "transformers"
+            },
+            {
+              "id": "Jeverett2727/gpt2-wikitext2",
+              "sha": null,
+              "lastModified": "2026-03-30T01:26:58.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "aleksandar-jevtic-robco/act-2026-03-03_pika-test-bracket-insertion",
+              "sha": null,
+              "lastModified": "2026-03-11T00:26:24.000Z",
+              "pipeline_tag": "robotics",
+              "library_name": "lerobot"
+            },
+            {
+              "id": "Jevxis/nora_person",
+              "sha": null,
+              "lastModified": "2026-02-27T05:52:02.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "Jevxis/Helena",
+              "sha": null,
+              "lastModified": "2026-02-23T13:48:33.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "Mariamgathigia1/JEVzNaz4",
+              "sha": null,
+              "lastModified": "2026-01-30T17:56:16.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "Sarah20284/omega_jevgy",
+              "sha": null,
+              "lastModified": "2026-01-19T00:24:47.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "Robertp423/Qwen3-VL-32B-Jevum",
+              "sha": null,
+              "lastModified": "2025-12-29T20:48:34.000Z",
+              "pipeline_tag": null,
+              "library_name": "transformers"
+            },
+            {
+              "id": "jevertton/teste",
+              "sha": null,
+              "lastModified": "2025-12-02T03:53:17.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "JevinGill/blockassist",
+              "sha": null,
+              "lastModified": "2025-11-25T10:27:44.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "martineux/jevo3",
+              "sha": null,
+              "lastModified": "2025-09-11T01:24:16.000Z",
+              "pipeline_tag": "text-to-image",
+              "library_name": "diffusers"
+            },
+            {
+              "id": "donoway/GSM8K-Binary_Llama-3.2-1B-jevfwxa5",
+              "sha": null,
+              "lastModified": "2025-08-18T13:28:40.000Z",
+              "pipeline_tag": "text-generation",
+              "library_name": "transformers"
+            },
+            {
+              "id": "Jevintanjh/simisai-cv",
+              "sha": null,
+              "lastModified": "2025-08-17T10:29:17.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "helsonlin/Jevet",
+              "sha": null,
+              "lastModified": "2025-08-12T08:01:46.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "toxic1228/Jev",
+              "sha": null,
+              "lastModified": "2025-07-31T15:35:50.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "jev-aleks/SceneDINO",
+              "sha": null,
+              "lastModified": "2025-07-10T08:47:51.000Z",
+              "pipeline_tag": "image-to-3d",
+              "library_name": "pytorch"
+            }
+          ]
+        }
+      ],
+      "stop_reason": "crossed_prior_scan_cutoff"
+    },
+    {
+      "term": "gliclass",
+      "pages": [
+        {
+          "url": "https://huggingface.co/api/models?search=gliclass&sort=lastModified&direction=-1&limit=100",
+          "count": 100,
+          "models": [
+            {
+              "id": "Daecore/gliclass-std-base-v3-5facet-qint8-v2",
+              "sha": null,
+              "lastModified": "2026-09-18T19:05:59.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": null
+            },
+            {
+              "id": "SkyFVII/gliclass-multilang-ultra-onnx",
+              "sha": null,
+              "lastModified": "2026-09-11T08:55:21.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "RooTender/gliclass-multilang-mini-onnx",
+              "sha": null,
+              "lastModified": "2026-09-03T08:39:12.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": null
+            },
+            {
+              "id": "StromaAILabs/memweave-gliclass-intent-classifier-v1",
+              "sha": null,
+              "lastModified": "2026-08-15T05:15:47.000Z",
+              "pipeline_tag": null,
+              "library_name": "transformers"
+            },
+            {
+              "id": "StromaAILabs/memweave-gliclass-intent-v1",
+              "sha": null,
+              "lastModified": "2026-08-15T05:14:02.000Z",
+              "pipeline_tag": null,
+              "library_name": "transformers"
+            },
+            {
+              "id": "knowledgator/gliclass-instruct-base-v1.0",
+              "sha": null,
+              "lastModified": "2026-05-21T09:47:22.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": null
+            },
+            {
+              "id": "hesenc86/gliclass-large-v1.0",
+              "sha": null,
+              "lastModified": "2026-05-17T09:46:24.000Z",
+              "pipeline_tag": "zero-shot-classification",
+              "library_name": null
+            },
+            {
+              "id": "knowledgator/gliclass-multilang-edge",
+              "sha": null,
+              "lastModified": "2026-04-30T15:53:04.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": null
+            },
+            {
+              "id": "knowledgator/gliclass-multilang-mini",
+              "sha": null,
+              "lastModified": "2026-04-30T15:52:36.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": null
+            },
+            {
+              "id": "knowledgator/gliclass-multilang-ultra",
+              "sha": null,
+              "lastModified": "2026-04-30T15:51:37.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": null
+            },
+            {
+              "id": "Ihor/gliclass-mt5-base-lw",
+              "sha": null,
+              "lastModified": "2026-02-26T19:11:36.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "winado/gliclass-base-onnx",
+              "sha": null,
+              "lastModified": "2026-02-17T16:35:10.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "knowledgator/gliclass-instruct-edge-v1.0",
+              "sha": null,
+              "lastModified": "2026-02-17T12:59:00.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": null
+            },
+            {
+              "id": "knowledgator/gliclass-instruct-large-v1.0",
+              "sha": null,
+              "lastModified": "2026-02-17T12:35:27.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": null
+            },
+            {
+              "id": "BioMike/gliclass-large-reddit-1m-6k",
+              "sha": null,
+              "lastModified": "2026-02-17T11:49:07.000Z",
+              "pipeline_tag": null,
+              "library_name": "transformers"
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-680",
+              "sha": null,
+              "lastModified": "2026-01-04T14:23:09.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-670",
+              "sha": null,
+              "lastModified": "2026-01-04T14:09:29.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-660",
+              "sha": null,
+              "lastModified": "2026-01-04T13:55:43.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-650",
+              "sha": null,
+              "lastModified": "2026-01-04T13:42:01.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-640",
+              "sha": null,
+              "lastModified": "2026-01-04T13:28:16.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-630",
+              "sha": null,
+              "lastModified": "2026-01-04T13:14:30.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-620",
+              "sha": null,
+              "lastModified": "2026-01-04T13:00:50.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-610",
+              "sha": null,
+              "lastModified": "2026-01-04T12:46:24.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-600",
+              "sha": null,
+              "lastModified": "2026-01-04T12:32:41.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-590",
+              "sha": null,
+              "lastModified": "2026-01-04T12:19:01.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-580",
+              "sha": null,
+              "lastModified": "2026-01-04T12:05:20.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-570",
+              "sha": null,
+              "lastModified": "2026-01-04T11:51:37.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-560",
+              "sha": null,
+              "lastModified": "2026-01-04T11:37:54.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-550",
+              "sha": null,
+              "lastModified": "2026-01-04T11:24:11.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-540",
+              "sha": null,
+              "lastModified": "2026-01-04T11:10:23.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-530",
+              "sha": null,
+              "lastModified": "2026-01-04T10:56:29.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-520",
+              "sha": null,
+              "lastModified": "2026-01-04T10:42:41.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-510",
+              "sha": null,
+              "lastModified": "2026-01-04T10:29:03.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-500",
+              "sha": null,
+              "lastModified": "2026-01-04T10:15:24.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-490",
+              "sha": null,
+              "lastModified": "2026-01-04T10:01:39.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-480",
+              "sha": null,
+              "lastModified": "2026-01-04T09:48:02.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-470",
+              "sha": null,
+              "lastModified": "2026-01-04T09:34:18.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-460",
+              "sha": null,
+              "lastModified": "2026-01-04T09:20:10.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-450",
+              "sha": null,
+              "lastModified": "2026-01-04T09:06:26.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-440",
+              "sha": null,
+              "lastModified": "2026-01-04T08:52:38.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-430",
+              "sha": null,
+              "lastModified": "2026-01-04T08:38:52.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-420",
+              "sha": null,
+              "lastModified": "2026-01-04T08:25:11.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-410",
+              "sha": null,
+              "lastModified": "2026-01-04T08:11:33.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-400",
+              "sha": null,
+              "lastModified": "2026-01-04T07:57:55.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-390",
+              "sha": null,
+              "lastModified": "2026-01-04T07:44:16.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-380",
+              "sha": null,
+              "lastModified": "2026-01-04T07:30:34.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-370",
+              "sha": null,
+              "lastModified": "2026-01-04T07:16:53.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-360",
+              "sha": null,
+              "lastModified": "2026-01-04T07:03:01.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-350",
+              "sha": null,
+              "lastModified": "2026-01-04T06:49:12.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-340",
+              "sha": null,
+              "lastModified": "2026-01-04T06:35:23.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-330",
+              "sha": null,
+              "lastModified": "2026-01-04T06:21:28.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-320",
+              "sha": null,
+              "lastModified": "2026-01-04T06:07:35.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-310",
+              "sha": null,
+              "lastModified": "2026-01-04T05:53:46.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-300",
+              "sha": null,
+              "lastModified": "2026-01-04T05:39:19.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-290",
+              "sha": null,
+              "lastModified": "2026-01-04T05:25:21.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-280",
+              "sha": null,
+              "lastModified": "2026-01-04T05:11:23.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-270",
+              "sha": null,
+              "lastModified": "2026-01-04T04:57:20.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-260",
+              "sha": null,
+              "lastModified": "2026-01-04T04:43:15.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-250",
+              "sha": null,
+              "lastModified": "2026-01-04T04:29:23.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-240",
+              "sha": null,
+              "lastModified": "2026-01-04T04:15:32.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-230",
+              "sha": null,
+              "lastModified": "2026-01-04T04:01:31.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-220",
+              "sha": null,
+              "lastModified": "2026-01-04T03:47:34.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-210",
+              "sha": null,
+              "lastModified": "2026-01-04T03:33:35.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-200",
+              "sha": null,
+              "lastModified": "2026-01-04T03:19:36.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-190",
+              "sha": null,
+              "lastModified": "2026-01-04T03:05:36.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-180",
+              "sha": null,
+              "lastModified": "2026-01-04T02:51:40.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-170",
+              "sha": null,
+              "lastModified": "2026-01-04T02:37:32.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-160",
+              "sha": null,
+              "lastModified": "2026-01-04T02:23:39.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-150",
+              "sha": null,
+              "lastModified": "2026-01-04T02:09:50.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-140",
+              "sha": null,
+              "lastModified": "2026-01-04T01:54:40.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-130",
+              "sha": null,
+              "lastModified": "2026-01-04T01:40:45.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-120",
+              "sha": null,
+              "lastModified": "2026-01-04T01:26:52.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-110",
+              "sha": null,
+              "lastModified": "2026-01-04T01:12:55.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-100",
+              "sha": null,
+              "lastModified": "2026-01-04T00:58:53.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-90",
+              "sha": null,
+              "lastModified": "2026-01-04T00:44:58.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2980",
+              "sha": null,
+              "lastModified": "2026-01-03T21:56:09.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2970",
+              "sha": null,
+              "lastModified": "2026-01-03T21:42:41.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2960",
+              "sha": null,
+              "lastModified": "2026-01-03T21:28:46.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2950",
+              "sha": null,
+              "lastModified": "2026-01-03T21:15:20.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2940",
+              "sha": null,
+              "lastModified": "2026-01-03T21:01:45.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2930",
+              "sha": null,
+              "lastModified": "2026-01-03T20:48:19.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2920",
+              "sha": null,
+              "lastModified": "2026-01-03T20:34:54.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2910",
+              "sha": null,
+              "lastModified": "2026-01-03T20:21:24.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2900",
+              "sha": null,
+              "lastModified": "2026-01-03T20:07:58.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2890",
+              "sha": null,
+              "lastModified": "2026-01-03T19:54:27.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2880",
+              "sha": null,
+              "lastModified": "2026-01-03T19:40:54.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2870",
+              "sha": null,
+              "lastModified": "2026-01-03T19:27:27.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2860",
+              "sha": null,
+              "lastModified": "2026-01-03T19:14:08.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2850",
+              "sha": null,
+              "lastModified": "2026-01-03T19:00:45.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2840",
+              "sha": null,
+              "lastModified": "2026-01-03T18:47:19.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2830",
+              "sha": null,
+              "lastModified": "2026-01-03T18:33:55.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2820",
+              "sha": null,
+              "lastModified": "2026-01-03T18:20:31.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2810",
+              "sha": null,
+              "lastModified": "2026-01-03T18:07:04.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2800",
+              "sha": null,
+              "lastModified": "2026-01-03T17:53:08.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2790",
+              "sha": null,
+              "lastModified": "2026-01-03T17:39:41.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2780",
+              "sha": null,
+              "lastModified": "2026-01-03T17:26:13.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2770",
+              "sha": null,
+              "lastModified": "2026-01-03T17:12:49.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2760",
+              "sha": null,
+              "lastModified": "2026-01-03T16:59:30.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2750",
+              "sha": null,
+              "lastModified": "2026-01-03T16:46:00.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "alexandrlukashov/gliclass-pe-audio-zeroshot-2740",
+              "sha": null,
+              "lastModified": "2026-01-03T16:32:35.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            }
+          ]
+        }
+      ],
+      "stop_reason": "crossed_prior_scan_cutoff"
+    },
+    {
+      "term": "gliner",
+      "pages": [
+        {
+          "url": "https://huggingface.co/api/models?search=gliner&sort=lastModified&direction=-1&limit=100",
+          "count": 100,
+          "models": [
+            {
+              "id": "ardakshalkar/kazakh-trilingual-gliner-small",
+              "sha": null,
+              "lastModified": "2026-09-21T04:25:47.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "codesoda/gliner2-onnx",
+              "sha": null,
+              "lastModified": "2026-09-21T04:11:26.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "gliner2"
+            },
+            {
+              "id": "muchad/gliner-id",
+              "sha": null,
+              "lastModified": "2026-09-21T03:37:54.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "ardakshalkar/kazakh-trilingual-gliner",
+              "sha": null,
+              "lastModified": "2026-09-20T17:02:03.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "beshkenadze/gliner2.5-multi-onnx",
+              "sha": null,
+              "lastModified": "2026-09-20T16:14:22.000Z",
+              "pipeline_tag": null,
+              "library_name": "onnx"
+            },
+            {
+              "id": "fastino/gliner2-multi-v1",
+              "sha": null,
+              "lastModified": "2026-09-20T11:23:40.000Z",
+              "pipeline_tag": null,
+              "library_name": "gliner2"
+            },
+            {
+              "id": "fastino/gliner2.5-base-v1",
+              "sha": null,
+              "lastModified": "2026-09-20T11:23:37.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner2"
+            },
+            {
+              "id": "fastino/gliner2.5-multi-v1",
+              "sha": null,
+              "lastModified": "2026-09-20T11:23:33.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner2"
+            },
+            {
+              "id": "fastino/gliner2.5-small-v1",
+              "sha": null,
+              "lastModified": "2026-09-20T11:23:28.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner2"
+            },
+            {
+              "id": "fastino/gliner2-privacy-filter-PII-multi",
+              "sha": null,
+              "lastModified": "2026-09-20T11:23:24.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner2"
+            },
+            {
+              "id": "fastino/GLiNER2-Guardrails-PII-Multi",
+              "sha": null,
+              "lastModified": "2026-09-20T11:23:16.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner2"
+            },
+            {
+              "id": "litert-community/GLiNER2.5-Small-LiteRT",
+              "sha": null,
+              "lastModified": "2026-09-20T00:52:53.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "litert"
+            },
+            {
+              "id": "P-s-v/knife-gliner-large-v2.5",
+              "sha": null,
+              "lastModified": "2026-09-19T20:31:00.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "a5566qq123/gliner2-tw-pii",
+              "sha": null,
+              "lastModified": "2026-09-19T16:23:36.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "peft"
+            },
+            {
+              "id": "lucataco/gliner2.5-cua-grounder-macos-v2",
+              "sha": null,
+              "lastModified": "2026-09-19T01:31:46.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "gliner2"
+            },
+            {
+              "id": "GG-QandV/gliner_small-v2.5-onnx",
+              "sha": null,
+              "lastModified": "2026-09-18T14:29:03.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "onnx"
+            },
+            {
+              "id": "lucataco/gliner2.5-cua-grounder-macos-v1",
+              "sha": null,
+              "lastModified": "2026-09-18T07:06:53.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "gliner2"
+            },
+            {
+              "id": "gitmodelmujtaba/gliner-snomed-biomed",
+              "sha": null,
+              "lastModified": "2026-09-17T17:04:05.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "fastino/gliner2-large-v1",
+              "sha": null,
+              "lastModified": "2026-09-17T01:27:54.000Z",
+              "pipeline_tag": null,
+              "library_name": "gliner2"
+            },
+            {
+              "id": "fastino/gliner2-base-v1",
+              "sha": null,
+              "lastModified": "2026-09-17T01:27:43.000Z",
+              "pipeline_tag": null,
+              "library_name": "gliner2"
+            },
+            {
+              "id": "Tazner/Gliner-PII-wo-int8-emb4",
+              "sha": null,
+              "lastModified": "2026-09-16T11:58:40.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "Bluedorsey/GliNER",
+              "sha": null,
+              "lastModified": "2026-09-15T18:34:46.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "newmindai/gliner2.5-mursit-kvkk-tr-v1",
+              "sha": null,
+              "lastModified": "2026-09-15T12:46:59.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner2"
+            },
+            {
+              "id": "newmindai/gliner2.5-kvkk-tr-v2",
+              "sha": null,
+              "lastModified": "2026-09-15T12:46:57.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner2"
+            },
+            {
+              "id": "newmindai/gliner2.5-kvkk-tr-v1",
+              "sha": null,
+              "lastModified": "2026-09-15T12:46:55.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner2"
+            },
+            {
+              "id": "mlboydaisuke/GLiNER2-PII-CoreAI",
+              "sha": null,
+              "lastModified": "2026-09-14T18:37:14.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "coreai"
+            },
+            {
+              "id": "vladlinv/ru-pii-ner-gliner2.5",
+              "sha": null,
+              "lastModified": "2026-09-14T17:11:09.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner2"
+            },
+            {
+              "id": "SkyeAv/drug-approvals-gliner-small-v2.1",
+              "sha": null,
+              "lastModified": "2026-09-10T17:59:15.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "Tazner/Gliner-small-edge-wo-int8-emb4",
+              "sha": null,
+              "lastModified": "2026-09-10T09:18:25.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "cimo001/gliner_multi-v2.1",
+              "sha": null,
+              "lastModified": "2026-09-09T09:15:43.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "onnx"
+            },
+            {
+              "id": "Circular-Lab/gliner2.5-multi-v1-random-selection_all_labels_normalized",
+              "sha": null,
+              "lastModified": "2026-09-09T00:45:25.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "rafmacalaba/gliner-datause-catchall-singlepass",
+              "sha": null,
+              "lastModified": "2026-09-08T19:58:26.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "rafmacalaba/gliner-datause-catchall-infer-probe",
+              "sha": null,
+              "lastModified": "2026-09-08T19:55:29.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "rafmacalaba/gliner-datause-catchall-probe",
+              "sha": null,
+              "lastModified": "2026-09-08T14:18:10.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "Elafnawaf/gliner2-arabic-multitask",
+              "sha": null,
+              "lastModified": "2026-09-08T13:29:20.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner2"
+            },
+            {
+              "id": "patronus-studio/gliner_small-v2.5-edge",
+              "sha": null,
+              "lastModified": "2026-09-08T09:07:30.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "patronus-studio/gliner2-multi-edge",
+              "sha": null,
+              "lastModified": "2026-09-08T09:07:29.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "quynong/gliner-l-set-pii_500k-en-seed123",
+              "sha": null,
+              "lastModified": "2026-09-08T07:33:39.000Z",
+              "pipeline_tag": null,
+              "library_name": "gliner"
+            },
+            {
+              "id": "rafmacalaba/gliner-datause-mentions-catch-all",
+              "sha": null,
+              "lastModified": "2026-09-08T07:33:11.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "quynong/gliner-l-set-nemotron-en-seed42",
+              "sha": null,
+              "lastModified": "2026-09-08T06:51:08.000Z",
+              "pipeline_tag": null,
+              "library_name": "gliner"
+            },
+            {
+              "id": "quynong/gliner-l-set-pii_500k-en-seed2026",
+              "sha": null,
+              "lastModified": "2026-09-08T06:23:48.000Z",
+              "pipeline_tag": null,
+              "library_name": "gliner"
+            },
+            {
+              "id": "quynong/gliner-l-set-pii_500k-en-seed1319",
+              "sha": null,
+              "lastModified": "2026-09-08T04:53:42.000Z",
+              "pipeline_tag": null,
+              "library_name": "gliner"
+            },
+            {
+              "id": "quynong/gliner-l-set-gretel-en-seed1319",
+              "sha": null,
+              "lastModified": "2026-09-08T03:52:31.000Z",
+              "pipeline_tag": null,
+              "library_name": "gliner"
+            },
+            {
+              "id": "Saurabh18888/gliner-news-geo",
+              "sha": null,
+              "lastModified": "2026-09-07T19:14:14.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "rafmacalaba/gliner-datause-v3-probe",
+              "sha": null,
+              "lastModified": "2026-09-07T17:56:38.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "quynong/gliner-l-set-500k-pii-en-seed123",
+              "sha": null,
+              "lastModified": "2026-09-07T14:55:52.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "quynong/gliner-l-set-gretel-en-seed2026",
+              "sha": null,
+              "lastModified": "2026-09-07T13:14:40.000Z",
+              "pipeline_tag": null,
+              "library_name": "gliner"
+            },
+            {
+              "id": "AITeamUIT/gliner2-paper-triet-vi",
+              "sha": null,
+              "lastModified": "2026-09-07T13:12:02.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "quynong/gliner-l-set-gretel-en-seed123",
+              "sha": null,
+              "lastModified": "2026-09-07T12:35:11.000Z",
+              "pipeline_tag": null,
+              "library_name": "gliner"
+            },
+            {
+              "id": "quynong/gliner-l-bce-nemotron-seed42",
+              "sha": null,
+              "lastModified": "2026-09-07T03:02:10.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "coreai-community/GLiNER2-PII-CoreAI",
+              "sha": null,
+              "lastModified": "2026-09-05T04:21:03.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "coreai"
+            },
+            {
+              "id": "rafmacalaba/gliner-datause-displacement-probe",
+              "sha": null,
+              "lastModified": "2026-09-04T16:14:37.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "rafmacalaba/gliner-datause-displacement",
+              "sha": null,
+              "lastModified": "2026-09-04T16:10:34.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "Circular-Lab/gliner2.5-multi-v1-random-selection_all_labels",
+              "sha": null,
+              "lastModified": "2026-09-03T22:14:41.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "Circular-Lab/gliner2.5-multi-v1-random-selection_groups",
+              "sha": null,
+              "lastModified": "2026-09-03T21:13:06.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "rafmacalaba/gliner-datause-displacement-withnonmention",
+              "sha": null,
+              "lastModified": "2026-09-03T18:59:07.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "Circular-Lab/gliner2.5-multi-v1-diversity-selection",
+              "sha": null,
+              "lastModified": "2026-09-02T13:47:58.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "ottema/gliner2-ptbr-v23",
+              "sha": null,
+              "lastModified": "2026-09-02T13:19:03.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "ottema/gliner2-ptbr-v22",
+              "sha": null,
+              "lastModified": "2026-09-02T13:19:01.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "ottema/gliner2-ptbr-v20",
+              "sha": null,
+              "lastModified": "2026-09-02T13:18:59.000Z",
+              "pipeline_tag": null,
+              "library_name": "gliner"
+            },
+            {
+              "id": "ottema/gliner2-ptbr-v19",
+              "sha": null,
+              "lastModified": "2026-09-02T13:18:57.000Z",
+              "pipeline_tag": null,
+              "library_name": "gliner"
+            },
+            {
+              "id": "Circular-Lab/gliner2.5-multi-v1-downsampled-selection",
+              "sha": null,
+              "lastModified": "2026-09-02T12:42:49.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "Circular-Lab/gliner2.5-multi-v1-random-selection",
+              "sha": null,
+              "lastModified": "2026-09-02T12:12:07.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "DanKau/gliner2.5-base-v1-onnx",
+              "sha": null,
+              "lastModified": "2026-09-01T16:22:14.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "onnx"
+            },
+            {
+              "id": "DanKau/gliner-bi-large-v2.0-onnx",
+              "sha": null,
+              "lastModified": "2026-09-01T11:20:24.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "onnx"
+            },
+            {
+              "id": "rafmacalaba/gliner-tier-probe",
+              "sha": null,
+              "lastModified": "2026-08-31T21:20:31.000Z",
+              "pipeline_tag": null,
+              "library_name": "gliner"
+            },
+            {
+              "id": "DanKau/gliner2.5-multi-v1-onnx",
+              "sha": null,
+              "lastModified": "2026-08-30T10:29:50.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "onnx"
+            },
+            {
+              "id": "DanKau/gliner2-guard-onnx",
+              "sha": null,
+              "lastModified": "2026-08-30T10:02:09.000Z",
+              "pipeline_tag": "text-classification",
+              "library_name": "onnx"
+            },
+            {
+              "id": "rafmacalaba/gliner-datause-probe",
+              "sha": null,
+              "lastModified": "2026-08-29T20:30:54.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "rafmacalaba/gliner-probe",
+              "sha": null,
+              "lastModified": "2026-08-28T22:03:03.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "rafmacalaba/gliner-probe-smoke",
+              "sha": null,
+              "lastModified": "2026-08-28T21:39:44.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "rahulrajsonu/medisync-gliner-biomed-small-onnx",
+              "sha": null,
+              "lastModified": "2026-08-28T10:33:51.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "rafmacalaba/gliner_datause_v0",
+              "sha": null,
+              "lastModified": "2026-08-28T08:44:59.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "nicolasembleton/gliner2.5-multi-v1-onnx",
+              "sha": null,
+              "lastModified": "2026-08-27T06:40:54.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "onnx"
+            },
+            {
+              "id": "nicolasembleton/gliner2.5-base-v1-onnx",
+              "sha": null,
+              "lastModified": "2026-08-27T06:40:53.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "onnx"
+            },
+            {
+              "id": "nicolasembleton/gliner2.5-small-v1-onnx",
+              "sha": null,
+              "lastModified": "2026-08-27T06:40:52.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "onnx"
+            },
+            {
+              "id": "jugaadsrl/gliner2.5-multi-v1-onnx",
+              "sha": null,
+              "lastModified": "2026-08-26T06:28:50.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner2"
+            },
+            {
+              "id": "gravitee-io/gliner4j-gliner2-base-v1",
+              "sha": null,
+              "lastModified": "2026-08-25T15:47:34.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "onnx"
+            },
+            {
+              "id": "jugaadsrl/GLiNER2-Guardrails-PII-Multi-onnx",
+              "sha": null,
+              "lastModified": "2026-08-25T12:47:44.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner2"
+            },
+            {
+              "id": "jugaadsrl/gliner2-privacy-filter-PII-multi-onnx",
+              "sha": null,
+              "lastModified": "2026-08-25T12:47:14.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner2"
+            },
+            {
+              "id": "jugaadsrl/gliner2-multi-v1-onnx",
+              "sha": null,
+              "lastModified": "2026-08-25T12:47:13.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "gliner"
+            },
+            {
+              "id": "abhijitvtor/gliner-seclore-pii",
+              "sha": null,
+              "lastModified": "2026-08-25T04:34:02.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "Fazmin/solus_v1_gliner2-privacy-filter-pii-q8",
+              "sha": null,
+              "lastModified": "2026-08-24T20:05:41.000Z",
+              "pipeline_tag": "token-classification",
+              "library_name": "onnx"
+            },
+            {
+              "id": "Marcolini/tech-companion-gliner2-request-interpreter",
+              "sha": null,
+              "lastModified": "2026-08-24T13:07:06.000Z",
+              "pipeline_tag": null,
+              "library_name": "peft"
+            },
+            {
+              "id": "quynong/gliner2-multi-v18-set-consistent-case",
+              "sha": null,
+              "lastModified": "2026-08-24T03:52:53.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "quynong/gliner2-multi-v18-set-consistent",
+              "sha": null,
+              "lastModified": "2026-08-23T16:07:56.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "AITeamUIT/gliner2-ner-ontonotes5-cw-seed44",
+              "sha": null,
+              "lastModified": "2026-08-22T14:20:11.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "AITeamUIT/gliner2-ner-ontonotes5-set-seed44",
+              "sha": null,
+              "lastModified": "2026-08-22T09:37:56.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "AITeamUIT/gliner2-ner-ontonotes5-set-seed43",
+              "sha": null,
+              "lastModified": "2026-08-22T09:16:55.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "AITeamUIT/gliner2-ner-ontonotes5-set-seed42",
+              "sha": null,
+              "lastModified": "2026-08-22T08:56:02.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "AITeamUIT/gliner2-ner-conll2003-set-seed46",
+              "sha": null,
+              "lastModified": "2026-08-22T08:35:13.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "AITeamUIT/gliner2-ner-conll2003-set-seed45",
+              "sha": null,
+              "lastModified": "2026-08-22T08:25:35.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "AITeamUIT/gliner2-ner-conll2003-set-seed44",
+              "sha": null,
+              "lastModified": "2026-08-22T08:18:58.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "AITeamUIT/gliner2-ner-ontonotes5-cw-seed43",
+              "sha": null,
+              "lastModified": "2026-08-22T08:11:05.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "AITeamUIT/gliner2-ner-conll2003-set-seed43",
+              "sha": null,
+              "lastModified": "2026-08-22T08:08:52.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "AITeamUIT/gliner2-ner-conll2003-set-seed42",
+              "sha": null,
+              "lastModified": "2026-08-22T08:00:09.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "AITeamUIT/gliner2-ner-ontonotes5-cw-seed42",
+              "sha": null,
+              "lastModified": "2026-08-22T07:54:10.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "AITeamUIT/gliner2-ner-mit_restaurant-set-seed46",
+              "sha": null,
+              "lastModified": "2026-08-22T07:53:29.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "AITeamUIT/gliner2-ner-mit_restaurant-set-seed45",
+              "sha": null,
+              "lastModified": "2026-08-22T07:47:58.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "AITeamUIT/gliner2-ner-mit_restaurant-set-seed44",
+              "sha": null,
+              "lastModified": "2026-08-22T07:42:27.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            }
+          ]
+        }
+      ],
+      "stop_reason": "crossed_prior_scan_cutoff"
+    },
+    {
+      "term": "tabpfn",
+      "pages": [
+        {
+          "url": "https://huggingface.co/api/models?search=tabpfn&sort=lastModified&direction=-1&limit=100",
+          "count": 50,
+          "models": [
+            {
+              "id": "rouluan/Agro-TabPFN",
+              "sha": null,
+              "lastModified": "2026-09-18T10:31:50.000Z",
+              "pipeline_tag": "tabular-regression",
+              "library_name": null
+            },
+            {
+              "id": "Prior-Labs/tabpfn_3_5",
+              "sha": null,
+              "lastModified": "2026-09-09T20:05:09.000Z",
+              "pipeline_tag": "tabular-classification",
+              "library_name": null
+            },
+            {
+              "id": "zhongweixie/tabpfn-loop-artifacts",
+              "sha": null,
+              "lastModified": "2026-09-04T12:33:08.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "zhongweixie/tabpfn-loop-transformer-checkpoints",
+              "sha": null,
+              "lastModified": "2026-09-04T07:05:30.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "Benqqqqqqq/TabPFN",
+              "sha": null,
+              "lastModified": "2026-09-02T03:12:03.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "lsw2333/tabpfn_3",
+              "sha": null,
+              "lastModified": "2026-07-29T02:21:11.000Z",
+              "pipeline_tag": "tabular-classification",
+              "library_name": null
+            },
+            {
+              "id": "Rowling0506/tabpfn_3",
+              "sha": null,
+              "lastModified": "2026-07-26T00:23:53.000Z",
+              "pipeline_tag": "tabular-classification",
+              "library_name": null
+            },
+            {
+              "id": "zhuhao888/tabiclv2_tabpfnv3_ckpt",
+              "sha": null,
+              "lastModified": "2026-07-21T15:06:47.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "CWhy/tabpfn-jax-ckpts",
+              "sha": null,
+              "lastModified": "2026-07-21T07:16:04.000Z",
+              "pipeline_tag": null,
+              "library_name": "jax"
+            },
+            {
+              "id": "RATANGULIPILLI-4104/tabpfn-v8-checkpoints",
+              "sha": null,
+              "lastModified": "2026-07-19T19:03:55.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "bored26/tabpfn-8b",
+              "sha": null,
+              "lastModified": "2026-07-14T06:17:21.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "Prior-Labs/tabpfn_3",
+              "sha": null,
+              "lastModified": "2026-07-04T04:15:30.000Z",
+              "pipeline_tag": "tabular-classification",
+              "library_name": null
+            },
+            {
+              "id": "deep-plasma-phenotyping/somascan-ad-classification-tabpfn-v2",
+              "sha": null,
+              "lastModified": "2026-06-27T03:03:52.000Z",
+              "pipeline_tag": "tabular-classification",
+              "library_name": "tabpfn"
+            },
+            {
+              "id": "deep-plasma-phenotyping/somascan-ad-regression-tabpfn-v2",
+              "sha": null,
+              "lastModified": "2026-06-27T03:03:51.000Z",
+              "pipeline_tag": "tabular-regression",
+              "library_name": "tabpfn"
+            },
+            {
+              "id": "AurelPx/tabpfnv2-ultimate-breast-cancer-detection",
+              "sha": null,
+              "lastModified": "2026-06-02T16:03:42.000Z",
+              "pipeline_tag": "tabular-classification",
+              "library_name": "tabpfn"
+            },
+            {
+              "id": "zabergjg/TabPFN-TACO",
+              "sha": null,
+              "lastModified": "2026-05-22T00:01:39.000Z",
+              "pipeline_tag": "tabular-classification",
+              "library_name": "pytorch"
+            },
+            {
+              "id": "dgallitelli/tabpfn-v3-mlx",
+              "sha": null,
+              "lastModified": "2026-05-15T06:34:01.000Z",
+              "pipeline_tag": "tabular-classification",
+              "library_name": "mlx"
+            },
+            {
+              "id": "Manik2000/v4finbench-tabpfn",
+              "sha": null,
+              "lastModified": "2026-05-06T22:20:11.000Z",
+              "pipeline_tag": null,
+              "library_name": "tabpfn"
+            },
+            {
+              "id": "crow-1/tabpfn_2_6",
+              "sha": null,
+              "lastModified": "2026-05-06T09:10:23.000Z",
+              "pipeline_tag": "tabular-classification",
+              "library_name": null
+            },
+            {
+              "id": "Prior-Labs/TabPFN-v2-clf",
+              "sha": null,
+              "lastModified": "2026-04-26T12:26:36.000Z",
+              "pipeline_tag": "tabular-classification",
+              "library_name": "tabpfn"
+            },
+            {
+              "id": "Prior-Labs/tabpfn_2_6",
+              "sha": null,
+              "lastModified": "2026-04-02T10:00:43.000Z",
+              "pipeline_tag": "tabular-classification",
+              "library_name": null
+            },
+            {
+              "id": "Mayubor/TabPFN",
+              "sha": null,
+              "lastModified": "2026-03-29T14:23:09.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "Prior-Labs/tabpfn_2_5",
+              "sha": null,
+              "lastModified": "2026-03-24T08:28:05.000Z",
+              "pipeline_tag": "tabular-classification",
+              "library_name": null
+            },
+            {
+              "id": "k-pleyer/TabPFN-v2-clf",
+              "sha": null,
+              "lastModified": "2026-03-09T03:11:50.000Z",
+              "pipeline_tag": "tabular-classification",
+              "library_name": "tabpfn"
+            },
+            {
+              "id": "k-pleyer/TabPFN-v2-reg",
+              "sha": null,
+              "lastModified": "2026-03-09T03:11:22.000Z",
+              "pipeline_tag": "tabular-regression",
+              "library_name": "tabpfn"
+            },
+            {
+              "id": "rdinnager/tabpfn-sdm-finetuned",
+              "sha": null,
+              "lastModified": "2026-03-04T18:13:30.000Z",
+              "pipeline_tag": "tabular-classification",
+              "library_name": "pytorch"
+            },
+            {
+              "id": "jruffle/tabpfn_transcriptome_64d",
+              "sha": null,
+              "lastModified": "2026-01-13T17:11:22.000Z",
+              "pipeline_tag": null,
+              "library_name": "tabpfn"
+            },
+            {
+              "id": "jruffle/tabpfn_transcriptome_32d",
+              "sha": null,
+              "lastModified": "2026-01-13T17:09:53.000Z",
+              "pipeline_tag": null,
+              "library_name": "tabpfn"
+            },
+            {
+              "id": "jruffle/tabpfn_transcriptome_16d",
+              "sha": null,
+              "lastModified": "2026-01-13T17:08:24.000Z",
+              "pipeline_tag": null,
+              "library_name": "tabpfn"
+            },
+            {
+              "id": "jruffle/tabpfn_transcriptome_8d",
+              "sha": null,
+              "lastModified": "2026-01-13T17:06:55.000Z",
+              "pipeline_tag": null,
+              "library_name": "tabpfn"
+            },
+            {
+              "id": "jruffle/tabpfn_transcriptome_4d",
+              "sha": null,
+              "lastModified": "2026-01-13T17:05:29.000Z",
+              "pipeline_tag": null,
+              "library_name": "tabpfn"
+            },
+            {
+              "id": "jruffle/tabpfn_transcriptome_3d",
+              "sha": null,
+              "lastModified": "2026-01-13T17:04:02.000Z",
+              "pipeline_tag": null,
+              "library_name": "tabpfn"
+            },
+            {
+              "id": "jruffle/tabpfn_transcriptome_2d",
+              "sha": null,
+              "lastModified": "2026-01-13T17:02:30.000Z",
+              "pipeline_tag": null,
+              "library_name": "tabpfn"
+            },
+            {
+              "id": "jruffle/tabpfn_samples_64d",
+              "sha": null,
+              "lastModified": "2026-01-13T17:00:43.000Z",
+              "pipeline_tag": null,
+              "library_name": "tabpfn"
+            },
+            {
+              "id": "jruffle/tabpfn_samples_32d",
+              "sha": null,
+              "lastModified": "2026-01-13T17:00:23.000Z",
+              "pipeline_tag": null,
+              "library_name": "tabpfn"
+            },
+            {
+              "id": "jruffle/tabpfn_samples_16d",
+              "sha": null,
+              "lastModified": "2026-01-13T16:59:51.000Z",
+              "pipeline_tag": null,
+              "library_name": "tabpfn"
+            },
+            {
+              "id": "jruffle/tabpfn_samples_8d",
+              "sha": null,
+              "lastModified": "2026-01-13T16:59:31.000Z",
+              "pipeline_tag": null,
+              "library_name": "tabpfn"
+            },
+            {
+              "id": "jruffle/tabpfn_samples_4d",
+              "sha": null,
+              "lastModified": "2026-01-13T16:59:12.000Z",
+              "pipeline_tag": null,
+              "library_name": "tabpfn"
+            },
+            {
+              "id": "jruffle/tabpfn_samples_3d",
+              "sha": null,
+              "lastModified": "2026-01-13T16:58:53.000Z",
+              "pipeline_tag": null,
+              "library_name": "tabpfn"
+            },
+            {
+              "id": "jruffle/tabpfn_samples_2d",
+              "sha": null,
+              "lastModified": "2026-01-13T16:58:30.000Z",
+              "pipeline_tag": null,
+              "library_name": "tabpfn"
+            },
+            {
+              "id": "jruffle/tabpfn_transcriptome_256d",
+              "sha": null,
+              "lastModified": "2026-01-12T17:09:38.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "jruffle/tabpfn_unknown_3d",
+              "sha": null,
+              "lastModified": "2026-01-12T17:08:13.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "tasha-raah/sentiment_analysis_tabPFN",
+              "sha": null,
+              "lastModified": "2025-12-12T16:44:00.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "RyeCatcher/tabpfn-oncology-uq",
+              "sha": null,
+              "lastModified": "2025-12-05T12:35:52.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "Prior-Labs/TabPFN-v2-reg",
+              "sha": null,
+              "lastModified": "2025-11-04T14:39:11.000Z",
+              "pipeline_tag": "tabular-regression",
+              "library_name": "tabpfn"
+            },
+            {
+              "id": "willieseun/Eagle-Team-TabPFN",
+              "sha": null,
+              "lastModified": "2025-08-04T15:23:21.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "readysetgo/tabpfnreg",
+              "sha": null,
+              "lastModified": "2025-02-27T00:56:29.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "yrlmike/Plaque_TabPFN",
+              "sha": null,
+              "lastModified": "2025-02-04T02:56:13.000Z",
+              "pipeline_tag": null,
+              "library_name": null
+            },
+            {
+              "id": "autogluon/tabpfn-mix-1.0-regressor",
+              "sha": null,
+              "lastModified": "2024-11-27T01:12:03.000Z",
+              "pipeline_tag": "tabular-regression",
+              "library_name": null
+            },
+            {
+              "id": "autogluon/tabpfn-mix-1.0-classifier",
+              "sha": null,
+              "lastModified": "2024-11-27T01:09:58.000Z",
+              "pipeline_tag": "tabular-classification",
+              "library_name": null
+            }
+          ]
+        }
+      ],
+      "stop_reason": "crossed_prior_scan_cutoff"
+    }
+  ]
+}

@@ -1,19 +1,19 @@
 ---
 layout: default
-title: "Decision-model design for AI agents"
+title: "Build and improve decision-model systems with AI agents"
 permalink: /
 page_class: home
 ---
 
 <section class="hero" aria-labelledby="hero-title">
   <div>
-    <p class="kicker hero-reveal" style="--d: 0ms">Version 0.6.0</p>
+    <p class="kicker hero-reveal" style="--d: 0ms">Version 0.7.0</p>
     <h1 id="hero-title" class="hero-title">
       <span class="line hero-reveal" style="--d: 50ms">Place judgment.</span>
       <span class="line hero-reveal" style="--d: 110ms">Keep authority explicit.</span>
     </h1>
     <p class="lede hero-reveal" style="--d: 180ms">
-      Augustus is an agent skill for placing bounded judgment inside a larger decision system.
+      Augustus helps agents find, build, evaluate, and improve systems with decision models.
       TypeSafe Jev Choice/Score/Noul is the default hosted exemplar; code,
       policy, and people keep ownership of exact work and consequential action.
     </p>
@@ -50,12 +50,12 @@ page_class: home
 <section class="section" aria-labelledby="what-title">
   <div class="section-head">
     <p class="kicker">What it is</p>
-    <h2 id="what-title">A design skill for bounded judgment</h2>
+    <h2 id="what-title">From decision models to working systems and evals</h2>
     <p>
       Named for Augustus De Morgan, the skill frames decisions across software,
       business, organizations, and everyday life. It connects evidence to a
-      narrow judgment, makes policy and authority visible, and checks the
-      resulting action. The model may rank, score, or classify; exact
+      narrow judgment, implements a testable composition, and improves it
+      against observed outcomes. The model may rank, score, or classify; exact
       computation, permissions, side effects, and final accountability remain
       with code or people.
     </p>
@@ -76,7 +76,7 @@ page_class: home
     <h2 id="install-title">Install the skill</h2>
     <p>
       Use the marketplace with Claude Code, or add the skill to any compatible
-      agent. The current release is 0.6.0.
+      agent. The current release is 0.7.0.
       These commands follow the default branch; review the installed version
       before relying on it. The skill itself needs no API key. Calling a hosted
       model is a separate, optional integration.
@@ -102,7 +102,8 @@ claude plugin install augustus@augustus</code></pre>
     <p>After installation, ask: “Use Augustus to audit our refund-email workflow.
       Find one useful classifier insertion, keep eligibility and payments in
       code, and propose a test that could reject the change.”</p>
-    <p>Expect a compact design card, not a new system by default.
+    <p>Advice yields a design card; build requests yield working policy and evals;
+      improvement requests yield a bounded, outcome-tested iteration loop.
       <a href="{{ '/examples.html' | relative_url }}">Read two worked examples</a>
       or <a href="https://github.com/24601/Augustus/issues/new/choose">report a confusing recommendation</a>.
       A parser, checklist, or no new model can be the right answer.</p>
@@ -180,5 +181,5 @@ claude plugin install augustus@augustus</code></pre>
       </a>
     </li>
   </ul>
-  <p class="meta-line">Current release 0.6.0 · <a href="{{ '/release-notes-v0.6.0.html' | relative_url }}">Release notes</a>.</p>
+  <p class="meta-line">Current release 0.7.0 · <a href="{{ '/release-notes-v0.7.0.html' | relative_url }}">Release notes</a>.</p>
 </section>

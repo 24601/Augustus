@@ -127,6 +127,12 @@ def classify(
     if stored_id != observed_id:
         raise ValueError("stored and observed ids differ; refusing cross-source diff")
 
+    for name, record in (("stored", stored), ("observed", observed)):
+        if "node_id" in record and (not isinstance(record["node_id"], str) or not record["node_id"]):
+            raise ValueError(f"{name} node_id must be a non-empty string when present")
+    if "node_id" in stored and "node_id" in observed and stored["node_id"] != observed["node_id"]:
+        raise ValueError("stored and observed node_id values differ; refusing cross-source diff")
+
     before = _fp(stored)
     after = _fp(observed)
     fingerprint_reasons = [
@@ -180,12 +186,12 @@ def load_store(path: Path | None = None) -> dict[str, Any]:
     """Validate every persisted fingerprint record without pinning its values."""
     source = path or STORE
     try:
-        data = json.loads(source.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError) as exc:
+        data = _read_json(source)
+    except (OSError, ValueError, RecursionError) as exc:
         raise ValueError(f"cannot read fingerprint store: {exc}") from exc
     if not isinstance(data, dict):
         raise ValueError("store must be a JSON object")
-    if data.get("schema_version") != 1:
+    if type(data.get("schema_version")) is not int or data["schema_version"] != 1:
         raise ValueError("store schema_version must be 1")
     if data.get("stored_fields") != list(STORED_FIELDS):
         raise ValueError("store stored_fields mismatch")
@@ -213,6 +219,19 @@ def load_store(path: Path | None = None) -> dict[str, Any]:
                     f"look {look_id} description_hash is a README SHA prefix, not a description hash"
                 )
     return data
+
+
+def _read_json(path: Path) -> Any:
+    return json.loads(path.read_text(encoding="utf-8"), object_pairs_hook=_unique_object)
+
+
+def _unique_object(pairs: list[tuple[str, Any]]) -> dict[str, Any]:
+    result: dict[str, Any] = {}
+    for key, value in pairs:
+        if key in result:
+            raise ValueError(f"duplicate JSON key {key!r}")
+        result[key] = value
+    return result
 
 
 def _synthetic_record(**overrides: Any) -> dict[str, Any]:
@@ -271,11 +290,11 @@ def main() -> int:
         return 0
     if args.classify:
         try:
-            stored = json.loads(Path(args.classify[0]).read_text(encoding="utf-8"))
-            observed = json.loads(Path(args.classify[1]).read_text(encoding="utf-8"))
+            stored = _read_json(Path(args.classify[0]))
+            observed = _read_json(Path(args.classify[1]))
             signals = tuple(signal.strip() for signal in args.material.split(",") if signal.strip())
             result = classify(stored, observed, material_signals=signals)
-        except (OSError, ValueError, json.JSONDecodeError) as exc:
+        except (OSError, ValueError, RecursionError) as exc:
             parser.error(str(exc))
         print(json.dumps(result, indent=2))
         return 0

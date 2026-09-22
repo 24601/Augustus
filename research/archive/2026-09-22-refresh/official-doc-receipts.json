@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "purpose": "Fresh digest receipts collected after the Astra provenance finding. These are not captures of the earlier 15:30-16:05 inspection; bodies are not archived. They identify later fetched mutable primary documents, not an immutable historical snapshot.",
+  "discovered_via": "https://docs.typesafe.ai/llms.txt",
+  "documents": [
+    {
+      "url": "https://docs.typesafe.ai/models.md",
+      "final_url": "https://docs.typesafe.ai/models.md",
+      "retrieved_at": "2026-09-22T16:28:57.991482+00:00",
+      "http_status": 200,
+      "content_type": "text/markdown; charset=utf-8",
+      "sha256": "9d20bb3c90a0147532d0b20ddc4c64579391be7842e965543b27bad684eeb4d6",
+      "bytes": 7245
+    },
+    {
+      "url": "https://docs.typesafe.ai/confidence.md",
+      "final_url": "https://docs.typesafe.ai/confidence.md",
+      "retrieved_at": "2026-09-22T16:28:58.517016+00:00",
+      "http_status": 200,
+      "content_type": "text/markdown; charset=utf-8",
+      "sha256": "97dafe98b77979906a2ad456013dd85a70dcecd109d0644b096817d910997ea5",
+      "bytes": 11396
+    },
+    {
+      "url": "https://docs.typesafe.ai/model-jaggedness/jev-1.13.md",
+      "final_url": "https://docs.typesafe.ai/model-jaggedness/jev-1.13.md",
+      "retrieved_at": "2026-09-22T16:28:59.043203+00:00",
+      "http_status": 200,
+      "content_type": "text/markdown; charset=utf-8",
+      "sha256": "e69329bd32e91ac08f0bd2681ceb4aacc34923b9190e29c15c8f75d8e22950e2",
+      "bytes": 11588
+    },
+    {
+      "url": "https://docs.typesafe.ai/sdk/python/changelog.md",
+      "final_url": "https://docs.typesafe.ai/sdk/python/changelog.md",
+      "retrieved_at": "2026-09-22T16:28:59.610225+00:00",
+      "http_status": 200,
+      "content_type": "text/markdown; charset=utf-8",
+      "sha256": "47c90969dd76a83271c82650e0f4cfcea86db8ca0d9820ee8334eecc388162c5",
+      "bytes": 1828
+    },
+    {
+      "url": "https://docs.typesafe.ai/primitives/noul.md",
+      "final_url": "https://docs.typesafe.ai/primitives/noul.md",
+      "retrieved_at": "2026-09-22T16:29:00.612312+00:00",
+      "http_status": 200,
+      "content_type": "text/markdown; charset=utf-8",
+      "sha256": "aa7bff0d04bd42614e0e851a9ad4917ccc6287c882bc5dece7689b085ef789e6",
+      "bytes": 27363
+    }
+  ]
+}
