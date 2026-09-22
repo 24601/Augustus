@@ -1,3 +1,18 @@
+## Hourly 1751 HIGH (notes.md §157 / items 885-900 / batch #137)
+
+- Folded onto post-#82 `main` (`d459b52`). hourly 1653 §156 is on main.
+  This fold is §157 only. Do not reclaim §147 through §156.
+  **HARD RULE:** do not reopen or amend PR #23 through #82.
+  Does not bump 0.5.0 or 0.5.1. Skip Archer. `invented_signal: false`.
+- PRIMARY: nokia-applied-research/AnyJev is MorrisZJ/AnyJev, same GitHub
+  id. Densify §151. L0 is not calibration. Release v0.0.2. The README
+  status line still says v0.0.1. HAR5HA-7663/hunch: code verifies the
+  click. 153 ms and 24/24 are *theirs*, not Harbor. min-conf 0.75 still soft.
+- REVISIT densify: cedrecs/jev-stories §153. Picks never change the
+  outcome. lee-lou2/jev-tree §127. Recommended 0.65, alternative 0.40,
+  abstain 0.30 still soft. Do not mint a sibling first sighting.
+- Uniqueness lock lives in `research/notes.md` and `uniqueness_gate.py` only.
+
 ## Hourly 1653 HIGH (notes.md §156 / items 869-884 / batch #136)
 
 - Folded onto post-#81 `main` (`3e3fa42`). hourly 1556 §154 and
