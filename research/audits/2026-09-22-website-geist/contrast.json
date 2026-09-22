@@ -1,0 +1,65 @@
+{
+  "method": "WCAG relative luminance, opaque sRGB token pairs; excludes decorative rules and anti-aliasing.",
+  "pairs": [
+    {
+      "name": "light primary",
+      "foreground": "#171717",
+      "background": "#ffffff",
+      "ratio": 17.928
+    },
+    {
+      "name": "light secondary",
+      "foreground": "#626262",
+      "background": "#ffffff",
+      "ratio": 6.1
+    },
+    {
+      "name": "light secondary on surface",
+      "foreground": "#626262",
+      "background": "#fafafa",
+      "ratio": 5.844
+    },
+    {
+      "name": "light secondary on judgment",
+      "foreground": "#626262",
+      "background": "#f4f4f4",
+      "ratio": 5.546
+    },
+    {
+      "name": "light action",
+      "foreground": "#ffffff",
+      "background": "#171717",
+      "ratio": 17.928
+    },
+    {
+      "name": "dark primary",
+      "foreground": "#ededed",
+      "background": "#0a0a0a",
+      "ratio": 16.911
+    },
+    {
+      "name": "dark secondary",
+      "foreground": "#a1a1a1",
+      "background": "#0a0a0a",
+      "ratio": 7.663
+    },
+    {
+      "name": "dark secondary on surface",
+      "foreground": "#a1a1a1",
+      "background": "#111111",
+      "ratio": 7.309
+    },
+    {
+      "name": "dark secondary on judgment",
+      "foreground": "#a1a1a1",
+      "background": "#171717",
+      "ratio": 6.939
+    },
+    {
+      "name": "dark action",
+      "foreground": "#0a0a0a",
+      "background": "#ededed",
+      "ratio": 16.911
+    }
+  ]
+}

@@ -21,7 +21,7 @@ refunds above confidence 0.9. Some emails omit order IDs. Audit the design.”
 | Concern | Recommendation |
 | --- | --- |
 | Useful judgment | Identify refund intent; extract an order ID only if it is actually present. |
-| Candidate/evidence gap | An absent ID needs authenticated lookup or a question to the customer, not a more confident guess. |
+| Candidate / evidence gap | An absent ID needs authenticated lookup or a question to the customer, not a more confident guess. |
 | Exact work | Check ownership, eligibility, amounts, prior refunds, permissions, and idempotency in code. |
 | Authority | An approved policy decides which refunds may execute. A model score does not grant permission. |
 | Failure | Missing target, stale state, no match, malformed output, and provider failure hold the refund. |

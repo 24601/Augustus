@@ -26,12 +26,14 @@ class SiteCheckTests(unittest.TestCase):
         self.write_page(site, "index.html", "Home", "home", '<a href="#detail">Details</a><p id="detail">Here</p>')
         self.write_page(site, "ecosystem.html", "Ecosystem", "ecosystem", '<a href="/Augustus/assets/site.css">CSS</a>')
         self.write_page(site, "examples.html", "Examples", "examples", "")
+        self.write_page(site, "placements.html", "Placements", "placements", "")
         (site / "robots.txt").write_text("User-agent: *\nSitemap: https://24601.github.io/Augustus/sitemap.xml\n", encoding="utf-8")
         (site / "sitemap.xml").write_text(
             '<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
             "<url><loc>https://24601.github.io/Augustus/</loc></url>"
             "<url><loc>https://24601.github.io/Augustus/ecosystem.html</loc></url>"
             "<url><loc>https://24601.github.io/Augustus/examples.html</loc></url>"
+            "<url><loc>https://24601.github.io/Augustus/placements.html</loc></url>"
             "</urlset>",
             encoding="utf-8",
         )
@@ -40,11 +42,12 @@ class SiteCheckTests(unittest.TestCase):
     def write_page(self, site: Path, name: str, title: str, heading: str, body: str) -> None:
         canonical_path = "/" if name == "index.html" else f"/{name}"
         page = f"""<!doctype html>
-<html><head><title>{title}</title>
+<html lang="en"><head><title>{title}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="canonical" href="https://24601.github.io/Augustus{canonical_path}">
 <meta name="description" content="{title} description">
 <meta property="og:image" content="https://24601.github.io/Augustus/assets/social.png">
-</head><body><main><h1>{heading}</h1>{body}</main></body></html>"""
+</head><body><a href="#main">Skip to content</a><main id="main" tabindex="-1"><h1>{heading}</h1>{body}</main></body></html>"""
         (site / name).write_text(page, encoding="utf-8")
 
     def codes(self, site: Path) -> set[str]:
@@ -111,6 +114,97 @@ class SiteCheckTests(unittest.TestCase):
         sitemap = site / "sitemap.xml"
         sitemap.write_text(sitemap.read_text(encoding="utf-8").replace("ecosystem.html", "missing.html"), encoding="utf-8")
         self.assertEqual({"sitemap-pages", "sitemap-url"}, self.codes(site))
+
+    def test_skip_link_must_precede_and_focus_the_main_landmark(self) -> None:
+        for old, new in (
+            ('tabindex="-1"', ''),
+            ('<a href="#main">Skip to content</a>', ''),
+            ('href="#main"', 'href="#detail"'),
+        ):
+            with self.subTest(old=old):
+                site = self.make_site()
+                page = site / "index.html"
+                page.write_text(page.read_text().replace(old, new))
+                self.assertEqual({"skip-link"}, self.codes(site))
+
+    def test_in_content_link_is_not_a_navigation_bypass(self) -> None:
+        site = self.make_site()
+        page = site / "index.html"
+        link = '<a href="#main">Skip to content</a>'
+        page.write_text(page.read_text().replace(link, '').replace('</main>', link + '</main>'))
+        self.assertEqual({"skip-link"}, self.codes(site))
+
+    def test_pre_region_requires_real_keyboard_access_and_a_name(self) -> None:
+        for attributes, expected in (
+            ('tabindex="0" role="region" aria-label="Install commands"', set()),
+            ('tabindex="0" role="region" aria-labelledby="detail"', set()),
+            ('role="region" aria-label="tabindex=0"', {"code-access"}),
+            ('tabindex="-1" role="region" aria-label="Install"', {"code-access"}),
+            ('tabindex="0" role="region" aria-label=" "', {"code-access"}),
+            ('tabindex="0" role="region" aria-labelledby="missing"', {"code-access"}),
+        ):
+            with self.subTest(attributes=attributes):
+                site = self.make_site()
+                page = site / "index.html"
+                page.write_text(page.read_text().replace('</main>', f'<pre {attributes}><code>example</code></pre></main>'))
+                self.assertEqual(expected, self.codes(site))
+
+    def test_language_and_zoom_are_checked_independently_of_copy(self) -> None:
+        for old, new, expected in (
+            ('lang="en"', 'lang=" "', {"language"}),
+            ('width=device-width', 'width=1200', {"viewport"}),
+            ('initial-scale=1', 'initial-scale=1, user-scalable=no', {"viewport"}),
+            ('initial-scale=1', 'initial-scale=1, maximum-scale=1', {"viewport"}),
+        ):
+            with self.subTest(new=new):
+                site = self.make_site()
+                page = site / "index.html"
+                page.write_text(page.read_text().replace(old, new))
+                self.assertEqual(expected, self.codes(site))
+
+    def test_scrollable_table_region_requires_keyboard_access_and_a_name(self) -> None:
+        for attributes, expected in (
+            ('tabindex="0" role="region" aria-label="Family comparison"', set()),
+            ('tabindex="0" role="region" aria-labelledby="detail"', set()),
+            ('role="region" aria-label="Family comparison"', {"table-access"}),
+            ('tabindex="-1" role="region" aria-label="Family comparison"', {"table-access"}),
+            ('tabindex="0" role="region" aria-label=" "', {"table-access"}),
+            ('tabindex="0" role="region" aria-labelledby="missing"', {"table-access"}),
+        ):
+            with self.subTest(attributes=attributes):
+                site = self.make_site()
+                page = site / "index.html"
+                block = f'<div class="comparison table-scroll" {attributes}><table><tr><th>Family</th></tr></table></div>'
+                page.write_text(page.read_text().replace('</main>', block + '</main>'))
+                self.assertEqual(expected, self.codes(site))
+
+    def test_scrollable_table_class_is_a_token_not_a_substring(self) -> None:
+        site = self.make_site()
+        page = site / "index.html"
+        page.write_text(page.read_text().replace('</main>', '<div class="not-table-scroll">Ordinary content</div></main>'))
+        self.assertEqual(set(), self.codes(site))
+
+
+    def test_duplicate_attributes_cannot_hide_a_broken_code_region(self) -> None:
+        site = self.make_site()
+        page = site / "index.html"
+        page.write_text(page.read_text().replace('</main>', '<pre tabindex="-1" tabindex="0" role="region" aria-label="Install">example</pre></main>'))
+        self.assertEqual({"duplicate-attribute"}, self.codes(site))
+
+    def test_code_regions_have_distinct_explicit_names_on_each_page(self) -> None:
+        site = self.make_site()
+        page = site / "index.html"
+        block = '<pre tabindex="0" role="region" aria-label="Code example">example</pre>'
+        page.write_text(page.read_text().replace('</main>', block + block + '</main>'))
+        self.assertEqual({"code-label"}, self.codes(site))
+        page.write_text(page.read_text().replace('aria-label="Code example"', 'aria-label="Code example 1"', 1))
+        self.assertEqual(set(), self.codes(site))
+
+    def test_viewport_directive_whitespace_is_not_a_mobile_failure(self) -> None:
+        site = self.make_site()
+        page = site / "index.html"
+        page.write_text(page.read_text().replace('width=device-width', 'width = device-width'))
+        self.assertEqual(set(), self.codes(site))
 
 
 if __name__ == "__main__":

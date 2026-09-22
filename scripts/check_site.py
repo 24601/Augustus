@@ -9,6 +9,7 @@ parse CSS URLs, inspect HTTP headers, or validate origin-level crawler policy.
 from __future__ import annotations
 
 import argparse
+from collections import Counter
 from dataclasses import dataclass
 from html.parser import HTMLParser
 from pathlib import Path
@@ -22,7 +23,7 @@ import xml.etree.ElementTree as ET
 
 DEFAULT_SITE_URL = "https://24601.github.io"
 DEFAULT_BASE_URL = "/Augustus"
-REQUIRED_PAGES = ("index.html", "ecosystem.html", "examples.html")
+REQUIRED_PAGES = ("index.html", "ecosystem.html", "examples.html", "placements.html")
 
 
 @dataclass(frozen=True)
@@ -42,9 +43,16 @@ class PageParser(HTMLParser):
         self.title_text: list[str] = []
         self._in_title = False
         self.main_count = 0
+        self.main_attributes: list[dict[str, str]] = []
+        self.skip_targets: list[str] = []
+        self.code_regions: list[dict[str, str]] = []
+        self.table_regions: list[dict[str, str]] = []
+        self.languages: list[str] = []
+        self.viewports: list[str] = []
         self.h1_count = 0
         self.ids: set[str] = set()
         self.duplicate_ids: set[str] = set()
+        self.duplicate_attributes: list[tuple[str, str]] = []
         self.canonicals: list[str] = []
         self.descriptions: list[str] = []
         self.og_images: list[str] = []
@@ -54,11 +62,26 @@ class PageParser(HTMLParser):
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         attrs_by_name = {name.lower(): value or "" for name, value in attrs}
         lowered = tag.lower()
+        for name, count in Counter(name.lower() for name, _ in attrs).items():
+            if count > 1:
+                self.duplicate_attributes.append((lowered, name))
+        if lowered == "html":
+            self.languages.append(attrs_by_name.get("lang", ""))
+        if lowered == "a" and not self.main_count:
+            # A pre-main fragment link must target the focusable main landmark.
+            href = attrs_by_name.get("href", "")
+            if href.startswith("#"):
+                self.skip_targets.append(unquote(href[1:]))
+        if lowered == "pre":
+            self.code_regions.append(attrs_by_name)
+        if "table-scroll" in attrs_by_name.get("class", "").split():
+            self.table_regions.append(attrs_by_name)
         if lowered == "title":
             self.title_count += 1
             self._in_title = True
         elif lowered == "main":
             self.main_count += 1
+            self.main_attributes.append(attrs_by_name)
         elif lowered == "h1":
             self.h1_count += 1
         if "id" in attrs_by_name:
@@ -69,6 +92,8 @@ class PageParser(HTMLParser):
         if lowered == "link" and "canonical" in attrs_by_name.get("rel", "").lower().split():
             self.canonicals.append(attrs_by_name.get("href", ""))
         if lowered == "meta":
+            if attrs_by_name.get("name", "").lower() == "viewport":
+                self.viewports.append(attrs_by_name.get("content", ""))
             if attrs_by_name.get("name", "").lower() == "description":
                 self.descriptions.append(attrs_by_name.get("content", ""))
             if attrs_by_name.get("property", "").lower() == "og:image":
@@ -184,10 +209,47 @@ def validate_html_pages(site_dir: Path, site_url: str, base_url: str) -> list[Is
             issues.append(Issue(relative, "noindex", f"public page blocks indexing: {directive}"))
         if parser.main_count != 1:
             issues.append(Issue(relative, "main", f"expected one <main>, found {parser.main_count}"))
+        elif (
+            not parser.main_attributes[0].get("id")
+            or parser.main_attributes[0]["id"] not in parser.skip_targets
+            or parser.main_attributes[0].get("tabindex") != "-1"
+        ):
+            issues.append(Issue(relative, "skip-link", "expected a pre-main link to the main landmark with tabindex=-1"))
+        if len(parser.languages) != 1 or not parser.languages[0].strip():
+            issues.append(Issue(relative, "language", "expected one html element with a non-empty lang"))
+        viewport = dict(
+            tuple(part.strip().lower() for part in directive.split("=", 1))
+            for directive in (parser.viewports[0].split(",") if len(parser.viewports) == 1 else [])
+            if "=" in directive
+        )
+        if (
+            viewport.get("width") != "device-width"
+            or viewport.get("user-scalable") in {"no", "0"}
+            or "maximum-scale" in viewport
+        ):
+            issues.append(Issue(relative, "viewport", "expected width=device-width without restricting user zoom"))
+        code_labels: set[str] = set()
+        for attributes in parser.code_regions:
+            labels = attributes.get("aria-labelledby", "").split()
+            name = attributes.get("aria-label", "").strip()
+            has_name = bool(name) or bool(labels and all(label in parser.ids for label in labels))
+            if attributes.get("tabindex") != "0" or attributes.get("role") != "region" or not has_name:
+                issues.append(Issue(relative, "code-access", "scrollable pre must be a named region in the keyboard tab order"))
+            if name and name in code_labels:
+                issues.append(Issue(relative, "code-label", f"repeated code-region aria-label: {name}"))
+            code_labels.add(name)
+        for attributes in parser.table_regions:
+            labels = attributes.get("aria-labelledby", "").split()
+            name = attributes.get("aria-label", "").strip()
+            has_name = bool(name) or bool(labels and all(label in parser.ids for label in labels))
+            if attributes.get("tabindex") != "0" or attributes.get("role") != "region" or not has_name:
+                issues.append(Issue(relative, "table-access", "scrollable table container must be a named region in the keyboard tab order"))
         if parser.h1_count != 1:
             issues.append(Issue(relative, "h1", f"expected one <h1>, found {parser.h1_count}"))
         for element_id in sorted(parser.duplicate_ids):
             issues.append(Issue(relative, "duplicate-id", f"duplicate id: {element_id}"))
+        for tag, attribute in parser.duplicate_attributes:
+            issues.append(Issue(relative, "duplicate-attribute", f"duplicate {attribute} on <{tag}>"))
 
     for current, parser in parsed_pages.items():
         relative = current.relative_to(site_dir)

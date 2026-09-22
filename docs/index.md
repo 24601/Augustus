@@ -5,181 +5,118 @@ permalink: /
 page_class: home
 ---
 
-<section class="hero" aria-labelledby="hero-title">
-  <div>
-    <p class="kicker hero-reveal" style="--d: 0ms">Version 0.7.0</p>
-    <h1 id="hero-title" class="hero-title">
-      <span class="line hero-reveal" style="--d: 50ms">Place judgment.</span>
-      <span class="line hero-reveal" style="--d: 110ms">Keep authority explicit.</span>
-    </h1>
-    <p class="lede hero-reveal" style="--d: 180ms">
-      Augustus helps agents find, build, evaluate, and improve systems with decision models.
-      TypeSafe Jev Choice/Score/Noul is the default hosted exemplar; code,
-      policy, and people keep ownership of exact work and consequential action.
-    </p>
-    <div class="cta-row hero-reveal" style="--d: 250ms">
-      <a class="btn btn-primary" href="https://github.com/24601/Augustus#install">Install the skill</a>
-      <a class="btn btn-ghost" href="{{ '/examples.html' | relative_url }}">See an example</a>
-      <a class="btn btn-ghost" href="{{ '/ecosystem.html' | relative_url }}">Ecosystem</a>
+<section class="opening" aria-labelledby="hero-title">
+  <div class="opening-meta">
+    <p class="opening-context">An open-source skill for agents</p>
+    <a class="release-link" href="{{ '/release-notes-v0.7.0.html' | relative_url }}">v0.7.0 <span aria-hidden="true">↗</span></a>
+  </div>
+  <h1 id="hero-title">Decision models,<br class="desktop-break"> put to work.</h1>
+  <div class="opening-bottom">
+    <p class="lede">Give your agent the methods to find a useful judgment,
+      build the policy and evals around it, and improve against real outcomes.</p>
+    <div class="opening-actions">
+      <a class="button" href="#install">Install Augustus <span aria-hidden="true">↓</span></a>
+      <a href="{{ '/examples.html' | relative_url }}">Read a worked example</a>
     </div>
   </div>
-  <aside class="hero-card panel hero-reveal" style="--d: 320ms" aria-hidden="true">
-    <p class="hero-card-label">Placement</p>
-    <div class="skel-row">
-      <span class="skel-bar skel-bar-short"></span>
-      <span class="skel-bar"></span>
-    </div>
-    <div class="skel-row skel-row-active">
-      <span class="token">Choice</span>
-      <span class="skel-bar skel-bar-mid"></span>
-    </div>
-    <div class="skel-row">
-      <span class="token">Score</span>
-      <span class="skel-bar skel-bar-short"></span>
-    </div>
-    <div class="skel-row">
-      <span class="token">Noul</span>
-      <span class="skel-bar skel-bar-mid"></span>
-    </div>
-  </aside>
+  <span class="registration" aria-hidden="true"></span>
+  <span class="registration registration-end" aria-hidden="true"></span>
 </section>
 
 {% include comparison.html %}
-{% include recipes.html %}
 
-<section class="section" aria-labelledby="what-title">
-  <div class="section-head">
-    <p class="kicker">What it is</p>
-    <h2 id="what-title">From decision models to working systems and evals</h2>
-    <p>
-      Named for Augustus De Morgan, the skill frames decisions across software,
-      business, organizations, and everyday life. It connects evidence to a
-      narrow judgment, implements a testable composition, and improves it
-      against observed outcomes. The model may rank, score, or classify; exact
-      computation, permissions, side effects, and final accountability remain
-      with code or people.
-    </p>
-    <p>
-      Start with the
-      <a href="https://github.com/24601/Augustus/blob/main/.agents/skills/augustus/SKILL.md">primary skill</a>
-      and its focused references. The
-      <a href="https://github.com/24601/Augustus/tree/main/research">research archive</a>
-      preserves broader history and evidence without expanding the runtime
-      instructions. Augustus is an independent project, not a TypeSafe product.
-    </p>
+<section class="working-index" id="recipes" aria-labelledby="recipes-title">
+  <div class="index-intro">
+    <p class="section-index">/02 — Applications</p>
+    <h2 id="recipes-title">Bring a decision.<br class="wide-break"> Leave with a system.</h2>
+    <p>Augustus is a skill and method engine, not a hosted runtime. Agents use it
+      across software, business, organizations, and everyday decisions.</p>
+    <p>Advice produces a design card. Build requests produce working policy and
+      evals. Improvement requests produce a bounded, outcome-tested iteration.</p>
+    <a href="{{ '/placements.html' | relative_url }}">Explore six model placements</a>
   </div>
+  <dl class="task-index">
+    <div>
+      <dt>Route, rank, or classify</dt>
+      <dd>Put a narrow judgment inside a workflow whose permissions, exact work,
+        and fallback remain explicit.</dd>
+    </div>
+    <div>
+      <dt>Build an evaluation</dt>
+      <dd>Define the baseline, error costs, held-out cases, and a test that could
+        reject the proposed change.</dd>
+    </div>
+    <div>
+      <dt>Improve a Software 3.0 system</dt>
+      <dd>Compose decision models, run bounded prompt or program hill climbing,
+        and confirm gains on protected evidence.</dd>
+    </div>
+    <div>
+      <dt>Make a human tradeoff legible</dt>
+      <dd>Connect uncertain evidence to explicit criteria and constraints.
+        Keep values and the final decision with people.</dd>
+    </div>
+  </dl>
 </section>
 
-<section class="section" aria-labelledby="install-title">
-  <div class="section-head">
-    <p class="kicker">Install</p>
-    <h2 id="install-title">Install the skill</h2>
-    <p>
-      Use the marketplace with Claude Code, or add the skill to any compatible
-      agent. The current release is 0.7.0.
-      These commands follow the default branch; review the installed version
-      before relying on it. The skill itself needs no API key. Calling a hosted
-      model is a separate, optional integration.
-    </p>
+<aside class="useful-no" aria-labelledby="no-title">
+  <h2 id="no-title">Sometimes the right model is no model.</h2>
+  <p>If validated dates settle whether an invoice is late, compare dates in code.
+    A parser, checklist, or existing human process can be the better design.</p>
+</aside>
+
+<section class="installation" id="install" aria-labelledby="install-title">
+  <div class="installation-intro">
+    <p class="section-index">/03 — Installation</p>
+    <h2 id="install-title">Put it in your agent’s hands.</h2>
+    <p>The skill needs no API key. Calling a hosted model is a separate,
+      optional integration.</p>
+    <p>Current release: <a href="{{ '/release-notes-v0.7.0.html' | relative_url }}">0.7.0</a>.
+      These commands follow the default branch; check the installed version
+      before relying on it.</p>
   </div>
-  <div class="install-grid">
-    <div class="install-card panel">
-      <h3>Claude Code</h3>
-<pre><code>claude plugin marketplace add 24601/Augustus
+  <div class="install-options">
+    <section aria-labelledby="claude-install">
+      <h3 id="claude-install">Claude Code</h3>
+<pre tabindex="0" role="region" aria-label="Claude Code installation commands"><code>claude plugin marketplace add 24601/Augustus
+
 claude plugin install augustus@augustus</code></pre>
-    </div>
-    <div class="install-card panel">
-      <h3>skills.sh / npx</h3>
-<pre><code>npx skills add 24601/Augustus --skill augustus</code></pre>
-    </div>
+    </section>
+    <section aria-labelledby="skills-install">
+      <h3 id="skills-install">Other compatible agents</h3>
+<pre tabindex="0" role="region" aria-label="Skills CLI installation command"><code>npx skills add 24601/Augustus --skill augustus</code></pre>
+    </section>
+    <p class="install-help"><a href="https://github.com/24601/Augustus#install">All installation options and version checks</a></p>
   </div>
 </section>
 
-<section class="section" aria-labelledby="try-title">
-  <div class="section-head">
-    <p class="kicker">First useful result</p>
-    <h2 id="try-title">Bring one real workflow</h2>
-    <p>After installation, ask: “Use Augustus to audit our refund-email workflow.
-      Find one useful classifier insertion, keep eligibility and payments in
-      code, and propose a test that could reject the change.”</p>
-    <p>Advice yields a design card; build requests yield working policy and evals;
-      improvement requests yield a bounded, outcome-tested iteration loop.
-      <a href="{{ '/examples.html' | relative_url }}">Read two worked examples</a>
-      or <a href="https://github.com/24601/Augustus/issues/new/choose">report a confusing recommendation</a>.
-      A parser, checklist, or no new model can be the right answer.</p>
-  </div>
+<section class="first-prompt" aria-labelledby="try-title">
+  <p class="section-index">/04 — First prompt</p>
+  <h2 id="try-title">Start with one real workflow.</h2>
+  <blockquote>
+    <p>Use Augustus to audit our refund-email workflow. Test whether a classifier
+      helps, keep eligibility and payments in code, and build an eval that could
+      reject the change. Keep the current baseline if it works better.</p>
+  </blockquote>
+  <p>Bring your evidence, constraints, and current baseline.
+    <a href="{{ '/examples.html' | relative_url }}">See the expected design card</a>
+    or <a href="https://github.com/24601/Augustus/issues/new/choose">report a confusing recommendation</a>.</p>
 </section>
 
-<section class="section" aria-labelledby="pillars-title">
-  <div class="section-head">
-    <p class="kicker">Working method</p>
-    <h2 id="pillars-title">Four moves from question to outcome</h2>
-    <p>
-      Keep each move small enough to inspect. Use evidence from the intended
-      workflow, including ordinary, ambiguous, and adverse cases.
-    </p>
+<section class="reading" aria-labelledby="companions-title">
+  <div>
+    <p class="section-index">/05 — Reference</p>
+    <h2 id="companions-title">The method stays inspectable.</h2>
+    <p>Mathematical and scientific methods provide structure; real outcomes decide
+      which compositions survive. Research is evidence to reason from, not a
+      catalog to imitate.</p>
+    <p>TypeSafe Jev Choice/Score/Noul is the default hosted exemplar, not the whole
+      class. Augustus is an independent project, not a TypeSafe product.</p>
   </div>
-  <div class="card-grid">
-    <article class="card panel">
-      <p class="kicker">Frame</p>
-      <h3>Name the decision</h3>
-      <p>
-        Define the desired behavior, current baseline, available evidence, and
-        cost of each kind of error.
-      </p>
-    </article>
-    <article class="card panel">
-      <p class="kicker">Place</p>
-      <h3>Assign the narrow judgment</h3>
-      <p>
-        Choose a family whose output semantics fit the action, and keep exact
-        rules, calculations, and transformations in deterministic code.
-      </p>
-    </article>
-    <article class="card panel">
-      <p class="kicker">Govern</p>
-      <h3>Make policy and authority explicit</h3>
-      <p>
-        Specify thresholds or bands, fallback behavior, permissions, human
-        review, and the checks that run before an effect occurs.
-      </p>
-    </article>
-    <article class="card panel">
-      <p class="kicker">Validate</p>
-      <h3>Measure the workflow outcome</h3>
-      <p>
-        Test held-out cases, compare with a simpler baseline, inspect failures,
-        and record whether the checked action improved the real outcome.
-      </p>
-    </article>
-  </div>
-</section>
-
-<section class="section" aria-labelledby="companions-title">
-  <div class="section-head">
-    <p class="kicker">Resources</p>
-    <h2 id="companions-title">Contracts, method, and evidence</h2>
-    <p>Use current contracts for implementation and project evidence for design choices.</p>
-  </div>
-  <ul class="companion-list">
-    <li>
-      <a class="panel" href="https://github.com/typesafe-ai/skills">
-        <strong>TypeSafe skills</strong>
-        <span>Current Jev integration contracts and usage guidance.</span>
-      </a>
-    </li>
-    <li>
-      <a class="panel" href="https://github.com/24601/Augustus/tree/main/.agents/skills/augustus/references">
-        <strong>Augustus references</strong>
-        <span>Focused guidance for class selection, boundaries, and validation.</span>
-      </a>
-    </li>
-    <li>
-      <a class="panel" href="{{ '/ecosystem.html' | relative_url }}">
-        <strong>Ecosystem and archive</strong>
-        <span>A navigable family map with evidence labels and historical research.</span>
-      </a>
-    </li>
+  <ul class="reading-links">
+    <li><a href="https://github.com/24601/Augustus/blob/main/.agents/skills/augustus/SKILL.md">Read the skill</a><span>The agent’s entry point</span></li>
+    <li><a href="https://github.com/24601/Augustus/tree/main/.agents/skills/augustus/references">Methods and composition</a><span>Focused implementation guidance</span></li>
+    <li><a href="{{ '/ecosystem.html' | relative_url }}">Decision-model ecosystem</a><span>Families, contracts, and evidence</span></li>
+    <li><a href="https://github.com/24601/Augustus/tree/main/research">Research archive</a><span>Sources, revisions, and reassessment</span></li>
   </ul>
-  <p class="meta-line">Current release 0.7.0 · <a href="{{ '/release-notes-v0.7.0.html' | relative_url }}">Release notes</a>.</p>
 </section>

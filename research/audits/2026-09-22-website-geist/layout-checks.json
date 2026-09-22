@@ -1,0 +1,666 @@
+[
+  {
+    "theme": "light",
+    "path": "",
+    "requestedWidth": 320,
+    "requestedHeight": 1000,
+    "canvas": "rgb(255, 255, 255)",
+    "codeRegions": [
+      {
+        "name": "Claude Code installation commands",
+        "scrollWidth": 252,
+        "width": 252
+      },
+      {
+        "name": "Skills CLI installation command",
+        "scrollWidth": 252,
+        "width": 252
+      }
+    ],
+    "documentWidth": 320,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 320
+  },
+  {
+    "theme": "light",
+    "path": "",
+    "requestedWidth": 390,
+    "requestedHeight": 1000,
+    "canvas": "rgb(255, 255, 255)",
+    "codeRegions": [
+      {
+        "name": "Claude Code installation commands",
+        "scrollWidth": 322,
+        "width": 322
+      },
+      {
+        "name": "Skills CLI installation command",
+        "scrollWidth": 322,
+        "width": 322
+      }
+    ],
+    "documentWidth": 390,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 390
+  },
+  {
+    "theme": "light",
+    "path": "",
+    "requestedWidth": 768,
+    "requestedHeight": 1000,
+    "canvas": "rgb(255, 255, 255)",
+    "codeRegions": [
+      {
+        "name": "Claude Code installation commands",
+        "scrollWidth": 667,
+        "width": 667
+      },
+      {
+        "name": "Skills CLI installation command",
+        "scrollWidth": 667,
+        "width": 667
+      }
+    ],
+    "documentWidth": 768,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 768
+  },
+  {
+    "theme": "light",
+    "path": "",
+    "requestedWidth": 1440,
+    "requestedHeight": 1000,
+    "canvas": "rgb(255, 255, 255)",
+    "codeRegions": [
+      {
+        "name": "Claude Code installation commands",
+        "scrollWidth": 642,
+        "width": 642
+      },
+      {
+        "name": "Skills CLI installation command",
+        "scrollWidth": 642,
+        "width": 642
+      }
+    ],
+    "documentWidth": 1440,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 1440
+  },
+  {
+    "theme": "light",
+    "path": "placements.html",
+    "requestedWidth": 320,
+    "requestedHeight": 1000,
+    "canvas": "rgb(255, 255, 255)",
+    "codeRegions": [],
+    "documentWidth": 320,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 320
+  },
+  {
+    "theme": "light",
+    "path": "placements.html",
+    "requestedWidth": 390,
+    "requestedHeight": 1000,
+    "canvas": "rgb(255, 255, 255)",
+    "codeRegions": [],
+    "documentWidth": 390,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 390
+  },
+  {
+    "theme": "light",
+    "path": "placements.html",
+    "requestedWidth": 768,
+    "requestedHeight": 1000,
+    "canvas": "rgb(255, 255, 255)",
+    "codeRegions": [],
+    "documentWidth": 768,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 768
+  },
+  {
+    "theme": "light",
+    "path": "placements.html",
+    "requestedWidth": 1440,
+    "requestedHeight": 1000,
+    "canvas": "rgb(255, 255, 255)",
+    "codeRegions": [],
+    "documentWidth": 1440,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 1440
+  },
+  {
+    "theme": "light",
+    "path": "examples.html",
+    "requestedWidth": 320,
+    "requestedHeight": 1000,
+    "canvas": "rgb(255, 255, 255)",
+    "codeRegions": [],
+    "documentWidth": 320,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 320
+  },
+  {
+    "theme": "light",
+    "path": "examples.html",
+    "requestedWidth": 390,
+    "requestedHeight": 1000,
+    "canvas": "rgb(255, 255, 255)",
+    "codeRegions": [],
+    "documentWidth": 390,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 390
+  },
+  {
+    "theme": "light",
+    "path": "examples.html",
+    "requestedWidth": 768,
+    "requestedHeight": 1000,
+    "canvas": "rgb(255, 255, 255)",
+    "codeRegions": [],
+    "documentWidth": 768,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 768
+  },
+  {
+    "theme": "light",
+    "path": "examples.html",
+    "requestedWidth": 1440,
+    "requestedHeight": 1000,
+    "canvas": "rgb(255, 255, 255)",
+    "codeRegions": [],
+    "documentWidth": 1440,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 1440
+  },
+  {
+    "theme": "light",
+    "path": "ecosystem.html",
+    "requestedWidth": 320,
+    "requestedHeight": 1000,
+    "canvas": "rgb(255, 255, 255)",
+    "codeRegions": [],
+    "documentWidth": 320,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [
+      {
+        "name": "Decision-model family comparison",
+        "scrollWidth": 640,
+        "tabindex": "0",
+        "width": 254
+      }
+    ],
+    "width": 320
+  },
+  {
+    "theme": "light",
+    "path": "ecosystem.html",
+    "requestedWidth": 390,
+    "requestedHeight": 1000,
+    "canvas": "rgb(255, 255, 255)",
+    "codeRegions": [],
+    "documentWidth": 390,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [
+      {
+        "name": "Decision-model family comparison",
+        "scrollWidth": 640,
+        "tabindex": "0",
+        "width": 324
+      }
+    ],
+    "width": 390
+  },
+  {
+    "theme": "light",
+    "path": "ecosystem.html",
+    "requestedWidth": 768,
+    "requestedHeight": 1000,
+    "canvas": "rgb(255, 255, 255)",
+    "codeRegions": [],
+    "documentWidth": 768,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [
+      {
+        "name": "Decision-model family comparison",
+        "scrollWidth": 669,
+        "tabindex": "0",
+        "width": 669
+      }
+    ],
+    "width": 768
+  },
+  {
+    "theme": "light",
+    "path": "ecosystem.html",
+    "requestedWidth": 1440,
+    "requestedHeight": 1000,
+    "canvas": "rgb(255, 255, 255)",
+    "codeRegions": [],
+    "documentWidth": 1440,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [
+      {
+        "name": "Decision-model family comparison",
+        "scrollWidth": 900,
+        "tabindex": "0",
+        "width": 900
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "theme": "light",
+    "path": "release-notes-v0.7.0.html",
+    "requestedWidth": 320,
+    "requestedHeight": 1000,
+    "canvas": "rgb(255, 255, 255)",
+    "codeRegions": [],
+    "documentWidth": 320,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 320
+  },
+  {
+    "theme": "light",
+    "path": "release-notes-v0.7.0.html",
+    "requestedWidth": 390,
+    "requestedHeight": 1000,
+    "canvas": "rgb(255, 255, 255)",
+    "codeRegions": [],
+    "documentWidth": 390,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 390
+  },
+  {
+    "theme": "light",
+    "path": "release-notes-v0.7.0.html",
+    "requestedWidth": 768,
+    "requestedHeight": 1000,
+    "canvas": "rgb(255, 255, 255)",
+    "codeRegions": [],
+    "documentWidth": 768,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 768
+  },
+  {
+    "theme": "light",
+    "path": "release-notes-v0.7.0.html",
+    "requestedWidth": 1440,
+    "requestedHeight": 1000,
+    "canvas": "rgb(255, 255, 255)",
+    "codeRegions": [],
+    "documentWidth": 1440,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 1440
+  },
+  {
+    "theme": "dark",
+    "path": "",
+    "requestedWidth": 320,
+    "requestedHeight": 1000,
+    "canvas": "rgb(10, 10, 10)",
+    "codeRegions": [
+      {
+        "name": "Claude Code installation commands",
+        "scrollWidth": 252,
+        "width": 252
+      },
+      {
+        "name": "Skills CLI installation command",
+        "scrollWidth": 252,
+        "width": 252
+      }
+    ],
+    "documentWidth": 320,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 320
+  },
+  {
+    "theme": "dark",
+    "path": "",
+    "requestedWidth": 390,
+    "requestedHeight": 1000,
+    "canvas": "rgb(10, 10, 10)",
+    "codeRegions": [
+      {
+        "name": "Claude Code installation commands",
+        "scrollWidth": 322,
+        "width": 322
+      },
+      {
+        "name": "Skills CLI installation command",
+        "scrollWidth": 322,
+        "width": 322
+      }
+    ],
+    "documentWidth": 390,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 390
+  },
+  {
+    "theme": "dark",
+    "path": "",
+    "requestedWidth": 768,
+    "requestedHeight": 1000,
+    "canvas": "rgb(10, 10, 10)",
+    "codeRegions": [
+      {
+        "name": "Claude Code installation commands",
+        "scrollWidth": 667,
+        "width": 667
+      },
+      {
+        "name": "Skills CLI installation command",
+        "scrollWidth": 667,
+        "width": 667
+      }
+    ],
+    "documentWidth": 768,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 768
+  },
+  {
+    "theme": "dark",
+    "path": "",
+    "requestedWidth": 1440,
+    "requestedHeight": 1000,
+    "canvas": "rgb(10, 10, 10)",
+    "codeRegions": [
+      {
+        "name": "Claude Code installation commands",
+        "scrollWidth": 642,
+        "width": 642
+      },
+      {
+        "name": "Skills CLI installation command",
+        "scrollWidth": 642,
+        "width": 642
+      }
+    ],
+    "documentWidth": 1440,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 1440
+  },
+  {
+    "theme": "dark",
+    "path": "placements.html",
+    "requestedWidth": 320,
+    "requestedHeight": 1000,
+    "canvas": "rgb(10, 10, 10)",
+    "codeRegions": [],
+    "documentWidth": 320,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 320
+  },
+  {
+    "theme": "dark",
+    "path": "placements.html",
+    "requestedWidth": 390,
+    "requestedHeight": 1000,
+    "canvas": "rgb(10, 10, 10)",
+    "codeRegions": [],
+    "documentWidth": 390,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 390
+  },
+  {
+    "theme": "dark",
+    "path": "placements.html",
+    "requestedWidth": 768,
+    "requestedHeight": 1000,
+    "canvas": "rgb(10, 10, 10)",
+    "codeRegions": [],
+    "documentWidth": 768,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 768
+  },
+  {
+    "theme": "dark",
+    "path": "placements.html",
+    "requestedWidth": 1440,
+    "requestedHeight": 1000,
+    "canvas": "rgb(10, 10, 10)",
+    "codeRegions": [],
+    "documentWidth": 1440,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 1440
+  },
+  {
+    "theme": "dark",
+    "path": "examples.html",
+    "requestedWidth": 320,
+    "requestedHeight": 1000,
+    "canvas": "rgb(10, 10, 10)",
+    "codeRegions": [],
+    "documentWidth": 320,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 320
+  },
+  {
+    "theme": "dark",
+    "path": "examples.html",
+    "requestedWidth": 390,
+    "requestedHeight": 1000,
+    "canvas": "rgb(10, 10, 10)",
+    "codeRegions": [],
+    "documentWidth": 390,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 390
+  },
+  {
+    "theme": "dark",
+    "path": "examples.html",
+    "requestedWidth": 768,
+    "requestedHeight": 1000,
+    "canvas": "rgb(10, 10, 10)",
+    "codeRegions": [],
+    "documentWidth": 768,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 768
+  },
+  {
+    "theme": "dark",
+    "path": "examples.html",
+    "requestedWidth": 1440,
+    "requestedHeight": 1000,
+    "canvas": "rgb(10, 10, 10)",
+    "codeRegions": [],
+    "documentWidth": 1440,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 1440
+  },
+  {
+    "theme": "dark",
+    "path": "ecosystem.html",
+    "requestedWidth": 320,
+    "requestedHeight": 1000,
+    "canvas": "rgb(10, 10, 10)",
+    "codeRegions": [],
+    "documentWidth": 320,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [
+      {
+        "name": "Decision-model family comparison",
+        "scrollWidth": 640,
+        "tabindex": "0",
+        "width": 254
+      }
+    ],
+    "width": 320
+  },
+  {
+    "theme": "dark",
+    "path": "ecosystem.html",
+    "requestedWidth": 390,
+    "requestedHeight": 1000,
+    "canvas": "rgb(10, 10, 10)",
+    "codeRegions": [],
+    "documentWidth": 390,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [
+      {
+        "name": "Decision-model family comparison",
+        "scrollWidth": 640,
+        "tabindex": "0",
+        "width": 324
+      }
+    ],
+    "width": 390
+  },
+  {
+    "theme": "dark",
+    "path": "ecosystem.html",
+    "requestedWidth": 768,
+    "requestedHeight": 1000,
+    "canvas": "rgb(10, 10, 10)",
+    "codeRegions": [],
+    "documentWidth": 768,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [
+      {
+        "name": "Decision-model family comparison",
+        "scrollWidth": 669,
+        "tabindex": "0",
+        "width": 669
+      }
+    ],
+    "width": 768
+  },
+  {
+    "theme": "dark",
+    "path": "ecosystem.html",
+    "requestedWidth": 1440,
+    "requestedHeight": 1000,
+    "canvas": "rgb(10, 10, 10)",
+    "codeRegions": [],
+    "documentWidth": 1440,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [
+      {
+        "name": "Decision-model family comparison",
+        "scrollWidth": 900,
+        "tabindex": "0",
+        "width": 900
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "theme": "dark",
+    "path": "release-notes-v0.7.0.html",
+    "requestedWidth": 320,
+    "requestedHeight": 1000,
+    "canvas": "rgb(10, 10, 10)",
+    "codeRegions": [],
+    "documentWidth": 320,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 320
+  },
+  {
+    "theme": "dark",
+    "path": "release-notes-v0.7.0.html",
+    "requestedWidth": 390,
+    "requestedHeight": 1000,
+    "canvas": "rgb(10, 10, 10)",
+    "codeRegions": [],
+    "documentWidth": 390,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 390
+  },
+  {
+    "theme": "dark",
+    "path": "release-notes-v0.7.0.html",
+    "requestedWidth": 768,
+    "requestedHeight": 1000,
+    "canvas": "rgb(10, 10, 10)",
+    "codeRegions": [],
+    "documentWidth": 768,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 768
+  },
+  {
+    "theme": "dark",
+    "path": "release-notes-v0.7.0.html",
+    "requestedWidth": 1440,
+    "requestedHeight": 1000,
+    "canvas": "rgb(10, 10, 10)",
+    "codeRegions": [],
+    "documentWidth": 1440,
+    "h1": 1,
+    "height": 1000,
+    "tableRegions": [],
+    "width": 1440
+  }
+]

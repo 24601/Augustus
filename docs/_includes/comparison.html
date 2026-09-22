@@ -1,67 +1,43 @@
-<section class="section compare" aria-labelledby="compare-title">
-  <div class="section-head">
-    <p class="kicker">Decision design</p>
-    <h2 id="compare-title">From evidence to checked action</h2>
-    <p>
-      Augustus makes the boundary reviewable: what is observed, what remains
-      exact, where bounded judgment helps, and who owns the resulting action.
-    </p>
+<section class="decision-study" aria-labelledby="compare-title">
+  <header class="study-heading">
+    <div>
+      <p class="study-label">/01 — A decision, taken apart</p>
+      <h2 id="compare-title">A refund request is not refund authority.</h2>
+    </div>
+    <p class="evidence-note">Illustrative design.<br> Not measured performance.</p>
+  </header>
+  <ol class="decision-flow">
+    <li>
+      <p class="stage-owner"><span aria-hidden="true">01 / </span>Observed evidence</p>
+      <h3>The request</h3>
+      <blockquote>“I was charged twice.”</blockquote>
+      <p>No order ID is included. The customer’s message is evidence of intent,
+        not proof of a duplicate charge.</p>
+    </li>
+    <li class="judgment-stage">
+      <p class="stage-owner"><span aria-hidden="true">02 / </span>Model judgment</p>
+      <h3>Identify intent</h3>
+      <p>Choose a known category or abstain. Recognizing a refund request does
+        not establish which charge is eligible.</p>
+      <p class="stage-result">Output: a category, not permission.</p>
+    </li>
+    <li>
+      <p class="stage-owner"><span aria-hidden="true">03 / </span>Explicit policy</p>
+      <h3>Hold the action</h3>
+      <p>A missing order ID requires authenticated lookup or a question to the
+        customer. Do not guess the target.</p>
+    </li>
+    <li>
+      <p class="stage-owner"><span aria-hidden="true">04 / </span>Code + authorized owner</p>
+      <h3>Check before paying</h3>
+      <p>Verify ownership, eligibility, amount, permissions, prior refunds,
+        and idempotency before any refund executes.</p>
+    </li>
+  </ol>
+  <div class="study-test">
+    <h3>What would reject this design?</h3>
+    <p>Compare false refunds, missed requests, review load, latency, and total
+      cost with the current baseline on held-out cases.
+      <a href="{{ '/examples.html#refund-email-routing' | relative_url }}">Read the full design card</a>.</p>
   </div>
-  <div class="compare-grid">
-    <article class="compare-col compare-without panel">
-      <header class="compare-head">
-        <p class="kicker">System boundary</p>
-        <h3>Frame the decision</h3>
-      </header>
-      <ol class="flow flow-broken">
-        <li class="compare-step" style="--d: 80ms">
-          <span class="flow-n" aria-hidden="true">1</span>
-          <span class="flow-body">Name the desired behavior and baseline</span>
-        </li>
-        <li class="compare-step" style="--d: 140ms">
-          <span class="flow-n" aria-hidden="true">2</span>
-          <span class="flow-body">Identify available and missing evidence</span>
-        </li>
-        <li class="compare-step" style="--d: 200ms">
-          <span class="flow-n" aria-hidden="true">3</span>
-          <span class="flow-body">Separate exact work, judgment, and generation</span>
-        </li>
-      </ol>
-      <div class="fail-well compare-step" style="--d: 260ms">
-        <p class="fail-label">The placement question</p>
-        <p>Could a bounded judgment improve this decision enough to beat the current baseline?</p>
-      </div>
-    </article>
-    <span class="compare-vs" aria-hidden="true">→</span>
-    <article class="compare-col compare-with panel">
-      <header class="compare-head">
-        <p class="kicker">Review artifact</p>
-        <h3>Make the policy explicit</h3>
-      </header>
-      <ol class="flow flow-solid">
-        <li class="compare-step" style="--d: 80ms">
-          <span class="flow-n" aria-hidden="true">4</span>
-          <span class="flow-body">Define the judgment and every output</span>
-        </li>
-        <li class="compare-step" style="--d: 140ms">
-          <span class="flow-n" aria-hidden="true">5</span>
-          <span class="flow-body">Set policy, authority, fallback, and execution checks</span>
-        </li>
-        <li class="compare-step" style="--d: 200ms">
-          <span class="flow-n" aria-hidden="true">6</span>
-          <span class="flow-body">Evaluate the complete workflow on held-out evidence</span>
-        </li>
-        <li class="compare-step" style="--d: 260ms">
-          <span class="flow-n" aria-hidden="true">7</span>
-          <span class="flow-body">Record the outcome and next decision</span>
-        </li>
-      </ol>
-    </article>
-  </div>
-  <p class="compare-caption">
-    TypeSafe Jev is the default hosted exemplar for
-    <span class="token">Choice</span>, <span class="token">Score</span>, and
-    <span class="token">Noul</span>. Other families may fit the same placement,
-    but each needs its own contracts and evidence.
-  </p>
 </section>
