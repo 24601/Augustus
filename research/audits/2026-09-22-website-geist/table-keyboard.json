@@ -1,0 +1,77 @@
+{
+  "focusTrail": [
+    {
+      "className": "skip",
+      "name": "Skip to content",
+      "tag": "A"
+    },
+    {
+      "className": "brand",
+      "name": "Augustus",
+      "tag": "A"
+    },
+    {
+      "className": "",
+      "name": "Placements",
+      "tag": "A"
+    },
+    {
+      "className": "",
+      "name": "Examples",
+      "tag": "A"
+    },
+    {
+      "className": "",
+      "name": "Ecosystem",
+      "tag": "A"
+    },
+    {
+      "className": "",
+      "name": "GitHub",
+      "tag": "A"
+    },
+    {
+      "className": "",
+      "name": "Augustus skill",
+      "tag": "A"
+    },
+    {
+      "className": "",
+      "name": "Judgment class",
+      "tag": "A"
+    },
+    {
+      "className": "",
+      "name": "Validation",
+      "tag": "A"
+    },
+    {
+      "className": "",
+      "name": "Boundary audit",
+      "tag": "A"
+    },
+    {
+      "className": "",
+      "name": "current TypeSafe skills",
+      "tag": "A"
+    },
+    {
+      "className": "table-scroll",
+      "name": "Decision-model family comparison",
+      "tag": "DIV"
+    }
+  ],
+  "tableBefore": {
+    "left": 0,
+    "outline": "3px",
+    "scrollWidth": 640,
+    "width": 254
+  },
+  "tableAfter": {
+    "left": 386,
+    "name": "Decision-model family comparison",
+    "role": "region",
+    "scrollWidth": 640,
+    "width": 254
+  }
+}

@@ -1,34 +1,34 @@
 <section class="decision-study" aria-labelledby="compare-title">
   <header class="study-heading">
     <div>
-      <p class="study-label">A decision, taken apart</p>
+      <p class="study-label">/01 — A decision, taken apart</p>
       <h2 id="compare-title">A refund request is not refund authority.</h2>
     </div>
     <p class="evidence-note">Illustrative design.<br> Not measured performance.</p>
   </header>
   <ol class="decision-flow">
     <li>
-      <p class="stage-owner">Observed evidence</p>
+      <p class="stage-owner"><span aria-hidden="true">01 / </span>Observed evidence</p>
       <h3>The request</h3>
       <blockquote>“I was charged twice.”</blockquote>
       <p>No order ID is included. The customer’s message is evidence of intent,
         not proof of a duplicate charge.</p>
     </li>
     <li class="judgment-stage">
-      <p class="stage-owner">Model judgment</p>
+      <p class="stage-owner"><span aria-hidden="true">02 / </span>Model judgment</p>
       <h3>Identify intent</h3>
       <p>Choose a known category or abstain. Recognizing a refund request does
         not establish which charge is eligible.</p>
       <p class="stage-result">Output: a category, not permission.</p>
     </li>
     <li>
-      <p class="stage-owner">Explicit policy</p>
+      <p class="stage-owner"><span aria-hidden="true">03 / </span>Explicit policy</p>
       <h3>Hold the action</h3>
       <p>A missing order ID requires authenticated lookup or a question to the
         customer. Do not guess the target.</p>
     </li>
     <li>
-      <p class="stage-owner">Code + authorized owner</p>
+      <p class="stage-owner"><span aria-hidden="true">04 / </span>Code + authorized owner</p>
       <h3>Check before paying</h3>
       <p>Verify ownership, eligibility, amount, permissions, prior refunds,
         and idempotency before any refund executes.</p>

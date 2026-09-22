@@ -27,6 +27,12 @@ folds: `research/notes.md`.
 - Aligned the favicon and social share image with the new site, improved
   mobile command reading, and added parsed accessibility regression checks
   plus a design contract and screenshot/reviewer evidence for future updates.
+- Reskinned the website after user feedback to a Geist × stripe.dev-inspired
+  developer reference: self-hosted Geist Sans/Mono, a neutral light/dark palette,
+  larger typography, ruled grids, and monochrome controls. This supersedes the
+  initial mineral/green serif direction without changing the skill package.
+  Kept the mobile family comparison readable in a keyboard-scrollable region,
+  with parsed regression checks for its name and focusability.
 
 ## [0.7.0] - 2026-09-22
 

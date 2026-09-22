@@ -46,6 +46,7 @@ class PageParser(HTMLParser):
         self.main_attributes: list[dict[str, str]] = []
         self.skip_targets: list[str] = []
         self.code_regions: list[dict[str, str]] = []
+        self.table_regions: list[dict[str, str]] = []
         self.languages: list[str] = []
         self.viewports: list[str] = []
         self.h1_count = 0
@@ -73,6 +74,8 @@ class PageParser(HTMLParser):
                 self.skip_targets.append(unquote(href[1:]))
         if lowered == "pre":
             self.code_regions.append(attrs_by_name)
+        if "table-scroll" in attrs_by_name.get("class", "").split():
+            self.table_regions.append(attrs_by_name)
         if lowered == "title":
             self.title_count += 1
             self._in_title = True
@@ -235,6 +238,12 @@ def validate_html_pages(site_dir: Path, site_url: str, base_url: str) -> list[Is
             if name and name in code_labels:
                 issues.append(Issue(relative, "code-label", f"repeated code-region aria-label: {name}"))
             code_labels.add(name)
+        for attributes in parser.table_regions:
+            labels = attributes.get("aria-labelledby", "").split()
+            name = attributes.get("aria-label", "").strip()
+            has_name = bool(name) or bool(labels and all(label in parser.ids for label in labels))
+            if attributes.get("tabindex") != "0" or attributes.get("role") != "region" or not has_name:
+                issues.append(Issue(relative, "table-access", "scrollable table container must be a named region in the keyboard tab order"))
         if parser.h1_count != 1:
             issues.append(Issue(relative, "h1", f"expected one <h1>, found {parser.h1_count}"))
         for element_id in sorted(parser.duplicate_ids):

@@ -7,7 +7,7 @@
     "assetId": "68ed2e893d7b4790819b52a7b2060ba9",
     "source": ".stitch/DESIGN.md",
     "uploadedSourceSha256": "67c9541720669269ad2dba7a34e13e672c0fd529ae524646afd55e00f7c3d008",
-    "sourceStatus": "The local contract was refined after upload to document tested mobile wrapping, distinct code labels, and complete color tokens. The uploaded asset retains the original approved brief.",
+    "sourceStatus": "Historical upload: the user superseded the mineral/green serif direction with Geist x stripe.dev on 2026-09-22. The local DESIGN.md is current; this uploaded asset and its hash retain the original approved brief. No new upload or generation is claimed.",
     "approval": "User approved palette, typography, square-edged direction and upload on 2026-09-22."
   },
   "screens": [
@@ -28,6 +28,6 @@
       "screenshot": ".stitch/designs/refined.png"
     }
   ],
-  "status": "Reference proposals only. The implemented Jekyll site is coordinator-authored and separately verified; generated code is not deployed.",
+  "status": "Historical reference proposals only, superseded by the user's Geist x stripe.dev reskin request. The current Jekyll site is coordinator-authored and separately verified; generated code is not deployed.",
   "localArtifacts": "Ignored, reproducible downloads. API credentials, expiring download URLs and raw provider responses are not recorded here."
 }

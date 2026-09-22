@@ -1,0 +1,26 @@
+{
+  "pageJavaScriptDisabled": true,
+  "reducedMotion": "reduce",
+  "skipProof": {
+    "name": "Skip to content",
+    "outline": "3px"
+  },
+  "mainProof": {
+    "id": "main",
+    "tag": "MAIN"
+  },
+  "installFocus": {
+    "href": "#install",
+    "name": "Install Augustus ↓"
+  },
+  "installProof": {
+    "commands": [
+      "claude plugin marketplace add 24601/Augustus\n\nclaude plugin install augustus@augustus",
+      "npx skills add 24601/Augustus --skill augustus"
+    ],
+    "documentWidth": 390,
+    "hash": "#install",
+    "top": 23.9140625,
+    "width": 390
+  }
+}

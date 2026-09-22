@@ -6,7 +6,10 @@ page_class: home
 ---
 
 <section class="opening" aria-labelledby="hero-title">
-  <p class="opening-context">An open-source skill for agents</p>
+  <div class="opening-meta">
+    <p class="opening-context">An open-source skill for agents</p>
+    <a class="release-link" href="{{ '/release-notes-v0.7.0.html' | relative_url }}">v0.7.0 <span aria-hidden="true">↗</span></a>
+  </div>
   <h1 id="hero-title">Decision models,<br class="desktop-break"> put to work.</h1>
   <div class="opening-bottom">
     <p class="lede">Give your agent the methods to find a useful judgment,
@@ -16,12 +19,15 @@ page_class: home
       <a href="{{ '/examples.html' | relative_url }}">Read a worked example</a>
     </div>
   </div>
+  <span class="registration" aria-hidden="true"></span>
+  <span class="registration registration-end" aria-hidden="true"></span>
 </section>
 
 {% include comparison.html %}
 
 <section class="working-index" id="recipes" aria-labelledby="recipes-title">
   <div class="index-intro">
+    <p class="section-index">/02 — Applications</p>
     <h2 id="recipes-title">Bring a decision.<br class="wide-break"> Leave with a system.</h2>
     <p>Augustus is a skill and method engine, not a hosted runtime. Agents use it
       across software, business, organizations, and everyday decisions.</p>
@@ -61,6 +67,7 @@ page_class: home
 
 <section class="installation" id="install" aria-labelledby="install-title">
   <div class="installation-intro">
+    <p class="section-index">/03 — Installation</p>
     <h2 id="install-title">Put it in your agent’s hands.</h2>
     <p>The skill needs no API key. Calling a hosted model is a separate,
       optional integration.</p>
@@ -84,6 +91,7 @@ claude plugin install augustus@augustus</code></pre>
 </section>
 
 <section class="first-prompt" aria-labelledby="try-title">
+  <p class="section-index">/04 — First prompt</p>
   <h2 id="try-title">Start with one real workflow.</h2>
   <blockquote>
     <p>Use Augustus to audit our refund-email workflow. Test whether a classifier
@@ -97,6 +105,7 @@ claude plugin install augustus@augustus</code></pre>
 
 <section class="reading" aria-labelledby="companions-title">
   <div>
+    <p class="section-index">/05 — Reference</p>
     <h2 id="companions-title">The method stays inspectable.</h2>
     <p>Mathematical and scientific methods provide structure; real outcomes decide
       which compositions survive. Research is evidence to reason from, not a

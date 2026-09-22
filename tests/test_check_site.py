@@ -162,6 +162,28 @@ class SiteCheckTests(unittest.TestCase):
                 page.write_text(page.read_text().replace(old, new))
                 self.assertEqual(expected, self.codes(site))
 
+    def test_scrollable_table_region_requires_keyboard_access_and_a_name(self) -> None:
+        for attributes, expected in (
+            ('tabindex="0" role="region" aria-label="Family comparison"', set()),
+            ('tabindex="0" role="region" aria-labelledby="detail"', set()),
+            ('role="region" aria-label="Family comparison"', {"table-access"}),
+            ('tabindex="-1" role="region" aria-label="Family comparison"', {"table-access"}),
+            ('tabindex="0" role="region" aria-label=" "', {"table-access"}),
+            ('tabindex="0" role="region" aria-labelledby="missing"', {"table-access"}),
+        ):
+            with self.subTest(attributes=attributes):
+                site = self.make_site()
+                page = site / "index.html"
+                block = f'<div class="comparison table-scroll" {attributes}><table><tr><th>Family</th></tr></table></div>'
+                page.write_text(page.read_text().replace('</main>', block + '</main>'))
+                self.assertEqual(expected, self.codes(site))
+
+    def test_scrollable_table_class_is_a_token_not_a_substring(self) -> None:
+        site = self.make_site()
+        page = site / "index.html"
+        page.write_text(page.read_text().replace('</main>', '<div class="not-table-scroll">Ordinary content</div></main>'))
+        self.assertEqual(set(), self.codes(site))
+
 
     def test_duplicate_attributes_cannot_hide_a_broken_code_region(self) -> None:
         site = self.make_site()

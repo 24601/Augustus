@@ -28,6 +28,9 @@ integration code, and verify contracts against the service version you use.
 
 ## Family map
 
+<p class="table-hint">Scroll to compare all columns →</p>
+<div class="table-scroll" role="region" aria-label="Decision-model family comparison" tabindex="0" markdown="1">
+
 | Family | Useful for | Evidence and boundary to inspect |
 | --- | --- | --- |
 | Hosted decision API | Bounded choices, ordinal scores, or compact classifications over caller-supplied evidence | Current request and response contract, latency, privacy, candidate coverage, and held-out task quality |
@@ -36,6 +39,8 @@ integration code, and verify contracts against the service version you use.
 | Ranker or reranker | Ordering retrieved items, search results, reviews, or work queues | Candidate recall before ranking, order metrics tied to user outcomes, tie behavior, and fallback when evidence is weak |
 | Constrained autoregressive readout | Selecting among allowed values using an existing generative model | Tokenization and option-order effects, latency, output constraints, and whether scores have the semantics required by policy |
 | Vision or perception scorer | Judging images, regions, controls, or visual state | Sensor coverage, localization error, modality loss, adverse visual cases, and independent checks before action |
+
+</div>
 
 These families can be composed. A common pattern extracts observable evidence,
 ranks or classifies it, applies explicit policy, then lets deterministic code or

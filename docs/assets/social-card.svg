@@ -2,20 +2,27 @@
   <title id="title">Augustus: decision models, put to work</title>
   <desc id="desc">An open-source agent skill to find useful judgments, build policy and evals, and improve against real outcomes.</desc>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&amp;family=IBM+Plex+Serif:wght@400;500&amp;display=swap');
+    @font-face { font-family: Geist; src: url('fonts/geist-sans.woff2') format('woff2'); font-weight: 100 900; }
+    @font-face { font-family: 'Geist Mono'; src: url('fonts/geist-mono.woff2') format('woff2'); font-weight: 100 900; }
   </style>
-  <rect width="1200" height="630" fill="#f3f4ef"/>
-  <g fill="#202620" font-family="IBM Plex Serif, Georgia, serif">
-    <text x="64" y="83" font-size="40" font-weight="500">Augustus</text>
-    <text x="64" y="265" font-size="82" letter-spacing="-3">Decision models,</text>
-    <text x="64" y="359" font-size="82" letter-spacing="-3">put to work.</text>
+  <rect width="1200" height="630" fill="#fafafa"/>
+  <rect x="40" width="1120" height="630" fill="#fff"/>
+  <path d="M40 0V630M1160 0V630M40 96H1160M40 494H1160" stroke="#e2e2e2"/>
+  <path d="m80 64 8-21h4l8 21M84 57h12" fill="none" stroke="#171717" stroke-width="2.5"/>
+  <g fill="#171717" font-family="Geist, Arial, sans-serif">
+    <text x="114" y="64" font-size="28" font-weight="600" letter-spacing="-1">Augustus</text>
+    <text x="80" y="278" font-size="96" font-weight="500" letter-spacing="-6">Decision models,</text>
+    <text x="80" y="373" font-size="96" font-weight="500" letter-spacing="-6">put to work.</text>
   </g>
-  <path d="M64 113H1136M64 507H1136" stroke="#202620" stroke-width="1"/>
-  <g font-family="IBM Plex Sans, Arial, sans-serif" font-size="25" fill="#546054">
-    <text x="64" y="170">An open-source skill for agents</text>
-    <text x="64" y="423">Find useful judgments. Build policy and evals.</text>
-    <text x="64" y="461">Improve against real outcomes.</text>
-    <text x="64" y="565" fill="#315c45">github.com/24601/Augustus</text>
-    <text x="1136" y="565" text-anchor="end">Methods, not a hosted runtime.</text>
+  <g font-family="Geist, Arial, sans-serif" font-size="25" fill="#626262">
+    <text x="80" y="427">Find useful judgments. Build policy and evals.</text>
+    <text x="80" y="461">Improve against real outcomes.</text>
   </g>
+  <g font-family="Geist Mono, monospace" fill="#626262">
+    <text x="80" y="154" font-size="14">/ AN OPEN-SOURCE SKILL FOR AGENTS</text>
+    <text x="1120" y="60" text-anchor="end" font-size="16">v0.7.0</text>
+    <text x="80" y="554" font-size="17">github.com/24601/Augustus</text>
+    <text x="1120" y="590" text-anchor="end" font-size="17">Methods, not a hosted runtime.</text>
+  </g>
+  <path d="M35 96h10M40 91v10M1155 96h10M1160 91v10M35 494h10M40 489v10M1155 494h10M1160 489v10" stroke="#a1a1a1"/>
 </svg>
