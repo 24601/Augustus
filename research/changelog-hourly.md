@@ -1,3 +1,20 @@
+## Hourly 1851 HIGH (notes.md §158 / items 901-916 / batch #138)
+
+- Folded onto post-#83 `main` (`5e609f7`). hourly 1751 §157 is on main.
+  This fold is §158 only. Do not reclaim §147 through §157.
+  **HARD RULE:** do not reopen or amend PR #23 through #83.
+  Does not bump 0.5.0 or 0.5.1. Skip Archer. `invented_signal: false`.
+- PRIMARY: IAMIbrahimmemon/von-mlx is an MLX serving port, not the §49
+  n=78 table. fooSynaptic/jev-any-llm is a logprob readout, not a trained
+  head. hf:Praveenrajus/jevify-qwen3.5-4b-t2 is one seed. 0.5 is not a
+  decision boundary. A republished Laya card is not a new measurement.
+  plumbline is not a leaderboard. Qwen3.5 is not Archer.
+- REVISIT densify: jaredpalmer/kev §45. File move, no new bench.
+  AkhilBod/Tidy §157. Empty-tree description rewrite.
+  nadeemcite/jev-crash-course and nadyth/jev-crash-course §150.
+  Pedagogy is not a bench. Do not mint a sibling first sighting.
+- Uniqueness lock lives in `research/notes.md` and `uniqueness_gate.py` only.
+
 ## Hourly 1751 HIGH (notes.md §157 / items 885-900 / batch #137)
 
 - Folded onto post-#82 `main` (`d459b52`). hourly 1653 §156 is on main.

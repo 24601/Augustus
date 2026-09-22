@@ -1,3 +1,22 @@
+## 2026-09-22 ~00:51 UTC / ~18:51 Boise - Hourly 1851 HIGH
+- Folded onto post-#83 `main` (`5e609f7`). hourly 1751 §157 is on main.
+  This fold is §158 only. This fold: `notes.md` §158 / composition 901-916 /
+  findings batch #138. Do not reclaim §147 through §157.
+  **HARD RULE:** do not reopen or amend PR #23 through #83.
+- PRIMARY: IAMIbrahimmemon/von-mlx serving port is not the PyTorch von
+  table. fooSynaptic/jev-any-llm and neilbauman21-hub/verdict are
+  readouts, not trained heads. hf:InfinimindCreations/laya-rlcd-training
+  shows 0.5 is not a boundary. hf:Praveenrajus/jevify-qwen3.5-4b-t2 is
+  one seed. hf:SwagMessiah100/laya is a republish. TMHSDigital/plumbline
+  is not a leaderboard. haginot/decision-without-generation imports no
+  winner. Class benches stay *theirs*, not Harbor.
+  Densify §45, §157, and §150, not sibling first sightings.
+- Evidence: attached watch payloads for hourly 1851. Curated catalogs
+  added no links. One tracker like is star-noise. Archer stays
+  promised_not_landed.
+- Uniqueness lock lives in `research/notes.md` only (plus the gate fixture).
+  `invented_signal: false`. No Augustus call site. X disabled. No new X quotes.
+
 ## 2026-09-21 ~23:51 UTC / ~17:51 Boise - Hourly 1751 HIGH
 - Folded onto post-#82 `main` (`d459b52`). hourly 1653 §156 is on main.
   This fold is §157 only. This fold: `notes.md` §157 / composition 885-900 /

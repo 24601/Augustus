@@ -166,6 +166,19 @@ as an install path.
 hill-climb; DSPy/Ax only on the LM-program slice; jevals/calibration
 for the decision slice; Harbor for product e2e.
 
+Hourly 1851 (`notes.md` §158). Measure on your own labels.
+TMHSDigital/plumbline says it is not a leaderboard and will not name a
+best model. haginot/decision-without-generation compares TypeSafe Jev
+with five LLM judges on the same sampled items. The excerpt has no
+score table, so this fold does not import a winner. A default cut of
+0.5 is not an operating point: one laya-rlcd-training binary reports
+AUC 1.000 and 15 of 20 at that cut, and a collapsed question that emits
+probability 1.0000 on every item does not return by rebalancing the
+checkpoint. One seed, and a seed study that moves held-out accuracy by
+about 0.05, means a gap of that size is noise. A republished Laya card
+is not a new measurement and is not convaiinnovations/laya. Third-party
+numbers stay *theirs*, not Harbor.
+
 ### Pipeline (upgraded from the shorter hill-climb card)
 
 **Hypothesis.** Basit ask, primary post not retrieved. This is how you

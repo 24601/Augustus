@@ -70,6 +70,16 @@ species (CLIP / SigLIP / region Choice). Jev on that serialized state
 is **decide**. Stacking them is composition, not one model — card
 below, next to the when-to-use table.
 
+Hourly 1851 (`notes.md` §158) separates three decide shapes that share
+a label and do not share a measurement. An MLX port of von is a serving
+substrate, not the §49 PyTorch table. A logprob or early-exit readout
+over a causal LM (fooSynaptic/jev-any-llm, neilbauman21-hub/verdict) is
+not a trained decision head. A residual head plus LoRA
+(hf:Praveenrajus/jevify-qwen3.5-4b-t2) is a trained head, and one seed
+is not a species win. Qwen3.5 is not Archer. TypeSafe Jev stays the
+default path. These peers are in the class. They are not equal in
+adoption.
+
 - **Locate.** [GLiNER](https://arxiv.org/abs/2311.08526) (Zaratiana et al.,
   NAACL 2024): bidirectional encoder; open entity types in one forward
   pass; output is *spans*. Mental model: keep/drop over candidates the
