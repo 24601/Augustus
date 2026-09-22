@@ -1,503 +1,108 @@
 <section class="section recipes" id="recipes" aria-labelledby="recipes-title">
   <div class="section-head">
-    <p class="kicker">Recipes</p>
-    <h2 id="recipes-title">Same split, whole class</h2>
+    <p class="kicker">Canonical placements</p>
+    <h2 id="recipes-title">Six useful starting points</h2>
     <p>
-      Not Jev-only. Problem → without → with → what to measure. Full cards
-      in the
-      <a href="{{ '/release-notes-v0.5.1.html' | relative_url }}">v0.5.1 notes</a>
-      (GEPA domain-adapt) and the
-      <a href="{{ '/release-notes-v0.5.0.html' | relative_url }}">v0.5.0 notes</a>.
-      No invented scores.
+      Start from the decision, not a vendor. Each card names the bounded
+      judgment, the exact envelope around it, and the evidence needed to keep
+      or reject the design. Detailed methods live in the
+      <a href="https://github.com/24601/Augustus/tree/main/.agents/skills/augustus/references">skill references</a>.
     </p>
   </div>
   <div class="recipe-grid">
     <article class="recipe panel">
-      <p class="kicker">Inference type</p>
-      <h3>Decide vs generate</h3>
+      <p class="kicker">Route</p>
+      <h3>Choose among known paths</h3>
       <dl>
-        <dt>Problem</dt>
-        <dd>A typed judgment treated as another token stream.</dd>
-        <dt>Without</dt>
-        <dd>Call tryDecide, then parse the chat. Ship the speedup.</dd>
-        <dt>With</dt>
-        <dd>decide is not generate. tryDecide returns typed calibrated judgments, not a token stream.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">Type of the return value. Third-party benches stay *theirs*.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Encoder</p>
-      <h3>GLiNER / GLiClass</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>Locate or categorize treated as a decision head.</dd>
-        <dt>Without</dt>
-        <dd>Swap, hard-gate spans, bake off a chat LLM.</dd>
-        <dt>With</dt>
-        <dd>Species map. Extractive remainder. Soft scores ≠ hard gates.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">Span quality separately from ECE. Softmax ≠ Noul.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Open heads</p>
-      <h3>Laya, SemIf, kev, Jeff-1</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>Wire-compat or argmax agree treated as a replica.</dd>
-        <dt>Without</dt>
-        <dd>Drop-in swap. Ship the speedup. Skip OOD.</dd>
-        <dt>With</dt>
-        <dd>Softmax ≠ calibrated Noul. Systems timing ≠ semantic equivalence.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">Held-out ECE/Brier and accuracy. In-distribution vs OOD.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Gameplay</p>
-      <h3>NanoJev</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>Game success treated as a calibrated Noul.</dd>
-        <dt>Without</dt>
-        <dd>Quote a win rate as a production gate.</dd>
-        <dt>With</dt>
-        <dd>Specialist S1. Local boolean ≠ TypeSafe noul.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">Held-out game metrics on one ledger. ECE on another.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Domain adapt</p>
-      <h3>GEPA on Jev</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>A schema-valid Choice treated as a correct label, or API confidence treated as P(correct).</dd>
-        <dt>Without</dt>
-        <dd>Ship F1 as the review-queue policy. Treat GEPA as a new scoring-table species.</dd>
-        <dt>With</dt>
-        <dd>schema-valid is not the same as correct. API confidence is not P(correct). GEPA revises Choice instructions/criteria with weights fixed. review-queue policy is not F1. Soft is not gate. Not an 18th scoring-table species.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">Brier and F1 stay *theirs*. Track FN tradeoff separately from review-queue retention.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Conversion</p>
-      <h3>llm-to-jev</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>A chat prompt assumed equivalent to Choice/Score/Noul.</dd>
-        <dt>Without</dt>
-        <dd>Paste, convert, ship.</dd>
-        <dt>With</dt>
-        <dd>Heuristic on-ramp. Review the Score rubric. Prose stays with the LLM. heuristic conversion ≠ calibrated Noul.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">Suitability labels and human review. Not equivalent behavior.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Lookup</p>
-      <h3>jcr</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>Finding a documented command treated as permission to run it.</dd>
-        <dt>Without</dt>
-        <dd>The agent executes whatever the tree returned.</dd>
-        <dt>With</dt>
-        <dd>Returns context. <strong>Does not execute.</strong> Routing ≠ permission.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">Lookup+explain only. Not Harbor task-execution.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Readout</p>
-      <h3>localjev / prompted JSON</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>Parsed JSON from a generator treated as a Noul.</dd>
-        <dt>Without</dt>
-        <dd>Schema-valid taken as picked-right.</dd>
-        <dt>With</dt>
-        <dd>Prompted JSON ≠ structured logit read. Schema-valid ≠ picked-right.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">Schema pass separately from calibration and from the effect.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Client / contract</p>
-      <h3>sdk 0.7 / MLX 400</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>A Pydantic client model or a 400 SchemaError treated as the head.</dd>
-        <dt>Without</dt>
-        <dd>Ship 0.7 as logit-equiv. Treat 400 as a Noul.</dd>
-        <dt>With</dt>
-        <dd>Pydantic response models ≠ logit-equiv. Error contract is not a Noul. Locate ≠ decide.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">Server logits separately from client decode. coverage-at-error-budget stays *theirs*.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Serving</p>
-      <h3>Dual surface / hosted port</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>A second HTTP path or a free hosted URL treated as the same species as decide.</dd>
-        <dt>Without</dt>
-        <dd>Point chat at /v1/chat/completions and call it System One. Treat Codiv as TypeSafe.</dd>
-        <dt>With</dt>
-        <dd>dual serving is not generate. chat 501 on MLX. Hosted Codiv ≠ TypeSafe.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">Which path returned the answer. Third-party benches stay *theirs*.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Scores / tools</p>
-      <h3>Relative p, advisory MCP, LoRA</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>Candidate p, an MCP recommendation, or a LoRA adapter treated as calibrated truth.</dd>
-        <dt>Without</dt>
-        <dd>Hard-gate 0.8. Block on the server. Quote 94.71% as Harbor.</dd>
-        <dt>With</dt>
-        <dd>candidate probabilities are relative not correctness. recommendation is advisory. LoRA ≠ RLCD replica. pass-min 0.8 still soft.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">Relative ranking separately from ECE. The server never blocks on its own.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Constrained AR</p>
-      <h3>TypeLLM vs Noul</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>Typed constrained decode treated as a calibrated Noul.</dd>
-        <dt>Without</dt>
-        <dd>Quote 5.8x. Ship thinking=True as a probability. Treat 0.8B thinking On 0/18 as a Noul.</dd>
-        <dt>With</dt>
-        <dd>Constrained AR ≠ calibrated Noul. truncated thinking then constrained decode. type safety does not guarantee factual accuracy. type-valid ≠ exact.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">Batch 5.8x *theirs*. 0.8B thinking On 0/18 *theirs*. forced closure 20/20 type-valid *theirs*. Thinking budget separately from ECE.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Open heads</p>
-      <h3>kev family isolation</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>Sibling-blind questions treated as option-order immunity.</dd>
-        <dt>Without</dt>
-        <dd>Quote 0.812 as Harbor. Hard-gate 0.9. Treat Kev-0.8B as Archer.</dd>
-        <dt>With</dt>
-        <dd>Questions share the input text but cannot read each other. option order can change an answer. Kev-0.8B completes family. Qwen3.5 ≠ Archer.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">4B new-source 0.794/0.832 *theirs*. 9B new-source 0.812/0.837 *theirs*. transfer-v9 Kev-9B 5% Jev 9% Kev-8B 26% *theirs*. SemIf Kev-9B 0.917 Jev 0.965 *theirs*.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Fail polarity</p>
-      <h3>Closed routing vs open RUN</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>One cutoff treated as both a router and a permission.</dd>
-        <dt>Without</dt>
-        <dd>0.65 auto-allows. Uncertainty skips the suite.</dd>
-        <dt>With</dt>
-        <dd>JEV_THRESHOLD 0.65 still soft. routing ≠ permission. fail-open uncertainty means RUN. fail closed never auto-allows.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">Name the polarity per act. Thresholds stay application policy.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Eval / catalog</p>
-      <h3>classifier ≠ authorizer</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>An estimate row or a curated list treated as a grant.</dd>
-        <dt>Without</dt>
-        <dd>Ship 76/81 as Harbor. Install because it is listed.</dd>
-        <dt>With</dt>
-        <dd>classifier ≠ authorizer. estimates not Harbor. catalog ≠ endorsement.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">76/81 vs 77/81 *theirs*. 118 entries are an index, not a proof.</dd>
+        <dt>Use when</dt>
+        <dd>A request or case must be assigned to one of a bounded set of handlers.</dd>
+        <dt>Placement</dt>
+        <dd>Use a Choice-style judgment over candidates the application already knows.</dd>
+        <dt>Keep exact</dt>
+        <dd>Candidate eligibility, permissions, dispatch, and side effects remain in policy and code.</dd>
+        <dt>Validate</dt>
+        <dd class="recipe-measure">Measure wrong routes, no-match coverage, abstentions, total latency, and downstream outcomes.</dd>
       </dl>
     </article>
 
     <article class="recipe panel">
-      <p class="kicker">Serving pin</p>
-      <h3>Restructured head vs replica</h3>
+      <p class="kicker">Triage</p>
+      <h3>Prioritize a review queue</h3>
       <dl>
-        <dt>Problem</dt>
-        <dd>A package bump or a vLLM subclass treated as logit-equivalent truth.</dd>
-        <dt>Without</dt>
-        <dd>Ship 0.3.0 as TypeSafe. Treat Codiv as the hosted product.</dd>
-        <dt>With</dt>
-        <dd>restructured vLLM head ≠ logit-equiv. MODEL_VERSION stays openjev-0.1. dual serving is not generate. Hosted Codiv ≠ TypeSafe.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">Package version separately from wire id. Third-party benches stay *theirs*.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Split jobs</p>
-      <h3>Route, write, render</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>One model asked to choose, write, and draw.</dd>
-        <dt>Without</dt>
-        <dd>A swarm. Luna as the judgment. Diffusion as structure.</dd>
-        <dt>With</dt>
-        <dd>Models participate. Real tools execute. documentation is read not judged. json-render is the only renderer. Thresholds are policy not model.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">Who chose, who wrote, who rendered. Soft scores ≠ hard gates.</dd>
+        <dt>Use when</dt>
+        <dd>People can inspect only part of an inbox, incident stream, or change set.</dd>
+        <dt>Placement</dt>
+        <dd>Estimate a named review priority or risk proposition for each item.</dd>
+        <dt>Keep exact</dt>
+        <dd>Mandatory reviews, legal holds, ownership, deadlines, and final decisions stay explicit.</dd>
+        <dt>Validate</dt>
+        <dd class="recipe-measure">Track missed important items, review load, time saved, and outcomes at the chosen operating point.</dd>
       </dl>
     </article>
 
     <article class="recipe panel">
-      <p class="kicker">Done-check</p>
-      <h3>Facts block, Jev advises</h3>
+      <p class="kicker">Retrieve</p>
+      <h3>Keep the evidence that matters</h3>
       <dl>
-        <dt>Problem</dt>
-        <dd>A probability treated as the thing that stops an agent from claiming done.</dd>
-        <dt>Without</dt>
-        <dd>Refuse done because Jev said 0.8. Skip the ledger.</dd>
-        <dt>With</dt>
-        <dd>Facts go to code. Judgments go to Jev. Only facts can block. Jev never blocks.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">Replay the ledger. A missing passing check is the block, not a Noul.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Serving port</p>
-      <h3>ANE argmax vs replica</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>155/155 argmax treated as logit-equivalent Kev.</dd>
-        <dt>Without</dt>
-        <dd>Ship ANE fp16 as the 0.8B family. Quote 7.16 ms as Harbor.</dd>
-        <dt>With</dt>
-        <dd>155/155 argmax *theirs*. serving substrate ≠ calibrated replica. MidasMulli/kev-ane ≠ jaredpalmer/kev.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">Argmax separately from probability spread. *theirs* not Harbor.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Gameplay / sim</p>
-      <h3>Win rate vs Noul</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>A seeded traffic win treated as a calibrated probability.</dd>
-        <dt>Without</dt>
-        <dd>Quote delay as ECE. Hard-gate the city.</dd>
-        <dt>With</dt>
-        <dd>game success ≠ calibrated Noul. Fixed vs Adaptive vs the decision head on one ledger.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">Sim metrics separately from Brier/ECE. *theirs* not Harbor.</dd>
+        <dt>Use when</dt>
+        <dd>A larger exact corpus must be narrowed before expensive analysis or writing.</dd>
+        <dt>Placement</dt>
+        <dd>Judge relevance over retrieved candidates; preserve source pointers and verbatim evidence.</dd>
+        <dt>Keep exact</dt>
+        <dd>Access control, always-keep records, citations, ordering constraints, and recovery paths remain deterministic.</dd>
+        <dt>Validate</dt>
+        <dd class="recipe-measure">Measure recall of necessary evidence, unsupported conclusions, cost, and end-to-end task quality.</dd>
       </dl>
     </article>
 
     <article class="recipe panel">
-      <p class="kicker">Open-head training</p>
-      <h3>From-scratch vs warm-start</h3>
+      <p class="kicker">Mixed architecture</p>
+      <h3>Judge first, write only when needed</h3>
       <dl>
-        <dt>Problem</dt>
-        <dd>A from-scratch adapter treated as equal to a released head plus your labels.</dd>
-        <dt>Without</dt>
-        <dd>Train from the base. Quote 0.88 as Harbor. Skip the held-out file.</dd>
-        <dt>With</dt>
-        <dd>from-scratch ≠ warm-start. JSONL labels ≠ Harbor. --init_from keeps what the head already knows.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">0.33 vs 0.84 vs 0.83/0.88 *theirs*. Same split for any Choice/Score/Noul head.</dd>
+        <dt>Use when</dt>
+        <dd>A workflow contains both a bounded decision and open-ended explanation or drafting.</dd>
+        <dt>Placement</dt>
+        <dd>A decision model selects, scores, or routes; a generator or person writes the remaining prose.</dd>
+        <dt>Keep exact</dt>
+        <dd>Control flow, schemas, permissions, state transitions, and execution checks stay outside both models.</dd>
+        <dt>Validate</dt>
+        <dd class="recipe-measure">Compare the complete workflow with the existing generator-only or human baseline.</dd>
       </dl>
     </article>
+
     <article class="recipe panel">
-      <p class="kicker">Independent assay</p>
-      <h3>Split verdict vs global certificate</h3>
+      <p class="kicker">Human decision support</p>
+      <h3>Make tradeoffs visible</h3>
       <dl>
-        <dt>Problem</dt>
-        <dd>One corpus ECE treated as the model's calibration everywhere.</dd>
-        <dt>Without</dt>
-        <dd>Ship CLINC150 as proof. Ignore Banking77 overconfidence.</dd>
-        <dt>With</dt>
-        <dd>assay-001 split verdict. A result applies to the artifacts examined.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">CLINC150 ECE 0.0204 *theirs*. Banking77 ECE 0.0936 *theirs*. Not Harbor.</dd>
+        <dt>Use when</dt>
+        <dd>A person or team must combine several uncertain criteria without hiding value judgments.</dd>
+        <dt>Placement</dt>
+        <dd>Use bounded judgments as named inputs to an explicit utility, cost, or multi-criteria policy.</dd>
+        <dt>Keep exact</dt>
+        <dd>Weights, constraints, authority, appeals, and the final accountable decision remain human-owned.</dd>
+        <dt>Validate</dt>
+        <dd class="recipe-measure">Test sensitivity to evidence and weights, disagreement handling, reversibility, and realized outcomes.</dd>
       </dl>
     </article>
+
     <article class="recipe panel">
-      <p class="kicker">Reconstruction</p>
-      <h3>Random weights vs replica</h3>
+      <p class="kicker">Proof and safety</p>
+      <h3>Prioritize checks; never replace them</h3>
       <dl>
-        <dt>Problem</dt>
-        <dd>A from-first-principles sketch treated as TypeSafe logits.</dd>
-        <dt>Without</dt>
-        <dd>Swap the serving URL. Quote the catalog as a grant.</dd>
-        <dt>With</dt>
-        <dd>reconstruction ≠ replica. unofficial research implementation with random weights. catalog ≠ endorsement.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">Namesake lock first. Third-party benches stay *theirs*.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Open LoRA specialist</p>
-      <h3>Latency vs meaning</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>A local P50 treated as proof the head matches hosted Jev.</dd>
-        <dt>Without</dt>
-        <dd>Quote 85 ms as parity. Skip the 1024/32 slowdown. Treat 94.71% as a Noul.</dd>
-        <dt>With</dt>
-        <dd>systems latency ≠ semantic equivalence. hard acc ≠ calibrated Noul. LoRA ≠ RLCD replica. not merged base models.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">customer-service P50 85.03 vs 295.26 *theirs*. 1024/32 1015.90 vs 301.37 *theirs*. Open-Jev TREC pending.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Decision support</p>
-      <h3>Dashboard vs fill</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>A Buy/Sell/Hold card treated as an executed order.</dd>
-        <dt>Without</dt>
-        <dd>Wire the Choice to the exchange. Skip the human.</dd>
-        <dt>With</dt>
-        <dd>platform does not execute trades. does not execute. Code owns the fill.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">Count fills separately from cards. *theirs* not Harbor.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Independent assay</p>
-      <h3>AI review vs gold / one trial vs Harbor</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>62.69% or one seed-0 robot run treated as a certificate.</dd>
-        <dt>Without</dt>
-        <dd>Ship AI labels as gold. Quote $0.018825 as Harbor.</dd>
-        <dt>With</dt>
-        <dd>AI-reviewed labels ≠ gold. one-trial robot ≠ Harbor. 10.59× systems ≠ ECE. agreement ≠ accuracy.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">62.69% vs 67.26% *theirs* not gold. Spanish −6.4 pp XNLI *theirs*. Not Harbor.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">On-ramp / catalog</p>
-      <h3>Desc rewrite vs replica</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>A GitHub description rewrite treated as a new compiler, or a catalog as a grant.</dd>
-        <dt>Without</dt>
-        <dd>Mint a sibling card. Quote 485 as endorsement.</dd>
-        <dt>With</dt>
-        <dd>desc rewrite ≠ SHA/behavior change. catalog ≠ endorsement. heuristic conversion ≠ calibrated Noul.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">SHA unchanged 234058ab372d. 485 is an index. *theirs* not Harbor.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Serve calibration</p>
-      <h3>Temperature scaling vs ECE</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>A serve temperature treated as proof the head is calibrated.</dd>
-        <dt>Without</dt>
-        <dd>Ship T≈2.0 as Harbor. Fold grouped T into the raw row.</dd>
-        <dt>With</dt>
-        <dd>temperature scaling ≠ ECE unless measured. grouped T rejected. Report a calibrated row separately.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">Brier 0.291→0.267 ECE 0.105→0.039 *theirs*. 7.5%→3.2% *theirs*. Not Harbor.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Hub pin</p>
-      <h3>Revision vs replica</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>A Hub --revision treated as hosted Jev logits.</dd>
-        <dt>Without</dt>
-        <dd>Swap the serving URL to night2-du. Skip the locked-test costs.</dd>
-        <dt>With</dt>
-        <dd>Hub --revision is a pin not a replica. SHA move is not a replica. main untouched awaiting sign-off.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">0.852 OOD *theirs*. coverage@5% 0.62 from 0.66 *theirs*. *theirs* not Harbor.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Trained encoder runtime</p>
-      <h3>OpenJev runtime vs TypeSafe</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>A trained OpenJev loader treated as the hosted System One API.</dd>
-        <dt>Without</dt>
-        <dd>Point the .NET SDK at DeBERTa. Treat generated_text: False as TypeSafe.</dd>
-        <dt>With</dt>
-        <dd>trained runtime ≠ TypeSafe. OpenJev.from_pretrained. encoder class member not Jev replica.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">kind typed-decisions/open-jev-v1. generated_text: False. DeBERTa 0.855 / 42 ms *theirs*.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Class members</p>
-      <h3>Stock Qwen, CoreML, SQL, locate, legal LoRA</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>A letter readout, on-device bundle, SQL predicate, span locator, or legal LoRA treated as RLCD Jev.</dd>
-        <dt>Without</dt>
-        <dd>Quote 0.812 as Archer. Treat DuckDB as a Noul. Collapse GLiNER into Choice.</dd>
-        <dt>With</dt>
-        <dd>Qwen3.6 ≠ Archer. serving substrate ≠ calibrated replica. Locate ≠ decide. legal LoRA ≠ RLCD replica. catalog ≠ endorsement.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">jqv stock Qwen3. swev CoreML. duckdb-jev SQL predicates. gliner2-skill locate. *theirs* not Harbor.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Provider eval</p>
-      <h3>CPU tests vs GPU quality</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>A CPU-passing provider suite treated as completed GPU quality.</dd>
-        <dt>Without</dt>
-        <dd>Ship 65/76 as Open-Jev TREC. Quote 48 CPU tests as Harbor.</dd>
-        <dt>With</dt>
-        <dd>provider pipeline ≠ completed Open-Jev quality. CPU tests ≠ GPU scores. Open-Jev TREC pending.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">808 requests 1841 labelled *theirs*. 65/76 72/76 66/76 60/76 71/76 *theirs*. Not Harbor.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Fine-tune vs hosted</p>
-      <h3>Kev CartPole vs TypeSafe</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>A fine-tuned Kev lab treated as hosted Jev, or 52/64 as a majority proof.</dd>
-        <dt>Without</dt>
-        <dd>Swap the CartPole URL for TypeSafe. Treat softmax as a Noul.</dd>
-        <dt>With</dt>
-        <dd>fine-tuned Kev ≠ TypeSafe Jev. one record of 64. softmax ≠ calibrated Noul.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">81.25% 52/64 *theirs*. majority 79.69% 51/64. *theirs* not Harbor.</dd>
-      </dl>
-    </article>
-    <article class="recipe panel">
-      <p class="kicker">Broker / cutoff / catalog</p>
-      <h3>Mock orders, 95% gates, 80.1% gold</h3>
-      <dl>
-        <dt>Problem</dt>
-        <dd>A mock/dry QMT sidecar treated as live fills, 95% as a hard gate, or 80.1% as gold.</dd>
-        <dt>Without</dt>
-        <dd>Fire orders from AUC 0.532. Hard-gate Luna fallback. Quote 3.69ms as Harbor.</dd>
-        <dt>With</dt>
-        <dd>QMT mock/dry default no orders. does not execute. cutoff 95% still soft. catalog ≠ endorsement. option order can change an answer.</dd>
-        <dt>Measure</dt>
-        <dd class="recipe-measure">AUC 0.532 *theirs*. 79.6% / 80.1% *theirs*. 3.69ms *theirs* not Harbor. 87 of 144 order-unstable *theirs*.</dd>
+        <dt>Use when</dt>
+        <dd>Formal analysis, simulation, or runtime monitoring produces more cases than people can inspect.</dd>
+        <dt>Placement</dt>
+        <dd>Judgment may rank proof obligations, counterexamples, traces, or suspicious states for attention.</dd>
+        <dt>Keep exact</dt>
+        <dd>The prover, model checker, simulator, interlock, and authorization policy retain their own semantics.</dd>
+        <dt>Validate</dt>
+        <dd class="recipe-measure">Measure missed failures and review efficiency; never count a model score as discharged proof.</dd>
       </dl>
     </article>
   </div>
-  <p class="compare-caption">
-    Measurement recipe (hysteresis, equal-width vs quantile ECE, hop-ECE,
-    Harbor schema-pass ≠ joint, DecisionOps FALLBACK):
-    <a href="{{ '/release-notes-v0.5.0.html' | relative_url }}">v0.5.0 notes</a>.
-    GEPA domain-adapt:
-    <a href="{{ '/release-notes-v0.5.1.html' | relative_url }}">v0.5.1 notes</a>.
-    Ranking ≠ calibration. Soft Noul ≠ hard gate.
+  <p class="meta-line">
+    Historical recipes remain available in the
+    <a href="{{ '/release-notes-v0.5.1.html' | relative_url }}">v0.5.1</a> and
+    <a href="{{ '/release-notes-v0.5.0.html' | relative_url }}">v0.5.0</a> release notes.
   </p>
 </section>

@@ -1,13 +1,21 @@
 {
+  "name": "augustus",
+  "description": "Design and evaluate decision-model placements with explicit policy and authority.",
   "owner": {
     "name": "Augustus contributors"
   },
   "plugins": [
     {
-      "description": "Design judgment for the decision-model class: classifiers, encoders/decoders, specialized AR and constrained heads, vision and listwise scorers, and what TypeSafe calls System One. TypeSafe Jev (Choice, Score, Noul) is the dominant product most users will call. Peers include Laya, kev, OpenJev, and GLiNER; they are not equal in adoption. Ranking ≠ calibration; soft Noul ≠ hard gate. Formal methods are one pillar. Never launder a Noul as a proof. Not a TypeSafe product; load typesafe-ai for Jev contracts. Named for Augustus De Morgan, mentor of W. S. Jevons.",
+      "description": "Place decision models beside code, policy, and human judgment. Apply decision theory, calibration, routing, ranking, and falsifying evaluations across software, business, and everyday decisions. TypeSafe Jev is the default hosted exemplar. Independent of TypeSafe.",
       "name": "augustus",
-      "source": "./.agents/skills/augustus",
-      "version": "0.5.1"
+      "source": "./.agents",
+      "skills": ["./skills/augustus"],
+      "strict": false,
+      "homepage": "https://24601.github.io/Augustus/",
+      "repository": "https://github.com/24601/Augustus",
+      "license": "MIT",
+      "keywords": ["decision-models", "decision-theory", "calibration", "agent-skills", "jev"],
+      "version": "0.6.0"
     }
   ]
 }

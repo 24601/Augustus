@@ -18,7 +18,7 @@ Pegged against [`typesafe-ai/skills` v0.5.7](https://github.com/typesafe-ai/skil
 (`65a39f3`, 2026-09-12). Live HEAD of that repo is still this commit.
 Checked 2026-09-21.
 
-Prior class recipes: [v0.5.0 notes](release-notes-v0.5.0.md).
+Prior class recipes: [v0.5.0 notes]({{ '/release-notes-v0.5.0.html' | relative_url }}).
 Diagram: [with vs without Augustus](https://24601.github.io/Augustus/).
 
 ### Added
@@ -65,7 +65,7 @@ card. Do not treat this page as a leaderboard.
 
 Earlier class recipes (encoder locate vs decide, open heads, NanoJev,
 llm-to-jev, jcr, prompted JSON, measurement honesty) stay on the
-[v0.5.0 notes](release-notes-v0.5.0.md).
+[v0.5.0 notes]({{ '/release-notes-v0.5.0.html' | relative_url }}).
 
 Homepage: https://24601.github.io/Augustus/
 

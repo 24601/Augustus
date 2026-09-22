@@ -11,11 +11,11 @@ authors:
 repository-code: https://github.com/24601/Augustus
 url: https://24601.github.io/Augustus/
 abstract: >-
-  Design-judgment skill for placing typed probabilistic judgment
-  (the Jev-class of System One / decision models) using mathematical,
-  logical, and algorithmic mental models. TypeSafe Jev is the
-  documented exemplar, not the monopoly. Formal methods are one pillar.
-  Not a TypeSafe product.
+  An agent skill for placing and evaluating bounded model judgments
+  across software, business, organizations, and everyday decisions.
+  Applies classical decision methods while keeping exact work, policy,
+  and authority explicit. TypeSafe Jev is the default hosted exemplar.
+  Independent of TypeSafe.
 keywords:
   - system-one
   - decision-judgment
@@ -24,5 +24,5 @@ keywords:
   - formal-methods
   - agentic-ai
 license: MIT
-version: 0.5.1
-date-released: "2026-09-21"
+version: 0.6.0
+date-released: "2026-09-22"

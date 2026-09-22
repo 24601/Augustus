@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light dark" />
     {% seo %}
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,10 +34,13 @@
             <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
           </li>
           <li>
+            <a href="{{ '/examples.html' | relative_url }}"{% if page.url contains 'examples' %} aria-current="page"{% endif %}>Examples</a>
+          </li>
+          <li>
             <a href="{{ '/ecosystem.html' | relative_url }}"{% if page.url contains 'ecosystem' %} aria-current="page"{% endif %}>Ecosystem</a>
           </li>
           <li>
-            <a href="{{ '/release-notes-v0.5.1.html' | relative_url }}"{% if page.url contains 'release-notes-v0.5.1' %} aria-current="page"{% endif %}>v0.5.1</a>
+            <a href="{{ '/release-notes-v0.6.0.html' | relative_url }}"{% if page.url contains 'release-notes-v0.6.0' %} aria-current="page"{% endif %}>v0.6.0</a>
           </li>
           <li>
             <a href="https://github.com/24601/Augustus" rel="noopener noreferrer">GitHub</a>

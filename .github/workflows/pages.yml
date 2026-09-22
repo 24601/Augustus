@@ -24,10 +24,5 @@ jobs:
         with:
           source: ./docs
           destination: ./_site
-      - name: Check gate page
-        run: |
-          test -f _site/index.html
-          grep -F 'TypeSafe Jev Choice/Score/Noul' _site/index.html
-          grep -F 'Install the skill' _site/index.html
-          grep -F 'LICENSE' _site/index.html
-          test -f _site/ecosystem.html
+      - name: Validate rendered site
+        run: python3 scripts/check_site.py _site

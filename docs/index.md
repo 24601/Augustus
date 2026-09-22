@@ -1,25 +1,25 @@
 ---
 layout: default
-title: "Augustus: decision-model class"
+title: "Decision-model design for AI agents"
 permalink: /
 page_class: home
 ---
 
 <section class="hero" aria-labelledby="hero-title">
   <div>
-    <p class="kicker hero-reveal" style="--d: 0ms">v0.5.1, Jev the dominant exemplar</p>
+    <p class="kicker hero-reveal" style="--d: 0ms">Version 0.6.0</p>
     <h1 id="hero-title" class="hero-title">
       <span class="line hero-reveal" style="--d: 50ms">Place judgment.</span>
-      <span class="line hero-reveal" style="--d: 110ms">Keep proof exact.</span>
+      <span class="line hero-reveal" style="--d: 110ms">Keep authority explicit.</span>
     </h1>
     <p class="lede hero-reveal" style="--d: 180ms">
-      Design-judgment skill for the decision-model class. TypeSafe Jev Choice/Score/Noul
-      is the dominant exemplar most users will call. Classical decision methods,
-      composition algebra, and a validation gate.
+      Augustus is an agent skill for placing bounded judgment inside a larger decision system.
+      TypeSafe Jev Choice/Score/Noul is the default hosted exemplar; code,
+      policy, and people keep ownership of exact work and consequential action.
     </p>
     <div class="cta-row hero-reveal" style="--d: 250ms">
       <a class="btn btn-primary" href="https://github.com/24601/Augustus#install">Install the skill</a>
-      <a class="btn btn-ghost" href="#recipes">Recipes</a>
+      <a class="btn btn-ghost" href="{{ '/examples.html' | relative_url }}">See an example</a>
       <a class="btn btn-ghost" href="{{ '/ecosystem.html' | relative_url }}">Ecosystem</a>
     </div>
   </div>
@@ -50,16 +50,22 @@ page_class: home
 <section class="section" aria-labelledby="what-title">
   <div class="section-head">
     <p class="kicker">What it is</p>
-    <h2 id="what-title">A gate for where judgment belongs</h2>
+    <h2 id="what-title">A design skill for bounded judgment</h2>
     <p>
-      Augustus is named for Augustus De Morgan, mentor of William Stanley
-      Jevons. TypeSafe Jev is the dominant exemplar most users will call.
-      Exact work stays in code or policy. The model owns narrow judgment.
-      A soft Noul is not a proof. The atlas lives in
-      <a href="https://github.com/24601/Augustus/tree/main/.agents/skills/augustus"><code>.agents/skills/augustus/</code></a>
-      and <a href="https://github.com/24601/Augustus/blob/main/research/notes.md"><code>research/notes.md</code></a>.
-      This page is a gate, not a rewrite of the
-      <a href="https://github.com/24601/Augustus">repository README</a>.
+      Named for Augustus De Morgan, the skill frames decisions across software,
+      business, organizations, and everyday life. It connects evidence to a
+      narrow judgment, makes policy and authority visible, and checks the
+      resulting action. The model may rank, score, or classify; exact
+      computation, permissions, side effects, and final accountability remain
+      with code or people.
+    </p>
+    <p>
+      Start with the
+      <a href="https://github.com/24601/Augustus/blob/main/.agents/skills/augustus/SKILL.md">primary skill</a>
+      and its focused references. The
+      <a href="https://github.com/24601/Augustus/tree/main/research">research archive</a>
+      preserves broader history and evidence without expanding the runtime
+      instructions. Augustus is an independent project, not a TypeSafe product.
     </p>
   </div>
 </section>
@@ -67,8 +73,14 @@ page_class: home
 <section class="section" aria-labelledby="install-title">
   <div class="section-head">
     <p class="kicker">Install</p>
-    <h2 id="install-title">Two paths</h2>
-    <p>Claude Code via the marketplace, or any skills-compatible agent.</p>
+    <h2 id="install-title">Install the skill</h2>
+    <p>
+      Use the marketplace with Claude Code, or add the skill to any compatible
+      agent. The current release is 0.6.0.
+      These commands follow the default branch; review the installed version
+      before relying on it. The skill itself needs no API key. Calling a hosted
+      model is a separate, optional integration.
+    </p>
   </div>
   <div class="install-grid">
     <div class="install-card panel">
@@ -83,48 +95,60 @@ claude plugin install augustus@augustus</code></pre>
   </div>
 </section>
 
+<section class="section" aria-labelledby="try-title">
+  <div class="section-head">
+    <p class="kicker">First useful result</p>
+    <h2 id="try-title">Bring one real workflow</h2>
+    <p>After installation, ask: “Use Augustus to audit our refund-email workflow.
+      Find one useful classifier insertion, keep eligibility and payments in
+      code, and propose a test that could reject the change.”</p>
+    <p>Expect a compact design card, not a new system by default.
+      <a href="{{ '/examples.html' | relative_url }}">Read two worked examples</a>
+      or <a href="https://github.com/24601/Augustus/issues/new/choose">report a confusing recommendation</a>.
+      A parser, checklist, or no new model can be the right answer.</p>
+  </div>
+</section>
+
 <section class="section" aria-labelledby="pillars-title">
   <div class="section-head">
-    <p class="kicker">Pillars</p>
-    <h2 id="pillars-title">Four placements, then a family</h2>
+    <p class="kicker">Working method</p>
+    <h2 id="pillars-title">Four moves from question to outcome</h2>
     <p>
-      Pick the pillar from the hole, then the family, then the vendor.
-      Ranking is not calibration. A soft Noul is not a hard gate.
+      Keep each move small enough to inspect. Use evidence from the intended
+      workflow, including ordinary, ambiguous, and adverse cases.
     </p>
   </div>
   <div class="card-grid">
     <article class="card panel">
-      <p class="kicker">Placement</p>
-      <h3>Pillar, family, fail polarity</h3>
+      <p class="kicker">Frame</p>
+      <h3>Name the decision</h3>
       <p>
-        Name where judgment sits, which family matches the action, fail-open
-        vs fail-closed, and the experiment that could prove the design wrong.
+        Define the desired behavior, current baseline, available evidence, and
+        cost of each kind of error.
       </p>
     </article>
     <article class="card panel">
-      <p class="kicker">Classical methods</p>
-      <h3>Mental models, not a vendor how-to</h3>
+      <p class="kicker">Place</p>
+      <h3>Assign the narrow judgment</h3>
       <p>
-        Expected utility, abstention, VOI, MCDA, signal detection,
-        search and control, Leveson-style org and safety. Across AI,
-        software, business, knowledge work, and life.
+        Choose a family whose output semantics fit the action, and keep exact
+        rules, calculations, and transformations in deterministic code.
       </p>
     </article>
     <article class="card panel">
-      <p class="kicker">Formal methods</p>
-      <h3>Proof stays proof</h3>
+      <p class="kicker">Govern</p>
+      <h3>Make policy and authority explicit</h3>
       <p>
-        Alloy, TLA+, contracts, DST (Antithesis, Resonate, PufferLib).
-        A Noul is a sensor. Never launder it as a proof.
+        Specify thresholds or bands, fallback behavior, permissions, human
+        review, and the checks that run before an effect occurs.
       </p>
     </article>
     <article class="card panel">
-      <p class="kicker">Validation</p>
-      <h3>A gate, not a scoreboard</h3>
+      <p class="kicker">Validate</p>
+      <h3>Measure the workflow outcome</h3>
       <p>
-        Harbor and jevals practice: Score is 0..n-1. Noul has no confidence
-        field. 0.85 / minProbability is not a hard Harbor gate. VERIFY needs
-        discriminating evidence.
+        Test held-out cases, compare with a simpler baseline, inspect failures,
+        and record whether the checked action improved the real outcome.
       </p>
     </article>
   </div>
@@ -132,29 +156,29 @@ claude plugin install augustus@augustus</code></pre>
 
 <section class="section" aria-labelledby="companions-title">
   <div class="section-head">
-    <p class="kicker">Companions</p>
-    <h2 id="companions-title">Contracts, integrity, atlas</h2>
-    <p>Not a TypeSafe product. Augustus owns placement. Neighbors own their jobs.</p>
+    <p class="kicker">Resources</p>
+    <h2 id="companions-title">Contracts, method, and evidence</h2>
+    <p>Use current contracts for implementation and project evidence for design choices.</p>
   </div>
   <ul class="companion-list">
     <li>
       <a class="panel" href="https://github.com/typesafe-ai/skills">
-        <strong>typesafe-ai skill</strong>
-        <span>Official Jev integration contracts. Read live docs before writing API code.</span>
+        <strong>TypeSafe skills</strong>
+        <span>Current Jev integration contracts and usage guidance.</span>
       </a>
     </li>
     <li>
-      <a class="panel" href="https://github.com/24601/rh-guard">
-        <strong>rh-guard</strong>
-        <span>Integrity and reward-hack companion. Soft Noul is not a hard safety bar.</span>
+      <a class="panel" href="https://github.com/24601/Augustus/tree/main/.agents/skills/augustus/references">
+        <strong>Augustus references</strong>
+        <span>Focused guidance for class selection, boundaries, and validation.</span>
       </a>
     </li>
     <li>
       <a class="panel" href="{{ '/ecosystem.html' | relative_url }}">
-        <strong>Ecosystem index</strong>
-        <span>Launch-week class snapshot plus neighbors. Jev is the densest public corpus, not the monopoly.</span>
+        <strong>Ecosystem and archive</strong>
+        <span>A navigable family map with evidence labels and historical research.</span>
       </a>
     </li>
   </ul>
-  <p class="meta-line">Last updated 2026-09-21 (v0.5.1).</p>
+  <p class="meta-line">Current release 0.6.0 · <a href="{{ '/release-notes-v0.6.0.html' | relative_url }}">Release notes</a>.</p>
 </section>

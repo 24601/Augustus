@@ -8,7 +8,7 @@ insertion that lets policy own the rest. Cross-domain frames:
 `mental-models.md`.
 
 This card is an **operational recipe** (Hypothesis as a procedure). Each
-insertion still earns its own Contract / Empirical recipe / Hypothesis
+insertion still earns its own Contract / Reported / Reproduced / Hypothesis
 status on a decision-design card.
 
 ## Three-way split
@@ -22,7 +22,7 @@ At each workflow step, classify before proposing Jev:
 - **Bounded semantic judgment** → Jev-class candidate (fit test below).
 - **Open-ended generation** → an LLM or a person writing: explanation,
   code generation, long-form synthesis, open-ended research. A
-  judgment-class model may gate, route, or verify *around* that call;
+  judgment-class model may supply gate evidence, route, or inspect *around* that call;
   it does not generate.
 
 Do not use a judgment model by default. A regex, lookup, checklist, or
@@ -75,7 +75,7 @@ A hole is a strong Jev candidate when most of these hold:
 
 Be skeptical when the task needs long deliberation, many dependent
 intermediate conclusions, open-ended generation, or autonomous planning.
-Decompose first (`references/question-design.md`).
+Decompose first ([question design](question-design.md)).
 
 ## Opportunity map
 
@@ -115,18 +115,19 @@ included; code ignores unused answers). A second request only when the
 first answer is required to fetch evidence, build state, choose the next
 candidate set, or walk a hierarchy.
 
-The same judgment can authorize a low-stakes path and must not authorize
-an irreversible one. Thresholds are per-action policy, measured on this
-system's data (`references/validation.md`). A copied example threshold is
-a prior, never a setting.
+The same judgment can support different policies for reversible and
+irreversible actions. Policy owns authorization and thresholds, measured
+on this system's data ([validation](validation.md)). A copied example
+threshold is a hypothesis to test, not a deployment setting.
 
-Shadow-mode the gate (log the action you would have taken) until the
-falsifying experiment fails to reject it; then enforce.
+Shadow-mode the proposed policy and evaluate against prespecified acceptance
+criteria. Failure to reject a hypothesis alone is not evidence of sufficient
+safety or benefit; require adequate sample size and a controlled rollout.
 
 ## Around a generative model
 
 Jev is often the control layer around an LLM, not a replacement
-(`references/mixed-architecture.md` is the full placement card):
+([mixed architecture](mixed-architecture.md) is the full placement card):
 
 - input → guardrail Nouls → LLM → citation/quality verification → code
   decides whether to return
@@ -153,7 +154,7 @@ state beyond legitimate need.
 Stop and redesign when you see:
 
 - one giant question making many unrelated judgments
-- Jev choosing its own next tool in a loop
+- a model choosing tools without bounded candidates, budgets, or host validation
 - business logic hidden in prompt prose
 - deterministic calculations delegated to Jev
 - high-stakes side effects with no risk gate
@@ -171,11 +172,11 @@ Stop and redesign when you see:
 - vacuous / tautological spec (Hillel vibing specs) plus "the model said
   it looks good"; MCP "ran the checker" on a tautology (receipt theater)
 - Apalache random-exec or Quint `run` cited as unbounded safety
-- PufferLib Ocean scores as a comparative capability claim
+- benchmark scores transferred to a different runtime or task without evidence
 - Alloy vs Apalache collapsed into "we model-checked it"
-- Resonate HQ confused with an unrelated "Resonate AI" brand; a done-Noul settling a promise
+- similarly named sources conflated; a done-Noul settling a durable promise
 - independence fiction (multiplying Nouls) or Score unit fiction
-- Web-scale τ copied onto a situated N=30 loop (Shirky)
+- population-scale thresholds copied onto a small situated workflow
 - silent base-code edits to satisfy Dafny/Lean
 
 ### TOCTOU-of-Noul (stop condition)
@@ -193,8 +194,8 @@ If the property is a restatement of a definition (`canImport = P ∨ Q`
 then "prove" `¬P ∧ ¬Q ⇒ ¬canImport`), the checker passing is not a
 result. Do not add a Noul "does this spec look good?" on top. Demand a
 subtle property (concurrency, liveness, multi-step) and a run of the
-real tool (`formal-methods.md` §5 AI×FM). Cauli: a model that
-typechecks is not a validated model.
+real tool (`formal-methods.md` §5 AI×FM). A specification that
+typechecks is not necessarily a faithful or adequately tested model.
 
 ### Harmful-uses checklist
 

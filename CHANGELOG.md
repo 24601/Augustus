@@ -16,10 +16,46 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
-Hourly catalog densifies after this cut stay in
-[`research/notes.md`](research/notes.md) and
-[`research/changelog-hourly.md`](research/changelog-hourly.md).
-They do not bump the 0.5.1 pin.
+No unreleased changes.
+
+## [0.6.0] - 2026-09-22
+
+### Changed
+
+- Rebuilt the skill as a concise entry point and focused references;
+  preserved historical source revisions in the research archive manifest.
+- Clarified probability, confidence, ranking, calibration, authority,
+  abstention, causal action effects, and scoped conformal guarantees.
+- Replaced repeated-prose uniqueness checks with structural lint, budgets,
+  metadata parity, link/reachability checks, regression tests, and CI.
+- Removed tautological evaluator assertions; added real selective-policy
+  metrics and strict input validation, including undefined all-abstain risk.
+- Added maintainer guidance, research promotion and review prompts, and
+  independent behavioral scenarios. Refresh collection no longer publishes.
+- Fixed Claude marketplace packaging and verified an isolated local install;
+  added Codex skill UI metadata and clearer activation exclusions.
+- Rebuilt onboarding around six placements and two worked examples; added
+  social-preview assets, sitemap, rendered-site checks, a feedback template,
+  and a discoverability audit. Corrected mobile install-card overflow.
+
+### Migration
+
+- Evaluator cost reports now require explicit `--cost-fp` and `--cost-fn`;
+  selective-policy cost also needs `--cost-abstain`. Threshold search is
+  labeled in-sample and must not substitute for held-out policy evaluation.
+- Complete binary predictions report `action_rate`, not selective coverage.
+  Log loss is infinite for an impossible observed event; malformed inputs
+  and duplicate IDs are rejected. Partial baselines are accepted but
+  excluded from comparison; comparative reports require a complete baseline.
+- Refresh scripts emit JSON review receipts instead of appending logs,
+  cloning discoveries, or committing/pushing changes. Scheduler owners
+  should explicitly choose receipt storage and perform separate review.
+- `uniqueness_gate.py` is a repository-maintainer compatibility entry point
+  to the structural checker, not a tool for an installed standalone skill.
+  Use `make check` for the complete check suite.
+
+Catalog observations remain in [research](research/README.md); they need
+not change the installed skill. See [release notes](docs/release-notes-v0.6.0.md).
 
 ## [0.5.1] - 2026-09-21
 
@@ -511,4 +547,3 @@ The dated passes below are how 0.1.0 was assembled.
   relations, logical-operator combination rules, and the position×construct
   traversal as the systematic application generator; wired into SKILL.md
   index + toolbox sweep.
-

@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "source_commit": "0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8",
+  "description": "Pre-review source preservation. Git objects retain exact originals; research notes and hourly archive remain in place. These snapshots are historical evidence, not runtime instructions.",
+  "files": [
+    {
+      "path": ".agents/skills/augustus/SKILL.md",
+      "bytes": 192228,
+      "sha256": "17e92b66cfb6feeb00db01d1cdd366a9886e525bdb223f421a014160a968ffd8",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/.agents/skills/augustus/SKILL.md"
+    },
+    {
+      "path": ".agents/skills/augustus/references/activation-triggers.md",
+      "bytes": 476049,
+      "sha256": "9411bae9251d7bb9f41877bf6fe264cfc6a30c95063b551bd44ea410fd20a886",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/.agents/skills/augustus/references/activation-triggers.md"
+    },
+    {
+      "path": ".agents/skills/augustus/references/agent-self-assessment.md",
+      "bytes": 170137,
+      "sha256": "1dd7d63df951ff9cb01af0e9374518081266fca0b5d26965e191c112bcfbac67",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/.agents/skills/augustus/references/agent-self-assessment.md"
+    },
+    {
+      "path": ".agents/skills/augustus/references/applied-mappings.md",
+      "bytes": 256264,
+      "sha256": "24a32baef556fedb1609f8779bdd2df9655edf15b62ae07387ee75ce9a1af4e6",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/.agents/skills/augustus/references/applied-mappings.md"
+    },
+    {
+      "path": ".agents/skills/augustus/references/boundary-audit.md",
+      "bytes": 9887,
+      "sha256": "7519778a767db2fcc35403c224707778bbfa1d04990b2e7dbe90c426554a63da",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/.agents/skills/augustus/references/boundary-audit.md"
+    },
+    {
+      "path": ".agents/skills/augustus/references/composition-algebra.md",
+      "bytes": 448626,
+      "sha256": "8e15be4d32d539bf75d5157cc5dbde3f9f744a51cc66bc76cc6971e013dc7636",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/.agents/skills/augustus/references/composition-algebra.md"
+    },
+    {
+      "path": ".agents/skills/augustus/references/faq.md",
+      "bytes": 370289,
+      "sha256": "b18ee7398aff2d89af18f83ffad829e5a2eb150161afe7c29f294f44737f8bac",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/.agents/skills/augustus/references/faq.md"
+    },
+    {
+      "path": ".agents/skills/augustus/references/formal-methods.md",
+      "bytes": 191848,
+      "sha256": "efc59415f1208cb373b9fc974e8bc15f4af8cf25492ca6475eefe6f54f8a014a",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/.agents/skills/augustus/references/formal-methods.md"
+    },
+    {
+      "path": ".agents/skills/augustus/references/formal-semi-formal.md",
+      "bytes": 116566,
+      "sha256": "6c747cf2c448abb76c6b7b6292e2f5352967998565b8d7016d93901d29c33911",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/.agents/skills/augustus/references/formal-semi-formal.md"
+    },
+    {
+      "path": ".agents/skills/augustus/references/judgment-class.md",
+      "bytes": 254039,
+      "sha256": "712e2a06cad08479b38d4b42eaddfe824f732f6b6478a47940e1c44df5c0ee12",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/.agents/skills/augustus/references/judgment-class.md"
+    },
+    {
+      "path": ".agents/skills/augustus/references/mappings.md",
+      "bytes": 264421,
+      "sha256": "72bd9843c6b8a62f6c1ab53378ea5261e0797fbeb92c40e1617acd73ec19ced6",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/.agents/skills/augustus/references/mappings.md"
+    },
+    {
+      "path": ".agents/skills/augustus/references/mental-models.md",
+      "bytes": 327961,
+      "sha256": "fdec422935462eb4f808a4e692091dd2f45e7f0af7082a74b5bf06927d245e5a",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/.agents/skills/augustus/references/mental-models.md"
+    },
+    {
+      "path": ".agents/skills/augustus/references/methods-catalog.md",
+      "bytes": 197726,
+      "sha256": "2ce9149fa3f1a9d2a9548cb46ffc6ca3b1e54c71549ce45f88c1d68e13f72ff0",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/.agents/skills/augustus/references/methods-catalog.md"
+    },
+    {
+      "path": ".agents/skills/augustus/references/mixed-architecture.md",
+      "bytes": 398144,
+      "sha256": "45b0cdf0a4b57afec63a3ecc014ec023faa1ef548d1c1c05bf9a4cd86bf8d7ea",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/.agents/skills/augustus/references/mixed-architecture.md"
+    },
+    {
+      "path": ".agents/skills/augustus/references/optimizer-integration.md",
+      "bytes": 13555,
+      "sha256": "a01c6dc3f8bbe554764eccfe28d9ab1a6e8e735c836befa263635f6fc5900c60",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/.agents/skills/augustus/references/optimizer-integration.md"
+    },
+    {
+      "path": ".agents/skills/augustus/references/question-design.md",
+      "bytes": 196719,
+      "sha256": "a670fc0523d94bba0b6e5985469eb102fd2b2b28bab11691a21dedd8edb125e0",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/.agents/skills/augustus/references/question-design.md"
+    },
+    {
+      "path": ".agents/skills/augustus/references/toolbox-mapping.md",
+      "bytes": 204868,
+      "sha256": "0f8fcb8dcbe3f125facd02891023dd92c8b9cfce163856abbbf28409d0094389",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/.agents/skills/augustus/references/toolbox-mapping.md"
+    },
+    {
+      "path": ".agents/skills/augustus/references/validation.md",
+      "bytes": 253005,
+      "sha256": "0e1d905470bf41ae29d1edfe1efacce21691bfc4365434fb6085a91c9e031464",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/.agents/skills/augustus/references/validation.md"
+    },
+    {
+      "path": ".agents/skills/augustus/scripts/evaluate_decisions.py",
+      "bytes": 69673,
+      "sha256": "da5af92861f734d26fc3b7ef9719b0dd64f24d9720f79dbf3e9da07695e654e6",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/.agents/skills/augustus/scripts/evaluate_decisions.py"
+    },
+    {
+      "path": ".agents/skills/augustus/scripts/uniqueness_gate.py",
+      "bytes": 395400,
+      "sha256": "ec242ca26f4225d7833405aa0fa7106d8f6c286df43b7c530b8e7fe71bed1bab",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/.agents/skills/augustus/scripts/uniqueness_gate.py"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 3628,
+      "sha256": "7306a8ea4bf941cd1ad2fd6efca1dd9b975545c261d44257a786db407d326e51",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/CONTRIBUTING.md"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10649,
+      "sha256": "44c6dd324d316bf13c59e462f43a9e0466a58fe2e7c4dff09aa79fdbdca7cc92",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/README.md"
+    },
+    {
+      "path": "scripts/hourly-refresh.sh",
+      "bytes": 1739,
+      "sha256": "0178525d49aea56ec97b35f8ef7cf82894d0d093cd4ac76c2c3b6b00ed3d126c",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/scripts/hourly-refresh.sh"
+    },
+    {
+      "path": "scripts/refresh-jev-research.sh",
+      "bytes": 1230,
+      "sha256": "576fd47f22174505ec6d766e7c0bbb1b9ddf355635351a70cfc463cb35adf466",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/scripts/refresh-jev-research.sh"
+    },
+    {
+      "path": "docs/index.md",
+      "bytes": 6076,
+      "sha256": "546385bc39075b349aaa8de33cbc325c554ae99f632ef8ade17d8cfe53f42f3e",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/docs/index.md"
+    },
+    {
+      "path": "docs/_includes/recipes.html",
+      "bytes": 22774,
+      "sha256": "3949e012a599262e24e3554226e51cffd13913f9d27ebb30686f22541f0df250",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/docs/_includes/recipes.html"
+    },
+    {
+      "path": "docs/_includes/comparison.html",
+      "bytes": 3701,
+      "sha256": "cd2cac3bac00f2758b7c3c0453f5a990c580a6cd4dbe7500d3b9e88d39f2cc65",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/docs/_includes/comparison.html"
+    },
+    {
+      "path": "docs/ecosystem.md",
+      "bytes": 337175,
+      "sha256": "a9579a43750c56edde94d6a02fab2aca7ef7e51aaa2732ccb3c75441c18fa280",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/docs/ecosystem.md"
+    },
+    {
+      "path": "docs/_config.yml",
+      "bytes": 412,
+      "sha256": "d8d7eeb0c5a9b64cd270b74161b90418ec65f05e47cca07f025cd3b4a47ecb35",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/docs/_config.yml"
+    },
+    {
+      "path": "research/revisit_fingerprints.py",
+      "bytes": 22160,
+      "sha256": "359946e5ee9eef2ef69ad4b537145a34641c7d26f3a5e9814606fe8c0dfef6ac",
+      "url": "https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/research/revisit_fingerprints.py"
+    }
+  ]
+}

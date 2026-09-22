@@ -1,97 +1,67 @@
 <section class="section compare" aria-labelledby="compare-title">
   <div class="section-head">
-    <p class="kicker">Jev-class</p>
-    <h2 id="compare-title">With vs without Augustus</h2>
+    <p class="kicker">Decision design</p>
+    <h2 id="compare-title">From evidence to checked action</h2>
     <p>
-      Call the model and act on the score, or place the judgment. Jev is the
-      exemplar. Encoders, open heads, gameplay specialists, and conversion
-      on-ramps sit in the same class. Not TypeSafe-only.
+      Augustus makes the boundary reviewable: what is observed, what remains
+      exact, where bounded judgment helps, and who owns the resulting action.
     </p>
-    <ul class="class-chips" aria-label="Models in this class">
-      <li>Jev</li>
-      <li>kev</li>
-      <li>Laya</li>
-      <li>OpenJev</li>
-      <li>GLiNER</li>
-      <li>SemIf</li>
-      <li>NanoJev</li>
-      <li>Jeff-1</li>
-      <li>TypeLLM</li>
-    </ul>
   </div>
   <div class="compare-grid">
     <article class="compare-col compare-without panel">
       <header class="compare-head">
-        <p class="kicker">Without</p>
-        <h3>Call, then act</h3>
+        <p class="kicker">System boundary</p>
+        <h3>Frame the decision</h3>
       </header>
       <ol class="flow flow-broken">
         <li class="compare-step" style="--d: 80ms">
           <span class="flow-n" aria-hidden="true">1</span>
-          <span class="flow-body">Call the model</span>
+          <span class="flow-body">Name the desired behavior and baseline</span>
         </li>
         <li class="compare-step" style="--d: 140ms">
           <span class="flow-n" aria-hidden="true">2</span>
-          <span class="flow-body">Act on the score</span>
+          <span class="flow-body">Identify available and missing evidence</span>
+        </li>
+        <li class="compare-step" style="--d: 200ms">
+          <span class="flow-n" aria-hidden="true">3</span>
+          <span class="flow-body">Separate exact work, judgment, and generation</span>
         </li>
       </ol>
-      <div class="fail-well compare-step" style="--d: 200ms">
-        <p class="fail-label">Quiet failure modes</p>
-        <ul>
-          <li>Soft Noul treated as hard gate</li>
-          <li>GPT bakeoff framing</li>
-          <li>No falsifier</li>
-          <li>Polarity unchosen</li>
-        </ul>
+      <div class="fail-well compare-step" style="--d: 260ms">
+        <p class="fail-label">The placement question</p>
+        <p>Could a bounded judgment improve this decision enough to beat the current baseline?</p>
       </div>
     </article>
-    <span class="compare-vs" aria-hidden="true">vs</span>
+    <span class="compare-vs" aria-hidden="true">→</span>
     <article class="compare-col compare-with panel">
       <header class="compare-head">
-        <p class="kicker">With Augustus</p>
-        <h3>Place, then judge</h3>
+        <p class="kicker">Review artifact</p>
+        <h3>Make the policy explicit</h3>
       </header>
       <ol class="flow flow-solid">
         <li class="compare-step" style="--d: 80ms">
-          <span class="flow-n" aria-hidden="true">1</span>
-          <span class="flow-body">State</span>
+          <span class="flow-n" aria-hidden="true">4</span>
+          <span class="flow-body">Define the judgment and every output</span>
         </li>
-        <li class="compare-step" style="--d: 120ms">
-          <span class="flow-n" aria-hidden="true">2</span>
-          <span class="flow-body">Pillar / family map</span>
-        </li>
-        <li class="compare-step" style="--d: 160ms">
-          <span class="flow-n" aria-hidden="true">3</span>
-          <span class="flow-body">Question design</span>
+        <li class="compare-step" style="--d: 140ms">
+          <span class="flow-n" aria-hidden="true">5</span>
+          <span class="flow-body">Set policy, authority, fallback, and execution checks</span>
         </li>
         <li class="compare-step" style="--d: 200ms">
-          <span class="flow-n" aria-hidden="true">4</span>
-          <span class="flow-body">Fail-open vs fail-closed</span>
-        </li>
-        <li class="compare-step" style="--d: 240ms">
-          <span class="flow-n" aria-hidden="true">5</span>
-          <span class="flow-body">Typed judgment
-            <span class="token">Choice</span>
-            <span class="token">Score</span>
-            <span class="token">Noul</span>
-          </span>
-        </li>
-        <li class="compare-step" style="--d: 280ms">
           <span class="flow-n" aria-hidden="true">6</span>
-          <span class="flow-body">Code owns effects</span>
+          <span class="flow-body">Evaluate the complete workflow on held-out evidence</span>
         </li>
-        <li class="compare-step" style="--d: 320ms">
+        <li class="compare-step" style="--d: 260ms">
           <span class="flow-n" aria-hidden="true">7</span>
-          <span class="flow-body">Named falsifying experiment</span>
+          <span class="flow-body">Record the outcome and next decision</span>
         </li>
       </ol>
     </article>
   </div>
   <p class="compare-caption">
-    Shared class: Jev, kev, Laya, OpenJev, GLiNER, SemIf, NanoJev, Jeff-1,
-    localjev. Augustus owns placement. The model owns narrow judgment. Code
-    owns the effect.
-    <a href="#recipes">Class recipes</a>
-    (problem → without → with → measure).
+    TypeSafe Jev is the default hosted exemplar for
+    <span class="token">Choice</span>, <span class="token">Score</span>, and
+    <span class="token">Noul</span>. Other families may fit the same placement,
+    but each needs its own contracts and evidence.
   </p>
 </section>
