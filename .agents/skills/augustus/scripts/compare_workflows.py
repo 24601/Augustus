@@ -24,6 +24,7 @@ import hashlib
 import json
 import math
 from pathlib import Path
+import statistics
 import sys
 
 
@@ -57,8 +58,9 @@ def _text(value, name):
 
 
 def _mean(values):
-    # Divide first: a finite mean must not overflow from summing raw values.
-    return math.fsum(value / len(values) for value in values)
+    # statistics.mean accumulates exact ratios before rounding to float.
+    # Dividing first can both overflow near float max and erase subnormals.
+    return statistics.mean(values)
 
 
 def compare(receipt):

@@ -36,8 +36,9 @@ Task text is not reproduced from private session storage. Each replacement
 below was assigned as fresh work against primary artifacts/current source,
 not as approval of a prior report. Follow-ups are part of the same scope.
 
-All replacement workers were explicitly requested as `gpt-6-astra`, effort
-`xhigh`, with fresh context. Native tools expose the requested routing but no
+The initial replacement workers were explicitly requested as `gpt-6-astra`, effort
+`xhigh`, with fresh context. The later adversarial gate uses requested Astra/ultra.
+Native tools expose the requested routing but no
 independent serving-checkpoint or complete billing attestation. Worker
 self-descriptions and an `ASTRA REVIEW` heading are not such attestation.
 
@@ -229,5 +230,23 @@ wording; crawler indexing and traffic conversion unmeasured. Site/Markdown
 checkers are bounded, not complete parsers. Evaluator threshold search remains
 quadratic in distinct scores and collector socket timeouts are not a global
 deadline. These are disclosed boundaries, not fabricated acceptance.
+
+### Later user-requested adversarial gate
+
+The [heavy adversarial review](2026-09-22-adversarial-070.md) rejected initial
+commit `9b4d86d96c92656a97af521c9ed5a5ccad905034` for three concrete numerical
+defects despite its 88 passing tests. The parent corrected them and added eight
+tests; **96 pass on all three Python versions**. Only the two helper scripts
+changed in runtime after the six-answer engine test. Its existing receipt
+produces byte-identical comparison output with the corrected comparator; this
+is a helper rerun, not another blind behavioral answer. The report records old
+and new runtime hashes, findings, fixes and limitations.
+
+The [existing-listing audit](2026-09-22-listing-positioning.md) additionally
+recommends amending one open PR and five description-only updates. No third-party
+submission was made. Recurring/release guidance now checks accepted, open,
+rejected and crawler-managed surfaces without inferring outreach authority.
+Fresh final approval of the complete corrected revision remains a gate and
+will be linked from the PR/publication receipt.
 
 API-EQUIVALENT COST RECEIPT: unavailable—native tools did not expose complete usage.

@@ -26,6 +26,12 @@ checks alone do not authorize publishing or changing account settings.
 - Read back GitHub description, homepage, and topics against the current
   mission. A local README correction does not update the repository's About
   field. Change only authorized fields; do not alter account/security settings.
+- When positioning changes, audit existing awesome-list/directory entries and
+  submissions. Separate accepted entries, open requests, rejected requests, and
+  crawler-managed pages. Recommend in-place corrections with each maintainer's
+  contribution rules; do not duplicate submissions or reopen a scope rejection.
+  An audit does not authorize third-party PRs, issues, or outreach. Record the
+  current wording and next action rather than claiming listings updated.
 - Leave a publication receipt linking checks and exact revisions. Historical
   pre-release audits remain historical; link the receipt rather than rewrite
   them as if deployment had already happened. Report a clean or explained tree.

@@ -1,8 +1,11 @@
 import copy
+from fractions import Fraction
 import importlib.util
 import json
 import math
 from pathlib import Path
+import random
+import struct
 import subprocess
 import sys
 import tempfile
@@ -136,6 +139,93 @@ class WorkflowComparisonTests(unittest.TestCase):
         self.assertEqual(result["candidate"]["mean_cost"], 1e308)
         self.assertTrue(math.isfinite(result["confirmation"]["upper_mean_loss_delta"]))
         json.dumps(result, allow_nan=False)
+
+    def test_exact_mean_preserves_constant_extremes_and_subnormal_values(self):
+        for value in (sys.float_info.max, 1e308, 1e-308, 1e-323, 5e-324):
+            for n in (2, 3, 7, 1000):
+                data = receipt(n, "search")
+                data["loss_bound"] = value
+                for pair in data["pairs"]:
+                    for arm in ("incumbent", "candidate"):
+                        for metric in ("loss", "cost", "latency_ms"):
+                            pair[arm][metric] = value
+                with self.subTest(value=value, n=n):
+                    result = compare.compare(data)
+                    for arm in ("incumbent", "candidate"):
+                        for metric in ("mean_loss", "mean_cost", "mean_latency_ms"):
+                            self.assertEqual(result[arm][metric], value)
+                    self.assertEqual(result["mean_loss_delta"], 0)
+                    json.dumps(result, allow_nan=False)
+
+    def test_mean_matches_exact_ratio_oracle_across_magnitudes_and_signs(self):
+        samples = (
+            [sys.float_info.max, sys.float_info.max, 0.0],
+            [5e-324, 1e-323, 1.5e-323],
+            [-1.0, 1.0, 5e-324],
+            [1.0, -0.5, 1e-20, 0.0],
+        )
+        for values in samples:
+            expected = float(sum(Fraction(value) for value in values) / len(values))
+            with self.subTest(values=values):
+                self.assertEqual(compare._mean(values), expected)
+                self.assertEqual(compare._mean(list(reversed(values))), expected)
+
+    def test_random_finite_means_match_exact_oracle_and_stay_within_range(self):
+        rng = random.Random(70322)
+        for _ in range(512):
+            values = []
+            size = rng.randrange(1, 20)
+            while len(values) < size:
+                value = struct.unpack(">d", rng.getrandbits(64).to_bytes(8, "big"))[0]
+                if math.isfinite(value):
+                    values.append(value)
+            expected = float(sum(map(Fraction, values)) / len(values))
+            actual = compare._mean(values)
+            self.assertEqual(actual, expected)
+            self.assertTrue(min(values) <= actual <= max(values))
+            self.assertEqual(compare._mean(list(reversed(values))), actual)
+
+    def test_fixed_sample_two_point_null_respects_declared_error_budget(self):
+        # Independent fair +/-1 deltas have true mean zero. Enumerate the
+        # exact binomial rejection probability, not Monte Carlo or real data.
+        for n in (1, 2, 3, 5, 10, 20, 40, 80):
+            for family in (1, 3, 10):
+                error = Fraction(0)
+                for wins in range(n + 1):
+                    data = receipt(n)
+                    data["evidence_kind"] = "observed"
+                    data["comparison_count"] = family
+                    for pair in data["pairs"][wins:]:
+                        pair["incumbent"]["loss"] = 0
+                        pair["candidate"]["loss"] = 1
+                    result = compare.compare(data)
+                    if result["confirmation"]["strict_margin_supported"]:
+                        error += Fraction(math.comb(n, wins), 2**n)
+                with self.subTest(n=n, family=family):
+                    self.assertLessEqual(error, Fraction(1, 20*family))
+
+    def test_schema_mutations_fail_normally_or_produce_serializable_results(self):
+        values = (None, True, False, -1, 0, 1, 1.5, "", "bad", [], {},
+                  ["bad"], {"bad": 1}, float("nan"), float("inf"))
+        paths = [(key,) for key in receipt()]
+        paths += [("pairs", 0, key) for key in ("id", "incumbent", "candidate")]
+        paths += [("pairs", 0, arm, key) for arm in ("incumbent", "candidate")
+                  for key in ("loss", "cost", "latency_ms", "violations")]
+        for path in paths:
+            for value in values:
+                data = receipt()
+                target = data
+                for key in path[:-1]:
+                    target = target[key]
+                target[path[-1]] = value
+                with self.subTest(path=path, value=value):
+                    try:
+                        result = compare.compare(data)
+                    except ValueError:
+                        continue
+                    # Valid mutations may pass; all other exception types
+                    # escape and fail the test. Successful outputs stay JSON.
+                    json.dumps(result, allow_nan=False)
 
     def test_input_is_not_mutated_and_pair_order_does_not_change_metrics(self):
         data = receipt(5)

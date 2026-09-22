@@ -45,6 +45,14 @@ interpretation was right. Review interpretations and deployment assumptions too.
 Rotate the old-card cohort by risk and age rather than claiming every repository
 was audited each week. Preserve unreviewed items and their true review ages.
 
+For discoverability reassessment, revisit the existing registration/listing
+ledger before proposing new submissions. Compare current descriptions and
+categories with actual released capabilities; check open and rejected requests
+and the maintainer's editing surface. Track crawler refresh/preview defects
+separately from curated-entry changes. Presence, accurate positioning, indexing,
+qualified discovery and successful use require different evidence. External
+submission or outreach still needs authority.
+
 ## Scheduler handoff and liveness checks
 
 The scheduler owner must retain:

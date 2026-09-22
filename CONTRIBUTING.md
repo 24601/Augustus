@@ -48,6 +48,13 @@ Use shellcheck when changing shell scripts. Check the rendered site when
 changing its structure. Repository checks need no API keys, model calls,
 or network research. Record anything not run.
 
+For numerical changes, exercise the declared input range, not only typical
+values: largest finite values, subnormals, cancellation, ties and boundaries.
+Use an independent exact-rational or high-precision oracle where possible.
+Check constant-mean preservation, finite bounded results and permutation
+invariance. A named “overflow test” at `1e308` does not cover float maximum;
+an algebraically equivalent rearrangement can introduce another failure.
+
 ### Site and installation smoke checks
 
 The Pages workflow builds with GitHub Pages' Jekyll toolchain. To reproduce

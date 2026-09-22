@@ -1,5 +1,7 @@
+from fractions import Fraction
 import importlib.util
 import json
+import math
 import subprocess
 import sys
 import tempfile
@@ -90,6 +92,36 @@ class EvaluateDecisionsTests(unittest.TestCase):
         self.assertEqual(evaluate.selective_policy(rows, 0.2, 0.8, 1e308, 1, 1)["cost"], 1e308)
         rows = [{"id": str(i), "p": 0.5, "y": 0} for i in range(2)]
         self.assertEqual(evaluate.selective_policy(rows, 0.2, 0.8, 1, 1, 1e308)["cost"], 1e308)
+
+    def test_selective_cost_preserves_maximum_and_subnormal_constant_means(self):
+        rows = [
+            {"p": .9, "y": 0},
+            {"p": .1, "y": 1}, {"p": .1, "y": 1},
+            {"p": .5, "y": 0}, {"p": .5, "y": 0},
+        ]
+        for value in (sys.float_info.max, 1e-323, 5e-324):
+            with self.subTest(value=value):
+                result = evaluate.selective_policy(rows, .2, .8, value, value, value)
+                self.assertEqual((result["fp"], result["fn"], result["abstentions"]), (1, 2, 2))
+                self.assertEqual(result["cost"], value)
+                self.assertEqual(evaluate._complete_cost(1, 1, 2, value, value), value)
+
+    def test_weighted_cost_matches_exact_oracle_for_mixed_magnitudes(self):
+        for costs in ((sys.float_info.max, 1e308, 0.0), (5e-324, 1e-323, 1.5e-323)):
+            for fp in range(6):
+                for fn in range(6-fp):
+                    counts = (fp, fn, 5-fp-fn)
+                    expected = float(sum(Fraction(c)*n for c, n in zip(costs, counts)) / 5)
+                    self.assertEqual(evaluate._weighted_cost(5, *zip(costs, counts)), expected)
+
+    def test_negative_class_log_loss_does_not_cancel_small_probabilities(self):
+        for p in (5e-324, 1e-20, 1e-17, 1e-10, .5):
+            expected = -math.log1p(-p)
+            with self.subTest(p=p):
+                self.assertGreater(expected, 0)
+                self.assertEqual(evaluate.log_loss([{"p": p, "y": 0}]*3), expected)
+        self.assertEqual(evaluate.log_loss([{"p": 1.0, "y": 0}]), math.inf)
+        self.assertEqual(evaluate.log_loss([{"p": 0.0, "y": 0}]), 0)
 
     def test_selective_policy_boundary_and_cost_arithmetic(self):
         rows = [

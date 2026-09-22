@@ -43,6 +43,10 @@ exact candidate/tag installation, CI, coherent version/public discovery surfaces
 new immutable tag, release and deployed-commit read-back. Do not mutate normal
 plugin settings, pay for services or send outreach without authority. A research
 collector must never stage, commit, push or publish on its own.
+When positioning changes, check existing curated listings and open submissions
+before proposing more. Respect rejected scope decisions; distinguish a crawler
+refresh or preview bug from a new registration. Draft accurate in-place updates,
+but do not treat a discoverability audit as permission to submit them.
 
 Deliver working artifacts, actual evidence, a justified acceptance decision and
 remaining limits. Distinguish capability, installation, activation, public

@@ -19,8 +19,10 @@ cost additionally requires --cost-abstain.
 """
 
 import argparse
+from fractions import Fraction
 import json
 import math
+import statistics
 import sys
 
 
@@ -135,13 +137,19 @@ def log_loss(rows, key="p"):
     replacing it with an arbitrary epsilon would silently change the metric.
     """
     _validate_rows(rows, key)
-    total = 0.0
+    losses = []
     for row in rows:
-        probability = row[key] if row["y"] == 1 else 1.0 - row[key]
-        if probability == 0.0:
-            return math.inf
-        total -= math.log(probability)
-    return total / len(rows)
+        p = row[key]
+        if row["y"] == 1:
+            if p == 0.0:
+                return math.inf
+            losses.append(-math.log(p))
+        else:
+            if p == 1.0:
+                return math.inf
+            # Forming 1-p first discards small but representable losses.
+            losses.append(-math.log1p(-p))
+    return statistics.mean(losses)
 
 
 def reliability(rows, bins=10, key="p"):
@@ -227,6 +235,12 @@ def pairwise_ranking_auc(rows, key="p"):
     return wins / (positive_total * negative_total)
 
 
+def _weighted_cost(total, *cost_counts):
+    # Exact rational accumulation avoids rounded shares overflowing a finite
+    # mean or erasing subnormal costs. Only the final result rounds to float.
+    return float(sum(Fraction(cost) * count for cost, count in cost_counts) / total)
+
+
 def _complete_cost(fp, fn, total, cost_fp, cost_fn):
     if cost_fp is None and cost_fn is None:
         return None
@@ -236,7 +250,7 @@ def _complete_cost(fp, fn, total, cost_fp, cost_fn):
     cost_fn = _nonnegative_cost(cost_fn, "cost-fn")
     if cost_fp == 0.0 and cost_fn == 0.0:
         raise ValueError("at least one of cost-fp or cost-fn must be positive")
-    return cost_fp * (fp / total) + cost_fn * (fn / total)
+    return _weighted_cost(total, (cost_fp, fp), (cost_fn, fn))
 
 
 def sweep(rows, thresholds, cost_fp=None, cost_fn=None, key="p"):
@@ -322,8 +336,7 @@ def selective_policy(rows, lower, upper, cost_fp=None, cost_fn=None, cost_abstai
         c_abstain = _nonnegative_cost(cost_abstain, "cost-abstain")
         if c_fp == c_fn == c_abstain == 0.0:
             raise ValueError("at least one policy cost must be positive")
-        cost = (c_fp * (fp / len(rows)) + c_fn * (fn / len(rows))
-                + c_abstain * (abstained / len(rows)))
+        cost = _weighted_cost(len(rows), (c_fp, fp), (c_fn, fn), (c_abstain, abstained))
     return {
         "lower_threshold": lower,
         "upper_threshold": upper,

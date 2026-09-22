@@ -14,6 +14,13 @@ revisits, emerging-method research, targeted promotions and unrun experiments.
 The [decision-engine extension](decision-engine-2026-09-22.md) connects the
 research to composition, working evals and iterative improvement. Use the
 [maintainer prompt](prompts/maintainer.md) to preserve that mission in future work.
+The [current acceptance record](audits/2026-09-22-refresh-acceptance.md) maps
+independent re-reviews to actual evidence and pending publication gates.
+The [adversarial release review](audits/2026-09-22-adversarial-070.md) records
+three rejected numerical behaviors, corrections and the fresh-review gate.
+The [existing-listing audit](audits/2026-09-22-listing-positioning.md) proposes
+targeted positioning updates, distinguishes accepted/open/rejected/crawler
+surfaces, and records that no external submissions were made.
 
 The [2026-09-21 decision-model review](decision-model-review-2026-09-21.md)
 covers primary sources, current model families, calibration, selective

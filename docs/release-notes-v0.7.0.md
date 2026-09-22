@@ -50,11 +50,16 @@ and explicit constraints—not merely read about model placement.
   requested GPT-6 Astra/xhigh agents. Corrected unnecessary training/filtering
   requirements, a blanket calibration prerequisite, post-action enforcement
   claims, Alloy temporal limits, and distillation overstatements.
-- **Regression protection.** The offline suite grows from 53 to 88 tests.
+- **Regression protection.** The offline suite grows from 53 to 96 tests.
   Skill scenarios grow from 12 to 31, with fresh answers reviewed by the
   coordinator. Structural checks and behavioral smoke tests are distinct.
+  Adversarial review additionally caught maximum-float overflow, subnormal
+  aggregation errors and log-loss cancellation; exact arithmetic oracles,
+  randomized boundary probes and fixed-sample null checks now cover those paths.
 - **Discoverability checks.** Corrected About metadata, verified current directory
   presence and page layout, fixed encoded fragments, and added `noindex` checks.
+  Audited existing awesome-list entries and drafted targeted positioning updates;
+  no third-party PRs, issues or corrections were submitted by that audit.
   Installation, implicit activation, indexing, and real benefit remain separate
   claims; listings alone do not establish growth.
 
@@ -79,7 +84,9 @@ Use the explicit GitHub Pages gem activation in CONTRIBUTING for a matched build
 
 Read the [refresh and source dispositions](https://github.com/24601/Augustus/blob/v0.7.0/research/decision-model-review-2026-09-22.md),
 [replacement ledger and integration evidence](https://github.com/24601/Augustus/blob/v0.7.0/research/audits/2026-09-22-refresh-acceptance.md),
+[adversarial findings and corrections](https://github.com/24601/Augustus/blob/v0.7.0/research/audits/2026-09-22-adversarial-070.md),
 [discoverability audit](https://github.com/24601/Augustus/blob/v0.7.0/research/audits/2026-09-22-astra-redo-discoverability.md),
+[existing-listing update queue](https://github.com/24601/Augustus/blob/v0.7.0/research/audits/2026-09-22-listing-positioning.md),
 and [maintainer guidance](https://github.com/24601/Augustus/blob/v0.7.0/research/prompts/maintainer.md).
 These dated artifacts preserve what was verified at each stage; final publication
 and deployment are recorded on the release PR. Requested model routing is not
