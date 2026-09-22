@@ -55,13 +55,17 @@ locally, use an isolated Ruby environment with `github-pages` 232 (Jekyll
 3.10.0), then run:
 
 ```bash
-JEKYLL_ENV=production jekyll build --source docs --destination _site
+JEKYLL_ENV=production ruby -e 'gem "github-pages", "=232"; load Gem.bin_path("jekyll", "jekyll", "3.10.0")' -- build --source docs --destination _site
 python3 scripts/check_site.py _site
 ```
 
-This checks actual rendered links, fragments, canonical URLs, metadata,
-social assets, sitemap entries, and robots metadata. It does not certify
-search indexing or layout. Preview the built site at its `/Augustus/`
+Explicit gem activation selects Pages' dependency versions; a bare `jekyll`
+executable can select newer installed plugins. The checker covers rendered
+HTML links/fragments, canonical URLs, metadata (including common `noindex`
+directives), asset existence, sitemap entries, and the project robots file's
+sitemap declaration. It does not decode images, scan CSS asset URLs, inspect
+HTTP indexing headers, or certify indexing/layout. Project-path `robots.txt`
+is not origin-wide crawler policy. Preview the built site at its `/Augustus/`
 base path and inspect the homepage, install cards, and examples at desktop
 and 390-pixel mobile widths. Check that document scroll width does not
 exceed the viewport; long commands may scroll inside their own boxes.
@@ -97,6 +101,8 @@ the Unreleased changelog, and distinguish last published from development
 state in the README. Research-only evidence updates need no package bump.
 Releases require the complete checks, behavioral review, an exact tag, and
 an install smoke test. Never amend a published tag to replace its contents.
+Use [the release checklist](research/release-checklist.md), including public
+metadata read-back and the distinction between packaged, published, and deployed.
 
 ## Scope and secrets
 

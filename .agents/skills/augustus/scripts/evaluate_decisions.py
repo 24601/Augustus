@@ -27,7 +27,10 @@ import sys
 def _finite_number(value, name):
     if isinstance(value, bool) or not isinstance(value, (int, float)):
         raise ValueError(f"{name} must be a finite number")
-    value = float(value)
+    try:
+        value = float(value)
+    except OverflowError as exc:
+        raise ValueError(f"{name} must be a finite number") from exc
     if not math.isfinite(value):
         raise ValueError(f"{name} must be a finite number")
     return value
@@ -84,9 +87,9 @@ def load(path):
         if not line.strip():
             continue
         try:
-            row = json.loads(line)
-        except json.JSONDecodeError as exc:
-            raise ValueError(f"line {line_number}: invalid JSON: {exc.msg}") from exc
+            row = json.loads(line, object_pairs_hook=_unique_object)
+        except (ValueError, RecursionError) as exc:
+            raise ValueError(f"line {line_number}: invalid JSON: {exc}") from exc
         if not isinstance(row, dict):
             raise ValueError(f"line {line_number}: row must be a JSON object")
         row_id = row.get("id")
@@ -109,6 +112,15 @@ def load(path):
     if not rows:
         raise ValueError("no labeled rows found")
     return rows
+
+
+def _unique_object(pairs):
+    result = {}
+    for key, value in pairs:
+        if key in result:
+            raise ValueError(f"duplicate JSON key {key!r}")
+        result[key] = value
+    return result
 
 
 def brier(rows, key="p"):
@@ -224,7 +236,7 @@ def _complete_cost(fp, fn, total, cost_fp, cost_fn):
     cost_fn = _nonnegative_cost(cost_fn, "cost-fn")
     if cost_fp == 0.0 and cost_fn == 0.0:
         raise ValueError("at least one of cost-fp or cost-fn must be positive")
-    return (cost_fp * fp + cost_fn * fn) / total
+    return cost_fp * (fp / total) + cost_fn * (fn / total)
 
 
 def sweep(rows, thresholds, cost_fp=None, cost_fn=None, key="p"):
@@ -271,7 +283,11 @@ def always_negative(rows, cost_fp=None, cost_fn=None, key="p"):
 
 
 def cost_optimal_threshold(rows, cost_fp, cost_fn, key="p"):
-    """Find the lowest-cost complete binary policy, including always-negative."""
+    """Find the lowest-cost complete binary policy, including always-negative.
+
+    This transparent small-dataset search is O(n * distinct scores), worst-case
+    O(n squared); use a cumulative sorted-count implementation for large files.
+    """
     _validate_rows(rows, key)
     candidates = sweep(rows, sorted({0.0, 1.0, *(row[key] for row in rows)}),
                        cost_fp, cost_fn, key)
@@ -306,7 +322,8 @@ def selective_policy(rows, lower, upper, cost_fp=None, cost_fn=None, cost_abstai
         c_abstain = _nonnegative_cost(cost_abstain, "cost-abstain")
         if c_fp == c_fn == c_abstain == 0.0:
             raise ValueError("at least one policy cost must be positive")
-        cost = (c_fp * fp + c_fn * fn + c_abstain * abstained) / len(rows)
+        cost = (c_fp * (fp / len(rows)) + c_fn * (fn / len(rows))
+                + c_abstain * (abstained / len(rows)))
     return {
         "lower_threshold": lower,
         "upper_threshold": upper,

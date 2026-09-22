@@ -16,7 +16,69 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
-No unreleased changes.
+No changes yet.
+
+## [0.7.0] - 2026-09-22
+
+### Why this release matters
+
+Augustus is an **agent skill and working method for discovering, building,
+evaluating, and iteratively improving decision-model systems**—including
+Software 3.0 programs, evaluation harnesses, and prompt/program hill climbing.
+It is not a vendor catalog or a median survey of what others have built.
+Research supplies good/bad patterns and hypotheses; mathematical composition
+rules and independently observed outcomes determine which methods to retain.
+
+This mission is now explicit in the README, skill activation metadata, Codex UI,
+Claude marketplace description, and website for discoverability. The new
+composition calculus and executable paired-outcome evaluator make the workflow
+more actionable. This is not a claim of universal optimality, measured user
+growth, or a demonstrated deployment gain from the skill itself.
+
+### Added
+
+- A typed composition calculus: branch and selected-cascade accounting,
+  dependence-safe risk budgets, bounded-loss decision regret, joint-information
+  substitution limits, and closed-loop outcome contracts.
+- An executable paired-workflow outcome comparator with fixed-sample bounded-loss
+  confirmation, explicit provenance/unknowns, and no deployment side effects.
+- An agent build/evaluate/improve loop for decision-driven and Software 3.0
+  systems, with bounded search, protected confirmation, regression and rollback.
+
+### Changed
+
+- Refined wrapper score semantics, permutation averaging, multimodal observation
+  limits, and full-pipeline cost/latency accounting from a new primary-source refresh.
+- Added finite-sample support planning and controlled injection-evaluation guidance.
+- Re-derived the session's prior delegated work with requested GPT-6 Astra/xhigh
+  reviews and fresh behavioral answers; scenario coverage grows from 12 to 31.
+- Required explicit discovery-versus-inspection coverage, requested-source
+  dispositions, and publication/metadata read-back in maintainer checklists.
+- Defined recurring changed-source, aged-card, and whole-skill reassessment;
+  left the unverified external scheduler explicitly open rather than claiming
+  that a collector script establishes unattended research.
+
+### Fixed
+
+- Removed unnecessary specialist-training, RAG-filter, calibration, and
+  all-metrics-win requirements. Distinguished detection from preventive
+  enforcement, Alloy object bounds from temporal horizons, and distillation
+  targets from independently established truth.
+- Rejected duplicate JSON keys and normalized malformed-input failures;
+  prevented finite mean-cost overflow and conflicting repository identities.
+- Enforced installed-skill link containment and recursive reference budgets;
+  corrected fence parsing, SemVer validation, encoded site fragments, and
+  accidental `noindex` detection. The suite now has 88 regression tests, including
+  executable composition counterexamples and workflow comparisons.
+- Corrected GitHub About wording and documented explicit Pages toolchain
+  activation. Directory preview/activation and user-growth gaps remain visible.
+
+Minor-release scope: new outcome-evaluation capability and operational agent
+workflow, plus corrected guidance/helpers; no new provider integration or
+breaking valid-input API. The planned 0.6.1 patch was not published. Historical TypeSafe skill provenance
+remains [`v0.5.7`](https://github.com/typesafe-ai/skills/tree/65a39f393687675ce170e6094757de20370365b9).
+See [release notes](docs/release-notes-v0.7.0.md) and the
+[full refresh](research/decision-model-review-2026-09-22.md).
 
 ## [0.6.0] - 2026-09-22
 

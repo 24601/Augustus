@@ -1,10 +1,12 @@
 # Working on Augustus
 
-Augustus is a design-judgment skill: apply classical decision methods to
-bounded semantic judgments across software, business, organizations, and
-life. TypeSafe Jev is the default hosted exemplar; the mission covers the
-whole class. The output is a useful placement, explicit policy, and a
-falsifying evaluation, including when the right answer is no model.
+Augustus equips agents to find, build, evaluate, and iteratively improve systems
+using decision models across software, business, organizations, and life.
+Mathematical and scientific methods supply the structure; real outcomes decide
+which compositions survive. TypeSafe Jev is the default hosted exemplar; the
+mission covers the whole class. Advice delivers a placement, policy and falsifier;
+implementation requests deliver working systems/evals; improvement requests
+deliver bounded, evidence-led iteration. No model remains a valid design choice.
 
 ## Changes that last
 
@@ -14,6 +16,10 @@ falsifying evaluation, including when the right answer is no model.
 - Promote a finding only if it changes a design decision. Refine the
   relevant concept instead of appending it to every reference. One source
   claiming a benchmark win does not establish a general rule.
+- Synthesize explanatory good/bad patterns, not a median survey. Cross-field
+  transfers need a variable/units/assumptions map and a falsifier. Keep theorems,
+  simulations, fixtures, source-reported results, and actual product outcomes
+  separate. An optimizer score or elegant calculus cannot validate itself.
 - Preserve exact work, authorization, and effects in code or explicit human
   policy. Distinguish probability, concentration/confidence, ordinal score,
   ranking, calibration, and observed action success.
@@ -23,6 +29,14 @@ falsifying evaluation, including when the right answer is no model.
 - Do not make tests pass by matching a slogan or returning a supplied
   boolean. Test actual arithmetic, parsing, policy behavior, and failures.
   Structural lint cannot certify semantic skill quality.
+- Challenge universal requirements with a counterexample. Do not require an
+  extra model, calibration step, training run, or win on every metric unless
+  the method or user's acceptance policy actually needs it. A monitor after
+  an irreversible effect is detection, not prevention.
+- Honor requested delegate models/effort; never silently downgrade. Record
+  requested routing separately from observable runtime identity. Delegates
+  supply evidence, not acceptance; the coordinator owns the integrated diff,
+  actual behavioral answers, and final release judgment.
 
 ## Workflow
 

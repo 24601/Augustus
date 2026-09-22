@@ -50,7 +50,7 @@ The shape of a real hole:
 ```text
 unstructured or contextual evidence
         → a bounded judgment is required
-        → software needs a typed value to continue
+        → software or an accountable process needs structured evidence
 ```
 
 Typical contents of that hole: intent, routing, moderation, document
@@ -61,17 +61,17 @@ case comparison, fuzzy match / entity alignment, escalation.
 
 ## Fit test
 
-A hole is a strong Jev candidate when most of these hold:
+A hole is a strong decision-model candidate when most of these hold:
 
 - the input is language or context, not already-structured facts
-- the required output can be bounded (Choice set, Score levels, Noul
-  proposition)
-- software needs the answer programmatically
-- a knowledgeable person could answer in a second given the state
+- the required output can be bounded (labels, ranks, spans, rubric levels,
+  or a proposition; Choice/Score/Noul are example interfaces)
+- software or a repeatable human decision process can use the answer
+- a knowledgeable person could answer from the supplied state without new research
 - the judgment can be stated explicitly
 - uncertainty is useful (abstain / confirm / escalate)
 - the result can be tested against examples or labels
-- code can own the action after the judgment
+- code or accountable human policy can own the action after the judgment
 
 Be skeptical when the task needs long deliberation, many dependent
 intermediate conclusions, open-ended generation, or autonomous planning.
@@ -90,8 +90,8 @@ CURRENT METHOD: how the judgment is made today
 CANDIDATE: yes / no / maybe
 WHY: bounded semantic decision or not
 STATE: minimum evidence (structured, current, observed — not assumed)
-PRIMITIVE: Choice / Score / Noul; atomic questions
-COMPOSITION: what code does with the answers
+PRIMITIVE: bounded label / rank / span / rubric / proposition; atomic questions
+COMPOSITION: what code or accountable policy does with the answers
 UNCERTAINTY: behavior when unclear (per-action, not one global bar)
 RISK: cost of a wrong judgment
 EVALUATION: experiment that could reject this insertion
@@ -193,8 +193,9 @@ agents.
 If the property is a restatement of a definition (`canImport = P ∨ Q`
 then "prove" `¬P ∧ ¬Q ⇒ ¬canImport`), the checker passing is not a
 result. Do not add a Noul "does this spec look good?" on top. Demand a
-subtle property (concurrency, liveness, multi-step) and a run of the
-real tool (`formal-methods.md` §5 AI×FM). A specification that
+meaningful property that can fail on a plausible bad implementation, plus a run
+of the real tool and a mutation/vacuity check (`formal-methods.md` §5 AI×FM).
+A specification that
 typechecks is not necessarily a faithful or adequately tested model.
 
 ### Harmful-uses checklist

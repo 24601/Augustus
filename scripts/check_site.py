@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Validate the rendered GitHub Pages site without making network requests."""
+"""Validate rendered Pages structure without network requests.
+
+Checks HTML links/assets, common robots meta directives, canonical/sitemap
+URLs, and the project robots file's sitemap declaration. Does not decode images,
+parse CSS URLs, inspect HTTP headers, or validate origin-level crawler policy.
+"""
 
 from __future__ import annotations
 
@@ -8,6 +13,7 @@ from dataclasses import dataclass
 from html.parser import HTMLParser
 from pathlib import Path
 import posixpath
+import re
 import sys
 from typing import Iterable
 from urllib.parse import unquote, urljoin, urlsplit
@@ -42,6 +48,7 @@ class PageParser(HTMLParser):
         self.canonicals: list[str] = []
         self.descriptions: list[str] = []
         self.og_images: list[str] = []
+        self.indexing_blocks: list[str] = []
         self.references: list[tuple[str, str]] = []
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
@@ -66,6 +73,10 @@ class PageParser(HTMLParser):
                 self.descriptions.append(attrs_by_name.get("content", ""))
             if attrs_by_name.get("property", "").lower() == "og:image":
                 self.og_images.append(attrs_by_name.get("content", ""))
+            if attrs_by_name.get("name", "").lower() in {"robots", "googlebot", "bingbot"}:
+                directives = set(re.split(r"[\s,]+", attrs_by_name.get("content", "").lower()))
+                if directives.intersection({"noindex", "none"}):
+                    self.indexing_blocks.append(attrs_by_name.get("content", ""))
         for attribute in ("href", "src", "poster", "action"):
             value = attrs_by_name.get(attribute)
             if value and not (lowered == "link" and attribute == "href" and "canonical" in attrs_by_name.get("rel", "").lower().split()):
@@ -138,7 +149,7 @@ def resolve_reference(
     """Return the local target and fragment; external URLs return (None, None)."""
     parsed = urlsplit(reference)
     if not parsed.path and not parsed.netloc and not parsed.scheme:
-        return current, parsed.fragment or None
+        return current, unquote(parsed.fragment) or None
     if parsed.scheme and parsed.scheme not in {"http", "https"}:
         return None, None
     if parsed.scheme in {"http", "https"} or parsed.netloc:
@@ -146,8 +157,8 @@ def resolve_reference(
         origin = f"{absolute.scheme}://{absolute.netloc}"
         if origin != site_url.rstrip("/"):
             return None, None
-        return page_target(site_dir, current, absolute.path or "/", base_url), absolute.fragment or None
-    return page_target(site_dir, current, parsed.path or "", base_url), parsed.fragment or None
+        return page_target(site_dir, current, absolute.path or "/", base_url), unquote(absolute.fragment) or None
+    return page_target(site_dir, current, parsed.path or "", base_url), unquote(parsed.fragment) or None
 
 
 def validate_html_pages(site_dir: Path, site_url: str, base_url: str) -> list[Issue]:
@@ -169,6 +180,8 @@ def validate_html_pages(site_dir: Path, site_url: str, base_url: str) -> list[Is
             issues.append(Issue(relative, "description", "expected one non-empty meta description"))
         if len(parser.og_images) != 1 or not parser.og_images[0].strip():
             issues.append(Issue(relative, "og-image", "expected one non-empty og:image"))
+        for directive in parser.indexing_blocks:
+            issues.append(Issue(relative, "noindex", f"public page blocks indexing: {directive}"))
         if parser.main_count != 1:
             issues.append(Issue(relative, "main", f"expected one <main>, found {parser.main_count}"))
         if parser.h1_count != 1:

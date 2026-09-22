@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-22",
+  "skill_version": "0.6.1-dev",
+  "agent": "/root/refresh_behavior",
+  "requested_model": "gpt-5.6-sol",
+  "requested_effort": "high",
+  "observed_model": "unobservable",
+  "observed_effort": "unobservable",
+  "expected_notes_withheld": true,
+  "scope": "Read-only answers; no provider benchmark or host implicit-activation test.",
+  "references_read": [
+    "SKILL.md",
+    "boundary-audit.md",
+    "mental-models.md",
+    "judgment-class.md",
+    "question-design.md",
+    "mixed-architecture.md",
+    "validation.md",
+    "composition-algebra.md"
+  ],
+  "answers": [
+    {
+      "id": "exact_dates",
+      "prompt": "Our invoices already have validated ISO due dates and payment dates. Should we use a decision model to decide whether each payment was late?",
+      "answer": "No decision model is needed. “Late” is exact once policy is explicit: compare the validated payment timestamp with the due-date cutoff in code. Define timezone, whether the due date is inclusive, business-day or holiday adjustments, grace periods, and how partial or missing payments behave. Keep those rules versioned and auditable. A model would add uncertainty without adding evidence."
+    },
+    {
+      "id": "plain_rewrite",
+      "prompt": "Rewrite this sentence more clearly: The meeting was moved because the room was unavailable.",
+      "answer": "The meeting was rescheduled because the room was unavailable."
+    },
+    {
+      "id": "portfolio",
+      "prompt": "Our community library has funding for three of eight proposed programs. Staff notes describe likely demand and accessibility, and costs are known. Help us make the decision.",
+      "answer": "Use a small MCDA process, probably without a model: eight proposals are manageable for an accountable panel. First make eligibility, total budget, and “choose at most three” exact constraints. Define separate rubrics for likely demand and accessibility, using concrete levels and the same evidence window for every proposal. Decide explicitly whether accessibility is a hard minimum or a compensating criterion; do not bury a veto inside a weighted total.\n\nHave two reviewers score the staff notes independently, preserve the criterion-level scores and disagreements, then enumerate feasible three-program portfolios. Show the board how the result changes under plausible weights and accessibility rules. Reject the recommendation if modest defensible weight changes replace most of the selected portfolio, if a dominated proposal wins, or if missing evidence is treated as a low score. The board remains the decision owner; the scorecard structures judgment but does not authorize spending."
+    },
+    {
+      "id": "wrapped_confidence",
+      "prompt": "We replaced the official client with a compatible wrapper. It averages option permutations and puts the winning mean probability in confidence. Can our existing confidence >= 0.8 approval rule stay unchanged?",
+      "answer": "No. The wrapper has changed the statistic’s meaning: `confidence` is now the winning option’s mean probability after permutation aggregation, not necessarily the official client’s confidence measure. Keeping the same field name and JSON shape does not preserve calibration or the behavior of a `confidence >= 0.8` policy.\n\nVersion the wrapper and aggregation rule as a new instrument. On deployment-like held-out cases, align permutations by stable option IDs and compare the official client, a canonical ordering, and the wrapper. Measure proper scores, reliability, action errors, decided coverage, option-order action flips, latency, and cost. Select any new threshold on a calibration split, freeze it, and report performance on an untouched test split. Until that requalification passes an acceptance criterion tied to approval errors and review load, route wrapper results to the existing fallback rather than inheriting `0.8`."
+    },
+    {
+      "id": "permutation_guarantee",
+      "prompt": "Two orderings assign the true label probabilities 0.8 and 0.4. Averaging gives 0.6. A teammate says Jensen proves this beats either ordering and is calibrated, so eight sampled permutations make any Choice safe. Check that claim and propose the smallest test.",
+      "answer": "The claim is false. For the true label, averaging `0.8` and `0.4` gives `0.6`. Jensen says the convex loss at the averaged prediction is no worse than the **average loss** of the two predictions. It does not say `0.6` beats the better `0.8` prediction. With log loss, `-log(0.6)` is worse than `-log(0.8)` and better than `-log(0.4)`. One case also says nothing about calibration, which is a population property.\n\nEight sampled permutations add no universal safety guarantee. They may stabilize order effects, but remain correlated predictions from the same evidence and are not the full permutation group.\n\nThe smallest test is a frozen, paired holdout comparing one canonical ordering with the fixed eight-order aggregate. Align semantic label IDs, record sampled orders and ties, and measure log loss or Brier score, action flips at the actual policy threshold, calibration, latency, and coverage. Reject the ensemble if it worsens policy loss or offers no worthwhile stability gain."
+    },
+    {
+      "id": "multimodal_window",
+      "prompt": "A multimodal decision head supports video and returns high confidence that a 10-minute inspection contains no fault. Its loader samples 16 frames. Can we let it sign off the inspection?",
+      "answer": "No. The result is conditioned on the 16 sampled frames, not on all ten minutes. A fault occurring between sampled frames is missing evidence, and high confidence cannot recover an event the loader never observed. The head may be useful for triage, but it should not sign off the inspection.\n\nKeep sign-off behind a coverage-preserving process: continuous telemetry, a validated higher-coverage detector, deterministic inspection requirements, or human review. Record the loader’s frame-selection rule, clipping behavior, preprocessing, missing-media behavior, and exact observation window.\n\nThe smallest falsifier is to place short, unmistakable faults at controlled times, including intervals guaranteed to fall outside the sampled frames. Measure event recall and end-to-end false sign-offs, not only frame-level accuracy. If faults outside the sampled window still receive confident “no fault” answers—as expected—the current placement fails for authorization even if it remains useful as a review-priority sensor."
+    },
+    {
+      "id": "rag_accounting",
+      "prompt": "Our RAG filter keeps 15 percent of chunks and the model judge accepts 98 of 100 answers in both arms. The timer starts after filtering and the cost chart uses another model's token rate. Can we announce equal quality at lower cost?",
+      "answer": "Not yet. Equal `98/100` acceptance counts do not establish equal quality: the arms may fail on different questions, a model judge is not automatically gold, and equality requires a prespecified equivalence or noninferiority margin with adequate power. The comparison must be paired on the same questions and initial retrieval candidates, with retained-evidence recall and final answer quality both measured.\n\nThe latency claim is incomplete because the timer excludes filtering; include retrieval, filtering, retries, follow-up searches, answer generation, and fallback. The cost chart is only a scenario estimate if it uses another model’s token rate. Report actual usage and the deployed model’s pricing or label the subtotal and assumptions explicitly.\n\nRun a frozen paired evaluation with adjudicated quality checks, confidence intervals on paired differences, evidence-recall loss, complete wall-clock latency, and total serving cost. Announce lower cost at equivalent quality only if the quality bound stays within the agreed margin and the full workflow—not merely post-filter generation—wins."
+    },
+    {
+      "id": "risk_support",
+      "prompt": "Our frozen routing rule made no mistakes on 20 independent accepted examples in a rare category. Can we claim its error is below 1 percent with 95 percent confidence? We also have 40 other categories.",
+      "answer": "No. Under a frozen rule and IID Bernoulli assumptions, zero mistakes in 20 accepted cases gives a one-sided 95% upper error bound of:\n\n`1 - 0.05^(1/20) ≈ 13.9%`\n\nThat is far above 1%. To support an upper bound of 1% under those assumptions requires at least 299 independent, error-free accepted cases. This calculation is invalid if the threshold was selected using the same examples or if the cases are clustered or shifted.\n\nThe other 40 categories do not increase support for this rare category unless you justify pooling them into a coarser population. If you need a below-1% claim for every category, each reporting unit needs adequate accepted-case support and simultaneous-error control; pooling all rows silently changes the claim. Keep review for this category, gather more independent accepted examples, and report the current result honestly as “0 observed errors in 20,” with its compatible uncertainty range."
+    },
+    {
+      "id": "attack_controls",
+      "prompt": "Appending hostile text changed 12 of 20 classifier answers. We repeated each case five times and want to publish a 60 percent injection vulnerability rate over 100 independent samples. Is that a sound claim?",
+      "answer": "No. The defensible top-line observation is that 12 of 20 distinct eligible cases changed under the hostile append: a 60% **case-level flip rate**, subject to a wide interval. Repeating each case five times produces clustered trials, not 100 independent samples. The repeats estimate within-case runtime variability; they do not multiply independent support about the population by five.\n\nAlso verify that each append preserved the intended gold label. If hostile text adds substantive evidence, a changed answer may be legitimate. Pair every attack with the clean input and a length-matched harmless append, report clean failures, attack-only flips, harmless-control flips, and the eligible denominator. Analyze uncertainty at the case level or with a method that respects clustering.\n\nA useful claim would be: “12/20 tested cases exhibited at least one attack-induced action flip,” followed by the repeat stability and control results. Do not publish “60% over 100 independent samples.”"
+    },
+    {
+      "id": "local_parity",
+      "prompt": "A local constrained decoder has the same JSON API as Jev and agrees on 95 of 100 examples, twice as fast. Is it a drop-in replacement for our approval queue?",
+      "answer": "No. JSON compatibility establishes representation, not semantic or policy equivalence. Agreement on 95 of 100 examples is teacher agreement, not correctness, and the five disagreements may cluster near the approval threshold or in the costliest cases. The local decoder’s probabilities, calibration, no-match behavior, malformed-output modes, and shift sensitivity may differ even when its labels usually match. “Twice as fast” also needs a defined boundary covering hardware, cold starts, batching, retries, and fallback.\n\nRun it in shadow mode on a frozen, representative approval-queue set with independently adjudicated labels or observed outcomes. Compare action errors, calibration, risk versus decided coverage, subgroup and threshold-neighborhood failures, fallback rate, and end-to-end latency/cost under the actual frozen approval policy. Predeclare a noninferiority margin for harmful approvals and review workload. Until it passes, use it only for reversible prioritization or send its proposed approvals through existing review; do not treat it as a drop-in authority."
+    }
+  ],
+  "parent_review": {
+    "verdict": "fix-first",
+    "reviewer": "parent coordinator",
+    "blocking_case": "attack_controls",
+    "finding": "The answer calls all 20 cases eligible and offers an attack-induced action-flip claim before controls or downstream actions are established. Correct caveats elsewhere do not excuse this overclaim.",
+    "other_cases": "Pass on applicable rubric aspects; simple controls need no decision card. Portfolio constraints are proposed policy, not a fabricated selected portfolio.",
+    "correction": "Validation guidance now explicitly limits uncontrolled observations to answer changes; eligibility, causality and downstream effects remain unknown. Added argmax-versus-threshold clarification from separate source inspection.",
+    "retest": "fresh agent /root/refresh_behavior_recheck"
+  }
+}

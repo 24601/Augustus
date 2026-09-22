@@ -38,7 +38,7 @@ model evidence without making that evidence a proof.
 
 | Tool/family | What it establishes | Boundary | Judgment-shaped hole |
 |---|---|---|---|
-| Alloy Analyzer | relational instances/counterexamples via SAT within a finite scope | “no instance in this scope,” not unbounded proof | cluster or prioritize instances (**Hypothesis**) |
+| Alloy Analyzer | relational instances/counterexamples in a finite signature scope; Alloy 6 also checks temporal traces | record object bounds, temporal mode, backend, and completed result; not arbitrary object counts or deployed code | cluster or prioritize instances (**Hypothesis**) |
 | TLA+ with TLC | explicit-state exploration of a TLA+ spec | state space/config and modeled behavior | map logs to behaviors; triage counterexamples (**Hypothesis**) |
 | TLA+ with Apalache | symbolic SMT-backed checking/analysis of supported TLA+ fragments | bounded/symbolic assumptions and encoding | prioritize properties/outputs (**Hypothesis**) |
 | Quint | executable specification language with simulation and checker integrations | simulation is not verification; backend determines claim | UI/trace triage (**Hypothesis**) |
@@ -49,8 +49,10 @@ model evidence without making that evidence a proof.
 
 ### Alloy Analyzer vs Apalache (do not collapse)
 
-- **Alloy** is principally a relational model finder/analyzer using finite
-  scopes and SAT-style solving.
+- **Alloy** analyzes relational models in a finite signature scope.
+  [Alloy 6](https://alloytools.org/alloy6.html) supports bounded temporal checking
+  and, with a suitable backend, complete checking of all traces in that finite
+  scope. Object bounds and the temporal horizon are different limits.
 - **Apalache** is a symbolic model checker/analyzer for TLA+ using SMT-based
   techniques for supported fragments and tasks.
 - **TLC** explicitly explores states of a TLA+ specification.
@@ -59,6 +61,16 @@ They differ in modeling language, semantics, solver strategy, and the claim a
 green run supports. “The spec looks right” from a decision model occupies none
 of these seats. Record tool version, model, property, configuration, scope or
 bound, and result.
+
+### Runtime detection vs enforcement
+
+A trace monitor can detect a violation without preventing it. Blocking an
+irreversible effect requires a suitable interlock at or before the effect
+boundary, not merely a later alarm. State the enforceable property, timing,
+authoritative observations, fallback, and recovery assumptions; a finite trace
+may leave a temporal claim pending. [Execution-monitor theory](https://www.cs.cornell.edu/fbs/publications/EnfSecPols.pdf)
+is conditional on its enforcement model. The concrete placement and falsifier
+are in `mappings.md` §12.
 
 ### Semi-formal artifacts (shared vocabulary, not enforcement)
 

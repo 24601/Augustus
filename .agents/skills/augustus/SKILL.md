@@ -1,9 +1,9 @@
 ---
 name: augustus
-description: "Design and evaluate decision-model placements in software, business, organizations, and everyday life. Use for bounded classification, routing, ranking, Choice/Score/Noul, uncertainty, and deciding what belongs with models, code, or human judgment. TypeSafe Jev is the default hosted exemplar. Not for straightforward arithmetic, prose rewriting, or provider setup alone."
+description: "Find, build, evaluate, and improve systems using decision models. Use for bounded classification, routing, ranking, Choice/Score/Noul, decision-model composition, evaluation harnesses, prompt/program hill climbing, and Software 3.0 workflows across software, business, organizations, and life. Separate models, code, and human judgment. TypeSafe Jev is the default hosted exemplar. Not for straightforward arithmetic, prose rewriting, or provider setup alone."
 license: MIT
 metadata:
-  version: 0.6.0
+  version: 0.7.0
   typesafe_skill: v0.5.7
   typesafe_skill_commit: 65a39f3
   tribute: "Named for Augustus De Morgan (1806-1871), mentor of William Stanley Jevons."
@@ -11,9 +11,12 @@ metadata:
 
 # Augustus
 
-Place judgment where it improves a decision. Use classical mathematical,
-logical, and algorithmic methods across AI, software, business, knowledge
-work, organizations, and life. The central model is:
+Equip agents to discover useful decision-model placements, build working
+systems, construct evaluations, and improve them through measured iterations.
+Use mathematical, statistical, scientific, and algorithmic methods across AI,
+software, business, knowledge work, organizations, and life. This is an engine
+for agent work, not a survey to imitate or a claim of autonomous deployment.
+The central model is:
 
 **evidence → bounded judgment → explicit policy → checked action → observed outcome**
 
@@ -53,10 +56,15 @@ This is an independent skill, not a TypeSafe product.
    the complete workflow, not just format compliance or model accuracy.
    Follow [validation](references/validation.md) and name a result that
    would reject the proposal. If it loses, keep the baseline.
-6. Deliver a compact decision-design card and the smallest falsifying
-   experiment. Implement when the user requests implementation. Describe
-   unrun work as unrun; keep raw judgments separate from derived actions
-   and record versions so policies can be replayed.
+6. Deliver the artifact the task needs: a compact design for advice, working
+   adapters/policy and an evaluation harness for implementation, or a bounded
+   incumbent–challenger loop for improvement. Use the
+   [composition calculus](references/composition-algebra.md) to check joins
+   and the [optimizer workflow](references/optimizer-integration.md) to build
+   and hill-climb decision programs. Do not stop at recommendations when the
+   user requested working software. Keep experiments within existing authority.
+   Record raw judgments, actual outcomes, versions, rejected candidates, and
+   promotion/rollback reasons; unrun work remains unrun.
 
 For a concrete request, recommend one placement with reasons. For an
 open-ended exploration, compare materially different placements only when
@@ -104,9 +112,10 @@ Judgments and output semantics; what remains exact or generated:
 Policy, costs/utility, constraints, authority, and execution checks:
 Abstention/error behavior and fallback owner:
 Batchable versus dependent steps:
-Model, rubric, candidate-source, calibration, and policy versions:
+Model, adapter/aggregation, rubric, candidate-source, calibration, policy versions:
 Development/calibration/test split and label provenance:
 Falsifier, metrics, acceptable risk/coverage, and evaluation artifact:
+Implementation/evaluation entry points; search budget and confirmation plan:
 Observed result, limitations, and next decision:
 ```
 
@@ -153,3 +162,10 @@ their identity and prior claims. Popularity changes alone do not change
 guidance. Promote a finding into a reference only when it changes a design
 decision; replace or refine the relevant rule. Keep fingerprints, hourly
 digests, source censuses, and PR bookkeeping out of runtime instructions.
+
+Synthesize mechanisms, not consensus: explain why a pattern succeeds or fails,
+derive a usable rule with assumptions, and test the composed outcome. Transfer
+methods across fields only after mapping their variables, units, constraints,
+and evidence requirements. Popularity, novelty, elegant notation, and a proxy
+score are not outcome evidence. "Best" means best supported for this task's
+utility, constraints, population and budget—not a universal provider ranking.

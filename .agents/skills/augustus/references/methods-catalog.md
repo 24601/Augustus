@@ -27,7 +27,7 @@ paraphrase; train/test leakage; subgroup or temporal collapse.
 
 | Method | Judgment placement | Stays exact | Preconditions / status |
 |---|---|---|---|
-| Selective classification | probability evidence for act/abstain | loss table, thresholds, coverage evaluation | target-population calibration; **Theory + empirical policy** |
+| Selective classification | score/ranking or probability evidence for act/abstain | selection rule, fallback, risk/coverage evaluation | deployment-relevant labels and valid selection/evaluation; calibration additionally needed when policy interprets values as probabilities; **Theory + empirical policy** |
 | Reliability calibration | raw output evaluated/corrected on labels | binning/fitting, Brier/log loss, confidence intervals | representative calibration set; **Theory** |
 | Self-consistency | repeated judgments estimate variability | aggregation and escalation | diversity/independence source understood; **Pattern**, not proof |
 | Inter-rater reliability | model as one rater on frozen artifacts | agreement statistics and gold adjudication | fixed rubric and sampling; **Hypothesis** per judge |
@@ -139,7 +139,7 @@ general. Low entropy can be confidently wrong or omit the correct option.
 |---|---|---|
 | Bayes | update after genuinely new evidence | likelihood model; no invented independence |
 | LLN / variance reduction | average suitable repeated samples | independence/weak dependence and stable distribution |
-| Jensen | compute nonlinear utility from full distribution | correct support/probabilities; `E[f(X)] != f(E[X])` |
+| Jensen | compute nonlinear utility from full distribution | for convex `f`, `f(E[X]) <= E[f(X)]`; concavity reverses the inequality; equality is possible; preserve distribution/utility assumptions |
 | Markov property | compact state for a loop | state contains all history relevant to transition/outcome |
 | Goodhart | independent outcome check for optimized judgment metric | gold signal not identical to proxy |
 | Simpson's paradox | inspect population strata | meaningful stratification and enough data |

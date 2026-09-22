@@ -1,0 +1,1078 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "requested_id": "github:typesafe-ai/skills",
+      "id": "github:typesafe-ai/skills",
+      "node_id": "R_kgDOUDLV7Q",
+      "retrieved_at": "2026-09-22T15:38:01.803660+00:00",
+      "html_url": "https://github.com/typesafe-ai/skills",
+      "description": "Agent skills for building with TypeSafe's System One API",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "65a39f393687675ce170e6094757de20370365b9",
+        "pushed_at": "2026-09-12T05:42:06Z",
+        "description_hash": "29d80e0ef4f2",
+        "release_tag": null
+      },
+      "release": {
+        "tag_name": null,
+        "published_at": null,
+        "html_url": null,
+        "fetch_error": "gh: Not Found (HTTP 404)"
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "9976e1fd715a52c6c250393e1cac58ec2900dce0",
+        "size": 1336,
+        "download_url": "https://raw.githubusercontent.com/typesafe-ai/skills/65a39f393687675ce170e6094757de20370365b9/README.md",
+        "fetch_error": null
+      },
+      "license": "MIT",
+      "review": {
+        "depth": "metadata_only",
+        "disposition": "discovery-lead-no-capability-claim"
+      }
+    },
+    {
+      "requested_id": "github:typesafe-ai/typesafe-sdk-python",
+      "id": "github:typesafe-ai/typesafe-sdk-python",
+      "node_id": "R_kgDOUOswyQ",
+      "retrieved_at": "2026-09-22T15:38:01.807551+00:00",
+      "html_url": "https://github.com/typesafe-ai/typesafe-sdk-python",
+      "description": "The official Python library for the TypeSafe API",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "0ffd094c72ed9445223060b24ffd7a56aa781fb4",
+        "pushed_at": "2026-09-21T15:57:12Z",
+        "description_hash": "f0855a25af32",
+        "release_tag": "v0.7.1"
+      },
+      "release": {
+        "tag_name": "v0.7.1",
+        "published_at": "2026-09-21T15:58:04Z",
+        "html_url": "https://github.com/typesafe-ai/typesafe-sdk-python/releases/tag/v0.7.1",
+        "fetch_error": null
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "361a3bc13e198b897e253126103fb8e874c48653",
+        "size": 880,
+        "download_url": "https://raw.githubusercontent.com/typesafe-ai/typesafe-sdk-python/0ffd094c72ed9445223060b24ffd7a56aa781fb4/README.md",
+        "fetch_error": null
+      },
+      "license": "MIT",
+      "review": {
+        "depth": "official_release_changelog",
+        "artifacts": [
+          "https://docs.typesafe.ai/sdk/python/changelog.md"
+        ],
+        "disposition": "archive-only"
+      }
+    },
+    {
+      "requested_id": "github:typesafe-ai/typesafe-sdk-js",
+      "id": "github:typesafe-ai/typesafe-sdk-js",
+      "node_id": "R_kgDOUOvfFg",
+      "retrieved_at": "2026-09-22T15:38:00.749317+00:00",
+      "html_url": "https://github.com/typesafe-ai/typesafe-sdk-js",
+      "description": "The official TypeScript/JavaScript library for the TypeSafe API",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "66880ccded6cb642dc1809620c2b108c33730214",
+        "pushed_at": "2026-09-15T18:16:49Z",
+        "description_hash": "38d4d45a89a9",
+        "release_tag": "v0.6.0"
+      },
+      "release": {
+        "tag_name": "v0.6.0",
+        "published_at": "2026-09-15T18:17:21Z",
+        "html_url": "https://github.com/typesafe-ai/typesafe-sdk-js/releases/tag/v0.6.0",
+        "fetch_error": null
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "7e834076c14e955e7fa943a1405c1c304fabfe56",
+        "size": 991,
+        "download_url": "https://raw.githubusercontent.com/typesafe-ai/typesafe-sdk-js/66880ccded6cb642dc1809620c2b108c33730214/README.md",
+        "fetch_error": null
+      },
+      "license": "MIT",
+      "review": {
+        "depth": "metadata_only",
+        "disposition": "discovery-lead-no-capability-claim"
+      }
+    },
+    {
+      "requested_id": "github:typesafe-ai/system-one-adapter-python",
+      "id": "github:typesafe-ai/system-one-adapter-python",
+      "node_id": "R_kgDOTytOSQ",
+      "retrieved_at": "2026-09-22T15:38:01.806970+00:00",
+      "html_url": "https://github.com/typesafe-ai/system-one-adapter-python",
+      "description": "Drop-in TypeSafeClient replacement backed by LLM APIs",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "e1d4cc938204b22fc5a3c3aca7044072fe3f712d",
+        "pushed_at": "2026-09-22T12:24:32Z",
+        "description_hash": "c415d9355016",
+        "release_tag": "v0.2.1"
+      },
+      "release": {
+        "tag_name": "v0.2.1",
+        "published_at": "2026-09-22T12:25:28Z",
+        "html_url": "https://github.com/typesafe-ai/system-one-adapter-python/releases/tag/v0.2.1",
+        "fetch_error": null
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "b6419aae3b55b6541d9a019966b85725f50aca84",
+        "size": 6125,
+        "download_url": "https://raw.githubusercontent.com/typesafe-ai/system-one-adapter-python/e1d4cc938204b22fc5a3c3aca7044072fe3f712d/README.md",
+        "fetch_error": null
+      },
+      "license": "MIT",
+      "review": {
+        "depth": "release_and_selected_source_diff",
+        "artifacts": [
+          "README.md",
+          "docs/changelog.md",
+          "src/system_one_adapter/_client.py",
+          "src/system_one_adapter/providers/anthropic.py",
+          "src/system_one_adapter/providers/base.py"
+        ],
+        "disposition": "refine-reference"
+      }
+    },
+    {
+      "requested_id": "github:TheoLeeCJ/SemIf",
+      "id": "github:TheoLeeCJ/SemIf",
+      "node_id": "R_kgDOUc5tow",
+      "retrieved_at": "2026-09-22T15:38:00.782485+00:00",
+      "html_url": "https://github.com/TheoLeeCJ/SemIf",
+      "description": "Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.",
+      "default_branch": "master",
+      "fingerprints": {
+        "default_sha": "1f2dea3e25379f9dfc98cb83c324f00ab5deda37",
+        "pushed_at": "2026-09-21T20:07:30Z",
+        "description_hash": "4fb2e39c4c8f",
+        "release_tag": null
+      },
+      "release": {
+        "tag_name": null,
+        "published_at": null,
+        "html_url": null,
+        "fetch_error": "gh: Not Found (HTTP 404)"
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "290666f09384630d357131ce95dcf85791daaf77",
+        "size": 11594,
+        "download_url": "https://raw.githubusercontent.com/TheoLeeCJ/SemIf/1f2dea3e25379f9dfc98cb83c324f00ab5deda37/README.md",
+        "fetch_error": null
+      },
+      "license": "MIT",
+      "review": {
+        "depth": "commit_and_readme_diff_calibration_method",
+        "artifacts": [
+          "README.md",
+          "docs/CALIBRATION.md"
+        ],
+        "disposition": "refine-reference"
+      }
+    },
+    {
+      "requested_id": "github:jaredpalmer/kev",
+      "id": "github:jaredpalmer/kev",
+      "node_id": "R_kgDOUfXmpg",
+      "retrieved_at": "2026-09-22T15:38:07.634911+00:00",
+      "html_url": "https://github.com/jaredpalmer/kev",
+      "description": "tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "1c351992ba3df4a0a0f2ae03051b25466a2c7bcb",
+        "pushed_at": "2026-09-22T15:33:49Z",
+        "description_hash": "47fc60928c90",
+        "release_tag": "kev-family"
+      },
+      "release": {
+        "tag_name": "kev-family",
+        "published_at": "2026-09-20T17:18:57Z",
+        "html_url": "https://github.com/jaredpalmer/kev/releases/tag/kev-family",
+        "fetch_error": null
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "2609bf219b9069f6a5c72d00e61ff3491850a311",
+        "size": 28660,
+        "download_url": "https://raw.githubusercontent.com/jaredpalmer/kev/1c351992ba3df4a0a0f2ae03051b25466a2c7bcb/README.md",
+        "fetch_error": null
+      },
+      "license": "Apache-2.0",
+      "review": {
+        "depth": "commit_and_readme_diff",
+        "artifacts": [
+          "README.md"
+        ],
+        "disposition": "archive-only"
+      }
+    },
+    {
+      "requested_id": "github:TianyuCodings/NanoJev",
+      "id": "github:TianyuCodings/NanoJev",
+      "node_id": "R_kgDOUfBLzg",
+      "retrieved_at": "2026-09-22T15:38:07.596015+00:00",
+      "html_url": "https://github.com/TianyuCodings/NanoJev",
+      "description": "A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline.",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "76fdfc9ecdca45a9bcef17991a07d3041a87685a",
+        "pushed_at": "2026-09-21T09:58:28Z",
+        "description_hash": "92ce9454eeeb",
+        "release_tag": null
+      },
+      "release": {
+        "tag_name": null,
+        "published_at": null,
+        "html_url": null,
+        "fetch_error": "gh: Not Found (HTTP 404)"
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "a8f8afeb7e4462e45211aaeee391bfd4ee2e9cc2",
+        "size": 9366,
+        "download_url": "https://raw.githubusercontent.com/TianyuCodings/NanoJev/76fdfc9ecdca45a9bcef17991a07d3041a87685a/README.md",
+        "fetch_error": null
+      },
+      "license": "MIT",
+      "review": {
+        "depth": "metadata_only",
+        "disposition": "discovery-lead-no-capability-claim"
+      }
+    },
+    {
+      "requested_id": "github:wfzyx/von",
+      "id": "github:wfzyx/von",
+      "node_id": "R_kgDOUfrk7A",
+      "retrieved_at": "2026-09-22T15:38:08.154199+00:00",
+      "html_url": "https://github.com/wfzyx/von",
+      "description": "The open-source System One decision model. Sub-15ms, non-autoregressive, local drop-in alternative to TypeSafe Jev.",
+      "default_branch": "master",
+      "fingerprints": {
+        "default_sha": "581b87499e7d72fc267b145706ef79bee83a800a",
+        "pushed_at": "2026-09-22T15:13:09Z",
+        "description_hash": "34db25cb81c1",
+        "release_tag": null
+      },
+      "release": {
+        "tag_name": null,
+        "published_at": null,
+        "html_url": null,
+        "fetch_error": "gh: Not Found (HTTP 404)"
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "f736f18ab2bc615f0535af4deefa502c2d7f4f61",
+        "size": 19585,
+        "download_url": "https://raw.githubusercontent.com/wfzyx/von/581b87499e7d72fc267b145706ef79bee83a800a/README.md",
+        "fetch_error": null
+      },
+      "license": "Apache-2.0",
+      "review": {
+        "depth": "selected_commit_messages_and_readme_diff",
+        "artifacts": [
+          "README.md"
+        ],
+        "disposition": "investigate"
+      }
+    },
+    {
+      "requested_id": "github:bespokelabsai/nimble",
+      "id": "github:bespokelabsai/nimble",
+      "node_id": "R_kgDOUf54AA",
+      "retrieved_at": "2026-09-22T15:38:08.677227+00:00",
+      "html_url": "https://github.com/bespokelabsai/nimble",
+      "description": "Local typed decisions, contrastive data curation, and model evaluation.",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "f136b3f75721fda4ea961f73993cc50b08488835",
+        "pushed_at": "2026-09-20T19:44:35Z",
+        "description_hash": "d6b46a233923",
+        "release_tag": null
+      },
+      "release": {
+        "tag_name": null,
+        "published_at": null,
+        "html_url": null,
+        "fetch_error": "gh: Not Found (HTTP 404)"
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "9728c39cbc889e90ebc05318fced74bc68747990",
+        "size": 26224,
+        "download_url": "https://raw.githubusercontent.com/bespokelabsai/nimble/f136b3f75721fda4ea961f73993cc50b08488835/README.md",
+        "fetch_error": null
+      },
+      "license": null,
+      "review": {
+        "depth": "metadata_only",
+        "disposition": "discovery-lead-no-capability-claim"
+      }
+    },
+    {
+      "requested_id": "github:Knowledgator/GLiClass",
+      "id": "github:Knowledgator/GLiClass",
+      "node_id": "R_kgDOMD04Zg",
+      "retrieved_at": "2026-09-22T15:38:08.153985+00:00",
+      "html_url": "https://github.com/Knowledgator/GLiClass",
+      "description": "Generalist and Lightweight Model for Text Classification",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "40baa67cdea577449bc3f6a251646377b2cb0a6c",
+        "pushed_at": "2026-07-21T17:26:05Z",
+        "description_hash": "1a8f3da514ce",
+        "release_tag": "v0.1.20"
+      },
+      "release": {
+        "tag_name": "v0.1.20",
+        "published_at": "2026-07-21T17:31:30Z",
+        "html_url": "https://github.com/Knowledgator/GLiClass/releases/tag/v0.1.20",
+        "fetch_error": null
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "c4847b1dbb8da52d71bd0ba23c3ef4b5ae54a52a",
+        "size": 12165,
+        "download_url": "https://raw.githubusercontent.com/Knowledgator/GLiClass/40baa67cdea577449bc3f6a251646377b2cb0a6c/README.md",
+        "fetch_error": null
+      },
+      "license": "Apache-2.0",
+      "review": {
+        "depth": "metadata_only",
+        "disposition": "discovery-lead-no-capability-claim"
+      }
+    },
+    {
+      "requested_id": "github:urchade/GLiNER",
+      "id": "github:urchade/GLiNER",
+      "node_id": "R_kgDOKtc8-A",
+      "retrieved_at": "2026-09-22T15:38:11.836248+00:00",
+      "html_url": "https://github.com/urchade/GLiNER",
+      "description": "Generalist and Lightweight Model for Named Entity Recognition (Extract any entity types from texts)",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "cf9e5f7d9fb99158b592132a9ec7cbfabb43a9a0",
+        "pushed_at": "2026-09-08T12:50:09Z",
+        "description_hash": "d938c29c6713",
+        "release_tag": "v0.2.29"
+      },
+      "release": {
+        "tag_name": "v0.2.29",
+        "published_at": "2026-09-08T12:40:52Z",
+        "html_url": "https://github.com/urchade/GLiNER/releases/tag/v0.2.29",
+        "fetch_error": null
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "9c9edaad5a4e65c22707c94565584ccd187d5a53",
+        "size": 17577,
+        "download_url": "https://raw.githubusercontent.com/urchade/GLiNER/cf9e5f7d9fb99158b592132a9ec7cbfabb43a9a0/README.md",
+        "fetch_error": null
+      },
+      "license": "Apache-2.0",
+      "review": {
+        "depth": "metadata_only",
+        "disposition": "discovery-lead-no-capability-claim"
+      }
+    },
+    {
+      "requested_id": "github:fastino-ai/GLiNER2",
+      "id": "github:fastino-ai/GLiNER2",
+      "node_id": "R_kgDOPIdtjw",
+      "retrieved_at": "2026-09-22T15:38:16.013595+00:00",
+      "html_url": "https://github.com/fastino-ai/GLiNER2",
+      "description": "Unified Schema-Based Information Extraction",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "4abb6132c9efe737712003669dd1f569f6a5cb82",
+        "pushed_at": "2026-09-22T01:24:54Z",
+        "description_hash": "2be6fd363974",
+        "release_tag": "v2.0.0"
+      },
+      "release": {
+        "tag_name": "v2.0.0",
+        "published_at": "2026-08-24T15:40:11Z",
+        "html_url": "https://github.com/fastino-ai/GLiNER2/releases/tag/v2.0.0",
+        "fetch_error": null
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "05bfa938ca5d4fc720120553e4a673e853921a9b",
+        "size": 49109,
+        "download_url": "https://raw.githubusercontent.com/fastino-ai/GLiNER2/4abb6132c9efe737712003669dd1f569f6a5cb82/README.md",
+        "fetch_error": null
+      },
+      "license": "Apache-2.0",
+      "review": {
+        "depth": "metadata_only",
+        "disposition": "discovery-lead-no-capability-claim"
+      }
+    },
+    {
+      "requested_id": "github:PriorLabs/TabPFN",
+      "id": "github:PriorLabs/TabPFN",
+      "node_id": "R_kgDOHl1j5g",
+      "retrieved_at": "2026-09-22T15:38:15.490898+00:00",
+      "html_url": "https://github.com/PriorLabs/TabPFN",
+      "description": "⚡ TabPFN: Foundation Model for Tabular Data ⚡",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "f004b4d5d2b93b7d631b9f4f361f2f30733024ae",
+        "pushed_at": "2026-09-22T15:34:35Z",
+        "description_hash": "8953629c900c",
+        "release_tag": "v9.0.0"
+      },
+      "release": {
+        "tag_name": "v9.0.0",
+        "published_at": "2026-09-15T12:29:28Z",
+        "html_url": "https://github.com/PriorLabs/TabPFN/releases/tag/v9.0.0",
+        "fetch_error": null
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "aef4c0ad3e0a43ba4f5929e324ec2f73a964289a",
+        "size": 21730,
+        "download_url": "https://raw.githubusercontent.com/PriorLabs/TabPFN/f004b4d5d2b93b7d631b9f4f361f2f30733024ae/README.md",
+        "fetch_error": null
+      },
+      "license": "Apache-2.0",
+      "review": {
+        "depth": "metadata_only",
+        "disposition": "discovery-lead-no-capability-claim"
+      }
+    },
+    {
+      "requested_id": "github:gepa-ai/gepa",
+      "id": "github:gepa-ai/gepa",
+      "node_id": "R_kgDOPYl4Jg",
+      "retrieved_at": "2026-09-22T15:38:12.876377+00:00",
+      "html_url": "https://github.com/gepa-ai/gepa",
+      "description": "Optimize prompts, code, and more with AI-powered Reflective Optimization",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "d771eb21b5dd3228bc3f567293d2ccfc423fc900",
+        "pushed_at": "2026-09-21T21:42:06Z",
+        "description_hash": "7ed4905e6676",
+        "release_tag": "v0.1.4"
+      },
+      "release": {
+        "tag_name": "v0.1.4",
+        "published_at": "2026-07-15T14:50:58Z",
+        "html_url": "https://github.com/gepa-ai/gepa/releases/tag/v0.1.4",
+        "fetch_error": null
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "379d0a38ef009c1b0a01dec2a325a5fe1a5190ac",
+        "size": 39867,
+        "download_url": "https://raw.githubusercontent.com/gepa-ai/gepa/d771eb21b5dd3228bc3f567293d2ccfc423fc900/README.md",
+        "fetch_error": null
+      },
+      "license": "MIT",
+      "review": {
+        "depth": "metadata_only",
+        "disposition": "discovery-lead-no-capability-claim"
+      }
+    },
+    {
+      "requested_id": "github:lm-sys/RouteLLM",
+      "id": "github:lm-sys/RouteLLM",
+      "node_id": "R_kgDOMEDmqg",
+      "retrieved_at": "2026-09-22T15:38:14.899900+00:00",
+      "html_url": "https://github.com/lm-sys/RouteLLM",
+      "description": "A framework for serving and evaluating LLM routers - save LLM costs without compromising quality",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "0b64fdafe049e596a3f5657c219329f24af24198",
+        "pushed_at": "2024-08-10T19:10:15Z",
+        "description_hash": "d7754cb369a3",
+        "release_tag": null
+      },
+      "release": {
+        "tag_name": null,
+        "published_at": null,
+        "html_url": null,
+        "fetch_error": "gh: Not Found (HTTP 404)"
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "45cbe52c3d430869c3b0e7b07dadba7628bc17e6",
+        "size": 14103,
+        "download_url": "https://raw.githubusercontent.com/lm-sys/RouteLLM/0b64fdafe049e596a3f5657c219329f24af24198/README.md",
+        "fetch_error": null
+      },
+      "license": "Apache-2.0",
+      "review": {
+        "depth": "metadata_only",
+        "disposition": "discovery-lead-no-capability-claim"
+      }
+    },
+    {
+      "requested_id": "github:fstandhartinger/jevbench",
+      "id": "github:fstandhartinger/jevbench",
+      "node_id": "R_kgDOUhEMSA",
+      "retrieved_at": "2026-09-22T15:38:16.548288+00:00",
+      "html_url": "https://github.com/fstandhartinger/jevbench",
+      "description": "JevBench v1 - a benchmark for Jev-class typed decision models: smart, cheap, fast, reliable, open.",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "51a8d73fa798aa337bb1b26abd10995c0ab847e9",
+        "pushed_at": "2026-09-22T13:47:01Z",
+        "description_hash": "c8e498c28c47",
+        "release_tag": null
+      },
+      "release": {
+        "tag_name": null,
+        "published_at": null,
+        "html_url": null,
+        "fetch_error": "gh: Not Found (HTTP 404)"
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "d80f8c8b08aadb40e5609c49a144160197e874ec",
+        "size": 30798,
+        "download_url": "https://raw.githubusercontent.com/fstandhartinger/jevbench/51a8d73fa798aa337bb1b26abd10995c0ab847e9/README.md",
+        "fetch_error": null
+      },
+      "license": "MIT",
+      "review": {
+        "depth": "metadata_only",
+        "disposition": "discovery-lead-no-capability-claim"
+      }
+    },
+    {
+      "requested_id": "github:scienthoon/jev-ood-calibration",
+      "id": "github:scienthoon/jev-ood-calibration",
+      "node_id": "R_kgDOUhFigg",
+      "retrieved_at": "2026-09-22T15:38:17.593383+00:00",
+      "html_url": "https://github.com/scienthoon/jev-ood-calibration",
+      "description": "Independent calibration test of TypeSafe's Jev on a task it cannot have seen: 900 rule-generated support tickets (choice / score / boolean) plus 3 public benchmarks via Vercel AI Gateway. Raw responses, ECE with noise floor, temperature refit, per-type sign of miscalibration. Reproducible for ~$0.06.",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "914d87ab16517f14e833cff63d73b51235b14bd6",
+        "pushed_at": "2026-09-22T08:38:15Z",
+        "description_hash": "9476647b3c30",
+        "release_tag": null
+      },
+      "release": {
+        "tag_name": null,
+        "published_at": null,
+        "html_url": null,
+        "fetch_error": "gh: Not Found (HTTP 404)"
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "a08ab5113c9934060c2f5cf4115eb7d275733811",
+        "size": 12801,
+        "download_url": "https://raw.githubusercontent.com/scienthoon/jev-ood-calibration/914d87ab16517f14e833cff63d73b51235b14bd6/README.md",
+        "fetch_error": null
+      },
+      "license": "MIT",
+      "review": {
+        "depth": "metadata_only",
+        "disposition": "discovery-lead-no-capability-claim"
+      }
+    },
+    {
+      "requested_id": "github:dorkitude/decision-model-testing",
+      "id": "github:dorkitude/decision-model-testing",
+      "node_id": "R_kgDOUk6cbA",
+      "retrieved_at": "2026-09-22T15:39:41.418638+00:00",
+      "html_url": "https://github.com/dorkitude/decision-model-testing",
+      "description": "Experiments testing specialized decision models against LLM and retrieval baselines",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "ba6a5e2e9a60161564ead92a932ccbf3f88e4497",
+        "pushed_at": "2026-09-22T11:35:15Z",
+        "description_hash": "419a3ca66282",
+        "release_tag": null
+      },
+      "release": {
+        "tag_name": null,
+        "published_at": null,
+        "html_url": null,
+        "fetch_error": "gh: Not Found (HTTP 404)"
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "7f0155acaf83e4cdf7e214c2b958c023fae4f04a",
+        "size": 2130,
+        "download_url": "https://raw.githubusercontent.com/dorkitude/decision-model-testing/ba6a5e2e9a60161564ead92a932ccbf3f88e4497/README.md",
+        "fetch_error": null
+      },
+      "license": "MIT",
+      "review": {
+        "depth": "readmes_aggregate_json_selected_statistics_code",
+        "artifacts": [
+          "README.md",
+          "REPRODUCTION.md",
+          "experiments/*/README.md",
+          "experiments/jev-search-result-narrower/results/run-v1/summary.json",
+          "experiments/jev-search-result-narrower-claude-RAG/results/categorical-v1/summary.json",
+          "experiments/jev-vs-LLM-for-evals/results/cascade-evaluation-v1/cascades.json",
+          "experiments/jev-vs-LLM-for-evals/internal/study/statistics.go"
+        ],
+        "disposition": "refine-reference"
+      }
+    },
+    {
+      "requested_id": "github:TypeLLM/pijev",
+      "id": "github:TypeLLM/pijev",
+      "node_id": "R_kgDOUlPHrw",
+      "retrieved_at": "2026-09-22T15:39:47.723364+00:00",
+      "html_url": "https://github.com/TypeLLM/pijev",
+      "description": "Permutation Invariant Jev",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "bca3a73d6419b794d63cd780ba4a0254579d7ccc",
+        "pushed_at": "2026-09-22T10:08:00Z",
+        "description_hash": "17e6b348c126",
+        "release_tag": null
+      },
+      "release": {
+        "tag_name": null,
+        "published_at": null,
+        "html_url": null,
+        "fetch_error": "gh: Not Found (HTTP 404)"
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "eac3138f04b4aba2fb442b63ad072c8727d8136c",
+        "size": 9056,
+        "download_url": "https://raw.githubusercontent.com/TypeLLM/pijev/bca3a73d6419b794d63cd780ba4a0254579d7ccc/README.md",
+        "fetch_error": null
+      },
+      "license": "Apache-2.0",
+      "review": {
+        "depth": "readme_code_tests",
+        "artifacts": [
+          "README.md",
+          "pijev/__init__.py",
+          "tests/test_symmetry.py"
+        ],
+        "disposition": "refine-reference"
+      }
+    },
+    {
+      "requested_id": "github:willkelly/jev-evaluation",
+      "id": "github:willkelly/jev-evaluation",
+      "node_id": "R_kgDOUh8RQw",
+      "retrieved_at": "2026-09-22T15:39:39.389804+00:00",
+      "html_url": "https://github.com/willkelly/jev-evaluation",
+      "description": "An adversarial evaluation of TypeSafe's jev decision model: nine experiments and 28 predictions fixed before any data was collected. 123,805 requests, $12.69.",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "d80f375621ad4b9306c6dff6941242925d7e2386",
+        "pushed_at": "2026-09-22T05:21:27Z",
+        "description_hash": "426fa24780e0",
+        "release_tag": null
+      },
+      "release": {
+        "tag_name": null,
+        "published_at": null,
+        "html_url": null,
+        "fetch_error": "gh: Not Found (HTTP 404)"
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "c1872c272d73424729dc832da0c9356639bf7bbc",
+        "size": 12888,
+        "download_url": "https://raw.githubusercontent.com/willkelly/jev-evaluation/d80f375621ad4b9306c6dff6941242925d7e2386/README.md",
+        "fetch_error": null
+      },
+      "license": "MIT",
+      "review": {
+        "depth": "readme",
+        "artifacts": [
+          "README.md"
+        ],
+        "disposition": "refine-reference"
+      }
+    },
+    {
+      "requested_id": "github:cwhy/decision-injection-bench",
+      "id": "github:cwhy/decision-injection-bench",
+      "node_id": "R_kgDOUlH1ow",
+      "retrieved_at": "2026-09-22T15:39:47.713436+00:00",
+      "html_url": "https://github.com/cwhy/decision-injection-bench",
+      "description": "Reproducible prompt-injection and jailbreak evaluation for Jev-like structured decision systems",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "f566360ffac91bfc50574aef722307dcbf51d5e1",
+        "pushed_at": "2026-09-22T14:30:38Z",
+        "description_hash": "422341255b61",
+        "release_tag": null
+      },
+      "release": {
+        "tag_name": null,
+        "published_at": null,
+        "html_url": null,
+        "fetch_error": "gh: Not Found (HTTP 404)"
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "29bce6f013ba7d5598cf32b577d58e12e0ef9f2d",
+        "size": 8792,
+        "download_url": "https://raw.githubusercontent.com/cwhy/decision-injection-bench/f566360ffac91bfc50574aef722307dcbf51d5e1/README.md",
+        "fetch_error": null
+      },
+      "license": "MIT",
+      "review": {
+        "depth": "readme",
+        "artifacts": [
+          "README.md"
+        ],
+        "disposition": "refine-reference"
+      }
+    },
+    {
+      "requested_id": "github:ReallyArtificial/stuntdouble",
+      "id": "github:ReallyArtificial/stuntdouble",
+      "node_id": "R_kgDOUltYMw",
+      "retrieved_at": "2026-09-22T15:39:50.412198+00:00",
+      "html_url": "https://github.com/ReallyArtificial/stuntdouble",
+      "description": "Drop-in /v1/systemone proxy that shadows Jev with local decision models (Kev, Laya) and reports whether you can swap",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "d7126d6cf5ed91fbc425910213aba21dad80611c",
+        "pushed_at": "2026-09-22T15:18:49Z",
+        "description_hash": "442491b5baf9",
+        "release_tag": null
+      },
+      "release": {
+        "tag_name": null,
+        "published_at": null,
+        "html_url": null,
+        "fetch_error": "gh: Not Found (HTTP 404)"
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "ede24238bcec46699c16a66ab2ddcf6bbcc612e9",
+        "size": 9501,
+        "download_url": "https://raw.githubusercontent.com/ReallyArtificial/stuntdouble/d7126d6cf5ed91fbc425910213aba21dad80611c/README.md",
+        "fetch_error": null
+      },
+      "license": "MIT",
+      "review": {
+        "depth": "readme",
+        "artifacts": [
+          "README.md"
+        ],
+        "disposition": "refine-reference"
+      }
+    },
+    {
+      "requested_id": "github:kyr0/typed-decision-bench",
+      "id": "github:kyr0/typed-decision-bench",
+      "node_id": "R_kgDOUkoZCQ",
+      "retrieved_at": "2026-09-22T15:39:45.151252+00:00",
+      "html_url": "https://github.com/kyr0/typed-decision-bench",
+      "description": "Large typed decision model evaluation benchmark and novel calibration standard (`calibration.json`) for any typed decision inference system, covering 275 distinct use-cases and 27,598 individual decisions for Jev-like open typed decision models.",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "836c1e7bc6186d4a5a5122f164eb0d9183d03981",
+        "pushed_at": "2026-09-22T14:42:38Z",
+        "description_hash": "9c10bc7d49ed",
+        "release_tag": null
+      },
+      "release": {
+        "tag_name": null,
+        "published_at": null,
+        "html_url": null,
+        "fetch_error": "gh: Not Found (HTTP 404)"
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "a6bf9c189a592e2d038651b279938e0f71b1c904",
+        "size": 22356,
+        "download_url": "https://raw.githubusercontent.com/kyr0/typed-decision-bench/836c1e7bc6186d4a5a5122f164eb0d9183d03981/README.md",
+        "fetch_error": null
+      },
+      "license": "MIT",
+      "review": {
+        "depth": "metadata_only",
+        "disposition": "discovery-lead-no-capability-claim"
+      }
+    },
+    {
+      "requested_id": "github:lucasmartins-ai/lcc",
+      "id": "github:lucasmartins-ai/lcc",
+      "node_id": "R_kgDOS_sJUg",
+      "retrieved_at": "2026-09-22T15:39:47.258958+00:00",
+      "html_url": "https://github.com/lucasmartins-ai/lcc",
+      "description": "Local Context Compiler (lcc): clean, dedupe and compact prompt context before it reaches the model, then report every block dropped, the cache tokens a pass invalidates and when pruning pays off. Runs offline with a local 1K decision model. MIT, no API key, zero telemetry.",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "b37cb818ea0ae3317308d9be01138794816d8093",
+        "pushed_at": "2026-09-22T10:16:38Z",
+        "description_hash": "7dee430bd7ba",
+        "release_tag": "v0.5.0"
+      },
+      "release": {
+        "tag_name": "v0.5.0",
+        "published_at": "2026-09-21T23:09:06Z",
+        "html_url": "https://github.com/lucasmartins-ai/lcc/releases/tag/v0.5.0",
+        "fetch_error": null
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "d7de958b447decb4fbcd4c1f8951dacb4dbafcdb",
+        "size": 42625,
+        "download_url": "https://raw.githubusercontent.com/lucasmartins-ai/lcc/b37cb818ea0ae3317308d9be01138794816d8093/README.md",
+        "fetch_error": null
+      },
+      "license": "MIT",
+      "review": {
+        "depth": "metadata_only",
+        "disposition": "discovery-lead-no-capability-claim"
+      }
+    },
+    {
+      "requested_id": "github:anessbelbati/jev-rerank-bench",
+      "id": "github:anessbelbati/jev-rerank-bench",
+      "node_id": "R_kgDOUd_KkA",
+      "retrieved_at": "2026-09-22T15:39:50.411994+00:00",
+      "html_url": "https://github.com/anessbelbati/jev-rerank-bench",
+      "description": "Can a decision model beat dedicated rerankers? TypeSafe Jev vs Cohere Rerank 4 vs ZeroEntropy zerank-2 vs a chat-model baseline: 14 datasets, every raw API response, bootstrap ranges on every gap.",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "372331af7437d56e5a9d5f9ca8acdb452f93deac",
+        "pushed_at": "2026-09-22T14:32:58Z",
+        "description_hash": "2cb874529b31",
+        "release_tag": null
+      },
+      "release": {
+        "tag_name": null,
+        "published_at": null,
+        "html_url": null,
+        "fetch_error": "gh: Not Found (HTTP 404)"
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "9f496281160dfebb6309eeab4a79753f68b5271d",
+        "size": 24599,
+        "download_url": "https://raw.githubusercontent.com/anessbelbati/jev-rerank-bench/372331af7437d56e5a9d5f9ca8acdb452f93deac/README.md",
+        "fetch_error": null
+      },
+      "license": "MIT",
+      "review": {
+        "depth": "metadata_only",
+        "disposition": "discovery-lead-no-capability-claim"
+      }
+    },
+    {
+      "requested_id": "github:metask-ai/metask-jev",
+      "id": "github:metask-ai/metask-jev",
+      "node_id": "R_kgDOUjGwfg",
+      "retrieved_at": "2026-09-22T15:39:51.906848+00:00",
+      "html_url": "https://github.com/metask-ai/metask-jev",
+      "description": "Metask-Jev: calibrated typed-decision models (Jev-class). Single forward pass, candidate-logit readout. metask-jev-4b beats Bespoke Nimble-9B and Jev on JevBench.",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "6cce2276d7898a9ed0122afbc49d0f0b74ccda98",
+        "pushed_at": "2026-09-22T14:54:08Z",
+        "description_hash": "ee5aa79901fe",
+        "release_tag": null
+      },
+      "release": {
+        "tag_name": null,
+        "published_at": null,
+        "html_url": null,
+        "fetch_error": "gh: Not Found (HTTP 404)"
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "15689d9937d587e30bdc7fa042ca2a92a31a5479",
+        "size": 1722,
+        "download_url": "https://raw.githubusercontent.com/metask-ai/metask-jev/6cce2276d7898a9ed0122afbc49d0f0b74ccda98/README.md",
+        "fetch_error": null
+      },
+      "license": null,
+      "review": {
+        "depth": "metadata_only",
+        "disposition": "discovery-lead-no-capability-claim"
+      }
+    },
+    {
+      "requested_id": "github:vinnylarouge/jevlike",
+      "id": "github:vinnylarouge/jevlike",
+      "node_id": "R_kgDOUdRK6Q",
+      "retrieved_at": "2026-09-22T15:39:54.528968+00:00",
+      "html_url": "https://github.com/vinnylarouge/jevlike",
+      "description": null,
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "94f5fd1b0b11d52bbdfdf4e0ee6aa96b568f8452",
+        "pushed_at": "2026-09-16T18:12:53Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "release": {
+        "tag_name": null,
+        "published_at": null,
+        "html_url": null,
+        "fetch_error": "gh: Not Found (HTTP 404)"
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "44480ee1d40e9e1d969c70fe985c2b22be8eaaea",
+        "size": 7706,
+        "download_url": "https://raw.githubusercontent.com/vinnylarouge/jevlike/94f5fd1b0b11d52bbdfdf4e0ee6aa96b568f8452/README.md",
+        "fetch_error": null
+      },
+      "license": "MIT",
+      "review": {
+        "depth": "metadata_only",
+        "disposition": "discovery-lead-no-capability-claim"
+      }
+    },
+    {
+      "requested_id": "github:browser-use/jev-ultrafast",
+      "id": "github:browser-use/jev-ultrafast",
+      "node_id": "R_kgDOUeBQeg",
+      "retrieved_at": "2026-09-22T15:39:53.999982+00:00",
+      "html_url": "https://github.com/browser-use/jev-ultrafast",
+      "description": "Fastest and cheapest web agent",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "1231850a0bf1a0c0341fe408ef1668dbbfdfac46",
+        "pushed_at": "2026-09-18T16:28:35Z",
+        "description_hash": "098261d40fdc",
+        "release_tag": null
+      },
+      "release": {
+        "tag_name": null,
+        "published_at": null,
+        "html_url": null,
+        "fetch_error": "gh: Not Found (HTTP 404)"
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "fa7d079f9192f8ad47d4016c0d534cfe72207f33",
+        "size": 8650,
+        "download_url": "https://raw.githubusercontent.com/browser-use/jev-ultrafast/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/README.md",
+        "fetch_error": null
+      },
+      "license": "MIT",
+      "review": {
+        "depth": "metadata_only",
+        "disposition": "discovery-lead-no-capability-claim"
+      }
+    },
+    {
+      "requested_id": "github:tamaratran/fast-jev-compaction",
+      "id": "github:tamaratran/fast-jev-compaction",
+      "node_id": "R_kgDOUeWnDQ",
+      "retrieved_at": "2026-09-22T15:39:56.105757+00:00",
+      "html_url": "https://github.com/tamaratran/fast-jev-compaction",
+      "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "e3f262a7f4d42bd8dd32ced30d26176f7cb545b0",
+        "pushed_at": "2026-09-18T04:45:31Z",
+        "description_hash": "e9c842075b34",
+        "release_tag": null
+      },
+      "release": {
+        "tag_name": null,
+        "published_at": null,
+        "html_url": null,
+        "fetch_error": "gh: Not Found (HTTP 404)"
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "8f4f65b5567600cd8257c54fc3beb7c8f3c861d9",
+        "size": 8688,
+        "download_url": "https://raw.githubusercontent.com/tamaratran/fast-jev-compaction/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/README.md",
+        "fetch_error": null
+      },
+      "license": "MIT",
+      "review": {
+        "depth": "metadata_only",
+        "disposition": "discovery-lead-no-capability-claim"
+      }
+    },
+    {
+      "requested_id": "github:sutro-sh/jev-align",
+      "id": "github:sutro-sh/jev-align",
+      "node_id": "R_kgDOUg2saA",
+      "retrieved_at": "2026-09-22T15:39:56.104639+00:00",
+      "html_url": "https://github.com/sutro-sh/jev-align",
+      "description": "Build calibrated AI Functions from human feedback using Jev and GEPA.",
+      "default_branch": "main",
+      "fingerprints": {
+        "default_sha": "3d997fc76593036655c28d4964de43b55f81fe2c",
+        "pushed_at": "2026-09-20T20:50:08Z",
+        "description_hash": "c0d67a99b6fb",
+        "release_tag": "v0.1.4"
+      },
+      "release": {
+        "tag_name": "v0.1.4",
+        "published_at": "2026-09-20T20:50:10Z",
+        "html_url": "https://github.com/sutro-sh/jev-align/releases/tag/v0.1.4",
+        "fetch_error": null
+      },
+      "readme": {
+        "path": "README.md",
+        "sha": "884e9ab56fd9a6d97776f3bb3820e0fa89647436",
+        "size": 6688,
+        "download_url": "https://raw.githubusercontent.com/sutro-sh/jev-align/3d997fc76593036655c28d4964de43b55f81fe2c/README.md",
+        "fetch_error": null
+      },
+      "license": "Apache-2.0",
+      "review": {
+        "depth": "metadata_only",
+        "disposition": "discovery-lead-no-capability-claim"
+      }
+    },
+    {
+      "id": "hf:akhilaaa3/Jev-Omni",
+      "html_url": "https://huggingface.co/akhilaaa3/Jev-Omni",
+      "retrieved_at": "2026-09-22T15:57Z",
+      "fingerprints": {
+        "default_sha": "55b53f2ec1b4c656c8a6172b0c7555ae578a9c3f",
+        "pushed_at": "2026-09-22T14:17:29.000Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "review": {
+        "depth": "model_card_config_loader_verification",
+        "artifacts": [
+          "README.md",
+          "decision_config.json",
+          "load_model.py",
+          "jev_omni.py",
+          "verification.json"
+        ],
+        "disposition": "refine-reference"
+      }
+    },
+    {
+      "id": "hf:ds:akhilaaa3/decision-bench",
+      "html_url": "https://huggingface.co/datasets/akhilaaa3/decision-bench",
+      "retrieved_at": "2026-09-22T15:57Z",
+      "fingerprints": {
+        "default_sha": "19334fec40b54b693a63e1ffd91636651d39e847",
+        "pushed_at": "2026-09-22T14:15:03.000Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "review": {
+        "depth": "dataset_card_and_metadata",
+        "artifacts": [
+          "README.md"
+        ],
+        "disposition": "investigate"
+      }
+    }
+  ]
+}

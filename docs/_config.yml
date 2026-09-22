@@ -1,8 +1,8 @@
 title: Augustus
 lang: en
 description: >-
-  An agent skill for decision models, classification, routing, and calibration.
-  Apply decision theory, keep policy explicit, and test the complete workflow.
+  An agent skill to find, build, evaluate, and improve systems with decision models.
+  Apply composition and decision theory, keep policy explicit, and measure outcomes.
 url: https://24601.github.io
 baseurl: /Augustus
 markdown: kramdown

@@ -74,6 +74,20 @@ class SiteCheckTests(unittest.TestCase):
         page.write_text(page.read_text(encoding="utf-8").replace("assets/site.css", "assets/missing.css").replace("</main>", '<a href="/Augustus/#missing">Broken fragment</a></main>'), encoding="utf-8")
         self.assertEqual({"fragment", "internal-path"}, self.codes(site))
 
+    def test_percent_encoded_fragments_resolve_to_decoded_ids(self) -> None:
+        site = self.make_site()
+        page = site / "index.html"
+        page.write_text(page.read_text().replace('href="#detail"', 'href="#%64etail"'))
+        self.assertEqual([], check_site(site, SITE_URL, BASE_URL))
+
+    def test_public_pages_cannot_silently_add_noindex_directives(self) -> None:
+        for name, content in (("robots", "noindex,follow"), ("Googlebot", "NONE"), ("bingbot", "noindex")):
+            with self.subTest(name=name, content=content):
+                site = self.make_site()
+                page = site / "index.html"
+                page.write_text(page.read_text().replace("</head>", f'<meta name="{name}" content="{content}"></head>'))
+                self.assertEqual({"noindex"}, self.codes(site))
+
     def test_root_relative_internal_paths_must_keep_the_project_basepath(self) -> None:
         site = self.make_site()
         page = site / "ecosystem.html"

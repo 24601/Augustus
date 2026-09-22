@@ -3,8 +3,17 @@
 Research supports Augustus's design guidance across the whole decision-model
 class. TypeSafe Jev is the default hosted exemplar, not the limit of inquiry.
 Use [protocol.md](protocol.md) and the [research update prompt](prompts/research-fold.md).
+The [maintenance contract](maintenance.md) defines recurring reassessment and
+records the current gap: the external research scheduler is not yet verified.
 
 ## Current review
+
+The [2026-09-22 full refresh](decision-model-review-2026-09-22.md) records the
+since-last-scan discovery ledger, all user-supplied sources, primary-artifact
+revisits, emerging-method research, targeted promotions and unrun experiments.
+The [decision-engine extension](decision-engine-2026-09-22.md) connects the
+research to composition, working evals and iterative improvement. Use the
+[maintainer prompt](prompts/maintainer.md) to preserve that mission in future work.
 
 The [2026-09-21 decision-model review](decision-model-review-2026-09-21.md)
 covers primary sources, current model families, calibration, selective

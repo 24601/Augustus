@@ -4,6 +4,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
 
@@ -60,6 +61,35 @@ class EvaluateDecisionsTests(unittest.TestCase):
         self.assertEqual((result["fp"], result["fn"]), (1, 1))
         self.assertEqual(result["cost"], 1.25)
         self.assertAlmostEqual(evaluate.brier(rows), 0.375)
+
+    def test_ambiguous_json_and_oversized_numbers_are_input_errors(self):
+        for content in (
+            b'{"id":"a","p":0.01,"p":0.99,"y":0}\n',
+            ('{"id":"a","p":' + '1' * 401 + ',"y":0}\n').encode(),
+        ):
+            with self.subTest(prefix=content[:50]):
+                path = self.binary_jsonl(content)
+                run = subprocess.run([sys.executable, str(SCRIPT), path],
+                                     text=True, capture_output=True)
+                self.assertEqual(run.returncode, 2)
+                self.assertIn("line 1:", run.stderr)
+                self.assertNotIn("Traceback", run.stderr)
+                self.assertEqual(run.stdout, "")
+
+    def test_json_nesting_exhaustion_is_a_normal_input_error(self):
+        # Decoder recursion limits differ by Python version. Exercise the
+        # failure contract without demanding rejection of valid deep JSON.
+        path = self.jsonl([{"id": "a", "p": 0.5, "y": 0}])
+        with patch.object(evaluate.json, "loads", side_effect=RecursionError("too deep")):
+            with self.assertRaisesRegex(ValueError, "line 1: invalid JSON"):
+                evaluate.load(path)
+
+    def test_large_finite_costs_do_not_overflow_before_averaging(self):
+        rows = [{"id": str(i), "p": 0.9, "y": 0} for i in range(2)]
+        self.assertEqual(evaluate.sweep(rows, [0.5], 1e308, 1)[0]["cost"], 1e308)
+        self.assertEqual(evaluate.selective_policy(rows, 0.2, 0.8, 1e308, 1, 1)["cost"], 1e308)
+        rows = [{"id": str(i), "p": 0.5, "y": 0} for i in range(2)]
+        self.assertEqual(evaluate.selective_policy(rows, 0.2, 0.8, 1, 1, 1e308)["cost"], 1e308)
 
     def test_selective_policy_boundary_and_cost_arithmetic(self):
         rows = [

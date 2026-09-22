@@ -2372,6 +2372,11 @@ replica (no new species). No wrapper.
 
 ## 45. kev — runnable Archer reconstruction, not a distill (2026-09-18)
 
+**Dated revisit, 2026-09-22:** `1c351992ba3df4a0a0f2ae03051b25466a2c7bcb`
+changes the serving precision default while research scoring remains FP32.
+See [the full-refresh evidence table](decision-model-review-2026-09-22.md#other-material-revisits-and-evidence-checks).
+The earlier observations below are historical; runtime parity is not inferred.
+
 HTTP 200 this pass:
 [jaredpalmer/kev](https://github.com/jaredpalmer/kev) README (raw
 `main`), [MODEL_CARD.md](https://github.com/jaredpalmer/kev/blob/main/MODEL_CARD.md),
@@ -3206,6 +3211,10 @@ Cards: `judgment-class.md`; `validation.md`; `applied-mappings.md`
 `agent-self-assessment.md`. No wrapper.
 
 ## 49. Boundary map, Harbor bake-off vs constrained LLMs, dual-process (2026-09-18 ~15:52 Boise)
+
+**Dated Von revisit, 2026-09-22:** `581b87499e7d72fc267b145706ef79bee83a800a`
+adds input-conditioned calibration using public benchmark tiers. Preserve a
+fresh independent test after benchmark-informed tuning; see [the refresh](decision-model-review-2026-09-22.md#other-material-revisits-and-evidence-checks).
 
 America/Boise ~15:52 = 21:52 UTC (archive 214908). Docs-only fold into
 open PR #2 (`cursor/augustus-store-envelope-00b4`). Not a competing
@@ -20267,6 +20276,10 @@ nshkrdotcom/system_one_sdk ≠ typesafe_sdk ≠ dannote/jev.
 
 8. **Adversarial pre-registered Jev eval**
 
+   **Dated revisit, 2026-09-22:** README at `d80f375621ad4b9306c6dff6941242925d7e2386`
+   inspected for referent, calibration and injection evidence. No raw-log replay.
+   See [the full-refresh evidence boundary](decision-model-review-2026-09-22.md#other-material-revisits-and-evidence-checks).
+
    - **[`willkelly/jev-evaluation`](https://github.com/willkelly/jev-evaluation)**
      (Python MIT; **0★** live REST; 0 forks;
      created 2026-09-20T01:18:12Z; pushed
@@ -29260,6 +29273,11 @@ User-provided 0922 uniqueness lock: SemIf was formerly OpenJev; independent; not
 
 ## 117. User-provided HIGH — SemIf rename + MLX + ladder densify (2026-09-20 ~09:22 Boise / 2026-09-20T15:22Z)
 
+**Dated revisit, 2026-09-22:** `1f2dea3e25379f9dfc98cb83c324f00ab5deda37`
+adds backend paths and out-of-fold temperature-calibration evidence. Argmax
+invariance does not preserve threshold actions. See [the full refresh](decision-model-review-2026-09-22.md#other-material-revisits-and-evidence-checks);
+prior source claims below remain attributed and historical.
+
 Docs-only reconstructed onto latest `main` after merged **#34** (Pages),
 merged **#35** (hourly 0843 / §114), merged **#36** (NanoJev / §115),
 and merged **#38** (jcr / §116).
@@ -36426,6 +36444,9 @@ Jev; a README SHA move is densify not a sibling first sighting.
    the only model. not fully offline. Accessibility reads controls.
    does not execute the user's intent without TypeSafe.
 4. **Official SDK first cards (GitHub faces; already one-liners in §4).**
+   **Dated revisit, 2026-09-22:** Python SDK v0.7.1 and adapter v0.2.1
+   changes inspected; [release/accounting details](decision-model-review-2026-09-22.md#other-material-revisits-and-evidence-checks).
+   The previous pins below are retained, not silently rewritten.
    [`typesafe-ai/system-one-adapter-python`](https://github.com/typesafe-ai/system-one-adapter-python)
    226★ MIT HEAD `adffc2eab300` README SHA `d01afbf0499e`. Quote *theirs*:
    Drop-in TypeSafeClient replacement backed by LLM APIs. wire-compat ≠
@@ -40787,6 +40808,11 @@ nak1b/jev-experiments, and not abgregs/jev-experiments.
 
 ### hf:akhilaaa3/Jev-Omni (1 like, apache-2.0)
 
+**Dated revisit, 2026-09-22:** inspected revision `55b53f2ec1b4c656c8a6172b0c7555ae578a9c3f`.
+The [full-refresh card](decision-model-review-2026-09-22.md#jev-omni--revisit-of-notes-156)
+adds loader/media-window evidence and qualifies the cost protocol. The earlier
+observation below is retained; benchmark claims remain Reported.
+
 Multimodal decision classifier for text, images, audio, and video.
 Supply a question and options. Receive a probability per option, not a
 generated explanation. Base `google/gemma-4-12B-it`. Final
@@ -44744,6 +44770,10 @@ search, signal detection, and safety stay the frames.
 - **dorkitude/decision-model-testing.** 0★ MIT Go. HEAD
   `7af400ed6c92`. README `253a6c3f2a04`, 1,062 bytes. A thin
   public-release stub. Do not invent scores.
+  **Dated revisit, 2026-09-22:** `ba6a5e2e9a60161564ead92a932ccbf3f88e4497`
+  now exports four experiments and numerical projections. The earlier stub
+  observation remains historical. See the [expanded card and evidence limits](decision-model-review-2026-09-22.md#decision-model-testing--material-revisit-of-notes-163);
+  private historical receipts are not in the public export.
 - **sacrtap/webchat-jev-analysis.** 0★ MIT. HEAD `4d5e076c9f68`.
   README `460cd6f096f8`, 22 bytes. The title only. Do not invent an
   analysis.
@@ -44827,3 +44857,34 @@ after ADV_PASS. hourly 2149 §162 are on main. This fold is §163 only.
 Do not reopen or amend PR #23 through #88. notes.md §163.
 
 Hourly 2244 uniqueness lock: TypeSafe Jev default path; HappyAny/jev-random-bit-experiments README SHA 9d83e82b70ab; HEAD 0bc500ee16c8; a fair coin is not a Choice; Choice returns the max-probability option; 1999 zeros and 1 one; p is not the probability the model is random; brainstormity/Jev-Moderation-Bot README SHA c0ff9805eb24; HEAD 325ea7f4ae88; delete is policy, the score is a sensor; a profile is not a measurement of a person; Soft judgment never sole veto; himomohi/jev-skill-router README SHA 68036b96f2d8; release v0.1.0; the catalog stays outside the prompt; selection does not execute; himomohi/jev-skill-router ≠ abgregs/jev-skill-router ≠ aleksvega/jev-skill-router; adamtopaz/jevhammer README SHA abe4deeb1f47; the checker owns the proof; a Noul is not a discharged proof; 450/1024 and 469/1024 vs LeanHammer 372/1024 *theirs*; inhabitants/laya-invaders README SHA 48b0e0bd87cb; a dumb baseline; rule 52/52 vs Laya 50/52 *theirs*; game success ≠ calibrated Noul; jongyunhur/jev-webagent-bench README SHA 75a4009f8658; 18.67% withdrawn; +42.5% *theirs*; a withdrawn latency is not a speed claim; infinitylogesh/systemone README SHA dd16a4383912; HEAD 436469e12f2d; logprob readout is not a trained head; one next-token read; published Jev 0.727 is not measured here; Gemma 4 0.709 *theirs*; Qwen3.5 raw ECE 0.033 to calibrated 0.091 *theirs*; Gemma 4 ≠ Archer; Qwen3.5 ≠ Archer; denis-pplx/autojev README SHA fa7cdfa7b68b; temperature scaling is not RLCD; Qwen3.8 ≠ Archer; AutoJev-27B 84.60% ECE 0.04282 *theirs*; Jev 82.79% ECE 0.05274 *theirs*; Viratvishnu13/SystemOne-ONNX README SHA 4d667d7a9575; ~22M; transplanted GRPO 100% to 88% *theirs*; do not read that as RLCD does not work; cx295410-dot/jev-biomedical-evidence-screening README SHA 456c97dbf15b; HEAD 83200af46e19; high recall is not safe exclusion; 17,191 pairs and 392 inclusions; not clinical validation; SamanPandey-in/jevrail README SHA e2298621d282; code can only tighten; YcWang6992/Jev-with-Codex README SHA 93c107707d75; exact rows skip the model; one task is not a bill; draiagent/ai-to-agent-jev-mcp README SHA 8b11ae027972; Noul has no confidence field; 0.5 is not a decision boundary; kyledickey/jev-go README SHA efdc2d41d08a; release v0.1.0; a client is not a model; kyledickey/jev-go ≠ Stumble/jev-go ≠ tgallice/jev-go; ranking ≠ calibration; AkashPriyadarshii/jev-curate densify §134; HEAD c8b31ada9f08; description rewrite is not a new bench; star 6 to 19 is star-noise; ARCJ137442/jev-life densify §160; HEAD bdfc26a7687d was f8cabbf1ec8d; no heuristic fallback; ZongxingH/gemini-quality-gate-jev densify §161; HEAD d1b6446e098d was 7ed691a005a4; a hook is not a merge gate; confidence below 0.6 does not auto-reject; stainlu/awesome-jev catalog ≠ endorsement; 5,713 indexed *theirs*; hf:SAIFIINDUSTRIES/laya is not a new measurement; sha 2ba530c97c3e; do not re-fold Khmer 0.000 at 0.952; Helongzhou/Jev-hypit empty SHA HTTP 409; seanmg52/jev-legal-eval empty SHA HTTP 409; flayab/jevai README HTTP 404; layanan ≠ Laya; serving substrate ≠ calibrated replica; wire-compat ≠ logit-equiv; *theirs* not Harbor; SHA move is not a replica; Skip Archer; invented_signal: false; Parent merges only after ADV_PASS; hourly 2149 §162 are on main; this fold is §163 only; composition 981-996; findings batch #143; do not reopen or amend PR #23 through #88; does not bump 0.5.0 or 0.5.1; notes.md §163
+
+
+## 164. Full refresh and requested-source additions (2026-09-22)
+
+Canonical review: [coverage, source cards and dispositions](decision-model-review-2026-09-22.md).
+Historical uniqueness passages above are not current maintainer instructions.
+
+- **github:TypeLLM/pijev**, first card, `bca3a73d6419b794d63cd780ba4a0254579d7ccc`:
+  label-aligned permutation averaging; transformed confidence requires policy
+  requalification. README, source and mocked tests inspected; no provider run.
+- **github:cwhy/decision-injection-bench**, first card,
+  `f566360ffac91bfc50574aef722307dcbf51d5e1`: README-level reported controlled
+  injection evidence. Clean/harmless controls and valid labels determine the
+  eligible denominator; repeats are not independent cases.
+- **github:ReallyArtificial/stuntdouble**, first card,
+  `d7126d6cf5ed91fbc425910213aba21dad80611c`: README-level policy-shadow example.
+  Its launch is Kev/Laya, not Jev; agreement is not correctness.
+- **hf:ds:akhilaaa3/decision-bench**, first card,
+  `19334fec40b54b693a63e1ffd91636651d39e847`: synthetic benchmark card inspected.
+  Per-question cost framing conflicts with official Jev batching; missing answers
+  are excluded. No dataset execution or provider comparison reproduced here.
+- **https://jevusers.com/** and **https://jevusers.com/apps**: full observed
+  directory inventories archived, not full code audits. Augustus already listed.
+- Papers `arxiv:2609.22048v1`, `arxiv:2609.14907v1`, `arxiv:2609.00662v1`:
+  catch-up methods inspection and research watch, not new same-day publications.
+
+Revisits stay in their original sections: Jev-Omni §156,
+decision-model-testing §163, SemIf §117, Kev §45, Von §49,
+willkelly/jev-evaluation §101, and official SDKs §143. Full revisions and
+inspection depths are in the dated packet. No third-party benchmark was
+upgraded from Reported to Reproduced.

@@ -31,7 +31,12 @@ MAX_REFERENCE_TOTAL_BYTES = 180_000
 MIN_DUPLICATE_PARAGRAPH_CHARS = 160
 MAX_DESCRIPTION_CHARS = 1_024
 SKILL_NAME_RE = re.compile(r"^[a-z0-9][a-z0-9-]{0,63}$")
-SEMVER_RE = re.compile(r"^\d+\.\d+\.\d+(?:[-+][0-9A-Za-z.-]+)?$")
+SEMVER_RE = re.compile(
+    r"^(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)"
+    r"(?:-(?:0|[1-9][0-9]*|[0-9A-Za-z-]*[A-Za-z-][0-9A-Za-z-]*)"
+    r"(?:\.(?:0|[1-9][0-9]*|[0-9A-Za-z-]*[A-Za-z-][0-9A-Za-z-]*))*)?"
+    r"(?:\+[0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*)?$"
+)
 HEADING_RE = re.compile(r"^ {0,3}(#{1,6})[ \t]+(.+?)[ \t]*#*[ \t]*$")
 RUNTIME_RESEARCH_HEADING_RE = re.compile(
     r"^\s*(?:hourly\b|.*\bresearch\s+lock\b|.*\buniqueness\s+lock\b)", re.I
@@ -65,6 +70,8 @@ def _read(path: Path, issues: list[Issue]) -> str | None:
         _issue(issues, "missing-file", path, "required file is absent")
     except UnicodeDecodeError:
         _issue(issues, "invalid-utf8", path, "must be UTF-8 text")
+    except OSError as exc:
+        _issue(issues, "unreadable-file", path, f"cannot read required file: {exc}")
     return None
 
 
@@ -98,7 +105,9 @@ def _without_code(text: str) -> Iterable[tuple[int, str]]:
     for number, line in enumerate(text.splitlines(), 1):
         found = FENCE_RE.match(line)
         if fence is not None:
-            if found and found.group(1)[0] == fence[0] and len(found.group(1)) >= fence[1]:
+            if (found and found.group(1)[0] == fence[0]
+                    and len(found.group(1)) >= fence[1]
+                    and not line[found.end():].strip()):
                 fence = None
             continue
         if found:
@@ -161,19 +170,23 @@ def _local_destination(destination: str) -> str | None:
     return unquote(parsed.path)
 
 
-def _check_links(root: Path, path: Path, text: str, issues: list[Issue]) -> set[Path]:
+def _check_links(boundary: Path, path: Path, text: str, issues: list[Issue]) -> set[Path]:
     targets: set[Path] = set()
     for line, destination in _markdown_destinations(text):
-        local = _local_destination(destination)
+        try:
+            local = _local_destination(destination)
+        except ValueError as exc:
+            _issue(issues, "broken-link", path, f"line {line} invalid URL: {destination}: {exc}")
+            continue
         if local is None:
             continue
         if not local:
             continue
         candidate = (path.parent / local).resolve()
         try:
-            candidate.relative_to(root)
+            candidate.relative_to(boundary)
         except ValueError:
-            _issue(issues, "broken-link", path, f"line {line} escapes repository: {destination}")
+            _issue(issues, "broken-link", path, f"line {line} escapes allowed root: {destination}")
             continue
         if not candidate.exists():
             _issue(issues, "broken-link", path, f"line {line} target does not exist: {destination}")
@@ -190,7 +203,7 @@ def _active_references(root: Path, skill_path: Path, text: str, issues: list[Iss
     forms are explicit structural declarations; prose lookalikes are not.
     """
     references = {
-        target for target in _check_links(root, skill_path, text, issues)
+        target for target in _check_links(skill_path.parent.resolve(), skill_path, text, issues)
         if target.is_relative_to((root / REFERENCE_DIR).resolve()) and target.suffix.lower() == ".md"
     }
     reference_root = (root / REFERENCE_DIR).resolve()
@@ -461,7 +474,7 @@ def check_repository(root: Path | str) -> list[Issue]:
     _check_headings(skill_path, skill_text, issues, runtime=True)
     linked_references = _active_references(root_path, skill_path, skill_text, issues)
     reference_root = root_path / REFERENCE_DIR
-    all_references = set(reference_root.glob("*.md")) if reference_root.is_dir() else set()
+    all_references = set(reference_root.rglob("*.md")) if reference_root.is_dir() else set()
     for reference in sorted(all_references - linked_references):
         _issue(issues, "unreferenced-reference", reference, "runtime reference is not declared by SKILL.md")
 
@@ -474,7 +487,7 @@ def check_repository(root: Path | str) -> list[Issue]:
         reference_bytes += len(reference_text.encode("utf-8"))
         _check_budget(reference, reference_text, issues, byte_limit=MAX_REFERENCE_BYTES, line_limit=MAX_REFERENCE_LINES)
         _check_headings(reference, reference_text, issues, runtime=True)
-        _check_links(root_path, reference, reference_text, issues)
+        _check_links(skill_path.parent.resolve(), reference, reference_text, issues)
         for line, paragraph in _paragraphs(reference_text):
             first = paragraphs.get(paragraph)
             if first is not None and first[0] != reference:
