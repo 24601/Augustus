@@ -44,8 +44,9 @@ No unreleased changes.
   selective-policy cost also needs `--cost-abstain`. Threshold search is
   labeled in-sample and must not substitute for held-out policy evaluation.
 - Complete binary predictions report `action_rate`, not selective coverage.
-  Log loss is infinite for an impossible observed event; malformed inputs,
-  duplicate IDs, and incomplete paired baselines are rejected.
+  Log loss is infinite for an impossible observed event; malformed inputs
+  and duplicate IDs are rejected. Partial baselines are accepted but
+  excluded from comparison; comparative reports require a complete baseline.
 - Refresh scripts emit JSON review receipts instead of appending logs,
   cloning discoveries, or committing/pushing changes. Scheduler owners
   should explicitly choose receipt storage and perform separate review.

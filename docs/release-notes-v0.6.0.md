@@ -50,8 +50,9 @@ If you use the offline helpers directly:
   data and evaluate the frozen policy on a separate split.
 - Complete binary predictions use `action_rate`; selective coverage is a
   different measure. All-abstain selective error is undefined, not zero.
-  Impossible observed probabilities have infinite log loss. Duplicate IDs,
-  invalid probabilities, and incomplete paired baselines are rejected.
+  Impossible observed probabilities have infinite log loss. Duplicate IDs
+  and invalid probabilities are rejected. Partial baselines are accepted
+  but excluded from comparison; comparative reports require a complete baseline.
 - Refresh wrappers now emit JSON receipts to standard output. Use
   `--output` for a new receipt file; existing files are never overwritten.
   Update any scheduler expecting appended logs or automatic Git writes.
