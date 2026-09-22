@@ -437,7 +437,7 @@ def self_test() -> None:
     fl = fluid["fingerprints"]
     assert fl["default_sha"].startswith("e9e95935075b")
     assert fl["release_tag"] == "v0.2.0"
-    assert fl["description_hash"] == "ddacb829949a"
+    assert fl["description_hash"] == "2e5b91ad5dfb"
     assert fl["pushed_at"] == "2026-09-21T22:18:09Z"
     assert fluid["readme_sha"].startswith("7d246df7270a")
     docjev = by_id["github:jerryjliu/docjev"]

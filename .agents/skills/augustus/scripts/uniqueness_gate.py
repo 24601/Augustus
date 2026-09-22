@@ -2073,7 +2073,7 @@ def main() -> int:
         "accuracy ≠ calibration",
         "routing ≠ permission",
         "absent candidates cannot be chosen",
-        "a description rewrite is not a new bench",
+        "description rewrite is not a new bench",
         "SHA move is not a replica",
         "empty SHA HTTP 409",
         "Soft judgment never sole veto",
