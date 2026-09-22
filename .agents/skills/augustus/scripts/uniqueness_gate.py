@@ -325,6 +325,10 @@ UNIQ_2044 = (
 UNIQ_2149 = (
 "Hourly 2149 uniqueness lock: TypeSafe Jev default path; reachjalil/jevlogs README SHA 700b635c1adc; HEAD 217d2b70bfb3; release v0.5.0; score the signal before the expensive call; errors and provider failures stay eligible; a 0-100 score is their mapping; Songokou1983/jev-mcp README SHA 6085f27efce1; release v0.3.0; Noul has no confidence field; effective_confidence is a server formula; act 0.7 and confirm 0.4 still soft; model pin jev-1.13.0; 142/142 tests *theirs*; Songokou1983/jev-mcp ≠ wangkuangkuang/jev-mcp-server ≠ jfrader/jev-mcp; Waxmell114514/jev-compaction README SHA 9c45bd31cb24; a scorer never writes; the transcript never contained; 749 to 391 tokens and $0.000031 *theirs*; 0.35 is their demo default; Waxmell114514/jev-compaction ≠ Waxmell114514/jev-trade; 202wh/loving-artist-practice README SHA 253679c962ed; the screen observes and does not send; a relationship card is not a measurement of a person; sample percents are an illustration; CommandCodeAI/cmd-mod-jev-nudge README SHA c56e18f0bbe7; a nudge is not a merge gate; fail-open when Jev errors; 0.5 is not a decision boundary; host cap 8 nudges; jxxfdgd/jev-ai-slop-detector README SHA 3130f83cc6e7; a badge is not a takedown; minimum confidence 70% is a display cut; a percentage is never made up *theirs*; marszhongx/pi-jev-score README SHA fcedf21ef407; a footer score is not a gate; 87.5/100 is an illustration; marszhongx/pi-jev-score ≠ angribot/pi-jev; syumai/jevyoumean README SHA 939939bacfad; intent is not edit distance; a suggestion is not authorization to run; wellkilo/codex-jev-preflight README SHA 0700fefc34fe; release v0.1.0; advisory routing never blocks; unknown becomes unknown; routing ≠ permission; AbsoluteGeist/code-geist README SHA 1b2ec3d2e815; harness owns execution; a scripted demo is not a routing study; AnakinRM/jev-confidence-kit README SHA d4e6e9287e16; tests are not in the repo; prompting cannot raise confidence; BubbleCal/vjev-serve README SHA c5e8973a8522; Qwen3.5-4B recreation; calibrated is theirs; wire-compat ≠ logit-equiv; Qwen3.5 ≠ Archer; hf:henrybit/jev-vs-deepseek densify §160; sha 49df7c465eab; description_hash 451093ae1e1f was null; description rewrite is not a new bench; kydlikebtc/awesome-jev densify §161; HEAD 094d06e11e2b was empty; 148 entries *theirs*; catalog ≠ endorsement; loongWoong/jev-zen first card under a revisit tag; README SHA ceaa6b411cea; semantic channel BLOCKED; logit range 5.04e-03; probes 2/3; any accuracy reading is not interpretable; 0923 listed it and §144 did not card it; loongWoong/jev-zen ≠ §96 scorer jev-zen; hf:apus-ailab/APUS-OpenJev-Eval-Frozen80 sha 7a63c3d6df2b; Frozen80 is not an independent test set; a development panel is not a test set; 71/80 68/80 66/80 *theirs*; do not paste the prior Jev API 82.5% onto the 4B row; hf:apus-ailab/APUS-OpenJev-v1-9B ≠ hf:gump2049/APUS-OpenJev-v1; hf:WIlfLin softmax over options is not a calibrated Noul; no RLCD on those cards; hf:Praveenrajus/jevify-qwen3-vl-2b-t2 sha 46e8e72c27b5; macro accuracy 0.804 macro ECE 0.035 *theirs*; pope and ai2d never in training *theirs*; hf:Praveenrajus/jevify-qwen3-vl-2b-t2 ≠ hf:Praveenrajus/jevify-qwen3.5-4b-t2; Qwen3-VL ≠ Archer; hf:litert-community/Laya-English-LiteRT README HTTP 404; hf:top7777 sample noul 0.99 is illustrative code; zhongpei/jev-chat-jarvis ≠ jev-chat/jev-chat-jarvis; fills never send; empty SHA HTTP 409; README HTTP 404; serving substrate ≠ calibrated replica; Soft judgment never sole veto; ranking ≠ calibration; *theirs* not Harbor; SHA move is not a replica; Skip Archer; invented_signal: false; Parent merges only after ADV_PASS; hourly 2044 §161 are on main; this fold is §162 only; composition 965-980; findings batch #142; do not reopen or amend PR #23 through #87; does not bump 0.5.0 or 0.5.1; notes.md §162"
 )
+UNIQ_2244 = (
+"Hourly 2244 uniqueness lock: TypeSafe Jev default path; HappyAny/jev-random-bit-experiments README SHA 9d83e82b70ab; HEAD 0bc500ee16c8; a fair coin is not a Choice; Choice returns the max-probability option; 1999 zeros and 1 one; p is not the probability the model is random; brainstormity/Jev-Moderation-Bot README SHA c0ff9805eb24; HEAD 325ea7f4ae88; delete is policy, the score is a sensor; a profile is not a measurement of a person; Soft judgment never sole veto; himomohi/jev-skill-router README SHA 68036b96f2d8; release v0.1.0; the catalog stays outside the prompt; selection does not execute; himomohi/jev-skill-router ≠ abgregs/jev-skill-router ≠ aleksvega/jev-skill-router; adamtopaz/jevhammer README SHA abe4deeb1f47; the checker owns the proof; a Noul is not a discharged proof; 450/1024 and 469/1024 vs LeanHammer 372/1024 *theirs*; inhabitants/laya-invaders README SHA 48b0e0bd87cb; a dumb baseline; rule 52/52 vs Laya 50/52 *theirs*; game success ≠ calibrated Noul; jongyunhur/jev-webagent-bench README SHA 75a4009f8658; 18.67% withdrawn; +42.5% *theirs*; a withdrawn latency is not a speed claim; infinitylogesh/systemone README SHA dd16a4383912; HEAD 436469e12f2d; logprob readout is not a trained head; one next-token read; published Jev 0.727 is not measured here; Gemma 4 0.709 *theirs*; Qwen3.5 raw ECE 0.033 to calibrated 0.091 *theirs*; Gemma 4 ≠ Archer; Qwen3.5 ≠ Archer; denis-pplx/autojev README SHA fa7cdfa7b68b; temperature scaling is not RLCD; Qwen3.8 ≠ Archer; AutoJev-27B 84.60% ECE 0.04282 *theirs*; Jev 82.79% ECE 0.05274 *theirs*; Viratvishnu13/SystemOne-ONNX README SHA 4d667d7a9575; ~22M; transplanted GRPO 100% to 88% *theirs*; do not read that as RLCD does not work; cx295410-dot/jev-biomedical-evidence-screening README SHA 456c97dbf15b; HEAD 83200af46e19; high recall is not safe exclusion; 17,191 pairs and 392 inclusions; not clinical validation; SamanPandey-in/jevrail README SHA e2298621d282; code can only tighten; YcWang6992/Jev-with-Codex README SHA 93c107707d75; exact rows skip the model; one task is not a bill; draiagent/ai-to-agent-jev-mcp README SHA 8b11ae027972; Noul has no confidence field; 0.5 is not a decision boundary; kyledickey/jev-go README SHA efdc2d41d08a; release v0.1.0; a client is not a model; kyledickey/jev-go ≠ Stumble/jev-go ≠ tgallice/jev-go; ranking ≠ calibration; AkashPriyadarshii/jev-curate densify §134; HEAD c8b31ada9f08; description rewrite is not a new bench; star 6 to 19 is star-noise; ARCJ137442/jev-life densify §160; HEAD bdfc26a7687d was f8cabbf1ec8d; no heuristic fallback; ZongxingH/gemini-quality-gate-jev densify §161; HEAD d1b6446e098d was 7ed691a005a4; a hook is not a merge gate; confidence below 0.6 does not auto-reject; stainlu/awesome-jev catalog ≠ endorsement; 5,713 indexed *theirs*; hf:SAIFIINDUSTRIES/laya is not a new measurement; sha 2ba530c97c3e; do not re-fold Khmer 0.000 at 0.952; Helongzhou/Jev-hypit empty SHA HTTP 409; seanmg52/jev-legal-eval empty SHA HTTP 409; flayab/jevai README HTTP 404; layanan ≠ Laya; serving substrate ≠ calibrated replica; wire-compat ≠ logit-equiv; *theirs* not Harbor; SHA move is not a replica; Skip Archer; invented_signal: false; Parent merges only after ADV_PASS; hourly 2149 §162 are on main; this fold is §163 only; composition 981-996; findings batch #143; do not reopen or amend PR #23 through #88; does not bump 0.5.0 or 0.5.1; notes.md §163"
+)
+
 
 REVISIT_LOCK = (
     "Revisit / since-last-look lock: catalogued repos are not done; "
@@ -2358,6 +2362,144 @@ def main() -> int:
         if card_id not in notes162:
             failed.append(f"notes.md §162 missing card {card_id}")
 
+    if "## 163. Hourly 2244 HIGH" not in notes:
+        failed.append("notes.md missing §163 heading")
+    if notes.count(UNIQ_2244) != 1:
+        failed.append(
+            f"notes.md 2244 lock count {notes.count(UNIQ_2244)} != 1"
+        )
+    i163 = notes.find("## 163. Hourly 2244 HIGH")
+    if not (i162 >= 0 and i163 > i162):
+        failed.append("notes.md must stay contiguous §162 then §163")
+    notes163 = notes[i163:] if i163 >= 0 else ""
+    if "this fold is §163 only" not in notes163:
+        failed.append("notes.md §163 missing §163-only occupancy")
+    if "hourly 2149 §162 are on main" not in notes163:
+        failed.append("notes.md §163 missing merged §162 occupancy")
+    if UNIQ_2244 not in notes163:
+        failed.append("2244 lock missing inside notes.md §163")
+    for frag in (
+        'TypeSafe Jev default path',
+        'a fair coin is not a Choice',
+        '1999 zeros and 1 one',
+        'Noul has no confidence field',
+        '0.5 is not a decision boundary',
+        'the checker owns the proof',
+        'a dumb baseline',
+        '18.67% withdrawn',
+        '+42.5% *theirs*',
+        'logprob readout is not a trained head',
+        'Qwen3.8 ≠ Archer',
+        'Qwen3.5 ≠ Archer',
+        'Gemma 4 ≠ Archer',
+        'published Jev 0.727 is not measured here',
+        'high recall is not safe exclusion',
+        '17,191 pairs and 392 inclusions',
+        'code can only tighten',
+        'exact rows skip the model',
+        'catalog ≠ endorsement',
+        'description rewrite is not a new bench',
+        'AkashPriyadarshii/jev-curate densify §134',
+        'ARCJ137442/jev-life densify §160',
+        'ZongxingH/gemini-quality-gate-jev densify §161',
+        'empty SHA HTTP 409',
+        'README HTTP 404',
+        'layanan ≠ Laya',
+        'hf:SAIFIINDUSTRIES/laya is not a new measurement',
+        'do not re-fold Khmer 0.000 at 0.952',
+        'serving substrate ≠ calibrated replica',
+        'wire-compat ≠ logit-equiv',
+        'Soft judgment never sole veto',
+        'ranking ≠ calibration',
+        '*theirs* not Harbor',
+        'SHA move is not a replica',
+        'Skip Archer',
+        'invented_signal: false',
+        'Parent merges only after ADV_PASS',
+        'hourly 2149 §162 are on main',
+        'this fold is §163 only',
+        'composition 981-996',
+        'findings batch #143',
+        'do not reopen or amend PR #23 through #88',
+        'does not bump 0.5.0 or 0.5.1',
+        'notes.md §163',
+    ):
+        if frag not in UNIQ_2244:
+            failed.append(f"UNIQ_2244 missing {frag!r}")
+    readme_2244 = (ROOT / "README.md").read_text(encoding="utf-8")
+    if UNIQ_2244 in readme_2244:
+        failed.append("README.md must not hold the 2244 uniqueness lock")
+    for rel in OVERLAYS:
+        if rel == "research/notes.md":
+            continue
+        overlay_2244 = (ROOT / rel).read_text(encoding="utf-8")
+        if UNIQ_2244 in overlay_2244:
+            failed.append(
+                f"2244 lock must stay in notes.md and the gate fixture, not {rel}"
+            )
+    for card_id in (
+"brainstormity/Jev-Moderation-Bot",
+"himomohi/jev-skill-router",
+"kyledickey/jev-go",
+"Cong-Quang/SnakeGame-laya",
+"ElSnacko/Open-JEV-VLA",
+"HappyAny/jev-random-bit-experiments",
+"Helongzhou/Jev-hypit",
+"Mant1ssa-smf3kt/chat_jev",
+"SamanPandey-in/jevrail",
+"TimTan1234/laya-jv",
+"Viratvishnu13/SystemOne-ONNX",
+"YcWang6992/Jev-with-Codex",
+"adamtopaz/jevhammer",
+"adamtopaz/jevhammer_benchmark",
+"adamtopaz/jevselector",
+"capybara-brain346/jevtrieval",
+"cskwork/pi-jev-router",
+"cx295410-dot/jev-biomedical-evidence-screening",
+"denis-pplx/autojev",
+"dmitrysobolev/jev-spring-boot-bookstore",
+"dorkitude/decision-model-testing",
+"draiagent/ai-to-agent-jev-mcp",
+"flayab/jevai",
+"grizzlypeaksoftware/jev-demo",
+"hamakyo/jev-mahjong-bench",
+"henryklunaris/hey-jev",
+"hf:2045max/laya-demo-0921",
+"hf:SAIFIINDUSTRIES/laya",
+"inara13/marketplace-aml-triage-engine",
+"infinitylogesh/systemone",
+"inhabitants/laya-invaders",
+"jelkes1/superdoc-jev-demo",
+"jongyunhur/jev-webagent-bench",
+"kelurahanpagerpky-app/aduan-dan-layanan-darurat",
+"kinfey/JevONNX",
+"le0u0/jev-model-router",
+"leo-kreisman/Qwen3.6-35B-A3B-JEV",
+"marknaman05/scam-radar",
+"mity-prodgen/jev-test",
+"mjmiller41/jev-router-harness",
+"moghthalkushal/jev-laya",
+"perrydunnit/strudel-jev-jam",
+"ramb5144/laya-answer-router",
+"ramb5144/laya-robot-arm",
+"raoashwini21/signal-sifter",
+"sacrtap/webchat-jev-analysis",
+"seanmg52/jev-legal-eval",
+"silkyland/use-jev",
+"siren2345/jevlocal-mac",
+"smarty-kiki/chrome_jev_agent",
+"stainlu/awesome-jev",
+"sumitvairagar/jev-spring-boot-starter",
+"voxmenthe/code-search-jev",
+"xxlya/evaljev",
+"yibie/jev-engineering-zh",
+"AkashPriyadarshii/jev-curate",
+"ARCJ137442/jev-life",
+"ZongxingH/gemini-quality-gate-jev",
+    ):
+        if card_id not in notes163:
+            failed.append(f"notes.md §163 missing card {card_id}")
+
     for remainder_id in (
         "ishantanu/jevmetrics",
         "4esv/jev-eval",
@@ -3043,7 +3185,7 @@ def main() -> int:
     algebra = (ROOT / ".agents/skills/augustus/references/composition-algebra.md").read_text(
         encoding="utf-8"
     )
-    for n in list(range(289, 317)) + list(range(322, 330)) + list(range(330, 337)) + list(range(337, 353)) + list(range(353, 369)) + list(range(369, 385)) + list(range(385, 401)) + list(range(401, 417)) + list(range(417, 433)) + list(range(433, 449)) + list(range(449, 465)) + list(range(465, 481)) + list(range(481, 497)) + list(range(497, 505)) + list(range(505, 521)) + list(range(521, 537)) + list(range(537, 553)) + list(range(553, 569)) + list(range(569, 585)) + list(range(585, 601)) + list(range(601, 617)) + list(range(617, 633)) + list(range(633, 649)) + list(range(649, 665)) + list(range(665, 681)) + list(range(681, 697)) + list(range(697, 713)) + list(range(713, 729)) + list(range(729, 745)) + list(range(745, 761)) + list(range(761, 777)) + list(range(777, 793)) + list(range(793, 949)) + list(range(965, 981)):
+    for n in list(range(289, 317)) + list(range(322, 330)) + list(range(330, 337)) + list(range(337, 353)) + list(range(353, 369)) + list(range(369, 385)) + list(range(385, 401)) + list(range(401, 417)) + list(range(417, 433)) + list(range(433, 449)) + list(range(449, 465)) + list(range(465, 481)) + list(range(481, 497)) + list(range(497, 505)) + list(range(505, 521)) + list(range(521, 537)) + list(range(537, 553)) + list(range(553, 569)) + list(range(569, 585)) + list(range(585, 601)) + list(range(601, 617)) + list(range(617, 633)) + list(range(633, 649)) + list(range(649, 665)) + list(range(665, 681)) + list(range(681, 697)) + list(range(697, 713)) + list(range(713, 729)) + list(range(729, 745)) + list(range(745, 761)) + list(range(761, 777)) + list(range(777, 793)) + list(range(793, 949)) + list(range(965, 981)) + list(range(981, 997)):
         needle = f"{n}. **"
         if needle not in algebra:
             failed.append(f"composition-algebra missing item {n}")
@@ -3077,6 +3219,8 @@ def main() -> int:
         failed.append("composition item 949 is not the 2044 memory sieve")
     if "965. **score the signal before the expensive call**:" not in algebra:
         failed.append("composition item 965 is not the 2149 log sieve")
+    if "981. **a fair coin is not a Choice**:" not in algebra:
+        failed.append("composition item 981 is not the 2244 fair coin")
     findings = (ROOT / "research/archive/findings.md").read_text(encoding="utf-8")
     for batch in (
         "## Batch #97",
@@ -3125,6 +3269,7 @@ def main() -> int:
         "## Batch #140",
         "## Batch #141",
         "## Batch #142",
+        "## Batch #143",
     ):
         if batch not in findings:
             failed.append(f"findings.md missing {batch}")
@@ -3150,6 +3295,8 @@ def main() -> int:
         failed.append("findings.md holds the 2044 uniqueness lock")
     if UNIQ_2149 in findings:
         failed.append("findings.md holds the 2149 uniqueness lock")
+    if UNIQ_2244 in findings:
+        failed.append("findings.md holds the 2244 uniqueness lock")
     digest_path_2146 = ROOT / "research/archive/hourly/2026-09-21T03/run_digest.json"
     if not digest_path_2146.is_file():
         failed.append("missing 2146 run_digest.json")
@@ -4870,6 +5017,7 @@ def main() -> int:
         ("1949", UNIQ_1949),
         ("2044", UNIQ_2044),
         ("2149", UNIQ_2149),
+        ("2244", UNIQ_2244),
     ):
         if lock in changelog:
             failed.append(
