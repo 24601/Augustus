@@ -4801,6 +4801,108 @@ Soft Noul ≠ hard safety.
      notes.md §156. composition 869-884. findings batch #136.
      Full cards: `faq.md`.
 
+885. **hosted Jev picks the click, code verifies**:
+     TypeSafe Jev is the default path. HAR5HA-7663/hunch asks
+     jev-1.13.0 which operation and element. agent-browser acts.
+     Code verifies the click. min-conf 0.75 still soft. An irreversible
+     word or p_irreversible stops the click unless --allow-risky.
+     Median 153 ms and 24/24 on four page states are *theirs*, not Harbor.
+     Full cards: `research/notes.md` §157.
+886. **AnyJev rename is the same repo**:
+     nokia-applied-research/AnyJev IS MorrisZJ/AnyJev, same GitHub
+     id 1379166549. Densify §151, not a sibling first sighting.
+     HEAD e172f3875783 was 39612ea0dbad. Release v0.0.2.
+     pyproject 0.0.2. The README status line still says v0.0.1.
+     Star 1 to 8 is star-noise beside the rename. L0 is not calibration.
+     The banking20 table stays the §151 card. Do not headline the maze.
+     Qwen3 is not Archer. Qwen2.5 is not Archer.
+     Full cards: `research/notes.md` §157.
+887. **in-process Laya escalates below 0.7**:
+     dannote/jev_nx runs Laya 421M ModernBERT in-process on Nx.
+     Confidence below 0.7 escalates to hosted Jev. 0.7 still soft.
+     Sequences verified against the reference is their claim.
+     Wire-compat is not logit-equiv.
+     Full cards: `research/notes.md` §157.
+888. **Jev answers, the writer is not Jev**:
+     tenuo-ai/safe-upgrade asks Jev bounded questions. The generator
+     writes. Apply refuses a changed tree. Jev is not the writer.
+     Full cards: `research/notes.md` §157.
+889. **held-out ECE is theirs, labels are not human**:
+     Akicou/system-one-270m trains unsloth/gemma-3-270m-it.
+     Held-out trained acc 0.6574 ECE 0.1311, temp-scaled ECE 0.0374
+     on 2,493 questions, are *theirs*. Labels are gpt-oss-20b, not human.
+     Gemma 3 is not Archer. Hub weights stay §156.
+     The dataset has 25,002 questions split on state_id.
+     Full cards: `research/notes.md` §157.
+890. **accuracy is not calibration**:
+     hf:agk4444/laya-typed-decisions acc 0.789 ECE 0.232 versus
+     Jev ECE 0.144 is *theirs*. Accuracy rose and ECE worsened.
+     Do not average 0.789 with the §151 measured 0.768.
+     Full cards: `research/notes.md` §157.
+891. **temperature republishes a probability**:
+     hf:MissingPackage/jev-d-0.4b-onnx is an ONNX export of Laya,
+     not TypeSafe. Temperature 0.1006 republishes 0.24 as 0.99.
+     Clamp is [0.5, 5.0]. A serving substrate is not a calibrated replica.
+     Full cards: `research/notes.md` §157.
+892. **picks never change the outcome**:
+     cedrecs/jev-stories densifies §153. HEAD 19b766f7b765 was
+     34fbe3a8478f. Four sliders are policy. Picks never change the
+     outcome. Game success is not a calibrated Noul.
+     Full cards: `research/notes.md` §157.
+893. **tree cuts stay soft**:
+     lee-lou2/jev-tree densifies §127. HEAD ddc25cf03913 was
+     4fd272a26656. Recommended 0.65, alternative 0.40, abstain 0.30
+     still soft. Publishing is a second call. A missing key falls
+     back to a lexical heuristic. This tree is not reachjalil/jev-tree
+     and not Pizzawookiee/jev-tree-memory.
+     Full cards: `research/notes.md` §157.
+894. **a ranker is not a detector**:
+     sksq96/jevgram AUC 0.891 / 0.992 / 0.787 is *theirs*.
+     A ranker is not a detector. $0.97 is their study cost.
+     14-TR/jev-empirical 101/101 is ceiling-effect evidence.
+     The protocol is a draft.
+     Full cards: `research/notes.md` §157.
+895. **no probability to threshold**:
+     NakliTechie/verdict confidence_kind none means no probability
+     to threshold. BM25 33/40 versus verdict 28/40 is *theirs*.
+     Wire-compat is not logit-equiv. This verdict is not
+     Heman10x-NGU/openJev-verdict-2.0 and not lifeporterlab/jev-verdict.
+     Full cards: `research/notes.md` §157.
+896. **selection does not execute**:
+     abgregs/jev-skill-router is about 340 ms over 1,064 skills, *theirs*.
+     One Noul per skill. It is not aleksvega/jev-skill-router.
+     loom keeps up to 3 at 0.85. 0.85 still soft. Selection does not execute.
+     The key stays in the daemon.
+     Full cards: `research/notes.md` §157.
+897. **shadow discards the answer**:
+     Taf0711/system-one-compiler shadow discards the answer.
+     Active needs a passing holdout. The provider call is never skipped.
+     silvaan/nav-jev states no benchmark numbers yet.
+     Full cards: `research/notes.md` §157.
+898. **game loops are not calibrated Noul**:
+     cbroker1/jev-un-squadron reached 82 of 108 and the boss was
+     never killed. Jev is not a calculator. cohenom/laya-tetris:
+     the heuristic drives, Laya votes. 798 lines over 2000 pieces
+     is *theirs*. mmastrac/djev reads temperature-1 logprobs.
+     DiffusionGemma is not Archer. This serving port is not
+     Hangzhi/diffusion-jev-sglang.
+     Full cards: `research/notes.md` §157.
+899. **namesakes and empty SHA**:
+     Empty trees record empty SHA HTTP 409. Layali-Al-Ahlam-Importados
+     is a perfume shop name collision. rahiseko-alt/Jev-write is a
+     Claude template. kurousa/jev README is the empty blob.
+     jev-ids/jev-ids.github.io is not jev-ids/jev-ids.
+     TJurijs/jev_sandbox 0.5 still soft, and it is not baldpanda/jev-sandbox.
+     slatinwine/jev-cua is not ronadin2002/jev-cua.
+     Full cards: `research/notes.md` §157.
+900. **skip Archer** (promised_not_landed):
+     Archer still promised_not_landed. Parent merges only after ADV_PASS.
+     hourly 1653 §156 are on main. This fold is §157 only.
+     Do not reclaim §147 through §156. Do not reopen or amend PR #23 through #82.
+     Does not bump 0.5.0 or 0.5.1.
+     notes.md §157. composition 885-900. findings batch #137.
+     Full cards: `faq.md`.
+
 
 
 

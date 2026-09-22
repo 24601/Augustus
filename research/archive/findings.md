@@ -1,5 +1,58 @@
 # Deep-read findings (evidence for research/notes.md)
 
+## Batch #137 (2026-09-21 ~17:51 Boise / ~23:51 UTC) - hourly 1751 HIGH
+
+Note: `research/notes.md` §157. Composition 885-900.
+hourly 1653 §156 is on main. This fold is §157 only.
+Do not reclaim §147 through §156.
+Hourly 1653 stays §156 / composition 869-884 / batch #136.
+This fold stays §157 / items 885-900 / batch #137.
+**HARD RULE:** do not reopen or amend PR #23 through #82.
+The consecutive lock string lives in notes.md and uniqueness_gate.py only.
+README still ends at License. Does not bump 0.5.0 or 0.5.1.
+`invented_signal: false`. Parent merges only after ADV_PASS.
+
+- **nokia-applied-research/AnyJev densify §151.** Same GitHub id
+  1379166549 as MorrisZJ/AnyJev. HEAD e172f3875783 was 39612ea0dbad.
+  Release v0.0.2. pyproject 0.0.2. The README status line still says
+  v0.0.1. Star 1 to 8 is star-noise beside the rename. L0 is not
+  calibration. The banking20 table stays the §151 card. Do not headline
+  the maze. Qwen3 is not Archer. Qwen2.5 is not Archer.
+- **HAR5HA-7663/hunch.** TypeSafe Jev jev-1.13.0 picks the operation
+  and the element. agent-browser acts. Code verifies the click.
+  min-conf 0.75 still soft. An irreversible click stops.
+  Median 153 ms and 24/24 on four page states are *theirs*, not Harbor.
+  $0.0002 and $0.00004 are two author sentences. Do not average them.
+- **dannote/jev_nx.** Laya 421M in-process on Nx. Confidence below 0.7
+  escalates to hosted Jev. 0.7 still soft. Sequences verified against
+  the reference is their claim. Wire-compat is not logit-equiv.
+- **tenuo-ai/safe-upgrade.** Jev answers bounded questions. Apply refuses
+  a changed tree. Jev is not the writer.
+- **Akicou/system-one-270m.** Trained acc 0.6574 ECE 0.1311, temp-scaled
+  ECE 0.0374 on 2,493, are *theirs*. Labels are gpt-oss-20b, not human.
+  Gemma 3 is not Archer. Hub weights stay §156. The dataset splits on
+  state_id.
+- **hf:agk4444/laya-typed-decisions.** Acc 0.789 ECE 0.232 versus Jev
+  ECE 0.144 is *theirs*. Accuracy is not calibration.
+- **hf:MissingPackage/jev-d-0.4b-onnx.** Temperature 0.1006. Clamp
+  [0.5, 5.0]. 0.24 republished as 0.99. Base is Laya, not TypeSafe.
+- **cedrecs/jev-stories densify §153.** HEAD 19b766f7b765 was 34fbe3a8478f.
+  Picks never change the outcome. Game success is not a calibrated Noul.
+- **lee-lou2/jev-tree densify §127.** HEAD ddc25cf03913 was 4fd272a26656.
+  Recommended 0.65, alternative 0.40, abstain 0.30 still soft.
+  Publishing is a second call.
+- **sksq96/jevgram.** AUC 0.891 / 0.992 / 0.787 is *theirs*. A ranker
+  is not a detector. 14-TR/jev-empirical 101/101 is ceiling-effect
+  evidence. The protocol is a draft.
+- **NakliTechie/verdict.** confidence_kind none means no probability to
+  threshold. BM25 33/40 versus 28/40 is *theirs*.
+- **Taf0711/system-one-compiler.** Shadow discards the answer. Active
+  needs a passing holdout. The provider call is never skipped.
+- **cbroker1/jev-un-squadron.** 82 of 108. The boss was never killed.
+  Jev is not a calculator. cohenom/laya-tetris: the heuristic drives.
+- Empty trees record empty SHA HTTP 409. Soft judgment never sole veto.
+  Skip Archer.
+
 ## Batch #136 (2026-09-21 ~16:53 Boise / ~22:53 UTC) - hourly 1653 HIGH
 
 Note: `research/notes.md` §156. Composition 869-884.

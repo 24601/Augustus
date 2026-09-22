@@ -623,6 +623,27 @@ Hourly 0049 uniqueness lock: Zefan-Cai/Open-Jev densify HEAD f46ff604f794 via af
 Hourly 0151 uniqueness lock: Zefan-Cai/Open-Jev densify HEAD ed45657bf726 via 748ae3024294 README SHA 12e0f581e15d was e32c4bbd519c; Publish audited v3 community data and held-out evaluation protocol; Redesign readable project site and consolidate benchmark results; 129,288 decision rows 74,921 training; frozen mixture 96,849 training; 1,280-row / 840-group comparison panel; v3 data prepared ≠ retrained released models; held-out protocol ≠ Harbor; 1,280-row panel ≠ Harbor; finite training loss ≠ quality improvement; website redesign ≠ calibration; 27B step 616 pending; Open-Jev TREC pending; LoRA ≠ RLCD replica; Qwen3.5-2B ≠ Archer; Qwen3.5-9B ≠ Archer; densify §125 not a sibling first sighting; chy4pro/jev-for-chrome 12★ community port ≠ TypeSafe; chy4pro/jev-for-chrome ≠ browser-use/jev-ultrafast; PsiACE/dohnuts 4★ small multimodal direct decisions; joint RLCD *theirs*; Dohnuts ≠ TypeSafe; catoenm/first-instinct 9B 63.3%→78.1% *theirs* not Harbor; 371,278 prepared ≠ consumed; RL did not reliably improve held-out; independent educational not a recovered Jev recipe; 123Satyajeet123/jev-wide naive throws away 83% *theirs*; 255 documented ~32,768 tokens real; two-decimal 95.8% floored *theirs*; IIA fails +0.31 ... +0.50 *theirs*; AltSlate-Labs/certo KL 0.008 acc 0.844 ECE 0.004 *theirs*; research preview independent not affiliated; endomorphosis/JevOps Jev is a gate not a generator; Lake remains admission; Jev never writes Lean; gbesse/question-forge held-out before winner; demo accuracy is synthetic not a Jev benchmark; flyryan/ai-news-aggregator 26★ does not execute; Akashdb5/jev-router ≠ gargpratyush/jev-router ≠ daviddl9/jev-router; kiuckhuang/laya-jev ≠ KonghaYao/laya-jev; tegersdorfer-collab/jevkit ≠ isiomaC/jevkit ≠ WaynezProg/jev-kit; buluoray/JevOnly already carded; yottayoshida/jev-intent-review already carded; skip-thin Iskandeur/system1-system2 zhlei07/open-system-one Hand-In/openjev-multimodal gwxcsny53/jev-watchtower empty SHA; serving substrate ≠ calibrated replica; game success ≠ calibrated Noul; does not execute; catalog ≠ endorsement; routing ≠ permission; *theirs* not Harbor; SHA move is not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55/#56/#57/#58/#59/#60; notes.md §137
 
 
+## Hourly 1751 HIGH (`notes.md` §157)
+
+TypeSafe Jev stays the default recommended path.
+nokia-applied-research/AnyJev is MorrisZJ/AnyJev, same GitHub id.
+Densify §151, not a sibling first sighting. L0 is not calibration.
+hunch 153 ms and 24/24 are *theirs*, not Harbor. min-conf 0.75 still soft.
+Code verifies the click. Confidence below 0.7 still escalates, and 0.7 stays soft.
+Jev answers bounded questions. Jev is not the writer.
+Held-out ECE on 2,493 questions is *theirs*. Labels are not human.
+Accuracy is not calibration. A temperature republish is not a calibrated replica.
+Picks never change the outcome. Tree cuts 0.65 / 0.40 / 0.30 stay soft.
+A ranker is not a detector. 101/101 is ceiling-effect evidence.
+Shadow discards the answer. The provider call is never skipped.
+Game success is not a calibrated Noul. DiffusionGemma is not Archer.
+Densify §151, §153, and §127. Do not mint a sibling first sighting.
+hourly 1653 §156 are on main. This fold is §157 only.
+Do not reopen or amend PR #23 through #82. Do not reclaim §147 through §156.
+Does not bump 0.5.0 or 0.5.1. Skip Archer.
+`invented_signal: false`.
+The uniqueness lock lives in `research/notes.md` and the uniqueness gate fixture only.
+
 ## Hourly 1653 HIGH (`notes.md` §156)
 
 TypeSafe Jev stays the default recommended path.

@@ -1,3 +1,16 @@
+## 2026-09-21 ~23:51 UTC / ~17:51 Boise - Hourly 1751 HIGH
+- Folded onto post-#82 `main` (`d459b52`). hourly 1653 §156 is on main.
+  This fold is §157 only. This fold: `notes.md` §157 / composition 885-900 /
+  findings batch #137. Do not reclaim §147 through §156.
+  **HARD RULE:** do not reopen or amend PR #23 through #82.
+- PRIMARY: nokia-applied-research/AnyJev densifies §151 (same GitHub id).
+  L0 is not calibration. HAR5HA-7663/hunch 153 ms / 0.75 still soft is
+  *theirs*, not Harbor. Code verifies the click. Class benches stay *theirs*.
+  Densify §153 and §127, not sibling first sightings.
+- Evidence: `research/archive/hourly/2026-09-21T23/`.
+- Uniqueness lock lives in `research/notes.md` only (plus the gate fixture).
+  `invented_signal: false`. No Augustus call site. X disabled. No new X quotes.
+
 ## 2026-09-21 ~22:53 UTC / ~16:53 Boise - Hourly 1653 HIGH
 - Folded onto post-#81 `main` (`3e3fa42`). hourly 1556 §154 and
   rawwerks/one-system §155 are on main. This fold is §156 only.

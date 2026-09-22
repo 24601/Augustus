@@ -1,0 +1,934 @@
+[
+  {
+    "id": "AkhilBod/Tidy",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": null,
+      "pushed_at": "2026-09-21T23:41:53Z",
+      "description_hash": "10755cc3be89",
+      "release_tag": null
+    },
+    "readme_sha": null,
+    "github_id": 1380652209,
+    "stars": 0,
+    "license": null,
+    "empty": true
+  },
+  {
+    "id": "AkhilBod/TidyJev",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": null,
+      "pushed_at": "2026-09-21T23:41:37Z",
+      "description_hash": "10755cc3be89",
+      "release_tag": null
+    },
+    "readme_sha": null,
+    "github_id": 1380652025,
+    "stars": 0,
+    "license": null,
+    "empty": true
+  },
+  {
+    "id": "ninjasweb/jev-mute-words",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "a9f7da58bc5e5b40399d03e658ae7a55d1f388bf",
+      "pushed_at": "2026-09-21T23:00:30Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": null,
+    "github_id": 1380626150,
+    "stars": 1,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "nokia-applied-research/AnyJev",
+    "kind": "novel",
+    "notes_section": "151",
+    "fingerprints": {
+      "default_sha": "e172f3875783bb2bfa7341ada4f15e7a2adc3652",
+      "pushed_at": "2026-09-21T21:05:24Z",
+      "description_hash": "ce96a63ca053",
+      "release_tag": "v0.0.2"
+    },
+    "readme_sha": "ada0d085a7daf686700c1310122739ca34265798",
+    "github_id": 1379166549,
+    "stars": 8,
+    "license": "Apache-2.0",
+    "empty": false
+  },
+  {
+    "id": "tenuo-ai/safe-upgrade",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "19af70106eb0106b9b2eab48b443fe9bc425e1f9",
+      "pushed_at": "2026-09-21T23:58:21Z",
+      "description_hash": "d1d456968445",
+      "release_tag": null
+    },
+    "readme_sha": "6cdd645a9aaabeec348cff3e121236110c4de61e",
+    "github_id": 1377671063,
+    "stars": 1,
+    "license": "Apache-2.0",
+    "empty": false
+  },
+  {
+    "id": "Gui-daSAlmeida/Layali-Al-Ahlam-Importados",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "83b0974c32acef33cbf21e61ca35736e10b752c8",
+      "pushed_at": "2026-09-21T23:22:52Z",
+      "description_hash": "660ba36454cb",
+      "release_tag": null
+    },
+    "readme_sha": null,
+    "github_id": 1362041531,
+    "stars": 1,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "14-TR/jev-empirical",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "4b40b69c364b073afb3b3a95495fad0e0c78be3b",
+      "pushed_at": "2026-09-21T23:27:03Z",
+      "description_hash": "c4475de9274c",
+      "release_tag": null
+    },
+    "readme_sha": "1d0c104e026607ba4c9a199da09a6579e69623c9",
+    "github_id": 1377754756,
+    "stars": 0,
+    "license": "MIT",
+    "empty": false
+  },
+  {
+    "id": "dannote/jev_nx",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "619be0e6fd59c1585d986280ee3c5d31fe97a247",
+      "pushed_at": "2026-09-21T22:57:11Z",
+      "description_hash": "a77fbd4e1206",
+      "release_tag": null
+    },
+    "readme_sha": "294f4511fd1e9475df3ff5d7a1eaae8c8e239e9b",
+    "github_id": 1380624681,
+    "stars": 1,
+    "license": "Apache-2.0",
+    "empty": false
+  },
+  {
+    "id": "AlexanderJiazx/AutoJev",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": null,
+      "pushed_at": "2026-09-21T23:18:33Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": null,
+    "github_id": 1380638002,
+    "stars": 0,
+    "license": null,
+    "empty": true
+  },
+  {
+    "id": "Akicou/system-one-270m",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "e1582c8d315dd3749c8d60c57afc329fc09865d0",
+      "pushed_at": "2026-09-21T23:15:48Z",
+      "description_hash": "72b4a2b20a27",
+      "release_tag": null
+    },
+    "readme_sha": "05466ed11f0b9f393d6b1012a0d8ed616e1f6680",
+    "github_id": 1380636219,
+    "stars": 0,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "Bald0Wang/jev-playground",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "cb49013d08062dcb70f7fc72a9b13a4e67480e8d",
+      "pushed_at": "2026-09-21T23:40:38Z",
+      "description_hash": "603dc009fabc",
+      "release_tag": null
+    },
+    "readme_sha": "1dd68294898e400f2369c8b055c494bb020a640a",
+    "github_id": 1380651417,
+    "stars": 0,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "JamesANZ/ChatJev",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "5df3863e87c96377e530fabe69474442045e1dd9",
+      "pushed_at": "2026-09-21T23:41:47Z",
+      "description_hash": "ad3eca4a6273",
+      "release_tag": null
+    },
+    "readme_sha": "80d4d7137262a7b48dc4dc5879b673a03b8e39a2",
+    "github_id": 1380631425,
+    "stars": 0,
+    "license": "MIT",
+    "empty": false
+  },
+  {
+    "id": "NakliTechie/verdict",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "73dbcd6035e7433431b677854b4912d04ff612ae",
+      "pushed_at": "2026-09-21T23:55:34Z",
+      "description_hash": "2ba7f61ef6df",
+      "release_tag": null
+    },
+    "readme_sha": "9558a7d0da1228c3301d260166941e2d5a359368",
+    "github_id": 1379112966,
+    "stars": 0,
+    "license": "MIT",
+    "empty": false
+  },
+  {
+    "id": "HAR5HA-7663/hunch",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "e11a5b4367764f9a9f2917ee4699da0cba254f5b",
+      "pushed_at": "2026-09-21T23:01:17Z",
+      "description_hash": "17ffdcf77454",
+      "release_tag": null
+    },
+    "readme_sha": "2163d769f4152bb64dff8c6abfb38985d75b0465",
+    "github_id": 1380627437,
+    "stars": 0,
+    "license": "MIT",
+    "empty": false
+  },
+  {
+    "id": "JamesANZ/jev-chrome-blocker-extension",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "486d30601a34d43f0b9b623711d1e47980f768b9",
+      "pushed_at": "2026-09-21T23:41:53Z",
+      "description_hash": "39ff31886373",
+      "release_tag": null
+    },
+    "readme_sha": "6acdd0ceffd21da56aaf0d88cd030d7aebea1486",
+    "github_id": 1380631901,
+    "stars": 0,
+    "license": "MIT",
+    "empty": false
+  },
+  {
+    "id": "Miyamura80/among-us-jev",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "c869d2db52c59c11f85adbb404442903812045dd",
+      "pushed_at": "2026-09-21T23:21:04Z",
+      "description_hash": "08f2fe3253d8",
+      "release_tag": null
+    },
+    "readme_sha": "d0eea5eff7852f6e7d98275b50351a5a2440727d",
+    "github_id": 1377290395,
+    "stars": 0,
+    "license": "MIT",
+    "empty": false
+  },
+  {
+    "id": "NourEldinShobier/web-search",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "92fd2461bd833cc5dcc64749577ef04da5cd090a",
+      "pushed_at": "2026-09-21T23:00:18Z",
+      "description_hash": "b05d59292498",
+      "release_tag": null
+    },
+    "readme_sha": "a2a7c2a59a49504cde7c5e150e0b04a085f21dbf",
+    "github_id": 1380487198,
+    "stars": 0,
+    "license": "MIT",
+    "empty": false
+  },
+  {
+    "id": "Roasbeef/loom-skill-selector",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "c909d67d6d6cc67fac78ee8ad746008ab100cbf9",
+      "pushed_at": "2026-09-21T23:55:42Z",
+      "description_hash": "d0690fa61d07",
+      "release_tag": null
+    },
+    "readme_sha": "46e58db20bbcbf92c238b5a5341903ea7337b40e",
+    "github_id": 1380654812,
+    "stars": 0,
+    "license": "MIT",
+    "empty": false
+  },
+  {
+    "id": "TJurijs/jev_sandbox",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "f3cf05dca8a13fbca032e3a0793f8b902952de92",
+      "pushed_at": "2026-09-21T23:49:51Z",
+      "description_hash": "6908dfa31e3b",
+      "release_tag": null
+    },
+    "readme_sha": "90c080a84d597c0c1a09cfbc8235be55d2afd4a2",
+    "github_id": 1380655740,
+    "stars": 0,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "Stephonomon/scribe-verify",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "bf6ec20e1f21e1b9be4e359db3491312f7145432",
+      "pushed_at": "2026-09-21T22:59:39Z",
+      "description_hash": "a0f681728c0f",
+      "release_tag": null
+    },
+    "readme_sha": "c2ca37efce6c9c109fa96f4b47979a24b3c321d2",
+    "github_id": 1380626353,
+    "stars": 0,
+    "license": "MIT",
+    "empty": false
+  },
+  {
+    "id": "Y91R/jev-box",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": null,
+      "pushed_at": "2026-09-21T23:16:34Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": null,
+    "github_id": 1380636720,
+    "stars": 0,
+    "license": null,
+    "empty": true
+  },
+  {
+    "id": "Tatendaz/model-picker",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "78eca7d64acf871077e606939612e3f66063b7cb",
+      "pushed_at": "2026-09-21T23:31:39Z",
+      "description_hash": "13f19063d090",
+      "release_tag": null
+    },
+    "readme_sha": "89d450763984acfb230a1d5e249a8e3fb5ef6a6f",
+    "github_id": 1378525657,
+    "stars": 0,
+    "license": "MIT",
+    "empty": false
+  },
+  {
+    "id": "WorthingtonCloud/norsestar-air",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "5a7fc0948be960ff584bea8c2a738184e5aa17fe",
+      "pushed_at": "2026-09-21T23:10:24Z",
+      "description_hash": "6e7440a37359",
+      "release_tag": null
+    },
+    "readme_sha": "f6d69b51f03f4e924708ae002204c86781c5a447",
+    "github_id": 1380626252,
+    "stars": 0,
+    "license": "MIT",
+    "empty": false
+  },
+  {
+    "id": "Taf0711/system-one-compiler",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "19399db6b331e8045ce5b3fa1fcdd6f08c2deb0d",
+      "pushed_at": "2026-09-21T23:21:54Z",
+      "description_hash": "03b9cb361e23",
+      "release_tag": null
+    },
+    "readme_sha": "6b208b3ab1de819c36e4ba9d4818ee9f1d53b0cc",
+    "github_id": 1380640040,
+    "stars": 0,
+    "license": "MIT",
+    "empty": false
+  },
+  {
+    "id": "Yutaan5/jev-decision-tool",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "9651d199321d875df3b5f66d00983b0133b54352",
+      "pushed_at": "2026-09-21T23:39:09Z",
+      "description_hash": "345ed94339c8",
+      "release_tag": null
+    },
+    "readme_sha": "db9858c98350ddf469c5abfddcc95c342982a5d8",
+    "github_id": 1380650456,
+    "stars": 0,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "abgregs/jev-skill-router",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "386eebc08d95ac66545a5e7a8b5f18b95535cd37",
+      "pushed_at": "2026-09-21T23:20:28Z",
+      "description_hash": "aaf02c60acd0",
+      "release_tag": null
+    },
+    "readme_sha": "70038605900d3bc9b5545942088432164ce531fa",
+    "github_id": 1380639161,
+    "stars": 0,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "bvolpato/waya",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": null,
+      "pushed_at": "2026-09-21T23:49:15Z",
+      "description_hash": "94bfd0193edc",
+      "release_tag": null
+    },
+    "readme_sha": null,
+    "github_id": 1380656567,
+    "stars": 0,
+    "license": null,
+    "empty": true
+  },
+  {
+    "id": "cbroker1/jev-un-squadron",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "8399b7afaefcb81e92b59c9319d32b53caa680de",
+      "pushed_at": "2026-09-21T23:11:46Z",
+      "description_hash": "bdfc6d516531",
+      "release_tag": null
+    },
+    "readme_sha": "47a36ca4faf65c5679f8e2d8989afea8b9842a63",
+    "github_id": 1380633730,
+    "stars": 0,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "cohenom/laya-flappy",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "d9f78ffb05910e408dde2738e017a27746661aaa",
+      "pushed_at": "2026-09-21T23:42:47Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "d3a27db158a915455fb288f7e973851354e05480",
+    "github_id": 1380652747,
+    "stars": 0,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "cohenom/laya-2048",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "e5bee6fc7f3e93e9029704fe6028debbf831caa0",
+      "pushed_at": "2026-09-21T23:38:04Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "2dc72a3320a20c3825575edff474428c6e3fcd69",
+    "github_id": 1380649823,
+    "stars": 0,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "anonymze/jev",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "d05acf41a6f0acef65b825e62295ba7b8ce8ba82",
+      "pushed_at": "2026-09-21T23:52:13Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "4c59c69841a5299080c4a2695342a8964090eb7f",
+    "github_id": 1380648350,
+    "stars": 0,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "chenhg5/jev-3d-world",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "6467974ed8bc5f8084b8d6f6a76a8c4fc4332c33",
+      "pushed_at": "2026-09-21T23:31:44Z",
+      "description_hash": "5507595a2cf8",
+      "release_tag": null
+    },
+    "readme_sha": "d001842234b6803f62aa887927b5f9d4e0766bf0",
+    "github_id": 1379858428,
+    "stars": 0,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "cohenom/laya-tetris",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "eac815a5f4da27bd4dd44bd655cbaaea1ae04b08",
+      "pushed_at": "2026-09-21T23:09:03Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "8e6470ac6c233fb38d0f615615a7d53a5cbe46d0",
+    "github_id": 1380632078,
+    "stars": 0,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "ehab-ayman-gharib/border-protocol",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "298fb443d5b77aff086fb53404a2b1013da492a7",
+      "pushed_at": "2026-09-21T23:01:19Z",
+      "description_hash": "961e9b86a961",
+      "release_tag": null
+    },
+    "readme_sha": "b2eafe283cc85cff15efdf14e44111e57ce072d9",
+    "github_id": 1380627278,
+    "stars": 0,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "james947/codex-jev",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "5b715c67aaae03b9c93e306660967a93684e4583",
+      "pushed_at": "2026-09-21T23:34:08Z",
+      "description_hash": "91cff4fb0986",
+      "release_tag": null
+    },
+    "readme_sha": "d59c7bd2623730a2dfe1bc6f45ee4a7a41459f73",
+    "github_id": 1380644290,
+    "stars": 0,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "j7708git/jev-tradingview-signal",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "8fcc022cb184c445d7b77f22c0bf448b0325dd3e",
+      "pushed_at": "2026-09-21T23:18:56Z",
+      "description_hash": "aefc67a4d527",
+      "release_tag": null
+    },
+    "readme_sha": "a2efd58990ebf7e65afcbfd08e9d2ce3e06253a0",
+    "github_id": 1380638001,
+    "stars": 0,
+    "license": "MIT",
+    "empty": false
+  },
+  {
+    "id": "kurousa/jev",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "7245967a69c13e5e1101b4d58c0863640785658d",
+      "pushed_at": "2026-09-21T23:13:33Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "github_id": 1380634776,
+    "stars": 0,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "jev-ids/jev-ids.github.io",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "ba2af1217f5abc07e92334025bb5507631567cb0",
+      "pushed_at": "2026-09-21T23:58:29Z",
+      "description_hash": "855c83e5937f",
+      "release_tag": null
+    },
+    "readme_sha": null,
+    "github_id": 1380629777,
+    "stars": 0,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "jeffonelson/jev-bigquery-cloudrun",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "c2e9315cae57890c1138d9f902b669ff5d7771ef",
+      "pushed_at": "2026-09-21T23:31:56Z",
+      "description_hash": "7c877dea8b3e",
+      "release_tag": null
+    },
+    "readme_sha": "a3aa9e57c034961a8cf22ac87ce182d456923c8a",
+    "github_id": 1380645702,
+    "stars": 0,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "jostoz/sweetlips",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "1c1f95b4c0955bdbec9bb03970bd6296f4e7ff0a",
+      "pushed_at": "2026-09-21T23:03:08Z",
+      "description_hash": "3018f85b4ac8",
+      "release_tag": null
+    },
+    "readme_sha": null,
+    "github_id": 1380147606,
+    "stars": 0,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "lifeporterlab/jev-verdict",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "2074018f678ffddea04d600d6b02833e537e5989",
+      "pushed_at": "2026-09-21T23:42:14Z",
+      "description_hash": "3e7206711f73",
+      "release_tag": null
+    },
+    "readme_sha": "8bdbc88a73afcd3e43053fbd0255cdfb0be53b28",
+    "github_id": 1380629350,
+    "stars": 0,
+    "license": "MIT",
+    "empty": false
+  },
+  {
+    "id": "leonininder/remember-me",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "3a5d6b1962977fd9d8bf82e7cb15b35fef3fd42e",
+      "pushed_at": "2026-09-21T23:49:45Z",
+      "description_hash": "05a45773e3e1",
+      "release_tag": null
+    },
+    "readme_sha": "6bca4c9cd758f67012e06be3f2eecf0d3977d7b6",
+    "github_id": 1377354950,
+    "stars": 0,
+    "license": "MIT",
+    "empty": false
+  },
+  {
+    "id": "mouadse/jev-vs-laya",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "7063c24a8ee1ad87552a803f07f2e3f2c487579d",
+      "pushed_at": "2026-09-21T23:29:14Z",
+      "description_hash": "4baacca2a645",
+      "release_tag": null
+    },
+    "readme_sha": "545cd0a2636ca4e3a1ed97ea06020eca07081a9c",
+    "github_id": 1380638166,
+    "stars": 0,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "mmastrac/djev",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "442eab6ed4a7694e20ae5f9171cfc5e4e5455771",
+      "pushed_at": "2026-09-21T23:56:44Z",
+      "description_hash": "ed7d0aef55e0",
+      "release_tag": null
+    },
+    "readme_sha": "141bac9d85b0779924cedbe74a3e4e2027ed16a9",
+    "github_id": 1380653730,
+    "stars": 0,
+    "license": "Apache-2.0",
+    "empty": false
+  },
+  {
+    "id": "mrkpatchaa/github-star-classifier-jev",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "c8a5bcccce4fad11be81ebed9474af63f91f54c8",
+      "pushed_at": "2026-09-21T23:10:29Z",
+      "description_hash": "7bc6fc0ac389",
+      "release_tag": null
+    },
+    "readme_sha": "59090e02debf3c69f907442fc3faadd230ede1ec",
+    "github_id": 1380632942,
+    "stars": 0,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "nikkoxgonzales/elmridge-ai-town",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "f5726c448f32c5ebe336936f4280ac2b4298f9b4",
+      "pushed_at": "2026-09-21T23:19:36Z",
+      "description_hash": "0121c8f7f726",
+      "release_tag": null
+    },
+    "readme_sha": "330e57507fa246693539909a40931abff8a1ca9d",
+    "github_id": 1380638590,
+    "stars": 0,
+    "license": "MIT",
+    "empty": false
+  },
+  {
+    "id": "mahajanparth/JEV_SMARTROBOTCONTROL",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "ad62b3ab6bdb5ebbb79cc3ac6b2934162c8cd191",
+      "pushed_at": "2026-09-21T23:33:49Z",
+      "description_hash": "46620409acb1",
+      "release_tag": null
+    },
+    "readme_sha": "42245db41e63655c1ec75848aa1bed5f77679962",
+    "github_id": 1378969224,
+    "stars": 0,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "rahiseko-alt/Jev-write",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "9b8c2d872e757e6fed58560635e0a13cab985dc3",
+      "pushed_at": "2026-09-21T23:44:03Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "75e3c7ac75c76a19eb2b479ec2d9f0f5dfe36700",
+    "github_id": 1380653532,
+    "stars": 0,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "silvaan/nav-jev",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "2207efcfa9ae8edc1c3d6bfdfb33c58336268fcb",
+      "pushed_at": "2026-09-21T23:52:30Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "49259b35c4527b3c7eae2599b73eaebd0dafd8ec",
+    "github_id": 1380655955,
+    "stars": 0,
+    "license": "MIT",
+    "empty": false
+  },
+  {
+    "id": "rythmn1111/doom-war",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "6103c0b45e6fc0d16bf9954cc113a4f97b8a8a5b",
+      "pushed_at": "2026-09-21T23:11:37Z",
+      "description_hash": "c287c4f4312c",
+      "release_tag": null
+    },
+    "readme_sha": "1defde347c5325727b48299d0a67ee0384a67f74",
+    "github_id": 1380631581,
+    "stars": 0,
+    "license": "MIT",
+    "empty": false
+  },
+  {
+    "id": "sksq96/jevgram",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "c44e783c83018b2a32f67bf6781f35bfea372474",
+      "pushed_at": "2026-09-21T23:50:34Z",
+      "description_hash": "24020d638212",
+      "release_tag": null
+    },
+    "readme_sha": "89f9e8d57f773841e8edd82b28ac1216ad4ddfbe",
+    "github_id": 1380643681,
+    "stars": 0,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "slatinwine/jev-cua",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "971dc2b5fa0dd40bb9fb038c3740c9bc7555a3ce",
+      "pushed_at": "2026-09-21T23:09:12Z",
+      "description_hash": "3ceaddb76a6b",
+      "release_tag": null
+    },
+    "readme_sha": "663091a3b992816d5b19a3e4b348620cc3fedb26",
+    "github_id": 1380630828,
+    "stars": 0,
+    "license": "MIT",
+    "empty": false
+  },
+  {
+    "id": "lee-lou2/jev-tree",
+    "kind": "revisit",
+    "notes_section": "127",
+    "fingerprints": {
+      "default_sha": "ddc25cf03913a31f3e350239f4ef10b7f8ff2572",
+      "pushed_at": "2026-09-21T23:56:12Z",
+      "description_hash": "d1185405209f",
+      "release_tag": null
+    },
+    "readme_sha": "83d017ad39e52ba7613be1014c1763a5b5767b27",
+    "github_id": 1379480913,
+    "stars": 0,
+    "license": "MIT",
+    "empty": false
+  },
+  {
+    "id": "cedrecs/jev-stories",
+    "kind": "revisit",
+    "notes_section": "153",
+    "fingerprints": {
+      "default_sha": "19b766f7b765425e506d7d528ea0c1df9320e888",
+      "pushed_at": "2026-09-21T23:00:07Z",
+      "description_hash": "41706b55089e",
+      "release_tag": null
+    },
+    "readme_sha": "3d91385b66c3adf06f71692430c4d689c2a7d0f3",
+    "github_id": 1380419033,
+    "stars": 0,
+    "license": "MIT",
+    "empty": false
+  },
+  {
+    "id": "soleimanian/jev-accounting-research",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "1860c8c7552d39ecac7ac2c4948dd3f10761f114",
+      "pushed_at": "2026-09-21T23:14:31Z",
+      "description_hash": "4e2de6bb1ea1",
+      "release_tag": null
+    },
+    "readme_sha": "eea1a6b80c77093e98249e70b99766c30bb1a30e",
+    "github_id": 1380634331,
+    "stars": 0,
+    "license": null,
+    "empty": false
+  },
+  {
+    "id": "hf:MissingPackage/jev-d-0.4b-onnx",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "ce76d6c9fe5c87a829de947ebd644511179aebaf",
+      "pushed_at": "2026-09-21T23:38:22.000Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "056c7667cab1d6614716990d2b7ac0db7ebba019d992c6bb565f159416a349b9",
+    "likes": 0
+  },
+  {
+    "id": "hf:Silversys/laya-eurusd",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "f4ac9445211d794ac4b75729edb5d16f7738c4d2",
+      "pushed_at": "2026-09-21T23:42:01.000Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": null,
+    "likes": 0
+  },
+  {
+    "id": "hf:agk4444/laya-typed-decisions",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "3bd91bb599a2c89274711d547a48b09e0cd279b4",
+      "pushed_at": "2026-09-21T23:39:25.000Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "6b94bd40c5c2055d6a80bf9bfa6e2b17c7f417adda300942fb880246f7539f6c",
+    "likes": 0
+  },
+  {
+    "id": "hf:kaivoss/system-one-270m-data",
+    "kind": "novel",
+    "notes_section": "157",
+    "fingerprints": {
+      "default_sha": "f31d5a3f3da828021c792edf5ab4b93cf60fe01b",
+      "pushed_at": "2026-09-21T23:14:47.000Z",
+      "description_hash": null,
+      "release_tag": null
+    },
+    "readme_sha": "0fd8f682eee4144d47c0f2911389963c390cc39f93cd7cca9af9c0f4f96d90bf",
+    "likes": 0
+  }
+]
