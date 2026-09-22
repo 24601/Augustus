@@ -1,3 +1,27 @@
+## 2026-09-22 ~04:44 UTC / ~22:44 Boise - Hourly 2244 HIGH
+- Folded onto post-#88 `main` (`8c8f6cb`). hourly 2149 §162 is on main.
+  This fold is §163 only. This fold: `notes.md` §163 / composition 981-996 /
+  findings batch #143. Do not reclaim §147 through §162.
+  **HARD RULE:** do not reopen or amend PR #23 through #88.
+- PRIMARY: a fair coin prompt is not a Choice. Delete is policy and the
+  score is a sensor. The catalog stays outside the prompt. The checker
+  owns the proof. A dumb baseline stays beside the model. A withdrawn
+  latency is not a speed claim. Logprob readout is not a trained head.
+  Temperature scaling is not RLCD. High recall is not safe exclusion.
+  Code can only tighten. Class numbers stay *theirs*, not Harbor.
+  Gemma 4, Qwen3.5, Qwen3.6, and Qwen3.8 are not Archer. Densify §134,
+  §160, and §161, not sibling first sightings.
+- Evidence: live GitHub REST and Hugging Face HTTP on 2026-09-22.
+  Watch star counts are not the fold reason. Two repos returned HTTP 409.
+  Several README fetches returned HTTP 404.
+  infinitylogesh/systemone was empty at the first read and had a README
+  by the card. Biomedical and draiagent HEADs moved during the hour.
+  The later snapshots are the ones carded.
+  Do not invent a HEAD or a score. No X API calls.
+  Archer stays promised_not_landed.
+- Uniqueness lock lives in `research/notes.md` only (plus the gate fixture).
+  `invented_signal: false`. No Augustus call site. X disabled. No new X quotes.
+
 ## 2026-09-22 ~03:49 UTC / ~21:49 Boise - Hourly 2149 HIGH
 - Folded onto post-#87 `main` (`ecaaa4fc`). hourly 2044 §161 is on main.
   This fold is §162 only. This fold: `notes.md` §162 / composition 965-980 /

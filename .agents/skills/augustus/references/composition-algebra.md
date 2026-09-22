@@ -5386,6 +5386,96 @@ Soft Noul ≠ hard safety.
 
 
 
+981. **a fair coin is not a Choice**:
+     HappyAny/jev-random-bit-experiments asked Choice for a fair bit.
+     Choice returns the max-probability option. 1999 zeros and 1 one.
+     Returned probabilities are not the output frequency. A binomial
+     p-value is not the probability the model is random.
+     Full cards: `research/notes.md` §163.
+982. **delete is policy, the score is a sensor**:
+     brainstormity/Jev-Moderation-Bot deletes flagged spam immediately.
+     That is their policy. Progressive discipline is code. A profile
+     is not a measurement of a person. Soft judgment never sole veto.
+     Full cards: `research/notes.md` §163.
+983. **the catalog stays outside the prompt**:
+     himomohi/jev-skill-router ranks skill metadata with one read-only
+     query. Selection does not execute. An offline keyword demo is not
+     Jev. Not abgregs/jev-skill-router.
+     Full cards: `research/notes.md` §163.
+984. **the checker owns the proof**:
+     adamtopaz/jevhammer lets the Lean kernel discharge the proof.
+     Jev ranks continuations. A Noul is not a discharged proof.
+     450/1024 and 469/1024 versus LeanHammer 372/1024 stay *theirs*.
+     Full cards: `research/notes.md` §163.
+985. **a dumb baseline stays beside the model**:
+     inhabitants/laya-invaders keeps a one-line rule next to Laya.
+     Rule 52/52 versus Laya 50/52, *theirs*. Fast is not good at
+     weighing. Game success is not a calibrated Noul.
+     Full cards: `research/notes.md` §163.
+986. **a withdrawn latency is not a speed claim**:
+     jongyunhur/jev-webagent-bench withdrew 18.67% as a harness
+     artifact. Generation plus select at +42.5% is *theirs*, not
+     Harbor. Not browser-use/jev-ultrafast.
+     Full cards: `research/notes.md` §163.
+987. **logprob readout is not a trained head**:
+     infinitylogesh/systemone reads one next token. Published Jev
+     0.727 was not measured here. Gemma 4 and Qwen3.5 are not Archer.
+     Wire-compat is not logit-equiv. Do not copy a serve command.
+     Full cards: `research/notes.md` §163.
+988. **temperature scaling is not RLCD**:
+     denis-pplx/autojev is full-weight SFT plus a scalar temperature.
+     Qwen3.8 is not Archer. Viratvishnu13/SystemOne-ONNX transplanted
+     GRPO hyperparameters and got worse on one task. Do not read that
+     as a verdict on RLCD.
+     Full cards: `research/notes.md` §163.
+989. **high recall is not safe exclusion**:
+     cx295410-dot/jev-biomedical-evidence-screening freezes 17,191
+     pairs and 392 inclusions. Strong AUROC does not license automatic
+     exclusion. Not clinical validation. *theirs*, not Harbor.
+     Full cards: `research/notes.md` §163.
+990. **code can only be tightened**:
+     SamanPandey-in/jevrail keeps a hard deny final. Noul has no
+     confidence field. draiagent sample JSON that adds confidence is
+     not a TypeSafe field. 0.5 is not a decision boundary.
+     Full cards: `research/notes.md` §163.
+991. **exact rows skip the model**:
+     YcWang6992/Jev-with-Codex reports one four-file task. That delta
+     is not a bill. silkyland/use-jev thresholds are their calibration.
+     Re-tune on your own data.
+     Full cards: `research/notes.md` §163.
+992. **ranking is not a search warrant**:
+     code-search-jev, jevtrieval, signal-sifter, and scam-radar rank
+     or flag. Ranking is not calibration. A label is not a takedown.
+     A sieve is not a warrant. Do not copy a key into a workflow.
+     Full cards: `research/notes.md` §163.
+993. **a client is not a model**:
+     kyledickey/jev-go, the Spring starter, and the bookstore are
+     clients. Requests are not retried. Review 0.5 is still soft.
+     Not Stumble/jev-go. Do not merge the two Spring trees.
+     Full cards: `research/notes.md` §163.
+994. **description rewrite is not a new bench**:
+     AkashPriyadarshii/jev-curate densifies §134. Stars 6 to 19 are
+     star-noise. ARCJ137442/jev-life densifies §160. No heuristic
+     fallback stays. ZongxingH/gemini-quality-gate-jev densifies §161.
+     A hook is not a merge gate.
+     Full cards: `research/notes.md` §163.
+995. **empty trees and name collisions stay thin**:
+     Helongzhou/Jev-hypit and seanmg52/jev-legal-eval returned HTTP 409.
+     flayab/jevai README HTTP 404 is lottery SEO. Do not quote it.
+     layanan is not Laya. hf:SAIFIINDUSTRIES/laya is not a new
+     measurement. Do not re-fold Khmer 0.000 at 0.952.
+     Full cards: `research/notes.md` §163.
+996. **skip Archer** (promised_not_landed):
+     Archer still promised_not_landed. Parent merges only after ADV_PASS.
+     hourly 2149 §162 are on main. This fold is §163 only.
+     Do not reclaim §147 through §162. Do not reopen or amend PR #23
+     through #88. Does not bump 0.5.0 or 0.5.1.
+     notes.md §163. composition 981-996. findings batch #143.
+     Full cards: `faq.md`.
+
+
+
+
 **Hourly 2049 HIGH (`notes.md` §132).** kev night-2 densify HEAD c096660c8da2. PLAN SHA 8d77dd271c66. README SHA unchanged 84b872488915. KEV_TEMPERATURE T≈2.0. Brier 0.291→0.267 ECE 0.105→0.039 *theirs*. 7.5%→3.2% *theirs*. grouped T rejected. Qwen3.6-35B-A3B smoke 0.812 *theirs*. Hub --revision night2-du. MMLU-Pro 1000 Kev-9B 0.511 Jev 0.829 *theirs*. Qwen3.6 ≠ Archer. temperature scaling ≠ ECE unless measured. Hub --revision is a pin not a replica. kotoba OpenJev runtime densify HEAD ff7f84e74d04. generated_text: False. trained runtime ≠ TypeSafe. OpenJev.from_pretrained. catalog ≠ endorsement. *theirs* not Harbor. SHA move is not a replica. Do not reopen or amend PR #23–#55. Does not bump 0.5.0. Skip Archer. `invented_signal: false`.
 Hourly 2049 uniqueness lock: jaredpalmer/kev densify HEAD c096660c8da2 PLAN SHA 8d77dd271c66 README SHA unchanged 84b872488915; night-2 dates/unknowable/assertion; KEV_TEMPERATURE T≈2.0; Brier 0.291→0.267 ECE 0.105→0.039 *theirs*; 7.5%→3.2% *theirs*; grouped T rejected; Qwen3.6-35B-A3B smoke 0.812 *theirs*; 21M LoRA experts frozen; Hub --revision night2-du; MMLU-Pro 1000 Kev-9B 0.511 Jev 0.829 *theirs*; Qwen3.6 ≠ Archer; temperature scaling ≠ ECE unless measured; kotoba-lang/typed-decisions densify HEAD ff7f84e74d04 README SHA unchanged 4d6bbf4c4e44; feat expose trained OpenJev decision runtime; open_jev.py; tests/test_open_jev.py; generated_text: False; trained runtime ≠ TypeSafe; OpenJev.from_pretrained; decide_request kind typed-decisions/open-jev-v1; daftAI2026/awesome-jev ≠ heyjunpenn/awesome-jev ≠ yibie/awesome-jev ≠ MrJev/awesome-jev ≠ Promethe-us/awesome-jev; danielamitay/swev CoreML; serving substrate ≠ calibrated replica; smlayero/jev-debtgate CI gate cutoff still soft; Octalab-Inc/jqv stock Qwen3 decision API; franckverrot/lev ≠ jaredpalmer/kev; neko233-com/laya-go ≠ convaiinnovations/laya; tryAGI/TypeSafeAI ≠ official; abgregs/jev-experiments ≠ nak1b/jev-experiments ≠ dabit3/jev-experiments; jaanavit/gliner2-skill Locate ≠ decide; prasanthj/duckdb-jev SQL predicates; hf:Nebulaw1 legal LoRA ≠ RLCD replica; Qwen3.5 ≠ Archer; catalog ≠ endorsement; *theirs* not Harbor; SHA move is not a replica; skip-thin KadePrice123/jev-state-tracking hideri777/jev-application-sample; Hub --revision is a pin not a replica; do not reopen or amend PR #23/#24/#25/#26/#27/#28/#29/#30/#31/#32/#33/#34/#35/#36/#37/#38/#39/#40/#41/#42/#43/#44/#45/#46/#47/#48/#49/#50/#51/#52/#53/#54/#55; notes.md §132
 

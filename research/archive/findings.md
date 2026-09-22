@@ -1,3 +1,51 @@
+## Batch #143 (2026-09-21 ~22:44 Boise) - hourly 2244 HIGH
+
+Note: `research/notes.md` §163. Composition 981-996.
+hourly 2149 §162 is on main. This fold is §163 only.
+Do not reclaim §147 through §162.
+Hourly 2149 stays §162 / composition 965-980 / batch #142.
+This fold stays §163 / items 981-996 / batch #143.
+**HARD RULE:** do not reopen or amend PR #23 through #88.
+The consecutive lock string lives in notes.md and uniqueness_gate.py only.
+README still ends at License. Does not bump 0.5.0 or 0.5.1.
+`invented_signal: false`. Parent merges only after ADV_PASS.
+X is disabled. No X API calls. No new X quotes.
+
+- **HappyAny/jev-random-bit-experiments.** Choice returns the
+  max-probability option. 1999 zeros and 1 one. A fair coin prompt
+  is not a fair bit.
+- **brainstormity/Jev-Moderation-Bot.** Immediate delete is their
+  policy. A profile is not a measurement of a person.
+- **himomohi/jev-skill-router.** The catalog stays outside the prompt.
+  Selection does not execute. Release v0.1.0.
+- **adamtopaz/jevhammer.** The checker owns the proof. Solved counts
+  stay *theirs*. Three repos, one study.
+- **inhabitants/laya-invaders.** Keep a dumb baseline. Rule 52/52
+  versus Laya 50/52, *theirs*.
+- **jongyunhur/jev-webagent-bench.** 18.67% was withdrawn. +42.5% is
+  *theirs*, not a speed claim to import.
+- **infinitylogesh/systemone.** Landed during the hour. One next-token
+  read. Published Jev 0.727 was not measured here. Qwen's fitted ECE
+  got worse (0.033 to 0.091), *theirs*.
+- **denis-pplx/autojev.** Temperature scaling is not RLCD. Qwen3.8 is
+  not Archer.
+- **cx295410-dot/jev-biomedical-evidence-screening.** 17,191 pairs and
+  392 inclusions. High recall is not safe exclusion. Later HEAD, not
+  the 169-byte stub.
+- **SamanPandey-in/jevrail.** Code can only tighten. Noul has no
+  confidence field. draiagent's sample confidence is not a TypeSafe
+  field.
+- **AkashPriyadarshii/jev-curate.** Densify §134. Description rewrite.
+  Stars 6 to 19 are star-noise.
+- **ARCJ137442/jev-life.** Densify §160. No heuristic fallback stays.
+- **ZongxingH/gemini-quality-gate-jev.** Densify §161. Confidence
+  below 0.6 does not auto-reject. A hook is not a merge gate.
+- **hf:SAIFIINDUSTRIES/laya.** Republished family card. Not a new
+  measurement. Do not re-fold Khmer 0.000 at 0.952 on the Space demo.
+- Empty SHA HTTP 409: Helongzhou/Jev-hypit, seanmg52/jev-legal-eval.
+  README HTTP 404 includes flayab/jevai. Do not quote that tree.
+  layanan is not Laya.
+
 # Deep-read findings (evidence for research/notes.md)
 
 ## Batch #142 (2026-09-21 ~21:49 Boise) - hourly 2149 HIGH

@@ -1,3 +1,20 @@
+## Hourly 2244 HIGH (notes.md §163 / items 981-996 / batch #143)
+
+- Folded onto post-#88 `main` (`8c8f6cb`). hourly 2149 §162 is on main.
+  This fold is §163 only. Do not reclaim §147 through §162.
+  **HARD RULE:** do not reopen or amend PR #23 through #88.
+  Does not bump 0.5.0 or 0.5.1. Skip Archer. `invented_signal: false`.
+- PRIMARY: HappyAny/jev-random-bit-experiments shows Choice is an
+  argmax, not a sample. brainstormity/Jev-Moderation-Bot treats delete
+  as policy. himomohi/jev-skill-router keeps the catalog outside the
+  prompt. adamtopaz/jevhammer leaves the proof with the kernel.
+  TypeSafe Jev stays the default path. 0.5 is not a decision boundary.
+- REVISIT densify: AkashPriyadarshii/jev-curate stays §134.
+  ARCJ137442/jev-life stays §160. ZongxingH/gemini-quality-gate-jev
+  stays §161. A description rewrite is not a new bench. Do not mint a
+  sibling first sighting.
+- Uniqueness lock lives in `research/notes.md` and `uniqueness_gate.py` only.
+
 ## Hourly 2149 HIGH (notes.md §162 / items 965-980 / batch #142)
 
 - Folded onto post-#87 `main` (`ecaaa4fc`). hourly 2044 §161 is on main.
