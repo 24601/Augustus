@@ -5291,6 +5291,96 @@ Soft Noul ≠ hard safety.
      notes.md §161. composition 949-964. findings batch #141.
      Full cards: `faq.md`.
 
+965. **score the signal before the expensive call**:
+     reachjalil/jevlogs annotates every OpenTelemetry record. Confidently
+     low-value events can skip a later LLM branch. Errors, protected
+     records, ambiguity, and provider failures stay eligible. A 0-100
+     score is their mapping. Preview is not a production gate.
+     Full cards: `research/notes.md` §162.
+966. **a scorer never writes**:
+     Waxmell114514/jev-compaction keeps lines byte for byte. The memory
+     cannot hold a fact the transcript never contained. 0.35 is their
+     demo default and their own shadow log calls it too aggressive.
+     Not Waxmell114514/jev-trade.
+     Full cards: `research/notes.md` §162.
+967. **a formula is not a confidence field**:
+     Songokou1983/jev-mcp computes effective_confidence from a Noul.
+     Noul has no confidence field. act 0.7 and confirm 0.4 stay soft.
+     Not wangkuangkuang/jev-mcp-server and not jfrader/jev-mcp.
+     Full cards: `research/notes.md` §162.
+968. **the screen observes and does not send**:
+     202wh/loving-artist-practice never replies. A relationship card is
+     not a measurement of a person. zhongpei/jev-chat-jarvis fills a box.
+     The person sends. Not jev-chat/jev-chat-jarvis.
+     Full cards: `research/notes.md` §162.
+969. **a nudge is not a gate**:
+     CommandCodeAI/cmd-mod-jev-nudge fails open to a normal stop when
+     Jev errors. 0.5 is not a decision boundary. The host caps nudges.
+     Full cards: `research/notes.md` §162.
+970. **a badge is not a takedown**:
+     jxxfdgd/jev-ai-slop-detector marks a post. 70% is a display cut.
+     A missing probability is not a made-up percent. Fixture percents
+     are not a bench.
+     Full cards: `research/notes.md` §162.
+971. **intent is not edit distance**:
+     syumai/jevyoumean asks which documented subcommand was meant.
+     A suggestion is not authorization to run. Suggestions can be wrong.
+     Full cards: `research/notes.md` §162.
+972. **advisory routing never blocks**:
+     wellkilo/codex-jev-preflight injects metadata and fails open.
+     Unknown becomes unknown. AbsoluteGeist/code-geist: the harness
+     owns execution. A scripted demo is not a routing study.
+     Routing is not permission.
+     Full cards: `research/notes.md` §162.
+973. **a footer score is not a gate**:
+     marszhongx/pi-jev-score illustrates 87.5/100. That figure is not
+     a bench. AnakinRM/jev-confidence-kit leaves tests out of the repo.
+     Prompting cannot raise confidence. Not angribot/pi-jev.
+     Full cards: `research/notes.md` §162.
+974. **semantic channel blocked is not a bench**:
+     loongWoong/jev-zen first card under a revisit tag. Probes 2/3.
+     Logit range 5.04e-03. Any accuracy reading is not interpretable.
+     Not the §96 scorer name jev-zen. Laya is not TypeSafe.
+     Full cards: `research/notes.md` §162.
+975. **a catalog is not a bench**:
+     kydlikebtc/awesome-jev densifies §161. Empty tree last hour.
+     148 entries are theirs. hf:henrybit/jev-vs-deepseek densifies §160.
+     HTTP 401 last look, Space sha this hour. A description rewrite
+     is not a new bench.
+     Full cards: `research/notes.md` §162.
+976. **softmax over options is not a Noul**:
+     hf:WIlfLin cards say softmax is not a calibrated correctness
+     estimate. No RLCD on those checkpoints. BubbleCal/vjev-serve is a
+     Qwen3.5-4B recreation. Qwen3.5 is not Archer. Wire-compat is not
+     logit-equiv.
+     Full cards: `research/notes.md` §162.
+977. **a development panel is not a test set**:
+     Frozen80 informed checkpoint selection. 71/80, 68/80, and 66/80
+     stay *theirs*. Do not paste the prior Jev API 82.5% onto the 4B
+     row. hf:Praveenrajus/jevify-qwen3-vl-2b-t2 macro ECE 0.035 is
+     *theirs*, and it is not the §158 4B card. Qwen3-VL is not Archer.
+     Full cards: `research/notes.md` §162.
+978. **empty trees stay empty**:
+     dgyun-ai/openclaw-typesafe-catalog-router and
+     gordan-code/dsh-jev-advisor returned HTTP 409.
+     Several README fetches returned HTTP 404.
+     hf:litert-community/Laya-English-LiteRT README HTTP 404.
+     Do not invent a HEAD or a score.
+     Full cards: `research/notes.md` §162.
+979. **class peers stay peers**:
+     DeBERTa schema scorer, Core ML scaffold, SemIf console, MCP
+     wrappers, and game loops stay class members. They are not equal
+     in adoption and they are not TypeSafe. A copied Laya README is
+     not a new measurement.
+     Full cards: `research/notes.md` §162.
+980. **skip Archer** (promised_not_landed):
+     Archer still promised_not_landed. Parent merges only after ADV_PASS.
+     hourly 2044 §161 are on main. This fold is §162 only.
+     Do not reclaim §147 through §161. Do not reopen or amend PR #23
+     through #87. Does not bump 0.5.0 or 0.5.1.
+     notes.md §162. composition 965-980. findings batch #142.
+     Full cards: `faq.md`.
+
 
 
 

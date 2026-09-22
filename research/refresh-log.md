@@ -1,3 +1,23 @@
+## 2026-09-22 ~03:49 UTC / ~21:49 Boise - Hourly 2149 HIGH
+- Folded onto post-#87 `main` (`ecaaa4fc`). hourly 2044 §161 is on main.
+  This fold is §162 only. This fold: `notes.md` §162 / composition 965-980 /
+  findings batch #142. Do not reclaim §147 through §161.
+  **HARD RULE:** do not reopen or amend PR #23 through #87.
+- PRIMARY: jevlogs scores logs before an LLM branch. jev-compaction
+  never writes a fact the transcript did not contain. jev-mcp's
+  confidence formula is not a Noul field. Class numbers stay *theirs*,
+  not Harbor. Qwen3.5 and Qwen3-VL are not Archer. Densify §160 and
+  §161, not sibling first sightings. jev-zen is a first card under a
+  revisit tag.
+- Evidence: live GitHub REST and Hugging Face HTTP on 2026-09-22.
+  Watch star counts are not the fold reason. Two repos returned HTTP 409.
+  Several README fetches returned HTTP 404.
+  hf:litert-community/Laya-English-LiteRT README HTTP 404.
+  Do not invent a HEAD or a score. No X API calls.
+  Archer stays promised_not_landed.
+- Uniqueness lock lives in `research/notes.md` only (plus the gate fixture).
+  `invented_signal: false`. No Augustus call site. X disabled. No new X quotes.
+
 ## 2026-09-22 ~02:44 UTC / ~20:44 Boise - Hourly 2044 HIGH
 - Folded onto post-#86 `main` (`e3390b20`). hourly 1949 §160 is on main.
   This fold is §161 only. This fold: `notes.md` §161 / composition 949-964 /

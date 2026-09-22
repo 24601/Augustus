@@ -1,5 +1,51 @@
 # Deep-read findings (evidence for research/notes.md)
 
+## Batch #142 (2026-09-21 ~21:49 Boise) - hourly 2149 HIGH
+
+Note: `research/notes.md` §162. Composition 965-980.
+hourly 2044 §161 is on main. This fold is §162 only.
+Do not reclaim §147 through §161.
+Hourly 2044 stays §161 / composition 949-964 / batch #141.
+This fold stays §162 / items 965-980 / batch #142.
+**HARD RULE:** do not reopen or amend PR #23 through #87.
+The consecutive lock string lives in notes.md and uniqueness_gate.py only.
+README still ends at License. Does not bump 0.5.0 or 0.5.1.
+`invented_signal: false`. Parent merges only after ADV_PASS.
+X is disabled. No X API calls. No new X quotes.
+
+- **reachjalil/jevlogs.** Score the signal before the expensive call.
+  Errors and provider failures stay eligible. A 0-100 score is their
+  mapping. Release v0.5.0.
+- **Songokou1983/jev-mcp.** Noul has no confidence field. The server
+  formula is not a TypeSafe field. 0.7 and 0.4 stay soft.
+- **Waxmell114514/jev-compaction.** A scorer never writes. 0.35 is
+  their demo default. Not their jev-trade card.
+- **202wh/loving-artist-practice.** The screen observes and does not
+  send. A relationship card is not a measurement of a person.
+- **CommandCodeAI/cmd-mod-jev-nudge.** Fail-open when Jev errors.
+  0.5 is not a decision boundary. A nudge is not a merge gate.
+- **jxxfdgd/jev-ai-slop-detector.** A badge is not a takedown.
+  Fixture percents are not a bench.
+- **syumai/jevyoumean.** Intent is not edit distance. A suggestion
+  is not authorization to run.
+- **wellkilo/codex-jev-preflight.** Advisory routing never blocks.
+  Unknown becomes unknown.
+- **loongWoong/jev-zen.** First card under a revisit tag. Semantic
+  channel BLOCKED. Any accuracy reading is not interpretable.
+- **kydlikebtc/awesome-jev.** Densify §161. Was an empty tree.
+  148 entries are theirs. Catalog is not endorsement.
+- **hf:henrybit/jev-vs-deepseek.** Densify §160. Was HTTP 401.
+  A description rewrite is not a new bench.
+- **Frozen80.** Not an independent test set. 71/80, 68/80, and 66/80
+  stay *theirs*. Do not paste 82.5 onto the 4B row.
+- **hf:WIlfLin.** Softmax over options is not a calibrated Noul.
+  No RLCD on those cards. Qwen3.5 is not Archer.
+- **hf:Praveenrajus/jevify-qwen3-vl-2b-t2.** Macro ECE 0.035 is
+  *theirs*. Not the §158 4B card. Qwen3-VL is not Archer.
+- Empty SHA HTTP 409 stays empty. README HTTP 404 stays unread.
+  hf:litert-community/Laya-English-LiteRT README HTTP 404.
+  Do not invent a score.
+
 ## Batch #141 (2026-09-22 ~20:44 Boise) - hourly 2044 HIGH
 
 Note: `research/notes.md` §161. Composition 949-964.
