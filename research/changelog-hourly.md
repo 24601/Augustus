@@ -1,3 +1,20 @@
+## Hourly 2149 HIGH (notes.md §162 / items 965-980 / batch #142)
+
+- Folded onto post-#87 `main` (`ecaaa4fc`). hourly 2044 §161 is on main.
+  This fold is §162 only. Do not reclaim §147 through §161.
+  **HARD RULE:** do not reopen or amend PR #23 through #87.
+  Does not bump 0.5.0 or 0.5.1. Skip Archer. `invented_signal: false`.
+- PRIMARY: reachjalil/jevlogs scores the signal before the expensive
+  call. Waxmell114514/jev-compaction can score and cannot write.
+  Songokou1983/jev-mcp does not invent a TypeSafe confidence field.
+  TypeSafe Jev stays the default path. 0.5 is not a decision boundary.
+- REVISIT densify: hf:henrybit/jev-vs-deepseek stays §160. A comparison
+  UI is not a new bench. kydlikebtc/awesome-jev stays §161. The empty
+  tree now has a catalog. 148 entries are theirs. loongWoong/jev-zen
+  is a first card under a revisit tag. Semantic channel BLOCKED.
+  Do not mint a sibling first sighting.
+- Uniqueness lock lives in `research/notes.md` and `uniqueness_gate.py` only.
+
 ## Hourly 2044 HIGH (notes.md §161 / items 949-964 / batch #141)
 
 - Folded onto post-#86 `main` (`e3390b20`). hourly 1949 §160 is on main.

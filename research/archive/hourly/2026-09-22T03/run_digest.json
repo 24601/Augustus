@@ -1,0 +1,11 @@
+{
+  "hour": "2026-09-22T03",
+  "label": "2149",
+  "notes_section": "162",
+  "composition": "965-980",
+  "findings_batch": 142,
+  "revisit_high": 3,
+  "novel_high": 73,
+  "invented_signal": false,
+  "primary": "jevlogs scores the signal before the expensive call; jev-compaction never writes; Noul has no confidence field; this fold is \u00a7162 only"
+}

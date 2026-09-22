@@ -322,6 +322,10 @@ UNIQ_2044 = (
 "Hourly 2044 uniqueness lock: TypeSafe Jev default path; MiaoWuNYA/rikkahub-sillytavern-android README SHA f7de16872c8c; HEAD 839eebce673b; release v2.5.4fix13; Jev judges memory and answers the judge tool; the chat model writes; relevant probability over half is an application cut; 0.5 is not a decision boundary; silent fallback when Jev is down; 1104480426-hash/jev-qq-assist README SHA 55f96440225a; release v1.5.0; screen is a sensor; no send path; local bge-small-zh is not TypeSafe; softmax over similarity is not a calibrated Noul; 49-64 ms local versus about 870 ms remote *theirs*; 1104480426-hash/jev-qq-assist \u2260 jev-chat/jev-chat-jarvis \u2260 GxZzzzz/WeChat_Galgame; Iron-LYK/OmniJev README SHA b41caf70e3af; Nemotron generation API; Vision-Jev RLCD coming soon; skill mode is privileged simulator state; not end-to-end vision; softmax over option letters is not calibrated confidence; 13 calls and 39 tokens *theirs*; Nemotron \u2260 Archer; simulation success \u2260 calibrated Noul; bokuweb/omg README title grande; README SHA 3603f12be97d; release ruri-v1; one forward pass no text generation; Gemma 4 E2B JNLI ECE 0.252 to 0.088 *theirs*; 41% of p>=0.9 wrong before scaling *theirs*; temperature scaling is not RLCD; Gemma 4 \u2260 Archer; trained Gemma 4 weights are not landed; serving substrate \u2260 calibrated replica; Vankleben/jev-arm-lab README SHA a48080d4c81e; code owns the veto; freshness gate is code; 20/20 and Brier 0.030 and 0 dangerous false positives *theirs*; wrong protocol scores 77% *theirs*; gates 0.30 and 0.45 still soft until you measure; Waxmell114514/jev-trade paper trading against observed prices; not order placement; this card is not a trading procedure; Waxmell114514/jev-trade \u2260 pgarvie/jev-trade \u2260 klren0312/jev-trade \u2260 jarrodwatts/jev-trader; antTing/jev-accounts-hub a gateway is not a decision model; do not copy the proxy; dhruvmehra/jevbench n=500 *theirs*; banking77 Jev 76.4 ECE 0.125 Laya 38.2 ECE 0.511 *theirs*; AG News Jev 84.3 ECE 0.112 *theirs*; SST-2 Jev 95.4 ECE 0.026 *theirs*; CI about \u00b12.5 points *theirs*; fine-tuned BERT is not a zero-shot peer; dhruvmehra/jevbench \u2260 fstandhartinger/jevbench; accuracy \u2260 calibration; xinyao27/jevonian release v0.0.1; named routes skip Jev; no brain returns an error; 502 when every brain is down; minConfidence does not failover; routing \u2260 permission; 0x440-1me/laya-unity not affiliated; absent candidates cannot be chosen; transport client \u2260 calibrated replica; hf:Cahol/laya-banking77-v1 sha 09a7f1a08aae; 85.55% on 3,080 *theirs*; tuned ECE 0.0237 to 0.0144 *theirs*; no Jev outputs used in training; do not paste over the zero-shot 79.90 row; Laya \u2260 TypeSafe; openlayer-ai/jevals densify \u00a7126; HEAD 0457836c5696 was a38a971095c4; description_hash 139fb51429c7 was 6d6d99246390; local Kev or Laya is their new sentence; 92x to 913x stays the prior citation; one example trace is not a bench; FluidInference/FluidUse densify \u00a7143; HEAD unchanged e9e95935075b; README SHA unchanged 7d246df7270a; description_hash 2e5b91ad5dfb was ddacb829949a; description rewrite is not a new bench; do not re-fold 3.6 ms; Cua-S1 \u2260 TypeSafe; danielyedaniel/jevme densify \u00a7156; HEAD c6c4c4415776 was 110bf6ba7ad3; about 200 ms *theirs*; SHA move is not a replica; TMHSDigital/plumbline densify \u00a7158; HEAD da7b7364d91b; release v0.1.0; not a leaderboard; API will change; aiwithenoch/Jev-Skill densify \u00a7113; HEAD 32a1d5fe5251 was f0cf6d6e; release v1.0.0; a harness is not a model; thisisandreeeee/jev-benchmarks densify \u00a7114; HEAD eaed9dd0cfd6 was e1186b74; BANKING77 Jev 79.90 stays; SPACE-2 94.77 is not BERT-Base 93.02; ECE still on the backlog; hf:liskasYR/laya is not a new measurement; hf:nampham1106/laya-flash 28-byte license; hf:KGFCode/laya-decision-lab HTTP 401; empty SHA HTTP 409; Soft judgment never sole veto; ranking \u2260 calibration; catalog \u2260 endorsement; *theirs* not Harbor; Skip Archer; invented_signal: false; Parent merges only after ADV_PASS; hourly 1949 \u00a7160 are on main; this fold is \u00a7161 only; composition 949-964; findings batch #141; do not reopen or amend PR #23 through #86; does not bump 0.5.0 or 0.5.1; notes.md \u00a7161"
 )
 
+UNIQ_2149 = (
+"Hourly 2149 uniqueness lock: TypeSafe Jev default path; reachjalil/jevlogs README SHA 700b635c1adc; HEAD 217d2b70bfb3; release v0.5.0; score the signal before the expensive call; errors and provider failures stay eligible; a 0-100 score is their mapping; Songokou1983/jev-mcp README SHA 6085f27efce1; release v0.3.0; Noul has no confidence field; effective_confidence is a server formula; act 0.7 and confirm 0.4 still soft; model pin jev-1.13.0; 142/142 tests *theirs*; Songokou1983/jev-mcp ≠ wangkuangkuang/jev-mcp-server ≠ jfrader/jev-mcp; Waxmell114514/jev-compaction README SHA 9c45bd31cb24; a scorer never writes; the transcript never contained; 749 to 391 tokens and $0.000031 *theirs*; 0.35 is their demo default; Waxmell114514/jev-compaction ≠ Waxmell114514/jev-trade; 202wh/loving-artist-practice README SHA 253679c962ed; the screen observes and does not send; a relationship card is not a measurement of a person; sample percents are an illustration; CommandCodeAI/cmd-mod-jev-nudge README SHA c56e18f0bbe7; a nudge is not a merge gate; fail-open when Jev errors; 0.5 is not a decision boundary; host cap 8 nudges; jxxfdgd/jev-ai-slop-detector README SHA 3130f83cc6e7; a badge is not a takedown; minimum confidence 70% is a display cut; a percentage is never made up *theirs*; marszhongx/pi-jev-score README SHA fcedf21ef407; a footer score is not a gate; 87.5/100 is an illustration; marszhongx/pi-jev-score ≠ angribot/pi-jev; syumai/jevyoumean README SHA 939939bacfad; intent is not edit distance; a suggestion is not authorization to run; wellkilo/codex-jev-preflight README SHA 0700fefc34fe; release v0.1.0; advisory routing never blocks; unknown becomes unknown; routing ≠ permission; AbsoluteGeist/code-geist README SHA 1b2ec3d2e815; harness owns execution; a scripted demo is not a routing study; AnakinRM/jev-confidence-kit README SHA d4e6e9287e16; tests are not in the repo; prompting cannot raise confidence; BubbleCal/vjev-serve README SHA c5e8973a8522; Qwen3.5-4B recreation; calibrated is theirs; wire-compat ≠ logit-equiv; Qwen3.5 ≠ Archer; hf:henrybit/jev-vs-deepseek densify §160; sha 49df7c465eab; description_hash 451093ae1e1f was null; description rewrite is not a new bench; kydlikebtc/awesome-jev densify §161; HEAD 094d06e11e2b was empty; 148 entries *theirs*; catalog ≠ endorsement; loongWoong/jev-zen first card under a revisit tag; README SHA ceaa6b411cea; semantic channel BLOCKED; logit range 5.04e-03; probes 2/3; any accuracy reading is not interpretable; 0923 listed it and §144 did not card it; loongWoong/jev-zen ≠ §96 scorer jev-zen; hf:apus-ailab/APUS-OpenJev-Eval-Frozen80 sha 7a63c3d6df2b; Frozen80 is not an independent test set; a development panel is not a test set; 71/80 68/80 66/80 *theirs*; do not paste the prior Jev API 82.5% onto the 4B row; hf:apus-ailab/APUS-OpenJev-v1-9B ≠ hf:gump2049/APUS-OpenJev-v1; hf:WIlfLin softmax over options is not a calibrated Noul; no RLCD on those cards; hf:Praveenrajus/jevify-qwen3-vl-2b-t2 sha 46e8e72c27b5; macro accuracy 0.804 macro ECE 0.035 *theirs*; pope and ai2d never in training *theirs*; hf:Praveenrajus/jevify-qwen3-vl-2b-t2 ≠ hf:Praveenrajus/jevify-qwen3.5-4b-t2; Qwen3-VL ≠ Archer; hf:litert-community/Laya-English-LiteRT README HTTP 404; hf:top7777 sample noul 0.99 is illustrative code; zhongpei/jev-chat-jarvis ≠ jev-chat/jev-chat-jarvis; fills never send; empty SHA HTTP 409; README HTTP 404; serving substrate ≠ calibrated replica; Soft judgment never sole veto; ranking ≠ calibration; *theirs* not Harbor; SHA move is not a replica; Skip Archer; invented_signal: false; Parent merges only after ADV_PASS; hourly 2044 §161 are on main; this fold is §162 only; composition 965-980; findings batch #142; do not reopen or amend PR #23 through #87; does not bump 0.5.0 or 0.5.1; notes.md §162"
+)
+
 REVISIT_LOCK = (
     "Revisit / since-last-look lock: catalogued repos are not done; "
     "store fingerprints default_sha, pushed_at, description_hash, release_tag; "
@@ -2190,7 +2194,169 @@ def main() -> int:
         if card_id not in notes161:
             failed.append(f"notes.md §161 missing card {card_id}")
 
-
+    if "## 162. Hourly 2149 HIGH" not in notes:
+        failed.append("notes.md missing §162 heading")
+    if notes.count(UNIQ_2149) != 1:
+        failed.append(
+            f"notes.md 2149 lock count {notes.count(UNIQ_2149)} != 1"
+        )
+    i162 = notes.find("## 162. Hourly 2149 HIGH")
+    if not (i161 >= 0 and i162 > i161):
+        failed.append("notes.md must stay contiguous §161 then §162")
+    notes162 = notes[i162:] if i162 >= 0 else ""
+    if "this fold is §162 only" not in notes162:
+        failed.append("notes.md §162 missing §162-only occupancy")
+    if "hourly 2044 §161 are on main" not in notes162:
+        failed.append("notes.md §162 missing merged §161 occupancy")
+    if UNIQ_2149 not in notes162:
+        failed.append("2149 lock missing inside notes.md §162")
+    for frag in (
+        'TypeSafe Jev default path',
+        'score the signal before the expensive call',
+        'errors and provider failures stay eligible',
+        'a scorer never writes',
+        'the transcript never contained',
+        '0.35 is their demo default',
+        'Noul has no confidence field',
+        'effective_confidence is a server formula',
+        '0.5 is not a decision boundary',
+        'the screen observes and does not send',
+        'a relationship card is not a measurement of a person',
+        'a nudge is not a merge gate',
+        'fail-open when Jev errors',
+        'a badge is not a takedown',
+        'intent is not edit distance',
+        'a suggestion is not authorization to run',
+        'advisory routing never blocks',
+        'routing ≠ permission',
+        'a footer score is not a gate',
+        'tests are not in the repo',
+        'semantic channel BLOCKED',
+        'any accuracy reading is not interpretable',
+        'catalog ≠ endorsement',
+        'description rewrite is not a new bench',
+        'softmax over options is not a calibrated Noul',
+        'Qwen3.5 ≠ Archer',
+        'Qwen3-VL ≠ Archer',
+        'a development panel is not a test set',
+        'Frozen80 is not an independent test set',
+        '71/80 68/80 66/80 *theirs*',
+        'do not paste the prior Jev API 82.5% onto the 4B row',
+        'empty SHA HTTP 409',
+        'README HTTP 404',
+        'Soft judgment never sole veto',
+        'SHA move is not a replica',
+        'serving substrate ≠ calibrated replica',
+        'wire-compat ≠ logit-equiv',
+        'Skip Archer',
+        'invented_signal: false',
+        'Parent merges only after ADV_PASS',
+        'hourly 2044 §161 are on main',
+        'this fold is §162 only',
+        'composition 965-980',
+        'findings batch #142',
+        'do not reopen or amend PR #23 through #87',
+        'does not bump 0.5.0 or 0.5.1',
+        'notes.md §162',
+        'hf:henrybit/jev-vs-deepseek densify §160',
+        'kydlikebtc/awesome-jev densify §161',
+        'loongWoong/jev-zen first card under a revisit tag',
+        'Songokou1983/jev-mcp ≠ wangkuangkuang/jev-mcp-server',
+        'zhongpei/jev-chat-jarvis ≠ jev-chat/jev-chat-jarvis'
+    ):
+        if frag not in UNIQ_2149:
+            failed.append(f"UNIQ_2149 missing {frag!r}")
+    readme_2149 = (ROOT / "README.md").read_text(encoding="utf-8")
+    if UNIQ_2149 in readme_2149:
+        failed.append("README.md must not hold the 2149 uniqueness lock")
+    for rel in OVERLAYS:
+        if rel == "research/notes.md":
+            continue
+        overlay_2149 = (ROOT / rel).read_text(encoding="utf-8")
+        if UNIQ_2149 in overlay_2149:
+            failed.append(
+                f"2149 lock must stay in notes.md and the gate fixture, not {rel}"
+            )
+    for card_id in (
+"reachjalil/jevlogs",
+"Songokou1983/jev-mcp",
+"Waxmell114514/jev-compaction",
+"kuhung/understanding-jev",
+"202wh/loving-artist-practice",
+"CommandCodeAI/cmd-mod-jev-nudge",
+"jxxfdgd/jev-ai-slop-detector",
+"marszhongx/pi-jev-score",
+"syumai/jevyoumean",
+"wellkilo/codex-jev-preflight",
+"AbsoluteGeist/code-geist",
+"AnakinRM/jev-confidence-kit",
+"ArshanKhanifar/jevussy",
+"Battleplus/jev_research",
+"BubbleCal/vjev-serve",
+"Daryl9441/laya-learning-demo",
+"Eng-Ahmd/laya-breakout",
+"ItisNoMatter/kojev",
+"JackLee992/jev-reflex-automation",
+"KO6BXL/jev-bot",
+"KalyanM45/GitHub-Issue-Classification-Using-Jev",
+"Learner-Lee/JEV-Try",
+"Maxwell00000086/laya-agent-kit",
+"NakliTechie/llamacpp-jev",
+"R055LE/jev-plays-pokemon",
+"Runtime-weekly/runtime-tutorials",
+"Sorenskr/laya-player-generator",
+"Suke-go/cognitive-transformation",
+"actions-marketplace-validations/dtduc-git_jevnav",
+"angribot/pi-jev",
+"chepyle/jev-test",
+"claudialu0720/jevaiworks",
+"coderhh/jev-snake",
+"davidkotler/jev-browser-tests",
+"dgyun-ai/openclaw-typesafe-catalog-router",
+"dpy22/go-jev",
+"firede/laya-todo",
+"furedea/reflex-state",
+"gordan-code/dsh-jev-advisor",
+"hf:Praveenrajus/jevify-qwen3-vl-2b-t2",
+"hf:WIlfLin/JEV-Qwen3.5-0.8B-Base",
+"hf:WIlfLin/JEV-Qwen3.5-9B-Base-NVFP4",
+"hf:apus-ailab/APUS-OpenJev-Eval-Frozen80",
+"hf:apus-ailab/APUS-OpenJev-v1-35B-A3B",
+"hf:apus-ailab/APUS-OpenJev-v1-4B",
+"hf:apus-ailab/APUS-OpenJev-v1-9B",
+"hf:litert-community/Laya-English-LiteRT",
+"hf:top7777/jev-schema-scorer-deberta-v3-large",
+"humengna/jev_message",
+"inhabitants/laya-snake-cuda",
+"kairugakuo2/jev-arena",
+"kelinbruce/jev-aico",
+"layangdigitalinnovation/website-layang-digital",
+"lesleygyc-ops/jev-connector",
+"lim6112j/laya-example",
+"llaplace-dev/jev-overcome-cartpole",
+"ma2saka/jevmock01",
+"manhua-man/jev-pilot-reflex",
+"marcusglowe/jev-sort",
+"nft-syou/jevcraft-bench",
+"panchambanerjee/jev_expts",
+"pgarvie/laya",
+"philosophyAIEDU/260921jev",
+"poiuyjie/jev_project_context",
+"pythagoras-yamamoto/jev-qda",
+"siren2345/jev-apple-coreml",
+"tydong1231-ux/JevSteer",
+"wangkuangkuang/jev-mcp-server",
+"willyclayton/Jev-testing",
+"youniszhang/jev-local-console",
+"zceeeeee/jev-web-decesion-test",
+"zhazhahuiyuxiaoxiao/jev-personal-radar",
+"zhongpei/jev-chat-jarvis",
+"hf:henrybit/jev-vs-deepseek",
+"kydlikebtc/awesome-jev",
+"loongWoong/jev-zen"
+    ):
+        if card_id not in notes162:
+            failed.append(f"notes.md §162 missing card {card_id}")
 
     for remainder_id in (
         "ishantanu/jevmetrics",
@@ -2877,7 +3043,7 @@ def main() -> int:
     algebra = (ROOT / ".agents/skills/augustus/references/composition-algebra.md").read_text(
         encoding="utf-8"
     )
-    for n in list(range(289, 317)) + list(range(322, 330)) + list(range(330, 337)) + list(range(337, 353)) + list(range(353, 369)) + list(range(369, 385)) + list(range(385, 401)) + list(range(401, 417)) + list(range(417, 433)) + list(range(433, 449)) + list(range(449, 465)) + list(range(465, 481)) + list(range(481, 497)) + list(range(497, 505)) + list(range(505, 521)) + list(range(521, 537)) + list(range(537, 553)) + list(range(553, 569)) + list(range(569, 585)) + list(range(585, 601)) + list(range(601, 617)) + list(range(617, 633)) + list(range(633, 649)) + list(range(649, 665)) + list(range(665, 681)) + list(range(681, 697)) + list(range(697, 713)) + list(range(713, 729)) + list(range(729, 745)) + list(range(745, 761)) + list(range(761, 777)) + list(range(777, 793)) + list(range(793, 949)):
+    for n in list(range(289, 317)) + list(range(322, 330)) + list(range(330, 337)) + list(range(337, 353)) + list(range(353, 369)) + list(range(369, 385)) + list(range(385, 401)) + list(range(401, 417)) + list(range(417, 433)) + list(range(433, 449)) + list(range(449, 465)) + list(range(465, 481)) + list(range(481, 497)) + list(range(497, 505)) + list(range(505, 521)) + list(range(521, 537)) + list(range(537, 553)) + list(range(553, 569)) + list(range(569, 585)) + list(range(585, 601)) + list(range(601, 617)) + list(range(617, 633)) + list(range(633, 649)) + list(range(649, 665)) + list(range(665, 681)) + list(range(681, 697)) + list(range(697, 713)) + list(range(713, 729)) + list(range(729, 745)) + list(range(745, 761)) + list(range(761, 777)) + list(range(777, 793)) + list(range(793, 949)) + list(range(965, 981)):
         needle = f"{n}. **"
         if needle not in algebra:
             failed.append(f"composition-algebra missing item {n}")
@@ -2909,6 +3075,8 @@ def main() -> int:
         failed.append("composition item 933 is not the 1949 fill")
     if "949. **memory sieve is not the writer**:" not in algebra:
         failed.append("composition item 949 is not the 2044 memory sieve")
+    if "965. **score the signal before the expensive call**:" not in algebra:
+        failed.append("composition item 965 is not the 2149 log sieve")
     findings = (ROOT / "research/archive/findings.md").read_text(encoding="utf-8")
     for batch in (
         "## Batch #97",
@@ -2956,6 +3124,7 @@ def main() -> int:
         "## Batch #139",
         "## Batch #140",
         "## Batch #141",
+        "## Batch #142",
     ):
         if batch not in findings:
             failed.append(f"findings.md missing {batch}")
@@ -2979,6 +3148,8 @@ def main() -> int:
         failed.append("findings.md holds the 1949 uniqueness lock")
     if UNIQ_2044 in findings:
         failed.append("findings.md holds the 2044 uniqueness lock")
+    if UNIQ_2149 in findings:
+        failed.append("findings.md holds the 2149 uniqueness lock")
     digest_path_2146 = ROOT / "research/archive/hourly/2026-09-21T03/run_digest.json"
     if not digest_path_2146.is_file():
         failed.append("missing 2146 run_digest.json")
@@ -4698,6 +4869,7 @@ def main() -> int:
         ("jimothy", UNIQ_JIMOTHY),
         ("1949", UNIQ_1949),
         ("2044", UNIQ_2044),
+        ("2149", UNIQ_2149),
     ):
         if lock in changelog:
             failed.append(
