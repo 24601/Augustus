@@ -1,5 +1,37 @@
 # Deep-read findings (evidence for research/notes.md)
 
+## Batch #139 (2026-09-22) - user-provided jimothy
+
+Note: `research/notes.md` §159. Composition 917-932.
+hourly 1851 §158 is on main. This fold is §159 only.
+Do not reclaim §147 through §158.
+Hourly 1851 stays §158 / composition 901-916 / batch #138.
+This fold stays §159 / items 917-932 / batch #139.
+**HARD RULE:** do not reopen or amend PR #23 through #84.
+The consecutive lock string lives in notes.md and uniqueness_gate.py only.
+README still ends at License. Does not bump 0.5.0 or 0.5.1.
+`invented_signal: false`. Parent merges only after ADV_PASS.
+X is disabled. No X API calls. No new X quotes.
+
+- **AndrewPrifer/jimothy.** Distill and local-serving path. MIT
+  TypeScript. npm jimothy 0.1.2. engines node >=22. GitHub description
+  null. README is full. HEAD f2ad9b40b88ea913d38fda758e564eac5f12fc0b.
+  No GitHub releases. TypeSafe Jev stays the default path.
+- A linear head on frozen MiniLM or TF-IDF is not hosted Jev.
+  Teacher labeling uses typesafe-ai/jev when configured. Training is
+  local. Teacher agreement is not independent gold.
+- A null threshold means no recommendation. The SDK returns every
+  prediction. The application applies the cutoff. Soft judgment never
+  sole veto.
+- MiniLM probabilities can differ across Node, browser, WASM, and
+  WebGPU. FP16 WebGPU needs a matching calibrated export. Validate
+  cutoffs in the deployment environment.
+- BANKING77 TF-IDF 82.20% and MiniLM 92.37% are *theirs*, not Harbor.
+  Coverage 22.80% versus 82.23%. Email 300 is a pipeline experiment.
+  75.0% (45/60) and 78.3% (47/60) are *theirs*. Social is unmeasured.
+- Wire-compat is not logit-equiv. Checksums detect corruption. They
+  are not signatures. Catalog is not endorsement. Skip Archer.
+
 ## Batch #138 (2026-09-22 ~18:51 Boise / ~00:51 UTC) - hourly 1851 HIGH
 
 Note: `research/notes.md` §158. Composition 901-916.

@@ -5003,6 +5003,99 @@ Soft Noul ≠ hard safety.
      notes.md §158. composition 901-916. findings batch #138.
      Full cards: `faq.md`.
 
+917. **distilled local classifier is not hosted Jev**:
+     AndrewPrifer/jimothy fits a linear head on frozen MiniLM or TF-IDF.
+     That head is not TypeSafe Jev and not a calibrated replica of hosted
+     Jev. TypeSafe Jev stays the default path.
+     Full cards: `research/notes.md` §159.
+918. **teacher labels when configured; training is local**:
+     The optional teacher form calls typesafe-ai/jev when
+     AI_GATEWAY_API_KEY is set, then trains locally. Saved-answer forms
+     do not call a teacher. Do not copy a train command into this skill.
+     Full cards: `research/notes.md` §159.
+919. **teacher agreement is not independent gold**:
+     A supplied teacher label is a reference for agreement, not
+     independent ground truth. Calibrated outputs may differ from the
+     teacher's original probabilities. Do not distill Jev as teacher of
+     record. Real outcomes stay the targets.
+     Full cards: `research/notes.md` §159.
+920. **null threshold means no recommendation**:
+     Status insufficient_data or target_not_met stores a null cutoff.
+     The small quick-start and the email-300 split (10 calibration
+     examples) have no recommendation. Null is not a silent approve
+     and not a default of 0.5. 0.5 on their threshold grid is not a
+     decision boundary.
+     Full cards: `research/notes.md` §159.
+921. **the application applies the cutoff**:
+     The SDK returns every prediction. There is no accepted field.
+     Applying a cutoff is the application's choice. Soft judgment never
+     sole veto. Their 95% agreement target among accepted predictions
+     is not a guarantee on future inputs.
+     Full cards: `research/notes.md` §159.
+922. **MiniLM probabilities differ across runtimes**:
+     The same q8 weights can yield different probabilities on Node ONNX
+     and browser WASM. Validate cutoffs in the deployment environment.
+     Do not carry a Node cutoff onto WASM or WebGPU without measuring
+     there.
+     Full cards: `research/notes.md` §159.
+923. **FP16 WebGPU needs a matching export**:
+     FP16 WebGPU needs a matching calibrated export. The Node SDK does
+     not load the experimental FP16 policy. q8 fallback keeps the base
+     metadata. Batch shape can change a winning label.
+     Full cards: `research/notes.md` §159.
+924. **BANKING77 stays theirs**:
+     TF-IDF 82.20% and MiniLM 92.37% on BANKING77 are *theirs*, not
+     Harbor. Coverage 22.80% versus 82.23%. Accepted accuracy 99.57%
+     versus 97.95%. Previously inspected test set. Do not read the
+     higher accepted accuracy without the lower coverage.
+     Full cards: `research/notes.md` §159.
+925. **email 300 stays theirs**:
+     300 synthetic emails. Teacher agreement 75.0% (45/60) batched and
+     78.3% (47/60) single. Threshold none. Five of 60 labels changed.
+     Largest probability difference 0.278. Social unmeasured. Not
+     evidence of reliable six-category routing.
+     Full cards: `research/notes.md` §159.
+926. **wire-compat is not logit-equiv**:
+     evaluate returns Jev-compatible typed fields. Jev's derived
+     confidence field is deliberately not reproduced. Format version 3.
+     One question per bundle.
+     Full cards: `research/notes.md` §159.
+927. **frozen encoder, linear head**:
+     Default encoder Xenova/all-MiniLM-L6-v2 q8. Inputs over 256
+     wordpieces are rejected, not truncated. Encoder fine-tuning is not
+     implemented in v0.1. TF-IDF is the lightweight baseline.
+     Full cards: `research/notes.md` §159.
+928. **a score is an expectation, not a bound**:
+     Returned score is the expected level index. maxProbability on Score
+     is the winning level, not that expectation. On boolean and noul,
+     maxProbability is max(p, 1-p). Noul 0.5 remains uncertainty, not
+     medium intensity.
+     Full cards: `research/notes.md` §159.
+929. **checksums are not signatures**:
+     Checksums detect corruption. They are not signatures of who
+     produced the model. npm jimothy 0.1.2. The browser guide still
+     names jimothy-0.1.0.tgz. That filename is not the package version.
+     GitHub description is null. release_tag is null.
+     Full cards: `research/notes.md` §159.
+930. **catalog is not endorsement**:
+     Listing jimothy in the decision-model class is not an endorsement
+     and not a replacement for hosted Jev. A serving substrate is not a
+     calibrated replica. SHA move is not a replica.
+     Full cards: `research/notes.md` §159.
+931. **fingerprints**:
+     HEAD f2ad9b40b88ea913d38fda758e564eac5f12fc0b. pushed_at
+     2026-09-21T02:37:21Z. description_hash null. release_tag null.
+     README SHA 124318338a4c21ddd256df4501f387cc11857e1f. updated_at
+     2026-09-22T01:09:47Z is not a new HEAD.
+     Full cards: `research/notes.md` §159.
+932. **skip Archer** (promised_not_landed):
+     Archer still promised_not_landed. Parent merges only after ADV_PASS.
+     hourly 1851 §158 are on main. This fold is §159 only.
+     Do not reclaim §147 through §158. Do not reopen or amend PR #23 through #84.
+     Does not bump 0.5.0 or 0.5.1.
+     notes.md §159. composition 917-932. findings batch #139.
+     Full cards: `faq.md`.
+
 
 
 

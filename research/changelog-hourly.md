@@ -1,3 +1,16 @@
+## User-provided jimothy (notes.md §159 / items 917-932 / batch #139)
+
+- Folded onto post-#84 `main` (`7d01516`). hourly 1851 §158 is on main.
+  This fold is §159 only. Do not reclaim §147 through §158.
+  **HARD RULE:** do not reopen or amend PR #23 through #84.
+  Does not bump 0.5.0 or 0.5.1. Skip Archer. `invented_signal: false`.
+- PRIMARY: AndrewPrifer/jimothy distills Jev-compatible rows into a
+  local classifier. TypeSafe Jev stays the default path. Teacher
+  labeling is hosted when configured. Training is local. A null
+  threshold is no recommendation. The application applies the cutoff.
+  BANKING77 and email-300 stay *theirs*, not Harbor.
+- Uniqueness lock lives in `research/notes.md` and `uniqueness_gate.py` only.
+
 ## Hourly 1851 HIGH (notes.md §158 / items 901-916 / batch #138)
 
 - Folded onto post-#83 `main` (`5e609f7`). hourly 1751 §157 is on main.

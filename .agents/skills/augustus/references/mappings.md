@@ -693,6 +693,10 @@ local student; **real outcomes** stay the training targets.
 Do not distill Jev as teacher of record (~68% ceiling).
 Cost sketch *theirs*: ~$21 vs ~$8,400 LLM judge for 1M ×
 500-tok. `notes.md` §61.
+AndrewPrifer/jimothy (`notes.md` §159) trains a local linear head
+from Jev-compatible rows. TypeSafe Jev stays the default path. Teacher
+labels are agreement references. The ~68% ceiling in the sentence above
+is the jev-triage card.
 **Retrieve-then-state (Empirical as an axis proof, not a knowledge
 estimate):** if the answer is not in `state`, **buy the passage first**,
 then ask. Atlas history suite: wrong @ 0.90 without context → right @

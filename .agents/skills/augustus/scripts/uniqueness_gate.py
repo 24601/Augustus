@@ -2,7 +2,7 @@
 """Uniqueness gate for merged 0843 (§114), merged 0915 NanoJev (§115),
 merged 0920 jcr (§116), merged 0922 SemIf (§117), merged 0940
 llm-to-jev (§118), hourly 0947 HIGH (§119), hourly 1049 HIGH (§120),
-hourly 1143 HIGH (§121), hourly 1248 HIGH (§123), hourly 1340 HIGH (§124), hourly 1441 HIGH (§125), hourly 1542 HIGH (§126), hourly 1643 HIGH (§127), hourly 1746 HIGH (§128), hourly 1843 HIGH (§129), user-provided 1936 HIGH (§130), Open-Jev densify (§125), hourly 1946 HIGH (§131), hourly 2049 HIGH (§132), hourly 2146 HIGH (§133), hourly 2246 HIGH (§134), hourly 2347 HIGH (§135), hourly 0049 HIGH (§136), hourly 0151 HIGH (§137), hourly 0248 HIGH (§138), hourly 0348 HIGH (§139), and hourly 0445 HIGH (§140), and hourly 0551 HIGH (§141), and hourly 0707 HIGH (§142), and hourly 0823 HIGH (§143), and hourly 0923 HIGH (§144), and hourly 1019 HIGH (§145), and hourly 1751 HIGH (§157).
+hourly 1143 HIGH (§121), hourly 1248 HIGH (§123), hourly 1340 HIGH (§124), hourly 1441 HIGH (§125), hourly 1542 HIGH (§126), hourly 1643 HIGH (§127), hourly 1746 HIGH (§128), hourly 1843 HIGH (§129), user-provided 1936 HIGH (§130), Open-Jev densify (§125), hourly 1946 HIGH (§131), hourly 2049 HIGH (§132), hourly 2146 HIGH (§133), hourly 2246 HIGH (§134), hourly 2347 HIGH (§135), hourly 0049 HIGH (§136), hourly 0151 HIGH (§137), hourly 0248 HIGH (§138), hourly 0348 HIGH (§139), and hourly 0445 HIGH (§140), and hourly 0551 HIGH (§141), and hourly 0707 HIGH (§142), and hourly 0823 HIGH (§143), and hourly 0923 HIGH (§144), and hourly 1019 HIGH (§145), and hourly 1751 HIGH (§157), hourly 1851 HIGH (§158), and user-provided jimothy (§159).
 
 Each lock must appear as one consecutive substring in every listed overlay.
 Fragments scattered across files do not count.
@@ -307,6 +307,10 @@ UNIQ_1851 = (
 "Hourly 1851 uniqueness lock: TypeSafe Jev default path; IAMIbrahimmemon/von-mlx README SHA aa166f204e7b; MLX port of wfzyx/von; ModernBERT-Large 395M 28 layers; single forward pass; Hub weights IAMIbrahim/von-1.0-mlx; do not restate n=78; serving substrate ≠ calibrated replica; IAMIbrahimmemon/von-mlx ≠ wfzyx/von; fooSynaptic/jev-any-llm README SHA f7c3b097e06a; option logprobs or early-exit mean-pool; 15-88x vs free-text on AG News *theirs*; logprobs ≠ calibrated Noul; early-exit head is not a trained RLCD replica; fooSynaptic/jev-any-llm ≠ zhengxuyu/litjev ≠ alexwestco/llm-to-jev; maskedband1t/RLCD README SHA 60706479ba04; MIT; more than a hundred pre-registered experiments *theirs*; robot success ≠ calibrated Noul; not a TypeSafe product; hf:InfinimindCreations/laya-rlcd-training; 0.5 is not a decision boundary; AUC 1.000 and 15 of 20; majority class probability 1.0000; base 0.4556 vs 0.3333; urgency 0.733 to 0.648; student 0.665 vs teacher 0.631 *theirs*; keep best checkpoint not last; ≠ convaiinnovations/laya; hf:Praveenrajus/jevify-qwen3.5-4b-t2; 2,891,275 head params; rank-16 LoRA 21,233,664; residual on the model's own log-score; one seed; held-out sources 0.769/0.107 vs Jev 0.835/0.090 *theirs*; seen-in-training 0.739/0.111 vs Jev 0.694/0.122 *theirs*; macro acc 0.747 vs 0.733 ECE 0.110 vs 0.113 *theirs*; ±0.05 across seeds; held-out source is not a different data universe; jevify-serve port 8000 wire-compat ≠ logit-equiv; Qwen3.5 ≠ Archer; hf:SwagMessiah100/laya; republished card is not a new measurement; Khmer 0.000 at 0.952; raw ECE 0.466 to 0.081 *theirs*; Banking77 0.425 vs cited Jev 0.870 *theirs*; typed-decisions 0.766 is the fine-tune *theirs*; Jev figures third-party published never measured here; ≠ convaiinnovations/laya; neilbauman21-hub/verdict README SHA a59542c330e4; one forward pass no new weights; readout over a causal LM; mlx-community/Qwen3.5-9B-MLX-4bit; calibrated probabilities is their sentence; neilbauman21-hub/verdict ≠ NakliTechie/verdict ≠ Heman10x-NGU/openJev-verdict-2.0 ≠ lifeporterlab/jev-verdict; TMHSDigital/plumbline README SHA 6437af3f1cb1; not a leaderboard; haginot/decision-without-generation README SHA 302cc419318e; five LLM judges; do not import a winner; jaredpalmer/kev densify §45 not a sibling first sighting; HEAD 90990a5fac2995b9faa3190f7d437e84f2067768; watch prior prefix 35566d73bea1; stored look 4f8110a3f8620cc3a182ae9a708e4398492c4b1a; description_hash 47fc60928c90 unchanged; release_tag kev-family; modal_probe35.py folded into modal_app.py; entrypoints base_probe benchmarks smoke_base; no new benchmark result; SHA move is not a replica; Qwen3.5 ≠ Archer; AkhilBod/Tidy densify §157 not a sibling first sighting; prior_sha null; description_hash 43bc19349316 was 10755cc3be89; empty tree; never deletes is their sentence; not a measured interlock; nadeemcite/jev-crash-course densify §150; nadyth/jev-crash-course densify §150; description_hash fc0f510875fa; prior HEADs 07e235496f87 and 464e1814fc0c; shared README SHA 055646fdef9a stays the §150 card; 11-level description plus LiteLLM; pedagogy not a bench; gholtzap/jev-codex-model-and-effort-router; routing ≠ permission; AditiSonawane96/jev-model-test; AdoCbl/JEV-RESUME-POLISHER; 151 passing tests is their badge; AgriciDaniel/jev-seo; AidinZaeim/jev-fuzz; semantic layer is a sensor; JohnCari/rossrecall; cannot sign while any sentence is open; LBDavid98/jevidence; a wrapper is not a bench; NeerajMohanty/RFxCheck; Roasbeef/jevlar; wire client ≠ replica; Zyw052/astrbot_plugin_jev_radar; sensor ≠ actuator; baize7815/jev-mcp-open-source; c85/jev-smb; game success ≠ calibrated Noul; cyberspace-cs/jev-agent-routing; 10x *theirs*; dagote/JevBlock; dpshde/bible-jev-climb; dxd-dechao/jev-playground; a playground is not a bench; frankda/jev-poly-crypto-demo; TRADING_MODE=live rejected; galgoczy/JEVsniper; scaffold is not a procedure; gdamiani1/jev-feed-triage; never writes or posts; jackson-heylion/jev-gomoku; hard tactics stay in code; juanmaagd/jev-test-auditor; kangshifu1/jev-skills-market; 5/5 and 6/6 *theirs*; klren0312/jev-trade; paper trading; lbbbboom/jev-chat; fills the box never sends; romanmeclazcke/codex-sift; santmun/radar; ranking ≠ calibration; smaldd14/qavo; code offers options; sypei/jev-crowd; animation is not moral authority; tomohiro-owada/jev-mem; optional is not required; tomtyiu/Jev-decision-plugin; a plugin is not a model; tonghzhang/jevproof; a harness is not Harbor; wade56754/keyframe-to-motion; yoichiojima-2/deslop; zhijianzhouml/CELEUS-JEV; do not invent which won; awesomejev 726 links unchanged; tracker sha 8c3efe4cbe4deb09e09f58713e16b7be3177771e unchanged; one tracker like is star-noise; Qwen/Qwen3.8-27B ≠ Archer; Hub archerhume/4rcherhume HTTP 401; Soft judgment never sole veto; accuracy ≠ calibration; catalog ≠ endorsement; *theirs* not Harbor; Skip Archer; invented_signal: false; Parent merges only after ADV_PASS; hourly 1751 §157 are on main; this fold is §158 only; composition 901-916; findings batch #138; do not reopen or amend PR #23 through #83; does not bump 0.5.0 or 0.5.1; notes.md §158"
 )
 
+
+UNIQ_JIMOTHY = (
+"User-provided jimothy uniqueness lock: TypeSafe Jev default path; AndrewPrifer/jimothy distill local-serving path not a replacement; distilled local classifier ≠ TypeSafe Jev; ≠ calibrated replica of hosted Jev; MIT TypeScript; npm jimothy 0.1.2; engines node >=22; package.json description Train portable local classifiers from Jev-compatible datasets.; npm registry 0.1.2 matches package.json; GitHub description null; description_hash null; null GitHub description is not an empty README; README is full; README SHA 124318338a4c21ddd256df4501f387cc11857e1f; LICENSE SHA 81712734e28d7bcc4421ea1c57654591830af8c3; 5★; 0 forks; GitHub id 1378408007; size 18002; default branch master; HEAD f2ad9b40b88ea913d38fda758e564eac5f12fc0b; commit 2026-09-21T02:37:20Z; pushed_at 2026-09-21T02:37:21Z; created 2026-09-20T14:13:18Z; updated_at 2026-09-22T01:09:47Z is not a new HEAD; no GitHub releases; release_tag null; no tags; topics empty; homepage https://jimothy-r63s.vercel.app; teacher typesafe-ai/jev when configured; AI_GATEWAY_API_KEY; training itself is local; a supplied teacher label is a reference for agreement not independent ground truth; calibrated outputs may differ from the teacher's original probabilities; do not distill Jev as teacher of record; real outcomes stay the targets; null threshold means no recommendation; insufficient_data or target_not_met; small quick-start; email 300 threshold None; SDK returns every prediction; applying a cutoff is the application's choice; soft judgment never sole veto; MiniLM probabilities can differ across Node browser WASM WebGPU; validate cutoffs in the deployment environment; FP16 WebGPU needs a matching calibrated export; same q8 weights are not the same probabilities; BANKING77 TF-IDF 82.20% MiniLM 92.37% *theirs* not Harbor; 37.6 s and 7 min 26 s *theirs*; 0.023 ms and 1.72 ms *theirs*; coverage 22.80% vs 82.23% *theirs*; accepted accuracy 99.57% vs 97.95% *theirs*; previously inspected test set; email 300 synthetic; 75.0% (45/60) and 78.3% (47/60) *theirs*; 6.80 ms *theirs*; five of 60 labels changed; largest probability difference 0.278; social unmeasured; not evidence of reliable six-category routing; FP16 98.66% at 77.75% coverage *theirs*; 98.62% at 77.82% *theirs*; not a new blind evaluation; temperature 0.836752 threshold 0.90; ECE 1.11% vs 0.83% *theirs*; does not establish every calibration metric improved; 3 winning labels and 2 acceptance decisions; browser guide still names jimothy-0.1.0.tgz; Jev confidence field deliberately not reproduced; wire-compat ≠ logit-equiv; format version 3; one question per bundle; encoder fine-tuning not implemented in v0.1; Xenova/all-MiniLM-L6-v2 q8; checksums detect corruption not signatures; catalog ≠ endorsement; SHA move is not a replica; *theirs* not Harbor; Skip Archer; invented_signal: false; Parent merges only after ADV_PASS; hourly 1851 §158 are on main; this fold is §159 only; composition 917-932; findings batch #139; do not reopen or amend PR #23 through #84; does not bump 0.5.0 or 0.5.1; notes.md §159"
+)
 
 REVISIT_LOCK = (
     "Revisit / since-last-look lock: catalogued repos are not done; "
@@ -1718,6 +1722,8 @@ def main() -> int:
     readme_1851 = (ROOT / "README.md").read_text(encoding="utf-8")
     if UNIQ_1851 in readme_1851:
         failed.append("README.md must not hold the 1851 uniqueness lock")
+    if UNIQ_JIMOTHY in readme_1851:
+        failed.append("README.md must not hold the jimothy uniqueness lock")
     for rel in OVERLAYS:
         if rel == "research/notes.md":
             continue
@@ -1777,6 +1783,108 @@ def main() -> int:
     ):
         if remainder_id not in notes158:
             failed.append(f"notes.md §158 missing card {remainder_id}")
+
+    if "## 159. User-provided jimothy" not in notes:
+        failed.append("notes.md missing §159 heading")
+    if notes.count(UNIQ_JIMOTHY) != 1:
+        failed.append(
+            f"notes.md jimothy lock count {notes.count(UNIQ_JIMOTHY)} != 1"
+        )
+    i159 = notes.find("## 159. User-provided jimothy")
+    if not (i158 >= 0 and i159 > i158):
+        failed.append("notes.md must stay contiguous §158 then §159")
+    notes159 = notes[i159:] if i159 >= 0 else ""
+    if "this fold is §159 only" not in notes159:
+        failed.append("notes.md §159 missing §159-only occupancy")
+    if "hourly 1851 §158 are on main" not in notes159:
+        failed.append("notes.md §159 missing merged §158 occupancy")
+    if UNIQ_JIMOTHY not in notes159:
+        failed.append("jimothy lock missing inside notes.md §159")
+    for frag in (
+        'TypeSafe Jev default path',
+        'AndrewPrifer/jimothy distill local-serving path not a replacement',
+        'distilled local classifier ≠ TypeSafe Jev',
+        '≠ calibrated replica of hosted Jev',
+        'npm jimothy 0.1.2',
+        'engines node >=22',
+        'package.json description Train portable local classifiers from Jev-compatible datasets.',
+        'npm registry 0.1.2 matches package.json',
+        'GitHub description null',
+        'description_hash null',
+        'null GitHub description is not an empty README',
+        'README SHA 124318338a4c21ddd256df4501f387cc11857e1f',
+        'LICENSE SHA 81712734e28d7bcc4421ea1c57654591830af8c3',
+        'GitHub id 1378408007',
+        'HEAD f2ad9b40b88ea913d38fda758e564eac5f12fc0b',
+        'commit 2026-09-21T02:37:20Z',
+        'pushed_at 2026-09-21T02:37:21Z',
+        'updated_at 2026-09-22T01:09:47Z is not a new HEAD',
+        'release_tag null',
+        'teacher typesafe-ai/jev when configured',
+        'AI_GATEWAY_API_KEY',
+        'training itself is local',
+        'a supplied teacher label is a reference for agreement not independent ground truth',
+        "calibrated outputs may differ from the teacher's original probabilities",
+        'do not distill Jev as teacher of record',
+        'real outcomes stay the targets',
+        'null threshold means no recommendation',
+        'insufficient_data or target_not_met',
+        'small quick-start',
+        'email 300 threshold None',
+        'SDK returns every prediction',
+        "applying a cutoff is the application's choice",
+        'soft judgment never sole veto',
+        'MiniLM probabilities can differ across Node browser WASM WebGPU',
+        'validate cutoffs in the deployment environment',
+        'FP16 WebGPU needs a matching calibrated export',
+        'same q8 weights are not the same probabilities',
+        'BANKING77 TF-IDF 82.20% MiniLM 92.37% *theirs* not Harbor',
+        'coverage 22.80% vs 82.23% *theirs*',
+        'accepted accuracy 99.57% vs 97.95% *theirs*',
+        'previously inspected test set',
+        '75.0% (45/60) and 78.3% (47/60) *theirs*',
+        'largest probability difference 0.278',
+        'social unmeasured',
+        'not evidence of reliable six-category routing',
+        'FP16 98.66% at 77.75% coverage *theirs*',
+        'not a new blind evaluation',
+        'temperature 0.836752 threshold 0.90',
+        'ECE 1.11% vs 0.83% *theirs*',
+        '3 winning labels and 2 acceptance decisions',
+        'browser guide still names jimothy-0.1.0.tgz',
+        'Jev confidence field deliberately not reproduced',
+        'wire-compat ≠ logit-equiv',
+        'format version 3',
+        'one question per bundle',
+        'encoder fine-tuning not implemented in v0.1',
+        'Xenova/all-MiniLM-L6-v2 q8',
+        'checksums detect corruption not signatures',
+        'catalog ≠ endorsement',
+        'SHA move is not a replica',
+        '*theirs* not Harbor',
+        'Skip Archer',
+        'invented_signal: false',
+        'Parent merges only after ADV_PASS',
+        'hourly 1851 §158 are on main',
+        'this fold is §159 only',
+        'composition 917-932',
+        'findings batch #139',
+        'do not reopen or amend PR #23 through #84',
+        'does not bump 0.5.0 or 0.5.1',
+        'notes.md §159',
+    ):
+        if frag not in UNIQ_JIMOTHY:
+            failed.append(f"UNIQ_JIMOTHY missing {frag!r}")
+    for rel in OVERLAYS:
+        if rel == "research/notes.md":
+            continue
+        overlay_jimothy = (ROOT / rel).read_text(encoding="utf-8")
+        if UNIQ_JIMOTHY in overlay_jimothy:
+            failed.append(
+                f"jimothy lock must stay in notes.md and the gate fixture, not {rel}"
+            )
+    if "AndrewPrifer/jimothy" not in notes159:
+        failed.append("notes.md §159 missing card AndrewPrifer/jimothy")
 
     for remainder_id in (
         "ishantanu/jevmetrics",
@@ -2463,7 +2571,7 @@ def main() -> int:
     algebra = (ROOT / ".agents/skills/augustus/references/composition-algebra.md").read_text(
         encoding="utf-8"
     )
-    for n in list(range(289, 317)) + list(range(322, 330)) + list(range(330, 337)) + list(range(337, 353)) + list(range(353, 369)) + list(range(369, 385)) + list(range(385, 401)) + list(range(401, 417)) + list(range(417, 433)) + list(range(433, 449)) + list(range(449, 465)) + list(range(465, 481)) + list(range(481, 497)) + list(range(497, 505)) + list(range(505, 521)) + list(range(521, 537)) + list(range(537, 553)) + list(range(553, 569)) + list(range(569, 585)) + list(range(585, 601)) + list(range(601, 617)) + list(range(617, 633)) + list(range(633, 649)) + list(range(649, 665)) + list(range(665, 681)) + list(range(681, 697)) + list(range(697, 713)) + list(range(713, 729)) + list(range(729, 745)) + list(range(745, 761)) + list(range(761, 777)) + list(range(777, 793)) + list(range(793, 917)):
+    for n in list(range(289, 317)) + list(range(322, 330)) + list(range(330, 337)) + list(range(337, 353)) + list(range(353, 369)) + list(range(369, 385)) + list(range(385, 401)) + list(range(401, 417)) + list(range(417, 433)) + list(range(433, 449)) + list(range(449, 465)) + list(range(465, 481)) + list(range(481, 497)) + list(range(497, 505)) + list(range(505, 521)) + list(range(521, 537)) + list(range(537, 553)) + list(range(553, 569)) + list(range(569, 585)) + list(range(585, 601)) + list(range(601, 617)) + list(range(617, 633)) + list(range(633, 649)) + list(range(649, 665)) + list(range(665, 681)) + list(range(681, 697)) + list(range(697, 713)) + list(range(713, 729)) + list(range(729, 745)) + list(range(745, 761)) + list(range(761, 777)) + list(range(777, 793)) + list(range(793, 933)):
         needle = f"{n}. **"
         if needle not in algebra:
             failed.append(f"composition-algebra missing item {n}")
@@ -2489,6 +2597,8 @@ def main() -> int:
         failed.append("composition item 885 is not the 1751 click verification")
     if "901. **hosted MLX von port is not the PyTorch von**" not in algebra:
         failed.append("composition item 901 is not the 1851 von port")
+    if "917. **distilled local classifier is not hosted Jev**:" not in algebra:
+        failed.append("composition item 917 is not the jimothy distill")
     findings = (ROOT / "research/archive/findings.md").read_text(encoding="utf-8")
     for batch in (
         "## Batch #97",
@@ -2533,6 +2643,7 @@ def main() -> int:
         "## Batch #136",
         "## Batch #137",
         "## Batch #138",
+        "## Batch #139",
     ):
         if batch not in findings:
             failed.append(f"findings.md missing {batch}")
@@ -2550,6 +2661,8 @@ def main() -> int:
         failed.append("findings.md holds the 1751 uniqueness lock")
     if UNIQ_1851 in findings:
         failed.append("findings.md holds the 1851 uniqueness lock")
+    if UNIQ_JIMOTHY in findings:
+        failed.append("findings.md holds the jimothy uniqueness lock")
     digest_path_2146 = ROOT / "research/archive/hourly/2026-09-21T03/run_digest.json"
     if not digest_path_2146.is_file():
         failed.append("missing 2146 run_digest.json")
@@ -4266,6 +4379,7 @@ def main() -> int:
         ("1556", UNIQ_1556),
         ("onesystem", UNIQ_ONESYSTEM),
         ("1851", UNIQ_1851),
+        ("jimothy", UNIQ_JIMOTHY),
     ):
         if lock in changelog:
             failed.append(

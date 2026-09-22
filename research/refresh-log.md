@@ -1,3 +1,20 @@
+## 2026-09-22 - User-provided jimothy
+- Folded onto post-#84 `main` (`7d01516`). hourly 1851 §158 is on main.
+  This fold is §159 only. This fold: `notes.md` §159 / composition 917-932 /
+  findings batch #139. Do not reclaim §147 through §158.
+  **HARD RULE:** do not reopen or amend PR #23 through #84.
+- PRIMARY: AndrewPrifer/jimothy is a distill and local-serving path.
+  TypeSafe Jev stays the default recommended path. Teacher labeling uses
+  hosted Jev when configured. Training is local. A null threshold means
+  no recommendation. The application applies the cutoff. MiniLM
+  probabilities can differ across Node, browser, WASM, and WebGPU.
+  BANKING77 and email-300 stay *theirs*, not Harbor.
+- Evidence: live GitHub REST and npm registry on 2026-09-22. HEAD
+  f2ad9b40b88ea913d38fda758e564eac5f12fc0b. GitHub description null.
+  release_tag null. npm jimothy 0.1.2. No X API calls.
+- Uniqueness lock lives in `research/notes.md` only (plus the gate fixture).
+  `invented_signal: false`. No Augustus call site. X disabled. No new X quotes.
+
 ## 2026-09-22 ~00:51 UTC / ~18:51 Boise - Hourly 1851 HIGH
 - Folded onto post-#83 `main` (`5e609f7`). hourly 1751 §157 is on main.
   This fold is §158 only. This fold: `notes.md` §158 / composition 901-916 /

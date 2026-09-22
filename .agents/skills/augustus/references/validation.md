@@ -179,6 +179,15 @@ about 0.05, means a gap of that size is noise. A republished Laya card
 is not a new measurement and is not convaiinnovations/laya. Third-party
 numbers stay *theirs*, not Harbor.
 
+User-provided jimothy (`notes.md` §159). BANKING77 and the 300-email
+table stay *theirs*, not Harbor. The BANKING77 test set was previously
+inspected. The email split is a pipeline experiment, not evidence of
+reliable six-category routing. A recommended cutoff is soft. A null
+threshold means no recommendation. Measure the local head on your
+labels in the deployment runtime before treating a Node cutoff as valid
+on WASM or FP16 WebGPU.
+
+
 ### Pipeline (upgraded from the shorter hill-climb card)
 
 **Hypothesis.** Basit ask, primary post not retrieved. This is how you
