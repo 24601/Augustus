@@ -3,7 +3,7 @@ name: augustus
 description: "Design and evaluate decision-model placements in software, business, organizations, and everyday life. Use for bounded classification, routing, ranking, Choice/Score/Noul, uncertainty, and deciding what belongs with models, code, or human judgment. TypeSafe Jev is the default hosted exemplar. Not for straightforward arithmetic, prose rewriting, or provider setup alone."
 license: MIT
 metadata:
-  version: 0.6.0-dev
+  version: 0.6.0
   typesafe_skill: v0.5.7
   typesafe_skill_commit: 65a39f3
   tribute: "Named for Augustus De Morgan (1806-1871), mentor of William Stanley Jevons."

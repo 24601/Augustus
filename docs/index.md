@@ -7,7 +7,7 @@ page_class: home
 
 <section class="hero" aria-labelledby="hero-title">
   <div>
-    <p class="kicker hero-reveal" style="--d: 0ms">0.6.0-dev · latest release 0.5.1</p>
+    <p class="kicker hero-reveal" style="--d: 0ms">Version 0.6.0</p>
     <h1 id="hero-title" class="hero-title">
       <span class="line hero-reveal" style="--d: 50ms">Place judgment.</span>
       <span class="line hero-reveal" style="--d: 110ms">Keep authority explicit.</span>
@@ -76,8 +76,7 @@ page_class: home
     <h2 id="install-title">Install the skill</h2>
     <p>
       Use the marketplace with Claude Code, or add the skill to any compatible
-      agent. The repository currently targets 0.6.0-dev; 0.5.1 is the latest
-      released package.
+      agent. The current release is 0.6.0.
       These commands follow the default branch; review the installed version
       before relying on it. The skill itself needs no API key. Calling a hosted
       model is a separate, optional integration.
@@ -181,5 +180,5 @@ claude plugin install augustus@augustus</code></pre>
       </a>
     </li>
   </ul>
-  <p class="meta-line">Repository target 0.6.0-dev · latest release 0.5.1.</p>
+  <p class="meta-line">Current release 0.6.0 · <a href="{{ '/release-notes-v0.6.0.html' | relative_url }}">Release notes</a>.</p>
 </section>

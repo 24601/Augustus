@@ -73,7 +73,7 @@ This follows the repository's current default branch, which may contain
 unreleased work. For a reproducible source checkout of the last release:
 
 ```bash
-git clone --branch v0.5.1 --depth 1 https://github.com/24601/Augustus.git
+git clone --branch v0.6.0 --depth 1 https://github.com/24601/Augustus.git
 ```
 
 The skill directory is `.agents/skills/augustus/`. Use your agent's local
@@ -115,10 +115,12 @@ calls a model. Tests and structural lint do not establish model quality.
 
 ## Versioning
 
-Development package: **0.6.0-dev**, unreleased. Last released: **0.5.1**.
+Current release: **0.6.0**. See the
+[release notes](docs/release-notes-v0.6.0.md) for changes and migration details.
 Historical TypeSafe skill provenance: v0.5.7 (`65a39f3`). Read live provider
 docs before writing integration code; that pin is not a current API guarantee.
-No new release or deployment is implied by local repository changes.
+Install from the `v0.6.0` tag when you need an exact source revision;
+default-branch installation may include later unreleased work.
 
 ## License
 

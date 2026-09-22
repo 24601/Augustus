@@ -16,7 +16,11 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
-Development package: **0.6.0-dev**. No release or deployment is implied.
+No unreleased changes.
+
+## [0.6.0] - 2026-09-22
+
+### Changed
 
 - Rebuilt the skill as a concise entry point and focused references;
   preserved historical source revisions in the research archive manifest.
@@ -34,8 +38,23 @@ Development package: **0.6.0-dev**. No release or deployment is implied.
   social-preview assets, sitemap, rendered-site checks, a feedback template,
   and a discoverability audit. Corrected mobile install-card overflow.
 
-Catalog observations remain in [research](research/README.md). They need
-not change the installed skill. Last released version remains **0.5.1**.
+### Migration
+
+- Evaluator cost reports now require explicit `--cost-fp` and `--cost-fn`;
+  selective-policy cost also needs `--cost-abstain`. Threshold search is
+  labeled in-sample and must not substitute for held-out policy evaluation.
+- Complete binary predictions report `action_rate`, not selective coverage.
+  Log loss is infinite for an impossible observed event; malformed inputs,
+  duplicate IDs, and incomplete paired baselines are rejected.
+- Refresh scripts emit JSON review receipts instead of appending logs,
+  cloning discoveries, or committing/pushing changes. Scheduler owners
+  should explicitly choose receipt storage and perform separate review.
+- `uniqueness_gate.py` is a repository-maintainer compatibility entry point
+  to the structural checker, not a tool for an installed standalone skill.
+  Use `make check` for the complete check suite.
+
+Catalog observations remain in [research](research/README.md); they need
+not change the installed skill. See [release notes](docs/release-notes-v0.6.0.md).
 
 ## [0.5.1] - 2026-09-21
 
