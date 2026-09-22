@@ -1,0 +1,33 @@
+{
+  "projectId": "8268640545279014257",
+  "title": "Augustus: decision fieldnotes",
+  "createdAt": "2026-09-22",
+  "visibility": "PRIVATE",
+  "designSystem": {
+    "assetId": "68ed2e893d7b4790819b52a7b2060ba9",
+    "source": ".stitch/DESIGN.md",
+    "uploadedSourceSha256": "67c9541720669269ad2dba7a34e13e672c0fd529ae524646afd55e00f7c3d008",
+    "sourceStatus": "The local contract was refined after upload to document tested mobile wrapping, distinct code labels, and complete color tokens. The uploaded asset retains the original approved brief.",
+    "approval": "User approved palette, typography, square-edged direction and upload on 2026-09-22."
+  },
+  "screens": [
+    {
+      "id": "c74089b590c3440fa25d4eef043f61b2",
+      "title": "Augustus — Decision-Model Systems for Agents",
+      "sessionId": "2651202603846341988",
+      "modelId": "GEMINI_3_8_FLASH",
+      "html": ".stitch/designs/proposal.html",
+      "screenshot": ".stitch/designs/proposal.png"
+    },
+    {
+      "id": "4680325396a642cc8d8ca51d2d673f38",
+      "title": "Augustus — Decision-Model Systems for Agents (Refined)",
+      "sessionId": "17190665635410529458",
+      "modelId": "GEMINI_3_8_FLASH",
+      "html": ".stitch/designs/refined.html",
+      "screenshot": ".stitch/designs/refined.png"
+    }
+  ],
+  "status": "Reference proposals only. The implemented Jekyll site is coordinator-authored and separately verified; generated code is not deployed.",
+  "localArtifacts": "Ignored, reproducible downloads. API credentials, expiring download URLs and raw provider responses are not recorded here."
+}

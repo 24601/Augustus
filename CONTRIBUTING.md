@@ -81,6 +81,49 @@ exceed the viewport; long commands may scroll inside their own boxes.
 Check keyboard focus and the skip link. Record browser and viewport;
 browser emulation is not a physical-device test.
 
+### Website design review
+
+Follow [the website design contract](.stitch/DESIGN.md). Start with what the
+reader needs to understand and do. Keep an actual, annotated decision study
+as the focal artifact, not a fictional dashboard. A calm serif palette alone
+does not make a design distinctive. Preserve the skill-and-method-engine
+positioning, install path, and distinction between illustrations and outcomes.
+
+Before accepting a redesign, inspect the complete page and shared reading
+pages at 320, 390, 768, and 1440 CSS pixels, in both themes. Exercise the
+installation anchor, keyboard-only skip link and command scrolling, zoom,
+and JavaScript-disabled reading. Keep representative screenshots and exact
+build/reviewer provenance in a dated audit. Recheck after substantive fixes.
+
+The rendered-site checker enforces a language, zoom-safe viewport, focusable
+main bypass, and distinctly named keyboard-accessible code regions. Duplicate
+HTML attributes are errors rather than silently using a parser's last value.
+These are structural checks, not a WCAG certificate or taste score. The layout
+adds numbered code-region attributes to Markdown-generated prose; do not also
+add them to raw prose `pre` tags. Homepage command regions declare their specific
+names directly.
+
+When changing the share identity, update `docs/assets/social-card.svg` and the
+favicon together. Open the SVG directly in a browser at 1200 by 630 CSS pixels,
+wait for its IBM Plex fonts to load, and export a lossless PNG to
+`docs/assets/social-card.png`. Inspect the exported bitmap and dimensions, not
+only the SVG source. The website references the PNG, so its font rendering does
+not depend on a social platform fetching web fonts.
+
+Design generators and anti-slop skills supply hypotheses, not authority.
+Reject invented metrics, example paths, dependencies, and product claims.
+Review the actual screenshots and source, record accepted and rejected
+findings, and keep optional style preferences separate from release blockers.
+User-selected reviewer models must not be silently substituted. Upload only
+public project material, keep credentials and raw provider logs out of the
+repository, and do not install design tooling into the skill runtime.
+Freeze only intended source and evidence, excluding host metadata and secrets.
+Give reviewers absolute paths to that input folder and check actual tool
+calls against that scope; a CLI's reported working directory is not proof of
+its tools' working directory. A failed read must not trigger filesystem-wide
+search. Stop scope-drifting reviews and exclude contaminated verdicts; do not
+describe prompt-only read restrictions as an enforced sandbox.
+
 For Claude packaging changes, run `claude plugin validate .`, then use a
 temporary `CLAUDE_CONFIG_DIR` to add this repository as a local marketplace,
 install `augustus@augustus`, and inspect `claude plugin details`. Expect one

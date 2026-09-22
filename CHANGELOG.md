@@ -16,7 +16,17 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
-No changes yet.
+### Changed
+
+- Reworked the website as a technical publication centered on an annotated
+  decision example. Kept the agent build/evaluate/improve mission visible,
+  brought installation into the page, and moved the six detailed placements
+  into a linked guide. Removed decorative skeletons, glass panels, gradient
+  backgrounds, and reveal-animation JavaScript. This is a website-only change;
+  the published 0.7.0 skill package is unchanged.
+- Aligned the favicon and social share image with the new site, improved
+  mobile command reading, and added parsed accessibility regression checks
+  plus a design contract and screenshot/reviewer evidence for future updates.
 
 ## [0.7.0] - 2026-09-22
 

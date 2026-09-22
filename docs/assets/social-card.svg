@@ -1,14 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">Augustus — decision-model design for AI agents</title>
-  <desc id="desc">Place judgment. Keep policy in control. Evidence leads to judgment, policy, and checked action.</desc>
-  <rect width="1200" height="630" fill="#111827"/>
-  <path d="M72 80h65v12H72zm0 23h43v12H72zm0 23h54v12H72z" fill="#93c5fd"/>
-  <g font-family="Arial, Helvetica, sans-serif">
-    <text x="166" y="127" fill="#f9fafb" font-size="52" font-weight="700">Augustus</text>
-    <text x="72" y="241" fill="#93c5fd" font-size="28">DECISION-MODEL DESIGN FOR AI AGENTS</text>
-    <text x="72" y="330" fill="#f9fafb" font-size="66" font-weight="700">Place judgment.</text>
-    <text x="72" y="407" fill="#f9fafb" font-size="66" font-weight="700">Keep policy in control.</text>
-    <text x="72" y="508" fill="#d1d5db" font-size="28">Evidence → Judgment → Policy → Checked action</text>
-    <text x="72" y="577" fill="#9ca3af" font-size="25">Open-source agent skill · github.com/24601/Augustus</text>
+  <title id="title">Augustus: decision models, put to work</title>
+  <desc id="desc">An open-source agent skill to find useful judgments, build policy and evals, and improve against real outcomes.</desc>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&amp;family=IBM+Plex+Serif:wght@400;500&amp;display=swap');
+  </style>
+  <rect width="1200" height="630" fill="#f3f4ef"/>
+  <g fill="#202620" font-family="IBM Plex Serif, Georgia, serif">
+    <text x="64" y="83" font-size="40" font-weight="500">Augustus</text>
+    <text x="64" y="265" font-size="82" letter-spacing="-3">Decision models,</text>
+    <text x="64" y="359" font-size="82" letter-spacing="-3">put to work.</text>
+  </g>
+  <path d="M64 113H1136M64 507H1136" stroke="#202620" stroke-width="1"/>
+  <g font-family="IBM Plex Sans, Arial, sans-serif" font-size="25" fill="#546054">
+    <text x="64" y="170">An open-source skill for agents</text>
+    <text x="64" y="423">Find useful judgments. Build policy and evals.</text>
+    <text x="64" y="461">Improve against real outcomes.</text>
+    <text x="64" y="565" fill="#315c45">github.com/24601/Augustus</text>
+    <text x="1136" y="565" text-anchor="end">Methods, not a hosted runtime.</text>
   </g>
 </svg>

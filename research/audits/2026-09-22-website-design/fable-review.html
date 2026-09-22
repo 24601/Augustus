@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Critique · Augustus website redesign</title>
+<style>
+:root{
+  --bg:oklch(0.975 0.004 110);
+  --surface:oklch(1 0 0);
+  --fg:oklch(0.22 0.01 150);
+  --muted:oklch(0.45 0.015 150);
+  --border:oklch(0.85 0.01 130);
+  --accent:oklch(0.42 0.07 155);
+  --accent-fill:oklch(0.42 0.07 155 / 0.18);
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  --sans:system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+  --mono:ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{background:var(--bg)}
+body{margin:0;color:var(--fg);font:1rem/1.55 var(--sans);-webkit-font-smoothing:antialiased}
+main{width:min(68rem,calc(100% - 2.5rem));margin:0 auto;padding:2.5rem 0 4rem}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0}
+h1{font-size:clamp(2rem,4.5vw,3rem);letter-spacing:-0.02em}
+h2{font-size:1.55rem;margin-bottom:1rem}
+h3{font-size:1.2rem}
+p{margin:0}
+p+p{margin-top:.7rem}
+a{color:var(--accent);text-underline-offset:.2em}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+code{font-family:var(--mono);font-size:.9em}
+.masthead{border-bottom:1px solid var(--fg);padding-bottom:1.25rem;margin-bottom:2rem}
+.meta{display:flex;flex-wrap:wrap;gap:.25rem 1.5rem;color:var(--muted);font-size:.9rem;margin-top:.75rem}
+.meta span b{color:var(--fg);font-weight:500}
+.lede{max-width:52rem;font-size:1.1rem;margin-top:1rem}
+section{margin-top:3rem}
+.verdict{border:1px solid var(--fg);background:var(--surface);padding:1.25rem 1.5rem;font-family:var(--mono);font-size:.9rem;line-height:1.6}
+.verdict p{margin:0}
+.verdict p+p{margin-top:.5rem}
+.verdict b{font-weight:600}
+.scores{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:2rem 3rem;align-items:center}
+.scores svg{width:100%;max-width:26rem;height:auto;display:block;margin:0 auto}
+.scoretable{width:100%;border-collapse:collapse;font-size:.95rem}
+.scoretable th,.scoretable td{text-align:left;padding:.55rem .4rem;border-bottom:1px solid var(--border);vertical-align:top}
+.scoretable th{font-weight:600;border-bottom-color:var(--fg)}
+.scoretable td.n{font-family:var(--serif);font-size:1.5rem;line-height:1;width:3.5rem}
+.band{color:var(--muted);font-size:.85rem}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem}
+.card{border-top:2px solid var(--fg);padding-top:1rem}
+.card header{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;margin-bottom:.6rem}
+.card .score{font-family:var(--serif);font-size:1.7rem;white-space:nowrap}
+.card .score small{font-family:var(--sans);font-size:.8rem;color:var(--muted);margin-left:.4rem}
+.card p{font-size:.95rem}
+.card .action{margin-top:.8rem;padding-top:.6rem;border-top:1px solid var(--border);font-size:.95rem}
+.card .action b{font-weight:600}
+.findings{display:grid;gap:1rem}
+.finding{border-top:1px solid var(--border);padding-top:.9rem;font-size:.95rem}
+.finding:first-child{border-top-color:var(--fg)}
+.finding .head{display:flex;flex-wrap:wrap;gap:.3rem 1rem;align-items:baseline;margin-bottom:.4rem}
+.finding .id{font-family:var(--mono);font-weight:600}
+.finding .kind{color:var(--muted)}
+.finding .sev{font-weight:600}
+.finding .sev.p1{color:var(--accent)}
+.finding dl{margin:0;display:grid;grid-template-columns:6.5rem minmax(0,1fr);gap:.25rem 1rem}
+.finding dt{color:var(--muted)}
+.finding dd{margin:0}
+.lists{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem}
+.lists h3{margin-bottom:.6rem}
+.lists ul{list-style:none;margin:0;padding:0}
+.lists li{padding:.45rem 0;border-top:1px solid var(--border);font-size:.95rem}
+.lists label{display:grid;grid-template-columns:1.1rem minmax(0,1fr);gap:.6rem;align-items:start;cursor:pointer}
+.lists input{margin:.3rem 0 0;width:1rem;height:1rem;accent-color:var(--accent)}
+.images{columns:2;column-gap:2.5rem;font-size:.95rem}
+.images li{break-inside:avoid;margin-bottom:.5rem}
+.note{color:var(--muted);font-size:.9rem;max-width:52rem}
+footer{margin-top:3rem;border-top:1px solid var(--border);padding-top:1rem;color:var(--muted);font-size:.85rem}
+@media (max-width:52rem){
+  .scores,.cards,.lists{grid-template-columns:minmax(0,1fr)}
+  .images{columns:1}
+  .finding dl{grid-template-columns:minmax(0,1fr)}
+  .finding dt{margin-top:.3rem}
+}
+</style>
+</head>
+<body>
+<main>
+
+<header class="masthead" data-od-id="report-header">
+  <h1 data-od-id="report-title">Critique · Augustus website redesign</h1>
+  <p class="lede">Verdict: <strong>ship</strong>. The rendered argument is product-specific, honest, and honors the approved contract on every supplied viewport in both themes. Two narrow-screen typographic rags and one stale share asset are real, reproducible, and cheap; none blocks release.</p>
+  <div class="meta">
+    <span><b>Artifact</b> inputs/rendered/index.html + assets/css/site.css (primary); placements, examples, ecosystem, release-notes-v0.7.0 (shared layout)</span>
+    <span><b>Contract</b> inputs/DESIGN.md</span>
+    <span><b>Reviewer</b> OD · Critique skill</span>
+    <span><b>Date</b> 2026-09-22</span>
+    <span><b>Mode</b> read-only; no files written, no renderer launched, no external fetch</span>
+  </div>
+</header>
+
+<section class="verdict" data-od-id="astra-verdict" aria-label="ASTRA review verdict">
+  <p><b>ASTRA REVIEW</b></p>
+  <p><b>VERDICT:</b> ship</p>
+  <p><b>REASON:</b> The home page opens with a concise thesis and a product-specific worked decision study that is visible in full within the first desktop viewport; the install action is above the fold at 1440 and 390; every internal link target resolves; there is no JavaScript, no fabricated metric, no dashboard chrome, and the palette, typefaces, square edges, and kicker register match DESIGN.md. The only reproducible defects are narrow-screen typographic rags on the install code region and the examples table plus a share card and favicon that still carry the retired identity. Each is a five-to-fifteen-minute patch and none breaks a flow or violates the contract.</p>
+  <p><b>FINDINGS:</b> F1 (P1) mobile install commands clipped inside the pre with no scroll cue, site.css:117 with index.html:170–175, after-mobile-install.jpg. F2 (P2) mid-word break "Candidate/evi | dence gap" in the examples table at 390px, site.css:137, 147, 150 with examples.html:89, after-examples-mobile.jpg. F3 (P2) assets/social-card.svg, social-card.png and favicon.svg remain navy, Arial, all-caps, arrow-chain, referenced by every page's og:image and icon; untouched by the diff. F4 (P2) 2rem wordmark nearly equals the page h1 on reading pages below 62rem, site.css:68 vs 139, after-examples-mobile.jpg and after-placements-tablet.jpg. F5 (P3) two code regions on release-notes-v0.5.1.html share the identical name "Code example" from default.html:47. F6–F7 documentation and dead-class housekeeping. F8–F10 taste only.</p>
+  <p><b>RESIDUAL RISK:</b> Home page at 768 and 320 and ecosystem.html at 390 were not among the supplied screenshots and are judged from CSS only; the 2×2 study between 44rem and 62rem appears to leave the fourth stage inset 1.25rem on the right while the first is flush left, unconfirmed. ecosystem.html's three-column table at 390px is exposed to the same mid-word break as F2. Google Fonts is the only runtime third-party dependency; the Georgia and system fallbacks hold the layout. External GitHub link targets were not fetched.</p>
+</section>
+
+<section data-od-id="scores" aria-labelledby="scores-title">
+  <h2 id="scores-title">Scores</h2>
+  <div class="scores">
+    <svg viewBox="-10 0 460 400" role="img" aria-labelledby="radar-title radar-desc">
+      <title id="radar-title">Radar of five dimension scores</title>
+      <desc id="radar-desc">Philosophy 8, Hierarchy 7, Detail 6, Functionality 7, Innovation 6 out of 10.</desc>
+      <g fill="none" stroke="var(--border)" stroke-width="1">
+        <polygon points="220,170 248.5,190.7 237.6,224.3 202.4,224.3 191.5,190.7"/>
+        <polygon points="220,140 277.1,181.5 255.3,248.5 184.7,248.5 162.9,181.5"/>
+        <polygon points="220,110 305.6,172.2 272.9,272.8 167.1,272.8 134.4,172.2"/>
+        <polygon points="220,80 334.1,162.9 290.5,297.1 149.5,297.1 105.9,162.9"/>
+        <polygon points="220,50 362.7,153.6 308.2,321.4 131.8,321.4 77.3,153.6" stroke="var(--muted)"/>
+        <line x1="220" y1="200" x2="220" y2="50"/>
+        <line x1="220" y1="200" x2="362.7" y2="153.6"/>
+        <line x1="220" y1="200" x2="308.2" y2="321.4"/>
+        <line x1="220" y1="200" x2="131.8" y2="321.4"/>
+        <line x1="220" y1="200" x2="77.3" y2="153.6"/>
+      </g>
+      <polygon points="220,80 319.9,167.6 272.9,272.8 158.3,284.9 134.4,172.2" fill="var(--accent-fill)" stroke="var(--accent)" stroke-width="2"/>
+      <g fill="var(--accent)">
+        <circle cx="220" cy="80" r="4"/><circle cx="319.9" cy="167.6" r="4"/><circle cx="272.9" cy="272.8" r="4"/><circle cx="158.3" cy="284.9" r="4"/><circle cx="134.4" cy="172.2" r="4"/>
+      </g>
+      <g font-family="system-ui,sans-serif" font-size="13" fill="var(--fg)">
+        <text x="220" y="34" text-anchor="middle">Philosophy 8</text>
+        <text x="372" y="152" text-anchor="start">Hierarchy 7</text>
+        <text x="312" y="345" text-anchor="start">Detail 6</text>
+        <text x="128" y="345" text-anchor="end">Functionality 7</text>
+        <text x="68" y="152" text-anchor="end">Innovation 6</text>
+      </g>
+    </svg>
+    <table class="scoretable">
+      <thead><tr><th>Dimension</th><th>Score</th><th>Band</th></tr></thead>
+      <tbody>
+        <tr><td>Philosophy consistency</td><td class="n">8</td><td class="band">Strong</td></tr>
+        <tr><td>Visual hierarchy</td><td class="n">7</td><td class="band">Strong</td></tr>
+        <tr><td>Detail execution</td><td class="n">6</td><td class="band">Functional</td></tr>
+        <tr><td>Functionality</td><td class="n">7</td><td class="band">Strong</td></tr>
+        <tr><td>Innovation</td><td class="n">6</td><td class="band">Functional, appropriate</td></tr>
+        <tr><td>Mean</td><td class="n">6.8</td><td class="band">Bands: 0–4 Broken · 5–6 Functional · 7–8 Strong · 9–10 Exceptional</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section data-od-id="dimensions" aria-labelledby="dims-title">
+  <h2 id="dims-title">Five dimensions, with evidence</h2>
+  <div class="cards">
+
+    <article class="card" data-od-id="dimension-philosophy">
+      <header><h3>1 · Philosophy consistency</h3><span class="score">8 / 10<small>Strong</small></span></header>
+      <p>One direction, the annotated decision study, is carried through every micro-decision. Serif is limited to h1, h2 and the study blockquote (site.css:44, 95); sans carries everything else; mono appears only inside <code>pre</code> (site.css:49, 117). Kickers stay in one register: sentence case, secondary ink, no all-caps ("An open-source skill for agents", "A decision, taken apart", "Observed evidence"). Forest is used exactly as the contract assigns it: the single button plus the judgment stage's owner label and result line (site.css:97–98); sage appears only on <code>.judgment-stage</code>. No border-radius, shadow or gradient exists anywhere in the stylesheet. Against before-desktop.jpg and before-mobile.jpg, the skeleton-bar mock, three-button hero, all-caps mono kicker and gradient wash are all gone. Drift: h3 weights vary (600 by default, 500 on <code>.study-test h3</code> and <code>.install-options h3</code>); the index and installation sections share one 1fr / 1.35fr grid where DESIGN.md §5 asks for distinct rhythms; and the placements include still carries <code>section-head</code>, <code>recipe-grid</code>, <code>panel</code> and <code>recipe-measure</code> classes whose rules the diff deleted.</p>
+      <p class="action"><b>Keep:</b> forest reserved for the action and the model judgment, sage only on the judgment stage. Do not let links or a second section borrow either.</p>
+    </article>
+
+    <article class="card" data-od-id="dimension-hierarchy">
+      <header><h3>2 · Visual hierarchy</h3><span class="score">7 / 10<small>Strong</small></span></header>
+      <p>At 1440×1000 (after-desktop.jpg) the first viewport runs context line, 90px h1, lede, button, then the entire four-stage study with its falsification row; a stranger gets "skill for agents" and the method in one screen. Inside the study the four tiers (0.9rem owner label, 600 h3, body, accent result) read cleanly and align across columns. Two misses. First, the fixed 2rem wordmark (site.css:68) nearly equals the page h1 on reading pages, where <code>clamp(2.1rem, 4.8vw, 3.5rem)</code> (site.css:139) resolves to 2.1rem at 390px and 2.3rem at 768px; after-examples-mobile.jpg and after-placements-tablet.jpg show "Augustus" and the title as peers. Second, placements.html stacks h1 "Decision-model placements" directly on h2 "Six useful starting points" (lines 63–67) with nothing between, so the title spends its size on a heading the next line repeats. On the home page, <code>.useful-no</code> carries the quietest h2 (1.4rem) yet the strongest rule below it, so it reads as a tail of the index rather than its own beat. None of this is broken.</p>
+      <p class="action"><b>Fix:</b> scale <code>.brand</code> down below 62rem, or raise the <code>.prose h1</code> floor, so the page title wins on every shared page.</p>
+    </article>
+
+    <article class="card" data-od-id="dimension-detail">
+      <header><h3>3 · Detail execution</h3><span class="score">6 / 10<small>Functional</small></span></header>
+      <p>Most surfaces are clean: study column tops align, the installation intro top aligns with "Claude Code", <code>.desktop-break</code> and <code>.evidence-note br</code> are hidden on narrow screens as the contract requires, and after-dark.jpg preserves every relationship. Two reproducible rags. (a) after-examples-mobile.jpg shows "Candidate/evi | dence gap" broken mid-word with no hyphen: <code>.prose { overflow-wrap: anywhere }</code> (site.css:137) meets <code>table-layout: fixed</code> and the 29% first column (site.css:147, 150) at 0.9rem, and the 18-character token cannot fit. (b) after-mobile-install.jpg shows both install commands cut at the pre border ("…24601/Augus", "…--skill aug") with no scrollbar or edge cue; at 350px content width the 43- and 46-character lines at 0.85rem mono plus 1rem padding overflow by roughly 30–60px. Smaller: "What would reject this / design?" orphans "design?" in the 13rem <code>.study-test</code> column at 1440; <code>h2#recipes-title</code> keeps a hard <code>br</code> at every width (index.md:25), which DESIGN.md §3 discourages, though it wraps safely at 390 and 320.</p>
+      <p class="action"><b>Fix:</b> both (a) and (b) are five-minute CSS changes; see the Fix list.</p>
+    </article>
+
+    <article class="card" data-od-id="dimension-functionality">
+      <header><h3>4 · Functionality</h3><span class="score">7 / 10<small>Strong</small></span></header>
+      <p>Zero JavaScript (the diff deletes assets/js/site.js), so no-JS and reduced motion are satisfied by construction. Skip link, <code>main[tabindex=-1]</code>, <code>aria-labelledby</code> on every section, <code>aria-current</code> on nav and footer, a 3px offset focus ring, <code>scroll-padding-top</code> for the install jump, and a print stylesheet with wrapped pre are all present. Every internal target resolves: <code>#install</code>, examples.html#refund-email-routing (examples.html:69), placements to /#install, footer to release-notes-v0.7.0.html. Commands are plain text with straight quotes; the home page's two code regions carry specific labels. The install button is above the fold at 1440 and at 390 (after-mobile.jpg, button at roughly 440px). Weaknesses: the mobile clipping in dimension 3 hides the tail of the one command that matters; the layout's blanket string replace (default.html:47) gives every pre on a reading page the identical name "Code example", so release-notes-v0.5.1.html (lines 137, 141) exposes two regions a screen reader cannot distinguish; and <code>.button:hover</code> only adds an underline, a faint state for the primary action. External GitHub targets were not fetched and are not certified here.</p>
+      <p class="action"><b>Quick win:</b> wrap pre below 44rem, mirroring the existing print rule at site.css:196.</p>
+    </article>
+
+    <article class="card" data-od-id="dimension-innovation">
+      <header><h3>5 · Innovation</h3><span class="score">6 / 10<small>Functional, appropriate</small></span></header>
+      <p>The one move that makes a reader lean in is the study itself: "A refund request is not refund authority" split into evidence, judgment, policy and code, with the model's cell tinted and a labelled "What would reject this design?" row. It is earned, because it is the product's method rendered as layout instead of a mock dashboard, and it directly answers the brief's demand for a product-specific worked example. Everything after it (intro-left index, intro-left install, intro-left reading) is competent publication boilerplate at the same two-column ratio, and the four study cells are uniform text blocks, so the eye reads a table rather than a sequence. A 6 is appropriate for a production documentation site under an explicit anti-gloss brief; this score is not a demerit, and raising it is optional taste, not a fix.</p>
+      <p class="action"><b>Optional taste:</b> let the verbatim customer line "I was charged twice." reappear as the artifact that travels through the four stages, so the sequence reads as one decision rather than four cells.</p>
+    </article>
+
+  </div>
+</section>
+
+<section data-od-id="findings" aria-labelledby="findings-title">
+  <h2 id="findings-title">Findings</h2>
+  <p class="note">Defects are reproducible in the supplied build. Taste items are preferences and are labelled as such; they carry no severity.</p>
+  <div class="findings" style="margin-top:1rem">
+
+    <article class="finding" data-od-id="finding-f1">
+      <div class="head"><span class="id">F1</span><span class="kind">Defect · detail and comprehension</span><span class="sev p1">P1</span><span>Mobile install commands clipped without a scroll cue</span></div>
+      <dl>
+        <dt>Evidence</dt><dd>site.css:117 <code>pre { overflow: auto; padding: 1rem; font-size: .85rem }</code>; index.html:170–175. after-mobile-install.jpg shows "claude plugin marketplace add 24601/Augus" and "npx skills add 24601/Augustus --skill aug" ending at the border with no scrollbar.</dd>
+        <dt>Reproduce</dt><dd>390×844, scroll to the install section.</dd>
+        <dt>Fix</dt><dd>Under 44rem set <code>pre { white-space: pre-wrap; overflow-wrap: anywhere }</code>, as the print rule already does. Visual wrapping does not alter clipboard text. DESIGN.md §4 permits scrolling regions, so this is a comprehension cost on the primary action, not a contract violation.</dd>
+      </dl>
+    </article>
+
+    <article class="finding" data-od-id="finding-f2">
+      <div class="head"><span class="id">F2</span><span class="kind">Defect · detail</span><span class="sev">P2</span><span>Mid-word break in the examples design-card table</span></div>
+      <dl>
+        <dt>Evidence</dt><dd>site.css:137 <code>overflow-wrap: anywhere</code>, 147 <code>table-layout: fixed</code>, 150 <code>th:first-child { width: 29% }</code>; examples.html:89. after-examples-mobile.jpg renders "Candidate/evi" over "dence gap".</dd>
+        <dt>Reproduce</dt><dd>390 wide, examples.html, first table, second row. This is the page the hero's "Read the full design card" link lands on.</dd>
+        <dt>Fix</dt><dd>Insert a <code>wbr</code> after the slash in the source cell, or reword to "Evidence gap", or set <code>.prose td, .prose th { overflow-wrap: normal; hyphens: auto }</code>. Widening the column alone does not fit the token.</dd>
+      </dl>
+    </article>
+
+    <article class="finding" data-od-id="finding-f3">
+      <div class="head"><span class="id">F3</span><span class="kind">Consistency · brand surface</span><span class="sev">P2</span><span>Share card and favicon still carry the retired identity</span></div>
+      <dl>
+        <dt>Evidence</dt><dd>assets/social-card.svg: navy #111827 canvas, Arial 700, all-caps kicker "DECISION-MODEL DESIGN FOR AI AGENTS", arrow chain, three-bar mark in #93c5fd, thesis "Place judgment. Keep policy in control." favicon.svg: same navy and blue bars. Both referenced by every page (og:image, twitter:image, rel=icon). The diff touches neither file.</dd>
+        <dt>Reproduce</dt><dd>Paste any page URL into a chat or GitHub comment, or look at the browser tab.</dd>
+        <dt>Fix</dt><dd>Regenerate both in pale mineral, charcoal and forest with IBM Plex Serif and the current thesis; keep the 1200×630 PNG. Off-site first impression currently is the look the brief rejected.</dd>
+      </dl>
+    </article>
+
+    <article class="finding" data-od-id="finding-f4">
+      <div class="head"><span class="id">F4</span><span class="kind">Hierarchy</span><span class="sev">P2</span><span>Wordmark competes with the page title on reading pages</span></div>
+      <dl>
+        <dt>Evidence</dt><dd>site.css:68 <code>.brand { font: 500 2rem }</code> with no narrow-screen reduction; site.css:139 <code>.prose h1</code> resolves to 2.1rem at 390px and 2.3rem at 768px. after-examples-mobile.jpg and after-placements-tablet.jpg.</dd>
+        <dt>Fix</dt><dd><code>.brand { font-size: clamp(1.5rem, 1.1rem + 1.3vw, 2rem) }</code>, or raise the h1 floor to 2.5rem.</dd>
+      </dl>
+    </article>
+
+    <article class="finding" data-od-id="finding-f5">
+      <div class="head"><span class="id">F5</span><span class="kind">Accessibility nit</span><span class="sev">P3</span><span>Identical region names on historical release notes</span></div>
+      <dl>
+        <dt>Evidence</dt><dd>default.html:47 replaces every <code>&lt;pre</code> with <code>role="region" aria-label="Code example"</code>. release-notes-v0.5.1.html:137 and 141 (also v0.5.0, v0.4.0) each expose two regions with the same name. Inert on index.html, which labels its own regions.</dd>
+        <dt>Fix</dt><dd>Drop <code>role="region"</code> from the replace and keep <code>tabindex="0"</code>, or label the two blocks in those three markdown files.</dd>
+      </dl>
+    </article>
+
+    <article class="finding" data-od-id="finding-f6">
+      <div class="head"><span class="id">F6</span><span class="kind">Contract drift · documentation</span><span class="sev">P3</span><span>Tokens in CSS that DESIGN.md does not enumerate</span></div>
+      <dl>
+        <dt>Evidence</dt><dd>site.css:11, 25, 27 define <code>--rule</code> #bec6ba / #566653 and dark <code>--judgment</code> #2d3c30; DESIGN.md §2 lists neither. No visual problem; the contract is incomplete.</dd>
+      </dl>
+    </article>
+
+    <article class="finding" data-od-id="finding-f7">
+      <div class="head"><span class="id">F7</span><span class="kind">Housekeeping</span><span class="sev">P3</span><span>Dead classes in the placements include</span></div>
+      <dl>
+        <dt>Evidence</dt><dd>_includes/recipes.html keeps <code>section</code>, <code>section-head</code>, <code>recipe-grid</code>, <code>panel</code>, <code>recipe-measure</code>; the diff deletes their rules (site.css hunks at old lines 520, 676, 1007, 1052, 1299). Harmless today, misleading tomorrow.</dd>
+      </dl>
+    </article>
+
+    <article class="finding" data-od-id="finding-f8">
+      <div class="head"><span class="id">F8</span><span class="kind">Taste · contract-adjacent</span><span class="sev">none</span><span>Index and installation share one grid</span></div>
+      <dl>
+        <dt>Evidence</dt><dd>site.css:178–179 give <code>.working-index</code> and <code>.installation</code> the same <code>minmax(0,1fr) minmax(0,1.35fr)</code>; DESIGN.md §5 asks for different rhythms and "not repeated grids". Content treatment differs (ruled dl versus boxed code), so this is arguable, not a violation.</dd>
+      </dl>
+    </article>
+
+    <article class="finding" data-od-id="finding-f9">
+      <div class="head"><span class="id">F9</span><span class="kind">Taste</span><span class="sev">none</span><span>Two small wraps</span></div>
+      <dl>
+        <dt>Evidence</dt><dd>"What would reject this / design?" orphans one word in the 13rem <code>.study-test</code> column at 1440 (site.css:161). <code>h2#recipes-title</code> hard <code>br</code> (index.md:25) is forced at every width; it wraps safely but strict §3 compliance would hide it under 44rem like <code>.evidence-note br</code>.</dd>
+      </dl>
+    </article>
+
+    <article class="finding" data-od-id="finding-f10">
+      <div class="head"><span class="id">F10</span><span class="kind">Taste</span><span class="sev">none</span><span>Primary button hover is faint</span></div>
+      <dl>
+        <dt>Evidence</dt><dd>site.css:82 <code>.button:hover { text-decoration: underline }</code> only. A background lightness shift of about 0.08 in oklch would give the one primary action a visible state without touching contrast. DESIGN.md is silent, so this is preference.</dd>
+      </dl>
+    </article>
+
+  </div>
+</section>
+
+<section data-od-id="actions" aria-labelledby="actions-title">
+  <h2 id="actions-title">Keep · Fix · Quick wins</h2>
+  <div class="lists">
+    <div data-od-id="keep-list">
+      <h3>Keep</h3>
+      <ul>
+        <li><label><input type="checkbox"> The decision study as the identity: ink border-block, sage only on <code>.judgment-stage</code>, accent only on its owner label and result.</label></li>
+        <li><label><input type="checkbox"> Kicker register across all five pages: sentence case, secondary ink, no mono, no all-caps.</label></li>
+        <li><label><input type="checkbox"> First-viewport composition at 1440×1000 and 390×844: thesis, lede and install action visible, study starting inside the fold.</label></li>
+        <li><label><input type="checkbox"> Zero-JS delivery, semantic sections, offset focus ring, scroll-padding-top, print stylesheet.</label></li>
+        <li><label><input type="checkbox"> Honest copy: "Illustrative design. Not measured performance." beside the example; no metrics, logos or testimonials.</label></li>
+      </ul>
+    </div>
+    <div data-od-id="fix-list">
+      <h3>Fix (visual cost saved per minute)</h3>
+      <ul>
+        <li><label><input type="checkbox"> F1: wrap <code>pre</code> below 44rem so both install commands are fully legible on a phone.</label></li>
+        <li><label><input type="checkbox"> F2: stop the mid-word break in the examples table (<code>wbr</code>, reword, or hyphens).</label></li>
+        <li><label><input type="checkbox"> F3: regenerate social card and favicon in the approved identity and thesis.</label></li>
+        <li><label><input type="checkbox"> F4: scale the wordmark below 62rem so page titles win on shared pages.</label></li>
+        <li><label><input type="checkbox"> F5: de-duplicate "Code example" region names on the three older release notes.</label></li>
+      </ul>
+    </div>
+    <div data-od-id="quick-wins-list">
+      <h3>Quick wins (5–15 min)</h3>
+      <ul>
+        <li><label><input type="checkbox"> Add <code>--rule</code> and dark <code>--judgment</code> to DESIGN.md §2 so the token set is complete.</label></li>
+        <li><label><input type="checkbox"> Delete the dead classes from <code>_includes/recipes.html</code>.</label></li>
+        <li><label><input type="checkbox"> Widen the <code>.study-test</code> first column to 15rem to remove the "design?" orphan.</label></li>
+        <li><label><input type="checkbox"> Hide the <code>#recipes-title br</code> below 44rem for strict §3 compliance.</label></li>
+        <li><label><input type="checkbox"> Give <code>.button:hover</code> a background shift; keep white on forest.</label></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section data-od-id="images-examined" aria-labelledby="images-title">
+  <h2 id="images-title">Images visually examined</h2>
+  <p class="note">All ten supplied screenshots opened and inspected as images. No other browser or renderer was launched.</p>
+  <ul class="images" style="margin-top:1rem">
+    <li><b>after-desktop.jpg</b> (1440×1000): masthead, thesis, lede, button, full four-stage study and the falsification row inside one viewport.</li>
+    <li><b>after-mobile.jpg</b> (390×844): brand, wrapped nav, h1 on two natural lines, lede, install button at about 440px, study heading below.</li>
+    <li><b>after-dark.jpg</b>: same composition; light-sage accent button with dark label, tinted judgment cell, contrast preserved.</li>
+    <li><b>after-mobile-install.jpg</b>: install section; both commands cut at the pre border with no cue (F1).</li>
+    <li><b>after-examples-mobile.jpg</b>: examples page; wordmark and h1 near-equal (F4); "Candidate/evi | dence gap" (F2).</li>
+    <li><b>after-placements-tablet.jpg</b> (768): h1 over h2 stack, clean 7rem definition grid per placement, wordmark close to h1 size.</li>
+    <li><b>after-desktop-full.jpg</b>: whole page at 1440; index and install share the two-column template; useful-no aside reads as a tail of the index.</li>
+    <li><b>after-mobile-full.jpg</b>: whole page at 390; single column, order preserved, no horizontal overflow visible, judgment stage inset with sage.</li>
+    <li><b>before-desktop.jpg</b> and <b>before-mobile.jpg</b>: prior design with gradient wash, skeleton-bar mock, three hero buttons, all-caps mono kickers; used only for comparison.</li>
+  </ul>
+</section>
+
+<section data-od-id="method" aria-labelledby="method-title">
+  <h2 id="method-title">Scope and method</h2>
+  <p class="note">Read in full: DESIGN.md, rendered index.html and site.css, source index.md, comparison.html and default.html, rendered placements, examples, ecosystem and release-notes-v0.7.0, social-card.svg and favicon.svg. Searched candidate.diff for the recipes include, asset changes and deleted CSS rules. Contrast was estimated from the token values: secondary ink on canvas about 6:1, forest on canvas about 6.9:1, forest on sage about 6.2:1, dark accent on dark canvas above 10:1. The parent's test suite, production build and rendered-site checker are taken as reported and not re-run; they were not treated as evidence of taste.</p>
+</section>
+
+<footer>Critique produced by the OpenDesign Critique skill on 2026-09-22. Scores are the worst sustained band per dimension, not averages. Zero files were created or modified in the project.</footer>
+
+</main>
+</body>
+</html>
