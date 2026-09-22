@@ -288,9 +288,26 @@ def self_test() -> None:
     semif_readme = by_id["github:TheoLeeCJ/SemIf"].get("readme_sha")
     assert isinstance(semif_readme, str) and semif_readme.startswith("74ab7f7f")
     kev = by_id["github:jaredpalmer/kev"]["fingerprints"]
-    assert kev["default_sha"].startswith("4f8110a3f862")
+    assert kev["default_sha"].startswith("90990a5fac29")
+    assert kev["description_hash"] == "47fc60928c90"
+    assert kev["release_tag"] == "kev-family"
+    assert kev["pushed_at"] == "2026-09-22T00:44:00Z"
+    assert by_id["github:jaredpalmer/kev"]["notes_section"] == "45"
     kev_readme = by_id["github:jaredpalmer/kev"].get("readme_sha")
     assert isinstance(kev_readme, str) and kev_readme.startswith("d497d4b89427")
+    tidy = by_id["github:AkhilBod/Tidy"]
+    assert tidy["notes_section"] == "157"
+    assert tidy["fingerprints"]["default_sha"] is None
+    assert tidy["fingerprints"]["description_hash"] == "43bc19349316"
+    assert tidy["fingerprints"]["pushed_at"] == "2026-09-22T00:31:44Z"
+    for course in (
+        "github:nadeemcite/jev-crash-course",
+        "github:nadyth/jev-crash-course",
+    ):
+        card = by_id[course]
+        assert card["notes_section"] == "150", course
+        assert card["fingerprints"]["default_sha"] is None
+        assert card["fingerprints"]["description_hash"] == "fc0f510875fa"
     kotoba = by_id["github:kotoba-lang/typed-decisions"]["fingerprints"]
     assert kotoba["default_sha"].startswith("ff7f84e74d04")
     cartpole = by_id["github:tinmanlab/cartpole-jev"]["fingerprints"]

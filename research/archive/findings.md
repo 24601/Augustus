@@ -1,5 +1,51 @@
 # Deep-read findings (evidence for research/notes.md)
 
+## Batch #138 (2026-09-22 ~18:51 Boise / ~00:51 UTC) - hourly 1851 HIGH
+
+Note: `research/notes.md` §158. Composition 901-916.
+hourly 1751 §157 is on main. This fold is §158 only.
+Do not reclaim §147 through §157.
+Hourly 1751 stays §157 / composition 885-900 / batch #137.
+This fold stays §158 / items 901-916 / batch #138.
+**HARD RULE:** do not reopen or amend PR #23 through #83.
+The consecutive lock string lives in notes.md and uniqueness_gate.py only.
+README still ends at License. Does not bump 0.5.0 or 0.5.1.
+`invented_signal: false`. Parent merges only after ADV_PASS.
+X is disabled (`user_disabled_x_for_cost`). No new X quotes.
+
+- **IAMIbrahimmemon/von-mlx.** MLX port of wfzyx/von. One forward pass.
+  Do not restate the §49 n=78 table. A serving substrate is not a
+  calibrated replica.
+- **fooSynaptic/jev-any-llm.** Option logprobs or an early-exit head.
+  15 to 88 times on AG News is *theirs*. Logprobs are not a calibrated
+  Noul.
+- **maskedband1t/RLCD.** More than a hundred pre-registered experiments
+  is *theirs*. Robot success is not a calibrated Noul. Not a recipe
+  to copy.
+- **hf:InfinimindCreations/laya-rlcd-training.** 0.5 is not a decision
+  boundary. AUC 1.000 and 15 of 20. Collapse at 1.0000 does not recover
+  by rebalancing. Not convaiinnovations/laya.
+- **hf:Praveenrajus/jevify-qwen3.5-4b-t2.** One seed. Held-out sources
+  0.769/0.107 versus Jev 0.835/0.090 is *theirs*. About 0.05 across
+  seeds is their noise band. Port 8000 is wire-compat, not logit-equiv.
+  Qwen3.5 is not Archer.
+- **hf:SwagMessiah100/laya.** Republished card, not a new measurement.
+  Khmer 0.000 at 0.952 is *theirs*. Do not average with prior Laya cards.
+- **neilbauman21-hub/verdict.** One forward pass, no new weights. A
+  readout is not NakliTechie/verdict.
+- **TMHSDigital/plumbline.** Not a leaderboard. Measure on your labels.
+- **haginot/decision-without-generation.** Five LLM judges, same items.
+  Do not import a winner.
+- **jaredpalmer/kev densify §45.** HEAD
+  90990a5fac2995b9faa3190f7d437e84f2067768. Probes moved into
+  modal_app.py. No new benchmark result. A SHA move is not a replica.
+- **AkhilBod/Tidy densify §157.** Empty tree. Description rewrite is
+  not a behavior change.
+- **nadeemcite/jev-crash-course and nadyth/jev-crash-course densify §150.**
+  11-level plus LiteLLM is pedagogy, not a bench.
+- One tracker like is star-noise. Archer remains promised_not_landed.
+  Soft judgment never sole veto. Skip Archer.
+
 ## Batch #137 (2026-09-21 ~17:51 Boise / ~23:51 UTC) - hourly 1751 HIGH
 
 Note: `research/notes.md` §157. Composition 885-900.

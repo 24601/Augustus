@@ -4903,6 +4903,106 @@ Soft Noul ≠ hard safety.
      notes.md §157. composition 885-900. findings batch #137.
      Full cards: `faq.md`.
 
+901. **hosted MLX von port is not the PyTorch von**:
+     IAMIbrahimmemon/von-mlx is an MLX port of wfzyx/von
+     (ModernBERT-Large 395M, 28 layers, one forward pass).
+     Do not restate the §49 n=78 table as this port's score.
+     A serving substrate is not a calibrated replica.
+     TypeSafe Jev stays the default path.
+     Full cards: `research/notes.md` §158.
+902. **logprobs and early exit are not a trained head**:
+     fooSynaptic/jev-any-llm reads option logprobs or an early-exit
+     mean-pool head. About 15 to 88 times on AG News is *theirs*.
+     Logprobs are not a calibrated Noul. An early-exit head is not
+     a trained RLCD replica.
+     Full cards: `research/notes.md` §158.
+903. **one seed is not a species win**:
+     hf:Praveenrajus/jevify-qwen3.5-4b-t2 held-out sources
+     0.769/0.107 versus Jev 0.835/0.090 is *theirs*. Seen-in-training
+     points the other way. Their seed band is about 0.05.
+     Port 8000 is wire-compat, not logit-equiv. Qwen3.5 is not Archer.
+     Full cards: `research/notes.md` §158.
+904. **0.5 is not a decision boundary**:
+     hf:InfinimindCreations/laya-rlcd-training reports AUC 1.000 and
+     15 of 20 at the 0.5 cut. Collapse at probability 1.0000 does not
+     recover by rebalancing. Urgency 0.733 to 0.648 is *theirs*.
+     This loop is not convaiinnovations/laya.
+     Full cards: `research/notes.md` §158.
+905. **a republished card is not a new measurement**:
+     hf:SwagMessiah100/laya is not convaiinnovations/laya.
+     Khmer 0.000 at 0.952 confidence is *theirs*. Do not average it
+     with §151 or with §157 agk4444 0.789.
+     Full cards: `research/notes.md` §158.
+906. **abstention over a causal LM is not new weights**:
+     neilbauman21-hub/verdict is one forward pass and no new weights.
+     That is a readout, not a trained head. It is not
+     NakliTechie/verdict and not Heman10x-NGU/openJev-verdict-2.0.
+     Qwen3.5 is not Archer.
+     Full cards: `research/notes.md` §158.
+907. **measure on your labels**:
+     TMHSDigital/plumbline is not a leaderboard.
+     haginot/decision-without-generation compares TypeSafe Jev with
+     five LLM judges. The excerpt has no score table. Do not import
+     a winner. maskedband1t/RLCD robot results stay *theirs*.
+     Full cards: `research/notes.md` §158.
+908. **kev probes moved files**:
+     jaredpalmer/kev densifies §45. HEAD
+     90990a5fac2995b9faa3190f7d437e84f2067768.
+     modal_probe35.py folded into modal_app.py. No new benchmark
+     result. A SHA move is not a replica. Qwen3.5 is not Archer.
+     Full cards: `research/notes.md` §158.
+909. **description rewrite is not a product**:
+     AkhilBod/Tidy densifies §157. Empty tree. description_hash
+     43bc19349316 was 10755cc3be89. "Never deletes" is their sentence.
+     nadeemcite/jev-crash-course and nadyth/jev-crash-course densify
+     §150. 11-level plus LiteLLM is pedagogy, not a bench.
+     Full cards: `research/notes.md` §158.
+910. **writer, judge, and code**:
+     AdoCbl/JEV-RESUME-POLISHER: the writer drafts, Jev judges, code
+     decides. 151 tests is their badge. JohnCari/rossrecall cannot
+     sign while a sentence is open. AditiSonawane96/jev-model-test
+     does not invent a match score.
+     Full cards: `research/notes.md` §158.
+911. **code offers, Jev picks**:
+     smaldd14/qavo: code owns the loop and offers options. Jev only
+     picks. dpshde/bible-jev-climb scores Choice and Noul over a graph.
+     jackson-heylion/jev-gomoku keeps hard tactics in code.
+     Full cards: `research/notes.md` §158.
+912. **routing is not permission**:
+     gholtzap/jev-codex-model-and-effort-router and
+     romanmeclazcke/codex-sift pick a lane. cyberspace-cs/jev-agent-routing
+     10x claims are *theirs*. baize7815/jev-mcp-open-source returns
+     structured answers. A route is not a grant.
+     Full cards: `research/notes.md` §158.
+913. **sensors and paper trades**:
+     AidinZaeim/jev-fuzz is a sensor beside schemas. Soft judgment
+     never sole veto. frankda/jev-poly-crypto-demo rejects live mode
+     at startup. klren0312/jev-trade is paper only.
+     galgoczy/JEVsniper is a scaffold, not a procedure.
+     Full cards: `research/notes.md` §158.
+914. **fills, never sends**:
+     lbbbboom/jev-chat fills the box and never sends.
+     gdamiani1/jev-feed-triage never writes or posts.
+     dagote/JevBlock is a page-judge sensor.
+     Zyw052/astrbot_plugin_jev_radar reminds. It does not reply.
+     santmun/radar ranks. Ranking is not calibration.
+     Full cards: `research/notes.md` §158.
+915. **thin trees and one tracker like**:
+     yoichiojima-2/deslop is 88 bytes and imports no method.
+     tomtyiu/Jev-decision-plugin is a plugin, not a model.
+     awesomejev stays 726 links. Tracker sha
+     8c3efe4cbe4deb09e09f58713e16b7be3177771e unchanged.
+     One tracker like is star-noise. Do not invent which model.
+     Full cards: `research/notes.md` §158.
+916. **skip Archer** (promised_not_landed):
+     Archer still promised_not_landed. Qwen/Qwen3.8-27B is not Archer.
+     Parent merges only after ADV_PASS.
+     hourly 1751 §157 are on main. This fold is §158 only.
+     Do not reclaim §147 through §157. Do not reopen or amend PR #23 through #83.
+     Does not bump 0.5.0 or 0.5.1.
+     notes.md §158. composition 901-916. findings batch #138.
+     Full cards: `faq.md`.
+
 
 
 
