@@ -42981,3 +42981,656 @@ only after ADV_PASS. user-provided jimothy §159 are on main. This fold
 is §160 only. Do not reopen or amend PR #23 through #85. notes.md §160.
 
 Hourly 1949 uniqueness lock: TypeSafe Jev default path; jev-chat/jev-chat-jarvis README SHA c71daccc1ae9; HEAD c6ae7d377e7b; live REST 1220★; watch 1192 is not the fold reason; 发不发由你; 不 hook 不改包; screen is a sensor; fills never send; jev-chat/jev-chat-jarvis ≠ jev-chat/jev-chat-windows ≠ Finderchangchang/jev-chat-JARVIS ≠ rezoch340/jev-chat-JARVIS-windows ≠ lbbbboom/jev-chat; jev-chat/jev-chat-windows README SHA e7c392ce87d7; release v0.1.6; 发送永远手动; local OCR; yangyu666/dsh-jev-prune README SHA fbcaa3199091; compaction algorithms are untouched; keepThreshold 0.5 is a config default; relative quantiles; 0.5 is not a decision boundary; needed results are never trimmed however large; alitrack/jev-clone README SHA 91dd62e19d9c; independent not affiliated; readout is model-dependent; Qwen3.5-4B readout 24/37 and 0/8 *theirs*; Qwen3.6-35B-A3B readout 40/40 and 0/8 *theirs*; uncalibrated ECE 0.04395 *theirs*; an option score not a calibrated decision; wire-compat ≠ logit-equiv; Qwen3.5 ≠ Archer; Qwen3.6 ≠ Archer; wotai-dev/typesafe-jev-tools never blocks; 16 models 150 passages *theirs*; Jev 66.0% ECE 0.121 unsure 34.7% p50 455ms *theirs*; Haiku 66.0% ECE 0.122 unsure 2.7% *theirs*; 149 rows Jev 79.9% Haiku 83.2% *theirs*; commit type 100 Jev 50.0% Haiku 42.0% *theirs*; pricing and limits 404; 40 to 1,000x cheaper is not checkable; accuracy splits; YashDThapliyal/laya-whitebox-attack p = 0.865 still soft; SHADE-Arena AUROC 0.58 *theirs*; flags 92% of benign traces *theirs*; narration swaps flip verdicts; Laya ≠ TypeSafe; do not copy an attack procedure; bvolpato/kevala release v0.1.0; WASM WebGPU; serving substrate ≠ calibrated replica; Kev ≠ TypeSafe; hf:ohtaman/jev-gemma-4-E2B-it-choice-64 no weights were fine-tuned; 64 fixed answer tokens; Gemma 4 ≠ Archer; first-token logits ≠ calibrated Noul; ohtaman/jev-browser-classifier; lmbgithub/simple-system-one-model schema-valid ≠ correct; one encoder forward; zlh1992/jev_local_qwen one forward; not official Jev; no private RLCD; Qwen3-0.6B ≠ Archer; rakshita-devurkar/syncroute 88.3% (53/60) *theirs*; rules-only 26.7% (16/60) *theirs*; human_reviewed false; a route is not authorization; jasonjeske/hermes-jev-context-engine benefit is a hypothesis; sperictao/dsh-auto-review-jev first card revisit tag no prior notes card; release v0.2.5; fail closed; allow once is one call; not free-text risk JSON; permission ≠ confidence; AdoCbl/JEV-RESUME-POLISHER densify §158; description_hash bd303d8af76c; README SHA 8c7b0fca9306; 151 passing tests is their badge; writer drafts Jev judges code decides; tomtyiu/Jev-decision-plugin densify §158; a plugin is not a model; README SHA c14eb0c3724d; hf:aimeigaoshou/agent-jev densify §146; sha aa00e4e56b0b was 024a68eade83; 79.25% stays the prior number; do not re-fold as a new Harbor; Qwen3-0.6B ≠ Archer; hf:TypeSafeAI/Step-5-Preview-GGUF conversational GGUF; README HTTP 404; a conversational GGUF is not a decision head; hf:henrybit/jev-vs-deepseek HTTP 401; pgarvie/jev-trade a live key sends real orders; dry run when no private key; this card is not a trading procedure; pgarvie/jev-trade ≠ klren0312/jev-trade ≠ jarrodwatts/jev-trader; danbao/jev-playwright ≠ browser-use/jev-ultrafast; 7.1 seconds is not this repo's measurement; clydechen0228/laya ≠ NandhaKishorM/laya; kellenGary/jev-lint ≠ mizchi/jev-lint; jfrader/jev-mcp ≠ markylaredo/openjev-mcp; tnspacetime/system-one-plus the menu is not the world; absent candidates cannot be chosen; TimMikeladze/JevLang policy in code; ChubbyOtter/jevDemo none_of_these; FahadArfin/Jev_Unreal code validates; Kevin-HKUST/Time-Aware-Rare-Bird-Monitoring ecological validation pending; no labels for accuracy; ARCJ137442/jev-life no heuristic fallback; game success ≠ calibrated Noul; DeadPackets/SwipeRepublic Luna writes Jev judges; raboija/PacmanLocalJev planner can override; Laya votes; NatBrian/pokemon-showdown-jev-agent legal order; P3lerA/jev-computer-use Claude plans Jev executes short DOM tasks; GeekLinkDev/jev-subtitle-translator LLM writes Jev flags review; sheshisheri-hi/jev-vs-llm-stock-policy hard deny wins; in-schema is not truth; kitapplegate/commander-oracle probabilities not promises; kzkhykw/jev-auto-ime abstain keeps the current mode; LufeMC/seen own key local fallback; jumboly/cogp-jev-lens a lens is not a filter; AI-PM-Wiki/aipm-annotation-server judge is a sensor; onepayzk-glitch/dsh-typesafe-ask typed questions in; herakles-dev/typesafe-claude-kit is not the TypeSafe SDK; VirtualMachinist/bezel slug bezel README title omapi-overlay; HowBoring/haidass-kev-train README absent; Chunshan-Theta/laya-service 14 bytes; maroofiums/LayaFlow 10 bytes; sheepice/Jev-WBC 9 bytes; aneesh-aparajit/jev 21 bytes; hf:ngila-ai/openjev 28-byte license; hf:ngila-ai/openjev ≠ Zefan-Cai/Open-Jev; cerredz/Vidbyte-Jev-Skills README HTTP 404; dxx1958693250-ops/jev-experiment README HTTP 404; jev-chat/.github README HTTP 404; jev-chat/jev-chat.github.io README HTTP 404; jiangxiluning/Visual-Jev README HTTP 404; kieranklaassen/compound-cli README HTTP 404; marceloatoledo/jevMcp README HTTP 404; sujalgawas/Neurox README HTTP 404; do not invent a trading procedure; murphykfk/ra2-grouping8-agent key stays on localhost; Pavan14K/jev-agent-router tree only; aviletek/jev-flow-harness threshold still soft; scd13150/st-extension generation and judgment stay split; sk8metalme/jev-practice example percents are illustrative; tayaee/typesafe-ai-jev-demo game loop; renanlalier/jev-benchmark no score table in the excerpt; TimMikeladze/jevcloud-next host is not a head; Soft judgment never sole veto; ranking ≠ calibration; accuracy ≠ calibration; catalog ≠ endorsement; SHA move is not a replica; *theirs* not Harbor; Skip Archer; invented_signal: false; Parent merges only after ADV_PASS; user-provided jimothy §159 are on main; this fold is §160 only; composition 933-948; findings batch #140; do not reopen or amend PR #23 through #85; does not bump 0.5.0 or 0.5.1; notes.md §160
+
+## 161. Hourly 2044 HIGH (2026-09-22 ~20:44 Boise / 2026-09-22T02:44Z)
+
+Novel HIGH and revisit HIGH off current `main` (`e3390b20`, hourly 1949
+`notes.md` §160 / merged #86). glance stays `notes.md` §147.
+Hourly 1203 stays `notes.md` §148. Merged #76 owns peterpme/lev
+`notes.md` §149. Merged #75 owns hourly 1256 `notes.md` §150.
+Merged #77 owns hourly 1352 `notes.md` §151. Merged #78 owns
+ryana/jevify `notes.md` §152. Merged #79 owns hourly 1454
+`notes.md` §153. Merged #80 owns hourly 1556 `notes.md` §154.
+Merged #81 owns rawwerks/one-system `notes.md` §155. Merged #82 owns
+hourly 1653 `notes.md` §156. Merged #83 owns hourly 1751
+`notes.md` §157. Merged #84 owns hourly 1851 `notes.md` §158.
+Merged #85 owns user-provided jimothy `notes.md` §159.
+Merged #86 owns hourly 1949 `notes.md` §160.
+hourly 1949 §160 are on main. This fold is §161 only.
+Do not reclaim §147 through §160. **HARD RULE:** do not reopen or
+amend PR #23 through #86. This fold's IDs: `notes.md` §161 /
+composition 949-964 / findings batch #141. `invented_signal: false`.
+Third-party benches stay *theirs*, not Harbor. Soft judgment never
+sole veto. Does not bump 0.5.0 or 0.5.1. Skip Archer as a landed
+product. No Augustus call site. No wrappers and no install recipe.
+X is disabled for this watch (`user_disabled_x_for_cost`). No new X
+quotes. Existing citations stay untouched. Live GitHub and Hub reads
+on 2026-09-22 supply the SHAs below. Watch star counts are not the
+fold reason. Curated catalogs were rechecked this hour. Archer remains
+promised, not landed.
+
+Lane is the decision-model class (classifiers, encoders and decoders,
+specialized autoregressive and constrained heads, vision and listwise
+scorers, and what TypeSafe calls System One). TypeSafe Jev (Choice,
+Score, Noul) is the dominant exemplar and the default recommended path,
+not the whole mandate. Laya, kev, local runtimes, Unity transports,
+embedding readouts, and Gemma or Nemotron generation APIs are class
+members. They are not equal in adoption, and they are not TypeSafe.
+
+### How-to-apply (class lenses)
+
+1. **TypeSafe Jev stays the default path.** A chat client, a phone
+   copilot, a Unity transport, or a local runtime does not become the
+   recommended call because it uses the same verbs.
+2. **The chat model writes. Jev judges a narrow question.**
+   MiaoWuNYA/rikkahub-sillytavern-android can ask whether a memory is
+   relevant, or hand the main model a judge tool. Relevant probability
+   over half is an application cut. Identity memories (name,
+   preferences) stay relevant by client policy even when the chat does
+   not mention them. If Jev is down, the app falls back silently.
+   0.5 is not a decision boundary.
+3. **The screen is a sensor.** 1104480426-hash/jev-qq-assist reads QQ
+   through accessibility and has no send path. Local bge-small-zh
+   similarity is not hosted Jev. Softmax over similarity is not a
+   calibrated Noul. jev-chat/jev-chat-jarvis fills a box and never
+   sends (§160). GxZzzzz/WeChat_Galgame uses an LLM to write judgment
+   cards and also does not send. Do not collapse the three.
+4. **Skill mode is not vision planning.** Iron-LYK/OmniJev's
+   privileged-state clips pick a preset skill. Code runs inverse
+   kinematics. Dual-camera vision is a separate mode. Softmax over
+   option letters is not calibrated confidence. Nemotron is not Archer.
+   Coming Soon is not a landed RLCD head. Simulation success is not a
+   calibrated Noul.
+5. **Temperature scaling is not a trained decision head.** bokuweb/omg
+   (README title grande) reports a Gemma 4 E2B JNLI ECE drop after one
+   temperature. That drop is *theirs*. 41% of p>=0.9 NLI answers were
+   wrong before scaling. Gemma 4 is not Archer. Trained Gemma 4 weights
+   are not landed. A serving substrate is not a calibrated replica.
+6. **Code owns the veto and the sensor clock.** Vankleben/jev-arm-lab
+   puts freshness in `age_s`. 20/20 and Brier 0.030 are *theirs*. A
+   wrong protocol scores the same model at 77%. Gates 0.30 and 0.45
+   are their operating point, still soft until you measure them.
+   Simulation is not a factory robot.
+7. **A paper loop is not an order.** Waxmell114514/jev-trade paper-trades
+   against observed prices. A live key on pgarvie/jev-trade can send
+   real orders (§160). This card is not a trading procedure.
+   antTing/jev-accounts-hub is a gateway, not a model. Do not copy the
+   proxy.
+8. **Same labels are not the same job.** dhruvmehra/jevbench n=500
+   separates a fine-tuned BERT from zero-shot Jev, Laya, and NLI.
+   hf:Cahol/laya-banking77-v1 at 85.55% is a human-label LoRA, not the
+   zero-shot 79.90 row. thisisandreeeee/jev-benchmarks SPACE-2 94.77 is
+   not the older BERT-Base 93.02. ECE on that suite is still on the
+   backlog. Accuracy is not calibration.
+9. **A missing router brain fails closed.** xinyao27/jevonian returns
+   an error when no brain is configured, and 502 when every brain is
+   down. Low confidence does not silently switch brains. Routing is
+   not permission. 0x440-1me/laya-unity can only choose actions the
+   game offered. Absent candidates cannot be chosen.
+10. **A description rewrite is not a new bench.** FluidInference/FluidUse
+    keeps the same HEAD. openlayer-ai/jevals quickstart numbers are one
+    trace. TMHSDigital/plumbline is still not a leaderboard.
+
+### MiaoWuNYA/rikkahub-sillytavern-android
+
+19★ AGPL-3.0 Kotlin. GitHub id 1377857628. HEAD `839eebce673b`. README
+blob `f7de16872c8c`, 38778 bytes. Release tag `v2.5.4fix13`. Pushed
+2026-09-22T02:53:03Z. Deep fork of rikkahub (their sentence: upstream
+v2.5.2 plus a long commit stack). Two Jev switches sit beside the chat
+model. Automatic memory filtering replaces embedding retrieval:
+candidates are judged in time-desc batches, and a relevant probability
+over half injects the memory. Identity memories count as relevant even
+when the chat does not mention them. The judge tool (界面「Jev 明断」)
+lets the main model ask a yes/no, a choice, or a score instead of
+guessing. Their hard requirement is silent fallback: no key, a network
+failure, or a short confidence returns to the existing memory and tool
+path, with no error popup and no blocked chat. That is fail-open to
+the host path. The chat model still writes. This is not a send gate.
+Not scd13150/st-extension and not jev-chat/jev-chat-jarvis. The over-half
+cut is application policy. 0.5 is not a decision boundary. Do not copy
+the app.
+
+### 1104480426-hash/jev-qq-assist
+
+1★ MIT Java. GitHub id 1380745650. Size 0 (assets live elsewhere). HEAD
+`cbb64c0b831d`. README blob `55f96440225a`, 14204 bytes. Release tag
+`v1.5.0`. Pushed 2026-09-22T02:51:53Z. On-device QQ co-pilot. Reads the
+chat through Android accessibility. Typed judgments only. It does not
+type. No send path in the code. Not a QQ bot, no OneBot, no login. Not
+official Jev, and it does not claim to reproduce Jev accuracy. The
+local kernel is bge-small-zh-v1.5 sentence similarity, unrelated to
+TypeSafe weights. Softmax over candidate similarity is their
+approximation of "read logits, do not generate." It is not a calibrated
+Noul. Xiaomi 14, *theirs*: local 49 to 64 ms, model load 432 ms once,
+APK 22.6 MB, no network. Remote official Jev about 870 ms and needs a
+key. Same dialogue: local waiting-for-reply 27% no versus jev-1.13.0
+92% yes. Their sentence: the quality gap is real. Local value is
+offline, zero cost, and data stays on the device, not higher accuracy.
+Default is remote. No key falls back to local. The key stays in
+SharedPreferences, not in source. Remote questions are in English
+(their docs say English trained best). Local questions are in Chinese.
+The screen is a sensor. 1104480426-hash/jev-qq-assist is not
+jev-chat/jev-chat-jarvis and not GxZzzzz/WeChat_Galgame. Do not copy
+an accessibility setup.
+
+### Iron-LYK/OmniJev
+
+3★ MIT Python. GitHub id 1379676902. HEAD `44a6af46f6b8`. README blob
+`b41caf70e3af`, 12503 bytes. Pushed 2026-09-22T02:17:54Z. No release.
+Multimodal robot research: a finite-choice SDK, an HTTP service, and a
+MuJoCo arm. The current version uses Nemotron 3 Nano Omni Q4_K_M and a
+compatible generation API. Vision-Jev with native RLCD is Coming Soon.
+Skill-mode clips are privileged simulator state: the model picks preset
+skills and a program runs the IK trajectory. That is not end-to-end
+visual planning. Dual-camera vision is a separate mode and must be
+reported separately. Stack and barrier clips, *theirs*: 13 model calls,
+39 output tokens, success. Probability bars are softmax over
+option-letter logprobs, not calibrated confidence. Local service
+`127.0.0.1:1234`, alias `omnijev-nemotron`. Nemotron is not Archer.
+Simulation success is not a calibrated Noul. Not sungatetop/Jev-robot.
+Do not copy the model download.
+
+### bokuweb/omg
+
+2★. GitHub license null. Rust. GitHub id 1376643309. HEAD
+`93757d4480e7`. README blob `3603f12be97d`, 33023 bytes. Release tag
+`ruri-v1`. Pushed 2026-09-22T02:40:38Z. The README title is grande, not
+omg. System One style runtime: state and typed questions in, one
+forward pass, no text generation. The contract follows TypeSafe Jev.
+The architecture follows an Archer Hume reconstruction and
+jaredpalmer/kev. Targets Japanese, Gemma 4, quantized local inference,
+and later the browser. The demo is WebGPU and nothing leaves the
+browser. Gemma 4 E2B and E4B zero-shot on their wgpu, *theirs*: 1.2 GB
+and 2.5 GB, five questions over a 90-token state, about 1.1 s and
+about 2.5 s on an M4. grande-core has temperature scaling and
+ECE, Brier, and NLL. Trained Gemma 4 base weights are unchecked (E2B
+base 10 GB bf16). JGLUE zero-shot, Gemma 4 E2B it Q4_0 label readout,
+temperature fit on the even half, report on the odd half, *theirs*:
+JNLI n=1217 accuracy 0.614, ECE 0.252 to 0.088, NLL 1.255 to 0.949,
+T=2.81, p>=0.9 error 0.41 to 0.00, 754 ms per record. JCommonsenseQA
+n=559 accuracy 0.853, ECE 0.044 to 0.046, T=1.19, p>=0.9 error 0.04 to
+0.02, 702 ms. Their sentence: the instruct model is overconfident on
+NLI (mean confidence 0.86 at 61% accuracy; 41% of p>=0.9 answers are
+wrong) and one temperature removes most of that error. Commonsense QA
+was already closer to calibrated. Temperature scaling is not RLCD.
+Gemma 4 is not Archer. A serving substrate is not a calibrated replica.
+Do not copy train commands.
+
+### Vankleben/jev-arm-lab
+
+1★ MIT Python. GitHub id 1379671408. HEAD `b4f4d1095120`. README blob
+`a48080d4c81e`, 19380 bytes. Pushed 2026-09-22T02:31:41Z. Simulated
+xArm7 MuJoCo pick-and-place. A typed-judgment model (TypeSafe Jev or a
+local rule stand-in) picks which skill to run. Workflow, geometry, and
+the safety veto stay in code. Their headline, *theirs*: 20/20 scenes
+completed, grasp-state judgments correct on all 79 samples (Brier
+0.030), 0 dangerous false positives. The wrong measurement protocol
+would score the same model at 77%. Fake mode 20/20, median placement
+2.3 mm, worst 3.1 mm. A 6-cycle live log: grasp_secure 5/6, Brier
+0.199; task_progress mean absolute error 0.57 levels. Default gates
+0.30 and 0.45 are calibrated from their measurements. Raising them to
+0.55 and 0.70 freezes the robot, their reproduction note. The freshness
+gate is code: every reading carries `age_s`. grasp_secure accuracy and
+Brier stay unchanged because the gate is a code addition. Thresholds
+must be calibrated by the reader. Simulation is not a deployed robot.
+Do not copy a local disk path as a skill recipe. *theirs*, not Harbor.
+
+### Waxmell114514/jev-trade
+
+1★. GitHub license null. Python. GitHub id 1375309412. HEAD
+`daec9777deb4`. README blob `38d11d5411c8`, 120573 bytes. Pushed
+2026-09-22T02:40:05Z. Simulated loop: BTC and ETH prices in, a typed
+confidence-aware decision out, a cost-aware execution simulator. Their
+sentence: paper trading against observed prices, not order placement.
+A demo of a decision loop, not a trading system. A live page can watch
+a BTC curve. Without a key the page runs the offline simulator and
+says so. Five hard gates live in code, including disorderly,
+cut_position, and low_confidence. This card is not a trading procedure
+and not financial advice. Waxmell114514/jev-trade is not
+pgarvie/jev-trade (a live key sends real orders, §160), not
+klren0312/jev-trade (paper, §158), and not jarrodwatts/jev-trader.
+Not Waxmell114514/awesome-jev-compaction. Do not copy an order path.
+
+### antTing/jev-accounts-hub
+
+1★ MIT Go. GitHub id 1379557041. HEAD `41b32ca8078e`. README blob
+`c65d88652971`, 6361 bytes. Pushed 2026-09-22T02:38:36Z. Multi-account
+manager and API gateway: user keys, RPM, token quota, and 429 account
+rotation. Upstream keys are encrypted at rest. An admin token is not a
+TypeSafe `jev_` key. A gateway is not a decision model. Quota rotation
+is not calibration. Do not copy the proxy. Not the TypeSafe SDK.
+
+### dhruvmehra/jevbench
+
+1★ MIT Python. GitHub id 1380753923. Size 0. HEAD `c983cc4a7dd9`.
+README blob `31d5585983f2`, 6340 bytes. Pushed 2026-09-22T02:12:24Z.
+Same-label comparison of TypeSafe jev-1.13 (OpenRouter Decisions API,
+not chat), convaiinnovations/laya, a fine-tuned distilbert,
+bart-large-mnli zero-shot, and LLMs. LLMs have blank ECE. n=500.
+Author says the 95% interval on accuracy is roughly plus or minus 2.5
+points. Fine-tuned BERT saw up to 10k train labels. Jev, Laya, LLMs,
+and NLI see only label descriptions. Those are not the same job.
+Results file `docs/results/2026-09-22-n500-summary.md` blob
+`103b0ae34f03`, 3306 bytes, hardware Darwin arm64, *theirs* not Harbor:
+
+- agnews, n=500, 4 labels: bert-ft accuracy 91.0 ECE 0.062; laya 90.6
+  ECE 0.056; claude-sonnet-5 89.6 ECE blank; jev with new descriptions
+  85.8 ECE 0.103; jev 84.3 ECE 0.112, error 0.4%, p50 381 ms,
+  $0.0184 per 1k; gpt-5-mini 80.2; bert-zs 76.4 ECE 0.236.
+- banking77, n=500, 77 labels: bert-ft 88.0 ECE 0.101; sonnet-5 77.4;
+  jev 76.4 macro-F1 75.3 ECE 0.125, p50 389 ms, $0.0831 per 1k;
+  gpt-5-mini 73.6; bert-zs 42.8 ECE 0.280; laya 38.2 ECE 0.511, p50
+  130 ms.
+- sst2, n=500, 2 labels: sonnet-5 95.6; jev 95.4 ECE 0.026, p50 376 ms,
+  $0.0148 per 1k; gpt-5-mini 95.0; laya 92.0 ECE 0.032; bert-ft 91.0
+  ECE 0.071; bert-zs 89.6 ECE 0.044.
+
+dhruvmehra/jevbench is not fstandhartinger/jevbench. Accuracy is not
+calibration. Do not import a winner.
+
+### hf:Cahol/laya-banking77-v1
+
+1 like. sha `09a7f1a08aae`. apache-2.0. base_model
+convaiinnovations/laya, finetune. dataset PolyAI/banking77. Last
+modified 2026-09-22T02:33:16.000Z. Their card: 85.55% accuracy on the
+3,080 official BANKING77 test rows, all 77 intents. Encoder LoRA plus
+a full fine-tuned decision head. One forward, no customer-service
+reply. Human BANKING77 labels. Their sentence: no Jev outputs were
+used in training. evaluation.json note: historical training-run
+results; packaging checks are separate; no Jev outputs used in
+training. Baseline raw accuracy 0.4591, ECE 0.1642, T=1. Baseline
+calibrated accuracy unchanged, ECE 0.1277, T=1.354. Tuned raw accuracy
+0.855519, ECE 0.0237, T=1. Tuned calibrated accuracy unchanged, ECE
+0.0144, T=1.134, NLL 0.4906. Temperature moves ECE, not accuracy. Do
+not paste this row over the thisisandreeeee zero-shot Jev 79.90, an
+AbdelStark Banking77 citation, or the dhruvmehra n=500 Jev 76.4.
+Different protocols. Laya is not TypeSafe. The loader is custom, not
+`AutoModelForSequenceClassification`. Do not copy `predict.py` as an
+install recipe.
+
+### xinyao27/jevonian
+
+1★ AGPL-3.0 TypeScript. GitHub id 1377331432. HEAD `b8614557297c`.
+README blob `7d36a72b136a`, 17930 bytes. Release tag `v0.0.1`. Pushed
+2026-09-22T02:49:05Z. Local router between a coding agent and
+providers. `jevonian/auto` uses one Jev call to pick a route and a
+thinking depth. Named routes plan, execute, utility, and chat skip
+Jev. No brain configured: auto returns an error rather than guessing.
+If every brain is unreachable: 502. `minConfidence` marks low
+confidence in the ledger and headers. Secondary brains are tried only
+when the primary channel fails, not when confidence is low. Routing is
+not permission. Channels named: TypeSafe, OpenRouter typesafe/jev-1.13,
+OpenCode Zen, Vercel AI Gateway. A channel is not a replica. Jevonian
+does not decompose tasks, manage worktrees, or accept code. Do not
+copy an npm install.
+
+### 0x440-1me/laya-unity
+
+0★ MIT C#. GitHub id 1380755067. Size 0. HEAD `49f0bda69372`. README
+blob `59d766c13518`, 4438 bytes. Pushed 2026-09-22T02:15:49Z. Community
+Unity SDK, early, not production-ready, not affiliated with Laya or
+TypeSafe. v0.1 is transport-first: no ONNX, tokenizer, Python, or
+weights embedded. Default local POST `/v1/systemone`. Unity supplies
+legal actions and executes them. If the game offers attack, retreat,
+and wait, the model cannot invent teleport. Absent candidates cannot
+be chosen. A transport client is not a calibrated replica.
+
+### Roylaffman/jevGIS
+
+1★. GitHub license null. Python. Size 0. HEAD `c173bb558765`. README
+HTTP 404. No release. Description only: testing Jev AI for GIS tasks.
+Do not invent a map score or a procedure.
+
+### Revisit densify (same hour)
+
+Description rewrites. Densify the prior section. Do not mint a sibling
+first sighting. Star movement is not the fold reason. SHA move is not
+a replica.
+
+- **openlayer-ai/jevals densify §126.** 48★ live REST. MIT Python.
+  HEAD `0457836c5696` was `a38a971095c4`. README blob `28170675c2cd`
+  was `af6f22446416` (now 26663 bytes). description_hash
+  `139fb51429c7` was `6d6d99246390`. Pushed 2026-09-22T02:12:15Z.
+  Watch prior_sha and new_sha were null. Live REST shows the SHA move.
+  New description: agent evals and guardrails as Jev decisions, one
+  request per trace, local with Kev or Laya. README: TypeSafe or
+  Vercel, local Kev or Laya on a Mac, or a chat LLM. The quickstart
+  example is one trace from `examples/quickstart.py`, *theirs*:
+  tool_choice p=0.99, grounded score 0.5, answer relevancy 0.84,
+  indirect injection p=0.03, 1 request, 1388 tokens, $0.00006, 0.33s.
+  One example trace is not a bench. The 92x to 913x LangChain variance
+  stays the prior citation in §126. Do not re-fold it. A classifier is
+  not an authorizer. Estimates are not Harbor. Local Kev or Laya is
+  not TypeSafe. openlayer-ai/jevals is not dayhaysoos/jevals.
+- **FluidInference/FluidUse densify §143.** Live REST 32★. Watch 31 is
+  star-noise. Apache-2.0 Swift. HEAD unchanged `e9e95935075b`. README
+  SHA unchanged `7d246df7270a`, 6392 bytes. Release still `v0.2.0`.
+  Pushed unchanged 2026-09-21T22:18:09Z. description_hash
+  `2e5b91ad5dfb` was `ddacb829949a`. The new description names on-device
+  typed decisions with laya and form filling with CUA-S1-FORMS. The
+  README body at this SHA already had both. A description rewrite is
+  not a new bench. Do not re-fold 3.6 ms, 0.9 ms, or the 7x sentence.
+  Cua-S1 is not TypeSafe. Laya is not TypeSafe.
+  FluidInference/FluidUse is not FluidInference/laya-coreml.
+- **danielyedaniel/jevme densify §156.** 1★. License now MIT (the §156
+  card recorded license null). Python. HEAD `c6c4c4415776` was
+  `110bf6ba7ad3`. README blob `65f5e9336b78` was `bae95f9f5cfc` (now
+  16529 bytes). description_hash `e622eca07a67` was `b60978d41618`.
+  Pushed 2026-09-22T02:12:59Z. Description matches the README tagline:
+  talk to your Mac and it does it, in any app, while you are still
+  talking. Routine decisions go to TypeSafe Jev, about 200 ms *theirs*.
+  Claude is used when reasoning is needed, then memoized. Commands
+  fire as each clause lands. Mixed architecture. This card is not an
+  install. SHA move is not a replica. Spoken confirm is not
+  authorization.
+- **TMHSDigital/plumbline densify §158.** 0★ Apache-2.0 Python. The
+  prior fingerprint stored default_sha null. This look measures HEAD
+  `da7b7364d91b`. Do not invent that the old README blob was a HEAD.
+  README blob `f10c5f08281a` was `6437af3f1cb1` (11638 bytes, now
+  17121). Release tag `v0.1.0`. description_hash `d5a5c2628b35`.
+  Pushed 2026-09-22T02:42:01Z. Still measures whether probabilities are
+  trustworthy on your own labeled data. Not a leaderboard. v0.1.0, one
+  maintainer. Measurement behavior is settled. The Python API and CLI
+  flags will change in v0.2. Pin a version. Three questions stay: is
+  the number honest, where to set the threshold, and what a cascade
+  saves. Do not import a winner.
+- **aiwithenoch/Jev-Skill densify §113.** 0★. SPDX NOASSERTION (the
+  §113 card recorded MIT-0). Python. HEAD `32a1d5fe5251` was
+  `f0cf6d6e`. README blob `fcbcb02899cf` was `2aae6d3c` (now 10110
+  bytes). Release tag `v1.0.0`. description_hash `b96de61ffc34`.
+  Pushed 2026-09-22T02:33:02Z. Open-source harness for TypeSafe,
+  OpenJev, LocalJev, Ollama, vLLM, LM Studio, and llama.cpp. Typed
+  decisions, calibration, verification, abstention, CI gates. A harness
+  is not a model. Local backends are not hosted Jev. Not
+  simplosophy/jev-skill and not laguagu/jev-skills. Do not copy an
+  install. An X link in their README stays unfetched.
+- **thisisandreeeee/jev-benchmarks densify §114.** 0★ MIT Python. HEAD
+  `eaed9dd0cfd6` was `e1186b74`. README blob `b0ef97e825bc` was
+  `0ab2c7d3` (now 10722 bytes). description_hash `5f911138daa9`.
+  Pushed 2026-09-22T02:32:35Z. New description: a benchmark suite to
+  compare Jev with supervised and zero-shot baselines. Same-split Jev
+  1.13.0 zero-shot versus frozen supervised. The suite does not train.
+  Supervised outperforms Jev on all five, *theirs*. Smallest gaps
+  SST-2 1.95 and STS-B 2.23. Largest gap BANKING77 14.87. Jev beats
+  local zero-shot NLI by 12.76 to 26.77 on the three intent benches.
+  SST-2 versus zero-shot has an interval that includes zero. Other
+  intervals exclude zero, *theirs*. BANKING77, 3080 rows, Choice
+  accuracy: supervised SPACE-2 epoch 51 is 94.77, Jev 79.90, NLI 67.14.
+  CLINC150 4500, Jev 91.96 (OOS excluded). HWU64 1076, Jev 83.09.
+  SST-2 872, Noul, Jev 94.50 versus roberta-large 96.44 versus NLI
+  93.00. STS-B 1379, Score Spearman, Jev 89.21 versus 91.44. BANKING77
+  Jev 79.90 stays the prior number. SPACE-2 94.77 is not the old
+  BERT-Base 93.02. Do not treat them as one checkpoint. The backlog
+  still lists "Analyse calibration with ECE." Accuracy is not
+  calibration. Not AbdelStark/jev-benchmarks, not dhruvmehra/jevbench,
+  and not fstandhartinger/jevbench.
+
+### Hub peers (same hour)
+
+- **hf:ColomboAI/C3R-Decision-Laya-421M-v0.1.** 0 likes. sha
+  `806cd913b6d1`. apache-2.0. base convaiinnovations/laya. Last
+  modified 2026-09-22T02:20:30.000Z. README title is an integration
+  preview. Do not invent scores. Not ColomboAI-com/c3r. A preview card
+  is not Harbor.
+- **hf:KGFCode/laya-decision-lab.** Space. HTTP 401. Do not invent a
+  Space demo or a score.
+- **hf:liskasYR/laya.** 0 likes. sha `9baf31afe1b2`. apache-2.0. Their
+  sentence: this repo holds the checkpoints. A Hub copy is not a new
+  measurement. Do not re-fold upstream Laya-versus-Jev figures.
+- **hf:liskasYR/laya-typed-decisions.** 0 likes. sha `12522a05c214`.
+  apache-2.0. Fine-tune card. No score in the opening. Do not invent
+  one. Has model weights. Laya is not TypeSafe.
+- **hf:nampham1106/laya-flash.** 0 likes. sha `77545729d02f`.
+  apache-2.0. README is a 28-byte license front matter. Do not invent
+  a model.
+
+### Remainder cards (same hour, grouped)
+
+- **ColinDargent/tri-emails-jev.** 0★ MIT. HEAD `eef6c7bb62db`. README
+  `1c4bd9934c48`. Four templates to sort mail with Jev. A template is
+  not a measured inbox policy.
+- **Fate-Wen/jev-return-review-task.** Empty SHA, HTTP 409. README
+  HTTP 404. Description only: screen AfterShip return requests, group
+  them into a task, priority for human review. Do not invent a triage
+  score.
+- **FuturePresentLabs/ooda.** 0★ Apache-2.0 Rust. HEAD `aa841e1b304d`.
+  README `09436c6e33ff`. Rust client and types for Jev and
+  Laya-compatible APIs. Their badge says 34 passing. A client is not a
+  replica. Wire-compat is not logit-equiv.
+- **GuGuGuGun/battle_jev.** HEAD `24e945bda88d`. README `9c454c99f661`,
+  988 bytes. Design-stage Slay the Spire 2 mod: three Jev votes. Not
+  built. Game success is not a calibrated Noul. Do not invent a win
+  rate.
+- **GxZzzzz/WeChat_Galgame.** HEAD `8b3f2858c01b`. README
+  `0ada38d51904`. Windows WeChat sidebar. Reads local WeChat text. A
+  configurable LLM writes per-turn judgment cards. Provides
+  understanding and reply suggestions. Does not send and does not
+  auto-switch contacts. An LLM-written card is not a TypeSafe Noul.
+  Not 1104480426-hash/jev-qq-assist and not jev-chat/jev-chat-jarvis.
+- **HcodeQ/Langchain-Jev.** Jupyter. HEAD `75605027929a`. README
+  `3998a0de1c89`. Fictional shop-support training scenario. Pedagogy
+  is not a bench.
+- **IoTone/jevracket.** 0★ MIT Racket. HEAD `c380f3d7faf0`. README
+  `057a5a714efb`. Racket client for the live TypeSafe API. A client is
+  not a replica.
+- **Jaimejourney/mbti-jev-explorer.** HEAD `c907af6756b1`. README HTTP
+  404. Description: mbti html. Do not invent a personality measurement.
+- **JohnRSandoval/meaning-assert.** 0★ MIT JavaScript. HEAD
+  `16e7e386135a`. README `dc7bba75a154`. Natural-language assertions
+  with pass, fail, and inconclusive. A soft assert is not a proof.
+- **JohnRSandoval/meaning-aware-diff.** 0★ MIT JavaScript. HEAD
+  `28759735d090`. README `3c9e75ab098a`. Flags weakened assertions and
+  hidden consequences in a diff. A sensor is not a merge gate.
+- **MartinesEmanuel/athena-jev.** Empty SHA, HTTP 409. README HTTP 404.
+  Description only: a cognitive control layer for coding agents. Do
+  not invent a reflex implementation.
+- **NB3025/hello-jev.** HEAD `1d7318f024ae`. README HTTP 404. Do not
+  invent a demo.
+- **OhMyKing/JevTuringMachine.** JavaScript. HEAD `94e5cbc84966`.
+  README `8df2e1ec4bdd`. A 3D semantic tape. The Node process reads
+  the key. The browser does not receive it. Game success is not a
+  calibrated Noul.
+- **OpenNekoPaw/JevFlow.** Python. HEAD `ebb46ce13bbe`. README
+  `d7fa2d0b80ea`. YAML flows of small Jev judgments. Code owns the
+  graph.
+- **Thotheris/laya-gfx1030.** Empty SHA, HTTP 409. README HTTP 404.
+  Description: a Laya-style model on a 6900XT. Do not invent a GPU
+  bench.
+- **WayneCommand/laya-mcp.** 0★ MIT Python. HEAD `f9186486fdb7`. README
+  `5c985e98a719`. MCP server wrapping Laya. Their "calibrated" sentence
+  is theirs. A threshold is still soft until you measure it. Not
+  devthinker-ai/laya-mcp, not PerryLink/laya-mcp, and not
+  wsargent/laya-mcp. Do not copy the server.
+- **ZongxingH/gemini-quality-gate-jev.** Python. HEAD `7ed691a005a4`.
+  README `2ab18095891e`. Gemini CLI after-agent hook. Jev does not
+  write code. Two judgments: needs another fix, and change risk. On a
+  Jev request failure the hook lets the turn through (fail open). A
+  hook is not a merge gate.
+- **abinashray008/fraud-classifier.** Python. HEAD `ba84e95db13a`.
+  README `a421f5b479f0`. Card-fraud classifier with an optional LLM
+  investigation tier. A fraud score is not a hard interlock. Do not
+  invent an operating point. Do not copy a fraud procedure.
+- **andyjusa/laya-mlx-rs.** 0★ Apache-2.0 Rust. HEAD `55dfb155c650`.
+  README `8db4246461d7`. Native Rust and MLX Laya for Apple Silicon.
+  A serving substrate is not a calibrated replica. Laya is not
+  TypeSafe.
+- **anyran/jev-swot.** 0★ MIT TypeScript. HEAD `beb5f4471ef5`. README
+  `dbc36b44692d`. Chrome extension. Extracts multiple-choice questions.
+  Jev returns option probabilities. An optional writer model explains.
+  The writer stays separate. A homework helper is not a measurement of
+  a student. Do not quote illustrative percents as a bench.
+- **bloodfel/modular-rag-mcp.** Python. HEAD `dbecf9106b2a`. README
+  `c9c415cf63e2`. Pluggable RAG MCP. Four rerankers: none, BGE, Jev,
+  LLM. Their BEIR sentence: nDCG@10, jev first in 5 of 6 cells,
+  scifact/bm25 plus 8.3, *theirs*. Ranking is not calibration. Do not
+  import the table as Harbor. Embeddings retrieve. Jev reranks a
+  shortlist.
+- **boredrhino/Jevston.** HTML. HEAD `467bc136254c`. README
+  `96ab0e663f27`. A title page. Do not invent a decision contract from
+  the title.
+- **carolacodes/dspy_gliner_extraccion.** Python. HEAD `7f5c8ded73b9`.
+  README `b1c4057b86c7`. DSPy optimizing GLiNER entity descriptions.
+  Locate is not decide. GLiNER is a class member, not a Jev replica.
+- **dhirajpatra/agent-harness-with-jev-llm.** Python. HEAD
+  `2886a7237e2d`. README `14b4b070a2ef`. Small multi-agent harness demo
+  from a LangChain post. A demo is not Harbor.
+- **dpvinh30092005/jev-1000-com-tam.** Python. HEAD `29d00ac619dc`.
+  README `2acbdd62f6cc`. jev-1.13.0 does not generate text. One state
+  plus questions. A restaurant quiz is not a bench.
+- **dttfrancesco/lossless-rewrite.** 0★ MIT TypeScript. HEAD
+  `bf4200b9419e`. README `c30f9bc69eeb`. A model rewrites. Jev checks
+  what survived. Missing ideas trigger repair. The checker is not the
+  author.
+- **fruitflyworld/fruit-fly-world.** 0★ MIT TypeScript. HEAD
+  `ff7550a4fba4`. README `7f37eab33396`. Survival game with a slot for
+  a brain. Every decision sealed and replayable. Game success is not a
+  calibrated Noul.
+- **garygentry/jev-poc.** TypeScript. HEAD `092db29fe176`. README
+  `623f229d82dc`. Twenty demos across seven shapes. A tour is not a
+  benchmark. Do not quote demo percents as calibration.
+- **hgqimo/JevRanker.** 0★ MIT Python. HEAD `d1a5f165da0b`. README
+  `6ac97b4237ce`. Jev-style models as a BlitzRank compare oracle. k
+  passages, one parallel forward, zero decoded tokens. Per match,
+  *theirs*: Jev 34 ms mean versus generative 752 ms, 22.2x. A compare
+  oracle orders candidates. Ranking is not calibration. *theirs*, not
+  Harbor.
+- **jackchen13755/dsh-jev-lens.** 0★ BSD-3-Clause TypeScript. HEAD
+  `dd855cce93d9`. README `7cf26b56e715`. DeepSeek Harness plugin.
+  Default is measure-only. Gate mode is opt-in. Their question: did
+  the Jev layer improve task outcomes, or only add records? A lens is
+  not a filter. Not jumboly/cogp-jev-lens.
+- **jackma5477001/dsh-jev-auto.** 0★ MIT JavaScript. HEAD
+  `aef63d6c2075`. README `76caf561c64d`. Auto-approve one call only when
+  Jev chooses allow and confidence meets a threshold. Otherwise native
+  human approval. Native POST `/v1/systemone`, not chat completions.
+  Their default threshold 0.9 is still soft. The comparison is
+  confidence, not `probabilities.allow`. Permission is not confidence.
+  Not sperictao/dsh-auto-review-jev.
+- **kingdsa/jev-chinese-grader.** TypeScript. HEAD `8d8316f47993`.
+  README `97af0fd804a0`. Frontend grader. Noul for whether a point
+  hit. Score for the band. The final number is a formula in code. They
+  refuse to let the model write the prose comment. Code owns the
+  arithmetic.
+- **kuchris/laya-tetris.** Python. HEAD `1630c63dc7bd`. README
+  `b5e0ed3832d3`. Local Tetris decision lab with its own Laya
+  checkpoint. Not cohenom/laya-tetris. Game success is not a calibrated
+  Noul. Do not restate upstream Laya benches.
+- **kydlikebtc/awesome-jev.** Empty SHA, HTTP 409. README HTTP 404.
+  Not yibie/awesome-jev and not MrJev/awesome-jev. Do not invent
+  catalog entries.
+- **lim6112j/jev-example.** Python. HEAD `679d3db4e3fd`. README
+  `acc8faa8bad7`. LangChain and LangSmith console. State pasted from
+  the clipboard. A console is not a bench.
+- **lzero07/laya-zh-eval.** 0★ MIT Python. HEAD `0604d3775901`. README
+  `9779894272b1`. Three checkpoints, 20 Chinese requests, 13 skill
+  options. Chance baseline about 1/13. Columns include accuracy,
+  confidence on correct and wrong, separation, and p50. Do not invent
+  the accuracy cells from this card. Confidence separation is not ECE.
+  Routing is not permission.
+- **m4rtian/laya-it-triage.** 0★ MIT. HEAD `cad6722b79c7`. README
+  `0119caa6f683`. Enterprise IT ticket triage and a learning project.
+  A tutorial is not a production gate.
+- **machaomc/jev-checkpoint.** Empty SHA, HTTP 409. README HTTP 404.
+  Do not invent a checkpoint.
+- **marceloatoledo/JEV-MCP-REST.** 0★ MIT C#. HEAD `314c460de18f`.
+  README `fb22116bb9e6`. Not marceloatoledo/jevMcp (README HTTP 404 in
+  §160). A REST and MCP adapter is not a decision head.
+- **mcmcmcmmmc/laya-codex-router.** 0★ MIT Python. HEAD `90bd8d8615bc`.
+  README `4dd89b76b55d`. Local per-turn Codex model routing with Laya.
+  Optional Jev backend when a decision-backend path exists. Otherwise
+  local inference. Visible route labels. Routing is not permission.
+  Do not import an unevaluated winner.
+- **mmedasani1315/JEV-WebSiteClassifer.** C#. HEAD `df837d8d826d`.
+  README `bbaff0130924`. The spelling is Classifer. Do not invent
+  accuracy from the name.
+- **saivivekvenna/jevy-graph.** 0★ MIT Python. HEAD `79676677b613`.
+  README `2fcb1336e13c`. Compiles text to RDF. Deterministic candidate
+  generation stays local. Jev resolves ambiguous entity relations.
+  Code offers candidates. Jev does not free-write the graph.
+- **scd13150/st-Mind-Compass.** License SPDX NOASSERTION. JavaScript.
+  HEAD `a3f5ed7426f4`. README `fc72ff932499`. SillyTavern mind and
+  relationship compass on hosted TypeSafe Jev. Not
+  scd13150/st-extension. Same author, different repo. Generation and
+  judgment stay split. Do not treat a roleplay score as a measurement
+  of a person.
+- **shivakrishna-k/jev-agent-routing-benchmark.** Python. HEAD
+  `bf8304209277`. README `e6fa20c1f38e`. Asks whether Jev beats a
+  frontier LLM with structured output on enterprise routing. The
+  description cuts off. Do not import a winner. A harness is not
+  Harbor.
+- **slidwell44/silver-adventure.** 0★ Apache-2.0 Python. HEAD
+  `956cac53b6c3`. README `729113f8032f`, 65 bytes. Title plus a
+  sentence that it tests Jev with the TypeSafe Python SDK. Do not
+  invent a result.
+- **ttofalo/OlivIA.** 0★ MIT Python. HEAD `b73151058b01`. README
+  `39792ed9bdb7`. WhatsApp home assistant. Their split: Jev for
+  reflexes, Claude to reason. Mixed architecture. Do not copy a
+  home-control procedure. Irreversible acts stay with a person or a
+  hard interlock.
+- **wanghai673/jev-browser-skill.** Live REST 1★. MIT Python. HEAD
+  `c0a70c767a74`. README `32c3b1aeb8e3`. Codex skill. Codex prepares
+  the URL, the task, and the search. Jev chooses click, type, scroll,
+  or tab until done, stuck, or a call cap. Not
+  browser-use/jev-ultrafast. Do not attribute that repo's timings
+  here. Code still owns the browser. A skill is not a sandbox.
+- **wlawrencelo/Claude-code-Codex-Jev-harness.** HEAD `8e6369581139`.
+  README `71268c3d5363`, 31 bytes. Title only. Do not invent a harness.
+- **x007007007/laya-review.** TypeScript. HEAD `9467f66139c2`. README
+  `5ce1c7528703`. Local code-review CLI. Engine cited as receptron/laya,
+  ModernBERT plus ONNX, about 1.7 GB, about 2 GB RAM, about 140 ms
+  *theirs*. Not NandhaKishorM/laya by their citation. Matching rule
+  questions share one systemOne call. Local rules can raise severity
+  in code. A sensor is not a merge gate. Their sentence: code does not
+  leave the machine.
+- **yangshun2005/laya-cn.** 0★ Apache-2.0 Python. HEAD `c8dc26cc9881`.
+  README `e1965ce0041e`. Chinese translation of NandhaKishorM/laya.
+  Not a new training run. Do not re-fold upstream benches. Their cited
+  star count for the original is a third-party number, not this hour's
+  measurement.
+- **yukihirop/jurl.** 0★ MIT Rust. HEAD `b68cf2e6f271`. README
+  `8c1a232d2af9`. Loosely ordered words become a curl command, and the
+  tool can run it after a confirm. Rules resolve the obvious tokens in
+  code. Jev picks roles for the remainder and does not write the curl
+  string. A proposed command is not authorization to run it. Do not
+  copy a runner. An illustrative confidence on the confirm line is not
+  a bench.
+- **zhazhahuiyuxiaoxiao/jev-codex-bench.** Go. HEAD `45af8992f398`.
+  README `e3806c7f7d75`. Three homemade public Go tasks. Compares plain
+  Codex, Jev-prefiltered context, and Codex deciding whether to call
+  Jev. They say it does not presume Jev helps and it is not a new
+  general MCP connector. Do not import a winner. A pilot is not Harbor.
+
+Empty trees this hour, HTTP 409: Fate-Wen/jev-return-review-task,
+MartinesEmanuel/athena-jev, Thotheris/laya-gfx1030, kydlikebtc/awesome-jev,
+machaomc/jev-checkpoint. Do not invent a HEAD.
+
+### Decision-design card
+
+```text
+Domain (AI / SWE / life):
+Desired behavior and non-judgment baseline: the chat model already writes; the screen, the menu of skills, the robot veto, and the route table already exist in code
+Semantic judgment(s) and what each output means: one narrow Choice, Score, or Noul; memory relevance, a yes/no the writer asked, a skill id, or a route; the number is an estimate, not permission
+Pillar (EU / VOI / SDT / safety): ask whether any model is needed; pay for a judgment only on the remainder; set the operating point from costs, not from an application cut of one half
+Hole (sieve / keep-drop / triage / route / gate / perceive / abstain): memory sieve, screen sensor, skill pick, paper loop, route that fails closed, calibration check
+Family: closed decision API (TypeSafe Jev default); a local similarity softmax, a letter-logprob softmax, a temperature on a Gemma readout, or a Unity transport only after you measure it on your labels
+Evidence/candidate source: memories the client already stored, the accessibility text, the skill menu, your own labeled rows; a regex-solvable label set is a trap
+Deterministic policy, constraints, and action ownership: the chat model writes; the screen does not send; code owns IK, freshness, and the veto; a paper loop does not place orders; a gateway is not a model
+Batchable vs genuinely dependent steps: independent memory candidates can share a request; do not multiply them into a joint; a router brain that is down is not a second question
+Failure/abstention behavior: fail closed when the router has no brain and on a missing judgment for an irreversible act; silent fallback is acceptable only where the host memory path is the safe default
+Smallest experiment that could reject this family, not just this vendor: a held-out set a regex already solves, or a local similarity softmax that disagrees with hosted Jev on the same question
+Eval path: quote accuracy and calibration separately; n=500, 3080, and 20/20 stay *theirs*, not Harbor; a description rewrite is not a new bench
+Typed judgment provider: TypeSafe Jev default; Laya, grande, Nemotron skill mode, and bge similarity are class peers, not equal in adoption
+Live references + versions: notes.md §161; rikkahub v2.5.4fix13; jev-qq-assist v1.5.0; jevonian v0.0.1; plumbline v0.1.0; Jev-Skill v1.0.0; grande release ruri-v1
+```
+
+catalog is not endorsement. A serving substrate is not a calibrated
+replica. Wire-compat is not logit-equiv. Ranking is not calibration.
+Accuracy is not calibration. Game success is not a calibrated Noul.
+Softmax over similarity is not a calibrated Noul. Temperature scaling
+is not a trained head. Schema-valid is not correct. Soft judgment never
+sole veto. *theirs* not Harbor. SHA move is not a replica. Skip Archer.
+`invented_signal: false`. Parent merges only after ADV_PASS. hourly
+1949 §160 are on main. This fold is §161 only. Do not reopen or amend
+PR #23 through #86. notes.md §161.
+
+Hourly 2044 uniqueness lock: TypeSafe Jev default path; MiaoWuNYA/rikkahub-sillytavern-android README SHA f7de16872c8c; HEAD 839eebce673b; release v2.5.4fix13; Jev judges memory and answers the judge tool; the chat model writes; relevant probability over half is an application cut; 0.5 is not a decision boundary; silent fallback when Jev is down; 1104480426-hash/jev-qq-assist README SHA 55f96440225a; release v1.5.0; screen is a sensor; no send path; local bge-small-zh is not TypeSafe; softmax over similarity is not a calibrated Noul; 49-64 ms local versus about 870 ms remote *theirs*; 1104480426-hash/jev-qq-assist ≠ jev-chat/jev-chat-jarvis ≠ GxZzzzz/WeChat_Galgame; Iron-LYK/OmniJev README SHA b41caf70e3af; Nemotron generation API; Vision-Jev RLCD coming soon; skill mode is privileged simulator state; not end-to-end vision; softmax over option letters is not calibrated confidence; 13 calls and 39 tokens *theirs*; Nemotron ≠ Archer; simulation success ≠ calibrated Noul; bokuweb/omg README title grande; README SHA 3603f12be97d; release ruri-v1; one forward pass no text generation; Gemma 4 E2B JNLI ECE 0.252 to 0.088 *theirs*; 41% of p>=0.9 wrong before scaling *theirs*; temperature scaling is not RLCD; Gemma 4 ≠ Archer; trained Gemma 4 weights are not landed; serving substrate ≠ calibrated replica; Vankleben/jev-arm-lab README SHA a48080d4c81e; code owns the veto; freshness gate is code; 20/20 and Brier 0.030 and 0 dangerous false positives *theirs*; wrong protocol scores 77% *theirs*; gates 0.30 and 0.45 still soft until you measure; Waxmell114514/jev-trade paper trading against observed prices; not order placement; this card is not a trading procedure; Waxmell114514/jev-trade ≠ pgarvie/jev-trade ≠ klren0312/jev-trade ≠ jarrodwatts/jev-trader; antTing/jev-accounts-hub a gateway is not a decision model; do not copy the proxy; dhruvmehra/jevbench n=500 *theirs*; banking77 Jev 76.4 ECE 0.125 Laya 38.2 ECE 0.511 *theirs*; AG News Jev 84.3 ECE 0.112 *theirs*; SST-2 Jev 95.4 ECE 0.026 *theirs*; CI about ±2.5 points *theirs*; fine-tuned BERT is not a zero-shot peer; dhruvmehra/jevbench ≠ fstandhartinger/jevbench; accuracy ≠ calibration; xinyao27/jevonian release v0.0.1; named routes skip Jev; no brain returns an error; 502 when every brain is down; minConfidence does not failover; routing ≠ permission; 0x440-1me/laya-unity not affiliated; absent candidates cannot be chosen; transport client ≠ calibrated replica; hf:Cahol/laya-banking77-v1 sha 09a7f1a08aae; 85.55% on 3,080 *theirs*; tuned ECE 0.0237 to 0.0144 *theirs*; no Jev outputs used in training; do not paste over the zero-shot 79.90 row; Laya ≠ TypeSafe; openlayer-ai/jevals densify §126; HEAD 0457836c5696 was a38a971095c4; description_hash 139fb51429c7 was 6d6d99246390; local Kev or Laya is their new sentence; 92x to 913x stays the prior citation; one example trace is not a bench; FluidInference/FluidUse densify §143; HEAD unchanged e9e95935075b; README SHA unchanged 7d246df7270a; description_hash 2e5b91ad5dfb was ddacb829949a; description rewrite is not a new bench; do not re-fold 3.6 ms; Cua-S1 ≠ TypeSafe; danielyedaniel/jevme densify §156; HEAD c6c4c4415776 was 110bf6ba7ad3; about 200 ms *theirs*; SHA move is not a replica; TMHSDigital/plumbline densify §158; HEAD da7b7364d91b; release v0.1.0; not a leaderboard; API will change; aiwithenoch/Jev-Skill densify §113; HEAD 32a1d5fe5251 was f0cf6d6e; release v1.0.0; a harness is not a model; thisisandreeeee/jev-benchmarks densify §114; HEAD eaed9dd0cfd6 was e1186b74; BANKING77 Jev 79.90 stays; SPACE-2 94.77 is not BERT-Base 93.02; ECE still on the backlog; hf:liskasYR/laya is not a new measurement; hf:nampham1106/laya-flash 28-byte license; hf:KGFCode/laya-decision-lab HTTP 401; empty SHA HTTP 409; Soft judgment never sole veto; ranking ≠ calibration; catalog ≠ endorsement; *theirs* not Harbor; Skip Archer; invented_signal: false; Parent merges only after ADV_PASS; hourly 1949 §160 are on main; this fold is §161 only; composition 949-964; findings batch #141; do not reopen or amend PR #23 through #86; does not bump 0.5.0 or 0.5.1; notes.md §161
