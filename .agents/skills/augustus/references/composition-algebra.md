@@ -5197,6 +5197,101 @@ Soft Noul ≠ hard safety.
      notes.md §160. composition 933-948. findings batch #140.
      Full cards: `faq.md`.
 
+949. **memory sieve is not the writer**:
+     MiaoWuNYA/rikkahub-sillytavern-android. Jev judges memory and the
+     judge tool. The chat model writes. Relevant probability over half is
+     an application cut. Silent fallback when Jev is down. 0.5 is not a
+     decision boundary.
+     Full cards: `research/notes.md` §161.
+950. **the screen does not send**:
+     1104480426-hash/jev-qq-assist. The screen is a sensor. No send path.
+     Local bge-small-zh is not TypeSafe. Softmax over similarity is not a
+     calibrated Noul. Not jev-chat/jev-chat-jarvis and not
+     GxZzzzz/WeChat_Galgame.
+     Full cards: `research/notes.md` §161.
+951. **skill mode is not vision planning**:
+     Iron-LYK/OmniJev. Privileged simulator state. Code runs IK. Softmax
+     over option letters is not calibrated confidence. Nemotron is not
+     Archer. Coming Soon is not a landed RLCD head. Simulation success is
+     not a calibrated Noul.
+     Full cards: `research/notes.md` §161.
+952. **temperature scaling is not a trained head**:
+     bokuweb/omg, README title grande. One forward pass, no text generation.
+     Gemma 4 E2B JNLI ECE drop is *theirs*. Temperature scaling is not RLCD.
+     Gemma 4 is not Archer. Trained Gemma 4 weights are not landed.
+     Full cards: `research/notes.md` §161.
+953. **freshness is code**:
+     Vankleben/jev-arm-lab. Code owns the veto. Freshness is age_s.
+     20/20 and Brier 0.030 are *theirs*. Gates 0.30 and 0.45 stay soft
+     until you measure them. Simulation is not a factory robot.
+     Full cards: `research/notes.md` §161.
+954. **a paper loop is not an order**:
+     Waxmell114514/jev-trade paper-trades against observed prices. Not
+     order placement. This card is not a trading procedure. Not
+     pgarvie/jev-trade, not klren0312/jev-trade, and not
+     jarrodwatts/jev-trader.
+     Full cards: `research/notes.md` §161.
+955. **a gateway is not a model**:
+     antTing/jev-accounts-hub. Quota rotation is not calibration. Do not
+     copy the proxy. Not the TypeSafe SDK.
+     Full cards: `research/notes.md` §161.
+956. **same labels are not the same job**:
+     dhruvmehra/jevbench n=500. Fine-tuned BERT is not a zero-shot peer.
+     Accuracy is not calibration. hf:Cahol/laya-banking77-v1 is a
+     human-label LoRA. Do not paste it over the zero-shot 79.90 row.
+     Laya is not TypeSafe.
+     Full cards: `research/notes.md` §161.
+957. **a missing brain fails closed**:
+     xinyao27/jevonian. Named routes skip Jev. No brain returns an error.
+     502 when every brain is down. minConfidence does not failover.
+     Routing is not permission.
+     Full cards: `research/notes.md` §161.
+958. **the menu is the action space**:
+     0x440-1me/laya-unity. Not affiliated. Absent actions cannot be chosen.
+     A transport client is not a calibrated replica.
+     Full cards: `research/notes.md` §161.
+959. **a description rewrite is not a new bench**:
+     openlayer-ai/jevals densifies §126. One example trace is not a bench.
+     FluidInference/FluidUse densifies §143. HEAD unchanged. Do not
+     re-fold 3.6 ms. danielyedaniel/jevme densifies §156. SHA move is not
+     a replica. TMHSDigital/plumbline densifies §158 and is still not a
+     leaderboard. aiwithenoch/Jev-Skill densifies §113. A harness is not
+     a model. thisisandreeeee/jev-benchmarks densifies §114. BANKING77
+     Jev 79.90 stays. SPACE-2 94.77 is not BERT-Base 93.02.
+     Full cards: `research/notes.md` §161.
+960. **a similarity softmax is not a Noul**:
+     jev-qq-assist local mode. 49 to 64 ms versus about 870 ms remote is
+     *theirs*. The quality gap is theirs. Default remote, no key falls
+     back to local.
+     Full cards: `research/notes.md` §161.
+961. **a compare oracle is not calibration**:
+     hgqimo/JevRanker. 34 ms versus 752 ms, 22.2x, *theirs*. Ranking is
+     not calibration. bloodfel/modular-rag-mcp reranks a shortlist.
+     Do not import a BEIR table as Harbor.
+     Full cards: `research/notes.md` §161.
+962. **empty trees stay empty**:
+     Fate-Wen/jev-return-review-task, MartinesEmanuel/athena-jev,
+     Thotheris/laya-gfx1030, kydlikebtc/awesome-jev, and
+     machaomc/jev-checkpoint returned HTTP 409. Roylaffman/jevGIS and
+     several others have README HTTP 404. hf:KGFCode/laya-decision-lab
+     is HTTP 401. hf:nampham1106/laya-flash is a 28-byte license.
+     Do not invent a HEAD or a score.
+     Full cards: `research/notes.md` §161.
+963. **class peers stay peers**:
+     Hub Laya cards, Unity and Racket and Rust clients, MCP wrappers,
+     and local routers stay class members. They are not equal in
+     adoption and they are not TypeSafe. A Hub copy is not a new
+     measurement. Wire-compat is not logit-equiv.
+     Full cards: `research/notes.md` §161.
+964. **skip Archer** (promised_not_landed):
+     Archer still promised_not_landed. Parent merges only after ADV_PASS.
+     hourly 1949 §160 are on main. This fold is §161 only.
+     Do not reclaim §147 through §160. Do not reopen or amend PR #23
+     through #86. Does not bump 0.5.0 or 0.5.1.
+     notes.md §161. composition 949-964. findings batch #141.
+     Full cards: `faq.md`.
+
+
 
 
 

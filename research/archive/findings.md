@@ -1,5 +1,49 @@
 # Deep-read findings (evidence for research/notes.md)
 
+## Batch #141 (2026-09-22 ~20:44 Boise) - hourly 2044 HIGH
+
+Note: `research/notes.md` §161. Composition 949-964.
+hourly 1949 §160 is on main. This fold is §161 only.
+Do not reclaim §147 through §160.
+Hourly 1949 stays §160 / composition 933-948 / batch #140.
+This fold stays §161 / items 949-964 / batch #141.
+**HARD RULE:** do not reopen or amend PR #23 through #86.
+The consecutive lock string lives in notes.md and uniqueness_gate.py only.
+README still ends at License. Does not bump 0.5.0 or 0.5.1.
+`invented_signal: false`. Parent merges only after ADV_PASS.
+X is disabled. No X API calls. No new X quotes.
+
+- **MiaoWuNYA/rikkahub-sillytavern-android.** Jev judges memory and the
+  judge tool. The chat model writes. Over-half relevance is an
+  application cut. Silent fallback when Jev is down.
+- **1104480426-hash/jev-qq-assist.** Screen is a sensor. No send path.
+  Local bge similarity is not hosted Jev.
+- **Iron-LYK/OmniJev.** Skill mode is privileged simulator state.
+  Nemotron is not Archer. Simulation success is not a calibrated Noul.
+- **bokuweb/omg.** README title grande. Temperature scaling is not a
+  trained head. Gemma 4 is not Archer.
+- **Vankleben/jev-arm-lab.** Code owns the veto. Freshness is code.
+  20/20 and Brier 0.030 stay *theirs*.
+- **Waxmell114514/jev-trade.** Paper trading against observed prices.
+  This card is not a trading procedure.
+- **antTing/jev-accounts-hub.** A gateway is not a model. Do not copy
+  the proxy.
+- **dhruvmehra/jevbench.** n=500. Same labels are not the same job.
+  Accuracy is not calibration.
+- **hf:Cahol/laya-banking77-v1.** Human-label LoRA. Temperature moves
+  ECE, not accuracy. Do not paste over the zero-shot 79.90 row.
+- **xinyao27/jevonian.** No brain returns an error. 502 when every
+  brain is down. Routing is not permission.
+- **0x440-1me/laya-unity.** Absent candidates cannot be chosen.
+- **Revisit densify.** openlayer-ai/jevals stays §126. One trace is
+  not a bench. FluidInference/FluidUse stays §143. HEAD unchanged.
+  danielyedaniel/jevme stays §156. TMHSDigital/plumbline stays §158
+  and is still not a leaderboard. aiwithenoch/Jev-Skill stays §113.
+  thisisandreeeee/jev-benchmarks stays §114. Jev 79.90 stays.
+  SPACE-2 94.77 is not BERT-Base 93.02.
+- Empty SHA HTTP 409 stays empty. README HTTP 404 stays unread.
+  hf:KGFCode/laya-decision-lab HTTP 401. Do not invent a score.
+
 ## Batch #140 (2026-09-22 ~19:49 Boise) - hourly 1949 HIGH
 
 Note: `research/notes.md` §160. Composition 933-948.

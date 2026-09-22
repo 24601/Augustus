@@ -1,3 +1,22 @@
+## 2026-09-22 ~02:44 UTC / ~20:44 Boise - Hourly 2044 HIGH
+- Folded onto post-#86 `main` (`e3390b20`). hourly 1949 §160 is on main.
+  This fold is §161 only. This fold: `notes.md` §161 / composition 949-964 /
+  findings batch #141. Do not reclaim §147 through §160.
+  **HARD RULE:** do not reopen or amend PR #23 through #86.
+- PRIMARY: rikkahub memory sieve is not the writer. jev-qq-assist has
+  no send path. OmniJev skill mode is privileged simulator state.
+  grande temperature scaling is not RLCD. jev-arm-lab freshness is code.
+  Class numbers stay *theirs*, not Harbor. Gemma 4 and Nemotron are not
+  Archer. Densify §126, §143, §156, §158, §113, and §114, not sibling
+  first sightings.
+- Evidence: live GitHub REST and Hugging Face HTTP on 2026-09-22.
+  Watch star counts are not the fold reason. hf:KGFCode/laya-decision-lab
+  returned HTTP 401. Several README fetches returned HTTP 404. Empty
+  repos returned HTTP 409. Do not invent a HEAD or a score. No X API calls.
+  Archer stays promised_not_landed.
+- Uniqueness lock lives in `research/notes.md` only (plus the gate fixture).
+  `invented_signal: false`. No Augustus call site. X disabled. No new X quotes.
+
 ## 2026-09-22 ~01:49 UTC / ~19:49 Boise - Hourly 1949 HIGH
 - Folded onto post-#85 `main` (`dc09713`). user-provided jimothy §159 is on main.
   This fold is §160 only. This fold: `notes.md` §160 / composition 933-948 /

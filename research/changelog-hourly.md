@@ -1,3 +1,21 @@
+## Hourly 2044 HIGH (notes.md §161 / items 949-964 / batch #141)
+
+- Folded onto post-#86 `main` (`e3390b20`). hourly 1949 §160 is on main.
+  This fold is §161 only. Do not reclaim §147 through §160.
+  **HARD RULE:** do not reopen or amend PR #23 through #86.
+  Does not bump 0.5.0 or 0.5.1. Skip Archer. `invented_signal: false`.
+- PRIMARY: MiaoWuNYA/rikkahub-sillytavern-android judges memory. The
+  chat model writes. 1104480426-hash/jev-qq-assist reads the screen and
+  does not send. Iron-LYK/OmniJev skill mode is not vision planning.
+  bokuweb/omg temperature scaling is not a trained head. TypeSafe Jev
+  stays the default path.
+- REVISIT densify: openlayer-ai/jevals stays §126. FluidInference/FluidUse
+  stays §143 with HEAD unchanged. danielyedaniel/jevme stays §156.
+  TMHSDigital/plumbline stays §158. aiwithenoch/Jev-Skill stays §113.
+  thisisandreeeee/jev-benchmarks stays §114. A description rewrite is
+  not a new bench. Do not mint a sibling first sighting.
+- Uniqueness lock lives in `research/notes.md` and `uniqueness_gate.py` only.
+
 ## Hourly 1949 HIGH (notes.md §160 / items 933-948 / batch #140)
 
 - Folded onto post-#85 `main` (`dc09713`). user-provided jimothy §159 is on main.
