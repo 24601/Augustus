@@ -67,11 +67,12 @@ growth, or a demonstrated deployment gain from the skill itself.
 - Rejected duplicate JSON keys and normalized malformed-input failures;
   prevented finite mean-cost overflow and conflicting repository identities.
 - Adversarial review caught maximum-float overflow, subnormal mean/cost loss,
-  and near-zero log-loss cancellation missed by the initial tests. Exact-ratio
-  aggregation and stable logarithms now have boundary and randomized regressions.
+  early-normalization delta loss, and near-zero log-loss cancellation missed
+  by the initial tests. Exact-ratio aggregation and stable logarithms now have
+  boundary and randomized regressions.
 - Enforced installed-skill link containment and recursive reference budgets;
   corrected fence parsing, SemVer validation, encoded site fragments, and
-  accidental `noindex` detection. The suite now has 96 regression tests, including
+  accidental `noindex` detection. The suite now has 98 regression tests, including
   executable composition counterexamples and workflow comparisons.
 - Corrected GitHub About wording and documented explicit Pages toolchain
   activation. Directory preview/activation and user-growth gaps remain visible.

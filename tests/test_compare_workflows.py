@@ -185,6 +185,43 @@ class WorkflowComparisonTests(unittest.TestCase):
             self.assertTrue(min(values) <= actual <= max(values))
             self.assertEqual(compare._mean(list(reversed(values))), actual)
 
+    def test_paired_delta_survives_normalization_and_cancellation_extremes(self):
+        for bound, losses, expected in (
+            (sys.float_info.max, [(0., 1e-20)], 1e-20),
+            (2., [(0., 5e-324)], 5e-324),
+            (sys.float_info.max, [(0., 1.), (1., 1e-20)], 5e-21),
+        ):
+            data = receipt(len(losses), "search")
+            data["loss_bound"] = bound
+            for pair, (old, new) in zip(data["pairs"], losses):
+                pair["incumbent"]["loss"] = old
+                pair["candidate"]["loss"] = new
+            with self.subTest(bound=bound, losses=losses):
+                self.assertEqual(compare.compare(data)["mean_loss_delta"], expected)
+                for pair in data["pairs"]:
+                    pair["incumbent"], pair["candidate"] = pair["candidate"], pair["incumbent"]
+                self.assertEqual(compare.compare(data)["mean_loss_delta"], -expected)
+
+    def test_random_paired_deltas_match_exact_rational_oracle(self):
+        rng = random.Random(70323)
+        for _ in range(300):
+            data = receipt(rng.randrange(1, 9), "search")
+            data["loss_bound"] = sys.float_info.max
+            expected = Fraction(0)
+            for pair in data["pairs"]:
+                for arm in ("incumbent", "candidate"):
+                    while True:
+                        value = struct.unpack(">d", rng.getrandbits(63).to_bytes(8, "big"))[0]
+                        if math.isfinite(value):
+                            pair[arm]["loss"] = value
+                            break
+                expected += Fraction(pair["candidate"]["loss"]) - Fraction(pair["incumbent"]["loss"])
+            expected = float(expected / len(data["pairs"]))
+            actual = compare.compare(data)["mean_loss_delta"]
+            self.assertEqual(actual, expected)
+            data["pairs"].reverse()
+            self.assertEqual(compare.compare(data)["mean_loss_delta"], actual)
+
     def test_fixed_sample_two_point_null_respects_declared_error_budget(self):
         # Independent fair +/-1 deltas have true mean zero. Enumerate the
         # exact binomial rejection probability, not Monte Carlo or real data.

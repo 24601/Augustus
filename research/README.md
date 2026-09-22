@@ -17,7 +17,8 @@ research to composition, working evals and iterative improvement. Use the
 The [current acceptance record](audits/2026-09-22-refresh-acceptance.md) maps
 independent re-reviews to actual evidence and pending publication gates.
 The [adversarial release review](audits/2026-09-22-adversarial-070.md) records
-three rejected numerical behaviors, corrections and the fresh-review gate.
+four rejected numerical behaviors across two rounds, corrections and the
+fresh-review gate.
 The [existing-listing audit](audits/2026-09-22-listing-positioning.md) proposes
 targeted positioning updates, distinguishes accepted/open/rejected/crawler
 surfaces, and records that no external submissions were made.

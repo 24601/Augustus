@@ -50,11 +50,11 @@ and explicit constraints—not merely read about model placement.
   requested GPT-6 Astra/xhigh agents. Corrected unnecessary training/filtering
   requirements, a blanket calibration prerequisite, post-action enforcement
   claims, Alloy temporal limits, and distillation overstatements.
-- **Regression protection.** The offline suite grows from 53 to 96 tests.
+- **Regression protection.** The offline suite grows from 53 to 98 tests.
   Skill scenarios grow from 12 to 31, with fresh answers reviewed by the
   coordinator. Structural checks and behavioral smoke tests are distinct.
   Adversarial review additionally caught maximum-float overflow, subnormal
-  aggregation errors and log-loss cancellation; exact arithmetic oracles,
+  aggregation/delta errors and log-loss cancellation; exact arithmetic oracles,
   randomized boundary probes and fixed-sample null checks now cover those paths.
 - **Discoverability checks.** Corrected About metadata, verified current directory
   presence and page layout, fixed encoded fragments, and added `noindex` checks.
@@ -66,7 +66,8 @@ and explicit constraints—not merely read about model placement.
 ## Upgrade notes
 
 Update through your existing installation method; avoid duplicate installations.
-The skill needs no API key. No provider benchmark or paid inference was run.
+The skill needs no API key. No provider benchmark was reproduced; the bundled
+offline helpers make no model calls. Model-based code review is separate.
 
 The existing offline helpers now reject duplicate JSON keys, conflicting known
 repository node IDs, and invalid schema-version types. Oversized numbers,

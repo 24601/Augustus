@@ -249,4 +249,12 @@ rejected and crawler-managed surfaces without inferring outreach authority.
 Fresh final approval of the complete corrected revision remains a gate and
 will be linked from the PR/publication receipt.
 
+A second fresh Astra/ultra review of `977059f` confirmed those three fixes but
+found premature normalization erasing representable paired deltas. The parent
+corrected exact paired accumulation and added two tests: **98 now pass** on
+all three Python versions. The adversarial report preserves both fix-first
+verdicts and staged hashes. The user's subsequently requested Claude Code
+Fable 5.1/xhigh review is a new pending acceptance gate, not a relabeling of
+earlier Astra work or an assertion that a requested review has already run.
+
 API-EQUIVALENT COST RECEIPT: unavailable—native tools did not expose complete usage.

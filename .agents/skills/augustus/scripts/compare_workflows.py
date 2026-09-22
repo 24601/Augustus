@@ -20,6 +20,7 @@ Search is descriptive only. See references/optimizer-integration.md.
 from __future__ import annotations
 
 import argparse
+from fractions import Fraction
 import hashlib
 import json
 import math
@@ -125,13 +126,16 @@ def compare(receipt):
             summary[f"mean_{key}"] = _mean(known) if len(known) == len(rows) else None
         summaries[name] = summary
 
-    # Normalize before subtraction to avoid finite-extreme arithmetic overflow.
-    normalized_deltas = [
-        new["loss"] / bound - old["loss"] / bound
+    # Preserve paired differences before rounding/normalizing. Dividing each
+    # loss first can erase a representable delta; subtracting rounded means
+    # can also erase paired cancellation residuals. Losses are in [0, bound],
+    # so the final exact mean difference is finite in [-bound, bound].
+    exact_delta = sum(
+        Fraction(new["loss"]) - Fraction(old["loss"])
         for old, new in zip(arms["incumbent"], arms["candidate"])
-    ]
-    mean_normalized_delta = _mean(normalized_deltas)
-    delta = mean_normalized_delta * bound
+    ) / len(pairs)
+    delta = float(exact_delta)
+    mean_normalized_delta = float(exact_delta / Fraction(bound))
     confirmation = None
     assessment = "descriptive_search_only"
     if phase == "confirm":
