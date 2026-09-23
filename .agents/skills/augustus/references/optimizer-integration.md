@@ -261,7 +261,8 @@ are not independently established truth. Check terms before any provider output
 enters a training path (labels, targets, features, filtering, or example
 selection). TypeSafe's Master Customer Agreement §2.3(b) (updated 2026-09-19)
 bars using Jev Output for model distillation, to train a model imitating it, or
-to develop a competing product, so keep Jev outputs out of those paths.
+to develop a competing product. Treat every path above as covered unless the
+contract owner confirms a use is allowed.
 [jev-triage](https://github.com/ThyFriendlyFox/jev-triage) captures the useful
 pattern, uncertainty choosing what deserves expensive labeling while real
 outcomes remain the target; its uncertainty source needs the same check.
