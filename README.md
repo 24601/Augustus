@@ -77,15 +77,15 @@ See [the working skill](.agents/skills/augustus/SKILL.md).
 
 ## Install
 
-Install the published release, 0.7.1:
+Install the published release, 0.7.2:
 
 ```bash
 # Claude Code
-claude plugin marketplace add 24601/Augustus@v0.7.1
+claude plugin marketplace add 24601/Augustus@v0.7.2
 claude plugin install augustus@augustus
 
 # Codex, Cursor, and other Skills CLI agents
-npx skills add https://github.com/24601/Augustus/tree/v0.7.1/.agents/skills/augustus
+npx skills add https://github.com/24601/Augustus/tree/v0.7.2/.agents/skills/augustus
 ```
 
 To follow the default branch, which may contain unreleased `-dev` work, use
@@ -131,12 +131,10 @@ not establish model quality or deployment benefit.
 
 ## Versioning
 
-Published release: **0.7.1**. See the
-[release notes](docs/release-notes-v0.7.1.md) for changes and migration details.
+Published release: **0.7.2**. See the
+[release notes](docs/release-notes-v0.7.2.md) for changes and migration details.
 Default-branch installs may include later unreleased `-dev` work; install from
-the `v0.7.1` tag when you need the published revision. This branch is
-development **0.7.2-dev**: it adds a provider-terms check before training on
-provider outputs.
+the `v0.7.2` tag when you need the published revision.
 
 Historical TypeSafe skill provenance: v0.5.7 (`65a39f3`), rechecked on
 2026-09-23 as that repository's latest tag and HEAD. Read live provider docs

@@ -16,15 +16,24 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+## [0.7.2] - 2026-09-23
+
 ### Fixed
 
-- Skill development version **0.7.2-dev**. The specialist-training guidance
-  said provider distributions could serve as weak labels or distillation
-  targets. It now requires checking the source's terms before any provider
-  output enters a training path (labels, targets, features, filtering, or
-  example selection). It cites TypeSafe's Master Customer Agreement §2.3(b)
-  (updated 2026-09-19), which bars using Jev Output for distillation, imitation
-  training, or a competing product. Published 0.7.1 carries the earlier wording.
+- The specialist-training guidance said provider distributions could serve as
+  weak labels or distillation targets. It now requires checking the source's
+  terms before any provider output enters a training path (labels, targets,
+  features, filtering, or example selection). It cites TypeSafe's Master
+  Customer Agreement §2.3(b) (updated 2026-09-19), which bars using Jev Output
+  for distillation, imitation training, or a competing product. Every training
+  path is treated as covered unless the contract owner confirms a use is
+  allowed.
+- Added a `provider_distillation` behavioral scenario.
+
+Patch-release scope: one guidance correction; no interface, reference path, or
+script change. Historical TypeSafe skill provenance remains v0.5.7 (`65a39f3`).
+See the [release notes](docs/release-notes-v0.7.2.md) and the
+[acceptance record](research/audits/2026-09-23-release-072.md).
 
 ## [0.7.1] - 2026-09-23
 
