@@ -30,6 +30,9 @@ MAX_REFERENCE_LINES = 400
 MAX_REFERENCE_TOTAL_BYTES = 180_000
 MIN_DUPLICATE_PARAGRAPH_CHARS = 160
 MAX_DESCRIPTION_CHARS = 1_024
+MAX_COMPATIBILITY_CHARS = 500
+# claude.ai upload, the Skills API and package_skill.py reject other top-level keys.
+PORTABLE_FRONTMATTER_KEYS = frozenset({"name", "description", "license", "compatibility", "metadata", "allowed-tools"})
 SKILL_NAME_RE = re.compile(r"^[a-z0-9][a-z0-9-]{0,63}$")
 SEMVER_RE = re.compile(
     r"^(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)"
@@ -43,6 +46,7 @@ RUNTIME_RESEARCH_HEADING_RE = re.compile(
 )
 FENCE_RE = re.compile(r"^ {0,3}(`{3,}|~{3,})")
 REFERENCE_PATH_RE = re.compile(r"(?<![A-Za-z0-9_.-])references/([A-Za-z0-9_.-]+\.md)(?![A-Za-z0-9_.-])")
+CHANGELOG_RELEASE_RE = re.compile(r"^## \[([^\]]+)\] - (\d{4}-\d{2}-\d{2})[ \t]*$", re.M)
 
 
 @dataclass(frozen=True)
@@ -425,6 +429,59 @@ def _check_openai_ui(skill_path: Path, issues: list[Issue]) -> None:
             _issue(issues, "ui-assets", path, f"asset does not exist: {asset}")
 
 
+def _check_release_surfaces(root: Path, version: str, issues: list[Issue]) -> None:
+    """Keep public release surfaces in step with the skill version.
+
+    A prerelease must be named in the README. A release needs matching
+    citation metadata, a dated changelog heading, a pinned install or
+    checkout of its tag in the README, and release notes linked from the
+    site. This compares identifiers and parsed fields; it does not judge
+    whether the notes are accurate.
+    """
+    readme_path = root / "README.md"
+    readme = _read(readme_path, issues)
+    if "-" in version.split("+", 1)[0]:
+        if readme is not None and version not in readme:
+            _issue(issues, "release-parity", readme_path, f"README must name development version {version}")
+        return
+    pins = (f"@v{version}", f"/tree/v{version}/", f"--branch v{version}")
+    if readme is not None and not any(pin in readme for pin in pins):
+        _issue(issues, "release-parity", readme_path, f"README must give a pinned v{version} install or checkout")
+    citation_path = root / "CITATION.cff"
+    citation_text = _read(citation_path, issues)
+    released: str | None = None
+    if citation_text is not None:
+        try:
+            citation = yaml.safe_load(citation_text)
+        except yaml.YAMLError as exc:
+            citation = f"invalid YAML: {exc}"
+        if not isinstance(citation, dict):
+            _issue(issues, "release-parity", citation_path, "citation metadata must be a YAML mapping")
+        else:
+            if str(citation.get("version")) != version:
+                _issue(issues, "release-parity", citation_path, f"version {citation.get('version')!r} != skill version {version!r}")
+            if citation.get("date-released") is None:
+                _issue(issues, "release-parity", citation_path, "date-released is required for a release")
+            else:
+                released = str(citation["date-released"])
+    changelog_path = root / "CHANGELOG.md"
+    changelog = _read(changelog_path, issues)
+    if changelog is not None:
+        dates = [date for heading, date in CHANGELOG_RELEASE_RE.findall(changelog) if heading == version]
+        if not dates:
+            _issue(issues, "release-parity", changelog_path, f"no '## [{version}] - YYYY-MM-DD' heading")
+        elif released is not None and dates[0] != released:
+            _issue(issues, "release-parity", changelog_path, f"release date {dates[0]} != CITATION date-released {released}")
+    notes = root / "docs" / f"release-notes-v{version}.md"
+    if not notes.is_file():
+        _issue(issues, "release-parity", notes, "release notes for the skill version are missing")
+    for page in (root / "docs" / "index.md", root / "docs" / "_layouts" / "default.html"):
+        if page.is_file():
+            text = _read(page, issues)
+            if text is not None and f"release-notes-v{version}.html" not in text:
+                _issue(issues, "release-parity", page, f"must link release-notes-v{version}.html")
+
+
 def _main_docs(root: Path) -> tuple[Path, ...]:
     return tuple(
         path for path in (
@@ -464,6 +521,16 @@ def check_repository(root: Path | str) -> list[Issue]:
             skill_name = name
         if not isinstance(description, str) or not description.strip() or len(description) > MAX_DESCRIPTION_CHARS:
             _issue(issues, "skill-description", skill_path, f"description must be non-empty text up to {MAX_DESCRIPTION_CHARS} characters")
+        elif "<" in description or ">" in description:
+            _issue(issues, "skill-description", skill_path, "description must not contain angle brackets")
+        unexpected = sorted(str(key) for key in metadata if key not in PORTABLE_FRONTMATTER_KEYS)
+        if unexpected:
+            _issue(issues, "skill-frontmatter", skill_path, f"keys outside the Agent Skills spec: {', '.join(unexpected)}")
+        compatibility = metadata.get("compatibility")
+        if compatibility is not None and (not isinstance(compatibility, str) or len(compatibility) > MAX_COMPATIBILITY_CHARS):
+            _issue(issues, "skill-compatibility", skill_path, f"compatibility must be text up to {MAX_COMPATIBILITY_CHARS} characters")
+        if isinstance(meta, dict) and not all(isinstance(key, str) and isinstance(value, str) for key, value in meta.items()):
+            _issue(issues, "skill-metadata", skill_path, "metadata must map strings to strings; quote numeric values")
         if not isinstance(meta, dict) or not isinstance(meta.get("version"), str):
             _issue(issues, "skill-version", skill_path, "metadata.version must be a string")
         else:
@@ -520,6 +587,8 @@ def check_repository(root: Path | str) -> list[Issue]:
             plugin_description = plugin.get("description")
             if not isinstance(plugin_description, str) or not plugin_description.strip() or len(plugin_description) > MAX_DESCRIPTION_CHARS:
                 _issue(issues, "marketplace-description", root_path / MARKETPLACE_PATH, f"plugin description must be non-empty text up to {MAX_DESCRIPTION_CHARS} characters")
+    if version is not None and SEMVER_RE.fullmatch(version):
+        _check_release_surfaces(root_path, version, issues)
     _check_openai_ui(skill_path, issues)
     return issues
 

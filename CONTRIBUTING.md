@@ -37,9 +37,9 @@ make check
 ```
 
 Checks run offline after dependency installation: parsed metadata, version
-parity, content budgets, reference reachability, supported Markdown links,
-duplicate anchors/long paragraphs, unit tests, numerical smoke tests, and
-shell syntax. `uniqueness_gate.py` is a compatibility entry point for the
+and release-surface parity, portable frontmatter keys, content budgets,
+reference reachability, supported Markdown links, duplicate anchors/long
+paragraphs, unit tests, numerical smoke tests, and shell syntax. `uniqueness_gate.py` is a compatibility entry point for the
 structural checker. CI runs Python 3.11 and 3.12; Pages has a separate build.
 The link scanner's supported Markdown subset and limits are documented in
 `scripts/check_repo.py`; passing it is not proof every renderer/link works.
@@ -133,10 +133,13 @@ its tools' working directory. A failed read must not trigger filesystem-wide
 search. Stop scope-drifting reviews and exclude contaminated verdicts; do not
 describe prompt-only read restrictions as an enforced sandbox.
 
-For Claude packaging changes, run `claude plugin validate .`, then use a
-temporary `CLAUDE_CONFIG_DIR` to add this repository as a local marketplace,
-install `augustus@augustus`, and inspect `claude plugin details`. Expect one
-skill and no hooks, agents, MCP servers, or LSP servers. Do not change the
+For Claude packaging changes, run `claude plugin validate .`, then export the
+candidate commit (`git archive <sha> | tar -x -C <tmp>`) and use a temporary
+`CLAUDE_CONFIG_DIR` to add that export as a local marketplace, install
+`augustus@augustus`, and inspect `claude plugin details`. A working-tree
+marketplace also installs ignored files such as `.DS_Store` and `__pycache__/`.
+Expect one skill; no hooks, agents, MCP servers, or LSP servers; and only
+tracked `.agents/` files in the installed directory. Do not change the
 reviewer's normal plugin settings. Local installation does not verify a
 future remote tag; repeat against the exact release candidate before publishing.
 

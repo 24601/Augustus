@@ -55,8 +55,19 @@ class RepositoryCheckTests(unittest.TestCase):
             "  default_prompt: Use $augustus for a bounded placement.\n",
             encoding="utf-8",
         )
-        (root / "README.md").write_text("# Augustus\n", encoding="utf-8")
+        (root / "README.md").write_text(f"# Augustus\n\nVersion {version}: `git clone --branch v{version}`.\n", encoding="utf-8")
+        (root / "CITATION.cff").write_text(f'version: {version}\ndate-released: "2026-01-02"\n', encoding="utf-8")
+        (root / "CHANGELOG.md").write_text(f"# Changelog\n\n## [{version}] - 2026-01-02\n", encoding="utf-8")
+        notes = root / "docs" / f"release-notes-v{version}.md"
+        notes.parent.mkdir()
+        notes.write_text("# Release notes\n", encoding="utf-8")
         return root
+
+    def rewrite_skill(self, root: Path, old: str, new: str) -> None:
+        skill = root / ".agents/skills/augustus/SKILL.md"
+        text = skill.read_text(encoding="utf-8")
+        self.assertIn(old, text)
+        skill.write_text(text.replace(old, new, 1), encoding="utf-8")
 
     def codes(self, root: Path) -> set[str]:
         return {issue.code for issue in check_repository(root)}
@@ -221,6 +232,49 @@ class RepositoryCheckTests(unittest.TestCase):
         )
         codes = self.codes(root)
         self.assertTrue({"ui-display-name", "ui-short-description", "ui-default-prompt", "ui-policy", "ui-assets"}.issubset(codes))
+
+    def test_frontmatter_stays_within_the_portable_skill_spec(self) -> None:
+        for old, new, code in (
+            ("description: A compact decision-model skill.", "description: Route a <threshold> case.", "skill-description"),
+            ("metadata:\n", "when_to_use: Routing requests.\nmetadata:\n", "skill-frontmatter"),
+            ("metadata:\n", "compatibility: " + "x" * 501 + "\nmetadata:\n", "skill-compatibility"),
+            ("metadata:\n", "metadata:\n  source_commit: 1234567\n", "skill-metadata"),
+        ):
+            with self.subTest(code=code):
+                root = self.make_repo()
+                self.rewrite_skill(root, old, new)
+                self.assertIn(code, self.codes(root))
+        root = self.make_repo()
+        self.rewrite_skill(root, "metadata:\n", "license: MIT\ncompatibility: Python 3.11 or later.\nallowed-tools: Read Grep\nmetadata:\n")
+        self.assertEqual([], check_repository(root))
+
+    def test_release_version_requires_matching_public_surfaces(self) -> None:
+        root = self.make_repo(version="1.2.3")
+        (root / "README.md").write_text("# Augustus\n\n`git clone --branch v1.2.2`\n", encoding="utf-8")
+        (root / "CITATION.cff").write_text('version: 1.2.2\ndate-released: "2026-01-01"\n', encoding="utf-8")
+        (root / "docs/release-notes-v1.2.3.md").unlink()
+        (root / "docs/index.md").write_text("# Home\n\nCurrent release: release-notes-v1.2.2.html\n", encoding="utf-8")
+        messages = [issue.message for issue in check_repository(root) if issue.code == "release-parity"]
+        for expected in ("pinned v1.2.3 install", "'1.2.2' != skill version '1.2.3'", "2026-01-02 != CITATION date-released 2026-01-01",
+                         "release notes", "release-notes-v1.2.3.html"):
+            with self.subTest(expected=expected):
+                self.assertTrue(any(expected in message for message in messages), messages)
+
+    def test_release_readme_may_pin_with_marketplace_or_tree_url(self) -> None:
+        for readme in ("claude plugin marketplace add o/r@v1.2.3\n",
+                       "npx skills add https://github.com/o/r/tree/v1.2.3/.agents/skills/x\n"):
+            with self.subTest(readme=readme):
+                root = self.make_repo(version="1.2.3")
+                (root / "README.md").write_text("# Augustus\n\n" + readme, encoding="utf-8")
+                self.assertNotIn("release-parity", self.codes(root))
+
+    def test_development_version_is_named_in_readme_and_skips_release_surfaces(self) -> None:
+        root = self.make_repo(version="1.2.4-dev")
+        (root / "CITATION.cff").write_text('version: 1.2.3\ndate-released: "2026-01-01"\n', encoding="utf-8")
+        (root / "docs/release-notes-v1.2.4-dev.md").unlink()
+        self.assertEqual([], check_repository(root))
+        (root / "README.md").write_text("# Augustus\n\nPublished release: 1.2.3.\n", encoding="utf-8")
+        self.assertEqual({"release-parity"}, self.codes(root))
 
     def test_ui_optional_invocation_policy_accepts_boolean_not_string(self) -> None:
         root = self.make_repo()
