@@ -16,7 +16,9 @@ research to composition, working evals and iterative improvement. The
 [2026-09-23 decision-job synthesis](decision-jobs-2026-09-23.md) maps bounded
 judgment to jobs and wiring patterns, with the no-model alternative for each
 job. Hourly 0946 (notes.md §165) is a research-only pass: no placement rule
-changed. Use the
+changed. The [2026-09-23 patrol](patrol-2026-09-23.md) records user-requested
+0.7.1 review evidence, its coverage ledger, and promotion candidates; it does
+not change the skill. Use the
 [maintainer prompt](prompts/maintainer.md) to preserve that mission in future work.
 The [current acceptance record](audits/2026-09-22-refresh-acceptance.md) maps
 independent re-reviews to actual evidence and pending publication gates.

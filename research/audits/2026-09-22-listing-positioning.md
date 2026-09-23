@@ -256,3 +256,42 @@ operations were read-only. Local `make check` passed, including all 88 tests,
 both self-tests and shell syntax checks; the complete report diff was reviewed.
 These checks validate repository integration, not
 the completeness of external discovery or any future maintainer acceptance.
+
+## 2026-09-23 read-back
+
+Read-only read-back from the [2026-09-23 patrol](../patrol-2026-09-23.md),
+2026-09-23 about 16:17–16:26Z. The audit text above is unchanged and remains
+the 2026-09-22 record. Nothing was submitted, posted, edited or paid for.
+
+- **Skills directory preview resolved.** The skills.sh page now renders
+  SKILL.md with the 0.7.x description, so the earlier "No SKILL.md available"
+  row no longer reproduces. It shows 6 installs, a directory metric that does
+  not count users.
+- **Snyk warning.** The Snyk audit page shows Warn, MEDIUM, W014 "Failed to
+  locate a SKILL.md file (analysis will be incomplete)", analyzed
+  "Sep 22, 2026 09:59 PM" with no timezone shown. The cause is Unknown. Two
+  comparison skills received real Snyk analyses.
+- **Gen Agent Trust Hub** shows Pass, but its text describes a
+  `uniqueness_gate.py` that uses `subprocess.run`. That matches pre-0.6.0
+  code, not the current shim, so the audit text is stale.
+- **Socket** shows Pass.
+- **Jevusers.** The tracked-project summary for `24601/Augustus` now matches
+  the GitHub About text ("default hosted exemplar"), rank 207 in the snapshot
+  generated 2026-09-23T16:17:59.860Z. The requested summary correction is no
+  longer needed. The curated `/apps` row still carries the older
+  placement-oriented copy and an "in Top 100" badge, although the tracked rank
+  is 207.
+- **Listing entries and PRs unchanged since 2026-09-22.** Hellogumbo #76 is
+  still open at head `e6f5812a27ef`. Yibie #4, AnotiaWang #7, AbdelStark #82
+  and Cobanov #59 are merged. Anil-matcha #9 is closed but applied. Fatwang2
+  #151 is closed, and Logicrw #57 is closed as not planned. Entry wording is
+  unchanged at current heads; Cobanov still says "dominant exemplar". An
+  `author:24601` search found no new external submissions.
+- **No external submissions were made.**
+
+Next action after 0.7.1 is published: re-read these audit pages and the
+listing entries. Only with maintainer authorization, report W014 to
+[vercel-labs/skills issues](https://github.com/vercel-labs/skills/issues) with
+the page URL, published SKILL path and revision. Do not add duplicate skill
+layouts to work around the scanner. The drafted description updates above
+become current once 0.7.1 is live and still need authorization.

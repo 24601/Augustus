@@ -41,16 +41,17 @@
       "id": "github:cwhy/decision-injection-bench",
       "node_id": "R_kgDOUlH1ow",
       "notes_section": "164",
-      "last_look": "2026-09-22T16:05Z",
+      "last_look": "2026-09-23T16:21Z",
       "fingerprints": {
-        "default_sha": "f566360ffac91bfc50574aef722307dcbf51d5e1",
-        "pushed_at": "2026-09-22T14:30:38Z",
+        "default_sha": "887635fd4d993149423e0531fc8daf25eafe6d99",
+        "pushed_at": "2026-09-23T06:28:14Z",
         "description_hash": "422341255b61",
         "release_tag": null
       },
       "readme_sha": "29bce6f013ba7d5598cf32b577d58e12e0ef9f2d",
-      "review_depth": "readme",
-      "review_card": "research/decision-model-review-2026-09-22.md"
+      "review_depth": "source_diff",
+      "review_card": "research/patrol-2026-09-23.md",
+      "note": "2026-09-23 patrol §166: v0.4.0 README, CHANGELOG, results/2026-09-23-kev/README.md and manifest.json read; runtime pin f566360 is an ancestor of HEAD; flip counts are theirs; previous look 2026-09-22T16:05Z was readme; readme_sha not re-recorded; value is from the previous look"
     },
     {
       "id": "github:ReallyArtificial/stuntdouble",
@@ -65,7 +66,10 @@
       },
       "readme_sha": "ede24238bcec46699c16a66ab2ddcf6bbcc612e9",
       "review_depth": "readme",
-      "review_card": "research/decision-model-review-2026-09-22.md"
+      "review_card": "research/decision-model-review-2026-09-22.md",
+      "unjoined_head": "fb9f08ec37a4fa62f80a8aeceac1cdcbcb02de29",
+      "unjoined_head_pushed_at": "2026-09-22T17:25:50Z",
+      "note": "2026-09-23 patrol §166 repo_metadata only at 2026-09-23T16:21Z: compare d7126d6...fb9f08e returned 404 no common ancestor; history rewritten; new tree not reviewed; stored fingerprints and last_look kept"
     },
     {
       "id": "github:willkelly/jev-evaluation",
@@ -1216,16 +1220,17 @@
       "id": "github:wfzyx/von",
       "node_id": "R_kgDOUfrk7A",
       "notes_section": "49",
-      "last_look": "2026-09-22T16:05Z",
+      "last_look": "2026-09-23T16:20Z",
       "fingerprints": {
-        "default_sha": "581b87499e7d72fc267b145706ef79bee83a800a",
-        "pushed_at": "2026-09-22T15:13:09Z",
+        "default_sha": "657f42f45fcfbf8cbfceaff7af5a2193dcec2b8b",
+        "pushed_at": "2026-09-23T07:30:21Z",
         "description_hash": "34db25cb81c1",
         "release_tag": null
       },
-      "readme_sha": "f736f18ab2bc615f0535af4deefa502c2d7f4f61",
-      "review_depth": "selected_commit_messages_and_readme_diff",
-      "review_card": "research/decision-model-review-2026-09-22.md"
+      "readme_sha": "f2c8c8a37f1d1d86cce4539b41cccd44ff236702",
+      "review_depth": "source_diff",
+      "review_card": "research/patrol-2026-09-23.md",
+      "note": "2026-09-23 patrol §166: training/contamination_audit.py read in full (prints CLEAN when reference directories are missing), noul_prior_fit.py and README patch read; not executed; previous look 2026-09-22T16:05Z was selected_commit_messages_and_readme_diff; readme_sha is the head blob SHA from the compare receipt"
     },
     {
       "id": "github:Heman10x-NGU/openJev-verdict-2.0",
@@ -1243,17 +1248,17 @@
       "id": "github:jaredpalmer/kev",
       "node_id": "R_kgDOUfXmpg",
       "notes_section": "45",
-      "last_look": "2026-09-22T16:05Z",
+      "last_look": "2026-09-23T16:20Z",
       "fingerprints": {
-        "default_sha": "1c351992ba3df4a0a0f2ae03051b25466a2c7bcb",
-        "pushed_at": "2026-09-22T15:33:49Z",
+        "default_sha": "557598fced1dada75dfbf36ed144dce309ac6ceb",
+        "pushed_at": "2026-09-23T12:40:23Z",
         "description_hash": "47fc60928c90",
         "release_tag": "kev-family"
       },
-      "readme_sha": "2609bf219b9069f6a5c72d00e61ff3491850a311",
-      "note": "1851 densify §45; stored look was 4f8110a3f862; watch prior prefix 35566d73bea1; HEAD 90990a5fac2995b9faa3190f7d437e84f2067768; modal_probe35.py folded into modal_app.py; no new benchmark result; SHA move is not a replica; description_hash unchanged 47fc60928c90; release_tag kev-family; README SHA not recorded as moved",
-      "review_depth": "commit_and_readme_diff",
-      "review_card": "research/decision-model-review-2026-09-22.md"
+      "readme_sha": "47ef43eab19ae74b1df2c3e9f533ebc9de4240c5",
+      "note": "1851 densify §45; stored look was 4f8110a3f862; watch prior prefix 35566d73bea1; HEAD 90990a5fac2995b9faa3190f7d437e84f2067768; modal_probe35.py folded into modal_app.py; no new benchmark result; SHA move is not a replica; description_hash unchanged 47fc60928c90; release_tag kev-family; README SHA not recorded as moved | 2026-09-23 patrol §166: README patch, kev/autoresearch.py, kev/calibrate.py and docs/claims.json head read; compare truncated at 300 files; round-4/5 reports not read; previous look 2026-09-22T16:05Z was commit_and_readme_diff; readme_sha is the head blob SHA from the compare receipt",
+      "review_depth": "source_diff",
+      "review_card": "research/patrol-2026-09-23.md"
     },
     {
       "id": "github:logan-markewich/jeff",
@@ -1270,14 +1275,18 @@
     {
       "id": "github:TypeLLM/TypeLLM",
       "notes_section": "113",
-      "last_look": "2026-09-21T05:47Z",
+      "last_look": "2026-09-23T16:21Z",
       "fingerprints": {
-        "default_sha": "8a8b4aefd443e47e608bfdc2a679ede28bcc1d8e",
-        "pushed_at": "2026-09-21T04:49:02Z",
-        "description_hash": "4e7869c96688",
-        "release_tag": "v0.1.1"
+        "default_sha": "d592c10cd527188e5e81c22a2816017a988c6d8f",
+        "pushed_at": "2026-09-23T12:33:49Z",
+        "description_hash": "62ec3b52c3c0",
+        "release_tag": "v0.1.4"
       },
-      "readme_sha": "9f6dea3a4c8c8033a051f5d1eba59ea438843127"
+      "readme_sha": "9f6dea3a4c8c8033a051f5d1eba59ea438843127",
+      "node_id": "R_kgDOUev6yQ",
+      "review_depth": "readme_and_blog",
+      "review_card": "research/patrol-2026-09-23.md",
+      "note": "2026-09-23 patrol §166: zmtomorrow/TypeAR (§32) and TypeAR-AI/TypeAR resolve to this node R_kgDOUev6yQ (GitHub API full_name TypeLLM/TypeLLM; commit 2026-09-20 renames TypeAR to TypeLLM); README at d592c10 and typellm.ai/blog/fair-die read; 35 commits since 8a8b4ae not individually diffed; fair-die numbers are theirs; readme_sha not re-recorded; value is from the previous look"
     },
     {
       "id": "github:sseanliu/Jev-Vision",
@@ -4392,14 +4401,18 @@
     {
       "id": "github:bespokelabsai/nimble",
       "notes_section": "35",
-      "last_look": "2026-09-21T11:51Z",
+      "last_look": "2026-09-23T16:20Z",
       "fingerprints": {
-        "default_sha": "f136b3f75721fda4ea961f73993cc50b08488835",
-        "pushed_at": "2026-09-20T19:44:35Z",
+        "default_sha": "38edc3b576f13179df785d412621d5cb1128d02d",
+        "pushed_at": "2026-09-23T05:22:26Z",
         "description_hash": "d6b46a233923",
         "release_tag": null
       },
-      "readme_sha": "b3a04a310f1e786c7ed306a9d45f9487e7667742decda635dd5976b201d18d32"
+      "readme_sha": "a398b5c279886ab5b22e24d876ca5e0eb62afc7d",
+      "node_id": "R_kgDOUf54AA",
+      "review_depth": "source_diff",
+      "review_card": "research/patrol-2026-09-23.md",
+      "note": "2026-09-23 patrol §166: default temperature 2.179 for revision 93ec5d6; README, calibration.py, parallel_scorer.py and PUBLIC_BENCHMARKS.md read; previous readme_sha was a 64-hex digest, replaced by the 40-hex blob SHA; readme_sha is the head blob SHA from the compare receipt"
     },
     {
       "id": "github:47thtechcorner/RayCodes_GLiNER_V1_Multi",
@@ -4693,21 +4706,24 @@
     {
       "id": "github:typesafe-ai/typesafe-sdk-js",
       "notes_section": "143",
-      "last_look": "2026-09-21T14:23Z",
+      "last_look": "2026-09-23T16:20Z",
       "fingerprints": {
         "default_sha": "66880ccded6cb642dc1809620c2b108c33730214",
         "pushed_at": "2026-09-15T18:16:49Z",
         "description_hash": "38d4d45a89a9",
-        "release_tag": null
+        "release_tag": "v0.6.0"
       },
       "readme_sha": "7e834076c14e955e7fa943a1405c1c304fabfe56",
-      "note": "0823 first card GitHub face"
+      "note": "0823 first card GitHub face | 2026-09-23 patrol §166: HEAD unchanged; release_tag was null in the previous look and the latest release is v0.6.0; client.ts, errors.ts and questions.ts read at 66880cc; readme_sha not re-recorded; value is from the previous look",
+      "node_id": "R_kgDOUOvfFg",
+      "review_depth": "unchanged_head_selected_source",
+      "review_card": "research/patrol-2026-09-23.md"
     },
     {
       "id": "github:typesafe-ai/typesafe-sdk-python",
       "node_id": "R_kgDOUOswyQ",
       "notes_section": "143",
-      "last_look": "2026-09-22T16:05Z",
+      "last_look": "2026-09-23T16:20Z",
       "fingerprints": {
         "default_sha": "0ffd094c72ed9445223060b24ffd7a56aa781fb4",
         "pushed_at": "2026-09-21T15:57:12Z",
@@ -4715,9 +4731,9 @@
         "release_tag": "v0.7.1"
       },
       "readme_sha": "361a3bc13e198b897e253126103fb8e874c48653",
-      "note": "0823 first card GitHub face",
-      "review_depth": "official_release_changelog",
-      "review_card": "research/decision-model-review-2026-09-22.md"
+      "note": "0823 first card GitHub face | 2026-09-23 patrol §166: HEAD unchanged; config.py, errors.py and questions.py read at 0ffd094 (a one-level Score passes SDK validation); previous look 2026-09-22T16:05Z was official_release_changelog; readme_sha not re-recorded; value is from the previous look",
+      "review_depth": "unchanged_head_selected_source",
+      "review_card": "research/patrol-2026-09-23.md"
     },
     {
       "id": "github:vericle/intellyweave",
@@ -8087,15 +8103,16 @@
     {
       "id": "hf:akhilaaa3/Jev-Omni",
       "notes_section": "156",
-      "last_look": "2026-09-22T16:05Z",
+      "last_look": "2026-09-23T16:21Z",
       "fingerprints": {
-        "default_sha": "55b53f2ec1b4c656c8a6172b0c7555ae578a9c3f",
-        "pushed_at": "2026-09-22T14:17:29.000Z",
+        "default_sha": "c050d51354147985d13286cf4acf90f562f2c631",
+        "pushed_at": "2026-09-22T22:45:48.000Z",
         "description_hash": null,
         "release_tag": null
       },
-      "review_depth": "model_card_config_loader_verification",
-      "review_card": "research/decision-model-review-2026-09-22.md"
+      "review_depth": "card_diff_tree_diff_verification",
+      "review_card": "research/patrol-2026-09-23.md",
+      "note": "2026-09-23 patrol §166: unified bf16 checkpoint and verification_unified.json added (4-case parity, theirs); card otherwise unchanged; weights not downloaded; runtime pin 55b53f2 still resolves; previous look 2026-09-22T16:05Z was model_card_config_loader_verification"
     },
     {
       "id": "hf:inferenceprince/laya-onnx",
@@ -8489,14 +8506,18 @@
     {
       "id": "github:kyr0/typed-decision-bench",
       "notes_section": "156",
-      "last_look": "2026-09-21T22:53Z",
+      "last_look": "2026-09-23T16:21Z",
       "fingerprints": {
-        "default_sha": "67b590ddae82fbd5e263428d38701693dd7ae882",
-        "pushed_at": "2026-09-21T22:49:47Z",
-        "description_hash": "e98ae12fcec6",
+        "default_sha": "e949e5e9ba761f34f1db0dc75c04ebe7294bd803",
+        "pushed_at": "2026-09-23T15:40:40Z",
+        "description_hash": "9c10bc7d49ed",
         "release_tag": null
       },
-      "readme_sha": "93bc038e338b492cab5b32345aa4ca4b90c3a6b6"
+      "readme_sha": "32ed72a6649e443c41d8e0835a1678a07b87727e",
+      "node_id": "R_kgDOUkoZCQ",
+      "review_depth": "readme_diff",
+      "review_card": "research/patrol-2026-09-23.md",
+      "note": "2026-09-23 patrol §166: README and CALIBRATION.md additions read; 'provably' calibration claim is theirs; paper not read; readme_sha is the head blob SHA from the compare receipt"
     },
     {
       "id": "github:liujitcn/jev-game",
@@ -14412,6 +14433,169 @@
       },
       "review_depth": "hub_metadata",
       "note": "0946 dataset card header only"
+    },
+    {
+      "id": "github:typesafe-ai/skills",
+      "node_id": "R_kgDOUDLV7Q",
+      "notes_section": "4",
+      "last_look": "2026-09-23T16:20Z",
+      "fingerprints": {
+        "default_sha": "65a39f393687675ce170e6094757de20370365b9",
+        "pushed_at": "2026-09-12T05:42:06Z",
+        "description_hash": "29d80e0ef4f2",
+        "release_tag": null
+      },
+      "review_depth": "unchanged_head_skill_md_read",
+      "review_card": "research/patrol-2026-09-23.md",
+      "note": "2026-09-23 patrol §166: HEAD = tag v0.5.7 = 65a39f3; no releases; SKILL.md, plugin.json, marketplace.json and README read at the pin; /pulls 404 (Unknown); issue list #1-#12 fetched with bodies; comments read on #1, #2, #6 and #8"
+    },
+    {
+      "id": "github:fstandhartinger/jevbench",
+      "node_id": "R_kgDOUhEMSA",
+      "notes_section": "67",
+      "last_look": "2026-09-23T16:20Z",
+      "fingerprints": {
+        "default_sha": "2fa63fa3226cb369795525ed011800f57dcbd894",
+        "pushed_at": "2026-09-23T10:06:47Z",
+        "description_hash": "c8e498c28c47",
+        "release_tag": "v1.4.0"
+      },
+      "review_depth": "docs_diff",
+      "review_card": "research/patrol-2026-09-23.md",
+      "note": "2026-09-23 patrol §166 densify §67/§78: docs/METHOD-v1.4.md and docs/RELEASE-v1.4.0.md read; sealed items private; ranks and formula are theirs; not Harbor"
+    },
+    {
+      "id": "github:kinde-starter-kits/jev-agent-authorization",
+      "node_id": "R_kgDOUmiakw",
+      "notes_section": "166",
+      "last_look": "2026-09-23T16:36Z",
+      "fingerprints": {
+        "default_sha": "5e938cb7bb8d5d9417566b35e9b9e3a41f5ba22b",
+        "pushed_at": "2026-09-23T13:07:01Z",
+        "description_hash": "5c5140014e9b",
+        "release_tag": null
+      },
+      "review_depth": "selected_source",
+      "review_card": "research/patrol-2026-09-23.md",
+      "note": "first card; guard/policy.ts, guard/access.ts, jev/questions.ts, jev/judge.ts read; tests not read; thresholds are unvalidated constants (POLICY_VERSION 2026-09-23.2)"
+    },
+    {
+      "id": "github:strangeloopcanon/dynajev",
+      "node_id": "R_kgDOUmfX-A",
+      "notes_section": "166",
+      "last_look": "2026-09-23T16:37Z",
+      "fingerprints": {
+        "default_sha": "8afc7ef30520fc79c6bb36d4de140cdb7e8411c8",
+        "pushed_at": "2026-09-23T06:32:47Z",
+        "description_hash": "7bea01947b15",
+        "release_tag": null
+      },
+      "review_depth": "readme",
+      "review_card": "research/patrol-2026-09-23.md",
+      "note": "first card; per-question readout heads on Qwen3.5-2B; 71 vs 72 of 74 and latency figures are theirs"
+    },
+    {
+      "id": "github:lucioamor/jevify",
+      "node_id": "R_kgDOUl65lA",
+      "notes_section": "166",
+      "last_look": "2026-09-23T16:37Z",
+      "fingerprints": {
+        "default_sha": "19aac6b5531854daa6cb920d66bc0264ad3b9fc3",
+        "pushed_at": "2026-09-23T15:47:42Z",
+        "description_hash": "715d11094bd9",
+        "release_tag": null
+      },
+      "review_depth": "readme",
+      "review_card": "research/patrol-2026-09-23.md",
+      "note": "first card; not ryana/jevify (§152), different owner, no join; hosted MCP service implementation not public"
+    },
+    {
+      "id": "github:MahdiHedhli/foreman-jev-evaluation",
+      "node_id": "R_kgDOUmBlHg",
+      "notes_section": "166",
+      "last_look": "2026-09-23T16:40Z",
+      "fingerprints": {
+        "default_sha": "a4d1c612be68939fef38007072416aee9bca3e0c",
+        "pushed_at": "2026-09-22T17:33:47Z",
+        "description_hash": "a081f1ff363e",
+        "release_tag": null
+      },
+      "review_depth": "readme",
+      "review_card": "research/patrol-2026-09-23.md",
+      "note": "first card; pushed_at and description_hash from the discovery receipt; release not probed (null is unknown); 14-snapshot results are theirs; not reification-labs/foreman (§51)"
+    },
+    {
+      "id": "github:anshull-saxena/candidate-order-instability",
+      "node_id": "R_kgDOUmYdgg",
+      "notes_section": "166",
+      "last_look": "2026-09-23T16:52Z",
+      "fingerprints": {
+        "default_sha": "ca5b7d4a51e45be202d952d23346c1b8c46a757e",
+        "pushed_at": "2026-09-23T12:17:31Z",
+        "description_hash": "7ce22b1449a4",
+        "release_tag": null
+      },
+      "review_depth": "readme",
+      "review_card": "research/patrol-2026-09-23.md",
+      "note": "first card; pushed_at and description_hash from the discovery receipt; release not probed; flip rates are theirs and mix K=72 with K=77"
+    },
+    {
+      "id": "github:apolinario/decision-index",
+      "node_id": "R_kgDOUk8gig",
+      "notes_section": "166",
+      "last_look": "2026-09-23T16:47Z",
+      "fingerprints": {
+        "default_sha": "52a698928a9ae5bdf16b75687c903871db29c6e5",
+        "pushed_at": "2026-09-22T05:24:34Z",
+        "description_hash": "4752667a9d43",
+        "release_tag": null
+      },
+      "review_depth": "readme",
+      "review_card": "research/patrol-2026-09-23.md",
+      "note": "first card; node ID already in the 2026-09-22 discovery packet at metadata depth; suite and runs not downloaded; release not probed"
+    },
+    {
+      "id": "github:magnus919/agent-skills",
+      "node_id": "R_kgDOTVrTDQ",
+      "notes_section": "166",
+      "last_look": "2026-09-23T16:22Z",
+      "fingerprints": {
+        "default_sha": "38482f4c2b466ddd703e83ecc22f75363bdd6e9c",
+        "pushed_at": "2026-09-23T08:37:12Z",
+        "description_hash": "6a3f4e42069d",
+        "release_tag": null
+      },
+      "review_depth": "selected_source",
+      "review_card": "research/patrol-2026-09-23.md",
+      "note": "first card for the system-one skill: SKILL.md, evals.json, tree and CI workflows read; activation neighbor of Augustus; release not probed"
+    },
+    {
+      "id": "github:NVIDIA/SkillEvaluator",
+      "notes_section": "166",
+      "last_look": "2026-09-23T16:23Z",
+      "fingerprints": {
+        "default_sha": "5c732733bc9592746204e207a163be9c4ed94cfa",
+        "pushed_at": null,
+        "description_hash": null,
+        "release_tag": "v0.3.0"
+      },
+      "review_depth": "readme",
+      "review_card": "research/patrol-2026-09-23.md",
+      "note": "first card; README and releases read; pushed_at, description and node ID not captured (null is unknown); not run"
+    },
+    {
+      "id": "hf:llm-semantic-router/Decision-1.0-Lux-9B",
+      "notes_section": "166",
+      "last_look": "2026-09-23T16:49Z",
+      "fingerprints": {
+        "default_sha": "bd45a30aee8c84032791c245c70f86dee5389cc8",
+        "pushed_at": "2026-09-22T16:45:32.000Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "review_depth": "card_sensitivity_diagnostics",
+      "review_card": "research/patrol-2026-09-23.md",
+      "note": "first card; README, SENSITIVITY.md and DIAGNOSTICS.md read; weights not downloaded; post-hoc benchmark weights and missing-evidence shares are theirs"
     }
   ],
   "entries": null

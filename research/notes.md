@@ -45199,3 +45199,82 @@ Observed result, limitations, and next decision: research-only; next experiment 
 
 Soft judgment is not the veto. The sources' own limits and the existing
 rules are. `invented_signal: false`.
+
+## 166. User-requested patrol and 0.7.1 review evidence (2026-09-23)
+
+Canonical review: [coverage, source cards and dispositions](patrol-2026-09-23.md).
+Retrieval 2026-09-23, about 16:15–16:55Z, after the full refresh (GitHub
+cutoff 2026-09-22T15:35Z) and §165 (16:04Z). Research-only: no skill, human
+README, site or version change. Which candidates reach runtime guidance is
+decided in the 0.7.1 acceptance record.
+
+First sightings, with inspection depth:
+
+- **github:kinde-starter-kits/jev-agent-authorization**, node `R_kgDOUmiakw`,
+  `5e938cb7bb8d5d9417566b35e9b9e3a41f5ba22b`: guard and Jev question/judge
+  source read, tests not read. Exact permission first; high-impact tiers
+  always step up; thresholds are unvalidated constants.
+- **github:MahdiHedhli/foreman-jev-evaluation**, `R_kgDOUmBlHg`,
+  `a4d1c612be68939fef38007072416aee9bca3e0c`: README. The deterministic gate
+  did the blocking; the author makes no statistical claim.
+- **hf:llm-semantic-router/Decision-1.0-Lux-9B**,
+  `bd45a30aee8c84032791c245c70f86dee5389cc8`: card, SENSITIVITY and DIAGNOSTICS.
+  Post-hoc headline weights; missing-evidence overconfidence is theirs.
+- **github:strangeloopcanon/dynajev** (`R_kgDOUmfX-A`, `8afc7ef30520…`),
+  **github:lucioamor/jevify** (`R_kgDOUl65lA`, `19aac6b55318…`; not
+  ryana/jevify §152), **github:anshull-saxena/candidate-order-instability**
+  (`R_kgDOUmYdgg`, `ca5b7d4a51e4…`) and **github:apolinario/decision-index**
+  (`R_kgDOUk8gig`, `52a698928a9a…`; node already in the 2026-09-22 discovery
+  packet at metadata depth): README only.
+- **github:magnus919/agent-skills** `system-one/`, `R_kgDOTVrTDQ`,
+  `38482f4c2b466ddd703e83ecc22f75363bdd6e9c`: SKILL.md, evals, tree and CI read.
+  An activation neighbor, not a peer to copy.
+- **github:NVIDIA/SkillEvaluator**, `5c732733bc9592746204e207a163be9c4ed94cfa`,
+  v0.3.0: README and releases; not run.
+- **url:https://typellm.ai/blog/fair-die** (dated 2026-09-22): full text.
+  Separates position bias from a label prior; n = 1 context.
+- **url:https://api.typesafe.ai/openapi.json**, sha256 `a191f8a7…`, and
+  **url:https://docs.typesafe.ai/introduction/coding-agents.md**, sha256
+  `e61ec462…`: read in full. Machine and prose contracts diverge on option and
+  level bounds.
+- **github:typesafe-ai/skills issues #2, #4, #6, #8, #10** (with #1): bodies
+  read, comments on #1, #2, #6 and #8. Reported, none reproduced.
+- **url:https://code.claude.com/docs/en/plugin-evals.md** and
+  **url:https://code.claude.com/docs/en/skills.md**, plus agentskills.io
+  optimizing-descriptions and using-scripts: full reads. The $1.20 plugin-eval
+  pilot is a smoke, not a rate.
+- Papers submitted in the 2026-09-10..23 window: arXiv:2609.26758v1,
+  2609.26384v1 and 2609.12742v1 at full methods; 2609.25938v1, 2609.24200v1,
+  2609.20758v1, 2609.24052v1, 2609.24574v1 and 2609.22512v1 at key sections;
+  2609.16793v1, 2609.19942v1, 2609.17306v1, 2609.26532v1, 2609.18204v1 and
+  nine archive-only IDs at abstract depth. Older work newly found, abstract
+  only: 2403.03208v3, 1908.04734v5, 2410.15729v5, 2301.09633v4, 2311.01453v2,
+  2502.01027v4.
+
+Revisits stay in their original sections:
+
+- TypeLLM §113, with TypeAR §32: `zmtomorrow/TypeAR` resolves to node
+  `R_kgDOUev6yQ`; `8a8b4ae` → `d592c10`; README and fair-die blog read.
+- decision-injection-bench §164: `f566360` → `887635f` (v0.4.0), source diff.
+- kev §45: `1c35199` → `557598f`, source diff; the compare was truncated.
+- nimble §35: `f136b3f` → `38edc3b`, source diff.
+- von §49: `581b874` → `657f42f`, source diff.
+- Jev-Omni §156: `55b53f2` → `c050d51`, card, tree and verification diff.
+- typed-decision-bench §156: `836c1e7` → `e949e5e`, README diff.
+- jevbench §67 and §78: `51a8d73` → `2fa63fa` (v1.4.0), method and release
+  docs.
+- Official SDKs §143: HEADs unchanged, selected source read.
+  `typesafe-ai/skills` §4: HEAD `65a39f3` = v0.5.7, unchanged; SKILL.md at the
+  pin read.
+- Elkan §21: [decision-jobs](decision-jobs-2026-09-23.md) carries a dated
+  correction of the dominance convention.
+- stuntdouble §164: history rewritten, no common ancestor; the new tree was not
+  reviewed and stored fingerprints were kept.
+- GLiNER, GLiNER2, TabPFN, lcc, jev-rerank-bench, Open-Jev, kotoba
+  typed-decisions and one-system moved at commit-list depth only. Their
+  fingerprints were not advanced.
+
+Full revisions, inspection depths and failed fetches are in the dated
+[archive](archive/2026-09-23-patrol/). No third-party benchmark was upgraded
+from Reported to Reproduced. The only Reproduced items are local arithmetic,
+install smokes and the plugin-eval pilot.
