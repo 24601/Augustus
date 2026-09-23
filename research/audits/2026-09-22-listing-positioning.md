@@ -295,3 +295,32 @@ listing entries. Only with maintainer authorization, report W014 to
 the page URL, published SKILL path and revision. Do not add duplicate skill
 layouts to work around the scanner. The drafted description updates above
 become current once 0.7.1 is live and still need authorization.
+
+## 2026-09-23 submissions (after 0.7.1 publication)
+
+The maintainer authorized fixing the queued listings and the topics. Each
+change edits only the existing Augustus entry and follows that repository's
+contribution rules. Each PR discloses maintainer affiliation and AI
+assistance. No new registrations were made, and no closed or rejected
+submission was reopened.
+
+| Surface | Action | State at submission |
+| --- | --- | --- |
+| hellogumbo/awesome-jev [#76](https://github.com/hellogumbo/awesome-jev/pull/76) | Amended the existing PR: description only, category `agents` kept; `node scripts/validate.mjs` passed (808 entries) | Open, head `7ff18835` |
+| yibie/awesome-jev [#203](https://github.com/yibie/awesome-jev/pull/203) | Category source edited; README regenerated with `scripts/build-readme.py`; tag audit and unit tests passed | Open |
+| AnotiaWang/awesome-jev [#69](https://github.com/AnotiaWang/awesome-jev/pull/69) | Paired English and Chinese entries in the same position; "Unofficial" / "非官方" per rule 5 | Open |
+| AbdelStark/awesome-typesafe-jev [#128](https://github.com/AbdelStark/awesome-typesafe-jev/pull/128) | README-only; `scripts/check.py` passed; derived artifacts left for maintainer regeneration | Open |
+| cobanov/awesome-jev [#95](https://github.com/cobanov/awesome-jev/pull/95) | "Dominant exemplar" corrected to "default hosted exemplar", in its existing section | Open |
+| Anil-matcha/awesome-jev-by-typesafe [#77](https://github.com/Anil-matcha/awesome-jev-by-typesafe/pull/77) | Community-implementation paragraph replaced; unit tests and link check passed | Open |
+| skills.sh Snyk W014 | Re-index and re-audit requested: [vercel-labs/skills#2286](https://github.com/vercel-labs/skills/issues/2286). The audit still showed the 2026-09-22 21:59 scan after publication | Open |
+| GitHub topics | `system-one-models` and `structured-output` replaced by `llm-evaluation` and `prompt-optimization` (20 topics). Read back | Done |
+
+Not submitted:
+
+- v-modal (editing surface still ambiguous).
+- mabodx (generated from Jevusers).
+- The Jevusers apps card, Made with Jev, and Shipwithjev (no confirmed free
+  edit route).
+
+Opening a PR is not acceptance. Re-read each listing after its maintainer
+acts.
