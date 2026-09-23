@@ -6422,9 +6422,9 @@
     "kind": "hf",
     "title": "tasksource/tasksource-jev-typed-decisions",
     "url": "https://huggingface.co/datasets/tasksource/tasksource-jev-typed-decisions",
-    "note": "sha 35f5abfb3d2c6e0db6226bf17aeeec3a7b208882. Card read. 900000 train rows. procedural-jev slice is not human-authored. Recast target is not original-task gold. notes.md §167.",
-    "reviewed_at": "2026-09-23T18:55Z",
-    "review": "archive/hourly/2026-09-23T18/fold_167.md"
+    "note": "§167 sha 35f5abfb3d2c6e0db6226bf17aeeec3a7b208882, card read, 900000 train. §168 sha 987cc2a7cb8156eebd51cc62029443eb95719a77. Card README still states 900000 train, 50000 validation, 50000 test. release-audit.json not opened. Procedural slice still tagged. License other. notes.md §168.",
+    "reviewed_at": "2026-09-23T21:44Z",
+    "review": "archive/hourly/2026-09-23T21/fold_168.md"
   },
   {
     "kind": "hf",
@@ -6457,6 +6457,103 @@
     "note": "HEAD 40a7021331cd5edd9635c03665de6a9402c27b7d. No README. Commit message only, backtest not rerun. 80.1% win rate with -17.6% return is theirs. Win rate is not return. notes.md §167.",
     "reviewed_at": "2026-09-23T18:55Z",
     "review": "archive/hourly/2026-09-23T18/fold_167.md"
+  }
+,
+  {
+    "kind": "github",
+    "title": "allebee/jevk5",
+    "url": "https://github.com/allebee/jevk5",
+    "note": "HEAD 01d3cc99e11d5a080d9d15dd232eaa89e0941c1d. README and MODEL_CARD diff from §167. Sealed 33.1/36.7 on 308 and public 85.3/86.6 on 231 stay separate from the v1.4 composite. No scoring row. notes.md §168.",
+    "reviewed_at": "2026-09-23T21:44Z",
+    "review": "archive/hourly/2026-09-23T21/fold_168.md"
+  },
+  {
+    "kind": "github",
+    "title": "itsmostafa/typesafe-mcp",
+    "url": "https://github.com/itsmostafa/typesafe-mcp",
+    "note": "HEAD 4f29b32b2e3eb6e2eb20673b31d3745ea5c5ead4 tag v0.4.5. README and tool reference. Choice confidence is the margin. Score formula unpublished on that page. Local base URL is a route. notes.md §168.",
+    "reviewed_at": "2026-09-23T21:44Z",
+    "review": "archive/hourly/2026-09-23T21/fold_168.md"
+  },
+  {
+    "kind": "github",
+    "title": "kinde-starter-kits/jev-agent-authorization",
+    "url": "https://github.com/kinde-starter-kits/jev-agent-authorization",
+    "note": "HEAD 48819c20f4a05cfd5b5b7d925466e55820ade55a. Densify §166. README table: policy arm false-allow 0.0% on their 300 calls. Not a certificate. Bench not rerun. notes.md §168.",
+    "reviewed_at": "2026-09-23T21:44Z",
+    "review": "archive/hourly/2026-09-23T21/fold_168.md"
+  },
+  {
+    "kind": "github",
+    "title": "MohitSV/jev-calibration-audit",
+    "url": "https://github.com/MohitSV/jev-calibration-audit",
+    "note": "HEAD f589639442c8860de0cb0a6097852acfe309cd4d. Not jujumilk3/jev-calibration-audit. Fair-coin Choice pull and stated-rate saturation are theirs. Experiments not rerun. notes.md §168.",
+    "reviewed_at": "2026-09-23T21:44Z",
+    "review": "archive/hourly/2026-09-23T21/fold_168.md"
+  },
+  {
+    "kind": "github",
+    "title": "r4topunk/jev-trading-study",
+    "url": "https://github.com/r4topunk/jev-trading-study",
+    "note": "HEAD 2d0c4e63be9ad76a71c0b47d265791cfb118b463. README scores 34496 decisions, pooled AUC 0.475. Description 40228 was not the scored count. Not rerun. notes.md §168.",
+    "reviewed_at": "2026-09-23T21:44Z",
+    "review": "archive/hourly/2026-09-23T21/fold_168.md"
+  },
+  {
+    "kind": "github",
+    "title": "zaesho/S1Rank",
+    "url": "https://github.com/zaesho/S1Rank",
+    "note": "HEAD c532159e74379177d85d5bea46aa884d7b2752e3. README headline. Cache not recomputed. Joint Noul rerank and Choice-best are different questions. S1Adaptive is their negative. notes.md §168.",
+    "reviewed_at": "2026-09-23T21:44Z",
+    "review": "archive/hourly/2026-09-23T21/fold_168.md"
+  },
+  {
+    "kind": "github",
+    "title": "stillmarcus24/jev-verify",
+    "url": "https://github.com/stillmarcus24/jev-verify",
+    "note": "HEAD 7a161eeef676b995ee7146de687d6fc5e7ce9cec. Choice margin identity. Score formula disagrees with the typesafe-mcp tool reference. Census not rerun. notes.md §168.",
+    "reviewed_at": "2026-09-23T21:44Z",
+    "review": "archive/hourly/2026-09-23T21/fold_168.md"
+  },
+  {
+    "kind": "github",
+    "title": "clawdbot58-pixel/sentinel",
+    "url": "https://github.com/clawdbot58-pixel/sentinel",
+    "note": "HEAD bda4269f3224a57b241a40440b9119598ba48f78. Public-231 banner 87.9% is theirs, not Harbor. Not harshwasan/jev-sentinel. Qwen3.8 is not Archer. notes.md §168.",
+    "reviewed_at": "2026-09-23T21:44Z",
+    "review": "archive/hourly/2026-09-23T21/fold_168.md"
+  },
+  {
+    "kind": "github",
+    "title": "Mushroom-Systems/lichen",
+    "url": "https://github.com/Mushroom-Systems/lichen",
+    "note": "HEAD ef4a6e395f30c6e02f86013e2682cf977a5d6220. Public-table 0.896 is theirs. Order averaging. Not a TypeSafe replica. notes.md §168.",
+    "reviewed_at": "2026-09-23T21:44Z",
+    "review": "archive/hourly/2026-09-23T21/fold_168.md"
+  },
+  {
+    "kind": "hf",
+    "title": "Jojoarumugam/laya-agentguard",
+    "url": "https://huggingface.co/Jojoarumugam/laya-agentguard",
+    "note": "sha e255b93865605420bc7bd7efacadadf572e6d01e. Card says the checkpoint missed 0.85 accuracy and 0.10 ECE on its hand-written holdout. Shadow before block. notes.md §168.",
+    "reviewed_at": "2026-09-23T21:44Z",
+    "review": "archive/hourly/2026-09-23T21/fold_168.md"
+  },
+  {
+    "kind": "hf",
+    "title": "alibiserikbay/JevK5-2B",
+    "url": "https://huggingface.co/alibiserikbay/JevK5-2B",
+    "note": "sha fc7e3031a77e91b6de76004825d4d8b6a8947680. Card opening. Qwen3.5-2B letter-logit sibling. Held-out table not copied. notes.md §168.",
+    "reviewed_at": "2026-09-23T21:44Z",
+    "review": "archive/hourly/2026-09-23T21/fold_168.md"
+  },
+  {
+    "kind": "hf",
+    "title": "wwydmanski/bielik-minitron-jev-v0.2",
+    "url": "https://huggingface.co/wwydmanski/bielik-minitron-jev-v0.2",
+    "note": "sha 7b04d30a62cc0387aa29e17fd98ecb32da8b0f92. any2jev card opening. Not v0.1. 0.0 M trainable parameters is not treated as a measurement. notes.md §168.",
+    "reviewed_at": "2026-09-23T21:44Z",
+    "review": "archive/hourly/2026-09-23T21/fold_168.md"
   }
   ]
 }

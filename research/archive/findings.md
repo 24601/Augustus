@@ -1,3 +1,19 @@
+## Batch #145 (2026-09-23 ~15:31 Boise) - hourly 1531 HIGH
+
+Note: `research/notes.md` §168. No composition range.
+Hourly 1234 stays §167. Hourly 0946 stays §165. The patrol stays §166.
+This fold is §168 only. Do not reclaim §165, §166, or §167.
+Composition ranges ended at 996 with §163. §164 through §167 assigned none.
+README still ends at License. Does not bump 0.7.2.
+`invented_signal: false`. Research-only.
+
+- **allebee/jevk5.** HEAD moved. Sealed 33.1/36.7 on 308 and public 85.3/86.6 on 231 stay separate from the v1.4 composite. No scoring row.
+- **kinde-starter-kits/jev-agent-authorization.** Densify §166. Policy arm false-allow 0.0% on their 300 calls is not a certificate.
+- **MohitSV/jev-calibration-audit.** Fair-coin Choice pull is theirs. Not jujumilk3/jev-calibration-audit. Not rerun.
+- **r4topunk/jev-trading-study.** 34,496 scored, pooled AUC 0.475. Description 40,228 is not that count.
+- **hf:Jojoarumugam/laya-agentguard.** Missed its own 0.85 / 0.10 recipe. Shadow before block.
+- **stillmarcus24/jev-verify.** Choice margin matches the typesafe-mcp tool reference. Score formula disagrees. Census not rerun.
+
 ## Batch #144 (2026-09-23 ~12:34 Boise) - hourly 1234 HIGH
 
 Note: `research/notes.md` §167. No composition range.

@@ -1,0 +1,459 @@
+[
+  {
+    "id": "APRESIA/laya-tri-commentaires",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/APRESIA/laya-tri-commentaires",
+    "pushed_at": "2026-09-23T20:26:41Z",
+    "created_at": "2026-09-23T20:23:42Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "Amallubis/layarmas",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/Amallubis/layarmas",
+    "pushed_at": "2026-09-23T20:39:39Z",
+    "created_at": "2026-09-23T20:24:41Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "Analytics206/JEV-Arcade",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/Analytics206/JEV-Arcade",
+    "pushed_at": "2026-09-23T21:24:37Z",
+    "created_at": "2026-09-22T08:52:56Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "CaptainPhantasy/JEVRuntime",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/CaptainPhantasy/JEVRuntime",
+    "pushed_at": "2026-09-23T21:09:40Z",
+    "created_at": "2026-09-23T21:09:38Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "Lu1sR/jev-forms",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/Lu1sR/jev-forms",
+    "pushed_at": "2026-09-23T21:26:11Z",
+    "created_at": "2026-09-23T21:24:55Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "PCTEJA/JEVTRENDS",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/PCTEJA/JEVTRENDS",
+    "pushed_at": "2026-09-23T21:25:51Z",
+    "created_at": "2026-09-23T07:55:20Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "SuperInstance/moth-jev-adapters",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/SuperInstance/moth-jev-adapters",
+    "pushed_at": "2026-09-23T20:53:37Z",
+    "created_at": "2026-09-23T20:53:31Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "ValchanOficial/laya-s-dungeon",
+    "source": "github",
+    "stars": 0,
+    "why": "Calabou\u00e7o do Laya",
+    "html_url": "https://github.com/ValchanOficial/laya-s-dungeon",
+    "pushed_at": "2026-09-23T21:08:45Z",
+    "created_at": "2026-09-23T21:05:45Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "aarush-dhingra/Jev-vs-Laya",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/aarush-dhingra/Jev-vs-Laya",
+    "pushed_at": "2026-09-23T20:47:45Z",
+    "created_at": "2026-09-23T20:29:40Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "ankit-realfast/snake-jev",
+    "source": "github",
+    "stars": 0,
+    "why": "Snake played by TypeSafe's Jev decision model, coached by Claude",
+    "html_url": "https://github.com/ankit-realfast/snake-jev",
+    "pushed_at": "2026-09-23T21:14:45Z",
+    "created_at": "2026-09-23T20:44:24Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm",
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "bjornaron/jev-demo",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/bjornaron/jev-demo",
+    "pushed_at": "2026-09-23T21:21:49Z",
+    "created_at": "2026-09-23T16:59:08Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "changtimwu/laya-exp",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/changtimwu/laya-exp",
+    "pushed_at": "2026-09-23T21:19:47Z",
+    "created_at": "2026-09-23T21:19:42Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "cloudn1ne/system1",
+    "source": "github",
+    "stars": 0,
+    "why": "Laya System1 on DGX",
+    "html_url": "https://github.com/cloudn1ne/system1",
+    "pushed_at": "2026-09-23T21:28:40Z",
+    "created_at": "2026-09-23T19:25:09Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "coasty-ai/JevCode",
+    "source": "github",
+    "stars": 0,
+    "why": "JevCode - Jev can code. We want to dogfood JevCode",
+    "html_url": "https://github.com/coasty-ai/JevCode",
+    "pushed_at": "2026-09-23T19:02:54Z",
+    "created_at": "2026-09-22T21:52:54Z",
+    "found_via": [
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "derickson/derickson-local-decision-model",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/derickson/derickson-local-decision-model",
+    "pushed_at": "2026-09-23T19:32:20Z",
+    "created_at": "2026-09-23T18:55:48Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "ghcfcufgjcfh/Layan",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/ghcfcufgjcfh/Layan",
+    "pushed_at": "2026-09-23T20:29:36Z",
+    "created_at": "2026-09-23T20:04:16Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "hf:zizodev2003/my-laya-api",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "gradio region:us",
+    "html_url": "https://huggingface.co/spaces/zizodev2003/my-laya-api",
+    "pushed_at": "2026-09-23T20:07:29.000Z",
+    "created_at": "2026-09-23T20:01:15.000Z",
+    "found_via": [
+      "spaces_laya"
+    ],
+    "hf_kind": "space",
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "itsoltech/jev-code-review",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/itsoltech/jev-code-review",
+    "pushed_at": "2026-09-23T21:23:20Z",
+    "created_at": "2026-09-23T20:50:12Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "kazu5150/jev-train",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/kazu5150/jev-train",
+    "pushed_at": "2026-09-23T21:02:10Z",
+    "created_at": "2026-09-23T21:02:05Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "romrom-20/Training-Jev",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/romrom-20/Training-Jev",
+    "pushed_at": "2026-09-23T21:15:03Z",
+    "created_at": "2026-09-22T08:52:30Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "santiagopagano95/jev-launcher",
+    "source": "github",
+    "stars": 0,
+    "why": "Launcher tipo Spotlight para Windows",
+    "html_url": "https://github.com/santiagopagano95/jev-launcher",
+    "pushed_at": "2026-09-23T21:13:47Z",
+    "created_at": "2026-09-23T20:53:51Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "sitarelli/jevd",
+    "source": "github",
+    "stars": 0,
+    "why": "testing jev speed on a diary",
+    "html_url": "https://github.com/sitarelli/jevd",
+    "pushed_at": "2026-09-23T21:27:54Z",
+    "created_at": "2026-09-23T19:30:50Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "spprichard/SwiftJev",
+    "source": "github",
+    "stars": 0,
+    "why": "Type-safe Swift client package (TypeSafe library)",
+    "html_url": "https://github.com/spprichard/SwiftJev",
+    "pushed_at": "2026-09-23T20:52:59Z",
+    "created_at": "2026-09-23T17:34:19Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "synistr/JevBlock",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/synistr/JevBlock",
+    "pushed_at": "2026-09-23T21:32:05Z",
+    "created_at": "2026-09-23T21:31:37Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "timjonez/jev-gate",
+    "source": "github",
+    "stars": 0,
+    "why": "Allow Herdr command prompts with TypeSafe Jev.",
+    "html_url": "https://github.com/timjonez/jev-gate",
+    "pushed_at": "2026-09-23T21:17:15Z",
+    "created_at": "2026-09-22T21:49:11Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "tomviner/tone-your-mind",
+    "source": "github",
+    "stars": 0,
+    "why": "REVISIT densify: description rewrite \u2014 A live target-tone game written by IBM Granite and scored by TypeSafe Jev. (*theirs*)",
+    "html_url": "https://github.com/tomviner/tone-your-mind",
+    "pushed_at": "2026-09-23T20:53:46Z",
+    "created_at": null,
+    "found_via": [],
+    "hf_kind": null,
+    "fork": null,
+    "kind": "revisit",
+    "material": [
+      "description_rewrite"
+    ]
+  },
+  {
+    "id": "vit-cerny/laya-local",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/vit-cerny/laya-local",
+    "pushed_at": "2026-09-23T21:16:13Z",
+    "created_at": "2026-09-21T17:33:40Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  }
+]

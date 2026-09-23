@@ -1,3 +1,20 @@
+## 2026-09-23 ~21:44 UTC / ~15:31 Boise - Hourly 1531 HIGH
+
+- User-requested fold onto `main` `bc0593617c413cd042f58a52274e89c48b216f8d`.
+  notes.md §168. Packet of 88 items archived at
+  `research/archive/hourly/2026-09-23T21/`. 27 further research-only rows
+  were archived and not fetched.
+- Research-only. No skill, human README, Pages, or version change.
+  Scoring rows stay at 17. Archer stays promised_not_landed.
+- Live GitHub GraphQL and Hugging Face reads on 2026-09-23T21:44Z.
+  README or card openings for the sources named in §168. Commit compares
+  for jevk5 and the typesafe-mcp file list. Repo metadata for the rest.
+  No benches rerun. No X calls. Third-party figures stay *theirs*.
+- A v1.4 composite, a public-231 accuracy, and a sealed accuracy stay
+  separate instruments. A single verdict is not the policy arm. A
+  fair-coin Choice pull stays on that audit. A missed forge gate stays
+  in shadow. jevk5 and kinde are densify, not sibling first sightings.
+
 ## 2026-09-23 ~18:55 UTC / ~12:34 Boise - Hourly 1234 HIGH
 
 - User-requested fold onto `main` `7a94072` (0.7.2 publication receipt).
