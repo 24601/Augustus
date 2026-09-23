@@ -52,8 +52,9 @@ This is an independent skill, not a TypeSafe product.
    malformed output, timeout, stale state, and unavailable provider.
    [Mixed architecture](references/mixed-architecture.md) explains the joins.
 5. Compare against the baseline on representative held-out evidence; for a
-   one-off choice with no population, test weight sensitivity, missing
-   criteria, dominated options, and value of information instead.
+   one-off choice with no population, test sensitivity to weights and
+   uncertain estimates, missing criteria, dominated options, and value of
+   information instead.
    Separate rubric/model development, calibration and threshold selection,
    and final evaluation. Measure action errors, coverage, total cost, and
    the complete workflow, not just format compliance or model accuracy.

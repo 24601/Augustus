@@ -159,9 +159,9 @@ expose disagreement and workload, but cannot directly observe outcomes of
 actions that were never taken. Use an appropriate controlled rollout or
 causal design before claiming counterfactual benefit. After deployment,
 monitor distribution, overrides, and escalation load. Estimate error from
-outcomes observed on every case, or from a known-probability audit sample
-weighted by inclusion probability that covers unreviewed actions, not only
-review queues or complaints.
+outcomes observed on every case, or from a known-probability audit sample,
+weighted by inverse inclusion probability, that covers unreviewed actions,
+not only review queues or complaints.
 Before shadow fan-out or logging, authorize every destination and minimize
 sensitive state; adding a benchmark must not silently widen data access.
 

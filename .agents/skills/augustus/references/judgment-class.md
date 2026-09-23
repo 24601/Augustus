@@ -203,12 +203,15 @@ Name the job. Two-act expected cost has no reject option (`validation.md`);
 if one act never costs less, always take the other. Selective ranking may use
 an uncalibrated score; report accepted-case risk and coverage on a holdout.
 Deferral to a named handler counts its errors in system loss. In theory (0-1
-loss, calibrated mass), defer when 1 - top mass exceeds the handler's expected
-loss on that case, query cost included; a constant loss gives Chow's rule, one
-top-mass cut. A frozen head's band ignores where the handler is strong; a
-rejector fit to representative handler outcomes can use that. Compare the
-chosen rule with a top-mass cut, always-act, and always-defer on held-out
-system loss. The handler decides deferred cases; policy authorizes the act.
+loss), defer when the head's error on the case exceeds the handler's expected
+loss there, query cost included, both conditioned on what the router sees.
+1 - top mass is that error only if the mass is a posterior given those same
+features; population calibration is not enough. A constant handler loss gives
+Chow's rule, one top-mass cut. A frozen head's band ignores where the handler
+is strong; a rejector fit to representative handler outcomes can use that.
+Compare the chosen rule with a top-mass cut, always-act, and always-defer on
+held-out system loss. The handler decides deferred cases; policy authorizes
+the act.
 
 Expected cost must include:
 

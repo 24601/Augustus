@@ -102,9 +102,9 @@ Evaluate the whole cascade. A high first-stage accuracy can still fail if its
 few errors are correlated across a long trajectory or if fallback is too slow.
 The later stage sees the residual, often harder population, not the original
 traffic. Evaluate/calibrate each route on that selected population and recheck
-any conformal assumptions after routing. Before building a router, score every
-route on the same labeled cases: the per-case best bounds its quality gain,
-not its cost savings. Compare the learned router with
+any conformal assumptions after routing. Where every route can be scored on the
+same labeled cases, the per-case best bounds a router's quality gain, not its
+cost savings. Compare the learned router with
 always-small, always-large, and exact-rule policies; count routing overhead and
 record logged selection/propensities when estimating counterfactual route value.
 Report:
