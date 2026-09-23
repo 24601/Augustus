@@ -26,3 +26,7 @@ probability semantics, or invented evidence blocks acceptance. A formatting
 preference alone does not. Keep the prompts, outputs, reviewer identity,
 skill revision or working-tree hash, and observed limitations together in
 a dated audit artifact. Do not claim improved outcomes from one smoke pass.
+To claim a change improves answers, also answer the affected scenarios with
+the last published skill, blind the reviewer to the arm, and report
+better/same/worse per scenario; a few scenarios support no significance
+claim. Factual or arithmetic corrections need no comparison arm.

@@ -21,3 +21,4 @@ __pycache__/
 _site/
 .jekyll-cache/
 .stitch/designs/
+tests/plugin-evals/results/

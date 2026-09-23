@@ -16,7 +16,9 @@ checks alone do not authorize publishing or changing account settings.
 - Validate Claude packaging in isolation. Test the exact candidate/tag with a
   fresh configuration; inspect discovered skills and unexpected components.
   Test advertised Skills CLI discovery with `--list`; it is not an activation
-  or production-use test. Do not modify normal user plugin settings.
+  or production-use test. When the description or activation examples change,
+  run the optional activation check (CONTRIBUTING) or record implicit
+  activation as unmeasured. Do not modify normal user plugin settings.
 - Build/check the rendered Pages output when release-facing content changes.
   Record whether browser layout/keyboard checks were needed and actually run.
 - Push a scoped branch and PR; inspect CI and merge only the intended head.
