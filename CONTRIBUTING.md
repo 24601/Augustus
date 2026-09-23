@@ -157,6 +157,26 @@ coordinator judgment owns semantic acceptance. Do not turn matching a
 phrase into a “behavioral test.” When a scenario fails, fix the relevant
 guidance and rerun affected scenarios plus a fresh check for regressions.
 
+An optional paid activation check needs Claude Code 2.1.269 or later and
+maintainer-approved spend. `tests/plugin-evals/` mirrors trigger and
+non-trigger scenarios. From the repository root:
+
+```bash
+claude plugin eval . --eval-dir tests/plugin-evals --model <id> \
+  --judge-model <id> --max-cost-usd <n> --keep-temp --no-publish \
+  --json <tmp>/result.json
+```
+
+Keep the run only if `suite.plugins` names `.agents` and `suite.ablation` is
+`with-without`; otherwise no skill loaded and non-trigger cases pass
+vacuously. The JSON does not record models, so keep the requested IDs and the
+model in each kept trace's `init` line. `tool_used: Skill` shows activation
+with only this plugin installed, not selection among many skills. Judge
+verdicts are evidence for this review, not acceptance. A failing trigger case
+may be a known recall gap; compare it with the last recorded run in
+`research/audits/` before changing guidance. The check is not part of
+`make check`.
+
 ## Versions and releases
 
 Installed behavior changes use an unreleased development version until a
