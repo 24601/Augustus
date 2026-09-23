@@ -263,6 +263,13 @@ class EvaluateDecisionsTests(unittest.TestCase):
         self.assertNotIn("Traceback", run.stderr)
         self.assertEqual(run.stdout, "")
 
+    def test_cli_help_documents_every_accepted_row_field(self):
+        run = subprocess.run([sys.executable, str(SCRIPT), "--help"], text=True, capture_output=True)
+        self.assertEqual(run.returncode, 0, run.stderr)
+        for field in ("JSONL", "id", "p in [0,1]", "y in {0,1}", "group", "p_base"):
+            with self.subTest(field=field):
+                self.assertIn(field, run.stdout)
+
 
 if __name__ == "__main__":
     unittest.main()

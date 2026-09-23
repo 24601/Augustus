@@ -189,7 +189,7 @@ typechecks is not necessarily a faithful or adequately tested model.
 
 ### Harmful-uses checklist
 
-Copy into the insertion's PR/decision card (`formal-methods.md` §5):
+Copy what applies into the insertion's PR/decision card (`formal-methods.md` §5):
 
 - [ ] Probabilistic gate on an irreversible act without a hard interlock?
 - [ ] "Verified" only of a model the team has not broken?

@@ -25,8 +25,10 @@ Separate three data uses: development (including prompt search), calibration
 and policy selection, and final evaluation. Split by source entity, document,
 user, template, or time where rows share information; a random row split
 can leak near-duplicates. Keep a test-set contamination ledger. Labels from
-a teacher model are measurements with their own errors, not independent
-gold. Use adjudication or observed outcomes appropriate to the task.
+a teacher model or automated check are measurements with their own errors,
+not independent gold; a signal reading that check on the same case shows
+only agreement with it. Use adjudication or observed outcomes appropriate
+to the task.
 
 ## Choose measurements by the consumer
 
@@ -68,9 +70,7 @@ cases still permit about 13.9% error; certifying at most 1% needs at least
 on those same cases. Multiple units need simultaneous-error control; repeats
 of one case are not independent support. If support is insufficient, gather
 labels, retain review, or use a justified coarser reporting unit without
-silently dropping a required subgroup guarantee. Recent
-[availability research](https://arxiv.org/abs/2609.22048v1) studies this planning
-problem; its proposed optimizer is not implemented by Augustus.
+silently dropping a required subgroup guarantee.
 
 ## Costs, abstention, and operating points
 
@@ -84,8 +84,9 @@ Abstention is an action with a handler, queue, cost, delay, and possible
 error. Compare `L(positive) = (1-p) C_FP`, `L(negative) = p C_FN`, and the
 specified loss of abstention. A reject band derived from constant review
 cost assumes the stated review behavior; it does not make a human perfect.
-Measure reviewer accuracy and queue capacity separately. Record provider
-errors and timeouts as explicit events, not low-confidence predictions.
+Measure reviewer accuracy with model output shown or hidden as in
+deployment, and queue capacity separately. Record provider errors and
+timeouts as explicit events, not low-confidence predictions.
 
 Choose operating points on calibration/validation data and freeze them
 before final evaluation. Report both sides of the policy, abstentions,
@@ -156,9 +157,11 @@ model confidence cannot substitute for observed reward.
 Shadow mode records proposed actions while the current policy acts. It can
 expose disagreement and workload, but cannot directly observe outcomes of
 actions that were never taken. Use an appropriate controlled rollout or
-causal design before claiming counterfactual benefit. Monitor distribution,
-policy overrides, error slices, and escalation load after deployment.
-Teacher agreement is not truth, including at the application-policy level.
+causal design before claiming counterfactual benefit. After deployment,
+monitor distribution, overrides, and escalation load. Estimate error from
+outcomes observed on every case, or from a known-probability audit sample,
+weighted by inverse inclusion probability, that covers unreviewed actions,
+not only review queues or complaints.
 Before shadow fan-out or logging, authorize every destination and minimize
 sensitive state; adding a benchmark must not silently widen data access.
 
@@ -170,19 +173,20 @@ with unique nonempty `id`, finite `p` in `[0,1]`, binary `y`, optional string
 and supports explicit policy analysis. It does not call a model.
 
 ```bash
-python3 scripts/evaluate_decisions.py --help
-python3 scripts/evaluate_decisions.py --self-test
-python3 scripts/evaluate_decisions.py labels.jsonl --lower-threshold 0.2 --upper-threshold 0.8 --cost-fp 5 --cost-fn 2 --cost-abstain 0.5
+python3 <skill-dir>/scripts/evaluate_decisions.py --help
+python3 <skill-dir>/scripts/evaluate_decisions.py --self-test
+python3 <skill-dir>/scripts/evaluate_decisions.py labels.jsonl --lower-threshold 0.25 --upper-threshold 0.9 --cost-fp 5 --cost-fn 2 --cost-abstain 0.5
 ```
 
-Run from the installed skill directory. Full paired baseline comparison
-requires `p_base` on every row. Quantile ECE keeps identical probabilities
-in one bin, so bins may be uneven or fewer than requested. Label all
-cost-based selection on a file as in-sample policy fitting; freeze the
-selected policy and use a different file for final reporting. The tool
+Baseline Brier needs `p_base` on every row; for paired episode losses, see
+[optimizer integration](optimizer-integration.md). Quantile ECE keeps
+identical probabilities in one bin, so bins may be uneven or fewer than
+requested. Label all cost-based selection on a file as in-sample policy
+fitting; freeze the selected policy and use a different file for final
+reporting. The tool
 cannot verify label provenance, data independence, or deployment fitness.
 
-The example thresholds and costs are illustrative, not recommendations.
+The example costs are illustrative, not recommendations.
 Complete binary threshold reports use `action_rate` for the positive-action
 fraction; the old programmatic `coverage` alias is deprecated. Selective
 reports instead use `decided_coverage`, with inclusive negative/positive

@@ -4,7 +4,8 @@
 Input is JSONL with unique ``{id: str, p: float, y: 0|1}`` rows. ``p`` is the
 probability assigned to the positive class; it is not automatically a
 probability of correctness. Optional ``p_base`` values support a Brier
-comparison only when present on every row.
+comparison only when present on every row. An optional string ``group`` is
+checked but not reported per group.
 
 The complete-binary threshold report treats every row as either positive or
 negative. Its ``action_rate`` is the predicted-positive fraction, not
@@ -379,16 +380,21 @@ def _parse_thresholds(value):
 
 
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("labels", nargs="?")
-    parser.add_argument("--cost-fp", type=float)
-    parser.add_argument("--cost-fn", type=float)
-    parser.add_argument("--cost-abstain", type=float)
-    parser.add_argument("--bins", type=int, default=10)
-    parser.add_argument("--thresholds", default="0.3,0.5,0.7,0.9")
-    parser.add_argument("--lower-threshold", type=float)
-    parser.add_argument("--upper-threshold", type=float)
-    parser.add_argument("--self-test", action="store_true")
+    parser = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
+    parser.add_argument(
+        "labels", nargs="?",
+        help="JSONL rows: unique string id, p in [0,1], y in {0,1}; optional string group and p_base in [0,1]",
+    )
+    parser.add_argument("--cost-fp", type=float, help="false-positive cost")
+    parser.add_argument("--cost-fn", type=float, help="false-negative cost")
+    parser.add_argument("--cost-abstain", type=float, help="abstention cost; needs both selective thresholds")
+    parser.add_argument("--bins", type=int, default=10, help="reliability/ECE bins")
+    parser.add_argument("--thresholds", default="0.3,0.5,0.7,0.9", help="comma-separated positive-action thresholds to sweep")
+    parser.add_argument("--lower-threshold", type=float, help="decide negative at p <= this")
+    parser.add_argument("--upper-threshold", type=float, help="decide positive at p >= this")
+    parser.add_argument("--self-test", action="store_true", help="run built-in checks and exit")
     args = parser.parse_args()
     if args.self_test:
         self_test()
