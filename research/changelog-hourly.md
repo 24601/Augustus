@@ -1,3 +1,17 @@
+## Hourly 0946 HIGH (notes.md §165)
+
+- Folded onto post-#93 `main` (`87b0cda`). Overnight gap after the 1354
+  watch. This fold is §165 only. Research-only. Does not bump the package.
+  `invented_signal: false`. No X calls.
+- SemIf-OpenJev is TheoLeeCJ/SemIf, same node, SHA unchanged. Not a sibling.
+- AnyJev L0 does not calibrate. L1 is temperature. L2 does not transfer.
+  The banner's "real probabilities" is theirs. Release tag remains v0.0.2.
+- Open-Jev-27B-v1.1 is a published LoRA adapter card. Public 231 is not
+  Harbor and not the older full set. The v1.1 dataset is a projection.
+- JevK5's v1.4 rank and its public-231 table are different instruments.
+  Scoring rows are not extended. kime v0.0.3 still says nothing works.
+- jev-seo histories do not share an ancestor. The prior card stays put.
+
 ## Hourly 2244 HIGH (notes.md §163 / items 981-996 / batch #143)
 
 - Folded onto post-#88 `main` (`8c8f6cb`). hourly 2149 §162 is on main.
