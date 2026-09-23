@@ -3,7 +3,7 @@ name: augustus
 description: "Find, build, evaluate, and improve systems using decision models. Use for bounded classification, routing, ranking, Choice/Score/Noul, decision-model composition, evaluation harnesses, prompt/program hill climbing, and Software 3.0 workflows across software, business, organizations, and life. Separate models, code, and human judgment. TypeSafe Jev is the default hosted exemplar. Not for straightforward arithmetic, prose rewriting, or provider setup alone."
 license: MIT
 metadata:
-  version: 0.7.0
+  version: 0.7.1-dev
   typesafe_skill: v0.5.7
   typesafe_skill_commit: 65a39f3
   tribute: "Named for Augustus De Morgan (1806-1871), mentor of William Stanley Jevons."
@@ -128,7 +128,7 @@ repository or caller's working directory.
 | --- | --- |
 | Trigger examples and exclusions | [Activation](references/activation-triggers.md) |
 | Cross-domain reasoning and costs | [Mental models](references/mental-models.md) |
-| Family choice and output semantics | [Judgment class](references/judgment-class.md) |
+| Family choice, output semantics, and uncertainty routing | [Judgment class](references/judgment-class.md) |
 | Existing system or process | [Boundary audit](references/boundary-audit.md) |
 | Question/rubric diagnosis | [Question design](references/question-design.md) |
 | Generator, code, and decision-model integration | [Mixed architecture](references/mixed-architecture.md) |

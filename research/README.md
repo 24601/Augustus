@@ -12,7 +12,10 @@ The [2026-09-22 full refresh](decision-model-review-2026-09-22.md) records the
 since-last-scan discovery ledger, all user-supplied sources, primary-artifact
 revisits, emerging-method research, targeted promotions and unrun experiments.
 The [decision-engine extension](decision-engine-2026-09-22.md) connects the
-research to composition, working evals and iterative improvement. Use the
+research to composition, working evals and iterative improvement. The
+[2026-09-23 decision-job synthesis](decision-jobs-2026-09-23.md) maps bounded
+judgment to jobs and wiring patterns, with the no-model alternative for each
+job. Use the
 [maintainer prompt](prompts/maintainer.md) to preserve that mission in future work.
 The [current acceptance record](audits/2026-09-22-refresh-acceptance.md) maps
 independent re-reviews to actual evidence and pending publication gates.
