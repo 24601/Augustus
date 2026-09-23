@@ -32,6 +32,9 @@ Checked 2026-09-23:
 - The [2026-09-23 patrol](patrol-2026-09-23.md) is a separate, explicit
   user-requested reassessment. It is not a scheduler run and does not advance
   any scheduled-review state.
+- Hourly 1234 (notes.md §167, retrieval 2026-09-23T18:55Z) is another explicit
+  user-requested fold. It is evidence of work being produced, not of the
+  scheduler's owner, configuration, next run, or completed-review receipts.
 
 Do not report this operating contract as automated until the scheduler owner
 provides live configuration and successful research-run evidence. Configuring a

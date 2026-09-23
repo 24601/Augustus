@@ -1,3 +1,20 @@
+## 2026-09-23 ~18:55 UTC / ~12:34 Boise - Hourly 1234 HIGH
+
+- User-requested fold onto `main` `7a94072` (0.7.2 publication receipt).
+  notes.md §167. Packet of 78 items archived at
+  `research/archive/hourly/2026-09-23T18/`. 64 further research-only rows
+  were archived and not fetched.
+- Research-only. No skill, human README, Pages, or version change.
+  Scoring rows were not extended. Archer stays promised_not_landed.
+- Live GitHub REST and Hugging Face card reads on 2026-09-23T18:55Z.
+  README or card openings for the sources named in §167. Repo metadata for
+  the rest. `Sajjat4/Trchx` commit list returned HTTP 409 (empty). No benches
+  rerun. No X calls. Third-party figures stay *theirs*.
+- Near-cut replay rates stay conditional on the cut. Confidence-weighted
+  fusion stays an uncalibrated heuristic. A forced shell yes/no is not
+  permission. Label-token readouts, LoRAs, quants, and wire servers are not
+  new families. jevk5 HEAD is unchanged from §165.
+
 ## 2026-09-23 ~16:04 UTC / ~09:46 Boise - Hourly 0946 HIGH
 
 - User-requested fold onto post-#93 `main` (`87b0cda`). notes.md §165.
