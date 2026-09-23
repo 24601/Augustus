@@ -680,7 +680,9 @@
       "kind": "paper",
       "title": "The Foundations of Cost-Sensitive Learning (Elkan)",
       "url": "https://cseweb.ucsd.edu/~elkan/rescale.pdf",
-      "note": "Bayes threshold t = C_FP/(C_FP+C_FN) from probabilities; do not rebalance as a substitute. notes.md §21."
+      "note": "Bayes threshold t = C_FP/(C_FP+C_FN) from probabilities when correct actions cost zero; do not rebalance as a substitute. notes.md §21. Revisit 2026-09-23: PDF sha256 46f46ba7aaab3df82aa09643c51549ee327ec1734bdf9829debd6101da35c048. Abstract, reasonableness (a dominated row makes label-all optimal), and expected-cost comparison inspected. Equation glyphs did not extract, so equation (2) was not re-derived. decision-jobs-2026-09-23.md.",
+      "reviewed_at": "2026-09-23",
+      "review": "decision-jobs-2026-09-23.md"
     },
     {
       "kind": "docs",
@@ -711,6 +713,22 @@
       "title": "Expected utility hypothesis (Wikipedia)",
       "url": "https://en.wikipedia.org/wiki/Expected_utility_hypothesis",
       "note": "Belief from the model; loss table and argmin in policy."
+    },
+    {
+      "kind": "paper",
+      "title": "Selective Classification for Deep Neural Networks (Geifman and El-Yaniv)",
+      "url": "https://arxiv.org/abs/1705.08500v2",
+      "note": "ar5iv HTML of the current abs version v2 (2017-06-01), retrieved 2026-09-23. Full problem setting, SR as max softmax, SGR binomial bound, and the authors' caveat that SR is a ranking score. ImageNet coverage figures stay Reported. decision-jobs-2026-09-23.md.",
+      "reviewed_at": "2026-09-23",
+      "review": "decision-jobs-2026-09-23.md"
+    },
+    {
+      "kind": "paper",
+      "title": "Consistent Estimators for Learning to Defer to an Expert (Mozannar and Sontag)",
+      "url": "https://arxiv.org/abs/2006.01862v3",
+      "note": "ar5iv HTML, abs current v3 (2021-01-25), retrieved 2026-09-23. Inspected through section 5.2: system loss includes expert error; Bayes deferral compares top class probability with P(expert correct|x); constant-cost reject is the special case. Appendix proofs and experiment tables not inspected. decision-jobs-2026-09-23.md.",
+      "reviewed_at": "2026-09-23",
+      "review": "decision-jobs-2026-09-23.md"
     },
     {
       "kind": "paper",

@@ -15,7 +15,7 @@
       "repository": "https://github.com/24601/Augustus",
       "license": "MIT",
       "keywords": ["decision-models", "decision-theory", "calibration", "agent-skills", "jev"],
-      "version": "0.7.0"
+      "version": "0.7.1-dev"
     }
   ]
 }

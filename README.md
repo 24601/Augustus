@@ -131,13 +131,16 @@ not establish model quality or deployment benefit.
 
 ## Versioning
 
-Current release: **0.7.0**. See the
+Published release: **0.7.0**. See the
 [release notes](docs/release-notes-v0.7.0.md) for changes and migration details.
+This branch's skill package is development **0.7.1-dev** until a release is
+cut. That development version only sharpens uncertainty routing; it is not a
+published package.
 
 Historical TypeSafe skill provenance: v0.5.7 (`65a39f3`). Read live provider
 docs before writing integration code; that pin is not a current API guarantee.
-Install from the `v0.7.0` tag when you need an exact source revision;
-default-branch installation may include later unreleased work.
+Install from the `v0.7.0` tag when you need the published source revision;
+default-branch installation may include the unreleased 0.7.1-dev work.
 
 ## License
 

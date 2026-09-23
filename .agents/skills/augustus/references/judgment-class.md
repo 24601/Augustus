@@ -165,6 +165,21 @@ band to a stronger model or human, and reject or gather evidence elsewhere.
 This is a policy hypothesis until tested against action costs. Entropy alone
 does not say which fallback is best, and 0.5 is not universally a boundary.
 
+Entropy and top-option mass agree on two options and can reverse with more.
+Masses (0.6, 0.4) have entropy about 0.971 bits; top mass 0.8 spread over ten
+outcomes has about 1.356 bits. An entropy band is not softmax-response
+selection, and neither score is by itself `P(correct)`. A ranking score may
+still abstain when accepted-slice risk and coverage are measured on a holdout;
+calibration is not a universal prerequisite for that ranking.
+
+Name two-act expected cost (no reject option; see `validation.md`; a dominated
+act makes label-all optimal), selective ranking (accepted risk excludes the
+rejected mass), or deferral to a named handler (system loss includes that
+handler's errors). A frozen head not trained on those mistakes is not
+expert-adapted. Compare the score with always-act, always-defer, and the
+alternate score on held-out system loss. The handler, an exact rule, or a
+person owns the act.
+
 Expected cost must include:
 
 ```text
@@ -224,21 +239,6 @@ or human. Provider timeout is neither approval nor rejection: map it explicitly.
 
 ## Decision-design extras for class choice
 
-Record:
-
-```text
-Required output species:
-Evidence and candidate source:
-Known coverage gaps / no-match behavior:
-Family and provider (versioned):
-What remains exact; what remains generative:
-Action and owner of authority:
-Per-action threshold and error fallback:
-Held-out labels and shift slices:
-Calibration / rank / span / task metrics appropriate to the family:
-Trajectory or cascade success, latency, generator rate, human rate, total cost:
-State freshness and authority re-check immediately before action:
-Smallest result that would reject this placement:
-```
-
-The final acceptance test is the policy in context, not the model in isolation.
+Use the skill's decision-design card. Also record output species, candidate
+coverage and no-match behavior, and the metric that matches the family.
+Acceptance is the policy in context, not the model alone.
