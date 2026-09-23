@@ -134,7 +134,9 @@ not establish model quality or deployment benefit.
 Published release: **0.7.1**. See the
 [release notes](docs/release-notes-v0.7.1.md) for changes and migration details.
 Default-branch installs may include later unreleased `-dev` work; install from
-the `v0.7.1` tag when you need the published revision.
+the `v0.7.1` tag when you need the published revision. This branch is
+development **0.7.2-dev**: it adds a provider-terms check before training on
+provider outputs.
 
 Historical TypeSafe skill provenance: v0.5.7 (`65a39f3`), rechecked on
 2026-09-23 as that repository's latest tag and HEAD. Read live provider docs
