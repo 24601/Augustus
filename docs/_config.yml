@@ -17,3 +17,7 @@ defaults:
     values:
       layout: default
       image: /assets/social-card.png
+  - scope:
+      path: "assets/fonts"
+    values:
+      sitemap: false

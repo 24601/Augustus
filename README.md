@@ -9,10 +9,12 @@ Find, build, evaluate, and improve systems with decision models.
 
 Augustus equips agents to **find useful placements, build decision-driven
 systems, create evaluations, and hill-climb them against real outcomes**.
-It combines decision
-theory, value of information, multi-criteria analysis, signal detection,
-search/control, and formal-methods boundaries. It applies to software,
-business, organizations, research, and everyday decisions.
+Reach for it when a step could be code, an LLM call, a classifier or ranker,
+or a person; when a confidence score needs a threshold, abstention, or a human
+fallback; or when a prompt or program needs an eval before you optimize it.
+It draws on decision theory, value of information, multi-criteria analysis,
+signal detection, search/control, and formal-methods boundaries across
+software, business, organizations, research, and everyday decisions.
 
 [TypeSafe Jev](https://docs.typesafe.ai/) (Choice, Score, Noul) is the
 default hosted exemplar. The skill also covers classical classifiers,
@@ -75,40 +77,38 @@ See [the working skill](.agents/skills/augustus/SKILL.md).
 
 ## Install
 
-For agents supporting the Skills CLI:
+Install the published release, 0.7.1:
 
 ```bash
-npx skills add 24601/Augustus --skill augustus
+# Claude Code
+claude plugin marketplace add 24601/Augustus@v0.7.1
+claude plugin install augustus@augustus
+
+# Codex, Cursor, and other Skills CLI agents
+npx skills add https://github.com/24601/Augustus/tree/v0.7.1/.agents/skills/augustus
 ```
 
-This follows the repository's current default branch, which may contain
-unreleased work. For a reproducible source checkout of the last release:
-
-```bash
-git clone --branch v0.7.0 --depth 1 https://github.com/24601/Augustus.git
-```
-
-The skill directory is `.agents/skills/augustus/`. Use your agent's local
-skill installation mechanism to install that directory. Keep its references
-and scripts together. Merely cloning a repository does not install it into
-every agent.
+To follow the default branch, which may contain unreleased `-dev` work, use
+`claude plugin marketplace add 24601/Augustus` or
+`npx skills add 24601/Augustus --skill augustus`. A pinned install stays on
+its tag. To move a Claude Code install to another tag, run
+`claude plugin marketplace remove augustus`, then add and install again.
+For a manual install, copy `.agents/skills/augustus/` with its references and
+scripts; Codex reads user skills from `~/.agents/skills/`.
 
 The skill needs no API key to provide design guidance. Calling Jev or another
 hosted provider is a separate, optional integration with its own credentials
 and costs. Review installed instructions before granting any agent access.
 
-Claude Code marketplace:
-
-```bash
-claude plugin marketplace add 24601/Augustus
-claude plugin install augustus@augustus
-```
-
-In Claude Code, invoke `/augustus:augustus`; in Codex, use `$augustus`.
-If it is not visible, reload your agent's skills/plugins and check its installed
-version. See [worked examples](https://24601.github.io/Augustus/examples.html)
-for the kind of result to expect. Avoid installing the same skill by multiple
-methods in one agent.
+In Claude Code, invoke `/augustus` (a plugin install also answers to
+`/augustus:augustus`); in Codex, use `$augustus`. With many skills installed,
+a host may shorten or drop skill descriptions, so name the skill explicitly if
+it is never chosen. If it is not visible, reload your agent's skills/plugins.
+Check the installed version with `claude plugin details augustus@augustus` or
+`metadata.version` in the installed `SKILL.md`. See
+[worked examples](https://24601.github.io/Augustus/examples.html) for the kind
+of result to expect. Avoid installing the same skill by multiple methods in
+one agent.
 
 ## Project and evidence
 
@@ -131,16 +131,14 @@ not establish model quality or deployment benefit.
 
 ## Versioning
 
-Published release: **0.7.0**. See the
-[release notes](docs/release-notes-v0.7.0.md) for changes and migration details.
-This branch's skill package is development **0.7.1-dev** until a release is
-cut. That development version only sharpens uncertainty routing; it is not a
-published package.
+Published release: **0.7.1**. See the
+[release notes](docs/release-notes-v0.7.1.md) for changes and migration details.
+Default-branch installs may include later unreleased `-dev` work; install from
+the `v0.7.1` tag when you need the published revision.
 
-Historical TypeSafe skill provenance: v0.5.7 (`65a39f3`). Read live provider
-docs before writing integration code; that pin is not a current API guarantee.
-Install from the `v0.7.0` tag when you need the published source revision;
-default-branch installation may include the unreleased 0.7.1-dev work.
+Historical TypeSafe skill provenance: v0.5.7 (`65a39f3`), rechecked on
+2026-09-23 as that repository's latest tag and HEAD. Read live provider docs
+before writing integration code; that pin is not a current API guarantee.
 
 ## License
 

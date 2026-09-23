@@ -16,66 +16,83 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+## [0.7.1] - 2026-09-23
+
+### Why this release matters
+
+A patch that makes existing guidance more correct and easier to use. It
+corrects uncertainty routing, promotes five patrol findings that each change a
+design decision, removes duplicated runtime text, and adds release checks. It
+adds no provider integration, model, or workflow capability, and claims no
+measured deployment gain.
+
 ### Changed
 
-- Added "The story of Jev and Augustus", a 2:38 explainer film, to the homepage
-  and README. The site uses a click-to-load, privacy-enhanced YouTube player
-  with an on-page transcript and `VideoObject` metadata. The MP4, captions and
-  poster are hosted on the `film-jev-and-augustus` pre-release, so the
-  repository gains only a small poster image. This is a website and README
-  change; the skill package is unchanged.
-- Skill development version **0.7.1-dev** (not a release). Uncertainty routing
-  in the judgment-class reference now separates two-act expected cost, post-hoc
-  selective ranking, and deferral to a named handler. Entropy and top-option
-  mass rank the same binary menu and can reverse once a choice has three or
-  more options. Published **0.7.0** is unchanged until a release.
-- Consolidated duplicated runtime guidance. Removed
-  `references/formal-semi-formal.md`, a one-screen alias whose rules all live
-  in `formal-methods.md`, `mappings.md` §12, and `mental-models.md`. Repeated
-  exemplar disclaimers, formal-methods crossover metaphors, duplicated red
-  flags, a second invalid-substitution list, and a generic design card now
-  appear only in their owning file. References drop from 179,929 to 172,348
-  bytes; no design decision is removed.
-- Corrected and sharpened uncertainty routing (judgment-class). The reversal
-  example now uses one three-option menu. Dominance is stated without
-  convention ("if one act never costs less, always take the other"). The
-  deferral rule is stated as theory under calibrated mass (Mozannar–Sontag,
-  with Chow's rule as the constant-loss case), and a rejector fit to
-  representative handler outcomes is allowed. Policy, not a model handler,
-  authorizes the act.
-- Promoted five patrol findings where each changes a design decision:
+- Uncertainty routing and deferral (judgment-class) was rewritten:
+  - The reversal example uses one three-option menu.
+  - Dominance is stated without convention.
+  - Deferral is stated as theory: defer when the head's error on a case
+    exceeds the handler's expected loss there, query cost included, both
+    conditioned on what the router sees. Population calibration of the head
+    is not enough, and Chow's rule is the constant-loss case.
+  - A rejector fit to representative handler outcomes is allowed.
+  - The handler decides deferred cases; policy authorizes the act.
+- Promoted from the 2026-09-23 patrol, each because it changes a decision:
   - Preflight rejects one-option or one-level questions, whose confidence is
     1.0 by construction.
-  - A diagnosis row now covers name bias as well as position bias.
+  - The diagnosis table covers name bias as well as position bias.
   - Done-checks require evidence the judged system cannot forge.
   - Post-deployment error needs outcomes on every case or a known-probability
-    audit sample, not review queues or complaints alone. Reviewer accuracy is
-    measured under the deployed display.
-  - Labels from an automated check are not independent gold, and a router's
-    quality gain is bounded by the per-case best route.
-- The skill's evaluation step gives one-off choices sensitivity and
-  value-of-information tests instead of a held-out population. The reference
-  table routes by task and names the two offline scripts.
-  `evaluate_decisions.py --help` now documents its input rows. Script paths use
-  `<skill-dir>`, the example selective band follows from its costs, the FAQ no
-  longer implies a Noul confidence field, and TypeAR links to its new name,
-  TypeLLM.
-- Added eight behavioral scenarios, including two non-trigger controls.
-- Reworked the website as a technical publication centered on an annotated
-  decision example. Kept the agent build/evaluate/improve mission visible,
-  brought installation into the page, and moved the six detailed placements
-  into a linked guide. Removed decorative skeletons, glass panels, gradient
-  backgrounds, and reveal-animation JavaScript. This is a website-only change;
-  the published 0.7.0 skill package is unchanged.
-- Aligned the favicon and social share image with the new site, improved
-  mobile command reading, and added parsed accessibility regression checks
-  plus a design contract and screenshot/reviewer evidence for future updates.
-- Reskinned the website after user feedback to a Geist × stripe.dev-inspired
-  developer reference: self-hosted Geist Sans/Mono, a neutral light/dark palette,
-  larger typography, ruled grids, and monochrome controls. This supersedes the
-  initial mineral/green serif direction without changing the skill package.
-  Kept the mobile family comparison readable in a keyboard-scrollable region,
-  with parsed regression checks for its name and focusability.
+    audit sample weighted by inverse inclusion probability, not review queues
+    or complaints alone. Reviewer accuracy is measured under the deployed
+    display.
+  - Labels from an automated check are not independent gold. Where every
+    route can be scored on the same cases, the per-case best bounds a
+    router's quality gain.
+- SKILL.md routes its reference table by task and names the two offline
+  scripts. One-off choices test sensitivity to weights and uncertain
+  estimates, missing criteria, dominated options, and value of information
+  instead of a held-out population. Maintainer research instructions are
+  scoped to this repository.
+- Website and README:
+  - Added the 2:38 explainer film and a user-intent first screen.
+  - Pinned-release install commands for Claude Code and the Skills CLI.
+  - Bare `/augustus` invocation and a note on shortened skill listings.
+  - The Geist developer-reference redesign, an unversioned social card, and
+    fonts excluded from the sitemap.
+
+### Fixed
+
+- `evaluate_decisions.py --help` documents its input rows.
+- Script commands use `<skill-dir>` instead of assuming the working directory.
+- The example selective band follows from its own costs.
+- The FAQ no longer implies a Noul confidence field.
+- TypeAR links to its new name, TypeLLM.
+
+### Removed
+
+- `references/formal-semi-formal.md`, whose rules live in
+  `formal-methods.md`, `mappings.md` §12, and `mental-models.md`. Repeated
+  exemplar disclaimers and duplicated lists now appear once. Runtime
+  references drop from 179,929 to 172,817 bytes.
+
+### Repository
+
+- `make check` enforces release-surface parity and portable frontmatter keys.
+- An opt-in `claude plugin eval` activation suite and eight new behavioral
+  scenarios were added.
+- Release smokes install from a `git archive` export.
+- A pre-registered activation A/B rejected a new description, because it
+  falsely triggered on a generic LLM-eval request. The description is
+  unchanged.
+
+Patch-release scope: guidance correction and consolidation. No reference path
+is added, and scripts keep valid-input interfaces. Historical TypeSafe skill
+provenance remains [`v0.5.7`](https://github.com/typesafe-ai/skills/tree/65a39f393687675ce170e6094757de20370365b9),
+rechecked on 2026-09-23 as that repository's latest tag and HEAD. See the
+[release notes](docs/release-notes-v0.7.1.md), the
+[patrol evidence](research/patrol-2026-09-23.md), and the
+[acceptance record](research/audits/2026-09-23-release-071.md).
 
 ## [0.7.0] - 2026-09-22
 

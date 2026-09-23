@@ -8,7 +8,7 @@ page_class: home
 <section class="opening" aria-labelledby="hero-title">
   <div class="opening-meta">
     <p class="opening-context">An open-source skill for agents</p>
-    <a class="release-link" href="{{ '/release-notes-v0.7.0.html' | relative_url }}">v0.7.0 <span aria-hidden="true">↗</span></a>
+    <a class="release-link" href="{{ '/release-notes-v0.7.1.html' | relative_url }}">v0.7.1 <span aria-hidden="true">↗</span></a>
   </div>
   <h1 id="hero-title">Decision models,<br class="desktop-break"> put to work.</h1>
   <div class="opening-bottom">
@@ -74,7 +74,7 @@ page_class: home
     <h2 id="install-title">Put it in your agent’s hands.</h2>
     <p>The skill needs no API key. Calling a hosted model is a separate,
       optional integration.</p>
-    <p>Current release: <a href="{{ '/release-notes-v0.7.0.html' | relative_url }}">0.7.0</a>.
+    <p>Current release: <a href="{{ '/release-notes-v0.7.1.html' | relative_url }}">0.7.1</a>.
       These commands follow the default branch; check the installed version
       before relying on it.</p>
   </div>
@@ -108,7 +108,7 @@ claude plugin install augustus@augustus</code></pre>
 
 <section class="reading" aria-labelledby="companions-title">
   <div>
-    <p class="section-index">/05 — Reference</p>
+    <p class="section-index">/06 — Reference</p>
     <h2 id="companions-title">The method stays inspectable.</h2>
     <p>Mathematical and scientific methods provide structure; real outcomes decide
       which compositions survive. Research is evidence to reason from, not a
