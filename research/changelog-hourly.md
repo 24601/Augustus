@@ -1,3 +1,18 @@
+## Hourly 1531 HIGH (notes.md §168)
+
+- Folded onto `main` `bc0593617c413cd042f58a52274e89c48b216f8d`. Gap after
+  hourly 1234 (§167). This fold is §168 only. Research-only. Does not bump
+  the package. Scoring rows stay at 17. `invented_signal: false`. No X calls.
+- jevk5 HEAD moved. Sealed 308 and public 231 stay separate from the v1.4
+  composite. No scoring row. JevK5-2B and the GGUF repo are packaging.
+- kinde authorization is densify §166. Their 300-call policy arm is not a
+  certificate. A single Jev verdict is not that policy.
+- MohitSV calibration audit is not jujumilk3/jev-calibration-audit. A
+  fair-coin Choice pull is theirs. Trading study AUC 0.475 is on 34,496
+  scored decisions, not the description's 40,228.
+- laya-agentguard missed its own gate. Sentinel and Lichen public-231
+  banners are not Harbor. Qwen3.8 and Gemma 4 are not Archer.
+
 ## Hourly 0946 HIGH (notes.md §165)
 
 - Folded onto post-#93 `main` (`87b0cda`). Overnight gap after the 1354
