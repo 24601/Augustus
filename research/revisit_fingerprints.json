@@ -13635,16 +13635,17 @@
     {
       "id": "github:allebee/jevk5",
       "node_id": "R_kgDOUlwTMQ",
-      "notes_section": "165",
-      "last_look": "2026-09-23T16:04Z",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
       "fingerprints": {
         "default_sha": "708556582fb419e9038e2f7f654f2805daddc4ba",
-        "pushed_at": "2026-09-23T15:02:52Z",
-        "description_hash": "9521a20f9ce4",
+        "pushed_at": "2026-09-23T17:28:56Z",
+        "description_hash": "062f51928c07",
         "release_tag": null
       },
-      "review_depth": "readme_or_card_opening",
-      "note": "0946 revisit; readme_or_card_opening; archive-only unless named in notes §165"
+      "review_depth": "description_only",
+      "note": "1234 description_only; HEAD unchanged from §165 README review; README not re-opened; description now says calibrated probabilities",
+      "readme_sha": "a467bee01a652d3e871406c7ceab87e08faff6a9"
     },
     {
       "id": "github:lhemerly/mcts-agent",
@@ -14153,16 +14154,17 @@
     {
       "id": "github:Ayyankhan101/Autonomous-Decision-Intelligence-Platform-ADIP-",
       "node_id": "R_kgDOUnXhgQ",
-      "notes_section": "165",
-      "last_look": "2026-09-23T16:04Z",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
       "fingerprints": {
-        "default_sha": "1168fc71bda5c03d8c4588fda5c60ef4df6b4bb6",
-        "pushed_at": "2026-09-23T15:06:42Z",
-        "description_hash": "587fc96c3d48",
+        "default_sha": "663d323cb59be2eae13441e7d0def842230f2624",
+        "pushed_at": "2026-09-23T17:59:16Z",
+        "description_hash": "e4e57ed97c3d",
         "release_tag": null
       },
-      "review_depth": "repo_metadata",
-      "note": "0946 novel; repo_metadata; archive-only unless named in notes §165"
+      "review_depth": "readme_opening",
+      "note": "1234 revisit; README still planning/blueprint; 61.6 ms and 17.75 ms both theirs, not measured here",
+      "readme_sha": "1b65ae9318ee85313ac7cbeaf046e31ea3b69a3e"
     },
     {
       "id": "github:AzPepoze/openthai-systemone-server",
@@ -14596,6 +14598,1092 @@
       "review_depth": "card_sensitivity_diagnostics",
       "review_card": "research/patrol-2026-09-23.md",
       "note": "first card; README, SENSITIVITY.md and DIAGNOSTICS.md read; weights not downloaded; post-hoc benchmark weights and missing-evidence shares are theirs"
+    },
+    {
+      "id": "github:poisson-labs/jev-replay",
+      "node_id": "R_kgDOUnqaIg",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "ecc958fb627250538d7c71e62566feab1cff8166",
+        "pushed_at": "2026-09-23T16:49:06Z",
+        "description_hash": "fc56fbabee31",
+        "release_tag": null
+      },
+      "review_depth": "readme",
+      "note": "1234 readme; archive-only; see notes §167",
+      "readme_sha": "f2b27023e4c0d8513b0671bed0051910b370ebc4"
+    },
+    {
+      "id": "github:surajvs2710-stack/god-llm-decisions",
+      "node_id": "R_kgDOUnzXfA",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "4bf0c17de0df086cfd5aab07d86eab583c719d80",
+        "pushed_at": "2026-09-23T17:37:25Z",
+        "description_hash": "75b2fd57f6ae",
+        "release_tag": "v1.0.0"
+      },
+      "review_depth": "readme_fusion_and_limits",
+      "note": "1234 readme_fusion_and_limits; archive-only; see notes §167",
+      "readme_sha": "f936aea8cf03aaf812e4a16f3274f74a26280e21"
+    },
+    {
+      "id": "github:SammySN-car/jev-deliberation-judge",
+      "node_id": "R_kgDOUn5FmQ",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "b962541ef8c69af597ff3a42de0eb458650abb90",
+        "pushed_at": "2026-09-23T18:25:34Z",
+        "description_hash": "4a5c12dee23c",
+        "release_tag": null
+      },
+      "review_depth": "readme",
+      "note": "1234 readme; archive-only; see notes §167",
+      "readme_sha": "6f12caf18db53d7cb3ad1b57afde0c221572512f"
+    },
+    {
+      "id": "github:anthonyli/laya-pilot",
+      "node_id": "R_kgDOUm7JRw",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "5acef3f6731bc059add57b999f3c8835d9af7cf9",
+        "pushed_at": "2026-09-23T18:10:20Z",
+        "description_hash": "5700654d9c4a",
+        "release_tag": null
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "4906c64710a21f686814a6231110fbf012604772"
+    },
+    {
+      "id": "github:jayeshvpatil/jev-agent-risk-gate",
+      "node_id": "R_kgDOUn1iAQ",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "13649569ca2de1cd554c0932b4e1408f7c068280",
+        "pushed_at": "2026-09-23T18:30:50Z",
+        "description_hash": "c50f94628b92",
+        "release_tag": null
+      },
+      "review_depth": "article_caveats",
+      "note": "1234 article_caveats; archive-only; see notes §167"
+    },
+    {
+      "id": "github:weitianxin/JevAny",
+      "node_id": "R_kgDOUmHIbQ",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "5ec818f17bb72eba074c6f0afd4b28533d7e7784",
+        "pushed_at": "2026-09-23T18:21:00Z",
+        "description_hash": "974525652677",
+        "release_tag": "v0.2.0"
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "6f0b46870a3ca44b7613d5c69fe040879e22be50"
+    },
+    {
+      "id": "github:tic-top/llm2jev",
+      "node_id": "R_kgDOUm1v2g",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "50f508ce7f42ecccccb6e53b1235d78bbe927eca",
+        "pushed_at": "2026-09-23T18:10:42Z",
+        "description_hash": "90aaf4661556",
+        "release_tag": "v0.6.0"
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "a3c2cc86d46bfae73a8f540000e748df5c4b71b2"
+    },
+    {
+      "id": "github:nschlaepfer/manchego-serve",
+      "node_id": "R_kgDOUn33EA",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "4c7332f726aaa07bd5a73e66a96114b78fa7bf59",
+        "pushed_at": "2026-09-23T18:11:07Z",
+        "description_hash": "b8185a23dd34",
+        "release_tag": "v0.1.0"
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "8dd1fa0165b782859d623c036f2b62791bb44769"
+    },
+    {
+      "id": "github:arbazsiddiqui/kev-browser-use",
+      "node_id": "R_kgDOUmGO7w",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "bcd049fe80437b4ca476cd47a1015eb7203648eb",
+        "pushed_at": "2026-09-23T16:50:57Z",
+        "description_hash": "d23924bfc631",
+        "release_tag": null
+      },
+      "review_depth": "readme_results_table",
+      "note": "1234 readme_results_table; archive-only; see notes §167",
+      "readme_sha": "cb82066530afc2b34e0f8a2562c6417a3e0df679"
+    },
+    {
+      "id": "github:dashidhy/GemmaJev",
+      "node_id": "R_kgDOUkJPUw",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "59ddf8d8f9bd4ecbc80c35970bd753864d2328a1",
+        "pushed_at": "2026-09-23T18:23:35Z",
+        "description_hash": "9782fb7b3685",
+        "release_tag": null
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "b33b8460bf59c801add2e81e9566251051bcbe87"
+    },
+    {
+      "id": "github:zoedsy/openJEV",
+      "node_id": "R_kgDOUnyGPg",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "8d86941163db0ee2d74df8e2111bdfc77e40f9ea",
+        "pushed_at": "2026-09-23T17:12:02Z",
+        "description_hash": "1892c6b276c0",
+        "release_tag": null
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "1204ace74d4db612e7b7da46c432467696332cc0"
+    },
+    {
+      "id": "github:VitaDAO/open-jev-tinfoil",
+      "node_id": "R_kgDOUn1kTQ",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "f3f7bedb96053b22f7087ba9ea67434e0512bbe4",
+        "pushed_at": "2026-09-23T18:44:28Z",
+        "description_hash": "ccba45e90824",
+        "release_tag": "v0.2.0"
+      },
+      "review_depth": "readme_contract",
+      "note": "1234 readme_contract; archive-only; see notes §167",
+      "readme_sha": "c93be0e081f096dc2089e26c241ac6d81edda029"
+    },
+    {
+      "id": "github:ZJU-REAL/CUA-JEV",
+      "node_id": "R_kgDOUmWtNw",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "6304a68234c0692b049cae95037c5d6e41c82b9e",
+        "pushed_at": "2026-09-23T18:46:47Z",
+        "description_hash": "265b3c386a5e",
+        "release_tag": null
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "b290a2bd9d93d2f8ac1ff3f37d2869ec40dfc56f"
+    },
+    {
+      "id": "github:h0j5bz0adh0-stack/jev-pilot",
+      "node_id": "R_kgDOUnzQDA",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "7c0bc7c639b2488ba53eee94f4d85251243f00c1",
+        "pushed_at": "2026-09-23T18:35:22Z",
+        "description_hash": "60382ff40421",
+        "release_tag": null
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "cb208a471630bb2e5a4289a47ac7c2972e76d1c2"
+    },
+    {
+      "id": "github:Alex314618-create/JevRev",
+      "node_id": "R_kgDOUjE6zg",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "931499f03743508660030488bbb837d70b800868",
+        "pushed_at": "2026-09-23T16:23:14Z",
+        "description_hash": "d3f79962718d",
+        "release_tag": "v0.2.0"
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "b6709424a4308ebdd859b3be4fbcdb5557cc4654"
+    },
+    {
+      "id": "github:PAI-CUHK/SLEEPJEV",
+      "node_id": "R_kgDOUmP3jQ",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "505a7658847cd51aa9e254f6ee5b4e241b4af46c",
+        "pushed_at": "2026-09-23T17:52:45Z",
+        "description_hash": "7e7df3a541b3",
+        "release_tag": "v0.1.0"
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "274df26cec524a1b7a5b28962e7878996f58afc6"
+    },
+    {
+      "id": "github:RestCode72/dsh-laya",
+      "node_id": "R_kgDOUn4r1A",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "1295938532505eb21af1dc88ec1fe5af686e15e2",
+        "pushed_at": "2026-09-23T18:31:26Z",
+        "description_hash": "72a678fed062",
+        "release_tag": null
+      },
+      "review_depth": "readme_policy_split",
+      "note": "1234 readme_policy_split; archive-only; see notes §167",
+      "readme_sha": "ddffb8c69d4a389aaeb3eb2094886f45fba6d5ed"
+    },
+    {
+      "id": "github:replynodes/jev-change-monitor",
+      "node_id": "R_kgDOUneslg",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "10bebea5b1d38895e88c84f6854dee970771d577",
+        "pushed_at": "2026-09-23T18:26:32Z",
+        "description_hash": "2a290940233e",
+        "release_tag": null
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "0c46ef05037de3e3168b3b5ab39002ba4530e4de"
+    },
+    {
+      "id": "github:gitcommitshow/jev-classifies-bots",
+      "node_id": "R_kgDOUnnuQA",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "27df5f92f42a24994edda2b9281648159951904f",
+        "pushed_at": "2026-09-23T16:57:24Z",
+        "description_hash": "c428e229a1e6",
+        "release_tag": null
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "21d78e613a7d04837095e1dc1cf74dfc9848b976"
+    },
+    {
+      "id": "github:Kpaul-create/chess-laya",
+      "node_id": "R_kgDOUnpxZw",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "508a8f0b4c158f8b5fde67c516a42ede37afb499",
+        "pushed_at": "2026-09-23T15:57:04Z",
+        "description_hash": "dd6d031c3419",
+        "release_tag": null
+      },
+      "review_depth": "readme",
+      "note": "1234 readme; archive-only; see notes §167",
+      "readme_sha": "1a68f83bb6909a70634fb8647f4365207e6917ea"
+    },
+    {
+      "id": "github:hjl1045/jev-equivalent-research",
+      "node_id": "R_kgDOUmgoLQ",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "7e55b7841c7664fb6823a6d330db6c15d2b042e5",
+        "pushed_at": "2026-09-23T16:31:56Z",
+        "description_hash": "6ef6933210df",
+        "release_tag": null
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "fde41cfded5cc42eb320284eed937b0ee7bad12c"
+    },
+    {
+      "id": "github:j1s4nn/jevXagent",
+      "node_id": "R_kgDOUm0gyA",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "c85f2f77dcd8365d5a32a87baa829aa1f12d8ac4",
+        "pushed_at": "2026-09-23T16:13:29Z",
+        "description_hash": "b48c900df2b9",
+        "release_tag": null
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "91e07df29d119492f1f97f2f09f705f9d8c29191"
+    },
+    {
+      "id": "github:kitoutou999/firefox-jev-mcp",
+      "node_id": "R_kgDOUnvC1g",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "49a31d1f3dc0f9b92495351eca174e04ba6ca110",
+        "pushed_at": "2026-09-23T16:41:48Z",
+        "description_hash": "750311317516",
+        "release_tag": null
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "f1a7e6da602bcf9f28cb38286dad3799640f75de"
+    },
+    {
+      "id": "github:condeadriankeith/SystemOneEngine",
+      "node_id": "R_kgDOUixPlQ",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "422f76103004719852216a35cd16ef269776ad54",
+        "pushed_at": "2026-09-23T16:44:54Z",
+        "description_hash": "f236ef14a89e",
+        "release_tag": null
+      },
+      "review_depth": "empty_readme",
+      "note": "1234 empty_readme; archive-only; see notes §167",
+      "readme_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "id": "github:khordoo/jev-reflex-autonomy-lab",
+      "node_id": "R_kgDOUgmt-g",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "7331a1a5abf0e431e3080c2d02531f69b0a09b83",
+        "pushed_at": "2026-09-23T18:05:24Z",
+        "description_hash": "8d51772ed5b8",
+        "release_tag": null
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "dab5e1ae70deaa18ee54ecac2ef9efdf25c95124"
+    },
+    {
+      "id": "github:socai-io/jev-social",
+      "node_id": "R_kgDOUgi6vA",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "51830b34906673e796754b70f8e878d166822a9b",
+        "pushed_at": "2026-09-23T17:25:26Z",
+        "description_hash": "2ea6ddbaf00a",
+        "release_tag": "v0.1.5"
+      },
+      "review_depth": "readme_banner",
+      "note": "1234 readme_banner; archive-only; see notes §167",
+      "readme_sha": "ffafd0cdcaf3a200608698fe0df62de15182f59c"
+    },
+    {
+      "id": "github:fbivinay/btc-paper-trader",
+      "node_id": "R_kgDOUnRjCA",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "40a7021331cd5edd9635c03665de6a9402c27b7d",
+        "pushed_at": "2026-09-23T18:14:10Z",
+        "description_hash": "d098359993c3",
+        "release_tag": null
+      },
+      "review_depth": "commit_message",
+      "note": "1234 commit_message; archive-only; see notes §167"
+    },
+    {
+      "id": "github:fontlaborg/ornotto",
+      "node_id": "R_kgDOUnpjwQ",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "0781d3c3b81f6f8b9f4a99909dad334e1a6cabf2",
+        "pushed_at": "2026-09-23T15:50:04Z",
+        "description_hash": "49a4809849b7",
+        "release_tag": null
+      },
+      "review_depth": "tree_listing",
+      "note": "1234 tree_listing; archive-only; see notes §167"
+    },
+    {
+      "id": "github:Amine-LG/decision-lab",
+      "node_id": "R_kgDOUnvZzg",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "46887ffbc8c512f015869f88c43f62b09258e6b6",
+        "pushed_at": "2026-09-23T16:45:30Z",
+        "description_hash": "bfa0d0c5c958",
+        "release_tag": "v1.0.0"
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "a80c505c5ca1304e0997cb3b45b703b71978e1ad"
+    },
+    {
+      "id": "github:TeaShaman-cyber/theseus-typed-decision-lab",
+      "node_id": "R_kgDOUn2ivw",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "8c122f3a5dd3cc2abac2e707d621f3f3c6c54104",
+        "pushed_at": "2026-09-23T18:27:46Z",
+        "description_hash": "70a9d5c62a7c",
+        "release_tag": null
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "1f1dfcdf6aec19a0be1ee9a055dd5b2f5014ba6e"
+    },
+    {
+      "id": "github:AkashAi7/jev-vs-foundry-benchmark",
+      "node_id": "R_kgDOUnT-Pw",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "ea3cb0ec9f6d81ea1d6ae2cb33fff8e5562e9d91",
+        "pushed_at": "2026-09-23T18:23:12Z",
+        "description_hash": "bd19a0af7daa",
+        "release_tag": null
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "eec2d9e1a70e4c73bc7867911e89e2b71f3f1e06"
+    },
+    {
+      "id": "github:Donnaclarkk981/typesafe-ai-benchmark",
+      "node_id": "R_kgDOUnro9A",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "9907ecbeab4b2f6076f87156b90694942ff188d3",
+        "pushed_at": "2026-09-23T18:41:17Z",
+        "description_hash": "eecca8fd5431",
+        "release_tag": null
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "822b563d08d0391319b5e8e2a19b139d60faffd0"
+    },
+    {
+      "id": "github:theogrillat/jev-precision-router",
+      "node_id": "R_kgDOUn5Hww",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "6d7802fef6292aa19bc006e61dadd48659b50f1d",
+        "pushed_at": "2026-09-23T18:26:15Z",
+        "description_hash": "020521117027",
+        "release_tag": null
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "b6a2da416796c9bcbd4bf8d86e5ea317e3fd5a20"
+    },
+    {
+      "id": "github:Eren-Oztk/jev-system-one",
+      "node_id": "R_kgDOUn1RUw",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "a539efb354081d93e7f07719ccc2accba165190e",
+        "pushed_at": "2026-09-23T18:04:27Z",
+        "description_hash": "825e3a4437e3",
+        "release_tag": null
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "b3a73a53201de75cea9d1c82b2d4267b7b281dcf"
+    },
+    {
+      "id": "github:adnanahmaddev/system-one-browser-agent",
+      "node_id": "R_kgDOUnsNlA",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "853443a4e66cada301d1c52b8674e2b4095182b5",
+        "pushed_at": "2026-09-23T16:51:25Z",
+        "description_hash": "a48a7d258f9c",
+        "release_tag": null
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "350371767ae1c54406484e657722e340b865ca24"
+    },
+    {
+      "id": "github:legostin/jev-mcp",
+      "node_id": "R_kgDOUns_iw",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "f0082ca037889987c3ab0015ee3d98c5018409ca",
+        "pushed_at": "2026-09-23T18:19:03Z",
+        "description_hash": "ab53d3e8f92e",
+        "release_tag": "v0.1.0"
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "12ea8a0db91d08cbb2aa364e55696d4958b6041d"
+    },
+    {
+      "id": "github:ibrahimhajjaj/barq",
+      "node_id": "R_kgDOUiG85Q",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "a8431fd8c6ca29fa35cfbd3e2334d90e9d18c1df",
+        "pushed_at": "2026-09-23T18:43:33Z",
+        "description_hash": "5f0184d0da03",
+        "release_tag": "v0.2.1"
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "355e107d534eeb07ad90a3e3ad3d59b546bddbf3"
+    },
+    {
+      "id": "github:mmornati/system-one-router",
+      "node_id": "R_kgDOUn34Iw",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "c0a9b06b184767615f7c2f324424b59b521904c1",
+        "pushed_at": "2026-09-23T18:11:20Z",
+        "description_hash": "ebb603972831",
+        "release_tag": null
+      },
+      "review_depth": "readme_opening",
+      "note": "1234 readme_opening; archive-only; see notes §167",
+      "readme_sha": "c9b3da82b516230c105b67b1c14704598930aa4e"
+    },
+    {
+      "id": "github:Sajjat4/Trchx",
+      "node_id": "R_kgDOUn0mgQ",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": null,
+        "pushed_at": "2026-09-23T17:37:05Z",
+        "description_hash": "689bfe7e8747",
+        "release_tag": null
+      },
+      "review_depth": "empty_repo_http_409",
+      "note": "1234 HTTP 409 empty repository; no HEAD invented; description latency not measured"
+    },
+    {
+      "id": "hf:tasksource/tasksource-jev-typed-decisions",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "35f5abfb3d2c6e0db6226bf17aeeec3a7b208882",
+        "pushed_at": "2026-09-23T18:16:19.000Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "review_depth": "card",
+      "note": "1234 card; archive-only; see notes §167"
+    },
+    {
+      "id": "hf:chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-v2",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "36b624d72c78da47bb614742afab141b9764c3dd",
+        "pushed_at": "2026-09-23T17:40:24.000Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "review_depth": "card_opening",
+      "note": "1234 card_opening; archive-only; see notes §167"
+    },
+    {
+      "id": "hf:chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-v2-GGUF",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "aa6d27af30e904e0638a11efc68e90f922ff17a6",
+        "pushed_at": "2026-09-23T17:40:19.000Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "review_depth": "hub_metadata",
+      "note": "1234 hub_metadata; archive-only; see notes §167"
+    },
+    {
+      "id": "hf:chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-v2-MLX-bf16",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "aa46f013d0267d3d5f658f6675ffa1bde9b20439",
+        "pushed_at": "2026-09-23T17:40:27.000Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "review_depth": "hub_metadata",
+      "note": "1234 hub_metadata; archive-only; see notes §167"
+    },
+    {
+      "id": "hf:soyrsoyr/jev-playground-rlcd",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "c42fe0fc0a46929e24cb525678ed17e8ed80e88e",
+        "pushed_at": "2026-09-23T18:34:48.000Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "review_depth": "card_opening",
+      "note": "1234 card_opening; archive-only; see notes §167"
+    },
+    {
+      "id": "hf:soyrsoyr/jev-playground-rlcd-v0",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "0e7293bd1377df2b49fe5ca3103c75ee408b5aeb",
+        "pushed_at": "2026-09-23T18:31:36.000Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "review_depth": "card",
+      "note": "1234 card; archive-only; see notes §167"
+    },
+    {
+      "id": "hf:lostargon/Tiny-Jev-1.7B",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "cb950474afbf4c002ef23206378a93dd9eacdb50",
+        "pushed_at": "2026-09-23T18:01:49.000Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "review_depth": "card_opening",
+      "note": "1234 card_opening; archive-only; see notes §167"
+    },
+    {
+      "id": "hf:wwydmanski/bielik-minitron-jev-v0.1",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "ac239e3631a4888f580bd2f00bd67720da7675a7",
+        "pushed_at": "2026-09-23T18:12:22.000Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "review_depth": "card_opening",
+      "note": "1234 card_opening; archive-only; see notes §167"
+    },
+    {
+      "id": "github:Alevsk/laya-lab",
+      "node_id": "R_kgDOUmk8NA",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "7fadd1cf3e2d16fa27054fe219b8297e91ee9a0d",
+        "pushed_at": "2026-09-23T16:38:37Z",
+        "description_hash": "eb25d3dd3c97",
+        "release_tag": null
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
+    },
+    {
+      "id": "github:AlexLeow99/laya-triage",
+      "node_id": "R_kgDOUn2qJw",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "78caa8be2c34450e6d4190084dfd4060e8e6d602",
+        "pushed_at": "2026-09-23T18:19:33Z",
+        "description_hash": "c85b14fb51ce",
+        "release_tag": "v1.0.0"
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
+    },
+    {
+      "id": "github:DimisCodes/tavli",
+      "node_id": "R_kgDOUnwGIA",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "365384c879e37f1c876597fb4d4ba37b446e9a65",
+        "pushed_at": "2026-09-23T17:10:41Z",
+        "description_hash": "8aad7182c9da",
+        "release_tag": null
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
+    },
+    {
+      "id": "github:Jaiswal-Siddhant/laya-doom-agent",
+      "node_id": "R_kgDOUlEPJA",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "e1d03f206b5b54ebe097649b0ff05829195983bf",
+        "pushed_at": "2026-09-23T16:43:27Z",
+        "description_hash": "f8e051bdceec",
+        "release_tag": null
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
+    },
+    {
+      "id": "github:JussCubs/jev-podcast-studio",
+      "node_id": "R_kgDOUn44hw",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "a956f5f00f91559657eac7d83fa9b39231b1bdaf",
+        "pushed_at": "2026-09-23T18:41:30Z",
+        "description_hash": "637619764fb1",
+        "release_tag": null
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
+    },
+    {
+      "id": "github:MaeTor/laya-detector",
+      "node_id": "R_kgDOUnu5EQ",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "c89eaa99f3cd096fec623243c2e9a0e85b6dec03",
+        "pushed_at": "2026-09-23T16:40:17Z",
+        "description_hash": "6f5a23bbbe76",
+        "release_tag": null
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
+    },
+    {
+      "id": "github:MishraAnkit10/laya-post-flagger",
+      "node_id": "R_kgDOUnucDQ",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "bcfeed6e79348ede3aaf8d25730153c4dcdd9221",
+        "pushed_at": "2026-09-23T16:37:11Z",
+        "description_hash": "9c9b44f676f7",
+        "release_tag": null
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
+    },
+    {
+      "id": "github:abhishek085/JevControl",
+      "node_id": "R_kgDOUn1tXg",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "4eb5cd951e17e12ce4b3556d6096cd959fa96fb9",
+        "pushed_at": "2026-09-23T18:06:50Z",
+        "description_hash": "3f902f02e9e0",
+        "release_tag": null
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
+    },
+    {
+      "id": "github:codejunkie99/keel",
+      "node_id": "R_kgDOUmXkFg",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "50b1a6bb0b0ef3e6802364bb18da1426b547bf9a",
+        "pushed_at": "2026-09-23T16:27:56Z",
+        "description_hash": "8f29665115a6",
+        "release_tag": null
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
+    },
+    {
+      "id": "github:codenamev/ruby_decision_model-providers-laya",
+      "node_id": "R_kgDOUnwg1Q",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "5e067d6fdfcc0de3f47a60d37e395098ab6d3a4c",
+        "pushed_at": "2026-09-23T16:55:28Z",
+        "description_hash": "e00e31b79125",
+        "release_tag": null
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
+    },
+    {
+      "id": "github:codenamev/ruby_llm-providers-laya",
+      "node_id": "R_kgDOUn2HHw",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "154124c2b309397557d55159c5f024c4da211d64",
+        "pushed_at": "2026-09-23T17:52:25Z",
+        "description_hash": "72c7d6d13dfb",
+        "release_tag": null
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
+    },
+    {
+      "id": "github:dirnbauer/typo3-webcon-jev",
+      "node_id": "R_kgDOUhF9aw",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "b12f6d65cbe0eb3b07a3b3203211fd4848290788",
+        "pushed_at": "2026-09-23T18:13:48Z",
+        "description_hash": "aa275367778f",
+        "release_tag": null
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
+    },
+    {
+      "id": "github:eitaar/jev-skill-router",
+      "node_id": "R_kgDOUmgpnw",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "c9fe2368b9010d94b05155deb44f173b19ccd561",
+        "pushed_at": "2026-09-23T17:17:39Z",
+        "description_hash": "31a0a58a4c53",
+        "release_tag": null
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
+    },
+    {
+      "id": "github:fajarnuha/klassify",
+      "node_id": "R_kgDOUmaqfA",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "749559728eb6a4d6e2946ff0ceab162921543808",
+        "pushed_at": "2026-09-23T16:33:47Z",
+        "description_hash": "1c06b9beb565",
+        "release_tag": "v0.1.2"
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
+    },
+    {
+      "id": "github:griteshs6-boop/jev-model-router",
+      "node_id": "R_kgDOUnxjUQ",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "8d695786ea0bbf2e51ae26bea7ebe3cf3d3afd5f",
+        "pushed_at": "2026-09-23T17:05:42Z",
+        "description_hash": "8fc4be8d8b66",
+        "release_tag": null
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
+    },
+    {
+      "id": "github:hassankhan2608/sysone",
+      "node_id": "R_kgDOUn1ThQ",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "69937599350c78e55047bfcb237d229309e57fb4",
+        "pushed_at": "2026-09-23T17:44:18Z",
+        "description_hash": "634901bfccbd",
+        "release_tag": null
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
+    },
+    {
+      "id": "hf:AhmetSemih/laya-turkish-mmlu",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "20285ce35e97b08fe4d9e6a2192a60487f7740b8",
+        "pushed_at": "2026-09-23T16:16:41.000Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "review_depth": "hub_metadata",
+      "note": "1234 hub metadata; card body not opened"
+    },
+    {
+      "id": "hf:DKNTZMN/gan8-vs-jev",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "d93f0800428ea1414de2f6061870203e617db89c",
+        "pushed_at": "2026-09-23T17:19:31.000Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "review_depth": "hub_metadata",
+      "note": "1234 hub metadata; card body not opened"
+    },
+    {
+      "id": "hf:Ruiruiz30/Jev-Omni-MLX-4bit",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "2ffc677caa122aca4faf063c69c453b00065fa72",
+        "pushed_at": "2026-09-23T18:47:34.000Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "review_depth": "hub_metadata",
+      "note": "1234 hub metadata; card body not opened"
+    },
+    {
+      "id": "hf:dnagpt/laya-bio-historical-corpora",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "bd70a7d157741f8d19ad150adfa350a9b02ba417",
+        "pushed_at": "2026-09-23T17:57:41.000Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "review_depth": "hub_metadata",
+      "note": "1234 hub metadata; card body not opened"
+    },
+    {
+      "id": "hf:ksanjiv05/laya-for-rn-executorch",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "6ab57e14cbc46eabe1153359e195027411db80ff",
+        "pushed_at": "2026-09-23T17:35:50.000Z",
+        "description_hash": null,
+        "release_tag": null
+      },
+      "review_depth": "hub_metadata",
+      "note": "1234 hub metadata; card body not opened"
+    },
+    {
+      "id": "github:itsamejoshab/jev-explorer",
+      "node_id": "R_kgDOUnu3ww",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "9212f5747d8cfd39adc8038a126391bf3f33ad31",
+        "pushed_at": "2026-09-23T16:51:59Z",
+        "description_hash": "6dd1e2eed44c",
+        "release_tag": null
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
+    },
+    {
+      "id": "github:jevhee/jevhee.github.io",
+      "node_id": "R_kgDOUNEl-A",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "12b43694ccddfc392ff63ac357d6ab714ac5e5dd",
+        "pushed_at": "2026-09-23T18:45:16Z",
+        "description_hash": "577fea4bbb4f",
+        "release_tag": null
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
+    },
+    {
+      "id": "github:rsalas6/testing-jev",
+      "node_id": "R_kgDOUmSD3w",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "dd81f071f937dadf918c9fd7e2de923af277d5c8",
+        "pushed_at": "2026-09-23T16:29:52Z",
+        "description_hash": "eab147eb2488",
+        "release_tag": null
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
+    },
+    {
+      "id": "github:rykhalskyi/laya-api",
+      "node_id": "R_kgDOUnppRQ",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "e557268d79ac6534a84fe3668914b8d54744665f",
+        "pushed_at": "2026-09-23T17:51:26Z",
+        "description_hash": "07b84e2d06e0",
+        "release_tag": "v0.1.0"
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
+    },
+    {
+      "id": "github:samdem-ai/browser-agent-laya-fast",
+      "node_id": "R_kgDOUnzrrQ",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "1d184c6de73fb6b4bf9ac2ecf9a5d1d4a858ae08",
+        "pushed_at": "2026-09-23T17:27:52Z",
+        "description_hash": "58191280d9e1",
+        "release_tag": null
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
+    },
+    {
+      "id": "github:shettysaaproductions/Mark-LIII",
+      "node_id": "R_kgDOUnt8tw",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "4d2d08188e2d547fcd257e8b670ee0f3157a60cd",
+        "pushed_at": "2026-09-23T16:32:53Z",
+        "description_hash": "1ddf61ec34e2",
+        "release_tag": null
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
+    },
+    {
+      "id": "github:siiick/pignon",
+      "node_id": "R_kgDOUndhhw",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "c839713a28db7f252d4c393792e828d0d87c1eb9",
+        "pushed_at": "2026-09-23T16:41:53Z",
+        "description_hash": "6318b5db014a",
+        "release_tag": "v0.1.0"
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
+    },
+    {
+      "id": "github:wafaa-alhayek/masroufi",
+      "node_id": "R_kgDOUns3Og",
+      "notes_section": "167",
+      "last_look": "2026-09-23T18:55Z",
+      "fingerprints": {
+        "default_sha": "1718aef227c732e273bd8c5253b5a9fb28c6113c",
+        "pushed_at": "2026-09-23T18:20:06Z",
+        "description_hash": "0759edf58696",
+        "release_tag": null
+      },
+      "review_depth": "repo_metadata",
+      "note": "1234 repo_metadata; archive-only; not a code audit"
     }
   ],
   "entries": null

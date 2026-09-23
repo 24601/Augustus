@@ -6353,6 +6353,110 @@
     "note": "arXiv:2301.09633v4. Older work newly found; abstract only. Valid intervals from a small labeled set plus predictions. 2609.20758 section 2 reports PPI does not repair a non-probability sample. Investigate. notes.md §166.",
     "reviewed_at": "2026-09-23",
     "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "github",
+    "title": "poisson-labs/jev-replay",
+    "url": "https://github.com/poisson-labs/jev-replay",
+    "note": "HEAD ecc958fb627250538d7c71e62566feab1cff8166. README headline read, parquet not recomputed. Near-cut flip rates on jev-1.13.0 are theirs and are not ordinary-traffic rates. notes.md §167.",
+    "reviewed_at": "2026-09-23T18:55Z",
+    "review": "archive/hourly/2026-09-23T18/fold_167.md"
+  },
+  {
+    "kind": "github",
+    "title": "surajvs2710-stack/god-llm-decisions",
+    "url": "https://github.com/surajvs2710-stack/god-llm-decisions",
+    "note": "HEAD 4bf0c17de0df086cfd5aab07d86eab583c719d80 tag v1.0.0. Confidence-weighted average of Laya and Jev. Their limitations call it an uncalibrated heuristic. API license NOASSERTION; README says MIT. notes.md §167.",
+    "reviewed_at": "2026-09-23T18:55Z",
+    "review": "archive/hourly/2026-09-23T18/fold_167.md"
+  },
+  {
+    "kind": "github",
+    "title": "jayeshvpatil/jev-agent-risk-gate",
+    "url": "https://github.com/jayeshvpatil/jev-agent-risk-gate",
+    "note": "HEAD 13649569ca2de1cd554c0932b4e1408f7c068280. No README. Article caveats read: n=40 pilot, one labeler, abstain not offered. Quadrant percents stay theirs. notes.md §167.",
+    "reviewed_at": "2026-09-23T18:55Z",
+    "review": "archive/hourly/2026-09-23T18/fold_167.md"
+  },
+  {
+    "kind": "github",
+    "title": "anthonyli/laya-pilot",
+    "url": "https://github.com/anthonyli/laya-pilot",
+    "note": "HEAD 5acef3f6731bc059add57b999f3c8835d9af7cf9. README opening. Page-state assertions own pass/fail. Model judgment is not the pass result. notes.md §167.",
+    "reviewed_at": "2026-09-23T18:55Z",
+    "review": "archive/hourly/2026-09-23T18/fold_167.md"
+  },
+  {
+    "kind": "github",
+    "title": "tic-top/llm2jev",
+    "url": "https://github.com/tic-top/llm2jev",
+    "note": "Node R_kgDOUm1v2g HEAD 50f508ce7f42ecccccb6e53b1235d78bbe927eca tag v0.6.0. Label-token readout. Called AnyJev before 0.5.0. Not nokia-applied-research/AnyJev. Not Yinsongxu/LLM2Jev. notes.md §167.",
+    "reviewed_at": "2026-09-23T18:55Z",
+    "review": "archive/hourly/2026-09-23T18/fold_167.md"
+  },
+  {
+    "kind": "github",
+    "title": "nschlaepfer/manchego-serve",
+    "url": "https://github.com/nschlaepfer/manchego-serve",
+    "note": "HEAD 4c7332f726aaa07bd5a73e66a96114b78fa7bf59 tag v0.1.0. Manchego v2.1 on POST /v1/systemone. Confidence (K*max p-1)/(K-1) is their margin, not a Noul. notes.md §167.",
+    "reviewed_at": "2026-09-23T18:55Z",
+    "review": "archive/hourly/2026-09-23T18/fold_167.md"
+  },
+  {
+    "kind": "github",
+    "title": "arbazsiddiqui/kev-browser-use",
+    "url": "https://github.com/arbazsiddiqui/kev-browser-use",
+    "note": "HEAD bcd049fe80437b4ca476cd47a1015eb7203648eb. README table: 1000 Mind2Web steps, 10 candidates. Step success 32.2 is theirs, not Harbor. Brier is summed over 10 candidates. notes.md §167.",
+    "reviewed_at": "2026-09-23T18:55Z",
+    "review": "archive/hourly/2026-09-23T18/fold_167.md"
+  },
+  {
+    "kind": "github",
+    "title": "weitianxin/JevAny",
+    "url": "https://github.com/weitianxin/JevAny",
+    "note": "HEAD 5ec818f17bb72eba074c6f0afd4b28533d7e7784 tag v0.2.0. Qwen3.8-27B LoRA. RLCR labeled experimental. Qwen3.8 is not Archer. Result table not copied. notes.md §167.",
+    "reviewed_at": "2026-09-23T18:55Z",
+    "review": "archive/hourly/2026-09-23T18/fold_167.md"
+  },
+  {
+    "kind": "hf",
+    "title": "tasksource/tasksource-jev-typed-decisions",
+    "url": "https://huggingface.co/datasets/tasksource/tasksource-jev-typed-decisions",
+    "note": "sha 35f5abfb3d2c6e0db6226bf17aeeec3a7b208882. Card read. 900000 train rows. procedural-jev slice is not human-authored. Recast target is not original-task gold. notes.md §167.",
+    "reviewed_at": "2026-09-23T18:55Z",
+    "review": "archive/hourly/2026-09-23T18/fold_167.md"
+  },
+  {
+    "kind": "hf",
+    "title": "chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-v2",
+    "url": "https://huggingface.co/chaoliangUNSW/Jev-Style-Qwen3.5-2B-Decision-v2",
+    "note": "sha 36b624d72c78da47bb614742afab141b9764c3dd. Card opening. GGUF and MLX repos are packaging. Qwen3.5 is not Archer. Calibrated is their banner. notes.md §167.",
+    "reviewed_at": "2026-09-23T18:55Z",
+    "review": "archive/hourly/2026-09-23T18/fold_167.md"
+  },
+  {
+    "kind": "hf",
+    "title": "soyrsoyr/jev-playground-rlcd-v0",
+    "url": "https://huggingface.co/datasets/soyrsoyr/jev-playground-rlcd-v0",
+    "note": "sha 0e7293bd1377df2b49fe5ca3103c75ee408b5aeb. Synthetic. Reference distributions exact by construction. Not a deployment calibration. notes.md §167.",
+    "reviewed_at": "2026-09-23T18:55Z",
+    "review": "archive/hourly/2026-09-23T18/fold_167.md"
+  },
+  {
+    "kind": "github",
+    "title": "Alex314618-create/JevRev",
+    "url": "https://github.com/Alex314618-create/JevRev",
+    "note": "Node R_kgDOUjE6zg HEAD 931499f03743508660030488bbb837d70b800868 tag v0.2.0. Not AliZareh-CoE/JevRev. Demo replays Jev. Exact checks outrank the paper ranking. notes.md §167.",
+    "reviewed_at": "2026-09-23T18:55Z",
+    "review": "archive/hourly/2026-09-23T18/fold_167.md"
+  },
+  {
+    "kind": "github",
+    "title": "fbivinay/btc-paper-trader",
+    "url": "https://github.com/fbivinay/btc-paper-trader",
+    "note": "HEAD 40a7021331cd5edd9635c03665de6a9402c27b7d. No README. Commit message only, backtest not rerun. 80.1% win rate with -17.6% return is theirs. Win rate is not return. notes.md §167.",
+    "reviewed_at": "2026-09-23T18:55Z",
+    "review": "archive/hourly/2026-09-23T18/fold_167.md"
   }
   ]
 }

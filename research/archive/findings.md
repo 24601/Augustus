@@ -1,3 +1,22 @@
+## Batch #144 (2026-09-23 ~12:34 Boise) - hourly 1234 HIGH
+
+Note: `research/notes.md` §167. No composition range.
+Hourly 0946 stays §165. The patrol stays §166. This fold is §167 only.
+Do not reclaim §165 or §166. Composition ranges ended at 996 with §163.
+§164 through §166 assigned none, and this fold does not reopen that sequence.
+README still ends at License. Does not bump 0.7.2.
+`invented_signal: false`. Research-only.
+
+- **poisson-labs/jev-replay.** Near-cut flip rates are not ordinary traffic.
+  Outcome B: flips, net swing covering zero. Not recomputed.
+- **surajvs2710-stack/god-llm-decisions.** Confidence-weighted average is
+  their uncalibrated heuristic. Noul disagreement goes to a person.
+- **jayeshvpatil/jev-agent-risk-gate.** n=40 pilot, abstain not offered.
+  A catch rate on that file is not a safety certificate.
+- **tic-top/llm2jev.** Label-token readout. Not nokia AnyJev. Not
+  Yinsongxu/LLM2Jev.
+- **allebee/jevk5.** HEAD unchanged from §165. Description rewrite only.
+
 ## Batch #143 (2026-09-21 ~22:44 Boise) - hourly 2244 HIGH
 
 Note: `research/notes.md` §163. Composition 981-996.
