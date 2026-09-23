@@ -18,6 +18,12 @@ folds: `research/notes.md`.
 
 ### Changed
 
+- Added "The story of Jev and Augustus", a 2:38 explainer film, to the homepage
+  and README. The site uses a click-to-load, privacy-enhanced YouTube player
+  with an on-page transcript and `VideoObject` metadata. The MP4, captions and
+  poster are hosted on the `film-jev-and-augustus` pre-release, so the
+  repository gains only a small poster image. This is a website and README
+  change; the skill package is unchanged.
 - Reworked the website as a technical publication centered on an annotated
   decision example. Kept the agent build/evaluate/improve mission visible,
   brought installation into the page, and moved the six detailed placements

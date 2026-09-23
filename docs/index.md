@@ -17,6 +17,7 @@ page_class: home
     <div class="opening-actions">
       <a class="button" href="#install">Install Augustus <span aria-hidden="true">↓</span></a>
       <a href="{{ '/examples.html' | relative_url }}">Read a worked example</a>
+      <a href="#film">Watch the 2:38 film</a>
     </div>
   </div>
   <span class="registration" aria-hidden="true"></span>
@@ -65,9 +66,11 @@ page_class: home
     A parser, checklist, or existing human process can be the better design.</p>
 </aside>
 
+{% include film.html %}
+
 <section class="installation" id="install" aria-labelledby="install-title">
   <div class="installation-intro">
-    <p class="section-index">/03 — Installation</p>
+    <p class="section-index">/04 — Installation</p>
     <h2 id="install-title">Put it in your agent’s hands.</h2>
     <p>The skill needs no API key. Calling a hosted model is a separate,
       optional integration.</p>
@@ -91,7 +94,7 @@ claude plugin install augustus@augustus</code></pre>
 </section>
 
 <section class="first-prompt" aria-labelledby="try-title">
-  <p class="section-index">/04 — First prompt</p>
+  <p class="section-index">/05 — First prompt</p>
   <h2 id="try-title">Start with one real workflow.</h2>
   <blockquote>
     <p>Use Augustus to audit our refund-email workflow. Test whether a classifier

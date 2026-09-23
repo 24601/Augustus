@@ -1,0 +1,143 @@
+[
+ {
+  "requested": {
+   "w": 320,
+   "theme": "light"
+  },
+  "observed": {
+   "vw": 320,
+   "scheme": "light",
+   "scrollW": 320,
+   "filmH": 887,
+   "imgW": 252,
+   "heroLink": true
+  },
+  "overflow": false
+ },
+ {
+  "requested": {
+   "w": 390,
+   "theme": "light"
+  },
+  "observed": {
+   "vw": 390,
+   "scheme": "light",
+   "scrollW": 390,
+   "filmH": 830,
+   "imgW": 322,
+   "heroLink": true
+  },
+  "overflow": false
+ },
+ {
+  "requested": {
+   "w": 768,
+   "theme": "light"
+  },
+  "observed": {
+   "vw": 768,
+   "scheme": "light",
+   "scrollW": 768,
+   "filmH": 848,
+   "imgW": 667,
+   "heroLink": true
+  },
+  "overflow": false
+ },
+ {
+  "requested": {
+   "w": 1440,
+   "theme": "light"
+  },
+  "observed": {
+   "vw": 1440,
+   "scheme": "light",
+   "scrollW": 1440,
+   "filmH": 565,
+   "imgW": 642,
+   "heroLink": true
+  },
+  "overflow": false
+ },
+ {
+  "requested": {
+   "w": 320,
+   "theme": "dark"
+  },
+  "observed": {
+   "vw": 320,
+   "scheme": "dark",
+   "scrollW": 320,
+   "filmH": 887,
+   "imgW": 252,
+   "heroLink": true
+  },
+  "overflow": false
+ },
+ {
+  "requested": {
+   "w": 390,
+   "theme": "dark"
+  },
+  "observed": {
+   "vw": 390,
+   "scheme": "dark",
+   "scrollW": 390,
+   "filmH": 830,
+   "imgW": 322,
+   "heroLink": true
+  },
+  "overflow": false
+ },
+ {
+  "requested": {
+   "w": 768,
+   "theme": "dark"
+  },
+  "observed": {
+   "vw": 768,
+   "scheme": "dark",
+   "scrollW": 768,
+   "filmH": 848,
+   "imgW": 667,
+   "heroLink": true
+  },
+  "overflow": false
+ },
+ {
+  "requested": {
+   "w": 1440,
+   "theme": "dark"
+  },
+  "observed": {
+   "vw": 1440,
+   "scheme": "dark",
+   "scrollW": 1440,
+   "filmH": 565,
+   "imgW": 642,
+   "heroLink": true
+  },
+  "overflow": false
+ },
+ {
+  "interaction": "keyboard Enter on facade",
+  "frame": {
+   "src": "https://www.youtube-nocookie.com/embed/ZC4oge4WsCQ?autoplay=1&rel=0",
+   "title": "The story of Jev and Augustus (YouTube)",
+   "focused": true,
+   "facadeGone": true
+  }
+ },
+ {
+  "interaction": "javascript disabled",
+  "href": "https://www.youtube.com/watch?v=ZC4oge4WsCQ",
+  "transcriptParas": 10,
+  "ld": "VideoObject"
+ },
+ {
+  "interaction": "hosts requested on load",
+  "hosts": [
+   "localhost:8765"
+  ]
+ }
+]

@@ -1,0 +1,56 @@
+<section class="film" id="film" aria-labelledby="film-title">
+  <div class="film-intro">
+    <p class="section-index">/03 — Film</p>
+    <h2 id="film-title">The story of Jev and Augustus.</h2>
+    <p>In 1869, Jevons built a piano that played logic. His teacher De Morgan
+      taught that you draw the boundary before you reason. This short film follows
+      that idea to today’s agents: where a bounded judgment belongs, what stays
+      in code, and how Augustus tests the change against your current workflow.</p>
+    <p class="film-links">
+      <a href="https://youtu.be/ZC4oge4WsCQ">Watch on YouTube</a>
+      <a href="https://github.com/24601/Augustus/releases/download/film-jev-and-augustus/jev-and-augustus-1080p.mp4">Download MP4</a>
+      <a href="https://github.com/24601/Augustus/releases/download/film-jev-and-augustus/jev-and-augustus.en.srt">Captions (SRT)</a>
+    </p>
+  </div>
+  <figure class="film-player">
+    <a class="film-facade" href="https://www.youtube.com/watch?v=ZC4oge4WsCQ" data-video-id="ZC4oge4WsCQ" aria-label="Play the film The story of Jev and Augustus, 2 minutes 38 seconds">
+      <img src="{{ '/assets/film/jev-and-augustus-poster.jpg' | relative_url }}" width="1280" height="720" loading="lazy" decoding="async"
+        alt="Cut-paper illustration: Augustus, holding a lantern, and Jev, a small red piano with a face, on a London rooftop under a starry sky, beside the title Jev and Augustus.">
+      <span class="film-play" aria-hidden="true">Play · 2:38</span>
+    </a>
+    <figcaption>Drawn in code, with captions burned in. YouTube loads only after you press play.</figcaption>
+  </figure>
+  <details class="film-transcript">
+    <summary>Read the transcript</summary>
+    <p>London, 1869. A young economist named William Stanley Jevons builds a piano that plays no music at all. It plays logic.</p>
+    <p>You press in your premises, key by key, and the machine quietly throws out every combination that contradicts them. Whatever is left is what can still be true.</p>
+    <p>Jevons learned his logic from Augustus De Morgan, who taught that before you reason about anything, you draw a boundary around it: the universe of discourse. Say what you’re asking. Say what the answer is allowed to be.</p>
+    <p>A hundred and fifty-seven years later, your agent has the opposite problem. Every small call… is this email a refund request? Is this task actually done? …goes to a giant model that writes back a paragraph of JSON. Slow, expensive, and never quite the same answer twice.</p>
+    <p>Jev is a different kind of model. It answers bounded questions, and nothing else. A Choice picks one of the options you offer. A Score rates something against levels you describe. A Noul asks: is this statement true? And returns a probability.</p>
+    <p>But a precise tool in the wrong place is still the wrong tool. Which step gets the judgment? What stays in code? And what happens when the right answer is… none of the above?</p>
+    <p>That’s the job of Augustus: a skill for your coding agent, named for the teacher. It walks your workflow and sorts every step. Exact work stays in code. Open-ended writing stays with the generator. Only bounded judgment goes to the decision model, and an explicit policy decides what actually happens.</p>
+    <p>Then it checks the work, because a typed answer isn’t a true answer. Augustus keeps “none” on the menu, tests against the workflow you already have on cases the model has never seen, and names the result that would prove the idea wrong. If the new version loses, you keep the old one.</p>
+    <p>And sometimes the best answer is a formula, a checklist, or no new model at all. It’ll tell you that, too.</p>
+    <p>Augustus. Evidence, judgment, policy, action, outcome. One line to install. Then ask your agent where the judgment belongs.</p>
+  </details>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoObject", "name": "Jev & Augustus: where should your agent’s judgment go?", "description": "A 2:38 cut-paper film about Jev, a decision model named for W. S. Jevons, and Augustus, an agent skill named for his teacher Augustus De Morgan: where bounded judgment belongs in an agent workflow, and how to test the change.", "thumbnailUrl": ["https://24601.github.io/Augustus/assets/film/jev-and-augustus-poster.jpg"], "uploadDate": "2026-09-22", "duration": "PT2M38S", "contentUrl": "https://github.com/24601/Augustus/releases/download/film-jev-and-augustus/jev-and-augustus-1080p.mp4", "embedUrl": "https://www.youtube-nocookie.com/embed/ZC4oge4WsCQ", "inLanguage": "en", "transcript": "London, 1869. A young economist named William Stanley Jevons builds a piano that plays no music at all. It plays logic. You press in your premises, key by key, and the machine quietly throws out every combination that contradicts them. Whatever is left is what can still be true. Jevons learned his logic from Augustus De Morgan, who taught that before you reason about anything, you draw a boundary around it: the universe of discourse. Say what you’re asking. Say what the answer is allowed to be. A hundred and fifty-seven years later, your agent has the opposite problem. Every small call… is this email a refund request? Is this task actually done? …goes to a giant model that writes back a paragraph of JSON. Slow, expensive, and never quite the same answer twice. Jev is a different kind of model. It answers bounded questions, and nothing else. A Choice picks one of the options you offer. A Score rates something against levels you describe. A Noul asks: is this statement true? And returns a probability. But a precise tool in the wrong place is still the wrong tool. Which step gets the judgment? What stays in code? And what happens when the right answer is… none of the above? That’s the job of Augustus: a skill for your coding agent, named for the teacher. It walks your workflow and sorts every step. Exact work stays in code. Open-ended writing stays with the generator. Only bounded judgment goes to the decision model, and an explicit policy decides what actually happens. Then it checks the work, because a typed answer isn’t a true answer. Augustus keeps “none” on the menu, tests against the workflow you already have on cases the model has never seen, and names the result that would prove the idea wrong. If the new version loses, you keep the old one. And sometimes the best answer is a formula, a checklist, or no new model at all. It’ll tell you that, too. Augustus. Evidence, judgment, policy, action, outcome. One line to install. Then ask your agent where the judgment belongs."}</script>
+  <script>
+    (function () {
+      var link = document.querySelector('.film-facade');
+      if (!link) return;
+      link.addEventListener('click', function (event) {
+        if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) return;
+        event.preventDefault();
+        var frame = document.createElement('iframe');
+        frame.src = 'https://www.youtube-nocookie.com/embed/' + link.getAttribute('data-video-id') + '?autoplay=1&rel=0';
+        frame.title = 'The story of Jev and Augustus (YouTube)';
+        frame.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+        frame.allowFullscreen = true;
+        frame.referrerPolicy = 'strict-origin-when-cross-origin';
+        frame.className = 'film-frame';
+        link.replaceWith(frame);
+        frame.focus();
+      });
+    })();
+  </script>
+</section>
