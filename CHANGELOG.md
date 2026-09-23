@@ -16,6 +16,16 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+### Fixed
+
+- Skill development version **0.7.2-dev**. The specialist-training guidance
+  said provider distributions could serve as weak labels or distillation
+  targets. It now requires checking the source's terms before any provider
+  output enters a training path (labels, targets, features, filtering, or
+  example selection). It cites TypeSafe's Master Customer Agreement §2.3(b)
+  (updated 2026-09-19), which bars using Jev Output for distillation, imitation
+  training, or a competing product. Published 0.7.1 carries the earlier wording.
+
 ## [0.7.1] - 2026-09-23
 
 ### Why this release matters

@@ -255,11 +255,16 @@ reason to train. Qualify score meaning, calibration where needed, and the
 downstream policy in the intended runtime.
 
 Qualification requires held-out independent labels or observed outcomes.
-Training may use provider or teacher distributions as features, weak labels,
-or distillation targets; those targets are not independently established truth.
+Where the source's terms allow it, training may use provider or teacher
+distributions as features, weak labels, or distillation targets; those targets
+are not independently established truth. Check terms before any provider output
+enters a training path (labels, targets, features, filtering, or example
+selection). TypeSafe's Master Customer Agreement §2.3(b) (updated 2026-09-19)
+bars using Jev Output for model distillation, to train a model imitating it, or
+to develop a competing product, so keep Jev outputs out of those paths.
 [jev-triage](https://github.com/ThyFriendlyFox/jev-triage) captures the useful
-pattern: use uncertainty to decide what deserves expensive labeling while real
-outcomes remain the target.
+pattern, uncertainty choosing what deserves expensive labeling while real
+outcomes remain the target; its uncertainty source needs the same check.
 
 Compare specialists and hosted decisions on the same holdout and deployment
 runtime. Include serving latency, cold start, human-label cost, retraining, and
@@ -274,7 +279,7 @@ labels, or population move daily.
 A safe materialization loop is:
 
 ```text
-independent gold + optional teacher features
+independent gold + optional teacher features (terms permitting)
 → train/compile local artifact
 → frozen holdout and shift tests
 → shadow comparison in the deployment runtime
