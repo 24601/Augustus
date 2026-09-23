@@ -1,0 +1,1971 @@
+{
+ "schema_version": 1,
+ "review": "research/patrol-2026-09-23.md",
+ "note": "A moved SHA or push time is a review trigger, not evidence of changed capability. inspection_depth records what was actually read.",
+ "revisit_probe": {
+  "retrieved_at": "2026-09-23T16:20:24Z",
+  "baseline": "research/archive/2026-09-22-refresh/source-snapshots.json + revisit_fingerprints.json",
+  "sources_probed": 56,
+  "github_sources": 46,
+  "hub_sources": 10,
+  "sources": [
+   {
+    "id": "github:typesafe-ai/skills",
+    "retrieved_at": "2026-09-23T16:20:26Z",
+    "node_id": "R_kgDOUDLV7Q",
+    "prior_node_id": "R_kgDOUDLV7Q",
+    "node_match": true,
+    "full_name_now": "typesafe-ai/skills",
+    "prior": {
+     "default_sha": "65a39f393687675ce170e6094757de20370365b9",
+     "pushed_at": "2026-09-12T05:42:06Z",
+     "description_hash": "29d80e0ef4f2",
+     "release_tag": null
+    },
+    "live": {
+     "default_sha": "65a39f393687675ce170e6094757de20370365b9",
+     "pushed_at": "2026-09-12T05:42:06Z",
+     "description_hash": "29d80e0ef4f2",
+     "release_tag": null
+    },
+    "moved": [],
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "unchanged_head; SKILL.md, plugin.json, marketplace.json, README read at 65a39f3"
+   },
+   {
+    "id": "github:typesafe-ai/typesafe-sdk-python",
+    "retrieved_at": "2026-09-23T16:20:28Z",
+    "node_id": "R_kgDOUOswyQ",
+    "prior_node_id": "R_kgDOUOswyQ",
+    "node_match": true,
+    "full_name_now": "typesafe-ai/typesafe-sdk-python",
+    "prior": {
+     "default_sha": "0ffd094c72ed9445223060b24ffd7a56aa781fb4",
+     "pushed_at": "2026-09-21T15:57:12Z",
+     "description_hash": "f0855a25af32",
+     "release_tag": "v0.7.1"
+    },
+    "live": {
+     "default_sha": "0ffd094c72ed9445223060b24ffd7a56aa781fb4",
+     "pushed_at": "2026-09-21T15:57:12Z",
+     "description_hash": "f0855a25af32",
+     "release_tag": "v0.7.1"
+    },
+    "moved": [],
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "unchanged_head; config.py, errors.py, questions.py read; v0.7.0..v0.7.1 compare"
+   },
+   {
+    "id": "github:typesafe-ai/typesafe-sdk-js",
+    "retrieved_at": "2026-09-23T16:20:29Z",
+    "node_id": "R_kgDOUOvfFg",
+    "prior_node_id": "R_kgDOUOvfFg",
+    "node_match": true,
+    "full_name_now": "typesafe-ai/typesafe-sdk-js",
+    "prior": {
+     "default_sha": "66880ccded6cb642dc1809620c2b108c33730214",
+     "pushed_at": "2026-09-15T18:16:49Z",
+     "description_hash": "38d4d45a89a9",
+     "release_tag": "v0.6.0"
+    },
+    "live": {
+     "default_sha": "66880ccded6cb642dc1809620c2b108c33730214",
+     "pushed_at": "2026-09-15T18:16:49Z",
+     "description_hash": "38d4d45a89a9",
+     "release_tag": "v0.6.0"
+    },
+    "moved": [],
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "unchanged_head; client.ts, errors.ts, questions.ts read"
+   },
+   {
+    "id": "github:typesafe-ai/system-one-adapter-python",
+    "retrieved_at": "2026-09-23T16:20:31Z",
+    "node_id": "R_kgDOTytOSQ",
+    "prior_node_id": "R_kgDOTytOSQ",
+    "node_match": true,
+    "full_name_now": "typesafe-ai/system-one-adapter-python",
+    "prior": {
+     "default_sha": "e1d4cc938204b22fc5a3c3aca7044072fe3f712d",
+     "pushed_at": "2026-09-22T12:24:32Z",
+     "description_hash": "c415d9355016",
+     "release_tag": "v0.2.1"
+    },
+    "live": {
+     "default_sha": "e1d4cc938204b22fc5a3c3aca7044072fe3f712d",
+     "pushed_at": "2026-09-22T12:24:32Z",
+     "description_hash": "c415d9355016",
+     "release_tag": "v0.2.1"
+    },
+    "moved": [],
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "repo_metadata (unchanged)"
+   },
+   {
+    "id": "github:TheoLeeCJ/SemIf",
+    "retrieved_at": "2026-09-23T16:20:33Z",
+    "node_id": "R_kgDOUc5tow",
+    "prior_node_id": "R_kgDOUc5tow",
+    "node_match": true,
+    "full_name_now": "TheoLeeCJ/SemIf-OpenJev",
+    "prior": {
+     "default_sha": "1f2dea3e25379f9dfc98cb83c324f00ab5deda37",
+     "pushed_at": "2026-09-21T20:07:30Z",
+     "description_hash": "4fb2e39c4c8f",
+     "release_tag": null
+    },
+    "live": {
+     "default_sha": "1f2dea3e25379f9dfc98cb83c324f00ab5deda37",
+     "pushed_at": "2026-09-21T20:07:30Z",
+     "description_hash": "4fb2e39c4c8f",
+     "release_tag": null
+    },
+    "moved": [],
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "fingerprint probe; unchanged"
+   },
+   {
+    "id": "github:jaredpalmer/kev",
+    "retrieved_at": "2026-09-23T16:20:36Z",
+    "node_id": "R_kgDOUfXmpg",
+    "prior_node_id": "R_kgDOUfXmpg",
+    "node_match": true,
+    "full_name_now": "jaredpalmer/kev",
+    "prior": {
+     "default_sha": "1c351992ba3df4a0a0f2ae03051b25466a2c7bcb",
+     "pushed_at": "2026-09-22T15:33:49Z",
+     "description_hash": "47fc60928c90",
+     "release_tag": "kev-family"
+    },
+    "live": {
+     "default_sha": "557598fced1dada75dfbf36ed144dce309ac6ceb",
+     "pushed_at": "2026-09-23T12:40:23Z",
+     "description_hash": "47fc60928c90",
+     "release_tag": "kev-family"
+    },
+    "moved": [
+     "default_sha",
+     "pushed_at"
+    ],
+    "commits_since": 29,
+    "files_changed": 300,
+    "inspection_depth": "source_diff (README patch, kev/autoresearch.py, kev/calibrate.py, docs/claims.json head); compare truncated at 300 files"
+   },
+   {
+    "id": "github:TianyuCodings/NanoJev",
+    "retrieved_at": "2026-09-23T16:20:38Z",
+    "node_id": "R_kgDOUfBLzg",
+    "prior_node_id": "R_kgDOUfBLzg",
+    "node_match": true,
+    "full_name_now": "TianyuCodings/NanoJev",
+    "prior": {
+     "default_sha": "76fdfc9ecdca45a9bcef17991a07d3041a87685a",
+     "pushed_at": "2026-09-21T09:58:28Z",
+     "description_hash": "92ce9454eeeb",
+     "release_tag": null
+    },
+    "live": {
+     "default_sha": "76fdfc9ecdca45a9bcef17991a07d3041a87685a",
+     "pushed_at": "2026-09-21T09:58:28Z",
+     "description_hash": "92ce9454eeeb",
+     "release_tag": null
+    },
+    "moved": [],
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "fingerprint probe; unchanged"
+   },
+   {
+    "id": "github:wfzyx/von",
+    "retrieved_at": "2026-09-23T16:20:41Z",
+    "node_id": "R_kgDOUfrk7A",
+    "prior_node_id": "R_kgDOUfrk7A",
+    "node_match": true,
+    "full_name_now": "wfzyx/von",
+    "prior": {
+     "default_sha": "581b87499e7d72fc267b145706ef79bee83a800a",
+     "pushed_at": "2026-09-22T15:13:09Z",
+     "description_hash": "34db25cb81c1",
+     "release_tag": null
+    },
+    "live": {
+     "default_sha": "657f42f45fcfbf8cbfceaff7af5a2193dcec2b8b",
+     "pushed_at": "2026-09-23T07:30:21Z",
+     "description_hash": "34db25cb81c1",
+     "release_tag": null
+    },
+    "moved": [
+     "default_sha",
+     "pushed_at"
+    ],
+    "commits_since": 27,
+    "files_changed": 51,
+    "inspection_depth": "source_diff (training/contamination_audit.py full, noul_prior_fit.py, README patch)"
+   },
+   {
+    "id": "github:bespokelabsai/nimble",
+    "retrieved_at": "2026-09-23T16:20:43Z",
+    "node_id": "R_kgDOUf54AA",
+    "prior_node_id": "R_kgDOUf54AA",
+    "node_match": true,
+    "full_name_now": "bespokelabsai/nimble",
+    "prior": {
+     "default_sha": "f136b3f75721fda4ea961f73993cc50b08488835",
+     "pushed_at": "2026-09-20T19:44:35Z",
+     "description_hash": "d6b46a233923",
+     "release_tag": null
+    },
+    "live": {
+     "default_sha": "38edc3b576f13179df785d412621d5cb1128d02d",
+     "pushed_at": "2026-09-23T05:22:26Z",
+     "description_hash": "d6b46a233923",
+     "release_tag": null
+    },
+    "moved": [
+     "default_sha",
+     "pushed_at"
+    ],
+    "commits_since": 2,
+    "files_changed": 14,
+    "inspection_depth": "source_diff (README, nimble/scoring/calibration.py, parallel_scorer.py, PUBLIC_BENCHMARKS.md, commit messages)"
+   },
+   {
+    "id": "github:Knowledgator/GLiClass",
+    "retrieved_at": "2026-09-23T16:20:44Z",
+    "node_id": "R_kgDOMD04Zg",
+    "prior_node_id": "R_kgDOMD04Zg",
+    "node_match": true,
+    "full_name_now": "Knowledgator/GLiClass",
+    "prior": {
+     "default_sha": "40baa67cdea577449bc3f6a251646377b2cb0a6c",
+     "pushed_at": "2026-07-21T17:26:05Z",
+     "description_hash": "1a8f3da514ce",
+     "release_tag": "v0.1.20"
+    },
+    "live": {
+     "default_sha": "40baa67cdea577449bc3f6a251646377b2cb0a6c",
+     "pushed_at": "2026-07-21T17:26:05Z",
+     "description_hash": "1a8f3da514ce",
+     "release_tag": "v0.1.20"
+    },
+    "moved": [],
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "fingerprint probe; unchanged"
+   },
+   {
+    "id": "github:urchade/GLiNER",
+    "retrieved_at": "2026-09-23T16:20:47Z",
+    "node_id": "R_kgDOKtc8-A",
+    "prior_node_id": "R_kgDOKtc8-A",
+    "node_match": true,
+    "full_name_now": "urchade/GLiNER",
+    "prior": {
+     "default_sha": "cf9e5f7d9fb99158b592132a9ec7cbfabb43a9a0",
+     "pushed_at": "2026-09-08T12:50:09Z",
+     "description_hash": "d938c29c6713",
+     "release_tag": "v0.2.29"
+    },
+    "live": {
+     "default_sha": "5803656797660de8bb3b480303611bcb07a0202e",
+     "pushed_at": "2026-09-23T11:12:54Z",
+     "description_hash": "d938c29c6713",
+     "release_tag": "v0.2.29"
+    },
+    "moved": [
+     "default_sha",
+     "pushed_at"
+    ],
+    "commits_since": 2,
+    "files_changed": 2,
+    "inspection_depth": "commit_list_only; fingerprints not advanced"
+   },
+   {
+    "id": "github:fastino-ai/GLiNER2",
+    "retrieved_at": "2026-09-23T16:20:49Z",
+    "node_id": "R_kgDOPIdtjw",
+    "prior_node_id": "R_kgDOPIdtjw",
+    "node_match": true,
+    "full_name_now": "fastino-ai/GLiNER2",
+    "prior": {
+     "default_sha": "4abb6132c9efe737712003669dd1f569f6a5cb82",
+     "pushed_at": "2026-09-22T01:24:54Z",
+     "description_hash": "2be6fd363974",
+     "release_tag": "v2.0.0"
+    },
+    "live": {
+     "default_sha": "81f4e486cc4c4b39e6093558715b087fdcda0a26",
+     "pushed_at": "2026-09-23T12:11:25Z",
+     "description_hash": "2be6fd363974",
+     "release_tag": "v2.0.0"
+    },
+    "moved": [
+     "default_sha",
+     "pushed_at"
+    ],
+    "commits_since": 7,
+    "files_changed": 11,
+    "inspection_depth": "commit_list_only; fingerprints not advanced"
+   },
+   {
+    "id": "github:PriorLabs/TabPFN",
+    "retrieved_at": "2026-09-23T16:20:52Z",
+    "node_id": "R_kgDOHl1j5g",
+    "prior_node_id": "R_kgDOHl1j5g",
+    "node_match": true,
+    "full_name_now": "PriorLabs/TabPFN",
+    "prior": {
+     "default_sha": "f004b4d5d2b93b7d631b9f4f361f2f30733024ae",
+     "pushed_at": "2026-09-22T15:34:35Z",
+     "description_hash": "8953629c900c",
+     "release_tag": "v9.0.0"
+    },
+    "live": {
+     "default_sha": "eeb37a6c4e4b8803af41faa57c3672c61caa5b44",
+     "pushed_at": "2026-09-23T13:35:54Z",
+     "description_hash": "8953629c900c",
+     "release_tag": "v9.0.0"
+    },
+    "moved": [
+     "default_sha",
+     "pushed_at"
+    ],
+    "commits_since": 3,
+    "files_changed": 35,
+    "inspection_depth": "commit_list_only; fingerprints not advanced"
+   },
+   {
+    "id": "github:gepa-ai/gepa",
+    "retrieved_at": "2026-09-23T16:20:53Z",
+    "node_id": "R_kgDOPYl4Jg",
+    "prior_node_id": "R_kgDOPYl4Jg",
+    "node_match": true,
+    "full_name_now": "gepa-ai/gepa",
+    "prior": {
+     "default_sha": "d771eb21b5dd3228bc3f567293d2ccfc423fc900",
+     "pushed_at": "2026-09-21T21:42:06Z",
+     "description_hash": "7ed4905e6676",
+     "release_tag": "v0.1.4"
+    },
+    "live": {
+     "default_sha": "d771eb21b5dd3228bc3f567293d2ccfc423fc900",
+     "pushed_at": "2026-09-21T21:42:06Z",
+     "description_hash": "7ed4905e6676",
+     "release_tag": "v0.1.4"
+    },
+    "moved": [],
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "fingerprint probe; unchanged"
+   },
+   {
+    "id": "github:lm-sys/RouteLLM",
+    "retrieved_at": "2026-09-23T16:20:55Z",
+    "node_id": "R_kgDOMEDmqg",
+    "prior_node_id": "R_kgDOMEDmqg",
+    "node_match": true,
+    "full_name_now": "lm-sys/RouteLLM",
+    "prior": {
+     "default_sha": "0b64fdafe049e596a3f5657c219329f24af24198",
+     "pushed_at": "2024-08-10T19:10:15Z",
+     "description_hash": "d7754cb369a3",
+     "release_tag": null
+    },
+    "live": {
+     "default_sha": "0b64fdafe049e596a3f5657c219329f24af24198",
+     "pushed_at": "2024-08-10T19:10:15Z",
+     "description_hash": "d7754cb369a3",
+     "release_tag": null
+    },
+    "moved": [],
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "fingerprint probe; unchanged"
+   },
+   {
+    "id": "github:fstandhartinger/jevbench",
+    "retrieved_at": "2026-09-23T16:20:57Z",
+    "node_id": "R_kgDOUhEMSA",
+    "prior_node_id": "R_kgDOUhEMSA",
+    "node_match": true,
+    "full_name_now": "fstandhartinger/jevbench",
+    "prior": {
+     "default_sha": "51a8d73fa798aa337bb1b26abd10995c0ab847e9",
+     "pushed_at": "2026-09-22T13:47:01Z",
+     "description_hash": "c8e498c28c47",
+     "release_tag": null
+    },
+    "live": {
+     "default_sha": "2fa63fa3226cb369795525ed011800f57dcbd894",
+     "pushed_at": "2026-09-23T10:06:47Z",
+     "description_hash": "c8e498c28c47",
+     "release_tag": "v1.4.0"
+    },
+    "moved": [
+     "default_sha",
+     "pushed_at",
+     "release_tag"
+    ],
+    "commits_since": 3,
+    "files_changed": 15,
+    "inspection_depth": "docs_diff (docs/METHOD-v1.4.md, docs/RELEASE-v1.4.0.md)"
+   },
+   {
+    "id": "github:scienthoon/jev-ood-calibration",
+    "retrieved_at": "2026-09-23T16:20:59Z",
+    "node_id": "R_kgDOUhFigg",
+    "prior_node_id": "R_kgDOUhFigg",
+    "node_match": true,
+    "full_name_now": "scienthoon/jev-ood-calibration",
+    "prior": {
+     "default_sha": "914d87ab16517f14e833cff63d73b51235b14bd6",
+     "pushed_at": "2026-09-22T08:38:15Z",
+     "description_hash": "9476647b3c30",
+     "release_tag": null
+    },
+    "live": {
+     "default_sha": "914d87ab16517f14e833cff63d73b51235b14bd6",
+     "pushed_at": "2026-09-22T08:38:15Z",
+     "description_hash": "9476647b3c30",
+     "release_tag": null
+    },
+    "moved": [],
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "fingerprint probe; unchanged"
+   },
+   {
+    "id": "github:dorkitude/decision-model-testing",
+    "retrieved_at": "2026-09-23T16:21:01Z",
+    "node_id": "R_kgDOUk6cbA",
+    "prior_node_id": "R_kgDOUk6cbA",
+    "node_match": true,
+    "full_name_now": "dorkitude/decision-model-testing",
+    "prior": {
+     "default_sha": "ba6a5e2e9a60161564ead92a932ccbf3f88e4497",
+     "pushed_at": "2026-09-22T11:35:15Z",
+     "description_hash": "419a3ca66282",
+     "release_tag": null
+    },
+    "live": {
+     "default_sha": "ba6a5e2e9a60161564ead92a932ccbf3f88e4497",
+     "pushed_at": "2026-09-22T11:35:15Z",
+     "description_hash": "419a3ca66282",
+     "release_tag": null
+    },
+    "moved": [],
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "fingerprint probe; unchanged"
+   },
+   {
+    "id": "github:TypeLLM/pijev",
+    "retrieved_at": "2026-09-23T16:21:02Z",
+    "node_id": "R_kgDOUlPHrw",
+    "prior_node_id": "R_kgDOUlPHrw",
+    "node_match": true,
+    "full_name_now": "TypeLLM/pijev",
+    "prior": {
+     "default_sha": "bca3a73d6419b794d63cd780ba4a0254579d7ccc",
+     "pushed_at": "2026-09-22T10:08:00Z",
+     "description_hash": "17e6b348c126",
+     "release_tag": null
+    },
+    "live": {
+     "default_sha": "bca3a73d6419b794d63cd780ba4a0254579d7ccc",
+     "pushed_at": "2026-09-22T10:08:00Z",
+     "description_hash": "17e6b348c126",
+     "release_tag": null
+    },
+    "moved": [],
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "fingerprint probe; unchanged"
+   },
+   {
+    "id": "github:willkelly/jev-evaluation",
+    "retrieved_at": "2026-09-23T16:21:04Z",
+    "node_id": "R_kgDOUh8RQw",
+    "prior_node_id": "R_kgDOUh8RQw",
+    "node_match": true,
+    "full_name_now": "willkelly/jev-evaluation",
+    "prior": {
+     "default_sha": "d80f375621ad4b9306c6dff6941242925d7e2386",
+     "pushed_at": "2026-09-22T05:21:27Z",
+     "description_hash": "426fa24780e0",
+     "release_tag": null
+    },
+    "live": {
+     "default_sha": "d80f375621ad4b9306c6dff6941242925d7e2386",
+     "pushed_at": "2026-09-22T05:21:27Z",
+     "description_hash": "426fa24780e0",
+     "release_tag": null
+    },
+    "moved": [],
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "fingerprint probe; unchanged"
+   },
+   {
+    "id": "github:cwhy/decision-injection-bench",
+    "retrieved_at": "2026-09-23T16:21:06Z",
+    "node_id": "R_kgDOUlH1ow",
+    "prior_node_id": "R_kgDOUlH1ow",
+    "node_match": true,
+    "full_name_now": "cwhy/decision-injection-bench",
+    "prior": {
+     "default_sha": "f566360ffac91bfc50574aef722307dcbf51d5e1",
+     "pushed_at": "2026-09-22T14:30:38Z",
+     "description_hash": "422341255b61",
+     "release_tag": null
+    },
+    "live": {
+     "default_sha": "887635fd4d993149423e0531fc8daf25eafe6d99",
+     "pushed_at": "2026-09-23T06:28:14Z",
+     "description_hash": "422341255b61",
+     "release_tag": null
+    },
+    "moved": [
+     "default_sha",
+     "pushed_at"
+    ],
+    "commits_since": 1,
+    "files_changed": 13,
+    "inspection_depth": "source_diff (README, CHANGELOG, results/2026-09-23-kev/README.md, manifest.json)"
+   },
+   {
+    "id": "github:ReallyArtificial/stuntdouble",
+    "retrieved_at": "2026-09-23T16:21:09Z",
+    "node_id": "R_kgDOUltYMw",
+    "prior_node_id": "R_kgDOUltYMw",
+    "node_match": true,
+    "full_name_now": "ReallyArtificial/stuntdouble",
+    "prior": {
+     "default_sha": "d7126d6cf5ed91fbc425910213aba21dad80611c",
+     "pushed_at": "2026-09-22T15:18:49Z",
+     "description_hash": "442491b5baf9",
+     "release_tag": null
+    },
+    "live": {
+     "default_sha": "fb9f08ec37a4fa62f80a8aeceac1cdcbcb02de29",
+     "pushed_at": "2026-09-22T17:25:50Z",
+     "description_hash": "442491b5baf9",
+     "release_tag": null
+    },
+    "moved": [
+     "default_sha",
+     "pushed_at"
+    ],
+    "commits_since": 0,
+    "files_changed": 1,
+    "inspection_depth": "repo_metadata; compare 404 no common ancestor; new tree not reviewed"
+   },
+   {
+    "id": "github:kyr0/typed-decision-bench",
+    "retrieved_at": "2026-09-23T16:21:11Z",
+    "node_id": "R_kgDOUkoZCQ",
+    "prior_node_id": "R_kgDOUkoZCQ",
+    "node_match": true,
+    "full_name_now": "kyr0/typed-decision-bench",
+    "prior": {
+     "default_sha": "836c1e7bc6186d4a5a5122f164eb0d9183d03981",
+     "pushed_at": "2026-09-22T14:42:38Z",
+     "description_hash": "9c10bc7d49ed",
+     "release_tag": null
+    },
+    "live": {
+     "default_sha": "e949e5e9ba761f34f1db0dc75c04ebe7294bd803",
+     "pushed_at": "2026-09-23T15:40:40Z",
+     "description_hash": "9c10bc7d49ed",
+     "release_tag": null
+    },
+    "moved": [
+     "default_sha",
+     "pushed_at"
+    ],
+    "commits_since": 4,
+    "files_changed": 23,
+    "inspection_depth": "readme_diff (additions only; paper not read)"
+   },
+   {
+    "id": "github:lucasmartins-ai/lcc",
+    "retrieved_at": "2026-09-23T16:21:14Z",
+    "node_id": "R_kgDOS_sJUg",
+    "prior_node_id": "R_kgDOS_sJUg",
+    "node_match": true,
+    "full_name_now": "lucasmartins-ai/lcc",
+    "prior": {
+     "default_sha": "b37cb818ea0ae3317308d9be01138794816d8093",
+     "pushed_at": "2026-09-22T10:16:38Z",
+     "description_hash": "7dee430bd7ba",
+     "release_tag": "v0.5.0"
+    },
+    "live": {
+     "default_sha": "f03e646b6a6e9840e6c7702a98ee7454ba3c259d",
+     "pushed_at": "2026-09-23T10:34:19Z",
+     "description_hash": "7dee430bd7ba",
+     "release_tag": "v0.5.0"
+    },
+    "moved": [
+     "default_sha",
+     "pushed_at"
+    ],
+    "commits_since": 2,
+    "files_changed": 15,
+    "inspection_depth": "commit_list_only; fingerprints not advanced"
+   },
+   {
+    "id": "github:anessbelbati/jev-rerank-bench",
+    "retrieved_at": "2026-09-23T16:21:17Z",
+    "node_id": "R_kgDOUd_KkA",
+    "prior_node_id": "R_kgDOUd_KkA",
+    "node_match": true,
+    "full_name_now": "anessbelbati/jev-rerank-bench",
+    "prior": {
+     "default_sha": "372331af7437d56e5a9d5f9ca8acdb452f93deac",
+     "pushed_at": "2026-09-22T14:32:58Z",
+     "description_hash": "2cb874529b31",
+     "release_tag": null
+    },
+    "live": {
+     "default_sha": "1645876cc264ccb676795095abfdc6dad47e37ff",
+     "pushed_at": "2026-09-23T13:58:51Z",
+     "description_hash": "2cb874529b31",
+     "release_tag": null
+    },
+    "moved": [
+     "default_sha",
+     "pushed_at"
+    ],
+    "commits_since": 3,
+    "files_changed": 91,
+    "inspection_depth": "commit_list_only; fingerprints not advanced"
+   },
+   {
+    "id": "github:metask-ai/metask-jev",
+    "retrieved_at": "2026-09-23T16:21:18Z",
+    "node_id": "R_kgDOUjGwfg",
+    "prior_node_id": "R_kgDOUjGwfg",
+    "node_match": true,
+    "full_name_now": "metask-ai/metask-jev",
+    "prior": {
+     "default_sha": "6cce2276d7898a9ed0122afbc49d0f0b74ccda98",
+     "pushed_at": "2026-09-22T14:54:08Z",
+     "description_hash": "ee5aa79901fe",
+     "release_tag": null
+    },
+    "live": {
+     "default_sha": "6cce2276d7898a9ed0122afbc49d0f0b74ccda98",
+     "pushed_at": "2026-09-22T14:54:08Z",
+     "description_hash": "ee5aa79901fe",
+     "release_tag": null
+    },
+    "moved": [],
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "fingerprint probe; unchanged"
+   },
+   {
+    "id": "github:vinnylarouge/jevlike",
+    "retrieved_at": "2026-09-23T16:21:20Z",
+    "node_id": "R_kgDOUdRK6Q",
+    "prior_node_id": "R_kgDOUdRK6Q",
+    "node_match": true,
+    "full_name_now": "vinnylarouge/jevlike",
+    "prior": {
+     "default_sha": "94f5fd1b0b11d52bbdfdf4e0ee6aa96b568f8452",
+     "pushed_at": "2026-09-16T18:12:53Z",
+     "description_hash": null,
+     "release_tag": null
+    },
+    "live": {
+     "default_sha": "94f5fd1b0b11d52bbdfdf4e0ee6aa96b568f8452",
+     "pushed_at": "2026-09-16T18:12:53Z",
+     "description_hash": null,
+     "release_tag": null
+    },
+    "moved": [],
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "fingerprint probe; unchanged"
+   },
+   {
+    "id": "github:browser-use/jev-ultrafast",
+    "retrieved_at": "2026-09-23T16:21:22Z",
+    "node_id": "R_kgDOUeBQeg",
+    "prior_node_id": "R_kgDOUeBQeg",
+    "node_match": true,
+    "full_name_now": "browser-use/jev-ultrafast",
+    "prior": {
+     "default_sha": "1231850a0bf1a0c0341fe408ef1668dbbfdfac46",
+     "pushed_at": "2026-09-18T16:28:35Z",
+     "description_hash": "098261d40fdc",
+     "release_tag": null
+    },
+    "live": {
+     "default_sha": "1231850a0bf1a0c0341fe408ef1668dbbfdfac46",
+     "pushed_at": "2026-09-18T16:28:35Z",
+     "description_hash": "098261d40fdc",
+     "release_tag": null
+    },
+    "moved": [],
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "fingerprint probe; unchanged"
+   },
+   {
+    "id": "github:tamaratran/fast-jev-compaction",
+    "retrieved_at": "2026-09-23T16:21:24Z",
+    "node_id": "R_kgDOUeWnDQ",
+    "prior_node_id": "R_kgDOUeWnDQ",
+    "node_match": true,
+    "full_name_now": "tamaratran/fast-jev-compaction",
+    "prior": {
+     "default_sha": "e3f262a7f4d42bd8dd32ced30d26176f7cb545b0",
+     "pushed_at": "2026-09-18T04:45:31Z",
+     "description_hash": "e9c842075b34",
+     "release_tag": null
+    },
+    "live": {
+     "default_sha": "e3f262a7f4d42bd8dd32ced30d26176f7cb545b0",
+     "pushed_at": "2026-09-18T04:45:31Z",
+     "description_hash": "e9c842075b34",
+     "release_tag": null
+    },
+    "moved": [],
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "fingerprint probe; unchanged"
+   },
+   {
+    "id": "github:sutro-sh/jev-align",
+    "retrieved_at": "2026-09-23T16:21:25Z",
+    "node_id": "R_kgDOUg2saA",
+    "prior_node_id": "R_kgDOUg2saA",
+    "node_match": true,
+    "full_name_now": "sutro-sh/jev-align",
+    "prior": {
+     "default_sha": "3d997fc76593036655c28d4964de43b55f81fe2c",
+     "pushed_at": "2026-09-20T20:50:08Z",
+     "description_hash": "c0d67a99b6fb",
+     "release_tag": "v0.1.4"
+    },
+    "live": {
+     "default_sha": "3d997fc76593036655c28d4964de43b55f81fe2c",
+     "pushed_at": "2026-09-20T20:50:08Z",
+     "description_hash": "c0d67a99b6fb",
+     "release_tag": "v0.1.4"
+    },
+    "moved": [],
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "fingerprint probe; unchanged"
+   },
+   {
+    "id": "github:Zefan-Cai/Open-Jev",
+    "retrieved_at": "2026-09-23T16:21:28Z",
+    "node_id": "R_kgDOUi3gMQ",
+    "prior_node_id": null,
+    "node_match": null,
+    "full_name_now": "Zefan-Cai/Open-Jev",
+    "prior": {
+     "default_sha": "ed45657bf726c3b77408942830e5578f99df904e",
+     "pushed_at": "2026-09-21T07:40:27Z",
+     "description_hash": null,
+     "release_tag": null
+    },
+    "live": {
+     "default_sha": "3308a15ccd7eea1df7a37d6ddc39b023b801ba16",
+     "pushed_at": "2026-09-23T09:27:02Z",
+     "description_hash": null,
+     "release_tag": null
+    },
+    "moved": [
+     "default_sha",
+     "pushed_at"
+    ],
+    "commits_since": 24,
+    "files_changed": 117,
+    "inspection_depth": "commit_list_only; fingerprints not advanced"
+   },
+   {
+    "id": "github:TypeLLM/TypeLLM",
+    "retrieved_at": "2026-09-23T16:21:31Z",
+    "node_id": "R_kgDOUev6yQ",
+    "prior_node_id": null,
+    "node_match": null,
+    "full_name_now": "TypeLLM/TypeLLM",
+    "prior": {
+     "default_sha": "8a8b4aefd443e47e608bfdc2a679ede28bcc1d8e",
+     "pushed_at": "2026-09-21T04:49:02Z",
+     "description_hash": "4e7869c96688",
+     "release_tag": "v0.1.1"
+    },
+    "live": {
+     "default_sha": "d592c10cd527188e5e81c22a2816017a988c6d8f",
+     "pushed_at": "2026-09-23T12:33:49Z",
+     "description_hash": "62ec3b52c3c0",
+     "release_tag": "v0.1.4"
+    },
+    "moved": [
+     "default_sha",
+     "description_hash",
+     "pushed_at",
+     "release_tag"
+    ],
+    "commits_since": 35,
+    "files_changed": 138,
+    "inspection_depth": "readme_and_blog (README at d592c10 plus typellm.ai/blog/fair-die full text)"
+   },
+   {
+    "id": "github:kotoba-lang/typed-decisions",
+    "retrieved_at": "2026-09-23T16:21:34Z",
+    "node_id": "R_kgDOUfyL2A",
+    "prior_node_id": null,
+    "node_match": null,
+    "full_name_now": "kotoba-lang/typed-decisions",
+    "prior": {
+     "default_sha": "ff7f84e74d047cee22f2d81d4484f4b5f164becb",
+     "pushed_at": "2026-09-21T02:25:59Z",
+     "description_hash": "8588e6be9350",
+     "release_tag": null
+    },
+    "live": {
+     "default_sha": "e4ed807630c061179a6834d77e18c43227e4f19d",
+     "pushed_at": "2026-09-22T13:52:09Z",
+     "description_hash": "8588e6be9350",
+     "release_tag": null
+    },
+    "moved": [
+     "default_sha",
+     "pushed_at"
+    ],
+    "commits_since": 6,
+    "files_changed": 10,
+    "inspection_depth": "commit_list_only; fingerprints not advanced"
+   },
+   {
+    "id": "github:sgoedecke/system-one",
+    "retrieved_at": "2026-09-23T16:21:36Z",
+    "node_id": "R_kgDOUetrKQ",
+    "prior_node_id": null,
+    "node_match": null,
+    "full_name_now": "sgoedecke/system-one",
+    "prior": {
+     "default_sha": "ebde2a2db7067b920dfe51e9ce785613e66613d5",
+     "pushed_at": "2026-09-18T03:22:07Z",
+     "description_hash": "88c6ac90a44e",
+     "release_tag": null
+    },
+    "live": {
+     "default_sha": "ebde2a2db7067b920dfe51e9ce785613e66613d5",
+     "pushed_at": "2026-09-18T03:22:07Z",
+     "description_hash": "88c6ac90a44e",
+     "release_tag": null
+    },
+    "moved": [],
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "fingerprint probe; unchanged"
+   },
+   {
+    "id": "github:rawwerks/one-system",
+    "retrieved_at": "2026-09-23T16:21:39Z",
+    "node_id": "R_kgDOUkhqIA",
+    "prior_node_id": null,
+    "node_match": null,
+    "full_name_now": "rawwerks/one-system",
+    "prior": {
+     "default_sha": "1104500a0197737d25334472a42a5a790098105c",
+     "pushed_at": "2026-09-21T21:37:02Z",
+     "description_hash": "4576d70e542f",
+     "release_tag": "v0.2.0"
+    },
+    "live": {
+     "default_sha": "88d672d6ff75a217998e61adc82918c748e7d34e",
+     "pushed_at": "2026-09-22T19:03:00Z",
+     "description_hash": "4576d70e542f",
+     "release_tag": "v0.2.0"
+    },
+    "moved": [
+     "default_sha",
+     "pushed_at"
+    ],
+    "commits_since": 4,
+    "files_changed": 80,
+    "inspection_depth": "commit_list_only; fingerprints not advanced"
+   },
+   {
+    "id": "github:lucioamor/jevify",
+    "retrieved_at": "2026-09-23T16:21:40Z",
+    "node_id": "R_kgDOUl65lA",
+    "prior_node_id": null,
+    "node_match": null,
+    "full_name_now": "lucioamor/jevify",
+    "prior": null,
+    "live": {
+     "default_sha": "19aac6b5531854daa6cb920d66bc0264ad3b9fc3",
+     "pushed_at": "2026-09-23T15:47:42Z",
+     "description_hash": "715d11094bd9",
+     "release_tag": null
+    },
+    "moved": "no-prior",
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "readme"
+   },
+   {
+    "id": "github:strangeloopcanon/dynajev",
+    "retrieved_at": "2026-09-23T16:21:42Z",
+    "node_id": "R_kgDOUmfX-A",
+    "prior_node_id": null,
+    "node_match": null,
+    "full_name_now": "strangeloopcanon/dynajev",
+    "prior": null,
+    "live": {
+     "default_sha": "8afc7ef30520fc79c6bb36d4de140cdb7e8411c8",
+     "pushed_at": "2026-09-23T06:32:47Z",
+     "description_hash": "7bea01947b15",
+     "release_tag": null
+    },
+    "moved": "no-prior",
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "readme"
+   },
+   {
+    "id": "github:sqliteai/blink",
+    "retrieved_at": "2026-09-23T16:21:44Z",
+    "node_id": "R_kgDOUk5SuA",
+    "prior_node_id": null,
+    "node_match": null,
+    "full_name_now": "sqliteai/blink",
+    "prior": null,
+    "live": {
+     "default_sha": "18d6ce836cadfd14f04feef8bba952f50da660db",
+     "pushed_at": "2026-09-23T06:05:52Z",
+     "description_hash": "d2c89a588e98",
+     "release_tag": "v0.1.0"
+    },
+    "moved": "no-prior",
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "fingerprint probe only"
+   },
+   {
+    "id": "github:S1LV3RJ1NX/openjev",
+    "retrieved_at": "2026-09-23T16:21:45Z",
+    "node_id": "R_kgDOUim0SQ",
+    "prior_node_id": null,
+    "node_match": null,
+    "full_name_now": "S1LV3RJ1NX/openjev",
+    "prior": null,
+    "live": {
+     "default_sha": "b1454dabc33771b4ae7181020c718bdb39dc7f75",
+     "pushed_at": "2026-09-22T16:15:43Z",
+     "description_hash": "494a38896df6",
+     "release_tag": null
+    },
+    "moved": "no-prior",
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "fingerprint probe only"
+   },
+   {
+    "id": "github:ankit-aglawe/tinyjev",
+    "retrieved_at": "2026-09-23T16:21:47Z",
+    "node_id": "R_kgDOUlhLsg",
+    "prior_node_id": null,
+    "node_match": null,
+    "full_name_now": "ankit-aglawe/tinyjev",
+    "prior": null,
+    "live": {
+     "default_sha": "b4872bc25e7e24652fb6a2f9cbf806fcbb9a61ad",
+     "pushed_at": "2026-09-22T21:12:27Z",
+     "description_hash": "cb6df2fbce00",
+     "release_tag": null
+    },
+    "moved": "no-prior",
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "fingerprint probe only"
+   },
+   {
+    "id": "github:ruyianry/JevGym",
+    "retrieved_at": "2026-09-23T16:21:49Z",
+    "node_id": "R_kgDOUmEhqw",
+    "prior_node_id": null,
+    "node_match": null,
+    "full_name_now": "ruyianry/JevGym",
+    "prior": null,
+    "live": {
+     "default_sha": "6f75c550423e16d6abc7fa30f99fc6c53cbada00",
+     "pushed_at": "2026-09-23T02:41:05Z",
+     "description_hash": "75d778bd52f6",
+     "release_tag": null
+    },
+    "moved": "no-prior",
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "fingerprint probe only"
+   },
+   {
+    "id": "github:TheWayWithin/jev-bench",
+    "retrieved_at": "2026-09-23T16:21:51Z",
+    "node_id": "R_kgDOUi3qsA",
+    "prior_node_id": null,
+    "node_match": null,
+    "full_name_now": "TheWayWithin/jev-bench",
+    "prior": null,
+    "live": {
+     "default_sha": "2c5c007287c463a9d1beaf356a3aadf183e67601",
+     "pushed_at": "2026-09-23T11:53:25Z",
+     "description_hash": "0e713bd18538",
+     "release_tag": null
+    },
+    "moved": "no-prior",
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "fingerprint probe only"
+   },
+   {
+    "id": "github:kinde-starter-kits/jev-agent-authorization",
+    "retrieved_at": "2026-09-23T16:21:53Z",
+    "node_id": "R_kgDOUmiakw",
+    "prior_node_id": null,
+    "node_match": null,
+    "full_name_now": "kinde-starter-kits/jev-agent-authorization",
+    "prior": null,
+    "live": {
+     "default_sha": "5e938cb7bb8d5d9417566b35e9b9e3a41f5ba22b",
+     "pushed_at": "2026-09-23T13:07:01Z",
+     "description_hash": "5c5140014e9b",
+     "release_tag": null
+    },
+    "moved": "no-prior",
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "selected_source (convex/guard/policy.ts, guard/access.ts, jev/questions.ts, jev/judge.ts; handler.ts by grep); tests not read"
+   },
+   {
+    "id": "github:vllm-project/semantic-router",
+    "retrieved_at": "2026-09-23T16:21:54Z",
+    "node_id": "R_kgDOPk00YA",
+    "prior_node_id": null,
+    "node_match": null,
+    "full_name_now": "vllm-project/semantic-router",
+    "prior": null,
+    "live": {
+     "default_sha": "3448de83f093f2108505cf2902a0602de8929d20",
+     "pushed_at": "2026-09-23T16:16:45Z",
+     "description_hash": "9382e9ea31dc",
+     "release_tag": "v0.3.0"
+    },
+    "moved": "no-prior",
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "fingerprint probe only"
+   },
+   {
+    "id": "github:convaiinnovations/laya",
+    "retrieved_at": null,
+    "error": "gh: Not Found (HTTP 404)",
+    "prior": null,
+    "inspection_depth": "unavailable; Unknown, not absence"
+   },
+   {
+    "id": "github:openlayer-ai/jevals",
+    "retrieved_at": "2026-09-23T16:21:57Z",
+    "node_id": "R_kgDOUi2y1A",
+    "prior_node_id": null,
+    "node_match": null,
+    "full_name_now": "openlayer-ai/jevals",
+    "prior": {
+     "default_sha": "0457836c5696204e45288adbb4be3f605a502be9",
+     "pushed_at": "2026-09-22T02:12:15Z",
+     "description_hash": "139fb51429c7",
+     "release_tag": null
+    },
+    "live": {
+     "default_sha": "0457836c5696204e45288adbb4be3f605a502be9",
+     "pushed_at": "2026-09-22T02:12:15Z",
+     "description_hash": "139fb51429c7",
+     "release_tag": null
+    },
+    "moved": [],
+    "commits_since": 0,
+    "files_changed": 0,
+    "inspection_depth": "fingerprint probe; unchanged"
+   },
+   {
+    "id": "hf:akhilaaa3/Jev-Omni",
+    "retrieved_at": "2026-09-23T16:21:57Z",
+    "prior": {
+     "default_sha": "55b53f2ec1b4c656c8a6172b0c7555ae578a9c3f",
+     "pushed_at": "2026-09-22T14:17:29.000Z",
+     "description_hash": null,
+     "release_tag": null
+    },
+    "live": {
+     "sha": "c050d51354147985d13286cf4acf90f562f2c631",
+     "lastModified": "2026-09-22T22:45:48.000Z",
+     "createdAt": "2026-09-20T21:43:20.000Z",
+     "pipeline_tag": "text-classification"
+    },
+    "file_count": 42,
+    "moved": [
+     "default_sha",
+     "pushed_at"
+    ],
+    "inspection_depth": "card_diff, file_tree_diff, verification_unified.json"
+   },
+   {
+    "id": "hf:convaiinnovations/laya",
+    "retrieved_at": "2026-09-23T16:21:57Z",
+    "prior": null,
+    "live": {
+     "sha": "5e7b2b1b8ca2ecdd3f2322d94069c9b6ce7e844b",
+     "lastModified": "2026-09-23T08:09:01.000Z",
+     "createdAt": "2026-09-18T05:05:55.000Z",
+     "pipeline_tag": "text-classification"
+    },
+    "file_count": 38,
+    "moved": "no-prior",
+    "inspection_depth": "fingerprint probe only"
+   },
+   {
+    "id": "hf:convaiinnovations/laya-multilingual",
+    "retrieved_at": "2026-09-23T16:21:57Z",
+    "prior": null,
+    "live": {
+     "sha": "b4a904d1a2a54c822b829e24291d4b8f280fe43e",
+     "lastModified": "2026-09-23T08:09:04.000Z",
+     "createdAt": "2026-09-19T03:23:34.000Z",
+     "pipeline_tag": "text-classification"
+    },
+    "file_count": 7,
+    "moved": "no-prior",
+    "inspection_depth": "fingerprint probe only"
+   },
+   {
+    "id": "hf:convaiinnovations/laya-typed-decisions",
+    "retrieved_at": "2026-09-23T16:21:58Z",
+    "prior": null,
+    "live": {
+     "sha": "dd079950600224fb459af2a0cb1d74e1e57ee9cf",
+     "lastModified": "2026-09-23T08:09:06.000Z",
+     "createdAt": "2026-09-18T17:45:14.000Z",
+     "pipeline_tag": "text-classification"
+    },
+    "file_count": 7,
+    "moved": "no-prior",
+    "inspection_depth": "fingerprint probe only"
+   },
+   {
+    "id": "hf:ZefanCai/Open-Jev-27B-v1.1",
+    "retrieved_at": "2026-09-23T16:21:58Z",
+    "prior": null,
+    "live": {
+     "sha": "28cf73067d5b337860bbef3c85b8b82ba8730956",
+     "lastModified": "2026-09-23T07:45:56.000Z",
+     "createdAt": "2026-09-22T23:59:18.000Z",
+     "pipeline_tag": null
+    },
+    "file_count": 21,
+    "moved": "no-prior",
+    "inspection_depth": "hub_metadata; card opening already carded in notes.md §165"
+   },
+   {
+    "id": "hf:llm-semantic-router/Decision-1.0-Nox-4B",
+    "retrieved_at": "2026-09-23T16:21:58Z",
+    "prior": null,
+    "live": {
+     "sha": "0bb833504965c0eabdb9630b7bbd385cb2fe5cd4",
+     "lastModified": "2026-09-22T17:00:16.000Z",
+     "createdAt": "2026-09-21T13:34:35.000Z",
+     "pipeline_tag": null
+    },
+    "file_count": 80,
+    "moved": "no-prior",
+    "inspection_depth": "fingerprint probe only"
+   },
+   {
+    "id": "hf:tasksource/modernbert-tasksource-jev",
+    "retrieved_at": "2026-09-23T16:21:58Z",
+    "prior": null,
+    "live": {
+     "sha": "790beda6257fe1531e50426b60f07d396b1f9663",
+     "lastModified": "2026-09-22T16:52:09.000Z",
+     "createdAt": "2026-09-22T16:27:43.000Z",
+     "pipeline_tag": "text-classification"
+    },
+    "file_count": 9,
+    "moved": "no-prior",
+    "inspection_depth": "fingerprint probe only"
+   },
+   {
+    "id": "hf:ds:akhilaaa3/decision-bench",
+    "retrieved_at": "2026-09-23T16:21:58Z",
+    "prior": {
+     "default_sha": "19334fec40b54b693a63e1ffd91636651d39e847",
+     "pushed_at": "2026-09-22T14:15:03.000Z",
+     "description_hash": null,
+     "release_tag": null
+    },
+    "live": {
+     "sha": "19334fec40b54b693a63e1ffd91636651d39e847",
+     "lastModified": "2026-09-22T14:15:03.000Z",
+     "createdAt": "2026-09-20T11:01:46.000Z",
+     "pipeline_tag": null
+    },
+    "file_count": 18,
+    "moved": [],
+    "inspection_depth": "fingerprint probe; unchanged"
+   },
+   {
+    "id": "hf:ds:tasksource/tasksource-jev-typed-decisions",
+    "retrieved_at": "2026-09-23T16:21:58Z",
+    "prior": null,
+    "live": {
+     "sha": "19593b69d4ba623512a5bff62392aa3899ae7be3",
+     "lastModified": "2026-09-23T11:35:06.000Z",
+     "createdAt": "2026-09-22T09:02:21.000Z",
+     "pipeline_tag": null
+    },
+    "file_count": 11,
+    "moved": "no-prior",
+    "inspection_depth": "fingerprint probe only"
+   },
+   {
+    "id": "hf:ds:ZefanCai/Open-Jev-v1.1",
+    "retrieved_at": "2026-09-23T16:21:59Z",
+    "prior": null,
+    "live": {
+     "sha": "10ad6888333fa97f8c948192797bad3de3040802",
+     "lastModified": "2026-09-23T07:49:18.000Z",
+     "createdAt": "2026-09-22T23:58:56.000Z",
+     "pipeline_tag": null
+    },
+    "file_count": 23,
+    "moved": "no-prior",
+    "inspection_depth": "hub_metadata; card opening already carded in notes.md §165"
+   }
+  ]
+ },
+ "rename_identity_joins": [
+  {
+   "old_names": [
+    "zmtomorrow/TypeAR",
+    "TypeAR-AI/TypeAR"
+   ],
+   "canonical": "github:TypeLLM/TypeLLM",
+   "node_id": "R_kgDOUev6yQ",
+   "evidence": "GitHub API for zmtomorrow/TypeAR returns full_name TypeLLM/TypeLLM and node_id R_kgDOUev6yQ; curl -L resolves to https://github.com/TypeLLM/TypeLLM; commit 2026-09-20T12:40 'Rename TypeAR to TypeLLM across modules, API and docs'",
+   "prior_cards": [
+    "notes.md §32 (TypeAR)",
+    "notes.md §113 (TypeLLM; redirect noted, node ID not stored)"
+   ]
+  },
+  {
+   "old_names": [
+    "TheoLeeCJ/SemIf"
+   ],
+   "canonical": "github:TheoLeeCJ/SemIf (slug now TheoLeeCJ/SemIf-OpenJev)",
+   "node_id": "R_kgDOUc5tow",
+   "evidence": "already joined in notes.md §165; unchanged HEAD 1f2dea3 at 16:20Z"
+  }
+ ],
+ "provider": {
+  "collected_window": "2026-09-23T16:15:09Z..2026-09-23T16:26:30Z",
+  "collector_receipts": {
+   "probe": {
+    "availability": [
+     {
+      "http_status": 200,
+      "status": "available",
+      "url": "https://docs.typesafe.ai/llms.txt"
+     },
+     {
+      "http_status": 200,
+      "status": "available",
+      "url": "https://evals.typesafe.ai/"
+     }
+    ],
+    "collected_at": "2026-09-23T16:15:09Z",
+    "schema_version": 1,
+    "scope": "read-only availability and source metadata probe; not an ecosystem census, discovery result, or model-status claim",
+    "sources": []
+   },
+   "typesafe_skills": {
+    "collected_at": "2026-09-23T16:15:10Z",
+    "schema_version": 1,
+    "scope": "read-only availability and source metadata probe; not an ecosystem census, discovery result, or model-status claim",
+    "sources": [
+     {
+      "canonical_full_name": "typesafe-ai/skills",
+      "canonical_id": "github:typesafe-ai/skills",
+      "default_branch": "main",
+      "fingerprints": {
+       "default_sha": "65a39f393687675ce170e6094757de20370365b9",
+       "description_hash": "29d80e0ef4f2",
+       "pushed_at": "2026-09-12T05:42:06Z",
+       "release_tag": null
+      },
+      "id": "github:typesafe-ai/skills",
+      "node_id": "R_kgDOUDLV7Q",
+      "requested_id": "github:typesafe-ai/skills",
+      "review": "pending-review",
+      "status": "ok"
+     }
+    ]
+   }
+  },
+  "docs": [
+   {
+    "url": "https://docs.typesafe.ai/llms.txt",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:05.163491+00:00",
+    "sha256": "3bad966207794ce900ebc81759fd48185cd2d1f287df13a08ae4d601e96450fd",
+    "bytes": 16019,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/models.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:05.329326+00:00",
+    "sha256": "9d20bb3c90a0147532d0b20ddc4c64579391be7842e965543b27bad684eeb4d6",
+    "bytes": 7245,
+    "prior_sha256": "9d20bb3c90a0147532d0b20ddc4c64579391be7842e965543b27bad684eeb4d6",
+    "prior_retrieved_at": "2026-09-22T16:28:57.991482+00:00",
+    "comparison": "unchanged"
+   },
+   {
+    "url": "https://docs.typesafe.ai/confidence.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:05.637437+00:00",
+    "sha256": "97dafe98b77979906a2ad456013dd85a70dcecd109d0644b096817d910997ea5",
+    "bytes": 11396,
+    "prior_sha256": "97dafe98b77979906a2ad456013dd85a70dcecd109d0644b096817d910997ea5",
+    "prior_retrieved_at": "2026-09-22T16:28:58.517016+00:00",
+    "comparison": "unchanged"
+   },
+   {
+    "url": "https://docs.typesafe.ai/model-jaggedness/jev-1.13.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:05.907159+00:00",
+    "sha256": "e69329bd32e91ac08f0bd2681ceb4aacc34923b9190e29c15c8f75d8e22950e2",
+    "bytes": 11588,
+    "prior_sha256": "e69329bd32e91ac08f0bd2681ceb4aacc34923b9190e29c15c8f75d8e22950e2",
+    "prior_retrieved_at": "2026-09-22T16:28:59.043203+00:00",
+    "comparison": "unchanged"
+   },
+   {
+    "url": "https://docs.typesafe.ai/sdk/python/changelog.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:06.324288+00:00",
+    "sha256": "47c90969dd76a83271c82650e0f4cfcea86db8ca0d9820ee8334eecc388162c5",
+    "bytes": 1828,
+    "prior_sha256": "47c90969dd76a83271c82650e0f4cfcea86db8ca0d9820ee8334eecc388162c5",
+    "prior_retrieved_at": "2026-09-22T16:28:59.610225+00:00",
+    "comparison": "unchanged"
+   },
+   {
+    "url": "https://docs.typesafe.ai/primitives/noul.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:06.604348+00:00",
+    "sha256": "aa7bff0d04bd42614e0e851a9ad4917ccc6287c882bc5dece7689b085ef789e6",
+    "bytes": 27363,
+    "prior_sha256": "aa7bff0d04bd42614e0e851a9ad4917ccc6287c882bc5dece7689b085ef789e6",
+    "prior_retrieved_at": "2026-09-22T16:29:00.612312+00:00",
+    "comparison": "unchanged"
+   },
+   {
+    "url": "https://docs.typesafe.ai/api.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:30.992523+00:00",
+    "sha256": "7ea1c82d9d16bd06e3d38885a5292548293f91e6d1ade4682c27398ced51a9e5",
+    "bytes": 11772,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/primitives.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:31.393439+00:00",
+    "sha256": "130d9136a2f01497e72920a6e8d96073056d86d838ca13b8a505e4adb87651f6",
+    "bytes": 24810,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/primitives/choice.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:31.758208+00:00",
+    "sha256": "4c55085131f8f2d7ae1faefdec52b1c7b379d40657d701cd2c786021cfe9dac9",
+    "bytes": 26794,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/primitives/score.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:32.084384+00:00",
+    "sha256": "5afe0db1d2d108c3bf35f73f5fddbfcd2b9ade2d3c6f553af8a02b2bfd005ae9",
+    "bytes": 43992,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/primitives/advanced.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:32.849608+00:00",
+    "sha256": "73eeedee0c3ff68e5964c914ba006e4f59522fa8222e43bd960418febd13ea7f",
+    "bytes": 19060,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/agent-skill.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:33.159921+00:00",
+    "sha256": "5ed8f74a133760523a67674f0feaac6ac88d9f1d242574ce3c9c4965f6e037c4",
+    "bytes": 5798,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/introduction/quickstart.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:33.588551+00:00",
+    "sha256": "c30183944985b269c49939140272f9eec885895df346f19d76cf9b04e18073d2",
+    "bytes": 7053,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/introduction/coding-agents.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:33.900927+00:00",
+    "sha256": "e61ec46260302e87e21ca65fe2a1d67ae6c2741a4a586645ace5dd7d9f501175",
+    "bytes": 5150,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/concepts/how-to-build-with-system-one.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:34.208378+00:00",
+    "sha256": "d9f4d34c1349bf5acb55c99d6a1651eacfc481ad8d1f78ccb8776769da729a49",
+    "bytes": 40921,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/concepts/state.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:34.568050+00:00",
+    "sha256": "6871d59470c6af330b10be302a7382ab4c175ee8994886ad48df2fe6bb315462",
+    "bytes": 3874,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/sdk.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:34.903617+00:00",
+    "sha256": "bbd9d2eaad4c605150fcead2dcb1fdb8415a10f6e5481186e185e7e8d4826a97",
+    "bytes": 823,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/sdk/python.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:35.321374+00:00",
+    "sha256": "40d5c6a5fb9b6a8f68ec9f14343837bc0ea5a7fe09a3bfb9a07f52418e41f1a3",
+    "bytes": 3324,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/sdk/python/usage.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:35.680136+00:00",
+    "sha256": "9a7d1d4e52face5ccc889418b1b67c2442d41e64951b8ae480169d6542f222f4",
+    "bytes": 10189,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/sdk/python/api/exceptions.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:35.954421+00:00",
+    "sha256": "c1cec8b4f1e4c8d258f18a40acf8736e34be3c6b0bd0915189d2542624447fad",
+    "bytes": 7059,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/sdk/python/api/retries.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:36.232203+00:00",
+    "sha256": "bdf94b25ae1d23a0784c9e1affcf0363e80deb56089a0e48d3e3860bb5181cc9",
+    "bytes": 15732,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/sdk/python/api/types/responses.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:36.530784+00:00",
+    "sha256": "7b0167d010dc165b6584939a550c8ec35d31c003f0e8095638a46a037b6f6f8a",
+    "bytes": 38625,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/sdk/python/api/types/questions.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:36.802098+00:00",
+    "sha256": "cbad949affff140bc00a090b37748c52f1239ec0e98f308012eceb562fdaaa0a",
+    "bytes": 30016,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/sdk/python/api/constants.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:37.094525+00:00",
+    "sha256": "dfcd6bfd691412058b2ea06c9a44414f5126e4aea06d7bf7071600f42a9b5003",
+    "bytes": 1782,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/sdk/javascript.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:37.399835+00:00",
+    "sha256": "25ba04f5b55819bee85e21d9184b7b8c807a81e95754baef4b05157240a2e1bb",
+    "bytes": 1302,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/sdk/javascript/changelog.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:37.777337+00:00",
+    "sha256": "73389d4c01993603a0c943aa04d491ef92670a358e413e74a5aac4891661250d",
+    "bytes": 508,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/patterns/fan-out.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:38.380989+00:00",
+    "sha256": "8d7a251ea6b735cb4994c1e0a95166cc0b3febce7d18189c3aa5e1673f182c91",
+    "bytes": 13967,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/patterns/confidence-routing.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:38.659765+00:00",
+    "sha256": "7a4de8d39a24c5d6b7e74b1b170fbbe101ca69419af39bac6da4e0c1f678b7bf",
+    "bytes": 12168,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/cookbooks/parallel_questions.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:16:38.973542+00:00",
+    "sha256": "53dfe4516fd67b9bfc5abc9a50a6f4db6426b5b2951d41cd91e2fec45aded2fe",
+    "bytes": 48484,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/migrating-to-v1.md",
+    "http_status": 404,
+    "retrieved_at": "2026-09-23T16:18:32.669284+00:00",
+    "sha256": "b371022d75aca6d7308c260a52e6ff98d151fb0916cb9fbbca8d414260af3612",
+    "bytes": 613,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/migrating-to-v1",
+    "http_status": 404,
+    "retrieved_at": "2026-09-23T16:18:33.093016+00:00",
+    "sha256": "efb6756f0406da52c98cbf83cecf1c316445e131d14c1962cab5888ddf658be9",
+    "bytes": 108991,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://api.typesafe.ai/openapi.json",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:25:31.159116+00:00",
+    "sha256": "a191f8a7df6bd6fedced8120dd0fd106f88575d1d1c8360d08900a6c7c0360d5",
+    "bytes": 14158,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/cookbooks/hierarchical_classification.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:26:26.374572+00:00",
+    "sha256": "5525161d2b5597a29bd315a58aa817fe00e6bc2470cb31ece0530dbb8221dbfe",
+    "bytes": 36445,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   },
+   {
+    "url": "https://docs.typesafe.ai/cookbooks.md",
+    "http_status": 200,
+    "retrieved_at": "2026-09-23T16:26:26.829123+00:00",
+    "sha256": "bbf49df970d14d18d6b58d0852c0ae416329c004aa88fc39777b32e5172b5ac3",
+    "bytes": 8929,
+    "prior_sha256": null,
+    "prior_retrieved_at": null,
+    "comparison": "no-prior-digest (new baseline)"
+   }
+  ],
+  "ecosystem_lens_doc_recheck": {
+   "retrieved_at": "2026-09-23T16:22:20+00:00",
+   "documents": [
+    {
+     "url": "https://docs.typesafe.ai/models.md",
+     "final_url": "charset=utf-8 https://docs.typesafe.ai/models.md",
+     "retrieved_at": "2026-09-23T16:22:16+00:00",
+     "http_status": 200,
+     "content_type": "text/markdown;",
+     "sha256": "9d20bb3c90a0147532d0b20ddc4c64579391be7842e965543b27bad684eeb4d6",
+     "bytes": 7245,
+     "prior_sha256": "9d20bb3c90a0147532d0b20ddc4c64579391be7842e965543b27bad684eeb4d6",
+     "changed": false
+    },
+    {
+     "url": "https://docs.typesafe.ai/confidence.md",
+     "final_url": "charset=utf-8 https://docs.typesafe.ai/confidence.md",
+     "retrieved_at": "2026-09-23T16:22:16+00:00",
+     "http_status": 200,
+     "content_type": "text/markdown;",
+     "sha256": "97dafe98b77979906a2ad456013dd85a70dcecd109d0644b096817d910997ea5",
+     "bytes": 11396,
+     "prior_sha256": "97dafe98b77979906a2ad456013dd85a70dcecd109d0644b096817d910997ea5",
+     "changed": false
+    },
+    {
+     "url": "https://docs.typesafe.ai/model-jaggedness/jev-1.13.md",
+     "final_url": "charset=utf-8 https://docs.typesafe.ai/model-jaggedness/jev-1.13.md",
+     "retrieved_at": "2026-09-23T16:22:16+00:00",
+     "http_status": 200,
+     "content_type": "text/markdown;",
+     "sha256": "e69329bd32e91ac08f0bd2681ceb4aacc34923b9190e29c15c8f75d8e22950e2",
+     "bytes": 11588,
+     "prior_sha256": "e69329bd32e91ac08f0bd2681ceb4aacc34923b9190e29c15c8f75d8e22950e2",
+     "changed": false
+    },
+    {
+     "url": "https://docs.typesafe.ai/sdk/python/changelog.md",
+     "final_url": "charset=utf-8 https://docs.typesafe.ai/sdk/python/changelog.md",
+     "retrieved_at": "2026-09-23T16:22:17+00:00",
+     "http_status": 200,
+     "content_type": "text/markdown;",
+     "sha256": "47c90969dd76a83271c82650e0f4cfcea86db8ca0d9820ee8334eecc388162c5",
+     "bytes": 1828,
+     "prior_sha256": "47c90969dd76a83271c82650e0f4cfcea86db8ca0d9820ee8334eecc388162c5",
+     "changed": false
+    },
+    {
+     "url": "https://docs.typesafe.ai/primitives/noul.md",
+     "final_url": "charset=utf-8 https://docs.typesafe.ai/primitives/noul.md",
+     "retrieved_at": "2026-09-23T16:22:17+00:00",
+     "http_status": 200,
+     "content_type": "text/markdown;",
+     "sha256": "aa7bff0d04bd42614e0e851a9ad4917ccc6287c882bc5dece7689b085ef789e6",
+     "bytes": 27363,
+     "prior_sha256": "aa7bff0d04bd42614e0e851a9ad4917ccc6287c882bc5dece7689b085ef789e6",
+     "changed": false
+    },
+    {
+     "url": "https://docs.typesafe.ai/llms.txt",
+     "final_url": "charset=utf-8 https://docs.typesafe.ai/llms.txt",
+     "retrieved_at": "2026-09-23T16:22:17+00:00",
+     "http_status": 200,
+     "content_type": "text/plain;",
+     "sha256": "3bad966207794ce900ebc81759fd48185cd2d1f287df13a08ae4d601e96450fd",
+     "bytes": 16019,
+     "prior_sha256": null,
+     "changed": null
+    },
+    {
+     "url": "https://docs.typesafe.ai/changelog.md",
+     "final_url": "charset=utf-8 https://docs.typesafe.ai/changelog.md",
+     "retrieved_at": "2026-09-23T16:22:18+00:00",
+     "http_status": 404,
+     "content_type": "text/markdown;",
+     "sha256": "c60224d6b0f8a0a6a6fddac27ac371eed25d998ab44a29d9644e7592f0e430c5",
+     "bytes": 420,
+     "prior_sha256": null,
+     "changed": null
+    },
+    {
+     "url": "https://docs.typesafe.ai/sdk/typescript/changelog.md",
+     "final_url": "charset=utf-8 https://docs.typesafe.ai/sdk/typescript/changelog.md",
+     "retrieved_at": "2026-09-23T16:22:18+00:00",
+     "http_status": 404,
+     "content_type": "text/markdown;",
+     "sha256": "68942ba0f1c63a62ea3f2c896c86b3cf589b740d80a18d4ac84f9d01bc88a1ba",
+     "bytes": 554,
+     "prior_sha256": null,
+     "changed": null
+    },
+    {
+     "url": "https://docs.typesafe.ai/primitives/choice.md",
+     "final_url": "charset=utf-8 https://docs.typesafe.ai/primitives/choice.md",
+     "retrieved_at": "2026-09-23T16:22:19+00:00",
+     "http_status": 200,
+     "content_type": "text/markdown;",
+     "sha256": "4c55085131f8f2d7ae1faefdec52b1c7b379d40657d701cd2c786021cfe9dac9",
+     "bytes": 26794,
+     "prior_sha256": null,
+     "changed": null
+    },
+    {
+     "url": "https://docs.typesafe.ai/primitives/score.md",
+     "final_url": "charset=utf-8 https://docs.typesafe.ai/primitives/score.md",
+     "retrieved_at": "2026-09-23T16:22:19+00:00",
+     "http_status": 200,
+     "content_type": "text/markdown;",
+     "sha256": "5afe0db1d2d108c3bf35f73f5fddbfcd2b9ade2d3c6f553af8a02b2bfd005ae9",
+     "bytes": 43992,
+     "prior_sha256": null,
+     "changed": null
+    },
+    {
+     "url": "https://docs.typesafe.ai/batching.md",
+     "final_url": "charset=utf-8 https://docs.typesafe.ai/batching.md",
+     "retrieved_at": "2026-09-23T16:22:20+00:00",
+     "http_status": 404,
+     "content_type": "text/markdown;",
+     "sha256": "6ee6043c78e6ee49c6ea9d1a8276c70136fac555ca44757dcf3903a21d7a6d0b",
+     "bytes": 645,
+     "prior_sha256": null,
+     "changed": null
+    }
+   ]
+  },
+  "github": {
+   "github:typesafe-ai/skills": {
+    "prior_default_sha": "65a39f393687675ce170e6094757de20370365b9",
+    "prior_release": null,
+    "current_default_sha_prefix": "65a39f393687675ce170e6094757de20370365b9",
+    "unchanged": true
+   },
+   "github:typesafe-ai/typesafe-sdk-python": {
+    "prior_default_sha": "0ffd094c72ed9445223060b24ffd7a56aa781fb4",
+    "prior_release": "v0.7.1",
+    "current_default_sha_prefix": "0ffd094c72ed9445223060b24ffd7a56aa781fb4",
+    "unchanged": true
+   },
+   "github:typesafe-ai/typesafe-sdk-js": {
+    "prior_default_sha": "66880ccded6cb642dc1809620c2b108c33730214",
+    "prior_release": "v0.6.0",
+    "current_default_sha_prefix": "66880ccded6c",
+    "unchanged": true
+   },
+   "github:typesafe-ai/system-one-adapter-python": {
+    "prior_default_sha": "e1d4cc938204b22fc5a3c3aca7044072fe3f712d",
+    "prior_release": "v0.2.1",
+    "current_default_sha_prefix": "e1d4cc9382",
+    "unchanged": true
+   }
+  },
+  "registries": {
+   "pypi:typesafe-sdk": "0.7.1",
+   "npm:@typesafe-ai/sdk": "0.6.0 (latest)",
+   "pypi:system-one-adapter": "0.2.1"
+  },
+  "wayback_llms_txt": {
+   "20260922031823_sha256": "e20ac51dbf82595de96e7fcd504723ef7e3eb18253ddef26b388ca685a462229",
+   "20260923144742_sha256": "3bad966207794ce900ebc81759fd48185cd2d1f287df13a08ae4d601e96450fd",
+   "url_set_delta_since_0922": "added cookbooks.md; reorder and description trims only"
+  },
+  "wayback_note": "Wayback CDX digests for .md pages do not match our fetch even for pages byte-identical to our 09-22 receipt; not used as change evidence.",
+  "link_check_augustus_official_urls": [
+   "200 https://docs.typesafe.ai/introduction https://docs.typesafe.ai/",
+   "200 https://docs.typesafe.ai/confidence https://docs.typesafe.ai/confidence",
+   "200 https://github.com/typesafe-ai/skills https://github.com/typesafe-ai/skills",
+   "200 https://github.com/typesafe-ai/skills/tree/65a39f393687675ce170e6094757de20370365b9 https://github.com/typesafe-ai/skills/tree/65a39f393687675ce170e6094757de20370365b9",
+   "200 https://github.com/typesafe-ai/skills/tree/v0.5.7 https://github.com/typesafe-ai/skills/tree/v0.5.7"
+  ],
+  "typesafe_skills_issues_read": [
+   {
+    "number": 12,
+    "state": "open",
+    "created_at": "2026-09-22T12:07:06Z",
+    "updated_at": "2026-09-22T12:07:06Z",
+    "author": "OrMizL",
+    "title": "Independent measurement of a Jev skill router on a real agent roster (and one pricing question)",
+    "comments": 0,
+    "read": "body"
+   },
+   {
+    "number": 11,
+    "state": "open",
+    "created_at": "2026-09-22T07:28:02Z",
+    "updated_at": "2026-09-22T10:57:29Z",
+    "author": "parkavenue9639",
+    "title": "Cookbook proposal: confidence-gated Jev/LLM agent loop with shared execution and inspectable evidence",
+    "comments": 1,
+    "read": "body"
+   },
+   {
+    "number": 10,
+    "state": "open",
+    "created_at": "2026-09-21T23:15:01Z",
+    "updated_at": "2026-09-22T12:10:21Z",
+    "author": "dashan-qi",
+    "title": "console.typesafe.ai: all auth server actions return HTTP 500 - sign-in/sign-up impossible for 2 days (survives redeploy)",
+    "comments": 1,
+    "read": "body"
+   },
+   {
+    "number": 9,
+    "state": "open",
+    "created_at": "2026-09-21T11:09:32Z",
+    "updated_at": "2026-09-21T11:09:32Z",
+    "author": "vbcherepanov",
+    "title": "Community integration: a Symfony bundle for Jev",
+    "comments": 0,
+    "read": "body"
+   },
+   {
+    "number": 8,
+    "state": "open",
+    "created_at": "2026-09-21T10:25:11Z",
+    "updated_at": "2026-09-21T10:25:11Z",
+    "author": "vbcherepanov",
+    "title": "A missing API key returns 403, but the docs say 401, and the SDKs then raise PermissionDenied instead of AuthenticationError",
+    "comments": 0,
+    "read": "body+comments"
+   },
+   {
+    "number": 7,
+    "state": "open",
+    "created_at": "2026-09-21T10:25:10Z",
+    "updated_at": "2026-09-21T10:25:10Z",
+    "author": "vbcherepanov",
+    "title": "GET /v1/models: release_date is a full timestamp, but the OpenAPI schema promises YYYY-MM-DD",
+    "comments": 0,
+    "read": "body"
+   },
+   {
+    "number": 6,
+    "state": "open",
+    "created_at": "2026-09-21T10:25:09Z",
+    "updated_at": "2026-09-21T10:25:09Z",
+    "author": "vbcherepanov",
+    "title": "Score level limits: the API enforces at most 10 levels, but the OpenAPI schema has no maximum, and a single level is accepted",
+    "comments": 0,
+    "read": "body+comments"
+   },
+   {
+    "number": 5,
+    "state": "open",
+    "created_at": "2026-09-21T06:04:16Z",
+    "updated_at": "2026-09-21T06:04:16Z",
+    "author": "oppih",
+    "title": "Cookbook proposal: Jev as an agent's shell-command approval gate (measured, with a public MIT implementation)",
+    "comments": 0,
+    "read": "body"
+   },
+   {
+    "number": 4,
+    "state": "open",
+    "created_at": "2026-09-20T01:03:42Z",
+    "updated_at": "2026-09-20T01:03:42Z",
+    "author": "mishaal-cloud",
+    "title": "npx skills add: --agent targets silently no-op in non-interactive mode (reports success, writes nothing)",
+    "comments": 0,
+    "read": "body"
+   },
+   {
+    "number": 3,
+    "state": "open",
+    "created_at": "2026-09-19T19:26:06Z",
+    "updated_at": "2026-09-19T19:26:06Z",
+    "author": "lexingtonhibiki",
+    "title": "Independent evaluation of Jev on Chinese classification tasks — 97.7% @ ~890 ms, fully deterministic across 3 runs (+ a runtime engine)",
+    "comments": 0,
+    "read": "body"
+   },
+   {
+    "number": 2,
+    "state": "open",
+    "created_at": "2026-09-19T10:15:20Z",
+    "updated_at": "2026-09-21T05:18:50Z",
+    "author": "Louranicas",
+    "title": "Rewrite typesafe-ai SKILL.md description so skill-suggestion does not treat TypeScript requests as TypeSafe",
+    "comments": 1,
+    "read": "body+comments"
+   },
+   {
+    "number": 1,
+    "state": "open",
+    "created_at": "2026-09-18T21:21:15Z",
+    "updated_at": "2026-09-21T10:25:12Z",
+    "author": "Vilda007",
+    "title": "Docs report: request-body validation returns 400, but the API reference documents 422",
+    "comments": 1,
+    "read": "body+comments"
+   }
+  ],
+  "typesafe_skills_pulls": "HTTP 404 twice; Unknown",
+  "sdk_source_observations": [
+   "typesafe-sdk-python@0ffd094 config.py:26-32 raises on empty/whitespace key at construction",
+   "typesafe-sdk-python@0ffd094 errors.py:189-200 maps exceptions by HTTP status only (403 -> TypeSafePermissionDeniedError)",
+   "typesafe-sdk-python@0ffd094 questions.py:26-29 rejects only empty Score criteria (a one-level Score passes)",
+   "typesafe-sdk-js@66880cc client.ts:270 throws on nullish apiKey; errors.ts:71-72 maps 401 -> AuthenticationError, 403 -> PermissionDeniedError; questions.ts:82 requires >= 2 Score levels",
+   "api.typesafe.ai/openapi.json (sha256 a191f8a7df6bd6fedced8120dd0fd106f88575d1d1c8360d08900a6c7c0360d5, info.version 0.2.0): ScoreQuestion.criteria minItems 1, no maxItems; ChoiceQuestion.criteria unbounded; only 200 and 422 responses declared"
+  ]
+ }
+}

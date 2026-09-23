@@ -210,7 +210,7 @@
     },
     {
       "kind": "docs",
-      "note": "12.2x cheaper / 10x faster batching proof",
+      "note": "Reported cookbook result (jev-1.12, its input+output pricing): batched 12.2x cheaper / 10.0x faster; not rerun on jev-1.13 input-only pricing",
       "title": "Cookbook: parallel questions",
       "url": "https://docs.typesafe.ai/cookbooks/parallel_questions.md"
     },
@@ -6041,6 +6041,318 @@
     "note": "sha 10ad6888333fa97f8c948192797bad3de3040802. Redistributable projection of 326619 records including 147139 training records. 2053 Wikispeedia rows omitted. Not the exact training mixture. notes.md §165.",
     "reviewed_at": "2026-09-23T16:04Z",
     "review": "archive/hourly/2026-09-23T15/fold_165.md"
+  },
+  {
+    "kind": "github",
+    "title": "kinde-starter-kits/jev-agent-authorization",
+    "url": "https://github.com/kinde-starter-kits/jev-agent-authorization",
+    "note": "Node R_kgDOUmiakw, HEAD 5e938cb7bb8d5d9417566b35e9b9e3a41f5ba22b, created 2026-09-23T02:08Z. Selected source read (guard/policy.ts, guard/access.ts, jev/questions.ts, jev/judge.ts); tests not read. Exact permission check first; high-impact tiers always step up; thresholds are unvalidated constants. Starter kit, not a deployment. notes.md §166.",
+    "reviewed_at": "2026-09-23T16:36Z",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "github",
+    "title": "MahdiHedhli/foreman-jev-evaluation",
+    "url": "https://github.com/MahdiHedhli/foreman-jev-evaluation",
+    "note": "Node R_kgDOUmBlHg, HEAD a4d1c612be68939fef38007072416aee9bca3e0c. README only. 14 synthetic snapshots, mocked and live-replayed classes; the deterministic gate did the blocking. Author states no statistical claim. Results are theirs. Not reification-labs/foreman. notes.md §166.",
+    "reviewed_at": "2026-09-23T16:40Z",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "github",
+    "title": "strangeloopcanon/dynajev",
+    "url": "https://github.com/strangeloopcanon/dynajev",
+    "note": "Node R_kgDOUmfX-A, HEAD 8afc7ef30520fc79c6bb36d4de140cdb7e8411c8. README only. Per-question readout heads on Qwen3.5-2B, CPU; author says the gain is speed and structure, not accuracy. Small n, theirs. notes.md §166.",
+    "reviewed_at": "2026-09-23T16:37Z",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "github",
+    "title": "lucioamor/jevify",
+    "url": "https://github.com/lucioamor/jevify",
+    "note": "Node R_kgDOUl65lA, HEAD 19aac6b5531854daa6cb920d66bc0264ad3b9fc3. README only. Peer skill that migrates one call-site behind an off/shadow/on flag; hosted MCP mode may forward code to an AI provider. Not ryana/jevify (different owner, no join). notes.md §166.",
+    "reviewed_at": "2026-09-23T16:37Z",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "github",
+    "title": "anshull-saxena/candidate-order-instability",
+    "url": "https://github.com/anshull-saxena/candidate-order-instability",
+    "note": "Node R_kgDOUmYdgg, HEAD ca5b7d4a51e45be202d952d23346c1b8c46a757e. README only. Laya top-1 flips under permutation and cyclic averaging are theirs; its Jev comparison mixes K=72 and K=77. notes.md §166.",
+    "reviewed_at": "2026-09-23T16:52Z",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "github",
+    "title": "apolinario/decision-index",
+    "url": "https://github.com/apolinario/decision-index",
+    "note": "Node R_kgDOUk8gig, HEAD 52a698928a9ae5bdf16b75687c903871db29c6e5; node ID already in the 2026-09-22 discovery packet at metadata depth. README only. Externally sourced labels, pinned source hashes, unanswered counted wrong; suite not downloaded. notes.md §166.",
+    "reviewed_at": "2026-09-23T16:47Z",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "hf-model",
+    "title": "llm-semantic-router/Decision-1.0-Lux-9B",
+    "url": "https://huggingface.co/llm-semantic-router/Decision-1.0-Lux-9B",
+    "note": "sha bd45a30aee8c84032791c245c70f86dee5389cc8. README, SENSITIVITY.md and DIAGNOSTICS.md read; weights not downloaded. Headline weights chosen after observing results (their disclosure); missing-evidence P>=0.9 share 20.91% vs 0.00% for Kev-9B, theirs. notes.md §166.",
+    "reviewed_at": "2026-09-23T16:49Z",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "web",
+    "title": "TypeLLM fair-die study",
+    "url": "https://typellm.ai/blog/fair-die",
+    "note": "Blog dated 2026-09-22, full text read; TypeLLM README at d592c10. One context, 6 options, all 720 orderings: Jev put top mass on label 'one' in 720/720, TypeLLM+Qwen on the first position in 718/720 (theirs). Separates position from label prior. Raw responses not inspected. notes.md §113 and §166.",
+    "reviewed_at": "2026-09-23T16:35Z",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "github",
+    "title": "magnus919/agent-skills (system-one)",
+    "url": "https://github.com/magnus919/agent-skills/tree/38482f4c2b466ddd703e83ecc22f75363bdd6e9c/system-one",
+    "note": "Node R_kgDOTVrTDQ, revision 38482f4c2b466ddd703e83ecc22f75363bdd6e9c. SKILL.md, evals.json, tree and CI workflows read. Overlapping activation neighbor: claims Choice/Score/Noul, routing, ranking and calibration for Jev and Laya; evals have no should-not-trigger cases. notes.md §166.",
+    "reviewed_at": "2026-09-23T16:22Z",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "github",
+    "title": "NVIDIA/SkillEvaluator",
+    "url": "https://github.com/NVIDIA/SkillEvaluator",
+    "note": "HEAD 5c732733bc9592746204e207a163be9c4ed94cfa, release v0.3.0 (2026-09-17). README only; not run. Deterministic validation, embedding overlap against existing skills, paired with/without-skill live evaluation. Needs a provider key. notes.md §166.",
+    "reviewed_at": "2026-09-23T16:23Z",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "docs",
+    "title": "TypeSafe OpenAPI schema",
+    "url": "https://api.typesafe.ai/openapi.json",
+    "note": "sha256 a191f8a7df6bd6fedced8120dd0fd106f88575d1d1c8360d08900a6c7c0360d5, info.version 0.2.0, read 2026-09-23. ScoreQuestion.criteria minItems 1 with no maximum, Choice criteria unbounded, only 200/422 declared; the prose API page states narrower limits. Machine and prose contracts diverge. notes.md §166.",
+    "reviewed_at": "2026-09-23T16:25Z",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "docs",
+    "title": "Jev for coding agents",
+    "url": "https://docs.typesafe.ai/introduction/coding-agents.md",
+    "note": "sha256 e61ec46260302e87e21ca65fe2a1d67ae6c2741a4a586645ace5dd7d9f501175. Contract: Jev is not a drop-in replacement for the LLM behind coding agents; use the agent to write code that calls Jev. First appears in llms.txt between 2026-09-21T09:14Z and 2026-09-22T03:18Z (Wayback). notes.md §166.",
+    "reviewed_at": "2026-09-23T16:16Z",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "github",
+    "title": "typesafe-ai/skills issue #6",
+    "url": "https://github.com/typesafe-ai/skills/issues/6",
+    "note": "Third-party report (2026-09-21): a one-level Score returns 200 with confidence 1.0; 11 levels return 400. Not reproduced. Python SDK source accepts one level, JS SDK rejects fewer than two. notes.md §166.",
+    "reviewed_at": "2026-09-23T16:23Z",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "github",
+    "title": "typesafe-ai/skills issue #8",
+    "url": "https://github.com/typesafe-ai/skills/issues/8",
+    "note": "Third-party report (2026-09-21): missing key returns 403 authentication_error while docs say 401; issue #1 reports 400 where docs say 422. SDKs map by status only (source read). Not reproduced. notes.md §166.",
+    "reviewed_at": "2026-09-23T16:23Z",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "github",
+    "title": "typesafe-ai/skills issue #2",
+    "url": "https://github.com/typesafe-ai/skills/issues/2",
+    "note": "Third-party report (2026-09-19): the skill_suggestion cookbook index truncates descriptions to about 60 characters; a distinctive lead plus exclusions fixed 17/20 to 20/20 on one 33-skill roster. Also reports PRs disabled. Not a Claude Code or skills.sh property. notes.md §166.",
+    "reviewed_at": "2026-09-23T16:23Z",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "github",
+    "title": "typesafe-ai/skills issue #4",
+    "url": "https://github.com/typesafe-ai/skills/issues/4",
+    "note": "Third-party report (2026-09-20): npx skills add with --agent and -y in agent-detected mode reports success but writes only ~/.agents/skills. Not reproduced; exposure of the Augustus install command Unknown. notes.md §166.",
+    "reviewed_at": "2026-09-23T16:23Z",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "github",
+    "title": "typesafe-ai/skills issue #10",
+    "url": "https://github.com/typesafe-ai/skills/issues/10",
+    "note": "Third-party report: console.typesafe.ai auth returned HTTP 500 from about 2026-09-21T13:00Z to 2026-09-22T23:10Z. Current console status not probed. Augustus guidance needs no key. notes.md §166.",
+    "reviewed_at": "2026-09-23T16:23Z",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "docs",
+    "title": "Claude Code plugin evals",
+    "url": "https://code.claude.com/docs/en/plugin-evals.md",
+    "note": "Read 2026-09-23; claude plugin eval added in 2.1.269. Runs cases with and without the plugin; tool_used Skill grader; --max-cost-usd. Local $1.20 pilot on 0.7.1-dev (n=2 per arm, 4 cases) is a smoke, not a rate. Manifest-free targets need a case plugins path or they run with no plugin and exit 0. notes.md §166.",
+    "reviewed_at": "2026-09-23T16:18Z",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "docs",
+    "title": "Claude Code skills",
+    "url": "https://code.claude.com/docs/en/skills.md",
+    "note": "Read 2026-09-23. Listing budget 1% of context; descriptions dropped from the least-invoked skills first; description plus when_to_use capped at 1,536 characters; non-spec keys fail claude.ai upload, the Skills API and package_skill.py. notes.md §166.",
+    "reviewed_at": "2026-09-23T16:15Z",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "docs",
+    "title": "Agent Skills: optimizing descriptions",
+    "url": "https://agentskills.io/skill-creation/optimizing-descriptions.md",
+    "note": "Read 2026-09-23. Guidance, not a measurement: about 20 trigger queries with 8-10 near-miss negatives, 3 runs each, fixed 60/40 train/validation split; select by validation score. notes.md §166.",
+    "reviewed_at": "2026-09-23T16:16Z",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "docs",
+    "title": "Agent Skills: using scripts",
+    "url": "https://agentskills.io/skill-creation/using-scripts.md",
+    "note": "Read 2026-09-23. List bundled scripts in SKILL.md; --help is the agent's interface; commands are relative to the skill root, which Claude Code's working directory is not. notes.md §166.",
+    "reviewed_at": "2026-09-23T16:16Z",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "paper",
+    "title": "Type-Safe Is Not Error-Free: A Constrained Decision Head Follows the Option Name, Not the Rubric Bound to It",
+    "url": "https://arxiv.org/abs/2609.26758v1",
+    "note": "arXiv:2609.26758v1. Full methods read. Rebinding no/yes names to swapped rubrics flips 76.92% vs 6.50% for 0/1 on an open marker head; 32.50% vs a <=1.33% floor on hosted Jev; type-error rate 0%. Single v1 preprint, adversarial swap. Reported. notes.md §166.",
+    "reviewed_at": "2026-09-23",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "paper",
+    "title": "Certified Against Which Oracle? Execution Labels Set the Reported Risk of Conformal Abstention for Text-to-SQL",
+    "url": "https://arxiv.org/abs/2609.25938v1",
+    "note": "arXiv:2609.25938v1. Design, discussion and limitations read. Oracle swap raises held-out risk 2.73-10.23 points; own-oracle scores look better in 16/16. One benchmark family. Reported. notes.md §166.",
+    "reviewed_at": "2026-09-23",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "paper",
+    "title": "Forgeable Confirmation in Automated Computer Security Testing: Deterministic Rules versus AI Judges",
+    "url": "https://arxiv.org/abs/2609.24200v1",
+    "note": "arXiv:2609.24200v1. Sections 3.3-3.5 and 4 read. Forgeability follows whether the decision reads attacker-controlled data; anchoring off that channel took attack success 97% to 0%. Offline security pipeline. Reported. notes.md §166.",
+    "reviewed_at": "2026-09-23",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "paper",
+    "title": "Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation",
+    "url": "https://arxiv.org/abs/2609.20758v1",
+    "note": "arXiv:2609.20758v1. Sections 2, 3.1 and 5 read. A simulated non-probability sample keeps bias as budget grows and PPI does not fix it. Reported. notes.md §166.",
+    "reviewed_at": "2026-09-23",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "paper",
+    "title": "Learning to Defer with Guidance on Real World Medical Data",
+    "url": "https://arxiv.org/abs/2609.26384v1",
+    "note": "arXiv:2609.26384v1. Full methods read. Frozen predictor, trained rejector, guidance as a third action; classic two-stage L2D did not beat baselines on 324-image Collab-CXR. Reported. notes.md §166.",
+    "reviewed_at": "2026-09-23",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "paper",
+    "title": "Skill Issue: Lessons from Optimizing Repository SKILLs for Coding Agents",
+    "url": "https://arxiv.org/abs/2609.12742v1",
+    "note": "arXiv:2609.12742v1. Full methods read. Only paired candidate-versus-seed runs were informative; best sign test p=0.29; grading the document is a bad proxy. Reported. notes.md §166.",
+    "reviewed_at": "2026-09-23",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "paper",
+    "title": "Calibrated Decisions at Scale: Converting Police Crash Narratives into Probabilistic Crash Variables with a System One Model (Jev)",
+    "url": "https://arxiv.org/abs/2609.24052v1",
+    "note": "arXiv:2609.24052v1. Proposition 1 and eqs 16-18 read; bound checked as arithmetic only. A 0.01 probability grid with no zeros floors calibration for base rates below 0.01. Grid not confirmed against Contract docs. Reported. notes.md §166.",
+    "reviewed_at": "2026-09-23",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "paper",
+    "title": "Agreement Overstates Evidence: Error Dependence in LLM Judge Consensus",
+    "url": "https://arxiv.org/abs/2609.22512v1",
+    "note": "arXiv:2609.22512v1. Abstract and appendix formula read. Mean judge-error correlation 0.21 makes 10 judges worth about 3.5 (recomputed 3.46). Already covered. Reported. notes.md §166.",
+    "reviewed_at": "2026-09-23",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "paper",
+    "title": "Evaluating Decision Models for Text Annotation in Computational Social Science",
+    "url": "https://arxiv.org/abs/2609.24574v1",
+    "note": "arXiv:2609.24574v1. Abstract, introduction and sections 4.4-4.5 read. Independent study: Jev trails the per-task best LLM on 14/15 tasks at much lower cost; cascade recovers LLM quality at a fraction of cost. Already covered. Reported. notes.md §166.",
+    "reviewed_at": "2026-09-23",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "paper",
+    "title": "Available but Unclaimed: An Empirical Study of Human-AI Synergy",
+    "url": "https://arxiv.org/abs/2609.16793v1",
+    "note": "arXiv:2609.16793v1. Abstract only. N=535 between-subjects; deference rose with model competence and post-advice confidence discriminated less. Reported. notes.md §166.",
+    "reviewed_at": "2026-09-23",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "paper",
+    "title": "Intrinsic Sequence-Likelihood Confidence in Retrieval-Dominated Extractive QA: Two Pre-Specified Negatives, and What They Do and Do Not Attribute",
+    "url": "https://arxiv.org/abs/2609.19942v1",
+    "note": "arXiv:2609.19942v1. Abstract only. Pre-specified negative: retrieval alone recovers 92-99.8% of best-case accuracy, leaving routers little gain. Reported. notes.md §166.",
+    "reviewed_at": "2026-09-23",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "paper",
+    "title": "Mo' Models, Mo' Problems: How to best select model pools when designing Multi-Agent Systems",
+    "url": "https://arxiv.org/abs/2609.17306v1",
+    "note": "arXiv:2609.17306v1. Abstract only. Larger model pools often fall below the best base model; large oracle-versus-actual gap. Reported. notes.md §166.",
+    "reviewed_at": "2026-09-23",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "paper",
+    "title": "REFLEX with Jev for Efficient Selective Control in LLM Agents",
+    "url": "https://arxiv.org/abs/2609.26532v1",
+    "note": "arXiv:2609.26532v1. Abstract only. Fewer strong-model calls on a 100-task benchmark; limited advantage when routing is already accurate. Reported. notes.md §166.",
+    "reviewed_at": "2026-09-23",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "paper",
+    "title": "Beyond Accuracy: How Procedural Traces Shift the Decision Criterion of LLM Overseers",
+    "url": "https://arxiv.org/abs/2609.18204v1",
+    "note": "arXiv:2609.18204v1. Abstract only. Elaborate traces shift the overseer criterion toward rejection without changing detection. Reported; investigate. notes.md §166.",
+    "reviewed_at": "2026-09-23",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "paper",
+    "title": "Active Statistical Inference",
+    "url": "https://arxiv.org/abs/2403.03208v3",
+    "note": "arXiv:2403.03208v3. Older work newly found; abstract only. Uncertainty-prioritized labeling with valid intervals when inclusion probabilities are known. notes.md §166.",
+    "reviewed_at": "2026-09-23",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "paper",
+    "title": "Reward Tampering Problems and Solutions in Reinforcement Learning: A Causal Influence Diagram Perspective",
+    "url": "https://arxiv.org/abs/1908.04734v5",
+    "note": "arXiv:1908.04734v5. Older work newly found; abstract only. Evaluator inputs the agent can influence are tamperable. notes.md §166.",
+    "reviewed_at": "2026-09-23",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "paper",
+    "title": "A Two-Stage Learning-to-Defer Approach for Multi-Task Learning",
+    "url": "https://arxiv.org/abs/2410.15729v5",
+    "note": "arXiv:2410.15729v5. Older work newly found; abstract only. Fixed main model with a trained rejector is an established setting. notes.md §166.",
+    "reviewed_at": "2026-09-23",
+    "review": "patrol-2026-09-23.md"
+  },
+  {
+    "kind": "paper",
+    "title": "Prediction-Powered Inference",
+    "url": "https://arxiv.org/abs/2301.09633v4",
+    "note": "arXiv:2301.09633v4. Older work newly found; abstract only. Valid intervals from a small labeled set plus predictions. 2609.20758 section 2 reports PPI does not repair a non-probability sample. Investigate. notes.md §166.",
+    "reviewed_at": "2026-09-23",
+    "review": "patrol-2026-09-23.md"
   }
   ]
 }

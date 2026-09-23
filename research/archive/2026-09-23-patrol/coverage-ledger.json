@@ -1,0 +1,2719 @@
+{
+ "schema_version": 1,
+ "review": "research/patrol-2026-09-23.md",
+ "prior_cutoffs": {
+  "full_refresh_github": "2026-09-22T15:35:00Z",
+  "full_refresh_doc_receipts": "2026-09-22T16:28Z",
+  "hourly_fold_165": "2026-09-23T16:04Z"
+ },
+ "retrieval_window": {
+  "start": "2026-09-23T16:15:09Z",
+  "end": "2026-09-23T16:55Z (approximate; last patrol item 16:52Z)"
+ },
+ "authority": "read-only patrol; no paid search, no provider inference, no weights, no outreach; one paid Claude plugin-eval pilot ($1.7429 across 9 invocations) in scratch",
+ "lens_windows": {
+  "provider": "2026-09-23T16:15:09Z..16:26:30Z",
+  "ecosystem": "2026-09-23T16:15Z..16:55Z (items to 16:52Z)",
+  "methods": "2026-09-23T16:15:58Z..16:40Z",
+  "skills_ecosystem": "2026-09-23T16:15Z..16:26Z",
+  "discoverability": "2026-09-23T16:15Z..16:26Z",
+  "claude_tooling": "2026-09-23T16:15:24Z..~16:25Z",
+  "release_delta": "2026-09-23 (times not recorded per fetch)"
+ },
+ "github": {
+  "api": "gh api -X GET search/repositories; no star sort; adaptive split until each leaf probe <= 900",
+  "families": 13,
+  "leaf_queries": 25,
+  "pages": 129,
+  "unique_node_ids": 5094,
+  "dedupe": {
+   "notes_name": 61,
+   "node_id": 1090,
+   "name_only": 199,
+   "first_sighting": 3744
+  },
+  "dedupe_by_window": {
+   "notes_name|created_in_window=False": 60,
+   "node_id|created_in_window=False": 1090,
+   "name_only|created_in_window=False": 194,
+   "first_sighting|created_in_window=True": 1612,
+   "first_sighting|created_in_window=False": 2132,
+   "name_only|created_in_window=True": 5,
+   "notes_name|created_in_window=True": 1
+  },
+  "older_first_sightings_readme_text_only": 1802,
+  "moving_index_shortfalls": [
+   {
+    "id": "jev-pushed-2",
+    "probe_total": 810,
+    "returned": 796
+   },
+   {
+    "id": "typesafe-jev-readme-pushed-0",
+    "probe_total": 557,
+    "returned": 556
+   },
+   {
+    "id": "typesafe-jev-readme-pushed-3",
+    "probe_total": 498,
+    "returned": 497
+   },
+   {
+    "id": "typesafe-jev-readme-pushed-4",
+    "probe_total": 827,
+    "returned": 807
+   },
+   {
+    "id": "noul-typesafe-readme-pushed-1",
+    "probe_total": 729,
+    "returned": 727
+   },
+   {
+    "id": "choice-score-noul-0",
+    "probe_total": 435,
+    "returned": 434
+   },
+   {
+    "id": "choice-score-noul-1",
+    "probe_total": 790,
+    "returned": 789
+   },
+   {
+    "id": "typed-decision-pushed-1",
+    "probe_total": 632,
+    "returned": 626
+   }
+  ],
+  "queries": [
+   {
+    "id": "jev-pushed-0",
+    "family": "jev-pushed",
+    "query": "jev in:name,description pushed:2026-09-22T15:35:00Z..2026-09-23T03:55:55Z",
+    "probe_total": 838,
+    "pages": 9,
+    "returned": 838,
+    "shortfall_vs_probe": 0,
+    "first_page_at": "2026-09-23T16:17:10.875Z",
+    "last_page_at": "2026-09-23T16:17:52.364Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "jev-pushed-1",
+    "family": "jev-pushed",
+    "query": "jev in:name,description pushed:2026-09-23T03:55:56Z..2026-09-23T10:06:23Z",
+    "probe_total": 475,
+    "pages": 5,
+    "returned": 475,
+    "shortfall_vs_probe": 0,
+    "first_page_at": "2026-09-23T16:17:57.517Z",
+    "last_page_at": "2026-09-23T16:18:18.619Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "jev-pushed-2",
+    "family": "jev-pushed",
+    "query": "jev in:name,description pushed:2026-09-23T10:06:24Z..2026-09-23T16:16:50Z",
+    "probe_total": 810,
+    "pages": 8,
+    "returned": 796,
+    "shortfall_vs_probe": 14,
+    "first_page_at": "2026-09-23T16:18:24.097Z",
+    "last_page_at": "2026-09-23T16:19:01.567Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "jev-created-0",
+    "family": "jev-created",
+    "query": "jev in:name,description created:2026-09-22T00:00:00Z..2026-09-22T10:04:12Z",
+    "probe_total": 531,
+    "pages": 6,
+    "returned": 531,
+    "shortfall_vs_probe": 0,
+    "first_page_at": "2026-09-23T16:19:28.782Z",
+    "last_page_at": "2026-09-23T16:19:54.686Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "jev-created-1",
+    "family": "jev-created",
+    "query": "jev in:name,description created:2026-09-22T10:04:13Z..2026-09-22T20:08:25Z",
+    "probe_total": 529,
+    "pages": 6,
+    "returned": 529,
+    "shortfall_vs_probe": 0,
+    "first_page_at": "2026-09-23T16:19:59.654Z",
+    "last_page_at": "2026-09-23T16:20:25.261Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "jev-created-2",
+    "family": "jev-created",
+    "query": "jev in:name,description created:2026-09-22T20:08:26Z..2026-09-23T06:12:38Z",
+    "probe_total": 455,
+    "pages": 5,
+    "returned": 455,
+    "shortfall_vs_probe": 0,
+    "first_page_at": "2026-09-23T16:20:30.920Z",
+    "last_page_at": "2026-09-23T16:20:51.073Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "jev-created-3",
+    "family": "jev-created",
+    "query": "jev in:name,description created:2026-09-23T06:12:39Z..2026-09-23T16:16:50Z",
+    "probe_total": 461,
+    "pages": 5,
+    "returned": 461,
+    "shortfall_vs_probe": 0,
+    "first_page_at": "2026-09-23T16:20:56.391Z",
+    "last_page_at": "2026-09-23T16:21:16.565Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "typesafe-jev-readme-pushed-0",
+    "family": "typesafe-jev-readme-pushed",
+    "query": "typesafe jev in:name,description,readme pushed:2026-09-22T15:35:00Z..2026-09-22T21:45:27Z",
+    "probe_total": 557,
+    "pages": 6,
+    "returned": 556,
+    "shortfall_vs_probe": 1,
+    "first_page_at": "2026-09-23T16:21:51.078Z",
+    "last_page_at": "2026-09-23T16:22:17.535Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "typesafe-jev-readme-pushed-1",
+    "family": "typesafe-jev-readme-pushed",
+    "query": "typesafe jev in:name,description,readme pushed:2026-09-22T21:45:28Z..2026-09-23T03:55:55Z",
+    "probe_total": 572,
+    "pages": 6,
+    "returned": 572,
+    "shortfall_vs_probe": 0,
+    "first_page_at": "2026-09-23T16:22:22.717Z",
+    "last_page_at": "2026-09-23T16:22:49.269Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "typesafe-jev-readme-pushed-2",
+    "family": "typesafe-jev-readme-pushed",
+    "query": "typesafe jev in:name,description,readme pushed:2026-09-23T03:55:56Z..2026-09-23T10:06:23Z",
+    "probe_total": 748,
+    "pages": 8,
+    "returned": 748,
+    "shortfall_vs_probe": 0,
+    "first_page_at": "2026-09-23T16:22:54.640Z",
+    "last_page_at": "2026-09-23T16:23:31.788Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "typesafe-jev-readme-pushed-3",
+    "family": "typesafe-jev-readme-pushed",
+    "query": "typesafe jev in:name,description,readme pushed:2026-09-23T10:06:24Z..2026-09-23T13:11:37Z",
+    "probe_total": 498,
+    "pages": 5,
+    "returned": 497,
+    "shortfall_vs_probe": 1,
+    "first_page_at": "2026-09-23T16:23:36.884Z",
+    "last_page_at": "2026-09-23T16:23:58.543Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "typesafe-jev-readme-pushed-4",
+    "family": "typesafe-jev-readme-pushed",
+    "query": "typesafe jev in:name,description,readme pushed:2026-09-23T13:11:38Z..2026-09-23T16:16:50Z",
+    "probe_total": 827,
+    "pages": 9,
+    "returned": 807,
+    "shortfall_vs_probe": 20,
+    "first_page_at": "2026-09-23T16:24:04.401Z",
+    "last_page_at": "2026-09-23T16:24:46.518Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "system-one-pushed-0",
+    "family": "system-one-pushed",
+    "query": "\"system one\" in:name,description pushed:2026-09-22T15:35:00Z..2026-09-23T16:16:50Z",
+    "probe_total": 285,
+    "pages": 3,
+    "returned": 285,
+    "shortfall_vs_probe": 0,
+    "first_page_at": "2026-09-23T16:24:54.959Z",
+    "last_page_at": "2026-09-23T16:25:05.775Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "noul-pushed-0",
+    "family": "noul-pushed",
+    "query": "noul in:name,description pushed:2026-09-22T15:35:00Z..2026-09-23T16:16:50Z",
+    "probe_total": 54,
+    "pages": 1,
+    "returned": 54,
+    "shortfall_vs_probe": 0,
+    "first_page_at": "2026-09-23T16:25:12.991Z",
+    "last_page_at": "2026-09-23T16:25:12.991Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "noul-typesafe-readme-pushed-0",
+    "family": "noul-typesafe-readme-pushed",
+    "query": "noul typesafe in:readme pushed:2026-09-22T15:35:00Z..2026-09-23T03:55:55Z",
+    "probe_total": 436,
+    "pages": 5,
+    "returned": 436,
+    "shortfall_vs_probe": 0,
+    "first_page_at": "2026-09-23T16:25:27.796Z",
+    "last_page_at": "2026-09-23T16:25:48.623Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "noul-typesafe-readme-pushed-1",
+    "family": "noul-typesafe-readme-pushed",
+    "query": "noul typesafe in:readme pushed:2026-09-23T03:55:56Z..2026-09-23T16:16:50Z",
+    "probe_total": 729,
+    "pages": 8,
+    "returned": 727,
+    "shortfall_vs_probe": 2,
+    "first_page_at": "2026-09-23T16:25:54.070Z",
+    "last_page_at": "2026-09-23T16:26:31.550Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "decision-model-pushed-0",
+    "family": "decision-model-pushed",
+    "query": "\"decision model\" in:name,description pushed:2026-09-22T15:35:00Z..2026-09-23T16:16:50Z",
+    "probe_total": 186,
+    "pages": 2,
+    "returned": 186,
+    "shortfall_vs_probe": 0,
+    "first_page_at": "2026-09-23T16:26:39.954Z",
+    "last_page_at": "2026-09-23T16:26:45.095Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "decision-models-pushed-0",
+    "family": "decision-models-pushed",
+    "query": "\"decision models\" in:name,description pushed:2026-09-22T15:35:00Z..2026-09-23T16:16:50Z",
+    "probe_total": 185,
+    "pages": 2,
+    "returned": 185,
+    "shortfall_vs_probe": 0,
+    "first_page_at": "2026-09-23T16:26:53.396Z",
+    "last_page_at": "2026-09-23T16:26:57.666Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "choice-score-noul-0",
+    "family": "choice-score-noul",
+    "query": "choice score noul in:name,description,readme pushed:2026-09-22T15:35:00Z..2026-09-23T03:55:55Z",
+    "probe_total": 435,
+    "pages": 5,
+    "returned": 434,
+    "shortfall_vs_probe": 1,
+    "first_page_at": "2026-09-23T16:27:12.012Z",
+    "last_page_at": "2026-09-23T16:27:32.469Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "choice-score-noul-1",
+    "family": "choice-score-noul",
+    "query": "choice score noul in:name,description,readme pushed:2026-09-23T03:55:56Z..2026-09-23T16:16:50Z",
+    "probe_total": 790,
+    "pages": 8,
+    "returned": 789,
+    "shortfall_vs_probe": 1,
+    "first_page_at": "2026-09-23T16:27:37.814Z",
+    "last_page_at": "2026-09-23T16:28:15.711Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "decision-head-pushed-0",
+    "family": "decision-head-pushed",
+    "query": "\"decision head\" in:name,description,readme pushed:2026-09-22T15:35:00Z..2026-09-23T16:16:50Z",
+    "probe_total": 146,
+    "pages": 2,
+    "returned": 146,
+    "shortfall_vs_probe": 0,
+    "first_page_at": "2026-09-23T16:28:24.173Z",
+    "last_page_at": "2026-09-23T16:28:28.244Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "decision-head-hyphen-pushed-0",
+    "family": "decision-head-hyphen-pushed",
+    "query": "decision-head in:name,description pushed:2026-09-22T15:35:00Z..2026-09-23T16:16:50Z",
+    "probe_total": 8,
+    "pages": 1,
+    "returned": 8,
+    "shortfall_vs_probe": 0,
+    "first_page_at": "2026-09-23T16:28:34.586Z",
+    "last_page_at": "2026-09-23T16:28:34.586Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "typed-decision-pushed-0",
+    "family": "typed-decision-pushed",
+    "query": "\"typed decision\" in:name,description,readme pushed:2026-09-22T15:35:00Z..2026-09-23T03:55:55Z",
+    "probe_total": 301,
+    "pages": 4,
+    "returned": 301,
+    "shortfall_vs_probe": 0,
+    "first_page_at": "2026-09-23T16:28:49.022Z",
+    "last_page_at": "2026-09-23T16:29:03.262Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "typed-decision-pushed-1",
+    "family": "typed-decision-pushed",
+    "query": "\"typed decision\" in:name,description,readme pushed:2026-09-23T03:55:56Z..2026-09-23T16:16:50Z",
+    "probe_total": 632,
+    "pages": 7,
+    "returned": 626,
+    "shortfall_vs_probe": 6,
+    "first_page_at": "2026-09-23T16:29:08.664Z",
+    "last_page_at": "2026-09-23T16:29:40.031Z",
+    "incomplete_results_any": false
+   },
+   {
+    "id": "zero-shot-calibration-pushed-0",
+    "family": "zero-shot-calibration-pushed",
+    "query": "\"zero-shot\" classifier calibration in:name,description,readme pushed:2026-09-22T15:35:00Z..2026-09-23T16:16:50Z",
+    "probe_total": 248,
+    "pages": 3,
+    "returned": 248,
+    "shortfall_vs_probe": 0,
+    "first_page_at": "2026-09-23T16:29:48.705Z",
+    "last_page_at": "2026-09-23T16:29:58.455Z",
+    "incomplete_results_any": false
+   }
+  ],
+  "not_covered": [
+   "GitHub code search (search/code)",
+   "repositories without the query terms in name, description or README",
+   "primary-artifact inspection of most first sightings (metadata triage only)"
+  ]
+ },
+ "huggingface": {
+  "api": "https://huggingface.co/api/{models,datasets,spaces}?search=<term>&sort=lastModified&direction=-1&limit=100",
+  "cutoff": "2026-09-22T15:35:00.000Z",
+  "retrieved_at": "2026-09-23T16:17:29Z",
+  "finished_at": "2026-09-23T16:17:31Z",
+  "scope": "Hub metadata discovery only; no weights downloaded, no model code executed",
+  "queries": [
+   {
+    "kind": "models",
+    "term": "jev",
+    "urls": [
+     "https://huggingface.co/api/models?search=jev&sort=lastModified&direction=-1&limit=100"
+    ],
+    "status": [
+     "HTTP/2 200"
+    ],
+    "retrieved_at": [
+     "2026-09-23T16:17:29Z"
+    ],
+    "rows": 100,
+    "newer_than_cutoff": 27,
+    "stop_reason": "crossed_cutoff",
+    "newer_ids": [
+     {
+      "id": "samatv256/mini-Jev",
+      "lastModified": "2026-09-23T14:44:54.000Z",
+      "createdAt": "2026-09-21T00:18:46.000Z"
+     },
+     {
+      "id": "autotrust/JEV",
+      "lastModified": "2026-09-23T14:20:42.000Z",
+      "createdAt": "2026-09-23T12:08:52.000Z"
+     },
+     {
+      "id": "xuhaodev/Qwen3-1.7B-Jev",
+      "lastModified": "2026-09-23T13:34:58.000Z",
+      "createdAt": "2026-09-23T13:34:41.000Z"
+     },
+     {
+      "id": "killkli/open-jev-laya-multilingual-onnx",
+      "lastModified": "2026-09-23T12:31:22.000Z",
+      "createdAt": "2026-09-23T11:27:30.000Z"
+     },
+     {
+      "id": "DawoodKMasood/jev-gemma-3-270m",
+      "lastModified": "2026-09-23T11:45:23.000Z",
+      "createdAt": "2026-09-23T11:20:21.000Z"
+     },
+     {
+      "id": "ait-hf/certus-jev-like-v0007",
+      "lastModified": "2026-09-23T09:24:00.000Z",
+      "createdAt": "2026-09-22T15:57:26.000Z"
+     },
+     {
+      "id": "JonusNattapong/jev-my-bro-th1200",
+      "lastModified": "2026-09-23T08:33:01.000Z",
+      "createdAt": "2026-09-23T04:59:42.000Z"
+     },
+     {
+      "id": "aimeigaoshou/agent-jev",
+      "lastModified": "2026-09-23T08:30:52.000Z",
+      "createdAt": "2026-09-21T17:03:51.000Z"
+     },
+     {
+      "id": "tianxinwei/JevAny-27B-RLCR",
+      "lastModified": "2026-09-23T08:25:34.000Z",
+      "createdAt": "2026-09-22T18:30:24.000Z"
+     },
+     {
+      "id": "tianxinwei/JevAny-27B-SFT",
+      "lastModified": "2026-09-23T08:25:14.000Z",
+      "createdAt": "2026-09-22T18:30:23.000Z"
+     },
+     {
+      "id": "lokinfey/Qwen3_5_0.8B_jev",
+      "lastModified": "2026-09-23T07:50:28.000Z",
+      "createdAt": "2026-09-23T07:50:15.000Z"
+     },
+     {
+      "id": "ZefanCai/Open-Jev-27B-v1.1",
+      "lastModified": "2026-09-23T07:45:56.000Z",
+      "createdAt": "2026-09-22T23:59:18.000Z"
+     },
+     {
+      "id": "guanxuyu/visual-jev-4b-answer-sft",
+      "lastModified": "2026-09-23T07:29:46.000Z",
+      "createdAt": "2026-09-23T07:29:28.000Z"
+     },
+     {
+      "id": "guzus/jev-nyotti-action",
+      "lastModified": "2026-09-23T07:15:41.000Z",
+      "createdAt": "2026-09-23T04:18:04.000Z"
+     },
+     {
+      "id": "junetask/Open-Jev-9B",
+      "lastModified": "2026-09-23T02:00:48.000Z",
+      "createdAt": "2026-09-23T02:00:48.000Z"
+     },
+     {
+      "id": "0xSojalSec/Jev-Omni",
+      "lastModified": "2026-09-23T01:20:11.000Z",
+      "createdAt": "2026-09-23T01:20:11.000Z"
+     },
+     {
+      "id": "SUPER321/jevflash-doom-basic-0.6b",
+      "lastModified": "2026-09-23T01:18:07.000Z",
+      "createdAt": "2026-09-23T01:14:12.000Z"
+     },
+     {
+      "id": "asjson/jevson-4b-01",
+      "lastModified": "2026-09-23T01:11:01.000Z",
+      "createdAt": "2026-09-23T01:06:47.000Z"
+     },
+     {
+      "id": "akhilaaa3/Jev-Omni",
+      "lastModified": "2026-09-22T22:45:48.000Z",
+      "createdAt": "2026-09-20T21:43:20.000Z"
+     },
+     {
+      "id": "Praveenrajus/jevify-qwen3.5-4b",
+      "lastModified": "2026-09-22T22:41:15.000Z",
+      "createdAt": "2026-09-21T02:28:03.000Z"
+     },
+     {
+      "id": "Praveenrajus/jevify-qwen3.5-2b",
+      "lastModified": "2026-09-22T22:41:14.000Z",
+      "createdAt": "2026-09-21T02:28:33.000Z"
+     },
+     {
+      "id": "vigneshlabs/ballot-jev-0.5b",
+      "lastModified": "2026-09-22T21:52:03.000Z",
+      "createdAt": "2026-09-22T20:44:50.000Z"
+     },
+     {
+      "id": "Praveenrajus/jevify-qwen3.5-4b-t2-lowlr",
+      "lastModified": "2026-09-22T19:58:08.000Z",
+      "createdAt": "2026-09-22T19:58:02.000Z"
+     },
+     {
+      "id": "WIlfLin/JEV-Qwen3.8-Flash-Next-Linear-Runtime",
+      "lastModified": "2026-09-22T19:41:53.000Z",
+      "createdAt": "2026-09-22T07:30:10.000Z"
+     },
+     {
+      "id": "alibiserikbay/JevK5",
+      "lastModified": "2026-09-22T18:56:59.000Z",
+      "createdAt": "2026-09-22T13:53:01.000Z"
+     },
+     {
+      "id": "jsaurabh/qwen3.5-9b-jev-data-mix-v2",
+      "lastModified": "2026-09-22T17:05:57.000Z",
+      "createdAt": "2026-09-22T08:46:13.000Z"
+     },
+     {
+      "id": "tasksource/modernbert-tasksource-jev",
+      "lastModified": "2026-09-22T16:52:09.000Z",
+      "createdAt": "2026-09-22T16:27:43.000Z"
+     }
+    ]
+   },
+   {
+    "kind": "models",
+    "term": "gliclass",
+    "urls": [
+     "https://huggingface.co/api/models?search=gliclass&sort=lastModified&direction=-1&limit=100"
+    ],
+    "status": [
+     "HTTP/2 200"
+    ],
+    "retrieved_at": [
+     "2026-09-23T16:17:29Z"
+    ],
+    "rows": 100,
+    "newer_than_cutoff": 2,
+    "stop_reason": "crossed_cutoff",
+    "newer_ids": [
+     {
+      "id": "FluidInference/gliclass-edge-apps-coreml",
+      "lastModified": "2026-09-22T20:08:42.000Z",
+      "createdAt": "2026-09-22T20:08:17.000Z"
+     },
+     {
+      "id": "hugginfaces122/usejev-gliclass-onnx",
+      "lastModified": "2026-09-22T16:14:22.000Z",
+      "createdAt": "2026-09-22T16:12:34.000Z"
+     }
+    ]
+   },
+   {
+    "kind": "models",
+    "term": "gliner",
+    "urls": [
+     "https://huggingface.co/api/models?search=gliner&sort=lastModified&direction=-1&limit=100"
+    ],
+    "status": [
+     "HTTP/2 200"
+    ],
+    "retrieved_at": [
+     "2026-09-23T16:17:29Z"
+    ],
+    "rows": 100,
+    "newer_than_cutoff": 5,
+    "stop_reason": "crossed_cutoff",
+    "newer_ids": [
+     {
+      "id": "gitmodelmujtaba/gliner-snomed-biomed",
+      "lastModified": "2026-09-23T13:09:35.000Z",
+      "createdAt": "2026-09-14T23:05:02.000Z"
+     },
+     {
+      "id": "davanstrien/hub-task-tagger-gliner2.5-base",
+      "lastModified": "2026-09-23T09:49:56.000Z",
+      "createdAt": "2026-09-23T09:36:13.000Z"
+     },
+     {
+      "id": "FluidInference/gliner2-5-small-coreml",
+      "lastModified": "2026-09-23T00:22:00.000Z",
+      "createdAt": "2026-09-22T20:04:24.000Z"
+     },
+     {
+      "id": "FluidInference/gliner2-5-base-coreml",
+      "lastModified": "2026-09-23T00:17:04.000Z",
+      "createdAt": "2026-09-22T20:10:21.000Z"
+     },
+     {
+      "id": "FluidInference/gliner2-5-multi-coreml",
+      "lastModified": "2026-09-23T00:17:04.000Z",
+      "createdAt": "2026-09-22T20:14:31.000Z"
+     }
+    ]
+   },
+   {
+    "kind": "models",
+    "term": "tabpfn",
+    "urls": [
+     "https://huggingface.co/api/models?search=tabpfn&sort=lastModified&direction=-1&limit=100"
+    ],
+    "status": [
+     "HTTP/2 200"
+    ],
+    "retrieved_at": [
+     "2026-09-23T16:17:29Z"
+    ],
+    "rows": 50,
+    "newer_than_cutoff": 0,
+    "stop_reason": "crossed_cutoff",
+    "newer_ids": []
+   },
+   {
+    "kind": "models",
+    "term": "laya",
+    "urls": [
+     "https://huggingface.co/api/models?search=laya&sort=lastModified&direction=-1&limit=100"
+    ],
+    "status": [
+     "HTTP/2 200"
+    ],
+    "retrieved_at": [
+     "2026-09-23T16:17:29Z"
+    ],
+    "rows": 100,
+    "newer_than_cutoff": 73,
+    "stop_reason": "crossed_cutoff",
+    "newer_ids": [
+     {
+      "id": "AhmetSemih/laya-turkish-mmlu",
+      "lastModified": "2026-09-23T16:16:41.000Z",
+      "createdAt": "2026-09-23T16:16:18.000Z"
+     },
+     {
+      "id": "leehack/laya-tetris-head",
+      "lastModified": "2026-09-23T16:13:53.000Z",
+      "createdAt": "2026-09-23T10:02:57.000Z"
+     },
+     {
+      "id": "dnagpt/laya-bio-models",
+      "lastModified": "2026-09-23T15:45:34.000Z",
+      "createdAt": "2026-09-23T15:45:30.000Z"
+     },
+     {
+      "id": "abedinia/laya-web-agent",
+      "lastModified": "2026-09-23T15:37:57.000Z",
+      "createdAt": "2026-09-23T09:42:45.000Z"
+     },
+     {
+      "id": "Layasaran/research_model_v1",
+      "lastModified": "2026-09-23T15:36:24.000Z",
+      "createdAt": "2026-09-22T09:03:25.000Z"
+     },
+     {
+      "id": "featherless-ai/laya-plus-classifier",
+      "lastModified": "2026-09-23T14:53:44.000Z",
+      "createdAt": "2026-09-23T14:48:44.000Z"
+     },
+     {
+      "id": "OwaisAli10/laya-snake",
+      "lastModified": "2026-09-23T14:47:32.000Z",
+      "createdAt": "2026-09-23T14:44:01.000Z"
+     },
+     {
+      "id": "strivedi183/laya-typed-decisions-onnx-fp16",
+      "lastModified": "2026-09-23T14:43:55.000Z",
+      "createdAt": "2026-09-23T12:43:01.000Z"
+     },
+     {
+      "id": "Wouze/laya-ara-rag",
+      "lastModified": "2026-09-23T14:14:15.000Z",
+      "createdAt": "2026-09-21T17:27:25.000Z"
+     },
+     {
+      "id": "Wouze/laya-ara",
+      "lastModified": "2026-09-23T14:14:12.000Z",
+      "createdAt": "2026-09-21T15:54:16.000Z"
+     },
+     {
+      "id": "AXERA-TECH/Laya",
+      "lastModified": "2026-09-23T14:00:52.000Z",
+      "createdAt": "2026-09-21T09:56:30.000Z"
+     },
+     {
+      "id": "killkli/open-jev-laya-multilingual-onnx",
+      "lastModified": "2026-09-23T12:31:22.000Z",
+      "createdAt": "2026-09-23T11:27:30.000Z"
+     },
+     {
+      "id": "uzuw/laya-cli-gate",
+      "lastModified": "2026-09-23T12:24:02.000Z",
+      "createdAt": "2026-09-23T07:58:13.000Z"
+     },
+     {
+      "id": "sahilchachra/Laya-TypedDecisions-MXFP8",
+      "lastModified": "2026-09-23T12:14:34.000Z",
+      "createdAt": "2026-09-23T12:14:09.000Z"
+     },
+     {
+      "id": "sahilchachra/Laya-TypedDecisions-MXFP4",
+      "lastModified": "2026-09-23T12:14:07.000Z",
+      "createdAt": "2026-09-23T12:13:26.000Z"
+     },
+     {
+      "id": "sahilchachra/Laya-Multilingual-MXFP8",
+      "lastModified": "2026-09-23T12:13:25.000Z",
+      "createdAt": "2026-09-23T12:12:57.000Z"
+     },
+     {
+      "id": "sahilchachra/Laya-Multilingual-MXFP4",
+      "lastModified": "2026-09-23T12:12:56.000Z",
+      "createdAt": "2026-09-23T12:12:32.000Z"
+     },
+     {
+      "id": "sahilchachra/Laya-English-MXFP8",
+      "lastModified": "2026-09-23T12:12:30.000Z",
+      "createdAt": "2026-09-23T12:11:56.000Z"
+     },
+     {
+      "id": "sahilchachra/Laya-English-MXFP4",
+      "lastModified": "2026-09-23T12:11:55.000Z",
+      "createdAt": "2026-09-23T12:11:33.000Z"
+     },
+     {
+      "id": "codenamev/laya-onnx",
+      "lastModified": "2026-09-23T11:49:09.000Z",
+      "createdAt": "2026-09-23T11:49:00.000Z"
+     },
+     {
+      "id": "WilburDev/pigai-laya-intent",
+      "lastModified": "2026-09-23T11:45:47.000Z",
+      "createdAt": "2026-09-23T11:45:29.000Z"
+     },
+     {
+      "id": "ricky136/laya-chat",
+      "lastModified": "2026-09-23T11:43:02.000Z",
+      "createdAt": "2026-09-23T11:39:09.000Z"
+     },
+     {
+      "id": "fibonacciai/laya-gguf-persian-multilingual-decision",
+      "lastModified": "2026-09-23T11:38:49.000Z",
+      "createdAt": "2026-09-22T23:37:37.000Z"
+     },
+     {
+      "id": "mazenDDr/laya-crisis-triage",
+      "lastModified": "2026-09-23T11:38:41.000Z",
+      "createdAt": "2026-09-23T04:32:29.000Z"
+     },
+     {
+      "id": "mlboydaisuke/Laya-Multilingual-CoreAI",
+      "lastModified": "2026-09-23T10:34:44.000Z",
+      "createdAt": "2026-09-23T10:28:33.000Z"
+     },
+     {
+      "id": "wigcheng5566/laya-neutron-gguf",
+      "lastModified": "2026-09-23T10:30:13.000Z",
+      "createdAt": "2026-09-23T09:00:26.000Z"
+     },
+     {
+      "id": "flaukowski/laya-kannaka-supersession",
+      "lastModified": "2026-09-23T10:15:30.000Z",
+      "createdAt": "2026-09-23T01:46:34.000Z"
+     },
+     {
+      "id": "TalalML123/laya-multimodal-best-all-tasks",
+      "lastModified": "2026-09-23T09:54:11.000Z",
+      "createdAt": "2026-09-23T09:52:44.000Z"
+     },
+     {
+      "id": "yehor-oleksiuk/laya-typed-decisions-onnx",
+      "lastModified": "2026-09-23T09:49:14.000Z",
+      "createdAt": "2026-09-22T18:56:04.000Z"
+     },
+     {
+      "id": "Sharjeelbaig/laya-multilingual-onnx-int8",
+      "lastModified": "2026-09-23T09:49:14.000Z",
+      "createdAt": "2026-09-23T09:07:33.000Z"
+     },
+     {
+      "id": "yehor-oleksiuk/laya-multilingual-onnx",
+      "lastModified": "2026-09-23T09:49:13.000Z",
+      "createdAt": "2026-09-22T18:53:08.000Z"
+     },
+     {
+      "id": "yehor-oleksiuk/laya-english-onnx",
+      "lastModified": "2026-09-23T09:38:54.000Z",
+      "createdAt": "2026-09-22T18:54:23.000Z"
+     },
+     {
+      "id": "Sharjeelbaig/laya-multilingual-onnx",
+      "lastModified": "2026-09-23T09:22:43.000Z",
+      "createdAt": "2026-09-23T08:54:48.000Z"
+     },
+     {
+      "id": "huanggengwei/laya-typed-decisions",
+      "lastModified": "2026-09-23T09:19:35.000Z",
+      "createdAt": "2026-09-23T09:19:25.000Z"
+     },
+     {
+      "id": "cklxx/laya-browser",
+      "lastModified": "2026-09-23T09:16:44.000Z",
+      "createdAt": "2026-09-21T00:12:48.000Z"
+     },
+     {
+      "id": "gdelatournelle/laya-onnx",
+      "lastModified": "2026-09-23T09:03:46.000Z",
+      "createdAt": "2026-09-23T09:03:42.000Z"
+     },
+     {
+      "id": "2nugu/laya-ko",
+      "lastModified": "2026-09-23T08:52:17.000Z",
+      "createdAt": "2026-09-23T08:02:22.000Z"
+     },
+     {
+      "id": "convaiinnovations/laya-typed-decisions",
+      "lastModified": "2026-09-23T08:09:06.000Z",
+      "createdAt": "2026-09-18T17:45:14.000Z"
+     },
+     {
+      "id": "convaiinnovations/laya-multilingual",
+      "lastModified": "2026-09-23T08:09:04.000Z",
+      "createdAt": "2026-09-19T03:23:34.000Z"
+     },
+     {
+      "id": "convaiinnovations/laya",
+      "lastModified": "2026-09-23T08:09:01.000Z",
+      "createdAt": "2026-09-18T05:05:55.000Z"
+     },
+     {
+      "id": "wuyouxiaobai/laya",
+      "lastModified": "2026-09-23T07:25:30.000Z",
+      "createdAt": "2026-09-23T07:25:29.000Z"
+     },
+     {
+      "id": "ZeroDegress/laya-gguf",
+      "lastModified": "2026-09-23T05:57:55.000Z",
+      "createdAt": "2026-09-23T05:53:57.000Z"
+     },
+     {
+      "id": "tindang/laya-code",
+      "lastModified": "2026-09-23T05:49:11.000Z",
+      "createdAt": "2026-09-23T05:48:31.000Z"
+     },
+     {
+      "id": "thaitea/laya-vision-web",
+      "lastModified": "2026-09-23T05:42:55.000Z",
+      "createdAt": "2026-09-23T04:18:55.000Z"
+     },
+     {
+      "id": "yunfengwang/laya-MNN-fp16",
+      "lastModified": "2026-09-23T05:07:07.000Z",
+      "createdAt": "2026-09-23T05:00:32.000Z"
+     },
+     {
+      "id": "yunfengwang/laya-MNN-int8",
+      "lastModified": "2026-09-23T05:05:52.000Z",
+      "createdAt": "2026-09-23T05:03:08.000Z"
+     },
+     {
+      "id": "tsukihime-exe/tsukiai-laya",
+      "lastModified": "2026-09-23T03:13:43.000Z",
+      "createdAt": "2026-09-23T03:10:47.000Z"
+     },
+     {
+      "id": "Quantum08/laya-browser-mind2web",
+      "lastModified": "2026-09-23T03:07:18.000Z",
+      "createdAt": "2026-09-23T03:04:29.000Z"
+     },
+     {
+      "id": "rayss868123/laya-typed-decisions",
+      "lastModified": "2026-09-23T01:38:39.000Z",
+      "createdAt": "2026-09-23T01:38:39.000Z"
+     },
+     {
+      "id": "rayss868123/laya-multilingual",
+      "lastModified": "2026-09-23T01:38:36.000Z",
+      "createdAt": "2026-09-23T01:38:36.000Z"
+     },
+     {
+      "id": "rayss868123/laya",
+      "lastModified": "2026-09-23T01:38:34.000Z",
+      "createdAt": "2026-09-23T01:38:33.000Z"
+     },
+     {
+      "id": "ti3x-m/laya-typed-decisions-onnx",
+      "lastModified": "2026-09-23T01:11:58.000Z",
+      "createdAt": "2026-09-23T00:50:46.000Z"
+     },
+     {
+      "id": "ti3x-m/laya-multilingual-onnx",
+      "lastModified": "2026-09-23T01:11:51.000Z",
+      "createdAt": "2026-09-23T00:50:35.000Z"
+     },
+     {
+      "id": "ti3x-m/laya-onnx",
+      "lastModified": "2026-09-23T01:11:44.000Z",
+      "createdAt": "2026-09-23T00:49:57.000Z"
+     },
+     {
+      "id": "chaoliangUNSW/MacJev-322M-4K-Laya-GGUF",
+      "lastModified": "2026-09-23T01:11:36.000Z",
+      "createdAt": "2026-09-23T01:02:04.000Z"
+     },
+     {
+      "id": "chaoliangUNSW/MacJev-322M-4K-Laya-MLX",
+      "lastModified": "2026-09-23T01:11:32.000Z",
+      "createdAt": "2026-09-23T00:46:20.000Z"
+     },
+     {
+      "id": "chaoliangUNSW/MacJev-322M-4K-Laya",
+      "lastModified": "2026-09-23T01:11:29.000Z",
+      "createdAt": "2026-09-22T19:48:41.000Z"
+     },
+     {
+      "id": "rupeshs/laya-ov-int8",
+      "lastModified": "2026-09-23T00:29:56.000Z",
+      "createdAt": "2026-09-23T00:29:56.000Z"
+     },
+     {
+      "id": "FluidInference/laya-english-coreml",
+      "lastModified": "2026-09-23T00:22:01.000Z",
+      "createdAt": "2026-09-22T20:41:03.000Z"
+     },
+     {
+      "id": "BlueAquilae/laya-pack-shaped",
+      "lastModified": "2026-09-23T00:20:52.000Z",
+      "createdAt": "2026-09-21T00:03:48.000Z"
+     },
+     {
+      "id": "flaukowski/laya-kannaka-evidence-gate",
+      "lastModified": "2026-09-22T23:34:10.000Z",
+      "createdAt": "2026-09-22T23:33:44.000Z"
+     },
+     {
+      "id": "mariojcr/laya-onnx",
+      "lastModified": "2026-09-22T23:29:19.000Z",
+      "createdAt": "2026-09-22T22:53:57.000Z"
+     },
+     {
+      "id": "thaitea/laya-vision-smolvlm2-256m-split1024",
+      "lastModified": "2026-09-22T23:26:37.000Z",
+      "createdAt": "2026-09-22T22:03:59.000Z"
+     },
+     {
+      "id": "SGK86/laya-multilingual-typed-decisions",
+      "lastModified": "2026-09-22T22:48:59.000Z",
+      "createdAt": "2026-09-22T22:01:33.000Z"
+     },
+     {
+      "id": "vtava/Laya-Integrated-Memory-V22",
+      "lastModified": "2026-09-22T21:39:17.000Z",
+      "createdAt": "2026-09-22T14:46:55.000Z"
+     },
+     {
+      "id": "VishalMysore/layaForWebTrained",
+      "lastModified": "2026-09-22T21:33:57.000Z",
+      "createdAt": "2026-09-22T21:02:03.000Z"
+     },
+     {
+      "id": "VishalMysore/layaForWeb",
+      "lastModified": "2026-09-22T21:33:53.000Z",
+      "createdAt": "2026-09-21T14:37:51.000Z"
+     },
+     {
+      "id": "madhavbiplov/laya-snake-mlx",
+      "lastModified": "2026-09-22T21:17:26.000Z",
+      "createdAt": "2026-09-22T20:59:42.000Z"
+     },
+     {
+      "id": "10vivo01/laya-ru-tickets",
+      "lastModified": "2026-09-22T21:02:07.000Z",
+      "createdAt": "2026-09-22T09:22:13.000Z"
+     },
+     {
+      "id": "0xSojalSec/laya-System1",
+      "lastModified": "2026-09-22T20:32:25.000Z",
+      "createdAt": "2026-09-22T20:32:25.000Z"
+     },
+     {
+      "id": "InfinimindCreations/laya-rlcd-training",
+      "lastModified": "2026-09-22T18:35:56.000Z",
+      "createdAt": "2026-09-21T20:50:14.000Z"
+     },
+     {
+      "id": "InfinimindCreations/laya-news-decisions",
+      "lastModified": "2026-09-22T18:35:54.000Z",
+      "createdAt": "2026-09-22T18:35:25.000Z"
+     },
+     {
+      "id": "piratehack009/laya-cn-retail-sentiment",
+      "lastModified": "2026-09-22T15:36:35.000Z",
+      "createdAt": "2026-09-22T15:19:54.000Z"
+     }
+    ]
+   },
+   {
+    "kind": "models",
+    "term": "kev",
+    "urls": [
+     "https://huggingface.co/api/models?search=kev&sort=lastModified&direction=-1&limit=100"
+    ],
+    "status": [
+     "HTTP/2 200"
+    ],
+    "retrieved_at": [
+     "2026-09-23T16:17:30Z"
+    ],
+    "rows": 100,
+    "newer_than_cutoff": 16,
+    "stop_reason": "crossed_cutoff",
+    "newer_ids": [
+     {
+      "id": "espetro/kev-4b-mistralrs",
+      "lastModified": "2026-09-23T13:10:28.000Z",
+      "createdAt": "2026-09-23T13:09:23.000Z"
+     },
+     {
+      "id": "espetro/kev-0.8b-mistralrs",
+      "lastModified": "2026-09-23T13:08:58.000Z",
+      "createdAt": "2026-09-23T13:08:06.000Z"
+     },
+     {
+      "id": "arbazsiddiqui/kev-0.6b-browser-use",
+      "lastModified": "2026-09-23T10:42:20.000Z",
+      "createdAt": "2026-09-22T18:16:47.000Z"
+     },
+     {
+      "id": "DreamBlooms/kev-4b-GGUF",
+      "lastModified": "2026-09-23T10:39:23.000Z",
+      "createdAt": "2026-09-23T10:20:21.000Z"
+     },
+     {
+      "id": "arbazsiddiqui/kev-0.6b-browser-use-ONNX",
+      "lastModified": "2026-09-23T10:37:57.000Z",
+      "createdAt": "2026-09-22T21:43:10.000Z"
+     },
+     {
+      "id": "DreamBlooms/kev-0.8b-GGUF",
+      "lastModified": "2026-09-23T10:09:45.000Z",
+      "createdAt": "2026-09-23T09:36:02.000Z"
+     },
+     {
+      "id": "luispoveda93/minicpm4-pcap-kev-v1",
+      "lastModified": "2026-09-23T04:55:25.000Z",
+      "createdAt": "2026-09-23T04:55:20.000Z"
+     },
+     {
+      "id": "aflowx/quire-lora-kev-4b",
+      "lastModified": "2026-09-23T03:54:36.000Z",
+      "createdAt": "2026-09-23T03:51:55.000Z"
+     },
+     {
+      "id": "KevinPurnomo/beit-generation-2023",
+      "lastModified": "2026-09-23T01:41:00.000Z",
+      "createdAt": "2026-09-23T01:40:54.000Z"
+     },
+     {
+      "id": "FluidInference/kev-0-5b-coreml",
+      "lastModified": "2026-09-23T00:22:02.000Z",
+      "createdAt": "2026-09-22T20:18:58.000Z"
+     },
+     {
+      "id": "FluidInference/kev-0.6b-coreml",
+      "lastModified": "2026-09-23T00:22:02.000Z",
+      "createdAt": "2026-09-22T20:32:24.000Z"
+     },
+     {
+      "id": "bvolpato/kevala-packs",
+      "lastModified": "2026-09-22T22:54:02.000Z",
+      "createdAt": "2026-09-22T02:52:36.000Z"
+     },
+     {
+      "id": "KevinJEBNUTY/oliwiafinallora",
+      "lastModified": "2026-09-22T17:09:04.000Z",
+      "createdAt": "2026-09-22T17:08:42.000Z"
+     },
+     {
+      "id": "KevinJEBNUTY/olivia",
+      "lastModified": "2026-09-22T17:07:37.000Z",
+      "createdAt": "2026-09-22T17:07:37.000Z"
+     },
+     {
+      "id": "Vvelarm/kev-4b-browser",
+      "lastModified": "2026-09-22T16:47:04.000Z",
+      "createdAt": "2026-09-22T16:47:04.000Z"
+     },
+     {
+      "id": "misukisu/kev-0.5b-multitask",
+      "lastModified": "2026-09-22T16:36:57.000Z",
+      "createdAt": "2026-09-22T04:16:57.000Z"
+     }
+    ]
+   },
+   {
+    "kind": "models",
+    "term": "system-one",
+    "urls": [
+     "https://huggingface.co/api/models?search=system-one&sort=lastModified&direction=-1&limit=100"
+    ],
+    "status": [
+     "HTTP/2 200"
+    ],
+    "retrieved_at": [
+     "2026-09-23T16:17:30Z"
+    ],
+    "rows": 27,
+    "newer_than_cutoff": 7,
+    "stop_reason": "crossed_cutoff",
+    "newer_ids": [
+     {
+      "id": "olafura/gemma4-12b-system-one",
+      "lastModified": "2026-09-23T13:37:13.000Z",
+      "createdAt": "2026-09-22T08:59:05.000Z"
+     },
+     {
+      "id": "mpuig/system-one-minicpm5-2b-q8",
+      "lastModified": "2026-09-23T06:39:46.000Z",
+      "createdAt": "2026-09-22T15:46:42.000Z"
+     },
+     {
+      "id": "mpuig/system-one-qwen3-0.6b",
+      "lastModified": "2026-09-23T06:39:45.000Z",
+      "createdAt": "2026-09-22T15:46:27.000Z"
+     },
+     {
+      "id": "mlboydaisuke/system-one-qwen3.5-4b-scorer-CoreAI",
+      "lastModified": "2026-09-23T01:46:32.000Z",
+      "createdAt": "2026-09-23T01:36:36.000Z"
+     },
+     {
+      "id": "FluidInference/system-one-gemma-coreml",
+      "lastModified": "2026-09-22T21:34:11.000Z",
+      "createdAt": "2026-09-22T21:24:33.000Z"
+     },
+     {
+      "id": "mlboydaisuke/OpenThai-SystemOne-CoreAI",
+      "lastModified": "2026-09-22T20:45:53.000Z",
+      "createdAt": "2026-09-22T20:41:25.000Z"
+     },
+     {
+      "id": "dwidlee/systemone-lite-0.5b",
+      "lastModified": "2026-09-22T15:48:20.000Z",
+      "createdAt": "2026-09-19T08:28:18.000Z"
+     }
+    ]
+   },
+   {
+    "kind": "models",
+    "term": "decision",
+    "urls": [
+     "https://huggingface.co/api/models?search=decision&sort=lastModified&direction=-1&limit=100"
+    ],
+    "status": [
+     "HTTP/2 200"
+    ],
+    "retrieved_at": [
+     "2026-09-23T16:17:30Z"
+    ],
+    "rows": 100,
+    "newer_than_cutoff": 27,
+    "stop_reason": "crossed_cutoff",
+    "newer_ids": [
+     {
+      "id": "XAILab-CyberSpark/OAK-Decision-encoder-cabin-rbt3",
+      "lastModified": "2026-09-23T14:50:14.000Z",
+      "createdAt": "2026-09-23T13:23:20.000Z"
+     },
+     {
+      "id": "XAILab-CyberSpark/OAK-Decision-cabin-qwen3.5-0.8b",
+      "lastModified": "2026-09-23T14:50:13.000Z",
+      "createdAt": "2026-09-23T13:23:20.000Z"
+     },
+     {
+      "id": "XAILab-CyberSpark/OAK-Decision-parallel-decision-qwen3.5-0.8b",
+      "lastModified": "2026-09-23T14:50:11.000Z",
+      "createdAt": "2026-09-23T13:23:09.000Z"
+     },
+     {
+      "id": "strivedi183/laya-typed-decisions-onnx-fp16",
+      "lastModified": "2026-09-23T14:43:55.000Z",
+      "createdAt": "2026-09-23T12:43:01.000Z"
+     },
+     {
+      "id": "mlboydaisuke/APUS-Decision-v1-4B-CoreAI",
+      "lastModified": "2026-09-23T14:15:06.000Z",
+      "createdAt": "2026-09-22T21:34:01.000Z"
+     },
+     {
+      "id": "fibonacciai/laya-gguf-persian-multilingual-decision",
+      "lastModified": "2026-09-23T11:38:49.000Z",
+      "createdAt": "2026-09-22T23:37:37.000Z"
+     },
+     {
+      "id": "alignment-decision-lab/robustness-model-bank",
+      "lastModified": "2026-09-23T11:33:46.000Z",
+      "createdAt": "2026-08-22T14:02:27.000Z"
+     },
+     {
+      "id": "yehor-oleksiuk/laya-typed-decisions-onnx",
+      "lastModified": "2026-09-23T09:49:14.000Z",
+      "createdAt": "2026-09-22T18:56:04.000Z"
+     },
+     {
+      "id": "huanggengwei/laya-typed-decisions",
+      "lastModified": "2026-09-23T09:19:35.000Z",
+      "createdAt": "2026-09-23T09:19:25.000Z"
+     },
+     {
+      "id": "convaiinnovations/laya-typed-decisions",
+      "lastModified": "2026-09-23T08:09:06.000Z",
+      "createdAt": "2026-09-18T17:45:14.000Z"
+     },
+     {
+      "id": "altslate/certo-decision-v2.2",
+      "lastModified": "2026-09-23T03:55:43.000Z",
+      "createdAt": "2026-09-23T03:55:30.000Z"
+     },
+     {
+      "id": "altslate/certo-decision-v2.1",
+      "lastModified": "2026-09-23T03:55:11.000Z",
+      "createdAt": "2026-09-23T03:55:10.000Z"
+     },
+     {
+      "id": "FluidInference/decision-1.0-lex-coreml",
+      "lastModified": "2026-09-23T01:50:38.000Z",
+      "createdAt": "2026-09-22T21:15:08.000Z"
+     },
+     {
+      "id": "FluidInference/decision-1.0-kai-coreml",
+      "lastModified": "2026-09-23T01:50:37.000Z",
+      "createdAt": "2026-09-22T21:08:05.000Z"
+     },
+     {
+      "id": "rayss868123/laya-typed-decisions",
+      "lastModified": "2026-09-23T01:38:39.000Z",
+      "createdAt": "2026-09-23T01:38:39.000Z"
+     },
+     {
+      "id": "ti3x-m/laya-typed-decisions-onnx",
+      "lastModified": "2026-09-23T01:11:58.000Z",
+      "createdAt": "2026-09-23T00:50:46.000Z"
+     },
+     {
+      "id": "flymy-ai/decision-fast-preview",
+      "lastModified": "2026-09-23T00:02:10.000Z",
+      "createdAt": "2026-09-23T00:02:07.000Z"
+     },
+     {
+      "id": "flymy-ai/decision-2b-preview",
+      "lastModified": "2026-09-23T00:02:05.000Z",
+      "createdAt": "2026-09-23T00:01:58.000Z"
+     },
+     {
+      "id": "mlboydaisuke/Qwen3.5-2B-Decision-CoreAI",
+      "lastModified": "2026-09-22T23:54:32.000Z",
+      "createdAt": "2026-09-22T23:41:06.000Z"
+     },
+     {
+      "id": "SGK86/laya-multilingual-typed-decisions",
+      "lastModified": "2026-09-22T22:48:59.000Z",
+      "createdAt": "2026-09-22T22:01:33.000Z"
+     },
+     {
+      "id": "bdauzats/minicpm5-2b-decision",
+      "lastModified": "2026-09-22T19:29:32.000Z",
+      "createdAt": "2026-09-22T19:04:45.000Z"
+     },
+     {
+      "id": "bdauzats/minicpm5-2b-decision-mlx-4bit",
+      "lastModified": "2026-09-22T19:29:31.000Z",
+      "createdAt": "2026-09-22T18:53:27.000Z"
+     },
+     {
+      "id": "BarraHome/Decision-Jef-0.1",
+      "lastModified": "2026-09-22T19:29:01.000Z",
+      "createdAt": "2026-09-21T21:42:04.000Z"
+     },
+     {
+      "id": "InfinimindCreations/laya-news-decisions",
+      "lastModified": "2026-09-22T18:35:54.000Z",
+      "createdAt": "2026-09-22T18:35:25.000Z"
+     },
+     {
+      "id": "llm-semantic-router/Decision-1.0-Sol-2B",
+      "lastModified": "2026-09-22T17:00:19.000Z",
+      "createdAt": "2026-09-21T13:36:48.000Z"
+     },
+     {
+      "id": "llm-semantic-router/Decision-1.0-Nox-4B",
+      "lastModified": "2026-09-22T17:00:16.000Z",
+      "createdAt": "2026-09-21T13:34:35.000Z"
+     },
+     {
+      "id": "llm-semantic-router/Decision-1.0-Lux-9B",
+      "lastModified": "2026-09-22T16:45:32.000Z",
+      "createdAt": "2026-09-22T05:18:15.000Z"
+     }
+    ]
+   },
+   {
+    "kind": "datasets",
+    "term": "jev",
+    "urls": [
+     "https://huggingface.co/api/datasets?search=jev&sort=lastModified&direction=-1&limit=100"
+    ],
+    "status": [
+     "HTTP/2 200"
+    ],
+    "retrieved_at": [
+     "2026-09-23T16:17:30Z"
+    ],
+    "rows": 68,
+    "newer_than_cutoff": 12,
+    "stop_reason": "crossed_cutoff",
+    "newer_ids": [
+     {
+      "id": "tasksource/procedural-jev",
+      "lastModified": "2026-09-23T16:12:25.000Z",
+      "createdAt": "2026-09-23T08:19:17.000Z"
+     },
+     {
+      "id": "samatv256/jev-decisions-v1",
+      "lastModified": "2026-09-23T14:45:00.000Z",
+      "createdAt": "2026-09-23T14:31:50.000Z"
+     },
+     {
+      "id": "ctaxnagomi/DGUI_HYPERMEM-JEV",
+      "lastModified": "2026-09-23T14:17:01.000Z",
+      "createdAt": "2026-09-19T05:45:56.000Z"
+     },
+     {
+      "id": "tasksource/tasksource-jev-typed-decisions",
+      "lastModified": "2026-09-23T11:35:06.000Z",
+      "createdAt": "2026-09-22T09:02:21.000Z"
+     },
+     {
+      "id": "emretheus/jev-rag-benchmark",
+      "lastModified": "2026-09-23T09:52:49.000Z",
+      "createdAt": "2026-09-20T17:34:41.000Z"
+     },
+     {
+      "id": "JonesLin/next-jev-stage2-merged-verified-20260923",
+      "lastModified": "2026-09-23T09:35:47.000Z",
+      "createdAt": "2026-09-23T06:10:25.000Z"
+     },
+     {
+      "id": "yehor-oleksiuk/bonzi-vs-jev-wanli256",
+      "lastModified": "2026-09-23T08:49:52.000Z",
+      "createdAt": "2026-09-23T08:46:12.000Z"
+     },
+     {
+      "id": "ZefanCai/Open-Jev-v1.1",
+      "lastModified": "2026-09-23T07:49:18.000Z",
+      "createdAt": "2026-09-22T23:58:56.000Z"
+     },
+     {
+      "id": "JonesLin/next-jev-stage1-multi-model-cot",
+      "lastModified": "2026-09-23T06:21:02.000Z",
+      "createdAt": "2026-09-23T05:34:18.000Z"
+     },
+     {
+      "id": "egetheengineer/jevcraft",
+      "lastModified": "2026-09-23T05:38:46.000Z",
+      "createdAt": "2026-09-21T09:06:29.000Z"
+     },
+     {
+      "id": "Praveenrajus/jev-bench",
+      "lastModified": "2026-09-22T22:43:34.000Z",
+      "createdAt": "2026-09-20T08:07:09.000Z"
+     },
+     {
+      "id": "fukayatti0/jev-japanese-judgment",
+      "lastModified": "2026-09-22T16:40:27.000Z",
+      "createdAt": "2026-09-22T16:26:38.000Z"
+     }
+    ]
+   },
+   {
+    "kind": "spaces",
+    "term": "jev",
+    "urls": [
+     "https://huggingface.co/api/spaces?search=jev&sort=lastModified&direction=-1&limit=100"
+    ],
+    "status": [
+     "HTTP/2 200"
+    ],
+    "retrieved_at": [
+     "2026-09-23T16:17:31Z"
+    ],
+    "rows": 93,
+    "newer_than_cutoff": 12,
+    "stop_reason": "crossed_cutoff",
+    "newer_ids": [
+     {
+      "id": "benchmarkheaven/JevBench",
+      "lastModified": "2026-09-23T15:39:17.000Z",
+      "createdAt": "2026-09-22T16:41:18.000Z"
+     },
+     {
+      "id": "multimodalart/jev-decision-index",
+      "lastModified": "2026-09-23T12:11:10.000Z",
+      "createdAt": "2026-09-17T20:05:16.000Z"
+     },
+     {
+      "id": "xujfcn/JEV-1.13-Playground",
+      "lastModified": "2026-09-23T10:07:04.000Z",
+      "createdAt": "2026-09-23T10:03:47.000Z"
+     },
+     {
+      "id": "emretheus/jev-rag-benchmark-leaderboard",
+      "lastModified": "2026-09-23T09:52:51.000Z",
+      "createdAt": "2026-09-20T17:35:10.000Z"
+     },
+     {
+      "id": "BS24BS/JEV",
+      "lastModified": "2026-09-23T09:47:33.000Z",
+      "createdAt": "2026-09-22T13:41:12.000Z"
+     },
+     {
+      "id": "biswapm/jev-tool-model-router",
+      "lastModified": "2026-09-23T09:33:17.000Z",
+      "createdAt": "2026-09-23T09:13:11.000Z"
+     },
+     {
+      "id": "ait-hf/certus-jev-like-playground",
+      "lastModified": "2026-09-23T09:24:02.000Z",
+      "createdAt": "2026-09-22T16:05:30.000Z"
+     },
+     {
+      "id": "ZefanCai/Open-Jev-Workbench",
+      "lastModified": "2026-09-23T08:17:17.000Z",
+      "createdAt": "2026-09-23T05:51:44.000Z"
+     },
+     {
+      "id": "FINAL-Bench/Tetris-JEV-LAYA-ZTC",
+      "lastModified": "2026-09-23T05:53:47.000Z",
+      "createdAt": "2026-09-23T05:02:15.000Z"
+     },
+     {
+      "id": "akhilaaa3/jev-omni",
+      "lastModified": "2026-09-22T17:53:17.000Z",
+      "createdAt": "2026-09-22T17:15:00.000Z"
+     },
+     {
+      "id": "belk01/open-jev-2b-demo",
+      "lastModified": "2026-09-22T16:44:48.000Z",
+      "createdAt": "2026-09-22T15:55:56.000Z"
+     },
+     {
+      "id": "Demondad/open-jev-deberta-v3-large",
+      "lastModified": "2026-09-22T15:38:30.000Z",
+      "createdAt": "2026-09-22T15:38:10.000Z"
+     }
+    ]
+   }
+  ],
+  "newer_than_cutoff_rows": 181,
+  "newer_than_cutoff_unique_ids": 171,
+  "newer_rows_not_in_2026_09_22_packet": 172,
+  "newer_unique_ids_not_in_2026_09_22_packet": 162,
+  "comparability_note": "The 2026-09-22 packet searched only models jev/gliclass/gliner/tabpfn; laya, kev, system-one, decision, datasets and spaces are new families here, so their 'new' counts are not comparable."
+ },
+ "jevusers": {
+  "retrieved_at": "2026-09-23T16:18:26+00:00",
+  "apps_url": "https://jevusers.com/apps",
+  "apps_sha256": "6041a10312f7e1b48027715097052290075a44a36f56134438435aaffb486dab",
+  "apps_count": 1299,
+  "apps_categories": {
+   "Browser": 107,
+   "Coding Agent": 195,
+   "Other": 504,
+   "Home & IoT": 13,
+   "Search": 56,
+   "SDK & Runtime": 137,
+   "Mobile": 11,
+   "Computer Use": 36,
+   "Routing": 90,
+   "Data": 14,
+   "Eval & Align": 127,
+   "Awesome List": 9
+  },
+  "api_url": "https://jevusers.com/api/projects",
+  "api_sha256": "5dfc29d858861bff1529341b4ac899765c0a9f1e83f37bbc9184d86e4e8a8f7e",
+  "api_total": 400,
+  "api_generated_at": "2026-09-23T16:17:59.860Z",
+  "home_sha256": "fea9698234a9209a56140eb1e152107d909062dc0bd484cbbe1c96175d387afa",
+  "about_sha256": "a308380456ce5d57f53c1f37f0177ea015c2fd743bda9d9ca658b217c522a9f9",
+  "delta_vs": "research/archive/2026-09-22-refresh/jevusers-inventory.json (retrieved 2026-09-22T15:41:58Z)",
+  "recomputed_delta_case_insensitive_full_name": {
+   "api_in": 161,
+   "api_out": 161,
+   "apps_in": 0,
+   "apps_out": 0,
+   "union_prior": 1519,
+   "union_now": 1540,
+   "new_to_union": 147,
+   "note": "The ecosystem lens summary said 166 in/166 out for the API list; the archived inventories give 161/161."
+  },
+  "api_category_changes": [
+   [
+    "sdras/jev-webmcp-extension",
+    "Other",
+    "Browser"
+   ]
+  ],
+  "augustus_api_row": [
+   {
+    "rank": 207,
+    "full_name": "24601/Augustus",
+    "url": "https://github.com/24601/Augustus",
+    "category": "Coding Agent",
+    "language": "Python",
+    "stars": 6,
+    "votes": 0,
+    "delta7": null
+   }
+  ],
+  "augustus_apps_row": [
+   {
+    "full_name": "24601/Augustus",
+    "url": "https://github.com/24601/Augustus",
+    "category": "Coding Agent",
+    "picked_by": 11,
+    "of": 31
+   }
+  ],
+  "api_added": [
+   "007m7/jev-chat",
+   "0451-software/ts-semantic-lint",
+   "abhishekswe/agent-fastpath",
+   "adamnroman/slop-filter",
+   "adigulalkari/jev_gc",
+   "agentik-os/jev-radar",
+   "ahoo/cpa-plugin-zen",
+   "aimark-dai/jev-chat-windows-deepseek-jev",
+   "amal-david/awesome-jev",
+   "amidabuddha/jev-decision-mcp",
+   "amithgc/local-jev",
+   "angrysky56/jev-mcp",
+   "ankit-aglawe/tinyjev",
+   "apixly-ai/jev-filter",
+   "austinaway/working-memory-jev",
+   "awesome-huohaha/jev-mail-feishu",
+   "axgiroud312-byte/pi-agent-deck",
+   "ayushmaniar/jev-voice-computer-use-windows",
+   "bewinxed/jevgpt",
+   "borr1/gtos",
+   "buckmoon/jev-issue-router",
+   "byk/jev-mcp",
+   "bytelabs-oss/clash-jev",
+   "carloshs92/model-ai-jev-demos",
+   "ceciile/jev-use-cases-typefast",
+   "chandler-sun/chat2jev",
+   "charliechenyuzhang/jev-trading",
+   "chuf-h/jev-tree",
+   "chuloontop4-code/jev-instance-review",
+   "ckijficqstrvy/pi-jev-router",
+   "clementtang/jev-eval",
+   "clouatre-labs/decisions-judge-mcp",
+   "coderexpert123/jev-browser-wingman",
+   "cogflux/opencode-jev-guard",
+   "condorcommodore/jev-git-graph",
+   "d-date/swift-jev",
+   "dante01yoon/jev-frontend-lab",
+   "darthblanc/tictacjev",
+   "dazreil/jev-npc-interaction-prototype",
+   "delvisorlabs/pyro",
+   "dorkitude/webctl",
+   "dovahkkin/slay-the-spire-jev-bot",
+   "dperezcabrera/system-one-chess",
+   "dymzz/lgtm-dsh",
+   "eidast/moral-machine-jev-demo",
+   "emirbartu/opencode-system-one",
+   "ethanhinson/jevdoom",
+   "fajarhide/askgrep",
+   "fibonaccirabbit/jev-mapf",
+   "flazouh/ego-jev",
+   "gitmaxd/agent-seek",
+   "gnkm/jev-prompts",
+   "heswy/jev-benchmark",
+   "histmeisah/jev_star",
+   "hotdata-dev/datafusion-jev",
+   "hypnguyen1209/jev-paseo",
+   "ipenywis/laya-ultrafast",
+   "ismaelsoilet/jev-harness",
+   "itbaymax/typesafe-ai-jev-example",
+   "itiscuthnotcup/yes-or-no",
+   "jack-michaud/self-bootstrapping-categorizer",
+   "jackchen13755/dsh-jev-kit",
+   "jahirsaiyed/restaurant-whatsapp-agent",
+   "jeffyuysw/jev-xianhui",
+   "jessie-jzn/jev_download",
+   "jev-chat/.github",
+   "jev-chat/jev-chat-jarvis-mac",
+   "jiawei686/jev-ultrafast-mcp",
+   "joaoclemer/jev-lab",
+   "jonusnattapong/jev-my-bro",
+   "jubi55-git/shared-jev-gateway",
+   "kevthetech143/super-jev",
+   "kijung4290/jev-file-sorter",
+   "kikoncuo/jevfire",
+   "kinde-starter-kits/jev-agent-authorization",
+   "knoxmcken/jev-projects",
+   "kongbai006/jev-nuke-mimo",
+   "kongbai006/jev-qstory-mimo",
+   "koojy/jev-plugins",
+   "kwilson21/tally",
+   "kydlikebtc/awesome-jev",
+   "kylehovance-ai/jev-the-janitor",
+   "kyu1204/jgrep",
+   "lalitsonawane/jev-snake",
+   "leecoder/jev-evaluation",
+   "li-evan/awesome-jev",
+   "libingzheren/jev-mem",
+   "liyucheng1997/332_lab-jev-chat",
+   "love-neko/rime-capsule-ai",
+   "lucioamor/jevify",
+   "lucioamor/lovable-skill-jevify",
+   "lucioamor/lovable-skills",
+   "mandarkashikar/linkedin-slop-filter",
+   "mant1ssa-smf3kt/chat_jev",
+   "mawfyy/jev-router.nvim",
+   "miuuyy/astra-ares",
+   "mojomast/turboslop",
+   "mukiwu/vault-tag-system",
+   "mylea1/jev-wechat",
+   "nadeem4/jev-demo",
+   "nanami-0713/dsh-jev-decide",
+   "nekowasabi/jev-routing",
+   "obetomuniz/auto-mode-for-paseo",
+   "ohama/jev-tutorial",
+   "omkarchougule19/jev_validation_agent",
+   "pcworm/werr",
+   "promptengineer48/laya-vs-jev-arena",
+   "rahiseko-alt/jev-write",
+   "rai-wtnb/lab-jev",
+   "rapina/jev-assist",
+   "rashedint32/jev-mcp",
+   "riskaversetech/toolgate",
+   "rnunley/jev-v-laya",
+   "robertn702/opencode-jev-router",
+   "rubybrewsday/jevcumber",
+   "ruyianry/jevgym",
+   "ryanzen9/xflow",
+   "s1lv3rj1nx/openjev",
+   "sabeel111/opensourcejev",
+   "sandeco/pix-golpe",
+   "sayantan94/jev-search-cli",
+   "shengzing/local-vl-jev",
+   "shinpr/jev-reranker",
+   "shinydatatech/laya-ultrafast",
+   "shuenrui/jev-godfather",
+   "slatinwine/jevy",
+   "songokou1983/jev-mcp",
+   "spring-ai-community/spring-ai-typesafe",
+   "sqliteai/blink",
+   "sskift/jev-sts2-agent",
+   "stiermid/laya-serve",
+   "storm-software/mindctl",
+   "strangeloopcanon/dynajev",
+   "superinstance/quilt-gemini-worker",
+   "superinstance/quilt-multi-oracle",
+   "tans/jevt",
+   "tashfeenahmed/jev-deepresearch",
+   "thepikey/aos_glm_language",
+   "theroneagle/jev-sdk",
+   "thewaywithin/jev-bench",
+   "theyoungw/gpt-jev-robot",
+   "tiendvlp/jevai",
+   "tksarah/wallet-echo",
+   "tumf/jev-cli",
+   "typellm/pijev",
+   "uravation/jev-internal-links",
+   "uspraveen/jev-reranker",
+   "viraatdas/league-of-jev",
+   "virajbhartiya/laya-vs-jev",
+   "vladyslavhontar/clear-head",
+   "work4life2/jev-fc-buddy",
+   "xiaom8413-afk/jev-everyday-kit",
+   "xinian5216/chat-signal-analyzer",
+   "xuboboo/ashare-trader",
+   "yanmad27/ask-jev",
+   "yibie/jev-engineering-zh",
+   "yzxoi/rsi-jev-slay-the-spire-2",
+   "zhangp365/jev-minesweeper",
+   "zhangyiqun018/jev-dimabsa",
+   "zhazhahuiyuxiaoxiao/jev-personal-radar",
+   "zjemyoung/jev-chat-windows-laya"
+  ],
+  "api_removed": [
+   "1104480426-hash/jev-qq-assist",
+   "24601/rh-guard",
+   "abinashray008/fraud-classifier",
+   "achimala/jev-paint",
+   "adlternative/tally",
+   "ai-trainee/awesome-jev",
+   "aiwithenoch/jev-skill",
+   "ajayk/jev-go-sdk",
+   "alitrack/jev-clone",
+   "anilsenay/jev",
+   "antting/jev-accounts-hub",
+   "anyran/jev-swot",
+   "arcj137442/jev-life",
+   "aryamangoenka/traceassert",
+   "battleplus/jev_research",
+   "bgrablin/hermes-switchyard",
+   "bilune/jev-design",
+   "blakestone-x/jev-mcp",
+   "bloodfel/modular-rag-mcp",
+   "brunoaccorsi/reflex-lab",
+   "cedrecs/jev-stories",
+   "cheshiai/cheshi",
+   "codaaiteam/jev-typesafe-ai",
+   "coderhh/jev-snake",
+   "colindargent/tri-emails-jev",
+   "completedottech/jev-factorio-agent",
+   "copyleftdev/braess-router",
+   "ctaxnagomi/dgui-hypermem",
+   "danielhirt/jev-lab",
+   "dglazkov/jev2ui",
+   "dhirajpatra/agent-harness-with-jev-llm",
+   "dhruvmehra/jevbench",
+   "dm8000/metapicker",
+   "doublerobust/rjif",
+   "dtheofr/typesafe-jev-ruby",
+   "dttfrancesco/lossless-rewrite",
+   "edgardcham/huncho",
+   "eliaalberti/jev-rules",
+   "emrickgarrett/onevonejev",
+   "ethereumdegen/starkbot-neo",
+   "etweisberg/jev-ui",
+   "evoke-build/evoke",
+   "fahadarfin/jev_unreal",
+   "fengliner/jev-tank-battle",
+   "fruitflyworld/fruit-fly-world",
+   "furedea/reflex-state",
+   "futurepresentlabs/ooda",
+   "gerry9000/awesome-jev",
+   "glud123/jev-assist",
+   "gmaxxxie/jev-cli",
+   "grayslawson/ha-switchboard",
+   "gugugugun/battle_jev",
+   "gxzzzzz/wechat_galgame",
+   "hand-in/openjev-multimodal",
+   "haowenyang188-arch/dsh-jev-judge",
+   "har5ha-7663/hunch",
+   "henryklunaris/hey-jev",
+   "herakles-dev/typesafe-claude-kit",
+   "hewenyu/jev-card-agent",
+   "hgqimo/jevranker",
+   "horusjiang/dsh-jev-tools",
+   "imrishit98/jev.aitools.fyi",
+   "iotone/jevracket",
+   "itisshikhar/gg-friggin-ez",
+   "jaimejourney/mbti-jev-explorer",
+   "jcpsimmons/jev-macos-loop",
+   "jelkes1/superdoc-jev-demo",
+   "jeremyeltho/jev-comparison",
+   "jev-ids/jev-ids",
+   "johncari/rossrecall",
+   "johndotowl/awesome-jev",
+   "johnrsandoval/meaning-assert",
+   "johnrsandoval/meaning-aware-diff",
+   "jomatsu/pi-jev-auto-mode",
+   "jon-devlapaz/tink-route",
+   "jpowersdev/neuralint",
+   "kataras/jev",
+   "kelinbruce/jev-aico",
+   "kingdsa/jev-chinese-grader",
+   "kitapplegate/commander-oracle",
+   "kuhung/understanding-jev",
+   "kuzanj/awesome-jev",
+   "lbdavid98/jevidence",
+   "learner-lee/jev-try",
+   "leesk212/jev-mcp",
+   "lhemerly/mcts-agent",
+   "little-planet-labs/jev-playground",
+   "loongwoong/jev-zen",
+   "luigivis/jev-sdk-java",
+   "machaomc/jev-checkpoint",
+   "maito1201/jev-harness",
+   "marceloatoledo/jev-mcp-rest",
+   "marszhongx/pi-jev-score",
+   "martinesemanuel/athena-jev",
+   "miaowunya/rikkahub-sillytavern-android",
+   "michaeljabbour/amplifier-bundle-fast-decisions",
+   "mingleiw/jev-oncall",
+   "mrmimee/hermes-plugin-jev",
+   "nadeemcite/jev-crash-course",
+   "nadyth/jev-crash-course",
+   "narulaskaran/jev-data-questions",
+   "nasrallah-al/jev-cli",
+   "naveenreddy61/jev-experiments",
+   "nb3025/hello-jev",
+   "ohmyking/jevturingmachine",
+   "omnijev/playjev",
+   "osrim/readwise-jev-classifier",
+   "phyous/tsai-sc",
+   "poiuyjie/jev_project_context",
+   "proshunsuke/jev-tab-order",
+   "qddegtya/qualm",
+   "queyangdeyangxiansheng/everymodel-to-jev",
+   "renanlalier/jev-benchmark",
+   "rokbenko/quackd",
+   "runta-dev/jot",
+   "ryan-sunny/dbt-assay",
+   "ryanng1403/jev-cli",
+   "sagar-tamang/sarvam-jev",
+   "scd13150/st-mind-compass",
+   "sheshisheri-hi/jev-vs-llm-stock-policy",
+   "shivakrishna-k/jev-agent-routing-benchmark",
+   "siren2345/jev-apple-fm",
+   "sk8metalme/jev-practice",
+   "skcache/jevtrafficsim",
+   "slidwell44/silver-adventure",
+   "sorensencc-dotcom/cic-jev",
+   "stephonomon/scribe-verify",
+   "sting8k/qwen-jev-like",
+   "sutanshu/jev-agent",
+   "suyash-lyzr/jev-typesafe",
+   "tayaee/typesafe-ai-jev-demo",
+   "tengyangtuohai/pi-jev-find",
+   "thisisandreeeee/jev-benchmarks",
+   "tincke10/jevest",
+   "tinyhumansai/tinyjevclient",
+   "tomfrazier/slopmop",
+   "ttofalo/olivia",
+   "umbylicus/umby-jev-stack",
+   "uspraveen/jevify",
+   "vankleben/jev-arm-lab",
+   "vianar25/jev-vs-ml",
+   "virtualmachinist/bezel",
+   "wanghai673/jev-browser-skill",
+   "waxmell114514/jev-trade",
+   "wellkilo/codex-jev-preflight",
+   "who/naming-things",
+   "wiredmind2/jev",
+   "wobsoriano/oxlint-plugin-jev",
+   "wotai-dev/typesafe-jev-tools",
+   "wuxie888/jev-yaba-wechat",
+   "wylu1037/pi-jev-checkpoints",
+   "xienda/dsh-jev-verify",
+   "yangyu666/dsh-jev-prune",
+   "yijunyu/jev-rs",
+   "ynchnnnn/jevwatch",
+   "yo4e/jevpip",
+   "yottayoshida/jev-intent-review",
+   "youniszhang/jev-local-console",
+   "zhazhahuiyuxiaoxiao/jev-codex-bench",
+   "zhijianzhouml/celeus-jev",
+   "zongxingh/gemini-quality-gate-jev"
+  ],
+  "new_to_directory_union": [
+   "007m7/jev-chat",
+   "0451-software/ts-semantic-lint",
+   "abhishekswe/agent-fastpath",
+   "adamnroman/slop-filter",
+   "adigulalkari/jev_gc",
+   "agentik-os/jev-radar",
+   "ahoo/cpa-plugin-zen",
+   "aimark-dai/jev-chat-windows-deepseek-jev",
+   "amal-david/awesome-jev",
+   "amidabuddha/jev-decision-mcp",
+   "amithgc/local-jev",
+   "angrysky56/jev-mcp",
+   "ankit-aglawe/tinyjev",
+   "apixly-ai/jev-filter",
+   "austinaway/working-memory-jev",
+   "awesome-huohaha/jev-mail-feishu",
+   "axgiroud312-byte/pi-agent-deck",
+   "ayushmaniar/jev-voice-computer-use-windows",
+   "borr1/gtos",
+   "buckmoon/jev-issue-router",
+   "bytelabs-oss/clash-jev",
+   "carloshs92/model-ai-jev-demos",
+   "ceciile/jev-use-cases-typefast",
+   "chandler-sun/chat2jev",
+   "charliechenyuzhang/jev-trading",
+   "chuf-h/jev-tree",
+   "chuloontop4-code/jev-instance-review",
+   "ckijficqstrvy/pi-jev-router",
+   "clementtang/jev-eval",
+   "clouatre-labs/decisions-judge-mcp",
+   "coderexpert123/jev-browser-wingman",
+   "cogflux/opencode-jev-guard",
+   "condorcommodore/jev-git-graph",
+   "d-date/swift-jev",
+   "dante01yoon/jev-frontend-lab",
+   "darthblanc/tictacjev",
+   "dazreil/jev-npc-interaction-prototype",
+   "delvisorlabs/pyro",
+   "dorkitude/webctl",
+   "dovahkkin/slay-the-spire-jev-bot",
+   "dperezcabrera/system-one-chess",
+   "dymzz/lgtm-dsh",
+   "eidast/moral-machine-jev-demo",
+   "emirbartu/opencode-system-one",
+   "ethanhinson/jevdoom",
+   "fajarhide/askgrep",
+   "fibonaccirabbit/jev-mapf",
+   "flazouh/ego-jev",
+   "gitmaxd/agent-seek",
+   "gnkm/jev-prompts",
+   "heswy/jev-benchmark",
+   "histmeisah/jev_star",
+   "hotdata-dev/datafusion-jev",
+   "hypnguyen1209/jev-paseo",
+   "ipenywis/laya-ultrafast",
+   "ismaelsoilet/jev-harness",
+   "itbaymax/typesafe-ai-jev-example",
+   "itiscuthnotcup/yes-or-no",
+   "jack-michaud/self-bootstrapping-categorizer",
+   "jackchen13755/dsh-jev-kit",
+   "jahirsaiyed/restaurant-whatsapp-agent",
+   "jeffyuysw/jev-xianhui",
+   "jessie-jzn/jev_download",
+   "jev-chat/.github",
+   "jev-chat/jev-chat-jarvis-mac",
+   "joaoclemer/jev-lab",
+   "jonusnattapong/jev-my-bro",
+   "jubi55-git/shared-jev-gateway",
+   "kijung4290/jev-file-sorter",
+   "kinde-starter-kits/jev-agent-authorization",
+   "knoxmcken/jev-projects",
+   "kongbai006/jev-nuke-mimo",
+   "kongbai006/jev-qstory-mimo",
+   "koojy/jev-plugins",
+   "kwilson21/tally",
+   "kydlikebtc/awesome-jev",
+   "kylehovance-ai/jev-the-janitor",
+   "lalitsonawane/jev-snake",
+   "leecoder/jev-evaluation",
+   "li-evan/awesome-jev",
+   "libingzheren/jev-mem",
+   "liyucheng1997/332_lab-jev-chat",
+   "love-neko/rime-capsule-ai",
+   "lucioamor/jevify",
+   "lucioamor/lovable-skill-jevify",
+   "lucioamor/lovable-skills",
+   "mandarkashikar/linkedin-slop-filter",
+   "mant1ssa-smf3kt/chat_jev",
+   "miuuyy/astra-ares",
+   "mojomast/turboslop",
+   "mukiwu/vault-tag-system",
+   "mylea1/jev-wechat",
+   "nadeem4/jev-demo",
+   "nanami-0713/dsh-jev-decide",
+   "nekowasabi/jev-routing",
+   "obetomuniz/auto-mode-for-paseo",
+   "ohama/jev-tutorial",
+   "omkarchougule19/jev_validation_agent",
+   "pcworm/werr",
+   "promptengineer48/laya-vs-jev-arena",
+   "rahiseko-alt/jev-write",
+   "rai-wtnb/lab-jev",
+   "rapina/jev-assist",
+   "rnunley/jev-v-laya",
+   "robertn702/opencode-jev-router",
+   "ruyianry/jevgym",
+   "ryanzen9/xflow",
+   "s1lv3rj1nx/openjev",
+   "sabeel111/opensourcejev",
+   "sandeco/pix-golpe",
+   "sayantan94/jev-search-cli",
+   "shengzing/local-vl-jev",
+   "shinydatatech/laya-ultrafast",
+   "shuenrui/jev-godfather",
+   "slatinwine/jevy",
+   "songokou1983/jev-mcp",
+   "spring-ai-community/spring-ai-typesafe",
+   "sqliteai/blink",
+   "sskift/jev-sts2-agent",
+   "stiermid/laya-serve",
+   "storm-software/mindctl",
+   "strangeloopcanon/dynajev",
+   "superinstance/quilt-gemini-worker",
+   "superinstance/quilt-multi-oracle",
+   "tans/jevt",
+   "tashfeenahmed/jev-deepresearch",
+   "thepikey/aos_glm_language",
+   "theroneagle/jev-sdk",
+   "thewaywithin/jev-bench",
+   "theyoungw/gpt-jev-robot",
+   "tiendvlp/jevai",
+   "tksarah/wallet-echo",
+   "typellm/pijev",
+   "uravation/jev-internal-links",
+   "viraatdas/league-of-jev",
+   "virajbhartiya/laya-vs-jev",
+   "work4life2/jev-fc-buddy",
+   "xiaom8413-afk/jev-everyday-kit",
+   "xinian5216/chat-signal-analyzer",
+   "xuboboo/ashare-trader",
+   "yanmad27/ask-jev",
+   "yibie/jev-engineering-zh",
+   "yzxoi/rsi-jev-slay-the-spire-2",
+   "zhangp365/jev-minesweeper",
+   "zhangyiqun018/jev-dimabsa",
+   "zhazhahuiyuxiaoxiao/jev-personal-radar",
+   "zjemyoung/jev-chat-windows-laya"
+  ],
+  "scope": "Complete public traversal of /apps and /api/projects; URL/category inventory, not source review or endorsement."
+ },
+ "arxiv": {
+  "api": "https://export.arxiv.org/api/query",
+  "retrieved_at": "2026-09-23T16:15:58.223004Z",
+  "date_filter": "submittedDate:[202609100000 TO 202609232359]",
+  "sort": "submittedDate descending; max_results=200 with pagination; no caps hit",
+  "queries": [
+   {
+    "name": "q01_selective",
+    "query": "(abs:\"selective prediction\" OR abs:\"selective classification\" OR abs:abstention OR abs:\"reject option\" OR abs:abstain OR abs:\"selective generation\")",
+    "url_first_page": "https://export.arxiv.org/api/query?search_query=%28%28abs%3A%22selective+prediction%22+OR+abs%3A%22selective+classification%22+OR+abs%3Aabstention+OR+abs%3A%22reject+option%22+OR+abs%3Aabstain+OR+abs%3A%22selective+generation%22%29%29+AND+submittedDate%3A%5B202609100000+TO+202609232359%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+    "totalResults": 51,
+    "retrieved": 51
+   },
+   {
+    "name": "q02_defer",
+    "query": "(abs:\"learning to defer\" OR abs:deferral OR abs:\"learning-to-defer\" OR abs:\"human-AI complementarity\" OR abs:\"defer to\")",
+    "url_first_page": "https://export.arxiv.org/api/query?search_query=%28%28abs%3A%22learning+to+defer%22+OR+abs%3Adeferral+OR+abs%3A%22learning-to-defer%22+OR+abs%3A%22human-AI+complementarity%22+OR+abs%3A%22defer+to%22%29%29+AND+submittedDate%3A%5B202609100000+TO+202609232359%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+    "totalResults": 43,
+    "retrieved": 43
+   },
+   {
+    "name": "q03_conformal",
+    "query": "(abs:conformal)",
+    "url_first_page": "https://export.arxiv.org/api/query?search_query=%28%28abs%3Aconformal%29%29+AND+submittedDate%3A%5B202609100000+TO+202609232359%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending",
+    "totalResults": 231,
+    "retrieved": 231
+   },
+   {
+    "name": "q04_routing",
+    "query": "((abs:routing AND (abs:LLM OR abs:LLMs OR abs:\"language model\" OR abs:\"language models\")) OR (abs:cascade AND (abs:LLM OR abs:LLMs OR abs:\"language model\")) OR abs:\"model routing\" OR abs:\"LLM router\")",
+    "url_first_page": "https://export.arxiv.org/api/query?search_query=%28%28%28abs%3Arouting+AND+%28abs%3ALLM+OR+abs%3ALLMs+OR+abs%3A%22language+model%22+OR+abs%3A%22language+models%22%29%29+OR+%28abs%3Acascade+AND+%28abs%3ALLM+OR+abs%3ALLMs+OR+abs%3A%22language+model%22%29%29+OR+abs%3A%22model+routing%22+OR+abs%3A%22LLM+router%22%29%29+AND+submittedDate%3A%5B202609100000+TO+202609232359%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+    "totalResults": 156,
+    "retrieved": 156
+   },
+   {
+    "name": "q05_judge",
+    "query": "(abs:\"LLM-as-a-judge\" OR abs:\"LLM-as-judge\" OR abs:\"LLM judge\" OR abs:\"LLM judges\" OR abs:\"judge models\" OR (abs:\"reward model\" AND abs:calibration))",
+    "url_first_page": "https://export.arxiv.org/api/query?search_query=%28%28abs%3A%22LLM-as-a-judge%22+OR+abs%3A%22LLM-as-judge%22+OR+abs%3A%22LLM+judge%22+OR+abs%3A%22LLM+judges%22+OR+abs%3A%22judge+models%22+OR+%28abs%3A%22reward+model%22+AND+abs%3Acalibration%29%29%29+AND+submittedDate%3A%5B202609100000+TO+202609232359%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+    "totalResults": 90,
+    "retrieved": 90
+   },
+   {
+    "name": "q06_uncert",
+    "query": "((abs:\"verbalized confidence\" OR abs:\"verbalized uncertainty\" OR abs:\"token probabilities\" OR abs:\"token probability\" OR abs:logprobs OR abs:\"uncertainty quantification\" OR abs:miscalibration OR abs:calibration) AND (abs:LLM OR abs:LLMs OR abs:\"language model\" OR abs:\"language models\"))",
+    "url_first_page": "https://export.arxiv.org/api/query?search_query=%28%28%28abs%3A%22verbalized+confidence%22+OR+abs%3A%22verbalized+uncertainty%22+OR+abs%3A%22token+probabilities%22+OR+abs%3A%22token+probability%22+OR+abs%3Alogprobs+OR+abs%3A%22uncertainty+quantification%22+OR+abs%3Amiscalibration+OR+abs%3Acalibration%29+AND+%28abs%3ALLM+OR+abs%3ALLMs+OR+abs%3A%22language+model%22+OR+abs%3A%22language+models%22%29%29%29+AND+submittedDate%3A%5B202609100000+TO+202609232359%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+    "totalResults": 139,
+    "retrieved": 139
+   },
+   {
+    "name": "q07_stateval",
+    "query": "((abs:\"sequential testing\" OR abs:\"paired comparison\" OR abs:\"statistical significance\" OR abs:\"confidence intervals\" OR abs:variance OR abs:contamination OR abs:\"prediction-powered\" OR abs:\"e-values\" OR abs:\"anytime-valid\") AND (abs:evaluation OR abs:benchmark OR abs:benchmarks) AND (abs:LLM OR abs:LLMs OR abs:agent OR abs:agents OR abs:\"language model\" OR abs:\"language models\"))",
+    "url_first_page": "https://export.arxiv.org/api/query?search_query=%28%28%28abs%3A%22sequential+testing%22+OR+abs%3A%22paired+comparison%22+OR+abs%3A%22statistical+significance%22+OR+abs%3A%22confidence+intervals%22+OR+abs%3Avariance+OR+abs%3Acontamination+OR+abs%3A%22prediction-powered%22+OR+abs%3A%22e-values%22+OR+abs%3A%22anytime-valid%22%29+AND+%28abs%3Aevaluation+OR+abs%3Abenchmark+OR+abs%3Abenchmarks%29+AND+%28abs%3ALLM+OR+abs%3ALLMs+OR+abs%3Aagent+OR+abs%3Aagents+OR+abs%3A%22language+model%22+OR+abs%3A%22language+models%22%29%29%29+AND+submittedDate%3A%5B202609100000+TO+202609232359%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+    "totalResults": 61,
+    "retrieved": 61
+   },
+   {
+    "name": "q08_promptopt",
+    "query": "(abs:\"prompt optimization\" OR abs:DSPy OR abs:GEPA OR abs:TextGrad OR abs:\"reward hacking\" OR (abs:\"program optimization\" AND abs:LLM) OR abs:\"automatic prompt\" OR abs:\"specification gaming\")",
+    "url_first_page": "https://export.arxiv.org/api/query?search_query=%28%28abs%3A%22prompt+optimization%22+OR+abs%3ADSPy+OR+abs%3AGEPA+OR+abs%3ATextGrad+OR+abs%3A%22reward+hacking%22+OR+%28abs%3A%22program+optimization%22+AND+abs%3ALLM%29+OR+abs%3A%22automatic+prompt%22+OR+abs%3A%22specification+gaming%22%29%29+AND+submittedDate%3A%5B202609100000+TO+202609232359%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+    "totalResults": 29,
+    "retrieved": 29
+   },
+   {
+    "name": "q09_dfl",
+    "query": "(abs:\"decision-focused\" OR abs:\"decision focused\" OR abs:\"predict-then-optimize\" OR abs:\"predict-and-optimize\" OR abs:\"contextual stochastic optimization\")",
+    "url_first_page": "https://export.arxiv.org/api/query?search_query=%28%28abs%3A%22decision-focused%22+OR+abs%3A%22decision+focused%22+OR+abs%3A%22predict-then-optimize%22+OR+abs%3A%22predict-and-optimize%22+OR+abs%3A%22contextual+stochastic+optimization%22%29%29+AND+submittedDate%3A%5B202609100000+TO+202609232359%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+    "totalResults": 10,
+    "retrieved": 10
+   },
+   {
+    "name": "q10_voi",
+    "query": "(abs:\"value of information\" OR abs:\"expected value of information\" OR (abs:\"information acquisition\" AND abs:agent) OR abs:\"active information gathering\" OR abs:\"when to ask\" OR abs:\"clarifying questions\")",
+    "url_first_page": "https://export.arxiv.org/api/query?search_query=%28%28abs%3A%22value+of+information%22+OR+abs%3A%22expected+value+of+information%22+OR+%28abs%3A%22information+acquisition%22+AND+abs%3Aagent%29+OR+abs%3A%22active+information+gathering%22+OR+abs%3A%22when+to+ask%22+OR+abs%3A%22clarifying+questions%22%29%29+AND+submittedDate%3A%5B202609100000+TO+202609232359%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+    "totalResults": 10,
+    "retrieved": 10
+   }
+  ],
+  "unique_records": 733,
+  "kept_after_category_filter": 599,
+  "dropped_primary_categories": {
+   "hep-th": 33,
+   "math.DG": 17,
+   "math.AP": 8,
+   "gr-qc": 7,
+   "cond-mat.stat-mech": 5,
+   "hep-ph": 5,
+   "math.DS": 4,
+   "physics.chem-ph": 4,
+   "quant-ph": 3,
+   "physics.med-ph": 3,
+   "math.CA": 3,
+   "cond-mat.soft": 3,
+   "math-ph": 3,
+   "cond-mat.str-el": 3,
+   "math.CV": 3,
+   "astro-ph.EP": 2,
+   "physics.flu-dyn": 2,
+   "q-bio.QM": 2,
+   "math.PR": 2,
+   "astro-ph.GA": 2,
+   "math.RT": 2,
+   "cond-mat.mtrl-sci": 2,
+   "physics.plasm-ph": 1,
+   "physics.optics": 1,
+   "cond-mat.mes-hall": 1,
+   "astro-ph.CO": 1,
+   "math.AG": 1,
+   "math.GR": 1,
+   "physics.soc-ph": 1,
+   "physics.gen-ph": 1,
+   "math.QA": 1,
+   "cond-mat.quant-gas": 1,
+   "math.CO": 1,
+   "nlin.CD": 1,
+   "math.FA": 1,
+   "q-bio.BM": 1,
+   "physics.ins-det": 1,
+   "q-bio.GN": 1
+  },
+  "watched_versions": {
+   "2609.22048": "v1 only",
+   "2609.14907": "v1 only",
+   "2609.00662": "v1 only"
+  },
+  "not_covered": [
+   "v2+ revisions of papers first submitted before 2026-09-10 (other than the three watched papers)",
+   "papers submitted 2026-09-22/23 not yet indexed",
+   "terms outside the abs: phrases",
+   "OpenReview, ACL Anthology, journals, non-arXiv classical sources",
+   "classical sources cited in support: Parasuraman & Manzey, Horvitz-Thompson 1952, Kish design effect, Lakkaraju et al. selective labels"
+  ]
+ },
+ "official_docs_fetches": [
+  {
+   "url": "https://docs.typesafe.ai/llms.txt",
+   "retrieved_at": "2026-09-23T16:16:05.163491+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/llms.txt",
+   "sha256": "3bad966207794ce900ebc81759fd48185cd2d1f287df13a08ae4d601e96450fd",
+   "bytes": 16019
+  },
+  {
+   "url": "https://docs.typesafe.ai/models.md",
+   "retrieved_at": "2026-09-23T16:16:05.329326+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/models.md",
+   "sha256": "9d20bb3c90a0147532d0b20ddc4c64579391be7842e965543b27bad684eeb4d6",
+   "bytes": 7245
+  },
+  {
+   "url": "https://docs.typesafe.ai/confidence.md",
+   "retrieved_at": "2026-09-23T16:16:05.637437+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/confidence.md",
+   "sha256": "97dafe98b77979906a2ad456013dd85a70dcecd109d0644b096817d910997ea5",
+   "bytes": 11396
+  },
+  {
+   "url": "https://docs.typesafe.ai/model-jaggedness/jev-1.13.md",
+   "retrieved_at": "2026-09-23T16:16:05.907159+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/model-jaggedness/jev-1.13.md",
+   "sha256": "e69329bd32e91ac08f0bd2681ceb4aacc34923b9190e29c15c8f75d8e22950e2",
+   "bytes": 11588
+  },
+  {
+   "url": "https://docs.typesafe.ai/sdk/python/changelog.md",
+   "retrieved_at": "2026-09-23T16:16:06.324288+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/sdk/python/changelog.md",
+   "sha256": "47c90969dd76a83271c82650e0f4cfcea86db8ca0d9820ee8334eecc388162c5",
+   "bytes": 1828
+  },
+  {
+   "url": "https://docs.typesafe.ai/primitives/noul.md",
+   "retrieved_at": "2026-09-23T16:16:06.604348+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/primitives/noul.md",
+   "sha256": "aa7bff0d04bd42614e0e851a9ad4917ccc6287c882bc5dece7689b085ef789e6",
+   "bytes": 27363
+  },
+  {
+   "url": "https://docs.typesafe.ai/api.md",
+   "retrieved_at": "2026-09-23T16:16:30.992523+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/api.md",
+   "sha256": "7ea1c82d9d16bd06e3d38885a5292548293f91e6d1ade4682c27398ced51a9e5",
+   "bytes": 11772
+  },
+  {
+   "url": "https://docs.typesafe.ai/primitives.md",
+   "retrieved_at": "2026-09-23T16:16:31.393439+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/primitives.md",
+   "sha256": "130d9136a2f01497e72920a6e8d96073056d86d838ca13b8a505e4adb87651f6",
+   "bytes": 24810
+  },
+  {
+   "url": "https://docs.typesafe.ai/primitives/choice.md",
+   "retrieved_at": "2026-09-23T16:16:31.758208+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/primitives/choice.md",
+   "sha256": "4c55085131f8f2d7ae1faefdec52b1c7b379d40657d701cd2c786021cfe9dac9",
+   "bytes": 26794
+  },
+  {
+   "url": "https://docs.typesafe.ai/primitives/score.md",
+   "retrieved_at": "2026-09-23T16:16:32.084384+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/primitives/score.md",
+   "sha256": "5afe0db1d2d108c3bf35f73f5fddbfcd2b9ade2d3c6f553af8a02b2bfd005ae9",
+   "bytes": 43992
+  },
+  {
+   "url": "https://docs.typesafe.ai/primitives/advanced.md",
+   "retrieved_at": "2026-09-23T16:16:32.849608+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/primitives/advanced.md",
+   "sha256": "73eeedee0c3ff68e5964c914ba006e4f59522fa8222e43bd960418febd13ea7f",
+   "bytes": 19060
+  },
+  {
+   "url": "https://docs.typesafe.ai/agent-skill.md",
+   "retrieved_at": "2026-09-23T16:16:33.159921+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/agent-skill.md",
+   "sha256": "5ed8f74a133760523a67674f0feaac6ac88d9f1d242574ce3c9c4965f6e037c4",
+   "bytes": 5798
+  },
+  {
+   "url": "https://docs.typesafe.ai/introduction/quickstart.md",
+   "retrieved_at": "2026-09-23T16:16:33.588551+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+   "sha256": "c30183944985b269c49939140272f9eec885895df346f19d76cf9b04e18073d2",
+   "bytes": 7053
+  },
+  {
+   "url": "https://docs.typesafe.ai/introduction/coding-agents.md",
+   "retrieved_at": "2026-09-23T16:16:33.900927+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/introduction/coding-agents.md",
+   "sha256": "e61ec46260302e87e21ca65fe2a1d67ae6c2741a4a586645ace5dd7d9f501175",
+   "bytes": 5150
+  },
+  {
+   "url": "https://docs.typesafe.ai/concepts/how-to-build-with-system-one.md",
+   "retrieved_at": "2026-09-23T16:16:34.208378+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/concepts/how-to-build-with-system-one.md",
+   "sha256": "d9f4d34c1349bf5acb55c99d6a1651eacfc481ad8d1f78ccb8776769da729a49",
+   "bytes": 40921
+  },
+  {
+   "url": "https://docs.typesafe.ai/concepts/state.md",
+   "retrieved_at": "2026-09-23T16:16:34.568050+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/concepts/state.md",
+   "sha256": "6871d59470c6af330b10be302a7382ab4c175ee8994886ad48df2fe6bb315462",
+   "bytes": 3874
+  },
+  {
+   "url": "https://docs.typesafe.ai/sdk.md",
+   "retrieved_at": "2026-09-23T16:16:34.903617+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/sdk.md",
+   "sha256": "bbd9d2eaad4c605150fcead2dcb1fdb8415a10f6e5481186e185e7e8d4826a97",
+   "bytes": 823
+  },
+  {
+   "url": "https://docs.typesafe.ai/sdk/python.md",
+   "retrieved_at": "2026-09-23T16:16:35.321374+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/sdk/python.md",
+   "sha256": "40d5c6a5fb9b6a8f68ec9f14343837bc0ea5a7fe09a3bfb9a07f52418e41f1a3",
+   "bytes": 3324
+  },
+  {
+   "url": "https://docs.typesafe.ai/sdk/python/usage.md",
+   "retrieved_at": "2026-09-23T16:16:35.680136+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/sdk/python/usage.md",
+   "sha256": "9a7d1d4e52face5ccc889418b1b67c2442d41e64951b8ae480169d6542f222f4",
+   "bytes": 10189
+  },
+  {
+   "url": "https://docs.typesafe.ai/sdk/python/api/exceptions.md",
+   "retrieved_at": "2026-09-23T16:16:35.954421+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/sdk/python/api/exceptions.md",
+   "sha256": "c1cec8b4f1e4c8d258f18a40acf8736e34be3c6b0bd0915189d2542624447fad",
+   "bytes": 7059
+  },
+  {
+   "url": "https://docs.typesafe.ai/sdk/python/api/retries.md",
+   "retrieved_at": "2026-09-23T16:16:36.232203+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/sdk/python/api/retries.md",
+   "sha256": "bdf94b25ae1d23a0784c9e1affcf0363e80deb56089a0e48d3e3860bb5181cc9",
+   "bytes": 15732
+  },
+  {
+   "url": "https://docs.typesafe.ai/sdk/python/api/types/responses.md",
+   "retrieved_at": "2026-09-23T16:16:36.530784+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/sdk/python/api/types/responses.md",
+   "sha256": "7b0167d010dc165b6584939a550c8ec35d31c003f0e8095638a46a037b6f6f8a",
+   "bytes": 38625
+  },
+  {
+   "url": "https://docs.typesafe.ai/sdk/python/api/types/questions.md",
+   "retrieved_at": "2026-09-23T16:16:36.802098+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/sdk/python/api/types/questions.md",
+   "sha256": "cbad949affff140bc00a090b37748c52f1239ec0e98f308012eceb562fdaaa0a",
+   "bytes": 30016
+  },
+  {
+   "url": "https://docs.typesafe.ai/sdk/python/api/constants.md",
+   "retrieved_at": "2026-09-23T16:16:37.094525+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/sdk/python/api/constants.md",
+   "sha256": "dfcd6bfd691412058b2ea06c9a44414f5126e4aea06d7bf7071600f42a9b5003",
+   "bytes": 1782
+  },
+  {
+   "url": "https://docs.typesafe.ai/sdk/javascript.md",
+   "retrieved_at": "2026-09-23T16:16:37.399835+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/sdk/javascript.md",
+   "sha256": "25ba04f5b55819bee85e21d9184b7b8c807a81e95754baef4b05157240a2e1bb",
+   "bytes": 1302
+  },
+  {
+   "url": "https://docs.typesafe.ai/sdk/javascript/changelog.md",
+   "retrieved_at": "2026-09-23T16:16:37.777337+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/sdk/javascript/changelog.md",
+   "sha256": "73389d4c01993603a0c943aa04d491ef92670a358e413e74a5aac4891661250d",
+   "bytes": 508
+  },
+  {
+   "url": "https://docs.typesafe.ai/patterns/fan-out.md",
+   "retrieved_at": "2026-09-23T16:16:38.380989+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/patterns/fan-out.md",
+   "sha256": "8d7a251ea6b735cb4994c1e0a95166cc0b3febce7d18189c3aa5e1673f182c91",
+   "bytes": 13967
+  },
+  {
+   "url": "https://docs.typesafe.ai/patterns/confidence-routing.md",
+   "retrieved_at": "2026-09-23T16:16:38.659765+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/patterns/confidence-routing.md",
+   "sha256": "7a4de8d39a24c5d6b7e74b1b170fbbe101ca69419af39bac6da4e0c1f678b7bf",
+   "bytes": 12168
+  },
+  {
+   "url": "https://docs.typesafe.ai/cookbooks/parallel_questions.md",
+   "retrieved_at": "2026-09-23T16:16:38.973542+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/cookbooks/parallel_questions.md",
+   "sha256": "53dfe4516fd67b9bfc5abc9a50a6f4db6426b5b2951d41cd91e2fec45aded2fe",
+   "bytes": 48484
+  },
+  {
+   "url": "https://docs.typesafe.ai/migrating-to-v1.md",
+   "retrieved_at": "2026-09-23T16:18:32.669284+00:00",
+   "http_status": 404,
+   "final_url": "https://docs.typesafe.ai/migrating-to-v1.md",
+   "sha256": "b371022d75aca6d7308c260a52e6ff98d151fb0916cb9fbbca8d414260af3612",
+   "bytes": 613
+  },
+  {
+   "url": "https://docs.typesafe.ai/migrating-to-v1",
+   "retrieved_at": "2026-09-23T16:18:33.093016+00:00",
+   "http_status": 404,
+   "final_url": "https://docs.typesafe.ai/migrating-to-v1",
+   "sha256": "efb6756f0406da52c98cbf83cecf1c316445e131d14c1962cab5888ddf658be9",
+   "bytes": 108991
+  },
+  {
+   "url": "https://api.typesafe.ai/openapi.json",
+   "retrieved_at": "2026-09-23T16:25:31.159116+00:00",
+   "http_status": 200,
+   "final_url": "https://api.typesafe.ai/openapi.json",
+   "sha256": "a191f8a7df6bd6fedced8120dd0fd106f88575d1d1c8360d08900a6c7c0360d5",
+   "bytes": 14158
+  },
+  {
+   "url": "https://docs.typesafe.ai/cookbooks/hierarchical_classification.md",
+   "retrieved_at": "2026-09-23T16:26:26.374572+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/cookbooks/hierarchical_classification.md",
+   "sha256": "5525161d2b5597a29bd315a58aa817fe00e6bc2470cb31ece0530dbb8221dbfe",
+   "bytes": 36445
+  },
+  {
+   "url": "https://docs.typesafe.ai/cookbooks.md",
+   "retrieved_at": "2026-09-23T16:26:26.829123+00:00",
+   "http_status": 200,
+   "final_url": "https://docs.typesafe.ai/cookbooks.md",
+   "sha256": "bbf49df970d14d18d6b58d0852c0ae416329c004aa88fc39777b32e5172b5ac3",
+   "bytes": 8929
+  }
+ ],
+ "provider_not_covered": [
+  "pricing pages (none listed in llms.txt)",
+  "about 70 JS SDK class/interface pages, other cookbooks, patterns composite-scoring and intent-routing, demos, legal",
+  "bodies of pages without a prior digest (new baselines only; no change claim)",
+  "live api.typesafe.ai endpoint behavior (not called)",
+  "npm/PyPI package contents"
+ ],
+ "skills_docs_not_covered": [
+  "Skills CLI install (list-only runs)",
+  "claude plugin eval beyond the $1.20 pilot and layout probes; no 3-run or pinned-model suite; no 0.7.0 vs 0.7.1 comparison",
+  "Codex/ChatGPT UI rendering of openai.yaml",
+  "remote tag install for 0.7.1 (no tag exists)",
+  "Windsurf, OpenCode, Amp docs",
+  "/skill-doctor (reads the user's own usage data)",
+  "local Jekyll build and browser/mobile checks"
+ ],
+ "failed_or_unavailable": [
+  {
+   "target": "https://api.github.com/repos/typesafe-ai/skills/pulls",
+   "result": "HTTP 404 at 16:16Z and 16:24:06Z",
+   "meaning": "PR state Unknown; issue #2 reports PRs disabled (not verified)"
+  },
+  {
+   "target": "https://docs.typesafe.ai/migrating-to-v1.md and /migrating-to-v1",
+   "result": "HTTP 404 at 16:18:32Z and 16:18:33Z",
+   "meaning": "linked from upstream SKILL.md at 65a39f3; whether it ever existed is Unknown; Augustus does not link it"
+  },
+  {
+   "target": "https://docs.typesafe.ai/changelog.md, /sdk/typescript/changelog.md, /batching.md",
+   "result": "HTTP 404 (ecosystem lens)",
+   "meaning": "not listed in llms.txt; Unknown, not absence of a changelog"
+  },
+  {
+   "target": "Wayback CDX for docs.typesafe.ai/agent-skill.md",
+   "result": "HTTP 000 timeout",
+   "meaning": "history Unknown"
+  },
+  {
+   "target": "Wayback CDX digests for docs.typesafe.ai .md pages",
+   "result": "never matched our body digests, even for byte-identical pages",
+   "meaning": "method rejected as change evidence; only decompressed raw llms.txt bodies used"
+  },
+  {
+   "target": "github:convaiinnovations/laya",
+   "result": "HTTP 404",
+   "meaning": "Unknown; runtime links NandhaKishorM/laya, which resolves"
+  },
+  {
+   "target": "https://www.skills.sh/24601/augustus/augustus/security/gen-agent-trust-hub",
+   "result": "HTTP 404 (agent-trust-hub path returned 200)",
+   "meaning": "path naming only"
+  },
+  {
+   "target": "https://learn.chatgpt.com/docs/plugins/build.md",
+   "result": "HTTP 404",
+   "meaning": "Codex plugin-build docs not read"
+  },
+  {
+   "target": "decision-model-testing pinned blob link",
+   "result": "transient HTTP 503, 200 on retry",
+   "meaning": "link resolves"
+  },
+  {
+   "target": "arXiv export API over HTTP (release-delta lens)",
+   "result": "empty body; HTTPS retry succeeded",
+   "meaning": "no data lost"
+  },
+  {
+   "target": "Hugging Face discovery first run",
+   "result": "HTTP/2 header parse failure in the collector; fixed and rerun",
+   "meaning": "all 10 queries 200 on rerun"
+  },
+  {
+   "target": "arXiv title search for post-hoc learning-to-defer estimators (Narasimhan et al.)",
+   "result": "0 entries",
+   "meaning": "Unknown, not absence"
+  },
+  {
+   "target": "github compare ReallyArtificial/stuntdouble d7126d6...fb9f08e",
+   "result": "HTTP 404 'No common ancestor'",
+   "meaning": "history rewritten; new tree not reviewed"
+  },
+  {
+   "target": "claude plugin eval isolation case, first attempt",
+   "result": "failed to load: invalid YAML frontmatter; cost $0",
+   "meaning": "fixed and rerun"
+  }
+ ],
+ "lens_checks_run": {
+  "patrol-provider": [
+   "<repo>/scripts/refresh-jev-research.sh --output .../patrol/provider/probe.json → exit 0; llms.txt 200, evals.typesafe.ai 200",
+   "<repo>/scripts/refresh-jev-research.sh --source github:typesafe-ai/skills --output .../patrol/provider/typesafe-skills.json → exit 0; default_sha 65a39f393687675ce170e6094757de20370365b9, release_tag null, node_id R_kgDOUDLV7Q",
+   "python3 fetch.py (urllib GET, sha256 of body) on 34 official URLs → 32×200, 2×404 (migrating-to-v1[.md]); 5 of 5 previously receipted docs byte-identical by sha256",
+   "gh api repos/typesafe-ai/skills/{tags,releases,commits,branches,git/trees/65a39f3,contents/*?ref=65a39f3,issues,issues/{1,2,6,8}/comments} → 200; /pulls → 404 (twice)",
+   "gh api repos/typesafe-ai/{typesafe-sdk-python,typesafe-sdk-js,system-one-adapter-python} meta/commits/releases/branches/tags → HEADs 0ffd094/66880cc/e1d4cc9 and releases v0.7.1/v0.6.0/v0.2.1, all equal to the 2026-09-22 snapshots",
+   "gh api orgs/typesafe-ai/repos → no repo pushed after 2026-09-22T12:24:32Z",
+   "gh api compare 2ce5c65f1364...0ffd094c72 and contents of errors.py/questions.py/config.py (Python) and errors.ts/client.ts/questions.ts (JS) → source-inspected status-only error mapping, key validation, and Score minimums",
+   "curl pypi.org/pypi/typesafe-sdk/json → 200, 0.7.1; curl registry.npmjs.org/@typesafe-ai%2Fsdk → 200, latest 0.6.0; curl pypi.org/pypi/system-one-adapter/json → 200, 0.2.1",
+   "curl web.archive.org CDX (10 pages) → 200 except agent-skill (timeout); curl web.archive.org/web/{ts}id_/llms.txt ×3 → 200; gunzip + diff + URL-set diff → only cookbooks.md added since 20260922031823",
+   "python3 base32-SHA1 comparison of current bodies vs CDX digests → all DIFF, including byte-identical models.md, so the method was rejected as change evidence",
+   "python3 entropy check: H(0.6,0.4)=0.971 bits, H(0.8 + 0.2 over 9)=1.356 bits → judgment-class.md:168-170 arithmetic correct",
+   "curl -L status on the 5 official TypeSafe URLs used by Augustus → all 200",
+   "grep across .agents/skills/augustus, README.md, CHANGELOG.md, docs/, research/ for provider pins, limits, error codes, cookbook numbers, coding-agents, migrating-to-v1, npx skills",
+   "cat references/*.md | wc -c → 179929; SKILL.md 10324 bytes / 171 lines",
+   "git status --porcelain in <repo> → empty (read-only honored); HEAD 87b0cda"
+  ],
+  "patrol-ecosystem": [
+   "python3 gh_discover.py (gh api -X GET search/repositories, 25 leaf queries, 129 pages, adaptive split ≤900) → exit 0; wrote github-discovery.json (5,094 unique node IDs)",
+   "gh api -X GET search/repositories per_page=1 probes (jev pushed 2115, jev created 1976, typesafe jev readme 3223, noul readme 1499) → used to choose splits and to narrow the noul query",
+   "python3 hf_discover.py (curl https://huggingface.co/api/{models,datasets,spaces}?search=…&sort=lastModified&direction=-1&limit=100) → first run failed to parse HTTP/2 headers; fixed; 10 queries, all crossed cutoff, 181 newer entries",
+   "curl https://jevusers.com/{,apps,about,api/projects,p/24601-augustus} → all 200; parse and delta: apps 1299 unchanged, API ±166, union 1519→1540",
+   "curl skills.sh skill page + /security/{snyk,socket,agent-trust-hub,gen-agent-trust-hub} → 200/200/200/200/404; Snyk W014 Warn observed",
+   "python3 revisit_probe.py (gh api repos/…, commits/{branch}, releases/latest, compare) → 47 GitHub sources plus 10 HF entries probed; 16 moved",
+   "gh api compare d7126d6…fb9f08e (stuntdouble) → 404 'No common ancestor'",
+   "curl official docs.typesafe.ai pages + sha256 → 5/5 identical to 2026-09-22 receipts",
+   "gh api contents/readme reads for decision-injection-bench results, kev (autoresearch.py, calibrate.py, claims.json), nimble (calibration.py), von (contamination_audit.py, noul_prior_fit.py), jevbench METHOD-v1.4, TypeLLM README, kinde guard/jev files, dynajev, jevify, decision-index, candidate-order-instability, foreman-jev-evaluation → read",
+   "curl HF commits/tree/raw for Jev-Omni (55b53f2 vs c050d51), convaiinnovations/laya family, Decision-1.0-Lux-9B README/SENSITIVITY/DIAGNOSTICS → read",
+   "for r in runtime GitHub links: gh api repos/$r → 28/28 resolve, none archived; rename check → only zmtomorrow/TypeAR→TypeLLM/TypeLLM",
+   "curl -L pinned runtime revision links → 7/7 return 200 (one transient 503 retried)",
+   "grep -n over .agents/skills/augustus/{SKILL.md,references/*.md} for injection/temperature/permutation/incumbent/entropy/contamination coverage → cited lines",
+   "wc -c references/*.md → 179,929 total (71 bytes headroom); SKILL.md 10,324 bytes",
+   "python3 entropy check → H(0.6,0.4)=0.971 bits, H(0.8 + 9×0.0222)=1.3559 bits (matches judgment-class.md:169-170)",
+   "python3 KL on the TypeLLM blog's reported 720-order means → Jev KL(p||u)≈1.191 nats, Qwen≈0.0275 (arithmetic on reported numbers only)",
+   "git ls-files | grep -c pycache → 0 (skill __pycache__ dirs are untracked)"
+  ],
+  "patrol-methods": [
+   "curl -sL https://export.arxiv.org/api/query?id_list=2609.22048,2609.14907,2609.00662 -> 200, all v1 (published == updated)",
+   "curl -sL https://arxiv.org/abs/{2609.22048,2609.14907,2609.00662} -> 200; submission history shows only [v1]",
+   "python3 arxiv_query.py (10 queries, 3.5 s spacing) -> all 200; totals 51/43/231/156/90/139/61/29/10/10; 733 unique",
+   "grep of all 733 arXiv base IDs across research/, .agents/, tests/, docs/ -> only 2609.22048 and 2609.14907 already present",
+   "curl -sL https://arxiv.org/html/<id> for 13 papers -> all 200; converted with html2txt.py; sha256 in triage_receipt.json",
+   "curl arXiv id_list 2301.09633,2311.01453,2403.03208,1908.04734,2006.01862 plus two title searches -> 200; post-hoc L2D title search returned 0 entries",
+   "python3 checks.py -> H(0.6,0.4)=0.970951; H(0.8,9x0.2/9)=1.355913; binary entropy strictly decreasing on 0.51..0.99 True; 3-option reversal H(0.5,0.5,0)=1.0 vs H(0.6,0.2,0.2)=1.371; n_eff(10,0.21)=3.460; Condorcet crossover consistent with 0.8; resolution-floor ECE bound 0.008 at rho=0.002; sign-test minimum wins 15/20, 18/26, 42/69; zero-error UB 0.1391 at n=20, n=299 for 1%",
+   "wc -c .agents/skills/augustus/references/*.md -> 179929 (SKILL.md 10324)",
+   "PYTHONDONTWRITEBYTECODE=1 python3 scripts/check_repo.py (repo) -> 'repository quality checks passed'; git status clean",
+   "rsync repo to scratch/sim; apply M2+M4+M6 -> 179965 bytes, check_repo passed; plus M3+M5 -> 180116, 'reference-total-budget: 180116 bytes exceeds 180000'",
+   "git show --stat 87b0cda -> no tests/ changes; audit research/audits/2026-09-23-decision-jobs-behavior.md:8-10,20 read"
+  ],
+  "patrol-skills-ecosystem": [
+   "claude plugin validate <repo> -> '✔ Validation passed' (marketplace manifest)",
+   "claude plugin validate <repo>/.agents/skills -> '✔ Validation passed'",
+   "CLAUDE_CONFIG_DIR=<scratch>/claude-config claude plugin marketplace add <repo> -> exit 0",
+   "CLAUDE_CONFIG_DIR=<scratch>/claude-config claude plugin install augustus@augustus --json -> {\"outcome\":\"ok\"}",
+   "CLAUDE_CONFIG_DIR=<scratch>/claude-config claude plugin details augustus@augustus -> version 0.7.1-dev; Skills (1) augustus; Agents/Hooks/MCP/LSP 0; always-on ~119 tok; on-invoke ~2.4k",
+   "CLAUDE_CONFIG_DIR=<scratch>/claude-config claude plugin list --json -> version 0.7.1-dev, installPath under scratch cache",
+   "find on isolated cache -> 29 files including .DS_Store and scripts/__pycache__ (working-tree copy)",
+   "claude plugin eval --help (help text only; no eval run, no model calls)",
+   "python3 .agents/skills/augustus/scripts/{compare_workflows,evaluate_decisions,uniqueness_gate}.py --help -> evaluate_decisions shows no description or argument help",
+   "Local Python replication of quick_validate checks on SKILL.md -> no unexpected keys, no angle brackets, 459-character description, all metadata values str, name matches directory",
+   "git show v0.5.0/v0.5.1/v0.6.0/v0.7.0:SKILL.md description comparison",
+   "git diff v0.7.0..HEAD -- .agents .claude-plugin -> SKILL.md (version, routing row), judgment-class.md, marketplace version",
+   "PYTHONDONTWRITEBYTECODE=1 make check -> exit 0; 115 tests OK; evaluator and fingerprint self-tests ok; bash -n ok",
+   "git status --porcelain before and after all checks -> clean; find -newer marker (excluding .git) -> no repo writes"
+  ],
+  "discoverability": [
+   "python3 (yaml) measure frontmatter: description 459 chars/459 bytes, name 8, SKILL.md 10324 bytes/171 lines, short_description 51, default_prompt 150, marketplace desc 79/252, references total 179929 bytes: OK",
+   "gh repo view 24601/Augustus --json description,homepageUrl,repositoryTopics,...: description matches mission; 20 topics; latestRelease v0.7.0 (2026-09-22T18:13:12Z)",
+   "git ls-remote origin: main=4236a60 (local HEAD 87b0cda is one research-only commit behind); v0.7.0^{}=ef8e0359",
+   "curl https://24601.github.io/Augustus/: 200; title 'Build and improve decision-model systems with AI agents | Augustus'; description/og/twitter/canonical/og:image/JSON-LD present and on-mission; version links v0.7.0; sitemap includes /assets/fonts/",
+   "curl img.shields.io/github/v/release/24601/Augustus: 'release: v0.7.0'",
+   "gh api repos/{yibie,AnotiaWang,AbdelStark,cobanov,Anil-matcha,hellogumbo,fatwang2}/.../pulls/N and logicrw issue 57: states unchanged; hellogumbo#76 open at e6f5812a27ef",
+   "gh api contents for 8 listing repos: Augustus entry wording unchanged (cobanov still 'dominant exemplar')",
+   "DO_NOT_TRACK=1 DISABLE_TELEMETRY=1 npx --yes skills add 24601/Augustus --list: exit 0, Found 1 skill (augustus), nothing installed",
+   "npx --yes skills add https://github.com/24601/Augustus/tree/v0.7.0/.agents/skills/augustus --list: 'Source ... @ v0.7.0', Found 1 skill",
+   "CLAUDE_CONFIG_DIR=<scratch> claude plugin validate . (Claude Code 2.1.280): Validation passed",
+   "CLAUDE_CONFIG_DIR=<scratch> claude plugin marketplace add 24601/Augustus && claude plugin install augustus@augustus && claude plugin details: augustus 0.7.1-dev, Skills 1, Agents/Hooks/MCP/LSP 0, always-on ~119 tok",
+   "CLAUDE_CONFIG_DIR=<scratch2> claude plugin marketplace add 24601/Augustus@v0.7.0 && install && details: augustus 0.7.0, Skills 1, others 0",
+   "git archive HEAD | tar -x (scratch); PYTHONDONTWRITEBYTECODE=1 make check: exit 0, 115 tests OK, self-tests ok",
+   "scratch export with proposed 453-char description: make check exit 0 (115 OK); claude plugin validate . passed",
+   "python3 desc_probe.py (lexical proxy, not activation): current vs proposed term coverage for 6 positive and 3 negative probes",
+   "git show v0.5.1/v0.6.0/v0.7.0:.agents/skills/augustus/SKILL.md: v0.6.0 had 'uncertainty'; v0.7.0 removed it",
+   "git status --short in repo after all checks: empty"
+  ],
+  "claude-tooling": [
+   "claude --version -> 2.1.280 (Claude Code)",
+   "claude plugin --help; claude plugin eval --help; claude plugin eval init --help; claude plugin details --help; claude plugin validate --help; claude plugin tag --help -> help text captured (eval has subcommand init only)",
+   "claude plugin validate . (repo) -> 'Validation passed', exit 0",
+   "claude plugin validate . --strict --json -> success true, 0 errors, 0 warnings",
+   "claude plugin validate .agents --json -> success true, manifest null, contents []; claude plugin validate .agents/skills/augustus -> error 'No manifest found in directory'",
+   "CLAUDE_CONFIG_DIR=<scratch>/cfg claude plugin marketplace add <repo> && claude plugin install augustus@augustus && claude plugin details augustus@augustus -> 0.7.1-dev, Skills 1, Agents/Hooks/MCP/LSP 0, always-on ~119 tok, on-invoke ~2.4k; cache contained .DS_Store and 6 __pycache__ .pyc files",
+   "claude plugin eval <plugin-copy> --case nontrigger-arithmetic --runs 1 --no-publish --max-cost-usd 0.5 --trust-plugin --json preflight.json -> exit 0 but suite.plugins [] / ablation none (vacuous)",
+   "same with case plugins: [\"../..\"] -> preflight2.json plugins [plugin-copy], with-without, exit 0",
+   "claude plugin eval <plugin-copy> --no-publish --max-cost-usd 4 -j 2 --trust-plugin --keep-temp --json pilot.json -> exit 1 (threshold 1.0), cost $1.1998, 110s, casesPassed 3/4, meanDelta 0.125",
+   "claude plugin eval <repo-copy> --eval-dir tests/plugin-evals --runs 1 ... -> layoutB.json plugin '.agents' resolved, with-without, exit 0",
+   "same without case plugins field (tests/plugin-evals-b2) -> layoutB2.json plugins [], exit 0 (vacuous)",
+   "trigger-support-router in repo layout, --ablation none -> layoutB-trigger.json: doc-template input_match 'Skill called 0x', [^\"]*: pattern 'Skill called 1x', exit 1",
+   "isolation canary case (Read of eval dir file and sibling repo file) -> first attempt failed to load: 'invalid YAML frontmatter: YAML Parse error: Unexpected EOF' (pattern contained ---); after fix both Reads denied in dontAsk mode, graders passed, exit 0",
+   "node regex test of documented vs fixed input_match -> doc template false on .agents:augustus, true on plugin-copy:augustus and augustus:augustus",
+   "git clone <repo> scratch/clone; claude plugin tag --dry-run (root and .agents) -> 'No plugin manifest found'",
+   "diff -r clone/.agents/skills plugin-copy/skills -> identical (pilot used committed 87b0cda tree)",
+   "git -C <repo> status --short -> clean after all work",
+   "git diff v0.7.0..HEAD -- .agents .claude-plugin -> SKILL.md (version, one router label), judgment-class.md, marketplace version; description unchanged"
+  ],
+  "release-delta": [
+   "git -C <repo> diff v0.7.0..HEAD -- .agents .claude-plugin -> SKILL.md version+router label, judgment-class.md +15/-15, marketplace version",
+   "PYTHONDONTWRITEBYTECODE=1 make check -> exit 0; check_repo passed; 115 unittest tests OK; evaluate_decisions self-test ok; revisit-fingerprints self-test ok; bash -n ok",
+   "wc -c references/*.md -> 179,929 total; judgment-class.md 14,893 bytes/244 lines; SKILL.md 10,324 bytes/171 lines",
+   "python3 scratch/entropy_check.py (mpmath 40 dps, Fraction inputs) -> H(0.6,0.4)=0.970951; H(0.8,9x0.2/9)=1.355913; normalized 0.9710 vs 0.4082 (no reversal); binary grid strictly decreasing; K=3 (0.5,0.5,0)=1.000000 vs (0.6,0.2,0.2)=1.370951 (reversal, normalized 0.631 vs 0.865); H(0.8,0.2)=0.721928",
+   "python3 Chow check c=0.45 -> rejects (0.5,0.5,0), accepts (0.6,0.2,0.2)",
+   "curl https://cseweb.ucsd.edu/~elkan/rescale.pdf; shasum -a 256 -> 46f46ba7aaab3df82aa09643c51549ee327ec1734bdf9829debd6101da35c048; pdftotext -> dominance passage quoted",
+   "curl https://export.arxiv.org/api/query?id_list=1705.08500,2006.01862,1711.06664 -> v2 (2017-06-01), v3 (2021-01-25), v3 (2018-09-07)",
+   "gh api repos/typesafe-ai/skills/tags and commits -> v0.5.7 65a39f3 latest = HEAD",
+   "CLAUDE_CONFIG_DIR=<scratch>/claude-config claude plugin validate . -> Validation passed",
+   "CLAUDE_CONFIG_DIR=<scratch> claude plugin marketplace add <repo>; plugin install augustus@augustus; plugin details -> augustus 0.7.1-dev; Skills 1, Agents 0, Hooks 0, MCP 0, LSP 0 (dev HEAD, not the release candidate)",
+   "git archive HEAD into scratch; applied RD-05/RD-06/RD-08 edits; python3 scripts/check_repo.py --root <copy> -> passed; reference total 179,979",
+   "git -C repo status --porcelain -> clean after all checks; ~/.claude not modified"
+  ]
+ },
+ "lens_unknowns": {
+  "patrol-provider": [
+   "Whether pages without a prior digest (api, primitives, choice, score, fan-out, agent-skill, SDK reference pages) changed between 2026-09-22 and now: no prior bodies are archived, and Wayback .md digests are not byte-comparable",
+   "Pending or closed PRs on typesafe-ai/skills: /pulls returns 404 (PRs are reported disabled, not verified)",
+   "Live API behavior claimed in upstream issues #1, #6, #7, #8 (400 vs 422, 403 vs 401, 1-level Score accepted, release_date format): not reproduced, since live endpoints were not called",
+   "Whether a one-option Choice is accepted by the API and what confidence it returns (the documented formula (n·p−1)/(n−1) is only an approximation for three options)",
+   "The exact definition of Jev Choice/Score confidence for n≠3: the docs give only an approximation for three options",
+   "Whether the Wayback agent-skill.md CDX query would have shown history (request timed out)",
+   "Whether `npx skills add 24601/Augustus --skill augustus` (without --agent/-y) is affected by the silent no-op in issue #4",
+   "Whether console.typesafe.ai sign-up (issue #10) is working now"
+  ],
+  "patrol-ecosystem": [
+   "How skills.sh/Snyk looks for SKILL.md, and whether any layout change would clear W014 without breaking Claude plugin or Skills CLI discovery.",
+   "Whether Jev's label-'one' preference in the fair-die study holds beyond that single context, and whether Jev Choice probabilities are meant to represent aleatoric outcome frequency; the raw blog responses were not inspected.",
+   "Contents of the kev round-4/5 reports and the 200+ files beyond the 300-file compare truncation; the claims.json verifier was not executed.",
+   "Whether the kinde starter kit's thresholds have validation data in its test files (tests were not read).",
+   "What stuntdouble's history rewrite changed relative to the pinned d7126d6 (no common ancestor; the new README was not inspected).",
+   "Content of Open-Jev 27B v1.1 'audited replay', the laya 0.3.7 card, tasksource ModernBERT-jev, and other Hub entries seen only as metadata.",
+   "The github:convaiinnovations/laya 404 is unresolved (Unknown, not absence); the runtime link is NandhaKishorM/laya, which resolves.",
+   "GitHub search membership moved during pagination (7 leaves returned slightly fewer rows than their probe totals); this is a completed traversal, not an immutable census."
+  ],
+  "patrol-methods": [
+   "Revised versions (v2+) of papers first submitted before 2026-09-10 were not enumerated, because the submittedDate filter indexes v1 submission; only the three watched papers were checked for new versions.",
+   "Papers submitted 2026-09-22/23 may not yet be indexed by the export API.",
+   "Current TypeSafe Jev output grid and zero mass (M9) were not checked against Contract docs or live responses this run.",
+   "Classical sources cited in support were not inspected this run: Parasuraman & Manzey (automation bias), Horvitz-Thompson 1952, the Kish design effect, and Lakkaraju et al. on selective labels. Post-hoc L2D (Narasimhan et al. 2022): the title search returned nothing, which is Unknown, not absence.",
+   "Every reported benchmark number stays Reported. No third-party code or dataset was run; only arithmetic was reproduced.",
+   "Byte deltas for M7-M9 are string-length estimates. Only M2+M4+M6 (+36, passes) and M3+M5 (+151, overshoots by 116) were simulated with check_repo.",
+   "Whether other patrol lenses propose conflicting edits to the same lines (validation.md:27-29, 87, 159-160; judgment-class.md:178-179) is unknown to this lens.",
+   "2609.26758 reports hosted-Jev behavior at one point in time over HTTP; the served model may since have changed."
+  ],
+  "patrol-skills-ecosystem": [
+   "Whether any host implicitly selects Augustus on positive, near-miss negative or ambiguous prompts. The F1 description change is Hypothesis until a trigger eval runs.",
+   "Whether `claude plugin eval` accepts the manifest-less `.agents` plugin as a path target, or needs cases in `.agents/evals` or a plugin.json.",
+   "Why the skills.sh Snyk scan reports W014, and whether the audits will refresh after the 0.7.1 tag. The Agent Trust Hub text matches pre-0.6.0 code.",
+   "Whether `https://github.com/24601/Augustus.git#v0.7.1` works as a Claude marketplace source; the docs example uses a GitLab URL.",
+   "Skills CLI v1.7.0 --list output for the current revision (not run).",
+   "Codex and ChatGPT desktop rendering of openai.yaml.",
+   "Whether a Skills CLI tree URL such as .../tree/v0.7.1/.agents/skills/augustus installs a pinned release.",
+   "Remote-tag install inventory for 0.7.1 (the tag does not exist yet)."
+  ],
+  "discoverability": [
+   "Implicit activation rate of the current or proposed description in any host (never measured; lexical probe is a proxy only)",
+   "Whether a metadata-only .agents/.claude-plugin/plugin.json coexists with the strict:false marketplace entry (needed for claude plugin eval and an OpenAI Claude-archive upload)",
+   "Whether `npx skills update` preserves a tree/<tag> pin",
+   "Cause of skills.sh Snyk W014 and whether Snyk re-audits after the next release",
+   "Whether plugin keywords or GitHub topics measurably affect catalog search results",
+   "Codex/ChatGPT UI rendering of openai.yaml display_name, short_description and default_prompt",
+   "Pinned v0.7.1 install behavior (tag not yet created); must be retested after tagging",
+   "Whether claude plugin eval is generally available on the user's account (docs mention early-access and server-side-off states)",
+   "Requirements for submitting a strict:false relative-path marketplace plugin to the Anthropic community directory"
+  ],
+  "claude-tooling": [
+   "Activation rate: n=2 runs per arm on 4 prompts is a smoke test; no rate or confidence interval can be claimed.",
+   "Activation in crowded real sessions: the with-arm competed with only 16 bundled skills; a decoy-plugin case (extra `plugins` entry) was not tested.",
+   "The eval loads the plugin as '.agents' or 'plugin-copy' (directory name), not 'augustus'. Whether the namespace text in the listing changes activation was not tested, nor whether a directory named 'augustus' (e.g. a symlink) would reproduce the installed name.",
+   "Whether the with-arm reranker run-0 FAIL is a small-judge false negative. My reading says it is; it was not rerun with --judge-model sonnet.",
+   "Why the local-directory marketplace install was copied into the cache when the docs say it loads in place (possibly because the folder is a git repository).",
+   "Remote GitHub marketplace install at the eventual 0.7.1 tag: not run.",
+   "Whether Glob/Grep (not just Read) are also confined inside eval runs.",
+   "Total cost of a full adopted suite (e.g. 7 cases x 3 runs x 2 arms). Extrapolating from pilot per-run costs gives roughly $3-5 with the unpinned default agent model; that is a Hypothesis, not a measurement.",
+   "/skill-doctor output for a real user with Augustus installed: not executed."
+  ],
+  "release-delta": [
+   "Whether the user requested specific reviewer models for release acceptance (release-checklist L13-15); no routing record found for this delta",
+   "Skills CLI discovery (--list) and the github-pages 232 build + check_site.py were not run in this pass",
+   "Whether the pre-trim wording already contained 'a dominated act makes label-all optimal' and 'The handler ... owns the act' (the audit only lists what remained, not the trimmed diff)",
+   "GitHub About/description/topics current wording (not read back)",
+   "Whether the maintainer prefers removing the version from the social card over re-exporting it each release"
+  ]
+ }
+}

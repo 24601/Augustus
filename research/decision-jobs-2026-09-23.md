@@ -166,8 +166,9 @@ algebra from the file. The zero-correct-cost special case already in
 validation.md stays the prior formula.
 
 **Claim (prose).** Predict the class with lower expected cost. That can be
-the less probable class. If a cost-matrix row dominates, never predict the
-dominated label; the extreme is label-all-positive or label-all-negative.
+the less probable class. If row m dominates row n (predicting m costs at least
+as much as predicting n for every true class), never predict m; with two
+classes, label all n. (Corrected 2026-09-23; see [Corrections](#corrections-2026-09-23).)
 Example-dependent costs (his credit-card amount) change the threshold per
 case. When the learner already returns probabilities, he recommends applying
 the decision threshold explicitly rather than only rebalancing training data.
@@ -188,7 +189,8 @@ max-probabilities from 0.51 to 0.99 in steps of 0.01, entropy strictly
 decreases as the max increases. So:
 
 - two options: entropy order and top-mass order agree;
-- three or more options: they can reverse, as in the pair above.
+- three or more options: they can reverse, as in the pair above. (The pair
+  spans two menu sizes; see [Corrections](#corrections-2026-09-23).)
 
 This is arithmetic on declared distributions, not a measurement of any
 provider. **Disposition:** refine-reference. **Falsifier:** a provider whose
@@ -229,6 +231,7 @@ The reference byte ceiling is 180,000. The class-choice checklist in
 `judgment-class.md` duplicated the skill's decision-design card, so it became
 a pointer plus output species, coverage, and the family-matched metric.
 Cascade cost fields remain on the skill card and in `mixed-architecture.md`.
+(Corrected 2026-09-23: not on the skill card; see [Corrections](#corrections-2026-09-23).)
 
 **Falsifier for the promotion.** A binary-only menu, where the distinction
 is idle, or a held-out system-loss comparison in which entropy routing wins
@@ -244,3 +247,45 @@ Geifman or Mozannar experiments, no Elkan equation re-derivation from glyphs.
 The next useful experiment is a paired holdout with three policies — entropy
 band, top-mass band, always-defer — scored by population loss including the
 handler, on a menu with more than two options.
+
+## Corrections (2026-09-23)
+
+These corrections come from the [2026-09-23 patrol](patrol-2026-09-23.md)
+release-delta lens and were checked in that fold. Earlier text stays in place
+except where marked.
+
+1. **Elkan dominance was inverted.** The original sentence under "Elkan,
+   cost-sensitive decisions" read: "If a cost-matrix row dominates, never
+   predict the dominated label; the extreme is label-all-positive or
+   label-all-negative." It is superseded and was edited in place. Elkan 2001
+   §1.1 (same PDF, sha256 `46f46ba7…c048`; `pdftotext` loses the row symbols,
+   reconstructed here as m and n) says: "row m dominates row n in a cost matrix
+   if for all j, C(m, j) ≥ C(n, j). In this case the cost of predicting n is no
+   greater than the cost of predicting m, regardless of what the true class
+   is. So it is optimal never to predict m. As a special case, the optimal
+   prediction is always n if row n is dominated by all other rows." In Elkan's
+   convention the dominated row is the one always predicted. The job-table
+   phrase "if one row of the cost matrix dominates, label-all is optimal" names
+   no label; read it with this statement. The `sources.json` Elkan note keeps
+   its original wording as history.
+2. **Cascade fields are not on the skill card.** "Cascade cost fields remain on
+   the skill card" is wrong. The SKILL.md decision-design card has no cascade
+   or rate field. Cascade rate and trajectory fields live in
+   `references/mixed-architecture.md`: the "Evaluate the whole cascade" report
+   list under Cost-sensitive prefilter (all-correct trajectory rate, generator
+   and human-escalation rates) and the "Design-card extras for mixed systems"
+   card (stage plus trajectory/cascade metrics, expected cost). They also appear
+   in `applied-mappings.md` and `optimizer-integration.md`.
+3. **The entropy example compares two menu sizes.** (0.6, 0.4) at 0.970951
+   bits is a two-option menu; (0.8, nine × 0.2/9) at 1.355913 bits is a
+   ten-option menu. Normalized by log₂ K they are 0.971 and 0.408, which agrees
+   with top mass, so the pair is not a same-menu reversal. "Top mass 0.8 over
+   ten outcomes" gives 1.356 bits only for an even split; (0.8, 0.2) gives
+   0.721928. A same-menu counterexample on three options: (0.5, 0.5, 0) has top
+   mass 0.5 and 1.000000 bit; (0.6, 0.2, 0.2) has more top mass, 0.6, and
+   1.370951 bits. Normalized they are 0.631 and 0.865, so the reversal
+   survives. With calibrated mass and a constant reject cost of 0.45, Chow's
+   rule rejects the first and accepts the second; any entropy cut between 1.0
+   and 1.371 does the opposite. Recomputed in Python with exact fractions for
+   the inputs. This is arithmetic on declared distributions, not a provider
+   measurement.

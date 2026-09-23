@@ -1,0 +1,7038 @@
+{
+ "schema_version": 1,
+ "review": "research/patrol-2026-09-23.md",
+ "arxiv": {
+  "retrieved_at": "2026-09-23T16:15:58.223004Z",
+  "date_filter": "submittedDate:[202609100000 TO 202609232359]",
+  "queries": [
+   {
+    "name": "q01_selective",
+    "query": "(abs:\"selective prediction\" OR abs:\"selective classification\" OR abs:abstention OR abs:\"reject option\" OR abs:abstain OR abs:\"selective generation\")",
+    "url_first_page": "https://export.arxiv.org/api/query?search_query=%28%28abs%3A%22selective+prediction%22+OR+abs%3A%22selective+classification%22+OR+abs%3Aabstention+OR+abs%3A%22reject+option%22+OR+abs%3Aabstain+OR+abs%3A%22selective+generation%22%29%29+AND+submittedDate%3A%5B202609100000+TO+202609232359%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+    "totalResults": 51,
+    "retrieved": 51
+   },
+   {
+    "name": "q02_defer",
+    "query": "(abs:\"learning to defer\" OR abs:deferral OR abs:\"learning-to-defer\" OR abs:\"human-AI complementarity\" OR abs:\"defer to\")",
+    "url_first_page": "https://export.arxiv.org/api/query?search_query=%28%28abs%3A%22learning+to+defer%22+OR+abs%3Adeferral+OR+abs%3A%22learning-to-defer%22+OR+abs%3A%22human-AI+complementarity%22+OR+abs%3A%22defer+to%22%29%29+AND+submittedDate%3A%5B202609100000+TO+202609232359%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+    "totalResults": 43,
+    "retrieved": 43
+   },
+   {
+    "name": "q03_conformal",
+    "query": "(abs:conformal)",
+    "url_first_page": "https://export.arxiv.org/api/query?search_query=%28%28abs%3Aconformal%29%29+AND+submittedDate%3A%5B202609100000+TO+202609232359%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending",
+    "totalResults": 231,
+    "retrieved": 231
+   },
+   {
+    "name": "q04_routing",
+    "query": "((abs:routing AND (abs:LLM OR abs:LLMs OR abs:\"language model\" OR abs:\"language models\")) OR (abs:cascade AND (abs:LLM OR abs:LLMs OR abs:\"language model\")) OR abs:\"model routing\" OR abs:\"LLM router\")",
+    "url_first_page": "https://export.arxiv.org/api/query?search_query=%28%28%28abs%3Arouting+AND+%28abs%3ALLM+OR+abs%3ALLMs+OR+abs%3A%22language+model%22+OR+abs%3A%22language+models%22%29%29+OR+%28abs%3Acascade+AND+%28abs%3ALLM+OR+abs%3ALLMs+OR+abs%3A%22language+model%22%29%29+OR+abs%3A%22model+routing%22+OR+abs%3A%22LLM+router%22%29%29+AND+submittedDate%3A%5B202609100000+TO+202609232359%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+    "totalResults": 156,
+    "retrieved": 156
+   },
+   {
+    "name": "q05_judge",
+    "query": "(abs:\"LLM-as-a-judge\" OR abs:\"LLM-as-judge\" OR abs:\"LLM judge\" OR abs:\"LLM judges\" OR abs:\"judge models\" OR (abs:\"reward model\" AND abs:calibration))",
+    "url_first_page": "https://export.arxiv.org/api/query?search_query=%28%28abs%3A%22LLM-as-a-judge%22+OR+abs%3A%22LLM-as-judge%22+OR+abs%3A%22LLM+judge%22+OR+abs%3A%22LLM+judges%22+OR+abs%3A%22judge+models%22+OR+%28abs%3A%22reward+model%22+AND+abs%3Acalibration%29%29%29+AND+submittedDate%3A%5B202609100000+TO+202609232359%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+    "totalResults": 90,
+    "retrieved": 90
+   },
+   {
+    "name": "q06_uncert",
+    "query": "((abs:\"verbalized confidence\" OR abs:\"verbalized uncertainty\" OR abs:\"token probabilities\" OR abs:\"token probability\" OR abs:logprobs OR abs:\"uncertainty quantification\" OR abs:miscalibration OR abs:calibration) AND (abs:LLM OR abs:LLMs OR abs:\"language model\" OR abs:\"language models\"))",
+    "url_first_page": "https://export.arxiv.org/api/query?search_query=%28%28%28abs%3A%22verbalized+confidence%22+OR+abs%3A%22verbalized+uncertainty%22+OR+abs%3A%22token+probabilities%22+OR+abs%3A%22token+probability%22+OR+abs%3Alogprobs+OR+abs%3A%22uncertainty+quantification%22+OR+abs%3Amiscalibration+OR+abs%3Acalibration%29+AND+%28abs%3ALLM+OR+abs%3ALLMs+OR+abs%3A%22language+model%22+OR+abs%3A%22language+models%22%29%29%29+AND+submittedDate%3A%5B202609100000+TO+202609232359%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+    "totalResults": 139,
+    "retrieved": 139
+   },
+   {
+    "name": "q07_stateval",
+    "query": "((abs:\"sequential testing\" OR abs:\"paired comparison\" OR abs:\"statistical significance\" OR abs:\"confidence intervals\" OR abs:variance OR abs:contamination OR abs:\"prediction-powered\" OR abs:\"e-values\" OR abs:\"anytime-valid\") AND (abs:evaluation OR abs:benchmark OR abs:benchmarks) AND (abs:LLM OR abs:LLMs OR abs:agent OR abs:agents OR abs:\"language model\" OR abs:\"language models\"))",
+    "url_first_page": "https://export.arxiv.org/api/query?search_query=%28%28%28abs%3A%22sequential+testing%22+OR+abs%3A%22paired+comparison%22+OR+abs%3A%22statistical+significance%22+OR+abs%3A%22confidence+intervals%22+OR+abs%3Avariance+OR+abs%3Acontamination+OR+abs%3A%22prediction-powered%22+OR+abs%3A%22e-values%22+OR+abs%3A%22anytime-valid%22%29+AND+%28abs%3Aevaluation+OR+abs%3Abenchmark+OR+abs%3Abenchmarks%29+AND+%28abs%3ALLM+OR+abs%3ALLMs+OR+abs%3Aagent+OR+abs%3Aagents+OR+abs%3A%22language+model%22+OR+abs%3A%22language+models%22%29%29%29+AND+submittedDate%3A%5B202609100000+TO+202609232359%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+    "totalResults": 61,
+    "retrieved": 61
+   },
+   {
+    "name": "q08_promptopt",
+    "query": "(abs:\"prompt optimization\" OR abs:DSPy OR abs:GEPA OR abs:TextGrad OR abs:\"reward hacking\" OR (abs:\"program optimization\" AND abs:LLM) OR abs:\"automatic prompt\" OR abs:\"specification gaming\")",
+    "url_first_page": "https://export.arxiv.org/api/query?search_query=%28%28abs%3A%22prompt+optimization%22+OR+abs%3ADSPy+OR+abs%3AGEPA+OR+abs%3ATextGrad+OR+abs%3A%22reward+hacking%22+OR+%28abs%3A%22program+optimization%22+AND+abs%3ALLM%29+OR+abs%3A%22automatic+prompt%22+OR+abs%3A%22specification+gaming%22%29%29+AND+submittedDate%3A%5B202609100000+TO+202609232359%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+    "totalResults": 29,
+    "retrieved": 29
+   },
+   {
+    "name": "q09_dfl",
+    "query": "(abs:\"decision-focused\" OR abs:\"decision focused\" OR abs:\"predict-then-optimize\" OR abs:\"predict-and-optimize\" OR abs:\"contextual stochastic optimization\")",
+    "url_first_page": "https://export.arxiv.org/api/query?search_query=%28%28abs%3A%22decision-focused%22+OR+abs%3A%22decision+focused%22+OR+abs%3A%22predict-then-optimize%22+OR+abs%3A%22predict-and-optimize%22+OR+abs%3A%22contextual+stochastic+optimization%22%29%29+AND+submittedDate%3A%5B202609100000+TO+202609232359%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+    "totalResults": 10,
+    "retrieved": 10
+   },
+   {
+    "name": "q10_voi",
+    "query": "(abs:\"value of information\" OR abs:\"expected value of information\" OR (abs:\"information acquisition\" AND abs:agent) OR abs:\"active information gathering\" OR abs:\"when to ask\" OR abs:\"clarifying questions\")",
+    "url_first_page": "https://export.arxiv.org/api/query?search_query=%28%28abs%3A%22value+of+information%22+OR+abs%3A%22expected+value+of+information%22+OR+%28abs%3A%22information+acquisition%22+AND+abs%3Aagent%29+OR+abs%3A%22active+information+gathering%22+OR+abs%3A%22when+to+ask%22+OR+abs%3A%22clarifying+questions%22%29%29+AND+submittedDate%3A%5B202609100000+TO+202609232359%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+    "totalResults": 10,
+    "retrieved": 10
+   }
+  ],
+  "unique_records": 733,
+  "kept": 599,
+  "dropped": [
+   [
+    "2609.10968v1",
+    "math.RT"
+   ],
+   [
+    "2609.11313v1",
+    "astro-ph.GA"
+   ],
+   [
+    "2609.11401v1",
+    "gr-qc"
+   ],
+   [
+    "2609.11421v1",
+    "math.DG"
+   ],
+   [
+    "2609.11560v2",
+    "math.FA"
+   ],
+   [
+    "2609.11598v1",
+    "math.CA"
+   ],
+   [
+    "2609.11675v1",
+    "cond-mat.str-el"
+   ],
+   [
+    "2609.11820v2",
+    "math.DG"
+   ],
+   [
+    "2609.12019v1",
+    "gr-qc"
+   ],
+   [
+    "2609.12046v1",
+    "hep-th"
+   ],
+   [
+    "2609.12068v1",
+    "math.DS"
+   ],
+   [
+    "2609.12080v1",
+    "hep-th"
+   ],
+   [
+    "2609.12088v1",
+    "hep-th"
+   ],
+   [
+    "2609.12092v1",
+    "nlin.CD"
+   ],
+   [
+    "2609.12098v1",
+    "hep-ph"
+   ],
+   [
+    "2609.12184v2",
+    "physics.ins-det"
+   ],
+   [
+    "2609.12460v1",
+    "cond-mat.mtrl-sci"
+   ],
+   [
+    "2609.12585v1",
+    "math.CV"
+   ],
+   [
+    "2609.12720v1",
+    "hep-th"
+   ],
+   [
+    "2609.12755v1",
+    "math.AP"
+   ],
+   [
+    "2609.12796v2",
+    "cond-mat.mtrl-sci"
+   ],
+   [
+    "2609.12952v1",
+    "cond-mat.soft"
+   ],
+   [
+    "2609.13133v2",
+    "math.DG"
+   ],
+   [
+    "2609.13370v1",
+    "hep-th"
+   ],
+   [
+    "2609.13381v1",
+    "hep-th"
+   ],
+   [
+    "2609.13400v2",
+    "math.AP"
+   ],
+   [
+    "2609.13621v1",
+    "physics.med-ph"
+   ],
+   [
+    "2609.13820v1",
+    "math.AP"
+   ],
+   [
+    "2609.13994v1",
+    "hep-th"
+   ],
+   [
+    "2609.13998v1",
+    "math.DG"
+   ],
+   [
+    "2609.14021v1",
+    "math.DG"
+   ],
+   [
+    "2609.14296v1",
+    "hep-th"
+   ],
+   [
+    "2609.14305v1",
+    "hep-th"
+   ],
+   [
+    "2609.14417v1",
+    "hep-ph"
+   ],
+   [
+    "2609.14423v1",
+    "hep-th"
+   ],
+   [
+    "2609.14424v1",
+    "quant-ph"
+   ],
+   [
+    "2609.14489v1",
+    "math.CA"
+   ],
+   [
+    "2609.14546v1",
+    "math.AP"
+   ],
+   [
+    "2609.14736v1",
+    "math.CO"
+   ],
+   [
+    "2609.14866v1",
+    "math.DG"
+   ],
+   [
+    "2609.15061v1",
+    "cond-mat.str-el"
+   ],
+   [
+    "2609.15147v1",
+    "math.DG"
+   ],
+   [
+    "2609.15185v1",
+    "math.DS"
+   ],
+   [
+    "2609.15347v1",
+    "gr-qc"
+   ],
+   [
+    "2609.15737v1",
+    "hep-th"
+   ],
+   [
+    "2609.15952v1",
+    "hep-th"
+   ],
+   [
+    "2609.16153v1",
+    "hep-th"
+   ],
+   [
+    "2609.16162v1",
+    "hep-th"
+   ],
+   [
+    "2609.16468v1",
+    "q-bio.QM"
+   ],
+   [
+    "2609.16527v1",
+    "physics.chem-ph"
+   ],
+   [
+    "2609.16759v1",
+    "math.AP"
+   ],
+   [
+    "2609.16809v1",
+    "q-bio.BM"
+   ],
+   [
+    "2609.17078v1",
+    "math.DG"
+   ],
+   [
+    "2609.17086v1",
+    "hep-th"
+   ],
+   [
+    "2609.17166v1",
+    "cond-mat.stat-mech"
+   ],
+   [
+    "2609.17245v1",
+    "math.AP"
+   ],
+   [
+    "2609.17261v1",
+    "math.AP"
+   ],
+   [
+    "2609.17361v1",
+    "math.DG"
+   ],
+   [
+    "2609.17441v1",
+    "math-ph"
+   ],
+   [
+    "2609.17471v1",
+    "gr-qc"
+   ],
+   [
+    "2609.17528v1",
+    "hep-th"
+   ],
+   [
+    "2609.17599v1",
+    "q-bio.GN"
+   ],
+   [
+    "2609.17656v1",
+    "hep-th"
+   ],
+   [
+    "2609.17663v1",
+    "hep-th"
+   ],
+   [
+    "2609.17664v1",
+    "hep-ph"
+   ],
+   [
+    "2609.17669v1",
+    "hep-th"
+   ],
+   [
+    "2609.17670v1",
+    "cond-mat.stat-mech"
+   ],
+   [
+    "2609.17724v1",
+    "hep-th"
+   ],
+   [
+    "2609.17826v1",
+    "math.PR"
+   ],
+   [
+    "2609.18074v1",
+    "hep-th"
+   ],
+   [
+    "2609.18105v1",
+    "gr-qc"
+   ],
+   [
+    "2609.18184v1",
+    "math.RT"
+   ],
+   [
+    "2609.18269v1",
+    "hep-ph"
+   ],
+   [
+    "2609.18334v2",
+    "astro-ph.EP"
+   ],
+   [
+    "2609.18524v1",
+    "cond-mat.soft"
+   ],
+   [
+    "2609.18896v1",
+    "astro-ph.GA"
+   ],
+   [
+    "2609.19168v1",
+    "math.DG"
+   ],
+   [
+    "2609.19292v1",
+    "cond-mat.stat-mech"
+   ],
+   [
+    "2609.19301v1",
+    "math.DS"
+   ],
+   [
+    "2609.19388v1",
+    "physics.chem-ph"
+   ],
+   [
+    "2609.19609v1",
+    "math.CV"
+   ],
+   [
+    "2609.19733v1",
+    "math.CV"
+   ],
+   [
+    "2609.19739v1",
+    "math.PR"
+   ],
+   [
+    "2609.19828v1",
+    "physics.flu-dyn"
+   ],
+   [
+    "2609.19904v1",
+    "hep-th"
+   ],
+   [
+    "2609.20020v1",
+    "cond-mat.str-el"
+   ],
+   [
+    "2609.20054v1",
+    "hep-th"
+   ],
+   [
+    "2609.20391v1",
+    "cond-mat.stat-mech"
+   ],
+   [
+    "2609.20666v1",
+    "physics.chem-ph"
+   ],
+   [
+    "2609.20773v2",
+    "astro-ph.EP"
+   ],
+   [
+    "2609.20924v1",
+    "hep-th"
+   ],
+   [
+    "2609.21128v1",
+    "cond-mat.quant-gas"
+   ],
+   [
+    "2609.21210v1",
+    "math.CA"
+   ],
+   [
+    "2609.21370v1",
+    "hep-th"
+   ],
+   [
+    "2609.21430v1",
+    "math-ph"
+   ],
+   [
+    "2609.21518v1",
+    "math.DG"
+   ],
+   [
+    "2609.21773v1",
+    "math.DG"
+   ],
+   [
+    "2609.21846v1",
+    "quant-ph"
+   ],
+   [
+    "2609.22084v1",
+    "hep-th"
+   ],
+   [
+    "2609.22780v1",
+    "math.QA"
+   ],
+   [
+    "2609.22861v1",
+    "math-ph"
+   ],
+   [
+    "2609.22930v1",
+    "hep-ph"
+   ],
+   [
+    "2609.23079v1",
+    "hep-th"
+   ],
+   [
+    "2609.23357v1",
+    "gr-qc"
+   ],
+   [
+    "2609.23399v1",
+    "hep-th"
+   ],
+   [
+    "2609.23424v1",
+    "math.DG"
+   ],
+   [
+    "2609.23664v1",
+    "quant-ph"
+   ],
+   [
+    "2609.23743v1",
+    "math.DS"
+   ],
+   [
+    "2609.23933v1",
+    "physics.soc-ph"
+   ],
+   [
+    "2609.24017v1",
+    "physics.optics"
+   ],
+   [
+    "2609.24037v1",
+    "math.GR"
+   ],
+   [
+    "2609.24314v2",
+    "math.AG"
+   ],
+   [
+    "2609.24406v1",
+    "math.DG"
+   ],
+   [
+    "2609.24443v1",
+    "physics.plasm-ph"
+   ],
+   [
+    "2609.24488v1",
+    "math.DG"
+   ],
+   [
+    "2609.24785v1",
+    "physics.flu-dyn"
+   ],
+   [
+    "2609.24905v1",
+    "cond-mat.stat-mech"
+   ],
+   [
+    "2609.24912v1",
+    "hep-th"
+   ],
+   [
+    "2609.24998v1",
+    "astro-ph.CO"
+   ],
+   [
+    "2609.25090v1",
+    "physics.gen-ph"
+   ],
+   [
+    "2609.25118v1",
+    "physics.chem-ph"
+   ],
+   [
+    "2609.25139v1",
+    "q-bio.QM"
+   ],
+   [
+    "2609.25206v1",
+    "hep-th"
+   ],
+   [
+    "2609.25215v1",
+    "hep-th"
+   ],
+   [
+    "2609.25268v1",
+    "math.DG"
+   ],
+   [
+    "2609.25530v1",
+    "hep-th"
+   ],
+   [
+    "2609.25608v1",
+    "cond-mat.mes-hall"
+   ],
+   [
+    "2609.25783v1",
+    "physics.med-ph"
+   ],
+   [
+    "2609.25857v1",
+    "hep-th"
+   ],
+   [
+    "2609.25880v1",
+    "math.DG"
+   ],
+   [
+    "2609.25893v1",
+    "math.AP"
+   ],
+   [
+    "2609.26294v1",
+    "physics.med-ph"
+   ],
+   [
+    "2609.26391v1",
+    "gr-qc"
+   ],
+   [
+    "2609.26681v1",
+    "cond-mat.soft"
+   ]
+  ],
+  "triage": {
+   "titles": "every title in all ten query lists",
+   "abstracts": "about 60",
+   "full_methods": [
+    "2609.26758v1",
+    "2609.26384v1",
+    "2609.12742v1"
+   ],
+   "sections": {
+    "2609.25938v1": "design headings, s8 discussion+limitations",
+    "2609.24200v1": "s3.3-3.5, s4",
+    "2609.20758v1": "s2, s3.1, s5",
+    "2609.24052v1": "Prop.1, eqs 16-18, s5 excerpt",
+    "2609.24574v1": "abstract, intro, s4.4-4.5 excerpts",
+    "2609.22512v1": "abstract, appendix A.1 formula"
+   },
+   "fetched_not_read": [
+    "2609.12365v1",
+    "2609.18672v1",
+    "2609.12156v1",
+    "2609.20538v1"
+   ],
+   "raw_sha256": {
+    "2609.12156v1.html": "18d70298bde7326dd3ea7ae33c91d9be34f18b32161e247f7eec95e168949e36",
+    "2609.12365v1.html": "93a684766e501324444c2c991d7c94182787b821c84e7e851729f9efc68edb26",
+    "2609.12742v1.html": "6536c1237f29995fe240f4e8e578b32c7e0838679109f3f7cdfebe307504438e",
+    "2609.18672v1.html": "bb9d65999b90ce22a9129da877e49bb52f630cad87361dc4549156dd16b1194a",
+    "2609.20538v1.html": "5be66f5c8e079b795ce057a664e4508734995c82e00bca04998d17cdcae6cf21",
+    "2609.20758v1.html": "a169afaecc2f0c70ec11212a9f39deb18ec41df4e5b4ed2d2012c9ac037d91ec",
+    "2609.22512v1.html": "3e10454ae36991a2ce9800191de29f7931c33626d05e48b9fd3262a38cedda97",
+    "2609.24052v1.html": "7f611732de7469d069b1d9cc94189f30555d2b794f7cdf0c6aa152eb095d4570",
+    "2609.24200v1.html": "3e17f8d644ef1e643e497fcc393e682a30fd5d3d713d1018b64f2fb8bd8b30c8",
+    "2609.24574v1.html": "9106672066a4943fd424aea66120f73f1c52963f6ec63331b8fab53af11f474a",
+    "2609.25938v1.html": "da01b1a29f251e827a7860461c2b42770e772a6978758383fdb9575a6f04b89a",
+    "2609.26384v1.html": "03e8509c2ad15bbe9d541c5ae32d5fb83ea5ab47a69177922115d34a5f6e13e5",
+    "2609.26758v1.html": "a889c20b6e74dcae12b8e6bcc235608dfab7a6709de57b2c8df3167a6cb5436a",
+    "abs_2609.00662.html": "01c0dcb5578c0f8c3dbbf91a1c1c588e13a9900eb27a7b350dbabe2c604129fa",
+    "abs_2609.14907.html": "f2d509152eae4569a9b74f74966e443f356878e084ebfc3fcc3985cc3df19ede",
+    "abs_2609.22048.html": "c94a7b39c8ca23f1a213e6c232fd9e275147621708ac2ecc2a5b7033852ba5d6",
+    "classical_idlist.xml": "91c701e2c5a8f3f74337c8b7e461741e074c5674ce8b7cc39f59bf46a166336e",
+    "classical_posthoc.xml": "c8ca2b94745e554f53958d2138df60fa03ce5d8e55829096fce7066189ceace0",
+    "classical_twostage.xml": "2058249109566c5166661f9b73f879808e1bc3c8e8c556d26c119ac9f8c2648a",
+    "q01_selective_0.xml": "5e5d90ed70ad407c10a5cf0c814e765984822f504fe6d84c0019f064c573ce76",
+    "q02_defer_0.xml": "1ff7249605eec258cf43dbc78f63f15bd6cc9e8d944464da4953bed58f345a12",
+    "q03_conformal_0.xml": "227d1f0929d894ecca35325a8694ed1bddc80cd3cc9363857a25845785aeba29",
+    "q03_conformal_200.xml": "d4d8083d079c8fff360118cfe47b75de3fe037163526eefd0b63dfb5d7e76874",
+    "q04_routing_0.xml": "fc7b743363a89d14a50683b20cd02543c94a7d97217509335a92d3a0e19c6b86",
+    "q05_judge_0.xml": "62320d20d17870019bbbdc212b671cb36c540ebf2ca67779046bd95e22c07a93",
+    "q06_uncert_0.xml": "9f33da11c6c96467b896bd75351502e64dea3db6f5f933c3ff9af4624f6f53bf",
+    "q07_stateval_0.xml": "441d20be1801bea1cfabef3f540bf95a56679a1d024d7f19ef9c79cbc57e8fdb",
+    "q08_promptopt_0.xml": "34adb2bee688f522e81436b3779c61c4e7ecaad278c8dfb09cc4cb275f952b4f",
+    "q09_dfl_0.xml": "253ad0cc66817843803c578e97beee6e394f9305c8d5175e90aaa487c6b3aac8",
+    "q10_voi_0.xml": "b340019e328ad3eea5f1bb33ee22e3ee017515a8b4d6966adf7a745be2157d37",
+    "watched_idlist.xml": "6508b4b02f2dfa56ebb655cd321d858083c3e23c225f541e947323faf073656d"
+   }
+  },
+  "watched_versions": {
+   "2609.22048": "v1 only",
+   "2609.14907": "v1 only",
+   "2609.00662": "v1 only"
+  },
+  "carded": [
+   {
+    "id": "2609.10996v1",
+    "title": "Rethinking Verbalized Confidence for LLM-as-a-Judge: A Compatibility Shift on Post-2025 Proprietary Models",
+    "published": "2026-09-10T02:17:35Z",
+    "updated": "2026-09-10T02:17:35Z",
+    "depth": "abstract",
+    "disposition": "archive-only",
+    "html_sha256": null
+   },
+   {
+    "id": "2609.12156v1",
+    "title": "A decision-basis contract for auditable LLM-assisted medical billing verification: deterministic rules, verbatim evidence, and fail-closed abstention",
+    "published": "2026-09-10T19:43:39Z",
+    "updated": "2026-09-10T19:43:39Z",
+    "depth": "HTML fetched, not read",
+    "disposition": "archive-only (fetched, not read)",
+    "html_sha256": "18d70298bde7326dd3ea7ae33c91d9be34f18b32161e247f7eec95e168949e36"
+   },
+   {
+    "id": "2609.12365v1",
+    "title": "Certified AI Triage of ICU Alarms",
+    "published": "2026-09-11T02:34:40Z",
+    "updated": "2026-09-11T02:34:40Z",
+    "depth": "HTML fetched, not read",
+    "disposition": "archive-only",
+    "html_sha256": "93a684766e501324444c2c991d7c94182787b821c84e7e851729f9efc68edb26"
+   },
+   {
+    "id": "2609.12742v1",
+    "title": "Skill Issue: Lessons from Optimizing Repository SKILLs for Coding Agents",
+    "published": "2026-09-11T11:41:29Z",
+    "updated": "2026-09-11T11:41:29Z",
+    "depth": "full methods",
+    "disposition": "investigate",
+    "html_sha256": "6536c1237f29995fe240f4e8e578b32c7e0838679109f3f7cdfebe307504438e"
+   },
+   {
+    "id": "2609.12752v1",
+    "title": "Optimizing for the decision not the prediction: an exploration of Smooth Net Benefit as a training objective",
+    "published": "2026-09-11T12:01:05Z",
+    "updated": "2026-09-11T12:01:05Z",
+    "depth": "abstract",
+    "disposition": "archive-only",
+    "html_sha256": null
+   },
+   {
+    "id": "2609.14438v1",
+    "title": "A latent dimension of Condorcet's jury theorem for multiple AI advisers",
+    "published": "2026-09-13T11:25:05Z",
+    "updated": "2026-09-13T11:25:05Z",
+    "depth": "abstract",
+    "disposition": "archive-only",
+    "html_sha256": null
+   },
+   {
+    "id": "2609.14758v1",
+    "title": "Fabrication After Tool Failure: Tool-Augmented Agents Assert Values Their Tools Did Not Return",
+    "published": "2026-09-13T19:46:42Z",
+    "updated": "2026-09-13T19:46:42Z",
+    "depth": "abstract",
+    "disposition": "archive-only",
+    "html_sha256": null
+   },
+   {
+    "id": "2609.16793v1",
+    "title": "Available but Unclaimed: An Empirical Study of Human-AI Synergy",
+    "published": "2026-09-15T08:01:37Z",
+    "updated": "2026-09-15T08:01:37Z",
+    "depth": "abstract",
+    "disposition": "refine-reference",
+    "html_sha256": null
+   },
+   {
+    "id": "2609.17306v1",
+    "title": "Mo' Models, Mo' Problems: How to best select model pools when designing Multi-Agent Systems",
+    "published": "2026-09-15T15:17:29Z",
+    "updated": "2026-09-15T15:17:29Z",
+    "depth": "abstract",
+    "disposition": "refine-reference",
+    "html_sha256": null
+   },
+   {
+    "id": "2609.18204v1",
+    "title": "Beyond Accuracy: How Procedural Traces Shift the Decision Criterion of LLM Overseers",
+    "published": "2026-09-16T06:37:46Z",
+    "updated": "2026-09-16T06:37:46Z",
+    "depth": "abstract",
+    "disposition": "investigate",
+    "html_sha256": null
+   },
+   {
+    "id": "2609.18672v1",
+    "title": "Selection Is Retrieval, Abstention Is Not: On-Device Tool Routing over 70 Korean-English Actions",
+    "published": "2026-09-16T13:50:41Z",
+    "updated": "2026-09-16T13:50:41Z",
+    "depth": "HTML fetched, not read",
+    "disposition": "archive-only",
+    "html_sha256": "bb9d65999b90ce22a9129da877e49bb52f630cad87361dc4549156dd16b1194a"
+   },
+   {
+    "id": "2609.19942v1",
+    "title": "Intrinsic Sequence-Likelihood Confidence in Retrieval-Dominated Extractive QA: Two Pre-Specified Negatives, and What They Do and Do Not Attribute",
+    "published": "2026-09-17T09:17:00Z",
+    "updated": "2026-09-17T09:17:00Z",
+    "depth": "abstract",
+    "disposition": "refine-reference",
+    "html_sha256": null
+   },
+   {
+    "id": "2609.20538v1",
+    "title": "Refuse, Decompose, Refresh: A Claim-Safe Protocol for Closed-Loop AI Evaluation",
+    "published": "2026-09-17T15:09:16Z",
+    "updated": "2026-09-17T15:09:16Z",
+    "depth": "HTML fetched, not read",
+    "disposition": "archive-only (fetched, not read)",
+    "html_sha256": "5be66f5c8e079b795ce057a664e4508734995c82e00bca04998d17cdcae6cf21"
+   },
+   {
+    "id": "2609.20758v1",
+    "title": "Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation",
+    "published": "2026-09-17T17:42:29Z",
+    "updated": "2026-09-17T17:42:29Z",
+    "depth": "sections: s2, s3.1, s5",
+    "disposition": "refine-reference",
+    "html_sha256": "a169afaecc2f0c70ec11212a9f39deb18ec41df4e5b4ed2d2012c9ac037d91ec"
+   },
+   {
+    "id": "2609.22512v1",
+    "title": "Agreement Overstates Evidence: Error Dependence in LLM Judge Consensus",
+    "published": "2026-09-18T19:20:40Z",
+    "updated": "2026-09-18T19:20:40Z",
+    "depth": "sections: abstract, appendix A.1 formula",
+    "disposition": "archive-only",
+    "html_sha256": "3e10454ae36991a2ce9800191de29f7931c33626d05e48b9fd3262a38cedda97"
+   },
+   {
+    "id": "2609.24052v1",
+    "title": "Calibrated Decisions at Scale: Converting Police Crash Narratives into Probabilistic Crash Variables with a System One Model (Jev)",
+    "published": "2026-09-21T03:24:47Z",
+    "updated": "2026-09-21T03:24:47Z",
+    "depth": "sections: Prop.1, eqs 16-18, s5 excerpt",
+    "disposition": "investigate",
+    "html_sha256": "7f611732de7469d069b1d9cc94189f30555d2b794f7cdf0c6aa152eb095d4570"
+   },
+   {
+    "id": "2609.24200v1",
+    "title": "Forgeable Confirmation in Automated Computer Security Testing: Deterministic Rules versus AI Judges",
+    "published": "2026-09-21T07:15:19Z",
+    "updated": "2026-09-21T07:15:19Z",
+    "depth": "sections: s3.3-3.5, s4",
+    "disposition": "refine-reference",
+    "html_sha256": "3e17f8d644ef1e643e497fcc393e682a30fd5d3d713d1018b64f2fb8bd8b30c8"
+   },
+   {
+    "id": "2609.24574v1",
+    "title": "Evaluating Decision Models for Text Annotation in Computational Social Science",
+    "published": "2026-09-21T13:41:54Z",
+    "updated": "2026-09-21T13:41:54Z",
+    "depth": "sections: abstract, intro, s4.4-4.5 excerpts",
+    "disposition": "archive-only",
+    "html_sha256": "9106672066a4943fd424aea66120f73f1c52963f6ec63331b8fab53af11f474a"
+   },
+   {
+    "id": "2609.25173v1",
+    "title": "Attack Success Rate Is Not a Number: On Measurement Validity in Agentic AI Security Evaluation",
+    "published": "2026-09-21T14:16:59Z",
+    "updated": "2026-09-21T14:16:59Z",
+    "depth": "abstract",
+    "disposition": "archive-only",
+    "html_sha256": null
+   },
+   {
+    "id": "2609.25848v1",
+    "title": "Optimizing the Score, Losing Sight of the Task: Reward Hacking Across Weights, Selection, and Prompts",
+    "published": "2026-09-22T08:12:58Z",
+    "updated": "2026-09-22T08:12:58Z",
+    "depth": "abstract",
+    "disposition": "archive-only",
+    "html_sha256": null
+   },
+   {
+    "id": "2609.25938v1",
+    "title": "Certified Against Which Oracle? Execution Labels Set the Reported Risk of Conformal Abstention for Text-to-SQL",
+    "published": "2026-09-22T09:44:24Z",
+    "updated": "2026-09-22T09:44:24Z",
+    "depth": "sections: design headings, s8 discussion+limitations",
+    "disposition": "refine-reference",
+    "html_sha256": "da01b1a29f251e827a7860461c2b42770e772a6978758383fdb9575a6f04b89a"
+   },
+   {
+    "id": "2609.26384v1",
+    "title": "Learning to Defer with Guidance on Real World Medical Data",
+    "published": "2026-09-22T13:26:20Z",
+    "updated": "2026-09-22T13:26:20Z",
+    "depth": "full methods",
+    "disposition": "refine-reference",
+    "html_sha256": "03e8509c2ad15bbe9d541c5ae32d5fb83ea5ab47a69177922115d34a5f6e13e5"
+   },
+   {
+    "id": "2609.26532v1",
+    "title": "REFLEX with Jev for Efficient Selective Control in LLM Agents",
+    "published": "2026-09-22T14:54:02Z",
+    "updated": "2026-09-22T14:54:02Z",
+    "depth": "abstract",
+    "disposition": "refine-reference",
+    "html_sha256": null
+   },
+   {
+    "id": "2609.26550v1",
+    "title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
+    "published": "2026-09-22T15:05:56Z",
+    "updated": "2026-09-22T15:05:56Z",
+    "depth": "abstract",
+    "disposition": "archive-only",
+    "html_sha256": null
+   },
+   {
+    "id": "2609.26758v1",
+    "title": "Type-Safe Is Not Error-Free: A Constrained Decision Head Follows the Option Name, Not the Rubric Bound to It",
+    "published": "2026-09-22T17:38:12Z",
+    "updated": "2026-09-22T17:38:12Z",
+    "depth": "full methods",
+    "disposition": "refine-reference",
+    "html_sha256": "a889c20b6e74dcae12b8e6bcc235608dfab7a6709de57b2c8df3167a6cb5436a"
+   }
+  ],
+  "older_work": [
+   {
+    "id": "2301.09633v4",
+    "depth": "abstract",
+    "disposition": "investigate"
+   },
+   {
+    "id": "2311.01453v2",
+    "depth": "abstract",
+    "disposition": "archive-only"
+   },
+   {
+    "id": "2403.03208v3",
+    "depth": "abstract",
+    "disposition": "refine-reference (supports audit-sample candidate)"
+   },
+   {
+    "id": "1908.04734v5",
+    "depth": "abstract",
+    "disposition": "refine-reference (supports writable-channel candidate)"
+   },
+   {
+    "id": "2006.01862v3",
+    "depth": "abstract; version unchanged from decision-jobs card",
+    "disposition": "refine-reference (supports rejector candidate)"
+   },
+   {
+    "id": "2410.15729v5",
+    "depth": "abstract",
+    "disposition": "refine-reference (supports rejector candidate)"
+   },
+   {
+    "id": "2502.01027v4",
+    "depth": "abstract",
+    "disposition": "archive-only"
+   },
+   {
+    "id": "1705.08500v2",
+    "depth": "metadata (release-delta lens); version unchanged",
+    "disposition": "archive-only"
+   },
+   {
+    "id": "1711.06664v3",
+    "depth": "metadata only",
+    "disposition": "archive-only"
+   }
+  ],
+  "kept_row_fields": [
+   "id",
+   "title",
+   "published",
+   "primary_category",
+   "query_hits"
+  ],
+  "kept_rows": [
+   [
+    "2609.10927v1",
+    "Surprise Reduction and Nullification in Bayesian and Inverse Bayesian Inference under Ambiguous Prediction-Error Attribution",
+    "2026-09-10",
+    "stat.ME",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.10961v1",
+    "When More Is Not Better: Component Anti-Synergy in a P300 Speller",
+    "2026-09-10",
+    "cs.LG",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.10962v1",
+    "What a Random Draw from the MCP Registry Contains, and What Tool-Use Benchmarks Contain Instead",
+    "2026-09-10",
+    "cs.SE",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.10970v1",
+    "Fengshui: Demystifying Chiplet Ecosystem and Bespoke Neural Network Accelerator Codesign",
+    "2026-09-10",
+    "cs.AR",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.10980v1",
+    "EGGROLL, Unrolled: Understanding and Improving Low-Rank Evolution Strategies at Scale",
+    "2026-09-10",
+    "cs.LG",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.10983v1",
+    "A variational physics-informed graph neural network for heterogeneous solid mechanics",
+    "2026-09-10",
+    "math.NA",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.10986v3",
+    "A Mathematical Theory of Pragmatic Information",
+    "2026-09-10",
+    "cs.IT",
+    [
+     "q10_voi"
+    ]
+   ],
+   [
+    "2609.10996v1",
+    "Rethinking Verbalized Confidence for LLM-as-a-Judge: A Compatibility Shift on Post-2025 Proprietary Models",
+    "2026-09-10",
+    "cs.CL",
+    [
+     "q05_judge",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.11028v1",
+    "BenchShield: Formal Model-Backed Instrumentation for Reward Integrity in LLM-Agent Evaluation Infrastructure",
+    "2026-09-10",
+    "cs.CR",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.11061v1",
+    "Fork Where the Model Changes Its Mind: Belief-Shift Branching for Tree-Structured Reinforcement Learning",
+    "2026-09-10",
+    "cs.AI",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.11063v1",
+    "The information geometry of large language models is shared, learned, and controllable",
+    "2026-09-10",
+    "cs.LG",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.11067v1",
+    "When Noise Fabricates Bias: The Fragility of LLM-as-a-Judge Bias Measurement under Noisy Text",
+    "2026-09-10",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.11073v1",
+    "Conformal-DRO: Distributionally Robust Optimization with Conformalized Ambiguity Set",
+    "2026-09-10",
+    "math.OC",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.11133v1",
+    "Phase-Decoupled, Model-Calibrated Power Control for Disaggregated LLM Serving",
+    "2026-09-10",
+    "cs.LG",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.11148v1",
+    "OmniTable: A Unified Wide-Table System for Petabyte-Scale LLM Data Curation and Exploration",
+    "2026-09-10",
+    "cs.DB",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.11163v1",
+    "LILA: Calibration-Free Structured Pruning of Large Language Models via Latent Spectral Geometry",
+    "2026-09-10",
+    "cs.LG",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.11167v1",
+    "Mixed Hybrid High-Order Methods for Sixth-Order Problems: Fully Non-conforming and $C^0$-Conforming Discretizations",
+    "2026-09-10",
+    "math.NA",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.11180v2",
+    "SemVerBench: Benchmarking LLM Comprehension of Version-Constraint Resolution Semantics",
+    "2026-09-10",
+    "cs.AI",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.11183v1",
+    "Single-Loop Gradient Algorithms for Pessimistic Bilevel Optimization Problems",
+    "2026-09-10",
+    "math.OC",
+    [
+     "q09_dfl"
+    ]
+   ],
+   [
+    "2609.11192v1",
+    "FlexComp: One Model for Every Ratio in Context Compression",
+    "2026-09-10",
+    "cs.CL",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.11234v1",
+    "NovGauge: A Fine-Grained Benchmark for Diagnosing LLMs' Capability in Paper Novelty Assessment",
+    "2026-09-10",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.11258v1",
+    "SoulAuth: An Actor-native Identity Architecture and Rust Reference Implementation for Humans and Long-lived AI Actors",
+    "2026-09-10",
+    "cs.CY",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.11264v1",
+    "Can AI Remediate Backend Failures Safely? GuardedAct with Blast-Radius-Aware Sandboxing",
+    "2026-09-10",
+    "cs.DC",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.11291v2",
+    "Off-Target Effects of Response-Style Alignment in a Korean 27B Language Model",
+    "2026-09-10",
+    "cs.AI",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.11310v1",
+    "Your Model Already Knows Don't Teach It, Learn to Ask It: Soft Prompting for Few-Shot Adaptation of Vision-Language Models",
+    "2026-09-10",
+    "cs.CV",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.11315v1",
+    "Routing by Reasoning Need: Trajectory-Aware Decoding Control for Diffusion Vision-Language Models",
+    "2026-09-10",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.11319v2",
+    "Magenta: Closing the Loop Between Mathematical Reasoning and Lean Verification",
+    "2026-09-10",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.11326v2",
+    "Rice's Theorem under Self-Modification: Elevation Operators and a Normal Form",
+    "2026-09-10",
+    "cs.LO",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.11413v1",
+    "Heterogeneous Cross-Chain Transaction Tracing for Solana Bridges via Candidate-Set Selective Decision",
+    "2026-09-10",
+    "cs.CR",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.11414v1",
+    "SWRouter: Similarity-Contractive Window Routing for Multi-Turn Large Language Model Conversations",
+    "2026-09-10",
+    "cs.CL",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.11452v1",
+    "RouteRepair: Instance-Level Failure Diagnosis and Targeted Repair in LLM-Based Automated Heuristic Design for Routing Optimization",
+    "2026-09-10",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.11493v1",
+    "From Document Silos to Process Intelligence: A Multi-Layer Knowledge Graph for CMC Process Development",
+    "2026-09-10",
+    "cs.AI",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.11498v2",
+    "ActMap: Single-Pass Uncertainty Quantification from Generation-Time Activation Maps",
+    "2026-09-10",
+    "cs.AI",
+    [
+     "q01_selective",
+     "q04_routing",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.11524v1",
+    "Risk-Averse Decision Making with Multi-Level Reliability Guarantees",
+    "2026-09-10",
+    "stat.ML",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.11596v1",
+    "From Intent to Execution Grant: An Execution-Boundary Conformance Profile for High-Risk AI Actions",
+    "2026-09-10",
+    "cs.CR",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.11636v1",
+    "MAPLE: Memory-Augmented Planning with Language and Evolution",
+    "2026-09-10",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.11646v1",
+    "Your Retriever Already Knows: Distribution-Shape QPP for RAG Retrieval Sufficiency",
+    "2026-09-10",
+    "cs.IR",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.11709v1",
+    "When Agents Disagree: Bayesian Backward Reasoning as a Label-Free Anchor for Multi-Agent Collective Decision-Making",
+    "2026-09-10",
+    "cs.AI",
+    [
+     "q05_judge",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.11740v1",
+    "From Good Starts to Optimal Inference: Generalized Latent Factor Models with Missingness and Implicit Regularization",
+    "2026-09-10",
+    "math.ST",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.11762v1",
+    "Component-Aware Differential Privacy for Federated Multilingual Speech-LLMs",
+    "2026-09-10",
+    "cs.CL",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.11823v2",
+    "Conformal Margins for Electrical Transmission Capacity Under Fixed Balancing Policies",
+    "2026-09-10",
+    "math.OC",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.11838v1",
+    "Target leakage, not model class, explains reported accuracy in survey-based cardiovascular screening: a leakage-tiered audit of glass-box and tabular foundation models",
+    "2026-09-10",
+    "cs.CL",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.11859v1",
+    "From Parameters to Answers: How LLMs Retrieve and Use Their Internal Knowledge",
+    "2026-09-10",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.11864v1",
+    "RetroThinker: Enabling Retrospective Thinking in Speech LLMs",
+    "2026-09-10",
+    "eess.AS",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.11878v1",
+    "Domain-Specific Hallucination Detection in Large Language Models",
+    "2026-09-10",
+    "cs.CL",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.11882v2",
+    "From Specs to Apps: Verifying and Monitoring Models of Signal and WhatsApp",
+    "2026-09-10",
+    "cs.CR",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.11917v1",
+    "Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data",
+    "2026-09-10",
+    "cs.LG",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.12002v1",
+    "Can We Trust LLM Judges: A Study of Capability-Dependent Biases and Multi-Judge Ensemble for Bias Calibration",
+    "2026-09-10",
+    "cs.LG",
+    [
+     "q05_judge",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.12017v1",
+    "When Agent Metrics Measure Different Things: An Evidence-Grounded Audit of the Praxa AI Pipeline",
+    "2026-09-10",
+    "cs.SE",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.12039v1",
+    "Reality Is the Final Verifier: On Two Key Gaps in Agentic Software Engineering",
+    "2026-09-10",
+    "cs.SE",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.12101v1",
+    "Competence-Gated Pooling of Language Models and Priors for Event Forecasting",
+    "2026-09-10",
+    "cs.AI",
+    [
+     "q01_selective",
+     "q02_defer",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.12105v1",
+    "Language Is an Insufficient Substrate for Quantitative Reasoning, and Consequential Domains Need Large Quantitative Models",
+    "2026-09-10",
+    "cs.AI",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.12111v1",
+    "The Cost of Compression: A Rate-Distortion Limit on Factual Hallucination",
+    "2026-09-10",
+    "cs.CL",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.12156v1",
+    "A decision-basis contract for auditable LLM-assisted medical billing verification: deterministic rules, verbatim evidence, and fail-closed abstention",
+    "2026-09-10",
+    "cs.SE",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.12162v1",
+    "Can LLMs in Draft-Verify-Revise Pipelines Resolve Deictic Ambiguity?",
+    "2026-09-10",
+    "cs.AI",
+    [
+     "q04_routing",
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.12191v1",
+    "GAUGE: When Not to Trust LLM-as-a-Judge in User-Simulated Evaluation of Task-Oriented Agents",
+    "2026-09-10",
+    "cs.CL",
+    [
+     "q05_judge",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.12216v1",
+    "Guardrailed Meta-Agent Loops: Stress-Testing Policy Pinning, Budget Bounds, and Crash Recovery",
+    "2026-09-10",
+    "cs.RO",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.12230v1",
+    "Repair Before Reinforce: Context-Augmented Knowledge Graph Reasoning for Multi-Hop Question Answering",
+    "2026-09-10",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.12272v1",
+    "Tact: A Zero-Cost, Browser-Based Pipeline for On-Demand Tactile Braille Storybooks",
+    "2026-09-10",
+    "cs.HC",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.12298v1",
+    "FRIST: FMRI Representation Informed Shared-space Training Improves EEG-only Individual-Finger BCI Decoding",
+    "2026-09-11",
+    "cs.LG",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.12345v1",
+    "ParaRecover: A Process-Level Benchmark for Error Localization and Recovery in Parallel Tool-Use Agents",
+    "2026-09-11",
+    "cs.LG",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.12353v1",
+    "SynthSentry: Detecting Synthetic Data Contamination in Language Model Training Data",
+    "2026-09-11",
+    "cs.CL",
+    [
+     "q06_uncert",
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.12365v1",
+    "Certified AI Triage of ICU Alarms",
+    "2026-09-11",
+    "cs.LG",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.12386v1",
+    "Split Conformal Prediction with Label-Shift-Adjusted Bayesian Scores",
+    "2026-09-11",
+    "cs.LG",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.12403v1",
+    "Beyond ID Embeddings: Process-Grounded Language Modeling for Cognitive Diagnosis",
+    "2026-09-11",
+    "cs.AI",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.12412v1",
+    "HoliBench: A Cross-Platform Benchmarking and Deployment Toolkit for Foundation Models in CPS-IoT Applications",
+    "2026-09-11",
+    "cs.DC",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.12439v1",
+    "Debiasing as a Measurement Intervention: Calibrated Ties and Resolution Loss in LLM-as-a-Judge Evaluation",
+    "2026-09-11",
+    "cs.DL",
+    [
+     "q05_judge",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.12459v1",
+    "EvoRS: On-Policy Self-Evolution of Reward Systems for Open-Ended Reinforcement Learning",
+    "2026-09-11",
+    "cs.AI",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.12493v1",
+    "Recoverability Is a Subspace Property: A Benchmark for Certified State Estimation from Partial PDE Observations",
+    "2026-09-11",
+    "stat.ME",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.12517v1",
+    "One Skill Does Not Fit All: Automatic Discovery and Taxonomy-Guided Routing of Frame-Selection Skills for Long-Video Question Answering",
+    "2026-09-11",
+    "cs.CV",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.12533v1",
+    "Earth-Agent-Pro: Towards Real-World Full-Chain Earth Observation with Agents",
+    "2026-09-11",
+    "cs.CV",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.12543v1",
+    "Stable Improvement Cycle Mechanism Versus Efficiency-adjusted Deferred Acceptance Mechanism beyond Weak Priority Orders",
+    "2026-09-11",
+    "econ.TH",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.12558v1",
+    "School Choice Problems with Priority Adjustments",
+    "2026-09-11",
+    "econ.TH",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.12575v1",
+    "Calibrated Ambiguity in Multimodal Language Models: Humans reach for cultural references, while models describe the picture",
+    "2026-09-11",
+    "cs.CL",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.12579v1",
+    "SCOPE-OPSD: Fisher-Conditioned Privileged Subspaces for On-Policy Self-Distillation",
+    "2026-09-11",
+    "cs.LG",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.12607v1",
+    "Direct Preference Density Alignment for Conversational Audio Equalization",
+    "2026-09-11",
+    "cs.SD",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.12623v1",
+    "SteerDuplex: Steerable Duplex Speech Dialogue Models",
+    "2026-09-11",
+    "cs.AI",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.12656v1",
+    "Separating Engineering Reasoning from DEXPI Serialization in LLM-Based Greenfield Surface-Process Design: A Three-Case Study for Underground Gas Storage",
+    "2026-09-11",
+    "cs.SE",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.12678v1",
+    "Detecting and Explaining Fake News Short Videos with Multimodal Content and Real-World Evidence",
+    "2026-09-11",
+    "cs.CV",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.12694v1",
+    "I Am AdMan: A Pipeline for Automatic Generation of Personalized Advertising Imagery",
+    "2026-09-11",
+    "cs.AI",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.12742v1",
+    "Skill Issue: Lessons from Optimizing Repository SKILLs for Coding Agents",
+    "2026-09-11",
+    "cs.AI",
+    [
+     "q07_stateval",
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.12746v1",
+    "What Drives Recovery in Agentic Text-to-Cypher? LAST-CQ: An LLM Agent Self-Refinement Framework",
+    "2026-09-11",
+    "cs.AI",
+    [
+     "q04_routing",
+     "q05_judge",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.12747v1",
+    "Assisted Spatial Cognition Through Vision-Language Models",
+    "2026-09-11",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.12752v1",
+    "Optimizing for the decision not the prediction: an exploration of Smooth Net Benefit as a training objective",
+    "2026-09-11",
+    "cs.LG",
+    [
+     "q09_dfl"
+    ]
+   ],
+   [
+    "2609.12822v1",
+    "Scaling Clinical Judgment to Evaluate Medical AI",
+    "2026-09-11",
+    "cs.AI",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.12872v1",
+    "DuplexDrama: A Synthesized Dialogue Dataset with Scenarios, Full-Duplex Behaviors, Expressive Speech, and Sound Events",
+    "2026-09-11",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.12896v1",
+    "Behavior Quotient Learning for Low-Rank Adaptation of LLM Agents",
+    "2026-09-11",
+    "cs.LG",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.12917v1",
+    "PA-CDM: Position-Aware Character Detection Matching for Evaluating Handwritten Mathematical Expression Recognition",
+    "2026-09-11",
+    "cs.CV",
+    [
+     "q05_judge",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.12949v1",
+    "EduFair-Bench: Evaluating Pedagogical Fairness of LLM Tutors Across Student Demographics",
+    "2026-09-11",
+    "cs.AI",
+    [
+     "q05_judge",
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.13037v1",
+    "Mitigating Emergent Collusion in LLM Pricing Agents",
+    "2026-09-11",
+    "cs.GT",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.13058v1",
+    "Expert-Space Exploration in MoE Reinforcement Learning",
+    "2026-09-11",
+    "cs.CL",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.13062v1",
+    "Anchoring Clinical Events in Time: UID-Preserving Multimodal Reconstruction and Source-Grounded Adjudication",
+    "2026-09-11",
+    "cs.AI",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.13141v1",
+    "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
+    "2026-09-11",
+    "cs.CL",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.13303v1",
+    "Adaptive Conformal Redistribution for Inter-class Transitional Uncertainty in Medical Image Classification",
+    "2026-09-10",
+    "cs.CV",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.13395v1",
+    "Task-Aware Federated Fine-Tuning for MoE-based Large Language Models",
+    "2026-09-11",
+    "cs.LG",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.13422v1",
+    "Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents",
+    "2026-09-11",
+    "cs.AI",
+    [
+     "q05_judge",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.13425v1",
+    "ReCAST: Reward Credit Assignment across Timesteps for Online Diffusion Reinforcement",
+    "2026-09-11",
+    "cs.LG",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.13428v1",
+    "Chance-Constrained Belief-Space Maneuver Planning for Autonomous Collision Avoidance Under Uncertainty",
+    "2026-09-11",
+    "cs.RO",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.13449v1",
+    "MORTIS: Quadrature-compatible cofactor gauges and optimal material margins in finite elasticity",
+    "2026-09-11",
+    "math.NA",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.13453v1",
+    "A Machine Learning API for Earth Observation Data Cubes Based on openEO",
+    "2026-09-11",
+    "cs.LG",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.13458v1",
+    "STAGE: Diagnosing Semantic Transfer at Grounded Execution in Embodied Agents",
+    "2026-09-11",
+    "cs.RO",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.13470v1",
+    "OrchSLM: Probing the Dynamics of Small Language Model Orchestration",
+    "2026-09-11",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.13475v1",
+    "Grounded Adjudication of Variations across Extracted TimeLines (GAVEL): Comparing Clinical Timelines Against Their Case Reports",
+    "2026-09-11",
+    "cs.AI",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.13543v1",
+    "Asclepius: An Adaptive Harness for Long-Horizon Clinical Agents",
+    "2026-09-11",
+    "cs.AI",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.13556v1",
+    "Domain-Specific Jargon in Large Language Models: A Comparative Analysis between General-Purpose and Specialist Models",
+    "2026-09-11",
+    "cs.CL",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.13559v1",
+    "Carbon-Aware Routing for Function Calling in Edge-Cloud LLM Systems",
+    "2026-09-11",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.13592v1",
+    "BOOST: Concurrent Access to Host Memory and HBM to Accelerate LLM Inference",
+    "2026-09-11",
+    "cs.DC",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.13624v3",
+    "An Efficient and Modular Framework for Targeted Harm Mitigation in LLMS",
+    "2026-09-12",
+    "cs.LG",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.13657v1",
+    "Safety as a Constraint: Fine-Tuning a LLM Recommender to Explain Itself",
+    "2026-09-12",
+    "cs.AI",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.13682v1",
+    "LayerRoute: Adaptive Layer-Skipping with LoRA-Preserved Quality for Efficient LLM Inference",
+    "2026-09-12",
+    "cs.CL",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.13773v1",
+    "Does Reasoning Improve Psychological Depth in Large Language Models? It Depends on Who's Judging",
+    "2026-09-12",
+    "cs.LG",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.13774v1",
+    "From Benchmark to Deployment: Shift-Robust Fabric Recognition for Industrial Textile Onboarding",
+    "2026-09-12",
+    "eess.SY",
+    [
+     "q04_routing",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.13776v1",
+    "Surprising Effectiveness of Self-Demonstrations in Enhancing Schema-Ontology Mapping with LLMs",
+    "2026-09-12",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.13804v1",
+    "StepPrune: Adaptive Sequential Visual Token Selection across Multimodal Large Language Models",
+    "2026-09-12",
+    "cs.CV",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.13822v1",
+    "Domain splitting with localized implicit prediction for wave equations",
+    "2026-09-12",
+    "math.NA",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.13824v1",
+    "When Consistency Does Not Mean Reliability: Evaluating Local LLM Judges Against Human Ratings",
+    "2026-09-12",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.13849v1",
+    "UniCAR-RL: Seeing Better before Thinking Deeper in Visual Mathematics",
+    "2026-09-12",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.13864v1",
+    "An Uncertainty-Aware Hybrid Mathematical-Machine-Learning Model for Smart Irrigation Decision Support",
+    "2026-09-12",
+    "cs.LG",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.13893v1",
+    "Lie to me: Detecting Managerial Evasiveness in Earnings Calls via Conversational Audio Encoders",
+    "2026-09-12",
+    "cs.LG",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.13993v3",
+    "P$^3$Rec: Distilling Prior--Posterior Preference Reasoning for LLM-based Recommendation",
+    "2026-09-12",
+    "cs.IR",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.14080v1",
+    "Adapting Open-Weight MLLMs to Generate Point Prompts for Electron Microscopy Segmentation",
+    "2026-09-12",
+    "cs.CV",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.14098v1",
+    "The Deception Delta: Adversarial Evaluation of LLM-Based Smart Contract Bytecode Forensics",
+    "2026-09-12",
+    "cs.CR",
+    [
+     "q05_judge",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.14144v1",
+    "One Size Does Not Fit All: Setting Inference Depth from the Questions a Deployment Actually Asks",
+    "2026-09-12",
+    "cs.CL",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.14168v1",
+    "Towards Evolving Context Parameterization for Large Language Models",
+    "2026-09-12",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.14219v1",
+    "Task-Specified Active Metrological Inspection with Measurement-Steered VLA Manipulation and Deterministic Evidence Gating",
+    "2026-09-13",
+    "cs.RO",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.14226v1",
+    "Corpus Characterization and Inverse Constitutional Fine-Tuning for Style-Aware Radiology Reports",
+    "2026-09-13",
+    "cs.CL",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.14234v1",
+    "Graph-Transformer Fraud Detection with Self-Supervised Pretraining and Conformal Risk Control",
+    "2026-09-13",
+    "cs.LG",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.14239v1",
+    "CoArena: Evaluating Computer-Use and Multi-Agent Systems in Real Time",
+    "2026-09-13",
+    "cs.LG",
+    [
+     "q01_selective",
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.14257v1",
+    "DenMark: Robust Semantic Watermarking for Diffusion Language Models",
+    "2026-09-13",
+    "cs.CL",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.14284v2",
+    "Vision-Language Models for Criterion-Level Grading of Handwritten Examinations in Outcome-Based Education",
+    "2026-09-13",
+    "cs.CV",
+    [
+     "q04_routing",
+     "q06_uncert",
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.14302v1",
+    "E2A-Bench: Benchmarking Evidence-to-Action Reliability in Financial Chart Reasoning",
+    "2026-09-13",
+    "cs.CL",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.14413v1",
+    "A Hybrid Dependency-Aware Framework for Task Decomposition and Dynamic Agent Generation in Oracle-to-PostgreSQL Migration",
+    "2026-09-13",
+    "cs.LO",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.14419v1",
+    "A Generative AI Integrated Multimodal Framework for Low-Latency Multi-Camera Person Re-Identification",
+    "2026-09-13",
+    "cs.CV",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.14422v2",
+    "Safety Signals to Verify NetOps Agents with Action-Level Granularity",
+    "2026-09-13",
+    "cs.AI",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.14438v1",
+    "A latent dimension of Condorcet's jury theorem for multiple AI advisers",
+    "2026-09-13",
+    "cs.CY",
+    [
+     "q05_judge",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.14442v1",
+    "Toward Optimal Time-Space Tradeoffs for Set Reconciliation",
+    "2026-09-13",
+    "cs.DS",
+    [
+     "q09_dfl"
+    ]
+   ],
+   [
+    "2609.14455v1",
+    "Grounded in Sound: Reinforcement Learning with a Frozen Acoustic Judge to Curb ASR Insertion Hallucinations",
+    "2026-09-13",
+    "cs.SD",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.14467v1",
+    "Bridging the Modality Gap in Long-Form Clinical Audio: A Comparative Study of Lightweight and Heavyweight End-to-End SOAP Generation",
+    "2026-09-13",
+    "cs.SD",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.14531v1",
+    "Multi-source conformal prediction: leveraging heterogeneity via localization",
+    "2026-09-13",
+    "stat.ML",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.14637v2",
+    "DynSTEER: Dynamic Stage-wise Trajectory Evaluation and Execution-time Review for Agents",
+    "2026-09-13",
+    "cs.AI",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.14643v1",
+    "BigMoMo: Efficient Inference of Large-Scale MoE with Speculative Decoding on Mobile Devices",
+    "2026-09-13",
+    "cs.AR",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.14648v1",
+    "Optimizing Sparse Outcomes Through Dense Behavioral Signals via Value-Guided Preference Distillation",
+    "2026-09-13",
+    "cs.CL",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.14687v1",
+    "One Feedback System Does Not Fit All: Localising Data-to-Text Driver Coaching for the United Kingdom and Nigeria",
+    "2026-09-13",
+    "cs.CL",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.14699v1",
+    "Perceive, Refine, Reason: A Calibrated Pipeline for Measuring Indicators in Strategic Visual Communication on Social Media",
+    "2026-09-13",
+    "cs.CV",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.14723v1",
+    "Detecting and Localizing Segment-Level Poisoning in Multi-Source LLM-Agent Inputs",
+    "2026-09-13",
+    "cs.CR",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.14726v1",
+    "CALICO: A Human-Centered, Codebook-Aligned System for Annotation",
+    "2026-09-13",
+    "cs.HC",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.14729v1",
+    "Planar-faced and high-Jacobian two-refinement hexahedral templates",
+    "2026-09-13",
+    "cs.GR",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.14739v1",
+    "Building Legal Reward Models for Grounding and Abstention",
+    "2026-09-13",
+    "cs.CL",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.14740v1",
+    "Bridging Data, Reasoning, and Alignment: A Unified Framework for Context-Aware Instruction-Following TTS",
+    "2026-09-13",
+    "eess.AS",
+    [
+     "q04_routing",
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.14754v1",
+    "Calibrating Interpretability Instruments Before Trusting Their Verdicts",
+    "2026-09-13",
+    "cs.LG",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.14758v1",
+    "Fabrication After Tool Failure: Tool-Augmented Agents Assert Values Their Tools Did Not Return",
+    "2026-09-13",
+    "cs.SE",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.14762v1",
+    "TriCalRAG: A Three-Strategy, Retrieval-Augmented Benchmark for On-Premise LLM-Based Root Cause Analysis in AIOps",
+    "2026-09-13",
+    "cs.DC",
+    [
+     "q06_uncert",
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.14773v1",
+    "Pull: Lazy Materialization of Working Memory for Stateful LLM Conversations",
+    "2026-09-13",
+    "cs.CL",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.14819v2",
+    "A primer on evaluation methods for large language models in healthcare",
+    "2026-09-13",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.14825v1",
+    "Route, Don't Fix: Regime-Dependent Decoding Correction and a Trajectory-Gated Router for Reliable Clinical LLM Answer Selection",
+    "2026-09-13",
+    "cs.CL",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.14839v1",
+    "Efficiency Hallucination: Formalizing and Measuring Behavioral Calibration in LLM-Based Code Optimization",
+    "2026-09-13",
+    "cs.SE",
+    [
+     "q01_selective",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.14840v1",
+    "El Agente Potente: High-Throughput Agentic Atomistic Simulations",
+    "2026-09-13",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.14845v2",
+    "Accurate Models of AMD Matrix Cores",
+    "2026-09-13",
+    "cs.AR",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.14860v1",
+    "One Example Is Enough to Pass Fairness Benchmarks: Rethinking Fairness Evaluation for Aligned LLMs",
+    "2026-09-14",
+    "cs.CL",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.14861v1",
+    "Semantic Fibers and Cross-Gram Interference: A Calculus of Safety Drift in Overcomplete Representations",
+    "2026-09-14",
+    "cs.LG",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.14881v1",
+    "Toward Sustainable AI Deployment: A Carbon-Aware Decision Framework for Enterprise Supply Chain Systems",
+    "2026-09-14",
+    "cs.SE",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.14883v1",
+    "Reversibility-Verified De-identification for Cloud-Local LLM Inference: A Locally Certified Dehydrate-Rehydrate Loop with Layered Assurance (DR-SL)",
+    "2026-09-14",
+    "cs.CR",
+    [
+     "q04_routing",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.14885v1",
+    "Route Me If You Can: A Benchmark for Query Reformulation Selection",
+    "2026-09-14",
+    "cs.IR",
+    [
+     "q04_routing",
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.14896v1",
+    "Forty Shades of Blue: Quality-Diversity Alignment via Mode-Conditioned Reinforcement Learning",
+    "2026-09-14",
+    "cs.CL",
+    [
+     "q06_uncert",
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.14907v1",
+    "Strategic Decision Focused Learning",
+    "2026-09-14",
+    "cs.GT",
+    [
+     "q09_dfl"
+    ]
+   ],
+   [
+    "2609.14963v1",
+    "Can We Triage LLM Translation Errors in Classical Texts Without Human References? Source Novelty, GEMBA Scoring, and Budgeted Review through Pali-to-English Translation",
+    "2026-09-14",
+    "cs.CL",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.14976v1",
+    "MemRiskBench: Trace-Aware Risk-Preserving Evaluation for Long-Horizon LLM Agents",
+    "2026-09-14",
+    "cs.AI",
+    [
+     "q05_judge",
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.14982v1",
+    "efficient matrix-free gauss-newton traveltime tomography on full-metric deformed grids",
+    "2026-09-14",
+    "math.NA",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.14998v1",
+    "Shallow Beliefs: Synthetic document finetuning does not inoculate against emergent misalignment from reward hacking",
+    "2026-09-14",
+    "cs.AI",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.15015v1",
+    "Four Ledgers, Not One Score: Responsible Communication of LLM-Judge Calibration in Biomedical ML",
+    "2026-09-14",
+    "cs.AI",
+    [
+     "q05_judge",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.15054v1",
+    "BusMA: A Bus Communication Substrate for Multi-Agent Systems",
+    "2026-09-14",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.15077v1",
+    "Ensemble-Conditioned Molecular Design",
+    "2026-09-14",
+    "cs.LG",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.15078v1",
+    "Enabling Creative Exploration for Vibe Design Agents",
+    "2026-09-14",
+    "cs.AI",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.15079v1",
+    "Translating the Translator: Decomposing the Cost of English-Forced Inter-Agent Communication",
+    "2026-09-14",
+    "cs.CL",
+    [
+     "q04_routing",
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.15089v1",
+    "ER-EDF: A Psychology-Grounded Emotion Regulation Framework for Speech Empathetic Dialogue Generation in Large Audio-Language Models",
+    "2026-09-14",
+    "cs.AI",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.15111v1",
+    "Eigenvalue-Decomposition Cost Denoising as an Alternative to Predict-then-Optimize for Shortest-Path Problems",
+    "2026-09-14",
+    "econ.EM",
+    [
+     "q09_dfl"
+    ]
+   ],
+   [
+    "2609.15126v1",
+    "MoME: Mixture-of-Memory Embeddings for Context-Aware Sparse Lookup",
+    "2026-09-14",
+    "cs.CL",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.15131v1",
+    "AdaVSkip: Adaptive Visual Token Skipping Across Layers For Efficient MLLMs Inference",
+    "2026-09-14",
+    "cs.CV",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.15142v1",
+    "C$^2$Nav: Compare Before You Commit for Zero-Shot Vision-and-Language Navigation",
+    "2026-09-14",
+    "cs.RO",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.15164v1",
+    "CITECHOICE: A Causal Audit of How Document Presentation Redistributes Citation Credit in Agentic Search",
+    "2026-09-14",
+    "cs.CL",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.15172v1",
+    "STHMoE: Hypergraph-Enhanced Heterogeneous Dependency Coordination for LLM-Based Urban Traffic Data Forecasting",
+    "2026-09-14",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.15180v1",
+    "Rethinking Correctness for Uncertainty Estimation in Clinical Prediction with Vision-Language Models",
+    "2026-09-14",
+    "cs.LG",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.15182v1",
+    "VisInteract: Towards Dynamic Interactive Text-to-Visualization under Imperfect Queries",
+    "2026-09-14",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.15209v1",
+    "Failure-Guided Co-Evolution of Prompts and Training Data",
+    "2026-09-14",
+    "cs.SE",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.15230v1",
+    "ETCInfer: An Energy-efficient Thermal-aware Cooling-joint Scheduler for LLM Inference in AI Datacenters",
+    "2026-09-14",
+    "cs.DC",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.15254v1",
+    "Conformal Individual Treatment Effect Estimation under Networked Interference",
+    "2026-09-14",
+    "stat.ML",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.15293v2",
+    "Why LLM Agents Collapse Without Oversight: The Enforcement Gap as the Mechanism Behind Emergence World Failures",
+    "2026-09-14",
+    "cs.AI",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.15322v3",
+    "Planning in the Backbone: DiffAdapterVLA for Native Continuous Trajectory Generation with Driving VLMs",
+    "2026-09-14",
+    "cs.RO",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.15359v1",
+    "MAPS: Memory-Aware Predictive Scheduling Framework for Large Language Model Serving",
+    "2026-09-14",
+    "cs.AI",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.15384v1",
+    "Partitioned Co-Simulation for CAD-integrated Vibroacoustic Problems in Unbounded Domains",
+    "2026-09-14",
+    "cs.CE",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.15387v3",
+    "WebCraftBench: Evaluating Web Application Generation from a Software Testing Perspective",
+    "2026-09-14",
+    "cs.SE",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.15399v1",
+    "Dynamics-Informed Reinforcement Learning for Agile and Energy-Efficient Locomotion of a Monopedal Hopping Quadcopter",
+    "2026-09-14",
+    "cs.RO",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.15467v1",
+    "Turkish MMLU Pro: Traceable Option Augmentation and Its Validity Limits in Turkish Multiple-Choice Evaluation",
+    "2026-09-14",
+    "cs.CL",
+    [
+     "q06_uncert",
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.15520v1",
+    "Strongly enstrophy-stable integrators for the incompressible Navier-Stokes equations",
+    "2026-09-14",
+    "math.NA",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.15561v1",
+    "Can We Trust the Judges? Validation of Factuality Evaluation Methods via Answer Perturbation",
+    "2026-09-14",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.15576v1",
+    "Approval Integrity and Recovery in LLM Answer Publication",
+    "2026-09-14",
+    "cs.CR",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.15578v1",
+    "The Magnitude Mirage: Rethinking Confidence for Reasoning-Intensive Retrieval",
+    "2026-09-14",
+    "cs.IR",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.15618v1",
+    "IROH: Insightful Ranking Of Humor using Multi-Stage Hybrid Retrieval with Rationale-Distilled LLM Judges for JOKER 2026 Track Task 1 English",
+    "2026-09-14",
+    "cs.IR",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.15631v1",
+    "Flow-Matched Motion Priors: Online Optimal-Transport Rewards for Imitation Learning",
+    "2026-09-14",
+    "cs.RO",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.15781v1",
+    "When the World Lies: Backdoor Attacks on Latent World Models for Downstream Control",
+    "2026-09-14",
+    "cs.CR",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.15830v1",
+    "CiteGuard-RAG: A Validation-Centered AI System for Evidence-Grounded Question Answering",
+    "2026-09-14",
+    "cs.CL",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.15838v1",
+    "Per-Matrix Optimality Is Not Enough: Three-Level Optimization for Low-Rank LLM Compression",
+    "2026-09-14",
+    "cs.LG",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.15849v1",
+    "Before You Poll with LLMs: A Deliberative Diagnostic Framework",
+    "2026-09-14",
+    "cs.CL",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.15855v2",
+    "K-Bench: a clinically calibrated benchmark for evaluating large language models in high-risk mental health conversations",
+    "2026-09-14",
+    "cs.CL",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.15963v1",
+    "Adversarial Testing of Automated Program Repair Agents for Security Vulnerabilities",
+    "2026-09-14",
+    "cs.CR",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.15982v1",
+    "The Router Within: Eliciting Native Skill Routing from a Frozen LLM",
+    "2026-09-14",
+    "cs.LG",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.15983v2",
+    "Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science",
+    "2026-09-14",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.15987v1",
+    "Bellman Policy Optimization",
+    "2026-09-14",
+    "cs.LG",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.16023v1",
+    "Are We Grading Properly? Understanding Failure Modes in Medical Benchmarks",
+    "2026-09-10",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.16057v1",
+    "OmniHarness: Harnessing Generalizable Visual Generation via Symbolic Policy Learning",
+    "2026-09-13",
+    "cs.LG",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.16075v1",
+    "AssemblyGrid v1: A Benchmark for Multi-Robot Production with Temporary Coalitions, Local Information, and Geometric Constraints",
+    "2026-09-13",
+    "cs.RO",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.16093v1",
+    "Evaluating Open-Weight E-Commerce Agents with Environment-Grounded Verification",
+    "2026-09-14",
+    "cs.LG",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.16094v1",
+    "Multiorder Fractional Operators: The Conformable Multiorder Derivative and Its Associated Multiorder Integral",
+    "2026-09-14",
+    "math.GM",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.16206v1",
+    "Calibrate, Then Route: A Measured Study of Learned Request Routing for Disaggregated LLM Serving",
+    "2026-09-14",
+    "cs.AI",
+    [
+     "q04_routing",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.16232v1",
+    "Toward Governance-Aware Autonomous GIS: A Narrative Review of Ethical and Privacy Risks in LLM-Enabled GeoAI",
+    "2026-09-14",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.16268v1",
+    "Spurious Tool Use: When RL Agents Learn the Wrong Reason to Act",
+    "2026-09-14",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.16284v1",
+    "ProtoLIP: From Sentence-Level to Object-Level Evidence Disentanglement",
+    "2026-09-14",
+    "cs.CV",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.16305v1",
+    "BLINDSPOT: A Benchmark for Safety and Refusal Calibration in Long-Horizon Tool-Using Agents",
+    "2026-09-14",
+    "cs.AI",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.16340v1",
+    "StalePO: Anchored Token-Level Preference Optimization using Legacy Post-Edits in Machine Translation",
+    "2026-09-14",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.16366v2",
+    "How Humans and LLMs Read Gender into \"Gender-Neutral\" Physical Descriptions",
+    "2026-09-14",
+    "cs.CL",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.16368v1",
+    "UDAV: Uncertainty-Driven Adaptive VLM Waypoint Planner",
+    "2026-09-14",
+    "cs.RO",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.16382v1",
+    "Attention Mean Fields Predict Average Representation Dynamics and Reveal Context-Specific Computation",
+    "2026-09-14",
+    "cs.LG",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.16446v1",
+    "Adaptive Bayesian Partner Selection for Federated Clinical Centers",
+    "2026-09-15",
+    "cs.LG",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.16454v1",
+    "Fine-Tuning Fixes Mode Collapse and Over-Dispersion in LLMs",
+    "2026-09-15",
+    "cs.AI",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.16461v1",
+    "Protocol-Preserving Context Trimming for Agentic Workflows: Benefits, Failure Regimes, and Budget Guardrails",
+    "2026-09-15",
+    "cs.SE",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.16486v1",
+    "VPRef: A Cross-Domain Benchmark for Referring Remote Sensing Image Segmentation",
+    "2026-09-15",
+    "cs.CV",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.16487v1",
+    "Skill-based Agentic Evaluation for Real-time Data Science Tasks",
+    "2026-09-15",
+    "cs.AI",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.16501v1",
+    "Beyond the Name: Demographic Leakage in De-Identified Résumés and Evaluation Artifacts in LLM Bias Audits",
+    "2026-09-15",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.16560v1",
+    "ReliGRec: Reliability-Oriented LLM-Based Generative Recommendation via User-Risk-Aware Prompt Routing",
+    "2026-09-15",
+    "cs.IR",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.16601v1",
+    "SAVOR: Self-Aware Visual Grounding via Confidence-Calibrated Reinforcement Learning for Multimodal Hallucination Mitigation",
+    "2026-09-15",
+    "cs.CV",
+    [
+     "q01_selective",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.16604v1",
+    "ExecuCritic: Calibrated Critic Shaping for Code Generation with Verifiable Rewards",
+    "2026-09-15",
+    "cs.SE",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.16610v1",
+    "EgoPathBench: Evaluating Zero-Shot Egocentric Waypoint Decision-Making in Vision-Language Models",
+    "2026-09-15",
+    "cs.CV",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.16614v1",
+    "RoleBreak: Benchmarking Long-Horizon Role-Playing Robustness in Spoken Dialogue",
+    "2026-09-15",
+    "cs.CL",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.16647v1",
+    "ViD: Vision-Dominant Gender Bias Mitigation for Large Vision-Language Models",
+    "2026-09-15",
+    "cs.CV",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.16681v1",
+    "MarkSec: Capability-Aware Evaluation of Adversarial Attacks Against LLM Watermarks",
+    "2026-09-15",
+    "cs.CR",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.16730v1",
+    "LSREP: A Longitudinal State-Replay Protocol for Evaluating Conversational Memory, with ICE v2 as an Audited Local-First Architecture",
+    "2026-09-15",
+    "cs.AI",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.16739v1",
+    "Japanese Stroke LLM Evaluation: A Conversational Benchmark for Safe Stroke Care in Japanese Using Large Language Models",
+    "2026-09-15",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.16793v1",
+    "Available but Unclaimed: An Empirical Study of Human-AI Synergy",
+    "2026-09-15",
+    "cs.HC",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.16795v1",
+    "Layers, Sinks, and Scaling: Adaptive Evidence Selection for Multimodal Large Language Models",
+    "2026-09-15",
+    "cs.AI",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.16816v1",
+    "ImpossibleRubrics: Stress-Testing Generated Rubrics as Reward Signals",
+    "2026-09-15",
+    "cs.LG",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.16824v1",
+    "Adapting to Decision-Relevant Non-Stationarity in Decentralized Heterogeneous Bandits",
+    "2026-09-15",
+    "cs.LG",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.16841v1",
+    "StackTok: Accelerating VLMs Inference with Budget-Adaptive Visual Token Selection",
+    "2026-09-15",
+    "cs.CV",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.16855v1",
+    "Differentiable and Severity-invariant Discrete Tokens for Dysarthric Speech Recognition",
+    "2026-09-15",
+    "eess.AS",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.16858v1",
+    "TecoPrompt: Temporal-Conservative Prompt Learning for Vision-Language Models",
+    "2026-09-15",
+    "cs.CV",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.16890v1",
+    "Cascade: Hierarchical Recoverability Control for Large Language Model Unlearning",
+    "2026-09-15",
+    "cs.CL",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.16991v1",
+    "Autoformalizing Argumentative Material Inferences",
+    "2026-09-15",
+    "cs.CL",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.17004v1",
+    "Symmetry-Aware Likelihood-Orbit Aggregation for Selective Left-Right Claim Verification",
+    "2026-09-15",
+    "cs.CV",
+    [
+     "q01_selective",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.17021v1",
+    "sensVLA: Spatially-Grounded Vision-Language-Action Model for Autonomous Wheel Loader",
+    "2026-09-15",
+    "cs.CV",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.17062v1",
+    "A Set-Theoretic Evaluation Framework for Assessing Asset Administration Shell Instances: Towards Comparability and Suitability",
+    "2026-09-15",
+    "cs.SE",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.17091v1",
+    "Scaling-Score Conformal Prediction for Multi-Target Regression",
+    "2026-09-15",
+    "cs.AI",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.17130v1",
+    "Predicting Human Disagreement for Calibrated Dynamic Facial Expression Recognition",
+    "2026-09-15",
+    "cs.CV",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.17137v1",
+    "Latent Inversion of Material Coefficients from Boundary Data via Finite Tests and Neural Surrogates",
+    "2026-09-15",
+    "math.NA",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.17150v1",
+    "Observational Indistinguishability and Integrity Blind Regions in Hybrid Quantum-Classical Workflows",
+    "2026-09-15",
+    "cs.CR",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.17221v1",
+    "Grounding SWE-Agent Decisions in Architecture-0 Design: Navigating Unknown Unknowns through Physical Mapping",
+    "2026-09-15",
+    "cs.SE",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.17248v1",
+    "Video-HolmesV2: Can MLLMs Reason with Spatio-Temporal Audio-Visual Evidence in Long Videos?",
+    "2026-09-15",
+    "cs.CV",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.17251v1",
+    "Persistent Recurrent Memory Between Transformer Layers - Improves Language Model Generalization",
+    "2026-09-15",
+    "cs.CL",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.17271v1",
+    "Algebraic convergence analysis for the Interface Control Domain Decomposition (ICDD) method",
+    "2026-09-15",
+    "math.NA",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.17296v1",
+    "Conformal Policy Learning with Distribution-Free Safety Guarantees",
+    "2026-09-15",
+    "stat.ME",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.17300v1",
+    "Machine Zygote: Causal Biparental Heredity Before Learning in a Germline--Soma Artificial Agent",
+    "2026-09-15",
+    "cs.NE",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.17306v1",
+    "Mo' Models, Mo' Problems: How to best select model pools when designing Multi-Agent Systems",
+    "2026-09-15",
+    "cs.MA",
+    [
+     "q04_routing",
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.17320v1",
+    "Emergence World: Adversarial Stress-Testing of Long-Horizon Multi-Agent Systems",
+    "2026-09-15",
+    "cs.MA",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.17443v1",
+    "BrainFocus: EEG-Guided ROI Selection for Efficient Vision-Language Models",
+    "2026-09-15",
+    "cs.CV",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.17474v1",
+    "Coupled Calibration and Learning: Mitigating Teacher Bias in LLM Distillation without Target-Domain Reward Feedback",
+    "2026-09-15",
+    "cs.LG",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.17496v1",
+    "Verifiable Social Reasoning for LLM Assistants",
+    "2026-09-15",
+    "cs.AI",
+    [
+     "q10_voi"
+    ]
+   ],
+   [
+    "2609.17499v1",
+    "ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation",
+    "2026-09-15",
+    "cs.LG",
+    [
+     "q02_defer",
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.17516v1",
+    "When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control",
+    "2026-09-15",
+    "cs.CL",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.17625v1",
+    "Predictive Varanus: Combining CSP Conformance Monitoring with Predictive LTL Runtime Verification",
+    "2026-09-15",
+    "cs.RO",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.17632v1",
+    "EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents",
+    "2026-09-15",
+    "cs.AI",
+    [
+     "q10_voi"
+    ]
+   ],
+   [
+    "2609.17635v1",
+    "Physics-Constrained Digital Twins for Sensor Integrity in Urban Pedestrian Flow: Detecting Stealthy False Data Injection with Conformal Guarantees",
+    "2026-09-15",
+    "cs.AI",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.17640v1",
+    "Quiescence in Concert: Composing Multi-Channel Time-Outs for IOCO",
+    "2026-09-15",
+    "cs.SE",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.17686v1",
+    "The Missing \"I Don't Know\": Why Three Reasoning-Reliability Findings Converge on Calibrated Abstention",
+    "2026-09-15",
+    "cs.LG",
+    [
+     "q01_selective",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.17698v1",
+    "A Large-Scale Empirical Study of Quality Assurance Practices and Gaps in AI Agents",
+    "2026-09-15",
+    "cs.SE",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.17708v1",
+    "Confidence Comes from Experience: Experiential Confidence Estimation from Reasoning to Agents",
+    "2026-09-15",
+    "cs.CL",
+    [
+     "q01_selective",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.17709v1",
+    "One Size Does Not Fit All! Dynamic Retriever and Generator Selection for RAG",
+    "2026-09-15",
+    "cs.IR",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.17777v1",
+    "Information Set Emulation: Causal Certificates for AI Derived EHR Features",
+    "2026-09-15",
+    "stat.ME",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.17817v1",
+    "Reflections on Trusting Trust, Revisited: Contaminating Self-Modifying AI Coding Agents with Poisoned Benchmarks",
+    "2026-09-15",
+    "cs.CR",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.17823v1",
+    "METALICA: METAdynamics and repLICA exchange for enhanced diffusion sampling",
+    "2026-09-15",
+    "stat.ML",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.17857v1",
+    "Who Judges Matters: Measuring Family-Conditioned Preference in LLM-as-Judge Panels",
+    "2026-09-15",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.17863v1",
+    "The Inference Engineering Pareto Atlas: Which Optimizations Dominate the Cost, Quality, and Latency Frontier?",
+    "2026-09-15",
+    "cs.AI",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.17868v1",
+    "Lumen: Parameter-Efficient Alignment of Pretrained Vision and Language Encoders for Zero-Shot Computational Pathology",
+    "2026-09-15",
+    "cs.CV",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.17882v1",
+    "Can VLMs Reliably Assess Sidewalk Accessibility Attributes from Pedestrian-Level Imagery?",
+    "2026-09-15",
+    "cs.CV",
+    [
+     "q03_conformal",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.17940v1",
+    "Beyond the Previous Layer: Residual Predictive Structure in Sparse MoE Routing",
+    "2026-09-15",
+    "cs.LG",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.17977v1",
+    "When to Call an LLM: A Confidence-Gated Hybrid for Cost-Effective Emotion Recognition in Conversational AI",
+    "2026-09-16",
+    "cs.AI",
+    [
+     "q04_routing",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.17987v1",
+    "Multimodal Conditioning of Fine-Tuned Stable Diffusion XL for Controllable and Culturally Faithful Ulos Motif Generation",
+    "2026-09-16",
+    "cs.AI",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.18005v1",
+    "A Calibrated Instrument for Measuring How Inference Optimizations Affect Output Quality",
+    "2026-09-16",
+    "cs.CL",
+    [
+     "q05_judge",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.18037v1",
+    "SetPlanner: A Lightweight Plug-in Point-Set Planner for Frozen SAM",
+    "2026-09-16",
+    "cs.CV",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.18041v1",
+    "Correlation-Guided Encoder Selection for Multi-Encoder Large Audio-Language Models",
+    "2026-09-16",
+    "eess.AS",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.18052v1",
+    "An Empirical Evaluation of Cost-Efficient Large Language Models on Algorithmic Programming Tasks",
+    "2026-09-16",
+    "cs.SE",
+    [
+     "q03_conformal",
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.18057v1",
+    "Anchoring What Matters: A Dual-Level Learning Framework for Visually-Grounded Multimodal Reasoning",
+    "2026-09-16",
+    "cs.AI",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.18101v1",
+    "Optimal Network Dependence in Distributed Stochastic Optimization via Tree Routing",
+    "2026-09-16",
+    "math.OC",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.18128v1",
+    "Symbolic Temporal Supervision of LLM Agents Using Contracts",
+    "2026-09-16",
+    "cs.AI",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.18165v1",
+    "LUMO: Designing Luminous Contact Morphology for Repeatable Whole-Finger Contact Observation",
+    "2026-09-16",
+    "cs.RO",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.18176v2",
+    "MoRE: Mixture of Reused Experts",
+    "2026-09-16",
+    "cs.LG",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.18182v1",
+    "WFM: Wiki Foundation Model for Complex Agentic Reasoning",
+    "2026-09-16",
+    "cs.AI",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.18188v1",
+    "Single-Token Expected-Value Scoring for Cold-Start Candidate Ranking",
+    "2026-09-16",
+    "cs.IR",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.18204v1",
+    "Beyond Accuracy: How Procedural Traces Shift the Decision Criterion of LLM Overseers",
+    "2026-09-16",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.18238v1",
+    "F-DACE: Fuzzy Disagreement-Aware Causal Evidence Fusion for Abstention-Safe Conversational Retail Decision Support",
+    "2026-09-16",
+    "cs.LG",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.18274v1",
+    "I code or AI code: A comparative evaluation of AI-rated scores in classroom observations",
+    "2026-09-16",
+    "cs.CL",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.18284v1",
+    "Made in Hungary: Comments on the performance of generative language models",
+    "2026-09-16",
+    "cs.CL",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.18286v1",
+    "What Counts as Strategic Reasoning? A Systematic Mapping of Chess Research on Humans, Engines, and Language Models",
+    "2026-09-16",
+    "cs.AI",
+    [
+     "q02_defer",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.18296v1",
+    "One-Step Retrieval Framework for Real-Time Sponsored Search Ads Using Hierarchical Text Representations",
+    "2026-09-16",
+    "cs.IR",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.18320v1",
+    "Attention Dispersion as a Diagnostic Signal for Hallucination in Large Language Models",
+    "2026-09-16",
+    "cs.CL",
+    [
+     "q06_uncert",
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.18341v1",
+    "Understanding AI Provider Recommendations in Local Service Markets",
+    "2026-09-16",
+    "cs.CY",
+    [
+     "q10_voi"
+    ]
+   ],
+   [
+    "2609.18424v1",
+    "What Does a Benford Test Actually Test? Marginal Conformity, Sampling Structure, and Forensic Inference",
+    "2026-09-16",
+    "stat.ME",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.18453v1",
+    "The Mirage of Calibrated Confidence: Trajectory-Independence of Verbalized Confidence in Vision-Language Models",
+    "2026-09-16",
+    "cs.AI",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.18470v1",
+    "Divide and Conquer: Mixture-of-Bottleneck Experts in Informative Ordinal Space for Video-based Multimodal Sentiment Analysis",
+    "2026-09-16",
+    "cs.MM",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.18521v1",
+    "VoiceTrace: A Benchmark and Retrieval Framework for Who-Said-What Speech Retrieval",
+    "2026-09-16",
+    "cs.SD",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.18595v1",
+    "ReDIL-GNN: Resynthesis Domain Incremental Learning for Circuit Graph Neural Networks",
+    "2026-09-16",
+    "cs.LG",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.18605v1",
+    "PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?",
+    "2026-09-16",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.18642v1",
+    "STRETCH the Boundaries: A Unified Self-Taught Framework for Progressive LLM Evolution",
+    "2026-09-16",
+    "cs.CL",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.18652v1",
+    "A Reynolds-Semi-Robust, Globally Divergence-Free HDG Method for the Smagorinsky Model",
+    "2026-09-16",
+    "math.NA",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.18657v1",
+    "Pressure-robustness by commuting interpolation operators for Stokes discretizations with continuous pressures",
+    "2026-09-16",
+    "math.NA",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.18672v1",
+    "Selection Is Retrieval, Abstention Is Not: On-Device Tool Routing over 70 Korean-English Actions",
+    "2026-09-16",
+    "cs.CL",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.18675v1",
+    "HBFlex: A Flexible Memory System for Bridging Fine-Grained LLM States and Coarse-Grained HBF Parallel Execution",
+    "2026-09-16",
+    "cs.AR",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.18677v1",
+    "Voice of Reason: Reinforcement Learning for Spoken Math",
+    "2026-09-16",
+    "cs.CL",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.18679v1",
+    "GNN-Accelerated Mixed-Integer Dual MPC for Interactive Driving",
+    "2026-09-16",
+    "eess.SY",
+    [
+     "q09_dfl"
+    ]
+   ],
+   [
+    "2609.18686v1",
+    "Multi-Teacher Distillation for Cross-Domain Streaming Electrolaryngeal Speech Encoding",
+    "2026-09-16",
+    "cs.SD",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.18708v1",
+    "Rethinking Critic Learning in PPO: Understanding and Mitigating Value Flattening",
+    "2026-09-16",
+    "cs.LG",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.18718v1",
+    "Calibrated Probabilistic Obstruction Reasoning with Vision-Language Models for Grasping in Clutter",
+    "2026-09-16",
+    "cs.RO",
+    [
+     "q02_defer",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.18723v1",
+    "Beyond Truncation: Rethinking LLM Decoding as Ensemble Pruning",
+    "2026-09-16",
+    "cs.AI",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.18766v2",
+    "FRAUDSkill: Structured Frozen-Weight Skill Optimization for Audio Anti-Fraud Detection",
+    "2026-09-16",
+    "cs.SD",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.18860v1",
+    "Decodable but Misrouted: Sparse Features Uncover a Readout Gap in Vision-Language Models for Harmful Meme Detection",
+    "2026-09-16",
+    "cs.CV",
+    [
+     "q04_routing",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.18863v1",
+    "Physics-based prediction, uncertainty quantification and decision-making for IN718 crystallographic texture intensity across LPBF defocus regimes",
+    "2026-09-16",
+    "cs.LG",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.18908v1",
+    "How Much is a Human Right Worth? ECtHR-NPD: A Benchmark for Predicting Non-Pecuniary Damage Awards",
+    "2026-09-16",
+    "cs.CL",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.18910v1",
+    "CaSCo: Cascade-Aware Soft-Collision Motion Planning",
+    "2026-09-16",
+    "cs.RO",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.18916v1",
+    "Higher-order pruning of experts in mixture-of-experts language models",
+    "2026-09-16",
+    "cs.LG",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.19093v1",
+    "Reporting Practice Matters: The Impact of Reference Choice on Chest X-ray Report Evaluation",
+    "2026-09-16",
+    "cs.CL",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.19101v1",
+    "Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations",
+    "2026-09-16",
+    "cs.CL",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.19134v1",
+    "ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments",
+    "2026-09-16",
+    "cs.CL",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.19140v1",
+    "AgentLSD: Evaluating AI Security Agents Under Adversarial Task Contamination",
+    "2026-09-16",
+    "cs.CR",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.19183v1",
+    "Message capacity and claim wording set the transition points of collective truth-finding in language-model networks",
+    "2026-09-15",
+    "cs.MA",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.19320v1",
+    "Optimal Control and Closed-Loop Stability of Droplet Transport in a Microchannel",
+    "2026-09-16",
+    "eess.SY",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.19328v1",
+    "A Morphing Aerial Robot With Thruster-Integrated Flexible Continuum Links for Shape Adaptive Aerial Manipulation",
+    "2026-09-16",
+    "cs.RO",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.19336v1",
+    "Dynamic-LIVO: A Dynamic-Aware LiDAR-Inertial-Visual Odometry System Using Spatio-Temporal Normals",
+    "2026-09-16",
+    "cs.RO",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.19352v1",
+    "FloatLib: Verified Floating-Point Arithmetic in Lean",
+    "2026-09-16",
+    "cs.LO",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.19357v1",
+    "Learning Submanifolds for Subsequent Inference on Random Dot Product Graphs, Part 1: Theory",
+    "2026-09-16",
+    "stat.ML",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.19421v1",
+    "RGS: Reflection-aware Gaussian Splatting via Learning Geometry Continuity for Reflective Objects",
+    "2026-09-16",
+    "cs.CV",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.19441v1",
+    "Predict Before You Deploy: Offline Prediction of Quantization-Induced Task Degradation for World Action Models",
+    "2026-09-16",
+    "cs.RO",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.19483v1",
+    "SCOUT: Sim-to-Real Text-Based Person Retrieval by Embedding-Space Prediction over Frozen Video Features",
+    "2026-09-16",
+    "cs.CV",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.19512v1",
+    "CoreSense: Traceable Failure Recall and Conflict-Aware Belief Gating for Auditable Robot Decisions",
+    "2026-09-17",
+    "cs.RO",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.19519v1",
+    "An Architecture for Long-Horizon Agents: Levels, Ticks and Cascaded Intelligence",
+    "2026-09-17",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.19526v1",
+    "Self Improvement via Fast Tree-search",
+    "2026-09-17",
+    "cs.AI",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.19541v1",
+    "Navigate or Relocate? Planning Among Movable Obstacles in Unknown Environments",
+    "2026-09-17",
+    "cs.RO",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.19599v1",
+    "Human-Anchored Inference for Ranking New Models with Large Language Model Judges",
+    "2026-09-17",
+    "math.ST",
+    [
+     "q05_judge",
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.19607v1",
+    "DeltaSelect: Affordable A/B Testing for Coding Agents",
+    "2026-09-17",
+    "cs.SE",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.19615v1",
+    "Semantic Layer Induction from Raw Telemetry via Hierarchical LLM and RAG Abstraction",
+    "2026-09-17",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.19616v1",
+    "The Complexity Kink: A Prompt-Side Structural Complexity Index for Code-Generation Reliability",
+    "2026-09-17",
+    "cs.LG",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.19617v1",
+    "DataCanvas-EDU: An Agentic Framework for Instructor-Guided Synthetic Data Generation in Business Analytics Education",
+    "2026-09-17",
+    "cs.HC",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.19630v1",
+    "From Intent to Action: Benchmarking LLM Safety in Vehicle Voice Command Authorization",
+    "2026-09-17",
+    "cs.AI",
+    [
+     "q02_defer",
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.19634v1",
+    "Scientific Image Quality Assessment via Multi-modal Retrieval-Augmented Generation",
+    "2026-09-17",
+    "cs.CV",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.19640v1",
+    "A Policy Profile for Croissant: Refusal as a Property of the Dataset",
+    "2026-09-17",
+    "cs.LG",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.19705v1",
+    "SoK: Trading Agents or Market Crashers? Dissecting Robustness and Security Failures in Academic Financial LLM Trading Schemes",
+    "2026-09-17",
+    "cs.CR",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.19803v1",
+    "HEROIC: Heterogeneous Evidential Reasoning for Open-Vocabulary Identification and Cross-Robot Collaboration",
+    "2026-09-17",
+    "cs.RO",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.19824v1",
+    "TADreamer: Zero-Shot Language-Guided 3D Navigation for Terrestrial-Aerial Bimodal Robots via Video Imagination",
+    "2026-09-17",
+    "cs.RO",
+    [
+     "q04_routing",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.19843v1",
+    "A Dual-Process Perspective on Nudge Susceptibility in LLM-Based GUI Agents",
+    "2026-09-17",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.19873v1",
+    "AURA: Adaptive Uncertainty-Routed Analysis for Email Threat Detection",
+    "2026-09-17",
+    "cs.LG",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.19879v1",
+    "VākQA: A Benchmark and Evaluation Study for Telugu Spoken Factoid Question Answering",
+    "2026-09-17",
+    "cs.CL",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.19942v1",
+    "Intrinsic Sequence-Likelihood Confidence in Retrieval-Dominated Extractive QA: Two Pre-Specified Negatives, and What They Do and Do Not Attribute",
+    "2026-09-17",
+    "cs.CL",
+    [
+     "q01_selective",
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.20004v1",
+    "EPIG-Tree: Compute-Optimal Branching for Gradient-Efficient Reinforcement Learning",
+    "2026-09-17",
+    "cs.LG",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.20005v1",
+    "Geopolitical Divisions Across Languages in Large Language Models",
+    "2026-09-17",
+    "cs.AI",
+    [
+     "q10_voi"
+    ]
+   ],
+   [
+    "2609.20016v1",
+    "Governance-as-Code: Translating EU AI Act Technical Requirements into Executable Compliance Pipelines for Generative AI Systems",
+    "2026-09-17",
+    "cs.CY",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.20068v1",
+    "Marginal utility, matrix factorization, and the Key-Value (KV) cache: a unified information-economic framework for sovereign geo-mining inference",
+    "2026-09-17",
+    "cs.AI",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.20089v1",
+    "UnifiedPlayers: Enhance Tool-Integrated Reasoning in Agentic Reinforcement Learning",
+    "2026-09-17",
+    "cs.AI",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.20104v1",
+    "Design of the IBM Granite 5.0 TurboCTC ASR Model",
+    "2026-09-17",
+    "cs.CL",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.20110v1",
+    "Perception, Layout, and Validation: Calibrated Confidence for Reliable Straight-Through Processing of Financial Documents",
+    "2026-09-17",
+    "cs.AI",
+    [
+     "q03_conformal",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.20129v1",
+    "Local Sparsity Enables Unsupervised LLM Safety Detection",
+    "2026-09-17",
+    "cs.LG",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.20130v1",
+    "AdaRepair-Mem: Adaptive Experience Orchestration for Repository-Level Program Repair",
+    "2026-09-17",
+    "cs.SE",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.20152v1",
+    "MTVA-Bench: Evaluating the Language Model Inside Cascaded Voice Agents",
+    "2026-09-17",
+    "cs.AI",
+    [
+     "q04_routing",
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.20347v1",
+    "STR-Agent: An LLM-Driven Agent for QoS-Aware Routing in LEO Satellite Networks",
+    "2026-09-17",
+    "cs.NI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.20370v1",
+    "The More It Says, the More You Pay: A Black-Box Audit of Provider-Side Token Inflation in LLM Services",
+    "2026-09-17",
+    "cs.CR",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.20455v1",
+    "SkillAA: Attribution-Guided Skill-Graph Updating with Targeted Validation and Rollback",
+    "2026-09-17",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.20530v1",
+    "Relational Attention for Data-Efficient Language Modeling",
+    "2026-09-17",
+    "cs.CL",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.20538v1",
+    "Refuse, Decompose, Refresh: A Claim-Safe Protocol for Closed-Loop AI Evaluation",
+    "2026-09-17",
+    "cs.AI",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.20541v1",
+    "An Analysis of Training-Free Self-Reported Confidence in Language Models",
+    "2026-09-17",
+    "cs.CL",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.20543v1",
+    "Language-model groups overstate consensus when replaying human deliberation on a reasoning task",
+    "2026-09-17",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.20584v1",
+    "SAFARI: An Industrial Benchmark for LLM-Assisted Hazard Analysis and Risk Assessment",
+    "2026-09-17",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.20620v1",
+    "A Simulation Platform for AUV Fault Recovery: Exploring LLM-Based Diagnostic Strategies",
+    "2026-09-17",
+    "cs.RO",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.20684v1",
+    "HerHealthEval: Evaluating Multilingual and Register-Sensitive Understanding of Women's Health Communication",
+    "2026-09-17",
+    "cs.CL",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.20712v1",
+    "Summarization Bias: The Directional Collapse of Objective Projection into Told-Mode Labels in Large Language Models --- A Conceptual Framework and Registered Test Protocol",
+    "2026-09-17",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.20720v1",
+    "What Parents Can See: Divergent Accounts of Youth AI Companion Use in Parenting and Teenager Subreddits",
+    "2026-09-17",
+    "cs.HC",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.20725v1",
+    "Superselection theory for 2D braided quantum spin systems via Connes fusion",
+    "2026-09-17",
+    "math.OA",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.20744v2",
+    "Video DeltaNet: A Video-Native Hybrid Attention for Livestream Video Generation",
+    "2026-09-17",
+    "cs.LG",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.20751v1",
+    "dQwen3.5: Hybrid-Attention Diffusion Language Models",
+    "2026-09-17",
+    "cs.CL",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.20754v1",
+    "RAFT: A Stateful Retrieval-Augmented Framework for Troubleshooting Agents",
+    "2026-09-17",
+    "cs.AI",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.20758v1",
+    "Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation",
+    "2026-09-17",
+    "stat.ML",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.20822v1",
+    "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
+    "2026-09-17",
+    "cs.RO",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.20888v1",
+    "Elastic Threshold Attention: Learned Contextual Sparsity for Long-Context Decoding",
+    "2026-09-16",
+    "cs.LG",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.20889v1",
+    "Proxifield: Decentralized Multi-Agent Communication through Semantic Proximity",
+    "2026-09-16",
+    "cs.MA",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.20973v1",
+    "Complex Problem Solving in Large Language Models: A Statistical Control Survey and Diagnostic Framework",
+    "2026-09-17",
+    "stat.ML",
+    [
+     "q01_selective",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.20974v1",
+    "Attention-Aware Routing: Coupling Routing and Attention in MoEs",
+    "2026-09-17",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.20983v1",
+    "PIVOT: Physically Informed Vision-Language Off-Road Traversability for Field Robot Navigation",
+    "2026-09-17",
+    "cs.RO",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.21100v1",
+    "Dynamics-Induced Commitment in Learning-Based Robotic Penalty Kicks",
+    "2026-09-17",
+    "cs.RO",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.21139v1",
+    "TinyCeNN-LM: Quality-Gated Conversion of Pretrained Attention with CeNN-Inspired Cellular-Recurrent Layers",
+    "2026-09-17",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.21148v1",
+    "Distribution-Free Budgeted Stealthy Attack Scheduling for Remote State Estimation",
+    "2026-09-17",
+    "eess.SY",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.21197v1",
+    "Reliability-Centered Evaluation of Sparse Longitudinal CT Lesion-Size Forecasting with Conformal Interval Calibration and Gompertz-Inspired Regularization",
+    "2026-09-18",
+    "cs.LG",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.21208v1",
+    "Information-Gain Rewards over Diversity-Pruned Tests: GT-Anchored Verifier Co-Training for Reliable Code Generation",
+    "2026-09-18",
+    "cs.AI",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.21217v1",
+    "X-SPUR: Explainable Surprisal-Based Protocol-Aware Unsupervised Reasoning for Automotive Ethernet Intrusion Detection",
+    "2026-09-18",
+    "cs.CR",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.21263v1",
+    "PlaceReasoner-Beta: Reasoning-Driven Macro Placement and Benchmarking",
+    "2026-09-18",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.21264v1",
+    "Programming AMD XDNA NPUs with Open-source Compiler Tools: A FlashAttention Case Study",
+    "2026-09-18",
+    "cs.AR",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.21267v1",
+    "Efficient Benchmarking in Production: A Study of an Evolving LLM Agent",
+    "2026-09-18",
+    "cs.AI",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.21269v1",
+    "Where quantum and quantum-like methods earn their place in behavioural-trial analysis: three simulation pilots across the RCT pipeline",
+    "2026-09-18",
+    "stat.ME",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.21285v1",
+    "GUIDE: Designer-in-the-loop Authoring of Conformant Generative User Interfaces",
+    "2026-09-18",
+    "cs.HC",
+    [
+     "q03_conformal",
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.21316v1",
+    "NaViRrator: Robot Navigation from Human-Readable Maps through a Learned Visual Route",
+    "2026-09-18",
+    "cs.RO",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.21340v1",
+    "Conformal Privacy Auditing: Calibrated Re-identification Attacks with Statistical Guarantees",
+    "2026-09-18",
+    "cs.CR",
+    [
+     "q03_conformal",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.21344v1",
+    "CESBench: Benchmarking Large Language Models on Cryptographic Engineering Security for IoT Devices",
+    "2026-09-18",
+    "cs.CR",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.21346v1",
+    "IntBMoE: Integrating Block-Level Conditioning into Expert Composition for Full-Participation Mixture-of-Experts",
+    "2026-09-18",
+    "cs.LG",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.21377v1",
+    "AVT-Fabric: Active Visuo-Tactile Perception via Adaptive Evidence Selection for Efficient Robotic Fabric Comparison",
+    "2026-09-18",
+    "cs.RO",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.21427v1",
+    "Decision-Focused Learning for Mean-Variance Portfolio Optimization via KKT-Based Reformulation",
+    "2026-09-18",
+    "cs.LG",
+    [
+     "q09_dfl"
+    ]
+   ],
+   [
+    "2609.21543v1",
+    "From Retrieval to Recognition:How Vision--Language Models Become OCR Specialists",
+    "2026-09-18",
+    "cs.CV",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.21550v1",
+    "OneBid: A Unified Auto-Bidding Foundation Model for Diverse oCPX Advertising Scenarios",
+    "2026-09-18",
+    "cs.LG",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.21616v1",
+    "Labelling Bug-Fixing Commits with Local Open-Weight Language Models",
+    "2026-09-18",
+    "cs.SE",
+    [
+     "q04_routing",
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.21626v1",
+    "One Prompt Does Not Fit All: Self-Meta-Evolve for Personalized Information Extraction",
+    "2026-09-18",
+    "cs.AI",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.21651v2",
+    "Configurable Multi-Stage Vision Pipeline for Crop Disease and Pest Diagnosis",
+    "2026-09-18",
+    "cs.CV",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.21681v2",
+    "Performance Analysis of Low-Order, GPU-accelerated Finite Element Kernels using Kokkos",
+    "2026-09-18",
+    "cs.PF",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.21704v1",
+    "SpecQuant: Speculative Decoding with Multi-Parent Quantization for Adaptive LLM Inference",
+    "2026-09-18",
+    "cs.LG",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.21722v1",
+    "CIBuzzBench: A Benchmark for Cross-Lingual Understanding of Chinese Internet Buzzwords",
+    "2026-09-18",
+    "cs.CL",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.21834v1",
+    "Beyond Shadow Weights: Quantization-Aware Training as Quantized-Endpoint Descent",
+    "2026-09-18",
+    "math.OC",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.21841v1",
+    "EnterpriseVal: Quantifying the Efficacy, Reliability and Value of Generative AI in the Enterprise",
+    "2026-09-18",
+    "cs.AI",
+    [
+     "q05_judge",
+     "q06_uncert",
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.21857v1",
+    "Do Personality-Tuned LLMs Make Better Social Agents?",
+    "2026-09-18",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.21862v1",
+    "Isogeometric analysis for the Helmholtz transmission eigenvalue problem",
+    "2026-09-18",
+    "math.NA",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.21888v1",
+    "Detecting Pretraining Data in Large Language Models from a Free-Energy Perspective",
+    "2026-09-18",
+    "cs.LG",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.21924v1",
+    "What Should We Ask Next? Retrieval-Aware Question Learning under Partial Evidence",
+    "2026-09-18",
+    "cs.AI",
+    [
+     "q10_voi"
+    ]
+   ],
+   [
+    "2609.21940v1",
+    "AutoViewMem: Self-Configuring Orthogonal Views for Conversational Long-Term Memory",
+    "2026-09-18",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.21942v1",
+    "When Should a Failing Robot Ask? Initiating Corrective Human-Robot Dialogue from Audited Sensor Evidence",
+    "2026-09-18",
+    "cs.RO",
+    [
+     "q10_voi"
+    ]
+   ],
+   [
+    "2609.21953v1",
+    "RACER: Role-Aligned Competence Estimation for Human-AI Routing",
+    "2026-09-18",
+    "cs.LG",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.22005v1",
+    "Abstention and Noise Filtering: Two Missing Primitives of Softmax Attention",
+    "2026-09-18",
+    "cs.LG",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.22038v1",
+    "QuranicMMLU: A Cognitively-Aware Benchmark for Evaluating Generative AI Solutions on Quranic Linguistic Knowledge",
+    "2026-09-18",
+    "cs.CL",
+    [
+     "q04_routing",
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.22043v1",
+    "An Interpretable Memory Decision Controller for LLM Agents Based on Three-Signal Complementarity: Decoupling Confidence and Consistency",
+    "2026-09-18",
+    "cs.CL",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.22048v1",
+    "Available Guardrails: Certifying Selective Prediction across ML Systems",
+    "2026-09-18",
+    "cs.LG",
+    [
+     "q04_routing",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.22056v1",
+    "Predictable Failure in Multi-Hop Retrieval: Score-Distributional Confidence Scoring and Abstention",
+    "2026-09-18",
+    "cs.IR",
+    [
+     "q01_selective",
+     "q05_judge",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.22275v1",
+    "The Doublet Tower of Cl(4,2): Universal Nilpotency, Projector Identities, and the sl(8,R) Parabolic from Conformal Null Vectors",
+    "2026-09-11",
+    "math.GM",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.22327v1",
+    "Visual Graph Reasoning via Knowledge Compilation",
+    "2026-09-16",
+    "cs.MM",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.22355v1",
+    "Bernstein Constraint Complexes for Multivariate Splines on Triangulated Surfaces",
+    "2026-09-17",
+    "math.NA",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.22356v1",
+    "Conformal Spherical Splines for the Laplace--Beltrami Operator on Genus-Zero Surfaces: Construction, Algorithm, and Experiments",
+    "2026-09-17",
+    "math.NA",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.22375v1",
+    "Initial Evaluation of Potential Bias in Coverage of Humans in Wikidata",
+    "2026-09-17",
+    "cs.CY",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.22510v1",
+    "Defusing Explosive Prompts: Understanding and Preventing Trigger-Based Prompt Injections in LLM Agents",
+    "2026-09-18",
+    "cs.CR",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.22512v1",
+    "Agreement Overstates Evidence: Error Dependence in LLM Judge Consensus",
+    "2026-09-18",
+    "cs.AI",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.22546v1",
+    "Learning Control Policies from Heterogeneous Multi-Horizon Time Series in Battery Energy Management Systems",
+    "2026-09-18",
+    "eess.SY",
+    [
+     "q09_dfl"
+    ]
+   ],
+   [
+    "2609.22592v1",
+    "AutoGym: Blueprint-First Generation of Verifiable Agent Gyms",
+    "2026-09-18",
+    "cs.AI",
+    [
+     "q05_judge",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.22599v1",
+    "MAWILE: Multi-Axis Workbench for Inspecting LLM Evaluators",
+    "2026-09-18",
+    "cs.AI",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.22603v1",
+    "Preserving What Matters: Semantic Scaffolds Beyond Saturation in Summarization Evaluation",
+    "2026-09-18",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.22607v1",
+    "Pretrained Persona Mixture Models and Tandem Models for Human Simulation",
+    "2026-09-18",
+    "cs.CL",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.22614v1",
+    "Concurrency-Aware Process Model Forecasting with Causal Nets",
+    "2026-09-18",
+    "cs.LG",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.22620v1",
+    "Splitting Documents at Lower Cost: Multi-Split Boundary Decisions for LLM-Based Page Stream Segmentation",
+    "2026-09-18",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.22632v1",
+    "Classification with Abstention Under Class-Conditional Error Constraints",
+    "2026-09-18",
+    "cs.LG",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.22647v1",
+    "Math2Visual-X: A Modular Framework for Pedagogically Aligned Lower-Primary Math Visuals Generation",
+    "2026-09-18",
+    "cs.CV",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.22694v1",
+    "Toward Auditable and Calibrated AI for Dementia-Related Crash Severity Prediction: A Selective Deferral Framework to Support Human Review",
+    "2026-09-19",
+    "cs.AI",
+    [
+     "q02_defer",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.22712v1",
+    "Trustworthy Agentic AI: Failure Modes, Mitigation Strategies, and a Lifecycle Framework for Autonomous LLM Systems",
+    "2026-09-19",
+    "cs.AI",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.22718v1",
+    "Criminal Justice Risk Assessments with Unreliable Class Assignments",
+    "2026-09-19",
+    "stat.AP",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.22755v1",
+    "NSP: Accelerating Variable-Length LLM Training via Nested Sequence Parallelism",
+    "2026-09-19",
+    "cs.DC",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.22774v1",
+    "NLPCC 2026 Task 10: Citation-Level Faithfulness Verification with DeBERTa Ensembles and Class-Wise Calibration",
+    "2026-09-19",
+    "cs.CL",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.22813v1",
+    "Commonsense-Grounded Path Planning from Abstract Instructions",
+    "2026-09-19",
+    "cs.RO",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.22818v1",
+    "The Price of Safety: Benign-Case Utility and Token Overhead of Memory-Poisoning Defenses in LLM Agents",
+    "2026-09-19",
+    "cs.CR",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.22819v1",
+    "Counterfactual Tool Ranking under Utility, Cost, and Privilege Constraints",
+    "2026-09-19",
+    "cs.LG",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.22870v1",
+    "Towards Full Pipeline FP8 Reinforcement Learning for LLMs",
+    "2026-09-19",
+    "cs.LG",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.22880v1",
+    "Per-Query Gating of LLM Rerankers for Multi-Hop Retrieval",
+    "2026-09-19",
+    "cs.IR",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.22884v1",
+    "Block-Sparse Attention with Semantic-Geometric Decoupled Routing",
+    "2026-09-19",
+    "cs.CL",
+    [
+     "q04_routing",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.22903v1",
+    "\"It Comes in Notebooks\": Changes and Challenges when Operationalizing ML Prototypes",
+    "2026-09-19",
+    "cs.SE",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.22949v1",
+    "Beyond Single-Model Injection: A Threat Model and Defense Architecture for Prompt Injection in Multi-Agent Systems",
+    "2026-09-19",
+    "cs.CR",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.22951v1",
+    "AgentRouter: Heterogeneous Model Routing for Cost-Optimal Multi-Step Agentic Workflows",
+    "2026-09-19",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.22955v1",
+    "The Zipped Finite Element Method on polyhedral meshes",
+    "2026-09-19",
+    "math.NA",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.22971v1",
+    "Automatic multimodal UX improvement recommendations from LLM agent user simulations",
+    "2026-09-19",
+    "cs.CL",
+    [
+     "q04_routing",
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.22978v1",
+    "DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale",
+    "2026-09-19",
+    "cs.DC",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.22985v1",
+    "Lorentz Hyperbolic Weighted Regression: Theory for Fixed and Estimated Representations",
+    "2026-09-19",
+    "stat.ME",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.23012v1",
+    "CrowdCue: Specialist-Cue Conditioning for Vision-Language Crowd Counting",
+    "2026-09-19",
+    "cs.CV",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.23032v1",
+    "Same Pattern, Different Answer: A Reference Semantics and Divergence Map for GQL and SQL/PGQ Path Patterns",
+    "2026-09-19",
+    "cs.DB",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.23039v1",
+    "Auditing Political Alignment in LLM Assistants: Engagement, Stance, and User Identity",
+    "2026-09-19",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.23085v1",
+    "Measured Joules, Learned Routes: Learning to Route for Energy-Efficient LLM Serving",
+    "2026-09-19",
+    "cs.PF",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.23103v1",
+    "DiagGen: Agentic Generation of Deformable Assets with Sim-based Diagnostics for Robotic Simulation",
+    "2026-09-19",
+    "cs.RO",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.23130v1",
+    "From Inference Engine to Inference Control Plane: Connecting vLLM, llm-d, and the Evolution of Efficient Distributed LLM Serving",
+    "2026-09-19",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.23131v1",
+    "Selective Commitment for Language-Guided Object Retrieval under Partial Observability",
+    "2026-09-19",
+    "cs.RO",
+    [
+     "q01_selective",
+     "q02_defer",
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.23138v1",
+    "Comparing different approaches to the concept of determinant: the multiplicative approach is the best!",
+    "2026-09-19",
+    "math.HO",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.23142v1",
+    "CraftBench-UE: Deterministic Evaluation for Coding Agents in Unreal Engine",
+    "2026-09-19",
+    "cs.AI",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.23170v1",
+    "Conformal Robustness in Prediction-Driven Decision-Making",
+    "2026-09-19",
+    "stat.ML",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.23201v1",
+    "Do Not Trust the Benchmark: Limitations of General LLM Rankings and a Case for Task-Specific Evaluation",
+    "2026-09-19",
+    "cs.AI",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.23205v1",
+    "Euston: Training Away Mathematical Sycophancy Without Losing the Mathematics",
+    "2026-09-19",
+    "cs.CL",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.23241v1",
+    "UQMIA: An Open, Hands-On Tutorial on Uncertainty Quantification in Medical Imaging Analysis with Large Language Model-Based Assessment of Educational Content",
+    "2026-09-19",
+    "eess.IV",
+    [
+     "q03_conformal",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.23264v1",
+    "Judging a Review by its Cover: A Reliability Analysis of LLM-based Peer Review Evaluation Metrics",
+    "2026-09-20",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.23280v1",
+    "Safety-Critical Control under Uncertainty via Adaptive Conformal Quantile Prediction Intervals",
+    "2026-09-20",
+    "cs.RO",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.23307v1",
+    "Semantic Candidate-Job Matching: A Comparative Evaluation of Dense Embedding Models in Hybrid Retrieval",
+    "2026-09-20",
+    "cs.IR",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.23320v1",
+    "CSC: Calibrated Simplicity for Conflict-Aware Social Bot Detection in the LLM Era",
+    "2026-09-20",
+    "cs.LG",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.23350v1",
+    "Retrieving predictive densities from conformal predictive distributions",
+    "2026-09-20",
+    "math.ST",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.23363v1",
+    "TicTacBench: Benchmarking Timing Closure Capabilities of Coding Agents",
+    "2026-09-20",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.23371v1",
+    "Machine-Interpretable Information: Compiling Documents into Searchable and Readable Protocol States",
+    "2026-09-20",
+    "cs.CL",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.23411v1",
+    "Misrecognition or Abstraction? Rethinking Outputs of Sound Event Recognition",
+    "2026-09-20",
+    "cs.SD",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.23536v1",
+    "Explicit State and Resource Contracts for Low-Precision Pipeline Parallel Training under Captured Graphs",
+    "2026-09-20",
+    "cs.DC",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.23600v1",
+    "PETR: Prompt Ensembling with Training-free Routing for Vision-Language Models",
+    "2026-09-20",
+    "cs.CV",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.23677v1",
+    "MuSeR: Scalable Long-sequence Recommendation with Multi-interest Modeling",
+    "2026-09-20",
+    "cs.IR",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.23703v1",
+    "Financial Language Models as Applied Artificial Intelligence Systems for News-Based Trading under Market Frictions",
+    "2026-09-20",
+    "cs.CL",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.23716v1",
+    "STEVE: Stabilizing Textual Gradient-Based Prompt Optimization via Error-Driven Refinement and Regularized Verification",
+    "2026-09-20",
+    "cs.CL",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.23742v1",
+    "Constrained Decoding Eliminates Structural Failures in Small LLMs but Reveals a Scale-Dependent Semantic Gap",
+    "2026-09-20",
+    "cs.CL",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.23769v1",
+    "PRISM-RAG: Multimodal Hypergraph Retrieval-Augmented Generation for Tobacco Product and Legislative Policy Reasoning",
+    "2026-09-20",
+    "cs.CV",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.23775v1",
+    "Statistical Convergence of Transformer Encoder-Accelerated Robust Reinforcement Learning",
+    "2026-09-20",
+    "cs.LG",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.23809v1",
+    "Packaged, But Not Portable: Why Conforming to the Agent Plugin Standard Is Rare, and Why Conforming Would Not Be Enough",
+    "2026-09-20",
+    "cs.SE",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.23845v1",
+    "PROSE: A Theory of Optimal Stopping with Perishable Evidence for Peer Selection in Intermittently Connected Decentralised Learning",
+    "2026-09-20",
+    "cs.LG",
+    [
+     "q10_voi"
+    ]
+   ],
+   [
+    "2609.23924v1",
+    "Matched-Input Estimates Differ in Sign Across Architectures: Auditing EEG Foundation Models on Motor Imagery",
+    "2026-09-20",
+    "cs.LG",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.23951v1",
+    "HaikuS2S: A Cascaded System For Responding In Verse",
+    "2026-09-20",
+    "cs.CL",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.23959v1",
+    "Open-Jev Judgments on CallScreenBench: Calibrated One-Pass Scam Screening with a Small Language Model",
+    "2026-09-21",
+    "cs.CL",
+    [
+     "q05_judge",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.23986v1",
+    "Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents",
+    "2026-09-21",
+    "cs.AI",
+    [
+     "q04_routing",
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.23988v1",
+    "The Operational Value of Spatial Dependence in Renewable Forecast Scenarios for Single-Period Economic Dispatch: A Controlled Ablation Study",
+    "2026-09-21",
+    "eess.SY",
+    [
+     "q09_dfl"
+    ]
+   ],
+   [
+    "2609.23992v1",
+    "From Ideal Motion to Flight-Executable Communications: LLM-Evolved Multi-UAV Deployment for Cell-Free Massive MIMO",
+    "2026-09-21",
+    "eess.SP",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.24012v2",
+    "Testing, not presuming, adequacy: calibrating generative social simulators against emergent network structure",
+    "2026-09-21",
+    "cs.AI",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.24052v1",
+    "Calibrated Decisions at Scale: Converting Police Crash Narratives into Probabilistic Crash Variables with a System One Model (Jev)",
+    "2026-09-21",
+    "cs.CL",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.24113v1",
+    "Local Derivations on Conformal Galilei Algebras and Their Central Extensions",
+    "2026-09-21",
+    "math.RA",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.24122v2",
+    "Re:CAP - Auditing Retrieval Coverage in Production RAG Pipelines",
+    "2026-09-21",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.24128v1",
+    "OSCAR: Order-aware Scoring and Calibration for AI Rankings",
+    "2026-09-21",
+    "stat.ML",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.24158v1",
+    "Relightable 3D Avatar Reconstruction with Semantic-Adaptive Motion-Illumination Responses",
+    "2026-09-21",
+    "cs.CV",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.24164v1",
+    "KEVGraph: Exploitation-Aware Dependency Vulnerability Remediation",
+    "2026-09-21",
+    "cs.CR",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.24165v1",
+    "APEXA: Execution-Integrity Enforcement for Multi-Agent LLM Automation of Synchrotron Data Reduction",
+    "2026-09-21",
+    "cs.AI",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.24172v1",
+    "LegendBench: A Diagnostic Benchmark for Legend Understanding with Counterfactual Interventions",
+    "2026-09-21",
+    "cs.CV",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.24174v1",
+    "CREDO: Variance-Guided Rubric Evolution for Replay-Corrected Credit Assignment",
+    "2026-09-21",
+    "cs.AI",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.24186v1",
+    "LIMIT: Less Is More for Instruction Tuning in Text-to-SQL",
+    "2026-09-21",
+    "cs.AI",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.24190v1",
+    "Benchmarking Off-the-Shelf Multimodal AI Models Against Dermatologists on Patient-Captured Skin Images",
+    "2026-09-21",
+    "cs.CV",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.24194v1",
+    "When Residualization Helps an Audit: Format Effects, Slice Gains, and Their Limits",
+    "2026-09-21",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.24200v1",
+    "Forgeable Confirmation in Automated Computer Security Testing: Deterministic Rules versus AI Judges",
+    "2026-09-21",
+    "cs.CR",
+    [
+     "q04_routing",
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.24219v1",
+    "From Articles to Publishers: Aggregating Language Model Predictions for News Source Reliability Inference",
+    "2026-09-21",
+    "cs.CL",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.24238v1",
+    "Memory vs. Context? Influential Factors of Factual Recall in Language Models",
+    "2026-09-21",
+    "cs.CL",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.24290v1",
+    "When and How Should an Agent Clarify? CIGAsk: Teaching LLMs to Clarify via Counterfactual Information Gain",
+    "2026-09-21",
+    "cs.AI",
+    [
+     "q10_voi"
+    ]
+   ],
+   [
+    "2609.24292v1",
+    "Subgame-Perfect Nash Equilibria of Plurality Voting with Abstention: a PSPACE-Completeness Result for Restricted Ballots",
+    "2026-09-21",
+    "cs.GT",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.24303v1",
+    "SupportCal: Label-Free Calibration of Post-Trained LLMs via Reference Support and Corroboration",
+    "2026-09-21",
+    "cs.LG",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.24341v1",
+    "Evaluating the effectiveness of class-level LLM-generated test suites in Python",
+    "2026-09-21",
+    "cs.SE",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.24359v1",
+    "Dissecting Agentic Forensics: The Role of Triage, Prompting, and Evidence Arbitration in Open-World Fake Image Detection",
+    "2026-09-21",
+    "cs.CV",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.24409v1",
+    "DeCo: Efficient Decouple-to-Couple Learning for Multi-Task Visual Grounding",
+    "2026-09-21",
+    "cs.CV",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.24417v1",
+    "ARM: Attention with Routed-Memory for Learnable Sparse Control",
+    "2026-09-21",
+    "cs.LG",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.24419v1",
+    "A Three-Way Testing Framework for Quantifying Epistemic Calibration Uncertainty in SBI",
+    "2026-09-21",
+    "stat.ME",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.24434v1",
+    "Adaptive Parallel-in-Time Integration with Dynamic Resource Management",
+    "2026-09-21",
+    "cs.CE",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.24496v1",
+    "Conformalized Safe Feasible Sets in Uncertain Decision Systems",
+    "2026-09-21",
+    "stat.ME",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.24516v1",
+    "LLJ Cards: Best practices for the Use of LLMs as Judges",
+    "2026-09-21",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.24528v1",
+    "Beyond Point Prediction: Artificial Representative Trees with Uncertainty",
+    "2026-09-21",
+    "stat.ML",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.24574v1",
+    "Evaluating Decision Models for Text Annotation in Computational Social Science",
+    "2026-09-21",
+    "cs.CL",
+    [
+     "q04_routing",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.24576v1",
+    "What do VLM-Based Vision-Language Navigation Models Rely on: Interpreting and Steering Policy Behavior",
+    "2026-09-21",
+    "cs.RO",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.24605v1",
+    "Scalable Dynamic Pricing of Substitutable Products through Structure-Guided Policy Learning",
+    "2026-09-21",
+    "math.OC",
+    [
+     "q09_dfl"
+    ]
+   ],
+   [
+    "2609.24635v1",
+    "Written as a Record, Read as an Address: What a Forward Pass Leaves in an Operation's KV Cache",
+    "2026-09-21",
+    "cs.CL",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.24720v1",
+    "Colour me shocked: Exact Molecular Hessians from local MLIPs in O(N) time using sparse differentiation!",
+    "2026-09-21",
+    "cs.CE",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.24760v1",
+    "Construting Reverse Thinking: Developing Large Language Models' Reverse Thingking Ability",
+    "2026-09-21",
+    "cs.AI",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.24799v1",
+    "When Quantization Preserves Accuracy but Not Evidence: Explanation-Aware Post-Training Quantization for Medical LLMs",
+    "2026-09-21",
+    "cs.CL",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.24813v1",
+    "INTCORT: Training-Free Spatial Reasoning Enhancement for Vision-Language Models via Input Transformations and Confidence Routing",
+    "2026-09-21",
+    "cs.CV",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.24831v1",
+    "GRUET: Quantifying Uncertainty of Agentic Reasoning-and-Acting Processes",
+    "2026-09-21",
+    "cs.AI",
+    [
+     "q01_selective",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.24881v2",
+    "Pinocchio: Fast Uncertainty Estimates for Black-Box Language Models",
+    "2026-09-21",
+    "cs.AI",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.24890v1",
+    "OSWorld-Pro: Process-based Evaluation for Computer Use Agents",
+    "2026-09-21",
+    "cs.CL",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.24928v1",
+    "Trajectory-Aware Benchmark Subset Selection for Cost-Efficient Software Engineering Agent Regression Testing",
+    "2026-09-21",
+    "cs.SE",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.24929v1",
+    "Conformalized Quantile Regression and Minimax Limits of Fixed-Score Calibration under Known Covariate Shift",
+    "2026-09-21",
+    "math.ST",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.24974v1",
+    "Harness-Zero: Harness Distillation via Agent-as-Harness",
+    "2026-09-21",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.25059v1",
+    "Can Large Language Model-Generated Responses Support Assessment Development? A Human-Calibrated Rasch Benchmark",
+    "2026-09-10",
+    "stat.AP",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.25066v1",
+    "Understanding Reliability in LLM-based Human Behavior Simulation",
+    "2026-09-16",
+    "cs.CL",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.25081v1",
+    "ufakzeka-1: Building and Evaluating a 151M-Parameter Turkish Language Model from Scratch",
+    "2026-09-18",
+    "cs.CL",
+    [
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.25138v1",
+    "Calibration Count Reuse: Validity Does Not Determine Efficiency",
+    "2026-09-21",
+    "stat.ME",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.25173v1",
+    "Attack Success Rate Is Not a Number: On Measurement Validity in Agentic AI Security Evaluation",
+    "2026-09-21",
+    "cs.CR",
+    [
+     "q05_judge",
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.25192v1",
+    "FinFIRST: Benchmarking Search Agents for Financial Information Retrieval, Sourcing and Traceability",
+    "2026-09-21",
+    "cs.CL",
+    [
+     "q10_voi"
+    ]
+   ],
+   [
+    "2609.25194v1",
+    "Indirect tipping: a social attack surface in AI agent populations",
+    "2026-09-21",
+    "cs.MA",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.25237v1",
+    "Trains but Doesn't Learn: A Post-Training Delivery Benchmark for LLM Agents as Forward-Deployed Engineers",
+    "2026-09-21",
+    "cs.LG",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.25270v1",
+    "RULER: Instance-aware Rubric Rewards for SVG Generation",
+    "2026-09-21",
+    "cs.CV",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.25285v1",
+    "Attention as a Routing Graph: Live Circuit Extraction from a Single Forward Pass",
+    "2026-09-21",
+    "cs.AI",
+    [
+     "q04_routing",
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.25294v1",
+    "Controller-Only False Confirmation in Passive RF UAV Link Detection",
+    "2026-09-21",
+    "cs.CR",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.25299v1",
+    "Making Agents More Consistent: Skills Should Form Habits for Repeat Tasks",
+    "2026-09-21",
+    "cs.AI",
+    [
+     "q02_defer",
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.25303v1",
+    "Potential for Enhanced Learning in Machine Learning Classes by Using Wiki LLM Indexing",
+    "2026-09-21",
+    "cs.AI",
+    [
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.25334v1",
+    "MT-ProtBERT: Multi-task Learning ProtBERT for Intrinsically Disordered Proteins Classification with Scarce Data",
+    "2026-09-21",
+    "cs.LG",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.25335v1",
+    "GRADE-RTL: Evaluating LLM-Generated RTL Beyond Compilation",
+    "2026-09-21",
+    "cs.AR",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.25352v1",
+    "SSP-Bench: A Hybrid Data Generation Framework for Safety, Security, and Privacy Evaluation",
+    "2026-09-21",
+    "cs.CR",
+    [
+     "q06_uncert",
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.25356v1",
+    "TelecomGPT-R1: Unified Post-Training for Reasoning Across Heterogeneous Telecom Tasks",
+    "2026-09-21",
+    "cs.CL",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.25388v1",
+    "PICPIs: Prediction-Interval-Conditional Prediction Intervals",
+    "2026-09-21",
+    "stat.ML",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.25400v1",
+    "Robust Failure, Conservative Repair: Textual Knowledge Distillation from Cross-Model Failures",
+    "2026-09-21",
+    "cs.AI",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.25450v1",
+    "REDACT: Robust Perceptive Locomotion under Unseen Visual Corruption",
+    "2026-09-21",
+    "cs.RO",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.25481v1",
+    "Priority Blockers: Welfare and Incentives in Matching under General Constraints",
+    "2026-09-21",
+    "econ.TH",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.25498v1",
+    "Universal Fractal Natural Language Decision Map: Real-Time Edge Triage Across Heterogeneous Domains",
+    "2026-09-21",
+    "cs.NE",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.25520v1",
+    "Dynamic Conformance Testing of WebGPU Through Specification-Driven Mutation",
+    "2026-09-22",
+    "cs.SE",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.25570v1",
+    "Recovering Agentic Sovereignty: Mitigating the Consensus Paradox via Contrastive Epistemic Decoding",
+    "2026-09-22",
+    "cs.AI",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.25572v1",
+    "A Behavioral Trait Leaks into Preferences: Diagnosing Trait Interference in LLM User Simulators",
+    "2026-09-22",
+    "cs.AI",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.25602v1",
+    "Rewired or Gated? How Instruction Tuning Shapes Knowledge-Conflict Circuits in LLMs",
+    "2026-09-22",
+    "cs.LG",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.25655v1",
+    "From Experts to Sub-experts: Fine-grained Parameter-Efficient Fine-Tuning for MoE LLMs",
+    "2026-09-22",
+    "cs.LG",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.25659v1",
+    "When Riemann flows with Wasserstein: Generative Modeling of Probability Distributions on Manifolds",
+    "2026-09-22",
+    "cs.LG",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.25745v1",
+    "Modular Norm RandOpt: Population-Efficient Ensembling through Architecture-Aware Perturbations",
+    "2026-09-22",
+    "cs.LG",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.25806v1",
+    "When Are Aggregate Agent Traces Diagnosable? Traffic-Governed Interpretation and Calibrated Abstention",
+    "2026-09-22",
+    "cs.AI",
+    [
+     "q01_selective"
+    ]
+   ],
+   [
+    "2609.25809v1",
+    "You Only Need 2/3 of the Chosen Experts: An Empirical Study of Dynamic Expert Pruning in Fine-Grained MoE LLMs",
+    "2026-09-22",
+    "cs.LG",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.25848v1",
+    "Optimizing the Score, Losing Sight of the Task: Reward Hacking Across Weights, Selection, and Prompts",
+    "2026-09-22",
+    "cs.AI",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.25889v1",
+    "Risk-Aware Online Conformal State Probing",
+    "2026-09-22",
+    "eess.SP",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.25911v1",
+    "When Should Dependency Updates Invoke Repair Agents? A Lightweight Routing Study",
+    "2026-09-22",
+    "cs.SE",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.25938v1",
+    "Certified Against Which Oracle? Execution Labels Set the Reported Risk of Conformal Abstention for Text-to-SQL",
+    "2026-09-22",
+    "cs.LG",
+    [
+     "q01_selective",
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.25939v1",
+    "ClusterFewshot: Improving Few-shot Optimization for LLMs workflow",
+    "2026-09-22",
+    "cs.CL",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.25956v1",
+    "Governed AI-Agent Coordination for Dementia Care: Architecture, Safety Contracts, and Evidence-Derived Workflow Verification",
+    "2026-09-22",
+    "cs.MA",
+    [
+     "q03_conformal",
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.25959v1",
+    "Calibration Is Not Verification: Falsifiability-Aware Conformal Routing for Mixture-of-Agents",
+    "2026-09-22",
+    "cs.MA",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.25995v1",
+    "HRTF Upsampling Across Varying Measurement Configurations with Geometry-Aware Query-Conditioned Aggregation",
+    "2026-09-22",
+    "eess.AS",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.26035v1",
+    "Truth for Believable AI: Expressed Doubt, Provenance, and Belief Revision as an Engineerable Stance",
+    "2026-09-22",
+    "cs.CL",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.26305v1",
+    "Staged Multi-step UTXO Workflows via Recursive Invariants",
+    "2026-09-22",
+    "cs.CR",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.26312v1",
+    "Quantitative coverability for probabilistic well-structured transition systems",
+    "2026-09-22",
+    "cs.LO",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.26316v1",
+    "Design and Evaluation of a Controlled Post-Alert Incident Orchestration and Response Subsystem Using a Rule Engine and a Local Large Language Model",
+    "2026-09-22",
+    "cs.CR",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.26339v1",
+    "Collective Tube Model Predictive Control With Distribution-Free Joint Safety Certificates",
+    "2026-09-22",
+    "eess.SY",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.26384v1",
+    "Learning to Defer with Guidance on Real World Medical Data",
+    "2026-09-22",
+    "cs.LG",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.26457v1",
+    "Recursive self-improvement of AI research agents",
+    "2026-09-22",
+    "cs.AI",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.26468v1",
+    "How to Estimate Whether You Have Found Several Needles in a Haystack: Measuring Calibration in Multi-Label Text Classification",
+    "2026-09-22",
+    "cs.CL",
+    [
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.26489v1",
+    "Calibration as a First-Class Criterion in LLM Evaluation",
+    "2026-09-22",
+    "cs.CL",
+    [
+     "q05_judge",
+     "q06_uncert"
+    ]
+   ],
+   [
+    "2609.26532v1",
+    "REFLEX with Jev for Efficient Selective Control in LLM Agents",
+    "2026-09-22",
+    "cs.AI",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.26550v1",
+    "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
+    "2026-09-22",
+    "cs.AI",
+    [
+     "q04_routing",
+     "q05_judge"
+    ]
+   ],
+   [
+    "2609.26579v1",
+    "Receptiveness, Not Sycophancy: Distinguishing Engagement from Deference in Language Models",
+    "2026-09-22",
+    "cs.CL",
+    [
+     "q02_defer"
+    ]
+   ],
+   [
+    "2609.26618v1",
+    "NavSafe-$\\infty$: Benchmarking Closed-Loop Driving Safety in Photorealistic Environments",
+    "2026-09-22",
+    "cs.RO",
+    [
+     "q08_promptopt"
+    ]
+   ],
+   [
+    "2609.26621v1",
+    "Greedy Decoding Is Not Precision-Invariant: Cross-Precision Output Divergence in LLM Inference",
+    "2026-09-22",
+    "cs.LG",
+    [
+     "q04_routing"
+    ]
+   ],
+   [
+    "2609.26625v1",
+    "Post-Hoc Conformal Prediction for Reliable Wireless Communications",
+    "2026-09-22",
+    "eess.SP",
+    [
+     "q03_conformal"
+    ]
+   ],
+   [
+    "2609.26707v1",
+    "Optimal Sequential Annotations for Off-Policy Evaluation",
+    "2026-09-22",
+    "stat.ME",
+    [
+     "q05_judge",
+     "q07_stateval"
+    ]
+   ],
+   [
+    "2609.26758v1",
+    "Type-Safe Is Not Error-Free: A Constrained Decision Head Follows the Option Name, Not the Rubric Bound to It",
+    "2026-09-22",
+    "cs.AI",
+    [
+     "q03_conformal"
+    ]
+   ]
+  ],
+  "local_arithmetic_checks": {
+   "script": "scratch patrol/methods/checks.py (Python 3, math.comb/log2); entropy also re-run with fractions in this fold",
+   "output": [
+    "H(0.6,0.4)=0.970951 H(0.8,+9x0.2/9)=1.355913",
+    "3-option: top 0.5 H=1.0000 vs top 0.6 H=1.3710",
+    "binary entropy strictly decreasing in max-prob on 0.51..0.99: True",
+    "n_eff=3.460",
+    "p=0.7 [(5, 0.1631, 0.1705), (15, 0.05, 0.0047), (45, 0.0024, 0.0)]",
+    "p=0.8 [(5, 0.0579, 0.328), (15, 0.0042, 0.0352), (45, 0.0, 0.0)]",
+    "p=0.9 [(5, 0.0086, 0.5905), (15, 0.0, 0.2059), (45, 0.0, 0.0087)]",
+    "rho=0.002 ECE lower bound=0.0080",
+    "rho=0.005 ECE lower bound=0.0050",
+    "rho=0.009 ECE lower bound=0.0010",
+    "rho=0.020 ECE lower bound=0.0000",
+    "disagreements=5 need wins>=5 (1.00)",
+    "disagreements=8 need wins>=7 (0.88)",
+    "disagreements=10 need wins>=9 (0.90)",
+    "disagreements=15 need wins>=12 (0.80)",
+    "disagreements=20 need wins>=15 (0.75)",
+    "disagreements=26 need wins>=18 (0.69)",
+    "disagreements=69 need wins>=42 (0.61)",
+    "20 zero-error UB=0.1391; n for 1%: 299"
+   ],
+   "release_delta_entropy": [
+    "mpmath 40 dps: H(0.6,0.4)=0.970951; H(0.8, 9 x 0.2/9)=1.355913; normalized 0.9710 vs 0.4082",
+    "H(0.8,0.2)=0.721928; K=3: (0.5,0.5,0)=1.000000 vs (0.6,0.2,0.2)=1.370951; normalized 0.631 vs 0.865",
+    "Chow c=0.45 rejects (0.5,0.5,0) and accepts (0.6,0.2,0.2)"
+   ],
+   "ecosystem_kl_on_reported_means": "KL(p||uniform) approx 1.191 nats (Jev) vs 0.0275 (TypeLLM+Qwen), arithmetic on the blog's reported 720-order means only"
+  },
+  "elkan": {
+   "url": "https://cseweb.ucsd.edu/~elkan/rescale.pdf",
+   "sha256": "46f46ba7aaab3df82aa09643c51549ee327ec1734bdf9829debd6101da35c048",
+   "bytes": 96603,
+   "passage": "section 1.1 dominance; pdftotext loses the row symbols, reconstructed as m and n"
+  }
+ },
+ "skills_ecosystem": {
+  "retrieved_at": "2026-09-23T16:15:33Z",
+  "saved_doc_digests": [
+   {
+    "saved_as": "agentskills.io_llms.txt",
+    "bytes": 1374,
+    "sha256": "d9b01a3a13b79bb04ee0bc25125087d92e393f0c7e8f028c4c5fa4c217f1fbfb"
+   },
+   {
+    "saved_as": "agentskills.io_specification.md",
+    "bytes": 8157,
+    "sha256": "2b1dbb4fd80c31748d15812c4ebd3e66c09383d0c792801f617718684489e40d"
+   },
+   {
+    "saved_as": "agentskills_client-implementation_adding-skills-support.md",
+    "bytes": 20898,
+    "sha256": "053f470d59333548d1338e2c4ea1aa69cb2da47ff12d7977d180c7ab70611ea6"
+   },
+   {
+    "saved_as": "agentskills_clients.md",
+    "bytes": 25457,
+    "sha256": "d11e7259d6a9f01707dbc84ebd023a6c40707a7008cb6ae5332e862ce117d4b6"
+   },
+   {
+    "saved_as": "agentskills_home.md",
+    "bytes": 26531,
+    "sha256": "7be41261358594f02801b994f22b1d55a265062c7ba481f439360c2ccac3d828"
+   },
+   {
+    "saved_as": "agentskills_io_specification.html",
+    "bytes": 434432,
+    "sha256": "b856c12fce12ffbf251dff9219201c7688ff599f54bbd4f1a2339f60ce65a302"
+   },
+   {
+    "saved_as": "agentskills_skill-creation_best-practices.md",
+    "bytes": 14864,
+    "sha256": "8e78d596cf2b24eadcfea8e7a67dbf7b2a0f70953942849b8872664f9d69d836"
+   },
+   {
+    "saved_as": "agentskills_skill-creation_evaluating-skills.md",
+    "bytes": 16957,
+    "sha256": "221fbace3a1127b9d65bad726e11d828cb8cbe50869017eb49cc0a8257ee97bb"
+   },
+   {
+    "saved_as": "agentskills_skill-creation_optimizing-descriptions.md",
+    "bytes": 13307,
+    "sha256": "2b4357e5551906f6db918c52237abacd25f2e3c3e80301274270ab103afac96f"
+   },
+   {
+    "saved_as": "agentskills_skill-creation_using-scripts.md",
+    "bytes": 12743,
+    "sha256": "f3393478445121f53363fa9810895f4f1ecd633da6b147e102e7fcf844f68b42"
+   },
+   {
+    "saved_as": "code.claude.com_docs_en_changelog.md",
+    "bytes": 799397,
+    "sha256": "0032b6f97053c8be88243c6814c3cdd843733cfae7baa249386b959b897f9663"
+   },
+   {
+    "saved_as": "code.claude.com_docs_en_discover-plugins.md",
+    "bytes": 38896,
+    "sha256": "03c5670feeb945d8dd87508e6e15a581e4f9250d0c648799a4e655c99faffbd9"
+   },
+   {
+    "saved_as": "code.claude.com_docs_en_plugin-evals.md",
+    "bytes": 73349,
+    "sha256": "c371e3b73da971a1aa924c6430ca07d57ead45803f250ce4fa1f278fbe65834d"
+   },
+   {
+    "saved_as": "code.claude.com_docs_en_plugin-marketplaces.md",
+    "bytes": 126423,
+    "sha256": "f7edcac19aec227330f4df149ed11c9fa4c657cef58ac2719d20d4bb4d153663"
+   },
+   {
+    "saved_as": "code.claude.com_docs_en_plugins-reference.md",
+    "bytes": 144973,
+    "sha256": "1238bc6136ac0e8bb86fef61a6d488b4f9936d150a8dcd03fd7742bc338802af"
+   },
+   {
+    "saved_as": "code.claude.com_docs_en_skills.md",
+    "bytes": 117414,
+    "sha256": "4868ac940606a0a822e6a82b706c233f748e8d568c713f2e93a5e012370eb162"
+   },
+   {
+    "saved_as": "code_claude_com_docs_en_skills.html",
+    "bytes": 1109526,
+    "sha256": "ae8f28d389349275d7616c3f8238da2c69a75d990b242be5f2070d006b4658d4"
+   },
+   {
+    "saved_as": "developers_openai_com_codex_build-skills.html",
+    "bytes": 382422,
+    "sha256": "125b52efd6ba94474194d1d389c6bae43f118639c3c35e2c7a4cc5031db2d540"
+   },
+   {
+    "saved_as": "developers_openai_com_codex_skills.html",
+    "bytes": 382422,
+    "sha256": "125b52efd6ba94474194d1d389c6bae43f118639c3c35e2c7a4cc5031db2d540"
+   },
+   {
+    "saved_as": "docs_claude_com_en_docs_agents-and-tools_agent-skills_best-practices.html",
+    "bytes": 821174,
+    "sha256": "9775da9fd378efec7e5c9993d4478fc65378956e04b510946adbe9f2c2e1504d"
+   },
+   {
+    "saved_as": "learn.chatgpt.com_docs_build-skills.md",
+    "bytes": 10925,
+    "sha256": "d15791562748e64a53dfec534b8558aa522e732cec0fdedcf7257fa4ef486a20"
+   },
+   {
+    "saved_as": "openai_codex_plugins_build.md",
+    "bytes": 9,
+    "sha256": "e3ebaa16dd9d9b9fc107c42183fb6cf9d22927e1af03dbbdfa0ccc38e4e4ac31"
+   },
+   {
+    "saved_as": "platform.claude.com_docs_en_agents-and-tools_agent-skills_best-practices.md",
+    "bytes": 41971,
+    "sha256": "542eee1e150ff7e2853099dd9e24b94626817d5a50ba50af4a4c35101a355f13"
+   },
+   {
+    "saved_as": "platform.claude.com_docs_en_agents-and-tools_agent-skills_overview.md",
+    "bytes": 21371,
+    "sha256": "41fa4180aa131408c7e52ca737bdfe38bc622fca337faa25fc96de630587e4d9"
+   },
+   {
+    "saved_as": "skills_sh_affaan-m_ecc_mle-workflow_snyk.html",
+    "bytes": 44881,
+    "sha256": "d74620f1774e8dbd325b1551612fd41daab5a445396f08faa4713b2a5a1cebfa"
+   },
+   {
+    "saved_as": "skills_sh_augustus.html",
+    "bytes": 77499,
+    "sha256": "9b14264ef121fb8f5697e4144a039b637db00c4e5520f188cf7c3a357d8f9c0d"
+   },
+   {
+    "saved_as": "skills_sh_magnus919_agent-skills_system-one_snyk.html",
+    "bytes": 48120,
+    "sha256": "66707e516af0590ff6341dc2cd727b0f74a18a8663238be6dcae875459aa6f7a"
+   },
+   {
+    "saved_as": "skills_sh_security_agent-trust-hub.html",
+    "bytes": 48831,
+    "sha256": "209a1ec047aa6b40df1af5e47453a09121da68c2626c83e43f9b68e72a891853"
+   },
+   {
+    "saved_as": "skills_sh_security_snyk.html",
+    "bytes": 47582,
+    "sha256": "fa2347d303d6426f048ec5b9f3a213cd8032c3e806dc74134ca2e9bc6672b4ef"
+   },
+   {
+    "saved_as": "skills_sh_security_socket.html",
+    "bytes": 48462,
+    "sha256": "03d773496d28b1ef4981127a6e99870bc5772d1371a9e077714983e974378770"
+   },
+   {
+    "saved_as": "vercel_skills_README.md",
+    "bytes": 27375,
+    "sha256": "f1835e9d5cc091a82b3ea75ec93bdd96e3c8f86187358ca046a3ac3acdb3983b"
+   },
+   {
+    "saved_as": "xagent_cursor_com_docs_context_skills.html",
+    "bytes": 488723,
+    "sha256": "9dfb28d38a3b45835f7a7a38a3cde12a6544f0a1a2c7b81b685b8afa05041457"
+   },
+   {
+    "saved_as": "xagent_docs_github_com_en_copilot_concepts_agents_about-agent-skills.html",
+    "bytes": 557960,
+    "sha256": "548f53cbb6891a0298fd3426fc81ee0a1f69a0f2983a41cc60a414eab628c64d"
+   },
+   {
+    "saved_as": "xagent_geminicli_com_docs_cli_skills_.html",
+    "bytes": 114261,
+    "sha256": "7e7ee561736e7be2e3f27bb130bb245d5674ab003c0c51b994baed7e71d72f38"
+   }
+  ],
+  "github_revisions": {
+   "vercel-labs/skills": "7407f3893ad4dceab546ac002c3ef806e4000c73 (v1.7.0); installer.ts blob 71ebe2aaecc5, last path commit d153383",
+   "anthropics/skills": "34040c9c568585f6929bedeaad110ad08f079624 (skill-creator unchanged since 2026-04-20)",
+   "agentskills/agentskills": "69ef37e9424c0a7ea9dd2293b559e43ec8176379 (last spec commit 2026-08-04)",
+   "openai/skills": "49f948faa9258a0c61caceaf225e179651397431 (deprecated 2026-06-22, #496)",
+   "openai/codex host_roots.rs": "last commit touching file e3e5ad28470f (2026-08-20)",
+   "NVIDIA/SkillEvaluator": "5c732733bc9592746204e207a163be9c4ed94cfa (v0.3.0, 2026-09-17)",
+   "magnus919/agent-skills system-one": "38482f4c2b466ddd703e83ecc22f75363bdd6e9c",
+   "openai/skills openai_yaml.md": "blob da5629f8; last commit 94fa1952 (2026-02-01)"
+  },
+  "claude_code": {
+   "version": "2.1.280",
+   "changelog_entries_inspected": "2.1.265..2.1.280 (2026-09-08..2026-09-22)"
+  },
+  "overlap_frontmatter": [
+   {
+    "repo": "romainsimon/skills-for-decision-making",
+    "path": "valuing-information/SKILL.md",
+    "retrieved_at": "2026-09-23T16:20:49.271163Z",
+    "pushed_at": "2026-07-26T22:02:43Z",
+    "head_sha": "9b209a95a42a645cb62622654eb7c465b96e3eb3",
+    "bytes": 8940,
+    "lines": 205,
+    "frontmatter_keys": [
+     "description",
+     "includes",
+     "license",
+     "metadata",
+     "name"
+    ],
+    "name": "valuing-information",
+    "description": "Prices research, tests, surveys, dashboards and experiments before running them, by computing how much the result would raise expected utility - which is zero whenever no outcome would change the decision. Use when someone proposes an A/B t"
+   },
+   {
+    "repo": "vasilyu1983/AI-Agents-public",
+    "path": "frameworks/shared-skills/skills/foundations-decision-theory/SKILL.md",
+    "retrieved_at": "2026-09-23T16:20:50.834661Z",
+    "pushed_at": "2026-09-23T15:56:22Z",
+    "head_sha": "8dc5de47c1db00f8ba01806f5dddd798fc78cf22",
+    "bytes": 33019,
+    "lines": 340,
+    "frontmatter_keys": [
+     "compatibility",
+     "description",
+     "last_validated",
+     "name",
+     "version"
+    ],
+    "name": "foundations-decision-theory",
+    "description": "Decision-theory primitives for uncertain choices, utility, Bayesian decisions, regret, value of information, MCDA, options, and bandits. Use when choosing under uncertainty."
+   },
+   {
+    "repo": "jacob-balslev/skills",
+    "path": "skills/reasoning-strategy/expected-value/SKILL.md",
+    "retrieved_at": "2026-09-23T16:20:53.379954Z",
+    "pushed_at": "2026-06-16T16:33:24Z",
+    "head_sha": "31474ff4153c88001db5ef6d4a0d64e93af8e0e2",
+    "bytes": 27084,
+    "lines": 443,
+    "frontmatter_keys": [
+     "allowed-tools",
+     "compatibility",
+     "description",
+     "license",
+     "metadata",
+     "name",
+     "relations"
+    ],
+    "name": "expected-value",
+    "description": "Use when choosing among actions under quantified uncertainty by enumerating outcomes, assigning probabilities, valuing each outcome in one shared unit, computing probability-weighted value, testing sensitivity, and checking downside constra"
+   },
+   {
+    "repo": "chriswch/praxis",
+    "path": "plugin/skills/structuring-decisions/SKILL.md",
+    "retrieved_at": "2026-09-23T16:20:54.971173Z",
+    "pushed_at": "2026-08-09T16:40:27Z",
+    "head_sha": "cff0e33f467dcf382ae04ddefbfd0175a15116ff",
+    "bytes": 19365,
+    "lines": 187,
+    "frontmatter_keys": [
+     "description",
+     "name"
+    ],
+    "name": "structuring-decisions",
+    "description": "Drives a consequential decision or an operational-analysis question through a structured decision-science process — frame, diagnose, widen options, gather decisive evidence, debias, decide with stated confidence, record with review tripwire"
+   },
+   {
+    "repo": "gmanch94/claude-code-aidlc-template",
+    "path": ".claude/skills/decision-threshold-policy/SKILL.md",
+    "retrieved_at": "2026-09-23T16:20:56.608166Z",
+    "pushed_at": "2026-07-27T12:38:48Z",
+    "head_sha": "5b41ff8c4c3e52282279347c80422212189ee406",
+    "bytes": 15739,
+    "lines": 162,
+    "frontmatter_keys": [
+     "description",
+     "name"
+    ],
+    "name": "decision-threshold-policy",
+    "description": "Turns calibrated model scores into operational decisions — operating-point selection from a confusion-cost matrix (expected-cost minimization, not default 0.5), threshold-vs-prevalence and prevalence-drift shift, ROC-vs-PR operating-point c"
+   },
+   {
+    "repo": "magnus919/agent-skills",
+    "path": "system-one/SKILL.md",
+    "retrieved_at": "2026-09-23T16:20:58.247462Z",
+    "pushed_at": "2026-09-23T08:37:12Z",
+    "head_sha": "38482f4c2b466ddd703e83ecc22f75363bdd6e9c",
+    "bytes": 5642,
+    "lines": 95,
+    "frontmatter_keys": [
+     "compatibility",
+     "description",
+     "license",
+     "metadata",
+     "name"
+    ],
+    "name": "system-one",
+    "description": "Design, integrate, evaluate, self-host, and troubleshoot typed System One decision models including TypeSafe Jev and Convai Innovations Laya. Use for Choice/Score/Noul judgments inside deterministic software, app-control loops, routing, ran"
+   },
+   {
+    "repo": "notque/vexjoy-agent",
+    "path": "skills/meta/building-with-jev/SKILL.md",
+    "retrieved_at": "2026-09-23T16:20:59.708390Z",
+    "pushed_at": "2026-09-22T20:53:22Z",
+    "head_sha": "5ea20993d0c702104002907e6334d8d784aea42b",
+    "bytes": 34867,
+    "lines": 309,
+    "frontmatter_keys": [
+     "allowed-tools",
+     "description",
+     "name",
+     "routing",
+     "user_invocable"
+    ],
+    "name": "building-with-jev",
+    "description": "Write, compose, integrate, and improve programs that call Jev, TypeSafe's System One judgment model."
+   },
+   {
+    "repo": "affaan-m/ECC",
+    "path": ".agents/skills/mle-workflow/SKILL.md",
+    "retrieved_at": "2026-09-23T16:21:01.651040Z",
+    "pushed_at": "2026-09-22T23:09:59Z",
+    "head_sha": "bf70150eb2df8070024e5bdf08e4aa08959e2735",
+    "bytes": 22477,
+    "lines": 347,
+    "frontmatter_keys": [
+     "allowed-tools",
+     "description",
+     "license",
+     "name"
+    ],
+    "name": "mle-workflow",
+    "description": "Production machine-learning engineering workflow for data contracts, reproducible training, model evaluation, deployment, monitoring, and rollback. Use when building, reviewing, or hardening ML systems beyond one-off notebooks."
+   },
+   {
+    "repo": "wshobson/agents",
+    "path": "plugins/llm-application-dev/skills/llm-evaluation/SKILL.md",
+    "retrieved_at": "2026-09-23T16:21:03.414353Z",
+    "pushed_at": "2026-09-21T01:09:57Z",
+    "head_sha": "4236bb91f8395b0435f1d8b8baf9e8e4c69a8620",
+    "bytes": 3929,
+    "lines": 145,
+    "frontmatter_keys": [
+     "description",
+     "name"
+    ],
+    "name": "llm-evaluation",
+    "description": "Implement comprehensive evaluation strategies for LLM applications using automated metrics, human feedback, and benchmarking. Use when testing LLM performance, measuring AI application quality, or establishing evaluation frameworks."
+   },
+   {
+    "repo": "ScottRBK/eval-harness",
+    "path": "skills/eval_creation/SKILL.md",
+    "retrieved_at": "2026-09-23T16:21:04.920814Z",
+    "pushed_at": "2026-09-08T14:10:25Z",
+    "head_sha": "ffb0f5b92f9af027d0ce742be7be2d534390a887",
+    "bytes": 7447,
+    "lines": 110,
+    "frontmatter_keys": [
+     "description",
+     "name"
+    ],
+    "name": "creating-eval-harness-evaluations",
+    "description": "Create eval-harness evaluations. Use when the user wants a new evaluation for a CLI coding agent (Claude Code, OpenCode, Copilot, Codex, Pi, Cursor, Grok)."
+   },
+   {
+    "repo": "winstonkoh87/Athena-Public",
+    "path": "examples/skills/decision/mcda-solver/SKILL.md",
+    "retrieved_at": "2026-09-23T16:21:06.485225Z",
+    "pushed_at": "2026-09-23T02:25:40Z",
+    "head_sha": "f8b7328f73c0e75ddb91b1c48e4c56b8a622ea75",
+    "bytes": 2195,
+    "lines": 79,
+    "frontmatter_keys": [
+     "auto-invoke",
+     "context_trigger",
+     "created",
+     "description",
+     "model",
+     "name"
+    ],
+    "name": "Decision Matrix (MCDA)",
+    "description": "Multi-Criteria Decision Analysis calculator. Breaks complex decisions into weighted criteria with explicit scoring."
+   },
+   {
+    "repo": "solatis/claude-config",
+    "path": "skills/decision-critic/SKILL.md",
+    "retrieved_at": "2026-09-23T16:21:08.067556Z",
+    "pushed_at": "2026-03-13T07:02:48Z",
+    "head_sha": "6e72bc29e542f82f7936673f175a7cca5eee7499",
+    "bytes": 820,
+    "lines": 20,
+    "frontmatter_keys": [
+     "description",
+     "name"
+    ],
+    "name": "decision-critic",
+    "description": "Invoke IMMEDIATELY via python script to stress-test decisions and reasoning. Do NOT analyze first - the script orchestrates the critique workflow."
+   },
+   {
+    "repo": "menkesu/awesome-pm-skills",
+    "path": "decision-frameworks/SKILL.md",
+    "retrieved_at": "2026-09-23T16:21:09.676295Z",
+    "pushed_at": "2026-02-19T12:25:38Z",
+    "head_sha": "53530efba26431c05ac3fd1dcc5452bdb2fc120e",
+    "bytes": 2468,
+    "lines": 115,
+    "frontmatter_keys": [
+     "description",
+     "name"
+    ],
+    "name": "decision-frameworks",
+    "description": "Structures difficult decisions using Annie Duke's probabilistic thinking and Ben Horowitz's hard decisions frameworks. Use when facing tough choices, applying expected value thinking, or reducing decision paralysis with regret minimization "
+   },
+   {
+    "repo": "cobusgreyling/agent-skills",
+    "path": "skills/agent-evaluation-harness/SKILL.md",
+    "retrieved_at": "2026-09-23T16:21:11.269664Z",
+    "pushed_at": "2026-07-08T14:24:13Z",
+    "head_sha": "54c1d0090c766b131dd87b4442ee415c5c9c0c80",
+    "bytes": 5024,
+    "lines": 93,
+    "frontmatter_keys": [
+     "description",
+     "name",
+     "tags"
+    ],
+    "name": "agent-evaluation-harness",
+    "description": "Design an evaluation harness for an LLM agent before shipping it. Use when the user is building or rewriting an agent, deciding ship/no-ship, debugging regressions, or mentions golden sets, eval suites, regression tests, trace-level evals, "
+   }
+  ],
+  "code_search_note": "6 GitHub code searches, first page only (30-40 items each); unranked and incomplete",
+  "draft_trigger_queries": {
+   "status": "DRAFT hypothesis for maintainer review; unrun; not repository content",
+   "count": 20,
+   "should_trigger_true": 10,
+   "split_rule": "fixed split: train = even index, validation = odd index; keep both mixed positive/negative",
+   "note": "draft handed to the coordinator; query text not archived here and not run"
+  },
+  "local_executions": {
+   "claude_plugin_validate": "repo and .agents/skills: passed; --strict --json: 0 errors, 0 warnings; .agents/skills/augustus: 'No manifest found'",
+   "isolated_install_main": "temporary CLAUDE_CONFIG_DIR: augustus 0.7.1-dev; Skills 1; Agents/Hooks/MCP/LSP 0; always-on ~119 tok; on-invoke ~2.4k; cache contained .DS_Store and 6 __pycache__ .pyc (working-tree copy)",
+   "isolated_install_v0.7.0": "claude plugin marketplace add 24601/Augustus@v0.7.0: augustus 0.7.0, same inventory",
+   "skills_cli_list": "npx skills 1.7.0 --list (telemetry off, nothing installed): 1 skill from main and from tree/v0.7.0/.agents/skills/augustus",
+   "plugin_tag_dry_run": "'No plugin manifest found' at repo root and at .agents",
+   "plugin_eval_help": "captured; subcommand init only"
+  },
+  "plugin_eval_pilot": {
+   "claude_version": "2.1.280",
+   "startedAt": "2026-09-23T16:18:29.240Z",
+   "durationSeconds": 110,
+   "costUsd": 1.1998142,
+   "suite": {
+    "ablation": "with-without",
+    "threshold": 1,
+    "concurrency": 2
+   },
+   "plugin": "copy of the committed 87b0cda .agents/skills tree (diff -r identical)",
+   "observed_agent_model": "claude-opus-5-5[1m] (trace init line; not in the JSON)",
+   "judge_model": "CLI default (haiku per --help); not recorded in the JSON",
+   "cases": [
+    {
+     "name": "nontrigger-arithmetic",
+     "runsPerCase": 2,
+     "graders": [
+      {
+       "name": "correct-value",
+       "type": "regex"
+      },
+      {
+       "name": "skill-not-fired",
+       "type": "tool_used"
+      }
+     ],
+     "aggregates": {
+      "score": 1,
+      "passRate": 1,
+      "scoreWithout": 1,
+      "passRateWithout": 1,
+      "delta": 0
+     }
+    },
+    {
+     "name": "nontrigger-prose-rewrite",
+     "runsPerCase": 2,
+     "graders": [
+      {
+       "name": "skill-not-fired",
+       "type": "tool_used"
+      }
+     ],
+     "aggregates": {
+      "score": 1,
+      "passRate": 1,
+      "scoreWithout": 1,
+      "passRateWithout": 1,
+      "delta": 0
+     }
+    },
+    {
+     "name": "trigger-reranker-abstention",
+     "runsPerCase": 2,
+     "graders": [
+      {
+       "name": "authority-and-falsifier",
+       "type": "llm"
+      },
+      {
+       "name": "skill-fired",
+       "type": "tool_used"
+      }
+     ],
+     "aggregates": {
+      "score": 0.5,
+      "passRate": 0.5,
+      "scoreWithout": 0,
+      "passRateWithout": 0,
+      "delta": 0.5
+     }
+    },
+    {
+     "name": "trigger-support-router",
+     "runsPerCase": 2,
+     "graders": [
+      {
+       "name": "authority-and-falsifier",
+       "type": "llm"
+      },
+      {
+       "name": "skill-fired",
+       "type": "tool_used"
+      }
+     ],
+     "aggregates": {
+      "score": 1,
+      "passRate": 1,
+      "scoreWithout": 1,
+      "passRateWithout": 1,
+      "delta": 0
+     }
+    }
+   ],
+   "aggregates": {
+    "casesTotal": 4,
+    "casesPassed": 3,
+    "overallScore": 0.875,
+    "overallPassRate": 0.875,
+    "meanDelta": 0.125
+   },
+   "all_paid_invocations_usd": {
+    "preflight": 0.04,
+    "preflight2": 0.08,
+    "pilot": 1.2,
+    "layoutB": 0.081,
+    "layoutB1k": 0.041,
+    "layoutB2": 0.04,
+    "layoutB-trigger": 0.133,
+    "isolation": 0.064,
+    "isolation2": 0.065,
+    "total": 1.7429
+   },
+   "layout_findings": [
+    "manifest-free target without a case plugins path: suite.plugins [] and ablation none, exit 0 (vacuous)",
+    "repo-level cases with plugins [\"../../../.agents\"] resolved plugin '.agents' with a with/without baseline",
+    "documented input_match (?:[\\w-]+:)?augustus missed '.agents:augustus'; (?:[^\"]*:)?augustus matched",
+    "Read of eval-dir and sibling repo files denied inside runs (dontAsk mode)"
+   ]
+  }
+ }
+}
