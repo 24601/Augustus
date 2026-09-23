@@ -20,8 +20,10 @@ changed. The [2026-09-23 patrol](patrol-2026-09-23.md) records user-requested
 0.7.1 review evidence, its coverage ledger, and promotion candidates; it does
 not change the skill. Use the
 [maintainer prompt](prompts/maintainer.md) to preserve that mission in future work.
-The [current acceptance record](audits/2026-09-22-refresh-acceptance.md) maps
-independent re-reviews to actual evidence and pending publication gates.
+The [0.7.1 acceptance record](audits/2026-09-23-release-071.md) maps each
+review scope, the activation A/B and behavioral results to the evidence
+produced. The [0.7.0 acceptance record](audits/2026-09-22-refresh-acceptance.md)
+maps independent re-reviews to actual evidence and pending publication gates.
 The [adversarial release review](audits/2026-09-22-adversarial-070.md) records
 four rejected numerical behaviors across two Astra rounds, Fable's independent
 review and follow-up corrections, and the fresh-review gate.
