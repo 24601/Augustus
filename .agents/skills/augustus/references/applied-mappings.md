@@ -254,5 +254,5 @@ calls, and human interventions—not only per-step choice accuracy.
 - Errors map to a named action, not a family-wide “fail open/closed” slogan.
 - Generator and human fallbacks are explicit and costed.
 - Authority and state are re-checked immediately before effects.
-- The outcome is observed independently of the model's self-report.
+- The outcome is verified by evidence the judged system cannot forge.
 - Evaluation includes cascades and trajectories, not only isolated questions.

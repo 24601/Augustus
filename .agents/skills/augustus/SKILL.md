@@ -39,7 +39,8 @@ This is an independent skill, not a TypeSafe product.
    search/control, organizational safety, or formal methods. Then choose
    the [model family](references/judgment-class.md) and the smallest useful
    placement. For unfamiliar problems, use the
-   [toolbox sweep](references/toolbox-mapping.md), not a catalog search.
+   [toolbox sweep](references/toolbox-mapping.md), not a vendor or project-list
+   search.
 3. Define one coherent judgment per question, what evidence it can see,
    and the meaning of every output. Check candidate coverage and missing
    evidence before inference. Use [question design](references/question-design.md).
@@ -50,7 +51,9 @@ This is an independent skill, not a TypeSafe product.
    or person. Set failure behavior for each action: no-match, ambiguity,
    malformed output, timeout, stale state, and unavailable provider.
    [Mixed architecture](references/mixed-architecture.md) explains the joins.
-5. Compare against the baseline on representative held-out evidence.
+5. Compare against the baseline on representative held-out evidence; for a
+   one-off choice with no population, test weight sensitivity, missing
+   criteria, dominated options, and value of information instead.
    Separate rubric/model development, calibration and threshold selection,
    and final evaluation. Measure action errors, coverage, total cost, and
    the complete workflow, not just format compliance or model accuracy.
@@ -121,24 +124,25 @@ Observed result, limitations, and next decision:
 
 ## Read only the reference needed
 
-Reference paths below are relative to this skill directory, not the
-repository or caller's working directory.
+Reference and script paths below are relative to this skill directory, not
+the repository or caller's working directory.
 
 | Task | Reference |
 | --- | --- |
 | Trigger examples and exclusions | [Activation](references/activation-triggers.md) |
 | Cross-domain reasoning and costs | [Mental models](references/mental-models.md) |
-| Family choice, output semantics, and uncertainty routing | [Judgment class](references/judgment-class.md) |
+| Family choice, output semantics, uncertainty routing, and deferral | [Judgment class](references/judgment-class.md) |
 | Existing system or process | [Boundary audit](references/boundary-audit.md) |
-| Question/rubric diagnosis | [Question design](references/question-design.md) |
+| Write or debug questions, options, rubrics, or confidence fields | [Question design](references/question-design.md) |
 | Generator, code, and decision-model integration | [Mixed architecture](references/mixed-architecture.md) |
 | Concrete workflow examples | [Applied mappings](references/applied-mappings.md) |
 | Classical methods and falsifiers | [Mappings](references/mappings.md) |
-| Operators and substitution preconditions | [Methods catalog](references/methods-catalog.md), [composition algebra](references/composition-algebra.md) |
+| Substitute judgment into a named algorithm | [Methods catalog](references/methods-catalog.md) |
+| Typed joins, branches, cascades, and failure budgets | [Composition algebra](references/composition-algebra.md) |
 | Discover a new placement | [Toolbox mapping](references/toolbox-mapping.md) |
 | Proof, simulation, and enforcement | [Formal methods](references/formal-methods.md) |
-| Calibration, selective prediction, and experiments | [Validation](references/validation.md) |
-| Optimize prompts or decision programs | [Optimizer integration](references/optimizer-integration.md) |
+| Thresholds, abstention, calibration, selective prediction, and experiments | [Validation](references/validation.md); `scripts/evaluate_decisions.py` |
+| Build, compare with an incumbent, or optimize prompts and programs | [Optimizer integration](references/optimizer-integration.md); `scripts/compare_workflows.py` |
 | Agent progress, done, or stuck judgments | [Agent self-assessment](references/agent-self-assessment.md) |
 | Conceptual objections | [FAQ](references/faq.md) |
 
@@ -156,12 +160,13 @@ artifacts), **Hypothesis** (untested placement), or **Unknown** (unavailable).
 Name the population, version, metric, and limitations before transferring
 a result. A benchmark harness is an instrument, not a certificate.
 
-Research updates belong in the repository's research archive. Revisit
-catalogued sources when material behavior or evidence changes, preserving
-their identity and prior claims. Popularity changes alone do not change
-guidance. Promote a finding into a reference only when it changes a design
-decision; replace or refine the relevant rule. Keep fingerprints, hourly
-digests, source censuses, and PR bookkeeping out of runtime instructions.
+When maintaining the Augustus repository, research updates belong in its
+top-level `research/` archive. Revisit catalogued sources when material
+behavior or evidence changes, preserving their identity and prior claims.
+Popularity changes alone do not change guidance. Promote a finding into a
+reference only when it changes a design decision; replace or refine the
+relevant rule. Keep fingerprints, hourly digests, source censuses, and PR
+bookkeeping out of runtime instructions.
 
 Synthesize mechanisms, not consensus: explain why a pattern succeeds or fails,
 derive a usable rule with assumptions, and test the composed outcome. Transfer

@@ -98,11 +98,11 @@ execution. A judgment model can rank properties, classify counterexamples, or
 route attention. It cannot discharge a proof obligation. See
 `formal-methods.md`.
 
-## Isn't a high-confidence Noul basically a proof?
+## Isn't a Noul near 1 basically a proof?
 
 No. It is model evidence about a proposition under supplied state. Proof comes
 from a valid derivation; runtime truth comes from observation; authorization
-comes from policy. High confidence cannot compensate for missing evidence,
+comes from policy. A Noul near 1 cannot compensate for missing evidence,
 stale state, or an incomplete candidate set.
 
 ## Is Augustus another Jev how-to?

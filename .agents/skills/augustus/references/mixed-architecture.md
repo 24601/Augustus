@@ -102,7 +102,9 @@ Evaluate the whole cascade. A high first-stage accuracy can still fail if its
 few errors are correlated across a long trajectory or if fallback is too slow.
 The later stage sees the residual, often harder population, not the original
 traffic. Evaluate/calibrate each route on that selected population and recheck
-any conformal assumptions after routing. Compare the learned router with
+any conformal assumptions after routing. Before building a router, score every
+route on the same labeled cases: the per-case best bounds its quality gain,
+not its cost savings. Compare the learned router with
 always-small, always-large, and exact-rule policies; count routing overhead and
 record logged selection/propensities when estimating counterfactual route value.
 Report:
@@ -207,7 +209,8 @@ Use these patterns as templates, not endorsements:
 - **Exact-text selection:** model selects line/span/node identifiers; code copies
   exact bytes. The model never writes the quote or selector.
 - **Retrieve → rerank → decide:** retrieval protects recall, ranker orders, an
-  independently evaluated decision stage decides whether anything is adequate.
+  independently evaluated decision stage decides whether anything is adequate
+  when policy needs it.
 - **Observe → choose → act → verify:** host observes and enumerates valid actions,
   model chooses, host executes, post-state verifies. `done` is not proof.
 - **Typed decide → policy → generator leftover:** bounded fields drive routing;

@@ -36,6 +36,31 @@ folds: `research/notes.md`.
   flags, a second invalid-substitution list, and a generic design card now
   appear only in their owning file. References drop from 179,929 to 172,348
   bytes; no design decision is removed.
+- Corrected and sharpened uncertainty routing (judgment-class). The reversal
+  example now uses one three-option menu. Dominance is stated without
+  convention ("if one act never costs less, always take the other"). The
+  deferral rule is stated as theory under calibrated mass (Mozannar–Sontag,
+  with Chow's rule as the constant-loss case), and a rejector fit to
+  representative handler outcomes is allowed. Policy, not a model handler,
+  authorizes the act.
+- Promoted five patrol findings where each changes a design decision:
+  - Preflight rejects one-option or one-level questions, whose confidence is
+    1.0 by construction.
+  - A diagnosis row now covers name bias as well as position bias.
+  - Done-checks require evidence the judged system cannot forge.
+  - Post-deployment error needs outcomes on every case or a known-probability
+    audit sample, not review queues or complaints alone. Reviewer accuracy is
+    measured under the deployed display.
+  - Labels from an automated check are not independent gold, and a router's
+    quality gain is bounded by the per-case best route.
+- The skill's evaluation step gives one-off choices sensitivity and
+  value-of-information tests instead of a held-out population. The reference
+  table routes by task and names the two offline scripts.
+  `evaluate_decisions.py --help` now documents its input rows. Script paths use
+  `<skill-dir>`, the example selective band follows from its costs, the FAQ no
+  longer implies a Noul confidence field, and TypeAR links to its new name,
+  TypeLLM.
+- Added eight behavioral scenarios, including two non-trigger controls.
 - Reworked the website as a technical publication centered on an annotated
   decision example. Kept the agent build/evaluate/improve mission visible,
   brought installation into the page, and moved the six detailed placements

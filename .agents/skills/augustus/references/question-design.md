@@ -70,8 +70,9 @@ the action consumes the mean, a tail probability, or expected utility.
 ## Preflight the request
 
 Use structural checks for things code can know: valid state paths, unique
-candidate IDs, required fields, supported types, finite numbers, budget
-limits, and consistent action/target pairs. Keep evidence, rubric, and
+candidate IDs, two or more options/levels (one yields confidence 1.0),
+required fields, supported types, finite numbers, budget limits, and
+consistent action/target pairs. Keep evidence, rubric, and
 policy versions together. Request lint cannot prove semantic coverage;
 that needs representative examples and review.
 
@@ -95,7 +96,7 @@ For option-order averaging, see [composition algebra](composition-algebra.md).
 | Wrong counts, dates, totals | Exact computation delegated to model | Compute facts, then judge only the semantic remainder |
 | Results follow hostile text | Instruction/evidence confusion | Injection suite plus host authority checks |
 | Rewording changes actions | Rubric brittleness | Paired paraphrases at fixed policy, measure action flips |
-| Option reordering changes winner | Position/token bias | Shuffle IDs/order while preserving semantic candidates |
+| Option order or names change the winner | Position, token, or name bias | Shuffle order; swap names across definitions |
 | Long inputs degrade | Truncation or irrelevant context | Record actual input coverage; compare controlled subsets |
 | “Done” before the work completes | Wrong observation window | Judge completion against final artifact and tool state |
 | Great tuning score, weak deployment | Leakage, drift, changed runtime | Group/time split; untouched holdout; runtime parity test |

@@ -44,12 +44,41 @@ Provider examples are evidence that a family can be implemented, not proof that
 the implementations are interchangeable. [Laya](https://github.com/NandhaKishorM/laya),
 [kev](https://github.com/jaredpalmer/kev), and
 [Bespoke Nimble](https://github.com/bespokelabsai/nimble) are open decision-head
-examples. [TypeAR](https://github.com/zmtomorrow/TypeAR) is a constrained-AR
+examples. [TypeLLM](https://github.com/TypeLLM/TypeLLM) is a constrained-AR
 example. [GLiNER2](https://github.com/fastino-ai/gliner2) combines several
 extraction/classification surfaces. Their repositories own their operational
 contracts.
 
 Pick the family from the hole, then pick a provider.
+
+### Holes
+
+Choose a family by completing this sentence:
+
+> Given **this evidence and candidate source**, the system must **locate / tag /
+> order / decide / perceive** so that **this policy** can take **this action**.
+
+If the verb is “write,” use a generator. If the answer is exact, use code. If
+evidence is missing, gather it before judging.
+
+### When to use which decision surface
+
+| Need | Start with |
+|---|---|
+| Stable labels and ample representative gold | Classical supervised model |
+| Few-shot bounded semantic judgment; hosted acceptable | TypeSafe Jev as the project-default exemplar, then validate |
+| Self-hosted bounded decisions | Open trained decision head, with full self-evaluation |
+| Typed output from an existing causal LM | Constrained AR or logit readout |
+| Exact text spans | Span extractor |
+| Many document labels in one pass | Sequence/multi-label classifier |
+| Best ordering of retrieved candidates | Ranker |
+| Declared visual labels or regions | Vision scorer/decision head |
+| New prose, code, or candidates | Generator |
+
+Failure policy is chosen **per action**, not per family. A ranker error may keep
+the original order; a context-pruning error keeps the evidence; a tool-call
+error withholds execution; a draft-writing error may fall back to a generator
+or human. Provider timeout is neither approval nor rejection: map it explicitly.
 
 ### Prediction is not intervention
 
@@ -158,27 +187,28 @@ Fuse outputs in visible code. When interactions matter, encode the interaction
 as its own question, use a model trained for the joint task, or evaluate the
 composed policy end to end.
 
-## Entropy as allocator (Hypothesis)
+## Uncertainty routing and deferral (Hypothesis)
 
 Uncertainty can allocate work: accept an easy reversible path, send a middle
 band to a stronger model or human, and reject or gather evidence elsewhere.
-This is a policy hypothesis until tested against action costs. Entropy alone
-does not say which fallback is best, and 0.5 is not universally a boundary.
+This is a policy hypothesis until tested against action costs; 0.5 is not
+universally a boundary.
 
 Entropy and top-option mass agree on two options and can reverse with more.
-Masses (0.6, 0.4) have entropy about 0.971 bits; top mass 0.8 spread over ten
-outcomes has about 1.356 bits. An entropy band is not softmax-response
-selection, and neither score is by itself `P(correct)`. A ranking score may
-still abstain when accepted-slice risk and coverage are measured on a holdout;
-calibration is not a universal prerequisite for that ranking.
+On one three-option menu, (0.5, 0.5, 0) has 1 bit; (0.6, 0.2, 0.2) has more
+top mass and about 1.371 bits. Beyond two options, an entropy band is not
+softmax-response selection, and neither score is by itself `P(correct)`.
 
-Name two-act expected cost (no reject option; see `validation.md`; a dominated
-act makes label-all optimal), selective ranking (accepted risk excludes the
-rejected mass), or deferral to a named handler (system loss includes that
-handler's errors). A frozen head not trained on those mistakes is not
-expert-adapted. Compare the score with always-act, always-defer, and the
-alternate score on held-out system loss. The handler, an exact rule, or a
-person owns the act.
+Name the job. Two-act expected cost has no reject option (`validation.md`);
+if one act never costs less, always take the other. Selective ranking may use
+an uncalibrated score; report accepted-case risk and coverage on a holdout.
+Deferral to a named handler counts its errors in system loss. In theory (0-1
+loss, calibrated mass), defer when 1 - top mass exceeds the handler's expected
+loss on that case, query cost included; a constant loss gives Chow's rule, one
+top-mass cut. A frozen head's band ignores where the handler is strong; a
+rejector fit to representative handler outcomes can use that. Compare the
+chosen rule with a top-mass cut, always-act, and always-defer on held-out
+system loss. The handler decides deferred cases; policy authorizes the act.
 
 Expected cost must include:
 
@@ -190,7 +220,7 @@ model calls + latency + generator fallback + human review
 A cheap first stage that escalates most cases or creates expensive corrections
 may lose to a simpler baseline.
 
-## Compute graph: readout vs constrained AR vs diffusion reads
+## Compute graph: head, readout, constrained AR, encoder
 
 - **Trained decision head:** shared representation → task-specific bounded
   outputs. Best when the training objective matches the downstream judgment.
@@ -207,35 +237,6 @@ may lose to a simpler baseline.
 Serving compatibility is not objective equivalence. An endpoint that accepts
 the same JSON can still have different logits, error modes, coverage, and
 calibration.
-
-### Holes
-
-Choose a family by completing this sentence:
-
-> Given **this evidence and candidate source**, the system must **locate / tag /
-> order / decide / perceive** so that **this policy** can take **this action**.
-
-If the verb is “write,” use a generator. If the answer is exact, use code. If
-evidence is missing, gather it before judging.
-
-### When to use which decision surface
-
-| Need | Start with |
-|---|---|
-| Stable labels and ample representative gold | Classical supervised model |
-| Few-shot bounded semantic judgment; hosted acceptable | TypeSafe Jev as the project-default exemplar, then validate |
-| Self-hosted bounded decisions | Open trained decision head, with full self-evaluation |
-| Typed output from an existing causal LM | Constrained AR or logit readout |
-| Exact text spans | Span extractor |
-| Many document labels in one pass | Sequence/multi-label classifier |
-| Best ordering of retrieved candidates | Ranker |
-| Declared visual labels or regions | Vision scorer/decision head |
-| New prose, code, or candidates | Generator |
-
-Failure policy is chosen **per action**, not per family. A ranker error may keep
-the original order; a context-pruning error keeps the evidence; a tool-call
-error withholds execution; a draft-writing error may fall back to a generator
-or human. Provider timeout is neither approval nor rejection: map it explicitly.
 
 ## Decision-design extras for class choice
 
