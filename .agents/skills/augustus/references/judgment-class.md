@@ -165,35 +165,20 @@ band to a stronger model or human, and reject or gather evidence elsewhere.
 This is a policy hypothesis until tested against action costs. Entropy alone
 does not say which fallback is best, and 0.5 is not universally a boundary.
 
-Entropy, top-option mass, and a handler's case-wise accuracy are different
-scores. On a binary menu, entropy falls strictly as the larger probability
-rises, so the two rankings agree. With three or more options they need not.
-Local arithmetic: binary entropy at masses (0.6, 0.4) is about 0.971 bits,
-while a ten-way distribution with top mass 0.8 and an even remainder is about
-1.356 bits. Top-mass treats the ten-way case as more confident; an entropy
-threshold can escalate it first. Do not call an entropy band softmax-response
-selection, and do not treat either score as a calibrated probability of being
-correct. A ranking score can still support post-hoc selective classification
-when accepted-slice risk and coverage are measured on a proper holdout.
-Calibration is not a universal prerequisite for that ranking.
+Entropy and top-option mass agree on two options and can reverse with more.
+Masses (0.6, 0.4) have entropy about 0.971 bits; top mass 0.8 spread over ten
+outcomes has about 1.356 bits. An entropy band is not softmax-response
+selection, and neither score is by itself `P(correct)`. A ranking score may
+still abstain when accepted-slice risk and coverage are measured on a holdout;
+calibration is not a universal prerequisite for that ranking.
 
-Name which of these three policies is in force:
-
-- **Two-act expected cost.** No reject option. With probabilities that mean
-  class probabilities on this population, pick the lower expected-cost act.
-  `validation.md` states the zero-correct-cost binary threshold and its
-  assumptions. If one act is cheaper no matter the true class, the constant
-  label-all policy is optimal.
-- **Post-hoc selective classification.** The score orders cases. Report risk
-  on the accepted slice and coverage. That risk excludes the rejected mass.
-- **Deferral to a named handler.** System loss includes that handler's errors
-  on the deferred slice and the cost of asking. Constant reject cost is the
-  special case where the handler's loss does not depend on the case. A frozen
-  head that was not trained on the handler's mistakes is not an expert-adapted
-  rejector.
-
-Compare the chosen score with always-act, always-defer, and the other score
-on held-out system loss. The handler, an exact rule, or a person owns the act.
+Name two-act expected cost (no reject option; see `validation.md`; a dominated
+act makes label-all optimal), selective ranking (accepted risk excludes the
+rejected mass), or deferral to a named handler (system loss includes that
+handler's errors). A frozen head not trained on those mistakes is not
+expert-adapted. Compare the score with always-act, always-defer, and the
+alternate score on held-out system loss. The handler, an exact rule, or a
+person owns the act.
 
 Expected cost must include:
 
@@ -254,21 +239,6 @@ or human. Provider timeout is neither approval nor rejection: map it explicitly.
 
 ## Decision-design extras for class choice
 
-Record:
-
-```text
-Required output species:
-Evidence and candidate source:
-Known coverage gaps / no-match behavior:
-Family and provider (versioned):
-What remains exact; what remains generative:
-Action and owner of authority:
-Per-action threshold and error fallback:
-Held-out labels and shift slices:
-Calibration / rank / span / task metrics appropriate to the family:
-Trajectory or cascade success, latency, generator rate, human rate, total cost:
-State freshness and authority re-check immediately before action:
-Smallest result that would reject this placement:
-```
-
-The final acceptance test is the policy in context, not the model in isolation.
+Use the skill's decision-design card. Also record output species, candidate
+coverage and no-match behavior, and the metric that matches the family.
+Acceptance is the policy in context, not the model alone.

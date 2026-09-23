@@ -225,6 +225,11 @@ Not a new family. Not a claim that Jev, or any peer, is miscalibrated.
 "uncertainty routing" to the same reference. Version **0.7.1-dev** because
 installed wording changed. Published 0.7.0 is unchanged until a release.
 
+The reference byte ceiling is 180,000. The class-choice checklist in
+`judgment-class.md` duplicated the skill's decision-design card, so it became
+a pointer plus output species, coverage, and the family-matched metric.
+Cascade cost fields remain on the skill card and in `mixed-architecture.md`.
+
 **Falsifier for the promotion.** A binary-only menu, where the distinction
 is idle, or a held-out system-loss comparison in which entropy routing wins
 and the text is then too conservative. Conservatism is acceptable until that
