@@ -6009,6 +6009,38 @@
     "title": "Archer essay cited by ryana/jevify",
     "url": "https://archerhume.com/posts/jevs-architecture-unmasked",
     "note": "Cited by the ryana/jevify prompt for hypotheses only. Architectural deductions are not verified implementation details. Not a landed Archer product. notes.md §152."
+  },
+  {
+    "kind": "github",
+    "title": "TheoLeeCJ/SemIf-OpenJev",
+    "url": "https://github.com/TheoLeeCJ/SemIf-OpenJev",
+    "note": "Same GitHub node R_kgDOUc5tow as TheoLeeCJ/SemIf. HEAD 1f2dea3e25379f9dfc98cb83c324f00ab5deda37 unchanged at 2026-09-23T16:04Z. Slug rename, not a second source. notes.md §117 and §165.",
+    "reviewed_at": "2026-09-23T16:04Z",
+    "review": "archive/hourly/2026-09-23T15/fold_165.md"
+  },
+  {
+    "kind": "github",
+    "title": "nokia-applied-research/AnyJev",
+    "url": "https://github.com/nokia-applied-research/AnyJev",
+    "note": "HEAD 3cd8c6fcd9e90fc04214575ade6779da1e3f3704. README levels contract inspected. L0 does not calibrate. L1 is temperature. L2 does not transfer across questions. Reported BANKING77 numbers are theirs. Release tag still v0.0.2. notes.md §151 and §165.",
+    "reviewed_at": "2026-09-23T16:04Z",
+    "review": "archive/hourly/2026-09-23T15/fold_165.md"
+  },
+  {
+    "kind": "hf",
+    "title": "ZefanCai/Open-Jev-27B-v1.1",
+    "url": "https://huggingface.co/ZefanCai/Open-Jev-27B-v1.1",
+    "note": "sha 28cf73067d5b337860bbef3c85b8b82ba8730956. Card opening only. LoRA plus scalar head on Qwen3.8-27B. Public JevBench 197/231 and Hard 80/111 are theirs, not Harbor. Not reproduced. notes.md §165.",
+    "reviewed_at": "2026-09-23T16:04Z",
+    "review": "archive/hourly/2026-09-23T15/fold_165.md"
+  },
+  {
+    "kind": "hf",
+    "title": "ZefanCai/Open-Jev-v1.1",
+    "url": "https://huggingface.co/datasets/ZefanCai/Open-Jev-v1.1",
+    "note": "sha 10ad6888333fa97f8c948192797bad3de3040802. Redistributable projection of 326619 records including 147139 training records. 2053 Wikispeedia rows omitted. Not the exact training mixture. notes.md §165.",
+    "reviewed_at": "2026-09-23T16:04Z",
+    "review": "archive/hourly/2026-09-23T15/fold_165.md"
   }
   ]
 }

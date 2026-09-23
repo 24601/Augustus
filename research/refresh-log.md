@@ -1,3 +1,17 @@
+## 2026-09-23 ~16:04 UTC / ~09:46 Boise - Hourly 0946 HIGH
+
+- User-requested fold onto post-#93 `main` (`87b0cda`). notes.md §165.
+  Packet of 80 items archived at `research/archive/hourly/2026-09-23T15/`.
+  350 further watch items were not in the packet and were not inspected.
+- Research-only. No skill, human README, Pages, or version change.
+- Live GitHub REST and Hugging Face card reads on 2026-09-23T16:04Z.
+  README or card openings for the sources named in §165. Commit subjects
+  where the section says so. Repo metadata for the rest. No benches rerun.
+  No X calls. Third-party figures stay *theirs*.
+- SemIf slug rename, SHA unchanged. AnyJev levels confirm the installed
+  readout rules. Open-Jev 27B adapter exists and is not parity.
+  jev-seo has no common ancestor with the stored SHA.
+
 ## 2026-09-22 ~04:44 UTC / ~22:44 Boise - Hourly 2244 HIGH
 - Folded onto post-#88 `main` (`8c8f6cb`). hourly 2149 §162 is on main.
   This fold is §163 only. This fold: `notes.md` §163 / composition 981-996 /
