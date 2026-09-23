@@ -1,8 +1,6 @@
 # FAQ (design judgment, not an API)
 
-This FAQ explains placement and boundaries. TypeSafe Jev is Augustus's default
-hosted exemplar by project preference, not an empirical adoption claim. Use live
-provider documentation for API contracts.
+This FAQ explains placement and boundaries.
 
 ## Isn't this just classification?
 

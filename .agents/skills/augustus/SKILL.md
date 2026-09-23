@@ -136,7 +136,7 @@ repository or caller's working directory.
 | Classical methods and falsifiers | [Mappings](references/mappings.md) |
 | Operators and substitution preconditions | [Methods catalog](references/methods-catalog.md), [composition algebra](references/composition-algebra.md) |
 | Discover a new placement | [Toolbox mapping](references/toolbox-mapping.md) |
-| Proof, simulation, and enforcement | [Formal methods](references/formal-methods.md), [short guide](references/formal-semi-formal.md) |
+| Proof, simulation, and enforcement | [Formal methods](references/formal-methods.md) |
 | Calibration, selective prediction, and experiments | [Validation](references/validation.md) |
 | Optimize prompts or decision programs | [Optimizer integration](references/optimizer-integration.md) |
 | Agent progress, done, or stuck judgments | [Agent self-assessment](references/agent-self-assessment.md) |

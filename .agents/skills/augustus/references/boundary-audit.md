@@ -166,18 +166,7 @@ Stop and redesign when you see:
 - typed output described as hallucination-proof
 - SDK fields written from memory instead of live docs
 - a Noul used as a proof, model-check, or DST property
-- TOCTOU-of-Noul: judged at t0, acted at t1, no re-probe
-  (`formal-methods.md` §5) — includes credit-then-wire, "looks done"
-  then serve, "spec looks good" then merge
-- vacuous / tautological spec (Hillel vibing specs) plus "the model said
-  it looks good"; MCP "ran the checker" on a tautology (receipt theater)
-- Apalache random-exec or Quint `run` cited as unbounded safety
-- benchmark scores transferred to a different runtime or task without evidence
-- Alloy vs Apalache collapsed into "we model-checked it"
-- similarly named sources conflated; a done-Noul settling a durable promise
-- independence fiction (multiplying Nouls) or Score unit fiction
-- population-scale thresholds copied onto a small situated workflow
-- silent base-code edits to satisfy Dafny/Lean
+- a case matching a stop condition or harmful-uses check below
 
 ### TOCTOU-of-Noul (stop condition)
 

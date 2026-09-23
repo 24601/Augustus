@@ -1,8 +1,7 @@
 # The toolbox sweep: how to find approaches and applications for a new primitive
 
 This is a repeatable method for deriving placements from classical tools rather
-than brainstorming product ideas. TypeSafe Jev is the default hosted exemplar;
-the sweep targets the wider decision-model class. The sweep itself is a
+than brainstorming product ideas. The sweep itself is a
 **Hypothesis-generating method**. Each placement remains untested until a
 recorded experiment supports or rejects it; lack of a disproof is not validation.
 
@@ -59,24 +58,15 @@ known method -> component inventory -> judgment-shaped hole
 | Decision theory | belief evidence for act/abstain/gather | loss table and argmin | Theory placement; local calibration empirical |
 | Signal detection | noisy semantic evidence | criterion, ROC/PR, prevalence/cost | Theory placement |
 | MCDA | named semantic criteria | weights, vetoes, Pareto analysis | Hypothesis per rubric |
-| Search | branch priority/prune/leaf heuristic | frontier, budget, transitions, goal probe | Empirical shape; local Hypothesis |
-| Control | state estimate | controller, hysteresis, interlock, probe | Empirical shape; local Hypothesis |
-| Retrieval | relevance comparator | candidate generation and citations | Empirical shape; local Hypothesis |
+| Search | branch priority/prune/leaf heuristic | frontier, budget, transitions, goal probe | Pattern shape; local Hypothesis |
+| Control | state estimate | controller, hysteresis, interlock, probe | Pattern shape; local Hypothesis |
+| Retrieval | relevance comparator | candidate generation and citations | Pattern shape; local Hypothesis |
 | Formal workflow | counterexample/property triage | spec, checker, proof obligation | Hypothesis; never proof |
 | Operations research | affinity/value feature | constraints and solver | Hypothesis |
 | Experimental design | semantic rater | sampling, labels, statistics | Hypothesis per rater |
 | Human workflow | attention/priority cue | role, authority, procedure | Hypothesis |
 
-Standing invalid substitutions:
-
-- multiply same-state judgments as independent evidence;
-- use a judgment probability as a p-value;
-- infer cross-question comparability without a common rubric;
-- let calibration certify an individual answer;
-- infer reward/value without observed outcomes;
-- treat a clean simulator/DST run as proof;
-- let a selector authorize or execute;
-- delegate counts, dates, schemas, or settlement to semantic judgment.
+Standing invalid substitutions are listed under Rejected in `methods-catalog.md`.
 
 ## The application-finding procedure (top-down, domain-first)
 

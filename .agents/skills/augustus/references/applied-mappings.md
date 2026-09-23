@@ -1,9 +1,8 @@
 # Applied placements: sieves, keep/drop, triage, rank, route
 
 These cards describe where a bounded judgment sits in running software. They
-are provider-neutral. TypeSafe Jev is the project's default hosted exemplar;
-`judgment-class.md` owns family choice, and live provider documentation owns API
-details.
+are provider-neutral; `judgment-class.md` owns family choice, and live provider
+documentation owns API details.
 
 For every placement, record the evidence source, candidate coverage, exact
 constraints, policy owner, error behavior, fallback, and outcome oracle. A
