@@ -1,10 +1,6 @@
 # Mental models: placing typed judgment across domains
 
 Augustus places **typed, bounded judgment** inside a larger decision system.
-TypeSafe Jev (Choice / Score / Noul) is the default hosted exemplar; the
-placement rules apply to the wider class of decision models. This is not an
-API guide and it does not assume that every compatible-looking model is
-calibrated or interchangeable.
 
 ```text
 state -> model evidence -> explicit policy -> checked action -> observed outcome
@@ -233,19 +229,6 @@ assumptions, owner, and falsifier are explicit.
 | Formal workflow | counterexample triage | checker and property | Hypothesis |
 | Inbox | urgency/aboutness | send/delete/calendar controls | Hypothesis |
 | Operations | incident similarity | command structure and probes | Hypothesis |
-
-## Decision-design extras (any domain)
-
-```text
-Desired behavior and current baseline:
-State evidence available / missing:
-Exact work and authority owner:
-Narrow judgments and classical pillar:
-Family and statistical-validity evidence:
-Acts, loss table, fallback, and reversibility:
-Constraint that survives model failure:
-Smallest held-out experiment that could reject the placement:
-```
 
 Related: `mappings.md`, `methods-catalog.md`, `toolbox-mapping.md`,
 `composition-algebra.md`, `formal-methods.md`, `judgment-class.md`.

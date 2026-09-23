@@ -1,9 +1,8 @@
 # Methods catalog: named algorithms -> judgment-shaped substitution
 
 This catalog asks where a bounded semantic judgment can replace one component
-of a known method without replacing its mathematics. TypeSafe Jev is the
-default hosted exemplar. Every row inherits the method's preconditions; a typed
-answer is not a warrant that they hold.
+of a known method without replacing its mathematics. Every row inherits the
+method's preconditions; a typed answer is not a warrant that they hold.
 
 Labels: **Theory** (classical result under preconditions), **Pattern**
 (architecture or procedure, not a claim of measured improvement), **Hypothesis**

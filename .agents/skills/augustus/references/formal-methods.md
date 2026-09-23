@@ -1,12 +1,11 @@
-# Formal, semi-formal, and crossover placement
+# Formal and semi-formal placement
 
 This card places bounded model judgment relative to proof, model checking,
-contracts, runtime verification, and systematic testing. TypeSafe Jev is the
-default hosted decision-model exemplar; it is not a prover. Tool documentation
+contracts, runtime verification, and systematic testing. Tool documentation
 owns syntax and current capabilities.
 
 Statuses: **Formal claim** only when a named formal tool establishes it under a
-stated model/logic/bound; **Empirical result** when a reproducible test ran;
+stated model/logic/bound; **Reproduced** for an identified run with artifacts;
 **Hypothesis** for a proposed judgment placement. Never promote a hypothesis
 because the output is typed or confident.
 
@@ -173,19 +172,6 @@ beside a hard monitor.
 that weaken the obligation; model-generated reward used as environment truth;
 green summary without checker evidence.
 
-## 6. Crossover metaphors (placement intuition)
-
-- **NATM:** observations guide support; gauges are not lining.
-- **Snap-fit:** tolerance is designed for reversible joints; pressure boundaries
-  need stronger constraints.
-- **Norman:** judgment helps evaluate visible candidates; forcing functions help
-  execute irreversible intent.
-- **Leveson/STAMP:** sensors inform controllers; safety constraints live in the
-  control structure.
-
-These are intuitions, not formal mappings. Preserve the source method's
-precondition before transferring a metaphor.
-
 ## Decision-design extras (proof x judgment)
 
 ```text
@@ -210,5 +196,5 @@ Smallest result that rejects this composition:
 - durable workflow state classification beside exact settlement;
 - trace-to-spec alignment with human-audited correspondence.
 
-Related: `formal-semi-formal.md`, `mental-models.md`, `mappings.md` §§10–14,
+Related: `mental-models.md`, `mappings.md` §§10–14,
 `composition-algebra.md` positions 3 and 9, `boundary-audit.md`.

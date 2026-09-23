@@ -29,6 +29,13 @@ folds: `research/notes.md`.
   selective ranking, and deferral to a named handler. Entropy and top-option
   mass rank the same binary menu and can reverse once a choice has three or
   more options. Published **0.7.0** is unchanged until a release.
+- Consolidated duplicated runtime guidance. Removed
+  `references/formal-semi-formal.md`, a one-screen alias whose rules all live
+  in `formal-methods.md`, `mappings.md` §12, and `mental-models.md`. Repeated
+  exemplar disclaimers, formal-methods crossover metaphors, duplicated red
+  flags, a second invalid-substitution list, and a generic design card now
+  appear only in their owning file. References drop from 179,929 to 172,348
+  bytes; no design decision is removed.
 - Reworked the website as a technical publication centered on an annotated
   decision example. Kept the agent build/evaluate/improve mission visible,
   brought installation into the page, and moved the six detailed placements

@@ -1,8 +1,7 @@
 # Mappings: classical methods -> judgment-class designs
 
 Each card states what transfers, what remains exact, the theory preconditions,
-and a falsifier. TypeSafe Jev is the default hosted exemplar, not a monopoly
-and not evidence that another typed surface is calibrated. Status vocabulary:
+and a falsifier. Status vocabulary:
 **Theory** identifies a classical result under its assumptions; a placement is
 **Hypothesis** until a specific run supports it. Use **Reported** or
 **Reproduced** only with a named source or run, and **Rejected** for an invalid

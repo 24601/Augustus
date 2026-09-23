@@ -7,10 +7,6 @@ It is not a claim that every program should become learned, or an API guide.
 program's prompts, demonstrations, modules, and sometimes model choice. They do
 not inherit authority over application policy, permissions, or state.
 
-TypeSafe Jev is the project's default hosted decision exemplar. It is not an
-empirical adoption claim, and calibration-oriented training is not a guarantee
-of calibrated deployment behavior.
-
 ## Agent execution loop
 
 Deliver working artifacts when asked to build, not just a design card. Reuse the

@@ -5,9 +5,8 @@ estimates named propositions; deterministic policy decides what happens. It
 does not become the agent's conscience, permission system, test runner, or
 source of truth.
 
-TypeSafe Jev is the project's default hosted exemplar for these judgments, not
-an empirical adoption claim. Other decision heads, classifiers, or exact checks
-may fit particular gates better. Validate the composed lifecycle on real traces.
+Choose the decision head, classifier, or exact check per gate. Validate the
+composed lifecycle on real traces.
 
 ## Lifecycle gates
 

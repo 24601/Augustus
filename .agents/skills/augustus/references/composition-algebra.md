@@ -1,8 +1,7 @@
 # Composition calculus: typed joins, decision loss, and useful placements
 
 Let `J(s)` be bounded model evidence about state `s`, `P` an explicit policy,
-and `F` any algorithm, tool, or action. TypeSafe Jev is the default hosted
-exemplar, but the placement grammar is provider-independent.
+and `F` any algorithm, tool, or action.
 
 ```text
 state -> J(state) -> P(evidence, exact facts) -> F -> observed outcome

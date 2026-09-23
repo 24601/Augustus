@@ -14,10 +14,8 @@ current evidence
   → observed outcome
 ```
 
-TypeSafe Jev is the project's default hosted exemplar for bounded judgments.
-That preference is not evidence of adoption or a promise that every returned
-probability is calibrated. Select other families from `judgment-class.md` when
-their objective fits better, and evaluate every provider on the target data.
+Select the family from `judgment-class.md` by objective, and evaluate every
+provider on the target data.
 
 ## Neighbor skills (load the right one)
 
