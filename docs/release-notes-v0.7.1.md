@@ -17,9 +17,10 @@ remain valid alternatives. Nothing here claims a measured deployment gain.
   one three-option menu to show that entropy and top-option mass can rank the
   same cases differently: (0.5, 0.5, 0) has 1 bit, while (0.6, 0.2, 0.2) has
   more top mass and about 1.371 bits. The old example compared two menu sizes,
-  and normalization erased its reversal. Deferral is stated as theory under
-  calibrated mass: defer when 1 − top mass exceeds the handler's expected loss
-  on the case, query cost included. Chow's rule is the constant-loss case. A
+  and normalization erased its reversal. Deferral is stated as theory: defer
+  when the head's error on a case exceeds the handler's expected loss there,
+  query cost included, both conditioned on what the router sees. Population
+  calibration of the head is not enough. Chow's rule is the constant-loss case. A
   rejector fit to representative handler outcomes is allowed. The handler
   decides deferred cases and policy authorizes the act; the earlier wording let
   a model handler "own" it. Dominance is now convention-free: "if one act never
@@ -32,14 +33,16 @@ remain valid alternatives. Nothing here claims a measured deployment gain.
   - Done-checks need evidence the judged system cannot forge. A deterministic
     check is not independent if the agent can edit what it reads.
   - Post-deployment error needs outcomes on every case or a known-probability
-    audit sample, not review queues or complaints alone. Reviewer accuracy is
+    audit sample weighted by inverse inclusion probability, not review queues
+    or complaints alone. Reviewer accuracy is
     measured under the deployed display.
-  - Labels from an automated check are not independent gold. A router's
-    quality gain is bounded by the per-case best route.
+  - Labels from an automated check are not independent gold. Where every
+    route can be scored on the same cases, the per-case best bounds a
+    router's quality gain.
 - **Task-routed entry point.** The reference table is organized by what the
-  user is doing and names the two offline scripts. One-off choices use weight
-  sensitivity, missing criteria, dominated options, and value of information
-  instead of a held-out population.
+  user is doing and names the two offline scripts. One-off choices test
+  sensitivity to weights and uncertain estimates, missing criteria, dominated
+  options, and value of information instead of a held-out population.
 - **Consolidation.** `references/formal-semi-formal.md` is removed; its rules
   live in `formal-methods.md`, `mappings.md` §12, and `mental-models.md`.
   Repeated exemplar disclaimers and duplicated lists now appear once. Runtime
@@ -99,5 +102,11 @@ third-party benchmark was reproduced. Requested model routing is recorded
 separately from observed identity and is not backend attestation. Historical
 TypeSafe skill provenance remains v0.5.7 (`65a39f3`), rechecked on 2026-09-23
 as that repository's latest tag and HEAD.
+
+*Corrected after tagging (2026-09-23):* four summary sentences above now
+match the released skill text: deferral conditioning, audit weights, the
+router bound, and one-off sensitivity. The copy of this page inside the
+`v0.7.1` tag keeps the earlier summary wording; the tagged skill itself
+already contained the corrected rules.
 
 Earlier release: [v0.7.0]({{ '/release-notes-v0.7.0.html' | relative_url }}).
