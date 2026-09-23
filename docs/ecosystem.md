@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Decision-model families and evidence
+description: "Decision-model families, output semantics, and evidence labels for choosing a classifier, ranker, encoder, or hosted decision API."
 page_class: dense
 ---
 
@@ -80,8 +81,7 @@ snapshots remain available for research and audit:
 - [Revisit checklist](https://github.com/24601/Augustus/blob/main/research/revisit-checklist.md)
 - [Historical ecosystem snapshot at `0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8`](https://github.com/24601/Augustus/blob/0b43a8d3b8d2d389b59415747f566dcbaa3f3ec8/docs/ecosystem.md)
 
-Release context remains in
-[v0.5.1](https://github.com/24601/Augustus/releases/tag/v0.5.1) and
-[v0.5.0](https://github.com/24601/Augustus/releases/tag/v0.5.0). For corrections
+Current and past release notes are on
+[GitHub releases](https://github.com/24601/Augustus/releases). For corrections
 or new evidence, use the repository's
 [contribution guide](https://github.com/24601/Augustus/blob/main/CONTRIBUTING.md).
