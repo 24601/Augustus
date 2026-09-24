@@ -409,29 +409,39 @@ def main(argv=None) -> int:
         # is only visible in non-inferiority mode when the radius is smaller
         # than twice the margin, so it is planted at n = 2500 where that holds.
         # `any(...)` would mask a miss, so detection is judged per defect.
+        # expected_max_rate makes a "must not detect" row assert what theory
+        # actually says. A sign flip in superiority mode gives UCB(+m) > -m on
+        # every replication, so the expected rate is EXACTLY zero, not merely
+        # under the tolerance. Accepting anything below 0.055 there would let a
+        # partially working flip pass unnoticed.
         plan = [
-            ("radius_removed", "superiority", 300, True),
-            ("radius_removed", "non_inferiority", 300, True),
-            ("radius_n_inflated", "superiority", 300, True),
-            ("radius_n_inflated", "non_inferiority", 300, True),
-            ("delta_sign_flipped", "superiority", 2_500, False),
-            ("delta_sign_flipped", "non_inferiority", 2_500, True),
+            ("radius_removed", "superiority", 300, True, None),
+            ("radius_removed", "non_inferiority", 300, True, None),
+            ("radius_n_inflated", "superiority", 300, True, None),
+            ("radius_n_inflated", "non_inferiority", 300, True, None),
+            ("delta_sign_flipped", "superiority", 2_500, False, 0.0),
+            ("delta_sign_flipped", "non_inferiority", 2_500, True, None),
         ]
         planted = []
         reps = min(args.replications, 10_000)
-        for defect, mode, n, must_detect in plan:
+        for defect, mode, n, must_detect, expected_max_rate in plan:
             for method in ("hoeffding", "empirical_bernstein"):
                 dist = DISTRIBUTIONS[2]
                 adoptions = run_cell(torch, method, mode, dist, n, 1, reps, args.chunk,
                                      generator, device, defect=defect)
                 rate = adoptions / reps
                 detected = rate > TOLERANCE
+                as_expected = detected == must_detect
+                if expected_max_rate is not None:
+                    as_expected = as_expected and rate <= expected_max_rate
                 planted.append({
                     "defect": defect, "method": method, "mode": mode, "n": n,
                     "adoptions": adoptions, "rate": rate,
                     "must_detect": must_detect, "detected": detected,
-                    "as_expected": detected == must_detect,
-                    "note": ("invisible to the size test in superiority mode, by construction"
+                    "expected_max_rate": expected_max_rate,
+                    "as_expected": as_expected,
+                    "note": ("invisible to the size test in superiority mode by construction:"
+                             " UCB(+m) > -m on every replication, so exactly zero is expected"
                              if not must_detect else
                              "must inflate the adoption rate past the tolerance"),
                 })
