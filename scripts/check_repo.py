@@ -20,9 +20,13 @@ from urllib.parse import unquote, urlsplit
 import yaml
 
 
-SKILL_PATH = Path(".agents/skills/augustus/SKILL.md")
+SKILLS_DIR = Path(".agents/skills")
+# The historical single-skill locations. They stay as the primary skill so
+# existing integrators keep working; every skill under SKILLS_DIR is checked.
+SKILL_PATH = SKILLS_DIR / "augustus" / "SKILL.md"
 MARKETPLACE_PATH = Path(".claude-plugin/marketplace.json")
 REFERENCE_DIR = SKILL_PATH.parent / "references"
+REFERENCE_DIR_NAME = "references"
 MAX_SKILL_BYTES = 16_000
 MAX_SKILL_LINES = 220
 MAX_REFERENCE_BYTES = 18_000
@@ -199,18 +203,21 @@ def _check_links(boundary: Path, path: Path, text: str, issues: list[Issue]) -> 
     return targets
 
 
-def _active_references(root: Path, skill_path: Path, text: str, issues: list[Issue]) -> set[Path]:
+def _active_references(reference_root: Path, skill_path: Path, text: str, issues: list[Issue]) -> set[Path]:
     """Find directly declared reference cards, whether linked or code-styled.
 
     The current skill convention names cards as ``references/name.md`` in
     inline code rather than always making those names Markdown links.  Both
     forms are explicit structural declarations; prose lookalikes are not.
+
+    ``reference_root`` is the skill's own ``references/`` directory, so each
+    skill in the repository declares and owns its own cards.
     """
+    reference_root = reference_root.resolve()
     references = {
         target for target in _check_links(skill_path.parent.resolve(), skill_path, text, issues)
-        if target.is_relative_to((root / REFERENCE_DIR).resolve()) and target.suffix.lower() == ".md"
+        if target.is_relative_to(reference_root) and target.suffix.lower() == ".md"
     }
-    reference_root = (root / REFERENCE_DIR).resolve()
     for line, raw_line in _without_code(text):
         for match in REFERENCE_PATH_RE.finditer(raw_line):
             candidate = (reference_root / match.group(1)).resolve()
@@ -336,7 +343,7 @@ def _resolve_marketplace_path(root: Path, plugin_root: Path, raw_path: object, i
     return candidate
 
 
-def _check_marketplace_layout(root: Path, plugin: dict, skill_path: Path, issues: list[Issue]) -> None:
+def _check_marketplace_layout(root: Path, plugin: dict, skill_paths: Iterable[Path], issues: list[Issue]) -> None:
     plugin_root = _resolve_marketplace_path(root, root, plugin.get("source"), issues, code="marketplace-source", label="source")
     if plugin_root is None:
         return
@@ -349,8 +356,8 @@ def _check_marketplace_layout(root: Path, plugin: dict, skill_path: Path, issues
     if not isinstance(configured, list) or not configured:
         _issue(issues, "marketplace-skills", root / MARKETPLACE_PATH, "skills must be a non-empty list of relative paths")
         return
-    actual = skill_path.resolve()
-    matched_actual = False
+    actual = {path.resolve() for path in skill_paths}
+    matched: set[Path] = set()
     for item in configured:
         configured_path = _resolve_marketplace_path(root, plugin_root, item, issues, code="marketplace-skill", label="skill path")
         if configured_path is None:
@@ -359,16 +366,23 @@ def _check_marketplace_layout(root: Path, plugin: dict, skill_path: Path, issues
         if not resolved_skill.is_file():
             _issue(issues, "marketplace-skill", root / MARKETPLACE_PATH, f"skill path does not contain SKILL.md: {item!r}")
             continue
-        if resolved_skill.resolve() != actual:
-            _issue(issues, "marketplace-skill", root / MARKETPLACE_PATH, f"skill path does not resolve to the active SKILL.md: {item!r}")
+        if resolved_skill.resolve() not in actual:
+            _issue(issues, "marketplace-skill", root / MARKETPLACE_PATH, f"skill path does not resolve to an active SKILL.md: {item!r}")
             continue
-        matched_actual = True
-    if not matched_actual:
-        _issue(issues, "marketplace-skill", root / MARKETPLACE_PATH, "skills must include the active SKILL.md")
+        matched.add(resolved_skill.resolve())
+    for missing in sorted(actual - matched):
+        _issue(issues, "marketplace-skill", root / MARKETPLACE_PATH, f"skills must include every active SKILL.md; missing {missing.name} under {missing.parent.name}")
 
 
-def _check_openai_ui(skill_path: Path, issues: list[Issue]) -> None:
+def _check_openai_ui(skill_path: Path, skill_name: str | None, issues: list[Issue]) -> None:
+    """Validate an OpenAI UI manifest when the skill ships one.
+
+    Only the primary skill has shipped a manifest so far. A skill without one
+    is not an error; a malformed one is.
+    """
     path = skill_path.parent / "agents" / "openai.yaml"
+    if not path.is_file():
+        return
     raw = _read(path, issues)
     if raw is None:
         return
@@ -388,8 +402,9 @@ def _check_openai_ui(skill_path: Path, issues: list[Issue]) -> None:
     if not isinstance(short_description, str) or not 25 <= len(short_description.strip()) <= 64:
         _issue(issues, "ui-short-description", path, "interface.short_description must be 25-64 characters")
     default_prompt = interface.get("default_prompt")
-    if not isinstance(default_prompt, str) or "$augustus" not in default_prompt:
-        _issue(issues, "ui-default-prompt", path, "interface.default_prompt must mention $augustus")
+    invocation = f"${skill_name}" if skill_name else "$augustus"
+    if not isinstance(default_prompt, str) or invocation not in default_prompt:
+        _issue(issues, "ui-default-prompt", path, f"interface.default_prompt must mention {invocation}")
     policy = data.get("policy") if isinstance(data, dict) else None
     if policy is not None:
         if not isinstance(policy, dict):
@@ -494,18 +509,30 @@ def _main_docs(root: Path) -> tuple[Path, ...]:
     )
 
 
-def check_repository(root: Path | str) -> list[Issue]:
-    """Return every deterministic repository issue for ``root``.
+def _discover_skills(root: Path) -> list[Path]:
+    """Return every ``SKILL.md`` in the repository, primary skill first.
 
-    ``root`` is configurable so tests and downstream integrators can validate
-    isolated fixtures without invoking a subprocess or changing cwd.
+    Skills are directories under ``.agents/skills/``. Ordering is stable so
+    issue output does not depend on filesystem order.
     """
-    root_path = Path(root).resolve()
-    issues: list[Issue] = []
-    skill_path = root_path / SKILL_PATH
+    skills_root = root / SKILLS_DIR
+    found = sorted(path for path in skills_root.glob("*/SKILL.md") if path.is_file())
+    primary = root / SKILL_PATH
+    if primary in found:
+        found.remove(primary)
+        found.insert(0, primary)
+    return found
+
+
+def _check_skill(root_path: Path, skill_path: Path, issues: list[Issue], paragraphs: dict[str, tuple[Path, int]]) -> tuple[str | None, str | None]:
+    """Check one skill and return its declared name and version.
+
+    ``paragraphs`` is shared across skills, so a card copied from one skill
+    into another is reported as a duplicate.
+    """
     skill_text = _read(skill_path, issues)
     if skill_text is None:
-        return issues
+        return None, None
 
     _check_budget(skill_path, skill_text, issues, byte_limit=MAX_SKILL_BYTES, line_limit=MAX_SKILL_LINES)
     metadata = _frontmatter(skill_text, skill_path, issues)
@@ -519,6 +546,8 @@ def check_repository(root: Path | str) -> list[Issue]:
             _issue(issues, "skill-name", skill_path, "name must be lowercase kebab-case (1-64 chars)")
         else:
             skill_name = name
+            if name != skill_path.parent.name:
+                _issue(issues, "skill-name", skill_path, f"name {name!r} must match its directory {skill_path.parent.name!r}")
         if not isinstance(description, str) or not description.strip() or len(description) > MAX_DESCRIPTION_CHARS:
             _issue(issues, "skill-description", skill_path, f"description must be non-empty text up to {MAX_DESCRIPTION_CHARS} characters")
         elif "<" in description or ">" in description:
@@ -539,14 +568,13 @@ def check_repository(root: Path | str) -> list[Issue]:
                 _issue(issues, "skill-version", skill_path, "metadata.version must be semantic version text")
 
     _check_headings(skill_path, skill_text, issues, runtime=True)
-    linked_references = _active_references(root_path, skill_path, skill_text, issues)
-    reference_root = root_path / REFERENCE_DIR
+    reference_root = skill_path.parent / REFERENCE_DIR_NAME
+    linked_references = _active_references(reference_root, skill_path, skill_text, issues)
     all_references = set(reference_root.rglob("*.md")) if reference_root.is_dir() else set()
     for reference in sorted(all_references - linked_references):
         _issue(issues, "unreferenced-reference", reference, "runtime reference is not declared by SKILL.md")
 
     reference_bytes = 0
-    paragraphs: dict[str, tuple[Path, int]] = {}
     for reference in sorted(all_references):
         reference_text = _read(reference, issues)
         if reference_text is None:
@@ -567,7 +595,43 @@ def check_repository(root: Path | str) -> list[Issue]:
             else:
                 paragraphs[paragraph] = (reference, line)
     if reference_bytes > MAX_REFERENCE_TOTAL_BYTES:
-        _issue(issues, "reference-total-budget", root_path / REFERENCE_DIR, f"{reference_bytes} bytes exceeds {MAX_REFERENCE_TOTAL_BYTES}")
+        _issue(issues, "reference-total-budget", reference_root, f"{reference_bytes} bytes exceeds {MAX_REFERENCE_TOTAL_BYTES}")
+
+    _check_openai_ui(skill_path, skill_name, issues)
+    return skill_name, version
+
+
+def check_repository(root: Path | str) -> list[Issue]:
+    """Return every deterministic repository issue for ``root``.
+
+    ``root`` is configurable so tests and downstream integrators can validate
+    isolated fixtures without invoking a subprocess or changing cwd.
+
+    Every skill under ``.agents/skills/`` is checked, with its own reference
+    budget and its own declared cards. Skills share one version, because they
+    ship as one plugin, and the marketplace must list all of them.
+    """
+    root_path = Path(root).resolve()
+    issues: list[Issue] = []
+    skill_paths = _discover_skills(root_path)
+    if not skill_paths:
+        _issue(issues, "missing-file", root_path / SKILL_PATH, "required file is absent")
+        return issues
+
+    paragraphs: dict[str, tuple[Path, int]] = {}
+    names: dict[Path, str] = {}
+    versions: dict[Path, str] = {}
+    for skill_path in skill_paths:
+        name, version = _check_skill(root_path, skill_path, issues, paragraphs)
+        if name is not None:
+            names[skill_path] = name
+        if version is not None:
+            versions[skill_path] = version
+
+    distinct = sorted(set(versions.values()))
+    if len(distinct) > 1:
+        for skill_path, version in sorted(versions.items()):
+            _issue(issues, "version-mismatch", skill_path, f"skill version {version!r} differs from the other skills: {', '.join(distinct)}")
 
     for document in _main_docs(root_path):
         text = _read(document, issues)
@@ -575,10 +639,13 @@ def check_repository(root: Path | str) -> list[Issue]:
             _check_headings(document, text, issues, runtime=document == root_path / "README.md")
             _check_links(root_path, document, text, issues)
 
-    if skill_name is not None:
-        plugin = _marketplace_plugin(root_path, skill_name, issues)
+    primary = skill_paths[0]
+    plugin_name = names.get(primary)
+    version = versions.get(primary)
+    if plugin_name is not None:
+        plugin = _marketplace_plugin(root_path, plugin_name, issues)
         if plugin is not None:
-            _check_marketplace_layout(root_path, plugin, skill_path, issues)
+            _check_marketplace_layout(root_path, plugin, skill_paths, issues)
             plugin_version = plugin.get("version")
             if not isinstance(plugin_version, str) or not SEMVER_RE.fullmatch(plugin_version):
                 _issue(issues, "marketplace-version", root_path / MARKETPLACE_PATH, "plugin version must be semantic version text")
@@ -587,9 +654,8 @@ def check_repository(root: Path | str) -> list[Issue]:
             plugin_description = plugin.get("description")
             if not isinstance(plugin_description, str) or not plugin_description.strip() or len(plugin_description) > MAX_DESCRIPTION_CHARS:
                 _issue(issues, "marketplace-description", root_path / MARKETPLACE_PATH, f"plugin description must be non-empty text up to {MAX_DESCRIPTION_CHARS} characters")
-    if version is not None and SEMVER_RE.fullmatch(version):
+    if version is not None and SEMVER_RE.fullmatch(version) and len(distinct) == 1:
         _check_release_surfaces(root_path, version, issues)
-    _check_openai_ui(skill_path, issues)
     return issues
 
 

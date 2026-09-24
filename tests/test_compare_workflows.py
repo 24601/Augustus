@@ -27,6 +27,7 @@ def receipt(n=4, phase="confirm"):
         "sampling_unit": "one independent episode (assumption, not attested)",
         "evidence_kind": "fixture", "loss_bound": 1,
         "alpha": 0.05, "minimum_improvement": 0, "comparison_count": 1,
+        "sampling_design": "equal_probability",
         "pairs": [{
             "id": str(i),
             "incumbent": {"loss": 1, "cost": 2, "latency_ms": 3, "violations": []},
@@ -371,6 +372,125 @@ class WorkflowComparisonTests(unittest.TestCase):
             with self.assertRaises(SystemExit) as raised:
                 compare.main(["unused.json"])
         self.assertEqual(raised.exception.code, 2)
+
+
+    def test_hoeffding_default_output_is_unchanged_by_the_new_fields(self):
+        """The 0.7.2 bound must stay byte-identical when mode/method are absent."""
+        data = receipt(100)
+        data["pairs"][0]["candidate"]["loss"] = 0.5
+        confirmation = compare.compare(data)["confirmation"]
+        self.assertEqual(confirmation["method"],
+                         "one-sided paired Hoeffding; fixed sample; Bonferroni family")
+        self.assertEqual(sorted(confirmation), sorted([
+            "method", "family_alpha", "comparison_count", "minimum_improvement",
+            "upper_mean_loss_delta", "strict_margin_supported",
+        ]))
+        explicit = copy.deepcopy(data)
+        explicit["mode"] = "superiority"
+        explicit["method"] = "hoeffding"
+        self.assertEqual(compare.compare(explicit)["confirmation"]["upper_mean_loss_delta"],
+                         confirmation["upper_mean_loss_delta"])
+
+    def test_empirical_bernstein_is_tighter_when_the_spread_is_small(self):
+        data = receipt(400)
+        data["evidence_kind"] = "observed"
+        for index, pair in enumerate(data["pairs"]):
+            pair["incumbent"]["loss"] = 0.5
+            pair["candidate"]["loss"] = 0.5 if index else 0.4
+        hoeffding = compare.compare(data)["confirmation"]["upper_mean_loss_delta"]
+        data["method"] = "empirical_bernstein"
+        bernstein = compare.compare(data)["confirmation"]["upper_mean_loss_delta"]
+        self.assertLess(bernstein, hoeffding)
+
+    def test_empirical_bernstein_radius_does_not_collapse_on_identical_arms(self):
+        """The rare-large failure: every observed difference is zero, and a
+        variance-only interval would certify equivalence at [0, 0]."""
+        data = receipt(2000)
+        data["evidence_kind"] = "observed"
+        data["method"] = "empirical_bernstein"
+        data["mode"] = "non_inferiority"
+        data["minimum_improvement"] = 0.0005
+        for pair in data["pairs"]:
+            pair["incumbent"]["loss"] = 0.25
+            pair["candidate"]["loss"] = 0.25
+        result = compare.compare(data)
+        self.assertEqual(result["mean_loss_delta"], 0)
+        self.assertGreater(result["confirmation"]["upper_mean_loss_delta"], 0.0005)
+        self.assertFalse(result["confirmation"]["strict_margin_supported"])
+        self.assertEqual(result["assessment"], "insufficient_evidence")
+
+    def test_non_inferiority_accepts_a_tie_that_superiority_refuses(self):
+        data = receipt(4000)
+        data["evidence_kind"] = "observed"
+        data["method"] = "empirical_bernstein"
+        data["minimum_improvement"] = 0.2
+        for pair in data["pairs"]:
+            pair["incumbent"]["loss"] = 0.3
+            pair["candidate"]["loss"] = 0.3
+        self.assertFalse(compare.compare(data)["confirmation"]["strict_margin_supported"])
+        data["mode"] = "non_inferiority"
+        result = compare.compare(data)
+        self.assertTrue(result["confirmation"]["strict_margin_supported"])
+        self.assertEqual(result["assessment"], "bound_supports_non_inferiority")
+
+    def test_sign_exact_certifies_direction_with_an_exact_p_value(self):
+        data = receipt(40)
+        data["evidence_kind"] = "observed"
+        data["method"] = "sign_exact"
+        for index, pair in enumerate(data["pairs"]):
+            pair["incumbent"]["loss"] = 1 if index < 20 else 0
+            pair["candidate"]["loss"] = 0
+        result = compare.compare(data)
+        confirmation = result["confirmation"]
+        self.assertEqual(confirmation["discordant_pairs"], 20)
+        self.assertEqual(confirmation["candidate_wins"], 20)
+        self.assertAlmostEqual(confirmation["exact_p_value"], 2 ** -20)
+        self.assertIsNone(confirmation["upper_mean_loss_delta"])
+        self.assertTrue(confirmation["strict_margin_supported"])
+
+    def test_sign_exact_refuses_a_magnitude_claim_and_non_binary_losses(self):
+        data = receipt(10)
+        data["method"] = "sign_exact"
+        data["minimum_improvement"] = 0.1
+        with self.assertRaises(ValueError):
+            compare.compare(data)
+        data["minimum_improvement"] = 0
+        data["pairs"][0]["candidate"]["loss"] = 0.5
+        with self.assertRaises(ValueError):
+            compare.compare(data)
+
+    def test_sign_exact_without_discordant_pairs_is_not_support(self):
+        data = receipt(30)
+        data["method"] = "sign_exact"
+        for pair in data["pairs"]:
+            pair["incumbent"]["loss"] = 0
+            pair["candidate"]["loss"] = 0
+        confirmation = compare.compare(data)["confirmation"]
+        self.assertEqual(confirmation["discordant_pairs"], 0)
+        self.assertEqual(confirmation["exact_p_value"], 1.0)
+        self.assertFalse(confirmation["strict_margin_supported"])
+
+    def test_confirmation_requires_a_supported_sampling_design(self):
+        data = receipt(10)
+        del data["sampling_design"]
+        with self.assertRaisesRegex(ValueError, "sampling_design"):
+            compare.compare(data)
+        data["sampling_design"] = "probability_proportional_to_size"
+        with self.assertRaisesRegex(ValueError, "unsupported_sampling_design"):
+            compare.compare(data)
+
+    def test_search_does_not_require_confirmation_only_fields(self):
+        data = receipt(10, "search")
+        del data["sampling_design"]
+        self.assertIsNone(compare.compare(data)["confirmation"])
+
+    def test_unknown_mode_or_method_is_refused(self):
+        for key, value in (("mode", "equivalence"), ("method", "bootstrap")):
+            with self.subTest(key=key):
+                data = receipt(10)
+                data[key] = value
+                with self.assertRaisesRegex(ValueError, key):
+                    compare.compare(data)
 
 
 if __name__ == "__main__":

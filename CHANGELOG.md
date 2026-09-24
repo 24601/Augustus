@@ -16,6 +16,14 @@ folds: `research/notes.md`.
 
 ## [Unreleased]
 
+The default branch carries the development version `0.8.0-dev`. It is not a
+release, and the published `v0.7.2` tag is unchanged.
+
+### Added
+
+- `.local/` and `.claude/` are ignored, so local working directories and
+  Claude Code session state cannot be committed by accident.
+
 ## [0.7.2] - 2026-09-23
 
 ### Fixed
