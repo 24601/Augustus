@@ -25,7 +25,7 @@ are operator-signed, and their value is the hash recorded here before any data w
 | E1 cost and prior shift | [`e1-design.md`](e1-design.md) | `efd7103aa69103eb…` | not written |
 | E3 episode control | [`e3-design.md`](e3-design.md) | `a9422bf234dc285e…` | not written |
 | E4 acceptance machinery | [`e4-design.md`](e4-design.md) | `1ab9e78deb838ee8…` | **executed**; see the E4a, E4b and E4c receipts |
-| M5 artifact-form ladder | [`m5-design.md`](m5-design.md) | `7f6243edd402aaeb…` | not written |
+| M5 artifact-form ladder | [`m5-design.md`](m5-design.md) | `d24e2b27a89e6e56…` | not written |
 | M5b multimodal pilot | not written | — | not written |
 
 ## Format
