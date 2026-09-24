@@ -442,8 +442,9 @@ so in advance and reports it either way.
 | Workload-local | Mixed results across powered tasks |
 | **Inconclusive** | Everything else, including no powered task. No rung recommendation: the default stays the procedure, and the recipe states that the 0.8.0 reproduction was inconclusive at 1 pp |
 
-**Multimodal side ladder (documented, untested in 0.8.0 unless the maintainer approves a pilot;
-decision 9).** M-R0 don't train or route → M-R1 frozen VLM readout (candidate-letter logits in
+**Multimodal side ladder. A pilot runs in 0.8.0 (decision 9): M-R1 and M-R2 on one public image
+task plus one code-rendered task, at 2B, after the M2 lock.** M-R3 and above stay documented and
+untested. M-R0 don't train or route → M-R1 frozen VLM readout (candidate-letter logits in
 fp32, OOF temperature per question type) → M-R2 head on frozen features → M-R3 small perception
 fine-tune → M-R4 language-tower LoRA, vision frozen → M-R5 never the default. Two rules bind any
 media claim we make or ship:
@@ -679,15 +680,15 @@ budget is a per-process allocator limit the candidate's own code can ignore, ope
 instance around, or allocate outside, and the watchdog is detection after the fact. Serialization
 caps concurrency, not the sum. So:
 
-- **Default: candidate GPU work runs on Colab**, which is D-b's own fallback, with public code and
-  data only and no B1–B20 claim. That is where an unrestricted GPU candidate belongs.
-- **On tabputer-1 only if the allocation can actually be bounded.** M0b adds **B19**: verify
-  whether the `dmem` cgroup controller (present in the root cgroup, untested at M0) bounds amdgpu
-  GTT for a rootless container. If B19 passes, candidate containers get `/dev/kfd` and
-  `renderD128` under a `dmem` limit plus the aggregate admission check, `--network=none`, their
-  own `/work` and no shared writable mount. If B19 fails, candidates on this host stay
-  CPU-deviceless and their GPU work goes to Colab; the platform is fixed per experiment at its
+- **Candidate and hill-climb GPU work runs on Colab** (decision 18, maintainer 2026-09-24), with
+  public code and data only and no B1–B20 claim. The platform is fixed per experiment at its
   analysis lock.
+- **B19 is an optimization, not a prerequisite.** M0b still tests whether the `dmem` cgroup
+  controller (present in the root cgroup, untested at M0) bounds amdgpu GTT for a rootless
+  container. If it passes, candidate containers may also run locally with `/dev/kfd` and
+  `renderD128` under a `dmem` limit plus the aggregate admission check, `--network=none`, their
+  own `/work` and no shared writable mount. If it fails, nothing is blocked, because Colab already
+  carries that work.
 
 §4.6 records the residual cost: where B19 passes, `/dev/kfd` exposes the driver's attack surface
 to candidate code, which the boundary does not claim to contain.
@@ -954,6 +955,7 @@ experiment-data window.
 | M3 | E4a–c (E4d optional); T1 generator with fact–text binding | M1, M2b, B1–B20 | 2 | E4 criteria met |
 | M4 | E1, then E3, each with its analysis lock before confirmation | M3; §4.4 parity checks for E3 | 2 + 1–2 days of compute | Results against each lock, inconclusive rows included |
 | M5 | Trainer reproduction: R0, A1, A2a, A2b, R1, R2a, R2b vs R3a (R3b if parity passes) | M1, M3; Qwen3.5 and PAW parity | 3–4 | §3.3 rule applied, including inconclusive |
+| M5b | **Multimodal pilot** (decision 9): M-R1 and M-R2 on Qwen3-VL-2B, one public image task plus one code-rendered task, with the blind-arm gate and the VLM parity receipt | M2, M5 | 1–2 | F1 and F4 applied; "not a media decision" is a valid outcome. Does not gate the release |
 | M6 | Author `augustus-train`; hand-off; scenarios; independent review; activation suite | M5 | 2–3 | Budgets pass; no unresolved severe flaw |
 | M8 | Paper and site: tokens, figures, explorables with parity, gates, design review | M3, M4 | 6–8 | §2.9 conditions |
 | M9 | Local 0.8.0-rc | M6 | 1 | Plugin validates; an isolated install shows 2 skills; **no tag and no release without the maintainer's explicit go** |
@@ -1003,16 +1005,16 @@ envelope (measured); the `.gitignore` vehicle.
 | 6 | Pre-registration custody | Design and analysis locks: hashes plus your dated note in `research/080/prereg/`, read-only copies under `augctl` |
 | 7 | Paper typography | STIX Two plus Geist; A/B against all-Geist at the start of M8 |
 | 8 | **PAW arms** | Run A2a and A2b locally (local compiler, local teacher). Hosted compile stays unused unless the local path fails on gfx1151, and then only with public examples |
-| 9 | **Multimodal pilot in 0.8.0?** | **Default: no.** Ship the M-ladder documented and labeled "untested in 0.8.0". A pilot would be M-R1/M-R2 on one public image task plus one code-rendered task, with the blind-arm gate, after the M2 lock |
-| 10 | **Container cap for a 4B VLM or an audio LoRA** | Keep 16 GB CPU / declared GPU budget; audio stays at M-R2 unless you raise it |
-| 11 | **One backbone or two for text R1 and M-R1** | Keep the split (Qwen3.5-2B text, Qwen3-VL-2B media) unless the Qwen3.5 parity check fails, in which case Qwen3-1.7B becomes R1 |
+| 9 | **Multimodal pilot in 0.8.0?** | **DECIDED: yes** (maintainer, 2026-09-24). M-R1 and M-R2 on one public image task plus one code-rendered task, after the M2 lock, under the blind-arm gate F1 and the per-type rule F4. It is a **pilot**: it can end at "not a media decision", and it does not gate the release |
+| 10 | **Container cap for a 4B VLM or an audio LoRA** | **DECIDED: no** (maintainer, 2026-09-24). The 16 GB CPU cgroup and declared GPU budgets stand, so audio stays at M-R2 and the VLM pilot stays at 2B |
+| 11 | **One backbone or two for text R1 and M-R1** | **DECIDED: two** (maintainer, 2026-09-24). Qwen3.5-2B for text R1, Qwen3-VL-2B for media, each with its own parity receipt. If the Qwen3.5 linear-attention parity check fails, Qwen3-1.7B becomes R1 and the media backbone is unaffected |
 | 12 | **Hosted non-Jev teachers** | Ship every hosted teacher as `unknown` with a named-approval path; 0.8.0 checks no provider terms beyond TypeSafe's |
 | 13 | **Jev wire format** | Do not emit `/v1/systemone`-shaped servers by default from the skill |
 | 14 | Activation spend | At most $10 per release candidate |
 | 15 | Scoop timebox | Reframe, don't restart; decide by 2026-11-15 |
 | 16 | Site placement | Standalone layout under `docs/exogenous-policy/`; the PDF in the sitemap |
 | 17 | Paper gates the release? | No |
-| 18 | Colab | Per-experiment approval, public data and code only; no current experiment needs it |
+| 18 | Colab | **DECIDED: Colab-first for candidate and hill-climb GPU work** (maintainer, 2026-09-24: "colab first is fine, honestly… everything is cuda anyway"). Public data and code only. B19's `dmem` result is then an optimization, not a prerequisite: if it passes, local candidate runs become available; if it fails, nothing is blocked. First-party experiment runs stay on tabputer-1 |
 
 ## Sources (delta from v3)
 
