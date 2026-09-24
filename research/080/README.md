@@ -67,10 +67,15 @@ sudo. Rules:
 
 ## Next
 
-**M1**: the skeleton, generalized repository
-checks, confirmation modes and methods (with `loss_bound`), the ledger and provenance graph, the
-overlap audit and the climb ledger, in small PRs. **M0b** (B16–B20, the quarantine-and-split
-custody path, the MemAvailable watchdog and the GPU-budget wrapper) gates every experiment.
+**M1 in progress**, in small PRs on `main`, all merged with `make check` green:
 
-Experiments wait for v4's design and analysis locks, as v4 specifies. No tag or release without
-the maintainer's explicit go.
+| PR | What |
+| --- | --- |
+| [#109](https://github.com/24601/Augustus/pull/109) | The default branch moves to `0.8.0-dev`, and `.local/` and `.claude/` are ignored |
+| [#110](https://github.com/24601/Augustus/pull/110) | Repository checks cover every skill, with per-skill budgets, one shared version and full marketplace coverage |
+| [#111](https://github.com/24601/Augustus/pull/111) | The confirmation helper gains `mode`, `method` (`empirical_bernstein`, `sign_exact`) and a required `sampling_design` |
+
+Still to do in M1: the ledger and provenance graph (§3.6), the overlap audit, and the climb
+ledger. **M0b** (B16–B20, the quarantine-and-split custody path, the MemAvailable watchdog, the
+GPU-budget wrapper) gates every experiment, and no experiment runs before v4's design and
+analysis locks. No tag or release without the maintainer's explicit go.
