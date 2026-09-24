@@ -19,7 +19,7 @@ runtime skill guidance. The released skill is unchanged until a 0.8.0 release.
 | Plan | **[v4](plan/plan-v4.md)** with [dispositions](plan/plan-v4-dispositions.md). It supersedes [v3](plan/plan-v3.md) and folds in the [errata](plan/plan-v3-errata.md), both v3 reviews, the M0 receipt and the research cards |
 | v4 reviews | **Both ACCEPTED after four rounds.** [Fable 5.1 xhigh](reviews/fable-5.1-xhigh-v4.md) accepted at `6685d2a`; the [Astra-requested lane](reviews/astra-max-v4.md), which could observe no model identity and says so, accepted at `9251546`. 19 findings across the rounds, 10 of them P1, all dispositioned in [plan-v4-dispositions.md](plan/plan-v4-dispositions.md); none rejected. They accepted the **specification**, not an executed experiment, a host test or a release |
 | v3 reviews | [Fable 5.1 xhigh](reviews/fable-5.1-xhigh-v3.md): NOT ACCEPTED, 0 P0, 1 P1, 10 P2. [Astra max](reviews/astra-max-v3.md): NOT ACCEPTED, 3 P1, 4 P2. All 18 findings are dispositioned in v4 |
-| Host (tabputer-1) | **M0 passed**: principals, containment, §4.4 GPU acceptance and boundary tests B1–B15. [Receipt](receipts/m0-tabputer-1-2026-09-23.md). Containment code: [`infra/`](infra/) |
+| Host (tabputer-1) | **M0 and M0b passed.** M0: principals, containment, §4.4 GPU acceptance, B1–B15 ([receipt](receipts/m0-tabputer-1-2026-09-23.md)). M0b: the custody path, the run wrapper, and B16–B20 ([receipt](receipts/m0b-tabputer-1-2026-09-24.md)) — B19 fails, which keeps candidate GPU work on Colab as decision 18 requires. State re-verified read-only on 2026-09-24 ([receipt](receipts/m0-state-check-2026-09-24.md)). Containment code: [`infra/`](infra/) |
 | Research | [CLM](sources/clm-2026-09-23.md), [Jev-Omni](sources/jev-omni-2026-09-23.md), [PAW and Rules as Programs](sources/paw-rap-2026-09-23.md) (table reproduced), the [text trainer sweep](sources/trainer-sweep-2026-09-23.md) (298 items), the [multimodal sweep](sources/trainer-sweep-multimodal-2026-09-23.md) (139 items), [trainer recipes](sources/trainer-recipes.md), [synthetic data and hill-climbing](sources/synthetic-data-and-hillclimb.md), [ExoPO prior art](sources/exopo-prior-art.md), and autoresearch tooling ([listed](sources/autoresearch-listed.md), [discovered](sources/autoresearch-discovery.md)) |
 | Arithmetic | [`calc/calc_v4.py`](calc/calc_v4.py) (stdlib, deterministic) and its [output](calc/calc_v4.out.txt). [`calc_v3.py`](calc/calc_v3.py) is retained for the superseded normal-theory figures |
 
@@ -80,8 +80,14 @@ sudo. Rules:
 | [#115](https://github.com/24601/Augustus/pull/115) | The fail-closed overlap audit: duplicate ids, identical text, shared groups, and `unverifiable` when nothing can be compared |
 | [#116](https://github.com/24601/Augustus/pull/116) | The climb-ledger replay and its hard gates |
 
-**M1 is done.** 183 tests pass on `main`. Next is **M0b** (B16–B20, the quarantine-and-split
-custody path, the MemAvailable watchdog, the GPU-budget wrapper), which gates every experiment,
-then **M2**, the design locks, which must be hashed before window W2 opens. **M0b** (B16–B20, the quarantine-and-split custody path, the MemAvailable watchdog, the
+**M1 and M0b are done.** 183 tests pass on `main`, and the host boundary now runs to B20.
+
+Next is **M2**, the design locks, which must be hashed before window W2 opens. The
+[E4 lock](prereg/e4-design.md) is drafted already and needs no dataset, so **M3** (E4a–c) can
+start without waiting for the data window. E1, E3, M5 and M5b locks come next.
+
+One thing the maintainer owns: tabputer-1's root filesystem reports a nonzero btrfs
+`corruption_errs` counter, dated to before this work. Whether to scrub is his decision at the
+console. **M0b** (B16–B20, the quarantine-and-split custody path, the MemAvailable watchdog, the
 GPU-budget wrapper) gates every experiment, and no experiment runs before v4's design and
 analysis locks. No tag or release without the maintainer's explicit go.
