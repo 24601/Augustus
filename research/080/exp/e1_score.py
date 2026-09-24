@@ -117,6 +117,9 @@ def expand(predictions: dict) -> dict:
     the per-id form repeats 1.37M id strings across 23 arms. A plain {arm: {id: action}} file is
     still accepted, so nothing that already exists stops working.
     """
+    if predictions.get("scorable") is False:
+        raise ValueError("these predictions are marked not scorable, which a smoke run writes "
+                         "when its arms are fitted on truncated splits; refusing to score")
     if "arms" not in predictions or "ids" not in predictions:
         return predictions
     ids = predictions["ids"]

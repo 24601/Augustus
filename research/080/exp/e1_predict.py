@@ -93,8 +93,8 @@ def main(argv=None) -> int:
     calibration_rows = read("calibration")
     confirmation_rows = read("confirmation-inputs")
     # Custody, checked rather than assumed: this principal must not be able to see an outcome.
-    leaked = [r for r in confirmation_rows[:1000] if "label" in r]
-    if leaked:
+    # Every row, not a sample: a custody failure in row 900,000 is still a custody failure.
+    if any("label" in r for r in confirmation_rows):
         raise SystemExit("a confirmation input row carries a label; refusing to run")
 
     fit_x = embed(torch, transformers, [r["text"] for r in fit_rows], device,
@@ -108,11 +108,18 @@ def main(argv=None) -> int:
     w, b = fit_logistic(torch, fit_x, fit_y)
     temperature = fit_temperature(torch, (fit_x @ w + b), fit_y)
     drift = abs(temperature - lock["temperature"])
-    if drift > args.temperature_tolerance:
+    # A --limit run fits on a truncated split, so its temperature cannot match a lock derived from
+    # the whole one. That is arithmetic, not drift. The smoke still exercises every path; it is
+    # marked as not lock-bound so its output can never be mistaken for a scorable prediction.
+    lock_bound = not args.limit
+    if lock_bound and drift > args.temperature_tolerance:
         raise SystemExit(
             f"recomputed temperature {temperature!r} differs from the lock's "
             f"{lock['temperature']!r} by {drift:g}; these are not the arms the lock was written "
             "about, so no prediction is written")
+    if not lock_bound:
+        print(f"smoke run on {args.limit} rows per partition: temperature {temperature!r} against "
+              f"the lock's {lock['temperature']!r}; NOT lock-bound and not scorable")
 
     fitted = {"b_retrain": {}, "e_bandit": {}}
     for ratio in RATIOS:
@@ -185,7 +192,9 @@ def main(argv=None) -> int:
         "rows": {"fit": len(fit_rows), "calibration": len(calibration_rows),
                  "confirmation": len(confirmation_rows)},
         "temperature": temperature,
-        "temperature_matches_lock": True,
+        "lock_bound": lock_bound,
+        "temperature_matches_lock": bool(lock_bound),
+        "scorable": lock_bound,
         "shift": {"fit_prior": fit_prior, "target_prior": target_prior,
                   "label_budget": budget, "fitted_intercept": intercept.item(),
                   "cost_ratio": SHIFT_RATIO,
@@ -202,6 +211,10 @@ def main(argv=None) -> int:
             "The shifted confirmation population is selected by augctl, because it is a function of confirmation labels and a fixed seed.",
         ],
     }
+    if not lock_bound:
+        report["limits"].insert(0, "A --limit smoke run: the arms are fitted on truncated splits, "
+                                   "so this file is not bound to the analysis lock and must not "
+                                   "be scored.")
     args.out.write_text(json.dumps(report), encoding="utf-8")
     print(json.dumps({k: v for k, v in report.items() if k not in ("ids", "arms")}, indent=2))
     print(f"arms written: {len(arms)}; ids: {len(ids)}")
