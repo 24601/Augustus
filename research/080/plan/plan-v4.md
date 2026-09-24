@@ -733,8 +733,11 @@ to candidate code, which the boundary does not claim to contain.
 cgroup**: 24 GiB of bf16 tensors were held while `memory.current` stayed at 0.56 GiB [Rep, M0].
 Every run declares its own GPU budget — `torch.cuda.set_per_process_memory_fraction` or vLLM
 `gpu_memory_utilization` — recorded in its receipt. Planned budgets against 124 GiB visible
-[Rep calc §6]: E1 MiniLM 2 GiB (0.016); E3 readers 14 GiB (0.113); M5 R1 6 GiB (0.048); M5 PAW-ft
-38 GiB (0.306); SetFit/DeBERTa 10 GiB (0.081).
+[Rep calc §6]: E1 MiniLM **8 GiB** (0.065); E3 readers 14 GiB (0.113); M5 R1 6 GiB (0.048); M5 PAW-ft
+38 GiB (0.306); SetFit/DeBERTa 10 GiB (0.081). **E1's figure was 2 GiB and that was wrong**: a
+MiniLM forward pass at batch 256 and length 256 hit `torch.OutOfMemoryError` inside the first
+batch, with 812 MiB of the 2 GiB reserved but unallocated, so fragmentation as well as size. A
+planning figure for activation memory is a guess until a forward pass disputes it.
 
 **A fixed 24 GiB launch floor is not an admission rule** (Astra v4 F3): PAW-ft's 38 GiB GPU budget
 plus a 16 GiB CPU cgroup, plus its teacher server, is well over 54 GiB of allowance on a UMA host,

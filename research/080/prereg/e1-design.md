@@ -99,7 +99,9 @@ For each case the action switches **at most once**, abstain → act, as C_FN/C_F
 ## Compute
 
 MiniLM embedding of about 2.1M texts; measured at 2.1 s per 1,000 texts on GPU at M0 [Rep], so
-roughly 75 minutes. GPU budget 2 GiB, aggregate admission 32 GiB. Cap 6 hours. E1 needs no
+roughly 75 minutes. GPU budget **8 GiB**, aggregate admission 38 GiB. The 2 GiB first written here was a planning
+guess that a forward pass disputed: MiniLM at batch 256 and length 256 exceeded it immediately.
+Amended 2026-09-24, before any confirmation row was read; no margin, size or contrast changed. Cap 6 hours. E1 needs no
 generative model and no teacher.
 
 ## What would make E1 fail as an experiment

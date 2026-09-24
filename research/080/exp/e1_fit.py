@@ -50,18 +50,34 @@ def load_rows(path: Path) -> list[dict]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def embed(torch, transformers, texts, device, batch_size: int, budget_gib: float):
-    """Mean-pooled MiniLM embeddings, L2-normalized. fp32, which M0 checked against CPU."""
+def set_gpu_budget(torch, device, budget_gib: float) -> None:
+    """Cap this process's allocator BEFORE anything is allocated.
+
+    The cap has to come first: setting it after the model is resident merely
+    shrinks what is left. It is an allocator limit and not a cgroup, which
+    plan v4 4.6 records, and it is why candidate GPU work goes to Colab.
+    """
+    if device != "cuda" or not budget_gib:
+        return
+    total = torch.cuda.get_device_properties(0).total_memory / 2 ** 30
+    torch.cuda.set_per_process_memory_fraction(min(1.0, budget_gib / total))
+
+
+def embed(torch, transformers, texts, device, batch_size: int, max_length: int = 256):
+    """Mean-pooled MiniLM embeddings, L2-normalized. fp32, which M0 checked against CPU.
+
+    Activation memory is batch x max_length x hidden x layers, so the batch size and the budget
+    move together: the first attempt paired batch 256 at length 256 with a 2 GiB budget and hit
+    torch.OutOfMemoryError inside the first forward pass, with 812 MiB of the 2 GiB reserved but
+    unallocated, which is fragmentation as well as size.
+    """
     tokenizer = transformers.AutoTokenizer.from_pretrained(EMBED_MODEL)
     model = transformers.AutoModel.from_pretrained(EMBED_MODEL).to(device).eval()
-    if device == "cuda" and budget_gib:
-        total = torch.cuda.get_device_properties(0).total_memory / 2 ** 30
-        torch.cuda.set_per_process_memory_fraction(min(1.0, budget_gib / total))
     out = []
     with torch.no_grad():
         for start in range(0, len(texts), batch_size):
             batch = texts[start:start + batch_size]
-            encoded = tokenizer(batch, padding=True, truncation=True, max_length=256,
+            encoded = tokenizer(batch, padding=True, truncation=True, max_length=max_length,
                                 return_tensors="pt").to(device)
             hidden = model(**encoded).last_hidden_state
             mask = encoded["attention_mask"].unsqueeze(-1).float()
@@ -239,15 +255,22 @@ def main(argv=None) -> int:
     parser.add_argument("--stage", type=Path, default=Path("/srv/aug/stage/parts"))
     parser.add_argument("--corpus", default="civil")
     parser.add_argument("--out", type=Path, required=True)
-    parser.add_argument("--batch-size", type=int, default=256)
-    parser.add_argument("--gpu-budget-gib", type=float, default=2.0)
+    parser.add_argument("--batch-size", type=int, default=128)
+    parser.add_argument("--max-length", type=int, default=256)
+    parser.add_argument("--gpu-budget-gib", type=float, default=8.0,
+                        help="allocator cap; 2.0 is not enough for MiniLM at batch 128")
     parser.add_argument("--limit", type=int, help="cap rows per partition, for a smoke run")
     args = parser.parse_args(argv)
 
+    import os
+    # Reduce fragmentation: the first attempt had 812 MiB reserved but unallocated
+    # inside a 2 GiB cap, and the allocator's own error message recommends this.
+    os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")
     import torch
     import transformers
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
+    set_gpu_budget(torch, device, args.gpu_budget_gib)
     started = time.time()
 
     def read(name):
@@ -257,13 +280,15 @@ def main(argv=None) -> int:
     fit_rows = read("fit")
     calibration_rows = read("calibration")
     report = {"corpus": args.corpus, "device": device,
+              "gpu_budget_gib": args.gpu_budget_gib, "batch_size": args.batch_size,
+              "max_length": args.max_length,
               "rows": {"fit": len(fit_rows), "calibration": len(calibration_rows)}}
 
     fit_x = embed(torch, transformers, [r["text"] for r in fit_rows], device,
-                  args.batch_size, args.gpu_budget_gib).to(device)
+                  args.batch_size, args.max_length).to(device)
     fit_y = torch.tensor([int(r["label"]) for r in fit_rows], device=device)
     cal_x = embed(torch, transformers, [r["text"] for r in calibration_rows], device,
-                  args.batch_size, args.gpu_budget_gib).to(device)
+                  args.batch_size, args.max_length).to(device)
     cal_y = torch.tensor([int(r["label"]) for r in calibration_rows], device=device)
     report["embed_seconds"] = round(time.time() - started, 1)
 

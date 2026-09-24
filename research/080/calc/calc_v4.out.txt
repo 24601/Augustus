@@ -125,7 +125,7 @@
     prompt list and still disagreed, so a fixed input batch is not an established fix.
     v4's mechanism is therefore frozen once-generated replay tables that every arm,
     resplit and P6 draw reads, with the batch-invariant setting recorded at the lock.
-    GPU budget E1 MiniLM embed                   :   2.0 GiB = gpu_memory_utilization 0.016 of 124 GiB visible
+    GPU budget E1 MiniLM embed                   :   8.0 GiB = gpu_memory_utilization 0.065 of 124 GiB visible
     GPU budget E3 Qwen3-1.7B + 4B                :  14.0 GiB = gpu_memory_utilization 0.113 of 124 GiB visible
     GPU budget M5 R1 Qwen3.5-2B                  :   6.0 GiB = gpu_memory_utilization 0.048 of 124 GiB visible
     GPU budget M5 PAW-ft (compile-by-training)   :  38.0 GiB = gpu_memory_utilization 0.306 of 124 GiB visible
@@ -133,7 +133,7 @@
   CPU cgroup stays --memory=16g --memory-swap=16g; GTT is NOT charged to it (B12, M0).
   Aggregate admission (Astra v4 F3): MemAvailable must cover
     GPU budget + CPU cap + declared service memory + 8 GiB overhead + 6 GiB reserve.
-    E1 MiniLM embed           : 2 + 16 + 0 + 8 + 6 = 32 GiB free required
+    E1 MiniLM embed           : 8 + 16 + 0 + 8 + 6 = 38 GiB free required
     E3 readers                : 14 + 16 + 0 + 8 + 6 = 44 GiB free required
     M5 PAW-ft + local teacher : 38 + 16 + 9 + 8 + 6 = 77 GiB free required
   The 24 GiB figure survives only as an absolute floor below which nothing launches.

@@ -433,7 +433,7 @@ print("    prompt list and still disagreed, so a fixed input batch is not an est
 print("    v4's mechanism is therefore frozen once-generated replay tables that every arm,")
 print("    resplit and P6 draw reads, with the batch-invariant setting recorded at the lock.")
 GPU_VISIBLE = 124.0
-for label, need in (("E1 MiniLM embed", 2.0), ("E3 Qwen3-1.7B + 4B", 14.0),
+for label, need in (("E1 MiniLM embed", 8.0), ("E3 Qwen3-1.7B + 4B", 14.0),
                     ("M5 R1 Qwen3.5-2B", 6.0), ("M5 PAW-ft (compile-by-training)", 38.0),
                     ("M5 SetFit / DeBERTa-v3-large", 10.0)):
     print(f"    GPU budget {label:34s}: {need:5.1f} GiB ="
@@ -441,7 +441,7 @@ for label, need in (("E1 MiniLM embed", 2.0), ("E3 Qwen3-1.7B + 4B", 14.0),
 print("  CPU cgroup stays --memory=16g --memory-swap=16g; GTT is NOT charged to it (B12, M0).")
 print("  Aggregate admission (Astra v4 F3): MemAvailable must cover")
 print("    GPU budget + CPU cap + declared service memory + 8 GiB overhead + 6 GiB reserve.")
-for label, gpu, svc in (("E1 MiniLM embed", 2.0, 0.0), ("E3 readers", 14.0, 0.0),
+for label, gpu, svc in (("E1 MiniLM embed", 8.0, 0.0), ("E3 readers", 14.0, 0.0),
                         ("M5 PAW-ft + local teacher", 38.0, 9.0)):
     print(f"    {label:26s}: {gpu:.0f} + 16 + {svc:.0f} + 8 + 6 = {gpu + 16 + svc + 8 + 6:.0f} GiB free required")
 print("  The 24 GiB figure survives only as an absolute floor below which nothing launches.")
