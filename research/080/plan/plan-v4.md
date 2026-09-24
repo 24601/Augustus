@@ -770,7 +770,7 @@ candidate container runs while a proxy rule exists.**
 | Window | When | What | Allowlist |
 |---|---|---|---|
 | W1 provisioning | M0, before the design lock | uv CPython, hashed wheels-only lock, the base image (local transfer), and the §4.4 acceptance weights (MiniLM, Qwen3-1.7B) | `pypi.org`, `files.pythonhosted.org`, `huggingface.co`, `us.aws.cdn.hf.co` (the last a recorded edit from the refusal log) |
-| W2 experiment data | **After the M2 design lock** | CivilComments, CLINC150, BANKING77, HotpotQA; the M5 readers; PAW checkpoints if the PAW arm is locked in | The same, plus entries added only from the refusal log, each edit recorded |
+| W2 experiment data | **After the M2 design lock** | CivilComments, CLINC150, BANKING77, HotpotQA; the M5 readers; PAW checkpoints if the PAW arm is locked in | The same, plus entries added only from the refusal log, each edit recorded. **Ran 2026-09-24**, 14:48:11–14:51:25 UTC, after the 14:45:35 lock commit. One edit: `api.github.com`, because HF's parquet conversion for BANKING77 404s and its pinned loader points upstream; the CSVs came from an immutable upstream commit and their hashes match HF's pinned `dataset_infos.json` |
 | W3 site build | Before M9 | github-pages 232 gems | The gem host, added from the refusal log |
 
 `typesafe.ai` and its subdomains stay denied in every window, because setup never needs them. The
