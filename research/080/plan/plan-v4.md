@@ -522,7 +522,10 @@ test. `audit_sample.py` is a monitoring estimator, not an acceptance bound.
   grid bound is flagged; ECE computed on an entropy "confidence" is rejected; pooled test+OOD
   headlines are refused in favor of per-split rows; an "OOD" or "held-out generator" claim needs
   per-split source ids; a checkpoint chosen on test rows fails; an empty conformal set is an
-  abstention, never a commitment.
+  abstention, never a commitment. **A headline computed as agreement with a teacher is labeled
+  agreement and never reported as accuracy**, and it cannot support a margin when the same teacher
+  family labeled the training rows (LaKun is the in-the-wild instance: 86.14% choice agreement
+  against its own `qwen3.8-flash` labels [R]).
 - **Operational failure is never recorded as a pass** (RAP's rule): a rule that failed to load, a
   compiler that was unavailable and an inference error are distinct states from `OK`.
 - **Comparator isolation in code, not prose.** Comparator outputs (including Jev's) live on a path
