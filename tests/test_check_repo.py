@@ -63,6 +63,27 @@ class RepositoryCheckTests(unittest.TestCase):
         notes.write_text("# Release notes\n", encoding="utf-8")
         return root
 
+    def add_skill(self, root: Path, name: str, *, version: str = "1.2.3", body: str = "# Second\n", register: bool = True) -> Path:
+        """Add a second skill, optionally registering it in the marketplace."""
+        skill = root / f".agents/skills/{name}/SKILL.md"
+        skill.parent.mkdir(parents=True)
+        skill.write_text(
+            "---\n"
+            f"name: {name}\n"
+            "description: A second compact skill.\n"
+            "metadata:\n"
+            f"  version: {version}\n"
+            "---\n"
+            f"{body}",
+            encoding="utf-8",
+        )
+        if register:
+            marketplace = root / ".claude-plugin/marketplace.json"
+            data = json.loads(marketplace.read_text(encoding="utf-8"))
+            data["plugins"][0]["skills"].append(f"./skills/{name}")
+            marketplace.write_text(json.dumps(data), encoding="utf-8")
+        return skill
+
     def rewrite_skill(self, root: Path, old: str, new: str) -> None:
         skill = root / ".agents/skills/augustus/SKILL.md"
         text = skill.read_text(encoding="utf-8")
@@ -281,6 +302,53 @@ class RepositoryCheckTests(unittest.TestCase):
         ui = root / ".agents/skills/augustus/agents/openai.yaml"
         ui.write_text(ui.read_text() + "policy:\n  allow_implicit_invocation: false\n")
         self.assertNotIn("ui-policy", self.codes(root))
+
+    def test_second_registered_skill_passes_and_is_budgeted_on_its_own(self) -> None:
+        root = self.make_repo()
+        skill = self.add_skill(root, "augustus-train")
+        self.assertEqual([], check_repository(root))
+        reference = skill.parent / "references" / "recipes.md"
+        reference.parent.mkdir()
+        reference.write_text("# Recipes\n\n" + "x " * 10_000 + "\n", encoding="utf-8")
+        skill.write_text(skill.read_text(encoding="utf-8") + "\nSee `references/recipes.md`.\n", encoding="utf-8")
+        codes = self.codes(root)
+        self.assertIn("size-budget", codes)
+        self.assertNotIn("unreferenced-reference", codes)
+
+    def test_unregistered_second_skill_is_reported(self) -> None:
+        root = self.make_repo()
+        self.add_skill(root, "augustus-train", register=False)
+        self.assertEqual({"marketplace-skill"}, self.codes(root))
+
+    def test_skills_must_share_one_version(self) -> None:
+        root = self.make_repo(version="1.2.3")
+        self.add_skill(root, "augustus-train", version="1.2.4")
+        self.assertIn("version-mismatch", self.codes(root))
+
+    def test_skill_name_must_match_its_directory(self) -> None:
+        root = self.make_repo()
+        skill = self.add_skill(root, "augustus-train")
+        skill.write_text(skill.read_text(encoding="utf-8").replace("name: augustus-train", "name: augustus-trainer"), encoding="utf-8")
+        self.assertIn("skill-name", self.codes(root))
+
+    def test_a_skill_without_a_ui_manifest_is_not_an_error(self) -> None:
+        root = self.make_repo()
+        self.add_skill(root, "augustus-train")
+        self.assertNotIn("missing-file", self.codes(root))
+
+    def test_a_card_copied_between_skills_is_a_duplicate(self) -> None:
+        root = self.make_repo()
+        paragraph = ("This paragraph is long enough to be compared across skills, "
+                     "so copying it from one reference card into another is reported. " * 2)
+        first = root / ".agents/skills/augustus/references/shared.md"
+        first.parent.mkdir(parents=True)
+        first.write_text(f"# Shared\n\n{paragraph}\n", encoding="utf-8")
+        self.rewrite_skill(root, "# Augustus\n", "# Augustus\n\nSee `references/shared.md`.\n")
+        skill = self.add_skill(root, "augustus-train", body="# Second\n\nSee `references/shared.md`.\n")
+        copied = skill.parent / "references" / "shared.md"
+        copied.parent.mkdir()
+        copied.write_text(f"# Shared\n\n{paragraph}\n", encoding="utf-8")
+        self.assertIn("duplicate-paragraph", self.codes(root))
 
 
 if __name__ == "__main__":
