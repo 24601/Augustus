@@ -22,3 +22,5 @@ _site/
 .jekyll-cache/
 .stitch/designs/
 tests/plugin-evals/results/
+.local/
+.claude/
