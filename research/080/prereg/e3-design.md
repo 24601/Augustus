@@ -15,7 +15,15 @@ does not gate the release.
 ## Readers and determinism
 
 Qwen3-1.7B and Qwen3-4B at pinned revisions, BF16, non-thinking, greedy, served by the image's
-vLLM. **Replay tables are generated once and frozen**, and every arm, every resplit and every P6
+vLLM. **Revisions recorded 2026-09-24**, filling the slot this lock left open rather than changing
+a commitment: `Qwen/Qwen3-1.7B` at `70d244cc86ccca08cf5af4e1e306ecf908b1ad5e` and `Qwen/Qwen3-4B`
+at `1cfa9a7208912126459214e8b04321603b3df60c`, both `torch_dtype: bfloat16`, both staged
+root-owned and read-only to `augexp` with per-file hashes in their `MANIFEST.json`. The 4B weights
+were absent when E3 began and were acquired in a bounded window; **the prespecified narrowing was
+not used to drop that reader**, because it is conditioned on the timing pilot or on σ̂, and using
+it for a missing download would launder an operational gap into a statistical decision.
+
+**Replay tables are generated once and frozen**, and every arm, every resplit and every P6
 draw reads the same tables, so no claim depends on re-execution.
 
 M0 measured **59.8% per-prompt** batched-rerun identity [Rep]. The 0.598⁹ ≈ 0.0098 figure for a
