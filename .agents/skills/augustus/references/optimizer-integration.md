@@ -72,13 +72,27 @@ Minimal synthetic input (an arithmetic fixture, not deployment evidence):
 ```
 
 Search reports are descriptive. Confirmation additionally supplies `alpha`,
-`minimum_improvement` and `comparison_count` fixed before evaluation. For n
-independent paired units, losses in `[0,B]`, and K prespecified comparisons,
-the helper computes a conservative one-sided upper bound for candidate-minus-
-incumbent mean loss: `mean_delta + B * sqrt(2*log(K/alpha)/n)`, capped at B.
-The accumulated upper rounds upward; a reported equality never supports a
-strict margin. The transcendental radius uses ordinary floating-point math.
-This is a fixed-sample Hoeffding/union-bound calculation, not a sequential test.
+`minimum_improvement`, a `comparison_count` fixed before evaluation, and a
+`sampling_design`, which must be `equal_probability`. For n independent paired
+units, losses in `[0,B]`, and K prespecified comparisons, the default
+`hoeffding` method computes a conservative one-sided upper bound for
+candidate-minus-incumbent mean loss: `mean_delta + B * sqrt(2*log(K/alpha)/n)`,
+capped at B. The accumulated upper rounds upward; a reported equality never
+supports a strict margin. The transcendental radius uses ordinary
+floating-point math. This is a fixed-sample Hoeffding/union-bound calculation,
+not a sequential test.
+
+Two other choices exist, and `--help` states what each can and cannot certify.
+`mode` is `superiority` (default: upper below `-minimum_improvement`) or
+`non_inferiority` (upper below `+minimum_improvement`, which never establishes
+an improvement). `method: empirical_bernstein` reads a two-sided family
+interval at `alpha/(2K)` per tail using the observed spread; it is tighter than
+Hoeffding once that spread is small, and its radius cannot collapse to zero
+when every observed difference is identical. `method: sign_exact` needs losses
+in `{0,B}` and `minimum_improvement` 0, and reports an exact binomial p-value
+on discordant pairs: direction only, never a magnitude. Equal inclusion
+probability is not independence; aggregate clustered samples to the declared
+unit before calling this.
 
 The helper rejects malformed/unpaired inputs, reports observed violations despite
 a loss improvement, hashes the input and preserves unknown costs. It does not
