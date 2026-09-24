@@ -145,18 +145,21 @@
   Three quantities, never conflated. `true_delta` is the planning effect (negative is
   better), `margin` is the tested boundary, and the SIGNED DISTANCE from the truth to
   that boundary is what the power calculation uses:
-    non-inferiority  (UCB < +margin): distance = margin - true_delta
-    superiority      (UCB < -margin): distance = -margin - true_delta = |true_delta| - margin
-                                      for a candidate better by |true_delta|
-    equivalence at equality:          distance = margin on each side
+    non-inferiority     (UCB < +margin): distance = margin - true_delta
+    superiority via UCB (UCB < -margin): distance = -margin - true_delta
+    superiority via LCB (LCB > +margin): distance = true_delta - margin
+    equivalence at equality:             distance = margin on each side
+  The two superiority directions are NOT interchangeable, and abs() must not paper over
+  them (Astra v4 final R1): a contrast where the incumbent is better by 0.02 is an LCB
+  read, and writing it as a UCB read with |true_delta| gives the wrong signed distance.
   v4's first pass wrote 'g = 0 for equivalence and non-inferiority', and then also called
   the true effect g for superiority. Both are corrected here and in the plan.
-    E1 A vs B-stale (sup)            true_delta=-0.042 margin=0.02 -> distance +0.022; sigma=0.05 m/K=19 R=2.0: n = 2,034
-    E3 explicit vs implicit (sup)    true_delta=-0.040 margin=0.02 -> distance +0.020; sigma=0.3 m/K=6 R=2.4: n = 7,318
-    E3 narrowed, 1 reader (sup)      true_delta=-0.040 margin=0.02 -> distance +0.020; sigma=0.3 m/K=3 R=2.4: n = 6,592
-    M5 R3a vs low rung (sup)         true_delta=+0.020 margin=0.01 -> distance +0.010; sigma=0.2 m/K=6 R=2.0: n = 12,698
-    M5 low rung NI (ni)              true_delta=+0.000 margin=0.01 -> distance +0.010; sigma=0.2 m/K=6 R=2.0: n = 12,698
-    E3 equivalence (equiv)           true_delta=+0.000 margin=0.02 -> distance +0.020; sigma=0.25 m/K=6 R=2.4: n = 6,598
+    E1 A vs B-stale            sup_ucb  true_delta=-0.042 margin=0.02 -> distance +0.022; sigma=0.05 m/K=19 R=2.0: n = 2,034
+    E3 explicit vs implicit    sup_ucb  true_delta=-0.040 margin=0.02 -> distance +0.020; sigma=0.3 m/K=6 R=2.4: n = 7,318
+    E3 narrowed, 1 reader      sup_ucb  true_delta=-0.040 margin=0.02 -> distance +0.020; sigma=0.3 m/K=3 R=2.4: n = 6,592
+    M5 R3a beats a low rung    sup_lcb  true_delta=+0.020 margin=0.01 -> distance +0.010; sigma=0.2 m/K=6 R=2.0: n = 12,698
+    M5 low rung NI             ni       true_delta=+0.000 margin=0.01 -> distance +0.010; sigma=0.2 m/K=6 R=2.0: n = 12,698
+    E3 equivalence             equiv    true_delta=+0.000 margin=0.02 -> distance +0.020; sigma=0.25 m/K=6 R=2.4: n = 6,598
   The analysis lock records sigma-hat and the resulting powered set; it never re-chooses
   true_delta or the margin, so the powered set has no post-calibration free parameter.
 

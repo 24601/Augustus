@@ -454,40 +454,59 @@ section("7. Distance to the tested boundary (Fable v3 P2-3; Astra v4 F5B and R1)
 print("  Three quantities, never conflated. `true_delta` is the planning effect (negative is")
 print("  better), `margin` is the tested boundary, and the SIGNED DISTANCE from the truth to")
 print("  that boundary is what the power calculation uses:")
-print("    non-inferiority  (UCB < +margin): distance = margin - true_delta")
-print("    superiority      (UCB < -margin): distance = -margin - true_delta = |true_delta| - margin")
-print("                                      for a candidate better by |true_delta|")
-print("    equivalence at equality:          distance = margin on each side")
+print("    non-inferiority     (UCB < +margin): distance = margin - true_delta")
+print("    superiority via UCB (UCB < -margin): distance = -margin - true_delta")
+print("    superiority via LCB (LCB > +margin): distance = true_delta - margin")
+print("    equivalence at equality:             distance = margin on each side")
+print("  The two superiority directions are NOT interchangeable, and abs() must not paper over")
+print("  them (Astra v4 final R1): a contrast where the incumbent is better by 0.02 is an LCB")
+print("  read, and writing it as a UCB read with |true_delta| gives the wrong signed distance.")
 print("  v4's first pass wrote 'g = 0 for equivalence and non-inferiority', and then also called")
 print("  the true effect g for superiority. Both are corrected here and in the plan.")
 
 
 def distance(mode, true_delta, margin):
+    """Signed distance from the truth to the tested boundary, per mode.
+
+    Negative true_delta means the candidate is better, because Delta is
+    candidate minus incumbent. A non-positive distance means the design has no
+    power at all for that mode, which is a specification error, not an n.
+    """
     if mode == "ni":
         return margin - true_delta
-    if mode == "sup":
-        return abs(true_delta) - margin
-    return margin  # equivalence at equality
+    if mode == "sup_ucb":        # candidate better: UCB(Delta) < -margin
+        return -margin - true_delta
+    if mode == "sup_lcb":        # incumbent better: LCB(Delta) > +margin
+        return true_delta - margin
+    if mode == "equiv":
+        return margin
+    raise ValueError(f"unknown mode: {mode}")
 
 
 ROWS = (
     # name, mode, true_delta, margin, sigma, m, range
-    ("E1 A vs B-stale (sup)", "sup", -0.042, 0.02, 0.05, 19, 2.0),
-    ("E3 explicit vs implicit (sup)", "sup", -0.04, 0.02, 0.30, 6, R_E3),
-    ("E3 narrowed, 1 reader (sup)", "sup", -0.04, 0.02, 0.30, 3, R_E3),
-    ("M5 R3a vs low rung (sup)", "sup", 0.02, 0.01, 0.20, 6, R_M5),
-    ("M5 low rung NI (ni)", "ni", 0.0, 0.01, 0.20, 6, R_M5),
-    ("E3 equivalence (equiv)", "equiv", 0.0, 0.02, 0.25, 6, R_E3),
+    # E1/E3 superiority: the candidate (A, or the explicit policy) is better,
+    # so Delta is negative and the read is on the upper bound.
+    ("E1 A vs B-stale", "sup_ucb", -0.042, 0.02, 0.05, 19, 2.0),
+    ("E3 explicit vs implicit", "sup_ucb", -0.04, 0.02, 0.30, 6, R_E3),
+    ("E3 narrowed, 1 reader", "sup_ucb", -0.04, 0.02, 0.30, 3, R_E3),
+    # M5 escalation: the INCUMBENT comparator R3a is better than the low rung,
+    # so Delta = loss(low rung) - loss(R3a) is positive and the read is on the
+    # lower bound. Writing this as a UCB read would invert the direction.
+    ("M5 R3a beats a low rung", "sup_lcb", 0.02, 0.01, 0.20, 6, R_M5),
+    ("M5 low rung NI", "ni", 0.0, 0.01, 0.20, 6, R_M5),
+    ("E3 equivalence", "equiv", 0.0, 0.02, 0.25, 6, R_E3),
 )
 for name, mode, td, margin, sigma, m, rng in ROWS:
     d = distance(mode, td, margin)
-    if mode == "sup":
+    assert d > 0, f"{name}: mode {mode} has no power at true_delta {td}"
+    if mode.startswith("sup_"):
         n = n_super_eb(sigma, d, m, rng)
     elif mode == "ni":
         n = n_ni_eb(sigma, margin, m, rng, true_delta=td)
     else:
         n = n_equiv_eb(sigma, margin, m, rng)
-    print(f"    {name:32s} true_delta={td:+.3f} margin={margin:.2f} -> distance {d:+.3f};"
+    print(f"    {name:26s} {mode:8s} true_delta={td:+.3f} margin={margin:.2f} -> distance {d:+.3f};"
           f" sigma={sigma} m/K={m} R={rng}: n = {'infeasible' if n is None else format(n, ',')}")
 print("  The analysis lock records sigma-hat and the resulting powered set; it never re-chooses")
 print("  true_delta or the margin, so the powered set has no post-calibration free parameter.")

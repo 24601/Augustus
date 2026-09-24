@@ -264,9 +264,13 @@ irreversible effect; and preferences are stable relative to retraining.
   `true_delta` is the planning effect, `margin` is the test boundary, and the **gap**
   **signed distance** from the truth to that boundary is what the power calculation uses. The
   distance depends on the mode, so v4 writes it per mode rather than as one formula:
-  non-inferiority (UCB < +margin) uses `margin − true_delta`; superiority (UCB < −margin) uses
-  `−margin − true_delta`, which is `|true_delta| − margin` for a candidate better by
-  `|true_delta|`; equivalence at equality uses `margin` on each side. Equivalence and
+  non-inferiority (UCB < +margin) uses `margin − true_delta`; **superiority has two directions
+  and they are not interchangeable** — a candidate-better read (UCB < −margin) uses
+  `−margin − true_delta`, and an incumbent-better read such as M5's escalation row
+  (LCB > +margin) uses `true_delta − margin`; equivalence at equality uses `margin` on each side.
+  Taking an absolute value instead would silently accept the wrong direction (Astra v4 final R1).
+  Each contrast's direction is fixed at the design lock, and a non-positive distance is a
+  specification error, not a sample size. Equivalence and
   non-inferiority plan at `true_delta = 0`; superiority plans at the prespecified `true_delta`
   for that contrast type. **The power event matches the registered claim:** the
   two-sided equivalence event where the claim is equivalence, and the **one-sided** event
@@ -630,9 +634,14 @@ cache roots**, because weights and datasets need opposite treatment:
   root-owned and read-only: fit and calibration partitions with labels, **confirmation inputs with
   labels removed**, and nothing else.
 - `/srv/aug/quarantine/weights` takes model weights, the base image layers and wheels. The split
-  is enforced by the environment, not by convention: `HF_DATASETS_CACHE` points into the data root
-  and `HF_HUB_CACHE` into the weights root, and `augwindow` refuses to close a window in which a
-  dataset repository landed under the weights root. `augctl` then publishes an artifact only if
+  is enforced by **separate acquisition steps, each with its own complete cache environment**, not
+  by one split of two variables. `HF_HUB_CACHE` holds the raw Hub files of *both* models and
+  datasets, so pointing it at the weights root would put ordinary dataset downloads there and the
+  close-time check would block W2 (Astra v4 final N1). Instead, a dataset step exports **both**
+  `HF_HUB_CACHE` and `HF_DATASETS_CACHE` under `/srv/aug/quarantine/data`, and a weights step
+  exports `HF_HUB_CACHE` under `/srv/aug/quarantine/weights`; each download also passes an
+  explicit `cache_dir`. The two never run in one process, and `augwindow` refuses to close a
+  window in which a dataset repository landed under the weights root. `augctl` then publishes an artifact only if
   (a) its digest matches the acquisition manifest entry recorded when the window opened, (b) its
   repository id is on the design lock's weights list, and (c) its file types are weights, configs
   and tokenizer files — no `.parquet`, `.arrow`, `.csv` or `.jsonl`, which is what a dataset
@@ -754,7 +763,7 @@ v4 adds three, all of which must pass before M3:
 | **B17** | **Disk exhaustion.** Write beyond the quota of the size-bounded filesystem carrying `/srv/aug/runs` and `/srv/aug/pred` | ENOSPC inside the container only; host free space and k3s are unaffected (Fable v3 P2-5) |
 | **B18** | **GPU budget, admission and burst.** (a) A run exceeding its declared GPU budget. (b) A launch attempt whose aggregate requirement exceeds MemAvailable, tested by **mocking the `/proc/meminfo` reading**, never by consuming host memory (Fable v4 P2-4). (c) A bounded first-party allocation burst toward a raised test floor, to measure kill latency against the 500 ms sampling cadence | (a) the allocator limit aborts the allocation. (b) admission refuses, naming the shortfall. (c) the watchdog kills the container before the reserve is crossed, and the measured latency is recorded. A failure here narrows the affected arm or moves it to Colab; the host is never deliberately driven to OOM |
 
-| **B20** | **GPU hang or reset while a run holds the device.** A first-party run is wedged deliberately (an oversized kernel under its own budget) and the recovery path is exercised | The wrapper detects the stall through its own heartbeat, kills the container, and records `blocked(gpu_fault)` with the amdgpu message. **No `amdgpu` module reload, no GPU reset command and no reboot**: if the device does not recover, the run is abandoned and the maintainer decides at the console. A wedged GPU while a candidate holds the device has the same response, and the affected arm moves to Colab (Fable v4 delta P2-3) |
+| **B20** | **GPU hang response, tested by fixture.** The wrapper's heartbeat and fault path are exercised with **injected** stalls and synthetic amdgpu error records — a run that stops emitting heartbeats, and a fabricated driver-error line. **The GPU is never deliberately wedged**: a memory budget does not contain an execution hang, and inducing one endangers the maintainer's other workloads on a shared host (Astra v4 final N2). A genuine device-wedge test needs authorized disposable hardware | The wrapper detects the stall, kills the container and records `blocked(gpu_fault)` with the captured message. The recovery policy is unchanged and **not validated by this fixture**: no `amdgpu` module reload, no GPU reset command and no reboot. If a real device does not recover, the run is abandoned and the maintainer decides at the console; the affected arm moves to Colab (Fable v4 delta P2-3) |
 | **B19** | **Can a candidate's GPU allocation be bounded?** Apply a `dmem` cgroup limit to a rootless container and allocate past it, first-party. Measure whether amdgpu GTT is charged and capped | The allocation fails at the limit and host MemAvailable is unaffected. **If it does not, candidate GPU work moves to Colab** and candidates on this host get no devices (Astra v4 R3) |
 
 B10's criterion is corrected: inside a `--network=none` netns, host-IP connects fail at
@@ -821,8 +830,10 @@ the state is derived from the launch measurement.
   benchmark labels secret.** CLINC150, BANKING77, CivilComments and HotpotQA are public, so a
   model rung's pretraining, or a proposer that read the corpus before freezing an artifact, can
   reproduce labels having read no file here. B16(b) detects an embedded lookup table; nothing
-  prevents memorization. The acceptance claims survive because the declared population is the
-  benchmark, and external validity is limited accordingly (Astra v4 F2, Fable v4 P2-6).
+  prevents memorization. **Contamination is therefore unresolved and it limits inferential
+  eligibility** (§2.4 item 4). The earlier rationale that "the declared population is the
+  benchmark" is **withdrawn**: E1 and E3 declare superpopulation estimands, and measuring the
+  benchmark exactly does not repair inference to them (Astra v4 F2 and final R2, Fable v4 P2-6).
 - **The GPU budgets are allocator limits, not a GPU cgroup.** They bound first-party code, which
   we wrote and review. They do not bound candidate code, which is why candidate GPU work requires
   B19's `dmem` result or Colab.
