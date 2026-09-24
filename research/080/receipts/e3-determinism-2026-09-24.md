@@ -77,3 +77,56 @@ the 4B reader has not been timed.
   a disagreement. That is the conservative direction.
 - Nothing here says the readers are wrong, only that they are not reproducible at the bit level
   under batched decode, which is why the tables are frozen.
+
+## Second run: the magnitude diagnostic, and what it costs E3
+
+The same 50 ids, the same defaults, the program at [`df62963`](https://github.com/24601/Augustus/commit/df62963).
+**This run diagnoses the recorded failure; it does not retest it.** Its own identity numbers came
+out essentially the same — answer 149/150, action 144/150, `p_answerable` 1/150, joint 0/50 — which
+is itself worth noting: the failure reproduces.
+
+Table `/srv/aug/receipts/e3-diagnostic-20260924T204912Z/e3-diagnostic-1.7b.json`, 55,567 bytes,
+sha256 `a5a5a792…`. Wall clock 80.0 s.
+
+| |Δp| across 150 comparisons | Value |
+| --- | --- |
+| median | 5.61 × 10⁻⁷ |
+| p99 | **0.1085** |
+| max | **0.1244** |
+
+| Rerun threshold crossings | 0.1 | 0.3 | 0.5 | 0.7 | 0.9 |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| count of 150 | 0 | **2** | 1 | 1 | 0 |
+
+**The distribution is not the story; the tail is.** Half the probabilities agree to six decimal
+places, which is the floating-point noise anyone would predict. But the p99 is 0.109 and the
+maximum is 0.124, so on roughly one call in a hundred the two passes disagree about answerability
+by more than a tenth. Those are the cases where the reader is close to tied between yes and no and
+the batch reduction order decides, and they are exactly the cases a threshold is sensitive to.
+
+**Computed here, and it is the number that matters for E3.** The worst observed crossing rate is
+2/150 = 1.33% at τ = 0.3. Utilities live in an interval of width 1.2, so if every crossing flipped
+a question's utility by the full range, an answerability-thresholded arm's mean utility could move
+by up to **0.016** between two replay tables. The E3 superiority and equivalence margin is
+**0.02**. The rerun-induced instability of arms (ii) and (iv) is therefore of the **same order as
+the margin they are tested against** — 0.8 of it in the worst case, and much less in any realistic
+case, since a flipped action frequently leads to the same answer anyway.
+
+This does not invalidate E3, and it is precisely why the lock freezes the tables: every arm,
+resplit and P6 draw reads one table, so the comparison between arms is exact and reproducible from
+the artifact. What it bounds is something narrower and worth saying plainly: **a replication that
+regenerated the tables could differ from this one by an amount comparable to the margin on the two
+answerability arms.** That belongs beside those two rows in the analysis lock, not in a footnote,
+and it is a limit on E3's transportability rather than on its internal validity.
+
+Arms (i), (iii), (v), (vi) and (vii) do not threshold `p_answerable`. Arm (i) reads the action,
+which reproduced at 96%; arm (iii) reads a MiniLM cosine over frozen text, which is deterministic
+at fixed batch composition.
+
+### Caveats the runner attached, kept
+
+- The grid is five thresholds, not every tenth from 0.1 to 0.9, so the crossing profile between
+  them is unmeasured.
+- Counts at different thresholds need not be distinct rows.
+- One reader, 50 questions, one pass pair. The 4B reader remains untimed and untested for rerun
+  behaviour, and nothing here extrapolates to it.
