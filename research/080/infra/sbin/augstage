@@ -1,0 +1,173 @@
+#!/usr/bin/env python3
+"""Publish acquired artifacts from quarantine to the run stage. Runs as augctl.
+
+Acquisition lands under two roots, because weights and datasets need opposite
+treatment and one HF cache variable cannot separate them: HF_HUB_CACHE holds
+the raw Hub files of BOTH models and datasets. A dataset acquisition step
+therefore exports both HF_HUB_CACHE and HF_DATASETS_CACHE under
+/srv/aug/quarantine/data, and a weights step exports HF_HUB_CACHE under
+/srv/aug/quarantine/weights. They never share a process.
+
+This tool then publishes:
+
+  weights   verified against the acquisition manifest digest, the repository id
+            checked against the design lock's weights list, and the file types
+            checked to be weights, configs and tokenizers. No .parquet, .arrow,
+            .csv or .jsonl, which is what a dataset arrives as.
+  parts     partitions of a split. A confirmation partition is published with
+            its LABEL COLUMNS REMOVED; the labels stay under /srv/aug/ctl,
+            which augexp cannot read.
+
+It is a provenance and file-type check, not a semantic scan. It cannot prove a
+weight file encodes no label, and plan v4 4.6 records that limit.
+"""
+
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import shutil
+from pathlib import Path
+
+DATASET_SUFFIXES = frozenset({".parquet", ".arrow", ".csv", ".jsonl", ".json.gz", ".tsv"})
+WEIGHT_SUFFIXES = frozenset({".safetensors", ".bin", ".gguf", ".pt", ".onnx", ".model"})
+CONFIG_SUFFIXES = frozenset({".json", ".txt", ".md", ".yaml", ".yml", ".vocab", ".merges"})
+
+
+def sha256_file(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for block in iter(lambda: handle.read(1 << 20), b""):
+            digest.update(block)
+    return digest.hexdigest()
+
+
+def classify(path: Path) -> str:
+    suffix = path.suffix.lower()
+    if suffix in DATASET_SUFFIXES:
+        return "dataset"
+    if suffix in WEIGHT_SUFFIXES:
+        return "weights"
+    if suffix in CONFIG_SUFFIXES:
+        return "config"
+    return "unknown"
+
+
+def check_weights(tree: Path, repo_id: str, allowed_repos, manifest: dict) -> dict:
+    """Every reason this tree may not be published as weights."""
+    problems = []
+    if repo_id not in allowed_repos:
+        problems.append({"check": "repo_id_not_in_design_lock", "repo_id": repo_id})
+    files = sorted(p for p in tree.rglob("*") if p.is_file())
+    if not files:
+        problems.append({"check": "empty_tree"})
+    for path in files:
+        kind = classify(path)
+        relative = str(path.relative_to(tree))
+        if kind == "dataset":
+            problems.append({"check": "dataset_file_under_weights_root", "file": relative})
+        elif kind == "unknown":
+            problems.append({"check": "unclassified_file", "file": relative})
+        declared = manifest.get("files", {}).get(relative)
+        if declared is None:
+            problems.append({"check": "file_not_in_acquisition_manifest", "file": relative})
+        elif declared != sha256_file(path):
+            problems.append({"check": "digest_mismatch", "file": relative})
+    return {"repo_id": repo_id, "files": len(files), "problems": problems,
+            "publishable": not problems}
+
+
+def strip_labels(rows, label_columns) -> tuple[list, list]:
+    """Split each row into a published input row and a retained label row.
+
+    Confirmation inputs go to the stage; labels stay with augctl. A row that
+    declares no id is refused, because a label cannot be rejoined to it later
+    for scoring and the partition would be unusable anyway.
+    """
+    published, retained = [], []
+    for index, row in enumerate(rows):
+        if not isinstance(row, dict):
+            raise ValueError(f"row {index} must be an object")
+        identity = row.get("id")
+        if not isinstance(identity, str) or not identity.strip():
+            raise ValueError(f"row {index} needs an id; a label cannot be rejoined without one")
+        labels = {name: row[name] for name in label_columns if name in row}
+        published.append({name: value for name, value in row.items() if name not in label_columns})
+        retained.append({"id": identity, **labels})
+    return published, retained
+
+
+def publish_partition(source: Path, stage_root: Path, ctl_root: Path, name: str,
+                      label_columns, confirmation: bool) -> dict:
+    rows = json.loads(source.read_text(encoding="utf-8"))
+    if not isinstance(rows, list) or not rows:
+        raise ValueError("a partition must be a nonempty JSON list of rows")
+    if confirmation:
+        published, retained = strip_labels(rows, label_columns)
+        leaked = sorted({column for row in published for column in row if column in label_columns})
+        if leaked:  # belt and braces: the strip is the control, this proves it ran
+            raise ValueError(f"label columns survived the strip: {leaked}")
+    else:
+        published, retained = rows, []
+    target = stage_root / name
+    target.mkdir(parents=True, exist_ok=True)
+    payload = json.dumps(published, indent=2, sort_keys=True)
+    (target / "rows.json").write_text(payload, encoding="utf-8")
+    record = {"partition": name, "confirmation": confirmation, "rows": len(published),
+              "label_columns_removed": sorted(label_columns) if confirmation else [],
+              "rows_sha256": hashlib.sha256(payload.encode("utf-8")).hexdigest()}
+    if confirmation:
+        ctl_root.mkdir(parents=True, exist_ok=True)
+        labels = json.dumps(retained, indent=2, sort_keys=True)
+        (ctl_root / f"{name}-labels.json").write_text(labels, encoding="utf-8")
+        record["labels_sha256"] = hashlib.sha256(labels.encode("utf-8")).hexdigest()
+        record["labels_written_to"] = str(ctl_root)
+    return record
+
+
+def main(argv=None) -> int:
+    parser = argparse.ArgumentParser(description=__doc__,
+                                     formatter_class=argparse.RawDescriptionHelpFormatter)
+    sub = parser.add_subparsers(dest="mode", required=True)
+
+    weights = sub.add_parser("weights", help="verify and publish a weights tree")
+    weights.add_argument("--tree", type=Path, required=True)
+    weights.add_argument("--repo-id", required=True)
+    weights.add_argument("--manifest", type=Path, required=True)
+    weights.add_argument("--allowed-repos", type=Path, required=True,
+                         help="the design lock's weights list, one repo id per line")
+    weights.add_argument("--stage", type=Path, default=Path("/srv/aug/stage/weights"))
+    weights.add_argument("--apply", action="store_true", help="copy; otherwise report only")
+
+    part = sub.add_parser("partition", help="publish a split partition")
+    part.add_argument("--source", type=Path, required=True)
+    part.add_argument("--name", required=True)
+    part.add_argument("--confirmation", action="store_true")
+    part.add_argument("--label-column", action="append", default=[])
+    part.add_argument("--stage", type=Path, default=Path("/srv/aug/stage/parts"))
+    part.add_argument("--ctl", type=Path, default=Path("/srv/aug/ctl/labels"))
+
+    args = parser.parse_args(argv)
+    try:
+        if args.mode == "weights":
+            allowed = {line.strip() for line in
+                       args.allowed_repos.read_text(encoding="utf-8").splitlines() if line.strip()}
+            manifest = json.loads(args.manifest.read_text(encoding="utf-8"))
+            report = check_weights(args.tree, args.repo_id, allowed, manifest)
+            if report["publishable"] and args.apply:
+                target = args.stage / args.repo_id.replace("/", "__")
+                shutil.copytree(args.tree, target, dirs_exist_ok=True)
+                report["published_to"] = str(target)
+            print(json.dumps(report, indent=2))
+            return 0 if report["publishable"] else 1
+        report = publish_partition(args.source, args.stage, args.ctl, args.name,
+                                   set(args.label_column), args.confirmation)
+        print(json.dumps(report, indent=2))
+        return 0
+    except (OSError, ValueError) as exc:
+        parser.exit(2, f"error: {exc}\n")
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

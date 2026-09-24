@@ -1,0 +1,217 @@
+#!/usr/bin/env python3
+"""Launch one experiment container under aggregate admission and a live watchdog.
+
+Runs as `augexp`, under `systemd-run --user` in augexp's own manager. It is the
+only supported way to start an experiment container, because three things that
+plan v4 4.2 requires cannot be expressed in a podman invocation:
+
+1. Aggregate admission. GPU memory is not charged to the container cgroup on
+   this UMA host (M0, B12), so a 16 GiB CPU cap plus a 38 GiB GPU budget is a
+   54 GiB allowance admitted against a 24 GiB floor. Admission instead demands
+       MemAvailable >= gpu + cpu + service + overhead + reserve
+   and refuses by naming the shortfall.
+2. A real MemAvailable watchdog. It samples every 500 ms, not as a note in a
+   plan, and kills the container before the reserve is crossed.
+3. A heartbeat. A wedged GPU does not raise an error; the run simply stops
+   making progress. No heartbeat within the declared interval ends the run as
+   blocked(gpu_fault), with whatever the kernel ring buffer last said.
+
+The GPU budget itself is exported to the container (PYTORCH_CUDA_ALLOC_CONF,
+AUG_GPU_BUDGET_GIB) for first-party code to honour. That is an allocator
+limit, not a cgroup: it bounds code we wrote and review, and it does not bound
+candidate code, which is why candidate GPU work goes to Colab.
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import shutil
+import signal
+import subprocess
+import sys
+import time
+from pathlib import Path
+
+MEMINFO = Path("/proc/meminfo")
+RESERVE_GIB = 6.0
+OVERHEAD_GIB = 8.0
+ABSOLUTE_FLOOR_GIB = 24.0
+CPU_CAP_GIB = 16.0
+WATCHDOG_INTERVAL_S = 0.5
+KIB_PER_GIB = 1024 * 1024
+
+
+def mem_available_gib() -> float:
+    for line in MEMINFO.read_text(encoding="utf-8").splitlines():
+        if line.startswith("MemAvailable:"):
+            return int(line.split()[1]) / KIB_PER_GIB
+    raise RuntimeError("MemAvailable is absent from /proc/meminfo")
+
+
+def admit(gpu_gib: float, service_gib: float, *, meminfo=mem_available_gib) -> dict:
+    """Decide whether one run may launch. Pure arithmetic, so it is testable."""
+    available = meminfo()
+    required = gpu_gib + CPU_CAP_GIB + service_gib + OVERHEAD_GIB + RESERVE_GIB
+    verdict = {
+        "mem_available_gib": round(available, 2),
+        "required_gib": round(required, 2),
+        "components": {"gpu": gpu_gib, "cpu_cap": CPU_CAP_GIB, "service": service_gib,
+                       "overhead": OVERHEAD_GIB, "reserve": RESERVE_GIB},
+        "absolute_floor_gib": ABSOLUTE_FLOOR_GIB,
+    }
+    if available < ABSOLUTE_FLOOR_GIB:
+        verdict["admitted"] = False
+        verdict["reason"] = "below_absolute_floor"
+    elif available < required:
+        verdict["admitted"] = False
+        verdict["reason"] = "aggregate_requirement_exceeds_available"
+        verdict["shortfall_gib"] = round(required - available, 2)
+    else:
+        verdict["admitted"] = True
+        verdict["reason"] = "aggregate_requirement_met"
+    return verdict
+
+
+def dmesg_tail(lines: int = 20) -> list[str]:
+    """Best-effort amdgpu context for a fault record. Never fatal."""
+    binary = shutil.which("dmesg")
+    if binary is None:
+        return []
+    try:
+        out = subprocess.run([binary, "--ctime", "--level=err,warn"],
+                             capture_output=True, text=True, timeout=5)
+    except (OSError, subprocess.SubprocessError):
+        return []
+    return [line for line in out.stdout.splitlines() if "amdgpu" in line][-lines:]
+
+
+def supervise(process, *, heartbeat: Path, heartbeat_timeout_s: float,
+              abort_floor_gib: float, meminfo=mem_available_gib,
+              interval_s: float = WATCHDOG_INTERVAL_S, now=time.monotonic) -> dict:
+    """Watch one running container. Returns the reason it ended.
+
+    Two live checks, both of which kill rather than warn: host MemAvailable
+    crossing the abort floor, and a heartbeat that stops advancing.
+    """
+    started = now()
+    last_beat = started
+    last_stamp = None
+    low_water = meminfo()
+
+    while process.poll() is None:
+        time.sleep(interval_s)
+        available = meminfo()
+        low_water = min(low_water, available)
+        if available < abort_floor_gib:
+            _terminate(process)
+            return {"outcome": "blocked(memory)", "mem_available_gib": round(available, 2),
+                    "abort_floor_gib": abort_floor_gib,
+                    "detail": "host MemAvailable crossed the reserve while the run held memory"}
+        if heartbeat_timeout_s > 0:
+            stamp = heartbeat.stat().st_mtime if heartbeat.exists() else None
+            if stamp is not None and stamp != last_stamp:
+                last_stamp = stamp
+                last_beat = now()
+            elif now() - last_beat > heartbeat_timeout_s:
+                _terminate(process)
+                return {"outcome": "blocked(gpu_fault)",
+                        "silent_for_s": round(now() - last_beat, 1),
+                        "heartbeat_timeout_s": heartbeat_timeout_s,
+                        "amdgpu_messages": dmesg_tail(),
+                        "detail": "no heartbeat; the device is not recovered, reset or reloaded here"}
+
+    return {"outcome": "completed" if process.returncode == 0 else f"exit_{process.returncode}",
+            "returncode": process.returncode,
+            "mem_available_low_water_gib": round(low_water, 2),
+            "wall_clock_s": round(now() - started, 1)}
+
+
+def _terminate(process) -> None:
+    """Stop the container, then stop waiting. Never touches the GPU driver."""
+    process.send_signal(signal.SIGTERM)
+    try:
+        process.wait(timeout=10)
+    except subprocess.TimeoutExpired:
+        process.kill()
+        process.wait(timeout=10)
+
+
+PROFILE = [
+    "--rm", "--network=none", "--read-only", "--tmpfs", "/tmp",
+    "--cap-drop=all", "--security-opt=no-new-privileges", "--pids-limit=512",
+    "--memory=16g", "--memory-swap=16g", "--ipc=private",
+]
+
+
+def podman_command(args, run_dir: Path, heartbeat: Path) -> list[str]:
+    command = ["podman", "run", *PROFILE,
+               "--volume", f"{run_dir}:/work:rw",
+               "--volume", f"{heartbeat.parent}:/heartbeat:rw",
+               "--env", f"AUG_GPU_BUDGET_GIB={args.gpu_budget_gib}",
+               "--env", "AUG_HEARTBEAT=/heartbeat/beat",
+               # An allocator limit for first-party code, not a cgroup.
+               "--env", f"PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:512",
+               "--workdir", "/work"]
+    for mount in args.stage:
+        command += ["--volume", f"{mount}:ro"]
+    if args.gpu:
+        command += ["--device", "/dev/kfd", "--device", "/dev/dri/renderD128",
+                    "--group-add", "keep-groups"]
+    command += [args.image, *args.command]
+    return command
+
+
+def main(argv=None) -> int:
+    parser = argparse.ArgumentParser(description=__doc__,
+                                     formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--run-id", required=True)
+    parser.add_argument("--image", required=True, help="pinned image digest")
+    parser.add_argument("--gpu-budget-gib", type=float, required=True,
+                        help="declared GPU allowance; 0 for a CPU-only run")
+    parser.add_argument("--service-gib", type=float, default=0.0,
+                        help="memory a declared service (a teacher server) already holds")
+    parser.add_argument("--gpu", action="store_true", help="pass the GPU devices")
+    parser.add_argument("--stage", action="append", default=[],
+                        help="a published stage path to mount read-only, repeatable")
+    parser.add_argument("--heartbeat-timeout-s", type=float, default=0.0,
+                        help="0 disables the heartbeat check")
+    parser.add_argument("--runs-root", type=Path, default=Path("/srv/aug/runs"))
+    parser.add_argument("--dry-run", action="store_true",
+                        help="print the admission verdict and the command, launch nothing")
+    parser.add_argument("command", nargs=argparse.REMAINDER)
+    args = parser.parse_args(argv)
+
+    record = {"run_id": args.run_id, "image": args.image,
+              "gpu_budget_gib": args.gpu_budget_gib, "gpu_devices": args.gpu,
+              "started_at": time.strftime("%Y-%m-%dT%H:%M:%S%z")}
+    verdict = admit(args.gpu_budget_gib, args.service_gib)
+    record["admission"] = verdict
+    if not verdict["admitted"]:
+        record["outcome"] = f"blocked({verdict['reason']})"
+        print(json.dumps(record, indent=2))
+        return 1
+
+    run_dir = args.runs_root / args.run_id
+    heartbeat = run_dir / "heartbeat" / "beat"
+    if not args.dry_run:
+        heartbeat.parent.mkdir(parents=True, exist_ok=True)
+    command = podman_command(args, run_dir, heartbeat)
+    record["command"] = command
+    if args.dry_run:
+        record["outcome"] = "dry_run"
+        print(json.dumps(record, indent=2))
+        return 0
+
+    process = subprocess.Popen(command, stdout=sys.stderr, stderr=sys.stderr)
+    record.update(supervise(process, heartbeat=heartbeat,
+                            heartbeat_timeout_s=args.heartbeat_timeout_s,
+                            abort_floor_gib=RESERVE_GIB))
+    record["outcome"] = record.pop("outcome")
+    print(json.dumps(record, indent=2))
+    return 0 if record["outcome"] == "completed" else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
