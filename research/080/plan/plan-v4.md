@@ -584,6 +584,8 @@ parents), `disputed` (a sourced, revision-bound allegation contradicts a declare
 | A repo that co-hosts Jev-distilled data: an artifact derived from that lineage | Refused; a sibling lineage resolves on its own parents |
 | A human label stored in a field named "jev" | Resolves by lineage, not by the name |
 | A corpus row carrying a Jev `prediction` field | Field stripped or row refused |
+| A corpus described by a third party as generic "LLM-teacher soft labels" whose declared parent is Jev (`SargeDev/jev-distill-corpus-v3`) | **Refused**, and so is anything inheriting from it. A description is not a lineage: the gate resolves declared parents, which is why `derived_from` is transitive |
+| An evaluation record holding per-row Jev predictions (`dylantom2012/open-system-one-bench`) | **Recorded** where no edge reaches the training artifact; **refused** the moment one does. Comparison records are safe until they are joined |
 | A trace log with no labeler field | `unknown` |
 | Inputs synthesized by a **named** hosted provider at a stated revision, with human labels | Passes; provider, revision, channel and date recorded, with the "declared provenance only, no terms checked" note |
 | The same with the provider or revision undisclosed | `unknown` on the input edge: nothing can be recorded |
