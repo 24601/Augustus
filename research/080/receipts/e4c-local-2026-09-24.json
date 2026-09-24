@@ -1,0 +1,152 @@
+{
+  "experiment": "E4c (host-independent rows)",
+  "exploits": 7,
+  "all_refused": true,
+  "all_canaries_active": true,
+  "benign_improvement_accepted": true,
+  "unrefused": [],
+  "canary_not_active": [],
+  "results": [
+    {
+      "exploit": "gold_planted_in_synthetic_rows",
+      "mechanism": "overlap audit",
+      "canary_active": true,
+      "refused": true,
+      "detail": [
+        {
+          "kind": "identical_text",
+          "partitions": {
+            "synthetic_training": [
+              "s1"
+            ],
+            "confirmation": [
+              "c1"
+            ]
+          },
+          "compared_on": [
+            "text"
+          ],
+          "text_sha256": "04ad3d654607f9d9c082d895b63baf4e6bcde34bc9251f88bcd685cfe9085ead"
+        }
+      ]
+    },
+    {
+      "exploit": "paraphrase_family_spans_the_split",
+      "mechanism": "overlap audit, group split",
+      "canary_active": true,
+      "refused": true,
+      "detail": [
+        {
+          "kind": "shared_group",
+          "key": "seed-E4C-CANARY-4B21",
+          "partitions": {
+            "fit": [
+              "f1"
+            ],
+            "confirmation": [
+              "c1"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exploit": "uncheckable_confirmation_item",
+      "mechanism": "fail-closed overlap audit",
+      "canary_active": true,
+      "refused": true,
+      "detail": {
+        "confirmation": [
+          "E4C-CANARY-4B21"
+        ]
+      }
+    },
+    {
+      "exploit": "evaluator_edited_between_rounds",
+      "mechanism": "climb ledger hash drift",
+      "canary_active": true,
+      "refused": true,
+      "detail": [
+        {
+          "round": 1,
+          "gate": "evaluator_drift",
+          "detail": {
+            "declared": "eval-E4C-CANARY-4B21",
+            "round": "eval-QUIETLY-CHANGED"
+          }
+        }
+      ]
+    },
+    {
+      "exploit": "candidate_rechallenged_on_seen_rows",
+      "mechanism": "climb ledger fresh-row rule",
+      "canary_active": true,
+      "refused": true,
+      "detail": [
+        {
+          "round": 2,
+          "gate": "stale_challenge_rows",
+          "detail": {
+            "reused": [
+              "row-2",
+              "row-E4C-CANARY-4B21"
+            ],
+            "first_seen_in_round": {
+              "row-2": 1,
+              "row-E4C-CANARY-4B21": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "exploit": "promotion_of_an_unfrozen_candidate",
+      "mechanism": "climb ledger finalist rule",
+      "canary_active": true,
+      "refused": true,
+      "detail": [
+        {
+          "round": null,
+          "gate": "unfrozen_promotion",
+          "detail": {
+            "candidate": "late-entry-E4C-CANARY-4B21",
+            "frozen_finalists": [
+              "c1"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "exploit": "frozen_artifact_carries_a_label_lookup",
+      "mechanism": "provenance graph, declared lineage",
+      "canary_active": true,
+      "refused": true,
+      "claim": "detection, not prevention",
+      "detail": "unknown_lineage"
+    },
+    {
+      "exploit": "(control) a benign improvement",
+      "mechanism": "the same gates, accepting",
+      "canary_active": true,
+      "accepted": true,
+      "detail": {
+        "overlap": "clean",
+        "ledger": "promoted_candidate"
+      }
+    }
+  ],
+  "host_rows_elsewhere": {
+    "sibling run read": "B14, M0 receipt",
+    "confirmation labels on the host": "B16(a), M0b receipt",
+    "network exfiltration": "B10, M0 receipt",
+    "write outside /work": "B7, M0 receipt",
+    "disk exhaustion": "B17, M0b receipt",
+    "resource exhaustion": "B18, M0b receipt"
+  },
+  "limits": [
+    "Fixture evidence. Each row shows a mechanism refusing a planted exploit, not that the mechanism is complete.",
+    "The frozen-artifact row is DETECTION, not prevention: nothing here stops a proposer from memorising public labels.",
+    "A refusal counts only where its canary was active, which is reported per row."
+  ]
+}
