@@ -281,6 +281,21 @@ def compare(receipt):
                           else "bound_supports_non_inferiority")
         else:
             assessment = "insufficient_evidence"
+    # Declared attrition blocks a support claim. A confirmation sample is
+    # registered as equal-probability over its units; once units are dropped,
+    # the realized sample is whatever survived, and this program cannot see
+    # whether survival was independent of the outcome. The failure it prevents
+    # is concrete: 50 wins and 10 losses among 60 retained units read as a
+    # -0.667 improvement while the true effect over all 1,000 is +0.9.
+    if phase == "confirm" and excluded and confirmation is not None:
+        confirmation["strict_margin_supported"] = False
+        confirmation["blocked_by_attrition"] = {
+            "excluded_units": excluded,
+            "paired_units": len(pairs),
+            "missing_outcome_policy": missing_policy,
+            "note": "the helper cannot verify that exclusion was independent of the outcome",
+        }
+        assessment = "unsupported_attrition"
     if kind in ("proxy", "fixture"):
         assessment = f"{kind}_evidence_only"
     if summaries["candidate"]["units_with_violations"]:
@@ -303,6 +318,7 @@ def compare(receipt):
         "limits": [
             "Arithmetic on supplied outcomes, not verification of labels, independence, causal identification, or dataset isolation.",
             "Paired summaries cover supplied pairs only; exclusions and missing-outcome policy are caller declarations, not attrition correction. Null means unknown.",
+            "Any declared exclusion blocks a confirmation support claim, because the realized sample is no longer the registered one and outcome-independent dropout cannot be checked here.",
             "Confirmation needs a prespecified sample/family, frozen policies/loss, and representative independent units; no optional stopping or adaptive test reuse.",
             "Zero observed violations is not proof of constraint compliance; missing costs/latencies remain unknown.",
             "A loss bound does not satisfy separate latency, cost, subgroup, safety, or deployment gates. No policy is promoted or executed.",
