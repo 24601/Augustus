@@ -195,6 +195,40 @@ def fit_bandit(torch, features, labels, log_ratio, costs, *, epochs=300, lr=0.05
     return w.detach(), gamma.detach(), b.detach()
 
 
+def resample_to_prior(torch, labels, target_prior: float, seed: int = 80_102):
+    """Indices of a resample of the split whose positive rate is `target_prior`.
+
+    Sampling positives with replacement and keeping every negative, or the reverse, changes the
+    prior without inventing rows. It is a reweighting of the same population, so it tests
+    re-thresholding under shift and nothing more: it is not new evidence and the lock says so.
+    """
+    generator = torch.Generator(device="cpu").manual_seed(seed)
+    positive = (labels == 1).nonzero(as_tuple=True)[0].cpu()
+    negative = (labels == 0).nonzero(as_tuple=True)[0].cpu()
+    negatives_kept = negative.numel()
+    positives_needed = int(round(target_prior * negatives_kept / (1 - target_prior)))
+    draw = torch.randint(0, positive.numel(), (positives_needed,), generator=generator)
+    return torch.cat([negative, positive[draw]]).to(labels.device)
+
+
+def recalibrate_intercept(torch, logits, labels, *, epochs=300, lr=0.05):
+    """Re-estimate ONLY the intercept from a small deployment-prior sample.
+
+    This is the cheap adaptation the paper claims is enough: the slope stays frozen, so no new
+    discriminative information is used, and the label budget is the 200 rows the lock names.
+    """
+    shift = torch.zeros(1, device=logits.device, requires_grad=True)
+    optimizer = torch.optim.Adam([shift], lr=lr)
+    target = labels.float().view(-1, 1)
+    for _ in range(epochs):
+        optimizer.zero_grad()
+        loss = torch.nn.functional.binary_cross_entropy_with_logits(
+            logits.view(-1, 1) + shift, target)
+        loss.backward()
+        optimizer.step()
+    return shift.detach()
+
+
 def per_case_cost(actions, labels, c_fp: float, c_fn: float):
     """Cost of each decision. Same definition the scorer uses, kept in one shape."""
     false_positive = (actions > 0) & (labels == 0)
@@ -333,7 +367,65 @@ def main(argv=None) -> int:
                 "margin": margin, "span": 2 * max(c_fp, c_fn),
                 "cost_A": mean_cost_a, "tuned_threshold": tuned, **stats,
             })
-    report["cost_of_A_by_ratio"] = {s["ratio"]: s["cost_A"] for s in sigmas}
+    # --- E1-S: the prior-shift contrasts, which are 4 of the family's 19 ---------------
+    # Shift S is ratio 1:9 with the split resampled to 3x the fit prior, capped at 0.5.
+    fit_prior = fit_y.float().mean().item()
+    target_prior = min(3 * fit_prior, 0.5)
+    shift_index = resample_to_prior(torch, cal_y, target_prior)
+    shift_x, shift_y = cal_x[shift_index], cal_y[shift_index]
+    fp, fn = RATIOS["1:9"]
+    c_fp, c_fn = fp / (fp + fn), fn / (fp + fn)
+    span_s = 2 * max(c_fp, c_fn)
+    shift_logits = (shift_x @ w + b).squeeze(1) / temperature
+
+    # The 200-label budget the design lock names, drawn from the shifted split.
+    budget = min(200, shift_y.numel())
+    label_index = torch.randperm(shift_y.numel(), generator=torch.Generator(device="cpu")
+                                 .manual_seed(80_103))[:budget].to(shift_y.device)
+    intercept = recalibrate_intercept(torch, shift_logits[label_index], shift_y[label_index])
+
+    raw_scores = torch.sigmoid(shift_logits)
+    recal_scores = torch.sigmoid(shift_logits + intercept)
+    shift_actions = {
+        "A-raw": (raw_scores >= c_fp).long(),          # re-threshold only
+        "A-recal": (recal_scores >= c_fp).long(),      # intercept, then re-threshold
+    }
+    # B-retrain_S: the fit data importance-reweighted to the new prior, plus the same 200 labels,
+    # retrained at the S cost. This is the strongest cheap retrain, which is the point of the row.
+    prior_weight = torch.where(fit_y == 1,
+                               target_prior / max(fit_prior, 1e-9),
+                               (1 - target_prior) / max(1 - fit_prior, 1e-9)).float()
+    cost_weight = torch.where(fit_y == 1, c_fn, c_fp).float()
+    w_s, b_s = fit_logistic(torch, fit_x, fit_y, prior_weight * cost_weight)
+    shift_actions["B-retrain_S"] = ((shift_x @ w_s + b_s).squeeze(1) >= 0).long()
+    log_ratio_s = torch.full((shift_x.shape[0],), math.log(c_fp / c_fn), device=device)
+    w_c, gamma_c, b_c = fitted["c_star"]
+    shift_actions["C*"] = ((shift_x @ w_c + gamma_c * log_ratio_s.view(-1, 1) + b_c
+                            ).squeeze(1) >= 0).long()
+    w_e, gamma_e, b_e = fitted["e_bandit"]["1:9"]
+    shift_actions["E"] = ((shift_x @ w_e + gamma_e * log_ratio_s.view(-1, 1) + b_e
+                           ).squeeze(1) >= 0).long()
+
+    shift_costs = {name: per_case_cost(action, shift_y, c_fp, c_fn)
+                   for name, action in shift_actions.items()}
+    margin_s = 0.02 * shift_costs["A-recal"].mean().item()
+    for left, right in (("A-recal", "B-retrain_S"), ("A-raw", "A-recal"),
+                        ("C*", "A-recal"), ("E", "A-recal")):
+        stats = contrast_sigma(shift_costs[left], shift_costs[right])
+        sigmas.append({
+            "ratio": "S", "contrast": f"{left} - {right}", "held_out": True,
+            "margin": margin_s, "span": span_s,
+            "cost_A": shift_costs["A-recal"].mean().item(), "tuned_threshold": None, **stats,
+        })
+    report["shift"] = {
+        "fit_prior": fit_prior, "target_prior": target_prior,
+        "resampled_n": int(shift_y.numel()),
+        "realized_prior": shift_y.float().mean().item(),
+        "label_budget": budget, "fitted_intercept": intercept.item(),
+        "note": "a reweighting of the same population, not new evidence",
+    }
+
+    report["cost_of_A_by_ratio"] = {s["ratio"]: s["cost_A"] for s in sigmas if s["ratio"] != "S"}
     report["contrasts"] = sigmas
     report["wall_clock_s"] = round(time.time() - started, 1)
     report["reads_no_confirmation_label"] = True
