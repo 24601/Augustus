@@ -10,6 +10,10 @@ measured on the calibration split, from which the required n and the powered set
 here reads a confirmation outcome, so the lock can be written and hashed before anything is
 scored.
 
+This program deliberately does NOT write confirmation predictions. Those come from a separate run,
+AFTER the analysis lock is hashed, because one program that could produce both sigma-hat and the
+predictions could also choose the lock to suit them.
+
 Arms, from the E1 design lock:
   A            plug-in threshold C_FP/(C_FP+C_FN) on temperature-calibrated scores
   A_tuned      threshold tuned per ratio on the calibration split (descriptive only)
@@ -235,8 +239,6 @@ def main(argv=None) -> int:
     parser.add_argument("--stage", type=Path, default=Path("/srv/aug/stage/parts"))
     parser.add_argument("--corpus", default="civil")
     parser.add_argument("--out", type=Path, required=True)
-    parser.add_argument("--predictions", type=Path,
-                        help="write confirmation actions here for augctl to score")
     parser.add_argument("--batch-size", type=int, default=256)
     parser.add_argument("--gpu-budget-gib", type=float, default=2.0)
     parser.add_argument("--limit", type=int, help="cap rows per partition, for a smoke run")
