@@ -239,10 +239,20 @@ def main(argv=None) -> int:
     parser.add_argument("--out")
     args = parser.parse_args(argv)
 
+    # The hash guard must come BEFORE the labels are opened. Checking it inside score(), after
+    # main() had already read the label file, would mean a refusal that arrives too late to be a
+    # control: the outcome is in the process by then.
+    if not args.recorded_lock:
+        parser.exit(2, "error: no analysis-lock hash was recorded with this split; "
+                       "refusing to open the labels\n")
+    if args.analysis_lock != args.recorded_lock:
+        parser.exit(2, f"error: analysis-lock mismatch: supplied {args.analysis_lock[:16]}…, "
+                       f"recorded {args.recorded_lock[:16]}…; refusing to open the labels\n")
+
     predictions = json.loads(args.predictions.read_text(encoding="utf-8"))
+    contrasts = json.loads(args.contrasts.read_text(encoding="utf-8"))
     label_rows = json.loads(args.labels.read_text(encoding="utf-8"))
     labels = {row["id"]: row.get("label") for row in label_rows}
-    contrasts = json.loads(args.contrasts.read_text(encoding="utf-8"))
 
     try:
         report = score(predictions, labels, contrasts, args.analysis_lock, args.recorded_lock,

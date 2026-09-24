@@ -28,6 +28,29 @@ are operator-signed, and their value is the hash recorded here before any data w
 | M5 artifact-form ladder | [`m5-design.md`](m5-design.md) | `d24e2b27a89e6e56…` | not written |
 | M5b multimodal pilot | not written | — | not written |
 
+## The recorded-lock binding, and a gap in how it was built
+
+`e1_score.py` refuses to open confirmation labels unless the analysis-lock hash it is given matches
+one **recorded with the split**. When scoring was reached, no such hash existed: M4 published the
+splits on 2026-09-24 before any analysis lock had been derived, so the manifests had nowhere to put
+one. The slot was missing, not the lock.
+
+The repair is a one-time binding written by `augctl` into each split manifest, and it is worth
+being exact about what it does and does not prove. Recording the hash now is an assertion by the
+custodian. What makes the ordering checkable by someone who was not present is independent of that
+assertion:
+
+- both lock files are in a public commit, [`0bbb5b2`](https://github.com/24601/Augustus/commit/0bbb5b2),
+  whose time precedes any confirmation label being read;
+- the prediction artifacts were produced **before** the binding, are hashed, and each carries the
+  `analysis_lock_sha256` it ran under;
+- the locks are derived, not written: the same fit report always yields the same file, and the fit
+  reports are hashed and preserved.
+
+A binding recorded after the fact is weaker than one recorded at publication, and saying so is
+part of the record. The fix for the next experiment is to have the partitioner write the field at
+publication time, empty, so there is a slot to fill rather than a slot to add.
+
 ## Format
 
 One file per lock, `e1-design.md`, `e1-analysis.md`, and so on. Each begins with the date, the
