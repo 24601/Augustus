@@ -232,3 +232,20 @@ and fixed here. `calc_v4.py` re-ran byte-identical at that HEAD. After these fix
 | R2 residue | P2 | §4.6 still said "the acceptance claims survive because the declared population is the benchmark", which contradicts the newly qualified superpopulation estimands | **Accepted** | That rationale is **withdrawn** in §4.6, which now says contamination is unresolved and limits inferential eligibility, pointing at §2.4 item 4 |
 | **N1** | **P1** | The HF cache split was wrong: `HF_HUB_CACHE` holds the raw Hub files of datasets too, so pointing it at the weights root would put ordinary dataset downloads there and the close-time check would block W2 | **Accepted** | §4.2 replaces the two-variable split with **separate acquisition steps, each with a complete cache environment**: a dataset step exports both `HF_HUB_CACHE` and `HF_DATASETS_CACHE` under the data root, a weights step exports `HF_HUB_CACHE` under the weights root, each download passes an explicit `cache_dir`, and the two never share a process |
 | **N2** | **P1** | B20 deliberately wedged the shared host GPU. A memory budget does not contain an execution hang, and the console fallback admits the device may not recover, so inducing the fault endangers the maintainer's other workloads | **Accepted** | B20 becomes a **fixture test**: injected heartbeat stalls and synthetic amdgpu error records exercise the wrapper and the `blocked(gpu_fault)` path. The GPU is never deliberately wedged, and the plan states that a genuine device-wedge test needs authorized disposable hardware. The no-reset, no-reboot recovery policy is unchanged and explicitly not validated by the fixture |
+
+## Acceptance of the plan delta (2026-09-24)
+
+| Lane | Verdict | HEAD | Basis |
+|---|---|---|---|
+| Fable 5.1 xhigh | **ACCEPTED** — 0 P0, 0 P1, 4 P2 notes (all since fixed) | `6685d2a` | Its own recomputation of the corrected E3 and M5 arithmetic; P1-A and P1-B closed, all eight original P2s closed |
+| Astra-requested lane | **ACCEPTED** — no residual severity | `9251546` | `calc_v4.py` byte-identical; digests `b390eb15…` / `d6f9b745…`; signed-direction and boundary counterchecks passed; 7,318 and 12,698 independently reproduced |
+
+**What was accepted, and what was not.** Both lanes accepted the **plan delta**: a specification,
+not an executed experiment, not a host test, and not a release. Neither lane ran anything on
+tabputer-1. B16–B20 remain unexecuted, M0b has not run, and no design lock exists yet. The Astra
+lane also states that it could observe no model identity, so no serving model is claimed for it.
+
+**Rounds.** Four: the two full v4 reviews (13 distinct findings, 8 P1), a delta re-review of the
+revision (3 residual P1, 3 P2 from one lane; acceptance from the other), a final confirmation
+(2 new P1 found in the fixes themselves, 2 residues), and acceptance. Every finding is
+dispositioned above; none was rejected.

@@ -17,7 +17,7 @@ runtime skill guidance. The released skill is unchanged until a 0.8.0 release.
 | Item | State |
 | --- | --- |
 | Plan | **[v4](plan/plan-v4.md)** with [dispositions](plan/plan-v4-dispositions.md). It supersedes [v3](plan/plan-v3.md) and folds in the [errata](plan/plan-v3-errata.md), both v3 reviews, the M0 receipt and the research cards |
-| v4 reviews | [Astra-requested lane](reviews/astra-max-v4.md): NOT ACCEPTED, 0 P0, 6 P1, 5 P2; that lane could observe **no** model identity and says so. [Fable 5.1 xhigh](reviews/fable-5.1-xhigh-v4.md): NOT ACCEPTED, 0 P0, 2 P1, 8 P2. All 13 distinct findings are dispositioned and v4 was revised in place |
+| v4 reviews | **Both ACCEPTED after four rounds.** [Fable 5.1 xhigh](reviews/fable-5.1-xhigh-v4.md) accepted at `6685d2a`; the [Astra-requested lane](reviews/astra-max-v4.md), which could observe no model identity and says so, accepted at `9251546`. 19 findings across the rounds, 10 of them P1, all dispositioned in [plan-v4-dispositions.md](plan/plan-v4-dispositions.md); none rejected. They accepted the **specification**, not an executed experiment, a host test or a release |
 | v3 reviews | [Fable 5.1 xhigh](reviews/fable-5.1-xhigh-v3.md): NOT ACCEPTED, 0 P0, 1 P1, 10 P2. [Astra max](reviews/astra-max-v3.md): NOT ACCEPTED, 3 P1, 4 P2. All 18 findings are dispositioned in v4 |
 | Host (tabputer-1) | **M0 passed**: principals, containment, §4.4 GPU acceptance and boundary tests B1–B15. [Receipt](receipts/m0-tabputer-1-2026-09-23.md). Containment code: [`infra/`](infra/) |
 | Research | [CLM](sources/clm-2026-09-23.md), [Jev-Omni](sources/jev-omni-2026-09-23.md), [PAW and Rules as Programs](sources/paw-rap-2026-09-23.md) (table reproduced), the [text trainer sweep](sources/trainer-sweep-2026-09-23.md) (298 items), the [multimodal sweep](sources/trainer-sweep-multimodal-2026-09-23.md) (139 items), [trainer recipes](sources/trainer-recipes.md), [synthetic data and hill-climbing](sources/synthetic-data-and-hillclimb.md), [ExoPO prior art](sources/exopo-prior-art.md), and autoresearch tooling ([listed](sources/autoresearch-listed.md), [discovered](sources/autoresearch-discovery.md)) |
@@ -67,7 +67,7 @@ sudo. Rules:
 
 ## Next
 
-**A delta re-review of the revised v4**, then **M1**: the skeleton, generalized repository
+**M1**: the skeleton, generalized repository
 checks, confirmation modes and methods (with `loss_bound`), the ledger and provenance graph, the
 overlap audit and the climb ledger, in small PRs. **M0b** (B16–B20, the quarantine-and-split
 custody path, the MemAvailable watchdog and the GPU-budget wrapper) gates every experiment.
