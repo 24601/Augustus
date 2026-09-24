@@ -772,6 +772,17 @@ mistake also reaches nothing (B10, verified).
 `sudo augwindow open|close`, followed by a B9/B10 re-run and a dated receipt. **No experiment or
 candidate container runs while a proxy rule exists.**
 
+**What a window does and does not govern.** A window controls `augexp`'s egress, through the nft
+skuid rules and the proxy. It says nothing about the maintainer's own account fetching a git
+checkout, which is ordinary host use and is not staged into any experiment. Conflating the two
+stalled the first E1 fit attempt: "offline" was read as forbidding `git fetch` as `basit`, which
+it never meant. An experiment container is offline because it runs `--network=none`, not because a
+window is shut.
+
+**A run mounts `/srv/aug/stage/weights` as well as its entitled partitions.** An embedder cannot
+load from a tree that is not mounted, and weights are provisioning artifacts rather than labels.
+`/srv/aug/ctl` and the quarantine roots are never mounted into a run.
+
 | Window | When | What | Allowlist |
 |---|---|---|---|
 | W1 provisioning | M0, before the design lock | uv CPython, hashed wheels-only lock, the base image (local transfer), and the §4.4 acceptance weights (MiniLM, Qwen3-1.7B) | `pypi.org`, `files.pythonhosted.org`, `huggingface.co`, `us.aws.cdn.hf.co` (the last a recorded edit from the refusal log) |
