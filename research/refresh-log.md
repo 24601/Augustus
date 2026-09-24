@@ -1,3 +1,18 @@
+## 2026-09-24 ~21:25 UTC / ~15:10 Boise - Hourly 1510 HIGH
+
+- User-requested fold onto `main` `adc7369ed78b6f71e0cc7d4d8625a8efa1127c60`.
+  notes.md §171. Packet of 101 design items and 25 research-only rows
+  archived at `research/archive/hourly/2026-09-24T21/`.
+- Research-only. No skill, human README, Pages, or version change.
+  Scoring rows stay at 17. Archer stays promised_not_landed.
+- Live GitHub GraphQL and Hugging Face reads on 2026-09-24T21:25Z.
+  README or card openings for the sources named in §171. Six Hub calls
+  returned 401. Two Hub READMEs returned 404. `vishalmysore/layaAgent`
+  has no default branch. No benches rerun. No X calls.
+  Third-party figures stay *theirs*.
+- A public table is not Harbor. A mock provider is not a measurement.
+  A description rewrite is not a new family. The act stays in policy.
+
 ## 2026-09-24 ~18:22 UTC / ~12:11 Boise - Hourly 1211 HIGH
 
 - User-requested fold onto `main` `33ba9c516dc10483562c0c316579c6e386a53eeb`.

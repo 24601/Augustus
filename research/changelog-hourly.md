@@ -1,3 +1,16 @@
+## Hourly 1510 HIGH (notes.md §171)
+
+- Folded onto `main` `adc7369ed78b6f71e0cc7d4d8625a8efa1127c60`. About three
+  hours after hourly 1211 (§170). This fold is §171 only. Research-only.
+  Does not bump the package. Scoring rows stay at 17.
+  `invented_signal: false`. No X calls.
+- jev-recipes says 236 recipes and "calibrated". Both are theirs. A catalog
+  count is not a family choice. No scoring row.
+- Kapteeni's 65.71 is the JevBench public half. *Theirs.* The mock Jev
+  column in blacksinisterx/jev-bench is not a Jev measurement. Not Harbor.
+- Browser, mail, and permit wrappers still leave the act in policy. jevgate's
+  finding is not a merge. Qwen3.5 mirror names are not Archer.
+
 ## Hourly 1211 HIGH (notes.md §170)
 
 - Folded onto `main` `33ba9c516dc10483562c0c316579c6e386a53eeb`. About three
