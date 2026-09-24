@@ -39,11 +39,14 @@ proof of coverage.
 | Radius removed | Rare-large, mean-zero, n = 300 | 0.970444 |
 | Radius removed | Symmetric continuous, K = 5, any-of-five, independent finalists | 0.96875 |
 | Radius n inflated 100× | Hoeffding and EB cells at σ ≥ 0.3 | Reported per cell; must exceed the tolerance |
-| Δ sign flipped | Non-inferiority cells only | Invisible to the size test in superiority mode, which is why the mode is named |
+| Δ sign flipped | **Non-inferiority cells at n = 2,500 only** | It adopts only when the interval radius is **below twice the margin**, which at margin 0.05 means radius < 0.1. Measured: at n = 300 the radius is 0.141 (Hoeffding) and 0.167 (EB), so the defect is invisible there; at n = 2,500 it is 0.049 and 0.042, so it must adopt at nearly every replication. Naming the mode without naming n would have made a correct implementation look like a miss |
+| Δ sign flipped | Superiority cells | **Expected zero adoptions.** Invisible to the size test by construction, and the run records that as expected rather than as a detection |
 | Discordant-pair restriction dropped | `sign_exact` cells | Its own mutation: `sign_exact` has no radius to remove |
 
 A partial pattern is expected and is not a defect in the diagnostic; the table is what makes it
-readable. Power at the planning effect is reported per cell, and a method with power below 0.5 at
+readable. **Each row carries its own expectation, and the run fails if any row does not meet it**
+— including the rows that must show nothing. Judging detection with `any(...)` across defects
+would let a missed detection hide behind a successful one. Power at the planning effect is reported per cell, and a method with power below 0.5 at
 a given n is not the default there.
 
 ## E4b: eligibility fixtures

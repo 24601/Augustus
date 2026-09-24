@@ -149,7 +149,13 @@ def run_cell(torch, method, mode, dist, n, k, replications, chunk, generator, de
         rows = min(chunk, replications - done)
         values = draw(torch, dist, (rows, n), generator, device) + boundary
         if defect == "delta_sign_flipped":
-            values = -values + 2 * boundary
+            # Delta computed as incumbent - candidate instead of the reverse,
+            # so the MEAN changes sign. The first version wrote
+            # `-values + 2*boundary`, which reflects a symmetric draw about its
+            # own boundary mean and leaves the null distribution unchanged: a
+            # no-op that produced zero adoptions and looked like a missed
+            # detection. Negating outright is the actual defect.
+            values = -values
         mean = values.mean(dim=1)
         if method == "hoeffding":
             radius = hoeffding_radius(n, k, dist.span, defect)
@@ -397,19 +403,41 @@ def main(argv=None) -> int:
         ],
     }
     if args.defects:
+        # Each defect is run in the cell where the design lock says it MUST be
+        # detectable, and each carries its own expectation. A sign flip is
+        # genuinely invisible in superiority mode at the boundary null, and it
+        # is only visible in non-inferiority mode when the radius is smaller
+        # than twice the margin, so it is planted at n = 2500 where that holds.
+        # `any(...)` would mask a miss, so detection is judged per defect.
+        plan = [
+            ("radius_removed", "superiority", 300, True),
+            ("radius_removed", "non_inferiority", 300, True),
+            ("radius_n_inflated", "superiority", 300, True),
+            ("radius_n_inflated", "non_inferiority", 300, True),
+            ("delta_sign_flipped", "superiority", 2_500, False),
+            ("delta_sign_flipped", "non_inferiority", 2_500, True),
+        ]
         planted = []
-        for defect in ("radius_removed", "radius_n_inflated", "delta_sign_flipped"):
+        reps = min(args.replications, 10_000)
+        for defect, mode, n, must_detect in plan:
             for method in ("hoeffding", "empirical_bernstein"):
-                for mode in MODES:
-                    dist = DISTRIBUTIONS[2]
-                    adoptions = run_cell(torch, method, mode, dist, 300, 1,
-                                         min(args.replications, 10_000), args.chunk,
-                                         generator, device, defect=defect)
-                    planted.append({"defect": defect, "method": method, "mode": mode,
-                                    "n": 300, "adoptions": adoptions,
-                                    "rate": adoptions / min(args.replications, 10_000)})
+                dist = DISTRIBUTIONS[2]
+                adoptions = run_cell(torch, method, mode, dist, n, 1, reps, args.chunk,
+                                     generator, device, defect=defect)
+                rate = adoptions / reps
+                detected = rate > TOLERANCE
+                planted.append({
+                    "defect": defect, "method": method, "mode": mode, "n": n,
+                    "adoptions": adoptions, "rate": rate,
+                    "must_detect": must_detect, "detected": detected,
+                    "as_expected": detected == must_detect,
+                    "note": ("invisible to the size test in superiority mode, by construction"
+                             if not must_detect else
+                             "must inflate the adoption rate past the tolerance"),
+                })
         receipt["planted_defects"] = planted
-        receipt["planted_defects_detected"] = any(p["rate"] > TOLERANCE for p in planted)
+        receipt["planted_defects_as_expected"] = all(p["as_expected"] for p in planted)
+        receipt["planted_defects_unexpected"] = [p for p in planted if not p["as_expected"]]
 
     text = json.dumps(receipt, indent=2)
     if args.out:
@@ -417,7 +445,13 @@ def main(argv=None) -> int:
             handle.write(text)
     print(text if not args.out else json.dumps(
         {k: v for k, v in receipt.items() if k != "results"}, indent=2))
-    return 0 if receipt["all_cells_qualify"] else 1
+    if not receipt["all_cells_qualify"]:
+        return 1
+    # A diagnostic that cannot fail is not a diagnostic: if a planted defect
+    # the design lock says must be detected was not, the run is not a pass.
+    if args.defects and not receipt["planted_defects_as_expected"]:
+        return 1
+    return 0
 
 
 if __name__ == "__main__":
