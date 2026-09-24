@@ -492,6 +492,21 @@ Each rule is conditional and stated once, in `data-and-labels.md`.
 - `sampling_unit` semantics: episode, person or cluster;
 - a `descriptive_only` label on any normal-theory interval it prints.
 
+**Emitted decision servers (decision 13).** When the skill generates a `/v1/systemone`-shaped
+endpoint, every response carries three declarations beside the number, and the skill refuses to
+emit a server that cannot supply them:
+
+- `confidence_convention`: `top_minus_mean_of_others`, `top_probability`, or a named other. There
+  is no default, because a default is how the convention silently changes under a client.
+- `calibration_status`: `calibrated(method, split, date)` or `uncalibrated`. An ordinal margin is
+  never reported as a probability.
+- `serving_precision`: the precision and quantization the calibration was fit at, which §3.4
+  already binds the calibrator to.
+
+Wire compatibility is not semantic compatibility, and the skill says so wherever it emits the
+shape. This is the same failure the paper is about: the interface suggests the decision is
+portable when the decision policy is not.
+
 **Rules for the helper.** Bonferroni applies over `comparison_count` for every method. `--help`
 states each method's estimand, its assumptions, and what it cannot certify. Numerical tests follow
 CONTRIBUTING, and include the zero-discordance rare-large case. Byte copies ship with a parity
@@ -598,6 +613,8 @@ skill, without it, and against v0.7.2, using fresh agents and a dated audit.
 | S13–S15: Bayes threshold, prompt climb, tone fine-tune | Not triggered |
 | **S16: an exact program already decides the family** | A0; no training, and no compile |
 | **S17: a rule check runs after an irreversible effect** | Named as detection, not prevention; X2 unsatisfied |
+| **S18: "give me a drop-in `/v1/systemone` server"** | Emitted, with `confidence_convention`, `calibration_status` and `serving_precision` declared in the response, and a stated warning that a client swapping backends inherits a different convention |
+| **S19: the same, but the head is an uncalibrated contrastive margin** | Still emitted, with `calibration_status: uncalibrated` and the margin reported as ordinal. The skill refuses to call it a probability or to route on it as one |
 
 The activation suite is opt-in, in `tests/plugin-evals/`, at most $10 per release candidate.
 
@@ -1017,7 +1034,7 @@ envelope (measured); the `.gitignore` vehicle.
 | 10 | **Container cap for a 4B VLM or an audio LoRA** | **DECIDED: no** (maintainer, 2026-09-24). The 16 GB CPU cgroup and declared GPU budgets stand, so audio stays at M-R2 and the VLM pilot stays at 2B |
 | 11 | **One backbone or two for text R1 and M-R1** | **DECIDED: two** (maintainer, 2026-09-24). Qwen3.5-2B for text R1, Qwen3-VL-2B for media, each with its own parity receipt. If the Qwen3.5 linear-attention parity check fails, Qwen3-1.7B becomes R1 and the media backbone is unaffected |
 | 12 | **Hosted non-Jev teachers** | **DECIDED: pass them through with provenance recorded, no gate** (maintainer, 2026-09-24, option C). Only TypeSafe's terms are encoded, because D-d requires it; no other provider's terms are read or asserted. **Accepted consequence, recorded rather than hidden:** the provenance gate now fires on exactly two things — a Jev-generated training corpus (refused by default, user-overridable) and missing or disputed lineage. It is not a general terms checker, and the skill must not present it as one |
-| 13 | **Jev wire format** | Do not emit `/v1/systemone`-shaped servers by default from the skill |
+| 13 | **The `/v1/systemone` wire format** | **DECIDED: emit it when the user asks for a drop-in** (maintainer, 2026-09-24), because refusing a shape 210 sweep items already use is precious. **But the semantics do not travel with the shape**, so an emitted response must declare its `confidence` convention, its calibration status and the precision it was calibrated at (§3.5). Evidence: three conventions already ship under one field name — TypeSafe Jev and CLM use top probability minus the mean of the others, Jev-Omni uses top probability [R], and several sweep items use an entropy-derived number, which the climb ledger rejects outright. CLM's is uncalibrated by construction, since InfoNCE fits retrieval rank and not class posteriors [R]. A client swapping backends therefore gets a working HTTP call and a silently different number driving its threshold |
 | 14 | Activation spend | At most $10 per release candidate |
 | 15 | Scoop timebox | Reframe, don't restart; decide by 2026-11-15 |
 | 16 | Site placement | Standalone layout under `docs/exogenous-policy/`; the PDF in the sitemap |
