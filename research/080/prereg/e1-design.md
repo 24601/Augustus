@@ -23,10 +23,11 @@ the overlap audit before any fit.
 | fit-B | 200,000 | A second, disjoint fit sample; the A-vs-A-on-fit-B comparison is an **outcome**, reported as fit variance, not a control |
 | calibration | 100,000 | Temperature, thresholds, σ̂ |
 | M5 pool | 100,000 | Disjoint, reserved for M5's T2c |
-| confirmation | about 1,400,000 | Read once, after the analysis lock |
+| confirmation | about 1,400,000 planned; **1,367,024 actual** after 32,490 exact duplicates were removed (M4 receipt, 2026-09-24). Every planning n still fits | Read once, after the analysis lock |
 
-**Secondary: CLINC150** (CC-BY-3.0, human-written, about 23.9k): fit 8,000, calibration 3,000,
-confirmation 12,850. Its decision is **route-or-abstain against the OOS class**: s(x) = 1 − P(OOS);
+**Secondary: CLINC150** (CC-BY-3.0, human-written, 23,850 actual): fit 8,000, calibration 3,000,
+confirmation **12,845** actual after 5 exact duplicates were removed. Its OOS class is id 42,
+identified from the shards' own ClassLabel names. Its decision is **route-or-abstain against the OOS class**: s(x) = 1 − P(OOS);
 an FP routes an OOS query to an intent handler, an FN abstains on an in-scope query. The same cost
 ratios and plug-in rule apply. At 12,850 rows CLINC powers **no** equivalence contrast, so it
 contributes superiority rows only.
