@@ -232,8 +232,10 @@ def parity_against_helper(torch, samples: int, device, generator) -> dict:
     """Check this vectorized code against the shipped compare_workflows.py.
 
     Without this the diagnostic would only establish that e4a agrees with
-    itself. Receipts are built from real draws and both implementations must
-    reach the same verdict and the same upper bound.
+    itself. Receipts are built from real draws, and both implementations must
+    reach the same upper bound AND the same adoption verdict. Comparing the
+    bound alone is not enough: two implementations can agree on a number and
+    still disagree about what it means, which is the decision that matters.
     """
     import importlib.util
     from pathlib import Path
@@ -283,12 +285,20 @@ def parity_against_helper(torch, samples: int, device, generator) -> dict:
                             var = sum((d - mu) ** 2 for d in differences) / (n - 1)
                             radius = eb_radius(None, math.sqrt(var), n, k, span, None)
                         ours_upper = mean + radius
+                        threshold = -MARGIN if mode == "superiority" else MARGIN
+                        ours_adopts = ours_upper < threshold
                         checked += 1
-                        if abs(ours_upper - theirs["upper_mean_loss_delta"]) > 1e-9:
+                        bound_differs = abs(ours_upper - theirs["upper_mean_loss_delta"]) > 1e-9
+                        verdict_differs = ours_adopts != theirs["strict_margin_supported"]
+                        if bound_differs or verdict_differs:
                             mismatches.append({
                                 "method": method, "mode": mode, "n": n, "k": k,
                                 "distribution": dist.name,
-                                "ours": ours_upper, "helper": theirs["upper_mean_loss_delta"]})
+                                "bound_differs": bound_differs,
+                                "verdict_differs": verdict_differs,
+                                "ours": ours_upper, "helper": theirs["upper_mean_loss_delta"],
+                                "ours_adopts": ours_adopts,
+                                "helper_adopts": theirs["strict_margin_supported"]})
                         if checked >= samples:
                             return {"checked": checked, "mismatches": mismatches,
                                     "agrees": not mismatches}
