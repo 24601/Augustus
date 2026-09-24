@@ -96,8 +96,16 @@ class WorkflowComparisonTests(unittest.TestCase):
             self.assertEqual(result["excluded_units"], excluded)
             self.assertEqual(result["missing_outcome_policy"], data["missing_outcome_policy"])
             self.assertEqual(result["paired_units"], 4)
-            self.assertEqual(result["confirmation"], unknown["confirmation"])
             self.assertEqual(result["mean_loss_delta"], unknown["mean_loss_delta"])
+            # The arithmetic must not move: a declared exclusion is not an
+            # attrition correction. The VERDICT may move, and for a nonzero
+            # exclusion it must, which the attrition tests below cover.
+            for field in ("upper_mean_loss_delta", "minimum_improvement",
+                          "family_alpha", "comparison_count"):
+                self.assertEqual(result["confirmation"][field],
+                                 unknown["confirmation"][field])
+            if excluded == 0:
+                self.assertEqual(result["confirmation"], unknown["confirmation"])
 
     def test_exclusion_metadata_validates_without_coercion(self):
         for field, values in (("excluded_units", (True, False, -1, 0., "3", [])),
@@ -491,6 +499,40 @@ class WorkflowComparisonTests(unittest.TestCase):
                 data[key] = value
                 with self.assertRaisesRegex(ValueError, key):
                     compare.compare(data)
+
+
+    def test_declared_attrition_blocks_a_confirmation_support_claim(self):
+        """The 50/950 case: better on the units that survived, worse overall."""
+        data = receipt(60)
+        data["evidence_kind"] = "observed"
+        for index, pair in enumerate(data["pairs"]):
+            pair["incumbent"]["loss"] = 1 if index < 50 else 0
+            pair["candidate"]["loss"] = 0 if index < 50 else 1
+        without = compare.compare(data)
+        self.assertTrue(without["confirmation"]["strict_margin_supported"])
+        data["excluded_units"] = 940
+        data["missing_outcome_policy"] = "candidate abstained; those units were dropped"
+        with_attrition = compare.compare(data)
+        self.assertEqual(with_attrition["assessment"], "unsupported_attrition")
+        self.assertFalse(with_attrition["confirmation"]["strict_margin_supported"])
+        self.assertEqual(with_attrition["confirmation"]["blocked_by_attrition"]["excluded_units"], 940)
+
+    def test_zero_declared_exclusions_is_not_attrition(self):
+        data = receipt(100)
+        data["evidence_kind"] = "observed"
+        data["excluded_units"] = 0
+        self.assertTrue(compare.compare(data)["confirmation"]["strict_margin_supported"])
+
+    def test_attrition_does_not_mask_a_weaker_evidence_kind(self):
+        data = receipt(60)
+        data["excluded_units"] = 10
+        self.assertEqual(compare.compare(data)["assessment"], "fixture_evidence_only")
+
+    def test_search_phase_is_unaffected_by_declared_exclusions(self):
+        data = receipt(60, "search")
+        data["evidence_kind"] = "observed"
+        data["excluded_units"] = 940
+        self.assertEqual(compare.compare(data)["assessment"], "descriptive_search_only")
 
 
 if __name__ == "__main__":
