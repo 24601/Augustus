@@ -115,10 +115,18 @@ def build(fit: dict, available_n: int, corpus: str) -> dict:
 
     held_out_powered = sorted({r["ratio"] for r in rows
                                if r["powered"] and r["held_out"]})
-    outcome = ("at least two held-out ratios are powered, so the Supports row is reachable"
-               if len(held_out_powered) >= 2 else
-               "fewer than two held-out ratios are powered, so the prespecified INCONCLUSIVE row "
-               "applies to the equivalence claims before confirmation is read")
+    # The Supports row for the equivalence claims needs powered EQUIVALENCE contrasts at held-out
+    # ratios. A powered superiority contrast at the same ratio says nothing about equivalence, so
+    # counting it here would let a corpus that cannot carry the claim appear to carry it.
+    held_out_powered_equivalence = sorted({r["ratio"] for r in rows
+                                           if r["powered"] and r["held_out"]
+                                           and r["mode"] == "equivalence"})
+    outcome = ("at least two held-out ratios have a powered equivalence contrast, so the Supports "
+               "row is reachable"
+               if len(held_out_powered_equivalence) >= 2 else
+               "fewer than two held-out ratios have a powered equivalence contrast, so the "
+               "prespecified INCONCLUSIVE row applies to the equivalence claims before "
+               "confirmation is read")
     return {
         "experiment": "E1",
         "corpus": corpus,
@@ -133,6 +141,11 @@ def build(fit: dict, available_n: int, corpus: str) -> dict:
         "contrasts": rows,
         "powered_count": sum(1 for r in rows if r["powered"]),
         "powered_held_out_ratios": held_out_powered,
+        "powered_held_out_ratios_equivalence": held_out_powered_equivalence,
+        "powered_count_by_mode": {
+            mode: sum(1 for r in rows if r["powered"] and r["mode"] == mode)
+            for mode in ("superiority", "non_inferiority", "equivalence")
+        },
         "prespecified_reading": outcome,
         "limits": [
             "required_n is a normal/fixed-SD planning approximation; the empirical Bernstein interval it plans for is distribution-free, this calculation is not.",
@@ -157,6 +170,10 @@ def render(lock: dict) -> str:
         f"- Fitted temperature: {lock['temperature']:.6f} (scalar, no intercept)",
         f"- Powered contrasts: **{lock['powered_count']} of {len(lock['contrasts'])}**",
         f"- Powered held-out ratios: {', '.join(lock['powered_held_out_ratios']) or 'none'}",
+        f"- Powered held-out ratios with an equivalence contrast: "
+        f"{', '.join(lock['powered_held_out_ratios_equivalence']) or 'none'}",
+        f"- Powered by mode: " + ", ".join(
+            f"{mode} {count}" for mode, count in lock["powered_count_by_mode"].items()),
         "",
         f"**Prespecified reading:** {lock['prespecified_reading']}.",
         "",
