@@ -16,11 +16,11 @@ runtime skill guidance. The released skill is unchanged until a 0.8.0 release.
 
 | Item | State |
 | --- | --- |
-| Plan | [v3](plan/plan-v3.md) with [dispositions](plan/plan-v3-dispositions.md). **[Errata](plan/plan-v3-errata.md) override v3** and hold every later maintainer decision and host fact. v4 is next |
-| v3 reviews | [Fable 5.1 xhigh](reviews/fable-5.1-xhigh-v3.md): NOT ACCEPTED, 0 P0, 1 P1, 10 P2. [Astra max](reviews/astra-max-v3.md): NOT ACCEPTED, 3 P1, 4 P2. Both are open for v4 |
+| Plan | **[v4](plan/plan-v4.md)** with [dispositions](plan/plan-v4-dispositions.md). It supersedes [v3](plan/plan-v3.md) and folds in the [errata](plan/plan-v3-errata.md), both v3 reviews, the M0 receipt and the research cards |
+| v3 reviews | [Fable 5.1 xhigh](reviews/fable-5.1-xhigh-v3.md): NOT ACCEPTED, 0 P0, 1 P1, 10 P2. [Astra max](reviews/astra-max-v3.md): NOT ACCEPTED, 3 P1, 4 P2. All 18 findings are dispositioned in v4 |
 | Host (tabputer-1) | **M0 passed**: principals, containment, §4.4 GPU acceptance and boundary tests B1–B15. [Receipt](receipts/m0-tabputer-1-2026-09-23.md). Containment code: [`infra/`](infra/) |
 | Research | [CLM](sources/clm-2026-09-23.md), [Jev-Omni](sources/jev-omni-2026-09-23.md), [PAW and Rules as Programs](sources/paw-rap-2026-09-23.md) (table reproduced), the [text trainer sweep](sources/trainer-sweep-2026-09-23.md) (298 items), the [multimodal sweep](sources/trainer-sweep-multimodal-2026-09-23.md) (139 items), [trainer recipes](sources/trainer-recipes.md), [synthetic data and hill-climbing](sources/synthetic-data-and-hillclimb.md), [ExoPO prior art](sources/exopo-prior-art.md), and autoresearch tooling ([listed](sources/autoresearch-listed.md), [discovered](sources/autoresearch-discovery.md)) |
-| Arithmetic | [`calc/calc_v3.py`](calc/calc_v3.py) (stdlib, deterministic) and its [output](calc/calc_v3.out.txt) |
+| Arithmetic | [`calc/calc_v4.py`](calc/calc_v4.py) (stdlib, deterministic) and its [output](calc/calc_v4.out.txt). [`calc_v3.py`](calc/calc_v3.py) is retained for the superseded normal-theory figures |
 
 ## Maintainer decisions after v3 (verbatim in the errata)
 
@@ -66,13 +66,10 @@ sudo. Rules:
 
 ## Next
 
-**Plan v4.** Fold in:
-- the errata;
-- the open P1s from both v3 reviews: stage label exposure, interval coverage behind the
-  family-error claim, and M0/M2 ordering;
-- the M0 deviations: uids, `--memory-swap`, GPU budget, vLLM batch nondeterminism;
-- the sweeps and cards;
-- the programs-as-rungs ladder with PAW and synthesized-program arms;
-- E4a on the GPU.
+**Independent adversarial review of v4**, then **M1**: the skeleton, generalized repository
+checks, confirmation modes and methods (with `loss_bound`), the ledger and provenance graph, the
+overlap audit and the climb ledger, in small PRs. **M0b** (B16–B18, the quarantine-and-split
+custody path, the MemAvailable watchdog and the GPU-budget wrapper) gates every experiment.
 
-Then an independent review. Then M1, the skeleton and tooling, in small PRs.
+Experiments wait for v4's design and analysis locks, as v4 specifies. No tag or release without
+the maintainer's explicit go.
