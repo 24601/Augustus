@@ -76,8 +76,12 @@ sudo. Rules:
 | [#111](https://github.com/24601/Augustus/pull/111) | The confirmation helper gains `mode`, `method` (`empirical_bernstein`, `sign_exact`) and a required `sampling_design` |
 | [#112](https://github.com/24601/Augustus/pull/112) | The §3.6 provenance gate: ancestry of a training artifact, lineage-not-name identity, the TypeSafe rule, recorded hosted teachers (decision 12), and `unknown` on missing parents or an unnamed teacher |
 | [#113](https://github.com/24601/Augustus/pull/113) | Sourced lineage disputes, permission records, and the one-use user acknowledgment (D-d) |
+| [#114](https://github.com/24601/Augustus/pull/114) | The refusal quotes MCA §2.3(b) instead of citing it |
+| [#115](https://github.com/24601/Augustus/pull/115) | The fail-closed overlap audit: duplicate ids, identical text, shared groups, and `unverifiable` when nothing can be compared |
+| [#116](https://github.com/24601/Augustus/pull/116) | The climb-ledger replay and its hard gates |
 
-Still to do in M1: the fail-closed overlap audit and the climb ledger. The provenance graph
-(§3.6) is done, including decisions 12 and 13's effects on it. **M0b** (B16–B20, the quarantine-and-split custody path, the MemAvailable watchdog, the
+**M1 is done.** 183 tests pass on `main`. Next is **M0b** (B16–B20, the quarantine-and-split
+custody path, the MemAvailable watchdog, the GPU-budget wrapper), which gates every experiment,
+then **M2**, the design locks, which must be hashed before window W2 opens. **M0b** (B16–B20, the quarantine-and-split custody path, the MemAvailable watchdog, the
 GPU-budget wrapper) gates every experiment, and no experiment runs before v4's design and
 analysis locks. No tag or release without the maintainer's explicit go.
