@@ -181,3 +181,26 @@ penalty. E1's per-ratio `R_r` and M5's R = 2 are safe bounds. The v3 rare-large 
 genuinely repaired. M5's intersection-union argument is valid for its conjunctive claim. The
 download ordering is repaired. Both independently reproduced the rare-event probabilities, the
 Clopper–Pearson cutoff, and the E1 regret figures.
+
+## Delta re-review of the revision (Astra-requested lane, 2026-09-24)
+
+Re-reviewed `58be8b4..6685d2a` only. Verdict: **NOT ACCEPTED — 0 P0, 3 P1, 3 P2**, counted as
+residual defects rather than prior IDs. F7, F8, F10 and F11 are **closed**. The reviewer
+independently reproduced the corrected E3 and M5 arithmetic (6,598 / 8,271 / 5,971 / 7,501;
+7,318 / 6,592; 6,354 / 12,698 / 22,467; the S12 radii and 3,015) and confirmed `calc_v4.py` is
+byte-identical to its saved output. Current digests: `calc_v4.py` sha256
+`2c750e51…`, `calc_v4.out.txt` sha256 `97f464de…`.
+
+| ID | Sev | Residual defect | Disposition | Fix |
+|---|---|---|---|---|
+| R1 | P1 | The planning arithmetic contradicted itself: §2.7 wrote `g = |true_delta| − margin` and then said `true_delta = 0` gives `g = margin`, which that equation makes `−margin`; and `calc_v4.py` §7 was **stale**, still printing g = 0 for NI, g = the true effect for superiority, E3 at R = 1.2 and M5 at K = 5 | **Accepted** | §2.7 now writes the **signed distance per mode**: NI uses `margin − true_delta`, superiority uses `−margin − true_delta` (= `|true_delta| − margin` for a candidate better by that much), equivalence at equality uses `margin`. `calc_v4.py` §7 is rewritten around a `distance(mode, true_delta, margin)` function and a table of real rows, and reproduces 7,318 (E3) and 12,698 (M5) |
+| R2 | P1 | The narrowed custody claim was not propagated: §2.4 item 4 still claimed confirmation labels are outside the proposer's read set "as tested by B16", while §4.6 justified acceptance by the benchmark population and the newly edited E1/E3 rows target superpopulations | **Accepted** | §2.4 item 4 is scoped to a **host-path claim**, states that B16(b) detects one named fixture and that nothing detects memorization, and says plainly that **benchmark contamination is unresolved and limits inferential eligibility**. E1 and E3 carry that limit beside their estimands: E1's instrument is a frozen encoder plus our own head, so it is bounded there; E3's readers are pretrained, so its superpopulation reading is explicitly qualified |
+| R3 | P1 | Admission is not an enforced bound on **candidate** GPU use: one container can open two allocator instances or allocate outside them, serialization does not cap the sum, and a 500 ms poll is detection after allocation | **Accepted** | §4.2 stops pretending the budget binds candidate code. **Candidate GPU work goes to Colab by default** — D-b's own fallback — and runs on tabputer-1 only if new test **B19** shows the `dmem` cgroup controller actually bounds amdgpu GTT for a rootless container. If B19 fails, candidates on this host get no devices and their GPU work moves to Colab. First-party runs keep the budget plus aggregate admission, one run at a time and the watchdog, which is adequate for code we wrote and review |
+| R4 | P2 | §4.6 still said "candidate code runs without devices anyway", contradicting the new profile | **Accepted** | Both §4.6 bullets are rewritten around the B19 condition |
+| R5 | P2 | `calc_v4.py` §6 and the risk row still called `0.598^9` the whole-question replay probability and prescribed a fixed batch composition | **Accepted** | §6 now separates the **measured** 59.8% per-prompt rate [Rep] from the **hypothetical** independence arithmetic [H], notes that M0's smoke test resubmitted the same prompt list and still disagreed, and names frozen replay tables as the mechanism. The risk row says the same |
+| R6 | P2 | The 0.01-grid σ̂ figures had become exclusion rules: σ̂ = 0.242 needs 6,355 rows and fits, yet "≤ 0.24" would narrow | **Accepted** | §2.7 states that **the rule is the computation** — powered iff n(σ̂) ≤ available — and that every quoted σ̂ is a rounded-down illustration. `calc_v4.py` §7b computes the exact boundaries: 0.24368057, 0.26502213 and 0.53538055, matching the reviewer's values |
+
+The reviewer found **no new P0 or P1** introduced by the revision: the weights custody split is a
+viable manifest-verified read-only mount separate from labeled dataset caches, K = 6 and the
+corrected E3/M5 arithmetic are sound, and the candidate-GPU change fixes reachability, with its
+memory risk counted once under R3 and now answered by B19-or-Colab.

@@ -425,9 +425,13 @@ for label, nq, readers in (("E3 full replay, 2 readers", 7_405, 2),
     hours = calls * TOK_PER_CALL / VLLM_TOKS / 3600
     print(f"    {label:28s}: {calls:,} calls x {TOK_PER_CALL} output tok ="
           f" {hours:.1f} GPU-h of decode at the measured rate (cap 24 GPU-h)")
-print(f"  batched-rerun identity {BATCH_IDENTITY:.1%}: over 9 calls per question the chance that"
-      f" a whole question replays identically is {BATCH_IDENTITY**9:.4f}")
-print("    -> replay-dependent arms need batch-invariant mode or a fixed batch composition.")
+print(f"  MEASURED [Rep]: batched-rerun identity {BATCH_IDENTITY:.1%} PER PROMPT.")
+print(f"  HYPOTHETICAL [H]: if the 9 calls of a question were independent with that marginal,"
+      f" a whole question would replay identically with probability {BATCH_IDENTITY**9:.4f}.")
+print("    M0 measured neither the joint law nor a cure: its smoke test resubmitted the SAME")
+print("    prompt list and still disagreed, so a fixed input batch is not an established fix.")
+print("    v4's mechanism is therefore frozen once-generated replay tables that every arm,")
+print("    resplit and P6 draw reads, with the batch-invariant setting recorded at the lock.")
 GPU_VISIBLE = 124.0
 for label, need in (("E1 MiniLM embed", 2.0), ("E3 Qwen3-1.7B + 4B", 14.0),
                     ("M5 R1 Qwen3.5-2B", 6.0), ("M5 PAW-ft (compile-by-training)", 38.0),
@@ -435,21 +439,82 @@ for label, need in (("E1 MiniLM embed", 2.0), ("E3 Qwen3-1.7B + 4B", 14.0),
     print(f"    GPU budget {label:34s}: {need:5.1f} GiB ="
           f" gpu_memory_utilization {need/GPU_VISIBLE:.3f} of {GPU_VISIBLE:.0f} GiB visible")
 print("  CPU cgroup stays --memory=16g --memory-swap=16g; GTT is NOT charged to it (B12, M0).")
-print("  MemAvailable watchdog: launch floor 24 GiB, abort floor 6 GiB, sampled every 5 s by the wrapper.")
+print("  Aggregate admission (Astra v4 F3): MemAvailable must cover")
+print("    GPU budget + CPU cap + declared service memory + 8 GiB overhead + 6 GiB reserve.")
+for label, gpu, svc in (("E1 MiniLM embed", 2.0, 0.0), ("E3 readers", 14.0, 0.0),
+                        ("M5 PAW-ft + local teacher", 38.0, 9.0)):
+    print(f"    {label:26s}: {gpu:.0f} + 16 + {svc:.0f} + 8 + 6 = {gpu + 16 + svc + 8 + 6:.0f} GiB free required")
+print("  The 24 GiB figure survives only as an absolute floor below which nothing launches.")
+print("  Watchdog cadence 500 ms. The allocator limits are per-process/per-instance and are NOT")
+print("  an enforced aggregate bound, which is why unrestricted GPU candidates go to Colab")
+print("  unless the dmem cgroup controller is shown to bound amdgpu GTT (test B19).")
 
 # ---------------------------------------------------------------------------
-section("7. Powered-set gap rule g (Fable v3 P2-3)")
-print("  v4 fixes g per contrast type at the DESIGN lock, before any calibration read:")
-print("    equivalence/non-inferiority: g = 0 (true Delta = 0 is the planning point)")
-print("    superiority: g = the prespecified planning effect for that contrast type")
-for name, sigma, g, m, rng in (("E1 A vs B-stale", 0.05, 0.02, 19, 2.0),
-                               ("E3 explicit vs implicit", 0.30, 0.04, 6, 1.2),
-                               ("M5 R3a vs low rung", 0.20, 0.02, 5, 2.0)):
-    n = n_super_eb(sigma, g, m, rng)
-    print(f"    {name:24s} sigma={sigma} g={g} m={m}: n_sup(EB) ="
-          f" {'infeasible' if n is None else format(n, ',')}")
-print("  The analysis lock records sigma-hat and the resulting powered set; it never")
-print("  re-chooses g, so the powered set has no post-calibration free parameter.")
+section("7. Distance to the tested boundary (Fable v3 P2-3; Astra v4 F5B and R1)")
+print("  Three quantities, never conflated. `true_delta` is the planning effect (negative is")
+print("  better), `margin` is the tested boundary, and the SIGNED DISTANCE from the truth to")
+print("  that boundary is what the power calculation uses:")
+print("    non-inferiority  (UCB < +margin): distance = margin - true_delta")
+print("    superiority      (UCB < -margin): distance = -margin - true_delta = |true_delta| - margin")
+print("                                      for a candidate better by |true_delta|")
+print("    equivalence at equality:          distance = margin on each side")
+print("  v4's first pass wrote 'g = 0 for equivalence and non-inferiority', and then also called")
+print("  the true effect g for superiority. Both are corrected here and in the plan.")
+
+
+def distance(mode, true_delta, margin):
+    if mode == "ni":
+        return margin - true_delta
+    if mode == "sup":
+        return abs(true_delta) - margin
+    return margin  # equivalence at equality
+
+
+ROWS = (
+    # name, mode, true_delta, margin, sigma, m, range
+    ("E1 A vs B-stale (sup)", "sup", -0.042, 0.02, 0.05, 19, 2.0),
+    ("E3 explicit vs implicit (sup)", "sup", -0.04, 0.02, 0.30, 6, R_E3),
+    ("E3 narrowed, 1 reader (sup)", "sup", -0.04, 0.02, 0.30, 3, R_E3),
+    ("M5 R3a vs low rung (sup)", "sup", 0.02, 0.01, 0.20, 6, R_M5),
+    ("M5 low rung NI (ni)", "ni", 0.0, 0.01, 0.20, 6, R_M5),
+    ("E3 equivalence (equiv)", "equiv", 0.0, 0.02, 0.25, 6, R_E3),
+)
+for name, mode, td, margin, sigma, m, rng in ROWS:
+    d = distance(mode, td, margin)
+    if mode == "sup":
+        n = n_super_eb(sigma, d, m, rng)
+    elif mode == "ni":
+        n = n_ni_eb(sigma, margin, m, rng, true_delta=td)
+    else:
+        n = n_equiv_eb(sigma, margin, m, rng)
+    print(f"    {name:32s} true_delta={td:+.3f} margin={margin:.2f} -> distance {d:+.3f};"
+          f" sigma={sigma} m/K={m} R={rng}: n = {'infeasible' if n is None else format(n, ',')}")
+print("  The analysis lock records sigma-hat and the resulting powered set; it never re-chooses")
+print("  true_delta or the margin, so the powered set has no post-calibration free parameter.")
+
+section("7b. Exact sigma-hat boundaries (Astra v4 R6): the powered rule is n(sigma-hat) <= available")
+print("  The 0.01-grid figures quoted in prose are ROUNDED-DOWN illustrations, not the rule.")
+
+
+def max_sigma(fn, available, lo=0.01, hi=1.0):
+    for _ in range(60):
+        mid = (lo + hi) / 2
+        n = fn(mid)
+        if n is not None and n <= available:
+            lo = mid
+        else:
+            hi = mid
+    return lo
+
+
+print(f"    E3 equivalence, m=6, R={R_E3}, n=6,405: exact sigma-hat boundary"
+      f" {max_sigma(lambda s_: n_equiv_eb(s_, 0.02, 6, R_E3), 6_405):.8f} (prose says 0.24)")
+print(f"    E3 equivalence, m=3, R={R_E3}, n=6,405: exact"
+      f" {max_sigma(lambda s_: n_equiv_eb(s_, 0.02, 3, R_E3), 6_405):.8f} (prose says 0.26)")
+print(f"    M5 NI, K=6, R={R_M5}, n=60,000: exact"
+      f" {max_sigma(lambda s_: n_ni_eb(s_, 0.01, 6, R_M5), 60_000):.8f} (prose says 0.53)")
+print("  A contrast is powered iff its computed n at the observed sigma-hat fits the available n.")
+print("  The prose figures never decide; the computation does.")
 
 # ---------------------------------------------------------------------------
 section("8. Hoeffding comparison (kept as the conservative default where it is powered)")

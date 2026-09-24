@@ -21,7 +21,7 @@ receipt, and the five research cards. Findings are dispositioned in `plan-v4-dis
 | Status | Neither review is acceptance. Acceptance belongs to the maintainer |
 | Baseline [Coord] | `origin/main` = `d8dc848`; `v0.7.2` → `30b6033`, released. Released `references/`: 16 files, 173,472 B. Released `SKILL.md`: 10,743 B. M1 re-fetches and records the SHA it actually branches from |
 | Host (tabputer-1) | **M0 passed** 2026-09-23: principals, containment, §4.4 GPU acceptance, B1–B15. `receipts/m0-tabputer-1-2026-09-23.md`. Containment code in `infra/`. Access from Amp is the runner `tabputer` (`/mnt/tst`, user `basit`, passwordless sudo) |
-| Arithmetic | `calc/calc_v4.py` (stdlib, deterministic; sha256 `4a2d2308…`), output `calc/calc_v4.out.txt` (sha256 `5d7e2644…`). `calc_v3.py` is retained for the superseded normal-theory figures |
+| Arithmetic | `calc/calc_v4.py` (stdlib, deterministic), output `calc/calc_v4.out.txt`. Their current sha256 values are recorded in `plan-v4-dispositions.md`, which is revised in the same commit, so the two never disagree. `calc_v3.py` is retained for the superseded normal-theory figures |
 | Not used | Third-party runtime code, unreviewed installs, Colab, credentials on tabputer-1 |
 
 **Evidence labels.** [C] contract; [R] reported (third-party); [Rep] reproduced by our own
@@ -198,8 +198,14 @@ Four tests are reported separately. Any one of them can fail.
 2. **Eligibility.** `evidence_kind` is derived from provenance; the weakest source wins. Proxy or
    fixture evidence cannot support a margin.
 3. **Identification.** X5b holds.
-4. **Isolation.** The evaluator, splits and confirmation labels are outside the proposer's read
-   and write set, as tested by E4c and B16.
+4. **Isolation, scoped.** The evaluator, splits and confirmation labels are outside the
+   proposer's read and write set **on this host**, as tested by E4c and B16(a). That is a
+   host-path claim. It is **not** a claim that the proposer or a model rung is independent of the
+   public benchmark's labels: B16(b) detects one named lookup-table fixture, and nothing detects
+   memorization. **Contamination of public benchmarks is unresolved**, and it limits inferential
+   eligibility: an artifact that had the labels is not made independent of them by being frozen,
+   and measuring the benchmark exactly does not repair inference to the superpopulation. Every
+   experiment reports this limitation beside its estimand (Astra v4 R2).
 
 Baselines always include constant policies and per-case-best headroom. The paper names what it
 imports from HCPI, CSPI-MT and FABLE.
@@ -256,15 +262,23 @@ irreversible effect; and preferences are stable relative to retraining.
   from the EB interval of §2.4. Every claim type is read from that one interval.
 - **Powered set.** Three quantities are named separately and never conflated (Astra v4 F5):
   `true_delta` is the planning effect, `margin` is the test boundary, and the **gap**
-  `g = |true_delta| − margin` is the distance from the truth to that boundary. Equivalence and
-  non-inferiority plan at `true_delta = 0`, so g = margin; superiority plans at the prespecified
-  `true_delta` for that contrast type. **The power event matches the registered claim:** the
+  **signed distance** from the truth to that boundary is what the power calculation uses. The
+  distance depends on the mode, so v4 writes it per mode rather than as one formula:
+  non-inferiority (UCB < +margin) uses `margin − true_delta`; superiority (UCB < −margin) uses
+  `−margin − true_delta`, which is `|true_delta| − margin` for a candidate better by
+  `|true_delta|`; equivalence at equality uses `margin` on each side. Equivalence and
+  non-inferiority plan at `true_delta = 0`; superiority plans at the prespecified `true_delta`
+  for that contrast type. **The power event matches the registered claim:** the
   two-sided equivalence event where the claim is equivalence, and the **one-sided** event
   `UCB < +margin` where the claim is non-inferiority. A contrast is powered if the n its method
   needs, at the **design-lock** `true_delta` and the analysis-lock σ̂, is at most the available n.
   Unpowered contrasts are reported with their intervals and count toward no outcome row in either
   direction. **"Powered" is per contrast**, so an outcome row quantified over tasks means powered
-  for that row's own contrast (Fable v4 P2-7).
+  for that row's own contrast (Fable v4 P2-7). **The rule is the computation, never a quoted
+  σ̂ figure:** a contrast is powered iff its computed n at the observed σ̂ fits the available n.
+  Every σ̂ threshold in this plan is a rounded-down illustration; the exact boundaries are
+  0.24368057 (E3, m = 6), 0.26502213 (E3, m = 3) and 0.53538055 (M5 NI, K = 6, n = 60,000)
+  [Rep calc §7b] (Astra v4 R6).
 - **Margins** are fixed by substantive rationale at the design lock and never moved afterwards.
   If compute or data bind, the prespecified narrowing or inconclusive row applies.
 - **Superiority margins are stated**, not implied: δ_r in E1, 0.02 utility in E3, 0.01 in M5.
@@ -279,7 +293,7 @@ irreversible effect; and preferences are stable relative to retraining.
 |---|---|
 | Data | **Primary: CivilComments.** CC0; toxicity ≥ 0.5; about 2.0M rows [C, recheck at M2]. Exact-normalized-text dedup across partitions. Seeded partitions: fit 200k; **fit-B 200k** (the source of the "second, equal-size fit subsample", Fable v3 P2-4); calibration 100k; M5 pool 100k; confirmation the rest, about **1.4M**. **Secondary: CLINC150** (CC-BY-3.0, human-written): 23.9k resplit into fit 8k, calibration 3k, confirmation 12,850 |
 | CLINC decision (Fable v3 P2-9) | Binary route-or-abstain against the OOS class: s(x) = 1 − P(OOS); an FP is routing an OOS query to an intent handler, an FN is abstaining on an in-scope query. The same cost ratios and plug-in rule apply |
-| Estimand | The superpopulation the corpus samples, at the declared independent unit (one comment). The exact finite-population Δ over the confirmation partition is reported beside every interval, so an enumerated quantity is never reported only as "unpowered" (Fable v4 P2-3) |
+| Estimand | The superpopulation the corpus samples, at the declared independent unit (one comment). The exact finite-population Δ over the confirmation partition is reported beside every interval, so an enumerated quantity is never reported only as "unpowered" (Fable v4 P2-3). **Eligibility limit:** the instrument is a frozen MiniLM encoder plus a head we fit, so benchmark contamination is bounded here; where an arm embeds a pretrained generalist, the superpopulation reading is qualified by §2.4 item 4 |
 | Instrument | Frozen all-MiniLM-L6-v2 (pinned sha) plus logistic regression, **temperature-calibrated with no intercept** |
 | Costs | C_FP + C_FN = 1. Training range {1:1, 1:4, 1:9}; held out {1:19, 1:49, 4:1}. Shift S: ratio 1:9, confirmation resampled to 3× the fit prior (about 0.24), capped at 0.5 |
 | Family (m = 19 per dataset) | At each held-out ratio: A−B-stale; A−B-retrain_r; C−A; C\*−A; E−A (15). Under S: A-recal−B-retrain_S; A-raw−A-recal; C\*−A-recal; E−A-recal (4). A_tuned and in-range ratios are descriptive |
@@ -298,7 +312,7 @@ irreversible effect; and preferences are stable relative to retraining.
 
 | Field | Specification |
 |---|---|
-| Population | HotpotQA distractor validation: CC-BY-SA-4.0, 7,405 hard questions [C, recheck]. Rounds read k ∈ {2, 4, 6} paragraphs and choose stop, expand or abstain. U = EM − λ·rounds/3 − μ·tokens/1000, **clipped to [−0.2, 1] at the design lock. Two utilities in an interval of width 1.2 differ by up to ±1.2, so the paired difference has range R = 2.4**; λ = 0.1 primary; μ fixed at the lock. **Estimand:** the superpopulation of questions the benchmark samples, not the enumerated 7,405; the exact finite-population Δ is reported beside every interval |
+| Population | HotpotQA distractor validation: CC-BY-SA-4.0, 7,405 hard questions [C, recheck]. Rounds read k ∈ {2, 4, 6} paragraphs and choose stop, expand or abstain. U = EM − λ·rounds/3 − μ·tokens/1000, **clipped to [−0.2, 1] at the design lock. Two utilities in an interval of width 1.2 differ by up to ±1.2, so the paired difference has range R = 2.4**; λ = 0.1 primary; μ fixed at the lock. **Estimand:** the superpopulation of questions the benchmark samples, not the enumerated 7,405; the exact finite-population Δ is reported beside every interval. **HotpotQA is public and the readers are pretrained, so the superpopulation reading carries the §2.4 item 4 contamination limit explicitly**; the finite-population Δ does not |
 | Identification | Full-information replay: every answer at every k, so X5b holds by construction |
 | Readers | Qwen3-1.7B and Qwen3-4B at pinned revisions, BF16, non-thinking, greedy. **Replay tables are generated once and frozen**, and every arm, resplit and P6 draw reads the same tables, so no claim depends on re-execution. The measured fact is a **59.8% per-prompt** batched-rerun identity rate [Rep]; the 0.0098 figure for a whole 9-call question is `0.598^9`, which assumes independence across calls **[H]**, not a measured joint law (Astra v4 F9, Fable v4 P2-8). M0's smoke test resubmitted the same prompt list and still disagreed, so a fixed input batch is not by itself a cure: the design lock records the batch-invariant setting used, and a 50-question check measures the realized rerun disagreement rate against a **pre-registered tolerance**, with a stated consequence (fall back to the frozen tables and report the rate) |
 | Arms | (i) implicit prompt; (ii) threshold on LLM answerability; (iii) threshold on dense similarity; (iv) composite; (v) constants; (vi) proxy-selected threshold; (vii) outcome-selected threshold |
@@ -641,13 +655,26 @@ keep-groups`. One base image, pinned by digest, loaded from a local `docker save
 host is needed. `/stage` partitions and `/stage/weights` mount read-only; `/work` binds a fresh
 per-run directory on a size-bounded filesystem. Each candidate gets its own container and `/work`.
 
-**Candidate code gets the GPU** (Astra v4 F4). v3 denied it, which contradicts the binding D-b
-("everything has to run on GPU… including candidate and hill-climb code") and would have made
-GPU-dependent candidates unreachable. A candidate container therefore receives the devices under
-the same admission control as a first-party run: its own declared GPU budget, the aggregate
-admission check below, `--network=none`, its own `/work`, and no writable mount shared with
-anything else. §4.6 records the cost: `/dev/kfd` widens the driver attack surface, and that
-surface is now exposed to candidate code, which the boundary does not claim to contain.
+**Candidate code runs on the GPU, but not by default on this host** (Astra v4 F4 and R3). v3
+denied candidates GPU devices, which contradicts the binding D-b ("everything has to run on
+GPU… including candidate and hill-climb code") and would have made GPU-dependent candidates
+unreachable. But a candidate's GPU allocation **cannot be bounded on tabputer-1**: the declared
+budget is a per-process allocator limit the candidate's own code can ignore, open a second
+instance around, or allocate outside, and the watchdog is detection after the fact. Serialization
+caps concurrency, not the sum. So:
+
+- **Default: candidate GPU work runs on Colab**, which is D-b's own fallback, with public code and
+  data only and no B1–B19 claim. That is where an unrestricted GPU candidate belongs.
+- **On tabputer-1 only if the allocation can actually be bounded.** M0b adds **B19**: verify
+  whether the `dmem` cgroup controller (present in the root cgroup, untested at M0) bounds amdgpu
+  GTT for a rootless container. If B19 passes, candidate containers get `/dev/kfd` and
+  `renderD128` under a `dmem` limit plus the aggregate admission check, `--network=none`, their
+  own `/work` and no shared writable mount. If B19 fails, candidates on this host stay
+  CPU-deviceless and their GPU work goes to Colab; the platform is fixed per experiment at its
+  analysis lock.
+
+§4.6 records the residual cost: where B19 passes, `/dev/kfd` exposes the driver's attack surface
+to candidate code, which the boundary does not claim to contain.
 
 **GPU budget and aggregate admission (mandatory).** GPU memory is **not charged to the container
 cgroup**: 24 GiB of bf16 tensors were held while `memory.current` stayed at 0.56 GiB [Rep, M0].
@@ -668,8 +695,10 @@ which nothing launches at all.
 
 **The declared budgets are allocator limits, not a GPU cgroup.** PyTorch's fraction bounds one
 process's caching allocator; vLLM's utilization bounds one instance and can be overridden by an
-explicit KV-cache size. Neither is adversary-resistant across processes. What stands behind them
-is the aggregate admission check, one run at a time, and the watchdog. §4.6 records this limit.
+explicit KV-cache size. Neither is adversary-resistant across processes. For **first-party** runs,
+whose code we wrote and review, the budget plus aggregate admission, one run at a time and the
+watchdog are adequate. For **candidate** code they are not, which is why candidate GPU work needs
+B19 or Colab. §4.6 records this limit.
 
 **The MemAvailable watchdog is real code**, not a note: the wrapper samples `/proc/meminfo` **every
 500 ms** (fast enough that a bounded first-party allocation burst is caught between samples, which
@@ -715,6 +744,8 @@ v4 adds three, all of which must pass before M3:
 | **B17** | **Disk exhaustion.** Write beyond the quota of the size-bounded filesystem carrying `/srv/aug/runs` and `/srv/aug/pred` | ENOSPC inside the container only; host free space and k3s are unaffected (Fable v3 P2-5) |
 | **B18** | **GPU budget, admission and burst.** (a) A run exceeding its declared GPU budget. (b) A launch attempt whose aggregate requirement exceeds MemAvailable, tested by **mocking the `/proc/meminfo` reading**, never by consuming host memory (Fable v4 P2-4). (c) A bounded first-party allocation burst toward a raised test floor, to measure kill latency against the 500 ms sampling cadence | (a) the allocator limit aborts the allocation. (b) admission refuses, naming the shortfall. (c) the watchdog kills the container before the reserve is crossed, and the measured latency is recorded. A failure here narrows the affected arm or moves it to Colab; the host is never deliberately driven to OOM |
 
+| **B19** | **Can a candidate's GPU allocation be bounded?** Apply a `dmem` cgroup limit to a rootless container and allocate past it, first-party. Measure whether amdgpu GTT is charged and capped | The allocation fails at the limit and host MemAvailable is unaffected. **If it does not, candidate GPU work moves to Colab** and candidates on this host get no devices (Astra v4 R3) |
+
 B10's criterion is corrected: inside a `--network=none` netns, host-IP connects fail at
 ENETUNREACH without incrementing host counters, so a non-incrementing counter is not a failure;
 only the with-networking sub-test must increment `augexp_drop` (Fable v3 P2-8). B14 runs against
@@ -748,7 +779,7 @@ at its analysis lock.
 
 | Run | Work | Basis | Wall-clock | GPU budget |
 |---|---|---|---|---|
-| Windows W1–W3 + B1–B18 | About 45 GB of downloads | Network-bound | 0.5–1 day, attended | — |
+| Windows W1–W3 + B1–B19 | About 45 GB of downloads | Network-bound | 0.5–1 day, attended | — |
 | E4a | 4.32M replications, 1.08e10 sampled losses, chunked | [H] 2e8–2e9 elements/s | 0.1–0.9 min, cap 1 GPU-h | 4 GiB (aggregate admission 34 GiB) |
 | E1 | Embed about 2.1M texts; fit arms; 38 intervals; 200 control redraws | MiniLM measured 2.1 s per 1,000 on GPU [Rep] | ≤ 2 h, cap 6 h | 2 GiB |
 | E3 | 133,290 calls (66,645 narrowed) | Measured vLLM 2,004 tok/s batched [Rep] | 1.2 GPU-h of decode plus prefill; the timing pilot governs; cap 24 GPU-h | 14 GiB |
@@ -765,7 +796,9 @@ the state is derived from the launch measurement.
 - No protection against tabputer-1's root, the maintainer's root-equivalent account, privileged or
   hostPath k3s workloads, kernel or GPU-driver exploits, or side channels.
 - `/dev/kfd` and `/dev/dri/renderD128` are mode 0666 host-wide, so `render` membership is not a
-  control; candidate code runs without devices anyway.
+  control. Candidate containers get the devices only if B19 shows the allocation can be bounded;
+  otherwise their GPU work goes to Colab (§4.2). Where they do get them, the driver's attack
+  surface is exposed to candidate code and the boundary does not claim to contain it.
 - New world-readable trees created later by other workloads are covered only when B4 and B5 are
   rerun.
 - The proxy binds SNI to the CONNECT host, but tunnel contents after the ClientHello are not
@@ -779,11 +812,11 @@ the state is derived from the launch measurement.
   reproduce labels having read no file here. B16(b) detects an embedded lookup table; nothing
   prevents memorization. The acceptance claims survive because the declared population is the
   benchmark, and external validity is limited accordingly (Astra v4 F2, Fable v4 P2-6).
-- **The GPU budgets are allocator limits, not a GPU cgroup**, and candidate code now holds GPU
-  devices, so the driver's attack surface is exposed to it. What bounds memory is the aggregate
-  admission check, one run at a time, and the watchdog.
+- **The GPU budgets are allocator limits, not a GPU cgroup.** They bound first-party code, which
+  we wrote and review. They do not bound candidate code, which is why candidate GPU work requires
+  B19's `dmem` result or Colab.
 - The Mac provides no isolation. Colab provides none of these claims.
-- "Sandbox" means exactly the mechanisms B1–B18 test, rerun after any system update.
+- "Sandbox" means exactly the mechanisms B1–B19 test, rerun after any system update.
 
 ## 5. Research automation
 
@@ -892,11 +925,11 @@ experiment-data window.
 | ID | Milestone | Depends | Effort | Exit criterion |
 |---|---|---|---|---|
 | M0 | Provisioning; containment; **window W1 (infrastructure only)**; §4.4 acceptance on synthetic texts; B1–B15 | — | **Done 2026-09-23** | `receipts/m0-tabputer-1-2026-09-23.md` |
-| M0b | B16–B18; the quarantine-and-split custody path; the MemAvailable watchdog; the GPU-budget wrapper | M0 | 1 | A dated receipt showing B16–B18 pass |
+| M0b | B16–B19; the quarantine-and-split custody path; the MemAvailable watchdog; the GPU-budget wrapper | M0 | 1 | A dated receipt showing B16–B19 pass |
 | M1 | Skeleton (`0.8.0-dev`, `.gitignore`); generalized `check_repo`; modes, methods, `loss_bound` and design check; ledger and provenance graph; overlap audit; climb ledger. **Small PRs, at most 500 changed lines and 15 files each** | M0 decisions | 4–5 | `make check` green, with the CONTRIBUTING numerical tests |
 | M2 | Design locks for E1, E3, E4 and M5, including each loss range R, each `true_delta`, and the PAW/A1/A2a arms; BANKING77 provenance check **from cards, papers and metadata only** — no dataset text or labels are read before the lock, and any check that would need rows moves after it with a prespecified abort rule (Fable v4 P2-2) | **M0 decisions only** | 1 | Hashed **before window W2 opens** |
 | M2b | Window W2: experiment datasets and M5 readers; B9/B10 re-run; receipt | M2, M0b | 0.5 | Dated window receipt, proxy closed |
-| M3 | E4a–c (E4d optional); T1 generator with fact–text binding | M1, M2b, B1–B18 | 2 | E4 criteria met |
+| M3 | E4a–c (E4d optional); T1 generator with fact–text binding | M1, M2b, B1–B19 | 2 | E4 criteria met |
 | M4 | E1, then E3, each with its analysis lock before confirmation | M3; §4.4 parity checks for E3 | 2 + 1–2 days of compute | Results against each lock, inconclusive rows included |
 | M5 | Trainer reproduction: R0, A1, A2a, A2b, R1, R2a, R2b vs R3a (R3b if parity passes) | M1, M3; Qwen3.5 and PAW parity | 3–4 | §3.3 rule applied, including inconclusive |
 | M6 | Author `augustus-train`; hand-off; scenarios; independent review; activation suite | M5 | 2–3 | Budgets pass; no unresolved severe flaw |
@@ -919,12 +952,12 @@ paper does not gate the release.
 | **Programs lose on fuzzy text and the ladder reads as a failure** | It is predicted in advance (§3.3) and reported as a placement result, not a defect |
 | An interval overclaims | EB carries the claim; normal-theory is `descriptive_only`; E4b includes the zero-discordance case |
 | Memory contention or an OOM killing other workloads | Container cap with `--memory-swap`; GPU budget; MemAvailable watchdog; one run at a time |
-| GPU nondeterminism (59.8% batched-rerun identity) | Batch-invariant mode or fixed batch composition wherever replay matters; the realized rate is reported |
+| GPU nondeterminism (59.8% per-prompt batched-rerun identity [Rep]) | **Frozen once-generated replay tables** that every arm, resplit and P6 draw reads, so no claim depends on re-execution. The batch-invariant setting is recorded at the lock, a 50-question check measures the realized rate against a pre-registered tolerance, and the joint whole-question figure stays **[H]** |
 | gfx1151 kernel gaps (Qwen3.5 FLA, PAW, VLM) | Parity checks before the arm; Colab fallback, never CPU |
-| A rolling CachyOS update mid-study | Versions in every receipt; updates held during windows; B1–B18 and §4.4 rerun after an update |
+| A rolling CachyOS update mid-study | Versions in every receipt; updates held during windows; B1–B19 and §4.4 rerun after an update |
 | A candidate reconstructs confirmation labels | Quarantine custody, label-free confirmation inputs, B16 |
 | A candidate fills the shared disk | Size-bounded run filesystem, B17 |
-| Isolation overclaimed | Claims limited to B1–B18; §4.6, including the memorization and allocator-limit non-claims |
+| Isolation overclaimed | Claims limited to B1–B19; §4.6, including the memorization and allocator-limit non-claims |
 | A GPU-holding candidate attacks the driver | Accepted and recorded as a non-claim; it is the price of D-b. One run at a time, no network, per-run `/work`, aggregate admission |
 | Underpowered results read as negatives | Powered-set rule with design-lock g; inconclusive rows; `/evidence/` shows it |
 | Mislabeled provenance | Declared-only limit; the `disputed` state; S7 |
@@ -970,7 +1003,7 @@ envelope (measured); the `.gitignore` vehicle.
 | 53 | `sources/clm-2026-09-23.md` | 2026-09-23 | Deep | R |
 | 54 | `sources/jev-omni-2026-09-23.md` | 2026-09-23 | Deep | R |
 | 55 | `sources/trainer-sweep-2026-09-23.md` (298 items) and `sources/trainer-sweep-multimodal-2026-09-23.md` (139 items) | 2026-09-23 | Synthesis | R |
-| 56 | `calc/calc_v4.py` (sha256 `4a2d2308…`) and `calc/calc_v4.out.txt` (sha256 `5d7e2644…`) | This lane | Executed | Rep (arithmetic; synthetic populations [H]) |
+| 56 | `calc/calc_v4.py` and `calc/calc_v4.out.txt`; current digests in `plan-v4-dispositions.md` | This lane | Executed | Rep (arithmetic; synthetic populations [H]) |
 
 v3 sources 43–48 carry over. v3's P1 percentages (+154% / +364%) are **withdrawn** and replaced by
 source 56's +95% / +216% / +553%. v3's normal-theory family CI is **superseded** by §2.4.

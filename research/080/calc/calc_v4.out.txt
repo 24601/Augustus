@@ -119,25 +119,54 @@
   measured vLLM batched output throughput: 2,004 tok/s (v3 assumed 800 tok/s decode, unbatched measured 15.1 tok/s)
     E3 full replay, 2 readers   : 133,290 calls x 64 output tok = 1.2 GPU-h of decode at the measured rate (cap 24 GPU-h)
     E3 full replay, 1.7B only   : 66,645 calls x 64 output tok = 0.6 GPU-h of decode at the measured rate (cap 24 GPU-h)
-  batched-rerun identity 59.8%: over 9 calls per question the chance that a whole question replays identically is 0.0098
-    -> replay-dependent arms need batch-invariant mode or a fixed batch composition.
+  MEASURED [Rep]: batched-rerun identity 59.8% PER PROMPT.
+  HYPOTHETICAL [H]: if the 9 calls of a question were independent with that marginal, a whole question would replay identically with probability 0.0098.
+    M0 measured neither the joint law nor a cure: its smoke test resubmitted the SAME
+    prompt list and still disagreed, so a fixed input batch is not an established fix.
+    v4's mechanism is therefore frozen once-generated replay tables that every arm,
+    resplit and P6 draw reads, with the batch-invariant setting recorded at the lock.
     GPU budget E1 MiniLM embed                   :   2.0 GiB = gpu_memory_utilization 0.016 of 124 GiB visible
     GPU budget E3 Qwen3-1.7B + 4B                :  14.0 GiB = gpu_memory_utilization 0.113 of 124 GiB visible
     GPU budget M5 R1 Qwen3.5-2B                  :   6.0 GiB = gpu_memory_utilization 0.048 of 124 GiB visible
     GPU budget M5 PAW-ft (compile-by-training)   :  38.0 GiB = gpu_memory_utilization 0.306 of 124 GiB visible
     GPU budget M5 SetFit / DeBERTa-v3-large      :  10.0 GiB = gpu_memory_utilization 0.081 of 124 GiB visible
   CPU cgroup stays --memory=16g --memory-swap=16g; GTT is NOT charged to it (B12, M0).
-  MemAvailable watchdog: launch floor 24 GiB, abort floor 6 GiB, sampled every 5 s by the wrapper.
+  Aggregate admission (Astra v4 F3): MemAvailable must cover
+    GPU budget + CPU cap + declared service memory + 8 GiB overhead + 6 GiB reserve.
+    E1 MiniLM embed           : 2 + 16 + 0 + 8 + 6 = 32 GiB free required
+    E3 readers                : 14 + 16 + 0 + 8 + 6 = 44 GiB free required
+    M5 PAW-ft + local teacher : 38 + 16 + 9 + 8 + 6 = 77 GiB free required
+  The 24 GiB figure survives only as an absolute floor below which nothing launches.
+  Watchdog cadence 500 ms. The allocator limits are per-process/per-instance and are NOT
+  an enforced aggregate bound, which is why unrestricted GPU candidates go to Colab
+  unless the dmem cgroup controller is shown to bound amdgpu GTT (test B19).
 
-== 7. Powered-set gap rule g (Fable v3 P2-3)
-  v4 fixes g per contrast type at the DESIGN lock, before any calibration read:
-    equivalence/non-inferiority: g = 0 (true Delta = 0 is the planning point)
-    superiority: g = the prespecified planning effect for that contrast type
-    E1 A vs B-stale          sigma=0.05 g=0.02 m=19: n_sup(EB) = 2,266
-    E3 explicit vs implicit  sigma=0.3 g=0.04 m=6: n_sup(EB) = 1,830
-    M5 R3a vs low rung       sigma=0.2 g=0.02 m=5: n_sup(EB) = 4,181
-  The analysis lock records sigma-hat and the resulting powered set; it never
-  re-chooses g, so the powered set has no post-calibration free parameter.
+== 7. Distance to the tested boundary (Fable v3 P2-3; Astra v4 F5B and R1)
+  Three quantities, never conflated. `true_delta` is the planning effect (negative is
+  better), `margin` is the tested boundary, and the SIGNED DISTANCE from the truth to
+  that boundary is what the power calculation uses:
+    non-inferiority  (UCB < +margin): distance = margin - true_delta
+    superiority      (UCB < -margin): distance = -margin - true_delta = |true_delta| - margin
+                                      for a candidate better by |true_delta|
+    equivalence at equality:          distance = margin on each side
+  v4's first pass wrote 'g = 0 for equivalence and non-inferiority', and then also called
+  the true effect g for superiority. Both are corrected here and in the plan.
+    E1 A vs B-stale (sup)            true_delta=-0.042 margin=0.02 -> distance +0.022; sigma=0.05 m/K=19 R=2.0: n = 2,034
+    E3 explicit vs implicit (sup)    true_delta=-0.040 margin=0.02 -> distance +0.020; sigma=0.3 m/K=6 R=2.4: n = 7,318
+    E3 narrowed, 1 reader (sup)      true_delta=-0.040 margin=0.02 -> distance +0.020; sigma=0.3 m/K=3 R=2.4: n = 6,592
+    M5 R3a vs low rung (sup)         true_delta=+0.020 margin=0.01 -> distance +0.010; sigma=0.2 m/K=6 R=2.0: n = 12,698
+    M5 low rung NI (ni)              true_delta=+0.000 margin=0.01 -> distance +0.010; sigma=0.2 m/K=6 R=2.0: n = 12,698
+    E3 equivalence (equiv)           true_delta=+0.000 margin=0.02 -> distance +0.020; sigma=0.25 m/K=6 R=2.4: n = 6,598
+  The analysis lock records sigma-hat and the resulting powered set; it never re-chooses
+  true_delta or the margin, so the powered set has no post-calibration free parameter.
+
+== 7b. Exact sigma-hat boundaries (Astra v4 R6): the powered rule is n(sigma-hat) <= available
+  The 0.01-grid figures quoted in prose are ROUNDED-DOWN illustrations, not the rule.
+    E3 equivalence, m=6, R=2.4, n=6,405: exact sigma-hat boundary 0.24368057 (prose says 0.24)
+    E3 equivalence, m=3, R=2.4, n=6,405: exact 0.26502213 (prose says 0.26)
+    M5 NI, K=6, R=2.0, n=60,000: exact 0.53538055 (prose says 0.53)
+  A contrast is powered iff its computed n at the observed sigma-hat fits the available n.
+  The prose figures never decide; the computation does.
 
 == 8. Hoeffding comparison (kept as the conservative default where it is powered)
   n=    6,000: Hoeffding radius (m=19, R=2) = 0.04702; EB at sd 0.05 = 0.00817
