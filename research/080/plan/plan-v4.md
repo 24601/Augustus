@@ -81,7 +81,9 @@ path that actually reaches run containers.
   a protocol for accepting changes to it. At least one executed, pre-registered falsifier (E1),
   reported whatever the result, inconclusive included.
 - **G2. Trainer.** `augustus-train`: a gated path from "don't train" to the cheapest **artifact
-  form** that meets the workload's own acceptance policy.
+  form** that meets the workload's own acceptance policy, **on whatever compute the agent actually
+  has**. The envelope is declared and recorded (§3.7); it decides which rungs are reachable and
+  never the gate, the splits, the margin or the confirmation discipline.
 - **G3. Tooling.** Confirmation modes and methods; a ledger with a provenance graph; a fail-closed
   overlap audit; a climb ledger; bibliography and claim gates.
 - **G4. Design.** A restrained typeset paper, and a project site whose explorables each test one
@@ -592,7 +594,59 @@ parents), `disputed` (a sourced, revision-bound allegation contradicts a declare
 | Open-weight generated labels with declared lineage | Passes; provenance recorded |
 | `allowed` without a digest | Rejected |
 
-### 3.7 Tests and scenarios
+### 3.7 The compute envelope is an input, not an assumption
+
+Every rung above is written as though the agent has tabputer's GPU. Most agents do not. The skill
+has to run the same procedure for an agent with a hosted API key and no accelerator, a laptop with
+8 GiB of VRAM, an ephemeral notebook, or a datacentre card, and it has to do that without quietly
+becoming a different experiment on each. So the envelope is **detected, declared and recorded**,
+and it changes which rungs are reachable — never the gate, the splits, the margin or the
+confirmation discipline.
+
+**What stays fixed across every envelope.** The acceptance policy (units, mode, margin, α, method,
+loss bound), the seeded split, the frozen-and-hashed artifact, the analysis lock before any
+confirmation read, and the climb ledger. A result obtained on a laptop and a result obtained on a
+cluster are comparable because these are identical; if an envelope cannot support one of them, the
+answer is that the rung is unreachable, not that the gate relaxes.
+
+**What the envelope decides.** Which artifact forms can be *fitted*, which can be *served*, and
+what the honest fallback is when neither.
+
+| Envelope | Fit | Serve | Reachable rungs |
+|---|---|---|---|
+| **E-cpu**: no accelerator | Exact and synthesized programs; linear heads on precomputed embeddings; PAW compile only if a hosted or cached compile is available | Everything up to R2; encoder inference is slow but bounded | A0, A1, R1 (cached), R2a, R2b |
+| **E-hosted**: API only, no local weights | Programs; heads on hosted embeddings; hosted decision models at inference | Hosted calls, with the per-call cost inside the acceptance budget | A0, A1, R1, R2a, plus a hosted decision model as R0's comparator |
+| **E-small**: one consumer GPU, under about 16 GiB | The above, plus a small encoder fine-tune and LoRA at short sequence lengths | Local encoder or small decoder | A0–A2, R1–R3a, R3b at reduced length, R4 at small rank |
+| **E-large**: a datacentre card or better | Everything the plan specifies | Everything | All |
+| **E-ephemeral**: a notebook that can vanish | Anything that checkpoints to durable storage between steps | Nothing durable; serving is elsewhere | Any, provided each step is resumable and every artifact is hashed on write |
+
+**Three rules that make this more than a table.**
+
+1. **Declare the envelope before G0, and record it in the receipt.** A recipe that does not say
+   what it ran on cannot be reproduced or contested. The envelope belongs beside the seed and the
+   revision, not in a footnote.
+2. **An unreachable rung is reported unreachable, never skipped silently.** If the ladder stops at
+   R2a because the envelope cannot fit R3a, the recipe says the comparator was not run and the
+   stop-at-a-low-rung conclusion is correspondingly weaker. Silently omitting the comparator would
+   turn "the cheap rung sufficed" into a statement about the hardware.
+3. **Cost is measured in the envelope's own units and converted once.** GPU-hours, hosted fees and
+   wall clock are not interchangeable, and the acceptance budget is stated in whichever unit the
+   agent is actually spending. A conversion needs a defensible exchange rate, which is exactly the
+   reason E3 fixes μ = 0 rather than pricing tokens into its utility.
+
+**E1 is the evidence that this is not a downgrade.** Its winning artifact is a plug-in threshold on
+a logistic head over MiniLM embeddings — R2a, which fits and serves in **E-cpu**. That head beat a
+stale 0.5 threshold by up to 0.0475 of normalized cost on 1.37M held-out rows, and the cost-
+conditioned rungs above it were *worse*, not better, at extreme ratios. The GPU bought throughput
+for the experiment, not the result. A trainer skill that can only operate where there is a
+datacentre card would have missed the finding it exists to deliver.
+
+**Where the envelope genuinely binds.** E1 also measured the limit: A is not non-inferior to
+retraining at 1:19, 1:49 or under prior shift, so an envelope that cannot retrain per ratio pays a
+real 2–4% of A's cost. That is the honest shape of the trade, and the recipe states it rather than
+implying the cheap path is free.
+
+### 3.8 Tests and scenarios
 
 Script tests cover the ledger; the fail-closed audit; the climb ledger; every mode, method and E4b
 fixture; §3.6; and a teacher-slice error that gold exposes. Behavioral scenarios run with the
