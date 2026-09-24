@@ -1022,23 +1022,24 @@ envelope (measured); the `.gitignore` vehicle.
 
 | # | Decision | Recommended default |
 |---|---|---|
-| 1 | Name and slug | "When the Model Is Not the Policy", subtitle naming the test and acceptance; slug `exogenous-policy` |
+| 1 | Name and slug | **DECIDED** (maintainer, 2026-09-24): "When the Model Is Not the Policy", subtitle naming the test and acceptance; slug `exogenous-policy`. ExoPO stays a description in the text, not a method name in the title, because E1 has not reported |
 | 2 | Type and venue | A position paper with executed E1, plus E3 and E4; Pages first |
 | 3 | E2 (CC BY-NC-SA) | Skip in 0.8.0 |
 | 4 | Packaging | A second skill in the augustus plugin, with the 10% switch rule |
 | 5 | Confirmation sampling | Equal-probability only in 0.8.0 |
 | 6 | Pre-registration custody | Design and analysis locks: hashes plus your dated note in `research/080/prereg/`, read-only copies under `augctl` |
-| 7 | Paper typography | STIX Two plus Geist; A/B against all-Geist at the start of M8 |
+| 7 | Paper typography | **DECIDED** (maintainer, 2026-09-24): STIX Two Text and Math for body and math, Geist for heads, tables and labels. The M8 A/B against all-Geist is run on **a math page and a table page only**, which is where it is decided |
 | 8 | **PAW arms** | Run A2a and A2b locally (local compiler, local teacher). Hosted compile stays unused unless the local path fails on gfx1151, and then only with public examples |
 | 9 | **Multimodal pilot in 0.8.0?** | **DECIDED: yes** (maintainer, 2026-09-24). M-R1 and M-R2 on one public image task plus one code-rendered task, after the M2 lock, under the blind-arm gate F1 and the per-type rule F4. It is a **pilot**: it can end at "not a media decision", and it does not gate the release |
 | 10 | **Container cap for a 4B VLM or an audio LoRA** | **DECIDED: no** (maintainer, 2026-09-24). The 16 GB CPU cgroup and declared GPU budgets stand, so audio stays at M-R2 and the VLM pilot stays at 2B |
 | 11 | **One backbone or two for text R1 and M-R1** | **DECIDED: two** (maintainer, 2026-09-24). Qwen3.5-2B for text R1, Qwen3-VL-2B for media, each with its own parity receipt. If the Qwen3.5 linear-attention parity check fails, Qwen3-1.7B becomes R1 and the media backbone is unaffected |
 | 12 | **Hosted non-Jev teachers** | **DECIDED: pass them through with provenance recorded, no gate** (maintainer, 2026-09-24, option C). Only TypeSafe's terms are encoded, because D-d requires it; no other provider's terms are read or asserted. **Accepted consequence, recorded rather than hidden:** the provenance gate now fires on exactly two things — a Jev-generated training corpus (refused by default, user-overridable) and missing or disputed lineage. It is not a general terms checker, and the skill must not present it as one |
 | 13 | **The `/v1/systemone` wire format** | **DECIDED: emit it when the user asks for a drop-in** (maintainer, 2026-09-24), because refusing a shape 210 sweep items already use is precious. **But the semantics do not travel with the shape**, so an emitted response must declare its `confidence` convention, its calibration status and the precision it was calibrated at (§3.5). Evidence: three conventions already ship under one field name — TypeSafe Jev and CLM use top probability minus the mean of the others, Jev-Omni uses top probability [R], and several sweep items use an entropy-derived number, which the climb ledger rejects outright. CLM's is uncalibrated by construction, since InfoNCE fits retrieval rank and not class posteriors [R]. A client swapping backends therefore gets a working HTTP call and a silently different number driving its threshold |
-| 14 | Activation spend | At most $10 per release candidate |
+| 14 | Activation spend | **DECIDED: at most $20 per release candidate** (maintainer, 2026-09-24), still per RC rather than per PR. A run that would exceed it stops at `paused_budget` and reports what it did not cover, rather than silently sampling less |
 | 15 | Scoop timebox | Reframe, don't restart; decide by 2026-11-15 |
 | 16 | Site placement | Standalone layout under `docs/exogenous-policy/`; the PDF in the sitemap |
 | 17 | Paper gates the release? | No |
+| 18b | **A paid Colab tier?** | **Not yet, and not speculatively.** The maintainer has offered one. Nothing currently queued needs it: first-party experiments, the PAW-ft 38 GiB job and the M5b multimodal pilot all stay on tabputer-1, and the Colab lane carries only candidate and hill-climb code, which is small heads and programs. Decide at M5's timing pilot, which is the first measurement of climb rounds and per-round wall clock. **Buy a paid tier when any of these is observed, not before:** a climb round is cut off by a session limit, background execution is needed to finish a bounded round, or a candidate genuinely needs more device memory than the free tier allocates. Until then the free tier is the assumption, and a Colab run that cannot finish is recorded as `paused_budget`, never as a result |
 | 18 | Colab | **DECIDED: Colab-first for candidate and hill-climb GPU work** (maintainer, 2026-09-24: "colab first is fine, honestly… everything is cuda anyway"). Public data and code only. B19's `dmem` result is then an optimization, not a prerequisite: if it passes, local candidate runs become available; if it fails, nothing is blocked. First-party experiment runs stay on tabputer-1 |
 
 ## Sources (delta from v3)
