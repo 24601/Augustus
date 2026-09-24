@@ -228,15 +228,15 @@ irreversible effect; and preferences are stable relative to retraining.
 
 | # | Claim | Evidence now | Upgraded by |
 |---|---|---|---|
-| P1 | A stale 0.5 threshold regrets heavily under cost shift: **+95% at 1:9, +216% at 1:19, +553% at 1:49** on the v3/v4 synthetic calibrated population | [Rep, calc §2]. v3's "+154% / +364%" came from an earlier population and is withdrawn (Fable v3 P2-10) | E1: A vs B-stale |
-| P2 | A fixed-cost head loses off its ratio; retraining per ratio and cost-conditioned heads are measured, not assumed | [H] | E1: B-retrain, C, C\*, E |
+| P1 | A stale 0.5 threshold regrets heavily under cost shift: **+95% at 1:9, +216% at 1:19, +553% at 1:49** on the v3/v4 synthetic calibrated population | **[Rep] upgraded to measured, E1 2026-09-24**: A beats B-stale on every powered held-out ratio, Δ = −0.0034 (4:1), −0.0343 (1:19), −0.0475 (1:49) on CivilComments and −0.0155 / −0.0227 at 1:19 / 1:49 on CLINC, each interval wholly below −margin. The synthetic percentages are not reproduced as percentages and are not claimed | E1: A vs B-stale, **done** |
+| P2 | A fixed-cost head loses off its ratio; retraining per ratio and cost-conditioned heads are measured, not assumed | **[Rep] measured by E1, 2026-09-24**, and the measurement is unflattering to the plug-in: retraining per ratio beats A at 1:19 and 1:49 by more than the 2% margin, and the cost-conditioned heads C and C\* are far worse than A at extreme ratios, diverging by up to 0.063 at 1:49. Exactly one powered equivalence row holds, 1:19 E − A | E1: B-retrain, C, C\*, E, **done** |
 | P3 | Authority is a pre-effect contract | [C]; CapScope and the verifier tax [R]; RAP's report-only hooks as the counter-case [Rep] | Cited |
 | P4 | Exogenous deferral adapts more cheaply after a handler change | [H] | E2 (optional) |
 | P5 | Episode-level selection beats proxy selection | [H]; GEPA p = 0.29 [R] | E3 |
 | P6 | Untouched incumbent–challenger lowers false adoption | [Rep sim] −1.8 vs −0.26 pp | E3, E4a |
 | P7 | Learn utilities, not policies | [H], discussion only | — |
 | P8 | Well-designed research loops keep acceptance exogenous | [C], motivation | E4 |
-| P9 | Under prior shift, recalibrate-and-rethreshold is non-inferior to retraining at equal labels | [H] | E1-S |
+| P9 | Under prior shift, recalibrate-and-rethreshold recovers most of the loss, and is **not** non-inferior to retraining | **[Rep] REVISED BY E1, 2026-09-24.** The recovery half holds and is large: A-recal beats A-raw by 0.0226 on CivilComments, 42% of the shift penalty, from 200 labels with the slope frozen. The non-inferiority half is **refuted** at the pre-registered 2% margin: A-recal − B-retrain_S = +0.0024, interval [+0.0022, +0.0027], against a margin of 0.0011, where B-retrain_S is handed the exact target prior. The claim as written in v4 is withdrawn | E1-S, **done** |
 | P10 | The cheapest adequate **artifact form**, not the largest model, meets a bounded decision's policy | [Rep, arithmetic recomputed from RAP's frozen prediction files]: on RAP's **external** set of 160 author-constructed contrastive cases, bespoke lexical code reaches 0.993 rule-macro-F1; on its **controlled** set of 192 synthetic cases, the same code recalls only 0.771 and reaches 0.863 rule-macro-F1, where fine-tuned PAW reaches 1.000 recall and 0.961 rule-macro-F1. All of these cases are synthetic with labels fixed by construction, so they establish artifact-form ordering **on those cases only** | M5 (§3.3) |
 | P11 | Programs lose on fuzzy real text | **[H]**, stated in advance so the M5 result is not read as a defect. RAP's synthetic contrast pairs cannot establish it (Astra v4 F10) | M5's T2a–c |
 
