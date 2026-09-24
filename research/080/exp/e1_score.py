@@ -29,7 +29,9 @@ from statistics import NormalDist
 ALPHA = 0.05
 M_FAMILY = 19
 RATIOS = {"4:1": (4, 1), "1:1": (1, 1), "1:4": (1, 4),
-          "1:9": (1, 9), "1:19": (1, 19), "1:49": (1, 49)}
+          "1:9": (1, 9), "1:19": (1, 19), "1:49": (1, 49),
+          # The prior-shift rows are evaluated at the S cost, which the design lock sets to 1:9.
+          "S": (1, 9)}
 
 
 def tail_level(m: int, alpha: float = ALPHA) -> float:
@@ -135,12 +137,19 @@ def score(predictions: dict, labels: dict, contrasts, analysis_lock: str,
         margin = contrast["margin"]
         claims = read_claims(interval, margin)
         needed = required_n_equivalence(interval["sd"], margin, M_FAMILY, span)
-        powered = needed is not None and needed <= interval["n"]
+        # Power is prespecified in the analysis lock, from calibration sigma-hat and the
+        # registered mode. Recomputing it here from confirmation data would let the scored data
+        # decide which claims count, which is the thing the two-lock scheme exists to prevent.
+        # The realized figure above is reported beside it as description, never as the gate.
+        if "powered" not in contrast:
+            raise ValueError(f"{name}: no prespecified `powered` from the analysis lock; "
+                             "refusing to decide power from the data being scored")
+        powered = bool(contrast["powered"])
         results.append({
             "contrast": name, "ratio": ratio, "arms": [left, right],
             "mode": contrast["mode"], "span": span,
             "interval": interval, "claims": claims,
-            "required_n_for_equivalence": needed,
+            "required_n_for_equivalence_realized": needed,
             "powered": powered,
             "counts_toward_an_outcome_row": powered,
             "finite_population_delta": interval["mean"],
@@ -159,6 +168,7 @@ def score(predictions: dict, labels: dict, contrasts, analysis_lock: str,
             "Coverage needs independent units of the declared sampling unit. Equal inclusion probability alone does not give that.",
             "required_n is a normal/fixed-SD planning approximation; the interval itself is distribution-free.",
             "An unpowered contrast counts toward no outcome row in either direction, and its interval is still reported.",
+            "`powered` comes from the analysis lock, fixed before confirmation was read. The realized required_n beside it is description, not the gate.",
             "The exact finite-population delta is reported beside every interval, so an enumerated quantity is never described only as unpowered.",
         ],
     }
@@ -172,7 +182,8 @@ def main(argv=None) -> int:
     parser.add_argument("--labels", type=Path, required=True,
                         help="JSON: [{id, label}] as written by the partitioner")
     parser.add_argument("--contrasts", type=Path, required=True,
-                        help="JSON list of {name, ratio, arms, mode, margin}")
+                        help="JSON list of {name, ratio, arms, mode, margin, powered}, "
+                             "taken from the analysis lock")
     parser.add_argument("--analysis-lock", required=True,
                         help="sha256 of the analysis lock this run claims to be under")
     parser.add_argument("--recorded-lock", required=True,
