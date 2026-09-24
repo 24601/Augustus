@@ -72,7 +72,12 @@ def min_n(power_fn, lo=50, hi=200_000_000):
 
 
 def n_equiv_eb(sigma, margin, m, rng):
-    """Smallest n giving 80% power to certify |Delta| < margin at true Delta=0."""
+    """Smallest n giving 80% power to certify |Delta| < margin at true Delta=0.
+
+    Two-sided equivalence: BOTH endpoints must lie inside the margin. Use this
+    only where the registered claim is equivalence (E1's C*~A rows, E3's
+    equivalence rows). Non-inferiority is one-sided; see n_ni_eb.
+    """
     d = tail_level(m)
 
     def power(n):
@@ -84,9 +89,33 @@ def n_equiv_eb(sigma, margin, m, rng):
     return min_n(power)
 
 
+def n_ni_eb(sigma, margin, m, rng, true_delta=0.0):
+    """Smallest n for 80% power on the ONE-SIDED non-inferiority event
+    UCB(Delta) < +margin, at the stated true_delta (default equality).
+
+    Astra v4 F5A: v4 originally used the two-sided equivalence event for M5's
+    declared NI rule. That is conservative for false positives but wrong for
+    the registered selection rule, because it calls powered tasks unpowered.
+    """
+    d = tail_level(m)
+
+    def power(n):
+        rad = eb_radius(sigma, n, d, rng)
+        slack = margin - true_delta - rad
+        if slack <= 0:
+            return 0.0
+        return Phi(slack * sqrt(n) / sigma)
+
+    return min_n(power)
+
+
 def n_super_eb(sigma, gap, m, rng):
-    """Smallest n giving 80% power to certify superiority when the true effect
-    exceeds the margin by `gap`."""
+    """Smallest n for 80% power to certify superiority, where `gap` is the
+    distance from the TRUE effect to the test boundary:
+
+        gap = |true_delta| - margin        (Astra v4 F5B)
+
+    `gap` is never the true effect itself. Callers compute it explicitly."""
     d = tail_level(m)
 
     def power(n):
@@ -239,6 +268,7 @@ for name, (fp, fn) in RATIOS.items():
     muA = sum(cA) / N_SYN
     delta = 0.02 * muA
     mAB, sAB = stats([a - b for a, b in zip(cA, cB)])
+    # gap = |true effect| - superiority margin (delta_r), never the effect itself
     gap = abs(mAB) - delta
     nsup = n_super_eb(sAB, gap, M_E1, rng_r) if gap > 0 else None
     row = (f"  {name:5s} {rng_r:.2f}  {muA:.4f}  {delta:.5f} |"
@@ -264,17 +294,33 @@ print(f"  Powered iff the planning n fits {N_CONF_CIVIL:,} (CivilComments) or"
       f" {N_CONF_CLINC:,} (CLINC). sigma-hat at the analysis lock decides; this is planning only.")
 
 # ---------------------------------------------------------------------------
-section("3. E3 under EB: margin 0.02 utility, utility clipped to [-0.2, 1] so R=1.2")
-R_E3 = 1.2
+section("3. E3 under EB: margin 0.02 utility; utility clipped to [-0.2, 1], so the PAIRED"
+        " DIFFERENCE range is R = 2.4")
+# Astra v4 F1 / Fable v4 P1-A: v4 first declared R = 1.2, the range of ONE utility.
+# Two utilities in an interval of width w differ by up to +/- w, so R = 2w = 2.4.
+R_E3 = 2.4
+N_E3_CONF = 6_405
 for m in (6, 3):
-    for s in (0.25, 0.30, 0.35, 0.40):
-        n = n_equiv_eb(s, 0.02, m, R_E3)
-        print(f"  m={m} sigma={s:.2f}: n_equiv(EB) = "
-              f"{'infeasible' if n is None else format(n, ',')}")
-    print(f"  m={m}: n_super(EB) at a true 0.04 gain beyond 0 = "
-          f"{format(n_super_eb(0.30, 0.04, m, R_E3), ',')}")
+    for s_ in (0.20, 0.25, 0.30, 0.35):
+        n = n_equiv_eb(s_, 0.02, m, R_E3)
+        fits = "" if n is None else ("  fits 6,405" if n <= N_E3_CONF else "  EXCEEDS 6,405")
+        print(f"  m={m} sigma={s_:.2f}: n_equiv(EB) = "
+              f"{'infeasible' if n is None else format(n, ',')}{fits}")
+    hi = None
+    for i in range(10, 45):
+        n = n_equiv_eb(i / 100, 0.02, m, R_E3)
+        if n is not None and n <= N_E3_CONF:
+            hi = i / 100
+    print(f"  m={m}: equivalence rows are powered at n={N_E3_CONF:,} only if sigma-hat <= {hi}")
+    # superiority: gap = |true effect| - margin
+    for true_delta in (0.04, 0.06):
+        gap = true_delta - 0.02
+        print(f"    m={m} true gain {true_delta}: gap = {gap:.2f} beyond the 0.02 margin ->"
+              f" n_super(EB) = {format(n_super_eb(0.30, gap, m, R_E3), ',')} at sigma 0.30")
+print("  (v4's first pass printed 'n_super at a true 0.04 gain' while passing 0.04 as the gap,")
+print("   which is a true gain of 0.06. Astra v4 F5B.)")
 print("  HotpotQA distractor validation has 7,405 questions; v4 reserves 1,000 for search,")
-print(f"  leaving {7405-1000:,} for confirmation. P6 needs full replay (Astra v3 finding 4):")
+print(f"  leaving {N_E3_CONF:,} for confirmation. P6 needs full replay (Astra v3 finding 4):")
 for label, nq, readers in (("full replay, 2 readers", 7_405, 2),
                            ("full replay, 1.7B only", 7_405, 1)):
     print(f"    {label:28s}: {nq*readers*9:,} calls")
@@ -285,21 +331,44 @@ print(f"    search set never touched: {6405*2*9:,} of those calls (2 readers),"
       f" {6405*9:,} under the 1.7B-only narrowing.")
 
 # ---------------------------------------------------------------------------
-section("4. M5 under EB, non-inferiority margin +0.01, normalized cost in [0,1] so R=2")
+section("4. M5 under EB: ONE-SIDED non-inferiority at +0.01, normalized cost in [0,1] so R=2")
+# Astra v4 F5A (one-sided NI, not equivalence) and F6 / Fable v4 P2-7 (A2a belongs in
+# the confirmatory family, so K = 6, not 5).
 R_M5 = 2.0
-for K in (3, 5):
-    for s in (0.10, 0.20, 0.30):
-        n = n_equiv_eb(s, 0.01, K, R_M5)
-        print(f"  K={K} sigma={s:.2f}: n(EB, one-sided-equivalent via two-sided) = "
-              f"{'infeasible' if n is None else format(n, ',')}")
-    for avail, nm in ((6_000, "T2a BANKING77"), (12_850, "T2b CLINC150"), (60_000, "T2c CivilComments")):
-        best_s = None
-        for i in range(5, 80):
-            if (n_equiv_eb(i / 100, 0.01, K, R_M5) or 10 ** 12) <= avail:
-                best_s = i / 100
-        print(f"    K={K} {nm} at n={avail:,}: powered up to sigma "
-              f"{best_s if best_s else 'none'}")
-print("  K=5 is the v4 low-rung set: R1, R2a, R2b, PAW-ft, synthesized program.")
+M5_MARGIN = 0.01
+for K in (5, 6):
+    for s_ in (0.10, 0.20, 0.30):
+        n_ni = n_ni_eb(s_, M5_MARGIN, K, R_M5)
+        n_eq = n_equiv_eb(s_, M5_MARGIN, K, R_M5)
+        print(f"  K={K} sigma={s_:.2f}: n_NI(one-sided) = {format(n_ni, ',')}"
+              f"   [v4's first pass used the two-sided equivalence event: {format(n_eq, ',')}]")
+    for avail, nm in ((6_000, "T2a BANKING77"), (12_850, "T2b CLINC150"),
+                      (40_000, "T2c 40k"), (60_000, "T2c 60k")):
+        best = None
+        for i in range(5, 90):
+            if n_ni_eb(i / 100, M5_MARGIN, K, R_M5) <= avail:
+                best = i / 100
+        print(f"    K={K} {nm} at n={avail:,}: powered up to sigma {best if best else 'none'}")
+print("  K=6 is the v4 low-rung family: R1, R2a, R2b, A1, A2a (PAW-standard), A2b (PAW-ft).")
+print("  Escalation uses the matching one-sided LCB at the same tail level.")
+print("  Superiority of R3a over a low rung, margin 0.01:")
+for true_delta in (0.02, 0.03):
+    gap = true_delta - M5_MARGIN
+    print(f"    true gain {true_delta} -> gap {gap:.2f}: n_super(EB, K=6, sigma 0.20) ="
+          f" {format(n_super_eb(0.20, gap, 6, R_M5), ',')}")
+
+section("4b. Scenario S12 (Astra v4 F8): planning n vs an OBSERVED certification")
+for sd in (0.10, 0.02):
+    n_req = n_ni_eb(sd, M5_MARGIN, 3, R_M5)
+    rad = eb_radius(sd, 3_000, tail_level(3), R_M5)
+    print(f"  K=3, n=3,000, sd {sd:.2f}: EB radius {rad:.6f}; planning n for 80% NI power"
+          f" at equality = {format(n_req, ',')}")
+    for observed_mean in (0.0, 0.005):
+        ucb = observed_mean + rad
+        print(f"    observed mean {observed_mean:+.3f} -> UCB {ucb:.6f} ->"
+              f" {'NI certified' if ucb < M5_MARGIN else 'not certified'}")
+print("  So S12 must state the OBSERVED mean, not only n and sd: at sd 0.02 a mean of 0 certifies")
+print("  and a mean of +0.005 does not, on identical n and sd.")
 
 # ---------------------------------------------------------------------------
 section("5. E4a on the GPU (errata D-b): cells, replications, qualification cutoff")
@@ -328,6 +397,18 @@ for rate in (2e9, 2e8):
           f" {elems/rate/60:.1f} min")
 print("    v3's stdlib CPU path was 9.0 CPU-h. v4 caps E4a at 1 GPU-h wall clock;")
 print("    exceeding it is a prespecified narrowing to n in {300, 1,000} only.")
+section("5b. E4a positive-control expected rates per cell class (Astra v4 F11 / Fable v4 P2-1)")
+print("  'radius removed -> every cell at size 0.50' is false for skewed and multi-finalist cells:")
+p_rare = (1 - 0.0001) ** 300
+print(f"    rare-large, mean-zero difference at n=300, strict acceptance below 0:"
+      f" adoption = P(no rare event) = {p_rare:.6f}, not 0.50")
+print(f"    a symmetric continuous cell at K=5, any-of-five adoption, independent finalists:"
+      f" {1 - 0.5 ** 5:.5f}, not 0.50")
+print("    sign_exact has no radius to remove, so the mutation does not apply; it needs its own")
+print("    mutation (for example, dropping the discordant-pair restriction).")
+print("  Each detecting cell therefore pre-registers its own expected rate, with the loss")
+print("  distribution, the margin and the assumed joint dependence stated.")
+
 print("  sign_exact cells stay exact-rational on the CPU: their qualification rests on the")
 print("  exact binomial above, not on sampling. That is the one recorded CPU step (D-b).")
 

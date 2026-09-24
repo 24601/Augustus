@@ -131,3 +131,53 @@ where a card recomputed them from frozen prediction files.
 | M0b as a milestone | §7 | B16–B18 and the custody path are work, not paperwork, and M3 depends on them |
 | S16 and S17 scenarios | §3.7 | The artifact-form ladder and the detection/prevention boundary need behavioral tests, not only prose |
 | Discovery lanes gain wire-format code search | §5 | Both sweeps missed CLM because its metadata was empty |
+
+---
+
+# v4 review dispositions (2026-09-24)
+
+Both v4 reviews were run on plan sha256 `6102f850…`, HEAD `58be8b4`. `plan-v4.md` was then
+revised in place to answer them; the arithmetic was recomputed (`calc_v4.py` sha256 `2aedbbb2…`,
+output `1c281850…`).
+
+**Reviewer identity, requested versus observed.**
+
+| Review | Requested | Observed |
+|---|---|---|
+| `reviews/astra-max-v4.md` | `gpt-6-astra-max` | **None.** The reviewer reports "You are an AI assistant accessed via an API" and states plainly that it cannot certify Astra or a max effort. No identity is claimed on its behalf |
+| `reviews/fable-5.1-xhigh-v4.md` | `claude-fable-5-xhigh` | "You are claude-fable-5-xhigh, a custom agent running in Amp". The effort marker appears only inside the agent name; no separate numeric value was visible, unlike the v3 session |
+
+Both verified HEAD, the plan hash, and that `calc_v4.py` reproduces its saved output byte for
+byte, and each wrote its own independent stdlib script. Neither performed a host operation.
+
+**Verdicts.** Astra: NOT ACCEPTED, 0 P0, 6 P1, 5 P2. Fable: NOT ACCEPTED, 0 P0, 2 P1, 8 P2. The
+two P1 sets overlap on E3's loss range. **13 distinct findings; none rejected.**
+
+| ID | Sev | Finding | Disposition | Where in the revised v4 |
+|---|---|---|---|---|
+| Astra F1 = Fable P1-A | P1 | E3 declared R = 1.2, the range of **one** utility, while §2.4 defines R as the range of the **paired difference**. Two utilities in an interval of width 1.2 differ by up to ±1.2, so R = 2.4. The bias term was half its valid size, the interval was anticonservative, and every E3 planning number was wrong | **Accepted** | §2.7 E3 population row states R = 2.4 and why. Recomputed: equivalence needs 6,598 (σ = 0.25) and 8,271 (σ = 0.30) at m = 6, so the rows are powered only if σ̂ ≤ 0.24, and at m = 3 only if σ̂ ≤ 0.26 — not the "about 0.29" v4 claimed. The narrowing row now fires on σ̂, and the margin and the population are unchanged. Both reviewers' tables reproduce exactly |
+| Astra F5A | P1 | M5 declares one-sided non-inferiority but the arithmetic used the **two-sided equivalence** event, which is conservative for false positives yet misclassifies powered tasks: T2b at σ = 0.20 is powered for the declared test and v4 called it unpowered | **Accepted** | `calc_v4.py` gains `n_ni_eb`, the one-sided event. K = 6 needs 6,354 / 12,698 / 22,467 at σ = 0.10 / 0.20 / 0.30. §2.7 now says the power event must match the registered claim, and §3.3 carries the new n and σ̂ thresholds (T2a 0.09, T2b 0.20, T2c 0.53) |
+| Astra F5B | P1 | `g` was used both as the true effect and as the distance beyond the margin. E3's "true 0.04 gain" was passed as a gap of 0.04, which is really a true gain of 0.06 | **Accepted** | `true_delta`, `margin` and `gap = |true_delta| − margin` are separate named quantities in §2.7 and in the script. E3's true 0.04 gain needs 7,318 (m = 6) or 6,592 (m = 3) at σ = 0.30, not 1,830 |
+| Astra F6 = Fable P2-7 | P1 | A2a (PAW-standard) is a tested arm but sat outside the K = 5 family, so M5 could escalate past an artifact form that met the same gate, and no error-controlled claim attached to A2a | **Accepted** | §3.3 puts A2a inside the confirmatory family: **K = 6**, fixed at the design lock. R0 is named as a G0 exit, not a family member. "Powered" is defined per contrast, so an outcome row quantified over tasks means powered for that row's own contrast |
+| Astra F3 = Fable P2-4 (part) | P1 | A fixed 24 GiB launch floor admits a 38 GiB GPU budget plus a 16 GiB CPU cap on a UMA host; the declared budgets are per-process allocator limits, not a GPU cgroup; and a 5 s watchdog cadence cannot catch a burst | **Accepted** | §4.2 replaces the floor with an **aggregate admission rule**: MemAvailable ≥ GPU budget + CPU cap + declared service memory + 8 GiB overhead + the 6 GiB reserve, so PAW-ft needs 68 GiB free. The watchdog samples every **500 ms**. §4.6 records that allocator limits are not a GPU cgroup. B18 gains a mocked low-memory launch test and a bounded first-party burst that measures kill latency; the host is never deliberately driven to OOM |
+| Astra F4 | P1 | Denying candidate code GPU devices contradicts binding decision D-b and makes GPU-dependent candidates unreachable | **Accepted** | §4.2: candidate containers get the devices under the same admission control, budget, `--network=none` and per-run `/work`. §4.6 records the cost — the driver's attack surface is now exposed to candidate code, and the boundary does not claim to contain it |
+| Fable P1-B | P1 | The custody path published data partitions "and nothing else", so **no model weight could reach a run container**; every GPU run was unreachable, and the obvious shortcut (a shared HF cache) reopened Astra v3 finding 1 | **Accepted** | §4.2 splits acquisition into `/srv/aug/quarantine/data` and `/srv/aug/quarantine/weights`. `augctl` verifies weights against the acquisition manifest and publishes `/srv/aug/stage/weights/`, root-owned and read-only, which runs mount. **B16 searches both trees** |
+| Astra F2 | P1 | B16 tested current local files, not the whole proposer-to-artifact path: a proposer holding the public labeled corpus can embed a text-hash → label table in a frozen artifact, needing no file or network at confirmation. A private canary cannot detect that. Re-owning a pathname also does not revoke bytes already copied or descriptors already open | **Accepted, with the claim narrowed** | B16 gains part (b): a first-party adversary proposer embeds exactly that lookup table, and the **overlap audit must detect it** before scoring. The plan does not claim prevention. Window close is specified as a teardown: no `augexp` acquisition process survives it, and the receipt records that. §4.6 adds the non-claim that filesystem custody cannot make public benchmark labels secret, since a model rung's pretraining reaches them anyway |
+| Fable P2-6 | P2 | Pretraining memorization of public benchmarks is an unclosable label-recovery route and needs an explicit non-claim | **Accepted (with Astra F2)** | The same §4.6 non-claim, with external validity limited accordingly |
+| Astra F7 | P2 | Equal inclusion probability is not the theorem's assumption. Sampling one of two clusters uniformly gives equal inclusion probability, zero sample variance and zero coverage | **Accepted** | §2.4 adds the sampling assumption: the design lock names the **independent unit**, clustered or weighted designs are aggregated to it or refused, and power is computed from the same unit |
+| Astra F8 | P2 | S12b prescribed certification from n and σ̂ alone; at the same n and sd, an observed mean of +0.005 fails. And 3,000 rows give about 0.76 NI power at sd 0.02, below the powered-set rule | **Accepted** | §3.7 now has S12a (mean 0.000, sd 0.10 → not certified, required n 5,691), S12b (sd 0.02 → certified, radius 0.009737) and **S12c** (same n and sd, mean +0.005 → not certified). `calc_v4.py` §4b separates planning from observed certification |
+| Astra F9 = Fable P2-8 | P2 | `0.598^9 = 0.0098` assumes independence across calls; M0 measured neither the joint law nor a cure, and the determinism check had no threshold or consequence | **Accepted** | §2.7 E3 labels the 59.8% per-prompt rate [Rep] and the 0.0098 figure **[H]**, and makes **frozen once-generated replay tables** the mechanism every arm, resplit and P6 draw reads. The 50-question check gets a pre-registered tolerance and a stated consequence |
+| Astra F10 | P2 | P10 called 0.961 a recall figure (it is rule-macro-F1; PAW-ft's controlled recall is 1.000), mixed slices, and let synthetic contrast pairs carry a real-text conclusion | **Accepted** | P10 is restated with metric, slice and synthetic provenance on every number, scoped to those cases. "Programs lose on fuzzy real text" becomes **P11, labeled [H]**, pending M5 |
+| Astra F11 = Fable P2-1 | P2 | E4a's "radius removed → every cell, size 0.50" is false for skewed and multi-finalist cells, and `sign_exact` has no radius to remove | **Accepted** | §2.7 E4a pre-registers each detecting cell's own expected rate with its distribution, margin and assumed dependence: 0.970444 for the rare-large cell at n = 300, 0.96875 for the K = 5 any-of-five event, and a separate mutation for `sign_exact` [Rep calc §5b] |
+| Fable P2-2 | P2 | M2's BANKING77 provenance check and the dataset-size recheck might read dataset text before the lock is hashed | **Accepted** | The M2 row restricts those checks to cards, papers and metadata; anything needing rows moves after the lock with a prespecified abort rule |
+| Fable P2-3 | P2 | E1's and E3's inferential population was unstated, so an enumerated quantity could be reported only as "unpowered" | **Accepted** | Both experiments name the superpopulation estimand and its independent unit, and report the exact finite-population Δ beside every interval |
+| Fable P2-5 | P2 | The plan pointed at an author-identity record that did not exist | **Accepted** | The provenance row now states that no identity was observable to the author lane, rather than pointing elsewhere |
+
+**What both reviewers confirmed, so the fixes do not over-correct.** The EB formula and its
+two-tail Bonferroni composition are correct for fixed policies, prespecified bounds and
+independent confirmation units; independence *between contrasts* is not required. Reading
+superiority, non-inferiority and equivalence from that one simultaneous interval needs no extra
+penalty. E1's per-ratio `R_r` and M5's R = 2 are safe bounds. The v3 rare-large counterexample is
+genuinely repaired. M5's intersection-union argument is valid for its conjunctive claim. The
+download ordering is repaired. Both independently reproduced the rare-event probabilities, the
+Clopper–Pearson cutoff, and the E1 regret figures.

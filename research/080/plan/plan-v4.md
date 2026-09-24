@@ -14,9 +14,10 @@ receipt, and the five research cards. Findings are dispositioned in `plan-v4-dis
 
 | Item | Record |
 |---|---|
-| Author | Revision lane, 2026-09-24. Requested routing: none stated to this lane. Observed identity recorded in the dispositions |
+| Author | Revision lane, 2026-09-24. Requested routing: none stated to this lane. Observed identity: not exposed to this lane; it states that rather than claiming one (Fable v4 P2-5) |
 | Fable v3 review | `reviews/fable-5.1-xhigh-v3.md`. Requested `claude-fable-5-1` at xhigh; observed "Fable 5.1" with `<reasoning_effort>80</reasoning_effort>`. NOT ACCEPTED: 0 P0, 1 P1, 10 P2 |
 | Astra v3 review | `reviews/astra-max-v3.md` (session `01a0d0d9…`). Requested `gpt-6-astra` at max; the Codex header reports the same, which is CLI configuration, not proof of the serving model. NOT ACCEPTED: 0 P0, 3 P1, 4 P2 |
+| v4 reviews (this revision answers them) | `reviews/astra-max-v4.md`: requested `gpt-6-astra-max`; **the reviewer could observe no model identity or effort and says so**, so no Astra identity is claimed. NOT ACCEPTED: 0 P0, 6 P1, 5 P2. `reviews/fable-5.1-xhigh-v4.md`: requested `claude-fable-5-xhigh`; observed "You are claude-fable-5-xhigh, a custom agent running in Amp", with no separate numeric effort visible. NOT ACCEPTED: 0 P0, 2 P1, 8 P2. Both reviewed plan sha256 `6102f850…`; this file is the revision that answers them, and the dispositions list every finding |
 | Status | Neither review is acceptance. Acceptance belongs to the maintainer |
 | Baseline [Coord] | `origin/main` = `d8dc848`; `v0.7.2` → `30b6033`, released. Released `references/`: 16 files, 173,472 B. Released `SKILL.md`: 10,743 B. M1 re-fetches and records the SHA it actually branches from |
 | Host (tabputer-1) | **M0 passed** 2026-09-23: principals, containment, §4.4 GPU acceptance, B1–B15. `receipts/m0-tabputer-1-2026-09-23.md`. Containment code in `infra/`. Access from Amp is the runner `tabputer` (`/mnt/tst`, user `basit`, passwordless sudo) |
@@ -27,6 +28,12 @@ receipt, and the five research cards. Findings are dispositioned in `plan-v4-dis
 execution; [H] hypothesis; [U] unknown; [Coord] observed by the coordinator and relayed.
 
 ## 0. What changed from v3
+
+**This file was revised on 2026-09-24 after the two v4 reviews.** Every P1 either changed the
+design or is answered in `plan-v4-dispositions.md`; the arithmetic was recomputed. The largest
+changes are E3's loss range (2.4, not 1.2), one-sided power for non-inferiority, A2a inside the
+M5 family, aggregate memory admission, candidate code on the GPU as D-b requires, and a weights
+path that actually reaches run containers.
 
 1. **One interval carries the error claim.** Astra v3 finding 2 showed that v3's normal-theory
    family CI and its bootstrap fallback both collapse to `[0, 0]` on rare-large bounded losses,
@@ -169,7 +176,14 @@ Four tests are reported separately. Any one of them can fail.
      `s·sqrt(2 ln(2/δ)/n) + 7R ln(2/δ)/(3(n−1))`, with δ = α/(2m), s the sample sd of the paired
      differences and R their range. Superiority holds when UCB < −m_sup; non-inferiority when
      UCB < +m_NI; equivalence when the whole interval lies inside ±margin.
-   - **Why this and not v3's normal CI.** EB's coverage holds for any bounded distribution,
+   - **Sampling assumption.** The theorem needs **independent** observations of the declared
+     sampling unit. Equal inclusion probability alone does not give that: sampling one of two
+     equal-size clusters uniformly gives every row equal inclusion probability, zero sample
+     variance and zero coverage of the population mean (Astra v4 F7). The design lock names the
+     independent unit; clustered or weighted designs are aggregated to that unit or refused as
+     `unsupported_sampling_design`. Power is computed from the same unit.
+   - **Why this and not v3's normal CI.** EB's coverage holds for any bounded independent-sample
+     distribution,
      including sparse rare-large differences, and its radius floor cannot collapse when no
      nonzero difference is observed. On Astra's counterexample, the normal CI and the bootstrap
      both give `[0, 0]` with probability 0.2766 at n = 12,850, while the EB radius is 0.00261
@@ -217,7 +231,8 @@ irreversible effect; and preferences are stable relative to retraining.
 | P7 | Learn utilities, not policies | [H], discussion only | — |
 | P8 | Well-designed research loops keep acceptance exogenous | [C], motivation | E4 |
 | P9 | Under prior shift, recalibrate-and-rethreshold is non-inferior to retraining at equal labels | [H] | E1-S |
-| P10 | The cheapest adequate **artifact form**, not the largest model, meets a bounded decision's policy; programs lose on fuzzy real text | [Rep table] RAP: bespoke lexical code 0.993 macro-F1 externally, but 0.771 recall where lexical matching cannot see the distinction, where fine-tuned PAW reaches 0.961 | M5 (§3.3) |
+| P10 | The cheapest adequate **artifact form**, not the largest model, meets a bounded decision's policy | [Rep, arithmetic recomputed from RAP's frozen prediction files]: on RAP's **external** set of 160 author-constructed contrastive cases, bespoke lexical code reaches 0.993 rule-macro-F1; on its **controlled** set of 192 synthetic cases, the same code recalls only 0.771 and reaches 0.863 rule-macro-F1, where fine-tuned PAW reaches 1.000 recall and 0.961 rule-macro-F1. All of these cases are synthetic with labels fixed by construction, so they establish artifact-form ordering **on those cases only** | M5 (§3.3) |
+| P11 | Programs lose on fuzzy real text | **[H]**, stated in advance so the M5 result is not read as a defect. RAP's synthetic contrast pairs cannot establish it (Astra v4 F10) | M5's T2a–c |
 
 ### 2.7 Experiments
 
@@ -239,11 +254,17 @@ irreversible effect; and preferences are stable relative to retraining.
     never released (Fable v3 P2-8, Astra v3 finding 1).
 - **Family rule.** Bonferroni over the m contrasts of the family, two-sided, α/(2m) per tail, read
   from the EB interval of §2.4. Every claim type is read from that one interval.
-- **Powered set.** A contrast is powered if the n its method needs, at the **design-lock** g and
-  the analysis-lock σ̂, is at most the available n. g = 0 for equivalence and non-inferiority
-  (true Δ = 0 is the planning point) and the prespecified planning effect for superiority
-  (Fable v3 P2-3). Unpowered contrasts are reported with their intervals and count toward no
-  outcome row in either direction.
+- **Powered set.** Three quantities are named separately and never conflated (Astra v4 F5):
+  `true_delta` is the planning effect, `margin` is the test boundary, and the **gap**
+  `g = |true_delta| − margin` is the distance from the truth to that boundary. Equivalence and
+  non-inferiority plan at `true_delta = 0`, so g = margin; superiority plans at the prespecified
+  `true_delta` for that contrast type. **The power event matches the registered claim:** the
+  two-sided equivalence event where the claim is equivalence, and the **one-sided** event
+  `UCB < +margin` where the claim is non-inferiority. A contrast is powered if the n its method
+  needs, at the **design-lock** `true_delta` and the analysis-lock σ̂, is at most the available n.
+  Unpowered contrasts are reported with their intervals and count toward no outcome row in either
+  direction. **"Powered" is per contrast**, so an outcome row quantified over tasks means powered
+  for that row's own contrast (Fable v4 P2-7).
 - **Margins** are fixed by substantive rationale at the design lock and never moved afterwards.
   If compute or data bind, the prespecified narrowing or inconclusive row applies.
 - **Superiority margins are stated**, not implied: δ_r in E1, 0.02 utility in E3, 0.01 in M5.
@@ -258,6 +279,7 @@ irreversible effect; and preferences are stable relative to retraining.
 |---|---|
 | Data | **Primary: CivilComments.** CC0; toxicity ≥ 0.5; about 2.0M rows [C, recheck at M2]. Exact-normalized-text dedup across partitions. Seeded partitions: fit 200k; **fit-B 200k** (the source of the "second, equal-size fit subsample", Fable v3 P2-4); calibration 100k; M5 pool 100k; confirmation the rest, about **1.4M**. **Secondary: CLINC150** (CC-BY-3.0, human-written): 23.9k resplit into fit 8k, calibration 3k, confirmation 12,850 |
 | CLINC decision (Fable v3 P2-9) | Binary route-or-abstain against the OOS class: s(x) = 1 − P(OOS); an FP is routing an OOS query to an intent handler, an FN is abstaining on an in-scope query. The same cost ratios and plug-in rule apply |
+| Estimand | The superpopulation the corpus samples, at the declared independent unit (one comment). The exact finite-population Δ over the confirmation partition is reported beside every interval, so an enumerated quantity is never reported only as "unpowered" (Fable v4 P2-3) |
 | Instrument | Frozen all-MiniLM-L6-v2 (pinned sha) plus logistic regression, **temperature-calibrated with no intercept** |
 | Costs | C_FP + C_FN = 1. Training range {1:1, 1:4, 1:9}; held out {1:19, 1:49, 4:1}. Shift S: ratio 1:9, confirmation resampled to 3× the fit prior (about 0.24), capped at 0.5 |
 | Family (m = 19 per dataset) | At each held-out ratio: A−B-stale; A−B-retrain_r; C−A; C\*−A; E−A (15). Under S: A-recal−B-retrain_S; A-raw−A-recal; C\*−A-recal; E−A-recal (4). A_tuned and in-range ratios are descriptive |
@@ -276,16 +298,16 @@ irreversible effect; and preferences are stable relative to retraining.
 
 | Field | Specification |
 |---|---|
-| Population | HotpotQA distractor validation: CC-BY-SA-4.0, 7,405 hard questions [C, recheck]. Rounds read k ∈ {2, 4, 6} paragraphs and choose stop, expand or abstain. U = EM − λ·rounds/3 − μ·tokens/1000, **clipped to [−0.2, 1] at the design lock, so R = 1.2**; λ = 0.1 primary; μ fixed at the lock |
+| Population | HotpotQA distractor validation: CC-BY-SA-4.0, 7,405 hard questions [C, recheck]. Rounds read k ∈ {2, 4, 6} paragraphs and choose stop, expand or abstain. U = EM − λ·rounds/3 − μ·tokens/1000, **clipped to [−0.2, 1] at the design lock. Two utilities in an interval of width 1.2 differ by up to ±1.2, so the paired difference has range R = 2.4**; λ = 0.1 primary; μ fixed at the lock. **Estimand:** the superpopulation of questions the benchmark samples, not the enumerated 7,405; the exact finite-population Δ is reported beside every interval |
 | Identification | Full-information replay: every answer at every k, so X5b holds by construction |
-| Readers | Qwen3-1.7B and Qwen3-4B at pinned revisions, BF16, non-thinking, greedy. **Served by the image's vLLM in batch-invariant mode or with a fixed batch composition**, because batched reruns matched on only 59.8% of prompts in M0 [Rep]; over 9 calls a whole question replays identically with probability 0.0098 [Rep calc §6]. A 50-question determinism check reports the realized rerun disagreement rate before confirmation |
+| Readers | Qwen3-1.7B and Qwen3-4B at pinned revisions, BF16, non-thinking, greedy. **Replay tables are generated once and frozen**, and every arm, resplit and P6 draw reads the same tables, so no claim depends on re-execution. The measured fact is a **59.8% per-prompt** batched-rerun identity rate [Rep]; the 0.0098 figure for a whole 9-call question is `0.598^9`, which assumes independence across calls **[H]**, not a measured joint law (Astra v4 F9, Fable v4 P2-8). M0's smoke test resubmitted the same prompt list and still disagreed, so a fixed input batch is not by itself a cure: the design lock records the batch-invariant setting used, and a 50-question check measures the realized rerun disagreement rate against a **pre-registered tolerance**, with a stated consequence (fall back to the frozen tables and report the rate) |
 | Arms | (i) implicit prompt; (ii) threshold on LLM answerability; (iii) threshold on dense similarity; (iv) composite; (v) constants; (vi) proxy-selected threshold; (vii) outcome-selected threshold |
 | Family (m = 6) | Per reader at λ = 0.1: best explicit − implicit; best explicit − best constant; (vii) − (vi). The best explicit arm is chosen on search and frozen |
 | Margin | 0.02 utility (about 2 EM points), superiority and equivalence alike |
-| n [Rep calc §3] | Search 1,000 questions (including a 100-question σ pilot and a 50-question timing pilot); confirmation the remaining 6,405. EB needs 5,178 at σ = 0.25 and **6,794 at σ = 0.30**, so at m = 6 the equivalence rows are powered only if σ̂ ≤ about 0.29. The prespecified narrowing drops the 4B reader (m = 3), where 6,185 suffices at σ = 0.30. Superiority at a 0.04 planning gap needs 1,830 (m = 6) |
+| n [Rep calc §3] | Search 1,000 questions (including a 100-question σ pilot and a 50-question timing pilot); confirmation the remaining 6,405. At R = 2.4, EB equivalence needs 5,181 at σ = 0.20, **6,598 at σ = 0.25 and 8,271 at σ = 0.30**, so at m = 6 the equivalence rows are powered only if **σ̂ ≤ 0.24**. The prespecified narrowing drops the 4B reader (m = 3), which needs 5,971 at σ = 0.25 and 7,501 at σ = 0.30: **powered only if σ̂ ≤ 0.26**. A true 0.04 gain is a gap of 0.02 beyond the 0.02 margin and needs 7,318 (m = 6) or 6,592 (m = 3) at σ = 0.30; a true 0.06 gain needs 2,498 or 2,243. These are **normal/fixed-SD planning approximations**, not finite-sample power guarantees: the acceptance interval is distribution-free, the power calculation is not |
 | Calls | 9 per question per reader. **Full replay of all 7,405 is the planned workload**: 133,290 calls for two readers, 66,645 for the 1.7B-only narrowing (Astra v3 finding 4). At the measured 2,004 tok/s batched and 64 output tokens per call that is 1.2 and 0.6 GPU-h of decode [Rep calc §6]; prefill and the timing pilot govern the real figure |
 | P6 population | The **6,405 confirmation questions**, which the search set never touched. Its finite-population truth uses their full replay (115,290 calls for two readers), and that truth is held by `augctl` and never exposed to selection |
-| Cap and narrowing | 24 GPU-h for E3. If the timing pilot projects more, the 4B reader is dropped before any confirmation read. If the projection still exceeds the cap, equivalence rows are inconclusive. The margin never changes |
+| Cap and narrowing | 24 GPU-h for E3. If the timing pilot projects more, or if σ̂ > 0.24 at the analysis lock, the 4B reader is dropped before any confirmation read (m = 3). If σ̂ > 0.26 even then, the equivalence rows are declared **inconclusive** before confirmation; the superiority rows still run. The margin never changes, and the population is never enlarged after an outcome is seen |
 | Outcomes per claim | *Explicit vs implicit* and *policy vs constants*: supported if the best explicit arm is superior by 0.02 for every powered reader; rejected if the two are equivalent for every powered reader; otherwise inconclusive. *P5*: (vii) superior to (vi) supports; equivalence rejects. *P6*: over 200 resplits, false adoption is judged against the 6,405-question truth. Incumbent–challenger lower than adopt-best, with the 95% CI of the difference excluding 0, supports |
 | Controls | Identical frozen incumbent vs its copy: Δ ≡ 0, never adopted. A planted +0.05 utility shift on a replay copy must be adopted at its planned power. The per-question oracle is reported as headroom, not used as a control |
 
@@ -293,7 +315,7 @@ irreversible effect; and preferences are stable relative to retraining.
 
 | Part | Design | Pass |
 |---|---|---|
-| E4a Monte Carlo diagnostic, **on the GPU** | **C = 108 cells**: `hoeffding` and `empirical_bernstein`, each 2 modes × n ∈ {300, 1,000, 2,500} × K ∈ {1, 5} × 4 loss distributions (three-point, two-point extreme, continuous, rare-large); plus `sign_exact` on the 2 binary distributions × 3 n × 2 K. **R = 40,000** replications at the boundary null. It is a vectorized reduction over at most 108 × 40,000 × 2,500 = 1.08e10 sampled losses, chunked at 2,000 replications × 2,500 (19.1 MiB fp32), 2,160 kernel batches [Rep calc §5]. The coverage *claim* rests on the theorems and exact-rational unit tests; this detects gross defects. **`sign_exact` cells stay exact-rational on the CPU**: their qualification is arithmetic, not sampling, which is the one recorded CPU step under D-b | Every cell's simultaneous (Bonferroni over 108, γ = 0.05) one-sided Clopper–Pearson upper bound ≤ α + τ = 0.055, i.e. at most **2,049** adoptions per cell [Rep calc §5]. A cell at 4.5% fails with probability 1.9e-9; an exactly nominal cell fails with 0.128; 6% is detected with probability ≈ 1. **Positive controls**, each naming the cell class that must fail (Fable v3 P2-7): radius removed → every cell (size 0.50); radius n inflated 100× → Hoeffding and EB cells at σ ≥ 0.3; Δ sign flipped → non-inferiority cells only, because it is invisible to the size test in superiority mode. The planning effect per distribution is fixed at the design lock, and the K = 5 event is any-of-five adoption. Cap 1 GPU-h; exceeding it narrows to n ∈ {300, 1,000} |
+| E4a Monte Carlo diagnostic, **on the GPU** | **C = 108 cells**: `hoeffding` and `empirical_bernstein`, each 2 modes × n ∈ {300, 1,000, 2,500} × K ∈ {1, 5} × 4 loss distributions (three-point, two-point extreme, continuous, rare-large); plus `sign_exact` on the 2 binary distributions × 3 n × 2 K. **R = 40,000** replications at the boundary null. It is a vectorized reduction over at most 108 × 40,000 × 2,500 = 1.08e10 sampled losses, chunked at 2,000 replications × 2,500 (19.1 MiB fp32), 2,160 kernel batches [Rep calc §5]. The coverage *claim* rests on the theorems and exact-rational unit tests; this detects gross defects. **`sign_exact` cells stay exact-rational on the CPU**: their qualification is arithmetic, not sampling, which is the one recorded CPU step under D-b | Every cell's simultaneous (Bonferroni over 108, γ = 0.05) one-sided Clopper–Pearson upper bound ≤ α + τ = 0.055, i.e. at most **2,049** adoptions per cell [Rep calc §5]. A cell at 4.5% fails with probability 1.9e-9; an exactly nominal cell fails with 0.128; 6% is detected with probability ≈ 1. **Positive controls**, each naming its detecting cell **and that cell's own expected rate**, fixed at the design lock with the loss distribution, the margin and the assumed joint dependence (Astra v4 F11, Fable v4 P2-1). "Radius removed → size 0.50" is true only for a symmetric continuous single-finalist cell: the rare-large mean-zero cell at n = 300 adopts at 0.970444, the K = 5 any-of-five event at independent finalists is 0.96875, and `sign_exact` has no radius to remove, so it needs its own mutation (dropping the discordant-pair restriction) [Rep calc §5b]. Radius n inflated 100× → Hoeffding and EB cells at σ ≥ 0.3. Δ sign flipped → non-inferiority cells, at the margin/radius configurations where it is detectable; it is invisible to the size test in superiority mode. The planning effect per distribution is fixed at the design lock. Cap 1 GPU-h; exceeding it narrows to n ∈ {300, 1,000} |
 | E4b Eligibility | Fixtures: teacher-labeled confirmation rows; synthetic text; unequal inclusion probabilities; the 50/950 case (−0.667 apparent vs +0.9 true); the sign case (p = 0.0068 while mean loss rises by 0.0292); **a zero-discordance rare-large case** | In order: `proxy_evidence_only`; `fixture_evidence_only`; `unsupported_sampling_design`; refused; `sign_exact` refuses non-binary input; the rare-large case returns `unpowered`, never equivalence |
 | E4c Isolation (tabputer-1) | A scripted adversary harness plants each exploit with a canary. Hard-coded confirmation IDs → leak gate. Gold in synthetic rows → overlap audit. Sibling-run read → per-run container mounts. Evaluator or split edit → owned by `augctl` (EACCES) and hash drift. Read of confirmation labels → not mounted, EACCES on the host, **and B16's reconstruction attempt from every readable corpus**. Network exfiltration → `--network=none` plus the skuid drop. Write outside `/work` → EROFS. Disk exhaustion → ENOSPC on a size-bounded run filesystem (B17). Resource exhaustion → cgroup limits, GPU budget and timeout | Every exploit is refused by its named mechanism, and its canary proves the plant was active. A benign planted improvement is accepted end to end |
 | E4d Agent A/A (optional) | 20 incumbent-vs-itself runs. The proposer runs off tabputer-1; candidates execute only under the §4.2 profile | Reject at ≥ 3 adoptions: P = 0.0755; power 0.79 at a 20% rate. A smoke test only |
@@ -394,8 +416,8 @@ so in advance and reports it either way.
 |---|---|
 | Arms | R0; **A1** (synthesized program, frozen); **A2a** PAW-standard via the local single-GPU compiler; **A2b** PAW-ft with a local teacher (our vLLM Qwen3-4B-Instruct-2507) and a local initial compile; R1 (Qwen3.5-2B frozen: raw, two-order averaging, L0, then OOF temperature); R2a (LR on MiniLM); R2b (ridge/LDA on R1's ⅔-depth state); R3a (SetFit, pinned body) as the comparator. R3b (DeBERTa-v3-large) runs if the GPU passes §4.4; R4 is a documented escalation, untested |
 | Tasks | **T1** (generated, code-labeled): `fixture_evidence_only`. **Real-text confirmation**, human-written, seeded equal-probability splits, the population being the benchmark and not deployment traffic: **T2a** BANKING77, 77-way, CC BY 4.0, about 13.1k rows, real-query provenance checked at M2; **T2b** CLINC150 plus OOS, route-or-abstain, reusing E1's seeded CLINC partition; **T2c** CivilComments, the E1-disjoint 100k pool. Fixed cost matrices: misroute 1, abstain 0.3, correct 0 for T2a/T2b; C_FP:C_FN = 1:4 for T2c. Losses ∈ [0, 1], so paired differences have range R = 2 |
-| Estimand and test | Δ = loss(low rung) − loss(R3a) in normalized cost. Non-inferiority: EB UCB(Δ) < +0.01 over **K = 5** low rungs (R1, R2a, R2b, A1, A2b) at the family level. Escalation uses the matching **EB LCB(Δ) > +0.01 at the same α/(2K) tail** (Fable v3 P2-9). Tasks combine by intersection-union |
-| n [Rep calc §4] | At true Δ = 0 with 80% power, EB at K = 5 needs 6,671 rows (σ = 0.10), 14,035 (0.20) or 25,535 (0.30). Planned confirmation: T2a about 6,000 (powered only if σ̂ ≤ 0.08); T2b 12,850 (σ̂ ≤ 0.18); T2c 40,000, **expanded to 60,000 by the analysis-lock n(σ̂) rule, not by discretion** (σ̂ ≤ 0.49). Fable's estimate that a 77-way task disagreeing on 7% of rows has σ ≈ 0.26 makes T2a likely unpowered; the narrowed and inconclusive rows exist for exactly that |
+| Estimand and test | Δ = loss(low rung) − loss(R3a) in normalized cost. **One-sided** non-inferiority: EB UCB(Δ) < +0.01 over **K = 6** low rungs — R1, R2a, R2b, A1, **A2a** and A2b — at the family level. A2a is a tested arm, so it is inside the confirmatory family; leaving it out would allow escalation past an artifact form that met the same gate (Astra v4 F6, Fable v4 P2-7). The family is fixed at the design lock and never chosen after results. Escalation uses the matching **EB LCB(Δ) > +0.01 at the same α/(2K) tail** (Fable v3 P2-9). Tasks combine by intersection-union; R0 is a G0 exit, not a family member |
+| n [Rep calc §4] | At equality with 80% power on the **one-sided NI event**, EB at K = 6 needs 6,354 rows (σ = 0.10), 12,698 (0.20) or 22,467 (0.30). (v4's first pass used the two-sided equivalence event, which is conservative for false positives but misclassifies powered tasks: 6,851 / 14,385 / 26,142. Astra v4 F5A.) Planned confirmation: T2a about 6,000 (powered only if σ̂ ≤ 0.09); T2b 12,850 (σ̂ ≤ 0.20); T2c 40,000, **expanded to 60,000 by the analysis-lock n(σ̂) rule, not by discretion** (σ̂ ≤ 0.53). Fable's estimate that a 77-way task disagreeing on 7% of rows has σ ≈ 0.26 makes T2a likely unpowered; the narrowed and inconclusive rows exist for exactly that. Planning approximations, as in E3 |
 | Stop at a low rung | One low rung is non-inferior on every powered real task, and at least 2 tasks are powered. The recipe names the artifact form that sufficed and the task type |
 | Narrowed | The same with only 1 powered task. The recipe names that task type only |
 | Escalate | R3a superior to every low rung by more than 0.01 on a powered task |
@@ -543,8 +565,9 @@ skill, without it, and against v0.7.2, using fresh agents and a dated audit.
 | S9: multi-step dates | Reasoning exit |
 | S10: unequal-probability confirmation sample | `unsupported_sampling_design` |
 | S11: the challenger changes approvals | `insufficient_causal_evidence` |
-| **S12a: EB non-inferiority, K = 3, margin 0.01, σ̂ = 0.10, 3,000 rows** | Required n 6,164 shown; **inconclusive**; margin not widened (Astra v3 finding 6: the scenario now states method, mode, family and variance instead of inferring infeasibility from the row count) |
-| **S12b: the same at σ̂ = 0.02** | Non-inferiority **certified** at 3,000 rows; the skill must not refuse a feasible low-variance case |
+| **S12a: EB one-sided NI, K = 3, margin 0.01, R = 2, observed mean 0.000, sd 0.10, 3,000 rows** | The EB radius is 0.014573, so UCB = 0.014573 > 0.01: **not certified**. The required n at equality is 5,691. The margin is not widened |
+| **S12b: the same with sd 0.02** | Radius 0.009737, UCB 0.009737 < 0.01: **certified**. The skill must not refuse a feasible low-variance case |
+| **S12c: the same as S12b but observed mean +0.005** | UCB 0.014737: **not certified**. Identical n and sd, opposite verdict, which is why a scenario must supply the observed mean and not only a planning assumption (Astra v4 F8) |
 | S13–S15: Bayes threshold, prompt climb, tone fine-tune | Not triggered |
 | **S16: an exact program already decides the family** | A0; no training, and no compile |
 | **S17: a rule check runs after an irreversible effect** | Named as detection, not prevention; X2 unsatisfied |
@@ -584,13 +607,24 @@ tabputer-1; it is public material, which resolves Fable v3 P2-2.
 `augpred` is the setgid group on `/srv/aug/pred`; `augexp` writes, `augctl` reads, and no one else
 is a member (Fable v3 P2-8).
 
-**Acquisition and staging (Astra v3 finding 1).** Downloads land in `/srv/aug/quarantine`, owned
-by `augexp` during the window, together with the HF cache. At window close, `augwindow close`
-re-owns the whole tree to root with an ACL for `augctl` only, so `augexp` loses it. `augctl` then
-splits, hashes and publishes into `/srv/aug/stage/parts/<partition-id>/`, root-owned and read-only:
-fit and calibration partitions with labels, **confirmation inputs with labels removed**, and
-nothing else. Each run mounts only the partitions the design lock entitles it to. Complete labeled
-corpora never exist in any tree a candidate can read.
+**Acquisition and staging (Astra v3 finding 1; Fable v4 P1-B).** Acquisition uses **two separate
+cache roots**, because weights and datasets need opposite treatment:
+
+- `/srv/aug/quarantine/data` takes every dataset download and its HF dataset cache. At window
+  close, `augwindow close` re-owns that tree to root with an ACL for `augctl` only, so `augexp`
+  loses it. `augctl` then splits, hashes and publishes `/srv/aug/stage/parts/<partition-id>/`,
+  root-owned and read-only: fit and calibration partitions with labels, **confirmation inputs with
+  labels removed**, and nothing else.
+- `/srv/aug/quarantine/weights` takes model weights, the base image layers and wheels. `augctl`
+  verifies each artifact against the acquisition manifest's digest, confirms it carries no dataset
+  labels, and publishes it to `/srv/aug/stage/weights/`, root-owned and read-only. Runs mount it,
+  which is how any model loads at all.
+
+Each run mounts only the partitions and weights the design lock entitles it to. **B16 searches
+both trees**, so the separation is tested rather than assumed. Window close is a teardown, not a
+rename: every acquisition process under `augexp` is stopped and its open descriptors are gone
+before the re-own, and the receipt records that no `augexp` process survives the window
+(Astra v4 F2). Complete labeled corpora never exist in any tree a candidate can read.
 
 **Containers.** Runs launch with `systemd-run --user` inside `augexp`'s own user manager, never
 `sudo -u … podman` from another session (B15). Linger is enabled for the window and disabled after.
@@ -604,18 +638,43 @@ podman run --rm --network=none --read-only --tmpfs /tmp --cap-drop=all \
 `--memory-swap=16g` is required: with 125 GB of zram, `--memory=16g` alone did not cap memory
 (B12, M0) [Rep]. GPU runs add `--device /dev/kfd --device /dev/dri/renderD128 --group-add
 keep-groups`. One base image, pinned by digest, loaded from a local `docker save` so no registry
-host is needed. `/stage` partitions mount read-only; `/work` binds a fresh per-run directory on a
-size-bounded filesystem. Each candidate gets its own container and `/work`. Candidate code never
-gets GPU devices.
+host is needed. `/stage` partitions and `/stage/weights` mount read-only; `/work` binds a fresh
+per-run directory on a size-bounded filesystem. Each candidate gets its own container and `/work`.
 
-**GPU budget (mandatory).** GPU memory is **not charged to the container cgroup**: 24 GiB of bf16
-tensors were held while `memory.current` stayed at 0.56 GiB [Rep, M0]. Every run therefore
-declares its own GPU budget — `torch.cuda.set_per_process_memory_fraction` or vLLM
+**Candidate code gets the GPU** (Astra v4 F4). v3 denied it, which contradicts the binding D-b
+("everything has to run on GPU… including candidate and hill-climb code") and would have made
+GPU-dependent candidates unreachable. A candidate container therefore receives the devices under
+the same admission control as a first-party run: its own declared GPU budget, the aggregate
+admission check below, `--network=none`, its own `/work`, and no writable mount shared with
+anything else. §4.6 records the cost: `/dev/kfd` widens the driver attack surface, and that
+surface is now exposed to candidate code, which the boundary does not claim to contain.
+
+**GPU budget and aggregate admission (mandatory).** GPU memory is **not charged to the container
+cgroup**: 24 GiB of bf16 tensors were held while `memory.current` stayed at 0.56 GiB [Rep, M0].
+Every run declares its own GPU budget — `torch.cuda.set_per_process_memory_fraction` or vLLM
 `gpu_memory_utilization` — recorded in its receipt. Planned budgets against 124 GiB visible
 [Rep calc §6]: E1 MiniLM 2 GiB (0.016); E3 readers 14 GiB (0.113); M5 R1 6 GiB (0.048); M5 PAW-ft
-38 GiB (0.306); SetFit/DeBERTa 10 GiB (0.081). **A MemAvailable watchdog is real code**, not a
-note: the wrapper samples `/proc/meminfo` every 5 s, refuses to launch below 24 GiB and kills the
-container below 6 GiB, writing the reason into the run record.
+38 GiB (0.306); SetFit/DeBERTa 10 GiB (0.081).
+
+**A fixed 24 GiB launch floor is not an admission rule** (Astra v4 F3): PAW-ft's 38 GiB GPU budget
+plus a 16 GiB CPU cgroup is a 54 GiB allowance on a UMA host, so a compliant run could be admitted
+at 24 GiB and still exhaust memory. Admission is therefore **aggregate**: a run launches only if
+
+    MemAvailable ≥ GPU budget + CPU cap + declared service memory (a teacher server) + 8 GiB
+    overhead + the 6 GiB reserve
+
+so PAW-ft needs at least 68 GiB free, not 24 GiB. The 24 GiB figure survives only as a floor below
+which nothing launches at all.
+
+**The declared budgets are allocator limits, not a GPU cgroup.** PyTorch's fraction bounds one
+process's caching allocator; vLLM's utilization bounds one instance and can be overridden by an
+explicit KV-cache size. Neither is adversary-resistant across processes. What stands behind them
+is the aggregate admission check, one run at a time, and the watchdog. §4.6 records this limit.
+
+**The MemAvailable watchdog is real code**, not a note: the wrapper samples `/proc/meminfo` **every
+500 ms** (fast enough that a bounded first-party allocation burst is caught between samples, which
+B18 measures), refuses to launch when the aggregate check fails, and kills the container below the
+6 GiB reserve, writing the reason into the run record.
 
 **Egress.** The installed `inet augexp` nftables table matches `meta skuid` and never flushes the
 ruleset. `augexp` (and its subuid range 165536–231071) may reach only `lo` TCP 3128, and only
@@ -652,9 +711,9 @@ v4 adds three, all of which must pass before M3:
 
 | # | Test | Pass |
 |---|---|---|
-| **B16** | **Confirmation-label reconstruction.** As `augexp`, inside a run container, try to recover confirmation labels: search every readable tree and the HF cache for the original labeled corpus; join stage inputs to any readable corpus by text, normalized text or identifier; read `/srv/aug/quarantine`. A canary label is planted in the confirmation partition | Every attempt fails; the canary appears in no candidate-readable output (Astra v3 finding 1) |
+| **B16** | **Confirmation-label reconstruction**, in two parts. (a) *On-host*: as `augexp`, inside a run container, search every readable tree, `/srv/aug/stage/weights` and both quarantine roots for the original labeled corpus; join stage inputs to any readable corpus by text, normalized text or identifier. A canary label is planted in the confirmation partition. (b) *Frozen-artifact* (Astra v4 F2): a first-party adversary proposer that **has** the public labeled corpus embeds a normalized-text-hash → label table in an A1 artifact, which is then frozen and run under the ordinary profile with no network and no corpus access | (a) every attempt fails and the canary appears in no candidate-readable output. (b) the embedded table is **detected** by the artifact audit — a frozen artifact carrying a label lookup keyed on confirmation text fails the overlap audit before scoring. The plan does not claim that it is prevented; see §4.6 |
 | **B17** | **Disk exhaustion.** Write beyond the quota of the size-bounded filesystem carrying `/srv/aug/runs` and `/srv/aug/pred` | ENOSPC inside the container only; host free space and k3s are unaffected (Fable v3 P2-5) |
-| **B18** | **GPU budget.** A run exceeding its declared GPU budget, and a run launched while MemAvailable is below the floor | The budget aborts the allocation; the watchdog refuses the launch and kills a run that crosses the abort floor |
+| **B18** | **GPU budget, admission and burst.** (a) A run exceeding its declared GPU budget. (b) A launch attempt whose aggregate requirement exceeds MemAvailable, tested by **mocking the `/proc/meminfo` reading**, never by consuming host memory (Fable v4 P2-4). (c) A bounded first-party allocation burst toward a raised test floor, to measure kill latency against the 500 ms sampling cadence | (a) the allocator limit aborts the allocation. (b) admission refuses, naming the shortfall. (c) the watchdog kills the container before the reserve is crossed, and the measured latency is recorded. A failure here narrows the affected arm or moves it to Colab; the host is never deliberately driven to OOM |
 
 B10's criterion is corrected: inside a `--network=none` netns, host-IP connects fail at
 ENETUNREACH without incrementing host counters, so a non-incrementing counter is not a failure;
@@ -690,10 +749,10 @@ at its analysis lock.
 | Run | Work | Basis | Wall-clock | GPU budget |
 |---|---|---|---|---|
 | Windows W1–W3 + B1–B18 | About 45 GB of downloads | Network-bound | 0.5–1 day, attended | — |
-| E4a | 4.32M replications, 1.08e10 sampled losses, chunked | [H] 2e8–2e9 elements/s | 0.1–0.9 min, cap 1 GPU-h | 4 GiB |
+| E4a | 4.32M replications, 1.08e10 sampled losses, chunked | [H] 2e8–2e9 elements/s | 0.1–0.9 min, cap 1 GPU-h | 4 GiB (aggregate admission 34 GiB) |
 | E1 | Embed about 2.1M texts; fit arms; 38 intervals; 200 control redraws | MiniLM measured 2.1 s per 1,000 on GPU [Rep] | ≤ 2 h, cap 6 h | 2 GiB |
 | E3 | 133,290 calls (66,645 narrowed) | Measured vLLM 2,004 tok/s batched [Rep] | 1.2 GPU-h of decode plus prefill; the timing pilot governs; cap 24 GPU-h | 14 GiB |
-| M5 | R1 readout; SetFit; A1; PAW-standard compile; PAW-ft; optional R3b | [H], pilots replace it | cap 24 GPU-h | 6–38 GiB |
+| M5 | R1 readout; SetFit; A1; PAW-standard compile; PAW-ft; optional R3b | [H], pilots replace it | cap 24 GPU-h | 6–38 GiB (PAW-ft's aggregate admission is 68 GiB) |
 | Site build | One github-pages 232 build in a container | — | Minutes | — |
 
 **Envelope.** One run at a time; `--memory=16g --memory-swap=16g`; an explicit GPU budget per run;
@@ -714,6 +773,15 @@ the state is derived from the launch measurement.
   prevented.**
 - Whether the `dmem` cgroup controller can bound amdgpu GTT is untested; the GPU budget and the
   MemAvailable watchdog are what stand in for it.
+- **Filesystem custody prevents label exfiltration from this host; it cannot make public
+  benchmark labels secret.** CLINC150, BANKING77, CivilComments and HotpotQA are public, so a
+  model rung's pretraining, or a proposer that read the corpus before freezing an artifact, can
+  reproduce labels having read no file here. B16(b) detects an embedded lookup table; nothing
+  prevents memorization. The acceptance claims survive because the declared population is the
+  benchmark, and external validity is limited accordingly (Astra v4 F2, Fable v4 P2-6).
+- **The GPU budgets are allocator limits, not a GPU cgroup**, and candidate code now holds GPU
+  devices, so the driver's attack surface is exposed to it. What bounds memory is the aggregate
+  admission check, one run at a time, and the watchdog.
 - The Mac provides no isolation. Colab provides none of these claims.
 - "Sandbox" means exactly the mechanisms B1–B18 test, rerun after any system update.
 
@@ -826,7 +894,7 @@ experiment-data window.
 | M0 | Provisioning; containment; **window W1 (infrastructure only)**; §4.4 acceptance on synthetic texts; B1–B15 | — | **Done 2026-09-23** | `receipts/m0-tabputer-1-2026-09-23.md` |
 | M0b | B16–B18; the quarantine-and-split custody path; the MemAvailable watchdog; the GPU-budget wrapper | M0 | 1 | A dated receipt showing B16–B18 pass |
 | M1 | Skeleton (`0.8.0-dev`, `.gitignore`); generalized `check_repo`; modes, methods, `loss_bound` and design check; ledger and provenance graph; overlap audit; climb ledger. **Small PRs, at most 500 changed lines and 15 files each** | M0 decisions | 4–5 | `make check` green, with the CONTRIBUTING numerical tests |
-| M2 | Design locks for E1, E3, E4 and M5, including R, g and the PAW/A1 arms; BANKING77 provenance check | **M0 decisions only** | 1 | Hashed **before window W2 opens** |
+| M2 | Design locks for E1, E3, E4 and M5, including each loss range R, each `true_delta`, and the PAW/A1/A2a arms; BANKING77 provenance check **from cards, papers and metadata only** — no dataset text or labels are read before the lock, and any check that would need rows moves after it with a prespecified abort rule (Fable v4 P2-2) | **M0 decisions only** | 1 | Hashed **before window W2 opens** |
 | M2b | Window W2: experiment datasets and M5 readers; B9/B10 re-run; receipt | M2, M0b | 0.5 | Dated window receipt, proxy closed |
 | M3 | E4a–c (E4d optional); T1 generator with fact–text binding | M1, M2b, B1–B18 | 2 | E4 criteria met |
 | M4 | E1, then E3, each with its analysis lock before confirmation | M3; §4.4 parity checks for E3 | 2 + 1–2 days of compute | Results against each lock, inconclusive rows included |
@@ -856,7 +924,8 @@ paper does not gate the release.
 | A rolling CachyOS update mid-study | Versions in every receipt; updates held during windows; B1–B18 and §4.4 rerun after an update |
 | A candidate reconstructs confirmation labels | Quarantine custody, label-free confirmation inputs, B16 |
 | A candidate fills the shared disk | Size-bounded run filesystem, B17 |
-| Isolation overclaimed | Claims limited to B1–B18; §4.6 |
+| Isolation overclaimed | Claims limited to B1–B18; §4.6, including the memorization and allocator-limit non-claims |
+| A GPU-holding candidate attacks the driver | Accepted and recorded as a non-claim; it is the price of D-b. One run at a time, no network, per-run `/work`, aggregate admission |
 | Underpowered results read as negatives | Powered-set rule with design-lock g; inconclusive rows; `/evidence/` shows it |
 | Mislabeled provenance | Declared-only limit; the `disputed` state; S7 |
 | A hosted PAW compile publishes a spec | Local compiler by default; hosted compile is a fallback with public data only |

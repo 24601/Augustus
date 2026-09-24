@@ -34,17 +34,23 @@
     1:49 : cost_A 0.0096  cost_B-stale 0.0629  regret +553%  (v3 text said +154%/+364% from an earlier population)
   Powered iff the planning n fits 1,400,000 (CivilComments) or 12,850 (CLINC). sigma-hat at the analysis lock decides; this is planning only.
 
-== 3. E3 under EB: margin 0.02 utility, utility clipped to [-0.2, 1] so R=1.2
-  m=6 sigma=0.25: n_equiv(EB) = 5,178
-  m=6 sigma=0.30: n_equiv(EB) = 6,794
-  m=6 sigma=0.35: n_equiv(EB) = 8,686
-  m=6 sigma=0.40: n_equiv(EB) = 10,859
-  m=6: n_super(EB) at a true 0.04 gain beyond 0 = 1,830
-  m=3 sigma=0.25: n_equiv(EB) = 4,705
-  m=3 sigma=0.30: n_equiv(EB) = 6,185
-  m=3 sigma=0.35: n_equiv(EB) = 7,920
-  m=3 sigma=0.40: n_equiv(EB) = 9,912
-  m=3: n_super(EB) at a true 0.04 gain beyond 0 = 1,649
+== 3. E3 under EB: margin 0.02 utility; utility clipped to [-0.2, 1], so the PAIRED DIFFERENCE range is R = 2.4
+  m=6 sigma=0.20: n_equiv(EB) = 5,181  fits 6,405
+  m=6 sigma=0.25: n_equiv(EB) = 6,598  EXCEEDS 6,405
+  m=6 sigma=0.30: n_equiv(EB) = 8,271  EXCEEDS 6,405
+  m=6 sigma=0.35: n_equiv(EB) = 10,208  EXCEEDS 6,405
+  m=6: equivalence rows are powered at n=6,405 only if sigma-hat <= 0.24
+    m=6 true gain 0.04: gap = 0.02 beyond the 0.02 margin -> n_super(EB) = 7,318 at sigma 0.30
+    m=6 true gain 0.06: gap = 0.04 beyond the 0.02 margin -> n_super(EB) = 2,498 at sigma 0.30
+  m=3 sigma=0.20: n_equiv(EB) = 4,675  fits 6,405
+  m=3 sigma=0.25: n_equiv(EB) = 5,971  fits 6,405
+  m=3 sigma=0.30: n_equiv(EB) = 7,501  EXCEEDS 6,405
+  m=3 sigma=0.35: n_equiv(EB) = 9,275  EXCEEDS 6,405
+  m=3: equivalence rows are powered at n=6,405 only if sigma-hat <= 0.26
+    m=3 true gain 0.04: gap = 0.02 beyond the 0.02 margin -> n_super(EB) = 6,592 at sigma 0.30
+    m=3 true gain 0.06: gap = 0.04 beyond the 0.02 margin -> n_super(EB) = 2,243 at sigma 0.30
+  (v4's first pass printed 'n_super at a true 0.04 gain' while passing 0.04 as the gap,
+   which is a true gain of 0.06. Astra v4 F5B.)
   HotpotQA distractor validation has 7,405 questions; v4 reserves 1,000 for search,
   leaving 6,405 for confirmation. P6 needs full replay (Astra v3 finding 4):
     full replay, 2 readers      : 133,290 calls
@@ -53,20 +59,36 @@
   v4 restricts P6's finite population to the 6,405 confirmation questions, which the
     search set never touched: 115,290 of those calls (2 readers), 57,645 under the 1.7B-only narrowing.
 
-== 4. M5 under EB, non-inferiority margin +0.01, normalized cost in [0,1] so R=2
-  K=3 sigma=0.10: n(EB, one-sided-equivalent via two-sided) = 6,164
-  K=3 sigma=0.20: n(EB, one-sided-equivalent via two-sided) = 13,051
-  K=3 sigma=0.30: n(EB, one-sided-equivalent via two-sided) = 23,822
-    K=3 T2a BANKING77 at n=6,000: powered up to sigma 0.09
-    K=3 T2b CLINC150 at n=12,850: powered up to sigma 0.19
-    K=3 T2c CivilComments at n=60,000: powered up to sigma 0.51
-  K=5 sigma=0.10: n(EB, one-sided-equivalent via two-sided) = 6,671
-  K=5 sigma=0.20: n(EB, one-sided-equivalent via two-sided) = 14,035
-  K=5 sigma=0.30: n(EB, one-sided-equivalent via two-sided) = 25,535
-    K=5 T2a BANKING77 at n=6,000: powered up to sigma 0.08
-    K=5 T2b CLINC150 at n=12,850: powered up to sigma 0.18
-    K=5 T2c CivilComments at n=60,000: powered up to sigma 0.49
-  K=5 is the v4 low-rung set: R1, R2a, R2b, PAW-ft, synthesized program.
+== 4. M5 under EB: ONE-SIDED non-inferiority at +0.01, normalized cost in [0,1] so R=2
+  K=5 sigma=0.10: n_NI(one-sided) = 6,180   [v4's first pass used the two-sided equivalence event: 6,671]
+  K=5 sigma=0.20: n_NI(one-sided) = 12,368   [v4's first pass used the two-sided equivalence event: 14,035]
+  K=5 sigma=0.30: n_NI(one-sided) = 21,902   [v4's first pass used the two-sided equivalence event: 25,535]
+    K=5 T2a BANKING77 at n=6,000: powered up to sigma 0.09
+    K=5 T2b CLINC150 at n=12,850: powered up to sigma 0.2
+    K=5 T2c 40k at n=40,000: powered up to sigma 0.43
+    K=5 T2c 60k at n=60,000: powered up to sigma 0.54
+  K=6 sigma=0.10: n_NI(one-sided) = 6,354   [v4's first pass used the two-sided equivalence event: 6,851]
+  K=6 sigma=0.20: n_NI(one-sided) = 12,698   [v4's first pass used the two-sided equivalence event: 14,385]
+  K=6 sigma=0.30: n_NI(one-sided) = 22,467   [v4's first pass used the two-sided equivalence event: 26,142]
+    K=6 T2a BANKING77 at n=6,000: powered up to sigma 0.09
+    K=6 T2b CLINC150 at n=12,850: powered up to sigma 0.2
+    K=6 T2c 40k at n=40,000: powered up to sigma 0.42
+    K=6 T2c 60k at n=60,000: powered up to sigma 0.53
+  K=6 is the v4 low-rung family: R1, R2a, R2b, A1, A2a (PAW-standard), A2b (PAW-ft).
+  Escalation uses the matching one-sided LCB at the same tail level.
+  Superiority of R3a over a low rung, margin 0.01:
+    true gain 0.02 -> gap 0.01: n_super(EB, K=6, sigma 0.20) = 12,698
+    true gain 0.03 -> gap 0.02: n_super(EB, K=6, sigma 0.20) = 4,296
+
+== 4b. Scenario S12 (Astra v4 F8): planning n vs an OBSERVED certification
+  K=3, n=3,000, sd 0.10: EB radius 0.014573; planning n for 80% NI power at equality = 5,691
+    observed mean +0.000 -> UCB 0.014573 -> not certified
+    observed mean +0.005 -> UCB 0.019573 -> not certified
+  K=3, n=3,000, sd 0.02: EB radius 0.009737; planning n for 80% NI power at equality = 3,015
+    observed mean +0.000 -> UCB 0.009737 -> NI certified
+    observed mean +0.005 -> UCB 0.014737 -> not certified
+  So S12 must state the OBSERVED mean, not only n and sd: at sd 0.02 a mean of 0 certifies
+  and a mean of +0.005 does not, on identical n and sd.
 
 == 5. E4a on the GPU (errata D-b): cells, replications, qualification cutoff
   cells C=108; replications per cell R=40,000; total replications 4,320,000
@@ -81,6 +103,15 @@
     at 2e+08 sampled-loss elements/s on gfx1151 [H]: 0.9 min
     v3's stdlib CPU path was 9.0 CPU-h. v4 caps E4a at 1 GPU-h wall clock;
     exceeding it is a prespecified narrowing to n in {300, 1,000} only.
+
+== 5b. E4a positive-control expected rates per cell class (Astra v4 F11 / Fable v4 P2-1)
+  'radius removed -> every cell at size 0.50' is false for skewed and multi-finalist cells:
+    rare-large, mean-zero difference at n=300, strict acceptance below 0: adoption = P(no rare event) = 0.970444, not 0.50
+    a symmetric continuous cell at K=5, any-of-five adoption, independent finalists: 0.96875, not 0.50
+    sign_exact has no radius to remove, so the mutation does not apply; it needs its own
+    mutation (for example, dropping the discordant-pair restriction).
+  Each detecting cell therefore pre-registers its own expected rate, with the loss
+  distribution, the margin and the assumed joint dependence stated.
   sign_exact cells stay exact-rational on the CPU: their qualification rests on the
   exact binomial above, not on sampling. That is the one recorded CPU step (D-b).
 
