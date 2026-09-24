@@ -795,7 +795,7 @@ v4 adds three, all of which must pass before M3:
 | **B17** | **Disk exhaustion.** Fill `/work` past its tmpfs size from inside the container | ENOSPC inside the container only, and **host free space does not move at all**, because a run never writes to the host disk (Fable v3 P2-5) |
 | **B18** | **GPU budget, admission and burst.** (a) A run exceeding its declared GPU budget. (b) A launch attempt whose aggregate requirement exceeds MemAvailable, tested by **mocking the `/proc/meminfo` reading**, never by consuming host memory (Fable v4 P2-4). (c) A bounded first-party allocation burst toward a raised test floor, to measure kill latency against the 500 ms sampling cadence | (a) the allocator limit aborts the allocation. (b) admission refuses, naming the shortfall. (c) the watchdog kills the container before the reserve is crossed, and the measured latency is recorded. A failure here narrows the affected arm or moves it to Colab; the host is never deliberately driven to OOM |
 
-| **B20** | **GPU hang response, tested by fixture.** The wrapper's heartbeat and fault path are exercised with **injected** stalls and synthetic amdgpu error records — a run that stops emitting heartbeats, and a fabricated driver-error line. **The GPU is never deliberately wedged**: a memory budget does not contain an execution hang, and inducing one endangers the maintainer's other workloads on a shared host (Astra v4 final N2). A genuine device-wedge test needs authorized disposable hardware | The wrapper detects the stall, kills the container and records `blocked(gpu_fault)` with the captured message. The recovery policy is unchanged and **not validated by this fixture**: no `amdgpu` module reload, no GPU reset command and no reboot. If a real device does not recover, the run is abandoned and the maintainer decides at the console; the affected arm moves to Colab (Fable v4 delta P2-3) |
+| **B20** | **GPU hang response, tested by fixture.** The wrapper's heartbeat and fault path are exercised with **injected** stalls and synthetic amdgpu error records — a run that stops emitting heartbeats, and a fabricated driver-error line. **The GPU is never deliberately wedged**: a memory budget does not contain an execution hang, and inducing one endangers the maintainer's other workloads on a shared host (Astra v4 final N2). A genuine device-wedge test needs authorized disposable hardware | The wrapper detects the stall, kills the container and records `blocked(gpu_fault)`. **The record carries wrapper observations only.** M0b measured `kernel.dmesg_restrict` on this host: `augexp` gets `Operation not permitted` reading the ring buffer [Rep], so a fault record cannot carry verified kernel context, and the plan does not change a sysctl to obtain it. The recovery policy is unchanged and **not validated by this fixture**: no `amdgpu` module reload, no GPU reset command and no reboot. If a real device does not recover, the run is abandoned and the maintainer decides at the console; the affected arm moves to Colab (Fable v4 delta P2-3) |
 | **B19** | **Can a candidate's GPU allocation be bounded?** Apply a `dmem` cgroup limit to a rootless container and allocate past it, first-party. Measure whether amdgpu GTT is charged and capped | The allocation fails at the limit and host MemAvailable is unaffected. **If it does not, candidate GPU work moves to Colab** and candidates on this host get no devices (Astra v4 R3) |
 
 B10's criterion is corrected: inside a `--network=none` netns, host-IP connects fail at
@@ -856,8 +856,15 @@ the state is derived from the launch measurement.
 - The proxy binds SNI to the CONNECT host, but tunnel contents after the ClientHello are not
   inspected: **domain fronting through a CDN that permits a Host header differing from SNI is not
   prevented.**
-- Whether the `dmem` cgroup controller can bound amdgpu GTT is untested; the GPU budget and the
-  MemAvailable watchdog are what stand in for it.
+- **`dmem` does not bound amdgpu GTT here.** M0b measured it present in the root cgroup's
+  controllers and absent from `augexp`'s user slice [Rep], so it is not delegated and enabling it
+  elsewhere would touch slices §4.1 forbids. The GPU budget and the MemAvailable watchdog are what
+  stand in for it, for first-party code only.
+- **A GPU-fault record has no kernel context.** `kernel.dmesg_restrict` denies `augexp` the ring
+  buffer, so `blocked(gpu_fault)` is a wrapper-side observation and nothing more.
+- A run writes nothing to the host disk, because `/work` is a tmpfs. The host filesystem's own
+  health is outside this boundary: M0b observed a nonzero btrfs `corruption_errs` counter on the
+  root filesystem that predates this boot, and whether to scrub is the maintainer's decision.
 - **Filesystem custody prevents label exfiltration from this host; it cannot make public
   benchmark labels secret.** CLINC150, BANKING77, CivilComments and HotpotQA are public, so a
   model rung's pretraining, or a proposer that read the corpus before freezing an artifact, can
