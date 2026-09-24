@@ -40,7 +40,9 @@ def paired(left: dict, right: dict) -> dict:
     n = len(differences)
     mean = sum(differences) / n
     variance = sum((d - mean) ** 2 for d in differences) / (n - 1) if n > 1 else 0.0
-    return {"n": n, "mean": mean, "sd": variance ** 0.5}
+    fingerprint = hashlib.sha256(
+        json.dumps([round(d, 12) for d in differences]).encode("utf-8")).hexdigest()
+    return {"n": n, "mean": mean, "sd": variance ** 0.5, "difference_sha256": fingerprint}
 
 
 def choose(rows: dict, gold: dict) -> dict:
@@ -53,8 +55,9 @@ def choose(rows: dict, gold: dict) -> dict:
     # earlier version chose the signal on true utility and only the threshold on the proxy, which
     # made arm (vi) label-free in its last step and outcome-selected in its first; the runner
     # caught it, and a procedure that is label-free in part is not a label-free procedure.
-    # Ties break toward the lower threshold, then the alphabetically first signal, so both arms
-    # are deterministic rather than dict-ordered.
+    # Ties break toward the lower threshold, then the alphabetically LAST signal, which is what
+    # max() over this key does. The rule matters only for determinism, not for correctness, and
+    # stating it accurately is cheaper than a comment that disagrees with the code.
     def rank(entry, column):
         return (entry[column], -entry["threshold"], entry["signal"])
 
@@ -156,8 +159,10 @@ def main(argv=None) -> int:
                               for name, summary in summaries.items()},
         }
 
-    signatures = [(c["reader"], round(c["mean"], 12), round(c["sd"], 12))
-                  for c in report["contrasts"]]
+    # Fingerprint the full paired-difference vector, not a rounded summary: two different vectors
+    # can share a mean and an sd, and the question this answers is whether two contrasts are the
+    # same contrast. It is a distinctness check, not a claim that the contrasts are independent.
+    signatures = [c.get("difference_sha256") for c in report["contrasts"]]
     report["distinct_contrasts"] = len(set(signatures))
     if report["distinct_contrasts"] != M_FAMILY:
         report["degeneracy_warning"] = (
