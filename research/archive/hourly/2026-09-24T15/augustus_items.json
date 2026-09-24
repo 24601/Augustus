@@ -1,0 +1,4492 @@
+[
+  {
+    "id": "heyjunpenn/awesome-jev",
+    "source": "github",
+    "stars": 800,
+    "why": "REVISIT densify: description rewrite \u2014 A verified, community-maintained catalog of 896 open-source projects built with Jev. (*theirs*)",
+    "html_url": "https://github.com/heyjunpenn/awesome-jev",
+    "pushed_at": "2026-09-24T05:26:52Z",
+    "created_at": null,
+    "found_via": [],
+    "hf_kind": null,
+    "fork": null,
+    "kind": "revisit",
+    "material": [
+      "description_rewrite"
+    ]
+  },
+  {
+    "id": "kydlikebtc/awesome-jev",
+    "source": "github",
+    "stars": 270,
+    "why": "REVISIT densify: description rewrite \u2014 1207 public resources for Jev, TypeSafe AI's System One decision model, indexed by decisio (*theirs*)",
+    "html_url": "https://github.com/kydlikebtc/awesome-jev",
+    "pushed_at": "2026-09-24T15:23:41Z",
+    "created_at": null,
+    "found_via": [],
+    "hf_kind": null,
+    "fork": null,
+    "kind": "revisit",
+    "material": [
+      "description_rewrite"
+    ]
+  },
+  {
+    "id": "alvarobartt/sys1",
+    "source": "github",
+    "stars": 35,
+    "why": "REVISIT densify: description rewrite \u2014 System One compatible API for open decision models, written in Rust. (*theirs*)",
+    "html_url": "https://github.com/alvarobartt/sys1",
+    "pushed_at": "2026-09-24T14:53:00Z",
+    "created_at": null,
+    "found_via": [],
+    "hf_kind": null,
+    "fork": null,
+    "kind": "revisit",
+    "material": [
+      "description_rewrite"
+    ]
+  },
+  {
+    "id": "shengjidaguai-china/goutoujunshi-jev-chat",
+    "source": "github",
+    "stars": 20,
+    "why": "\u72d7\u5934\u519b\u5e08 Chat\uff1aMac \u5fae\u4fe1\u8bfb\u5c4f\u3001\u5173\u7cfb\u5206\u6790\u4e0e\u56de\u590d\u8349\u7a3f\u60ac\u6d6e\u7a97",
+    "html_url": "https://github.com/shengjidaguai-china/goutoujunshi-jev-chat",
+    "pushed_at": "2026-09-24T15:11:19Z",
+    "created_at": "2026-09-23T09:42:26Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "fornhere/hafiza-os",
+    "source": "github",
+    "stars": 15,
+    "why": "Linux, macOS ve Windows i\u00e7in kaynakl\u0131 ikinci beyin. Claude Code, Codex ve Antigravity adapt\u00f6rleri; yerel Markdown kasa, ayr\u0131 haf\u0131za incelemesi, iste\u011fe ba\u011fl\u0131 Mem0/Jev.",
+    "html_url": "https://github.com/fornhere/hafiza-os",
+    "pushed_at": "2026-09-24T15:22:33Z",
+    "created_at": "2026-08-30T12:34:55Z",
+    "found_via": [
+      "jev_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "shapsider/OmniJev",
+    "source": "github",
+    "stars": 13,
+    "why": "OmniJev \u2014 multimodal finite-choice decision interface and MuJoCo embodied workbench: trajectory replays, decision probes, benchmark panels, 60s walkthrough.",
+    "html_url": "https://github.com/shapsider/OmniJev",
+    "pushed_at": "2026-09-24T14:56:16Z",
+    "created_at": "2026-09-22T04:55:06Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "caiovicentino/eikos",
+    "source": "github",
+    "stars": 8,
+    "why": "Open, calibrated, single-pass typed-decision models (4B & 27B) for finance and trading",
+    "html_url": "https://github.com/caiovicentino/eikos",
+    "pushed_at": "2026-09-24T12:01:10Z",
+    "created_at": "2026-09-23T23:48:54Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:TokenRhythm/NeoHorse-Jev-4B",
+    "source": "huggingface",
+    "stars": 7,
+    "why": "text-classification pytorch safetensors agentic decision-model typed-decisions structured-prediction non-generative multimodal vision-language text-classification base_model:TokenRhythm/NeoHorse-1-4B base_model:finetune:TokenRhythm/NeoHorse-1-4B",
+    "html_url": "https://huggingface.co/TokenRhythm/NeoHorse-Jev-4B",
+    "pushed_at": "2026-09-24T13:59:33.000Z",
+    "created_at": "2026-09-23T15:42:08.000Z",
+    "found_via": [
+      "models_jev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "AI-Discussion-Room/LaKun",
+    "source": "github",
+    "stars": 6,
+    "why": "LaKun: a research multimodal typed-decision model for text and single-image inputs, supporting choice, score, and binary judgments.",
+    "html_url": "https://github.com/AI-Discussion-Room/LaKun",
+    "pushed_at": "2026-09-24T12:13:51Z",
+    "created_at": "2026-09-23T16:15:38Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "brida-ai/reflexbench",
+    "source": "github",
+    "stars": 5,
+    "why": "REVISIT densify: description rewrite \u2014 ReflexBench \u2014 open benchmark and evaluation harness for System One models and typed decisi (*theirs*)",
+    "html_url": "https://github.com/brida-ai/reflexbench",
+    "pushed_at": "2026-09-24T02:09:48Z",
+    "created_at": null,
+    "found_via": [],
+    "hf_kind": null,
+    "fork": null,
+    "kind": "revisit",
+    "material": [
+      "description_rewrite"
+    ]
+  },
+  {
+    "id": "hf:tasksource/tasksource-jev-typed-decisions",
+    "source": "huggingface",
+    "stars": 4,
+    "why": "REVISIT densify: description rewrite \u2014 \n\t\n\t\t\n\t\n\t\n\t\ttasksource-jev-typed-decisions\n\t\n\nOne million decisions from 500+ Tasksource t (*theirs*)",
+    "html_url": "https://huggingface.co/datasets/tasksource/tasksource-jev-typed-decisions",
+    "pushed_at": "2026-09-23T22:30:41.000Z",
+    "created_at": null,
+    "found_via": [],
+    "hf_kind": null,
+    "fork": null,
+    "kind": "revisit",
+    "material": [
+      "description_rewrite"
+    ]
+  },
+  {
+    "id": "jinlio/mjbrain",
+    "source": "github",
+    "stars": 4,
+    "why": "\u57fa\u4e8e LAYA \u5fae\u8c03\u7684\u7acb\u76f4\u9ebb\u5c06\u5b9e\u65f6\u51b3\u7b56\u63a8\u8350\u7cfb\u7edf \u2014 real-time mahjong decision advisor (recommend-only, zero injection), LAYA-finetuned",
+    "html_url": "https://github.com/jinlio/mjbrain",
+    "pushed_at": "2026-09-24T13:46:32Z",
+    "created_at": "2026-09-22T09:20:31Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created",
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "YidiDev/jev-benchmark",
+    "source": "github",
+    "stars": 3,
+    "why": "REVISIT densify: description rewrite \u2014 Rubric-Based Zero-Shot Classification Benchmark: Jev vs Claude Haiku 4.5 vs Claude Sonnet  (*theirs*)",
+    "html_url": "https://github.com/YidiDev/jev-benchmark",
+    "pushed_at": "2026-09-24T00:43:03Z",
+    "created_at": null,
+    "found_via": [],
+    "hf_kind": null,
+    "fork": null,
+    "kind": "revisit",
+    "material": [
+      "description_rewrite"
+    ]
+  },
+  {
+    "id": "alanhuangyoo/wev",
+    "source": "github",
+    "stars": 3,
+    "why": "Local System-One decision models: typed questions in, calibrated probabilities out. General decisions and browser-agent steps.",
+    "html_url": "https://github.com/alanhuangyoo/wev",
+    "pushed_at": "2026-09-24T14:59:33Z",
+    "created_at": "2026-09-22T19:15:31Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "system-one_pushed",
+      "decision_model_llm",
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "atliq/jev-ai-use-cases",
+    "source": "github",
+    "stars": 3,
+    "why": "Hands-on LangChain examples of Jev, TypeSafe AI's decision model: support ticket triage, model routing, reply guardrails, tool selection and finance-inbox fraud checks. An LLM writes; Jev decides.",
+    "html_url": "https://github.com/atliq/jev-ai-use-cases",
+    "pushed_at": "2026-09-24T10:00:31Z",
+    "created_at": "2026-09-24T09:55:50Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "bgivenb/flick-computer-use",
+    "source": "github",
+    "stars": 3,
+    "why": "Fast browser and macOS computer use for MCP agents. Local execution, TypeSafe Jev decisions, verified outcomes.",
+    "html_url": "https://github.com/bgivenb/flick-computer-use",
+    "pushed_at": "2026-09-24T05:56:02Z",
+    "created_at": "2026-09-24T05:49:24Z",
+    "found_via": [
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "frolleks/soter",
+    "source": "github",
+    "stars": 3,
+    "why": "An automated Discord moderation bot, powered by Jev.",
+    "html_url": "https://github.com/frolleks/soter",
+    "pushed_at": "2026-09-24T12:47:50Z",
+    "created_at": "2026-09-22T12:39:38Z",
+    "found_via": [
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "glud123/jev-assist",
+    "source": "github",
+    "stars": 3,
+    "why": "REVISIT densify: description rewrite \u2014 Don't burn your model's context on a search flood \u2014 pipe it in and read above the cut line (*theirs*)",
+    "html_url": "https://github.com/glud123/jev-assist",
+    "pushed_at": "2026-09-24T11:10:23Z",
+    "created_at": null,
+    "found_via": [],
+    "hf_kind": null,
+    "fork": null,
+    "kind": "revisit",
+    "material": [
+      "description_rewrite"
+    ]
+  },
+  {
+    "id": "hf:Reza2kn/Jev-Omni-Q4_K_M-GGUF",
+    "source": "huggingface",
+    "stars": 3,
+    "why": "gguf quantized multimodal decision-classification en fa base_model:akhilaaa3/Jev-Omni base_model:quantized:akhilaaa3/Jev-Omni license:apache-2.0 endpoints_compatible region:us conversational",
+    "html_url": "https://huggingface.co/Reza2kn/Jev-Omni-Q4_K_M-GGUF",
+    "pushed_at": "2026-09-23T22:20:19.000Z",
+    "created_at": "2026-09-23T21:58:00.000Z",
+    "found_via": [
+      "models_jev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "mansicer/jev-plays",
+    "source": "github",
+    "stars": 3,
+    "why": "A System One model (jev) plays Craftax; an LLM sets the goals",
+    "html_url": "https://github.com/mansicer/jev-plays",
+    "pushed_at": "2026-09-24T11:30:47Z",
+    "created_at": "2026-09-21T15:50:25Z",
+    "found_via": [
+      "topic_system-one",
+      "system-one_created",
+      "system_one_spaced_pushed",
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "JimmyWesley/rlcd-gateway",
+    "source": "github",
+    "stars": 2,
+    "why": "REVISIT densify: description rewrite \u2014 Self-hosted gateway for LLMs and decision models. Claude Code, Codex, OpenCode and any Ope (*theirs*)",
+    "html_url": "https://github.com/JimmyWesley/rlcd-gateway",
+    "pushed_at": "2026-09-24T13:31:54Z",
+    "created_at": null,
+    "found_via": [],
+    "hf_kind": null,
+    "fork": null,
+    "kind": "revisit",
+    "material": [
+      "description_rewrite"
+    ]
+  },
+  {
+    "id": "LuticaCANARD/L2S1",
+    "source": "github",
+    "stars": 2,
+    "why": "jev-like adaptor for llama.cpp interface",
+    "html_url": "https://github.com/LuticaCANARD/L2S1",
+    "pushed_at": "2026-09-24T15:11:08Z",
+    "created_at": "2026-09-20T15:07:30Z",
+    "found_via": [
+      "jev_pushed",
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "bgrablin/hermes-switchyard",
+    "source": "github",
+    "stars": 2,
+    "why": "REVISIT densify: description rewrite \u2014 Jev for Hermes: skill discovery, multi-skill advice, adaptive reasoning effort, model reco (*theirs*)",
+    "html_url": "https://github.com/bgrablin/hermes-switchyard",
+    "pushed_at": "2026-09-24T14:43:33Z",
+    "created_at": null,
+    "found_via": [],
+    "hf_kind": null,
+    "fork": null,
+    "kind": "revisit",
+    "material": [
+      "description_rewrite"
+    ]
+  },
+  {
+    "id": "chaitin/Decis",
+    "source": "github",
+    "stars": 2,
+    "why": "Self-hosted, Jev-compatible decision-model API \u2014 one /v1/systemone endpoint, open weights (Laya, kev), one Docker image per engine.",
+    "html_url": "https://github.com/chaitin/Decis",
+    "pushed_at": "2026-09-24T10:01:35Z",
+    "created_at": "2026-09-22T09:06:47Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm",
+      "Laya_created",
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "cnrai/openpave-jev",
+    "source": "github",
+    "stars": 2,
+    "why": "PAVE skill for non-autoregressive decision models (Jev / Laya / TypeSafe): typed Choice, Score and Noul answers with calibrated probabilities",
+    "html_url": "https://github.com/cnrai/openpave-jev",
+    "pushed_at": "2026-09-24T05:34:17Z",
+    "created_at": "2026-09-24T00:49:54Z",
+    "found_via": [
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "diorrego/toolgate-experiment",
+    "source": "github",
+    "stars": 2,
+    "why": "Benchmarks of MCP tool selection accuracy and latency. V2 evaluates 143 Woku tools with GPT-6 Luna API calls and Jev; includes Go/Rust cores, one TypeScript SDK and reproducible reports.",
+    "html_url": "https://github.com/diorrego/toolgate-experiment",
+    "pushed_at": "2026-09-24T13:26:51Z",
+    "created_at": "2026-09-23T23:20:02Z",
+    "found_via": [
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:HIT-TMG/JevEmbed-Data",
+    "source": "huggingface",
+    "stars": 2,
+    "why": "JevEmbed-Data\n\t\n\n\nThis dataset contains 1,601,157 training and 66,482 test questions for JevEmbed. Here, test is the source corpus's validation split. The ten Parquet files each hold at most 200,000 rows.\n\n\t\n\t\t\n\t\n\t\n\t\tFields\n\t\n\nEach row is one decision. request_json and answers_json are JSON strings;",
+    "html_url": "https://huggingface.co/datasets/HIT-TMG/JevEmbed-Data",
+    "pushed_at": "2026-09-24T13:14:51.000Z",
+    "created_at": "2026-09-24T05:39:36.000Z",
+    "found_via": [
+      "datasets_jev"
+    ],
+    "hf_kind": "dataset",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:guanxuyu/visual-jev-4b-answer-sft",
+    "source": "huggingface",
+    "stars": 2,
+    "why": "REVISIT densify: description rewrite \u2014 image-text-to-text peft safetensors lora qwen3-vl visual-question-answering multiple-choic (*theirs*)",
+    "html_url": "https://huggingface.co/guanxuyu/visual-jev-4b-answer-sft",
+    "pushed_at": "2026-09-24T07:29:58.000Z",
+    "created_at": null,
+    "found_via": [],
+    "hf_kind": null,
+    "fork": null,
+    "kind": "revisit",
+    "material": [
+      "description_rewrite"
+    ]
+  },
+  {
+    "id": "nagisanzenin/nagi",
+    "source": "github",
+    "stars": 2,
+    "why": "Typed decisions in one forward pass: Smol 421M, Big 4B and Nagi-HUGE 12B. Reproducible four-system benchmark.",
+    "html_url": "https://github.com/nagisanzenin/nagi",
+    "pushed_at": "2026-09-24T13:14:40Z",
+    "created_at": "2026-09-23T11:43:07Z",
+    "found_via": [
+      "system-one_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "zhengge6/jev-crush",
+    "source": "github",
+    "stars": 2,
+    "why": "jev-crush\uff1a\u628a\u4e00\u6bb5\u53cc\u4eba\u804a\u5929\u8bfb\u6210\u60c5\u7eea\u3001\u610f\u56fe\u548c\u597d\u611f\u4fe1\u53f7\u3002\u8d34\u8fdb\u5fae\u4fe1\u8bb0\u5f55\uff0c\u6807\u7b7e\u6807\u5728\u6c14\u6ce1\u4e0a\u3002Jev \u5224\u65ad\uff0cMIT\u3002",
+    "html_url": "https://github.com/zhengge6/jev-crush",
+    "pushed_at": "2026-09-24T10:04:12Z",
+    "created_at": "2026-09-24T02:42:12Z",
+    "found_via": [
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "47thtechcorner/RayCodes_LayaAI",
+    "source": "github",
+    "stars": 1,
+    "why": "Laya 0.4B: The Free Jev Killer That Answers in 32ms! Sub-35ms open-weight System 1 decision model running real-time Pong AI.",
+    "html_url": "https://github.com/47thtechcorner/RayCodes_LayaAI",
+    "pushed_at": "2026-09-24T05:26:18Z",
+    "created_at": "2026-09-24T05:26:13Z",
+    "found_via": [
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "AgenticAPP-Web/Jev-Research-Index",
+    "source": "github",
+    "stars": 1,
+    "why": "Jev Research Index is a bilingual catalogue of papers, software projects, interviews, public analyses, demonstrations, and social-media material related to Jev, the TypeSafe AI System One typed probabilistic decision model.",
+    "html_url": "https://github.com/AgenticAPP-Web/Jev-Research-Index",
+    "pushed_at": "2026-09-24T11:01:43Z",
+    "created_at": "2026-09-24T02:55:17Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm",
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "AmRitJain0442/Tern",
+    "source": "github",
+    "stars": 1,
+    "why": "Small router. Clear decisions. Local Laya inference, conservative LLM routing, and a configurable Chat Completions API.",
+    "html_url": "https://github.com/AmRitJain0442/Tern",
+    "pushed_at": "2026-09-24T10:51:34Z",
+    "created_at": "2026-09-23T12:42:22Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "BlastZZZZ/jev-anything",
+    "source": "github",
+    "stars": 1,
+    "why": "Lightweight 0.6B decision models for browser agents, RAG retrieval and evidence assessment, game policies, and calibrated probability estimation.",
+    "html_url": "https://github.com/BlastZZZZ/jev-anything",
+    "pushed_at": "2026-09-24T15:05:56Z",
+    "created_at": "2026-09-24T14:48:57Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm",
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "DigitalIQ/tabwerk",
+    "source": "github",
+    "stars": 1,
+    "why": "Chrome-Extension f\u00fcr viele offene Tabs: Schnellsuche, Gruppen, Sortieren, Doppelte, W\u00e4chter und Verlauf. Optional mit Jev \u00fcber OpenRouter oder TypeSafe.",
+    "html_url": "https://github.com/DigitalIQ/tabwerk",
+    "pushed_at": "2026-09-24T11:52:01Z",
+    "created_at": "2026-09-24T10:23:37Z",
+    "found_via": [
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "FlyPig23/Codex_ChatGPT_JEV_Switch",
+    "source": "github",
+    "stars": 1,
+    "why": "Fork of codex-with-chatgpt: TypeSafe Jev + deterministic rules decide when Codex hands work to ChatGPT web (plan, debug, review) and when it switches back. \u7528 Jev \u81ea\u52a8\u51b3\u5b9a Codex \u4e0e\u7f51\u9875\u7248 ChatGPT \u4f55\u65f6\u5207\u6362\u3002",
+    "html_url": "https://github.com/FlyPig23/Codex_ChatGPT_JEV_Switch",
+    "pushed_at": "2026-09-24T08:00:55Z",
+    "created_at": "2026-09-24T07:47:17Z",
+    "found_via": [
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "JoasASantos/Raze",
+    "source": "github",
+    "stars": 1,
+    "why": "Offensive-security agent built on Raze, a System One model in the Jev family \u2014 turns target state into typed, calibrated judgments (exploitability, impact, novelty, next action) gated by deterministic validators.",
+    "html_url": "https://github.com/JoasASantos/Raze",
+    "pushed_at": "2026-09-24T15:18:34Z",
+    "created_at": "2026-09-24T02:55:46Z",
+    "found_via": [
+      "system-one_pushed",
+      "jev_pushed",
+      "system-one_created",
+      "system_one_spaced_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Kunyanli230/Jevometry",
+    "source": "github",
+    "stars": 1,
+    "why": "an Information-Geometric Analysis Toolkit for any System-one (Jev, Jevlike) agent systems",
+    "html_url": "https://github.com/Kunyanli230/Jevometry",
+    "pushed_at": "2026-09-24T02:12:43Z",
+    "created_at": "2026-09-24T00:25:45Z",
+    "found_via": [
+      "topic_system-one"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "ajayjha1/laya-studio-node",
+    "source": "github",
+    "stars": 1,
+    "why": "Node.js/TypeScript toolkit for using Laya as a fast decision layer in AI applications. Typed classification, structured decisions, confidence gating, routing, CLI and MCP server. Zero dependencies, no Python required.",
+    "html_url": "https://github.com/ajayjha1/laya-studio-node",
+    "pushed_at": "2026-09-24T11:51:13Z",
+    "created_at": "2026-09-24T08:04:53Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "bmw8080/laya-decision-api",
+    "source": "github",
+    "stars": 1,
+    "why": "\u628a\u672c\u5730 System-1 \u51b3\u7b56\u6a21\u578b\uff08Laya\uff09\u5305\u6210 HTTP \u670d\u52a1\uff1a\u610f\u56fe\u5206\u7c7b / \u5de5\u5355\u5206\u6d3e / LLM \u8def\u7531 / \u5185\u5bb9\u5ba1\u6838\uff0c\u79bb\u7ebf\u96f6 token\u3001\u4e0d\u751f\u6210\u6587\u5b57\uff1bApple Silicon(MLX) \u4e0e Linux(torch) \u53cc\u540e\u7aef\uff1b\u53ef\u5bfc\u51fa OpenAPI 3.0/3.1\uff1bJava/TS/Python \u96f6\u4f9d\u8d56 SDK\u3002",
+    "html_url": "https://github.com/bmw8080/laya-decision-api",
+    "pushed_at": "2026-09-24T11:16:14Z",
+    "created_at": "2026-09-24T07:56:59Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "bydeng01/scientific-decision-eval",
+    "source": "github",
+    "stars": 1,
+    "why": "Code and data for evaluating Jev, a System One model, on scientific decisions and how its choices affect downstream results.",
+    "html_url": "https://github.com/bydeng01/scientific-decision-eval",
+    "pushed_at": "2026-09-24T10:12:51Z",
+    "created_at": "2026-09-24T09:51:10Z",
+    "found_via": [
+      "topic_system-one",
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "chemany/jeva",
+    "source": "github",
+    "stars": 1,
+    "why": "REVISIT densify: description rewrite \u2014 A 2B browser-agent decision model: 100% on the frozen suites, ~230 ms/decision, weights on (*theirs*)",
+    "html_url": "https://github.com/chemany/jeva",
+    "pushed_at": "2026-09-24T11:21:59Z",
+    "created_at": null,
+    "found_via": [],
+    "hf_kind": null,
+    "fork": null,
+    "kind": "revisit",
+    "material": [
+      "description_rewrite"
+    ]
+  },
+  {
+    "id": "hemanth/jevql",
+    "source": "github",
+    "stars": 1,
+    "why": "PostgreSQL-compatible query language powered by TypeSafe Jev System One models",
+    "html_url": "https://github.com/hemanth/jevql",
+    "pushed_at": "2026-09-24T14:14:48Z",
+    "created_at": "2026-09-21T07:11:47Z",
+    "found_via": [
+      "system-one_pushed",
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:Fr0zencr4nE/jev-spatial",
+    "source": "huggingface",
+    "stars": 1,
+    "why": "safetensors spatial-reasoning multimodal classification pointing en zh base_model:allenai/Molmo2-ER base_model:finetune:allenai/Molmo2-ER license:apache-2.0 region:us",
+    "html_url": "https://huggingface.co/Fr0zencr4nE/jev-spatial",
+    "pushed_at": "2026-09-24T08:32:42.000Z",
+    "created_at": "2026-09-24T02:41:26.000Z",
+    "found_via": [
+      "models_jev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:Quazim0t0/Byrne-Jev-79M",
+    "source": "huggingface",
+    "stars": 1,
+    "why": "pytorch decision system-1 jev typed-decisions small-models license:apache-2.0 region:us",
+    "html_url": "https://huggingface.co/Quazim0t0/Byrne-Jev-79M",
+    "pushed_at": "2026-09-24T13:14:04.000Z",
+    "created_at": "2026-09-24T13:13:58.000Z",
+    "found_via": [
+      "models_jev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:TokenRhythm/NeoHorse-Jev-4B-GGUF",
+    "source": "huggingface",
+    "stars": 1,
+    "why": "text-classification gguf decision-model vision non-generative text-classification base_model:TokenRhythm/NeoHorse-Jev-4B base_model:quantized:TokenRhythm/NeoHorse-Jev-4B license:apache-2.0 region:us",
+    "html_url": "https://huggingface.co/TokenRhythm/NeoHorse-Jev-4B-GGUF",
+    "pushed_at": "2026-09-24T14:26:01.000Z",
+    "created_at": "2026-09-24T06:38:06.000Z",
+    "found_via": [
+      "models_jev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:divyanshx11/JEVision",
+    "source": "huggingface",
+    "stars": 1,
+    "why": "safetensors multimodal vision decision-model long-context qwen3.5 lora typesafe en dataset:legacy-datasets/banking77 dataset:google/boolq dataset:fancyzhx/ag_news",
+    "html_url": "https://huggingface.co/divyanshx11/JEVision",
+    "pushed_at": "2026-09-24T08:59:49.000Z",
+    "created_at": "2026-09-24T07:21:21.000Z",
+    "found_via": [
+      "models_jev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:guoan1/jev-qwen35-08b",
+    "source": "huggingface",
+    "stars": 1,
+    "why": "peft safetensors decision-model lora calibration system-one qwen3.5 base_model:Qwen/Qwen3.5-0.8B-Base base_model:adapter:Qwen/Qwen3.5-0.8B-Base license:apache-2.0 region:us",
+    "html_url": "https://huggingface.co/guoan1/jev-qwen35-08b",
+    "pushed_at": "2026-09-24T02:29:30.000Z",
+    "created_at": "2026-09-24T02:29:03.000Z",
+    "found_via": [
+      "models_jev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:harshpreet931/cut-laya-onnx",
+    "source": "huggingface",
+    "stars": 1,
+    "why": "text-classification onnx webgpu laya text-classification base_model:convaiinnovations/laya base_model:quantized:convaiinnovations/laya license:apache-2.0 region:us",
+    "html_url": "https://huggingface.co/harshpreet931/cut-laya-onnx",
+    "pushed_at": "2026-09-24T10:07:58.000Z",
+    "created_at": "2026-09-24T10:05:55.000Z",
+    "found_via": [
+      "models_laya"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:hugging-apps/eikos-4b-typed-decisions-demo",
+    "source": "huggingface",
+    "stars": 1,
+    "why": "gradio mcp-server region:us",
+    "html_url": "https://huggingface.co/spaces/hugging-apps/eikos-4b-typed-decisions-demo",
+    "pushed_at": "2026-09-24T05:26:23.000Z",
+    "created_at": "2026-09-24T05:20:15.000Z",
+    "found_via": [
+      "spaces_typed-decision"
+    ],
+    "hf_kind": "space",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:tasksource/procedural-typed-decisions",
+    "source": "huggingface",
+    "stars": 1,
+    "why": "procedural-typed-decisions\n\t\n\nProcedurally generated decision problems. Each row is one structured state\n(JSON, or a table, CSV, key=value lines, or prose for the arithmetic,\nretrieval, and aggregation configs) with several typed questions over that same state, following the\nJev / System One request",
+    "html_url": "https://huggingface.co/datasets/tasksource/procedural-typed-decisions",
+    "pushed_at": "2026-09-24T09:03:14.000Z",
+    "created_at": "2026-09-23T08:19:17.000Z",
+    "found_via": [
+      "datasets_typed-decision"
+    ],
+    "hf_kind": "dataset",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "jerelvelarde/jev-copilotkit",
+    "source": "github",
+    "stars": 1,
+    "why": "CopilotKit and Jev agent arenas: Wikipedia race and visual tool-calling benchmark",
+    "html_url": "https://github.com/jerelvelarde/jev-copilotkit",
+    "pushed_at": "2026-09-24T15:00:25Z",
+    "created_at": "2026-09-21T12:21:15Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "mohit67890/imajev",
+    "source": "github",
+    "stars": 1,
+    "why": "Open Jev-style typed-decision model that also takes images: photo + app state + typed questions in, calibrated probabilities out, locally.",
+    "html_url": "https://github.com/mohit67890/imajev",
+    "pushed_at": "2026-09-24T14:37:47Z",
+    "created_at": "2026-09-23T11:57:16Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "newfull5/malkuth",
+    "source": "github",
+    "stars": 1,
+    "why": "Jev like System One decision models for multilingual",
+    "html_url": "https://github.com/newfull5/malkuth",
+    "pushed_at": "2026-09-24T12:50:37Z",
+    "created_at": "2026-09-24T05:28:16Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm",
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "ollaya-dev/ollaya",
+    "source": "github",
+    "stars": 1,
+    "why": "Run open decision models locally: pull and serve Laya, decider, NLI and GLiClass behind a TypeSafe-compatible API. Ollama for decision models.",
+    "html_url": "https://github.com/ollaya-dev/ollaya",
+    "pushed_at": "2026-09-24T12:24:34Z",
+    "created_at": "2026-09-23T22:11:15Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "Laya_pushed",
+      "decision_model_llm",
+      "GLiClass_created",
+      "Laya_created",
+      "GLiClass_pushed",
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "pareshbhangale/JEV---Job-Hiring-Content-Detector",
+    "source": "github",
+    "stars": 1,
+    "why": "Supercharge your job hunt on social feeds. Instantly isolate, highlight, and filter hiring opportunities on LinkedIn, X.com (Twitter), and Reddit with ultra-fast local heuristics (<0.003ms) and zero tracking using typesafe jev",
+    "html_url": "https://github.com/pareshbhangale/JEV---Job-Hiring-Content-Detector",
+    "pushed_at": "2026-09-24T13:35:31Z",
+    "created_at": "2026-09-24T12:22:29Z",
+    "found_via": [
+      "topic_typesafe",
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "psyb0t/decidealot",
+    "source": "github",
+    "stars": 1,
+    "why": "REVISIT densify: description rewrite \u2014 Your hardware. Local decision models. Turn messy state into typed choices, scores, and yes (*theirs*)",
+    "html_url": "https://github.com/psyb0t/decidealot",
+    "pushed_at": "2026-09-24T13:12:05Z",
+    "created_at": null,
+    "found_via": [],
+    "hf_kind": null,
+    "fork": null,
+    "kind": "revisit",
+    "material": [
+      "description_rewrite"
+    ]
+  },
+  {
+    "id": "styles01/deci-serv",
+    "source": "github",
+    "stars": 1,
+    "why": "A PyTorch server for System-1 decision models \u2014 calibrated decision gates served locally",
+    "html_url": "https://github.com/styles01/deci-serv",
+    "pushed_at": "2026-09-24T13:57:30Z",
+    "created_at": "2026-09-23T23:17:04Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "yanqiangmiffy/chinese-laya",
+    "source": "github",
+    "stars": 1,
+    "why": "chinese-laya",
+    "html_url": "https://github.com/yanqiangmiffy/chinese-laya",
+    "pushed_at": "2026-09-24T14:21:19Z",
+    "created_at": "2026-09-23T01:14:08Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "0xshikhar/jev-fuse",
+    "source": "github",
+    "stars": 0,
+    "why": "A governed execution layer between typed-decision models (TypeSafe Jev) and agent/AI tooling like Claude Code, MCP, and AI SDKs, turning probabilistic decisions into deterministic, policy-controlled, and auditable actions.",
+    "html_url": "https://github.com/0xshikhar/jev-fuse",
+    "pushed_at": "2026-09-24T13:23:42Z",
+    "created_at": "2026-09-23T19:15:31Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "4nt0ineB/typed-decision-bench",
+    "source": "github",
+    "stars": 0,
+    "why": "Bench of typed decision models: Jev vs OpenJev vs Laya, small local LLMs and cheap hosted LLMs on the same zero-shot classification tasks, in English and French.",
+    "html_url": "https://github.com/4nt0ineB/typed-decision-bench",
+    "pushed_at": "2026-09-24T11:37:09Z",
+    "created_at": "2026-09-22T21:19:25Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "Laya_pushed",
+      "decision_model_llm",
+      "openjev_pushed",
+      "Laya_created",
+      "openjev_created",
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "AdudodlaVarish/KVev",
+    "source": "github",
+    "stars": 0,
+    "why": "Cache-aware multi-turn LLM inference with rule-based KV reuse, FP8 storage via LMCache, and offline LAYA evaluation.",
+    "html_url": "https://github.com/AdudodlaVarish/KVev",
+    "pushed_at": "2026-09-24T12:44:42Z",
+    "created_at": "2026-09-23T01:07:26Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Anirudh64210/Mae---gmail-companion",
+    "source": "github",
+    "stars": 0,
+    "why": "Mae is a Chrome extension for Gmail that checks your reply when you press Send and tells you if you left a question unanswered. Scored by TypeSafe's Jev. Open source, repo only.",
+    "html_url": "https://github.com/Anirudh64210/Mae---gmail-companion",
+    "pushed_at": "2026-09-24T15:20:31Z",
+    "created_at": "2026-09-24T14:09:38Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "AyushChauhan9389/kev",
+    "source": "github",
+    "stars": 0,
+    "why": "Kev decision models, with MiniCPM5 base support (fork of jaredpalmer/kev)",
+    "html_url": "https://github.com/AyushChauhan9389/kev",
+    "pushed_at": "2026-09-24T04:32:17Z",
+    "created_at": "2026-09-23T07:16:49Z",
+    "found_via": [
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Bernardbyy/JevExperiment",
+    "source": "github",
+    "stars": 0,
+    "why": "Jev vs LLMs: benchmarking a decision model against small LLMs on accuracy, latency and cost.",
+    "html_url": "https://github.com/Bernardbyy/JevExperiment",
+    "pushed_at": "2026-09-24T03:38:31Z",
+    "created_at": "2026-09-24T02:08:35Z",
+    "found_via": [
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "BestNathan/system-one-code-explore",
+    "source": "github",
+    "stars": 0,
+    "why": "REVISIT densify: description rewrite \u2014 Research runtime for System One models to explore and localize code through progressively  (*theirs*)",
+    "html_url": "https://github.com/BestNathan/system-one-code-explore",
+    "pushed_at": "2026-09-24T13:33:34Z",
+    "created_at": null,
+    "found_via": [],
+    "hf_kind": null,
+    "fork": null,
+    "kind": "revisit",
+    "material": [
+      "description_rewrite"
+    ]
+  },
+  {
+    "id": "BingChanCN/omp-jev-toolkit",
+    "source": "github",
+    "stars": 0,
+    "why": "Jev (TypeSafe System One) judgments for omp: verbatim context compaction, a tool-result block sieve with recall, and a walker-based file finder",
+    "html_url": "https://github.com/BingChanCN/omp-jev-toolkit",
+    "pushed_at": "2026-09-24T09:34:23Z",
+    "created_at": "2026-09-24T09:30:40Z",
+    "found_via": [
+      "system_one_spaced_pushed",
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Bonzokoles/36_chambers",
+    "source": "github",
+    "stars": 0,
+    "why": "Federated knowledge retrieval engine for AI agents. Routes queries across specialized backends (FTS5, ChromaDB, graph) via a registry-first orchestrator with TypeSafe/Jev AI routing and evidence re-ranking. Read-only by default, security-gated by design.",
+    "html_url": "https://github.com/Bonzokoles/36_chambers",
+    "pushed_at": "2026-09-24T13:28:46Z",
+    "created_at": "2026-09-20T05:00:04Z",
+    "found_via": [
+      "topic_system-one",
+      "topic_typesafe",
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Emenowicz/jev-sap-commerce",
+    "source": "github",
+    "stars": 0,
+    "why": "SAP Commerce extension that lets TypeSafe's Jev moderate product reviews: dry-run on your own data first, an audit record per decision. Plus a Claude Code skill.",
+    "html_url": "https://github.com/Emenowicz/jev-sap-commerce",
+    "pushed_at": "2026-09-24T14:53:37Z",
+    "created_at": "2026-09-24T14:00:00Z",
+    "found_via": [
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Faizullah9181/esketcher",
+    "source": "github",
+    "stars": 0,
+    "why": "Generative painting canvas where Jev, TypeSafe's calibrated decision model, picks paint materials and colour palettes for 105 procedural sketches. FastAPI + React + TypeScript.",
+    "html_url": "https://github.com/Faizullah9181/esketcher",
+    "pushed_at": "2026-09-24T10:50:08Z",
+    "created_at": "2026-09-23T18:01:56Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm",
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Gackson/Jev-calculator",
+    "source": "github",
+    "stars": 0,
+    "why": "Jev arithmetic experiments: digit-wise Choice, Noul comparison search, and BYOK GUI",
+    "html_url": "https://github.com/Gackson/Jev-calculator",
+    "pushed_at": "2026-09-24T15:15:45Z",
+    "created_at": "2026-09-23T09:25:22Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "GiladR1979/jev-dino",
+    "source": "github",
+    "stars": 0,
+    "why": "JEV action selection at 10 Hz meets original Chromium Dino physics. 13,724 points, 1080p60 recording, and auditable evidence.",
+    "html_url": "https://github.com/GiladR1979/jev-dino",
+    "pushed_at": "2026-09-24T15:22:08Z",
+    "created_at": "2026-09-24T14:49:27Z",
+    "found_via": [
+      "jev_pushed",
+      "topic_jev",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Gowtham-R-2002/gyra",
+    "source": "github",
+    "stars": 0,
+    "why": "A fast second opinion for coding agents: 421M decision model (Laya fine-tune) for destructive commands, success checks, tool choice and prompt injection",
+    "html_url": "https://github.com/Gowtham-R-2002/gyra",
+    "pushed_at": "2026-09-24T14:06:41Z",
+    "created_at": "2026-09-24T14:06:33Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "Laya_pushed",
+      "decision_model_llm",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "GreenPandaStudios/jev-browser-harness",
+    "source": "github",
+    "stars": 0,
+    "why": "Fast, typed System One decisions over Playwright browser actions",
+    "html_url": "https://github.com/GreenPandaStudios/jev-browser-harness",
+    "pushed_at": "2026-09-24T13:04:26Z",
+    "created_at": "2026-09-24T13:04:17Z",
+    "found_via": [
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "HARISRUJAN/RLCD",
+    "source": "github",
+    "stars": 0,
+    "why": "Reproducible Jev structured-decision routing experiment",
+    "html_url": "https://github.com/HARISRUJAN/RLCD",
+    "pushed_at": "2026-09-24T15:02:33Z",
+    "created_at": "2026-09-23T16:56:33Z",
+    "found_via": [
+      "RLCD_created",
+      "jev_pushed",
+      "RLCD_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "HCTDIP/mule-run",
+    "source": "github",
+    "stars": 0,
+    "why": "MuleRun \u2014 Jev 10-step kernel agent orchestration MVP. Typed questions (Choice/Score/Noul), confidence gate, saved handoffs, Chief-of-Staff loop. 16/16 tests green.",
+    "html_url": "https://github.com/HCTDIP/mule-run",
+    "pushed_at": "2026-09-24T14:56:01Z",
+    "created_at": "2026-09-24T13:26:45Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Hduc/synapse",
+    "source": "github",
+    "stars": 0,
+    "why": "Synapse - Fast System 1 Decision & Automation Engine powered by Laya",
+    "html_url": "https://github.com/Hduc/synapse",
+    "pushed_at": "2026-09-24T13:30:56Z",
+    "created_at": "2026-09-23T07:59:50Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Holychung/jev-browser-lab",
+    "source": "github",
+    "stars": 0,
+    "why": "Experiments with TypeSafe Jev + Browser Use (based on browser-use/jev-ultrafast, MIT)",
+    "html_url": "https://github.com/Holychung/jev-browser-lab",
+    "pushed_at": "2026-09-24T14:57:04Z",
+    "created_at": "2026-09-23T03:21:51Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "JeronimoRepetto/local-issue-classifier",
+    "source": "github",
+    "stars": 0,
+    "why": "Local-first web app that pulls a GitHub repo's issues and README, then asks Jev (TypeSafe AI's decision model) to rate each issue by complexity, criticality, effort and relevance. Filter, dismiss, sort by weighted priority and export as plain text. Keys stay in memory; results stay in your browser.",
+    "html_url": "https://github.com/JeronimoRepetto/local-issue-classifier",
+    "pushed_at": "2026-09-24T15:06:04Z",
+    "created_at": "2026-09-23T16:27:02Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Jev-trading/Jev-trading",
+    "source": "github",
+    "stars": 0,
+    "why": "Jev-trading is a desktop application that combines the ultra-fast neural network model Jev (by TypeSafe AI) with an intuitive visual interface. We've created a platform where the power of algorithmic trading is accessible without writing a single line of code, messing with Python scripts, or configu",
+    "html_url": "https://github.com/Jev-trading/Jev-trading",
+    "pushed_at": "2026-09-24T13:30:23Z",
+    "created_at": "2026-09-24T13:06:04Z",
+    "found_via": [
+      "topic_system-one",
+      "system-one_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "JevForge/jev-ci-pathfinder",
+    "source": "github",
+    "stars": 0,
+    "why": "Select which allowlisted CI jobs to run after a change. Jev decides; your workflow stays in control.",
+    "html_url": "https://github.com/JevForge/jev-ci-pathfinder",
+    "pushed_at": "2026-09-24T06:47:06Z",
+    "created_at": "2026-09-24T05:52:06Z",
+    "found_via": [
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "JevForge/jev-model-navigator",
+    "source": "github",
+    "stars": 0,
+    "why": "Route Issues and PRs to the best AI model using typed TypeSafe Jev decisions in GitHub Actions.",
+    "html_url": "https://github.com/JevForge/jev-model-navigator",
+    "pushed_at": "2026-09-24T06:09:51Z",
+    "created_at": "2026-09-24T05:29:37Z",
+    "found_via": [
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "JevForge/jev-security-sentinel",
+    "source": "github",
+    "stars": 0,
+    "why": "Gate SAST, SCA, IaC, secrets, and container findings with Jev. Returns PASS, WARN, BLOCK, or REVIEW without hiding findings.",
+    "html_url": "https://github.com/JevForge/jev-security-sentinel",
+    "pushed_at": "2026-09-24T06:45:12Z",
+    "created_at": "2026-09-24T05:50:44Z",
+    "found_via": [
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "JuneYaooo/jev-healthcare-lab",
+    "source": "github",
+    "stars": 0,
+    "why": "Jev \u533b\u7597\u573a\u666f\u8bc4\u6d4b\u7814\u7a76\uff1a\u6570\u636e\u96c6\u76ee\u5f55\u300196 \u4e2a\u4efb\u52a1\u6761\u4ef6\u3001\u57fa\u7ebf\u4e0e\u6d88\u878d\u5b9e\u9a8c\u3001\u6548\u679c\u7edf\u8ba1\u4e0e\u590d\u73b0\u4ee3\u7801\u3002",
+    "html_url": "https://github.com/JuneYaooo/jev-healthcare-lab",
+    "pushed_at": "2026-09-24T15:08:09Z",
+    "created_at": "2026-09-24T15:07:28Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "KasperXMS/jevlike-exps",
+    "source": "github",
+    "stars": 0,
+    "why": "Minimal Jev-like decision model experiments",
+    "html_url": "https://github.com/KasperXMS/jevlike-exps",
+    "pushed_at": "2026-09-24T08:51:28Z",
+    "created_at": "2026-09-24T08:40:02Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "King4s/jev-loop",
+    "source": "github",
+    "stars": 0,
+    "why": "Jev (TypeSafe) decides, Claude Code or Hermes builds: a decision-driven build loop as MCP server + skill",
+    "html_url": "https://github.com/King4s/jev-loop",
+    "pushed_at": "2026-09-24T13:41:50Z",
+    "created_at": "2026-09-24T12:23:38Z",
+    "found_via": [
+      "topic_typesafe",
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "KotalaKishanReddy/laya-plus",
+    "source": "github",
+    "stars": 0,
+    "why": "Stock Laya + 32k context kit \u2014 Jev-scale state, zero weight changes, Apache-2.0 (unofficial fork)",
+    "html_url": "https://github.com/KotalaKishanReddy/laya-plus",
+    "pushed_at": "2026-09-24T06:07:58Z",
+    "created_at": "2026-09-24T02:04:50Z",
+    "found_via": [
+      "topic_system-one"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "LakoreAI/rlcd-reverse-engineering",
+    "source": "github",
+    "stars": 0,
+    "why": "Reverse-engineering the RLCD",
+    "html_url": "https://github.com/LakoreAI/rlcd-reverse-engineering",
+    "pushed_at": "2026-09-24T15:08:49Z",
+    "created_at": "2026-09-24T13:14:40Z",
+    "found_via": [
+      "RLCD_created",
+      "RLCD_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Lasimeri/Intel-Phi-Jev",
+    "source": "github",
+    "stars": 0,
+    "why": "XKEYSCORE for Jev: TypeSafe System One judgments (noul/choice/score) served locally, with the Xeon Phi cards doing the model's matrix work",
+    "html_url": "https://github.com/Lasimeri/Intel-Phi-Jev",
+    "pushed_at": "2026-09-24T14:42:59Z",
+    "created_at": "2026-09-24T12:08:40Z",
+    "found_via": [
+      "system-one_pushed",
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Lasimeri/Mechanical-Jev",
+    "source": "github",
+    "stars": 0,
+    "why": "TypeSafe's Jev (System One: noul, choice, score) from Rust: client library, mjev CLI, evaluation harness. Client side only.",
+    "html_url": "https://github.com/Lasimeri/Mechanical-Jev",
+    "pushed_at": "2026-09-24T15:13:57Z",
+    "created_at": "2026-09-24T14:46:57Z",
+    "found_via": [
+      "system-one_pushed",
+      "jev_pushed",
+      "system-one_created",
+      "system_one_spaced_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "LivingG0D/laya-trade",
+    "source": "github",
+    "stars": 0,
+    "why": "REVISIT densify: description rewrite \u2014 Crypto TradingView Chart Analyzer & Toobit AI Position Manager (*theirs*)",
+    "html_url": "https://github.com/LivingG0D/laya-trade",
+    "pushed_at": "2026-09-24T13:31:42Z",
+    "created_at": null,
+    "found_via": [],
+    "hf_kind": null,
+    "fork": null,
+    "kind": "revisit",
+    "material": [
+      "description_rewrite"
+    ]
+  },
+  {
+    "id": "MA22DE/git-star-list-sort",
+    "source": "github",
+    "stars": 0,
+    "why": "Sort your GitHub stars into your existing GitHub Lists with TypeSafe Jev. One command: refresh List descriptions, classify, then gated additive apply.",
+    "html_url": "https://github.com/MA22DE/git-star-list-sort",
+    "pushed_at": "2026-09-24T13:32:10Z",
+    "created_at": "2026-09-23T08:16:40Z",
+    "found_via": [
+      "topic_typesafe",
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "MadCodeTX/synthetic-ehr-decision-evals",
+    "source": "github",
+    "stars": 0,
+    "why": "Synthetic EHR administrative-routing decision benchmark: harness, 60k-case synthetic banks, and results for Jev, Qwen, SemIf, Laya and CLM-8B",
+    "html_url": "https://github.com/MadCodeTX/synthetic-ehr-decision-evals",
+    "pushed_at": "2026-09-24T13:42:20Z",
+    "created_at": "2026-09-24T07:33:05Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Mahad-007/jev-why",
+    "source": "github",
+    "stars": 0,
+    "why": "Causal attribution and calibration for TypeSafe Jev decisions. Jev tells you what it decided; jev-why tells you why, and whether you should believe it.",
+    "html_url": "https://github.com/Mahad-007/jev-why",
+    "pushed_at": "2026-09-24T14:47:16Z",
+    "created_at": "2026-09-24T08:05:10Z",
+    "found_via": [
+      "topic_typesafe",
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "MahdiBND/pcd-rlcd",
+    "source": "github",
+    "stars": 0,
+    "why": "Parallel constrained decoding for structured extraction and classification using Reinforcement Learning for Calibrated Decisions",
+    "html_url": "https://github.com/MahdiBND/pcd-rlcd",
+    "pushed_at": "2026-09-24T12:06:22Z",
+    "created_at": "2026-09-24T11:29:47Z",
+    "found_via": [
+      "RLCD_created",
+      "RLCD_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "MiguelFAraujo/laya-ecosystem",
+    "source": "github",
+    "stars": 0,
+    "why": "Production utilities, supervisors, lossless context compactors, and fast UI deciders for the Laya / Jev System-1 decision engine.",
+    "html_url": "https://github.com/MiguelFAraujo/laya-ecosystem",
+    "pushed_at": "2026-09-24T11:24:50Z",
+    "created_at": "2026-09-24T11:05:59Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "NIFT-Information-Architecture-2026/Laya_BD-24-2834",
+    "source": "github",
+    "stars": 0,
+    "why": "My project",
+    "html_url": "https://github.com/NIFT-Information-Architecture-2026/Laya_BD-24-2834",
+    "pushed_at": "2026-09-24T10:07:55Z",
+    "created_at": "2026-09-24T10:07:54Z",
+    "found_via": [
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "NathanHB/open-jev",
+    "source": "github",
+    "stars": 0,
+    "why": "Four minimal decision models (System One style): typed questions in, calibrated option probabilities out, no text generation.",
+    "html_url": "https://github.com/NathanHB/open-jev",
+    "pushed_at": "2026-09-24T14:22:24Z",
+    "created_at": "2026-09-24T14:22:19Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "system-one_pushed",
+      "decision_model_llm",
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Nik-1019/nextwork-jev-inbox-autopilot",
+    "source": "github",
+    "stars": 0,
+    "why": "Build an inbox autopilot in n8n that sorts Gmail with Jev and only acts when it's confident. NextWork project starter.",
+    "html_url": "https://github.com/Nik-1019/nextwork-jev-inbox-autopilot",
+    "pushed_at": "2026-09-24T10:46:34Z",
+    "created_at": "2026-09-24T10:21:18Z",
+    "found_via": [
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Oranquelui/astra-jev-harness",
+    "source": "github",
+    "stars": 0,
+    "why": "Agent Skills for Codex Desktop and Claude Code, plus a Codex CLI harness. Jev-assisted context selection. / Codex Desktop\u30fbClaude Code\u5411\u3051Agent Skills\u3068Codex CLI\u7528\u30cf\u30fc\u30cd\u30b9\u3002Jev\u3067\u30b3\u30f3\u30c6\u30ad\u30b9\u30c8\u3092\u9078\u5225\u3002",
+    "html_url": "https://github.com/Oranquelui/astra-jev-harness",
+    "pushed_at": "2026-09-24T12:53:40Z",
+    "created_at": "2026-09-22T13:53:36Z",
+    "found_via": [
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "PauloBTX/exemplo-hev-roteamento",
+    "source": "github",
+    "stars": 0,
+    "why": "Roteamento autom\u00e1tico de incidentes para o time certo usando o modelo Jev (TypeSafe AI) via OpenRouter, com benchmark de 1000 requisi\u00e7\u00f5es.",
+    "html_url": "https://github.com/PauloBTX/exemplo-hev-roteamento",
+    "pushed_at": "2026-09-24T15:17:25Z",
+    "created_at": "2026-09-24T14:45:32Z",
+    "found_via": [
+      "jev_pushed",
+      "topic_jev",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "PhiDung-hub/typesafe-rust",
+    "source": "github",
+    "stars": 0,
+    "why": "Unofficial Rust client for TypeSafe's System One API (Jev), with opt-in concurrency tooling. Not affiliated with TypeSafe AI.",
+    "html_url": "https://github.com/PhiDung-hub/typesafe-rust",
+    "pushed_at": "2026-09-24T09:47:38Z",
+    "created_at": "2026-09-24T09:47:32Z",
+    "found_via": [
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "PromptEngineer48/langchain-jev-tutorial",
+    "source": "github",
+    "stars": 0,
+    "why": "LangChain + Jev (TypeSafe) tutorial: a support-ops agent whose small decisions (triage, model routing, tool guarding, evals) are made by Jev. Real run outputs included.",
+    "html_url": "https://github.com/PromptEngineer48/langchain-jev-tutorial",
+    "pushed_at": "2026-09-24T12:21:50Z",
+    "created_at": "2026-09-24T12:21:45Z",
+    "found_via": [
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Ryden-kai/intelligent_customer",
+    "source": "github",
+    "stars": 0,
+    "why": "\u591a\u8f6e\u5bf9\u8bdd + FAQ \u68c0\u7d22 + Jev \u610f\u56fe\u8bc6\u522b + \u81ea\u52a8\u8f6c\u4eba\u5de5 + \u7ba1\u7406\u540e\u53f0\u7684\u5168\u6808\u5ba2\u670d\u7cfb\u7edf\u3002Go (chi+SQLite) \u540e\u7aef + React (Vite+TS) \u524d\u7aef\uff0c\u53ef\u72ec\u7acb\u90e8\u7f72\u3002",
+    "html_url": "https://github.com/Ryden-kai/intelligent_customer",
+    "pushed_at": "2026-09-24T15:06:16Z",
+    "created_at": "2026-09-24T15:06:03Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "SENZO-NCEKANA/jev-triage-benchmark",
+    "source": "github",
+    "stars": 0,
+    "why": "Independent benchmark of TypeSafe's Jev against GPT-4.1-mini on 200 labelled enquiries. Finding: a calibrated confidence score tells you when to ask a human, not when to ask a bigger model.",
+    "html_url": "https://github.com/SENZO-NCEKANA/jev-triage-benchmark",
+    "pushed_at": "2026-09-24T14:55:29Z",
+    "created_at": "2026-09-24T13:33:26Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Shai-Koffman/jev-web-agent",
+    "source": "github",
+    "stars": 0,
+    "why": "A web-browsing agent driven by Jev (TypeSafe's System One model): Playwright + typed, calibrated decisions, confidence gate, human in the loop",
+    "html_url": "https://github.com/Shai-Koffman/jev-web-agent",
+    "pushed_at": "2026-09-24T12:58:02Z",
+    "created_at": "2026-09-24T10:26:39Z",
+    "found_via": [
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Shakibuzzaman3104/claude-jev-funnel",
+    "source": "github",
+    "stars": 0,
+    "why": "Claude Code plugin + zero-dependency CLI for TypeSafe's Jev: judge items in bulk with calibrated yes/no, pick-one and rubric answers; handle the confident ends in code, review only the uncertain band.",
+    "html_url": "https://github.com/Shakibuzzaman3104/claude-jev-funnel",
+    "pushed_at": "2026-09-24T09:08:04Z",
+    "created_at": "2026-09-24T08:22:18Z",
+    "found_via": [
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "SnackTerminator/small-decision-model-cross-domain-degradation",
+    "source": "github",
+    "stars": 0,
+    "why": "Controlled evaluation of two open-source small decision models (System One, 395M-596M) on cross-domain and cross-lingual transfer; with a zero-information-experiment taxonomy and an AI-reviewer collaboration protocol. Preprint (Chinese).",
+    "html_url": "https://github.com/SnackTerminator/small-decision-model-cross-domain-degradation",
+    "pushed_at": "2026-09-24T13:19:28Z",
+    "created_at": "2026-09-24T13:06:46Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm",
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Taylor-eOS/jev-deberta-decision",
+    "source": "github",
+    "stars": 0,
+    "why": "Script for typed-decision model.",
+    "html_url": "https://github.com/Taylor-eOS/jev-deberta-decision",
+    "pushed_at": "2026-09-24T10:14:02Z",
+    "created_at": "2026-09-24T10:11:14Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Taylor-eOS/laya-decision",
+    "source": "github",
+    "stars": 0,
+    "why": "Script for a lightweight decision classifier.",
+    "html_url": "https://github.com/Taylor-eOS/laya-decision",
+    "pushed_at": "2026-09-24T09:54:40Z",
+    "created_at": "2026-09-24T09:47:15Z",
+    "found_via": [
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "TejaPriyan/Sureband",
+    "source": "github",
+    "stars": 0,
+    "why": "Distribution-free coverage guarantees for System One decision models like Jev and Laya",
+    "html_url": "https://github.com/TejaPriyan/Sureband",
+    "pushed_at": "2026-09-24T08:42:23Z",
+    "created_at": "2026-09-23T15:54:27Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "ThanabordeeN/AudioLaya",
+    "source": "github",
+    "stars": 0,
+    "why": "Audio-Laya: speech-to-decision research prototype",
+    "html_url": "https://github.com/ThanabordeeN/AudioLaya",
+    "pushed_at": "2026-09-24T10:07:07Z",
+    "created_at": "2026-09-23T18:40:37Z",
+    "found_via": [
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "WesleySmits/codex-triage",
+    "source": "github",
+    "stars": 0,
+    "why": "Local Codex task triage with human-reviewed archiving and optional Jev analysis",
+    "html_url": "https://github.com/WesleySmits/codex-triage",
+    "pushed_at": "2026-09-24T14:32:12Z",
+    "created_at": "2026-09-23T11:56:16Z",
+    "found_via": [
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "WizdenOrg/wizden-moonlander",
+    "source": "github",
+    "stars": 0,
+    "why": "A lunar lander flown by typed-decision models (Laya, JEV). Run campaigns with random landing zones, compare models side by side, and test who does the reasoning: guided prompts vs facts only.",
+    "html_url": "https://github.com/WizdenOrg/wizden-moonlander",
+    "pushed_at": "2026-09-24T14:10:48Z",
+    "created_at": "2026-09-24T13:41:44Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "Laya_pushed",
+      "decision_model_llm",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Zeb88/jev-approach-control",
+    "source": "github",
+    "stars": 0,
+    "why": "Small air traffic control sim for a single runway (27). Give radio calls in plain English, or hand the frequency to Jev, TypeSafe's decision model, and watch it sequence, space and land the traffic.",
+    "html_url": "https://github.com/Zeb88/jev-approach-control",
+    "pushed_at": "2026-09-24T13:20:21Z",
+    "created_at": "2026-09-24T11:43:07Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm",
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "ZorkaA/rlcd-router",
+    "source": "github",
+    "stars": 0,
+    "why": "Asynchronous Speculative Routing for Disk-Offloaded Mixture of Experts (MoE) Models",
+    "html_url": "https://github.com/ZorkaA/rlcd-router",
+    "pushed_at": "2026-09-24T11:32:55Z",
+    "created_at": "2026-09-24T10:18:44Z",
+    "found_via": [
+      "RLCD_created",
+      "RLCD_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "aawhan0/JevRev",
+    "source": "github",
+    "stars": 0,
+    "why": "Benchmarking Jev-based AI routing for cost-efficient inference.",
+    "html_url": "https://github.com/aawhan0/JevRev",
+    "pushed_at": "2026-09-24T14:55:42Z",
+    "created_at": "2026-09-24T06:56:02Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "ab2webco/orca-jev-advisor",
+    "source": "github",
+    "stars": 0,
+    "why": "Jev (TypeSafe)-backed decision layer for Orca Lab: judges what agents are about to run, and stays out of the way otherwise.",
+    "html_url": "https://github.com/ab2webco/orca-jev-advisor",
+    "pushed_at": "2026-09-24T14:59:15Z",
+    "created_at": "2026-09-23T12:42:36Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "acifani/actual-jev",
+    "source": "github",
+    "stars": 0,
+    "why": "Categorize Actual transactions with Jev",
+    "html_url": "https://github.com/acifani/actual-jev",
+    "pushed_at": "2026-09-24T15:05:38Z",
+    "created_at": "2026-09-24T11:51:01Z",
+    "found_via": [
+      "system-one_pushed",
+      "topic_system-one",
+      "jev_pushed",
+      "system-one_created",
+      "topic_jev",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "adarshvermaa/trading_bot",
+    "source": "github",
+    "stars": 0,
+    "why": "Engineered with a confluence-driven architecture combining ICT / Smart Money Concepts, a TradingView Chart Pattern Engine, TypeSafe Jev AI (System One) Cognitive Reasoning, Dynamic Leverage (10x\u201350x), and an interactive Rich Terminal Dashboard UI.",
+    "html_url": "https://github.com/adarshvermaa/trading_bot",
+    "pushed_at": "2026-09-24T11:30:34Z",
+    "created_at": "2026-09-19T04:52:50Z",
+    "found_via": [
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "agk4444/laya-api",
+    "source": "github",
+    "stars": 0,
+    "why": "Serve Laya (typed-decisions fine-tune) as a small HTTP API on CPU",
+    "html_url": "https://github.com/agk4444/laya-api",
+    "pushed_at": "2026-09-24T14:36:49Z",
+    "created_at": "2026-09-24T13:21:16Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "ahreurink/text-analyzer",
+    "source": "github",
+    "stars": 0,
+    "why": "Text analyzer to test Jev api for text analysis research",
+    "html_url": "https://github.com/ahreurink/text-analyzer",
+    "pushed_at": "2026-09-24T14:56:23Z",
+    "created_at": "2026-09-22T14:42:38Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "ai-ecoverse/decision-vision-bench",
+    "source": "github",
+    "stars": 0,
+    "why": "Kev, cua-s1 and Jev-Omni on one mixed image decision set, in the browser on WebGPU",
+    "html_url": "https://github.com/ai-ecoverse/decision-vision-bench",
+    "pushed_at": "2026-09-24T15:03:36Z",
+    "created_at": "2026-09-24T15:00:18Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "ai-ecoverse/jev-omni.js",
+    "source": "github",
+    "stars": 0,
+    "why": "Jev-Omni multimodal decision classifier in the browser: WebGPU via onnxruntime-web",
+    "html_url": "https://github.com/ai-ecoverse/jev-omni.js",
+    "pushed_at": "2026-09-24T15:02:33Z",
+    "created_at": "2026-09-24T08:23:26Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "anthony-maio/hn-oracle",
+    "source": "github",
+    "stars": 0,
+    "why": "Can a typed decision model find every prediction ever made on Hacker News, with calibrated probabilities, for under $3,000? A pre-registered pilot with Jev.",
+    "html_url": "https://github.com/anthony-maio/hn-oracle",
+    "pushed_at": "2026-09-24T03:06:35Z",
+    "created_at": "2026-09-23T22:55:59Z",
+    "found_via": [
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "atom63/atom63-design-system",
+    "source": "github",
+    "stars": 0,
+    "why": "One token architecture for React, SwiftUI and Figma \u2014 the Atom63 design system.",
+    "html_url": "https://github.com/atom63/atom63-design-system",
+    "pushed_at": "2026-09-24T10:31:34Z",
+    "created_at": "2026-09-21T08:23:20Z",
+    "found_via": [
+      "system-one_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "autohandai/weka-samples",
+    "source": "github",
+    "stars": 0,
+    "why": "Runnable Weka decision-model examples for software delivery, data quality, and research workflows.",
+    "html_url": "https://github.com/autohandai/weka-samples",
+    "pushed_at": "2026-09-24T08:50:59Z",
+    "created_at": "2026-09-24T04:06:30Z",
+    "found_via": [
+      "RLCD_created",
+      "decision_model_llm_pushed",
+      "decision_model_llm",
+      "RLCD_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "basi/typesafe-ai-php-client",
+    "source": "github",
+    "stars": 0,
+    "why": "PHP client for the typesafe.ai System One API (Jev)",
+    "html_url": "https://github.com/basi/typesafe-ai-php-client",
+    "pushed_at": "2026-09-24T15:03:40Z",
+    "created_at": "2026-09-24T09:48:29Z",
+    "found_via": [
+      "system-one_pushed",
+      "jev_pushed",
+      "system-one_created",
+      "system_one_spaced_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "belentani7/system-one-unified",
+    "source": "github",
+    "stars": 0,
+    "why": "System One \u2014 motor de decisiones tipado, determinista y offline (POST /v1/systemone)",
+    "html_url": "https://github.com/belentani7/system-one-unified",
+    "pushed_at": "2026-09-24T00:34:58Z",
+    "created_at": "2026-09-24T00:23:18Z",
+    "found_via": [
+      "topic_system-one"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "bhaktofmahakal/onemetric-ai-assessment",
+    "source": "github",
+    "stars": 0,
+    "why": "Deterministic RevOps Evaluator with TypeSafe System One & Bounded Agent Runtime",
+    "html_url": "https://github.com/bhaktofmahakal/onemetric-ai-assessment",
+    "pushed_at": "2026-09-24T14:12:16Z",
+    "created_at": "2026-09-24T10:53:39Z",
+    "found_via": [
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "bhubbard/zev-rs",
+    "source": "github",
+    "stars": 0,
+    "why": "Zev is an advanced, unified zero-token LLM decision engine in Rust. It synthesizes the best architectural breakthroughs from all major open-source Jev alternatives into a single high-performance library and service.",
+    "html_url": "https://github.com/bhubbard/zev-rs",
+    "pushed_at": "2026-09-24T15:01:42Z",
+    "created_at": "2026-09-24T06:18:40Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "brandonrc/jev-bench",
+    "source": "github",
+    "stars": 0,
+    "why": "Jev vs Laya vs Claude Haiku on package-curation triage tasks: speed first, accuracy second",
+    "html_url": "https://github.com/brandonrc/jev-bench",
+    "pushed_at": "2026-09-24T15:13:34Z",
+    "created_at": "2026-09-23T22:16:01Z",
+    "found_via": [
+      "Laya_pushed",
+      "jev_pushed",
+      "Laya_created",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "brian-w-zhang/askjev",
+    "source": "github",
+    "stars": 0,
+    "why": "A tree housing every closed question humans or machines ask, answered by Jev (TypeSafe System One): capabilities, defaults, and jaggedness. Not a benchmark.",
+    "html_url": "https://github.com/brian-w-zhang/askjev",
+    "pushed_at": "2026-09-24T14:04:30Z",
+    "created_at": "2026-09-24T07:42:16Z",
+    "found_via": [
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "bspiritxp/jev-cli",
+    "source": "github",
+    "stars": 0,
+    "why": "CLI client for TypeSafe Jev (System One) structured decisions: noul / choice / score / classify",
+    "html_url": "https://github.com/bspiritxp/jev-cli",
+    "pushed_at": "2026-09-24T09:22:09Z",
+    "created_at": "2026-09-23T08:03:47Z",
+    "found_via": [
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "btoo/multimodal-system-one",
+    "source": "github",
+    "stars": 0,
+    "why": "Research and experiments for a small native multimodal decision model",
+    "html_url": "https://github.com/btoo/multimodal-system-one",
+    "pushed_at": "2026-09-24T14:30:03Z",
+    "created_at": "2026-09-24T02:02:16Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "system-one_pushed",
+      "decision_model_llm",
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "byx-darwin/dsh-agent-kit",
+    "source": "github",
+    "stars": 0,
+    "why": "DeepSeek Harness plugin kit for always-on agent workers: WebSocket, DingTalk, Claude Code/Codex, Jev.",
+    "html_url": "https://github.com/byx-darwin/dsh-agent-kit",
+    "pushed_at": "2026-09-24T12:41:05Z",
+    "created_at": "2026-09-23T09:23:31Z",
+    "found_via": [
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "cao8011158/imdb-sentiment-analysis",
+    "source": "github",
+    "stars": 0,
+    "why": "Sentiment analysis on the Stanford IMDb dataset with a comparison between conventional NLP models and Jev. For DLBAIPNLP01 \u2013 Project: NLP",
+    "html_url": "https://github.com/cao8011158/imdb-sentiment-analysis",
+    "pushed_at": "2026-09-24T14:58:27Z",
+    "created_at": "2026-09-24T14:58:26Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "cayleb-james2008/kairos",
+    "source": "github",
+    "stars": 0,
+    "why": "Autonomous meme-coin scalper with a Laya brain: rates fresh pump.fun coins on who's buying and how deep the story goes, and trades them fast",
+    "html_url": "https://github.com/cayleb-james2008/kairos",
+    "pushed_at": "2026-09-24T15:08:42Z",
+    "created_at": "2026-09-24T11:04:12Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "codesoda/kev-rs",
+    "source": "github",
+    "stars": 0,
+    "why": "Independent Rust runtime for Kev decision models (pointer heads on Qwen bases): MLX on Apple Silicon and Candle CPU, parity-gated against frozen upstream goldens",
+    "html_url": "https://github.com/codesoda/kev-rs",
+    "pushed_at": "2026-09-24T09:11:40Z",
+    "created_at": "2026-09-23T22:42:09Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "csabag/ryotide",
+    "source": "github",
+    "stars": 0,
+    "why": "RYOTIDE \u2014 Roll Your Own Typed Inference Decision Engine: Jev-style typed decisions from a single forward pass of a local LLM (MLX or PyTorch), measured on JevBench",
+    "html_url": "https://github.com/csabag/ryotide",
+    "pushed_at": "2026-09-24T15:06:32Z",
+    "created_at": "2026-09-24T06:09:44Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "cyanheads/jev-harness",
+    "source": "github",
+    "stars": 0,
+    "why": "Harness for TypeSafe's Jev decision model: typed questions over datasets via OpenRouter, JSONL answers, summary reports.",
+    "html_url": "https://github.com/cyanheads/jev-harness",
+    "pushed_at": "2026-09-24T00:45:44Z",
+    "created_at": "2026-09-18T05:12:05Z",
+    "found_via": [
+      "topic_system-one"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "damian87x/jev-pi-model-router",
+    "source": "github",
+    "stars": 0,
+    "why": "pi extension: TypeSafe Jev picks the model for each turn, only from models pi can use",
+    "html_url": "https://github.com/damian87x/jev-pi-model-router",
+    "pushed_at": "2026-09-24T10:42:43Z",
+    "created_at": "2026-09-24T09:13:22Z",
+    "found_via": [
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "damian87x/jev-pi-skills",
+    "source": "github",
+    "stars": 0,
+    "why": "pi extension: TypeSafe Jev decisions as tools (search, rerank, supervise, pick) and hooks (skill select, compaction)",
+    "html_url": "https://github.com/damian87x/jev-pi-skills",
+    "pushed_at": "2026-09-24T14:49:06Z",
+    "created_at": "2026-09-24T14:49:00Z",
+    "found_via": [
+      "topic_typesafe",
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "damienen/jev-as-llm",
+    "source": "github",
+    "stars": 0,
+    "why": "TypeSafe's Jev, a judgment model that was never trained to write, made to chat one word at a time. Browser-only, bring your own OpenRouter key.",
+    "html_url": "https://github.com/damienen/jev-as-llm",
+    "pushed_at": "2026-09-24T14:33:25Z",
+    "created_at": "2026-09-23T14:15:47Z",
+    "found_via": [
+      "topic_typesafe",
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "darwintechlab/claude-jev",
+    "source": "github",
+    "stars": 0,
+    "why": "Jev System One for Claude Code \u2014 typed Choice/Noul/Score via live TypeSafe API (mirror of opencode-openjev, live-only MCP)",
+    "html_url": "https://github.com/darwintechlab/claude-jev",
+    "pushed_at": "2026-09-24T13:28:04Z",
+    "created_at": "2026-09-24T13:27:48Z",
+    "found_via": [
+      "openjev_pushed",
+      "system-one_created",
+      "system_one_spaced_pushed",
+      "openjev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "darwintechlab/claude-openjev",
+    "source": "github",
+    "stars": 0,
+    "why": "OpenJev: An Claude plugin that replaces text-generation decisions with Jev (TypeSafe System One).",
+    "html_url": "https://github.com/darwintechlab/claude-openjev",
+    "pushed_at": "2026-09-24T06:44:02Z",
+    "created_at": "2026-09-24T05:58:19Z",
+    "found_via": [
+      "openjev_pushed",
+      "openjev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "darwintechlab/openjev",
+    "source": "github",
+    "stars": 0,
+    "why": "OpenJev: An Opencode plugin that replaces text-generation decisions with Jev (TypeSafe System One).",
+    "html_url": "https://github.com/darwintechlab/openjev",
+    "pushed_at": "2026-09-24T06:45:56Z",
+    "created_at": "2026-09-24T04:08:31Z",
+    "found_via": [
+      "openjev_pushed",
+      "openjev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "devnolife/copilot-jev",
+    "source": "github",
+    "stars": 0,
+    "why": "Jev (TypeSafe System One) sebagai partner keputusan untuk AI agent - agent skill lintas SDK + MCP server + implementasi terukur. Dokumentasi Bahasa Indonesia.",
+    "html_url": "https://github.com/devnolife/copilot-jev",
+    "pushed_at": "2026-09-24T04:21:57Z",
+    "created_at": "2026-09-24T04:11:42Z",
+    "found_via": [
+      "topic_system-one"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "dgu0323/xcrystal",
+    "source": "github",
+    "stars": 0,
+    "why": "X \u63a8\u6587\u52a0\u5bc6\u8d27\u5e01\u5206\u6790\u63d2\u4ef6\uff0c\u672c\u5730\u6a21\u578b\u3001\u514d\u8d39 | Chrome extension + local Laya server scoring crypto relevance, scope, direction & impact on X",
+    "html_url": "https://github.com/dgu0323/xcrystal",
+    "pushed_at": "2026-09-24T13:31:10Z",
+    "created_at": "2026-09-24T13:28:01Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created",
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "edgelesssys/privatemode-decisions-benchmark",
+    "source": "github",
+    "stars": 0,
+    "why": "Benchmarking Jev/Laya/GLM-5.3 Flash for System One-like tasks",
+    "html_url": "https://github.com/edgelesssys/privatemode-decisions-benchmark",
+    "pushed_at": "2026-09-24T14:06:33Z",
+    "created_at": "2026-09-23T09:07:48Z",
+    "found_via": [
+      "Laya_pushed",
+      "system-one_created",
+      "Laya_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "edylan/jev-prompt-router",
+    "source": "github",
+    "stars": 0,
+    "why": "Silent, capability-aware LLM routing for enterprise fleets \u2014 route each prompt to the cheapest model that can do the job",
+    "html_url": "https://github.com/edylan/jev-prompt-router",
+    "pushed_at": "2026-09-24T06:22:56Z",
+    "created_at": "2026-09-21T05:21:52Z",
+    "found_via": [
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "effective-shipping/slop-fold",
+    "source": "github",
+    "stars": 0,
+    "why": "Browser extension that folds AI-ish LinkedIn posts, judged by Jev from TypeSafe AI",
+    "html_url": "https://github.com/effective-shipping/slop-fold",
+    "pushed_at": "2026-09-24T13:06:12Z",
+    "created_at": "2026-09-24T13:04:22Z",
+    "found_via": [
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "ezeike/intents",
+    "source": "github",
+    "stars": 0,
+    "why": "Routing free-text input to app actions via Laya/Jev-class decision models instead of an LLM tool-calling loop",
+    "html_url": "https://github.com/ezeike/intents",
+    "pushed_at": "2026-09-24T05:04:32Z",
+    "created_at": "2026-09-24T05:04:28Z",
+    "found_via": [
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "florianbuetow/strands-system-one",
+    "source": "github",
+    "stars": 0,
+    "why": "Strands agents that make small local LLMs (Qwen3 0.6B, MiniCPM5 2B, Qwen3.5 4B) answer like Jev, a System 1 model: typed yes/no, choice and score answers with probabilities. Benchmarked against Jev on the jevals suite, via logprob readout and written-out JSON probabilities.",
+    "html_url": "https://github.com/florianbuetow/strands-system-one",
+    "pushed_at": "2026-09-24T09:20:47Z",
+    "created_at": "2026-09-23T23:46:55Z",
+    "found_via": [
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "goodbyedavid/LayaOnAWS",
+    "source": "github",
+    "stars": 0,
+    "why": "Host Laya Inference through AWS",
+    "html_url": "https://github.com/goodbyedavid/LayaOnAWS",
+    "pushed_at": "2026-09-24T13:48:10Z",
+    "created_at": "2026-09-24T01:59:12Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "guilhem/codex-subagent-router",
+    "source": "github",
+    "stars": 0,
+    "why": "AI model routing for Codex subagents. Let Jev choose the model and reasoning effort for each mission, using your own task profiles.",
+    "html_url": "https://github.com/guilhem/codex-subagent-router",
+    "pushed_at": "2026-09-24T14:25:49Z",
+    "created_at": "2026-09-24T06:47:45Z",
+    "found_via": [
+      "topic_typesafe",
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hachiko85/jev-ja-lab",
+    "source": "github",
+    "stars": 0,
+    "why": "jev\u306b\u95a2\u3059\u308b\u69d8\u3005\u306aOSS( Openjev, NanoJev, ultrafast jev etc...)\u306e\u65e5\u672c\u8a9e\u80fd\u529b\u3092\u8a55\u4fa1\u30fb\u5b66\u7fd2\u3059\u308b\u305f\u3081\u306e\u30d7\u30ed\u30b8\u30a7\u30af\u30c8",
+    "html_url": "https://github.com/hachiko85/jev-ja-lab",
+    "pushed_at": "2026-09-24T02:48:45Z",
+    "created_at": "2026-09-21T04:57:23Z",
+    "found_via": [
+      "openjev_pushed",
+      "openjev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "harodggg/jev-x-filter",
+    "source": "github",
+    "stars": 0,
+    "why": "\u4fe1\u606f\u8fc7\u6ee4\u5668 \u00b7 Jev \u2014\u2014 Chrome MV3 \u6269\u5c55\uff1a\u7528 Jev\uff08TypeSafe System One\uff09\u7684\u7c7b\u578b\u5316\u51b3\u7b56\u8fc7\u6ee4 X \u65f6\u95f4\u7ebf\u4e0a\u7684\u5783\u573e\u4fe1\u606f\uff08\u8272\u60c5\u5f15\u6d41 / \u8bc8\u9a97\u535a\u5f69\u8350\u80a1 / \u5e7f\u544a\u5bfc\u6d41 / \u6807\u9898\u515a / \u4f4e\u8d28 AI / \u5237\u5c4f\u519c\u573a\u516d\u7c7b\u53ef\u5f00\u5173\uff09\uff0c\u9ad8\u7f6e\u4fe1\u5ea6\u624d\u52a8\u8d26\u53f7\uff0c\u9ed8\u8ba4\u6f14\u7ec3\u6a21\u5f0f",
+    "html_url": "https://github.com/harodggg/jev-x-filter",
+    "pushed_at": "2026-09-24T13:18:32Z",
+    "created_at": "2026-09-24T04:20:04Z",
+    "found_via": [
+      "topic_system-one",
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "harshpreet931/cut",
+    "source": "github",
+    "stars": 0,
+    "why": "An editor that can't write. It can only cut. Laya reads each line of a post; code deletes everything but the point.",
+    "html_url": "https://github.com/harshpreet931/cut",
+    "pushed_at": "2026-09-24T13:18:22Z",
+    "created_at": "2026-09-24T09:55:54Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:AIMultiple/laya-typed-decisions-browser-ft",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "safetensors laya browser-agents web-agents decision-models en base_model:convaiinnovations/laya base_model:finetune:convaiinnovations/laya license:apache-2.0 region:us",
+    "html_url": "https://huggingface.co/AIMultiple/laya-typed-decisions-browser-ft",
+    "pushed_at": "2026-09-24T12:10:23.000Z",
+    "created_at": "2026-09-24T09:25:40.000Z",
+    "found_via": [
+      "models_laya",
+      "models_typed-decision"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:Adkid/laya-cn-a",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "text-classification safetensors laya chinese intent-classification experimental text-classification zh en base_model:convaiinnovations/laya base_model:finetune:convaiinnovations/laya license:apache-2.0 region:us",
+    "html_url": "https://huggingface.co/Adkid/laya-cn-a",
+    "pushed_at": "2026-09-24T13:54:47.000Z",
+    "created_at": "2026-09-24T13:45:02.000Z",
+    "found_via": [
+      "models_laya"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:JonesLin/next-jev-stage2-last-loop",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "next-jev workspace-reasoning nli cot base_model:Qwen/Qwen3.5-0.8B base_model:finetune:Qwen/Qwen3.5-0.8B region:us",
+    "html_url": "https://huggingface.co/JonesLin/next-jev-stage2-last-loop",
+    "pushed_at": "2026-09-23T21:50:39.000Z",
+    "created_at": "2026-09-23T21:49:03.000Z",
+    "found_via": [
+      "models_jev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:JonesLin/next-jev-tetris-decisions-10k",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "Tetris placement decisions with known answers (10k)\n\t\n\n10,000 Tetris decisions for collecting reasoning from an LLM teacher: the teacher writes its reasoning and a final \\box{X}, and verify.py keeps only answers that match the known best option.\nEach item is exactly what the community Jev Tetris gam",
+    "html_url": "https://huggingface.co/datasets/JonesLin/next-jev-tetris-decisions-10k",
+    "pushed_at": "2026-09-24T04:05:47.000Z",
+    "created_at": "2026-09-24T01:36:11.000Z",
+    "found_via": [
+      "datasets_jev"
+    ],
+    "hf_kind": "dataset",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:KikiNLP/CanITrustYou-Jev",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "CITY-Jev: Evaluating Agent Execution Decisions Under Perturbations\n\t\n\n\nCITY-Jev (Can I Trust You Jev) asks a simple question: fast decisions are useful, but can we trust them? We evaluate Jev-style System One models at typical decision points in general agentic workflows: choosing an action, judging",
+    "html_url": "https://huggingface.co/datasets/KikiNLP/CanITrustYou-Jev",
+    "pushed_at": "2026-09-24T14:53:50.000Z",
+    "created_at": "2026-09-24T03:17:11.000Z",
+    "found_via": [
+      "datasets_jev"
+    ],
+    "hf_kind": "dataset",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:Ladorure/Laya_llamafile_0.3.20",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "llamafile license:apache-2.0 region:us",
+    "html_url": "https://huggingface.co/Ladorure/Laya_llamafile_0.3.20",
+    "pushed_at": "2026-09-24T12:23:15.000Z",
+    "created_at": "2026-09-24T07:36:28.000Z",
+    "found_via": [
+      "models_laya"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:Qalarc/Laya-GUT-Finetune",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "safetensors decision-engine typed-decisions rlcd system-one qalarc gut fine-tuned laya-gut-finetune en base_model:convaiinnovations/laya base_model:finetune:convaiinnovations/laya",
+    "html_url": "https://huggingface.co/Qalarc/Laya-GUT-Finetune",
+    "pushed_at": "2026-09-24T04:14:59.000Z",
+    "created_at": "2026-09-24T04:09:29.000Z",
+    "found_via": [
+      "models_laya"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:Rydward98/Jev-Omni",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "text-classification transformers safetensors text-classification multimodal merged base_model:google/gemma-4-12B-it base_model:finetune:google/gemma-4-12B-it license:apache-2.0 endpoints_compatible region:us",
+    "html_url": "https://huggingface.co/Rydward98/Jev-Omni",
+    "pushed_at": "2026-09-24T03:35:22.000Z",
+    "created_at": "2026-09-24T03:35:22.000Z",
+    "found_via": [
+      "models_jev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:SUPER321/jevflash-doom-basic-0.6b",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "REVISIT densify: description rewrite \u2014 text-generation vizdoom reinforcement-learning-adjacent decision-model behavior-cloning te (*theirs*)",
+    "html_url": "https://huggingface.co/SUPER321/jevflash-doom-basic-0.6b",
+    "pushed_at": "2026-09-24T09:29:12.000Z",
+    "created_at": null,
+    "found_via": [],
+    "hf_kind": null,
+    "fork": null,
+    "kind": "revisit",
+    "material": [
+      "description_rewrite"
+    ]
+  },
+  {
+    "id": "hf:SargeDev/Jev_Qwen3.8-27B",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "safetensors qwen3_5_text qwen3.8 27b calibrated-judgment decision-engine distillation qlora lora uncensored en dataset:SargeDev/jev-distill-corpus-v3",
+    "html_url": "https://huggingface.co/SargeDev/Jev_Qwen3.8-27B",
+    "pushed_at": "2026-09-24T00:18:57.000Z",
+    "created_at": "2026-09-24T00:06:49.000Z",
+    "found_via": [
+      "models_jev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:SargeDev/Jev_Qwen3.8-27B-NVFP4-FP8",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "safetensors qwen3_5_text qwen3.8 27b nvfp4 fp8 mixed-precision calibrated-judgment decision-engine dgx-spark gb10 uncensored",
+    "html_url": "https://huggingface.co/SargeDev/Jev_Qwen3.8-27B-NVFP4-FP8",
+    "pushed_at": "2026-09-24T03:08:19.000Z",
+    "created_at": "2026-09-24T03:03:11.000Z",
+    "found_via": [
+      "models_jev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:Terom/laya",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "text-classification transformers safetensors laya system-one calibrated-decisions rlcd classification routing scoring guardrails moderation reinforcement-learning",
+    "html_url": "https://huggingface.co/Terom/laya",
+    "pushed_at": "2026-09-24T08:03:45.000Z",
+    "created_at": "2026-09-24T08:03:44.000Z",
+    "found_via": [
+      "models_laya"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:VTXAI/VTX-JEV-1",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "feature-extraction transformers safetensors vtx_jev feature-extraction system-one jev decision-model typed-decisions 4-bit lf4 calibrated-probabilities noul",
+    "html_url": "https://huggingface.co/VTXAI/VTX-JEV-1",
+    "pushed_at": "2026-09-24T06:26:45.000Z",
+    "created_at": "2026-09-24T06:12:56.000Z",
+    "found_via": [
+      "models_jev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:ahmetege/turkish_jev_noul",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "turkish_jev_noul\n\t\n\nT\u00fcrk\u00e7e evet/hay\u0131r (noul) karar sorular\u0131. Format, Laya modelinin kulland\u0131\u011f\u0131 LocalLLaMA/typed-decisions format\u0131yla ayn\u0131: bir metin (state), bu metin hakk\u0131nda tipli bir soru (questions) ve cevab\u0131n olas\u0131l\u0131k da\u011f\u0131l\u0131m\u0131 (gold).\nTurkish yes/no (noul) decision questions in the typed-decisi",
+    "html_url": "https://huggingface.co/datasets/ahmetege/turkish_jev_noul",
+    "pushed_at": "2026-09-24T14:46:57.000Z",
+    "created_at": "2026-09-24T14:46:51.000Z",
+    "found_via": [
+      "datasets_jev"
+    ],
+    "hf_kind": "dataset",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:androidli/laya-multilingual-onnx-int4",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "onnxruntime onnx int4 4-bit weight-only-quantization MatMulNBits GatherBlockQuantized system-one decision-model cpu-inference multilingual zh",
+    "html_url": "https://huggingface.co/androidli/laya-multilingual-onnx-int4",
+    "pushed_at": "2026-09-24T12:52:32.000Z",
+    "created_at": "2026-09-24T12:52:27.000Z",
+    "found_via": [
+      "models_laya"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:canbingol/laya-typed-decisions-turkish-mmlu-10k",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "transformers safetensors laya system-one calibrated-decisions rlcd structured-decisions typed-decisions benchmark turkish mmlu dataset:canbingol/mmlu_typed_decision",
+    "html_url": "https://huggingface.co/canbingol/laya-typed-decisions-turkish-mmlu-10k",
+    "pushed_at": "2026-09-24T07:40:55.000Z",
+    "created_at": "2026-09-24T07:12:01.000Z",
+    "found_via": [
+      "models_laya",
+      "models_typed-decision"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:chaoliangUNSW/Jev-Style-0.8B-Decision-v3",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "text-classification transformers safetensors qwen3_5_text text-generation decision-model jev-style system-one calibration classification long-context multilingual qwen3.5",
+    "html_url": "https://huggingface.co/chaoliangUNSW/Jev-Style-0.8B-Decision-v3",
+    "pushed_at": "2026-09-24T15:00:35.000Z",
+    "created_at": "2026-09-24T14:59:46.000Z",
+    "found_via": [
+      "models_jev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:chaoliangUNSW/Jev-Style-0.8B-Decision-v3-GGUF",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "text-classification gguf decision-model jev-style system-one calibration long-context multilingual qwen3.5 llama.cpp text-classification en zh",
+    "html_url": "https://huggingface.co/chaoliangUNSW/Jev-Style-0.8B-Decision-v3-GGUF",
+    "pushed_at": "2026-09-24T15:01:50.000Z",
+    "created_at": "2026-09-24T15:00:37.000Z",
+    "found_via": [
+      "models_jev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:chaoliangUNSW/Jev-Style-0.8B-Decision-v3-MLX-8bit",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "text-classification mlx safetensors qwen3_5 decision-model jev-style system-one calibration long-context multilingual qwen3.5 text-classification en",
+    "html_url": "https://huggingface.co/chaoliangUNSW/Jev-Style-0.8B-Decision-v3-MLX-8bit",
+    "pushed_at": "2026-09-24T15:02:47.000Z",
+    "created_at": "2026-09-24T15:02:09.000Z",
+    "found_via": [
+      "models_jev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:chaoliangUNSW/Jev-Style-0.8B-Decision-v3-MLX-bf16",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "text-classification mlx safetensors qwen3_5 decision-model jev-style system-one calibration long-context multilingual qwen3.5 text-classification en",
+    "html_url": "https://huggingface.co/chaoliangUNSW/Jev-Style-0.8B-Decision-v3-MLX-bf16",
+    "pushed_at": "2026-09-24T15:02:07.000Z",
+    "created_at": "2026-09-24T15:01:56.000Z",
+    "found_via": [
+      "models_jev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:erol4/jev-qc-clips",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "size_categories:n<1K modality:video library:datasets library:mlcroissant region:us",
+    "html_url": "https://huggingface.co/datasets/erol4/jev-qc-clips",
+    "pushed_at": "2026-09-24T11:30:23.000Z",
+    "created_at": "2026-09-24T11:30:10.000Z",
+    "found_via": [
+      "datasets_jev"
+    ],
+    "hf_kind": "dataset",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:joyfox/Qwen3.5-0.8B-JEV",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "transformers safetensors qwen3.5 decision-model classification knowledge-distillation en zh multilingual base_model:Qwen/Qwen3.5-0.8B base_model:finetune:Qwen/Qwen3.5-0.8B license:apache-2.0",
+    "html_url": "https://huggingface.co/joyfox/Qwen3.5-0.8B-JEV",
+    "pushed_at": "2026-09-24T07:54:33.000Z",
+    "created_at": "2026-09-24T07:52:51.000Z",
+    "found_via": [
+      "models_jev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:kishida/jev-bench",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "jev-bench\n\t\n\nA small multiple-choice set for measuring a model that returns the probability of each option\ninstead of writing an answer \u2014 the Jev / TypeSafe System One style of API, where a request carries\na state and a question with named options and the response carries a distribution over them.\nO",
+    "html_url": "https://huggingface.co/datasets/kishida/jev-bench",
+    "pushed_at": "2026-09-24T06:47:29.000Z",
+    "created_at": "2026-09-24T06:32:19.000Z",
+    "found_via": [
+      "datasets_jev"
+    ],
+    "hf_kind": "dataset",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:liliruli/jev-api-article-assets",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "size_categories:n<1K format:imagefolder modality:image library:datasets library:mlcroissant region:us",
+    "html_url": "https://huggingface.co/datasets/liliruli/jev-api-article-assets",
+    "pushed_at": "2026-09-24T03:42:08.000Z",
+    "created_at": "2026-09-24T03:42:02.000Z",
+    "found_via": [
+      "datasets_jev"
+    ],
+    "hf_kind": "dataset",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:m3kro/openjev-NVFP4-W4A4",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "zero-shot-classification transformers safetensors qwen3_5 image-text-to-text decision-model zero-shot-classification openjev qwen3.5 compressed-tensors nvfp4 w4a4 vllm",
+    "html_url": "https://huggingface.co/m3kro/openjev-NVFP4-W4A4",
+    "pushed_at": "2026-09-24T00:34:06.000Z",
+    "created_at": "2026-09-23T23:57:55.000Z",
+    "found_via": [
+      "models_openjev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:nafiullah/laya-multilingual-bn-ecom-voice",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "text-classification laya safetensors typed-decisions system-one bangla bengali banglish e-commerce voice-agent intent-detection escalation order-confirmation",
+    "html_url": "https://huggingface.co/nafiullah/laya-multilingual-bn-ecom-voice",
+    "pushed_at": "2026-09-24T09:07:58.000Z",
+    "created_at": "2026-09-24T09:04:03.000Z",
+    "found_via": [
+      "models_laya"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:nicolasembleton/openjev-minicpm5-2b-lora-phase1",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "text-generation peft safetensors lora open-jev classification logprob minicpm adapters text-generation conversational dataset:ZefanCai/Open-Jev-v1.1 base_model:openbmb/MiniCPM5-2B",
+    "html_url": "https://huggingface.co/nicolasembleton/openjev-minicpm5-2b-lora-phase1",
+    "pushed_at": "2026-09-24T10:36:09.000Z",
+    "created_at": "2026-09-24T10:36:04.000Z",
+    "found_via": [
+      "models_openjev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:nicolasembleton/openjev-minicpm5-2b-lora-phase1-merged",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "safetensors llama open-jev lora-merged base_model:openbmb/MiniCPM5-2B base_model:finetune:openbmb/MiniCPM5-2B license:apache-2.0 region:us",
+    "html_url": "https://huggingface.co/nicolasembleton/openjev-minicpm5-2b-lora-phase1-merged",
+    "pushed_at": "2026-09-24T10:55:05.000Z",
+    "created_at": "2026-09-24T10:54:39.000Z",
+    "found_via": [
+      "models_openjev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:nicolasembleton/openjev-minicpm5-2b-lora-phase1-onnx",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "text-generation transformers.js onnx llama text-generation minicpm open-jev causal-lm conversational base_model:openbmb/MiniCPM5-2B base_model:quantized:openbmb/MiniCPM5-2B license:apache-2.0 region:us",
+    "html_url": "https://huggingface.co/nicolasembleton/openjev-minicpm5-2b-lora-phase1-onnx",
+    "pushed_at": "2026-09-24T10:54:38.000Z",
+    "created_at": "2026-09-24T10:54:16.000Z",
+    "found_via": [
+      "models_openjev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:ollaya-dev/gliclass",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "text-classification onnx ollaya decision-model system-one text-classification base_model:knowledgator/gliclass-instruct-large-v1.0 base_model:quantized:knowledgator/gliclass-instruct-large-v1.0 license:apache-2.0 region:us",
+    "html_url": "https://huggingface.co/ollaya-dev/gliclass",
+    "pushed_at": "2026-09-24T10:02:17.000Z",
+    "created_at": "2026-09-24T10:02:14.000Z",
+    "found_via": [
+      "models_GLiClass"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:ollaya-dev/laya",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "text-classification onnx ollaya decision-model system-one text-classification base_model:convaiinnovations/laya base_model:quantized:convaiinnovations/laya license:apache-2.0 region:us",
+    "html_url": "https://huggingface.co/ollaya-dev/laya",
+    "pushed_at": "2026-09-24T10:02:06.000Z",
+    "created_at": "2026-09-24T10:02:02.000Z",
+    "found_via": [
+      "models_laya"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:openjev/openjev-GGUF",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "gguf llama.cpp decision-model agents en base_model:openjev/openjev base_model:quantized:openjev/openjev license:apache-2.0 endpoints_compatible region:us conversational",
+    "html_url": "https://huggingface.co/openjev/openjev-GGUF",
+    "pushed_at": "2026-09-24T00:26:04.000Z",
+    "created_at": "2026-09-23T23:54:08.000Z",
+    "found_via": [
+      "models_openjev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:piratehack009/laya-cn-finance-relevance",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "REVISIT densify: description rewrite \u2014 static region:us (*theirs*)",
+    "html_url": "https://huggingface.co/spaces/piratehack009/laya-cn-finance-relevance",
+    "pushed_at": "2026-09-21T13:34:08.000Z",
+    "created_at": null,
+    "found_via": [],
+    "hf_kind": null,
+    "fork": null,
+    "kind": "revisit",
+    "material": [
+      "description_rewrite"
+    ]
+  },
+  {
+    "id": "hf:ramgpt/Jev_Qwen3.8-27B-GGUF",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "gguf qwen3.8 qwen3_5 llama.cpp calibrated-judgment decision-engine base_model:SargeDev/Jev_Qwen3.8-27B base_model:quantized:SargeDev/Jev_Qwen3.8-27B license:apache-2.0 endpoints_compatible region:us conversational",
+    "html_url": "https://huggingface.co/ramgpt/Jev_Qwen3.8-27B-GGUF",
+    "pushed_at": "2026-09-24T03:01:12.000Z",
+    "created_at": "2026-09-24T02:25:21.000Z",
+    "found_via": [
+      "models_jev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:sothiem/laya-kvp10k-noul",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "text-classification laya safetensors modernbert key-value document-ai information-extraction kvp10k rlcd reinforcement-learning fine-tuned binary-classification calibrated-probabilities",
+    "html_url": "https://huggingface.co/sothiem/laya-kvp10k-noul",
+    "pushed_at": "2026-09-24T04:32:16.000Z",
+    "created_at": "2026-09-24T04:24:52.000Z",
+    "found_via": [
+      "models_laya"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:sujalgawas/jev-1min-stock-bars",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "size_categories:1M<n<10M format:parquet modality:tabular modality:text library:datasets library:dask library:polars library:mlcroissant region:us",
+    "html_url": "https://huggingface.co/datasets/sujalgawas/jev-1min-stock-bars",
+    "pushed_at": "2026-09-23T23:47:57.000Z",
+    "created_at": "2026-09-23T23:47:36.000Z",
+    "found_via": [
+      "datasets_jev"
+    ],
+    "hf_kind": "dataset",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:sumleo/RLCDAlignBench",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "RLCDAlignBench\n\t\n\nPaper: Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures (ICLR 2027 submission, under review)\nCode: github.com/sumleo/RLCDAlignBench \u00b7 Project page: sumleo.github.io/RLCDAlignBench\nRLCDAlignBench measures whether a detect",
+    "html_url": "https://huggingface.co/datasets/sumleo/RLCDAlignBench",
+    "pushed_at": "2026-09-24T12:26:32.000Z",
+    "created_at": "2026-09-24T09:25:34.000Z",
+    "found_via": [
+      "datasets_RLCD"
+    ],
+    "hf_kind": "dataset",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:thaitea/laya-vision-201m",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "visual-question-answering laya safetensors calibration decision-model vision smolvlm games visual-question-answering en dataset:HuggingFaceM4/the_cauldron dataset:MMInstruction/VLFeedback dataset:HuggingFaceM4/A-OKVQA",
+    "html_url": "https://huggingface.co/thaitea/laya-vision-201m",
+    "pushed_at": "2026-09-24T05:35:10.000Z",
+    "created_at": "2026-09-24T05:35:05.000Z",
+    "found_via": [
+      "models_laya"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:vdaular/laya",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "text-classification transformers safetensors laya system-one calibrated-decisions rlcd classification routing scoring guardrails moderation reinforcement-learning",
+    "html_url": "https://huggingface.co/vdaular/laya",
+    "pushed_at": "2026-09-23T23:05:26.000Z",
+    "created_at": "2026-09-23T23:05:25.000Z",
+    "found_via": [
+      "models_laya"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:wuyuanpei/laya-browser",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "safetensors laya system-1 browser-agent web-navigation decision-model modernbert mind2web tilelang en multilingual dataset:osunlp/Mind2Web",
+    "html_url": "https://huggingface.co/wuyuanpei/laya-browser",
+    "pushed_at": "2026-09-24T09:47:59.000Z",
+    "created_at": "2026-09-24T09:47:58.000Z",
+    "found_via": [
+      "models_laya"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:wwydmanski/bielik-minitron-jev-v0.3",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "text-classification any2jev safetensors system-one decision-model jev calibration lora text-classification base_model:speakleash/Bielik-Minitron-7B-v3.0-Instruct base_model:adapter:speakleash/Bielik-Minitron-7B-v3.0-Instruct license:apache-2.0 region:us",
+    "html_url": "https://huggingface.co/wwydmanski/bielik-minitron-jev-v0.3",
+    "pushed_at": "2026-09-24T05:45:48.000Z",
+    "created_at": "2026-09-24T05:35:31.000Z",
+    "found_via": [
+      "models_jev"
+    ],
+    "hf_kind": "model",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:xuhaodev/Qwen3-1.7B-Jev",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "REVISIT densify: description rewrite \u2014 text-classification peft safetensors qwen3 lora typed-decisions non-generative calibration (*theirs*)",
+    "html_url": "https://huggingface.co/xuhaodev/Qwen3-1.7B-Jev",
+    "pushed_at": "2026-09-24T08:24:29.000Z",
+    "created_at": null,
+    "found_via": [],
+    "hf_kind": null,
+    "fork": null,
+    "kind": "revisit",
+    "material": [
+      "description_rewrite"
+    ]
+  },
+  {
+    "id": "hiroyannnn/yuru-kit",
+    "source": "github",
+    "stars": 0,
+    "why": "Shared plumbing for yuru-poll and yuru-come: live chat readers (Twitch, YouTube, stdin), a TypeSafe Jev client, .env loading and QR codes (MoonBit)",
+    "html_url": "https://github.com/hiroyannnn/yuru-kit",
+    "pushed_at": "2026-09-24T15:13:05Z",
+    "created_at": "2026-09-24T15:12:59Z",
+    "found_via": [
+      "jev_pushed",
+      "topic_jev",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hiroyannnn/yuru-poll",
+    "source": "github",
+    "stars": 0,
+    "why": "Loose polling: free-text comments become fractional votes via TypeSafe Jev (System One)",
+    "html_url": "https://github.com/hiroyannnn/yuru-poll",
+    "pushed_at": "2026-09-24T15:16:45Z",
+    "created_at": "2026-09-18T10:07:12Z",
+    "found_via": [
+      "system-one_pushed",
+      "system_one_spaced_pushed",
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "huzjie/calibrex",
+    "source": "github",
+    "stars": 0,
+    "why": "Calibrex: turn open LLMs into calibrated, order-robust, confidence-gated typed decision models (classification / ranking / scoring / extraction).",
+    "html_url": "https://github.com/huzjie/calibrex",
+    "pushed_at": "2026-09-24T06:46:16Z",
+    "created_at": "2026-09-24T05:25:09Z",
+    "found_via": [
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hyeoki0831-stack/jev_disaster_tweets",
+    "source": "github",
+    "stars": 0,
+    "why": "JEV\ub97c \uc774\uc6a9\ud55c Kaggle \uc7ac\ub09c \ud2b8\uc717 zero-shot \ubd84\ub958 \uc2e4\ud5d8 \ubc0f threshold calibration, batch inference \uad6c\ud604",
+    "html_url": "https://github.com/hyeoki0831-stack/jev_disaster_tweets",
+    "pushed_at": "2026-09-24T15:24:08Z",
+    "created_at": "2026-09-24T14:27:37Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "i386/not-hotdog",
+    "source": "github",
+    "stars": 0,
+    "why": "SeeFood \u2014 hotdog / not hotdog iOS app speaking the OpenJEV wire API (mesh-llm compatible)",
+    "html_url": "https://github.com/i386/not-hotdog",
+    "pushed_at": "2026-09-23T21:34:53Z",
+    "created_at": "2026-09-23T21:34:48Z",
+    "found_via": [
+      "openjev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "iheeb1/lx",
+    "source": "github",
+    "stars": 0,
+    "why": "reduce token consumption by using rtk and laya based classification on logs depending on the context",
+    "html_url": "https://github.com/iheeb1/lx",
+    "pushed_at": "2026-09-24T15:15:58Z",
+    "created_at": "2026-09-24T14:45:34Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "intelliDean/reflexgate",
+    "source": "github",
+    "stars": 0,
+    "why": "Ultra-fast, sub-100ms API & webhook guardrail and triage gateway powered by TypeSafe AI System One (Jev). Parallel 7-dimension speculative evaluation, deterministic policy router, zero-dependency SQLite audit trail, and automated outbound dispatch.",
+    "html_url": "https://github.com/intelliDean/reflexgate",
+    "pushed_at": "2026-09-23T22:46:41Z",
+    "created_at": "2026-09-23T20:08:57Z",
+    "found_via": [
+      "topic_system-one"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "jay123anta/laya-indic-bench",
+    "source": "github",
+    "stars": 0,
+    "why": "Evaluating Laya decision models on Hindi and Assamese",
+    "html_url": "https://github.com/jay123anta/laya-indic-bench",
+    "pushed_at": "2026-09-24T10:39:50Z",
+    "created_at": "2026-09-24T10:30:22Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "Laya_pushed",
+      "decision_model_llm",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "jessezenfore/Bongocat-esp32-s3-rlcd-4.2",
+    "source": "github",
+    "stars": 0,
+    "why": "\u79fb\u690dBongocat\u5230\u5fae\u96eaesp32-s3-rlcd-4.2\u5f00\u53d1\u677f",
+    "html_url": "https://github.com/jessezenfore/Bongocat-esp32-s3-rlcd-4.2",
+    "pushed_at": "2026-09-24T12:30:09Z",
+    "created_at": "2026-09-24T12:00:59Z",
+    "found_via": [
+      "RLCD_created",
+      "RLCD_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "jevido/jevidocs",
+    "source": "github",
+    "stars": 0,
+    "why": "I like fumadocs, but get physically nauseous when looking at react.",
+    "html_url": "https://github.com/jevido/jevidocs",
+    "pushed_at": "2026-09-24T15:05:33Z",
+    "created_at": "2026-09-24T12:53:36Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "jevonaditya197/Portofolio-Jevon",
+    "source": "github",
+    "stars": 0,
+    "why": "Project For My Portofolio",
+    "html_url": "https://github.com/jevonaditya197/Portofolio-Jevon",
+    "pushed_at": "2026-09-24T15:05:54Z",
+    "created_at": "2026-09-24T14:56:08Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "kashyaprparmar/100-days-of-jev-and-laya",
+    "source": "github",
+    "stars": 0,
+    "why": "100 days of practical Jev and Laya projects: typed decisions, local inference, backend-neutral AI, and reliable software.",
+    "html_url": "https://github.com/kashyaprparmar/100-days-of-jev-and-laya",
+    "pushed_at": "2026-09-24T11:27:21Z",
+    "created_at": "2026-09-24T10:10:59Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "kdubois/quarkus-langchain4j-jev-laya",
+    "source": "github",
+    "stars": 0,
+    "why": "POC to implement Jev / Laya in LangChain4j Agentic as a custom planner",
+    "html_url": "https://github.com/kdubois/quarkus-langchain4j-jev-laya",
+    "pushed_at": "2026-09-24T10:17:15Z",
+    "created_at": "2026-09-23T09:50:08Z",
+    "found_via": [
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "kenmori/jev-dojo",
+    "source": "github",
+    "stars": 0,
+    "why": "Jev\uff08TypeSafe AI \u306e System One \u30e2\u30c7\u30eb\uff09\u3092\u7d1a\u30fb\u6bb5\u3067\u5b66\u3076\u30cf\u30f3\u30ba\u30aa\u30f3\u6559\u6750\u3002API\u30ad\u30fc\u306a\u3057\u3067\u52d5\u304f\u30b5\u30f3\u30d7\u30eb\u3068\u30c6\u30b9\u30c8\u4ed8\u304d / Hands-on course for Jev (TypeSafe AI's System One model), in Japanese and English",
+    "html_url": "https://github.com/kenmori/jev-dojo",
+    "pushed_at": "2026-09-24T13:26:42Z",
+    "created_at": "2026-09-24T00:42:30Z",
+    "found_via": [
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "kwilson21/tally",
+    "source": "github",
+    "stars": 0,
+    "why": "A family budgeting app on Cloudflare Workers, with Jev-powered categorization.",
+    "html_url": "https://github.com/kwilson21/tally",
+    "pushed_at": "2026-09-24T15:23:43Z",
+    "created_at": "2026-09-22T23:39:48Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "lawrence3699/jevstyle.com",
+    "source": "github",
+    "stars": 0,
+    "why": "JevStyle \u2014 small, calibrated decision models (site source for jevstyle.com)",
+    "html_url": "https://github.com/lawrence3699/jevstyle.com",
+    "pushed_at": "2026-09-24T11:08:10Z",
+    "created_at": "2026-09-23T22:06:36Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "lbildzinkas/quiet-review-axi",
+    "source": "github",
+    "stars": 0,
+    "why": "Agent-first CLI that scores AI code-review comments with Jev typed decisions to separate real issues from noise",
+    "html_url": "https://github.com/lbildzinkas/quiet-review-axi",
+    "pushed_at": "2026-09-24T15:01:37Z",
+    "created_at": "2026-09-23T13:54:19Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "lesterppo/laya-agents",
+    "source": "github",
+    "stars": 0,
+    "why": "Laya System 1 decision engine as native tools for Hermes Agent and Muse: fast, local, non-autoregressive typed decisions (choice/score/noul) in one forward pass \u2014 free guardrails, prompt-injection detection, triage, moderation and LLM routing without LLM calls.",
+    "html_url": "https://github.com/lesterppo/laya-agents",
+    "pushed_at": "2026-09-23T23:28:24Z",
+    "created_at": "2026-09-22T21:59:39Z",
+    "found_via": [
+      "topic_system-one"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "liyifan2004/obsidian-jev-inbox-router",
+    "source": "github",
+    "stars": 0,
+    "why": "Obsidian plugin: route incoming notes to the right folder using JEV (TypeSafe System One) typed decisions. It never writes your content \u2014 it only decides where it belongs.",
+    "html_url": "https://github.com/liyifan2004/obsidian-jev-inbox-router",
+    "pushed_at": "2026-09-24T09:52:13Z",
+    "created_at": "2026-09-21T10:15:20Z",
+    "found_via": [
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "louis-szeto/open-jev-bridge",
+    "source": "github",
+    "stars": 0,
+    "why": "MCP plugin to connect jev-like system one API (local hosted or typesafe jev) to codex and claude code for decision tasks like compaction, verification judgement, etc.",
+    "html_url": "https://github.com/louis-szeto/open-jev-bridge",
+    "pushed_at": "2026-09-24T11:21:42Z",
+    "created_at": "2026-09-23T06:39:07Z",
+    "found_via": [
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "mandu5/jevcompat",
+    "source": "github",
+    "stars": 0,
+    "why": "A testable spec and conformance suite for Jev-compatible (TypeSafe System One) API servers \u2014 with a normalising proxy, a reference mock and a GitHub Action.",
+    "html_url": "https://github.com/mandu5/jevcompat",
+    "pushed_at": "2026-09-24T01:20:44Z",
+    "created_at": "2026-09-24T00:12:25Z",
+    "found_via": [
+      "topic_system-one"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "martinjsklorz/noulbird",
+    "source": "github",
+    "stars": 0,
+    "why": "Flap against a decision model",
+    "html_url": "https://github.com/martinjsklorz/noulbird",
+    "pushed_at": "2026-09-24T11:13:52Z",
+    "created_at": "2026-09-24T09:43:49Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "mbilskilets/jevex",
+    "source": "github",
+    "stars": 0,
+    "why": "REVISIT densify: description rewrite \u2014 A small Convex component that uses Jev to build a semantic index over your tables. (*theirs*)",
+    "html_url": "https://github.com/mbilskilets/jevex",
+    "pushed_at": "2026-09-24T10:08:50Z",
+    "created_at": null,
+    "found_via": [],
+    "hf_kind": null,
+    "fork": null,
+    "kind": "revisit",
+    "material": [
+      "description_rewrite"
+    ]
+  },
+  {
+    "id": "mdad-elec/laya-v2-agent-routing",
+    "source": "github",
+    "stars": 0,
+    "why": "Routing AI agent turns with a System-One model (Laya): fine-tune beats an LLM judge on held-out routing",
+    "html_url": "https://github.com/mdad-elec/laya-v2-agent-routing",
+    "pushed_at": "2026-09-24T14:32:05Z",
+    "created_at": "2026-09-24T14:27:52Z",
+    "found_via": [
+      "system-one_pushed",
+      "Laya_pushed",
+      "system-one_created",
+      "Laya_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "metalagman/layajev",
+    "source": "github",
+    "stars": 0,
+    "why": "Local Laya inference server with a Jev-compatible API subset",
+    "html_url": "https://github.com/metalagman/layajev",
+    "pushed_at": "2026-09-24T12:38:37Z",
+    "created_at": "2026-09-24T10:46:23Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created",
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "mfang0126/perplexity-web-bridge",
+    "source": "github",
+    "stars": 0,
+    "why": "Chat with Perplexity from your agent \u2014 no Perplexity API key. Generic fast-loop browser automation skill with receipts. Inspired by jev-ultrafast.",
+    "html_url": "https://github.com/mfang0126/perplexity-web-bridge",
+    "pushed_at": "2026-09-24T15:07:42Z",
+    "created_at": "2026-09-24T13:23:20Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "mithilyr/laya-lk-bench",
+    "source": "github",
+    "stars": 0,
+    "why": "Does Laya read Sinhala and Tamil? A pre-registered, reproducible stress test of the Laya decision model: accuracy, confident failure, calibration, routing and tokenization.",
+    "html_url": "https://github.com/mithilyr/laya-lk-bench",
+    "pushed_at": "2026-09-24T05:18:22Z",
+    "created_at": "2026-09-24T05:04:14Z",
+    "found_via": [
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "model-collapse/jev-bench",
+    "source": "github",
+    "stars": 0,
+    "why": "JevBench: an open, model-agnostic benchmark for typed decision models (Choice/Score/Noul)",
+    "html_url": "https://github.com/model-collapse/jev-bench",
+    "pushed_at": "2026-09-24T06:47:16Z",
+    "created_at": "2026-09-24T06:35:49Z",
+    "found_via": [
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "mrduyanhdao/context-router",
+    "source": "github",
+    "stars": 0,
+    "why": "Local-first, deterministic context discovery for coding agents (Codex, Claude Code, OpenCode, Kimi Code) with optional consent-gated Jev shadow scoring",
+    "html_url": "https://github.com/mrduyanhdao/context-router",
+    "pushed_at": "2026-09-24T15:00:42Z",
+    "created_at": "2026-09-22T09:54:32Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "mrgonzales-dev/rlcd_x_1b-4b_instruct",
+    "source": "github",
+    "stars": 0,
+    "why": "testing rlcd models like laya and how it can enhance the use of 2b-4b models in every day use",
+    "html_url": "https://github.com/mrgonzales-dev/rlcd_x_1b-4b_instruct",
+    "pushed_at": "2026-09-24T13:37:30Z",
+    "created_at": "2026-09-24T13:35:06Z",
+    "found_via": [
+      "RLCD_created",
+      "Laya_pushed",
+      "Laya_created",
+      "RLCD_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "msudars/laya-reader",
+    "source": "github",
+    "stars": 0,
+    "why": "What to read next?",
+    "html_url": "https://github.com/msudars/laya-reader",
+    "pushed_at": "2026-09-24T10:56:57Z",
+    "created_at": "2026-09-24T08:40:34Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "nadeem4/ai-experiments",
+    "source": "github",
+    "stars": 0,
+    "why": "Experiments with decision models: measured, with the wire on disk. First up: a RAG re-ranker.",
+    "html_url": "https://github.com/nadeem4/ai-experiments",
+    "pushed_at": "2026-09-24T13:38:07Z",
+    "created_at": "2026-09-24T00:44:52Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "nafi-ullah/laya-fine-tune-bn-eco-voice",
+    "source": "github",
+    "stars": 0,
+    "why": "Fine-tuning Laya-multilingual into a local Bangla e-commerce voice-agent decision engine (order-confirm, intent, escalate)",
+    "html_url": "https://github.com/nafi-ullah/laya-fine-tune-bn-eco-voice",
+    "pushed_at": "2026-09-24T13:51:52Z",
+    "created_at": "2026-09-24T10:01:08Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "ngocvychu38-web/cube-lab",
+    "source": "github",
+    "stars": 0,
+    "why": "Interactive 3D Rubik\u2019s Cube with Jev AI seven-step solving, live animations and recorded turning sounds.",
+    "html_url": "https://github.com/ngocvychu38-web/cube-lab",
+    "pushed_at": "2026-09-24T15:00:29Z",
+    "created_at": "2026-09-24T06:39:14Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "noelserdna/colonias-felinas-san-roman",
+    "source": "github",
+    "stars": 0,
+    "why": "PWA de formaci\u00f3n, examen y carnet de cuidadores de colonias felinas (Astro + Cloudflare Workers, D1, R2 y JEV)",
+    "html_url": "https://github.com/noelserdna/colonias-felinas-san-roman",
+    "pushed_at": "2026-09-24T14:54:45Z",
+    "created_at": "2026-09-24T14:52:35Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "opper-ai/jev-vs-kev",
+    "source": "github",
+    "stars": 0,
+    "why": "Jev vs Kev 4B on the same System One endpoint: benchmark code, a post-cutoff test set and results",
+    "html_url": "https://github.com/opper-ai/jev-vs-kev",
+    "pushed_at": "2026-09-24T14:31:08Z",
+    "created_at": "2026-09-24T14:30:54Z",
+    "found_via": [
+      "system-one_pushed",
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "oskarscot/typesafe4j",
+    "source": "github",
+    "stars": 0,
+    "why": "Modern and lightweight Java SDK for the TypeSafe AI Jev models",
+    "html_url": "https://github.com/oskarscot/typesafe4j",
+    "pushed_at": "2026-09-24T15:12:18Z",
+    "created_at": "2026-09-21T00:11:29Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "patrol-jev/patrol-jev",
+    "source": "github",
+    "stars": 0,
+    "why": "\uc0ac\uc9c4\uc744 \uc62c\ub9ac\uba74 \uc21c\ucc30\uc77c\uc9c0 \uae00\uc774 \ub098\uc635\ub2c8\ub2e4. \uc77d\uae30\ub294 \ubc94\uc6a9AI, \ud310\ub2e8\uc740 Jev \uac00.",
+    "html_url": "https://github.com/patrol-jev/patrol-jev",
+    "pushed_at": "2026-09-24T15:09:00Z",
+    "created_at": "2026-09-22T11:06:14Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "plurp911/jev-cli",
+    "source": "github",
+    "stars": 0,
+    "why": "Independent, unofficial CLI for TypeSafe AI's System One API",
+    "html_url": "https://github.com/plurp911/jev-cli",
+    "pushed_at": "2026-09-24T01:01:12Z",
+    "created_at": "2026-09-24T00:13:57Z",
+    "found_via": [
+      "topic_system-one"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "pmagnomuller/conduit",
+    "source": "github",
+    "stars": 0,
+    "why": "Loopback gateway for Claude Code or OpenCode: automatic Anthropic \u2192 GLM \u2192 DeepSeek failover, breaker-driven, plus optional per-call model routing by Jev (TypeSafe System One) \u2014 capability-first across all three providers \u2014 with manual pinning, control UI and CLI",
+    "html_url": "https://github.com/pmagnomuller/conduit",
+    "pushed_at": "2026-09-24T13:52:17Z",
+    "created_at": "2026-08-12T11:47:50Z",
+    "found_via": [
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "qalarc/gut-finetuned",
+    "source": "github",
+    "stars": 0,
+    "why": "GUT \u2014 Guided Unconscious Thinking: distill your systems' recurring decisions into a local decision engine. RLCD fine-tuning + calibration gate + local serving. Free for non-commercial use.",
+    "html_url": "https://github.com/qalarc/gut-finetuned",
+    "pushed_at": "2026-09-24T13:51:17Z",
+    "created_at": "2026-09-24T03:44:57Z",
+    "found_via": [
+      "RLCD_created",
+      "RLCD_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "raghavpillai/jev-drone",
+    "source": "github",
+    "stars": 0,
+    "why": "Jev-controlled indoor drone navigation and room search in PX4 and Gazebo, with recorded 3D demos.",
+    "html_url": "https://github.com/raghavpillai/jev-drone",
+    "pushed_at": "2026-09-24T15:06:31Z",
+    "created_at": "2026-09-24T12:42:13Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "ravinsingh15/jev-factory-gate",
+    "source": "github",
+    "stars": 0,
+    "why": "Does a fast gate read the pending step? Jev vs an LLM judge on 48 invented cases.",
+    "html_url": "https://github.com/ravinsingh15/jev-factory-gate",
+    "pushed_at": "2026-09-24T14:59:27Z",
+    "created_at": "2026-09-24T14:54:56Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "reindent/jauvex",
+    "source": "github",
+    "stars": 0,
+    "why": "Your coding agents, side by side, by voice. Claude and Codex in one desktop app, with Jev for the fast decisions.",
+    "html_url": "https://github.com/reindent/jauvex",
+    "pushed_at": "2026-09-24T14:56:32Z",
+    "created_at": "2026-09-21T06:39:45Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "renjithwarrier94/pi-model-router",
+    "source": "github",
+    "stars": 0,
+    "why": "A lightweight Pi extension which reads each user message and uses a System One model like Jev to assess its complexity and route that to an approriate LLM from the configured list",
+    "html_url": "https://github.com/renjithwarrier94/pi-model-router",
+    "pushed_at": "2026-09-24T14:25:49Z",
+    "created_at": "2026-09-24T14:23:30Z",
+    "found_via": [
+      "system-one_pushed",
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "rotsl/layaagent",
+    "source": "github",
+    "stars": 0,
+    "why": "LayaAgent is a local-first, deterministic-mediation agent platform that combines a fast System-1 classifier (Laya) with pluggable System-2 generative agents (Codex / Claude).",
+    "html_url": "https://github.com/rotsl/layaagent",
+    "pushed_at": "2026-09-24T00:33:33Z",
+    "created_at": "2026-09-22T14:21:26Z",
+    "found_via": [
+      "RLCD_created",
+      "RLCD_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "ryancole/jev-dotnet",
+    "source": "github",
+    "stars": 0,
+    "why": ".NET client for Jev, TypeSafe's System One model. Send state and typed questions, get calibrated structured answers.",
+    "html_url": "https://github.com/ryancole/jev-dotnet",
+    "pushed_at": "2026-09-24T05:49:44Z",
+    "created_at": "2026-09-24T05:24:50Z",
+    "found_via": [
+      "topic_system-one",
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "saif27217/jev-hermes",
+    "source": "github",
+    "stars": 0,
+    "why": "Fast, cheap, typed decisions for AI agents \u2014 stdlib-only Python client for TypeSafe's Jev decision model via OpenRouter, with a design method, reusable question sets, examples, and tests.",
+    "html_url": "https://github.com/saif27217/jev-hermes",
+    "pushed_at": "2026-09-24T08:44:13Z",
+    "created_at": "2026-09-24T08:43:43Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "san3ncrypt3d/jev-security-prioritization",
+    "source": "github",
+    "stars": 0,
+    "why": "Reproducible experiment: can TypeSafe's Jev decision model prioritize SCA and SAST findings from context? Frozen benchmark, 50k scale run, frontier-model comparison, raw data and blog.",
+    "html_url": "https://github.com/san3ncrypt3d/jev-security-prioritization",
+    "pushed_at": "2026-09-24T12:33:08Z",
+    "created_at": "2026-09-24T01:56:35Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "semanticpolicy/semantic-policy",
+    "source": "github",
+    "stars": 0,
+    "why": "SemanticPolicy adds testable semantic decisions to .NET applications: rules a decision model answers, measured on labelled examples, for business logic and AI agents, with no lock-in to one provider.",
+    "html_url": "https://github.com/semanticpolicy/semantic-policy",
+    "pushed_at": "2026-09-24T11:12:25Z",
+    "created_at": "2026-09-20T13:13:29Z",
+    "found_via": [
+      "decision_model_llm_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "siiick/pi-pignon",
+    "source": "github",
+    "stars": 0,
+    "why": "Pi coding agent extension that shifts to the right LLM for each prompt, using a local (Laya) or remote (Jev) decision model to judge task difficulty.",
+    "html_url": "https://github.com/siiick/pi-pignon",
+    "pushed_at": "2026-09-24T11:04:18Z",
+    "created_at": "2026-09-23T13:58:45Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "Laya_pushed",
+      "decision_model_llm",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "snevadalabs/jev-kmp",
+    "source": "github",
+    "stars": 0,
+    "why": "Kotlin Multiplatform SDK for the TypeSafe / Jev System One API \u2014 typed questions with calibrated probabilities instead of generated text.",
+    "html_url": "https://github.com/snevadalabs/jev-kmp",
+    "pushed_at": "2026-09-24T15:08:41Z",
+    "created_at": "2026-09-17T09:30:23Z",
+    "found_via": [
+      "system-one_pushed",
+      "jev_pushed",
+      "system_one_spaced_pushed",
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "sour-cherries/MOsD",
+    "source": "github",
+    "stars": 0,
+    "why": "An operating system that might become an operating system one day",
+    "html_url": "https://github.com/sour-cherries/MOsD",
+    "pushed_at": "2026-09-24T15:11:21Z",
+    "created_at": "2026-09-24T15:11:19Z",
+    "found_via": [
+      "system-one_pushed",
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "sumleo/RLCDAlignBench",
+    "source": "github",
+    "stars": 0,
+    "why": "RLCDAlignBench: 44 alignment-failure detection benchmarks and code for 'Just Ask Jev' (RLCD zero-shot detector of AI alignment failures)",
+    "html_url": "https://github.com/sumleo/RLCDAlignBench",
+    "pushed_at": "2026-09-24T12:27:31Z",
+    "created_at": "2026-09-24T10:26:08Z",
+    "found_via": [
+      "RLCD_created",
+      "RLCD_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "szafar-7101/reclaim",
+    "source": "github",
+    "stars": 0,
+    "why": "Confidence-gated disk space recovery for macOS developers. Five-agent pipeline using TypeSafe AI's Jev model to decide what's safe to delete \u2014 calibrated probability instead of hardcoded path regex.",
+    "html_url": "https://github.com/szafar-7101/reclaim",
+    "pushed_at": "2026-09-24T15:08:07Z",
+    "created_at": "2026-09-24T15:05:46Z",
+    "found_via": [
+      "jev_pushed",
+      "topic_jev",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "tobegit3hub/systemone-open-service",
+    "source": "github",
+    "stars": 0,
+    "why": "The open service for system one models.",
+    "html_url": "https://github.com/tobegit3hub/systemone-open-service",
+    "pushed_at": "2026-09-24T12:57:51Z",
+    "created_at": "2026-09-24T12:57:49Z",
+    "found_via": [
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "tomek7667/cbjev",
+    "source": "github",
+    "stars": 0,
+    "why": "Typed decisions (choice/score/noul) from one encoder pass - faster, better-calibrated successor to Laya, Jev wire compatible",
+    "html_url": "https://github.com/tomek7667/cbjev",
+    "pushed_at": "2026-09-24T10:51:14Z",
+    "created_at": "2026-09-24T10:10:52Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "tomerglick57/Jevstiller",
+    "source": "github",
+    "stars": 0,
+    "why": "REVISIT densify: description rewrite \u2014 Distill a repeated Jev classification task into a local model, on the fly \u2014 same answers,  (*theirs*)",
+    "html_url": "https://github.com/tomerglick57/Jevstiller",
+    "pushed_at": "2026-09-24T13:03:50Z",
+    "created_at": null,
+    "found_via": [],
+    "hf_kind": null,
+    "fork": null,
+    "kind": "revisit",
+    "material": [
+      "description_rewrite"
+    ]
+  },
+  {
+    "id": "ubermenchh/nanohunch",
+    "source": "github",
+    "stars": 0,
+    "why": "Minimal System One model: state + typed questions in, calibrated probabilities out. One forward pass, no text generation.",
+    "html_url": "https://github.com/ubermenchh/nanohunch",
+    "pushed_at": "2026-09-24T07:30:08Z",
+    "created_at": "2026-09-24T07:23:26Z",
+    "found_via": [
+      "topic_system-one"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "wahabkhan98/ReplyGuyRepellent",
+    "source": "github",
+    "stars": 0,
+    "why": "Chrome extension that hides low-effort engagement bait and bot replies on X so only real conversations stay visible. Fast keyword pre-filter + Jev AI scoring.",
+    "html_url": "https://github.com/wahabkhan98/ReplyGuyRepellent",
+    "pushed_at": "2026-09-24T04:22:43Z",
+    "created_at": "2026-09-22T01:56:09Z",
+    "found_via": [
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "warsang/jev-web",
+    "source": "github",
+    "stars": 0,
+    "why": "Run open-jev- and Laya-shaped typed-decision models in the browser: one state plus typed questions in, calibrated probabilities out.",
+    "html_url": "https://github.com/warsang/jev-web",
+    "pushed_at": "2026-09-24T10:09:59Z",
+    "created_at": "2026-09-24T10:08:47Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "xnuonux/jev-reflex",
+    "source": "github",
+    "stars": 0,
+    "why": "A portable Jev decision sidecar for coding agents: MCP, CLI, pi, source-bound context, durable budgets and measured outcomes.",
+    "html_url": "https://github.com/xnuonux/jev-reflex",
+    "pushed_at": "2026-09-24T06:12:44Z",
+    "created_at": "2026-09-24T03:32:01Z",
+    "found_via": [
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "xz-dev/pi-jev-todo-audit",
+    "source": "github",
+    "stars": 0,
+    "why": "Pi extension that audits rpiv-todo board drift every 10 agent loops using TypeSafe's jev model, injecting corrective nudges when the agent wanders off-task",
+    "html_url": "https://github.com/xz-dev/pi-jev-todo-audit",
+    "pushed_at": "2026-09-24T10:43:01Z",
+    "created_at": "2026-09-24T09:09:02Z",
+    "found_via": [
+      "topic_typesafe"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "xzx34/JevOut",
+    "source": "github",
+    "stars": 0,
+    "why": "Code for JevOut: Natural Context Can Flip Decision Models",
+    "html_url": "https://github.com/xzx34/JevOut",
+    "pushed_at": "2026-09-24T10:34:03Z",
+    "created_at": "2026-09-24T10:33:42Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "yuxino/laya-mlx-voxel",
+    "source": "github",
+    "stars": 0,
+    "why": "Local voxel building experiments with Qwen3.5-4B and Laya-MLX on Apple Silicon.",
+    "html_url": "https://github.com/yuxino/laya-mlx-voxel",
+    "pushed_at": "2026-09-24T15:20:38Z",
+    "created_at": "2026-09-24T14:49:50Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "zhangyunting123/von-laya-jev-paint-compare",
+    "source": "github",
+    "stars": 0,
+    "why": "Public test repository for side-by-side VON, LAYA, and JEV painting comparison",
+    "html_url": "https://github.com/zhangyunting123/von-laya-jev-paint-compare",
+    "pushed_at": "2026-09-24T10:27:13Z",
+    "created_at": "2026-09-24T10:27:01Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  }
+]

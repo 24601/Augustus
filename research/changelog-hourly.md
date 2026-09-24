@@ -1,3 +1,17 @@
+## Hourly 0922 HIGH (notes.md §169)
+
+- Folded onto `main` `125507c8600a5ab9ea4214cc16804c1c4f8486a6`. Overnight
+  gap after hourly 1531 (§168). This fold is §169 only. Research-only. Does
+  not bump the package. Scoring rows stay at 17. `invented_signal: false`.
+  No X calls.
+- Eikos hard-tier numbers, Nagi's four-system table, and a 60-intent French
+  snapshot stay separate instruments. No scoring row. "Calibrated" banners
+  stay on their populations.
+- Soter deletion, a laya-trade close, and CI skips stay in policy or an
+  allowlist. Catalog counts (896, 1207) are not endorsements.
+- reflexbench HEAD moved. §168's headline stays on the prior SHA. jeva's
+  100% was not copied from an eval file. Tasksource row counts are unchanged.
+
 ## Hourly 1531 HIGH (notes.md §168)
 
 - Folded onto `main` `bc0593617c413cd042f58a52274e89c48b216f8d`. Gap after
