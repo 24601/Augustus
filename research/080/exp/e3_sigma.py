@@ -48,12 +48,19 @@ def choose(rows: dict, gold: dict) -> dict:
     sweeps = {name: arms.sweep(rows, gold, name, GRID) for name in arms.SIGNALS}
 
     flat = [entry for entries in sweeps.values() for entry in entries]
-    best_explicit = max(flat, key=lambda e: e["mean_utility"])
-    # Arm (vi) may look at anything except the outcome, so it selects on self-consistency, and
-    # ties break toward the lower threshold so the rule is deterministic rather than dict-ordered.
-    proxy_pool = sweeps[best_explicit["signal"]]
-    proxy = max(proxy_pool, key=lambda e: (e["self_consistency"], -e["threshold"]))
-    outcome = max(proxy_pool, key=lambda e: (e["mean_utility"], -e["threshold"]))
+    # Arm (vii) and the frozen best explicit arm select over the WHOLE space — signal and
+    # threshold — on true utility. Arm (vi) selects over the same whole space on the proxy. The
+    # earlier version chose the signal on true utility and only the threshold on the proxy, which
+    # made arm (vi) label-free in its last step and outcome-selected in its first; the runner
+    # caught it, and a procedure that is label-free in part is not a label-free procedure.
+    # Ties break toward the lower threshold, then the alphabetically first signal, so both arms
+    # are deterministic rather than dict-ordered.
+    def rank(entry, column):
+        return (entry[column], -entry["threshold"], entry["signal"])
+
+    best_explicit = max(flat, key=lambda e: rank(e, "mean_utility"))
+    outcome = best_explicit
+    proxy = max(flat, key=lambda e: rank(e, "proxy_mean_utility"))
 
     constants = {k: arms.evaluate(rows, gold, lambda row, kk=k: arms.run_constant(row, kk))
                  for k in arms.K_LEVELS}
@@ -67,8 +74,9 @@ def choose(rows: dict, gold: dict) -> dict:
         "best_constant": {"k": best_k,
                           "search_mean_utility": constants[best_k]["mean_utility"]},
         "proxy_selected": {"signal": proxy["signal"], "threshold": proxy["threshold"],
-                           "selected_on": "self_consistency, no label",
-                           "search_self_consistency": proxy["self_consistency"],
+                           "selected_on": "proxy_mean_utility over signal AND threshold; no gold "
+                                          "answer enters any step",
+                           "search_proxy_mean_utility": proxy["proxy_mean_utility"],
                            "search_mean_utility": proxy["mean_utility"]},
         "outcome_selected": {"signal": outcome["signal"], "threshold": outcome["threshold"],
                              "selected_on": "mean_utility, which needs the gold answer",
@@ -148,6 +156,13 @@ def main(argv=None) -> int:
                               for name, summary in summaries.items()},
         }
 
+    signatures = [(c["reader"], round(c["mean"], 12), round(c["sd"], 12))
+                  for c in report["contrasts"]]
+    report["distinct_contrasts"] = len(set(signatures))
+    if report["distinct_contrasts"] != M_FAMILY:
+        report["degeneracy_warning"] = (
+            f"{M_FAMILY} contrasts were computed but only {len(set(signatures))} are numerically "
+            "distinct; two arms have coincided and the family is smaller than it claims")
     if len(report["contrasts"]) != M_FAMILY:
         raise SystemExit(f"the family is {M_FAMILY} contrasts, not {len(report['contrasts'])}; "
                          "two readers with three contrasts each is what the lock registers")
@@ -156,7 +171,8 @@ def main(argv=None) -> int:
         "Every choice here is made on the search split, which the confirmation split never touched.",
         "sigma-hat is measured on search; the realized sd on confirmation may differ, and the interval decides.",
         "Arms (ii)-(iv) threshold a probability whose rerun instability exceeds this margin; see the determinism receipt. That bounds transportability, not the internal comparison, because the tables are frozen.",
-        "The proxy is self-consistency against the k=6 answer. It is label-free by construction, which is the property P5 needs, and it is not the only proxy a team might choose.",
+        "The proxy selects signal AND threshold on agreement with a majority answer across the three k levels, priced with the same round penalty as the real utility. No gold answer enters any step of it. It is not the only proxy a team might choose, and a different one could rank differently.",
+        "An earlier proxy used agreement with the k=6 answer and was degenerate: that quantity is maximized by reading everything, so arm (vi) collapsed onto the constant arm and two contrasts per reader became one. If the proxy and constant arms coincide again, the family has fewer distinct contrasts than it claims and the report says so.",
         "Threshold arms never abstain; abstention is the implicit arm's own option, and giving the threshold arms a second parameter would change the registered comparison.",
     ]
     args.out.write_text(json.dumps(report, indent=2), encoding="utf-8")

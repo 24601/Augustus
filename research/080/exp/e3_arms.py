@@ -11,14 +11,16 @@ The seven arms of the design lock:
   (iii) similarity  stop when the MiniLM cosine clears a threshold
   (iv)  composite   stop when the mean of the two clears a threshold
   (v)   constants   always stop at a fixed k, with no evidence read at all
-  (vi)  proxy       a threshold chosen on the search split WITHOUT outcomes
+  (vi)  proxy       a signal AND threshold chosen on the search split WITHOUT outcomes
   (vii) outcome     a threshold chosen on the search split WITH outcomes
 
 (vi) and (vii) are the P5 contrast, and the difference between them is the whole question: (vi)
 may look at anything except the gold answer, (vii) may look at the utility it is trying to
-maximize. Keeping the proxy honest is therefore this module's main obligation, and the proxy used
-here is self-consistency — whether the answer at the stopping k matches the answer at k = 6 — which
-is computable with no label at all.
+maximize. Keeping the proxy honest is therefore this module's main obligation, and it is easy to get wrong
+in two ways at once. The proxy must be label-free in its WHOLE procedure, signal included, not
+merely in its last step; and it must not be a quantity that a trivial policy maximizes. The proxy
+here is agreement with a majority answer across the three k levels, priced with the same round
+penalty as the real utility, which satisfies both.
 
 U = EM − λ·rounds/3, clipped to [−0.2, 1], with λ = 0.1 and μ = 0 from the design lock. Abstaining
 scores EM = 0 and still pays for the rounds it used, because an episode that read two paragraphs
@@ -99,27 +101,47 @@ def run_constant(row: dict, k: int) -> tuple[str, int, bool]:
     return row["k"][str(k)]["answer"], index, False
 
 
-def self_consistency(row: dict, answer: str) -> int:
-    """The proxy: does this answer match what the reader says with the most evidence?
+def pseudo_label(row: dict) -> str:
+    """A label-free stand-in for the answer: the majority answer across the three k levels.
 
-    No gold answer is involved, so arm (vi) can be selected on it without seeing an outcome. It is
-    a proxy in the strict sense the lock means — correlated with being right, and not the thing
-    itself — and it is exactly the kind of signal a team without labels would reach for.
+    An earlier version used the k = 6 answer, and it was degenerate: agreement with the
+    maximal-evidence answer is maximized by reading the maximal evidence, so the proxy collapsed
+    onto the constant-k6 arm and two of the three contrasts per reader became the same contrast.
+    A majority across levels has no such built-in preference — stopping early can agree with it —
+    so the proxy can prefer a cheaper policy when the evidence supports one.
+
+    Ties break toward the answer seen at the smallest k, which is deterministic and does not
+    reintroduce a preference for more evidence.
     """
-    return int(normalize_answer(answer) == normalize_answer(row["k"][str(K_LEVELS[-1])]["answer"]))
+    answers = [row["k"][str(k)]["answer"] for k in K_LEVELS]
+    normalized = [normalize_answer(answer) for answer in answers]
+    best, best_count = normalized[0], 0
+    for candidate in normalized:
+        count = normalized.count(candidate)
+        if count > best_count:
+            best, best_count = candidate, count
+    return best
+
+
+def agrees_with_pseudo_label(row: dict, answer: str) -> int:
+    """The proxy's stand-in for EM. No gold answer is involved anywhere in its computation."""
+    return int(normalize_answer(answer) == pseudo_label(row))
 
 
 def evaluate(rows: dict, gold: dict, policy) -> dict:
     """One arm over every question: per-question utility, plus what it did to get there."""
-    utilities, rounds_used, abstentions, matches, consistency = {}, {}, 0, 0, 0
+    utilities, rounds_used, abstentions, matches = {}, {}, 0, 0
+    proxy_utilities, proxy_matches = {}, 0
     for key, row in rows.items():
         answer, rounds, abstained = policy(row)
         em = 0 if abstained else exact_match(answer, gold[key])
+        proxy_em = 0 if abstained else agrees_with_pseudo_label(row, answer)
         utilities[key] = utility(em, rounds)
+        proxy_utilities[key] = utility(proxy_em, rounds)
         rounds_used[key] = rounds
         abstentions += abstained
         matches += em
-        consistency += 0 if abstained else self_consistency(row, answer)
+        proxy_matches += proxy_em
     n = len(utilities)
     return {
         "n": n,
@@ -127,7 +149,8 @@ def evaluate(rows: dict, gold: dict, policy) -> dict:
         "exact_match": matches / n,
         "mean_rounds": sum(rounds_used.values()) / n,
         "abstention_rate": abstentions / n,
-        "self_consistency": consistency / n,
+        "proxy_agreement": proxy_matches / n,
+        "proxy_mean_utility": sum(proxy_utilities.values()) / n,
         "per_question": utilities,
     }
 
@@ -135,9 +158,10 @@ def evaluate(rows: dict, gold: dict, policy) -> dict:
 def sweep(rows: dict, gold: dict, signal_name: str, grid) -> list[dict]:
     """Every threshold on the grid, with both the outcome score and the label-free proxy.
 
-    Selecting on `mean_utility` is arm (vii); selecting on `self_consistency` is arm (vi). Running
-    one sweep and reading two columns from it is what makes the two arms differ in exactly one
-    respect, which is the comparison P5 is about.
+    Selecting on `mean_utility` is arm (vii); selecting on `proxy_mean_utility` is arm (vi).
+    Running one sweep and reading two columns from it is what makes the two arms differ in exactly
+    one respect, which is the comparison P5 is about. The proxy column prices rounds exactly as the
+    real one does, so a proxy that preferred more evidence would have to pay for it.
     """
     signal = SIGNALS[signal_name]
     results = []
