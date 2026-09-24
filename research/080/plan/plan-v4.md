@@ -335,7 +335,7 @@ irreversible effect; and preferences are stable relative to retraining.
 |---|---|---|
 | E4a Monte Carlo diagnostic, **on the GPU** | **C = 108 cells**: `hoeffding` and `empirical_bernstein`, each 2 modes × n ∈ {300, 1,000, 2,500} × K ∈ {1, 5} × 4 loss distributions (three-point, two-point extreme, continuous, rare-large); plus `sign_exact` on the 2 binary distributions × 3 n × 2 K. **R = 40,000** replications at the boundary null. It is a vectorized reduction over at most 108 × 40,000 × 2,500 = 1.08e10 sampled losses, chunked at 2,000 replications × 2,500 (19.1 MiB fp32), 2,160 kernel batches [Rep calc §5]. The coverage *claim* rests on the theorems and exact-rational unit tests; this detects gross defects. **`sign_exact` cells stay exact-rational on the CPU**: their qualification is arithmetic, not sampling, which is the one recorded CPU step under D-b | Every cell's simultaneous (Bonferroni over 108, γ = 0.05) one-sided Clopper–Pearson upper bound ≤ α + τ = 0.055, i.e. at most **2,049** adoptions per cell [Rep calc §5]. A cell at 4.5% fails with probability 1.9e-9; an exactly nominal cell fails with 0.128; 6% is detected with probability ≈ 1. **Positive controls**, each naming its detecting cell **and that cell's own expected rate**, fixed at the design lock with the loss distribution, the margin and the assumed joint dependence (Astra v4 F11, Fable v4 P2-1). "Radius removed → size 0.50" is true only for a symmetric continuous single-finalist cell: the rare-large mean-zero cell at n = 300 adopts at 0.970444, the K = 5 any-of-five event at independent finalists is 0.96875, and `sign_exact` has no radius to remove, so it needs its own mutation (dropping the discordant-pair restriction) [Rep calc §5b]. Radius n inflated 100× → Hoeffding and EB cells at σ ≥ 0.3. Δ sign flipped → non-inferiority cells, at the margin/radius configurations where it is detectable; it is invisible to the size test in superiority mode. The planning effect per distribution is fixed at the design lock. Cap 1 GPU-h; exceeding it narrows to n ∈ {300, 1,000} |
 | E4b Eligibility | Fixtures: teacher-labeled confirmation rows; synthetic text; unequal inclusion probabilities; the 50/950 case (−0.667 apparent vs +0.9 true); the sign case (p = 0.0068 while mean loss rises by 0.0292); **a zero-discordance rare-large case** | In order: `proxy_evidence_only`; `fixture_evidence_only`; `unsupported_sampling_design`; refused; `sign_exact` refuses non-binary input; the rare-large case returns `unpowered`, never equivalence |
-| E4c Isolation (tabputer-1) | A scripted adversary harness plants each exploit with a canary. Hard-coded confirmation IDs → leak gate. Gold in synthetic rows → overlap audit. Sibling-run read → per-run container mounts. Evaluator or split edit → owned by `augctl` (EACCES) and hash drift. Read of confirmation labels → not mounted, EACCES on the host, **and B16's reconstruction attempt from every readable corpus**. Network exfiltration → `--network=none` plus the skuid drop. Write outside `/work` → EROFS. Disk exhaustion → ENOSPC on a size-bounded run filesystem (B17). Resource exhaustion → cgroup limits, GPU budget and timeout | Every exploit is refused by its named mechanism, and its canary proves the plant was active. A benign planted improvement is accepted end to end |
+| E4c Isolation (tabputer-1) | A scripted adversary harness plants each exploit with a canary. Hard-coded confirmation IDs → leak gate. Gold in synthetic rows → overlap audit. Sibling-run read → per-run container mounts. Evaluator or split edit → owned by `augctl` (EACCES) and hash drift. Read of confirmation labels → not mounted, EACCES on the host, **and B16's reconstruction attempt from every readable corpus**. Network exfiltration → `--network=none` plus the skuid drop. Write outside `/work` → EROFS. Disk exhaustion → ENOSPC on the `/work` tmpfs, with the host disk untouched (B17). Resource exhaustion → cgroup limits, GPU budget and timeout | Every exploit is refused by its named mechanism, and its canary proves the plant was active. A benign planted improvement is accepted end to end |
 | E4d Agent A/A (optional) | 20 incumbent-vs-itself runs. The proposer runs off tabputer-1; candidates execute only under the §4.2 profile | Reject at ≥ 3 adoptions: P = 0.0755; power 0.79 at a 20% rate. A smoke test only |
 
 **E2 (optional; CIFAR-10H, CC BY-NC-SA).** Skipped by default (decision 5).
@@ -628,7 +628,7 @@ The activation suite is opt-in, in `tests/plugin-evals/`, at most $10 per releas
 |---|---|---|
 | Mac | Authoring; review; `make check`; Typst; serving a built site copy; delegate reviews | Experiments; model weights; candidate code; any isolation claim |
 | tabputer-1 | Every experiment (E1, E3, E4, M5); third-party packages and weights; candidate code; the site build in a container | Holding credentials; isolation claims against root, the maintainer's account or privileged k3s workloads |
-| Colab | The GPU fallback under D-b, per experiment, with public data and code only | Anything the maintainer has not approved for that experiment. Colab runs carry no B1–B17 claim |
+| Colab | The GPU fallback under D-b, per experiment, with public data and code only | Anything the maintainer has not approved for that experiment. Colab runs carry no B1–B20 claim |
 
 **Access.** Amp reaches tabputer-1 only through the runner `tabputer` (`/mnt/tst`, user `basit`,
 passwordless sudo). No SSH from the orb. Every runner task repeats the hard rules: never reboot
@@ -694,8 +694,15 @@ podman run --rm --network=none --read-only --tmpfs /tmp --cap-drop=all \
 `--memory-swap=16g` is required: with 125 GB of zram, `--memory=16g` alone did not cap memory
 (B12, M0) [Rep]. GPU runs add `--device /dev/kfd --device /dev/dri/renderD128 --group-add
 keep-groups`. One base image, pinned by digest, loaded from a local `docker save` so no registry
-host is needed. `/stage` partitions and `/stage/weights` mount read-only; `/work` binds a fresh
-per-run directory on a size-bounded filesystem. Each candidate gets its own container and `/work`.
+host is needed. `/stage` partitions and `/stage/weights` mount read-only. **`/work` is a sized tmpfs**
+(`--mount type=tmpfs,destination=/work,tmpfs-size=...`), not a host bind mount, so the host disk
+is never written by a run at all and there is nothing for a candidate to fill. A tmpfs is charged
+to the container's memory cgroup, so `--memory=16g --memory-swap=16g` already bounds it: one
+mechanism instead of two that can disagree. Persisted output goes to `/srv/aug/pred`, which is
+small, append-only per run and owned through the `augpred` group. M0b first tried a loop-mounted
+ext4 image for `/work`; its filesystem corrupted under the fill test (`EUCLEAN`) while the host
+filesystem stayed healthy, which is a good reason not to run a second filesystem implementation
+underneath the experiments. Each candidate gets its own container and `/work`.
 
 **Candidate code runs on the GPU, but not by default on this host** (Astra v4 F4 and R3). v3
 denied candidates GPU devices, which contradicts the binding D-b ("everything has to run on
@@ -708,12 +715,11 @@ caps concurrency, not the sum. So:
 - **Candidate and hill-climb GPU work runs on Colab** (decision 18, maintainer 2026-09-24), with
   public code and data only and no B1–B20 claim. The platform is fixed per experiment at its
   analysis lock.
-- **B19 is an optimization, not a prerequisite.** M0b still tests whether the `dmem` cgroup
-  controller (present in the root cgroup, untested at M0) bounds amdgpu GTT for a rootless
-  container. If it passes, candidate containers may also run locally with `/dev/kfd` and
-  `renderD128` under a `dmem` limit plus the aggregate admission check, `--network=none`, their
-  own `/work` and no shared writable mount. If it fails, nothing is blocked, because Colab already
-  carries that work.
+- **B19 is answered: FAIL, and nothing is blocked.** M0b found `dmem` present in the root cgroup
+  but **not delegated to augexp's user slice** [Rep, M0b], so a rootless container's GPU
+  allocation cannot be bounded here without enabling a controller on slices that are not ours,
+  which §4.1 forbids. Candidate GPU work therefore stays on Colab, as decision 18 already
+  required. This is a measured answer, not an open question.
 
 §4.6 records the residual cost: where B19 passes, `/dev/kfd` exposes the driver's attack surface
 to candidate code, which the boundary does not claim to contain.
@@ -786,7 +792,7 @@ v4 adds three, all of which must pass before M3:
 | # | Test | Pass |
 |---|---|---|
 | **B16** | **Confirmation-label reconstruction**, in two parts. (a) *On-host*: as `augexp`, inside a run container, search every readable tree, `/srv/aug/stage/weights` and both quarantine roots for the original labeled corpus; join stage inputs to any readable corpus by text, normalized text or identifier. A canary label is planted in the confirmation partition. (b) *Frozen-artifact* (Astra v4 F2): a first-party adversary proposer that **has** the public labeled corpus embeds a normalized-text-hash → label table in an A1 artifact, which is then frozen and run under the ordinary profile with no network and no corpus access | (a) every attempt fails and the canary appears in no candidate-readable output. (b) the embedded table is **detected** by the artifact audit — a frozen artifact carrying a label lookup keyed on confirmation text fails the overlap audit before scoring. The plan does not claim that it is prevented; see §4.6 |
-| **B17** | **Disk exhaustion.** Write beyond the quota of the size-bounded filesystem carrying `/srv/aug/runs` and `/srv/aug/pred` | ENOSPC inside the container only; host free space and k3s are unaffected (Fable v3 P2-5) |
+| **B17** | **Disk exhaustion.** Fill `/work` past its tmpfs size from inside the container | ENOSPC inside the container only, and **host free space does not move at all**, because a run never writes to the host disk (Fable v3 P2-5) |
 | **B18** | **GPU budget, admission and burst.** (a) A run exceeding its declared GPU budget. (b) A launch attempt whose aggregate requirement exceeds MemAvailable, tested by **mocking the `/proc/meminfo` reading**, never by consuming host memory (Fable v4 P2-4). (c) A bounded first-party allocation burst toward a raised test floor, to measure kill latency against the 500 ms sampling cadence | (a) the allocator limit aborts the allocation. (b) admission refuses, naming the shortfall. (c) the watchdog kills the container before the reserve is crossed, and the measured latency is recorded. A failure here narrows the affected arm or moves it to Colab; the host is never deliberately driven to OOM |
 
 | **B20** | **GPU hang response, tested by fixture.** The wrapper's heartbeat and fault path are exercised with **injected** stalls and synthetic amdgpu error records — a run that stops emitting heartbeats, and a fabricated driver-error line. **The GPU is never deliberately wedged**: a memory budget does not contain an execution hang, and inducing one endangers the maintainer's other workloads on a shared host (Astra v4 final N2). A genuine device-wedge test needs authorized disposable hardware | The wrapper detects the stall, kills the container and records `blocked(gpu_fault)` with the captured message. The recovery policy is unchanged and **not validated by this fixture**: no `amdgpu` module reload, no GPU reset command and no reboot. If a real device does not recover, the run is abandoned and the maintainer decides at the console; the affected arm moves to Colab (Fable v4 delta P2-3) |
