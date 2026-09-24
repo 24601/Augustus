@@ -74,8 +74,10 @@ sudo. Rules:
 | [#109](https://github.com/24601/Augustus/pull/109) | The default branch moves to `0.8.0-dev`, and `.local/` and `.claude/` are ignored |
 | [#110](https://github.com/24601/Augustus/pull/110) | Repository checks cover every skill, with per-skill budgets, one shared version and full marketplace coverage |
 | [#111](https://github.com/24601/Augustus/pull/111) | The confirmation helper gains `mode`, `method` (`empirical_bernstein`, `sign_exact`) and a required `sampling_design` |
+| [#112](https://github.com/24601/Augustus/pull/112) | The §3.6 provenance gate: ancestry of a training artifact, lineage-not-name identity, the TypeSafe rule, recorded hosted teachers (decision 12), and `unknown` on missing parents or an unnamed teacher |
+| [#113](https://github.com/24601/Augustus/pull/113) | Sourced lineage disputes, permission records, and the one-use user acknowledgment (D-d) |
 
-Still to do in M1: the ledger and provenance graph (§3.6), the overlap audit, and the climb
-ledger. **M0b** (B16–B20, the quarantine-and-split custody path, the MemAvailable watchdog, the
+Still to do in M1: the fail-closed overlap audit and the climb ledger. The provenance graph
+(§3.6) is done, including decisions 12 and 13's effects on it. **M0b** (B16–B20, the quarantine-and-split custody path, the MemAvailable watchdog, the
 GPU-budget wrapper) gates every experiment, and no experiment runs before v4's design and
 analysis locks. No tag or release without the maintainer's explicit go.
