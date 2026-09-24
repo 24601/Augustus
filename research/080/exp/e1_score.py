@@ -23,6 +23,7 @@ import argparse
 import hashlib
 import json
 import math
+import random
 from pathlib import Path
 from statistics import NormalDist
 
@@ -109,8 +110,42 @@ def required_n_equivalence(sd: float, margin: float, m: int, span: float,
     return lo
 
 
+def expand(predictions: dict) -> dict:
+    """Accept the compact prediction format and return {arm: {id: 0|1}}.
+
+    The post-lock run writes ids once and each arm as a string of '0'/'1' in that order, because
+    the per-id form repeats 1.37M id strings across 23 arms. A plain {arm: {id: action}} file is
+    still accepted, so nothing that already exists stops working.
+    """
+    if "arms" not in predictions or "ids" not in predictions:
+        return predictions
+    ids = predictions["ids"]
+    expanded = {}
+    for arm, bits in predictions["arms"].items():
+        if len(bits) != len(ids):
+            raise ValueError(f"{arm}: {len(bits)} actions for {len(ids)} ids")
+        expanded[arm] = {i: int(bit) for i, bit in zip(ids, bits)}
+    return expanded
+
+
+def shift_population(labels: dict, ids, target_prior: float, seed: int = 80_102) -> list:
+    """The shifted evaluation population: every negative, positives drawn with replacement.
+
+    The same construction the fit used, from confirmation labels and a fixed seed. It draws from a
+    different stream than the fit's torch generator, which changes WHICH positives are repeated and
+    not the prior they are drawn to, and the realized prior is reported beside the interval.
+    """
+    positive = [i for i in ids if labels.get(i) == 1]
+    negative = [i for i in ids if labels.get(i) == 0]
+    if not positive:
+        raise ValueError("the shifted population needs at least one positive")
+    needed = int(round(target_prior * len(negative) / (1 - target_prior)))
+    rng = random.Random(seed)
+    return negative + [positive[rng.randrange(len(positive))] for _ in range(needed)]
+
+
 def score(predictions: dict, labels: dict, contrasts, analysis_lock: str,
-          expected_lock: str) -> dict:
+          expected_lock: str, shift_target_prior: float | None = None) -> dict:
     """Produce every contrast, or refuse."""
     if not expected_lock:
         raise ValueError("no analysis-lock hash was recorded with this split; refusing to score")
@@ -119,6 +154,7 @@ def score(predictions: dict, labels: dict, contrasts, analysis_lock: str,
             f"analysis-lock mismatch: supplied {analysis_lock[:16]}…, "
             f"recorded {expected_lock[:16]}…; refusing to score")
 
+    predictions = expand(predictions)
     results = []
     for contrast in contrasts:
         name = contrast["name"]
@@ -130,6 +166,12 @@ def score(predictions: dict, labels: dict, contrasts, analysis_lock: str,
         ids = sorted(set(predictions[left]) & set(predictions[right]) & set(labels))
         if not ids:
             raise ValueError(f"{name}: the two arms share no scored ids")
+        realized_prior = None
+        if ratio == "S":
+            if shift_target_prior is None:
+                raise ValueError(f"{name}: a shift contrast needs the lock's target prior")
+            ids = shift_population(labels, ids, shift_target_prior)
+            realized_prior = sum(labels[i] for i in ids) / len(ids)
         differences = [cost_of(predictions[left][i], labels[i], c_fp, c_fn)
                        - cost_of(predictions[right][i], labels[i], c_fp, c_fn)
                        for i in ids]
@@ -153,6 +195,7 @@ def score(predictions: dict, labels: dict, contrasts, analysis_lock: str,
             "powered": powered,
             "counts_toward_an_outcome_row": powered,
             "finite_population_delta": interval["mean"],
+            "realized_prior": realized_prior,
         })
 
     return {
@@ -186,6 +229,8 @@ def main(argv=None) -> int:
                              "taken from the analysis lock")
     parser.add_argument("--analysis-lock", required=True,
                         help="sha256 of the analysis lock this run claims to be under")
+    parser.add_argument("--shift-target-prior", type=float,
+                        help="the lock's target_prior; required if any contrast is at ratio S")
     parser.add_argument("--recorded-lock", required=True,
                         help="the hash recorded with the split; a mismatch refuses")
     parser.add_argument("--out")
@@ -197,7 +242,8 @@ def main(argv=None) -> int:
     contrasts = json.loads(args.contrasts.read_text(encoding="utf-8"))
 
     try:
-        report = score(predictions, labels, contrasts, args.analysis_lock, args.recorded_lock)
+        report = score(predictions, labels, contrasts, args.analysis_lock, args.recorded_lock,
+                       args.shift_target_prior)
     except ValueError as exc:
         parser.exit(2, f"error: {exc}\n")
 
