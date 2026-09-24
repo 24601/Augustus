@@ -201,6 +201,10 @@ def resample_to_prior(torch, labels, target_prior: float, seed: int = 80_102):
     Sampling positives with replacement and keeping every negative, or the reverse, changes the
     prior without inventing rows. It is a reweighting of the same population, so it tests
     re-thresholding under shift and nothing more: it is not new evidence and the lock says so.
+
+    The realized prior lands within one row of the target, because the positive count is an
+    integer. That is arithmetic, not drift, and the report records the realized value rather than
+    the requested one.
     """
     generator = torch.Generator(device="cpu").manual_seed(seed)
     positive = (labels == 1).nonzero(as_tuple=True)[0].cpu()
@@ -390,8 +394,11 @@ def main(argv=None) -> int:
         "A-raw": (raw_scores >= c_fp).long(),          # re-threshold only
         "A-recal": (recal_scores >= c_fp).long(),      # intercept, then re-threshold
     }
-    # B-retrain_S: the fit data importance-reweighted to the new prior, plus the same 200 labels,
-    # retrained at the S cost. This is the strongest cheap retrain, which is the point of the row.
+    # B-retrain_S: the fit data importance-reweighted to the new prior and retrained at the S cost.
+    # It does NOT spend the 200-label budget; it is handed the exact target prior, which is more
+    # than 200 labels would buy. That is deliberate. The row is a conservative comparison: if
+    # intercept-only recalibration is non-inferior to a retrain that knows the shift exactly, the
+    # claim survives its strongest cheap rival rather than a hobbled one.
     prior_weight = torch.where(fit_y == 1,
                                target_prior / max(fit_prior, 1e-9),
                                (1 - target_prior) / max(1 - fit_prior, 1e-9)).float()

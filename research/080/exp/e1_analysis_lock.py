@@ -72,24 +72,32 @@ def required_n(sd: float, margin: float, span: float, mode: str, true_delta: flo
     return lo
 
 
-def classify(contrast: dict) -> tuple[str, float]:
-    """The registered mode and planning effect for one contrast, from the design lock.
+def classify(contrast: dict) -> tuple[str, float, str]:
+    """The registered mode, planning effect and its source for one contrast, from the design lock.
 
     A vs B-stale is a candidate-better superiority read at the planning effect the synthetic
     population gave. A vs B-retrain is non-inferiority. C, C* and E against A are equivalence.
+
+    Under the prior shift S the design lock registers A-recal vs B-retrain_S as non-inferiority and
+    the three escalation-shaped rows as superiority reads on A-recal. The synthetic population gave
+    no planning effect for those three, so the calibration split supplies it. That is the same
+    split that supplies sigma-hat, it is not the confirmation split, and the lock says so on the
+    row rather than letting an invented number pass as registered.
     """
     name = contrast["contrast"]
     if name.startswith("A - B-stale"):
-        return "superiority", -0.042
-    if name.startswith("A - B-retrain"):
-        return "non_inferiority", 0.0
-    return "equivalence", 0.0
+        return "superiority", -0.042, "synthetic population, design lock"
+    if "B-retrain" in name:
+        return "non_inferiority", 0.0, "registered margin, no effect needed"
+    if contrast.get("ratio") == "S":
+        return "superiority", contrast["mean"], "calibration split, not confirmation"
+    return "equivalence", 0.0, "registered margin, no effect needed"
 
 
 def build(fit: dict, available_n: int, corpus: str) -> dict:
     rows = []
     for contrast in fit["contrasts"]:
-        mode, true_delta = classify(contrast)
+        mode, true_delta, true_delta_source = classify(contrast)
         margin = contrast["margin"]
         sd = contrast["sd"]
         span = contrast["span"]
@@ -103,6 +111,7 @@ def build(fit: dict, available_n: int, corpus: str) -> dict:
             "held_out": contrast["held_out"],
             "mode": mode,
             "true_delta": true_delta,
+            "true_delta_source": true_delta_source,
             "margin": margin,
             "span": span,
             "sigma_hat": sd,
@@ -112,6 +121,14 @@ def build(fit: dict, available_n: int, corpus: str) -> dict:
             "powered": powered,
             "counts_toward_an_outcome_row": powered and contrast["held_out"],
         })
+
+    # The fit reports every ratio, but only the held-out rows and the S rows are the primary
+    # family the α split pays for. If that count drifts from m, the family error claim is wrong,
+    # and a silent table is the worst way to find out.
+    primary = [r for r in rows if r["held_out"]]
+    if len(primary) != M_FAMILY:
+        raise SystemExit(f"the fit report has {len(primary)} primary contrasts, "
+                         f"but the design lock's family is {M_FAMILY}")
 
     held_out_powered = sorted({r["ratio"] for r in rows
                                if r["powered"] and r["held_out"]})
