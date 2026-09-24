@@ -247,6 +247,44 @@ def disagreement(first: dict, second: dict) -> dict:
         question_same += identical
     calls = sum(total.values())
     agreements = sum(same.values())
+
+    # Magnitude, reported beside exact identity and never instead of it. Exact float equality of a
+    # softmax output across batched GPU runs is close to impossible, so an exact-identity failure
+    # on p_answerable says almost nothing about whether a THRESHOLD on it is stable. The deltas and
+    # the threshold-crossing counts say that. This is a diagnostic for a recorded failure, not a
+    # second, gentler test of it: the tolerance verdict is computed from exact identity above.
+    deltas = []
+    for key, left in first.items():
+        right = second.get(key)
+        if right is None:
+            continue
+        for k in map(str, K_LEVELS):
+            deltas.append(abs(left["k"][k]["p_answerable"] - right["k"][k]["p_answerable"]))
+    deltas.sort()
+    grid = [0.1, 0.3, 0.5, 0.7, 0.9]
+    crossings = {}
+    for threshold in grid:
+        crossed = 0
+        for key, left in first.items():
+            right = second.get(key)
+            if right is None:
+                continue
+            for k in map(str, K_LEVELS):
+                a = left["k"][k]["p_answerable"] >= threshold
+                b = right["k"][k]["p_answerable"] >= threshold
+                crossed += a != b
+        crossings[str(threshold)] = crossed
+    magnitude = {
+        "p_answerable_abs_delta": {
+            "n": len(deltas),
+            "median": deltas[len(deltas) // 2] if deltas else None,
+            "p99": deltas[min(len(deltas) - 1, int(0.99 * len(deltas)))] if deltas else None,
+            "max": deltas[-1] if deltas else None,
+        },
+        "threshold_crossings": crossings,
+        "note": "A crossing is a rerun that would have changed the arm's action at that threshold. "
+                "This characterises an exact-identity failure; it does not overturn one.",
+    }
     return {
         "questions": question_total,
         "comparisons_per_question": len(fields) * len(K_LEVELS),
@@ -257,6 +295,7 @@ def disagreement(first: dict, second: dict) -> dict:
         "per_call_disagreement": 1 - agreements / calls if calls else None,
         "per_question_disagreement": 1 - question_same / question_total if question_total else None,
         "tolerance": 0.05,
+        "magnitude": magnitude,
         "note": "Exact identity: a different answer string counts as a disagreement even when both "
                 "would score the same EM, and p_answerable is compared exactly. Both are the "
                 "conservative direction.",
