@@ -1,0 +1,24 @@
+{
+  "watch": "1211",
+  "boise": "2026-09-24 12:11 America/Boise",
+  "retrieval": "2026-09-24T18:22Z",
+  "mode": "NEW_OFF_MAIN",
+  "base": "33ba9c516dc10483562c0c316579c6e386a53eeb",
+  "design_items": 96,
+  "research_only_items": 37,
+  "novel": 86,
+  "revisit_description_rewrite": 10,
+  "readme_or_card_openings_fetched": 53,
+  "hf_cards_requested": 10,
+  "hf_readme_401": [
+    "AlexWortega/openjev-data"
+  ],
+  "github_readme_404": [
+    "Parswanadh/laya-lab"
+  ],
+  "invented_signal": false,
+  "x_calls": false,
+  "scoring_rows": 17,
+  "disposition": "research-only",
+  "package_bump": false
+}

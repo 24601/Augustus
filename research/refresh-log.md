@@ -1,3 +1,17 @@
+## 2026-09-24 ~18:22 UTC / ~12:11 Boise - Hourly 1211 HIGH
+
+- User-requested fold onto `main` `33ba9c516dc10483562c0c316579c6e386a53eeb`.
+  notes.md §170. Packet of 96 design items and 37 research-only rows
+  archived at `research/archive/hourly/2026-09-24T18/`.
+- Research-only. No skill, human README, Pages, or version change.
+  Scoring rows stay at 17. Archer stays promised_not_landed.
+- Live GitHub REST and Hugging Face reads on 2026-09-24T18:22Z.
+  README or card openings for the sources named in §170. laya-lab README
+  HTTP 404. openjev-data HTTP 401. No benches rerun. No X calls.
+  Third-party figures stay *theirs*.
+- A public table is not Harbor. A description rewrite is not a new family.
+  A catalog count is not a family choice. The act stays in policy.
+
 ## 2026-09-24 ~15:33 UTC / ~09:22 Boise - Hourly 0922 HIGH
 
 - User-requested fold onto `main` `125507c8600a5ab9ea4214cc16804c1c4f8486a6`.
