@@ -43,6 +43,37 @@ ANSWER_WORDS = ("yes", "no")
 ACTIONS = ("stop", "expand", "abstain")
 
 
+def resolve_model_dir(root: Path) -> Path:
+    """A flat model directory, or the pinned snapshot inside an HF cache layout.
+
+    The staged MiniLM tree is a cache: MANIFEST.json beside hub/models--*/snapshots/<revision>.
+    Handing that root to `from_pretrained` fails, and it fails AFTER both reader passes, which is
+    the worst possible time to find out. Resolving it up front, and refusing when the layout is
+    ambiguous, turns a late crash into an early refusal.
+    """
+    if (root / "config.json").exists():
+        return root
+    snapshots = sorted((root / "hub").glob("models--*/snapshots/*")) if (root / "hub").is_dir() \
+        else []
+    snapshots = [path for path in snapshots if (path / "config.json").exists()]
+    if len(snapshots) == 1:
+        return snapshots[0]
+    raise SystemExit(f"{root} is neither a flat model directory nor a cache with exactly one "
+                     f"snapshot; found {len(snapshots)}")
+
+
+def chat(tokenizer, prompt: str) -> str:
+    """The registered non-thinking chat form, not a raw completion.
+
+    The design lock registers the readers as non-thinking. Qwen3 decides that through its chat
+    template, so a raw completion string is a different regime from the one that was registered,
+    and the difference is not cosmetic: the template controls whether a thinking block is opened.
+    """
+    return tokenizer.apply_chat_template([{"role": "user", "content": prompt}],
+                                         tokenize=False, add_generation_prompt=True,
+                                         enable_thinking=False)
+
+
 def context_of(paragraphs, k: int) -> tuple[str, int]:
     """The first k paragraphs as text, and the number actually available."""
     used = paragraphs[:k]
@@ -139,7 +170,7 @@ def similarity(rows, model_dir: Path, batch_size: int):
     return scores
 
 
-def replay(llm, sampling, rows):
+def replay(llm, tokenizer, sampling, rows):
     """Every call for every question at every k, in one batch per call type.
 
     Batching by call type rather than by question is what makes this affordable, and it is also
@@ -153,7 +184,7 @@ def replay(llm, sampling, rows):
     for row_index, row in enumerate(rows):
         for k in K_LEVELS:
             context, used = context_of(row["paragraphs"], k)
-            prompts.append(answer_prompt(row["question"], context))
+            prompts.append(chat(tokenizer, answer_prompt(row["question"], context)))
             index.append((row_index, k, "answer", used))
     answers = llm.generate(prompts, sampling)
 
@@ -161,8 +192,8 @@ def replay(llm, sampling, rows):
     for row in rows:
         for k in K_LEVELS:
             context, _ = context_of(row["paragraphs"], k)
-            yes_prompts.append(answerable_prompt(row["question"], context))
-            action_prompts.append(action_prompt(row["question"], context))
+            yes_prompts.append(chat(tokenizer, answerable_prompt(row["question"], context)))
+            action_prompts.append(chat(tokenizer, action_prompt(row["question"], context)))
     answerable = llm.generate(yes_prompts, one_token)
     actions = llm.generate(action_prompts, one_token)
 
@@ -188,13 +219,19 @@ def replay(llm, sampling, rows):
 
 
 def disagreement(first: dict, second: dict) -> dict:
-    """Realized rerun disagreement, per call and per question, against the lock's 5% tolerance.
+    """Realized rerun disagreement across all three call types, and jointly per question.
 
     The lock records 59.8% per-prompt identity from M0 and calls the 0.598^9 figure for a whole
     question [H], because it assumes independence across calls. This measures the joint rate
-    instead of assuming it, which is the whole point of the check.
+    instead of assuming it, so it has to compare every call, not only the answer: the answer text,
+    the answerable probability and the chosen action, three k levels each, nine comparisons per
+    question. Reporting only the answers would understate disagreement and quietly re-import the
+    assumption the check exists to test.
     """
-    call_total = call_same = question_total = question_same = 0
+    fields = ("answer", "p_answerable", "action")
+    same = {field: 0 for field in fields}
+    total = {field: 0 for field in fields}
+    question_total = question_same = 0
     for key, left in first.items():
         right = second.get(key)
         if right is None:
@@ -202,20 +239,27 @@ def disagreement(first: dict, second: dict) -> dict:
         question_total += 1
         identical = True
         for k in map(str, K_LEVELS):
-            call_total += 1
-            same = (left["k"][k]["answer"] == right["k"][k]["answer"])
-            call_same += same
-            identical &= same
+            for field in fields:
+                total[field] += 1
+                agree = left["k"][k][field] == right["k"][k][field]
+                same[field] += agree
+                identical &= agree
         question_same += identical
+    calls = sum(total.values())
+    agreements = sum(same.values())
     return {
         "questions": question_total,
-        "per_call_identity": call_same / call_total if call_total else None,
+        "comparisons_per_question": len(fields) * len(K_LEVELS),
+        "per_field_identity": {field: (same[field] / total[field] if total[field] else None)
+                               for field in fields},
+        "per_call_identity": agreements / calls if calls else None,
         "per_question_identity": question_same / question_total if question_total else None,
-        "per_call_disagreement": 1 - call_same / call_total if call_total else None,
+        "per_call_disagreement": 1 - agreements / calls if calls else None,
         "per_question_disagreement": 1 - question_same / question_total if question_total else None,
         "tolerance": 0.05,
-        "note": "Answer-text identity only. A different answer string is a disagreement even when "
-                "both would score the same EM; that is the conservative direction.",
+        "note": "Exact identity: a different answer string counts as a disagreement even when both "
+                "would score the same EM, and p_answerable is compared exactly. Both are the "
+                "conservative direction.",
     }
 
 
@@ -252,17 +296,25 @@ def main(argv=None) -> int:
     if not rows:
         raise SystemExit("no rows selected")
 
+    import transformers
     from vllm import LLM, SamplingParams
 
-    llm = LLM(model=str(args.reader), dtype="bfloat16", enforce_eager=True,
+    # Resolve BOTH model paths before loading anything. The embedding tree is a cache layout and
+    # is used last, so an unresolvable path would otherwise surface after two full reader passes.
+    reader_dir = resolve_model_dir(args.reader)
+    embed_dir = resolve_model_dir(args.weights / EMBED_MODEL_DIR)
+    tokenizer = transformers.AutoTokenizer.from_pretrained(str(reader_dir))
+
+    llm = LLM(model=str(reader_dir), dtype="bfloat16", enforce_eager=True,
               gpu_memory_utilization=args.gpu_memory_utilization,
               max_model_len=args.max_model_len)
     sampling = SamplingParams(temperature=0.0, max_tokens=MAX_ANSWER_TOKENS)
 
-    table = replay(llm, sampling, rows)
-    rerun = disagreement(table, replay(llm, sampling, rows)) if args.rerun_check else None
+    table = replay(llm, tokenizer, sampling, rows)
+    rerun = disagreement(table, replay(llm, tokenizer, sampling, rows)) if args.rerun_check \
+        else None
 
-    scores = similarity(rows, args.weights / EMBED_MODEL_DIR, args.embed_batch_size)
+    scores = similarity(rows, embed_dir, args.embed_batch_size)
     for row, per_k in zip(rows, scores):
         for k in K_LEVELS:
             table[row["id"]]["k"][str(k)]["similarity"] = per_k[k]
@@ -279,11 +331,15 @@ def main(argv=None) -> int:
         "rerun_check": rerun,
         "wall_clock_s": round(time.time() - started, 1),
         "reads_no_gold_answer": True,
+        "reader_dir": str(reader_dir),
+        "embed_dir": str(embed_dir),
+        "chat_template": "applied with enable_thinking=False, which is the registered setting",
         "limits": [
             "Frozen table. Every arm, resplit and P6 draw reads this file; nothing re-executes the reader.",
             "Questions with fewer than six paragraphs read the same evidence at higher k, and expanding still costs a round. k_effective records where that happened.",
             "p_answerable and p_action are renormalized over the named words; the residual mass is reported beside each, and a large residual means the number is not a clean probability of anything.",
             "Similarity is MiniLM cosine on the same staged weights E1 used; it is a feature for arm (iii), not a claim about retrieval quality.",
+            "Prompts go through the reader's chat template with enable_thinking=False. A raw completion string would be a different regime from the one the design lock registered.",
         ],
         "table": table,
     }
