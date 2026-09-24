@@ -13,9 +13,11 @@ failure policy, and experiment that could reject it. Link evidence and
 label it Contract, Reported, Reproduced, Hypothesis, or Unknown. Avoid
 unsupported market-share claims, copied thresholds, and repeated slogans.
 
-Keep the entry point short and task-routed. The enforced limits are
+Keep the entry point short and task-routed. The enforced limits apply per skill:
 16,000 UTF-8 bytes/220 lines for SKILL.md, 18,000 bytes/400 lines per
-reference, and 180,000 bytes across references. These are ceilings, not
+reference, and 180,000 bytes across that skill's references. Every skill
+under `.agents/skills/` is checked, skills share one version, and the
+marketplace must list all of them. These are ceilings, not
 targets. If a useful addition exceeds them, consolidate or split by a
 real user task; don't increase the limit to accommodate a feed.
 
