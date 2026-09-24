@@ -1,0 +1,15 @@
+[Unit]
+Description=Augustus 0.8.0 egress table (inet augexp), loaded closed
+DefaultDependencies=no
+Before=network-pre.target
+Wants=network-pre.target
+OnFailure=augexp-alarm.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/nft -f /etc/augustus/augexp.nft
+# No ExecStop: stopping this unit must never remove the drops.
+
+[Install]
+WantedBy=multi-user.target

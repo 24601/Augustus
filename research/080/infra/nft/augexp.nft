@@ -1,0 +1,80 @@
+#!/usr/sbin/nft -f
+# Augustus 0.8.0 egress policy for the experiment principals on tabputer-1.
+# Loads only this table. Never flush the ruleset: ufw, docker, k3s and
+# inet modyl_jit share it. Packets from any other uid pass the base chain
+# untouched (policy accept); every drop lives in a per-principal chain.
+#
+# uids: augexp 48201 plus its subuids 165536-231071, augctl 48202, augproxy 947
+# (checked by install.sh). 1001/1002
+# are avoided because fleet-pr runner containers run as host uid 1001.
+# Default state is CLOSED: setup_window is empty, so augexp reaches nothing.
+# Open:  nft add rule inet augexp setup_window counter name augexp_proxy_ok accept
+# Close: nft flush chain inet augexp setup_window
+
+table inet augexp {}
+delete table inet augexp
+
+table inet augexp {
+	counter augexp_proxy_ok {}
+	counter augexp_proxy_closed {}
+	counter augexp_drop {}
+	counter augctl_drop {}
+	counter augproxy_dns {}
+	counter augproxy_443 {}
+	counter augproxy_private_drop {}
+	counter augproxy_other_drop {}
+
+	set private4 {
+		type ipv4_addr
+		flags interval
+		elements = { 0.0.0.0/8, 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8,
+			     169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24,
+			     192.168.0.0/16, 198.18.0.0/15, 224.0.0.0/4,
+			     240.0.0.0/4 }
+	}
+
+	set private6 {
+		type ipv6_addr
+		flags interval
+		elements = { ::/127, ::ffff:0:0/96, 64:ff9b::/96, 100::/64,
+			     fc00::/7, fe80::/10, ff00::/8 }
+	}
+
+	chain output {
+		type filter hook output priority filter; policy accept;
+		meta skuid 48201 jump augexp_out
+		# augexp's subordinate uids (rootless containers, unshare -U): same policy.
+		meta skuid 165536-231071 jump augexp_out
+		meta skuid 48202 jump augctl_out
+		meta skuid 947 jump augproxy_out
+	}
+
+	# Toggled at setup time; empty means closed.
+	chain setup_window {
+	}
+
+	chain augexp_out {
+		oifname "lo" ip daddr 127.0.0.1 tcp dport 3128 jump setup_window
+		oifname "lo" ip daddr 127.0.0.1 tcp dport 3128 counter name augexp_proxy_closed
+		limit rate 5/second log prefix "augexp-drop: " level info
+		counter name augexp_drop drop
+	}
+
+	chain augctl_out {
+		limit rate 5/second log prefix "augctl-drop: " level info
+		counter name augctl_drop drop
+	}
+
+	chain augproxy_out {
+		# Replies to augexp on the accepted loopback socket.
+		oifname "lo" ip daddr 127.0.0.1 tcp sport 3128 ct state established accept
+		# The systemd-resolved stub only.
+		ip daddr 127.0.0.53 meta l4proto { udp, tcp } th dport 53 counter name augproxy_dns accept
+		ip daddr @private4 limit rate 5/second log prefix "augproxy-private: " level info
+		ip daddr @private4 counter name augproxy_private_drop drop
+		ip6 daddr @private6 counter name augproxy_private_drop drop
+		tcp dport 443 counter name augproxy_443 accept
+		limit rate 5/second log prefix "augproxy-drop: " level info
+		counter name augproxy_other_drop drop
+	}
+}

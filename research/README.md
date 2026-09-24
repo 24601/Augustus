@@ -6,6 +6,12 @@ Use [protocol.md](protocol.md) and the [research update prompt](prompts/research
 The [maintenance contract](maintenance.md) defines recurring reassessment and
 records the current gap: the external research scheduler is not yet verified.
 
+## 0.8.0 work in progress
+
+The [0.8.0 record](080/README.md) holds the ExoPO position-paper plan, the `augustus-train`
+plan with its reviews and errata, trainer research cards and sweeps, and the tabputer-1
+provisioning receipt. It is research, not runtime guidance.
+
 ## Current review
 
 The [2026-09-22 full refresh](decision-model-review-2026-09-22.md) records the

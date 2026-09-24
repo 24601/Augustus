@@ -1,0 +1,27 @@
+[Unit]
+Description=Augustus 0.8.0 setup proxy (CONNECT, allowlist, 127.0.0.1:3128)
+After=augexp-nft.service network-online.target
+Requires=augexp-nft.service
+
+[Service]
+User=augproxy
+Group=augproxy
+ExecStart=/usr/bin/python3 -I /usr/local/lib/augustus/augproxy.py --bind 127.0.0.1 --port 3128 --allowlist /etc/augustus/augproxy.allowlist --log /var/log/augproxy/connect.log
+Restart=no
+NoNewPrivileges=yes
+CapabilityBoundingSet=
+AmbientCapabilities=
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+RestrictNamespaces=yes
+LockPersonality=yes
+MemoryDenyWriteExecute=yes
+ReadWritePaths=/var/log/augproxy
+UMask=0027
+# Not enabled at boot: started only by `augwindow open`.

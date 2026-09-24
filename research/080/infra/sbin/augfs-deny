@@ -1,0 +1,14 @@
+#!/bin/bash
+# Deny augexp and augctl any access to other workloads' trees on tabputer-1, using named-user
+# ACL entries of ---. Nothing changes for any other user; `setfacl -x u:augexp,u:augctl <path>`
+# reverses it. The list comes from boundary tests B4 and B5 (2026-09-23).
+set -uo pipefail
+PATHS=(/var/lib/rancher /var/lib/containers /var/lib/ollama /etc/systemd/system/ollama.service.d
+       /var/lib/modyl-ci /opt/jtbdbase /opt/cursor /var/lib/kubelet /var/lib/docker /run/k3s
+       /etc/rancher /srv/ci /srv/agent-models /srv/agent-session-lake /srv/session-search /srv/k3fast)
+rc=0
+for p in "${PATHS[@]}"; do
+  [[ -e "$p" ]] || continue
+  setfacl -m u:augexp:---,u:augctl:--- "$p" || rc=1
+done
+exit $rc

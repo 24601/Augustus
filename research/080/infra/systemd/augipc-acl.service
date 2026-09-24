@@ -1,0 +1,12 @@
+[Unit]
+Description=Augustus 0.8.0: deny augexp/augctl network-capable local IPC sockets
+After=systemd-resolved.service systemd-resolved-varlink.socket systemd-resolved-monitor.socket tailscaled.service sshd-unix-local.socket
+OnFailure=augexp-alarm.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/local/sbin/augipc-acl
+
+[Install]
+WantedBy=multi-user.target

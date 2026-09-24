@@ -1,0 +1,6 @@
+[Unit]
+Description=Augustus 0.8.0 containment alarm (a containment unit failed)
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c 'logger -p auth.crit "augexp containment unit failed"; touch /etc/augustus/CONTAINMENT_FAILED'

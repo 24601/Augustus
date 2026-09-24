@@ -1,0 +1,18 @@
+#!/bin/bash
+# Deny augexp and augctl the local IPC sockets that could reach the network through a
+# root or system daemon: systemd-resolved (varlink), tailscaled's LocalAPI and the local
+# AF_UNIX sshd. connect() on a unix socket needs write permission on its inode, so a
+# named-user ACL entry of --- refuses it. Idempotent; re-run by drop-ins when the sockets
+# are recreated. D-Bus access to resolve1 and friends is denied in augustus.conf.
+set -uo pipefail
+SOCKETS=(/run/systemd/resolve/io.systemd.Resolve /run/systemd/resolve/io.systemd.Resolve.Monitor
+         /run/tailscale/tailscaled.sock /run/ssh-unix-local/socket)
+rc=0
+for s in "${SOCKETS[@]}"; do
+  if [[ ! -S "$s" ]]; then logger -p auth.warning "augipc-acl: $s absent, skipped"; continue; fi
+  setfacl -m u:augexp:---,u:augctl:--- "$s" || rc=1
+  acl=$(getfacl -cp "$s" 2>/dev/null)
+  grep -q '^user:augexp:---' <<<"$acl" && grep -q '^user:augctl:---' <<<"$acl" || rc=1
+done
+[[ $rc -eq 0 ]] || logger -p auth.crit "augipc-acl: failed to apply socket ACLs"
+exit $rc

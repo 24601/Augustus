@@ -1,0 +1,113 @@
+
+== 0. Family critical values z_{1-alpha/(2m)}, alpha=0.05
+  m= 1: z=1.9600
+  m= 3: z=2.3940
+  m= 6: z=2.6383
+  m=19: z=3.0078
+  m=38: z=3.2125
+  power 0.8: z_TOST(1-beta/2)=1.2816  z_one(1-beta)=0.8416
+
+== 1. E1 planning on a synthetic calibrated population [H]
+  concentration 1.0: AUC=0.967 prevalence=0.0817
+  concentration 1.5: AUC=0.947 prevalence=0.0799
+  concentration 2.0: AUC=0.929 prevalence=0.0804
+  concentration 3.0: AUC=0.901 prevalence=0.0799
+  planning population: concentration 3.0, AUC 0.901
+  family m=19; margin delta_r = 0.02 * cost_A(r); CivilComments conf n_max=1,600,000; CLINC 12,850
+  ratio  cost_A  cost_Bst best_const delta_r | A-Bst: mean   sd    n_sup | C*~A tau=.1: sd  n_TOST | tau=.3: sd  n_TOST
+  1:1   0.0368  0.0368   0.0400   0.00074 | +0.0000 0.0000       inf | 0.0282     27,077 | 0.0491     81,965
+  1:4   0.0403  0.0531   0.0640   0.00081 | -0.0128 0.1598     2,627 | 0.0385     42,001 | 0.0679    130,276
+  1:9   0.0300  0.0586   0.0720   0.00060 | -0.0286 0.2045       791 | 0.0315     50,667 | 0.0549    154,280
+  1:19  0.0194  0.0613   0.0460   0.00039 | -0.0419 0.2266       442 | 0.0224     61,354 | 0.0396    191,821
+  1:49  0.0096  0.0629   0.0184   0.00019 | -0.0533 0.2389       300 | 0.0135     90,820 | 0.0234    270,785
+  4:1   0.0159  0.0204   0.0160   0.00032 | -0.0045 0.0807     5,442 | 0.0080     11,540 | 0.0135     33,314
+  Reading: n columns are per-ratio planning n; compare with n_max. Real sigma comes from the
+  calibration pilot at the analysis lock; this table only shows which ratios are plausibly powered.
+
+== 1b. Astra v2 counterexample: an estimated plug-in need not beat the stale threshold
+  A flags (p_hat 0.2 >= t 0.1): expected loss 0.095; stale t=0.5: 0.045
+
+== 1c. E1-S prior-shift resample sizes
+  conf 1,600,000: positives 128,000; resample to prior 0.24 -> n_S up to 533,333
+  conf 400,000: positives 32,000; resample to prior 0.24 -> n_S up to 133,333
+  CLINC equivalence is powered only if sigma/delta <= 26.4; CivilComments if <= 294.9
+
+== 2. E3 sample size: margin 0.02 utility, sigma 0.30 [H], power 0.8
+  m=6: z=2.6383; TOST n at true 0 = 3,457
+     half-width of (1-alpha/m) CI at n=1,200: 0.0228
+     half-width of (1-alpha/m) CI at n=3,500: 0.0134
+     half-width of (1-alpha/m) CI at n=6,405: 0.0099
+  m=3: z=2.3940; TOST n at true 0 = 3,040
+     half-width of (1-alpha/m) CI at n=1,200: 0.0207
+     half-width of (1-alpha/m) CI at n=3,500: 0.0121
+     half-width of (1-alpha/m) CI at n=6,405: 0.0090
+  sigma 0.25: n(m=6)=2,401  n(m=3)=2,111  (validation cap for confirmation 6,405)
+  sigma 0.30: n(m=6)=3,457  n(m=3)=3,040  (validation cap for confirmation 6,405)
+  sigma 0.35: n(m=6)=4,706  n(m=3)=4,137  (validation cap for confirmation 6,405)
+  sigma 0.40: n(m=6)=6,146  n(m=3)=5,404  (validation cap for confirmation 6,405)
+  sigma 0.45: n(m=6)=7,778  n(m=3)=6,839  (validation cap for confirmation 6,405)
+  Superiority read from the same CI, m=6: n to detect a true 0.04 gain beyond 0 margin = 681; 0.03 gain = 1,211
+
+== 2b. E3 call budget (calls = questions x readers x 9)
+  planned 1,000 search + 3,500 conf, 2 readers : 81,000 calls
+  max 1,000 + 6,405, 2 readers                 : 133,290 calls
+  fallback 1,000 + 3,040, 1.7B only            : 36,360 calls
+  v2 (400 + 1,200) for comparison              : 28,800 calls
+
+== 3. M5 non-inferiority at +0.01 (normalized cost in [0,1], paired range 2), K=3, power 0.8 at true 0
+  Reviewer checks: Hoeffding n for radius 0.01 at K=1: 59,915; v2 E3 figure = one-sided superiority n at delta .03, alpha/3: 882
+  Hoeffding (sigma-free radius):
+    n=    470: radius=0.1320
+    n=  3,400: radius=0.0491
+    n=  6,000: radius=0.0369
+    n= 15,000: radius=0.0234
+    n= 40,000: radius=0.0143
+    n= 60,000: radius=0.0117
+    n=100,000: radius=0.0090
+    Hoeffding n for 80% power at true 0, sigma 0.10: 86,775
+    Hoeffding n for 80% power at true 0, sigma 0.20: 91,804
+    Hoeffding n for 80% power at true 0, sigma 0.30: 96,975
+  Empirical Bernstein (Maurer-Pontil), radius uses sample sd ~ sigma:
+    sigma 0.10: n=5,025
+    sigma 0.15: n=7,268
+    sigma 0.20: n=10,175
+    sigma 0.25: n=13,790
+    sigma 0.30: n=18,136
+    sigma 0.35: n=23,232
+  Binary 0/1 losses: sigma^2 ~= discordance q. q=2% -> sigma .141; 4% -> .200; 9% -> .300
+  Planned confirmation rows (after fit/dev/calibration): {'T2a BANKING77 (77-way)': 6000, 'T2b CLINC150 (+OOS), E1 partition': 12850, 'T2c CivilComments subsample': 40000}
+    T2a BANKING77 (77-way): EB powered at 0.01 for sigma in [0.1]
+    T2b CLINC150 (+OOS), E1 partition: EB powered at 0.01 for sigma in [0.1, 0.15, 0.2]
+    T2c CivilComments subsample: EB powered at 0.01 for sigma in [0.1, 0.15, 0.2, 0.25, 0.3, 0.35]
+  A genuinely better low rung can still pass: at n=6,000, sigma .30, true Delta=-0.02, EB power=1.000
+
+== 4. E4a qualification arithmetic
+  v2 rule: 224/4000=0.056; two-sided 95% CP lower=0.0491 (passes 'lower <= alpha' though rate > alpha)
+  v2 rule fails a valid 5% cell from 228 adoptions: P=0.02472; 30 cells: 0.528
+  v3 cells C=108 (hoeffding, EB: 2 modes x 3 n x 2 K x 4 dists each; sign_exact: 3 n x 2 K x 2 binary dists)
+  R=4,000 tau=0.005: MC SE at 5%=0.00345; qualify iff adoptions <= 173 (0.0432); false-fail at exactly 5%: 0.9746/cell, at 4.5%: 6.87e-01/cell; detect 0.060:1.000, 0.065:1.000, 0.075:1.000, 0.100:1.000
+  R=40,000 tau=0.005: MC SE at 5%=0.00109; qualify iff adoptions <= 2049 (0.0512); false-fail at exactly 5%: 0.1283/cell, at 4.5%: 1.89e-09/cell; detect 0.060:1.000, 0.065:1.000, 0.075:1.000, 0.100:1.000
+  R=40,000 tau=0.01: MC SE at 5%=0.00109; qualify iff adoptions <= 2243 (0.0561); false-fail at exactly 5%: 0.0000/cell, at 4.5%: 2.73e-11/cell; detect 0.060:1.000, 0.065:1.000, 0.075:1.000, 0.100:1.000
+  Reading: the conservative bounds (Hoeffding, EB, exact sign) sit well below alpha at the boundary null, so their false-fail probability is far below the exactly-nominal figure; the diagnostic detects gross defects.
+   approx size at boundary null, sigma 0.1, n 300: Hoeffding 1.28e-132, EB 3.43e-37
+   approx size at boundary null, sigma 0.1, n 1000: Hoeffding 1.28e-132, EB 1.60e-16
+   approx size at boundary null, sigma 0.1, n 2500: Hoeffding 1.28e-132, EB 3.62e-10
+   approx size at boundary null, sigma 0.3, n 300: Hoeffding 1.69e-16, EB 7.69e-10
+   approx size at boundary null, sigma 0.3, n 1000: Hoeffding 1.69e-16, EB 2.91e-06
+   approx size at boundary null, sigma 0.3, n 2500: Hoeffding 1.69e-16, EB 5.57e-05
+   approx size at boundary null, sigma 1.0, n 300: Hoeffding 7.19e-03, EB 1.02e-04
+   approx size at boundary null, sigma 1.0, n 1000: Hoeffding 7.19e-03, EB 5.55e-04
+   approx size at boundary null, sigma 1.0, n 2500: Hoeffding 7.19e-03, EB 1.10e-03
+
+== 4b. E4d agent A/A smoke test (carried from v2)
+  n=20, reject at >=3: P(null .05)=0.0755; power at .20=0.794; zero-in-20 upper95=0.139
+
+== 5. tabputer-1 runtime budget [H: throughput assumptions, replaced by timing pilots]
+  E3 qwen3-1.7b: 1.31 s/question; 4,500 q = 1.6 h; 7,405 q = 2.7 h
+  E3 qwen3-4b: 3.27 s/question; 4,500 q = 4.1 h; 7,405 q = 6.7 h
+  E3 qwen3-4b on CPU [H, 60 tok/s prefill]: 103 h for 4,500 q (not viable)
+  M5 R1 readout tokens (2 orders, prompts prefix-cached) = 19,674,640; at 3,000 tok/s = 1.8 h
+  MiniLM embeddings for 2,116,933 texts, GPU [H] 5,000/s: 7 min
+  MiniLM embeddings for 2,116,933 texts, CPU 32 threads [H] 800/s: 44 min
+  E4a: 4,320,000 replications, ~12,960,000 helper evaluations at ~2.5 ms = 9.0 CPU-h; /30 processes = 18 min
+  Peak memory per run, GB [H]: {'E4a': 2, 'E1': 10, 'E3 1.7B': 6, 'E3 4B': 12, 'M5 R1 2B': 7, 'M5 SetFit': 4, 'M5 R3b DeBERTa (opt.)': 14} -> container cap 16 GB; launch floor MemAvailable >= 24 GB
