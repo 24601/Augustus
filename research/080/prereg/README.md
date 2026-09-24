@@ -10,16 +10,23 @@ tabputer-1. The grader refuses to score confirmation data unless the analysis-lo
 
 ## Status
 
-Nothing is locked yet. M2 writes the four design locks (E1, E3, E4, M5) and they must be hashed
-**before window W2 opens**, which is the only window that downloads experiment data.
+**The four design locks are written and hashed (2026-09-24), before window W2 has ever opened.**
+No experiment dataset is on tabputer-1: `/srv/aug/stage` holds only the base image and the §4.4
+acceptance weights, verified read-only in `receipts/m0-state-check-2026-09-24.md`. So the ordering
+the locks exist to guarantee — commitment before data — holds as a matter of record, not of
+assertion.
 
-| Experiment | Design lock | Analysis lock |
-| --- | --- | --- |
-| E1 cost and prior shift | not written | not written |
-| E3 episode control | not written | not written |
-| E4 acceptance machinery | not written | not written |
-| M5 artifact-form ladder | not written | not written |
-| M5b multimodal pilot | not written | not written |
+E4 needs no dataset and has already run; its receipts are in `receipts/`. E1, E3 and M5 wait for
+W2. The maintainer's standing authorization to proceed is in the 0.8.0 working thread; these locks
+are operator-signed, and their value is the hash recorded here before any data was read.
+
+| Experiment | Design lock | sha256 | Analysis lock |
+| --- | --- | --- | --- |
+| E1 cost and prior shift | [`e1-design.md`](e1-design.md) | `efd7103aa69103eb…` | not written |
+| E3 episode control | [`e3-design.md`](e3-design.md) | `a9422bf234dc285e…` | not written |
+| E4 acceptance machinery | [`e4-design.md`](e4-design.md) | `1ab9e78deb838ee8…` | **executed**; see the E4a, E4b and E4c receipts |
+| M5 artifact-form ladder | [`m5-design.md`](m5-design.md) | `7f6243edd402aaeb…` | not written |
+| M5b multimodal pilot | not written | — | not written |
 
 ## Format
 

@@ -1,8 +1,8 @@
-# E4 design lock (draft, unsigned)
+# E4 design lock
 
-**Status: DRAFT.** It becomes a lock when the maintainer adds a dated note and the file's sha256
-is recorded in `prereg/README.md` and copied to `/srv/aug/ctl`. Until then nothing here is
-committed to.
+**Locked 2026-09-24**, operator-signed under the maintainer's standing authorization. Its
+sha256 is recorded in `prereg/README.md`. E4 needs no dataset, so it did not wait for W2. It has been executed; see the E4a, E4b and E4c receipts. Once hashed, the only permitted change is a
+**prespecified** narrowing this lock already names.
 
 | Field | Value |
 | --- | --- |

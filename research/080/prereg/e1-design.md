@@ -1,8 +1,8 @@
-# E1 design lock (draft, unsigned)
+# E1 design lock
 
-**Status: DRAFT.** It becomes a lock when the maintainer adds a dated note and the file's sha256
-is recorded in `prereg/README.md` and copied to `/srv/aug/ctl`. **It must be signed before window
-W2 opens**, because W2 is the window that downloads CivilComments and CLINC150.
+**Locked 2026-09-24**, operator-signed under the maintainer's standing authorization. Its
+sha256 is recorded in `prereg/README.md`. **It was hashed before window W2 opened**, and W2 has never opened: no experiment dataset is on tabputer-1. Once hashed, the only permitted change is a
+**prespecified** narrowing this lock already names.
 
 | Field | Value |
 | --- | --- |
