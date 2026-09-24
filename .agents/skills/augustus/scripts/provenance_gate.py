@@ -22,15 +22,17 @@ Identity resolves by DECLARED LINEAGE, never by a name substring. A model named
 a field named "jev" is a human label.
 
 Verdicts per reachable node:
-  refused   a TypeSafe/Jev output feeds the training artifact.
+  refused   a TypeSafe/Jev output feeds the training artifact. Refused by
+            default; one recorded acknowledgment (artifact, use, date) clears
+            one use, which is the user's decision to make and to own.
+  disputed  a sourced, revision-bound allegation contradicts a declared
+            lineage. Blocked for training use pending resolution. An approval
+            preserves the allegation and never reports it as cleared.
   unknown   a parent is missing, or a teacher is unnamed, so nothing can be
             recorded and the corpus cannot be re-audited later.
   recorded  a named hosted non-TypeSafe model. It PASSES: provider, model,
             revision, channel and date are written down and nothing is gated.
-
-Sourced lineage disputes, permission records and the user acknowledgment that
-overrides the TypeSafe rule for one use follow in the next change; until then
-this gate refuses that path with no override.
+  allowed   a permission record with its url, digest and clause.
 
 What this does NOT decide
 -------------------------
@@ -142,6 +144,25 @@ def _edges(document, nodes):
     return parents, dangling
 
 
+def _approval_index(document):
+    raw = document.get("approvals")
+    if raw is None:
+        raw = []
+    if not isinstance(raw, list):
+        raise GraphError("approvals must be a list")
+    index: dict[tuple[str, str], dict] = {}
+    for position, approval in enumerate(raw):
+        if not isinstance(approval, dict):
+            raise GraphError(f"approval {position} must be an object")
+        node = _text(approval.get("node"), f"approval {position} node")
+        use = _text(approval.get("use"), f"approval {position} use")
+        _text(approval.get("date"), f"approval {position} date")
+        kind = approval.get("kind")
+        if kind not in ("acknowledgment", "named_approval"):
+            raise GraphError(f"approval {position} kind must be acknowledgment or named_approval")
+        index[(node, use)] = approval
+    return index
+
 
 def _classify_external_model(node) -> Finding:
     """Resolve one external model by its declarations.
@@ -157,7 +178,8 @@ def _classify_external_model(node) -> Finding:
     declared = {"provider": provider, "model": model, "revision": revision, "channel": channel}
     if isinstance(provider, str) and provider.strip().lower() in TYPESAFE_PROVIDER_IDS:
         return Finding(identity, "refused", "typesafe_output_in_training_path",
-                       {"clause": TYPESAFE_CLAUSE, "declared": declared})
+                       {"clause": TYPESAFE_CLAUSE, "declared": declared,
+                        "override": "one recorded acknowledgment (node, use, date) clears one use"})
     missing = [name for name, value in declared.items()
                if not isinstance(value, str) or not value.strip()]
     if missing:
@@ -169,11 +191,43 @@ def _classify_external_model(node) -> Finding:
                     "note": "declared provenance only; no provider terms are read or asserted except TypeSafe's"})
 
 
+def _classify_permission(node) -> Finding | None:
+    permission = node.get("permission")
+    if permission is None:
+        return None
+    if not isinstance(permission, dict):
+        raise GraphError(f"node {node['id']} permission must be an object")
+    required = ("url", "digest", "clause")
+    missing = [name for name in required
+               if not isinstance(permission.get(name), str) or not permission[name].strip()]
+    if missing:
+        return Finding(node["id"], "rejected_permission", "permission_record_incomplete",
+                       {"missing": missing})
+    return Finding(node["id"], "allowed", "permission_record_complete",
+                   {"clause": permission["clause"], "digest": permission["digest"]})
+
 
 def _classify(node, dangling) -> list[Finding]:
-    """Every verdict one node earns. A node can earn more than one."""
+    """Every verdict one node earns. A node can be both disputed and unknown."""
     identity = node["id"]
     findings: list[Finding] = []
+
+    disputes = node.get("disputes")
+    if disputes is not None:
+        if not isinstance(disputes, list) or not disputes:
+            raise GraphError(f"node {identity} disputes must be a nonempty list when present")
+        for position, dispute in enumerate(disputes):
+            if not isinstance(dispute, dict):
+                raise GraphError(f"node {identity} dispute {position} must be an object")
+            source = _text(dispute.get("source"), f"node {identity} dispute {position} source")
+            revision = _text(dispute.get("revision"), f"node {identity} dispute {position} revision")
+            claim = _text(dispute.get("claim"), f"node {identity} dispute {position} claim")
+            findings.append(Finding(identity, "disputed", "sourced_allegation_against_declared_lineage",
+                                    {"source": source, "revision": revision, "claim": claim}))
+
+    permission = _classify_permission(node)
+    if permission is not None:
+        findings.append(permission)
 
     if node["kind"] == "external_model":
         findings.append(_classify_external_model(node))
@@ -198,6 +252,7 @@ def resolve(document) -> dict:
     if artifact not in nodes:
         raise GraphError(f"training_artifact is not a node: {artifact}")
     parents, dangling = _edges(document, nodes)
+    approvals = _approval_index(document)
 
     # Ancestors of the training artifact, in discovery order. Cycles are
     # tolerated: a visited set means a declared cycle cannot hang the gate.
@@ -220,11 +275,38 @@ def resolve(document) -> dict:
             finding.detail["path_to_training_artifact"] = paths[finding.node]
             findings.append(finding)
 
-    refused = [f for f in findings if f.verdict == "refused"]
-    unknown = [f for f in findings if f.verdict == "unknown"]
+    refused, disputed, unknown, rejected = [], [], [], []
+    acknowledged = []
+    for finding in findings:
+        if finding.verdict == "refused":
+            approval = approvals.get((finding.node, use))
+            if approval is not None and approval["kind"] == "acknowledgment":
+                finding.detail["acknowledged"] = {
+                    "date": approval["date"], "use": use,
+                    "note": "the user recorded this override; it is their decision and their record",
+                }
+                acknowledged.append(finding)
+            else:
+                refused.append(finding)
+        elif finding.verdict == "disputed":
+            approval = approvals.get((finding.node, use))
+            if approval is not None:
+                # An approval never reports an allegation as cleared.
+                finding.detail["approval_does_not_clear_the_allegation"] = {
+                    "kind": approval["kind"], "date": approval["date"],
+                }
+            disputed.append(finding)
+        elif finding.verdict == "unknown":
+            unknown.append(finding)
+        elif finding.verdict == "rejected_permission":
+            rejected.append(finding)
 
     if refused:
         assessment = "refused"
+    elif rejected:
+        assessment = "rejected_permission_record"
+    elif disputed:
+        assessment = "blocked_pending_dispute_resolution"
     elif unknown:
         assessment = "unknown_lineage"
     else:
@@ -237,10 +319,13 @@ def resolve(document) -> dict:
         "reachable_nodes": len(order),
         "assessment": assessment,
         "findings": [finding.as_dict() for finding in findings],
+        "overridden_by_user_acknowledgment": [finding.as_dict() for finding in acknowledged],
         "limits": [
             "Declared provenance only. Nothing here is fetched, verified, or attested.",
             "Identity resolves by declared lineage; a matching name never establishes identity, and a name never establishes a refusal.",
             f"The one encoded provider rule is TypeSafe's ({TYPESAFE_CLAUSE}). No other provider's terms are read or asserted; a recorded teacher is an audit trail, not a permission.",
+            "An acknowledgment records a user's own override of the TypeSafe rule for one artifact and one use. It is not advice and it is not a clearance.",
+            "An approval never clears a sourced allegation; the allegation stays in the record.",
             "A pass does not establish label quality, sampling design, isolation, or causal identification.",
         ],
     }

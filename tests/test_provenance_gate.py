@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import copy
 import importlib.util
 import json
 from pathlib import Path
@@ -118,6 +119,52 @@ class ProvenanceGateTests(unittest.TestCase):
         finding = next(f for f in result["findings"] if f["node"] == "teacher")
         self.assertEqual(finding["missing"], ["revision"])
 
+    def test_a_sourced_revision_bound_allegation_blocks_and_survives_approval(self):
+        """typed-decisions: the card leaves the teacher unnamed, a third-party
+        README alleges Jev labelling. Blocked pending resolution."""
+        document = graph(
+            nodes=[{"id": "typed-decisions", "kind": "dataset", "disputes": [{
+                "source": "Manavarya09/verdict README",
+                "revision": "typed-decisions@2026-09-21",
+                "claim": "alleges the gold was labelled by Jev; the dataset card leaves the teacher unnamed",
+            }]}],
+            edges=[{"type": "trained_on", "from": "checkpoint-1", "to": "typed-decisions"}],
+        )
+        result = gate.resolve(document)
+        self.assertEqual(result["assessment"], "blocked_pending_dispute_resolution")
+        approved = copy.deepcopy(document)
+        approved["approvals"] = [{"node": "typed-decisions", "use": document["use"],
+                                  "date": "2026-09-24", "kind": "named_approval"}]
+        result = gate.resolve(approved)
+        self.assertEqual(result["assessment"], "blocked_pending_dispute_resolution")
+        finding = next(f for f in result["findings"] if f["node"] == "typed-decisions")
+        self.assertIn("approval_does_not_clear_the_allegation", finding)
+
+    def test_a_user_acknowledgment_overrides_the_jev_refusal_for_one_use_only(self):
+        document = graph(
+            nodes=[{"id": "corpus", "kind": "corpus"}, jev()],
+            edges=[{"type": "trained_on", "from": "checkpoint-1", "to": "corpus"},
+                   {"type": "labeled_by", "from": "corpus", "to": "jev"}],
+            approvals=[{"node": "jev", "use": "train a routing head",
+                        "date": "2026-09-24", "kind": "acknowledgment"}],
+        )
+        result = gate.resolve(document)
+        self.assertEqual(result["assessment"], "declared_provenance_recorded")
+        self.assertEqual(len(result["overridden_by_user_acknowledgment"]), 1)
+        other = copy.deepcopy(document)
+        other["use"] = "train a different head"
+        self.assertEqual(gate.resolve(other)["assessment"], "refused")
+
+    def test_a_named_approval_does_not_override_the_jev_refusal(self):
+        document = graph(
+            nodes=[{"id": "corpus", "kind": "corpus"}, jev()],
+            edges=[{"type": "trained_on", "from": "checkpoint-1", "to": "corpus"},
+                   {"type": "labeled_by", "from": "corpus", "to": "jev"}],
+            approvals=[{"node": "jev", "use": "train a routing head",
+                        "date": "2026-09-24", "kind": "named_approval"}],
+        )
+        self.assertEqual(gate.resolve(document)["assessment"], "refused")
+
     def test_an_absent_declared_parent_is_a_lineage_gap_not_a_malformed_graph(self):
         document = graph(
             nodes=[{"id": "corpus", "kind": "corpus"}],
@@ -128,6 +175,19 @@ class ProvenanceGateTests(unittest.TestCase):
         self.assertEqual(result["assessment"], "unknown_lineage")
         finding = next(f for f in result["findings"] if f["node"] == "corpus")
         self.assertEqual(finding["missing_parents"], ["upstream-we-never-saw"])
+
+    def test_a_permission_record_without_a_digest_is_rejected(self):
+        for permission, expected in (
+            ({"url": "https://example.invalid/terms", "clause": "section 4"}, "rejected_permission"),
+            ({"url": "https://example.invalid/terms", "clause": "section 4",
+              "digest": "sha256:abc"}, "allowed"),
+        ):
+            with self.subTest(permission=sorted(permission)):
+                document = graph(
+                    nodes=[{"id": "corpus", "kind": "corpus", "permission": permission}],
+                    edges=[{"type": "trained_on", "from": "checkpoint-1", "to": "corpus"}],
+                )
+                self.assertIn(("corpus", expected), self.verdicts(document))
 
     def test_nodes_outside_the_training_artifact_ancestry_are_not_judged(self):
         """A Jev comparator that never feeds training is not a training use."""
