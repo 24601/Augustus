@@ -67,7 +67,15 @@ EDGE_TYPES = frozenset({
 # The single encoded provider rule. Matched on the DECLARED provider id, not on
 # a model name, an alias, or any substring of one.
 TYPESAFE_PROVIDER_IDS = frozenset({"typesafe", "typesafe.ai"})
-TYPESAFE_CLAUSE = "TypeSafe Master Customer Agreement section 2.3(b)"
+TYPESAFE_CLAUSE = "TypeSafe Master Customer Agreement section 2.3(b), updated 2026-09-19"
+TYPESAFE_CLAUSE_URL = "https://typesafe.ai/legal/mca"
+# The one line the refusal quotes, so a user sees the actual rule rather than a
+# citation they have to go and look up. Same text the 0.7.2 release notes ship.
+TYPESAFE_CLAUSE_TEXT = (
+    "the customer will not \"use the Services or any Output ... to perform model "
+    "distillation, train a model to imitate the output of the Services, or develop "
+    "(or to facilitate the development of) a similar or competing product or service.\""
+)
 
 
 class GraphError(ValueError):
@@ -178,7 +186,8 @@ def _classify_external_model(node) -> Finding:
     declared = {"provider": provider, "model": model, "revision": revision, "channel": channel}
     if isinstance(provider, str) and provider.strip().lower() in TYPESAFE_PROVIDER_IDS:
         return Finding(identity, "refused", "typesafe_output_in_training_path",
-                       {"clause": TYPESAFE_CLAUSE, "declared": declared,
+                       {"clause": TYPESAFE_CLAUSE, "clause_url": TYPESAFE_CLAUSE_URL,
+                        "clause_text": TYPESAFE_CLAUSE_TEXT, "declared": declared,
                         "override": "one recorded acknowledgment (node, use, date) clears one use"})
     missing = [name for name, value in declared.items()
                if not isinstance(value, str) or not value.strip()]

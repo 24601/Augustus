@@ -45,6 +45,8 @@ class ProvenanceGateTests(unittest.TestCase):
         finding = result["findings"][0]
         self.assertEqual(finding["reason"], "typesafe_output_in_training_path")
         self.assertIn("2.3(b)", finding["clause"])
+        self.assertIn("model distillation", finding["clause_text"])
+        self.assertEqual(finding["clause_url"], "https://typesafe.ai/legal/mca")
         self.assertEqual(finding["path_to_training_artifact"],
                          ["checkpoint-1", "-trained_on->", "corpus", "-labeled_by->", "jev"])
 
