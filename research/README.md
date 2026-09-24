@@ -17,7 +17,9 @@ research to composition, working evals and iterative improvement. The
 judgment to jobs and wiring patterns, with the no-model alternative for each
 job. Hourly 0946 (notes.md §165) is a research-only pass: no placement rule
 changed. Hourly 1531 (notes.md §168) is the same kind of pass: leaderboard
-slices, a single verdict, and a missed gate stay in the archive. The [2026-09-23 patrol](patrol-2026-09-23.md) records user-requested
+slices, a single verdict, and a missed gate stay in the archive. Hourly
+0922 (notes.md §169) is the same kind of pass: public tables, calibration
+banners, and catalog counts stay in the archive. The [2026-09-23 patrol](patrol-2026-09-23.md) records user-requested
 0.7.1 review evidence, its coverage ledger, and promotion candidates; it does
 not change the skill. Use the
 [maintainer prompt](prompts/maintainer.md) to preserve that mission in future work.

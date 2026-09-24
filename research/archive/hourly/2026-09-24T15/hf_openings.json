@@ -1,0 +1,79 @@
+[
+  {
+    "id": "TokenRhythm/NeoHorse-Jev-4B",
+    "kind": "models",
+    "sha": "ce1736d784b1ddbef5be9098e9ca4070c10d3df7",
+    "readme_status": 404,
+    "head": ""
+  },
+  {
+    "id": "HIT-TMG/JevEmbed-Data",
+    "kind": "datasets",
+    "sha": "fc7f44305315082d7d554d572024861e438aeffa",
+    "readme_status": 200,
+    "head": "---\npretty_name: JevEmbed-Data\ntask_categories:\n- text-classification\nsize_categories:\n- 1M<n<10M\nconfigs:\n- config_name: default\n  data_files:\n  - split: train\n    path: data/train-*.parquet\n  - split: test\n    path: data/test-*.parquet\ntags:\n- JevEmbed\n- system-one\n- synthetic\n- typed-decisions\n- probability-estimation\n- control\n- noul\n- choice\n- score\nlanguage:\n- en\nlicense:\n  - apache-2.0\n  - cc0-1.0\n  - cc-by-4.0\n---\n\n# JevEmbed-Data\n![JevEmbed pixel-art banner showing embeddings leading to Choice, Score, and Noul decisions](assets/jevembed-banner.png)\n\nThis dataset contains **1,601,157 training** and **66,482 test** questions for [JevEmbed](https://github.com/HITsz-TMG/JevEmbed). Here, `test` is the source corpus's validation split. The ten Parquet files each hold at most 200,000 rows.\n\n## Fields\n\nEach row is one decision. `request_json` and `answers_json` are JSON strings; parse them with `json.loads`.\n\n| Field | Meaning |\n|---|---|\n| `id` | Unique question ID. |\n| `group` | Case ID. Related questions stay in the same split. |\n| `request_json` | Input: `state` plus a `decision` question with its type, instructions, and optional criteria. |\n| `answers_json` | Reference answer for `decision`. This is a training label, not model input. |\n| `question_type` | `choice`, `score`, or `noul`. Also present inside `request_json`. |\n| `source` | Short source name. |\n| `source_repo` | Source dataset or project generator. |\n| `source_revision` | Source version. |\n| `source_row` | Row ID in that source. |\n| `domain` | Topic tag for filtering or sampling. |\n| `license` | License rec"
+  },
+  {
+    "id": "Quazim0t0/Byrne-Jev-79M",
+    "kind": "models",
+    "sha": "d492e75cec8597901c063986bbd4c983f2a5634c",
+    "readme_status": 404,
+    "head": ""
+  },
+  {
+    "id": "tasksource/procedural-typed-decisions",
+    "kind": "datasets",
+    "sha": "b4f55bea135283127b2945c8e6fc7e68e9c56a4a",
+    "readme_status": 200,
+    "head": "---\npretty_name: procedural-typed-decisions\nlanguage:\n- en\nlicense: apache-2.0\ntask_categories:\n- text-classification\ntags:\n- tasksource\n- jev\n- system-one\n- procedural\n- synthetic\n- multi-question\nconfigs:\n- config_name: arithmetic\n  data_files:\n  - split: train\n    path: arithmetic/train-*.parquet\n  - split: validation\n    path: arithmetic/validation-*.parquet\n  - split: test\n    path: arithmetic/test-*.parquet\n- config_name: entity_belief_tracking\n  data_files:\n  - split: train\n    path: entity_belief_tracking/train-*.parquet\n  - split: validation\n    path: entity_belief_tracking/validation-*.parquet\n  - split: test\n    path: entity_belief_tracking/test-*.parquet\n- config_name: event_state_reconstruction\n  data_files:\n  - split: train\n    path: event_state_reconstruction/train-*.parquet\n  - split: validation\n    path: event_state_reconstruction/validation-*.parquet\n  - split: test\n    path: event_state_reconstruction/test-*.parquet\n- config_name: evidence_sufficiency\n  data_files:\n  - split: train\n    path: evidence_sufficiency/train-*.parquet\n  - split: validation\n    path: evidence_sufficiency/validation-*.parquet\n  - split: test\n    path: evidence_sufficiency/test-*.parquet\n- config_name: multi_view_adjudication\n  data_files:\n  - split: train\n    path: multi_view_adjudication/train-*.parquet\n  - split: validation\n    path: multi_view_adjudication/validation-*.parquet\n  - split: test\n    path: multi_view_adjudication/test-*.parquet\n- config_name: needle_retrieval\n  data_files:\n  - split: train\n    path: needle_retrieval/train-*.parquet\n  - split: validation\n    path: n"
+  },
+  {
+    "id": "tasksource/tasksource-jev-typed-decisions",
+    "kind": "datasets",
+    "sha": "01cf47f3854cc90dc6e60b744586b1c843a3c639",
+    "readme_status": 200,
+    "head": "---\npretty_name: tasksource-jev-typed-decisions\nlanguage:\n- multilingual\nlicense: other\ntask_categories:\n- text-classification\n- question-answering\n- token-classification\ntags:\n- tasksource\n- jev\n- system-one\n- runtime-defined-decisions\n- decision-models\n- multiple-choice\nsize_categories:\n- 1M<n<10M\ndataset_info:\n  features:\n  - name: state\n    dtype: string\n  - name: id\n    dtype: string\n  - name: kind\n    dtype: string\n  - name: options\n    list: string\n  - name: target\n    list: float64\n  - name: question\n    dtype: string\n  - name: source\n    dtype: string\n  - name: variant\n    dtype: string\n  - name: split\n    dtype: string\n  - name: group_id\n    dtype: string\n  - name: question_id\n    dtype: string\n  splits:\n  - name: train\n    num_bytes: 934483229\n    num_examples: 900000\n  - name: validation\n    num_bytes: 51573807\n    num_examples: 50000\n  - name: test\n    num_bytes: 50498774\n    num_examples: 50000\n  download_size: 433230497\n  dataset_size: 1036555810\nconfigs:\n- config_name: default\n  data_files:\n  - split: train\n    path: data/train-*\n  - split: validation\n    path: data/validation-*\n  - split: test\n    path: data/test-*\n---\n\n# tasksource-jev-typed-decisions\n\nOne million decisions from **500+ Tasksource tasks across 300+ dataset families**,\nin a single format for models that receive their answer criteria at runtime.\nThe value is breadth with traceable supervision: most rows inherit labels,\nratings, or annotator votes from existing datasets, not labels invented by a\nteacher model. The `source` field identifies the originating task; existing\ntrain/dev/test boundari"
+  },
+  {
+    "id": "wwydmanski/bielik-minitron-jev-v0.3",
+    "kind": "models",
+    "sha": "17dea472656122c6d4e2e09c644694349466e9cf",
+    "readme_status": 404,
+    "head": ""
+  },
+  {
+    "id": "KikiNLP/CanITrustYou-Jev",
+    "kind": "datasets",
+    "sha": "61fb5b67c39227ede4b0ac9b96a00d5260664e8c",
+    "readme_status": 200,
+    "head": "---\npretty_name: 'CITY-Jev: Evaluating Agent Execution Decisions Under Perturbations'\ntask_categories:\n- text-classification\nsize_categories:\n- 10K<n<100K\ntags:\n- agents\n- decision-making\n- evaluation\n- text\n- jev\nlicense: cc-by-nc-4.0\nlanguage:\n- en\n---\n\n# CITY-Jev: Evaluating Agent Execution Decisions Under Perturbations\n\n[![GitHub](https://img.shields.io/badge/GitHub-CITY--Jev-181717?style=flat-square&logo=github)](https://github.com/JiaQiSJTU/CanITrustU-Jev)\n\n**CITY-Jev (Can I Trust You Jev)** asks a simple question: **fast decisions are useful, but can we trust them?** We evaluate [Jev-style System One models](https://typesafe.ai/blog/introducing-system-one-models-and-jev) at typical decision points in general agentic workflows: choosing an action, judging a step, verifying an outcome, assessing evidence, and checking safety. We test whether those decisions are correct, whether they hold up when inputs are reworded or reformatted, and how much confidence-based abstention helps.\n\n![CITY-Jev](https://huggingface.co/datasets/KikiNLP/CanITrustYou-Jev/resolve/main/city-jev-teaser.png)\n\n*Illustrative workflow. We evaluate adapted candidate-selection decisions using Accuracy and Abstention-Aware Accuracy, with strict (worst-case) and mean scores over the original input and all five perturbations.*\n\n**One question. Six input versions. Does the decision hold up?**\n\nWe adapt **10 upstream data sources** into a common candidate-selection format: **2,000 original questions**, each paired with **five perturbations**, for **12,000 planned decision evaluations**. The perturbations ch"
+  },
+  {
+    "id": "sumleo/RLCDAlignBench",
+    "kind": "datasets",
+    "sha": "df1defb5ad1d26dd2cb7cf25c55303498b8c5f33",
+    "readme_status": 401,
+    "head": ""
+  },
+  {
+    "id": "thaitea/laya-vision-201m",
+    "kind": "models",
+    "sha": "0b6228f7a0762566de1c4539e9aa4eb1c1aef5f4",
+    "readme_status": 404,
+    "head": ""
+  },
+  {
+    "id": "Reza2kn/Jev-Omni-Q4_K_M-GGUF",
+    "kind": "models",
+    "sha": "0991aeb7a12d2dfee7ebfb07f463aab37405a86a",
+    "readme_status": 404,
+    "head": ""
+  },
+  {
+    "id": "guanxuyu/visual-jev-4b-answer-sft",
+    "kind": "models",
+    "sha": "7a3f1bb0d8f7bfbbd8514d968ab7de3518849c8d",
+    "readme_status": 404,
+    "head": ""
+  }
+]
