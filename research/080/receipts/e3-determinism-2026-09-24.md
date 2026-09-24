@@ -104,19 +104,33 @@ maximum is 0.124, so on roughly one call in a hundred the two passes disagree ab
 by more than a tenth. Those are the cases where the reader is close to tied between yes and no and
 the batch reduction order decides, and they are exactly the cases a threshold is sensitive to.
 
-**Computed here, and it is the number that matters for E3.** The worst observed crossing rate is
-2/150 = 1.33% at τ = 0.3. Utilities live in an interval of width 1.2, so if every crossing flipped
-a question's utility by the full range, an answerability-thresholded arm's mean utility could move
-by up to **0.016** between two replay tables. The E3 superiority and equivalence margin is
-**0.02**. The rerun-induced instability of arms (ii) and (iv) is therefore of the **same order as
-the margin they are tested against** — 0.8 of it in the worst case, and much less in any realistic
-case, since a flipped action frequently leads to the same answer anyway.
+**Computed here, and corrected after the runner caught an error in my first arithmetic.** The
+denominator 150 counts (question, k) **cells**, not questions. An arm spends one k per question —
+whichever level its policy stops at — so the quantity that moves an arm's mean utility is the
+per-**question** flip rate, and dividing by 150 understated it threefold.
+
+| Reading of the 2 crossings at τ = 0.3 | Per-question rate | Worst-case shift in mean utility | Against the 0.02 margin |
+| --- | ---: | ---: | ---: |
+| Cell-level fraction (**not** a bound on an arm) | 2/150 = 1.33% | 0.016 | 0.8× |
+| Both cells in **one** question | 1/50 = 2% | **0.024** | **1.2×** |
+| Cells in **two distinct** questions | 2/50 = 4% | **0.048** | **2.4×** |
+
+The diagnostic did not record which questions the crossing cells belong to, and the second table
+was not retained, so the conservative reading is the operative one: **up to 0.048, which is 2.4
+times the margin.** The realistic figure is lower, because a flipped action only changes utility
+when it changes the answer that gets scored, and the diagnostic cannot say how often that happens.
+But "lower for a reason we did not measure" is not a bound, and the bound is what goes in the lock.
+
+My earlier figure of 0.016 stands only as a cell-level calculation. It is **not** a demonstrated
+bound on mean per-question policy utility, and the correction makes the finding worse rather than
+better: the rerun instability of the two answerability arms **exceeds** the margin they are tested
+against, rather than sitting at 0.8 of it.
 
 This does not invalidate E3, and it is precisely why the lock freezes the tables: every arm,
 resplit and P6 draw reads one table, so the comparison between arms is exact and reproducible from
 the artifact. What it bounds is something narrower and worth saying plainly: **a replication that
-regenerated the tables could differ from this one by an amount comparable to the margin on the two
-answerability arms.** That belongs beside those two rows in the analysis lock, not in a footnote,
+regenerated the tables could differ from this one, on the two answerability arms, by more than the
+margin.** That belongs beside those two rows in the analysis lock, not in a footnote,
 and it is a limit on E3's transportability rather than on its internal validity.
 
 Arms (i), (iii), (v), (vi) and (vii) do not threshold `p_answerable`. Arm (i) reads the action,
