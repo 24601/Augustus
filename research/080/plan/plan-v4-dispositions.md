@@ -109,7 +109,7 @@ Only items that change a design decision are folded in; the rest stay in the swe
 | "**Search with an exact simulator**" is a second R0 exit | text sweep §6.1 item 9 | §3.2 |
 | The most repeated public advice is "log your Jev calls and distill them" | text sweep §6.2 | §3.7 S7 quotes that request shape and redirects; §3.6 makes the refusal default and overridable |
 | Do not emit `/v1/systemone`-shaped servers by default | text sweep §6.2 | Decision 13 |
-| Hosted non-Jev teachers will trip the gate constantly | text sweep §6.2 | Decision 12: ship them `unknown` with a named-approval path |
+| Hosted non-Jev teachers will trip the gate constantly | text sweep §6.2 | Decision 12, **maintainer 2026-09-24 (option C)**: they pass with provenance recorded and no gate. Only an *unnamed* teacher is `unknown`. The sweep's observation stands and is answered by removing the gate rather than by widening it |
 | **Shielded-harness reporting**: agreement and intervention counts beside end-to-end success | CLM card §4.3 | §2.1 table row; it is the paper's own thesis in someone else's data |
 | An **outcome-labeled verifier** is a provenance-free route | CLM card §4.2 | §3.4 gold-first and teacher-route rows; §3.2 |
 | PAW's **evaluation hygiene**: frozen protocol versions, sidecar manifests, contrast-pair cluster resampling, findings bound to rule revisions, operational failure never `OK` | PAW/RAP card | §3.5 |

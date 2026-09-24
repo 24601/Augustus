@@ -465,7 +465,7 @@ Each rule is conditional and stated once, in `data-and-labels.md`.
 | Rule | Applies when | Guard or check |
 |---|---|---|
 | Gold first | Always | Confirmation data are sampled from real traffic with equal inclusion probability, labeled independently, frozen and hashed before any generation |
-| Teacher route | A teacher is used | Code-computed labels or a local open-weight teacher by default; a hosted teacher must pass §3.6 |
+| Teacher route | A teacher is used | Code-computed labels or a local open-weight teacher by default. A **named** hosted teacher passes, with its provider, model, revision, access channel and date recorded; an **unnamed** one is `unknown`, because there is nothing to record (decision 12) |
 | Double agreement | One teacher labels real text | Not needed for code-computed labels |
 | NOTA as answer and distractor | A NOTA option exists | Pair probe |
 | Style-seed partition | Style seeds are used | Overlap audit |
@@ -544,6 +544,13 @@ parents), `disputed` (a sourced, revision-bound allegation contradicts a declare
   that is absolute. In the shipped skill, a Jev-generated training corpus is **refused by default
   with one quoted line of MCA §2.3(b)**, and the user may override it with a recorded
   acknowledgment (artifact, use, date). There is no counsel step and no other ceremony.
+- **Hosted non-Jev teachers pass, with provenance recorded** (decision 12, maintainer
+  2026-09-24). A named provider, model, revision and access channel are written to the graph and
+  the run record, and nothing is gated on them. **0.8.0 checks no provider's terms except
+  TypeSafe's, and the skill says so on every pass**: a recorded teacher is an audit trail, not a
+  permission, and the user owns the terms question for their own provider. What is still refused
+  is an *unnamed* teacher, because a corpus whose labeler cannot be identified cannot be
+  re-audited later — that is `unknown` on missing parents, not a terms judgment.
 - A named approval can clear `unknown` for one artifact and one use. It never silently clears
   `disputed`: the approval record preserves the outstanding allegation and is never described as
   verified lineage.
@@ -560,7 +567,8 @@ parents), `disputed` (a sourced, revision-bound allegation contradicts a declare
 | A human label stored in a field named "jev" | Resolves by lineage, not by the name |
 | A corpus row carrying a Jev `prediction` field | Field stripped or row refused |
 | A trace log with no labeler field | `unknown` |
-| Inputs synthesized by a hosted provider with human labels | `unknown` on the input edge |
+| Inputs synthesized by a **named** hosted provider at a stated revision, with human labels | Passes; provider, revision, channel and date recorded, with the "declared provenance only, no terms checked" note |
+| The same with the provider or revision undisclosed | `unknown` on the input edge: nothing can be recorded |
 | Open-weight generated labels with declared lineage | Passes; provenance recorded |
 | `allowed` without a digest | Rejected |
 
@@ -1008,7 +1016,7 @@ envelope (measured); the `.gitignore` vehicle.
 | 9 | **Multimodal pilot in 0.8.0?** | **DECIDED: yes** (maintainer, 2026-09-24). M-R1 and M-R2 on one public image task plus one code-rendered task, after the M2 lock, under the blind-arm gate F1 and the per-type rule F4. It is a **pilot**: it can end at "not a media decision", and it does not gate the release |
 | 10 | **Container cap for a 4B VLM or an audio LoRA** | **DECIDED: no** (maintainer, 2026-09-24). The 16 GB CPU cgroup and declared GPU budgets stand, so audio stays at M-R2 and the VLM pilot stays at 2B |
 | 11 | **One backbone or two for text R1 and M-R1** | **DECIDED: two** (maintainer, 2026-09-24). Qwen3.5-2B for text R1, Qwen3-VL-2B for media, each with its own parity receipt. If the Qwen3.5 linear-attention parity check fails, Qwen3-1.7B becomes R1 and the media backbone is unaffected |
-| 12 | **Hosted non-Jev teachers** | Ship every hosted teacher as `unknown` with a named-approval path; 0.8.0 checks no provider terms beyond TypeSafe's |
+| 12 | **Hosted non-Jev teachers** | **DECIDED: pass them through with provenance recorded, no gate** (maintainer, 2026-09-24, option C). Only TypeSafe's terms are encoded, because D-d requires it; no other provider's terms are read or asserted. **Accepted consequence, recorded rather than hidden:** the provenance gate now fires on exactly two things — a Jev-generated training corpus (refused by default, user-overridable) and missing or disputed lineage. It is not a general terms checker, and the skill must not present it as one |
 | 13 | **Jev wire format** | Do not emit `/v1/systemone`-shaped servers by default from the skill |
 | 14 | Activation spend | At most $10 per release candidate |
 | 15 | Scoop timebox | Reframe, don't restart; decide by 2026-11-15 |
