@@ -69,7 +69,7 @@ sudo. Rules:
 
 **A delta re-review of the revised v4**, then **M1**: the skeleton, generalized repository
 checks, confirmation modes and methods (with `loss_bound`), the ledger and provenance graph, the
-overlap audit and the climb ledger, in small PRs. **M0b** (B16–B19, the quarantine-and-split
+overlap audit and the climb ledger, in small PRs. **M0b** (B16–B20, the quarantine-and-split
 custody path, the MemAvailable watchdog and the GPU-budget wrapper) gates every experiment.
 
 Experiments wait for v4's design and analysis locks, as v4 specifies. No tag or release without

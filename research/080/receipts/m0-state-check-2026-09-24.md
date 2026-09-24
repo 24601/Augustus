@@ -6,7 +6,7 @@ ran; no container started, no window opened, no linger enabled, no principal imp
 nftables modification. Firewall rule bodies and addresses are deliberately not reproduced here.
 
 Purpose: confirm that the M0 containment state plan v4 §4.2 describes is still the state of the
-host, before M0b adds the custody path, the watchdog and B16–B19.
+host, before M0b adds the custody path, the watchdog and B16–B20.
 
 | Check | Result | Plan v4 says |
 | --- | --- | --- |
@@ -33,4 +33,4 @@ state is stale. Two gaps are open work rather than drift:
 2. `/srv/aug/stage` holds only the base image and the §4.4 acceptance weights. No experiment
    dataset is on the host, which is what the W2-after-M2 ordering requires.
 
-No experiment ran, and none may run until v4's design and analysis locks and M0b's B16–B19.
+No experiment ran, and none may run until v4's design and analysis locks and M0b's B16–B20.

@@ -629,10 +629,17 @@ cache roots**, because weights and datasets need opposite treatment:
   loses it. `augctl` then splits, hashes and publishes `/srv/aug/stage/parts/<partition-id>/`,
   root-owned and read-only: fit and calibration partitions with labels, **confirmation inputs with
   labels removed**, and nothing else.
-- `/srv/aug/quarantine/weights` takes model weights, the base image layers and wheels. `augctl`
-  verifies each artifact against the acquisition manifest's digest, confirms it carries no dataset
-  labels, and publishes it to `/srv/aug/stage/weights/`, root-owned and read-only. Runs mount it,
-  which is how any model loads at all.
+- `/srv/aug/quarantine/weights` takes model weights, the base image layers and wheels. The split
+  is enforced by the environment, not by convention: `HF_DATASETS_CACHE` points into the data root
+  and `HF_HUB_CACHE` into the weights root, and `augwindow` refuses to close a window in which a
+  dataset repository landed under the weights root. `augctl` then publishes an artifact only if
+  (a) its digest matches the acquisition manifest entry recorded when the window opened, (b) its
+  repository id is on the design lock's weights list, and (c) its file types are weights, configs
+  and tokenizer files — no `.parquet`, `.arrow`, `.csv` or `.jsonl`, which is what a dataset
+  arrives as. Publication goes to `/srv/aug/stage/weights/`, root-owned and read-only, which runs
+  mount; that is how any model loads at all. The check is a **provenance and file-type check, not
+  a semantic scan**: it cannot prove a weight file encodes no label, which is the memorization
+  limit §4.6 already records.
 
 Each run mounts only the partitions and weights the design lock entitles it to. **B16 searches
 both trees**, so the separation is tested rather than assumed. Window close is a teardown, not a
@@ -664,7 +671,7 @@ instance around, or allocate outside, and the watchdog is detection after the fa
 caps concurrency, not the sum. So:
 
 - **Default: candidate GPU work runs on Colab**, which is D-b's own fallback, with public code and
-  data only and no B1–B19 claim. That is where an unrestricted GPU candidate belongs.
+  data only and no B1–B20 claim. That is where an unrestricted GPU candidate belongs.
 - **On tabputer-1 only if the allocation can actually be bounded.** M0b adds **B19**: verify
   whether the `dmem` cgroup controller (present in the root cgroup, untested at M0) bounds amdgpu
   GTT for a rootless container. If B19 passes, candidate containers get `/dev/kfd` and
@@ -684,13 +691,16 @@ Every run declares its own GPU budget — `torch.cuda.set_per_process_memory_fra
 38 GiB (0.306); SetFit/DeBERTa 10 GiB (0.081).
 
 **A fixed 24 GiB launch floor is not an admission rule** (Astra v4 F3): PAW-ft's 38 GiB GPU budget
-plus a 16 GiB CPU cgroup is a 54 GiB allowance on a UMA host, so a compliant run could be admitted
-at 24 GiB and still exhaust memory. Admission is therefore **aggregate**: a run launches only if
+plus a 16 GiB CPU cgroup, plus its teacher server, is well over 54 GiB of allowance on a UMA host,
+so a compliant run could be admitted at 24 GiB and still exhaust memory. Admission is therefore
+**aggregate**: a run launches only if
 
-    MemAvailable ≥ GPU budget + CPU cap + declared service memory (a teacher server) + 8 GiB
-    overhead + the 6 GiB reserve
+    MemAvailable ≥ GPU budget + CPU cap + declared service memory + 8 GiB overhead + 6 GiB reserve
 
-so PAW-ft needs at least 68 GiB free, not 24 GiB. The 24 GiB figure survives only as a floor below
+**Service memory is declared separately and is never assumed to be inside a run's GPU budget.**
+PAW-ft with a local teacher declares 38 GiB for the training job and 9 GiB for the vLLM teacher
+server, so it needs 38 + 16 + 9 + 8 + 6 = **77 GiB** free. A run with no service declares 0, so
+E3's readers need 14 + 16 + 0 + 8 + 6 = 44 GiB. The 24 GiB figure survives only as a floor below
 which nothing launches at all.
 
 **The declared budgets are allocator limits, not a GPU cgroup.** PyTorch's fraction bounds one
@@ -744,6 +754,7 @@ v4 adds three, all of which must pass before M3:
 | **B17** | **Disk exhaustion.** Write beyond the quota of the size-bounded filesystem carrying `/srv/aug/runs` and `/srv/aug/pred` | ENOSPC inside the container only; host free space and k3s are unaffected (Fable v3 P2-5) |
 | **B18** | **GPU budget, admission and burst.** (a) A run exceeding its declared GPU budget. (b) A launch attempt whose aggregate requirement exceeds MemAvailable, tested by **mocking the `/proc/meminfo` reading**, never by consuming host memory (Fable v4 P2-4). (c) A bounded first-party allocation burst toward a raised test floor, to measure kill latency against the 500 ms sampling cadence | (a) the allocator limit aborts the allocation. (b) admission refuses, naming the shortfall. (c) the watchdog kills the container before the reserve is crossed, and the measured latency is recorded. A failure here narrows the affected arm or moves it to Colab; the host is never deliberately driven to OOM |
 
+| **B20** | **GPU hang or reset while a run holds the device.** A first-party run is wedged deliberately (an oversized kernel under its own budget) and the recovery path is exercised | The wrapper detects the stall through its own heartbeat, kills the container, and records `blocked(gpu_fault)` with the amdgpu message. **No `amdgpu` module reload, no GPU reset command and no reboot**: if the device does not recover, the run is abandoned and the maintainer decides at the console. A wedged GPU while a candidate holds the device has the same response, and the affected arm moves to Colab (Fable v4 delta P2-3) |
 | **B19** | **Can a candidate's GPU allocation be bounded?** Apply a `dmem` cgroup limit to a rootless container and allocate past it, first-party. Measure whether amdgpu GTT is charged and capped | The allocation fails at the limit and host MemAvailable is unaffected. **If it does not, candidate GPU work moves to Colab** and candidates on this host get no devices (Astra v4 R3) |
 
 B10's criterion is corrected: inside a `--network=none` netns, host-IP connects fail at
@@ -779,7 +790,7 @@ at its analysis lock.
 
 | Run | Work | Basis | Wall-clock | GPU budget |
 |---|---|---|---|---|
-| Windows W1–W3 + B1–B19 | About 45 GB of downloads | Network-bound | 0.5–1 day, attended | — |
+| Windows W1–W3 + B1–B20 | About 45 GB of downloads | Network-bound | 0.5–1 day, attended | — |
 | E4a | 4.32M replications, 1.08e10 sampled losses, chunked | [H] 2e8–2e9 elements/s | 0.1–0.9 min, cap 1 GPU-h | 4 GiB (aggregate admission 34 GiB) |
 | E1 | Embed about 2.1M texts; fit arms; 38 intervals; 200 control redraws | MiniLM measured 2.1 s per 1,000 on GPU [Rep] | ≤ 2 h, cap 6 h | 2 GiB |
 | E3 | 133,290 calls (66,645 narrowed) | Measured vLLM 2,004 tok/s batched [Rep] | 1.2 GPU-h of decode plus prefill; the timing pilot governs; cap 24 GPU-h | 14 GiB |
@@ -816,7 +827,7 @@ the state is derived from the launch measurement.
   we wrote and review. They do not bound candidate code, which is why candidate GPU work requires
   B19's `dmem` result or Colab.
 - The Mac provides no isolation. Colab provides none of these claims.
-- "Sandbox" means exactly the mechanisms B1–B19 test, rerun after any system update.
+- "Sandbox" means exactly the mechanisms B1–B20 test, rerun after any system update.
 
 ## 5. Research automation
 
@@ -925,11 +936,11 @@ experiment-data window.
 | ID | Milestone | Depends | Effort | Exit criterion |
 |---|---|---|---|---|
 | M0 | Provisioning; containment; **window W1 (infrastructure only)**; §4.4 acceptance on synthetic texts; B1–B15 | — | **Done 2026-09-23** | `receipts/m0-tabputer-1-2026-09-23.md` |
-| M0b | B16–B19; the quarantine-and-split custody path; the MemAvailable watchdog; the GPU-budget wrapper | M0 | 1 | A dated receipt showing B16–B19 pass |
+| M0b | B16–B20; the quarantine-and-split custody path; the MemAvailable watchdog; the GPU-budget wrapper | M0 | 1 | A dated receipt showing B16–B20 pass |
 | M1 | Skeleton (`0.8.0-dev`, `.gitignore`); generalized `check_repo`; modes, methods, `loss_bound` and design check; ledger and provenance graph; overlap audit; climb ledger. **Small PRs, at most 500 changed lines and 15 files each** | M0 decisions | 4–5 | `make check` green, with the CONTRIBUTING numerical tests |
 | M2 | Design locks for E1, E3, E4 and M5, including each loss range R, each `true_delta`, and the PAW/A1/A2a arms; BANKING77 provenance check **from cards, papers and metadata only** — no dataset text or labels are read before the lock, and any check that would need rows moves after it with a prespecified abort rule (Fable v4 P2-2) | **M0 decisions only** | 1 | Hashed **before window W2 opens** |
 | M2b | Window W2: experiment datasets and M5 readers; B9/B10 re-run; receipt | M2, M0b | 0.5 | Dated window receipt, proxy closed |
-| M3 | E4a–c (E4d optional); T1 generator with fact–text binding | M1, M2b, B1–B19 | 2 | E4 criteria met |
+| M3 | E4a–c (E4d optional); T1 generator with fact–text binding | M1, M2b, B1–B20 | 2 | E4 criteria met |
 | M4 | E1, then E3, each with its analysis lock before confirmation | M3; §4.4 parity checks for E3 | 2 + 1–2 days of compute | Results against each lock, inconclusive rows included |
 | M5 | Trainer reproduction: R0, A1, A2a, A2b, R1, R2a, R2b vs R3a (R3b if parity passes) | M1, M3; Qwen3.5 and PAW parity | 3–4 | §3.3 rule applied, including inconclusive |
 | M6 | Author `augustus-train`; hand-off; scenarios; independent review; activation suite | M5 | 2–3 | Budgets pass; no unresolved severe flaw |
@@ -954,10 +965,10 @@ paper does not gate the release.
 | Memory contention or an OOM killing other workloads | Container cap with `--memory-swap`; GPU budget; MemAvailable watchdog; one run at a time |
 | GPU nondeterminism (59.8% per-prompt batched-rerun identity [Rep]) | **Frozen once-generated replay tables** that every arm, resplit and P6 draw reads, so no claim depends on re-execution. The batch-invariant setting is recorded at the lock, a 50-question check measures the realized rate against a pre-registered tolerance, and the joint whole-question figure stays **[H]** |
 | gfx1151 kernel gaps (Qwen3.5 FLA, PAW, VLM) | Parity checks before the arm; Colab fallback, never CPU |
-| A rolling CachyOS update mid-study | Versions in every receipt; updates held during windows; B1–B19 and §4.4 rerun after an update |
+| A rolling CachyOS update mid-study | Versions in every receipt; updates held during windows; B1–B20 and §4.4 rerun after an update |
 | A candidate reconstructs confirmation labels | Quarantine custody, label-free confirmation inputs, B16 |
 | A candidate fills the shared disk | Size-bounded run filesystem, B17 |
-| Isolation overclaimed | Claims limited to B1–B19; §4.6, including the memorization and allocator-limit non-claims |
+| Isolation overclaimed | Claims limited to B1–B20; §4.6, including the memorization and allocator-limit non-claims |
 | A GPU-holding candidate attacks the driver | Accepted and recorded as a non-claim; it is the price of D-b. One run at a time, no network, per-run `/work`, aggregate admission |
 | Underpowered results read as negatives | Powered-set rule with design-lock g; inconclusive rows; `/evidence/` shows it |
 | Mislabeled provenance | Declared-only limit; the `disputed` state; S7 |

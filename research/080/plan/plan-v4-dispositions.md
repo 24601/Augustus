@@ -204,3 +204,18 @@ The reviewer found **no new P0 or P1** introduced by the revision: the weights c
 viable manifest-verified read-only mount separate from labeled dataset caches, K = 6 and the
 corrected E3/M5 arithmetic are sound, and the candidate-GPU change fixes reachability, with its
 memory risk counted once under R3 and now answered by B19-or-Colab.
+
+## Delta re-review of the revision (Fable 5.1 xhigh lane, 2026-09-24)
+
+Verdict on `6685d2a`: **ACCEPTED — 0 P0, 0 P1, 4 P2 notes.** P1-A (E3's range and every dependent
+threshold) and P1-B (the weights custody path) are closed, verified by the reviewer's own
+recomputation; all eight original P2s are closed and not merely cosmetically. No new P0 or P1 was
+introduced by the corrected arithmetic, the aggregate admission rule, the candidate-GPU change or
+the weights path.
+
+| # | P2 note | Disposition | Fix |
+|---|---|---|---|
+| 1 | The PAW-ft admission example assigned zero service memory despite needing a teacher server | **Accepted** | Service memory is declared separately and never assumed inside a run's GPU budget: PAW-ft is 38 + 16 + **9** + 8 + 6 = **77 GiB**, and E3's readers are 44 GiB |
+| 2 | How `augctl` confirms a weight artifact carries no dataset labels, and how the HF dataset and hub caches are separated, was unstated | **Accepted** | §4.2 enforces the split through `HF_DATASETS_CACHE` and `HF_HUB_CACHE`, has `augwindow` refuse to close a window where a dataset repository landed under the weights root, and publishes only on a manifest digest match, a design-lock repository id, and a weights/config/tokenizer file-type check. It is stated to be a **provenance and file-type check, not a semantic scan** |
+| 3 | No pre-registered handling for a wedged or reset GPU while a candidate holds the device | **Accepted** | New **B20**: heartbeat detection, container kill, `blocked(gpu_fault)` with the amdgpu message, and **no module reload, no GPU reset and no reboot** — if the device does not recover the maintainer decides at the console, and the arm moves to Colab |
+| 4 | The powered-set gap wording mixed NI/equivalence with superiority | **Accepted (same as Astra R1)** | Fixed by the signed-distance-per-mode definition |
