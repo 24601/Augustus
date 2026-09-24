@@ -1,3 +1,15 @@
+## Hourly 1211 HIGH (notes.md §170)
+
+- Folded onto `main` `33ba9c516dc10483562c0c316579c6e386a53eeb`. About three
+  hours after hourly 0922 (§169). This fold is §170 only. Research-only.
+  Does not bump the package. Scoring rows stay at 17.
+  `invented_signal: false`. No X calls.
+- kev description now names Qwen3.5 and Qwen3.8. That sentence is theirs.
+  Qwen is not Archer. No scoring row. awesome-jev's 1171 is a catalog count.
+- Chat copilots, including the iOS keyboard, still leave send with the
+  person. JevForge Actions recommend and do not resize, assign, or skip
+  on their own. Healthcare and solicitation tables stay separate instruments.
+
 ## Hourly 0922 HIGH (notes.md §169)
 
 - Folded onto `main` `125507c8600a5ab9ea4214cc16804c1c4f8486a6`. Overnight
