@@ -58,11 +58,11 @@ In order, each fixture and the verdict it must produce:
 | Teacher-labeled confirmation rows | `proxy_evidence_only` |
 | Synthetic text | `fixture_evidence_only` |
 | Unequal inclusion probabilities | `unsupported_sampling_design` |
-| The 50/950 case (−0.667 apparent, +0.9 true) | Refused |
+| The 50/950 case (−0.667 apparent, +0.9 true) | `unsupported_attrition`, and `strict_margin_supported` false. Surfacing `excluded_units` is not enough |
 | The sign case (p = 0.0068 while mean loss rises by 0.0292) | Refused |
 | Non-binary input to `sign_exact` | Refused |
 | A zero-discordance rare-large case | `unpowered`, **never equivalence** |
-| A correlated equal-probability cluster sample | `unsupported_sampling_design`, because equal inclusion probability is not independence |
+| A correlated equal-probability cluster sample | Not supported. **Recorded limit:** the helper cannot see dependence it is not told about, so this is caught by the declared independent unit at the design lock, not by the arithmetic. In the fixture the interval is simply too wide to support anything, which is luck rather than a control |
 
 ## E4c: isolation, on tabputer-1
 

@@ -79,7 +79,10 @@ def fixtures():
     cases.append(("selective_50_950",
                   receipt(kept, excluded_units=940,
                           missing_outcome_policy="candidate abstained; units dropped"),
-                  {"note": "excluded_units must be surfaced, not silently averaged away"}))
+                  {"assessment": "unsupported_attrition", "not_supported": True,
+                   "why": "surfacing excluded_units is not enough; the realized sample is no"
+                          " longer the registered one, and the helper cannot check whether"
+                          " survival was independent of the outcome"}))
 
     # 5. The sign case: direction is significant while the mean loss RISES.
     sign_pairs = ([pair(f"w{i}", 1.0, 0.0) for i in range(24)]
@@ -138,11 +141,13 @@ def run(helper) -> dict:
             if expectation.get("raises"):
                 outcome["verdict"] = "fail"
                 outcome["detail"] = "expected a refusal, got a report"
-            elif expectation.get("not_supported"):
-                outcome["verdict"] = "pass" if not outcome["supported"] else "fail"
-            elif expectation.get("assessment"):
-                outcome["verdict"] = ("pass" if report["assessment"] == expectation["assessment"]
-                                      else "fail")
+            elif expectation.get("not_supported") or expectation.get("assessment"):
+                ok = True
+                if expectation.get("not_supported"):
+                    ok = ok and not outcome["supported"]
+                if expectation.get("assessment"):
+                    ok = ok and report["assessment"] == expectation["assessment"]
+                outcome["verdict"] = "pass" if ok else "fail"
             elif expectation.get("gap_if_supported"):
                 # Not a failure of the helper: a limit of what a declared
                 # design can express. Recorded so it cannot be forgotten.

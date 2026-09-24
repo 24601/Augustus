@@ -1,0 +1,98 @@
+{
+  "experiment": "E4b",
+  "fixtures": 8,
+  "passed": 8,
+  "failed": [],
+  "gaps": [],
+  "review": [],
+  "results": [
+    {
+      "fixture": "teacher_labeled_confirmation",
+      "expectation": {
+        "assessment": "proxy_evidence_only"
+      },
+      "assessment": "proxy_evidence_only",
+      "supported": true,
+      "upper": -0.8776126584659592,
+      "excluded_units": null,
+      "verdict": "pass"
+    },
+    {
+      "fixture": "synthetic_text",
+      "expectation": {
+        "assessment": "fixture_evidence_only"
+      },
+      "assessment": "fixture_evidence_only",
+      "supported": true,
+      "upper": -0.8776126584659592,
+      "excluded_units": null,
+      "verdict": "pass"
+    },
+    {
+      "fixture": "unequal_inclusion_probability",
+      "expectation": {
+        "raises": "unsupported_sampling_design"
+      },
+      "raised": "unsupported_sampling_design: probability_proportional_to_size",
+      "verdict": "pass"
+    },
+    {
+      "fixture": "selective_50_950",
+      "expectation": {
+        "assessment": "unsupported_attrition",
+        "not_supported": true,
+        "why": "surfacing excluded_units is not enough; the realized sample is no longer the registered one, and the helper cannot check whether survival was independent of the outcome"
+      },
+      "assessment": "unsupported_attrition",
+      "supported": false,
+      "upper": -0.350663909634707,
+      "excluded_units": 940,
+      "verdict": "pass"
+    },
+    {
+      "fixture": "sign_direction_vs_magnitude",
+      "expectation": {
+        "raises": "sign_exact requires losses in"
+      },
+      "raised": "sign_exact requires losses in {0, loss_bound}",
+      "verdict": "pass"
+    },
+    {
+      "fixture": "sign_exact_with_a_margin",
+      "expectation": {
+        "raises": "certifies direction only"
+      },
+      "raised": "sign_exact certifies direction only; minimum_improvement must be 0",
+      "verdict": "pass"
+    },
+    {
+      "fixture": "zero_discordance_rare_large",
+      "expectation": {
+        "assessment": "insufficient_evidence",
+        "not_supported": true,
+        "why": "the radius floor must keep this unpowered, never equivalent"
+      },
+      "assessment": "insufficient_evidence",
+      "supported": false,
+      "upper": 0.002660920917159948,
+      "excluded_units": null,
+      "verdict": "pass"
+    },
+    {
+      "fixture": "correlated_equal_probability_clusters",
+      "expectation": {
+        "gap_if_supported": "the helper cannot see dependence it is not told about"
+      },
+      "assessment": "insufficient_evidence",
+      "supported": false,
+      "upper": 0.522519796339569,
+      "excluded_units": null,
+      "verdict": "pass"
+    }
+  ],
+  "limits": [
+    "Fixture evidence only. No fixture here supports a margin on any real task.",
+    "A gap is a limit of what a declared design can express, not a helper bug; it is recorded rather than passed.",
+    "Passing establishes that the helper reaches the required verdict on these cases, not that it is correct in general."
+  ]
+}
