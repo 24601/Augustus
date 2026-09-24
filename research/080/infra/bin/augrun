@@ -146,8 +146,12 @@ PROFILE = [
 
 
 def podman_command(args, run_dir: Path, heartbeat: Path) -> list[str]:
+    # /work is a sized tmpfs, not a host bind mount: a run never writes to the
+    # host disk, so there is nothing for it to fill, and the tmpfs is charged
+    # to the container's memory cgroup, which --memory already bounds. Only the
+    # heartbeat crosses to the host, and it is one file the wrapper stats.
     command = ["podman", "run", *PROFILE,
-               "--volume", f"{run_dir}:/work:rw",
+               "--mount", f"type=tmpfs,destination=/work,tmpfs-size={args.work_size}",
                "--volume", f"{heartbeat.parent}:/heartbeat:rw",
                "--env", f"AUG_GPU_BUDGET_GIB={args.gpu_budget_gib}",
                "--env", "AUG_HEARTBEAT=/heartbeat/beat",
@@ -177,6 +181,8 @@ def main(argv=None) -> int:
                         help="a published stage path to mount read-only, repeatable")
     parser.add_argument("--heartbeat-timeout-s", type=float, default=0.0,
                         help="0 disables the heartbeat check")
+    parser.add_argument("--work-size", default="2g",
+                        help="size of the /work tmpfs; bounded by the memory cgroup")
     parser.add_argument("--runs-root", type=Path, default=Path("/srv/aug/runs"))
     parser.add_argument("--dry-run", action="store_true",
                         help="print the admission verdict and the command, launch nothing")

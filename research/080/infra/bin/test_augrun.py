@@ -141,7 +141,7 @@ class WatchdogTests(unittest.TestCase):
 class CommandTests(unittest.TestCase):
     def test_the_hardened_profile_and_the_gpu_devices_are_both_present(self):
         parser_args = augrun.argparse.Namespace(
-            image="sha256:pinned", gpu_budget_gib=14.0, gpu=True,
+            image="sha256:pinned", gpu_budget_gib=14.0, gpu=True, work_size="2g",
             stage=["/srv/aug/stage/parts/e1", "/srv/aug/stage/weights"],
             command=["python3", "run.py"])
         command = augrun.podman_command(parser_args, Path("/srv/aug/runs/r1"),
@@ -151,13 +151,16 @@ class CommandTests(unittest.TestCase):
                      "--memory-swap=16g", "--pids-limit=512", "--ipc=private"):
             self.assertIn(flag, command)
         self.assertIn("/srv/aug/stage/weights:ro", command)
+        self.assertIn("type=tmpfs,destination=/work,tmpfs-size=2g", command)
+        self.assertNotIn("/srv/aug/runs/r1:/work:rw", command)
         self.assertIn("AUG_GPU_BUDGET_GIB=14.0", command)
         self.assertIn("/dev/kfd", command)
         self.assertEqual(command[-2:], ["python3", "run.py"])
 
     def test_a_cpu_only_run_gets_no_devices(self):
         parser_args = augrun.argparse.Namespace(
-            image="sha256:pinned", gpu_budget_gib=0.0, gpu=False, stage=[], command=["true"])
+            image="sha256:pinned", gpu_budget_gib=0.0, gpu=False, work_size="1g",
+            stage=[], command=["true"])
         command = augrun.podman_command(parser_args, Path("/srv/aug/runs/r2"),
                                         Path("/srv/aug/runs/r2/heartbeat/beat"))
         self.assertNotIn("/dev/kfd", command)
