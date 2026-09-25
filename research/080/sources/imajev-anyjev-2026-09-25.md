@@ -97,3 +97,67 @@ scored on.
 the same items. Any comparison with Jev in either repo is "as published" or, for imajev's images,
 impossible. If an experiment needs the hosted API held fixed, these do not provide it — which is
 itself the finding about how this ecosystem compares itself to Jev.
+
+## Run notes, 2026-09-25: AnyJev L0 measured on M5
+
+Qwen3-8B, bf16, A100-40GB, peak 23.6 GB, transformers backend, AnyJev at git `795a4970`. L0 only:
+zero labels, no `calibrate()`, no `fit_head()`, `anyjev-heads/` never opened, 0 fit examples used,
+and every returned `Decision.level` asserted to be `L0`. The zero-label claim holds exactly as
+published — no level fell back.
+
+### Its readout caps a decision at 26 options
+
+`anyjev/question.py` sets `MAX_OPTIONS = 26`, because the readout is a single letter A–Z, and the
+README says a span readout is roadmap rather than code. **A 77-way decision therefore cannot be one
+AnyJev question at all** — `Question.choice` raises rather than degrading.
+
+That is a structural property of reading a decision off one prefill, not a packaging gap. The
+method's whole advantage is that nothing is generated and nothing is parsed, and the price of that
+is an answer that must fit in one token position. Any claim of the form "turn any LLM into a
+typed decision model" carries this ceiling, and it lands exactly where bounded-classification work
+gets interesting: BANKING77 is 77 labels, CLINC is 151, and an intent taxonomy in production is
+usually larger still.
+
+The run worked around it honestly and recorded the workaround in the output's own `deviation`
+field: four fixed sub-questions of at most 25 real options plus a literal `none of these`, global
+argmax over per-option L0 probabilities. **T2a is therefore a different question shape from every
+other arm's T2a** and is marked partitioned wherever it is compared.
+
+### Order sensitivity, and where L0 actually removes it
+
+First 300 confirmation rows, `options_enumerated` forward against reversed:
+
+| task | options | raw flip | L0 flip |
+| --- | --- | --- | --- |
+| T2a | 77, partitioned | 0.3867 | 0.2467 |
+| T2b | 2 | 0.1767 | **0.0000** |
+| T2c | 2 | 0.0467 | **0.0000** |
+
+**At two options L0 is exactly order-invariant, and the raw model is not** — one T2b answer in six
+changes from swapping two strings. That is the cleanest confirmation we have of their central
+claim, measured by us rather than read from their README.
+
+At 77 partitioned options L0 removes about a third of the flips and leaves a quarter of answers
+order-dependent. It is not comparable to their published 0.230 → 0.073 on a 20-way question:
+reversing a 77-item list also reshuffles which options share a sub-question, so this is a strictly
+harder test. Read it as a partitioned-L0 number.
+
+The flip counts reproduced **bit-identically** across a session Colab reclaimed mid-run and the
+rebuilt one, which is the determinism check the method's own design implies.
+
+### The cost of a letter readout at scale
+
+| task | rows | rows/s | wall clock | prefills/row |
+| --- | --- | --- | --- | --- |
+| T2a | 6,000 | 0.632 | 2.64 h | 81 |
+| T2b | 12,845 | 61.06 | 210 s | 2 |
+| T2c | 60,000 | 37.66 | 1,593 s | 2 |
+
+Cyclic shifts multiply prefills by the option count, so the de-biasing that makes L0 order-invariant
+is also what makes a 77-way decision two orders of magnitude slower per row than a binary one.
+**Zero labels is not the same as zero cost**, and on this evidence the method is strongest exactly
+where the option set is small.
+
+Two packaging facts worth recording: PyPI `anyjev` is **0.0.1** against a repo at 0.1.0 and is
+missing `heads.py`, `pipeline.py` and `truncate.py`, so an install from PyPI is not the library the
+README describes; and vLLM was never exercised here because transformers worked first try.
