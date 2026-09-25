@@ -1,3 +1,17 @@
+## 2026-09-25 ~18:26 UTC / ~12:12 Boise - Hourly 1210 HIGH
+
+- User-requested fold onto `main` `cf1d932fd2d31e58fba0b1dda2884c26db3e85c2`.
+  notes.md §173. Packet of 103 design items and 28 research-only rows
+  archived at `research/archive/hourly/2026-09-25T18/`.
+- Research-only. No skill, human README, Pages, or version change.
+  Scoring rows stay at 17. Archer stays promised_not_landed.
+- Live GitHub and Hugging Face reads on 2026-09-25T18:26Z.
+  README or card openings for the sources named in §173. Two GitHub
+  repositories were empty. Two READMEs returned 404. No benches rerun.
+  No X calls. Third-party figures stay *theirs*.
+- A public table is not Harbor. A rename that keeps the node is the same
+  source. A stability badge is not calibration. The act stays in policy.
+
 ## 2026-09-25 ~15:40 UTC / ~09:18 Boise - Hourly 0918 HIGH
 
 - User-requested fold onto `main` `e3e712b6054f4ab558aa939ff5b2efb4bfbd2787`.
