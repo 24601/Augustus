@@ -161,3 +161,60 @@ where the option set is small.
 Two packaging facts worth recording: PyPI `anyjev` is **0.0.1** against a repo at 0.1.0 and is
 missing `heads.py`, `pipeline.py` and `truncate.py`, so an install from PyPI is not the library the
 README describes; and vLLM was never exercised here because transformers worked first try.
+
+## Run notes, 2026-09-25: imajev-4b measured on M5
+
+Its own shipped `POST /v1/systemone` server, unmodified, adapter `712891d1` on base Qwen3.5-4B
+`851bf6e8`, one `choice` question per row with `criteria` set to `options_enumerated`. All 78,845
+rows, zero missing ids, zero errored rows. Declared contaminated: the three M5 corpora are in its
+training mixture, so no number here supports a generalization claim.
+
+### A bigger card buys nothing, because the work is launch-bound
+
+**Single-request latency was ~328 ms/row on an L4 and ~328 ms on an A100-40GB — identical.** One
+short forward pass at batch 1 with single-token option codes is CPU and launch bound, not FLOP
+bound. Merging the LoRA moved it to 292 ms. Serial throughput of 3.0 rows/s projected T2c at 5.5
+hours.
+
+The fix was three unmodified server replicas on one GPU — the server holds a per-process lock, so
+replicas are the only way to overlap — which scaled near-linearly to 8.2 rows/s and brought T2c to
+2.0 hours. Replicas were verified to return **bit-identical** answers on the same row before being
+relied on. On an L4 only two replicas fit in 22 GB, giving 5.5–6.0 rows/s.
+
+**For §3.7 this is the sharpest envelope result of the day and it points the opposite way to A2b's.**
+A2b needed a card class change and then gradient accumulation to fit at all. imajev is indifferent
+to the card and limited by per-call overhead, so the useful lever is concurrency rather than
+hardware. "What hardware does this need" has no single answer across artifact forms, which is the
+§3.7 claim stated as a measurement.
+
+### Order sensitivity, measured at the setting the vendor does not ship
+
+Reversing `options_enumerated` on the first 300 rows changed **11.0% of T2a answers, 4.67% of T2b,
+6.33% of T2c** — at `--rotations 1`. The repository ships `--rotations 4`, averaging four cyclic
+orders, precisely to damp this, and its published numbers are measured that way. This run used
+rotations 1 deliberately, because averaging orders would have hidden the effect being measured.
+**Read it as raw single-order instability, not as a vendor number.**
+
+That the mitigation is shipped and on by default is itself the finding: the vendor knows the
+readout is order-sensitive and pays four forward passes per decision to hide it, which is the same
+tax AnyJev's L0 pays in cyclic shifts.
+
+### Three arms, three directions on one skew
+
+T2b's true out-of-scope rate is 5.8%. imajev emits it on **38.2%** of rows, over-calling by about
+seven times. AnyJev L0 over-called by about five. R4-gliner2 under-called by half, at 2.3%. A
+trained model, an unlabelled readout and a small fine-tune, all on the same rows, wrong in
+different directions — so "calibrate to the base rate" is not a property any of these forms gets
+for free, and the direction of the error is not predictable from the form.
+
+T2a uses all 77 intents and never abstains. T2c emits 19 literal `unknown` strings, left verbatim so
+the scorer counts them invalid, because T2c has no abstain option and forcing them into a class
+would be choosing an answer the model declined to give.
+
+### Operational
+
+Colab reclaimed the VM **six times**, at 50–65 minutes on A100s and 20 on an L4, detached or not,
+with a healthy keep-alive. A supervisor that snapshots off-VM every four minutes and resumes keyed
+on confirmation id reduced each loss to minutes; no row ran twice and none was dropped. The
+`rows_per_second` fields therefore describe named segments, recorded in each file's
+`rate_provenance` with `interrupted_and_resumed` true, rather than whole runs.
