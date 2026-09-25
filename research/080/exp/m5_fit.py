@@ -31,7 +31,10 @@ import platform
 import time
 from pathlib import Path
 
-ARMS = ("A1", "R1", "R2a", "R2b", "R3a")
+# Cheapest first, deliberately. On an ephemeral machine an expensive arm that fails at minute
+# forty should not also cost the arms that would have finished in seconds. A1 is instant, R2a is a
+# small encoder, R3a trains a comparator, and only then do R1 and R2b load a 2B decoder.
+ARMS = ("A1", "R2a", "R3a", "R1", "R2b")
 FAMILY_MEMBERS = ("A1", "R1", "R2a", "R2b")  # R3a is the comparator, not a family member
 MINILM = "sentence-transformers/all-MiniLM-L6-v2"
 READOUT = "Qwen/Qwen3.5-2B-Base"
@@ -142,9 +145,19 @@ def readout_states(torch, transformers, texts, device: str, batch_size: int, max
     """
     tokenizer = transformers.AutoTokenizer.from_pretrained(READOUT)
     model = transformers.AutoModel.from_pretrained(
-        READOUT, torch_dtype=torch.bfloat16, output_hidden_states=True).to(device).eval()
-    layers = model.config.num_hidden_layers if hasattr(model.config, "num_hidden_layers") \
-        else model.config.text_config.num_hidden_layers
+        READOUT, torch_dtype=torch.bfloat16).to(device).eval()
+    # `output_hidden_states=True` on `from_pretrained` only sets a config default, and a model
+    # class is free to ignore it in its forward — which this one does. The registered readout is
+    # Qwen3_5ForConditionalGeneration, a multimodal class whose text forward did not honour the
+    # config flag, so the first call returned hidden_states=None and the code subscripted it.
+    # Asking on the call is the fix; asserting it is what turns a silent None into a sentence.
+    config = model.config
+    text_config = getattr(config, "text_config", config)
+    layers = getattr(text_config, "num_hidden_layers", None) \
+        or getattr(config, "num_hidden_layers", None)
+    if not layers:
+        raise SystemExit(f"cannot determine layer count for {READOUT}; config has neither "
+                         "num_hidden_layers nor text_config.num_hidden_layers")
     depth = max(1, int(round(layers * READOUT_DEPTH)))
 
     last, mid = [], []
@@ -152,14 +165,22 @@ def readout_states(torch, transformers, texts, device: str, batch_size: int, max
         for start in range(0, len(texts), batch_size):
             encoded = tokenizer(texts[start:start + batch_size], padding=True, truncation=True,
                                 max_length=max_length, return_tensors="pt").to(device)
-            outputs = model(**encoded)
+            outputs = model(**encoded, output_hidden_states=True, return_dict=True)
+            states = getattr(outputs, "hidden_states", None)
+            if states is None:
+                raise SystemExit(
+                    f"{READOUT} returned no hidden states even when asked on the call. R1 and R2b "
+                    "are defined as readouts of this model's states, so there is no arm without "
+                    "them; report this rather than substituting another model.")
+            if len(states) <= depth:
+                raise SystemExit(f"asked for layer {depth} but only {len(states)} states returned")
             mask = encoded["attention_mask"].unsqueeze(-1).float()
 
             def pool(states):
                 return ((states * mask).sum(1) / mask.sum(1).clamp(min=1e-9)).float().cpu()
 
-            last.append(pool(outputs.hidden_states[-1]))
-            mid.append(pool(outputs.hidden_states[depth]))
+            last.append(pool(states[-1]))
+            mid.append(pool(states[depth]))
     del model
     if device == "cuda":
         torch.cuda.empty_cache()
