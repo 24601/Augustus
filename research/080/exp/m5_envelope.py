@@ -87,10 +87,22 @@ def find_weights(root: Path) -> dict:
         if "model_type" not in config and "architectures" not in config:
             continue
         seen.add(directory)
+        # A multimodal config nests the fields a text-only one puts at the top. Qwen3.5-2B-Base is
+        # `Qwen3_5ForConditionalGeneration` with `text_config` and `vision_config`, so reading only
+        # the top level reports hidden_size null and dtype missing, which looks like a broken tree
+        # rather than a different kind of model.
+        text = config.get("text_config") or {}
+        vision = config.get("vision_config") or {}
         found["models"].append({
             "path": str(directory),
             "model_type": config.get("model_type"),
-            "hidden_size": config.get("hidden_size"),
+            "architectures": config.get("architectures"),
+            "hidden_size": config.get("hidden_size") or text.get("hidden_size"),
+            "hidden_size_source": "top level" if config.get("hidden_size") else
+                                  ("text_config" if text.get("hidden_size") else None),
+            "dtype": config.get("torch_dtype") or config.get("dtype") or text.get("dtype"),
+            "multimodal": bool(vision),
+            "vision_hidden_size": vision.get("hidden_size"),
             "name_or_path": config.get("_name_or_path"),
         })
     for entry in found["models"]:
@@ -141,7 +153,8 @@ def classify(name: str, spec: dict, modules: dict, weights: dict, accel: dict) -
         if role == "readout":
             if registered_readout(weights) is None:
                 staged = [f"{entry['path']} (model_type {entry['model_type']}, hidden_size "
-                          f"{entry['hidden_size']})" for entry in weights.get("qwen", [])]
+                          f"{entry['hidden_size']} from {entry['hidden_size_source']}, dtype "
+                          f"{entry['dtype']})" for entry in weights.get("qwen", [])]
                 missing.append(
                     "the registered readout Qwen3.5-2B-Base, decided from each config rather than "
                     "from a directory name. Qwen-type trees found: "

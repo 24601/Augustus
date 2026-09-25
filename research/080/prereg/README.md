@@ -25,7 +25,7 @@ are operator-signed, and their value is the hash recorded here before any data w
 | E1 cost and prior shift | [`e1-design.md`](e1-design.md) | `863a5aa0f430d3de…` (amended 2026-09-24 with the actual post-dedup counts; no size or margin changed) | **written 2026-09-24, before any confirmation ANSWER was read**: [civil](e1-analysis-lock-civil.md) `d73243e3f7788951…`, [clinc](e1-analysis-lock-clinc.md) `e622b93356088349…` |
 | E3 episode control | [`e3-design.md`](e3-design.md) | `45a821fae045ada1…` (amended 2026-09-24 to record the reader revisions the original left as "pinned revisions"; no size, margin or family changed. Previously `a9422bf234dc285e…`) | **written and committed 2026-09-24T22:04:46Z, two minutes before the confirmation replay even started and 2h22m before any confirmation answer was read**: [e3-analysis-lock.md](e3-analysis-lock.md) `fcb626f07d0884f6…`. The prespecified narrowing fired on σ̂ and did not help; both facts are in the lock |
 | E4 acceptance machinery | [`e4-design.md`](e4-design.md) | `1ab9e78deb838ee8…` | **executed**; see the E4a, E4b and E4c receipts |
-| M5 artifact-form ladder | [`m5-design.md`](m5-design.md) | `d24e2b27a89e6e56…` | not written |
+| M5 artifact-form ladder | [`m5-design.md`](m5-design.md) | `fcdeadd28a9dde76…` (amended 2026-09-25 to record that the registered readout Qwen3.5-2B-Base is natively multimodal; no arm, margin or family changed. Previously `d24e2b27a89e6e56…`) | not written |
 | M5b multimodal pilot | not written | — | not written |
 
 ## The recorded-lock binding, and a gap in how it was built

@@ -15,7 +15,18 @@ and, separately, P11.
 ## The family: K = 6
 
 R1 (Qwen3.5-2B frozen readout: raw, two-order averaging, L0, then OOF temperature), R2a (LR on
-MiniLM), R2b (ridge/LDA on R1's ⅔-depth state), **A1** (agent-synthesized program, frozen and
+MiniLM), R2b (ridge/LDA on R1's ⅔-depth state)
+
+**Recorded 2026-09-25, after staging the registered readout.** `Qwen/Qwen3.5-2B-Base` at revision
+`b1485b2fa6dfa1287294f269f5fb618e03d52d7c` is **natively multimodal**:
+`Qwen3_5ForConditionalGeneration`, `model_type` `qwen3_5`, with a `text_config` (`hidden_size`
+2048, `dtype` bfloat16, `model_type` `qwen3_5_text`) and a `vision_config` (`hidden_size` 1024),
+and it ships `preprocessor_config.json` and `video_preprocessor_config.json`. There is no
+top-level `torch_dtype` or `hidden_size`, so a check written against a text-only config finds
+neither. This changes nothing about R1 and R2b, which read the text tower, and it is recorded
+because a tool that asserts a top-level `torch_dtype` would either fail here or, worse, be
+"fixed" by inventing the field. It is also relevant to M5b: the registered readout already
+carries a vision tower., **A1** (agent-synthesized program, frozen and
 hashed before any confirmation read), **A2a** (PAW-standard via the local single-GPU compiler),
 **A2b** (PAW-ft with a local teacher and a local initial compile).
 
