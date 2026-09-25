@@ -140,7 +140,12 @@ def score_arm(actions: dict, truth: dict, labels: list[str], task: str, costs: d
         raw = actions.get(key)
         matched = None if raw is None else match(str(raw), labels, lookup)
         invalid += matched is None and raw is not None
-        if matched == costs.get("abstain_label"):
+        # `matched is not None` guards a real bug rather than a hypothetical: on a task with no
+        # abstain label the lookup returns None, an unmatched output is also None, and `None ==
+        # None` counted every invalid output as an abstention. That is exactly the rule this file
+        # exists to prevent, inverted by a comparison. It produced abstention_rate 1.0 for A2a on
+        # T2c in the first grading, and 0.0003167 for imajev's 19 unknowns in the seventh.
+        if matched is not None and matched == costs.get("abstain_label"):
             abstained += 1
         elif matched is not None and str(matched) == str(truth_label):
             correct += 1
