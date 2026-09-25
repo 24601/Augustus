@@ -198,6 +198,15 @@ def main(argv=None) -> int:
     parser.add_argument("--workdir", type=Path, default=Path("./m5-work"))
     parser.add_argument("--dry-run", action="store_true",
                         help="exercise every step except the compile and the inference")
+    # A2b is a different repository with a different driver, and this file raises on it inside the
+    # loop. Without this flag the only way to run A2a alone was a hand-rolled driver, which is what
+    # happened: the actions came back keyed by row id with no arm and no program record, and the
+    # scorer refused them. Running one rung through the real writer is cheaper than reconstructing
+    # what an ad-hoc file meant.
+    parser.add_argument("--rung", action="append", choices=RUNGS,
+                        help="restrict to these rungs; default is every rung")
+    parser.add_argument("--task", action="append",
+                        help="restrict to these tasks; default is every task in the bundle")
     args = parser.parse_args(argv)
 
     actual = sha256_of(args.bundle)
@@ -223,14 +232,17 @@ def main(argv=None) -> int:
         "actions": {},
     }
 
+    rungs = tuple(args.rung) if args.rung else RUNGS
     for task, block in bundle["tasks"].items():
+        if args.task and task not in args.task:
+            continue
         spec_text = render_spec(task, block["spec"], block.get("options_enumerated"))
         # Worked examples are written in the same wording the options use, so the program is not
         # shown two spellings of one answer and asked to pick the graded one.
         surface = block.get("answer_surface") or {}
         examples = [{**example, "label": surface.get(str(example["label"]), example["label"])}
                     for example in block["fit_examples"]]
-        for rung in RUNGS:
+        for rung in rungs:
             key = f"{task}|{rung}"
             if args.dry_run:
                 program = dry_run_program(rung, task, spec_text, examples)
