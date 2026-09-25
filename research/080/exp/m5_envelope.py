@@ -63,20 +63,44 @@ def has_module(name: str) -> bool:
 
 
 def find_weights(root: Path) -> dict:
-    """Which staged trees exist, by the role M5 needs rather than by their directory name."""
-    found = {}
+    """Staged model directories, identified by reading their config rather than by path text.
+
+    Two things this gets wrong if written casually, and both were. Taking the first `rglob` hit
+    finds `all-MiniLM-L6-v2/1_Pooling`, a sentence-transformers submodule, not the model. And
+    deciding "this Qwen is not the registered one" from the mere presence of a directory named
+    qwen would say the same of a correctly staged Qwen3.5-2B-Base. So: the shallowest directory
+    whose config actually looks like a model config wins, and the config's own fields are reported
+    so the caller can see WHY a tree was accepted or rejected.
+    """
+    found = {"models": []}
     if not root.is_dir():
         return found
-    for path in sorted(root.rglob("config.json")):
-        name = str(path.parent).lower()
-        if "minilm" in name:
-            found.setdefault("minilm", str(path.parent))
-        elif "deberta" in name:
-            found.setdefault("deberta", str(path.parent))
-        elif "qwen" in name:
-            # A 2B-class decoder is what R1 and R2b read; a 4B is the A2b teacher. The design lock
-            # names Qwen3.5-2B for the readout, and a 1.7B or 4B staged for E3 is NOT that model.
-            found.setdefault("qwen_seen", []).append(str(path.parent))
+    seen = set()
+    for path in sorted(root.rglob("config.json"), key=lambda p: (len(p.parts), str(p))):
+        directory = path.parent
+        if any(str(directory).startswith(str(other) + "/") for other in seen):
+            continue
+        try:
+            config = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        if "model_type" not in config and "architectures" not in config:
+            continue
+        seen.add(directory)
+        found["models"].append({
+            "path": str(directory),
+            "model_type": config.get("model_type"),
+            "hidden_size": config.get("hidden_size"),
+            "name_or_path": config.get("_name_or_path"),
+        })
+    for entry in found["models"]:
+        lowered = entry["path"].lower()
+        if "minilm" in lowered:
+            found.setdefault("minilm", entry["path"])
+        elif "deberta" in lowered:
+            found.setdefault("deberta", entry["path"])
+        elif entry["model_type"] and "qwen" in entry["model_type"].lower():
+            found.setdefault("qwen", []).append(entry)
     return found
 
 
@@ -92,6 +116,15 @@ def accelerator() -> dict:
             "torch": torch.__version__}
 
 
+def registered_readout(weights: dict) -> dict | None:
+    """The design lock registers Qwen3.5-2B-Base. Decide by the config, not by the folder name."""
+    for entry in weights.get("qwen", []):
+        name = (entry.get("name_or_path") or entry["path"]).lower()
+        if "qwen3.5" in name and "2b" in name:
+            return entry
+    return None
+
+
 def classify(name: str, spec: dict, modules: dict, weights: dict, accel: dict) -> dict:
     missing = []
     for module in spec["needs_python"]:
@@ -99,21 +132,20 @@ def classify(name: str, spec: dict, modules: dict, weights: dict, accel: dict) -
             missing.append(f"python module `{module}`")
     for role in spec["needs_weights"]:
         if role == "readout":
-            # Explicitly separate "no Qwen at all" from "a Qwen that is not the registered one",
-            # because the second is the easier mistake and the more damaging.
-            if not weights.get("qwen_seen"):
-                missing.append("a staged 2B-class decoder for the readout")
-            else:
-                missing.append("the REGISTERED readout: Qwen3.5-2B-Base. Staged Qwen trees exist "
-                               f"({len(weights['qwen_seen'])}), but E3's readers are Qwen3-1.7B "
-                               "and Qwen3-4B, which are not that model")
+            if registered_readout(weights) is None:
+                staged = [f"{entry['path']} (model_type {entry['model_type']}, hidden_size "
+                          f"{entry['hidden_size']})" for entry in weights.get("qwen", [])]
+                missing.append(
+                    "the registered readout Qwen3.5-2B-Base, decided from each config rather than "
+                    "from a directory name. Qwen-type trees found: "
+                    + ("; ".join(staged) if staged else "none"))
         elif role == "teacher":
-            missing.append("a local teacher for A2b") if not weights.get("qwen_seen") else None
+            if not weights.get("qwen"):
+                missing.append("a local open-weight teacher for A2b")
         elif not weights.get(role):
             missing.append(f"staged weights for `{role}`")
     if spec["needs_accelerator"] and not accel.get("present"):
         missing.append("an accelerator")
-    missing = [item for item in missing if item]
     return {"artifact": spec["artifact"], "family_member": spec["family_member"],
             "reachable": not missing, "missing": missing}
 
@@ -132,6 +164,10 @@ def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--weights-root", type=Path, default=Path("/srv/aug/stage"))
+    parser.add_argument("--environment", required=True, choices=("host", "container"),
+                        help="where this probe ran. The answer is only about THIS environment, "
+                             "and M5 fits inside the pinned container, so a host probe reports "
+                             "the host's modules and not the fitting environment's")
     parser.add_argument("--out", type=Path)
     args = parser.parse_args(argv)
 
@@ -148,6 +184,8 @@ def main(argv=None) -> int:
 
     report = {
         "experiment": "M5",
+        "probed_environment": args.environment,
+        "probe_is_the_fitting_environment": args.environment == "container",
         "envelope": envelope_name(accel, modules["torch"]),
         "accelerator": accel,
         "python_modules": modules,
@@ -160,13 +198,16 @@ def main(argv=None) -> int:
         "family_reachable": reachable_family,
         "comparator_reachable": comparator["reachable"],
         "verdict": (
-            "the registered family is reachable"
+            ("the registered family is reachable" if args.environment == "container" else
+             "the registered family is reachable IN THIS ENVIRONMENT, which is the host; rerun "
+             "inside the pinned container before believing it")
             if len(reachable_family) == len(family) and comparator["reachable"] else
             "the registered family is NOT reachable on this envelope. Per the design lock's own "
             "outcome rows this is Inconclusive: no rung recommendation, the default stays the "
             "procedure. Running the reachable subset and reporting it as the family would be a "
             "statement about this machine wearing the family's name."),
         "limits": [
+            "This answers for the environment it ran in. M5 fits inside the pinned container, so a host probe describes the host: torch and transformers absent there says nothing about the image, and the envelope label will understate the machine.",
             "Reachability is about fitting, not about whether a rung would pass the gate.",
             "A missing python module or staged tree is an acquisition, not a result. Nothing here says a rung is bad.",
             "The comparator R3a is not a family member, but the family's outcome rows are all defined against it, so an unreachable comparator makes every row unreadable rather than just one.",
