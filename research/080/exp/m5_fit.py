@@ -161,8 +161,12 @@ def readout_states(torch, transformers, texts, device: str, batch_size: int, max
     depth = max(1, int(round(layers * READOUT_DEPTH)))
 
     last, mid = [], []
+    started = time.time()
     with torch.no_grad():
         for start in range(0, len(texts), batch_size):
+            if start and start % (batch_size * 50) == 0:
+                done = start / max(time.time() - started, 1e-9)
+                print(f"    readout {start}/{len(texts)} at {done:.1f} rows/s", flush=True)
             encoded = tokenizer(texts[start:start + batch_size], padding=True, truncation=True,
                                 max_length=max_length, return_tensors="pt").to(device)
             outputs = model(**encoded, output_hidden_states=True, return_dict=True)
@@ -215,7 +219,8 @@ def write_checkpoint(out: Path, task: str, arm: str, payload: dict) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
-def run_arm(arm: str, task: str, block: dict, torch, transformers, device: str, args) -> dict:
+def run_arm(arm: str, task: str, block: dict, torch, transformers, device: str, args,
+            cache: dict | None = None) -> dict:
     """One arm on one task. Returns a payload with actions and everything needed to read them."""
     fit_rows = block["fit_examples"]
     inputs = block["confirmation_inputs"]
@@ -245,10 +250,19 @@ def run_arm(arm: str, task: str, block: dict, torch, transformers, device: str, 
         actions = actions_from_logits(torch, conf_x.to(device) @ weight + bias, labels)
 
     elif arm in ("R1", "R2b"):
-        fit_last, fit_mid, shape = readout_states(
-            torch, transformers, [r["text"] for r in fit_rows], device, args.readout_batch_size,
-            args.max_length)
+        # One decoder pass per split per task, shared by both arms. The receipt claimed this
+        # before the code did it: each arm was calling readout_states itself, so the two arms ran
+        # separate passes over the same rows. That doubled a 30-minute pass and, worse, meant R2b's
+        # state came from a DIFFERENT forward than R1's — which on a GPU is not bit-identical, as
+        # E3's determinism check measured. A claim in a receipt has to be true of the code.
+        cache = cache if cache is not None else {}
+        if "fit" not in cache:
+            cache["fit"] = readout_states(
+                torch, transformers, [r["text"] for r in fit_rows], device,
+                args.readout_batch_size, args.max_length)
+        fit_last, fit_mid, shape = cache["fit"]
         detail.update(shape)
+        detail["shared_forward_with"] = "R1 and R2b read one pass per split"
         states = fit_last if arm == "R1" else fit_mid
         weight, bias = fit_linear(torch, states, y, len(labels), device=device,
                                   weight_decay=0.0 if arm == "R1" else 1e-3)
@@ -257,9 +271,11 @@ def run_arm(arm: str, task: str, block: dict, torch, transformers, device: str, 
             split = max(1, len(fit_rows) // 5)
             detail["temperature"] = fit_temperature(
                 torch, states[:split].to(device) @ weight + bias, y[:split], device=device)
-        conf_last, conf_mid, _ = readout_states(
-            torch, transformers, [r["text"] for r in inputs], device, args.readout_batch_size,
-            args.max_length)
+        if "confirmation" not in cache:
+            cache["confirmation"] = readout_states(
+                torch, transformers, [r["text"] for r in inputs], device,
+                args.readout_batch_size, args.max_length)
+        conf_last, conf_mid, _ = cache["confirmation"]
         conf_states = conf_last if arm == "R1" else conf_mid
         logits = conf_states.to(device) @ weight + bias
         if arm == "R1":
@@ -360,6 +376,7 @@ def main(argv=None) -> int:
 
     for task in tasks:
         block = bundle["tasks"][task]
+        readout_cache: dict = {}
         for arm in arms:
             key = f"{task}|{arm}"
             existing = already_done(args.out, task, arm)
@@ -368,7 +385,7 @@ def main(argv=None) -> int:
                                            "wall_clock_s": existing.get("wall_clock_s"),
                                            "rows": len(existing.get("actions", {}))}
                 continue
-            payload = run_arm(arm, task, block, torch, transformers, device, args)
+            payload = run_arm(arm, task, block, torch, transformers, device, args, readout_cache)
             checkpoint = write_checkpoint(args.out, task, arm, payload)
             summary["results"][key] = {
                 k: v for k, v in payload.items() if k not in ("actions", "complete")}
