@@ -594,7 +594,51 @@ parents), `disputed` (a sourced, revision-bound allegation contradicts a declare
 | Open-weight generated labels with declared lineage | Passes; provenance recorded |
 | `allowed` without a digest | Rejected |
 
-### 3.7 The compute envelope is an input, not an assumption
+### 3.7 The compute envelope is a factor to sample, not only a constraint to declare
+
+**Corrected 2026-09-25, at the maintainer's direction.** An earlier version of this section treated
+hardware as a confound: declare the envelope, hold it fixed, and keep the comparison clean. That is
+the right instinct for a single pre-registered contrast and the wrong goal for this project. The
+deliverable is a skill that picks and builds the cheapest adequate artifact **on whatever an agent
+is standing on**, and a recommendation validated on one accelerator is not that. Hardware variation
+is the domain to cover, not the noise to remove.
+
+Both readings are kept, because they answer different questions:
+
+| Question | Design |
+| --- | --- |
+| Which artifact form is cheapest and adequate, for the paper's P10 claim | One envelope, one registered family, arms not substituted. Otherwise the contrast measures the machine |
+| Which forms an agent can actually reach and rely on, for the skill | The envelope is an experimental factor. Run the ladder on several, and report where the ordering holds and where it breaks |
+
+The second is the larger and more useful question, and the answer to it is what the skill ships.
+
+**Envelopes to cover, in descending order of how many agents live there.** These are not
+hypothetical: every one is a machine this project can reach.
+
+| Envelope | Instance | Why it matters |
+| --- | --- | --- |
+| E-hosted | an API key and no accelerator | The most common starting point, and the one where only A0, A1 and hosted rungs exist |
+| E-cpu | any laptop; a CI runner | Where a logistic head on cached embeddings is the whole ladder |
+| Apple Silicon MPS | the maintainer's Macs | A large and usually ignored population. `sources/decider-2026-09-25.md` already carries third-party evidence that a 2B typed-decision model runs there at parity with its bf16 row |
+| E-small NVIDIA | Colab L4, 22 GiB | Where most people's "I have a GPU" actually is |
+| E-large NVIDIA | Colab A100 or H100 | Where the heaviest rungs become possible |
+| E-large ROCm | tabputer gfx1151, 124 GiB | Where several rungs turn out not to exist at all |
+
+**What we already know from doing this, rather than assuming it.** The PAW rungs are unreachable on
+ROCm in principle — an NVIDIA-only compiler and an inference runtime behind a private index
+(`sources/paw-rap-2026-09-23.md`). That is not an obstacle the project hit; it is the single most
+useful thing M5 has produced so far, because it is exactly what a recipe must tell an agent before
+it recommends a rung. A ladder whose rungs have undocumented hardware preconditions is not a
+ladder an agent can climb.
+
+**Substitution stays forbidden; addition does not.** If an arm cannot be run as registered on some
+envelope, it is not silently replaced by a variant — but a variant may be run and reported
+*alongside* it under its own name. A2b compiled through the hosted compiler is `A2b-hosted`, not
+A2b, and both the registered arm's absence and the variant's result are reported. That keeps the
+pre-registered family meaningful and still tells an agent what actually happens when it does the
+thing a real user would do.
+
+### 3.7.1 The original constraint, which still holds inside one envelope
 
 Every rung above is written as though the agent has tabputer's GPU. Most agents do not. The skill
 has to run the same procedure for an agent with a hosted API key and no accelerator, a laptop with
