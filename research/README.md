@@ -23,7 +23,8 @@ banners, and catalog counts stay in the archive. Hourly 1211 (notes.md §170)
 is the same kind of pass: description rewrites, serving ports, and public
 tables stay in the archive. Hourly 1510 (notes.md §171) is the same kind of
 pass: description rewrites, a mock table, and public ranks stay in the
-archive. The [2026-09-23 patrol](patrol-2026-09-23.md) records user-requested
+archive. Hourly 0918 (notes.md §172) is the same kind of pass: a vLLM
+rename, embedding readouts, and public tables stay in the archive. The [2026-09-23 patrol](patrol-2026-09-23.md) records user-requested
 0.7.1 review evidence, its coverage ledger, and promotion candidates; it does
 not change the skill. Use the
 [maintainer prompt](prompts/maintainer.md) to preserve that mission in future work.

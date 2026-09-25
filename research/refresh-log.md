@@ -1,3 +1,17 @@
+## 2026-09-25 ~15:40 UTC / ~09:18 Boise - Hourly 0918 HIGH
+
+- User-requested fold onto `main` `e3e712b6054f4ab558aa939ff5b2efb4bfbd2787`.
+  notes.md §172. Packet of 286 design items and 57 research-only rows
+  archived at `research/archive/hourly/2026-09-25T15/`.
+- Research-only. No skill, human README, Pages, or version change.
+  Scoring rows stay at 17. Archer stays promised_not_landed.
+- Live GitHub and Hugging Face reads on 2026-09-25T15:40Z.
+  README or card openings for the sources named in §172. Hub model
+  HIT-TMG/JevEmbed HTTP 401. No benches rerun. No X calls.
+  Third-party figures stay *theirs*.
+- A public table is not Harbor. A rename that keeps the node is the same
+  source. A description rewrite is not a new family. The act stays in policy.
+
 ## 2026-09-24 ~21:25 UTC / ~15:10 Boise - Hourly 1510 HIGH
 
 - User-requested fold onto `main` `adc7369ed78b6f71e0cc7d4d8625a8efa1127c60`.

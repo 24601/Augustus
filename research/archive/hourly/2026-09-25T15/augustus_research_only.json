@@ -1,0 +1,960 @@
+[
+  {
+    "id": "ntlm1686/Your-language-model-is-already-a-decision-model",
+    "source": "github",
+    "stars": 4,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/ntlm1686/Your-language-model-is-already-a-decision-model",
+    "pushed_at": "2026-09-25T09:40:26Z",
+    "created_at": "2026-09-25T00:38:56Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "guptchar/layaRustparser",
+    "source": "github",
+    "stars": 3,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/guptchar/layaRustparser",
+    "pushed_at": "2026-09-25T12:46:59Z",
+    "created_at": "2026-09-24T05:15:41Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "sunziqin/millennium-jev",
+    "source": "github",
+    "stars": 2,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/sunziqin/millennium-jev",
+    "pushed_at": "2026-09-25T14:53:25Z",
+    "created_at": "2026-09-20T17:51:40Z",
+    "found_via": [
+      "jev_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "ashrafumair111-lab/JEV-AI-QUIKSTART",
+    "source": "github",
+    "stars": 1,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/ashrafumair111-lab/JEV-AI-QUIKSTART",
+    "pushed_at": "2026-09-25T15:13:25Z",
+    "created_at": "2026-09-25T14:53:34Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "leoncuhk/awesome-decision-models",
+    "source": "github",
+    "stars": 1,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/leoncuhk/awesome-decision-models",
+    "pushed_at": "2026-09-25T08:16:53Z",
+    "created_at": "2026-09-25T07:53:16Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "4RSIM3R/jev-jdd",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/4RSIM3R/jev-jdd",
+    "pushed_at": "2026-09-25T15:02:31Z",
+    "created_at": "2026-09-25T15:01:54Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "APRESIA/LAYADINO",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/APRESIA/LAYADINO",
+    "pushed_at": "2026-09-25T10:06:28Z",
+    "created_at": "2026-09-25T10:06:27Z",
+    "found_via": [
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "AxeForging/laya-compact",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/AxeForging/laya-compact",
+    "pushed_at": "2026-09-25T15:16:09Z",
+    "created_at": "2026-09-25T09:18:09Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "Babitdor/laya-browserUse-mcp",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/Babitdor/laya-browserUse-mcp",
+    "pushed_at": "2026-09-25T12:22:09Z",
+    "created_at": "2026-09-25T12:22:08Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "CHENTHIRTEEN/modernbert-rlcd-ablation",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/CHENTHIRTEEN/modernbert-rlcd-ablation",
+    "pushed_at": "2026-09-25T12:45:46Z",
+    "created_at": "2026-09-25T10:48:19Z",
+    "found_via": [
+      "RLCD_created",
+      "RLCD_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "CMaintz/jev-sort",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/CMaintz/jev-sort",
+    "pushed_at": "2026-09-25T13:45:45Z",
+    "created_at": "2026-09-25T13:27:32Z",
+    "found_via": [
+      "topic_jev"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "CiceroWilber/spcs-decision-model",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/CiceroWilber/spcs-decision-model",
+    "pushed_at": "2026-09-25T14:44:08Z",
+    "created_at": "2026-09-25T14:44:07Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "Hantlowt/laya-steering-lab",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/Hantlowt/laya-steering-lab",
+    "pushed_at": "2026-09-25T10:12:52Z",
+    "created_at": "2026-09-25T07:02:18Z",
+    "found_via": [
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "Kibana21/gliner-decide-api",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/Kibana21/gliner-decide-api",
+    "pushed_at": "2026-09-25T00:29:06Z",
+    "created_at": "2026-09-25T00:25:35Z",
+    "found_via": [
+      "GLiNER_created",
+      "GLiNER_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "LabeebHameed/jev-comp",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/LabeebHameed/jev-comp",
+    "pushed_at": "2026-09-25T15:06:42Z",
+    "created_at": "2026-09-25T15:05:10Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "MEMAndersen/laya_experiments",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/MEMAndersen/laya_experiments",
+    "pushed_at": "2026-09-25T12:27:34Z",
+    "created_at": "2026-09-25T12:27:04Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "Mamlesh18/one-decision-model",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/Mamlesh18/one-decision-model",
+    "pushed_at": "2026-09-25T04:34:59Z",
+    "created_at": "2026-09-25T03:49:54Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "NachiketKandari/jev-laya-explore",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/NachiketKandari/jev-laya-explore",
+    "pushed_at": "2026-09-25T09:09:43Z",
+    "created_at": "2026-09-23T04:30:59Z",
+    "found_via": [
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "PICDEV-collap/binance-jev-prediction-bot",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/PICDEV-collap/binance-jev-prediction-bot",
+    "pushed_at": "2026-09-25T15:10:06Z",
+    "created_at": "2026-09-24T05:50:46Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "PengyiZhang/jev-vlm-decisions",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/PengyiZhang/jev-vlm-decisions",
+    "pushed_at": "2026-09-25T14:50:51Z",
+    "created_at": "2026-09-24T01:28:58Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "Shivp1413/OpenJEV",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/Shivp1413/OpenJEV",
+    "pushed_at": "2026-09-25T15:14:42Z",
+    "created_at": "2026-09-25T15:14:40Z",
+    "found_via": [
+      "openjev_pushed",
+      "jev_pushed",
+      "openjev_created",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "Takuakira/jev-laya-case-study",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/Takuakira/jev-laya-case-study",
+    "pushed_at": "2026-09-25T15:21:43Z",
+    "created_at": "2026-09-25T15:03:08Z",
+    "found_via": [
+      "Laya_pushed",
+      "jev_pushed",
+      "Laya_created",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "Xin7937-lang/jev-life",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/Xin7937-lang/jev-life",
+    "pushed_at": "2026-09-25T15:18:57Z",
+    "created_at": "2026-09-25T15:18:55Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "abhishekwoco/Laya_Sandbox",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/abhishekwoco/Laya_Sandbox",
+    "pushed_at": "2026-09-25T10:18:43Z",
+    "created_at": "2026-09-25T10:07:57Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "christianmat/jev-pokemon",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/christianmat/jev-pokemon",
+    "pushed_at": "2026-09-25T14:45:47Z",
+    "created_at": "2026-09-25T01:02:51Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "cl2raul66/LayaDecisionMcp",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/cl2raul66/LayaDecisionMcp",
+    "pushed_at": "2026-09-25T09:31:26Z",
+    "created_at": "2026-09-25T09:30:28Z",
+    "found_via": [
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "cyrup-ai/candle-rlcd",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/cyrup-ai/candle-rlcd",
+    "pushed_at": "2026-09-25T15:05:33Z",
+    "created_at": "2026-09-25T01:43:21Z",
+    "found_via": [
+      "RLCD_created",
+      "RLCD_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "darrenli6/jev-demo",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/darrenli6/jev-demo",
+    "pushed_at": "2026-09-25T15:19:51Z",
+    "created_at": "2026-09-25T15:03:31Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "dyronrh/open-jev-play-dino-runner",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/dyronrh/open-jev-play-dino-runner",
+    "pushed_at": "2026-09-25T14:33:07Z",
+    "created_at": "2026-09-25T14:33:06Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "fast-facts/jevy-vet",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/fast-facts/jevy-vet",
+    "pushed_at": "2026-09-25T15:15:15Z",
+    "created_at": "2026-09-25T03:32:55Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "hebertdev/jev-playground",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/hebertdev/jev-playground",
+    "pushed_at": "2026-09-25T15:21:06Z",
+    "created_at": "2026-09-25T15:21:05Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "humandebri/IC-Laya-Standalone",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/humandebri/IC-Laya-Standalone",
+    "pushed_at": "2026-09-25T13:47:59Z",
+    "created_at": "2026-09-25T13:35:11Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "jorgegarcelan/jevsolinera",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/jorgegarcelan/jevsolinera",
+    "pushed_at": "2026-09-25T15:11:59Z",
+    "created_at": "2026-09-25T14:45:41Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "khudayarovich/jev-voice-agent",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/khudayarovich/jev-voice-agent",
+    "pushed_at": "2026-09-25T15:09:26Z",
+    "created_at": "2026-09-25T07:13:40Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "krish154/layarouteragent",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/krish154/layarouteragent",
+    "pushed_at": "2026-09-25T11:43:03Z",
+    "created_at": "2026-09-25T11:43:02Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "lab-emi/ChipJev",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/lab-emi/ChipJev",
+    "pushed_at": "2026-09-25T14:43:54Z",
+    "created_at": "2026-09-25T06:45:41Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "lauyeehow1986-hub/slm_jev",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/lauyeehow1986-hub/slm_jev",
+    "pushed_at": "2026-09-25T14:36:18Z",
+    "created_at": "2026-09-25T03:09:31Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "marimarinova/oss-sme-vat-decision-model",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/marimarinova/oss-sme-vat-decision-model",
+    "pushed_at": "2026-09-25T11:41:41Z",
+    "created_at": "2026-05-11T05:36:54Z",
+    "found_via": [
+      "decision_model_llm_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "mcvanheerdt/system-one-slide-deck",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/mcvanheerdt/system-one-slide-deck",
+    "pushed_at": "2026-09-25T14:14:52Z",
+    "created_at": "2026-09-25T14:14:39Z",
+    "found_via": [
+      "system-one_pushed",
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "mkthoma/laya_finetuning",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/mkthoma/laya_finetuning",
+    "pushed_at": "2026-09-25T14:52:46Z",
+    "created_at": "2026-09-25T14:52:45Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "mr04vv/jev-playground",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/mr04vv/jev-playground",
+    "pushed_at": "2026-09-25T15:16:17Z",
+    "created_at": "2026-09-25T14:28:02Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "muhfalihr/laya-idjvsuen",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/muhfalihr/laya-idjvsuen",
+    "pushed_at": "2026-09-25T10:36:10Z",
+    "created_at": "2026-09-25T06:51:03Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "pakkio/jev-biblio",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/pakkio/jev-biblio",
+    "pushed_at": "2026-09-25T14:38:21Z",
+    "created_at": "2026-09-25T12:59:11Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "payalkanyan/jev-kev",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/payalkanyan/jev-kev",
+    "pushed_at": "2026-09-25T14:48:11Z",
+    "created_at": "2026-09-25T14:46:44Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "praneeth-008/Laya-x-Kalshi-Weather-prediction-bot",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/praneeth-008/Laya-x-Kalshi-Weather-prediction-bot",
+    "pushed_at": "2026-09-25T13:43:21Z",
+    "created_at": "2026-09-25T13:43:20Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "rabi/pi-laya-router",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/rabi/pi-laya-router",
+    "pushed_at": "2026-09-25T09:35:03Z",
+    "created_at": "2026-09-25T09:34:43Z",
+    "found_via": [
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "rkvishwa/Laya",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/rkvishwa/Laya",
+    "pushed_at": "2026-09-25T13:59:56Z",
+    "created_at": "2026-09-25T13:30:06Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "sandeepj15/laya-stock-analysis-agent",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/sandeepj15/laya-stock-analysis-agent",
+    "pushed_at": "2026-09-25T14:01:07Z",
+    "created_at": "2026-09-25T13:17:37Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "thomasperdana/loop.laya.bible",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/thomasperdana/loop.laya.bible",
+    "pushed_at": "2026-09-25T13:22:41Z",
+    "created_at": "2026-09-25T12:54:40Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "thomasperdana/loop.laya.btc",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/thomasperdana/loop.laya.btc",
+    "pushed_at": "2026-09-25T12:49:55Z",
+    "created_at": "2026-09-25T12:27:33Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "v3moreno/ask-laya",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/v3moreno/ask-laya",
+    "pushed_at": "2026-09-25T14:58:12Z",
+    "created_at": "2026-09-25T11:47:35Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "v3moreno/local-laya",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/v3moreno/local-laya",
+    "pushed_at": "2026-09-25T14:38:48Z",
+    "created_at": "2026-09-25T08:03:03Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "v3moreno/omarchy-local-laya",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/v3moreno/omarchy-local-laya",
+    "pushed_at": "2026-09-25T15:14:53Z",
+    "created_at": "2026-09-25T08:33:26Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "venim1103/embedded-jev",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/venim1103/embedded-jev",
+    "pushed_at": "2026-09-25T14:58:06Z",
+    "created_at": "2026-09-25T13:25:02Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "vignesh865/doc-jev",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/vignesh865/doc-jev",
+    "pushed_at": "2026-09-25T14:51:05Z",
+    "created_at": "2026-09-25T14:51:04Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "wjw1-Evan/laya-plane-battle",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/wjw1-Evan/laya-plane-battle",
+    "pushed_at": "2026-09-25T14:06:31Z",
+    "created_at": "2026-09-25T14:06:21Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  },
+  {
+    "id": "yagocanton21/jev-extension",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/yagocanton21/jev-extension",
+    "pushed_at": "2026-09-25T14:38:43Z",
+    "created_at": "2026-09-24T19:33:57Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": null
+  }
+]
