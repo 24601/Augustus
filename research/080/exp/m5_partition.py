@@ -92,7 +92,15 @@ def publish(task: str, parts: dict, stage: Path, labels: Path) -> dict:
         inputs = [{"id": row["id"], "text": row["text"]} for row in subset]
         held = [{"id": row["id"], "label": row["label"]} for row in subset]
         target = stage / f"{task}-{name}"
-        target.mkdir(parents=True, exist_ok=True)
+        try:
+            target.mkdir(parents=True, exist_ok=True)
+        except PermissionError:
+            # The staging tree is root-owned and augctl holds execute only, by design. Say what
+            # has to happen rather than emitting a traceback the operator has to decode.
+            raise SystemExit(
+                f"cannot create {target}: the staging tree is root-owned and this principal has "
+                "execute only. Have root precreate the six partition directories under the same "
+                "custody as the other parts, then rerun. Do not widen augctl's access to the tree.")
         (target / "rows.json").write_text(json.dumps(inputs, ensure_ascii=False), encoding="utf-8")
         labels.mkdir(parents=True, exist_ok=True)
         # Fit and calibration labels are published too: the training principal needs them. Only the
@@ -152,7 +160,7 @@ def main(argv=None) -> int:
                     "partitions": publish("civil-m5", civil_parts, args.stage, args.labels)},
         },
         "limits": [
-            "T2c's confirmation is published at its full 60,000. The analysis lock fixes how many are read by the n(sigma-hat) rule, over the seeded order, before any label is touched; publishing 40,000 and expanding later would decide the population after seeing a sigma-hat.",
+            "T2c's confirmation is published at its full 60,000. The analysis lock fixes how many are read by the n(sigma-hat) rule over the seeded order, before any confirmation label has been SCORED against a prediction. This program does read labels, because holding them back is its job; the claim is about the order of the split being fixed independently of any outcome, not about labels being untouched.",
             "Only confirmation labels are withheld. Fit and calibration labels are staged, because the training principal needs them and withholding them would prevent the experiment rather than protect it.",
             "Deduplication is on exact normalized text and does not catch paraphrases.",
             "T2b is E1's partition. Its confirmation labels already sit with augctl and are not rewritten here.",
