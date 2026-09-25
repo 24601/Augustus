@@ -38,6 +38,8 @@ import unicodedata
 from pathlib import Path
 from statistics import NormalDist
 
+import m5_specs
+
 ALPHA = 0.05
 K_FAMILY = 6          # R1, R2a, R2b, A1, A2a, A2b
 MARGIN = 0.01         # never widened
@@ -120,8 +122,19 @@ def required_n(sd: float, margin: float, k: int, span: float, power: float = POW
     return lo
 
 
-def score_arm(actions: dict, truth: dict, labels: list[str], task: str, costs: dict) -> dict:
+def score_arm(actions: dict, truth: dict, labels: list[str], task: str, costs: dict,
+              aliases: dict | None = None) -> dict:
+    """Grade one arm. `aliases` maps a stored label value to the answer the spec names for it.
+
+    A label can be written two ways here: the spec's wording, and the value the corpus stores.
+    Both are the same answer, and both are declared in `m5_specs.ANSWER_SURFACE` rather than
+    inferred from an output, so accepting both is a relabelling and not a second matcher. An arm
+    that learned its vocabulary from fit examples writes `1`; one that read the spec writes
+    `toxic`; grading only one of those was the defect this argument repairs.
+    """
     lookup = {normalize(label): label for label in labels}
+    for stored, spoken in (aliases or {}).items():
+        lookup.setdefault(normalize(stored), spoken)
     per_row, invalid, abstained, correct = {}, 0, 0, 0
     for key, truth_label in truth.items():
         raw = actions.get(key)
@@ -154,8 +167,10 @@ def main(argv=None) -> int:
     for spec in args.label_file:
         task, _, filename = spec.partition("=")
         rows = json.loads((args.labels / filename).read_text(encoding="utf-8"))
-        truth_by_task[task] = {row["id"]: row["label"] for row in rows}
-        labels_by_task[task] = sorted({str(row["label"]) for row in rows})
+        # Rendered through the task's declared answer surface, so the vocabulary an arm is graded
+        # against is the one the spec told it to use. See m5_specs.ANSWER_SURFACE for why.
+        truth_by_task[task] = {row["id"]: m5_specs.surface(task, row["label"]) for row in rows}
+        labels_by_task[task] = sorted({m5_specs.surface(task, row["label"]) for row in rows})
 
     costs = {
         "T2a": {"misroute": 1.0, "abstain": 0.3, "abstain_label": "abstain"},
@@ -172,7 +187,17 @@ def main(argv=None) -> int:
                 collected.setdefault(payload["task"], {})[payload["arm"]] = payload["actions"]
             elif "actions" in payload:                              # m5_colab report
                 for key, actions in payload["actions"].items():
-                    task, _, arm = key.partition("|")
+                    task, bar, arm = key.partition("|")
+                    if not bar:
+                        # A run that keyed its actions by task alone. The arm is recoverable from
+                        # the program record beside it; binding every task under an empty arm name
+                        # would silently merge three tasks, so refuse instead of guessing.
+                        arm = (payload.get("programs", {}).get(key, {}).get("rung")
+                               or payload.get("arm"))
+                        if not arm:
+                            raise SystemExit(
+                                f"{file}: actions are keyed '{key}' with no arm, and no "
+                                f"programs['{key}']['rung'] or top-level 'arm' to recover it")
                     collected.setdefault(task, {})[arm] = actions
 
     report = {"experiment": "M5", "family_size": K_FAMILY, "margin": MARGIN, "span": SPAN,
@@ -182,9 +207,16 @@ def main(argv=None) -> int:
         labels = labels_by_task[task]
         if task in ("T2a", "T2b"):
             labels = labels + [costs[task]["abstain_label"]]
-        scored = {arm: score_arm(actions, truth, labels, task, costs[task])
+        aliases = m5_specs.ANSWER_SURFACE.get(task) or {}
+        scored = {arm: score_arm(actions, truth, labels, task, costs[task], aliases)
                   for arm, actions in sorted(arms.items())}
         block = {"labels": len(labels),
+                 "answer_surface": m5_specs.ANSWER_SURFACE.get(task) or None,
+                 **({"spec_mismatch": (
+                     "The spec tells an arm to answer with one of 150 in-scope intents or `out of "
+                     "scope`, and the stored labels are two values, so the task is binary. An arm "
+                     "that read the spec answered a different question from the one graded here, "
+                     "and its row is not a measure of the artifact form.")} if task == "T2b" else {}),
                  "arms": {arm: {k: v for k, v in value.items() if k != "per_row"}
                           for arm, value in scored.items()}}
         if COMPARATOR in scored:
@@ -213,6 +245,8 @@ def main(argv=None) -> int:
         "An output matching no label is invalid and costs the task's wrong-answer cost, fixed before any score was seen. It is not an abstention, because abstaining was a decision the arm could have made.",
         "Matching is exact then normalized — casefold, strip quotes and edge punctuation, collapse whitespace, treat underscore and space alike. No fuzzy or prefix matching, because each of those is a small model that would help exactly one arm.",
         "The invalid rate is reported for every arm on every task, zero or not.",
+        "Labels are rendered through the task's declared answer surface before matching, so an arm is graded against the vocabulary its spec named. The first grading lacked this and charged T2c's compiled program 60,000 invalid outputs out of 60,000 for emitting `toxic` and `not toxic` against stored labels of 1 and 0 — a defect in this harness, not in the arm. The pre-surface numbers are kept in the M5 receipt rather than discarded.",
+        "The surface is a declared bijection between a stored value and the spec's own wording, not a matcher. It cannot rescue an output the spec never offered, and it leaves every fit-based arm's score unchanged, which is the check that it is a relabelling and not a thumb on the scale.",
         "required_n is a normal/fixed-SD planning approximation; the empirical Bernstein interval is distribution-free and it decides.",
         "T2c's costs are normalized by the larger of the two, so paired differences keep the range of 2 the design lock fixes.",
     ]

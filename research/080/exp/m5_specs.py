@@ -53,4 +53,34 @@ SPECS = {
     },
 }
 
-SPEC_VERSION = "m5-specs-1"
+ANSWER_SURFACE = {
+    "T2a": {},
+    "T2c": {"0": "not toxic", "1": "toxic"},
+}
+"""How a stored label value is written as an answer, per task.
+
+This exists because M5's first grading found a defect that was mine, not any arm's. The T2c spec
+above tells every arm the options are `toxic` or `not toxic`. The stored confirmation labels are
+the integers 0 and 1. The scorer built its label set from the stored values, so the compiled
+program obeyed the spec exactly and was graded 60,000 invalid outputs out of 60,000 — a perfect
+score against the wrong vocabulary.
+
+The arms that learn from fit examples were immune, because they copy whatever surface the fit
+labels happen to use. The arms that read the spec were not. That asymmetry is a confound in the
+comparison the experiment exists to make, so the surface is declared here, once, and both the
+export and the scorer render through it. T2a is empty because its stored labels are already the
+77 intent names the spec names.
+
+T2b is deliberately absent. Its stored labels are two integers, which means the task is binary
+in-scope/out-of-scope as E1 built it, and not the 151-way routing the spec above describes. Which
+integer is out of scope is not recorded anywhere in this repository, and guessing would invert the
+task. It stays unmapped, and the scorer refuses T2b rather than assuming a polarity.
+"""
+
+
+def surface(task: str, value) -> str:
+    """The answer form of a stored label. Unmapped tasks keep the stored value."""
+    return ANSWER_SURFACE.get(task, {}).get(str(value), str(value))
+
+
+SPEC_VERSION = "m5-specs-2"
