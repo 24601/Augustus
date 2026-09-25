@@ -108,3 +108,28 @@ Colab is `E-ephemeral`: the session can vanish. §3.7's rule for that envelope i
 must be resumable and every artifact hashed on write. `m5_colab.py` already hashes each program
 before it runs, but a lost session mid-way through 60,000 T2c inputs loses the run. Either
 checkpoint per task, or accept re-running the task.
+
+## /mnt/tst carries no permissions, so it carries no custody
+
+Discovered while staging the export bundle for transfer: `/mnt/tst` on tabputer is **exfat**
+(`/dev/sda1`, `fmask=0022,dmask=0022`). It has no Unix owners and no permission bits. A file placed
+there reports owner root and mode 755 because that is the mount mask, not anything a `chmod` or
+`chown` set — both were attempted and `chown` returned `Operation not permitted` while `chmod`
+returned 0 and changed nothing.
+
+The practical consequence is a rule rather than a curiosity:
+
+**Nothing whose protection depends on file permissions may be written to `/mnt/tst`.** That
+includes every confirmation label file, every gold answer, and anything under `/srv/aug/ctl`. Those
+live on a filesystem that enforces modes, and `augexp` gets EACCES on them there. Copied to
+`/mnt/tst` they would be readable by any local user, silently, with a mode string that looks
+deliberate.
+
+What may go there is material whose protection does not depend on permissions at all — public
+benchmark text, hashes, manifests, receipts. The export bundle qualifies: it was checked twice for
+labels before it moved and carries only rows from CC-licensed corpora.
+
+This is also why the transfer to the Mac is a *copy of a checked artifact* rather than a share of
+the staging tree. `basit` is uid 1000 and in neither `augexp` nor `augctl`, so `/srv/aug/stage` and
+`/srv/aug/ctl` are unreadable to him over ssh — the boundary working as designed. The bundle
+crosses because it was built to cross, not because the boundary was relaxed.
