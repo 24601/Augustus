@@ -8696,7 +8696,7 @@
       "kind": "hf",
       "title": "tasksource/tasksource-jev-typed-decisions",
       "url": "https://huggingface.co/datasets/tasksource/tasksource-jev-typed-decisions",
-      "note": "sha 18332e529f10cde1e808966235d3932171d56e69. review 200. Archive-only. notes.md §172.",
+      "note": "sha 18332e529f10cde1e808966235d3932171d56e69. review 200. Archive-only. notes.md §172. 1510 densify §174: sha 64140435287238540b0d4e549be2f17202b87d0a; headline 2.5 million from 670 sources is theirs; §168 split counts were not in this opening.",
       "reviewed_at": "2026-09-25T15:40Z",
       "review": "archive/hourly/2026-09-25T15/fold_172.md"
     },
@@ -9160,7 +9160,7 @@
       "kind": "github",
       "title": "javaAndScriptDeveloper/jev-how-to",
       "url": "https://github.com/javaAndScriptDeveloper/jev-how-to",
-      "note": "HEAD 1d760bdc392634af9c39e14a70a50abb9c79160b. README 200. Archive-only. notes.md §173.",
+      "note": "HEAD 1d760bdc392634af9c39e14a70a50abb9c79160b. README 200. Archive-only. notes.md §173. 1510 densify §174: HEAD and README sha unchanged; description hash 4aab3c85c60f to 61d5cec67f38; local stub is not a measurement.",
       "reviewed_at": "2026-09-25T18:26Z",
       "review": "archive/hourly/2026-09-25T18/fold_173.md"
     },
@@ -9595,6 +9595,654 @@
       "note": "sha a8fbb6320fedb1b676256a6efe5ac75fdca7e37d. review 200. Archive-only. notes.md §173.",
       "reviewed_at": "2026-09-25T18:26Z",
       "review": "archive/hourly/2026-09-25T18/fold_173.md"
+    },
+    {
+      "kind": "github",
+      "title": "FluidInference/FluidUse",
+      "url": "https://github.com/FluidInference/FluidUse",
+      "note": "Densify §143. HEAD c0d2a570e8d1c7a5d5070876c92d682a88043f96 tag v0.3.0. README opening and release notes. Description hash unchanged. GLiNER2.5-Decide table is theirs. Not a new family. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "Nanako0129/stingray",
+      "url": "https://github.com/Nanako0129/stingray",
+      "note": "HEAD 3594d6320ee5e0f879a04acb9fb1edc0880d5ad7 tag v0.3.3. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "lostviolinist/crowdcut-jev-hedra",
+      "url": "https://github.com/lostviolinist/crowdcut-jev-hedra",
+      "note": "HEAD c5b2be3f44df88c6f96841cec69951483372f5f2. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "ArmanJR/Jev-Persian-Benchmark",
+      "url": "https://github.com/ArmanJR/Jev-Persian-Benchmark",
+      "note": "HEAD bfa82d2e7ff22f45ca7535a6b6b27892d7006440. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "gi-dellav/jevdo",
+      "url": "https://github.com/gi-dellav/jevdo",
+      "note": "HEAD 1ef504b700ab35e36acf679e801459fdd0fcdf12. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "Shanghua-Gao/RSI-Jev",
+      "url": "https://github.com/Shanghua-Gao/RSI-Jev",
+      "note": "HEAD 61a57053bbdcbb56632e88e1fd197fea2f92c52c tag v1.0. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "XYenon/ajevt-browser",
+      "url": "https://github.com/XYenon/ajevt-browser",
+      "note": "HEAD 2117150fdbf8aff3007a72c362ae6cac9d301bdd. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "tradertanmay/InvariantOne",
+      "url": "https://github.com/tradertanmay/InvariantOne",
+      "note": "HEAD e4faad40bab1ccc72092fbe356602049cd49ccee. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "47vigen/catherd",
+      "url": "https://github.com/47vigen/catherd",
+      "note": "HEAD 903bbbbcf7a5d7ad27acfd4429a7c7faf9b31f1e tag v0.2.1. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "AESMatias/Extracta",
+      "url": "https://github.com/AESMatias/Extracta",
+      "note": "HEAD 8903cccbd73978a9f851b1f36f59632655690599. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "Ayushmaniar/jev-voice-computer-use",
+      "url": "https://github.com/Ayushmaniar/jev-voice-computer-use",
+      "note": "HEAD 2adf625d8cfcbf221c1cb417fae63238d1802695 tag v1.0.0. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "Muhammad-Mirab/dungeonmaster",
+      "url": "https://github.com/Muhammad-Mirab/dungeonmaster",
+      "note": "HEAD d9dbe89bfcbfe50010726a1e2e34ad3e2e7a38c6. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "p4u/webscout",
+      "url": "https://github.com/p4u/webscout",
+      "note": "HEAD c19f1d39f4642c7607ddb54734d32d097545abec. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "sedthh/xjevboost",
+      "url": "https://github.com/sedthh/xjevboost",
+      "note": "HEAD d91797bf5d0b22d50b38e5a127eb212fef332803. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "0pilatos0/jev-browser-mcp",
+      "url": "https://github.com/0pilatos0/jev-browser-mcp",
+      "note": "HEAD a878db1b229874688a20ead4d92be691be46d556. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "0x7067/pi-jev",
+      "url": "https://github.com/0x7067/pi-jev",
+      "note": "HEAD 60b8de1e120d1f8ff75a90157c7f01a62c02ff8a. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "916099/jev-cttai-plugin",
+      "url": "https://github.com/916099/jev-cttai-plugin",
+      "note": "HEAD ddce4d21ff4388f18f3a5007e5b80db3c939f770 tag v0.1.3. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "BingelsWorth/JudgeJev",
+      "url": "https://github.com/BingelsWorth/JudgeJev",
+      "note": "HEAD 901d51dd68352833454d632fd60c21c4253b356d. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "Charanraj-24/laya-reliability-",
+      "url": "https://github.com/Charanraj-24/laya-reliability-",
+      "note": "HEAD 867c40afc81344c4714cd3ec0c5ad642c3e03e9c. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "DavidArmendariz/jev-bullish-bearish",
+      "url": "https://github.com/DavidArmendariz/jev-bullish-bearish",
+      "note": "Empty repository. Commit HTTP 409. README 404. No SHA invented. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "IluvatarLabs/kev",
+      "url": "https://github.com/IluvatarLabs/kev",
+      "note": "HEAD 45dc25edee1e3e22bfa4beea4185fe2927e0bb86 tag v0.1.0. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "Jumbo-Juice/local-system-one",
+      "url": "https://github.com/Jumbo-Juice/local-system-one",
+      "note": "HEAD a1edd928a8687f497839a74c181a73446984b879. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "King4s/jev-game-engine",
+      "url": "https://github.com/King4s/jev-game-engine",
+      "note": "HEAD dd26f1fa680e5a200f0660df0bbb2215001f9f9e. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "M47HIS/custom-voice-activator",
+      "url": "https://github.com/M47HIS/custom-voice-activator",
+      "note": "HEAD 37a059c03e8104a02e044c9643eafa12b686e50e. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "Matresaa18/djev-spark",
+      "url": "https://github.com/Matresaa18/djev-spark",
+      "note": "HEAD 7f3c7e130bb7dc743616403df76e342e1004956f. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "Monstrofil/kev-ner",
+      "url": "https://github.com/Monstrofil/kev-ner",
+      "note": "HEAD 1871e37df1f4224a267588a4d1e2487138efefa4. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "NikMibu/enzyme-function-benchmarks",
+      "url": "https://github.com/NikMibu/enzyme-function-benchmarks",
+      "note": "HEAD efc437e8203d9f11c82881d8a9a22ee60f7d25fd. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "PatterCJ/risk-indexer",
+      "url": "https://github.com/PatterCJ/risk-indexer",
+      "note": "HEAD ce02e15fce8087688407dc91d9e431ecd46a3ef0. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "PixelKit-Labs/pixelkit-laya",
+      "url": "https://github.com/PixelKit-Labs/pixelkit-laya",
+      "note": "HEAD 4bc8fa3c50af68b61685ba8de5110b3db66b02e3. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "Razeefshaik/JevEval",
+      "url": "https://github.com/Razeefshaik/JevEval",
+      "note": "HEAD 87e0fca64ea65991fd6e1f5407c7566f4715f909. README 404. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "RodolfoBonis/jev-vs-laya-dino",
+      "url": "https://github.com/RodolfoBonis/jev-vs-laya-dino",
+      "note": "HEAD 99072b567662d21a66bc834a5d0731793dc6a1f4. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "RodrigoAlbe/system-one",
+      "url": "https://github.com/RodrigoAlbe/system-one",
+      "note": "HEAD 3496e6153e5d6c8f62f5ad619cbf8d946f1685b5. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "Rohan0603/jev-tic-tac-toe",
+      "url": "https://github.com/Rohan0603/jev-tic-tac-toe",
+      "note": "HEAD 0bf002c2488729bf61cc6549bef320af534b6f8d. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "Tech-Byte-Frontier/jevgate-action",
+      "url": "https://github.com/Tech-Byte-Frontier/jevgate-action",
+      "note": "HEAD 43277b8fe0408bc89d905e378c6409659aa50abe tag v1.0.1. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "TheClosedLoopCompany/connect-4-ai",
+      "url": "https://github.com/TheClosedLoopCompany/connect-4-ai",
+      "note": "HEAD e9b67aeee7deded26fafb4d3f78109ed82b66f85. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "aalekhpatel07/chess-system-one",
+      "url": "https://github.com/aalekhpatel07/chess-system-one",
+      "note": "HEAD 232397da4f3f0f6fa16e55a4a1573be0038eb71b. README 404. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "aliasfoxkde/OpenCodifier",
+      "url": "https://github.com/aliasfoxkde/OpenCodifier",
+      "note": "HEAD 4ab024ca5127dc5b6fa4592245a7fbdbd1fdba14 tag v0.1.0. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "ayushap18/tracegraph",
+      "url": "https://github.com/ayushap18/tracegraph",
+      "note": "HEAD a4c91c6c3b60142a122d1594e46fcc6cdfee5caf. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "coltonspears/JevClassifier",
+      "url": "https://github.com/coltonspears/JevClassifier",
+      "note": "HEAD 8c7332a19a114a3336f5bc2deb6ef46457206d95. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "deepansh-saxena/jev-voice-guardrail",
+      "url": "https://github.com/deepansh-saxena/jev-voice-guardrail",
+      "note": "HEAD a1d8b88fc20af6db26885886d0bdaa6f0f8ed64d. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "dmakam/jev-search-intent-classifier",
+      "url": "https://github.com/dmakam/jev-search-intent-classifier",
+      "note": "HEAD 868f9648703ac9de0620baefa72049e7242cd95f. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "foxl-ai/bobcat",
+      "url": "https://github.com/foxl-ai/bobcat",
+      "note": "HEAD 6179783a0ba35595774597b31869fed3ad72da8f. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "gabazureus/jev-ragcheck",
+      "url": "https://github.com/gabazureus/jev-ragcheck",
+      "note": "HEAD b3485f14037998108bb626aff4eef1006c9f4918 tag v0.1.0. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "geninchristophe888-spec/skillbox",
+      "url": "https://github.com/geninchristophe888-spec/skillbox",
+      "note": "HEAD 9a015d21ea01551420b02a0ca0cabb5aa01137b3. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "giovannirco/jev-playground",
+      "url": "https://github.com/giovannirco/jev-playground",
+      "note": "HEAD 9fa543900b827965abc735d76f5ad1e7ce3c7357. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "gongiskhan/jevellan",
+      "url": "https://github.com/gongiskhan/jevellan",
+      "note": "HEAD 6b908a2ba047779ae8f0bcdcd890cd249a52658a. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "guillaumeduranton-lab/lemonde-mcp",
+      "url": "https://github.com/guillaumeduranton-lab/lemonde-mcp",
+      "note": "HEAD 5e6c3954b8f4d8c72f4dfe85ac34a5d62b1abab2. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "guillermojmontenegro-hub/LayaTUI-MCP",
+      "url": "https://github.com/guillermojmontenegro-hub/LayaTUI-MCP",
+      "note": "HEAD af5c74a9b9ecd41d69d343c568e30197460bb279. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "hf",
+      "title": "DKNTZMN/gan8-vs-jev",
+      "url": "https://huggingface.co/spaces/DKNTZMN/gan8-vs-jev",
+      "note": "Space sha unchanged d93f0800428ea1414de2f6061870203e617db89c. Tags static, region:us. Model sibling sha 858902d852eabf1ab57a896ae2b9ef87d7d8210a. Card opening. Not hosted jev-latest. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "hf",
+      "title": "Emerald7664/laya-multilingual-onnx",
+      "url": "https://huggingface.co/Emerald7664/laya-multilingual-onnx",
+      "note": "sha b9c10748a5e89eda700e2b9de1fb349c391ae683. review 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "hf",
+      "title": "FluidInference/lfm2-5-350m-rlcd-coreml",
+      "url": "https://huggingface.co/FluidInference/lfm2-5-350m-rlcd-coreml",
+      "note": "sha 5a3a9ca0b7157541c99d2394f12c5b51dbe4a484. review 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "hf",
+      "title": "MidhunKanadan/logic-jevam",
+      "url": "https://huggingface.co/datasets/MidhunKanadan/logic-jevam",
+      "note": "sha 7f4c37cf4e50b50a65b2bf4d038e26c0ecabde29. review 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "hf",
+      "title": "RodrigoBrasil2024/laya-concessionaria-pt",
+      "url": "https://huggingface.co/RodrigoBrasil2024/laya-concessionaria-pt",
+      "note": "sha 46799212442667719c57e1754630665f5057fd18. review 404. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "hf",
+      "title": "VishalMysore/laya-moe-web",
+      "url": "https://huggingface.co/VishalMysore/laya-moe-web",
+      "note": "sha 7526a63996ab69c2c2ac8c1511d75d04c61241b4. review 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "hf",
+      "title": "VishalMysore/layaMOE",
+      "url": "https://huggingface.co/VishalMysore/layaMOE",
+      "note": "sha 0e28c987cbe62b1da0b2cddc77f93a072eeab318. review 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "hf",
+      "title": "badbat4560/gliclass-multilang-ultra-fp8w8a8",
+      "url": "https://huggingface.co/badbat4560/gliclass-multilang-ultra-fp8w8a8",
+      "note": "sha 2dbd39adc8261eb474436729f8c5c03cb8b0b3c7. review 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "hf",
+      "title": "iapp/OpenThai-SystemOne-MLX-4bit",
+      "url": "https://huggingface.co/iapp/OpenThai-SystemOne-MLX-4bit",
+      "note": "sha ffb594c0e33fb478b7d6e11678137d2cec53175b. review 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "hf",
+      "title": "iapp/OpenThai-SystemOne-MLX-8bit",
+      "url": "https://huggingface.co/iapp/OpenThai-SystemOne-MLX-8bit",
+      "note": "sha 98703d81944580efde6862bf9083cedbcb7cb1f1. review 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "hf",
+      "title": "iapp/OpenThai-SystemOne-MLX-bf16",
+      "url": "https://huggingface.co/iapp/OpenThai-SystemOne-MLX-bf16",
+      "note": "sha 1154ed3c0f809aad10c1675661da7b46dcb8ae26. review 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "hf",
+      "title": "iapp/OpenThai-SystemOne-MLX-mxfp4",
+      "url": "https://huggingface.co/iapp/OpenThai-SystemOne-MLX-mxfp4",
+      "note": "sha 0ce1d33f63f70e8ed5b9441443f11f0a7da6deba. review 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "hf",
+      "title": "iapp/OpenThai-SystemOne-MLX-nvfp4",
+      "url": "https://huggingface.co/iapp/OpenThai-SystemOne-MLX-nvfp4",
+      "note": "sha 663a941b1bde84816f158e9dd22d98f919c55c7f. review 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "hf",
+      "title": "ryandcunha/mmbu-jev-qwen3-0.6b-freetext",
+      "url": "https://huggingface.co/ryandcunha/mmbu-jev-qwen3-0.6b-freetext",
+      "note": "sha 1e708c30802f351de031a6bd0062646ce596c79e. review 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "jasonduncan/semantic-operators",
+      "url": "https://github.com/jasonduncan/semantic-operators",
+      "note": "HEAD e3e79adc9cf8615da8dbfdbc088ade5b4bbeab88 tag v0.11.0. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "jerryshao2012/laya-mlx-demo",
+      "url": "https://github.com/jerryshao2012/laya-mlx-demo",
+      "note": "HEAD 6be67a791738c17d58417fd5f678fa51e8099879. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "left-try/jev-governor",
+      "url": "https://github.com/left-try/jev-governor",
+      "note": "HEAD f6278f7d8409474eecc7382a9922735375612a24. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "matejgordon/ha-jev-conversation",
+      "url": "https://github.com/matejgordon/ha-jev-conversation",
+      "note": "HEAD f37b7ef07782978cf63424aeeb50c2925ddcf711 tag v0.1.2. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "musubipapi/computah",
+      "url": "https://github.com/musubipapi/computah",
+      "note": "HEAD 80870742432d282da100e7cf4dd4b42152c1e257. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "nautahakk/aphasia-word-finder",
+      "url": "https://github.com/nautahakk/aphasia-word-finder",
+      "note": "HEAD f4e82bb3ff5fe5aa934ea02d3ee95424db190224. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "prove-ai/jev-orchestration",
+      "url": "https://github.com/prove-ai/jev-orchestration",
+      "note": "HEAD 41e9fdc8d3eea752956127543dcac3df2aacfbe1. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "ps1x/LayaAssitant",
+      "url": "https://github.com/ps1x/LayaAssitant",
+      "note": "HEAD 7bbc01ad6019d33218d547238dd8df29c99ea5fe. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "ratheesh-aot/laya-local-http-server",
+      "url": "https://github.com/ratheesh-aot/laya-local-http-server",
+      "note": "HEAD a5866329183d87323a1092e1181db6663e415413. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "saahmadnejad/cline-option-scorer",
+      "url": "https://github.com/saahmadnejad/cline-option-scorer",
+      "note": "HEAD 18352c5256c4043bc3bb7baaaa9869d56007aea5 tag v0.3.0. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "sandracam64/jev-bot",
+      "url": "https://github.com/sandracam64/jev-bot",
+      "note": "HEAD d3b3c80b4fdc1f7b74df34349c4701a4d05f37bf. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "theMTset/pi-capability-assessment-skill",
+      "url": "https://github.com/theMTset/pi-capability-assessment-skill",
+      "note": "HEAD e2c8502c7e6ded9b2afb76a901af951757c2321a. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "thomasjjj/system_one_classifications_human_rights",
+      "url": "https://github.com/thomasjjj/system_one_classifications_human_rights",
+      "note": "HEAD 27c58e35467a1c3c7ae70f60f43d6f4a3de2d4ce. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "tx-smitht/jev-focus-guard",
+      "url": "https://github.com/tx-smitht/jev-focus-guard",
+      "note": "HEAD 449f01e322da6e767bfd550fd90b29a2bb020172. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "umithavare/unwedge",
+      "url": "https://github.com/umithavare/unwedge",
+      "note": "HEAD 534b0c67ee51f04a90002a2605413692444cda2b. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "vishalmysore/layaMOE",
+      "url": "https://github.com/vishalmysore/layaMOE",
+      "note": "HEAD 2fccbfe452f737f2e286f6648ddb08bb35ab2b33. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "wn-mitch/audle",
+      "url": "https://github.com/wn-mitch/audle",
+      "note": "HEAD aa2a94b6b1e11f85e738adb878f4796a2399a48c. README 404. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "github",
+      "title": "wuwenbo0626/AutoJev",
+      "url": "https://github.com/wuwenbo0626/AutoJev",
+      "note": "HEAD 55f7358284dbb8ac23f4ef8331f8ae6b407026ec. README 200. Archive-only. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
+    },
+    {
+      "kind": "hf",
+      "title": "NAME0x0/Jevlet",
+      "url": "https://huggingface.co/NAME0x0/Jevlet",
+      "note": "sha c59f2057ed44. Card opening. GitHub NAME0x0/Jevlet stays the §172 repo card at 9d62c46989e9. Calibrated is their banner. Not a replica. notes.md §174.",
+      "reviewed_at": "2026-09-25T21:29Z",
+      "review": "archive/hourly/2026-09-25T21/fold_174.md"
     }
   ]
 }

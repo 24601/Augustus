@@ -1,3 +1,16 @@
+## Hourly 1510 HIGH (notes.md §174)
+
+- Folded onto `main` `dba551b64e70742dfe545625c36e2f5e638f97a9`. About
+  three hours after hourly 1210 (§173). This fold is §174 only.
+  Research-only. Does not bump the package. Scoring rows stay at 17.
+  `invented_signal: false`. No X calls.
+- FluidUse v0.3.0 adds a GLiNER2.5-Decide Core ML port. The 89.0% line is
+  agreement with their PyTorch slice. *Theirs.* Not Harbor. Not a new
+  family. The form specialist stays §143. No scoring row.
+- The Persian authored table and the enzyme homology comparison stay
+  separate instruments. A confidence of 0.90 is not correctness. Qwen and
+  Gemma names in this hour are not Archer.
+
 ## Hourly 0918 HIGH (notes.md §172)
 
 - Folded onto `main` `e3e712b6054f4ab558aa939ff5b2efb4bfbd2787`. About
