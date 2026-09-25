@@ -269,12 +269,29 @@ def run_arm(arm: str, task: str, block: dict, torch, transformers, device: str, 
     elif arm == "R3a":
         from setfit import SetFitModel, Trainer, TrainingArguments
         from datasets import Dataset
+        # SetFit's default `sampling_strategy="oversampling"` with `max_steps=-1` materializes the
+        # whole balanced pair matrix: 2,000 rows became 3,943,938 pairs and projected 7.6 hours for
+        # ONE task. That is the documented v1 default, not a missed argument — and it is a default
+        # written for the few-shot regime SetFit was built for, where a handful of examples per
+        # class makes the matrix small.
+        #
+        # `max_steps` is the documented control for exactly this case, and SetFit's own quickstart
+        # says so: "with SetFit, better performance is reached with more data, not more training!
+        # Don't be afraid to train for less than 1 epoch if you have a lot of data." Its
+        # distillation guide uses `max_steps=500` at batch 16, which is 8,000 pairs. The budget
+        # below is 128,000 pairs, sixteen times that and more than the paper scripts' few-shot
+        # recipe of 80,000, so the comparator is given more contrastive training than either
+        # published configuration rather than less.
         model = SetFitModel.from_pretrained(SETFIT_BODY)
         trainer = Trainer(
             model=model,
-            args=TrainingArguments(batch_size=args.batch_size, num_epochs=1, seed=SEED),
+            args=TrainingArguments(batch_size=args.batch_size, max_steps=args.setfit_max_steps,
+                                   sampling_strategy="oversampling", seed=SEED),
             train_dataset=Dataset.from_dict({"text": [r["text"] for r in fit_rows],
                                              "label": [index[str(r["label"])] for r in fit_rows]}))
+        detail["setfit_max_steps"] = args.setfit_max_steps
+        detail["setfit_pair_budget"] = args.setfit_max_steps * args.batch_size
+        detail["setfit_sampling_strategy"] = "oversampling"
         trainer.train()
         predictions = model.predict([r["text"] for r in inputs])
         actions = [labels[int(p)] for p in predictions]
@@ -303,6 +320,10 @@ def main(argv=None) -> int:
     parser.add_argument("--batch-size", type=int, default=64)
     parser.add_argument("--readout-batch-size", type=int, default=16)
     parser.add_argument("--max-length", type=int, default=256)
+    parser.add_argument("--setfit-max-steps", type=int, default=2000,
+                        help="the comparator's contrastive step budget. SetFit's default of -1 "
+                             "materializes the whole pair matrix, which is a few-shot default: "
+                             "2,000 rows become 3.9M pairs and 7.6 hours per task")
     args = parser.parse_args(argv)
 
     digest = hashlib.sha256(args.bundle.read_bytes()).hexdigest()
