@@ -38,6 +38,20 @@ from pathlib import Path
 
 RUNGS = ("A2a", "A2b")
 
+# The compiler's interface, read from programasweights/compiler source rather than guessed.
+COMPILER_REPO = "https://github.com/programasweights/compiler"
+COMPILER_CHECKPOINTS = {
+    "standard": {"compiler": "programasweights/paw-4b-qwen3-0.6b", "revision": "20260407",
+                 "interpreter": "Qwen/Qwen3-0.6B", "runtime_id": "qwen3-0.6b-q6_k"},
+}
+REFERENCE_MODEL = ("Qwen/Qwen3-4B-Instruct-2507", "cdbee75f17c01a7cc42f958dc650907174af0554")
+# `compile.py` takes ONE spec string and has no examples argument: the reference model invents its
+# own 3-6 pairs, and anything we want it to see must be inside that string. The prompt budget is
+# 5,120 tokens, so a PAW program sees a handful of examples where R2a fits on thousands. That
+# asymmetry is a property of the artifact form, not a shortcut taken here, and the count used is
+# recorded so the comparison is read with it in view.
+SPEC_EXAMPLE_COUNT = 24
+
 
 def sha256_of(path: Path) -> str:
     digest = hashlib.sha256()
@@ -81,26 +95,71 @@ def render_spec(task: str, spec: dict) -> str:
             f"Guidance: {spec['guidance']}\n")
 
 
-def compile_program(rung: str, task: str, spec_text: str, examples: list[dict], workdir: Path):
-    """Compile one program. Isolated because it is the only part that is untested here.
+def spec_with_examples(spec_text: str, examples: list[dict]) -> str:
+    """The spec string the compiler actually receives.
 
-    A2a is PAW-standard: compile the spec and examples with the local single-GPU compiler.
-    A2b is PAW-ft: an initial local compile, then teacher-generated examples and a fine-tune of the
-    0.6B interpreter. The recipe's step 1 posts the spec to the hosted compiler by default; the
-    design lock says A2b uses a LOCAL initial compile, so that default must be overridden and the
-    override recorded. If it cannot be overridden, stop and report it rather than posting.
+    `compile.py` has no examples argument. Its reference model is prompted to invent its own 3-6
+    input/output pairs and is told not to copy verbatim any that the spec contains. So examples
+    reach the compiler only by being written into the spec, and only a few of them fit inside the
+    5,120-token prompt budget. This is the honest shape of the A2 rungs and it is why their
+    comparison against R2a is a comparison between artifact forms rather than between training
+    sets.
     """
-    raise NotImplementedError(
-        f"{rung} compilation is not implemented against the real compiler interface. "
-        "Clone github.com/programasweights/compiler, read its entry point, and fill this in; "
-        "report the interface you found so the file can be corrected rather than patched locally.")
+    lines = [spec_text, "", f"Worked examples ({len(examples)}), input then answer:"]
+    for example in examples:
+        text = " ".join(str(example["text"]).split())[:300]
+        lines.append(f"- {text} -> {example['label']}")
+    return "\n".join(lines)
+
+
+def compile_program(rung: str, task: str, spec_text: str, examples: list[dict], workdir: Path):
+    """Compile one program with the LOCAL single-GPU compiler. Returns the .paw path.
+
+    `compile.py` never posts the spec: its only network traffic is a Hugging Face snapshot
+    download of the reference model, the compiler checkpoint and the interpreter tokenizer. That
+    is what makes A2a's local compile the one the design lock asks for.
+
+    A2b is a different repository whose step 1 posts the spec to the hosted compiler by default.
+    The design lock requires a local initial compile, so A2b is not implemented here rather than
+    implemented with the default it forbids.
+    """
+    if rung != "A2a":
+        raise NotImplementedError(
+            "A2b is the compile-by-training recipe, whose first step posts the spec to the hosted "
+            "compiler unless overridden, and which needs about 38 GiB. It is deliberately not "
+            "implemented here; running it with the hosted default would violate the design lock.")
+
+    checkout = workdir / "compiler"
+    if not (checkout / "compile.py").exists():
+        raise SystemExit(f"clone {COMPILER_REPO} to {checkout} before compiling")
+
+    spec_file = workdir / f"{task}-{rung}.spec.txt"
+    spec_file.write_text(spec_with_examples(spec_text, examples[:SPEC_EXAMPLE_COUNT]),
+                         encoding="utf-8")
+    output = workdir / f"{task}-{rung}.paw"
+    result = subprocess.run(
+        [sys.executable, "compile.py", "--spec-file", str(spec_file),
+         "--compiler", "standard", "--output", str(output)],
+        cwd=checkout, capture_output=True, text=True)
+    if result.returncode != 0:
+        raise SystemExit(f"{task} {rung}: compile.py exited {result.returncode}\n"
+                         f"{result.stdout[-2000:]}\n{result.stderr[-2000:]}")
+    if not output.exists():
+        raise SystemExit(f"{task} {rung}: compile.py reported success but wrote no {output}")
+    return output
 
 
 def run_program(program, inputs: list[dict]) -> dict:
-    """One action per confirmation id. Also isolated, and also untested."""
-    raise NotImplementedError(
-        "inference is not implemented against the real runtime. The SDK's local path is llama.cpp "
-        "over GGUF-LoRA; record the call you used.")
+    """One action per confirmation id, through the SDK's local llama.cpp path.
+
+    `offline=True` forbids all network, including the shared base-GGUF download, so the base must
+    already be cached. That is deliberate: a run that could reach the network could also reach the
+    hosted interpreter, and this side is supposed to be unable to do anything but predict.
+    """
+    import programasweights as paw
+
+    function = paw.function(str(program), offline=True)
+    return {row["id"]: function(row["text"]).strip() for row in inputs}
 
 
 def dry_run_program(rung: str, task: str, spec_text: str, examples: list[dict]):
