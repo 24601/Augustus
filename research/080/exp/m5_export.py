@@ -46,15 +46,50 @@ def load(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def resolve(stage: Path, prefix: str) -> tuple[Path, Path]:
+    """The fit and confirmation directories, across the two layouts that actually exist on disk.
+
+    M5's own partitioner writes `<prefix>-confirmation` with labels in a sibling `labels.json`.
+    E1's, whose CLINC split the design lock says T2b must reuse unchanged, writes
+    `<prefix>-confirmation-inputs` and carries fit labels INLINE in each row. Supporting both is
+    not a convenience: re-splitting CLINC to fit this program's preferred shape would create a
+    second population with the same name, which the lock forbids and the partitioner refuses.
+
+    Anything that is neither layout raises rather than being guessed at.
+    """
+    fit = stage / f"{prefix}-fit"
+    if not (fit / "rows.json").exists():
+        raise SystemExit(f"no fit rows at {fit}")
+    for candidate in (f"{prefix}-confirmation", f"{prefix}-confirmation-inputs"):
+        confirmation = stage / candidate
+        if (confirmation / "rows.json").exists():
+            return fit, confirmation
+    raise SystemExit(f"no confirmation rows for {prefix}: tried {prefix}-confirmation and "
+                     f"{prefix}-confirmation-inputs")
+
+
+def fit_examples(fit: Path) -> list[dict]:
+    """Labels from a sibling file, or inline on the row. Refuse if neither, never invent one."""
+    rows = load(fit / "rows.json")[:FIT_EXAMPLE_CAP]
+    sidecar = fit / "labels.json"
+    if sidecar.exists():
+        labels = {row["id"]: row["label"] for row in load(sidecar)}
+        missing = [row["id"] for row in rows if row["id"] not in labels]
+        if missing:
+            raise SystemExit(f"{fit.name}: {len(missing)} fit rows have no label in labels.json")
+        return [{"id": row["id"], "text": row["text"], "label": labels[row["id"]]}
+                for row in rows]
+    if all("label" in row for row in rows):
+        return [{"id": row["id"], "text": row["text"], "label": row["label"]} for row in rows]
+    raise SystemExit(f"{fit.name}: no labels.json and not every row carries a label inline")
+
+
 def collect(stage: Path, task: str, prefix: str) -> dict:
     """Fit examples with labels, and confirmation inputs without them."""
-    fit_inputs = load(stage / f"{prefix}-fit" / "rows.json")
-    fit_labels = {row["id"]: row["label"]
-                  for row in load(stage / f"{prefix}-fit" / "labels.json")}
-    examples = [{"id": row["id"], "text": row["text"], "label": fit_labels[row["id"]]}
-                for row in fit_inputs[:FIT_EXAMPLE_CAP]]
+    fit, confirmation_dir = resolve(stage, prefix)
+    examples = fit_examples(fit)
 
-    confirmation = load(stage / f"{prefix}-confirmation" / "rows.json")
+    confirmation = load(confirmation_dir / "rows.json")
     leaked = [row for row in confirmation if "label" in row]
     if leaked:
         raise SystemExit(f"{task}: {len(leaked)} confirmation rows carry a label; refusing to "
@@ -64,6 +99,8 @@ def collect(stage: Path, task: str, prefix: str) -> dict:
     return {
         "task": task,
         "spec": m5_specs.SPECS[task],
+        "layout": {"fit": fit.name, "confirmation": confirmation_dir.name,
+                   "fit_labels": "labels.json" if (fit / "labels.json").exists() else "inline"},
         "fit_examples": examples,
         "fit_examples_digest": digest(examples),
         "confirmation_inputs": inputs,
