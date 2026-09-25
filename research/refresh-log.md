@@ -1,3 +1,18 @@
+## 2026-09-25 ~21:29 UTC / ~15:10 Boise - Hourly 1510 HIGH
+
+- User-requested fold onto `main` `dba551b64e70742dfe545625c36e2f5e638f97a9`.
+  notes.md §174. Packet of 83 design items and 24 research-only rows
+  archived at `research/archive/hourly/2026-09-25T21/`.
+- Research-only. No skill, human README, Pages, or version change.
+  Scoring rows stay at 17. Archer stays promised_not_landed.
+- Live GitHub and Hugging Face reads on 2026-09-25T21:29Z.
+  README or card openings for the sources named in §174. FluidUse v0.3.0
+  release notes were read. One GitHub repository was empty. Three READMEs
+  returned 404. One Hub README returned 404. No benches rerun.
+  No X calls. Third-party figures stay *theirs*.
+- A public table is not Harbor. A Core ML port is not a new family.
+  A description rewrite is not a new row count. The act stays in policy.
+
 ## 2026-09-25 ~18:26 UTC / ~12:12 Boise - Hourly 1210 HIGH
 
 - User-requested fold onto `main` `cf1d932fd2d31e58fba0b1dda2884c26db3e85c2`.
