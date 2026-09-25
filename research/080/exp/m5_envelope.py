@@ -117,7 +117,14 @@ def accelerator() -> dict:
 
 
 def registered_readout(weights: dict) -> dict | None:
-    """The design lock registers Qwen3.5-2B-Base. Decide by the config, not by the folder name."""
+    """The design lock registers Qwen3.5-2B-Base. Match on the name the tree carries.
+
+    Identification is by NAME, from `_name_or_path` or failing that the directory, and that is a
+    real limitation rather than a hidden one: a correctly staged Qwen3.5-2B-Base whose config
+    leaves `_name_or_path` null and whose directory is called something else would be refused. No
+    field in a config distinguishes a 2B base from another 2B decoder reliably, so the honest
+    move is to match on the name and say so where the refusal is reported.
+    """
     for entry in weights.get("qwen", []):
         name = (entry.get("name_or_path") or entry["path"]).lower()
         if "qwen3.5" in name and "2b" in name:
@@ -210,6 +217,7 @@ def main(argv=None) -> int:
             "This answers for the environment it ran in. M5 fits inside the pinned container, so a host probe describes the host: torch and transformers absent there says nothing about the image, and the envelope label will understate the machine.",
             "Reachability is about fitting, not about whether a rung would pass the gate.",
             "A missing python module or staged tree is an acquisition, not a result. Nothing here says a rung is bad.",
+            "The readout is identified by name, from _name_or_path or the directory. A correctly staged tree carrying neither would be refused; no config field distinguishes one 2B decoder from another reliably.",
             "The comparator R3a is not a family member, but the family's outcome rows are all defined against it, so an unreachable comparator makes every row unreadable rather than just one.",
         ],
     }
