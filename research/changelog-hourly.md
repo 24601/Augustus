@@ -1,3 +1,16 @@
+## Hourly 0918 HIGH (notes.md §172)
+
+- Folded onto `main` `e3e712b6054f4ab558aa939ff5b2efb4bfbd2787`. About
+  eighteen hours after hourly 1510 (§171). This fold is §172 only.
+  Research-only. Does not bump the package. Scoring rows stay at 17.
+  `invented_signal: false`. No X calls.
+- mode-io/vllm-jev is Egbertjing/vllm-jev, same node. A vLLM server is not
+  a new family. JevEmbed is an embedding readout already inside the class.
+  lev's Qwen3.5 LoRA is not Archer. No scoring row.
+- Laya's public SST-2 `noul` and `choice` rows are different questions.
+  *Theirs.* Not Harbor. A 1,442 catalog count and a 359 scrape are both
+  theirs. MorrowCache keeps the jevcache npm name.
+
 ## Hourly 1510 HIGH (notes.md §171)
 
 - Folded onto `main` `adc7369ed78b6f71e0cc7d4d8625a8efa1127c60`. About three
