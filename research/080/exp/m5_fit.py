@@ -282,15 +282,23 @@ def run_arm(arm: str, task: str, block: dict, torch, transformers, device: str, 
         # below is 128,000 pairs, sixteen times that and more than the paper scripts' few-shot
         # recipe of 80,000, so the comparator is given more contrastive training than either
         # published configuration rather than less.
+        # The budget is a PAIR COUNT, and the batch size is a memory decision. Coupling them, as
+        # an earlier version did by writing the budget as max_steps x batch_size, meant that making
+        # the run fit a card would silently change how much contrastive training the comparator
+        # got. T2c's comments are longer than T2a's and T2b's queries, so MPNet at batch 64 fits
+        # 22 GiB for two tasks and not the third; the batch moves, the budget does not.
+        batch = args.setfit_batch_size or args.batch_size
+        steps = max(1, args.setfit_pair_budget // batch)
         model = SetFitModel.from_pretrained(SETFIT_BODY)
         trainer = Trainer(
             model=model,
-            args=TrainingArguments(batch_size=args.batch_size, max_steps=args.setfit_max_steps,
+            args=TrainingArguments(batch_size=batch, max_steps=steps,
                                    sampling_strategy="oversampling", seed=SEED),
             train_dataset=Dataset.from_dict({"text": [r["text"] for r in fit_rows],
                                              "label": [index[str(r["label"])] for r in fit_rows]}))
-        detail["setfit_max_steps"] = args.setfit_max_steps
-        detail["setfit_pair_budget"] = args.setfit_max_steps * args.batch_size
+        detail["setfit_pair_budget"] = args.setfit_pair_budget
+        detail["setfit_batch_size"] = batch
+        detail["setfit_max_steps"] = steps
         detail["setfit_sampling_strategy"] = "oversampling"
         trainer.train()
         predictions = model.predict([r["text"] for r in inputs])
@@ -320,10 +328,14 @@ def main(argv=None) -> int:
     parser.add_argument("--batch-size", type=int, default=64)
     parser.add_argument("--readout-batch-size", type=int, default=16)
     parser.add_argument("--max-length", type=int, default=256)
-    parser.add_argument("--setfit-max-steps", type=int, default=2000,
-                        help="the comparator's contrastive step budget. SetFit's default of -1 "
-                             "materializes the whole pair matrix, which is a few-shot default: "
-                             "2,000 rows become 3.9M pairs and 7.6 hours per task")
+    parser.add_argument("--setfit-pair-budget", type=int, default=128_000,
+                        help="the comparator's contrastive budget IN PAIRS, held constant across "
+                             "tasks and batch sizes. SetFit's default of max_steps=-1 materializes "
+                             "the whole pair matrix, which is a few-shot default: 2,000 rows "
+                             "become 3.9M pairs and 7.6 hours per task")
+    parser.add_argument("--setfit-batch-size", type=int,
+                        help="memory decision only; steps are derived so the pair budget is "
+                             "unchanged. Longer texts need a smaller batch on the same card")
     args = parser.parse_args(argv)
 
     digest = hashlib.sha256(args.bundle.read_bytes()).hexdigest()
