@@ -27,16 +27,17 @@ SPECS = {
             "decisions — and the distinction is what the message asks for, not what it mentions."),
     },
     "T2b": {
-        "task": "CLINC150 route-or-abstain with an out-of-scope class",
+        "task": "CLINC150 out-of-scope detection",
         "unit": "one customer query",
-        "decision": "Route a query to an in-scope intent, or declare it out of scope.",
-        "options": "one of the 150 in-scope intents, or `out of scope`",
-        "cost": {"misroute": 1.0, "abstain": 0.3, "correct": 0.0},
+        "decision": "Decide whether a query is one the assistant serves, or is out of scope.",
+        "options": "`in scope` or `out of scope`, or `abstain`",
+        "cost": {"wrong": 1.0, "abstain": 0.3, "correct": 0.0},
         "guidance": (
             "Out of scope is a real answer, not a fallback for uncertainty: a query about a topic "
-            "the assistant does not serve is out of scope even when it is perfectly clear. A query "
-            "that is in scope but ambiguous between two intents is a different case, and abstaining "
-            "there costs 0.3 rather than 1.0."),
+            "the assistant does not serve is out of scope even when it is perfectly clear. "
+            "Abstaining is the separate answer for a query you cannot place at all, and it costs "
+            "0.3 rather than 1.0. Most queries are in scope; the out-of-scope class is about one "
+            "in eighteen."),
     },
     "T2c": {
         "task": "CivilComments toxicity",
@@ -55,6 +56,7 @@ SPECS = {
 
 ANSWER_SURFACE = {
     "T2a": {},
+    "T2b": {"0": "in scope", "1": "out of scope"},
     "T2c": {"0": "not toxic", "1": "toxic"},
 }
 """How a stored label value is written as an answer, per task.
@@ -71,10 +73,18 @@ comparison the experiment exists to make, so the surface is declared here, once,
 export and the scorer render through it. T2a is empty because its stored labels are already the
 77 intent names the spec names.
 
-T2b is deliberately absent. Its stored labels are two integers, which means the task is binary
-in-scope/out-of-scope as E1 built it, and not the 151-way routing the spec above describes. Which
-integer is out of scope is not recorded anywhere in this repository, and guessing would invert the
-task. It stays unmapped, and the scorer refuses T2b rather than assuming a polarity.
+T2b's polarity is not a guess from its minority count, which would have been the wrong way to
+settle it. E1's design lock and the M4 partition receipt both state the rule that produced the
+label: `intent = OOS class 42`, positive rate 0.05660 across 23,850 rows. So a stored 1 is the
+out-of-scope class by construction, and the confirmation partition's 746 of 12,845 at 0.0581 is
+that rate reappearing in a subset rather than the evidence for it. T2c's polarity has the same
+kind of source: `toxicity >= 0.5` is the positive class, at 0.07991.
+
+The T2b spec above was rewritten at the same time, because the surface fix exposed a second and
+worse defect. It used to tell arms to answer with one of 150 in-scope intents, while the labels it
+is graded against have only ever been binary. An arm that read that spec answered a question
+nobody was scoring. That is not a vocabulary mismatch; it is the wrong task, and no mapping can
+repair it — the arms that read it have to be run again.
 """
 
 
@@ -83,4 +93,4 @@ def surface(task: str, value) -> str:
     return ANSWER_SURFACE.get(task, {}).get(str(value), str(value))
 
 
-SPEC_VERSION = "m5-specs-2"
+SPEC_VERSION = "m5-specs-3"

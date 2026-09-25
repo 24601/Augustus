@@ -224,9 +224,13 @@ def run_arm(arm: str, task: str, block: dict, torch, transformers, device: str, 
     """One arm on one task. Returns a payload with actions and everything needed to read them."""
     fit_rows = block["fit_examples"]
     inputs = block["confirmation_inputs"]
-    labels = sorted({str(row["label"]) for row in fit_rows})
+    # Labels in the wording the spec uses, so every arm answers in one vocabulary. For T2a this
+    # changes nothing; for T2b and T2c it turns a stored 0 and 1 into the words the spec names.
+    # The scorer accepts both, so checkpoints written before this are still gradeable.
+    import m5_specs
+    labels = sorted({m5_specs.surface(task, row["label"]) for row in fit_rows})
     index = {name: position for position, name in enumerate(labels)}
-    y = torch.tensor([index[str(row["label"])] for row in fit_rows])
+    y = torch.tensor([index[m5_specs.surface(task, row["label"])] for row in fit_rows])
     started = time.time()
     detail = {"arm": arm, "task": task, "classes": len(labels),
               "fit_rows": len(fit_rows), "confirmation_rows": len(inputs)}

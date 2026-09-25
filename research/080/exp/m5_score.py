@@ -174,7 +174,11 @@ def main(argv=None) -> int:
 
     costs = {
         "T2a": {"misroute": 1.0, "abstain": 0.3, "abstain_label": "abstain"},
-        "T2b": {"misroute": 1.0, "abstain": 0.3, "abstain_label": "out of scope"},
+        # T2b's abstain label used to be `out of scope`, which is one of its two real answers. Any
+        # arm that correctly called a query out of scope was priced 0.3 for abstaining instead of
+        # 0.0 for being right, and any arm that called it wrongly paid 0.3 instead of 1.0. The
+        # class and the refusal are different acts and now have different names.
+        "T2b": {"misroute": 1.0, "abstain": 0.3, "abstain_label": "abstain"},
         "T2c": {"c_fp": 1.0, "c_fn": 4.0},
     }
 
@@ -210,13 +214,11 @@ def main(argv=None) -> int:
         aliases = m5_specs.ANSWER_SURFACE.get(task) or {}
         scored = {arm: score_arm(actions, truth, labels, task, costs[task], aliases)
                   for arm, actions in sorted(arms.items())}
+        # `get(task)` rather than `get(task) or None`: an empty map means a task whose stored
+        # labels are already the spec's wording, and reporting that as null lost the difference
+        # between "declared, nothing to rewrite" and "not declared at all".
         block = {"labels": len(labels),
-                 "answer_surface": m5_specs.ANSWER_SURFACE.get(task) or None,
-                 **({"spec_mismatch": (
-                     "The spec tells an arm to answer with one of 150 in-scope intents or `out of "
-                     "scope`, and the stored labels are two values, so the task is binary. An arm "
-                     "that read the spec answered a different question from the one graded here, "
-                     "and its row is not a measure of the artifact form.")} if task == "T2b" else {}),
+                 "answer_surface": m5_specs.ANSWER_SURFACE.get(task),
                  "arms": {arm: {k: v for k, v in value.items() if k != "per_row"}
                           for arm, value in scored.items()}}
         if COMPARATOR in scored:

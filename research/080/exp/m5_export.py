@@ -96,9 +96,20 @@ def collect(stage: Path, task: str, prefix: str) -> dict:
                          "export. This is a custody failure, not an export problem.")
     inputs = [{"id": row["id"], "text": row["text"]} for row in confirmation]
 
+    # The answers an arm may give, written out. The spec says "one of the 77 BANKING77 intent
+    # labels", which is a reference a person can look up and a compiled program cannot: A2a was
+    # given a handful of worked examples inside a 5,120-token budget and invented 1,717 distinct
+    # intent-shaped names for a 77-label task. An arm that learns from fit rows gets the option set
+    # by construction, so naming it only by reference tested the spec-reading arms on a defect in
+    # the spec. These come from the FIT labels, which are public and already in this bundle; no
+    # confirmation label is read to build them.
+    options = sorted({m5_specs.surface(task, example["label"]) for example in examples})
+
     return {
         "task": task,
         "spec": m5_specs.SPECS[task],
+        "options_enumerated": options,
+        "answer_surface": m5_specs.ANSWER_SURFACE.get(task, {}),
         "layout": {"fit": fit.name, "confirmation": confirmation_dir.name,
                    "fit_labels": "labels.json" if (fit / "labels.json").exists() else "inline"},
         "fit_examples": examples,

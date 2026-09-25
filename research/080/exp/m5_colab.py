@@ -84,15 +84,25 @@ def environment() -> dict:
     return report
 
 
-def render_spec(task: str, spec: dict) -> str:
-    """The spec as one text, identical for every rung, so the rungs differ only in artifact form."""
+def render_spec(task: str, spec: dict, options: list[str] | None = None) -> str:
+    """The spec as one text, identical for every rung, so the rungs differ only in artifact form.
+
+    `options` is the bundle's enumerated answer set, written out verbatim. Without it the spec
+    names its options by reference — "one of the 77 BANKING77 intent labels" — which an arm that
+    reads fit rows resolves for free and a compiled program cannot resolve at all.
+    """
     cost = ", ".join(f"{name} {value}" for name, value in spec["cost"].items())
-    return (f"Task: {spec['task']}\n"
+    text = (f"Task: {spec['task']}\n"
             f"Unit of decision: {spec['unit']}\n"
             f"Decision: {spec['decision']}\n"
             f"Answer must be: {spec['options']}\n"
             f"Cost of each outcome: {cost}\n"
             f"Guidance: {spec['guidance']}\n")
+    if options:
+        listed = "\n".join(f"- {option}" for option in options)
+        text += (f"The answer must be exactly one of these {len(options)}, copied character for "
+                 f"character, with nothing else in the output:\n{listed}\n")
+    return text
 
 
 def spec_with_examples(spec_text: str, examples: list[dict]) -> str:
@@ -214,8 +224,12 @@ def main(argv=None) -> int:
     }
 
     for task, block in bundle["tasks"].items():
-        spec_text = render_spec(task, block["spec"])
-        examples = block["fit_examples"]
+        spec_text = render_spec(task, block["spec"], block.get("options_enumerated"))
+        # Worked examples are written in the same wording the options use, so the program is not
+        # shown two spellings of one answer and asked to pick the graded one.
+        surface = block.get("answer_surface") or {}
+        examples = [{**example, "label": surface.get(str(example["label"]), example["label"])}
+                    for example in block["fit_examples"]]
         for rung in RUNGS:
             key = f"{task}|{rung}"
             if args.dry_run:

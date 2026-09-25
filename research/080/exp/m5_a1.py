@@ -125,9 +125,53 @@ def toxicity_program(labels: list[str]):
     return decide
 
 
+# Topics a banking-and-utility assistant does not serve. Hand-written from CLINC's own domain
+# description, in the same spirit as ATTACK_CUES: no fit example was read to build it.
+OUT_OF_DOMAIN_CUES = {
+    "weather", "forecast", "rain", "snow", "temperature outside",
+    "joke", "funny", "riddle", "sing", "poem", "story",
+    "president", "election", "politics", "senator", "war",
+    "recipe", "cook", "bake", "pizza", "restaurant menu",
+    "movie", "film", "actor", "song", "lyrics", "album",
+    "sports", "football", "basketball", "score of the game", "world cup",
+    "translate", "spanish for", "french for", "how do you say",
+    "meaning of life", "are you human", "do you love me", "your favorite",
+    "math problem", "square root", "who won", "capital of",
+}
+
+
+def out_of_scope_program(labels: list[str]):
+    """Is this a query the assistant serves at all? Written after the binary task was found.
+
+    T2b's spec used to say the answer was one of 150 in-scope intents, and this task's program was
+    a router over label names because of it. The stored labels have only ever been binary, so that
+    router had nothing to route to: cues drawn from the names `0` and `1` are empty, every row fell
+    through to the fallback, and A1 answered `out of scope` 12,845 times out of 12,845. That is a
+    program written against a spec that misdescribed the task, not a measure of what a hand-written
+    program can do here.
+
+    A binary decision offers a rule-writer no label names to work from, so this one goes the other
+    way: assume in scope, which is right about seventeen times in eighteen, and name the
+    out-of-domain topics explicitly. It is a lexicon and a prior, and it is expected to be poor —
+    P11 says programs lose on fuzzy real text, and being specific about how they lose is the point.
+    """
+    out_of_scope = next((label for label in labels if "out" in str(label).lower()), OUT_OF_SCOPE)
+    in_scope = next((label for label in labels if label != out_of_scope), "in scope")
+
+    def decide(text: str) -> str:
+        body = normalize(text)
+        words = set(tokens_of(body))
+        for cue in OUT_OF_DOMAIN_CUES:
+            if (cue in body) if " " in cue else (cue in words):
+                return out_of_scope
+        return in_scope
+
+    return decide
+
+
 PROGRAMS = {
     "T2a": lambda labels: routing_program([l for l in labels if l != ABSTAIN], ABSTAIN),
-    "T2b": lambda labels: routing_program([l for l in labels if l != OUT_OF_SCOPE], OUT_OF_SCOPE),
+    "T2b": out_of_scope_program,
     "T2c": toxicity_program,
 }
 
