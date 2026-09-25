@@ -36,10 +36,26 @@ rows share a BANKING77 training utterance and intent label with its own stage-1 
 writes that "RouteFinancial should be read as contaminated." That is the contamination gate the
 `decider` card made us write, found and published by a competitor against his own headline.
 
-**It is also a direct warning for us.** Its stage-1 mixture includes `civil_comments`, `banking77`
-and CLINC — the three corpora M5's T2a, T2b and T2c are built from. Under §3.6 imajev is therefore
-**barred from T2a–c as an arm**, on exactly the ground the `decider` card established, and no
-amount of its own care changes that.
+**Its mixture overlaps all three M5 corpora**: `civil_comments`, `banking77` and CLINC are the
+sources T2a, T2b and T2c are built from. That is the same situation as `decider`, and it is worth
+saying precisely what it does and does not rule out, because "contaminated" is not a synonym for
+"not allowed".
+
+What it rules out is **one claim**: an imajev score on T2a–c is not a held-out score, and no seeded
+partition of ours repairs that, because the leak is upstream of our partitioner. It cannot be
+evidence about generalization to the superpopulation those corpora sample.
+
+What it does not rule out is running it. A declared-contaminated reference row — scored by us, on
+our confirmation partition, labelled as contaminated in the table — answers a question we otherwise
+cannot answer: what an off-the-shelf trained decision model gets on these exact rows. Our own E1
+and E3 already carry that kind of qualification rather than dropping the arm, since the readers
+there are pretrained on public text too. The honest treatment is a row with a stated limit, not an
+absence.
+
+This is not a §3.6 matter and citing that section for it would be wrong. §3.6 is the
+provider-provenance gate: licences, lineage, named teachers, and Jev output never becoming training
+data. Nothing about imajev's public-corpus overlap engages it. The relevant limit is the
+eligibility note on the estimand — the same one E3 carries for HotpotQA and pretrained readers.
 
 ## AnyJev — `nokia-applied-research/AnyJev`
 
@@ -74,7 +90,7 @@ scored on.
 
 | | Source card | Comparator arm |
 | --- | --- | --- |
-| imajev | Yes — the mixture documentation and the self-reported contamination finding are worth citing | **No.** Trained on all three M5 corpora, so barred by §3.6 before any other objection |
+| imajev | Yes — the mixture documentation and the self-reported contamination finding are worth citing | **Qualified.** Trained on all three M5 corpora, so it cannot carry a held-out claim there. It can carry a declared-contaminated reference row, scored by us and labelled as such |
 | AnyJev | Yes — L0's zero-label de-biasing and the flip-rate metric are methods we can use | **Conditional.** "Open Qwen + L0" on a suite we freeze and score ourselves is fair. The shipped L2 heads on typed-decisions are not, and its Jev 0.727 is a published row, not a measurement |
 
 **Neither supplies a hosted-Jev arm**, because neither contains a single call to `jev-latest` on
