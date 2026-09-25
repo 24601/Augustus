@@ -619,7 +619,7 @@ hypothetical: every one is a machine this project can reach.
 | --- | --- | --- |
 | E-hosted | an API key and no accelerator | The most common starting point, and the one where only A0, A1 and hosted rungs exist |
 | E-cpu | any laptop; a CI runner | Where a logistic head on cached embeddings is the whole ladder |
-| Apple Silicon MPS | the maintainer's Macs | A large and usually ignored population. `sources/decider-2026-09-25.md` already carries third-party evidence that a 2B typed-decision model runs there at parity with its bf16 row |
+| Apple Silicon, MLX and MPS | the maintainer's Macs | A large and usually ignored population, and the one where most of this ladder turns out to run. `sources/decider-2026-09-25.md` already carries third-party evidence that a 2B typed-decision model runs there at parity with its bf16 row |
 | E-small NVIDIA | Colab L4, 22 GiB | Where most people's "I have a GPU" actually is |
 | E-large NVIDIA | Colab A100 or H100 | Where the heaviest rungs become possible |
 | E-large ROCm | tabputer gfx1151, 124 GiB | Where several rungs turn out not to exist at all |
@@ -630,6 +630,25 @@ ROCm in principle — an NVIDIA-only compiler and an inference runtime behind a 
 useful thing M5 has produced so far, because it is exactly what a recipe must tell an agent before
 it recommends a rung. A ladder whose rungs have undocumented hardware preconditions is not a
 ladder an agent can climb.
+
+**What Apple Silicon can carry, and the one thing it cannot.** Worth setting out because it is the
+sharpest statement this project can make about artifact forms, and because it is mostly good news:
+
+| Rung | On Apple Silicon |
+| --- | --- |
+| A0, A1 | Trivially. A program is a program |
+| R2a logistic head on embeddings | Yes, through MLX or through torch on MPS |
+| R1 frozen readout, R2b state head | Yes, through `mlx-lm`, which serves Qwen-family decoders natively |
+| R3a SetFit comparator | Through torch on MPS; SetFit is a torch package and has no MLX port |
+| **A2a inference** | **Yes** — the PAW artifact is a GGUF LoRA over a small base, and llama.cpp has Metal support. PAW's own paper reports about 30 tok/s on an M3 |
+| **A2a and A2b compilation** | **No.** The compiler requires an NVIDIA GPU with BF16, Ampere or newer |
+
+So the vendor lock is narrower than "PAW needs NVIDIA": **compilation** needs NVIDIA and
+**inference** does not. Compile once on a rented or borrowed NVIDIA card, then serve the artifact
+on a laptop. That is precisely the "compile once, call cheaply and offline" claim the artifact form
+makes for itself, and it is testable rather than rhetorical — the same `.paw` bundle, byte for
+byte, compiled on Colab and run on a Mac. If the actions agree, the claim holds; if they do not,
+that is a more interesting result than either machine alone.
 
 **Substitution stays forbidden; addition does not.** If an arm cannot be run as registered on some
 envelope, it is not silently replaced by a variant — but a variant may be run and reported
