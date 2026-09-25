@@ -54,6 +54,10 @@ Checked 2026-09-23:
   user-requested fold about eighteen hours later. It is evidence of work being
   produced, not of the scheduler's owner, configuration, next run, or
   completed-review receipts.
+- Hourly 1210 (notes.md §173, retrieval 2026-09-25T18:26Z) is another explicit
+  user-requested fold about three hours later. It is evidence of work being
+  produced, not of the scheduler's owner, configuration, next run, or
+  completed-review receipts.
 
 Do not report this operating contract as automated until the scheduler owner
 provides live configuration and successful research-run evidence. Configuring a
