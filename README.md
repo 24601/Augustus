@@ -32,10 +32,11 @@ provider docs own API contracts; Augustus supplies composition, implementation,
 evaluation, and improvement methods. Named for
 Augustus De Morgan, mentor of William Stanley Jevons.
 
-[![Jev & Augustus, a 2:38 cut-paper film: where should your agent's judgment go?](docs/assets/film/jev-and-augustus-poster.jpg)](https://youtu.be/ZC4oge4WsCQ)
+[![Jev & Augustus, a 3:05 cut-paper film: where should your agent's judgment go?](docs/assets/film/jev-and-augustus-poster.jpg)](https://youtu.be/Frm5sVlQNI4)
 
-**[Watch the 2:38 film](https://youtu.be/ZC4oge4WsCQ)**: Jevons' logic piano,
-De Morgan's boundary, and how Augustus places and tests a bounded judgment.
+**[Watch the 3:05 film](https://youtu.be/Frm5sVlQNI4)**: Jevons' logic piano,
+De Morgan's boundary, how Augustus places and tests a bounded judgment, and
+how augustus-train builds a task specialist of your own.
 
 ## Try it
 
