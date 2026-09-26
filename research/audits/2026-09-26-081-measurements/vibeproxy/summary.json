@@ -1,0 +1,645 @@
+{
+  "release": "4ba9d2111d29ea03247c22b3de90bfa8dde1b261",
+  "startedAt": "2026-09-26T23:42:29.544Z",
+  "durationSeconds": 360,
+  "reportedCostUsd": 1.3384598,
+  "partial": false,
+  "claudeVersion": "2.1.282",
+  "arms": {
+    "with": {
+      "runs": 11,
+      "totalCostUsd": 0.7612741999999999,
+      "agentCostUsd": 0.7376791999999999,
+      "judgeCostUsd": 0.023594999999999977,
+      "durationSeconds": 189,
+      "inputTokens": 40,
+      "outputTokens": 13982,
+      "cacheReadInputTokens": 141246,
+      "cacheCreationInputTokens": 85926
+    },
+    "without": {
+      "runs": 11,
+      "totalCostUsd": 0.5771856,
+      "agentCostUsd": 0.5541965999999999,
+      "judgeCostUsd": 0.02298900000000001,
+      "durationSeconds": 172,
+      "inputTokens": 30,
+      "outputTokens": 13011,
+      "cacheReadInputTokens": 86033,
+      "cacheCreationInputTokens": 55330
+    }
+  },
+  "cases": [
+    {
+      "name": "fit_budget",
+      "arms": {
+        "with": {
+          "successfulSkillCalls": [
+            {
+              "id": "toolu_011FnCtys8CeQ56xcPcRHxFU",
+              "input": {
+                "skill": ".agents:augustus",
+                "args": "Six-queue inbound request router. 24 independently labelled examples per queue (144 total), laptop only, current rules have no measured result. Decide: fit small model, fine-tune large one, or collect more data first. Deliver an executable experiment plan and stop rule, no training run."
+              },
+              "successfulLoad": true
+            }
+          ],
+          "loadedContent": [
+            "augustus"
+          ],
+          "responseModels": [
+            "claude-opus-5-5"
+          ],
+          "toolsUsed": [
+            "Read",
+            "Skill"
+          ],
+          "outcomePassed": true,
+          "outcomeGraders": [
+            {
+              "name": "outcome",
+              "passed": true,
+              "explanation": "judge votes: PASS PASS PASS"
+            }
+          ],
+          "totalCostUsd": 0.18231,
+          "judgeCostUsd": 0.005697000000000001,
+          "durationSeconds": 48
+        },
+        "without": {
+          "successfulSkillCalls": [],
+          "loadedContent": [],
+          "responseModels": [
+            "claude-opus-5-5"
+          ],
+          "toolsUsed": [],
+          "outcomePassed": true,
+          "outcomeGraders": [
+            {
+              "name": "outcome",
+              "passed": true,
+              "explanation": "judge votes: PASS PASS PASS"
+            }
+          ],
+          "totalCostUsd": 0.10741879999999998,
+          "judgeCostUsd": 0.004545,
+          "durationSeconds": 44
+        }
+      }
+    },
+    {
+      "name": "fit_economics",
+      "arms": {
+        "with": {
+          "successfulSkillCalls": [],
+          "loadedContent": [],
+          "responseModels": [
+            "claude-opus-5-5"
+          ],
+          "toolsUsed": [],
+          "outcomePassed": true,
+          "outcomeGraders": [
+            {
+              "name": "outcome",
+              "passed": true,
+              "explanation": "judge votes: PASS PASS PASS"
+            }
+          ],
+          "totalCostUsd": 0.0507708,
+          "judgeCostUsd": 0.0025620000000000018,
+          "durationSeconds": 14
+        },
+        "without": {
+          "successfulSkillCalls": [],
+          "loadedContent": [],
+          "responseModels": [
+            "claude-opus-5-5"
+          ],
+          "toolsUsed": [],
+          "outcomePassed": true,
+          "outcomeGraders": [
+            {
+              "name": "outcome",
+              "passed": true,
+              "explanation": "judge votes: PASS PASS PASS"
+            }
+          ],
+          "totalCostUsd": 0.0551728,
+          "judgeCostUsd": 0.0028590000000000004,
+          "durationSeconds": 15
+        }
+      }
+    },
+    {
+      "name": "no_match",
+      "arms": {
+        "with": {
+          "successfulSkillCalls": [
+            {
+              "id": "toolu_01E6WmF5BwQWZmWxWwuGkGxg",
+              "input": {
+                "skill": ".agents:augustus",
+                "args": "A classifier must pick sales, billing, or technical support. It assigns an unsubscribe request to billing with confidence 1.0. Raising the threshold did not help. Fix the design."
+              },
+              "successfulLoad": true
+            }
+          ],
+          "loadedContent": [
+            "augustus"
+          ],
+          "responseModels": [
+            "claude-opus-5-5"
+          ],
+          "toolsUsed": [
+            "Glob",
+            "Skill"
+          ],
+          "outcomePassed": true,
+          "outcomeGraders": [
+            {
+              "name": "missing-option",
+              "passed": true,
+              "explanation": "judge votes: PASS PASS PASS"
+            }
+          ],
+          "totalCostUsd": 0.0852258,
+          "judgeCostUsd": 0.0031199999999999978,
+          "durationSeconds": 21
+        },
+        "without": {
+          "successfulSkillCalls": [],
+          "loadedContent": [],
+          "responseModels": [
+            "claude-opus-5-5"
+          ],
+          "toolsUsed": [
+            "Grep"
+          ],
+          "outcomePassed": true,
+          "outcomeGraders": [
+            {
+              "name": "missing-option",
+              "passed": true,
+              "explanation": "judge votes: PASS PASS PASS"
+            }
+          ],
+          "totalCostUsd": 0.05330860000000001,
+          "judgeCostUsd": 0.0029490000000000037,
+          "durationSeconds": 16
+        }
+      }
+    },
+    {
+      "name": "plain_rewrite",
+      "arms": {
+        "with": {
+          "successfulSkillCalls": [],
+          "loadedContent": [],
+          "responseModels": [
+            "claude-opus-5-5"
+          ],
+          "toolsUsed": [],
+          "outcomePassed": null,
+          "outcomeGraders": [],
+          "totalCostUsd": 0.0294088,
+          "judgeCostUsd": 0,
+          "durationSeconds": 3
+        },
+        "without": {
+          "successfulSkillCalls": [],
+          "loadedContent": [],
+          "responseModels": [
+            "claude-opus-5-5"
+          ],
+          "toolsUsed": [],
+          "outcomePassed": null,
+          "outcomeGraders": [],
+          "totalCostUsd": 0.0277138,
+          "judgeCostUsd": 0,
+          "durationSeconds": 3
+        }
+      }
+    },
+    {
+      "name": "provider_setup",
+      "arms": {
+        "with": {
+          "successfulSkillCalls": [],
+          "loadedContent": [],
+          "responseModels": [
+            "claude-opus-5-5"
+          ],
+          "toolsUsed": [
+            "Glob",
+            "Grep"
+          ],
+          "outcomePassed": null,
+          "outcomeGraders": [],
+          "totalCostUsd": 0.048437999999999995,
+          "judgeCostUsd": 0,
+          "durationSeconds": 11
+        },
+        "without": {
+          "successfulSkillCalls": [],
+          "loadedContent": [],
+          "responseModels": [
+            "claude-opus-5-5"
+          ],
+          "toolsUsed": [
+            "Glob"
+          ],
+          "outcomePassed": null,
+          "outcomeGraders": [],
+          "totalCostUsd": 0.0453264,
+          "judgeCostUsd": 0,
+          "durationSeconds": 10
+        }
+      }
+    },
+    {
+      "name": "ranker_gate",
+      "arms": {
+        "with": {
+          "successfulSkillCalls": [],
+          "loadedContent": [],
+          "responseModels": [
+            "claude-opus-5-5"
+          ],
+          "toolsUsed": [],
+          "outcomePassed": true,
+          "outcomeGraders": [
+            {
+              "name": "score-semantics",
+              "passed": true,
+              "explanation": "judge votes: PASS PASS PASS"
+            }
+          ],
+          "totalCostUsd": 0.0463128,
+          "judgeCostUsd": 0.0024990000000000012,
+          "durationSeconds": 12
+        },
+        "without": {
+          "successfulSkillCalls": [],
+          "loadedContent": [],
+          "responseModels": [
+            "claude-opus-5-5"
+          ],
+          "toolsUsed": [],
+          "outcomePassed": true,
+          "outcomeGraders": [
+            {
+              "name": "score-semantics",
+              "passed": true,
+              "explanation": "judge votes: PASS PASS PASS"
+            }
+          ],
+          "totalCostUsd": 0.0459608,
+          "judgeCostUsd": 0.0026219999999999993,
+          "durationSeconds": 12
+        }
+      }
+    },
+    {
+      "name": "refund_router",
+      "arms": {
+        "with": {
+          "successfulSkillCalls": [
+            {
+              "id": "toolu_01BMojxMjkx8ufFFjXWQqpEx",
+              "input": {
+                "skill": ".agents:augustus",
+                "args": "Audit this design: a large LLM generates JSON to sort refund emails, then a service issues refunds automatically when confidence is above 0.9. Emails may omit order IDs."
+              },
+              "successfulLoad": true
+            }
+          ],
+          "loadedContent": [
+            "augustus"
+          ],
+          "responseModels": [
+            "claude-opus-5-5"
+          ],
+          "toolsUsed": [
+            "Skill"
+          ],
+          "outcomePassed": true,
+          "outcomeGraders": [
+            {
+              "name": "authority",
+              "passed": true,
+              "explanation": "judge votes: PASS PASS PASS"
+            }
+          ],
+          "totalCostUsd": 0.10491779999999999,
+          "judgeCostUsd": 0.004367999999999997,
+          "durationSeconds": 34
+        },
+        "without": {
+          "successfulSkillCalls": [],
+          "loadedContent": [],
+          "responseModels": [
+            "claude-opus-5-5"
+          ],
+          "toolsUsed": [
+            "Glob"
+          ],
+          "outcomePassed": true,
+          "outcomeGraders": [
+            {
+              "name": "authority",
+              "passed": true,
+              "explanation": "judge votes: PASS PASS PASS"
+            }
+          ],
+          "totalCostUsd": 0.0880352,
+          "judgeCostUsd": 0.00468,
+          "durationSeconds": 35
+        }
+      }
+    },
+    {
+      "name": "train_word_nontrigger",
+      "arms": {
+        "with": {
+          "successfulSkillCalls": [],
+          "loadedContent": [],
+          "responseModels": [
+            "claude-opus-5-5"
+          ],
+          "toolsUsed": [],
+          "outcomePassed": true,
+          "outcomeGraders": [
+            {
+              "name": "outcome",
+              "passed": true,
+              "explanation": "judge votes: PASS PASS PASS"
+            }
+          ],
+          "totalCostUsd": 0.02752979999999999,
+          "judgeCostUsd": 0.0005309999999999898,
+          "durationSeconds": 3
+        },
+        "without": {
+          "successfulSkillCalls": [],
+          "loadedContent": [],
+          "responseModels": [
+            "claude-opus-5-5"
+          ],
+          "toolsUsed": [],
+          "outcomePassed": true,
+          "outcomeGraders": [
+            {
+              "name": "outcome",
+              "passed": true,
+              "explanation": "judge votes: PASS PASS PASS"
+            }
+          ],
+          "totalCostUsd": 0.027780799999999994,
+          "judgeCostUsd": 0.0005969999999999934,
+          "durationSeconds": 4
+        }
+      }
+    },
+    {
+      "name": "trainer_application_data",
+      "arms": {
+        "with": {
+          "successfulSkillCalls": [
+            {
+              "id": "toolu_01V41DprxCTa6jewWf5u3jGf",
+              "input": {
+                "skill": ".agents:augustus-train",
+                "args": "Local support-intent classifier from 18k-row CSV export (per-reply rows, quoted copies, customer IDs, final queue, post-routing resolution notes, billing\u2192engineering drift, two reviewers disagree). Target: route first incoming message for new customers next month. How to build training + eval set?"
+              },
+              "successfulLoad": true
+            }
+          ],
+          "loadedContent": [
+            "augustus-train"
+          ],
+          "responseModels": [
+            "claude-opus-5-5"
+          ],
+          "toolsUsed": [
+            "Read",
+            "Skill"
+          ],
+          "outcomePassed": true,
+          "outcomeGraders": [
+            {
+              "name": "data-plan",
+              "passed": true,
+              "explanation": "judge votes: PASS PASS PASS"
+            }
+          ],
+          "totalCostUsd": 0.1311188,
+          "judgeCostUsd": 0.004223999999999999,
+          "durationSeconds": 35
+        },
+        "without": {
+          "successfulSkillCalls": [],
+          "loadedContent": [],
+          "responseModels": [
+            "claude-opus-5-5"
+          ],
+          "toolsUsed": [],
+          "outcomePassed": true,
+          "outcomeGraders": [
+            {
+              "name": "data-plan",
+              "passed": true,
+              "explanation": "judge votes: PASS PASS PASS"
+            }
+          ],
+          "totalCostUsd": 0.07220080000000001,
+          "judgeCostUsd": 0.004167000000000004,
+          "durationSeconds": 26
+        }
+      }
+    },
+    {
+      "name": "trainer_copy_control",
+      "arms": {
+        "with": {
+          "successfulSkillCalls": [],
+          "loadedContent": [],
+          "responseModels": [
+            "claude-opus-5-5"
+          ],
+          "toolsUsed": [],
+          "outcomePassed": null,
+          "outcomeGraders": [],
+          "totalCostUsd": 0.027248800000000004,
+          "judgeCostUsd": 0,
+          "durationSeconds": 3
+        },
+        "without": {
+          "successfulSkillCalls": [],
+          "loadedContent": [],
+          "responseModels": [
+            "claude-opus-5-5"
+          ],
+          "toolsUsed": [],
+          "outcomePassed": null,
+          "outcomeGraders": [],
+          "totalCostUsd": 0.0274338,
+          "judgeCostUsd": 0,
+          "durationSeconds": 3
+        }
+      }
+    },
+    {
+      "name": "training_arithmetic_nontrigger",
+      "arms": {
+        "with": {
+          "successfulSkillCalls": [],
+          "loadedContent": [],
+          "responseModels": [
+            "claude-opus-5-5"
+          ],
+          "toolsUsed": [],
+          "outcomePassed": true,
+          "outcomeGraders": [
+            {
+              "name": "outcome",
+              "passed": true,
+              "explanation": "judge votes: PASS PASS PASS"
+            }
+          ],
+          "totalCostUsd": 0.02799279999999999,
+          "judgeCostUsd": 0.0005939999999999904,
+          "durationSeconds": 5
+        },
+        "without": {
+          "successfulSkillCalls": [],
+          "loadedContent": [],
+          "responseModels": [
+            "claude-opus-5-5"
+          ],
+          "toolsUsed": [],
+          "outcomePassed": true,
+          "outcomeGraders": [
+            {
+              "name": "outcome",
+              "passed": true,
+              "explanation": "judge votes: PASS PASS PASS"
+            }
+          ],
+          "totalCostUsd": 0.026833800000000005,
+          "judgeCostUsd": 0.000570000000000008,
+          "durationSeconds": 4
+        }
+      }
+    }
+  ],
+  "sourceTraceHashes": {
+    "traces/fit_budget-with.jsonl": "e89324c42d154c0118a889acb8891be360396e5e14b0b3713b2c81b39e3c0645",
+    "traces/fit_budget-without.jsonl": "248ae64e8364aed24a1244af83f5195febf09839bfc6f24ff3195e67078756c9",
+    "traces/fit_economics-with.jsonl": "824f9d0b0d32fe7fe0005e0a8a4555845e2792e0c166db57837e5a8f16bec224",
+    "traces/fit_economics-without.jsonl": "6f5a656818e14cc6b6b150a395496799a6468c85c13d3a8099ad9079bbac086c",
+    "traces/no_match-with.jsonl": "66d59c03bef6d787d73c931f74c0a50e5b28eb7f2cc84a42a54fa4b23985518a",
+    "traces/no_match-without.jsonl": "f42e98854c4a6c438c7d504b57f8b2ea745dc4594627c33abfd4f90d9ed3540c",
+    "traces/plain_rewrite-with.jsonl": "04732938d748e3c81e48bf30f4c0c991a91861f1ed0a0aebd910d21618370c39",
+    "traces/plain_rewrite-without.jsonl": "482010e8d51adae4125572d3ebb2f145d44f9a731997709b17698a2ecd575f72",
+    "traces/provider_setup-with.jsonl": "939bcba444ca6d5594f5cac28c7e2d35e42838dc7ae17f6e8f99495c20d4c7ed",
+    "traces/provider_setup-without.jsonl": "cbcafbe16da6fbedb0ad1040c00340061a28b4cf94dd9cb3c7c5a26007677ec5",
+    "traces/ranker_gate-with.jsonl": "dc0b0d92a30b2f7f450226bb3440875dd38d6d3d13b87a0fb9064cd761ed3922",
+    "traces/ranker_gate-without.jsonl": "ed98a07b7b73ee6148723f6a15d6e0900ab506303f72457b8c03d49a8fa95006",
+    "traces/refund_router-with.jsonl": "780ce6efe41d98a29cc6805374da71cfae2338c818812906dbf095827bff53f3",
+    "traces/refund_router-without.jsonl": "c5b15b40c44e81dd039bc25e37e3d1cbf08a286e0520a4ef0e348b2cefcaa59f",
+    "traces/train_word_nontrigger-with.jsonl": "52d32ea08aeb14a0bc0c4dadeb9190e47e41a60745940f711d781379c45416c9",
+    "traces/train_word_nontrigger-without.jsonl": "90af1ba240e666794f020ba579b099a4c755fd629203a8b58b0a3de5ce47096a",
+    "traces/trainer_application_data-with.jsonl": "2fac95a02f4c7af2fd7b385419349474625977809d90d9ddd5e713dda6ae31e0",
+    "traces/trainer_application_data-without.jsonl": "f2a08db57a4529b2ba5f862e89a358e4b56c64f7abe7e9d8e363ca5b54d99ec2",
+    "traces/trainer_copy_control-with.jsonl": "a0bddff0e0721a69d329b034cdf56ae48a9407685be8bfa8de232ffd6fbc8ee5",
+    "traces/trainer_copy_control-without.jsonl": "89e6000f9c5e12e429b27c0bfab1b118d5fb3cb1e9daecbb3650e39875aaaf7b",
+    "traces/training_arithmetic_nontrigger-with.jsonl": "e56046913fce8d62591c5308f7596a9fa22539148758b72f868b74f61acfab83",
+    "traces/training_arithmetic_nontrigger-without.jsonl": "2cf843687b1a4891e11f6f0f8cb4057d185392207c3f0bcf1edd9647e70bf3f1"
+  },
+  "inventories": {
+    "with": {
+      "skills": [
+        "deep-research",
+        ".agents:augustus",
+        ".agents:augustus-train",
+        "dataviz",
+        "update-config",
+        "verify",
+        "debug",
+        "code-review",
+        "simplify",
+        "batch",
+        "fewer-permission-prompts",
+        "doctor",
+        "loop",
+        "claude-api",
+        "workflow-authoring",
+        "run",
+        "run-skill-generator"
+      ],
+      "plugins": [
+        {
+          "name": ".agents",
+          "path": "/private/tmp/augustus-081-vibe.O2Bq1J/source/.agents",
+          "source": ".agents@inline"
+        },
+        {
+          "name": "agents-md",
+          "path": "builtin",
+          "source": "agents-md@builtin"
+        }
+      ],
+      "mcp_servers": [],
+      "tools": [
+        "Task",
+        "Glob",
+        "Grep",
+        "Read",
+        "Skill",
+        "TaskStop"
+      ]
+    },
+    "without": {
+      "skills": [
+        "deep-research",
+        "dataviz",
+        "update-config",
+        "verify",
+        "debug",
+        "code-review",
+        "simplify",
+        "batch",
+        "fewer-permission-prompts",
+        "doctor",
+        "loop",
+        "claude-api",
+        "workflow-authoring",
+        "run",
+        "run-skill-generator"
+      ],
+      "plugins": [
+        {
+          "name": "agents-md",
+          "path": "builtin",
+          "source": "agents-md@builtin"
+        }
+      ],
+      "mcp_servers": [],
+      "tools": [
+        "Task",
+        "Glob",
+        "Grep",
+        "Read",
+        "Skill",
+        "TaskStop"
+      ]
+    }
+  },
+  "pairedSemanticOutcomes": {
+    "both": 8,
+    "withOnly": 0,
+    "withoutOnly": 0,
+    "neither": 0,
+    "unscored": 3
+  }
+}

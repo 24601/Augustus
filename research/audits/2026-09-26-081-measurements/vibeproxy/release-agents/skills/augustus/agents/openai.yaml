@@ -1,0 +1,4 @@
+interface:
+  display_name: "Augustus"
+  short_description: "Build and improve decision-model systems with evals"
+  default_prompt: "Use $augustus to find a useful decision-model placement, build or improve it as requested, and evaluate complete outcomes against a runnable baseline."

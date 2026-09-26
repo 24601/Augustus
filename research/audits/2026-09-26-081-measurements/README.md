@@ -1,5 +1,9 @@
 # Measurement attempt: blocked on authentication
 
+**Follow-up:** the owner-directed [VibeProxy pilot completed](review.md).
+The failed OAuth attempt below remains historical; do not combine it with the
+successful run's outcome denominator.
+
 The 0.8.1 release is published; see the
 [publication receipt](../2026-09-26-release-081.md). This receipt is **not** an
 activation or benefit result.
