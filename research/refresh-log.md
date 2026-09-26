@@ -1,3 +1,89 @@
+## 2026-09-25 ~21:29 UTC / ~15:10 Boise - Hourly 1510 HIGH
+
+- User-requested fold onto `main` `dba551b64e70742dfe545625c36e2f5e638f97a9`.
+  notes.md §174. Packet of 83 design items and 24 research-only rows
+  archived at `research/archive/hourly/2026-09-25T21/`.
+- Research-only. No skill, human README, Pages, or version change.
+  Scoring rows stay at 17. Archer stays promised_not_landed.
+- Live GitHub and Hugging Face reads on 2026-09-25T21:29Z.
+  README or card openings for the sources named in §174. FluidUse v0.3.0
+  release notes were read. One GitHub repository was empty. Three READMEs
+  returned 404. One Hub README returned 404. No benches rerun.
+  No X calls. Third-party figures stay *theirs*.
+- A public table is not Harbor. A Core ML port is not a new family.
+  A description rewrite is not a new row count. The act stays in policy.
+
+## 2026-09-25 ~18:26 UTC / ~12:12 Boise - Hourly 1210 HIGH
+
+- User-requested fold onto `main` `cf1d932fd2d31e58fba0b1dda2884c26db3e85c2`.
+  notes.md §173. Packet of 103 design items and 28 research-only rows
+  archived at `research/archive/hourly/2026-09-25T18/`.
+- Research-only. No skill, human README, Pages, or version change.
+  Scoring rows stay at 17. Archer stays promised_not_landed.
+- Live GitHub and Hugging Face reads on 2026-09-25T18:26Z.
+  README or card openings for the sources named in §173. Two GitHub
+  repositories were empty. Two READMEs returned 404. No benches rerun.
+  No X calls. Third-party figures stay *theirs*.
+- A public table is not Harbor. A rename that keeps the node is the same
+  source. A stability badge is not calibration. The act stays in policy.
+
+## 2026-09-25 ~15:40 UTC / ~09:18 Boise - Hourly 0918 HIGH
+
+- User-requested fold onto `main` `e3e712b6054f4ab558aa939ff5b2efb4bfbd2787`.
+  notes.md §172. Packet of 286 design items and 57 research-only rows
+  archived at `research/archive/hourly/2026-09-25T15/`.
+- Research-only. No skill, human README, Pages, or version change.
+  Scoring rows stay at 17. Archer stays promised_not_landed.
+- Live GitHub and Hugging Face reads on 2026-09-25T15:40Z.
+  README or card openings for the sources named in §172. Hub model
+  HIT-TMG/JevEmbed HTTP 401. No benches rerun. No X calls.
+  Third-party figures stay *theirs*.
+- A public table is not Harbor. A rename that keeps the node is the same
+  source. A description rewrite is not a new family. The act stays in policy.
+
+## 2026-09-24 ~21:25 UTC / ~15:10 Boise - Hourly 1510 HIGH
+
+- User-requested fold onto `main` `adc7369ed78b6f71e0cc7d4d8625a8efa1127c60`.
+  notes.md §171. Packet of 101 design items and 25 research-only rows
+  archived at `research/archive/hourly/2026-09-24T21/`.
+- Research-only. No skill, human README, Pages, or version change.
+  Scoring rows stay at 17. Archer stays promised_not_landed.
+- Live GitHub GraphQL and Hugging Face reads on 2026-09-24T21:25Z.
+  README or card openings for the sources named in §171. Six Hub calls
+  returned 401. Two Hub READMEs returned 404. `vishalmysore/layaAgent`
+  has no default branch. No benches rerun. No X calls.
+  Third-party figures stay *theirs*.
+- A public table is not Harbor. A mock provider is not a measurement.
+  A description rewrite is not a new family. The act stays in policy.
+
+## 2026-09-24 ~18:22 UTC / ~12:11 Boise - Hourly 1211 HIGH
+
+- User-requested fold onto `main` `33ba9c516dc10483562c0c316579c6e386a53eeb`.
+  notes.md §170. Packet of 96 design items and 37 research-only rows
+  archived at `research/archive/hourly/2026-09-24T18/`.
+- Research-only. No skill, human README, Pages, or version change.
+  Scoring rows stay at 17. Archer stays promised_not_landed.
+- Live GitHub REST and Hugging Face reads on 2026-09-24T18:22Z.
+  README or card openings for the sources named in §170. laya-lab README
+  HTTP 404. openjev-data HTTP 401. No benches rerun. No X calls.
+  Third-party figures stay *theirs*.
+- A public table is not Harbor. A description rewrite is not a new family.
+  A catalog count is not a family choice. The act stays in policy.
+
+## 2026-09-24 ~15:33 UTC / ~09:22 Boise - Hourly 0922 HIGH
+
+- User-requested fold onto `main` `125507c8600a5ab9ea4214cc16804c1c4f8486a6`.
+  notes.md §169. Packet of 267 design items and 81 research-only rows
+  archived at `research/archive/hourly/2026-09-24T15/`.
+- Research-only. No skill, human README, Pages, or version change.
+  Scoring rows stay at 17. Archer stays promised_not_landed.
+- Live GitHub REST and Hugging Face reads on 2026-09-24T15:33Z.
+  README or card openings for the sources named in §169. Hub README 404
+  for several model cards. RLCDAlignBench README HTTP 401. No benches
+  rerun. No X calls. Third-party figures stay *theirs*.
+- A public table is not Harbor. A wire server is not a new family. A
+  catalog count is not a family choice. The act stays in policy.
+
 ## 2026-09-23 ~21:44 UTC / ~15:31 Boise - Hourly 1531 HIGH
 
 - User-requested fold onto `main` `bc0593617c413cd042f58a52274e89c48b216f8d`.

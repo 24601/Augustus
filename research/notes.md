@@ -46054,3 +46054,2249 @@ Observed result, limitations, and next decision: research-only; next experiment 
 
 Soft judgment is not the veto. The sources' own limits and the existing
 rules are. `invented_signal: false`.
+
+## 169. Hourly 0922 HIGH (2026-09-24 ~09:22 Boise / 2026-09-24T15:22Z)
+
+Folded onto `main` `125507c8600a5ab9ea4214cc16804c1c4f8486a6`. Overnight gap
+after the 1531 watch (§168), about eighteen hours. Mode NEW_OFF_MAIN. This
+fold is §169 only. Do not reclaim §165 through §168. Composition ranges
+ended at 996 with §163. This fold assigns none.
+
+Research-only: no skill, human README, Pages, or package version change.
+Scoring rows stay at 17. Archer stays promised_not_landed. The packet has
+267 design-implication rows and 81 research-only rows. Retrieval for the
+GitHub and Hub calls below is 2026-09-24T15:33Z. Fifty README openings and
+eleven Hub cards were requested. The other design rows and all 81
+research-only rows were archived and not fetched. Third-party numbers stay
+*theirs*. No X calls. No Harbor numbers were invented. This run does not
+prove an unattended scheduler.
+
+### Acceptance
+
+**Problem.** An agent could treat a public hard-tier accuracy, a four-system
+suite, or a 60-intent language snapshot as the deployment decision; treat a
+banner that says calibrated as calibration on this population; treat a
+catalog count as a reason to change family; or let a model delete, close, or
+skip work that code or a person still owns.
+
+**Baseline.** Installed guidance already separates a leaderboard from a
+deployment evaluation, refuses to treat a softmax or a training recipe as
+calibration on this population, keeps the act in code or with a person, and
+keeps TypeSafe Jev as the default hosted exemplar for the class, not the
+class. A public slice is not Harbor. A wire server is not logit equivalence.
+Mappings section 17 stays the last scoring section.
+
+**Proposed improvement.** None in runtime files. Archive the sources' own
+limits where they already match those rules, and record the identity joins.
+
+**Assumptions.** A README opening, a card opening, or a Hub metadata response
+is enough to refuse promotion. None of those is a reproduction. A description
+rewrite is not a new capability review. A moved SHA is a review trigger, not
+a new family.
+
+**Affected surfaces.** This section, the hourly archive, fingerprints for
+sources actually looked at, `sources.json` pointers, and the hourly logs.
+Not `SKILL.md`, not `README.md` below `## License`, not the site.
+
+**Checks.** `make check`. No Pages build. No behavioral scenario run, because
+installed guidance did not change.
+
+**Counterexample that would reject this disposition.** A held-out run, on
+labels and traffic this repository controls, where one of these public
+tables changes the baseline placement. A frozen suite at 100% that transfers
+to that traffic. A catalog count that changes which family to use would also
+reject leaving the catalogs research-only, and no such count is in this
+packet.
+
+### A public table is not the deployment decision
+
+**caiovicentino/eikos**, node `R_kgDOUoNPag`, HEAD
+`f9dff4038238fbfee0afeaaa51f6f3208f705884`. README opening, including their
+headline table. Harness not rerun. Model cards not opened.
+
+*Theirs, same items in their harness:* JevBench public hard tier 82.9 for
+Eikos-27B, 72.1 for Eikos-4B, 73.0 for Jev, 35.1 for Laya. Error when at
+least 90% confident, 7,140 items and 6 suites: 2.4% for both Eikos sizes,
+5.9% for Jev, 37.3% for Laya. Accuracy with the decision hidden in 64k
+tokens, mean of 3 positions: 88.3 and 74.2. They mark the Jev and Laya cells
+blank because of an API limit of 32k and a 512 to 1k context. "Calibrated"
+is their banner. Quantized and MLX builds are packaging. Do not add a
+scoring row. Qwen is not named in this opening. The table is not Harbor.
+
+**nagisanzenin/nagi**, node `R_kgDOUnPvEQ`, HEAD
+`80f8c5e71832e227c8bf14cc52bbb448d3771c7a`. README opening through the
+four-system table. Logs not opened. Runs not repeated.
+
+*Theirs:* full-suite accuracy 38.85% / 76.14% / 77.92% for Smol / Big /
+HUGE. They say HUGE's +1.78 point lead over Big is not decisive after
+adjustment for three comparisons. On the same complete evidence (4,518) and
+the full operational suite (4,671): Nagi-HUGE 77.49% and 77.92%, Laya 57.35%
+and 57.25%, OpenJev / SemIf 73.87% and 74.06%, Jev 1.13.0 83.95% and 83.92%.
+Option-order flips on 320 pairs: 13.12%, 10.94%, 10.62%, 1.25%. They report
+Nagi minus Jev as -6.47 points, interval -8.13 to -4.89, on the
+common-evidence eight-source macro, and they say that interval does not
+establish universal generalization or a same-hardware latency win. SDK
+v0.4.1 context defaults are not the archived benchmark. Do not add a scoring
+row. The table is not Harbor.
+
+**4nt0ineB/typed-decision-bench**, HEAD
+`649b302fe4f651679a20fb3886ec69c3d36f12ac`. README opening. `results/` JSON
+was not reloaded.
+
+*Theirs, 60 intents, September 2026, `jev-1.13.0`:* English 85% to French
+84%, ECE 0.07 and 0.06. They say 73% of traffic passes 0.90 and 94% of what
+passes is right, and that GPT-4o mini's "0.90" is right 82% of the time.
+They call it one dataset and one kind of question, zero-shot, no updates
+planned. A 60-intent snapshot is not a multilingual placement rule. Not
+Harbor.
+
+**diorrego/toolgate-experiment**, HEAD
+`b3b42c3a09a0f03de965aa7ff2932f2e17f959b7`. README through the V2 table.
+Reproduction docs not opened. Runs not repeated. License field absent.
+
+*Theirs, 143 Woku tools, 60 English requirements per condition, 240 cases,
+`gpt-6-luna`:* first reference tool and expected handler success: direct MCP
+43/60 and 60/60; agent prepares 60/60 and 60/60; host-first Choice 59/60 and
+59/60; host-first binary 59/60 and 58/60. All four conditions persisted
+30/30 mutations in the opening sentence that follows the table. Host-first
+Choice is faster and cheaper in their table. It is not a general rule that
+the host must choose the tool. Direct MCP still completed the handlers.
+Routing is not execution. Not Harbor.
+
+**bydeng01/scientific-decision-eval**, HEAD
+`166bbca0de4ea3f24161a1434217c91cb2791b56`. README opening. Report not opened. arXiv id `2609.24965` is
+theirs. They separate semantic correctness, complete downstream outcomes,
+and final-label correctness on 20 groups, 40 scientific Choices, and one
+engineering Choice. They call the thirteen-model file development results.
+No result cell was copied. Measuring the downstream label is already the
+workflow rule. Not Harbor.
+
+**YidiDev/jev-benchmark** densify. Prior card was not re-opened beyond this
+README opening. HEAD `70e96c8b62d487a96b4631718d591a61dc82096f`. Description hash `a95b55a777ea`. They
+name ten suites, four models, 124 passing tests, and $110.11 spend. The
+chart was not opened. No accuracy cell was copied. A description rewrite is
+not a new bench. Not Harbor.
+
+**brida-ai/reflexbench** densify §168. Node `R_kgDOUm1puQ` unchanged. HEAD
+`077d9d560263b8ac02da53c228189b664a542c6c` to
+`0c3535de20124d278502c6d5e261916876ecfadd`. Description hash `8b85db5b95c8` to `ca6a4b9dd233`. README
+opening. `RESULTS.md` was not reopened. The opening still says v1.0.0 does
+not publish one best-model score, and that semantic quality, calibration,
+language consistency, option order, cardinality, failures, latency, and
+policy value stay separate. §168's numeric headline stays attached to the
+prior SHA. Do not merge those instruments.
+
+**chemany/jeva**, HEAD `c85e725d9b51006284ea426a65007127951e95a3`. Description
+says 100% on the frozen suites and about 230 ms per decision. README opening
+only. Eval files were not opened, so 100% was not copied from a table. A
+frozen suite is not Harbor. Not a scoring row.
+
+### The act stays outside the score
+
+**frolleks/soter**, node `R_kgDOUlf0EA`, HEAD
+`756579a5f77f1e0e612015dd32eb0f90453adcf9`. README opening. Clear cases are
+removed. Borderline cases go to mods. Their escalation table is a warning,
+a final warning, then timeouts. They say there is no manual punishment
+command, and that the bot is early and not always on. Deletion is their
+policy, not a model permission. A score does not own the act.
+
+**JevForge/jev-security-sentinel**, HEAD
+`fd0251b04d31a80effee1901dbc1dc0efe997062`, pin `v0.1.1` in the README.
+Opening. Their policy keeps every finding visible and can only make the
+gate stricter. Code can tighten a frozen scanner result. The model does not
+hide a finding.
+
+**JevForge/jev-ci-pathfinder**, HEAD
+`0684c72ea009e77ef5edd365c561a46842de5a64`. README opening. The job list
+stays in config. Deterministic rules can bypass the model. The Action does
+not edit workflow files. An allowlist is exact work.
+
+**jinlio/mjbrain**, HEAD `196891e51782107bb9ca887c4e4facb24bfc8378`. README opening. Recommend only.
+They say it does not inject an action or send a discard. A rules engine
+prints tile facts beside the model. They say it is not close to Mortal and
+should not be used to play. A game recommendation is not permission to act.
+
+**shengjidaguai-china/goutoujunshi-jev-chat**, node `R_kgDOUnFdvQ`, HEAD
+`fa4bd3086b5f89889a942d8f8038f252c72e5a3a`. README opening. Screen reading, relationship labels, and a
+draft overlay. They say the person decides whether to send. The screen is a
+sensor. Android and Windows builds are described as not yet checked on
+device.
+
+**bgivenb/flick-computer-use**, HEAD `0ca67c380ca97106cc84de1925bb301277888e0a`. README opening. The
+agent supplies the goal and completion conditions. Flick runs the loop.
+Verified outcomes are their sentence. Not measured here. Local execution is
+not a new family.
+
+**0xshikhar/jev-fuse**, HEAD `27ca7c014a539d7228583d846b68d13c4e9c13a2`, README names PyPI `v0.1.0`.
+Opening. A proxy turns probabilities into governed actions. Governance is
+their policy layer. The README was not read past the banner, so the policy
+tables were not copied.
+
+**LivingG0D/laya-trade** densify by description rewrite. HEAD
+`298854abb72a07b9f67455f0ee720884894db9bd`. README opening. A GGUF of Laya
+suggests hold, protect, take profit, or exit, and the page also describes a
+one-click market close. A suggestion is not an order. The close is their
+integration. About 25 to 50 ms is their sentence. Not measured here. Not a
+trading rule.
+
+**atliq/jev-ai-use-cases**, HEAD `f8ebee950a1f919b7d7d7c171686e5a42aa8f04d`. README opening. An LLM
+writes and Jev decides, in LangChain examples. Notebook not run. Examples
+are not a placement.
+
+**mansicer/jev-plays**, HEAD `21e3995019cd7402466530b56888411d2df13d8b`. README opening. Jev picks moves
+in Craftax. An LLM sets goals. Episodes were not replayed. Game success is
+not a calibrated probability.
+
+### Wire, readout, and packaging are not new families
+
+**chaitin/Decis**, node `R_kgDOUlMAaQ`, HEAD
+`931bda85543e0012bfffcf4ea5f6b5ffd7fbcee9`. README opening. One `/v1/systemone` route, engines named
+Laya and kev, one image per engine. A wire server is not logit equivalence.
+Not a new family.
+
+**alvarobartt/sys1**, node `R_kgDOUlJtiw`, HEAD
+`3dfd9166bd14fc492f46ebe983a5f3c72abff52a`. Description rewrite. README opening. Rust candle server for
+Laya heads. About 14 ms per query on an RTX Pro 6000 is theirs, not
+measured. §168's `mcembalest/sys1` card used the same latency sentence and
+said histories were not compared. They are still not compared. Do not merge
+the two nodes.
+
+**LuticaCANARD/L2S1**, HEAD `2938b0536430d9e861abb2cc977eb7325653706a`. README opening. Next-token scores
+from a local GGUF, with explicit abstention. They say templates, token ids,
+predictions, and calibration stay model-specific, and that changing the
+model does not keep the answer. A llama.cpp adaptor is not a trained head.
+
+**ollaya-dev/ollaya**, HEAD `804c378c90672bb6c6edec3a9153396b8284ee6f`. README opening. Local pull of
+Laya, decider, NLI, and GLiClass behind a TypeSafe-shaped API. "Calibrated"
+is their banner. Serving several families behind one route does not make
+them one family.
+
+**styles01/deci-serv**, HEAD `eca0c283b9f2b77dac27d140ff03d8a403d352d1`. README opening. Local PyTorch
+gates. "Cannot hallucinate, because they never generate text" is their
+sentence. A typed output is not truth.
+
+**AmRitJain0442/Tern**, HEAD `6b1723feef39af72b89c0d49e7c86cb133ccfdc2`. README opening past the badges
+was short. Description: local Laya, conservative LLM routing, Chat
+Completions API. Routing is not the act. Status experimental is their badge.
+
+**alanhuangyoo/wev**, HEAD `a4dc555e152f58f9b818c4a08082188007bd5348`. README
+opening. Local 1.7B, 4B, and 8B models, Zenodo `10.5281/zenodo.22941164`.
+"Calibrated probabilities" is the banner. Results section was not copied.
+A paper record is not a reproduction.
+
+**shapsider/OmniJev**, node `R_kgDOUk7J5Q`, HEAD
+`6cf572a2f440fe14bd43a29a7046eabfff36820e`. README opening. Qwen3.5-9B plus a v4 corrective head, weights
+`tzcfly/OmniJev-Qwen3.5-9B-v4`. One forward over supplied options. MuJoCo
+workbench. Not `Iron-LYK/OmniJev` (§161). Qwen3.5 is not Archer. A vision
+head on a language backbone is not a new scoring row.
+
+**AI-Discussion-Room/LaKun**, node `R_kgDOUnsRQg`, HEAD
+`649b6fb09057da1dc3473c12e92e52304eb83de7`. README opening. Text or one image, choice, score bins, and
+binary, softmax over options, up to 20 questions. They cite Laya RLCD as an
+influence. Softmax is not calibration. Not a scoring row.
+
+**mohit67890/imajev**, HEAD `4469df3c61fa643deeeff60a64aeffbdf34a48b7`. README opening. 2B, 4B, and 9B,
+image plus state, explicit can't-tell. "Calibrated" is the banner. Weights
+page not opened.
+
+**newfull5/malkuth**, HEAD `5c3b3a59e7086860e825f405d24ddaec38bf9837`. README opening. Korean-focused
+choice, noul, and score, post-trained from Kev, served through the System
+One API. Hub ids `dhtocks/malkuth-4b` and `dhtocks/malkuth-2b` were not
+opened. A Kev derivative is not TypeSafe Jev.
+
+**BlastZZZZ/jev-anything**, HEAD `23f1d7d7ba2ab361f603b35be6d50147eec634d9`. README opening. 0.6B scores
+supplied candidates for browser, RAG, games, and coins or dice. Results not
+copied. A coin prompt is not a fair bit (§163).
+
+**47thtechcorner/RayCodes_LayaAI**, HEAD `62a7a3fd1c724a91c88c14db284adcc8a9e87de8`. README opening is a
+Pong demo on `convaiinnovations/laya`. 32.8 ms is their badge. A game clock
+is not correctness. "Jev killer" is their title, not a comparison.
+
+**hf:TokenRhythm/NeoHorse-Jev-4B**, sha
+`ce1736d784b1ddbef5be9098e9ca4070c10d3df7`. Hub metadata. README HTTP 404.
+Tags name text classification and multimodal. Do not promote on tags.
+**hf:TokenRhythm/NeoHorse-Jev-4B-GGUF** was not requested. A quant is
+packaging when the base card is unread.
+
+**hf:Reza2kn/Jev-Omni-Q4_K_M-GGUF**, sha
+`0991aeb7a12d2dfee7ebfb07f463aab37405a86a`. README HTTP 404. Base tag
+`akhilaaa3/Jev-Omni`. Packaging is not another model.
+
+**hf:wwydmanski/bielik-minitron-jev-v0.3**, sha
+`17dea472656122c6d4e2e09c644694349466e9cf`. README HTTP 404. Not the v0.2
+card in §168. Do not treat a new id as a measured upgrade.
+
+**hf:Quazim0t0/Byrne-Jev-79M**, sha
+`d492e75cec8597901c063986bbd4c983f2a5634c`. README HTTP 404. Tags only.
+**hf:thaitea/laya-vision-201m**, sha
+`0b6228f7a0762566de1c4539e9aa4eb1c1aef5f4`. README HTTP 404. Not the
+laya-vision card already in the archive. **hf:guanxuyu/visual-jev-4b-answer-sft**,
+sha `7a3f1bb0d8f7bfbbd8514d968ab7de3518849c8d`. README HTTP 404. Description
+rewrite. LoRA tag is not a vision result.
+
+### Calibration and context stay on their population
+
+**hf:HIT-TMG/JevEmbed-Data**, sha
+`fc7f44305315082d7d554d572024861e438aeffa`. Card opening. *Theirs:* 1,601,157
+training rows and 66,482 test rows. They say test is the source corpus's
+validation split. Tags include synthetic. Rows were not loaded. A training
+dump is not a deployment calibration. Not Harbor.
+
+**hf:tasksource/tasksource-jev-typed-decisions** densify §167 and §168. SHA
+`987cc2a7cb8156eebd51cc62029443eb95719a77` to
+`01cf47f3854cc90dc6e60b744586b1c843a3c639`. Card still says 900,000 train,
+50,000 validation, and 50,000 test. License remains `other`. Parquet was
+not loaded.
+
+**hf:tasksource/procedural-typed-decisions**, sha
+`b4f55bea135283127b2945c8e6fc7e68e9c56a4a`. Card opening is the dataset
+config list: arithmetic, entity belief tracking, event state reconstruction,
+evidence sufficiency, and further configs below the cut. Procedural targets
+are exact only when the generator is the label. Rows were not loaded. This
+is not the one-million-row tasksource card.
+
+**hf:KikiNLP/CanITrustYou-Jev**, sha
+`61fb5b67c39227ede4b0ac9b96a00d5260664e8c`. Card opening. They ask whether
+fast decisions hold when inputs are reworded or reformatted, and whether
+abstention helps. Result tables were not in the opening. License
+`cc-by-nc-4.0`. The linked GitHub `JiaQiSJTU/CanITrustU-Jev` was not fetched.
+Not Harbor.
+
+**hf:sumleo/RLCDAlignBench**, sha
+`df1defb5ad1d26dd2cb7cf25c55303498b8c5f33`. README HTTP 401. Unavailable.
+Do not infer the paper's numbers from the dataset id.
+
+**xzx34/JevOut**, HEAD `2eddce8b0f968439d41b0e2a84dc5f2a2dab2468`. README
+opening. Code for probability-guided context additions that try to flip an
+initially correct decision. They say the manuscript, data, figures, weights,
+and proposer training are not in the repo. No targeted-flip rate was in the
+opening. Untrusted context remains data. A missing result file is not a
+rate.
+
+**JuneYaooo/jev-healthcare-lab**, HEAD `737cde6de156e77915b82e7b60389b36e4c74958`. README opening.
+Snapshot date 2026-09-24, model `jev-1.13.0`. They say it is exploratory,
+not an official TypeSafe project, and not a basis for autonomous diagnosis
+or automatic enrollment confirmation. Result tables were not opened. A
+medical choice, a field accuracy, and a full-chart extraction stay different
+questions. The person owns the clinical act.
+
+**Mahad-007/jev-why**, HEAD `528c193f7ab182bb0538f136826f2bc5997269f1`. README opening. A later language
+model story is not the reason the decision model scored. Attribution code
+was not read. An explanation is not calibration.
+
+**Kunyanli230/Jevometry**, HEAD `097dab5553ed6fafb48b1305c510dbbba687502e`, version line 0.1.0 alpha.
+README opening. Distances and Fisher quantities on output distributions.
+Theorems about assumed inputs are not product outcomes. Not run here.
+
+**Gowtham-R-2002/gyra**, HEAD `5b19d58dc2c46305ad090cf07b48fb9658976f06`. README opening. Laya fine-tune,
+about 17 ms on an H100 is their badge. Destructive-command and injection
+checks are second opinions. A second opinion is not the interlock.
+
+**hemanth/jevql**, HEAD `2c3c19ab5595a88797502ebd966953ca0ea0a60f`. README opening. A query language that
+pushes a threshold into a filter. The threshold is the caller's. SQL shape
+is not a calibrated probability.
+
+**fornhere/hafiza-os**, HEAD `f986b3b5d0e8e9fc278906698f83ea8103c0698e`. README opening. Local Markdown
+memory. Jev is optional. Memory is not permission.
+
+**zhengge6/jev-crush**, HEAD `177dc2265fd545c7e5fd70c0013bf608db21209a`. README opening. Chat labels for
+emotion, intent, and affinity. Labels are not a relationship fact.
+
+**cnrai/openpave-jev**, HEAD `6bb3f63866fe55acb878665e8e1f764750233ede`. README opening. A skill that
+asks Choice, Score, and Noul. About 35 to 500 ms and about 1000x cheaper
+are their sentences. Not measured. "Calibrated" is their banner.
+
+### Catalogs and description rewrites
+
+**heyjunpenn/awesome-jev** densify §131. Node unchanged. HEAD
+`8ecdef6a6fcb3acc0c498fe8a87855e5bcd21c0f` to
+`750b2d794af744ddc5e53c0649b157c1b117a70a`. Description hash `eed807328057` to `bf208ecfe0ae`. README
+badge says 896 verified projects, 11 categories, 27 languages. *Theirs.* A
+catalog is not an endorsement and not a census.
+
+**kydlikebtc/awesome-jev** densify §161. HEAD
+`094d06e11e2bbe3c9554a173ceaa0bb60ca456d7` to
+`10782bdec30d6ad82ab69200b4a3d7f2de17dd71`. Description hash `9099760c842c` to `4a6f02464cfb`. Badge
+says 1207 entries. The description says runtime and performance are not
+independently checked. *Theirs.* Not `heyjunpenn/awesome-jev`.
+
+Description rewrite only, README opening, no new family:
+**glud123/jev-assist** HEAD `5a2f59e182d17f350e7a9aa487959092e8d7a15d` (a cut line over search hits is
+not search). **JimmyWesley/rlcd-gateway** HEAD `0541ab1887e36c8e3e8358567742a17f241bcb57` (a base URL
+change is not calibration). **bgrablin/hermes-switchyard** HEAD
+`542f1e094961eec5c5ef8b0306c8672bb9e710de`, version line 0.5.3 (Hermes still owns the act).
+**psyb0t/decidealot** HEAD `91e35a5c258dc065f99b9b4dd570901392a9546a` (local Laya and Von behind HTTP or
+MCP). **BestNathan/system-one-code-explore** HEAD `5781079fa786ad662b94645b1fad7bae3eab5ffb` (the
+harness owns state and effects). **mbilskilets/jevex** HEAD `a9ffe44bd52f103ff8e5aaf74b273ca69335d1ab`
+(an index read is not a live model call). **tomerglick57/Jevstiller** HEAD
+`1ff973bb915dc271cc215828bb0dfda667e41d2c` (a local distill plus an audit slice is not identity with
+Jev). Do not mint sibling first sightings.
+
+### Other first looks at metadata depth
+
+Repo metadata and a short README opening, not a code audit, for
+**AgenticAPP-Web** was not in the fetch set. The remaining novel rows in
+the 267, including **JoasASantos/Raze**, were not fetched. Raze's packet
+line frames an offensive-security agent. That is not a placement, and this
+fold does not inspect or repeat its methods.
+
+Hub metadata with no usable card body stays unknown as a quality claim.
+Empty or unread trees get no invented HEAD.
+
+The 81 research-only ids are names in the packet only.
+
+### Decision-design card
+
+```text
+Domain, desired behavior, decision owner: unchanged; code or a person owns the act
+Current baseline and why a model might help: public tables, calibration banners, wire servers, and catalogs already have rules
+Pillar, placement, and family: no new family; LoRA heads, GGUF ports, candle servers, and System One routes stay inside existing families
+Evidence source, freshness, candidate coverage, missing/contradictory states: 2026-09-24T15:33Z README and card openings; benches not rerun; 217 design rows and 81 research-only rows not fetched; several Hub READMEs 404; RLCDAlignBench 401
+Judgments and output semantics; what remains exact or generated: a hard-tier cell is not Harbor; softmax is not calibration; a catalog count is not a family choice
+Policy, costs/utility, constraints, authority, and execution checks: unchanged; deletion, a market close, and a CI skip stay in policy or an allowlist
+Abstention/error behavior and fallback owner: unchanged; L2S1 can abstain; healthcare enrollment stays with a person
+Batchable versus dependent steps: unchanged; host-first tool choice is one experiment, not a required cascade
+Model, adapter/aggregation, rubric, candidate-source, calibration, policy versions: record Eikos, Nagi, and the 60-intent bench as separate instruments if a later placement needs them
+Development/calibration/test split and label provenance: Tasksource counts unchanged; JevEmbed test is their source validation; procedural labels depend on the generator
+Falsifier, metrics, acceptable risk/coverage, and evaluation artifact: one run on our labels where a public table in this hour changes the baseline
+Implementation/evaluation entry points; search budget and confirmation plan: none this hour
+Observed result, limitations, and next decision: research-only; next experiment only if a placement needs one of these wrappers on labels we control
+```
+
+Soft judgment is not the veto. The sources' own limits and the existing
+rules are. `invented_signal: false`.
+
+## 170. Hourly 1211 HIGH (2026-09-24 ~12:11 Boise / 2026-09-24T18:11Z)
+
+Folded onto `main` `33ba9c516dc10483562c0c316579c6e386a53eeb` (§169 merge tip).
+About three hours after the 0922 watch. Mode NEW_OFF_MAIN. This fold is §170
+only. Do not reclaim §165 through §169. Composition ranges ended at 996 with
+§163. This fold assigns none.
+
+Research-only: no skill, human README, Pages, or package version change.
+Scoring rows stay at 17. Archer stays promised_not_landed. The packet has
+96 design-implication rows and 37 research-only rows. Retrieval for the
+GitHub and Hub calls below is 2026-09-24T18:22Z. Fifty-three README openings
+and ten Hub cards were requested. One GitHub README returned 404. One Hub
+README returned 401. Thirty-three other design rows and all 37 research-only
+rows were archived and not fetched. Third-party numbers stay *theirs*. No X
+calls. No Harbor numbers were invented. This run does not prove an unattended
+scheduler.
+
+### Acceptance
+
+**Problem.** An agent could treat a description rewrite, a catalog count, or
+a public accuracy table as a reason to change family or to add a scoring row.
+It could treat a softmax, a temperature, or the word calibrated as calibration
+on this population. It could let a model send a chat message, resize
+infrastructure, assign a reviewer, skip a test, or block a request that code
+or a person still owns.
+
+**Baseline.** Installed guidance already separates a leaderboard from a
+deployment evaluation, refuses to treat a softmax or a training recipe as
+calibration on this population, keeps the act in code or with a person, and
+keeps TypeSafe Jev as the default hosted exemplar for the class, not the
+class. A public slice is not Harbor. A wire server is not logit equivalence.
+A catalog count is not a family choice. Mappings section 17 stays the last
+scoring section.
+
+**Proposed improvement.** None in runtime files. Archive the sources' own
+limits where they already match those rules, and record the identity joins.
+
+**Assumptions.** A README opening or a card opening is enough to refuse
+promotion. Neither is a reproduction. A description rewrite is not a new
+capability review. A moved SHA is a review trigger, not a new family.
+
+**Affected surfaces.** This section, the hourly archive, fingerprints for
+sources actually looked at, `sources.json` pointers, and the hourly logs.
+Not `SKILL.md`, not `README.md` below `## License`, not the site.
+
+**Checks.** `make check`. No Pages build. No behavioral scenario run, because
+installed guidance did not change.
+
+**Counterexample that would reject this disposition.** A held-out run, on
+labels and traffic this repository controls, where one of these public
+tables changes the baseline placement. A catalog count that changes which
+family to use would also reject leaving the catalogs research-only, and no
+such count is in this packet.
+
+### Description rewrites are not new families
+
+**jaredpalmer/kev** densify §45. Node `R_kgDOUfXmpg` unchanged. HEAD
+`557598fced1dada75dfbf36ed144dce309ac6ceb` to
+`569ea449b1033c5aa8f149ec5e20d0c7a296d24a`. Description hash
+`47fc60928c90` to `83a5d2a065c9`. README opening. The description now says a
+Jev-like family on Qwen3.5 and Qwen3.8 that you can train and run. The
+opening still says the questions share the text and cannot read each other,
+and that calibrated probabilities are the default. That calibration sentence
+is theirs. The badge names 0.8B, 4B, 9B, and 27B weights. Suites were not
+opened. No new bench was copied. Qwen3.5 and Qwen3.8 are not Archer. A
+description rewrite is not a new family. Do not add a scoring row.
+
+**jev-chat/jev-chat-jarvis** densify §160. Node `R_kgDOUjqjyA`. HEAD
+`13419793a87026238d83ce036e1a2d0df039fbb4`. Description hash
+`01cd075a1383`. README opening. The phone copilot reads the screen, fills
+the box, and the person decides whether to send. They say it does not hook
+or repackage the chat app. Stars moved. Stars are not a capability change.
+
+**jev-chat/jev-chat-windows** densify §160. Node `R_kgDOUkANWQ`. HEAD
+`946d3d1409b5f340d2b2c2e2a067d4c143638d5a`. Description hash
+`b2d2c80e73eb`. README opening. Window capture plus local OCR, then Jev
+for intent, then three candidates. They say send stays manual. Judgment and
+drafting use separate keys. Not a new family.
+
+**jev-chat/jev-chat-jarvis-mac** densify, first fingerprint this hour.
+Node `R_kgDOUjtJeg`. HEAD `3ff85c39f25c775123aed7757f7a7e90f88a5da7`.
+Description hash `68ba809a97c7`. README opening. Read-only screen text.
+They report 86.4% on 22 regression items for eight intents. *Theirs.* That
+slice is not Harbor. Fill stays a user action.
+
+**daftAI2026/awesome-jev** densify §132. Node `R_kgDOUf6nhg`. HEAD
+`1765f912da75908e956a514016bf7dbdbf20328b` to
+`9d7828d7adddd5a88b292e3130a6fdf4c83b9a1c`. Description hash
+`98bae00ec497` to `cbc1a3c4c6f0`. README opening. Badge says 1171 projects.
+*Theirs.* They separate independent alternatives from official projects.
+A catalog is not an endorsement and not a census. Not
+`heyjunpenn/awesome-jev`.
+
+**suraj-phanindra/wellposed** densify §46. Node `R_kgDOUfaKHg`. HEAD
+`c408c535cf548a87bc819c0f07484422601843a5`. Description hash
+`4777bad95be5`. README opening. Offline lint still warns that a Choice
+without `other` or none can return confidence 1.00 on a wrong answer, so a
+confidence gate will not catch it. The structural check stays exact. The
+model does not repair a missing option.
+
+Description rewrite only, README opening, no new family:
+**Emenowicz/jev-sap-commerce** HEAD `3428d685e65763787cd4d451911d36aecdf90db3`
+(dry run first; category suggestions stay for a person; the extension does
+not change categories). **Simon-zj1/jev-exam** HEAD
+`3200e3f25c239c04581a450ff973942c8db83273` (point scores are combined in
+code; the offline demo grades by lexical overlap, not by Jev).
+**WesleySmits/spark-jev-email-triage** HEAD
+`12b07446178ae244f45c1da28e014d52d1186152` (classification and review do
+not change mail; archive is a separate default-off step after an explicit
+confirm). Do not mint sibling first sightings.
+
+### The act stays outside the score
+
+**jev-chat/jev-chat-jarvis-ios**, node `R_kgDOUmspBA`, HEAD
+`4a47f15d369babf97b95c1ea1a799f05bdc17364`. README opening. A custom
+keyboard. The person copies a message. The keyboard reads the clipboard
+and shows intent, a 0 to 9 risk, and candidates. They say it never sends.
+The clipboard is a sensor. Full keyboard access is their install step.
+Not a new family.
+
+**GuSheng107/helpme-Jev**, HEAD `22a05485b02be1fdf83073b903fcb7a62a3a6a95`.
+README opening. Jev decides, a language model writes, the person chooses
+the next step. They say it is not there to speak for the user.
+
+**JevForge/jev-flaky-detective** HEAD `9808a21decb82fd096e5ccfa55a5caafce2a3b94`.
+**JevForge/jev-pr-profiler** HEAD `fcae0bd8f2f9c8765c20c15cd6253c3d3b55fbea`.
+**JevForge/jev-release-oracle** HEAD `f82cd72ed54dd387f209cffb4193b6c0f261d6bc`.
+**JevForge/jev-resource-rightsizer** HEAD `d8c14f01130ed4fd8c024d11c8d4880e3f53bf67`.
+**JevForge/jev-reviewer-navigator** HEAD `584e39437ecd2fd7a5403b3db8a86a47dd003c8e`.
+**JevForge/jev-test-intelligence** HEAD `cb245564bca0a155438916530fa036d2043821e1`.
+README openings. The Actions classify, profile, or recommend. They say
+they do not rerun tests, mask failures, approve, merge, publish, resize
+infrastructure, assign an unknown reviewer, or execute tests. Allowlists
+and policy floors stay in the workflow. A score does not own the act.
+Sibling of the §169 pathfinder and sentinel, not a new family.
+
+**ChenneyZhuang/laya-computer-use** HEAD `37dbf6d014226f25a4649444f716a3ebf23ff188`.
+README opening. Laya picks an operation and an element index from the
+Accessibility tree. Code performs the action. They say the model never
+emits a coordinate. Not measured here. Local execution is not a new family.
+
+**edgeteamio/jev-cua** HEAD `4a2f27e55b5b9a6a8d022aef3a9b9f489e172849`.
+README opening. Voice to typed decisions to accessibility actions. Live
+commands act on the Mac. Not measured here.
+
+**dark-hxx/jev-safety-gateway** HEAD `3c549c30a8db908daf236cfcafe6df3f5ea8c893`.
+README opening. A reverse proxy asks Jev and can return 403. The block is
+their policy. A score does not by itself own the intercept.
+
+**devleo10/nightwatch** HEAD `e383cb8e7a1b84994074a4dd0da3abe6f3d6afb9`.
+README opening. Rules first. Jev answers the rest. The queue moves only
+when confidence clears their bar. On seven failures, rules handled three
+and the cascade handled five, and Jev declined one case at 58%. *Theirs.*
+Seven jobs are not a study.
+
+**LocoLoboZ/jev-seatbelts** HEAD `77d3e159e512da3cc06a76993a5d7c314ded7501`.
+README opening. Seven hooks. Most checks are exact lookups. Jev is only
+for the calls they call hard. The numeric section was not copied.
+
+**O-Midey/switchboard** HEAD `94350b9a19fd835d3c845afd059c88be6e9f74c2`.
+README opening. Live traffic still uses the baseline router. Jev is not
+wired yet. A candidate policy must name configured backends. Shadow is
+not a cutover.
+
+**ajaffer/mock-interview-signals** HEAD `98500486939d09c086d7f16917e9ef7d4b85c2df`.
+README opening. Signals are for the interviewer. They say a usefulness
+gate on 2026-09-20 failed because a correct signal was already obvious.
+On one 10-minute session: 119 judgments, 8 shown, $0.0025, median 119 ms.
+*Theirs.* Accuracy is not usefulness. Not Harbor.
+
+### A public table is not the deployment decision
+
+**JuneYaooo/jev-healthcare-lab** densify §169. Node `R_kgDOUpkPKQ`. HEAD
+`737cde6de156e77915b82e7b60389b36e4c74958` to
+`8978023a011b94cf3df0d10bc3eb97dd6fafe9bb`. Description hash
+`468d3326691c` to `588609d94380`. README opening. *Theirs, same 6,586
+inputs, 12 kinds of work, 96 tests:* on 72 public tests Jev is higher on
+39, DeepSeek V4.1 Flash on 27, ties 6. They say the tasks must not be
+collapsed into one medical accuracy. Enrollment three-way 48%, five-scale
+numeric judgment 25%, extraction composite 12.7/100. They say those must
+not be automatic. Cost per thousand inputs about $0.057 versus $0.130, and
+typical wait 0.75 s versus 0.55 s, and they say the waits are not a
+paired timing. Not Harbor. Do not add a scoring row.
+
+**ManankumarThakkar/jev-escalation-gate** HEAD
+`a5de5c2278fd388fe555a4177f9defb50404dcd9`. README opening. They say the
+same gate scored 100% and 69.5% on the same model and prompt, and that the
+only change was how the wrong answers were built. They also say 97%
+confidence was right 97.6% of the time, and that a route then covers 57.5%
+of traffic at 95.2% accuracy, on 600 decisions. *Theirs.* The negative
+set is part of the instrument. Not Harbor.
+
+**bhushankinge/jev-laya-classification-bench** HEAD
+`57e89266a7680a92c6803b5a33f711ab90c6ca08`. README opening, including the
+hero caption. *Theirs, 741 opportunities with quote gold:* primary-class
+accuracy Jev 91.9%, Qwen3.5-35B 89.6%, Laya 78.0%. Auto-accept at 95%
+precision: Jev 86.5%, and they say Qwen and Laya do not reach it.
+Fulfillment mode on 634 rows: 65.0%, 71.0%, 45.7%. The 12,000 figure is
+the labeled set, not the quote-gold slice. Not Harbor.
+
+**bhushankinge/laya-cuda-bench** HEAD `6cf4148ef4d148273eae83604815fb63ca2254de`.
+README opening. Capacity and p99, not accuracy. Their caption puts Laya
+near 42 to 175 decisions/s. *Theirs.* Not a scoring row.
+
+**LLM-Architects/Deciduous** HEAD `62dd5027858a7d371845f207a39a1c31b897d82f`.
+GitHub size 0. README opening. They say this is a rename of AutoJev and
+point code at `denis-pplx/autojev`. Do not join those identities from the
+README alone. *Theirs:* AutoJev-27B 84.60% accuracy, ECE 0.04282, Brier
+0.22027; Jev 82.79%, 0.05274, 0.25400; Qwen3.8-27B 69.83%. Training corpus
+not bundled. Qwen3.8 is not Archer. A ternary GGUF pin is packaging. Not
+Harbor.
+
+**chyiiiiiiiiiiii/flutter-jev** HEAD `f66c78dd37dc08b35b8179a0434700f7b6deaf52`.
+GitHub size 0. README opening. Four flows, three runs, 24/24 green on one
+machine. They say the script wins three of four. Median decision 296 to
+326 ms. *Theirs.* Not Harbor.
+
+**sallout/laya-coreml-vs-jev-benchmark** HEAD
+`c4301cfef4212d0c3bbc1187c2fd906e156375d8`. README opening. `RESULTS.md`
+was not opened, so no accuracy cell was copied. They name Banking77
+3,080, ArBanking77 15,534, and CLINC150 5,500, and they say 77-way and
+151-way choice exceeds Laya's own option advice. A protocol is not a
+result. Not Harbor.
+
+**wojciechwiesner/jit-context** HEAD `798ace99bfa61f2975ffd4361395623bfe9b20bc`.
+README opening. They claim 61% fewer turns, 2.44x delivery, and more than
+99% fewer prompt tokens on one commercial codebase, and a System 1 gate
+badge of about 31.3% turns. *Theirs.* Zenodo DOI `10.5281/zenodo.22649542`
+is theirs. Not reproduced. A context gate is not a new family. Not Harbor.
+
+**jaibhasin/jev-flappy-bird** HEAD `960ef4977eef96f5ab689a774c43f37969c3198f`.
+README opening. Two birds, flap or wait, shared seed. No score was copied.
+Game success is not a calibrated probability.
+
+**Brandsma/semif-conlang-lora** HEAD `4d06d07d48aae79d7507e0179b7ef2b46738d2b0`.
+GitHub size 0. README opening. A made-up grammar and a LoRA question.
+No result cell was copied. SemIf is not a new sibling of TheoLeeCJ/SemIf.
+
+### Wire, readout, and packaging are not new families
+
+**Egbertjing/vllm-jev** HEAD `1ac226012d3e856c897f776106b7e4e9e6caca45`.
+README opening. Native vLLM serving for a compatible checkpoint. The
+example serves `ZefanCai/Open-Jev-2B`. Serving does not train. A server
+is not logit equivalence.
+
+**ChristofMilius/mcp-agent-openjev** HEAD `26516152cf0d1f2fcee31fd80e425fa48a554b15`.
+README opening. Letter logprobs from an OpenAI-compatible chat endpoint,
+then temperature and softmax. They call that a calibrated posterior.
+Softmax is not calibration on this population. Abstain is their threshold.
+Not OpenJev logit identity. Not a new family.
+
+**HappyMonkeyAI/kev-decision-mcp** HEAD `4e2f33529a01a6f41a6597b917b75ba8e3cfac5a`.
+README opening. Stdio tools in front of a local Kev server. The clone
+line names `SPhillips1337/kev-decision-mcp`. This node is
+`HappyMonkeyAI/kev-decision-mcp`. Do not join them from that line.
+
+**SiliconLabAI/OpenJev-Cactus** HEAD `196e2b21e3ee11f13b9926d28350497f4f3d3b39`.
+README opening. `/v1/systemone` beside chat completions, on cactus-needle.
+A wire server is not a new family.
+
+**matteobombelli/presto** HEAD `9c4b86412583ad8225167a635dfbb11bcbf827b6`.
+README is the title only. GitHub size 0. Description says it is built to
+beat Laya zero-shot. No evidence in the opening. Unknown as a quality claim.
+
+**mekeren/system-one-benchmark** HEAD `e8904ca72c783da1979f7269eb6ae7ca4390e917`.
+GitHub size 0. README opening. Rule engine, a local GGUF, and a cloud
+chat endpoint behind `/v1/systemone`. They say the wire is compliant.
+Wire compatibility is not logit equivalence. No result cell was copied.
+
+**patkusch/assay** HEAD `340219ac1d8faf27ff8c289a1fce345997261e01`.
+README opening. Ollama logprobs for gemma3, served like System One. They
+say Jev's accuracy claims are graded by two other models. That sentence
+is theirs and was not checked. Order checks do not establish calibration.
+
+**phix/dev** HEAD `b486b352ca9df04fa1f40679efe64d99d057107e`. README opening
+is the Laya lockup and a security-hardened-fork sentence. Not a code
+audit. A fork is not a new family and not Laya itself.
+
+**abusuraihsakhri/laya-universal** HEAD `086bbbb49b051f8879d7f100d5edbb443588bba1`.
+**ali-master/usejev** HEAD `c12c67294411d58a0cf7385700fa6e308ffb9d6a`.
+README openings. ONNX or MLX or Bun serving for Laya. A runtime is not a
+calibrated replica.
+
+**KKloudTarus/taurus-jev-sdk-go** HEAD `78d0cfc134548bbd32a9364469a1bdd3ba6d83ea`.
+README opening. Unofficial Go client. They reject a body that is missing
+a required field. A client is not logit equivalence. The 2.2x sentence is
+theirs and was not copied past the opening.
+
+**wnoronha/jeb** HEAD `f49045d5ca4f49a56619b675d2e2c054a0b0f3f3`. README
+opening. CLI for System One. The install snippet clones `typesafe-ai/jeb`.
+This node is `wnoronha/jeb`. Do not join them.
+
+**YanfLIZi56/jev-starter** HEAD `fab406ae72cd9907eed2e428c64655f1d9d70aea`.
+README opening. A browser form for Noul, Choice, and Score, then an export
+of client code. A form is not a new question type.
+
+**malaya-zemlya/likely** HEAD `43c56cc5ce949ac93004d61381cc1cbbdd7005ff`.
+README opening. `likely` returns a Noul probability and batches questions
+it can see in the caller, including branches that have not run. Batching
+is not statistical independence. The threshold stays in the caller's `if`.
+
+**0xjba/jev-swap** HEAD `c6b82425c57a211b22e63e432e6b2959470b3c71`.
+README opening. Scan, convert, shadow on recorded traffic. A scan is not
+a swap. Generated clients target SDK versions they name. Not measured here.
+
+**AdityaRawat00189/Laya-Firehose** HEAD `142388b1ffc2126494b78a894ff911aa621bf310`.
+README opening. One Laya call returns category and urgency. About 33 ms
+GPU and 193 to 464 ms CPU are attributed to Laya's published benchmarks,
+not measured in this opening. The urgent queue is their threshold.
+
+**Andrea-Bruno/harness-superfast** HEAD `76c83576f90293d68241fc8ce345f3fdca0139c4`.
+README opening. A white paper. They say 1 to 3 seconds per message is the
+cost of waking a large model. *Theirs.* Not a measured gate. CC BY 4.0 is
+their license claim. GitHub SPDX is NOASSERTION.
+
+**emericle/kdr** HEAD `7fe956fb757fc1f98f612751e995ffc4787bf082`. README
+opening. A Bellman and Gymnasium trading sketch. Not a Jev placement. No
+result cell. Not a trading rule.
+
+**Parswanadh/laya-lab** HEAD `4f26dacdae7294fb362bf3c39ed9480ff917377b`.
+README HTTP 404. Metadata only. Unknown as a quality claim.
+
+### Hub cards
+
+Card openings, not reproductions. "Calibrated" and "mathematically
+calibrated" are their banners.
+
+**hf:Deepdive404-3/laya** sha `d236df411bf309c27079c79e01fca25f8bf60bf3`.
+Apache-2.0. The card repeats the Laya banner, including about 33 ms.
+Packaging of that family, not a new one.
+
+**hf:ai-ecoverse/jev-omni.js** sha `df441e9210d60968040857d5e0783794fa3cc157`.
+Apache-2.0. Browser weights for `akhilaaa3/Jev-Omni` on Gemma 4 12B.
+Gemma 4 is not Archer. An ONNX export is not logit equivalence.
+
+**hf:chaoliangUNSW/Jev-Style-0.8B-Decision-v3-MLX** sha
+`1ac1719e779a6fb9df1f0d20a471e699185b5a9f`. Quantized MLX of their v3
+0.8B card. Qwen3.5. Packaging.
+
+**hf:nicolasembleton/openjev-minicpm5-2b-shell-safety-phase1b-merged** sha
+`33ff852d3a67a31da9b2bf123dff01eb255865cc` and the ONNX sibling sha
+`32973f378a8dc3ed4e96ed91953d6234b101b7ca`. Merged LoRA on
+`openbmb/MiniCPM5-2B`. The ONNX card says its phase-1 numbers are from
+the PyTorch LoRA and the browser export may differ. The numeric cells
+were not copied. A causal LM export is not a decision-head identity.
+
+**hf:shgao/rsi-jev-v1.0-qwen3.5-0.8b** sha
+`6ecf0fb8f91d6005e9383ea8d0d4e7031cf7d963` and **rsi-jev-v1.0-qwen3.5-2b**
+sha `129e6f4aa41ce082a89ee0e98d1b5f7a03f02248`. They say seed 17 was fixed
+ahead of time. *Theirs:* 0.8B typed-decisions 0.6175, reversed order
+0.621; 2B typed-decisions 0.6525 and reversed order 0.6525. Not Harbor.
+Qwen3.5 is not Archer.
+
+**hf:vtava/Laya-Integrated-Memory-V23-Decision** sha
+`1835aaaba7abe0b77d40eb34fd2f308d685df769`. They say teacher/student
+agreement is 75.00%. *Theirs.* Agreement is not accuracy. License field
+absent on the card opening.
+
+**hf:ylm182/ec2eat-laya-serving** sha `210dda8cc0d8bc2798d7b03d7271337677c0e8b2`.
+A handler that downloads `convaiinnovations/laya-multilingual` at a pinned
+revision. Five local tests are theirs. A serving wrapper is not a new model.
+
+**hf:AlexWortega/openjev-data** HTTP 401. Unavailable. Do not infer that
+the mixture does not exist.
+
+### Not fetched
+
+Repo metadata was not requested for: AESMatias/Extracta,
+PerryLink/perrylink, ngallodev-software/typesafe-ai-implementation-skill,
+AngeeelD/systemone-email-cleaner, BraveRam/jev-slop-detector,
+CarlosZiegler/medusa-jev, Layasri2005/Layasri2005, RohitKaushal7/omarchy-beam,
+SRjoeee/jev-paper, SuperInstance/quilt-readme-expansions, a-chris/pi-ask-jeff,
+abhishekbasu/decmodels, bsisduck/laya-top, carl0s/laya-mcp-server,
+dhruv15598/RAG-Financebench-Jev, ghathaantarigan-cmyk/SatuLayar,
+jaounial/laya-model, jasonli0226/jev-playground, jaygajera17/JevPulse,
+kellystuard/jav-gmail-classifier, kodexArg/laya-mcp,
+qinpei-dev/Doubao-jev-agent, reycardo/laya-murdle, riposta/pi-jev,
+ris3abh/Engram, ruralbytest/demojev, samyakjain0606/brain-vault-extension,
+shadman25/jeveni-website, sidney-tio/jev-ued, simkeyur/OmniSnap,
+sjungwon03/jev-langgraph-example, vstrofago/vigia, xiaotao-xiaotao/jev-sense.
+
+The 37 research-only ids are names in the packet only.
+
+### Decision-design card
+
+```text
+Domain, desired behavior, decision owner: unchanged; code or a person owns the act
+Current baseline and why a model might help: public tables, calibration banners, wire servers, and catalogs already have rules
+Pillar, placement, and family: no new family; Qwen3.5/3.8 heads, LoRA merges, ONNX/MLX/GGUF ports, and System One routes stay inside existing families
+Evidence source, freshness, candidate coverage, missing/contradictory states: 2026-09-24T18:22Z README and card openings; benches not rerun; 33 design rows and 37 research-only rows not fetched; laya-lab README 404; openjev-data 401
+Judgments and output semantics; what remains exact or generated: a public cell is not Harbor; softmax is not calibration; a catalog count is not a family choice; agreement is not accuracy
+Policy, costs/utility, constraints, authority, and execution checks: unchanged; send, resize, assign, skip, and archive stay in policy or an explicit confirm
+Abstention/error behavior and fallback owner: unchanged; a missing option is a lint, not a confidence gate; Nightwatch moves the queue only above their bar
+Batchable versus dependent steps: unchanged; likely batches unrun branches, and that is not independence
+Model, adapter/aggregation, rubric, candidate-source, calibration, policy versions: record kev, the healthcare table, the escalation gate, and the solicitation bench as separate instruments if a later placement needs them
+Development/calibration/test split and label provenance: the escalation gate's two negative sets are different instruments; healthcare says the 96 tests are not one accuracy
+Falsifier, metrics, acceptable risk/coverage, and evaluation artifact: one run on our labels where a public table in this hour changes the baseline
+Implementation/evaluation entry points; search budget and confirmation plan: none this hour
+Observed result, limitations, and next decision: research-only; next experiment only if a placement needs one of these wrappers on labels we control
+```
+
+Soft judgment is not the veto. The sources' own limits and the existing
+rules are. `invented_signal: false`.
+
+## 171. Hourly 1510 HIGH (2026-09-24 ~15:10 Boise / 2026-09-24T21:10Z)
+
+Folded onto `main` `adc7369ed78b6f71e0cc7d4d8625a8efa1127c60` (§170).
+About three hours after the 1211 watch. Mode NEW_OFF_MAIN. This fold is §171
+only. Do not reclaim §165 through §170. Composition ranges ended at 996 with
+§163. This fold assigns none.
+
+Research-only: no skill, human README, Pages, or package version change.
+Scoring rows stay at 17. Archer stays promised_not_landed. The packet has
+101 design-implication rows and 25 research-only rows. Retrieval for the
+GitHub and Hub calls below is 2026-09-24T21:25Z. Seventy-seven GitHub
+README openings were requested. Seventy-six returned a HEAD.
+`vishalmysore/layaAgent` returned node `R_kgDOUqG3gw` and no branch.
+Thirteen Hub calls were requested. Six returned 401. Two returned a sha
+and a README 404. Five card openings were read. Eleven `lawrence3699`
+mirror rows and all 25 research-only rows were archived and not fetched.
+Third-party numbers stay *theirs*. No X calls. No Harbor numbers were
+invented. This run does not prove an unattended scheduler.
+
+### Acceptance
+
+**Problem.** An agent could treat a description rewrite, a recipe count, or
+a public rank as a reason to change family or to add a scoring row. It could
+treat the word calibrated, a mock provider labeled Jev, or a Hub banner as
+calibration on this population. It could let a model stop a shell, drive a
+browser, label mail, or issue a tool permit that code or a person still owns.
+
+**Baseline.** Installed guidance already separates a leaderboard from a
+deployment evaluation, refuses to treat a softmax or a training recipe as
+calibration on this population, keeps the act in code or with a person, and
+keeps TypeSafe Jev as the default hosted exemplar for the class, not the
+class. A public slice is not Harbor. A wire client is not logit equivalence.
+A catalog count is not a family choice. Mappings section 17 stays the last
+scoring section.
+
+**Proposed improvement.** None in runtime files. Archive the sources' own
+limits where they already match those rules, and record the identity joins.
+
+**Assumptions.** A README opening or a card opening is enough to refuse
+promotion. Neither is a reproduction. A description rewrite is not a new
+capability review. A moved SHA is a review trigger, not a new family.
+
+**Affected surfaces.** This section, the hourly archive, fingerprints for
+sources actually looked at, `sources.json` pointers, and the hourly logs.
+Not `SKILL.md`, not `README.md` below `## License`, not the site.
+
+**Checks.** `make check`. No Pages build. No behavioral scenario run, because
+installed guidance did not change.
+
+**Counterexample that would reject this disposition.** A held-out run, on
+labels and traffic this repository controls, where one of these public
+tables or the mock Jev column changes the baseline placement. A catalog
+count that changes which family to use would also reject leaving the
+catalogs research-only, and no such count is in this packet.
+
+### Description rewrites are not new families
+
+**socai-io/jev-social** densify §167. Node `R_kgDOUgi6vA` unchanged. HEAD
+`51830b34906673e796754b70f8e878d166822a9b` to
+`e2590782535433b3a88fd0e5406d54bf70a8647b`. Description hash
+`2ea6ddbaf00a` to `a906f5ad2729`. Release tag still `v0.1.5`. README
+opening. Jev chooses the next operation. socai runs the selected CLI in
+the user's Chrome. The opening says the recording is the earlier
+routing-only prototype. Stars moved. Stars are not a capability change.
+A browser executor is not a new family.
+
+**agencyenterprise/jev-recipes**, first fingerprint this hour. Node
+`R_kgDOUk9OaA`. HEAD `331b6e1b6cf97bc37b2a7a776f7d958d5ad6b0b8`. Tag
+`v0.6.1`. Description hash `b3a397dec676`. README opening. The description
+says 200+ recipes. The opening says 236. *Theirs.* It also says the
+decisions are calibrated. That sentence is theirs. The opening says the
+application decides what happens next. A recipe catalog is not a family
+choice. Do not add a scoring row.
+
+**Tech-Byte-Frontier/jevgate** densify §154. Node `R_kgDOUgcwLw` unchanged.
+HEAD `d7959412b6b4809c9cc6ccaa85d7ae88dc337689` to
+`dfe3be5c4d5dccb057bd5a5c199fac9f416dd714`. Description hash
+`90b6ec894a80` to `931cf37a2a2c`. Tag `v0.12.1`. README opening. The
+description now says a code-review gate. Code combines typed answers into
+findings with a location and a probability. The opening leaves the next
+step to an agent, a CI job, or a person. A finding is not a merge. Still
+not `ruslanlap/jev-gate`.
+
+**Lasimeri/Mechanical-Jev** HEAD `da49f9795dbc3ae151d74b0b118461a0ee92c323`.
+Node `R_kgDOUph2qw`. Description hash `4f1202926c28`. README opening. A
+Rust client and `mjev` talk to a local Intel Phi server on
+`POST /v1/systemone`. A wire client is not TypeSafe Jev and not a new
+family.
+
+**SRjoeee/jev-paper** HEAD `bdf46b7f29dd7a21430deb14da81d4852e4699c3`.
+Node `R_kgDOUp5GAg`. Tag `v0.2.0`. README opening. The extension marks the
+authors' own sentences. The opening says it does not generate text. The
+"how good" section was not copied. Not Harbor.
+
+**arthurfiorette/jev-playwright** HEAD
+`3a6dd7d412f96cb0720e659a49c4a36bba16e294`. Node `R_kgDOUpxPqA`. Tag
+`v0.2.0`. README opening. Jev selects Playwright tests. If selection does
+not finish, the full suite runs. Selection is not a skip authority by
+itself.
+
+**King4s/jev-loop** HEAD `dd36556af1d80b922c9644cfb7234655bdad610e`. Node
+`R_kgDOUpQy-g`. Tag `v2026.09.24.2104`. README opening. Jev picks the next
+role. Claude Code, Codex, or Hermes writes. The opening says only the
+review can declare the task done. A done probability is not completion.
+
+**robinwintertaylor/Prompt-Router** HEAD
+`3117ae60fa11b3f1338e6b6fce5690f821ab6740`. Node `R_kgDOUjkWFA`. Tag
+`v0.1.0`. Description hash `4e13e18a9742`. README opening. The description
+says sub-120 ms, 540+ models, and a 0.60 confidence gate. *Theirs.* That
+latency was not measured here. 0.60 is still their threshold. A local
+heuristic mode needs no TypeSafe key. Not a new family.
+
+### The act stays outside the score
+
+**Awlaursen/pi-lookout** HEAD `667b21530a2161ca5eebff634da83fa81c3ad3e5`.
+README opening. Two questions. The command is stopped only when the
+answers are clearly yes and no. The stop is their policy.
+
+**qinpei-dev/permit-mcp** HEAD `5268635f959bac80b018547b10aaaebf8df99515`.
+Tag `v0.3.0`. README opening. Allow issues a one-use permit. Review waits
+for the caller. Deny does not call the executor. The showcase uses an
+offline mock. A score does not own the tool call.
+
+**KeithHanson/jev-email-classifier** HEAD
+`1024b686cee8cb73e2b736f06cf92fc496935a24`. README opening. Labels only.
+They say it never archives, deletes, trashes, or marks mail read.
+
+**akanksha-rajhans-ai/diffguard** HEAD
+`44d28e2bca903cb5b26360de581b60bfc69db7be`. README opening. Jev scores
+pull-request risk. A deterministic policy recommends review. They say it
+does not certify the diff or replace a person.
+
+**greghavens/jev-no-bullshit** HEAD
+`115af31ee3a48b5c80b230a2dc4731590342aac6`. README opening. Checks a final
+summary against what the assistant did, then sends the assistant back.
+The redirect is their harness. Not a truth certificate.
+
+**WeiS49/message-tone-checker** HEAD
+`27f66bedd5a8a9cc1352b1fd8be00677efedd71f`. README opening. Pre-send
+checks. They say it does not generate a replacement message. The person
+still sends.
+
+**antigravitysoham-eng/esg-disclosure-desk** HEAD
+`02e8786ec7fb5079f3bef405362c92a2a735f2de`. README opening. Compares claims
+with evidence records. They say it is not assurance and not a compliance
+determination. The demo needs no API key.
+
+**iksnerd/SystemOne** HEAD `761ab06987dc5880a55284010160c75164be9355`. Tag
+`v0.10.0`. README opening. The package, module, and command are `verdict`.
+They say it answers and the caller acts, and that it is confident whether
+or not it is right. Not `neilbauman21-hub/verdict`. Not
+`sgoedecke/system-one`.
+
+**Ryu0118/jev-sim-use** HEAD `527aed4a06ff4609e8a2da8213593a5c1470535a`.
+**danielnc/jev-browse** HEAD `3d27b3e73056bdafbc13eb5ea866bc56a778ff4e`.
+**Salvius10/Kural-Automation** HEAD `605e92b0aa1726b2e5996585e1eba158bfeed7d4`.
+**Shiawaseu/katai** HEAD `6cc16640bc66f4d07dcc2968ab197a81a60332bb`.
+README openings. Jev or Laya picks the next screen action. Code performs
+it. Not measured here. Local execution is not a new family.
+`Kural-Automation` vendors `browser-use/jev-ultrafast`. Do not join that
+identity from the README alone.
+
+**touhidsiddiqueeraj-bit/hey-laya** HEAD
+`51b0be5ffce1b15e7b9d88f016d6920da1f40aae`. README opening. On-device Laya
+picks a command. They say `answer_confidence` gates every command. That
+gate is theirs. Not a calibration study.
+
+**NISH1001/reflex-guard** HEAD `da504a01f5dc70e362d175c1204019954c06d4bc`.
+README opening. Per-category scores. Modes combine with any, all, or
+`votes=k`. Laya today. Von and TypeSafe Jev are planned, not shown.
+
+**SaiAbhijyan/Wastegate** HEAD `c070f3a2b06ab5c1e3204c1ef7be89e6c431d51c`.
+README opening is the description repeated. No gate threshold was copied.
+
+**bigknoxy/janus** HEAD `6de96787582e6b13a52e253c5ebc4f13aa2a2cbe`. Tag
+`v0.1.0`. README opening. Laya decides, a local model writes, code guards
+the join. "Calibrated" and "0-corrupt" are theirs. Not measured here.
+
+### A public table is not the deployment decision
+
+**TriusAI/Kapteeni** HEAD `547755233b0a64d1b9125cbd3ba4fa9a5b5f302b`.
+README opening. Qwen3-4B LoRA, served as System One. *Theirs:* on the
+JevBench v1.4 public half, kapteeni-v1 scores 65.71, about second of 73,
+and they say the asterisks live in `docs/JEVBENCH.md`. That file was not
+opened. The public half is not Harbor. "Calibrated" in the opening is
+their description of the Jev docs, not a measurement here. Qwen3-4B is
+not Archer. Do not add a scoring row.
+
+**blacksinisterx/jev-bench** HEAD `bcecc7f03943717a41f34553c3a4de05940497a7`.
+README opening. *Theirs, and the Jev row is a mock provider:* regex 60.3%,
+mock Jev 71.4%, TF-IDF plus logistic regression 74.6% after 147 training
+examples. Direct versus paraphrased cells are in that table. A mock column
+is not a Jev measurement and not Harbor. Not `stern9/jev-bench`.
+
+**stern9/jev-bench** HEAD `a7463a23728650cfc5b5ad51c70f8e9a004a6563`.
+README opening defines accuracy, latency, ECE, and Brier. No result cell
+was copied. A harness is not a result.
+
+**adambkovacs/candidate-experience-benchmark** HEAD
+`f1cfc452e66783b77bcd7583d18dedf510b77068`. README opening. Sixty synthetic
+reviews, four judgments. No accuracy cell was copied. Synthetic labels are
+not a deployment population.
+
+**nunezb/jevlint-tests** HEAD `ac5a968236258ef7f3fbe1ead501cfd36e6a9d1f`.
+README opening. `jevlint 1.2.0` on 27 files that were not written for the
+linter. *Theirs:* code-only pass 40 findings (0 errors, 12 warnings, 28
+advice). Model pass 16 errors, 23 warnings, 54 advice, 143 API calls.
+Twenty-seven files are not Harbor.
+
+**craigm26/duckbatch** HEAD `e539d47d415d2931f9b4942d15771edaa9eb457e`.
+README opening. Simulation only. They say nothing has run on a real
+Microduck. *Theirs, b002, 2026-09-24:* a 26,254-parameter student. Jev and
+GLiNER2.5-Decide are measured as judges, not trusted as judges. A
+pre-registered kill order is policy. Not Harbor.
+
+**jpol34/trellis** HEAD `1bc36c906eb685c366d3ba9703e760701709c551`. README
+opening. A Laya choice head on synthetic call transcripts, compared with
+Jev and GPT-5.1. No score cell was copied.
+
+**turlockmike/decide-lab** HEAD `e25d3b37d4d2323798be773196bba08965433b78`.
+README opening. Local eval of `fastino/GLiNER2.5-Decide`, plus a Jev
+comparison harness. No cell was copied. The span architecture note is
+theirs.
+
+**adambloebaum/laya-blackjack** GitHub HEAD
+`ebe821bbef98e9fad3484d6ea18e44adb6fbd4d2`, tag `v1.0.0`. Hub
+`adambloebaum/laya-blackjack` sha
+`14af6820702b3d6eb47d5f9e395f7852af3767ec`. Card opening. Finetune of
+`convaiinnovations/laya`. The "probability-calibration" tag is theirs.
+No blackjack return was copied. Game success is not a calibrated
+probability. The GitHub repo and the Hub card are one project name, not
+two models.
+
+**MayankBansal12/game-theory-with-jev** HEAD
+`73cc6f44f2ffea52ccb306206afea16052b67ba7`. README opening. Forty matches,
+model `jev-1.13.0`. No payoff total was copied. A game score is not ECE.
+
+**itani404/jev-explained** HEAD `7937c5f4c85d7b3efe5261c52e1510a03c0b9e57`.
+Tag `v1.0.0`. README opening says the speed and cost figures are
+independent tests. Those figures were not copied.
+
+**mattheworiordan/jev-landscape** HEAD
+`4579bf2e6b4fdc059a850d46e381bef9f4939928`. README opening. Post ids only.
+No post text was fetched. A week of posts is not a census. Usage figures
+in the report were not copied.
+
+### Wire, readout, and packaging are not new families
+
+**caelum0x/openjev** HEAD `4847e35451bb61dca1d6f176a4b7074239e9c0ee`.
+README opening. Local gte-small int8 ONNX, lexical fallback with no model.
+They say ECE is measured on public datasets. No cell was copied.
+"Calibrated" is theirs. Not `Zefan-Cai/Open-Jev`.
+
+**wiatrM/jevtpp** HEAD `6f8f42c569ab3a586b5e62f198ef4b7ce2717688`. Tag
+`v0.2.0`. README opening. C++20 typed API. Optional in-process Laya via
+ONNX or ggml. A typed client is not logit equivalence.
+
+**pinkroosterai/SystemOneSharp** HEAD
+`af8c9c89887b9b952b68ad8bf8aee0cc809a992a`. Tag `v0.1.0-preview.1`.
+README opening. .NET client for `POST /v1/systemone`. Unofficial. Not a
+new family.
+
+**onefiverdev/jev** HEAD `c6846b8635f1a13ee85c6a2b688c738e1588a746`. Tag
+`v0.1.0`. README opening. Luau wrapper. Unofficial. Not a bench.
+
+**tmbmartell/jev-mcp** HEAD `ea6c5bc17c1358b106b83f95c8bbefaf37dc9c95`.
+README opening. MCP server for Noul, Choice, and Score. Not
+`Songokou1983/jev-mcp`.
+
+**jkudish/jev-agent-tools** HEAD `56b6e6f08fa4d87a1041e596e0a222f15f1fe438`.
+README opening. Multi-provider transport. Invalid payloads return typed
+rejections. Fail-closed validation is their client policy, not a new
+model.
+
+**Flam1ngFir3ball/jev-claude-router** HEAD
+`f13b0f8dac5bd17e568d4f9d26665f304f8c7e97`. Tag `v1.0.1`. README opening.
+They say it is a fork of `satviksinha/jev-model-router`. Do not mint a
+second model-router family from the fork.
+
+**dimitritholen/clouter** HEAD `e3f11730279acfa34475de36f3f3a68d99a74174`.
+**bradsec/mynameisjev** HEAD `36523dd3ef9426b5f8ea869a03e3b28eb31924c5`,
+tag `v0.3.6`. **blacksinisterx/jev-router** HEAD
+`2717a29d6ec8d5b185cf3d532e3fb3b2aee31fbf`. **kdandu001-arch/leanroute**
+HEAD `764cc10dfb5153f373d9ad0802a722ee35b1ce97`. **kingd2925-beep/handoff**
+HEAD `ebb9847d8553f2ea199cfa1639a6ed22106ed940`. README openings. Routers.
+`jev-router` and the series mates say mock-first. `leanroute` says
+calibrated and $0. *Theirs.* `handoff` trains on the user's own history
+and says the report card is how often it would be wrong. No cell was
+copied. Routing is not permission.
+
+**hf:techtheist/laya-onnx** sha `6ca7822091b315d260f5cb7bfa82f6acc94bbffc`.
+Card opening. Unofficial int4 and int8 ONNX exports of Laya. Packaging.
+Not a new measurement.
+
+**hf:16sulphur/laya-prompt-guard** sha
+`1c36ead5ccca7568fd105b3b0772dc5171a56bd0`. Card opening. Laya finetune
+for a prompt-guard pack. They say it is one layer, not the only defense.
+**3p3r/sentinel-laya** HEAD `b43ec2a745ecfc70b06f61468acd169c7feb22f0`.
+README is the description. Not the other sentinel cards.
+
+**hf:AndyInQtr/laya-decision-plugin** sha
+`723300125bfbdab8eb40539830d454728ea115cf`. Card opening. Base
+`convaiinnovations/laya-multilingual`. "Calibrated confidence" is the
+card's banner. Not reproduced.
+
+**hf:ai-ml-space/laya** sha `6b481ab01da2d74d27be9bf7ce1b6a8aaa3ba68e`.
+Card opening. The banner says mathematically calibrated probabilities and
+about 33 ms. *Theirs.* Not a reproduction of Convai Laya. Not a new family.
+
+**atmaneayoubdev/jev-ar** HEAD `8b9955071a459a8fb81452e186c4029e51ed4f6c`.
+README opening. Gulf Arabic routes, an escalate flag, and "calibrated" in
+their words. No accuracy cell was copied. Hub `atmaneayoub/jev-ar` sha
+`8b3f4de2861a8d7cfe36053558a8b9701d33c597`, license metadata `cc-by-nc-4.0`,
+README HTTP 401. Do not treat the GitHub opening as the Hub card. Hub
+`atmaneayoub/jev-ar-bench` returned 401. Unavailable is not a negative
+result.
+
+Hub metadata only: `TheUsurper09/aarogyamitra-laya-intent-router` sha
+`0925fe34b86b65a668ab30cc962b9d3a694ba62a`, README 404.
+`leobitz/jev-berta-base-zeroshot-classifier` sha
+`d5db5bc920fefdeb9b10d26f947e41eafa604e8f`, README 404.
+API 401, no sha: `LinRin0306/openjev-detector`,
+`chaoliangUNSW/jev-style-demo`, `chaoliangUNSW/jev-style-v3`,
+`harlley/basic-agentic-ui-system-one`. Do not infer that those repos are
+empty.
+
+Eleven `lawrence3699` rows are GitHub mirrors of `chaoliangUNSW` Hub
+repos, including GGUF and MLX packs. Not fetched. Packaging of a named
+family is not a new model. Qwen3.5 in those names is not Archer.
+
+### README openings with no new family
+
+Each line is a README opening unless noted. No result cell was copied.
+
+**CrowdLinker/JevPromptCoach** `4c0a9121e044` (default mode appends a local
+line; they say it does not sit on the send path). **DaStru/jevtrick**
+`6e0acb793a72` (a toy question, not a study). **ORiONx888/JevSentinel**
+`6cf6f55710eb` (description repeated; not the other sentinel).
+**advillalba/jev-system-one-demo** `7200e0458a37` (shell-risk smoke via
+OpenRouter). **arthurcolle/jev-reasoning-lab** `569da0b933e2` (saved
+notebook; private ids redacted; historical snapshot).
+**blacksinisterx/jev-langgraph** `b53f163fe9ac` (mock-first branch labels).
+**cmungall/jevotron** `fcc79df23606` (field queue; preview needs no key).
+**codaaiteam/jev-chat-ai** `fad6ec528344` (Jev picks answer, model, or
+tool). **devanmolsharma/spacebarai** `1ebd78d1fc76` (one character per
+call; not a calibration study). **filipemotta/jev-ops-harness**
+`fbe17ee42192` (stub by default; code executes). **grandamenium/jev-anything**
+`448461f01a5a` (skill text; not the official TypeSafe skill).
+**hazlema/jev-patterns** `a637355f737a` (representation change, two calls;
+not a bench). **jorgemdnt/jev-flow** `c56881dbd1ab` (local transcript if
+Jev fails). **luancaldeira/jev-decision-fit-worksheet** `ddfbb79b7920`
+(checklist; they say it does not require Jev). **marcorisi/jevalcode**
+`d23f3c8d7e86` (fixed rubric; they say it is an exercise).
+**marioalexandreantunes/light-rag-jev** `245b38bf3be6` (hypothesis; they
+say it is not yet measured; `none` is an outcome). **nqobile-x/jevdj**
+`cc491c258cee` (rules if there is no key). **pawel-debik/author-tools**
+`dc13401ea747`. **pawelmamcarz/linkedin-ai-slop** `11e7f067f5e6` (badge
+only; key stays on a proxy). **riefer02/laya-call-router** `47ce2aceb6d2`
+(scripted calls; rules file the booking; small-sample claim not copied).
+**rishiv7/content-blocker** `e227ff159007` (nothing filtered until an
+instruction is saved). **roj4s/jev-resume-scoring-report-site**
+`13a451467cf5` (deployment pointer; no table copied). **yask123/ai-dj**
+`06acb68cc74d` (about 150 ms is theirs; not measured here).
+**Tirth-1999/email-automation-jev** `6b296fc18d38` (code owns mail writes;
+Jev classifies). **1eduportela/doom-laya** `8fabc965fa1b` (a run command
+only). **BM-Popcorn/laya-games** `2f6092cc38bf` (empty README).
+**vishalmysore/layaAgent** has no HEAD.
+
+The 25 research-only ids are names in the packet only.
+
+### Decision-design card
+
+```text
+Domain, desired behavior, decision owner: unchanged; code or a person owns the act
+Current baseline and why a model might help: public tables, calibration banners, wire clients, and catalogs already have rules
+Pillar, placement, and family: no new family; LoRA heads, ONNX exports, routers, and System One clients stay inside existing families
+Evidence source, freshness, candidate coverage, missing/contradictory states: 2026-09-24T21:25Z README and card openings; benches not rerun; 11 mirror rows and 25 research-only rows not fetched; six Hub calls 401; two Hub READMEs 404; layaAgent has no branch
+Judgments and output semantics; what remains exact or generated: a public cell is not Harbor; a mock Jev column is not a Jev measurement; a catalog count is not a family choice
+Policy, costs/utility, constraints, authority, and execution checks: unchanged; stop, send, label, merge, and tool execution stay in policy or an explicit permit
+Abstention/error behavior and fallback owner: unchanged; playwright falls back to the full suite; permit deny does not call the executor; jev-flow inserts the local transcript
+Batchable versus dependent steps: unchanged
+Model, adapter/aggregation, rubric, candidate-source, calibration, policy versions: record Kapteeni, the mock bench, and jev-recipes' count as separate instruments if a later placement needs them
+Development/calibration/test split and label provenance: the mock bench's Jev row is a mock provider; candidate-experience reviews are synthetic; jevlint's 27 files were not written for the linter
+Falsifier, metrics, acceptable risk/coverage, and evaluation artifact: one run on our labels where a public table in this hour changes the baseline
+Implementation/evaluation entry points; search budget and confirmation plan: none this hour
+Observed result, limitations, and next decision: research-only; next experiment only if a placement needs one of these wrappers on labels we control
+```
+
+Soft judgment is not the veto. The sources' own limits and the existing
+rules are. `invented_signal: false`.
+
+## 172. Hourly 0918 HIGH (2026-09-25 ~09:18 Boise / 2026-09-25T15:18Z)
+
+Folded onto `main` `e3e712b6054f4ab558aa939ff5b2efb4bfbd2787` (§171).
+About eighteen hours after the 1510 watch. Mode NEW_OFF_MAIN. This fold is
+§172 only. Do not reclaim §165 through §171. Composition ranges ended at
+996 with §163. This fold assigns none.
+
+Research-only: no skill, human README, Pages, or package version change.
+Scoring rows stay at 17. Archer stays promised_not_landed. The packet has
+286 design-implication rows and 57 research-only rows. Retrieval for the
+GitHub and Hub calls below is 2026-09-25T15:40Z. Fifty-seven GitHub README
+openings were requested and all returned a HEAD. Fourteen Hub calls were
+requested. Thirteen card openings were read. `HIT-TMG/JevEmbed` returned
+401. The other design rows and all 57 research-only rows were archived and
+not fetched. Third-party numbers stay *theirs*. No X calls. No Harbor
+numbers were invented. This run does not prove an unattended scheduler.
+
+### Acceptance
+
+**Problem.** An agent could treat a star count, a description rewrite, a
+catalog total, or a public accuracy table as a reason to change family or
+to add a scoring row. It could treat the word calibrated, a LoRA on Qwen,
+or an embedding readout as calibration on this population or as Archer. It
+could let a model drive a Mac, block a shell, edit a file, or skip a test
+that code or a person still owns.
+
+**Baseline.** Installed guidance already separates a leaderboard from a
+deployment evaluation, refuses to treat a softmax or a training recipe as
+calibration on this population, keeps the act in code or with a person, and
+keeps TypeSafe Jev as the default hosted exemplar for the class, not the
+class. A public slice is not Harbor. A wire server is not logit equivalence.
+A catalog count is not a family choice. Encoders are already in the class.
+Mappings section 17 stays the last scoring section.
+
+**Proposed improvement.** None in runtime files. Archive the sources' own
+limits where they already match those rules, and record the identity joins.
+
+**Assumptions.** A README opening or a card opening is enough to refuse
+promotion. Neither is a reproduction. A description rewrite is not a new
+capability review. A moved SHA is a review trigger, not a new family. A
+rename that keeps the GitHub node is the same source.
+
+**Affected surfaces.** This section, the hourly archive, fingerprints for
+sources actually looked at, `sources.json` pointers, and the hourly logs.
+Not `SKILL.md`, not `README.md` below `## License`, not the site.
+
+**Checks.** `make check`. No Pages build. No behavioral scenario run, because
+installed guidance did not change.
+
+**Counterexample that would reject this disposition.** A held-out run, on
+labels and traffic this repository controls, where one of these public
+tables changes the baseline placement. A catalog count or a star count that
+changes which family to use would also reject leaving the catalogs
+research-only, and no such count is in this packet.
+
+### A rename is not a new server
+
+**mode-io/vllm-jev** is **Egbertjing/vllm-jev**. Node `R_kgDOUprsQQ`
+unchanged. Description hash `16173f4c0707` unchanged. HEAD
+`1ac226012d3e856c897f776106b7e4e9e6caca45` to
+`e8818126399765345c93b4069f05fd14845acb84`. README opening. Candidate decisions served by vLLM. A wire
+server is not logit equivalence and not a new family. Do not mint a sibling.
+
+### An embedding readout is already in the class
+
+**HITsz-TMG/JevEmbed**, first fingerprint this hour. Node `R_kgDOUk-V6g`.
+HEAD `818f65c8a2e23880fff42e224f8fad056cee553c`. License Apache-2.0. README opening. A Python API, CLI,
+and optional HTTP server for embedding-based Choice, Score, and Noul. They
+say it is independent. The opening says CLM-v0.1-8B support landed on
+September 24, 2026. *Theirs.* The dataset card `hf:HIT-TMG/JevEmbed-Data`
+stays §169. Hub model `HIT-TMG/JevEmbed` returned 401. Unavailable is not
+a negative result. An encoder readout is not a new family. Qwen is not
+named in this opening. Not Archer. Do not add a scoring row.
+
+**Abhinavexists/lev** HEAD `44a31fcd42d03616aa3072d6a060d5f3bca0726e`. Node `R_kgDOUiR5Ag`. License
+Apache-2.0. README opening. A LoRA on Qwen3.5-4B. They say it returns
+calibrated probabilities over the supplied options and speaks
+`/v1/systemone`. That calibration sentence is theirs. Qwen3.5 is not
+Archer. A wire protocol is not logit equivalence. No scoring row.
+
+### A public table is not the deployment decision
+
+**SaiNarayana-B/decision-model-bench** HEAD `0cfd1610bd57a807a6dac205bc61b00f211f82a7`. README opening.
+Laya 0.3.20, English, 421M, 1,000 predictions, seed 42. *Theirs:* AG News,
+4 labels, n=500, 94.6% accuracy, ECE 0.047, confidence AUROC 0.88. At
+confidence 0.7 they report 71.2% automated at 99.4% accuracy. SST-2 as
+yes/no `noul`, n=300, answered "no" on all 300 at p=0.0, which they score
+as 50%. The same items as 2-option `choice` are 78%. Three wordings, n=200,
+same answer on 97.5%. The question type is part of the instrument. Not
+Harbor. Jev is named as next and was not in this opening. No scoring row.
+
+**CodeWithMoin/system-one-reexamined** HEAD `23a9542f6f460c3d07e18c64c826ae4236bea428`. README opening.
+They say Jev is a step up over older zero-shot methods, that Laya's best
+scores are on its own training data, and that a classifier trained on 16
+to 64 labels per class competes with both. *Theirs.* The figure was not
+copied. A small labeled baseline remains eligible. No scoring row.
+
+**gazelle93/decision-models-under-pressure** HEAD `21820dc8b455e37aebaf5a83122233b6e564c109`. README
+opening. Seven systems. They say Jev held up best as the candidate list
+grew and when the wrong answers got plausible, and that shuffling the
+option order changes its answer on one decision in seven. *Theirs.* Choice
+still depends on the offered set. The rest of the table was not copied.
+Not Harbor.
+
+**mdad-elec/laya-v2-agent-routing** HEAD `f4139e43e4d17d62255beb7a9ca12afee050f924`. Tag `v1`. README
+opening. They say a 421M encoder beats a 27B LLM judge, vLLM Semantic
+Router, and RouteLLM on held-out tier routing, in about 125 ms, with zero
+generated tokens. *Theirs.* The result cells were not copied. Not Harbor.
+No scoring row.
+
+**FeiLiuEM/open-medical-jev** HEAD `77b37b784f1eff85fbe02bdde591f53e4c33423b`. README opening. The
+description says within about 2 points of Jev on national medical exams,
+with no fine-tuning. The opening starts a 600-item claim and was not
+copied past that. *Theirs.* Not Harbor. No scoring row.
+
+**vinilana/jev-gateway-bench**, first fingerprint this hour. Node
+`R_kgDOUgubQg`. HEAD `2465e8b17d4a3bc0cb3c262d770515dc55b6cafc`. README opening. Six models, two tasks,
+five runs per mode, 120 agent sessions on 2026-09-18 and 19. The score
+cells were not copied. A gateway bench is not Harbor. The prior card stays
+put.
+
+**SnackTerminator/small-decision-model-cross-domain-degradation** HEAD
+`61ed521083ce888d63ea72adf86195c82e8645d7`. Tag `v3.0.0`. License CC-BY-4.0. README opening. They
+report 5,040 forwards and, on a homemade Chinese short-rule set, AUC about
+0.5 with n=12, which they call underpowered. *Theirs.* Not Harbor.
+
+**hf:mayafree/typed-decision-leaderboard**, first fingerprint this hour.
+Space sha `c77b7a829cede6aceb8cd3a7b1c6db317e5eddfe`. License apache-2.0. Likes 36. Card opening. The
+short description still says one identical test set. The score table was
+not copied. A leaderboard is not Harbor. Prior cells from hourly 0248 stay
+on that earlier card.
+
+**hf:tasksource/tasksource-jev-typed-decisions** densify §169. Sha
+`01cf47f3854cc90dc6e60b744586b1c843a3c639` to `18332e529f10cde1e808966235d3932171d56e69`. Card opening. Still "two million" from
+"600+" tasks. *Theirs.* A description rewrite is not a new row count.
+
+**hf:atmaneayoub/jev-ar-bench** densify §171. The 1510 call was 401. This
+call returned sha `12fe048e17331b0bde03569f6376fe1302f4c648`, license cc-by-4.0, card opening. Arabic
+intent routes, including a synthetic tag. Not Harbor. The earlier 401
+remains the record of that hour.
+
+### The act stays outside the score
+
+**AgentiLoop/Agent**, first fingerprint this hour. Node `R_kgDORkmB7g`.
+HEAD `8c22d6779d5f0163c61b755ba43c0a6a1985cda0`. Tag `v1.1.33.233`. Stars 632. README opening is a
+sponsor banner. The description names a Jev guard next to Accessibility,
+AppleScript, and shell. The guard's authority was not in the opening.
+Stars are not a capability change. A guard does not by itself own the act.
+Not a new family.
+
+**SamanPandey-in/jevrail** densify §163. HEAD `7942b787f9a20deff52127b690ddc0b87a342b1e` to
+`aaddefc98327cedd8ea6515156e5ddc07cc40aee`. README opening. The guard can block, confirm, or allow a
+shell command. They say the thresholds are still starting guesses. The
+block is their policy.
+
+**erkamyaman/jev-enforce**, first fingerprint this hour. Node `R_kgDOUjck0Q`.
+HEAD `22b8dea20c0b095ab044d74ddf2e9e9657534bb4`. Tag `v1.1.0`. README opening. Jev checks a reply or an
+edit against CLAUDE.md or AGENTS.md, and their plugin quotes the broken
+rule back. The quote-back is their policy. A score does not by itself own
+the edit.
+
+**ChenneyZhuang/laya-computer-use** densify §170. HEAD `37dbf6d014226f25a4649444f716a3ebf23ff188` to
+`b7e21e0ef76843cc209b37bb4cb870bfd35931f1`. Description hash changed. README opening. Laya picks a
+control from the Accessibility tree. Code executes. Not a new family.
+
+**SanHsien/jev-chat-jarvis**, first fingerprint this hour. Node
+`R_kgDOUpeb8A`. HEAD `b2368c5c36ea06bd46bfb48fdac8aff9d764f857`. Tag `v1.4.8`. README opening. A fork
+of `jev-chat/jev-chat-jarvis`, not that repo. They say LINE support is
+theirs and that send stays with the person. Fill is not send.
+
+**holasoymalva/jev-test-impact** HEAD `4f6da24fbd82fa32f06a9533deb0f85ac3051d69`. Tag `v0.1.0`. README
+opening. Jev scores test candidates after a static filter. No key falls
+back to the local graph. Selection is not a skip authority by itself.
+
+**initrd/himalaya-jev-mail-classify** HEAD `38a057039125ca3e213ec4c355e183e5b57f8329`. README opening.
+Dry run by default. Code applies Gmail labels. Classification is not the
+write.
+
+**chayan-bit/jev-harness** HEAD `5ff0c24a6a8078d4bcd81b2737304e0e3634b3cc`. Tag `v0.1.1`. README
+opening. They say the attachment adds no new authority.
+
+**Luminousyyh/laya-decide** HEAD `48f639b18199b8a7ce6f243edf2992a59f364fe5`. README opening. Thresholds
+live in the skill text. If the local server is down, they say the skill
+does not start it.
+
+### Description rewrites are not new families
+
+**kushals256/jevcache**, first fingerprint this hour. Node `R_kgDOUhMgRQ`.
+HEAD `5ad90b1bf47df237e3110e926e08f5388300a8ce`. Tag `v0.3.1`. Description hash `fcd651d15a82`. README
+opening. The description now says MorrowCache. The npm name stays
+`@kushalicious/jevcache`. A cache hit is not correctness. Not
+`hyperspaceai/jevcache`. Do not mint a sibling.
+
+**bodepudimuneendra-netizen/laya-jev-GraphRAG** densify §165. Node
+`R_kgDOUnRC4w` unchanged. HEAD `f8c0f809a08de9b68d8781925a423e4ee6832a77` to `524a2df39c79df578ef34442fbd41b080dabbde3`.
+Description hash `9ac29c1c6b7e` to `b4298d973ba5`. README opening. Laya or
+Jev can sit on a graph database. A graph walk is not a new family.
+
+**zhulinchng/jevper** densify §165. Node `R_kgDOUnSIsg` unchanged. HEAD
+`fa4ca35ed2f119c5427db5397f8d6b4b569e7825` to `203827e7333c520ee497990c0be62fe297a9886c`. Description hash `f5addaace0bd` to
+`5c924692232b`. Tag `v0.7.4`. README opening. A System One shaped wrapper
+over OpenAI-like clients. They say it is not affiliated. A wrapper is not
+logit equivalence.
+
+**syedabbasshaheer-art/jev-atlas** HEAD `6caec0a95ec517080818ee7674a58e1847ad011f`. README opening.
+The description says 1,442 projects. The opening says 359 projects scraped
+from jevable.com on 20 September 2026. Both figures are theirs. A catalog
+count is not a census and not a family choice.
+
+**hf:fukayatti0/jev-japanese-judgment** densify §168. Sha `e1d012f62412b6549132ff12bec6c2ae397ba077` to
+`fdae208ea5e435b1992fecdef8a4cb02c9a6bcaf`. Card opening. LoRA on LiquidAI/LFM2.5-1.2B-JP-202606 with
+a candidate-scoring head. Not a new family. Not Archer.
+
+**hf:divyanshx11/JEVision** sha `5d790ea18f52cee7e7547d52f0ef05d95db5a73f`. License apache-2.0. Card
+opening. LoRA adapters on Qwen3.5-0.8B-Base, text and image branches. They
+say it is not one merged checkpoint. Qwen3.5 is not Archer.
+
+**hf:servronix/laya-thai-trainset** sha `e396238612b91f1f2018f2a28f3e77ae005cb39a`. Card opening. They
+say 31,091 rows in round B3 on 2026-09-25. *Theirs.* A trainset is not a
+deployment evaluation.
+
+Description rewrite only, README or card opening, no new family:
+**jaibhasin/jev-flappy-bird** HEAD `960ef4977eef96f5ab689a774c43f37969c3198f` to `e074cf33c6d75db9b6fd8433fb5099c216428287` (a race
+demo, not a study). **yunusemrejr/yunuspi** HEAD `6621276550be` tag
+`v0.9.0` (a Pi-derived harness; the user brings the provider).
+**Romain-Jochum/typesafe-jev-decision-studio** HEAD `f134c6b8e841`
+("calibrated" is their banner). **nadeem4/ai-experiments** HEAD
+`e580454604e6` (protocol and results are separate files; one experiment
+finished). **hf:hayriyigit/jev-bench-tr** sha `f78242b1abb5` (a translation
+of jev-bench; the card says labels are unchanged). **hf:roskosmos19/System-One-Router**
+sha `d8a2f511657f` (250 train rows).
+
+### README openings with no new family
+
+Each line is a README or card opening unless noted. No further result cell
+was copied. "Calibrated" in these banners is theirs.
+
+**6Mikao9/jev-native-agent-with-extended-options** `8c6a50f8cb96` (core
+mode is a scripted chooser; a virtual option space is not the offered set).
+**emnlmn/snap** `0a912b11e6f3` tag `v0.2.1` (one forward pass; they say it
+is not affiliated). **green-dalii/pi-shift-router** `31a02999bebf` (optional
+Jev judge; "calibrated" is theirs). **WiktorB2004/llama-index-jev**
+`421afdafe16b` (LlamaIndex reranker; the prior fail-open card stays put;
+this opening does not replace it). **ILuce/deqio** `357324a525dd` (one
+local API over SemIf, Kev, Decider, and Laya). **llm-learner/headroom**
+`24e1e05c8801` (a local budget meter; Laya scoring is optional).
+**Bring-AI/JevNext** `a83d87e9ce5d` (arXiv 2609.28587 is a link; the paper
+was not read). **NAME0x0/Jevlet** `9d62c46989e9` (a reconstruction; they
+say it is not TypeSafe). **Agents365-ai/adecider** `b451dbbaf370`.
+**xafold/jev-router** `9e31ba47556f` tag `v0.5.0`. **chipchipss/openjev-ultrafast**
+`0dd58391dd32` (a fork of browser-use/jev-ultrafast plus a policy layer).
+**okrath/laya-ocr-guard** `687ae4c00f75`. **liu-x27/XavierJev** `22ebeb60f498`.
+**suffro/decguard** `189b8390040d` tag `v0.1.1` (a reliability report is
+not Harbor). **OniReimu/Edge-Computing-JEV** `aa18eb779c02` (paper results
+were not copied). **Blakeem/logit-classifier** `b199e7095248` tag `v0.2.1`.
+**JACK-COM/augur** `122c6cee76fe`. **sirgio03/laya-ignite** `ddc717b4b96f`.
+**briwilcox/quiet-feed** `ba6fa2523052` (hide is local; nothing is deleted).
+**Cadman021/jev-terminal-doctor** `878cddc8dd1a` (the patch is a suggestion).
+**Divinci-AI/divinci-table** `277fe21db903` (code lists legal moves).
+**codaaiteam/jev-loop-detector** `21508b296952`. **ericmjl/seems-laya**
+`ea0016b366df` (Laya swapped into kavehmz/seems-lang; not that repo).
+**ZLHAOOO/laya-mlx-zh** `55241cb476d1`. **harshavarma02/system1-jev-laya-agent**
+`652c64824d3c`. **Donatasramanauskas007/open-jev** `f4a31439cdaa` (Gemma 3
+is not Archer). **Diwas2055/gatelaya** `e04f27c77608` tag `v0.2.0`.
+**AnthonyDavidAdams/jev-search** `407eba58fd21`. **gitchw/LCT**
+`e54e28468dbf` ("free calibrated confidence" is their banner).
+
+Hub cards, no new family: **hf:RoeiG/laya-hebrew** `599fb9a846f1`
+(cc-by-nc-sa-4.0; "calibrated" is the tag). **hf:wendellperbar/serigy-jev**
+`45893bf45253` (they say it is not a production moderation service).
+**hf:wxsys/code-oracle-laya-421m** `5597c5a841d8`. **hf:goku-san/laya-experts**
+`73d5a0883e70` (entity micro-F1 0.967 is theirs). **hf:faall7479/laya-idjvsuen-v1**
+`f25e732b8094`.
+
+The 216 design rows not named above, and the 57 research-only ids, are
+names in the packet only.
+
+### Decision-design card
+
+```text
+Domain, desired behavior, decision owner: unchanged; code or a person owns the act
+Current baseline and why a model might help: public tables, calibration banners, wire servers, embedding readouts, and catalogs already have rules
+Pillar, placement, and family: no new family; LoRA heads, vLLM serving, routers, and embedding readouts stay inside existing families
+Evidence source, freshness, candidate coverage, missing/contradictory states: 2026-09-25T15:40Z README and card openings; benches not rerun; 216 design rows and 57 research-only rows not fetched; Hub model HIT-TMG/JevEmbed HTTP 401
+Judgments and output semantics; what remains exact or generated: a public cell is not Harbor; a question type is part of the instrument; a catalog count is not a family choice; a rename that keeps the node is the same source
+Policy, costs/utility, constraints, authority, and execution checks: unchanged; shell blocks, file edits, mail labels, and test selection stay in policy or an explicit confirm
+Abstention/error behavior and fallback owner: unchanged; jev-test-impact falls back to the static graph; laya-decide does not start a dead server
+Batchable versus dependent steps: unchanged
+Model, adapter/aggregation, rubric, candidate-source, calibration, policy versions: record the Laya bench, the re-examination, and the medical claim as separate instruments if a later placement needs them
+Development/calibration/test split and label provenance: the Laya SST-2 noul and choice rows are different questions; the cross-domain n=12 set is underpowered by their own note
+Falsifier, metrics, acceptable risk/coverage, and evaluation artifact: one run on our labels where a public table in this hour changes the baseline
+Implementation/evaluation entry points; search budget and confirmation plan: none this hour
+Observed result, limitations, and next decision: research-only; next experiment only if a placement needs one of these wrappers on labels we control
+```
+
+Soft judgment is not the veto. The sources' own limits and the existing
+rules are. `invented_signal: false`.
+
+## 173. Hourly 1210 HIGH (2026-09-25 ~12:12 Boise / 2026-09-25T18:12Z)
+
+Folded onto `main` `cf1d932fd2d31e58fba0b1dda2884c26db3e85c2` (§172).
+About three hours after the 0918 watch. Mode NEW_OFF_MAIN. This fold is
+§173 only. Do not reclaim §165 through §172. Composition ranges ended at
+996 with §163. This fold assigns none.
+
+Research-only: no skill, human README, Pages, or package version change.
+Scoring rows stay at 17. Archer stays promised_not_landed. The packet has
+103 design-implication rows and 28 research-only rows. Retrieval for the
+GitHub and Hub calls below is 2026-09-25T18:26Z. Eighty GitHub repositories
+were requested. Seventy-six README openings returned a HEAD. Two repositories
+have a HEAD and no README (`kyu-softmatter/autofocus-jev`,
+`nagieeb0/jevpilot-site`). Two repositories are empty (`Paulo83-dev/ARTIGO---PSICOMETRIA---JEV-CC-`
+and `dimitrisdais/language-aware-decisions-for-banking`, HTTP 409 on the
+branch). Twenty-three Hub calls were requested and all twenty-three card
+openings were read. The 28 research-only rows were archived and not fetched.
+Third-party numbers stay *theirs*. No X calls. No Harbor numbers were invented.
+This run does not prove an unattended scheduler.
+
+### Acceptance
+
+**Problem.** An agent could treat a star count, a renamed connector, a
+laptop yes/no model, a public accuracy line, or the word calibrated as a
+reason to change family or to add a scoring row. It could treat a stability
+badge, a temperature fit, or a LoRA readout as calibration on this
+population. It could let a model auto-approve a shell command, place a trade,
+or block a tool that code or a person still owns.
+
+**Baseline.** Installed guidance already separates a leaderboard from a
+deployment evaluation, refuses to treat a softmax or a training recipe as
+calibration on this population, keeps the act in code or with a person, and
+keeps TypeSafe Jev as the default hosted exemplar for the class, not the
+class. A public slice is not Harbor. A wire server is not logit equivalence.
+A rename that keeps the GitHub node is the same source. Choice still depends
+on the offered set. Mappings section 17 stays the last scoring section.
+
+**Proposed improvement.** None in runtime files. Archive the sources' own
+limits where they already match those rules, and record the identity joins.
+
+**Assumptions.** A README opening or a card opening is enough to refuse
+promotion. Neither is a reproduction. A description rewrite is not a new
+capability review. A moved SHA is a review trigger, not a new family. A
+rename that keeps the GitHub node is the same source. Stars are not a
+capability change.
+
+**Affected surfaces.** This section, the hourly archive, fingerprints for
+sources actually looked at, `sources.json` pointers, and the hourly logs.
+Not `SKILL.md`, not `README.md` below `## License`, not the site.
+
+**Checks.** `make check`. No Pages build. No behavioral scenario run, because
+installed guidance did not change.
+
+**Counterexample that would reject this disposition.** A held-out run, on
+labels and traffic this repository controls, where one of these public
+tables or stability badges changes the baseline placement. A star count or
+a catalog count that changes which family to use would also reject leaving
+the catalogs research-only, and no such count is in this packet.
+
+### A rename is the same connector
+
+**itsmostafa/system-one-connector** is **itsmostafa/typesafe-mcp**. Node
+`R_kgDOUeU9Ww` unchanged. HEAD `4f29b32b2e3eb6e2eb20673b31d3745ea5c5ead4`
+to `668bb49cf5e845536ce85be5dd863743d693e243`. Release `v0.4.5` to `v0.4.6`.
+Description hash `4924e14f7649` to `0189ae68341c`. README opening. The
+opening still presents `evaluate` as typed judgments from TypeSafe Jev for
+Claude, Codex, Hermes, and pi. Stars at 303 are not a capability change.
+The confidence-formula page read at §168 was not re-read. This is not
+`cyrusasco/typesafe-mcp` and not `burnigtm/jev-mcp`. Do not mint a sibling.
+
+### A laptop yes/no model is already in the class
+
+**feder-cr/jev**, first fingerprint this hour. Node `R_kgDOMj7jww`. HEAD
+`a451995a77308470acbfa99c4bc0ce6cfe2441b0`. Tag `jevos-1b`. GitHub license
+null. README opening. They say yes/no on a laptop CPU in 50–220 ms, returning
+P(yes). The bench image alt, *theirs*: short request jevos-1b 54 ms, Jev
+344 ms, Laya 104 ms; long request 220 ms, 345 ms, 449 ms; accuracy on 2,000
+yes/no questions from unseen policies, jevos-1b 0.815, Jev 0.927, Laya
+0.489. Multiple choice and scores are marked soon. Not Harbor. A local
+yes/no readout is already in the class. Not Archer. No scoring row.
+
+**neurono-ml/typed-lm**, first fingerprint. Node `R_kgDOUre__Q`. HEAD
+`bc77e1ff5a85ac492d1ee5dc34baa578393d07a8`. Tag `0.1.0`. License Apache-2.0.
+README opening. One forward pass over local logits. The HTTP shape is Jev's
+`state` and `questions`. The trainer writes LoRA, QLoRA, FP8, and FP4
+artifacts. Named families: Llama, Qwen2, Qwen3, Mistral, Gemma, Gemma2,
+Gemma3. Mixture-of-experts families are rejected at load. Qwen and Gemma
+are not Archer. A wire server is not logit equivalence. No scoring row.
+
+**zojeda/jevons-rs** HEAD `b9ae1ded0785f15a8ba644c7ddd0680a5cd7ac9d`. Tag
+`v0.1.3`. GitHub license null. README opening. A Rust System One shaped
+server on DiffusionGemma, with image input, on AMD GPUs. A diffusion readout
+is not a new family. Gemma 4 is not Archer.
+
+**ghchinoy/dgem** HEAD `89cf6de5d60666964c6329a556787bd11f826cb4`. License
+Apache-2.0. README opening. DiffusionGemma answers a template of typed
+questions in one pass. They call an option-order correction Invariant
+Decision Calibration. Choice still depends on the offered set. The result
+cells were not in the opening. Gemma 4 is not Archer.
+
+**monorkin/tinyclass** HEAD `9638be342866bb20a190124dcce5f96faf132fc7`. Tag
+`v0.2.0`. License MIT. README opening. A local Qwen3 readout through
+llama.cpp. The printed percentages are an illustration. Qwen3 is not Archer.
+
+**jimmckerchar/layar** HEAD `3d07f8771ece4d85a22da119b96097e092c94dec`. License
+MIT. README opening. Local ONNX choice, bool, and score in Ruby. They say
+raw zero-shot probabilities are overconfident and to fit a temperature on
+about 100 labeled examples. That fit is theirs. A temperature on a sample
+is not calibration on this population.
+
+### Calibration banners stay theirs
+
+**carldaws/hunch** densify of the §55 card, first fingerprint. Node
+`R_kgDOUgv8KQ`. HEAD `df64d58cf2f8a4725bc96745200b5f8bc716079f`. License MIT.
+README opening. The opening points at OpenRouter `typesafe/jev-1.13`.
+"Calibrated probabilities" is theirs. The prior card's stub backend and
+`rescue nil` fail-open path were not re-audited. **carldaws/hunch-ts** HEAD
+`ecfbe89cd64f8f8ed6118b84e5ebfac23460110d` is the TypeScript port, not a
+second product. **oneryalcin/hunch** HEAD `761f2e8909ae2dfc8d768b93ae3734ae10aac3eb`
+is a different node: declarative questions, tests, and a review loop. It is
+not carldaws/hunch and not Kelbie/hunch.
+
+**HCTDIP/jevkit** densify §153. Node `R_kgDOUkhl6g` unchanged. HEAD
+`cc1e6a5f02de9ef3cb51edac9ef4cbdf4a921783` to
+`6c825ac9b1151cdf4f7a1e19def9a7e91a85823b`. Description hash `8dfc7427e4ca`
+to `3f6cc465a897`. README opening. Unofficial OpenRouter Decisions client.
+They say it is not affiliated. "Calibrated" and "cache hits in 3.3 ms" are
+theirs. This is not `isiomaC/jevkit` and not `tegersdorfer/jevkit`.
+
+**HCTDIP/jev-calib**, first fingerprint. Node `R_kgDOUmU2EA`. HEAD
+`dea4b17b64a6bbefa6bce680a1a10a2a248026f2`. License MIT. README opening. They
+rerun the same state, measure repeatability and flip rate, and call the
+badge a calibration certificate. A stability badge is not calibration on
+this population. Their "zero GitHub results" census is theirs.
+
+**HCTDIP/jeveto**, first fingerprint. Node `R_kgDOUpX7xw`. HEAD
+`242395c055982274c30f2135a2a9463f7106fd64`. License MIT. README opening.
+They say the old name was MuleRun. Confidence at or above 0.85 executes;
+otherwise the handoff is saved for a person. Completion is checked in code
+(`completed == total`). Spend and action caps are code. The linked X article
+was not fetched. The threshold is their policy.
+
+**lawrence3699/jev-style** HEAD `fc458b50ee531a088beac399938ce7d0f8f1c7ce`.
+Tag `v0.1.0`. License Apache-2.0. README opening. "Calibrated" is the banner.
+The weights badge points at `chaoliangUNSW` collections. This repository is
+not `hf:chaoliangUNSW/jev-style-demo` and not `hf:chaoliangUNSW/jev-style-v3`.
+
+**hf:akhilaaa3/Jev-Omni** densify §156. Sha `c050d51354147985d13286cf4acf90f562f2c631`
+to `5addda86ddee`. Likes are noise. Card opening. The fine-tune sentence is
+now 30,000 questions; the prior card said 24,000. Both figures are theirs.
+The DecisionBench, JevBench, and MMAU cells match the prior card (87.57% /
+86.01% on 80 scenarios and 293 questions; 86.15% / 87.45% on 195 groups and
+231 decisions; MMAU 63.10% of 1,000). New cell, *theirs*: MVBench 53.10% /
+53.09% on 14 tasks and 2,786 questions. They say the open-weight comparison
+scores may use different protocols. Not Harbor. Gemma 4 is not Archer.
+Weights were not downloaded. The §166 verification was not repeated. No
+scoring row. This card is not the akhilaaa3 openjev-v1 merges.
+
+### The act stays outside the score
+
+**godspede/construct-auto-classifier** densify of the §63 card. Node
+`R_kgDOUguULw`. HEAD `531a39fc5360a00874c8035d14527904a4c68683`. License
+Apache-2.0. README opening. Routine privileged commands run. A command is
+meant to stop on eleven named harms. "Zero dangerous commands" is their
+description. The prior card's 975 count was not in this opening. The block
+is their policy.
+
+**CogFlux/opencode-jev-guard** HEAD `a72c9100237163a7a20a9bfc9872d96d77f59028`.
+License MIT. README opening. Six typed questions. The plugin asks the person
+when the command is not ordinary work inside the project.
+
+**Davidasx/pi-typesafe-approve** HEAD `726788811f0e75c76c04a561ee5a06785ea34cf0`.
+License MIT. README opening. Auto-approve of routine Bash is their policy.
+They say an unreachable model does not wedge the agent. Whether that outage
+path allows the command was not in the opening.
+
+**vinaychawla-ops/jev-adk-guardrail-example** HEAD `3e8c92c448a00b8e825e38156311a0f6bfdadf85`.
+README opening. The example blocks a tool when P(risky) is at least 0.85.
+"Calibrated" is theirs. The threshold is their policy.
+**vinaychawla-ops/jev-adk-model-router** HEAD `66d94e269d7e60afd1f3447f08ede0f75fe055ba`
+rewrites the model id before the call. Routing is not authority over the tool.
+
+**qualixar/jev-decision-layer** HEAD `55bfc7f53631d840412c11a5bd2e32ed6405d0c7`.
+Tag `v1.0.0`. GitHub license null; the opening says MIT. README opening.
+They say execution stays with the agent, and that the project is independent.
+A receipt is not a deployment evaluation.
+
+**Solizardking/jev-trader-solana** HEAD `8faeade843042f2d1f1e0a7bc61c6684e3031d3d`
+and **Solizardking/clawd-jev-trading-machine** HEAD `b40a6d29864dbae6d0a10511754cc1e8cf43d090`.
+Both MIT. README openings. Dry run. Code owns routing, sizing, and risk.
+Nothing is signed. A paper fill is not a landed trade. Fail-closed in the
+Solana description is their policy.
+
+**MaeTor/laya-detector** densify §167. Node `R_kgDOUnu5EQ` unchanged. HEAD
+`c89eaa99f3cd096fec623243c2e9a0e85b6dec03` to
+`4cc96d2ed4fbe956390b3109af167e8ff0f03273`. Description hash `6f5a23bbbe76`
+to `ac7d5a48f9a9`. README opening, deeper than the §167 metadata look. They
+say it does not detect lies. Scores stay uncalibrated until `laya calibrate`.
+The web-search model gathers passages and does not give the verdict.
+`decider-2b` is not TypeSafe Jev.
+
+**Arc-Rider/arc-rider-playground**, first fingerprint. The packet called this
+a description rewrite; the id was not in the fingerprint store. Node
+`R_kgDOUi1wXA`. HEAD `f83818b34c72227ae8c1460e80dbf88af46cf629`. License MIT.
+README opening. Jev selects bounded view choices. An explicit app policy
+places the kanban card. The data are fictional.
+
+**dengyie/decidex** HEAD `8961c2be2a4cd9e41d400329ab494f57d8f23427`. License
+MIT. README opening. They say the model supplies the hunch and code holds
+the boundary. The "86 passed" badge was not run here. A game-playing
+pipeline is not a new family. NanoJev is not TypeSafe Jev.
+
+### A public table is not Harbor
+
+**AnthusAI/Decision-Models-Are-Not-Calculators** HEAD
+`0b64b49927b08ba0a3e676638582be85e83cab59`. GitHub license null, recorded
+NOASSERTION. README opening. A fair die nobody saw. They say Jev chose one
+every time, Kev about half the time, and Laya mostly six. The figure was
+not copied. Not Harbor. A well-formed probability is not evidence about the
+hidden face.
+
+**Adamya05/jev-echo** HEAD `1d68e6de679fdf6126f2dd7b077c916870328641`. License
+MIT. README opening. A 22,212-parameter Snake policy, 87 KB, trained on Jev's
+answers. *Theirs*, 20 held-out boards: Jev mean score 7.5 at 159 ms; Echo
+7.9 at 0.20 ms; Echo plus search 38.8, 20 of 20, at 103 ms. Same move as Jev
+on 93% of positions, KL 0.013 nats. Not Harbor. A distilled game policy is
+not a new family.
+
+**Pineberry1/LLM2JEV** HEAD `05379ff8cbc0a3b648a3b053fd938c53a963f76f`. README
+opening. A shared-prefix attention experiment plus a Qwen3 logit readout and
+an OpenJev 4B comparison. They say it is not affiliated. The result cells
+were not in the opening. Qwen3 is not Archer. Not Harbor.
+
+**nothans/sieve** HEAD `fd1f6d46bead8165b914ce620ca5ee7a0714f9dd` ranks a
+folder of notes. **SohamKukreti/sift** HEAD `f3826a8ffb712ab88c1842f30527f5f1048aaba0`
+stops a crawl at the first page a Jev score accepts, then an LLM writes the
+answer. The packet called sift a description-rewrite revisit; the id was not
+in the fingerprint store. These are different nodes. "Calibrated" on the
+Sieve opening is theirs. A page score is not the written answer.
+
+### Format packs are not new families
+
+**hf:iapp/OpenThai-SystemOne** quantizations, card openings, apache-2.0.
+GGUF `020b22d01232`, FP8-Dynamic `d340bf567b77`, NVFP4 `ea5e52110096`,
+NVFP4A16 `9bdbf46fb7e6`, W4A16-GPTQ `e3bf398f28f7`, W8A8-INT8 `a8a052277df8`,
+bnb-4bit `720ccfac393b`, bnb-8bit `e649e50fb7ba`. The GGUF opening says one
+forward pass for choice, score, and yes/no, quantized from
+`iapp/OpenThai-SystemOne`. A quantization is not a new family. Qwen3.5 is
+not Archer.
+
+**hf:Praveenrajus** readout LoRAs. Card openings. "Calibrated" is the banner.
+Tulu-3-8B-SFT coherence `1f441bc4b577` (Llama 3.1 license). SmolLM3-3B APO
+`553e4965db3c`, APO coherence `068c6161957e`, SFT `f49f55140b5d`, SFT
+coherence `a9225477936e`. **hf:ryandcunha/mmbu-jev-qwen3-0.6b-closed**
+`3d5914179975` speaks `/v1/systemone`. A wire path is not logit equivalence.
+Qwen3-0.6B is not Archer. No scoring row.
+
+**hf:fukayatti0/jev-japanese-judgment-v2** sha `f814564f917a`. License
+`other` (lfm1.0). Card opening. They say v2 adds yes/no and score training
+on top of v1. v1 stays §172. Not a new family. Not Archer.
+
+**hf:HIT-TMG/JevEmbed-KaLM-Embedding-V2.5** sha `6b1f43063b27`. License
+apache-2.0. Card opening. LoRA on KaLM-Embedding v2.5, then merged. They say
+1,601,157 training questions and 896-dimensional embeddings. *Theirs.* An
+encoder readout is already in the class. The GitHub project stays §172. Not
+Archer.
+
+**hf:leehack/laya-command-head** `770c4c21e218` (a command-intent head on
+Laya). **hf:dimitrisdais/laya-banking77-typed-decisions** `680ab36bc677`
+(eight families, then a second question; the accuracy cell was not in the
+opening). The empty GitHub repository of the same owner is a different
+artifact. **hf:sallout/laya-multitask-intents** `a8fbb6320fed` (supervised,
+they say it is not zero-shot). **hf:Modusnsus/laya-typed-decisions-multilingual**
+`49b2f8feaede` (a model-index starts in the card; the number was not copied).
+**hf:gnr8tr/falco-typed-decision-engine** `11829178b062` (an ONNX download
+note). **hf:Lamri26/laya-ignite** space sha `eb93a09db95b` (a Gradio
+bootstrap app). None of these is a new family.
+
+### README openings with no new family
+
+Each line is a README opening unless noted. No further result cell was copied.
+"Calibrated" in these banners is theirs.
+
+**ElsonNg/semcull** `7e060fdc00ec` (compact observations; more text only when
+asked). **hazlema/jev-riffs** `0ef8d5820c98` (code mines motifs; Jev grades
+them; ~600 ms is theirs). **itscloud0/codex-jev-native-router** `3bcffdec304a`
+(they say allowance savings and quality equivalence were not shown).
+**turenlabs/lisa** `6210c5311646` tag `v1.0.0`. **5dive-ai/5dive-laya**
+`0dcf2cadb2cc`. **AustinAWay/Equation-From-Jev-Research** `7c7f2b77d35c` tag
+`research-data-v2` (an exploratory fit; the match was not in the opening).
+**HappyMonkeyAI/kev-docker** `da5e002b53cf`. **LCW0NJUPT/KevANE** `aff9381757e3`
+(Kev 0.6B on Core ML). **MersivMedia/jermes** `e713dcebdafc`.
+**PatriwalaAmit/jev-opus-agent** `de57dffac730`. **Prince2k3/downshift**
+`a698ac9690fd` tag `v0.4.0`. **Shearerbeard/jev-driver** `83c5284b6aad`.
+**SungHoonKim-Ski/jev-trading-arena** `05b4fb74a74b` (a paper-trading arena;
+cells were not copied). **Theo-Gkisis/jevops** `05200c026d55` (Jev flags,
+Claude explains). **VBS2004/jevcut** `562c0cbbd390` (code lists the cuts).
+**YugabyteDB-Samples/meko-jev-code-review-agent** `e33cc42d1c43`.
+**ZeroNeroIV/SpeakCards** `bfe5e4e37c13` tag `LATEST`. **abp002/story-shapes**
+`bf325438f7a9` (Kev scores passages; "calibrated" is theirs; Kev is not
+Archer). **ahmedalkhair64bit/sql-server-query-al** `e7d961fc3c01`.
+**anuragfolio/figma-jev-console-mcp** `68a1af0058d8` tag `v0.6.0`.
+**champion19007/local-software-factory** `096e4e86c515`.
+**confident-christmasfactor2015/jev-ultrafast-mcp** `8a7b25bb3258` (not
+`jiawei686/jev-ultrafast-mcp`; no shared node). **ericmjl/pi-laya-skill-router**
+`d3b4db346dd7` ("calibrated" and ~35 ms are theirs). **gbesse/jev-workflow**
+`68d9e32bc431` tag `v0.2.0`. **iamkarp/SlopDetector** `bbf003fb0229`.
+**javaAndScriptDeveloper/jev-how-to** `1d760bdc3926`. **jjlinucb/prompt-check**
+`4023fe5ad721`. **kieranklaassen/truffler** `6a109b816bd9`.
+**majidansari786/Jev-Laya-Use-Cases-** `f1e5137884e0`. **masonweb3/liuyao**
+`fb85de98c98c`. **microdeft/jev-directory** `20f24b99c54d` (a title page; not
+`everyai-com/jev-directory`). **murushyam/telitall** `700bb0e9ea9e`.
+**nabendukarmakar/jev-vs-terra** `a4517c93543c` (the opening has no score
+cells). **noelserdna/colonias-felinas** `c0c4e274fe01`.
+**raulvazquez7/personal-finance-agent** `2b77617aebde` (rules, then Jev, then
+a person). **rominap22/strandsharness-langchain-jev** `6003242caa97`.
+**rukshan99/jev-fast-judgements** `da31a56d1d27` tag `v0.1.1`.
+**sallout/laya-classifier-finetuning** `70b6f306accd`. **srknkrbb/jev-ecc**
+`32d1be9c9b86`. **tienef/flickering-sign** `1c450686b059` tag `v0.1.0`.
+**twilso24/jev_router** `71a921add8fd` tag `v0.5.0`. **vunderkind/lagos-monopoly**
+`4124de7714e5`. **xut1021/fastercomputeruse** `0170d6818f6e` (one synthetic
+page; the keyless demo is a scripted replay). **zhenda-hub/laya-snake**
+`32813ae4a030`.
+
+Name collisions, not decision models: **faith-layanna/faith-layanna**
+`6f8ff37564d7` (a personal page). **jevis-icra/jevis-icra.github.io**
+`9637d07dd893` (a 3DGS project page).
+
+No README, metadata only: **kyu-softmatter/autofocus-jev** HEAD
+`427db4f50498e071b1de1f526f053b188f3fbfb4` (README 404). **nagieeb0/jevpilot-site**
+HEAD `5facbcc457577c6c9893e1e8d1601d3a10530a65` (README 404). Empty, no commit:
+**Paulo83-dev/ARTIGO---PSICOMETRIA---JEV-CC-** and
+**dimitrisdais/language-aware-decisions-for-banking**.
+
+The 28 research-only ids are names in the packet only.
+
+### Decision-design card
+
+```text
+Domain, desired behavior, decision owner: unchanged; code or a person owns the act
+Current baseline and why a model might help: public tables, calibration banners, wire servers, renames, and local readouts already have rules
+Pillar, placement, and family: no new family; laptop yes/no, logit readouts, quantizations, LoRA heads, and embedding checkpoints stay inside existing families
+Evidence source, freshness, candidate coverage, missing/contradictory states: 2026-09-25T18:26Z README and card openings; benches not rerun; 28 research-only rows not fetched; two empty GitHub repos; two READMEs 404; Jev-Omni weights not downloaded; typesafe-mcp confidence page not re-read
+Judgments and output semantics; what remains exact or generated: a public cell is not Harbor; a stability badge is not calibration; a rename that keeps the node is the same source; a quantization is not a new family
+Policy, costs/utility, constraints, authority, and execution checks: unchanged; shell confirms, tool blocks, spend caps, and dry-run traders stay in policy
+Abstention/error behavior and fallback owner: jeveto saves a handoff for a person; pi-typesafe-approve's outage allow-or-block was not in the opening
+Batchable versus dependent steps: unchanged
+Model, adapter/aggregation, rubric, candidate-source, calibration, policy versions: record jevos, the die study, and the Echo Snake table as separate instruments if a later placement needs them
+Development/calibration/test split and label provenance: Jev-Omni's 30,000-question sentence replaces the prior card's 24,000 only as their wording; MVBench is a new reported cell
+Falsifier, metrics, acceptable risk/coverage, and evaluation artifact: one run on our labels where a public table or stability badge in this hour changes the baseline
+Implementation/evaluation entry points; search budget and confirmation plan: none this hour
+Observed result, limitations, and next decision: research-only; next experiment only if a placement needs one of these wrappers on labels we control
+```
+
+Soft judgment is not the veto. The sources' own limits and the existing
+rules are. `invented_signal: false`.
+
+## 174. Hourly 1510 HIGH (2026-09-25 ~15:10 Boise / 2026-09-25T21:10Z)
+
+Folded onto `main` `dba551b64e70742dfe545625c36e2f5e638f97a9` (§173).
+About three hours after the 1210 watch. Mode NEW_OFF_MAIN. This fold is
+§174 only. Do not reclaim §165 through §173. Composition ranges ended at
+996 with §163. This fold assigns none.
+
+Research-only: no skill, human README, Pages, or package version change.
+Scoring rows stay at 17. Archer stays promised_not_landed. The packet has
+83 design-implication rows and 24 research-only rows. Retrieval for the
+GitHub and Hub calls below is 2026-09-25T21:29Z. Sixty-seven GitHub
+repositories were requested. Sixty-three README openings returned a HEAD.
+Three repositories have a HEAD and no README (`Razeefshaik/JevEval`,
+`aalekhpatel07/chess-system-one`, `wn-mitch/audle`). One repository is empty
+(`DavidArmendariz/jev-bullish-bearish`: default branch name `master`, disk
+size 0, commit HTTP 409, README 404; no SHA invented). Sixteen Hub calls
+were requested. Fifteen card openings were read. One model README returned
+404 (`hf:RodrigoBrasil2024/laya-concessionaria-pt`, sha
+`46799212442667719c57e1754630665f5057fd18`). The Space
+`DKNTZMN/gan8-vs-jev` was read separately from the model repo of the same
+slug. The 24 research-only rows were archived and not fetched.
+Third-party numbers stay *theirs*. No X calls. No Harbor numbers were invented.
+This run does not prove an unattended scheduler.
+
+### Acceptance
+
+**Problem.** An agent could treat a new release, a star count, a public
+accuracy line, the words calibrated or equivariant, or a temperature fit as
+a reason to add a scoring row or to change family. It could let a model
+own a shell command, a browser step, a UI click, or a merge.
+
+**Baseline.** Installed guidance already separates a leaderboard from a
+deployment evaluation, refuses to treat a training recipe or a softmax as
+calibration on this population, keeps the act in code or with a person, and
+keeps TypeSafe Jev as the default hosted exemplar for the class, not the
+class. A public slice is not Harbor. A wire path or a JSON schema is not
+logit equivalence. A quantization or a Core ML port is not a new family.
+Choice still depends on the offered set. A simpler baseline that wins stays
+the baseline. Mappings section 17 stays the last scoring section. FluidUse
+stays the §143 form specialist, not a sibling of `FluidInference/laya-coreml`.
+
+**Proposed improvement.** None in runtime files. Archive the sources' own
+limits where they already match those rules, and record the identity joins.
+
+**Assumptions.** A README opening, a card opening, or the v0.3.0 release
+notes are enough to refuse promotion. None of those is a reproduction. A
+description rewrite is not a new capability review. A moved SHA is a review
+trigger, not a new family. Stars are not a capability change. Agreement
+with the same model's other runtime, on that project's slice, is not a
+deployment evaluation.
+
+**Affected surfaces.** This section, the hourly archive, fingerprints for
+sources actually looked at, `sources.json` pointers, and the hourly logs.
+Not `SKILL.md`, not `README.md` below `## License`, not the site.
+
+**Checks.** `make check`. No Pages build. No behavioral scenario run, because
+installed guidance did not change.
+
+**Counterexample that would reject this disposition.** A held-out run, on
+labels and traffic this repository controls, where the Persian table, the
+FluidUse port agreement, InvariantOne's equivariance claim, or the enzyme
+homology comparison changes the baseline placement. A catalog count or a
+"2.5 million" wording change that changes which family to use would also
+reject leaving the catalogs research-only, and no such count is in this
+packet.
+
+### A port is not a new family
+
+**FluidInference/FluidUse** densify §143. Node `R_kgDOUjB8jg`. HEAD
+`e9e95935075b626a203bb20c0645975be23f15b1` to
+`c0d2a570e8d1c7a5d5070876c92d682a88043f96`. Release `v0.2.0` to `v0.3.0`
+(published 2026-09-25T18:52:08Z). Description hash unchanged
+`2e5b91ad5dfb`. README sha `7d246df7270a` to `1998f7cc7a3b`. License
+Apache-2.0. Stars at 163 are not a capability change. README opening and
+release notes. The opening still describes the form specialist: Accessibility
+API, CUA-S1-FORMS, about 1 ms on the Neural Engine, options rendered from a
+supplied profile. That clock is not the Decide bench. Release notes add
+GLiNER2.5-Decide on Core ML (`GLiNER2Variant.decide`, up to 4 questions by
+32 labels, weights from `fastino/GLiNER2.5-Decide`, Apache-2.0, pinned by
+revision and checksum). *Theirs*, Apple M5 Pro, 1,000 DBpedia abstracts:
+Core ML fp16 about 5.9 s and 1.0 GB versus gliner2 PyTorch 22.8 s and 5.7
+GB; accuracy 89.0% both; identical predictions on all 1,000. Fast Decisions
+public split: 62.9% average, identical to the original model on all 2,900
+decisions. Not Harbor. GLiNER2 is already in the class. A Core ML port is
+not a new family. Not Archer. No scoring row. The individual pull-request
+diffs named in the notes were not re-read. This is not
+`FluidInference/laya-coreml`.
+
+**hf:FluidInference/lfm2-5-350m-rlcd-coreml**, first fingerprint. Sha
+`5a3a9ca0b7157541c99d2394f12c5b51dbe4a484`. License `other` (lfm1.0). Card
+opening. Fixed-shape Core ML export of `notnotsamuel/LFM2.5-350M-RLCD`.
+They say the graph recomputes the prompt per candidate and is not the
+upstream cached schedule. *Theirs*: on nine selected upstream cases, Core ML
+chose the same values in 9/9, largest candidate log-likelihood difference
+0.0478. Nine selected cases are not a population. Not a new family.
+
+**hf:iapp/OpenThai-SystemOne-MLX-4bit** `ffb594c0e33f`, **MLX-8bit**
+`98703d819445`, **MLX-bf16** `1154ed3c0f80`, **MLX-mxfp4** `0ce1d33f63f7`,
+**MLX-nvfp4** `663a941b1bde`. Card openings, apache-2.0, quantized from
+`iapp/OpenThai-SystemOne`. The §173 GGUF and integer packs stay those
+artifacts. A quantization is not a new family. Qwen3.5 is not Archer.
+
+**hf:Emerald7664/laya-multilingual-onnx** `b9c10748a5e8`. ONNX int8 of
+`convaiinnovations/laya-multilingual`. **hf:badbat4560/gliclass-multilang-ultra-fp8w8a8**
+`2dbd39adc826`. FP8 of `knowledgator/gliclass-multilang-ultra`. *Theirs*,
+RTX 4050 Laptop: median 16.10 ms, 1.48 times the BF16 wrapper, 2.17 GiB,
+weight file 33.85% smaller, top-1 agreement 659/664 (99.25%). Agreement
+with the source checkpoint is not a new task result. GLiClass is already
+a class peer. **jerryshao2012/laya-mlx-demo** `6be67a791738` is a demo of
+an MLX FP16 conversion. **PixelKit-Labs/pixelkit-laya** is the same node
+`R_kgDOUryn8g` as `PixelKit-Labs/Pixelkit-laya`. HEAD `4bc8fa3c50af`. License
+Apache-2.0. A TypeScript SDK adapted from Laya is not a new family.
+
+### A public table is not Harbor
+
+**ArmanJR/Jev-Persian-Benchmark**, first fingerprint. Node `R_kgDOUk4cZg`
+(seen in the 2026-09-23 patrol list, no prior fingerprint). HEAD
+`bfa82d2e7ff2`. GitHub license null. README opening. Frozen set of 480
+authored Persian questions, dataset v1.0.0, scored locally, no runtime
+model judge. *Theirs*: 624/624 valid answers across 106 requests each.
+Jev `jev-1.13.0` via `typesafe-sdk==0.7.1` on 2026-09-22 UTC. Laya
+multilingual at `e4e9ddf21a7b1903b7acffd8814ad4307bf63a67`, `laya==0.3.20`,
+Apple M4 fp32, 2026-09-25 UTC. Choice accuracy 239/240 (99.6%) versus
+141/240 (58.75%). Noul, yes when p is at least 0.5, 159/160 (99.4%) versus
+102/160 (63.75%). Score within 0.5 rubric levels 76/80 (95.0%) versus
+28/80 (35.0%). Brier and MAE cells are in the same opening and were not
+copied into a scoring row. Not Harbor. No scoring row.
+
+**NikMibu/enzyme-function-benchmarks**, first fingerprint. Node
+`R_kgDOOJ2Nxg`. HEAD `efc437e8203d`. GitHub license null. README opening.
+`FINDINGS.md` was not opened. They say both experiments are concluded and
+that performance comes from homology search: Jev and Laya never do better
+than a simple method given the same information; on raw sequence they are
+at chance; with homolog evidence they tie the nearest neighbour. *Theirs*:
+an ESM-2 probe at 51.9% on the EC class with no detectable homolog in its
+training set; ProtT5 embedding neighbours as a fallback, 64.4% instead of
+62.5% on the exact EC (p = 0.031); LightGBM on homolog evidence, area under
+the risk-coverage curve 0.092 versus 0.173. CARE Task 1 is named at 1,140
+test proteins. Not Harbor. A simpler baseline that wins stays the baseline.
+This is not a recipe for making enzymes. No scoring row.
+
+**Charanraj-24/laya-reliability-** HEAD `867c40afc813`. License Apache-2.0.
+README opening. *Theirs*, Laya MASSIVE intent, 300 cases: 37 of 65 wrong
+answers still had `answer_confidence` of 0.90 or higher. They reorder
+options and rename them to letters. The wrapper does not replace Laya's
+prediction. A confidence statistic is not correctness. A stable wrong
+answer is still wrong. Choice still depends on the offered set.
+
+**hf:tasksource/tasksource-jev-typed-decisions** densify §169 and §172.
+Sha `18332e529f10cde1e808966235d3932171d56e69` to
+`64140435287238540b0d4e549be2f17202b87d0a`. Card opening. The headline is
+now "2.5 million typed decisions from 670 sources." The §172 opening said
+"two million" from "600+" tasks. Both sentences are theirs. The train,
+validation, and test counts from §168 were not in this opening and are not
+replaced. License `other`. A description rewrite is not a new row count.
+Not Harbor.
+
+### The act stays outside the score
+
+**gi-dellav/jevdo**, first fingerprint. Node `R_kgDOUnlqHQ` (patrol list,
+no prior fingerprint). HEAD `1ef504b700ab`. License GPL-3.0. README opening.
+`environment.toml` is the allowlist. Read actions run. Write and destructive
+actions ask for confirmation, default N, and a non-tty declines. `--dry-run`
+does not execute. The model picks inside the tree the file defines.
+
+**Nanako0129/stingray** HEAD `3594d6320ee5`. License MIT. Tag `v0.3.3`.
+README opening. A Claude Code Stop hook. They say the local count is what
+is running in the background, and Jev judges whether the turn did nothing,
+broke a promise, promised to watch something, or answered in the wrong
+language. The hook nudges. It does not own the turn.
+
+**XYenon/ajevt-browser** HEAD `2117150fdbf8`. License AGPL-3.0. README
+opening. Finite candidates, one System One request per step, a fresh
+snapshot guard, then an agent-browser command. **0pilatos0/jev-browser-mcp**
+HEAD `a878db1b2298`. License MIT. Different node. Indexed elements, no
+screenshots in the loop, code validates and executes. About 150 to 500 ms
+and about $0.0002 are theirs. Password elements are excluded in the opening.
+These are not the same server.
+
+**matejgordon/ha-jev-conversation** HEAD `f37b7ef07782`. License MIT. Tag
+`v0.1.2`. README opening. Jev picks intent and device. Code checks the
+domain and confirms. Execute-from confidence 0.85 and ask-back 0.5 are
+their policy, pinned to `typesafe/jev-1.13-20260917` so those cuts stay
+theirs. About 300 ms is theirs. **ps1x/LayaAssitant** HEAD `7bbc01ad6019`
+asks capability, then approved target, then action, and cannot submit an
+arbitrary entity id. **Ayushmaniar/jev-voice-computer-use** HEAD
+`2adf625d8cfc` tag `v1.0.0` types into the foreground window. That effect
+is their app. **musubipapi/computah** `80870742432d` and
+**sandracam64/jev-bot** `d3b3c80b4fdc` are Mac control wrappers.
+**tx-smitht/jev-focus-guard** `449f01e322da` hides elements the extension
+marks. **King4s/jev-game-engine** `dd26f1fa680e` lets Jev select a goal and
+a local executor move. **47vigen/catherd** `903bbbbcf7a5` tag `v0.2.1`
+lets Jev pick a model and effort. Routing is not authority over the worker.
+**left-try/jev-governor** `f6278f7d8409` records events and does not
+intercept an agent by itself. **umithavare/unwedge** `534b0c67ee51` is a
+circuit breaker; the linked benchmark was not copied. **prove-ai/jev-orchestration**
+`41e9fdc8d3ee` keeps an `unsure` branch to a person. **dmakam/jev-search-intent-classifier**
+`868f9648703a`: below their threshold, a person sorts. *Theirs*: 6,789
+queries in about 4 minutes for $0.29. **saahmadnejad/cline-option-scorer**
+`18352c5256c4` tag `v0.3.0`. "Calibrated" is the banner. The 72/25/3 line
+is an illustration. **Tech-Byte-Frontier/jevgate-action** `43277b8fe040`
+tag `v1.0.1` annotates a pull request and fails the job when the gate
+fails. This is not `Tech-Byte-Frontier/jevgate`. A failing check is not a
+merge. **deepansh-saxena/jev-voice-guardrail** `a1d8b88fc20a` compares Jev
+with a structured-output judge in a lab. The comparison cells were not in
+the opening.
+
+**nautahakk/aphasia-word-finder** HEAD `f4e82bb3ff5f`. GitHub license
+NOASSERTION. README opening. It picks from a fixed list of about 900 words
+plus the person's own names. The person taps before anything is said. They
+say it is a demo, not a medical device, and that it has not been tested
+with people who have aphasia. Choice still depends on the offered set.
+
+### Already inside the class
+
+**tradertanmay/InvariantOne** HEAD `e4faad40bab1`. License Apache-2.0.
+README opening. They encode each option on its own branch of
+`Qwen/Qwen3.5-4B-Base` and call the result exact permutation equivariance
+by construction. That sentence is their architecture claim. It was not run
+here. Weights at `TanmaySah/InvariantOne-v1` were not downloaded. Qwen3.5
+is not Archer. Choice still depends on the offered set, including on a
+model that claims order invariance. No scoring row.
+
+**foxl-ai/bobcat** HEAD `6179783a0ba3`. License Apache-2.0. README opening.
+Rank-16 LoRA on `Qwen/Qwen3.8-27B`, logits of the offered candidates, host
+builds the JSON. They say an answer can be wrong and cannot be malformed.
+A typed output is not truth. Weights at `sanghwa-na/bobcat-1` were not
+downloaded. Qwen3.8 is not Archer. Not a new family.
+
+**IluvatarLabs/kev** HEAD `45dc25edee1e`. License Apache-2.0. Tag `v0.1.0`.
+README opening. LoRA plus a shared pointer head, option-order-corrected
+teacher distributions, recipes for Qwen3-1.7B, 4B, and 8B. "Calibrated" is
+the banner. The quick start says the converter calibrates. That fit is
+theirs. Pretrained downloads are described as coming separately. This is
+not `jaredpalmer/kev` and not `Monstrofil/kev-ner`. Qwen3 is not Archer.
+
+**Monstrofil/kev-ner** HEAD `1871e37df1f4`. GitHub license null. README
+opening. One forward pass returns span pointers into the document. They
+say a value cannot be hallucinated because it is a printed span or "not
+printed." A pointer can still be the wrong span. *Theirs*: with 50 labelled
+sentences, 70 to 82 F1 on domains it has not seen. Not Harbor. Qwen3-4B is
+not Archer. Not TypeSafe Jev.
+
+**aliasfoxkde/OpenCodifier** HEAD `4ab024ca5127`. License Apache-2.0. Tag
+`v0.1.0`. README opening. Deterministic graphs and rules first. Jev is one
+adapter mode. A schema adapter is not logit equivalence. Loopback unless
+explicitly opened. Pre-1.0, their status.
+
+**RodrigoAlbe/system-one** HEAD `3496e6153e5d`. License MIT. README opening.
+Gemini, Groq, and Ollama with a JSON schema. A generator that emits JSON
+is not a logit readout. This is not `sgoedecke/system-one`.
+**Jumbo-Juice/local-system-one** `a1edd928a868` is a one-line proof of
+concept. No result cell.
+
+**wuwenbo0626/AutoJev** HEAD `55f7358284db`. GitHub license NOASSERTION.
+README opening. Training pipeline on Laya. They group by `group_id` so a
+question-level split does not leak, fit a temperature per question type on
+a set that does not train, and say they do not reproduce Jev's private
+recipe. A temperature on a sample is not calibration on this population.
+Laya is not Archer.
+
+**jasonduncan/semantic-operators** HEAD `e3e79adc9cf8`. License MIT. Tag
+`v0.11.0`. README opening. Jev and Laya providers. "Don't know" is
+abstention, already in the class. **Shanghua-Gao/RSI-Jev** HEAD
+`61a57053bbdc`. License MIT. Tag `v1.0`. README opening. Agents register
+predictions before GPU time and retire champions. That is an
+incumbent-challenger loop, not a new family. About 10 ms is theirs. This
+is not `yzxoi/RSI-Jev-Slay-the-Spire-2`. **sedthh/xjevboost** HEAD
+`d91797bf5d0b`. License Apache-2.0. README opening. It learns which table
+slices to send and when to stop. The quality claim was not measured here.
+**0x7067/pi-jev** HEAD `60b8de1e120d`. License MIT. Jev picks blocks to
+keep verbatim. No model writes the summary in that opening. This is not
+`TheoOliveira/pi-jev`, not `angribot/pi-jev`, and not `TypeLLM/pijev`.
+**hf:ryandcunha/mmbu-jev-qwen3-0.6b-freetext** sha `1e708c30802f`. The
+§173 closed sibling stays that card. This card says calibrated and names
+temperature 1.073 fitted on validation. `eval.json` was not opened. That
+fit is theirs. Qwen3-0.6B is not Archer. A wire path `/v1/systemone` is
+not logit equivalence.
+
+**hf:NAME0x0/Jevlet** sha `c59f2057ed44`. License mit. Card opening. Encoder
+`BAAI/bge-small-en-v1.5`. "Calibrated" is the banner. They point at GitHub
+commit `9d62c46989e9`, which was not fetched. Not a replica of TypeSafe Jev.
+**vishalmysore/layaMOE** HEAD `2fccbfe452f7`. License Apache-2.0. README
+opening. Frozen Laya encoder, small expert heads, original head as
+fallback. Work in progress. The measured-so-far cells were not copied.
+Hub `VishalMysore/layaMOE` sha `0e28c987cbe6` and `VishalMysore/laya-moe-web`
+sha `7526a63996ab` are license stubs, not that GitHub measurement.
+**TheClosedLoopCompany/connect-4-ai** `e9b67aeee7de`: code computes the
+tactical effect, Jev judges, and a Negamax solver is the perfect baseline.
+No win rate was in the opening. Keep the solver when it is the right
+baseline.
+
+### Description rewrites and unavailable bodies
+
+**javaAndScriptDeveloper/jev-how-to** densify §173. HEAD unchanged
+`1d760bdc392634af9c39e14a70a50abb9c79160b`. README sha unchanged
+`965c19f2ff83`. Description hash `4aab3c85c60f` to `61d5cec67f38`. README
+opening. The local stub returns the documented sample when no key is set.
+A stub is not a measurement.
+
+**AESMatias/Extracta**, first README. The 1211 packet named it and did not
+fetch it. Node `R_kgDOUpm-ww`. HEAD `8903cccbd739`. GitHub license null.
+The description now says Flask. The opening classifies documents and names
+Gemini as the default generator. Jev remains only in the description.
+A description rewrite is not a new family.
+
+**thomasjjj/system_one_classifications_human_rights**, first fingerprint.
+The packet called it a description rewrite; the id was not in the
+fingerprint store. Node `R_kgDOUrtyiA`. HEAD `27c58e35467a`. README opening.
+They say the repo is untested and that they are waiting for Jev access.
+Unknown. Not a deployment result.
+
+**hf:DKNTZMN/gan8-vs-jev**. The stored fingerprint is the Space. Space sha
+unchanged `d93f0800428ea1414de2f6061870203e617db89c`. Tags `static` and
+`region:us`. Last modified 2026-09-23T17:19:31.000Z. The packet's
+"description rewrite" is that tag line. The model repo is a different
+artifact, sha `858902d852eabf1ab57a896ae2b9ef87d7d8210a`, license
+apache-2.0, card opening this hour. They say the weights are a mechanism
+experiment, not hosted `jev-latest`. File sizes in the opening: gan8 3.5 KB,
+linear head 2.6 KB, MLP head 9.6 KB. Weights were not run. Do not replace
+the Space sha with the model sha. Not Harbor. Not a scoring row.
+
+**hf:MidhunKanadan/logic-jevam** sha `7f4c37cf4e50`. Dataset card. They
+attribute the texts to Jin et al. 2022 and say the upstream repo has no
+explicit licence, research use only, do not redistribute. Splits in the
+card: train 1849, dev 300, rq1_test 200. The texts were not copied. Not a
+run.
+
+### README openings with no new family
+
+Each line is a README opening unless noted. No further result cell was
+copied. "Calibrated" in a banner is theirs.
+
+**lostviolinist/crowdcut-jev-hedra** `c5b2be3f44df` (Jev groups suggestions;
+Hedra renders). **Muhammad-Mirab/dungeonmaster** `d9dbe89bfcbf`.
+**p4u/webscout** `c19f1d39f464`. **916099/jev-cttai-plugin** `ddce4d21ff43`
+tag `v0.1.3` (third-party key host; their terms, not ours).
+**BingelsWorth/JudgeJev** `901d51dd6835` (a working sample; "25% better" is
+an aside in that opening, not a result). **M47HIS/custom-voice-activator**
+`37a059c03e81`. **Matresaa18/djev-spark** `7f3c7e130bb7` (DiffusionGemma is
+not a new family; Gemma is not Archer). **PatterCJ/risk-indexer**
+`ce02e15fce80`. **RodolfoBonis/jev-vs-laya-dino** `99072b567662` license
+NOASSERTION (live dino; latency panel; no score cell in the opening).
+**Rohan0603/jev-tic-tac-toe** `0bf002c24887` (legal moves; when Jev is
+unavailable the opening was cut before the fallback). **ayushap18/tracegraph**
+`a4c91c6c3b60`. **coltonspears/JevClassifier** `8c7332a19a11` (routing demo).
+**gabazureus/jev-ragcheck** `b3485f140379` tag `v0.1.0` (verdicts with
+offsets; cells not copied). **geninchristophe888-spec/skillbox**
+`9a015d21ea01` (not `kitze/skillbox`). **giovannirco/jev-playground**
+`9fa543900b82`. **gongiskhan/jevellan** `6b908a2ba047`.
+**guillaumeduranton-lab/lemonde-mcp** `5e6c3954b8f4` (triage is not access
+to the subscription). **guillermojmontenegro-hub/LayaTUI-MCP**
+`af5c74a9b9ec` (title page). **ratheesh-aot/laya-local-http-server**
+`a5866329183d`. **theMTset/pi-capability-assessment-skill** `e2c8502c7e6d`
+(advisory).
+
+No README, metadata only: **Razeefshaik/JevEval** HEAD `87e0fca64ea6`.
+**aalekhpatel07/chess-system-one** HEAD `232397da4f3f`. **wn-mitch/audle**
+HEAD `aa2a94b6b1e1`. Empty, no commit: **DavidArmendariz/jev-bullish-bearish**.
+Hub metadata only: **hf:RodrigoBrasil2024/laya-concessionaria-pt** sha
+`46799212442667719c57e1754630665f5057fd18` (README 404).
+
+The 24 research-only ids are names in the packet only.
+
+### Decision-design card
+
+```text
+Domain, desired behavior, decision owner: unchanged; code or a person owns the act
+Current baseline and why a model might help: public tables, calibration banners, ports, quantizations, and schema wrappers already have rules
+Pillar, placement, and family: no new family; GLiNER2, GLiClass, Laya, Qwen, Gemma, and JSON-schema generators stay inside existing families
+Evidence source, freshness, candidate coverage, missing/contradictory states: 2026-09-25T21:29Z README and card openings plus FluidUse v0.3.0 release notes; benches not rerun; 24 research-only rows not fetched; one empty GitHub repo; three READMEs 404; one Hub README 404; weights not downloaded; enzyme FINDINGS.md not opened; Persian Brier cells not promoted
+Judgments and output semantics; what remains exact or generated: a public cell is not Harbor; a port match is not a new family; a pointer can be the wrong span; a typed JSON reply is not a logit
+Policy, costs/utility, constraints, authority, and execution checks: unchanged; allowlists, confirmations, snapshot guards, and job failures stay in policy
+Abstention/error behavior and fallback owner: aphasia word finder says it is unsure and waits for a tap; tic-tac-toe's outage path was past the opening
+Batchable versus dependent steps: unchanged
+Model, adapter/aggregation, rubric, candidate-source, calibration, policy versions: record the Persian instrument and the enzyme homology comparison as separate reported tables if a later placement needs them
+Development/calibration/test split and label provenance: tasksource's 2.5 million / 670 sources sentence is their new headline; the §168 split counts were not in this opening
+Falsifier, metrics, acceptable risk/coverage, and evaluation artifact: one run on our labels where a public table, a port agreement, or an equivariance claim in this hour changes the baseline
+Implementation/evaluation entry points; search budget and confirmation plan: none this hour
+Observed result, limitations, and next decision: research-only; next experiment only if a placement needs one of these instruments on labels we control
+```
+
+Soft judgment is not the veto. The sources' own limits and the existing
+rules are. `invented_signal: false`.

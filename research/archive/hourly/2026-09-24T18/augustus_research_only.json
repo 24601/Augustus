@@ -1,0 +1,625 @@
+[
+  {
+    "id": "AbdulHannan-o1/laya_mcp",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/AbdulHannan-o1/laya_mcp",
+    "pushed_at": "2026-09-24T17:25:44Z",
+    "created_at": "2026-09-24T17:17:55Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "AdityaMogare/Jev-CI-Triage",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/AdityaMogare/Jev-CI-Triage",
+    "pushed_at": "2026-09-24T17:42:34Z",
+    "created_at": "2026-09-24T17:42:33Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Ajasra/jev-hooks",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/Ajasra/jev-hooks",
+    "pushed_at": "2026-09-24T18:09:10Z",
+    "created_at": "2026-09-24T18:08:01Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "DhanushPrince/jev-web-agent",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/DhanushPrince/jev-web-agent",
+    "pushed_at": "2026-09-24T18:12:38Z",
+    "created_at": "2026-09-24T18:02:52Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "HamzaShaikh17/jev-experiments",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/HamzaShaikh17/jev-experiments",
+    "pushed_at": "2026-09-24T18:13:09Z",
+    "created_at": "2026-09-24T17:58:50Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "HuanLi0311/jev",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/HuanLi0311/jev",
+    "pushed_at": "2026-09-24T17:27:43Z",
+    "created_at": "2026-09-23T16:21:09Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Jwuthri/SelfJev",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/Jwuthri/SelfJev",
+    "pushed_at": "2026-09-24T17:55:23Z",
+    "created_at": "2026-09-23T19:38:27Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "KeeganFargher/auto-jev",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/KeeganFargher/auto-jev",
+    "pushed_at": "2026-09-24T17:54:52Z",
+    "created_at": "2026-09-24T08:18:35Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "LMDHQ-0420/Vision-Jev",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/LMDHQ-0420/Vision-Jev",
+    "pushed_at": "2026-09-24T17:54:56Z",
+    "created_at": "2026-09-24T07:44:37Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Loofy147/Open-System-One",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/Loofy147/Open-System-One",
+    "pushed_at": "2026-09-24T16:20:24Z",
+    "created_at": "2026-09-24T15:55:40Z",
+    "found_via": [
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "SanjaySathish/laya-integration",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/SanjaySathish/laya-integration",
+    "pushed_at": "2026-09-24T15:59:26Z",
+    "created_at": "2026-09-24T06:39:31Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "Solly922/pi-jev-router",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/Solly922/pi-jev-router",
+    "pushed_at": "2026-09-24T17:56:42Z",
+    "created_at": "2026-09-22T21:30:24Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "SunnyBagal/Jev",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/SunnyBagal/Jev",
+    "pushed_at": "2026-09-24T17:39:22Z",
+    "created_at": "2026-09-24T17:26:12Z",
+    "found_via": [
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "aarontaycheehsien/jev-systematicreview",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/aarontaycheehsien/jev-systematicreview",
+    "pushed_at": "2026-09-24T17:49:34Z",
+    "created_at": "2026-09-24T17:26:32Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "arthurfiorette/jev-playwright",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/arthurfiorette/jev-playwright",
+    "pushed_at": "2026-09-24T18:03:57Z",
+    "created_at": "2026-09-24T16:54:44Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "banksoalgere/jev_drone",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/banksoalgere/jev_drone",
+    "pushed_at": "2026-09-24T17:57:33Z",
+    "created_at": "2026-09-24T17:57:31Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "cgasgarth/system-one-computer-use",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/cgasgarth/system-one-computer-use",
+    "pushed_at": "2026-09-24T16:51:54Z",
+    "created_at": "2026-09-24T05:36:04Z",
+    "found_via": [
+      "system-one_pushed",
+      "system-one_created",
+      "system_one_spaced_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "collectingisfan/gliner-trained",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/collectingisfan/gliner-trained",
+    "pushed_at": "2026-09-24T16:58:32Z",
+    "created_at": "2026-09-24T16:43:59Z",
+    "found_via": [
+      "GLiNER_created",
+      "GLiNER_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "danmaps/jevmap",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/danmaps/jevmap",
+    "pushed_at": "2026-09-24T17:59:28Z",
+    "created_at": "2026-09-24T07:03:16Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "dockndevai/mcp-laya",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/dockndevai/mcp-laya",
+    "pushed_at": "2026-09-24T17:51:33Z",
+    "created_at": "2026-09-24T16:57:19Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "dtsuka/jev-review",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/dtsuka/jev-review",
+    "pushed_at": "2026-09-24T17:51:57Z",
+    "created_at": "2026-09-17T00:38:49Z",
+    "found_via": [
+      "jev_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "greghavens/jev-graph-builder",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/greghavens/jev-graph-builder",
+    "pushed_at": "2026-09-24T17:51:24Z",
+    "created_at": "2026-09-24T16:08:51Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:khushali678/laya-meme-app",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "static region:us",
+    "html_url": "https://huggingface.co/spaces/khushali678/laya-meme-app",
+    "pushed_at": "2026-09-24T17:00:51.000Z",
+    "created_at": "2026-09-24T16:16:45.000Z",
+    "found_via": [
+      "spaces_laya"
+    ],
+    "hf_kind": "space",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "hf:leehack/flutter-laya-tetris",
+    "source": "huggingface",
+    "stars": 0,
+    "why": "static region:us",
+    "html_url": "https://huggingface.co/spaces/leehack/flutter-laya-tetris",
+    "pushed_at": "2026-09-24T16:32:49.000Z",
+    "created_at": "2026-09-24T15:38:02.000Z",
+    "found_via": [
+      "spaces_laya"
+    ],
+    "hf_kind": "space",
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "himanshu231204/jev_model_routers",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/himanshu231204/jev_model_routers",
+    "pushed_at": "2026-09-24T18:07:09Z",
+    "created_at": "2026-09-24T12:50:54Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "its-negy-lmsy/everything-laya",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/its-negy-lmsy/everything-laya",
+    "pushed_at": "2026-09-24T17:48:10Z",
+    "created_at": "2026-09-24T17:42:05Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "itsvrushabh/laya_demo",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/itsvrushabh/laya_demo",
+    "pushed_at": "2026-09-24T17:49:52Z",
+    "created_at": "2026-09-24T17:44:16Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "kallurayaankit/jev-ticket-router",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/kallurayaankit/jev-ticket-router",
+    "pushed_at": "2026-09-24T17:56:58Z",
+    "created_at": "2026-09-24T17:44:41Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "karankessy/jevStudioPublic",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/karankessy/jevStudioPublic",
+    "pushed_at": "2026-09-24T17:47:16Z",
+    "created_at": "2026-09-24T17:36:47Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "kayzn-io/decision-models-as-judges",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/kayzn-io/decision-models-as-judges",
+    "pushed_at": "2026-09-24T17:49:18Z",
+    "created_at": "2026-09-24T17:49:17Z",
+    "found_via": [
+      "decision_model_llm_pushed",
+      "decision_model_llm"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "luiz0ar/laya-rex",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/luiz0ar/laya-rex",
+    "pushed_at": "2026-09-24T17:23:55Z",
+    "created_at": "2026-09-24T15:21:26Z",
+    "found_via": [
+      "Laya_pushed",
+      "Laya_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "omkarchougule19/Jev_validation_agent",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/omkarchougule19/Jev_validation_agent",
+    "pushed_at": "2026-09-24T17:42:28Z",
+    "created_at": "2026-09-23T02:47:08Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "palladiumailab-collabmAILab/MCP-Jev",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/palladiumailab-collabmAILab/MCP-Jev",
+    "pushed_at": "2026-09-24T18:03:08Z",
+    "created_at": "2026-09-22T14:56:45Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "palladiumailab-collabmAILab/jev-guided-minimax-h3-sparse-attention",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/palladiumailab-collabmAILab/jev-guided-minimax-h3-sparse-attention",
+    "pushed_at": "2026-09-24T18:02:54Z",
+    "created_at": "2026-09-16T20:39:27Z",
+    "found_via": [
+      "jev_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "swipswaps/opencode-deepseek-jev",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/swipswaps/opencode-deepseek-jev",
+    "pushed_at": "2026-09-24T17:50:07Z",
+    "created_at": "2026-09-19T23:10:35Z",
+    "found_via": [
+      "jev_pushed"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "umatter/jevtools",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/umatter/jevtools",
+    "pushed_at": "2026-09-24T17:42:24Z",
+    "created_at": "2026-09-24T13:54:15Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  },
+  {
+    "id": "xingtu1228/Jev-Mobile",
+    "source": "github",
+    "stars": 0,
+    "why": "novel first-seen peer",
+    "html_url": "https://github.com/xingtu1228/Jev-Mobile",
+    "pushed_at": "2026-09-24T18:04:43Z",
+    "created_at": "2026-09-24T17:32:35Z",
+    "found_via": [
+      "jev_pushed",
+      "jev_created"
+    ],
+    "hf_kind": null,
+    "fork": false,
+    "kind": "novel",
+    "material": []
+  }
+]

@@ -1,0 +1,208 @@
+[
+  {
+    "id": "adambloebaum/laya-blackjack",
+    "sha": "14af6820702b3d6eb47d5f9e395f7852af3767ec",
+    "pipeline": null,
+    "likes": 2,
+    "tags": [
+      "safetensors",
+      "blackjack",
+      "simulation",
+      "decision-making",
+      "modernbert",
+      "laya",
+      "probability-calibration",
+      "en",
+      "base_model:convaiinnovations/laya",
+      "base_model:finetune:convaiinnovations/laya",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "base": "convaiinnovations/laya",
+    "license": "apache-2.0",
+    "readme_status": 200,
+    "readme_opening": "---\nlicense: apache-2.0\nlanguage:\n- en\nbase_model: convaiinnovations/laya\nbase_model_relation: finetune\ntags:\n- blackjack\n- simulation\n- decision-making\n- modernbert\n- laya\n- probability-calibration\n---\n\n# Laya Blackjack\n\nA full-model adaptation of [Laya](https://huggingface.co/convaiinnovations/laya) for public-information blackjack research. One learned player shares a finite shoe with up to six"
+  },
+  {
+    "id": "techtheist/laya-onnx",
+    "sha": "6ca7822091b315d260f5cb7bfa82f6acc94bbffc",
+    "pipeline": null,
+    "likes": 2,
+    "tags": [
+      "onnxruntime",
+      "onnx",
+      "laya",
+      "quantized",
+      "int4",
+      "int8",
+      "natural-language-inference",
+      "typed-decisions",
+      "base_model:convaiinnovations/laya",
+      "base_model:quantized:convaiinnovations/laya",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "base": [
+      "convaiinnovations/laya",
+      "convaiinnovations/laya-multilingual"
+    ],
+    "license": "apache-2.0",
+    "readme_status": 200,
+    "readme_opening": "---\nlicense: apache-2.0\nlibrary_name: onnxruntime\nbase_model:\n  - convaiinnovations/laya\n  - convaiinnovations/laya-multilingual\ntags:\n  - onnx\n  - laya\n  - quantized\n  - int4\n  - int8\n  - natural-language-inference\n  - typed-decisions\n---\n\n# Laya — ONNX exports with a dynamic sequence length (int4 / int8)\n\nUnofficial ONNX exports of [Laya](https://github.com/NandhaKishorM/laya) by Convai Innovati"
+  },
+  {
+    "id": "16sulphur/laya-prompt-guard",
+    "sha": "1c36ead5ccca7568fd105b3b0772dc5171a56bd0",
+    "pipeline": null,
+    "likes": 1,
+    "tags": [
+      "laya",
+      "safetensors",
+      "gutcheck",
+      "classification",
+      "base_model:convaiinnovations/laya",
+      "base_model:finetune:convaiinnovations/laya",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "base": "convaiinnovations/laya",
+    "license": "apache-2.0",
+    "readme_status": 200,
+    "readme_opening": "---\nlicense: apache-2.0\nbase_model: convaiinnovations/laya\nlibrary_name: laya\ntags: [laya, gutcheck, classification]\n---\n\n# laya-prompt-guard\n\nA [Laya](https://huggingface.co/convaiinnovations/laya) checkpoint (`convaiinnovations/laya`) fine-tuned for the\n[gutcheck](https://github.com/16SULPHUR/gutcheck) `prompt-guard` pack: Screens text sent to an LLM for prompt injection and jailbreak attempts. "
+  },
+  {
+    "id": "atmaneayoub/jev-ar",
+    "sha": "8b3f4de2861a8d7cfe36053558a8b9701d33c597",
+    "pipeline": "zero-shot-classification",
+    "likes": 1,
+    "tags": [
+      "safetensors",
+      "arabic",
+      "gulf-arabic",
+      "emirati",
+      "saudi",
+      "code-switching",
+      "intent-routing",
+      "intent-classification",
+      "rag",
+      "routing",
+      "zero-shot-classification",
+      "ar",
+      "en",
+      "base_model:jhu-clsp/mmBERT-base",
+      "base_model:finetune:jhu-clsp/mmBERT-base",
+      "license:cc-by-nc-4.0",
+      "region:us"
+    ],
+    "base": "jhu-clsp/mmBERT-base",
+    "license": "cc-by-nc-4.0",
+    "readme_status": "HTTP Error 401: Unauthorized",
+    "readme_opening": ""
+  },
+  {
+    "id": "AndyInQtr/laya-decision-plugin",
+    "sha": "723300125bfbdab8eb40539830d454728ea115cf",
+    "pipeline": "text-classification",
+    "likes": 0,
+    "tags": [
+      "core-ai",
+      "apple-silicon",
+      "decision-model",
+      "tool-routing",
+      "guardrail",
+      "classification",
+      "on-device",
+      "text-classification",
+      "base_model:convaiinnovations/laya-multilingual",
+      "base_model:finetune:convaiinnovations/laya-multilingual",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "base": "convaiinnovations/laya-multilingual",
+    "license": "apache-2.0",
+    "readme_status": 200,
+    "readme_opening": "---\nlicense: apache-2.0\nbase_model: convaiinnovations/laya-multilingual\ntags:\n  - core-ai\n  - apple-silicon\n  - decision-model\n  - tool-routing\n  - guardrail\n  - classification\n  - on-device\npipeline_tag: text-classification\n---\n\n# Laya Decision-Plugin — combined Core AI decision model (r15)\n\nA **typed decision classifier** for coding agents: given an agent state and a\ntyped question, it answers *"
+  },
+  {
+    "id": "LinRin0306/openjev-detector",
+    "error": "HTTP Error 401: Unauthorized",
+    "readme_opening": ""
+  },
+  {
+    "id": "TheUsurper09/aarogyamitra-laya-intent-router",
+    "sha": "0925fe34b86b65a668ab30cc962b9d3a694ba62a",
+    "pipeline": null,
+    "likes": 0,
+    "tags": [
+      "safetensors",
+      "modernbert",
+      "region:us"
+    ],
+    "base": null,
+    "license": null,
+    "readme_status": "HTTP Error 404: Not Found",
+    "readme_opening": ""
+  },
+  {
+    "id": "ai-ml-space/laya",
+    "sha": "6b481ab01da2d74d27be9bf7ce1b6a8aaa3ba68e",
+    "pipeline": "text-classification",
+    "likes": 0,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "laya",
+      "system-one",
+      "calibrated-decisions",
+      "rlcd",
+      "classification",
+      "routing",
+      "scoring",
+      "guardrails",
+      "moderation",
+      "reinforcement-learning",
+      "commercial-use",
+      "text-classification",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "base": null,
+    "license": "apache-2.0",
+    "readme_status": 200,
+    "readme_opening": "---\nlicense: apache-2.0\nlibrary_name: transformers\npipeline_tag: text-classification\ntags: [laya, system-one, calibrated-decisions, rlcd, classification, routing, scoring, guardrails, moderation, reinforcement-learning, commercial-use]\n---\n\n# Laya\n\n**Multilingual, non-autoregressive System 1 decision model.** Give it a **state** (text, email, ticket, or JSON) and **typed questions**; it returns ty"
+  },
+  {
+    "id": "atmaneayoub/jev-ar-bench",
+    "error": "HTTP Error 401: Unauthorized",
+    "readme_opening": ""
+  },
+  {
+    "id": "chaoliangUNSW/jev-style-demo",
+    "error": "HTTP Error 401: Unauthorized",
+    "readme_opening": ""
+  },
+  {
+    "id": "chaoliangUNSW/jev-style-v3",
+    "error": "HTTP Error 401: Unauthorized",
+    "readme_opening": ""
+  },
+  {
+    "id": "harlley/basic-agentic-ui-system-one",
+    "error": "HTTP Error 401: Unauthorized",
+    "readme_opening": ""
+  },
+  {
+    "id": "leobitz/jev-berta-base-zeroshot-classifier",
+    "sha": "d5db5bc920fefdeb9b10d26f947e41eafa604e8f",
+    "pipeline": null,
+    "likes": 0,
+    "tags": [
+      "region:us"
+    ],
+    "base": null,
+    "license": null,
+    "readme_status": "HTTP Error 404: Not Found",
+    "readme_opening": ""
+  }
+]

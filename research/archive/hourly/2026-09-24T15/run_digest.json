@@ -1,0 +1,18 @@
+{
+  "watch": "0922",
+  "boise": "2026-09-24 09:22 America/Boise",
+  "retrieval": "2026-09-24T15:33Z",
+  "mode": "NEW_OFF_MAIN",
+  "base": "125507c8600a5ab9ea4214cc16804c1c4f8486a6",
+  "design_items": 267,
+  "research_only_items": 81,
+  "novel": 248,
+  "revisit_description_rewrite": 19,
+  "readme_or_card_openings_fetched": 50,
+  "hf_cards_requested": 11,
+  "invented_signal": false,
+  "x_calls": false,
+  "scoring_rows": 17,
+  "disposition": "research-only",
+  "package_bump": false
+}

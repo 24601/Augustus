@@ -1,3 +1,68 @@
+## Hourly 1510 HIGH (notes.md §174)
+
+- Folded onto `main` `dba551b64e70742dfe545625c36e2f5e638f97a9`. About
+  three hours after hourly 1210 (§173). This fold is §174 only.
+  Research-only. Does not bump the package. Scoring rows stay at 17.
+  `invented_signal: false`. No X calls.
+- FluidUse v0.3.0 adds a GLiNER2.5-Decide Core ML port. The 89.0% line is
+  agreement with their PyTorch slice. *Theirs.* Not Harbor. Not a new
+  family. The form specialist stays §143. No scoring row.
+- The Persian authored table and the enzyme homology comparison stay
+  separate instruments. A confidence of 0.90 is not correctness. Qwen and
+  Gemma names in this hour are not Archer.
+
+## Hourly 0918 HIGH (notes.md §172)
+
+- Folded onto `main` `e3e712b6054f4ab558aa939ff5b2efb4bfbd2787`. About
+  eighteen hours after hourly 1510 (§171). This fold is §172 only.
+  Research-only. Does not bump the package. Scoring rows stay at 17.
+  `invented_signal: false`. No X calls.
+- mode-io/vllm-jev is Egbertjing/vllm-jev, same node. A vLLM server is not
+  a new family. JevEmbed is an embedding readout already inside the class.
+  lev's Qwen3.5 LoRA is not Archer. No scoring row.
+- Laya's public SST-2 `noul` and `choice` rows are different questions.
+  *Theirs.* Not Harbor. A 1,442 catalog count and a 359 scrape are both
+  theirs. MorrowCache keeps the jevcache npm name.
+
+## Hourly 1510 HIGH (notes.md §171)
+
+- Folded onto `main` `adc7369ed78b6f71e0cc7d4d8625a8efa1127c60`. About three
+  hours after hourly 1211 (§170). This fold is §171 only. Research-only.
+  Does not bump the package. Scoring rows stay at 17.
+  `invented_signal: false`. No X calls.
+- jev-recipes says 236 recipes and "calibrated". Both are theirs. A catalog
+  count is not a family choice. No scoring row.
+- Kapteeni's 65.71 is the JevBench public half. *Theirs.* The mock Jev
+  column in blacksinisterx/jev-bench is not a Jev measurement. Not Harbor.
+- Browser, mail, and permit wrappers still leave the act in policy. jevgate's
+  finding is not a merge. Qwen3.5 mirror names are not Archer.
+
+## Hourly 1211 HIGH (notes.md §170)
+
+- Folded onto `main` `33ba9c516dc10483562c0c316579c6e386a53eeb`. About three
+  hours after hourly 0922 (§169). This fold is §170 only. Research-only.
+  Does not bump the package. Scoring rows stay at 17.
+  `invented_signal: false`. No X calls.
+- kev description now names Qwen3.5 and Qwen3.8. That sentence is theirs.
+  Qwen is not Archer. No scoring row. awesome-jev's 1171 is a catalog count.
+- Chat copilots, including the iOS keyboard, still leave send with the
+  person. JevForge Actions recommend and do not resize, assign, or skip
+  on their own. Healthcare and solicitation tables stay separate instruments.
+
+## Hourly 0922 HIGH (notes.md §169)
+
+- Folded onto `main` `125507c8600a5ab9ea4214cc16804c1c4f8486a6`. Overnight
+  gap after hourly 1531 (§168). This fold is §169 only. Research-only. Does
+  not bump the package. Scoring rows stay at 17. `invented_signal: false`.
+  No X calls.
+- Eikos hard-tier numbers, Nagi's four-system table, and a 60-intent French
+  snapshot stay separate instruments. No scoring row. "Calibrated" banners
+  stay on their populations.
+- Soter deletion, a laya-trade close, and CI skips stay in policy or an
+  allowlist. Catalog counts (896, 1207) are not endorsements.
+- reflexbench HEAD moved. §168's headline stays on the prior SHA. jeva's
+  100% was not copied from an eval file. Tasksource row counts are unchanged.
+
 ## Hourly 1531 HIGH (notes.md §168)
 
 - Folded onto `main` `bc0593617c413cd042f58a52274e89c48b216f8d`. Gap after
