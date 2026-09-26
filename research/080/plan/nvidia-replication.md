@@ -155,3 +155,57 @@ source, rather than by a disagreement discovered afterwards.
 The bundle note now carries epochs, lr, init, seed, the script path, its ref and its file sha256.
 The lesson generalizes past E1: **a receipt that records fitted outputs but not the procedure that
 produced them is not a reproducible instrument**, however precisely it states its temperatures.
+
+## Outcome, 2026-09-26: both experiments replicate, and the one difference is a backend
+
+E1 on an NVIDIA L4 and E3 on an A100, both against bundles that carried inputs only. Full receipts:
+`receipts/e1-nvidia-2026-09-26.md`, `receipts/e3-2026-09-25.md` and
+`receipts/e3-determinism-2026-09-24.md`.
+
+**Every conclusion holds and nothing was adjusted afterwards.**
+
+- E1's three named expectations, written before either run: cost-aware thresholding beats the stale
+  0.5 threshold from −0.0034 to −0.0481, bracketing the original range; recalibration removes
+  **42.17%** of the prior-shift penalty against the original 42%; and P9's non-inferiority half is
+  still **refuted**, at +0.002453 against a 0.001071 margin — **bit-identical** to gfx1151.
+- E3's three contrasts agree to the third decimal with every verdict unchanged, including **P5,
+  which the plan named in advance as the uncertain row.** It is powered and failed on both machines.
+- E3's arm selection is identical: the same four choices from a search table whose every row differs
+  bitwise from the one that produced them on ROCm.
+- E1's refit temperatures moved by **6 × 10⁻⁸**, and across 68 contrast rows there were **zero mode
+  or power flips**.
+
+**The one thing that did not replicate is the failure.** E3's determinism check recorded 100% joint
+rerun disagreement on gfx1151; a same-box NVIDIA rerun measured 0.0000, with identical answers,
+identical actions and identical exact-float probabilities. E1 agrees from the other side: its
+temperature re-derived on four different L4s with drift exactly 0, and a repeated civil fit produced
+a byte-identical report. **Within-vendor determinism holds on NVIDIA in both experiments and failed
+on ROCm in one** — so that caveat belongs to a backend, not to the method.
+
+### Where σ̂ moved, and why it is the right arm
+
+E1's σ̂ differences concentrate entirely in **arm C, the MLP** — the only arm with a randomly
+initialised hidden layer, and therefore the only one where first-gradient kernel differences can
+steer an optimizer. Every row involving A, B-stale, B-retrain, C* or E matches to four decimals or
+better. A cross-platform difference landing exactly where the mechanism predicts is stronger
+evidence than uniform agreement would have been.
+
+### What this replication is not
+
+Both runs used Colab, not the pinned container this plan asks for. transformers 5.16.1, torch 2.11
+and 2.13, and the driver stack were Google's choices on the day, so **more than the card changed**
+and no cross-platform difference can be attributed to the vendor. That cuts one way here: the
+perturbation was larger than intended, agreement under a larger perturbation is stronger evidence,
+and a disagreement would have been the unattributable case this plan warns about. None was found.
+
+E3's `e3_sigma.main()` was not exercised, because it requires a second reader table that was never
+shipped. E1's civil predictions came from a chunked `e1_stream.py` rather than `e1_predict.py`,
+verified bitwise identical on all 23 arms × 12,845 CLINC rows — one corpus, and the receipt says so.
+
+### An operational finding worth keeping
+
+Colab reclaimed four of five E1 VMs at 55–80 minutes. The expensive loss was a **finished** 1.37M-row
+prediction that sat on disk while packing happened minutes later. **A 40-minute contiguous GPU job
+is not reliably schedulable in this envelope; a chunked one is.** After the driver was changed to
+pack and hash as its last action and to commit a result every 65,536 rows, a reclaim cost minutes:
+on the fourth, 917,504 rows were already off the VM and the run finished from there.
